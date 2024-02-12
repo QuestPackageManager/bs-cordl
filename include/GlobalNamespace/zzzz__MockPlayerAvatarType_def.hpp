@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::MockPlayerAvatarType);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5180))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4519))
 // CS Name: ::MockPlayerAvatarType
 struct CORDL_TYPE MockPlayerAvatarType {
 public:

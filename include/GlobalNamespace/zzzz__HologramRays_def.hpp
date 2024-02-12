@@ -63,8 +63,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__HologramRays___FadingCoroutine_d__28);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(16090))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5114))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(16199))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4452))
 // CS Name: ::HologramRays::<FadingCoroutine>d__28*
 class CORDL_TYPE __HologramRays___FadingCoroutine_d__28 : public ::System::Object {
 public:
@@ -147,22 +147,22 @@ public:
 
   static inline ::GlobalNamespace::__HologramRays___FadingCoroutine_d__28* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor, addr 0x23d1698, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x238b234, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x23d1814, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x238b3b0, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext, addr 0x23d1818, size 0x188, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x238b3b4, size 0x188, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x23d19a0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x238b53c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x23d19a8, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x238b544, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x23d19e8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x238b584, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__HologramRays___FadingCoroutine_d__28", modifiers: "&&", def_value: None }]
@@ -219,8 +219,8 @@ static_assert(offsetof(::GlobalNamespace::__HologramRays___FadingCoroutine_d__28
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 157, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5115))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(8995))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4453))
 // CS Name: ::HologramRays*
 class CORDL_TYPE HologramRays : public ::UnityEngine::MonoBehaviour {
 public:
@@ -408,39 +408,39 @@ public:
 
   static inline ::UnityEngine::MaterialPropertyBlock* getStaticF__materialPropertyBlock();
 
-  /// @brief Method RuntimeInit, addr 0x23d0fb8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method RuntimeInit, addr 0x238ab54, size 0x58, virtual false, abstract: false, final false
   static inline void RuntimeInit();
 
-  /// @brief Method Awake, addr 0x23d1010, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x238abac, size 0x13c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnDisable, addr 0x23d114c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x238ace8, size 0x20, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnValidate, addr 0x23d116c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x238ad08, size 0x7c, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method Update, addr 0x23d145c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x238aff8, size 0x4, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method Refresh, addr 0x23d11e8, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x238ad84, size 0x274, virtual false, abstract: false, final false
   inline void Refresh();
 
-  /// @brief Method Animate, addr 0x23d1460, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Animate, addr 0x238affc, size 0xc8, virtual false, abstract: false, final false
   inline void Animate(bool turningOn, float_t duration, ::GlobalNamespace::EaseType easeType);
 
-  /// @brief Method FadingCoroutine, addr 0x23d1528, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method FadingCoroutine, addr 0x238b0c4, size 0x94, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* FadingCoroutine(bool turningOn, float_t duration, ::GlobalNamespace::EaseType easeType);
 
-  /// @brief Method UpdateBounds, addr 0x23d15bc, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method UpdateBounds, addr 0x238b158, size 0xdc, virtual false, abstract: false, final false
   inline void UpdateBounds();
 
   static inline ::GlobalNamespace::HologramRays* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23d16c0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x238b25c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Awake>b__22_0, addr 0x23d17ac, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__22_0, addr 0x238b348, size 0x68, virtual false, abstract: false, final false
   inline void _Awake_b__22_0(float_t f);
 
   // Ctor Parameters [CppParam { name: "", ty: "HologramRays", modifiers: "&&", def_value: None }]

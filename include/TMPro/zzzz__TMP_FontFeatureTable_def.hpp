@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::TMPro::__TMP_FontFeatureTable____c);
 namespace TMPro {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12376))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12274))
 // CS Name: ::TMP_FontFeatureTable::<>c*
 class CORDL_TYPE __TMP_FontFeatureTable____c : public ::System::Object {
 public:
@@ -63,13 +63,13 @@ public:
 
   static inline ::TMPro::__TMP_FontFeatureTable____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c12324, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c0ee90, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <SortGlyphPairAdjustmentRecords>b__6_0, addr 0x2c1232c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <SortGlyphPairAdjustmentRecords>b__6_0, addr 0x2c0ee98, size 0x18, virtual false, abstract: false, final false
   inline uint32_t _SortGlyphPairAdjustmentRecords_b__6_0(::TMPro::TMP_GlyphPairAdjustmentRecord* s);
 
-  /// @brief Method <SortGlyphPairAdjustmentRecords>b__6_1, addr 0x2c12344, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <SortGlyphPairAdjustmentRecords>b__6_1, addr 0x2c0eeb0, size 0x18, virtual false, abstract: false, final false
   inline uint32_t _SortGlyphPairAdjustmentRecords_b__6_1(::TMPro::TMP_GlyphPairAdjustmentRecord* s);
 
   // Ctor Parameters [CppParam { name: "", ty: "__TMP_FontFeatureTable____c", modifiers: "&&", def_value: None }]
@@ -97,7 +97,7 @@ static_assert(::cordl_internals::size_check_v<::TMPro::__TMP_FontFeatureTable___
 namespace TMPro {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12377))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12275))
 // CS Name: ::TMPro::TMP_FontFeatureTable*
 class CORDL_TYPE TMP_FontFeatureTable : public ::System::Object {
 public:
@@ -128,18 +128,18 @@ public:
 
   constexpr void __cordl_internal_set_m_GlyphPairAdjustmentRecordLookupDictionary(::System::Collections::Generic::Dictionary_2<uint32_t, ::TMPro::TMP_GlyphPairAdjustmentRecord*>* value);
 
-  /// @brief Method get_glyphPairAdjustmentRecords, addr 0x2c122b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_glyphPairAdjustmentRecords, addr 0x2c0ee1c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::TMPro::TMP_GlyphPairAdjustmentRecord*>* get_glyphPairAdjustmentRecords();
 
-  /// @brief Method set_glyphPairAdjustmentRecords, addr 0x2c122b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_glyphPairAdjustmentRecords, addr 0x2c0ee24, size 0x8, virtual false, abstract: false, final false
   inline void set_glyphPairAdjustmentRecords(::System::Collections::Generic::List_1<::TMPro::TMP_GlyphPairAdjustmentRecord*>* value);
 
   static inline ::TMPro::TMP_FontFeatureTable* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c0ee5c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c0b9c8, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method SortGlyphPairAdjustmentRecords, addr 0x2c0a1e8, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method SortGlyphPairAdjustmentRecords, addr 0x2c06d54, size 0x1ec, virtual false, abstract: false, final false
   inline void SortGlyphPairAdjustmentRecords();
 
   // Ctor Parameters [CppParam { name: "", ty: "TMP_FontFeatureTable", modifiers: "&&", def_value: None }]

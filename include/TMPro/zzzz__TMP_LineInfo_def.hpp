@@ -24,8 +24,8 @@ MARK_VAL_T(::TMPro::TMP_LineInfo);
 // SizeInfo { instance_size: 92, native_size: 92, calculated_instance_size: 92, calculated_native_size: 108, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12322)), TypeDefinitionIndex(TypeDefinitionIndex(12430))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12394))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12220)), TypeDefinitionIndex(TypeDefinitionIndex(12328))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12292))
 // CS Name: ::TMPro::TMP_LineInfo
 struct CORDL_TYPE TMP_LineInfo {
 public:

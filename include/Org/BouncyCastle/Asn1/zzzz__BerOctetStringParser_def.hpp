@@ -58,13 +58,13 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::BerOctetStringParser* New_ctor(::Org::BouncyCastle::Asn1::Asn1StreamParser* parser);
 
-  /// @brief Method .ctor, addr 0x11b6604, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11e3494, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1StreamParser* parser);
 
-  /// @brief Method GetOctetStream, addr 0x11bd80c, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method GetOctetStream, addr 0x11ea69c, size 0x6c, virtual true, abstract: false, final true
   inline ::System::IO::Stream* GetOctetStream();
 
-  /// @brief Method ToAsn1Object, addr 0x11b662c, size 0x168, virtual true, abstract: false, final true
+  /// @brief Method ToAsn1Object, addr 0x11e34bc, size 0x168, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "BerOctetStringParser", modifiers: "&&", def_value: None }]

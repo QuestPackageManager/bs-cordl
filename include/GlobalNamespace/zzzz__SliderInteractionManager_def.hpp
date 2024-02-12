@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SliderInteractionManager);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14752))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4820))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(15136))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4171))
 // CS Name: ::SliderInteractionManager*
 class CORDL_TYPE SliderInteractionManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -102,51 +102,51 @@ public:
 
   constexpr void __cordl_internal_set__activeSliders(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::SliderController>>* value);
 
-  /// @brief Method get_colorType, addr 0x2393e10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorType, addr 0x23539c4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorType get_colorType();
 
-  /// @brief Method get_saberInteractionParam, addr 0x2393e18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_saberInteractionParam, addr 0x23539cc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_saberInteractionParam();
 
-  /// @brief Method set_saberInteractionParam, addr 0x2393e20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_saberInteractionParam, addr 0x23539d4, size 0x8, virtual false, abstract: false, final false
   inline void set_saberInteractionParam(float_t value);
 
-  /// @brief Method add_sliderWasAddedToActiveSlidersEvent, addr 0x2393a74, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_sliderWasAddedToActiveSlidersEvent, addr 0x2353628, size 0xb0, virtual false, abstract: false, final false
   inline void add_sliderWasAddedToActiveSlidersEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method remove_sliderWasAddedToActiveSlidersEvent, addr 0x2393cac, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_sliderWasAddedToActiveSlidersEvent, addr 0x2353860, size 0xb0, virtual false, abstract: false, final false
   inline void remove_sliderWasAddedToActiveSlidersEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method add_allSliderWereRemovedFromActiveSlidersEvent, addr 0x2393b24, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_allSliderWereRemovedFromActiveSlidersEvent, addr 0x23536d8, size 0x9c, virtual false, abstract: false, final false
   inline void add_allSliderWereRemovedFromActiveSlidersEvent(::System::Action* value);
 
-  /// @brief Method remove_allSliderWereRemovedFromActiveSlidersEvent, addr 0x2393d5c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_allSliderWereRemovedFromActiveSlidersEvent, addr 0x2353910, size 0x9c, virtual false, abstract: false, final false
   inline void remove_allSliderWereRemovedFromActiveSlidersEvent(::System::Action* value);
 
-  /// @brief Method Start, addr 0x2393e28, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x23539dc, size 0xe0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy, addr 0x2393f08, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2353abc, size 0xf0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Update, addr 0x2393ff8, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2353bac, size 0x164, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method AddActiveSlider, addr 0x239415c, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method AddActiveSlider, addr 0x2353d10, size 0x220, virtual false, abstract: false, final false
   inline void AddActiveSlider(::GlobalNamespace::SliderController* newSliderController);
 
-  /// @brief Method RemoveActiveSlider, addr 0x239437c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method RemoveActiveSlider, addr 0x2353f30, size 0x98, virtual false, abstract: false, final false
   inline void RemoveActiveSlider(::GlobalNamespace::SliderController* sliderController);
 
-  /// @brief Method HandleSliderWasSpawned, addr 0x2394414, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method HandleSliderWasSpawned, addr 0x2353fc8, size 0x34, virtual false, abstract: false, final false
   inline void HandleSliderWasSpawned(::GlobalNamespace::SliderController* sliderController);
 
-  /// @brief Method HandleSliderWasDespawned, addr 0x2394448, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method HandleSliderWasDespawned, addr 0x2353ffc, size 0x34, virtual false, abstract: false, final false
   inline void HandleSliderWasDespawned(::GlobalNamespace::SliderController* sliderController);
 
   static inline ::GlobalNamespace::SliderInteractionManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x239447c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2354030, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SliderInteractionManager", modifiers: "&&", def_value: None }]

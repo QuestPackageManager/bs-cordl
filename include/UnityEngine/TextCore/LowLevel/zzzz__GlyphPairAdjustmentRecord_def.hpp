@@ -29,8 +29,8 @@ MARK_VAL_T(::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord);
 // SizeInfo { instance_size: 44, native_size: 44, calculated_instance_size: 44, calculated_native_size: 60, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::LowLevel {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15539)), TypeDefinitionIndex(TypeDefinitionIndex(15541))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15542))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15725)), TypeDefinitionIndex(TypeDefinitionIndex(15727))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15728))
 // CS Name: ::UnityEngine.TextCore.LowLevel::GlyphPairAdjustmentRecord
 struct CORDL_TYPE GlyphPairAdjustmentRecord {
 public:
@@ -45,19 +45,19 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>"
   constexpr ::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>* i___System__IEquatable_1___UnityEngine__TextCore__LowLevel__GlyphPairAdjustmentRecord_();
 
-  /// @brief Method get_firstAdjustmentRecord, addr 0x2d22c24, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_firstAdjustmentRecord, addr 0x2d436cc, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord get_firstAdjustmentRecord();
 
-  /// @brief Method get_secondAdjustmentRecord, addr 0x2d22c38, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_secondAdjustmentRecord, addr 0x2d436e0, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord get_secondAdjustmentRecord();
 
-  /// @brief Method GetHashCode, addr 0x2d22c4c, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2d436f4, size 0x6c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Equals, addr 0x2d22cb8, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2d43760, size 0x80, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x2d22d38, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2d437e0, size 0xa4, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord other);
 
   // Ctor Parameters [CppParam { name: "m_FirstAdjustmentRecord", ty: "::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord", modifiers: "", def_value: None }, CppParam { name:

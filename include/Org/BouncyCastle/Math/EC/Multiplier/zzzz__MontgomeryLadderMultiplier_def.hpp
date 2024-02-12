@@ -26,12 +26,12 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
 class CORDL_TYPE MontgomeryLadderMultiplier : public ::Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier {
 public:
   // Declarations
-  /// @brief Method MultiplyPositive, addr 0x10371cc, size 0x1fc, virtual true, abstract: false, final false
+  /// @brief Method MultiplyPositive, addr 0x106405c, size 0x1fc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* MultiplyPositive(::Org::BouncyCastle::Math::EC::ECPoint* p, ::Org::BouncyCastle::Math::BigInteger* k);
 
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::MontgomeryLadderMultiplier* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10373c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1064258, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MontgomeryLadderMultiplier", modifiers: "&&", def_value: None }]

@@ -16,17 +16,17 @@ MARK_VAL_T(::UnityEngine::RangeInt);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10197))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8941))
 // CS Name: ::UnityEngine::RangeInt
 struct CORDL_TYPE RangeInt {
 public:
   // Declarations
   __declspec(property(get = get_end)) int32_t end;
 
-  /// @brief Method get_end, addr 0x2ccef64, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_end, addr 0x2cd5fe8, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_end();
 
-  /// @brief Method .ctor, addr 0x2ccef70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cd5ff4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t start, int32_t length);
 
   // Ctor Parameters [CppParam { name: "start", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }]

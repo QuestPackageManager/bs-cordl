@@ -39,18 +39,18 @@ MARK_VAL_T(::UnityEngine::InputSystem::OnScreen::__OnScreenControl__OnScreenDevi
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::OnScreen {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6536)), TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 741
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6387)) CS Name: ::OnScreenControl::OnScreenDeviceInfo
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5795)), TypeDefinitionIndex(TypeDefinitionIndex(8730)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8730), inst: 736
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5646)) CS Name: ::OnScreenControl::OnScreenDeviceInfo
 struct CORDL_TYPE __OnScreenControl__OnScreenDeviceInfo {
 public:
   // Declarations
-  /// @brief Method AddControl, addr 0x2ad9570, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method AddControl, addr 0x2ada0dc, size 0x2c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::OnScreen::__OnScreenControl__OnScreenDeviceInfo AddControl(::UnityEngine::InputSystem::OnScreen::OnScreenControl* control);
 
-  /// @brief Method RemoveControl, addr 0x2ad98e8, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method RemoveControl, addr 0x2ada454, size 0x110, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::OnScreen::__OnScreenControl__OnScreenDeviceInfo RemoveControl(::UnityEngine::InputSystem::OnScreen::OnScreenControl* control);
 
-  /// @brief Method Destroy, addr 0x2ad94bc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Destroy, addr 0x2ada028, size 0xb4, virtual false, abstract: false, final false
   inline void Destroy();
 
   // Ctor Parameters [CppParam { name: "eventPtr", ty: "::UnityEngine::InputSystem::LowLevel::InputEventPtr", modifiers: "", def_value: None }, CppParam { name: "buffer", ty:
@@ -96,8 +96,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::OnScreen::__OnScreenControl__
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::OnScreen {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6387)), TypeDefinitionIndex(TypeDefinitionIndex(6536)), TypeDefinitionIndex(TypeDefinitionIndex(6669)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10225)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3872 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6388)) CS
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5646)), TypeDefinitionIndex(TypeDefinitionIndex(5795)), TypeDefinitionIndex(TypeDefinitionIndex(5928)),
+// TypeDefinitionIndex(TypeDefinitionIndex(8969)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5928), inst: 3854 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5647)) CS
 // Name: ::UnityEngine.InputSystem.OnScreen::OnScreenControl*
 class CORDL_TYPE OnScreenControl : public ::UnityEngine::MonoBehaviour {
 public:
@@ -147,13 +147,13 @@ public:
 
   static inline ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::OnScreen::__OnScreenControl__OnScreenDeviceInfo> getStaticF_s_OnScreenDevices();
 
-  /// @brief Method get_controlPath, addr 0x2ad8b80, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_controlPath, addr 0x2ad96ec, size 0xc, virtual false, abstract: false, final false
   inline ::StringW get_controlPath();
 
-  /// @brief Method set_controlPath, addr 0x2ad8b8c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method set_controlPath, addr 0x2ad96f8, size 0x38, virtual false, abstract: false, final false
   inline void set_controlPath(::StringW value);
 
-  /// @brief Method get_control, addr 0x2ad94b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_control, addr 0x2ada020, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputControl* get_control();
 
   /// @brief Method get_controlPathInternal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -162,24 +162,24 @@ public:
   /// @brief Method set_controlPathInternal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_controlPathInternal(::StringW value);
 
-  /// @brief Method SetupInputControl, addr 0x2ad8bc4, size 0x8f0, virtual false, abstract: false, final false
+  /// @brief Method SetupInputControl, addr 0x2ad9730, size 0x8f0, virtual false, abstract: false, final false
   inline void SetupInputControl();
 
   /// @brief Method SendValueToControl, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue> inline void SendValueToControl(TValue value);
 
-  /// @brief Method SentDefaultValueToControl, addr 0x2ad959c, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method SentDefaultValueToControl, addr 0x2ada108, size 0x134, virtual false, abstract: false, final false
   inline void SentDefaultValueToControl();
 
-  /// @brief Method OnEnable, addr 0x2ad96d0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x2ada23c, size 0x4, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable, addr 0x2ad96d4, size 0x214, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x2ada240, size 0x214, virtual true, abstract: false, final false
   inline void OnDisable();
 
   static inline ::UnityEngine::InputSystem::OnScreen::OnScreenControl* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ad8b78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ad96e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OnScreenControl", modifiers: "&&", def_value: None }]

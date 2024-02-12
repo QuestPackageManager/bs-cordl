@@ -33,8 +33,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLobbyController);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 81, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5582))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4887))
 // CS Name: ::MultiplayerLobbyController*
 class CORDL_TYPE MultiplayerLobbyController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -127,21 +127,21 @@ public:
 
   constexpr void __cordl_internal_set__lobbyActivated_k__BackingField(bool value);
 
-  /// @brief Method get_lobbyActivated, addr 0x22a736c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lobbyActivated, addr 0x22da7b0, size 0x8, virtual false, abstract: false, final false
   inline bool get_lobbyActivated();
 
-  /// @brief Method set_lobbyActivated, addr 0x22a7374, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_lobbyActivated, addr 0x22da7b8, size 0xc, virtual false, abstract: false, final false
   inline void set_lobbyActivated(bool value);
 
-  /// @brief Method ActivateMultiplayerLobby, addr 0x22a7380, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method ActivateMultiplayerLobby, addr 0x22da7c4, size 0xcc, virtual false, abstract: false, final false
   inline void ActivateMultiplayerLobby();
 
-  /// @brief Method DeactivateMultiplayerLobby, addr 0x22a744c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method DeactivateMultiplayerLobby, addr 0x22da890, size 0x84, virtual false, abstract: false, final false
   inline void DeactivateMultiplayerLobby();
 
   static inline ::GlobalNamespace::MultiplayerLobbyController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22a74d0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22da914, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyController", modifiers: "&&", def_value: None }]

@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::SignalEmitter);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13888))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13893))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13841))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13846))
 // CS Name: ::UnityEngine.Timeline::SignalEmitter*
 class CORDL_TYPE SignalEmitter : public ::UnityEngine::Timeline::Marker {
 public:
@@ -84,33 +84,33 @@ public:
 
   constexpr void __cordl_internal_set_m_Asset(::UnityW<::UnityEngine::Timeline::SignalAsset> value);
 
-  /// @brief Method get_retroactive, addr 0x2c68f90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_retroactive, addr 0x2c66afc, size 0x8, virtual false, abstract: false, final false
   inline bool get_retroactive();
 
-  /// @brief Method set_retroactive, addr 0x2c68f98, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_retroactive, addr 0x2c66b04, size 0xc, virtual false, abstract: false, final false
   inline void set_retroactive(bool value);
 
-  /// @brief Method get_emitOnce, addr 0x2c68fa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_emitOnce, addr 0x2c66b10, size 0x8, virtual false, abstract: false, final false
   inline bool get_emitOnce();
 
-  /// @brief Method set_emitOnce, addr 0x2c68fac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_emitOnce, addr 0x2c66b18, size 0xc, virtual false, abstract: false, final false
   inline void set_emitOnce(bool value);
 
-  /// @brief Method get_asset, addr 0x2c68fb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_asset, addr 0x2c66b24, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Timeline::SignalAsset> get_asset();
 
-  /// @brief Method set_asset, addr 0x2c68fc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_asset, addr 0x2c66b2c, size 0x8, virtual false, abstract: false, final false
   inline void set_asset(::UnityEngine::Timeline::SignalAsset* value);
 
-  /// @brief Method UnityEngine.Playables.INotification.get_id, addr 0x2c68fc8, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Playables.INotification.get_id, addr 0x2c66b34, size 0xc0, virtual true, abstract: false, final true
   inline ::UnityEngine::PropertyName UnityEngine_Playables_INotification_get_id();
 
-  /// @brief Method UnityEngine.Timeline.INotificationOptionProvider.get_flags, addr 0x2c69088, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Timeline.INotificationOptionProvider.get_flags, addr 0x2c66bf4, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityEngine::Timeline::NotificationFlags UnityEngine_Timeline_INotificationOptionProvider_get_flags();
 
   static inline ::UnityEngine::Timeline::SignalEmitter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c690a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c66c10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SignalEmitter", modifiers: "&&", def_value: None }]

@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::UnityEngine::ExcludeFromPresetAttribute);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10224))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8968))
 // CS Name: ::UnityEngine::ExcludeFromPresetAttribute*
 class CORDL_TYPE ExcludeFromPresetAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::UnityEngine::ExcludeFromPresetAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2cd2990, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cd9938, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ExcludeFromPresetAttribute", modifiers: "&&", def_value: None }]

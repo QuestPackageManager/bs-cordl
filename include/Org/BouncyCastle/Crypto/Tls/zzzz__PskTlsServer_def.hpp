@@ -51,31 +51,31 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::PskTlsServer* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager* pskIdentityManager);
 
-  /// @brief Method .ctor, addr 0xf9329c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfbf12c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager* pskIdentityManager);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::PskTlsServer* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory* cipherFactory,
                                                                          ::Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager* pskIdentityManager);
 
-  /// @brief Method .ctor, addr 0xf93318, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfbf1a8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory* cipherFactory, ::Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager* pskIdentityManager);
 
-  /// @brief Method GetRsaEncryptionCredentials, addr 0xf93340, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetRsaEncryptionCredentials, addr 0xfbf1d0, size 0x44, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsEncryptionCredentials* GetRsaEncryptionCredentials();
 
-  /// @brief Method GetDHParameters, addr 0xf93384, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method GetDHParameters, addr 0xfbf214, size 0x58, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* GetDHParameters();
 
-  /// @brief Method GetCipherSuites, addr 0xf933dc, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method GetCipherSuites, addr 0xfbf26c, size 0x70, virtual true, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> GetCipherSuites();
 
-  /// @brief Method GetCredentials, addr 0xf9344c, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method GetCredentials, addr 0xfbf2dc, size 0xdc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsCredentials* GetCredentials();
 
-  /// @brief Method GetKeyExchange, addr 0xf93528, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method GetKeyExchange, addr 0xfbf3b8, size 0xc8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange* GetKeyExchange();
 
-  /// @brief Method CreatePskKeyExchange, addr 0xf935f0, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method CreatePskKeyExchange, addr 0xfbf480, size 0xd0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange* CreatePskKeyExchange(int32_t keyExchange);
 
   // Ctor Parameters [CppParam { name: "", ty: "PskTlsServer", modifiers: "&&", def_value: None }]

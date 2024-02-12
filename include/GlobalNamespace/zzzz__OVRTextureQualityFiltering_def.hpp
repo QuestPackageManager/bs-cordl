@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::OVRTextureQualityFiltering);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7563))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7640))
 // CS Name: ::OVRTextureQualityFiltering
 struct CORDL_TYPE OVRTextureQualityFiltering {
 public:

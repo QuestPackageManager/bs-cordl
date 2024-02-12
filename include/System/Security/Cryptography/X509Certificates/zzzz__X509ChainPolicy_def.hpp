@@ -44,7 +44,7 @@ MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509ChainPoli
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2484)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// TypeDefinitionIndex(TypeDefinitionIndex(8986)), TypeDefinitionIndex(TypeDefinitionIndex(8987)), TypeDefinitionIndex(TypeDefinitionIndex(8989))] Self: TypeDefinitionIndex(TypeDefinitionIndex(9008))
+// TypeDefinitionIndex(TypeDefinitionIndex(6996)), TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(6999))] Self: TypeDefinitionIndex(TypeDefinitionIndex(7018))
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509ChainPolicy*
 class CORDL_TYPE X509ChainPolicy : public ::System::Object {
 public:
@@ -144,40 +144,40 @@ public:
 
   static inline ::System::Security::Cryptography::X509Certificates::X509ChainPolicy* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2980a88, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x298452c, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ExtraStore, addr 0x29819e0, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method get_ExtraStore, addr 0x2985484, size 0x26c, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* get_ExtraStore();
 
-  /// @brief Method get_RevocationFlag, addr 0x2983aec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RevocationFlag, addr 0x2987590, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509RevocationFlag get_RevocationFlag();
 
-  /// @brief Method set_RevocationFlag, addr 0x2983af4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_RevocationFlag, addr 0x2987598, size 0x64, virtual false, abstract: false, final false
   inline void set_RevocationFlag(::System::Security::Cryptography::X509Certificates::X509RevocationFlag value);
 
-  /// @brief Method get_RevocationMode, addr 0x2983b58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RevocationMode, addr 0x29875fc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509RevocationMode get_RevocationMode();
 
-  /// @brief Method set_RevocationMode, addr 0x2983b60, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_RevocationMode, addr 0x2987604, size 0x64, virtual false, abstract: false, final false
   inline void set_RevocationMode(::System::Security::Cryptography::X509Certificates::X509RevocationMode value);
 
-  /// @brief Method set_UrlRetrievalTimeout, addr 0x2983bc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_UrlRetrievalTimeout, addr 0x2987668, size 0x8, virtual false, abstract: false, final false
   inline void set_UrlRetrievalTimeout(::System::TimeSpan value);
 
-  /// @brief Method get_VerificationFlags, addr 0x2983bcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_VerificationFlags, addr 0x2987670, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509VerificationFlags get_VerificationFlags();
 
-  /// @brief Method set_VerificationFlags, addr 0x2983bd4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_VerificationFlags, addr 0x2987678, size 0x64, virtual false, abstract: false, final false
   inline void set_VerificationFlags(::System::Security::Cryptography::X509Certificates::X509VerificationFlags value);
 
-  /// @brief Method get_VerificationTime, addr 0x2983c38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_VerificationTime, addr 0x29876dc, size 0x8, virtual false, abstract: false, final false
   inline ::System::DateTime get_VerificationTime();
 
-  /// @brief Method set_VerificationTime, addr 0x2983c40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_VerificationTime, addr 0x29876e4, size 0x8, virtual false, abstract: false, final false
   inline void set_VerificationTime(::System::DateTime value);
 
-  /// @brief Method Reset, addr 0x29839f8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x298749c, size 0xf4, virtual false, abstract: false, final false
   inline void Reset();
 
   // Ctor Parameters [CppParam { name: "", ty: "X509ChainPolicy", modifiers: "&&", def_value: None }]

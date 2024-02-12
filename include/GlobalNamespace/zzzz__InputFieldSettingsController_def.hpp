@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::InputFieldSettingsController);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5595))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4900))
 // CS Name: ::InputFieldSettingsController*
 class CORDL_TYPE InputFieldSettingsController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -44,21 +44,21 @@ public:
 
   constexpr void __cordl_internal_set__settingsValue(::UnityW<::GlobalNamespace::StringSO> value);
 
-  /// @brief Method Awake, addr 0x22aaaa0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x22dded4, size 0x98, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnDestroy, addr 0x22aab38, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x22ddf6c, size 0x98, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnEnable, addr 0x22aabd0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x22de004, size 0x54, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method HandleInputFieldDidChange, addr 0x22aac24, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method HandleInputFieldDidChange, addr 0x22de058, size 0x5c, virtual true, abstract: false, final false
   inline void HandleInputFieldDidChange(::HMUI::InputFieldView* inputFieldView);
 
   static inline ::GlobalNamespace::InputFieldSettingsController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22aac80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22de0b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "InputFieldSettingsController", modifiers: "&&", def_value: None }]

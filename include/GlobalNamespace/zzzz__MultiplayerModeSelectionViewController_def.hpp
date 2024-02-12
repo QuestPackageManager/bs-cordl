@@ -39,7 +39,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerModeSelectionViewController);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5718))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5020))
 // CS Name: ::MultiplayerModeSelectionViewController::MenuButton
 struct CORDL_TYPE __MultiplayerModeSelectionViewController__MenuButton {
 public:
@@ -96,8 +96,8 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerModeSelectionViewControll
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5719))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13558))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5021))
 // CS Name: ::MultiplayerModeSelectionViewController*
 class CORDL_TYPE MultiplayerModeSelectionViewController : public ::HMUI::ViewController {
 public:
@@ -182,38 +182,38 @@ public:
   constexpr void __cordl_internal_set_didFinishEvent(
       ::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerModeSelectionViewController>, ::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton>* value);
 
-  /// @brief Method add_didFinishEvent, addr 0x22cf3b4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x22fec14, size 0xb0, virtual false, abstract: false, final false
   inline void
   add_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerModeSelectionViewController>, ::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x22cf464, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x22fecc4, size 0xb0, virtual false, abstract: false, final false
   inline void
   remove_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerModeSelectionViewController>, ::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton>* value);
 
-  /// @brief Method DidActivate, addr 0x22cf514, size 0x2dc, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x22fed74, size 0x2dc, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method SetData, addr 0x22cf7f0, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x22ff050, size 0x28c, virtual false, abstract: false, final false
   inline void SetData(::GlobalNamespace::MultiplayerStatusData* multiplayerStatusData);
 
-  /// @brief Method HandleMenuButton, addr 0x22cfa5c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method HandleMenuButton, addr 0x22ff2dc, size 0x28, virtual false, abstract: false, final false
   inline void HandleMenuButton(::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton menuButton);
 
   static inline ::GlobalNamespace::MultiplayerModeSelectionViewController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22cfa84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22ff304, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <DidActivate>b__11_0, addr 0x22cfa8c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__11_0, addr 0x22ff30c, size 0x24, virtual false, abstract: false, final false
   inline void _DidActivate_b__11_0();
 
-  /// @brief Method <DidActivate>b__11_1, addr 0x22cfab0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__11_1, addr 0x22ff330, size 0x24, virtual false, abstract: false, final false
   inline void _DidActivate_b__11_1();
 
-  /// @brief Method <DidActivate>b__11_2, addr 0x22cfad4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__11_2, addr 0x22ff354, size 0x24, virtual false, abstract: false, final false
   inline void _DidActivate_b__11_2();
 
-  /// @brief Method <DidActivate>b__11_3, addr 0x22cfaf8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__11_3, addr 0x22ff378, size 0x24, virtual false, abstract: false, final false
   inline void _DidActivate_b__11_3();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerModeSelectionViewController", modifiers: "&&", def_value: None }]

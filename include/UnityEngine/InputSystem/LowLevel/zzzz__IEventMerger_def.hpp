@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::LowLevel::IEventMerger);
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6496))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5755))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::IEventMerger*
 class CORDL_TYPE IEventMerger {
 public:

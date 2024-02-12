@@ -33,7 +33,7 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::__BitmapAllocator32__Page);
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7375))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6634))
 // CS Name: ::BitmapAllocator32::Page
 struct CORDL_TYPE __BitmapAllocator32__Page {
 public:
@@ -75,7 +75,7 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::__BitmapAllocator32__Page
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7376))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6635))
 // CS Name: ::UnityEngine.UIElements.UIR::BitmapAllocator32
 struct CORDL_TYPE BitmapAllocator32 {
 public:
@@ -86,28 +86,28 @@ public:
 
   __declspec(property(get = get_entryHeight)) int32_t entryHeight;
 
-  /// @brief Method Construct, addr 0x2e8800c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Construct, addr 0x2ea23f4, size 0x110, virtual false, abstract: false, final false
   inline void Construct(int32_t pageHeight, int32_t entryWidth, int32_t entryHeight);
 
-  /// @brief Method ForceFirstAlloc, addr 0x2e8811c, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method ForceFirstAlloc, addr 0x2ea2504, size 0x1cc, virtual false, abstract: false, final false
   inline void ForceFirstAlloc(uint16_t firstPageX, uint16_t firstPageY);
 
-  /// @brief Method Allocate, addr 0x2e882e8, size 0x41c, virtual false, abstract: false, final false
+  /// @brief Method Allocate, addr 0x2ea26d0, size 0x41c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::BMPAlloc Allocate(::UnityEngine::UIElements::UIR::BaseShaderInfoStorage* storage);
 
-  /// @brief Method Free, addr 0x2e88768, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method Free, addr 0x2ea2b50, size 0x144, virtual false, abstract: false, final false
   inline void Free(::UnityEngine::UIElements::UIR::BMPAlloc alloc);
 
-  /// @brief Method get_entryWidth, addr 0x2e888ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_entryWidth, addr 0x2ea2c94, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_entryWidth();
 
-  /// @brief Method get_entryHeight, addr 0x2e888b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_entryHeight, addr 0x2ea2c9c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_entryHeight();
 
-  /// @brief Method GetAllocPageAtlasLocation, addr 0x2e888bc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetAllocPageAtlasLocation, addr 0x2ea2ca4, size 0x78, virtual false, abstract: false, final false
   inline void GetAllocPageAtlasLocation(int32_t page, ByRef<uint16_t> x, ByRef<uint16_t> y);
 
-  /// @brief Method CountTrailingZeroes, addr 0x2e88704, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method CountTrailingZeroes, addr 0x2ea2aec, size 0x64, virtual false, abstract: false, final false
   static inline uint8_t CountTrailingZeroes(uint32_t val);
 
   // Ctor Parameters [CppParam { name: "m_PageHeight", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Pages", ty:

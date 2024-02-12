@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::NotifyParentPropertyAttribute::*)(bool)>(
     &::System::ComponentModel::NotifyParentPropertyAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x293a6c8;
+  constexpr static std::size_t addrs = 0x293ed30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::NotifyParentPropertyAttribute::*)()>(
     &::System::ComponentModel::NotifyParentPropertyAttribute::get_NotifyParent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x293a6f0;
+  constexpr static std::size_t addrs = 0x293ed58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::NotifyParentPropertyAttribute*>::get(),
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::NotifyParentPropertyAttribute::*)(::System::Object*)>(
     &::System::ComponentModel::NotifyParentPropertyAttribute::Equals)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x293a6f8;
+  constexpr static std::size_t addrs = 0x293ed60;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ComponentModel::NotifyParentPropertyAttribute::*)()>(
     &::System::ComponentModel::NotifyParentPropertyAttribute::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x293a778;
+  constexpr static std::size_t addrs = 0x293ede0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::NotifyParentPropertyAttribute::*)()>(
     &::System::ComponentModel::NotifyParentPropertyAttribute::IsDefaultAttribute)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x293a780;
+  constexpr static std::size_t addrs = 0x293ede8;
 
   inline static ::MethodInfo const* methodInfo() {
 

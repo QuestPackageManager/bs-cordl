@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Diagnostics::TraceEventType);
 namespace System::Diagnostics {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8939))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6949))
 // CS Name: ::System.Diagnostics::TraceEventType
 struct CORDL_TYPE TraceEventType {
 public:

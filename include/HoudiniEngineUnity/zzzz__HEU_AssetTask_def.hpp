@@ -48,7 +48,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_AssetTask);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9801))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9593))
 // CS Name: ::HEU_AssetTask::BuildType
 struct CORDL_TYPE __HEU_AssetTask__BuildType {
 public:
@@ -105,8 +105,8 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_AssetTask__BuildType, value__
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9800)), TypeDefinitionIndex(TypeDefinitionIndex(9801)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9802))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(9592)), TypeDefinitionIndex(TypeDefinitionIndex(9593))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9594))
 // CS Name: ::HoudiniEngineUnity::HEU_AssetTask*
 class CORDL_TYPE HEU_AssetTask : public ::HoudiniEngineUnity::HEU_Task {
 public:
@@ -167,30 +167,30 @@ public:
 
   constexpr void __cordl_internal_set__forceSessionID(int64_t value);
 
-  /// @brief Method GetTaskSession, addr 0x21aa848, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetTaskSession, addr 0x224012c, size 0xb4, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_SessionBase* GetTaskSession();
 
-  /// @brief Method DoTask, addr 0x21aa8fc, size 0x5b0, virtual true, abstract: false, final false
+  /// @brief Method DoTask, addr 0x22401e0, size 0x5b0, virtual true, abstract: false, final false
   inline void DoTask();
 
-  /// @brief Method KillTask, addr 0x21aaed4, size 0x240, virtual true, abstract: false, final false
+  /// @brief Method KillTask, addr 0x22407b8, size 0x240, virtual true, abstract: false, final false
   inline void KillTask();
 
-  /// @brief Method CompleteTask, addr 0x21ab114, size 0x240, virtual true, abstract: false, final false
+  /// @brief Method CompleteTask, addr 0x22409f8, size 0x240, virtual true, abstract: false, final false
   inline void CompleteTask(::HoudiniEngineUnity::__HEU_Task__TaskResult result);
 
-  /// @brief Method CookCompletedCallback, addr 0x21ab354, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method CookCompletedCallback, addr 0x2240c38, size 0x80, virtual false, abstract: false, final false
   inline void CookCompletedCallback(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool bSuccess, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputs);
 
-  /// @brief Method CookCompletedCallback, addr 0x21ab3d4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method CookCompletedCallback, addr 0x2240cb8, size 0x10, virtual false, abstract: false, final false
   inline void CookCompletedCallback(::HoudiniEngineUnity::HEU_CookedEventData* cookedEventData);
 
-  /// @brief Method CookCompletedCallback, addr 0x21ab3e4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method CookCompletedCallback, addr 0x2240cc8, size 0x10, virtual false, abstract: false, final false
   inline void CookCompletedCallback(::HoudiniEngineUnity::HEU_ReloadEventData* reloadEventData);
 
   static inline ::HoudiniEngineUnity::HEU_AssetTask* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21ab3f4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2240cd8, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_AssetTask", modifiers: "&&", def_value: None }]

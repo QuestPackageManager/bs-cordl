@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::GlobalNamespace::LeaderboardPlayerInfo);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4203))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10654))
 // CS Name: ::LeaderboardPlayerInfo*
 class CORDL_TYPE LeaderboardPlayerInfo : public ::System::Object {
 public:
@@ -96,45 +96,45 @@ public:
 
   constexpr void __cordl_internal_set__succeeded_k__BackingField(bool value);
 
-  /// @brief Method get_playerId, addr 0x2327408, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerId, addr 0x126b210, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_playerId();
 
-  /// @brief Method set_playerId, addr 0x2327410, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_playerId, addr 0x126b218, size 0x8, virtual false, abstract: false, final false
   inline void set_playerId(::StringW value);
 
-  /// @brief Method get_playerName, addr 0x2327418, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerName, addr 0x126b220, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_playerName();
 
-  /// @brief Method set_playerName, addr 0x2327420, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_playerName, addr 0x126b228, size 0x8, virtual false, abstract: false, final false
   inline void set_playerName(::StringW value);
 
-  /// @brief Method get_playerKey, addr 0x2327428, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerKey, addr 0x126b230, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_playerKey();
 
-  /// @brief Method set_playerKey, addr 0x2327430, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_playerKey, addr 0x126b238, size 0x8, virtual false, abstract: false, final false
   inline void set_playerKey(::StringW value);
 
-  /// @brief Method get_authType, addr 0x2327438, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_authType, addr 0x126b240, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_authType();
 
-  /// @brief Method set_authType, addr 0x2327440, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_authType, addr 0x126b248, size 0x8, virtual false, abstract: false, final false
   inline void set_authType(::StringW value);
 
-  /// @brief Method get_playerFriends, addr 0x2327448, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerFriends, addr 0x126b250, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_playerFriends();
 
-  /// @brief Method set_playerFriends, addr 0x2327450, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_playerFriends, addr 0x126b258, size 0x8, virtual false, abstract: false, final false
   inline void set_playerFriends(::StringW value);
 
-  /// @brief Method get_succeeded, addr 0x2327458, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_succeeded, addr 0x126b260, size 0x8, virtual false, abstract: false, final false
   inline bool get_succeeded();
 
-  /// @brief Method set_succeeded, addr 0x2327460, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_succeeded, addr 0x126b268, size 0xc, virtual false, abstract: false, final false
   inline void set_succeeded(bool value);
 
   static inline ::GlobalNamespace::LeaderboardPlayerInfo* New_ctor(bool succeeded, ::StringW playerId, ::StringW playerName, ::StringW playerKey, ::StringW authType, ::StringW playerFriends);
 
-  /// @brief Method .ctor, addr 0x232746c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x126b274, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(bool succeeded, ::StringW playerId, ::StringW playerName, ::StringW playerKey, ::StringW authType, ::StringW playerFriends);
 
   // Ctor Parameters [CppParam { name: "", ty: "LeaderboardPlayerInfo", modifiers: "&&", def_value: None }]

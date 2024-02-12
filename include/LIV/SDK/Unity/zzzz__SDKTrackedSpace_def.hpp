@@ -27,16 +27,16 @@ MARK_VAL_T(::LIV::SDK::Unity::SDKTrackedSpace);
 // SizeInfo { instance_size: 168, native_size: 168, calculated_instance_size: 168, calculated_native_size: 184, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15109)), TypeDefinitionIndex(TypeDefinitionIndex(15110)), TypeDefinitionIndex(TypeDefinitionIndex(15111))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15117))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14982)), TypeDefinitionIndex(TypeDefinitionIndex(14983)), TypeDefinitionIndex(TypeDefinitionIndex(14984))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14990))
 // CS Name: ::LIV.SDK.Unity::SDKTrackedSpace
 struct CORDL_TYPE SDKTrackedSpace {
 public:
   // Declarations
-  /// @brief Method get_empty, addr 0x22155b0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_empty, addr 0x22aae98, size 0x64, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKTrackedSpace get_empty();
 
-  /// @brief Method ToString, addr 0x22156d8, size 0x244, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x22aafc0, size 0x244, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "trackedSpaceWorldPosition", ty: "::LIV::SDK::Unity::SDKVector3", modifiers: "", def_value: None }, CppParam { name: "trackedSpaceWorldRotation", ty:

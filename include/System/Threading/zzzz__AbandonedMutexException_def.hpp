@@ -53,20 +53,20 @@ public:
 
   static inline ::System::Threading::AbandonedMutexException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x260fa5c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2634964, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Threading::AbandonedMutexException* New_ctor(int32_t location, ::System::Threading::WaitHandle* handle);
 
-  /// @brief Method .ctor, addr 0x260fac0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26349c8, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(int32_t location, ::System::Threading::WaitHandle* handle);
 
   static inline ::System::Threading::AbandonedMutexException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x260fbe4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2634aec, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method SetupException, addr 0x260fb78, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SetupException, addr 0x2634a80, size 0x6c, virtual false, abstract: false, final false
   inline void SetupException(int32_t location, ::System::Threading::WaitHandle* handle);
 
   // Ctor Parameters [CppParam { name: "", ty: "AbandonedMutexException", modifiers: "&&", def_value: None }]

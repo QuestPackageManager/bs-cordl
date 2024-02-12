@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::System::Net::NetworkCredential);
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9081))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7091))
 // CS Name: ::System.Net::NetworkCredential*
 class CORDL_TYPE NetworkCredential : public ::System::Object {
 public:
@@ -71,42 +71,42 @@ public:
 
   static inline ::System::Net::NetworkCredential* New_ctor(::StringW userName, ::StringW password);
 
-  /// @brief Method .ctor, addr 0x299e9f8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29a349c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW userName, ::StringW password);
 
   static inline ::System::Net::NetworkCredential* New_ctor(::StringW userName, ::StringW password, ::StringW domain);
 
-  /// @brief Method .ctor, addr 0x299ea60, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29a3504, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::StringW userName, ::StringW password, ::StringW domain);
 
-  /// @brief Method get_UserName, addr 0x299ec04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UserName, addr 0x29a36a8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_UserName();
 
-  /// @brief Method set_UserName, addr 0x299eb24, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_UserName, addr 0x29a35c8, size 0x60, virtual false, abstract: false, final false
   inline void set_UserName(::StringW value);
 
-  /// @brief Method get_Password, addr 0x299ec0c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Password, addr 0x29a36b0, size 0xc, virtual false, abstract: false, final false
   inline ::StringW get_Password();
 
-  /// @brief Method set_Password, addr 0x299eb84, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_Password, addr 0x29a3628, size 0x20, virtual false, abstract: false, final false
   inline void set_Password(::StringW value);
 
-  /// @brief Method get_Domain, addr 0x299ec24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Domain, addr 0x29a36c8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Domain();
 
-  /// @brief Method set_Domain, addr 0x299eba4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_Domain, addr 0x29a3648, size 0x60, virtual false, abstract: false, final false
   inline void set_Domain(::StringW value);
 
-  /// @brief Method InternalGetUserName, addr 0x299ec2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InternalGetUserName, addr 0x29a36d0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW InternalGetUserName();
 
-  /// @brief Method InternalGetPassword, addr 0x299ec18, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method InternalGetPassword, addr 0x29a36bc, size 0xc, virtual false, abstract: false, final false
   inline ::StringW InternalGetPassword();
 
-  /// @brief Method InternalGetDomain, addr 0x299ec34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InternalGetDomain, addr 0x29a36d8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW InternalGetDomain();
 
-  /// @brief Method GetCredential, addr 0x299ec3c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method GetCredential, addr 0x29a36e0, size 0x4, virtual true, abstract: false, final true
   inline ::System::Net::NetworkCredential* GetCredential(::System::Uri* uri, ::StringW authType);
 
   // Ctor Parameters [CppParam { name: "", ty: "NetworkCredential", modifiers: "&&", def_value: None }]

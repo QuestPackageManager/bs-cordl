@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::UnityEngine::ComputeBuffer);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10260))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9004))
 // CS Name: ::UnityEngine::ComputeBuffer*
 class CORDL_TYPE ComputeBuffer : public ::System::Object {
 public:

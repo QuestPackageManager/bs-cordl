@@ -23,7 +23,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Tls::ECCurveType* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf91380, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfbd210, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ECCurveType", modifiers: "&&", def_value: None }]

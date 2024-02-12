@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::FriendAccessAllowedAttribute
 namespace System::Runtime::CompilerServices {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3416))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3412))
 // CS Name: ::System.Runtime.CompilerServices::FriendAccessAllowedAttribute*
 class CORDL_TYPE FriendAccessAllowedAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::System::Runtime::CompilerServices::FriendAccessAllowedAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24dec70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24fddcc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FriendAccessAllowedAttribute", modifiers: "&&", def_value: None }]

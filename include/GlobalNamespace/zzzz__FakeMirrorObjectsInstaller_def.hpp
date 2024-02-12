@@ -47,7 +47,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__FakeMirrorObjectsInstaller____c);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5391))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4693))
 // CS Name: ::FakeMirrorObjectsInstaller::<>c*
 class CORDL_TYPE __FakeMirrorObjectsInstaller____c : public ::System::Object {
 public:
@@ -68,10 +68,10 @@ public:
 
   static inline ::GlobalNamespace::__FakeMirrorObjectsInstaller____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x226fea0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23cbb78, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <InstallBindings>b__11_0, addr 0x226fea8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method <InstallBindings>b__11_0, addr 0x23cbb80, size 0x94, virtual false, abstract: false, final false
   inline bool _InstallBindings_b__11_0(::Zenject::BindingId t);
 
   // Ctor Parameters [CppParam { name: "", ty: "__FakeMirrorObjectsInstaller____c", modifiers: "&&", def_value: None }]
@@ -98,8 +98,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__FakeMirrorObj
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11138))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5392))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10280))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4694))
 // CS Name: ::FakeMirrorObjectsInstaller*
 class CORDL_TYPE FakeMirrorObjectsInstaller : public ::Zenject::MonoInstaller {
 public:
@@ -198,15 +198,15 @@ public:
 
   constexpr void __cordl_internal_set__mirrorRendererGraphicsSettingsPresets(::UnityW<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets> value);
 
-  /// @brief Method get_mirroredGameNoteControllerPrefab, addr 0x226f8ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mirroredGameNoteControllerPrefab, addr 0x23cb584, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MirroredGameNoteController> get_mirroredGameNoteControllerPrefab();
 
-  /// @brief Method InstallBindings, addr 0x226f8b4, size 0x580, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x23cb58c, size 0x580, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::FakeMirrorObjectsInstaller* New_ctor();
 
-  /// @brief Method .ctor, addr 0x226fe34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23cbb0c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FakeMirrorObjectsInstaller", modifiers: "&&", def_value: None }]

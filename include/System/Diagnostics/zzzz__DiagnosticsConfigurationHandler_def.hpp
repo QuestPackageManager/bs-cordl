@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::System::Diagnostics::DiagnosticsConfigurationHandler);
 namespace System::Diagnostics {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9583))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7594))
 // CS Name: ::System.Diagnostics::DiagnosticsConfigurationHandler*
 class CORDL_TYPE DiagnosticsConfigurationHandler : public ::System::Object {
 public:
@@ -37,10 +37,10 @@ public:
 
   static inline ::System::Diagnostics::DiagnosticsConfigurationHandler* New_ctor();
 
-  /// @brief Method .ctor, addr 0x294525c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2949958, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Create, addr 0x2945294, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Create, addr 0x2949990, size 0x38, virtual true, abstract: false, final false
   inline ::System::Object* Create(::System::Object* parent, ::System::Object* configContext, ::System::Xml::XmlNode* section);
 
   // Ctor Parameters [CppParam { name: "", ty: "DiagnosticsConfigurationHandler", modifiers: "&&", def_value: None }]

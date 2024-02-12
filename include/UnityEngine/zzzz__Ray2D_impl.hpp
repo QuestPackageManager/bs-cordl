@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Ray2D::*)(::UnityEngine::Vector2, ::UnityEngine::Vector2)>(&::UnityEngine::Ray2D::_ctor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x2ccae54;
+  constexpr static std::size_t addrs = 0x2cd209c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::Ray2D::*)()>(&::UnityEngine::Ray2D::get_origin)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ccaf1c;
+  constexpr static std::size_t addrs = 0x2cd2164;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Ray2D>::get(), "get_origin",
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::Ray2D::*)()>(&::UnityEngine::Ray2D::get_direction)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ccaf24;
+  constexpr static std::size_t addrs = 0x2cd216c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Ray2D>::get(), "get_direction",
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::Ray2D::*)(float_t)>(&::UnityEngine::Ray2D::GetPoint)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2ccaf2c;
+  constexpr static std::size_t addrs = 0x2cd2174;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Ray2D::*)()>(&::UnityEngine::Ray2D::ToString)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2ccaf40;
+  constexpr static std::size_t addrs = 0x2cd2188;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Ray2D::*)(::StringW, ::System::IFormatProvider*)>(&::UnityEngine::Ray2D::ToString)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x2ccaf4c;
+  constexpr static std::size_t addrs = 0x2cd2194;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

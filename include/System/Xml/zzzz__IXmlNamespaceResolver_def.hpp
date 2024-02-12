@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::System::Xml::IXmlNamespaceResolver);
 namespace System::Xml {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11531))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11429))
 // CS Name: ::System.Xml::IXmlNamespaceResolver*
 class CORDL_TYPE IXmlNamespaceResolver {
 public:

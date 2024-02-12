@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::KdTree::DuplicateNodeError);
 namespace UnityEngine::ProBuilder::KdTree {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2561))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15915))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16038))
 // CS Name: ::UnityEngine.ProBuilder.KdTree::DuplicateNodeError*
 class CORDL_TYPE DuplicateNodeError : public ::System::Exception {
 public:
   // Declarations
   static inline ::UnityEngine::ProBuilder::KdTree::DuplicateNodeError* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2b2d434, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b2bfa0, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DuplicateNodeError", modifiers: "&&", def_value: None }]

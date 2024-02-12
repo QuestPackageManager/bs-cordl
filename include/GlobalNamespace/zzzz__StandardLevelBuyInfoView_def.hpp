@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::StandardLevelBuyInfoView);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5812))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5110))
 // CS Name: ::StandardLevelBuyInfoView*
 class CORDL_TYPE StandardLevelBuyInfoView : public ::UnityEngine::MonoBehaviour {
 public:
@@ -69,21 +69,21 @@ public:
 
   constexpr void __cordl_internal_set__buyPackButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  /// @brief Method get_buyLevelButton, addr 0x22e9a10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_buyLevelButton, addr 0x2317fe8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Button> get_buyLevelButton();
 
-  /// @brief Method get_openPackButton, addr 0x22e9a18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_openPackButton, addr 0x2317ff0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Button> get_openPackButton();
 
-  /// @brief Method get_buyPackButton, addr 0x22e9a20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_buyPackButton, addr 0x2317ff8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Button> get_buyPackButton();
 
-  /// @brief Method RefreshView, addr 0x22e9a28, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method RefreshView, addr 0x2318000, size 0x78, virtual false, abstract: false, final false
   inline void RefreshView(::StringW infoText, bool canBuyPack);
 
   static inline ::GlobalNamespace::StandardLevelBuyInfoView* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22e9aa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2318078, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "StandardLevelBuyInfoView", modifiers: "&&", def_value: None }]

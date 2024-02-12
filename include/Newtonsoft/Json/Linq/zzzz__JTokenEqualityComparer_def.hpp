@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Linq::JTokenEqualityComparer);
 namespace Newtonsoft::Json::Linq {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11976))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11874))
 // CS Name: ::Newtonsoft.Json.Linq::JTokenEqualityComparer*
 class CORDL_TYPE JTokenEqualityComparer : public ::System::Object {
 public:
@@ -33,15 +33,15 @@ public:
   /// @brief Convert to "::System::Collections::Generic::IEqualityComparer_1<::Newtonsoft::Json::Linq::JToken*>"
   constexpr ::System::Collections::Generic::IEqualityComparer_1<::Newtonsoft::Json::Linq::JToken*>* i___System__Collections__Generic__IEqualityComparer_1___Newtonsoft__Json__Linq__JToken__() noexcept;
 
-  /// @brief Method Equals, addr 0x2691410, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x26b35cc, size 0x94, virtual true, abstract: false, final true
   inline bool Equals(::Newtonsoft::Json::Linq::JToken* x, ::Newtonsoft::Json::Linq::JToken* y);
 
-  /// @brief Method GetHashCode, addr 0x26914d0, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method GetHashCode, addr 0x26b368c, size 0x24, virtual true, abstract: false, final true
   inline int32_t GetHashCode(::Newtonsoft::Json::Linq::JToken* obj);
 
   static inline ::Newtonsoft::Json::Linq::JTokenEqualityComparer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26914f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b36b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "JTokenEqualityComparer", modifiers: "&&", def_value: None }]

@@ -25,7 +25,7 @@ MARK_VAL_T(::System::Net::Http::Headers::Token);
 namespace System::Net::Http::Headers {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14681))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14686))
 // CS Name: ::Token::Type
 struct CORDL_TYPE __Token__Type {
 public:
@@ -106,8 +106,8 @@ static_assert(offsetof(::System::Net::Http::Headers::__Token__Type, value__) == 
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14681))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14682))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14686))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14687))
 // CS Name: ::System.Net.Http.Headers::Token
 struct CORDL_TYPE Token {
 public:
@@ -127,28 +127,28 @@ public:
 
   static inline ::System::Net::Http::Headers::Token getStaticF_Empty();
 
-  /// @brief Method .ctor, addr 0x28350b8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x283978c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Http::Headers::__Token__Type type, int32_t startPosition, int32_t endPosition);
 
-  /// @brief Method get_StartPosition, addr 0x283c788, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StartPosition, addr 0x2840e5c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_StartPosition();
 
-  /// @brief Method set_StartPosition, addr 0x283c790, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_StartPosition, addr 0x2840e64, size 0x8, virtual false, abstract: false, final false
   inline void set_StartPosition(int32_t value);
 
-  /// @brief Method get_EndPosition, addr 0x283c798, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EndPosition, addr 0x2840e6c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_EndPosition();
 
-  /// @brief Method set_EndPosition, addr 0x283c7a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_EndPosition, addr 0x2840e74, size 0x8, virtual false, abstract: false, final false
   inline void set_EndPosition(int32_t value);
 
-  /// @brief Method get_Kind, addr 0x283c7a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Kind, addr 0x2840e7c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Http::Headers::__Token__Type get_Kind();
 
-  /// @brief Method op_Implicit, addr 0x283c7b0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2840e84, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Net::Http::Headers::__Token__Type op_Implicit___System__Net__Http__Headers____Token__Type(::System::Net::Http::Headers::Token token);
 
-  /// @brief Method ToString, addr 0x283c7b4, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2840e88, size 0x68, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "type", ty: "::System::Net::Http::Headers::__Token__Type", modifiers: "", def_value: None }, CppParam { name: "_StartPosition_k__BackingField", ty: "int32_t",

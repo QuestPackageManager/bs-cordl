@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MonotonicTimeProvider);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12875))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12773))
 // CS Name: ::MonotonicTimeProvider*
 class CORDL_TYPE MonotonicTimeProvider : public ::System::Object {
 public:
@@ -70,13 +70,13 @@ public:
 
   static inline ::GlobalNamespace::MonotonicTimeProvider* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe49884, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe746bc, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method GetTimeMs, addr 0xe49a1c, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method GetTimeMs, addr 0xe74854, size 0x2c, virtual true, abstract: false, final true
   inline int64_t GetTimeMs();
 
-  /// @brief Method GetTicks, addr 0xe49a48, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method GetTicks, addr 0xe74880, size 0x58, virtual true, abstract: false, final true
   inline int64_t GetTicks();
 
   // Ctor Parameters [CppParam { name: "", ty: "MonotonicTimeProvider", modifiers: "&&", def_value: None }]

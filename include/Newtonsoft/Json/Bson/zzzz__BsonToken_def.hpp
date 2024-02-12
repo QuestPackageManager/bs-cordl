@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Bson::BsonToken);
 namespace Newtonsoft::Json::Bson {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12074))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11972))
 // CS Name: ::Newtonsoft.Json.Bson::BsonToken*
 class CORDL_TYPE BsonToken : public ::System::Object {
 public:
@@ -51,21 +51,21 @@ public:
   /// @brief Method get_Type, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Newtonsoft::Json::Bson::BsonType get_Type();
 
-  /// @brief Method get_Parent, addr 0x26c8068, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parent, addr 0x26ea224, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Bson::BsonToken* get_Parent();
 
-  /// @brief Method set_Parent, addr 0x26c8070, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Parent, addr 0x26ea22c, size 0x8, virtual false, abstract: false, final false
   inline void set_Parent(::Newtonsoft::Json::Bson::BsonToken* value);
 
-  /// @brief Method get_CalculatedSize, addr 0x26c8078, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CalculatedSize, addr 0x26ea234, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_CalculatedSize();
 
-  /// @brief Method set_CalculatedSize, addr 0x26c8080, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CalculatedSize, addr 0x26ea23c, size 0x8, virtual false, abstract: false, final false
   inline void set_CalculatedSize(int32_t value);
 
   static inline ::Newtonsoft::Json::Bson::BsonToken* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26c8088, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ea244, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BsonToken", modifiers: "&&", def_value: None }]

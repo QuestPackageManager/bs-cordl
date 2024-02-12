@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::GlobalNamespace::INoteMovementProvider);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4748))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4099))
 // CS Name: ::INoteMovementProvider*
 class CORDL_TYPE INoteMovementProvider {
 public:

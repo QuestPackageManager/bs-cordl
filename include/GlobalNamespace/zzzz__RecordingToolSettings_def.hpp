@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::GlobalNamespace::RecordingToolSettings);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5967))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5239))
 // CS Name: ::RecordingToolSettings*
 class CORDL_TYPE RecordingToolSettings : public ::System::Object {
 public:
@@ -36,7 +36,7 @@ public:
 
   static inline ::GlobalNamespace::RecordingToolSettings* New_ctor(::ArrayW<::GlobalNamespace::RecordingSettings*, ::Array<::GlobalNamespace::RecordingSettings*>*> recordingSettings);
 
-  /// @brief Method .ctor, addr 0x23079e4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2334f44, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::GlobalNamespace::RecordingSettings*, ::Array<::GlobalNamespace::RecordingSettings*>*> recordingSettings);
 
   // Ctor Parameters [CppParam { name: "", ty: "RecordingToolSettings", modifiers: "&&", def_value: None }]

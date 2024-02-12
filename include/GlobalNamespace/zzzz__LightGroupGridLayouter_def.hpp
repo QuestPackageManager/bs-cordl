@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::GlobalNamespace::LightGroupGridLayouter);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4935)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4930))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4289)), TypeDefinitionIndex(TypeDefinitionIndex(8993))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4284))
 // CS Name: ::LightGroupGridLayouter*
 class CORDL_TYPE LightGroupGridLayouter : public ::GlobalNamespace::LightGroupSubsystem {
 public:
@@ -96,7 +96,7 @@ public:
 
   static inline ::GlobalNamespace::LightGroupGridLayouter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23a9898, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23699cc, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LightGroupGridLayouter", modifiers: "&&", def_value: None }]

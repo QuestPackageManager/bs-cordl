@@ -17,7 +17,7 @@ MARK_VAL_T(::UnityEngine::TextCore::LowLevel::FontReference);
 namespace UnityEngine::TextCore::LowLevel {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15536))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15722))
 // CS Name: ::UnityEngine.TextCore.LowLevel::FontReference
 struct CORDL_TYPE FontReference {
 public:

@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::AsyncMethodBuilderAttribute)
 namespace System::Runtime::CompilerServices {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3355))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3352))
 // CS Name: ::System.Runtime.CompilerServices::AsyncMethodBuilderAttribute*
 class CORDL_TYPE AsyncMethodBuilderAttribute : public ::System::Attribute {
 public:
@@ -34,7 +34,7 @@ public:
 
   static inline ::System::Runtime::CompilerServices::AsyncMethodBuilderAttribute* New_ctor(::System::Type* builderType);
 
-  /// @brief Method .ctor, addr 0x24da71c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24fac4c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* builderType);
 
   // Ctor Parameters [CppParam { name: "", ty: "AsyncMethodBuilderAttribute", modifiers: "&&", def_value: None }]

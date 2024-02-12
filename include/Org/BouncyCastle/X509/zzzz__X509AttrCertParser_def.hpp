@@ -74,30 +74,30 @@ public:
 
   static inline ::Org::BouncyCastle::X509::PemParser* getStaticF_PemAttrCertParser();
 
-  /// @brief Method ReadDerCertificate, addr 0x1176164, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method ReadDerCertificate, addr 0x11a4ff4, size 0x240, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::IX509AttributeCertificate* ReadDerCertificate(::Org::BouncyCastle::Asn1::Asn1InputStream* dIn);
 
-  /// @brief Method GetCertificate, addr 0x11763a4, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method GetCertificate, addr 0x11a5234, size 0x128, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::IX509AttributeCertificate* GetCertificate();
 
-  /// @brief Method ReadPemCertificate, addr 0x117663c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ReadPemCertificate, addr 0x11a54cc, size 0xbc, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::IX509AttributeCertificate* ReadPemCertificate(::System::IO::Stream* inStream);
 
-  /// @brief Method ReadAttrCert, addr 0x11766f8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ReadAttrCert, addr 0x11a5588, size 0x78, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::IX509AttributeCertificate* ReadAttrCert(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
-  /// @brief Method ReadAttrCerts, addr 0x1176a5c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ReadAttrCerts, addr 0x11a58ec, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* ReadAttrCerts(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
-  /// @brief Method ReadAttrCert, addr 0x1176770, size 0x2ec, virtual false, abstract: false, final false
+  /// @brief Method ReadAttrCert, addr 0x11a5600, size 0x2ec, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::IX509AttributeCertificate* ReadAttrCert(::System::IO::Stream* inStream);
 
-  /// @brief Method ReadAttrCerts, addr 0x1176ad4, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method ReadAttrCerts, addr 0x11a5964, size 0x110, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* ReadAttrCerts(::System::IO::Stream* inStream);
 
   static inline ::Org::BouncyCastle::X509::X509AttrCertParser* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1176c74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11a5b04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "X509AttrCertParser", modifiers: "&&", def_value: None }]

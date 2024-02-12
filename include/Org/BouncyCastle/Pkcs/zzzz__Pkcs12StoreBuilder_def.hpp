@@ -73,22 +73,22 @@ public:
 
   static inline ::Org::BouncyCastle::Pkcs::Pkcs12StoreBuilder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10e6194, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1114024, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Build, addr 0x10e620c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x111409c, size 0x94, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Pkcs::Pkcs12Store* Build();
 
-  /// @brief Method SetCertAlgorithm, addr 0x10e62a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetCertAlgorithm, addr 0x1114130, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Pkcs::Pkcs12StoreBuilder* SetCertAlgorithm(::Org::BouncyCastle::Asn1::DerObjectIdentifier* certAlgorithm);
 
-  /// @brief Method SetKeyAlgorithm, addr 0x10e62a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetKeyAlgorithm, addr 0x1114138, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Pkcs::Pkcs12StoreBuilder* SetKeyAlgorithm(::Org::BouncyCastle::Asn1::DerObjectIdentifier* keyAlgorithm);
 
-  /// @brief Method SetKeyAlgorithm, addr 0x10e62b0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetKeyAlgorithm, addr 0x1114140, size 0xc, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Pkcs::Pkcs12StoreBuilder* SetKeyAlgorithm(::Org::BouncyCastle::Asn1::DerObjectIdentifier* keyAlgorithm, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* keyPrfAlgorithm);
 
-  /// @brief Method SetUseDerEncoding, addr 0x10e62bc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetUseDerEncoding, addr 0x111414c, size 0xc, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Pkcs::Pkcs12StoreBuilder* SetUseDerEncoding(bool useDerEncoding);
 
   // Ctor Parameters [CppParam { name: "", ty: "Pkcs12StoreBuilder", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Reflection::ParameterModifier);
 namespace System::Reflection {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3484))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3480))
 // CS Name: ::System.Reflection::ParameterModifier
 struct CORDL_TYPE ParameterModifier {
 public:

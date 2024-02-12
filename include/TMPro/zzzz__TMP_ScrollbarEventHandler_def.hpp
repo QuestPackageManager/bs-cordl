@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::TMPro::TMP_ScrollbarEventHandler);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12412))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12310))
 // CS Name: ::TMPro::TMP_ScrollbarEventHandler*
 class CORDL_TYPE TMP_ScrollbarEventHandler : public ::UnityEngine::MonoBehaviour {
 public:
@@ -71,18 +71,18 @@ public:
 
   constexpr void __cordl_internal_set_isSelected(bool value);
 
-  /// @brief Method OnPointerClick, addr 0x2c3f998, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method OnPointerClick, addr 0x2c3d504, size 0x68, virtual true, abstract: false, final true
   inline void OnPointerClick(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnSelect, addr 0x2c3fa00, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method OnSelect, addr 0x2c3d56c, size 0x78, virtual true, abstract: false, final true
   inline void OnSelect(::UnityEngine::EventSystems::BaseEventData* eventData);
 
-  /// @brief Method OnDeselect, addr 0x2c3fa78, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method OnDeselect, addr 0x2c3d5e4, size 0x74, virtual true, abstract: false, final true
   inline void OnDeselect(::UnityEngine::EventSystems::BaseEventData* eventData);
 
   static inline ::TMPro::TMP_ScrollbarEventHandler* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c3faec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c3d658, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TMP_ScrollbarEventHandler", modifiers: "&&", def_value: None }]

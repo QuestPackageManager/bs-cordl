@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIRRepaintUpdater);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 51, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6754)), TypeDefinitionIndex(TypeDefinitionIndex(9966))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7327))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6013)), TypeDefinitionIndex(TypeDefinitionIndex(8695))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6586))
 // CS Name: ::UnityEngine.UIElements::UIRRepaintUpdater*
 class CORDL_TYPE UIRRepaintUpdater : public ::UnityEngine::UIElements::BaseVisualTreeUpdater {
 public:
@@ -109,67 +109,67 @@ public:
 
   static inline ::UnityEngine::UIElements::UIRRepaintUpdater* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e775e8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e919d0, size 0x90, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_profilerMarker, addr 0x2e77678, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_profilerMarker, addr 0x2e91a60, size 0x58, virtual true, abstract: false, final false
   inline ::Unity::Profiling::ProfilerMarker get_profilerMarker();
 
-  /// @brief Method get_drawStats, addr 0x2e776d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_drawStats, addr 0x2e91ab8, size 0x8, virtual false, abstract: false, final false
   inline bool get_drawStats();
 
-  /// @brief Method get_breakBatches, addr 0x2e776d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_breakBatches, addr 0x2e91ac0, size 0x8, virtual false, abstract: false, final false
   inline bool get_breakBatches();
 
-  /// @brief Method OnVersionChanged, addr 0x2e776e0, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method OnVersionChanged, addr 0x2e91ac8, size 0xf8, virtual true, abstract: false, final false
   inline void OnVersionChanged(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VersionChangeType versionChangeType);
 
-  /// @brief Method Update, addr 0x2e777d8, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x2e91bc0, size 0xbc, virtual true, abstract: false, final false
   inline void Update();
 
-  /// @brief Method CreateRenderChain, addr 0x2e77950, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method CreateRenderChain, addr 0x2e91d38, size 0x78, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::RenderChain* CreateRenderChain();
 
-  /// @brief Method OnGraphicsResourcesRecreate, addr 0x2e77ad4, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method OnGraphicsResourcesRecreate, addr 0x2e91ebc, size 0x1d0, virtual false, abstract: false, final false
   static inline void OnGraphicsResourcesRecreate(bool recreate);
 
-  /// @brief Method OnPanelChanged, addr 0x2e77cf4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method OnPanelChanged, addr 0x2e920dc, size 0x18, virtual false, abstract: false, final false
   inline void OnPanelChanged(::UnityEngine::UIElements::BaseVisualElementPanel* obj);
 
-  /// @brief Method AttachToPanel, addr 0x2e77eb0, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method AttachToPanel, addr 0x2e92298, size 0x1f4, virtual false, abstract: false, final false
   inline void AttachToPanel();
 
-  /// @brief Method DetachFromPanel, addr 0x2e77d0c, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method DetachFromPanel, addr 0x2e920f4, size 0x1a4, virtual false, abstract: false, final false
   inline void DetachFromPanel();
 
-  /// @brief Method InitRenderChain, addr 0x2e77894, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method InitRenderChain, addr 0x2e91c7c, size 0xbc, virtual false, abstract: false, final false
   inline void InitRenderChain();
 
-  /// @brief Method DestroyRenderChain, addr 0x2e77ca4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method DestroyRenderChain, addr 0x2e9208c, size 0x50, virtual false, abstract: false, final false
   inline void DestroyRenderChain();
 
-  /// @brief Method OnPanelAtlasChanged, addr 0x2e7847c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnPanelAtlasChanged, addr 0x2e92864, size 0x4, virtual false, abstract: false, final false
   inline void OnPanelAtlasChanged();
 
-  /// @brief Method OnPanelHierarchyChanged, addr 0x2e78480, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method OnPanelHierarchyChanged, addr 0x2e92868, size 0x38, virtual false, abstract: false, final false
   inline void OnPanelHierarchyChanged(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::HierarchyChangeType changeType);
 
-  /// @brief Method OnPanelStandardShaderChanged, addr 0x2e780a4, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method OnPanelStandardShaderChanged, addr 0x2e9248c, size 0x1a4, virtual false, abstract: false, final false
   inline void OnPanelStandardShaderChanged();
 
-  /// @brief Method OnPanelStandardWorldSpaceShaderChanged, addr 0x2e78248, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method OnPanelStandardWorldSpaceShaderChanged, addr 0x2e92630, size 0x1a4, virtual false, abstract: false, final false
   inline void OnPanelStandardWorldSpaceShaderChanged();
 
-  /// @brief Method ResetAllElementsDataRecursive, addr 0x2e783ec, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ResetAllElementsDataRecursive, addr 0x2e927d4, size 0x90, virtual false, abstract: false, final false
   inline void ResetAllElementsDataRecursive(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method get_disposed, addr 0x2e784b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x2e928a0, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
-  /// @brief Method set_disposed, addr 0x2e784c0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x2e928a8, size 0xc, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
-  /// @brief Method Dispose, addr 0x2e784cc, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x2e928b4, size 0x2c, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   // Ctor Parameters [CppParam { name: "", ty: "UIRRepaintUpdater", modifiers: "&&", def_value: None }]

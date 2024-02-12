@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::Unity::Collections::LowLevel::Unsafe::NativeArrayUnsafeUtility)
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10013))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8744))
 // CS Name: ::Unity.Collections.LowLevel.Unsafe::NativeArrayUnsafeUtility*
 class CORDL_TYPE NativeArrayUnsafeUtility : public ::System::Object {
 public:

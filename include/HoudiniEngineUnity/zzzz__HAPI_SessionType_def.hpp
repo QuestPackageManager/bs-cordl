@@ -16,7 +16,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_SessionType);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9691))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9483))
 // CS Name: ::HoudiniEngineUnity::HAPI_SessionType
 struct CORDL_TYPE HAPI_SessionType {
 public:

@@ -56,7 +56,7 @@ namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TParam9, typename TParam10>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11290))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10432))
 // CS Name: ::SubContainerCreatorByNewPrefabMethod`10::<>c__DisplayClass2_0<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TParam8,TParam9,TParam10>*
 class CORDL_TYPE __SubContainerCreatorByNewPrefabMethod_10____c__DisplayClass2_0 : public ::System::Object {
 public:
@@ -126,8 +126,8 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TParam9, typename TParam10>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11274))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11291))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10416))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10433))
 // CS Name: ::Zenject::SubContainerCreatorByNewPrefabMethod`10<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TParam8,TParam9,TParam10>*
 class CORDL_TYPE SubContainerCreatorByNewPrefabMethod_10 : public ::Zenject::SubContainerCreatorByNewPrefabDynamicContext {
 public:

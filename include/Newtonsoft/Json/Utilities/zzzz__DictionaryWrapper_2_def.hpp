@@ -80,7 +80,7 @@ namespace Newtonsoft::Json::Utilities {
 template <typename TKey, typename TValue, typename TEnumeratorKey, typename TEnumeratorValue>
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11881))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11779))
 // CS Name: ::DictionaryWrapper`2::DictionaryEnumerator`2<TKey,TValue,TEnumeratorKey,TEnumeratorValue>
 struct CORDL_TYPE __DictionaryWrapper_2__DictionaryEnumerator_2 {
 public:
@@ -151,7 +151,7 @@ namespace Newtonsoft::Json::Utilities {
 template <typename TKey, typename TValue>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11882))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11780))
 // CS Name: ::DictionaryWrapper`2::<>c<TKey,TValue>*
 class CORDL_TYPE __DictionaryWrapper_2____c : public ::System::Object {
 public:
@@ -204,7 +204,7 @@ namespace Newtonsoft::Json::Utilities {
 template <typename TKey, typename TValue>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11883))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11781))
 // CS Name: ::Newtonsoft.Json.Utilities::DictionaryWrapper`2<TKey,TValue>*
 class CORDL_TYPE DictionaryWrapper_2 : public ::System::Object {
 public:

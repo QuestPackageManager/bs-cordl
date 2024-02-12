@@ -45,7 +45,7 @@ namespace GlobalNamespace {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9974))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8703))
 // CS Name: ::IJobExtensions::JobStruct`1::ExecuteJobFunction<T>*
 class CORDL_TYPE __IJobExtensions__JobStruct_1__ExecuteJobFunction : public ::System::MulticastDelegate {
 public:
@@ -83,7 +83,7 @@ namespace Unity::Jobs {
 template <typename T>
 // Is value type: true
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9975))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8704))
 // CS Name: ::IJobExtensions::JobStruct`1<T>
 #pragma pack(push, 0)
 struct CORDL_TYPE __IJobExtensions__JobStruct_1 {
@@ -121,7 +121,7 @@ public:
 namespace Unity::Jobs {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9976))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8705))
 // CS Name: ::Unity.Jobs::IJobExtensions*
 class CORDL_TYPE IJobExtensions : public ::System::Object {
 public:

@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRDirectComposition);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7506))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7602))
 // CS Name: ::OVRDirectComposition*
 class CORDL_TYPE OVRDirectComposition : public ::System::Object {
 public:
   // Declarations
   static inline ::GlobalNamespace::OVRDirectComposition* New_ctor();
 
-  /// @brief Method .ctor, addr 0x270df18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2740380, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRDirectComposition", modifiers: "&&", def_value: None }]

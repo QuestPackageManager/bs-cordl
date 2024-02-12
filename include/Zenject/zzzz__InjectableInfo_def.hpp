@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::Zenject::InjectableInfo);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15712))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15706))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15862))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15856))
 // CS Name: ::Zenject::InjectableInfo*
 class CORDL_TYPE InjectableInfo : public ::System::Object {
 public:
@@ -88,7 +88,7 @@ public:
   static inline ::Zenject::InjectableInfo* New_ctor(bool optional, ::System::Object* identifier, ::StringW memberName, ::System::Type* memberType, ::System::Object* defaultValue,
                                                     ::Zenject::InjectSources sourceType);
 
-  /// @brief Method .ctor, addr 0x2eb974c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ed5894, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(bool optional, ::System::Object* identifier, ::StringW memberName, ::System::Type* memberType, ::System::Object* defaultValue, ::Zenject::InjectSources sourceType);
 
   // Ctor Parameters [CppParam { name: "", ty: "InjectableInfo", modifiers: "&&", def_value: None }]

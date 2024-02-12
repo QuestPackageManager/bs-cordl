@@ -16,7 +16,7 @@ MARK_VAL_T(::ENet::PacketFlags);
 namespace ENet {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15213))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15326))
 // CS Name: ::ENet::PacketFlags
 struct CORDL_TYPE PacketFlags {
 public:

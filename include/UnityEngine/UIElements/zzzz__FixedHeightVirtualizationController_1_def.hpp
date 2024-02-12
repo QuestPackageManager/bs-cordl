@@ -24,8 +24,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7370)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7370), inst: 5350 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7367))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6629)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6629), inst: 5332 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6626))
 // CS Name: ::UnityEngine.UIElements::FixedHeightVirtualizationController`1<T>*
 class CORDL_TYPE FixedHeightVirtualizationController_1 : public ::UnityEngine::UIElements::VerticalVirtualizationController_1<T> {
 public:

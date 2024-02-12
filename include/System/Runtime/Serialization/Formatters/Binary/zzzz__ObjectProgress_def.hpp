@@ -226,16 +226,16 @@ public:
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::ObjectProgress* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24c4138, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24e51ac, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Init, addr 0x24c41a8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x24e521c, size 0x50, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method ArrayCountIncrement, addr 0x24c41f8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ArrayCountIncrement, addr 0x24e526c, size 0x10, virtual false, abstract: false, final false
   inline void ArrayCountIncrement(int32_t value);
 
-  /// @brief Method GetNext, addr 0x24c4208, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetNext, addr 0x24e527c, size 0x114, virtual false, abstract: false, final false
   inline bool GetNext(ByRef<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum> outBinaryTypeEnum, ByRef<::System::Object*> outTypeInformation);
 
   // Ctor Parameters [CppParam { name: "", ty: "ObjectProgress", modifiers: "&&", def_value: None }]

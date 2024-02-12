@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::Marker);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13888))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8954))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13841))
 // CS Name: ::UnityEngine.Timeline::Marker*
 class CORDL_TYPE Marker : public ::UnityEngine::ScriptableObject {
 public:
@@ -55,27 +55,27 @@ public:
 
   constexpr void __cordl_internal_set__parent_k__BackingField(::UnityW<::UnityEngine::Timeline::TrackAsset> value);
 
-  /// @brief Method get_parent, addr 0x2c68604, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_parent, addr 0x2c66170, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::Timeline::TrackAsset> get_parent();
 
-  /// @brief Method set_parent, addr 0x2c6860c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_parent, addr 0x2c66178, size 0x8, virtual false, abstract: false, final false
   inline void set_parent(::UnityEngine::Timeline::TrackAsset* value);
 
-  /// @brief Method get_time, addr 0x2c68614, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_time, addr 0x2c66180, size 0x8, virtual true, abstract: false, final true
   inline double_t get_time();
 
-  /// @brief Method set_time, addr 0x2c6861c, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method set_time, addr 0x2c66188, size 0x70, virtual true, abstract: false, final true
   inline void set_time(double_t value);
 
-  /// @brief Method UnityEngine.Timeline.IMarker.Initialize, addr 0x2c6868c, size 0x14c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Timeline.IMarker.Initialize, addr 0x2c661f8, size 0x14c, virtual true, abstract: false, final true
   inline void UnityEngine_Timeline_IMarker_Initialize(::UnityEngine::Timeline::TrackAsset* parentTrack);
 
-  /// @brief Method OnInitialize, addr 0x2c687d8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnInitialize, addr 0x2c66344, size 0x4, virtual true, abstract: false, final false
   inline void OnInitialize(::UnityEngine::Timeline::TrackAsset* aPent);
 
   static inline ::UnityEngine::Timeline::Marker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c687dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c66348, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Marker", modifiers: "&&", def_value: None }]

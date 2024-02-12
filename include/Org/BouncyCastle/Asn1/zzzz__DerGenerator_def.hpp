@@ -54,24 +54,24 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::DerGenerator* New_ctor(::System::IO::Stream* outStream);
 
-  /// @brief Method .ctor, addr 0x11c2b18, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11ef9a8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* outStream);
 
   static inline ::Org::BouncyCastle::Asn1::DerGenerator* New_ctor(::System::IO::Stream* outStream, int32_t tagNo, bool isExplicit);
 
-  /// @brief Method .ctor, addr 0x11c2b44, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11ef9d4, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* outStream, int32_t tagNo, bool isExplicit);
 
-  /// @brief Method WriteLength, addr 0x11c2b90, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method WriteLength, addr 0x11efa20, size 0xac, virtual false, abstract: false, final false
   static inline void WriteLength(::System::IO::Stream* outStr, int32_t length);
 
-  /// @brief Method WriteDerEncoded, addr 0x11c2c3c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method WriteDerEncoded, addr 0x11efacc, size 0x60, virtual false, abstract: false, final false
   static inline void WriteDerEncoded(::System::IO::Stream* outStream, int32_t tag, ::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method WriteDerEncoded, addr 0x11c2c9c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method WriteDerEncoded, addr 0x11efb2c, size 0xe0, virtual false, abstract: false, final false
   inline void WriteDerEncoded(int32_t tag, ::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method WriteDerEncoded, addr 0x11c2d7c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method WriteDerEncoded, addr 0x11efc0c, size 0x34, virtual false, abstract: false, final false
   static inline void WriteDerEncoded(::System::IO::Stream* outStr, int32_t tag, ::System::IO::Stream* inStr);
 
   // Ctor Parameters [CppParam { name: "", ty: "DerGenerator", modifiers: "&&", def_value: None }]

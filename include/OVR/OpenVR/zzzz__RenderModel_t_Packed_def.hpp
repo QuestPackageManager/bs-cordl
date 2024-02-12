@@ -21,16 +21,16 @@ MARK_VAL_T(::OVR::OpenVR::RenderModel_t_Packed);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8716))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8660))
 // CS Name: ::OVR.OpenVR::RenderModel_t_Packed
 #pragma pack(push, 4)
 struct CORDL_TYPE RenderModel_t_Packed {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x27f67b4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2803f6c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::OVR::OpenVR::RenderModel_t unpacked);
 
-  /// @brief Method Unpack, addr 0x27f67e0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Unpack, addr 0x2803f98, size 0x24, virtual false, abstract: false, final false
   inline void Unpack(ByRef<::OVR::OpenVR::RenderModel_t> unpacked);
 
   // Ctor Parameters [CppParam { name: "rVertexData", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "unVertexCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam {

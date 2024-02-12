@@ -23,29 +23,29 @@ MARK_REF_PTR_T(::GlobalNamespace::CubicBezierHelper);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14342))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14500))
 // CS Name: ::CubicBezierHelper*
 class CORDL_TYPE CubicBezierHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method EvaluateCurve, addr 0x20efa8c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method EvaluateCurve, addr 0x2184014, size 0x90, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 EvaluateCurve(ByRef<::UnityEngine::Vector3> a1, ByRef<::UnityEngine::Vector3> c1, ByRef<::UnityEngine::Vector3> c2, ByRef<::UnityEngine::Vector3> a2, float_t t);
 
-  /// @brief Method EvaluateCurveDerivative, addr 0x20efb1c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method EvaluateCurveDerivative, addr 0x21840a4, size 0x90, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 EvaluateCurveDerivative(ByRef<::UnityEngine::Vector3> a1, ByRef<::UnityEngine::Vector3> c1, ByRef<::UnityEngine::Vector3> c2, ByRef<::UnityEngine::Vector3> a2,
                                                                float_t t);
 
-  /// @brief Method EvaluateCurveSecondDerivative, addr 0x20efbac, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method EvaluateCurveSecondDerivative, addr 0x2184134, size 0x84, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 EvaluateCurveSecondDerivative(ByRef<::UnityEngine::Vector3> a1, ByRef<::UnityEngine::Vector3> c1, ByRef<::UnityEngine::Vector3> c2,
                                                                      ByRef<::UnityEngine::Vector3> a2, float_t t);
 
-  /// @brief Method Normal, addr 0x20efc30, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method Normal, addr 0x21841b8, size 0x168, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 Normal(ByRef<::UnityEngine::Vector3> a1, ByRef<::UnityEngine::Vector3> c1, ByRef<::UnityEngine::Vector3> c2, ByRef<::UnityEngine::Vector3> a2, float_t t);
 
-  /// @brief Method SplitCurve, addr 0x20efd98, size 0x4d4, virtual false, abstract: false, final false
+  /// @brief Method SplitCurve, addr 0x2184320, size 0x4d4, virtual false, abstract: false, final false
   static inline void SplitCurve(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* points, float_t t);
 
-  /// @brief Method EstimateCurveLength, addr 0x20f026c, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method EstimateCurveLength, addr 0x21847f4, size 0x250, virtual false, abstract: false, final false
   static inline float_t EstimateCurveLength(ByRef<::UnityEngine::Vector3> p0, ByRef<::UnityEngine::Vector3> p1, ByRef<::UnityEngine::Vector3> p2, ByRef<::UnityEngine::Vector3> p3);
 
   // Ctor Parameters [CppParam { name: "", ty: "CubicBezierHelper", modifiers: "&&", def_value: None }]

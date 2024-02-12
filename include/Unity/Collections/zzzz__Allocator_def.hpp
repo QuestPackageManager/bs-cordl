@@ -16,7 +16,7 @@ MARK_VAL_T(::Unity::Collections::Allocator);
 namespace Unity::Collections {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10003))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8734))
 // CS Name: ::Unity.Collections::Allocator
 struct CORDL_TYPE Allocator {
 public:

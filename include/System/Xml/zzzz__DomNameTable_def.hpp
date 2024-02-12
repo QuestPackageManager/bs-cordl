@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::System::Xml::DomNameTable);
 namespace System::Xml {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11496))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11394))
 // CS Name: ::System.Xml::DomNameTable*
 class CORDL_TYPE DomNameTable : public ::System::Object {
 public:
@@ -82,16 +82,16 @@ public:
 
   static inline ::System::Xml::DomNameTable* New_ctor(::System::Xml::XmlDocument* document);
 
-  /// @brief Method .ctor, addr 0x2881420, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2884a88, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlDocument* document);
 
-  /// @brief Method GetName, addr 0x28814c0, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method GetName, addr 0x2884b28, size 0x15c, virtual false, abstract: false, final false
   inline ::System::Xml::XmlName* GetName(::StringW prefix, ::StringW localName, ::StringW ns, ::System::Xml::Schema::IXmlSchemaInfo* schemaInfo);
 
-  /// @brief Method AddName, addr 0x288161c, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method AddName, addr 0x2884c84, size 0x264, virtual false, abstract: false, final false
   inline ::System::Xml::XmlName* AddName(::StringW prefix, ::StringW localName, ::StringW ns, ::System::Xml::Schema::IXmlSchemaInfo* schemaInfo);
 
-  /// @brief Method Grow, addr 0x2881880, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method Grow, addr 0x2884ee8, size 0x124, virtual false, abstract: false, final false
   inline void Grow();
 
   // Ctor Parameters [CppParam { name: "", ty: "DomNameTable", modifiers: "&&", def_value: None }]

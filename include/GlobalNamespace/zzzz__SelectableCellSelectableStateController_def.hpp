@@ -27,32 +27,32 @@ MARK_REF_PTR_T(::GlobalNamespace::SelectableCellSelectableStateController);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5457)), TypeDefinitionIndex(TypeDefinitionIndex(13653)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5457), inst:
-// 4967 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5460)) CS Name: ::SelectableCellSelectableStateController*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4760)), TypeDefinitionIndex(TypeDefinitionIndex(13606)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4760), inst:
+// 4939 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4763)) CS Name: ::SelectableCellSelectableStateController*
 class CORDL_TYPE SelectableCellSelectableStateController : public ::GlobalNamespace::SelectableStateController_1<::UnityW<::HMUI::SelectableCell>> {
 public:
   // Declarations
-  /// @brief Method OnEnable, addr 0x227fab0, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x23db368, size 0x164, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable, addr 0x227fc80, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x23db538, size 0x154, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method HandleSelectableCellInteractableDidChange, addr 0x227fdd4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method HandleSelectableCellInteractableDidChange, addr 0x23db68c, size 0x88, virtual false, abstract: false, final false
   inline void HandleSelectableCellInteractableDidChange(::HMUI::Interactable* interactableCell, bool interactable);
 
-  /// @brief Method HandleSelectableCellHighlightDidChange, addr 0x227fe5c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleSelectableCellHighlightDidChange, addr 0x23db714, size 0x4, virtual false, abstract: false, final false
   inline void HandleSelectableCellHighlightDidChange(::HMUI::SelectableCell* selectableCell, ::HMUI::__SelectableCell__TransitionType transitionType);
 
-  /// @brief Method HandleSelectableCellSelectionStateDidChange, addr 0x227fe60, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleSelectableCellSelectionStateDidChange, addr 0x23db718, size 0x4, virtual false, abstract: false, final false
   inline void HandleSelectableCellSelectionStateDidChange(::HMUI::SelectableCell* selectableCell, ::HMUI::__SelectableCell__TransitionType transitionType, ::System::Object* owner);
 
-  /// @brief Method ResolveState, addr 0x227fc14, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method ResolveState, addr 0x23db4cc, size 0x6c, virtual false, abstract: false, final false
   inline void ResolveState(::HMUI::SelectableCell* selectableCell, ::HMUI::__SelectableCell__TransitionType transitionType);
 
   static inline ::GlobalNamespace::SelectableCellSelectableStateController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x227fe64, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23db71c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SelectableCellSelectableStateController", modifiers: "&&", def_value: None }]

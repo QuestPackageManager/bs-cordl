@@ -35,13 +35,13 @@ public:
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainMap* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24c2428, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24e349c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Read, addr 0x24c2430, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Read, addr 0x24e34a4, size 0x28, virtual true, abstract: false, final true
   inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
 
-  /// @brief Method Dump, addr 0x24c2458, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Dump, addr 0x24e34cc, size 0x4, virtual false, abstract: false, final false
   inline void Dump();
 
   // Ctor Parameters [CppParam { name: "", ty: "BinaryCrossAppDomainMap", modifiers: "&&", def_value: None }]

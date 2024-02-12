@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::DropdownMenuEventInfo);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10058)), TypeDefinitionIndex(TypeDefinitionIndex(10243)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14602))] Self: TypeDefinitionIndex(TypeDefinitionIndex(6944)) CS Name: ::UnityEngine.UIElements::DropdownMenuEventInfo*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8790)), TypeDefinitionIndex(TypeDefinitionIndex(8987)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14607))] Self: TypeDefinitionIndex(TypeDefinitionIndex(6203)) CS Name: ::UnityEngine.UIElements::DropdownMenuEventInfo*
 class CORDL_TYPE DropdownMenuEventInfo : public ::System::Object {
 public:
   // Declarations
@@ -73,7 +73,7 @@ public:
 
   static inline ::UnityEngine::UIElements::DropdownMenuEventInfo* New_ctor(::UnityEngine::UIElements::EventBase* e);
 
-  /// @brief Method .ctor, addr 0x2e08220, size 0x31c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e25608, size 0x31c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::EventBase* e);
 
   // Ctor Parameters [CppParam { name: "", ty: "DropdownMenuEventInfo", modifiers: "&&", def_value: None }]

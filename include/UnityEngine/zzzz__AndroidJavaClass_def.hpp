@@ -16,23 +16,23 @@ MARK_REF_PTR_T(::UnityEngine::AndroidJavaClass);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14913))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14914))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14786))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14787))
 // CS Name: ::UnityEngine::AndroidJavaClass*
 class CORDL_TYPE AndroidJavaClass : public ::UnityEngine::AndroidJavaObject {
 public:
   // Declarations
   static inline ::UnityEngine::AndroidJavaClass* New_ctor(::StringW className);
 
-  /// @brief Method .ctor, addr 0x2c841d0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c80d3c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW className);
 
-  /// @brief Method _AndroidJavaClass, addr 0x2c87824, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method _AndroidJavaClass, addr 0x2c84390, size 0xc0, virtual false, abstract: false, final false
   inline void _AndroidJavaClass(::StringW className);
 
   static inline ::UnityEngine::AndroidJavaClass* New_ctor(void* jclass);
 
-  /// @brief Method .ctor, addr 0x2c87038, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c83ba4, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(void* jclass);
 
   // Ctor Parameters [CppParam { name: "", ty: "AndroidJavaClass", modifiers: "&&", def_value: None }]

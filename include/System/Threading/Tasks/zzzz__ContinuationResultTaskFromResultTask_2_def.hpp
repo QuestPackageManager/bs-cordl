@@ -31,7 +31,7 @@ namespace System::Threading::Tasks {
 // cpp template
 template <typename TAntecedentResult, typename TResult>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2773)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 5126 })]
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2773)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 5108 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2800))
 // CS Name: ::System.Threading.Tasks::ContinuationResultTaskFromResultTask`2<TAntecedentResult,TResult>*
 class CORDL_TYPE ContinuationResultTaskFromResultTask_2 : public ::System::Threading::Tasks::Task_1<TResult> {

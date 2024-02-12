@@ -28,30 +28,30 @@ MARK_VAL_T(::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 42, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3401))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3357))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3397))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3354))
 // CS Name: ::System.Runtime.CompilerServices::AsyncValueTaskMethodBuilder
 struct CORDL_TYPE AsyncValueTaskMethodBuilder {
 public:
   // Declarations
   __declspec(property(get = get_Task))::System::Threading::Tasks::ValueTask Task;
 
-  /// @brief Method Create, addr 0x24da794, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x24facc4, size 0xc, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder Create();
 
   /// @brief Method Start, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TStateMachine> inline void Start(ByRef<TStateMachine> stateMachine);
 
-  /// @brief Method SetStateMachine, addr 0x24da7a0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetStateMachine, addr 0x24facd0, size 0x4, virtual false, abstract: false, final false
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
-  /// @brief Method SetResult, addr 0x24da7fc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetResult, addr 0x24fad2c, size 0x18, virtual false, abstract: false, final false
   inline void SetResult();
 
-  /// @brief Method SetException, addr 0x24da88c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetException, addr 0x24fadbc, size 0x4, virtual false, abstract: false, final false
   inline void SetException(::System::Exception* exception);
 
-  /// @brief Method get_Task, addr 0x24da8e8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_Task, addr 0x24fae18, size 0x48, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::ValueTask get_Task();
 
   /// @brief Method AwaitUnsafeOnCompleted, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

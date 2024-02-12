@@ -40,8 +40,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__FlyingTextEffect__Pool);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4852)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4858))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4206)), TypeDefinitionIndex(TypeDefinitionIndex(8995))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4212))
 // CS Name: ::FlyingTextEffect*
 class CORDL_TYPE FlyingTextEffect : public ::GlobalNamespace::FlyingObjectEffect {
 public:
@@ -75,15 +75,15 @@ public:
 
   constexpr void __cordl_internal_set__color(::UnityEngine::Color value);
 
-  /// @brief Method InitAndPresent, addr 0x2399160, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method InitAndPresent, addr 0x235a290, size 0x78, virtual false, abstract: false, final false
   inline void InitAndPresent(::StringW text, float_t duration, ::UnityEngine::Vector3 targetPos, ::UnityEngine::Quaternion rotation, ::UnityEngine::Color color, float_t fontSize, bool shake);
 
-  /// @brief Method ManualUpdate, addr 0x23991d8, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x235a308, size 0x64, virtual true, abstract: false, final false
   inline void ManualUpdate(float_t t);
 
   static inline ::GlobalNamespace::FlyingTextEffect* New_ctor();
 
-  /// @brief Method .ctor, addr 0x239923c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x235a36c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FlyingTextEffect", modifiers: "&&", def_value: None }]
@@ -125,14 +125,14 @@ static_assert(offsetof(::GlobalNamespace::FlyingTextEffect, ____color) == 0x90, 
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4858)), TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
-// 2813 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4857)) CS Name: ::FlyingTextEffect::Pool*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4212)), TypeDefinitionIndex(TypeDefinitionIndex(10192)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10192), inst:
+// 2783 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4211)) CS Name: ::FlyingTextEffect::Pool*
 class CORDL_TYPE __FlyingTextEffect__Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::FlyingTextEffect>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__FlyingTextEffect__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x239926c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x235a39c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FlyingTextEffect__Pool", modifiers: "&&", def_value: None }]

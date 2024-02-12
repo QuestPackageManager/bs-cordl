@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::RejoinDialogResult);
 namespace Oculus::Platform::Models {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13477))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13426))
 // CS Name: ::Oculus.Platform.Models::RejoinDialogResult*
 class CORDL_TYPE RejoinDialogResult : public ::System::Object {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::Oculus::Platform::Models::RejoinDialogResult* New_ctor(void* o);
 
-  /// @brief Method .ctor, addr 0x2708ad0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x273cbac, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "RejoinDialogResult", modifiers: "&&", def_value: None }]

@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IScoreSyncStateManager);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14945))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14818))
 // CS Name: ::IScoreSyncStateManager*
 class CORDL_TYPE IScoreSyncStateManager {
 public:

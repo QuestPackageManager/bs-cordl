@@ -247,55 +247,55 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::CmsSignedGenerator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x11e8814, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12156a4, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Cms::CmsSignedGenerator* New_ctor(::Org::BouncyCastle::Security::SecureRandom* rand);
 
-  /// @brief Method .ctor, addr 0x11e8878, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1215708, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* rand);
 
-  /// @brief Method GetBaseParameters, addr 0x11e8918, size 0x23c, virtual true, abstract: false, final false
+  /// @brief Method GetBaseParameters, addr 0x12157a8, size 0x23c, virtual true, abstract: false, final false
   inline ::System::Collections::IDictionary* GetBaseParameters(::Org::BouncyCastle::Asn1::DerObjectIdentifier* contentType, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digAlgId,
                                                                ::ArrayW<uint8_t, ::Array<uint8_t>*> hash);
 
-  /// @brief Method GetAttributeSet, addr 0x11e8b54, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method GetAttributeSet, addr 0x12159e4, size 0x7c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Set* GetAttributeSet(::Org::BouncyCastle::Asn1::Cms::AttributeTable* attr);
 
-  /// @brief Method AddCertificates, addr 0x11e8bd0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method AddCertificates, addr 0x1215a60, size 0x24, virtual false, abstract: false, final false
   inline void AddCertificates(::Org::BouncyCastle::X509::Store::IX509Store* certStore);
 
-  /// @brief Method AddCrls, addr 0x11e8bf4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method AddCrls, addr 0x1215a84, size 0x24, virtual false, abstract: false, final false
   inline void AddCrls(::Org::BouncyCastle::X509::Store::IX509Store* crlStore);
 
-  /// @brief Method AddAttributeCertificates, addr 0x11e8c18, size 0x5cc, virtual false, abstract: false, final false
+  /// @brief Method AddAttributeCertificates, addr 0x1215aa8, size 0x5cc, virtual false, abstract: false, final false
   inline void AddAttributeCertificates(::Org::BouncyCastle::X509::Store::IX509Store* store);
 
-  /// @brief Method AddSigners, addr 0x11e91e4, size 0x3e4, virtual false, abstract: false, final false
+  /// @brief Method AddSigners, addr 0x1216074, size 0x3e4, virtual false, abstract: false, final false
   inline void AddSigners(::Org::BouncyCastle::Cms::SignerInformationStore* signerStore);
 
-  /// @brief Method GetGeneratedDigests, addr 0x11e95c8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetGeneratedDigests, addr 0x1216458, size 0x5c, virtual false, abstract: false, final false
   inline ::System::Collections::IDictionary* GetGeneratedDigests();
 
-  /// @brief Method get_UseDerForCerts, addr 0x11e9624, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UseDerForCerts, addr 0x12164b4, size 0x8, virtual false, abstract: false, final false
   inline bool get_UseDerForCerts();
 
-  /// @brief Method set_UseDerForCerts, addr 0x11e962c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_UseDerForCerts, addr 0x12164bc, size 0xc, virtual false, abstract: false, final false
   inline void set_UseDerForCerts(bool value);
 
-  /// @brief Method get_UseDerForCrls, addr 0x11e9638, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UseDerForCrls, addr 0x12164c8, size 0x8, virtual false, abstract: false, final false
   inline bool get_UseDerForCrls();
 
-  /// @brief Method set_UseDerForCrls, addr 0x11e9640, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_UseDerForCrls, addr 0x12164d0, size 0xc, virtual false, abstract: false, final false
   inline void set_UseDerForCrls(bool value);
 
-  /// @brief Method AddSignerCallback, addr 0x11e964c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method AddSignerCallback, addr 0x12164dc, size 0x4, virtual true, abstract: false, final false
   inline void AddSignerCallback(::Org::BouncyCastle::Cms::SignerInformation* si);
 
-  /// @brief Method GetSignerIdentifier, addr 0x11e9650, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetSignerIdentifier, addr 0x12164e0, size 0x74, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* GetSignerIdentifier(::Org::BouncyCastle::X509::X509Certificate* cert);
 
-  /// @brief Method GetSignerIdentifier, addr 0x11e9758, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetSignerIdentifier, addr 0x12165e8, size 0x94, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* GetSignerIdentifier(::ArrayW<uint8_t, ::Array<uint8_t>*> subjectKeyIdentifier);
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsSignedGenerator", modifiers: "&&", def_value: None }]

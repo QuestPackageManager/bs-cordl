@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::ReflectionValueProvider);
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11963))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11861))
 // CS Name: ::Newtonsoft.Json.Serialization::ReflectionValueProvider*
 class CORDL_TYPE ReflectionValueProvider : public ::System::Object {
 public:
@@ -46,13 +46,13 @@ public:
 
   static inline ::Newtonsoft::Json::Serialization::ReflectionValueProvider* New_ctor(::System::Reflection::MemberInfo* memberInfo);
 
-  /// @brief Method .ctor, addr 0x268f5a8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b1764, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::MemberInfo* memberInfo);
 
-  /// @brief Method SetValue, addr 0x268f614, size 0x1a4, virtual true, abstract: false, final true
+  /// @brief Method SetValue, addr 0x26b17d0, size 0x1a4, virtual true, abstract: false, final true
   inline void SetValue(::System::Object* target, ::System::Object* value);
 
-  /// @brief Method GetValue, addr 0x268f7b8, size 0x1a0, virtual true, abstract: false, final true
+  /// @brief Method GetValue, addr 0x26b1974, size 0x1a0, virtual true, abstract: false, final true
   inline ::System::Object* GetValue(::System::Object* target);
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectionValueProvider", modifiers: "&&", def_value: None }]

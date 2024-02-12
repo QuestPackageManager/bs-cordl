@@ -44,24 +44,24 @@ public:
 
   constexpr void __cordl_internal_set__templateBuilder(::Org::BouncyCastle::Asn1::Crmf::CertTemplateBuilder* value);
 
-  /// @brief Method SetPublicKey, addr 0x11d7f70, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetPublicKey, addr 0x1205e00, size 0x30, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cmp::RevocationDetailsBuilder* SetPublicKey(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* publicKey);
 
-  /// @brief Method SetIssuer, addr 0x11d7fa0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetIssuer, addr 0x1205e30, size 0x30, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cmp::RevocationDetailsBuilder* SetIssuer(::Org::BouncyCastle::Asn1::X509::X509Name* issuer);
 
-  /// @brief Method SetSerialNumber, addr 0x11d7fd0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method SetSerialNumber, addr 0x1205e60, size 0x90, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cmp::RevocationDetailsBuilder* SetSerialNumber(::Org::BouncyCastle::Math::BigInteger* serialNumber);
 
-  /// @brief Method SetSubject, addr 0x11d8060, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetSubject, addr 0x1205ef0, size 0x30, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cmp::RevocationDetailsBuilder* SetSubject(::Org::BouncyCastle::Asn1::X509::X509Name* subject);
 
-  /// @brief Method Build, addr 0x11d8090, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x1205f20, size 0xb4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cmp::RevocationDetails* Build();
 
   static inline ::Org::BouncyCastle::Cmp::RevocationDetailsBuilder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x11d8144, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1205fd4, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RevocationDetailsBuilder", modifiers: "&&", def_value: None }]

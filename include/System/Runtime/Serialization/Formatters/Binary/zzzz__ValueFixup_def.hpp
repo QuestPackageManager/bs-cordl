@@ -111,16 +111,16 @@ public:
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::ValueFixup* New_ctor(::System::Array* arrayObj, ::ArrayW<int32_t, ::Array<int32_t>*> indexMap);
 
-  /// @brief Method .ctor, addr 0x24ce520, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24ef594, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::System::Array* arrayObj, ::ArrayW<int32_t, ::Array<int32_t>*> indexMap);
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::ValueFixup* New_ctor(::System::Object* memberObject, ::StringW memberName,
                                                                                            ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* objectInfo);
 
-  /// @brief Method .ctor, addr 0x24ce978, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24ef9ec, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* memberObject, ::StringW memberName, ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* objectInfo);
 
-  /// @brief Method Fixup, addr 0x24cd978, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method Fixup, addr 0x24ee9ec, size 0x314, virtual false, abstract: false, final false
   inline void Fixup(::System::Runtime::Serialization::Formatters::Binary::ParseRecord* record, ::System::Runtime::Serialization::Formatters::Binary::ParseRecord* parent);
 
   // Ctor Parameters [CppParam { name: "", ty: "ValueFixup", modifiers: "&&", def_value: None }]

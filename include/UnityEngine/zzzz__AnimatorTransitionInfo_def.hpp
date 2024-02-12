@@ -17,7 +17,7 @@ MARK_VAL_T(::UnityEngine::AnimatorTransitionInfo);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14880))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14753))
 // CS Name: ::UnityEngine::AnimatorTransitionInfo
 struct CORDL_TYPE AnimatorTransitionInfo {
 public:

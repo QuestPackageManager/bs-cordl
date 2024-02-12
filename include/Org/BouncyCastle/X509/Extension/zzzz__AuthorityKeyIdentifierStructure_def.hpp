@@ -34,23 +34,23 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure* New_ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* encodedValue);
 
-  /// @brief Method .ctor, addr 0x116ece0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x119db70, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* encodedValue);
 
-  /// @brief Method FromCertificate, addr 0x116ed98, size 0x404, virtual false, abstract: false, final false
+  /// @brief Method FromCertificate, addr 0x119dc28, size 0x404, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1Sequence* FromCertificate(::Org::BouncyCastle::X509::X509Certificate* certificate);
 
-  /// @brief Method FromKey, addr 0x116f19c, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method FromKey, addr 0x119e02c, size 0x1a0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1Sequence* FromKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* pubKey);
 
   static inline ::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure* New_ctor(::Org::BouncyCastle::X509::X509Certificate* certificate);
 
-  /// @brief Method .ctor, addr 0x116f33c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x119e1cc, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::X509::X509Certificate* certificate);
 
   static inline ::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure* New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* pubKey);
 
-  /// @brief Method .ctor, addr 0x116f360, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x119e1f0, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* pubKey);
 
   // Ctor Parameters [CppParam { name: "", ty: "AuthorityKeyIdentifierStructure", modifiers: "&&", def_value: None }]

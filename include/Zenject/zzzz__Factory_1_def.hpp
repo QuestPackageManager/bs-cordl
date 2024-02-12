@@ -23,8 +23,8 @@ namespace Zenject {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11002)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11002), inst: 3470 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11003))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10144)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10144), inst: 3441 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10145))
 // CS Name: ::Zenject::Factory`1<TValue>*
 class CORDL_TYPE Factory_1 : public ::Zenject::PlaceholderFactory_1<TValue> {
 public:

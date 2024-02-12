@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteJumpStartScaleUp::*)()>(&::GlobalNamespace::NoteJumpStartScaleUp::Awake)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x2389f44;
+  constexpr static std::size_t addrs = 0x22d1a84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJumpStartScaleUp*>::get(), "Awake",
@@ -23,8 +23,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteJumpStartScaleUp::*)()>(&::GlobalNamespace::NoteJumpStartScaleUp::OnDestroy)> {
-  constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x238a164;
+  constexpr static std::size_t size = 0x188;
+  constexpr static std::size_t addrs = 0x22d1ca0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJumpStartScaleUp*>::get(), "OnDestroy",
@@ -36,8 +36,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteJumpStartScaleUp::*)(float_t)>(&::GlobalNamespace::NoteJumpStartScaleUp::UpdateScale)> {
-  constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x238a008;
+  constexpr static std::size_t size = 0x158;
+  constexpr static std::size_t addrs = 0x22d1b48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteJumpStartScaleUp::*)(float_t)>(
     &::GlobalNamespace::NoteJumpStartScaleUp::HandleNoteJumpDidUpdateProgress)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x238a2f0;
+  constexpr static std::size_t addrs = 0x22d1e28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,8 +66,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteJumpStartScaleUp::*)(::GlobalNamespace::NoteControllerBase*)>(
     &::GlobalNamespace::NoteJumpStartScaleUp::HandleNoteControllerDidInit)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x238a2f4;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x22d1e2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteJumpStartScaleUp::*)()>(&::GlobalNamespace::NoteJumpStartScaleUp::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x238a3cc;
+  constexpr static std::size_t addrs = 0x22d1efc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJumpStartScaleUp*>::get(), ".ctor",

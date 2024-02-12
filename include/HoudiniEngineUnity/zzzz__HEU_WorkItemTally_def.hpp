@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_WorkItemTally);
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9774))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9566))
 // CS Name: ::HoudiniEngineUnity::HEU_WorkItemTally*
 class CORDL_TYPE HEU_WorkItemTally : public ::System::Object {
 public:
@@ -76,24 +76,24 @@ public:
 
   constexpr void __cordl_internal_set__erroredWorkItems(int32_t value);
 
-  /// @brief Method ZeroAll, addr 0x219b8fc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ZeroAll, addr 0x22311e0, size 0xc, virtual false, abstract: false, final false
   inline void ZeroAll();
 
-  /// @brief Method AreAllWorkItemsComplete, addr 0x219c9a8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method AreAllWorkItemsComplete, addr 0x223228c, size 0x38, virtual false, abstract: false, final false
   inline bool AreAllWorkItemsComplete();
 
-  /// @brief Method AnyWorkItemsFailed, addr 0x219c9e0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method AnyWorkItemsFailed, addr 0x22322c4, size 0x10, virtual false, abstract: false, final false
   inline bool AnyWorkItemsFailed();
 
-  /// @brief Method AnyWorkItemsPending, addr 0x219ca48, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method AnyWorkItemsPending, addr 0x223232c, size 0x44, virtual false, abstract: false, final false
   inline bool AnyWorkItemsPending();
 
-  /// @brief Method ProgressRatio, addr 0x219ca8c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ProgressRatio, addr 0x2232370, size 0xac, virtual false, abstract: false, final false
   inline ::StringW ProgressRatio();
 
   static inline ::HoudiniEngineUnity::HEU_WorkItemTally* New_ctor();
 
-  /// @brief Method .ctor, addr 0x219c834, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2232118, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_WorkItemTally", modifiers: "&&", def_value: None }]

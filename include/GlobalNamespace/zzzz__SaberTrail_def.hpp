@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SaberTrail);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 137, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4876))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8995))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4230))
 // CS Name: ::SaberTrail*
 class CORDL_TYPE SaberTrail : public ::UnityEngine::MonoBehaviour {
 public:
@@ -191,39 +191,39 @@ public:
 
   constexpr void __cordl_internal_set__inited(bool value);
 
-  /// @brief Method Awake, addr 0x239e864, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x235e994, size 0x12c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Setup, addr 0x239e990, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x235eac0, size 0x20, virtual false, abstract: false, final false
   inline void Setup(::UnityEngine::Color color, ::GlobalNamespace::IBladeMovementData* movementData);
 
-  /// @brief Method Init, addr 0x239e9b0, size 0x280, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x235eae0, size 0x280, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method ResetTrailData, addr 0x239ee64, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method ResetTrailData, addr 0x235ef94, size 0xd4, virtual false, abstract: false, final false
   inline void ResetTrailData();
 
-  /// @brief Method LateUpdate, addr 0x239efc8, size 0x3e4, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x235f0f8, size 0x3e4, virtual false, abstract: false, final false
   inline void LateUpdate();
 
-  /// @brief Method OnEnable, addr 0x239f6ac, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x235f7dc, size 0xac, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable, addr 0x239f758, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x235f888, size 0x84, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnDestroy, addr 0x239f7dc, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x235f90c, size 0xa8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method GetTrailWidth, addr 0x239ede0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetTrailWidth, addr 0x235ef10, size 0x84, virtual false, abstract: false, final false
   inline float_t GetTrailWidth(::GlobalNamespace::BladeMovementDataElement lastAddedData);
 
-  /// @brief Method OnDrawGizmosSelected, addr 0x239f884, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method OnDrawGizmosSelected, addr 0x235f9b4, size 0x1d4, virtual false, abstract: false, final false
   inline void OnDrawGizmosSelected();
 
   static inline ::GlobalNamespace::SaberTrail* New_ctor();
 
-  /// @brief Method .ctor, addr 0x239fa58, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x235fb88, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SaberTrail", modifiers: "&&", def_value: None }]

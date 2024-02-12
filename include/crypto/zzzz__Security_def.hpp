@@ -25,24 +25,24 @@ namespace crypto {
 class CORDL_TYPE Security : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ComputeHash, addr 0xfc59b0, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method ComputeHash, addr 0xff2840, size 0x164, virtual false, abstract: false, final false
   static inline ::StringW ComputeHash(::StringW text, ::StringW salt);
 
-  /// @brief Method Decrypt, addr 0xfc5b14, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method Decrypt, addr 0xff29a4, size 0x108, virtual false, abstract: false, final false
   static inline ::StringW Decrypt(::StringW cipherText, ::StringW key, ::StringW iv);
 
-  /// @brief Method Encrypt, addr 0xfc5e3c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Encrypt, addr 0xff2ccc, size 0xf4, virtual false, abstract: false, final false
   static inline ::StringW Encrypt(::StringW plainText, ::StringW key, ::StringW iv);
 
-  /// @brief Method GenerateText, addr 0xfc5f30, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method GenerateText, addr 0xff2dc0, size 0xc4, virtual false, abstract: false, final false
   static inline ::StringW GenerateText(int32_t size);
 
-  /// @brief Method CreateCipher, addr 0xfc5c1c, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method CreateCipher, addr 0xff2aac, size 0x220, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IBufferedCipher* CreateCipher(bool isEncryption, ::StringW key, ::StringW iv);
 
   static inline ::crypto::Security* New_ctor();
 
-  /// @brief Method .ctor, addr 0xfc5ff4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xff2e84, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Security", modifiers: "&&", def_value: None }]

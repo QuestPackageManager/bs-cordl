@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Rendering::ShadowCastingMode);
 namespace UnityEngine::Rendering {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10341))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9091))
 // CS Name: ::UnityEngine.Rendering::ShadowCastingMode
 struct CORDL_TYPE ShadowCastingMode {
 public:

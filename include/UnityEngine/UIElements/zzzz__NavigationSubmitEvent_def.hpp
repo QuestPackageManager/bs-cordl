@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::NavigationSubmitEvent);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 124, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7248)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7248), inst: 4703 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7254))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6507)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6507), inst: 4684 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6513))
 // CS Name: ::UnityEngine.UIElements::NavigationSubmitEvent*
 class CORDL_TYPE NavigationSubmitEvent : public ::UnityEngine::UIElements::NavigationEventBase_1<::UnityEngine::UIElements::NavigationSubmitEvent*> {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::NavigationSubmitEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e53280, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e6e668, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NavigationSubmitEvent", modifiers: "&&", def_value: None }]

@@ -49,7 +49,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__GameplayModifiersDropdown____c);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5570))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4875))
 // CS Name: ::GameplayModifiersDropdown::<>c*
 class CORDL_TYPE __GameplayModifiersDropdown____c : public ::System::Object {
 public:
@@ -70,10 +70,10 @@ public:
 
   static inline ::GlobalNamespace::__GameplayModifiersDropdown____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22a5644, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22d8bec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Start>b__8_0, addr 0x22a564c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__8_0, addr 0x22d8bf4, size 0x44, virtual false, abstract: false, final false
   inline ::StringW _Start_b__8_0(::System::Tuple_2<::GlobalNamespace::GameplayModifierMask, ::StringW>* x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__GameplayModifiersDropdown____c", modifiers: "&&", def_value: None }]
@@ -100,8 +100,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameplayModif
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5571))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4876))
 // CS Name: ::GameplayModifiersDropdown*
 class CORDL_TYPE GameplayModifiersDropdown : public ::UnityEngine::MonoBehaviour {
 public:
@@ -149,39 +149,39 @@ public:
 
   constexpr void __cordl_internal_set__gameplayModifiersData(::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::GameplayModifierMask, ::StringW>*>* value);
 
-  /// @brief Method add_didSelectCellWithIdxEvent, addr 0x22a4c3c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didSelectCellWithIdxEvent, addr 0x22d81e4, size 0xb0, virtual false, abstract: false, final false
   inline void add_didSelectCellWithIdxEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method remove_didSelectCellWithIdxEvent, addr 0x22a4cec, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSelectCellWithIdxEvent, addr 0x22d8294, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didSelectCellWithIdxEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method get_gameplayModifiersData, addr 0x22a4d9c, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method get_gameplayModifiersData, addr 0x22d8344, size 0x1c0, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::GameplayModifierMask, ::StringW>*>* get_gameplayModifiersData();
 
-  /// @brief Method Start, addr 0x22a4f5c, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x22d8504, size 0x1a0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy, addr 0x22a50fc, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x22d86a4, size 0xd4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method GetSelectedGameplayModifierMask, addr 0x22a51d0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetSelectedGameplayModifierMask, addr 0x22d8778, size 0xd0, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayModifierMask GetSelectedGameplayModifierMask();
 
-  /// @brief Method SelectCellWithGameplayModifierMask, addr 0x22a52a0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SelectCellWithGameplayModifierMask, addr 0x22d8848, size 0x30, virtual false, abstract: false, final false
   inline void SelectCellWithGameplayModifierMask(::GlobalNamespace::GameplayModifierMask gameplayModifierMask);
 
-  /// @brief Method GetIdxForGameplayModifierMask, addr 0x22a52d0, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GetIdxForGameplayModifierMask, addr 0x22d8878, size 0x184, virtual false, abstract: false, final false
   inline int32_t GetIdxForGameplayModifierMask(::GlobalNamespace::GameplayModifierMask gameplayModifierMask);
 
-  /// @brief Method HandleSimpleTextDropdownDidSelectCellWithIdx, addr 0x22a5454, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandleSimpleTextDropdownDidSelectCellWithIdx, addr 0x22d89fc, size 0x24, virtual false, abstract: false, final false
   inline void HandleSimpleTextDropdownDidSelectCellWithIdx(::HMUI::DropdownWithTableView* dropdownWithTableView, int32_t idx);
 
   static inline ::GlobalNamespace::GameplayModifiersDropdown* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22a5478, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22d8a20, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_gameplayModifiersData>b__7_0, addr 0x22a5480, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method <get_gameplayModifiersData>b__7_0, addr 0x22d8a28, size 0x160, virtual false, abstract: false, final false
   inline ::System::Tuple_2<::GlobalNamespace::GameplayModifierMask, ::StringW>* _get_gameplayModifiersData_b__7_0(::GlobalNamespace::GameplayModifierMask value);
 
   // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersDropdown", modifiers: "&&", def_value: None }]

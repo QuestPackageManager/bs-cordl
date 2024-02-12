@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::JetBrains::Annotations::CannotApplyEqualityOperatorAttribute);
 namespace JetBrains::Annotations {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15746))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15896))
 // CS Name: ::JetBrains.Annotations::CannotApplyEqualityOperatorAttribute*
 class CORDL_TYPE CannotApplyEqualityOperatorAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::JetBrains::Annotations::CannotApplyEqualityOperatorAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2eba10c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ed6254, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CannotApplyEqualityOperatorAttribute", modifiers: "&&", def_value: None }]

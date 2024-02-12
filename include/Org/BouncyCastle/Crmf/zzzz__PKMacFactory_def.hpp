@@ -62,13 +62,13 @@ public:
 
   static inline ::Org::BouncyCastle::Crmf::PKMacFactory* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, ::Org::BouncyCastle::Asn1::Cmp::PbmParameter* parameters);
 
-  /// @brief Method .ctor, addr 0x1211fdc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x123ee6c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, ::Org::BouncyCastle::Asn1::Cmp::PbmParameter* parameters);
 
-  /// @brief Method get_AlgorithmDetails, addr 0x1212058, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmDetails, addr 0x123eee8, size 0x9c, virtual true, abstract: false, final false
   inline ::System::Object* get_AlgorithmDetails();
 
-  /// @brief Method CreateCalculator, addr 0x12120f4, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method CreateCalculator, addr 0x123ef84, size 0x174, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::IStreamCalculator* CreateCalculator();
 
   // Ctor Parameters [CppParam { name: "", ty: "PKMacFactory", modifiers: "&&", def_value: None }]

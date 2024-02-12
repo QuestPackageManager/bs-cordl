@@ -41,8 +41,8 @@ MARK_REF_PTR_T(::GlobalNamespace::NodePoseSyncStateNetSerializable);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12973)), TypeDefinitionIndex(TypeDefinitionIndex(12988))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12975))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12871)), TypeDefinitionIndex(TypeDefinitionIndex(12886))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12873))
 // CS Name: ::NodePoseSyncStateNetSerializable*
 class CORDL_TYPE NodePoseSyncStateNetSerializable : public ::System::Object {
 public:
@@ -98,39 +98,39 @@ public:
 
   constexpr void __cordl_internal_set__time_k__BackingField(int64_t value);
 
-  /// @brief Method get_pool, addr 0xe59e2c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_pool, addr 0xe84c64, size 0x40, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PacketPool_1<::GlobalNamespace::NodePoseSyncStateNetSerializable*>* get_pool();
 
-  /// @brief Method get_id, addr 0xe59e6c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_id, addr 0xe84ca4, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::SyncStateId get_id();
 
-  /// @brief Method set_id, addr 0xe59e74, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_id, addr 0xe84cac, size 0x8, virtual true, abstract: false, final true
   inline void set_id(::GlobalNamespace::SyncStateId value);
 
-  /// @brief Method get_time, addr 0xe59e7c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_time, addr 0xe84cb4, size 0x8, virtual true, abstract: false, final true
   inline int64_t get_time();
 
-  /// @brief Method set_time, addr 0xe59e84, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_time, addr 0xe84cbc, size 0x8, virtual true, abstract: false, final true
   inline void set_time(int64_t value);
 
-  /// @brief Method get_state, addr 0xe59e8c, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method get_state, addr 0xe84cc4, size 0x10, virtual true, abstract: false, final true
   inline ::GlobalNamespace::NodePoseSyncState get_state();
 
-  /// @brief Method set_state, addr 0xe59e9c, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method set_state, addr 0xe84cd4, size 0x18, virtual true, abstract: false, final true
   inline void set_state(::GlobalNamespace::NodePoseSyncState value);
 
-  /// @brief Method Serialize, addr 0xe59eb4, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0xe84cec, size 0x4c, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method Deserialize, addr 0xe59f24, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0xe84d5c, size 0x50, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Release, addr 0xe59f94, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method Release, addr 0xe84dcc, size 0x54, virtual true, abstract: false, final true
   inline void Release();
 
   static inline ::GlobalNamespace::NodePoseSyncStateNetSerializable* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe59fe8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe84e20, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NodePoseSyncStateNetSerializable", modifiers: "&&", def_value: None }]

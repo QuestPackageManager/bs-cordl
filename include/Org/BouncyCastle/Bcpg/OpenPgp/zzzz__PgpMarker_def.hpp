@@ -37,7 +37,7 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpMarker* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput);
 
-  /// @brief Method .ctor, addr 0x10b0708, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10dd598, size 0x120, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput);
 
   // Ctor Parameters [CppParam { name: "", ty: "PgpMarker", modifiers: "&&", def_value: None }]

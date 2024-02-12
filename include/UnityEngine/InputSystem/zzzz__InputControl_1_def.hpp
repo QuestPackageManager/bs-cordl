@@ -29,9 +29,9 @@ namespace UnityEngine::InputSystem {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6215)), TypeDefinitionIndex(TypeDefinitionIndex(6236)), TypeDefinitionIndex(TypeDefinitionIndex(6669)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6236), inst: 3898 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3865 })] Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(6216)) CS Name: ::UnityEngine.InputSystem::InputControl`1<TValue>*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5474)), TypeDefinitionIndex(TypeDefinitionIndex(5495)), TypeDefinitionIndex(TypeDefinitionIndex(5928)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5495), inst: 3880 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5928), inst: 3847 })] Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(5475)) CS Name: ::UnityEngine.InputSystem::InputControl`1<TValue>*
 class CORDL_TYPE InputControl_1 : public ::UnityEngine::InputSystem::InputControl {
 public:
   // Declarations

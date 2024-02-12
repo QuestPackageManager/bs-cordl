@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::XInput::IXboxOneRumble);
 namespace UnityEngine::InputSystem::XInput {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6350))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5609))
 // CS Name: ::UnityEngine.InputSystem.XInput::IXboxOneRumble*
 class CORDL_TYPE IXboxOneRumble {
 public:

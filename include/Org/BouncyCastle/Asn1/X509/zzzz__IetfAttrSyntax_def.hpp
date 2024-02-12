@@ -70,19 +70,19 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::IetfAttrSyntax* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0x1190488, size 0x67c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11be318, size 0x67c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_PolicyAuthority, addr 0x1190b04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PolicyAuthority, addr 0x11be994, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralNames* get_PolicyAuthority();
 
-  /// @brief Method get_ValueType, addr 0x1190b0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ValueType, addr 0x11be99c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ValueType();
 
-  /// @brief Method GetValues, addr 0x1190b14, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method GetValues, addr 0x11be9a4, size 0x348, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetValues();
 
-  /// @brief Method ToAsn1Object, addr 0x1190e5c, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x11becec, size 0xe0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "IetfAttrSyntax", modifiers: "&&", def_value: None }]

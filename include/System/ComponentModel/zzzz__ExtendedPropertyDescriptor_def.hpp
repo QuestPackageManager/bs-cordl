@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::System::ComponentModel::ExtendedPropertyDescriptor);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9444))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9427))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7454))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7437))
 // CS Name: ::System.ComponentModel::ExtendedPropertyDescriptor*
 class CORDL_TYPE ExtendedPropertyDescriptor : public ::System::ComponentModel::PropertyDescriptor {
 public:
@@ -67,35 +67,35 @@ public:
                                                                                ::System::ComponentModel::IExtenderProvider* provider,
                                                                                ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes);
 
-  /// @brief Method .ctor, addr 0x291007c, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29146e4, size 0x250, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::ReflectPropertyDescriptor* extenderInfo, ::System::Type* receiverType, ::System::ComponentModel::IExtenderProvider* provider,
                     ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes);
 
-  /// @brief Method CanResetValue, addr 0x291034c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method CanResetValue, addr 0x29149b4, size 0x28, virtual true, abstract: false, final false
   inline bool CanResetValue(::System::Object* comp);
 
-  /// @brief Method get_ComponentType, addr 0x2910374, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_ComponentType, addr 0x29149dc, size 0x24, virtual true, abstract: false, final false
   inline ::System::Type* get_ComponentType();
 
-  /// @brief Method get_IsReadOnly, addr 0x2910398, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x2914a00, size 0xf8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_PropertyType, addr 0x2910490, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_PropertyType, addr 0x2914af8, size 0x24, virtual true, abstract: false, final false
   inline ::System::Type* get_PropertyType();
 
-  /// @brief Method get_DisplayName, addr 0x29104b4, size 0x1dc, virtual true, abstract: false, final false
+  /// @brief Method get_DisplayName, addr 0x2914b1c, size 0x1dc, virtual true, abstract: false, final false
   inline ::StringW get_DisplayName();
 
-  /// @brief Method GetValue, addr 0x2910690, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x2914cf8, size 0x28, virtual true, abstract: false, final false
   inline ::System::Object* GetValue(::System::Object* comp);
 
-  /// @brief Method ResetValue, addr 0x29106b8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method ResetValue, addr 0x2914d20, size 0x28, virtual true, abstract: false, final false
   inline void ResetValue(::System::Object* comp);
 
-  /// @brief Method SetValue, addr 0x29106e0, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x2914d48, size 0x2c, virtual true, abstract: false, final false
   inline void SetValue(::System::Object* component, ::System::Object* value);
 
-  /// @brief Method ShouldSerializeValue, addr 0x291070c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method ShouldSerializeValue, addr 0x2914d74, size 0x28, virtual true, abstract: false, final false
   inline bool ShouldSerializeValue(::System::Object* comp);
 
   // Ctor Parameters [CppParam { name: "", ty: "ExtendedPropertyDescriptor", modifiers: "&&", def_value: None }]

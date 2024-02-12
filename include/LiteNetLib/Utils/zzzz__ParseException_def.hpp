@@ -16,14 +16,14 @@ MARK_REF_PTR_T(::LiteNetLib::Utils::ParseException);
 namespace LiteNetLib::Utils {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2561))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14208))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14221))
 // CS Name: ::LiteNetLib.Utils::ParseException*
 class CORDL_TYPE ParseException : public ::System::Exception {
 public:
   // Declarations
   static inline ::LiteNetLib::Utils::ParseException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x220b9f8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22a12e0, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   // Ctor Parameters [CppParam { name: "", ty: "ParseException", modifiers: "&&", def_value: None }]

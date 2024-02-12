@@ -16,7 +16,7 @@ MARK_VAL_T(::LIV::SDK::Unity::TEXTURE_DEVICE);
 namespace LIV::SDK::Unity {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15105))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14978))
 // CS Name: ::LIV.SDK.Unity::TEXTURE_DEVICE
 struct CORDL_TYPE TEXTURE_DEVICE {
 public:

@@ -25,20 +25,20 @@ MARK_REF_PTR_T(::Tayx::Graphy::Utils::G_ExtensionMethods);
 namespace Tayx::Graphy::Utils {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15070))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14943))
 // CS Name: ::Tayx.Graphy.Utils::G_ExtensionMethods*
 class CORDL_TYPE G_ExtensionMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SetAllActive, addr 0x2a06608, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method SetAllActive, addr 0x2a0b0ac, size 0x164, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* SetAllActive(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* gameObjects,
                                                                                                           bool active);
 
-  /// @brief Method SetOneActive, addr 0x2a0676c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method SetOneActive, addr 0x2a0b210, size 0xb4, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* SetOneActive(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* images,
                                                                                                          int32_t active);
 
-  /// @brief Method SetAllActive, addr 0x2a06820, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method SetAllActive, addr 0x2a0b2c4, size 0x17c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* SetAllActive(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* images,
                                                                                                          bool active);
 

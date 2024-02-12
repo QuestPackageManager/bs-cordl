@@ -32,8 +32,8 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::IMECompositionEvent);
 // }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6529)), TypeDefinitionIndex(TypeDefinitionIndex(6530))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6526))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5788)), TypeDefinitionIndex(TypeDefinitionIndex(5789))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5785))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::IMECompositionEvent
 #pragma pack(push, 0)
 struct CORDL_TYPE IMECompositionEvent {
@@ -65,10 +65,10 @@ public:
 
   constexpr void __cordl_internal_set_compositionString(::UnityEngine::InputSystem::LowLevel::IMECompositionString value);
 
-  /// @brief Method get_typeStatic, addr 0x2ae9d4c, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x2aeb8b8, size 0x20, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
-  /// @brief Method Create, addr 0x2ae9d6c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2aeb8d8, size 0xf4, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::IMECompositionEvent Create(int32_t deviceId, ::StringW compositionString, double_t time);
 
   // Ctor Parameters [CppParam { name: "baseEvent", ty: "::UnityEngine::InputSystem::LowLevel::InputEvent", modifiers: "", def_value: None }, CppParam { name: "compositionString", ty:

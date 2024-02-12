@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::GlobalNamespace::BakedLightTexturePacking);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5852))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5142))
 // CS Name: ::BakedLightTexturePacking*
 class CORDL_TYPE BakedLightTexturePacking : public ::System::Object {
 public:
@@ -48,7 +48,7 @@ public:
 
   static inline ::UnityW<::UnityEngine::Material> getStaticF__material();
 
-  /// @brief Method PackTextures, addr 0x22f59b4, size 0x36c, virtual false, abstract: false, final false
+  /// @brief Method PackTextures, addr 0x2322354, size 0x36c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::RenderTexture> PackTextures(::System::Collections::Generic::IReadOnlyList_1<::UnityW<::UnityEngine::RenderTexture>>* textures,
                                                                     ::UnityEngine::RenderTextureDescriptor descriptor);
 

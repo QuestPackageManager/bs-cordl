@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::Oculus::Platform::UserOptions);
 namespace Oculus::Platform {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13393))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13325))
 // CS Name: ::Oculus.Platform::UserOptions*
 class CORDL_TYPE UserOptions : public ::System::Object {
 public:
@@ -39,25 +39,25 @@ public:
 
   static inline ::Oculus::Platform::UserOptions* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2700954, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2732f80, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method SetMaxUsers, addr 0x27011ec, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetMaxUsers, addr 0x27345d8, size 0x6c, virtual false, abstract: false, final false
   inline void SetMaxUsers(uint32_t value);
 
-  /// @brief Method AddServiceProvider, addr 0x27009b8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method AddServiceProvider, addr 0x2732fe8, size 0x6c, virtual false, abstract: false, final false
   inline void AddServiceProvider(::Oculus::Platform::ServiceProvider value);
 
-  /// @brief Method ClearServiceProviders, addr 0x2701254, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ClearServiceProviders, addr 0x2734644, size 0x5c, virtual false, abstract: false, final false
   inline void ClearServiceProviders();
 
-  /// @brief Method SetTimeWindow, addr 0x27012ac, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetTimeWindow, addr 0x27346a0, size 0x6c, virtual false, abstract: false, final false
   inline void SetTimeWindow(::Oculus::Platform::TimeWindow value);
 
-  /// @brief Method op_Explicit, addr 0x2700a20, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x2733054, size 0x58, virtual false, abstract: false, final false
   static inline void* op_Explicit_void_(::Oculus::Platform::UserOptions* options);
 
-  /// @brief Method Finalize, addr 0x2701314, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x273470c, size 0xd8, virtual true, abstract: false, final false
   inline void Finalize();
 
   // Ctor Parameters [CppParam { name: "", ty: "UserOptions", modifiers: "&&", def_value: None }]

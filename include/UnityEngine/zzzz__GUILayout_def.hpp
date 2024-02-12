@@ -27,21 +27,21 @@ MARK_REF_PTR_T(::UnityEngine::GUILayout);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14618))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14623))
 // CS Name: ::UnityEngine::GUILayout*
 class CORDL_TYPE GUILayout : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Label, addr 0x2d08608, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Label, addr 0x2d13ef4, size 0xa8, virtual false, abstract: false, final false
   static inline void Label(::StringW text, ::ArrayW<::UnityEngine::GUILayoutOption*, ::Array<::UnityEngine::GUILayoutOption*>*> options);
 
-  /// @brief Method DoLabel, addr 0x2d086b0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method DoLabel, addr 0x2d13f9c, size 0xcc, virtual false, abstract: false, final false
   static inline void DoLabel(::UnityEngine::GUIContent* content, ::UnityEngine::GUIStyle* style, ::ArrayW<::UnityEngine::GUILayoutOption*, ::Array<::UnityEngine::GUILayoutOption*>*> options);
 
-  /// @brief Method Width, addr 0x2cfd694, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Width, addr 0x2d08f80, size 0x9c, virtual false, abstract: false, final false
   static inline ::UnityEngine::GUILayoutOption* Width(float_t width);
 
-  /// @brief Method Height, addr 0x2cfd730, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Height, addr 0x2d0901c, size 0x9c, virtual false, abstract: false, final false
   static inline ::UnityEngine::GUILayoutOption* Height(float_t height);
 
   // Ctor Parameters [CppParam { name: "", ty: "GUILayout", modifiers: "&&", def_value: None }]

@@ -24,21 +24,21 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::PointerEventDataExtension);
 namespace UnityEngine::EventSystems {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8743))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8683))
 // CS Name: ::UnityEngine.EventSystems::PointerEventDataExtension*
 class CORDL_TYPE PointerEventDataExtension : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsVRPointer, addr 0x27f9bc8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method IsVRPointer, addr 0x280705c, size 0x78, virtual false, abstract: false, final false
   static inline bool IsVRPointer(::UnityEngine::EventSystems::PointerEventData* pointerEventData);
 
-  /// @brief Method GetRay, addr 0x27fc190, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetRay, addr 0x2809624, size 0x88, virtual false, abstract: false, final false
   static inline ::UnityEngine::Ray GetRay(::UnityEngine::EventSystems::PointerEventData* pointerEventData);
 
-  /// @brief Method GetSwipeStart, addr 0x27fb630, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetSwipeStart, addr 0x2808ac4, size 0x7c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 GetSwipeStart(::UnityEngine::EventSystems::PointerEventData* pointerEventData);
 
-  /// @brief Method SetSwipeStart, addr 0x27f9c40, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method SetSwipeStart, addr 0x28070d4, size 0x8c, virtual false, abstract: false, final false
   static inline void SetSwipeStart(::UnityEngine::EventSystems::PointerEventData* pointerEventData, ::UnityEngine::Vector2 start);
 
   // Ctor Parameters [CppParam { name: "", ty: "PointerEventDataExtension", modifiers: "&&", def_value: None }]

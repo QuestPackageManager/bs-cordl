@@ -41,7 +41,7 @@ MARK_REF_PTR_T(::System::Xml::XmlReader);
 namespace System::Xml {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11456))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11354))
 // CS Name: ::System.Xml::XmlReader*
 class CORDL_TYPE XmlReader : public ::System::Object {
 public:
@@ -103,13 +103,13 @@ public:
 
   static inline uint32_t getStaticF_HasValueBitmap();
 
-  /// @brief Method get_Settings, addr 0x2859e14, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Settings, addr 0x285d47c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlReaderSettings* get_Settings();
 
   /// @brief Method get_NodeType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
-  /// @brief Method get_Name, addr 0x2859e1c, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x285d484, size 0xe4, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
   /// @brief Method get_LocalName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -130,10 +130,10 @@ public:
   /// @brief Method get_IsEmptyElement, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsEmptyElement();
 
-  /// @brief Method get_IsDefault, addr 0x2859f00, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsDefault, addr 0x285d568, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsDefault();
 
-  /// @brief Method get_SchemaInfo, addr 0x2859f08, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method get_SchemaInfo, addr 0x285d570, size 0x48, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::IXmlSchemaInfo* get_SchemaInfo();
 
   /// @brief Method MoveToAttribute, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -154,7 +154,7 @@ public:
   /// @brief Method Read, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Read();
 
-  /// @brief Method Close, addr 0x2859f50, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x285d5b8, size 0x4, virtual true, abstract: false, final false
   inline void Close();
 
   /// @brief Method get_ReadState, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -166,27 +166,27 @@ public:
   /// @brief Method LookupNamespace, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW LookupNamespace(::StringW prefix);
 
-  /// @brief Method get_CanResolveEntity, addr 0x2859f54, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanResolveEntity, addr 0x285d5bc, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanResolveEntity();
 
   /// @brief Method ResolveEntity, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ResolveEntity();
 
-  /// @brief Method Dispose, addr 0x2859f5c, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x285d5c4, size 0x14, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x2859f70, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x285d5d8, size 0x44, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method get_DtdInfo, addr 0x2859fb4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_DtdInfo, addr 0x285d61c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::IDtdInfo* get_DtdInfo();
 
-  /// @brief Method CalcBufferSize, addr 0x2859fbc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method CalcBufferSize, addr 0x285d624, size 0x84, virtual false, abstract: false, final false
   static inline int32_t CalcBufferSize(::System::IO::Stream* input);
 
   static inline ::System::Xml::XmlReader* New_ctor();
 
-  /// @brief Method .ctor, addr 0x285a040, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x285d6a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlReader", modifiers: "&&", def_value: None }]

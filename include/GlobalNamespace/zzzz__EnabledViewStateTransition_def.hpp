@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::EnabledViewStateTransition);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5442)), TypeDefinitionIndex(TypeDefinitionIndex(10187)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5442), inst: 921
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5450)) CS Name: ::EnabledViewStateTransition*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4745)), TypeDefinitionIndex(TypeDefinitionIndex(8931)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4745), inst: 923
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4753)) CS Name: ::EnabledViewStateTransition*
 class CORDL_TYPE EnabledViewStateTransition : public ::GlobalNamespace::BaseStateTransition_1<::UnityW<::UnityEngine::Behaviour>> {
 public:
   // Declarations
@@ -37,48 +37,48 @@ public:
 
   constexpr void __cordl_internal_set__transition(::UnityW<::GlobalNamespace::EnabledTransitionSO> value);
 
-  /// @brief Method get_transition, addr 0x227de8c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_transition, addr 0x23d9744, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BaseTransitionSO> get_transition();
 
-  /// @brief Method TransitionToNormalState, addr 0x227de94, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method TransitionToNormalState, addr 0x23d974c, size 0xc, virtual true, abstract: false, final false
   inline void TransitionToNormalState();
 
-  /// @brief Method TransitionToHighlightedState, addr 0x227dea0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method TransitionToHighlightedState, addr 0x23d9758, size 0xc, virtual true, abstract: false, final false
   inline void TransitionToHighlightedState();
 
-  /// @brief Method TransitionToPressedState, addr 0x227deac, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method TransitionToPressedState, addr 0x23d9764, size 0x10, virtual true, abstract: false, final false
   inline void TransitionToPressedState();
 
-  /// @brief Method TransitionToDisabledState, addr 0x227debc, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method TransitionToDisabledState, addr 0x23d9774, size 0x10, virtual true, abstract: false, final false
   inline void TransitionToDisabledState();
 
-  /// @brief Method TransitionToSelectedState, addr 0x227decc, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method TransitionToSelectedState, addr 0x23d9784, size 0x10, virtual true, abstract: false, final false
   inline void TransitionToSelectedState();
 
-  /// @brief Method TransitionToSelectedAndHighlightedState, addr 0x227dedc, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method TransitionToSelectedAndHighlightedState, addr 0x23d9794, size 0x10, virtual true, abstract: false, final false
   inline void TransitionToSelectedAndHighlightedState();
 
-  /// @brief Method SetNormalState, addr 0x227deec, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method SetNormalState, addr 0x23d97a4, size 0x28, virtual true, abstract: false, final false
   inline void SetNormalState();
 
-  /// @brief Method SetHighlightedState, addr 0x227df14, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method SetHighlightedState, addr 0x23d97cc, size 0x28, virtual true, abstract: false, final false
   inline void SetHighlightedState();
 
-  /// @brief Method SetPressedState, addr 0x227df3c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method SetPressedState, addr 0x23d97f4, size 0x28, virtual true, abstract: false, final false
   inline void SetPressedState();
 
-  /// @brief Method SetDisabledState, addr 0x227df64, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method SetDisabledState, addr 0x23d981c, size 0x28, virtual true, abstract: false, final false
   inline void SetDisabledState();
 
-  /// @brief Method SetSelectedState, addr 0x227df8c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method SetSelectedState, addr 0x23d9844, size 0x28, virtual true, abstract: false, final false
   inline void SetSelectedState();
 
-  /// @brief Method SetSelectedAndHighlightedState, addr 0x227dfb4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method SetSelectedAndHighlightedState, addr 0x23d986c, size 0x28, virtual true, abstract: false, final false
   inline void SetSelectedAndHighlightedState();
 
   static inline ::GlobalNamespace::EnabledViewStateTransition* New_ctor();
 
-  /// @brief Method .ctor, addr 0x227dfdc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d9894, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EnabledViewStateTransition", modifiers: "&&", def_value: None }]

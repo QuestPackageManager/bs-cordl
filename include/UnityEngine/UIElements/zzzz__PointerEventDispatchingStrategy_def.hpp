@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::PointerEventDispatchingStrategy);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7185))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6444))
 // CS Name: ::UnityEngine.UIElements::PointerEventDispatchingStrategy*
 class CORDL_TYPE PointerEventDispatchingStrategy : public ::System::Object {
 public:
@@ -39,25 +39,25 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IEventDispatchingStrategy"
   constexpr ::UnityEngine::UIElements::IEventDispatchingStrategy* i___UnityEngine__UIElements__IEventDispatchingStrategy() noexcept;
 
-  /// @brief Method CanDispatchEvent, addr 0x2e4e0c8, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method CanDispatchEvent, addr 0x2e694b0, size 0x54, virtual true, abstract: false, final true
   inline bool CanDispatchEvent(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method DispatchEvent, addr 0x2e4e11c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method DispatchEvent, addr 0x2e69504, size 0x38, virtual true, abstract: false, final false
   inline void DispatchEvent(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method SendEventToTarget, addr 0x2e4e390, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SendEventToTarget, addr 0x2e69778, size 0x24, virtual false, abstract: false, final false
   static inline void SendEventToTarget(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method SetBestTargetForEvent, addr 0x2e4e154, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method SetBestTargetForEvent, addr 0x2e6953c, size 0x23c, virtual false, abstract: false, final false
   static inline void SetBestTargetForEvent(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method UpdateElementUnderPointer, addr 0x2e4e3b4, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method UpdateElementUnderPointer, addr 0x2e6979c, size 0x2ac, virtual false, abstract: false, final false
   static inline void UpdateElementUnderPointer(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::IPanel* panel,
                                                ByRef<::UnityEngine::UIElements::VisualElement*> elementUnderPointer);
 
   static inline ::UnityEngine::UIElements::PointerEventDispatchingStrategy* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e4e660, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e69a48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PointerEventDispatchingStrategy", modifiers: "&&", def_value: None }]

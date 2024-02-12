@@ -47,28 +47,28 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Utilities::Asn1Dump* New_ctor();
 
-  /// @brief Method .ctor, addr 0x107b108, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10a7f98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method AsString, addr 0x107b110, size 0x2664, virtual false, abstract: false, final false
+  /// @brief Method AsString, addr 0x10a7fa0, size 0x2664, virtual false, abstract: false, final false
   static inline void AsString(::StringW indent, bool verbose, ::Org::BouncyCastle::Asn1::Asn1Object* obj, ::System::Text::StringBuilder* buf);
 
-  /// @brief Method outputApplicationSpecific, addr 0x107d9dc, size 0x8d4, virtual false, abstract: false, final false
+  /// @brief Method outputApplicationSpecific, addr 0x10aa86c, size 0x8d4, virtual false, abstract: false, final false
   static inline ::StringW outputApplicationSpecific(::StringW type, ::StringW indent, bool verbose, ::Org::BouncyCastle::Asn1::DerApplicationSpecific* app);
 
-  /// @brief Method DumpAsString, addr 0x107e2b0, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method DumpAsString, addr 0x10ab140, size 0x184, virtual false, abstract: false, final false
   static inline ::StringW DumpAsString(::System::Object* obj);
 
-  /// @brief Method DumpAsString, addr 0x107e434, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method DumpAsString, addr 0x10ab2c4, size 0x58, virtual false, abstract: false, final false
   static inline ::StringW DumpAsString(::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
-  /// @brief Method DumpAsString, addr 0x107e48c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method DumpAsString, addr 0x10ab31c, size 0xd8, virtual false, abstract: false, final false
   static inline ::StringW DumpAsString(::Org::BouncyCastle::Asn1::Asn1Encodable* obj, bool verbose);
 
-  /// @brief Method dumpBinaryDataAsString, addr 0x107d774, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method dumpBinaryDataAsString, addr 0x10aa604, size 0x268, virtual false, abstract: false, final false
   static inline ::StringW dumpBinaryDataAsString(::StringW indent, ::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method calculateAscString, addr 0x107e564, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method calculateAscString, addr 0x10ab3f4, size 0xb8, virtual false, abstract: false, final false
   static inline ::StringW calculateAscString(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t off, int32_t len);
 
   // Ctor Parameters [CppParam { name: "", ty: "Asn1Dump", modifiers: "&&", def_value: None }]

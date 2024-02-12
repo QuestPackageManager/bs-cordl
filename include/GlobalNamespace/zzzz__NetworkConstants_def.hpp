@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::GlobalNamespace::NetworkConstants);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12889))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12787))
 // CS Name: ::NetworkConstants*
 class CORDL_TYPE NetworkConstants : public ::System::Object {
 public:

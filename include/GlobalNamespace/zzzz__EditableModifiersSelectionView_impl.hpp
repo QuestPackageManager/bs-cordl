@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UI::Button> (::GlobalNamespace::EditableModifiersSelectionView::*)()>(
     &::GlobalNamespace::EditableModifiersSelectionView::get_editButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22e1008;
+  constexpr static std::size_t addrs = 0x23112f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EditableModifiersSelectionView*>::get(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UI::Button> (::GlobalNamespace::EditableModifiersSelectionView::*)()>(
     &::GlobalNamespace::EditableModifiersSelectionView::get_clearButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22e1010;
+  constexpr static std::size_t addrs = 0x2311300;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EditableModifiersSelectionView*>::get(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::EditableModifiersSelectionView::*)()>(
     &::GlobalNamespace::EditableModifiersSelectionView::get_interactable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22e1018;
+  constexpr static std::size_t addrs = 0x2311308;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EditableModifiersSelectionView*>::get(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EditableModifiersSelectionView::*)(bool)>(
     &::GlobalNamespace::EditableModifiersSelectionView::set_interactable)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x22cef90;
+  constexpr static std::size_t addrs = 0x2311310;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::EditableModifiersSelectionView::*)()>(
     &::GlobalNamespace::EditableModifiersSelectionView::get_showClearButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22e1020;
+  constexpr static std::size_t addrs = 0x2311370;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EditableModifiersSelectionView*>::get(),
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EditableModifiersSelectionView::*)(bool)>(
     &::GlobalNamespace::EditableModifiersSelectionView::set_showClearButton)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x22e1028;
+  constexpr static std::size_t addrs = 0x2311378;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EditableModifiersSelectionView::*)(bool)>(
     &::GlobalNamespace::EditableModifiersSelectionView::SetVisibility)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x22ce988;
+  constexpr static std::size_t addrs = 0x2311384;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EditableModifiersSelectionView::*)(bool)>(
     &::GlobalNamespace::EditableModifiersSelectionView::Setup)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x22ce97c;
+  constexpr static std::size_t addrs = 0x23113ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -125,8 +125,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EditableModifiersSelectionView::*)(::GlobalNamespace::GameplayModifiers*)>(
     &::GlobalNamespace::EditableModifiersSelectionView::SetGameplayModifiers)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x22e1034;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x23113b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EditableModifiersSelectionView::*)()>(
     &::GlobalNamespace::EditableModifiersSelectionView::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x22e1098;
+  constexpr static std::size_t addrs = 0x2311584;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EditableModifiersSelectionView*>::get(),

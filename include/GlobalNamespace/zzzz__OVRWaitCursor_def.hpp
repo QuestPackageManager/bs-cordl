@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRWaitCursor);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8188))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8993))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8138))
 // CS Name: ::OVRWaitCursor*
 class CORDL_TYPE OVRWaitCursor : public ::UnityEngine::MonoBehaviour {
 public:
@@ -30,12 +30,12 @@ public:
 
   constexpr void __cordl_internal_set_rotateSpeeds(::UnityEngine::Vector3 value);
 
-  /// @brief Method Update, addr 0x27c5afc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x27d60d4, size 0x5c, virtual false, abstract: false, final false
   inline void Update();
 
   static inline ::GlobalNamespace::OVRWaitCursor* New_ctor();
 
-  /// @brief Method .ctor, addr 0x27c5b58, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27d6130, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRWaitCursor", modifiers: "&&", def_value: None }]

@@ -32,15 +32,15 @@ public:
 
   constexpr void __cordl_internal_set__lock(::System::Object* value);
 
-  /// @brief Method Acquire, addr 0x261417c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Acquire, addr 0x2639084, size 0x8, virtual false, abstract: false, final false
   inline void Acquire();
 
-  /// @brief Method Release, addr 0x26141a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x26390a8, size 0x8, virtual false, abstract: false, final false
   inline void Release();
 
   static inline ::System::Threading::Lock* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26141b0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26390b8, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Lock", modifiers: "&&", def_value: None }]

@@ -54,34 +54,34 @@ public:
 
   constexpr void __cordl_internal_set_excludedCerts(::Org::BouncyCastle::Utilities::Collections::ISet* value);
 
-  /// @brief Method GetInstance, addr 0x10ef8d8, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x111d768, size 0xec, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Pkix::PkixBuilderParameters* GetInstance(::Org::BouncyCastle::Pkix::PkixParameters* pkixParams);
 
   static inline ::Org::BouncyCastle::Pkix::PkixBuilderParameters* New_ctor(::Org::BouncyCastle::Utilities::Collections::ISet* trustAnchors,
                                                                            ::Org::BouncyCastle::X509::Store::IX509Selector* targetConstraints);
 
-  /// @brief Method .ctor, addr 0x10ef9c4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x111d854, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Utilities::Collections::ISet* trustAnchors, ::Org::BouncyCastle::X509::Store::IX509Selector* targetConstraints);
 
-  /// @brief Method get_MaxPathLength, addr 0x10efa5c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_MaxPathLength, addr 0x111d8ec, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_MaxPathLength();
 
-  /// @brief Method set_MaxPathLength, addr 0x10efa64, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method set_MaxPathLength, addr 0x111d8f4, size 0x64, virtual true, abstract: false, final false
   inline void set_MaxPathLength(int32_t value);
 
-  /// @brief Method GetExcludedCerts, addr 0x10efac8, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method GetExcludedCerts, addr 0x111d958, size 0x68, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Collections::ISet* GetExcludedCerts();
 
-  /// @brief Method SetExcludedCerts, addr 0x10efb30, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method SetExcludedCerts, addr 0x111d9c0, size 0x80, virtual true, abstract: false, final false
   inline void SetExcludedCerts(::Org::BouncyCastle::Utilities::Collections::ISet* excludedCerts);
 
-  /// @brief Method SetParams, addr 0x10efbb0, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method SetParams, addr 0x111da40, size 0xc4, virtual true, abstract: false, final false
   inline void SetParams(::Org::BouncyCastle::Pkix::PkixParameters* parameters);
 
-  /// @brief Method Clone, addr 0x10efc74, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x111db04, size 0xb8, virtual true, abstract: false, final false
   inline ::System::Object* Clone();
 
-  /// @brief Method ToString, addr 0x10efd2c, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x111dbbc, size 0x174, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "PkixBuilderParameters", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::EntitlementStatus);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16270))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16445))
 // CS Name: ::EntitlementStatus
 struct CORDL_TYPE EntitlementStatus {
 public:

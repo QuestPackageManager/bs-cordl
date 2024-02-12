@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::JetBrains::Annotations::ItemNotNullAttribute);
 namespace JetBrains::Annotations {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15738))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15888))
 // CS Name: ::JetBrains.Annotations::ItemNotNullAttribute*
 class CORDL_TYPE ItemNotNullAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::JetBrains::Annotations::ItemNotNullAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2eb9f60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ed60a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ItemNotNullAttribute", modifiers: "&&", def_value: None }]

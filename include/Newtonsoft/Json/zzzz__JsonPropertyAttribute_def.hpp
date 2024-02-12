@@ -48,13 +48,13 @@ MARK_REF_PTR_T(::Newtonsoft::Json::JsonPropertyAttribute);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(11811)),
-// TypeDefinitionIndex(TypeDefinitionIndex(11816)), TypeDefinitionIndex(TypeDefinitionIndex(11822)), TypeDefinitionIndex(TypeDefinitionIndex(11838)), TypeDefinitionIndex(TypeDefinitionIndex(11839)),
-// TypeDefinitionIndex(TypeDefinitionIndex(11840)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 98 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2448), inst: 105 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4735 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2448), inst: 4750 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4752 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2448), inst: 4754 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4756 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2448), inst: 4762 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(11825)) CS Name: ::Newtonsoft.Json::JsonPropertyAttribute*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(11709)),
+// TypeDefinitionIndex(TypeDefinitionIndex(11714)), TypeDefinitionIndex(TypeDefinitionIndex(11720)), TypeDefinitionIndex(TypeDefinitionIndex(11736)), TypeDefinitionIndex(TypeDefinitionIndex(11737)),
+// TypeDefinitionIndex(TypeDefinitionIndex(11738)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 77 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2448), inst: 103 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4717 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2448), inst: 4733 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4735 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2448), inst: 4737 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4739 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2448), inst: 4745 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(11723)) CS Name: ::Newtonsoft.Json::JsonPropertyAttribute*
 class CORDL_TYPE JsonPropertyAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -218,98 +218,98 @@ public:
 
   constexpr void __cordl_internal_set__PropertyName_k__BackingField(::StringW value);
 
-  /// @brief Method get_ItemConverterType, addr 0x2647a74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ItemConverterType, addr 0x266bc30, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ItemConverterType();
 
-  /// @brief Method set_ItemConverterType, addr 0x2647a7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ItemConverterType, addr 0x266bc38, size 0x8, virtual false, abstract: false, final false
   inline void set_ItemConverterType(::System::Type* value);
 
-  /// @brief Method get_ItemConverterParameters, addr 0x2647a84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ItemConverterParameters, addr 0x266bc40, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> get_ItemConverterParameters();
 
-  /// @brief Method set_ItemConverterParameters, addr 0x2647a8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ItemConverterParameters, addr 0x266bc48, size 0x8, virtual false, abstract: false, final false
   inline void set_ItemConverterParameters(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
 
-  /// @brief Method get_NullValueHandling, addr 0x2647a94, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_NullValueHandling, addr 0x266bc50, size 0x50, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::NullValueHandling get_NullValueHandling();
 
-  /// @brief Method set_NullValueHandling, addr 0x2647ae4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_NullValueHandling, addr 0x266bca0, size 0x68, virtual false, abstract: false, final false
   inline void set_NullValueHandling(::Newtonsoft::Json::NullValueHandling value);
 
-  /// @brief Method get_DefaultValueHandling, addr 0x2647b4c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultValueHandling, addr 0x266bd08, size 0x50, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::DefaultValueHandling get_DefaultValueHandling();
 
-  /// @brief Method set_DefaultValueHandling, addr 0x2647b9c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_DefaultValueHandling, addr 0x266bd58, size 0x68, virtual false, abstract: false, final false
   inline void set_DefaultValueHandling(::Newtonsoft::Json::DefaultValueHandling value);
 
-  /// @brief Method get_ReferenceLoopHandling, addr 0x2647c04, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_ReferenceLoopHandling, addr 0x266bdc0, size 0x50, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::ReferenceLoopHandling get_ReferenceLoopHandling();
 
-  /// @brief Method set_ReferenceLoopHandling, addr 0x2647c54, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_ReferenceLoopHandling, addr 0x266be10, size 0x68, virtual false, abstract: false, final false
   inline void set_ReferenceLoopHandling(::Newtonsoft::Json::ReferenceLoopHandling value);
 
-  /// @brief Method get_ObjectCreationHandling, addr 0x2647cbc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectCreationHandling, addr 0x266be78, size 0x50, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::ObjectCreationHandling get_ObjectCreationHandling();
 
-  /// @brief Method set_ObjectCreationHandling, addr 0x2647d0c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_ObjectCreationHandling, addr 0x266bec8, size 0x68, virtual false, abstract: false, final false
   inline void set_ObjectCreationHandling(::Newtonsoft::Json::ObjectCreationHandling value);
 
-  /// @brief Method get_TypeNameHandling, addr 0x2647d74, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_TypeNameHandling, addr 0x266bf30, size 0x50, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::TypeNameHandling get_TypeNameHandling();
 
-  /// @brief Method set_TypeNameHandling, addr 0x2647dc4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_TypeNameHandling, addr 0x266bf80, size 0x68, virtual false, abstract: false, final false
   inline void set_TypeNameHandling(::Newtonsoft::Json::TypeNameHandling value);
 
-  /// @brief Method get_IsReference, addr 0x2647e2c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_IsReference, addr 0x266bfe8, size 0x5c, virtual false, abstract: false, final false
   inline bool get_IsReference();
 
-  /// @brief Method set_IsReference, addr 0x2647e88, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_IsReference, addr 0x266c044, size 0x68, virtual false, abstract: false, final false
   inline void set_IsReference(bool value);
 
-  /// @brief Method get_Order, addr 0x2647ef0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_Order, addr 0x266c0ac, size 0x50, virtual false, abstract: false, final false
   inline int32_t get_Order();
 
-  /// @brief Method set_Order, addr 0x2647f40, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_Order, addr 0x266c0fc, size 0x68, virtual false, abstract: false, final false
   inline void set_Order(int32_t value);
 
-  /// @brief Method get_Required, addr 0x2647fa8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_Required, addr 0x266c164, size 0x50, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Required get_Required();
 
-  /// @brief Method set_Required, addr 0x2647ff8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_Required, addr 0x266c1b4, size 0x68, virtual false, abstract: false, final false
   inline void set_Required(::Newtonsoft::Json::Required value);
 
-  /// @brief Method get_PropertyName, addr 0x2648060, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PropertyName, addr 0x266c21c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_PropertyName();
 
-  /// @brief Method set_PropertyName, addr 0x2648068, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_PropertyName, addr 0x266c224, size 0x8, virtual false, abstract: false, final false
   inline void set_PropertyName(::StringW value);
 
-  /// @brief Method get_ItemReferenceLoopHandling, addr 0x2648070, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_ItemReferenceLoopHandling, addr 0x266c22c, size 0x50, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::ReferenceLoopHandling get_ItemReferenceLoopHandling();
 
-  /// @brief Method set_ItemReferenceLoopHandling, addr 0x26480c0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_ItemReferenceLoopHandling, addr 0x266c27c, size 0x68, virtual false, abstract: false, final false
   inline void set_ItemReferenceLoopHandling(::Newtonsoft::Json::ReferenceLoopHandling value);
 
-  /// @brief Method get_ItemTypeNameHandling, addr 0x2648128, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_ItemTypeNameHandling, addr 0x266c2e4, size 0x50, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::TypeNameHandling get_ItemTypeNameHandling();
 
-  /// @brief Method set_ItemTypeNameHandling, addr 0x2648178, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_ItemTypeNameHandling, addr 0x266c334, size 0x68, virtual false, abstract: false, final false
   inline void set_ItemTypeNameHandling(::Newtonsoft::Json::TypeNameHandling value);
 
-  /// @brief Method get_ItemIsReference, addr 0x26481e0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_ItemIsReference, addr 0x266c39c, size 0x5c, virtual false, abstract: false, final false
   inline bool get_ItemIsReference();
 
-  /// @brief Method set_ItemIsReference, addr 0x264823c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_ItemIsReference, addr 0x266c3f8, size 0x68, virtual false, abstract: false, final false
   inline void set_ItemIsReference(bool value);
 
   static inline ::Newtonsoft::Json::JsonPropertyAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26482a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x266c460, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Newtonsoft::Json::JsonPropertyAttribute* New_ctor(::StringW propertyName);
 
-  /// @brief Method .ctor, addr 0x26482ac, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x266c468, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW propertyName);
 
   // Ctor Parameters [CppParam { name: "", ty: "JsonPropertyAttribute", modifiers: "&&", def_value: None }]

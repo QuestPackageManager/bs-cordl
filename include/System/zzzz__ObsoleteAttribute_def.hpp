@@ -43,20 +43,20 @@ public:
 
   static inline ::System::ObsoleteAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25bdea0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25dfdb8, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::ObsoleteAttribute* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x25bdec0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25dfdd8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::System::ObsoleteAttribute* New_ctor(::StringW message, bool error);
 
-  /// @brief Method .ctor, addr 0x25bdeec, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25dfe04, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, bool error);
 
-  /// @brief Method get_Message, addr 0x25bdf1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Message, addr 0x25dfe34, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Message();
 
   // Ctor Parameters [CppParam { name: "", ty: "ObsoleteAttribute", modifiers: "&&", def_value: None }]

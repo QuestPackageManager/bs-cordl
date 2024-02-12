@@ -49,22 +49,22 @@ public:
 
   static inline ::System::Security::Cryptography::RC2CryptoServiceProvider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x246029c, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2482310, size 0x174, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_EffectiveKeySize, addr 0x2460410, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_EffectiveKeySize, addr 0x2482484, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_EffectiveKeySize();
 
-  /// @brief Method CreateEncryptor, addr 0x2460418, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method CreateEncryptor, addr 0x248248c, size 0xd4, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::ICryptoTransform* CreateEncryptor(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbIV);
 
-  /// @brief Method CreateDecryptor, addr 0x24604ec, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method CreateDecryptor, addr 0x2482560, size 0xd4, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::ICryptoTransform* CreateDecryptor(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbIV);
 
-  /// @brief Method GenerateKey, addr 0x24605c0, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method GenerateKey, addr 0x2482634, size 0x7c, virtual true, abstract: false, final false
   inline void GenerateKey();
 
-  /// @brief Method GenerateIV, addr 0x246063c, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GenerateIV, addr 0x24826b0, size 0x6c, virtual true, abstract: false, final false
   inline void GenerateIV();
 
   // Ctor Parameters [CppParam { name: "", ty: "RC2CryptoServiceProvider", modifiers: "&&", def_value: None }]

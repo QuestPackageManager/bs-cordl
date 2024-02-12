@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::GlobalNamespace::NamedPreset);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4440))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10857))
 // CS Name: ::NamedPreset*
 class CORDL_TYPE NamedPreset : public ::System::Object {
 public:
@@ -32,12 +32,12 @@ public:
 
   constexpr void __cordl_internal_set__presetNameLocalizationKey(::StringW value);
 
-  /// @brief Method get_presetNameLocalizationKey, addr 0x23503e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_presetNameLocalizationKey, addr 0x1293b8c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_presetNameLocalizationKey();
 
   static inline ::GlobalNamespace::NamedPreset* New_ctor();
 
-  /// @brief Method .ctor, addr 0x234e704, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12916d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NamedPreset", modifiers: "&&", def_value: None }]

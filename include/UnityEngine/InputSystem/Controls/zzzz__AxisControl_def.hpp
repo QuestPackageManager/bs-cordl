@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Controls::AxisControl);
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6627))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5886))
 // CS Name: ::AxisControl::Clamp
 struct CORDL_TYPE __AxisControl__Clamp {
 public:
@@ -83,8 +83,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::Controls::__AxisControl__Clam
 // SizeInfo { instance_size: 280, native_size: -1, calculated_instance_size: 280, calculated_native_size: 280, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6216)), TypeDefinitionIndex(TypeDefinitionIndex(6627)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6216), inst: 391
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6628)) CS Name: ::UnityEngine.InputSystem.Controls::AxisControl*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5475)), TypeDefinitionIndex(TypeDefinitionIndex(5886)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5475), inst: 391
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5887)) CS Name: ::UnityEngine.InputSystem.Controls::AxisControl*
 class CORDL_TYPE AxisControl : public ::UnityEngine::InputSystem::InputControl_1<float_t> {
 public:
   // Declarations
@@ -189,30 +189,30 @@ public:
 
   constexpr void __cordl_internal_set_scaleFactor(float_t value);
 
-  /// @brief Method Preprocess, addr 0x2b09ab4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Preprocess, addr 0x2b09620, size 0xd4, virtual false, abstract: false, final false
   inline float_t Preprocess(float_t value);
 
-  /// @brief Method Unpreprocess, addr 0x2b09b88, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Unpreprocess, addr 0x2b096f4, size 0x4c, virtual false, abstract: false, final false
   inline float_t Unpreprocess(float_t value);
 
   static inline ::UnityEngine::InputSystem::Controls::AxisControl* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2b09bd4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b09740, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method FinishSetup, addr 0x2b09c5c, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x2b097c8, size 0xa4, virtual true, abstract: false, final false
   inline void FinishSetup();
 
-  /// @brief Method ReadUnprocessedValueFromState, addr 0x2b09d00, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method ReadUnprocessedValueFromState, addr 0x2b0986c, size 0x34, virtual true, abstract: false, final false
   inline float_t ReadUnprocessedValueFromState(::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method WriteValueIntoState, addr 0x2b09d34, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method WriteValueIntoState, addr 0x2b098a0, size 0x40, virtual true, abstract: false, final false
   inline void WriteValueIntoState(float_t value, ::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method CompareValue, addr 0x2b09d74, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method CompareValue, addr 0x2b098e0, size 0xec, virtual true, abstract: false, final false
   inline bool CompareValue(::cordl_internals::Ptr<void> firstStatePtr, ::cordl_internals::Ptr<void> secondStatePtr);
 
-  /// @brief Method EvaluateMagnitude, addr 0x2b09e60, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method EvaluateMagnitude, addr 0x2b099cc, size 0xe8, virtual true, abstract: false, final false
   inline float_t EvaluateMagnitude(::cordl_internals::Ptr<void> statePtr);
 
   // Ctor Parameters [CppParam { name: "", ty: "AxisControl", modifiers: "&&", def_value: None }]

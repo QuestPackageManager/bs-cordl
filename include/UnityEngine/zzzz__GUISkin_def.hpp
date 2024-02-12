@@ -44,17 +44,17 @@ MARK_REF_PTR_T(::UnityEngine::__GUISkin__SkinChangedDelegate);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14620))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14625))
 // CS Name: ::GUISkin::SkinChangedDelegate*
 class CORDL_TYPE __GUISkin__SkinChangedDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::UnityEngine::__GUISkin__SkinChangedDelegate* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2d09ce4, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d155d0, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x2d09da0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2d1568c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke();
 
   // Ctor Parameters [CppParam { name: "", ty: "__GUISkin__SkinChangedDelegate", modifiers: "&&", def_value: None }]
@@ -81,8 +81,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::__GUISkin__SkinChan
 // SizeInfo { instance_size: 240, native_size: -1, calculated_instance_size: 240, calculated_native_size: 240, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14621))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8954))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14626))
 // CS Name: ::UnityEngine::GUISkin*
 class CORDL_TYPE GUISkin : public ::UnityEngine::ScriptableObject {
 public:
@@ -408,187 +408,187 @@ public:
 
   static inline ::UnityEngine::GUISkin* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d088fc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d141e8, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method OnEnable, addr 0x2d089b0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x2d1429c, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method CleanupRoots, addr 0x2d08a30, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method CleanupRoots, addr 0x2d1431c, size 0x4c, virtual false, abstract: false, final false
   static inline void CleanupRoots();
 
-  /// @brief Method get_font, addr 0x2d08a7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_font, addr 0x2d14368, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Font> get_font();
 
-  /// @brief Method set_font, addr 0x2d08a84, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method set_font, addr 0x2d14370, size 0xcc, virtual false, abstract: false, final false
   inline void set_font(::UnityEngine::Font* value);
 
-  /// @brief Method get_box, addr 0x2cfcf08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_box, addr 0x2d087f4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::GUIStyle* get_box();
 
-  /// @brief Method set_box, addr 0x2d08b50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_box, addr 0x2d1443c, size 0x8, virtual false, abstract: false, final false
   inline void set_box(::UnityEngine::GUIStyle* value);
 
-  /// @brief Method get_label, addr 0x2cfcb34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_label, addr 0x2d08420, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::GUIStyle* get_label();
 
-  /// @brief Method set_label, addr 0x2d08b58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_label, addr 0x2d14444, size 0x8, virtual false, abstract: false, final false
   inline void set_label(::UnityEngine::GUIStyle* value);
 
-  /// @brief Method get_textField, addr 0x2d08b60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_textField, addr 0x2d1444c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::GUIStyle* get_textField();
 
-  /// @brief Method set_textField, addr 0x2d08b68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_textField, addr 0x2d14454, size 0x8, virtual false, abstract: false, final false
   inline void set_textField(::UnityEngine::GUIStyle* value);
 
-  /// @brief Method get_textArea, addr 0x2d08b70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_textArea, addr 0x2d1445c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::GUIStyle* get_textArea();
 
-  /// @brief Method set_textArea, addr 0x2d08b78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_textArea, addr 0x2d14464, size 0x8, virtual false, abstract: false, final false
   inline void set_textArea(::UnityEngine::GUIStyle* value);
 
-  /// @brief Method get_button, addr 0x2d08b80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_button, addr 0x2d1446c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::GUIStyle* get_button();
 
-  /// @brief Method set_button, addr 0x2d08b88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_button, addr 0x2d14474, size 0x8, virtual false, abstract: false, final false
   inline void set_button(::UnityEngine::GUIStyle* value);
 
-  /// @brief Method get_toggle, addr 0x2d08b90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_toggle, addr 0x2d1447c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::GUIStyle* get_toggle();
 
-  /// @brief Method set_toggle, addr 0x2d08b98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_toggle, addr 0x2d14484, size 0x8, virtual false, abstract: false, final false
   inline void set_toggle(::UnityEngine::GUIStyle* value);
 
-  /// @brief Method get_window, addr 0x2d08ba0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_window, addr 0x2d1448c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::GUIStyle* get_window();
 
-  /// @brief Method set_window, addr 0x2d08ba8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_window, addr 0x2d14494, size 0x8, virtual false, abstract: false, final false
   inline void set_window(::UnityEngine::GUIStyle* value);
 
-  /// @brief Method get_horizontalSlider, addr 0x2d08bb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_horizontalSlider, addr 0x2d1449c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::GUIStyle* get_horizontalSlider();
 
-  /// @brief Method set_horizontalSlider, addr 0x2d08bb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_horizontalSlider, addr 0x2d144a4, size 0x8, virtual false, abstract: false, final false
   inline void set_horizontalSlider(::UnityEngine::GUIStyle* value);
 
-  /// @brief Method get_horizontalSliderThumb, addr 0x2d08bc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_horizontalSliderThumb, addr 0x2d144ac, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::GUIStyle* get_horizontalSliderThumb();
 
-  /// @brief Method set_horizontalSliderThumb, addr 0x2d08bc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_horizontalSliderThumb, addr 0x2d144b4, size 0x8, virtual false, abstract: false, final false
   inline void set_horizontalSliderThumb(::UnityEngine::GUIStyle* value);
 
-  /// @brief Method get_horizontalSliderThumbExtent, addr 0x2d08bd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_horizontalSliderThumbExtent, addr 0x2d144bc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::GUIStyle* get_horizontalSliderThumbExtent();
 
-  /// @brief Method set_horizontalSliderThumbExtent, addr 0x2d08bd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_horizontalSliderThumbExtent, addr 0x2d144c4, size 0x8, virtual false, abstract: false, final false
   inline void set_horizontalSliderThumbExtent(::UnityEngine::GUIStyle* value);
 
-  /// @brief Method get_sliderMixed, addr 0x2d08be0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sliderMixed, addr 0x2d144cc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::GUIStyle* get_sliderMixed();
 
-  /// @brief Method set_sliderMixed, addr 0x2d08be8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_sliderMixed, addr 0x2d144d4, size 0x8, virtual false, abstract: false, final false
   inline void set_sliderMixed(::UnityEngine::GUIStyle* value);
 
-  /// @brief Method get_verticalSlider, addr 0x2d08bf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_verticalSlider, addr 0x2d144dc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::GUIStyle* get_verticalSlider();
 
-  /// @brief Method set_verticalSlider, addr 0x2d08bf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_verticalSlider, addr 0x2d144e4, size 0x8, virtual false, abstract: false, final false
   inline void set_verticalSlider(::UnityEngine::GUIStyle* value);
 
-  /// @brief Method get_verticalSliderThumb, addr 0x2d08c00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_verticalSliderThumb, addr 0x2d144ec, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::GUIStyle* get_verticalSliderThumb();
 
-  /// @brief Method set_verticalSliderThumb, addr 0x2d08c08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_verticalSliderThumb, addr 0x2d144f4, size 0x8, virtual false, abstract: false, final false
   inline void set_verticalSliderThumb(::UnityEngine::GUIStyle* value);
 
-  /// @brief Method get_verticalSliderThumbExtent, addr 0x2d08c10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_verticalSliderThumbExtent, addr 0x2d144fc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::GUIStyle* get_verticalSliderThumbExtent();
 
-  /// @brief Method set_verticalSliderThumbExtent, addr 0x2d08c18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_verticalSliderThumbExtent, addr 0x2d14504, size 0x8, virtual false, abstract: false, final false
   inline void set_verticalSliderThumbExtent(::UnityEngine::GUIStyle* value);
 
-  /// @brief Method get_horizontalScrollbar, addr 0x2d08c20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_horizontalScrollbar, addr 0x2d1450c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::GUIStyle* get_horizontalScrollbar();
 
-  /// @brief Method set_horizontalScrollbar, addr 0x2d08c28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_horizontalScrollbar, addr 0x2d14514, size 0x8, virtual false, abstract: false, final false
   inline void set_horizontalScrollbar(::UnityEngine::GUIStyle* value);
 
-  /// @brief Method get_horizontalScrollbarThumb, addr 0x2d08c30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_horizontalScrollbarThumb, addr 0x2d1451c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::GUIStyle* get_horizontalScrollbarThumb();
 
-  /// @brief Method set_horizontalScrollbarThumb, addr 0x2d08c38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_horizontalScrollbarThumb, addr 0x2d14524, size 0x8, virtual false, abstract: false, final false
   inline void set_horizontalScrollbarThumb(::UnityEngine::GUIStyle* value);
 
-  /// @brief Method get_horizontalScrollbarLeftButton, addr 0x2d08c40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_horizontalScrollbarLeftButton, addr 0x2d1452c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::GUIStyle* get_horizontalScrollbarLeftButton();
 
-  /// @brief Method set_horizontalScrollbarLeftButton, addr 0x2d08c48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_horizontalScrollbarLeftButton, addr 0x2d14534, size 0x8, virtual false, abstract: false, final false
   inline void set_horizontalScrollbarLeftButton(::UnityEngine::GUIStyle* value);
 
-  /// @brief Method get_horizontalScrollbarRightButton, addr 0x2d08c50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_horizontalScrollbarRightButton, addr 0x2d1453c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::GUIStyle* get_horizontalScrollbarRightButton();
 
-  /// @brief Method set_horizontalScrollbarRightButton, addr 0x2d08c58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_horizontalScrollbarRightButton, addr 0x2d14544, size 0x8, virtual false, abstract: false, final false
   inline void set_horizontalScrollbarRightButton(::UnityEngine::GUIStyle* value);
 
-  /// @brief Method get_verticalScrollbar, addr 0x2d08c60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_verticalScrollbar, addr 0x2d1454c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::GUIStyle* get_verticalScrollbar();
 
-  /// @brief Method set_verticalScrollbar, addr 0x2d08c68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_verticalScrollbar, addr 0x2d14554, size 0x8, virtual false, abstract: false, final false
   inline void set_verticalScrollbar(::UnityEngine::GUIStyle* value);
 
-  /// @brief Method get_verticalScrollbarThumb, addr 0x2d08c70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_verticalScrollbarThumb, addr 0x2d1455c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::GUIStyle* get_verticalScrollbarThumb();
 
-  /// @brief Method set_verticalScrollbarThumb, addr 0x2d08c78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_verticalScrollbarThumb, addr 0x2d14564, size 0x8, virtual false, abstract: false, final false
   inline void set_verticalScrollbarThumb(::UnityEngine::GUIStyle* value);
 
-  /// @brief Method get_verticalScrollbarUpButton, addr 0x2d08c80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_verticalScrollbarUpButton, addr 0x2d1456c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::GUIStyle* get_verticalScrollbarUpButton();
 
-  /// @brief Method set_verticalScrollbarUpButton, addr 0x2d08c88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_verticalScrollbarUpButton, addr 0x2d14574, size 0x8, virtual false, abstract: false, final false
   inline void set_verticalScrollbarUpButton(::UnityEngine::GUIStyle* value);
 
-  /// @brief Method get_verticalScrollbarDownButton, addr 0x2d08c90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_verticalScrollbarDownButton, addr 0x2d1457c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::GUIStyle* get_verticalScrollbarDownButton();
 
-  /// @brief Method set_verticalScrollbarDownButton, addr 0x2d08c98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_verticalScrollbarDownButton, addr 0x2d14584, size 0x8, virtual false, abstract: false, final false
   inline void set_verticalScrollbarDownButton(::UnityEngine::GUIStyle* value);
 
-  /// @brief Method get_scrollView, addr 0x2d08ca0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_scrollView, addr 0x2d1458c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::GUIStyle* get_scrollView();
 
-  /// @brief Method set_scrollView, addr 0x2d08ca8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_scrollView, addr 0x2d14594, size 0x8, virtual false, abstract: false, final false
   inline void set_scrollView(::UnityEngine::GUIStyle* value);
 
-  /// @brief Method get_customStyles, addr 0x2d08cb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_customStyles, addr 0x2d1459c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::GUIStyle*, ::Array<::UnityEngine::GUIStyle*>*> get_customStyles();
 
-  /// @brief Method set_customStyles, addr 0x2d08cb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_customStyles, addr 0x2d145a4, size 0x8, virtual false, abstract: false, final false
   inline void set_customStyles(::ArrayW<::UnityEngine::GUIStyle*, ::Array<::UnityEngine::GUIStyle*>*> value);
 
-  /// @brief Method get_settings, addr 0x2d08cc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_settings, addr 0x2d145ac, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::GUISettings* get_settings();
 
-  /// @brief Method get_error, addr 0x2d08cc8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method get_error, addr 0x2d145b4, size 0xc4, virtual false, abstract: false, final false
   static inline ::UnityEngine::GUIStyle* get_error();
 
-  /// @brief Method Apply, addr 0x2d089b4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x2d142a0, size 0x7c, virtual false, abstract: false, final false
   inline void Apply();
 
-  /// @brief Method BuildStyleCache, addr 0x2d08d8c, size 0xb44, virtual false, abstract: false, final false
+  /// @brief Method BuildStyleCache, addr 0x2d14678, size 0xb44, virtual false, abstract: false, final false
   inline void BuildStyleCache();
 
-  /// @brief Method GetStyle, addr 0x2d098d0, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method GetStyle, addr 0x2d151bc, size 0x2cc, virtual false, abstract: false, final false
   inline ::UnityEngine::GUIStyle* GetStyle(::StringW styleName);
 
-  /// @brief Method FindStyle, addr 0x2d09b9c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method FindStyle, addr 0x2d15488, size 0x88, virtual false, abstract: false, final false
   inline ::UnityEngine::GUIStyle* FindStyle(::StringW styleName);
 
-  /// @brief Method MakeCurrent, addr 0x2cfc7c4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method MakeCurrent, addr 0x2d080b0, size 0xb4, virtual false, abstract: false, final false
   inline void MakeCurrent();
 
-  /// @brief Method GetEnumerator, addr 0x2d09c24, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x2d15510, size 0xc0, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
   // Ctor Parameters [CppParam { name: "", ty: "GUISkin", modifiers: "&&", def_value: None }]

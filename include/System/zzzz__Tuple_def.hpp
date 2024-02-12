@@ -39,13 +39,13 @@ public:
   /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1, typename T2, typename T3, typename T4> static inline ::System::Tuple_4<T1, T2, T3, T4>* Create(T1 item1, T2 item2, T3 item3, T4 item4);
 
-  /// @brief Method CombineHashCodes, addr 0x25c738c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CombineHashCodes, addr 0x25e92a4, size 0xc, virtual false, abstract: false, final false
   static inline int32_t CombineHashCodes(int32_t h1, int32_t h2);
 
-  /// @brief Method CombineHashCodes, addr 0x25c7398, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method CombineHashCodes, addr 0x25e92b0, size 0x14, virtual false, abstract: false, final false
   static inline int32_t CombineHashCodes(int32_t h1, int32_t h2, int32_t h3);
 
-  /// @brief Method CombineHashCodes, addr 0x25c73ac, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method CombineHashCodes, addr 0x25e92c4, size 0x1c, virtual false, abstract: false, final false
   static inline int32_t CombineHashCodes(int32_t h1, int32_t h2, int32_t h3, int32_t h4);
 
   // Ctor Parameters [CppParam { name: "", ty: "Tuple", modifiers: "&&", def_value: None }]

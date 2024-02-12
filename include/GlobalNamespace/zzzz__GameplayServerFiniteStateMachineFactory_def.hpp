@@ -21,12 +21,12 @@ MARK_REF_PTR_T(::GlobalNamespace::GameplayServerFiniteStateMachineFactory);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12763))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12661))
 // CS Name: ::GameplayServerFiniteStateMachineFactory*
 class CORDL_TYPE GameplayServerFiniteStateMachineFactory : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0xe3c020, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0xe66e58, size 0x1ac, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::GameplayServerFiniteStateMachine* Create(::GlobalNamespace::__GameplayServerFiniteStateMachine__InitParams initParams);
 
   // Ctor Parameters [CppParam { name: "", ty: "GameplayServerFiniteStateMachineFactory", modifiers: "&&", def_value: None }]

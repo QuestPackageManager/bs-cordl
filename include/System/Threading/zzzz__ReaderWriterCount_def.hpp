@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::System::Threading::ReaderWriterCount);
 namespace System::Threading {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14318))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14331))
 // CS Name: ::System.Threading::ReaderWriterCount*
 class CORDL_TYPE ReaderWriterCount : public ::System::Object {
 public:
@@ -68,7 +68,7 @@ public:
 
   static inline ::System::Threading::ReaderWriterCount* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2813f9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2818784, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ReaderWriterCount", modifiers: "&&", def_value: None }]

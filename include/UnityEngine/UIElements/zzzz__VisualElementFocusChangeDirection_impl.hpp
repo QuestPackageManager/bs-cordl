@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::FocusChangeDirection* (*)()>(
     &::UnityEngine::UIElements::VisualElementFocusChangeDirection::get_left)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2dbb1fc;
+  constexpr static std::size_t addrs = 0x2dd95e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::FocusChangeDirection* (*)()>(
     &::UnityEngine::UIElements::VisualElementFocusChangeDirection::get_right)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2dbb254;
+  constexpr static std::size_t addrs = 0x2dd963c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualElementFocusChangeDirection::*)(int32_t)>(
     &::UnityEngine::UIElements::VisualElementFocusChangeDirection::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2dbb2ac;
+  constexpr static std::size_t addrs = 0x2dd9694;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

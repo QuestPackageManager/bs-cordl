@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::__ShaderInfoStorageRGBAFloat____c
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7384))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6643))
 // CS Name: ::ShaderInfoStorageRGBAFloat::<>c*
 class CORDL_TYPE __ShaderInfoStorageRGBAFloat____c : public ::System::Object {
 public:
@@ -45,10 +45,10 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::__ShaderInfoStorageRGBAFloat____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e8b8d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ea5cbc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <.cctor>b__2_0, addr 0x2e8b8dc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__2_0, addr 0x2ea5cc4, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::Color __cctor_b__2_0(::UnityEngine::Color c);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ShaderInfoStorageRGBAFloat____c", modifiers: "&&", def_value: None }]
@@ -75,8 +75,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::__
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7381)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7381), inst: 293
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7385)) CS Name: ::UnityEngine.UIElements.UIR::ShaderInfoStorageRGBAFloat*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6640)), TypeDefinitionIndex(TypeDefinitionIndex(8995)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6640), inst: 293
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6644)) CS Name: ::UnityEngine.UIElements.UIR::ShaderInfoStorageRGBAFloat*
 class CORDL_TYPE ShaderInfoStorageRGBAFloat : public ::UnityEngine::UIElements::UIR::ShaderInfoStorage_1<::UnityEngine::Color> {
 public:
   // Declarations
@@ -91,7 +91,7 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::ShaderInfoStorageRGBAFloat* New_ctor(int32_t initialSize, int32_t maxSize);
 
-  /// @brief Method .ctor, addr 0x2e892c8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ea36b0, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(int32_t initialSize, int32_t maxSize);
 
   // Ctor Parameters [CppParam { name: "", ty: "ShaderInfoStorageRGBAFloat", modifiers: "&&", def_value: None }]

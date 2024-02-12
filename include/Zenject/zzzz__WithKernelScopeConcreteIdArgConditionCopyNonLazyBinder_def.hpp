@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::Zenject::WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10926))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10941))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10068))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10083))
 // CS Name: ::Zenject::WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder*
 class CORDL_TYPE WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder : public ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder {
 public:
@@ -40,10 +40,10 @@ public:
 
   static inline ::Zenject::WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder* New_ctor(::Zenject::SubContainerCreatorBindInfo* subContainerBindInfo, ::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method .ctor, addr 0x2ede928, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2efaa70, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::SubContainerCreatorBindInfo* subContainerBindInfo, ::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method WithKernel, addr 0x2ede954, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method WithKernel, addr 0x2efaa9c, size 0x20, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* WithKernel();
 
   /// @brief Method WithKernel, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

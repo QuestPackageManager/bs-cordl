@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::JetBrains::Annotations::AspMvcViewComponentViewAttribute);
 namespace JetBrains::Annotations {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15778))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15928))
 // CS Name: ::JetBrains.Annotations::AspMvcViewComponentViewAttribute*
 class CORDL_TYPE AspMvcViewComponentViewAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::JetBrains::Annotations::AspMvcViewComponentViewAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2eba64c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ed6794, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AspMvcViewComponentViewAttribute", modifiers: "&&", def_value: None }]

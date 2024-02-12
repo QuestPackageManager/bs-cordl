@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::DepthTextureMode);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10108))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8844))
 // CS Name: ::UnityEngine::DepthTextureMode
 struct CORDL_TYPE DepthTextureMode {
 public:

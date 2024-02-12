@@ -29,18 +29,18 @@ MARK_REF_PTR_T(::System::Xml::Schema::__DtdValidator__NamespaceManager);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11570))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11684))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11468))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11582))
 // CS Name: ::DtdValidator::NamespaceManager*
 class CORDL_TYPE __DtdValidator__NamespaceManager : public ::System::Xml::XmlNamespaceManager {
 public:
   // Declarations
-  /// @brief Method LookupNamespace, addr 0x28c092c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method LookupNamespace, addr 0x28c2f94, size 0x8, virtual true, abstract: false, final false
   inline ::StringW LookupNamespace(::StringW prefix);
 
   static inline ::System::Xml::Schema::__DtdValidator__NamespaceManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28c0924, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28c2f8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__DtdValidator__NamespaceManager", modifiers: "&&", def_value: None }]
@@ -67,8 +67,8 @@ static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::__DtdValida
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11593))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11685))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11491))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11583))
 // CS Name: ::System.Xml.Schema::DtdValidator*
 class CORDL_TYPE DtdValidator : public ::System::Xml::Schema::BaseValidator {
 public:
@@ -82,7 +82,7 @@ public:
 
   static inline ::System::Xml::Schema::__DtdValidator__NamespaceManager* getStaticF_namespaceManager();
 
-  /// @brief Method SetDefaultTypedValue, addr 0x28c047c, size 0x3dc, virtual false, abstract: false, final false
+  /// @brief Method SetDefaultTypedValue, addr 0x28c2ae4, size 0x3dc, virtual false, abstract: false, final false
   static inline void SetDefaultTypedValue(::System::Xml::Schema::SchemaAttDef* attdef, ::System::Xml::IDtdParserAdapter* readerAdapter);
 
   // Ctor Parameters [CppParam { name: "", ty: "DtdValidator", modifiers: "&&", def_value: None }]

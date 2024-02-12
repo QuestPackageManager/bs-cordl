@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Permissions::SecurityPermission::*)(::System::Security::Permissions::PermissionState)>(
     &::System::Security::Permissions::SecurityPermission::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2456e8c;
+  constexpr static std::size_t addrs = 0x2477cf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Security::Permissions::SecurityPermission::*)(::System::Security::Permissions::SecurityPermissionFlag)>(&::System::Security::Permissions::SecurityPermission::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2456ecc;
+  constexpr static std::size_t addrs = 0x2477d30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Permissions::SecurityPermission::*)(
     ::System::Security::Permissions::SecurityPermissionFlag)>(&::System::Security::Permissions::SecurityPermission::set_Flags)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x2456ef8;
+  constexpr static std::size_t addrs = 0x2477d5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Security::Permissions::SecurityPermission::*)()>(
     &::System::Security::Permissions::SecurityPermission::IsUnrestricted)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2456fb0;
+  constexpr static std::size_t addrs = 0x2477e14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Permissions::SecurityPermission*>::get(),
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Security::Permissions::SecurityPermission::*)(::System::Security::IPermission*)>(
     &::System::Security::Permissions::SecurityPermission::IsSubsetOf)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2456fc4;
+  constexpr static std::size_t addrs = 0x2477e28;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::SecurityElement* (::System::Security::Permissions::SecurityPermission::*)()>(
     &::System::Security::Permissions::SecurityPermission::ToXml)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x24570d0;
+  constexpr static std::size_t addrs = 0x2477f34;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Security::Permissions::SecurityPermission::*)()>(
     &::System::Security::Permissions::SecurityPermission::IsEmpty)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x24570c0;
+  constexpr static std::size_t addrs = 0x2477f24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Permissions::SecurityPermission*>::get(),
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Permissions::SecurityPermission* (
     ::System::Security::Permissions::SecurityPermission::*)(::System::Security::IPermission*)>(&::System::Security::Permissions::SecurityPermission::Cast)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x245701c;
+  constexpr static std::size_t addrs = 0x2477e80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

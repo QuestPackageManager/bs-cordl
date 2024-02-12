@@ -28,23 +28,23 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::SerializationCallback);
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11937))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11835))
 // CS Name: ::Newtonsoft.Json.Serialization::SerializationCallback*
 class CORDL_TYPE SerializationCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::Newtonsoft::Json::Serialization::SerializationCallback* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x26780b4, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x269b270, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x26781e4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x269b3a0, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* o, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method BeginInvoke, addr 0x26781f8, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x269b3b4, size 0x94, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::Object* o, ::System::Runtime::Serialization::StreamingContext context, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x267828c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x269b448, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "SerializationCallback", modifiers: "&&", def_value: None }]

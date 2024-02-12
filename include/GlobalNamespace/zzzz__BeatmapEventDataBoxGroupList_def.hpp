@@ -15,7 +15,7 @@ namespace GlobalNamespace {
 class BeatmapEventDataBoxGroup;
 }
 namespace GlobalNamespace {
-class IBeatToTimeConvertor;
+class IBeatToTimeConverter;
 }
 namespace GlobalNamespace {
 template <typename T, typename TBase> class SortedList_2;
@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapEventDataBoxGroupList);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4306))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10735))
 // CS Name: ::BeatmapEventDataBoxGroupList*
 class CORDL_TYPE BeatmapEventDataBoxGroupList : public ::System::Object {
 public:
@@ -59,8 +59,8 @@ public:
   /// @brief Field _beatmapData, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapData, put = __cordl_internal_set__beatmapData))::GlobalNamespace::BeatmapData* _beatmapData;
 
-  /// @brief Field _beatToTimeConvertor, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatToTimeConvertor, put = __cordl_internal_set__beatToTimeConvertor))::GlobalNamespace::IBeatToTimeConvertor* _beatToTimeConvertor;
+  /// @brief Field _beatToTimeConverter, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__beatToTimeConverter, put = __cordl_internal_set__beatToTimeConverter))::GlobalNamespace::IBeatToTimeConverter* _beatToTimeConverter;
 
   /// @brief Field _nonSyncedInsertsExist, offset 0x40, size 0x1
   __declspec(property(get = __cordl_internal_get__nonSyncedInsertsExist, put = __cordl_internal_set__nonSyncedInsertsExist)) bool _nonSyncedInsertsExist;
@@ -100,11 +100,11 @@ public:
 
   constexpr void __cordl_internal_set__beatmapData(::GlobalNamespace::BeatmapData* value);
 
-  constexpr ::GlobalNamespace::IBeatToTimeConvertor*& __cordl_internal_get__beatToTimeConvertor();
+  constexpr ::GlobalNamespace::IBeatToTimeConverter*& __cordl_internal_get__beatToTimeConverter();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatToTimeConvertor*> const& __cordl_internal_get__beatToTimeConvertor() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatToTimeConverter*> const& __cordl_internal_get__beatToTimeConverter() const;
 
-  constexpr void __cordl_internal_set__beatToTimeConvertor(::GlobalNamespace::IBeatToTimeConvertor* value);
+  constexpr void __cordl_internal_set__beatToTimeConverter(::GlobalNamespace::IBeatToTimeConverter* value);
 
   constexpr bool& __cordl_internal_get__nonSyncedInsertsExist();
 
@@ -116,21 +116,21 @@ public:
 
   static inline ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* getStaticF__usedBeatmapEventDataBoxes();
 
-  /// @brief Method NoDomainReloadInit, addr 0x23396a0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method NoDomainReloadInit, addr 0x127a114, size 0x78, virtual false, abstract: false, final false
   static inline void NoDomainReloadInit();
 
-  static inline ::GlobalNamespace::BeatmapEventDataBoxGroupList* New_ctor(int32_t groupId, ::GlobalNamespace::BeatmapData* beatmapData, ::GlobalNamespace::IBeatToTimeConvertor* beatToTimeConvertor);
+  static inline ::GlobalNamespace::BeatmapEventDataBoxGroupList* New_ctor(int32_t groupId, ::GlobalNamespace::BeatmapData* beatmapData, ::GlobalNamespace::IBeatToTimeConverter* beatToTimeConverter);
 
-  /// @brief Method .ctor, addr 0x2339718, size 0xd8, virtual false, abstract: false, final false
-  inline void _ctor(int32_t groupId, ::GlobalNamespace::BeatmapData* beatmapData, ::GlobalNamespace::IBeatToTimeConvertor* beatToTimeConvertor);
+  /// @brief Method .ctor, addr 0x127a18c, size 0xd8, virtual false, abstract: false, final false
+  inline void _ctor(int32_t groupId, ::GlobalNamespace::BeatmapData* beatmapData, ::GlobalNamespace::IBeatToTimeConverter* beatToTimeConverter);
 
-  /// @brief Method Insert, addr 0x233986c, size 0x3c4, virtual false, abstract: false, final false
+  /// @brief Method Insert, addr 0x127a2e0, size 0x3c4, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* Insert(::GlobalNamespace::BeatmapEventDataBoxGroup* beatmapEventDataBoxGroup);
 
-  /// @brief Method Remove, addr 0x2339c80, size 0x3c8, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x127a6f4, size 0x3c8, virtual false, abstract: false, final false
   inline void Remove(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* nodeToDelete);
 
-  /// @brief Method SyncWithBeatmapData, addr 0x233a048, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method SyncWithBeatmapData, addr 0x127aabc, size 0x178, virtual false, abstract: false, final false
   inline void SyncWithBeatmapData();
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapEventDataBoxGroupList", modifiers: "&&", def_value: None }]
@@ -162,8 +162,8 @@ public:
   /// @brief Field _beatmapData, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapData* ____beatmapData;
 
-  /// @brief Field _beatToTimeConvertor, offset: 0x38, size: 0x8, def value: None
-  ::GlobalNamespace::IBeatToTimeConvertor* ____beatToTimeConvertor;
+  /// @brief Field _beatToTimeConverter, offset: 0x38, size: 0x8, def value: None
+  ::GlobalNamespace::IBeatToTimeConverter* ____beatToTimeConverter;
 
   /// @brief Field _nonSyncedInsertsExist, offset: 0x40, size: 0x1, def value: None
   bool ____nonSyncedInsertsExist;
@@ -183,7 +183,7 @@ static_assert(offsetof(::GlobalNamespace::BeatmapEventDataBoxGroupList, ____grou
 
 static_assert(offsetof(::GlobalNamespace::BeatmapEventDataBoxGroupList, ____beatmapData) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatmapEventDataBoxGroupList, ____beatToTimeConvertor) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatmapEventDataBoxGroupList, ____beatToTimeConverter) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BeatmapEventDataBoxGroupList, ____nonSyncedInsertsExist) == 0x40, "Offset mismatch!");
 

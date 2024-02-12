@@ -39,8 +39,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::ListViewDraggerAnimated);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6959)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6961))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6218)), TypeDefinitionIndex(TypeDefinitionIndex(8993))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6220))
 // CS Name: ::UnityEngine.UIElements::ListViewDraggerAnimated*
 class CORDL_TYPE ListViewDraggerAnimated : public ::UnityEngine::UIElements::ListViewDragger {
 public:
@@ -114,36 +114,36 @@ public:
 
   constexpr void __cordl_internal_set_m_OffsetItem(::UnityEngine::UIElements::ReusableCollectionItem* value);
 
-  /// @brief Method get_isDragging, addr 0x2e0bcd4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_isDragging, addr 0x2e290bc, size 0x10, virtual false, abstract: false, final false
   inline bool get_isDragging();
 
-  /// @brief Method get_draggedItem, addr 0x2e0bce4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_draggedItem, addr 0x2e290cc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ReusableCollectionItem* get_draggedItem();
 
-  /// @brief Method get_supportsDragEvents, addr 0x2e0bcec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_supportsDragEvents, addr 0x2e290d4, size 0x8, virtual true, abstract: false, final false
   inline bool get_supportsDragEvents();
 
   static inline ::UnityEngine::UIElements::ListViewDraggerAnimated* New_ctor(::UnityEngine::UIElements::BaseVerticalCollectionView* listView);
 
-  /// @brief Method .ctor, addr 0x2e0bcf4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e290dc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::BaseVerticalCollectionView* listView);
 
-  /// @brief Method StartDrag, addr 0x2e0bcf8, size 0x6e0, virtual true, abstract: false, final false
+  /// @brief Method StartDrag, addr 0x2e290e0, size 0x6e0, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StartDragArgs* StartDrag(::UnityEngine::Vector3 pointerPosition);
 
-  /// @brief Method UpdateDrag, addr 0x2e0c718, size 0x894, virtual true, abstract: false, final false
+  /// @brief Method UpdateDrag, addr 0x2e29b00, size 0x894, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::DragVisualMode UpdateDrag(::UnityEngine::Vector3 pointerPosition);
 
-  /// @brief Method Animate, addr 0x2e0c3d8, size 0x340, virtual false, abstract: false, final false
+  /// @brief Method Animate, addr 0x2e297c0, size 0x340, virtual false, abstract: false, final false
   inline void Animate(::UnityEngine::UIElements::ReusableCollectionItem* element, float_t paddingTop);
 
-  /// @brief Method OnDrop, addr 0x2e0cfac, size 0x300, virtual true, abstract: false, final false
+  /// @brief Method OnDrop, addr 0x2e2a394, size 0x300, virtual true, abstract: false, final false
   inline void OnDrop(::UnityEngine::Vector3 pointerPosition);
 
-  /// @brief Method ClearDragAndDropUI, addr 0x2e0d2ac, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ClearDragAndDropUI, addr 0x2e2a694, size 0x4, virtual true, abstract: false, final false
   inline void ClearDragAndDropUI();
 
-  /// @brief Method TryGetDragPosition, addr 0x2e0d2b0, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method TryGetDragPosition, addr 0x2e2a698, size 0x20, virtual true, abstract: false, final false
   inline bool TryGetDragPosition(::UnityEngine::Vector2 pointerPosition, ByRef<::UnityEngine::UIElements::__ListViewDragger__DragPosition> dragPosition);
 
   // Ctor Parameters [CppParam { name: "", ty: "ListViewDraggerAnimated", modifiers: "&&", def_value: None }]

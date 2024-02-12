@@ -23,12 +23,12 @@ MARK_REF_PTR_T(::UnityEngine::Audio::AudioPlayableGraphExtensions);
 namespace UnityEngine::Audio {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15605))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15316))
 // CS Name: ::UnityEngine.Audio::AudioPlayableGraphExtensions*
 class CORDL_TYPE AudioPlayableGraphExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method InternalCreateAudioOutput, addr 0x2c9c114, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method InternalCreateAudioOutput, addr 0x2c9bcd0, size 0x54, virtual false, abstract: false, final false
   static inline bool InternalCreateAudioOutput(ByRef<::UnityEngine::Playables::PlayableGraph> graph, ::StringW name, ByRef<::UnityEngine::Playables::PlayableOutputHandle> handle);
 
   // Ctor Parameters [CppParam { name: "", ty: "AudioPlayableGraphExtensions", modifiers: "&&", def_value: None }]

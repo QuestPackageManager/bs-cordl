@@ -43,8 +43,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7180)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(14602)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7180), inst: 1714 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7215)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6439)), TypeDefinitionIndex(TypeDefinitionIndex(8987)), TypeDefinitionIndex(TypeDefinitionIndex(14607)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6439), inst: 1672 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6474)) CS Name:
 // ::UnityEngine.UIElements::MouseEventBase`1<T>*
 class CORDL_TYPE MouseEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T> {
 public:

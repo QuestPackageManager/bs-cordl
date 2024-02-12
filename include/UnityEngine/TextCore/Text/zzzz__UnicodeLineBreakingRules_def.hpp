@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::UnityEngine::TextCore::Text::UnicodeLineBreakingRules);
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13733))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13686))
 // CS Name: ::UnityEngine.TextCore.Text::UnicodeLineBreakingRules*
 class CORDL_TYPE UnicodeLineBreakingRules : public ::System::Object {
 public:
@@ -89,21 +89,21 @@ public:
 
   static inline ::System::Collections::Generic::HashSet_1<uint32_t>* getStaticF_s_FollowingCharactersLookup();
 
-  /// @brief Method get_leadingCharactersLookup, addr 0x2d4c538, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_leadingCharactersLookup, addr 0x2d6afe0, size 0x88, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::HashSet_1<uint32_t>* get_leadingCharactersLookup();
 
-  /// @brief Method get_followingCharactersLookup, addr 0x2d4c8d4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_followingCharactersLookup, addr 0x2d6b37c, size 0x88, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::HashSet_1<uint32_t>* get_followingCharactersLookup();
 
-  /// @brief Method LoadLineBreakingRules, addr 0x2d4c5c0, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method LoadLineBreakingRules, addr 0x2d6b068, size 0x314, virtual false, abstract: false, final false
   static inline void LoadLineBreakingRules();
 
-  /// @brief Method GetCharacters, addr 0x2d4c95c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetCharacters, addr 0x2d6b404, size 0xe8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::HashSet_1<uint32_t>* GetCharacters(::UnityEngine::TextAsset* file);
 
   static inline ::UnityEngine::TextCore::Text::UnicodeLineBreakingRules* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d4ca44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d6b4ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "UnicodeLineBreakingRules", modifiers: "&&", def_value: None }]

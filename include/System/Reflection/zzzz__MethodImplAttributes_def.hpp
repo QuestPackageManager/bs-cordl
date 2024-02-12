@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Reflection::MethodImplAttributes);
 namespace System::Reflection {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3478))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3474))
 // CS Name: ::System.Reflection::MethodImplAttributes
 struct CORDL_TYPE MethodImplAttributes {
 public:

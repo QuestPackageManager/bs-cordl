@@ -51,7 +51,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility_
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12265))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12163))
 // CS Name: ::InternalMeshUtility::<>c*
 class CORDL_TYPE __InternalMeshUtility____c : public ::System::Object {
 public:
@@ -120,28 +120,28 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2bb8738, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bb62a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <CreateMeshWithTransform>b__1_0, addr 0x2bb8740, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <CreateMeshWithTransform>b__1_0, addr 0x2bb62ac, size 0x18, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> _CreateMeshWithTransform_b__1_0(::UnityEngine::Mesh* x);
 
-  /// @brief Method <CreateMeshWithTransform>b__1_1, addr 0x2bb8758, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <CreateMeshWithTransform>b__1_1, addr 0x2bb62c4, size 0x18, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> _CreateMeshWithTransform_b__1_1(::UnityEngine::Mesh* x);
 
-  /// @brief Method <CreateMeshWithTransform>b__1_2, addr 0x2bb8770, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <CreateMeshWithTransform>b__1_2, addr 0x2bb62dc, size 0x18, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> _CreateMeshWithTransform_b__1_2(::UnityEngine::Mesh* x);
 
-  /// @brief Method <ResetPbObjectWithMeshFilter>b__2_0, addr 0x2bb8788, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <ResetPbObjectWithMeshFilter>b__2_0, addr 0x2bb62f4, size 0x18, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> _ResetPbObjectWithMeshFilter_b__2_0(::UnityEngine::Mesh* x);
 
-  /// @brief Method <ResetPbObjectWithMeshFilter>b__2_1, addr 0x2bb87a0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <ResetPbObjectWithMeshFilter>b__2_1, addr 0x2bb630c, size 0x18, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> _ResetPbObjectWithMeshFilter_b__2_1(::UnityEngine::Mesh* x);
 
-  /// @brief Method <ResetPbObjectWithMeshFilter>b__2_2, addr 0x2bb87b8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <ResetPbObjectWithMeshFilter>b__2_2, addr 0x2bb6324, size 0x18, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> _ResetPbObjectWithMeshFilter_b__2_2(::UnityEngine::Mesh* x);
 
-  /// @brief Method <FilterUnusedSubmeshIndexes>b__3_0, addr 0x2bb87d0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <FilterUnusedSubmeshIndexes>b__3_0, addr 0x2bb633c, size 0xc, virtual false, abstract: false, final false
   inline bool _FilterUnusedSubmeshIndexes_b__3_0(bool x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__InternalMeshUtility____c", modifiers: "&&", def_value: None }]
@@ -169,24 +169,24 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::MeshOpe
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12266))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12164))
 // CS Name: ::UnityEngine.ProBuilder.MeshOperations::InternalMeshUtility*
 class CORDL_TYPE InternalMeshUtility : public ::System::Object {
 public:
   // Declarations
   using __c = ::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c;
 
-  /// @brief Method AverageNormalWithIndexes, addr 0x2bb467c, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method AverageNormalWithIndexes, addr 0x2bb21e8, size 0x194, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 AverageNormalWithIndexes(::UnityEngine::ProBuilder::SharedVertex* shared, ::ArrayW<int32_t, ::Array<int32_t>*> all,
                                                                 ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* norm);
 
-  /// @brief Method CreateMeshWithTransform, addr 0x2bb5bb0, size 0x10fc, virtual false, abstract: false, final false
+  /// @brief Method CreateMeshWithTransform, addr 0x2bb371c, size 0x10fc, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> CreateMeshWithTransform(::UnityEngine::Transform* t, bool preserveFaces);
 
-  /// @brief Method ResetPbObjectWithMeshFilter, addr 0x2bb6fa4, size 0x11d8, virtual false, abstract: false, final false
+  /// @brief Method ResetPbObjectWithMeshFilter, addr 0x2bb4b10, size 0x11d8, virtual false, abstract: false, final false
   static inline bool ResetPbObjectWithMeshFilter(::UnityEngine::ProBuilder::ProBuilderMesh* pb, bool preserveFaces);
 
-  /// @brief Method FilterUnusedSubmeshIndexes, addr 0x2bb817c, size 0x558, virtual false, abstract: false, final false
+  /// @brief Method FilterUnusedSubmeshIndexes, addr 0x2bb5ce8, size 0x558, virtual false, abstract: false, final false
   static inline void FilterUnusedSubmeshIndexes(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
 
   // Ctor Parameters [CppParam { name: "", ty: "InternalMeshUtility", modifiers: "&&", def_value: None }]

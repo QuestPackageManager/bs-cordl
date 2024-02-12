@@ -17,7 +17,7 @@ MARK_VAL_T(::OVR::OpenVR::NotificationBitmap_t);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8718))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8662))
 // CS Name: ::OVR.OpenVR::NotificationBitmap_t
 struct CORDL_TYPE NotificationBitmap_t {
 public:

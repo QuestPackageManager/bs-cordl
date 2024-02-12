@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::LowLevel::ITextInputReceiver);
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6499))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5758))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::ITextInputReceiver*
 class CORDL_TYPE ITextInputReceiver {
 public:

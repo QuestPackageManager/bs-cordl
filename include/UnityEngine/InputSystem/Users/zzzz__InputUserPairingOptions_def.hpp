@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::Users::InputUserPairingOptions);
 namespace UnityEngine::InputSystem::Users {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6367))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5626))
 // CS Name: ::UnityEngine.InputSystem.Users::InputUserPairingOptions
 struct CORDL_TYPE InputUserPairingOptions {
 public:

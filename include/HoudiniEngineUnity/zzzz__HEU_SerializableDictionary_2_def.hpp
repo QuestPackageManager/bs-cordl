@@ -47,7 +47,7 @@ namespace HoudiniEngineUnity {
 template <typename TKey, typename TValue>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9855))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9647))
 // CS Name: ::HoudiniEngineUnity::HEU_SerializableDictionary`2<TKey,TValue>*
 class CORDL_TYPE HEU_SerializableDictionary_2 : public ::System::Object {
 public:

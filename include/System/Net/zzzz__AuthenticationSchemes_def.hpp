@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::AuthenticationSchemes);
 namespace System::Net {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9056))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7066))
 // CS Name: ::System.Net::AuthenticationSchemes
 struct CORDL_TYPE AuthenticationSchemes {
 public:

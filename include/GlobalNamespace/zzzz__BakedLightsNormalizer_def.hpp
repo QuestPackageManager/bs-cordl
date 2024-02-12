@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BakedLightsNormalizer);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 54, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14513))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14407))
 // CS Name: ::BakedLightsNormalizer*
 class CORDL_TYPE BakedLightsNormalizer : public ::UnityEngine::MonoBehaviour {
 public:
@@ -103,27 +103,27 @@ public:
 
   constexpr void __cordl_internal_set__newUpdates(bool value);
 
-  /// @brief Method get_lightmapLightDict, addr 0x210e38c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightmapLightDict, addr 0x21a2b34, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__LightConstants__BakeId, ::UnityW<::GlobalNamespace::LightmapLightWithIds>>* get_lightmapLightDict();
 
-  /// @brief Method get_maxTotalIntensity, addr 0x210e394, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxTotalIntensity, addr 0x21a2b3c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_maxTotalIntensity();
 
-  /// @brief Method LateUpdate, addr 0x210e39c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x21a2b44, size 0x3c, virtual false, abstract: false, final false
   inline void LateUpdate();
 
-  /// @brief Method GetLightmapLights, addr 0x210e5fc, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method GetLightmapLights, addr 0x21a2da4, size 0x10c, virtual false, abstract: false, final false
   inline void GetLightmapLights();
 
-  /// @brief Method UpdateGrayscaleTotal, addr 0x210e3d8, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method UpdateGrayscaleTotal, addr 0x21a2b80, size 0x224, virtual false, abstract: false, final false
   inline void UpdateGrayscaleTotal();
 
-  /// @brief Method GetNormalizationMultiplier, addr 0x210e708, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetNormalizationMultiplier, addr 0x21a2eb0, size 0x48, virtual false, abstract: false, final false
   inline float_t GetNormalizationMultiplier();
 
   static inline ::GlobalNamespace::BakedLightsNormalizer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x210e750, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21a2ef8, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BakedLightsNormalizer", modifiers: "&&", def_value: None }]

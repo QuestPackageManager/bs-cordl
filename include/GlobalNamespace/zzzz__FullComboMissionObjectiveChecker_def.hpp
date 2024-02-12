@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::GlobalNamespace::FullComboMissionObjectiveChecker);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5093))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5089))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4446))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4442))
 // CS Name: ::FullComboMissionObjectiveChecker*
 class CORDL_TYPE FullComboMissionObjectiveChecker : public ::GlobalNamespace::MissionObjectiveChecker {
 public:
@@ -32,18 +32,18 @@ public:
 
   constexpr void __cordl_internal_set__comboController(::UnityW<::GlobalNamespace::ComboController> value);
 
-  /// @brief Method Init, addr 0x23cba24, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x2389228, size 0x104, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method OnDestroy, addr 0x23cbb28, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x238932c, size 0xd4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleComboBreakingEventHappened, addr 0x23cbbfc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method HandleComboBreakingEventHappened, addr 0x2389400, size 0x3c, virtual false, abstract: false, final false
   inline void HandleComboBreakingEventHappened();
 
   static inline ::GlobalNamespace::FullComboMissionObjectiveChecker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23cbc38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x238943c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FullComboMissionObjectiveChecker", modifiers: "&&", def_value: None }]

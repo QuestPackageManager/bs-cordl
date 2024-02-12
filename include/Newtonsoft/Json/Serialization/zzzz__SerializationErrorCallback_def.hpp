@@ -31,24 +31,24 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::SerializationErrorCallback);
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11938))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11836))
 // CS Name: ::Newtonsoft.Json.Serialization::SerializationErrorCallback*
 class CORDL_TYPE SerializationErrorCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::Newtonsoft::Json::Serialization::SerializationErrorCallback* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2678298, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x269b454, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x26783c8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x269b584, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* o, ::System::Runtime::Serialization::StreamingContext context, ::Newtonsoft::Json::Serialization::ErrorContext* errorContext);
 
-  /// @brief Method BeginInvoke, addr 0x26783dc, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x269b598, size 0x98, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::Object* o, ::System::Runtime::Serialization::StreamingContext context, ::Newtonsoft::Json::Serialization::ErrorContext* errorContext,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2678474, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x269b630, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "SerializationErrorCallback", modifiers: "&&", def_value: None }]

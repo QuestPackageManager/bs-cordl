@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::VRIKLODController);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12673))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12571))
 // CS Name: ::RootMotion.FinalIK::VRIKLODController*
 class CORDL_TYPE VRIKLODController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -64,18 +64,18 @@ public:
 
   constexpr void __cordl_internal_set_ik(::UnityW<::RootMotion::FinalIK::VRIK> value);
 
-  /// @brief Method Start, addr 0x129d5fc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x13356ac, size 0x50, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x129d64c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x13356fc, size 0x28, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method GetLODLevel, addr 0x129d674, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method GetLODLevel, addr 0x1335724, size 0x120, virtual false, abstract: false, final false
   inline int32_t GetLODLevel();
 
   static inline ::RootMotion::FinalIK::VRIKLODController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x129d794, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1335844, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "VRIKLODController", modifiers: "&&", def_value: None }]

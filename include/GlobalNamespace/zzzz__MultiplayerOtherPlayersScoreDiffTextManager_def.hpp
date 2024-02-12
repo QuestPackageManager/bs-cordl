@@ -51,7 +51,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerOtherPlayersScoreDiffTextManager_
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5230))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4572))
 // CS Name: ::MultiplayerOtherPlayersScoreDiffTextManager::<>c*
 class CORDL_TYPE __MultiplayerOtherPlayersScoreDiffTextManager____c : public ::System::Object {
 public:
@@ -72,10 +72,10 @@ public:
 
   static inline ::GlobalNamespace::__MultiplayerOtherPlayersScoreDiffTextManager____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2253dd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23b3d7c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Update>b__10_0, addr 0x2253de0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <Update>b__10_0, addr 0x23b3d84, size 0x14, virtual false, abstract: false, final false
   inline bool _Update_b__10_0(::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer* p);
 
   // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerOtherPlayersScoreDiffTextManager____c", modifiers: "&&", def_value: None }]
@@ -102,8 +102,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MultiplayerOt
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5231))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4573))
 // CS Name: ::MultiplayerOtherPlayersScoreDiffTextManager*
 class CORDL_TYPE MultiplayerOtherPlayersScoreDiffTextManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -174,27 +174,27 @@ public:
 
   constexpr void __cordl_internal_set__timeToNextUpdate(float_t value);
 
-  /// @brief Method Start, addr 0x2252e2c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x23b2dd0, size 0xb8, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy, addr 0x2252ee4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x23b2e88, size 0xd0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Update, addr 0x2252fb4, size 0x3d4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x23b2f58, size 0x3d4, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method InitLeftRightPositions, addr 0x2253748, size 0x4bc, virtual false, abstract: false, final false
+  /// @brief Method InitLeftRightPositions, addr 0x23b36ec, size 0x4bc, virtual false, abstract: false, final false
   inline void InitLeftRightPositions();
 
-  /// @brief Method HideAll, addr 0x2253388, size 0x3c0, virtual false, abstract: false, final false
+  /// @brief Method HideAll, addr 0x23b332c, size 0x3c0, virtual false, abstract: false, final false
   inline void HideAll();
 
-  /// @brief Method HandleStateChanged, addr 0x2253c04, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method HandleStateChanged, addr 0x23b3ba8, size 0x168, virtual false, abstract: false, final false
   inline void HandleStateChanged(::GlobalNamespace::__MultiplayerController__State newState);
 
   static inline ::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2253d6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23b3d10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerOtherPlayersScoreDiffTextManager", modifiers: "&&", def_value: None }]

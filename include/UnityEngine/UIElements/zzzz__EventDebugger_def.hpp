@@ -21,12 +21,12 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::EventDebugger);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7354))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6613))
 // CS Name: ::UnityEngine.UIElements::EventDebugger*
 class CORDL_TYPE EventDebugger : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method LogPropagationPaths, addr 0x2e83510, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method LogPropagationPaths, addr 0x2e9d8f8, size 0x4, virtual false, abstract: false, final false
   static inline void LogPropagationPaths(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::PropagationPaths* paths);
 
   // Ctor Parameters [CppParam { name: "", ty: "EventDebugger", modifiers: "&&", def_value: None }]

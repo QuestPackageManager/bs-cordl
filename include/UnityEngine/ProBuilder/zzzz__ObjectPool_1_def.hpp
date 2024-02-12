@@ -30,7 +30,7 @@ namespace UnityEngine::ProBuilder {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12147))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12045))
 // CS Name: ::UnityEngine.ProBuilder::ObjectPool`1<T>*
 class CORDL_TYPE ObjectPool_1 : public ::System::Object {
 public:

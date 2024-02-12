@@ -63,10 +63,10 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__Console__WindowsConsole__WindowsCancelHandler* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x25f75ec, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x261b4ec, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x25f76b0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x261b5b0, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(int32_t keyCode);
 
   // Ctor Parameters [CppParam { name: "", ty: "__Console__WindowsConsole__WindowsCancelHandler", modifiers: "&&", def_value: None }]
@@ -115,19 +115,19 @@ public:
 
   static inline ::GlobalNamespace::__Console__WindowsConsole__WindowsCancelHandler* getStaticF_cancelHandler();
 
-  /// @brief Method GetConsoleCP, addr 0x25f741c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetConsoleCP, addr 0x261b31c, size 0x68, virtual false, abstract: false, final false
   static inline int32_t GetConsoleCP();
 
-  /// @brief Method GetConsoleOutputCP, addr 0x25f7484, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetConsoleOutputCP, addr 0x261b384, size 0x6c, virtual false, abstract: false, final false
   static inline int32_t GetConsoleOutputCP();
 
-  /// @brief Method DoWindowsConsoleCancelEvent, addr 0x25f74f0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method DoWindowsConsoleCancelEvent, addr 0x261b3f0, size 0x60, virtual false, abstract: false, final false
   static inline bool DoWindowsConsoleCancelEvent(int32_t keyCode);
 
-  /// @brief Method GetInputCodePage, addr 0x25f6504, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetInputCodePage, addr 0x261a404, size 0x4c, virtual false, abstract: false, final false
   static inline int32_t GetInputCodePage();
 
-  /// @brief Method GetOutputCodePage, addr 0x25f6550, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetOutputCodePage, addr 0x261a450, size 0x4c, virtual false, abstract: false, final false
   static inline int32_t GetOutputCodePage();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Console__WindowsConsole", modifiers: "&&", def_value: None }]
@@ -204,49 +204,49 @@ public:
 
   static inline ::System::ConsoleCancelEventHandler* getStaticF_cancel_event();
 
-  /// @brief Method SetupStreams, addr 0x25f659c, size 0x3b0, virtual false, abstract: false, final false
+  /// @brief Method SetupStreams, addr 0x261a49c, size 0x3b0, virtual false, abstract: false, final false
   static inline void SetupStreams(::System::Text::Encoding* inputEncoding, ::System::Text::Encoding* outputEncoding);
 
-  /// @brief Method get_Error, addr 0x25f6c34, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Error, addr 0x261ab34, size 0x58, virtual false, abstract: false, final false
   static inline ::System::IO::TextWriter* get_Error();
 
-  /// @brief Method get_Out, addr 0x25f6c8c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Out, addr 0x261ab8c, size 0x58, virtual false, abstract: false, final false
   static inline ::System::IO::TextWriter* get_Out();
 
-  /// @brief Method Open, addr 0x25f6ce4, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x261abe4, size 0x15c, virtual false, abstract: false, final false
   static inline ::System::IO::Stream* Open(void* handle, ::System::IO::FileAccess access, int32_t bufferSize);
 
-  /// @brief Method OpenStandardError, addr 0x25f6ba4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OpenStandardError, addr 0x261aaa4, size 0x90, virtual false, abstract: false, final false
   static inline ::System::IO::Stream* OpenStandardError(int32_t bufferSize);
 
-  /// @brief Method OpenStandardInput, addr 0x25f6e40, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method OpenStandardInput, addr 0x261ad40, size 0x50, virtual false, abstract: false, final false
   static inline ::System::IO::Stream* OpenStandardInput();
 
-  /// @brief Method OpenStandardInput, addr 0x25f6a84, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OpenStandardInput, addr 0x261a984, size 0x90, virtual false, abstract: false, final false
   static inline ::System::IO::Stream* OpenStandardInput(int32_t bufferSize);
 
-  /// @brief Method OpenStandardOutput, addr 0x25f6b14, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OpenStandardOutput, addr 0x261aa14, size 0x90, virtual false, abstract: false, final false
   static inline ::System::IO::Stream* OpenStandardOutput(int32_t bufferSize);
 
-  /// @brief Method SetOut, addr 0x25f6e90, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method SetOut, addr 0x261ad90, size 0xe4, virtual false, abstract: false, final false
   static inline void SetOut(::System::IO::TextWriter* newOut);
 
-  /// @brief Method WriteLine, addr 0x25f6f74, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method WriteLine, addr 0x261ae74, size 0x74, virtual false, abstract: false, final false
   static inline void WriteLine(::StringW value);
 
-  /// @brief Method get_InputEncoding, addr 0x25f6fe8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_InputEncoding, addr 0x261aee8, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Text::Encoding* get_InputEncoding();
 
-  /// @brief Method get_OutputEncoding, addr 0x25f7040, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_OutputEncoding, addr 0x261af40, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Text::Encoding* get_OutputEncoding();
 
-  /// @brief Method ReadKey, addr 0x25f7098, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ReadKey, addr 0x261af98, size 0x58, virtual false, abstract: false, final false
   static inline ::System::ConsoleKeyInfo ReadKey();
 
-  /// @brief Method ReadKey, addr 0x25f70f0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ReadKey, addr 0x261aff0, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::ConsoleKeyInfo ReadKey(bool intercept);
 
-  /// @brief Method DoConsoleCancelEvent, addr 0x25f7224, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method DoConsoleCancelEvent, addr 0x261b124, size 0x1f8, virtual false, abstract: false, final false
   static inline void DoConsoleCancelEvent();
 
   // Ctor Parameters [CppParam { name: "", ty: "Console", modifiers: "&&", def_value: None }]

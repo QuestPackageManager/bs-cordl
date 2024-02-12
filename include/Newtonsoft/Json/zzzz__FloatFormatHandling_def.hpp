@@ -16,7 +16,7 @@ MARK_VAL_T(::Newtonsoft::Json::FloatFormatHandling);
 namespace Newtonsoft::Json {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11798))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11696))
 // CS Name: ::Newtonsoft.Json::FloatFormatHandling
 struct CORDL_TYPE FloatFormatHandling {
 public:

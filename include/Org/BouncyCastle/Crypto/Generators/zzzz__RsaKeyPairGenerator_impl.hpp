@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::RsaKeyPairGenerator::*)(
     ::Org::BouncyCastle::Crypto::KeyGenerationParameters*)>(&::Org::BouncyCastle::Crypto::Generators::RsaKeyPairGenerator::Init)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0xf05b2c;
+  constexpr static std::size_t addrs = 0xf309bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* (
     ::Org::BouncyCastle::Crypto::Generators::RsaKeyPairGenerator::*)()>(&::Org::BouncyCastle::Crypto::Generators::RsaKeyPairGenerator::GenerateKeyPair)> {
   constexpr static std::size_t size = 0x36c;
-  constexpr static std::size_t addrs = 0xf05c40;
+  constexpr static std::size_t addrs = 0xf30ad0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -45,7 +45,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Crypto::Generators::RsaKeyPairGenerator::*)(int32_t, ::Org::BouncyCastle::Math::BigInteger*)>(
         &::Org::BouncyCastle::Crypto::Generators::RsaKeyPairGenerator::ChooseRandomPrime)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0xf05fac;
+  constexpr static std::size_t addrs = 0xf30e3c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::RsaKeyPairGenerator::*)()>(
     &::Org::BouncyCastle::Crypto::Generators::RsaKeyPairGenerator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf06314;
+  constexpr static std::size_t addrs = 0xf311a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

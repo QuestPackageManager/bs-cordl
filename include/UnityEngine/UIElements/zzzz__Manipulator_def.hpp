@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::Manipulator);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6905))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6164))
 // CS Name: ::UnityEngine.UIElements::Manipulator*
 class CORDL_TYPE Manipulator : public ::System::Object {
 public:
@@ -49,15 +49,15 @@ public:
   /// @brief Method UnregisterCallbacksFromTarget, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UnregisterCallbacksFromTarget();
 
-  /// @brief Method get_target, addr 0x2dfef20, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_target, addr 0x2e1c308, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::VisualElement* get_target();
 
-  /// @brief Method set_target, addr 0x2dfef28, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method set_target, addr 0x2e1c310, size 0x54, virtual true, abstract: false, final true
   inline void set_target(::UnityEngine::UIElements::VisualElement* value);
 
   static inline ::UnityEngine::UIElements::Manipulator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2dfef7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e1c364, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Manipulator", modifiers: "&&", def_value: None }]

@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::UnityEngine::TextCore::Text::TextElement);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13705))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13706))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13658))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13659))
 // CS Name: ::UnityEngine.TextCore.Text::TextElement*
 class CORDL_TYPE TextElement : public ::System::Object {
 public:
@@ -98,42 +98,42 @@ public:
 
   constexpr void __cordl_internal_set_m_Scale(float_t value);
 
-  /// @brief Method get_elementType, addr 0x2d43900, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_elementType, addr 0x2d633a8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::Text::TextElementType get_elementType();
 
-  /// @brief Method get_unicode, addr 0x2d395e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_unicode, addr 0x2d59090, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_unicode();
 
-  /// @brief Method set_unicode, addr 0x2d43510, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_unicode, addr 0x2d62fb8, size 0x8, virtual false, abstract: false, final false
   inline void set_unicode(uint32_t value);
 
-  /// @brief Method get_textAsset, addr 0x2d413a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_textAsset, addr 0x2d60e4c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::TextCore::Text::TextAsset> get_textAsset();
 
-  /// @brief Method set_textAsset, addr 0x2d395f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_textAsset, addr 0x2d59098, size 0x8, virtual false, abstract: false, final false
   inline void set_textAsset(::UnityEngine::TextCore::Text::TextAsset* value);
 
-  /// @brief Method get_glyph, addr 0x2d43908, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_glyph, addr 0x2d633b0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::Glyph* get_glyph();
 
-  /// @brief Method set_glyph, addr 0x2d395f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_glyph, addr 0x2d590a0, size 0x8, virtual false, abstract: false, final false
   inline void set_glyph(::UnityEngine::TextCore::Glyph* value);
 
-  /// @brief Method get_glyphIndex, addr 0x2d38f80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_glyphIndex, addr 0x2d58a28, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_glyphIndex();
 
-  /// @brief Method set_glyphIndex, addr 0x2d43518, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_glyphIndex, addr 0x2d62fc0, size 0x8, virtual false, abstract: false, final false
   inline void set_glyphIndex(uint32_t value);
 
-  /// @brief Method get_scale, addr 0x2d43910, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_scale, addr 0x2d633b8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_scale();
 
-  /// @brief Method set_scale, addr 0x2d43508, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_scale, addr 0x2d62fb0, size 0x8, virtual false, abstract: false, final false
   inline void set_scale(float_t value);
 
   static inline ::UnityEngine::TextCore::Text::TextElement* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d43500, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d62fa8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TextElement", modifiers: "&&", def_value: None }]

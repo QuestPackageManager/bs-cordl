@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::CountdownElementController);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5559))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4865))
 // CS Name: ::CountdownElementController*
 class CORDL_TYPE CountdownElementController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -45,15 +45,15 @@ public:
 
   constexpr void __cordl_internal_set__animation(::UnityW<::UnityEngine::Animation> value);
 
-  /// @brief Method SetTextAndRunAnimation, addr 0x22a3148, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method SetTextAndRunAnimation, addr 0x23fd9dc, size 0x64, virtual false, abstract: false, final false
   inline void SetTextAndRunAnimation(::StringW text);
 
-  /// @brief Method StopAndHide, addr 0x22a32a0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method StopAndHide, addr 0x23fdb34, size 0x24, virtual false, abstract: false, final false
   inline void StopAndHide();
 
   static inline ::GlobalNamespace::CountdownElementController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22a3428, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23fdcbc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CountdownElementController", modifiers: "&&", def_value: None }]

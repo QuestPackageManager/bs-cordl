@@ -55,19 +55,19 @@ public:
 
   static inline ::System::Runtime::Remoting::ActivatedClientTypeEntry* New_ctor(::StringW typeName, ::StringW assemblyName, ::StringW appUrl);
 
-  /// @brief Method .ctor, addr 0x2484d94, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24a6e08, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::StringW typeName, ::StringW assemblyName, ::StringW appUrl);
 
-  /// @brief Method get_ApplicationUrl, addr 0x2484ecc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ApplicationUrl, addr 0x24a6f40, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ApplicationUrl();
 
-  /// @brief Method get_ContextAttributes, addr 0x2484ed4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContextAttributes, addr 0x24a6f48, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Runtime::Remoting::Contexts::IContextAttribute*, ::Array<::System::Runtime::Remoting::Contexts::IContextAttribute*>*> get_ContextAttributes();
 
-  /// @brief Method get_ObjectType, addr 0x2484edc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectType, addr 0x24a6f50, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ObjectType();
 
-  /// @brief Method ToString, addr 0x2484ee4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x24a6f58, size 0x14, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "ActivatedClientTypeEntry", modifiers: "&&", def_value: None }]

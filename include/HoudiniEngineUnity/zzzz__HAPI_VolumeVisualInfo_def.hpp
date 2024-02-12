@@ -19,8 +19,8 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_VolumeVisualInfo);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9706))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9748))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9498))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9540))
 // CS Name: ::HoudiniEngineUnity::HAPI_VolumeVisualInfo
 struct CORDL_TYPE HAPI_VolumeVisualInfo {
 public:

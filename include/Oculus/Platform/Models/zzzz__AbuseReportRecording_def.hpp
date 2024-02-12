@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::AbuseReportRecording);
 namespace Oculus::Platform::Models {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13406))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13338))
 // CS Name: ::Oculus.Platform.Models::AbuseReportRecording*
 class CORDL_TYPE AbuseReportRecording : public ::System::Object {
 public:
@@ -33,7 +33,7 @@ public:
 
   static inline ::Oculus::Platform::Models::AbuseReportRecording* New_ctor(void* o);
 
-  /// @brief Method .ctor, addr 0x27036c8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2735d7c, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "AbuseReportRecording", modifiers: "&&", def_value: None }]

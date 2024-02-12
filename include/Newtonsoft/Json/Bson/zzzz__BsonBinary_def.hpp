@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Bson::BsonBinary);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 42, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Bson {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12069)), TypeDefinitionIndex(TypeDefinitionIndex(12077))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12079))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11967)), TypeDefinitionIndex(TypeDefinitionIndex(11975))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11977))
 // CS Name: ::Newtonsoft.Json.Bson::BsonBinary*
 class CORDL_TYPE BsonBinary : public ::Newtonsoft::Json::Bson::BsonValue {
 public:
@@ -38,15 +38,15 @@ public:
 
   constexpr void __cordl_internal_set__BinaryType_k__BackingField(::Newtonsoft::Json::Bson::BsonBinaryType value);
 
-  /// @brief Method get_BinaryType, addr 0x26c842c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BinaryType, addr 0x26ea5e8, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Bson::BsonBinaryType get_BinaryType();
 
-  /// @brief Method set_BinaryType, addr 0x26c8434, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BinaryType, addr 0x26ea5f0, size 0x8, virtual false, abstract: false, final false
   inline void set_BinaryType(::Newtonsoft::Json::Bson::BsonBinaryType value);
 
   static inline ::Newtonsoft::Json::Bson::BsonBinary* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> value, ::Newtonsoft::Json::Bson::BsonBinaryType binaryType);
 
-  /// @brief Method .ctor, addr 0x26c843c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ea5f8, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> value, ::Newtonsoft::Json::Bson::BsonBinaryType binaryType);
 
   // Ctor Parameters [CppParam { name: "", ty: "BsonBinary", modifiers: "&&", def_value: None }]

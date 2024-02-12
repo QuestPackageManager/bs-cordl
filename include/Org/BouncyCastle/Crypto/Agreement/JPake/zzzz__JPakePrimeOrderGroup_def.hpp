@@ -59,22 +59,22 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup* New_ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q,
                                                                                               ::Org::BouncyCastle::Math::BigInteger* g);
 
-  /// @brief Method .ctor, addr 0x1215448, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12422d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* g);
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup* New_ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q,
                                                                                               ::Org::BouncyCastle::Math::BigInteger* g, bool skipChecks);
 
-  /// @brief Method .ctor, addr 0x1215450, size 0x330, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12422e0, size 0x330, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* g, bool skipChecks);
 
-  /// @brief Method get_P, addr 0x1215780, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_P, addr 0x1242610, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_P();
 
-  /// @brief Method get_Q, addr 0x1215788, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Q, addr 0x1242618, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Q();
 
-  /// @brief Method get_G, addr 0x1215790, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_G, addr 0x1242620, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_G();
 
   // Ctor Parameters [CppParam { name: "", ty: "JPakePrimeOrderGroup", modifiers: "&&", def_value: None }]

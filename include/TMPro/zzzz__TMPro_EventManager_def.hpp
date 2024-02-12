@@ -42,7 +42,7 @@ MARK_REF_PTR_T(::TMPro::TMPro_EventManager);
 namespace TMPro {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12312))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12210))
 // CS Name: ::TMPro::TMPro_EventManager*
 class CORDL_TYPE TMPro_EventManager : public ::System::Object {
 public:
@@ -138,40 +138,40 @@ public:
 
   static inline ::TMPro::FastAction_1<::UnityW<::UnityEngine::Object>>* getStaticF_TEXT_CHANGED_EVENT();
 
-  /// @brief Method ON_MATERIAL_PROPERTY_CHANGED, addr 0x2bfeabc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ON_MATERIAL_PROPERTY_CHANGED, addr 0x2bfb628, size 0x90, virtual false, abstract: false, final false
   static inline void ON_MATERIAL_PROPERTY_CHANGED(bool isChanged, ::UnityEngine::Material* mat);
 
-  /// @brief Method ON_FONT_PROPERTY_CHANGED, addr 0x2bfeb4c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ON_FONT_PROPERTY_CHANGED, addr 0x2bfb6b8, size 0x90, virtual false, abstract: false, final false
   static inline void ON_FONT_PROPERTY_CHANGED(bool isChanged, ::UnityEngine::Object* obj);
 
-  /// @brief Method ON_SPRITE_ASSET_PROPERTY_CHANGED, addr 0x2bfebdc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ON_SPRITE_ASSET_PROPERTY_CHANGED, addr 0x2bfb748, size 0x90, virtual false, abstract: false, final false
   static inline void ON_SPRITE_ASSET_PROPERTY_CHANGED(bool isChanged, ::UnityEngine::Object* obj);
 
-  /// @brief Method ON_TEXTMESHPRO_PROPERTY_CHANGED, addr 0x2bfec6c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ON_TEXTMESHPRO_PROPERTY_CHANGED, addr 0x2bfb7d8, size 0x90, virtual false, abstract: false, final false
   static inline void ON_TEXTMESHPRO_PROPERTY_CHANGED(bool isChanged, ::UnityEngine::Object* obj);
 
-  /// @brief Method ON_DRAG_AND_DROP_MATERIAL_CHANGED, addr 0x2bfecfc, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method ON_DRAG_AND_DROP_MATERIAL_CHANGED, addr 0x2bfb868, size 0x98, virtual false, abstract: false, final false
   static inline void ON_DRAG_AND_DROP_MATERIAL_CHANGED(::UnityEngine::GameObject* sender, ::UnityEngine::Material* currentMaterial, ::UnityEngine::Material* newMaterial);
 
-  /// @brief Method ON_TEXT_STYLE_PROPERTY_CHANGED, addr 0x2bfed94, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ON_TEXT_STYLE_PROPERTY_CHANGED, addr 0x2bfb900, size 0x80, virtual false, abstract: false, final false
   static inline void ON_TEXT_STYLE_PROPERTY_CHANGED(bool isChanged);
 
-  /// @brief Method ON_COLOR_GRADIENT_PROPERTY_CHANGED, addr 0x2bfee14, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ON_COLOR_GRADIENT_PROPERTY_CHANGED, addr 0x2bfb980, size 0x80, virtual false, abstract: false, final false
   static inline void ON_COLOR_GRADIENT_PROPERTY_CHANGED(::UnityEngine::Object* obj);
 
-  /// @brief Method ON_TEXT_CHANGED, addr 0x2bfee94, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ON_TEXT_CHANGED, addr 0x2bfba00, size 0x80, virtual false, abstract: false, final false
   static inline void ON_TEXT_CHANGED(::UnityEngine::Object* obj);
 
-  /// @brief Method ON_TMP_SETTINGS_CHANGED, addr 0x2bfef14, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ON_TMP_SETTINGS_CHANGED, addr 0x2bfba80, size 0x60, virtual false, abstract: false, final false
   static inline void ON_TMP_SETTINGS_CHANGED();
 
-  /// @brief Method ON_RESOURCES_LOADED, addr 0x2bfef74, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ON_RESOURCES_LOADED, addr 0x2bfbae0, size 0x60, virtual false, abstract: false, final false
   static inline void ON_RESOURCES_LOADED();
 
-  /// @brief Method ON_TEXTMESHPRO_UGUI_PROPERTY_CHANGED, addr 0x2bfefd4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ON_TEXTMESHPRO_UGUI_PROPERTY_CHANGED, addr 0x2bfbb40, size 0x90, virtual false, abstract: false, final false
   static inline void ON_TEXTMESHPRO_UGUI_PROPERTY_CHANGED(bool isChanged, ::UnityEngine::Object* obj);
 
-  /// @brief Method ON_COMPUTE_DT_EVENT, addr 0x2bff064, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ON_COMPUTE_DT_EVENT, addr 0x2bfbbd0, size 0x90, virtual false, abstract: false, final false
   static inline void ON_COMPUTE_DT_EVENT(::System::Object* Sender, ::TMPro::Compute_DT_EventArgs* e);
 
   // Ctor Parameters [CppParam { name: "", ty: "TMPro_EventManager", modifiers: "&&", def_value: None }]

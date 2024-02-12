@@ -52,9 +52,9 @@ MARK_VAL_T(::GlobalNamespace::__CachedMediaAsyncLoader___LoadSpriteAsync_d__3);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10291)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 777 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3402), inst: 777 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5910)) CS Name: ::CachedMediaAsyncLoader::<LoadSpriteAsync>d__3
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3398)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9037)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 779 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3398), inst: 779 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(16030)) CS Name: ::CachedMediaAsyncLoader::<LoadSpriteAsync>d__3
 struct CORDL_TYPE __CachedMediaAsyncLoader___LoadSpriteAsync_d__3 {
 public:
   // Declarations
@@ -64,10 +64,10 @@ public:
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x22fea34, size 0x2c0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2402494, size 0x2c0, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x22fecf4, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2402754, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -126,8 +126,8 @@ static_assert(offsetof(::GlobalNamespace::__CachedMediaAsyncLoader___LoadSpriteA
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5911))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16031))
 // CS Name: ::CachedMediaAsyncLoader*
 class CORDL_TYPE CachedMediaAsyncLoader : public ::UnityEngine::MonoBehaviour {
 public:
@@ -159,15 +159,15 @@ public:
 
   constexpr void __cordl_internal_set__spriteAsyncCachedLoader(::GlobalNamespace::AsyncCachedLoader_2<::StringW, ::UnityW<::UnityEngine::Sprite>>* value);
 
-  /// @brief Method ClearCache, addr 0x22fe8c8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ClearCache, addr 0x2402328, size 0x58, virtual false, abstract: false, final false
   inline void ClearCache();
 
-  /// @brief Method LoadSpriteAsync, addr 0x22fe920, size 0x104, virtual true, abstract: false, final true
+  /// @brief Method LoadSpriteAsync, addr 0x2402380, size 0x104, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>* LoadSpriteAsync(::StringW path, ::System::Threading::CancellationToken cancellationToken);
 
   static inline ::GlobalNamespace::CachedMediaAsyncLoader* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22fea24, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2402484, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CachedMediaAsyncLoader", modifiers: "&&", def_value: None }]

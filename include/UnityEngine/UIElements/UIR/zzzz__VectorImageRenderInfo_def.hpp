@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::VectorImageRenderInfo);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7399)), TypeDefinitionIndex(TypeDefinitionIndex(7433)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7399), inst: 413
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7419)) CS Name: ::UnityEngine.UIElements.UIR::VectorImageRenderInfo*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6658)), TypeDefinitionIndex(TypeDefinitionIndex(6692)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6658), inst: 415
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6678)) CS Name: ::UnityEngine.UIElements.UIR::VectorImageRenderInfo*
 class CORDL_TYPE VectorImageRenderInfo : public ::UnityEngine::UIElements::UIR::LinkedPoolItem_1<::UnityEngine::UIElements::UIR::VectorImageRenderInfo*> {
 public:
   // Declarations
@@ -51,12 +51,12 @@ public:
 
   constexpr void __cordl_internal_set_gradientSettingsAlloc(::UnityEngine::UIElements::UIR::Alloc value);
 
-  /// @brief Method Reset, addr 0x2dccea8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x2deb290, size 0x10, virtual false, abstract: false, final false
   inline void Reset();
 
   static inline ::UnityEngine::UIElements::UIR::VectorImageRenderInfo* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2dcce40, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2deb228, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "VectorImageRenderInfo", modifiers: "&&", def_value: None }]

@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::JsonISerializableContract);
 // SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 200, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11907))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11913))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11805))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11811))
 // CS Name: ::Newtonsoft.Json.Serialization::JsonISerializableContract*
 class CORDL_TYPE JsonISerializableContract : public ::Newtonsoft::Json::Serialization::JsonContainerContract {
 public:
@@ -42,15 +42,15 @@ public:
 
   constexpr void __cordl_internal_set__ISerializableCreator_k__BackingField(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* value);
 
-  /// @brief Method get_ISerializableCreator, addr 0x266e178, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ISerializableCreator, addr 0x2691334, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* get_ISerializableCreator();
 
-  /// @brief Method set_ISerializableCreator, addr 0x266e180, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ISerializableCreator, addr 0x269133c, size 0x8, virtual false, abstract: false, final false
   inline void set_ISerializableCreator(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* value);
 
   static inline ::Newtonsoft::Json::Serialization::JsonISerializableContract* New_ctor(::System::Type* underlyingType);
 
-  /// @brief Method .ctor, addr 0x266e188, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2691344, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* underlyingType);
 
   // Ctor Parameters [CppParam { name: "", ty: "JsonISerializableContract", modifiers: "&&", def_value: None }]

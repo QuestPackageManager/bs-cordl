@@ -54,7 +54,7 @@ MARK_VAL_T(::GlobalNamespace::__FlowCoordinatorAvatarsHelper___HasUserSelectedAv
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5494))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4797))
 // CS Name: ::FlowCoordinatorAvatarsHelper::<>c__DisplayClass0_0*
 class CORDL_TYPE __FlowCoordinatorAvatarsHelper____c__DisplayClass0_0 : public ::System::Object {
 public:
@@ -70,10 +70,10 @@ public:
 
   static inline ::GlobalNamespace::__FlowCoordinatorAvatarsHelper____c__DisplayClass0_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2288b40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23e393c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <HasUserSelectedAvatarSystemWithCreatedAvatar>b__0, addr 0x2288b48, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method <HasUserSelectedAvatarSystemWithCreatedAvatar>b__0, addr 0x23e3944, size 0xbc, virtual false, abstract: false, final false
   inline bool _HasUserSelectedAvatarSystemWithCreatedAvatar_b__0(::BeatSaber::AvatarCore::IAvatarSystemMetadata* system);
 
   // Ctor Parameters [CppParam { name: "", ty: "__FlowCoordinatorAvatarsHelper____c__DisplayClass0_0", modifiers: "&&", def_value: None }]
@@ -105,8 +105,8 @@ static_assert(offsetof(::GlobalNamespace::__FlowCoordinatorAvatarsHelper____c__D
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105
-// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 105 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5495)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3398)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 77
+// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3398), inst: 77 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4798)) CS Name:
 // ::FlowCoordinatorAvatarsHelper::<HasUserSelectedAvatarSystemWithCreatedAvatar>d__0
 struct CORDL_TYPE __FlowCoordinatorAvatarsHelper___HasUserSelectedAvatarSystemWithCreatedAvatar_d__0 {
 public:
@@ -117,10 +117,10 @@ public:
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x2288c04, size 0x3b4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x23e3a00, size 0x3b4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2288fb8, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x23e3db4, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -175,7 +175,7 @@ static_assert(offsetof(::GlobalNamespace::__FlowCoordinatorAvatarsHelper___HasUs
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5496))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4799))
 // CS Name: ::FlowCoordinatorAvatarsHelper*
 class CORDL_TYPE FlowCoordinatorAvatarsHelper : public ::System::Object {
 public:
@@ -184,13 +184,13 @@ public:
 
   using __c__DisplayClass0_0 = ::GlobalNamespace::__FlowCoordinatorAvatarsHelper____c__DisplayClass0_0;
 
-  /// @brief Method HasUserSelectedAvatarSystemWithCreatedAvatar, addr 0x2288588, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method HasUserSelectedAvatarSystemWithCreatedAvatar, addr 0x23e3384, size 0x104, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<bool>* HasUserSelectedAvatarSystemWithCreatedAvatar(::BeatSaber::AvatarCore::AvatarSystemCollection* avatarSystemCollection,
                                                                                                        ::GlobalNamespace::PlayerDataModel* playerDataModel);
 
   static inline ::GlobalNamespace::FlowCoordinatorAvatarsHelper* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2288b38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23e3934, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinatorAvatarsHelper", modifiers: "&&", def_value: None }]

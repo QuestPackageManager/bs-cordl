@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IBeatEffectDidFinishEvent);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4835))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4189))
 // CS Name: ::IBeatEffectDidFinishEvent*
 class CORDL_TYPE IBeatEffectDidFinishEvent {
 public:

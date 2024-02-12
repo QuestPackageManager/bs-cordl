@@ -52,7 +52,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteF
 namespace Newtonsoft::Json::Linq::JsonPath {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12012))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11910))
 // CS Name: ::ArraySliceFilter::<ExecuteFilter>d__12*
 class CORDL_TYPE __ArraySliceFilter___ExecuteFilter_d__12 : public ::System::Object {
 public:
@@ -229,31 +229,31 @@ public:
 
   static inline ::Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor, addr 0x26ac970, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ceb2c, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x26ac9d4, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x26ceb90, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext, addr 0x26ac9f0, size 0x994, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26cebac, size 0x994, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method <>m__Finally1, addr 0x26ad384, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x26cf540, size 0xb0, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<Newtonsoft.Json.Linq.JToken>.get_Current, addr 0x26ad434, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<Newtonsoft.Json.Linq.JToken>.get_Current, addr 0x26cf5f0, size 0x8, virtual true, abstract: false, final true
   inline ::Newtonsoft::Json::Linq::JToken* System_Collections_Generic_IEnumerator_Newtonsoft_Json_Linq_JToken__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x26ad43c, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x26cf5f8, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x26ad47c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x26cf638, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.Collections.Generic.IEnumerable<Newtonsoft.Json.Linq.JToken>.GetEnumerator, addr 0x26ad484, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<Newtonsoft.Json.Linq.JToken>.GetEnumerator, addr 0x26cf640, size 0xb0, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>* System_Collections_Generic_IEnumerable_Newtonsoft_Json_Linq_JToken__GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x26ad534, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x26cf6f0, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ArraySliceFilter___ExecuteFilter_d__12", modifiers: "&&", def_value: None }]
@@ -355,8 +355,8 @@ static_assert(offsetof(::Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq::JsonPath {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(12020)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 98
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(12013)) CS Name: ::Newtonsoft.Json.Linq.JsonPath::ArraySliceFilter*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(11918)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 103
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(11911)) CS Name: ::Newtonsoft.Json.Linq.JsonPath::ArraySliceFilter*
 class CORDL_TYPE ArraySliceFilter : public ::Newtonsoft::Json::Linq::JsonPath::PathFilter {
 public:
   // Declarations
@@ -395,34 +395,34 @@ public:
 
   constexpr void __cordl_internal_set__Step_k__BackingField(::System::Nullable_1<int32_t> value);
 
-  /// @brief Method get_Start, addr 0x26ac8c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Start, addr 0x26cea7c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int32_t> get_Start();
 
-  /// @brief Method set_Start, addr 0x26ac8c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Start, addr 0x26cea84, size 0x8, virtual false, abstract: false, final false
   inline void set_Start(::System::Nullable_1<int32_t> value);
 
-  /// @brief Method get_End, addr 0x26ac8d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_End, addr 0x26cea8c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int32_t> get_End();
 
-  /// @brief Method set_End, addr 0x26ac8d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_End, addr 0x26cea94, size 0x8, virtual false, abstract: false, final false
   inline void set_End(::System::Nullable_1<int32_t> value);
 
-  /// @brief Method get_Step, addr 0x26ac8e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Step, addr 0x26cea9c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int32_t> get_Step();
 
-  /// @brief Method set_Step, addr 0x26ac8e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Step, addr 0x26ceaa4, size 0x8, virtual false, abstract: false, final false
   inline void set_Step(::System::Nullable_1<int32_t> value);
 
-  /// @brief Method ExecuteFilter, addr 0x26ac8f0, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method ExecuteFilter, addr 0x26ceaac, size 0x80, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* ExecuteFilter(::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* current,
                                                                                                          bool errorWhenNoMatch);
 
-  /// @brief Method IsValid, addr 0x26ac9b4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x26ceb70, size 0x18, virtual false, abstract: false, final false
   inline bool IsValid(int32_t index, int32_t stopIndex, bool positiveStep);
 
   static inline ::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26ac9cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ceb88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ArraySliceFilter", modifiers: "&&", def_value: None }]

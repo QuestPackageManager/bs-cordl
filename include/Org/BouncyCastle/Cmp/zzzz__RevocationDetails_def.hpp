@@ -46,19 +46,19 @@ public:
 
   static inline ::Org::BouncyCastle::Cmp::RevocationDetails* New_ctor(::Org::BouncyCastle::Asn1::Cmp::RevDetails* revDetails);
 
-  /// @brief Method .ctor, addr 0x11d7ea4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1205d34, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cmp::RevDetails* revDetails);
 
-  /// @brief Method get_Subject, addr 0x11d7ecc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Subject, addr 0x1205d5c, size 0x30, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Name* get_Subject();
 
-  /// @brief Method get_Issuer, addr 0x11d7efc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Issuer, addr 0x1205d8c, size 0x30, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Name* get_Issuer();
 
-  /// @brief Method get_SerialNumber, addr 0x11d7f2c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_SerialNumber, addr 0x1205dbc, size 0x3c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_SerialNumber();
 
-  /// @brief Method ToASN1Structure, addr 0x11d7f68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToASN1Structure, addr 0x1205df8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::RevDetails* ToASN1Structure();
 
   // Ctor Parameters [CppParam { name: "", ty: "RevocationDetails", modifiers: "&&", def_value: None }]

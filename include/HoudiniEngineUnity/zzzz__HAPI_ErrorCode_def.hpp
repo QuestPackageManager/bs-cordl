@@ -16,7 +16,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_ErrorCode);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9690))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9482))
 // CS Name: ::HoudiniEngineUnity::HAPI_ErrorCode
 struct CORDL_TYPE HAPI_ErrorCode {
 public:

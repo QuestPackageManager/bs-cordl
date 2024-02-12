@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::System::Net::NclUtilities);
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9074))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7084))
 // CS Name: ::System.Net::NclUtilities*
 class CORDL_TYPE NclUtilities : public ::System::Object {
 public:
@@ -55,19 +55,19 @@ public:
 
   static inline ::StringW getStaticF__LocalDomainName();
 
-  /// @brief Method IsFatal, addr 0x299d724, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method IsFatal, addr 0x29a21c8, size 0xc0, virtual false, abstract: false, final false
   static inline bool IsFatal(::System::Exception* exception);
 
-  /// @brief Method IsAddressLocal, addr 0x299d7e4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method IsAddressLocal, addr 0x29a2288, size 0x8c, virtual false, abstract: false, final false
   static inline bool IsAddressLocal(::System::Net::IPAddress* ipAddress);
 
-  /// @brief Method GetLocalHost, addr 0x299dd2c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetLocalHost, addr 0x29a27d0, size 0x18, virtual false, abstract: false, final false
   static inline ::System::Net::IPHostEntry* GetLocalHost();
 
-  /// @brief Method get_LocalAddresses, addr 0x299d870, size 0x4bc, virtual false, abstract: false, final false
+  /// @brief Method get_LocalAddresses, addr 0x29a2314, size 0x4bc, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*> get_LocalAddresses();
 
-  /// @brief Method get_LocalAddressesLock, addr 0x299dd44, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method get_LocalAddressesLock, addr 0x29a27e8, size 0xa4, virtual false, abstract: false, final false
   static inline ::System::Object* get_LocalAddressesLock();
 
   // Ctor Parameters [CppParam { name: "", ty: "NclUtilities", modifiers: "&&", def_value: None }]

@@ -66,7 +66,7 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::OVRInputModule);
 namespace UnityEngine::EventSystems {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8738))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8678))
 // CS Name: ::OVRInputModule::InputMode
 struct CORDL_TYPE __OVRInputModule__InputMode {
 public:
@@ -115,8 +115,8 @@ static_assert(offsetof(::UnityEngine::EventSystems::__OVRInputModule__InputMode,
 // SizeInfo { instance_size: 240, native_size: -1, calculated_instance_size: 240, calculated_native_size: 240, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7587)), TypeDefinitionIndex(TypeDefinitionIndex(10058)), TypeDefinitionIndex(TypeDefinitionIndex(10243)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13203))] Self: TypeDefinitionIndex(TypeDefinitionIndex(8739)) CS Name: ::UnityEngine.EventSystems::OVRInputModule*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7656)), TypeDefinitionIndex(TypeDefinitionIndex(8790)), TypeDefinitionIndex(TypeDefinitionIndex(8987)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13101))] Self: TypeDefinitionIndex(TypeDefinitionIndex(8679)) CS Name: ::UnityEngine.EventSystems::OVRInputModule*
 class CORDL_TYPE OVRInputModule : public ::UnityEngine::EventSystems::PointerInputModule {
 public:
   // Declarations
@@ -365,127 +365,127 @@ public:
 
   static inline ::UnityEngine::EventSystems::OVRInputModule* New_ctor();
 
-  /// @brief Method .ctor, addr 0x27f87b8, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2805c4c, size 0x16c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_inputMode, addr 0x27f8924, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_inputMode, addr 0x2805db8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::EventSystems::__OVRInputModule__InputMode get_inputMode();
 
-  /// @brief Method get_allowActivationOnMobileDevice, addr 0x27f892c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_allowActivationOnMobileDevice, addr 0x2805dc0, size 0x8, virtual false, abstract: false, final false
   inline bool get_allowActivationOnMobileDevice();
 
-  /// @brief Method set_allowActivationOnMobileDevice, addr 0x27f8934, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_allowActivationOnMobileDevice, addr 0x2805dc8, size 0xc, virtual false, abstract: false, final false
   inline void set_allowActivationOnMobileDevice(bool value);
 
-  /// @brief Method get_inputActionsPerSecond, addr 0x27f8940, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_inputActionsPerSecond, addr 0x2805dd4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_inputActionsPerSecond();
 
-  /// @brief Method set_inputActionsPerSecond, addr 0x27f8948, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_inputActionsPerSecond, addr 0x2805ddc, size 0x8, virtual false, abstract: false, final false
   inline void set_inputActionsPerSecond(float_t value);
 
-  /// @brief Method get_horizontalAxis, addr 0x27f8950, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_horizontalAxis, addr 0x2805de4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_horizontalAxis();
 
-  /// @brief Method set_horizontalAxis, addr 0x27f8958, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_horizontalAxis, addr 0x2805dec, size 0x8, virtual false, abstract: false, final false
   inline void set_horizontalAxis(::StringW value);
 
-  /// @brief Method get_verticalAxis, addr 0x27f8960, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_verticalAxis, addr 0x2805df4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_verticalAxis();
 
-  /// @brief Method set_verticalAxis, addr 0x27f8968, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_verticalAxis, addr 0x2805dfc, size 0x8, virtual false, abstract: false, final false
   inline void set_verticalAxis(::StringW value);
 
-  /// @brief Method get_submitButton, addr 0x27f8970, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_submitButton, addr 0x2805e04, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_submitButton();
 
-  /// @brief Method set_submitButton, addr 0x27f8978, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_submitButton, addr 0x2805e0c, size 0x8, virtual false, abstract: false, final false
   inline void set_submitButton(::StringW value);
 
-  /// @brief Method get_cancelButton, addr 0x27f8980, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cancelButton, addr 0x2805e14, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_cancelButton();
 
-  /// @brief Method set_cancelButton, addr 0x27f8988, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_cancelButton, addr 0x2805e1c, size 0x8, virtual false, abstract: false, final false
   inline void set_cancelButton(::StringW value);
 
-  /// @brief Method UpdateModule, addr 0x27f8990, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method UpdateModule, addr 0x2805e24, size 0x24, virtual true, abstract: false, final false
   inline void UpdateModule();
 
-  /// @brief Method IsModuleSupported, addr 0x27f89b4, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method IsModuleSupported, addr 0x2805e48, size 0x18, virtual true, abstract: false, final false
   inline bool IsModuleSupported();
 
-  /// @brief Method ShouldActivateModule, addr 0x27f89cc, size 0x188, virtual true, abstract: false, final false
+  /// @brief Method ShouldActivateModule, addr 0x2805e60, size 0x188, virtual true, abstract: false, final false
   inline bool ShouldActivateModule();
 
-  /// @brief Method ActivateModule, addr 0x27f8b54, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method ActivateModule, addr 0x2805fe8, size 0xcc, virtual true, abstract: false, final false
   inline void ActivateModule();
 
-  /// @brief Method DeactivateModule, addr 0x27f8c20, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method DeactivateModule, addr 0x28060b4, size 0x1c, virtual true, abstract: false, final false
   inline void DeactivateModule();
 
-  /// @brief Method SendSubmitEventToSelectedObject, addr 0x27f8f30, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method SendSubmitEventToSelectedObject, addr 0x28063c4, size 0x1e8, virtual false, abstract: false, final false
   inline bool SendSubmitEventToSelectedObject();
 
-  /// @brief Method AllowMoveEventProcessing, addr 0x27f9118, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method AllowMoveEventProcessing, addr 0x28065ac, size 0x5c, virtual false, abstract: false, final false
   inline bool AllowMoveEventProcessing(float_t time);
 
-  /// @brief Method GetRawMoveVector, addr 0x27f9174, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetRawMoveVector, addr 0x2806608, size 0xbc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 GetRawMoveVector();
 
-  /// @brief Method SendMoveEventToSelectedObject, addr 0x27f9230, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method SendMoveEventToSelectedObject, addr 0x28066c4, size 0x204, virtual false, abstract: false, final false
   inline bool SendMoveEventToSelectedObject();
 
-  /// @brief Method SendUpdateEventToSelectedObject, addr 0x27f9434, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method SendUpdateEventToSelectedObject, addr 0x28068c8, size 0x148, virtual false, abstract: false, final false
   inline bool SendUpdateEventToSelectedObject();
 
-  /// @brief Method ProcessMousePress, addr 0x27f957c, size 0x64c, virtual false, abstract: false, final false
+  /// @brief Method ProcessMousePress, addr 0x2806a10, size 0x64c, virtual false, abstract: false, final false
   inline void ProcessMousePress(::UnityEngine::EventSystems::__PointerInputModule__MouseButtonEventData* data);
 
-  /// @brief Method ProcessMouseEvent, addr 0x27f9ccc, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method ProcessMouseEvent, addr 0x2807160, size 0x2c8, virtual false, abstract: false, final false
   inline void ProcessMouseEvent(::UnityEngine::EventSystems::__PointerInputModule__MouseState* mouseData);
 
-  /// @brief Method Process, addr 0x27f9fd4, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method Process, addr 0x2807468, size 0x64, virtual true, abstract: false, final false
   inline void Process();
 
-  /// @brief Method UseMouse, addr 0x27f9f94, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method UseMouse, addr 0x2807428, size 0x40, virtual false, abstract: false, final false
   static inline bool UseMouse(bool pressed, bool released, ::UnityEngine::EventSystems::PointerEventData* pointerData);
 
-  /// @brief Method CopyFromTo, addr 0x27fa06c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method CopyFromTo, addr 0x2807500, size 0x68, virtual false, abstract: false, final false
   inline void CopyFromTo(::UnityEngine::EventSystems::OVRPointerEventData* from, ::UnityEngine::EventSystems::OVRPointerEventData* to);
 
-  /// @brief Method CopyFromTo, addr 0x27fa0d4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CopyFromTo, addr 0x2807568, size 0x58, virtual false, abstract: false, final false
   inline void CopyFromTo(::UnityEngine::EventSystems::PointerEventData* from, ::UnityEngine::EventSystems::PointerEventData* to);
 
-  /// @brief Method GetPointerData, addr 0x27fa12c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetPointerData, addr 0x28075c0, size 0xec, virtual false, abstract: false, final false
   inline bool GetPointerData(int32_t id, ByRef<::UnityEngine::EventSystems::OVRPointerEventData*> data, bool create);
 
-  /// @brief Method ClearSelection, addr 0x27f8c3c, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method ClearSelection, addr 0x28060d0, size 0x2f4, virtual false, abstract: false, final false
   inline void ClearSelection();
 
-  /// @brief Method GetRectTransformNormal, addr 0x27fa220, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method GetRectTransformNormal, addr 0x28076b4, size 0x1a4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 GetRectTransformNormal(::UnityEngine::RectTransform* rectTransform);
 
-  /// @brief Method GetGazePointerData, addr 0x27fa3c4, size 0x674, virtual true, abstract: false, final false
+  /// @brief Method GetGazePointerData, addr 0x2807858, size 0x674, virtual true, abstract: false, final false
   inline ::UnityEngine::EventSystems::__PointerInputModule__MouseState* GetGazePointerData();
 
-  /// @brief Method GetCanvasPointerData, addr 0x27faf54, size 0x3a4, virtual false, abstract: false, final false
+  /// @brief Method GetCanvasPointerData, addr 0x28083e8, size 0x3a4, virtual false, abstract: false, final false
   inline ::UnityEngine::EventSystems::__PointerInputModule__MouseState* GetCanvasPointerData();
 
-  /// @brief Method ShouldStartDrag, addr 0x27fb2f8, size 0x338, virtual false, abstract: false, final false
+  /// @brief Method ShouldStartDrag, addr 0x280878c, size 0x338, virtual false, abstract: false, final false
   inline bool ShouldStartDrag(::UnityEngine::EventSystems::PointerEventData* pointerEvent);
 
-  /// @brief Method IsPointerMoving, addr 0x27fa038, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method IsPointerMoving, addr 0x28074cc, size 0x34, virtual false, abstract: false, final false
   static inline bool IsPointerMoving(::UnityEngine::EventSystems::PointerEventData* pointerEvent);
 
-  /// @brief Method SwipeAdjustedPosition, addr 0x27fb6ac, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method SwipeAdjustedPosition, addr 0x2808b40, size 0x88, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 SwipeAdjustedPosition(::UnityEngine::Vector2 originalPosition, ::UnityEngine::EventSystems::PointerEventData* pointerEvent);
 
-  /// @brief Method ProcessDrag, addr 0x27fb734, size 0x2fc, virtual true, abstract: false, final false
+  /// @brief Method ProcessDrag, addr 0x2808bc8, size 0x2fc, virtual true, abstract: false, final false
   inline void ProcessDrag(::UnityEngine::EventSystems::PointerEventData* pointerEvent);
 
-  /// @brief Method GetGazeButtonState, addr 0x27fba30, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method GetGazeButtonState, addr 0x2808ec4, size 0x110, virtual true, abstract: false, final false
   inline ::UnityEngine::EventSystems::__PointerEventData__FramePressState GetGazeButtonState();
 
-  /// @brief Method GetExtraScrollDelta, addr 0x27faa38, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetExtraScrollDelta, addr 0x2807ecc, size 0x94, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 GetExtraScrollDelta();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRInputModule", modifiers: "&&", def_value: None }]

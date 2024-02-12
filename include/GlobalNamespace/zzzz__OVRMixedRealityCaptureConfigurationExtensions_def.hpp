@@ -18,15 +18,15 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRMixedRealityCaptureConfigurationExtensions)
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8134))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8091))
 // CS Name: ::OVRMixedRealityCaptureConfigurationExtensions*
 class CORDL_TYPE OVRMixedRealityCaptureConfigurationExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ApplyTo, addr 0x27b1fdc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ApplyTo, addr 0x27c29b8, size 0x4, virtual false, abstract: false, final false
   static inline void ApplyTo(::GlobalNamespace::OVRMixedRealityCaptureConfiguration* dest, ::GlobalNamespace::OVRMixedRealityCaptureConfiguration* source);
 
-  /// @brief Method ReadFrom, addr 0x27b1fe0, size 0x1428, virtual false, abstract: false, final false
+  /// @brief Method ReadFrom, addr 0x27c29bc, size 0x1428, virtual false, abstract: false, final false
   static inline void ReadFrom(::GlobalNamespace::OVRMixedRealityCaptureConfiguration* dest, ::GlobalNamespace::OVRMixedRealityCaptureConfiguration* source);
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRMixedRealityCaptureConfigurationExtensions", modifiers: "&&", def_value: None }]

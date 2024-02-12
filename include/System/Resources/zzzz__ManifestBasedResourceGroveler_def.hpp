@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::System::Resources::ManifestBasedResourceGroveler);
 namespace System::Resources {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3435))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3431))
 // CS Name: ::System.Resources::ManifestBasedResourceGroveler*
 class CORDL_TYPE ManifestBasedResourceGroveler : public ::System::Object {
 public:
@@ -55,13 +55,13 @@ public:
 
   static inline ::System::Resources::ManifestBasedResourceGroveler* New_ctor(::System::Resources::__ResourceManager__ResourceManagerMediator* mediator);
 
-  /// @brief Method .ctor, addr 0x24e0f8c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24ff648, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Resources::__ResourceManager__ResourceManagerMediator* mediator);
 
-  /// @brief Method GetNeutralResourcesLanguage, addr 0x24e0fb4, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method GetNeutralResourcesLanguage, addr 0x24ff670, size 0x320, virtual false, abstract: false, final false
   static inline ::System::Globalization::CultureInfo* GetNeutralResourcesLanguage(::System::Reflection::Assembly* a, ByRef<::System::Resources::UltimateResourceFallbackLocation> fallbackLocation);
 
-  /// @brief Method GetNeutralResourcesLanguageAttribute, addr 0x24e12d4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetNeutralResourcesLanguageAttribute, addr 0x24ff990, size 0x74, virtual false, abstract: false, final false
   static inline bool GetNeutralResourcesLanguageAttribute(::System::Reflection::Assembly* assembly, ByRef<::StringW> cultureName, ByRef<int16_t> fallbackLocation);
 
   // Ctor Parameters [CppParam { name: "", ty: "ManifestBasedResourceGroveler", modifiers: "&&", def_value: None }]

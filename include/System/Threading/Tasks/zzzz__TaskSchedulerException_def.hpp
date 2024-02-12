@@ -31,17 +31,17 @@ public:
   // Declarations
   static inline ::System::Threading::Tasks::TaskSchedulerException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2620cfc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2646e78, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Threading::Tasks::TaskSchedulerException* New_ctor(::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x2620d6c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2646ee8, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Exception* innerException);
 
   static inline ::System::Threading::Tasks::TaskSchedulerException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x2620dec, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2646f68, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "TaskSchedulerException", modifiers: "&&", def_value: None }]

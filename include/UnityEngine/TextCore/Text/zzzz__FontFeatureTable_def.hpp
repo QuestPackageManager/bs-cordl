@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::UnityEngine::TextCore::Text::__FontFeatureTable____c);
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13702))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13655))
 // CS Name: ::FontFeatureTable::<>c*
 class CORDL_TYPE __FontFeatureTable____c : public ::System::Object {
 public:
@@ -63,13 +63,13 @@ public:
 
   static inline ::UnityEngine::TextCore::Text::__FontFeatureTable____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d4366c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d63114, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <SortGlyphPairAdjustmentRecords>b__6_0, addr 0x2d43674, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method <SortGlyphPairAdjustmentRecords>b__6_0, addr 0x2d6311c, size 0x48, virtual false, abstract: false, final false
   inline uint32_t _SortGlyphPairAdjustmentRecords_b__6_0(::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord s);
 
-  /// @brief Method <SortGlyphPairAdjustmentRecords>b__6_1, addr 0x2d436bc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method <SortGlyphPairAdjustmentRecords>b__6_1, addr 0x2d63164, size 0x48, virtual false, abstract: false, final false
   inline uint32_t _SortGlyphPairAdjustmentRecords_b__6_1(::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord s);
 
   // Ctor Parameters [CppParam { name: "", ty: "__FontFeatureTable____c", modifiers: "&&", def_value: None }]
@@ -97,7 +97,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::__F
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13703))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13656))
 // CS Name: ::UnityEngine.TextCore.Text::FontFeatureTable*
 class CORDL_TYPE FontFeatureTable : public ::System::Object {
 public:
@@ -129,15 +129,15 @@ public:
 
   constexpr void __cordl_internal_set_m_GlyphPairAdjustmentRecordLookup(::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>* value);
 
-  /// @brief Method get_glyphPairAdjustmentRecords, addr 0x2d3f20c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_glyphPairAdjustmentRecords, addr 0x2d5ecb4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>* get_glyphPairAdjustmentRecords();
 
   static inline ::UnityEngine::TextCore::Text::FontFeatureTable* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d3e8b4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d5e35c, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method SortGlyphPairAdjustmentRecords, addr 0x2d39cb4, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method SortGlyphPairAdjustmentRecords, addr 0x2d5975c, size 0x1ec, virtual false, abstract: false, final false
   inline void SortGlyphPairAdjustmentRecords();
 
   // Ctor Parameters [CppParam { name: "", ty: "FontFeatureTable", modifiers: "&&", def_value: None }]

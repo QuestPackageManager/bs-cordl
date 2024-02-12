@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::VisualElementAsset);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6823))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7013))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6082))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6272))
 // CS Name: ::UnityEngine.UIElements::VisualElementAsset*
 class CORDL_TYPE VisualElementAsset : public ::System::Object {
 public:
@@ -178,49 +178,49 @@ public:
 
   constexpr void __cordl_internal_set_m_Properties(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method get_id, addr 0x2e122c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x2e2f6a8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_id();
 
-  /// @brief Method get_orderInDocument, addr 0x2e131d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_orderInDocument, addr 0x2e305b8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_orderInDocument();
 
-  /// @brief Method get_parentId, addr 0x2e12094, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_parentId, addr 0x2e2f47c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_parentId();
 
-  /// @brief Method get_ruleIndex, addr 0x2e1318c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ruleIndex, addr 0x2e30574, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ruleIndex();
 
-  /// @brief Method get_fullTypeName, addr 0x2e13454, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fullTypeName, addr 0x2e3083c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_fullTypeName();
 
-  /// @brief Method get_classes, addr 0x2e13658, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_classes, addr 0x2e30a40, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_classes();
 
-  /// @brief Method get_stylesheetPaths, addr 0x2e13670, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_stylesheetPaths, addr 0x2e30a58, size 0x80, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::StringW>* get_stylesheetPaths();
 
-  /// @brief Method get_hasStylesheetPaths, addr 0x2e13660, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_hasStylesheetPaths, addr 0x2e30a48, size 0x10, virtual false, abstract: false, final false
   inline bool get_hasStylesheetPaths();
 
-  /// @brief Method get_stylesheets, addr 0x2e13700, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_stylesheets, addr 0x2e30ae8, size 0x80, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* get_stylesheets();
 
-  /// @brief Method get_hasStylesheets, addr 0x2e136f0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_hasStylesheets, addr 0x2e30ad8, size 0x10, virtual false, abstract: false, final false
   inline bool get_hasStylesheets();
 
-  /// @brief Method OnBeforeSerialize, addr 0x2e14ad4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method OnBeforeSerialize, addr 0x2e31ebc, size 0x4, virtual true, abstract: false, final true
   inline void OnBeforeSerialize();
 
-  /// @brief Method OnAfterDeserialize, addr 0x2e14ad8, size 0x188, virtual true, abstract: false, final true
+  /// @brief Method OnAfterDeserialize, addr 0x2e31ec0, size 0x188, virtual true, abstract: false, final true
   inline void OnAfterDeserialize();
 
-  /// @brief Method AddProperty, addr 0x2e14c60, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method AddProperty, addr 0x2e32048, size 0x4, virtual false, abstract: false, final false
   inline void AddProperty(::StringW propertyName, ::StringW propertyValue);
 
-  /// @brief Method SetOrAddProperty, addr 0x2e14c64, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method SetOrAddProperty, addr 0x2e3204c, size 0x210, virtual false, abstract: false, final false
   inline void SetOrAddProperty(::StringW propertyName, ::StringW propertyValue);
 
-  /// @brief Method TryGetAttributeValue, addr 0x2e14e74, size 0xd0, virtual true, abstract: false, final true
+  /// @brief Method TryGetAttributeValue, addr 0x2e3225c, size 0xd0, virtual true, abstract: false, final true
   inline bool TryGetAttributeValue(::StringW propertyName, ByRef<::StringW> value);
 
   // Ctor Parameters [CppParam { name: "", ty: "VisualElementAsset", modifiers: "&&", def_value: None }]

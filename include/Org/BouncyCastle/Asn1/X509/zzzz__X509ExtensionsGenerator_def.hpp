@@ -57,24 +57,24 @@ public:
 
   constexpr void __cordl_internal_set_extOrdering(::System::Collections::IList* value);
 
-  /// @brief Method Reset, addr 0x11a10a8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x11cef38, size 0x68, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method AddExtension, addr 0x11a1110, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method AddExtension, addr 0x11cefa0, size 0x114, virtual false, abstract: false, final false
   inline void AddExtension(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, bool critical, ::Org::BouncyCastle::Asn1::Asn1Encodable* extValue);
 
-  /// @brief Method AddExtension, addr 0x11a1224, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method AddExtension, addr 0x11cf0b4, size 0x28c, virtual false, abstract: false, final false
   inline void AddExtension(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, bool critical, ::ArrayW<uint8_t, ::Array<uint8_t>*> extValue);
 
-  /// @brief Method get_IsEmpty, addr 0x11a14b0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method get_IsEmpty, addr 0x11cf340, size 0xb0, virtual false, abstract: false, final false
   inline bool get_IsEmpty();
 
-  /// @brief Method Generate, addr 0x11a1560, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x11cf3f0, size 0x68, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* Generate();
 
   static inline ::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x11a15c8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11cf458, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "X509ExtensionsGenerator", modifiers: "&&", def_value: None }]

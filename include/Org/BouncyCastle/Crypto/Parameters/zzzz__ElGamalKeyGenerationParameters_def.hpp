@@ -41,13 +41,13 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Parameters::ElGamalKeyGenerationParameters* New_ctor(::Org::BouncyCastle::Security::SecureRandom* random,
                                                                                                   ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* parameters);
 
-  /// @brief Method .ctor, addr 0xf355dc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf6046c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* random, ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* parameters);
 
-  /// @brief Method get_Parameters, addr 0xf3564c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parameters, addr 0xf604dc, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* get_Parameters();
 
-  /// @brief Method GetStrength, addr 0xf35618, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetStrength, addr 0xf604a8, size 0x34, virtual false, abstract: false, final false
   static inline int32_t GetStrength(::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* parameters);
 
   // Ctor Parameters [CppParam { name: "", ty: "ElGamalKeyGenerationParameters", modifiers: "&&", def_value: None }]

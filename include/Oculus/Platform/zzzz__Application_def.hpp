@@ -7,12 +7,6 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Application)
 namespace Oculus::Platform::Models {
-class AppDownloadProgressResult;
-}
-namespace Oculus::Platform::Models {
-class AppDownloadResult;
-}
-namespace Oculus::Platform::Models {
 class ApplicationVersion;
 }
 namespace Oculus::Platform {
@@ -32,28 +26,16 @@ MARK_REF_PTR_T(::Oculus::Platform::Application);
 namespace Oculus::Platform {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13356))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13282))
 // CS Name: ::Oculus.Platform::Application*
 class CORDL_TYPE Application : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CancelAppDownload, addr 0x26fadc8, size 0x158, virtual false, abstract: false, final false
-  static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AppDownloadResult*>* CancelAppDownload();
-
-  /// @brief Method CheckAppDownloadProgress, addr 0x26faf20, size 0x158, virtual false, abstract: false, final false
-  static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AppDownloadProgressResult*>* CheckAppDownloadProgress();
-
-  /// @brief Method GetVersion, addr 0x26fb078, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetVersion, addr 0x272a6b4, size 0x158, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::ApplicationVersion*>* GetVersion();
 
-  /// @brief Method InstallAppUpdateAndRelaunch, addr 0x26fb1d0, size 0x1a0, virtual false, abstract: false, final false
-  static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AppDownloadResult*>* InstallAppUpdateAndRelaunch(::Oculus::Platform::ApplicationOptions* deeplink_options);
-
-  /// @brief Method LaunchOtherApp, addr 0x26fb370, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method LaunchOtherApp, addr 0x272a80c, size 0x1b0, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::StringW>* LaunchOtherApp(uint64_t appID, ::Oculus::Platform::ApplicationOptions* deeplink_options);
-
-  /// @brief Method StartAppDownload, addr 0x26fb520, size 0x158, virtual false, abstract: false, final false
-  static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AppDownloadResult*>* StartAppDownload();
 
   // Ctor Parameters [CppParam { name: "", ty: "Application", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

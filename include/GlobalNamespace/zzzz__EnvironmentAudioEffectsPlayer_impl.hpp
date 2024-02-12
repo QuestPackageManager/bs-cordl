@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::AudioSource> (::GlobalNamespace::EnvironmentAudioEffectsPlayer::*)()>(
     &::GlobalNamespace::EnvironmentAudioEffectsPlayer::get_audioSource)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x222d348;
+  constexpr static std::size_t addrs = 0x22b6ff4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentAudioEffectsPlayer*>::get(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentAudioEffectsPlayer::*)(::UnityEngine::AudioClip*, float_t)>(
     &::GlobalNamespace::EnvironmentAudioEffectsPlayer::PlayEffect)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x222d350;
+  constexpr static std::size_t addrs = 0x22b6ffc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentAudioEffectsPlayer::*)()>(
     &::GlobalNamespace::EnvironmentAudioEffectsPlayer::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x222d3b4;
+  constexpr static std::size_t addrs = 0x22b7060;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentAudioEffectsPlayer*>::get(),

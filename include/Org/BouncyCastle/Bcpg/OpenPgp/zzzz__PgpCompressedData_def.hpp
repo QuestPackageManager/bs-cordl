@@ -45,16 +45,16 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpCompressedData* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput);
 
-  /// @brief Method .ctor, addr 0x10a52ac, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10d213c, size 0x120, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput);
 
-  /// @brief Method get_Algorithm, addr 0x10a53cc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Algorithm, addr 0x10d225c, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag get_Algorithm();
 
-  /// @brief Method GetInputStream, addr 0x10a53e8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetInputStream, addr 0x10d2278, size 0x1c, virtual false, abstract: false, final false
   inline ::System::IO::Stream* GetInputStream();
 
-  /// @brief Method GetDataStream, addr 0x10a5404, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method GetDataStream, addr 0x10d2294, size 0x178, virtual false, abstract: false, final false
   inline ::System::IO::Stream* GetDataStream();
 
   // Ctor Parameters [CppParam { name: "", ty: "PgpCompressedData", modifiers: "&&", def_value: None }]

@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::*)(int32_t)>(
     &::GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x224edb8;
+  constexpr static std::size_t addrs = 0x23ad204;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::*)()>(
     &::GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x224efbc;
+  constexpr static std::size_t addrs = 0x23ad408;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::*)()>(
     &::GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::MoveNext)> {
   constexpr static std::size_t size = 0x320;
-  constexpr static std::size_t addrs = 0x224efc0;
+  constexpr static std::size_t addrs = 0x23ad40c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::*)()>(
     &::GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x224f2ec;
+  constexpr static std::size_t addrs = 0x23ad738;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::*)()>(
     &::GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x224f2f4;
+  constexpr static std::size_t addrs = 0x23ad740;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::*)()>(
     &::GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x224f334;
+  constexpr static std::size_t addrs = 0x23ad780;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -260,7 +260,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::*)(int32_t)>(
     &::GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x224ee64;
+  constexpr static std::size_t addrs = 0x23ad2b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -275,7 +275,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::*)()>(
     &::GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x224f33c;
+  constexpr static std::size_t addrs = 0x23ad788;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -290,7 +290,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::*)()>(
     &::GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::MoveNext)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x224f340;
+  constexpr static std::size_t addrs = 0x23ad78c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -305,7 +305,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::*)()>(
     &::GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x224f404;
+  constexpr static std::size_t addrs = 0x23ad850;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -320,7 +320,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::*)()>(
     &::GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x224f40c;
+  constexpr static std::size_t addrs = 0x23ad858;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -335,7 +335,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::*)()>(
     &::GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x224f44c;
+  constexpr static std::size_t addrs = 0x23ad898;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -476,7 +476,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0::*)()>(
     &::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x224f454;
+  constexpr static std::size_t addrs = 0x23ad8a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -491,7 +491,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0::*)(float_t)>(
     &::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0::_PhaseRoutine_b__0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x224f45c;
+  constexpr static std::size_t addrs = 0x23ad8a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -506,7 +506,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0::*)(float_t)>(
     &::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0::_PhaseRoutine_b__1)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x224f4e4;
+  constexpr static std::size_t addrs = 0x23ad930;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -521,7 +521,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0::*)(::UnityEngine::Vector3)>(
     &::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0::_PhaseRoutine_b__2)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x224f580;
+  constexpr static std::size_t addrs = 0x23ad9cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -536,7 +536,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0::*)(float_t)>(
     &::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0::_PhaseRoutine_b__3)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x224f5d0;
+  constexpr static std::size_t addrs = 0x23ada1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -551,7 +551,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0::*)(float_t)>(
     &::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0::_PhaseRoutine_b__4)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x224f680;
+  constexpr static std::size_t addrs = 0x23adacc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -631,7 +631,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::*)(int32_t)>(
     &::GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x224ef14;
+  constexpr static std::size_t addrs = 0x23ad360;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -646,7 +646,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::*)()>(
     &::GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x224f698;
+  constexpr static std::size_t addrs = 0x23adae4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -661,7 +661,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::*)()>(
     &::GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::MoveNext)> {
   constexpr static std::size_t size = 0x578;
-  constexpr static std::size_t addrs = 0x224f69c;
+  constexpr static std::size_t addrs = 0x23adae8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -676,7 +676,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::*)()>(
     &::GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x224fc84;
+  constexpr static std::size_t addrs = 0x23ae0d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -691,7 +691,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::*)()>(
     &::GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x224fc8c;
+  constexpr static std::size_t addrs = 0x23ae0d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -706,7 +706,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::*)()>(
     &::GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x224fccc;
+  constexpr static std::size_t addrs = 0x23ae118;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -872,7 +872,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::MultiplayerIntroCountdown::*)()>(
     &::GlobalNamespace::MultiplayerIntroCountdown::get_textAppearDuration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x224eb34;
+  constexpr static std::size_t addrs = 0x23acf80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerIntroCountdown*>::get(),
@@ -885,7 +885,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerIntroCountdown::*)()>(&::GlobalNamespace::MultiplayerIntroCountdown::Awake)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x224eb3c;
+  constexpr static std::size_t addrs = 0x23acf88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerIntroCountdown*>::get(), "Awake",
@@ -898,7 +898,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerIntroCountdown::*)()>(&::GlobalNamespace::MultiplayerIntroCountdown::OnDestroy)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x224ec34;
+  constexpr static std::size_t addrs = 0x23ad080;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -913,7 +913,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerIntroCountdown::*)(float_t, float_t, float_t)>(
     &::GlobalNamespace::MultiplayerIntroCountdown::StartCountdown)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x224ecbc;
+  constexpr static std::size_t addrs = 0x23ad108;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -929,7 +929,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::MultiplayerIntroCountdown::*)(float_t, float_t, float_t)>(
     &::GlobalNamespace::MultiplayerIntroCountdown::CountdownRoutine)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x224ed2c;
+  constexpr static std::size_t addrs = 0x23ad178;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -945,7 +945,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (
     ::GlobalNamespace::MultiplayerIntroCountdown::*)(::UnityEngine::AudioClip*, float_t)>(&::GlobalNamespace::MultiplayerIntroCountdown::PlayDelayed)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x224ede0;
+  constexpr static std::size_t addrs = 0x23ad22c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -961,7 +961,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::MultiplayerIntroCountdown::*)(::StringW, float_t, float_t)>(
     &::GlobalNamespace::MultiplayerIntroCountdown::PhaseRoutine)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x224ee8c;
+  constexpr static std::size_t addrs = 0x23ad2d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -976,7 +976,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerIntroCountdown::*)()>(&::GlobalNamespace::MultiplayerIntroCountdown::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x224ef3c;
+  constexpr static std::size_t addrs = 0x23ad388;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerIntroCountdown*>::get(), ".ctor",

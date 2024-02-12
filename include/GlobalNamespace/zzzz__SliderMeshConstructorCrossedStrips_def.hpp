@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SliderMeshConstructorCrossedStrips);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4821))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4822))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4172))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4173))
 // CS Name: ::SliderMeshConstructorCrossedStrips*
 class CORDL_TYPE SliderMeshConstructorCrossedStrips : public ::GlobalNamespace::SliderMeshConstructor {
 public:
@@ -34,18 +34,18 @@ public:
 
   constexpr void __cordl_internal_set__triangleMap(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  /// @brief Method CreateSliderMeshInternal, addr 0x2394750, size 0x3bc, virtual true, abstract: false, final false
+  /// @brief Method CreateSliderMeshInternal, addr 0x2354304, size 0x3bc, virtual true, abstract: false, final false
   inline void CreateSliderMeshInternal(::GlobalNamespace::VertexPath* path);
 
-  /// @brief Method GetVertexCount, addr 0x2394b0c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetVertexCount, addr 0x23546c0, size 0x1c, virtual true, abstract: false, final false
   inline int32_t GetVertexCount(::GlobalNamespace::VertexPath* path);
 
-  /// @brief Method GetTrianglesCount, addr 0x2394b28, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetTrianglesCount, addr 0x23546dc, size 0x24, virtual true, abstract: false, final false
   inline int32_t GetTrianglesCount(::GlobalNamespace::VertexPath* path);
 
   static inline ::GlobalNamespace::SliderMeshConstructorCrossedStrips* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2394b4c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2354700, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SliderMeshConstructorCrossedStrips", modifiers: "&&", def_value: None }]

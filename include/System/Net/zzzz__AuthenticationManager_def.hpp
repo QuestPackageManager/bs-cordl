@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::System::Net::AuthenticationManager);
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9148))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7158))
 // CS Name: ::System.Net::AuthenticationManager*
 class CORDL_TYPE AuthenticationManager : public ::System::Object {
 public:
@@ -60,16 +60,16 @@ public:
 
   static inline ::System::Net::ICredentialPolicy* getStaticF_credential_policy();
 
-  /// @brief Method EnsureModules, addr 0x29bab18, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method EnsureModules, addr 0x29be5bc, size 0x2a0, virtual false, abstract: false, final false
   static inline void EnsureModules();
 
-  /// @brief Method Authenticate, addr 0x29badc8, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Authenticate, addr 0x29be86c, size 0x10c, virtual false, abstract: false, final false
   static inline ::System::Net::Authorization* Authenticate(::StringW challenge, ::System::Net::WebRequest* request, ::System::Net::ICredentials* credentials);
 
-  /// @brief Method DoAuthenticate, addr 0x29baed4, size 0x4e8, virtual false, abstract: false, final false
+  /// @brief Method DoAuthenticate, addr 0x29be978, size 0x4e8, virtual false, abstract: false, final false
   static inline ::System::Net::Authorization* DoAuthenticate(::StringW challenge, ::System::Net::WebRequest* request, ::System::Net::ICredentials* credentials);
 
-  /// @brief Method PreAuthenticate, addr 0x29bb3bc, size 0x538, virtual false, abstract: false, final false
+  /// @brief Method PreAuthenticate, addr 0x29bee60, size 0x538, virtual false, abstract: false, final false
   static inline ::System::Net::Authorization* PreAuthenticate(::System::Net::WebRequest* request, ::System::Net::ICredentials* credentials);
 
   // Ctor Parameters [CppParam { name: "", ty: "AuthenticationManager", modifiers: "&&", def_value: None }]

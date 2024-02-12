@@ -18,12 +18,12 @@ MARK_REF_PTR_T(::BGNet::Core::DefaultTimeProvider);
 namespace BGNet::Core {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13001))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12899))
 // CS Name: ::BGNet.Core::DefaultTimeProvider*
 class CORDL_TYPE DefaultTimeProvider : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_instance, addr 0xe5e164, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_instance, addr 0xe88f9c, size 0x58, virtual false, abstract: false, final false
   static inline ::BGNet::Core::ITimeProvider* get_instance();
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultTimeProvider", modifiers: "&&", def_value: None }]

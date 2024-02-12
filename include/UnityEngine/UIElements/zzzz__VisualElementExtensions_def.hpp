@@ -27,24 +27,24 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::VisualElementExtensions);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6820))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6079))
 // CS Name: ::UnityEngine.UIElements::VisualElementExtensions*
 class CORDL_TYPE VisualElementExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method WorldToLocal, addr 0x2dc338c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method WorldToLocal, addr 0x2de1774, size 0xec, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 WorldToLocal(::UnityEngine::UIElements::VisualElement* ele, ::UnityEngine::Vector2 p);
 
-  /// @brief Method LocalToWorld, addr 0x2dc3478, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method LocalToWorld, addr 0x2de1860, size 0xec, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 LocalToWorld(::UnityEngine::UIElements::VisualElement* ele, ::UnityEngine::Vector2 p);
 
-  /// @brief Method WorldToLocal, addr 0x2dc3564, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method WorldToLocal, addr 0x2de194c, size 0xec, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rect WorldToLocal(::UnityEngine::UIElements::VisualElement* ele, ::UnityEngine::Rect r);
 
-  /// @brief Method AddManipulator, addr 0x2dc3650, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method AddManipulator, addr 0x2de1a38, size 0xac, virtual false, abstract: false, final false
   static inline void AddManipulator(::UnityEngine::UIElements::VisualElement* ele, ::UnityEngine::UIElements::IManipulator* manipulator);
 
-  /// @brief Method RemoveManipulator, addr 0x2dc36fc, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method RemoveManipulator, addr 0x2de1ae4, size 0xa8, virtual false, abstract: false, final false
   static inline void RemoveManipulator(::UnityEngine::UIElements::VisualElement* ele, ::UnityEngine::UIElements::IManipulator* manipulator);
 
   // Ctor Parameters [CppParam { name: "", ty: "VisualElementExtensions", modifiers: "&&", def_value: None }]

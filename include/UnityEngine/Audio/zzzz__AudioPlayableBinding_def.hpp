@@ -28,15 +28,15 @@ MARK_REF_PTR_T(::UnityEngine::Audio::AudioPlayableBinding);
 namespace UnityEngine::Audio {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15602))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15313))
 // CS Name: ::UnityEngine.Audio::AudioPlayableBinding*
 class CORDL_TYPE AudioPlayableBinding : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x2c9c434, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2c9c174, size 0x13c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableBinding Create(::StringW name, ::UnityEngine::Object* key);
 
-  /// @brief Method CreateAudioOutput, addr 0x2c9c570, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method CreateAudioOutput, addr 0x2c9c2b0, size 0x40, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableOutput CreateAudioOutput(::UnityEngine::Playables::PlayableGraph graph, ::StringW name);
 
   // Ctor Parameters [CppParam { name: "", ty: "AudioPlayableBinding", modifiers: "&&", def_value: None }]

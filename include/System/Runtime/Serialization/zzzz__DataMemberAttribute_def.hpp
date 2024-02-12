@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::DataMemberAttribute);
 namespace System::Runtime::Serialization {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16240))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16420))
 // CS Name: ::System.Runtime.Serialization::DataMemberAttribute*
 class CORDL_TYPE DataMemberAttribute : public ::System::Attribute {
 public:
@@ -66,16 +66,16 @@ public:
 
   constexpr void __cordl_internal_set_emitDefaultValue(bool value);
 
-  /// @brief Method get_Name, addr 0x284d5fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x2850c64, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_Order, addr 0x284d604, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Order, addr 0x2850c6c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Order();
 
-  /// @brief Method get_IsRequired, addr 0x284d60c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsRequired, addr 0x2850c74, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsRequired();
 
-  /// @brief Method get_EmitDefaultValue, addr 0x284d614, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EmitDefaultValue, addr 0x2850c7c, size 0x8, virtual false, abstract: false, final false
   inline bool get_EmitDefaultValue();
 
   // Ctor Parameters [CppParam { name: "", ty: "DataMemberAttribute", modifiers: "&&", def_value: None }]

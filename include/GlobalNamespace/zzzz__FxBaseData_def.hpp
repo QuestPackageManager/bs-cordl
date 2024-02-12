@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::GlobalNamespace::FxBaseData);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4312))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10741))
 // CS Name: ::FxBaseData*
 class CORDL_TYPE FxBaseData : public ::System::Object {
 public:
@@ -41,7 +41,7 @@ public:
 
   static inline ::GlobalNamespace::FxBaseData* New_ctor(float_t beat, bool usePreviousEventValue);
 
-  /// @brief Method .ctor, addr 0x233aeb8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x127bf48, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, bool usePreviousEventValue);
 
   // Ctor Parameters [CppParam { name: "", ty: "FxBaseData", modifiers: "&&", def_value: None }]

@@ -70,19 +70,19 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::CrlID* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xf80330, size 0x3c0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfab1c0, size 0x3c0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_CrlUrl, addr 0xf806f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CrlUrl, addr 0xfab580, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerIA5String* get_CrlUrl();
 
-  /// @brief Method get_CrlNum, addr 0xf806f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CrlNum, addr 0xfab588, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_CrlNum();
 
-  /// @brief Method get_CrlTime, addr 0xf80700, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CrlTime, addr 0xfab590, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerGeneralizedTime* get_CrlTime();
 
-  /// @brief Method ToAsn1Object, addr 0xf80708, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xfab598, size 0xd8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "CrlID", modifiers: "&&", def_value: None }]

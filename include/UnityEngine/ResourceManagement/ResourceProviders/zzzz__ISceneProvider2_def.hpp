@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvi
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14006))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14019))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::ISceneProvider2*
 class CORDL_TYPE ISceneProvider2 {
 public:

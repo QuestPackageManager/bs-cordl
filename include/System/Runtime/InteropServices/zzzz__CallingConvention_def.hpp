@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Runtime::InteropServices::CallingConvention);
 namespace System::Runtime::InteropServices {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3333))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3331))
 // CS Name: ::System.Runtime.InteropServices::CallingConvention
 struct CORDL_TYPE CallingConvention {
 public:

@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4064))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4010))
 // CS Name: ::FadeOutSongPreviewPlayerOnSceneTransitionStart*
 class CORDL_TYPE FadeOutSongPreviewPlayerOnSceneTransitionStart : public ::UnityEngine::MonoBehaviour {
 public:
@@ -45,18 +45,18 @@ public:
 
   constexpr void __cordl_internal_set__gameScenesManager(::UnityW<::GlobalNamespace::GameScenesManager> value);
 
-  /// @brief Method Start, addr 0x222de78, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x22b7b24, size 0x8c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy, addr 0x222df04, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x22b7bb0, size 0xd4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleGameScenesManagerTransitionDidStart, addr 0x222dfd8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HandleGameScenesManagerTransitionDidStart, addr 0x22b7c84, size 0x38, virtual false, abstract: false, final false
   inline void HandleGameScenesManagerTransitionDidStart(float_t duration);
 
   static inline ::GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart* New_ctor();
 
-  /// @brief Method .ctor, addr 0x222e010, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b7cbc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FadeOutSongPreviewPlayerOnSceneTransitionStart", modifiers: "&&", def_value: None }]

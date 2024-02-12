@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Poly2Tri::PolygonGenerator);
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15347))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15507))
 // CS Name: ::UnityEngine.ProBuilder.Poly2Tri::PolygonGenerator*
 class CORDL_TYPE PolygonGenerator : public ::System::Object {
 public:
@@ -42,15 +42,15 @@ public:
 
   static inline double_t getStaticF_PI_2();
 
-  /// @brief Method RandomCircleSweep, addr 0x2b35cf0, size 0x2f0, virtual false, abstract: false, final false
+  /// @brief Method RandomCircleSweep, addr 0x2b3485c, size 0x2f0, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Poly2Tri::Polygon* RandomCircleSweep(double_t scale, int32_t vertexCount);
 
-  /// @brief Method RandomCircleSweep2, addr 0x2b35fe0, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method RandomCircleSweep2, addr 0x2b34b4c, size 0x25c, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Poly2Tri::Polygon* RandomCircleSweep2(double_t scale, int32_t vertexCount);
 
   static inline ::UnityEngine::ProBuilder::Poly2Tri::PolygonGenerator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2b3623c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b34da8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PolygonGenerator", modifiers: "&&", def_value: None }]

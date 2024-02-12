@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::System::ComponentModel::Design::IDictionaryService);
 namespace System::ComponentModel::Design {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9500))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7510))
 // CS Name: ::System.ComponentModel.Design::IDictionaryService*
 class CORDL_TYPE IDictionaryService {
 public:

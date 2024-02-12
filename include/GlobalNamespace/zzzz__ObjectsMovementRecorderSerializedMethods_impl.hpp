@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::GlobalNamespace::__ObjectsMovementRecorder__Mode)>(
     &::GlobalNamespace::ObjectsMovementRecorderSerializedMethods::SerializedName)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x23001e8;
+  constexpr static std::size_t addrs = 0x232812c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<::GlobalNamespace::__ObjectsMovementRecorder__Mode>)>(
     &::GlobalNamespace::ObjectsMovementRecorderSerializedMethods::ModeFromSerializedName)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x230025c;
+  constexpr static std::size_t addrs = 0x23281a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::GlobalNamespace::__ObjectsMovementRecorder__CameraView)>(
     &::GlobalNamespace::ObjectsMovementRecorderSerializedMethods::SerializedName)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x2300328;
+  constexpr static std::size_t addrs = 0x232826c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<::GlobalNamespace::__ObjectsMovementRecorder__CameraView>)>(
     &::GlobalNamespace::ObjectsMovementRecorderSerializedMethods::CameraViewFromSerializedName)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2300398;
+  constexpr static std::size_t addrs = 0x23282dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot__Type)>(
     &::GlobalNamespace::ObjectsMovementRecorderSerializedMethods::SerializedName)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2300434;
+  constexpr static std::size_t addrs = 0x2328378;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot__Type>)>(
     &::GlobalNamespace::ObjectsMovementRecorderSerializedMethods::PlaybackScreenshotTypeFromSerializedName)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x230049c;
+  constexpr static std::size_t addrs = 0x23283e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::LiteNetLib::NetStatistics);
 namespace LiteNetLib {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14181))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14194))
 // CS Name: ::LiteNetLib::NetStatistics*
 class CORDL_TYPE NetStatistics : public ::System::Object {
 public:
@@ -79,51 +79,51 @@ public:
 
   constexpr void __cordl_internal_set__packetLoss(int64_t value);
 
-  /// @brief Method get_PacketsSent, addr 0x2205c18, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_PacketsSent, addr 0x229b500, size 0xc, virtual false, abstract: false, final false
   inline int64_t get_PacketsSent();
 
-  /// @brief Method get_PacketsReceived, addr 0x2205c24, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_PacketsReceived, addr 0x229b50c, size 0xc, virtual false, abstract: false, final false
   inline int64_t get_PacketsReceived();
 
-  /// @brief Method get_BytesSent, addr 0x2205c30, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_BytesSent, addr 0x229b518, size 0xc, virtual false, abstract: false, final false
   inline int64_t get_BytesSent();
 
-  /// @brief Method get_BytesReceived, addr 0x2205c3c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_BytesReceived, addr 0x229b524, size 0xc, virtual false, abstract: false, final false
   inline int64_t get_BytesReceived();
 
-  /// @brief Method get_PacketLoss, addr 0x2205c48, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_PacketLoss, addr 0x229b530, size 0xc, virtual false, abstract: false, final false
   inline int64_t get_PacketLoss();
 
-  /// @brief Method get_PacketLossPercent, addr 0x2205c54, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_PacketLossPercent, addr 0x229b53c, size 0x4c, virtual false, abstract: false, final false
   inline int64_t get_PacketLossPercent();
 
-  /// @brief Method Reset, addr 0x2205ca0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x229b588, size 0x5c, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method IncrementPacketsSent, addr 0x21fdaf8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IncrementPacketsSent, addr 0x22933e0, size 0xc, virtual false, abstract: false, final false
   inline void IncrementPacketsSent();
 
-  /// @brief Method IncrementPacketsReceived, addr 0x21ffa80, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IncrementPacketsReceived, addr 0x2295368, size 0xc, virtual false, abstract: false, final false
   inline void IncrementPacketsReceived();
 
-  /// @brief Method AddBytesSent, addr 0x21fdb04, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method AddBytesSent, addr 0x22933ec, size 0xc, virtual false, abstract: false, final false
   inline void AddBytesSent(int64_t bytesSent);
 
-  /// @brief Method AddBytesReceived, addr 0x21ffa8c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method AddBytesReceived, addr 0x2295374, size 0xc, virtual false, abstract: false, final false
   inline void AddBytesReceived(int64_t bytesReceived);
 
-  /// @brief Method IncrementPacketLoss, addr 0x2205cfc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IncrementPacketLoss, addr 0x229b5e4, size 0xc, virtual false, abstract: false, final false
   inline void IncrementPacketLoss();
 
-  /// @brief Method AddPacketLoss, addr 0x2205d08, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method AddPacketLoss, addr 0x229b5f0, size 0xc, virtual false, abstract: false, final false
   inline void AddPacketLoss(int64_t packetLoss);
 
-  /// @brief Method ToString, addr 0x2205d14, size 0x270, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x229b5fc, size 0x270, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   static inline ::LiteNetLib::NetStatistics* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21fd2a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2292b88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NetStatistics", modifiers: "&&", def_value: None }]

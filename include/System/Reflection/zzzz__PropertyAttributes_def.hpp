@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Reflection::PropertyAttributes);
 namespace System::Reflection {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3487))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3483))
 // CS Name: ::System.Reflection::PropertyAttributes
 struct CORDL_TYPE PropertyAttributes {
 public:

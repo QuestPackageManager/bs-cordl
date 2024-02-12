@@ -66,7 +66,7 @@ namespace UnityEngine::InputSystem {
 template <typename TControl>
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6225))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5484))
 // CS Name: ::InputControlList`1::Enumerator<TControl>
 struct CORDL_TYPE __InputControlList_1__Enumerator {
 public:
@@ -141,8 +141,8 @@ namespace UnityEngine::InputSystem {
 // cpp template
 template <typename TControl>
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9999)), TypeDefinitionIndex(TypeDefinitionIndex(10003)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 407
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6226)) CS Name: ::UnityEngine.InputSystem::InputControlList`1<TControl>
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8730)), TypeDefinitionIndex(TypeDefinitionIndex(8734)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8730), inst: 409
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5485)) CS Name: ::UnityEngine.InputSystem::InputControlList`1<TControl>
 struct CORDL_TYPE InputControlList_1 {
 public:
   // Declarations

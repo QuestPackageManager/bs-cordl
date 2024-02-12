@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Collections::Generic::NodeColor);
 namespace System::Collections::Generic {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9542))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7552))
 // CS Name: ::System.Collections.Generic::NodeColor
 struct CORDL_TYPE NodeColor {
 public:

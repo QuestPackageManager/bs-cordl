@@ -32,15 +32,15 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsCompression"
   constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCompression* i___Org__BouncyCastle__Crypto__Tls__TlsCompression() noexcept;
 
-  /// @brief Method Compress, addr 0xfaf658, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Compress, addr 0xfdb4e8, size 0x8, virtual true, abstract: false, final false
   inline ::System::IO::Stream* Compress(::System::IO::Stream* output);
 
-  /// @brief Method Decompress, addr 0xfaf660, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Decompress, addr 0xfdb4f0, size 0x8, virtual true, abstract: false, final false
   inline ::System::IO::Stream* Decompress(::System::IO::Stream* output);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsNullCompression* New_ctor();
 
-  /// @brief Method .ctor, addr 0xfaf668, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfdb4f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TlsNullCompression", modifiers: "&&", def_value: None }]

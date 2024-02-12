@@ -20,21 +20,21 @@ MARK_REF_PTR_T(::UnityEngine::TextCore::Text::TextUtilities);
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13701))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13654))
 // CS Name: ::UnityEngine.TextCore.Text::TextUtilities*
 class CORDL_TYPE TextUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToUpperFast, addr 0x2d43520, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ToUpperFast, addr 0x2d62fc8, size 0x74, virtual false, abstract: false, final false
   static inline char16_t ToUpperFast(char16_t c);
 
-  /// @brief Method ToUpperASCIIFast, addr 0x2d43594, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ToUpperASCIIFast, addr 0x2d6303c, size 0x74, virtual false, abstract: false, final false
   static inline uint32_t ToUpperASCIIFast(uint32_t c);
 
-  /// @brief Method GetHashCodeCaseInSensitive, addr 0x2d37a34, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetHashCodeCaseInSensitive, addr 0x2d574dc, size 0x70, virtual false, abstract: false, final false
   static inline int32_t GetHashCodeCaseInSensitive(::StringW s);
 
-  /// @brief Method UintToString, addr 0x2d3dec0, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method UintToString, addr 0x2d5d968, size 0xd8, virtual false, abstract: false, final false
   static inline ::StringW UintToString(::System::Collections::Generic::List_1<uint32_t>* unicodes);
 
   // Ctor Parameters [CppParam { name: "", ty: "TextUtilities", modifiers: "&&", def_value: None }]

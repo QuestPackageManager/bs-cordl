@@ -35,8 +35,8 @@ MARK_REF_PTR_T(::UnityOpus::Encoder);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 45, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityOpus {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(16215)),
-// TypeDefinitionIndex(TypeDefinitionIndex(16217))] Self: TypeDefinitionIndex(TypeDefinitionIndex(16213)) CS Name: ::UnityOpus::Encoder*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(16384)),
+// TypeDefinitionIndex(TypeDefinitionIndex(16386))] Self: TypeDefinitionIndex(TypeDefinitionIndex(16382)) CS Name: ::UnityOpus::Encoder*
 class CORDL_TYPE Encoder : public ::System::Object {
 public:
   // Declarations
@@ -106,39 +106,39 @@ public:
 
   constexpr void __cordl_internal_set_disposedValue(bool value);
 
-  /// @brief Method get_Bitrate, addr 0x21f7710, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Bitrate, addr 0x228cff8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Bitrate();
 
-  /// @brief Method set_Bitrate, addr 0x21f7718, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_Bitrate, addr 0x228d000, size 0x28, virtual false, abstract: false, final false
   inline void set_Bitrate(int32_t value);
 
-  /// @brief Method get_Complexity, addr 0x21f77c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Complexity, addr 0x228d0ac, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Complexity();
 
-  /// @brief Method set_Complexity, addr 0x21f77cc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_Complexity, addr 0x228d0b4, size 0x28, virtual false, abstract: false, final false
   inline void set_Complexity(int32_t value);
 
-  /// @brief Method get_Signal, addr 0x21f7878, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Signal, addr 0x228d160, size 0x8, virtual false, abstract: false, final false
   inline ::UnityOpus::OpusSignal get_Signal();
 
-  /// @brief Method set_Signal, addr 0x21f7880, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_Signal, addr 0x228d168, size 0x28, virtual false, abstract: false, final false
   inline void set_Signal(::UnityOpus::OpusSignal value);
 
   static inline ::UnityOpus::Encoder* New_ctor(::UnityOpus::SamplingFrequency samplingFrequency, ::UnityOpus::NumChannels channels, ::UnityOpus::OpusApplication application);
 
-  /// @brief Method .ctor, addr 0x21f792c, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x228d214, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::UnityOpus::SamplingFrequency samplingFrequency, ::UnityOpus::NumChannels channels, ::UnityOpus::OpusApplication application);
 
-  /// @brief Method Encode, addr 0x21f7af8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x228d3e0, size 0xb0, virtual false, abstract: false, final false
   inline int32_t Encode(::ArrayW<float_t, ::Array<float_t>*> pcm, int32_t count, ::ArrayW<uint8_t, ::Array<uint8_t>*> output);
 
-  /// @brief Method Dispose, addr 0x21f7c64, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x228d54c, size 0x84, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Finalize, addr 0x21f7d64, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x228d64c, size 0xa0, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method Dispose, addr 0x21f7e04, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x228d6ec, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
   // Ctor Parameters [CppParam { name: "", ty: "Encoder", modifiers: "&&", def_value: None }]

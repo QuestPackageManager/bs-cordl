@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpawnRotationBeatmapEventDataProcessor::*)(
     ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*)>(&::GlobalNamespace::SpawnRotationBeatmapEventDataProcessor::ProcessInsertedEventDataInternal)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0xe000bc;
+  constexpr static std::size_t addrs = 0xe105a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpawnRotationBeatmapEventDataProcessor::*)(
     ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*)>(&::GlobalNamespace::SpawnRotationBeatmapEventDataProcessor::ProcessBeforeDeleteEventDataInternal)> {
   constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0xe002ac;
+  constexpr static std::size_t addrs = 0xe10794;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpawnRotationBeatmapEventDataProcessor::*)()>(
     &::GlobalNamespace::SpawnRotationBeatmapEventDataProcessor::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0xe004ec;
+  constexpr static std::size_t addrs = 0xe109d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

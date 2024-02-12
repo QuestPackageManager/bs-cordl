@@ -80,7 +80,7 @@ MARK_REF_PTR_T(::GlobalNamespace::PlayerSettingsPanelController);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5641))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4945))
 // CS Name: ::PlayerSettingsPanelController::PlayerSettingsPanelLayout
 struct CORDL_TYPE __PlayerSettingsPanelController__PlayerSettingsPanelLayout {
 public:
@@ -133,8 +133,8 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSettingsPanelController__Playe
 // SizeInfo { instance_size: 280, native_size: -1, calculated_instance_size: 280, calculated_native_size: 280, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4606)), TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5642))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(11035))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4946))
 // CS Name: ::PlayerSettingsPanelController*
 class CORDL_TYPE PlayerSettingsPanelController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -463,114 +463,114 @@ public:
 
   constexpr void __cordl_internal_set__eventBinder(::GlobalNamespace::EventBinder* value);
 
-  /// @brief Method add_didChangePlayerSettingsEvent, addr 0x22b2da0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didChangePlayerSettingsEvent, addr 0x22e6064, size 0x9c, virtual false, abstract: false, final false
   inline void add_didChangePlayerSettingsEvent(::System::Action* value);
 
-  /// @brief Method remove_didChangePlayerSettingsEvent, addr 0x22b3be0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didChangePlayerSettingsEvent, addr 0x22e6f34, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didChangePlayerSettingsEvent(::System::Action* value);
 
-  /// @brief Method get_playerSpecificSettings, addr 0x22b1f80, size 0x3b8, virtual false, abstract: false, final false
+  /// @brief Method get_playerSpecificSettings, addr 0x22e5244, size 0x3b8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerSpecificSettings* get_playerSpecificSettings();
 
-  /// @brief Method SetData, addr 0x22b2c08, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x22e5ecc, size 0x24, virtual false, abstract: false, final false
   inline void SetData(::GlobalNamespace::PlayerData* playerData);
 
-  /// @brief Method SetLayout, addr 0x22b24b8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetLayout, addr 0x22e577c, size 0x24, virtual false, abstract: false, final false
   inline void SetLayout(::GlobalNamespace::__PlayerSettingsPanelController__PlayerSettingsPanelLayout layout);
 
-  /// @brief Method Awake, addr 0x22b3ce4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x22e7038, size 0x60, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnEnable, addr 0x22b3d44, size 0x3d4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x22e7098, size 0x3d4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable, addr 0x22b4118, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x22e746c, size 0x4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnDestroy, addr 0x22b4150, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x22e74a4, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method UnsubscribeAllUICallbacks, addr 0x22b411c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method UnsubscribeAllUICallbacks, addr 0x22e7470, size 0x34, virtual false, abstract: false, final false
   inline void UnsubscribeAllUICallbacks();
 
-  /// @brief Method Refresh, addr 0x22b37c0, size 0x348, virtual true, abstract: false, final true
+  /// @brief Method Refresh, addr 0x22e6acc, size 0x348, virtual true, abstract: false, final true
   inline void Refresh();
 
-  /// @brief Method HandleSFXVolumeSettingsControllerValueDidChange, addr 0x22b4270, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandleSFXVolumeSettingsControllerValueDidChange, addr 0x22e75c4, size 0x24, virtual false, abstract: false, final false
   inline void HandleSFXVolumeSettingsControllerValueDidChange(::GlobalNamespace::FormattedFloatListSettingsController* settingsController, float_t value);
 
-  /// @brief Method HandleArcVisibilityDropdownDidSelectCellWithIdx, addr 0x22b42b8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method HandleArcVisibilityDropdownDidSelectCellWithIdx, addr 0x22e760c, size 0x60, virtual false, abstract: false, final false
   inline void HandleArcVisibilityDropdownDidSelectCellWithIdx(int32_t idx, ::GlobalNamespace::ArcVisibilityType arcVisibilityType);
 
-  /// @brief Method HandleSaberTrailIntensitySettingsControllerValueDidChange, addr 0x22b4318, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandleSaberTrailIntensitySettingsControllerValueDidChange, addr 0x22e766c, size 0x24, virtual false, abstract: false, final false
   inline void HandleSaberTrailIntensitySettingsControllerValueDidChange(::GlobalNamespace::FormattedFloatListSettingsController* settingsController, float_t value);
 
-  /// @brief Method HandlePlayerHeightSettingsControllerValueDidChange, addr 0x22b433c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerHeightSettingsControllerValueDidChange, addr 0x22e7690, size 0x24, virtual false, abstract: false, final false
   inline void HandlePlayerHeightSettingsControllerValueDidChange(float_t value);
 
-  /// @brief Method HandleHeadsetHapticIntensityControllerValueDidChange, addr 0x22b4360, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandleHeadsetHapticIntensityControllerValueDidChange, addr 0x22e76b4, size 0x24, virtual false, abstract: false, final false
   inline void HandleHeadsetHapticIntensityControllerValueDidChange(::GlobalNamespace::FormattedFloatListSettingsController* settingsController, float_t value);
 
-  /// @brief Method HandleNoteJumpStartBeatOffsetPositionSelected, addr 0x22b4384, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteJumpStartBeatOffsetPositionSelected, addr 0x22e76d8, size 0x24, virtual false, abstract: false, final false
   inline void HandleNoteJumpStartBeatOffsetPositionSelected(int32_t idx, float_t startBeatOffset);
 
-  /// @brief Method HandleLightReductionAmountSelected, addr 0x22b43a8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandleLightReductionAmountSelected, addr 0x22e76fc, size 0x24, virtual false, abstract: false, final false
   inline void HandleLightReductionAmountSelected(int32_t obj, ::GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterPreset);
 
-  /// @brief Method HandleAdvancedHudToggleChanged, addr 0x22b43cc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method HandleAdvancedHudToggleChanged, addr 0x22e7720, size 0x50, virtual false, abstract: false, final false
   inline void HandleAdvancedHudToggleChanged(bool on);
 
-  /// @brief Method HandleNoteJumpDurationTypeSettingsDropdownDidSelectCellWithIdx, addr 0x22b441c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteJumpDurationTypeSettingsDropdownDidSelectCellWithIdx, addr 0x22e7770, size 0x3c, virtual false, abstract: false, final false
   inline void HandleNoteJumpDurationTypeSettingsDropdownDidSelectCellWithIdx(int32_t idx, ::GlobalNamespace::NoteJumpDurationTypeSettings noteJumpDurationTypeSettings);
 
-  /// @brief Method HandleNoteJumpFixedDurationSettingsControllerValueDidChange, addr 0x22b4458, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteJumpFixedDurationSettingsControllerValueDidChange, addr 0x22e77ac, size 0x24, virtual false, abstract: false, final false
   inline void HandleNoteJumpFixedDurationSettingsControllerValueDidChange(::GlobalNamespace::FormattedFloatListSettingsController* formattedFloatListSettingsController, float_t value);
 
-  /// @brief Method HandleNoTextsAndHudsToggleChanged, addr 0x22b447c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method HandleNoTextsAndHudsToggleChanged, addr 0x22e77d0, size 0x50, virtual false, abstract: false, final false
   inline void HandleNoTextsAndHudsToggleChanged(bool on);
 
-  /// @brief Method SetIsDirty, addr 0x22b4294, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetIsDirty, addr 0x22e75e8, size 0x24, virtual false, abstract: false, final false
   inline void SetIsDirty();
 
-  /// @brief Method RefreshNoteJumpUI, addr 0x22b4154, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method RefreshNoteJumpUI, addr 0x22e74a8, size 0x3c, virtual false, abstract: false, final false
   inline void RefreshNoteJumpUI(::GlobalNamespace::NoteJumpDurationTypeSettings noteJumpDurationTypeSettings);
 
-  /// @brief Method SetSectionDisabled, addr 0x22b3c7c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetSectionDisabled, addr 0x22e6fd0, size 0x68, virtual false, abstract: false, final false
   inline void SetSectionDisabled(::UnityEngine::CanvasGroup* sectionCanvasGroup, bool disable);
 
-  /// @brief Method RefreshArcsWarning, addr 0x22b4190, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method RefreshArcsWarning, addr 0x22e74e4, size 0xe0, virtual false, abstract: false, final false
   inline void RefreshArcsWarning(::GlobalNamespace::ArcVisibilityType arcVisibilityType, bool forceRebuild);
 
   static inline ::GlobalNamespace::PlayerSettingsPanelController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22b44cc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22e7820, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <OnEnable>b__42_0, addr 0x22b4534, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__42_0, addr 0x22e7888, size 0x24, virtual false, abstract: false, final false
   inline void _OnEnable_b__42_0(bool on);
 
-  /// @brief Method <OnEnable>b__42_1, addr 0x22b4558, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__42_1, addr 0x22e78ac, size 0x24, virtual false, abstract: false, final false
   inline void _OnEnable_b__42_1(bool on);
 
-  /// @brief Method <OnEnable>b__42_2, addr 0x22b457c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__42_2, addr 0x22e78d0, size 0x24, virtual false, abstract: false, final false
   inline void _OnEnable_b__42_2(bool on);
 
-  /// @brief Method <OnEnable>b__42_3, addr 0x22b45a0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__42_3, addr 0x22e78f4, size 0x24, virtual false, abstract: false, final false
   inline void _OnEnable_b__42_3(bool on);
 
-  /// @brief Method <OnEnable>b__42_4, addr 0x22b45c4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__42_4, addr 0x22e7918, size 0x24, virtual false, abstract: false, final false
   inline void _OnEnable_b__42_4(bool on);
 
-  /// @brief Method <OnEnable>b__42_5, addr 0x22b45e8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__42_5, addr 0x22e793c, size 0x44, virtual false, abstract: false, final false
   inline void _OnEnable_b__42_5(bool on);
 
-  /// @brief Method <OnEnable>b__42_6, addr 0x22b462c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__42_6, addr 0x22e7980, size 0x24, virtual false, abstract: false, final false
   inline void _OnEnable_b__42_6(bool on);
 
-  /// @brief Method <OnEnable>b__42_7, addr 0x22b4650, size 0x3d4, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__42_7, addr 0x22e79a4, size 0x3d4, virtual false, abstract: false, final false
   inline void _OnEnable_b__42_7();
 
-  /// @brief Method <OnEnable>b__42_8, addr 0x22b4a24, size 0x4fc, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__42_8, addr 0x22e7d78, size 0x4fc, virtual false, abstract: false, final false
   inline void _OnEnable_b__42_8();
 
   // Ctor Parameters [CppParam { name: "", ty: "PlayerSettingsPanelController", modifiers: "&&", def_value: None }]

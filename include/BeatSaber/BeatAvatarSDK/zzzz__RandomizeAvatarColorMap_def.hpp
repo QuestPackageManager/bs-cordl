@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap);
 namespace BeatSaber::BeatAvatarSDK {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15690))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15791))
 // CS Name: ::BeatSaber.BeatAvatarSDK::RandomizeAvatarColorMap*
 class CORDL_TYPE RandomizeAvatarColorMap : public ::System::Object {
 public:
@@ -45,17 +45,17 @@ public:
 
   constexpr void __cordl_internal_set__colorIndices_k__BackingField(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  /// @brief Method get_totalIndices, addr 0xe1afb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_totalIndices, addr 0xe27604, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_totalIndices();
 
-  /// @brief Method get_colorIndices, addr 0xe1afc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorIndices, addr 0xe2760c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> get_colorIndices();
 
   static inline ::BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap* New_ctor(int32_t headTopPrimaryColorIndex, int32_t headTopSecondaryColorIndex, int32_t glassesColorIndex,
                                                                               int32_t facialHairColorIndex, int32_t handsColorIndex, int32_t clothesPrimaryColorIndex,
                                                                               int32_t clothesSecondaryColorIndex, int32_t clothesDetailColorIndex);
 
-  /// @brief Method .ctor, addr 0xe1aa38, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe27084, size 0x188, virtual false, abstract: false, final false
   inline void _ctor(int32_t headTopPrimaryColorIndex, int32_t headTopSecondaryColorIndex, int32_t glassesColorIndex, int32_t facialHairColorIndex, int32_t handsColorIndex,
                     int32_t clothesPrimaryColorIndex, int32_t clothesSecondaryColorIndex, int32_t clothesDetailColorIndex);
 

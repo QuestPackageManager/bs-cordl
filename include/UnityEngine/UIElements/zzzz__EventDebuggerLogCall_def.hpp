@@ -24,7 +24,7 @@ MARK_VAL_T(::UnityEngine::UIElements::EventDebuggerLogCall);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7351))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6610))
 // CS Name: ::UnityEngine.UIElements::EventDebuggerLogCall
 #pragma pack(push, 0)
 struct CORDL_TYPE EventDebuggerLogCall {
@@ -36,10 +36,10 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable();
 
-  /// @brief Method .ctor, addr 0x2e834f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e9d8e0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Delegate* callback, ::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method Dispose, addr 0x2e834fc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2e9d8e4, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
   // Ctor Parameters []

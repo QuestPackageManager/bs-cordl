@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IBinding);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7083))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6342))
 // CS Name: ::UnityEngine.UIElements::IBinding*
 class CORDL_TYPE IBinding {
 public:

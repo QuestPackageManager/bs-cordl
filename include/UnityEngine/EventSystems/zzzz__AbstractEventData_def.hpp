@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::AbstractEventData);
 namespace UnityEngine::EventSystems {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13164))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13062))
 // CS Name: ::UnityEngine.EventSystems::AbstractEventData*
 class CORDL_TYPE AbstractEventData : public ::System::Object {
 public:
@@ -31,18 +31,18 @@ public:
 
   constexpr void __cordl_internal_set_m_Used(bool value);
 
-  /// @brief Method Reset, addr 0x2d95428, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x2db3810, size 0x8, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Use, addr 0x2d95430, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Use, addr 0x2db3818, size 0xc, virtual true, abstract: false, final false
   inline void Use();
 
-  /// @brief Method get_used, addr 0x2d9543c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_used, addr 0x2db3824, size 0x8, virtual true, abstract: false, final false
   inline bool get_used();
 
   static inline ::UnityEngine::EventSystems::AbstractEventData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d95444, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2db382c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AbstractEventData", modifiers: "&&", def_value: None }]

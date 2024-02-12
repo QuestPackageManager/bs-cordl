@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::AsyncTaskCache);
 namespace System::Runtime::CompilerServices {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3403))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3399))
 // CS Name: ::System.Runtime.CompilerServices::AsyncTaskCache*
 class CORDL_TYPE AsyncTaskCache : public ::System::Object {
 public:
@@ -47,7 +47,7 @@ public:
 
   static inline ::ArrayW<::System::Threading::Tasks::Task_1<int32_t>*, ::Array<::System::Threading::Tasks::Task_1<int32_t>*>*> getStaticF_Int32Tasks();
 
-  /// @brief Method CreateInt32Tasks, addr 0x24dcac0, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method CreateInt32Tasks, addr 0x24fcca4, size 0x108, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Threading::Tasks::Task_1<int32_t>*, ::Array<::System::Threading::Tasks::Task_1<int32_t>*>*> CreateInt32Tasks();
 
   /// @brief Method CreateCacheableTask, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

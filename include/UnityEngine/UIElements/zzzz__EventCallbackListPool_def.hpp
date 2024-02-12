@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::EventCallbackListPool);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7165))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6424))
 // CS Name: ::UnityEngine.UIElements::EventCallbackListPool*
 class CORDL_TYPE EventCallbackListPool : public ::System::Object {
 public:
@@ -35,15 +35,15 @@ public:
 
   constexpr void __cordl_internal_set_m_Stack(::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::EventCallbackList*>* value);
 
-  /// @brief Method Get, addr 0x2e4ad94, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x2e6617c, size 0xc4, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::EventCallbackList* Get(::UnityEngine::UIElements::EventCallbackList* initializer);
 
-  /// @brief Method Release, addr 0x2e4b0f8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x2e664e0, size 0x64, virtual false, abstract: false, final false
   inline void Release(::UnityEngine::UIElements::EventCallbackList* element);
 
   static inline ::UnityEngine::UIElements::EventCallbackListPool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e4b1c8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e665b0, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EventCallbackListPool", modifiers: "&&", def_value: None }]

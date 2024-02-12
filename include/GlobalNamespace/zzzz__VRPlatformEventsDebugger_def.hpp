@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::GlobalNamespace::VRPlatformEventsDebugger);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14440))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14589))
 // CS Name: ::VRPlatformEventsDebugger*
 class CORDL_TYPE VRPlatformEventsDebugger : public ::System::Object {
 public:
@@ -62,36 +62,36 @@ public:
 
   constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
 
-  /// @brief Method get_loggerPrefix, addr 0x21003bc, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_loggerPrefix, addr 0x2193dcc, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_loggerPrefix();
 
-  /// @brief Method Initialize, addr 0x21003fc, size 0x400, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x2193e0c, size 0x400, virtual true, abstract: false, final true
   inline void Initialize();
 
-  /// @brief Method Dispose, addr 0x21007fc, size 0x404, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x219420c, size 0x404, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method HandleInputFocusWasCaptured, addr 0x2100c00, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleInputFocusWasCaptured, addr 0x2194610, size 0x4, virtual false, abstract: false, final false
   inline void HandleInputFocusWasCaptured();
 
-  /// @brief Method HandleInputFocusWasReleased, addr 0x2100c04, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleInputFocusWasReleased, addr 0x2194614, size 0x4, virtual false, abstract: false, final false
   inline void HandleInputFocusWasReleased();
 
-  /// @brief Method HandleHMDUnmounted, addr 0x2100c08, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleHMDUnmounted, addr 0x2194618, size 0x4, virtual false, abstract: false, final false
   inline void HandleHMDUnmounted();
 
-  /// @brief Method HandleHMDMounted, addr 0x2100c0c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleHMDMounted, addr 0x219461c, size 0x4, virtual false, abstract: false, final false
   inline void HandleHMDMounted();
 
-  /// @brief Method HandleVRFocusWasCaptured, addr 0x2100c10, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleVRFocusWasCaptured, addr 0x2194620, size 0x4, virtual false, abstract: false, final false
   inline void HandleVRFocusWasCaptured();
 
-  /// @brief Method HandleVRFocusWasReleased, addr 0x2100c14, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleVRFocusWasReleased, addr 0x2194624, size 0x4, virtual false, abstract: false, final false
   inline void HandleVRFocusWasReleased();
 
   static inline ::GlobalNamespace::VRPlatformEventsDebugger* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2100c18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2194628, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "VRPlatformEventsDebugger", modifiers: "&&", def_value: None }]

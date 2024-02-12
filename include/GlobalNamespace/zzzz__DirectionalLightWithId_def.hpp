@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::DirectionalLightWithId);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14542))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14523))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14436))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14417))
 // CS Name: ::DirectionalLightWithId*
 class CORDL_TYPE DirectionalLightWithId : public ::GlobalNamespace::LightWithIdMonoBehaviour {
 public:
@@ -54,12 +54,12 @@ public:
 
   constexpr void __cordl_internal_set__minIntensity(float_t value);
 
-  /// @brief Method ColorWasSet, addr 0x210f098, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x21a3840, size 0x34, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::DirectionalLightWithId* New_ctor();
 
-  /// @brief Method .ctor, addr 0x210f0cc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21a3874, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DirectionalLightWithId", modifiers: "&&", def_value: None }]

@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::Priority_Queue::FastPriorityQueueNode);
 namespace Priority_Queue {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6093))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15224))
 // CS Name: ::Priority_Queue::FastPriorityQueueNode*
 class CORDL_TYPE FastPriorityQueueNode : public ::System::Object {
 public:
@@ -44,21 +44,21 @@ public:
 
   constexpr void __cordl_internal_set__QueueIndex_k__BackingField(int32_t value);
 
-  /// @brief Method get_Priority, addr 0x2321e08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Priority, addr 0xe48718, size 0x8, virtual false, abstract: false, final false
   inline float_t get_Priority();
 
-  /// @brief Method set_Priority, addr 0x2321e10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Priority, addr 0xe48720, size 0x8, virtual false, abstract: false, final false
   inline void set_Priority(float_t value);
 
-  /// @brief Method get_QueueIndex, addr 0x2321e18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_QueueIndex, addr 0xe48728, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_QueueIndex();
 
-  /// @brief Method set_QueueIndex, addr 0x2321e20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_QueueIndex, addr 0xe48730, size 0x8, virtual false, abstract: false, final false
   inline void set_QueueIndex(int32_t value);
 
   static inline ::Priority_Queue::FastPriorityQueueNode* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2321e28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe48738, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FastPriorityQueueNode", modifiers: "&&", def_value: None }]

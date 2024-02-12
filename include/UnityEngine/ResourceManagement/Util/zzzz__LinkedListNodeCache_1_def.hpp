@@ -24,7 +24,7 @@ namespace UnityEngine::ResourceManagement::Util {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13981))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13994))
 // CS Name: ::UnityEngine.ResourceManagement.Util::LinkedListNodeCache`1<T>*
 class CORDL_TYPE LinkedListNodeCache_1 : public ::System::Object {
 public:

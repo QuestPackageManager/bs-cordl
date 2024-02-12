@@ -45,29 +45,29 @@ public:
 
   constexpr void __cordl_internal_set_certificates(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method GetInstance, addr 0xe8eac4, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xeb8954, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Esf::CertificateValues* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::CertificateValues* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xe8ec4c, size 0x350, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeb8adc, size 0x350, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::CertificateValues*
   New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*, ::Array<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*>*> certificates);
 
-  /// @brief Method .ctor, addr 0xe8ef9c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeb8e2c, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*, ::Array<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*>*> certificates);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::CertificateValues* New_ctor(::System::Collections::IEnumerable* certificates);
 
-  /// @brief Method .ctor, addr 0xe8f060, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeb8ef0, size 0x1a4, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IEnumerable* certificates);
 
-  /// @brief Method GetCertificates, addr 0xe8f204, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetCertificates, addr 0xeb9094, size 0x114, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*, ::Array<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*>*> GetCertificates();
 
-  /// @brief Method ToAsn1Object, addr 0xe8f318, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xeb91a8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "CertificateValues", modifiers: "&&", def_value: None }]

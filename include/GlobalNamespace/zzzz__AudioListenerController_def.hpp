@@ -14,8 +14,8 @@ MARK_REF_PTR_T(::GlobalNamespace::AudioListenerController);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4046))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3992))
 // CS Name: ::AudioListenerController*
 class CORDL_TYPE AudioListenerController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -31,24 +31,24 @@ public:
 
   constexpr void __cordl_internal_set__startAudioListenerPauseState(bool value);
 
-  /// @brief Method get_isPaused, addr 0x222afe0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isPaused, addr 0x22b4c80, size 0x8, virtual false, abstract: false, final false
   inline bool get_isPaused();
 
-  /// @brief Method Awake, addr 0x222afe8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x22b4c88, size 0x20, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnDestroy, addr 0x222b008, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x22b4ca8, size 0xc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Pause, addr 0x222b014, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Pause, addr 0x22b4cb4, size 0xc, virtual false, abstract: false, final false
   inline void Pause();
 
-  /// @brief Method Resume, addr 0x222b020, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Resume, addr 0x22b4cc0, size 0xc, virtual false, abstract: false, final false
   inline void Resume();
 
   static inline ::GlobalNamespace::AudioListenerController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x222b02c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b4ccc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AudioListenerController", modifiers: "&&", def_value: None }]

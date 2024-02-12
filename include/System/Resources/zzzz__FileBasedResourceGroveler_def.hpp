@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::System::Resources::FileBasedResourceGroveler);
 namespace System::Resources {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3433))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3429))
 // CS Name: ::System.Resources::FileBasedResourceGroveler*
 class CORDL_TYPE FileBasedResourceGroveler : public ::System::Object {
 public:
@@ -43,7 +43,7 @@ public:
 
   static inline ::System::Resources::FileBasedResourceGroveler* New_ctor(::System::Resources::__ResourceManager__ResourceManagerMediator* mediator);
 
-  /// @brief Method .ctor, addr 0x24e0f64, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24ff620, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Resources::__ResourceManager__ResourceManagerMediator* mediator);
 
   // Ctor Parameters [CppParam { name: "", ty: "FileBasedResourceGroveler", modifiers: "&&", def_value: None }]

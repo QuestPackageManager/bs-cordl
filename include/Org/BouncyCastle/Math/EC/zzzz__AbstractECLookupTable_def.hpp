@@ -41,12 +41,12 @@ public:
   /// @brief Method get_Size, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_Size();
 
-  /// @brief Method LookupVar, addr 0xfcbc94, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method LookupVar, addr 0xff8b24, size 0xc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* LookupVar(int32_t index);
 
   static inline ::Org::BouncyCastle::Math::EC::AbstractECLookupTable* New_ctor();
 
-  /// @brief Method .ctor, addr 0xfcb8c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xff8750, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AbstractECLookupTable", modifiers: "&&", def_value: None }]

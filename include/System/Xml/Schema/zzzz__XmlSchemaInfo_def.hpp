@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaInfo);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11722)), TypeDefinitionIndex(TypeDefinitionIndex(11744))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11729))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11620)), TypeDefinitionIndex(TypeDefinitionIndex(11642))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11627))
 // CS Name: ::System.Xml.Schema::XmlSchemaInfo*
 class CORDL_TYPE XmlSchemaInfo : public ::System::Object {
 public:
@@ -134,36 +134,36 @@ public:
 
   static inline ::System::Xml::Schema::XmlSchemaInfo* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28c8b5c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28cb1c4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Xml::Schema::XmlSchemaInfo* New_ctor(::System::Xml::Schema::XmlSchemaValidity validity);
 
-  /// @brief Method .ctor, addr 0x28c8ba8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28cb210, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaValidity validity);
 
-  /// @brief Method get_Validity, addr 0x28c8be4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Validity, addr 0x28cb24c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Xml::Schema::XmlSchemaValidity get_Validity();
 
-  /// @brief Method get_IsDefault, addr 0x28c8bec, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsDefault, addr 0x28cb254, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsDefault();
 
-  /// @brief Method get_IsNil, addr 0x28c8bf4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsNil, addr 0x28cb25c, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsNil();
 
-  /// @brief Method get_MemberType, addr 0x28c8bfc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_MemberType, addr 0x28cb264, size 0x8, virtual true, abstract: false, final true
   inline ::System::Xml::Schema::XmlSchemaSimpleType* get_MemberType();
 
-  /// @brief Method get_SchemaType, addr 0x28c8c04, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_SchemaType, addr 0x28cb26c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Xml::Schema::XmlSchemaType* get_SchemaType();
 
-  /// @brief Method get_SchemaElement, addr 0x28c8c0c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_SchemaElement, addr 0x28cb274, size 0x8, virtual true, abstract: false, final true
   inline ::System::Xml::Schema::XmlSchemaElement* get_SchemaElement();
 
-  /// @brief Method get_SchemaAttribute, addr 0x28c8c14, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_SchemaAttribute, addr 0x28cb27c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Xml::Schema::XmlSchemaAttribute* get_SchemaAttribute();
 
-  /// @brief Method Clear, addr 0x28c8b8c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x28cb1f4, size 0x1c, virtual false, abstract: false, final false
   inline void Clear();
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaInfo", modifiers: "&&", def_value: None }]

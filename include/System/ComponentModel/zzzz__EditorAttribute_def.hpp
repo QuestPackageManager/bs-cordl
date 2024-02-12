@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::System::ComponentModel::EditorAttribute);
 namespace System::ComponentModel {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9422))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7432))
 // CS Name: ::System.ComponentModel::EditorAttribute*
 class CORDL_TYPE EditorAttribute : public ::System::Attribute {
 public:
@@ -60,22 +60,22 @@ public:
 
   static inline ::System::ComponentModel::EditorAttribute* New_ctor(::StringW typeName, ::StringW baseTypeName);
 
-  /// @brief Method .ctor, addr 0x290ece4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x291334c, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::StringW typeName, ::StringW baseTypeName);
 
-  /// @brief Method get_EditorBaseTypeName, addr 0x290ed74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EditorBaseTypeName, addr 0x29133dc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_EditorBaseTypeName();
 
-  /// @brief Method get_EditorTypeName, addr 0x290ed7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EditorTypeName, addr 0x29133e4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_EditorTypeName();
 
-  /// @brief Method get_TypeId, addr 0x290ed84, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method get_TypeId, addr 0x29133ec, size 0x8c, virtual true, abstract: false, final false
   inline ::System::Object* get_TypeId();
 
-  /// @brief Method Equals, addr 0x290ee10, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2913478, size 0xa4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x290eeb4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x291351c, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "EditorAttribute", modifiers: "&&", def_value: None }]

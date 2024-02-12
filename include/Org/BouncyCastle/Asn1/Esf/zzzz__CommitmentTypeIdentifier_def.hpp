@@ -67,7 +67,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Esf::CommitmentTypeIdentifier* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe8f3c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeb9250, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CommitmentTypeIdentifier", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::AnimatorRecorderMode);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14875))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14748))
 // CS Name: ::UnityEngine::AnimatorRecorderMode
 struct CORDL_TYPE AnimatorRecorderMode {
 public:

@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Utilities::ReadOnlyArrayExtensions);
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6702))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5961))
 // CS Name: ::UnityEngine.InputSystem.Utilities::ReadOnlyArrayExtensions*
 class CORDL_TYPE ReadOnlyArrayExtensions : public ::System::Object {
 public:

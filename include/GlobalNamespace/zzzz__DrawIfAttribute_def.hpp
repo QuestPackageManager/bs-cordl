@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::GlobalNamespace::DrawIfAttribute);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16249))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16404))
 // CS Name: ::DrawIfAttribute::DisablingType
 struct CORDL_TYPE __DrawIfAttribute__DisablingType {
 public:
@@ -78,8 +78,8 @@ static_assert(offsetof(::GlobalNamespace::__DrawIfAttribute__DisablingType, valu
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10170)), TypeDefinitionIndex(TypeDefinitionIndex(16249))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16250))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8914)), TypeDefinitionIndex(TypeDefinitionIndex(16404))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16405))
 // CS Name: ::DrawIfAttribute*
 class CORDL_TYPE DrawIfAttribute : public ::UnityEngine::PropertyAttribute {
 public:
@@ -124,13 +124,13 @@ public:
 
   static inline ::GlobalNamespace::DrawIfAttribute* New_ctor(::StringW propertyName, ::System::Object* value, ::GlobalNamespace::__DrawIfAttribute__DisablingType disablingType);
 
-  /// @brief Method .ctor, addr 0x2101038, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe46450, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW propertyName, ::System::Object* value, ::GlobalNamespace::__DrawIfAttribute__DisablingType disablingType);
 
   static inline ::GlobalNamespace::DrawIfAttribute* New_ctor(::StringW propertyName, ::System::Object* value, ::System::Object* orValue,
                                                              ::GlobalNamespace::__DrawIfAttribute__DisablingType disablingType);
 
-  /// @brief Method .ctor, addr 0x2101074, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe4648c, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::StringW propertyName, ::System::Object* value, ::System::Object* orValue, ::GlobalNamespace::__DrawIfAttribute__DisablingType disablingType);
 
   // Ctor Parameters [CppParam { name: "", ty: "DrawIfAttribute", modifiers: "&&", def_value: None }]

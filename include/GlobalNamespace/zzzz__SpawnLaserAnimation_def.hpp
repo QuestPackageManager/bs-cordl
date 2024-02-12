@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SpawnLaserAnimation);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 73, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4883))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4237))
 // CS Name: ::SpawnLaserAnimation*
 class CORDL_TYPE SpawnLaserAnimation : public ::UnityEngine::MonoBehaviour {
 public:
@@ -108,15 +108,15 @@ public:
 
   constexpr void __cordl_internal_set__initialized(bool value);
 
-  /// @brief Method InitIfNeeded, addr 0x23a0cd4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method InitIfNeeded, addr 0x2360e04, size 0xc0, virtual false, abstract: false, final false
   inline void InitIfNeeded();
 
-  /// @brief Method LateUpdate, addr 0x23a0d94, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x2360ec4, size 0x108, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::SpawnLaserAnimation* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23a0e9c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2360fcc, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SpawnLaserAnimation", modifiers: "&&", def_value: None }]

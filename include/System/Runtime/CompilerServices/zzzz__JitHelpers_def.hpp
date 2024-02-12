@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::JitHelpers);
 namespace System::Runtime::CompilerServices {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3418))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3414))
 // CS Name: ::System.Runtime.CompilerServices::JitHelpers*
 class CORDL_TYPE JitHelpers : public ::System::Object {
 public:

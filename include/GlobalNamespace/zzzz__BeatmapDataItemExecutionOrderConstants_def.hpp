@@ -16,14 +16,14 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapDataItemExecutionOrderConstants);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14726))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15110))
 // CS Name: ::BeatmapDataItemExecutionOrderConstants*
 class CORDL_TYPE BeatmapDataItemExecutionOrderConstants : public ::System::Object {
 public:
   // Declarations
   static inline ::GlobalNamespace::BeatmapDataItemExecutionOrderConstants* New_ctor();
 
-  /// @brief Method .ctor, addr 0xdfe048, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe0e50c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataItemExecutionOrderConstants", modifiers: "&&", def_value: None }]

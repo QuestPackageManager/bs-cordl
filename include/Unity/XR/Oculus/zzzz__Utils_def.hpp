@@ -22,24 +22,24 @@ MARK_REF_PTR_T(::Unity::XR::Oculus::Utils);
 namespace Unity::XR::Oculus {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15125))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15165))
 // CS Name: ::Unity.XR.Oculus::Utils*
 class CORDL_TYPE Utils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SetColorScaleAndOffset, addr 0x2c770b4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method SetColorScaleAndOffset, addr 0x2c73c20, size 0x40, virtual false, abstract: false, final false
   static inline void SetColorScaleAndOffset(::UnityEngine::Vector4 colorScale, ::UnityEngine::Vector4 colorOffset);
 
-  /// @brief Method GetSystemHeadsetType, addr 0x2c770fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetSystemHeadsetType, addr 0x2c73c68, size 0x4, virtual false, abstract: false, final false
   static inline ::Unity::XR::Oculus::SystemHeadset GetSystemHeadsetType();
 
-  /// @brief Method SetFoveationLevel, addr 0x2c77104, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method SetFoveationLevel, addr 0x2c73c70, size 0x8c, virtual false, abstract: false, final false
   static inline bool SetFoveationLevel(int32_t level);
 
-  /// @brief Method EnableDynamicFFR, addr 0x2c77198, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method EnableDynamicFFR, addr 0x2c73d04, size 0x8c, virtual false, abstract: false, final false
   static inline bool EnableDynamicFFR(bool enable);
 
-  /// @brief Method GetFoveationLevel, addr 0x2c7722c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetFoveationLevel, addr 0x2c73d98, size 0x78, virtual false, abstract: false, final false
   static inline int32_t GetFoveationLevel();
 
   // Ctor Parameters [CppParam { name: "", ty: "Utils", modifiers: "&&", def_value: None }]

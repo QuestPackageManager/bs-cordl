@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::UnityEngine::ILogHandler);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10055))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8787))
 // CS Name: ::UnityEngine::ILogHandler*
 class CORDL_TYPE ILogHandler {
 public:

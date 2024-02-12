@@ -77,16 +77,16 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Generators::BaseKdfBytesGenerator* New_ctor(int32_t counterStart, ::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method .ctor, addr 0xef5420, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf202b0, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(int32_t counterStart, ::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method Init, addr 0xef5450, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0xf202e0, size 0x110, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::IDerivationParameters* parameters);
 
-  /// @brief Method get_Digest, addr 0xef5560, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Digest, addr 0xf203f0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::IDigest* get_Digest();
 
-  /// @brief Method GenerateBytes, addr 0xef5568, size 0x534, virtual true, abstract: false, final false
+  /// @brief Method GenerateBytes, addr 0xf203f8, size 0x534, virtual true, abstract: false, final false
   inline int32_t GenerateBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff, int32_t length);
 
   // Ctor Parameters [CppParam { name: "", ty: "BaseKdfBytesGenerator", modifiers: "&&", def_value: None }]

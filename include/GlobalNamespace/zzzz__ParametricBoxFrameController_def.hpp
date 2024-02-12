@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ParametricBoxFrameController);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14488))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8995))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14382))
 // CS Name: ::ParametricBoxFrameController*
 class CORDL_TYPE ParametricBoxFrameController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -112,24 +112,24 @@ public:
 
   static inline int32_t getStaticF__sizeParamsID();
 
-  /// @brief Method set_localPosition, addr 0x21095cc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_localPosition, addr 0x219dd74, size 0x48, virtual false, abstract: false, final false
   inline void set_localPosition(::UnityEngine::Vector3 value);
 
-  /// @brief Method Awake, addr 0x2109614, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x219ddbc, size 0x20, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnEnable, addr 0x2109634, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x219dddc, size 0x28, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable, addr 0x2109778, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x219df20, size 0x20, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method Refresh, addr 0x210965c, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x219de04, size 0x11c, virtual false, abstract: false, final false
   inline void Refresh();
 
   static inline ::GlobalNamespace::ParametricBoxFrameController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2109798, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x219df40, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ParametricBoxFrameController", modifiers: "&&", def_value: None }]

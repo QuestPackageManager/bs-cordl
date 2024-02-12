@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::UnityEngine::Playables::PlayableBehaviour);
 namespace UnityEngine::Playables {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10425))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9193))
 // CS Name: ::UnityEngine.Playables::PlayableBehaviour*
 class CORDL_TYPE PlayableBehaviour : public ::System::Object {
 public:
@@ -49,34 +49,34 @@ public:
 
   static inline ::UnityEngine::Playables::PlayableBehaviour* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2cf5c10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d008ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method OnGraphStart, addr 0x2cf5c18, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnGraphStart, addr 0x2d008f4, size 0x4, virtual true, abstract: false, final false
   inline void OnGraphStart(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method OnGraphStop, addr 0x2cf5c1c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnGraphStop, addr 0x2d008f8, size 0x4, virtual true, abstract: false, final false
   inline void OnGraphStop(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method OnPlayableCreate, addr 0x2cf5c20, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnPlayableCreate, addr 0x2d008fc, size 0x4, virtual true, abstract: false, final false
   inline void OnPlayableCreate(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method OnPlayableDestroy, addr 0x2cf5c24, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnPlayableDestroy, addr 0x2d00900, size 0x4, virtual true, abstract: false, final false
   inline void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method OnBehaviourPlay, addr 0x2cf5c28, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnBehaviourPlay, addr 0x2d00904, size 0x4, virtual true, abstract: false, final false
   inline void OnBehaviourPlay(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method OnBehaviourPause, addr 0x2cf5c2c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnBehaviourPause, addr 0x2d00908, size 0x4, virtual true, abstract: false, final false
   inline void OnBehaviourPause(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method PrepareFrame, addr 0x2cf5c30, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method PrepareFrame, addr 0x2d0090c, size 0x4, virtual true, abstract: false, final false
   inline void PrepareFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method ProcessFrame, addr 0x2cf5c34, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ProcessFrame, addr 0x2d00910, size 0x4, virtual true, abstract: false, final false
   inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* playerData);
 
-  /// @brief Method Clone, addr 0x2cf5c38, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x2d00914, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* Clone();
 
   // Ctor Parameters [CppParam { name: "", ty: "PlayableBehaviour", modifiers: "&&", def_value: None }]

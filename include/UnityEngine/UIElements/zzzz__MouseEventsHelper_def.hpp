@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::MouseEventsHelper);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7169))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6428))
 // CS Name: ::UnityEngine.UIElements::MouseEventsHelper*
 class CORDL_TYPE MouseEventsHelper : public ::System::Object {
 public:
@@ -34,7 +34,7 @@ public:
   static inline void SendEnterLeave(::UnityEngine::UIElements::VisualElement* previousTopElementUnderMouse, ::UnityEngine::UIElements::VisualElement* currentTopElementUnderMouse,
                                     ::UnityEngine::UIElements::IMouseEvent* triggerEvent, ::UnityEngine::Vector2 mousePosition);
 
-  /// @brief Method SendMouseOverMouseOut, addr 0x2e495a8, size 0x374, virtual false, abstract: false, final false
+  /// @brief Method SendMouseOverMouseOut, addr 0x2e64990, size 0x374, virtual false, abstract: false, final false
   static inline void SendMouseOverMouseOut(::UnityEngine::UIElements::VisualElement* previousTopElementUnderMouse, ::UnityEngine::UIElements::VisualElement* currentTopElementUnderMouse,
                                            ::UnityEngine::UIElements::IMouseEvent* triggerEvent, ::UnityEngine::Vector2 mousePosition);
 

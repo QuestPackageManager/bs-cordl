@@ -51,8 +51,8 @@ MARK_VAL_T(::GlobalNamespace::__OVRKeyboard__TrackedKeyboardState);
 // SizeInfo { instance_size: 40, native_size: 56, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8025))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(8996))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8016))
 // CS Name: ::OVRKeyboard::TrackedKeyboardState
 struct CORDL_TYPE __OVRKeyboard__TrackedKeyboardState {
 public:
@@ -116,8 +116,8 @@ static_assert(offsetof(::GlobalNamespace::__OVRKeyboard__TrackedKeyboardState, t
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7790)), TypeDefinitionIndex(TypeDefinitionIndex(7791)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8026))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7841)), TypeDefinitionIndex(TypeDefinitionIndex(7842)), TypeDefinitionIndex(TypeDefinitionIndex(8993))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8017))
 // CS Name: ::OVRKeyboard::TrackedKeyboardInfo
 struct CORDL_TYPE __OVRKeyboard__TrackedKeyboardInfo {
 public:
@@ -171,7 +171,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRKeyboard__TrackedKeyboardInfo, Su
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8027))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8018))
 // CS Name: ::OVRKeyboard*
 class CORDL_TYPE OVRKeyboard : public ::System::Object {
 public:
@@ -180,13 +180,13 @@ public:
 
   using TrackedKeyboardState = ::GlobalNamespace::__OVRKeyboard__TrackedKeyboardState;
 
-  /// @brief Method GetKeyboardState, addr 0x2793764, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method GetKeyboardState, addr 0x27ada38, size 0x154, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRKeyboard__TrackedKeyboardState GetKeyboardState();
 
-  /// @brief Method GetSystemKeyboardInfo, addr 0x27938b8, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method GetSystemKeyboardInfo, addr 0x27adb8c, size 0xe4, virtual false, abstract: false, final false
   static inline bool GetSystemKeyboardInfo(::GlobalNamespace::__OVRPlugin__TrackedKeyboardQueryFlags keyboardQueryFlags, ByRef<::GlobalNamespace::__OVRKeyboard__TrackedKeyboardInfo> keyboardInfo);
 
-  /// @brief Method StopKeyboardTracking, addr 0x279399c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method StopKeyboardTracking, addr 0x27adc70, size 0x50, virtual false, abstract: false, final false
   static inline bool StopKeyboardTracking(::GlobalNamespace::__OVRKeyboard__TrackedKeyboardInfo keyboardInfo);
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRKeyboard", modifiers: "&&", def_value: None }]

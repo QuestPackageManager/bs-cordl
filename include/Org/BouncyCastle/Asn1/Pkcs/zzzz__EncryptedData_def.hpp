@@ -56,31 +56,31 @@ public:
 
   constexpr void __cordl_internal_set_data(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method GetInstance, addr 0xf876f0, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xfb2580, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptedData* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptedData* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xf87878, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfb2708, size 0x1e0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptedData* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* contentType,
                                                                          ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* encryptionAlgorithm, ::Org::BouncyCastle::Asn1::Asn1Encodable* content);
 
-  /// @brief Method .ctor, addr 0xf87a58, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfb28e8, size 0x184, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* contentType, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* encryptionAlgorithm,
                     ::Org::BouncyCastle::Asn1::Asn1Encodable* content);
 
-  /// @brief Method get_ContentType, addr 0xf87bdc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_ContentType, addr 0xfb2a6c, size 0x90, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_ContentType();
 
-  /// @brief Method get_EncryptionAlgorithm, addr 0xf87c6c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_EncryptionAlgorithm, addr 0xfb2afc, size 0x28, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_EncryptionAlgorithm();
 
-  /// @brief Method get_Content, addr 0xf87c94, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method get_Content, addr 0xfb2b24, size 0xc8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_Content();
 
-  /// @brief Method ToAsn1Object, addr 0xf87d5c, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xfb2bec, size 0x124, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "EncryptedData", modifiers: "&&", def_value: None }]

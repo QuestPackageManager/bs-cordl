@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::Newtonsoft::Json::JsonObjectAttribute);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Newtonsoft::Json {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(11811)), TypeDefinitionIndex(TypeDefinitionIndex(11815)),
-// TypeDefinitionIndex(TypeDefinitionIndex(11821)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4756 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(11818)) CS
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(11709)), TypeDefinitionIndex(TypeDefinitionIndex(11713)),
+// TypeDefinitionIndex(TypeDefinitionIndex(11719)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4739 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(11716)) CS
 // Name: ::Newtonsoft.Json::JsonObjectAttribute*
 class CORDL_TYPE JsonObjectAttribute : public ::Newtonsoft::Json::JsonContainerAttribute {
 public:
@@ -52,31 +52,31 @@ public:
 
   constexpr void __cordl_internal_set__itemRequired(::System::Nullable_1<::Newtonsoft::Json::Required> value);
 
-  /// @brief Method get_MemberSerialization, addr 0x263f418, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MemberSerialization, addr 0x26635d4, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::MemberSerialization get_MemberSerialization();
 
-  /// @brief Method set_MemberSerialization, addr 0x263f420, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MemberSerialization, addr 0x26635dc, size 0x8, virtual false, abstract: false, final false
   inline void set_MemberSerialization(::Newtonsoft::Json::MemberSerialization value);
 
-  /// @brief Method get_ItemRequired, addr 0x263f428, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_ItemRequired, addr 0x26635e4, size 0x50, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Required get_ItemRequired();
 
-  /// @brief Method set_ItemRequired, addr 0x263f478, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_ItemRequired, addr 0x2663634, size 0x68, virtual false, abstract: false, final false
   inline void set_ItemRequired(::Newtonsoft::Json::Required value);
 
   static inline ::Newtonsoft::Json::JsonObjectAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x263f4e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x266369c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Newtonsoft::Json::JsonObjectAttribute* New_ctor(::Newtonsoft::Json::MemberSerialization memberSerialization);
 
-  /// @brief Method .ctor, addr 0x263f4e8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26636a4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::MemberSerialization memberSerialization);
 
   static inline ::Newtonsoft::Json::JsonObjectAttribute* New_ctor(::StringW id);
 
-  /// @brief Method .ctor, addr 0x263f510, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26636cc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW id);
 
   // Ctor Parameters [CppParam { name: "", ty: "JsonObjectAttribute", modifiers: "&&", def_value: None }]

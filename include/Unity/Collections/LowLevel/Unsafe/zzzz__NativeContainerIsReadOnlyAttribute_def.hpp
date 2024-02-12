@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::Unity::Collections::LowLevel::Unsafe::NativeContainerIsReadOnly
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10015))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8746))
 // CS Name: ::Unity.Collections.LowLevel.Unsafe::NativeContainerIsReadOnlyAttribute*
 class CORDL_TYPE NativeContainerIsReadOnlyAttribute : public ::System::Attribute {
 public:

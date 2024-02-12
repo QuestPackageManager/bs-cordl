@@ -53,25 +53,25 @@ public:
 
   static inline ::Org::BouncyCastle::Pkcs::Pkcs12Entry* New_ctor(::System::Collections::IDictionary* attributes);
 
-  /// @brief Method .ctor, addr 0x10d53d0, size 0x54c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1103260, size 0x54c, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IDictionary* attributes);
 
-  /// @brief Method GetBagAttribute, addr 0x10d591c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method GetBagAttribute, addr 0x11037ac, size 0xfc, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* GetBagAttribute(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetBagAttribute, addr 0x10d5a18, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetBagAttribute, addr 0x11038a8, size 0xf4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* GetBagAttribute(::StringW oid);
 
-  /// @brief Method GetBagAttributeKeys, addr 0x10d5b0c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method GetBagAttributeKeys, addr 0x110399c, size 0x118, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* GetBagAttributeKeys();
 
-  /// @brief Method get_Item, addr 0x10d5c24, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x1103ab4, size 0xfc, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Item(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method get_Item, addr 0x10d5d20, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x1103bb0, size 0xf4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Item(::StringW oid);
 
-  /// @brief Method get_BagAttributeKeys, addr 0x10d5e14, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method get_BagAttributeKeys, addr 0x1103ca4, size 0xe4, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerable* get_BagAttributeKeys();
 
   // Ctor Parameters [CppParam { name: "", ty: "Pkcs12Entry", modifiers: "&&", def_value: None }]

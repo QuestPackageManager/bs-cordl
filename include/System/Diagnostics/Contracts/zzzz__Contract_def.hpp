@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::System::Diagnostics::Contracts::Contract);
 namespace System::Diagnostics::Contracts {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3742))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3740))
 // CS Name: ::System.Diagnostics.Contracts::Contract*
 class CORDL_TYPE Contract : public ::System::Object {
 public:

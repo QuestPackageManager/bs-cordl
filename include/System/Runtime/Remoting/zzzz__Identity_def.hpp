@@ -117,46 +117,46 @@ public:
 
   static inline ::System::Runtime::Remoting::Identity* New_ctor(::StringW objectUri);
 
-  /// @brief Method .ctor, addr 0x2485068, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24a70dc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW objectUri);
 
   /// @brief Method CreateObjRef, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Runtime::Remoting::ObjRef* CreateObjRef(::System::Type* requestedType);
 
-  /// @brief Method get_ChannelSink, addr 0x2485090, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ChannelSink, addr 0x24a7104, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::IMessageSink* get_ChannelSink();
 
-  /// @brief Method set_ChannelSink, addr 0x2485098, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ChannelSink, addr 0x24a710c, size 0x8, virtual false, abstract: false, final false
   inline void set_ChannelSink(::System::Runtime::Remoting::Messaging::IMessageSink* value);
 
-  /// @brief Method get_EnvoySink, addr 0x24850a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EnvoySink, addr 0x24a7114, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::IMessageSink* get_EnvoySink();
 
-  /// @brief Method get_ObjectUri, addr 0x24850a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectUri, addr 0x24a711c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ObjectUri();
 
-  /// @brief Method set_ObjectUri, addr 0x24850b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ObjectUri, addr 0x24a7124, size 0x8, virtual false, abstract: false, final false
   inline void set_ObjectUri(::StringW value);
 
-  /// @brief Method get_IsConnected, addr 0x24850b8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsConnected, addr 0x24a712c, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsConnected();
 
-  /// @brief Method get_Disposed, addr 0x24850c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Disposed, addr 0x24a713c, size 0x8, virtual false, abstract: false, final false
   inline bool get_Disposed();
 
-  /// @brief Method set_Disposed, addr 0x24850d0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Disposed, addr 0x24a7144, size 0xc, virtual false, abstract: false, final false
   inline void set_Disposed(bool value);
 
-  /// @brief Method get_ClientDynamicProperties, addr 0x24850dc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_ClientDynamicProperties, addr 0x24a7150, size 0x6c, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::Contexts::DynamicPropertyCollection* get_ClientDynamicProperties();
 
-  /// @brief Method get_HasServerDynamicSinks, addr 0x2485148, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_HasServerDynamicSinks, addr 0x24a71bc, size 0x14, virtual false, abstract: false, final false
   inline bool get_HasServerDynamicSinks();
 
-  /// @brief Method NotifyClientDynamicSinks, addr 0x248515c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method NotifyClientDynamicSinks, addr 0x24a71d0, size 0x74, virtual false, abstract: false, final false
   inline void NotifyClientDynamicSinks(bool start, ::System::Runtime::Remoting::Messaging::IMessage* req_msg, bool client_site, bool async);
 
-  /// @brief Method NotifyServerDynamicSinks, addr 0x24851d0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method NotifyServerDynamicSinks, addr 0x24a7244, size 0x74, virtual false, abstract: false, final false
   inline void NotifyServerDynamicSinks(bool start, ::System::Runtime::Remoting::Messaging::IMessage* req_msg, bool client_site, bool async);
 
   // Ctor Parameters [CppParam { name: "", ty: "Identity", modifiers: "&&", def_value: None }]

@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::GlobalNamespace::FxBeatmapEventData);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14727))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14731))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15111))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15115))
 // CS Name: ::FxBeatmapEventData*
 class CORDL_TYPE FxBeatmapEventData : public ::GlobalNamespace::BeatmapEventData {
 public:
@@ -51,10 +51,10 @@ public:
 
   static inline ::GlobalNamespace::FxBeatmapEventData* New_ctor(float_t time, int32_t groupId, int32_t elementId, bool usePreviousEventValue);
 
-  /// @brief Method .ctor, addr 0xdfe34c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe0e810, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(float_t time, int32_t groupId, int32_t elementId, bool usePreviousEventValue);
 
-  /// @brief Method SubtypeIdentifier, addr 0xdfe3b0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SubtypeIdentifier, addr 0xe0e874, size 0xc, virtual false, abstract: false, final false
   static inline int32_t SubtypeIdentifier(int32_t groupId, int32_t elementId);
 
   // Ctor Parameters [CppParam { name: "", ty: "FxBeatmapEventData", modifiers: "&&", def_value: None }]

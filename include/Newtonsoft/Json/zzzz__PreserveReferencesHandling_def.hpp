@@ -16,7 +16,7 @@ MARK_VAL_T(::Newtonsoft::Json::PreserveReferencesHandling);
 namespace Newtonsoft::Json {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11812))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11710))
 // CS Name: ::Newtonsoft.Json::PreserveReferencesHandling
 struct CORDL_TYPE PreserveReferencesHandling {
 public:

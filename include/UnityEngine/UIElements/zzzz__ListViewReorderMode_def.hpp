@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::ListViewReorderMode);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7068))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6327))
 // CS Name: ::UnityEngine.UIElements::ListViewReorderMode
 struct CORDL_TYPE ListViewReorderMode {
 public:

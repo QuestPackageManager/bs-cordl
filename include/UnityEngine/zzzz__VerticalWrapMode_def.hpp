@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::VerticalWrapMode);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15903))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15845))
 // CS Name: ::UnityEngine::VerticalWrapMode
 struct CORDL_TYPE VerticalWrapMode {
 public:

@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::Zenject::SubContainerCreatorCached);
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11294))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10436))
 // CS Name: ::Zenject::SubContainerCreatorCached*
 class CORDL_TYPE SubContainerCreatorCached : public ::System::Object {
 public:
@@ -70,10 +70,10 @@ public:
 
   static inline ::Zenject::SubContainerCreatorCached* New_ctor(::Zenject::ISubContainerCreator* subCreator);
 
-  /// @brief Method .ctor, addr 0x2f0d3ec, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f29534, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::ISubContainerCreator* subCreator);
 
-  /// @brief Method CreateSubContainer, addr 0x2f0d414, size 0x180, virtual true, abstract: false, final true
+  /// @brief Method CreateSubContainer, addr 0x2f2955c, size 0x180, virtual true, abstract: false, final true
   inline ::Zenject::DiContainer* CreateSubContainer(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::InjectContext* context);
 
   // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorCached", modifiers: "&&", def_value: None }]

@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::UnityEngine::Resources);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10265))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9009))
 // CS Name: ::UnityEngine::Resources*
 class CORDL_TYPE Resources : public ::System::Object {
 public:
@@ -37,40 +37,40 @@ public:
   /// @brief Method ConvertObjects, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<T, ::Array<T>*> ConvertObjects(::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> rawObjects);
 
-  /// @brief Method FindObjectsOfTypeAll, addr 0x2cde500, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method FindObjectsOfTypeAll, addr 0x2ce5594, size 0x68, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> FindObjectsOfTypeAll(::System::Type* type);
 
   /// @brief Method FindObjectsOfTypeAll, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<T, ::Array<T>*> FindObjectsOfTypeAll();
 
-  /// @brief Method Load, addr 0x2cde568, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x2ce55fc, size 0x84, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Object> Load(::StringW path);
 
   /// @brief Method Load, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T Load(::StringW path);
 
-  /// @brief Method Load, addr 0x2cddff8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x2ce508c, size 0x78, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Object> Load(::StringW path, ::System::Type* systemTypeInstance);
 
-  /// @brief Method LoadAsync, addr 0x2cde5ec, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method LoadAsync, addr 0x2ce5680, size 0x78, virtual false, abstract: false, final false
   static inline ::UnityEngine::ResourceRequest* LoadAsync(::StringW path, ::System::Type* type);
 
-  /// @brief Method LoadAll, addr 0x2cde664, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method LoadAll, addr 0x2ce56f8, size 0x78, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> LoadAll(::StringW path, ::System::Type* systemTypeInstance);
 
-  /// @brief Method LoadAll, addr 0x2cde6dc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method LoadAll, addr 0x2ce5770, size 0x84, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> LoadAll(::StringW path);
 
-  /// @brief Method GetBuiltinResource, addr 0x2cde760, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetBuiltinResource, addr 0x2ce57f4, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Object> GetBuiltinResource(::System::Type* type, ::StringW path);
 
   /// @brief Method GetBuiltinResource, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T GetBuiltinResource(::StringW path);
 
-  /// @brief Method UnloadAsset, addr 0x2cde7a4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method UnloadAsset, addr 0x2ce5838, size 0x68, virtual false, abstract: false, final false
   static inline void UnloadAsset(::UnityEngine::Object* assetToUnload);
 
-  /// @brief Method UnloadUnusedAssets, addr 0x2cde80c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method UnloadUnusedAssets, addr 0x2ce58a0, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::AsyncOperation* UnloadUnusedAssets();
 
   // Ctor Parameters [CppParam { name: "", ty: "Resources", modifiers: "&&", def_value: None }]

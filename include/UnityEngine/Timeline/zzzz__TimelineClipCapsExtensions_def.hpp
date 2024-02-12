@@ -21,30 +21,30 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::TimelineClipCapsExtensions);
 namespace UnityEngine::Timeline {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13872))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13825))
 // CS Name: ::UnityEngine.Timeline::TimelineClipCapsExtensions*
 class CORDL_TYPE TimelineClipCapsExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SupportsLooping, addr 0x2c62da4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SupportsLooping, addr 0x2c60910, size 0x18, virtual false, abstract: false, final false
   static inline bool SupportsLooping(::UnityEngine::Timeline::TimelineClip* clip);
 
-  /// @brief Method SupportsExtrapolation, addr 0x2c62dbc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SupportsExtrapolation, addr 0x2c60928, size 0x18, virtual false, abstract: false, final false
   static inline bool SupportsExtrapolation(::UnityEngine::Timeline::TimelineClip* clip);
 
-  /// @brief Method SupportsClipIn, addr 0x2c62dd4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SupportsClipIn, addr 0x2c60940, size 0x18, virtual false, abstract: false, final false
   static inline bool SupportsClipIn(::UnityEngine::Timeline::TimelineClip* clip);
 
-  /// @brief Method SupportsSpeedMultiplier, addr 0x2c62dec, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SupportsSpeedMultiplier, addr 0x2c60958, size 0x18, virtual false, abstract: false, final false
   static inline bool SupportsSpeedMultiplier(::UnityEngine::Timeline::TimelineClip* clip);
 
-  /// @brief Method SupportsBlending, addr 0x2c62e04, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SupportsBlending, addr 0x2c60970, size 0x18, virtual false, abstract: false, final false
   static inline bool SupportsBlending(::UnityEngine::Timeline::TimelineClip* clip);
 
-  /// @brief Method HasAll, addr 0x2c62e1c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method HasAll, addr 0x2c60988, size 0xc, virtual false, abstract: false, final false
   static inline bool HasAll(::UnityEngine::Timeline::ClipCaps caps, ::UnityEngine::Timeline::ClipCaps flags);
 
-  /// @brief Method HasAny, addr 0x2c55630, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method HasAny, addr 0x2c5319c, size 0xc, virtual false, abstract: false, final false
   static inline bool HasAny(::UnityEngine::Timeline::ClipCaps caps, ::UnityEngine::Timeline::ClipCaps flags);
 
   // Ctor Parameters [CppParam { name: "", ty: "TimelineClipCapsExtensions", modifiers: "&&", def_value: None }]

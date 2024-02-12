@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::GlobalNamespace::PracticeSettings);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4661))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11055))
 // CS Name: ::PracticeSettings*
 class CORDL_TYPE PracticeSettings : public ::System::Object {
 public:
@@ -54,43 +54,43 @@ public:
 
   constexpr void __cordl_internal_set__startInAdvanceAndClearNotes(bool value);
 
-  /// @brief Method get_startSongTime, addr 0x23730f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_startSongTime, addr 0x12b5e08, size 0x8, virtual false, abstract: false, final false
   inline float_t get_startSongTime();
 
-  /// @brief Method set_startSongTime, addr 0x2373100, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_startSongTime, addr 0x12b5e10, size 0x8, virtual false, abstract: false, final false
   inline void set_startSongTime(float_t value);
 
-  /// @brief Method get_songSpeedMul, addr 0x2373108, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_songSpeedMul, addr 0x12b5e18, size 0x8, virtual false, abstract: false, final false
   inline float_t get_songSpeedMul();
 
-  /// @brief Method set_songSpeedMul, addr 0x2373110, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_songSpeedMul, addr 0x12b5e20, size 0x8, virtual false, abstract: false, final false
   inline void set_songSpeedMul(float_t value);
 
-  /// @brief Method get_startInAdvanceAndClearNotes, addr 0x2373118, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_startInAdvanceAndClearNotes, addr 0x12b5e28, size 0x8, virtual false, abstract: false, final false
   inline bool get_startInAdvanceAndClearNotes();
 
-  /// @brief Method set_startInAdvanceAndClearNotes, addr 0x2373120, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_startInAdvanceAndClearNotes, addr 0x12b5e30, size 0xc, virtual false, abstract: false, final false
   inline void set_startInAdvanceAndClearNotes(bool value);
 
-  /// @brief Method get_defaultPracticeSettings, addr 0x237312c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_defaultPracticeSettings, addr 0x12b5e3c, size 0x74, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PracticeSettings* get_defaultPracticeSettings();
 
   static inline ::GlobalNamespace::PracticeSettings* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23731a0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12afe74, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::PracticeSettings* New_ctor(::GlobalNamespace::PracticeSettings* practiceSettings);
 
-  /// @brief Method .ctor, addr 0x23731f0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12b5ec8, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::PracticeSettings* practiceSettings);
 
   static inline ::GlobalNamespace::PracticeSettings* New_ctor(float_t startSongTime, float_t songSpeedMul);
 
-  /// @brief Method .ctor, addr 0x2373230, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12b457c, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(float_t startSongTime, float_t songSpeedMul);
 
-  /// @brief Method ResetToDefault, addr 0x23731d8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ResetToDefault, addr 0x12b5eb0, size 0x18, virtual false, abstract: false, final false
   inline void ResetToDefault();
 
   // Ctor Parameters [CppParam { name: "", ty: "PracticeSettings", modifiers: "&&", def_value: None }]

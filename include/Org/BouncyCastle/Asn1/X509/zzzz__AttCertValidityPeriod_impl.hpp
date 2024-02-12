@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::AttCertValidityPeriod* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::X509::AttCertValidityPeriod::GetInstance)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x1083f68;
+  constexpr static std::size_t addrs = 0x10b0df8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::AttCertValidityPeriod* (*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(
     &::Org::BouncyCastle::Asn1::X509::AttCertValidityPeriod::GetInstance)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x1084200;
+  constexpr static std::size_t addrs = 0x10b1090;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::AttCertValidityPeriod::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::X509::AttCertValidityPeriod::_ctor)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x10840f0;
+  constexpr static std::size_t addrs = 0x10b0f80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::AttCertValidityPeriod::*)(
     ::Org::BouncyCastle::Asn1::DerGeneralizedTime*, ::Org::BouncyCastle::Asn1::DerGeneralizedTime*)>(&::Org::BouncyCastle::Asn1::X509::AttCertValidityPeriod::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x1084218;
+  constexpr static std::size_t addrs = 0x10b10a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerGeneralizedTime* (::Org::BouncyCastle::Asn1::X509::AttCertValidityPeriod::*)()>(
     &::Org::BouncyCastle::Asn1::X509::AttCertValidityPeriod::get_NotBeforeTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1084244;
+  constexpr static std::size_t addrs = 0x10b10d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::AttCertValidityPeriod*>::get(),
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerGeneralizedTime* (::Org::BouncyCastle::Asn1::X509::AttCertValidityPeriod::*)()>(
     &::Org::BouncyCastle::Asn1::X509::AttCertValidityPeriod::get_NotAfterTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x108424c;
+  constexpr static std::size_t addrs = 0x10b10dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::AttCertValidityPeriod*>::get(),
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::X509::AttCertValidityPeriod::*)()>(
     &::Org::BouncyCastle::Asn1::X509::AttCertValidityPeriod::ToAsn1Object)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x1084254;
+  constexpr static std::size_t addrs = 0x10b10e4;
 
   inline static ::MethodInfo const* methodInfo() {
 

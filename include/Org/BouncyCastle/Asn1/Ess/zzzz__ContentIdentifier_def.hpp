@@ -42,23 +42,23 @@ public:
 
   constexpr void __cordl_internal_set_value(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
-  /// @brief Method GetInstance, addr 0xe99c58, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xec3ae8, size 0x194, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ess::ContentIdentifier* GetInstance(::System::Object* o);
 
   static inline ::Org::BouncyCastle::Asn1::Ess::ContentIdentifier* New_ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
-  /// @brief Method .ctor, addr 0xe99dec, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xec3c7c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
   static inline ::Org::BouncyCastle::Asn1::Ess::ContentIdentifier* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0xe99e14, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xec3ca4, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method get_Value, addr 0xe99e90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0xec3d20, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_Value();
 
-  /// @brief Method ToAsn1Object, addr 0xe99e98, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xec3d28, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "ContentIdentifier", modifiers: "&&", def_value: None }]

@@ -29,7 +29,7 @@ namespace TMPro {
 template <typename A>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12298))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12196))
 // CS Name: ::TMPro::FastAction`1<A>*
 class CORDL_TYPE FastAction_1 : public ::System::Object {
 public:

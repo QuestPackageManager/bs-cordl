@@ -81,25 +81,25 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::KeyRecRepContent* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xe67fdc, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe92e6c, size 0x19c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance, addr 0xe68178, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xe93008, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::KeyRecRepContent* GetInstance(::System::Object* obj);
 
-  /// @brief Method get_Status, addr 0xe68300, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Status, addr 0xe93190, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* get_Status();
 
-  /// @brief Method get_NewSigCert, addr 0xe68308, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NewSigCert, addr 0xe93198, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* get_NewSigCert();
 
-  /// @brief Method GetCACerts, addr 0xe68310, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method GetCACerts, addr 0xe931a0, size 0xfc, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*, ::Array<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*>*> GetCACerts();
 
-  /// @brief Method GetKeyPairHist, addr 0xe6840c, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method GetKeyPairHist, addr 0xe9329c, size 0xfc, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair*, ::Array<::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair*>*> GetKeyPairHist();
 
-  /// @brief Method ToAsn1Object, addr 0xe68508, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xe93398, size 0x144, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "KeyRecRepContent", modifiers: "&&", def_value: None }]

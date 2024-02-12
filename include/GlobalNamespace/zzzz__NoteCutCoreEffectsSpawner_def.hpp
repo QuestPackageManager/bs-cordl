@@ -50,8 +50,8 @@ MARK_REF_PTR_T(::GlobalNamespace::NoteCutCoreEffectsSpawner);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4893))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4247))
 // CS Name: ::NoteCutCoreEffectsSpawner*
 class CORDL_TYPE NoteCutCoreEffectsSpawner : public ::UnityEngine::MonoBehaviour {
 public:
@@ -139,27 +139,27 @@ public:
 
   constexpr void __cordl_internal_set__audioTimeSyncController(::UnityW<::GlobalNamespace::AudioTimeSyncController> value);
 
-  /// @brief Method Start, addr 0x23a2554, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2362684, size 0x8c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy, addr 0x23a25e0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2362710, size 0x98, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleNoteWasCut, addr 0x23a2678, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasCut, addr 0x23627a8, size 0x17c, virtual false, abstract: false, final false
   inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
-  /// @brief Method PlayHitNoteHapticEffect, addr 0x23a2db0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method PlayHitNoteHapticEffect, addr 0x2362ee8, size 0x50, virtual false, abstract: false, final false
   inline void PlayHitNoteHapticEffect(::GlobalNamespace::NoteCutInfo noteCutInfo, ::GlobalNamespace::__NoteCutHapticEffect__Type hapticType);
 
-  /// @brief Method SpawnNoteCutEffect, addr 0x23a2844, size 0x56c, virtual false, abstract: false, final false
+  /// @brief Method SpawnNoteCutEffect, addr 0x2362978, size 0x570, virtual false, abstract: false, final false
   inline void SpawnNoteCutEffect(ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo, ::GlobalNamespace::NoteController* noteController, int32_t sparkleParticlesCount, int32_t explosionParticlesCount);
 
-  /// @brief Method SpawnBombCutEffect, addr 0x23a27f4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method SpawnBombCutEffect, addr 0x2362924, size 0x54, virtual false, abstract: false, final false
   inline void SpawnBombCutEffect(ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo, ::GlobalNamespace::NoteController* noteController);
 
   static inline ::GlobalNamespace::NoteCutCoreEffectsSpawner* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23a3690, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23637c8, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NoteCutCoreEffectsSpawner", modifiers: "&&", def_value: None }]

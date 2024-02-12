@@ -52,34 +52,34 @@ public:
 
   static inline ::Org::BouncyCastle::Utilities::Collections::UnmodifiableListProxy* New_ctor(::System::Collections::IList* l);
 
-  /// @brief Method .ctor, addr 0x1157554, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11853e4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IList* l);
 
-  /// @brief Method Contains, addr 0x115aaa4, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method Contains, addr 0x1188934, size 0xac, virtual true, abstract: false, final false
   inline bool Contains(::System::Object* o);
 
-  /// @brief Method CopyTo, addr 0x115ab50, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x11889e0, size 0xb8, virtual true, abstract: false, final false
   inline void CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method get_Count, addr 0x115ac08, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method get_Count, addr 0x1188a98, size 0xa4, virtual true, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method GetEnumerator, addr 0x115acac, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x1188b3c, size 0xa0, virtual true, abstract: false, final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
-  /// @brief Method IndexOf, addr 0x115ad4c, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x1188bdc, size 0xac, virtual true, abstract: false, final false
   inline int32_t IndexOf(::System::Object* o);
 
-  /// @brief Method get_IsFixedSize, addr 0x115adf8, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method get_IsFixedSize, addr 0x1188c88, size 0xa4, virtual true, abstract: false, final false
   inline bool get_IsFixedSize();
 
-  /// @brief Method get_IsSynchronized, addr 0x115ae9c, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method get_IsSynchronized, addr 0x1188d2c, size 0xa4, virtual true, abstract: false, final false
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_SyncRoot, addr 0x115af40, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method get_SyncRoot, addr 0x1188dd0, size 0xa4, virtual true, abstract: false, final false
   inline ::System::Object* get_SyncRoot();
 
-  /// @brief Method GetValue, addr 0x115afe4, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x1188e74, size 0xa8, virtual true, abstract: false, final false
   inline ::System::Object* GetValue(int32_t i);
 
   // Ctor Parameters [CppParam { name: "", ty: "UnmodifiableListProxy", modifiers: "&&", def_value: None }]

@@ -66,7 +66,7 @@ template <typename TParam1, typename TParam2, typename TParam3, typename TParam4
           typename TValue>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11022))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10164))
 // CS Name: ::PlaceholderFactory`11::<get_ParamTypes>d__2<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TParam8,TParam9,TParam10,TValue>*
 class CORDL_TYPE __PlaceholderFactory_11___get_ParamTypes_d__2 : public ::System::Object {
 public:
@@ -199,8 +199,8 @@ namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TParam9, typename TParam10,
           typename TValue>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11026)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11026), inst: 4828 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11023))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10168)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10168), inst: 4801 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10165))
 // CS Name: ::Zenject::PlaceholderFactory`11<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TParam8,TParam9,TParam10,TValue>*
 class CORDL_TYPE PlaceholderFactory_11 : public ::Zenject::PlaceholderFactoryBase_1<TValue> {
 public:

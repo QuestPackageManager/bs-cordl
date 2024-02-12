@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ProBuilder::PivotPoint);
 namespace UnityEngine::ProBuilder {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12148))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12046))
 // CS Name: ::UnityEngine.ProBuilder::PivotPoint
 struct CORDL_TYPE PivotPoint {
 public:

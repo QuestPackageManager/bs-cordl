@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::System::Net::Sockets::LingerOption);
 namespace System::Net::Sockets {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9341))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7351))
 // CS Name: ::System.Net.Sockets::LingerOption*
 class CORDL_TYPE LingerOption : public ::System::Object {
 public:
@@ -45,13 +45,13 @@ public:
 
   static inline ::System::Net::Sockets::LingerOption* New_ctor(bool enable, int32_t seconds);
 
-  /// @brief Method .ctor, addr 0x28fc630, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2900c98, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(bool enable, int32_t seconds);
 
-  /// @brief Method set_Enabled, addr 0x28fc664, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Enabled, addr 0x2900ccc, size 0xc, virtual false, abstract: false, final false
   inline void set_Enabled(bool value);
 
-  /// @brief Method set_LingerTime, addr 0x28fc670, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LingerTime, addr 0x2900cd8, size 0x8, virtual false, abstract: false, final false
   inline void set_LingerTime(int32_t value);
 
   // Ctor Parameters [CppParam { name: "", ty: "LingerOption", modifiers: "&&", def_value: None }]

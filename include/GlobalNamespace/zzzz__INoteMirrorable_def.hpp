@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::GlobalNamespace::INoteMirrorable);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4747))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4098))
 // CS Name: ::INoteMirrorable*
 class CORDL_TYPE INoteMirrorable {
 public:

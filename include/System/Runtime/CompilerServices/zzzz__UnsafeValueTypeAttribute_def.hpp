@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::UnsafeValueTypeAttribute);
 namespace System::Runtime::CompilerServices {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3388))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3384))
 // CS Name: ::System.Runtime.CompilerServices::UnsafeValueTypeAttribute*
 class CORDL_TYPE UnsafeValueTypeAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::System::Runtime::CompilerServices::UnsafeValueTypeAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24db614, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24fb980, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "UnsafeValueTypeAttribute", modifiers: "&&", def_value: None }]

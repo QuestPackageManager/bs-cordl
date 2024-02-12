@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::EVRSkeletalTransformSpace);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8638))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8582))
 // CS Name: ::OVR.OpenVR::EVRSkeletalTransformSpace
 struct CORDL_TYPE EVRSkeletalTransformSpace {
 public:

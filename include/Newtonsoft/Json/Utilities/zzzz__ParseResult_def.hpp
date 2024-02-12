@@ -16,7 +16,7 @@ MARK_VAL_T(::Newtonsoft::Json::Utilities::ParseResult);
 namespace Newtonsoft::Json::Utilities {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11872))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11770))
 // CS Name: ::Newtonsoft.Json.Utilities::ParseResult
 struct CORDL_TYPE ParseResult {
 public:

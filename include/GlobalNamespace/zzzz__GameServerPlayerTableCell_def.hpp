@@ -12,6 +12,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GameServerPlayerTableCell)
 namespace GlobalNamespace {
+class BeatmapLevelsModel;
+}
+namespace GlobalNamespace {
 struct EntitlementStatus;
 }
 namespace GlobalNamespace {
@@ -33,10 +36,10 @@ namespace GlobalNamespace {
 class ILobbyPlayerData;
 }
 namespace GlobalNamespace {
-struct __GameServerPlayerTableCell___SetBeatmapUseButtonEnabledAsync_d__35;
+struct __GameServerPlayerTableCell___SetBeatmapUseButtonEnabledAsync_d__36;
 }
 namespace GlobalNamespace {
-class __GameServerPlayerTableCell____c__DisplayClass29_0;
+class __GameServerPlayerTableCell____c__DisplayClass30_0;
 }
 namespace HMUI {
 class ButtonBinder;
@@ -94,23 +97,23 @@ namespace GlobalNamespace {
 class GameServerPlayerTableCell;
 }
 namespace GlobalNamespace {
-class __GameServerPlayerTableCell____c__DisplayClass29_0;
+class __GameServerPlayerTableCell____c__DisplayClass30_0;
 }
 namespace GlobalNamespace {
-struct __GameServerPlayerTableCell___SetBeatmapUseButtonEnabledAsync_d__35;
+struct __GameServerPlayerTableCell___SetBeatmapUseButtonEnabledAsync_d__36;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::GameServerPlayerTableCell);
-MARK_REF_PTR_T(::GlobalNamespace::__GameServerPlayerTableCell____c__DisplayClass29_0);
-MARK_VAL_T(::GlobalNamespace::__GameServerPlayerTableCell___SetBeatmapUseButtonEnabledAsync_d__35);
-// Type: ::<>c__DisplayClass29_0
+MARK_REF_PTR_T(::GlobalNamespace::__GameServerPlayerTableCell____c__DisplayClass30_0);
+MARK_VAL_T(::GlobalNamespace::__GameServerPlayerTableCell___SetBeatmapUseButtonEnabledAsync_d__36);
+// Type: ::<>c__DisplayClass30_0
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5423))
-// CS Name: ::GameServerPlayerTableCell::<>c__DisplayClass29_0*
-class CORDL_TYPE __GameServerPlayerTableCell____c__DisplayClass29_0 : public ::System::Object {
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4726))
+// CS Name: ::GameServerPlayerTableCell::<>c__DisplayClass30_0*
+class CORDL_TYPE __GameServerPlayerTableCell____c__DisplayClass30_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field modifiersList, offset 0x10, size 0x8
@@ -123,26 +126,26 @@ public:
 
   constexpr void __cordl_internal_set_modifiersList(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* value);
 
-  static inline ::GlobalNamespace::__GameServerPlayerTableCell____c__DisplayClass29_0* New_ctor();
+  static inline ::GlobalNamespace::__GameServerPlayerTableCell____c__DisplayClass30_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x227a260, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d5dec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <SetData>b__0, addr 0x227a514, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method <SetData>b__0, addr 0x23d60a0, size 0x78, virtual false, abstract: false, final false
   inline void _SetData_b__0(int32_t id, ::GlobalNamespace::GameplayModifierInfoListItem* listItem);
 
-  // Ctor Parameters [CppParam { name: "", ty: "__GameServerPlayerTableCell____c__DisplayClass29_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "__GameServerPlayerTableCell____c__DisplayClass30_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __GameServerPlayerTableCell____c__DisplayClass29_0(__GameServerPlayerTableCell____c__DisplayClass29_0&&) = delete;
+  __GameServerPlayerTableCell____c__DisplayClass30_0(__GameServerPlayerTableCell____c__DisplayClass30_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__GameServerPlayerTableCell____c__DisplayClass29_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "__GameServerPlayerTableCell____c__DisplayClass30_0", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __GameServerPlayerTableCell____c__DisplayClass29_0(__GameServerPlayerTableCell____c__DisplayClass29_0 const&) = delete;
+  __GameServerPlayerTableCell____c__DisplayClass30_0(__GameServerPlayerTableCell____c__DisplayClass30_0 const&) = delete;
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __GameServerPlayerTableCell____c__DisplayClass29_0();
+  constexpr __GameServerPlayerTableCell____c__DisplayClass30_0();
 
 public:
   /// @brief Field modifiersList, offset: 0x10, size: 0x8, def value: None
@@ -151,19 +154,19 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameServerPlayerTableCell____c__DisplayClass29_0, 0x18>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameServerPlayerTableCell____c__DisplayClass30_0, 0x18>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__GameServerPlayerTableCell____c__DisplayClass29_0, ___modifiersList) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__GameServerPlayerTableCell____c__DisplayClass30_0, ___modifiersList) == 0x10, "Offset mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<SetBeatmapUseButtonEnabledAsync>d__35
+// Type: ::<SetBeatmapUseButtonEnabledAsync>d__36
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3400)),
-// TypeDefinitionIndex(TypeDefinitionIndex(16270)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 880 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5424)) CS
-// Name: ::GameServerPlayerTableCell::<SetBeatmapUseButtonEnabledAsync>d__35
-struct CORDL_TYPE __GameServerPlayerTableCell___SetBeatmapUseButtonEnabledAsync_d__35 {
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3396)),
+// TypeDefinitionIndex(TypeDefinitionIndex(16445)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 884 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4727)) CS
+// Name: ::GameServerPlayerTableCell::<SetBeatmapUseButtonEnabledAsync>d__36
+struct CORDL_TYPE __GameServerPlayerTableCell___SetBeatmapUseButtonEnabledAsync_d__36 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -172,10 +175,10 @@ public:
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x227a58c, size 0x438, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x23d6118, size 0x438, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x227a9c4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x23d6550, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -183,7 +186,7 @@ public:
   // modifiers: "", def_value: None }, CppParam { name: "getLevelEntitlementTask", ty: "::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>*", modifiers: "", def_value: None },
   // CppParam { name: "_cancellationToken_5__2", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus>", modifiers: "", def_value: None }]
-  constexpr __GameServerPlayerTableCell___SetBeatmapUseButtonEnabledAsync_d__35(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
+  constexpr __GameServerPlayerTableCell___SetBeatmapUseButtonEnabledAsync_d__36(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                                                 ::UnityW<::GlobalNamespace::GameServerPlayerTableCell> __4__this,
                                                                                 ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* getLevelEntitlementTask,
                                                                                 ::System::Threading::CancellationToken _cancellationToken_5__2,
@@ -191,7 +194,7 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __GameServerPlayerTableCell___SetBeatmapUseButtonEnabledAsync_d__35();
+  constexpr __GameServerPlayerTableCell___SetBeatmapUseButtonEnabledAsync_d__36();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -217,34 +220,34 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameServerPlayerTableCell___SetBeatmapUseButtonEnabledAsync_d__35, 0x48>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameServerPlayerTableCell___SetBeatmapUseButtonEnabledAsync_d__36, 0x48>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__GameServerPlayerTableCell___SetBeatmapUseButtonEnabledAsync_d__35, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__GameServerPlayerTableCell___SetBeatmapUseButtonEnabledAsync_d__36, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__GameServerPlayerTableCell___SetBeatmapUseButtonEnabledAsync_d__35, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__GameServerPlayerTableCell___SetBeatmapUseButtonEnabledAsync_d__36, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__GameServerPlayerTableCell___SetBeatmapUseButtonEnabledAsync_d__35, __4__this) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__GameServerPlayerTableCell___SetBeatmapUseButtonEnabledAsync_d__36, __4__this) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__GameServerPlayerTableCell___SetBeatmapUseButtonEnabledAsync_d__35, getLevelEntitlementTask) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__GameServerPlayerTableCell___SetBeatmapUseButtonEnabledAsync_d__36, getLevelEntitlementTask) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__GameServerPlayerTableCell___SetBeatmapUseButtonEnabledAsync_d__35, _cancellationToken_5__2) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__GameServerPlayerTableCell___SetBeatmapUseButtonEnabledAsync_d__36, _cancellationToken_5__2) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__GameServerPlayerTableCell___SetBeatmapUseButtonEnabledAsync_d__35, __u__1) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__GameServerPlayerTableCell___SetBeatmapUseButtonEnabledAsync_d__36, __u__1) == 0x40, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 // Type: ::GameServerPlayerTableCell
-// SizeInfo { instance_size: 288, native_size: -1, calculated_instance_size: 288, calculated_native_size: 288, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 296, native_size: -1, calculated_instance_size: 296, calculated_native_size: 296, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13502))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5425))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13455))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4728))
 // CS Name: ::GameServerPlayerTableCell*
 class CORDL_TYPE GameServerPlayerTableCell : public ::GlobalNamespace::TableCellWithSeparator {
 public:
   // Declarations
-  using _SetBeatmapUseButtonEnabledAsync_d__35 = ::GlobalNamespace::__GameServerPlayerTableCell___SetBeatmapUseButtonEnabledAsync_d__35;
+  using _SetBeatmapUseButtonEnabledAsync_d__36 = ::GlobalNamespace::__GameServerPlayerTableCell___SetBeatmapUseButtonEnabledAsync_d__36;
 
-  using __c__DisplayClass29_0 = ::GlobalNamespace::__GameServerPlayerTableCell____c__DisplayClass29_0;
+  using __c__DisplayClass30_0 = ::GlobalNamespace::__GameServerPlayerTableCell____c__DisplayClass30_0;
 
   /// @brief Field _playerNameText, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__playerNameText, put = __cordl_internal_set__playerNameText))::UnityW<::HMUI::CurvedTextMeshPro> _playerNameText;
@@ -305,19 +308,22 @@ public:
   /// @brief Field _gameplayModifiers, offset 0xf0, size 0x8
   __declspec(property(get = __cordl_internal_get__gameplayModifiers, put = __cordl_internal_set__gameplayModifiers))::UnityW<::GlobalNamespace::GameplayModifiersModelSO> _gameplayModifiers;
 
-  /// @brief Field kickPlayerEvent, offset 0xf8, size 0x8
+  /// @brief Field _beatmapLevelsModel, offset 0xf8, size 0x8
+  __declspec(property(get = __cordl_internal_get__beatmapLevelsModel, put = __cordl_internal_set__beatmapLevelsModel))::GlobalNamespace::BeatmapLevelsModel* _beatmapLevelsModel;
+
+  /// @brief Field kickPlayerEvent, offset 0x100, size 0x8
   __declspec(property(get = __cordl_internal_get_kickPlayerEvent, put = __cordl_internal_set_kickPlayerEvent))::System::Action_1<int32_t>* kickPlayerEvent;
 
-  /// @brief Field useBeatmapEvent, offset 0x100, size 0x8
+  /// @brief Field useBeatmapEvent, offset 0x108, size 0x8
   __declspec(property(get = __cordl_internal_get_useBeatmapEvent, put = __cordl_internal_set_useBeatmapEvent))::System::Action_1<int32_t>* useBeatmapEvent;
 
-  /// @brief Field useModifiersEvent, offset 0x108, size 0x8
+  /// @brief Field useModifiersEvent, offset 0x110, size 0x8
   __declspec(property(get = __cordl_internal_get_useModifiersEvent, put = __cordl_internal_set_useModifiersEvent))::System::Action_1<int32_t>* useModifiersEvent;
 
-  /// @brief Field _buttonBinder, offset 0x110, size 0x8
+  /// @brief Field _buttonBinder, offset 0x118, size 0x8
   __declspec(property(get = __cordl_internal_get__buttonBinder, put = __cordl_internal_set__buttonBinder))::HMUI::ButtonBinder* _buttonBinder;
 
-  /// @brief Field _getLevelEntitlementCancellationTokenSource, offset 0x118, size 0x8
+  /// @brief Field _getLevelEntitlementCancellationTokenSource, offset 0x120, size 0x8
   __declspec(property(get = __cordl_internal_get__getLevelEntitlementCancellationTokenSource,
                       put = __cordl_internal_set__getLevelEntitlementCancellationTokenSource))::System::Threading::CancellationTokenSource* _getLevelEntitlementCancellationTokenSource;
 
@@ -435,6 +441,12 @@ public:
 
   constexpr void __cordl_internal_set__gameplayModifiers(::UnityW<::GlobalNamespace::GameplayModifiersModelSO> value);
 
+  constexpr ::GlobalNamespace::BeatmapLevelsModel*& __cordl_internal_get__beatmapLevelsModel();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelsModel*> const& __cordl_internal_get__beatmapLevelsModel() const;
+
+  constexpr void __cordl_internal_set__beatmapLevelsModel(::GlobalNamespace::BeatmapLevelsModel* value);
+
   constexpr ::System::Action_1<int32_t>*& __cordl_internal_get_kickPlayerEvent();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action_1<int32_t>*> const& __cordl_internal_get_kickPlayerEvent() const;
@@ -465,46 +477,46 @@ public:
 
   constexpr void __cordl_internal_set__getLevelEntitlementCancellationTokenSource(::System::Threading::CancellationTokenSource* value);
 
-  /// @brief Method add_kickPlayerEvent, addr 0x227930c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_kickPlayerEvent, addr 0x23d4ed8, size 0xb4, virtual false, abstract: false, final false
   inline void add_kickPlayerEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method remove_kickPlayerEvent, addr 0x22793bc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_kickPlayerEvent, addr 0x23d4f8c, size 0xb4, virtual false, abstract: false, final false
   inline void remove_kickPlayerEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method add_useBeatmapEvent, addr 0x227946c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method add_useBeatmapEvent, addr 0x23d5040, size 0xb4, virtual false, abstract: false, final false
   inline void add_useBeatmapEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method remove_useBeatmapEvent, addr 0x2279520, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method remove_useBeatmapEvent, addr 0x23d50f4, size 0xb4, virtual false, abstract: false, final false
   inline void remove_useBeatmapEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method add_useModifiersEvent, addr 0x22795d4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method add_useModifiersEvent, addr 0x23d51a8, size 0xb4, virtual false, abstract: false, final false
   inline void add_useModifiersEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method remove_useModifiersEvent, addr 0x2279688, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method remove_useModifiersEvent, addr 0x23d525c, size 0xb4, virtual false, abstract: false, final false
   inline void remove_useModifiersEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method SetData, addr 0x227973c, size 0xb24, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x23d5310, size 0xadc, virtual false, abstract: false, final false
   inline void SetData(::GlobalNamespace::IConnectedPlayer* connectedPlayer, ::GlobalNamespace::ILobbyPlayerData* playerData, bool hasKickPermissions, bool allowSelection,
                       ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* getLevelEntitlementTask);
 
-  /// @brief Method Awake, addr 0x227a308, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x23d5e94, size 0x144, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleKickPlayerButtonPressed, addr 0x227a44c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleKickPlayerButtonPressed, addr 0x23d5fd8, size 0x20, virtual false, abstract: false, final false
   inline void HandleKickPlayerButtonPressed();
 
-  /// @brief Method HandleUseBeatmapButtonPressed, addr 0x227a46c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleUseBeatmapButtonPressed, addr 0x23d5ff8, size 0x20, virtual false, abstract: false, final false
   inline void HandleUseBeatmapButtonPressed();
 
-  /// @brief Method HandleUseModifiersButtonPressed, addr 0x227a48c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleUseModifiersButtonPressed, addr 0x23d6018, size 0x20, virtual false, abstract: false, final false
   inline void HandleUseModifiersButtonPressed();
 
-  /// @brief Method SetBeatmapUseButtonEnabledAsync, addr 0x227a268, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method SetBeatmapUseButtonEnabledAsync, addr 0x23d5df4, size 0xa0, virtual false, abstract: false, final false
   inline void SetBeatmapUseButtonEnabledAsync(::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* getLevelEntitlementTask);
 
   static inline ::GlobalNamespace::GameServerPlayerTableCell* New_ctor();
 
-  /// @brief Method .ctor, addr 0x227a4ac, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d6038, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GameServerPlayerTableCell", modifiers: "&&", def_value: None }]
@@ -578,25 +590,28 @@ public:
   /// @brief Field _gameplayModifiers, offset: 0xf0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameplayModifiersModelSO> ____gameplayModifiers;
 
-  /// @brief Field kickPlayerEvent, offset: 0xf8, size: 0x8, def value: None
+  /// @brief Field _beatmapLevelsModel, offset: 0xf8, size: 0x8, def value: None
+  ::GlobalNamespace::BeatmapLevelsModel* ____beatmapLevelsModel;
+
+  /// @brief Field kickPlayerEvent, offset: 0x100, size: 0x8, def value: None
   ::System::Action_1<int32_t>* ___kickPlayerEvent;
 
-  /// @brief Field useBeatmapEvent, offset: 0x100, size: 0x8, def value: None
+  /// @brief Field useBeatmapEvent, offset: 0x108, size: 0x8, def value: None
   ::System::Action_1<int32_t>* ___useBeatmapEvent;
 
-  /// @brief Field useModifiersEvent, offset: 0x108, size: 0x8, def value: None
+  /// @brief Field useModifiersEvent, offset: 0x110, size: 0x8, def value: None
   ::System::Action_1<int32_t>* ___useModifiersEvent;
 
-  /// @brief Field _buttonBinder, offset: 0x110, size: 0x8, def value: None
+  /// @brief Field _buttonBinder, offset: 0x118, size: 0x8, def value: None
   ::HMUI::ButtonBinder* ____buttonBinder;
 
-  /// @brief Field _getLevelEntitlementCancellationTokenSource, offset: 0x118, size: 0x8, def value: None
+  /// @brief Field _getLevelEntitlementCancellationTokenSource, offset: 0x120, size: 0x8, def value: None
   ::System::Threading::CancellationTokenSource* ____getLevelEntitlementCancellationTokenSource;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameServerPlayerTableCell, 0x120>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameServerPlayerTableCell, 0x128>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ____playerNameText) == 0x60, "Offset mismatch!");
 
@@ -636,19 +651,21 @@ static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ____hostIco
 
 static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ____gameplayModifiers) == 0xf0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ___kickPlayerEvent) == 0xf8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ____beatmapLevelsModel) == 0xf8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ___useBeatmapEvent) == 0x100, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ___kickPlayerEvent) == 0x100, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ___useModifiersEvent) == 0x108, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ___useBeatmapEvent) == 0x108, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ____buttonBinder) == 0x110, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ___useModifiersEvent) == 0x110, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ____getLevelEntitlementCancellationTokenSource) == 0x118, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ____buttonBinder) == 0x118, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell, ____getLevelEntitlementCancellationTokenSource) == 0x120, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::GameServerPlayerTableCell);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GameServerPlayerTableCell*, "", "GameServerPlayerTableCell");
-NEED_NO_BOX(::GlobalNamespace::__GameServerPlayerTableCell____c__DisplayClass29_0);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__GameServerPlayerTableCell____c__DisplayClass29_0*, "", "GameServerPlayerTableCell/<>c__DisplayClass29_0");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__GameServerPlayerTableCell___SetBeatmapUseButtonEnabledAsync_d__35, "", "GameServerPlayerTableCell/<SetBeatmapUseButtonEnabledAsync>d__35");
+NEED_NO_BOX(::GlobalNamespace::__GameServerPlayerTableCell____c__DisplayClass30_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__GameServerPlayerTableCell____c__DisplayClass30_0*, "", "GameServerPlayerTableCell/<>c__DisplayClass30_0");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__GameServerPlayerTableCell___SetBeatmapUseButtonEnabledAsync_d__36, "", "GameServerPlayerTableCell/<SetBeatmapUseButtonEnabledAsync>d__36");

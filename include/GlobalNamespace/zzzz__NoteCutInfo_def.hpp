@@ -42,7 +42,7 @@ MARK_VAL_T(::GlobalNamespace::NoteCutInfo);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15024))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14897))
 // CS Name: ::NoteCutInfo::FailReason
 struct CORDL_TYPE __NoteCutInfo__FailReason {
 public:
@@ -103,8 +103,8 @@ static_assert(offsetof(::GlobalNamespace::__NoteCutInfo__FailReason, value__) ==
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(15036))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15025))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(8996)), TypeDefinitionIndex(TypeDefinitionIndex(14909))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14898))
 // CS Name: ::NoteCutInfo
 struct CORDL_TYPE NoteCutInfo {
 public:
@@ -117,16 +117,16 @@ public:
 
   __declspec(property(get = get_failReason))::GlobalNamespace::__NoteCutInfo__FailReason failReason;
 
-  /// @brief Method get_allIsOK, addr 0x12a3fb8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_allIsOK, addr 0x1339e90, size 0x30, virtual false, abstract: false, final false
   inline bool get_allIsOK();
 
-  /// @brief Method get_allExceptSaberTypeIsOK, addr 0x12a3fe8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_allExceptSaberTypeIsOK, addr 0x1339ec0, size 0x28, virtual false, abstract: false, final false
   inline bool get_allExceptSaberTypeIsOK();
 
-  /// @brief Method get_failReason, addr 0x12a4010, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_failReason, addr 0x1339ee8, size 0x44, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__NoteCutInfo__FailReason get_failReason();
 
-  /// @brief Method .ctor, addr 0x12a4054, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1339f2c, size 0x234, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::NoteData* noteData, bool speedOK, bool directionOK, bool saberTypeOK, bool wasCutTooSoon, float_t saberSpeed, ::UnityEngine::Vector3 saberDir,
                     ::GlobalNamespace::SaberType saberType, float_t timeDeviation, float_t cutDirDeviation, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Vector3 cutNormal,
                     float_t cutDistanceToCenter, float_t cutAngle, ::UnityEngine::Quaternion worldRotation, ::UnityEngine::Quaternion inverseWorldRotation, ::UnityEngine::Quaternion noteRotation,

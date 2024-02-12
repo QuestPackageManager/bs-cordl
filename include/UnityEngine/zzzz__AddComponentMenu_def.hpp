@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::UnityEngine::AddComponentMenu);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10215))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8959))
 // CS Name: ::UnityEngine::AddComponentMenu*
 class CORDL_TYPE AddComponentMenu : public ::System::Attribute {
 public:
@@ -42,12 +42,12 @@ public:
 
   static inline ::UnityEngine::AddComponentMenu* New_ctor(::StringW menuName);
 
-  /// @brief Method .ctor, addr 0x2cd27c0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cd9768, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW menuName);
 
   static inline ::UnityEngine::AddComponentMenu* New_ctor(::StringW menuName, int32_t order);
 
-  /// @brief Method .ctor, addr 0x2cd27ec, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cd9794, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW menuName, int32_t order);
 
   // Ctor Parameters [CppParam { name: "", ty: "AddComponentMenu", modifiers: "&&", def_value: None }]

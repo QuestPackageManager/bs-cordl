@@ -17,18 +17,18 @@ MARK_REF_PTR_T(::System::Linq::Expressions::MemberExpression);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Linq::Expressions {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14300))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14305))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14313))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14318))
 // CS Name: ::System.Linq.Expressions::MemberExpression*
 class CORDL_TYPE MemberExpression : public ::System::Linq::Expressions::Expression {
 public:
   // Declarations
   __declspec(property(get = get_Member))::System::Reflection::MemberInfo* Member;
 
-  /// @brief Method get_Member, addr 0x2813d60, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Member, addr 0x2818548, size 0xc, virtual false, abstract: false, final false
   inline ::System::Reflection::MemberInfo* get_Member();
 
-  /// @brief Method GetMember, addr 0x2813d6c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetMember, addr 0x2818554, size 0x24, virtual true, abstract: false, final false
   inline ::System::Reflection::MemberInfo* GetMember();
 
   // Ctor Parameters [CppParam { name: "", ty: "MemberExpression", modifiers: "&&", def_value: None }]

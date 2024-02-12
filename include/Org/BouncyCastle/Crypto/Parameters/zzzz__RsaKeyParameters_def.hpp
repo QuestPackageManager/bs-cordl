@@ -56,24 +56,24 @@ public:
 
   static inline ::Org::BouncyCastle::Math::BigInteger* getStaticF_SmallPrimesProduct();
 
-  /// @brief Method Validate, addr 0xf396f0, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method Validate, addr 0xf64580, size 0x16c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* Validate(::Org::BouncyCastle::Math::BigInteger* modulus);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* New_ctor(bool isPrivate, ::Org::BouncyCastle::Math::BigInteger* modulus, ::Org::BouncyCastle::Math::BigInteger* exponent);
 
-  /// @brief Method .ctor, addr 0xf3985c, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf646ec, size 0x1c8, virtual false, abstract: false, final false
   inline void _ctor(bool isPrivate, ::Org::BouncyCastle::Math::BigInteger* modulus, ::Org::BouncyCastle::Math::BigInteger* exponent);
 
-  /// @brief Method get_Modulus, addr 0xf39a24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Modulus, addr 0xf648b4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Modulus();
 
-  /// @brief Method get_Exponent, addr 0xf39a2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Exponent, addr 0xf648bc, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Exponent();
 
-  /// @brief Method Equals, addr 0xf39a34, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0xf648c4, size 0xe0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0xf39b14, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0xf649a4, size 0x78, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "RsaKeyParameters", modifiers: "&&", def_value: None }]

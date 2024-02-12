@@ -48,42 +48,42 @@ public:
 
   constexpr void __cordl_internal_set_si(::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> value);
 
-  /// @brief Method Inverse, addr 0x1002888, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Inverse, addr 0x102e718, size 0x8c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* Inverse(int32_t m, ::ArrayW<int32_t, ::Array<int32_t>*> ks, ::Org::BouncyCastle::Math::BigInteger* x);
 
-  /// @brief Method BuildField, addr 0x1002914, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method BuildField, addr 0x102e7a4, size 0x1e0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::Field::IFiniteField* BuildField(int32_t m, int32_t k1, int32_t k2, int32_t k3);
 
   static inline ::Org::BouncyCastle::Math::EC::AbstractF2mCurve* New_ctor(int32_t m, int32_t k1, int32_t k2, int32_t k3);
 
-  /// @brief Method .ctor, addr 0x1002af4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x102e984, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t m, int32_t k1, int32_t k2, int32_t k3);
 
-  /// @brief Method CreatePoint, addr 0x1002b28, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method CreatePoint, addr 0x102e9b8, size 0x160, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* CreatePoint(::Org::BouncyCastle::Math::BigInteger* x, ::Org::BouncyCastle::Math::BigInteger* y, bool withCompression);
 
-  /// @brief Method IsValidFieldElement, addr 0x1002c88, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method IsValidFieldElement, addr 0x102eb18, size 0x54, virtual true, abstract: false, final false
   inline bool IsValidFieldElement(::Org::BouncyCastle::Math::BigInteger* x);
 
-  /// @brief Method RandomFieldElement, addr 0x1002cdc, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method RandomFieldElement, addr 0x102eb6c, size 0x48, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* RandomFieldElement(::Org::BouncyCastle::Security::SecureRandom* r);
 
-  /// @brief Method RandomFieldElementMult, addr 0x1002d24, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method RandomFieldElementMult, addr 0x102ebb4, size 0x94, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* RandomFieldElementMult(::Org::BouncyCastle::Security::SecureRandom* r);
 
-  /// @brief Method DecompressPoint, addr 0x1002df8, size 0x214, virtual true, abstract: false, final false
+  /// @brief Method DecompressPoint, addr 0x102ec88, size 0x214, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* DecompressPoint(int32_t yTilde, ::Org::BouncyCastle::Math::BigInteger* X1);
 
-  /// @brief Method SolveQuadraticEquation, addr 0x100300c, size 0x2ec, virtual false, abstract: false, final false
+  /// @brief Method SolveQuadraticEquation, addr 0x102ee9c, size 0x2ec, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* SolveQuadraticEquation(::Org::BouncyCastle::Math::EC::ECFieldElement* beta);
 
-  /// @brief Method GetSi, addr 0x10032f8, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method GetSi, addr 0x102f188, size 0xf4, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> GetSi();
 
-  /// @brief Method get_IsKoblitz, addr 0x10033ec, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method get_IsKoblitz, addr 0x102f27c, size 0x84, virtual true, abstract: false, final false
   inline bool get_IsKoblitz();
 
-  /// @brief Method ImplRandomFieldElementMult, addr 0x1002db8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method ImplRandomFieldElementMult, addr 0x102ec48, size 0x40, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* ImplRandomFieldElementMult(::Org::BouncyCastle::Security::SecureRandom* r, int32_t m);
 
   // Ctor Parameters [CppParam { name: "", ty: "AbstractF2mCurve", modifiers: "&&", def_value: None }]

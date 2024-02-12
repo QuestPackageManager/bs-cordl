@@ -16,7 +16,7 @@ MARK_VAL_T(::Oculus::Platform::ServiceProvider);
 namespace Oculus::Platform {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13386))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13318))
 // CS Name: ::Oculus.Platform::ServiceProvider
 struct CORDL_TYPE ServiceProvider {
 public:

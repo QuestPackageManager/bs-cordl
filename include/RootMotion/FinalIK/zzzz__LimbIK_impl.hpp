@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::LimbIK::*)()>(&::RootMotion::FinalIK::LimbIK::OpenUserManual)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x124f614;
+  constexpr static std::size_t addrs = 0x12e96c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::LimbIK::*)()>(&::RootMotion::FinalIK::LimbIK::OpenScriptReference)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x124f658;
+  constexpr static std::size_t addrs = 0x12e9708;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::LimbIK::*)()>(&::RootMotion::FinalIK::LimbIK::SupportGroup)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x124f69c;
+  constexpr static std::size_t addrs = 0x12e974c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::LimbIK*>::get(), "SupportGroup",
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::LimbIK::*)()>(&::RootMotion::FinalIK::LimbIK::ASThread)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x124f6e0;
+  constexpr static std::size_t addrs = 0x12e9790;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::LimbIK*>::get(), "ASThread",
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::RootMotion::FinalIK::IKSolver* (::RootMotion::FinalIK::LimbIK::*)()>(&::RootMotion::FinalIK::LimbIK::GetIKSolver)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x124f724;
+  constexpr static std::size_t addrs = 0x12e97d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::LimbIK::*)()>(&::RootMotion::FinalIK::LimbIK::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x124f72c;
+  constexpr static std::size_t addrs = 0x12e97dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::LimbIK*>::get(), ".ctor",

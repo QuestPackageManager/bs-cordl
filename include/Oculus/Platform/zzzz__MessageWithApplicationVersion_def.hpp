@@ -19,20 +19,20 @@ MARK_REF_PTR_T(::Oculus::Platform::MessageWithApplicationVersion);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13262)), TypeDefinitionIndex(TypeDefinitionIndex(13416)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst:
-// 4576 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(13274)) CS Name: ::Oculus.Platform::MessageWithApplicationVersion*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13162)), TypeDefinitionIndex(TypeDefinitionIndex(13346)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13162), inst:
+// 4543 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(13172)) CS Name: ::Oculus.Platform::MessageWithApplicationVersion*
 class CORDL_TYPE MessageWithApplicationVersion : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::ApplicationVersion*> {
 public:
   // Declarations
   static inline ::Oculus::Platform::MessageWithApplicationVersion* New_ctor(void* c_message);
 
-  /// @brief Method .ctor, addr 0x26eeb08, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x271807c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(void* c_message);
 
-  /// @brief Method GetApplicationVersion, addr 0x26f0d98, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetApplicationVersion, addr 0x271a10c, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::ApplicationVersion* GetApplicationVersion();
 
-  /// @brief Method GetDataFromMessage, addr 0x26f0dd4, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x271a148, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::ApplicationVersion* GetDataFromMessage(void* c_message);
 
   // Ctor Parameters [CppParam { name: "", ty: "MessageWithApplicationVersion", modifiers: "&&", def_value: None }]

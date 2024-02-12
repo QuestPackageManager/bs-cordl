@@ -64,29 +64,29 @@ public:
 
   constexpr void __cordl_internal_set_body(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method GetInstance, addr 0xe690a4, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xe93f34, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiBody* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiBody* New_ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagged);
 
-  /// @brief Method .ctor, addr 0xe6922c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe940bc, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagged);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiBody* New_ctor(int32_t type, ::Org::BouncyCastle::Asn1::Asn1Encodable* content);
 
-  /// @brief Method .ctor, addr 0xe693d8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe94268, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(int32_t type, ::Org::BouncyCastle::Asn1::Asn1Encodable* content);
 
-  /// @brief Method GetBodyForType, addr 0xe6927c, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method GetBodyForType, addr 0xe9410c, size 0x15c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1Encodable* GetBodyForType(int32_t type, ::Org::BouncyCastle::Asn1::Asn1Encodable* o);
 
-  /// @brief Method get_Type, addr 0xe6a1b8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0xe95048, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Type();
 
-  /// @brief Method get_Content, addr 0xe6a1c0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Content, addr 0xe95050, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Content();
 
-  /// @brief Method ToAsn1Object, addr 0xe6a1c8, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xe95058, size 0x74, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "PkiBody", modifiers: "&&", def_value: None }]

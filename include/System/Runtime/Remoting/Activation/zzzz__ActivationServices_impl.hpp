@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Activation::IActivator* (*)()>(
     &::System::Runtime::Remoting::Activation::ActivationServices::get_ConstructionActivator)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x24a4290;
+  constexpr static std::size_t addrs = 0x24c6304;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Runtime::Remoting::Messaging::IMessage* (*)(::System::Runtime::Remoting::Proxies::RemotingProxy*, ::System::Runtime::Remoting::Messaging::ConstructionCall*)>(
         &::System::Runtime::Remoting::Activation::ActivationServices::Activate)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x249a528;
+  constexpr static std::size_t addrs = 0x24bc59c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -47,7 +47,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Runtime::Remoting::Messaging::IMessage* (*)(::System::Runtime::Remoting::Activation::IConstructionCallMessage*)>(
         &::System::Runtime::Remoting::Activation::ActivationServices::RemoteActivate)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x24a432c;
+  constexpr static std::size_t addrs = 0x24c63a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -63,7 +63,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Runtime::Remoting::Messaging::ConstructionCall* (*)(::System::Type*, ::StringW, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
         &::System::Runtime::Remoting::Activation::ActivationServices::CreateConstructionCall)> {
   constexpr static std::size_t size = 0x9bc;
-  constexpr static std::size_t addrs = 0x2498c78;
+  constexpr static std::size_t addrs = 0x24bacec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -80,7 +80,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Runtime::Remoting::Messaging::IMessage* (*)(::System::Runtime::Remoting::Activation::IConstructionCallMessage*)>(
         &::System::Runtime::Remoting::Activation::ActivationServices::CreateInstanceFromMessage)> {
   constexpr static std::size_t size = 0x400;
-  constexpr static std::size_t addrs = 0x24a4550;
+  constexpr static std::size_t addrs = 0x24c65c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::System::Type*)>(
     &::System::Runtime::Remoting::Activation::ActivationServices::CreateProxyForType)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x24a4954;
+  constexpr static std::size_t addrs = 0x24c69c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::System::Type*)>(
     &::System::Runtime::Remoting::Activation::ActivationServices::AllocateUninitializedClassInstance)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x24a4950;
+  constexpr static std::size_t addrs = 0x24c69c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Type*, bool)>(
     &::System::Runtime::Remoting::Activation::ActivationServices::EnableProxyActivation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24a4a94;
+  constexpr static std::size_t addrs = 0x24c6b08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

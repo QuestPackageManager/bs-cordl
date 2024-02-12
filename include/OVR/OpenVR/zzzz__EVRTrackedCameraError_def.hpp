@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::EVRTrackedCameraError);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8610))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8554))
 // CS Name: ::OVR.OpenVR::EVRTrackedCameraError
 struct CORDL_TYPE EVRTrackedCameraError {
 public:

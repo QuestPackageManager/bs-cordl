@@ -207,7 +207,7 @@ public:
 
   constexpr void __cordl_internal_set_bRecord(::System::BRECORD value);
 
-  /// @brief Method Clear, addr 0x260908c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x262df94, size 0x74, virtual false, abstract: false, final false
   inline void Clear();
 
   // Ctor Parameters [CppParam { name: "vt", ty: "int16_t", modifiers: "", def_value: None }, CppParam { name: "wReserved1", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name:

@@ -23,18 +23,18 @@ MARK_REF_PTR_T(::Zenject::IdScopeConcreteIdArgConditionCopyNonLazyBinder);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10926))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10921))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10068))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10063))
 // CS Name: ::Zenject::IdScopeConcreteIdArgConditionCopyNonLazyBinder*
 class CORDL_TYPE IdScopeConcreteIdArgConditionCopyNonLazyBinder : public ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder {
 public:
   // Declarations
   static inline ::Zenject::IdScopeConcreteIdArgConditionCopyNonLazyBinder* New_ctor(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method .ctor, addr 0x2edb16c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ef72b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method WithId, addr 0x2edb17c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method WithId, addr 0x2ef72c4, size 0x1c, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* WithId(::System::Object* identifier);
 
   // Ctor Parameters [CppParam { name: "", ty: "IdScopeConcreteIdArgConditionCopyNonLazyBinder", modifiers: "&&", def_value: None }]

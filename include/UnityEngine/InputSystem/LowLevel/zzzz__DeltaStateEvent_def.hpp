@@ -48,7 +48,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::__DeltaStateEvent___stateData_e
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6520))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5779))
 // CS Name: ::DeltaStateEvent::<stateData>e__FixedBuffer
 #pragma pack(push, 0)
 struct CORDL_TYPE __DeltaStateEvent___stateData_e__FixedBuffer {
@@ -80,8 +80,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__DeltaStateEvent__
 // SizeInfo { instance_size: 29, native_size: 29, calculated_instance_size: 29, calculated_native_size: 45, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: Some(1) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6520)), TypeDefinitionIndex(TypeDefinitionIndex(6530)), TypeDefinitionIndex(TypeDefinitionIndex(6667))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6521))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5779)), TypeDefinitionIndex(TypeDefinitionIndex(5789)), TypeDefinitionIndex(TypeDefinitionIndex(5926))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5780))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::DeltaStateEvent
 #pragma pack(push, 1)
 struct CORDL_TYPE DeltaStateEvent {
@@ -137,25 +137,25 @@ public:
 
   constexpr void __cordl_internal_set_stateData(::UnityEngine::InputSystem::LowLevel::__DeltaStateEvent___stateData_e__FixedBuffer value);
 
-  /// @brief Method get_deltaStateSizeInBytes, addr 0x2ae9570, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_deltaStateSizeInBytes, addr 0x2aeb0dc, size 0xc, virtual false, abstract: false, final false
   inline uint32_t get_deltaStateSizeInBytes();
 
-  /// @brief Method get_deltaState, addr 0x2ae957c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_deltaState, addr 0x2aeb0e8, size 0x8, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<void> get_deltaState();
 
-  /// @brief Method get_typeStatic, addr 0x2ae9584, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x2aeb0f0, size 0x20, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
-  /// @brief Method ToEventPtr, addr 0x2ae95a4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ToEventPtr, addr 0x2aeb110, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::InputEventPtr ToEventPtr();
 
-  /// @brief Method From, addr 0x2ae95a8, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method From, addr 0x2aeb114, size 0x130, virtual false, abstract: false, final false
   static inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::DeltaStateEvent> From(::UnityEngine::InputSystem::LowLevel::InputEventPtr ptr);
 
-  /// @brief Method FromUnchecked, addr 0x2ae96d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method FromUnchecked, addr 0x2aeb244, size 0x4, virtual false, abstract: false, final false
   static inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::DeltaStateEvent> FromUnchecked(::UnityEngine::InputSystem::LowLevel::InputEventPtr ptr);
 
-  /// @brief Method From, addr 0x2ae96dc, size 0x318, virtual false, abstract: false, final false
+  /// @brief Method From, addr 0x2aeb248, size 0x318, virtual false, abstract: false, final false
   static inline ::Unity::Collections::NativeArray_1<uint8_t> From(::UnityEngine::InputSystem::InputControl* control, ByRef<::UnityEngine::InputSystem::LowLevel::InputEventPtr> eventPtr,
                                                                   ::Unity::Collections::Allocator allocator);
 

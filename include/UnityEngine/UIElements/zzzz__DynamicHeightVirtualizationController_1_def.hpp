@@ -51,8 +51,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7370)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7370), inst: 5349 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7366))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6629)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6629), inst: 5331 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6625))
 // CS Name: ::UnityEngine.UIElements::DynamicHeightVirtualizationController`1<T>*
 class CORDL_TYPE DynamicHeightVirtualizationController_1 : public ::UnityEngine::UIElements::VerticalVirtualizationController_1<T> {
 public:

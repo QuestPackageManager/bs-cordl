@@ -31,8 +31,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7300))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7294))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6559))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6553))
 // CS Name: ::UnityEngine.UIElements::StyleEnum`1<T>
 struct CORDL_TYPE StyleEnum_1 {
 public:

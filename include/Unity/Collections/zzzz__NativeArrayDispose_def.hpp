@@ -18,13 +18,13 @@ MARK_VAL_T(::Unity::Collections::NativeArrayDispose);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::Collections {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10003))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10000))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8734))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8731))
 // CS Name: ::Unity.Collections::NativeArrayDispose
 struct CORDL_TYPE NativeArrayDispose {
 public:
   // Declarations
-  /// @brief Method Dispose, addr 0x2c9dfe0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x2c9ea8c, size 0x44, virtual false, abstract: false, final false
   inline void Dispose();
 
   // Ctor Parameters [CppParam { name: "m_Buffer", ty: "::cordl_internals::Ptr<void>", modifiers: "", def_value: None }, CppParam { name: "m_AllocatorLabel", ty: "::Unity::Collections::Allocator",

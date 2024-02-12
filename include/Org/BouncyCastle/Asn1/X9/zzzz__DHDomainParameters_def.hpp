@@ -99,44 +99,44 @@ public:
 
   constexpr void __cordl_internal_set_validationParms(::Org::BouncyCastle::Asn1::X9::DHValidationParms* value);
 
-  /// @brief Method GetInstance, addr 0x11a7d04, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x11d5b94, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::DHDomainParameters* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-  /// @brief Method GetInstance, addr 0x11a7d1c, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x11d5bac, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::DHDomainParameters* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X9::DHDomainParameters* New_ctor(::Org::BouncyCastle::Asn1::DerInteger* p, ::Org::BouncyCastle::Asn1::DerInteger* g,
                                                                             ::Org::BouncyCastle::Asn1::DerInteger* q, ::Org::BouncyCastle::Asn1::DerInteger* j,
                                                                             ::Org::BouncyCastle::Asn1::X9::DHValidationParms* validationParms);
 
-  /// @brief Method .ctor, addr 0x11a8090, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11d5f20, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerInteger* p, ::Org::BouncyCastle::Asn1::DerInteger* g, ::Org::BouncyCastle::Asn1::DerInteger* q, ::Org::BouncyCastle::Asn1::DerInteger* j,
                     ::Org::BouncyCastle::Asn1::X9::DHValidationParms* validationParms);
 
   static inline ::Org::BouncyCastle::Asn1::X9::DHDomainParameters* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0x11a7ea4, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11d5d34, size 0x1ec, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetNext, addr 0x11a8180, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method GetNext, addr 0x11d6010, size 0x150, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1Encodable* GetNext(::System::Collections::IEnumerator* e);
 
-  /// @brief Method get_P, addr 0x11a8458, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_P, addr 0x11d62e8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_P();
 
-  /// @brief Method get_G, addr 0x11a8460, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_G, addr 0x11d62f0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_G();
 
-  /// @brief Method get_Q, addr 0x11a8468, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Q, addr 0x11d62f8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Q();
 
-  /// @brief Method get_J, addr 0x11a8470, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_J, addr 0x11d6300, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_J();
 
-  /// @brief Method get_ValidationParms, addr 0x11a8478, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ValidationParms, addr 0x11d6308, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::DHValidationParms* get_ValidationParms();
 
-  /// @brief Method ToAsn1Object, addr 0x11a8480, size 0x1cc, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x11d6310, size 0x1cc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "DHDomainParameters", modifiers: "&&", def_value: None }]

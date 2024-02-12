@@ -135,53 +135,53 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsClientProtocol* New_ctor(::System::IO::Stream* stream, ::Org::BouncyCastle::Security::SecureRandom* secureRandom);
 
-  /// @brief Method .ctor, addr 0xf9fe68, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfcbcf8, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream, ::Org::BouncyCastle::Security::SecureRandom* secureRandom);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsClientProtocol* New_ctor(::System::IO::Stream* input, ::System::IO::Stream* output, ::Org::BouncyCastle::Security::SecureRandom* secureRandom);
 
-  /// @brief Method .ctor, addr 0xf9fe88, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfcbd18, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* input, ::System::IO::Stream* output, ::Org::BouncyCastle::Security::SecureRandom* secureRandom);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsClientProtocol* New_ctor(::Org::BouncyCastle::Security::SecureRandom* secureRandom);
 
-  /// @brief Method .ctor, addr 0xf9fea0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfcbd30, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* secureRandom);
 
-  /// @brief Method Connect, addr 0xf9feb8, size 0x478, virtual true, abstract: false, final false
+  /// @brief Method Connect, addr 0xfcbd48, size 0x478, virtual true, abstract: false, final false
   inline void Connect(::Org::BouncyCastle::Crypto::Tls::TlsClient* tlsClient);
 
-  /// @brief Method CleanupHandshake, addr 0xfa0330, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method CleanupHandshake, addr 0xfcc1c0, size 0x24, virtual true, abstract: false, final false
   inline void CleanupHandshake();
 
-  /// @brief Method get_Context, addr 0xfa0354, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Context, addr 0xfcc1e4, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsContext* get_Context();
 
-  /// @brief Method get_ContextAdmin, addr 0xfa035c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ContextAdmin, addr 0xfcc1ec, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext* get_ContextAdmin();
 
-  /// @brief Method get_Peer, addr 0xfa0364, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Peer, addr 0xfcc1f4, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsPeer* get_Peer();
 
-  /// @brief Method HandleHandshakeMessage, addr 0xfa036c, size 0x1260, virtual true, abstract: false, final false
+  /// @brief Method HandleHandshakeMessage, addr 0xfcc1fc, size 0x1260, virtual true, abstract: false, final false
   inline void HandleHandshakeMessage(uint8_t type, ::System::IO::MemoryStream* buf);
 
-  /// @brief Method HandleSupplementalData, addr 0xfa15cc, size 0x1b0, virtual true, abstract: false, final false
+  /// @brief Method HandleSupplementalData, addr 0xfcd45c, size 0x1b0, virtual true, abstract: false, final false
   inline void HandleSupplementalData(::System::Collections::IList* serverSupplementalData);
 
-  /// @brief Method ReceiveNewSessionTicketMessage, addr 0xfa177c, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method ReceiveNewSessionTicketMessage, addr 0xfcd60c, size 0xc0, virtual true, abstract: false, final false
   inline void ReceiveNewSessionTicketMessage(::System::IO::MemoryStream* buf);
 
-  /// @brief Method ReceiveServerHelloMessage, addr 0xfa183c, size 0xea4, virtual true, abstract: false, final false
+  /// @brief Method ReceiveServerHelloMessage, addr 0xfcd6cc, size 0xea4, virtual true, abstract: false, final false
   inline void ReceiveServerHelloMessage(::System::IO::MemoryStream* buf);
 
-  /// @brief Method SendCertificateVerifyMessage, addr 0xfa26e0, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method SendCertificateVerifyMessage, addr 0xfce570, size 0x8c, virtual true, abstract: false, final false
   inline void SendCertificateVerifyMessage(::Org::BouncyCastle::Crypto::Tls::DigitallySigned* certificateVerify);
 
-  /// @brief Method SendClientHelloMessage, addr 0xfa276c, size 0x6a0, virtual true, abstract: false, final false
+  /// @brief Method SendClientHelloMessage, addr 0xfce5fc, size 0x6a0, virtual true, abstract: false, final false
   inline void SendClientHelloMessage();
 
-  /// @brief Method SendClientKeyExchangeMessage, addr 0xfa2e0c, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method SendClientKeyExchangeMessage, addr 0xfcec9c, size 0xe4, virtual true, abstract: false, final false
   inline void SendClientKeyExchangeMessage();
 
   // Ctor Parameters [CppParam { name: "", ty: "TlsClientProtocol", modifiers: "&&", def_value: None }]

@@ -75,7 +75,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__IndexFilter___GetValues_d__24);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4315))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10744))
 // CS Name: ::IndexFilter::IndexFilterRandomType
 struct CORDL_TYPE __IndexFilter__IndexFilterRandomType {
 public:
@@ -129,7 +129,7 @@ static_assert(offsetof(::GlobalNamespace::__IndexFilter__IndexFilterRandomType, 
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4316))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10745))
 // CS Name: ::IndexFilter::IndexFilterLimitAlsoAffectType
 struct CORDL_TYPE __IndexFilter__IndexFilterLimitAlsoAffectType {
 public:
@@ -182,8 +182,8 @@ static_assert(offsetof(::GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAff
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2508)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2508), inst: 5323
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4317)) CS Name: ::IndexFilter::<GetEnumerator>d__23*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2508)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2508), inst: 5306
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(10746)) CS Name: ::IndexFilter::<GetEnumerator>d__23*
 class CORDL_TYPE __IndexFilter___GetEnumerator_d__23 : public ::System::Object {
 public:
   // Declarations
@@ -285,26 +285,26 @@ public:
 
   static inline ::GlobalNamespace::__IndexFilter___GetEnumerator_d__23* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor, addr 0x233af14, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x127c1f4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x233afec, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x127c2cc, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext, addr 0x233b008, size 0x4f0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x127c2e8, size 0x4dc, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method <>m__Finally1, addr 0x233b4f8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x127c7c4, size 0xb0, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<(System.Int32element,System.Int32durationOrder,System.Int32distributionOrder)>.get_Current, addr 0x233b5a8, size 0x10, virtual true,
+  /// @brief Method System.Collections.Generic.IEnumerator<(System.Int32element,System.Int32durationOrder,System.Int32distributionOrder)>.get_Current, addr 0x127c874, size 0x10, virtual true,
   /// abstract: false, final true
   inline ::System::ValueTuple_3<int32_t, int32_t, int32_t> System_Collections_Generic_IEnumerator__System_Int32element_System_Int32durationOrder_System_Int32distributionOrder___get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x233b5b8, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x127c884, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x233b5f8, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x127c8c4, size 0x64, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__IndexFilter___GetEnumerator_d__23", modifiers: "&&", def_value: None }]
@@ -372,7 +372,7 @@ static_assert(offsetof(::GlobalNamespace::__IndexFilter___GetEnumerator_d__23, _
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4318))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10747))
 // CS Name: ::IndexFilter::<GetValues>d__24*
 class CORDL_TYPE __IndexFilter___GetValues_d__24 : public ::System::Object {
 public:
@@ -467,28 +467,28 @@ public:
 
   static inline ::GlobalNamespace::__IndexFilter___GetValues_d__24* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor, addr 0x233afb4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x127c294, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x233b65c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x127c928, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext, addr 0x233b660, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x127c92c, size 0x80, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Int32>.get_Current, addr 0x233b6e0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Int32>.get_Current, addr 0x127c9ac, size 0x8, virtual true, abstract: false, final true
   inline int32_t System_Collections_Generic_IEnumerator_System_Int32__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x233b6e8, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x127c9b4, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x233b728, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x127c9f4, size 0x5c, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.Collections.Generic.IEnumerable<System.Int32>.GetEnumerator, addr 0x233b784, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<System.Int32>.GetEnumerator, addr 0x127ca50, size 0xa4, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<int32_t>* System_Collections_Generic_IEnumerable_System_Int32__GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x233b828, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x127caf4, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   // Ctor Parameters [CppParam { name: "", ty: "__IndexFilter___GetValues_d__24", modifiers: "&&", def_value: None }]
@@ -545,8 +545,8 @@ static_assert(offsetof(::GlobalNamespace::__IndexFilter___GetValues_d__24, ____i
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4315)), TypeDefinitionIndex(TypeDefinitionIndex(4316))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4319))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10744)), TypeDefinitionIndex(TypeDefinitionIndex(10745))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10748))
 // CS Name: ::IndexFilter*
 class CORDL_TYPE IndexFilter : public ::System::Object {
 public:
@@ -671,42 +671,42 @@ public:
 
   constexpr void __cordl_internal_set__count(int32_t value);
 
-  /// @brief Method get_Count, addr 0x233aef0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Count, addr 0x127c008, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_VisibleCount, addr 0x233aef8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_VisibleCount, addr 0x127c010, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_VisibleCount();
 
-  /// @brief Method get_limitAlsoAffectType, addr 0x233af00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_limitAlsoAffectType, addr 0x127c018, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAffectType get_limitAlsoAffectType();
 
-  /// @brief Method get_limitsDuration, addr 0x233af08, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_limitsDuration, addr 0x127c020, size 0xc, virtual false, abstract: false, final false
   inline bool get_limitsDuration();
 
-  /// @brief Method get_limitsDistribution, addr 0x23388a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_limitsDistribution, addr 0x12791ac, size 0xc, virtual false, abstract: false, final false
   inline bool get_limitsDistribution();
 
   static inline ::GlobalNamespace::IndexFilter* New_ctor(int32_t start, int32_t step, int32_t count, int32_t groupSize, ::GlobalNamespace::__IndexFilter__IndexFilterRandomType random, int32_t seed,
                                                          int32_t chunkSize, float_t limit, ::GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAffectType limitAlsoAffectType);
 
-  /// @brief Method .ctor, addr 0x2336154, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x127c02c, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor(int32_t start, int32_t step, int32_t count, int32_t groupSize, ::GlobalNamespace::__IndexFilter__IndexFilterRandomType random, int32_t seed, int32_t chunkSize, float_t limit,
                     ::GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAffectType limitAlsoAffectType);
 
   static inline ::GlobalNamespace::IndexFilter* New_ctor(int32_t start, int32_t end, int32_t groupSize, ::GlobalNamespace::__IndexFilter__IndexFilterRandomType random, int32_t seed, int32_t chunkSize,
                                                          float_t limit, ::GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAffectType limitAlsoAffectType);
 
-  /// @brief Method .ctor, addr 0x2336074, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x127c114, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(int32_t start, int32_t end, int32_t groupSize, ::GlobalNamespace::__IndexFilter__IndexFilterRandomType random, int32_t seed, int32_t chunkSize, float_t limit,
                     ::GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAffectType limitAlsoAffectType);
 
-  /// @brief Method GetEnumerator, addr 0x23389e0, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x1279a78, size 0x68, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_3<int32_t, int32_t, int32_t>>* GetEnumerator();
 
-  /// @brief Method GetValues, addr 0x233af3c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetValues, addr 0x127c21c, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* GetValues();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x233afe8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x127c2c8, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   // Ctor Parameters [CppParam { name: "", ty: "IndexFilter", modifiers: "&&", def_value: None }]

@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::Mono::Security::Interface::MonoTlsProvider);
 namespace Mono::Security::Interface {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13782))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13735))
 // CS Name: ::Mono.Security.Interface::MonoTlsProvider*
 class CORDL_TYPE MonoTlsProvider : public ::System::Object {
 public:
@@ -43,7 +43,7 @@ public:
 
   static inline ::Mono::Security::Interface::MonoTlsProvider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2402d84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2422be4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_ID, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

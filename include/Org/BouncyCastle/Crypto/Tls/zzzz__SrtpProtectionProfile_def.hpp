@@ -23,7 +23,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Tls::SrtpProtectionProfile* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf97d60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfc3bf0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SrtpProtectionProfile", modifiers: "&&", def_value: None }]

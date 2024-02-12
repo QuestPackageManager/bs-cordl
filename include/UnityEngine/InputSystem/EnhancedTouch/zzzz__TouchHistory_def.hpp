@@ -61,7 +61,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::EnhancedTouch::TouchHistory);
 namespace UnityEngine::InputSystem::EnhancedTouch {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6421))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5680))
 // CS Name: ::UnityEngine.InputSystem.EnhancedTouch::TouchHistory
 struct CORDL_TYPE TouchHistory {
 public:
@@ -99,23 +99,23 @@ public:
   constexpr ::System::Collections::Generic::IReadOnlyCollection_1<::UnityEngine::InputSystem::EnhancedTouch::Touch>*
   i___System__Collections__Generic__IReadOnlyCollection_1___UnityEngine__InputSystem__EnhancedTouch__Touch_();
 
-  /// @brief Method .ctor, addr 0x2ae0e10, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ae297c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::EnhancedTouch::Finger* finger, ::UnityEngine::InputSystem::LowLevel::InputStateHistory_1<::UnityEngine::InputSystem::LowLevel::TouchState>* history,
                     int32_t startIndex, int32_t count);
 
-  /// @brief Method GetEnumerator, addr 0x2ae381c, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x2ae5388, size 0x80, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::EnhancedTouch::Touch>* GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2ae38d0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2ae543c, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method get_Count, addr 0x2ae38d4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Count, addr 0x2ae5440, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_Item, addr 0x2ae38dc, size 0x13c, virtual true, abstract: false, final true
+  /// @brief Method get_Item, addr 0x2ae5448, size 0x13c, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::EnhancedTouch::Touch get_Item(int32_t index);
 
-  /// @brief Method CheckValid, addr 0x2ae3a18, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method CheckValid, addr 0x2ae5584, size 0x9c, virtual false, abstract: false, final false
   inline void CheckValid();
 
   // Ctor Parameters [CppParam { name: "m_History", ty: "::UnityEngine::InputSystem::LowLevel::InputStateHistory_1<::UnityEngine::InputSystem::LowLevel::TouchState>*", modifiers: "", def_value: None
@@ -166,8 +166,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::EnhancedTouch::TouchHistory, 
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::EnhancedTouch {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6421))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6420))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5680))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5679))
 // CS Name: ::TouchHistory::Enumerator*
 class CORDL_TYPE __TouchHistory__Enumerator : public ::System::Object {
 public:
@@ -215,22 +215,22 @@ public:
 
   static inline ::UnityEngine::InputSystem::EnhancedTouch::__TouchHistory__Enumerator* New_ctor(::UnityEngine::InputSystem::EnhancedTouch::TouchHistory owner);
 
-  /// @brief Method .ctor, addr 0x2ae389c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ae5408, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::EnhancedTouch::TouchHistory owner);
 
-  /// @brief Method MoveNext, addr 0x2ae3ab4, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2ae5620, size 0x2c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method Reset, addr 0x2ae3ae0, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x2ae564c, size 0xc, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method get_Current, addr 0x2ae3aec, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x2ae5658, size 0x40, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::EnhancedTouch::Touch get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2ae3b2c, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2ae5698, size 0x7c, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method Dispose, addr 0x2ae3ba8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2ae5714, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
   // Ctor Parameters [CppParam { name: "", ty: "__TouchHistory__Enumerator", modifiers: "&&", def_value: None }]

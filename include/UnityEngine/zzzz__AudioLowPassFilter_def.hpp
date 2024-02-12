@@ -5,6 +5,9 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Behaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(AudioLowPassFilter)
+namespace UnityEngine {
+class AnimationCurve;
+}
 // Forward declare root types
 namespace UnityEngine {
 class AudioLowPassFilter;
@@ -15,19 +18,46 @@ MARK_REF_PTR_T(::UnityEngine::AudioLowPassFilter);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10187))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15599))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8931))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15310))
 // CS Name: ::UnityEngine::AudioLowPassFilter*
 class CORDL_TYPE AudioLowPassFilter : public ::UnityEngine::Behaviour {
 public:
   // Declarations
+  __declspec(property(get = get_customCutoffCurve, put = set_customCutoffCurve))::UnityEngine::AnimationCurve* customCutoffCurve;
+
   __declspec(property(get = get_cutoffFrequency, put = set_cutoffFrequency)) float_t cutoffFrequency;
 
-  /// @brief Method get_cutoffFrequency, addr 0x2c9bfe4, size 0x3c, virtual false, abstract: false, final false
+  __declspec(property(get = get_lowpassResonanceQ, put = set_lowpassResonanceQ)) float_t lowpassResonanceQ;
+
+  /// @brief Method GetCustomLowpassLevelCurveCopy, addr 0x2c9ba10, size 0x3c, virtual false, abstract: false, final false
+  inline ::UnityEngine::AnimationCurve* GetCustomLowpassLevelCurveCopy();
+
+  /// @brief Method SetCustomLowpassLevelCurveHelper, addr 0x2c9ba4c, size 0x44, virtual false, abstract: false, final false
+  static inline void SetCustomLowpassLevelCurveHelper(::UnityEngine::AudioLowPassFilter* source, ::UnityEngine::AnimationCurve* curve);
+
+  /// @brief Method get_customCutoffCurve, addr 0x2c9ba90, size 0x3c, virtual false, abstract: false, final false
+  inline ::UnityEngine::AnimationCurve* get_customCutoffCurve();
+
+  /// @brief Method set_customCutoffCurve, addr 0x2c9bacc, size 0x44, virtual false, abstract: false, final false
+  inline void set_customCutoffCurve(::UnityEngine::AnimationCurve* value);
+
+  /// @brief Method get_cutoffFrequency, addr 0x2c9bb10, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_cutoffFrequency();
 
-  /// @brief Method set_cutoffFrequency, addr 0x2c9c020, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_cutoffFrequency, addr 0x2c9bb4c, size 0x4c, virtual false, abstract: false, final false
   inline void set_cutoffFrequency(float_t value);
+
+  /// @brief Method get_lowpassResonanceQ, addr 0x2c9bb98, size 0x3c, virtual false, abstract: false, final false
+  inline float_t get_lowpassResonanceQ();
+
+  /// @brief Method set_lowpassResonanceQ, addr 0x2c9bbd4, size 0x4c, virtual false, abstract: false, final false
+  inline void set_lowpassResonanceQ(float_t value);
+
+  static inline ::UnityEngine::AudioLowPassFilter* New_ctor();
+
+  /// @brief Method .ctor, addr 0x2c9bc20, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AudioLowPassFilter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

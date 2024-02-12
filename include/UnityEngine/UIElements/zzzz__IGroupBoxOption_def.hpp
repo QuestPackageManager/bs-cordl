@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IGroupBoxOption);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6936))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6195))
 // CS Name: ::UnityEngine.UIElements::IGroupBoxOption*
 class CORDL_TYPE IGroupBoxOption {
 public:

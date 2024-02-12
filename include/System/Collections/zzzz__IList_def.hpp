@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::System::Collections::IList);
 namespace System::Collections {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3762))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3761))
 // CS Name: ::System.Collections::IList*
 class CORDL_TYPE IList {
 public:

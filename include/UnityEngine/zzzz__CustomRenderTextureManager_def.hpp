@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::UnityEngine::CustomRenderTextureManager);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10088))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8820))
 // CS Name: ::UnityEngine::CustomRenderTextureManager*
 class CORDL_TYPE CustomRenderTextureManager : public ::System::Object {
 public:
@@ -40,10 +40,10 @@ public:
 
   static inline ::System::Action_1<::UnityW<::UnityEngine::CustomRenderTexture>>* getStaticF_textureUnloaded();
 
-  /// @brief Method InvokeOnTextureLoaded_Internal, addr 0x2cb69cc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method InvokeOnTextureLoaded_Internal, addr 0x2cb9578, size 0x6c, virtual false, abstract: false, final false
   static inline void InvokeOnTextureLoaded_Internal(::UnityEngine::CustomRenderTexture* source);
 
-  /// @brief Method InvokeOnTextureUnloaded_Internal, addr 0x2cb6a38, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method InvokeOnTextureUnloaded_Internal, addr 0x2cb95e4, size 0x6c, virtual false, abstract: false, final false
   static inline void InvokeOnTextureUnloaded_Internal(::UnityEngine::CustomRenderTexture* source);
 
   // Ctor Parameters [CppParam { name: "", ty: "CustomRenderTextureManager", modifiers: "&&", def_value: None }]

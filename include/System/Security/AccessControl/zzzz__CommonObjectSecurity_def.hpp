@@ -28,10 +28,10 @@ public:
   // Declarations
   static inline ::System::Security::AccessControl::CommonObjectSecurity* New_ctor(bool isContainer);
 
-  /// @brief Method .ctor, addr 0x2482bd4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24a4c48, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(bool isContainer);
 
-  /// @brief Method GetAccessRules, addr 0x2482cdc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetAccessRules, addr 0x24a4d50, size 0xc, virtual false, abstract: false, final false
   inline ::System::Security::AccessControl::AuthorizationRuleCollection* GetAccessRules(bool includeExplicit, bool includeInherited, ::System::Type* targetType);
 
   // Ctor Parameters [CppParam { name: "", ty: "CommonObjectSecurity", modifiers: "&&", def_value: None }]

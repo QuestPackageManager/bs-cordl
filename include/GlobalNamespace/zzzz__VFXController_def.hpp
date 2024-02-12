@@ -44,7 +44,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__VFXController___MainCoroutine_d__9);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14383))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14537))
 // CS Name: ::VFXController::<MainCoroutine>d__9*
 class CORDL_TYPE __VFXController___MainCoroutine_d__9 : public ::System::Object {
 public:
@@ -118,22 +118,22 @@ public:
 
   static inline ::GlobalNamespace::__VFXController___MainCoroutine_d__9* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor, addr 0x20f4784, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2188d0c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x20f47b4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x2188d3c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext, addr 0x20f47b8, size 0x184, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2188d40, size 0x184, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x20f493c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2188ec4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x20f4944, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2188ecc, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x20f4984, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2188f0c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__VFXController___MainCoroutine_d__9", modifiers: "&&", def_value: None }]
@@ -185,8 +185,8 @@ static_assert(offsetof(::GlobalNamespace::__VFXController___MainCoroutine_d__9, 
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14384))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14538))
 // CS Name: ::VFXController*
 class CORDL_TYPE VFXController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -225,24 +225,24 @@ public:
 
   constexpr void __cordl_internal_set__deactivateAfterAnimationDuration(bool value);
 
-  /// @brief Method get_animation, addr 0x20f45b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_animation, addr 0x2188b3c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Animation> get_animation();
 
-  /// @brief Method get_particleSystems, addr 0x20f45bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_particleSystems, addr 0x2188b44, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::ParticleSystem>, ::Array<::UnityW<::UnityEngine::ParticleSystem>>*> get_particleSystems();
 
-  /// @brief Method Awake, addr 0x20f45c4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2188b4c, size 0x24, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Play, addr 0x20f45e8, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Play, addr 0x2188b70, size 0x110, virtual false, abstract: false, final false
   inline void Play();
 
-  /// @brief Method MainCoroutine, addr 0x20f46f8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method MainCoroutine, addr 0x2188c80, size 0x8c, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* MainCoroutine(bool deactivateAfterDuration, float_t duration);
 
   static inline ::GlobalNamespace::VFXController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x20f47ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2188d34, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "VFXController", modifiers: "&&", def_value: None }]

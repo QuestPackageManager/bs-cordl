@@ -45,17 +45,17 @@ MARK_REF_PTR_T(::System::Reflection::__EventInfo__AddEventAdapter);
 namespace System::Reflection {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3465))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3461))
 // CS Name: ::EventInfo::AddEventAdapter*
 class CORDL_TYPE __EventInfo__AddEventAdapter : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::System::Reflection::__EventInfo__AddEventAdapter* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x24e661c, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2505774, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x24e674c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x25058a4, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* _this, ::System::Delegate* dele);
 
   // Ctor Parameters [CppParam { name: "", ty: "__EventInfo__AddEventAdapter", modifiers: "&&", def_value: None }]
@@ -82,8 +82,8 @@ static_assert(::cordl_internals::size_check_v<::System::Reflection::__EventInfo_
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3474))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3466))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3470))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3462))
 // CS Name: ::System.Reflection::EventInfo*
 class CORDL_TYPE EventInfo : public ::System::Reflection::MemberInfo {
 public:
@@ -105,16 +105,16 @@ public:
 
   static inline ::System::Reflection::EventInfo* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24e6340, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2505498, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_MemberType, addr 0x24e6350, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_MemberType, addr 0x25054a8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Reflection::MemberTypes get_MemberType();
 
-  /// @brief Method GetAddMethod, addr 0x24e6358, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method GetAddMethod, addr 0x25054b0, size 0x14, virtual true, abstract: false, final true
   inline ::System::Reflection::MethodInfo* GetAddMethod();
 
-  /// @brief Method GetRemoveMethod, addr 0x24e636c, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method GetRemoveMethod, addr 0x25054c4, size 0x14, virtual true, abstract: false, final true
   inline ::System::Reflection::MethodInfo* GetRemoveMethod();
 
   /// @brief Method GetAddMethod, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -126,25 +126,25 @@ public:
   /// @brief Method GetRaiseMethod, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Reflection::MethodInfo* GetRaiseMethod(bool nonPublic);
 
-  /// @brief Method get_EventHandlerType, addr 0x24e6380, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method get_EventHandlerType, addr 0x25054d8, size 0x128, virtual true, abstract: false, final false
   inline ::System::Type* get_EventHandlerType();
 
-  /// @brief Method Equals, addr 0x24e64a8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2505600, size 0x8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x24e64b8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2505610, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method op_Equality, addr 0x24e64c8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x2505620, size 0x2c, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Reflection::EventInfo* left, ::System::Reflection::EventInfo* right);
 
-  /// @brief Method op_Inequality, addr 0x24e64f4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x250564c, size 0x3c, virtual false, abstract: false, final false
   static inline bool op_Inequality(::System::Reflection::EventInfo* left, ::System::Reflection::EventInfo* right);
 
-  /// @brief Method internal_from_handle_type, addr 0x24e6530, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method internal_from_handle_type, addr 0x2505688, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Reflection::EventInfo* internal_from_handle_type(void* event_handle, void* type_handle);
 
-  /// @brief Method GetEventFromHandle, addr 0x24e6534, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetEventFromHandle, addr 0x250568c, size 0xe8, virtual false, abstract: false, final false
   static inline ::System::Reflection::EventInfo* GetEventFromHandle(::Mono::RuntimeEventHandle handle, ::System::RuntimeTypeHandle reflectedType);
 
   // Ctor Parameters [CppParam { name: "", ty: "EventInfo", modifiers: "&&", def_value: None }]

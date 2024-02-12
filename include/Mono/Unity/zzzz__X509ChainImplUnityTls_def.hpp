@@ -37,8 +37,8 @@ MARK_REF_PTR_T(::Mono::Unity::X509ChainImplUnityTls);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Unity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8764)), TypeDefinitionIndex(TypeDefinitionIndex(9006))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8814))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6774)), TypeDefinitionIndex(TypeDefinitionIndex(7016))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6824))
 // CS Name: ::Mono.Unity::X509ChainImplUnityTls*
 class CORDL_TYPE X509ChainImplUnityTls : public ::System::Security::Cryptography::X509Certificates::X509ChainImpl {
 public:
@@ -103,34 +103,34 @@ public:
 
   static inline ::Mono::Unity::X509ChainImplUnityTls* New_ctor(::Mono::Unity::__UnityTls__unitytls_x509list_ref nativeCertificateChain, bool reverseOrder);
 
-  /// @brief Method .ctor, addr 0x281c250, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2820a38, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Unity::__UnityTls__unitytls_x509list_ref nativeCertificateChain, bool reverseOrder);
 
-  /// @brief Method get_IsValid, addr 0x281d88c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_IsValid, addr 0x2822074, size 0x28, virtual true, abstract: false, final false
   inline bool get_IsValid();
 
-  /// @brief Method get_NativeCertificateChain, addr 0x281d8b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NativeCertificateChain, addr 0x282209c, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Unity::__UnityTls__unitytls_x509list_ref get_NativeCertificateChain();
 
-  /// @brief Method get_ChainElements, addr 0x281d8bc, size 0x2dc, virtual true, abstract: false, final false
+  /// @brief Method get_ChainElements, addr 0x28220a4, size 0x2dc, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509ChainElementCollection* get_ChainElements();
 
-  /// @brief Method AddStatus, addr 0x281db98, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method AddStatus, addr 0x2822380, size 0x10c, virtual true, abstract: false, final false
   inline void AddStatus(::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags error);
 
-  /// @brief Method get_ChainPolicy, addr 0x281dca4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ChainPolicy, addr 0x282248c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509ChainPolicy* get_ChainPolicy();
 
-  /// @brief Method get_ChainStatus, addr 0x281dcac, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method get_ChainStatus, addr 0x2822494, size 0x7c, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus, ::Array<::System::Security::Cryptography::X509Certificates::X509ChainStatus>*> get_ChainStatus();
 
-  /// @brief Method Build, addr 0x281dd28, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Build, addr 0x2822510, size 0x8, virtual true, abstract: false, final false
   inline bool Build(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
 
-  /// @brief Method Reset, addr 0x281dd30, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x2822518, size 0x40, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Dispose, addr 0x281dd70, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x2822558, size 0x38, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   // Ctor Parameters [CppParam { name: "", ty: "X509ChainImplUnityTls", modifiers: "&&", def_value: None }]

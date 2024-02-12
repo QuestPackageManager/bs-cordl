@@ -60,40 +60,40 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::BufferedAsymmetricBlockCipher* New_ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher);
 
-  /// @brief Method .ctor, addr 0xfc43bc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xff124c, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher);
 
-  /// @brief Method GetBufferPosition, addr 0xfc4428, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetBufferPosition, addr 0xff12b8, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetBufferPosition();
 
-  /// @brief Method get_AlgorithmName, addr 0xfc4430, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0xff12c0, size 0xa0, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method GetBlockSize, addr 0xfc44d0, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method GetBlockSize, addr 0xff1360, size 0xa4, virtual true, abstract: false, final false
   inline int32_t GetBlockSize();
 
-  /// @brief Method GetOutputSize, addr 0xfc4574, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method GetOutputSize, addr 0xff1404, size 0xa4, virtual true, abstract: false, final false
   inline int32_t GetOutputSize(int32_t length);
 
-  /// @brief Method GetUpdateOutputSize, addr 0xfc4618, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetUpdateOutputSize, addr 0xff14a8, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetUpdateOutputSize(int32_t length);
 
-  /// @brief Method Init, addr 0xfc4620, size 0x16c, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0xff14b0, size 0x16c, virtual true, abstract: false, final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method ProcessByte, addr 0xfc478c, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method ProcessByte, addr 0xff161c, size 0x90, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ProcessByte(uint8_t input);
 
-  /// @brief Method ProcessBytes, addr 0xfc4820, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ProcessBytes, addr 0xff16b0, size 0xf0, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ProcessBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
-  /// @brief Method DoFinal, addr 0xfc4910, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method DoFinal, addr 0xff17a0, size 0x11c, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DoFinal();
 
-  /// @brief Method DoFinal, addr 0xfc4a2c, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method DoFinal, addr 0xff18bc, size 0x30, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
-  /// @brief Method Reset, addr 0xfc4a5c, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0xff18ec, size 0x2c, virtual true, abstract: false, final false
   inline void Reset();
 
   // Ctor Parameters [CppParam { name: "", ty: "BufferedAsymmetricBlockCipher", modifiers: "&&", def_value: None }]

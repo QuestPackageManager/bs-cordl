@@ -47,16 +47,16 @@ public:
 
   constexpr void __cordl_internal_set_certPathException(::System::Exception* value);
 
-  /// @brief Method Build, addr 0x10e876c, size 0xee0, virtual true, abstract: false, final false
+  /// @brief Method Build, addr 0x11165fc, size 0xee0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Pkix::PkixCertPathBuilderResult* Build(::Org::BouncyCastle::Pkix::PkixBuilderParameters* pkixParams);
 
-  /// @brief Method Build, addr 0x10ea664, size 0xc40, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x11184f4, size 0xc40, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Pkix::PkixCertPathBuilderResult* Build(::Org::BouncyCastle::X509::IX509AttributeCertificate* attrCert, ::Org::BouncyCastle::X509::X509Certificate* tbvCert,
                                                                      ::Org::BouncyCastle::Pkix::PkixBuilderParameters* pkixParams, ::System::Collections::IList* tbvPath);
 
   static inline ::Org::BouncyCastle::Pkix::PkixAttrCertPathBuilder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10ebbfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1119a8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PkixAttrCertPathBuilder", modifiers: "&&", def_value: None }]

@@ -39,7 +39,7 @@ MARK_REF_PTR_T(::System::Net::__PathList__PathListComparer);
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9131))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7141))
 // CS Name: ::PathList::PathListComparer*
 class CORDL_TYPE __PathList__PathListComparer : public ::System::Object {
 public:
@@ -57,12 +57,12 @@ public:
 
   static inline ::System::Net::__PathList__PathListComparer* getStaticF_StaticInstance();
 
-  /// @brief Method System.Collections.IComparer.Compare, addr 0x29b3320, size 0x168, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IComparer.Compare, addr 0x29b7dc4, size 0x168, virtual true, abstract: false, final true
   inline int32_t System_Collections_IComparer_Compare(::System::Object* ol, ::System::Object* _cordl_or);
 
   static inline ::System::Net::__PathList__PathListComparer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29b3488, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29b7f2c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__PathList__PathListComparer", modifiers: "&&", def_value: None }]
@@ -90,7 +90,7 @@ static_assert(::cordl_internals::size_check_v<::System::Net::__PathList__PathLis
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9132))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7142))
 // CS Name: ::System.Net::PathList*
 class CORDL_TYPE PathList : public ::System::Object {
 public:
@@ -116,28 +116,28 @@ public:
 
   static inline ::System::Net::PathList* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29af878, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29b431c, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Count, addr 0x29b1580, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x29b6024, size 0x24, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method GetCookiesCount, addr 0x29af920, size 0x444, virtual false, abstract: false, final false
+  /// @brief Method GetCookiesCount, addr 0x29b43c4, size 0x444, virtual false, abstract: false, final false
   inline int32_t GetCookiesCount();
 
-  /// @brief Method get_Values, addr 0x29b13f0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_Values, addr 0x29b5e94, size 0x24, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* get_Values();
 
-  /// @brief Method get_Item, addr 0x29afd88, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x29b482c, size 0x24, virtual false, abstract: false, final false
   inline ::System::Object* get_Item(::StringW s);
 
-  /// @brief Method set_Item, addr 0x29afdac, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x29b4850, size 0x100, virtual false, abstract: false, final false
   inline void set_Item(::StringW s, ::System::Object* value);
 
-  /// @brief Method GetEnumerator, addr 0x29b2bc4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x29b7668, size 0x24, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
-  /// @brief Method get_SyncRoot, addr 0x29afd64, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_SyncRoot, addr 0x29b4808, size 0x24, virtual false, abstract: false, final false
   inline ::System::Object* get_SyncRoot();
 
   // Ctor Parameters [CppParam { name: "", ty: "PathList", modifiers: "&&", def_value: None }]

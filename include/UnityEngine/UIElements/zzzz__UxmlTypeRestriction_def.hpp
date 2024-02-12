@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UxmlTypeRestriction);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6978))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6237))
 // CS Name: ::UnityEngine.UIElements::UxmlTypeRestriction*
 class CORDL_TYPE UxmlTypeRestriction : public ::System::Object {
 public:
@@ -29,12 +29,12 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::UxmlTypeRestriction*>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::UxmlTypeRestriction*>* i___System__IEquatable_1___UnityEngine__UIElements__UxmlTypeRestriction__() noexcept;
 
-  /// @brief Method Equals, addr 0x2e0e688, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2e2ba70, size 0xc, virtual true, abstract: false, final false
   inline bool Equals(::UnityEngine::UIElements::UxmlTypeRestriction* other);
 
   static inline ::UnityEngine::UIElements::UxmlTypeRestriction* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e0e694, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e2ba7c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "UxmlTypeRestriction", modifiers: "&&", def_value: None }]

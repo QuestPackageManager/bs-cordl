@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ILobbyStateDataModel);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4493))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10919))
 // CS Name: ::ILobbyStateDataModel*
 class CORDL_TYPE ILobbyStateDataModel {
 public:

@@ -14,8 +14,8 @@ MARK_REF_PTR_T(::GlobalNamespace::EnabledTransitionSO);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 38, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5443))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5449))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4746))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4752))
 // CS Name: ::EnabledTransitionSO*
 class CORDL_TYPE EnabledTransitionSO : public ::GlobalNamespace::BaseTransitionSO {
 public:
@@ -86,27 +86,27 @@ public:
 
   constexpr void __cordl_internal_set__selectedAndHighlightedState(bool value);
 
-  /// @brief Method get_normalState, addr 0x227de54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_normalState, addr 0x23d970c, size 0x8, virtual false, abstract: false, final false
   inline bool get_normalState();
 
-  /// @brief Method get_highlightedState, addr 0x227de5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_highlightedState, addr 0x23d9714, size 0x8, virtual false, abstract: false, final false
   inline bool get_highlightedState();
 
-  /// @brief Method get_pressedState, addr 0x227de64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pressedState, addr 0x23d971c, size 0x8, virtual false, abstract: false, final false
   inline bool get_pressedState();
 
-  /// @brief Method get_disabledState, addr 0x227de6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disabledState, addr 0x23d9724, size 0x8, virtual false, abstract: false, final false
   inline bool get_disabledState();
 
-  /// @brief Method get_selectedState, addr 0x227de74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedState, addr 0x23d972c, size 0x8, virtual false, abstract: false, final false
   inline bool get_selectedState();
 
-  /// @brief Method get_selectedAndHighlightedState, addr 0x227de7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedAndHighlightedState, addr 0x23d9734, size 0x8, virtual false, abstract: false, final false
   inline bool get_selectedAndHighlightedState();
 
   static inline ::GlobalNamespace::EnabledTransitionSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x227de84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d973c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EnabledTransitionSO", modifiers: "&&", def_value: None }]

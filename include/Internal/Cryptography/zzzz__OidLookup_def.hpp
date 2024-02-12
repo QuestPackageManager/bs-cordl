@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::Internal::Cryptography::__OidLookup____c);
 namespace Internal::Cryptography {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8853))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6863))
 // CS Name: ::OidLookup::<>c*
 class CORDL_TYPE __OidLookup____c : public ::System::Object {
 public:
@@ -49,13 +49,13 @@ public:
 
   static inline ::Internal::Cryptography::__OidLookup____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2828fcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x282d7b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <.cctor>b__10_0, addr 0x2828fd4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__10_0, addr 0x282d7bc, size 0x3c, virtual false, abstract: false, final false
   inline ::StringW __cctor_b__10_0(::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW> kvp);
 
-  /// @brief Method <.cctor>b__10_1, addr 0x2829010, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__10_1, addr 0x282d7f8, size 0x3c, virtual false, abstract: false, final false
   inline ::StringW __cctor_b__10_1(::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW> kvp);
 
   // Ctor Parameters [CppParam { name: "", ty: "__OidLookup____c", modifiers: "&&", def_value: None }]
@@ -83,7 +83,7 @@ static_assert(::cordl_internals::size_check_v<::Internal::Cryptography::__OidLoo
 namespace Internal::Cryptography {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8854))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6864))
 // CS Name: ::Internal.Cryptography::OidLookup*
 class CORDL_TYPE OidLookup : public ::System::Object {
 public:
@@ -127,19 +127,19 @@ public:
 
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* getStaticF_s_compatOids();
 
-  /// @brief Method ToFriendlyName, addr 0x2826890, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method ToFriendlyName, addr 0x282b078, size 0x1e0, virtual false, abstract: false, final false
   static inline ::StringW ToFriendlyName(::StringW oid, ::System::Security::Cryptography::OidGroup oidGroup, bool fallBackToAllGroups);
 
-  /// @brief Method ToOid, addr 0x2826db0, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method ToOid, addr 0x282b598, size 0x1b4, virtual false, abstract: false, final false
   static inline ::StringW ToOid(::StringW friendlyName, ::System::Security::Cryptography::OidGroup oidGroup, bool fallBackToAllGroups);
 
-  /// @brief Method ShouldUseCache, addr 0x2826a70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ShouldUseCache, addr 0x282b258, size 0x8, virtual false, abstract: false, final false
   static inline bool ShouldUseCache(::System::Security::Cryptography::OidGroup oidGroup);
 
-  /// @brief Method NativeOidToFriendlyName, addr 0x2826a78, size 0x338, virtual false, abstract: false, final false
+  /// @brief Method NativeOidToFriendlyName, addr 0x282b260, size 0x338, virtual false, abstract: false, final false
   static inline ::StringW NativeOidToFriendlyName(::StringW oid, ::System::Security::Cryptography::OidGroup oidGroup, bool fallBackToAllGroups);
 
-  /// @brief Method NativeFriendlyNameToOid, addr 0x2826f64, size 0x344, virtual false, abstract: false, final false
+  /// @brief Method NativeFriendlyNameToOid, addr 0x282b74c, size 0x344, virtual false, abstract: false, final false
   static inline ::StringW NativeFriendlyNameToOid(::StringW friendlyName, ::System::Security::Cryptography::OidGroup oidGroup, bool fallBackToAllGroups);
 
   // Ctor Parameters [CppParam { name: "", ty: "OidLookup", modifiers: "&&", def_value: None }]

@@ -2,14 +2,13 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__StandardLevelInfoSaveData_V100_def.hpp"
 #include "GlobalNamespace/zzzz__StandardLevelInfoSaveData_V100_def.hpp"
-#include "GlobalNamespace/zzzz__StandardLevelInfoSaveData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__StandardLevelInfoSaveData_V100__DifficultyBeatmap.get_difficulty
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::__StandardLevelInfoSaveData_V100__DifficultyBeatmap::*)()>(
     &::GlobalNamespace::__StandardLevelInfoSaveData_V100__DifficultyBeatmap::get_difficulty)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x234e64c;
+  constexpr static std::size_t addrs = 0x12b93e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::__StandardLevelInfoSaveData_V100__DifficultyBeatmap::*)()>(
     &::GlobalNamespace::__StandardLevelInfoSaveData_V100__DifficultyBeatmap::get_difficultyRank)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x234e654;
+  constexpr static std::size_t addrs = 0x12b93f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::__StandardLevelInfoSaveData_V100__DifficultyBeatmap::*)()>(
     &::GlobalNamespace::__StandardLevelInfoSaveData_V100__DifficultyBeatmap::get_beatmapFilename)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x234e65c;
+  constexpr static std::size_t addrs = 0x12b93f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -54,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::__StandardLevelInfoSaveData_V100__DifficultyBeatmap::*)()>(
     &::GlobalNamespace::__StandardLevelInfoSaveData_V100__DifficultyBeatmap::get_noteJumpMovementSpeed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x234e664;
+  constexpr static std::size_t addrs = 0x12b9400;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -69,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::__StandardLevelInfoSaveData_V100__DifficultyBeatmap::*)()>(
     &::GlobalNamespace::__StandardLevelInfoSaveData_V100__DifficultyBeatmap::get_noteJumpStartBeatOffset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x234e66c;
+  constexpr static std::size_t addrs = 0x12b9408;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -84,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__StandardLevelInfoSaveData_V100__DifficultyBeatmap::*)(
     ::StringW, int32_t, ::StringW, float_t, int32_t)>(&::GlobalNamespace::__StandardLevelInfoSaveData_V100__DifficultyBeatmap::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x234e674;
+  constexpr static std::size_t addrs = 0x12b9410;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -202,72 +201,13 @@ inline void GlobalNamespace::__StandardLevelInfoSaveData_V100__DifficultyBeatmap
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::__StandardLevelInfoSaveData_V100__DifficultyBeatmap::__StandardLevelInfoSaveData_V100__DifficultyBeatmap() {}
-//  Writing Method size for method: ::GlobalNamespace::__StandardLevelInfoSaveData_V100__VersionCheck.get_version
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::__StandardLevelInfoSaveData_V100__VersionCheck::*)()>(
-    &::GlobalNamespace::__StandardLevelInfoSaveData_V100__VersionCheck::get_version)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x234e6cc;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelInfoSaveData_V100__VersionCheck*>::get(), "get_version",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::__StandardLevelInfoSaveData_V100__VersionCheck._ctor
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__StandardLevelInfoSaveData_V100__VersionCheck::*)()>(
-    &::GlobalNamespace::__StandardLevelInfoSaveData_V100__VersionCheck::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x234e6d4;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelInfoSaveData_V100__VersionCheck*>::get(), ".ctor",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-constexpr ::StringW& GlobalNamespace::__StandardLevelInfoSaveData_V100__VersionCheck::__cordl_internal_get__version() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____version;
-}
-constexpr ::StringW const& GlobalNamespace::__StandardLevelInfoSaveData_V100__VersionCheck::__cordl_internal_get__version() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____version;
-}
-constexpr void GlobalNamespace::__StandardLevelInfoSaveData_V100__VersionCheck::__cordl_internal_set__version(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____version)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::StringW GlobalNamespace::__StandardLevelInfoSaveData_V100__VersionCheck::get_version() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelInfoSaveData_V100__VersionCheck*>::get(), "get_version",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
-}
-inline ::GlobalNamespace::__StandardLevelInfoSaveData_V100__VersionCheck* GlobalNamespace::__StandardLevelInfoSaveData_V100__VersionCheck::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__StandardLevelInfoSaveData_V100__VersionCheck*>());
-}
-inline void GlobalNamespace::__StandardLevelInfoSaveData_V100__VersionCheck::_ctor() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelInfoSaveData_V100__VersionCheck*>::get(), ".ctor",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::__StandardLevelInfoSaveData_V100__VersionCheck::__StandardLevelInfoSaveData_V100__VersionCheck() {}
 //  Writing Method size for method: ::GlobalNamespace::StandardLevelInfoSaveData_V100.get_version
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(
     &::GlobalNamespace::StandardLevelInfoSaveData_V100::get_version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x234e30c;
+  constexpr static std::size_t addrs = 0x12b9368;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData_V100*>::get(),
@@ -281,7 +221,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(
     &::GlobalNamespace::StandardLevelInfoSaveData_V100::get_songName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x234e314;
+  constexpr static std::size_t addrs = 0x12b9370;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData_V100*>::get(),
@@ -295,7 +235,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(
     &::GlobalNamespace::StandardLevelInfoSaveData_V100::get_songSubName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x234e31c;
+  constexpr static std::size_t addrs = 0x12b9378;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData_V100*>::get(),
@@ -309,7 +249,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(
     &::GlobalNamespace::StandardLevelInfoSaveData_V100::get_songAuthorName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x234e324;
+  constexpr static std::size_t addrs = 0x12b9380;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData_V100*>::get(),
@@ -323,7 +263,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(
     &::GlobalNamespace::StandardLevelInfoSaveData_V100::get_levelAuthorName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x234e32c;
+  constexpr static std::size_t addrs = 0x12b9388;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData_V100*>::get(),
@@ -337,7 +277,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(
     &::GlobalNamespace::StandardLevelInfoSaveData_V100::get_beatsPerMinute)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x234e334;
+  constexpr static std::size_t addrs = 0x12b9390;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData_V100*>::get(),
@@ -351,7 +291,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(
     &::GlobalNamespace::StandardLevelInfoSaveData_V100::get_songTimeOffset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x234e33c;
+  constexpr static std::size_t addrs = 0x12b9398;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData_V100*>::get(),
@@ -365,7 +305,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(
     &::GlobalNamespace::StandardLevelInfoSaveData_V100::get_shuffle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x234e344;
+  constexpr static std::size_t addrs = 0x12b93a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData_V100*>::get(),
@@ -379,7 +319,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(
     &::GlobalNamespace::StandardLevelInfoSaveData_V100::get_shufflePeriod)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x234e34c;
+  constexpr static std::size_t addrs = 0x12b93a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData_V100*>::get(),
@@ -393,7 +333,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(
     &::GlobalNamespace::StandardLevelInfoSaveData_V100::get_previewStartTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x234e354;
+  constexpr static std::size_t addrs = 0x12b93b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData_V100*>::get(),
@@ -407,7 +347,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(
     &::GlobalNamespace::StandardLevelInfoSaveData_V100::get_previewDuration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x234e35c;
+  constexpr static std::size_t addrs = 0x12b93b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData_V100*>::get(),
@@ -421,7 +361,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(
     &::GlobalNamespace::StandardLevelInfoSaveData_V100::get_songFilename)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x234e364;
+  constexpr static std::size_t addrs = 0x12b93c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData_V100*>::get(),
@@ -435,7 +375,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(
     &::GlobalNamespace::StandardLevelInfoSaveData_V100::get_coverImageFilename)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x234e36c;
+  constexpr static std::size_t addrs = 0x12b93c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData_V100*>::get(),
@@ -449,7 +389,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(
     &::GlobalNamespace::StandardLevelInfoSaveData_V100::get_environmentName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x234e374;
+  constexpr static std::size_t addrs = 0x12b93d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData_V100*>::get(),
@@ -464,7 +404,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::GlobalNamespace::__StandardLevelInfoSaveData_V100__DifficultyBeatmap*, ::Array<::GlobalNamespace::__StandardLevelInfoSaveData_V100__DifficultyBeatmap*>*> (
         ::GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(&::GlobalNamespace::StandardLevelInfoSaveData_V100::get_difficultyBeatmaps)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x234e37c;
+  constexpr static std::size_t addrs = 0x12b93d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData_V100*>::get(),
@@ -475,83 +415,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 //  Writing Method size for method: ::GlobalNamespace::StandardLevelInfoSaveData_V100._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelInfoSaveData_V100::*)(
-    ::StringW, ::StringW, ::StringW, ::StringW, float_t, float_t, float_t, float_t, float_t, float_t, ::StringW, ::StringW,
-    ::ArrayW<::GlobalNamespace::__StandardLevelInfoSaveData_V100__DifficultyBeatmap*, ::Array<::GlobalNamespace::__StandardLevelInfoSaveData_V100__DifficultyBeatmap*>*>)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(
     &::GlobalNamespace::StandardLevelInfoSaveData_V100::_ctor)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x234e384;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData_V100*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 13>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::ArrayW<::GlobalNamespace::__StandardLevelInfoSaveData_V100__DifficultyBeatmap*, ::Array<::GlobalNamespace::__StandardLevelInfoSaveData_V100__DifficultyBeatmap*>*>>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::StandardLevelInfoSaveData_V100.get_hasAllData
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(
-    &::GlobalNamespace::StandardLevelInfoSaveData_V100::get_hasAllData)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x234e460;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x12b93e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData_V100*>::get(),
-                                                                               "get_hasAllData", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::StandardLevelInfoSaveData_V100.SetSongFilename
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelInfoSaveData_V100::*)(::StringW)>(
-    &::GlobalNamespace::StandardLevelInfoSaveData_V100::SetSongFilename)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x234e4c4;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData_V100*>::get(), "SetSongFilename",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::StandardLevelInfoSaveData_V100.SerializeToJSONString
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(
-    &::GlobalNamespace::StandardLevelInfoSaveData_V100::SerializeToJSONString)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x234e4cc;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData_V100*>::get(),
-                                                                               "SerializeToJSONString", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::StandardLevelInfoSaveData_V100.DeserializeFromJSONString
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::StandardLevelInfoSaveData* (*)(::StringW)>(
-    &::GlobalNamespace::StandardLevelInfoSaveData_V100::DeserializeFromJSONString)> {
-  constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x234e4d4;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData_V100*>::get(), "DeserializeFromJSONString",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -816,53 +687,13 @@ GlobalNamespace::StandardLevelInfoSaveData_V100::get_difficultyBeatmaps() {
       ::ArrayW<::GlobalNamespace::__StandardLevelInfoSaveData_V100__DifficultyBeatmap*, ::Array<::GlobalNamespace::__StandardLevelInfoSaveData_V100__DifficultyBeatmap*>*>, false>(this,
                                                                                                                                                                                    ___internal_method);
 }
-inline ::GlobalNamespace::StandardLevelInfoSaveData_V100* GlobalNamespace::StandardLevelInfoSaveData_V100::New_ctor(
-    ::StringW songName, ::StringW songSubName, ::StringW songAuthorName, ::StringW levelAuthorName, float_t beatsPerMinute, float_t songTimeOffset, float_t shuffle, float_t shufflePeriod,
-    float_t previewStartTime, float_t previewDuration, ::StringW songFilename, ::StringW coverImageFilename,
-    ::ArrayW<::GlobalNamespace::__StandardLevelInfoSaveData_V100__DifficultyBeatmap*, ::Array<::GlobalNamespace::__StandardLevelInfoSaveData_V100__DifficultyBeatmap*>*> difficultyBeatmaps) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::StandardLevelInfoSaveData_V100*>(songName, songSubName, songAuthorName, levelAuthorName, beatsPerMinute, songTimeOffset, shuffle,
-                                                                                                      shufflePeriod, previewStartTime, previewDuration, songFilename, coverImageFilename,
-                                                                                                      difficultyBeatmaps));
+inline ::GlobalNamespace::StandardLevelInfoSaveData_V100* GlobalNamespace::StandardLevelInfoSaveData_V100::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::StandardLevelInfoSaveData_V100*>());
 }
-inline void GlobalNamespace::StandardLevelInfoSaveData_V100::_ctor(
-    ::StringW songName, ::StringW songSubName, ::StringW songAuthorName, ::StringW levelAuthorName, float_t beatsPerMinute, float_t songTimeOffset, float_t shuffle, float_t shufflePeriod,
-    float_t previewStartTime, float_t previewDuration, ::StringW songFilename, ::StringW coverImageFilename,
-    ::ArrayW<::GlobalNamespace::__StandardLevelInfoSaveData_V100__DifficultyBeatmap*, ::Array<::GlobalNamespace::__StandardLevelInfoSaveData_V100__DifficultyBeatmap*>*> difficultyBeatmaps) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData_V100*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 13>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::ArrayW<::GlobalNamespace::__StandardLevelInfoSaveData_V100__DifficultyBeatmap*, ::Array<::GlobalNamespace::__StandardLevelInfoSaveData_V100__DifficultyBeatmap*>*>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, songName, songSubName, songAuthorName, levelAuthorName, beatsPerMinute, songTimeOffset, shuffle, shufflePeriod,
-                                                          previewStartTime, previewDuration, songFilename, coverImageFilename, difficultyBeatmaps);
-}
-inline bool GlobalNamespace::StandardLevelInfoSaveData_V100::get_hasAllData() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData_V100*>::get(),
-                                                                             "get_hasAllData", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline void GlobalNamespace::StandardLevelInfoSaveData_V100::SetSongFilename(::StringW songFilename) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData_V100*>::get(), "SetSongFilename",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, songFilename);
-}
-inline ::StringW GlobalNamespace::StandardLevelInfoSaveData_V100::SerializeToJSONString() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData_V100*>::get(),
-                                                                             "SerializeToJSONString", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
-}
-inline ::GlobalNamespace::StandardLevelInfoSaveData* GlobalNamespace::StandardLevelInfoSaveData_V100::DeserializeFromJSONString(::StringW stringData) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData_V100*>::get(), "DeserializeFromJSONString",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::StandardLevelInfoSaveData*, false>(nullptr, ___internal_method, stringData);
+inline void GlobalNamespace::StandardLevelInfoSaveData_V100::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData_V100*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::StandardLevelInfoSaveData_V100::StandardLevelInfoSaveData_V100() {}

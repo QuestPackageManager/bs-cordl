@@ -25,15 +25,15 @@ MARK_REF_PTR_T(::Oculus::Platform::LanguagePack);
 namespace Oculus::Platform {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13363))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13290))
 // CS Name: ::Oculus.Platform::LanguagePack*
 class CORDL_TYPE LanguagePack : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetCurrent, addr 0x26fe808, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetCurrent, addr 0x2730164, size 0x15c, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetDetails*>* GetCurrent();
 
-  /// @brief Method SetCurrent, addr 0x26fe960, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method SetCurrent, addr 0x27302c0, size 0x164, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetFileDownloadResult*>* SetCurrent(::StringW tag);
 
   // Ctor Parameters [CppParam { name: "", ty: "LanguagePack", modifiers: "&&", def_value: None }]

@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::IAttributeProvider);
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11905))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11803))
 // CS Name: ::Newtonsoft.Json.Serialization::IAttributeProvider*
 class CORDL_TYPE IAttributeProvider {
 public:

@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::UnityEngineInternal::GenericStack);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngineInternal {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3786))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9963))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3785))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8691))
 // CS Name: ::UnityEngineInternal::GenericStack*
 class CORDL_TYPE GenericStack : public ::System::Collections::Stack {
 public:
   // Declarations
   static inline ::UnityEngineInternal::GenericStack* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c9d5b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c9e05c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GenericStack", modifiers: "&&", def_value: None }]

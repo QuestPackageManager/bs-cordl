@@ -38,8 +38,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerGameplayAnimator);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5207))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4546))
 // CS Name: ::MultiplayerGameplayAnimator*
 class CORDL_TYPE MultiplayerGameplayAnimator : public ::UnityEngine::MonoBehaviour {
 public:
@@ -137,24 +137,24 @@ public:
 
   constexpr void __cordl_internal_set_connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
 
-  /// @brief Method Start, addr 0x224c8c4, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x23aad10, size 0x94, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy, addr 0x224c958, size 0x18c, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x23aada4, size 0x18c, virtual true, abstract: false, final false
   inline void OnDestroy();
 
   /// @brief Method AnimateNewLeaderSelected, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void AnimateNewLeaderSelected(bool isLeading);
 
-  /// @brief Method HandleStateChanged, addr 0x224cb94, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method HandleStateChanged, addr 0x23aafe0, size 0x164, virtual true, abstract: false, final false
   inline void HandleStateChanged(::GlobalNamespace::__MultiplayerController__State state);
 
-  /// @brief Method HandleNewLeaderWasSelected, addr 0x224cda8, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method HandleNewLeaderWasSelected, addr 0x23ab1f4, size 0xe8, virtual false, abstract: false, final false
   inline void HandleNewLeaderWasSelected(::StringW userId);
 
   static inline ::GlobalNamespace::MultiplayerGameplayAnimator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x224ce90, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23ab2dc, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerGameplayAnimator", modifiers: "&&", def_value: None }]

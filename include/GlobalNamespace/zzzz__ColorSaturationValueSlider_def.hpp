@@ -41,8 +41,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorSaturationValueSlider);
 // SizeInfo { instance_size: 344, native_size: -1, calculated_instance_size: 344, calculated_native_size: 344, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(13559))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16175))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8995)), TypeDefinitionIndex(TypeDefinitionIndex(13512))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16323))
 // CS Name: ::ColorSaturationValueSlider*
 class CORDL_TYPE ColorSaturationValueSlider : public ::HMUI::Slider2D {
 public:
@@ -110,35 +110,35 @@ public:
   constexpr void __cordl_internal_set_colorSaturationOrValueDidChangeEvent(
       ::System::Action_3<::UnityW<::GlobalNamespace::ColorSaturationValueSlider>, ::UnityEngine::Vector2, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
-  /// @brief Method add_colorSaturationOrValueDidChangeEvent, addr 0x23e2ce8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method add_colorSaturationOrValueDidChangeEvent, addr 0x2402b48, size 0xb4, virtual false, abstract: false, final false
   inline void
   add_colorSaturationOrValueDidChangeEvent(::System::Action_3<::UnityW<::GlobalNamespace::ColorSaturationValueSlider>, ::UnityEngine::Vector2, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
-  /// @brief Method remove_colorSaturationOrValueDidChangeEvent, addr 0x23e2d9c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method remove_colorSaturationOrValueDidChangeEvent, addr 0x2402bfc, size 0xb4, virtual false, abstract: false, final false
   inline void
   remove_colorSaturationOrValueDidChangeEvent(::System::Action_3<::UnityW<::GlobalNamespace::ColorSaturationValueSlider>, ::UnityEngine::Vector2, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
-  /// @brief Method Awake, addr 0x23e2e50, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x2402cb0, size 0x90, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnDestroy, addr 0x23e2ee0, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2402d40, size 0x90, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetHue, addr 0x23e2f70, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SetHue, addr 0x2402dd0, size 0x14, virtual false, abstract: false, final false
   inline void SetHue(float_t hue);
 
-  /// @brief Method UpdateVisuals, addr 0x23e2f84, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method UpdateVisuals, addr 0x2402de4, size 0x138, virtual true, abstract: false, final false
   inline void UpdateVisuals();
 
-  /// @brief Method HandleNormalizedValueDidChange, addr 0x23e30bc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandleNormalizedValueDidChange, addr 0x2402f1c, size 0x24, virtual false, abstract: false, final false
   inline void HandleNormalizedValueDidChange(::HMUI::Slider2D* slider, ::UnityEngine::Vector2 normalizedValue);
 
-  /// @brief Method OnPointerUp, addr 0x23e30e0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method OnPointerUp, addr 0x2402f40, size 0x44, virtual true, abstract: false, final false
   inline void OnPointerUp(::UnityEngine::EventSystems::PointerEventData* eventData);
 
   static inline ::GlobalNamespace::ColorSaturationValueSlider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23e3124, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2402f84, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ColorSaturationValueSlider", modifiers: "&&", def_value: None }]

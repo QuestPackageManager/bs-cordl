@@ -31,8 +31,8 @@ MARK_VAL_T(::UnityEngine::UIElements::TextShadow);
 // SizeInfo { instance_size: 28, native_size: 28, calculated_instance_size: 28, calculated_native_size: 44, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6790))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8987)), TypeDefinitionIndex(TypeDefinitionIndex(8995))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6049))
 // CS Name: ::UnityEngine.UIElements::TextShadow
 struct CORDL_TYPE TextShadow {
 public:
@@ -43,25 +43,25 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::TextShadow>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::TextShadow>* i___System__IEquatable_1___UnityEngine__UIElements__TextShadow_();
 
-  /// @brief Method Equals, addr 0x2dba92c, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2dd8d14, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x2dba9bc, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2dd8da4, size 0x80, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::TextShadow other);
 
-  /// @brief Method GetHashCode, addr 0x2dbaa3c, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2dd8e24, size 0xd8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method op_Equality, addr 0x2dbab14, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x2dd8efc, size 0x30, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::TextShadow style1, ::UnityEngine::UIElements::TextShadow style2);
 
-  /// @brief Method op_Inequality, addr 0x2dbab44, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x2dd8f2c, size 0x48, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::UIElements::TextShadow style1, ::UnityEngine::UIElements::TextShadow style2);
 
-  /// @brief Method ToString, addr 0x2dbab8c, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2dd8f74, size 0xf4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method LerpUnclamped, addr 0x2dbac80, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method LerpUnclamped, addr 0x2dd9068, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::TextShadow LerpUnclamped(::UnityEngine::UIElements::TextShadow a, ::UnityEngine::UIElements::TextShadow b, float_t t);
 
   // Ctor Parameters [CppParam { name: "offset", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "blurRadius", ty: "float_t", modifiers: "", def_value: None },

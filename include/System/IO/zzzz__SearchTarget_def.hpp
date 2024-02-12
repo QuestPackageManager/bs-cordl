@@ -16,7 +16,7 @@ MARK_VAL_T(::System::IO::SearchTarget);
 namespace System::IO {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3600))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3598))
 // CS Name: ::System.IO::SearchTarget
 struct CORDL_TYPE SearchTarget {
 public:

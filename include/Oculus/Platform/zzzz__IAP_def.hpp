@@ -32,30 +32,30 @@ MARK_REF_PTR_T(::Oculus::Platform::IAP);
 namespace Oculus::Platform {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13362))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13289))
 // CS Name: ::Oculus.Platform::IAP*
 class CORDL_TYPE IAP : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConsumePurchase, addr 0x26fdd28, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method ConsumePurchase, addr 0x272f668, size 0x150, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request* ConsumePurchase(::StringW sku);
 
-  /// @brief Method GetProductsBySKU, addr 0x26fde74, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method GetProductsBySKU, addr 0x272f7b8, size 0x178, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::ProductList*>* GetProductsBySKU(::ArrayW<::StringW, ::Array<::StringW>*> skus);
 
-  /// @brief Method GetViewerPurchases, addr 0x26fdfe8, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetViewerPurchases, addr 0x272f930, size 0x15c, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PurchaseList*>* GetViewerPurchases();
 
-  /// @brief Method GetViewerPurchasesDurableCache, addr 0x26fe140, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetViewerPurchasesDurableCache, addr 0x272fa8c, size 0x15c, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PurchaseList*>* GetViewerPurchasesDurableCache();
 
-  /// @brief Method LaunchCheckoutFlow, addr 0x26fe298, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method LaunchCheckoutFlow, addr 0x272fbe8, size 0x1bc, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::Purchase*>* LaunchCheckoutFlow(::StringW sku);
 
-  /// @brief Method GetNextProductListPage, addr 0x26fe450, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method GetNextProductListPage, addr 0x272fda4, size 0x1e0, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::ProductList*>* GetNextProductListPage(::Oculus::Platform::Models::ProductList* list);
 
-  /// @brief Method GetNextPurchaseListPage, addr 0x26fe62c, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method GetNextPurchaseListPage, addr 0x272ff84, size 0x1e0, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PurchaseList*>* GetNextPurchaseListPage(::Oculus::Platform::Models::PurchaseList* list);
 
   // Ctor Parameters [CppParam { name: "", ty: "IAP", modifiers: "&&", def_value: None }]

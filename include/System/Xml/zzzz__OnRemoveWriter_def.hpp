@@ -22,17 +22,17 @@ MARK_REF_PTR_T(::System::Xml::OnRemoveWriter);
 namespace System::Xml {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11430))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11328))
 // CS Name: ::System.Xml::OnRemoveWriter*
 class CORDL_TYPE OnRemoveWriter : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::System::Xml::OnRemoveWriter* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2853974, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2856fdc, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x2853aa0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2857108, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Xml::XmlRawWriter* writer);
 
   // Ctor Parameters [CppParam { name: "", ty: "OnRemoveWriter", modifiers: "&&", def_value: None }]

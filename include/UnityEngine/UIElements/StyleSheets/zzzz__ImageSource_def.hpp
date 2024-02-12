@@ -27,12 +27,12 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::ImageSource);
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7463))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6722))
 // CS Name: ::UnityEngine.UIElements.StyleSheets::ImageSource
 struct CORDL_TYPE ImageSource {
 public:
   // Declarations
-  /// @brief Method IsNull, addr 0x2de5fbc, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method IsNull, addr 0x2e043a4, size 0xe8, virtual false, abstract: false, final false
   inline bool IsNull();
 
   // Ctor Parameters [CppParam { name: "texture", ty: "::UnityW<::UnityEngine::Texture2D>", modifiers: "", def_value: None }, CppParam { name: "sprite", ty: "::UnityW<::UnityEngine::Sprite>",

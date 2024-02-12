@@ -22,12 +22,12 @@ namespace Org::BouncyCastle::Utilities::Zlib {
 class CORDL_TYPE Adler32 : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method adler32, addr 0x1160b14, size 0x32c, virtual false, abstract: false, final false
+  /// @brief Method adler32, addr 0x118e9a4, size 0x32c, virtual false, abstract: false, final false
   inline int64_t adler32(int64_t adler, ::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t index, int32_t len);
 
   static inline ::Org::BouncyCastle::Utilities::Zlib::Adler32* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1160e40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x118ecd0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Adler32", modifiers: "&&", def_value: None }]

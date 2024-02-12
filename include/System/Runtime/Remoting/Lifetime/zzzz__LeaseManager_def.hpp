@@ -53,24 +53,24 @@ public:
 
   constexpr void __cordl_internal_set__timer(::System::Threading::Timer* value);
 
-  /// @brief Method SetPollTime, addr 0x249b658, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method SetPollTime, addr 0x24bd6cc, size 0xf8, virtual false, abstract: false, final false
   inline void SetPollTime(::System::TimeSpan timeSpan);
 
-  /// @brief Method TrackLifetime, addr 0x249b750, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method TrackLifetime, addr 0x24bd7c4, size 0x134, virtual false, abstract: false, final false
   inline void TrackLifetime(::System::Runtime::Remoting::ServerIdentity* identity);
 
-  /// @brief Method StartManager, addr 0x249b884, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method StartManager, addr 0x24bd8f8, size 0x160, virtual false, abstract: false, final false
   inline void StartManager();
 
-  /// @brief Method StopManager, addr 0x249b9e4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method StopManager, addr 0x24bda58, size 0x1c, virtual false, abstract: false, final false
   inline void StopManager();
 
-  /// @brief Method ManageLeases, addr 0x249ba00, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method ManageLeases, addr 0x24bda74, size 0x264, virtual false, abstract: false, final false
   inline void ManageLeases(::System::Object* state);
 
   static inline ::System::Runtime::Remoting::Lifetime::LeaseManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x249bc64, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24bdcd8, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LeaseManager", modifiers: "&&", def_value: None }]

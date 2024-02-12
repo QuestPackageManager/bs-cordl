@@ -49,5 +49,11 @@ template <typename TKey, typename TValue> inline TValue System::Collections::Gen
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::IReadOnlyDictionary_2<TKey, TValue>*>::get(), 1)));
   return ::cordl_internals::RunMethodRethrow<TValue, false>(this, ___internal_method, key);
 }
+template <typename TKey, typename TValue> inline ::System::Collections::Generic::IEnumerable_1<TKey>* System::Collections::Generic::IReadOnlyDictionary_2<TKey, TValue>::get_Keys() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::IReadOnlyDictionary_2<TKey, TValue>*>::get(), 2)));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TKey>*, false>(this, ___internal_method);
+}
 #ifndef CORDL_NO_IMPL_INCLUDE
 #endif

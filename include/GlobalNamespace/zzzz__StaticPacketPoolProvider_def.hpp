@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::GlobalNamespace::StaticPacketPoolProvider);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12810))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12708))
 // CS Name: ::StaticPacketPoolProvider*
 class CORDL_TYPE StaticPacketPoolProvider : public ::System::Object {
 public:
@@ -44,7 +44,7 @@ public:
   /// @brief Method GetPacketPool, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::GlobalNamespace::PacketPool_1<T>* GetPacketPool();
 
-  /// @brief Method TryGetPacketPool, addr 0xe3f4dc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method TryGetPacketPool, addr 0xe6a314, size 0x90, virtual false, abstract: false, final false
   static inline bool TryGetPacketPool(::System::Type* t, ByRef<::GlobalNamespace::IPacketPool*> pool);
 
   // Ctor Parameters [CppParam { name: "", ty: "StaticPacketPoolProvider", modifiers: "&&", def_value: None }]

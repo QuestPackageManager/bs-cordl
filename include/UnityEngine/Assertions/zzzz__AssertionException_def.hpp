@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::UnityEngine::Assertions::AssertionException);
 namespace UnityEngine::Assertions {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2561))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10316))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9062))
 // CS Name: ::UnityEngine.Assertions::AssertionException*
 class CORDL_TYPE AssertionException : public ::System::Exception {
 public:
@@ -34,10 +34,10 @@ public:
 
   static inline ::UnityEngine::Assertions::AssertionException* New_ctor(::StringW message, ::StringW userMessage);
 
-  /// @brief Method .ctor, addr 0x2ce94e8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cf067c, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::StringW userMessage);
 
-  /// @brief Method get_Message, addr 0x2ce9bfc, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x2cf0d90, size 0x74, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
   // Ctor Parameters [CppParam { name: "", ty: "AssertionException", modifiers: "&&", def_value: None }]

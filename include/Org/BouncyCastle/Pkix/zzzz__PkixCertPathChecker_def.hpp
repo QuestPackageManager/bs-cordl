@@ -31,7 +31,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Pkix::PkixCertPathChecker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10f440c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x112229c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -46,7 +46,7 @@ public:
   /// @brief Method Check, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Check(::Org::BouncyCastle::X509::X509Certificate* cert, ::Org::BouncyCastle::Utilities::Collections::ISet* unresolvedCritExts);
 
-  /// @brief Method Clone, addr 0x10f4414, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x11222a4, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* Clone();
 
   // Ctor Parameters [CppParam { name: "", ty: "PkixCertPathChecker", modifiers: "&&", def_value: None }]

@@ -48,24 +48,24 @@ public:
 
   constexpr void __cordl_internal_set__uri(::StringW value);
 
-  /// @brief Method get_Uri, addr 0x24aa1b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Uri, addr 0x24cc228, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Uri();
 
-  /// @brief Method Create, addr 0x24a3920, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x24c5994, size 0x90, virtual false, abstract: false, final false
   static inline ::System::Runtime::Remoting::Messaging::CADMethodCallMessage* Create(::System::Runtime::Remoting::Messaging::IMessage* callMsg);
 
   static inline ::System::Runtime::Remoting::Messaging::CADMethodCallMessage* New_ctor(::System::Runtime::Remoting::Messaging::IMethodCallMessage* callMsg);
 
-  /// @brief Method .ctor, addr 0x24aa1bc, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24cc230, size 0x1f0, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::IMethodCallMessage* callMsg);
 
-  /// @brief Method GetArguments, addr 0x24aa3ac, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method GetArguments, addr 0x24cc420, size 0x140, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* GetArguments();
 
-  /// @brief Method GetArgs, addr 0x24aa4ec, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetArgs, addr 0x24cc560, size 0x10, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetArgs(::System::Collections::ArrayList* args);
 
-  /// @brief Method get_PropertiesCount, addr 0x24aa4fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PropertiesCount, addr 0x24cc570, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_PropertiesCount();
 
   // Ctor Parameters [CppParam { name: "", ty: "CADMethodCallMessage", modifiers: "&&", def_value: None }]

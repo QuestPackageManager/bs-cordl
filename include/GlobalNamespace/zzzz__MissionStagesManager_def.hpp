@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__MissionStagesManager____c);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5553))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4859))
 // CS Name: ::MissionStagesManager::<>c*
 class CORDL_TYPE __MissionStagesManager____c : public ::System::Object {
 public:
@@ -56,10 +56,10 @@ public:
 
   static inline ::GlobalNamespace::__MissionStagesManager____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22a255c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23fcdf0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <InitStages>b__6_0, addr 0x22a2564, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <InitStages>b__6_0, addr 0x23fcdf8, size 0x18, virtual false, abstract: false, final false
   inline int32_t _InitStages_b__6_0(::GlobalNamespace::MissionStage* stage);
 
   // Ctor Parameters [CppParam { name: "", ty: "__MissionStagesManager____c", modifiers: "&&", def_value: None }]
@@ -86,8 +86,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MissionStages
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5554))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4860))
 // CS Name: ::MissionStagesManager*
 class CORDL_TYPE MissionStagesManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -124,27 +124,27 @@ public:
 
   constexpr void __cordl_internal_set__firstLockedMissionStage(::UnityW<::GlobalNamespace::MissionStage> value);
 
-  /// @brief Method get_firstLockedMissionStage, addr 0x22a23a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_firstLockedMissionStage, addr 0x23fcc38, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MissionStage> get_firstLockedMissionStage();
 
-  /// @brief Method UpdateFirtsLockedMissionStage, addr 0x22a1ad4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method UpdateFirtsLockedMissionStage, addr 0x23fc368, size 0x7c, virtual false, abstract: false, final false
   inline void UpdateFirtsLockedMissionStage(int32_t numberOfClearedMissions);
 
-  /// @brief Method InitStages, addr 0x22a23ac, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method InitStages, addr 0x23fcc40, size 0x144, virtual false, abstract: false, final false
   inline void InitStages();
 
-  /// @brief Method UpdateStageLockPosition, addr 0x22a1d50, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method UpdateStageLockPosition, addr 0x23fc5e4, size 0xc, virtual false, abstract: false, final false
   inline void UpdateStageLockPosition();
 
-  /// @brief Method UpdateStageLockPositionAnimated, addr 0x229fd08, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method UpdateStageLockPositionAnimated, addr 0x23fa58c, size 0xf0, virtual false, abstract: false, final false
   inline void UpdateStageLockPositionAnimated(bool animated, float_t animationDuration);
 
-  /// @brief Method UpdateStageLockText, addr 0x22a1b50, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method UpdateStageLockText, addr 0x23fc3e4, size 0xb8, virtual false, abstract: false, final false
   inline void UpdateStageLockText(int32_t numberOfClearedMissions);
 
   static inline ::GlobalNamespace::MissionStagesManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22a24f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23fcd84, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionStagesManager", modifiers: "&&", def_value: None }]

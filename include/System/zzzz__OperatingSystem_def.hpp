@@ -97,27 +97,27 @@ public:
 
   static inline ::System::OperatingSystem* New_ctor(::System::PlatformID platform, ::System::Version* version);
 
-  /// @brief Method .ctor, addr 0x25d1374, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f328c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::PlatformID platform, ::System::Version* version);
 
   static inline ::System::OperatingSystem* New_ctor(::System::PlatformID platform, ::System::Version* version, ::StringW servicePack);
 
-  /// @brief Method .ctor, addr 0x25d137c, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f3294, size 0x140, virtual false, abstract: false, final false
   inline void _ctor(::System::PlatformID platform, ::System::Version* version, ::StringW servicePack);
 
-  /// @brief Method GetObjectData, addr 0x25d14bc, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method GetObjectData, addr 0x25f33d4, size 0x3c, virtual true, abstract: false, final true
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method get_Platform, addr 0x25d14f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Platform, addr 0x25f3410, size 0x8, virtual false, abstract: false, final false
   inline ::System::PlatformID get_Platform();
 
-  /// @brief Method Clone, addr 0x25d1500, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method Clone, addr 0x25f3418, size 0x7c, virtual true, abstract: false, final true
   inline ::System::Object* Clone();
 
-  /// @brief Method ToString, addr 0x25d157c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x25f3494, size 0x4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_VersionString, addr 0x25d1580, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method get_VersionString, addr 0x25f3498, size 0x1cc, virtual false, abstract: false, final false
   inline ::StringW get_VersionString();
 
   // Ctor Parameters [CppParam { name: "", ty: "OperatingSystem", modifiers: "&&", def_value: None }]

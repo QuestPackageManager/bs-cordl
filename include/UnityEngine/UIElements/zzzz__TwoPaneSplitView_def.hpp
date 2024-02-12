@@ -57,8 +57,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__TwoPaneSplitView__UxmlTraits);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6737))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7137))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5996))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6396))
 // CS Name: ::TwoPaneSplitView::UxmlTraits*
 class CORDL_TYPE __TwoPaneSplitView__UxmlTraits : public ::UnityEngine::UIElements::__VisualElement__UxmlTraits {
 public:
@@ -93,12 +93,12 @@ public:
 
   constexpr void __cordl_internal_set_m_Orientation(::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::TwoPaneSplitViewOrientation>* value);
 
-  /// @brief Method Init, addr 0x2e3f730, size 0x16c, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x2e5ab18, size 0x16c, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::__TwoPaneSplitView__UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e3f89c, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e5ac84, size 0x14c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__TwoPaneSplitView__UxmlTraits", modifiers: "&&", def_value: None }]
@@ -140,8 +140,8 @@ static_assert(offsetof(::UnityEngine::UIElements::__TwoPaneSplitView__UxmlTraits
 // SizeInfo { instance_size: 1040, native_size: -1, calculated_instance_size: 1040, calculated_native_size: 1040, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6744)), TypeDefinitionIndex(TypeDefinitionIndex(7139))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7138))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6003)), TypeDefinitionIndex(TypeDefinitionIndex(6398))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6397))
 // CS Name: ::UnityEngine.UIElements::TwoPaneSplitView*
 class CORDL_TYPE TwoPaneSplitView : public ::UnityEngine::UIElements::VisualElement {
 public:
@@ -348,51 +348,51 @@ public:
 
   static inline ::StringW getStaticF_s_HorizontalClassName();
 
-  /// @brief Method get_fixedPane, addr 0x2e3d718, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fixedPane, addr 0x2e58b00, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_fixedPane();
 
-  /// @brief Method get_flexedPane, addr 0x2e3d720, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_flexedPane, addr 0x2e58b08, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_flexedPane();
 
-  /// @brief Method get_fixedPaneIndex, addr 0x2e3d728, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fixedPaneIndex, addr 0x2e58b10, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_fixedPaneIndex();
 
-  /// @brief Method get_fixedPaneDimension, addr 0x2e3d730, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_fixedPaneDimension, addr 0x2e58b18, size 0x34, virtual false, abstract: false, final false
   inline float_t get_fixedPaneDimension();
 
-  /// @brief Method set_fixedPaneDimension, addr 0x2e3d764, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_fixedPaneDimension, addr 0x2e58b4c, size 0x1c, virtual false, abstract: false, final false
   inline void set_fixedPaneDimension(float_t value);
 
   static inline ::UnityEngine::UIElements::TwoPaneSplitView* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e3d780, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e58b68, size 0x210, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Init, addr 0x2e3d990, size 0x2dc, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2e58d78, size 0x2dc, virtual false, abstract: false, final false
   inline void Init(int32_t fixedPaneIndex, float_t fixedPaneInitialDimension, ::UnityEngine::UIElements::TwoPaneSplitViewOrientation orientation);
 
-  /// @brief Method OnPostDisplaySetup, addr 0x2e3ebdc, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method OnPostDisplaySetup, addr 0x2e59fc4, size 0x108, virtual false, abstract: false, final false
   inline void OnPostDisplaySetup(::UnityEngine::UIElements::GeometryChangedEvent* evt);
 
-  /// @brief Method PostDisplaySetup, addr 0x2e3dc6c, size 0xf70, virtual false, abstract: false, final false
+  /// @brief Method PostDisplaySetup, addr 0x2e59054, size 0xf70, virtual false, abstract: false, final false
   inline void PostDisplaySetup();
 
-  /// @brief Method OnSizeChange, addr 0x2e3ece4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnSizeChange, addr 0x2e5a0cc, size 0x4, virtual false, abstract: false, final false
   inline void OnSizeChange(::UnityEngine::UIElements::GeometryChangedEvent* evt);
 
-  /// @brief Method OnSizeChange, addr 0x2e3ece8, size 0x5d0, virtual false, abstract: false, final false
+  /// @brief Method OnSizeChange, addr 0x2e5a0d0, size 0x5d0, virtual false, abstract: false, final false
   inline void OnSizeChange();
 
-  /// @brief Method get_contentContainer, addr 0x2e3f508, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_contentContainer, addr 0x2e5a8f0, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_contentContainer();
 
-  /// @brief Method OnViewDataReady, addr 0x2e3f510, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method OnViewDataReady, addr 0x2e5a8f8, size 0x3c, virtual true, abstract: false, final false
   inline void OnViewDataReady();
 
-  /// @brief Method SetDragLineOffset, addr 0x2e3f2b8, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method SetDragLineOffset, addr 0x2e5a6a0, size 0x128, virtual false, abstract: false, final false
   inline void SetDragLineOffset(float_t offset);
 
-  /// @brief Method SetFixedPaneDimension, addr 0x2e3f3e0, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method SetFixedPaneDimension, addr 0x2e5a7c8, size 0x128, virtual false, abstract: false, final false
   inline void SetFixedPaneDimension(float_t dimension);
 
   // Ctor Parameters [CppParam { name: "", ty: "TwoPaneSplitView", modifiers: "&&", def_value: None }]
@@ -484,15 +484,15 @@ static_assert(offsetof(::UnityEngine::UIElements::TwoPaneSplitView, ___m_Resizer
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7137)), TypeDefinitionIndex(TypeDefinitionIndex(7138)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5283 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7136)) CS Name: ::TwoPaneSplitView::UxmlFactory*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6256)), TypeDefinitionIndex(TypeDefinitionIndex(6396)), TypeDefinitionIndex(TypeDefinitionIndex(6397)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6256), inst: 5263 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6395)) CS Name: ::TwoPaneSplitView::UxmlFactory*
 class CORDL_TYPE __TwoPaneSplitView__UxmlFactory
     : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::TwoPaneSplitView*, ::UnityEngine::UIElements::__TwoPaneSplitView__UxmlTraits*> {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::__TwoPaneSplitView__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e3f6e8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e5aad0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__TwoPaneSplitView__UxmlFactory", modifiers: "&&", def_value: None }]

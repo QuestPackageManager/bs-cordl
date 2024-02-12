@@ -80,16 +80,16 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::Kdf::ECDHKekGenerator* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method .ctor, addr 0x1217574, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1244404, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method Init, addr 0x12175f0, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x1244480, size 0x98, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::IDerivationParameters* param);
 
-  /// @brief Method get_Digest, addr 0x1217688, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method get_Digest, addr 0x1244518, size 0xa4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::IDigest* get_Digest();
 
-  /// @brief Method GenerateBytes, addr 0x121772c, size 0x318, virtual true, abstract: false, final false
+  /// @brief Method GenerateBytes, addr 0x12445bc, size 0x318, virtual true, abstract: false, final false
   inline int32_t GenerateBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff, int32_t len);
 
   // Ctor Parameters [CppParam { name: "", ty: "ECDHKekGenerator", modifiers: "&&", def_value: None }]

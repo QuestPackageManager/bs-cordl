@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::ICollectionDragAndDropController);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6962))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6221))
 // CS Name: ::UnityEngine.UIElements::ICollectionDragAndDropController*
 class CORDL_TYPE ICollectionDragAndDropController {
 public:

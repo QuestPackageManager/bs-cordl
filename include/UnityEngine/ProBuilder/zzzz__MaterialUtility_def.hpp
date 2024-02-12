@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::MaterialUtility);
 namespace UnityEngine::ProBuilder {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12138))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12036))
 // CS Name: ::UnityEngine.ProBuilder::MaterialUtility*
 class CORDL_TYPE MaterialUtility : public ::System::Object {
 public:
@@ -37,10 +37,10 @@ public:
 
   static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* getStaticF_s_MaterialArray();
 
-  /// @brief Method GetMaterialCount, addr 0x2b47ed0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetMaterialCount, addr 0x2b46a3c, size 0xd0, virtual false, abstract: false, final false
   static inline int32_t GetMaterialCount(::UnityEngine::Renderer* renderer);
 
-  /// @brief Method GetSharedMaterial, addr 0x2b47fa0, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method GetSharedMaterial, addr 0x2b46b0c, size 0x140, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> GetSharedMaterial(::UnityEngine::Renderer* renderer, int32_t index);
 
   // Ctor Parameters [CppParam { name: "", ty: "MaterialUtility", modifiers: "&&", def_value: None }]

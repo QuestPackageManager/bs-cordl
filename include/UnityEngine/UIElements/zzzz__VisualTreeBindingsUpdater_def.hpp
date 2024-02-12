@@ -45,8 +45,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::VisualTreeBindingsUpdater);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6787)), TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(10159))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7344))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6046)), TypeDefinitionIndex(TypeDefinitionIndex(8695)), TypeDefinitionIndex(TypeDefinitionIndex(8903))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6603))
 // CS Name: ::UnityEngine.UIElements::VisualTreeBindingsUpdater*
 class CORDL_TYPE VisualTreeBindingsUpdater : public ::UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater {
 public:
@@ -184,51 +184,51 @@ public:
 
   static inline bool getStaticF__disableBindingsThrottling_k__BackingField();
 
-  /// @brief Method get_profilerMarker, addr 0x2e7e198, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_profilerMarker, addr 0x2e98580, size 0x58, virtual true, abstract: false, final false
   inline ::Unity::Profiling::ProfilerMarker get_profilerMarker();
 
-  /// @brief Method GetBindingObjectFromElement, addr 0x2e7e1f0, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method GetBindingObjectFromElement, addr 0x2e985d8, size 0x138, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::IBinding* GetBindingObjectFromElement(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method StartTracking, addr 0x2e7e3b0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method StartTracking, addr 0x2e98798, size 0x80, virtual false, abstract: false, final false
   inline void StartTracking(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method StopTracking, addr 0x2e7e430, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method StopTracking, addr 0x2e98818, size 0x80, virtual false, abstract: false, final false
   inline void StopTracking(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method get_temporaryObjectCache, addr 0x2e7e4b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_temporaryObjectCache, addr 0x2e98898, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* get_temporaryObjectCache();
 
-  /// @brief Method GetAdditionalBinding, addr 0x2e7e328, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetAdditionalBinding, addr 0x2e98710, size 0x88, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::IBinding* GetAdditionalBinding(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method StartTrackingRecursive, addr 0x2e7e4b8, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method StartTrackingRecursive, addr 0x2e988a0, size 0x118, virtual false, abstract: false, final false
   inline void StartTrackingRecursive(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method StopTrackingRecursive, addr 0x2e7e5d0, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method StopTrackingRecursive, addr 0x2e989b8, size 0x10c, virtual false, abstract: false, final false
   inline void StopTrackingRecursive(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method OnVersionChanged, addr 0x2e7e6dc, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method OnVersionChanged, addr 0x2e98ac4, size 0xf8, virtual true, abstract: false, final false
   inline void OnVersionChanged(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VersionChangeType versionChangeType);
 
-  /// @brief Method OnHierarchyChange, addr 0x2e7e7d4, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method OnHierarchyChange, addr 0x2e98bbc, size 0x18, virtual true, abstract: false, final false
   inline void OnHierarchyChange(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::HierarchyChangeType type);
 
-  /// @brief Method CurrentTime, addr 0x2e7e7ec, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method CurrentTime, addr 0x2e98bd4, size 0x50, virtual false, abstract: false, final false
   static inline int64_t CurrentTime();
 
-  /// @brief Method PerformTrackingOperations, addr 0x2e7e83c, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method PerformTrackingOperations, addr 0x2e98c24, size 0x284, virtual false, abstract: false, final false
   inline void PerformTrackingOperations();
 
-  /// @brief Method Update, addr 0x2e7eac0, size 0x600, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x2e98ea8, size 0x600, virtual true, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateBindings, addr 0x2e7f0c0, size 0x534, virtual false, abstract: false, final false
+  /// @brief Method UpdateBindings, addr 0x2e994a8, size 0x534, virtual false, abstract: false, final false
   inline void UpdateBindings();
 
   static inline ::UnityEngine::UIElements::VisualTreeBindingsUpdater* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e7f5f4, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e999dc, size 0x160, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "VisualTreeBindingsUpdater", modifiers: "&&", def_value: None }]

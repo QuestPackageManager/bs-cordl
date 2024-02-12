@@ -85,12 +85,12 @@ public:
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache* New_ctor(::StringW typeName, ::StringW assemblyName, bool hasTypeForwardedFrom);
 
-  /// @brief Method .ctor, addr 0x24cb308, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24ec37c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW typeName, ::StringW assemblyName, bool hasTypeForwardedFrom);
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache* New_ctor(::System::Type* type);
 
-  /// @brief Method .ctor, addr 0x24cb344, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24ec3b8, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
   // Ctor Parameters [CppParam { name: "", ty: "SerObjectInfoCache", modifiers: "&&", def_value: None }]

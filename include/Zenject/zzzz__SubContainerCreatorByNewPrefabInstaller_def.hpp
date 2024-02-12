@@ -51,7 +51,7 @@ MARK_REF_PTR_T(::Zenject::__SubContainerCreatorByNewPrefabInstaller____c__Displa
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11275))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10417))
 // CS Name: ::SubContainerCreatorByNewPrefabInstaller::<>c__DisplayClass3_0*
 class CORDL_TYPE __SubContainerCreatorByNewPrefabInstaller____c__DisplayClass3_0 : public ::System::Object {
 public:
@@ -76,16 +76,16 @@ public:
 
   static inline ::Zenject::__SubContainerCreatorByNewPrefabInstaller____c__DisplayClass3_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f0c594, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f286dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <AddInstallers>b__0, addr 0x2f0c59c, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method <AddInstallers>b__0, addr 0x2f286e4, size 0x178, virtual false, abstract: false, final false
   inline void _AddInstallers_b__0(::Zenject::DiContainer* subContainer);
 
-  /// @brief Method __zenCreate, addr 0x2f0c714, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2f2885c, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f0c770, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f288b8, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__SubContainerCreatorByNewPrefabInstaller____c__DisplayClass3_0", modifiers: "&&", def_value: None }]
@@ -122,8 +122,8 @@ static_assert(offsetof(::Zenject::__SubContainerCreatorByNewPrefabInstaller____c
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11274))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11276))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10416))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10418))
 // CS Name: ::Zenject::SubContainerCreatorByNewPrefabInstaller*
 class CORDL_TYPE SubContainerCreatorByNewPrefabInstaller : public ::Zenject::SubContainerCreatorByNewPrefabDynamicContext {
 public:
@@ -152,11 +152,11 @@ public:
                                                                              ::Zenject::GameObjectCreationParameters* gameObjectBindInfo, ::System::Type* installerType,
                                                                              ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs);
 
-  /// @brief Method .ctor, addr 0x2f0c3c8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f28510, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::Zenject::IPrefabProvider* prefabProvider, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo, ::System::Type* installerType,
                     ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs);
 
-  /// @brief Method AddInstallers, addr 0x2f0c4a0, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method AddInstallers, addr 0x2f285e8, size 0xf4, virtual true, abstract: false, final false
   inline void AddInstallers(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::GameObjectContext* context);
 
   // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByNewPrefabInstaller", modifiers: "&&", def_value: None }]

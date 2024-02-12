@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::SliderDirection);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7099))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6358))
 // CS Name: ::UnityEngine.UIElements::SliderDirection
 struct CORDL_TYPE SliderDirection {
 public:

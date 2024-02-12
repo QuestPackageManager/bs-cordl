@@ -21,7 +21,7 @@ namespace ModestTree::Util {
 template <typename T1, typename T2, typename T3, typename T4>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10628))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9770))
 // CS Name: ::ModestTree.Util::ValuePair`4<T1,T2,T3,T4>*
 class CORDL_TYPE ValuePair_4 : public ::System::Object {
 public:

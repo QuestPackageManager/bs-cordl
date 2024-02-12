@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::LowLevel::IInputUpdateCallbackReceive
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6498))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5757))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::IInputUpdateCallbackReceiver*
 class CORDL_TYPE IInputUpdateCallbackReceiver {
 public:

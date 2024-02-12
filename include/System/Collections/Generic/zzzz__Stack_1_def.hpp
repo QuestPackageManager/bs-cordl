@@ -54,7 +54,7 @@ namespace System::Collections::Generic {
 template <typename T>
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3855))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3854))
 // CS Name: ::Stack`1::Enumerator<T>
 struct CORDL_TYPE __Stack_1__Enumerator {
 public:
@@ -136,7 +136,7 @@ namespace System::Collections::Generic {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3856))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3855))
 // CS Name: ::System.Collections.Generic::Stack`1<T>*
 class CORDL_TYPE Stack_1 : public ::System::Object {
 public:

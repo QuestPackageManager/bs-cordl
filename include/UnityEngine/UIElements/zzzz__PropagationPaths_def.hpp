@@ -36,7 +36,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::PropagationPaths);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7171))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6430))
 // CS Name: ::PropagationPaths::Type
 struct CORDL_TYPE __PropagationPaths__Type {
 public:
@@ -90,7 +90,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__PropagationPaths__Type, valu
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7172))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6431))
 // CS Name: ::UnityEngine.UIElements::PropagationPaths*
 class CORDL_TYPE PropagationPaths : public ::System::Object {
 public:
@@ -135,17 +135,17 @@ public:
 
   static inline ::UnityEngine::UIElements::PropagationPaths* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e4c718, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e67b00, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Copy, addr 0x2e4c7e4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Copy, addr 0x2e67bcc, size 0xe0, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::PropagationPaths* Copy(::UnityEngine::UIElements::PropagationPaths* paths);
 
-  /// @brief Method Build, addr 0x2e4c8c4, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x2e67cac, size 0x29c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::PropagationPaths* Build(::UnityEngine::UIElements::VisualElement* elem, ::UnityEngine::UIElements::EventBase* evt,
                                                                    ::UnityEngine::UIElements::__PropagationPaths__Type pathTypesRequested);
 
-  /// @brief Method Release, addr 0x2e4cbbc, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x2e67fa4, size 0x110, virtual false, abstract: false, final false
   inline void Release();
 
   // Ctor Parameters [CppParam { name: "", ty: "PropagationPaths", modifiers: "&&", def_value: None }]

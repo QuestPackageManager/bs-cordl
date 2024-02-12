@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::JetBrains::Annotations::HtmlElementAttributesAttribute);
 namespace JetBrains::Annotations {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15780))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15930))
 // CS Name: ::JetBrains.Annotations::HtmlElementAttributesAttribute*
 class CORDL_TYPE HtmlElementAttributesAttribute : public ::System::Attribute {
 public:
@@ -34,18 +34,18 @@ public:
 
   static inline ::JetBrains::Annotations::HtmlElementAttributesAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2eba65c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ed67a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::JetBrains::Annotations::HtmlElementAttributesAttribute* New_ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x2eba664, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ed67ac, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method get_Name, addr 0x2eba68c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x2ed67d4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method set_Name, addr 0x2eba694, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x2ed67dc, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
   // Ctor Parameters [CppParam { name: "", ty: "HtmlElementAttributesAttribute", modifiers: "&&", def_value: None }]

@@ -28,10 +28,10 @@ public:
 
   static inline ::System::Text::__UTF8Encoding__UTF8EncodingSealed* New_ctor(bool encoderShouldEmitUTF8Identifier);
 
-  /// @brief Method .ctor, addr 0x2445430, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2465294, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(bool encoderShouldEmitUTF8Identifier);
 
-  /// @brief Method get_Preamble, addr 0x24454a8, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method get_Preamble, addr 0x246530c, size 0xd4, virtual true, abstract: false, final false
   inline ::System::ReadOnlySpan_1<uint8_t> get_Preamble();
 
   // Ctor Parameters [CppParam { name: "", ty: "__UTF8Encoding__UTF8EncodingSealed", modifiers: "&&", def_value: None }]

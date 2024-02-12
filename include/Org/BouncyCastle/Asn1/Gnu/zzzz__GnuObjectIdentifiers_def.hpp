@@ -200,7 +200,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Gnu::GnuObjectIdentifiers* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe9ecd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xec8b64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GnuObjectIdentifiers", modifiers: "&&", def_value: None }]

@@ -25,12 +25,12 @@ MARK_REF_PTR_T(::Oculus::Platform::Media);
 namespace Oculus::Platform {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13365))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13292))
 // CS Name: ::Oculus.Platform::Media*
 class CORDL_TYPE Media : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ShareToFacebook, addr 0x26feb34, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method ShareToFacebook, addr 0x2730498, size 0x17c, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::ShareMediaResult*>* ShareToFacebook(::StringW postTextSuggestion, ::StringW filePath,
                                                                                                               ::Oculus::Platform::MediaContentType contentType);
 

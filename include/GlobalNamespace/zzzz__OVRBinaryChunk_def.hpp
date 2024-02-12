@@ -19,7 +19,7 @@ MARK_VAL_T(::GlobalNamespace::OVRBinaryChunk);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7564))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7641))
 // CS Name: ::OVRBinaryChunk
 struct CORDL_TYPE OVRBinaryChunk {
 public:

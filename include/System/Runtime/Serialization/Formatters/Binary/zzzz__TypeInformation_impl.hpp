@@ -7,7 +7,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::Serialization::Formatters::Binary::TypeInformation::*)()>(
     &::System::Runtime::Serialization::Formatters::Binary::TypeInformation::get_FullTypeName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24cb3d0;
+  constexpr static std::size_t addrs = 0x24ec444;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::Serialization::Formatters::Binary::TypeInformation::*)()>(
     &::System::Runtime::Serialization::Formatters::Binary::TypeInformation::get_AssemblyString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24cb3d8;
+  constexpr static std::size_t addrs = 0x24ec44c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::Formatters::Binary::TypeInformation::*)()>(
     &::System::Runtime::Serialization::Formatters::Binary::TypeInformation::get_HasTypeForwardedFrom)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24cb3e0;
+  constexpr static std::size_t addrs = 0x24ec454;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::TypeInformation::*)(::StringW, ::StringW, bool)>(
     &::System::Runtime::Serialization::Formatters::Binary::TypeInformation::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x24cb3e8;
+  constexpr static std::size_t addrs = 0x24ec45c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

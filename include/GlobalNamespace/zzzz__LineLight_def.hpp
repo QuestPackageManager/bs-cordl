@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::GlobalNamespace::LineLight);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14560))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(8995))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14454))
 // CS Name: ::LineLight*
 class CORDL_TYPE LineLight : public ::UnityEngine::MonoBehaviour {
 public:
@@ -71,30 +71,30 @@ public:
 
   static inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LineLight>>* getStaticF__lineLights();
 
-  /// @brief Method get_p0, addr 0x2114128, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_p0, addr 0x21a88d0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_p0();
 
-  /// @brief Method get_p1, addr 0x2114134, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_p1, addr 0x21a88dc, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_p1();
 
-  /// @brief Method get_color, addr 0x2114140, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x21a88e8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method get_lineLights, addr 0x211414c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_lineLights, addr 0x21a88f4, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LineLight>>* get_lineLights();
 
-  /// @brief Method OnEnable, addr 0x21141a4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x21a894c, size 0xd0, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable, addr 0x2114274, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x21a8a1c, size 0x80, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnDrawGizmos, addr 0x21142f4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnDrawGizmos, addr 0x21a8a9c, size 0x88, virtual false, abstract: false, final false
   inline void OnDrawGizmos();
 
   static inline ::GlobalNamespace::LineLight* New_ctor();
 
-  /// @brief Method .ctor, addr 0x211437c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21a8b24, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LineLight", modifiers: "&&", def_value: None }]

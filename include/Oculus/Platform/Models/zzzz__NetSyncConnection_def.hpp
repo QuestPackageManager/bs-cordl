@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::NetSyncConnection);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13338)), TypeDefinitionIndex(TypeDefinitionIndex(13339))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13458))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13258)), TypeDefinitionIndex(TypeDefinitionIndex(13259))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13406))
 // CS Name: ::Oculus.Platform.Models::NetSyncConnection*
 class CORDL_TYPE NetSyncConnection : public ::System::Object {
 public:
@@ -71,7 +71,7 @@ public:
 
   static inline ::Oculus::Platform::Models::NetSyncConnection* New_ctor(void* o);
 
-  /// @brief Method .ctor, addr 0x27074e0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x273b4ec, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "NetSyncConnection", modifiers: "&&", def_value: None }]

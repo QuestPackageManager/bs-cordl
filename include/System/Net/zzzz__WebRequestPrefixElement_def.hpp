@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::System::Net::WebRequestPrefixElement);
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9077))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7087))
 // CS Name: ::System.Net::WebRequestPrefixElement*
 class CORDL_TYPE WebRequestPrefixElement : public ::System::Object {
 public:
@@ -56,15 +56,15 @@ public:
 
   constexpr void __cordl_internal_set_creatorType(::System::Type* value);
 
-  /// @brief Method get_Creator, addr 0x299e2b8, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method get_Creator, addr 0x29a2d5c, size 0x1fc, virtual false, abstract: false, final false
   inline ::System::Net::IWebRequestCreate* get_Creator();
 
-  /// @brief Method set_Creator, addr 0x299e4b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Creator, addr 0x29a2f58, size 0x8, virtual false, abstract: false, final false
   inline void set_Creator(::System::Net::IWebRequestCreate* value);
 
   static inline ::System::Net::WebRequestPrefixElement* New_ctor(::StringW P, ::System::Net::IWebRequestCreate* C);
 
-  /// @brief Method .ctor, addr 0x299e4bc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29a2f60, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW P, ::System::Net::IWebRequestCreate* C);
 
   // Ctor Parameters [CppParam { name: "", ty: "WebRequestPrefixElement", modifiers: "&&", def_value: None }]

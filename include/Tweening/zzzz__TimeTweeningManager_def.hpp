@@ -15,18 +15,18 @@ MARK_REF_PTR_T(::Tweening::TimeTweeningManager);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Tweening {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16100))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16097))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16209))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16206))
 // CS Name: ::Tweening::TimeTweeningManager*
 class CORDL_TYPE TimeTweeningManager : public ::Tweening::TweeningManager {
 public:
   // Declarations
-  /// @brief Method GetTime, addr 0x2a0e3c8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetTime, addr 0x2a10f34, size 0x8, virtual true, abstract: false, final false
   inline float_t GetTime();
 
   static inline ::Tweening::TimeTweeningManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2a0e3d0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a10f3c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TimeTweeningManager", modifiers: "&&", def_value: None }]

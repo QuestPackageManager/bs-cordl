@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::PlayerNotifications);
 namespace UnityEngine::InputSystem {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6320))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5579))
 // CS Name: ::UnityEngine.InputSystem::PlayerNotifications
 struct CORDL_TYPE PlayerNotifications {
 public:

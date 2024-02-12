@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::ENet::ArrayPool);
 namespace ENet {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15227))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15340))
 // CS Name: ::ENet::ArrayPool*
 class CORDL_TYPE ArrayPool : public ::System::Object {
 public:
@@ -36,10 +36,10 @@ public:
 
   static inline ::ArrayW<void*, ::Array<void*>*> getStaticF_pointerBuffer();
 
-  /// @brief Method GetByteBuffer, addr 0x21ef5f8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetByteBuffer, addr 0x2284ee0, size 0x94, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetByteBuffer();
 
-  /// @brief Method GetPointerBuffer, addr 0x21ef68c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetPointerBuffer, addr 0x2284f74, size 0x94, virtual false, abstract: false, final false
   static inline ::ArrayW<void*, ::Array<void*>*> GetPointerBuffer();
 
   // Ctor Parameters [CppParam { name: "", ty: "ArrayPool", modifiers: "&&", def_value: None }]

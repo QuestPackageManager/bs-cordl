@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::Unity::Collections::NativeSliceExtensions);
 namespace Unity::Collections {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9992))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8723))
 // CS Name: ::Unity.Collections::NativeSliceExtensions*
 class CORDL_TYPE NativeSliceExtensions : public ::System::Object {
 public:

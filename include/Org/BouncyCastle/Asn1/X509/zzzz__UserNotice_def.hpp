@@ -60,29 +60,29 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::UserNotice* New_ctor(::Org::BouncyCastle::Asn1::X509::NoticeReference* noticeRef, ::Org::BouncyCastle::Asn1::X509::DisplayText* explicitText);
 
-  /// @brief Method .ctor, addr 0x119a46c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11c82fc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::NoticeReference* noticeRef, ::Org::BouncyCastle::Asn1::X509::DisplayText* explicitText);
 
   static inline ::Org::BouncyCastle::Asn1::X509::UserNotice* New_ctor(::Org::BouncyCastle::Asn1::X509::NoticeReference* noticeRef, ::StringW str);
 
-  /// @brief Method .ctor, addr 0x119a498, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11c8328, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::NoticeReference* noticeRef, ::StringW str);
 
   static inline ::Org::BouncyCastle::Asn1::X509::UserNotice* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0x119a514, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11c83a4, size 0x208, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance, addr 0x119a71c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x11c85ac, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::UserNotice* GetInstance(::System::Object* obj);
 
-  /// @brief Method get_NoticeRef, addr 0x119a7c0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NoticeRef, addr 0x11c8650, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::NoticeReference* get_NoticeRef();
 
-  /// @brief Method get_ExplicitText, addr 0x119a7c8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ExplicitText, addr 0x11c8658, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::DisplayText* get_ExplicitText();
 
-  /// @brief Method ToAsn1Object, addr 0x119a7d0, size 0x134, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x11c8660, size 0x134, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "UserNotice", modifiers: "&&", def_value: None }]

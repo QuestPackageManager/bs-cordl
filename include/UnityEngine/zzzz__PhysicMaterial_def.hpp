@@ -3,7 +3,15 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+#include <cmath>
 CORDL_MODULE_EXPORT(PhysicMaterial)
+namespace UnityEngine {
+struct PhysicMaterialCombine;
+}
+namespace UnityEngine {
+struct Vector3;
+}
 // Forward declare root types
 namespace UnityEngine {
 class PhysicMaterial;
@@ -14,12 +22,105 @@ MARK_REF_PTR_T(::UnityEngine::PhysicMaterial);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10200))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15486))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8944))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13918))
 // CS Name: ::UnityEngine::PhysicMaterial*
 class CORDL_TYPE PhysicMaterial : public ::UnityEngine::Object {
 public:
   // Declarations
+  __declspec(property(get = get_bouncyness, put = set_bouncyness)) float_t bouncyness;
+
+  __declspec(property(get = get_frictionDirection2, put = set_frictionDirection2))::UnityEngine::Vector3 frictionDirection2;
+
+  __declspec(property(get = get_dynamicFriction2, put = set_dynamicFriction2)) float_t dynamicFriction2;
+
+  __declspec(property(get = get_staticFriction2, put = set_staticFriction2)) float_t staticFriction2;
+
+  __declspec(property(get = get_frictionDirection, put = set_frictionDirection))::UnityEngine::Vector3 frictionDirection;
+
+  __declspec(property(get = get_bounciness, put = set_bounciness)) float_t bounciness;
+
+  __declspec(property(get = get_dynamicFriction, put = set_dynamicFriction)) float_t dynamicFriction;
+
+  __declspec(property(get = get_staticFriction, put = set_staticFriction)) float_t staticFriction;
+
+  __declspec(property(get = get_frictionCombine, put = set_frictionCombine))::UnityEngine::PhysicMaterialCombine frictionCombine;
+
+  __declspec(property(get = get_bounceCombine, put = set_bounceCombine))::UnityEngine::PhysicMaterialCombine bounceCombine;
+
+  /// @brief Method get_bouncyness, addr 0x2d2e190, size 0x3c, virtual false, abstract: false, final false
+  inline float_t get_bouncyness();
+
+  /// @brief Method set_bouncyness, addr 0x2d2e208, size 0x4c, virtual false, abstract: false, final false
+  inline void set_bouncyness(float_t value);
+
+  /// @brief Method get_frictionDirection2, addr 0x2d2e2a0, size 0x44, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 get_frictionDirection2();
+
+  /// @brief Method set_frictionDirection2, addr 0x2d2e2e4, size 0x4, virtual false, abstract: false, final false
+  inline void set_frictionDirection2(::UnityEngine::Vector3 value);
+
+  /// @brief Method get_dynamicFriction2, addr 0x2d2e2e8, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_dynamicFriction2();
+
+  /// @brief Method set_dynamicFriction2, addr 0x2d2e2f0, size 0x4, virtual false, abstract: false, final false
+  inline void set_dynamicFriction2(float_t value);
+
+  /// @brief Method get_staticFriction2, addr 0x2d2e2f4, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_staticFriction2();
+
+  /// @brief Method set_staticFriction2, addr 0x2d2e2fc, size 0x4, virtual false, abstract: false, final false
+  inline void set_staticFriction2(float_t value);
+
+  /// @brief Method get_frictionDirection, addr 0x2d2e300, size 0x44, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 get_frictionDirection();
+
+  /// @brief Method set_frictionDirection, addr 0x2d2e344, size 0x4, virtual false, abstract: false, final false
+  inline void set_frictionDirection(::UnityEngine::Vector3 value);
+
+  static inline ::UnityEngine::PhysicMaterial* New_ctor();
+
+  /// @brief Method .ctor, addr 0x2d2e348, size 0x9c, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  static inline ::UnityEngine::PhysicMaterial* New_ctor(::StringW name);
+
+  /// @brief Method .ctor, addr 0x2d2e428, size 0x90, virtual false, abstract: false, final false
+  inline void _ctor(::StringW name);
+
+  /// @brief Method Internal_CreateDynamicsMaterial, addr 0x2d2e3e4, size 0x44, virtual false, abstract: false, final false
+  static inline void Internal_CreateDynamicsMaterial(::UnityEngine::PhysicMaterial* mat, ::StringW name);
+
+  /// @brief Method get_bounciness, addr 0x2d2e1cc, size 0x3c, virtual false, abstract: false, final false
+  inline float_t get_bounciness();
+
+  /// @brief Method set_bounciness, addr 0x2d2e254, size 0x4c, virtual false, abstract: false, final false
+  inline void set_bounciness(float_t value);
+
+  /// @brief Method get_dynamicFriction, addr 0x2d2e4b8, size 0x3c, virtual false, abstract: false, final false
+  inline float_t get_dynamicFriction();
+
+  /// @brief Method set_dynamicFriction, addr 0x2d2e4f4, size 0x4c, virtual false, abstract: false, final false
+  inline void set_dynamicFriction(float_t value);
+
+  /// @brief Method get_staticFriction, addr 0x2d2e540, size 0x3c, virtual false, abstract: false, final false
+  inline float_t get_staticFriction();
+
+  /// @brief Method set_staticFriction, addr 0x2d2e57c, size 0x4c, virtual false, abstract: false, final false
+  inline void set_staticFriction(float_t value);
+
+  /// @brief Method get_frictionCombine, addr 0x2d2e5c8, size 0x3c, virtual false, abstract: false, final false
+  inline ::UnityEngine::PhysicMaterialCombine get_frictionCombine();
+
+  /// @brief Method set_frictionCombine, addr 0x2d2e604, size 0x44, virtual false, abstract: false, final false
+  inline void set_frictionCombine(::UnityEngine::PhysicMaterialCombine value);
+
+  /// @brief Method get_bounceCombine, addr 0x2d2e648, size 0x3c, virtual false, abstract: false, final false
+  inline ::UnityEngine::PhysicMaterialCombine get_bounceCombine();
+
+  /// @brief Method set_bounceCombine, addr 0x2d2e684, size 0x44, virtual false, abstract: false, final false
+  inline void set_bounceCombine(::UnityEngine::PhysicMaterialCombine value);
+
   // Ctor Parameters [CppParam { name: "", ty: "PhysicMaterial", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PhysicMaterial(PhysicMaterial&&) = delete;

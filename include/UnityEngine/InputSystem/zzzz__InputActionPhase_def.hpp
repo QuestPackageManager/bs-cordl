@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::InputActionPhase);
 namespace UnityEngine::InputSystem {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6163))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5422))
 // CS Name: ::UnityEngine.InputSystem::InputActionPhase
 struct CORDL_TYPE InputActionPhase {
 public:

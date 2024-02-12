@@ -73,7 +73,7 @@ MARK_REF_PTR_T(::System::Collections::Specialized::__NameObjectCollectionBase__N
 namespace System::Collections::Specialized {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9520))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7530))
 // CS Name: ::NameObjectCollectionBase::NameObjectEntry*
 class CORDL_TYPE __NameObjectCollectionBase__NameObjectEntry : public ::System::Object {
 public:
@@ -98,7 +98,7 @@ public:
 
   static inline ::System::Collections::Specialized::__NameObjectCollectionBase__NameObjectEntry* New_ctor(::StringW name, ::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x2940fe0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2945648, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::System::Object* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "__NameObjectCollectionBase__NameObjectEntry", modifiers: "&&", def_value: None }]
@@ -136,7 +136,7 @@ static_assert(offsetof(::System::Collections::Specialized::__NameObjectCollectio
 namespace System::Collections::Specialized {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9521))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7531))
 // CS Name: ::NameObjectCollectionBase::NameObjectKeysEnumerator*
 class CORDL_TYPE __NameObjectCollectionBase__NameObjectKeysEnumerator : public ::System::Object {
 public:
@@ -178,16 +178,16 @@ public:
 
   static inline ::System::Collections::Specialized::__NameObjectCollectionBase__NameObjectKeysEnumerator* New_ctor(::System::Collections::Specialized::NameObjectCollectionBase* coll);
 
-  /// @brief Method .ctor, addr 0x294106c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29456d4, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Specialized::NameObjectCollectionBase* coll);
 
-  /// @brief Method MoveNext, addr 0x2941518, size 0xe0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2945b80, size 0xe0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method Reset, addr 0x29415f8, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x2945c60, size 0x90, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method get_Current, addr 0x2941688, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x2945cf0, size 0xa8, virtual true, abstract: false, final true
   inline ::System::Object* get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__NameObjectCollectionBase__NameObjectKeysEnumerator", modifiers: "&&", def_value: None }]
@@ -230,7 +230,7 @@ static_assert(offsetof(::System::Collections::Specialized::__NameObjectCollectio
 namespace System::Collections::Specialized {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9522))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7532))
 // CS Name: ::System.Collections.Specialized::NameObjectCollectionBase*
 class CORDL_TYPE NameObjectCollectionBase : public ::System::Object {
 public:
@@ -353,84 +353,84 @@ public:
 
   static inline ::System::Collections::Specialized::NameObjectCollectionBase* New_ctor();
 
-  /// @brief Method .ctor, addr 0x293cb40, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29411a8, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Specialized::NameObjectCollectionBase* New_ctor(::System::Collections::IEqualityComparer* equalityComparer);
 
-  /// @brief Method .ctor, addr 0x293fdd8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2944440, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IEqualityComparer* equalityComparer);
 
   static inline ::System::Collections::Specialized::NameObjectCollectionBase* New_ctor(int32_t capacity, ::System::Collections::IEqualityComparer* equalityComparer);
 
-  /// @brief Method .ctor, addr 0x293cd28, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2941390, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity, ::System::Collections::IEqualityComparer* equalityComparer);
 
   static inline ::System::Collections::Specialized::NameObjectCollectionBase* New_ctor(int32_t capacity);
 
-  /// @brief Method .ctor, addr 0x293cc04, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x294126c, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity);
 
   static inline ::System::Collections::Specialized::NameObjectCollectionBase* New_ctor(::System::DBNull* dummy);
 
-  /// @brief Method .ctor, addr 0x293da9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2942104, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::DBNull* dummy);
 
   static inline ::System::Collections::Specialized::NameObjectCollectionBase* New_ctor(::System::Runtime::Serialization::SerializationInfo* info,
                                                                                        ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x293cdc0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2941428, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetObjectData, addr 0x293ffd4, size 0x580, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x294463c, size 0x580, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method OnDeserialization, addr 0x2940710, size 0x768, virtual true, abstract: false, final false
+  /// @brief Method OnDeserialization, addr 0x2944d78, size 0x768, virtual true, abstract: false, final false
   inline void OnDeserialization(::System::Object* sender);
 
-  /// @brief Method Reset, addr 0x293fe58, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x29444c0, size 0xb8, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Reset, addr 0x293ff10, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x2944578, size 0xc4, virtual false, abstract: false, final false
   inline void Reset(int32_t capacity);
 
-  /// @brief Method FindEntry, addr 0x2940f20, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method FindEntry, addr 0x2945588, size 0xb8, virtual false, abstract: false, final false
   inline ::System::Collections::Specialized::__NameObjectCollectionBase__NameObjectEntry* FindEntry(::StringW key);
 
-  /// @brief Method get_IsReadOnly, addr 0x2940fd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x2945640, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method BaseAdd, addr 0x293d1b4, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method BaseAdd, addr 0x294181c, size 0x164, virtual false, abstract: false, final false
   inline void BaseAdd(::StringW name, ::System::Object* value);
 
-  /// @brief Method BaseRemove, addr 0x293d5d4, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method BaseRemove, addr 0x2941c3c, size 0x20c, virtual false, abstract: false, final false
   inline void BaseRemove(::StringW name);
 
-  /// @brief Method BaseGet, addr 0x293d19c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method BaseGet, addr 0x2941804, size 0x18, virtual false, abstract: false, final false
   inline ::System::Object* BaseGet(::StringW name);
 
-  /// @brief Method BaseSet, addr 0x293d51c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method BaseSet, addr 0x2941b84, size 0xb0, virtual false, abstract: false, final false
   inline void BaseSet(::StringW name, ::System::Object* value);
 
-  /// @brief Method BaseGet, addr 0x293d884, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method BaseGet, addr 0x2941eec, size 0x9c, virtual false, abstract: false, final false
   inline ::System::Object* BaseGet(int32_t index);
 
-  /// @brief Method BaseGetKey, addr 0x293d9a8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method BaseGetKey, addr 0x2942010, size 0x9c, virtual false, abstract: false, final false
   inline ::StringW BaseGetKey(int32_t index);
 
-  /// @brief Method GetEnumerator, addr 0x294100c, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x2945674, size 0x60, virtual true, abstract: false, final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
-  /// @brief Method get_Count, addr 0x29410ac, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_Count, addr 0x2945714, size 0x24, virtual true, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x29410d0, size 0x31c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x2945738, size 0x31c, virtual true, abstract: false, final true
   inline void System_Collections_ICollection_CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method System.Collections.ICollection.get_SyncRoot, addr 0x29413ec, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.get_SyncRoot, addr 0x2945a54, size 0x7c, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_ICollection_get_SyncRoot();
 
-  /// @brief Method System.Collections.ICollection.get_IsSynchronized, addr 0x2941468, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.get_IsSynchronized, addr 0x2945ad0, size 0x8, virtual true, abstract: false, final true
   inline bool System_Collections_ICollection_get_IsSynchronized();
 
   // Ctor Parameters [CppParam { name: "", ty: "NameObjectCollectionBase", modifiers: "&&", def_value: None }]

@@ -49,7 +49,7 @@ MARK_REF_PTR_T(::Zenject::Kernel);
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11322))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10464))
 // CS Name: ::Zenject::Kernel*
 class CORDL_TYPE Kernel : public ::System::Object {
 public:
@@ -117,42 +117,42 @@ public:
 
   constexpr void __cordl_internal_set__disposablesManager(::Zenject::DisposableManager* value);
 
-  /// @brief Method Initialize, addr 0x2f14b9c, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Initialize, addr 0x2f30ce4, size 0x18, virtual true, abstract: false, final false
   inline void Initialize();
 
-  /// @brief Method Dispose, addr 0x2f14bb4, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x2f30cfc, size 0x18, virtual true, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method LateDispose, addr 0x2f14bcc, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method LateDispose, addr 0x2f30d14, size 0x18, virtual true, abstract: false, final false
   inline void LateDispose();
 
-  /// @brief Method Tick, addr 0x2f14be4, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Tick, addr 0x2f30d2c, size 0x18, virtual true, abstract: false, final false
   inline void Tick();
 
-  /// @brief Method LateTick, addr 0x2f14c84, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method LateTick, addr 0x2f30dcc, size 0x18, virtual true, abstract: false, final false
   inline void LateTick();
 
-  /// @brief Method FixedTick, addr 0x2f14d24, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method FixedTick, addr 0x2f30e6c, size 0x18, virtual true, abstract: false, final false
   inline void FixedTick();
 
   static inline ::Zenject::Kernel* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f14dc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f30f0c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method __zenCreate, addr 0x2f14dcc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2f30f14, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenFieldSetter0, addr 0x2f14e28, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method __zenFieldSetter0, addr 0x2f30f70, size 0x134, virtual false, abstract: false, final false
   static inline void __zenFieldSetter0(::System::Object* P_0, ::System::Object* P_1);
 
-  /// @brief Method __zenFieldSetter1, addr 0x2f14f5c, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method __zenFieldSetter1, addr 0x2f310a4, size 0x134, virtual false, abstract: false, final false
   static inline void __zenFieldSetter1(::System::Object* P_0, ::System::Object* P_1);
 
-  /// @brief Method __zenFieldSetter2, addr 0x2f15090, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method __zenFieldSetter2, addr 0x2f311d8, size 0x134, virtual false, abstract: false, final false
   static inline void __zenFieldSetter2(::System::Object* P_0, ::System::Object* P_1);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f151c4, size 0x4c8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f3130c, size 0x4c8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "Kernel", modifiers: "&&", def_value: None }]

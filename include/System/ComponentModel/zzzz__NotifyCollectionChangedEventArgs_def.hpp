@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::System::ComponentModel::NotifyCollectionChangedEventArgs);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11789))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11790))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11687))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11688))
 // CS Name: ::System.ComponentModel::NotifyCollectionChangedEventArgs*
 class CORDL_TYPE NotifyCollectionChangedEventArgs : public ::System::Object {
 public:
@@ -87,96 +87,96 @@ public:
 
   constexpr void __cordl_internal_set__OldStartingIndex_k__BackingField(int32_t value);
 
-  /// @brief Method get_Action, addr 0x263dc04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Action, addr 0x2661dc0, size 0x8, virtual false, abstract: false, final false
   inline ::System::ComponentModel::NotifyCollectionChangedAction get_Action();
 
-  /// @brief Method set_Action, addr 0x263dc0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Action, addr 0x2661dc8, size 0x8, virtual false, abstract: false, final false
   inline void set_Action(::System::ComponentModel::NotifyCollectionChangedAction value);
 
-  /// @brief Method get_NewItems, addr 0x263dc14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NewItems, addr 0x2661dd0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::IList* get_NewItems();
 
-  /// @brief Method set_NewItems, addr 0x263dc1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_NewItems, addr 0x2661dd8, size 0x8, virtual false, abstract: false, final false
   inline void set_NewItems(::System::Collections::IList* value);
 
-  /// @brief Method get_NewStartingIndex, addr 0x263dc24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NewStartingIndex, addr 0x2661de0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_NewStartingIndex();
 
-  /// @brief Method set_NewStartingIndex, addr 0x263dc2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_NewStartingIndex, addr 0x2661de8, size 0x8, virtual false, abstract: false, final false
   inline void set_NewStartingIndex(int32_t value);
 
-  /// @brief Method get_OldItems, addr 0x263dc34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OldItems, addr 0x2661df0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::IList* get_OldItems();
 
-  /// @brief Method set_OldItems, addr 0x263dc3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_OldItems, addr 0x2661df8, size 0x8, virtual false, abstract: false, final false
   inline void set_OldItems(::System::Collections::IList* value);
 
-  /// @brief Method get_OldStartingIndex, addr 0x263dc44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OldStartingIndex, addr 0x2661e00, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_OldStartingIndex();
 
-  /// @brief Method set_OldStartingIndex, addr 0x263dc4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_OldStartingIndex, addr 0x2661e08, size 0x8, virtual false, abstract: false, final false
   inline void set_OldStartingIndex(int32_t value);
 
   static inline ::System::ComponentModel::NotifyCollectionChangedEventArgs* New_ctor(::System::ComponentModel::NotifyCollectionChangedAction action);
 
-  /// @brief Method .ctor, addr 0x263dc54, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2661e10, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::NotifyCollectionChangedAction action);
 
   static inline ::System::ComponentModel::NotifyCollectionChangedEventArgs* New_ctor(::System::ComponentModel::NotifyCollectionChangedAction action, ::System::Collections::IList* changedItems);
 
-  /// @brief Method .ctor, addr 0x263dc7c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2661e38, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::NotifyCollectionChangedAction action, ::System::Collections::IList* changedItems);
 
   static inline ::System::ComponentModel::NotifyCollectionChangedEventArgs* New_ctor(::System::ComponentModel::NotifyCollectionChangedAction action, ::System::Object* changedItem);
 
-  /// @brief Method .ctor, addr 0x263dcac, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2661e68, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::NotifyCollectionChangedAction action, ::System::Object* changedItem);
 
   static inline ::System::ComponentModel::NotifyCollectionChangedEventArgs* New_ctor(::System::ComponentModel::NotifyCollectionChangedAction action, ::System::Collections::IList* newItems,
                                                                                      ::System::Collections::IList* oldItems);
 
-  /// @brief Method .ctor, addr 0x263ddac, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2661f68, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::NotifyCollectionChangedAction action, ::System::Collections::IList* newItems, ::System::Collections::IList* oldItems);
 
   static inline ::System::ComponentModel::NotifyCollectionChangedEventArgs* New_ctor(::System::ComponentModel::NotifyCollectionChangedAction action, ::System::Collections::IList* changedItems,
                                                                                      int32_t startingIndex);
 
-  /// @brief Method .ctor, addr 0x263ddec, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2661fa8, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::NotifyCollectionChangedAction action, ::System::Collections::IList* changedItems, int32_t startingIndex);
 
   static inline ::System::ComponentModel::NotifyCollectionChangedEventArgs* New_ctor(::System::ComponentModel::NotifyCollectionChangedAction action, ::System::Object* changedItem, int32_t index);
 
-  /// @brief Method .ctor, addr 0x263de2c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2661fe8, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::NotifyCollectionChangedAction action, ::System::Object* changedItem, int32_t index);
 
   static inline ::System::ComponentModel::NotifyCollectionChangedEventArgs* New_ctor(::System::ComponentModel::NotifyCollectionChangedAction action, ::System::Object* newItem,
                                                                                      ::System::Object* oldItem);
 
-  /// @brief Method .ctor, addr 0x263de50, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x266200c, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::NotifyCollectionChangedAction action, ::System::Object* newItem, ::System::Object* oldItem);
 
   static inline ::System::ComponentModel::NotifyCollectionChangedEventArgs* New_ctor(::System::ComponentModel::NotifyCollectionChangedAction action, ::System::Collections::IList* newItems,
                                                                                      ::System::Collections::IList* oldItems, int32_t startingIndex);
 
-  /// @brief Method .ctor, addr 0x263df5c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2662118, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::NotifyCollectionChangedAction action, ::System::Collections::IList* newItems, ::System::Collections::IList* oldItems, int32_t startingIndex);
 
   static inline ::System::ComponentModel::NotifyCollectionChangedEventArgs* New_ctor(::System::ComponentModel::NotifyCollectionChangedAction action, ::System::Collections::IList* changedItems,
                                                                                      int32_t index, int32_t oldIndex);
 
-  /// @brief Method .ctor, addr 0x263dfa4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2662160, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::NotifyCollectionChangedAction action, ::System::Collections::IList* changedItems, int32_t index, int32_t oldIndex);
 
   static inline ::System::ComponentModel::NotifyCollectionChangedEventArgs* New_ctor(::System::ComponentModel::NotifyCollectionChangedAction action, ::System::Object* changedItem, int32_t index,
                                                                                      int32_t oldIndex);
 
-  /// @brief Method .ctor, addr 0x263dfec, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26621a8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::NotifyCollectionChangedAction action, ::System::Object* changedItem, int32_t index, int32_t oldIndex);
 
   static inline ::System::ComponentModel::NotifyCollectionChangedEventArgs* New_ctor(::System::ComponentModel::NotifyCollectionChangedAction action, ::System::Object* newItem,
                                                                                      ::System::Object* oldItem, int32_t index);
 
-  /// @brief Method .ctor, addr 0x263e018, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26621d4, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::NotifyCollectionChangedAction action, ::System::Object* newItem, ::System::Object* oldItem, int32_t index);
 
   // Ctor Parameters [CppParam { name: "", ty: "NotifyCollectionChangedEventArgs", modifiers: "&&", def_value: None }]

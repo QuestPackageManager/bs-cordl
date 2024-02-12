@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::ScrollerVisibility);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7043))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6302))
 // CS Name: ::UnityEngine.UIElements::ScrollerVisibility
 struct CORDL_TYPE ScrollerVisibility {
 public:

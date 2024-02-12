@@ -17,7 +17,7 @@ MARK_VAL_T(::UnityEngine::RenderBuffer);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10084))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8816))
 // CS Name: ::UnityEngine::RenderBuffer
 struct CORDL_TYPE RenderBuffer {
 public:

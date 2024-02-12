@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::RangeHeaderValue);
 namespace System::Net::Http::Headers {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14704))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14709))
 // CS Name: ::System.Net.Http.Headers::RangeHeaderValue*
 class CORDL_TYPE RangeHeaderValue : public ::System::Object {
 public:
@@ -68,33 +68,33 @@ public:
 
   static inline ::System::Net::Http::Headers::RangeHeaderValue* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28400d4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x284473c, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Net::Http::Headers::RangeHeaderValue* New_ctor(::System::Net::Http::Headers::RangeHeaderValue* source);
 
-  /// @brief Method .ctor, addr 0x2840128, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2844790, size 0x1e8, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Http::Headers::RangeHeaderValue* source);
 
-  /// @brief Method get_Ranges, addr 0x2840310, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_Ranges, addr 0x2844978, size 0x80, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::ICollection_1<::System::Net::Http::Headers::RangeItemHeaderValue*>* get_Ranges();
 
-  /// @brief Method get_Unit, addr 0x2840390, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Unit, addr 0x28449f8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Unit();
 
-  /// @brief Method System.ICloneable.Clone, addr 0x2840398, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method System.ICloneable.Clone, addr 0x2844a00, size 0x60, virtual true, abstract: false, final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method Equals, addr 0x28403f8, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2844a60, size 0xc8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x28404c0, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2844b28, size 0x7c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method TryParse, addr 0x284053c, size 0x544, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x2844ba4, size 0x544, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ByRef<::System::Net::Http::Headers::RangeHeaderValue*> parsedValue);
 
-  /// @brief Method ToString, addr 0x2840bdc, size 0x1a0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2845244, size 0x1a0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "RangeHeaderValue", modifiers: "&&", def_value: None }]

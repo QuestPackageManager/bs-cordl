@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::StyleValueCollection);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7308))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6567))
 // CS Name: ::UnityEngine.UIElements::StyleValueCollection*
 class CORDL_TYPE StyleValueCollection : public ::System::Object {
 public:
@@ -48,24 +48,24 @@ public:
 
   constexpr void __cordl_internal_set_m_Values(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StyleValue>* value);
 
-  /// @brief Method GetStyleLength, addr 0x2e71b14, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetStyleLength, addr 0x2e8befc, size 0x74, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleLength GetStyleLength(::UnityEngine::UIElements::StyleSheets::StylePropertyId id);
 
-  /// @brief Method GetStyleFloat, addr 0x2e71d48, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetStyleFloat, addr 0x2e8c130, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleFloat GetStyleFloat(::UnityEngine::UIElements::StyleSheets::StylePropertyId id);
 
-  /// @brief Method GetStyleInt, addr 0x2e71da0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetStyleInt, addr 0x2e8c188, size 0x74, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleInt GetStyleInt(::UnityEngine::UIElements::StyleSheets::StylePropertyId id);
 
-  /// @brief Method TryGetStyleValue, addr 0x2e71b88, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method TryGetStyleValue, addr 0x2e8bf70, size 0x1c0, virtual false, abstract: false, final false
   inline bool TryGetStyleValue(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ByRef<::UnityEngine::UIElements::StyleSheets::StyleValue> value);
 
-  /// @brief Method SetStyleValue, addr 0x2e71e24, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method SetStyleValue, addr 0x2e8c20c, size 0x1fc, virtual false, abstract: false, final false
   inline void SetStyleValue(::UnityEngine::UIElements::StyleSheets::StyleValue value);
 
   static inline ::UnityEngine::UIElements::StyleValueCollection* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e72020, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e8c408, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "StyleValueCollection", modifiers: "&&", def_value: None }]

@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::RootMotion::Demos::Navigator);
 namespace RootMotion::Demos {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12504))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12402))
 // CS Name: ::Navigator::State
 struct CORDL_TYPE __Navigator__State {
 public:
@@ -90,8 +90,8 @@ static_assert(offsetof(::RootMotion::Demos::__Navigator__State, value__) == 0x0,
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 108, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::Demos {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(12504))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12505))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(12402))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12403))
 // CS Name: ::RootMotion.Demos::Navigator*
 class CORDL_TYPE Navigator : public ::System::Object {
 public:
@@ -229,42 +229,42 @@ public:
 
   constexpr void __cordl_internal_set_nextPathTime(float_t value);
 
-  /// @brief Method get_normalizedDeltaPosition, addr 0x1240ab4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_normalizedDeltaPosition, addr 0x12dbb64, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_normalizedDeltaPosition();
 
-  /// @brief Method set_normalizedDeltaPosition, addr 0x1240ac0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_normalizedDeltaPosition, addr 0x12dbb70, size 0xc, virtual false, abstract: false, final false
   inline void set_normalizedDeltaPosition(::UnityEngine::Vector3 value);
 
-  /// @brief Method get_state, addr 0x1240acc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_state, addr 0x12dbb7c, size 0x8, virtual false, abstract: false, final false
   inline ::RootMotion::Demos::__Navigator__State get_state();
 
-  /// @brief Method set_state, addr 0x1240ad4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_state, addr 0x12dbb84, size 0x8, virtual false, abstract: false, final false
   inline void set_state(::RootMotion::Demos::__Navigator__State value);
 
-  /// @brief Method Initiate, addr 0x1240adc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Initiate, addr 0x12dbb8c, size 0xb4, virtual false, abstract: false, final false
   inline void Initiate(::UnityEngine::Transform* transform);
 
-  /// @brief Method Update, addr 0x1240b90, size 0x444, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x12dbc40, size 0x444, virtual false, abstract: false, final false
   inline void Update(::UnityEngine::Vector3 targetPosition);
 
-  /// @brief Method CalculatePath, addr 0x12410ac, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method CalculatePath, addr 0x12dc15c, size 0x64, virtual false, abstract: false, final false
   inline void CalculatePath(::UnityEngine::Vector3 targetPosition);
 
-  /// @brief Method Find, addr 0x1241110, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method Find, addr 0x12dc1c0, size 0x134, virtual false, abstract: false, final false
   inline bool Find(::UnityEngine::Vector3 targetPosition);
 
-  /// @brief Method Stop, addr 0x1240fd4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Stop, addr 0x12dc084, size 0x5c, virtual false, abstract: false, final false
   inline void Stop();
 
-  /// @brief Method HorDistance, addr 0x1241030, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method HorDistance, addr 0x12dc0e0, size 0x7c, virtual false, abstract: false, final false
   inline float_t HorDistance(::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 p2);
 
-  /// @brief Method Visualize, addr 0x1241244, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method Visualize, addr 0x12dc2f4, size 0x1c4, virtual false, abstract: false, final false
   inline void Visualize();
 
   static inline ::RootMotion::Demos::Navigator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1241408, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12dc4b8, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Navigator", modifiers: "&&", def_value: None }]

@@ -81,7 +81,7 @@ public:
 
   static inline ::System::MonoAsyncCall* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25fa554, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x261e45c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MonoAsyncCall", modifiers: "&&", def_value: None }]

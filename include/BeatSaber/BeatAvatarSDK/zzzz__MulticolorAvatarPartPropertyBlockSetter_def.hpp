@@ -48,8 +48,8 @@ MARK_REF_PTR_T(::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSe
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarSDK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15698))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8995))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15799))
 // CS Name: ::MulticolorAvatarPartPropertyBlockSetter::ColorData*
 class CORDL_TYPE __MulticolorAvatarPartPropertyBlockSetter__ColorData : public ::System::Object {
 public:
@@ -87,18 +87,18 @@ public:
 
   constexpr void __cordl_internal_set__whiteBoost(float_t value);
 
-  /// @brief Method get_defaultColor, addr 0xe1c488, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_defaultColor, addr 0xe28ad4, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_defaultColor();
 
-  /// @brief Method get_darkerColorMultiplier, addr 0xe1c494, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_darkerColorMultiplier, addr 0xe28ae0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_darkerColorMultiplier();
 
-  /// @brief Method get_whiteBoost, addr 0xe1c49c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_whiteBoost, addr 0xe28ae8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_whiteBoost();
 
   static inline ::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe1c4a4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe28af0, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MulticolorAvatarPartPropertyBlockSetter__ColorData", modifiers: "&&", def_value: None }]
@@ -141,7 +141,7 @@ static_assert(offsetof(::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropert
 namespace BeatSaber::BeatAvatarSDK {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15699))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15800))
 // CS Name: ::MulticolorAvatarPartPropertyBlockSetter::<>c*
 class CORDL_TYPE __MulticolorAvatarPartPropertyBlockSetter____c : public ::System::Object {
 public:
@@ -163,10 +163,10 @@ public:
 
   static inline ::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe1c52c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe28b78, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <OnValidate>b__10_0, addr 0xe1c534, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <OnValidate>b__10_0, addr 0xe28b80, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Color _OnValidate_b__10_0(::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData* x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__MulticolorAvatarPartPropertyBlockSetter____c", modifiers: "&&", def_value: None }]
@@ -193,8 +193,8 @@ static_assert(::cordl_internals::size_check_v<::BeatSaber::BeatAvatarSDK::__Mult
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarSDK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15700))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15801))
 // CS Name: ::BeatSaber.BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter*
 class CORDL_TYPE MulticolorAvatarPartPropertyBlockSetter : public ::UnityEngine::MonoBehaviour {
 public:
@@ -288,21 +288,21 @@ public:
 
   static inline ::UnityEngine::MaterialPropertyBlock* getStaticF__materialPropertyBlock();
 
-  /// @brief Method OnValidate, addr 0xe1c120, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0xe2876c, size 0x188, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method SetColors, addr 0xe1bd10, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method SetColors, addr 0xe2835c, size 0x1d0, virtual false, abstract: false, final false
   inline void SetColors(::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> colors);
 
-  /// @brief Method SetHighlight, addr 0xe1bff8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetHighlight, addr 0xe28644, size 0x10, virtual false, abstract: false, final false
   inline void SetHighlight(bool highlighted, int32_t uvSegment);
 
-  /// @brief Method UpdateRenderer, addr 0xe1c2a8, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method UpdateRenderer, addr 0xe288f4, size 0x178, virtual false, abstract: false, final false
   inline void UpdateRenderer();
 
   static inline ::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe1c420, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe28a6c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MulticolorAvatarPartPropertyBlockSetter", modifiers: "&&", def_value: None }]

@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::InstalledApplication);
 namespace Oculus::Platform::Models {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13437))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13376))
 // CS Name: ::Oculus.Platform.Models::InstalledApplication*
 class CORDL_TYPE InstalledApplication : public ::System::Object {
 public:
@@ -69,7 +69,7 @@ public:
 
   static inline ::Oculus::Platform::Models::InstalledApplication* New_ctor(void* o);
 
-  /// @brief Method .ctor, addr 0x2706094, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2738f70, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "InstalledApplication", modifiers: "&&", def_value: None }]

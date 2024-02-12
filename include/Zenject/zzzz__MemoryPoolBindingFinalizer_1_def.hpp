@@ -28,8 +28,8 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10966))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10865))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10108))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10007))
 // CS Name: ::Zenject::MemoryPoolBindingFinalizer`1<TContract>*
 class CORDL_TYPE MemoryPoolBindingFinalizer_1 : public ::Zenject::ProviderBindingFinalizer {
 public:

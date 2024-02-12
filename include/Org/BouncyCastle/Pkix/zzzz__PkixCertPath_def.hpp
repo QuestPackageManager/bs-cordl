@@ -67,46 +67,46 @@ public:
 
   static inline ::System::Collections::IList* getStaticF_certPathEncodings();
 
-  /// @brief Method SortCerts, addr 0x10f00b0, size 0xd94, virtual false, abstract: false, final false
+  /// @brief Method SortCerts, addr 0x111df40, size 0xd94, virtual false, abstract: false, final false
   static inline ::System::Collections::IList* SortCerts(::System::Collections::IList* certs);
 
   static inline ::Org::BouncyCastle::Pkix::PkixCertPath* New_ctor(::System::Collections::ICollection* certificates);
 
-  /// @brief Method .ctor, addr 0x10eb394, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1119224, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::ICollection* certificates);
 
   static inline ::Org::BouncyCastle::Pkix::PkixCertPath* New_ctor(::System::IO::Stream* inStream);
 
-  /// @brief Method .ctor, addr 0x10f0e44, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x111ecd4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* inStream);
 
   static inline ::Org::BouncyCastle::Pkix::PkixCertPath* New_ctor(::System::IO::Stream* inStream, ::StringW encoding);
 
-  /// @brief Method .ctor, addr 0x10f0e9c, size 0x86c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x111ed2c, size 0x86c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* inStream, ::StringW encoding);
 
-  /// @brief Method get_Encodings, addr 0x10f1708, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method get_Encodings, addr 0x111f598, size 0x90, virtual true, abstract: false, final false
   inline ::System::Collections::IEnumerable* get_Encodings();
 
-  /// @brief Method Equals, addr 0x10f1798, size 0x41c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x111f628, size 0x41c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x10f1bb4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x111fa44, size 0x28, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetEncoded, addr 0x10f1bdc, size 0x344, virtual true, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x111fa6c, size 0x344, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
-  /// @brief Method GetEncoded, addr 0x10f1f20, size 0x88c, virtual true, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x111fdb0, size 0x88c, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded(::StringW encoding);
 
-  /// @brief Method get_Certificates, addr 0x10f29c8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_Certificates, addr 0x1120858, size 0xc, virtual true, abstract: false, final false
   inline ::System::Collections::IList* get_Certificates();
 
-  /// @brief Method ToAsn1Object, addr 0x10f27ac, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x112063c, size 0x100, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object(::Org::BouncyCastle::X509::X509Certificate* cert);
 
-  /// @brief Method ToDerEncoded, addr 0x10f28ac, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method ToDerEncoded, addr 0x112073c, size 0x11c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ToDerEncoded(::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
   // Ctor Parameters [CppParam { name: "", ty: "PkixCertPath", modifiers: "&&", def_value: None }]

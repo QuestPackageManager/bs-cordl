@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_ObjectInstanceInfo);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9652))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8954))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9444))
 // CS Name: ::HoudiniEngineUnity::HEU_ObjectInstanceInfo*
 class CORDL_TYPE HEU_ObjectInstanceInfo : public ::UnityEngine::ScriptableObject {
 public:
@@ -90,12 +90,12 @@ public:
 
   constexpr void __cordl_internal_set__instances(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* value);
 
-  /// @brief Method IsEquivalentTo, addr 0x217268c, size 0x148, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x2206f70, size 0x148, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_ObjectInstanceInfo* other);
 
   static inline ::HoudiniEngineUnity::HEU_ObjectInstanceInfo* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21727d4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22070b8, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_ObjectInstanceInfo", modifiers: "&&", def_value: None }]

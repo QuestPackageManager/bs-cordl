@@ -49,9 +49,9 @@ namespace BGLib::AsyncInitialization {
 // cpp template
 template <typename TInstantiate, typename TReturn>
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(10196)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 311 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 863 })] Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(15162)) CS Name: ::AddressablesLoader::<InstantiateFromAddressableToContainer>d__0`2<TInstantiate,TReturn>
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3398)), TypeDefinitionIndex(TypeDefinitionIndex(8940)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 313 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3398), inst: 864 })] Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(15242)) CS Name: ::AddressablesLoader::<InstantiateFromAddressableToContainer>d__0`2<TInstantiate,TReturn>
 struct CORDL_TYPE __AddressablesLoader___InstantiateFromAddressableToContainer_d__0_2 {
 public:
   // Declarations
@@ -106,7 +106,7 @@ public:
 namespace BGLib::AsyncInitialization {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15163))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15243))
 // CS Name: ::BGLib.AsyncInitialization::AddressablesLoader*
 class CORDL_TYPE AddressablesLoader : public ::System::Object {
 public:

@@ -26,8 +26,8 @@ MARK_VAL_T(::UnityEngine::UI::ColorBlock);
 // SizeInfo { instance_size: 88, native_size: 88, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10251))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13023))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8995))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12921))
 // CS Name: ::UnityEngine.UI::ColorBlock
 struct CORDL_TYPE ColorBlock {
 public:
@@ -59,61 +59,61 @@ public:
 
   static inline ::UnityEngine::UI::ColorBlock getStaticF_defaultColorBlock();
 
-  /// @brief Method get_normalColor, addr 0x2d52e14, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_normalColor, addr 0x2d711fc, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_normalColor();
 
-  /// @brief Method set_normalColor, addr 0x2d52e20, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_normalColor, addr 0x2d71208, size 0xc, virtual false, abstract: false, final false
   inline void set_normalColor(::UnityEngine::Color value);
 
-  /// @brief Method get_highlightedColor, addr 0x2d52e2c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_highlightedColor, addr 0x2d71214, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_highlightedColor();
 
-  /// @brief Method set_highlightedColor, addr 0x2d52e38, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_highlightedColor, addr 0x2d71220, size 0xc, virtual false, abstract: false, final false
   inline void set_highlightedColor(::UnityEngine::Color value);
 
-  /// @brief Method get_pressedColor, addr 0x2d52e44, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_pressedColor, addr 0x2d7122c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_pressedColor();
 
-  /// @brief Method set_pressedColor, addr 0x2d52e50, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_pressedColor, addr 0x2d71238, size 0xc, virtual false, abstract: false, final false
   inline void set_pressedColor(::UnityEngine::Color value);
 
-  /// @brief Method get_selectedColor, addr 0x2d52e5c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_selectedColor, addr 0x2d71244, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_selectedColor();
 
-  /// @brief Method set_selectedColor, addr 0x2d52e68, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_selectedColor, addr 0x2d71250, size 0xc, virtual false, abstract: false, final false
   inline void set_selectedColor(::UnityEngine::Color value);
 
-  /// @brief Method get_disabledColor, addr 0x2d52e74, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_disabledColor, addr 0x2d7125c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_disabledColor();
 
-  /// @brief Method set_disabledColor, addr 0x2d52e80, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_disabledColor, addr 0x2d71268, size 0xc, virtual false, abstract: false, final false
   inline void set_disabledColor(::UnityEngine::Color value);
 
-  /// @brief Method get_colorMultiplier, addr 0x2d52e8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorMultiplier, addr 0x2d71274, size 0x8, virtual false, abstract: false, final false
   inline float_t get_colorMultiplier();
 
-  /// @brief Method set_colorMultiplier, addr 0x2d52e94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_colorMultiplier, addr 0x2d7127c, size 0x8, virtual false, abstract: false, final false
   inline void set_colorMultiplier(float_t value);
 
-  /// @brief Method get_fadeDuration, addr 0x2d52e9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fadeDuration, addr 0x2d71284, size 0x8, virtual false, abstract: false, final false
   inline float_t get_fadeDuration();
 
-  /// @brief Method set_fadeDuration, addr 0x2d52ea4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_fadeDuration, addr 0x2d7128c, size 0x8, virtual false, abstract: false, final false
   inline void set_fadeDuration(float_t value);
 
-  /// @brief Method Equals, addr 0x2d52f28, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2d71310, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x2d52fb8, size 0x124, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2d713a0, size 0x124, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UI::ColorBlock other);
 
-  /// @brief Method op_Equality, addr 0x2d530dc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x2d714c4, size 0x34, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UI::ColorBlock point1, ::UnityEngine::UI::ColorBlock point2);
 
-  /// @brief Method op_Inequality, addr 0x2d53110, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x2d714f8, size 0x38, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::UI::ColorBlock point1, ::UnityEngine::UI::ColorBlock point2);
 
-  /// @brief Method GetHashCode, addr 0x2d53148, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2d71530, size 0x6c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "m_NormalColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "m_HighlightedColor", ty: "::UnityEngine::Color", modifiers: "",

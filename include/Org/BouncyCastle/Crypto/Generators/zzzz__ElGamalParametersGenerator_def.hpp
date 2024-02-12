@@ -54,15 +54,15 @@ public:
 
   constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method Init, addr 0xefa598, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0xf25428, size 0xc, virtual false, abstract: false, final false
   inline void Init(int32_t size, int32_t certainty, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method GenerateParameters, addr 0xefa5a4, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GenerateParameters, addr 0xf25434, size 0xdc, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* GenerateParameters();
 
   static inline ::Org::BouncyCastle::Crypto::Generators::ElGamalParametersGenerator* New_ctor();
 
-  /// @brief Method .ctor, addr 0xefa680, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf25510, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ElGamalParametersGenerator", modifiers: "&&", def_value: None }]

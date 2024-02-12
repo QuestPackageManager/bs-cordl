@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::System::Diagnostics::StackFrame);
 namespace System::Diagnostics {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3739))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3737))
 // CS Name: ::System.Diagnostics::StackFrame*
 class CORDL_TYPE StackFrame : public ::System::Object {
 public:
@@ -107,48 +107,48 @@ public:
 
   constexpr void __cordl_internal_set_internalMethodName(::StringW value);
 
-  /// @brief Method get_frame_info, addr 0x2579ef4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_frame_info, addr 0x259cde4, size 0x8, virtual false, abstract: false, final false
   static inline bool get_frame_info(int32_t skip, bool needFileInfo, ByRef<::System::Reflection::MethodBase*> method, ByRef<int32_t> iloffset, ByRef<int32_t> native_offset, ByRef<::StringW> file,
                                     ByRef<int32_t> line, ByRef<int32_t> column);
 
   static inline ::System::Diagnostics::StackFrame* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2579efc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x259cdec, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Diagnostics::StackFrame* New_ctor(int32_t skipFrames, bool fNeedFileInfo);
 
-  /// @brief Method .ctor, addr 0x2579f4c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x259ce3c, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(int32_t skipFrames, bool fNeedFileInfo);
 
-  /// @brief Method GetFileLineNumber, addr 0x2579fac, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetFileLineNumber, addr 0x259ce9c, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetFileLineNumber();
 
-  /// @brief Method GetFileName, addr 0x2579fb4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetFileName, addr 0x259cea4, size 0x8, virtual true, abstract: false, final false
   inline ::StringW GetFileName();
 
-  /// @brief Method GetSecureFileName, addr 0x2579fbc, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method GetSecureFileName, addr 0x259ceac, size 0xd4, virtual false, abstract: false, final false
   inline ::StringW GetSecureFileName();
 
-  /// @brief Method GetILOffset, addr 0x257a090, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetILOffset, addr 0x259cf80, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetILOffset();
 
-  /// @brief Method GetMethod, addr 0x257a098, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetMethod, addr 0x259cf88, size 0x8, virtual true, abstract: false, final false
   inline ::System::Reflection::MethodBase* GetMethod();
 
-  /// @brief Method GetNativeOffset, addr 0x257a0a0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetNativeOffset, addr 0x259cf90, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetNativeOffset();
 
-  /// @brief Method GetMethodAddress, addr 0x257a0a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetMethodAddress, addr 0x259cf98, size 0x8, virtual false, abstract: false, final false
   inline int64_t GetMethodAddress();
 
-  /// @brief Method GetMethodIndex, addr 0x257a0b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetMethodIndex, addr 0x259cfa0, size 0x8, virtual false, abstract: false, final false
   inline uint32_t GetMethodIndex();
 
-  /// @brief Method GetInternalMethodName, addr 0x257a0b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetInternalMethodName, addr 0x259cfa8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW GetInternalMethodName();
 
-  /// @brief Method ToString, addr 0x257a0c0, size 0x23c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x259cfb0, size 0x23c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "StackFrame", modifiers: "&&", def_value: None }]

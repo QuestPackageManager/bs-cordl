@@ -31,15 +31,15 @@ MARK_REF_PTR_T(::UnityEngine::Playables::ScriptPlayableBinding);
 namespace UnityEngine::Playables {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10432))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9200))
 // CS Name: ::UnityEngine.Playables::ScriptPlayableBinding*
 class CORDL_TYPE ScriptPlayableBinding : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x2cf6140, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2d00e1c, size 0xbc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableBinding Create(::StringW name, ::UnityEngine::Object* key, ::System::Type* type);
 
-  /// @brief Method CreateScriptOutput, addr 0x2cf61fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CreateScriptOutput, addr 0x2d00ed8, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableOutput CreateScriptOutput(::UnityEngine::Playables::PlayableGraph graph, ::StringW name);
 
   // Ctor Parameters [CppParam { name: "", ty: "ScriptPlayableBinding", modifiers: "&&", def_value: None }]

@@ -29,12 +29,12 @@ namespace Org::BouncyCastle::Pkix {
 class CORDL_TYPE PkixAttrCertPathValidator : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Validate, addr 0x10ebc04, size 0x3cc, virtual true, abstract: false, final false
+  /// @brief Method Validate, addr 0x1119a94, size 0x3cc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult* Validate(::Org::BouncyCastle::Pkix::PkixCertPath* certPath, ::Org::BouncyCastle::Pkix::PkixParameters* pkixParams);
 
   static inline ::Org::BouncyCastle::Pkix::PkixAttrCertPathValidator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10eb2a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1119134, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PkixAttrCertPathValidator", modifiers: "&&", def_value: None }]

@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::System::Globalization::EraInfo);
 namespace System::Globalization {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3699))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3697))
 // CS Name: ::System.Globalization::EraInfo*
 class CORDL_TYPE EraInfo : public ::System::Object {
 public:
@@ -96,13 +96,13 @@ public:
 
   static inline ::System::Globalization::EraInfo* New_ctor(int32_t era, int32_t startYear, int32_t startMonth, int32_t startDay, int32_t yearOffset, int32_t minEraYear, int32_t maxEraYear);
 
-  /// @brief Method .ctor, addr 0x256274c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2585394, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(int32_t era, int32_t startYear, int32_t startMonth, int32_t startDay, int32_t yearOffset, int32_t minEraYear, int32_t maxEraYear);
 
   static inline ::System::Globalization::EraInfo* New_ctor(int32_t era, int32_t startYear, int32_t startMonth, int32_t startDay, int32_t yearOffset, int32_t minEraYear, int32_t maxEraYear,
                                                            ::StringW eraName, ::StringW abbrevEraName, ::StringW englishEraName);
 
-  /// @brief Method .ctor, addr 0x25627e8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2585430, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(int32_t era, int32_t startYear, int32_t startMonth, int32_t startDay, int32_t yearOffset, int32_t minEraYear, int32_t maxEraYear, ::StringW eraName, ::StringW abbrevEraName,
                     ::StringW englishEraName);
 

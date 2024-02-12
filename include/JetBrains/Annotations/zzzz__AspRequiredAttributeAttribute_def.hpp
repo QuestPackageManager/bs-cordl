@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::JetBrains::Annotations::AspRequiredAttributeAttribute);
 namespace JetBrains::Annotations {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15799))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15949))
 // CS Name: ::JetBrains.Annotations::AspRequiredAttributeAttribute*
 class CORDL_TYPE AspRequiredAttributeAttribute : public ::System::Attribute {
 public:
@@ -34,13 +34,13 @@ public:
 
   static inline ::JetBrains::Annotations::AspRequiredAttributeAttribute* New_ctor(::StringW attribute);
 
-  /// @brief Method .ctor, addr 0x2eba7f0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ed6938, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW attribute);
 
-  /// @brief Method get_Attribute, addr 0x2eba818, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Attribute, addr 0x2ed6960, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Attribute();
 
-  /// @brief Method set_Attribute, addr 0x2eba820, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Attribute, addr 0x2ed6968, size 0x8, virtual false, abstract: false, final false
   inline void set_Attribute(::StringW value);
 
   // Ctor Parameters [CppParam { name: "", ty: "AspRequiredAttributeAttribute", modifiers: "&&", def_value: None }]

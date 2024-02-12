@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::TransformUtility);
 namespace UnityEngine::ProBuilder {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12208))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12106))
 // CS Name: ::UnityEngine.ProBuilder::TransformUtility*
 class CORDL_TYPE TransformUtility : public ::System::Object {
 public:
@@ -40,16 +40,16 @@ public:
   static inline ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Transform>, ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>>*
   getStaticF_s_ChildStack();
 
-  /// @brief Method UnparentChildren, addr 0x2b7c2e4, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method UnparentChildren, addr 0x2b7ae50, size 0x150, virtual false, abstract: false, final false
   static inline void UnparentChildren(::UnityEngine::Transform* t);
 
-  /// @brief Method ReparentChildren, addr 0x2b7c434, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method ReparentChildren, addr 0x2b7afa0, size 0x128, virtual false, abstract: false, final false
   static inline void ReparentChildren(::UnityEngine::Transform* t);
 
-  /// @brief Method TransformVertex, addr 0x2b7c55c, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method TransformVertex, addr 0x2b7b0c8, size 0x1e4, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Vertex* TransformVertex(::UnityEngine::Transform* transform, ::UnityEngine::ProBuilder::Vertex* vertex);
 
-  /// @brief Method InverseTransformVertex, addr 0x2b7c740, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method InverseTransformVertex, addr 0x2b7b2ac, size 0x1dc, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Vertex* InverseTransformVertex(::UnityEngine::Transform* transform, ::UnityEngine::ProBuilder::Vertex* vertex);
 
   // Ctor Parameters [CppParam { name: "", ty: "TransformUtility", modifiers: "&&", def_value: None }]

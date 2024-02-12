@@ -14,6 +14,9 @@ namespace GlobalNamespace {
 class ILevelGameplaySetupData;
 }
 namespace GlobalNamespace {
+class ILobbyGameStateControllerBase;
+}
+namespace GlobalNamespace {
 class MultiplayerLevelScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
@@ -51,7 +54,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ILobbyGameStateController);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4490))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4481))
 // CS Name: ::ILobbyGameStateController*
 class CORDL_TYPE ILobbyGameStateController {
 public:
@@ -75,6 +78,12 @@ public:
   __declspec(property(get = get_isDisconnected)) bool isDisconnected;
 
   __declspec(property(get = get_disconnectedReason))::GlobalNamespace::DisconnectedReason disconnectedReason;
+
+  /// @brief Convert operator to "::GlobalNamespace::ILobbyGameStateControllerBase"
+  constexpr operator ::GlobalNamespace::ILobbyGameStateControllerBase*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::ILobbyGameStateControllerBase"
+  constexpr ::GlobalNamespace::ILobbyGameStateControllerBase* i___GlobalNamespace__ILobbyGameStateControllerBase() noexcept;
 
   /// @brief Method add_selectedLevelGameplaySetupDataChangedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void add_selectedLevelGameplaySetupDataChangedEvent(::System::Action_1<::GlobalNamespace::ILevelGameplaySetupData*>* value);
@@ -192,12 +201,6 @@ public:
 
   /// @brief Method get_disconnectedReason, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::DisconnectedReason get_disconnectedReason();
-
-  /// @brief Method Activate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void Activate();
-
-  /// @brief Method Deactivate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void Deactivate();
 
   /// @brief Method StartListeningToGameStart, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void StartListeningToGameStart();

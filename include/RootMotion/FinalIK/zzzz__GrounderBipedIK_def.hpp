@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::GrounderBipedIK);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(12518))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12519))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(12416))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12417))
 // CS Name: ::RootMotion.FinalIK::GrounderBipedIK*
 class CORDL_TYPE GrounderBipedIK : public ::RootMotion::FinalIK::Grounder {
 public:
@@ -117,42 +117,42 @@ public:
 
   constexpr void __cordl_internal_set_lastWeight(float_t value);
 
-  /// @brief Method OpenUserManual, addr 0x12448b0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method OpenUserManual, addr 0x12df960, size 0x44, virtual true, abstract: false, final false
   inline void OpenUserManual();
 
-  /// @brief Method OpenScriptReference, addr 0x12448f4, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method OpenScriptReference, addr 0x12df9a4, size 0x44, virtual true, abstract: false, final false
   inline void OpenScriptReference();
 
-  /// @brief Method ResetPosition, addr 0x1244938, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method ResetPosition, addr 0x12df9e8, size 0x6c, virtual true, abstract: false, final false
   inline void ResetPosition();
 
-  /// @brief Method IsReadyToInitiate, addr 0x12449a4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method IsReadyToInitiate, addr 0x12dfa54, size 0xa0, virtual false, abstract: false, final false
   inline bool IsReadyToInitiate();
 
-  /// @brief Method Update, addr 0x1244a44, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x12dfaf4, size 0x54, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method Initiate, addr 0x1244a98, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method Initiate, addr 0x12dfb48, size 0x304, virtual false, abstract: false, final false
   inline void Initiate();
 
-  /// @brief Method OnDisable, addr 0x1244d9c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x12dfe4c, size 0x40, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnSolverUpdate, addr 0x1244ddc, size 0x460, virtual false, abstract: false, final false
+  /// @brief Method OnSolverUpdate, addr 0x12dfe8c, size 0x460, virtual false, abstract: false, final false
   inline void OnSolverUpdate();
 
-  /// @brief Method SetLegIK, addr 0x124523c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method SetLegIK, addr 0x12e02ec, size 0xc0, virtual false, abstract: false, final false
   inline void SetLegIK(::RootMotion::FinalIK::IKSolverLimb* limb, int32_t index);
 
-  /// @brief Method OnPostSolverUpdate, addr 0x12452fc, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method OnPostSolverUpdate, addr 0x12e03ac, size 0x1d0, virtual false, abstract: false, final false
   inline void OnPostSolverUpdate();
 
-  /// @brief Method OnDestroy, addr 0x12454cc, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x12e057c, size 0x1a8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   static inline ::RootMotion::FinalIK::GrounderBipedIK* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1245674, size 0x108c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12e0724, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GrounderBipedIK", modifiers: "&&", def_value: None }]

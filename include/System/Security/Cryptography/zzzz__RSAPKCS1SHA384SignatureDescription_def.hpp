@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::System::Security::Cryptography::RSAPKCS1SHA384SignatureDescription* New_ctor();
 
-  /// @brief Method .ctor, addr 0x246a1d4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x248c248, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RSAPKCS1SHA384SignatureDescription", modifiers: "&&", def_value: None }]

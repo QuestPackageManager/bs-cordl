@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::InstancePro
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14000))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14013))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::InstanceProvider*
 class CORDL_TYPE InstanceProvider : public ::System::Object {
 public:
@@ -60,17 +60,17 @@ public:
       ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::GameObject>,
                                                    ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>>>* value);
 
-  /// @brief Method ProvideInstance, addr 0x2bd6e28, size 0xd8, virtual true, abstract: false, final true
+  /// @brief Method ProvideInstance, addr 0x2bd4994, size 0xd8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::GameObject> ProvideInstance(::UnityEngine::ResourceManagement::ResourceManager* resourceManager,
                                                              ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>> prefabHandle,
                                                              ::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters instantiateParameters);
 
-  /// @brief Method ReleaseInstance, addr 0x2bd6f00, size 0x218, virtual true, abstract: false, final true
+  /// @brief Method ReleaseInstance, addr 0x2bd4a6c, size 0x218, virtual true, abstract: false, final true
   inline void ReleaseInstance(::UnityEngine::ResourceManagement::ResourceManager* resourceManager, ::UnityEngine::GameObject* instance);
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::InstanceProvider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2bd7118, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bd4c84, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "InstanceProvider", modifiers: "&&", def_value: None }]

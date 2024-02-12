@@ -55,7 +55,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__CreditsController___ScrollCoroutine_d__13);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5471))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4774))
 // CS Name: ::CreditsController::<ScrollCoroutine>d__13*
 class CORDL_TYPE __CreditsController___ScrollCoroutine_d__13 : public ::System::Object {
 public:
@@ -147,22 +147,22 @@ public:
 
   static inline ::GlobalNamespace::__CreditsController___ScrollCoroutine_d__13* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor, addr 0x22830a4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23ded04, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x2283108, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x23dee20, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext, addr 0x228310c, size 0x26c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x23dee24, size 0x26c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2283378, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x23df090, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2283380, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x23df098, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x22833c0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x23df0d8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__CreditsController___ScrollCoroutine_d__13", modifiers: "&&", def_value: None }]
@@ -224,8 +224,8 @@ static_assert(offsetof(::GlobalNamespace::__CreditsController___ScrollCoroutine_
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 90, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5472))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4775))
 // CS Name: ::CreditsController*
 class CORDL_TYPE CreditsController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -323,27 +323,39 @@ public:
 
   constexpr void __cordl_internal_set__isPaused(bool value);
 
-  /// @brief Method Start, addr 0x22829f8, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x23de2b0, size 0x3d4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy, addr 0x2282d2c, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x23de71c, size 0x2ec, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Finish, addr 0x2282ee0, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method Finish, addr 0x23dea08, size 0x2fc, virtual false, abstract: false, final false
   inline void Finish();
 
-  /// @brief Method ScrollCoroutine, addr 0x2282cc4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ScrollCoroutine, addr 0x23de6b4, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* ScrollCoroutine();
 
-  /// @brief Method HandleInputFocusCaptured, addr 0x2282c94, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method HandleInputFocusCaptured, addr 0x23de684, size 0x30, virtual false, abstract: false, final false
   inline void HandleInputFocusCaptured();
 
-  /// @brief Method HandleInputFocusReleased, addr 0x22830cc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method HandleInputFocusReleased, addr 0x23ded5c, size 0x2c, virtual false, abstract: false, final false
   inline void HandleInputFocusReleased();
+
+  /// @brief Method HandleHmdMounted, addr 0x23dedb4, size 0x2c, virtual false, abstract: false, final false
+  inline void HandleHmdMounted();
+
+  /// @brief Method HandleHmdUnmounted, addr 0x23dede0, size 0x30, virtual false, abstract: false, final false
+  inline void HandleHmdUnmounted();
+
+  /// @brief Method PauseCredits, addr 0x23ded2c, size 0x30, virtual false, abstract: false, final false
+  inline void PauseCredits();
+
+  /// @brief Method UnpauseCredits, addr 0x23ded88, size 0x2c, virtual false, abstract: false, final false
+  inline void UnpauseCredits();
 
   static inline ::GlobalNamespace::CreditsController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22830f8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23dee10, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CreditsController", modifiers: "&&", def_value: None }]

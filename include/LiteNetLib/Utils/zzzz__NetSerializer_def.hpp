@@ -245,7 +245,7 @@ namespace LiteNetLib::Utils {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14209))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14222))
 // CS Name: ::NetSerializer::FastCall`1<T>*
 class CORDL_TYPE __NetSerializer__FastCall_1 : public ::System::Object {
 public:
@@ -306,8 +306,8 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename TClass, typename TProperty>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14209)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14209), inst: 1974 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14210))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14222)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14222), inst: 1932 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14223))
 // CS Name: ::NetSerializer::FastCallSpecific`2<TClass,TProperty>*
 class CORDL_TYPE __NetSerializer__FastCallSpecific_2 : public ::LiteNetLib::Utils::__NetSerializer__FastCall_1<TClass> {
 public:
@@ -398,8 +398,8 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename TClass, typename TProperty>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14210)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14210), inst: 1957 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14211))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14223)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14223), inst: 1915 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14224))
 // CS Name: ::NetSerializer::FastCallSpecificAuto`2<TClass,TProperty>*
 class CORDL_TYPE __NetSerializer__FastCallSpecificAuto_2 : public ::LiteNetLib::Utils::__NetSerializer__FastCallSpecific_2<TClass, TProperty> {
 public:
@@ -451,8 +451,8 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename TClass, typename TProperty>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14210)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14210), inst: 1958 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14212))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14223)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14223), inst: 1916 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14225))
 // CS Name: ::NetSerializer::FastCallStatic`2<TClass,TProperty>*
 class CORDL_TYPE __NetSerializer__FastCallStatic_2 : public ::LiteNetLib::Utils::__NetSerializer__FastCallSpecific_2<TClass, TProperty> {
 public:
@@ -523,8 +523,8 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename TClass, typename TProperty>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14210)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14210), inst: 1959 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14213))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14223)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14223), inst: 1917 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14226))
 // CS Name: ::NetSerializer::FastCallStruct`2<TClass,TProperty>*
 class CORDL_TYPE __NetSerializer__FastCallStruct_2 : public ::LiteNetLib::Utils::__NetSerializer__FastCallSpecific_2<TClass, TProperty> {
 public:
@@ -582,8 +582,8 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename TClass, typename TProperty>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14210)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14210), inst: 1956 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14214))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14223)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14223), inst: 1914 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14227))
 // CS Name: ::NetSerializer::FastCallClass`2<TClass,TProperty>*
 class CORDL_TYPE __NetSerializer__FastCallClass_2 : public ::LiteNetLib::Utils::__NetSerializer__FastCallSpecific_2<TClass, TProperty> {
 public:
@@ -641,8 +641,8 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14210)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14210), inst: 1961 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14215))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14223)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14223), inst: 1919 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14228))
 // CS Name: ::NetSerializer::IntSerializer`1<T>*
 class CORDL_TYPE __NetSerializer__IntSerializer_1 : public ::LiteNetLib::Utils::__NetSerializer__FastCallSpecific_2<T, int32_t> {
 public:
@@ -688,8 +688,8 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14210)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14210), inst: 1966 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14216))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14223)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14223), inst: 1924 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14229))
 // CS Name: ::NetSerializer::UIntSerializer`1<T>*
 class CORDL_TYPE __NetSerializer__UIntSerializer_1 : public ::LiteNetLib::Utils::__NetSerializer__FastCallSpecific_2<T, uint32_t> {
 public:
@@ -735,8 +735,8 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14210)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14210), inst: 1964 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14217))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14223)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14223), inst: 1922 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14230))
 // CS Name: ::NetSerializer::ShortSerializer`1<T>*
 class CORDL_TYPE __NetSerializer__ShortSerializer_1 : public ::LiteNetLib::Utils::__NetSerializer__FastCallSpecific_2<T, int16_t> {
 public:
@@ -782,8 +782,8 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14210)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14210), inst: 1968 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14218))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14223)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14223), inst: 1926 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14231))
 // CS Name: ::NetSerializer::UShortSerializer`1<T>*
 class CORDL_TYPE __NetSerializer__UShortSerializer_1 : public ::LiteNetLib::Utils::__NetSerializer__FastCallSpecific_2<T, uint16_t> {
 public:
@@ -829,8 +829,8 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14210)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14210), inst: 1962 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14219))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14223)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14223), inst: 1920 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14232))
 // CS Name: ::NetSerializer::LongSerializer`1<T>*
 class CORDL_TYPE __NetSerializer__LongSerializer_1 : public ::LiteNetLib::Utils::__NetSerializer__FastCallSpecific_2<T, int64_t> {
 public:
@@ -876,8 +876,8 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14210)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14210), inst: 1967 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14220))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14223)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14223), inst: 1925 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14233))
 // CS Name: ::NetSerializer::ULongSerializer`1<T>*
 class CORDL_TYPE __NetSerializer__ULongSerializer_1 : public ::LiteNetLib::Utils::__NetSerializer__FastCallSpecific_2<T, uint64_t> {
 public:
@@ -923,8 +923,8 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14210)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14210), inst: 1954 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14221))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14223)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14223), inst: 1912 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14234))
 // CS Name: ::NetSerializer::ByteSerializer`1<T>*
 class CORDL_TYPE __NetSerializer__ByteSerializer_1 : public ::LiteNetLib::Utils::__NetSerializer__FastCallSpecific_2<T, uint8_t> {
 public:
@@ -970,8 +970,8 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14210)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14210), inst: 1963 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14222))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14223)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14223), inst: 1921 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14235))
 // CS Name: ::NetSerializer::SByteSerializer`1<T>*
 class CORDL_TYPE __NetSerializer__SByteSerializer_1 : public ::LiteNetLib::Utils::__NetSerializer__FastCallSpecific_2<T, int8_t> {
 public:
@@ -1017,8 +1017,8 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14210)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14210), inst: 1960 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14223))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14223)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14223), inst: 1918 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14236))
 // CS Name: ::NetSerializer::FloatSerializer`1<T>*
 class CORDL_TYPE __NetSerializer__FloatSerializer_1 : public ::LiteNetLib::Utils::__NetSerializer__FastCallSpecific_2<T, float_t> {
 public:
@@ -1064,8 +1064,8 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14210)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14210), inst: 1955 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14224))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14223)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14223), inst: 1913 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14237))
 // CS Name: ::NetSerializer::DoubleSerializer`1<T>*
 class CORDL_TYPE __NetSerializer__DoubleSerializer_1 : public ::LiteNetLib::Utils::__NetSerializer__FastCallSpecific_2<T, double_t> {
 public:
@@ -1111,8 +1111,8 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14210)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14210), inst: 1953 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14225))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14223)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14223), inst: 1911 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14238))
 // CS Name: ::NetSerializer::BoolSerializer`1<T>*
 class CORDL_TYPE __NetSerializer__BoolSerializer_1 : public ::LiteNetLib::Utils::__NetSerializer__FastCallSpecific_2<T, bool> {
 public:
@@ -1158,8 +1158,8 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14211)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14211), inst: 1951 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14226))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14224)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14224), inst: 1909 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14239))
 // CS Name: ::NetSerializer::CharSerializer`1<T>*
 class CORDL_TYPE __NetSerializer__CharSerializer_1 : public ::LiteNetLib::Utils::__NetSerializer__FastCallSpecificAuto_2<T, char16_t> {
 public:
@@ -1199,8 +1199,8 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9032)), TypeDefinitionIndex(TypeDefinitionIndex(14211)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14211), inst:
-// 1952 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14227)) CS Name: ::NetSerializer::IPEndPointSerializer`1<T>*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7042)), TypeDefinitionIndex(TypeDefinitionIndex(14224)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14224), inst:
+// 1910 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14240)) CS Name: ::NetSerializer::IPEndPointSerializer`1<T>*
 class CORDL_TYPE __NetSerializer__IPEndPointSerializer_1 : public ::LiteNetLib::Utils::__NetSerializer__FastCallSpecificAuto_2<T, ::System::Net::IPEndPoint*> {
 public:
   // Declarations
@@ -1239,8 +1239,8 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14210)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14210), inst: 1965 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14228))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14223)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14223), inst: 1923 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14241))
 // CS Name: ::NetSerializer::StringSerializer`1<T>*
 class CORDL_TYPE __NetSerializer__StringSerializer_1 : public ::LiteNetLib::Utils::__NetSerializer__FastCallSpecific_2<T, ::StringW> {
 public:
@@ -1298,8 +1298,8 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14209)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14209), inst: 1973 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14229))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14222)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14222), inst: 1931 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14242))
 // CS Name: ::NetSerializer::EnumByteSerializer`1<T>*
 class CORDL_TYPE __NetSerializer__EnumByteSerializer_1 : public ::LiteNetLib::Utils::__NetSerializer__FastCall_1<T> {
 public:
@@ -1363,8 +1363,8 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14229)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14229), inst: 1671 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14230))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14242)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14242), inst: 1628 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14243))
 // CS Name: ::NetSerializer::EnumIntSerializer`1<T>*
 class CORDL_TYPE __NetSerializer__EnumIntSerializer_1 : public ::LiteNetLib::Utils::__NetSerializer__EnumByteSerializer_1<T> {
 public:
@@ -1405,7 +1405,7 @@ namespace LiteNetLib::Utils {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14231))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14244))
 // CS Name: ::NetSerializer::ClassInfo`1<T>*
 class CORDL_TYPE __NetSerializer__ClassInfo_1 : public ::System::Object {
 public:
@@ -1477,7 +1477,7 @@ public:
 namespace LiteNetLib::Utils {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14232))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14245))
 // CS Name: ::NetSerializer::CustomType*
 class CORDL_TYPE __NetSerializer__CustomType : public ::System::Object {
 public:
@@ -1487,7 +1487,7 @@ public:
 
   static inline ::LiteNetLib::Utils::__NetSerializer__CustomType* New_ctor();
 
-  /// @brief Method .ctor, addr 0x220bccc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22a15b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__NetSerializer__CustomType", modifiers: "&&", def_value: None }]
@@ -1516,8 +1516,8 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename TProperty>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14232))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14233))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14245))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14246))
 // CS Name: ::NetSerializer::CustomTypeStruct`1<TProperty>*
 class CORDL_TYPE __NetSerializer__CustomTypeStruct_1 : public ::LiteNetLib::Utils::__NetSerializer__CustomType {
 public:
@@ -1554,8 +1554,8 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename TProperty>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14232))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14234))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14245))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14247))
 // CS Name: ::NetSerializer::CustomTypeClass`1<TProperty>*
 class CORDL_TYPE __NetSerializer__CustomTypeClass_1 : public ::LiteNetLib::Utils::__NetSerializer__CustomType {
 public:
@@ -1604,8 +1604,8 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename TProperty>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14232))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14235))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14245))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14248))
 // CS Name: ::NetSerializer::CustomTypeStatic`1<TProperty>*
 class CORDL_TYPE __NetSerializer__CustomTypeStatic_1 : public ::LiteNetLib::Utils::__NetSerializer__CustomType {
 public:
@@ -1666,7 +1666,7 @@ public:
 namespace LiteNetLib::Utils {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14236))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14249))
 // CS Name: ::LiteNetLib.Utils::NetSerializer*
 class CORDL_TYPE NetSerializer : public ::System::Object {
 public:
@@ -1765,12 +1765,12 @@ public:
 
   static inline ::LiteNetLib::Utils::NetSerializer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x220b7a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22a108c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::LiteNetLib::Utils::NetSerializer* New_ctor(int32_t maxStringLength);
 
-  /// @brief Method .ctor, addr 0x220b898, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22a1180, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(int32_t maxStringLength);
 
   /// @brief Method RegisterInternal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::UnityEngine::TextCore::Text::MaterialManager);
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13696))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13649))
 // CS Name: ::UnityEngine.TextCore.Text::MaterialManager*
 class CORDL_TYPE MaterialManager : public ::System::Object {
 public:
@@ -38,10 +38,10 @@ public:
 
   static inline ::System::Collections::Generic::Dictionary_2<int64_t, ::UnityW<::UnityEngine::Material>>* getStaticF_s_FallbackMaterials();
 
-  /// @brief Method GetFallbackMaterial, addr 0x2d42abc, size 0x360, virtual false, abstract: false, final false
+  /// @brief Method GetFallbackMaterial, addr 0x2d62564, size 0x360, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> GetFallbackMaterial(::UnityEngine::Material* sourceMaterial, ::UnityEngine::Material* targetMaterial);
 
-  /// @brief Method GetFallbackMaterial, addr 0x2d42e1c, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method GetFallbackMaterial, addr 0x2d628c4, size 0x1d0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> GetFallbackMaterial(::UnityEngine::TextCore::Text::FontAsset* fontAsset, ::UnityEngine::Material* sourceMaterial, int32_t atlasIndex);
 
   // Ctor Parameters [CppParam { name: "", ty: "MaterialManager", modifiers: "&&", def_value: None }]

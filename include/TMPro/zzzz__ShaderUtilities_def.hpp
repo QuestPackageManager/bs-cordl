@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::TMPro::ShaderUtilities);
 namespace TMPro {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12416))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12314))
 // CS Name: ::TMPro::ShaderUtilities*
 class CORDL_TYPE ShaderUtilities : public ::System::Object {
 public:
@@ -509,28 +509,28 @@ public:
 
   static inline ::UnityW<::UnityEngine::Shader> getStaticF_k_ShaderRef_MobileBitmap();
 
-  /// @brief Method get_ShaderRef_MobileSDF, addr 0x2c40648, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_ShaderRef_MobileSDF, addr 0x2c3e1b4, size 0xfc, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Shader> get_ShaderRef_MobileSDF();
 
-  /// @brief Method get_ShaderRef_MobileBitmap, addr 0x2c40744, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_ShaderRef_MobileBitmap, addr 0x2c3e2b0, size 0xfc, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Shader> get_ShaderRef_MobileBitmap();
 
-  /// @brief Method GetShaderPropertyIDs, addr 0x2c39ed0, size 0xaec, virtual false, abstract: false, final false
+  /// @brief Method GetShaderPropertyIDs, addr 0x2c37a3c, size 0xaec, virtual false, abstract: false, final false
   static inline void GetShaderPropertyIDs();
 
-  /// @brief Method UpdateShaderRatios, addr 0x2c409d0, size 0x45c, virtual false, abstract: false, final false
+  /// @brief Method UpdateShaderRatios, addr 0x2c3e53c, size 0x45c, virtual false, abstract: false, final false
   static inline void UpdateShaderRatios(::UnityEngine::Material* mat);
 
-  /// @brief Method GetFontExtent, addr 0x2c40e2c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetFontExtent, addr 0x2c3e998, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector4 GetFontExtent(::UnityEngine::Material* material);
 
-  /// @brief Method IsMaskingEnabled, addr 0x2c40e70, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method IsMaskingEnabled, addr 0x2c3e9dc, size 0x19c, virtual false, abstract: false, final false
   static inline bool IsMaskingEnabled(::UnityEngine::Material* material);
 
-  /// @brief Method GetPadding, addr 0x2c4100c, size 0x6a8, virtual false, abstract: false, final false
+  /// @brief Method GetPadding, addr 0x2c3eb78, size 0x6a8, virtual false, abstract: false, final false
   static inline float_t GetPadding(::UnityEngine::Material* material, bool enableExtraPadding, bool isBold);
 
-  /// @brief Method GetPadding, addr 0x2c416b4, size 0x880, virtual false, abstract: false, final false
+  /// @brief Method GetPadding, addr 0x2c3f220, size 0x880, virtual false, abstract: false, final false
   static inline float_t GetPadding(::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> materials, bool enableExtraPadding, bool isBold);
 
   // Ctor Parameters [CppParam { name: "", ty: "ShaderUtilities", modifiers: "&&", def_value: None }]

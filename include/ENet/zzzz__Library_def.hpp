@@ -19,27 +19,27 @@ MARK_REF_PTR_T(::ENet::Library);
 namespace ENet {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15236))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15349))
 // CS Name: ::ENet::Library*
 class CORDL_TYPE Library : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_Time, addr 0x21f3b64, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_Time, addr 0x228944c, size 0x4, virtual false, abstract: false, final false
   static inline uint32_t get_Time();
 
-  /// @brief Method InitOpenSSL, addr 0x21f3bd0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method InitOpenSSL, addr 0x22894b8, size 0x64, virtual false, abstract: false, final false
   static inline void InitOpenSSL();
 
-  /// @brief Method Initialize, addr 0x21f3d38, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x2289620, size 0x7c, virtual false, abstract: false, final false
   static inline bool Initialize();
 
-  /// @brief Method Initialize, addr 0x21f3e84, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x228976c, size 0xf0, virtual false, abstract: false, final false
   static inline bool Initialize(::ENet::Callbacks* callbacks);
 
-  /// @brief Method Deinitialize, addr 0x21f4038, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Deinitialize, addr 0x2289920, size 0x4, virtual false, abstract: false, final false
   static inline void Deinitialize();
 
-  /// @brief Method CRC64, addr 0x21f40a0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CRC64, addr 0x2289988, size 0x4, virtual false, abstract: false, final false
   static inline uint64_t CRC64(void* buffers, int32_t bufferCount);
 
   // Ctor Parameters [CppParam { name: "", ty: "Library", modifiers: "&&", def_value: None }]

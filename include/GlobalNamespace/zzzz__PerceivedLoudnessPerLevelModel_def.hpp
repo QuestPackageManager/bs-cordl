@@ -7,10 +7,16 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(PerceivedLoudnessPerLevelModel)
 namespace GlobalNamespace {
-class PerceivedLoudnessPerLevelSO;
+class PerceivedLoudnessSO;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System {
+template <typename T> struct Nullable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -23,7 +29,7 @@ MARK_REF_PTR_T(::GlobalNamespace::PerceivedLoudnessPerLevelModel);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4418))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10841))
 // CS Name: ::PerceivedLoudnessPerLevelModel*
 class CORDL_TYPE PerceivedLoudnessPerLevelModel : public ::System::Object {
 public:
@@ -38,22 +44,22 @@ public:
 
   constexpr void __cordl_internal_set__loudnessLevelPerLevelId(::System::Collections::Generic::Dictionary_2<::StringW, float_t>* value);
 
-  static inline ::GlobalNamespace::PerceivedLoudnessPerLevelModel* New_ctor(::GlobalNamespace::PerceivedLoudnessPerLevelSO* loudnessPerLeveData);
+  static inline ::GlobalNamespace::PerceivedLoudnessPerLevelModel* New_ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>* loudnessPerLeveDataList);
 
-  /// @brief Method .ctor, addr 0x234d664, size 0xfc, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::PerceivedLoudnessPerLevelSO* loudnessPerLeveData);
+  /// @brief Method .ctor, addr 0x129072c, size 0x600, virtual false, abstract: false, final false
+  inline void _ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>* loudnessPerLeveDataList);
 
-  /// @brief Method ContainsLevelId, addr 0x234d760, size 0x58, virtual false, abstract: false, final false
-  inline bool ContainsLevelId(::StringW levelId);
-
-  /// @brief Method GetLoudnessCorrectionByLevelId, addr 0x234d7b8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetLoudnessCorrectionByLevelId, addr 0x1290d2c, size 0x20, virtual false, abstract: false, final false
   inline float_t GetLoudnessCorrectionByLevelId(::StringW levelId);
 
-  /// @brief Method GetMaxSfxVolumeByLevelId, addr 0x234d854, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetMaxSfxVolumeByLevelId, addr 0x1290dc8, size 0x18, virtual false, abstract: false, final false
   inline float_t GetMaxSfxVolumeByLevelId(::StringW levelId);
 
-  /// @brief Method GetLoudnessByLevelId, addr 0x234d7d8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetLoudnessByLevelId, addr 0x1290d4c, size 0x7c, virtual false, abstract: false, final false
   inline float_t GetLoudnessByLevelId(::StringW levelId);
+
+  /// @brief Method GetLoudnessByLevelIdOrNull, addr 0x1290de0, size 0xa8, virtual false, abstract: false, final false
+  inline ::System::Nullable_1<float_t> GetLoudnessByLevelIdOrNull(::StringW levelId);
 
   // Ctor Parameters [CppParam { name: "", ty: "PerceivedLoudnessPerLevelModel", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

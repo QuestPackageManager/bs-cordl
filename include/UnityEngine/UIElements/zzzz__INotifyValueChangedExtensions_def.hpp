@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::INotifyValueChangedExtensions);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7128))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6387))
 // CS Name: ::UnityEngine.UIElements::INotifyValueChangedExtensions*
 class CORDL_TYPE INotifyValueChangedExtensions : public ::System::Object {
 public:

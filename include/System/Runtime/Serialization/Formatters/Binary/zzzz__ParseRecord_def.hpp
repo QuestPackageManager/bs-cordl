@@ -419,10 +419,10 @@ public:
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::ParseRecord* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24d222c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f32a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Init, addr 0x24d4264, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x24f52d8, size 0x58, virtual false, abstract: false, final false
   inline void Init();
 
   // Ctor Parameters [CppParam { name: "", ty: "ParseRecord", modifiers: "&&", def_value: None }]

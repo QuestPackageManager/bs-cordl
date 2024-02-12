@@ -16,7 +16,7 @@ MARK_VAL_T(::TMPro::CaretPosition);
 namespace TMPro {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12454))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12352))
 // CS Name: ::TMPro::CaretPosition
 struct CORDL_TYPE CaretPosition {
 public:

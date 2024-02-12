@@ -42,7 +42,7 @@ namespace UnityEngine::InputSystem::Utilities {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6704))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5963))
 // CS Name: ::SavedStructState`1::TypedRestore<T>*
 class CORDL_TYPE __SavedStructState_1__TypedRestore : public ::System::MulticastDelegate {
 public:
@@ -86,7 +86,7 @@ namespace UnityEngine::InputSystem::Utilities {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6705))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5964))
 // CS Name: ::UnityEngine.InputSystem.Utilities::SavedStructState`1<T>*
 class CORDL_TYPE SavedStructState_1 : public ::System::Object {
 public:

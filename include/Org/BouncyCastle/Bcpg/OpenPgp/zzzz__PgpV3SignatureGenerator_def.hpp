@@ -114,37 +114,37 @@ public:
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpV3SignatureGenerator* New_ctor(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm,
                                                                                       ::Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm);
 
-  /// @brief Method .ctor, addr 0x10ce600, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10fc490, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm, ::Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm);
 
-  /// @brief Method InitSign, addr 0x10ce6d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InitSign, addr 0x10fc568, size 0x8, virtual false, abstract: false, final false
   inline void InitSign(int32_t sigType, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey* key);
 
-  /// @brief Method InitSign, addr 0x10ce6e0, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method InitSign, addr 0x10fc570, size 0x268, virtual false, abstract: false, final false
   inline void InitSign(int32_t sigType, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey* key, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method Update, addr 0x10ce948, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x10fc7d8, size 0x14, virtual false, abstract: false, final false
   inline void Update(uint8_t b);
 
-  /// @brief Method doCanonicalUpdateByte, addr 0x10ce95c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method doCanonicalUpdateByte, addr 0x10fc7ec, size 0x64, virtual false, abstract: false, final false
   inline void doCanonicalUpdateByte(uint8_t b);
 
-  /// @brief Method doUpdateCRLF, addr 0x10ceae8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method doUpdateCRLF, addr 0x10fc978, size 0x20, virtual false, abstract: false, final false
   inline void doUpdateCRLF();
 
-  /// @brief Method doUpdateByte, addr 0x10ce9c0, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method doUpdateByte, addr 0x10fc850, size 0x128, virtual false, abstract: false, final false
   inline void doUpdateByte(uint8_t b);
 
-  /// @brief Method Update, addr 0x10ceb08, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x10fc998, size 0x1a4, virtual false, abstract: false, final false
   inline void Update(::ArrayW<uint8_t, ::Array<uint8_t>*> b);
 
-  /// @brief Method Update, addr 0x10cecac, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x10fcb3c, size 0x198, virtual false, abstract: false, final false
   inline void Update(::ArrayW<uint8_t, ::Array<uint8_t>*> b, int32_t off, int32_t len);
 
-  /// @brief Method GenerateOnePassVersion, addr 0x10cee44, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GenerateOnePassVersion, addr 0x10fccd4, size 0xcc, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature* GenerateOnePassVersion(bool isNested);
 
-  /// @brief Method Generate, addr 0x10cef10, size 0x3d0, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x10fcda0, size 0x3d0, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature* Generate();
 
   // Ctor Parameters [CppParam { name: "", ty: "PgpV3SignatureGenerator", modifiers: "&&", def_value: None }]

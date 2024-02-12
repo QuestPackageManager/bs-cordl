@@ -56,8 +56,8 @@ namespace System::Linq {
 // cpp template
 template <typename TElement>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14295)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14295), inst:
-// 963 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14290)) CS Name: ::OrderedEnumerable`1::<GetEnumerator>d__1<TElement>*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14308)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14308), inst:
+// 960 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14303)) CS Name: ::OrderedEnumerable`1::<GetEnumerator>d__1<TElement>*
 class CORDL_TYPE __OrderedEnumerable_1___GetEnumerator_d__1 : public ::System::Object {
 public:
   // Declarations
@@ -200,7 +200,7 @@ namespace System::Linq {
 template <typename TElement>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14291))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14304))
 // CS Name: ::System.Linq::OrderedEnumerable`1<TElement>*
 class CORDL_TYPE OrderedEnumerable_1 : public ::System::Object {
 public:

@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::System::ComponentModel::ISynchronizeInvoke);
 namespace System::ComponentModel {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9398))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7408))
 // CS Name: ::System.ComponentModel::ISynchronizeInvoke*
 class CORDL_TYPE ISynchronizeInvoke {
 public:

@@ -16,7 +16,7 @@ MARK_VAL_T(::ENet::SslMode);
 namespace ENet {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15216))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15329))
 // CS Name: ::ENet::SslMode
 struct CORDL_TYPE SslMode {
 public:

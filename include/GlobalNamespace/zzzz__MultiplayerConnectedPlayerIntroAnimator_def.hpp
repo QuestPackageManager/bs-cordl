@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5125))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4463))
 // CS Name: ::MultiplayerConnectedPlayerIntroAnimator*
 class CORDL_TYPE MultiplayerConnectedPlayerIntroAnimator : public ::UnityEngine::MonoBehaviour {
 public:
@@ -32,12 +32,12 @@ public:
 
   constexpr void __cordl_internal_set__introPlayableDirector(::UnityW<::UnityEngine::Playables::PlayableDirector> value);
 
-  /// @brief Method SetBeforeIntroValues, addr 0x23d64dc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SetBeforeIntroValues, addr 0x2390094, size 0x1c, virtual false, abstract: false, final false
   inline void SetBeforeIntroValues();
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23d64f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23900b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerIntroAnimator", modifiers: "&&", def_value: None }]

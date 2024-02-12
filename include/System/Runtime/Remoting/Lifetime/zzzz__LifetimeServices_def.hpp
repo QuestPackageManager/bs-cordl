@@ -65,31 +65,31 @@ public:
 
   static inline ::System::Runtime::Remoting::Lifetime::LeaseManager* getStaticF__leaseManager();
 
-  /// @brief Method get_LeaseManagerPollTime, addr 0x249c1fc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_LeaseManagerPollTime, addr 0x24be270, size 0x58, virtual false, abstract: false, final false
   static inline ::System::TimeSpan get_LeaseManagerPollTime();
 
-  /// @brief Method set_LeaseManagerPollTime, addr 0x249c254, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method set_LeaseManagerPollTime, addr 0x24be2c8, size 0x74, virtual false, abstract: false, final false
   static inline void set_LeaseManagerPollTime(::System::TimeSpan value);
 
-  /// @brief Method get_LeaseTime, addr 0x249c2c8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_LeaseTime, addr 0x24be33c, size 0x58, virtual false, abstract: false, final false
   static inline ::System::TimeSpan get_LeaseTime();
 
-  /// @brief Method set_LeaseTime, addr 0x249c320, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_LeaseTime, addr 0x24be394, size 0x5c, virtual false, abstract: false, final false
   static inline void set_LeaseTime(::System::TimeSpan value);
 
-  /// @brief Method get_RenewOnCallTime, addr 0x249c37c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_RenewOnCallTime, addr 0x24be3f0, size 0x58, virtual false, abstract: false, final false
   static inline ::System::TimeSpan get_RenewOnCallTime();
 
-  /// @brief Method set_RenewOnCallTime, addr 0x249c3d4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_RenewOnCallTime, addr 0x24be448, size 0x5c, virtual false, abstract: false, final false
   static inline void set_RenewOnCallTime(::System::TimeSpan value);
 
-  /// @brief Method get_SponsorshipTimeout, addr 0x249c430, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_SponsorshipTimeout, addr 0x24be4a4, size 0x58, virtual false, abstract: false, final false
   static inline ::System::TimeSpan get_SponsorshipTimeout();
 
-  /// @brief Method set_SponsorshipTimeout, addr 0x249c488, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_SponsorshipTimeout, addr 0x24be4fc, size 0x5c, virtual false, abstract: false, final false
   static inline void set_SponsorshipTimeout(::System::TimeSpan value);
 
-  /// @brief Method TrackLifetime, addr 0x2492aa4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method TrackLifetime, addr 0x24b4b18, size 0x68, virtual false, abstract: false, final false
   static inline void TrackLifetime(::System::Runtime::Remoting::ServerIdentity* identity);
 
   // Ctor Parameters [CppParam { name: "", ty: "LifetimeServices", modifiers: "&&", def_value: None }]

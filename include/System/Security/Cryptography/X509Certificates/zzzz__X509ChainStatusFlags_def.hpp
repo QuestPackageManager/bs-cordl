@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Security::Cryptography::X509Certificates::X509ChainStatusFl
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8982))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6992))
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509ChainStatusFlags
 struct CORDL_TYPE X509ChainStatusFlags {
 public:

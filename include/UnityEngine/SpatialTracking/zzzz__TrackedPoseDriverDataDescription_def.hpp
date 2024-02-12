@@ -30,7 +30,7 @@ MARK_VAL_T(::UnityEngine::SpatialTracking::__TrackedPoseDriverDataDescription__P
 namespace UnityEngine::SpatialTracking {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16189))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16337))
 // CS Name: ::TrackedPoseDriverDataDescription::PoseData
 struct CORDL_TYPE __TrackedPoseDriverDataDescription__PoseData {
 public:
@@ -68,7 +68,7 @@ static_assert(offsetof(::UnityEngine::SpatialTracking::__TrackedPoseDriverDataDe
 namespace UnityEngine::SpatialTracking {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16190))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16338))
 // CS Name: ::UnityEngine.SpatialTracking::TrackedPoseDriverDataDescription*
 class CORDL_TYPE TrackedPoseDriverDataDescription : public ::System::Object {
 public:
@@ -85,7 +85,7 @@ public:
 
   static inline ::UnityEngine::SpatialTracking::TrackedPoseDriverDataDescription* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d189ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d39494, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TrackedPoseDriverDataDescription", modifiers: "&&", def_value: None }]

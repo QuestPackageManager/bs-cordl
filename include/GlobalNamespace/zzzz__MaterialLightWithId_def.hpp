@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MaterialLightWithId);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 108, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(14542))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14545))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8995)), TypeDefinitionIndex(TypeDefinitionIndex(14436))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14439))
 // CS Name: ::MaterialLightWithId*
 class CORDL_TYPE MaterialLightWithId : public ::GlobalNamespace::LightWithIdMonoBehaviour {
 public:
@@ -150,18 +150,18 @@ public:
 
   static inline ::UnityEngine::MaterialPropertyBlock* getStaticF__materialPropertyBlock();
 
-  /// @brief Method get_color, addr 0x21119d8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x21a6180, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method Awake, addr 0x21119e4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x21a618c, size 0x80, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method ColorWasSet, addr 0x2111a64, size 0x188, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x21a620c, size 0x188, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::MaterialLightWithId* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2111bec, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21a6394, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MaterialLightWithId", modifiers: "&&", def_value: None }]

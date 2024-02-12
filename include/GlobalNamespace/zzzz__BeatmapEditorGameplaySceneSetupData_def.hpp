@@ -14,8 +14,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapEditorGameplaySceneSetupData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 19, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15408))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6046))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15456))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5321))
 // CS Name: ::BeatmapEditorGameplaySceneSetupData*
 class CORDL_TYPE BeatmapEditorGameplaySceneSetupData : public ::GlobalNamespace::SceneSetupData {
 public:
@@ -49,7 +49,7 @@ public:
 
   static inline ::GlobalNamespace::BeatmapEditorGameplaySceneSetupData* New_ctor(bool useFirstPersonFlyingController, bool recordVRMovement, bool playVRMovement);
 
-  /// @brief Method .ctor, addr 0x231c354, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2347f50, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(bool useFirstPersonFlyingController, bool recordVRMovement, bool playVRMovement);
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapEditorGameplaySceneSetupData", modifiers: "&&", def_value: None }]

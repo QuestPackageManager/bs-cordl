@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::AssetFileDeleteResult);
 namespace Oculus::Platform::Models {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13419))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13349))
 // CS Name: ::Oculus.Platform.Models::AssetFileDeleteResult*
 class CORDL_TYPE AssetFileDeleteResult : public ::System::Object {
 public:
@@ -60,7 +60,7 @@ public:
 
   static inline ::Oculus::Platform::Models::AssetFileDeleteResult* New_ctor(void* o);
 
-  /// @brief Method .ctor, addr 0x27049c4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2736f58, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "AssetFileDeleteResult", modifiers: "&&", def_value: None }]

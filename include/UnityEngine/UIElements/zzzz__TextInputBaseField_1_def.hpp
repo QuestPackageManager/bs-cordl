@@ -119,8 +119,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename TValueType>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6984)), TypeDefinitionIndex(TypeDefinitionIndex(7131)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7131), inst: 917
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7096)) CS Name: ::TextInputBaseField`1::UxmlTraits<TValueType>*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6243)), TypeDefinitionIndex(TypeDefinitionIndex(6390)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6390), inst: 919
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6355)) CS Name: ::TextInputBaseField`1::UxmlTraits<TValueType>*
 class CORDL_TYPE __TextInputBaseField_1__UxmlTraits : public ::UnityEngine::UIElements::BaseFieldTraits_2<::StringW, ::UnityEngine::UIElements::UxmlStringAttributeDescription*> {
 public:
   // Declarations
@@ -228,8 +228,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename TValueType>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6744)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7097))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6003)), TypeDefinitionIndex(TypeDefinitionIndex(8995))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6356))
 // CS Name: ::TextInputBaseField`1::TextInputBase<TValueType>*
 class CORDL_TYPE __TextInputBaseField_1__TextInputBase : public ::UnityEngine::UIElements::VisualElement {
 public:
@@ -741,9 +741,9 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename TValueType>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7130)), TypeDefinitionIndex(TypeDefinitionIndex(7306)), TypeDefinitionIndex(TypeDefinitionIndex(10251)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7130), inst: 919 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7306), inst: 293 })] Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(7098)) CS Name: ::UnityEngine.UIElements::TextInputBaseField`1<TValueType>*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6389)), TypeDefinitionIndex(TypeDefinitionIndex(6565)), TypeDefinitionIndex(TypeDefinitionIndex(8995)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6389), inst: 921 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6565), inst: 293 })] Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(6357)) CS Name: ::UnityEngine.UIElements::TextInputBaseField`1<TValueType>*
 class CORDL_TYPE TextInputBaseField_1 : public ::UnityEngine::UIElements::BaseField_1<TValueType> {
 public:
   // Declarations

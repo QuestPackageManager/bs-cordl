@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::UnityEngine::ScrollViewState);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14608))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14613))
 // CS Name: ::UnityEngine::ScrollViewState*
 class CORDL_TYPE ScrollViewState : public ::System::Object {
 public:
   // Declarations
   static inline ::UnityEngine::ScrollViewState* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d03570, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d0ee5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ScrollViewState", modifiers: "&&", def_value: None }]

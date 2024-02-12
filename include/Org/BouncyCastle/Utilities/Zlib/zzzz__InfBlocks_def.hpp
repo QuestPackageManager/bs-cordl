@@ -221,25 +221,25 @@ public:
 
   static inline ::Org::BouncyCastle::Utilities::Zlib::InfBlocks* New_ctor(::Org::BouncyCastle::Utilities::Zlib::ZStream* z, ::System::Object* checkfn, int32_t w);
 
-  /// @brief Method .ctor, addr 0x1164554, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11933e4, size 0x148, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Utilities::Zlib::ZStream* z, ::System::Object* checkfn, int32_t w);
 
-  /// @brief Method reset, addr 0x11646bc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method reset, addr 0x119354c, size 0x90, virtual false, abstract: false, final false
   inline void reset(::Org::BouncyCastle::Utilities::Zlib::ZStream* z, ::ArrayW<int64_t, ::Array<int64_t>*> c);
 
-  /// @brief Method proc, addr 0x1164750, size 0x10b0, virtual false, abstract: false, final false
+  /// @brief Method proc, addr 0x11935e0, size 0x10b0, virtual false, abstract: false, final false
   inline int32_t proc(::Org::BouncyCastle::Utilities::Zlib::ZStream* z, int32_t r);
 
-  /// @brief Method free, addr 0x11667dc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method free, addr 0x119566c, size 0x1c, virtual false, abstract: false, final false
   inline void free(::Org::BouncyCastle::Utilities::Zlib::ZStream* z);
 
-  /// @brief Method set_dictionary, addr 0x11667f8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method set_dictionary, addr 0x1195688, size 0x40, virtual false, abstract: false, final false
   inline void set_dictionary(::ArrayW<uint8_t, ::Array<uint8_t>*> d, int32_t start, int32_t n);
 
-  /// @brief Method sync_point, addr 0x1166838, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method sync_point, addr 0x11956c8, size 0x10, virtual false, abstract: false, final false
   inline int32_t sync_point();
 
-  /// @brief Method inflate_flush, addr 0x1165800, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method inflate_flush, addr 0x1194690, size 0x180, virtual false, abstract: false, final false
   inline int32_t inflate_flush(::Org::BouncyCastle::Utilities::Zlib::ZStream* z, int32_t r);
 
   // Ctor Parameters [CppParam { name: "", ty: "InfBlocks", modifiers: "&&", def_value: None }]

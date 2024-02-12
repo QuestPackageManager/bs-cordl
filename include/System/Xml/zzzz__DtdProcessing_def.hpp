@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Xml::DtdProcessing);
 namespace System::Xml {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11414))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11312))
 // CS Name: ::System.Xml::DtdProcessing
 struct CORDL_TYPE DtdProcessing {
 public:

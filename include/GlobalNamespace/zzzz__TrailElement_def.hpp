@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::GlobalNamespace::TrailElement);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4879))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8993))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4233))
 // CS Name: ::TrailElement*
 class CORDL_TYPE TrailElement : public ::System::Object {
 public:
@@ -70,21 +70,21 @@ public:
 
   constexpr void __cordl_internal_set_time(float_t value);
 
-  /// @brief Method SetData, addr 0x23a0850, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x2360980, size 0x40, virtual false, abstract: false, final false
   inline void SetData(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, float_t time);
 
-  /// @brief Method CopyFrom, addr 0x23a0890, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method CopyFrom, addr 0x23609c0, size 0x40, virtual false, abstract: false, final false
   inline void CopyFrom(::GlobalNamespace::TrailElement* other);
 
-  /// @brief Method SetDistance, addr 0x23a08d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetDistance, addr 0x2360a00, size 0x8, virtual false, abstract: false, final false
   inline void SetDistance(float_t value);
 
-  /// @brief Method UpdateLocalDistance, addr 0x23a08d8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method UpdateLocalDistance, addr 0x2360a08, size 0xa8, virtual false, abstract: false, final false
   inline void UpdateLocalDistance(::GlobalNamespace::TrailElement* prev);
 
   static inline ::GlobalNamespace::TrailElement* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23a0980, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2360ab0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TrailElement", modifiers: "&&", def_value: None }]

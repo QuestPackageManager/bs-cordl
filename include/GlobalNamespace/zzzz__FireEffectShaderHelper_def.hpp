@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::GlobalNamespace::FireEffectShaderHelper);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4008))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16320))
 // CS Name: ::FireEffectShaderHelper*
 class CORDL_TYPE FireEffectShaderHelper : public ::System::Object {
 public:

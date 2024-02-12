@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::GlobalNamespace::StringListSO);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15871))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15602))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15624))
 // CS Name: ::StringListSO*
 class CORDL_TYPE StringListSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -36,12 +36,12 @@ public:
 
   constexpr void __cordl_internal_set__strings(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method get_strings, addr 0xe28a80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_strings, addr 0xe52d2c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::StringW>* get_strings();
 
   static inline ::GlobalNamespace::StringListSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe28a88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe52d34, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "StringListSO", modifiers: "&&", def_value: None }]

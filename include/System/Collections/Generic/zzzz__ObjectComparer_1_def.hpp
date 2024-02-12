@@ -20,8 +20,8 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3865)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3865), inst: 1032 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3868))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3864)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3864), inst: 1024 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3867))
 // CS Name: ::System.Collections.Generic::ObjectComparer`1<T>*
 class CORDL_TYPE ObjectComparer_1 : public ::System::Collections::Generic::Comparer_1<T> {
 public:

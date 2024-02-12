@@ -62,19 +62,19 @@ public:
 
   static inline ::System::Text::InternalDecoderBestFitFallback* New_ctor(::System::Text::Encoding* encoding);
 
-  /// @brief Method .ctor, addr 0x2630b08, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2656c2c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Text::Encoding* encoding);
 
-  /// @brief Method CreateFallbackBuffer, addr 0x2630b40, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method CreateFallbackBuffer, addr 0x2656c64, size 0x60, virtual true, abstract: false, final false
   inline ::System::Text::DecoderFallbackBuffer* CreateFallbackBuffer();
 
-  /// @brief Method get_MaxCharCount, addr 0x2630cc8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_MaxCharCount, addr 0x2656dec, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_MaxCharCount();
 
-  /// @brief Method Equals, addr 0x2630cd0, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2656df4, size 0xa8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* value);
 
-  /// @brief Method GetHashCode, addr 0x2630d78, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2656e9c, size 0x24, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "InternalDecoderBestFitFallback", modifiers: "&&", def_value: None }]

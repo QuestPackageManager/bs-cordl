@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::GlobalNamespace::TestInvitePlatformHandler);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4497))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10923))
 // CS Name: ::TestInvitePlatformHandler*
 class CORDL_TYPE TestInvitePlatformHandler : public ::System::Object {
 public:
@@ -31,15 +31,15 @@ public:
   /// @brief Convert to "::GlobalNamespace::IInvitePlatformHandler"
   constexpr ::GlobalNamespace::IInvitePlatformHandler* i___GlobalNamespace__IInvitePlatformHandler() noexcept;
 
-  /// @brief Method get_isSupported, addr 0x2355cbc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isSupported, addr 0x1299c94, size 0x8, virtual true, abstract: false, final true
   inline bool get_isSupported();
 
-  /// @brief Method OpenInvitePanel, addr 0x2355cc4, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method OpenInvitePanel, addr 0x1299c9c, size 0x68, virtual true, abstract: false, final true
   inline void OpenInvitePanel();
 
   static inline ::GlobalNamespace::TestInvitePlatformHandler* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2355d2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1299d04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TestInvitePlatformHandler", modifiers: "&&", def_value: None }]

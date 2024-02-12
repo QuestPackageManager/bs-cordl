@@ -21,16 +21,16 @@ MARK_VAL_T(::OVR::OpenVR::RenderModel_TextureMap_t_Packed);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8714))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8658))
 // CS Name: ::OVR.OpenVR::RenderModel_TextureMap_t_Packed
 #pragma pack(push, 4)
 struct CORDL_TYPE RenderModel_TextureMap_t_Packed {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x27f6784, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2803f3c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::OVR::OpenVR::RenderModel_TextureMap_t unpacked);
 
-  /// @brief Method Unpack, addr 0x27f6798, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Unpack, addr 0x2803f50, size 0x1c, virtual false, abstract: false, final false
   inline void Unpack(ByRef<::OVR::OpenVR::RenderModel_TextureMap_t> unpacked);
 
   // Ctor Parameters [CppParam { name: "unWidth", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "unHeight", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name:

@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::System::Xml::XPath::XPathItem);
 namespace System::Xml::XPath {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11580))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11478))
 // CS Name: ::System.Xml.XPath::XPathItem*
 class CORDL_TYPE XPathItem : public ::System::Object {
 public:
@@ -83,7 +83,7 @@ public:
   /// @brief Method get_ValueAsLong, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int64_t get_ValueAsLong();
 
-  /// @brief Method ValueAs, addr 0x28a9e64, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method ValueAs, addr 0x28ad4cc, size 0x14, virtual true, abstract: false, final false
   inline ::System::Object* ValueAs(::System::Type* returnType);
 
   /// @brief Method ValueAs, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -91,7 +91,7 @@ public:
 
   static inline ::System::Xml::XPath::XPathItem* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28a9e78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28ad4e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "XPathItem", modifiers: "&&", def_value: None }]

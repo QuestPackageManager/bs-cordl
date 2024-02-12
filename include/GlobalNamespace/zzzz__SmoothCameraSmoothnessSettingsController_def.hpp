@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SmoothCameraSmoothnessSettingsController);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16149))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5610))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16289))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4915))
 // CS Name: ::SmoothCameraSmoothnessSettingsController*
 class CORDL_TYPE SmoothCameraSmoothnessSettingsController : public ::GlobalNamespace::ListSettingsController {
 public:
@@ -55,18 +55,18 @@ public:
 
   constexpr void __cordl_internal_set__smoothnesses(::ArrayW<float_t, ::Array<float_t>*> value);
 
-  /// @brief Method GetInitValues, addr 0x22abff4, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method GetInitValues, addr 0x22df510, size 0x114, virtual true, abstract: false, final false
   inline bool GetInitValues(ByRef<int32_t> idx, ByRef<int32_t> numberOfElements);
 
-  /// @brief Method ApplyValue, addr 0x22ac108, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method ApplyValue, addr 0x22df624, size 0xac, virtual true, abstract: false, final false
   inline void ApplyValue(int32_t idx);
 
-  /// @brief Method TextForValue, addr 0x22ac1b4, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method TextForValue, addr 0x22df6d0, size 0xcc, virtual true, abstract: false, final false
   inline ::StringW TextForValue(int32_t idx);
 
   static inline ::GlobalNamespace::SmoothCameraSmoothnessSettingsController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22ac280, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22df79c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SmoothCameraSmoothnessSettingsController", modifiers: "&&", def_value: None }]

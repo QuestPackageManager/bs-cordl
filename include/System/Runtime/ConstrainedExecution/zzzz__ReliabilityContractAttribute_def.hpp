@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::System::Runtime::ConstrainedExecution::ReliabilityContractAttri
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Runtime::ConstrainedExecution {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(3350)), TypeDefinitionIndex(TypeDefinitionIndex(3351))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3352))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(3347)), TypeDefinitionIndex(TypeDefinitionIndex(3348))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3349))
 // CS Name: ::System.Runtime.ConstrainedExecution::ReliabilityContractAttribute*
 class CORDL_TYPE ReliabilityContractAttribute : public ::System::Attribute {
 public:
@@ -50,7 +50,7 @@ public:
   static inline ::System::Runtime::ConstrainedExecution::ReliabilityContractAttribute* New_ctor(::System::Runtime::ConstrainedExecution::Consistency consistencyGuarantee,
                                                                                                 ::System::Runtime::ConstrainedExecution::Cer cer);
 
-  /// @brief Method .ctor, addr 0x24da6e0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24fac10, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::ConstrainedExecution::Consistency consistencyGuarantee, ::System::Runtime::ConstrainedExecution::Cer cer);
 
   // Ctor Parameters [CppParam { name: "", ty: "ReliabilityContractAttribute", modifiers: "&&", def_value: None }]

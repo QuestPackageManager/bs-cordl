@@ -26,8 +26,8 @@ MARK_VAL_T(::UnityEngine::UIElements::StylePropertyName);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7487))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6791))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6746))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6050))
 // CS Name: ::UnityEngine.UIElements::StylePropertyName
 struct CORDL_TYPE StylePropertyName {
 public:
@@ -42,40 +42,40 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StylePropertyName>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::StylePropertyName>* i___System__IEquatable_1___UnityEngine__UIElements__StylePropertyName_();
 
-  /// @brief Method get_id, addr 0x2dbacd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x2dd90c0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleSheets::StylePropertyId get_id();
 
-  /// @brief Method get_name, addr 0x2dbace0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x2dd90c8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method StylePropertyIdFromString, addr 0x2dbace8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method StylePropertyIdFromString, addr 0x2dd90d0, size 0xa0, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleSheets::StylePropertyId StylePropertyIdFromString(::StringW name);
 
-  /// @brief Method .ctor, addr 0x2dbad88, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dd9170, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleSheets::StylePropertyId stylePropertyId);
 
-  /// @brief Method .ctor, addr 0x2dbae34, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dd921c, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method op_Equality, addr 0x2dbae68, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x2dd9250, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::StylePropertyName lhs, ::UnityEngine::UIElements::StylePropertyName rhs);
 
-  /// @brief Method op_Inequality, addr 0x2dbae74, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x2dd925c, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::UIElements::StylePropertyName lhs, ::UnityEngine::UIElements::StylePropertyName rhs);
 
-  /// @brief Method op_Implicit, addr 0x2dbae80, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2dd9268, size 0x20, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StylePropertyName op_Implicit___UnityEngine__UIElements__StylePropertyName(::StringW name);
 
-  /// @brief Method GetHashCode, addr 0x2dbaea0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2dd9288, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Equals, addr 0x2dbaea8, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2dd9290, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method Equals, addr 0x2dbaf20, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2dd9308, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::StylePropertyName other);
 
-  /// @brief Method ToString, addr 0x2dbaf30, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2dd9318, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "_id_k__BackingField", ty: "::UnityEngine::UIElements::StyleSheets::StylePropertyId", modifiers: "", def_value: None }, CppParam { name: "_name_k__BackingField",

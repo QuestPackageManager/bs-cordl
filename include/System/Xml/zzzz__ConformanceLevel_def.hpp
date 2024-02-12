@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Xml::ConformanceLevel);
 namespace System::Xml {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11413))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11311))
 // CS Name: ::System.Xml::ConformanceLevel
 struct CORDL_TYPE ConformanceLevel {
 public:

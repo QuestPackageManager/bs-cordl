@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IPlatformInit);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15980))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16356))
 // CS Name: ::IPlatformInit*
 class CORDL_TYPE IPlatformInit {
 public:

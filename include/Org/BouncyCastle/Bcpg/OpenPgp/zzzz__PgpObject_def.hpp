@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpObject* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10a52a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10d2134, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PgpObject", modifiers: "&&", def_value: None }]

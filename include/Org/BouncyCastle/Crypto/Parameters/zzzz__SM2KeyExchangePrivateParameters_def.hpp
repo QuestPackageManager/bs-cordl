@@ -94,23 +94,23 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters* New_ctor(bool initiator, ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* staticPrivateKey,
                                                                                                    ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* ephemeralPrivateKey);
 
-  /// @brief Method .ctor, addr 0xf3b494, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf66324, size 0x274, virtual false, abstract: false, final false
   inline void _ctor(bool initiator, ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* staticPrivateKey,
                     ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* ephemeralPrivateKey);
 
-  /// @brief Method get_IsInitiator, addr 0xf3b708, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsInitiator, addr 0xf66598, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsInitiator();
 
-  /// @brief Method get_StaticPrivateKey, addr 0xf3b710, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_StaticPrivateKey, addr 0xf665a0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* get_StaticPrivateKey();
 
-  /// @brief Method get_StaticPublicPoint, addr 0xf3b718, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_StaticPublicPoint, addr 0xf665a8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* get_StaticPublicPoint();
 
-  /// @brief Method get_EphemeralPrivateKey, addr 0xf3b720, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_EphemeralPrivateKey, addr 0xf665b0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* get_EphemeralPrivateKey();
 
-  /// @brief Method get_EphemeralPublicPoint, addr 0xf3b728, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_EphemeralPublicPoint, addr 0xf665b8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* get_EphemeralPublicPoint();
 
   // Ctor Parameters [CppParam { name: "", ty: "SM2KeyExchangePrivateParameters", modifiers: "&&", def_value: None }]

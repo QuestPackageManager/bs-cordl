@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::CursorManager);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6810))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6069))
 // CS Name: ::UnityEngine.UIElements::CursorManager*
 class CORDL_TYPE CursorManager : public ::System::Object {
 public:
@@ -43,21 +43,21 @@ public:
 
   constexpr void __cordl_internal_set__isCursorOverriden_k__BackingField(bool value);
 
-  /// @brief Method get_isCursorOverriden, addr 0x2dbf364, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isCursorOverriden, addr 0x2ddd74c, size 0x8, virtual false, abstract: false, final false
   inline bool get_isCursorOverriden();
 
-  /// @brief Method set_isCursorOverriden, addr 0x2dbf36c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isCursorOverriden, addr 0x2ddd754, size 0xc, virtual false, abstract: false, final false
   inline void set_isCursorOverriden(bool value);
 
-  /// @brief Method SetCursor, addr 0x2dbf378, size 0xf0, virtual true, abstract: false, final true
+  /// @brief Method SetCursor, addr 0x2ddd760, size 0xf0, virtual true, abstract: false, final true
   inline void SetCursor(::UnityEngine::UIElements::Cursor cursor);
 
-  /// @brief Method ResetCursor, addr 0x2dbf468, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method ResetCursor, addr 0x2ddd850, size 0x68, virtual true, abstract: false, final true
   inline void ResetCursor();
 
   static inline ::UnityEngine::UIElements::CursorManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2dbf4d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ddd8b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CursorManager", modifiers: "&&", def_value: None }]

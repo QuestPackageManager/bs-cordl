@@ -17,15 +17,15 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::DownloadOnl
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14023))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13988))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14036))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14001))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::DownloadOnlyLocation*
 class CORDL_TYPE DownloadOnlyLocation : public ::UnityEngine::ResourceManagement::ResourceLocations::LocationWrapper {
 public:
   // Declarations
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::DownloadOnlyLocation* New_ctor(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location);
 
-  /// @brief Method .ctor, addr 0x2bd3838, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bd13a4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location);
 
   // Ctor Parameters [CppParam { name: "", ty: "DownloadOnlyLocation", modifiers: "&&", def_value: None }]

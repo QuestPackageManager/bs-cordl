@@ -19,17 +19,17 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::TimeMsFunction);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6872))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6131))
 // CS Name: ::UnityEngine.UIElements::TimeMsFunction*
 class CORDL_TYPE TimeMsFunction : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::TimeMsFunction* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2dc9934, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2de7d1c, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x2dc99f0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2de7dd8, size 0x14, virtual true, abstract: false, final false
   inline int64_t Invoke();
 
   // Ctor Parameters [CppParam { name: "", ty: "TimeMsFunction", modifiers: "&&", def_value: None }]

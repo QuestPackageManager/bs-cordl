@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__PlayAudioOnGameEventController__EventAudioBi
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4074))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4020))
 // CS Name: ::PlayAudioOnGameEventController::EventAudioBinding*
 class CORDL_TYPE __PlayAudioOnGameEventController__EventAudioBinding : public ::System::Object {
 public:
@@ -90,18 +90,18 @@ public:
 
   constexpr void __cordl_internal_set__randomObjectPicker(::GlobalNamespace::RandomObjectPicker_1<::UnityW<::GlobalNamespace::LocalizedAudioClipSO>>* value);
 
-  /// @brief Method Init, addr 0x222fcb0, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x22b9958, size 0xf0, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::AudioClipQueue* audioClipQueue);
 
-  /// @brief Method Deinit, addr 0x222fdfc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Deinit, addr 0x22b9aa4, size 0x8c, virtual false, abstract: false, final false
   inline void Deinit();
 
-  /// @brief Method HandleGameEvent, addr 0x222fe90, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method HandleGameEvent, addr 0x22b9b38, size 0xc0, virtual false, abstract: false, final false
   inline void HandleGameEvent();
 
   static inline ::GlobalNamespace::__PlayAudioOnGameEventController__EventAudioBinding* New_ctor();
 
-  /// @brief Method .ctor, addr 0x222ff54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b9bf8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__PlayAudioOnGameEventController__EventAudioBinding", modifiers: "&&", def_value: None }]
@@ -153,8 +153,8 @@ static_assert(offsetof(::GlobalNamespace::__PlayAudioOnGameEventController__Even
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4075))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4021))
 // CS Name: ::PlayAudioOnGameEventController*
 class CORDL_TYPE PlayAudioOnGameEventController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -184,15 +184,15 @@ public:
   constexpr void __cordl_internal_set__eventAudioBindings(
       ::ArrayW<::GlobalNamespace::__PlayAudioOnGameEventController__EventAudioBinding*, ::Array<::GlobalNamespace::__PlayAudioOnGameEventController__EventAudioBinding*>*> value);
 
-  /// @brief Method Awake, addr 0x222fc4c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x22b98f4, size 0x64, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnDestroy, addr 0x222fda0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x22b9a48, size 0x5c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   static inline ::GlobalNamespace::PlayAudioOnGameEventController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x222fe88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b9b30, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PlayAudioOnGameEventController", modifiers: "&&", def_value: None }]

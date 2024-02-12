@@ -36,7 +36,7 @@ MARK_REF_PTR_T(::UnityEngine::Profiling::Memory::Experimental::MemoryProfiler);
 namespace UnityEngine::Profiling::Memory::Experimental {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10299))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9045))
 // CS Name: ::UnityEngine.Profiling.Memory.Experimental::MemoryProfiler*
 class CORDL_TYPE MemoryProfiler : public ::System::Object {
 public:
@@ -63,19 +63,19 @@ public:
 
   static inline ::System::Action_1<::UnityEngine::Profiling::Memory::Experimental::MetaData*>* getStaticF_createMetaData();
 
-  /// @brief Method PrepareMetadata, addr 0x2ce6cd8, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method PrepareMetadata, addr 0x2cede6c, size 0x174, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> PrepareMetadata();
 
-  /// @brief Method WriteIntToByteArray, addr 0x2ce6e4c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method WriteIntToByteArray, addr 0x2cedfe0, size 0x8c, virtual false, abstract: false, final false
   static inline int32_t WriteIntToByteArray(::ArrayW<uint8_t, ::Array<uint8_t>*> array, int32_t offset, int32_t value);
 
-  /// @brief Method WriteStringToByteArray, addr 0x2ce6ed8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method WriteStringToByteArray, addr 0x2cee06c, size 0x98, virtual false, abstract: false, final false
   static inline int32_t WriteStringToByteArray(::ArrayW<uint8_t, ::Array<uint8_t>*> array, int32_t offset, ::StringW value);
 
-  /// @brief Method FinalizeSnapshot, addr 0x2ce6f70, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method FinalizeSnapshot, addr 0x2cee104, size 0x84, virtual false, abstract: false, final false
   static inline void FinalizeSnapshot(::StringW path, bool result);
 
-  /// @brief Method SaveScreenshotToDisk, addr 0x2ce6ff4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method SaveScreenshotToDisk, addr 0x2cee188, size 0xfc, virtual false, abstract: false, final false
   static inline void SaveScreenshotToDisk(::StringW path, bool result, void* pixelsPtr, int32_t pixelsCount, ::UnityEngine::TextureFormat format, int32_t width, int32_t height);
 
   // Ctor Parameters [CppParam { name: "", ty: "MemoryProfiler", modifiers: "&&", def_value: None }]

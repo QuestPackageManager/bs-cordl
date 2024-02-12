@@ -59,13 +59,13 @@ public:
   static inline ::System::Runtime::Remoting::Messaging::ServerObjectReplySink* New_ctor(::System::Runtime::Remoting::ServerIdentity* identity,
                                                                                         ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
-  /// @brief Method .ctor, addr 0x24b38f4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24d4968, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::ServerIdentity* identity, ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
-  /// @brief Method SyncProcessMessage, addr 0x24b3920, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method SyncProcessMessage, addr 0x24d4994, size 0xc8, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
 
-  /// @brief Method AsyncProcessMessage, addr 0x24b39e8, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method AsyncProcessMessage, addr 0x24d4a5c, size 0x40, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg,
                                                                                    ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 

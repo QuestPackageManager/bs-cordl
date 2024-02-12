@@ -8,7 +8,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AlphabetScrollbarInfoBeatmapLevelHelper)
 namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
+class BeatmapLevel;
 }
 namespace GlobalNamespace {
 class __AlphabetScrollInfo__Data;
@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__AlphabetScrollbarInfoBeatmapLevelHelper____c
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4410))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10833))
 // CS Name: ::AlphabetScrollbarInfoBeatmapLevelHelper::<>c*
 class CORDL_TYPE __AlphabetScrollbarInfoBeatmapLevelHelper____c : public ::System::Object {
 public:
@@ -46,23 +46,23 @@ public:
   static __declspec(property(get = getStaticF___9, put = setStaticF___9))::GlobalNamespace::__AlphabetScrollbarInfoBeatmapLevelHelper____c* __9;
 
   /// @brief Field <>9__3_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__3_0, put = setStaticF___9__3_0))::System::Func_2<::GlobalNamespace::IPreviewBeatmapLevel*, ::StringW>* __9__3_0;
+  static __declspec(property(get = getStaticF___9__3_0, put = setStaticF___9__3_0))::System::Func_2<::GlobalNamespace::BeatmapLevel*, ::StringW>* __9__3_0;
 
   static inline void setStaticF___9(::GlobalNamespace::__AlphabetScrollbarInfoBeatmapLevelHelper____c* value);
 
   static inline ::GlobalNamespace::__AlphabetScrollbarInfoBeatmapLevelHelper____c* getStaticF___9();
 
-  static inline void setStaticF___9__3_0(::System::Func_2<::GlobalNamespace::IPreviewBeatmapLevel*, ::StringW>* value);
+  static inline void setStaticF___9__3_0(::System::Func_2<::GlobalNamespace::BeatmapLevel*, ::StringW>* value);
 
-  static inline ::System::Func_2<::GlobalNamespace::IPreviewBeatmapLevel*, ::StringW>* getStaticF___9__3_0();
+  static inline ::System::Func_2<::GlobalNamespace::BeatmapLevel*, ::StringW>* getStaticF___9__3_0();
 
   static inline ::GlobalNamespace::__AlphabetScrollbarInfoBeatmapLevelHelper____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x234cd14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x128fefc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <CreateData>b__3_0, addr 0x234cd1c, size 0xac, virtual false, abstract: false, final false
-  inline ::StringW _CreateData_b__3_0(::GlobalNamespace::IPreviewBeatmapLevel* x);
+  /// @brief Method <CreateData>b__3_0, addr 0x128ff04, size 0x20, virtual false, abstract: false, final false
+  inline ::StringW _CreateData_b__3_0(::GlobalNamespace::BeatmapLevel* x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__AlphabetScrollbarInfoBeatmapLevelHelper____c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
@@ -89,17 +89,17 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__AlphabetScrol
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4411))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10834))
 // CS Name: ::AlphabetScrollbarInfoBeatmapLevelHelper*
 class CORDL_TYPE AlphabetScrollbarInfoBeatmapLevelHelper : public ::System::Object {
 public:
   // Declarations
   using __c = ::GlobalNamespace::__AlphabetScrollbarInfoBeatmapLevelHelper____c;
 
-  /// @brief Method CreateData, addr 0x234c61c, size 0x694, virtual false, abstract: false, final false
+  /// @brief Method CreateData, addr 0x128f904, size 0x594, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__AlphabetScrollInfo__Data*>*
-  CreateData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IPreviewBeatmapLevel*>* previewBeatmapLevels, bool sortPreviewBeatmapLevels,
-             ByRef<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IPreviewBeatmapLevel*>*> sortedPreviewBeatmapLevels);
+  CreateData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevel*>* beatmapLevels, bool sortBeatmapLevels,
+             ByRef<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevel*>*> sortedBeatmapLevels);
 
   // Ctor Parameters [CppParam { name: "", ty: "AlphabetScrollbarInfoBeatmapLevelHelper", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

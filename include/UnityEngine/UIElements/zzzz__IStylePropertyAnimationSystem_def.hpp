@@ -58,7 +58,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IStylePropertyAnimationSystem);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6831))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6090))
 // CS Name: ::UnityEngine.UIElements::IStylePropertyAnimationSystem*
 class CORDL_TYPE IStylePropertyAnimationSystem {
 public:

@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapEventDataBoxGroupProcessor);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4308))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10737))
 // CS Name: ::BeatmapEventDataBoxGroupProcessor*
 class CORDL_TYPE BeatmapEventDataBoxGroupProcessor : public ::System::Object {
 public:
@@ -54,21 +54,21 @@ public:
 
   constexpr void __cordl_internal_set__dirtyBoxGroups(::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* value);
 
-  /// @brief Method get_dirtyBoxGroups, addr 0x233a468, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dirtyBoxGroups, addr 0x127b248, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyCollection_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* get_dirtyBoxGroups();
 
-  /// @brief Method ProcessInsertedData, addr 0x233a470, size 0x5fc, virtual true, abstract: false, final true
+  /// @brief Method ProcessInsertedData, addr 0x127b250, size 0x5fc, virtual true, abstract: false, final true
   inline void ProcessInsertedData(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* insertedNode);
 
-  /// @brief Method ProcessBeforeDeleteData, addr 0x233aa6c, size 0x374, virtual true, abstract: false, final true
+  /// @brief Method ProcessBeforeDeleteData, addr 0x127b84c, size 0x374, virtual true, abstract: false, final true
   inline void ProcessBeforeDeleteData(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* nodeToDelete);
 
-  /// @brief Method ClearDirtyData, addr 0x2339c30, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ClearDirtyData, addr 0x127a6a4, size 0x50, virtual false, abstract: false, final false
   inline void ClearDirtyData();
 
   static inline ::GlobalNamespace::BeatmapEventDataBoxGroupProcessor* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23397f0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x127a264, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapEventDataBoxGroupProcessor", modifiers: "&&", def_value: None }]

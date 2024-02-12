@@ -74,18 +74,18 @@ public:
 
   constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method Init, addr 0x1219360, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x12461f0, size 0x1b8, virtual false, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method CalculateMessage, addr 0x1219518, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method CalculateMessage, addr 0x12463a8, size 0x194, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* CalculateMessage();
 
-  /// @brief Method CalculateAgreement, addr 0x12196ac, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method CalculateAgreement, addr 0x124653c, size 0x298, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* CalculateAgreement(::Org::BouncyCastle::Crypto::Parameters::DHPublicKeyParameters* pub, ::Org::BouncyCastle::Math::BigInteger* message);
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::DHAgreement* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1219944, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12467d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DHAgreement", modifiers: "&&", def_value: None }]

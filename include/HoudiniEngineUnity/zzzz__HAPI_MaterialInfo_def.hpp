@@ -16,7 +16,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_MaterialInfo);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9742))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9534))
 // CS Name: ::HoudiniEngineUnity::HAPI_MaterialInfo
 struct CORDL_TYPE HAPI_MaterialInfo {
 public:

@@ -41,7 +41,7 @@ namespace TMPro {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12343))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12241))
 // CS Name: ::TweenRunner`1::<Start>d__2<T>*
 class CORDL_TYPE __TweenRunner_1___Start_d__2 : public ::System::Object {
 public:
@@ -161,7 +161,7 @@ namespace TMPro {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12344))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12242))
 // CS Name: ::TMPro::TweenRunner`1<T>*
 class CORDL_TYPE TweenRunner_1 : public ::System::Object {
 public:

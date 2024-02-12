@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::UI::BaseInputOverride);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::UI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13198))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6369))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13096))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5628))
 // CS Name: ::UnityEngine.InputSystem.UI::BaseInputOverride*
 class CORDL_TYPE BaseInputOverride : public ::UnityEngine::EventSystems::BaseInput {
 public:
@@ -32,12 +32,12 @@ public:
 
   constexpr void __cordl_internal_set__compositionString_k__BackingField(::StringW value);
 
-  /// @brief Method get_compositionString, addr 0x2acf728, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_compositionString, addr 0x2ad0294, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_compositionString();
 
   static inline ::UnityEngine::InputSystem::UI::BaseInputOverride* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2acf730, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ad029c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BaseInputOverride", modifiers: "&&", def_value: None }]

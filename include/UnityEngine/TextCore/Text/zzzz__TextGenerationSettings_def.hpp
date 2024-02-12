@@ -47,10 +47,10 @@ MARK_REF_PTR_T(::UnityEngine::TextCore::Text::TextGenerationSettings);
 // SizeInfo { instance_size: 256, native_size: -1, calculated_instance_size: 256, calculated_native_size: 252, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(10246)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(13677)), TypeDefinitionIndex(TypeDefinitionIndex(13687)), TypeDefinitionIndex(TypeDefinitionIndex(13688)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13718)), TypeDefinitionIndex(TypeDefinitionIndex(13719)), TypeDefinitionIndex(TypeDefinitionIndex(13729))] Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(13689)) CS Name: ::UnityEngine.TextCore.Text::TextGenerationSettings*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8909)), TypeDefinitionIndex(TypeDefinitionIndex(8990)),
+// TypeDefinitionIndex(TypeDefinitionIndex(8995)), TypeDefinitionIndex(TypeDefinitionIndex(13630)), TypeDefinitionIndex(TypeDefinitionIndex(13640)), TypeDefinitionIndex(TypeDefinitionIndex(13641)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13671)), TypeDefinitionIndex(TypeDefinitionIndex(13672)), TypeDefinitionIndex(TypeDefinitionIndex(13682))] Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(13642)) CS Name: ::UnityEngine.TextCore.Text::TextGenerationSettings*
 class CORDL_TYPE TextGenerationSettings : public ::System::Object {
 public:
   // Declarations
@@ -459,18 +459,18 @@ public:
 
   constexpr void __cordl_internal_set_charWidthMaxAdj(float_t value);
 
-  /// @brief Method Equals, addr 0x2d40874, size 0x3b4, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x2d6031c, size 0x3b4, virtual false, abstract: false, final false
   inline bool Equals(::UnityEngine::TextCore::Text::TextGenerationSettings* other);
 
-  /// @brief Method Equals, addr 0x2d40c28, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2d606d0, size 0xc8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2d40cf0, size 0x56c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2d60798, size 0x56c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::TextCore::Text::TextGenerationSettings* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d4125c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d60d04, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TextGenerationSettings", modifiers: "&&", def_value: None }]

@@ -2,8 +2,8 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "BeatSaber/PerformancePresets/zzzz__ObstaclesQuality_def.hpp"
 #include "GlobalNamespace/zzzz__ObservableVariableSO_1_def.hpp"
-#include "GlobalNamespace/zzzz__ObstaclesQuality_def.hpp"
 CORDL_MODULE_EXPORT(ObstaclesQualitySO)
 // Forward declare root types
 namespace GlobalNamespace {
@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::GlobalNamespace::ObstaclesQualitySO);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4442)), TypeDefinitionIndex(TypeDefinitionIndex(15869)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15869), inst:
-// 3856 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5943)) CS Name: ::ObstaclesQualitySO*
-class CORDL_TYPE ObstaclesQualitySO : public ::GlobalNamespace::ObservableVariableSO_1<::GlobalNamespace::ObstaclesQuality> {
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15622)), TypeDefinitionIndex(TypeDefinitionIndex(16236)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15622), inst:
+// 3838 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(10859)) CS Name: ::ObstaclesQualitySO*
+class CORDL_TYPE ObstaclesQualitySO : public ::GlobalNamespace::ObservableVariableSO_1<::BeatSaber::PerformancePresets::ObstaclesQuality> {
 public:
   // Declarations
   static inline ::GlobalNamespace::ObstaclesQualitySO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2303f70, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1293b94, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ObstaclesQualitySO", modifiers: "&&", def_value: None }]

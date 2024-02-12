@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::TMPro::TMP_GlyphPairAdjustmentRecord);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12371)), TypeDefinitionIndex(TypeDefinitionIndex(12373))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12374))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12269)), TypeDefinitionIndex(TypeDefinitionIndex(12271))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12272))
 // CS Name: ::TMPro::TMP_GlyphPairAdjustmentRecord*
 class CORDL_TYPE TMP_GlyphPairAdjustmentRecord : public ::System::Object {
 public:
@@ -64,32 +64,32 @@ public:
 
   constexpr void __cordl_internal_set_m_FeatureLookupFlags(::TMPro::FontFeatureLookupFlags value);
 
-  /// @brief Method get_firstAdjustmentRecord, addr 0x2c12240, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_firstAdjustmentRecord, addr 0x2c0edac, size 0x14, virtual false, abstract: false, final false
   inline ::TMPro::TMP_GlyphAdjustmentRecord get_firstAdjustmentRecord();
 
-  /// @brief Method set_firstAdjustmentRecord, addr 0x2c12254, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_firstAdjustmentRecord, addr 0x2c0edc0, size 0x14, virtual false, abstract: false, final false
   inline void set_firstAdjustmentRecord(::TMPro::TMP_GlyphAdjustmentRecord value);
 
-  /// @brief Method get_secondAdjustmentRecord, addr 0x2c12268, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_secondAdjustmentRecord, addr 0x2c0edd4, size 0x14, virtual false, abstract: false, final false
   inline ::TMPro::TMP_GlyphAdjustmentRecord get_secondAdjustmentRecord();
 
-  /// @brief Method set_secondAdjustmentRecord, addr 0x2c1227c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_secondAdjustmentRecord, addr 0x2c0ede8, size 0x14, virtual false, abstract: false, final false
   inline void set_secondAdjustmentRecord(::TMPro::TMP_GlyphAdjustmentRecord value);
 
-  /// @brief Method get_featureLookupFlags, addr 0x2c12290, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_featureLookupFlags, addr 0x2c0edfc, size 0x8, virtual false, abstract: false, final false
   inline ::TMPro::FontFeatureLookupFlags get_featureLookupFlags();
 
-  /// @brief Method set_featureLookupFlags, addr 0x2c12298, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_featureLookupFlags, addr 0x2c0ee04, size 0x8, virtual false, abstract: false, final false
   inline void set_featureLookupFlags(::TMPro::FontFeatureLookupFlags value);
 
   static inline ::TMPro::TMP_GlyphPairAdjustmentRecord* New_ctor(::TMPro::TMP_GlyphAdjustmentRecord firstAdjustmentRecord, ::TMPro::TMP_GlyphAdjustmentRecord secondAdjustmentRecord);
 
-  /// @brief Method .ctor, addr 0x2c0fa30, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c0c59c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::TMPro::TMP_GlyphAdjustmentRecord firstAdjustmentRecord, ::TMPro::TMP_GlyphAdjustmentRecord secondAdjustmentRecord);
 
   static inline ::TMPro::TMP_GlyphPairAdjustmentRecord* New_ctor(::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord glyphPairAdjustmentRecord);
 
-  /// @brief Method .ctor, addr 0x2c0ef20, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c0ba8c, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord glyphPairAdjustmentRecord);
 
   // Ctor Parameters [CppParam { name: "", ty: "TMP_GlyphPairAdjustmentRecord", modifiers: "&&", def_value: None }]

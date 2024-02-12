@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::Product);
 namespace Oculus::Platform::Models {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13473))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13422))
 // CS Name: ::Oculus.Platform.Models::Product*
 class CORDL_TYPE Product : public ::System::Object {
 public:
@@ -60,7 +60,7 @@ public:
 
   static inline ::Oculus::Platform::Models::Product* New_ctor(void* o);
 
-  /// @brief Method .ctor, addr 0x27084a8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x273c584, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "Product", modifiers: "&&", def_value: None }]

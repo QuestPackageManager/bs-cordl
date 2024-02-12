@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::UnityEngine::Scripting::RequiredByNativeCodeAttribute);
 namespace UnityEngine::Scripting {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16011))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16106))
 // CS Name: ::UnityEngine.Scripting::RequiredByNativeCodeAttribute*
 class CORDL_TYPE RequiredByNativeCodeAttribute : public ::System::Attribute {
 public:
@@ -56,21 +56,21 @@ public:
 
   static inline ::UnityEngine::Scripting::RequiredByNativeCodeAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d181cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d38c74, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Scripting::RequiredByNativeCodeAttribute* New_ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x2d181d4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d38c7c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method set_Name, addr 0x2d181fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x2d38ca4, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
-  /// @brief Method set_Optional, addr 0x2d18204, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Optional, addr 0x2d38cac, size 0xc, virtual false, abstract: false, final false
   inline void set_Optional(bool value);
 
-  /// @brief Method set_GenerateProxy, addr 0x2d18210, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_GenerateProxy, addr 0x2d38cb8, size 0xc, virtual false, abstract: false, final false
   inline void set_GenerateProxy(bool value);
 
   // Ctor Parameters [CppParam { name: "", ty: "RequiredByNativeCodeAttribute", modifiers: "&&", def_value: None }]

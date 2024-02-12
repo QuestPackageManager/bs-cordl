@@ -26,17 +26,17 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyValidationException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10aff1c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10dcdac, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyValidationException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x10aff20, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10dcdb0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyValidationException* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor, addr 0x10aff24, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10dcdb4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
   // Ctor Parameters [CppParam { name: "", ty: "PgpKeyValidationException", modifiers: "&&", def_value: None }]

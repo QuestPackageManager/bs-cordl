@@ -71,19 +71,19 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::OobCertHash* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xe6864c, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe934dc, size 0x144, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance, addr 0xe6899c, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xe9382c, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::OobCertHash* GetInstance(::System::Object* obj);
 
-  /// @brief Method get_HashAlg, addr 0xe68b24, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_HashAlg, addr 0xe939b4, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_HashAlg();
 
-  /// @brief Method get_CertID, addr 0xe68b2c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CertID, addr 0xe939bc, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::CertId* get_CertID();
 
-  /// @brief Method ToAsn1Object, addr 0xe68b34, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xe939c4, size 0xd0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "OobCertHash", modifiers: "&&", def_value: None }]

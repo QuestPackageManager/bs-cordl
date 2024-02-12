@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5229))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(8996))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4571))
 // CS Name: ::MultiplayerOffsetPositionByLocalPlayerPosition*
 class CORDL_TYPE MultiplayerOffsetPositionByLocalPlayerPosition : public ::UnityEngine::MonoBehaviour {
 public:
@@ -71,21 +71,21 @@ public:
 
   constexpr void __cordl_internal_set__lastParentRotation(::UnityEngine::Quaternion value);
 
-  /// @brief Method Awake, addr 0x2252b48, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x23b2aec, size 0x50, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Update, addr 0x2252b98, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x23b2b3c, size 0x4, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method SetEnabled, addr 0x224f2e0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetEnabled, addr 0x23ad72c, size 0xc, virtual false, abstract: false, final false
   inline void SetEnabled(bool isEnabled);
 
-  /// @brief Method UpdatePositionAndRotationIfNeeded, addr 0x2252b9c, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method UpdatePositionAndRotationIfNeeded, addr 0x23b2b40, size 0x208, virtual false, abstract: false, final false
   inline void UpdatePositionAndRotationIfNeeded();
 
   static inline ::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2252e24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23b2dc8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerOffsetPositionByLocalPlayerPosition", modifiers: "&&", def_value: None }]

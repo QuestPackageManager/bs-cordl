@@ -30,27 +30,27 @@ MARK_REF_PTR_T(::System::Xml::Schema::XmlStringConverter);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11748))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11754))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11646))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11652))
 // CS Name: ::System.Xml.Schema::XmlStringConverter*
 class CORDL_TYPE XmlStringConverter : public ::System::Xml::Schema::XmlBaseConverter {
 public:
   // Declarations
   static inline ::System::Xml::Schema::XmlStringConverter* New_ctor(::System::Xml::Schema::XmlSchemaType* schemaType);
 
-  /// @brief Method .ctor, addr 0x28da7f8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28dce60, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaType* schemaType);
 
-  /// @brief Method Create, addr 0x28da860, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x28dcec8, size 0x60, virtual false, abstract: false, final false
   static inline ::System::Xml::Schema::XmlValueConverter* Create(::System::Xml::Schema::XmlSchemaType* schemaType);
 
-  /// @brief Method ToString, addr 0x28da8c0, size 0x210, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x28dcf28, size 0x210, virtual true, abstract: false, final false
   inline ::StringW ToString(::System::Object* value, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method ChangeType, addr 0x28daad0, size 0x29c, virtual true, abstract: false, final false
+  /// @brief Method ChangeType, addr 0x28dd138, size 0x29c, virtual true, abstract: false, final false
   inline ::System::Object* ChangeType(::StringW value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method ChangeType, addr 0x28dad6c, size 0x43c, virtual true, abstract: false, final false
+  /// @brief Method ChangeType, addr 0x28dd3d4, size 0x43c, virtual true, abstract: false, final false
   inline ::System::Object* ChangeType(::System::Object* value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlStringConverter", modifiers: "&&", def_value: None }]

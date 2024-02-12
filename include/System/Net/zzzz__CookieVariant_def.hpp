@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::CookieVariant);
 namespace System::Net {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9119))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7129))
 // CS Name: ::System.Net::CookieVariant
 struct CORDL_TYPE CookieVariant {
 public:

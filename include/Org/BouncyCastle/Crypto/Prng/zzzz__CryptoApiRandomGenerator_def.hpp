@@ -45,24 +45,24 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf41e40, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf6ccd0, size 0x34, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator* New_ctor(::System::Security::Cryptography::RandomNumberGenerator* rng);
 
-  /// @brief Method .ctor, addr 0xf41e74, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf6cd04, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::RandomNumberGenerator* rng);
 
-  /// @brief Method AddSeedMaterial, addr 0xf41e9c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method AddSeedMaterial, addr 0xf6cd2c, size 0x4, virtual true, abstract: false, final false
   inline void AddSeedMaterial(::ArrayW<uint8_t, ::Array<uint8_t>*> seed);
 
-  /// @brief Method AddSeedMaterial, addr 0xf41ea0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method AddSeedMaterial, addr 0xf6cd30, size 0x4, virtual true, abstract: false, final false
   inline void AddSeedMaterial(int64_t seed);
 
-  /// @brief Method NextBytes, addr 0xf41ea4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method NextBytes, addr 0xf6cd34, size 0x20, virtual true, abstract: false, final false
   inline void NextBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method NextBytes, addr 0xf41ec4, size 0x170, virtual true, abstract: false, final false
+  /// @brief Method NextBytes, addr 0xf6cd54, size 0x170, virtual true, abstract: false, final false
   inline void NextBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t start, int32_t len);
 
   // Ctor Parameters [CppParam { name: "", ty: "CryptoApiRandomGenerator", modifiers: "&&", def_value: None }]

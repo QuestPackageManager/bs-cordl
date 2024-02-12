@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerConnectedPlayerNoteController);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4761))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5138))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4112))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4476))
 // CS Name: ::MultiplayerConnectedPlayerNoteController*
 class CORDL_TYPE MultiplayerConnectedPlayerNoteController : public ::GlobalNamespace::NoteController {
 public:
@@ -32,15 +32,15 @@ public:
 
   constexpr void __cordl_internal_set__visualsWrapperGo(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method HiddenStateDidChange, addr 0x23d7a28, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method HiddenStateDidChange, addr 0x23915e0, size 0x24, virtual true, abstract: false, final false
   inline void HiddenStateDidChange(bool hide);
 
-  /// @brief Method Pause, addr 0x23d7a4c, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Pause, addr 0x2391604, size 0x10, virtual true, abstract: false, final false
   inline void Pause(bool pause);
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerNoteController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23d779c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2391354, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerNoteController", modifiers: "&&", def_value: None }]

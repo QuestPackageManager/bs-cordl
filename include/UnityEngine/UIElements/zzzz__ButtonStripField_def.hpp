@@ -36,15 +36,15 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__ButtonStripField__UxmlTraits);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7129)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7129), inst: 98 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7103))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6388)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6388), inst: 103 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6362))
 // CS Name: ::ButtonStripField::UxmlTraits*
 class CORDL_TYPE __ButtonStripField__UxmlTraits : public ::UnityEngine::UIElements::__BaseField_1__UxmlTraits<int32_t> {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::__ButtonStripField__UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e34048, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e50430, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ButtonStripField__UxmlTraits", modifiers: "&&", def_value: None }]
@@ -71,8 +71,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Butto
 // SizeInfo { instance_size: 1040, native_size: -1, calculated_instance_size: 1040, calculated_native_size: 1040, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7130)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7130), inst: 98 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7104))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6389)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6389), inst: 103 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6363))
 // CS Name: ::UnityEngine.UIElements::ButtonStripField*
 class CORDL_TYPE ButtonStripField : public ::UnityEngine::UIElements::BaseField_1<int32_t> {
 public:
@@ -92,18 +92,18 @@ public:
 
   constexpr void __cordl_internal_set_m_Buttons(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Button*>* value);
 
-  /// @brief Method get_buttons, addr 0x2e33ce4, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method get_buttons, addr 0x2e500cc, size 0xf4, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Button*>* get_buttons();
 
   static inline ::UnityEngine::UIElements::ButtonStripField* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e33dd8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e501c0, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method SetValueWithoutNotify, addr 0x2e33e98, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method SetValueWithoutNotify, addr 0x2e50280, size 0x88, virtual true, abstract: false, final false
   inline void SetValueWithoutNotify(int32_t newValue);
 
-  /// @brief Method RefreshButtonsState, addr 0x2e33f20, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method RefreshButtonsState, addr 0x2e50308, size 0xe0, virtual false, abstract: false, final false
   inline void RefreshButtonsState();
 
   // Ctor Parameters [CppParam { name: "", ty: "ButtonStripField", modifiers: "&&", def_value: None }]
@@ -135,15 +135,15 @@ static_assert(offsetof(::UnityEngine::UIElements::ButtonStripField, ___m_Buttons
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7103)), TypeDefinitionIndex(TypeDefinitionIndex(7104)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5258 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7102)) CS Name: ::ButtonStripField::UxmlFactory*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6256)), TypeDefinitionIndex(TypeDefinitionIndex(6362)), TypeDefinitionIndex(TypeDefinitionIndex(6363)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6256), inst: 5238 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6361)) CS Name: ::ButtonStripField::UxmlFactory*
 class CORDL_TYPE __ButtonStripField__UxmlFactory
     : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::ButtonStripField*, ::UnityEngine::UIElements::__ButtonStripField__UxmlTraits*> {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::__ButtonStripField__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e34000, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e503e8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ButtonStripField__UxmlFactory", modifiers: "&&", def_value: None }]

@@ -29,17 +29,17 @@ public:
   // Declarations
   static inline ::System::Threading::ThreadStateException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x261020c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2635114, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Threading::ThreadStateException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x2610268, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2635170, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::System::Threading::ThreadStateException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x261028c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2635194, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "ThreadStateException", modifiers: "&&", def_value: None }]

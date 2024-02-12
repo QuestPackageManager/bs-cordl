@@ -19,12 +19,12 @@ MARK_REF_PTR_T(::UnityEngine::UI::SetPropertyUtility);
 namespace UnityEngine::UI {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13120))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13018))
 // CS Name: ::UnityEngine.UI::SetPropertyUtility*
 class CORDL_TYPE SetPropertyUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SetColor, addr 0x2d8828c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method SetColor, addr 0x2da5674, size 0x48, virtual false, abstract: false, final false
   static inline bool SetColor(ByRef<::UnityEngine::Color> currentValue, ::UnityEngine::Color newValue);
 
   /// @brief Method SetStruct, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

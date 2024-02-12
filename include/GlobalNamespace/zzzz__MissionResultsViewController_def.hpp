@@ -91,7 +91,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__MissionResultsViewController____c__DisplayCl
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5700))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5002))
 // CS Name: ::MissionResultsViewController::<StartFireworksAfterDelay>d__28*
 class CORDL_TYPE __MissionResultsViewController___StartFireworksAfterDelay_d__28 : public ::System::Object {
 public:
@@ -156,22 +156,22 @@ public:
 
   static inline ::GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor, addr 0x22cad04, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22fa91c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x22cad7c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x22fa994, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext, addr 0x22cad80, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x22fa998, size 0xbc, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x22cae3c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x22faa54, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x22cae44, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x22faa5c, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x22cae84, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x22faa9c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MissionResultsViewController___StartFireworksAfterDelay_d__28", modifiers: "&&", def_value: None }]
@@ -219,7 +219,7 @@ static_assert(offsetof(::GlobalNamespace::__MissionResultsViewController___Start
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5701))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5003))
 // CS Name: ::MissionResultsViewController::<>c__DisplayClass29_0*
 class CORDL_TYPE __MissionResultsViewController____c__DisplayClass29_0 : public ::System::Object {
 public:
@@ -265,10 +265,10 @@ public:
 
   static inline ::GlobalNamespace::__MissionResultsViewController____c__DisplayClass29_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22cad2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22fa944, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <SetDataToUI>b__0, addr 0x22cae8c, size 0x410, virtual false, abstract: false, final false
+  /// @brief Method <SetDataToUI>b__0, addr 0x22faaa4, size 0x410, virtual false, abstract: false, final false
   inline void _SetDataToUI_b__0(int32_t idx, ::GlobalNamespace::ResultObjectiveListItem* objectiveListItem);
 
   // Ctor Parameters [CppParam { name: "", ty: "__MissionResultsViewController____c__DisplayClass29_0", modifiers: "&&", def_value: None }]
@@ -315,8 +315,8 @@ static_assert(offsetof(::GlobalNamespace::__MissionResultsViewController____c__D
 // SizeInfo { instance_size: 296, native_size: -1, calculated_instance_size: 296, calculated_native_size: 296, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(13605))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5702))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8995)), TypeDefinitionIndex(TypeDefinitionIndex(13558))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5004))
 // CS Name: ::MissionResultsViewController*
 class CORDL_TYPE MissionResultsViewController : public ::HMUI::ViewController {
 public:
@@ -519,42 +519,42 @@ public:
 
   constexpr void __cordl_internal_set__startFireworksAfterDelayCoroutine(::UnityEngine::Coroutine* value);
 
-  /// @brief Method add_continueButtonPressedEvent, addr 0x22ca568, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method add_continueButtonPressedEvent, addr 0x22fa188, size 0xb4, virtual false, abstract: false, final false
   inline void add_continueButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>* value);
 
-  /// @brief Method remove_continueButtonPressedEvent, addr 0x22ca61c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method remove_continueButtonPressedEvent, addr 0x22fa23c, size 0xb4, virtual false, abstract: false, final false
   inline void remove_continueButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>* value);
 
-  /// @brief Method add_retryButtonPressedEvent, addr 0x22ca6d0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method add_retryButtonPressedEvent, addr 0x22fa2f0, size 0xb4, virtual false, abstract: false, final false
   inline void add_retryButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>* value);
 
-  /// @brief Method remove_retryButtonPressedEvent, addr 0x22ca784, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method remove_retryButtonPressedEvent, addr 0x22fa3a4, size 0xb4, virtual false, abstract: false, final false
   inline void remove_retryButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>* value);
 
-  /// @brief Method Init, addr 0x22ca838, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x22fa458, size 0x8, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::MissionNode* missionNode, ::GlobalNamespace::MissionCompletionResults* missionCompletionResults);
 
-  /// @brief Method DidActivate, addr 0x22ca840, size 0x198, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x22fa460, size 0x198, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x22cacc8, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x22fa8e0, size 0x3c, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method StartFireworksAfterDelay, addr 0x22cac50, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method StartFireworksAfterDelay, addr 0x22fa868, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* StartFireworksAfterDelay(float_t delay);
 
-  /// @brief Method SetDataToUI, addr 0x22ca9d8, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method SetDataToUI, addr 0x22fa5f8, size 0x270, virtual false, abstract: false, final false
   inline void SetDataToUI();
 
-  /// @brief Method ContinueButtonPressed, addr 0x22cad34, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ContinueButtonPressed, addr 0x22fa94c, size 0x20, virtual false, abstract: false, final false
   inline void ContinueButtonPressed();
 
-  /// @brief Method RetryButtonPressed, addr 0x22cad54, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method RetryButtonPressed, addr 0x22fa96c, size 0x20, virtual false, abstract: false, final false
   inline void RetryButtonPressed();
 
   static inline ::GlobalNamespace::MissionResultsViewController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22cad74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22fa98c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionResultsViewController", modifiers: "&&", def_value: None }]

@@ -35,16 +35,16 @@ public:
   /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessageSink"
   constexpr ::System::Runtime::Remoting::Messaging::IMessageSink* i___System__Runtime__Remoting__Messaging__IMessageSink() noexcept;
 
-  /// @brief Method SyncProcessMessage, addr 0x24b3368, size 0x134, virtual true, abstract: false, final true
+  /// @brief Method SyncProcessMessage, addr 0x24d43dc, size 0x134, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
 
-  /// @brief Method AsyncProcessMessage, addr 0x24b349c, size 0xe8, virtual true, abstract: false, final true
+  /// @brief Method AsyncProcessMessage, addr 0x24d4510, size 0xe8, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg,
                                                                                    ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
   static inline ::System::Runtime::Remoting::Messaging::ServerContextTerminatorSink* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24b3584, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24d45f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ServerContextTerminatorSink", modifiers: "&&", def_value: None }]

@@ -61,7 +61,7 @@ namespace Zenject {
 template <typename TBase, typename TKey>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10994))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10136))
 // CS Name: ::KeyedFactoryBase`2::<>c<TBase,TKey>*
 class CORDL_TYPE __KeyedFactoryBase_2____c : public ::System::Object {
 public:
@@ -129,7 +129,7 @@ namespace Zenject {
 template <typename TBase, typename TKey>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10995))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10137))
 // CS Name: ::Zenject::KeyedFactoryBase`2<TBase,TKey>*
 class CORDL_TYPE KeyedFactoryBase_2 : public ::System::Object {
 public:

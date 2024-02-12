@@ -55,29 +55,29 @@ public:
 
   constexpr void __cordl_internal_set_time(::Org::BouncyCastle::Asn1::Asn1Object* value);
 
-  /// @brief Method GetInstance, addr 0xe818dc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xeab76c, size 0x1c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::Time* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::Time* New_ctor(::Org::BouncyCastle::Asn1::Asn1Object* time);
 
-  /// @brief Method .ctor, addr 0xe81ab8, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeab948, size 0x140, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Object* time);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::Time* New_ctor(::System::DateTime date);
 
-  /// @brief Method .ctor, addr 0xe81bf8, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeaba88, size 0x168, virtual false, abstract: false, final false
   inline void _ctor(::System::DateTime date);
 
-  /// @brief Method GetInstance, addr 0xe818f8, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xeab788, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::Time* GetInstance(::System::Object* obj);
 
-  /// @brief Method get_TimeString, addr 0xe81d60, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method get_TimeString, addr 0xeabbf0, size 0xf0, virtual false, abstract: false, final false
   inline ::StringW get_TimeString();
 
-  /// @brief Method get_Date, addr 0xe81e50, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method get_Date, addr 0xeabce0, size 0x1e4, virtual false, abstract: false, final false
   inline ::System::DateTime get_Date();
 
-  /// @brief Method ToAsn1Object, addr 0xe82034, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xeabec4, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "Time", modifiers: "&&", def_value: None }]

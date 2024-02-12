@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::GlobalNamespace::SpriteLightWithId);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14556))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14450))
 // CS Name: ::SpriteLightWithId::MultiplyColorByAlphaType
 struct CORDL_TYPE __SpriteLightWithId__MultiplyColorByAlphaType {
 public:
@@ -85,8 +85,8 @@ static_assert(offsetof(::GlobalNamespace::__SpriteLightWithId__MultiplyColorByAl
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 83, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14542)), TypeDefinitionIndex(TypeDefinitionIndex(14556))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14557))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14436)), TypeDefinitionIndex(TypeDefinitionIndex(14450))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14451))
 // CS Name: ::SpriteLightWithId*
 class CORDL_TYPE SpriteLightWithId : public ::GlobalNamespace::LightWithIdMonoBehaviour {
 public:
@@ -186,15 +186,15 @@ public:
 
   constexpr void __cordl_internal_set__setOnlyOnce(bool value);
 
-  /// @brief Method get_color, addr 0x2113eb4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x21a865c, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method ColorWasSet, addr 0x2113ed0, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x21a8678, size 0x144, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::SpriteLightWithId* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2114014, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21a87bc, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SpriteLightWithId", modifiers: "&&", def_value: None }]

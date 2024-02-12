@@ -25,23 +25,23 @@ MARK_REF_PTR_T(::ENet::AllocCallback);
 namespace ENet {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15221))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15334))
 // CS Name: ::ENet::AllocCallback*
 class CORDL_TYPE AllocCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::ENet::AllocCallback* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x21eecb8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22845a0, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x21eed7c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2284664, size 0x14, virtual true, abstract: false, final false
   inline void* Invoke(void* size);
 
-  /// @brief Method BeginInvoke, addr 0x21eed90, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2284678, size 0x84, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(void* size, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x21eee14, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x22846fc, size 0x28, virtual true, abstract: false, final false
   inline void* EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "AllocCallback", modifiers: "&&", def_value: None }]

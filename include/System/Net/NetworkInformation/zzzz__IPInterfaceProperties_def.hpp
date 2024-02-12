@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::IPInterfaceProperties);
 namespace System::Net::NetworkInformation {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9250))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7260))
 // CS Name: ::System.Net.NetworkInformation::IPInterfaceProperties*
 class CORDL_TYPE IPInterfaceProperties : public ::System::Object {
 public:
@@ -38,7 +38,7 @@ public:
 
   static inline ::System::Net::NetworkInformation::IPInterfaceProperties* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29eb70c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29f01b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "IPInterfaceProperties", modifiers: "&&", def_value: None }]

@@ -33,7 +33,7 @@ namespace UnityEngine::UIElements {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7314))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6573))
 // CS Name: ::StyleDataRef`1::RefCounted<T>*
 class CORDL_TYPE __StyleDataRef_1__RefCounted : public ::System::Object {
 public:
@@ -125,7 +125,7 @@ namespace UnityEngine::UIElements {
 template <typename T>
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7315))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6574))
 // CS Name: ::UnityEngine.UIElements::StyleDataRef`1<T>
 struct CORDL_TYPE StyleDataRef_1 {
 public:

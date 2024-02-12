@@ -84,34 +84,34 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsRsaKeyExchange* New_ctor(::System::Collections::IList* supportedSignatureAlgorithms);
 
-  /// @brief Method .ctor, addr 0xfb1194, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfdd024, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IList* supportedSignatureAlgorithms);
 
-  /// @brief Method SkipServerCredentials, addr 0xfb11ac, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method SkipServerCredentials, addr 0xfdd03c, size 0x40, virtual true, abstract: false, final false
   inline void SkipServerCredentials();
 
-  /// @brief Method ProcessServerCredentials, addr 0xfb11ec, size 0x168, virtual true, abstract: false, final false
+  /// @brief Method ProcessServerCredentials, addr 0xfdd07c, size 0x168, virtual true, abstract: false, final false
   inline void ProcessServerCredentials(::Org::BouncyCastle::Crypto::Tls::TlsCredentials* serverCredentials);
 
-  /// @brief Method ProcessServerCertificate, addr 0xfb1354, size 0x240, virtual true, abstract: false, final false
+  /// @brief Method ProcessServerCertificate, addr 0xfdd1e4, size 0x240, virtual true, abstract: false, final false
   inline void ProcessServerCertificate(::Org::BouncyCastle::Crypto::Tls::Certificate* serverCertificate);
 
-  /// @brief Method ValidateCertificateRequest, addr 0xfb1594, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method ValidateCertificateRequest, addr 0xfdd424, size 0x9c, virtual true, abstract: false, final false
   inline void ValidateCertificateRequest(::Org::BouncyCastle::Crypto::Tls::CertificateRequest* certificateRequest);
 
-  /// @brief Method ProcessClientCredentials, addr 0xfb1630, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method ProcessClientCredentials, addr 0xfdd4c0, size 0x8c, virtual true, abstract: false, final false
   inline void ProcessClientCredentials(::Org::BouncyCastle::Crypto::Tls::TlsCredentials* clientCredentials);
 
-  /// @brief Method GenerateClientKeyExchange, addr 0xfb16bc, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GenerateClientKeyExchange, addr 0xfdd54c, size 0x28, virtual true, abstract: false, final false
   inline void GenerateClientKeyExchange(::System::IO::Stream* output);
 
-  /// @brief Method ProcessClientKeyExchange, addr 0xfb16e4, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method ProcessClientKeyExchange, addr 0xfdd574, size 0x118, virtual true, abstract: false, final false
   inline void ProcessClientKeyExchange(::System::IO::Stream* input);
 
-  /// @brief Method GeneratePremasterSecret, addr 0xfb17fc, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method GeneratePremasterSecret, addr 0xfdd68c, size 0x58, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GeneratePremasterSecret();
 
-  /// @brief Method ValidateRsaPublicKey, addr 0xfb1854, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method ValidateRsaPublicKey, addr 0xfdd6e4, size 0x70, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* ValidateRsaPublicKey(::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* key);
 
   // Ctor Parameters [CppParam { name: "", ty: "TlsRsaKeyExchange", modifiers: "&&", def_value: None }]

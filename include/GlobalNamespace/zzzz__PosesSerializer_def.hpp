@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::GlobalNamespace::PosesSerializer);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5941))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5201))
 // CS Name: ::PosesSerializer*
 class CORDL_TYPE PosesSerializer : public ::System::Object {
 public:
@@ -68,40 +68,40 @@ public:
 
   static inline ::GlobalNamespace::PosesSerializer* New_ctor(::GlobalNamespace::IBeatSaberLogger* logger);
 
-  /// @brief Method .ctor, addr 0x23022a8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x232a1ec, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IBeatSaberLogger* logger);
 
-  /// @brief Method SaveInfoFile, addr 0x2302350, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method SaveInfoFile, addr 0x232a294, size 0x104, virtual false, abstract: false, final false
   static inline void SaveInfoFile(::StringW filePath, ::GlobalNamespace::PosesRecordingData* data);
 
-  /// @brief Method SaveDataFile, addr 0x2302454, size 0x368, virtual false, abstract: false, final false
+  /// @brief Method SaveDataFile, addr 0x232a398, size 0x368, virtual false, abstract: false, final false
   static inline void SaveDataFile(::StringW filePath, ::GlobalNamespace::PosesRecordingData* data);
 
-  /// @brief Method SaveRecordingIntoDirectory, addr 0x23027bc, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method SaveRecordingIntoDirectory, addr 0x232a700, size 0x2a0, virtual false, abstract: false, final false
   inline void SaveRecordingIntoDirectory(::StringW path, ::GlobalNamespace::PosesRecordingData* data);
 
-  /// @brief Method LoadInfoFile, addr 0x2302a5c, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method LoadInfoFile, addr 0x232a9a0, size 0x1a4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PosesRecordingInfoSaveData* LoadInfoFile(::StringW filePath);
 
-  /// @brief Method LoadDataFile, addr 0x2302c00, size 0x5fc, virtual false, abstract: false, final false
+  /// @brief Method LoadDataFile, addr 0x232ab44, size 0x5fc, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::__PosesRecordingData__TransformsKeyframe*>* LoadDataFile(::StringW filePath);
 
-  /// @brief Method LoadRecordingFromDirectory, addr 0x23031fc, size 0x308, virtual false, abstract: false, final false
+  /// @brief Method LoadRecordingFromDirectory, addr 0x232b140, size 0x308, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PosesRecordingData* LoadRecordingFromDirectory(::StringW path);
 
-  /// @brief Method SaveToOldFormat, addr 0x2303504, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method SaveToOldFormat, addr 0x232b448, size 0x18, virtual true, abstract: false, final true
   inline void SaveToOldFormat(::StringW path, ::GlobalNamespace::PosesRecordingData* data);
 
-  /// @brief Method SaveRecording, addr 0x2303608, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method SaveRecording, addr 0x232b54c, size 0x3c, virtual true, abstract: false, final true
   inline void SaveRecording(::StringW path, ::GlobalNamespace::PosesRecordingData* data, bool saveToOldFormat);
 
-  /// @brief Method LoadRecording, addr 0x2303644, size 0x118, virtual true, abstract: false, final true
+  /// @brief Method LoadRecording, addr 0x232b588, size 0x118, virtual true, abstract: false, final true
   inline ::GlobalNamespace::PosesRecordingData* LoadRecording(::StringW path);
 
-  /// @brief Method RecordingExists, addr 0x230375c, size 0x340, virtual true, abstract: false, final true
+  /// @brief Method RecordingExists, addr 0x232b6a0, size 0x340, virtual true, abstract: false, final true
   inline bool RecordingExists(::StringW path);
 
-  /// @brief Method RecordingCanBeCreated, addr 0x2303a9c, size 0x4d4, virtual true, abstract: false, final true
+  /// @brief Method RecordingCanBeCreated, addr 0x232b9e0, size 0x4d4, virtual true, abstract: false, final true
   inline bool RecordingCanBeCreated(::StringW path);
 
   // Ctor Parameters [CppParam { name: "", ty: "PosesSerializer", modifiers: "&&", def_value: None }]

@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MoveBackWall);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5269))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4609))
 // CS Name: ::MoveBackWall*
 class CORDL_TYPE MoveBackWall : public ::UnityEngine::MonoBehaviour {
 public:
@@ -84,15 +84,15 @@ public:
 
   constexpr void __cordl_internal_set__material(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method Start, addr 0x225fc68, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x23be620, size 0x54, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x225fcbc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x23be674, size 0xbc, virtual false, abstract: false, final false
   inline void Update();
 
   static inline ::GlobalNamespace::MoveBackWall* New_ctor();
 
-  /// @brief Method .ctor, addr 0x225fd78, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23be730, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MoveBackWall", modifiers: "&&", def_value: None }]

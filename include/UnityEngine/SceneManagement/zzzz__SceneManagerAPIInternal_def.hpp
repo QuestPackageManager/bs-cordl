@@ -10,9 +10,6 @@ CORDL_MODULE_EXPORT(SceneManagerAPIInternal)
 namespace UnityEngine::SceneManagement {
 struct LoadSceneParameters;
 }
-namespace UnityEngine::SceneManagement {
-struct UnloadSceneOptions;
-}
 namespace UnityEngine {
 class AsyncOperation;
 }
@@ -27,23 +24,19 @@ MARK_REF_PTR_T(::UnityEngine::SceneManagement::SceneManagerAPIInternal);
 namespace UnityEngine::SceneManagement {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10381))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9149))
 // CS Name: ::UnityEngine.SceneManagement::SceneManagerAPIInternal*
 class CORDL_TYPE SceneManagerAPIInternal : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetNumScenesInBuildSettings, addr 0x2cf1b28, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetNumScenesInBuildSettings, addr 0x2cfc984, size 0x28, virtual false, abstract: false, final false
   static inline int32_t GetNumScenesInBuildSettings();
 
-  /// @brief Method LoadSceneAsyncNameIndexInternal, addr 0x2cf1b50, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method LoadSceneAsyncNameIndexInternal, addr 0x2cfc9ac, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityEngine::AsyncOperation* LoadSceneAsyncNameIndexInternal(::StringW sceneName, int32_t sceneBuildIndex, ::UnityEngine::SceneManagement::LoadSceneParameters parameters,
                                                                                bool mustCompleteNextFrame);
 
-  /// @brief Method UnloadSceneNameIndexInternal, addr 0x2cf1c0c, size 0x6c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::AsyncOperation* UnloadSceneNameIndexInternal(::StringW sceneName, int32_t sceneBuildIndex, bool immediately, ::UnityEngine::SceneManagement::UnloadSceneOptions options,
-                                                                            ByRef<bool> outSuccess);
-
-  /// @brief Method LoadSceneAsyncNameIndexInternal_Injected, addr 0x2cf1bb0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method LoadSceneAsyncNameIndexInternal_Injected, addr 0x2cfca0c, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::AsyncOperation* LoadSceneAsyncNameIndexInternal_Injected(::StringW sceneName, int32_t sceneBuildIndex,
                                                                                         ByRef<::UnityEngine::SceneManagement::LoadSceneParameters> parameters, bool mustCompleteNextFrame);
 

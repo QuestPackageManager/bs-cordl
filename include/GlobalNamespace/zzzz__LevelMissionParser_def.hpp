@@ -39,23 +39,23 @@ MARK_REF_PTR_T(::GlobalNamespace::__LevelMissionParser__ParserFunction);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4237))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10704))
 // CS Name: ::LevelMissionParser::ParserFunction*
 class CORDL_TYPE __LevelMissionParser__ParserFunction : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::GlobalNamespace::__LevelMissionParser__ParserFunction* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x232ca9c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12744fc, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x232cb74, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x12745d4, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(::ArrayW<float_t, ::Array<float_t>*> functionParams, int32_t paramCount);
 
-  /// @brief Method BeginInvoke, addr 0x232cb88, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x12745e8, size 0x94, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::ArrayW<float_t, ::Array<float_t>*> functionParams, int32_t paramCount, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x232cc1c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x127467c, size 0x28, virtual true, abstract: false, final false
   inline bool EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__LevelMissionParser__ParserFunction", modifiers: "&&", def_value: None }]
@@ -83,7 +83,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LevelMissionP
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4238))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10705))
 // CS Name: ::LevelMissionParser*
 class CORDL_TYPE LevelMissionParser : public ::System::Object {
 public:
@@ -103,19 +103,19 @@ public:
 
   static inline ::GlobalNamespace::LevelMissionParser* New_ctor();
 
-  /// @brief Method .ctor, addr 0x232c3d8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1273e38, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method AddFunction, addr 0x232c45c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method AddFunction, addr 0x1273ebc, size 0x68, virtual false, abstract: false, final false
   inline void AddFunction(::StringW name, ::GlobalNamespace::__LevelMissionParser__ParserFunction* function);
 
-  /// @brief Method Parse, addr 0x232c4c4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x1273f24, size 0x1c, virtual false, abstract: false, final false
   inline bool Parse(::StringW s);
 
-  /// @brief Method Parse, addr 0x232c4e0, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x1273f40, size 0x2c8, virtual false, abstract: false, final false
   inline bool Parse(::StringW s, int32_t start, int32_t length);
 
-  /// @brief Method ParseFunction, addr 0x232c7a8, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method ParseFunction, addr 0x1274208, size 0x2f4, virtual false, abstract: false, final false
   inline bool ParseFunction(::StringW s, int32_t start, int32_t length);
 
   // Ctor Parameters [CppParam { name: "", ty: "LevelMissionParser", modifiers: "&&", def_value: None }]

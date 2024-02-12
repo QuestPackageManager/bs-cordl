@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Timeline::ClipCaps);
 namespace UnityEngine::Timeline {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13871))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13824))
 // CS Name: ::UnityEngine.Timeline::ClipCaps
 struct CORDL_TYPE ClipCaps {
 public:

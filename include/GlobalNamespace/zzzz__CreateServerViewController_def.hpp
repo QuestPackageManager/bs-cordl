@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::GlobalNamespace::CreateServerViewController);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5711))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13558))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5013))
 // CS Name: ::CreateServerViewController*
 class CORDL_TYPE CreateServerViewController : public ::HMUI::ViewController {
 public:
@@ -83,33 +83,33 @@ public:
 
   constexpr void __cordl_internal_set__multiplayerModeSettings(::GlobalNamespace::MultiplayerModeSettings* value);
 
-  /// @brief Method add_didFinishEvent, addr 0x22ccec0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x22fc9f8, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_2<bool, ::GlobalNamespace::CreateServerFormData>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x22ccf70, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x22fcaa8, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_2<bool, ::GlobalNamespace::CreateServerFormData>* value);
 
-  /// @brief Method get_multiplayerModeSettings, addr 0x22cd020, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_multiplayerModeSettings, addr 0x22fcb58, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerModeSettings* get_multiplayerModeSettings();
 
-  /// @brief Method Setup, addr 0x22cd028, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x22fcb60, size 0x44, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings);
 
-  /// @brief Method DidActivate, addr 0x22cd06c, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x22fcba4, size 0x108, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method ApplyAndGetData, addr 0x22cd174, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method ApplyAndGetData, addr 0x22fccac, size 0xd0, virtual false, abstract: false, final false
   inline ::GlobalNamespace::CreateServerFormData ApplyAndGetData();
 
   static inline ::GlobalNamespace::CreateServerViewController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22cd244, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22fcd7c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <DidActivate>b__10_0, addr 0x22cd24c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__10_0, addr 0x22fcd84, size 0x58, virtual false, abstract: false, final false
   inline void _DidActivate_b__10_0();
 
-  /// @brief Method <DidActivate>b__10_1, addr 0x22cd2a4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__10_1, addr 0x22fcddc, size 0x58, virtual false, abstract: false, final false
   inline void _DidActivate_b__10_1();
 
   // Ctor Parameters [CppParam { name: "", ty: "CreateServerViewController", modifiers: "&&", def_value: None }]

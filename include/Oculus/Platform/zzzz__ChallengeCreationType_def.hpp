@@ -16,7 +16,7 @@ MARK_VAL_T(::Oculus::Platform::ChallengeCreationType);
 namespace Oculus::Platform {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13241))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13136))
 // CS Name: ::Oculus.Platform::ChallengeCreationType
 struct CORDL_TYPE ChallengeCreationType {
 public:

@@ -42,7 +42,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__PosesRecordingData__TransformsKeyframe);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5932))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5192))
 // CS Name: ::PosesRecordingData::TransformsKeyframe*
 class CORDL_TYPE __PosesRecordingData__TransformsKeyframe : public ::System::Object {
 public:
@@ -67,7 +67,7 @@ public:
 
   static inline ::GlobalNamespace::__PosesRecordingData__TransformsKeyframe* New_ctor(::ArrayW<::UnityEngine::Pose, ::Array<::UnityEngine::Pose>*> poses, float_t time);
 
-  /// @brief Method .ctor, addr 0x2301e04, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2329d48, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::UnityEngine::Pose, ::Array<::UnityEngine::Pose>*> poses, float_t time);
 
   // Ctor Parameters [CppParam { name: "", ty: "__PosesRecordingData__TransformsKeyframe", modifiers: "&&", def_value: None }]
@@ -105,7 +105,7 @@ static_assert(offsetof(::GlobalNamespace::__PosesRecordingData__TransformsKeyfra
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5933))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5193))
 // CS Name: ::PosesRecordingData::ExternalCameraCalibration*
 class CORDL_TYPE __PosesRecordingData__ExternalCameraCalibration : public ::System::Object {
 public:
@@ -157,12 +157,12 @@ public:
 
   static inline ::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration* New_ctor(float_t fieldOfVision, float_t nearClip, float_t farClip, float_t hmdOffset, float_t nearOffset);
 
-  /// @brief Method .ctor, addr 0x2302024, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2329f68, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(float_t fieldOfVision, float_t nearClip, float_t farClip, float_t hmdOffset, float_t nearOffset);
 
   static inline ::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration* New_ctor(::UnityEngine::Camera* camera);
 
-  /// @brief Method .ctor, addr 0x22ff93c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2327880, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Camera* camera);
 
   // Ctor Parameters [CppParam { name: "", ty: "__PosesRecordingData__ExternalCameraCalibration", modifiers: "&&", def_value: None }]
@@ -215,7 +215,7 @@ static_assert(offsetof(::GlobalNamespace::__PosesRecordingData__ExternalCameraCa
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5934))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5194))
 // CS Name: ::PosesRecordingData*
 class CORDL_TYPE PosesRecordingData : public ::System::Object {
 public:
@@ -256,24 +256,24 @@ public:
   static inline ::GlobalNamespace::PosesRecordingData* New_ctor(::ArrayW<::StringW, ::Array<::StringW>*> objectIds,
                                                                 ::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration* externalCameraCalibration);
 
-  /// @brief Method .ctor, addr 0x2301d70, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2329cb4, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::StringW, ::Array<::StringW>*> objectIds, ::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration* externalCameraCalibration);
 
   static inline ::GlobalNamespace::PosesRecordingData* New_ctor(::ArrayW<::StringW, ::Array<::StringW>*> objectIds,
                                                                 ::System::Collections::Generic::List_1<::GlobalNamespace::__PosesRecordingData__TransformsKeyframe*>* keyframes,
                                                                 ::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration* externalCameraCalibration);
 
-  /// @brief Method .ctor, addr 0x2301f90, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2329ed4, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::StringW, ::Array<::StringW>*> objectIds, ::System::Collections::Generic::List_1<::GlobalNamespace::__PosesRecordingData__TransformsKeyframe*>* keyframes,
                     ::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration* externalCameraCalibration);
 
-  /// @brief Method AddKeyframe, addr 0x2301e3c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method AddKeyframe, addr 0x2329d80, size 0xa8, virtual false, abstract: false, final false
   inline void AddKeyframe(::GlobalNamespace::__PosesRecordingData__TransformsKeyframe* keyframe);
 
-  /// @brief Method Contains, addr 0x22ff8b8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x23277fc, size 0x58, virtual false, abstract: false, final false
   inline bool Contains(::StringW objectId);
 
-  /// @brief Method ObjectIndex, addr 0x2301fcc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ObjectIndex, addr 0x2329f10, size 0x58, virtual false, abstract: false, final false
   inline int32_t ObjectIndex(::StringW objectId);
 
   // Ctor Parameters [CppParam { name: "", ty: "PosesRecordingData", modifiers: "&&", def_value: None }]

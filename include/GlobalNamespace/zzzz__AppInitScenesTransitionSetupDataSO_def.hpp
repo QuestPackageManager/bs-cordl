@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitS
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15409))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15457))
 // CS Name: ::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType
 struct CORDL_TYPE __AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType {
 public:
@@ -90,8 +90,8 @@ static_assert(offsetof(::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15408)), TypeDefinitionIndex(TypeDefinitionIndex(15409))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15410))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15456)), TypeDefinitionIndex(TypeDefinitionIndex(15457))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15458))
 // CS Name: ::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData*
 class CORDL_TYPE __AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData : public ::GlobalNamespace::SceneSetupData {
 public:
@@ -110,16 +110,16 @@ public:
 
   constexpr void __cordl_internal_set__appInitOverrideStartType_k__BackingField(::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType value);
 
-  /// @brief Method get_appInitOverrideStartType, addr 0xe23674, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_appInitOverrideStartType, addr 0xe45244, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType get_appInitOverrideStartType();
 
-  /// @brief Method set_appInitOverrideStartType, addr 0xe2367c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_appInitOverrideStartType, addr 0xe4524c, size 0x8, virtual false, abstract: false, final false
   inline void set_appInitOverrideStartType(::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType value);
 
   static inline ::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData*
   New_ctor(::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType appInitOverrideStartType);
 
-  /// @brief Method .ctor, addr 0xe1dcb0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe3f5cc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType appInitOverrideStartType);
 
   // Ctor Parameters [CppParam { name: "", ty: "__AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData", modifiers: "&&", def_value: None }]
@@ -148,11 +148,11 @@ static_assert(offsetof(::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__
 
 } // namespace GlobalNamespace
 // Type: ::AppInitScenesTransitionSetupDataSO
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15418))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15411))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15464))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15459))
 // CS Name: ::AppInitScenesTransitionSetupDataSO*
 class CORDL_TYPE AppInitScenesTransitionSetupDataSO : public ::GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO {
 public:
@@ -161,18 +161,18 @@ public:
 
   using AppInitOverrideStartType = ::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType;
 
-  /// @brief Method Init, addr 0xe23428, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0xe44ffc, size 0x6c, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method InitAsAppStart, addr 0xe23584, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method InitAsAppStart, addr 0xe45154, size 0x6c, virtual false, abstract: false, final false
   inline void InitAsAppStart();
 
-  /// @brief Method __Init, addr 0xe235f0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method __Init, addr 0xe451c0, size 0x74, virtual false, abstract: false, final false
   inline void __Init(::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType appInitOverrideStartType);
 
   static inline ::GlobalNamespace::AppInitScenesTransitionSetupDataSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe23664, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe45234, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AppInitScenesTransitionSetupDataSO", modifiers: "&&", def_value: None }]
@@ -192,7 +192,7 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AppInitScenesTransitionSetupDataSO, 0x38>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AppInitScenesTransitionSetupDataSO, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType, "", "AppInitScenesTransitionSetupDataSO/AppInitOverrideStartType");

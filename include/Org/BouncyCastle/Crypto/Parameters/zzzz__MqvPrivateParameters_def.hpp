@@ -72,24 +72,24 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Parameters::MqvPrivateParameters* New_ctor(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* staticPrivateKey,
                                                                                         ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* ephemeralPrivateKey);
 
-  /// @brief Method .ctor, addr 0xf38958, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf637e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* staticPrivateKey, ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* ephemeralPrivateKey);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::MqvPrivateParameters* New_ctor(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* staticPrivateKey,
                                                                                         ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* ephemeralPrivateKey,
                                                                                         ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* ephemeralPublicKey);
 
-  /// @brief Method .ctor, addr 0xf38960, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf637f0, size 0x1f0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* staticPrivateKey, ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* ephemeralPrivateKey,
                     ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* ephemeralPublicKey);
 
-  /// @brief Method get_StaticPrivateKey, addr 0xf38b50, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_StaticPrivateKey, addr 0xf639e0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* get_StaticPrivateKey();
 
-  /// @brief Method get_EphemeralPrivateKey, addr 0xf38b58, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_EphemeralPrivateKey, addr 0xf639e8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* get_EphemeralPrivateKey();
 
-  /// @brief Method get_EphemeralPublicKey, addr 0xf38b60, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_EphemeralPublicKey, addr 0xf639f0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* get_EphemeralPublicKey();
 
   // Ctor Parameters [CppParam { name: "", ty: "MqvPrivateParameters", modifiers: "&&", def_value: None }]

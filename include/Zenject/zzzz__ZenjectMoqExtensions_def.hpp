@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::Zenject::ZenjectMoqExtensions);
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10917))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10059))
 // CS Name: ::Zenject::ZenjectMoqExtensions*
 class CORDL_TYPE ZenjectMoqExtensions : public ::System::Object {
 public:

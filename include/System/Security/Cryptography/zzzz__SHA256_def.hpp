@@ -22,10 +22,10 @@ public:
   // Declarations
   static inline ::System::Security::Cryptography::SHA256* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2467448, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24894bc, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Create, addr 0x2467468, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x24894dc, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::SHA256* Create();
 
   // Ctor Parameters [CppParam { name: "", ty: "SHA256", modifiers: "&&", def_value: None }]

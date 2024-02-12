@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::BeatSaber::AvatarCore::AvatarShadowController);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15178))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15258))
 // CS Name: ::BeatSaber.AvatarCore::AvatarShadowController*
 class CORDL_TYPE AvatarShadowController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -105,18 +105,18 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method Start, addr 0xe0c9a4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0xe17ea4, size 0x1c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0xe0c9c0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0xe17ec0, size 0xa8, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method FollowPosition, addr 0xe0ca68, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method FollowPosition, addr 0xe17f68, size 0xe8, virtual false, abstract: false, final false
   inline void FollowPosition(::UnityEngine::Vector3 followPosition);
 
   static inline ::BeatSaber::AvatarCore::AvatarShadowController* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe0cb50, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe18050, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AvatarShadowController", modifiers: "&&", def_value: None }]

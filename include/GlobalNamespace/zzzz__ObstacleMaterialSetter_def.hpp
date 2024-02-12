@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(ObstacleMaterialSetter)
+namespace BeatSaber::PerformancePresets {
+struct ObstaclesQuality;
+}
 namespace GlobalNamespace {
 class BoolSO;
 }
 namespace GlobalNamespace {
 class ObstaclesQualitySO;
-}
-namespace GlobalNamespace {
-struct ObstaclesQuality;
 }
 namespace UnityEngine {
 class Material;
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ObstacleMaterialSetter);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4795))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4146))
 // CS Name: ::ObstacleMaterialSetter*
 class CORDL_TYPE ObstacleMaterialSetter : public ::UnityEngine::MonoBehaviour {
 public:
@@ -116,18 +116,18 @@ public:
 
   constexpr void __cordl_internal_set__obstacleFakeGlowRenderer(::UnityW<::UnityEngine::Renderer> value);
 
-  /// @brief Method Awake, addr 0x238e5b4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x22d4bc0, size 0x68, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method SetCoreMaterial, addr 0x238e61c, size 0x138, virtual false, abstract: false, final false
-  inline void SetCoreMaterial(::UnityEngine::Renderer* renderer, ::GlobalNamespace::ObstaclesQuality obstaclesQuality);
+  /// @brief Method SetCoreMaterial, addr 0x22d4c28, size 0x14c, virtual false, abstract: false, final false
+  inline void SetCoreMaterial(::UnityEngine::Renderer* renderer, ::BeatSaber::PerformancePresets::ObstaclesQuality obstaclesQuality);
 
-  /// @brief Method SetFakeGlowMaterial, addr 0x238e754, size 0x3c, virtual false, abstract: false, final false
-  inline void SetFakeGlowMaterial(::UnityEngine::Renderer* renderer, ::GlobalNamespace::ObstaclesQuality obstaclesQuality);
+  /// @brief Method SetFakeGlowMaterial, addr 0x22d4d74, size 0x40, virtual false, abstract: false, final false
+  inline void SetFakeGlowMaterial(::UnityEngine::Renderer* renderer, ::BeatSaber::PerformancePresets::ObstaclesQuality obstaclesQuality);
 
   static inline ::GlobalNamespace::ObstacleMaterialSetter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x238e790, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22d4db4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ObstacleMaterialSetter", modifiers: "&&", def_value: None }]

@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12779))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12677))
 // CS Name: ::IConnectedPlayerBeatmapObjectEventManager*
 class CORDL_TYPE IConnectedPlayerBeatmapObjectEventManager {
 public:

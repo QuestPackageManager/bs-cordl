@@ -20,8 +20,8 @@ namespace UnityEngine::UIElements::UIR {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7400)), TypeDefinitionIndex(TypeDefinitionIndex(7401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7400), inst: 3982
-// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7401), inst: 929 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7402)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6659)), TypeDefinitionIndex(TypeDefinitionIndex(6660)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6659), inst: 3964
+// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 931 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6661)) CS Name:
 // ::UnityEngine.UIElements.UIR::BasicNodePool`1<T>*
 class CORDL_TYPE BasicNodePool_1 : public ::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::BasicNode_1<T>*> {
 public:

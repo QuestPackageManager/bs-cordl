@@ -23,7 +23,7 @@ MARK_VAL_T(::UnityEngine::BoneWeight1);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10135))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8874))
 // CS Name: ::UnityEngine::BoneWeight1
 struct CORDL_TYPE BoneWeight1 {
 public:
@@ -38,19 +38,19 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::BoneWeight1>"
   constexpr ::System::IEquatable_1<::UnityEngine::BoneWeight1>* i___System__IEquatable_1___UnityEngine__BoneWeight1_();
 
-  /// @brief Method get_weight, addr 0x2cc4544, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_weight, addr 0x2cc6d88, size 0x8, virtual false, abstract: false, final false
   inline float_t get_weight();
 
-  /// @brief Method get_boneIndex, addr 0x2cc454c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_boneIndex, addr 0x2cc6d90, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_boneIndex();
 
-  /// @brief Method Equals, addr 0x2cc4554, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2cc6d98, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method Equals, addr 0x2cc45cc, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2cc6e10, size 0x5c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::BoneWeight1 other);
 
-  /// @brief Method GetHashCode, addr 0x2cc4628, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2cc6e6c, size 0x48, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "m_Weight", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_BoneIndex", ty: "int32_t", modifiers: "", def_value: None }]

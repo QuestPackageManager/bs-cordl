@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::RenderHints);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6865))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6124))
 // CS Name: ::UnityEngine.UIElements::RenderHints
 struct CORDL_TYPE RenderHints {
 public:

@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::System::Diagnostics::DebuggerStepThroughAttribute);
 namespace System::Diagnostics {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3729))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3727))
 // CS Name: ::System.Diagnostics::DebuggerStepThroughAttribute*
 class CORDL_TYPE DebuggerStepThroughAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::System::Diagnostics::DebuggerStepThroughAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2579c08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x259caf8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DebuggerStepThroughAttribute", modifiers: "&&", def_value: None }]

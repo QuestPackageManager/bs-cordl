@@ -51,13 +51,13 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::KdfParameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> shared, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
 
-  /// @brief Method .ctor, addr 0xf387f8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf63688, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> shared, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
 
-  /// @brief Method GetSharedSecret, addr 0xf38824, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetSharedSecret, addr 0xf636b4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSharedSecret();
 
-  /// @brief Method GetIV, addr 0xf3882c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetIV, addr 0xf636bc, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetIV();
 
   // Ctor Parameters [CppParam { name: "", ty: "KdfParameters", modifiers: "&&", def_value: None }]

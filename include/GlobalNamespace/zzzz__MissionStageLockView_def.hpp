@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionStageLockView);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5552))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4858))
 // CS Name: ::MissionStageLockView*
 class CORDL_TYPE MissionStageLockView : public ::UnityEngine::MonoBehaviour {
 public:
@@ -73,18 +73,18 @@ public:
 
   constexpr void __cordl_internal_set__startAnimationTime(float_t value);
 
-  /// @brief Method UpdateLocalPositionY, addr 0x22a2244, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method UpdateLocalPositionY, addr 0x23fcad8, size 0x64, virtual false, abstract: false, final false
   inline void UpdateLocalPositionY(float_t dstPosY, bool animated, float_t animationDuration);
 
-  /// @brief Method Update, addr 0x22a22a8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x23fcb3c, size 0xd0, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateStageLockText, addr 0x22a2378, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method UpdateStageLockText, addr 0x23fcc0c, size 0x24, virtual false, abstract: false, final false
   inline void UpdateStageLockText(::StringW text);
 
   static inline ::GlobalNamespace::MissionStageLockView* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22a239c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23fcc30, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionStageLockView", modifiers: "&&", def_value: None }]

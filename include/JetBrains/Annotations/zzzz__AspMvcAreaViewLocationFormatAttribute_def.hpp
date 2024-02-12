@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::JetBrains::Annotations::AspMvcAreaViewLocationFormatAttribute);
 namespace JetBrains::Annotations {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15762))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15912))
 // CS Name: ::JetBrains.Annotations::AspMvcAreaViewLocationFormatAttribute*
 class CORDL_TYPE AspMvcAreaViewLocationFormatAttribute : public ::System::Attribute {
 public:
@@ -34,13 +34,13 @@ public:
 
   static inline ::JetBrains::Annotations::AspMvcAreaViewLocationFormatAttribute* New_ctor(::StringW format);
 
-  /// @brief Method .ctor, addr 0x2eba464, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ed65ac, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW format);
 
-  /// @brief Method get_Format, addr 0x2eba48c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Format, addr 0x2ed65d4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Format();
 
-  /// @brief Method set_Format, addr 0x2eba494, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Format, addr 0x2ed65dc, size 0x8, virtual false, abstract: false, final false
   inline void set_Format(::StringW value);
 
   // Ctor Parameters [CppParam { name: "", ty: "AspMvcAreaViewLocationFormatAttribute", modifiers: "&&", def_value: None }]

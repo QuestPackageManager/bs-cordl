@@ -40,9 +40,9 @@ MARK_VAL_T(::GlobalNamespace::CreateServerFormData);
 // SizeInfo { instance_size: 80, native_size: 80, calculated_instance_size: 80, calculated_native_size: 92, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12759)), TypeDefinitionIndex(TypeDefinitionIndex(12768)), TypeDefinitionIndex(TypeDefinitionIndex(12959)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14719)), TypeDefinitionIndex(TypeDefinitionIndex(14997)), TypeDefinitionIndex(TypeDefinitionIndex(15047))] Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(5565)) CS Name: ::CreateServerFormData
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12657)), TypeDefinitionIndex(TypeDefinitionIndex(12666)), TypeDefinitionIndex(TypeDefinitionIndex(12857)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14870)), TypeDefinitionIndex(TypeDefinitionIndex(14920)), TypeDefinitionIndex(TypeDefinitionIndex(15103))] Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(10911)) CS Name: ::CreateServerFormData
 struct CORDL_TYPE CreateServerFormData {
 public:
   // Declarations

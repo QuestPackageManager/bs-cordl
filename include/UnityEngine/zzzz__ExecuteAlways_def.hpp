@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::UnityEngine::ExecuteAlways);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10219))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8963))
 // CS Name: ::UnityEngine::ExecuteAlways*
 class CORDL_TYPE ExecuteAlways : public ::System::Attribute {
 public:
   // Declarations
   static inline ::UnityEngine::ExecuteAlways* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2cd28f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cd9898, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ExecuteAlways", modifiers: "&&", def_value: None }]

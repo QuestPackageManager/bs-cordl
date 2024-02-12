@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::System::Globalization::CodePageDataItem);
 namespace System::Globalization {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3714))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3712))
 // CS Name: ::System.Globalization::CodePageDataItem*
 class CORDL_TYPE CodePageDataItem : public ::System::Object {
 public:
@@ -70,13 +70,13 @@ public:
 
   static inline ::System::Globalization::CodePageDataItem* New_ctor(int32_t dataIndex);
 
-  /// @brief Method .ctor, addr 0x256c58c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x258f1d4, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(int32_t dataIndex);
 
-  /// @brief Method CreateString, addr 0x256c630, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method CreateString, addr 0x258f278, size 0xb4, virtual false, abstract: false, final false
   static inline ::StringW CreateString(::StringW pStrings, uint32_t index);
 
-  /// @brief Method get_WebName, addr 0x256c6e4, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method get_WebName, addr 0x258f32c, size 0xbc, virtual false, abstract: false, final false
   inline ::StringW get_WebName();
 
   // Ctor Parameters [CppParam { name: "", ty: "CodePageDataItem", modifiers: "&&", def_value: None }]

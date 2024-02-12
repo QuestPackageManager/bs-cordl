@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::ActionInstaller::*)(::System::Action_1<::Zenject::DiContainer*>*)>(
     &::Zenject::ActionInstaller::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x2f0bb0c;
+  constexpr static std::size_t addrs = 0x2f27c54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::ActionInstaller::*)()>(&::Zenject::ActionInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2f1cd14;
+  constexpr static std::size_t addrs = 0x2f38e5c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::Zenject::ActionInstaller::__zenCreate)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x2f1cd3c;
+  constexpr static std::size_t addrs = 0x2f38e84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::ActionInstaller::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x2f1cdf0;
+  constexpr static std::size_t addrs = 0x2f38f38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ActionInstaller*>::get(), "__zenCreateInjectTypeInfo",

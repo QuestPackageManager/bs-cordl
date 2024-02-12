@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataS
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4105))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15602))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10563))
 // CS Name: ::MockPlatformAdditionalContentModelInitialDataSO*
 class CORDL_TYPE MockPlatformAdditionalContentModelInitialDataSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -63,18 +63,18 @@ public:
 
   constexpr void __cordl_internal_set__packBetterBuyThanLevel(bool value);
 
-  /// @brief Method get_levelsEntitlements, addr 0x2235244, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelsEntitlements, addr 0x125e498, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MockPlatformEntitlement*>* get_levelsEntitlements();
 
-  /// @brief Method get_levelPacksEntitlements, addr 0x223524c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelPacksEntitlements, addr 0x125e4a0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MockPlatformEntitlement*>* get_levelPacksEntitlements();
 
-  /// @brief Method get_packBetterBuyThanLevel, addr 0x2235254, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_packBetterBuyThanLevel, addr 0x125e4a8, size 0x8, virtual false, abstract: false, final false
   inline bool get_packBetterBuyThanLevel();
 
   static inline ::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x223525c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x125e4b0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MockPlatformAdditionalContentModelInitialDataSO", modifiers: "&&", def_value: None }]

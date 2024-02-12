@@ -89,24 +89,24 @@ public:
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24c251c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24e3590, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap* New_ctor(::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum);
 
-  /// @brief Method .ctor, addr 0x24c2524, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24e3598, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum);
 
-  /// @brief Method Set, addr 0x24c254c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x24e35c0, size 0x24, virtual false, abstract: false, final false
   inline void Set(int32_t objectId, ::StringW name, int32_t numMembers, ::ArrayW<::StringW, ::Array<::StringW>*> memberNames, int32_t assemId);
 
-  /// @brief Method Write, addr 0x24c2570, size 0x114, virtual true, abstract: false, final true
+  /// @brief Method Write, addr 0x24e35e4, size 0x114, virtual true, abstract: false, final true
   inline void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
 
-  /// @brief Method Read, addr 0x24c2684, size 0x13c, virtual true, abstract: false, final true
+  /// @brief Method Read, addr 0x24e36f8, size 0x13c, virtual true, abstract: false, final true
   inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
 
-  /// @brief Method Dump, addr 0x24c27c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Dump, addr 0x24e3834, size 0x4, virtual false, abstract: false, final false
   inline void Dump();
 
   // Ctor Parameters [CppParam { name: "", ty: "BinaryObjectWithMap", modifiers: "&&", def_value: None }]

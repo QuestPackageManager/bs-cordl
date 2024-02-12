@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::Zenject::PrefabProviderResource);
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11233))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10375))
 // CS Name: ::Zenject::PrefabProviderResource*
 class CORDL_TYPE PrefabProviderResource : public ::System::Object {
 public:
@@ -44,10 +44,10 @@ public:
 
   static inline ::Zenject::PrefabProviderResource* New_ctor(::StringW resourcePath);
 
-  /// @brief Method .ctor, addr 0x2f09c3c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f25d84, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW resourcePath);
 
-  /// @brief Method GetPrefab, addr 0x2f09c64, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method GetPrefab, addr 0x2f25dac, size 0xcc, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::Object> GetPrefab();
 
   // Ctor Parameters [CppParam { name: "", ty: "PrefabProviderResource", modifiers: "&&", def_value: None }]

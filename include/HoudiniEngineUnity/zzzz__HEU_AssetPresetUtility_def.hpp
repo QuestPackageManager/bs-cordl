@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_AssetPresetUtility);
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9614))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9406))
 // CS Name: ::HoudiniEngineUnity::HEU_AssetPresetUtility*
 class CORDL_TYPE HEU_AssetPresetUtility : public ::System::Object {
 public:
@@ -40,10 +40,10 @@ public:
 
   static inline int32_t getStaticF_PRESET_VERSION();
 
-  /// @brief Method SaveAssetPresetToFile, addr 0x214e9ac, size 0x640, virtual false, abstract: false, final false
+  /// @brief Method SaveAssetPresetToFile, addr 0x21e4290, size 0x640, virtual false, abstract: false, final false
   static inline void SaveAssetPresetToFile(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::StringW filePath);
 
-  /// @brief Method LoadPresetFileIntoAssetAndCook, addr 0x214f7d8, size 0x668, virtual false, abstract: false, final false
+  /// @brief Method LoadPresetFileIntoAssetAndCook, addr 0x21e50bc, size 0x668, virtual false, abstract: false, final false
   static inline void LoadPresetFileIntoAssetAndCook(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::StringW filePath);
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_AssetPresetUtility", modifiers: "&&", def_value: None }]

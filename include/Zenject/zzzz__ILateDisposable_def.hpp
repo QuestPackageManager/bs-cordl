@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::Zenject::ILateDisposable);
 namespace Zenject {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15735))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15885))
 // CS Name: ::Zenject::ILateDisposable*
 class CORDL_TYPE ILateDisposable {
 public:

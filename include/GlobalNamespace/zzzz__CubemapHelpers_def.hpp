@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::GlobalNamespace::CubemapHelpers);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5856))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5146))
 // CS Name: ::CubemapHelpers*
 class CORDL_TYPE CubemapHelpers : public ::System::Object {
 public:
@@ -73,19 +73,19 @@ public:
 
   static inline ::ArrayW<::UnityEngine::CubemapFace, ::Array<::UnityEngine::CubemapFace>*> getStaticF__cubemapFaces();
 
-  /// @brief Method get_cubemapHelpersMaterial, addr 0x22f6bc4, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method get_cubemapHelpersMaterial, addr 0x23234cc, size 0x128, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> get_cubemapHelpersMaterial();
 
-  /// @brief Method Downsample, addr 0x22f6cec, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method Downsample, addr 0x23235f4, size 0x12c, virtual false, abstract: false, final false
   static inline void Downsample(::UnityEngine::Texture* src, ::UnityEngine::RenderTexture* dest);
 
-  /// @brief Method CreateDownsampledCubemap, addr 0x22f6fc8, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method CreateDownsampledCubemap, addr 0x23238d0, size 0x1ec, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::RenderTexture> CreateDownsampledCubemap(::UnityEngine::RenderTexture* src, int32_t count);
 
-  /// @brief Method Create2DTextureFromCubemap, addr 0x22f71b4, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Create2DTextureFromCubemap, addr 0x2323abc, size 0x170, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::RenderTexture> Create2DTextureFromCubemap(::UnityEngine::RenderTexture* src);
 
-  /// @brief Method DrawCubemapFace, addr 0x22f6e18, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method DrawCubemapFace, addr 0x2323720, size 0x1b0, virtual false, abstract: false, final false
   static inline void DrawCubemapFace(::UnityEngine::Texture* cubemap, ::UnityEngine::CubemapFace cubemapFace);
 
   // Ctor Parameters [CppParam { name: "", ty: "CubemapHelpers", modifiers: "&&", def_value: None }]

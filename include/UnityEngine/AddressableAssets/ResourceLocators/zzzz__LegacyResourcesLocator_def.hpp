@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::ResourceLocators::LegacyResourc
 namespace UnityEngine::AddressableAssets::ResourceLocators {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14113))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14126))
 // CS Name: ::UnityEngine.AddressableAssets.ResourceLocators::LegacyResourcesLocator*
 class CORDL_TYPE LegacyResourcesLocator : public ::System::Object {
 public:
@@ -50,18 +50,18 @@ public:
   /// @brief Convert to "::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator"
   constexpr ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* i___UnityEngine__AddressableAssets__ResourceLocators__IResourceLocator() noexcept;
 
-  /// @brief Method Locate, addr 0x2a2e694, size 0x274, virtual true, abstract: false, final true
+  /// @brief Method Locate, addr 0x2a31200, size 0x274, virtual true, abstract: false, final true
   inline bool Locate(::System::Object* key, ::System::Type* type, ByRef<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> locations);
 
-  /// @brief Method get_Keys, addr 0x2a2e908, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Keys, addr 0x2a31474, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerable_1<::System::Object*>* get_Keys();
 
-  /// @brief Method get_LocatorId, addr 0x2a2e910, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_LocatorId, addr 0x2a3147c, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_LocatorId();
 
   static inline ::UnityEngine::AddressableAssets::ResourceLocators::LegacyResourcesLocator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2a2e950, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a314bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LegacyResourcesLocator", modifiers: "&&", def_value: None }]

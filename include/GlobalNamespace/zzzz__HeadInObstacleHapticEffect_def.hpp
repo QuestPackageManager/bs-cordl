@@ -33,8 +33,8 @@ MARK_REF_PTR_T(::GlobalNamespace::HeadInObstacleHapticEffect);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 89, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4863))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4217))
 // CS Name: ::HeadInObstacleHapticEffect*
 class CORDL_TYPE HeadInObstacleHapticEffect : public ::UnityEngine::MonoBehaviour {
 public:
@@ -140,27 +140,27 @@ public:
 
   constexpr void __cordl_internal_set__wasHeadInWallLastFrame(bool value);
 
-  /// @brief Method Start, addr 0x2399d04, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x235ae34, size 0x20c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy, addr 0x2399f10, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x235b040, size 0x1f0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Update, addr 0x239a100, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x235b230, size 0x88, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method HandleAnyGameplayLevelDidFinish, addr 0x239a188, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method HandleAnyGameplayLevelDidFinish, addr 0x235b2b8, size 0x14, virtual false, abstract: false, final false
   inline void HandleAnyGameplayLevelDidFinish();
 
-  /// @brief Method HandleDidResumeEvent, addr 0x239a19c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method HandleDidResumeEvent, addr 0x235b2cc, size 0x28, virtual false, abstract: false, final false
   inline void HandleDidResumeEvent();
 
-  /// @brief Method HandleDidPauseEvent, addr 0x239a1c4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method HandleDidPauseEvent, addr 0x235b2f4, size 0x14, virtual false, abstract: false, final false
   inline void HandleDidPauseEvent();
 
   static inline ::GlobalNamespace::HeadInObstacleHapticEffect* New_ctor();
 
-  /// @brief Method .ctor, addr 0x239a1d8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x235b308, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HeadInObstacleHapticEffect", modifiers: "&&", def_value: None }]

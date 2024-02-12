@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::UnityEngine::Networking::CertificateHandler);
 namespace UnityEngine::Networking {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15583))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15741))
 // CS Name: ::UnityEngine.Networking::CertificateHandler*
 class CORDL_TYPE CertificateHandler : public ::System::Object {
 public:
@@ -32,16 +32,16 @@ public:
 
   constexpr void __cordl_internal_set_m_Ptr(void* value);
 
-  /// @brief Method Release, addr 0x2eafcf8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x2ec9fc4, size 0x3c, virtual false, abstract: false, final false
   inline void Release();
 
-  /// @brief Method ValidateCertificate, addr 0x2eafd34, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ValidateCertificate, addr 0x2eca000, size 0x8, virtual true, abstract: false, final false
   inline bool ValidateCertificate(::ArrayW<uint8_t, ::Array<uint8_t>*> certificateData);
 
-  /// @brief Method ValidateCertificateNative, addr 0x2eafd3c, size 0x100c, virtual false, abstract: false, final false
+  /// @brief Method ValidateCertificateNative, addr 0x2eca008, size 0xc, virtual false, abstract: false, final false
   inline bool ValidateCertificateNative(::ArrayW<uint8_t, ::Array<uint8_t>*> certificateData);
 
-  /// @brief Method Dispose, addr 0x2eae254, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2ec863c, size 0x94, virtual true, abstract: false, final true
   inline void Dispose();
 
   // Ctor Parameters [CppParam { name: "", ty: "CertificateHandler", modifiers: "&&", def_value: None }]

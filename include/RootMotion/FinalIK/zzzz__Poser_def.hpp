@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::Poser);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 77, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12499))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12617))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12397))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12515))
 // CS Name: ::RootMotion.FinalIK::Poser*
 class CORDL_TYPE Poser : public ::RootMotion::SolverManager {
 public:
@@ -72,7 +72,7 @@ public:
   /// @brief Method AutoMapping, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void AutoMapping();
 
-  /// @brief Method UpdateManual, addr 0x128d47c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method UpdateManual, addr 0x132552c, size 0xc, virtual false, abstract: false, final false
   inline void UpdateManual();
 
   /// @brief Method InitiatePoser, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -84,18 +84,18 @@ public:
   /// @brief Method FixPoserTransforms, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void FixPoserTransforms();
 
-  /// @brief Method UpdateSolver, addr 0x128d488, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method UpdateSolver, addr 0x1325538, size 0x44, virtual true, abstract: false, final false
   inline void UpdateSolver();
 
-  /// @brief Method InitiateSolver, addr 0x128d4cc, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method InitiateSolver, addr 0x132557c, size 0x2c, virtual true, abstract: false, final false
   inline void InitiateSolver();
 
-  /// @brief Method FixTransforms, addr 0x128d4f8, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method FixTransforms, addr 0x13255a8, size 0x18, virtual true, abstract: false, final false
   inline void FixTransforms();
 
   static inline ::RootMotion::FinalIK::Poser* New_ctor();
 
-  /// @brief Method .ctor, addr 0x128cde4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1324e94, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Poser", modifiers: "&&", def_value: None }]

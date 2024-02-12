@@ -41,7 +41,7 @@ public:
 
   static inline ::Mono::Globalization::Unicode::Level2Map* New_ctor(uint8_t source, uint8_t replace);
 
-  /// @brief Method .ctor, addr 0x24156c4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2435524, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(uint8_t source, uint8_t replace);
 
   // Ctor Parameters [CppParam { name: "", ty: "Level2Map", modifiers: "&&", def_value: None }]

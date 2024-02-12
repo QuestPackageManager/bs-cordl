@@ -41,12 +41,12 @@ public:
 
   static inline ::Mono::Globalization::Unicode::ContractionComparer* getStaticF_Instance();
 
-  /// @brief Method Compare, addr 0x24155c4, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x2435424, size 0x94, virtual true, abstract: false, final true
   inline int32_t Compare(::Mono::Globalization::Unicode::Contraction* c1, ::Mono::Globalization::Unicode::Contraction* c2);
 
   static inline ::Mono::Globalization::Unicode::ContractionComparer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2415658, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24354b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ContractionComparer", modifiers: "&&", def_value: None }]

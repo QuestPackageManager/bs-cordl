@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Layouts::InputControlAttribute);
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Layouts {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10170))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6594))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8914))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5853))
 // CS Name: ::UnityEngine.InputSystem.Layouts::InputControlAttribute*
 class CORDL_TYPE InputControlAttribute : public ::UnityEngine::PropertyAttribute {
 public:
@@ -279,147 +279,147 @@ public:
 
   constexpr void __cordl_internal_set__maxValue_k__BackingField(::System::Object* value);
 
-  /// @brief Method get_layout, addr 0x2afa128, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_layout, addr 0x2afac94, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_layout();
 
-  /// @brief Method set_layout, addr 0x2afa130, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_layout, addr 0x2afac9c, size 0x8, virtual false, abstract: false, final false
   inline void set_layout(::StringW value);
 
-  /// @brief Method get_variants, addr 0x2afa138, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_variants, addr 0x2afaca4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_variants();
 
-  /// @brief Method set_variants, addr 0x2afa140, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_variants, addr 0x2afacac, size 0x8, virtual false, abstract: false, final false
   inline void set_variants(::StringW value);
 
-  /// @brief Method get_name, addr 0x2afa148, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x2afacb4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method set_name, addr 0x2afa150, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_name, addr 0x2afacbc, size 0x8, virtual false, abstract: false, final false
   inline void set_name(::StringW value);
 
-  /// @brief Method get_format, addr 0x2afa158, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_format, addr 0x2afacc4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_format();
 
-  /// @brief Method set_format, addr 0x2afa160, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_format, addr 0x2afaccc, size 0x8, virtual false, abstract: false, final false
   inline void set_format(::StringW value);
 
-  /// @brief Method get_usage, addr 0x2afa168, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_usage, addr 0x2afacd4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_usage();
 
-  /// @brief Method set_usage, addr 0x2afa170, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_usage, addr 0x2afacdc, size 0x8, virtual false, abstract: false, final false
   inline void set_usage(::StringW value);
 
-  /// @brief Method get_usages, addr 0x2afa178, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_usages, addr 0x2aface4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_usages();
 
-  /// @brief Method set_usages, addr 0x2afa180, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_usages, addr 0x2afacec, size 0x8, virtual false, abstract: false, final false
   inline void set_usages(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method get_parameters, addr 0x2afa188, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_parameters, addr 0x2afacf4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_parameters();
 
-  /// @brief Method set_parameters, addr 0x2afa190, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_parameters, addr 0x2afacfc, size 0x8, virtual false, abstract: false, final false
   inline void set_parameters(::StringW value);
 
-  /// @brief Method get_processors, addr 0x2afa198, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_processors, addr 0x2afad04, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_processors();
 
-  /// @brief Method set_processors, addr 0x2afa1a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_processors, addr 0x2afad0c, size 0x8, virtual false, abstract: false, final false
   inline void set_processors(::StringW value);
 
-  /// @brief Method get_alias, addr 0x2afa1a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_alias, addr 0x2afad14, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_alias();
 
-  /// @brief Method set_alias, addr 0x2afa1b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_alias, addr 0x2afad1c, size 0x8, virtual false, abstract: false, final false
   inline void set_alias(::StringW value);
 
-  /// @brief Method get_aliases, addr 0x2afa1b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_aliases, addr 0x2afad24, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_aliases();
 
-  /// @brief Method set_aliases, addr 0x2afa1c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_aliases, addr 0x2afad2c, size 0x8, virtual false, abstract: false, final false
   inline void set_aliases(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method get_useStateFrom, addr 0x2afa1c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useStateFrom, addr 0x2afad34, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_useStateFrom();
 
-  /// @brief Method set_useStateFrom, addr 0x2afa1d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_useStateFrom, addr 0x2afad3c, size 0x8, virtual false, abstract: false, final false
   inline void set_useStateFrom(::StringW value);
 
-  /// @brief Method get_bit, addr 0x2afa1d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bit, addr 0x2afad44, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_bit();
 
-  /// @brief Method set_bit, addr 0x2afa1e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_bit, addr 0x2afad4c, size 0x8, virtual false, abstract: false, final false
   inline void set_bit(uint32_t value);
 
-  /// @brief Method get_offset, addr 0x2afa1e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_offset, addr 0x2afad54, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_offset();
 
-  /// @brief Method set_offset, addr 0x2afa1f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_offset, addr 0x2afad5c, size 0x8, virtual false, abstract: false, final false
   inline void set_offset(uint32_t value);
 
-  /// @brief Method get_sizeInBits, addr 0x2afa1f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sizeInBits, addr 0x2afad64, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_sizeInBits();
 
-  /// @brief Method set_sizeInBits, addr 0x2afa200, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_sizeInBits, addr 0x2afad6c, size 0x8, virtual false, abstract: false, final false
   inline void set_sizeInBits(uint32_t value);
 
-  /// @brief Method get_arraySize, addr 0x2afa208, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_arraySize, addr 0x2afad74, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_arraySize();
 
-  /// @brief Method set_arraySize, addr 0x2afa210, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_arraySize, addr 0x2afad7c, size 0x8, virtual false, abstract: false, final false
   inline void set_arraySize(int32_t value);
 
-  /// @brief Method get_displayName, addr 0x2afa218, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_displayName, addr 0x2afad84, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_displayName();
 
-  /// @brief Method set_displayName, addr 0x2afa220, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_displayName, addr 0x2afad8c, size 0x8, virtual false, abstract: false, final false
   inline void set_displayName(::StringW value);
 
-  /// @brief Method get_shortDisplayName, addr 0x2afa228, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_shortDisplayName, addr 0x2afad94, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_shortDisplayName();
 
-  /// @brief Method set_shortDisplayName, addr 0x2afa230, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_shortDisplayName, addr 0x2afad9c, size 0x8, virtual false, abstract: false, final false
   inline void set_shortDisplayName(::StringW value);
 
-  /// @brief Method get_noisy, addr 0x2afa238, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_noisy, addr 0x2afada4, size 0x8, virtual false, abstract: false, final false
   inline bool get_noisy();
 
-  /// @brief Method set_noisy, addr 0x2afa240, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_noisy, addr 0x2afadac, size 0xc, virtual false, abstract: false, final false
   inline void set_noisy(bool value);
 
-  /// @brief Method get_synthetic, addr 0x2afa24c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_synthetic, addr 0x2afadb8, size 0x8, virtual false, abstract: false, final false
   inline bool get_synthetic();
 
-  /// @brief Method set_synthetic, addr 0x2afa254, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_synthetic, addr 0x2afadc0, size 0xc, virtual false, abstract: false, final false
   inline void set_synthetic(bool value);
 
-  /// @brief Method get_dontReset, addr 0x2afa260, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dontReset, addr 0x2afadcc, size 0x8, virtual false, abstract: false, final false
   inline bool get_dontReset();
 
-  /// @brief Method set_dontReset, addr 0x2afa268, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_dontReset, addr 0x2afadd4, size 0xc, virtual false, abstract: false, final false
   inline void set_dontReset(bool value);
 
-  /// @brief Method get_defaultState, addr 0x2afa274, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultState, addr 0x2afade0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_defaultState();
 
-  /// @brief Method set_defaultState, addr 0x2afa27c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_defaultState, addr 0x2afade8, size 0x8, virtual false, abstract: false, final false
   inline void set_defaultState(::System::Object* value);
 
-  /// @brief Method get_minValue, addr 0x2afa284, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_minValue, addr 0x2afadf0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_minValue();
 
-  /// @brief Method set_minValue, addr 0x2afa28c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_minValue, addr 0x2afadf8, size 0x8, virtual false, abstract: false, final false
   inline void set_minValue(::System::Object* value);
 
-  /// @brief Method get_maxValue, addr 0x2afa294, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxValue, addr 0x2afae00, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_maxValue();
 
-  /// @brief Method set_maxValue, addr 0x2afa29c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maxValue, addr 0x2afae08, size 0x8, virtual false, abstract: false, final false
   inline void set_maxValue(::System::Object* value);
 
   static inline ::UnityEngine::InputSystem::Layouts::InputControlAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2afa2a4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2afae10, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "InputControlAttribute", modifiers: "&&", def_value: None }]

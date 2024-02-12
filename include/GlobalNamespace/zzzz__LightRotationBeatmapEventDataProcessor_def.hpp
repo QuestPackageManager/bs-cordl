@@ -21,20 +21,20 @@ MARK_REF_PTR_T(::GlobalNamespace::LightRotationBeatmapEventDataProcessor);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14735)), TypeDefinitionIndex(TypeDefinitionIndex(14741)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14741), inst:
-// 952 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14746)) CS Name: ::LightRotationBeatmapEventDataProcessor*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15119)), TypeDefinitionIndex(TypeDefinitionIndex(15125)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15125), inst:
+// 948 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(15130)) CS Name: ::LightRotationBeatmapEventDataProcessor*
 class CORDL_TYPE LightRotationBeatmapEventDataProcessor : public ::GlobalNamespace::BeatmapEventDataProcessor_1<::GlobalNamespace::LightRotationBeatmapEventData*> {
 public:
   // Declarations
-  /// @brief Method ProcessInsertedEventDataInternal, addr 0xdffc14, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method ProcessInsertedEventDataInternal, addr 0xe100fc, size 0x110, virtual true, abstract: false, final false
   inline void ProcessInsertedEventDataInternal(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* insertedNode);
 
-  /// @brief Method ProcessBeforeDeleteEventDataInternal, addr 0xdffd24, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method ProcessBeforeDeleteEventDataInternal, addr 0xe1020c, size 0xfc, virtual true, abstract: false, final false
   inline void ProcessBeforeDeleteEventDataInternal(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* nodeToDelete);
 
   static inline ::GlobalNamespace::LightRotationBeatmapEventDataProcessor* New_ctor();
 
-  /// @brief Method .ctor, addr 0xdffe20, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe10308, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LightRotationBeatmapEventDataProcessor", modifiers: "&&", def_value: None }]

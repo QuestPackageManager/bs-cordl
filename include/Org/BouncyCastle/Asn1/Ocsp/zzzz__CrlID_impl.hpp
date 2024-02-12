@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Ocsp::CrlID::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Ocsp::CrlID::_ctor)> {
   constexpr static std::size_t size = 0x3c0;
-  constexpr static std::size_t addrs = 0xf80330;
+  constexpr static std::size_t addrs = 0xfab1c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerIA5String* (::Org::BouncyCastle::Asn1::Ocsp::CrlID::*)()>(
     &::Org::BouncyCastle::Asn1::Ocsp::CrlID::get_CrlUrl)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf806f0;
+  constexpr static std::size_t addrs = 0xfab580;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Ocsp::CrlID*>::get(), "get_CrlUrl",
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerInteger* (::Org::BouncyCastle::Asn1::Ocsp::CrlID::*)()>(
     &::Org::BouncyCastle::Asn1::Ocsp::CrlID::get_CrlNum)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf806f8;
+  constexpr static std::size_t addrs = 0xfab588;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Ocsp::CrlID*>::get(), "get_CrlNum",
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerGeneralizedTime* (::Org::BouncyCastle::Asn1::Ocsp::CrlID::*)()>(
     &::Org::BouncyCastle::Asn1::Ocsp::CrlID::get_CrlTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf80700;
+  constexpr static std::size_t addrs = 0xfab590;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Ocsp::CrlID*>::get(), "get_CrlTime",
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Ocsp::CrlID::*)()>(
     &::Org::BouncyCastle::Asn1::Ocsp::CrlID::ToAsn1Object)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0xf80708;
+  constexpr static std::size_t addrs = 0xfab598;
 
   inline static ::MethodInfo const* methodInfo() {
 

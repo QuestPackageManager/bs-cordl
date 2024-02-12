@@ -35,8 +35,8 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Bson::BsonArray);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Bson {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12074))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12076))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11972))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11974))
 // CS Name: ::Newtonsoft.Json.Bson::BsonArray*
 class CORDL_TYPE BsonArray : public ::Newtonsoft::Json::Bson::BsonToken {
 public:
@@ -64,21 +64,21 @@ public:
 
   constexpr void __cordl_internal_set__children(::System::Collections::Generic::List_1<::Newtonsoft::Json::Bson::BsonToken*>* value);
 
-  /// @brief Method Add, addr 0x26c8290, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x26ea44c, size 0xb0, virtual false, abstract: false, final false
   inline void Add(::Newtonsoft::Json::Bson::BsonToken* token);
 
-  /// @brief Method get_Type, addr 0x26c8340, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x26ea4fc, size 0x8, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Bson::BsonType get_Type();
 
-  /// @brief Method GetEnumerator, addr 0x26c626c, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x26e8428, size 0x90, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Bson::BsonToken*>* GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x26c8348, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x26ea504, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   static inline ::Newtonsoft::Json::Bson::BsonArray* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26c834c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ea508, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BsonArray", modifiers: "&&", def_value: None }]

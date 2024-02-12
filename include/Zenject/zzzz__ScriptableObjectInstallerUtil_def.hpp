@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::Zenject::ScriptableObjectInstallerUtil);
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11153))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10295))
 // CS Name: ::Zenject::ScriptableObjectInstallerUtil*
 class CORDL_TYPE ScriptableObjectInstallerUtil : public ::System::Object {
 public:

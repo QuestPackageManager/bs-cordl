@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ProBuilder::ShapeType);
 namespace UnityEngine::ProBuilder {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12197))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12095))
 // CS Name: ::UnityEngine.ProBuilder::ShapeType
 struct CORDL_TYPE ShapeType {
 public:

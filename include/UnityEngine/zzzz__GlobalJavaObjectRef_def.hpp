@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::UnityEngine::GlobalJavaObjectRef);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14910))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14783))
 // CS Name: ::UnityEngine::GlobalJavaObjectRef*
 class CORDL_TYPE GlobalJavaObjectRef : public ::System::Object {
 public:
@@ -42,16 +42,16 @@ public:
 
   static inline ::UnityEngine::GlobalJavaObjectRef* New_ctor(void* jobject);
 
-  /// @brief Method .ctor, addr 0x2c83e98, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c80a04, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(void* jobject);
 
-  /// @brief Method Finalize, addr 0x2c83f88, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x2c80af4, size 0x94, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method op_Implicit, addr 0x2c84098, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2c80c04, size 0x18, virtual false, abstract: false, final false
   static inline void* op_Implicit_void_(::UnityEngine::GlobalJavaObjectRef* obj);
 
-  /// @brief Method Dispose, addr 0x2c8401c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x2c80b88, size 0x7c, virtual false, abstract: false, final false
   inline void Dispose();
 
   // Ctor Parameters [CppParam { name: "", ty: "GlobalJavaObjectRef", modifiers: "&&", def_value: None }]

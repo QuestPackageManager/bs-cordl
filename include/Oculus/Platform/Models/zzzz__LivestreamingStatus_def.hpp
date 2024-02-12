@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::LivestreamingStatus);
 namespace Oculus::Platform::Models {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13455))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13394))
 // CS Name: ::Oculus.Platform.Models::LivestreamingStatus*
 class CORDL_TYPE LivestreamingStatus : public ::System::Object {
 public:
@@ -68,7 +68,7 @@ public:
 
   static inline ::Oculus::Platform::Models::LivestreamingStatus* New_ctor(void* o);
 
-  /// @brief Method .ctor, addr 0x2707304, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x273a1f0, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "LivestreamingStatus", modifiers: "&&", def_value: None }]

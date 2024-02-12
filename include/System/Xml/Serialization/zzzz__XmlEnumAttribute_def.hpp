@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::System::Xml::Serialization::XmlEnumAttribute);
 namespace System::Xml::Serialization {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11588))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11486))
 // CS Name: ::System.Xml.Serialization::XmlEnumAttribute*
 class CORDL_TYPE XmlEnumAttribute : public ::System::Attribute {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::System::Xml::Serialization::XmlEnumAttribute* New_ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x28abf2c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28af594, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlEnumAttribute", modifiers: "&&", def_value: None }]

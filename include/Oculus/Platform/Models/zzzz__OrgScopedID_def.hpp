@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::OrgScopedID);
 namespace Oculus::Platform::Models {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13465))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13414))
 // CS Name: ::Oculus.Platform.Models::OrgScopedID*
 class CORDL_TYPE OrgScopedID : public ::System::Object {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::Oculus::Platform::Models::OrgScopedID* New_ctor(void* o);
 
-  /// @brief Method .ctor, addr 0x2707cc4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x273bd20, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "OrgScopedID", modifiers: "&&", def_value: None }]

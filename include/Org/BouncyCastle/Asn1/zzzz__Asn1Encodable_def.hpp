@@ -38,19 +38,19 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
   constexpr ::Org::BouncyCastle::Asn1::IAsn1Convertible* i___Org__BouncyCastle__Asn1__IAsn1Convertible() noexcept;
 
-  /// @brief Method GetEncoded, addr 0xe631cc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0xe8e05c, size 0xb4, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
-  /// @brief Method GetEncoded, addr 0xe63280, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0xe8e110, size 0xf4, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded(::StringW encoding);
 
-  /// @brief Method GetDerEncoded, addr 0xe63374, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetDerEncoded, addr 0xe8e204, size 0xc0, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetDerEncoded();
 
-  /// @brief Method GetHashCode, addr 0xe63434, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method GetHashCode, addr 0xe8e2c4, size 0x28, virtual true, abstract: false, final true
   inline int32_t GetHashCode();
 
-  /// @brief Method Equals, addr 0xe63468, size 0x108, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0xe8e2f8, size 0x108, virtual true, abstract: false, final true
   inline bool Equals(::System::Object* obj);
 
   /// @brief Method ToAsn1Object, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -58,7 +58,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Asn1Encodable* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe6357c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe8e40c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Asn1Encodable", modifiers: "&&", def_value: None }]

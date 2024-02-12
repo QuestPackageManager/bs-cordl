@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::Newtonsoft::Json::JsonReaderException);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11804))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11829))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11702))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11727))
 // CS Name: ::Newtonsoft.Json::JsonReaderException*
 class CORDL_TYPE JsonReaderException : public ::Newtonsoft::Json::JsonException {
 public:
@@ -70,56 +70,56 @@ public:
 
   constexpr void __cordl_internal_set__Path_k__BackingField(::StringW value);
 
-  /// @brief Method get_LineNumber, addr 0x264a29c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LineNumber, addr 0x266e458, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_LineNumber();
 
-  /// @brief Method set_LineNumber, addr 0x264a2a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LineNumber, addr 0x266e460, size 0x8, virtual false, abstract: false, final false
   inline void set_LineNumber(int32_t value);
 
-  /// @brief Method get_LinePosition, addr 0x264a2ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LinePosition, addr 0x266e468, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_LinePosition();
 
-  /// @brief Method set_LinePosition, addr 0x264a2b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LinePosition, addr 0x266e470, size 0x8, virtual false, abstract: false, final false
   inline void set_LinePosition(int32_t value);
 
-  /// @brief Method get_Path, addr 0x264a2bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Path, addr 0x266e478, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Path();
 
-  /// @brief Method set_Path, addr 0x264a2c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Path, addr 0x266e480, size 0x8, virtual false, abstract: false, final false
   inline void set_Path(::StringW value);
 
   static inline ::Newtonsoft::Json::JsonReaderException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x264a2cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x266e488, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Newtonsoft::Json::JsonReaderException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x264a2d0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x266e48c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::Newtonsoft::Json::JsonReaderException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x264a2d4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x266e490, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
   static inline ::Newtonsoft::Json::JsonReaderException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x264a2d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x266e494, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::Newtonsoft::Json::JsonReaderException* New_ctor(::StringW message, ::System::Exception* innerException, ::StringW path, int32_t lineNumber, int32_t linePosition);
 
-  /// @brief Method .ctor, addr 0x264a2dc, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x266e498, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException, ::StringW path, int32_t lineNumber, int32_t linePosition);
 
-  /// @brief Method Create, addr 0x2642618, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x26667d4, size 0x8, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::JsonReaderException* Create(::Newtonsoft::Json::JsonReader* reader, ::StringW message);
 
-  /// @brief Method Create, addr 0x2647664, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x266b820, size 0x84, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::JsonReaderException* Create(::Newtonsoft::Json::JsonReader* reader, ::StringW message, ::System::Exception* ex);
 
-  /// @brief Method Create, addr 0x264a314, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x266e4d0, size 0x200, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::JsonReaderException* Create(::Newtonsoft::Json::IJsonLineInfo* lineInfo, ::StringW path, ::StringW message, ::System::Exception* ex);
 
   // Ctor Parameters [CppParam { name: "", ty: "JsonReaderException", modifiers: "&&", def_value: None }]

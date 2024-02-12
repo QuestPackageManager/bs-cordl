@@ -21,8 +21,8 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::StylePropertyValue);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7277))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7462))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6536))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6721))
 // CS Name: ::UnityEngine.UIElements.StyleSheets::StylePropertyValue
 struct CORDL_TYPE StylePropertyValue {
 public:

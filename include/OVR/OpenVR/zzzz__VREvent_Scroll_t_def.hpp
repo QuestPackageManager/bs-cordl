@@ -17,7 +17,7 @@ MARK_VAL_T(::OVR::OpenVR::VREvent_Scroll_t);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8668))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8612))
 // CS Name: ::OVR.OpenVR::VREvent_Scroll_t
 struct CORDL_TYPE VREvent_Scroll_t {
 public:

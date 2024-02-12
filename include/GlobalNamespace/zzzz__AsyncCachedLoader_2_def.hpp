@@ -11,8 +11,8 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AsyncCachedLoader_2)
-namespace GlobalNamespace {
-template <typename K, typename V> class HMCache_2;
+namespace BGLib::DotnetExtension::Collections {
+template <typename TKey, typename TValue> class LRUCache_2;
 }
 namespace GlobalNamespace {
 template <typename TKey, typename TValue> struct __AsyncCachedLoader_2__ScheduledTask;
@@ -75,7 +75,7 @@ namespace GlobalNamespace {
 template <typename TKey, typename TValue>
 // Is value type: true
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5906))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16026))
 // CS Name: ::AsyncCachedLoader`2::ScheduledTask<TKey,TValue>
 struct CORDL_TYPE __AsyncCachedLoader_2__ScheduledTask {
 public:
@@ -115,9 +115,9 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 864 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 864 })] Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(5907)) CS Name: ::AsyncCachedLoader`2::<LoadAsync>d__7<TKey,TValue>
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3398)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 865 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3398), inst: 865 })] Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(16027)) CS Name: ::AsyncCachedLoader`2::<LoadAsync>d__7<TKey,TValue>
 struct CORDL_TYPE __AsyncCachedLoader_2___LoadAsync_d__7 {
 public:
   // Declarations
@@ -176,9 +176,9 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(5906)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5056 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5906), inst: 84 })] Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(5908)) CS Name: ::AsyncCachedLoader`2::<LoadAllAsync>d__8<TKey,TValue>
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3396)), TypeDefinitionIndex(TypeDefinitionIndex(16026)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 5027 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(16026), inst: 87 })] Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(16028)) CS Name: ::AsyncCachedLoader`2::<LoadAllAsync>d__8<TKey,TValue>
 struct CORDL_TYPE __AsyncCachedLoader_2___LoadAllAsync_d__8 {
 public:
   // Declarations
@@ -236,7 +236,7 @@ namespace GlobalNamespace {
 template <typename TKey, typename TValue>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5909))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16029))
 // CS Name: ::AsyncCachedLoader`2<TKey,TValue>*
 class CORDL_TYPE AsyncCachedLoader_2 : public ::System::Object {
 public:
@@ -252,7 +252,7 @@ public:
                       put = __cordl_internal_set__scheduledTaskList))::System::Collections::Generic::List_1<::GlobalNamespace::__AsyncCachedLoader_2__ScheduledTask<TKey, TValue>>* _scheduledTaskList;
 
   /// @brief Field _cache, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__cache, put = __cordl_internal_set__cache))::GlobalNamespace::HMCache_2<TKey, TValue>* _cache;
+  __declspec(property(get = __cordl_internal_get__cache, put = __cordl_internal_set__cache))::BGLib::DotnetExtension::Collections::LRUCache_2<TKey, TValue>* _cache;
 
   /// @brief Field _resultValueFunc, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__resultValueFunc,
@@ -268,11 +268,11 @@ public:
 
   constexpr void __cordl_internal_set__scheduledTaskList(::System::Collections::Generic::List_1<::GlobalNamespace::__AsyncCachedLoader_2__ScheduledTask<TKey, TValue>>* value);
 
-  constexpr ::GlobalNamespace::HMCache_2<TKey, TValue>*& __cordl_internal_get__cache();
+  constexpr ::BGLib::DotnetExtension::Collections::LRUCache_2<TKey, TValue>*& __cordl_internal_get__cache();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::HMCache_2<TKey, TValue>*> const& __cordl_internal_get__cache() const;
+  constexpr ::cordl_internals::to_const_pointer<::BGLib::DotnetExtension::Collections::LRUCache_2<TKey, TValue>*> const& __cordl_internal_get__cache() const;
 
-  constexpr void __cordl_internal_set__cache(::GlobalNamespace::HMCache_2<TKey, TValue>* value);
+  constexpr void __cordl_internal_set__cache(::BGLib::DotnetExtension::Collections::LRUCache_2<TKey, TValue>* value);
 
   constexpr ::System::Func_3<TKey, ::System::Threading::CancellationToken, ::System::Threading::Tasks::Task_1<TValue>*>*& __cordl_internal_get__resultValueFunc();
 
@@ -320,7 +320,7 @@ public:
   ::System::Collections::Generic::List_1<::GlobalNamespace::__AsyncCachedLoader_2__ScheduledTask<TKey, TValue>>* ____scheduledTaskList;
 
   /// @brief Field _cache, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::HMCache_2<TKey, TValue>* ____cache;
+  ::BGLib::DotnetExtension::Collections::LRUCache_2<TKey, TValue>* ____cache;
 
   /// @brief Field _resultValueFunc, offset: 0x20, size: 0x8, def value: None
   ::System::Func_3<TKey, ::System::Threading::CancellationToken, ::System::Threading::Tasks::Task_1<TValue>*>* ____resultValueFunc;

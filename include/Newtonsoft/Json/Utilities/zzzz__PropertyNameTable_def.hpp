@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::__PropertyNameTable__Entry);
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11849))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11747))
 // CS Name: ::PropertyNameTable::Entry*
 class CORDL_TYPE __PropertyNameTable__Entry : public ::System::Object {
 public:
@@ -59,7 +59,7 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::__PropertyNameTable__Entry* New_ctor(::StringW value, int32_t hashCode, ::Newtonsoft::Json::Utilities::__PropertyNameTable__Entry* next);
 
-  /// @brief Method .ctor, addr 0x265a378, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x267d534, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::StringW value, int32_t hashCode, ::Newtonsoft::Json::Utilities::__PropertyNameTable__Entry* next);
 
   // Ctor Parameters [CppParam { name: "", ty: "__PropertyNameTable__Entry", modifiers: "&&", def_value: None }]
@@ -102,7 +102,7 @@ static_assert(offsetof(::Newtonsoft::Json::Utilities::__PropertyNameTable__Entry
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11850))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11748))
 // CS Name: ::Newtonsoft.Json.Utilities::PropertyNameTable*
 class CORDL_TYPE PropertyNameTable : public ::System::Object {
 public:
@@ -147,22 +147,22 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::PropertyNameTable* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2659e18, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x267cfd4, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Get, addr 0x2659e80, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x267d03c, size 0x188, virtual false, abstract: false, final false
   inline ::StringW Get(::ArrayW<char16_t, ::Array<char16_t>*> key, int32_t start, int32_t length);
 
-  /// @brief Method Add, addr 0x265a0b8, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x267d274, size 0x1b4, virtual false, abstract: false, final false
   inline ::StringW Add(::StringW key);
 
-  /// @brief Method AddEntry, addr 0x265a26c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method AddEntry, addr 0x267d428, size 0x10c, virtual false, abstract: false, final false
   inline ::StringW AddEntry(::StringW str, int32_t hashCode);
 
-  /// @brief Method Grow, addr 0x265a3b8, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method Grow, addr 0x267d574, size 0x124, virtual false, abstract: false, final false
   inline void Grow();
 
-  /// @brief Method TextEquals, addr 0x265a008, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method TextEquals, addr 0x267d1c4, size 0xb0, virtual false, abstract: false, final false
   static inline bool TextEquals(::StringW str1, ::ArrayW<char16_t, ::Array<char16_t>*> str2, int32_t str2Start, int32_t str2Length);
 
   // Ctor Parameters [CppParam { name: "", ty: "PropertyNameTable", modifiers: "&&", def_value: None }]

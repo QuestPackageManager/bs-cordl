@@ -29,7 +29,7 @@ public:
 
   static inline ::System::EventArgs* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2596f70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25b8e88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EventArgs", modifiers: "&&", def_value: None }]

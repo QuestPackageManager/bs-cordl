@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::System::Xml::HtmlTernaryTree);
 namespace System::Xml {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11418))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11316))
 // CS Name: ::System.Xml::HtmlTernaryTree*
 class CORDL_TYPE HtmlTernaryTree : public ::System::Object {
 public:

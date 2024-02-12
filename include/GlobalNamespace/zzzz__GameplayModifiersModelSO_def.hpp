@@ -63,23 +63,23 @@ MARK_REF_PTR_T(::GlobalNamespace::__GameplayModifiersModelSO____c);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4198))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10650))
 // CS Name: ::GameplayModifiersModelSO::GameplayModifierBoolGetter*
 class CORDL_TYPE __GameplayModifiersModelSO__GameplayModifierBoolGetter : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x23264e4, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x126a478, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x2327004, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x126af98, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method BeginInvoke, addr 0x2327018, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x126afac, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2327038, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x126afcc, size 0x28, virtual true, abstract: false, final false
   inline bool EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__GameplayModifiersModelSO__GameplayModifierBoolGetter", modifiers: "&&", def_value: None }]
@@ -107,7 +107,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameplayModif
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4199))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10651))
 // CS Name: ::GameplayModifiersModelSO::<>c*
 class CORDL_TYPE __GameplayModifiersModelSO____c : public ::System::Object {
 public:
@@ -115,174 +115,174 @@ public:
   /// @brief Field <>9, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9, put = setStaticF___9))::GlobalNamespace::__GameplayModifiersModelSO____c* __9;
 
-  /// @brief Field <>9__18_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__18_0, put = setStaticF___9__18_0))::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* __9__18_0;
+  /// @brief Field <>9__21_0, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__21_0, put = setStaticF___9__21_0))::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* __9__21_0;
 
-  /// @brief Field <>9__18_1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__18_1, put = setStaticF___9__18_1))::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* __9__18_1;
+  /// @brief Field <>9__21_1, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__21_1, put = setStaticF___9__21_1))::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* __9__21_1;
 
-  /// @brief Field <>9__18_2, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__18_2, put = setStaticF___9__18_2))::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* __9__18_2;
+  /// @brief Field <>9__21_2, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__21_2, put = setStaticF___9__21_2))::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* __9__21_2;
 
-  /// @brief Field <>9__18_3, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__18_3, put = setStaticF___9__18_3))::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* __9__18_3;
+  /// @brief Field <>9__21_3, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__21_3, put = setStaticF___9__21_3))::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* __9__21_3;
 
-  /// @brief Field <>9__18_4, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__18_4, put = setStaticF___9__18_4))::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* __9__18_4;
+  /// @brief Field <>9__21_4, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__21_4, put = setStaticF___9__21_4))::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* __9__21_4;
 
-  /// @brief Field <>9__18_5, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__18_5, put = setStaticF___9__18_5))::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* __9__18_5;
+  /// @brief Field <>9__21_5, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__21_5, put = setStaticF___9__21_5))::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* __9__21_5;
 
-  /// @brief Field <>9__18_6, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__18_6, put = setStaticF___9__18_6))::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* __9__18_6;
+  /// @brief Field <>9__21_6, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__21_6, put = setStaticF___9__21_6))::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* __9__21_6;
 
-  /// @brief Field <>9__18_7, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__18_7, put = setStaticF___9__18_7))::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* __9__18_7;
+  /// @brief Field <>9__21_7, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__21_7, put = setStaticF___9__21_7))::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* __9__21_7;
 
-  /// @brief Field <>9__18_8, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__18_8, put = setStaticF___9__18_8))::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* __9__18_8;
+  /// @brief Field <>9__21_8, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__21_8, put = setStaticF___9__21_8))::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* __9__21_8;
 
-  /// @brief Field <>9__18_9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__18_9, put = setStaticF___9__18_9))::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* __9__18_9;
+  /// @brief Field <>9__21_9, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__21_9, put = setStaticF___9__21_9))::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* __9__21_9;
 
-  /// @brief Field <>9__18_10, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__18_10, put = setStaticF___9__18_10))::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* __9__18_10;
+  /// @brief Field <>9__21_10, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__21_10, put = setStaticF___9__21_10))::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* __9__21_10;
 
-  /// @brief Field <>9__18_11, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__18_11, put = setStaticF___9__18_11))::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* __9__18_11;
+  /// @brief Field <>9__21_11, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__21_11, put = setStaticF___9__21_11))::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* __9__21_11;
 
-  /// @brief Field <>9__18_12, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__18_12, put = setStaticF___9__18_12))::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* __9__18_12;
+  /// @brief Field <>9__21_12, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__21_12, put = setStaticF___9__21_12))::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* __9__21_12;
 
-  /// @brief Field <>9__18_13, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__18_13, put = setStaticF___9__18_13))::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* __9__18_13;
+  /// @brief Field <>9__21_13, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__21_13, put = setStaticF___9__21_13))::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* __9__21_13;
 
-  /// @brief Field <>9__18_14, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__18_14, put = setStaticF___9__18_14))::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* __9__18_14;
+  /// @brief Field <>9__21_14, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__21_14, put = setStaticF___9__21_14))::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* __9__21_14;
 
-  /// @brief Field <>9__18_15, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__18_15, put = setStaticF___9__18_15))::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* __9__18_15;
+  /// @brief Field <>9__21_15, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__21_15, put = setStaticF___9__21_15))::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* __9__21_15;
 
   static inline void setStaticF___9(::GlobalNamespace::__GameplayModifiersModelSO____c* value);
 
   static inline ::GlobalNamespace::__GameplayModifiersModelSO____c* getStaticF___9();
 
-  static inline void setStaticF___9__18_0(::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* value);
+  static inline void setStaticF___9__21_0(::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* value);
 
-  static inline ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* getStaticF___9__18_0();
+  static inline ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* getStaticF___9__21_0();
 
-  static inline void setStaticF___9__18_1(::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* value);
+  static inline void setStaticF___9__21_1(::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* value);
 
-  static inline ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* getStaticF___9__18_1();
+  static inline ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* getStaticF___9__21_1();
 
-  static inline void setStaticF___9__18_2(::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* value);
+  static inline void setStaticF___9__21_2(::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* value);
 
-  static inline ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* getStaticF___9__18_2();
+  static inline ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* getStaticF___9__21_2();
 
-  static inline void setStaticF___9__18_3(::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* value);
+  static inline void setStaticF___9__21_3(::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* value);
 
-  static inline ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* getStaticF___9__18_3();
+  static inline ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* getStaticF___9__21_3();
 
-  static inline void setStaticF___9__18_4(::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* value);
+  static inline void setStaticF___9__21_4(::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* value);
 
-  static inline ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* getStaticF___9__18_4();
+  static inline ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* getStaticF___9__21_4();
 
-  static inline void setStaticF___9__18_5(::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* value);
+  static inline void setStaticF___9__21_5(::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* value);
 
-  static inline ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* getStaticF___9__18_5();
+  static inline ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* getStaticF___9__21_5();
 
-  static inline void setStaticF___9__18_6(::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* value);
+  static inline void setStaticF___9__21_6(::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* value);
 
-  static inline ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* getStaticF___9__18_6();
+  static inline ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* getStaticF___9__21_6();
 
-  static inline void setStaticF___9__18_7(::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* value);
+  static inline void setStaticF___9__21_7(::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* value);
 
-  static inline ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* getStaticF___9__18_7();
+  static inline ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* getStaticF___9__21_7();
 
-  static inline void setStaticF___9__18_8(::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* value);
+  static inline void setStaticF___9__21_8(::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* value);
 
-  static inline ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* getStaticF___9__18_8();
+  static inline ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* getStaticF___9__21_8();
 
-  static inline void setStaticF___9__18_9(::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* value);
+  static inline void setStaticF___9__21_9(::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* value);
 
-  static inline ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* getStaticF___9__18_9();
+  static inline ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* getStaticF___9__21_9();
 
-  static inline void setStaticF___9__18_10(::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* value);
+  static inline void setStaticF___9__21_10(::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* value);
 
-  static inline ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* getStaticF___9__18_10();
+  static inline ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* getStaticF___9__21_10();
 
-  static inline void setStaticF___9__18_11(::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* value);
+  static inline void setStaticF___9__21_11(::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* value);
 
-  static inline ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* getStaticF___9__18_11();
+  static inline ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* getStaticF___9__21_11();
 
-  static inline void setStaticF___9__18_12(::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* value);
+  static inline void setStaticF___9__21_12(::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* value);
 
-  static inline ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* getStaticF___9__18_12();
+  static inline ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* getStaticF___9__21_12();
 
-  static inline void setStaticF___9__18_13(::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* value);
+  static inline void setStaticF___9__21_13(::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* value);
 
-  static inline ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* getStaticF___9__18_13();
+  static inline ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* getStaticF___9__21_13();
 
-  static inline void setStaticF___9__18_14(::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* value);
+  static inline void setStaticF___9__21_14(::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* value);
 
-  static inline ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* getStaticF___9__18_14();
+  static inline ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* getStaticF___9__21_14();
 
-  static inline void setStaticF___9__18_15(::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* value);
+  static inline void setStaticF___9__21_15(::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* value);
 
-  static inline ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* getStaticF___9__18_15();
+  static inline ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* getStaticF___9__21_15();
 
   static inline ::GlobalNamespace::__GameplayModifiersModelSO____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23270c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x126b058, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <OnEnable>b__18_0, addr 0x23270cc, size 0x20, virtual false, abstract: false, final false
-  inline bool _OnEnable_b__18_0(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
+  /// @brief Method <OnEnable>b__21_0, addr 0x126b060, size 0x20, virtual false, abstract: false, final false
+  inline bool _OnEnable_b__21_0(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method <OnEnable>b__18_1, addr 0x23270ec, size 0x18, virtual false, abstract: false, final false
-  inline bool _OnEnable_b__18_1(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
+  /// @brief Method <OnEnable>b__21_1, addr 0x126b080, size 0x18, virtual false, abstract: false, final false
+  inline bool _OnEnable_b__21_1(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method <OnEnable>b__18_2, addr 0x2327104, size 0x18, virtual false, abstract: false, final false
-  inline bool _OnEnable_b__18_2(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
+  /// @brief Method <OnEnable>b__21_2, addr 0x126b098, size 0x18, virtual false, abstract: false, final false
+  inline bool _OnEnable_b__21_2(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method <OnEnable>b__18_3, addr 0x232711c, size 0x20, virtual false, abstract: false, final false
-  inline bool _OnEnable_b__18_3(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
+  /// @brief Method <OnEnable>b__21_3, addr 0x126b0b0, size 0x20, virtual false, abstract: false, final false
+  inline bool _OnEnable_b__21_3(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method <OnEnable>b__18_4, addr 0x232713c, size 0x18, virtual false, abstract: false, final false
-  inline bool _OnEnable_b__18_4(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
+  /// @brief Method <OnEnable>b__21_4, addr 0x126b0d0, size 0x18, virtual false, abstract: false, final false
+  inline bool _OnEnable_b__21_4(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method <OnEnable>b__18_5, addr 0x2327154, size 0x18, virtual false, abstract: false, final false
-  inline bool _OnEnable_b__18_5(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
+  /// @brief Method <OnEnable>b__21_5, addr 0x126b0e8, size 0x18, virtual false, abstract: false, final false
+  inline bool _OnEnable_b__21_5(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method <OnEnable>b__18_6, addr 0x232716c, size 0x18, virtual false, abstract: false, final false
-  inline bool _OnEnable_b__18_6(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
+  /// @brief Method <OnEnable>b__21_6, addr 0x126b100, size 0x18, virtual false, abstract: false, final false
+  inline bool _OnEnable_b__21_6(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method <OnEnable>b__18_7, addr 0x2327184, size 0x18, virtual false, abstract: false, final false
-  inline bool _OnEnable_b__18_7(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
+  /// @brief Method <OnEnable>b__21_7, addr 0x126b118, size 0x18, virtual false, abstract: false, final false
+  inline bool _OnEnable_b__21_7(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method <OnEnable>b__18_8, addr 0x232719c, size 0x20, virtual false, abstract: false, final false
-  inline bool _OnEnable_b__18_8(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
+  /// @brief Method <OnEnable>b__21_8, addr 0x126b130, size 0x20, virtual false, abstract: false, final false
+  inline bool _OnEnable_b__21_8(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method <OnEnable>b__18_9, addr 0x23271bc, size 0x20, virtual false, abstract: false, final false
-  inline bool _OnEnable_b__18_9(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
+  /// @brief Method <OnEnable>b__21_9, addr 0x126b150, size 0x20, virtual false, abstract: false, final false
+  inline bool _OnEnable_b__21_9(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method <OnEnable>b__18_10, addr 0x23271dc, size 0x20, virtual false, abstract: false, final false
-  inline bool _OnEnable_b__18_10(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
+  /// @brief Method <OnEnable>b__21_10, addr 0x126b170, size 0x20, virtual false, abstract: false, final false
+  inline bool _OnEnable_b__21_10(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method <OnEnable>b__18_11, addr 0x23271fc, size 0x18, virtual false, abstract: false, final false
-  inline bool _OnEnable_b__18_11(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
+  /// @brief Method <OnEnable>b__21_11, addr 0x126b190, size 0x18, virtual false, abstract: false, final false
+  inline bool _OnEnable_b__21_11(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method <OnEnable>b__18_12, addr 0x2327214, size 0x18, virtual false, abstract: false, final false
-  inline bool _OnEnable_b__18_12(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
+  /// @brief Method <OnEnable>b__21_12, addr 0x126b1a8, size 0x18, virtual false, abstract: false, final false
+  inline bool _OnEnable_b__21_12(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method <OnEnable>b__18_13, addr 0x232722c, size 0x18, virtual false, abstract: false, final false
-  inline bool _OnEnable_b__18_13(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
+  /// @brief Method <OnEnable>b__21_13, addr 0x126b1c0, size 0x18, virtual false, abstract: false, final false
+  inline bool _OnEnable_b__21_13(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method <OnEnable>b__18_14, addr 0x2327244, size 0x18, virtual false, abstract: false, final false
-  inline bool _OnEnable_b__18_14(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
+  /// @brief Method <OnEnable>b__21_14, addr 0x126b1d8, size 0x18, virtual false, abstract: false, final false
+  inline bool _OnEnable_b__21_14(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method <OnEnable>b__18_15, addr 0x232725c, size 0x18, virtual false, abstract: false, final false
-  inline bool _OnEnable_b__18_15(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
+  /// @brief Method <OnEnable>b__21_15, addr 0x126b1f0, size 0x18, virtual false, abstract: false, final false
+  inline bool _OnEnable_b__21_15(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
   // Ctor Parameters [CppParam { name: "", ty: "__GameplayModifiersModelSO____c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
@@ -308,8 +308,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameplayModif
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4200))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15602))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10652))
 // CS Name: ::GameplayModifiersModelSO*
 class CORDL_TYPE GameplayModifiersModelSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -369,6 +369,9 @@ public:
   /// @brief Field _gameplayModifierGetters, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get__gameplayModifierGetters, put = __cordl_internal_set__gameplayModifierGetters))::System::Collections::Generic::Dictionary_2<
       ::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*>* _gameplayModifierGetters;
+
+  __declspec(property(get = get_gameplayModifierGetters))::System::Collections::Generic::Dictionary_2<
+      ::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*>* gameplayModifierGetters;
 
   constexpr ::UnityW<::GlobalNamespace::GameplayModifierParamsSO>& __cordl_internal_get__batteryEnergy();
 
@@ -476,42 +479,46 @@ public:
   constexpr void __cordl_internal_set__gameplayModifierGetters(
       ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*>* value);
 
-  /// @brief Method OnEnable, addr 0x2325b50, size 0x994, virtual true, abstract: false, final false
+  /// @brief Method get_gameplayModifierGetters, addr 0x1269adc, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*>*
+  get_gameplayModifierGetters();
+
+  /// @brief Method OnEnable, addr 0x1269ae4, size 0x994, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method CreateGameplayModifiers, addr 0x2326610, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method CreateGameplayModifiers, addr 0x126a5a4, size 0x278, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayModifiers* CreateGameplayModifiers(::System::Func_2<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, bool>* valueGetter);
 
-  /// @brief Method GetModifierBoolValue, addr 0x232690c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetModifierBoolValue, addr 0x126a8a0, size 0x9c, virtual false, abstract: false, final false
   inline bool GetModifierBoolValue(::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::GameplayModifierParamsSO* gameplayModifierParams);
 
-  /// @brief Method CreateModifierParamsList, addr 0x23269a8, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method CreateModifierParamsList, addr 0x126a93c, size 0x290, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* CreateModifierParamsList(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method GetTotalMultiplier, addr 0x2326c38, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method GetTotalMultiplier, addr 0x126abcc, size 0x1e0, virtual false, abstract: false, final false
   inline float_t GetTotalMultiplier(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* modifierParams, float_t energy);
 
-  /// @brief Method MaxModifiedScoreForMaxMultipliedScore, addr 0x2326e18, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method MaxModifiedScoreForMaxMultipliedScore, addr 0x126adac, size 0x4, virtual false, abstract: false, final false
   inline int32_t MaxModifiedScoreForMaxMultipliedScore(int32_t maxMultipliedScore, ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* modifierParams,
                                                        float_t energy);
 
-  /// @brief Method MaxModifiedScoreForMaxMultipliedScore, addr 0x2326ea8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method MaxModifiedScoreForMaxMultipliedScore, addr 0x126ae3c, size 0x4, virtual false, abstract: false, final false
   inline int32_t MaxModifiedScoreForMaxMultipliedScore(int32_t maxMultipliedScore, ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* modifierParams,
                                                        ::GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel, float_t energy);
 
-  /// @brief Method GetModifiedScoreForGameplayModifiers, addr 0x2326e1c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetModifiedScoreForGameplayModifiers, addr 0x126adb0, size 0x8c, virtual false, abstract: false, final false
   inline int32_t GetModifiedScoreForGameplayModifiers(int32_t multipliedScore, ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* modifierParams,
                                                       float_t energy);
 
-  /// @brief Method GetGameplayModifierParams, addr 0x2326eac, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method GetGameplayModifierParams, addr 0x126ae40, size 0x150, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::GameplayModifierParamsSO> GetGameplayModifierParams(::GlobalNamespace::GameplayModifierMask modifier);
 
-  /// @brief Method GetSongSpeedFromValueGetter, addr 0x2326888, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetSongSpeedFromValueGetter, addr 0x126a81c, size 0x84, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__GameplayModifiers__SongSpeed GetSongSpeedFromValueGetter(::System::Func_2<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, bool>* valueGetter);
 
   static inline ::GlobalNamespace::GameplayModifiersModelSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2326ffc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x126af90, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersModelSO", modifiers: "&&", def_value: None }]
@@ -579,6 +586,9 @@ public:
   /// @brief Field _gameplayModifierGetters, offset: 0x98, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*>*
       ____gameplayModifierGetters;
+
+  /// @brief Field kMaxPossibleMultiplier offset 0xffffffff size 0x4
+  static constexpr float_t kMaxPossibleMultiplier{ 1.3100001 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

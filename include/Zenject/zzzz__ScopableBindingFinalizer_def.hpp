@@ -55,7 +55,7 @@ MARK_REF_PTR_T(::Zenject::__ScopableBindingFinalizer____c__DisplayClass4_0);
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10967))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10109))
 // CS Name: ::ScopableBindingFinalizer::<>c__DisplayClass3_0*
 class CORDL_TYPE __ScopableBindingFinalizer____c__DisplayClass3_0 : public ::System::Object {
 public:
@@ -80,16 +80,16 @@ public:
 
   static inline ::Zenject::__ScopableBindingFinalizer____c__DisplayClass3_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ee629c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f023e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <FinalizeBindingConcrete>b__0, addr 0x2ee62ac, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method <FinalizeBindingConcrete>b__0, addr 0x2f023f4, size 0x34, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FinalizeBindingConcrete_b__0(::Zenject::DiContainer* _, ::System::Type* concreteType);
 
-  /// @brief Method __zenCreate, addr 0x2ee62e0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2f02428, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ee633c, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f02484, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ScopableBindingFinalizer____c__DisplayClass3_0", modifiers: "&&", def_value: None }]
@@ -127,7 +127,7 @@ static_assert(offsetof(::Zenject::__ScopableBindingFinalizer____c__DisplayClass3
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10968))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10110))
 // CS Name: ::ScopableBindingFinalizer::<>c__DisplayClass4_0*
 class CORDL_TYPE __ScopableBindingFinalizer____c__DisplayClass4_0 : public ::System::Object {
 public:
@@ -152,16 +152,16 @@ public:
 
   static inline ::Zenject::__ScopableBindingFinalizer____c__DisplayClass4_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ee62a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f023ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <FinalizeBindingSelf>b__0, addr 0x2ee64fc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method <FinalizeBindingSelf>b__0, addr 0x2f02644, size 0x34, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FinalizeBindingSelf_b__0(::Zenject::DiContainer* _, ::System::Type* contractType);
 
-  /// @brief Method __zenCreate, addr 0x2ee6530, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2f02678, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ee658c, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f026d4, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ScopableBindingFinalizer____c__DisplayClass4_0", modifiers: "&&", def_value: None }]
@@ -198,8 +198,8 @@ static_assert(offsetof(::Zenject::__ScopableBindingFinalizer____c__DisplayClass4
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10966))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10969))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10108))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10111))
 // CS Name: ::Zenject::ScopableBindingFinalizer*
 class CORDL_TYPE ScopableBindingFinalizer : public ::Zenject::ProviderBindingFinalizer {
 public:
@@ -220,16 +220,16 @@ public:
 
   static inline ::Zenject::ScopableBindingFinalizer* New_ctor(::Zenject::BindInfo* bindInfo, ::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>* providerFactory);
 
-  /// @brief Method .ctor, addr 0x2ee5f98, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f020e0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo, ::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>* providerFactory);
 
-  /// @brief Method OnFinalizeBinding, addr 0x2ee5fc4, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method OnFinalizeBinding, addr 0x2f0210c, size 0x84, virtual true, abstract: false, final false
   inline void OnFinalizeBinding(::Zenject::DiContainer* container);
 
-  /// @brief Method FinalizeBindingConcrete, addr 0x2ee6158, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method FinalizeBindingConcrete, addr 0x2f022a0, size 0x144, virtual false, abstract: false, final false
   inline void FinalizeBindingConcrete(::Zenject::DiContainer* container, ::System::Collections::Generic::List_1<::System::Type*>* concreteTypes);
 
-  /// @brief Method FinalizeBindingSelf, addr 0x2ee6048, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method FinalizeBindingSelf, addr 0x2f02190, size 0x110, virtual false, abstract: false, final false
   inline void FinalizeBindingSelf(::Zenject::DiContainer* container);
 
   // Ctor Parameters [CppParam { name: "", ty: "ScopableBindingFinalizer", modifiers: "&&", def_value: None }]

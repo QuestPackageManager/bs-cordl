@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ComponentExtensions);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15845))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15590))
 // CS Name: ::ComponentExtensions*
 class CORDL_TYPE ComponentExtensions : public ::System::Object {
 public:

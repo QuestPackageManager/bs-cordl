@@ -57,31 +57,31 @@ public:
 
   constexpr void __cordl_internal_set_crlIdentifier(::Org::BouncyCastle::Asn1::Esf::CrlIdentifier* value);
 
-  /// @brief Method GetInstance, addr 0xe92008, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xebbe98, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Esf::CrlValidatedID* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::CrlValidatedID* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xe92e64, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xebccf4, size 0x1c8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::CrlValidatedID* New_ctor(::Org::BouncyCastle::Asn1::Esf::OtherHash* crlHash);
 
-  /// @brief Method .ctor, addr 0xe93154, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xebcfe4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Esf::OtherHash* crlHash);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::CrlValidatedID* New_ctor(::Org::BouncyCastle::Asn1::Esf::OtherHash* crlHash, ::Org::BouncyCastle::Asn1::Esf::CrlIdentifier* crlIdentifier);
 
-  /// @brief Method .ctor, addr 0xe9315c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xebcfec, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Esf::OtherHash* crlHash, ::Org::BouncyCastle::Asn1::Esf::CrlIdentifier* crlIdentifier);
 
-  /// @brief Method get_CrlHash, addr 0xe931d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CrlHash, addr 0xebd068, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Esf::OtherHash* get_CrlHash();
 
-  /// @brief Method get_CrlIdentifier, addr 0xe931e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CrlIdentifier, addr 0xebd070, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Esf::CrlIdentifier* get_CrlIdentifier();
 
-  /// @brief Method ToAsn1Object, addr 0xe931e8, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xebd078, size 0x138, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "CrlValidatedID", modifiers: "&&", def_value: None }]

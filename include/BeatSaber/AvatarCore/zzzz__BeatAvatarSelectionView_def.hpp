@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::BeatSaber::AvatarCore::BeatAvatarSelectionView);
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15177))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15255))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15257))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15368))
 // CS Name: ::BeatSaber.AvatarCore::BeatAvatarSelectionView*
 class CORDL_TYPE BeatAvatarSelectionView : public ::BeatSaber::AvatarCore::AvatarSelectionView {
 public:
@@ -73,30 +73,30 @@ public:
 
   constexpr void __cordl_internal_set__avatarDataModel(::BeatSaber::BeatAvatarSDK::AvatarDataModel* value);
 
-  /// @brief Method Init, addr 0xe13518, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0xe1ed14, size 0x94, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method OnDestroy, addr 0xe135d4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0xe1edd0, size 0x98, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetCreated, addr 0xe1366c, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method SetCreated, addr 0xe1ee68, size 0x48, virtual true, abstract: false, final false
   inline void SetCreated(bool isCreated);
 
-  /// @brief Method Activate, addr 0xe136b4, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method Activate, addr 0xe1eeb0, size 0x48, virtual true, abstract: false, final false
   inline void Activate();
 
-  /// @brief Method Deactivate, addr 0xe136fc, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Deactivate, addr 0xe1eef8, size 0x24, virtual true, abstract: false, final false
   inline void Deactivate();
 
-  /// @brief Method HandleAvatarDataModelDidChangeAvatarData, addr 0xe13720, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleAvatarDataModelDidChangeAvatarData, addr 0xe1ef1c, size 0x4, virtual false, abstract: false, final false
   inline void HandleAvatarDataModelDidChangeAvatarData(::BeatSaber::BeatAvatarSDK::AvatarData* data);
 
-  /// @brief Method UpdateAvatarVisuals, addr 0xe135ac, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method UpdateAvatarVisuals, addr 0xe1eda8, size 0x28, virtual false, abstract: false, final false
   inline void UpdateAvatarVisuals();
 
   static inline ::BeatSaber::AvatarCore::BeatAvatarSelectionView* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe13724, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe1ef20, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatAvatarSelectionView", modifiers: "&&", def_value: None }]

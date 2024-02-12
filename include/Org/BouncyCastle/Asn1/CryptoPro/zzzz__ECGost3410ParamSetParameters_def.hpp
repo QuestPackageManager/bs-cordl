@@ -99,35 +99,35 @@ public:
 
   constexpr void __cordl_internal_set_y(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method GetInstance, addr 0xe8c370, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xeb6200, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameters* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0xe8c388, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xeb6218, size 0x178, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameters* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* a, ::Org::BouncyCastle::Math::BigInteger* b,
                                                                                              ::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q, int32_t x,
                                                                                              ::Org::BouncyCastle::Math::BigInteger* y);
 
-  /// @brief Method .ctor, addr 0xe8c650, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeb64e0, size 0x128, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* a, ::Org::BouncyCastle::Math::BigInteger* b, ::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q, int32_t x,
                     ::Org::BouncyCastle::Math::BigInteger* y);
 
   static inline ::Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameters* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xe8c500, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeb6390, size 0x150, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_P, addr 0xe8c778, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_P, addr 0xeb6608, size 0x18, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_P();
 
-  /// @brief Method get_Q, addr 0xe8c790, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Q, addr 0xeb6620, size 0x18, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Q();
 
-  /// @brief Method get_A, addr 0xe8c7a8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_A, addr 0xeb6638, size 0x18, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_A();
 
-  /// @brief Method ToAsn1Object, addr 0xe8c7c0, size 0x1a0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xeb6650, size 0x1a0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "ECGost3410ParamSetParameters", modifiers: "&&", def_value: None }]

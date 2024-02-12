@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::UnityEngine::AI::NavMeshPath);
 namespace UnityEngine::AI {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16115))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16231))
 // CS Name: ::UnityEngine.AI::NavMeshPath*
 class CORDL_TYPE NavMeshPath : public ::System::Object {
 public:
@@ -53,34 +53,34 @@ public:
 
   static inline ::UnityEngine::AI::NavMeshPath* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c7d5b0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c7a11c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Finalize, addr 0x2c7d620, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x2c7a18c, size 0xf4, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method InitializeNavMeshPath, addr 0x2c7d5f8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method InitializeNavMeshPath, addr 0x2c7a164, size 0x28, virtual false, abstract: false, final false
   static inline void* InitializeNavMeshPath();
 
-  /// @brief Method DestroyNavMeshPath, addr 0x2c7d714, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method DestroyNavMeshPath, addr 0x2c7a280, size 0x3c, virtual false, abstract: false, final false
   static inline void DestroyNavMeshPath(void* ptr);
 
-  /// @brief Method CalculateCornersInternal, addr 0x2c7d750, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method CalculateCornersInternal, addr 0x2c7a2bc, size 0x3c, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> CalculateCornersInternal();
 
-  /// @brief Method ClearCornersInternal, addr 0x2c7d78c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ClearCornersInternal, addr 0x2c7a2f8, size 0x3c, virtual false, abstract: false, final false
   inline void ClearCornersInternal();
 
-  /// @brief Method ClearCorners, addr 0x2c7d7c8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ClearCorners, addr 0x2c7a334, size 0x44, virtual false, abstract: false, final false
   inline void ClearCorners();
 
-  /// @brief Method CalculateCorners, addr 0x2c7d80c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method CalculateCorners, addr 0x2c7a378, size 0x4c, virtual false, abstract: false, final false
   inline void CalculateCorners();
 
-  /// @brief Method get_corners, addr 0x2c7d858, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_corners, addr 0x2c7a3c4, size 0x4c, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> get_corners();
 
-  /// @brief Method get_status, addr 0x2c7d8a4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_status, addr 0x2c7a410, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::AI::NavMeshPathStatus get_status();
 
   // Ctor Parameters [CppParam { name: "", ty: "NavMeshPath", modifiers: "&&", def_value: None }]

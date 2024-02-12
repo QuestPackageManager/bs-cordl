@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::Sockets::SocketShutdown);
 namespace System::Net::Sockets {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9351))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7361))
 // CS Name: ::System.Net.Sockets::SocketShutdown
 struct CORDL_TYPE SocketShutdown {
 public:

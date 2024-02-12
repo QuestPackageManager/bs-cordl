@@ -1,0 +1,3 @@
+#pragma once
+#include "BeatmapDataLoaderVersion4/zzzz__LightTranslationEventBoxGroupConverter_def.hpp"
+#include "BeatmapDataLoaderVersion4/zzzz__LightTranslationEventBoxGroupConverter_impl.hpp"

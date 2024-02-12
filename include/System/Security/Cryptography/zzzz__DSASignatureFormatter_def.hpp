@@ -32,7 +32,7 @@ public:
 
   static inline ::System::Security::Cryptography::DSASignatureFormatter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x245e188, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24801fc, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DSASignatureFormatter", modifiers: "&&", def_value: None }]

@@ -32,22 +32,22 @@ public:
   // Declarations
   static inline ::System::UnauthorizedAccessException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25cde9c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25efdb4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::UnauthorizedAccessException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x25cdef4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25efe0c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::System::UnauthorizedAccessException* New_ctor(::StringW message, ::System::Exception* inner);
 
-  /// @brief Method .ctor, addr 0x25cdf14, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25efe2c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* inner);
 
   static inline ::System::UnauthorizedAccessException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x25cdf34, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25efe4c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "UnauthorizedAccessException", modifiers: "&&", def_value: None }]

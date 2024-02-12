@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ICertificateValidator);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12777))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12675))
 // CS Name: ::ICertificateValidator*
 class CORDL_TYPE ICertificateValidator {
 public:

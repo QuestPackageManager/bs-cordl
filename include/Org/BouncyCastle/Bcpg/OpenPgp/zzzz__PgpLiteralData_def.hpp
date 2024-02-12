@@ -52,25 +52,25 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralData* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput);
 
-  /// @brief Method .ctor, addr 0x10aff28, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10dcdb8, size 0x120, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput);
 
-  /// @brief Method get_Format, addr 0x10b0048, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Format, addr 0x10dced8, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_Format();
 
-  /// @brief Method get_FileName, addr 0x10b0064, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_FileName, addr 0x10dcef4, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW get_FileName();
 
-  /// @brief Method GetRawFileName, addr 0x10b0080, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetRawFileName, addr 0x10dcf10, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetRawFileName();
 
-  /// @brief Method get_ModificationTime, addr 0x10b009c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_ModificationTime, addr 0x10dcf2c, size 0x68, virtual false, abstract: false, final false
   inline ::System::DateTime get_ModificationTime();
 
-  /// @brief Method GetInputStream, addr 0x10b0104, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetInputStream, addr 0x10dcf94, size 0x1c, virtual false, abstract: false, final false
   inline ::System::IO::Stream* GetInputStream();
 
-  /// @brief Method GetDataStream, addr 0x10b0120, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetDataStream, addr 0x10dcfb0, size 0x1c, virtual false, abstract: false, final false
   inline ::System::IO::Stream* GetDataStream();
 
   // Ctor Parameters [CppParam { name: "", ty: "PgpLiteralData", modifiers: "&&", def_value: None }]

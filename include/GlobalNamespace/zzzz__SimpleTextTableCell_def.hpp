@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SimpleTextTableCell);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13664))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13500))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13617))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13453))
 // CS Name: ::SimpleTextTableCell*
 class CORDL_TYPE SimpleTextTableCell : public ::HMUI::TableCell {
 public:
@@ -35,15 +35,15 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method set_text, addr 0x21161c4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x21aaaa0, size 0x24, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
-  /// @brief Method get_text, addr 0x21161e8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x21aaac4, size 0x24, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
   static inline ::GlobalNamespace::SimpleTextTableCell* New_ctor();
 
-  /// @brief Method .ctor, addr 0x211620c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21aaae8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SimpleTextTableCell", modifiers: "&&", def_value: None }]

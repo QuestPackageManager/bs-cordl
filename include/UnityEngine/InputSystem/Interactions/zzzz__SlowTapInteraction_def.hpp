@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Interactions::SlowTapInteraction);
 namespace UnityEngine::InputSystem::Interactions {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6651))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5910))
 // CS Name: ::UnityEngine.InputSystem.Interactions::SlowTapInteraction*
 class CORDL_TYPE SlowTapInteraction : public ::System::Object {
 public:
@@ -65,21 +65,21 @@ public:
 
   constexpr void __cordl_internal_set_m_SlowTapStartTime(double_t value);
 
-  /// @brief Method get_durationOrDefault, addr 0x2b0cff4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_durationOrDefault, addr 0x2b0cb60, size 0x70, virtual false, abstract: false, final false
   inline float_t get_durationOrDefault();
 
-  /// @brief Method get_pressPointOrDefault, addr 0x2b0d064, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_pressPointOrDefault, addr 0x2b0cbd0, size 0x58, virtual false, abstract: false, final false
   inline float_t get_pressPointOrDefault();
 
-  /// @brief Method Process, addr 0x2b0d0bc, size 0x168, virtual true, abstract: false, final true
+  /// @brief Method Process, addr 0x2b0cc28, size 0x168, virtual true, abstract: false, final true
   inline void Process(ByRef<::UnityEngine::InputSystem::InputInteractionContext> context);
 
-  /// @brief Method Reset, addr 0x2b0d224, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x2b0cd90, size 0x8, virtual true, abstract: false, final true
   inline void Reset();
 
   static inline ::UnityEngine::InputSystem::Interactions::SlowTapInteraction* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2b0d22c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b0cd98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SlowTapInteraction", modifiers: "&&", def_value: None }]

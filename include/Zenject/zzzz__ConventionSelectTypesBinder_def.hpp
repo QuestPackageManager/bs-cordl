@@ -41,7 +41,7 @@ MARK_REF_PTR_T(::Zenject::__ConventionSelectTypesBinder____c);
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10699))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9841))
 // CS Name: ::ConventionSelectTypesBinder::<>c*
 class CORDL_TYPE __ConventionSelectTypesBinder____c : public ::System::Object {
 public:
@@ -83,25 +83,25 @@ public:
 
   static inline ::Zenject::__ConventionSelectTypesBinder____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ecb518, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ee7660, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <AllClasses>b__4_0, addr 0x2ecb520, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <AllClasses>b__4_0, addr 0x2ee7668, size 0x18, virtual false, abstract: false, final false
   inline bool _AllClasses_b__4_0(::System::Type* t);
 
-  /// @brief Method <AllNonAbstractClasses>b__5_0, addr 0x2ecb538, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method <AllNonAbstractClasses>b__5_0, addr 0x2ee7680, size 0x44, virtual false, abstract: false, final false
   inline bool _AllNonAbstractClasses_b__5_0(::System::Type* t);
 
-  /// @brief Method <AllAbstractClasses>b__6_0, addr 0x2ecb57c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method <AllAbstractClasses>b__6_0, addr 0x2ee76c4, size 0x3c, virtual false, abstract: false, final false
   inline bool _AllAbstractClasses_b__6_0(::System::Type* t);
 
-  /// @brief Method <AllInterfaces>b__7_0, addr 0x2ecb5b8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <AllInterfaces>b__7_0, addr 0x2ee7700, size 0x18, virtual false, abstract: false, final false
   inline bool _AllInterfaces_b__7_0(::System::Type* t);
 
-  /// @brief Method __zenCreate, addr 0x2ecb5d0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2ee7718, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ecb62c, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ee7774, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ConventionSelectTypesBinder____c", modifiers: "&&", def_value: None }]
@@ -129,7 +129,7 @@ static_assert(::cordl_internals::size_check_v<::Zenject::__ConventionSelectTypes
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10700))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9842))
 // CS Name: ::Zenject::ConventionSelectTypesBinder*
 class CORDL_TYPE ConventionSelectTypesBinder : public ::System::Object {
 public:
@@ -147,25 +147,25 @@ public:
 
   static inline ::Zenject::ConventionSelectTypesBinder* New_ctor(::Zenject::ConventionBindInfo* bindInfo);
 
-  /// @brief Method .ctor, addr 0x2ec7120, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ee3268, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::ConventionBindInfo* bindInfo);
 
-  /// @brief Method CreateNextBinder, addr 0x2ecb088, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method CreateNextBinder, addr 0x2ee71d0, size 0x68, virtual false, abstract: false, final false
   inline ::Zenject::ConventionFilterTypesBinder* CreateNextBinder();
 
-  /// @brief Method AllTypes, addr 0x2ecb0f0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method AllTypes, addr 0x2ee7238, size 0x4, virtual false, abstract: false, final false
   inline ::Zenject::ConventionFilterTypesBinder* AllTypes();
 
-  /// @brief Method AllClasses, addr 0x2ecb0f4, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method AllClasses, addr 0x2ee723c, size 0xf0, virtual false, abstract: false, final false
   inline ::Zenject::ConventionFilterTypesBinder* AllClasses();
 
-  /// @brief Method AllNonAbstractClasses, addr 0x2ecb1e4, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method AllNonAbstractClasses, addr 0x2ee732c, size 0xf0, virtual false, abstract: false, final false
   inline ::Zenject::ConventionFilterTypesBinder* AllNonAbstractClasses();
 
-  /// @brief Method AllAbstractClasses, addr 0x2ecb2d4, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method AllAbstractClasses, addr 0x2ee741c, size 0xf0, virtual false, abstract: false, final false
   inline ::Zenject::ConventionFilterTypesBinder* AllAbstractClasses();
 
-  /// @brief Method AllInterfaces, addr 0x2ecb3c4, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method AllInterfaces, addr 0x2ee750c, size 0xf0, virtual false, abstract: false, final false
   inline ::Zenject::ConventionFilterTypesBinder* AllInterfaces();
 
   // Ctor Parameters [CppParam { name: "", ty: "ConventionSelectTypesBinder", modifiers: "&&", def_value: None }]

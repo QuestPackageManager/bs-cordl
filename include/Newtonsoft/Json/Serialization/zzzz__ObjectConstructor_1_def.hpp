@@ -28,7 +28,7 @@ namespace Newtonsoft::Json::Serialization {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11965))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11863))
 // CS Name: ::Newtonsoft.Json.Serialization::ObjectConstructor`1<T>*
 class CORDL_TYPE ObjectConstructor_1 : public ::System::MulticastDelegate {
 public:

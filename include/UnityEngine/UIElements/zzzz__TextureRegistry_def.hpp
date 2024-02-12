@@ -39,7 +39,7 @@ MARK_VAL_T(::UnityEngine::UIElements::__TextureRegistry__TextureInfo);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7340))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6599))
 // CS Name: ::TextureRegistry::TextureInfo
 struct CORDL_TYPE __TextureRegistry__TextureInfo {
 public:
@@ -81,7 +81,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__TextureRegistry__TextureInfo
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7341))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6600))
 // CS Name: ::UnityEngine.UIElements::TextureRegistry*
 class CORDL_TYPE TextureRegistry : public ::System::Object {
 public:
@@ -125,30 +125,30 @@ public:
 
   static inline ::UnityEngine::UIElements::TextureRegistry* getStaticF__instance_k__BackingField();
 
-  /// @brief Method get_instance, addr 0x2e7c560, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_instance, addr 0x2e96948, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::TextureRegistry* get_instance();
 
-  /// @brief Method GetTexture, addr 0x2e7c5b8, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method GetTexture, addr 0x2e969a0, size 0x13c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture> GetTexture(::UnityEngine::UIElements::TextureId id);
 
-  /// @brief Method AllocAndAcquireDynamic, addr 0x2e7c6f4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method AllocAndAcquireDynamic, addr 0x2e96adc, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TextureId AllocAndAcquireDynamic();
 
-  /// @brief Method UpdateDynamic, addr 0x2e7c970, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method UpdateDynamic, addr 0x2e96d58, size 0x1ac, virtual false, abstract: false, final false
   inline void UpdateDynamic(::UnityEngine::UIElements::TextureId id, ::UnityEngine::Texture* texture);
 
-  /// @brief Method AllocAndAcquire, addr 0x2e7c710, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method AllocAndAcquire, addr 0x2e96af8, size 0x260, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TextureId AllocAndAcquire(::UnityEngine::Texture* texture, bool dynamic);
 
-  /// @brief Method Acquire, addr 0x2e7cb1c, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method Acquire, addr 0x2e96f04, size 0x140, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TextureId Acquire(::UnityEngine::Texture* tex);
 
-  /// @brief Method Release, addr 0x2e7cc5c, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x2e97044, size 0x1f0, virtual false, abstract: false, final false
   inline void Release(::UnityEngine::UIElements::TextureId id);
 
   static inline ::UnityEngine::UIElements::TextureRegistry* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e7ce4c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e97234, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TextureRegistry", modifiers: "&&", def_value: None }]

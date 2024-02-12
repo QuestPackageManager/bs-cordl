@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::UnityEngine::InputSystem::Composites::OneModifierComposite::*)()>(
     &::UnityEngine::InputSystem::Composites::OneModifierComposite::get_valueType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2a5b06c;
+  constexpr static std::size_t addrs = 0x2a5dbd8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::Composites::OneModifierComposite::*)()>(
     &::UnityEngine::InputSystem::Composites::OneModifierComposite::get_valueSizeInBytes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2a5b074;
+  constexpr static std::size_t addrs = 0x2a5dbe0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::Composites::OneModifierComposite::*)(
     ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext>)>(&::UnityEngine::InputSystem::Composites::OneModifierComposite::EvaluateMagnitude)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2a5b07c;
+  constexpr static std::size_t addrs = 0x2a5dbe8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Composites::OneModifierComposite::*)(
     ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext>, ::cordl_internals::Ptr<void>, int32_t)>(&::UnityEngine::InputSystem::Composites::OneModifierComposite::ReadValue)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2a5b144;
+  constexpr static std::size_t addrs = 0x2a5dcb0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Composites::OneModifierComposite::*)(
     ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext>)>(&::UnityEngine::InputSystem::Composites::OneModifierComposite::ModifierIsPressed)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x2a5b0bc;
+  constexpr static std::size_t addrs = 0x2a5dc28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Composites::OneModifierComposite::*)(
     ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext>)>(&::UnityEngine::InputSystem::Composites::OneModifierComposite::FinishSetup)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x2a5b1a8;
+  constexpr static std::size_t addrs = 0x2a5dd14;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -106,7 +106,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::UnityEngine::InputSystem::Composites::OneModifierComposite::*)(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext>)>(
         &::UnityEngine::InputSystem::Composites::OneModifierComposite::ReadValueAsObject)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x2a5b728;
+  constexpr static std::size_t addrs = 0x2a5e294;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -123,7 +123,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext>, int32_t, ByRef<::System::Type*>, ByRef<int32_t>, ByRef<bool>)>(
         &::UnityEngine::InputSystem::Composites::OneModifierComposite::DetermineValueTypeAndSize)> {
   constexpr static std::size_t size = 0x4d4;
-  constexpr static std::size_t addrs = 0x2a5b254;
+  constexpr static std::size_t addrs = 0x2a5ddc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Composites::OneModifierComposite::*)()>(
     &::UnityEngine::InputSystem::Composites::OneModifierComposite::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2a5b778;
+  constexpr static std::size_t addrs = 0x2a5e2e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

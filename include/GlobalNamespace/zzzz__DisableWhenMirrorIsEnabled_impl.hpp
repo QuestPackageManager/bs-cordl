@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::Mirror> (::GlobalNamespace::DisableWhenMirrorIsEnabled::*)()>(
     &::GlobalNamespace::DisableWhenMirrorIsEnabled::get_mirror)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22f77fc;
+  constexpr static std::size_t addrs = 0x2324104;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DisableWhenMirrorIsEnabled*>::get(),
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DisableWhenMirrorIsEnabled::*)(::GlobalNamespace::Mirror*)>(
     &::GlobalNamespace::DisableWhenMirrorIsEnabled::set_mirror)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22f7804;
+  constexpr static std::size_t addrs = 0x232410c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DisableWhenMirrorIsEnabled::*)()>(&::GlobalNamespace::DisableWhenMirrorIsEnabled::Start)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x22f780c;
+  constexpr static std::size_t addrs = 0x2324114;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DisableWhenMirrorIsEnabled*>::get(), "Start",
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DisableWhenMirrorIsEnabled::*)()>(
     &::GlobalNamespace::DisableWhenMirrorIsEnabled::OnDestroy)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x22f78d8;
+  constexpr static std::size_t addrs = 0x23241e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DisableWhenMirrorIsEnabled*>::get(),
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DisableWhenMirrorIsEnabled::*)(bool)>(
     &::GlobalNamespace::DisableWhenMirrorIsEnabled::HandleMirrorDidChangeEnabledState)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x22f78ac;
+  constexpr static std::size_t addrs = 0x23241b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DisableWhenMirrorIsEnabled::*)()>(&::GlobalNamespace::DisableWhenMirrorIsEnabled::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22f79ac;
+  constexpr static std::size_t addrs = 0x23242b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DisableWhenMirrorIsEnabled*>::get(), ".ctor",

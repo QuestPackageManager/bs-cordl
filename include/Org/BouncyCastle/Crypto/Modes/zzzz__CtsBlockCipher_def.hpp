@@ -36,22 +36,22 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Modes::CtsBlockCipher* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher);
 
-  /// @brief Method .ctor, addr 0xf1b158, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf46fe8, size 0x1ac, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher);
 
-  /// @brief Method GetUpdateOutputSize, addr 0xf1b304, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetUpdateOutputSize, addr 0xf47194, size 0x38, virtual true, abstract: false, final false
   inline int32_t GetUpdateOutputSize(int32_t length);
 
-  /// @brief Method GetOutputSize, addr 0xf1b33c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method GetOutputSize, addr 0xf471cc, size 0xc, virtual true, abstract: false, final false
   inline int32_t GetOutputSize(int32_t length);
 
-  /// @brief Method ProcessByte, addr 0xf1b348, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method ProcessByte, addr 0xf471d8, size 0x14c, virtual true, abstract: false, final false
   inline int32_t ProcessByte(uint8_t input, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method ProcessBytes, addr 0xf1b494, size 0x340, virtual true, abstract: false, final false
+  /// @brief Method ProcessBytes, addr 0xf47324, size 0x340, virtual true, abstract: false, final false
   inline int32_t ProcessBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method DoFinal, addr 0xf1b7d4, size 0x5a8, virtual true, abstract: false, final false
+  /// @brief Method DoFinal, addr 0xf47664, size 0x5a8, virtual true, abstract: false, final false
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
   // Ctor Parameters [CppParam { name: "", ty: "CtsBlockCipher", modifiers: "&&", def_value: None }]

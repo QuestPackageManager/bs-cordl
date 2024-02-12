@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::System::Runtime::ExceptionServices::HandleProcessCorruptedState
 namespace System::Runtime::ExceptionServices {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3348))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3345))
 // CS Name: ::System.Runtime.ExceptionServices::HandleProcessCorruptedStateExceptionsAttribute*
 class CORDL_TYPE HandleProcessCorruptedStateExceptionsAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::System::Runtime::ExceptionServices::HandleProcessCorruptedStateExceptionsAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24da588, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24faab8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HandleProcessCorruptedStateExceptionsAttribute", modifiers: "&&", def_value: None }]

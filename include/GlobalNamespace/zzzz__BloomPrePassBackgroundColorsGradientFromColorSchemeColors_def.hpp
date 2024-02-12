@@ -42,7 +42,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__BloomPrePassBackgroundColorsGradientFromColo
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5824))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5119))
 // CS Name: ::BloomPrePassBackgroundColorsGradientFromColorSchemeColors::EnvironmentColor
 struct CORDL_TYPE __BloomPrePassBackgroundColorsGradientFromColorSchemeColors__EnvironmentColor {
 public:
@@ -99,8 +99,8 @@ static_assert(offsetof(::GlobalNamespace::__BloomPrePassBackgroundColorsGradient
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5824)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5823))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5119)), TypeDefinitionIndex(TypeDefinitionIndex(8995))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5118))
 // CS Name: ::BloomPrePassBackgroundColorsGradientFromColorSchemeColors::Element*
 class CORDL_TYPE __BloomPrePassBackgroundColorsGradientFromColorSchemeColors__Element : public ::System::Object {
 public:
@@ -144,7 +144,7 @@ public:
 
   static inline ::GlobalNamespace::__BloomPrePassBackgroundColorsGradientFromColorSchemeColors__Element* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22ebe48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x231a3cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__BloomPrePassBackgroundColorsGradientFromColorSchemeColors__Element", modifiers: "&&", def_value: None }]
@@ -191,8 +191,8 @@ static_assert(offsetof(::GlobalNamespace::__BloomPrePassBackgroundColorsGradient
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5825))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5120))
 // CS Name: ::BloomPrePassBackgroundColorsGradientFromColorSchemeColors*
 class CORDL_TYPE BloomPrePassBackgroundColorsGradientFromColorSchemeColors : public ::UnityEngine::MonoBehaviour {
 public:
@@ -239,10 +239,10 @@ public:
 
   static inline ::GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22ebb6c, size 0x2dc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x231a0f0, size 0x2dc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Start, addr 0x22ebe50, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x231a3d4, size 0x188, virtual false, abstract: false, final false
   inline void Start();
 
   // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundColorsGradientFromColorSchemeColors", modifiers: "&&", def_value: None }]

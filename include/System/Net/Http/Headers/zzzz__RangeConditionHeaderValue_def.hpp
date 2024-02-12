@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::RangeConditionHeaderValue);
 namespace System::Net::Http::Headers {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2370)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 2702 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14703)) CS Name:
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 2672 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14708)) CS Name:
 // ::System.Net.Http.Headers::RangeConditionHeaderValue*
 class CORDL_TYPE RangeConditionHeaderValue : public ::System::Object {
 public:
@@ -71,39 +71,39 @@ public:
 
   static inline ::System::Net::Http::Headers::RangeConditionHeaderValue* New_ctor(::System::DateTimeOffset date);
 
-  /// @brief Method .ctor, addr 0x283fa94, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28440fc, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::System::DateTimeOffset date);
 
   static inline ::System::Net::Http::Headers::RangeConditionHeaderValue* New_ctor(::System::Net::Http::Headers::EntityTagHeaderValue* entityTag);
 
-  /// @brief Method .ctor, addr 0x283fb24, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x284418c, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Http::Headers::EntityTagHeaderValue* entityTag);
 
-  /// @brief Method get_Date, addr 0x283fb9c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_Date, addr 0x2844204, size 0x14, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::System::DateTimeOffset> get_Date();
 
-  /// @brief Method set_Date, addr 0x283fbb0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_Date, addr 0x2844218, size 0x14, virtual false, abstract: false, final false
   inline void set_Date(::System::Nullable_1<::System::DateTimeOffset> value);
 
-  /// @brief Method get_EntityTag, addr 0x283fbc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EntityTag, addr 0x284422c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Http::Headers::EntityTagHeaderValue* get_EntityTag();
 
-  /// @brief Method set_EntityTag, addr 0x283fbcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_EntityTag, addr 0x2844234, size 0x8, virtual false, abstract: false, final false
   inline void set_EntityTag(::System::Net::Http::Headers::EntityTagHeaderValue* value);
 
-  /// @brief Method System.ICloneable.Clone, addr 0x283fbd4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.ICloneable.Clone, addr 0x284423c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method Equals, addr 0x283fbdc, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2844244, size 0x144, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x283fd20, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2844388, size 0x84, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method TryParse, addr 0x283fda4, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x284440c, size 0x24c, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ByRef<::System::Net::Http::Headers::RangeConditionHeaderValue*> parsedValue);
 
-  /// @brief Method ToString, addr 0x283fff0, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2844658, size 0xe4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "RangeConditionHeaderValue", modifiers: "&&", def_value: None }]

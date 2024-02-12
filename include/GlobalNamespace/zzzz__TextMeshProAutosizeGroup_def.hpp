@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::GlobalNamespace::TextMeshProAutosizeGroup);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13496))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13449))
 // CS Name: ::TextMeshProAutosizeGroup*
 class CORDL_TYPE TextMeshProAutosizeGroup : public ::UnityEngine::MonoBehaviour {
 public:
@@ -33,12 +33,12 @@ public:
 
   constexpr void __cordl_internal_set__texts(::ArrayW<::UnityW<::TMPro::TMP_Text>, ::Array<::UnityW<::TMPro::TMP_Text>>*> value);
 
-  /// @brief Method Start, addr 0x2115e44, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x21aa720, size 0x108, virtual false, abstract: false, final false
   inline void Start();
 
   static inline ::GlobalNamespace::TextMeshProAutosizeGroup* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2115f4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21aa828, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TextMeshProAutosizeGroup", modifiers: "&&", def_value: None }]

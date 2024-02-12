@@ -19,18 +19,18 @@ MARK_VAL_T(::TMPro::TMP_FontStyleStack);
 namespace TMPro {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12452))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12350))
 // CS Name: ::TMPro::TMP_FontStyleStack
 struct CORDL_TYPE TMP_FontStyleStack {
 public:
   // Declarations
-  /// @brief Method Clear, addr 0x2c48e58, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x2c469c4, size 0xc, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Add, addr 0x2c48e64, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x2c469d0, size 0xfc, virtual false, abstract: false, final false
   inline uint8_t Add(::TMPro::FontStyles style);
 
-  /// @brief Method Remove, addr 0x2c48f60, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x2c46acc, size 0x120, virtual false, abstract: false, final false
   inline uint8_t Remove(::TMPro::FontStyles style);
 
   // Ctor Parameters [CppParam { name: "bold", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "italic", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name:

@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IOVRSceneComponent);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7956))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7975))
 // CS Name: ::IOVRSceneComponent*
 class CORDL_TYPE IOVRSceneComponent {
 public:

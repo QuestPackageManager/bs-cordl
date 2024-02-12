@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Reflection::CorElementType);
 namespace System::Reflection {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3507))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3503))
 // CS Name: ::System.Reflection::CorElementType
 struct CORDL_TYPE CorElementType {
 public:

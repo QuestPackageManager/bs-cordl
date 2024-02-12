@@ -33,39 +33,39 @@ public:
   static inline ::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Point* New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x,
                                                                                     ::Org::BouncyCastle::Math::EC::ECFieldElement* y);
 
-  /// @brief Method .ctor, addr 0xfd2588, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfff418, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y);
 
   static inline ::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Point* New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x,
                                                                                     ::Org::BouncyCastle::Math::EC::ECFieldElement* y, bool withCompression);
 
-  /// @brief Method .ctor, addr 0xfd28b8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfff748, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y, bool withCompression);
 
   static inline ::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Point*
   New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y,
            ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> zs, bool withCompression);
 
-  /// @brief Method .ctor, addr 0xfd29d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfff860, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y,
                     ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> zs, bool withCompression);
 
-  /// @brief Method Detach, addr 0xfd5214, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Detach, addr 0x10020a4, size 0x98, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Detach();
 
-  /// @brief Method Add, addr 0xfd52ac, size 0x68c, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x100213c, size 0x68c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Add(::Org::BouncyCastle::Math::EC::ECPoint* b);
 
-  /// @brief Method Twice, addr 0xfd5938, size 0x4b4, virtual true, abstract: false, final false
+  /// @brief Method Twice, addr 0x10027c8, size 0x4b4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Twice();
 
-  /// @brief Method TwicePlus, addr 0xfd5dec, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method TwicePlus, addr 0x1002c7c, size 0xcc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* TwicePlus(::Org::BouncyCastle::Math::EC::ECPoint* b);
 
-  /// @brief Method ThreeTimes, addr 0xfd5eb8, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method ThreeTimes, addr 0x1002d48, size 0x7c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* ThreeTimes();
 
-  /// @brief Method Negate, addr 0xfd5f34, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method Negate, addr 0x1002dc4, size 0xd4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Negate();
 
   // Ctor Parameters [CppParam { name: "", ty: "SM2P256V1Point", modifiers: "&&", def_value: None }]

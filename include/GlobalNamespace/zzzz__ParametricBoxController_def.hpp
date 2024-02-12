@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ParametricBoxController);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14486))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8995))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14380))
 // CS Name: ::ParametricBoxController*
 class CORDL_TYPE ParametricBoxController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -179,21 +179,21 @@ public:
 
   static inline int32_t getStaticF__widthEndID();
 
-  /// @brief Method Awake, addr 0x2108f34, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x219d6dc, size 0x20, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnEnable, addr 0x2108f54, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x219d6fc, size 0x28, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable, addr 0x21091d4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x219d97c, size 0x20, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method Refresh, addr 0x2108f7c, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x219d724, size 0x258, virtual false, abstract: false, final false
   inline void Refresh();
 
   static inline ::GlobalNamespace::ParametricBoxController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21091f4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x219d99c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ParametricBoxController", modifiers: "&&", def_value: None }]

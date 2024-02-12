@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::GlobalNamespace::AutoSetupData);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5557))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4863))
 // CS Name: ::AutoSetupData*
 class CORDL_TYPE AutoSetupData : public ::System::Object {
 public:
@@ -58,7 +58,7 @@ public:
 
   static inline ::GlobalNamespace::AutoSetupData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22a2eac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23fd740, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AutoSetupData", modifiers: "&&", def_value: None }]

@@ -20,8 +20,8 @@ MARK_VAL_T(::ENet::ENetSslConfiguration);
 // SizeInfo { instance_size: 72, native_size: 72, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace ENet {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15216))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15218))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15329))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15331))
 // CS Name: ::ENet::ENetSslConfiguration
 struct CORDL_TYPE ENetSslConfiguration {
 public:

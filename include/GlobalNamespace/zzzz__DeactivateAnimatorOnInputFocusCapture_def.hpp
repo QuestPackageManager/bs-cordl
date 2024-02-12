@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14331))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14489))
 // CS Name: ::DeactivateAnimatorOnInputFocusCapture*
 class CORDL_TYPE DeactivateAnimatorOnInputFocusCapture : public ::UnityEngine::MonoBehaviour {
 public:
@@ -53,21 +53,21 @@ public:
 
   constexpr void __cordl_internal_set__wasEnabled(bool value);
 
-  /// @brief Method Start, addr 0x20ee7e0, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2182d68, size 0x210, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy, addr 0x20eea30, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2182fb8, size 0x1a4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleInputFocusCaptured, addr 0x20ee9f0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method HandleInputFocusCaptured, addr 0x2182f78, size 0x40, virtual false, abstract: false, final false
   inline void HandleInputFocusCaptured();
 
-  /// @brief Method HandleInputFocusReleased, addr 0x20eebd4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandleInputFocusReleased, addr 0x218315c, size 0x24, virtual false, abstract: false, final false
   inline void HandleInputFocusReleased();
 
   static inline ::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture* New_ctor();
 
-  /// @brief Method .ctor, addr 0x20eebf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2183180, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DeactivateAnimatorOnInputFocusCapture", modifiers: "&&", def_value: None }]

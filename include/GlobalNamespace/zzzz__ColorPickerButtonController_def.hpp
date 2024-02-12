@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorPickerButtonController);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16144))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16284))
 // CS Name: ::ColorPickerButtonController*
 class CORDL_TYPE ColorPickerButtonController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -49,15 +49,15 @@ public:
 
   constexpr void __cordl_internal_set__colorImage(::UnityW<::UnityEngine::UI::Image> value);
 
-  /// @brief Method get_button, addr 0x23e4268, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_button, addr 0x24040c8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Button> get_button();
 
-  /// @brief Method SetColor, addr 0x23e4270, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SetColor, addr 0x24040d0, size 0x28, virtual false, abstract: false, final false
   inline void SetColor(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::ColorPickerButtonController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23e4298, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24040f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ColorPickerButtonController", modifiers: "&&", def_value: None }]

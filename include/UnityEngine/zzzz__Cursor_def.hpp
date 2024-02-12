@@ -28,24 +28,24 @@ MARK_REF_PTR_T(::UnityEngine::Cursor);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10061))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8793))
 // CS Name: ::UnityEngine::Cursor*
 class CORDL_TYPE Cursor : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SetCursor, addr 0x2ca21c4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method SetCursor, addr 0x2ca2b7c, size 0x58, virtual false, abstract: false, final false
   static inline void SetCursor(::UnityEngine::Texture2D* texture, ::UnityEngine::Vector2 hotspot, ::UnityEngine::CursorMode cursorMode);
 
-  /// @brief Method set_visible, addr 0x2ca2270, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_visible, addr 0x2ca2c28, size 0x3c, virtual false, abstract: false, final false
   static inline void set_visible(bool value);
 
-  /// @brief Method get_lockState, addr 0x2ca22ac, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_lockState, addr 0x2ca2c64, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::CursorLockMode get_lockState();
 
-  /// @brief Method set_lockState, addr 0x2ca22d4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_lockState, addr 0x2ca2c8c, size 0x3c, virtual false, abstract: false, final false
   static inline void set_lockState(::UnityEngine::CursorLockMode value);
 
-  /// @brief Method SetCursor_Injected, addr 0x2ca221c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetCursor_Injected, addr 0x2ca2bd4, size 0x54, virtual false, abstract: false, final false
   static inline void SetCursor_Injected(::UnityEngine::Texture2D* texture, ByRef<::UnityEngine::Vector2> hotspot, ::UnityEngine::CursorMode cursorMode);
 
   // Ctor Parameters [CppParam { name: "", ty: "Cursor", modifiers: "&&", def_value: None }]

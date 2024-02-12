@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::BeatSaber::BeatAvatarAdapter::BeatAvatarAdapterInstallerSO);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarAdapter {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15165))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15258))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15245))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15371))
 // CS Name: ::BeatSaber.BeatAvatarAdapter::BeatAvatarAdapterInstallerSO*
 class CORDL_TYPE BeatAvatarAdapterInstallerSO : public ::BeatSaber::AvatarCore::AbstractAdapterInstallerSO {
 public:
@@ -86,15 +86,15 @@ public:
 
   constexpr void __cordl_internal_set__editAvatarColorView(::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorViewController> value);
 
-  /// @brief Method InstallBindings, addr 0xe14484, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0xe1fc80, size 0x10, virtual true, abstract: false, final false
   inline void InstallBindings();
 
-  /// @brief Method InstallBindings, addr 0xe14494, size 0x210, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0xe1fc90, size 0x210, virtual true, abstract: false, final false
   inline void InstallBindings(::Zenject::DiContainer* container);
 
   static inline ::BeatSaber::BeatAvatarAdapter::BeatAvatarAdapterInstallerSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe146a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe1fea0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatAvatarAdapterInstallerSO", modifiers: "&&", def_value: None }]

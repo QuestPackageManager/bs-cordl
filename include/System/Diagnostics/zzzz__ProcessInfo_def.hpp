@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::System::Diagnostics::ProcessInfo);
 namespace System::Diagnostics {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8952))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6962))
 // CS Name: ::System.Diagnostics::ProcessInfo*
 class CORDL_TYPE ProcessInfo : public ::System::Object {
 public:

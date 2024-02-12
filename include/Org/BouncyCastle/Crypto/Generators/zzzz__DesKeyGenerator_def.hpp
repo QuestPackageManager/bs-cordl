@@ -27,18 +27,18 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Generators::DesKeyGenerator* New_ctor();
 
-  /// @brief Method .ctor, addr 0xef6d70, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf21c00, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Generators::DesKeyGenerator* New_ctor(int32_t defaultStrength);
 
-  /// @brief Method .ctor, addr 0xef6d80, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf21c10, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(int32_t defaultStrength);
 
-  /// @brief Method engineInit, addr 0xef6d84, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method engineInit, addr 0xf21c14, size 0xfc, virtual true, abstract: false, final false
   inline void engineInit(::Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
 
-  /// @brief Method engineGenerateKey, addr 0xef6e80, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method engineGenerateKey, addr 0xf21d10, size 0xb4, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> engineGenerateKey();
 
   // Ctor Parameters [CppParam { name: "", ty: "DesKeyGenerator", modifiers: "&&", def_value: None }]

@@ -89,22 +89,22 @@ public:
 
   static inline ::Org::BouncyCastle::Crmf::PkiArchiveControl* New_ctor(::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions* pkiArchiveOptions);
 
-  /// @brief Method .ctor, addr 0x120e268, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x123b0f8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions* pkiArchiveOptions);
 
-  /// @brief Method get_Type, addr 0x12117d0, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method get_Type, addr 0x123e660, size 0x58, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_Type();
 
-  /// @brief Method get_Value, addr 0x1211828, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Value, addr 0x123e6b8, size 0x8, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Value();
 
-  /// @brief Method get_ArchiveType, addr 0x1211830, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_ArchiveType, addr 0x123e6c0, size 0x20, virtual false, abstract: false, final false
   inline int32_t get_ArchiveType();
 
-  /// @brief Method get_EnvelopedData, addr 0x1211850, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_EnvelopedData, addr 0x123e6e0, size 0x44, virtual false, abstract: false, final false
   inline bool get_EnvelopedData();
 
-  /// @brief Method GetEnvelopedData, addr 0x1211894, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method GetEnvelopedData, addr 0x123e724, size 0x264, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::CmsEnvelopedData* GetEnvelopedData();
 
   // Ctor Parameters [CppParam { name: "", ty: "PkiArchiveControl", modifiers: "&&", def_value: None }]

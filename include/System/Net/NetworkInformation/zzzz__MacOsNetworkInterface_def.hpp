@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::MacOsNetworkInterface);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9292))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9280))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7302))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7290))
 // CS Name: ::System.Net.NetworkInformation::MacOsNetworkInterface*
 class CORDL_TYPE MacOsNetworkInterface : public ::System::Net::NetworkInformation::UnixNetworkInterface {
 public:
@@ -41,13 +41,13 @@ public:
 
   static inline ::System::Net::NetworkInformation::MacOsNetworkInterface* New_ctor(::StringW name, uint32_t ifa_flags);
 
-  /// @brief Method .ctor, addr 0x29f0198, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29f4c3c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, uint32_t ifa_flags);
 
-  /// @brief Method GetIPProperties, addr 0x29f01bc, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method GetIPProperties, addr 0x29f4c60, size 0x74, virtual true, abstract: false, final false
   inline ::System::Net::NetworkInformation::IPInterfaceProperties* GetIPProperties();
 
-  /// @brief Method get_OperationalStatus, addr 0x29f0230, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method get_OperationalStatus, addr 0x29f4cd4, size 0x14, virtual true, abstract: false, final false
   inline ::System::Net::NetworkInformation::OperationalStatus get_OperationalStatus();
 
   // Ctor Parameters [CppParam { name: "", ty: "MacOsNetworkInterface", modifiers: "&&", def_value: None }]

@@ -17,7 +17,7 @@ namespace Unity::Collections {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10002))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8733))
 // CS Name: ::Unity.Collections::NativeArrayDebugView`1<T>*
 class CORDL_TYPE NativeArrayDebugView_1 : public ::System::Object {
 public:

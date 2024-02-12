@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::Newtonsoft::Json::JsonIgnoreAttribute);
 namespace Newtonsoft::Json {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11826))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11724))
 // CS Name: ::Newtonsoft.Json::JsonIgnoreAttribute*
 class CORDL_TYPE JsonIgnoreAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::Newtonsoft::Json::JsonIgnoreAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26482d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x266c490, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "JsonIgnoreAttribute", modifiers: "&&", def_value: None }]

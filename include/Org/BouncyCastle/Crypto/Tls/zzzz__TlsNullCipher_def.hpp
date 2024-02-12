@@ -69,22 +69,22 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsNullCipher* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context);
 
-  /// @brief Method .ctor, addr 0xfaed44, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfdabd4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsNullCipher* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::Org::BouncyCastle::Crypto::IDigest* clientWriteDigest,
                                                                           ::Org::BouncyCastle::Crypto::IDigest* serverWriteDigest);
 
-  /// @brief Method .ctor, addr 0xfaed70, size 0x458, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfdac00, size 0x458, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::Org::BouncyCastle::Crypto::IDigest* clientWriteDigest, ::Org::BouncyCastle::Crypto::IDigest* serverWriteDigest);
 
-  /// @brief Method GetPlaintextLimit, addr 0xfaf368, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method GetPlaintextLimit, addr 0xfdb1f8, size 0x2c, virtual true, abstract: false, final false
   inline int32_t GetPlaintextLimit(int32_t ciphertextLimit);
 
-  /// @brief Method EncodePlaintext, addr 0xfaf394, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method EncodePlaintext, addr 0xfdb224, size 0x130, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodePlaintext(int64_t seqNo, uint8_t type, ::ArrayW<uint8_t, ::Array<uint8_t>*> plaintext, int32_t offset, int32_t len);
 
-  /// @brief Method DecodeCiphertext, addr 0xfaf4c4, size 0x194, virtual true, abstract: false, final false
+  /// @brief Method DecodeCiphertext, addr 0xfdb354, size 0x194, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DecodeCiphertext(int64_t seqNo, uint8_t type, ::ArrayW<uint8_t, ::Array<uint8_t>*> ciphertext, int32_t offset, int32_t len);
 
   // Ctor Parameters [CppParam { name: "", ty: "TlsNullCipher", modifiers: "&&", def_value: None }]

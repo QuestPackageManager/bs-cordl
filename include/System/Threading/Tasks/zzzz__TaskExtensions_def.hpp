@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::System::Threading::Tasks::TaskExtensions);
 namespace System::Threading::Tasks {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14321))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14334))
 // CS Name: ::System.Threading.Tasks::TaskExtensions*
 class CORDL_TYPE TaskExtensions : public ::System::Object {
 public:

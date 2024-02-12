@@ -27,21 +27,21 @@ namespace Mono::Math::Prime::Generator {
 class CORDL_TYPE SequentialSearchPrimeGeneratorBase : public ::Mono::Math::Prime::Generator::PrimeGeneratorBase {
 public:
   // Declarations
-  /// @brief Method GenerateSearchBase, addr 0x242baa8, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method GenerateSearchBase, addr 0x244b90c, size 0x74, virtual true, abstract: false, final false
   inline ::Mono::Math::BigInteger* GenerateSearchBase(int32_t bits, ::System::Object* context);
 
-  /// @brief Method GenerateNewPrime, addr 0x242bb1c, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method GenerateNewPrime, addr 0x244b980, size 0x10, virtual true, abstract: false, final false
   inline ::Mono::Math::BigInteger* GenerateNewPrime(int32_t bits);
 
-  /// @brief Method GenerateNewPrime, addr 0x242bb2c, size 0x2e4, virtual true, abstract: false, final false
+  /// @brief Method GenerateNewPrime, addr 0x244b990, size 0x2e4, virtual true, abstract: false, final false
   inline ::Mono::Math::BigInteger* GenerateNewPrime(int32_t bits, ::System::Object* context);
 
-  /// @brief Method IsPrimeAcceptable, addr 0x242be10, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method IsPrimeAcceptable, addr 0x244bc74, size 0x8, virtual true, abstract: false, final false
   inline bool IsPrimeAcceptable(::Mono::Math::BigInteger* bi, ::System::Object* context);
 
   static inline ::Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase* New_ctor();
 
-  /// @brief Method .ctor, addr 0x242a5c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x244a428, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SequentialSearchPrimeGeneratorBase", modifiers: "&&", def_value: None }]

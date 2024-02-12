@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::RotationLimitAngle);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12622))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12623))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12520))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12521))
 // CS Name: ::RootMotion.FinalIK::RotationLimitAngle*
 class CORDL_TYPE RotationLimitAngle : public ::RootMotion::FinalIK::RotationLimit {
 public:
@@ -42,27 +42,27 @@ public:
 
   constexpr void __cordl_internal_set_twistLimit(float_t value);
 
-  /// @brief Method OpenUserManual, addr 0x128f62c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OpenUserManual, addr 0x13276dc, size 0x44, virtual false, abstract: false, final false
   inline void OpenUserManual();
 
-  /// @brief Method OpenScriptReference, addr 0x128f670, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OpenScriptReference, addr 0x1327720, size 0x44, virtual false, abstract: false, final false
   inline void OpenScriptReference();
 
-  /// @brief Method SupportGroup, addr 0x128f6b4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SupportGroup, addr 0x1327764, size 0x44, virtual false, abstract: false, final false
   inline void SupportGroup();
 
-  /// @brief Method ASThread, addr 0x128f6f8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ASThread, addr 0x13277a8, size 0x44, virtual false, abstract: false, final false
   inline void ASThread();
 
-  /// @brief Method LimitRotation, addr 0x128f73c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method LimitRotation, addr 0x13277ec, size 0x38, virtual true, abstract: false, final false
   inline ::UnityEngine::Quaternion LimitRotation(::UnityEngine::Quaternion rotation);
 
-  /// @brief Method LimitSwing, addr 0x128f774, size 0x324, virtual false, abstract: false, final false
+  /// @brief Method LimitSwing, addr 0x1327824, size 0x324, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion LimitSwing(::UnityEngine::Quaternion rotation);
 
   static inline ::RootMotion::FinalIK::RotationLimitAngle* New_ctor();
 
-  /// @brief Method .ctor, addr 0x128fa98, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1327b48, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RotationLimitAngle", modifiers: "&&", def_value: None }]

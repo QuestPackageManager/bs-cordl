@@ -16,7 +16,7 @@ MARK_VAL_T(::RootMotion::InterpolationMode);
 namespace RootMotion {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12493))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12391))
 // CS Name: ::RootMotion::InterpolationMode
 struct CORDL_TYPE InterpolationMode {
 public:

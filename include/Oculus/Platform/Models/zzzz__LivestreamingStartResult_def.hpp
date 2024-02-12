@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::LivestreamingStartResult);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13257))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13454))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13154))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13393))
 // CS Name: ::Oculus.Platform.Models::LivestreamingStartResult*
 class CORDL_TYPE LivestreamingStartResult : public ::System::Object {
 public:
@@ -33,7 +33,7 @@ public:
 
   static inline ::Oculus::Platform::Models::LivestreamingStartResult* New_ctor(void* o);
 
-  /// @brief Method .ctor, addr 0x270728c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x273a178, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "LivestreamingStartResult", modifiers: "&&", def_value: None }]

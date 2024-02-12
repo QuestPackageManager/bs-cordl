@@ -16,14 +16,14 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::AchievementDefinitionList);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13407)), TypeDefinitionIndex(TypeDefinitionIndex(13430)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13430), inst:
-// 1166 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(13408)) CS Name: ::Oculus.Platform.Models::AchievementDefinitionList*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13339)), TypeDefinitionIndex(TypeDefinitionIndex(13369)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13369), inst:
+// 1143 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(13340)) CS Name: ::Oculus.Platform.Models::AchievementDefinitionList*
 class CORDL_TYPE AchievementDefinitionList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::AchievementDefinition*> {
 public:
   // Declarations
   static inline ::Oculus::Platform::Models::AchievementDefinitionList* New_ctor(void* a);
 
-  /// @brief Method .ctor, addr 0x27037e8, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2735e9c, size 0x25c, virtual false, abstract: false, final false
   inline void _ctor(void* a);
 
   // Ctor Parameters [CppParam { name: "", ty: "AchievementDefinitionList", modifiers: "&&", def_value: None }]

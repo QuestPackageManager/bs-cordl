@@ -6,6 +6,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(StringExtensions)
+namespace System {
+struct StringComparison;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class StringExtensions;
@@ -17,13 +20,16 @@ MARK_REF_PTR_T(::GlobalNamespace::StringExtensions);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15832))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15219))
 // CS Name: ::StringExtensions*
 class CORDL_TYPE StringExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Truncate, addr 0xe25c70, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Truncate, addr 0xe47ee4, size 0xc8, virtual false, abstract: false, final false
   static inline ::StringW Truncate(::StringW s, int32_t length, bool appendEllipsis);
+
+  /// @brief Method Contains, addr 0xe47fac, size 0x20, virtual false, abstract: false, final false
+  static inline bool Contains(::StringW source, ::StringW substring, ::System::StringComparison comp);
 
   // Ctor Parameters [CppParam { name: "", ty: "StringExtensions", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

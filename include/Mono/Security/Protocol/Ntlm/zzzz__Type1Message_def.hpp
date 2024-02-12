@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::Mono::Security::Protocol::Ntlm::Type1Message);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::Protocol::Ntlm {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13765))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13769))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13718))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13722))
 // CS Name: ::Mono.Security.Protocol.Ntlm::Type1Message*
 class CORDL_TYPE Type1Message : public ::Mono::Security::Protocol::Ntlm::MessageBase {
 public:
@@ -47,19 +47,19 @@ public:
 
   static inline ::Mono::Security::Protocol::Ntlm::Type1Message* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2401418, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2421278, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_Domain, addr 0x240149c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method set_Domain, addr 0x24212fc, size 0x80, virtual false, abstract: false, final false
   inline void set_Domain(::StringW value);
 
-  /// @brief Method set_Host, addr 0x240151c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method set_Host, addr 0x242137c, size 0x80, virtual false, abstract: false, final false
   inline void set_Host(::StringW value);
 
-  /// @brief Method Decode, addr 0x240159c, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method Decode, addr 0x24213fc, size 0xf0, virtual true, abstract: false, final false
   inline void Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> message);
 
-  /// @brief Method GetBytes, addr 0x240168c, size 0x24c, virtual true, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x24214ec, size 0x24c, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBytes();
 
   // Ctor Parameters [CppParam { name: "", ty: "Type1Message", modifiers: "&&", def_value: None }]

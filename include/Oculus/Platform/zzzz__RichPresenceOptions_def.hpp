@@ -4,8 +4,15 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RichPresenceOptions)
+namespace Oculus::Platform {
+struct RichPresenceExtraContext;
+}
+namespace System {
+struct DateTime;
+}
 // Forward declare root types
 namespace Oculus::Platform {
 class RichPresenceOptions;
@@ -17,7 +24,7 @@ MARK_REF_PTR_T(::Oculus::Platform::RichPresenceOptions);
 namespace Oculus::Platform {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13383))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13309))
 // CS Name: ::Oculus.Platform::RichPresenceOptions*
 class CORDL_TYPE RichPresenceOptions : public ::System::Object {
 public:
@@ -33,13 +40,43 @@ public:
 
   static inline ::Oculus::Platform::RichPresenceOptions* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2700d20, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2733488, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method op_Explicit, addr 0x26ff37c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method SetApiName, addr 0x27334f0, size 0x6c, virtual false, abstract: false, final false
+  inline void SetApiName(::StringW value);
+
+  /// @brief Method SetCurrentCapacity, addr 0x273355c, size 0x6c, virtual false, abstract: false, final false
+  inline void SetCurrentCapacity(uint32_t value);
+
+  /// @brief Method SetDeeplinkMessageOverride, addr 0x27335c8, size 0x6c, virtual false, abstract: false, final false
+  inline void SetDeeplinkMessageOverride(::StringW value);
+
+  /// @brief Method SetEndTime, addr 0x2733634, size 0x6c, virtual false, abstract: false, final false
+  inline void SetEndTime(::System::DateTime value);
+
+  /// @brief Method SetExtraContext, addr 0x27336a0, size 0x6c, virtual false, abstract: false, final false
+  inline void SetExtraContext(::Oculus::Platform::RichPresenceExtraContext value);
+
+  /// @brief Method SetInstanceId, addr 0x273370c, size 0x6c, virtual false, abstract: false, final false
+  inline void SetInstanceId(::StringW value);
+
+  /// @brief Method SetIsIdle, addr 0x2733778, size 0x6c, virtual false, abstract: false, final false
+  inline void SetIsIdle(bool value);
+
+  /// @brief Method SetIsJoinable, addr 0x27337e4, size 0x6c, virtual false, abstract: false, final false
+  inline void SetIsJoinable(bool value);
+
+  /// @brief Method SetMaxCapacity, addr 0x2733850, size 0x6c, virtual false, abstract: false, final false
+  inline void SetMaxCapacity(uint32_t value);
+
+  /// @brief Method SetStartTime, addr 0x27338bc, size 0x6c, virtual false, abstract: false, final false
+  inline void SetStartTime(::System::DateTime value);
+
+  /// @brief Method op_Explicit, addr 0x273118c, size 0x58, virtual false, abstract: false, final false
   static inline void* op_Explicit_void_(::Oculus::Platform::RichPresenceOptions* options);
 
-  /// @brief Method Finalize, addr 0x2700d84, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x2733928, size 0xd8, virtual true, abstract: false, final false
   inline void Finalize();
 
   // Ctor Parameters [CppParam { name: "", ty: "RichPresenceOptions", modifiers: "&&", def_value: None }]

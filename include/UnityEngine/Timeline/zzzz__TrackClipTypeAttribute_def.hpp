@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::TrackClipTypeAttribute);
 namespace UnityEngine::Timeline {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13915))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13868))
 // CS Name: ::UnityEngine.Timeline::TrackClipTypeAttribute*
 class CORDL_TYPE TrackClipTypeAttribute : public ::System::Attribute {
 public:
@@ -43,12 +43,12 @@ public:
 
   static inline ::UnityEngine::Timeline::TrackClipTypeAttribute* New_ctor(::System::Type* clipClass);
 
-  /// @brief Method .ctor, addr 0x2c6e668, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c6b1d4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* clipClass);
 
   static inline ::UnityEngine::Timeline::TrackClipTypeAttribute* New_ctor(::System::Type* clipClass, bool allowAutoCreate);
 
-  /// @brief Method .ctor, addr 0x2c6e698, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c6b204, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* clipClass, bool allowAutoCreate);
 
   // Ctor Parameters [CppParam { name: "", ty: "TrackClipTypeAttribute", modifiers: "&&", def_value: None }]

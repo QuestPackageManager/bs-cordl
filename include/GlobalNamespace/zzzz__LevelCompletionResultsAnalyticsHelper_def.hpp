@@ -22,12 +22,12 @@ MARK_REF_PTR_T(::GlobalNamespace::LevelCompletionResultsAnalyticsHelper);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4017))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3959))
 // CS Name: ::LevelCompletionResultsAnalyticsHelper*
 class CORDL_TYPE LevelCompletionResultsAnalyticsHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FillEventData, addr 0x222395c, size 0x800, virtual false, abstract: false, final false
+  /// @brief Method FillEventData, addr 0x22ad468, size 0x800, virtual false, abstract: false, final false
   static inline void FillEventData(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* eventData);
 
   // Ctor Parameters [CppParam { name: "", ty: "LevelCompletionResultsAnalyticsHelper", modifiers: "&&", def_value: None }]

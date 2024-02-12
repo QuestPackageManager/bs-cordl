@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::LiteNetLib::NetConnectAcceptPacket);
 namespace LiteNetLib {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14171))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14184))
 // CS Name: ::LiteNetLib::NetConnectAcceptPacket*
 class CORDL_TYPE NetConnectAcceptPacket : public ::System::Object {
 public:
@@ -53,13 +53,13 @@ public:
 
   static inline ::LiteNetLib::NetConnectAcceptPacket* New_ctor(int64_t connectionId, uint8_t connectionNumber, bool isReusedPeer);
 
-  /// @brief Method .ctor, addr 0x22031e8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2298ad0, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(int64_t connectionId, uint8_t connectionNumber, bool isReusedPeer);
 
-  /// @brief Method FromData, addr 0x21fff70, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method FromData, addr 0x2295858, size 0x108, virtual false, abstract: false, final false
   static inline ::LiteNetLib::NetConnectAcceptPacket* FromData(::LiteNetLib::NetPacket* packet);
 
-  /// @brief Method Make, addr 0x2203228, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Make, addr 0x2298b10, size 0xbc, virtual false, abstract: false, final false
   static inline ::LiteNetLib::NetPacket* Make(int64_t connectId, uint8_t connectNum, bool reusedPeer);
 
   // Ctor Parameters [CppParam { name: "", ty: "NetConnectAcceptPacket", modifiers: "&&", def_value: None }]

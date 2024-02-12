@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Audio::AudioMixerPlayable (*)(::UnityEngine::Playables::PlayableGraph, int32_t, bool)>(
     &::UnityEngine::Audio::AudioMixerPlayable::Create)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2c9cfe0;
+  constexpr static std::size_t addrs = 0x2c9da48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::PlayableHandle (*)(::UnityEngine::Playables::PlayableGraph, int32_t, bool)>(
     &::UnityEngine::Audio::AudioMixerPlayable::CreateHandle)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x2c9d01c;
+  constexpr static std::size_t addrs = 0x2c9da84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Audio::AudioMixerPlayable::*)(::UnityEngine::Playables::PlayableHandle)>(
     &::UnityEngine::Audio::AudioMixerPlayable::_ctor)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x2c9d0f8;
+  constexpr static std::size_t addrs = 0x2c9db60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::PlayableHandle (::UnityEngine::Audio::AudioMixerPlayable::*)()>(
     &::UnityEngine::Audio::AudioMixerPlayable::GetHandle)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2c9d20c;
+  constexpr static std::size_t addrs = 0x2c9dc74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Audio::AudioMixerPlayable>::get(), "GetHandle",
@@ -73,12 +73,27 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::Playable (*)(::UnityEngine::Audio::AudioMixerPlayable)>(
     &::UnityEngine::Audio::AudioMixerPlayable::op_Implicit___UnityEngine__Playables__Playable)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x2c9d218;
+  constexpr static std::size_t addrs = 0x2c9dc80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Audio::AudioMixerPlayable>::get(), "op_Implicit", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Audio::AudioMixerPlayable>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Audio::AudioMixerPlayable.op_Explicit___UnityEngine__Audio__AudioMixerPlayable
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Audio::AudioMixerPlayable (*)(::UnityEngine::Playables::Playable)>(
+    &::UnityEngine::Audio::AudioMixerPlayable::op_Explicit___UnityEngine__Audio__AudioMixerPlayable)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x2c9dcb0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Audio::AudioMixerPlayable>::get(), "op_Explicit", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Playables::Playable>::get() })));
     return ___internal_method;
   }
 };
@@ -88,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Audio::AudioMixerPlayable::*)(::UnityEngine::Audio::AudioMixerPlayable)>(
     &::UnityEngine::Audio::AudioMixerPlayable::Equals)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x2c9d248;
+  constexpr static std::size_t addrs = 0x2c9dcf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -103,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<::UnityEngine::Playables::PlayableGraph>, bool, ByRef<::UnityEngine::Playables::PlayableHandle>)>(
     &::UnityEngine::Audio::AudioMixerPlayable::CreateAudioMixerPlayableInternal)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2c9d1b8;
+  constexpr static std::size_t addrs = 0x2c9dc20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -162,6 +177,12 @@ inline ::UnityEngine::Playables::Playable UnityEngine::Audio::AudioMixerPlayable
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Audio::AudioMixerPlayable>::get(), "op_Implicit", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Audio::AudioMixerPlayable>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Playables::Playable, false>(nullptr, ___internal_method, playable);
+}
+inline ::UnityEngine::Audio::AudioMixerPlayable UnityEngine::Audio::AudioMixerPlayable::op_Explicit___UnityEngine__Audio__AudioMixerPlayable(::UnityEngine::Playables::Playable playable) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Audio::AudioMixerPlayable>::get(), "op_Explicit", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Playables::Playable>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Audio::AudioMixerPlayable, false>(nullptr, ___internal_method, playable);
 }
 inline bool UnityEngine::Audio::AudioMixerPlayable::Equals(::UnityEngine::Audio::AudioMixerPlayable other) {
   static auto* ___internal_method = THROW_UNLESS(

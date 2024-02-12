@@ -42,7 +42,7 @@ MARK_REF_PTR_T(::Unity::XR::Oculus::OculusSettings);
 namespace Unity::XR::Oculus {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15147))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15187))
 // CS Name: ::OculusSettings::StereoRenderingModeDesktop
 struct CORDL_TYPE __OculusSettings__StereoRenderingModeDesktop {
 public:
@@ -92,7 +92,7 @@ static_assert(offsetof(::Unity::XR::Oculus::__OculusSettings__StereoRenderingMod
 namespace Unity::XR::Oculus {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15148))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15188))
 // CS Name: ::OculusSettings::StereoRenderingModeAndroid
 struct CORDL_TYPE __OculusSettings__StereoRenderingModeAndroid {
 public:
@@ -142,7 +142,7 @@ static_assert(offsetof(::Unity::XR::Oculus::__OculusSettings__StereoRenderingMod
 namespace Unity::XR::Oculus {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15149))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15189))
 // CS Name: ::OculusSettings::FoveationMethod
 struct CORDL_TYPE __OculusSettings__FoveationMethod {
 public:
@@ -191,8 +191,8 @@ static_assert(offsetof(::Unity::XR::Oculus::__OculusSettings__FoveationMethod, v
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::XR::Oculus {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210)), TypeDefinitionIndex(TypeDefinitionIndex(15147)), TypeDefinitionIndex(TypeDefinitionIndex(15148)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15149))] Self: TypeDefinitionIndex(TypeDefinitionIndex(15150)) CS Name: ::Unity.XR.Oculus::OculusSettings*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8954)), TypeDefinitionIndex(TypeDefinitionIndex(15187)), TypeDefinitionIndex(TypeDefinitionIndex(15188)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15189))] Self: TypeDefinitionIndex(TypeDefinitionIndex(15190)) CS Name: ::Unity.XR.Oculus::OculusSettings*
 class CORDL_TYPE OculusSettings : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
@@ -383,15 +383,15 @@ public:
 
   static inline ::UnityW<::Unity::XR::Oculus::OculusSettings> getStaticF_s_Settings();
 
-  /// @brief Method GetStereoRenderingMode, addr 0x2c783ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetStereoRenderingMode, addr 0x2c74f58, size 0x8, virtual false, abstract: false, final false
   inline uint16_t GetStereoRenderingMode();
 
-  /// @brief Method Awake, addr 0x2c7bc04, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2c78770, size 0x4c, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::Unity::XR::Oculus::OculusSettings* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c7bc50, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c787bc, size 0x30, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OculusSettings", modifiers: "&&", def_value: None }]

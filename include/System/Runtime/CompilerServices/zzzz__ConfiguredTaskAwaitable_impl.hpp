@@ -3,7 +3,6 @@
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ICriticalNotifyCompletion_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__INotifyCompletion_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 //  Writing Method size for method: ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter._ctor
@@ -12,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter::*)(
     ::System::Threading::Tasks::Task*, bool)>(&::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x24dc358;
+  constexpr static std::size_t addrs = 0x24fc528;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -29,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter::*)()>(
     &::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter::get_IsCompleted)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x24dc374;
+  constexpr static std::size_t addrs = 0x24fc544;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -44,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter::*)(::System::Action*)>(
     &::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter::OnCompleted)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x24dad5c;
+  constexpr static std::size_t addrs = 0x24fc560;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter::*)(::System::Action*)>(
     &::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter::UnsafeOnCompleted)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x24daf1c;
+  constexpr static std::size_t addrs = 0x24fb288;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -74,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter::*)()>(
     &::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter::GetResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24dc390;
+  constexpr static std::size_t addrs = 0x24fc574;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -91,15 +90,6 @@ constexpr System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__Configur
 constexpr ::System::Runtime::CompilerServices::ICriticalNotifyCompletion*
 System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter::i___System__Runtime__CompilerServices__ICriticalNotifyCompletion() {
   return static_cast<::System::Runtime::CompilerServices::ICriticalNotifyCompletion*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert operator to "::System::Runtime::CompilerServices::INotifyCompletion"
-constexpr System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter::operator ::System::Runtime::CompilerServices::INotifyCompletion*() {
-  return static_cast<::System::Runtime::CompilerServices::INotifyCompletion*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::Runtime::CompilerServices::INotifyCompletion"
-constexpr ::System::Runtime::CompilerServices::INotifyCompletion*
-System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter::i___System__Runtime__CompilerServices__INotifyCompletion() {
-  return static_cast<::System::Runtime::CompilerServices::INotifyCompletion*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 inline void System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter::_ctor(::System::Threading::Tasks::Task* task, bool continueOnCapturedContext) {
   static auto* ___internal_method =
@@ -148,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::ConfiguredTaskAwaitable::*)(::System::Threading::Tasks::Task*, bool)>(
     &::System::Runtime::CompilerServices::ConfiguredTaskAwaitable::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x24dc340;
+  constexpr static std::size_t addrs = 0x24fc510;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -164,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter (
     ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable::*)()>(&::System::Runtime::CompilerServices::ConfiguredTaskAwaitable::GetAwaiter)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x24dc368;
+  constexpr static std::size_t addrs = 0x24fc538;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

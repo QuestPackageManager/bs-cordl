@@ -1,7 +1,7 @@
 #pragma once
 #include "GlobalNamespace/zzzz__IBeatmapDataAssetFileModel_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapLevel_def.hpp"
 #include "GlobalNamespace/zzzz__GetAssetBundleFileResult_def.hpp"
-#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
 #include "GlobalNamespace/zzzz__LevelDataAssetDownloadUpdate_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
@@ -36,12 +36,12 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::IBeatmapDataAssetFileModel.GetAssetBundleFileForPreviewLevelAsync
+//  Writing Method size for method: ::GlobalNamespace::IBeatmapDataAssetFileModel.GetAssetBundleFileForBeatmapLevelAsync
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::GetAssetBundleFileResult>* (
-    ::GlobalNamespace::IBeatmapDataAssetFileModel::*)(::GlobalNamespace::IPreviewBeatmapLevel*, ::System::Threading::CancellationToken)>(
-    &::GlobalNamespace::IBeatmapDataAssetFileModel::GetAssetBundleFileForPreviewLevelAsync)> {
+    ::GlobalNamespace::IBeatmapDataAssetFileModel::*)(::GlobalNamespace::BeatmapLevel*, ::System::Threading::CancellationToken)>(
+    &::GlobalNamespace::IBeatmapDataAssetFileModel::GetAssetBundleFileForBeatmapLevelAsync)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
@@ -52,12 +52,12 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::IBeatmapDataAssetFileModel.TryDeleteAssetBundleFileForPreviewLevelAsync
+//  Writing Method size for method: ::GlobalNamespace::IBeatmapDataAssetFileModel.TryDeleteAssetBundleFileForBeatmapLevelAsync
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task_1<bool>* (::GlobalNamespace::IBeatmapDataAssetFileModel::*)(::GlobalNamespace::IPreviewBeatmapLevel*, ::System::Threading::CancellationToken)>(
-        &::GlobalNamespace::IBeatmapDataAssetFileModel::TryDeleteAssetBundleFileForPreviewLevelAsync)> {
+    static_cast<::System::Threading::Tasks::Task_1<bool>* (::GlobalNamespace::IBeatmapDataAssetFileModel::*)(::GlobalNamespace::BeatmapLevel*, ::System::Threading::CancellationToken)>(
+        &::GlobalNamespace::IBeatmapDataAssetFileModel::TryDeleteAssetBundleFileForBeatmapLevelAsync)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
@@ -79,17 +79,16 @@ inline void GlobalNamespace::IBeatmapDataAssetFileModel::remove_levelDataAssetDo
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::GetAssetBundleFileResult>*
-GlobalNamespace::IBeatmapDataAssetFileModel::GetAssetBundleFileForPreviewLevelAsync(::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel,
-                                                                                    ::System::Threading::CancellationToken cancellationToken) {
+GlobalNamespace::IBeatmapDataAssetFileModel::GetAssetBundleFileForBeatmapLevelAsync(::GlobalNamespace::BeatmapLevel* beatmapLevel, ::System::Threading::CancellationToken cancellationToken) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IBeatmapDataAssetFileModel*>::get(), 2)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::GlobalNamespace::GetAssetBundleFileResult>*, false>(this, ___internal_method, previewBeatmapLevel, cancellationToken);
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::GlobalNamespace::GetAssetBundleFileResult>*, false>(this, ___internal_method, beatmapLevel, cancellationToken);
 }
-inline ::System::Threading::Tasks::Task_1<bool>* GlobalNamespace::IBeatmapDataAssetFileModel::TryDeleteAssetBundleFileForPreviewLevelAsync(::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel,
+inline ::System::Threading::Tasks::Task_1<bool>* GlobalNamespace::IBeatmapDataAssetFileModel::TryDeleteAssetBundleFileForBeatmapLevelAsync(::GlobalNamespace::BeatmapLevel* beatmapLevel,
                                                                                                                                            ::System::Threading::CancellationToken cancellationToken) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IBeatmapDataAssetFileModel*>::get(), 3)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<bool>*, false>(this, ___internal_method, previewBeatmapLevel, cancellationToken);
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<bool>*, false>(this, ___internal_method, beatmapLevel, cancellationToken);
 }
 #ifndef CORDL_NO_IMPL_INCLUDE
 #endif

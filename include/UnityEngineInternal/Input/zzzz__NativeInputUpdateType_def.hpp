@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngineInternal::Input::NativeInputUpdateType);
 namespace UnityEngineInternal::Input {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16111))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16222))
 // CS Name: ::UnityEngineInternal.Input::NativeInputUpdateType
 struct CORDL_TYPE NativeInputUpdateType {
 public:

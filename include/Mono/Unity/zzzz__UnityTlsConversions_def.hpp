@@ -36,28 +36,28 @@ MARK_REF_PTR_T(::Mono::Unity::UnityTlsConversions);
 namespace Mono::Unity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8811))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6821))
 // CS Name: ::Mono.Unity::UnityTlsConversions*
 class CORDL_TYPE UnityTlsConversions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetMinProtocol, addr 0x281a884, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetMinProtocol, addr 0x281f06c, size 0x38, virtual false, abstract: false, final false
   static inline ::Mono::Unity::__UnityTls__unitytls_protocol GetMinProtocol(::System::Security::Authentication::SslProtocols protocols);
 
-  /// @brief Method GetMaxProtocol, addr 0x281a8bc, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetMaxProtocol, addr 0x281f0a4, size 0x38, virtual false, abstract: false, final false
   static inline ::Mono::Unity::__UnityTls__unitytls_protocol GetMaxProtocol(::System::Security::Authentication::SslProtocols protocols);
 
-  /// @brief Method ConvertProtocolVersion, addr 0x281b5d4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ConvertProtocolVersion, addr 0x281fdbc, size 0x20, virtual false, abstract: false, final false
   static inline ::Mono::Security::Interface::TlsProtocols ConvertProtocolVersion(::Mono::Unity::__UnityTls__unitytls_protocol protocol);
 
-  /// @brief Method VerifyResultToAlertDescription, addr 0x2817bd4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method VerifyResultToAlertDescription, addr 0x281c3bc, size 0x54, virtual false, abstract: false, final false
   static inline ::Mono::Security::Interface::AlertDescription VerifyResultToAlertDescription(::Mono::Unity::__UnityTls__unitytls_x509verify_result verifyResult,
                                                                                              ::Mono::Security::Interface::AlertDescription defaultAlert);
 
-  /// @brief Method VerifyResultToPolicyErrror, addr 0x281caa8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method VerifyResultToPolicyErrror, addr 0x2821290, size 0x30, virtual false, abstract: false, final false
   static inline ::System::Net::Security::SslPolicyErrors VerifyResultToPolicyErrror(::Mono::Unity::__UnityTls__unitytls_x509verify_result verifyResult);
 
-  /// @brief Method VerifyResultToChainStatus, addr 0x281cad8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method VerifyResultToChainStatus, addr 0x28212c0, size 0x40, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags VerifyResultToChainStatus(::Mono::Unity::__UnityTls__unitytls_x509verify_result verifyResult);
 
   // Ctor Parameters [CppParam { name: "", ty: "UnityTlsConversions", modifiers: "&&", def_value: None }]

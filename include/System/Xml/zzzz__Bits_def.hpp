@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::System::Xml::Bits);
 namespace System::Xml {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11409))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11307))
 // CS Name: ::System.Xml::Bits*
 class CORDL_TYPE Bits : public ::System::Object {
 public:
@@ -56,10 +56,10 @@ public:
 
   static inline uint32_t getStaticF_MASK_1111111111111111();
 
-  /// @brief Method Count, addr 0x284e6d0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Count, addr 0x2851d38, size 0x9c, virtual false, abstract: false, final false
   static inline int32_t Count(uint32_t num);
 
-  /// @brief Method LeastPosition, addr 0x284e76c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method LeastPosition, addr 0x2851dd4, size 0x6c, virtual false, abstract: false, final false
   static inline int32_t LeastPosition(uint32_t num);
 
   // Ctor Parameters [CppParam { name: "", ty: "Bits", modifiers: "&&", def_value: None }]

@@ -30,8 +30,8 @@ namespace System::Collections::ObjectModel {
 // cpp template
 template <typename TKey, typename TItem>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3814)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3814), inst: 1020 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3816))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3813)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3813), inst: 1012 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3815))
 // CS Name: ::System.Collections.ObjectModel::KeyedCollection`2<TKey,TItem>*
 class CORDL_TYPE KeyedCollection_2 : public ::System::Collections::ObjectModel::Collection_1<TItem> {
 public:

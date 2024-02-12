@@ -16,7 +16,7 @@ MARK_VAL_T(::HMUI::UISelectionState);
 namespace HMUI {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13567))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13520))
 // CS Name: ::HMUI::UISelectionState
 struct CORDL_TYPE UISelectionState {
 public:

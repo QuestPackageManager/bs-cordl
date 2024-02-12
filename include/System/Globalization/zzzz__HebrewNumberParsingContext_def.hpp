@@ -19,13 +19,13 @@ MARK_VAL_T(::System::Globalization::HebrewNumberParsingContext);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3677))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3673))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3675))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3671))
 // CS Name: ::System.Globalization::HebrewNumberParsingContext
 struct CORDL_TYPE HebrewNumberParsingContext {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x2552e60, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2574aa8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t result);
 
   // Ctor Parameters [CppParam { name: "state", ty: "::System::Globalization::__HebrewNumber__HS", modifiers: "", def_value: None }, CppParam { name: "result", ty: "int32_t", modifiers: "", def_value:

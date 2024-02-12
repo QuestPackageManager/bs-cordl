@@ -34,8 +34,8 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10868)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10868), inst: 4472 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10869))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10010)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10010), inst: 4440 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10011))
 // CS Name: ::Zenject::MemoryPoolIdInitialSizeMaxSizeBinder`1<TContract>*
 class CORDL_TYPE MemoryPoolIdInitialSizeMaxSizeBinder_1 : public ::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract> {
 public:

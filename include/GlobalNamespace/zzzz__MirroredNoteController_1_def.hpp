@@ -41,8 +41,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4770))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4756))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4121))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4107))
 // CS Name: ::MirroredNoteController`1<T>*
 class CORDL_TYPE MirroredNoteController_1 : public ::GlobalNamespace::NoteControllerBase {
 public:

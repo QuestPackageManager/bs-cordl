@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::__AsyncProtocolRequest___StartOperation_d__23::*)()>(
     &::Mono::Net::Security::__AsyncProtocolRequest___StartOperation_d__23::MoveNext)> {
   constexpr static std::size_t size = 0x358;
-  constexpr static std::size_t addrs = 0x281e690;
+  constexpr static std::size_t addrs = 0x2822e78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::__AsyncProtocolRequest___StartOperation_d__23::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Mono::Net::Security::__AsyncProtocolRequest___StartOperation_d__23::SetStateMachine)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x281ea28;
+  constexpr static std::size_t addrs = 0x2823210;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::__AsyncProtocolRequest___ProcessOperation_d__24::*)()>(
     &::Mono::Net::Security::__AsyncProtocolRequest___ProcessOperation_d__24::MoveNext)> {
   constexpr static std::size_t size = 0x494;
-  constexpr static std::size_t addrs = 0x281ea80;
+  constexpr static std::size_t addrs = 0x2823268;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::__AsyncProtocolRequest___ProcessOperation_d__24::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Mono::Net::Security::__AsyncProtocolRequest___ProcessOperation_d__24::SetStateMachine)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x281f18c;
+  constexpr static std::size_t addrs = 0x2823974;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -169,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::__AsyncProtocolRequest___InnerRead_d__25::*)()>(
     &::Mono::Net::Security::__AsyncProtocolRequest___InnerRead_d__25::MoveNext)> {
   constexpr static std::size_t size = 0x350;
-  constexpr static std::size_t addrs = 0x281f198;
+  constexpr static std::size_t addrs = 0x2823980;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -184,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::__AsyncProtocolRequest___InnerRead_d__25::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Mono::Net::Security::__AsyncProtocolRequest___InnerRead_d__25::SetStateMachine)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x281f604;
+  constexpr static std::size_t addrs = 0x2823dec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -239,7 +239,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Net::Security::MobileAuthenticatedStream* (::Mono::Net::Security::AsyncProtocolRequest::*)()>(
     &::Mono::Net::Security::AsyncProtocolRequest::get_Parent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x281e1c0;
+  constexpr static std::size_t addrs = 0x28229a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::AsyncProtocolRequest*>::get(),
@@ -253,7 +253,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Net::Security::AsyncProtocolRequest::*)()>(
     &::Mono::Net::Security::AsyncProtocolRequest::get_RunSynchronously)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x281e1c8;
+  constexpr static std::size_t addrs = 0x28229b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::AsyncProtocolRequest*>::get(),
@@ -267,7 +267,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Mono::Net::Security::AsyncProtocolRequest::*)()>(
     &::Mono::Net::Security::AsyncProtocolRequest::get_Name)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x281e1d0;
+  constexpr static std::size_t addrs = 0x28229b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::AsyncProtocolRequest*>::get(), "get_Name",
@@ -281,7 +281,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Mono::Net::Security::AsyncProtocolRequest::*)()>(
     &::Mono::Net::Security::AsyncProtocolRequest::get_UserResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x281e1f4;
+  constexpr static std::size_t addrs = 0x28229dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::AsyncProtocolRequest*>::get(),
@@ -295,7 +295,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::AsyncProtocolRequest::*)(int32_t)>(
     &::Mono::Net::Security::AsyncProtocolRequest::set_UserResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x281e1fc;
+  constexpr static std::size_t addrs = 0x28229e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -310,7 +310,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::AsyncProtocolRequest::*)(::Mono::Net::Security::MobileAuthenticatedStream*, bool)>(
     &::Mono::Net::Security::AsyncProtocolRequest::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x281e204;
+  constexpr static std::size_t addrs = 0x28229ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -326,7 +326,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::AsyncProtocolRequest::*)(int32_t)>(
     &::Mono::Net::Security::AsyncProtocolRequest::RequestRead)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x281e28c;
+  constexpr static std::size_t addrs = 0x2822a74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -341,7 +341,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::AsyncProtocolRequest::*)()>(
     &::Mono::Net::Security::AsyncProtocolRequest::RequestWrite)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x281e350;
+  constexpr static std::size_t addrs = 0x2822b38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::AsyncProtocolRequest*>::get(),
@@ -355,7 +355,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::Mono::Net::Security::AsyncProtocolResult*>* (
     ::Mono::Net::Security::AsyncProtocolRequest::*)(::System::Threading::CancellationToken)>(&::Mono::Net::Security::AsyncProtocolRequest::StartOperation)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x281e35c;
+  constexpr static std::size_t addrs = 0x2822b44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -370,7 +370,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
     ::Mono::Net::Security::AsyncProtocolRequest::*)(::System::Threading::CancellationToken)>(&::Mono::Net::Security::AsyncProtocolRequest::ProcessOperation)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x281e454;
+  constexpr static std::size_t addrs = 0x2822c3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -385,7 +385,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::System::Nullable_1<int32_t>>* (
     ::Mono::Net::Security::AsyncProtocolRequest::*)(::System::Threading::CancellationToken)>(&::Mono::Net::Security::AsyncProtocolRequest::InnerRead)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x281e534;
+  constexpr static std::size_t addrs = 0x2822d1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -415,7 +415,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Mono::Net::Security::AsyncProtocolRequest::*)()>(
     &::Mono::Net::Security::AsyncProtocolRequest::ToString)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x281e638;
+  constexpr static std::size_t addrs = 0x2822e20;
 
   inline static ::MethodInfo const* methodInfo() {
 

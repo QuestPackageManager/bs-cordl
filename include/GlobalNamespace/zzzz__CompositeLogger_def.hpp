@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::GlobalNamespace::CompositeLogger);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5876))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5166))
 // CS Name: ::CompositeLogger*
 class CORDL_TYPE CompositeLogger : public ::System::Object {
 public:
@@ -50,34 +50,34 @@ public:
 
   static inline ::GlobalNamespace::CompositeLogger* New_ctor(::System::Collections::Generic::List_1<::GlobalNamespace::IBeatSaberLogger*>* loggers);
 
-  /// @brief Method .ctor, addr 0x22f89fc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2325368, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::GlobalNamespace::IBeatSaberLogger*>* loggers);
 
-  /// @brief Method AddLogger, addr 0x22f8a24, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method AddLogger, addr 0x2325390, size 0xa8, virtual false, abstract: false, final false
   inline void AddLogger(::GlobalNamespace::IBeatSaberLogger* logger);
 
-  /// @brief Method Log, addr 0x22f8acc, size 0x1b0, virtual true, abstract: false, final true
+  /// @brief Method Log, addr 0x2325438, size 0x1b0, virtual true, abstract: false, final true
   inline void Log(::StringW message);
 
-  /// @brief Method Log, addr 0x22f8c7c, size 0x1c4, virtual true, abstract: false, final true
+  /// @brief Method Log, addr 0x23255e8, size 0x1c4, virtual true, abstract: false, final true
   inline void Log(::StringW message, ::System::Object* context);
 
-  /// @brief Method LogWarning, addr 0x22f8e40, size 0x1b4, virtual true, abstract: false, final true
+  /// @brief Method LogWarning, addr 0x23257ac, size 0x1b4, virtual true, abstract: false, final true
   inline void LogWarning(::StringW message);
 
-  /// @brief Method LogWarning, addr 0x22f8ff4, size 0x1c4, virtual true, abstract: false, final true
+  /// @brief Method LogWarning, addr 0x2325960, size 0x1c4, virtual true, abstract: false, final true
   inline void LogWarning(::StringW message, ::System::Object* context);
 
-  /// @brief Method LogError, addr 0x22f91b8, size 0x1b4, virtual true, abstract: false, final true
+  /// @brief Method LogError, addr 0x2325b24, size 0x1b4, virtual true, abstract: false, final true
   inline void LogError(::StringW message);
 
-  /// @brief Method LogError, addr 0x22f936c, size 0x1c4, virtual true, abstract: false, final true
+  /// @brief Method LogError, addr 0x2325cd8, size 0x1c4, virtual true, abstract: false, final true
   inline void LogError(::StringW message, ::System::Object* context);
 
-  /// @brief Method LogException, addr 0x22f9530, size 0x1b4, virtual true, abstract: false, final true
+  /// @brief Method LogException, addr 0x2325e9c, size 0x1b4, virtual true, abstract: false, final true
   inline void LogException(::System::Exception* exception);
 
-  /// @brief Method LogException, addr 0x22f96e4, size 0x1c4, virtual true, abstract: false, final true
+  /// @brief Method LogException, addr 0x2326050, size 0x1c4, virtual true, abstract: false, final true
   inline void LogException(::System::Exception* exception, ::System::Object* context);
 
   // Ctor Parameters [CppParam { name: "", ty: "CompositeLogger", modifiers: "&&", def_value: None }]

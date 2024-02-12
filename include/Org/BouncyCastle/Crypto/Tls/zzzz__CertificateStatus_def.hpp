@@ -54,25 +54,25 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::CertificateStatus* New_ctor(uint8_t statusType, ::System::Object* response);
 
-  /// @brief Method .ctor, addr 0xf5fc14, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf89aa4, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(uint8_t statusType, ::System::Object* response);
 
-  /// @brief Method get_StatusType, addr 0xf5fd9c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_StatusType, addr 0xf89c2c, size 0x8, virtual true, abstract: false, final false
   inline uint8_t get_StatusType();
 
-  /// @brief Method get_Response, addr 0xf5fda4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Response, addr 0xf89c34, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* get_Response();
 
-  /// @brief Method GetOcspResponse, addr 0xf5fdac, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method GetOcspResponse, addr 0xf89c3c, size 0xd4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Ocsp::OcspResponse* GetOcspResponse();
 
-  /// @brief Method Encode, addr 0xf5fe80, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0xf89d10, size 0x150, virtual true, abstract: false, final false
   inline void Encode(::System::IO::Stream* output);
 
-  /// @brief Method Parse, addr 0xf5ffd0, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0xf89e60, size 0x114, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Tls::CertificateStatus* Parse(::System::IO::Stream* input);
 
-  /// @brief Method IsCorrectType, addr 0xf5fcb4, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method IsCorrectType, addr 0xf89b44, size 0xe8, virtual false, abstract: false, final false
   static inline bool IsCorrectType(uint8_t statusType, ::System::Object* response);
 
   // Ctor Parameters [CppParam { name: "", ty: "CertificateStatus", modifiers: "&&", def_value: None }]

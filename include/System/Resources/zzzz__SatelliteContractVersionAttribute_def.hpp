@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::System::Resources::SatelliteContractVersionAttribute);
 namespace System::Resources {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3430))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3426))
 // CS Name: ::System.Resources::SatelliteContractVersionAttribute*
 class CORDL_TYPE SatelliteContractVersionAttribute : public ::System::Attribute {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::System::Resources::SatelliteContractVersionAttribute* New_ctor(::StringW version);
 
-  /// @brief Method .ctor, addr 0x24e0a18, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24ff0d4, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::StringW version);
 
   // Ctor Parameters [CppParam { name: "", ty: "SatelliteContractVersionAttribute", modifiers: "&&", def_value: None }]

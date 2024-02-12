@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::ReflectionBlockedAttribute);
 namespace System::Runtime::CompilerServices {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3399))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3395))
 // CS Name: ::System.Runtime.CompilerServices::ReflectionBlockedAttribute*
 class CORDL_TYPE ReflectionBlockedAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::System::Runtime::CompilerServices::ReflectionBlockedAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24dc398, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24fc57c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectionBlockedAttribute", modifiers: "&&", def_value: None }]

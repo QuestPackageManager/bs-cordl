@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::UnityEngine::AndroidReflection);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14915))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14788))
 // CS Name: ::UnityEngine::AndroidReflection*
 class CORDL_TYPE AndroidReflection : public ::System::Object {
 public:
@@ -89,37 +89,37 @@ public:
 
   static inline void* getStaticF_s_FieldGetDeclaringClass();
 
-  /// @brief Method IsPrimitive, addr 0x2c878e4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsPrimitive, addr 0x2c84450, size 0x14, virtual false, abstract: false, final false
   static inline bool IsPrimitive(::System::Type* t);
 
-  /// @brief Method IsAssignableFrom, addr 0x2c878f8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsAssignableFrom, addr 0x2c84464, size 0x20, virtual false, abstract: false, final false
   static inline bool IsAssignableFrom(::System::Type* t, ::System::Type* from);
 
-  /// @brief Method GetStaticMethodID, addr 0x2c87918, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetStaticMethodID, addr 0x2c84484, size 0x9c, virtual false, abstract: false, final false
   static inline void* GetStaticMethodID(::StringW clazz, ::StringW methodName, ::StringW signature);
 
-  /// @brief Method GetMethodID, addr 0x2c879b4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetMethodID, addr 0x2c84520, size 0x9c, virtual false, abstract: false, final false
   static inline void* GetMethodID(::StringW clazz, ::StringW methodName, ::StringW signature);
 
-  /// @brief Method GetConstructorMember, addr 0x2c87a50, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method GetConstructorMember, addr 0x2c845bc, size 0x18c, virtual false, abstract: false, final false
   static inline void* GetConstructorMember(void* jclass, ::StringW signature);
 
-  /// @brief Method GetMethodMember, addr 0x2c87bdc, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method GetMethodMember, addr 0x2c84748, size 0x200, virtual false, abstract: false, final false
   static inline void* GetMethodMember(void* jclass, ::StringW methodName, ::StringW signature, bool isStatic);
 
-  /// @brief Method GetFieldMember, addr 0x2c87ddc, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method GetFieldMember, addr 0x2c84948, size 0x200, virtual false, abstract: false, final false
   static inline void* GetFieldMember(void* jclass, ::StringW fieldName, ::StringW signature, bool isStatic);
 
-  /// @brief Method GetFieldClass, addr 0x2c87fdc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetFieldClass, addr 0x2c84b48, size 0x64, virtual false, abstract: false, final false
   static inline void* GetFieldClass(void* field);
 
-  /// @brief Method GetFieldSignature, addr 0x2c88040, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetFieldSignature, addr 0x2c84bac, size 0xa8, virtual false, abstract: false, final false
   static inline ::StringW GetFieldSignature(void* field);
 
-  /// @brief Method NewProxyInstance, addr 0x2c880e8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method NewProxyInstance, addr 0x2c84c54, size 0xd0, virtual false, abstract: false, final false
   static inline void* NewProxyInstance(void* delegateHandle, void* interfaze);
 
-  /// @brief Method SetNativeExceptionOnProxy, addr 0x2c854c4, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method SetNativeExceptionOnProxy, addr 0x2c82030, size 0x10c, virtual false, abstract: false, final false
   static inline void SetNativeExceptionOnProxy(void* proxy, ::System::Exception* e, bool methodNotFound);
 
   // Ctor Parameters [CppParam { name: "", ty: "AndroidReflection", modifiers: "&&", def_value: None }]

@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ICPUMonitor);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12784))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12682))
 // CS Name: ::ICPUMonitor*
 class CORDL_TYPE ICPUMonitor {
 public:

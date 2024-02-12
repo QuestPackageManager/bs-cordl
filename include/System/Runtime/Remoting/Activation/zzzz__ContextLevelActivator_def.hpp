@@ -48,13 +48,13 @@ public:
 
   static inline ::System::Runtime::Remoting::Activation::ContextLevelActivator* New_ctor(::System::Runtime::Remoting::Activation::IActivator* next);
 
-  /// @brief Method .ctor, addr 0x24a4528, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24c659c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Activation::IActivator* next);
 
-  /// @brief Method get_NextActivator, addr 0x24a507c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_NextActivator, addr 0x24c70f0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Activation::IActivator* get_NextActivator();
 
-  /// @brief Method Activate, addr 0x24a5084, size 0x334, virtual true, abstract: false, final true
+  /// @brief Method Activate, addr 0x24c70f8, size 0x334, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Activation::IConstructionReturnMessage* Activate(::System::Runtime::Remoting::Activation::IConstructionCallMessage* ctorCall);
 
   // Ctor Parameters [CppParam { name: "", ty: "ContextLevelActivator", modifiers: "&&", def_value: None }]

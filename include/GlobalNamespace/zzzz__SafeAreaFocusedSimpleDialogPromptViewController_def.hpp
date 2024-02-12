@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::GlobalNamespace::SafeAreaFocusedSimpleDialogPromptViewControlle
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5763))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5745))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5063))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5045))
 // CS Name: ::SafeAreaFocusedSimpleDialogPromptViewController*
 class CORDL_TYPE SafeAreaFocusedSimpleDialogPromptViewController : public ::GlobalNamespace::SimpleDialogPromptViewController {
 public:
   // Declarations
   static inline ::GlobalNamespace::SafeAreaFocusedSimpleDialogPromptViewController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22d7ef0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23080e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SafeAreaFocusedSimpleDialogPromptViewController", modifiers: "&&", def_value: None }]

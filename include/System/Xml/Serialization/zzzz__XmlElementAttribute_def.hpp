@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::System::Xml::Serialization::XmlElementAttribute);
 namespace System::Xml::Serialization {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11587))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11485))
 // CS Name: ::System.Xml.Serialization::XmlElementAttribute*
 class CORDL_TYPE XmlElementAttribute : public ::System::Attribute {
 public:
@@ -54,7 +54,7 @@ public:
 
   static inline ::System::Xml::Serialization::XmlElementAttribute* New_ctor(::StringW elementName, ::System::Type* type);
 
-  /// @brief Method .ctor, addr 0x28abef8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28af560, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::StringW elementName, ::System::Type* type);
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlElementAttribute", modifiers: "&&", def_value: None }]

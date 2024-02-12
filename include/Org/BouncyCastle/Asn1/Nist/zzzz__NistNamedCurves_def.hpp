@@ -49,25 +49,25 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Nist::NistNamedCurves* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf7d744, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfa85d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method DefineCurveAlias, addr 0xf7d74c, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method DefineCurveAlias, addr 0xfa85dc, size 0x198, virtual false, abstract: false, final false
   static inline void DefineCurveAlias(::StringW name, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetByName, addr 0xf7dc04, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetByName, addr 0xfa8a94, size 0x80, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByName(::StringW name);
 
-  /// @brief Method GetByOid, addr 0xf7ddd8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetByOid, addr 0xfa8c68, size 0x58, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetOid, addr 0xf7dc84, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method GetOid, addr 0xfa8b14, size 0x154, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetOid(::StringW name);
 
-  /// @brief Method GetName, addr 0xf7de30, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetName, addr 0xfa8cc0, size 0x100, virtual false, abstract: false, final false
   static inline ::StringW GetName(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method get_Names, addr 0xf7df30, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method get_Names, addr 0xfa8dc0, size 0x10c, virtual false, abstract: false, final false
   static inline ::System::Collections::IEnumerable* get_Names();
 
   // Ctor Parameters [CppParam { name: "", ty: "NistNamedCurves", modifiers: "&&", def_value: None }]

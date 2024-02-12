@@ -26,8 +26,8 @@ namespace UnityEngine::Events {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10452)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10452), inst: 3926 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10456))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9221)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9221), inst: 3905 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9225))
 // CS Name: ::UnityEngine.Events::CachedInvokableCall`1<T>*
 class CORDL_TYPE CachedInvokableCall_1 : public ::UnityEngine::Events::InvokableCall_1<T> {
 public:

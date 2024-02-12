@@ -82,21 +82,21 @@ public:
   static inline ::System::Runtime::Remoting::Messaging::ConstructionResponse* New_ctor(::System::Object* resultObject, ::System::Runtime::Remoting::Messaging::LogicalCallContext* callCtx,
                                                                                        ::System::Runtime::Remoting::Messaging::IMethodCallMessage* msg);
 
-  /// @brief Method .ctor, addr 0x249a1c0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24bc234, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* resultObject, ::System::Runtime::Remoting::Messaging::LogicalCallContext* callCtx, ::System::Runtime::Remoting::Messaging::IMethodCallMessage* msg);
 
   static inline ::System::Runtime::Remoting::Messaging::ConstructionResponse* New_ctor(::System::Exception* e, ::System::Runtime::Remoting::Messaging::IMethodCallMessage* msg);
 
-  /// @brief Method .ctor, addr 0x24a4f80, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24c6ff4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Exception* e, ::System::Runtime::Remoting::Messaging::IMethodCallMessage* msg);
 
   static inline ::System::Runtime::Remoting::Messaging::ConstructionResponse* New_ctor(::System::Runtime::Serialization::SerializationInfo* info,
                                                                                        ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x24ad2d4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24cf348, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method get_Properties, addr 0x24ad350, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x24cf3c4, size 0x4, virtual true, abstract: false, final false
   inline ::System::Collections::IDictionary* get_Properties();
 
   // Ctor Parameters [CppParam { name: "", ty: "ConstructionResponse", modifiers: "&&", def_value: None }]

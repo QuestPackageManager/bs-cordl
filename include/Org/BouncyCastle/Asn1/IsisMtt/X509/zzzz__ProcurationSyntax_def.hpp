@@ -83,39 +83,39 @@ public:
 
   constexpr void __cordl_internal_set_certRef(::Org::BouncyCastle::Asn1::X509::IssuerSerial* value);
 
-  /// @brief Method GetInstance, addr 0xf795c4, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xfa4454, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::ProcurationSyntax* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::ProcurationSyntax* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xf7974c, size 0x2fc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfa45dc, size 0x2fc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::ProcurationSyntax* New_ctor(::StringW country, ::Org::BouncyCastle::Asn1::X500::DirectoryString* typeOfSubstitution,
                                                                                       ::Org::BouncyCastle::Asn1::X509::IssuerSerial* certRef);
 
-  /// @brief Method .ctor, addr 0xf79a48, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfa48d8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW country, ::Org::BouncyCastle::Asn1::X500::DirectoryString* typeOfSubstitution, ::Org::BouncyCastle::Asn1::X509::IssuerSerial* certRef);
 
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::ProcurationSyntax* New_ctor(::StringW country, ::Org::BouncyCastle::Asn1::X500::DirectoryString* typeOfSubstitution,
                                                                                       ::Org::BouncyCastle::Asn1::X509::GeneralName* thirdPerson);
 
-  /// @brief Method .ctor, addr 0xf79a84, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfa4914, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW country, ::Org::BouncyCastle::Asn1::X500::DirectoryString* typeOfSubstitution, ::Org::BouncyCastle::Asn1::X509::GeneralName* thirdPerson);
 
-  /// @brief Method get_Country, addr 0xf79ac0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Country, addr 0xfa4950, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Country();
 
-  /// @brief Method get_TypeOfSubstitution, addr 0xf79ac8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeOfSubstitution, addr 0xfa4958, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X500::DirectoryString* get_TypeOfSubstitution();
 
-  /// @brief Method get_ThirdPerson, addr 0xf79ad0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ThirdPerson, addr 0xfa4960, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralName* get_ThirdPerson();
 
-  /// @brief Method get_CertRef, addr 0xf79ad8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CertRef, addr 0xfa4968, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::IssuerSerial* get_CertRef();
 
-  /// @brief Method ToAsn1Object, addr 0xf79ae0, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xfa4970, size 0x174, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "ProcurationSyntax", modifiers: "&&", def_value: None }]

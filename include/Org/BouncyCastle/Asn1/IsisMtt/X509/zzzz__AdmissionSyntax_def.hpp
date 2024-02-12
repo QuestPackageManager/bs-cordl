@@ -56,27 +56,27 @@ public:
 
   constexpr void __cordl_internal_set_contentsOfAdmissions(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method GetInstance, addr 0xf7794c, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xfa27dc, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xf77ad4, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfa2964, size 0x154, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax* New_ctor(::Org::BouncyCastle::Asn1::X509::GeneralName* admissionAuthority,
                                                                                     ::Org::BouncyCastle::Asn1::Asn1Sequence* contentsOfAdmissions);
 
-  /// @brief Method .ctor, addr 0xf77c28, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfa2ab8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::GeneralName* admissionAuthority, ::Org::BouncyCastle::Asn1::Asn1Sequence* contentsOfAdmissions);
 
-  /// @brief Method ToAsn1Object, addr 0xf77c54, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xfa2ae4, size 0x118, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-  /// @brief Method get_AdmissionAuthority, addr 0xf77d6c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_AdmissionAuthority, addr 0xfa2bfc, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralName* get_AdmissionAuthority();
 
-  /// @brief Method GetContentsOfAdmissions, addr 0xf77d74, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method GetContentsOfAdmissions, addr 0xfa2c04, size 0x110, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions*, ::Array<::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions*>*> GetContentsOfAdmissions();
 
   // Ctor Parameters [CppParam { name: "", ty: "AdmissionSyntax", modifiers: "&&", def_value: None }]

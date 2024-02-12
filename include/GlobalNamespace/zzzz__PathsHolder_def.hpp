@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::GlobalNamespace::PathsHolder);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5972))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5256))
 // CS Name: ::PathsHolder*
 class CORDL_TYPE PathsHolder : public ::System::Object {
 public:
@@ -49,18 +49,18 @@ public:
 
   constexpr void __cordl_internal_set__vertexPath(::GlobalNamespace::VertexPath* value);
 
-  /// @brief Method get_bezierPath, addr 0x230be58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bezierPath, addr 0x233a9a4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BezierPath* get_bezierPath();
 
-  /// @brief Method get_vertexPath, addr 0x230be60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_vertexPath, addr 0x233a9ac, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::VertexPath* get_vertexPath();
 
   static inline ::GlobalNamespace::PathsHolder* New_ctor(int32_t numberOfFixedVertexPathSegments, bool updateVertexPath);
 
-  /// @brief Method .ctor, addr 0x230be68, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x233a9b4, size 0x124, virtual false, abstract: false, final false
   inline void _ctor(int32_t numberOfFixedVertexPathSegments, bool updateVertexPath);
 
-  /// @brief Method UpdateVertexPathByBezierPath, addr 0x230c4dc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method UpdateVertexPathByBezierPath, addr 0x233b028, size 0x20, virtual false, abstract: false, final false
   inline void UpdateVertexPathByBezierPath();
 
   // Ctor Parameters [CppParam { name: "", ty: "PathsHolder", modifiers: "&&", def_value: None }]

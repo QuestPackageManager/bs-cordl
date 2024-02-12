@@ -107,7 +107,7 @@ namespace Newtonsoft::Json::Linq {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11977))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11875))
 // CS Name: ::Extensions::<>c__0`1<T>*
 class CORDL_TYPE __Extensions____c__0_1 : public ::System::Object {
 public:
@@ -159,7 +159,7 @@ namespace Newtonsoft::Json::Linq {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11978))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11876))
 // CS Name: ::Extensions::<>c__1`1<T>*
 class CORDL_TYPE __Extensions____c__1_1 : public ::System::Object {
 public:
@@ -211,7 +211,7 @@ namespace Newtonsoft::Json::Linq {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11979))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11877))
 // CS Name: ::Extensions::<>c__2`1<T>*
 class CORDL_TYPE __Extensions____c__2_1 : public ::System::Object {
 public:
@@ -263,7 +263,7 @@ namespace Newtonsoft::Json::Linq {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11980))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11878))
 // CS Name: ::Extensions::<>c__3`1<T>*
 class CORDL_TYPE __Extensions____c__3_1 : public ::System::Object {
 public:
@@ -313,7 +313,7 @@ public:
 namespace Newtonsoft::Json::Linq {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11981))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11879))
 // CS Name: ::Extensions::<>c*
 class CORDL_TYPE __Extensions____c : public ::System::Object {
 public:
@@ -336,10 +336,10 @@ public:
 
   static inline ::Newtonsoft::Json::Linq::__Extensions____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2691744, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b3900, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Properties>b__4_0, addr 0x269174c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <Properties>b__4_0, addr 0x26b3908, size 0x14, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JProperty*>* _Properties_b__4_0(::Newtonsoft::Json::Linq::JObject* d);
 
   // Ctor Parameters [CppParam { name: "", ty: "__Extensions____c", modifiers: "&&", def_value: None }]
@@ -369,7 +369,7 @@ namespace Newtonsoft::Json::Linq {
 template <typename T, typename U>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11982))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11880))
 // CS Name: ::Extensions::<Values>d__11`2<T,U>*
 class CORDL_TYPE __Extensions___Values_d__11_2 : public ::System::Object {
 public:
@@ -585,7 +585,7 @@ namespace Newtonsoft::Json::Linq {
 template <typename T, typename U>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11983))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11881))
 // CS Name: ::Extensions::<>c__13`2<T,U>*
 class CORDL_TYPE __Extensions____c__13_2 : public ::System::Object {
 public:
@@ -637,7 +637,7 @@ namespace Newtonsoft::Json::Linq {
 template <typename T, typename U>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11984))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11882))
 // CS Name: ::Extensions::<Convert>d__14`2<T,U>*
 class CORDL_TYPE __Extensions___Convert_d__14_2 : public ::System::Object {
 public:
@@ -800,7 +800,7 @@ public:
 namespace Newtonsoft::Json::Linq {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11985))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11883))
 // CS Name: ::Newtonsoft.Json.Linq::Extensions*
 class CORDL_TYPE Extensions : public ::System::Object {
 public:
@@ -833,14 +833,14 @@ public:
   /// @brief Method DescendantsAndSelf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::Newtonsoft::Json::Linq::IJEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* DescendantsAndSelf(::System::Collections::Generic::IEnumerable_1<T>* source);
 
-  /// @brief Method Properties, addr 0x26914fc, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method Properties, addr 0x26b36b8, size 0x138, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::IJEnumerable_1<::Newtonsoft::Json::Linq::JProperty*>* Properties(::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JObject*>* source);
 
-  /// @brief Method Values, addr 0x2691634, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Values, addr 0x26b37f0, size 0x5c, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::IJEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* Values(::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* source,
                                                                                                     ::System::Object* key);
 
-  /// @brief Method Values, addr 0x26916d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Values, addr 0x26b3894, size 0x8, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::IJEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* Values(::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* source);
 
   /// @brief Method Values, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -871,7 +871,7 @@ public:
   /// @brief Method Convert, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T, typename U> static inline U Convert(T token);
 
-  /// @brief Method AsJEnumerable, addr 0x2691690, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method AsJEnumerable, addr 0x26b384c, size 0x48, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::IJEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* AsJEnumerable(::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* source);
 
   /// @brief Method AsJEnumerable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

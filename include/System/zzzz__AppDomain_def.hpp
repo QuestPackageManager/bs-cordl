@@ -259,116 +259,116 @@ public:
 
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Object*>* getStaticF_assembly_resolve_in_progress_refonly();
 
-  /// @brief Method IsAppXModel, addr 0x25f3d04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsAppXModel, addr 0x2617c1c, size 0x8, virtual false, abstract: false, final false
   static inline bool IsAppXModel();
 
   static inline ::System::AppDomain* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25f3d0c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2617c24, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method getFriendlyName, addr 0x25f3d14, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method getFriendlyName, addr 0x2617c2c, size 0x4, virtual false, abstract: false, final false
   inline ::StringW getFriendlyName();
 
-  /// @brief Method getCurDomain, addr 0x25f3d18, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method getCurDomain, addr 0x2617c30, size 0x4, virtual false, abstract: false, final false
   static inline ::System::AppDomain* getCurDomain();
 
-  /// @brief Method get_CurrentDomain, addr 0x25f3d1c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentDomain, addr 0x2617c34, size 0x4, virtual false, abstract: false, final false
   static inline ::System::AppDomain* get_CurrentDomain();
 
-  /// @brief Method GetAssemblies, addr 0x25f3d20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetAssemblies, addr 0x2617c38, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Reflection::Assembly*, ::Array<::System::Reflection::Assembly*>*> GetAssemblies(bool refOnly);
 
-  /// @brief Method GetAssemblies, addr 0x25f3d28, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetAssemblies, addr 0x2617c40, size 0x8, virtual true, abstract: false, final true
   inline ::ArrayW<::System::Reflection::Assembly*, ::Array<::System::Reflection::Assembly*>*> GetAssemblies();
 
-  /// @brief Method GetData, addr 0x25f3d30, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method GetData, addr 0x2617c48, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* GetData(::StringW name);
 
-  /// @brief Method InitializeLifetimeService, addr 0x25f3d34, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method InitializeLifetimeService, addr 0x2617c4c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* InitializeLifetimeService();
 
-  /// @brief Method LoadAssembly, addr 0x25f3d3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method LoadAssembly, addr 0x2617c54, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::Assembly* LoadAssembly(::StringW assemblyRef, ::System::Security::Policy::Evidence* securityEvidence, bool refOnly,
                                                       ByRef<::System::Threading::StackCrawlMark> stackMark);
 
-  /// @brief Method Load, addr 0x25f3d44, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method Load, addr 0x2617c5c, size 0x24, virtual true, abstract: false, final true
   inline ::System::Reflection::Assembly* Load(::StringW assemblyString);
 
-  /// @brief Method Load, addr 0x25f3d68, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x2617c80, size 0x110, virtual false, abstract: false, final false
   inline ::System::Reflection::Assembly* Load(::StringW assemblyString, ::System::Security::Policy::Evidence* assemblySecurity, bool refonly, ByRef<::System::Threading::StackCrawlMark> stackMark);
 
-  /// @brief Method InternalSetDomainByID, addr 0x25f3e78, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InternalSetDomainByID, addr 0x2617d90, size 0x4, virtual false, abstract: false, final false
   static inline ::System::AppDomain* InternalSetDomainByID(int32_t domain_id);
 
-  /// @brief Method InternalSetDomain, addr 0x25f3e7c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InternalSetDomain, addr 0x2617d94, size 0x4, virtual false, abstract: false, final false
   static inline ::System::AppDomain* InternalSetDomain(::System::AppDomain* context);
 
-  /// @brief Method InternalPushDomainRefByID, addr 0x25f3e80, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InternalPushDomainRefByID, addr 0x2617d98, size 0x4, virtual false, abstract: false, final false
   static inline void InternalPushDomainRefByID(int32_t domain_id);
 
-  /// @brief Method InternalPopDomainRef, addr 0x25f3e84, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InternalPopDomainRef, addr 0x2617d9c, size 0x4, virtual false, abstract: false, final false
   static inline void InternalPopDomainRef();
 
-  /// @brief Method InternalSetContext, addr 0x25f3e88, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InternalSetContext, addr 0x2617da0, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Runtime::Remoting::Contexts::Context* InternalSetContext(::System::Runtime::Remoting::Contexts::Context* context);
 
-  /// @brief Method InternalGetContext, addr 0x25f3e8c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InternalGetContext, addr 0x2617da4, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Runtime::Remoting::Contexts::Context* InternalGetContext();
 
-  /// @brief Method InternalGetDefaultContext, addr 0x25f3e90, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InternalGetDefaultContext, addr 0x2617da8, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Runtime::Remoting::Contexts::Context* InternalGetDefaultContext();
 
-  /// @brief Method InternalGetProcessGuid, addr 0x25f3e94, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InternalGetProcessGuid, addr 0x2617dac, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW InternalGetProcessGuid(::StringW newguid);
 
-  /// @brief Method InvokeInDomainByID, addr 0x25f3e98, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method InvokeInDomainByID, addr 0x2617db0, size 0x190, virtual false, abstract: false, final false
   static inline ::System::Object* InvokeInDomainByID(int32_t domain_id, ::System::Reflection::MethodInfo* method, ::System::Object* obj, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method GetProcessGuid, addr 0x25f4028, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetProcessGuid, addr 0x2617f40, size 0x88, virtual false, abstract: false, final false
   static inline ::StringW GetProcessGuid();
 
-  /// @brief Method InternalIsFinalizingForUnload, addr 0x25f40b0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InternalIsFinalizingForUnload, addr 0x2617fc8, size 0x4, virtual false, abstract: false, final false
   static inline bool InternalIsFinalizingForUnload(int32_t domain_id);
 
-  /// @brief Method IsFinalizingForUnload, addr 0x25f40b4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsFinalizingForUnload, addr 0x2617fcc, size 0x14, virtual false, abstract: false, final false
   inline bool IsFinalizingForUnload();
 
-  /// @brief Method getDomainID, addr 0x25f40c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method getDomainID, addr 0x2617fe0, size 0x8, virtual false, abstract: false, final false
   inline int32_t getDomainID();
 
-  /// @brief Method ToString, addr 0x25f40d0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2617fe8, size 0x4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method DoAssemblyLoad, addr 0x25f40d4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method DoAssemblyLoad, addr 0x2617fec, size 0x98, virtual false, abstract: false, final false
   inline void DoAssemblyLoad(::System::Reflection::Assembly* assembly);
 
-  /// @brief Method DoAssemblyResolve, addr 0x25f416c, size 0x310, virtual false, abstract: false, final false
+  /// @brief Method DoAssemblyResolve, addr 0x2618084, size 0x310, virtual false, abstract: false, final false
   inline ::System::Reflection::Assembly* DoAssemblyResolve(::StringW name, ::System::Reflection::Assembly* requestingAssembly, bool refonly);
 
-  /// @brief Method DoTypeResolve, addr 0x25f447c, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method DoTypeResolve, addr 0x2618394, size 0x2d0, virtual false, abstract: false, final false
   inline ::System::Reflection::Assembly* DoTypeResolve(::StringW name);
 
-  /// @brief Method DoDomainUnload, addr 0x25f474c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method DoDomainUnload, addr 0x2618664, size 0x24, virtual false, abstract: false, final false
   inline void DoDomainUnload();
 
-  /// @brief Method GetMarshalledDomainObjRef, addr 0x25f4770, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetMarshalledDomainObjRef, addr 0x2618688, size 0xd8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetMarshalledDomainObjRef();
 
-  /// @brief Method ProcessMessageInDomain, addr 0x25f4848, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method ProcessMessageInDomain, addr 0x2618760, size 0x130, virtual false, abstract: false, final false
   inline void ProcessMessageInDomain(::ArrayW<uint8_t, ::Array<uint8_t>*> arrRequest, ::System::Runtime::Remoting::Messaging::CADMethodCallMessage* cadMsg,
                                      ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> arrResponse, ByRef<::System::Runtime::Remoting::Messaging::CADMethodReturnMessage*> cadMrm);
 
-  /// @brief Method add_DomainUnload, addr 0x25f4978, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method add_DomainUnload, addr 0x2618890, size 0x98, virtual true, abstract: false, final true
   inline void add_DomainUnload(::System::EventHandler* value);
 
-  /// @brief Method remove_DomainUnload, addr 0x25f4b84, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method remove_DomainUnload, addr 0x2618a9c, size 0x98, virtual true, abstract: false, final true
   inline void remove_DomainUnload(::System::EventHandler* value);
 
-  /// @brief Method add_UnhandledException, addr 0x25f4d8c, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method add_UnhandledException, addr 0x2618ca4, size 0x98, virtual true, abstract: false, final true
   inline void add_UnhandledException(::System::UnhandledExceptionEventHandler* value);
 
-  /// @brief Method remove_UnhandledException, addr 0x25f4e24, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method remove_UnhandledException, addr 0x2618d3c, size 0x98, virtual true, abstract: false, final true
   inline void remove_UnhandledException(::System::UnhandledExceptionEventHandler* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "AppDomain", modifiers: "&&", def_value: None }]

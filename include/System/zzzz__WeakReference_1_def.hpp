@@ -27,7 +27,7 @@ namespace System {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3336))]
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3333))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2643))
 // CS Name: ::System::WeakReference`1<T>*
 class CORDL_TYPE WeakReference_1 : public ::System::Object {

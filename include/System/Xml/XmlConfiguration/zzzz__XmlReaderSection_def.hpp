@@ -15,15 +15,15 @@ MARK_REF_PTR_T(::System::Xml::XmlConfiguration::XmlReaderSection);
 namespace System::Xml::XmlConfiguration {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11591))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11489))
 // CS Name: ::System.Xml.XmlConfiguration::XmlReaderSection*
 class CORDL_TYPE XmlReaderSection : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_ProhibitDefaultUrlResolver, addr 0x28abf90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ProhibitDefaultUrlResolver, addr 0x28af5f8, size 0x8, virtual false, abstract: false, final false
   static inline bool get_ProhibitDefaultUrlResolver();
 
-  /// @brief Method get_CollapseWhiteSpaceIntoEmptyString, addr 0x289e1d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CollapseWhiteSpaceIntoEmptyString, addr 0x28a1840, size 0x8, virtual false, abstract: false, final false
   static inline bool get_CollapseWhiteSpaceIntoEmptyString();
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlReaderSection", modifiers: "&&", def_value: None }]

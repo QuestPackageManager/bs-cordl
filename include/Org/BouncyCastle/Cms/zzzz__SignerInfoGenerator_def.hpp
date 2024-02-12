@@ -88,24 +88,24 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::SignerInfoGenerator* New_ctor(::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* sigId, ::Org::BouncyCastle::Crypto::ISignatureFactory* signerFactory);
 
-  /// @brief Method .ctor, addr 0x1208be4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1235a74, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* sigId, ::Org::BouncyCastle::Crypto::ISignatureFactory* signerFactory);
 
   static inline ::Org::BouncyCastle::Cms::SignerInfoGenerator* New_ctor(::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* sigId, ::Org::BouncyCastle::Crypto::ISignatureFactory* signerFactory,
                                                                         bool isDirectSignature);
 
-  /// @brief Method .ctor, addr 0x1208bec, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1235a7c, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* sigId, ::Org::BouncyCastle::Crypto::ISignatureFactory* signerFactory, bool isDirectSignature);
 
   static inline ::Org::BouncyCastle::Cms::SignerInfoGenerator* New_ctor(::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* sigId, ::Org::BouncyCastle::Crypto::ISignatureFactory* contentSigner,
                                                                         ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* signedGen,
                                                                         ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* unsignedGen);
 
-  /// @brief Method .ctor, addr 0x1208c8c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1235b1c, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* sigId, ::Org::BouncyCastle::Crypto::ISignatureFactory* contentSigner,
                     ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* signedGen, ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* unsignedGen);
 
-  /// @brief Method setAssociatedCertificate, addr 0x1208cd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method setAssociatedCertificate, addr 0x1235b60, size 0x8, virtual false, abstract: false, final false
   inline void setAssociatedCertificate(::Org::BouncyCastle::X509::X509Certificate* certificate);
 
   // Ctor Parameters [CppParam { name: "", ty: "SignerInfoGenerator", modifiers: "&&", def_value: None }]

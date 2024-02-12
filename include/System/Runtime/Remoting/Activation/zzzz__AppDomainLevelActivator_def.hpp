@@ -58,13 +58,13 @@ public:
 
   static inline ::System::Runtime::Remoting::Activation::AppDomainLevelActivator* New_ctor(::StringW activationUrl, ::System::Runtime::Remoting::Activation::IActivator* next);
 
-  /// @brief Method .ctor, addr 0x24a44fc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24c6570, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW activationUrl, ::System::Runtime::Remoting::Activation::IActivator* next);
 
-  /// @brief Method get_NextActivator, addr 0x24a4a9c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_NextActivator, addr 0x24c6b10, size 0x8, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Activation::IActivator* get_NextActivator();
 
-  /// @brief Method Activate, addr 0x24a4aa4, size 0x4dc, virtual true, abstract: false, final true
+  /// @brief Method Activate, addr 0x24c6b18, size 0x4dc, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Activation::IConstructionReturnMessage* Activate(::System::Runtime::Remoting::Activation::IConstructionCallMessage* ctorCall);
 
   // Ctor Parameters [CppParam { name: "", ty: "AppDomainLevelActivator", modifiers: "&&", def_value: None }]

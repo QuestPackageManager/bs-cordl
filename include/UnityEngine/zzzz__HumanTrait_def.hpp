@@ -18,18 +18,18 @@ MARK_REF_PTR_T(::UnityEngine::HumanTrait);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14869))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14742))
 // CS Name: ::UnityEngine::HumanTrait*
 class CORDL_TYPE HumanTrait : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_MuscleCount, addr 0x2c906c8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_MuscleCount, addr 0x2c8d234, size 0x28, virtual false, abstract: false, final false
   static inline int32_t get_MuscleCount();
 
-  /// @brief Method GetBoneIndexFromMono, addr 0x2c8e894, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetBoneIndexFromMono, addr 0x2c8b400, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetBoneIndexFromMono(int32_t humanId);
 
-  /// @brief Method get_MuscleName, addr 0x2c906f0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_MuscleName, addr 0x2c8d25c, size 0x28, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> get_MuscleName();
 
   // Ctor Parameters [CppParam { name: "", ty: "HumanTrait", modifiers: "&&", def_value: None }]

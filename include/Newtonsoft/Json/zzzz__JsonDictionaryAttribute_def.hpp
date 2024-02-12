@@ -15,20 +15,20 @@ MARK_REF_PTR_T(::Newtonsoft::Json::JsonDictionaryAttribute);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11815))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11803))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11713))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11701))
 // CS Name: ::Newtonsoft.Json::JsonDictionaryAttribute*
 class CORDL_TYPE JsonDictionaryAttribute : public ::Newtonsoft::Json::JsonContainerAttribute {
 public:
   // Declarations
   static inline ::Newtonsoft::Json::JsonDictionaryAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x263e3bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2662578, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Newtonsoft::Json::JsonDictionaryAttribute* New_ctor(::StringW id);
 
-  /// @brief Method .ctor, addr 0x263e3cc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2662588, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW id);
 
   // Ctor Parameters [CppParam { name: "", ty: "JsonDictionaryAttribute", modifiers: "&&", def_value: None }]

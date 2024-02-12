@@ -66,8 +66,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::Implementation::CommandGenerator)
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR::Implementation {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9966))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7452))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8695))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6711))
 // CS Name: ::UnityEngine.UIElements.UIR.Implementation::CommandGenerator*
 class CORDL_TYPE CommandGenerator : public ::System::Object {
 public:
@@ -121,65 +121,65 @@ public:
 
   static inline ::UnityW<::UnityEngine::Shader> getStaticF_s_blitShader();
 
-  /// @brief Method GetVerticesTransformInfo, addr 0x2ddf914, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method GetVerticesTransformInfo, addr 0x2dfdcfc, size 0x18c, virtual false, abstract: false, final false
   static inline void GetVerticesTransformInfo(::UnityEngine::UIElements::VisualElement* ve, ByRef<::UnityEngine::Matrix4x4> transform);
 
-  /// @brief Method ComputeTransformMatrix, addr 0x2ddfaa0, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method ComputeTransformMatrix, addr 0x2dfde88, size 0x12c, virtual false, abstract: false, final false
   static inline void ComputeTransformMatrix(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VisualElement* ancestor, ByRef<::UnityEngine::Matrix4x4> result);
 
-  /// @brief Method IsParentOrAncestorOf, addr 0x2ddfbcc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method IsParentOrAncestorOf, addr 0x2dfdfb4, size 0x7c, virtual false, abstract: false, final false
   static inline bool IsParentOrAncestorOf(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VisualElement* child);
 
-  /// @brief Method PaintElement, addr 0x2ddfc48, size 0x14f8, virtual false, abstract: false, final false
+  /// @brief Method PaintElement, addr 0x2dfe030, size 0x14f8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::UIR::Implementation::__UIRStylePainter__ClosingInfo
   PaintElement(::UnityEngine::UIElements::UIR::RenderChain* renderChain, ::UnityEngine::UIElements::VisualElement* ve, ByRef<::UnityEngine::UIElements::UIR::ChainBuilderStats> stats);
 
-  /// @brief Method CreateBlitShader, addr 0x2de25b0, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method CreateBlitShader, addr 0x2e00998, size 0x208, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> CreateBlitShader(float_t colorConversion);
 
-  /// @brief Method GetBlitMaterial, addr 0x2de2228, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method GetBlitMaterial, addr 0x2e00610, size 0x2a0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> GetBlitMaterial(::UnityEngine::UIElements::__VisualElement__RenderTargetMode mode);
 
-  /// @brief Method ClosePaintElement, addr 0x2de27b8, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method ClosePaintElement, addr 0x2e00ba0, size 0x190, virtual false, abstract: false, final false
   static inline void ClosePaintElement(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::UIR::Implementation::__UIRStylePainter__ClosingInfo closingInfo,
                                        ::UnityEngine::UIElements::UIR::RenderChain* renderChain, ByRef<::UnityEngine::UIElements::UIR::ChainBuilderStats> stats);
 
-  /// @brief Method UpdateOrAllocate, addr 0x2de1478, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method UpdateOrAllocate, addr 0x2dff860, size 0xfc, virtual false, abstract: false, final false
   static inline void UpdateOrAllocate(ByRef<::UnityEngine::UIElements::UIR::MeshHandle*> data, int32_t vertexCount, int32_t indexCount, ::UnityEngine::UIElements::UIR::UIRenderDevice* device,
                                       ByRef<::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>> verts, ByRef<::Unity::Collections::NativeSlice_1<uint16_t>> indices,
                                       ByRef<uint16_t> indexOffset, ByRef<::UnityEngine::UIElements::UIR::ChainBuilderStats> stats);
 
-  /// @brief Method CopyTransformVertsPos, addr 0x2de19a4, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method CopyTransformVertsPos, addr 0x2dffd8c, size 0x248, virtual false, abstract: false, final false
   static inline void CopyTransformVertsPos(::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> source, ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> target,
                                            ::UnityEngine::Matrix4x4 mat, ::UnityEngine::Color32 xformClipPages, ::UnityEngine::Color32 ids, ::UnityEngine::Color32 addFlags,
                                            ::UnityEngine::Color32 opacityPage, ::UnityEngine::Color32 textCoreSettingsPage, bool isText, float_t textureId);
 
-  /// @brief Method CopyTransformVertsPosAndVec, addr 0x2de1734, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method CopyTransformVertsPosAndVec, addr 0x2dffb1c, size 0x270, virtual false, abstract: false, final false
   static inline void CopyTransformVertsPosAndVec(::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> source,
                                                  ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> target, ::UnityEngine::Matrix4x4 mat, ::UnityEngine::Color32 xformClipPages,
                                                  ::UnityEngine::Color32 ids, ::UnityEngine::Color32 addFlags, ::UnityEngine::Color32 opacityPage, ::UnityEngine::Color32 textCoreSettingsPage,
                                                  bool isText, float_t textureId);
 
-  /// @brief Method CopyTriangleIndicesFlipWindingOrder, addr 0x2de1cb8, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method CopyTriangleIndicesFlipWindingOrder, addr 0x2e000a0, size 0x1a4, virtual false, abstract: false, final false
   static inline void CopyTriangleIndicesFlipWindingOrder(::Unity::Collections::NativeSlice_1<uint16_t> source, ::Unity::Collections::NativeSlice_1<uint16_t> target, int32_t indexOffset);
 
-  /// @brief Method CopyTriangleIndices, addr 0x2de1bec, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method CopyTriangleIndices, addr 0x2dfffd4, size 0xcc, virtual false, abstract: false, final false
   static inline void CopyTriangleIndices(::Unity::Collections::NativeSlice_1<uint16_t> source, ::Unity::Collections::NativeSlice_1<uint16_t> target, int32_t indexOffset);
 
-  /// @brief Method NudgeVerticesToNewSpace, addr 0x2de2948, size 0x2b8, virtual false, abstract: false, final false
+  /// @brief Method NudgeVerticesToNewSpace, addr 0x2e00d30, size 0x2b8, virtual false, abstract: false, final false
   static inline bool NudgeVerticesToNewSpace(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::UIR::UIRenderDevice* device);
 
-  /// @brief Method DoNudgeVertices, addr 0x2de2c00, size 0x2e0, virtual false, abstract: false, final false
+  /// @brief Method DoNudgeVertices, addr 0x2e00fe8, size 0x2e0, virtual false, abstract: false, final false
   static inline void DoNudgeVertices(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::UIR::UIRenderDevice* device, ::UnityEngine::UIElements::UIR::MeshHandle* mesh,
                                      ByRef<::UnityEngine::Matrix4x4> nudgeTransform);
 
-  /// @brief Method InjectMeshDrawCommand, addr 0x2de1e5c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method InjectMeshDrawCommand, addr 0x2e00244, size 0xe0, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::UIR::RenderChainCommand*
   InjectMeshDrawCommand(::UnityEngine::UIElements::UIR::RenderChain* renderChain, ::UnityEngine::UIElements::VisualElement* ve, ByRef<::UnityEngine::UIElements::UIR::RenderChainCommand*> cmdPrev,
                         ByRef<::UnityEngine::UIElements::UIR::RenderChainCommand*> cmdNext, ::UnityEngine::UIElements::UIR::MeshHandle* mesh, int32_t indexCount, int32_t indexOffset,
                         ::UnityEngine::Material* material, ::UnityEngine::UIElements::TextureId texture, ::UnityEngine::Texture* font, int32_t stencilRef);
 
-  /// @brief Method InjectClosingMeshDrawCommand, addr 0x2de24c8, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method InjectClosingMeshDrawCommand, addr 0x2e008b0, size 0xe8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::UIR::RenderChainCommand* InjectClosingMeshDrawCommand(::UnityEngine::UIElements::UIR::RenderChain* renderChain, ::UnityEngine::UIElements::VisualElement* ve,
                                                                                                  ByRef<::UnityEngine::UIElements::UIR::RenderChainCommand*> cmdPrev,
                                                                                                  ByRef<::UnityEngine::UIElements::UIR::RenderChainCommand*> cmdNext,
@@ -187,23 +187,23 @@ public:
                                                                                                  ::UnityEngine::Material* material, ::UnityEngine::UIElements::TextureId texture,
                                                                                                  ::UnityEngine::Texture* font, int32_t stencilRef);
 
-  /// @brief Method FindCommandInsertionPoint, addr 0x2de1574, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method FindCommandInsertionPoint, addr 0x2dff95c, size 0x1c0, virtual false, abstract: false, final false
   static inline void FindCommandInsertionPoint(::UnityEngine::UIElements::VisualElement* ve, ByRef<::UnityEngine::UIElements::UIR::RenderChainCommand*> prev,
                                                ByRef<::UnityEngine::UIElements::UIR::RenderChainCommand*> next);
 
-  /// @brief Method FindClosingCommandInsertionPoint, addr 0x2de1fd4, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method FindClosingCommandInsertionPoint, addr 0x2e003bc, size 0x16c, virtual false, abstract: false, final false
   static inline void FindClosingCommandInsertionPoint(::UnityEngine::UIElements::VisualElement* ve, ByRef<::UnityEngine::UIElements::UIR::RenderChainCommand*> prev,
                                                       ByRef<::UnityEngine::UIElements::UIR::RenderChainCommand*> next);
 
-  /// @brief Method InjectCommandInBetween, addr 0x2de1f3c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method InjectCommandInBetween, addr 0x2e00324, size 0x98, virtual false, abstract: false, final false
   static inline void InjectCommandInBetween(::UnityEngine::UIElements::UIR::RenderChain* renderChain, ::UnityEngine::UIElements::UIR::RenderChainCommand* cmd,
                                             ByRef<::UnityEngine::UIElements::UIR::RenderChainCommand*> prev, ByRef<::UnityEngine::UIElements::UIR::RenderChainCommand*> next);
 
-  /// @brief Method InjectClosingCommandInBetween, addr 0x2de2140, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method InjectClosingCommandInBetween, addr 0x2e00528, size 0xe8, virtual false, abstract: false, final false
   static inline void InjectClosingCommandInBetween(::UnityEngine::UIElements::UIR::RenderChain* renderChain, ::UnityEngine::UIElements::UIR::RenderChainCommand* cmd,
                                                    ByRef<::UnityEngine::UIElements::UIR::RenderChainCommand*> prev, ByRef<::UnityEngine::UIElements::UIR::RenderChainCommand*> next);
 
-  /// @brief Method ResetCommands, addr 0x2de1140, size 0x338, virtual false, abstract: false, final false
+  /// @brief Method ResetCommands, addr 0x2dff528, size 0x338, virtual false, abstract: false, final false
   static inline void ResetCommands(::UnityEngine::UIElements::UIR::RenderChain* renderChain, ::UnityEngine::UIElements::VisualElement* ve);
 
   // Ctor Parameters [CppParam { name: "", ty: "CommandGenerator", modifiers: "&&", def_value: None }]

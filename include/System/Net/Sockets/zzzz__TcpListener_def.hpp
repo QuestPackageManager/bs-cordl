@@ -40,7 +40,7 @@ MARK_REF_PTR_T(::System::Net::Sockets::TcpListener);
 namespace System::Net::Sockets {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9354))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7364))
 // CS Name: ::System.Net.Sockets::TcpListener*
 class CORDL_TYPE TcpListener : public ::System::Object {
 public:
@@ -85,25 +85,25 @@ public:
 
   static inline ::System::Net::Sockets::TcpListener* New_ctor(::System::Net::IPAddress* localaddr, int32_t port);
 
-  /// @brief Method .ctor, addr 0x28fd6bc, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2901d24, size 0x1a0, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::IPAddress* localaddr, int32_t port);
 
-  /// @brief Method get_LocalEndpoint, addr 0x28fd85c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_LocalEndpoint, addr 0x2901ec4, size 0x30, virtual false, abstract: false, final false
   inline ::System::Net::EndPoint* get_LocalEndpoint();
 
-  /// @brief Method Start, addr 0x28fd88c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2901ef4, size 0x8, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Start, addr 0x28fd894, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2901efc, size 0x18c, virtual false, abstract: false, final false
   inline void Start(int32_t backlog);
 
-  /// @brief Method Stop, addr 0x28fda20, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Stop, addr 0x2902088, size 0xc4, virtual false, abstract: false, final false
   inline void Stop();
 
-  /// @brief Method BeginAcceptTcpClient, addr 0x28fdae4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method BeginAcceptTcpClient, addr 0x290214c, size 0xb4, virtual false, abstract: false, final false
   inline ::System::IAsyncResult* BeginAcceptTcpClient(::System::AsyncCallback* callback, ::System::Object* state);
 
-  /// @brief Method EndAcceptTcpClient, addr 0x28fdb98, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method EndAcceptTcpClient, addr 0x2902200, size 0x164, virtual false, abstract: false, final false
   inline ::System::Net::Sockets::TcpClient* EndAcceptTcpClient(::System::IAsyncResult* asyncResult);
 
   // Ctor Parameters [CppParam { name: "", ty: "TcpListener", modifiers: "&&", def_value: None }]

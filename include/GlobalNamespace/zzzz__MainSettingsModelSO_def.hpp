@@ -2,12 +2,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "BeatSaber/PerformancePresets/zzzz__ObstaclesQuality_def.hpp"
+#include "BeatSaber/PerformancePresets/zzzz__PerformancePreset_def.hpp"
 #include "GlobalNamespace/zzzz__MainSettingsModelSO_def.hpp"
-#include "GlobalNamespace/zzzz__ObstaclesQuality_def.hpp"
-#include "GlobalNamespace/zzzz__PerformancePreset_def.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__ValueTuple_2_def.hpp"
@@ -16,6 +17,9 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MainSettingsModelSO)
+namespace BeatSaber::PerformancePresets {
+class PerformancePreset;
+}
 namespace GlobalNamespace {
 class BoolSO;
 }
@@ -23,7 +27,7 @@ namespace GlobalNamespace {
 class FloatSO;
 }
 namespace GlobalNamespace {
-class ISaveData;
+class IFileStorage;
 }
 namespace GlobalNamespace {
 class IntSO;
@@ -33,9 +37,6 @@ class LanguageSO;
 }
 namespace GlobalNamespace {
 class ObstaclesQualitySO;
-}
-namespace GlobalNamespace {
-class PerformancePreset;
 }
 namespace GlobalNamespace {
 class StringSO;
@@ -55,6 +56,12 @@ struct __MainSettingsModelSO__WindowMode;
 namespace GlobalNamespace {
 struct __MainSettingsModelSO___ForceApplyPerformancePresetAsync_d__71;
 }
+namespace GlobalNamespace {
+struct __MainSettingsModelSO___InitializeAsync_d__61;
+}
+namespace GlobalNamespace {
+struct __MainSettingsModelSO___LoadAsync_d__67;
+}
 namespace System::Runtime::CompilerServices {
 struct AsyncTaskMethodBuilder;
 }
@@ -63,6 +70,9 @@ class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
+}
+namespace System::Runtime::CompilerServices {
+struct TaskAwaiter;
 }
 namespace System::Threading::Tasks {
 class Task;
@@ -86,17 +96,25 @@ class __MainSettingsModelSO__Config;
 namespace GlobalNamespace {
 struct __MainSettingsModelSO___ForceApplyPerformancePresetAsync_d__71;
 }
+namespace GlobalNamespace {
+struct __MainSettingsModelSO___InitializeAsync_d__61;
+}
+namespace GlobalNamespace {
+struct __MainSettingsModelSO___LoadAsync_d__67;
+}
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::__MainSettingsModelSO__WindowMode);
 MARK_REF_PTR_T(::GlobalNamespace::MainSettingsModelSO);
 MARK_REF_PTR_T(::GlobalNamespace::__MainSettingsModelSO__Config);
 MARK_VAL_T(::GlobalNamespace::__MainSettingsModelSO___ForceApplyPerformancePresetAsync_d__71);
+MARK_VAL_T(::GlobalNamespace::__MainSettingsModelSO___InitializeAsync_d__61);
+MARK_VAL_T(::GlobalNamespace::__MainSettingsModelSO___LoadAsync_d__67);
 // Type: ::WindowMode
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4433))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10848))
 // CS Name: ::MainSettingsModelSO::WindowMode
 struct CORDL_TYPE __MainSettingsModelSO__WindowMode {
 public:
@@ -145,8 +163,8 @@ static_assert(offsetof(::GlobalNamespace::__MainSettingsModelSO__WindowMode, val
 // SizeInfo { instance_size: 256, native_size: -1, calculated_instance_size: 256, calculated_native_size: 251, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4433)), TypeDefinitionIndex(TypeDefinitionIndex(4442))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4434))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10848)), TypeDefinitionIndex(TypeDefinitionIndex(16236))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10849))
 // CS Name: ::MainSettingsModelSO::Config*
 class CORDL_TYPE __MainSettingsModelSO__Config : public ::System::Object {
 public:
@@ -197,7 +215,7 @@ public:
   __declspec(property(get = __cordl_internal_get_screenDisplacementEffectsEnabled, put = __cordl_internal_set_screenDisplacementEffectsEnabled)) bool screenDisplacementEffectsEnabled;
 
   /// @brief Field obstaclesQuality, offset 0x4c, size 0x4
-  __declspec(property(get = __cordl_internal_get_obstaclesQuality, put = __cordl_internal_set_obstaclesQuality))::GlobalNamespace::ObstaclesQuality obstaclesQuality;
+  __declspec(property(get = __cordl_internal_get_obstaclesQuality, put = __cordl_internal_set_obstaclesQuality))::BeatSaber::PerformancePresets::ObstaclesQuality obstaclesQuality;
 
   /// @brief Field performancePresetKey, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_performancePresetKey, put = __cordl_internal_set_performancePresetKey))::StringW performancePresetKey;
@@ -416,11 +434,11 @@ public:
 
   constexpr void __cordl_internal_set_screenDisplacementEffectsEnabled(bool value);
 
-  constexpr ::GlobalNamespace::ObstaclesQuality& __cordl_internal_get_obstaclesQuality();
+  constexpr ::BeatSaber::PerformancePresets::ObstaclesQuality& __cordl_internal_get_obstaclesQuality();
 
-  constexpr ::GlobalNamespace::ObstaclesQuality const& __cordl_internal_get_obstaclesQuality() const;
+  constexpr ::BeatSaber::PerformancePresets::ObstaclesQuality const& __cordl_internal_get_obstaclesQuality() const;
 
-  constexpr void __cordl_internal_set_obstaclesQuality(::GlobalNamespace::ObstaclesQuality value);
+  constexpr void __cordl_internal_set_obstaclesQuality(::BeatSaber::PerformancePresets::ObstaclesQuality value);
 
   constexpr ::StringW& __cordl_internal_get_performancePresetKey();
 
@@ -676,16 +694,16 @@ public:
 
   static inline ::GlobalNamespace::__MainSettingsModelSO__Config* New_ctor();
 
-  /// @brief Method .ctor, addr 0x234f6d0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1291ec8, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::GlobalNamespace::__MainSettingsModelSO__Config* New_ctor(::System::ValueTuple_2<::StringW, ::GlobalNamespace::PerformancePreset*> performancePresetToLoad);
+  static inline ::GlobalNamespace::__MainSettingsModelSO__Config* New_ctor(::System::ValueTuple_2<::StringW, ::BeatSaber::PerformancePresets::PerformancePreset*> performancePresetToLoad);
 
-  /// @brief Method .ctor, addr 0x234f7ac, size 0xfc, virtual false, abstract: false, final false
-  inline void _ctor(::System::ValueTuple_2<::StringW, ::GlobalNamespace::PerformancePreset*> performancePresetToLoad);
+  /// @brief Method .ctor, addr 0x12928f4, size 0xf0, virtual false, abstract: false, final false
+  inline void _ctor(::System::ValueTuple_2<::StringW, ::BeatSaber::PerformancePresets::PerformancePreset*> performancePresetToLoad);
 
-  /// @brief Method ApplyPerformancePreset, addr 0x234f8a8, size 0x1c0, virtual false, abstract: false, final false
-  inline void ApplyPerformancePreset(::System::ValueTuple_2<::StringW, ::GlobalNamespace::PerformancePreset*> performancePresetToLoad);
+  /// @brief Method ApplyPerformancePreset, addr 0x12929e4, size 0x1d4, virtual false, abstract: false, final false
+  inline void ApplyPerformancePreset(::System::ValueTuple_2<::StringW, ::BeatSaber::PerformancePresets::PerformancePreset*> performancePresetToLoad);
 
   // Ctor Parameters [CppParam { name: "", ty: "__MainSettingsModelSO__Config", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
@@ -747,7 +765,7 @@ public:
   bool ___screenDisplacementEffectsEnabled;
 
   /// @brief Field obstaclesQuality, offset: 0x4c, size: 0x4, def value: None
-  ::GlobalNamespace::ObstaclesQuality ___obstaclesQuality;
+  ::BeatSaber::PerformancePresets::ObstaclesQuality ___obstaclesQuality;
 
   /// @brief Field performancePresetKey, offset: 0x50, size: 0x8, def value: None
   ::StringW ___performancePresetKey;
@@ -997,13 +1015,168 @@ static_assert(offsetof(::GlobalNamespace::__MainSettingsModelSO__Config, ___enab
 static_assert(offsetof(::GlobalNamespace::__MainSettingsModelSO__Config, ___enableMemoryTracker) == 0xfa, "Offset mismatch!");
 
 } // namespace GlobalNamespace
+// Type: ::<InitializeAsync>d__61
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+namespace GlobalNamespace {
+// Is value type: true
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2507)), TypeDefinitionIndex(TypeDefinitionIndex(3389)), TypeDefinitionIndex(TypeDefinitionIndex(3397)),
+// TypeDefinitionIndex(TypeDefinitionIndex(16238)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2507), inst: 5298 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(10850)) CS
+// Name: ::MainSettingsModelSO::<InitializeAsync>d__61
+struct CORDL_TYPE __MainSettingsModelSO___InitializeAsync_d__61 {
+public:
+  // Declarations
+  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+
+  /// @brief Method MoveNext, addr 0x1293310, size 0x1c8, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x12934d8, size 0xc, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::MainSettingsModelSO>", modifiers:
+  // "", def_value: None }, CppParam { name: "defaultPerformancePreset", ty: "::System::ValueTuple_2<::StringW,::BeatSaber::PerformancePresets::PerformancePreset*>", modifiers: "", def_value: None },
+  // CppParam { name: "fileStorage", ty: "::GlobalNamespace::IFileStorage*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter",
+  // modifiers: "", def_value: None }]
+  constexpr __MainSettingsModelSO___InitializeAsync_d__61(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
+                                                          ::UnityW<::GlobalNamespace::MainSettingsModelSO> __4__this,
+                                                          ::System::ValueTuple_2<::StringW, ::BeatSaber::PerformancePresets::PerformancePreset*> defaultPerformancePreset,
+                                                          ::GlobalNamespace::IFileStorage* fileStorage, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __MainSettingsModelSO___InitializeAsync_d__61();
+
+  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+  int32_t __1__state;
+
+  /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
+  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
+
+  /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::MainSettingsModelSO> __4__this;
+
+  /// @brief Field defaultPerformancePreset, offset: 0x28, size: 0x10, def value: None
+  ::System::ValueTuple_2<::StringW, ::BeatSaber::PerformancePresets::PerformancePreset*> defaultPerformancePreset;
+
+  /// @brief Field fileStorage, offset: 0x38, size: 0x8, def value: None
+  ::GlobalNamespace::IFileStorage* fileStorage;
+
+  /// @brief Field <>u__1, offset: 0x40, size: 0x8, def value: None
+  ::System::Runtime::CompilerServices::TaskAwaiter __u__1;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MainSettingsModelSO___InitializeAsync_d__61, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MainSettingsModelSO___InitializeAsync_d__61, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MainSettingsModelSO___InitializeAsync_d__61, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MainSettingsModelSO___InitializeAsync_d__61, __4__this) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MainSettingsModelSO___InitializeAsync_d__61, defaultPerformancePreset) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MainSettingsModelSO___InitializeAsync_d__61, fileStorage) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MainSettingsModelSO___InitializeAsync_d__61, __u__1) == 0x40, "Offset mismatch!");
+
+} // namespace GlobalNamespace
+// Type: ::<LoadAsync>d__67
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+namespace GlobalNamespace {
+// Is value type: true
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3389)), TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3397)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10849)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 5051 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(10851)) CS
+// Name: ::MainSettingsModelSO::<LoadAsync>d__67
+struct CORDL_TYPE __MainSettingsModelSO___LoadAsync_d__67 {
+public:
+  // Declarations
+  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+
+  /// @brief Method MoveNext, addr 0x12934e4, size 0x2d4, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x12937b8, size 0xc, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::MainSettingsModelSO>", modifiers:
+  // "", def_value: None }, CppParam { name: "forced", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "fileStorage", ty: "::GlobalNamespace::IFileStorage*", modifiers: "", def_value:
+  // None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::__MainSettingsModelSO__Config*>", modifiers: "", def_value: None }, CppParam { name:
+  // "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  constexpr __MainSettingsModelSO___LoadAsync_d__67(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
+                                                    ::UnityW<::GlobalNamespace::MainSettingsModelSO> __4__this, bool forced, ::GlobalNamespace::IFileStorage* fileStorage,
+                                                    ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::__MainSettingsModelSO__Config*> __u__1,
+                                                    ::System::Runtime::CompilerServices::TaskAwaiter __u__2) noexcept;
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __MainSettingsModelSO___LoadAsync_d__67();
+
+  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+  int32_t __1__state;
+
+  /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
+  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
+
+  /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::MainSettingsModelSO> __4__this;
+
+  /// @brief Field forced, offset: 0x28, size: 0x1, def value: None
+  bool forced;
+
+  /// @brief Field fileStorage, offset: 0x30, size: 0x8, def value: None
+  ::GlobalNamespace::IFileStorage* fileStorage;
+
+  /// @brief Field <>u__1, offset: 0x38, size: 0x8, def value: None
+  ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::__MainSettingsModelSO__Config*> __u__1;
+
+  /// @brief Field <>u__2, offset: 0x40, size: 0x8, def value: None
+  ::System::Runtime::CompilerServices::TaskAwaiter __u__2;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MainSettingsModelSO___LoadAsync_d__67, 0x48>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MainSettingsModelSO___LoadAsync_d__67, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MainSettingsModelSO___LoadAsync_d__67, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MainSettingsModelSO___LoadAsync_d__67, __4__this) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MainSettingsModelSO___LoadAsync_d__67, forced) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MainSettingsModelSO___LoadAsync_d__67, fileStorage) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MainSettingsModelSO___LoadAsync_d__67, __u__1) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MainSettingsModelSO___LoadAsync_d__67, __u__2) == 0x40, "Offset mismatch!");
+
+} // namespace GlobalNamespace
 // Type: ::<ForceApplyPerformancePresetAsync>d__71
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2507)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3401)),
-// TypeDefinitionIndex(TypeDefinitionIndex(4443)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2507), inst: 5315 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3394), inst: 870 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 896 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4435)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2507)), TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3397)),
+// TypeDefinitionIndex(TypeDefinitionIndex(16238)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2507), inst: 5298 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3390), inst: 873 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 897 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(10852)) CS Name:
 // ::MainSettingsModelSO::<ForceApplyPerformancePresetAsync>d__71
 struct CORDL_TYPE __MainSettingsModelSO___ForceApplyPerformancePresetAsync_d__71 {
 public:
@@ -1014,21 +1187,21 @@ public:
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x234fe44, size 0x358, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x12937c4, size 0x360, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2350378, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x1293b24, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "config", ty: "::GlobalNamespace::__MainSettingsModelSO__Config*", modifiers: "",
-  // def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::ValueTuple_2<::StringW,::GlobalNamespace::PerformancePreset*>>", modifiers: "",
-  // def_value: None }, CppParam { name: "__7__wrap1", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::PerformancePreset*>", modifiers: "", def_value: None }]
+  // def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::ValueTuple_2<::StringW,::BeatSaber::PerformancePresets::PerformancePreset*>>",
+  // modifiers: "", def_value: None }, CppParam { name: "__7__wrap1", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::PerformancePresets::PerformancePreset*>", modifiers: "", def_value: None }]
   constexpr __MainSettingsModelSO___ForceApplyPerformancePresetAsync_d__71(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::GlobalNamespace::__MainSettingsModelSO__Config* config,
-      ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::ValueTuple_2<::StringW, ::GlobalNamespace::PerformancePreset*>> __u__1, ::StringW __7__wrap1,
-      ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::PerformancePreset*> __u__2) noexcept;
+      ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::ValueTuple_2<::StringW, ::BeatSaber::PerformancePresets::PerformancePreset*>> __u__1, ::StringW __7__wrap1,
+      ::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::PerformancePresets::PerformancePreset*> __u__2) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
@@ -1044,13 +1217,13 @@ public:
   ::GlobalNamespace::__MainSettingsModelSO__Config* config;
 
   /// @brief Field <>u__1, offset: 0x28, size: 0x8, def value: None
-  ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::ValueTuple_2<::StringW, ::GlobalNamespace::PerformancePreset*>> __u__1;
+  ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::ValueTuple_2<::StringW, ::BeatSaber::PerformancePresets::PerformancePreset*>> __u__1;
 
   /// @brief Field <>7__wrap1, offset: 0x30, size: 0x8, def value: None
   ::StringW __7__wrap1;
 
   /// @brief Field <>u__2, offset: 0x38, size: 0x8, def value: None
-  ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::PerformancePreset*> __u__2;
+  ::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::PerformancePresets::PerformancePreset*> __u__2;
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -1077,13 +1250,17 @@ static_assert(offsetof(::GlobalNamespace::__MainSettingsModelSO___ForceApplyPerf
 // SizeInfo { instance_size: 424, native_size: -1, calculated_instance_size: 424, calculated_native_size: 424, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2507)), TypeDefinitionIndex(TypeDefinitionIndex(4443)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15857)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 870 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2507), inst: 5315 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4436)) CS Name: ::MainSettingsModelSO*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2507)), TypeDefinitionIndex(TypeDefinitionIndex(15602)),
+// TypeDefinitionIndex(TypeDefinitionIndex(16238)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 873 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2507), inst: 5298 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(10853)) CS Name: ::MainSettingsModelSO*
 class CORDL_TYPE MainSettingsModelSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
   using _ForceApplyPerformancePresetAsync_d__71 = ::GlobalNamespace::__MainSettingsModelSO___ForceApplyPerformancePresetAsync_d__71;
+
+  using _LoadAsync_d__67 = ::GlobalNamespace::__MainSettingsModelSO___LoadAsync_d__67;
+
+  using _InitializeAsync_d__61 = ::GlobalNamespace::__MainSettingsModelSO___InitializeAsync_d__61;
 
   using Config = ::GlobalNamespace::__MainSettingsModelSO__Config;
 
@@ -1239,26 +1416,19 @@ public:
   __declspec(property(get = __cordl_internal_get__createScreenshotDuringTheGame_k__BackingField,
                       put = __cordl_internal_set__createScreenshotDuringTheGame_k__BackingField)) bool _createScreenshotDuringTheGame_k__BackingField;
 
-  /// @brief Field <playingForTheFirstTime>k__BackingField, offset 0x189, size 0x1
-  __declspec(property(get = __cordl_internal_get__playingForTheFirstTime_k__BackingField,
-                      put = __cordl_internal_set__playingForTheFirstTime_k__BackingField)) bool _playingForTheFirstTime_k__BackingField;
-
-  /// @brief Field _playingForTheFirstTimeChecked, offset 0x18a, size 0x1
-  __declspec(property(get = __cordl_internal_get__playingForTheFirstTimeChecked, put = __cordl_internal_set__playingForTheFirstTimeChecked)) bool _playingForTheFirstTimeChecked;
-
-  /// @brief Field _isLoaded, offset 0x18b, size 0x1
+  /// @brief Field _isLoaded, offset 0x189, size 0x1
   __declspec(property(get = __cordl_internal_get__isLoaded, put = __cordl_internal_set__isLoaded)) bool _isLoaded;
 
   /// @brief Field _defaultPerformancePreset, offset 0x190, size 0x18
-  __declspec(property(get = __cordl_internal_get__defaultPerformancePreset,
-                      put = __cordl_internal_set__defaultPerformancePreset))::System::Nullable_1<::System::ValueTuple_2<::StringW, ::GlobalNamespace::PerformancePreset*>> _defaultPerformancePreset;
+  __declspec(property(
+      get = __cordl_internal_get__defaultPerformancePreset,
+      put = __cordl_internal_set__defaultPerformancePreset))::System::Nullable_1<::System::ValueTuple_2<::StringW, ::BeatSaber::PerformancePresets::PerformancePreset*>> _defaultPerformancePreset;
 
-  /// @brief Field bestGraphicsPreset, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_bestGraphicsPreset, put = setStaticF_bestGraphicsPreset))::GlobalNamespace::PerformancePreset* bestGraphicsPreset;
+  /// @brief Field bestGraphicsPreset, offset 0xffffffff, size 0x10
+  static __declspec(property(get = getStaticF_bestGraphicsPreset,
+                             put = setStaticF_bestGraphicsPreset))::System::ValueTuple_2<::StringW, ::BeatSaber::PerformancePresets::PerformancePreset*> bestGraphicsPreset;
 
   __declspec(property(get = get_createScreenshotDuringTheGame, put = set_createScreenshotDuringTheGame)) bool createScreenshotDuringTheGame;
-
-  __declspec(property(get = get_playingForTheFirstTime, put = set_playingForTheFirstTime)) bool playingForTheFirstTime;
 
   constexpr ::UnityW<::GlobalNamespace::FloatSO>& __cordl_internal_get_vrResolutionScale();
 
@@ -1542,64 +1712,69 @@ public:
 
   constexpr void __cordl_internal_set__createScreenshotDuringTheGame_k__BackingField(bool value);
 
-  constexpr bool& __cordl_internal_get__playingForTheFirstTime_k__BackingField();
-
-  constexpr bool const& __cordl_internal_get__playingForTheFirstTime_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__playingForTheFirstTime_k__BackingField(bool value);
-
-  constexpr bool& __cordl_internal_get__playingForTheFirstTimeChecked();
-
-  constexpr bool const& __cordl_internal_get__playingForTheFirstTimeChecked() const;
-
-  constexpr void __cordl_internal_set__playingForTheFirstTimeChecked(bool value);
-
   constexpr bool& __cordl_internal_get__isLoaded();
 
   constexpr bool const& __cordl_internal_get__isLoaded() const;
 
   constexpr void __cordl_internal_set__isLoaded(bool value);
 
-  constexpr ::System::Nullable_1<::System::ValueTuple_2<::StringW, ::GlobalNamespace::PerformancePreset*>>& __cordl_internal_get__defaultPerformancePreset();
+  constexpr ::System::Nullable_1<::System::ValueTuple_2<::StringW, ::BeatSaber::PerformancePresets::PerformancePreset*>>& __cordl_internal_get__defaultPerformancePreset();
 
-  constexpr ::System::Nullable_1<::System::ValueTuple_2<::StringW, ::GlobalNamespace::PerformancePreset*>> const& __cordl_internal_get__defaultPerformancePreset() const;
+  constexpr ::System::Nullable_1<::System::ValueTuple_2<::StringW, ::BeatSaber::PerformancePresets::PerformancePreset*>> const& __cordl_internal_get__defaultPerformancePreset() const;
 
-  constexpr void __cordl_internal_set__defaultPerformancePreset(::System::Nullable_1<::System::ValueTuple_2<::StringW, ::GlobalNamespace::PerformancePreset*>> value);
+  constexpr void __cordl_internal_set__defaultPerformancePreset(::System::Nullable_1<::System::ValueTuple_2<::StringW, ::BeatSaber::PerformancePresets::PerformancePreset*>> value);
 
-  static inline void setStaticF_bestGraphicsPreset(::GlobalNamespace::PerformancePreset* value);
+  static inline void setStaticF_bestGraphicsPreset(::System::ValueTuple_2<::StringW, ::BeatSaber::PerformancePresets::PerformancePreset*> value);
 
-  static inline ::GlobalNamespace::PerformancePreset* getStaticF_bestGraphicsPreset();
+  static inline ::System::ValueTuple_2<::StringW, ::BeatSaber::PerformancePresets::PerformancePreset*> getStaticF_bestGraphicsPreset();
 
-  /// @brief Method get_createScreenshotDuringTheGame, addr 0x234e734, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_createScreenshotDuringTheGame, addr 0x1291704, size 0x8, virtual false, abstract: false, final false
   inline bool get_createScreenshotDuringTheGame();
 
-  /// @brief Method set_createScreenshotDuringTheGame, addr 0x234e73c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_createScreenshotDuringTheGame, addr 0x129170c, size 0xc, virtual false, abstract: false, final false
   inline void set_createScreenshotDuringTheGame(bool value);
 
-  /// @brief Method get_playingForTheFirstTime, addr 0x234e748, size 0x8, virtual false, abstract: false, final false
-  inline bool get_playingForTheFirstTime();
+  /// @brief Method InitializeAsync, addr 0x1291718, size 0xf0, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task* InitializeAsync(::GlobalNamespace::IFileStorage* fileStorage,
+                                                           ::System::ValueTuple_2<::StringW, ::BeatSaber::PerformancePresets::PerformancePreset*> defaultPerformancePreset);
 
-  /// @brief Method set_playingForTheFirstTime, addr 0x234e750, size 0xc, virtual false, abstract: false, final false
-  inline void set_playingForTheFirstTime(bool value);
+  /// @brief Method Initialize, addr 0x1291808, size 0xdc, virtual false, abstract: false, final false
+  inline void Initialize(::GlobalNamespace::IFileStorage* fileStorage,
+                         ::System::Nullable_1<::System::ValueTuple_2<::StringW, ::BeatSaber::PerformancePresets::PerformancePreset*>> defaultPerformancePreset);
 
-  /// @brief Method Initialize, addr 0x234e75c, size 0x1dc, virtual false, abstract: false, final false
-  inline void Initialize(::GlobalNamespace::ISaveData* saveData, ::System::Nullable_1<::System::ValueTuple_2<::StringW, ::GlobalNamespace::PerformancePreset*>> defaultPerformancePreset);
+  /// @brief Method SaveAsync, addr 0x1291994, size 0x6c, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task* SaveAsync(::GlobalNamespace::IFileStorage* fileStorage);
 
-  /// @brief Method Save, addr 0x234f1cc, size 0x504, virtual false, abstract: false, final false
-  inline void Save(::GlobalNamespace::ISaveData* saveData);
+  /// @brief Method Save, addr 0x1291e5c, size 0x6c, virtual false, abstract: false, final false
+  inline void Save(::GlobalNamespace::IFileStorage* fileStorage);
 
-  /// @brief Method Load, addr 0x234e938, size 0x894, virtual false, abstract: false, final false
-  inline void Load(::GlobalNamespace::ISaveData* saveData, bool forced);
+  /// @brief Method GetSaveConfig, addr 0x1291a00, size 0x45c, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::__MainSettingsModelSO__Config* GetSaveConfig();
 
-  /// @brief Method ForceApplyPerformancePresetAsync, addr 0x234fa68, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x12918e4, size 0xb0, virtual false, abstract: false, final false
+  inline void Load(::GlobalNamespace::IFileStorage* fileStorage, bool forced);
+
+  /// @brief Method LoadAsync, addr 0x1292810, size 0xe4, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task* LoadAsync(::GlobalNamespace::IFileStorage* fileStorage, bool forced);
+
+  /// @brief Method SetSaveConfig, addr 0x1291f98, size 0x878, virtual false, abstract: false, final false
+  inline void SetSaveConfig(::GlobalNamespace::__MainSettingsModelSO__Config* config);
+
+  /// @brief Method ApplyPerformancePresetAsCustom, addr 0x1292bb8, size 0x38c, virtual false, abstract: false, final false
+  inline bool ApplyPerformancePresetAsCustom(::BeatSaber::PerformancePresets::PerformancePreset* preset);
+
+  /// @brief Method GetDefaultAudioLatency, addr 0x1292f44, size 0xe4, virtual false, abstract: false, final false
+  inline double_t GetDefaultAudioLatency();
+
+  /// @brief Method ForceApplyPerformancePresetAsync, addr 0x1293028, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ForceApplyPerformancePresetAsync(::GlobalNamespace::__MainSettingsModelSO__Config* config);
 
-  /// @brief Method __DeleteSettingsFiles, addr 0x234fb30, size 0x140, virtual false, abstract: false, final false
-  inline void __DeleteSettingsFiles();
+  /// @brief Method __DeleteSettingsFilesAsync, addr 0x12930f0, size 0xc0, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task* __DeleteSettingsFilesAsync(::GlobalNamespace::IFileStorage* fileStorage);
 
   static inline ::GlobalNamespace::MainSettingsModelSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x234fc70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12931b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MainSettingsModelSO", modifiers: "&&", def_value: None }]
@@ -1757,17 +1932,11 @@ public:
   /// @brief Field <createScreenshotDuringTheGame>k__BackingField, offset: 0x188, size: 0x1, def value: None
   bool ____createScreenshotDuringTheGame_k__BackingField;
 
-  /// @brief Field <playingForTheFirstTime>k__BackingField, offset: 0x189, size: 0x1, def value: None
-  bool ____playingForTheFirstTime_k__BackingField;
-
-  /// @brief Field _playingForTheFirstTimeChecked, offset: 0x18a, size: 0x1, def value: None
-  bool ____playingForTheFirstTimeChecked;
-
-  /// @brief Field _isLoaded, offset: 0x18b, size: 0x1, def value: None
+  /// @brief Field _isLoaded, offset: 0x189, size: 0x1, def value: None
   bool ____isLoaded;
 
   /// @brief Field _defaultPerformancePreset, offset: 0x190, size: 0x18, def value: None
-  ::System::Nullable_1<::System::ValueTuple_2<::StringW, ::GlobalNamespace::PerformancePreset*>> ____defaultPerformancePreset;
+  ::System::Nullable_1<::System::ValueTuple_2<::StringW, ::BeatSaber::PerformancePresets::PerformancePreset*>> ____defaultPerformancePreset;
 
   /// @brief Field kDefaultPlayerHeight offset 0xffffffff size 0x4
   static constexpr float_t kDefaultPlayerHeight{ 1.8 };
@@ -1777,12 +1946,6 @@ public:
 
   /// @brief Field kFileName offset 0xffffffff size 0x8
   static constexpr ::ConstString kFileName{ u"settings.cfg" };
-
-  /// @brief Field kTempFileName offset 0xffffffff size 0x8
-  static constexpr ::ConstString kTempFileName{ u"settings.cfg.tmp" };
-
-  /// @brief Field kBackupFileName offset 0xffffffff size 0x8
-  static constexpr ::ConstString kBackupFileName{ u"settings.cfg.bak" };
 
   /// @brief Field kCurrentVersion offset 0xffffffff size 0x8
   static constexpr ::ConstString kCurrentVersion{ u"2.1.0" };
@@ -1892,11 +2055,7 @@ static_assert(offsetof(::GlobalNamespace::MainSettingsModelSO, ___depthTextureEn
 
 static_assert(offsetof(::GlobalNamespace::MainSettingsModelSO, ____createScreenshotDuringTheGame_k__BackingField) == 0x188, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MainSettingsModelSO, ____playingForTheFirstTime_k__BackingField) == 0x189, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::MainSettingsModelSO, ____playingForTheFirstTimeChecked) == 0x18a, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::MainSettingsModelSO, ____isLoaded) == 0x18b, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainSettingsModelSO, ____isLoaded) == 0x189, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MainSettingsModelSO, ____defaultPerformancePreset) == 0x190, "Offset mismatch!");
 
@@ -1907,3 +2066,5 @@ DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MainSettingsModelSO*, "", "MainSetting
 NEED_NO_BOX(::GlobalNamespace::__MainSettingsModelSO__Config);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__MainSettingsModelSO__Config*, "", "MainSettingsModelSO/Config");
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__MainSettingsModelSO___ForceApplyPerformancePresetAsync_d__71, "", "MainSettingsModelSO/<ForceApplyPerformancePresetAsync>d__71");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__MainSettingsModelSO___InitializeAsync_d__61, "", "MainSettingsModelSO/<InitializeAsync>d__61");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__MainSettingsModelSO___LoadAsync_d__67, "", "MainSettingsModelSO/<LoadAsync>d__67");

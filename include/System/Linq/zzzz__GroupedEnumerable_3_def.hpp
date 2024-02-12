@@ -38,7 +38,7 @@ namespace System::Linq {
 template <typename TSource, typename TKey, typename TElement>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14289))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14302))
 // CS Name: ::System.Linq::GroupedEnumerable`3<TSource,TKey,TElement>*
 class CORDL_TYPE GroupedEnumerable_3 : public ::System::Object {
 public:

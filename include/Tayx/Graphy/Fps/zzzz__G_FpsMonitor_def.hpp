@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::Tayx::Graphy::Fps::__G_FpsMonitor____c);
 namespace Tayx::Graphy::Fps {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15083))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14956))
 // CS Name: ::G_FpsMonitor::<>c*
 class CORDL_TYPE __G_FpsMonitor____c : public ::System::Object {
 public:
@@ -50,10 +50,10 @@ public:
 
   static inline ::Tayx::Graphy::Fps::__G_FpsMonitor____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2a0912c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a0dbd0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Update>b__25_0, addr 0x2a09134, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <Update>b__25_0, addr 0x2a0dbd8, size 0x20, virtual false, abstract: false, final false
   inline int32_t _Update_b__25_0(int16_t x, int16_t y);
 
   // Ctor Parameters [CppParam { name: "", ty: "__G_FpsMonitor____c", modifiers: "&&", def_value: None }]
@@ -80,8 +80,8 @@ static_assert(::cordl_internals::size_check_v<::Tayx::Graphy::Fps::__G_FpsMonito
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Tayx::Graphy::Fps {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15084))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14957))
 // CS Name: ::Tayx.Graphy.Fps::G_FpsMonitor*
 class CORDL_TYPE G_FpsMonitor : public ::UnityEngine::MonoBehaviour {
 public:
@@ -204,45 +204,45 @@ public:
 
   constexpr void __cordl_internal_set__Zero1PercentFps_k__BackingField(int16_t value);
 
-  /// @brief Method get_CurrentFPS, addr 0x2a08cd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentFPS, addr 0x2a0d77c, size 0x8, virtual false, abstract: false, final false
   inline int16_t get_CurrentFPS();
 
-  /// @brief Method set_CurrentFPS, addr 0x2a08ce0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CurrentFPS, addr 0x2a0d784, size 0x8, virtual false, abstract: false, final false
   inline void set_CurrentFPS(int16_t value);
 
-  /// @brief Method get_AverageFPS, addr 0x2a08ce8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AverageFPS, addr 0x2a0d78c, size 0x8, virtual false, abstract: false, final false
   inline int16_t get_AverageFPS();
 
-  /// @brief Method set_AverageFPS, addr 0x2a08cf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AverageFPS, addr 0x2a0d794, size 0x8, virtual false, abstract: false, final false
   inline void set_AverageFPS(int16_t value);
 
-  /// @brief Method get_OnePercentFPS, addr 0x2a08cf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OnePercentFPS, addr 0x2a0d79c, size 0x8, virtual false, abstract: false, final false
   inline int16_t get_OnePercentFPS();
 
-  /// @brief Method set_OnePercentFPS, addr 0x2a08d00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_OnePercentFPS, addr 0x2a0d7a4, size 0x8, virtual false, abstract: false, final false
   inline void set_OnePercentFPS(int16_t value);
 
-  /// @brief Method get_Zero1PercentFps, addr 0x2a08d08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Zero1PercentFps, addr 0x2a0d7ac, size 0x8, virtual false, abstract: false, final false
   inline int16_t get_Zero1PercentFps();
 
-  /// @brief Method set_Zero1PercentFps, addr 0x2a08d10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Zero1PercentFps, addr 0x2a0d7b4, size 0x8, virtual false, abstract: false, final false
   inline void set_Zero1PercentFps(int16_t value);
 
-  /// @brief Method Awake, addr 0x2a08d18, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2a0d7bc, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Update, addr 0x2a08d1c, size 0x390, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2a0d7c0, size 0x390, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateParameters, addr 0x2a08a50, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method UpdateParameters, addr 0x2a0d4f4, size 0x40, virtual false, abstract: false, final false
   inline void UpdateParameters();
 
-  /// @brief Method Init, addr 0x2a03620, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2a080c4, size 0xa4, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::Tayx::Graphy::Fps::G_FpsMonitor* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2a090ac, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a0db50, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "G_FpsMonitor", modifiers: "&&", def_value: None }]

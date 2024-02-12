@@ -29,15 +29,15 @@ public:
   // Declarations
   static inline ::System::Security::Principal::IdentityNotMappedException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2476dc0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2498e34, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Security::Principal::IdentityNotMappedException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x2476e18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2498e8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method GetObjectData, addr 0x2476e20, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x2498e94, size 0x4, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
   // Ctor Parameters [CppParam { name: "", ty: "IdentityNotMappedException", modifiers: "&&", def_value: None }]

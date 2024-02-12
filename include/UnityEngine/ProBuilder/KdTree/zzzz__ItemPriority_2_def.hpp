@@ -17,7 +17,7 @@ namespace UnityEngine::ProBuilder::KdTree {
 template <typename TItem, typename TPriority>
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15923))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16046))
 // CS Name: ::UnityEngine.ProBuilder.KdTree::ItemPriority`2<TItem,TPriority>
 struct CORDL_TYPE ItemPriority_2 {
 public:

@@ -42,15 +42,15 @@ public:
 
   static inline ::Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfoBuilder* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> privateKeyInfo);
 
-  /// @brief Method .ctor, addr 0x10e6dd0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1114c60, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> privateKeyInfo);
 
   static inline ::Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfoBuilder* New_ctor(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* privateKeyInfo);
 
-  /// @brief Method .ctor, addr 0x10e6e08, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1114c98, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* privateKeyInfo);
 
-  /// @brief Method Build, addr 0x10e6e30, size 0x400, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x1114cc0, size 0x400, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfo* Build(::Org::BouncyCastle::Crypto::ICipherBuilder* encryptor);
 
   // Ctor Parameters [CppParam { name: "", ty: "Pkcs8EncryptedPrivateKeyInfoBuilder", modifiers: "&&", def_value: None }]

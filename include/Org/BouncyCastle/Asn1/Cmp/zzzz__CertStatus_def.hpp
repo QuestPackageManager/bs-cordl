@@ -78,33 +78,33 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::CertStatus* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xe65d2c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe90bbc, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::CertStatus* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> certHash, ::Org::BouncyCastle::Math::BigInteger* certReqId);
 
-  /// @brief Method .ctor, addr 0xe65dd0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe90c60, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> certHash, ::Org::BouncyCastle::Math::BigInteger* certReqId);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::CertStatus* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> certHash, ::Org::BouncyCastle::Math::BigInteger* certReqId,
                                                                      ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* statusInfo);
 
-  /// @brief Method .ctor, addr 0xe65e84, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe90d14, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> certHash, ::Org::BouncyCastle::Math::BigInteger* certReqId, ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* statusInfo);
 
-  /// @brief Method GetInstance, addr 0xe64640, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xe8f4d0, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::CertStatus* GetInstance(::System::Object* obj);
 
-  /// @brief Method get_CertHash, addr 0xe65f44, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CertHash, addr 0xe90dd4, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_CertHash();
 
-  /// @brief Method get_CertReqID, addr 0xe65f4c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CertReqID, addr 0xe90ddc, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_CertReqID();
 
-  /// @brief Method get_StatusInfo, addr 0xe65f54, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_StatusInfo, addr 0xe90de4, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* get_StatusInfo();
 
-  /// @brief Method ToAsn1Object, addr 0xe65f5c, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xe90dec, size 0x174, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "CertStatus", modifiers: "&&", def_value: None }]

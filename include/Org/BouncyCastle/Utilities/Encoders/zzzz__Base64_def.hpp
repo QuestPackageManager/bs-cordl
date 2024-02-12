@@ -28,34 +28,34 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Utilities::Encoders::Base64* New_ctor();
 
-  /// @brief Method .ctor, addr 0x115ba0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x118989c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method ToBase64String, addr 0x115ba14, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ToBase64String, addr 0x11898a4, size 0x68, virtual false, abstract: false, final false
   static inline ::StringW ToBase64String(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method ToBase64String, addr 0x115ba7c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ToBase64String, addr 0x118990c, size 0x70, virtual false, abstract: false, final false
   static inline ::StringW ToBase64String(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t off, int32_t length);
 
-  /// @brief Method Encode, addr 0x115baec, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x118997c, size 0x1c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method Encode, addr 0x115bb08, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x1189998, size 0x78, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t off, int32_t length);
 
-  /// @brief Method Encode, addr 0x115bb80, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x1189a10, size 0x50, virtual false, abstract: false, final false
   static inline int32_t Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::System::IO::Stream* outStream);
 
-  /// @brief Method Encode, addr 0x115bbd0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x1189a60, size 0x50, virtual false, abstract: false, final false
   static inline int32_t Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t off, int32_t length, ::System::IO::Stream* outStream);
 
-  /// @brief Method Decode, addr 0x115bc20, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x1189ab0, size 0x6c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method Decode, addr 0x115bc8c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x1189b1c, size 0x58, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Decode(::StringW data);
 
-  /// @brief Method Decode, addr 0x115bce4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x1189b74, size 0x50, virtual false, abstract: false, final false
   static inline int32_t Decode(::StringW data, ::System::IO::Stream* outStream);
 
   // Ctor Parameters [CppParam { name: "", ty: "Base64", modifiers: "&&", def_value: None }]

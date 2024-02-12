@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::ContextType);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6862))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6121))
 // CS Name: ::UnityEngine.UIElements::ContextType
 struct CORDL_TYPE ContextType {
 public:

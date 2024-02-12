@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ILightWithId);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14530))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14424))
 // CS Name: ::ILightWithId*
 class CORDL_TYPE ILightWithId {
 public:

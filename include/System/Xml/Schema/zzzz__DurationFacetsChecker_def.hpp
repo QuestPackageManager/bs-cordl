@@ -29,27 +29,27 @@ MARK_REF_PTR_T(::System::Xml::Schema::DurationFacetsChecker);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11686))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11689))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11584))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11587))
 // CS Name: ::System.Xml.Schema::DurationFacetsChecker*
 class CORDL_TYPE DurationFacetsChecker : public ::System::Xml::Schema::FacetsChecker {
 public:
   // Declarations
-  /// @brief Method CheckValueFacets, addr 0x28c1c50, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x28c42b8, size 0x114, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::System::Object* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x28c1d64, size 0x320, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x28c43cc, size 0x320, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::System::TimeSpan value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method MatchEnumeration, addr 0x28c2190, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method MatchEnumeration, addr 0x28c47f8, size 0x78, virtual true, abstract: false, final false
   inline bool MatchEnumeration(::System::Object* value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method MatchEnumeration, addr 0x28c2084, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method MatchEnumeration, addr 0x28c46ec, size 0x10c, virtual false, abstract: false, final false
   inline bool MatchEnumeration(::System::TimeSpan value, ::System::Collections::ArrayList* enumeration);
 
   static inline ::System::Xml::Schema::DurationFacetsChecker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28c2208, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28c4870, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DurationFacetsChecker", modifiers: "&&", def_value: None }]

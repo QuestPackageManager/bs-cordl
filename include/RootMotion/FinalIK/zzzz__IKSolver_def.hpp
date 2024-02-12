@@ -75,8 +75,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__IKSolver__UpdateDelegate);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12559))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(8996))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12457))
 // CS Name: ::IKSolver::Point*
 class CORDL_TYPE __IKSolver__Point : public ::System::Object {
 public:
@@ -135,27 +135,27 @@ public:
 
   constexpr void __cordl_internal_set_defaultLocalRotation(::UnityEngine::Quaternion value);
 
-  /// @brief Method StoreDefaultLocalState, addr 0x125ec54, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method StoreDefaultLocalState, addr 0x12f7d04, size 0x44, virtual false, abstract: false, final false
   inline void StoreDefaultLocalState();
 
-  /// @brief Method FixTransform, addr 0x125ec98, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method FixTransform, addr 0x12f7d48, size 0xe0, virtual false, abstract: false, final false
   inline void FixTransform();
 
-  /// @brief Method UpdateSolverPosition, addr 0x125ed78, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method UpdateSolverPosition, addr 0x12f7e28, size 0x2c, virtual false, abstract: false, final false
   inline void UpdateSolverPosition();
 
-  /// @brief Method UpdateSolverLocalPosition, addr 0x125eda4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method UpdateSolverLocalPosition, addr 0x12f7e54, size 0x2c, virtual false, abstract: false, final false
   inline void UpdateSolverLocalPosition();
 
-  /// @brief Method UpdateSolverState, addr 0x125edd0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method UpdateSolverState, addr 0x12f7e80, size 0x44, virtual false, abstract: false, final false
   inline void UpdateSolverState();
 
-  /// @brief Method UpdateSolverLocalState, addr 0x125ee14, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method UpdateSolverLocalState, addr 0x12f7ec4, size 0x44, virtual false, abstract: false, final false
   inline void UpdateSolverLocalState();
 
   static inline ::RootMotion::FinalIK::__IKSolver__Point* New_ctor();
 
-  /// @brief Method .ctor, addr 0x125ee58, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12f7f08, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__IKSolver__Point", modifiers: "&&", def_value: None }]
@@ -212,8 +212,8 @@ static_assert(offsetof(::RootMotion::FinalIK::__IKSolver__Point, ___defaultLocal
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 113, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(12559))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12560))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(12457))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12458))
 // CS Name: ::IKSolver::Bone*
 class CORDL_TYPE __IKSolver__Bone : public ::RootMotion::FinalIK::__IKSolver__Point {
 public:
@@ -265,38 +265,38 @@ public:
 
   constexpr void __cordl_internal_set_isLimited(bool value);
 
-  /// @brief Method get_rotationLimit, addr 0x125eeb8, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method get_rotationLimit, addr 0x12f7f68, size 0xe0, virtual false, abstract: false, final false
   inline ::UnityW<::RootMotion::FinalIK::RotationLimit> get_rotationLimit();
 
-  /// @brief Method set_rotationLimit, addr 0x125ef98, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method set_rotationLimit, addr 0x12f8048, size 0x78, virtual false, abstract: false, final false
   inline void set_rotationLimit(::RootMotion::FinalIK::RotationLimit* value);
 
-  /// @brief Method Swing, addr 0x125f010, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method Swing, addr 0x12f80c0, size 0x26c, virtual false, abstract: false, final false
   inline void Swing(::UnityEngine::Vector3 swingTarget, float_t weight);
 
-  /// @brief Method SolverSwing, addr 0x125f27c, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method SolverSwing, addr 0x12f832c, size 0x2bc, virtual false, abstract: false, final false
   static inline void SolverSwing(::ArrayW<::RootMotion::FinalIK::__IKSolver__Bone*, ::Array<::RootMotion::FinalIK::__IKSolver__Bone*>*> bones, int32_t index, ::UnityEngine::Vector3 swingTarget,
                                  float_t weight);
 
-  /// @brief Method Swing2D, addr 0x125f538, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method Swing2D, addr 0x12f85e8, size 0x1f4, virtual false, abstract: false, final false
   inline void Swing2D(::UnityEngine::Vector3 swingTarget, float_t weight);
 
-  /// @brief Method SetToSolverPosition, addr 0x125f72c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SetToSolverPosition, addr 0x12f87dc, size 0x28, virtual false, abstract: false, final false
   inline void SetToSolverPosition();
 
   static inline ::RootMotion::FinalIK::__IKSolver__Bone* New_ctor();
 
-  /// @brief Method .ctor, addr 0x125f754, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12f8804, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::RootMotion::FinalIK::__IKSolver__Bone* New_ctor(::UnityEngine::Transform* transform);
 
-  /// @brief Method .ctor, addr 0x125f7c0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12f8870, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Transform* transform);
 
   static inline ::RootMotion::FinalIK::__IKSolver__Bone* New_ctor(::UnityEngine::Transform* transform, float_t weight);
 
-  /// @brief Method .ctor, addr 0x125f838, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12f88e8, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Transform* transform, float_t weight);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IKSolver__Bone", modifiers: "&&", def_value: None }]
@@ -348,8 +348,8 @@ static_assert(offsetof(::RootMotion::FinalIK::__IKSolver__Bone, ___isLimited) ==
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 108, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(12559))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12561))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(12457))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12459))
 // CS Name: ::IKSolver::Node*
 class CORDL_TYPE __IKSolver__Node : public ::RootMotion::FinalIK::__IKSolver__Point {
 public:
@@ -392,17 +392,17 @@ public:
 
   static inline ::RootMotion::FinalIK::__IKSolver__Node* New_ctor();
 
-  /// @brief Method .ctor, addr 0x125f8c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12f8970, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::RootMotion::FinalIK::__IKSolver__Node* New_ctor(::UnityEngine::Transform* transform);
 
-  /// @brief Method .ctor, addr 0x125f8c4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12f8974, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Transform* transform);
 
   static inline ::RootMotion::FinalIK::__IKSolver__Node* New_ctor(::UnityEngine::Transform* transform, float_t weight);
 
-  /// @brief Method .ctor, addr 0x125f8e8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12f8998, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Transform* transform, float_t weight);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IKSolver__Node", modifiers: "&&", def_value: None }]
@@ -450,23 +450,23 @@ static_assert(offsetof(::RootMotion::FinalIK::__IKSolver__Node, ___offset) == 0x
 namespace RootMotion::FinalIK {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12562))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12460))
 // CS Name: ::IKSolver::UpdateDelegate*
 class CORDL_TYPE __IKSolver__UpdateDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::RootMotion::FinalIK::__IKSolver__UpdateDelegate* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x125f91c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12f89cc, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x125f9d8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x12f8a88, size 0x14, virtual true, abstract: false, final false
   inline void Invoke();
 
-  /// @brief Method BeginInvoke, addr 0x125f9ec, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x12f8a9c, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x125fa0c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x12f8abc, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IKSolver__UpdateDelegate", modifiers: "&&", def_value: None }]
@@ -494,23 +494,23 @@ static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::__IKSolver_
 namespace RootMotion::FinalIK {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12563))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12461))
 // CS Name: ::IKSolver::IterationDelegate*
 class CORDL_TYPE __IKSolver__IterationDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::RootMotion::FinalIK::__IKSolver__IterationDelegate* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x125fa18, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12f8ac8, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x125fadc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x12f8b8c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(int32_t i);
 
-  /// @brief Method BeginInvoke, addr 0x125faf0, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x12f8ba0, size 0x84, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(int32_t i, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x125fb74, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x12f8c24, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IKSolver__IterationDelegate", modifiers: "&&", def_value: None }]
@@ -537,8 +537,8 @@ static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::__IKSolver_
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12564))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8993))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12462))
 // CS Name: ::RootMotion.FinalIK::IKSolver*
 class CORDL_TYPE IKSolver : public ::System::Object {
 public:
@@ -636,37 +636,37 @@ public:
 
   constexpr void __cordl_internal_set_root(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method IsValid, addr 0x125e5c8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x12f7678, size 0x74, virtual false, abstract: false, final false
   inline bool IsValid();
 
   /// @brief Method IsValid, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool IsValid(ByRef<::StringW> message);
 
-  /// @brief Method Initiate, addr 0x125e63c, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Initiate, addr 0x12f76ec, size 0x170, virtual false, abstract: false, final false
   inline void Initiate(::UnityEngine::Transform* root);
 
-  /// @brief Method Update, addr 0x125e7ac, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x12f785c, size 0x70, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method GetIKPosition, addr 0x125e81c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method GetIKPosition, addr 0x12f78cc, size 0xc, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 GetIKPosition();
 
-  /// @brief Method SetIKPosition, addr 0x125e828, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetIKPosition, addr 0x12f78d8, size 0xc, virtual false, abstract: false, final false
   inline void SetIKPosition(::UnityEngine::Vector3 position);
 
-  /// @brief Method GetIKPositionWeight, addr 0x125e834, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetIKPositionWeight, addr 0x12f78e4, size 0x8, virtual false, abstract: false, final false
   inline float_t GetIKPositionWeight();
 
-  /// @brief Method SetIKPositionWeight, addr 0x125e83c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SetIKPositionWeight, addr 0x12f78ec, size 0x1c, virtual false, abstract: false, final false
   inline void SetIKPositionWeight(float_t weight);
 
-  /// @brief Method GetRoot, addr 0x125e858, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetRoot, addr 0x12f7908, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> GetRoot();
 
-  /// @brief Method get_initiated, addr 0x125e860, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_initiated, addr 0x12f7910, size 0x8, virtual false, abstract: false, final false
   inline bool get_initiated();
 
-  /// @brief Method set_initiated, addr 0x125e868, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_initiated, addr 0x12f7918, size 0xc, virtual false, abstract: false, final false
   inline void set_initiated(bool value);
 
   /// @brief Method GetPoints, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -687,21 +687,21 @@ public:
   /// @brief Method OnUpdate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnUpdate();
 
-  /// @brief Method LogWarning, addr 0x125e874, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method LogWarning, addr 0x12f7924, size 0x18, virtual false, abstract: false, final false
   inline void LogWarning(::StringW message);
 
-  /// @brief Method ContainsDuplicateBone, addr 0x125e88c, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method ContainsDuplicateBone, addr 0x12f793c, size 0x124, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Transform> ContainsDuplicateBone(::ArrayW<::RootMotion::FinalIK::__IKSolver__Bone*, ::Array<::RootMotion::FinalIK::__IKSolver__Bone*>*> bones);
 
-  /// @brief Method HierarchyIsValid, addr 0x125e9b0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method HierarchyIsValid, addr 0x12f7a60, size 0x98, virtual false, abstract: false, final false
   static inline bool HierarchyIsValid(::ArrayW<::RootMotion::FinalIK::__IKSolver__Bone*, ::Array<::RootMotion::FinalIK::__IKSolver__Bone*>*> bones);
 
-  /// @brief Method PreSolveBones, addr 0x125ea48, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method PreSolveBones, addr 0x12f7af8, size 0x1f4, virtual false, abstract: false, final false
   static inline float_t PreSolveBones(ByRef<::ArrayW<::RootMotion::FinalIK::__IKSolver__Bone*, ::Array<::RootMotion::FinalIK::__IKSolver__Bone*>*>> bones);
 
   static inline ::RootMotion::FinalIK::IKSolver* New_ctor();
 
-  /// @brief Method .ctor, addr 0x125ec3c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12f7cec, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "IKSolver", modifiers: "&&", def_value: None }]

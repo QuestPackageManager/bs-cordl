@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::SignalAsset);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13892))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8954))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13845))
 // CS Name: ::UnityEngine.Timeline::SignalAsset*
 class CORDL_TYPE SignalAsset : public ::UnityEngine::ScriptableObject {
 public:
@@ -30,18 +30,18 @@ public:
 
   static inline ::System::Action_1<::UnityW<::UnityEngine::Timeline::SignalAsset>>* getStaticF_OnEnableCallback();
 
-  /// @brief Method add_OnEnableCallback, addr 0x2c68d84, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method add_OnEnableCallback, addr 0x2c668f0, size 0xcc, virtual false, abstract: false, final false
   static inline void add_OnEnableCallback(::System::Action_1<::UnityW<::UnityEngine::Timeline::SignalAsset>>* value);
 
-  /// @brief Method remove_OnEnableCallback, addr 0x2c68e50, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method remove_OnEnableCallback, addr 0x2c669bc, size 0xcc, virtual false, abstract: false, final false
   static inline void remove_OnEnableCallback(::System::Action_1<::UnityW<::UnityEngine::Timeline::SignalAsset>>* value);
 
-  /// @brief Method OnEnable, addr 0x2c68f1c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x2c66a88, size 0x6c, virtual false, abstract: false, final false
   inline void OnEnable();
 
   static inline ::UnityEngine::Timeline::SignalAsset* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c68f88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c66af4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SignalAsset", modifiers: "&&", def_value: None }]

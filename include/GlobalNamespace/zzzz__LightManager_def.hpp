@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::LightManager);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14497))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14391))
 // CS Name: ::LightManager*
 class CORDL_TYPE LightManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -138,24 +138,24 @@ public:
 
   static inline int32_t getStaticF__pointLightColorsID();
 
-  /// @brief Method OnEnable, addr 0x210b4dc, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x219fc84, size 0xec, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable, addr 0x210b5c8, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x219fd70, size 0xec, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnCameraPreRender, addr 0x210b6b4, size 0x560, virtual false, abstract: false, final false
+  /// @brief Method OnCameraPreRender, addr 0x219fe5c, size 0x560, virtual false, abstract: false, final false
   inline void OnCameraPreRender(::UnityEngine::Camera* camera);
 
-  /// @brief Method OnDestroy, addr 0x210bc14, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x21a03bc, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method ResetColors, addr 0x210bc18, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method ResetColors, addr 0x21a03c0, size 0xe4, virtual false, abstract: false, final false
   inline void ResetColors();
 
   static inline ::GlobalNamespace::LightManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x210bcfc, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21a04a4, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LightManager", modifiers: "&&", def_value: None }]

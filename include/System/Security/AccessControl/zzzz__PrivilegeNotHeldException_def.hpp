@@ -47,16 +47,16 @@ public:
 
   static inline ::System::Security::AccessControl::PrivilegeNotHeldException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2480530, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24a25a4, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Security::AccessControl::PrivilegeNotHeldException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info,
                                                                                        ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x248057c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24a25f0, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetObjectData, addr 0x2480604, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x24a2678, size 0xdc, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "PrivilegeNotHeldException", modifiers: "&&", def_value: None }]

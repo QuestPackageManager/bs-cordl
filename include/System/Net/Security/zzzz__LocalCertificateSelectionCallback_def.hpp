@@ -27,17 +27,17 @@ MARK_REF_PTR_T(::System::Net::Security::LocalCertificateSelectionCallback);
 namespace System::Net::Security {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9367))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7377))
 // CS Name: ::System.Net.Security::LocalCertificateSelectionCallback*
 class CORDL_TYPE LocalCertificateSelectionCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::System::Net::Security::LocalCertificateSelectionCallback* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x28ff9e8, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2904050, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x28ffb18, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2904180, size 0x14, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate* Invoke(::System::Object* sender, ::StringW targetHost,
                                                                                      ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* localCertificates,
                                                                                      ::System::Security::Cryptography::X509Certificates::X509Certificate* remoteCertificate,

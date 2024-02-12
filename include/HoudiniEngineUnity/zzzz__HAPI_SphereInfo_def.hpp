@@ -17,12 +17,12 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_SphereInfo);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9751))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9543))
 // CS Name: ::HoudiniEngineUnity::HAPI_SphereInfo
 struct CORDL_TYPE HAPI_SphereInfo {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x2191f20, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2226804, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(bool initialize_fields);
 
   // Ctor Parameters [CppParam { name: "center", ty: "::ArrayW<float_t,::Array<float_t>*>", modifiers: "", def_value: None }, CppParam { name: "radius", ty: "float_t", modifiers: "", def_value: None

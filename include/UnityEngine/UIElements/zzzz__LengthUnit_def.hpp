@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::LengthUnit);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7311))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6570))
 // CS Name: ::UnityEngine.UIElements::LengthUnit
 struct CORDL_TYPE LengthUnit {
 public:

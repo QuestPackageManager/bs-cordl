@@ -22,7 +22,7 @@ namespace System::Collections::Generic {
 template <typename T>
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3832))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3831))
 // CS Name: ::System.Collections.Generic::IEnumerable`1<T>*
 class CORDL_TYPE IEnumerable_1 {
 public:

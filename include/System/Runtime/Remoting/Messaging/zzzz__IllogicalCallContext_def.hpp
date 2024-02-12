@@ -51,27 +51,27 @@ public:
 
   constexpr void __cordl_internal_set_m_HostContext(::System::Object* value);
 
-  /// @brief Method get_Datastore, addr 0x24a634c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_Datastore, addr 0x24c83c0, size 0x6c, virtual false, abstract: false, final false
   inline ::System::Collections::Hashtable* get_Datastore();
 
-  /// @brief Method get_HostContext, addr 0x24a63b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HostContext, addr 0x24c842c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_HostContext();
 
-  /// @brief Method set_HostContext, addr 0x24a63c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_HostContext, addr 0x24c8434, size 0x8, virtual false, abstract: false, final false
   inline void set_HostContext(::System::Object* value);
 
-  /// @brief Method get_HasUserData, addr 0x24a63c8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_HasUserData, addr 0x24c843c, size 0x2c, virtual false, abstract: false, final false
   inline bool get_HasUserData();
 
-  /// @brief Method FreeNamedDataSlot, addr 0x24a6288, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method FreeNamedDataSlot, addr 0x24c82fc, size 0x2c, virtual false, abstract: false, final false
   inline void FreeNamedDataSlot(::StringW name);
 
-  /// @brief Method CreateCopy, addr 0x24a63f4, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method CreateCopy, addr 0x24c8468, size 0x254, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::IllogicalCallContext* CreateCopy();
 
   static inline ::System::Runtime::Remoting::Messaging::IllogicalCallContext* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24a6648, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24c86bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "IllogicalCallContext", modifiers: "&&", def_value: None }]

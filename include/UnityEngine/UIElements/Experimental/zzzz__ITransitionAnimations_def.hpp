@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::Experimental::ITransitionAnimations);
 namespace UnityEngine::UIElements::Experimental {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7455))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6714))
 // CS Name: ::UnityEngine.UIElements.Experimental::ITransitionAnimations*
 class CORDL_TYPE ITransitionAnimations {
 public:

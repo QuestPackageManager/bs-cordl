@@ -41,16 +41,16 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::ISerializationSurrogate"
   constexpr ::System::Runtime::Serialization::ISerializationSurrogate* i___System__Runtime__Serialization__ISerializationSurrogate() noexcept;
 
-  /// @brief Method GetObjectData, addr 0x24b1a20, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x24d3a94, size 0x118, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Object* obj, ::System::Runtime::Serialization::SerializationInfo* si, ::System::Runtime::Serialization::StreamingContext sc);
 
-  /// @brief Method SetObjectData, addr 0x24b1b38, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method SetObjectData, addr 0x24d3bac, size 0x40, virtual true, abstract: false, final false
   inline ::System::Object* SetObjectData(::System::Object* obj, ::System::Runtime::Serialization::SerializationInfo* si, ::System::Runtime::Serialization::StreamingContext sc,
                                          ::System::Runtime::Serialization::ISurrogateSelector* selector);
 
   static inline ::System::Runtime::Remoting::Messaging::RemotingSurrogate* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24b1b78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24d3bec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RemotingSurrogate", modifiers: "&&", def_value: None }]

@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::IKSolverFABRIK);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12574))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12568))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12472))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12466))
 // CS Name: ::RootMotion.FinalIK::IKSolverFABRIK*
 class CORDL_TYPE IKSolverFABRIK : public ::RootMotion::FinalIK::IKSolverHeuristic {
 public:
@@ -63,81 +63,81 @@ public:
 
   constexpr void __cordl_internal_set_solverLocalPositions(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
-  /// @brief Method SolveForward, addr 0x1263078, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method SolveForward, addr 0x12fc128, size 0xd8, virtual false, abstract: false, final false
   inline void SolveForward(::UnityEngine::Vector3 position);
 
-  /// @brief Method SolveBackward, addr 0x1263658, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method SolveBackward, addr 0x12fc708, size 0xd8, virtual false, abstract: false, final false
   inline void SolveBackward(::UnityEngine::Vector3 position);
 
-  /// @brief Method GetIKPosition, addr 0x1263788, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method GetIKPosition, addr 0x12fc838, size 0x88, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 GetIKPosition();
 
-  /// @brief Method OnInitiate, addr 0x1263810, size 0x270, virtual true, abstract: false, final false
+  /// @brief Method OnInitiate, addr 0x12fc8c0, size 0x270, virtual true, abstract: false, final false
   inline void OnInitiate();
 
-  /// @brief Method OnUpdate, addr 0x1263d08, size 0x2f0, virtual true, abstract: false, final false
+  /// @brief Method OnUpdate, addr 0x12fcdb8, size 0x2f0, virtual true, abstract: false, final false
   inline void OnUpdate();
 
-  /// @brief Method get_boneLengthCanBeZero, addr 0x1264040, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_boneLengthCanBeZero, addr 0x12fd0f0, size 0x8, virtual true, abstract: false, final false
   inline bool get_boneLengthCanBeZero();
 
-  /// @brief Method SolveJoint, addr 0x1264048, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method SolveJoint, addr 0x12fd0f8, size 0x11c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 SolveJoint(::UnityEngine::Vector3 pos1, ::UnityEngine::Vector3 pos2, float_t length);
 
-  /// @brief Method OnPreSolve, addr 0x1263150, size 0x39c, virtual false, abstract: false, final false
+  /// @brief Method OnPreSolve, addr 0x12fc200, size 0x39c, virtual false, abstract: false, final false
   inline void OnPreSolve();
 
-  /// @brief Method OnPostSolve, addr 0x1263740, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method OnPostSolve, addr 0x12fc7f0, size 0x48, virtual false, abstract: false, final false
   inline void OnPostSolve();
 
-  /// @brief Method Solve, addr 0x1263ff8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Solve, addr 0x12fd0a8, size 0x48, virtual false, abstract: false, final false
   inline void Solve(::UnityEngine::Vector3 targetPosition);
 
-  /// @brief Method ForwardReach, addr 0x12634ec, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method ForwardReach, addr 0x12fc59c, size 0x16c, virtual false, abstract: false, final false
   inline void ForwardReach(::UnityEngine::Vector3 position);
 
-  /// @brief Method SolverMove, addr 0x12646f4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SolverMove, addr 0x12fd7a4, size 0x68, virtual false, abstract: false, final false
   inline void SolverMove(int32_t index, ::UnityEngine::Vector3 offset);
 
-  /// @brief Method SolverRotate, addr 0x126475c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method SolverRotate, addr 0x12fd80c, size 0xd0, virtual false, abstract: false, final false
   inline void SolverRotate(int32_t index, ::UnityEngine::Quaternion rotation, bool recursive);
 
-  /// @brief Method SolverRotateChildren, addr 0x126482c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method SolverRotateChildren, addr 0x12fd8dc, size 0xc8, virtual false, abstract: false, final false
   inline void SolverRotateChildren(int32_t index, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method SolverMoveChildrenAroundPoint, addr 0x12648f4, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method SolverMoveChildrenAroundPoint, addr 0x12fd9a4, size 0xf0, virtual false, abstract: false, final false
   inline void SolverMoveChildrenAroundPoint(int32_t index, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method GetParentSolverRotation, addr 0x1263a80, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method GetParentSolverRotation, addr 0x12fcb30, size 0x144, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion GetParentSolverRotation(int32_t index);
 
-  /// @brief Method GetParentSolverPosition, addr 0x1263bc4, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method GetParentSolverPosition, addr 0x12fcc74, size 0x144, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetParentSolverPosition(int32_t index);
 
-  /// @brief Method GetLimitedRotation, addr 0x12649e4, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method GetLimitedRotation, addr 0x12fda94, size 0x1c0, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion GetLimitedRotation(int32_t index, ::UnityEngine::Quaternion q, ByRef<bool> changed);
 
-  /// @brief Method LimitForward, addr 0x12642e4, size 0x410, virtual false, abstract: false, final false
+  /// @brief Method LimitForward, addr 0x12fd394, size 0x410, virtual false, abstract: false, final false
   inline void LimitForward(int32_t rotateBone, int32_t limitBone);
 
-  /// @brief Method BackwardReach, addr 0x1263730, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method BackwardReach, addr 0x12fc7e0, size 0x10, virtual false, abstract: false, final false
   inline void BackwardReach(::UnityEngine::Vector3 position);
 
-  /// @brief Method BackwardReachUnlimited, addr 0x1265054, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method BackwardReachUnlimited, addr 0x12fe104, size 0xb8, virtual false, abstract: false, final false
   inline void BackwardReachUnlimited(::UnityEngine::Vector3 position);
 
-  /// @brief Method BackwardReachLimited, addr 0x1264ba4, size 0x4b0, virtual false, abstract: false, final false
+  /// @brief Method BackwardReachLimited, addr 0x12fdc54, size 0x4b0, virtual false, abstract: false, final false
   inline void BackwardReachLimited(::UnityEngine::Vector3 position);
 
-  /// @brief Method MapToSolverPositions, addr 0x1264164, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method MapToSolverPositions, addr 0x12fd214, size 0xd0, virtual false, abstract: false, final false
   inline void MapToSolverPositions();
 
-  /// @brief Method MapToSolverPositionsLimited, addr 0x1264234, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method MapToSolverPositionsLimited, addr 0x12fd2e4, size 0xb0, virtual false, abstract: false, final false
   inline void MapToSolverPositionsLimited();
 
   static inline ::RootMotion::FinalIK::IKSolverFABRIK* New_ctor();
 
-  /// @brief Method .ctor, addr 0x126510c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12fe1bc, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "IKSolverFABRIK", modifiers: "&&", def_value: None }]

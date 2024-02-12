@@ -16,7 +16,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_RSTOrder);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9714))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9506))
 // CS Name: ::HoudiniEngineUnity::HAPI_RSTOrder
 struct CORDL_TYPE HAPI_RSTOrder {
 public:

@@ -38,7 +38,7 @@ MARK_REF_PTR_T(::BeatSaber::AvatarCore::OptionalAvatarDataPacket);
 namespace BeatSaber::AvatarCore {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15206))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15287))
 // CS Name: ::BeatSaber.AvatarCore::OptionalAvatarDataPacket*
 class CORDL_TYPE OptionalAvatarDataPacket : public ::System::Object {
 public:
@@ -73,27 +73,27 @@ public:
 
   constexpr void __cordl_internal_set_data(::GlobalNamespace::ByteArrayNetSerializable* value);
 
-  /// @brief Method get_pool, addr 0xe10ccc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_pool, addr 0xe1c4c8, size 0x40, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PacketPool_1<::BeatSaber::AvatarCore::OptionalAvatarDataPacket*>* get_pool();
 
-  /// @brief Method Serialize, addr 0xe10d0c, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0xe1c508, size 0x44, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method Deserialize, addr 0xe10d50, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0xe1c54c, size 0x48, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Release, addr 0xe10d98, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method Release, addr 0xe1c594, size 0x64, virtual true, abstract: false, final true
   inline void Release();
 
-  /// @brief Method Init, addr 0xe10dfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0xe1c5f8, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::AvatarCore::OptionalAvatarDataPacket* Init(::BeatSaber::AvatarCore::OptionalAvatarData optionalAvatarData);
 
-  /// @brief Method Init, addr 0xe10e04, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0xe1c600, size 0x34, virtual false, abstract: false, final false
   inline ::BeatSaber::AvatarCore::OptionalAvatarDataPacket* Init(uint32_t dataType, ::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t length);
 
   static inline ::BeatSaber::AvatarCore::OptionalAvatarDataPacket* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe10e38, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe1c634, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OptionalAvatarDataPacket", modifiers: "&&", def_value: None }]

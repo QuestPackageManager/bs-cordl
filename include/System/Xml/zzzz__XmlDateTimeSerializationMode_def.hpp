@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Xml::XmlDateTimeSerializationMode);
 namespace System::Xml {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11547))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11445))
 // CS Name: ::System.Xml::XmlDateTimeSerializationMode
 struct CORDL_TYPE XmlDateTimeSerializationMode {
 public:

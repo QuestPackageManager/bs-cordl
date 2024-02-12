@@ -66,51 +66,51 @@ public:
 
   static inline ::ArrayW<::Org::BouncyCastle::Asn1::DerEnumerated*, ::Array<::Org::BouncyCastle::Asn1::DerEnumerated*>*> getStaticF_cache();
 
-  /// @brief Method GetInstance, addr 0xf81424, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xfac2b4, size 0xf0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerEnumerated* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetInstance, addr 0xf816bc, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xfac54c, size 0x140, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerEnumerated* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
   static inline ::Org::BouncyCastle::Asn1::DerEnumerated* New_ctor(int32_t val);
 
-  /// @brief Method .ctor, addr 0xf819a8, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfac838, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor(int32_t val);
 
   static inline ::Org::BouncyCastle::Asn1::DerEnumerated* New_ctor(int64_t val);
 
-  /// @brief Method .ctor, addr 0xf81a90, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfac920, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor(int64_t val);
 
   static inline ::Org::BouncyCastle::Asn1::DerEnumerated* New_ctor(::Org::BouncyCastle::Math::BigInteger* val);
 
-  /// @brief Method .ctor, addr 0xf81b78, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfaca08, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* val);
 
   static inline ::Org::BouncyCastle::Asn1::DerEnumerated* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method .ctor, addr 0xf81c20, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfacab0, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method get_Value, addr 0xf81d50, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0xfacbe0, size 0x68, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Value();
 
-  /// @brief Method HasValue, addr 0xf81db8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method HasValue, addr 0xfacc48, size 0x78, virtual false, abstract: false, final false
   inline bool HasValue(::Org::BouncyCastle::Math::BigInteger* x);
 
-  /// @brief Method get_IntValueExact, addr 0xf81e30, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_IntValueExact, addr 0xfaccc0, size 0x84, virtual false, abstract: false, final false
   inline int32_t get_IntValueExact();
 
-  /// @brief Method Encode, addr 0xf81eb4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0xfacd44, size 0x28, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
-  /// @brief Method Asn1Equals, addr 0xf81edc, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method Asn1Equals, addr 0xfacd6c, size 0xc8, virtual true, abstract: false, final false
   inline bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
 
-  /// @brief Method Asn1GetHashCode, addr 0xf81fa4, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method Asn1GetHashCode, addr 0xface34, size 0x5c, virtual true, abstract: false, final false
   inline int32_t Asn1GetHashCode();
 
-  /// @brief Method FromOctetString, addr 0xf817fc, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method FromOctetString, addr 0xfac68c, size 0x1ac, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerEnumerated* FromOctetString(::ArrayW<uint8_t, ::Array<uint8_t>*> enc);
 
   // Ctor Parameters [CppParam { name: "", ty: "DerEnumerated", modifiers: "&&", def_value: None }]

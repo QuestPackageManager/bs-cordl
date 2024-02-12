@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MaterialPropertyEffect);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4909))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4910))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4263))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4264))
 // CS Name: ::MaterialPropertyEffect*
 class CORDL_TYPE MaterialPropertyEffect : public ::GlobalNamespace::FloatFxGroupEffectTarget {
 public:
@@ -54,18 +54,18 @@ public:
 
   constexpr void __cordl_internal_set__propertyId(int32_t value);
 
-  /// @brief Method Awake, addr 0x23a65d0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2366708, size 0x20, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method SetValue, addr 0x23a65f0, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x2366728, size 0xc8, virtual true, abstract: false, final false
   inline void SetValue(float_t value);
 
-  /// @brief Method TriggerValue, addr 0x23a66b8, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method TriggerValue, addr 0x23667f0, size 0xc8, virtual true, abstract: false, final false
   inline void TriggerValue(float_t value);
 
   static inline ::GlobalNamespace::MaterialPropertyEffect* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23a6780, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23668b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyEffect", modifiers: "&&", def_value: None }]

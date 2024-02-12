@@ -58,7 +58,7 @@ MARK_VAL_T(::GlobalNamespace::__OVRMeshRenderer__MeshRendererData);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8128))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8085))
 // CS Name: ::OVRMeshRenderer::IOVRMeshRendererDataProvider*
 class CORDL_TYPE __OVRMeshRenderer__IOVRMeshRendererDataProvider {
 public:
@@ -83,7 +83,7 @@ public:
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8129))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8086))
 // CS Name: ::OVRMeshRenderer::MeshRendererData
 struct CORDL_TYPE __OVRMeshRenderer__MeshRendererData {
 public:
@@ -94,22 +94,22 @@ public:
 
   __declspec(property(get = get_ShouldUseSystemGestureMaterial, put = set_ShouldUseSystemGestureMaterial)) bool ShouldUseSystemGestureMaterial;
 
-  /// @brief Method get_IsDataValid, addr 0x27b1fa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDataValid, addr 0x27c297c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDataValid();
 
-  /// @brief Method set_IsDataValid, addr 0x27b1fa8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsDataValid, addr 0x27c2984, size 0xc, virtual false, abstract: false, final false
   inline void set_IsDataValid(bool value);
 
-  /// @brief Method get_IsDataHighConfidence, addr 0x27b1fb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDataHighConfidence, addr 0x27c2990, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDataHighConfidence();
 
-  /// @brief Method set_IsDataHighConfidence, addr 0x27b1fbc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsDataHighConfidence, addr 0x27c2998, size 0xc, virtual false, abstract: false, final false
   inline void set_IsDataHighConfidence(bool value);
 
-  /// @brief Method get_ShouldUseSystemGestureMaterial, addr 0x27b1fc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ShouldUseSystemGestureMaterial, addr 0x27c29a4, size 0x8, virtual false, abstract: false, final false
   inline bool get_ShouldUseSystemGestureMaterial();
 
-  /// @brief Method set_ShouldUseSystemGestureMaterial, addr 0x27b1fd0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ShouldUseSystemGestureMaterial, addr 0x27c29ac, size 0xc, virtual false, abstract: false, final false
   inline void set_ShouldUseSystemGestureMaterial(bool value);
 
   // Ctor Parameters [CppParam { name: "_IsDataValid_k__BackingField", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_IsDataHighConfidence_k__BackingField", ty: "bool", modifiers:
@@ -149,7 +149,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRMeshRenderer__MeshRendererData, _
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8130))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8087))
 // CS Name: ::OVRMeshRenderer::ConfidenceBehavior
 struct CORDL_TYPE __OVRMeshRenderer__ConfidenceBehavior {
 public:
@@ -199,7 +199,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRMeshRenderer__ConfidenceBehavior,
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8131))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8088))
 // CS Name: ::OVRMeshRenderer::SystemGestureBehavior
 struct CORDL_TYPE __OVRMeshRenderer__SystemGestureBehavior {
 public:
@@ -248,8 +248,8 @@ static_assert(offsetof(::GlobalNamespace::__OVRMeshRenderer__SystemGestureBehavi
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8130)), TypeDefinitionIndex(TypeDefinitionIndex(8131)), TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8132))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8087)), TypeDefinitionIndex(TypeDefinitionIndex(8088)), TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8089))
 // CS Name: ::OVRMeshRenderer*
 class CORDL_TYPE OVRMeshRenderer : public ::UnityEngine::MonoBehaviour {
 public:
@@ -380,48 +380,48 @@ public:
 
   constexpr void __cordl_internal_set__ShouldUseSystemGestureMaterial_k__BackingField(bool value);
 
-  /// @brief Method get_IsInitialized, addr 0x27b1570, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsInitialized, addr 0x27c1f4c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsInitialized();
 
-  /// @brief Method set_IsInitialized, addr 0x27b1578, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsInitialized, addr 0x27c1f54, size 0xc, virtual false, abstract: false, final false
   inline void set_IsInitialized(bool value);
 
-  /// @brief Method get_IsDataValid, addr 0x27b1584, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDataValid, addr 0x27c1f60, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDataValid();
 
-  /// @brief Method set_IsDataValid, addr 0x27b158c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsDataValid, addr 0x27c1f68, size 0xc, virtual false, abstract: false, final false
   inline void set_IsDataValid(bool value);
 
-  /// @brief Method get_IsDataHighConfidence, addr 0x27b1598, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDataHighConfidence, addr 0x27c1f74, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDataHighConfidence();
 
-  /// @brief Method set_IsDataHighConfidence, addr 0x27b15a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsDataHighConfidence, addr 0x27c1f7c, size 0xc, virtual false, abstract: false, final false
   inline void set_IsDataHighConfidence(bool value);
 
-  /// @brief Method get_ShouldUseSystemGestureMaterial, addr 0x27b15ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ShouldUseSystemGestureMaterial, addr 0x27c1f88, size 0x8, virtual false, abstract: false, final false
   inline bool get_ShouldUseSystemGestureMaterial();
 
-  /// @brief Method set_ShouldUseSystemGestureMaterial, addr 0x27b15b4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ShouldUseSystemGestureMaterial, addr 0x27c1f90, size 0xc, virtual false, abstract: false, final false
   inline void set_ShouldUseSystemGestureMaterial(bool value);
 
-  /// @brief Method Awake, addr 0x27b15c0, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x27c1f9c, size 0x104, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Start, addr 0x27b16c4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x27c20a0, size 0x9c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method ShouldInitialize, addr 0x27b1760, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ShouldInitialize, addr 0x27c213c, size 0xf0, virtual false, abstract: false, final false
   inline bool ShouldInitialize();
 
-  /// @brief Method Initialize, addr 0x27b1850, size 0x4a0, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x27c222c, size 0x4a0, virtual false, abstract: false, final false
   inline void Initialize();
 
-  /// @brief Method Update, addr 0x27b1cf0, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x27c26cc, size 0x2a0, virtual false, abstract: false, final false
   inline void Update();
 
   static inline ::GlobalNamespace::OVRMeshRenderer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x27b1f90, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27c296c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRMeshRenderer", modifiers: "&&", def_value: None }]

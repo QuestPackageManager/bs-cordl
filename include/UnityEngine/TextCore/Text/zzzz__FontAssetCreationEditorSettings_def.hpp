@@ -18,7 +18,7 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::FontAssetCreationEditorSettings);
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13679))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13632))
 // CS Name: ::UnityEngine.TextCore.Text::FontAssetCreationEditorSettings
 struct CORDL_TYPE FontAssetCreationEditorSettings {
 public:

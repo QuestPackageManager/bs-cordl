@@ -57,16 +57,16 @@ public:
 
   static inline ::System::Runtime::Remoting::Metadata::SoapAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24a5c8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24c7d00, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_UseAttribute, addr 0x24a5c94, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_UseAttribute, addr 0x24c7d08, size 0x8, virtual true, abstract: false, final false
   inline bool get_UseAttribute();
 
-  /// @brief Method get_XmlNamespace, addr 0x24a5c9c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_XmlNamespace, addr 0x24c7d10, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_XmlNamespace();
 
-  /// @brief Method SetReflectionObject, addr 0x24a5ca4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetReflectionObject, addr 0x24c7d18, size 0x8, virtual true, abstract: false, final false
   inline void SetReflectionObject(::System::Object* reflectionObject);
 
   // Ctor Parameters [CppParam { name: "", ty: "SoapAttribute", modifiers: "&&", def_value: None }]

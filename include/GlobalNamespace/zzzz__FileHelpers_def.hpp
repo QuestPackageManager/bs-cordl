@@ -23,21 +23,21 @@ MARK_REF_PTR_T(::GlobalNamespace::FileHelpers);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15854))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15599))
 // CS Name: ::FileHelpers*
 class CORDL_TYPE FileHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetEscapedURLForFilePath, addr 0xe27c1c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetEscapedURLForFilePath, addr 0xe51958, size 0x5c, virtual false, abstract: false, final false
   static inline ::StringW GetEscapedURLForFilePath(::StringW filePath);
 
-  /// @brief Method GetUniqueDirectoryNameByAppendingNumber, addr 0xe27c78, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetUniqueDirectoryNameByAppendingNumber, addr 0xe519b4, size 0xbc, virtual false, abstract: false, final false
   static inline ::StringW GetUniqueDirectoryNameByAppendingNumber(::StringW dirName);
 
-  /// @brief Method GetFilePaths, addr 0xe27d34, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method GetFilePaths, addr 0xe51a70, size 0x234, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> GetFilePaths(::StringW directoryPath, ::System::Collections::Generic::HashSet_1<::StringW>* extensions);
 
-  /// @brief Method GetFileNamesFromFilePaths, addr 0xe27f68, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetFileNamesFromFilePaths, addr 0xe51ca4, size 0xbc, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> GetFileNamesFromFilePaths(::System::Collections::Generic::IEnumerable_1<::StringW>* filePaths);
 
   // Ctor Parameters [CppParam { name: "", ty: "FileHelpers", modifiers: "&&", def_value: None }]

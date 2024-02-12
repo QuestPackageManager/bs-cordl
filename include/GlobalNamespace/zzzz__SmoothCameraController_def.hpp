@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SmoothCameraController);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5331))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4669))
 // CS Name: ::SmoothCameraController*
 class CORDL_TYPE SmoothCameraController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -44,24 +44,24 @@ public:
 
   constexpr void __cordl_internal_set__smoothCamera(::UnityW<::GlobalNamespace::SmoothCamera> value);
 
-  /// @brief Method Start, addr 0x22684e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x23c720c, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy, addr 0x2268684, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x23c73ac, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleDidActivate, addr 0x2268688, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method HandleDidActivate, addr 0x23c73b0, size 0x40, virtual false, abstract: false, final false
   inline void HandleDidActivate();
 
-  /// @brief Method HandleDidDeactivate, addr 0x22686c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleDidDeactivate, addr 0x23c73f0, size 0x4, virtual false, abstract: false, final false
   inline void HandleDidDeactivate();
 
-  /// @brief Method ActivateSmoothCameraIfNeeded, addr 0x22684e8, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method ActivateSmoothCameraIfNeeded, addr 0x23c7210, size 0x19c, virtual false, abstract: false, final false
   inline void ActivateSmoothCameraIfNeeded();
 
   static inline ::GlobalNamespace::SmoothCameraController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22686cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c73f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SmoothCameraController", modifiers: "&&", def_value: None }]

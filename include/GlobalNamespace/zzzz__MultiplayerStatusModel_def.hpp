@@ -66,7 +66,7 @@ MARK_VAL_T(::GlobalNamespace::__MultiplayerStatusModel___GetMultiplayerStatusAsy
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4473))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10883))
 // CS Name: ::MultiplayerStatusModel::MultiplayerStatusDataFB*
 class CORDL_TYPE __MultiplayerStatusModel__MultiplayerStatusDataFB : public ::System::Object {
 public:
@@ -82,7 +82,7 @@ public:
 
   static inline ::GlobalNamespace::__MultiplayerStatusModel__MultiplayerStatusDataFB* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2353200, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12948bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerStatusModel__MultiplayerStatusDataFB", modifiers: "&&", def_value: None }]
@@ -114,9 +114,9 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerStatusModel__MultiplayerS
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(4472)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 397 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 894 })] Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(4474)) CS Name: ::MultiplayerStatusModel::<GetMultiplayerStatusAsyncInternal>d__9
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3398)), TypeDefinitionIndex(TypeDefinitionIndex(10882)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 398 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3398), inst: 895 })] Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(10884)) CS Name: ::MultiplayerStatusModel::<GetMultiplayerStatusAsyncInternal>d__9
 struct CORDL_TYPE __MultiplayerStatusModel___GetMultiplayerStatusAsyncInternal_d__9 {
 public:
   // Declarations
@@ -126,10 +126,10 @@ public:
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x2353208, size 0x824, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x12948c4, size 0x824, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2353a2c, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x12950e8, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -184,7 +184,7 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerStatusModel___GetMultipla
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4475))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10885))
 // CS Name: ::MultiplayerStatusModel*
 class CORDL_TYPE MultiplayerStatusModel : public ::System::Object {
 public:
@@ -226,24 +226,24 @@ public:
 
   constexpr void __cordl_internal_set__request(::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerStatusData*>* value);
 
-  /// @brief Method Init, addr 0x2352fac, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x1294668, size 0x18, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method GetMultiplayerStatusAsync, addr 0x2352fdc, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method GetMultiplayerStatusAsync, addr 0x1294698, size 0x6c, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerStatusData*>* GetMultiplayerStatusAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method IsAvailabilityTaskValid, addr 0x2353048, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method IsAvailabilityTaskValid, addr 0x1294704, size 0x5c, virtual false, abstract: false, final false
   inline bool IsAvailabilityTaskValid();
 
-  /// @brief Method StartRequest, addr 0x2352fc4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method StartRequest, addr 0x1294680, size 0x18, virtual false, abstract: false, final false
   inline void StartRequest();
 
-  /// @brief Method GetMultiplayerStatusAsyncInternal, addr 0x23530a4, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetMultiplayerStatusAsyncInternal, addr 0x1294760, size 0xf4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerStatusData*>* GetMultiplayerStatusAsyncInternal();
 
   static inline ::GlobalNamespace::MultiplayerStatusModel* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2353198, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1294854, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerStatusModel", modifiers: "&&", def_value: None }]

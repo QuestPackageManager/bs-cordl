@@ -16,7 +16,7 @@ MARK_VAL_T(::TMPro::FontStyles);
 namespace TMPro {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12438))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12336))
 // CS Name: ::TMPro::FontStyles
 struct CORDL_TYPE FontStyles {
 public:

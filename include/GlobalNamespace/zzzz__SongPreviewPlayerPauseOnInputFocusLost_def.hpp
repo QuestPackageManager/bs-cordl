@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4083))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4029))
 // CS Name: ::SongPreviewPlayerPauseOnInputFocusLost*
 class CORDL_TYPE SongPreviewPlayerPauseOnInputFocusLost : public ::UnityEngine::MonoBehaviour {
 public:
@@ -44,21 +44,21 @@ public:
 
   constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
 
-  /// @brief Method Start, addr 0x223128c, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x22baeec, size 0x210, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy, addr 0x22314e0, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x22bb140, size 0x1a4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleInputFocusCaptured, addr 0x223149c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method HandleInputFocusCaptured, addr 0x22bb0fc, size 0x44, virtual false, abstract: false, final false
   inline void HandleInputFocusCaptured();
 
-  /// @brief Method HandleInputFocusReleased, addr 0x2231684, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method HandleInputFocusReleased, addr 0x22bb2e4, size 0x44, virtual false, abstract: false, final false
   inline void HandleInputFocusReleased();
 
   static inline ::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22316c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22bb328, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SongPreviewPlayerPauseOnInputFocusLost", modifiers: "&&", def_value: None }]

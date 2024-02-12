@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::System::Text::RegularExpressions::RegexMatchTimeoutException);
 namespace System::Text::RegularExpressions {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2484)), TypeDefinitionIndex(TypeDefinitionIndex(2487))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8923))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6933))
 // CS Name: ::System.Text.RegularExpressions::RegexMatchTimeoutException*
 class CORDL_TYPE RegexMatchTimeoutException : public ::System::TimeoutException {
 public:
@@ -75,30 +75,30 @@ public:
 
   static inline ::System::Text::RegularExpressions::RegexMatchTimeoutException* New_ctor(::StringW regexInput, ::StringW regexPattern, ::System::TimeSpan matchTimeout);
 
-  /// @brief Method .ctor, addr 0x2962550, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2966470, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::StringW regexInput, ::StringW regexPattern, ::System::TimeSpan matchTimeout);
 
   static inline ::System::Text::RegularExpressions::RegexMatchTimeoutException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x296261c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x296653c, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Text::RegularExpressions::RegexMatchTimeoutException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info,
                                                                                          ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x29626b0, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29665d0, size 0x138, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x29627e8, size 0xd4, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x2966708, size 0xd4, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method get_Input, addr 0x29628bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Input, addr 0x29667dc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Input();
 
-  /// @brief Method get_Pattern, addr 0x29628c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Pattern, addr 0x29667e4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Pattern();
 
-  /// @brief Method get_MatchTimeout, addr 0x29628cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MatchTimeout, addr 0x29667ec, size 0x8, virtual false, abstract: false, final false
   inline ::System::TimeSpan get_MatchTimeout();
 
   // Ctor Parameters [CppParam { name: "", ty: "RegexMatchTimeoutException", modifiers: "&&", def_value: None }]

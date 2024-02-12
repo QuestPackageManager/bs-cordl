@@ -46,7 +46,7 @@ MARK_REF_PTR_T(::LiteNetLib::NetEvent);
 namespace LiteNetLib {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14163))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14176))
 // CS Name: ::NetEvent::EType
 struct CORDL_TYPE __NetEvent__EType {
 public:
@@ -123,8 +123,8 @@ static_assert(offsetof(::LiteNetLib::__NetEvent__EType, value__) == 0x0, "Offset
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9347)), TypeDefinitionIndex(TypeDefinitionIndex(14131)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14155)), TypeDefinitionIndex(TypeDefinitionIndex(14163))] Self: TypeDefinitionIndex(TypeDefinitionIndex(14164)) CS Name: ::LiteNetLib::NetEvent*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7357)), TypeDefinitionIndex(TypeDefinitionIndex(14144)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14168)), TypeDefinitionIndex(TypeDefinitionIndex(14176))] Self: TypeDefinitionIndex(TypeDefinitionIndex(14177)) CS Name: ::LiteNetLib::NetEvent*
 class CORDL_TYPE NetEvent : public ::System::Object {
 public:
   // Declarations
@@ -222,7 +222,7 @@ public:
 
   static inline ::LiteNetLib::NetEvent* New_ctor(::LiteNetLib::NetManager* manager);
 
-  /// @brief Method .ctor, addr 0x21fc760, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2292048, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::LiteNetLib::NetManager* manager);
 
   // Ctor Parameters [CppParam { name: "", ty: "NetEvent", modifiers: "&&", def_value: None }]

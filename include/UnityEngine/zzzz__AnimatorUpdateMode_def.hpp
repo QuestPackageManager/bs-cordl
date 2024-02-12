@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::AnimatorUpdateMode);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14877))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14750))
 // CS Name: ::UnityEngine::AnimatorUpdateMode
 struct CORDL_TYPE AnimatorUpdateMode {
 public:

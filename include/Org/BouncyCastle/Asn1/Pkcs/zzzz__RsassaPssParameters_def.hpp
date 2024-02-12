@@ -107,40 +107,40 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::DerInteger* getStaticF_DefaultTrailerField();
 
-  /// @brief Method GetInstance, addr 0xf8eb4c, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xfb99dc, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf8eeb8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfb9d48, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlgorithm,
                                                                                ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* maskGenAlgorithm,
                                                                                ::Org::BouncyCastle::Asn1::DerInteger* saltLength, ::Org::BouncyCastle::Asn1::DerInteger* trailerField);
 
-  /// @brief Method .ctor, addr 0xf8ef2c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfb9dbc, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlgorithm, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* maskGenAlgorithm,
                     ::Org::BouncyCastle::Asn1::DerInteger* saltLength, ::Org::BouncyCastle::Asn1::DerInteger* trailerField);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xf8ecd4, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfb9b64, size 0x1e4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_HashAlgorithm, addr 0xf8ef6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HashAlgorithm, addr 0xfb9dfc, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_HashAlgorithm();
 
-  /// @brief Method get_MaskGenAlgorithm, addr 0xf8ef74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaskGenAlgorithm, addr 0xfb9e04, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_MaskGenAlgorithm();
 
-  /// @brief Method get_SaltLength, addr 0xf8ef7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SaltLength, addr 0xfb9e0c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_SaltLength();
 
-  /// @brief Method get_TrailerField, addr 0xf8ef84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TrailerField, addr 0xfb9e14, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_TrailerField();
 
-  /// @brief Method ToAsn1Object, addr 0xf8ef8c, size 0x278, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xfb9e1c, size 0x278, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "RsassaPssParameters", modifiers: "&&", def_value: None }]

@@ -18,7 +18,7 @@ MARK_VAL_T(::System::Runtime::CompilerServices::Ephemeron);
 namespace System::Runtime::CompilerServices {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3419))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3415))
 // CS Name: ::System.Runtime.CompilerServices::Ephemeron
 struct CORDL_TYPE Ephemeron {
 public:

@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::StyleMatchingContext::*)()>(
     &::UnityEngine::UIElements::StyleMatchingContext::get_styleSheetCount)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2dc1bb4;
+  constexpr static std::size_t addrs = 0x2ddff9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleMatchingContext*>::get(),
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleMatchingContext::*)(
     ::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::MatchResultInfo>*)>(&::UnityEngine::UIElements::StyleMatchingContext::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x2dc1bfc;
+  constexpr static std::size_t addrs = 0x2ddffe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleMatchingContext::*)(::UnityEngine::UIElements::StyleSheet*)>(
     &::UnityEngine::UIElements::StyleMatchingContext::AddStyleSheet)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x2dc1cc0;
+  constexpr static std::size_t addrs = 0x2de00a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleMatchingContext::*)(int32_t, int32_t)>(
     &::UnityEngine::UIElements::StyleMatchingContext::RemoveStyleSheetRange)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2dc1dac;
+  constexpr static std::size_t addrs = 0x2de0194;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UIElements::StyleSheet> (::UnityEngine::UIElements::StyleMatchingContext::*)(int32_t)>(
     &::UnityEngine::UIElements::StyleMatchingContext::GetStyleSheetAt)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2dc1e14;
+  constexpr static std::size_t addrs = 0x2de01fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

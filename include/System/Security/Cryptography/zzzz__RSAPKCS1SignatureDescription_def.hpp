@@ -32,7 +32,7 @@ public:
 
   static inline ::System::Security::Cryptography::RSAPKCS1SignatureDescription* New_ctor(::StringW hashAlgorithm, ::StringW digestAlgorithm);
 
-  /// @brief Method .ctor, addr 0x246a060, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x248c0d4, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::StringW hashAlgorithm, ::StringW digestAlgorithm);
 
   // Ctor Parameters [CppParam { name: "", ty: "RSAPKCS1SignatureDescription", modifiers: "&&", def_value: None }]

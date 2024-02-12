@@ -29,17 +29,17 @@ public:
   // Declarations
   static inline ::System::PlatformNotSupportedException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25bf9b8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25e18d0, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::PlatformNotSupportedException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x25bfa14, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25e192c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::System::PlatformNotSupportedException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x25bfa38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25e1950, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "PlatformNotSupportedException", modifiers: "&&", def_value: None }]

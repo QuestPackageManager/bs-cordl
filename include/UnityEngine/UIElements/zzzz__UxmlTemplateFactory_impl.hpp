@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::UxmlTemplateFactory::*)()>(
     &::UnityEngine::UIElements::UxmlTemplateFactory::get_uxmlName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2e0e300;
+  constexpr static std::size_t addrs = 0x2e2b6e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::UxmlTemplateFactory::*)()>(
     &::UnityEngine::UIElements::UxmlTemplateFactory::get_uxmlQualifiedName)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x2e0e340;
+  constexpr static std::size_t addrs = 0x2e2b728;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -45,7 +45,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::UxmlTemplateFactory::*)(::UnityEngine::UIElements::IUxmlAttributes*, ::UnityEngine::UIElements::CreationContext)>(
         &::UnityEngine::UIElements::UxmlTemplateFactory::Create)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2e0e3b4;
+  constexpr static std::size_t addrs = 0x2e2b79c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UxmlTemplateFactory::*)()>(&::UnityEngine::UIElements::UxmlTemplateFactory::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2e0e3bc;
+  constexpr static std::size_t addrs = 0x2e2b7a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UxmlTemplateFactory*>::get(), ".ctor",

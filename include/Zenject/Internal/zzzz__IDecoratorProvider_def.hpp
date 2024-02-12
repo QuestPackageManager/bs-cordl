@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::Zenject::Internal::IDecoratorProvider);
 namespace Zenject::Internal {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11369))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10511))
 // CS Name: ::Zenject.Internal::IDecoratorProvider*
 class CORDL_TYPE IDecoratorProvider {
 public:

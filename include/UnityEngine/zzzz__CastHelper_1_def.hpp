@@ -19,7 +19,7 @@ namespace UnityEngine {
 template <typename T>
 // Is value type: true
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10205))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8949))
 // CS Name: ::UnityEngine::CastHelper`1<T>
 struct CORDL_TYPE CastHelper_1 {
 public:

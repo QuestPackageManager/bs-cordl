@@ -50,41 +50,41 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::__SkeinParameters__Builder* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf3a818, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf656a8, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::__SkeinParameters__Builder* New_ctor(::System::Collections::IDictionary* paramsMap);
 
-  /// @brief Method .ctor, addr 0xf3a87c, size 0x380, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf6570c, size 0x380, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IDictionary* paramsMap);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::__SkeinParameters__Builder* New_ctor(::Org::BouncyCastle::Crypto::Parameters::SkeinParameters* parameters);
 
-  /// @brief Method .ctor, addr 0xf3abfc, size 0x390, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf65a8c, size 0x390, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::SkeinParameters* parameters);
 
-  /// @brief Method Set, addr 0xf3af8c, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0xf65e1c, size 0x178, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::__SkeinParameters__Builder* Set(int32_t type, ::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method SetKey, addr 0xf3b104, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetKey, addr 0xf65f94, size 0xc, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::__SkeinParameters__Builder* SetKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method SetPersonalisation, addr 0xf3b110, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetPersonalisation, addr 0xf65fa0, size 0xc, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::__SkeinParameters__Builder* SetPersonalisation(::ArrayW<uint8_t, ::Array<uint8_t>*> personalisation);
 
-  /// @brief Method SetPersonalisation, addr 0xf3b11c, size 0x2ec, virtual false, abstract: false, final false
+  /// @brief Method SetPersonalisation, addr 0xf65fac, size 0x2ec, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::__SkeinParameters__Builder* SetPersonalisation(::System::DateTime date, ::StringW emailAddress, ::StringW distinguisher);
 
-  /// @brief Method SetPublicKey, addr 0xf3b408, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetPublicKey, addr 0xf66298, size 0xc, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::__SkeinParameters__Builder* SetPublicKey(::ArrayW<uint8_t, ::Array<uint8_t>*> publicKey);
 
-  /// @brief Method SetKeyIdentifier, addr 0xf3b414, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetKeyIdentifier, addr 0xf662a4, size 0xc, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::__SkeinParameters__Builder* SetKeyIdentifier(::ArrayW<uint8_t, ::Array<uint8_t>*> keyIdentifier);
 
-  /// @brief Method SetNonce, addr 0xf3b420, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetNonce, addr 0xf662b0, size 0xc, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::__SkeinParameters__Builder* SetNonce(::ArrayW<uint8_t, ::Array<uint8_t>*> nonce);
 
-  /// @brief Method Build, addr 0xf3b42c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0xf662bc, size 0x68, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::SkeinParameters* Build();
 
   // Ctor Parameters [CppParam { name: "", ty: "__SkeinParameters__Builder", modifiers: "&&", def_value: None }]
@@ -141,30 +141,30 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::SkeinParameters* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf3a21c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf650ac, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::SkeinParameters* New_ctor(::System::Collections::IDictionary* parameters);
 
-  /// @brief Method .ctor, addr 0xf3a288, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf65118, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IDictionary* parameters);
 
-  /// @brief Method GetParameters, addr 0xf3a2b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetParameters, addr 0xf65140, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::IDictionary* GetParameters();
 
-  /// @brief Method GetKey, addr 0xf3a2b8, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method GetKey, addr 0xf65148, size 0x110, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetKey();
 
-  /// @brief Method GetPersonalisation, addr 0xf3a3c8, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetPersonalisation, addr 0xf65258, size 0x114, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetPersonalisation();
 
-  /// @brief Method GetPublicKey, addr 0xf3a4dc, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetPublicKey, addr 0xf6536c, size 0x114, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetPublicKey();
 
-  /// @brief Method GetKeyIdentifier, addr 0xf3a5f0, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetKeyIdentifier, addr 0xf65480, size 0x114, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetKeyIdentifier();
 
-  /// @brief Method GetNonce, addr 0xf3a704, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetNonce, addr 0xf65594, size 0x114, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetNonce();
 
   // Ctor Parameters [CppParam { name: "", ty: "SkeinParameters", modifiers: "&&", def_value: None }]

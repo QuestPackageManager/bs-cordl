@@ -25,17 +25,17 @@ MARK_REF_PTR_T(::UnityEngineInternal::Input::NativeUpdateCallback);
 namespace UnityEngineInternal::Input {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16107))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16218))
 // CS Name: ::UnityEngineInternal.Input::NativeUpdateCallback*
 class CORDL_TYPE NativeUpdateCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::UnityEngineInternal::Input::NativeUpdateCallback* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2d0fc80, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d1b56c, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x2d0fd44, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2d1b630, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngineInternal::Input::NativeInputUpdateType updateType, ::cordl_internals::Ptr<::UnityEngineInternal::Input::NativeInputEventBuffer> buffer);
 
   // Ctor Parameters [CppParam { name: "", ty: "NativeUpdateCallback", modifiers: "&&", def_value: None }]

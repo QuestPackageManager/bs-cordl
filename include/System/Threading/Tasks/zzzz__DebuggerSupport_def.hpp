@@ -58,35 +58,35 @@ public:
 
   static inline ::System::Object* getStaticF_s_activeTasksLock();
 
-  /// @brief Method get_LoggingOn, addr 0x26222a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LoggingOn, addr 0x26483cc, size 0x8, virtual false, abstract: false, final false
   static inline bool get_LoggingOn();
 
-  /// @brief Method TraceOperationCreation, addr 0x26222b0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method TraceOperationCreation, addr 0x26483d4, size 0x4, virtual false, abstract: false, final false
   static inline void TraceOperationCreation(::System::Threading::Tasks::CausalityTraceLevel traceLevel, ::System::Threading::Tasks::Task* task, ::StringW operationName, uint64_t relatedContext);
 
-  /// @brief Method TraceOperationCompletion, addr 0x26222b4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method TraceOperationCompletion, addr 0x26483d8, size 0x4, virtual false, abstract: false, final false
   static inline void TraceOperationCompletion(::System::Threading::Tasks::CausalityTraceLevel traceLevel, ::System::Threading::Tasks::Task* task, ::Internal::Runtime::Augments::AsyncStatus status);
 
-  /// @brief Method TraceOperationRelation, addr 0x26222b8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method TraceOperationRelation, addr 0x26483dc, size 0x4, virtual false, abstract: false, final false
   static inline void TraceOperationRelation(::System::Threading::Tasks::CausalityTraceLevel traceLevel, ::System::Threading::Tasks::Task* task, ::System::Threading::Tasks::CausalityRelation relation);
 
-  /// @brief Method TraceSynchronousWorkStart, addr 0x26222bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method TraceSynchronousWorkStart, addr 0x26483e0, size 0x4, virtual false, abstract: false, final false
   static inline void TraceSynchronousWorkStart(::System::Threading::Tasks::CausalityTraceLevel traceLevel, ::System::Threading::Tasks::Task* task,
                                                ::System::Threading::Tasks::CausalitySynchronousWork work);
 
-  /// @brief Method TraceSynchronousWorkCompletion, addr 0x26222c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method TraceSynchronousWorkCompletion, addr 0x26483e4, size 0x4, virtual false, abstract: false, final false
   static inline void TraceSynchronousWorkCompletion(::System::Threading::Tasks::CausalityTraceLevel traceLevel, ::System::Threading::Tasks::CausalitySynchronousWork work);
 
-  /// @brief Method AddToActiveTasks, addr 0x26222c4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method AddToActiveTasks, addr 0x26483e8, size 0x94, virtual false, abstract: false, final false
   static inline void AddToActiveTasks(::System::Threading::Tasks::Task* task);
 
-  /// @brief Method AddToActiveTasksNonInlined, addr 0x2622358, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method AddToActiveTasksNonInlined, addr 0x264847c, size 0x15c, virtual false, abstract: false, final false
   static inline void AddToActiveTasksNonInlined(::System::Threading::Tasks::Task* task);
 
-  /// @brief Method RemoveFromActiveTasks, addr 0x2622544, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method RemoveFromActiveTasks, addr 0x2648668, size 0x94, virtual false, abstract: false, final false
   static inline void RemoveFromActiveTasks(::System::Threading::Tasks::Task* task);
 
-  /// @brief Method RemoveFromActiveTasksNonInlined, addr 0x26225d8, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method RemoveFromActiveTasksNonInlined, addr 0x26486fc, size 0x15c, virtual false, abstract: false, final false
   static inline void RemoveFromActiveTasksNonInlined(::System::Threading::Tasks::Task* task);
 
   // Ctor Parameters [CppParam { name: "", ty: "DebuggerSupport", modifiers: "&&", def_value: None }]

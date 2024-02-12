@@ -35,7 +35,7 @@ MARK_VAL_T(::UnityEngine::UIElements::Length);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7312))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6571))
 // CS Name: ::Length::Unit
 struct CORDL_TYPE __Length__Unit {
 public:
@@ -92,8 +92,8 @@ static_assert(offsetof(::UnityEngine::UIElements::__Length__Unit, value__) == 0x
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7312))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7313))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6571))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6572))
 // CS Name: ::UnityEngine.UIElements::Length
 struct CORDL_TYPE Length {
 public:
@@ -110,61 +110,61 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::Length>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::Length>* i___System__IEquatable_1___UnityEngine__UIElements__Length_();
 
-  /// @brief Method Percent, addr 0x2e7534c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Percent, addr 0x2e8f734, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Length Percent(float_t value);
 
-  /// @brief Method Auto, addr 0x2e710cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Auto, addr 0x2e8b4b4, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Length Auto();
 
-  /// @brief Method None, addr 0x2e710d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method None, addr 0x2e8b4bc, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Length None();
 
-  /// @brief Method get_value, addr 0x2e7539c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x2e8f784, size 0x8, virtual false, abstract: false, final false
   inline float_t get_value();
 
-  /// @brief Method set_value, addr 0x2e753a4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_value, addr 0x2e8f78c, size 0x24, virtual false, abstract: false, final false
   inline void set_value(float_t value);
 
-  /// @brief Method get_unit, addr 0x2e753c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_unit, addr 0x2e8f7b0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::LengthUnit get_unit();
 
-  /// @brief Method set_unit, addr 0x2e753d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_unit, addr 0x2e8f7b8, size 0x8, virtual false, abstract: false, final false
   inline void set_unit(::UnityEngine::UIElements::LengthUnit value);
 
-  /// @brief Method IsAuto, addr 0x2e70c00, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsAuto, addr 0x2e8afe8, size 0x10, virtual false, abstract: false, final false
   inline bool IsAuto();
 
-  /// @brief Method IsNone, addr 0x2e70c10, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsNone, addr 0x2e8aff8, size 0x10, virtual false, abstract: false, final false
   inline bool IsNone();
 
-  /// @brief Method .ctor, addr 0x2e753d8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e8f7c0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(float_t value);
 
-  /// @brief Method .ctor, addr 0x2e70bac, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e8af94, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(float_t value, ::UnityEngine::UIElements::LengthUnit unit);
 
-  /// @brief Method .ctor, addr 0x2e75374, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e8f75c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(float_t value, ::UnityEngine::UIElements::__Length__Unit unit);
 
-  /// @brief Method op_Implicit, addr 0x2e75400, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2e8f7e8, size 0x24, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Length op_Implicit___UnityEngine__UIElements__Length(float_t value);
 
-  /// @brief Method op_Equality, addr 0x2e70c58, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x2e8b040, size 0x28, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::Length lhs, ::UnityEngine::UIElements::Length rhs);
 
-  /// @brief Method op_Inequality, addr 0x2e75424, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x2e8f80c, size 0x28, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::UIElements::Length lhs, ::UnityEngine::UIElements::Length rhs);
 
-  /// @brief Method Equals, addr 0x2e7544c, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2e8f834, size 0x28, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::Length other);
 
-  /// @brief Method Equals, addr 0x2e75474, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2e8f85c, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2e70dc8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2e8b1b0, size 0x28, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x2e71878, size 0x1c0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2e8bc60, size 0x1c0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "m_Value", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Unit", ty: "::UnityEngine::UIElements::__Length__Unit", modifiers: "", def_value:

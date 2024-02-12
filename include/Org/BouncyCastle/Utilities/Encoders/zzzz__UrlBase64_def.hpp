@@ -36,27 +36,27 @@ public:
 
   static inline ::Org::BouncyCastle::Utilities::Encoders::IEncoder* getStaticF_encoder();
 
-  /// @brief Method Encode, addr 0x115eda8, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x118cc38, size 0x22c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method Encode, addr 0x115efd4, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x118ce64, size 0xf0, virtual false, abstract: false, final false
   static inline int32_t Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::System::IO::Stream* outStr);
 
-  /// @brief Method Decode, addr 0x115f0c4, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x118cf54, size 0x230, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method Decode, addr 0x115f2f4, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x118d184, size 0xf4, virtual false, abstract: false, final false
   static inline int32_t Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::System::IO::Stream* outStr);
 
-  /// @brief Method Decode, addr 0x115f3e8, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x118d278, size 0x210, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Decode(::StringW data);
 
-  /// @brief Method Decode, addr 0x115f5f8, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x118d488, size 0xe4, virtual false, abstract: false, final false
   static inline int32_t Decode(::StringW data, ::System::IO::Stream* outStr);
 
   static inline ::Org::BouncyCastle::Utilities::Encoders::UrlBase64* New_ctor();
 
-  /// @brief Method .ctor, addr 0x115f7c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x118d654, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "UrlBase64", modifiers: "&&", def_value: None }]

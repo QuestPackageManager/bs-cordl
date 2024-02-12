@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::HandPoser);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12617))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12616))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12515))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12514))
 // CS Name: ::RootMotion.FinalIK::HandPoser*
 class CORDL_TYPE HandPoser : public ::RootMotion::FinalIK::Poser {
 public:
@@ -78,24 +78,24 @@ public:
 
   constexpr void __cordl_internal_set_defaultLocalRotations(::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> value);
 
-  /// @brief Method AutoMapping, addr 0x128cdf4, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method AutoMapping, addr 0x1324ea4, size 0xbc, virtual true, abstract: false, final false
   inline void AutoMapping();
 
-  /// @brief Method InitiatePoser, addr 0x128ceb0, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method InitiatePoser, addr 0x1324f60, size 0x54, virtual true, abstract: false, final false
   inline void InitiatePoser();
 
-  /// @brief Method FixPoserTransforms, addr 0x128d054, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method FixPoserTransforms, addr 0x1325104, size 0xe8, virtual true, abstract: false, final false
   inline void FixPoserTransforms();
 
-  /// @brief Method UpdatePoser, addr 0x128d13c, size 0x330, virtual true, abstract: false, final false
+  /// @brief Method UpdatePoser, addr 0x13251ec, size 0x330, virtual true, abstract: false, final false
   inline void UpdatePoser();
 
-  /// @brief Method StoreDefaultState, addr 0x128cf04, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method StoreDefaultState, addr 0x1324fb4, size 0x150, virtual false, abstract: false, final false
   inline void StoreDefaultState();
 
   static inline ::RootMotion::FinalIK::HandPoser* New_ctor();
 
-  /// @brief Method .ctor, addr 0x128d46c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x132551c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HandPoser", modifiers: "&&", def_value: None }]

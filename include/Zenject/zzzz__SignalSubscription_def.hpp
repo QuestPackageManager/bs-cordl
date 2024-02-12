@@ -47,8 +47,8 @@ MARK_REF_PTR_T(::Zenject::__SignalSubscription__Pool);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11158))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10661))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10300))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9803))
 // CS Name: ::Zenject::SignalSubscription*
 class CORDL_TYPE SignalSubscription : public ::System::Object {
 public:
@@ -108,34 +108,34 @@ public:
 
   static inline ::Zenject::SignalSubscription* New_ctor(::Zenject::__SignalSubscription__Pool* pool);
 
-  /// @brief Method .ctor, addr 0x2ec3b8c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2edfcd4, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::__SignalSubscription__Pool* pool);
 
-  /// @brief Method get_SignalId, addr 0x2ec3bd0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_SignalId, addr 0x2edfd18, size 0xc, virtual false, abstract: false, final false
   inline ::Zenject::BindingId get_SignalId();
 
-  /// @brief Method OnSpawned, addr 0x2ec3bdc, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method OnSpawned, addr 0x2edfd24, size 0x44, virtual true, abstract: false, final true
   inline void OnSpawned(::System::Action_1<::System::Object*>* callback, ::Zenject::SignalDeclaration* declaration);
 
-  /// @brief Method OnDespawned, addr 0x2ec3c20, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method OnDespawned, addr 0x2edfd68, size 0x2c, virtual true, abstract: false, final true
   inline void OnDespawned();
 
-  /// @brief Method SetDefaults, addr 0x2ec3bc0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetDefaults, addr 0x2edfd08, size 0x10, virtual false, abstract: false, final false
   inline void SetDefaults();
 
-  /// @brief Method Dispose, addr 0x2ec3c4c, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2edfd94, size 0x9c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method OnDeclarationDespawned, addr 0x2ec2b74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OnDeclarationDespawned, addr 0x2edecbc, size 0x8, virtual false, abstract: false, final false
   inline void OnDeclarationDespawned();
 
-  /// @brief Method Invoke, addr 0x2ec3094, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2edf1dc, size 0x24, virtual false, abstract: false, final false
   inline void Invoke(::System::Object* signal);
 
-  /// @brief Method __zenCreate, addr 0x2ec3ce8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2edfe30, size 0xd4, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ec3dbc, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2edff04, size 0x274, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "SignalSubscription", modifiers: "&&", def_value: None }]
@@ -182,21 +182,21 @@ static_assert(offsetof(::Zenject::SignalSubscription, ____signalId) == 0x28, "Of
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2323)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10659)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10661)), TypeDefinitionIndex(TypeDefinitionIndex(11067)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2323), inst: 2 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11067), inst: 3502 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(10660)) CS Name: ::SignalSubscription::Pool*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2323)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9801)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9803)), TypeDefinitionIndex(TypeDefinitionIndex(10209)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2323), inst: 71 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10209), inst: 3473 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(9802)) CS Name: ::SignalSubscription::Pool*
 class CORDL_TYPE __SignalSubscription__Pool : public ::Zenject::PoolableMemoryPool_3<::System::Action_1<::System::Object*>*, ::Zenject::SignalDeclaration*, ::Zenject::SignalSubscription*> {
 public:
   // Declarations
   static inline ::Zenject::__SignalSubscription__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ec4030, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ee0178, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method __zenCreate, addr 0x2ec4078, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2ee01c0, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ec40d0, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ee0218, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__SignalSubscription__Pool", modifiers: "&&", def_value: None }]

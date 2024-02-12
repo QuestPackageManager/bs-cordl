@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::Oculus::Platform::AdvancedAbuseReportOptions);
 namespace Oculus::Platform {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13226))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13121))
 // CS Name: ::Oculus.Platform::AdvancedAbuseReportOptions*
 class CORDL_TYPE AdvancedAbuseReportOptions : public ::System::Object {
 public:
@@ -40,34 +40,34 @@ public:
 
   static inline ::Oculus::Platform::AdvancedAbuseReportOptions* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26cdb90, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ec5e0, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method SetDeveloperDefinedContext, addr 0x26cdc5c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method SetDeveloperDefinedContext, addr 0x26ec6ac, size 0x70, virtual false, abstract: false, final false
   inline void SetDeveloperDefinedContext(::StringW key, ::StringW value);
 
-  /// @brief Method ClearDeveloperDefinedContext, addr 0x26cdd8c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ClearDeveloperDefinedContext, addr 0x26ec7dc, size 0x58, virtual false, abstract: false, final false
   inline void ClearDeveloperDefinedContext();
 
-  /// @brief Method SetObjectType, addr 0x26cde60, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetObjectType, addr 0x26ec8b0, size 0x68, virtual false, abstract: false, final false
   inline void SetObjectType(::StringW value);
 
-  /// @brief Method SetReportType, addr 0x26cdf68, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetReportType, addr 0x26ec9b8, size 0x68, virtual false, abstract: false, final false
   inline void SetReportType(::Oculus::Platform::AbuseReportType value);
 
-  /// @brief Method AddSuggestedUser, addr 0x26ce054, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method AddSuggestedUser, addr 0x26ecaa4, size 0x68, virtual false, abstract: false, final false
   inline void AddSuggestedUser(uint64_t userID);
 
-  /// @brief Method ClearSuggestedUsers, addr 0x26ce140, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ClearSuggestedUsers, addr 0x26ecb90, size 0x58, virtual false, abstract: false, final false
   inline void ClearSuggestedUsers();
 
-  /// @brief Method SetVideoMode, addr 0x26ce214, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetVideoMode, addr 0x26ecc64, size 0x68, virtual false, abstract: false, final false
   inline void SetVideoMode(::Oculus::Platform::AbuseReportVideoMode value);
 
-  /// @brief Method op_Explicit, addr 0x26ce300, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x26ecd50, size 0x58, virtual false, abstract: false, final false
   static inline void* op_Explicit_void_(::Oculus::Platform::AdvancedAbuseReportOptions* options);
 
-  /// @brief Method Finalize, addr 0x26ce358, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x26ecda8, size 0xd4, virtual true, abstract: false, final false
   inline void Finalize();
 
   // Ctor Parameters [CppParam { name: "", ty: "AdvancedAbuseReportOptions", modifiers: "&&", def_value: None }]

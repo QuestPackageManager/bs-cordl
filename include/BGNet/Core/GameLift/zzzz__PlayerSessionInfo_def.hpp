@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::BGNet::Core::GameLift::PlayerSessionInfo);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BGNet::Core::GameLift {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12686)), TypeDefinitionIndex(TypeDefinitionIndex(12758))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13013))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12584)), TypeDefinitionIndex(TypeDefinitionIndex(12656))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12911))
 // CS Name: ::BGNet.Core.GameLift::PlayerSessionInfo*
 class CORDL_TYPE PlayerSessionInfo : public ::System::Object {
 public:
@@ -100,7 +100,7 @@ public:
 
   static inline ::BGNet::Core::GameLift::PlayerSessionInfo* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe60edc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe8bd6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PlayerSessionInfo", modifiers: "&&", def_value: None }]

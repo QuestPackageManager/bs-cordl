@@ -21,21 +21,21 @@ MARK_REF_PTR_T(::System::IriHelper);
 namespace System {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8869))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6879))
 // CS Name: ::System::IriHelper*
 class CORDL_TYPE IriHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CheckIriUnicodeRange, addr 0x2948378, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CheckIriUnicodeRange, addr 0x294ca74, size 0x58, virtual false, abstract: false, final false
   static inline bool CheckIriUnicodeRange(char16_t unicode, bool isQuery);
 
-  /// @brief Method CheckIriUnicodeRange, addr 0x29483d0, size 0x630, virtual false, abstract: false, final false
+  /// @brief Method CheckIriUnicodeRange, addr 0x294cacc, size 0x630, virtual false, abstract: false, final false
   static inline bool CheckIriUnicodeRange(char16_t highSurr, char16_t lowSurr, ByRef<bool> surrogatePair, bool isQuery);
 
-  /// @brief Method CheckIsReserved, addr 0x2948a00, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method CheckIsReserved, addr 0x294d0fc, size 0x144, virtual false, abstract: false, final false
   static inline bool CheckIsReserved(char16_t ch, ::System::UriComponents component);
 
-  /// @brief Method EscapeUnescapeIri, addr 0x2948b44, size 0x7fc, virtual false, abstract: false, final false
+  /// @brief Method EscapeUnescapeIri, addr 0x294d240, size 0x7fc, virtual false, abstract: false, final false
   static inline ::StringW EscapeUnescapeIri(::cordl_internals::Ptr<char16_t> pInput, int32_t start, int32_t end, ::System::UriComponents component);
 
   // Ctor Parameters [CppParam { name: "", ty: "IriHelper", modifiers: "&&", def_value: None }]

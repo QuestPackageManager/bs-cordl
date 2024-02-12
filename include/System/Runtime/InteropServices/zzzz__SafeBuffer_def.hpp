@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::System::Runtime::InteropServices::SafeBuffer);
 namespace System::Runtime::InteropServices {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2301)), TypeDefinitionIndex(TypeDefinitionIndex(2638))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3309))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3307))
 // CS Name: ::System.Runtime.InteropServices::SafeBuffer*
 class CORDL_TYPE SafeBuffer : public ::Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid {
 public:
@@ -42,13 +42,13 @@ public:
 
   static inline void* getStaticF_Uninitialized();
 
-  /// @brief Method AcquirePointer, addr 0x24d6c00, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method AcquirePointer, addr 0x24f7890, size 0x108, virtual false, abstract: false, final false
   inline void AcquirePointer(ByRef<::cordl_internals::Ptr<uint8_t>> pointer);
 
-  /// @brief Method ReleasePointer, addr 0x24d6e4c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method ReleasePointer, addr 0x24f7adc, size 0xdc, virtual false, abstract: false, final false
   inline void ReleasePointer();
 
-  /// @brief Method NotInitialized, addr 0x24d6d08, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method NotInitialized, addr 0x24f7998, size 0x74, virtual false, abstract: false, final false
   static inline ::System::InvalidOperationException* NotInitialized();
 
   // Ctor Parameters [CppParam { name: "", ty: "SafeBuffer", modifiers: "&&", def_value: None }]

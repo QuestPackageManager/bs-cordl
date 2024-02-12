@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::StartDragArgs);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6957))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6216))
 // CS Name: ::UnityEngine.UIElements::StartDragArgs*
 class CORDL_TYPE StartDragArgs : public ::System::Object {
 public:
@@ -74,12 +74,12 @@ public:
 
   constexpr void __cordl_internal_set__unityObjectReferences_k__BackingField(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Object>>* value);
 
-  /// @brief Method get_userData, addr 0x2e09984, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_userData, addr 0x2e26d6c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_userData();
 
   static inline ::UnityEngine::UIElements::StartDragArgs* New_ctor(::StringW title, ::System::Object* userData);
 
-  /// @brief Method .ctor, addr 0x2e098cc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e26cb4, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::StringW title, ::System::Object* userData);
 
   // Ctor Parameters [CppParam { name: "", ty: "StartDragArgs", modifiers: "&&", def_value: None }]

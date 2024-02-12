@@ -25,15 +25,15 @@ MARK_REF_PTR_T(::Mono::Unity::Debug);
 namespace Mono::Unity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8757))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6767))
 // CS Name: ::Mono.Unity::Debug*
 class CORDL_TYPE Debug : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CheckAndThrow, addr 0x2817a5c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method CheckAndThrow, addr 0x281c244, size 0xa0, virtual false, abstract: false, final false
   static inline void CheckAndThrow(::Mono::Unity::__UnityTls__unitytls_errorstate errorState, ::StringW context, ::Mono::Security::Interface::AlertDescription defaultAlert);
 
-  /// @brief Method CheckAndThrow, addr 0x2817afc, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method CheckAndThrow, addr 0x281c2e4, size 0xd8, virtual false, abstract: false, final false
   static inline void CheckAndThrow(::Mono::Unity::__UnityTls__unitytls_errorstate errorState, ::Mono::Unity::__UnityTls__unitytls_x509verify_result verifyResult, ::StringW context,
                                    ::Mono::Security::Interface::AlertDescription defaultAlert);
 

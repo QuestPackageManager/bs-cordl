@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::UnityEngine::IntegratedSubsystem);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15964))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16087))
 // CS Name: ::UnityEngine::IntegratedSubsystem*
 class CORDL_TYPE IntegratedSubsystem : public ::System::Object {
 public:
@@ -56,30 +56,30 @@ public:
 
   constexpr void __cordl_internal_set_m_SubsystemDescriptor(::UnityEngine::ISubsystemDescriptor* value);
 
-  /// @brief Method SetHandle, addr 0x2d1a2bc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetHandle, addr 0x2d3ad64, size 0x44, virtual false, abstract: false, final false
   inline void SetHandle(::UnityEngine::IntegratedSubsystem* subsystem);
 
-  /// @brief Method Start, addr 0x2d1a300, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method Start, addr 0x2d3ada8, size 0x3c, virtual true, abstract: false, final true
   inline void Start();
 
-  /// @brief Method Stop, addr 0x2d1a33c, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method Stop, addr 0x2d3ade4, size 0x3c, virtual true, abstract: false, final true
   inline void Stop();
 
-  /// @brief Method Destroy, addr 0x2d1a378, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method Destroy, addr 0x2d3ae20, size 0xb0, virtual true, abstract: false, final true
   inline void Destroy();
 
-  /// @brief Method get_running, addr 0x2d1a5e8, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method get_running, addr 0x2d3b090, size 0x54, virtual true, abstract: false, final true
   inline bool get_running();
 
-  /// @brief Method get_valid, addr 0x2d1a63c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_valid, addr 0x2d3b0e4, size 0x54, virtual false, abstract: false, final false
   inline bool get_valid();
 
-  /// @brief Method IsRunning, addr 0x2d1a690, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsRunning, addr 0x2d3b138, size 0x3c, virtual false, abstract: false, final false
   inline bool IsRunning();
 
   static inline ::UnityEngine::IntegratedSubsystem* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d1a6cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d3b174, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "IntegratedSubsystem", modifiers: "&&", def_value: None }]

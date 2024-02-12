@@ -19,24 +19,24 @@ MARK_REF_PTR_T(::LiteNetLib::InvalidPacketException);
 namespace LiteNetLib {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2344))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14160))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14173))
 // CS Name: ::LiteNetLib::InvalidPacketException*
 class CORDL_TYPE InvalidPacketException : public ::System::ArgumentException {
 public:
   // Declarations
   static inline ::LiteNetLib::InvalidPacketException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21fc330, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2291c18, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::LiteNetLib::InvalidPacketException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x21fc338, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2291c20, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::LiteNetLib::InvalidPacketException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x21fc340, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2291c28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
   // Ctor Parameters [CppParam { name: "", ty: "InvalidPacketException", modifiers: "&&", def_value: None }]

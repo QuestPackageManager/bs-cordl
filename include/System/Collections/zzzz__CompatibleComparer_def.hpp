@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::System::Collections::CompatibleComparer);
 namespace System::Collections {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3770))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3769))
 // CS Name: ::System.Collections::CompatibleComparer*
 class CORDL_TYPE CompatibleComparer : public ::System::Object {
 public:
@@ -63,22 +63,22 @@ public:
 
   static inline ::System::Collections::CompatibleComparer* New_ctor(::System::Collections::IHashCodeProvider* hashCodeProvider, ::System::Collections::IComparer* comparer);
 
-  /// @brief Method .ctor, addr 0x257da38, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25a0950, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IHashCodeProvider* hashCodeProvider, ::System::Collections::IComparer* comparer);
 
-  /// @brief Method get_HashCodeProvider, addr 0x257da64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HashCodeProvider, addr 0x25a097c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::IHashCodeProvider* get_HashCodeProvider();
 
-  /// @brief Method get_Comparer, addr 0x257da6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Comparer, addr 0x25a0984, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::IComparer* get_Comparer();
 
-  /// @brief Method Equals, addr 0x257da74, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x25a098c, size 0x18, virtual true, abstract: false, final true
   inline bool Equals(::System::Object* a, ::System::Object* b);
 
-  /// @brief Method Compare, addr 0x257da8c, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method Compare, addr 0x25a09a4, size 0x1c4, virtual false, abstract: false, final false
   inline int32_t Compare(::System::Object* a, ::System::Object* b);
 
-  /// @brief Method GetHashCode, addr 0x257dc50, size 0x10c, virtual true, abstract: false, final true
+  /// @brief Method GetHashCode, addr 0x25a0b68, size 0x10c, virtual true, abstract: false, final true
   inline int32_t GetHashCode(::System::Object* obj);
 
   // Ctor Parameters [CppParam { name: "", ty: "CompatibleComparer", modifiers: "&&", def_value: None }]

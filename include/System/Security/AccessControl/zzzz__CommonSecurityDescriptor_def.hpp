@@ -116,38 +116,38 @@ public:
                                                                                       ::System::Security::Principal::SecurityIdentifier* group, ::System::Security::AccessControl::SystemAcl* systemAcl,
                                                                                       ::System::Security::AccessControl::DiscretionaryAcl* discretionaryAcl);
 
-  /// @brief Method .ctor, addr 0x248300c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24a5080, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(bool isContainer, bool isDS, ::System::Security::AccessControl::ControlFlags flags, ::System::Security::Principal::SecurityIdentifier* owner,
                     ::System::Security::Principal::SecurityIdentifier* group, ::System::Security::AccessControl::SystemAcl* systemAcl,
                     ::System::Security::AccessControl::DiscretionaryAcl* discretionaryAcl);
 
-  /// @brief Method Init, addr 0x2483088, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x24a50fc, size 0x84, virtual false, abstract: false, final false
   inline void Init(bool isContainer, bool isDS, ::System::Security::AccessControl::ControlFlags flags, ::System::Security::Principal::SecurityIdentifier* owner,
                    ::System::Security::Principal::SecurityIdentifier* group, ::System::Security::AccessControl::SystemAcl* systemAcl,
                    ::System::Security::AccessControl::DiscretionaryAcl* discretionaryAcl);
 
-  /// @brief Method get_DiscretionaryAcl, addr 0x2483240, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DiscretionaryAcl, addr 0x24a52b4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::AccessControl::DiscretionaryAcl* get_DiscretionaryAcl();
 
-  /// @brief Method set_DiscretionaryAcl, addr 0x248313c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method set_DiscretionaryAcl, addr 0x24a51b0, size 0x104, virtual false, abstract: false, final false
   inline void set_DiscretionaryAcl(::System::Security::AccessControl::DiscretionaryAcl* value);
 
-  /// @brief Method set_Group, addr 0x2483378, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_Group, addr 0x24a53ec, size 0x8, virtual true, abstract: false, final false
   inline void set_Group(::System::Security::Principal::SecurityIdentifier* value);
 
-  /// @brief Method get_IsContainer, addr 0x2483380, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsContainer, addr 0x24a53f4, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsContainer();
 
-  /// @brief Method get_IsDS, addr 0x2483388, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDS, addr 0x24a53fc, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDS();
 
-  /// @brief Method set_Owner, addr 0x2483390, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_Owner, addr 0x24a5404, size 0x8, virtual true, abstract: false, final false
   inline void set_Owner(::System::Security::Principal::SecurityIdentifier* value);
 
-  /// @brief Method set_SystemAcl, addr 0x248310c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_SystemAcl, addr 0x24a5180, size 0x30, virtual false, abstract: false, final false
   inline void set_SystemAcl(::System::Security::AccessControl::SystemAcl* value);
 
-  /// @brief Method CheckAclConsistency, addr 0x24832b4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method CheckAclConsistency, addr 0x24a5328, size 0xc4, virtual false, abstract: false, final false
   inline void CheckAclConsistency(::System::Security::AccessControl::CommonAcl* acl);
 
   // Ctor Parameters [CppParam { name: "", ty: "CommonSecurityDescriptor", modifiers: "&&", def_value: None }]

@@ -28,7 +28,7 @@ public:
   // Declarations
   static inline ::System::Security::Cryptography::AsymmetricSignatureDeformatter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x245bff0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x247d064, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method SetKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

@@ -29,7 +29,7 @@ namespace UnityEngine::InputSystem::Utilities {
 template <typename TValue>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6689))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5948))
 // CS Name: ::UnityEngine.InputSystem.Utilities::Observer`1<TValue>*
 class CORDL_TYPE Observer_1 : public ::System::Object {
 public:

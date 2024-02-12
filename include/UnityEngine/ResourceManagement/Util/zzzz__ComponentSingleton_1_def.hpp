@@ -17,8 +17,8 @@ namespace UnityEngine::ResourceManagement::Util {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13966))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13979))
 // CS Name: ::UnityEngine.ResourceManagement.Util::ComponentSingleton`1<T>*
 class CORDL_TYPE ComponentSingleton_1 : public ::UnityEngine::MonoBehaviour {
 public:

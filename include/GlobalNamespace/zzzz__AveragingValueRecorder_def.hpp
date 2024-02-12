@@ -28,7 +28,7 @@ MARK_VAL_T(::GlobalNamespace::__AveragingValueRecorder__AverageValueData);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5838))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5131))
 // CS Name: ::AveragingValueRecorder::AverageValueData
 struct CORDL_TYPE __AveragingValueRecorder__AverageValueData {
 public:
@@ -37,19 +37,19 @@ public:
 
   __declspec(property(get = get_time, put = set_time)) float_t time;
 
-  /// @brief Method get_value, addr 0x22eecf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x231d1d4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_value();
 
-  /// @brief Method set_value, addr 0x22eed00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_value, addr 0x231d1dc, size 0x8, virtual false, abstract: false, final false
   inline void set_value(float_t value);
 
-  /// @brief Method get_time, addr 0x22eed08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_time, addr 0x231d1e4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_time();
 
-  /// @brief Method set_time, addr 0x22eed10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_time, addr 0x231d1ec, size 0x8, virtual false, abstract: false, final false
   inline void set_time(float_t value);
 
-  /// @brief Method .ctor, addr 0x22eecd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x231d1b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(float_t value, float_t time);
 
   // Ctor Parameters [CppParam { name: "_value_k__BackingField", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "_time_k__BackingField", ty: "float_t", modifiers: "", def_value:
@@ -84,7 +84,7 @@ static_assert(offsetof(::GlobalNamespace::__AveragingValueRecorder__AverageValue
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5839))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5132))
 // CS Name: ::AveragingValueRecorder*
 class CORDL_TYPE AveragingValueRecorder : public ::System::Object {
 public:
@@ -185,19 +185,19 @@ public:
 
   static inline ::GlobalNamespace::AveragingValueRecorder* New_ctor(float_t averageWindowDuration, float_t historyWindowDuration, float_t historyValuesPerSecond);
 
-  /// @brief Method .ctor, addr 0x22ee8c4, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x231cda0, size 0x154, virtual false, abstract: false, final false
   inline void _ctor(float_t averageWindowDuration, float_t historyWindowDuration, float_t historyValuesPerSecond);
 
-  /// @brief Method Update, addr 0x22eea18, size 0x2c0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x231cef4, size 0x2c0, virtual false, abstract: false, final false
   inline void Update(float_t value, float_t deltaTime);
 
-  /// @brief Method GetAverageValue, addr 0x22eece0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetAverageValue, addr 0x231d1bc, size 0x8, virtual false, abstract: false, final false
   inline float_t GetAverageValue();
 
-  /// @brief Method GetLastValue, addr 0x22eece8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetLastValue, addr 0x231d1c4, size 0x8, virtual false, abstract: false, final false
   inline float_t GetLastValue();
 
-  /// @brief Method GetHistoryValues, addr 0x22eecf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetHistoryValues, addr 0x231d1cc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Queue_1<float_t>* GetHistoryValues();
 
   // Ctor Parameters [CppParam { name: "", ty: "AveragingValueRecorder", modifiers: "&&", def_value: None }]

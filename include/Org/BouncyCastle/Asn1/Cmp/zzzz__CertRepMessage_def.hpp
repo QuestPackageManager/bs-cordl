@@ -56,26 +56,26 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::CertRepMessage* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xe6503c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe8fecc, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance, addr 0xe65134, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xe8ffc4, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::CertRepMessage* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::CertRepMessage* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*, ::Array<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*>*> caPubs,
                                                                          ::ArrayW<::Org::BouncyCastle::Asn1::Cmp::CertResponse*, ::Array<::Org::BouncyCastle::Asn1::Cmp::CertResponse*>*> response);
 
-  /// @brief Method .ctor, addr 0xe652bc, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe9014c, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*, ::Array<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*>*> caPubs,
                     ::ArrayW<::Org::BouncyCastle::Asn1::Cmp::CertResponse*, ::Array<::Org::BouncyCastle::Asn1::Cmp::CertResponse*>*> response);
 
-  /// @brief Method GetCAPubs, addr 0xe653b0, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method GetCAPubs, addr 0xe90240, size 0xfc, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*, ::Array<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*>*> GetCAPubs();
 
-  /// @brief Method GetResponse, addr 0xe654ac, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method GetResponse, addr 0xe9033c, size 0xf4, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Cmp::CertResponse*, ::Array<::Org::BouncyCastle::Asn1::Cmp::CertResponse*>*> GetResponse();
 
-  /// @brief Method ToAsn1Object, addr 0xe65728, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xe905b8, size 0xb8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "CertRepMessage", modifiers: "&&", def_value: None }]

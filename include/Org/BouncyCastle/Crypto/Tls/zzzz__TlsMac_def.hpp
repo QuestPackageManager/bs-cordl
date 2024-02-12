@@ -92,26 +92,26 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsMac* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::Org::BouncyCastle::Crypto::IDigest* digest,
                                                                    ::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t keyOff, int32_t keyLen);
 
-  /// @brief Method .ctor, addr 0xfae054, size 0x404, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfd9ee4, size 0x404, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::Org::BouncyCastle::Crypto::IDigest* digest, ::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t keyOff, int32_t keyLen);
 
-  /// @brief Method get_MacSecret, addr 0xfae504, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_MacSecret, addr 0xfda394, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_MacSecret();
 
-  /// @brief Method get_Size, addr 0xfae50c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Size, addr 0xfda39c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Size();
 
-  /// @brief Method CalculateMac, addr 0xfae514, size 0x2f4, virtual true, abstract: false, final false
+  /// @brief Method CalculateMac, addr 0xfda3a4, size 0x2f4, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CalculateMac(int64_t seqNo, uint8_t type, ::ArrayW<uint8_t, ::Array<uint8_t>*> message, int32_t offset, int32_t length);
 
-  /// @brief Method CalculateMacConstantTime, addr 0xfae9dc, size 0x284, virtual true, abstract: false, final false
+  /// @brief Method CalculateMacConstantTime, addr 0xfda86c, size 0x284, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CalculateMacConstantTime(int64_t seqNo, uint8_t type, ::ArrayW<uint8_t, ::Array<uint8_t>*> message, int32_t offset, int32_t length, int32_t fullLength,
                                                                        ::ArrayW<uint8_t, ::Array<uint8_t>*> dummyData);
 
-  /// @brief Method GetDigestBlockCount, addr 0xfaec60, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method GetDigestBlockCount, addr 0xfdaaf0, size 0x10, virtual true, abstract: false, final false
   inline int32_t GetDigestBlockCount(int32_t inputLength);
 
-  /// @brief Method Truncate, addr 0xfaec70, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Truncate, addr 0xfdab00, size 0x88, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Truncate(::ArrayW<uint8_t, ::Array<uint8_t>*> bs);
 
   // Ctor Parameters [CppParam { name: "", ty: "TlsMac", modifiers: "&&", def_value: None }]

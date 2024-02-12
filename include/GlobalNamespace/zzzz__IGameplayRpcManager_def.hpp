@@ -56,7 +56,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IGameplayRpcManager);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12786))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12684))
 // CS Name: ::IGameplayRpcManager*
 class CORDL_TYPE IGameplayRpcManager {
 public:

@@ -46,21 +46,21 @@ public:
 
   constexpr void __cordl_internal_set__logicalCallID(::StringW value);
 
-  /// @brief Method get_LogicalCallID, addr 0x24a757c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LogicalCallID, addr 0x24c95f0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_LogicalCallID();
 
-  /// @brief Method set_LogicalCallID, addr 0x24a7584, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LogicalCallID, addr 0x24c95f8, size 0x8, virtual false, abstract: false, final false
   inline void set_LogicalCallID(::StringW value);
 
-  /// @brief Method get_HasInfo, addr 0x24a7408, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HasInfo, addr 0x24c947c, size 0x10, virtual false, abstract: false, final false
   inline bool get_HasInfo();
 
-  /// @brief Method Clone, addr 0x24a7338, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Clone, addr 0x24c93ac, size 0x68, virtual true, abstract: false, final true
   inline ::System::Object* Clone();
 
   static inline ::System::Runtime::Remoting::Messaging::CallContextRemotingData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24a758c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24c9600, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CallContextRemotingData", modifiers: "&&", def_value: None }]

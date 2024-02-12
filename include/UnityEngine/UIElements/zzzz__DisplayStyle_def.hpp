@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::DisplayStyle);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6898))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6157))
 // CS Name: ::UnityEngine.UIElements::DisplayStyle
 struct CORDL_TYPE DisplayStyle {
 public:

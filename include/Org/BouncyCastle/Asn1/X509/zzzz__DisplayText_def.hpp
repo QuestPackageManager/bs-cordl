@@ -60,26 +60,26 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::DisplayText* New_ctor(int32_t type, ::StringW text);
 
-  /// @brief Method .ctor, addr 0x118b944, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11b97d4, size 0x16c, virtual false, abstract: false, final false
   inline void _ctor(int32_t type, ::StringW text);
 
   static inline ::Org::BouncyCastle::Asn1::X509::DisplayText* New_ctor(::StringW text);
 
-  /// @brief Method .ctor, addr 0x118bab0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11b9940, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::StringW text);
 
   static inline ::Org::BouncyCastle::Asn1::X509::DisplayText* New_ctor(::Org::BouncyCastle::Asn1::IAsn1String* contents);
 
-  /// @brief Method .ctor, addr 0x118bb54, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11b99e4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::IAsn1String* contents);
 
-  /// @brief Method GetInstance, addr 0x118bb7c, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x11b9a0c, size 0x180, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::DisplayText* GetInstance(::System::Object* obj);
 
-  /// @brief Method ToAsn1Object, addr 0x118bcfc, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x11b9b8c, size 0x78, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-  /// @brief Method GetString, addr 0x118bd74, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetString, addr 0x11b9c04, size 0xa0, virtual false, abstract: false, final false
   inline ::StringW GetString();
 
   // Ctor Parameters [CppParam { name: "", ty: "DisplayText", modifiers: "&&", def_value: None }]

@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::VRIKRootController);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12674))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8993))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12572))
 // CS Name: ::RootMotion.FinalIK::VRIKRootController*
 class CORDL_TYPE VRIKRootController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -81,30 +81,30 @@ public:
 
   constexpr void __cordl_internal_set_ik(::UnityW<::RootMotion::FinalIK::VRIK> value);
 
-  /// @brief Method get_pelvisTargetRight, addr 0x129d7ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_pelvisTargetRight, addr 0x133585c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_pelvisTargetRight();
 
-  /// @brief Method set_pelvisTargetRight, addr 0x129d7b8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_pelvisTargetRight, addr 0x1335868, size 0xc, virtual false, abstract: false, final false
   inline void set_pelvisTargetRight(::UnityEngine::Vector3 value);
 
-  /// @brief Method Awake, addr 0x129d7c4, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x1335874, size 0xf4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Calibrate, addr 0x129c490, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method Calibrate, addr 0x1334540, size 0x1c0, virtual false, abstract: false, final false
   inline void Calibrate();
 
-  /// @brief Method Calibrate, addr 0x129d2a0, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method Calibrate, addr 0x1335350, size 0x158, virtual false, abstract: false, final false
   inline void Calibrate(::RootMotion::FinalIK::__VRIKCalibrator__CalibrationData* data);
 
-  /// @brief Method OnPreUpdate, addr 0x129d8b8, size 0x3c8, virtual false, abstract: false, final false
+  /// @brief Method OnPreUpdate, addr 0x1335968, size 0x3c8, virtual false, abstract: false, final false
   inline void OnPreUpdate();
 
-  /// @brief Method OnDestroy, addr 0x129dc80, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x1335d30, size 0x10c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   static inline ::RootMotion::FinalIK::VRIKRootController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x129dd8c, size 0x1008, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1335e3c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "VRIKRootController", modifiers: "&&", def_value: None }]

@@ -71,34 +71,34 @@ public:
 
   static inline ::Mono::Xml::SecurityParser* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2412fa8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2432e08, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method LoadXml, addr 0x2413128, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method LoadXml, addr 0x2432f88, size 0x8c, virtual false, abstract: false, final false
   inline void LoadXml(::StringW xml);
 
-  /// @brief Method ToXml, addr 0x241337c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToXml, addr 0x24331dc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::SecurityElement* ToXml();
 
-  /// @brief Method OnStartParsing, addr 0x2413384, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method OnStartParsing, addr 0x24331e4, size 0x4, virtual true, abstract: false, final true
   inline void OnStartParsing(::Mono::Xml::SmallXmlParser* parser);
 
-  /// @brief Method OnProcessingInstruction, addr 0x2413388, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method OnProcessingInstruction, addr 0x24331e8, size 0x4, virtual true, abstract: false, final true
   inline void OnProcessingInstruction(::StringW name, ::StringW text);
 
-  /// @brief Method OnIgnorableWhitespace, addr 0x241338c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method OnIgnorableWhitespace, addr 0x24331ec, size 0x4, virtual true, abstract: false, final true
   inline void OnIgnorableWhitespace(::StringW s);
 
-  /// @brief Method OnStartElement, addr 0x2413390, size 0x27c, virtual true, abstract: false, final true
+  /// @brief Method OnStartElement, addr 0x24331f0, size 0x27c, virtual true, abstract: false, final true
   inline void OnStartElement(::StringW name, ::Mono::Xml::__SmallXmlParser__IAttrList* attrs);
 
-  /// @brief Method OnEndElement, addr 0x241360c, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method OnEndElement, addr 0x243346c, size 0x88, virtual true, abstract: false, final true
   inline void OnEndElement(::StringW name);
 
-  /// @brief Method OnChars, addr 0x2413694, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method OnChars, addr 0x24334f4, size 0x80, virtual true, abstract: false, final true
   inline void OnChars(::StringW ch);
 
-  /// @brief Method OnEndParsing, addr 0x2413714, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method OnEndParsing, addr 0x2433574, size 0x4, virtual true, abstract: false, final true
   inline void OnEndParsing(::Mono::Xml::SmallXmlParser* parser);
 
   // Ctor Parameters [CppParam { name: "", ty: "SecurityParser", modifiers: "&&", def_value: None }]

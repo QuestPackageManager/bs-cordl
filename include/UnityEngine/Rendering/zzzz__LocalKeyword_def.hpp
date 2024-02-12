@@ -26,8 +26,8 @@ MARK_VAL_T(::UnityEngine::Rendering::LocalKeyword);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10373))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10369))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9141))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9137))
 // CS Name: ::UnityEngine.Rendering::LocalKeyword
 struct CORDL_TYPE LocalKeyword {
 public:
@@ -38,16 +38,16 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::LocalKeyword>"
   constexpr ::System::IEquatable_1<::UnityEngine::Rendering::LocalKeyword>* i___System__IEquatable_1___UnityEngine__Rendering__LocalKeyword_();
 
-  /// @brief Method ToString, addr 0x2cef09c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2cfaccc, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method Equals, addr 0x2cef0a4, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2cfacd4, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method Equals, addr 0x2cef130, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2cfad60, size 0x48, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::LocalKeyword rhs);
 
-  /// @brief Method GetHashCode, addr 0x2cef180, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2cfadb0, size 0x50, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "m_SpaceInfo", ty: "::UnityEngine::Rendering::LocalKeywordSpace", modifiers: "", def_value: None }, CppParam { name: "m_Name", ty: "::StringW", modifiers: "",

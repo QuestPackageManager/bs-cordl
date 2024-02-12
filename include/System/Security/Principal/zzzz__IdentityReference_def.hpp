@@ -32,7 +32,7 @@ public:
 
   static inline ::System::Security::Principal::IdentityReference* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2476e24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2498e98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_Value, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -50,7 +50,7 @@ public:
   /// @brief Method Translate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Security::Principal::IdentityReference* Translate(::System::Type* targetType);
 
-  /// @brief Method op_Equality, addr 0x2476e2c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x2498ea0, size 0x68, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Security::Principal::IdentityReference* left, ::System::Security::Principal::IdentityReference* right);
 
   // Ctor Parameters [CppParam { name: "", ty: "IdentityReference", modifiers: "&&", def_value: None }]

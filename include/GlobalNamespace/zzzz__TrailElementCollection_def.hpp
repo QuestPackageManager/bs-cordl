@@ -33,7 +33,7 @@ MARK_VAL_T(::GlobalNamespace::__TrailElementCollection__InterpolationState);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4880))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4234))
 // CS Name: ::TrailElementCollection::InterpolationState
 struct CORDL_TYPE __TrailElementCollection__InterpolationState {
 public:
@@ -69,7 +69,7 @@ static_assert(offsetof(::GlobalNamespace::__TrailElementCollection__Interpolatio
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4881))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4235))
 // CS Name: ::TrailElementCollection*
 class CORDL_TYPE TrailElementCollection : public ::System::Object {
 public:
@@ -114,29 +114,29 @@ public:
 
   static inline ::GlobalNamespace::TrailElementCollection* New_ctor(int32_t capacity, ::UnityEngine::Vector3 defaultStartPosition, ::UnityEngine::Vector3 defaultEndPosition, float_t time);
 
-  /// @brief Method .ctor, addr 0x239ec30, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x235ed60, size 0x1b0, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity, ::UnityEngine::Vector3 defaultStartPosition, ::UnityEngine::Vector3 defaultEndPosition, float_t time);
 
-  /// @brief Method InitSnapshots, addr 0x239ef38, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method InitSnapshots, addr 0x235f068, size 0x90, virtual false, abstract: false, final false
   inline void InitSnapshots(::UnityEngine::Vector3 defaultStartPosition, ::UnityEngine::Vector3 defaultEndPosition, float_t time);
 
-  /// @brief Method SetHeadData, addr 0x239f3ac, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method SetHeadData, addr 0x235f4dc, size 0xb4, virtual false, abstract: false, final false
   inline void SetHeadData(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, float_t time);
 
-  /// @brief Method MoveTailToHead, addr 0x239f460, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method MoveTailToHead, addr 0x235f590, size 0x9c, virtual false, abstract: false, final false
   inline void MoveTailToHead();
 
-  /// @brief Method UpdateDistances, addr 0x239f4fc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method UpdateDistances, addr 0x235f62c, size 0x7c, virtual false, abstract: false, final false
   inline void UpdateDistances();
 
-  /// @brief Method Interpolate, addr 0x23a03c0, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method Interpolate, addr 0x23604f0, size 0x294, virtual false, abstract: false, final false
   inline void Interpolate(float_t t, ByRef<::GlobalNamespace::__TrailElementCollection__InterpolationState> lerpState, ByRef<::UnityEngine::Vector3> position, ByRef<::UnityEngine::Vector3> normal,
                           ByRef<float_t> time);
 
-  /// @brief Method UpdateLerpState, addr 0x23a0988, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method UpdateLerpState, addr 0x2360ab8, size 0x110, virtual false, abstract: false, final false
   inline void UpdateLerpState(float_t t, ByRef<::GlobalNamespace::__TrailElementCollection__InterpolationState> interpolationState);
 
-  /// @brief Method GetElement, addr 0x23a0a98, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetElement, addr 0x2360bc8, size 0x44, virtual false, abstract: false, final false
   inline ::GlobalNamespace::TrailElement* GetElement(int32_t index);
 
   // Ctor Parameters [CppParam { name: "", ty: "TrailElementCollection", modifiers: "&&", def_value: None }]

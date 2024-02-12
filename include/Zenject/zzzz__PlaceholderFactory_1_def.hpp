@@ -57,7 +57,7 @@ namespace Zenject {
 template <typename TValue>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11001))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10143))
 // CS Name: ::PlaceholderFactory`1::<get_ParamTypes>d__2<TValue>*
 class CORDL_TYPE __PlaceholderFactory_1___get_ParamTypes_d__2 : public ::System::Object {
 public:
@@ -188,8 +188,8 @@ namespace Zenject {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11026)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11026), inst: 3471 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11002))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10168)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10168), inst: 3442 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10144))
 // CS Name: ::Zenject::PlaceholderFactory`1<TValue>*
 class CORDL_TYPE PlaceholderFactory_1 : public ::Zenject::PlaceholderFactoryBase_1<TValue> {
 public:

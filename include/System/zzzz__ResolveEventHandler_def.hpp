@@ -32,10 +32,10 @@ public:
   // Declarations
   static inline ::System::ResolveEventHandler* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x25c03ac, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25e22c4, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x25c04dc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x25e23f4, size 0x14, virtual true, abstract: false, final false
   inline ::System::Reflection::Assembly* Invoke(::System::Object* sender, ::System::ResolveEventArgs* args);
 
   // Ctor Parameters [CppParam { name: "", ty: "ResolveEventHandler", modifiers: "&&", def_value: None }]

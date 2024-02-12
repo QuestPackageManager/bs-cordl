@@ -91,39 +91,39 @@ public:
 
   static inline ::ArrayW<int16_t, ::Array<int16_t>*> getStaticF_ftable();
 
-  /// @brief Method Init, addr 0xee76d0, size 0x304, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0xf12560, size 0x304, virtual true, abstract: false, final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method get_AlgorithmName, addr 0xee79d4, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0xf12864, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method get_IsPartialBlockOkay, addr 0xee7a14, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsPartialBlockOkay, addr 0xf128a4, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsPartialBlockOkay();
 
-  /// @brief Method GetBlockSize, addr 0xee7a1c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetBlockSize, addr 0xf128ac, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetBlockSize();
 
-  /// @brief Method ProcessBlock, addr 0xee7a24, size 0x134, virtual true, abstract: false, final false
+  /// @brief Method ProcessBlock, addr 0xf128b4, size 0x134, virtual true, abstract: false, final false
   inline int32_t ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset, addr 0xee7b58, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0xf129e8, size 0x4, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method G, addr 0xee7b5c, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method G, addr 0xf129ec, size 0x15c, virtual false, abstract: false, final false
   inline int32_t G(int32_t k, int32_t w);
 
-  /// @brief Method EncryptBlock, addr 0xee7cb8, size 0x24c, virtual true, abstract: false, final false
+  /// @brief Method EncryptBlock, addr 0xf12b48, size 0x24c, virtual true, abstract: false, final false
   inline int32_t EncryptBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
-  /// @brief Method H, addr 0xee7f04, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method H, addr 0xf12d94, size 0x15c, virtual false, abstract: false, final false
   inline int32_t H(int32_t k, int32_t w);
 
-  /// @brief Method DecryptBlock, addr 0xee8060, size 0x260, virtual true, abstract: false, final false
+  /// @brief Method DecryptBlock, addr 0xf12ef0, size 0x260, virtual true, abstract: false, final false
   inline int32_t DecryptBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::SkipjackEngine* New_ctor();
 
-  /// @brief Method .ctor, addr 0xee8354, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf131e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SkipjackEngine", modifiers: "&&", def_value: None }]

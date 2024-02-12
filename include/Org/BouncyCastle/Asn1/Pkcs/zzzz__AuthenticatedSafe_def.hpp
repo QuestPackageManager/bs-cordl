@@ -52,27 +52,27 @@ public:
 
   constexpr void __cordl_internal_set_isBer(bool value);
 
-  /// @brief Method Copy, addr 0xf859a4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Copy, addr 0xfb0834, size 0x78, virtual false, abstract: false, final false
   static inline ::ArrayW<::Org::BouncyCastle::Asn1::Pkcs::ContentInfo*, ::Array<::Org::BouncyCastle::Asn1::Pkcs::ContentInfo*>*>
   Copy(::ArrayW<::Org::BouncyCastle::Asn1::Pkcs::ContentInfo*, ::Array<::Org::BouncyCastle::Asn1::Pkcs::ContentInfo*>*> info);
 
-  /// @brief Method GetInstance, addr 0xf85a1c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xfb08ac, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::AuthenticatedSafe* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::AuthenticatedSafe* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xf85ac0, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfb0950, size 0x158, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::AuthenticatedSafe* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Pkcs::ContentInfo*, ::Array<::Org::BouncyCastle::Asn1::Pkcs::ContentInfo*>*> info);
 
-  /// @brief Method .ctor, addr 0xf85cbc, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfb0b4c, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Pkcs::ContentInfo*, ::Array<::Org::BouncyCastle::Asn1::Pkcs::ContentInfo*>*> info);
 
-  /// @brief Method GetContentInfo, addr 0xf85cf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetContentInfo, addr 0xfb0b84, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Pkcs::ContentInfo*, ::Array<::Org::BouncyCastle::Asn1::Pkcs::ContentInfo*>*> GetContentInfo();
 
-  /// @brief Method ToAsn1Object, addr 0xf85cfc, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xfb0b8c, size 0xa4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "AuthenticatedSafe", modifiers: "&&", def_value: None }]

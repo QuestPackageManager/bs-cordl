@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::UnityEngine::Collision2D);
 // SizeInfo { instance_size: 64, native_size: 48, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10243))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15932))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8987))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16055))
 // CS Name: ::UnityEngine::Collision2D*
 class CORDL_TYPE Collision2D : public ::System::Object {
 public:

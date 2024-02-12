@@ -57,22 +57,22 @@ public:
 
   static inline ::System::Text::DecoderReplacementFallbackBuffer* New_ctor(::System::Text::DecoderReplacementFallback* fallback);
 
-  /// @brief Method .ctor, addr 0x2632850, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2658974, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Text::DecoderReplacementFallback* fallback);
 
-  /// @brief Method Fallback, addr 0x2632948, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method Fallback, addr 0x2658a6c, size 0x44, virtual true, abstract: false, final false
   inline bool Fallback(::ArrayW<uint8_t, ::Array<uint8_t>*> bytesUnknown, int32_t index);
 
-  /// @brief Method GetNextChar, addr 0x263298c, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method GetNextChar, addr 0x2658ab0, size 0x50, virtual true, abstract: false, final false
   inline char16_t GetNextChar();
 
-  /// @brief Method get_Remaining, addr 0x26329dc, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_Remaining, addr 0x2658b00, size 0xc, virtual true, abstract: false, final false
   inline int32_t get_Remaining();
 
-  /// @brief Method Reset, addr 0x26329e8, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x2658b0c, size 0x10, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method InternalFallback, addr 0x26329f8, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method InternalFallback, addr 0x2658b1c, size 0x1c, virtual true, abstract: false, final false
   inline int32_t InternalFallback(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, ::cordl_internals::Ptr<uint8_t> pBytes);
 
   // Ctor Parameters [CppParam { name: "", ty: "DecoderReplacementFallbackBuffer", modifiers: "&&", def_value: None }]

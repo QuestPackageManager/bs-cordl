@@ -83,7 +83,7 @@ namespace System::Collections::Generic {
 template <typename T>
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14312))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14325))
 // CS Name: ::HashSet`1::ElementCount<T>
 struct CORDL_TYPE __HashSet_1__ElementCount {
 public:
@@ -115,7 +115,7 @@ namespace System::Collections::Generic {
 template <typename T>
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14313))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14326))
 // CS Name: ::HashSet`1::Slot<T>
 struct CORDL_TYPE __HashSet_1__Slot {
 public:
@@ -151,7 +151,7 @@ namespace System::Collections::Generic {
 template <typename T>
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14314))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14327))
 // CS Name: ::HashSet`1::Enumerator<T>
 struct CORDL_TYPE __HashSet_1__Enumerator {
 public:
@@ -230,7 +230,7 @@ namespace System::Collections::Generic {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14315))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14328))
 // CS Name: ::System.Collections.Generic::HashSet`1<T>*
 class CORDL_TYPE HashSet_1 : public ::System::Object {
 public:

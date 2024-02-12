@@ -42,7 +42,7 @@ namespace UnityEngine::InputSystem::Utilities {
 template <typename TSource, typename TResult>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6690))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5949))
 // CS Name: ::SelectManyObservable`2::Select<TSource,TResult>*
 class CORDL_TYPE __SelectManyObservable_2__Select : public ::System::Object {
 public:
@@ -117,7 +117,7 @@ namespace UnityEngine::InputSystem::Utilities {
 template <typename TSource, typename TResult>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6691))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5950))
 // CS Name: ::UnityEngine.InputSystem.Utilities::SelectManyObservable`2<TSource,TResult>*
 class CORDL_TYPE SelectManyObservable_2 : public ::System::Object {
 public:

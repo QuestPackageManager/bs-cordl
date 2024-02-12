@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorSignal);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(14394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14394), inst:
-// 293 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14391)) CS Name: ::ColorSignal*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8995)), TypeDefinitionIndex(TypeDefinitionIndex(14543)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14543), inst:
+// 293 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14540)) CS Name: ::ColorSignal*
 class CORDL_TYPE ColorSignal : public ::GlobalNamespace::GenericSignal_1<::UnityEngine::Color> {
 public:
   // Declarations
   static inline ::GlobalNamespace::ColorSignal* New_ctor();
 
-  /// @brief Method .ctor, addr 0x20f556c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2188f5c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ColorSignal", modifiers: "&&", def_value: None }]

@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__BeatmapEventDataLightsExtensions__LightSwitc
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14722))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15106))
 // CS Name: ::BeatmapEventDataLightsExtensions::LightSwitchEventEffectDataValues*
 class CORDL_TYPE __BeatmapEventDataLightsExtensions__LightSwitchEventEffectDataValues : public ::System::Object {
 public:
@@ -101,26 +101,26 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatmapEventD
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14723))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15107))
 // CS Name: ::BeatmapEventDataLightsExtensions*
 class CORDL_TYPE BeatmapEventDataLightsExtensions : public ::System::Object {
 public:
   // Declarations
   using LightSwitchEventEffectDataValues = ::GlobalNamespace::__BeatmapEventDataLightsExtensions__LightSwitchEventEffectDataValues;
 
-  /// @brief Method LightColorTypeFromEventDataValue, addr 0xdfdf2c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method LightColorTypeFromEventDataValue, addr 0xe0e3f0, size 0x18, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::EnvironmentColorType LightColorTypeFromEventDataValue(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
-  /// @brief Method GetLightColorTypeFromEventDataValue, addr 0xdfdf44, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetLightColorTypeFromEventDataValue, addr 0xe0e408, size 0x2c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::EnvironmentColorType GetLightColorTypeFromEventDataValue(int32_t beatmapEventValue);
 
-  /// @brief Method HasLightFadeEventDataValue, addr 0xdfdf70, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method HasLightFadeEventDataValue, addr 0xe0e434, size 0x34, virtual false, abstract: false, final false
   static inline bool HasLightFadeEventDataValue(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
-  /// @brief Method HasFixedDurationLightSwitchEventDataValue, addr 0xdfdfa4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method HasFixedDurationLightSwitchEventDataValue, addr 0xe0e468, size 0x4c, virtual false, abstract: false, final false
   static inline bool HasFixedDurationLightSwitchEventDataValue(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
-  /// @brief Method HasFixedDurationLightSwitchEventDataValue, addr 0xdfdff0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method HasFixedDurationLightSwitchEventDataValue, addr 0xe0e4b4, size 0x3c, virtual false, abstract: false, final false
   static inline bool HasFixedDurationLightSwitchEventDataValue(int32_t beatmapEventValue);
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapEventDataLightsExtensions", modifiers: "&&", def_value: None }]

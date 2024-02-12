@@ -26,25 +26,25 @@ namespace System::Threading {
 class CORDL_TYPE NativeEventCalls : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateEvent_internal, addr 0x261e2d0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CreateEvent_internal, addr 0x264444c, size 0x58, virtual false, abstract: false, final false
   static inline void* CreateEvent_internal(bool manual, bool initial, ::StringW name, ByRef<int32_t> errorCode);
 
-  /// @brief Method CreateEvent_icall, addr 0x261e328, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CreateEvent_icall, addr 0x26444a4, size 0xc, virtual false, abstract: false, final false
   static inline void* CreateEvent_icall(bool manual, bool initial, ::cordl_internals::Ptr<char16_t> name, int32_t name_length, ByRef<int32_t> errorCode);
 
-  /// @brief Method SetEvent, addr 0x261e334, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method SetEvent, addr 0x26444b0, size 0xe0, virtual false, abstract: false, final false
   static inline bool SetEvent(::Microsoft::Win32::SafeHandles::SafeWaitHandle* handle);
 
-  /// @brief Method SetEvent_internal, addr 0x261e414, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetEvent_internal, addr 0x2644590, size 0x4, virtual false, abstract: false, final false
   static inline bool SetEvent_internal(void* handle);
 
-  /// @brief Method ResetEvent, addr 0x261e418, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method ResetEvent, addr 0x2644594, size 0xe0, virtual false, abstract: false, final false
   static inline bool ResetEvent(::Microsoft::Win32::SafeHandles::SafeWaitHandle* handle);
 
-  /// @brief Method ResetEvent_internal, addr 0x261e4f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ResetEvent_internal, addr 0x2644674, size 0x4, virtual false, abstract: false, final false
   static inline bool ResetEvent_internal(void* handle);
 
-  /// @brief Method CloseEvent_internal, addr 0x261e4fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CloseEvent_internal, addr 0x2644678, size 0x4, virtual false, abstract: false, final false
   static inline void CloseEvent_internal(void* handle);
 
   // Ctor Parameters [CppParam { name: "", ty: "NativeEventCalls", modifiers: "&&", def_value: None }]

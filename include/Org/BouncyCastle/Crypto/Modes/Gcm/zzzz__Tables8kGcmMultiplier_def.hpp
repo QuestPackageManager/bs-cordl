@@ -57,15 +57,15 @@ public:
                                                  ::Array<::ArrayW<::ArrayW<uint32_t, ::Array<uint32_t>*>, ::Array<::ArrayW<uint32_t, ::Array<uint32_t>*>>*>>*>
                                             value);
 
-  /// @brief Method Init, addr 0xf142c4, size 0x85c, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0xf40154, size 0x85c, virtual true, abstract: false, final true
   inline void Init(::ArrayW<uint8_t, ::Array<uint8_t>*> H);
 
-  /// @brief Method MultiplyH, addr 0xf14b20, size 0x1e4, virtual true, abstract: false, final true
+  /// @brief Method MultiplyH, addr 0xf409b0, size 0x1e4, virtual true, abstract: false, final true
   inline void MultiplyH(::ArrayW<uint8_t, ::Array<uint8_t>*> x);
 
   static inline ::Org::BouncyCastle::Crypto::Modes::Gcm::Tables8kGcmMultiplier* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf14d04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf40b94, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Tables8kGcmMultiplier", modifiers: "&&", def_value: None }]

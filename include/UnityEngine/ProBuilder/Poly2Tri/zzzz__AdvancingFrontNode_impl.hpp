@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode::*)(
     ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x2b30cf4;
+  constexpr static std::size_t addrs = 0x2b2f860;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode::*)()>(
     &::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode::get_HasNext)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2b30d2c;
+  constexpr static std::size_t addrs = 0x2b2f898;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*>::get(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode::*)()>(
     &::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode::get_HasPrev)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2b30d3c;
+  constexpr static std::size_t addrs = 0x2b2f8a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*>::get(),

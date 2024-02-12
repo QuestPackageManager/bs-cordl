@@ -16,7 +16,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_GroupType);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9702))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9494))
 // CS Name: ::HoudiniEngineUnity::HAPI_GroupType
 struct CORDL_TYPE HAPI_GroupType {
 public:

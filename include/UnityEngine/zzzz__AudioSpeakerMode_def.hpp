@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::AudioSpeakerMode);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15585))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15291))
 // CS Name: ::UnityEngine::AudioSpeakerMode
 struct CORDL_TYPE AudioSpeakerMode {
 public:

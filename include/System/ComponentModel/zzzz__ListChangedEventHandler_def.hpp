@@ -22,17 +22,17 @@ MARK_REF_PTR_T(::System::ComponentModel::ListChangedEventHandler);
 namespace System::ComponentModel {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9440))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7450))
 // CS Name: ::System.ComponentModel::ListChangedEventHandler*
 class CORDL_TYPE ListChangedEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::System::ComponentModel::ListChangedEventHandler* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2911554, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2915bbc, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x2911684, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2915cec, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* sender, ::System::ComponentModel::ListChangedEventArgs* e);
 
   // Ctor Parameters [CppParam { name: "", ty: "ListChangedEventHandler", modifiers: "&&", def_value: None }]

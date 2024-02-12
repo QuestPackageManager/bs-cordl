@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::System::Net::HttpVersion);
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9028))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7038))
 // CS Name: ::System.Net::HttpVersion*
 class CORDL_TYPE HttpVersion : public ::System::Object {
 public:

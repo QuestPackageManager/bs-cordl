@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::GameplayModifierParamsSO);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 81, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4197))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15602))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10649))
 // CS Name: ::GameplayModifierParamsSO*
 class CORDL_TYPE GameplayModifierParamsSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -130,36 +130,36 @@ public:
 
   constexpr void __cordl_internal_set__isInBeta(bool value);
 
-  /// @brief Method get_modifierNameLocalizationKey, addr 0x2325b00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_modifierNameLocalizationKey, addr 0x1269a8c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_modifierNameLocalizationKey();
 
-  /// @brief Method get_descriptionLocalizationKey, addr 0x2325b08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_descriptionLocalizationKey, addr 0x1269a94, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_descriptionLocalizationKey();
 
-  /// @brief Method get_multiplier, addr 0x2325b10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_multiplier, addr 0x1269a9c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_multiplier();
 
-  /// @brief Method get_multiplierConditionallyValid, addr 0x2325b18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_multiplierConditionallyValid, addr 0x1269aa4, size 0x8, virtual false, abstract: false, final false
   inline bool get_multiplierConditionallyValid();
 
-  /// @brief Method get_icon, addr 0x2325b20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_icon, addr 0x1269aac, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_icon();
 
-  /// @brief Method get_mutuallyExclusives, addr 0x2325b28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mutuallyExclusives, addr 0x1269ab4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::Array<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*> get_mutuallyExclusives();
 
-  /// @brief Method get_requires, addr 0x2325b30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_requires, addr 0x1269abc, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::Array<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*> get_requires();
 
-  /// @brief Method get_requiredBy, addr 0x2325b38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_requiredBy, addr 0x1269ac4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::Array<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*> get_requiredBy();
 
-  /// @brief Method get_isInBeta, addr 0x2325b40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isInBeta, addr 0x1269acc, size 0x8, virtual false, abstract: false, final false
   inline bool get_isInBeta();
 
   static inline ::GlobalNamespace::GameplayModifierParamsSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2325b48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1269ad4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GameplayModifierParamsSO", modifiers: "&&", def_value: None }]

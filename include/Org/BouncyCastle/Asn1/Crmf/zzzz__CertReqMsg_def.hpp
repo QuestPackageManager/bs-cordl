@@ -75,33 +75,33 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::CertReqMsg* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xe84098, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeadf28, size 0x150, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance, addr 0xe83fec, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xeade7c, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Crmf::CertReqMsg* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetInstance, addr 0xe84414, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xeae2a4, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Crmf::CertReqMsg* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::CertReqMsg*
   New_ctor(::Org::BouncyCastle::Asn1::Crmf::CertRequest* certReq, ::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession* popo,
            ::ArrayW<::Org::BouncyCastle::Asn1::Crmf::AttributeTypeAndValue*, ::Array<::Org::BouncyCastle::Asn1::Crmf::AttributeTypeAndValue*>*> regInfo);
 
-  /// @brief Method .ctor, addr 0xe8442c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeae2bc, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Crmf::CertRequest* certReq, ::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession* popo,
                     ::ArrayW<::Org::BouncyCastle::Asn1::Crmf::AttributeTypeAndValue*, ::Array<::Org::BouncyCastle::Asn1::Crmf::AttributeTypeAndValue*>*> regInfo);
 
-  /// @brief Method get_CertReq, addr 0xe84508, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CertReq, addr 0xeae398, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::CertRequest* get_CertReq();
 
-  /// @brief Method get_Popo, addr 0xe84510, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Popo, addr 0xeae3a0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession* get_Popo();
 
-  /// @brief Method GetRegInfo, addr 0xe84518, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method GetRegInfo, addr 0xeae3a8, size 0xfc, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Crmf::AttributeTypeAndValue*, ::Array<::Org::BouncyCastle::Asn1::Crmf::AttributeTypeAndValue*>*> GetRegInfo();
 
-  /// @brief Method ToAsn1Object, addr 0xe84614, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xeae4a4, size 0x174, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "CertReqMsg", modifiers: "&&", def_value: None }]

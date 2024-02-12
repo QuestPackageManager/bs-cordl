@@ -19,12 +19,12 @@ MARK_REF_PTR_T(::System::Linq::Expressions::Strings);
 namespace System::Linq::Expressions {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14306))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14319))
 // CS Name: ::System.Linq.Expressions::Strings*
 class CORDL_TYPE Strings : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ExtensionNodeMustOverrideProperty, addr 0x2813d10, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method ExtensionNodeMustOverrideProperty, addr 0x28184f8, size 0x48, virtual false, abstract: false, final false
   static inline ::StringW ExtensionNodeMustOverrideProperty(::System::Object* p0);
 
   // Ctor Parameters [CppParam { name: "", ty: "Strings", modifiers: "&&", def_value: None }]

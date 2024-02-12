@@ -7,7 +7,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MockBeatmapProvider)
 namespace GlobalNamespace {
-class BeatmapIdentifierNetSerializable;
+class BeatmapKeyNetSerializable;
 }
 namespace GlobalNamespace {
 struct BeatmapLevelSelectionMask;
@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MockBeatmapProvider);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5177))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4516))
 // CS Name: ::MockBeatmapProvider*
 class CORDL_TYPE MockBeatmapProvider : public ::System::Object {
 public:
@@ -43,20 +43,20 @@ public:
   /// @brief Convert to "::GlobalNamespace::IServerBeatmapProvider"
   constexpr ::GlobalNamespace::IServerBeatmapProvider* i___GlobalNamespace__IServerBeatmapProvider() noexcept;
 
-  /// @brief Method VerifyBeatmapForSelectionMask, addr 0x23df858, size 0x8, virtual true, abstract: false, final true
-  inline bool VerifyBeatmapForSelectionMask(::GlobalNamespace::BeatmapIdentifierNetSerializable* beatmapId, ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask);
+  /// @brief Method VerifyBeatmapForSelectionMask, addr 0x239da74, size 0x8, virtual true, abstract: false, final true
+  inline bool VerifyBeatmapForSelectionMask(::GlobalNamespace::BeatmapKeyNetSerializable* beatmapKeySerializable, ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask);
 
-  /// @brief Method SelectBeatmapFromSuggestionsWithSelectionMaskAndOwnedSongPacks, addr 0x23df860, size 0x90, virtual true, abstract: false, final true
-  inline ::GlobalNamespace::BeatmapIdentifierNetSerializable* SelectBeatmapFromSuggestionsWithSelectionMaskAndOwnedSongPacks(
-      int32_t playerCount, ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::BeatmapIdentifierNetSerializable*>* suggestedBeatmaps,
+  /// @brief Method SelectBeatmapFromSuggestionsWithSelectionMaskAndOwnedSongPacks, addr 0x239da7c, size 0x90, virtual true, abstract: false, final true
+  inline ::GlobalNamespace::BeatmapKeyNetSerializable* SelectBeatmapFromSuggestionsWithSelectionMaskAndOwnedSongPacks(
+      int32_t playerCount, ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::BeatmapKeyNetSerializable*>* suggestedBeatmaps,
       ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::SongPackMask>* ownedSongPacks);
 
-  /// @brief Method Dispose, addr 0x23df8f0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x239db0c, size 0x4, virtual false, abstract: false, final false
   inline void Dispose();
 
   static inline ::GlobalNamespace::MockBeatmapProvider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23df8f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x239db10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MockBeatmapProvider", modifiers: "&&", def_value: None }]

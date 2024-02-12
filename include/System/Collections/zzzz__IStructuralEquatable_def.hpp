@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::System::Collections::IStructuralEquatable);
 namespace System::Collections {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3764))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3763))
 // CS Name: ::System.Collections::IStructuralEquatable*
 class CORDL_TYPE IStructuralEquatable {
 public:

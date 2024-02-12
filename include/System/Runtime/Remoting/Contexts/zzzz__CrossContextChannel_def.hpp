@@ -75,13 +75,13 @@ public:
   static inline ::System::Runtime::Remoting::Contexts::__CrossContextChannel__ContextRestoreSink*
   New_ctor(::System::Runtime::Remoting::Messaging::IMessageSink* next, ::System::Runtime::Remoting::Contexts::Context* context, ::System::Runtime::Remoting::Messaging::IMessage* call);
 
-  /// @brief Method .ctor, addr 0x249f73c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24c17b0, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::IMessageSink* next, ::System::Runtime::Remoting::Contexts::Context* context, ::System::Runtime::Remoting::Messaging::IMessage* call);
 
-  /// @brief Method SyncProcessMessage, addr 0x249f780, size 0x2c0, virtual true, abstract: false, final true
+  /// @brief Method SyncProcessMessage, addr 0x24c17f4, size 0x2c0, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
 
-  /// @brief Method AsyncProcessMessage, addr 0x249fa40, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method AsyncProcessMessage, addr 0x24c1ab4, size 0x40, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg,
                                                                                    ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
@@ -138,16 +138,16 @@ public:
   /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessageSink"
   constexpr ::System::Runtime::Remoting::Messaging::IMessageSink* i___System__Runtime__Remoting__Messaging__IMessageSink() noexcept;
 
-  /// @brief Method SyncProcessMessage, addr 0x249ef04, size 0x3ec, virtual true, abstract: false, final true
+  /// @brief Method SyncProcessMessage, addr 0x24c0f78, size 0x3ec, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
 
-  /// @brief Method AsyncProcessMessage, addr 0x249f2f0, size 0x44c, virtual true, abstract: false, final true
+  /// @brief Method AsyncProcessMessage, addr 0x24c1364, size 0x44c, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg,
                                                                                    ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
   static inline ::System::Runtime::Remoting::Contexts::CrossContextChannel* New_ctor();
 
-  /// @brief Method .ctor, addr 0x249f778, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24c17ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CrossContextChannel", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Reflection::CallingConventions);
 namespace System::Reflection {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3460))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3456))
 // CS Name: ::System.Reflection::CallingConventions
 struct CORDL_TYPE CallingConventions {
 public:

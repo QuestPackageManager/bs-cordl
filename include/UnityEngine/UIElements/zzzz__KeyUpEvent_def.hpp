@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::KeyUpEvent);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7240)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7240), inst: 3944 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7242))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6499)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6499), inst: 3923 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6501))
 // CS Name: ::UnityEngine.UIElements::KeyUpEvent*
 class CORDL_TYPE KeyUpEvent : public ::UnityEngine::UIElements::KeyboardEventBase_1<::UnityEngine::UIElements::KeyUpEvent*> {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::KeyUpEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e52c64, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e6e04c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "KeyUpEvent", modifiers: "&&", def_value: None }]

@@ -50,18 +50,18 @@ public:
 
   constexpr void __cordl_internal_set_stop(bool value);
 
-  /// @brief Method Run, addr 0xf44d88, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Run, addr 0xf6fc18, size 0x44, virtual false, abstract: false, final false
   inline void Run(::System::Object* ignored);
 
-  /// @brief Method GenerateSeed, addr 0xf44c78, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GenerateSeed, addr 0xf6fb08, size 0x108, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateSeed(int32_t numBytes, bool fast);
 
-  /// @brief Method DoGenerateSeed, addr 0xf44dcc, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method DoGenerateSeed, addr 0xf6fc5c, size 0x204, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DoGenerateSeed(int32_t numBytes, bool fast);
 
   static inline ::Org::BouncyCastle::Crypto::Prng::__ThreadedSeedGenerator__SeedGenerator* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf44c50, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf6fae0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ThreadedSeedGenerator__SeedGenerator", modifiers: "&&", def_value: None }]
@@ -106,12 +106,12 @@ public:
   // Declarations
   using SeedGenerator = ::Org::BouncyCastle::Crypto::Prng::__ThreadedSeedGenerator__SeedGenerator;
 
-  /// @brief Method GenerateSeed, addr 0xf44bc8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GenerateSeed, addr 0xf6fa58, size 0x88, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateSeed(int32_t numBytes, bool fast);
 
   static inline ::Org::BouncyCastle::Crypto::Prng::ThreadedSeedGenerator* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf44d80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf6fc10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ThreadedSeedGenerator", modifiers: "&&", def_value: None }]

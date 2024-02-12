@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Xml::EntityHandling);
 namespace System::Xml {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11415))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11313))
 // CS Name: ::System.Xml::EntityHandling
 struct CORDL_TYPE EntityHandling {
 public:

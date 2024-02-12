@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::TextCore::LowLevel::GlyphLoadFlags);
 namespace UnityEngine::TextCore::LowLevel {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15532))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15718))
 // CS Name: ::UnityEngine.TextCore.LowLevel::GlyphLoadFlags
 struct CORDL_TYPE GlyphLoadFlags {
 public:

@@ -28,8 +28,8 @@ MARK_VAL_T(::UnityEngine::Experimental::U2D::SpriteIntermediateRendererInfo);
 // SizeInfo { instance_size: 168, native_size: 168, calculated_instance_size: 168, calculated_native_size: 180, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Experimental::U2D {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(10164)), TypeDefinitionIndex(TypeDefinitionIndex(10245)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10251))] Self: TypeDefinitionIndex(TypeDefinitionIndex(10384)) CS Name: ::UnityEngine.Experimental.U2D::SpriteIntermediateRendererInfo
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(8908)), TypeDefinitionIndex(TypeDefinitionIndex(8989)),
+// TypeDefinitionIndex(TypeDefinitionIndex(8995))] Self: TypeDefinitionIndex(TypeDefinitionIndex(9152)) CS Name: ::UnityEngine.Experimental.U2D::SpriteIntermediateRendererInfo
 struct CORDL_TYPE SpriteIntermediateRendererInfo {
 public:
   // Declarations

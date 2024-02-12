@@ -33,8 +33,8 @@ MARK_REF_PTR_T(::GlobalNamespace::NoteMissInfoNetSerializable);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14752)), TypeDefinitionIndex(TypeDefinitionIndex(14760)), TypeDefinitionIndex(TypeDefinitionIndex(15033))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15027))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14906)), TypeDefinitionIndex(TypeDefinitionIndex(15136)), TypeDefinitionIndex(TypeDefinitionIndex(15144))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14900))
 // CS Name: ::NoteMissInfoNetSerializable*
 class CORDL_TYPE NoteMissInfoNetSerializable : public ::GlobalNamespace::PoolableSerializable {
 public:
@@ -84,48 +84,48 @@ public:
 
   constexpr void __cordl_internal_set__noteLineLayer_k__BackingField(::GlobalNamespace::NoteLineLayer value);
 
-  /// @brief Method get_colorType, addr 0x12a4a38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorType, addr 0x133a910, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorType get_colorType();
 
-  /// @brief Method set_colorType, addr 0x12a4a40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_colorType, addr 0x133a918, size 0x8, virtual false, abstract: false, final false
   inline void set_colorType(::GlobalNamespace::ColorType value);
 
-  /// @brief Method get_noteTime, addr 0x12a4a48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_noteTime, addr 0x133a920, size 0x8, virtual false, abstract: false, final false
   inline float_t get_noteTime();
 
-  /// @brief Method set_noteTime, addr 0x12a4a50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_noteTime, addr 0x133a928, size 0x8, virtual false, abstract: false, final false
   inline void set_noteTime(float_t value);
 
-  /// @brief Method get_noteLineIndex, addr 0x12a4a58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_noteLineIndex, addr 0x133a930, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_noteLineIndex();
 
-  /// @brief Method set_noteLineIndex, addr 0x12a4a60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_noteLineIndex, addr 0x133a938, size 0x8, virtual false, abstract: false, final false
   inline void set_noteLineIndex(int32_t value);
 
-  /// @brief Method get_noteLineLayer, addr 0x12a4a68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_noteLineLayer, addr 0x133a940, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteLineLayer get_noteLineLayer();
 
-  /// @brief Method set_noteLineLayer, addr 0x12a4a70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_noteLineLayer, addr 0x133a948, size 0x8, virtual false, abstract: false, final false
   inline void set_noteLineLayer(::GlobalNamespace::NoteLineLayer value);
 
-  /// @brief Method Obtain, addr 0x12a4a78, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Obtain, addr 0x133a950, size 0x64, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::NoteMissInfoNetSerializable* Obtain();
 
-  /// @brief Method Deserialize, addr 0x12a4adc, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Deserialize, addr 0x133a9b4, size 0x7c, virtual true, abstract: false, final false
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Serialize, addr 0x12a4b58, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method Serialize, addr 0x133aa30, size 0x6c, virtual true, abstract: false, final false
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   static inline ::GlobalNamespace::NoteMissInfoNetSerializable* New_ctor();
 
-  /// @brief Method .ctor, addr 0x12a4bc4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x133aa9c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Init, addr 0x12a4c1c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x133aaf4, size 0x28, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteMissInfoNetSerializable* Init(::GlobalNamespace::NoteData* noteData);
 
-  /// @brief Method Init, addr 0x12a4c44, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x133ab1c, size 0x10, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteMissInfoNetSerializable* Init(::GlobalNamespace::ColorType colorType, ::GlobalNamespace::NoteLineLayer lineLayer, int32_t noteLineIndex, float_t noteTime);
 
   // Ctor Parameters [CppParam { name: "", ty: "NoteMissInfoNetSerializable", modifiers: "&&", def_value: None }]

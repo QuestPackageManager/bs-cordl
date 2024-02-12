@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ICoroutineStarter);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15850))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15595))
 // CS Name: ::ICoroutineStarter*
 class CORDL_TYPE ICoroutineStarter {
 public:

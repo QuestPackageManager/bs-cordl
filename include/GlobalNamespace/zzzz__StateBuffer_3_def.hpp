@@ -59,8 +59,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TStateTable, typename TType, typename TState>
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12988))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12982))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12886))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12880))
 // CS Name: ::StateBuffer`3::TimestampedStateTable<TStateTable,TType,TState>
 struct CORDL_TYPE __StateBuffer_3__TimestampedStateTable {
 public:
@@ -119,7 +119,7 @@ namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12983))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12881))
 // CS Name: ::StateBuffer`3::InterpolationDelegate<TStateTable,TType,TState>*
 class CORDL_TYPE __StateBuffer_3__InterpolationDelegate : public ::System::MulticastDelegate {
 public:
@@ -163,7 +163,7 @@ namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12984))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12882))
 // CS Name: ::StateBuffer`3::SmoothingDelegate<TStateTable,TType,TState>*
 class CORDL_TYPE __StateBuffer_3__SmoothingDelegate : public ::System::MulticastDelegate {
 public:
@@ -207,7 +207,7 @@ namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12985))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12883))
 // CS Name: ::StateBuffer`3<TStateTable,TType,TState>*
 class CORDL_TYPE StateBuffer_3 : public ::System::Object {
 public:

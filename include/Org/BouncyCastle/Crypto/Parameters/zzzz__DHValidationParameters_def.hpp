@@ -47,22 +47,22 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> seed, int32_t counter);
 
-  /// @brief Method .ctor, addr 0xf31584, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf5c414, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> seed, int32_t counter);
 
-  /// @brief Method GetSeed, addr 0xf31680, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetSeed, addr 0xf5c510, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSeed();
 
-  /// @brief Method get_Counter, addr 0xf316f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Counter, addr 0xf5c588, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Counter();
 
-  /// @brief Method Equals, addr 0xf31700, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0xf5c590, size 0x9c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0xf3179c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0xf5c62c, size 0x90, virtual false, abstract: false, final false
   inline bool Equals(::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters* other);
 
-  /// @brief Method GetHashCode, addr 0xf3182c, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0xf5c6bc, size 0x88, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "DHValidationParameters", modifiers: "&&", def_value: None }]

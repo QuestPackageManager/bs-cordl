@@ -24,8 +24,8 @@ MARK_VAL_T(::System::Buffers::MemoryHandle);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Buffers {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3336))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3884))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3333))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3883))
 // CS Name: ::System.Buffers::MemoryHandle
 struct CORDL_TYPE MemoryHandle {
 public:
@@ -38,13 +38,13 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable();
 
-  /// @brief Method .ctor, addr 0x258c520, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25af438, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::cordl_internals::Ptr<void> pointer, ::System::Runtime::InteropServices::GCHandle handle, ::System::Buffers::IPinnable* pinnable);
 
-  /// @brief Method get_Pointer, addr 0x258c52c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Pointer, addr 0x25af444, size 0x8, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<void> get_Pointer();
 
-  /// @brief Method Dispose, addr 0x258c534, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x25af44c, size 0xc8, virtual true, abstract: false, final true
   inline void Dispose();
 
   // Ctor Parameters [CppParam { name: "_pointer", ty: "::cordl_internals::Ptr<void>", modifiers: "", def_value: None }, CppParam { name: "_handle", ty: "::System::Runtime::InteropServices::GCHandle",

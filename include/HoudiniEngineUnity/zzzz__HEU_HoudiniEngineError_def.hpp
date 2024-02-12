@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_HoudiniEngineError);
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2561))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9673))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9465))
 // CS Name: ::HoudiniEngineUnity::HEU_HoudiniEngineError*
 class CORDL_TYPE HEU_HoudiniEngineError : public ::System::Exception {
 public:
@@ -32,15 +32,15 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_HoudiniEngineError* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21893a4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x221dc88, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::HoudiniEngineUnity::HEU_HoudiniEngineError* New_ctor(::StringW errorMsg);
 
-  /// @brief Method .ctor, addr 0x2189420, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x221dd04, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::StringW errorMsg);
 
-  /// @brief Method ToString, addr 0x21894a8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x221dd8c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_HoudiniEngineError", modifiers: "&&", def_value: None }]

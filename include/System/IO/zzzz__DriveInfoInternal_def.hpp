@@ -17,12 +17,12 @@ MARK_REF_PTR_T(::System::IO::DriveInfoInternal);
 namespace System::IO {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3639))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3637))
 // CS Name: ::System.IO::DriveInfoInternal*
 class CORDL_TYPE DriveInfoInternal : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetLogicalDrives, addr 0x25460dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetLogicalDrives, addr 0x2566cfc, size 0x8, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> GetLogicalDrives();
 
   // Ctor Parameters [CppParam { name: "", ty: "DriveInfoInternal", modifiers: "&&", def_value: None }]

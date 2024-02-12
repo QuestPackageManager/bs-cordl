@@ -44,7 +44,7 @@ namespace Zenject::Internal {
 template <typename TContract>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11370))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10512))
 // CS Name: ::Zenject.Internal::DecoratorProvider`1<TContract>*
 class CORDL_TYPE DecoratorProvider_1 : public ::System::Object {
 public:

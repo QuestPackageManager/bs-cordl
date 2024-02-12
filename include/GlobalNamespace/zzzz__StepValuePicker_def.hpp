@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::GlobalNamespace::StepValuePicker);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16154))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16294))
 // CS Name: ::StepValuePicker*
 class CORDL_TYPE StepValuePicker : public ::UnityEngine::MonoBehaviour {
 public:
@@ -81,45 +81,45 @@ public:
 
   constexpr void __cordl_internal_set_incButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method add_decButtonWasPressedEvent, addr 0x23e4b90, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_decButtonWasPressedEvent, addr 0x24049f0, size 0x9c, virtual false, abstract: false, final false
   inline void add_decButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method remove_decButtonWasPressedEvent, addr 0x23e4dcc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_decButtonWasPressedEvent, addr 0x2404c2c, size 0x9c, virtual false, abstract: false, final false
   inline void remove_decButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method add_incButtonWasPressedEvent, addr 0x23e4c2c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_incButtonWasPressedEvent, addr 0x2404a8c, size 0x9c, virtual false, abstract: false, final false
   inline void add_incButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method remove_incButtonWasPressedEvent, addr 0x23e4e68, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_incButtonWasPressedEvent, addr 0x2404cc8, size 0x9c, virtual false, abstract: false, final false
   inline void remove_incButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method get_text, addr 0x23e5740, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x24055b4, size 0x24, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method set_text, addr 0x23e4ab4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x2404914, size 0x24, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
-  /// @brief Method set_decButtonInteractable, addr 0x23e4a20, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_decButtonInteractable, addr 0x2404880, size 0x20, virtual false, abstract: false, final false
   inline void set_decButtonInteractable(bool value);
 
-  /// @brief Method set_incButtonInteractable, addr 0x23e4a68, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_incButtonInteractable, addr 0x24048c8, size 0x20, virtual false, abstract: false, final false
   inline void set_incButtonInteractable(bool value);
 
-  /// @brief Method OnEnable, addr 0x23e5764, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x24055d8, size 0xf0, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable, addr 0x23e5854, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x24056c8, size 0xf0, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method IncButtonPressed, addr 0x23e5944, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method IncButtonPressed, addr 0x24057b8, size 0x1c, virtual false, abstract: false, final false
   inline void IncButtonPressed();
 
-  /// @brief Method DecButtonPressed, addr 0x23e5960, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method DecButtonPressed, addr 0x24057d4, size 0x1c, virtual false, abstract: false, final false
   inline void DecButtonPressed();
 
   static inline ::GlobalNamespace::StepValuePicker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23e597c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24057f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "StepValuePicker", modifiers: "&&", def_value: None }]

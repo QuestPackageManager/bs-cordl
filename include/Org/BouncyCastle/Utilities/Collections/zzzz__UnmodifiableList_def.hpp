@@ -71,13 +71,13 @@ public:
 
   static inline ::Org::BouncyCastle::Utilities::Collections::UnmodifiableList* New_ctor();
 
-  /// @brief Method .ctor, addr 0x115a904, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1188794, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Add, addr 0x115a90c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x118879c, size 0x40, virtual true, abstract: false, final false
   inline int32_t Add(::System::Object* o);
 
-  /// @brief Method Clear, addr 0x115a94c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method Clear, addr 0x11887dc, size 0x40, virtual true, abstract: false, final false
   inline void Clear();
 
   /// @brief Method Contains, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -95,31 +95,31 @@ public:
   /// @brief Method IndexOf, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t IndexOf(::System::Object* o);
 
-  /// @brief Method Insert, addr 0x115a98c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method Insert, addr 0x118881c, size 0x40, virtual true, abstract: false, final false
   inline void Insert(int32_t i, ::System::Object* o);
 
   /// @brief Method get_IsFixedSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsFixedSize();
 
-  /// @brief Method get_IsReadOnly, addr 0x115a9cc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x118885c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
   /// @brief Method get_IsSynchronized, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsSynchronized();
 
-  /// @brief Method Remove, addr 0x115a9d4, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method Remove, addr 0x1188864, size 0x40, virtual true, abstract: false, final false
   inline void Remove(::System::Object* o);
 
-  /// @brief Method RemoveAt, addr 0x115aa14, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method RemoveAt, addr 0x11888a4, size 0x40, virtual true, abstract: false, final false
   inline void RemoveAt(int32_t i);
 
   /// @brief Method get_SyncRoot, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* get_SyncRoot();
 
-  /// @brief Method get_Item, addr 0x115aa54, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method get_Item, addr 0x11888e4, size 0x10, virtual true, abstract: false, final false
   inline ::System::Object* get_Item(int32_t i);
 
-  /// @brief Method set_Item, addr 0x115aa64, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method set_Item, addr 0x11888f4, size 0x40, virtual true, abstract: false, final false
   inline void set_Item(int32_t i, ::System::Object* value);
 
   /// @brief Method GetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

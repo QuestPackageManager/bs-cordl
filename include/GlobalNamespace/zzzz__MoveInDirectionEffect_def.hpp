@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MoveInDirectionEffect);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4909)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4911))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4263)), TypeDefinitionIndex(TypeDefinitionIndex(8993))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4265))
 // CS Name: ::MoveInDirectionEffect*
 class CORDL_TYPE MoveInDirectionEffect : public ::GlobalNamespace::FloatFxGroupEffectTarget {
 public:
@@ -70,21 +70,21 @@ public:
 
   constexpr void __cordl_internal_set__moveDirection(::UnityEngine::Vector3 value);
 
-  /// @brief Method Awake, addr 0x23a6788, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x23668c0, size 0x11c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method SetValue, addr 0x23a68a4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x23669dc, size 0x4, virtual true, abstract: false, final false
   inline void SetValue(float_t value);
 
-  /// @brief Method TriggerValue, addr 0x23a68f4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method TriggerValue, addr 0x2366a2c, size 0x4, virtual true, abstract: false, final false
   inline void TriggerValue(float_t value);
 
-  /// @brief Method Move, addr 0x23a68a8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Move, addr 0x23669e0, size 0x4c, virtual false, abstract: false, final false
   inline void Move(float_t value);
 
   static inline ::GlobalNamespace::MoveInDirectionEffect* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23a68f8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2366a30, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MoveInDirectionEffect", modifiers: "&&", def_value: None }]

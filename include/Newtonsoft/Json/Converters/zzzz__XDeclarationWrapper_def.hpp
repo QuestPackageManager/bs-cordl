@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Converters::XDeclarationWrapper);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12065))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12058))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11963))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11956))
 // CS Name: ::Newtonsoft.Json.Converters::XDeclarationWrapper*
 class CORDL_TYPE XDeclarationWrapper : public ::Newtonsoft::Json::Converters::XObjectWrapper {
 public:
@@ -64,33 +64,33 @@ public:
 
   constexpr void __cordl_internal_set__Declaration_k__BackingField(::System::Xml::Linq::XDeclaration* value);
 
-  /// @brief Method get_Declaration, addr 0x26bae44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Declaration, addr 0x26dd000, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Linq::XDeclaration* get_Declaration();
 
-  /// @brief Method set_Declaration, addr 0x26bae4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Declaration, addr 0x26dd008, size 0x8, virtual false, abstract: false, final false
   inline void set_Declaration(::System::Xml::Linq::XDeclaration* value);
 
   static inline ::Newtonsoft::Json::Converters::XDeclarationWrapper* New_ctor(::System::Xml::Linq::XDeclaration* declaration);
 
-  /// @brief Method .ctor, addr 0x26bae54, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26dd010, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XDeclaration* declaration);
 
-  /// @brief Method get_NodeType, addr 0x26baee8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x26dd0a4, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
-  /// @brief Method get_Version, addr 0x26baef0, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_Version, addr 0x26dd0ac, size 0x1c, virtual true, abstract: false, final true
   inline ::StringW get_Version();
 
-  /// @brief Method get_Encoding, addr 0x26baf0c, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_Encoding, addr 0x26dd0c8, size 0x1c, virtual true, abstract: false, final true
   inline ::StringW get_Encoding();
 
-  /// @brief Method set_Encoding, addr 0x26baf28, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method set_Encoding, addr 0x26dd0e4, size 0x1c, virtual true, abstract: false, final true
   inline void set_Encoding(::StringW value);
 
-  /// @brief Method get_Standalone, addr 0x26baf44, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_Standalone, addr 0x26dd100, size 0x1c, virtual true, abstract: false, final true
   inline ::StringW get_Standalone();
 
-  /// @brief Method set_Standalone, addr 0x26baf60, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method set_Standalone, addr 0x26dd11c, size 0x1c, virtual true, abstract: false, final true
   inline void set_Standalone(::StringW value);
 
   // Ctor Parameters [CppParam { name: "", ty: "XDeclarationWrapper", modifiers: "&&", def_value: None }]

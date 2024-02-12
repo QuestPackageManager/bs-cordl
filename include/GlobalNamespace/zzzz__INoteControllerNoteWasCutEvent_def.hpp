@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::GlobalNamespace::INoteControllerNoteWasCutEvent);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4766))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4117))
 // CS Name: ::INoteControllerNoteWasCutEvent*
 class CORDL_TYPE INoteControllerNoteWasCutEvent {
 public:

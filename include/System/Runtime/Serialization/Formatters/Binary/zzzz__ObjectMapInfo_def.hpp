@@ -65,10 +65,10 @@ public:
   static inline ::System::Runtime::Serialization::Formatters::Binary::ObjectMapInfo* New_ctor(int32_t objectId, int32_t numMembers, ::ArrayW<::StringW, ::Array<::StringW>*> memberNames,
                                                                                               ::ArrayW<::System::Type*, ::Array<::System::Type*>*> memberTypes);
 
-  /// @brief Method .ctor, addr 0x24c71dc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24e8250, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(int32_t objectId, int32_t numMembers, ::ArrayW<::StringW, ::Array<::StringW>*> memberNames, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> memberTypes);
 
-  /// @brief Method isCompatible, addr 0x24c70a0, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method isCompatible, addr 0x24e8114, size 0x13c, virtual false, abstract: false, final false
   inline bool isCompatible(int32_t numMembers, ::ArrayW<::StringW, ::Array<::StringW>*> memberNames, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> memberTypes);
 
   // Ctor Parameters [CppParam { name: "", ty: "ObjectMapInfo", modifiers: "&&", def_value: None }]

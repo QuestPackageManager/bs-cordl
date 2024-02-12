@@ -24,12 +24,12 @@ public:
   // Declarations
   static inline ::System::Security::Cryptography::HMACMD5* New_ctor();
 
-  /// @brief Method .ctor, addr 0x245e990, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2480a04, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Security::Cryptography::HMACMD5* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method .ctor, addr 0x245e9b4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2480a28, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
   // Ctor Parameters [CppParam { name: "", ty: "HMACMD5", modifiers: "&&", def_value: None }]

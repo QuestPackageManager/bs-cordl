@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::GlobalNamespace::CPUMonitor);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12709))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12607))
 // CS Name: ::CPUMonitor*
 class CORDL_TYPE CPUMonitor : public ::System::Object {
 public:
@@ -93,15 +93,15 @@ public:
 
   constexpr void __cordl_internal_set__lastSampleValue(int64_t value);
 
-  /// @brief Method PollUpdate, addr 0xe32340, size 0xf8, virtual true, abstract: false, final true
+  /// @brief Method PollUpdate, addr 0xe5d178, size 0xf8, virtual true, abstract: false, final true
   inline void PollUpdate();
 
-  /// @brief Method get_utilization, addr 0xe32438, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method get_utilization, addr 0xe5d270, size 0x28, virtual true, abstract: false, final true
   inline float_t get_utilization();
 
   static inline ::GlobalNamespace::CPUMonitor* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe32460, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe5d298, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CPUMonitor", modifiers: "&&", def_value: None }]

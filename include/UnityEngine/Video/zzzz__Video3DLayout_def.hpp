@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Video::Video3DLayout);
 namespace UnityEngine::Video {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16077))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15988))
 // CS Name: ::UnityEngine.Video::Video3DLayout
 struct CORDL_TYPE Video3DLayout {
 public:

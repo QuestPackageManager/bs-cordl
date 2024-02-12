@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SaberClashEffect);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 89, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15883))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4969))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(15043))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4323))
 // CS Name: ::SaberClashEffect*
 class CORDL_TYPE SaberClashEffect : public ::UnityEngine::MonoBehaviour {
 public:
@@ -120,18 +120,18 @@ public:
 
   constexpr void __cordl_internal_set__sabersAreClashing(bool value);
 
-  /// @brief Method Start, addr 0x23b2168, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x237129c, size 0x1b0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDisable, addr 0x23b2318, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x237144c, size 0x10, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method LateUpdate, addr 0x23b2328, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x237145c, size 0xfc, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::SaberClashEffect* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23b2424, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2371558, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SaberClashEffect", modifiers: "&&", def_value: None }]

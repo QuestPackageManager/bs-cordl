@@ -38,8 +38,8 @@ MARK_REF_PTR_T(::GlobalNamespace::PS5AppInit);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15392))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4041))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15439))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3986))
 // CS Name: ::PS5AppInit*
 class CORDL_TYPE PS5AppInit : public ::GlobalNamespace::AppInit {
 public:
@@ -113,24 +113,27 @@ public:
 
   constexpr void __cordl_internal_set__backgroundExecutionHelper(::GlobalNamespace::SonyBackgroundExecutionHelper* value);
 
-  /// @brief Method AppStartAndMultiSceneEditorSetup, addr 0x222a1e4, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method PreloadAsync, addr 0x22b3cd4, size 0x50, virtual true, abstract: false, final false
+  inline ::System::Threading::Tasks::Task* PreloadAsync();
+
+  /// @brief Method AppStartAndMultiSceneEditorSetup, addr 0x22b3d24, size 0x68, virtual true, abstract: false, final false
   inline void AppStartAndMultiSceneEditorSetup();
 
-  /// @brief Method RepeatableSetupAsync, addr 0x222a24c, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method RepeatableSetupAsync, addr 0x22b3d8c, size 0x9c, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* RepeatableSetupAsync();
 
-  /// @brief Method TransitionToNextScene, addr 0x222a2e8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method TransitionToNextScene, addr 0x22b3e28, size 0x4, virtual true, abstract: false, final false
   inline void TransitionToNextScene();
 
-  /// @brief Method TransitionToNextSceneInternal, addr 0x222a2ec, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method TransitionToNextSceneInternal, addr 0x22b3e2c, size 0x54, virtual false, abstract: false, final false
   inline void TransitionToNextSceneInternal();
 
-  /// @brief Method InstallBindings, addr 0x222a340, size 0x1ec, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x22b3e80, size 0x19c, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::PS5AppInit* New_ctor();
 
-  /// @brief Method .ctor, addr 0x222a52c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b401c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PS5AppInit", modifiers: "&&", def_value: None }]

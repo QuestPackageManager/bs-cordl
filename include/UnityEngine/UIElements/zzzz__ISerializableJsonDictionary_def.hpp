@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::ISerializableJsonDictionary);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6916))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6175))
 // CS Name: ::UnityEngine.UIElements::ISerializableJsonDictionary*
 class CORDL_TYPE ISerializableJsonDictionary {
 public:

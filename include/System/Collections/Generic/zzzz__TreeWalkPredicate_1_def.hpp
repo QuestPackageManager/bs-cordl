@@ -24,7 +24,7 @@ namespace System::Collections::Generic {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9543))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7553))
 // CS Name: ::System.Collections.Generic::TreeWalkPredicate`1<T>*
 class CORDL_TYPE TreeWalkPredicate_1 : public ::System::MulticastDelegate {
 public:

@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEf
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5006))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4360))
 // CS Name: ::TrackLaneRingsRotationEffect::RingRotationEffect*
 class CORDL_TYPE __TrackLaneRingsRotationEffect__RingRotationEffect : public ::System::Object {
 public:
@@ -83,7 +83,7 @@ public:
 
   static inline ::GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23b8300, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2377444, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__TrackLaneRingsRotationEffect__RingRotationEffect", modifiers: "&&", def_value: None }]
@@ -135,8 +135,8 @@ static_assert(offsetof(::GlobalNamespace::__TrackLaneRingsRotationEffect__RingRo
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5007))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4361))
 // CS Name: ::TrackLaneRingsRotationEffect*
 class CORDL_TYPE TrackLaneRingsRotationEffect : public ::UnityEngine::MonoBehaviour {
 public:
@@ -222,33 +222,33 @@ public:
 
   constexpr void __cordl_internal_set_ringRotationEffectsToDelete(::System::Collections::Generic::List_1<int32_t>* value);
 
-  /// @brief Method Awake, addr 0x23b8180, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x23772c4, size 0x180, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Start, addr 0x23b8308, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x237744c, size 0x10, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method FixedUpdate, addr 0x23b83fc, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method FixedUpdate, addr 0x2377540, size 0x164, virtual false, abstract: false, final false
   inline void FixedUpdate();
 
-  /// @brief Method AddRingRotationEffect, addr 0x23b8318, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method AddRingRotationEffect, addr 0x237745c, size 0xe4, virtual false, abstract: false, final false
   inline void AddRingRotationEffect(float_t angle, float_t step, int32_t propagationSpeed, float_t flexySpeed);
 
-  /// @brief Method GetFirstRingRotationAngle, addr 0x23b86dc, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetFirstRingRotationAngle, addr 0x2377820, size 0x38, virtual false, abstract: false, final false
   inline float_t GetFirstRingRotationAngle();
 
-  /// @brief Method GetFirstRingDestinationRotationAngle, addr 0x23b8714, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetFirstRingDestinationRotationAngle, addr 0x2377858, size 0x38, virtual false, abstract: false, final false
   inline float_t GetFirstRingDestinationRotationAngle();
 
-  /// @brief Method SpawnRingRotationEffect, addr 0x23b8608, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SpawnRingRotationEffect, addr 0x237774c, size 0xd4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect* SpawnRingRotationEffect();
 
-  /// @brief Method RecycleRingRotationEffect, addr 0x23b8560, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method RecycleRingRotationEffect, addr 0x23776a4, size 0xa8, virtual false, abstract: false, final false
   inline void RecycleRingRotationEffect(::GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect* ringRotationEffect);
 
   static inline ::GlobalNamespace::TrackLaneRingsRotationEffect* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23b874c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2377890, size 0x90, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TrackLaneRingsRotationEffect", modifiers: "&&", def_value: None }]

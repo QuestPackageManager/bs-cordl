@@ -79,7 +79,7 @@ namespace GlobalNamespace {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14769))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15153))
 // CS Name: ::BeatmapObjectsInTimeRowProcessor::TimeSliceContainer`1<T>*
 class CORDL_TYPE __BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1 : public ::System::Object {
 public:
@@ -243,8 +243,8 @@ public:
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14716))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14770))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15100))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15154))
 // CS Name: ::BeatmapObjectsInTimeRowProcessor::SliderTailData*
 class CORDL_TYPE __BeatmapObjectsInTimeRowProcessor__SliderTailData : public ::GlobalNamespace::BeatmapDataItem {
 public:
@@ -260,10 +260,10 @@ public:
 
   static inline ::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__SliderTailData* New_ctor(::GlobalNamespace::SliderData* slider);
 
-  /// @brief Method .ctor, addr 0xe02a1c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe12f04, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::SliderData* slider);
 
-  /// @brief Method GetCopy, addr 0xe04ed0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method GetCopy, addr 0xe153b8, size 0x4, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDataItem* GetCopy();
 
   // Ctor Parameters [CppParam { name: "", ty: "__BeatmapObjectsInTimeRowProcessor__SliderTailData", modifiers: "&&", def_value: None }]
@@ -296,7 +296,7 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__Sl
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14771))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15155))
 // CS Name: ::BeatmapObjectsInTimeRowProcessor::<>c__DisplayClass17_0*
 class CORDL_TYPE __BeatmapObjectsInTimeRowProcessor____c__DisplayClass17_0 : public ::System::Object {
 public:
@@ -312,10 +312,10 @@ public:
 
   static inline ::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor____c__DisplayClass17_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe04b2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe15014, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <HandleCurrentTimeSliceColorNotesDidFinishTimeSlice>b__1, addr 0xe04ed4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method <HandleCurrentTimeSliceColorNotesDidFinishTimeSlice>b__1, addr 0xe153bc, size 0x80, virtual false, abstract: false, final false
   inline bool _HandleCurrentTimeSliceColorNotesDidFinishTimeSlice_b__1(::GlobalNamespace::SliderData* tail);
 
   // Ctor Parameters [CppParam { name: "", ty: "__BeatmapObjectsInTimeRowProcessor____c__DisplayClass17_0", modifiers: "&&", def_value: None }]
@@ -348,7 +348,7 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor____
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14772))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15156))
 // CS Name: ::BeatmapObjectsInTimeRowProcessor::<>c*
 class CORDL_TYPE __BeatmapObjectsInTimeRowProcessor____c : public ::System::Object {
 public:
@@ -369,10 +369,10 @@ public:
 
   static inline ::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe04fb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe154a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <HandleCurrentTimeSliceColorNotesDidFinishTimeSlice>b__17_0, addr 0xe04fc0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method <HandleCurrentTimeSliceColorNotesDidFinishTimeSlice>b__17_0, addr 0xe154a8, size 0xb8, virtual false, abstract: false, final false
   inline bool _HandleCurrentTimeSliceColorNotesDidFinishTimeSlice_b__17_0(::GlobalNamespace::BeatmapDataItem* item);
 
   // Ctor Parameters [CppParam { name: "", ty: "__BeatmapObjectsInTimeRowProcessor____c", modifiers: "&&", def_value: None }]
@@ -400,7 +400,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatmapObject
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14773))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15157))
 // CS Name: ::BeatmapObjectsInTimeRowProcessor*
 class CORDL_TYPE BeatmapObjectsInTimeRowProcessor : public ::System::Object {
 public:
@@ -485,46 +485,46 @@ public:
 
   static inline ::GlobalNamespace::BeatmapObjectsInTimeRowProcessor* New_ctor(int32_t numberOfLines);
 
-  /// @brief Method .ctor, addr 0xe01df4, size 0x5bc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe122dc, size 0x5bc, virtual false, abstract: false, final false
   inline void _ctor(int32_t numberOfLines);
 
-  /// @brief Method ProcessNote, addr 0xe023b0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method ProcessNote, addr 0xe12898, size 0xd4, virtual false, abstract: false, final false
   inline void ProcessNote(::GlobalNamespace::NoteData* noteData);
 
-  /// @brief Method ProcessSlider, addr 0xe02484, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method ProcessSlider, addr 0xe1296c, size 0x184, virtual false, abstract: false, final false
   inline void ProcessSlider(::GlobalNamespace::SliderData* sliderData);
 
-  /// @brief Method ProcessAllRemainingData, addr 0xe02608, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method ProcessAllRemainingData, addr 0xe12af0, size 0x1fc, virtual false, abstract: false, final false
   inline void ProcessAllRemainingData();
 
-  /// @brief Method HandleCurrentTimeSliceColorNotesDidAddItem, addr 0xe02804, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method HandleCurrentTimeSliceColorNotesDidAddItem, addr 0xe12cec, size 0x60, virtual false, abstract: false, final false
   inline void HandleCurrentTimeSliceColorNotesDidAddItem(::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<::GlobalNamespace::NoteData*>* timeSliceContainer,
                                                          ::GlobalNamespace::NoteData* noteData);
 
-  /// @brief Method HandleCurrentNewTimeSliceAllNotesAndSlidersDidStartNewTimeSlice, addr 0xe02864, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method HandleCurrentNewTimeSliceAllNotesAndSlidersDidStartNewTimeSlice, addr 0xe12d4c, size 0x1b8, virtual false, abstract: false, final false
   inline void HandleCurrentNewTimeSliceAllNotesAndSlidersDidStartNewTimeSlice(
       ::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<::GlobalNamespace::BeatmapDataItem*>* allObjectsTimeSlice);
 
-  /// @brief Method HandleCurrentTimeSliceAllNotesAndSlidersDidFinishTimeSlice, addr 0xe02a6c, size 0x193c, virtual false, abstract: false, final false
+  /// @brief Method HandleCurrentTimeSliceAllNotesAndSlidersDidFinishTimeSlice, addr 0xe12f54, size 0x193c, virtual false, abstract: false, final false
   inline void
   HandleCurrentTimeSliceAllNotesAndSlidersDidFinishTimeSlice(::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<::GlobalNamespace::BeatmapDataItem*>* allObjectsTimeSlice,
                                                              float_t nextTimeSliceTime);
 
-  /// @brief Method HandleCurrentTimeSliceColorNotesDidFinishTimeSlice, addr 0xe0447c, size 0x6b0, virtual false, abstract: false, final false
+  /// @brief Method HandleCurrentTimeSliceColorNotesDidFinishTimeSlice, addr 0xe14964, size 0x6b0, virtual false, abstract: false, final false
   inline void HandleCurrentTimeSliceColorNotesDidFinishTimeSlice(::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<::GlobalNamespace::NoteData*>* currentTimeSlice,
                                                                  float_t nextTimeSliceTime);
 
-  /// @brief Method HandlePerColorTypeTimeSliceContainerDidFinishTimeSlice, addr 0xe04b34, size 0x350, virtual false, abstract: false, final false
+  /// @brief Method HandlePerColorTypeTimeSliceContainerDidFinishTimeSlice, addr 0xe1501c, size 0x350, virtual false, abstract: false, final false
   inline void HandlePerColorTypeTimeSliceContainerDidFinishTimeSlice(::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<::GlobalNamespace::NoteData*>* timeSliceContainer,
                                                                      float_t nextTimeSliceTime);
 
-  /// @brief Method SliderHeadPositionOverlapsWithNote, addr 0xe043a8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method SliderHeadPositionOverlapsWithNote, addr 0xe14890, size 0x40, virtual false, abstract: false, final false
   static inline bool SliderHeadPositionOverlapsWithNote(::GlobalNamespace::SliderData* slider, ::GlobalNamespace::NoteData* note);
 
-  /// @brief Method SliderTailPositionOverlapsWithNote, addr 0xe0443c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method SliderTailPositionOverlapsWithNote, addr 0xe14924, size 0x40, virtual false, abstract: false, final false
   static inline bool SliderTailPositionOverlapsWithNote(::GlobalNamespace::SliderData* slider, ::GlobalNamespace::NoteData* note);
 
-  /// @brief Method SliderHeadPositionOverlapsWithBurstTail, addr 0xe043e8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SliderHeadPositionOverlapsWithBurstTail, addr 0xe148d0, size 0x54, virtual false, abstract: false, final false
   static inline bool SliderHeadPositionOverlapsWithBurstTail(::GlobalNamespace::SliderData* slider, ::GlobalNamespace::SliderData* sliderTail);
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectsInTimeRowProcessor", modifiers: "&&", def_value: None }]

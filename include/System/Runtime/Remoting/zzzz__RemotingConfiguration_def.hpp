@@ -140,58 +140,58 @@ public:
 
   static inline ::System::Collections::Hashtable* getStaticF_serverProviderTemplates();
 
-  /// @brief Method get_ApplicationName, addr 0x24867bc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_ApplicationName, addr 0x24a8830, size 0x58, virtual false, abstract: false, final false
   static inline ::StringW get_ApplicationName();
 
-  /// @brief Method set_ApplicationName, addr 0x2486814, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_ApplicationName, addr 0x24a8888, size 0x5c, virtual false, abstract: false, final false
   static inline void set_ApplicationName(::StringW value);
 
-  /// @brief Method get_ProcessId, addr 0x2486870, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method get_ProcessId, addr 0x24a88e4, size 0xa8, virtual false, abstract: false, final false
   static inline ::StringW get_ProcessId();
 
-  /// @brief Method LoadDefaultDelayedChannels, addr 0x2486918, size 0x36c, virtual false, abstract: false, final false
+  /// @brief Method LoadDefaultDelayedChannels, addr 0x24a898c, size 0x36c, virtual false, abstract: false, final false
   static inline void LoadDefaultDelayedChannels();
 
-  /// @brief Method IsActivationAllowed, addr 0x2486d3c, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method IsActivationAllowed, addr 0x24a8db0, size 0x144, virtual false, abstract: false, final false
   static inline bool IsActivationAllowed(::System::Type* svrType);
 
-  /// @brief Method IsRemotelyActivatedClientType, addr 0x2486e80, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method IsRemotelyActivatedClientType, addr 0x24a8ef4, size 0x18c, virtual false, abstract: false, final false
   static inline ::System::Runtime::Remoting::ActivatedClientTypeEntry* IsRemotelyActivatedClientType(::System::Type* svrType);
 
-  /// @brief Method IsWellKnownClientType, addr 0x248700c, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method IsWellKnownClientType, addr 0x24a9080, size 0x18c, virtual false, abstract: false, final false
   static inline ::System::Runtime::Remoting::WellKnownClientTypeEntry* IsWellKnownClientType(::System::Type* svrType);
 
-  /// @brief Method RegisterActivatedClientType, addr 0x2487198, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method RegisterActivatedClientType, addr 0x24a920c, size 0x28c, virtual false, abstract: false, final false
   static inline void RegisterActivatedClientType(::System::Runtime::Remoting::ActivatedClientTypeEntry* entry);
 
-  /// @brief Method RegisterActivatedServiceType, addr 0x2487424, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method RegisterActivatedServiceType, addr 0x24a9498, size 0x144, virtual false, abstract: false, final false
   static inline void RegisterActivatedServiceType(::System::Runtime::Remoting::ActivatedServiceTypeEntry* entry);
 
-  /// @brief Method RegisterWellKnownClientType, addr 0x2487568, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method RegisterWellKnownClientType, addr 0x24a95dc, size 0x28c, virtual false, abstract: false, final false
   static inline void RegisterWellKnownClientType(::System::Runtime::Remoting::WellKnownClientTypeEntry* entry);
 
-  /// @brief Method RegisterWellKnownServiceType, addr 0x24877f4, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method RegisterWellKnownServiceType, addr 0x24a9868, size 0x188, virtual false, abstract: false, final false
   static inline void RegisterWellKnownServiceType(::System::Runtime::Remoting::WellKnownServiceTypeEntry* entry);
 
-  /// @brief Method RegisterChannelTemplate, addr 0x2487a98, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method RegisterChannelTemplate, addr 0x24a9b0c, size 0x7c, virtual false, abstract: false, final false
   static inline void RegisterChannelTemplate(::System::Runtime::Remoting::ChannelData* channel);
 
-  /// @brief Method RegisterClientProviderTemplate, addr 0x2487b14, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method RegisterClientProviderTemplate, addr 0x24a9b88, size 0x7c, virtual false, abstract: false, final false
   static inline void RegisterClientProviderTemplate(::System::Runtime::Remoting::ProviderData* prov);
 
-  /// @brief Method RegisterServerProviderTemplate, addr 0x2487b90, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method RegisterServerProviderTemplate, addr 0x24a9c04, size 0x7c, virtual false, abstract: false, final false
   static inline void RegisterServerProviderTemplate(::System::Runtime::Remoting::ProviderData* prov);
 
-  /// @brief Method RegisterChannels, addr 0x2487c0c, size 0xc90, virtual false, abstract: false, final false
+  /// @brief Method RegisterChannels, addr 0x24a9c80, size 0xc90, virtual false, abstract: false, final false
   static inline void RegisterChannels(::System::Collections::ArrayList* channels, bool onlyDelayed);
 
-  /// @brief Method RegisterTypes, addr 0x24899b8, size 0x520, virtual false, abstract: false, final false
+  /// @brief Method RegisterTypes, addr 0x24aba2c, size 0x520, virtual false, abstract: false, final false
   static inline void RegisterTypes(::System::Collections::ArrayList* types);
 
-  /// @brief Method CustomErrorsEnabled, addr 0x2489ed8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method CustomErrorsEnabled, addr 0x24abf4c, size 0x94, virtual false, abstract: false, final false
   static inline bool CustomErrorsEnabled(bool isLocalRequest);
 
-  /// @brief Method SetCustomErrorsMode, addr 0x2489f6c, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method SetCustomErrorsMode, addr 0x24abfe0, size 0x260, virtual false, abstract: false, final false
   static inline void SetCustomErrorsMode(::StringW mode);
 
   // Ctor Parameters [CppParam { name: "", ty: "RemotingConfiguration", modifiers: "&&", def_value: None }]

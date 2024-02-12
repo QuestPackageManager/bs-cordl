@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::Tayx::Graphy::Audio::G_AudioText);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Tayx::Graphy::Audio {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15089))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14962))
 // CS Name: ::Tayx.Graphy.Audio::G_AudioText*
 class CORDL_TYPE G_AudioText : public ::UnityEngine::MonoBehaviour {
 public:
@@ -76,21 +76,21 @@ public:
 
   constexpr void __cordl_internal_set_m_deltaTimeOffset(float_t value);
 
-  /// @brief Method Awake, addr 0x2a0a6bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2a0f160, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Update, addr 0x2a0a6c0, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2a0f164, size 0x100, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateParameters, addr 0x2a0a114, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method UpdateParameters, addr 0x2a0ebb8, size 0x20, virtual false, abstract: false, final false
   inline void UpdateParameters();
 
-  /// @brief Method Init, addr 0x2a0a134, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2a0ebd8, size 0x110, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::Tayx::Graphy::Audio::G_AudioText* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2a0a7c0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a0f264, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "G_AudioText", modifiers: "&&", def_value: None }]

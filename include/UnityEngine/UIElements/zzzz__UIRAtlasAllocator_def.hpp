@@ -43,7 +43,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__UIRAtlasAllocator__Row);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7324))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6583))
 // CS Name: ::UIRAtlasAllocator::Row*
 class CORDL_TYPE __UIRAtlasAllocator__Row : public ::System::Object {
 public:
@@ -108,36 +108,36 @@ public:
 
   static inline ::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::__UIRAtlasAllocator__Row*>* getStaticF_s_Pool();
 
-  /// @brief Method get_offsetX, addr 0x2e77480, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_offsetX, addr 0x2e91868, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_offsetX();
 
-  /// @brief Method set_offsetX, addr 0x2e77488, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_offsetX, addr 0x2e91870, size 0x8, virtual false, abstract: false, final false
   inline void set_offsetX(int32_t value);
 
-  /// @brief Method get_offsetY, addr 0x2e77490, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_offsetY, addr 0x2e91878, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_offsetY();
 
-  /// @brief Method set_offsetY, addr 0x2e77498, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_offsetY, addr 0x2e91880, size 0x8, virtual false, abstract: false, final false
   inline void set_offsetY(int32_t value);
 
-  /// @brief Method get_width, addr 0x2e774a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_width, addr 0x2e91888, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_width();
 
-  /// @brief Method set_width, addr 0x2e774a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_width, addr 0x2e91890, size 0x8, virtual false, abstract: false, final false
   inline void set_width(int32_t value);
 
-  /// @brief Method set_height, addr 0x2e774b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_height, addr 0x2e91898, size 0x8, virtual false, abstract: false, final false
   inline void set_height(int32_t value);
 
-  /// @brief Method Acquire, addr 0x2e7728c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Acquire, addr 0x2e91674, size 0xac, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::__UIRAtlasAllocator__Row* Acquire(int32_t offsetX, int32_t offsetY, int32_t width, int32_t height);
 
-  /// @brief Method Release, addr 0x2e766e4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x2e90acc, size 0x90, virtual false, abstract: false, final false
   inline void Release();
 
   static inline ::UnityEngine::UIElements::__UIRAtlasAllocator__Row* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e774b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e918a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__UIRAtlasAllocator__Row", modifiers: "&&", def_value: None }]
@@ -189,8 +189,8 @@ static_assert(offsetof(::UnityEngine::UIElements::__UIRAtlasAllocator__Row, ___C
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10162))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7325))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8906))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6584))
 // CS Name: ::UIRAtlasAllocator::AreaNode*
 class CORDL_TYPE __UIRAtlasAllocator__AreaNode : public ::System::Object {
 public:
@@ -229,21 +229,21 @@ public:
 
   static inline ::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode*>* getStaticF_s_Pool();
 
-  /// @brief Method Acquire, addr 0x2e76af0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Acquire, addr 0x2e90ed8, size 0x98, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode* Acquire(::UnityEngine::RectInt rect);
 
-  /// @brief Method Release, addr 0x2e76774, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x2e90b5c, size 0x80, virtual false, abstract: false, final false
   inline void Release();
 
-  /// @brief Method RemoveFromChain, addr 0x2e77338, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method RemoveFromChain, addr 0x2e91720, size 0x28, virtual false, abstract: false, final false
   inline void RemoveFromChain();
 
-  /// @brief Method AddAfter, addr 0x2e77360, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method AddAfter, addr 0x2e91748, size 0xac, virtual false, abstract: false, final false
   inline void AddAfter(::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode* previous);
 
   static inline ::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e77550, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e91938, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__UIRAtlasAllocator__AreaNode", modifiers: "&&", def_value: None }]
@@ -285,8 +285,8 @@ static_assert(offsetof(::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode,
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 73, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9966))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7326))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8695))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6585))
 // CS Name: ::UnityEngine.UIElements::UIRAtlasAllocator*
 class CORDL_TYPE UIRAtlasAllocator : public ::System::Object {
 public:
@@ -434,66 +434,66 @@ public:
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_MarkerTryAllocate();
 
-  /// @brief Method get_maxAtlasSize, addr 0x2e7657c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxAtlasSize, addr 0x2e90964, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxAtlasSize();
 
-  /// @brief Method get_maxImageWidth, addr 0x2e76584, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxImageWidth, addr 0x2e9096c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxImageWidth();
 
-  /// @brief Method get_maxImageHeight, addr 0x2e7658c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxImageHeight, addr 0x2e90974, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxImageHeight();
 
-  /// @brief Method get_virtualWidth, addr 0x2e76594, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_virtualWidth, addr 0x2e9097c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_virtualWidth();
 
-  /// @brief Method set_virtualWidth, addr 0x2e7659c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_virtualWidth, addr 0x2e90984, size 0x8, virtual false, abstract: false, final false
   inline void set_virtualWidth(int32_t value);
 
-  /// @brief Method get_virtualHeight, addr 0x2e765a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_virtualHeight, addr 0x2e9098c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_virtualHeight();
 
-  /// @brief Method set_virtualHeight, addr 0x2e765ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_virtualHeight, addr 0x2e90994, size 0x8, virtual false, abstract: false, final false
   inline void set_virtualHeight(int32_t value);
 
-  /// @brief Method get_physicalWidth, addr 0x2e765b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_physicalWidth, addr 0x2e9099c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_physicalWidth();
 
-  /// @brief Method set_physicalWidth, addr 0x2e765bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_physicalWidth, addr 0x2e909a4, size 0x8, virtual false, abstract: false, final false
   inline void set_physicalWidth(int32_t value);
 
-  /// @brief Method get_physicalHeight, addr 0x2e765c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_physicalHeight, addr 0x2e909ac, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_physicalHeight();
 
-  /// @brief Method set_physicalHeight, addr 0x2e765cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_physicalHeight, addr 0x2e909b4, size 0x8, virtual false, abstract: false, final false
   inline void set_physicalHeight(int32_t value);
 
-  /// @brief Method get_disposed, addr 0x2e765d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x2e909bc, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
-  /// @brief Method set_disposed, addr 0x2e765dc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x2e909c4, size 0xc, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
-  /// @brief Method Dispose, addr 0x2e765e8, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2e909d0, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x2e76654, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x2e90a3c, size 0x90, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method GetLog2OfNextPower, addr 0x2e767f4, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method GetLog2OfNextPower, addr 0x2e90bdc, size 0x130, virtual false, abstract: false, final false
   static inline int32_t GetLog2OfNextPower(int32_t n);
 
   static inline ::UnityEngine::UIElements::UIRAtlasAllocator* New_ctor(int32_t initialAtlasSize, int32_t maxAtlasSize, int32_t sidePadding);
 
-  /// @brief Method .ctor, addr 0x2e76924, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e90d0c, size 0x1cc, virtual false, abstract: false, final false
   inline void _ctor(int32_t initialAtlasSize, int32_t maxAtlasSize, int32_t sidePadding);
 
-  /// @brief Method TryAllocate, addr 0x2e76c94, size 0x3e0, virtual false, abstract: false, final false
+  /// @brief Method TryAllocate, addr 0x2e9107c, size 0x3e0, virtual false, abstract: false, final false
   inline bool TryAllocate(int32_t width, int32_t height, ByRef<::UnityEngine::RectInt> location);
 
-  /// @brief Method TryPartitionArea, addr 0x2e77074, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method TryPartitionArea, addr 0x2e9145c, size 0x218, virtual false, abstract: false, final false
   inline bool TryPartitionArea(::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode* areaNode, int32_t rowIndex, int32_t rowHeight, int32_t minWidth);
 
-  /// @brief Method BuildAreas, addr 0x2e76b88, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method BuildAreas, addr 0x2e90f70, size 0x10c, virtual false, abstract: false, final false
   inline void BuildAreas();
 
   // Ctor Parameters [CppParam { name: "", ty: "UIRAtlasAllocator", modifiers: "&&", def_value: None }]

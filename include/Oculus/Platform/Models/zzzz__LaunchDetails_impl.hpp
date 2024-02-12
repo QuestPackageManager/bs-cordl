@@ -7,8 +7,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Models::LaunchDetails::*)(void*)>(&::Oculus::Platform::Models::LaunchDetails::_ctor)> {
-  constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x2706494;
+  constexpr static std::size_t size = 0x150;
+  constexpr static std::size_t addrs = 0x2739370;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -64,6 +64,18 @@ constexpr ::Oculus::Platform::LaunchType const& Oculus::Platform::Models::Launch
 constexpr void Oculus::Platform::Models::LaunchDetails::__cordl_internal_set_LaunchType(::Oculus::Platform::LaunchType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___LaunchType = value;
+}
+constexpr uint64_t& Oculus::Platform::Models::LaunchDetails::__cordl_internal_get_RoomID() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___RoomID;
+}
+constexpr uint64_t const& Oculus::Platform::Models::LaunchDetails::__cordl_internal_get_RoomID() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___RoomID;
+}
+constexpr void Oculus::Platform::Models::LaunchDetails::__cordl_internal_set_RoomID(uint64_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___RoomID = value;
 }
 constexpr ::StringW& Oculus::Platform::Models::LaunchDetails::__cordl_internal_get_TrackingID() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

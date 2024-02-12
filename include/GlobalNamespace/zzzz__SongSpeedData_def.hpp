@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::GlobalNamespace::SongSpeedData);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4184))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10638))
 // CS Name: ::SongSpeedData*
 class CORDL_TYPE SongSpeedData : public ::System::Object {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::GlobalNamespace::SongSpeedData* New_ctor(float_t speedMul);
 
-  /// @brief Method .ctor, addr 0x2323108, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12671d4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(float_t speedMul);
 
   // Ctor Parameters [CppParam { name: "", ty: "SongSpeedData", modifiers: "&&", def_value: None }]

@@ -87,37 +87,37 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::BC::LinkedCertificate* New_ctor(::Org::BouncyCastle::Asn1::X509::DigestInfo* digest, ::Org::BouncyCastle::Asn1::X509::GeneralName* certLocation);
 
-  /// @brief Method .ctor, addr 0xe63584, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe8e414, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::DigestInfo* digest, ::Org::BouncyCastle::Asn1::X509::GeneralName* certLocation);
 
   static inline ::Org::BouncyCastle::Asn1::BC::LinkedCertificate* New_ctor(::Org::BouncyCastle::Asn1::X509::DigestInfo* digest, ::Org::BouncyCastle::Asn1::X509::GeneralName* certLocation,
                                                                            ::Org::BouncyCastle::Asn1::X509::X509Name* certIssuer, ::Org::BouncyCastle::Asn1::X509::GeneralNames* caCerts);
 
-  /// @brief Method .ctor, addr 0xe635b4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe8e444, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::DigestInfo* digest, ::Org::BouncyCastle::Asn1::X509::GeneralName* certLocation, ::Org::BouncyCastle::Asn1::X509::X509Name* certIssuer,
                     ::Org::BouncyCastle::Asn1::X509::GeneralNames* caCerts);
 
   static inline ::Org::BouncyCastle::Asn1::BC::LinkedCertificate* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xe635f4, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe8e484, size 0x1c8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance, addr 0xe637bc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xe8e64c, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::BC::LinkedCertificate* GetInstance(::System::Object* obj);
 
-  /// @brief Method get_Digest, addr 0xe63860, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Digest, addr 0xe8e6f0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::DigestInfo* get_Digest();
 
-  /// @brief Method get_CertLocation, addr 0xe63868, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CertLocation, addr 0xe8e6f8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralName* get_CertLocation();
 
-  /// @brief Method get_CertIssuer, addr 0xe63870, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CertIssuer, addr 0xe8e700, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Name* get_CertIssuer();
 
-  /// @brief Method get_CACerts, addr 0xe63878, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CACerts, addr 0xe8e708, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralNames* get_CACerts();
 
-  /// @brief Method ToAsn1Object, addr 0xe63880, size 0x158, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xe8e710, size 0x158, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "LinkedCertificate", modifiers: "&&", def_value: None }]

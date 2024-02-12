@@ -62,17 +62,17 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound2Payload*
   New_ctor(::StringW participantId, ::Org::BouncyCastle::Math::BigInteger* a, ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> knowledgeProofForX2s);
 
-  /// @brief Method .ctor, addr 0x1214498, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1241328, size 0x120, virtual false, abstract: false, final false
   inline void _ctor(::StringW participantId, ::Org::BouncyCastle::Math::BigInteger* a,
                     ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> knowledgeProofForX2s);
 
-  /// @brief Method get_ParticipantId, addr 0x1215b8c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ParticipantId, addr 0x1242a1c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_ParticipantId();
 
-  /// @brief Method get_A, addr 0x1215b94, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_A, addr 0x1242a24, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_A();
 
-  /// @brief Method get_KnowledgeProofForX2s, addr 0x1215b9c, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method get_KnowledgeProofForX2s, addr 0x1242a2c, size 0x7c, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> get_KnowledgeProofForX2s();
 
   // Ctor Parameters [CppParam { name: "", ty: "JPakeRound2Payload", modifiers: "&&", def_value: None }]

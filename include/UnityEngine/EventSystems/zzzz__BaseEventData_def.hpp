@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::BaseEventData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13164))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13165))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13062))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13063))
 // CS Name: ::UnityEngine.EventSystems::BaseEventData*
 class CORDL_TYPE BaseEventData : public ::UnityEngine::EventSystems::AbstractEventData {
 public:
@@ -44,16 +44,16 @@ public:
 
   static inline ::UnityEngine::EventSystems::BaseEventData* New_ctor(::UnityEngine::EventSystems::EventSystem* eventSystem);
 
-  /// @brief Method .ctor, addr 0x2d95400, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2db37e8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::EventSystems::EventSystem* eventSystem);
 
-  /// @brief Method get_currentInputModule, addr 0x2d9544c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_currentInputModule, addr 0x2db3834, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::EventSystems::BaseInputModule> get_currentInputModule();
 
-  /// @brief Method get_selectedObject, addr 0x2d95468, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_selectedObject, addr 0x2db3850, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_selectedObject();
 
-  /// @brief Method set_selectedObject, addr 0x2d95484, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_selectedObject, addr 0x2db386c, size 0x1c, virtual false, abstract: false, final false
   inline void set_selectedObject(::UnityEngine::GameObject* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "BaseEventData", modifiers: "&&", def_value: None }]

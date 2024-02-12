@@ -37,24 +37,24 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Signers::__Ed448Signer__Buffer);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Signers {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3566))]
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3562))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1137))
 // CS Name: ::Ed448Signer::Buffer*
 class CORDL_TYPE __Ed448Signer__Buffer : public ::System::IO::MemoryStream {
 public:
   // Declarations
-  /// @brief Method GenerateSignature, addr 0xf4be9c, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method GenerateSignature, addr 0xf76d2c, size 0x194, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateSignature(::Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters* privateKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> ctx);
 
-  /// @brief Method VerifySignature, addr 0xf4c0b0, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method VerifySignature, addr 0xf76f40, size 0x1c4, virtual false, abstract: false, final false
   inline bool VerifySignature(::Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters* publicKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> ctx, ::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
 
-  /// @brief Method Reset, addr 0xf4c28c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0xf7711c, size 0xf4, virtual false, abstract: false, final false
   inline void Reset();
 
   static inline ::Org::BouncyCastle::Crypto::Signers::__Ed448Signer__Buffer* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf4bcb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf76b40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Ed448Signer__Buffer", modifiers: "&&", def_value: None }]
@@ -144,28 +144,28 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Signers::Ed448Signer* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> context);
 
-  /// @brief Method .ctor, addr 0xf4bc04, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf76a94, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> context);
 
-  /// @brief Method get_AlgorithmName, addr 0xf4bcb8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0xf76b48, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method Init, addr 0xf4bcf8, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0xf76b88, size 0xe0, virtual true, abstract: false, final false
   inline void Init(bool forSigning, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method Update, addr 0xf4bdd8, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0xf76c68, size 0x24, virtual true, abstract: false, final false
   inline void Update(uint8_t b);
 
-  /// @brief Method BlockUpdate, addr 0xf4bdfc, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method BlockUpdate, addr 0xf76c8c, size 0x24, virtual true, abstract: false, final false
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
-  /// @brief Method GenerateSignature, addr 0xf4be20, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method GenerateSignature, addr 0xf76cb0, size 0x7c, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateSignature();
 
-  /// @brief Method VerifySignature, addr 0xf4c030, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method VerifySignature, addr 0xf76ec0, size 0x80, virtual true, abstract: false, final false
   inline bool VerifySignature(::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
 
-  /// @brief Method Reset, addr 0xf4c274, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0xf77104, size 0x18, virtual true, abstract: false, final false
   inline void Reset();
 
   // Ctor Parameters [CppParam { name: "", ty: "Ed448Signer", modifiers: "&&", def_value: None }]

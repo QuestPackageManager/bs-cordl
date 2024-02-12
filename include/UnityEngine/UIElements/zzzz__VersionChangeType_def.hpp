@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::VersionChangeType);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6863))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6122))
 // CS Name: ::UnityEngine.UIElements::VersionChangeType
 struct CORDL_TYPE VersionChangeType {
 public:

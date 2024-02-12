@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IInvitePlatformHandler);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4494))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10920))
 // CS Name: ::IInvitePlatformHandler*
 class CORDL_TYPE IInvitePlatformHandler {
 public:

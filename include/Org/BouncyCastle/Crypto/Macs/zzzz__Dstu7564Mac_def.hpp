@@ -85,36 +85,36 @@ public:
 
   constexpr void __cordl_internal_set_invertedKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method get_AlgorithmName, addr 0xf0bc98, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_AlgorithmName, addr 0xf37b28, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_AlgorithmName();
 
   static inline ::Org::BouncyCastle::Crypto::Macs::Dstu7564Mac* New_ctor(int32_t macSizeBits);
 
-  /// @brief Method .ctor, addr 0xf0bcd8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf37b68, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(int32_t macSizeBits);
 
-  /// @brief Method Init, addr 0xf0bd68, size 0x17c, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0xf37bf8, size 0x17c, virtual true, abstract: false, final true
   inline void Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method GetMacSize, addr 0xf0c098, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetMacSize, addr 0xf37f28, size 0x8, virtual true, abstract: false, final true
   inline int32_t GetMacSize();
 
-  /// @brief Method BlockUpdate, addr 0xf0c0a0, size 0x118, virtual true, abstract: false, final true
+  /// @brief Method BlockUpdate, addr 0xf37f30, size 0x118, virtual true, abstract: false, final true
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t len);
 
-  /// @brief Method Update, addr 0xf0c1b8, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method Update, addr 0xf38048, size 0x38, virtual true, abstract: false, final true
   inline void Update(uint8_t input);
 
-  /// @brief Method DoFinal, addr 0xf0c1f0, size 0x12c, virtual true, abstract: false, final true
+  /// @brief Method DoFinal, addr 0xf38080, size 0x12c, virtual true, abstract: false, final true
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset, addr 0xf0c434, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0xf382c4, size 0x5c, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method Pad, addr 0xf0c31c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method Pad, addr 0xf381ac, size 0x118, virtual false, abstract: false, final false
   inline void Pad();
 
-  /// @brief Method PadKey, addr 0xf0bee4, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method PadKey, addr 0xf37d74, size 0x1b4, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> PadKey(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
   // Ctor Parameters [CppParam { name: "", ty: "Dstu7564Mac", modifiers: "&&", def_value: None }]

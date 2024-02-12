@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Bson::BsonString);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Bson {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12077))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12078))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11975))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11976))
 // CS Name: ::Newtonsoft.Json.Bson::BsonString*
 class CORDL_TYPE BsonString : public ::Newtonsoft::Json::Bson::BsonValue {
 public:
@@ -46,21 +46,21 @@ public:
 
   constexpr void __cordl_internal_set__IncludeLength_k__BackingField(bool value);
 
-  /// @brief Method get_ByteCount, addr 0x26c8408, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ByteCount, addr 0x26ea5c4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ByteCount();
 
-  /// @brief Method set_ByteCount, addr 0x26c8410, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ByteCount, addr 0x26ea5cc, size 0x8, virtual false, abstract: false, final false
   inline void set_ByteCount(int32_t value);
 
-  /// @brief Method get_IncludeLength, addr 0x26c8418, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IncludeLength, addr 0x26ea5d4, size 0x8, virtual false, abstract: false, final false
   inline bool get_IncludeLength();
 
-  /// @brief Method set_IncludeLength, addr 0x26c8420, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IncludeLength, addr 0x26ea5dc, size 0xc, virtual false, abstract: false, final false
   inline void set_IncludeLength(bool value);
 
   static inline ::Newtonsoft::Json::Bson::BsonString* New_ctor(::System::Object* value, bool includeLength);
 
-  /// @brief Method .ctor, addr 0x26c81cc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ea388, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* value, bool includeLength);
 
   // Ctor Parameters [CppParam { name: "", ty: "BsonString", modifiers: "&&", def_value: None }]

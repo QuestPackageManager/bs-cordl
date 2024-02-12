@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::System::Net::Authorization);
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9058))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7068))
 // CS Name: ::System.Net::Authorization*
 class CORDL_TYPE Authorization : public ::System::Object {
 public:
@@ -54,18 +54,18 @@ public:
 
   static inline ::System::Net::Authorization* New_ctor(::StringW token);
 
-  /// @brief Method .ctor, addr 0x299b458, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x299eefc, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::StringW token);
 
   static inline ::System::Net::Authorization* New_ctor(::StringW token, bool finished);
 
-  /// @brief Method .ctor, addr 0x299b4d8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x299ef7c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::StringW token, bool finished);
 
-  /// @brief Method get_Message, addr 0x299b558, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Message, addr 0x299effc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Message();
 
-  /// @brief Method get_Complete, addr 0x299b560, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Complete, addr 0x299f004, size 0x8, virtual false, abstract: false, final false
   inline bool get_Complete();
 
   // Ctor Parameters [CppParam { name: "", ty: "Authorization", modifiers: "&&", def_value: None }]

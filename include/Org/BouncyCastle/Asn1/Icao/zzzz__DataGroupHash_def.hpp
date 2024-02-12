@@ -58,26 +58,26 @@ public:
 
   constexpr void __cordl_internal_set_dataGroupHashValue(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
-  /// @brief Method GetInstance, addr 0xf74820, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xf9f6b0, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Icao::DataGroupHash* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Icao::DataGroupHash* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xf748c4, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf9f754, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::Icao::DataGroupHash* New_ctor(int32_t dataGroupNumber, ::Org::BouncyCastle::Asn1::Asn1OctetString* dataGroupHashValue);
 
-  /// @brief Method .ctor, addr 0xf749ac, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf9f83c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(int32_t dataGroupNumber, ::Org::BouncyCastle::Asn1::Asn1OctetString* dataGroupHashValue);
 
-  /// @brief Method get_DataGroupNumber, addr 0xf74a2c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_DataGroupNumber, addr 0xf9f8bc, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_DataGroupNumber();
 
-  /// @brief Method get_DataGroupHashValue, addr 0xf74a48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DataGroupHashValue, addr 0xf9f8d8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_DataGroupHashValue();
 
-  /// @brief Method ToAsn1Object, addr 0xf74a50, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xf9f8e0, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "DataGroupHash", modifiers: "&&", def_value: None }]

@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::GlobalNamespace::LeaderboardUploadData);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4204))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10655))
 // CS Name: ::LeaderboardUploadData*
 class CORDL_TYPE LeaderboardUploadData : public ::System::Object {
 public:
@@ -127,7 +127,7 @@ public:
                                                                    ::StringW authorName, ::StringW bpm, ::StringW difficulty, ::StringW infoHash,
                                                                    ::System::Collections::Generic::List_1<::StringW>* modifiers);
 
-  /// @brief Method .ctor, addr 0x23274c8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x126b2d0, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::StringW playerName, ::StringW playerId, ::StringW score, ::StringW leaderboardId, ::StringW songName, ::StringW songSubName, ::StringW authorName, ::StringW bpm,
                     ::StringW difficulty, ::StringW infoHash, ::System::Collections::Generic::List_1<::StringW>* modifiers);
 

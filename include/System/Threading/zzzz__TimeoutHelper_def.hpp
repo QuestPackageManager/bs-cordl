@@ -21,10 +21,10 @@ namespace System::Threading {
 class CORDL_TYPE TimeoutHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetTime, addr 0x2611bf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetTime, addr 0x2636af8, size 0x8, virtual false, abstract: false, final false
   static inline uint32_t GetTime();
 
-  /// @brief Method UpdateTimeOut, addr 0x2611ca4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method UpdateTimeOut, addr 0x2636bac, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t UpdateTimeOut(uint32_t startTime, int32_t originalWaitMillisecondsTimeout);
 
   // Ctor Parameters [CppParam { name: "", ty: "TimeoutHelper", modifiers: "&&", def_value: None }]

@@ -52,7 +52,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__AudioTimeSyncController__InitData);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4051))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3997))
 // CS Name: ::AudioTimeSyncController::InitData*
 class CORDL_TYPE __AudioTimeSyncController__InitData : public ::System::Object {
 public:
@@ -95,7 +95,7 @@ public:
 
   static inline ::GlobalNamespace::__AudioTimeSyncController__InitData* New_ctor(::UnityEngine::AudioClip* audioClip, float_t startSongTime, float_t songTimeOffset, float_t timeScale);
 
-  /// @brief Method .ctor, addr 0x222c22c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b5ecc, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::AudioClip* audioClip, float_t startSongTime, float_t songTimeOffset, float_t timeScale);
 
   // Ctor Parameters [CppParam { name: "", ty: "__AudioTimeSyncController__InitData", modifiers: "&&", def_value: None }]
@@ -143,7 +143,7 @@ static_assert(offsetof(::GlobalNamespace::__AudioTimeSyncController__InitData, _
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4052))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3998))
 // CS Name: ::AudioTimeSyncController::State
 struct CORDL_TYPE __AudioTimeSyncController__State {
 public:
@@ -196,8 +196,8 @@ static_assert(offsetof(::GlobalNamespace::__AudioTimeSyncController__State, valu
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 141, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4052)), TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4053))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3998)), TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3999))
 // CS Name: ::AudioTimeSyncController*
 class CORDL_TYPE AudioTimeSyncController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -455,87 +455,87 @@ public:
 
   constexpr void __cordl_internal_set__forceNoAudioSyncOrAudioSyncErrorFixing(bool value);
 
-  /// @brief Method get_state, addr 0x222b684, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_state, addr 0x22b5324, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__AudioTimeSyncController__State get_state();
 
-  /// @brief Method get_songTime, addr 0x222b68c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_songTime, addr 0x22b532c, size 0x8, virtual true, abstract: false, final true
   inline float_t get_songTime();
 
-  /// @brief Method get_lastFrameDeltaSongTime, addr 0x222b694, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_lastFrameDeltaSongTime, addr 0x22b5334, size 0x8, virtual true, abstract: false, final true
   inline float_t get_lastFrameDeltaSongTime();
 
-  /// @brief Method get_songLength, addr 0x222b69c, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method get_songLength, addr 0x22b533c, size 0x98, virtual true, abstract: false, final true
   inline float_t get_songLength();
 
-  /// @brief Method get_isAudioLoaded, addr 0x222b734, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_isAudioLoaded, addr 0x22b53d4, size 0x30, virtual false, abstract: false, final false
   inline bool get_isAudioLoaded();
 
-  /// @brief Method get_songEndTime, addr 0x222b764, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method get_songEndTime, addr 0x22b5404, size 0x6c, virtual true, abstract: false, final true
   inline float_t get_songEndTime();
 
-  /// @brief Method get_timeScale, addr 0x222b7d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_timeScale, addr 0x22b5470, size 0x8, virtual false, abstract: false, final false
   inline float_t get_timeScale();
 
-  /// @brief Method get_dspTimeOffset, addr 0x222b7d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dspTimeOffset, addr 0x22b5478, size 0x8, virtual false, abstract: false, final false
   inline double_t get_dspTimeOffset();
 
-  /// @brief Method get_waitUntilAudioIsLoaded, addr 0x222b7e0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method get_waitUntilAudioIsLoaded, addr 0x22b5480, size 0xac, virtual false, abstract: false, final false
   inline ::UnityEngine::WaitUntil* get_waitUntilAudioIsLoaded();
 
-  /// @brief Method get_isReady, addr 0x222b88c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isReady, addr 0x22b552c, size 0x8, virtual true, abstract: false, final true
   inline bool get_isReady();
 
-  /// @brief Method get_songTimeOffset, addr 0x222b894, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_songTimeOffset, addr 0x22b5534, size 0x8, virtual false, abstract: false, final false
   inline float_t get_songTimeOffset();
 
-  /// @brief Method get_forceNoAudioSyncOrAudioSyncErrorFixing, addr 0x222b89c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_forceNoAudioSyncOrAudioSyncErrorFixing, addr 0x22b553c, size 0x8, virtual false, abstract: false, final false
   inline bool get_forceNoAudioSyncOrAudioSyncErrorFixing();
 
-  /// @brief Method set_forceNoAudioSyncOrAudioSyncErrorFixing, addr 0x222b8a4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_forceNoAudioSyncOrAudioSyncErrorFixing, addr 0x22b5544, size 0xc, virtual false, abstract: false, final false
   inline void set_forceNoAudioSyncOrAudioSyncErrorFixing(bool value);
 
-  /// @brief Method add_stateChangedEvent, addr 0x222b8b0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_stateChangedEvent, addr 0x22b5550, size 0x9c, virtual false, abstract: false, final false
   inline void add_stateChangedEvent(::System::Action* value);
 
-  /// @brief Method remove_stateChangedEvent, addr 0x222b94c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_stateChangedEvent, addr 0x22b55ec, size 0x9c, virtual false, abstract: false, final false
   inline void remove_stateChangedEvent(::System::Action* value);
 
-  /// @brief Method get_timeSinceStart, addr 0x222b9e8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_timeSinceStart, addr 0x22b5688, size 0x20, virtual false, abstract: false, final false
   inline float_t get_timeSinceStart();
 
-  /// @brief Method Awake, addr 0x222ba08, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x22b56a8, size 0x48, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Start, addr 0x222ba50, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x22b56f0, size 0xd8, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x222bb28, size 0x358, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x22b57c8, size 0x358, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method StartSong, addr 0x222be80, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method StartSong, addr 0x22b5b20, size 0x44, virtual false, abstract: false, final false
   inline void StartSong(float_t startTimeOffset);
 
-  /// @brief Method SeekTo, addr 0x222bec4, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method SeekTo, addr 0x22b5b64, size 0x180, virtual false, abstract: false, final false
   inline void SeekTo(float_t startTimeOffset);
 
-  /// @brief Method StopSong, addr 0x222c044, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method StopSong, addr 0x22b5ce4, size 0x48, virtual false, abstract: false, final false
   inline void StopSong();
 
-  /// @brief Method Pause, addr 0x222c08c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Pause, addr 0x22b5d2c, size 0x58, virtual false, abstract: false, final false
   inline void Pause();
 
-  /// @brief Method Resume, addr 0x222c0e4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Resume, addr 0x22b5d84, size 0x50, virtual false, abstract: false, final false
   inline void Resume();
 
-  /// @brief Method SetSongTimeIntoAudioTime, addr 0x222c134, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method SetSongTimeIntoAudioTime, addr 0x22b5dd4, size 0xe0, virtual false, abstract: false, final false
   inline void SetSongTimeIntoAudioTime();
 
   static inline ::GlobalNamespace::AudioTimeSyncController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x222c214, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b5eb4, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_waitUntilAudioIsLoaded>b__27_0, addr 0x222c228, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <get_waitUntilAudioIsLoaded>b__27_0, addr 0x22b5ec8, size 0x4, virtual false, abstract: false, final false
   inline bool _get_waitUntilAudioIsLoaded_b__27_0();
 
   // Ctor Parameters [CppParam { name: "", ty: "AudioTimeSyncController", modifiers: "&&", def_value: None }]

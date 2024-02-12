@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::Unity::XR::Oculus::OculusLoader);
 namespace Unity::XR::Oculus {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15132))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15172))
 // CS Name: ::OculusLoader::DeviceSupportedResult
 struct CORDL_TYPE __OculusLoader__DeviceSupportedResult {
 public:
@@ -90,8 +90,8 @@ static_assert(offsetof(::Unity::XR::Oculus::__OculusLoader__DeviceSupportedResul
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Unity::XR::Oculus {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16036))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15133))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16154))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15173))
 // CS Name: ::Unity.XR.Oculus::OculusLoader*
 class CORDL_TYPE OculusLoader : public ::UnityEngine::XR::Management::XRLoaderHelper {
 public:
@@ -118,42 +118,42 @@ public:
 
   static inline ::System::Collections::Generic::List_1<Il2CppObject*>* getStaticF_s_InputSubsystemDescriptors();
 
-  /// @brief Method IsDeviceSupported, addr 0x2c77b64, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method IsDeviceSupported, addr 0x2c746d0, size 0x90, virtual false, abstract: false, final false
   static inline ::Unity::XR::Oculus::__OculusLoader__DeviceSupportedResult IsDeviceSupported();
 
-  /// @brief Method get_displaySubsystem, addr 0x2c77bf8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_displaySubsystem, addr 0x2c74764, size 0x70, virtual false, abstract: false, final false
   inline Il2CppObject* get_displaySubsystem();
 
-  /// @brief Method get_inputSubsystem, addr 0x2c77c68, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_inputSubsystem, addr 0x2c747d4, size 0x70, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::XRInputSubsystem* get_inputSubsystem();
 
-  /// @brief Method Initialize, addr 0x2c77cd8, size 0x438, virtual true, abstract: false, final false
+  /// @brief Method Initialize, addr 0x2c74844, size 0x438, virtual true, abstract: false, final false
   inline bool Initialize();
 
-  /// @brief Method PermissionGrantedCallback, addr 0x2c784a0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method PermissionGrantedCallback, addr 0x2c7500c, size 0x64, virtual false, abstract: false, final false
   inline void PermissionGrantedCallback(::StringW permissionName);
 
-  /// @brief Method Start, addr 0x2c7850c, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x2c75078, size 0x7c, virtual true, abstract: false, final false
   inline bool Start();
 
-  /// @brief Method Stop, addr 0x2c78588, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Stop, addr 0x2c750f4, size 0x7c, virtual true, abstract: false, final false
   inline bool Stop();
 
-  /// @brief Method Deinitialize, addr 0x2c78604, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Deinitialize, addr 0x2c75170, size 0x7c, virtual true, abstract: false, final false
   inline bool Deinitialize();
 
-  /// @brief Method RuntimeLoadOVRPlugin, addr 0x2c786fc, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method RuntimeLoadOVRPlugin, addr 0x2c75268, size 0x178, virtual false, abstract: false, final false
   static inline void RuntimeLoadOVRPlugin();
 
-  /// @brief Method GetSettings, addr 0x2c78878, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetSettings, addr 0x2c753e4, size 0x48, virtual false, abstract: false, final false
   inline ::UnityW<::Unity::XR::Oculus::OculusSettings> GetSettings();
 
-  /// @brief Method CheckUnityVersionCompatibility, addr 0x2c78110, size 0x2dc, virtual false, abstract: false, final false
+  /// @brief Method CheckUnityVersionCompatibility, addr 0x2c74c7c, size 0x2dc, virtual false, abstract: false, final false
   inline bool CheckUnityVersionCompatibility();
 
   static inline ::Unity::XR::Oculus::OculusLoader* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c788c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c7542c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OculusLoader", modifiers: "&&", def_value: None }]

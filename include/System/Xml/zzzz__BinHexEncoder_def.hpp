@@ -21,18 +21,18 @@ MARK_REF_PTR_T(::System::Xml::BinHexEncoder);
 namespace System::Xml {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11407))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11305))
 // CS Name: ::System.Xml::BinHexEncoder*
 class CORDL_TYPE BinHexEncoder : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Encode, addr 0x284e120, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x2851788, size 0x1a8, virtual false, abstract: false, final false
   static inline void Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t index, int32_t count, ::System::Xml::XmlWriter* writer);
 
-  /// @brief Method Encode, addr 0x284e3ec, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x2851a54, size 0x14c, virtual false, abstract: false, final false
   static inline ::StringW Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> inArray, int32_t offsetIn, int32_t count);
 
-  /// @brief Method Encode, addr 0x284e2c8, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x2851930, size 0x124, virtual false, abstract: false, final false
   static inline int32_t Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> inArray, int32_t offsetIn, int32_t count, ::ArrayW<char16_t, ::Array<char16_t>*> outArray);
 
   // Ctor Parameters [CppParam { name: "", ty: "BinHexEncoder", modifiers: "&&", def_value: None }]

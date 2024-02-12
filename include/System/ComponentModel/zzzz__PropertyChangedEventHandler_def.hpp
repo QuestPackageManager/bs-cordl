@@ -22,17 +22,17 @@ MARK_REF_PTR_T(::System::ComponentModel::PropertyChangedEventHandler);
 namespace System::ComponentModel {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9467))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7477))
 // CS Name: ::System.ComponentModel::PropertyChangedEventHandler*
 class CORDL_TYPE PropertyChangedEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::System::ComponentModel::PropertyChangedEventHandler* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2919a1c, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x291e084, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x2919b4c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x291e1b4, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* sender, ::System::ComponentModel::PropertyChangedEventArgs* e);
 
   // Ctor Parameters [CppParam { name: "", ty: "PropertyChangedEventHandler", modifiers: "&&", def_value: None }]

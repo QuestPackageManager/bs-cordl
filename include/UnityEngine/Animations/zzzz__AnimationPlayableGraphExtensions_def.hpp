@@ -23,12 +23,12 @@ MARK_REF_PTR_T(::UnityEngine::Animations::AnimationPlayableGraphExtensions);
 namespace UnityEngine::Animations {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14892))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14765))
 // CS Name: ::UnityEngine.Animations::AnimationPlayableGraphExtensions*
 class CORDL_TYPE AnimationPlayableGraphExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method InternalCreateAnimationOutput, addr 0x2c9765c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method InternalCreateAnimationOutput, addr 0x2c941c8, size 0x54, virtual false, abstract: false, final false
   static inline bool InternalCreateAnimationOutput(ByRef<::UnityEngine::Playables::PlayableGraph> graph, ::StringW name, ByRef<::UnityEngine::Playables::PlayableOutputHandle> handle);
 
   // Ctor Parameters [CppParam { name: "", ty: "AnimationPlayableGraphExtensions", modifiers: "&&", def_value: None }]

@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::Mono::Security::X509::SafeBag);
 namespace Mono::Security::X509 {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13745))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13698))
 // CS Name: ::Mono.Security.X509::SafeBag*
 class CORDL_TYPE SafeBag : public ::System::Object {
 public:
@@ -48,13 +48,13 @@ public:
 
   static inline ::Mono::Security::X509::SafeBag* New_ctor(::StringW bagOID, ::Mono::Security::ASN1* asn1);
 
-  /// @brief Method .ctor, addr 0x23f0550, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24103b0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW bagOID, ::Mono::Security::ASN1* asn1);
 
-  /// @brief Method get_BagOID, addr 0x23f057c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BagOID, addr 0x24103dc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_BagOID();
 
-  /// @brief Method get_ASN1, addr 0x23f0584, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ASN1, addr 0x24103e4, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::ASN1* get_ASN1();
 
   // Ctor Parameters [CppParam { name: "", ty: "SafeBag", modifiers: "&&", def_value: None }]

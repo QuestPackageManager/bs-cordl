@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::Unity::Collections::LowLevel::Unsafe::WriteAccessRequiredAttrib
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10022))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8753))
 // CS Name: ::Unity.Collections.LowLevel.Unsafe::WriteAccessRequiredAttribute*
 class CORDL_TYPE WriteAccessRequiredAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::Unity::Collections::LowLevel::Unsafe::WriteAccessRequiredAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c9e618, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c9f0bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "WriteAccessRequiredAttribute", modifiers: "&&", def_value: None }]

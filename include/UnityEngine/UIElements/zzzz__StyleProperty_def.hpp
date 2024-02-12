@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::StyleProperty);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7262))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6521))
 // CS Name: ::UnityEngine.UIElements::StyleProperty*
 class CORDL_TYPE StyleProperty : public ::System::Object {
 public:
@@ -76,15 +76,15 @@ public:
 
   constexpr void __cordl_internal_set_requireVariableResolve(bool value);
 
-  /// @brief Method get_name, addr 0x2e69970, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x2e83d58, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method get_values, addr 0x2e69978, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_values, addr 0x2e83d60, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::UIElements::StyleValueHandle, ::Array<::UnityEngine::UIElements::StyleValueHandle>*> get_values();
 
   static inline ::UnityEngine::UIElements::StyleProperty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e69980, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e83d68, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "StyleProperty", modifiers: "&&", def_value: None }]

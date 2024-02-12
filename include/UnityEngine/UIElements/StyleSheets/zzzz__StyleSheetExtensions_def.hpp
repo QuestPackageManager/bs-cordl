@@ -22,15 +22,15 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::StyleSheets::StyleSheetExtensions);
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7461))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6720))
 // CS Name: ::UnityEngine.UIElements.StyleSheets::StyleSheetExtensions*
 class CORDL_TYPE StyleSheetExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ReadAsString, addr 0x2de5a18, size 0x2dc, virtual false, abstract: false, final false
+  /// @brief Method ReadAsString, addr 0x2e03e00, size 0x2dc, virtual false, abstract: false, final false
   static inline ::StringW ReadAsString(::UnityEngine::UIElements::StyleSheet* sheet, ::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method IsVarFunction, addr 0x2de5f88, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method IsVarFunction, addr 0x2e04370, size 0x34, virtual false, abstract: false, final false
   static inline bool IsVarFunction(::UnityEngine::UIElements::StyleValueHandle handle);
 
   // Ctor Parameters [CppParam { name: "", ty: "StyleSheetExtensions", modifiers: "&&", def_value: None }]

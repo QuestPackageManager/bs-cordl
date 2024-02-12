@@ -64,35 +64,35 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Asn1StreamParser* New_ctor(::System::IO::Stream* inStream);
 
-  /// @brief Method .ctor, addr 0x11b4bd0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11e1a60, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* inStream);
 
   static inline ::Org::BouncyCastle::Asn1::Asn1StreamParser* New_ctor(::System::IO::Stream* inStream, int32_t limit);
 
-  /// @brief Method .ctor, addr 0x11b632c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11e31bc, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* inStream, int32_t limit);
 
   static inline ::Org::BouncyCastle::Asn1::Asn1StreamParser* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> encoding);
 
-  /// @brief Method .ctor, addr 0x11b9ed4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11e6d64, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> encoding);
 
-  /// @brief Method ReadIndef, addr 0x11b9f54, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method ReadIndef, addr 0x11e6de4, size 0x18c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::IAsn1Convertible* ReadIndef(int32_t tagValue);
 
-  /// @brief Method ReadImplicit, addr 0x11ba0e0, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method ReadImplicit, addr 0x11e6f70, size 0x2c8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::IAsn1Convertible* ReadImplicit(bool constructed, int32_t tag);
 
-  /// @brief Method ReadTaggedObject, addr 0x11b4c00, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method ReadTaggedObject, addr 0x11e1a90, size 0x23c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ReadTaggedObject(bool constructed, int32_t tag);
 
-  /// @brief Method ReadObject, addr 0x11ba5dc, size 0x5dc, virtual true, abstract: false, final false
+  /// @brief Method ReadObject, addr 0x11e746c, size 0x5dc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::IAsn1Convertible* ReadObject();
 
-  /// @brief Method Set00Check, addr 0x11babb8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Set00Check, addr 0x11e7a48, size 0x90, virtual false, abstract: false, final false
   inline void Set00Check(bool enabled);
 
-  /// @brief Method ReadVector, addr 0x11ba420, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method ReadVector, addr 0x11e72b0, size 0x128, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1EncodableVector* ReadVector();
 
   // Ctor Parameters [CppParam { name: "", ty: "Asn1StreamParser", modifiers: "&&", def_value: None }]

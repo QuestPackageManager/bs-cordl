@@ -48,8 +48,8 @@ namespace Zenject {
 // cpp template
 template <typename TObj, typename TResult>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15712))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11193))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15862))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10335))
 // CS Name: ::Zenject::GetterProvider`2<TObj,TResult>*
 class CORDL_TYPE GetterProvider_2 : public ::System::Object {
 public:

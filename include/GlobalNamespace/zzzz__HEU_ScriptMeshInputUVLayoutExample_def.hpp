@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::GlobalNamespace::HEU_ScriptMeshInputUVLayoutExample);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9590))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9382))
 // CS Name: ::HEU_ScriptMeshInputUVLayoutExample::OutputMode
 struct CORDL_TYPE __HEU_ScriptMeshInputUVLayoutExample__OutputMode {
 public:
@@ -79,20 +79,20 @@ static_assert(offsetof(::GlobalNamespace::__HEU_ScriptMeshInputUVLayoutExample__
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9591))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9383))
 // CS Name: ::HEU_ScriptMeshInputUVLayoutExample*
 class CORDL_TYPE HEU_ScriptMeshInputUVLayoutExample : public ::System::Object {
 public:
   // Declarations
   using OutputMode = ::GlobalNamespace::__HEU_ScriptMeshInputUVLayoutExample__OutputMode;
 
-  /// @brief Method ApplyUVLayoutTo, addr 0x214d0d0, size 0x840, virtual false, abstract: false, final false
+  /// @brief Method ApplyUVLayoutTo, addr 0x21e29b4, size 0x840, virtual false, abstract: false, final false
   static inline void ApplyUVLayoutTo(::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*> gameObjects,
                                      ::GlobalNamespace::__HEU_ScriptMeshInputUVLayoutExample__OutputMode outputMode, ::StringW output_name_suffix);
 
   static inline ::GlobalNamespace::HEU_ScriptMeshInputUVLayoutExample* New_ctor();
 
-  /// @brief Method .ctor, addr 0x214d9b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21e329c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_ScriptMeshInputUVLayoutExample", modifiers: "&&", def_value: None }]

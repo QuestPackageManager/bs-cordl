@@ -19,7 +19,7 @@ MARK_VAL_T(::UnityEngine::ResourceManagement::Util::SerializedType);
 namespace UnityEngine::ResourceManagement::Util {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13983))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13996))
 // CS Name: ::UnityEngine.ResourceManagement.Util::SerializedType
 struct CORDL_TYPE SerializedType {
 public:
@@ -32,25 +32,25 @@ public:
 
   __declspec(property(get = get_ValueChanged, put = set_ValueChanged)) bool ValueChanged;
 
-  /// @brief Method get_AssemblyName, addr 0x2bd2458, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AssemblyName, addr 0x2bcffc4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_AssemblyName();
 
-  /// @brief Method get_ClassName, addr 0x2bd2460, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ClassName, addr 0x2bcffcc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ClassName();
 
-  /// @brief Method ToString, addr 0x2bd2468, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2bcffd4, size 0xb0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_Value, addr 0x2bd2518, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x2bd0084, size 0x1f4, virtual false, abstract: false, final false
   inline ::System::Type* get_Value();
 
-  /// @brief Method set_Value, addr 0x2bd270c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method set_Value, addr 0x2bd0278, size 0xc0, virtual false, abstract: false, final false
   inline void set_Value(::System::Type* value);
 
-  /// @brief Method get_ValueChanged, addr 0x2bd27cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ValueChanged, addr 0x2bd0338, size 0x8, virtual false, abstract: false, final false
   inline bool get_ValueChanged();
 
-  /// @brief Method set_ValueChanged, addr 0x2bd27d4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ValueChanged, addr 0x2bd0340, size 0xc, virtual false, abstract: false, final false
   inline void set_ValueChanged(bool value);
 
   // Ctor Parameters [CppParam { name: "m_AssemblyName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_ClassName", ty: "::StringW", modifiers: "", def_value: None }, CppParam

@@ -57,21 +57,21 @@ public:
 
   constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method get_IsDeterministic, addr 0xf55e74, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsDeterministic, addr 0xf7fd04, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsDeterministic();
 
-  /// @brief Method Init, addr 0xf55e7c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0xf7fd0c, size 0x8, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method Init, addr 0xf55e84, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0xf7fd14, size 0x50, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Math::BigInteger* d, ::ArrayW<uint8_t, ::Array<uint8_t>*> message);
 
-  /// @brief Method NextK, addr 0xf55ed4, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method NextK, addr 0xf7fd64, size 0xc4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* NextK();
 
   static inline ::Org::BouncyCastle::Crypto::Signers::RandomDsaKCalculator* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf55f98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf7fe28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RandomDsaKCalculator", modifiers: "&&", def_value: None }]

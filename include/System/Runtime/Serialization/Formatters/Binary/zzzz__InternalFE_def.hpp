@@ -63,7 +63,7 @@ public:
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::InternalFE* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24d6180, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f71f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "InternalFE", modifiers: "&&", def_value: None }]

@@ -21,6 +21,9 @@ namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System {
@@ -41,7 +44,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__EnvironmentLightGroups____c);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4175))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10626))
 // CS Name: ::EnvironmentLightGroups::<>c*
 class CORDL_TYPE __EnvironmentLightGroups____c : public ::System::Object {
 public:
@@ -49,24 +52,24 @@ public:
   /// @brief Field <>9, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9, put = setStaticF___9))::GlobalNamespace::__EnvironmentLightGroups____c* __9;
 
-  /// @brief Field <>9__6_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__6_0, put = setStaticF___9__6_0))::System::Func_2<::UnityW<::GlobalNamespace::LightGroupSO>, int32_t>* __9__6_0;
+  /// @brief Field <>9__9_0, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__9_0, put = setStaticF___9__9_0))::System::Func_2<::UnityW<::GlobalNamespace::LightGroupSO>, int32_t>* __9__9_0;
 
   static inline void setStaticF___9(::GlobalNamespace::__EnvironmentLightGroups____c* value);
 
   static inline ::GlobalNamespace::__EnvironmentLightGroups____c* getStaticF___9();
 
-  static inline void setStaticF___9__6_0(::System::Func_2<::UnityW<::GlobalNamespace::LightGroupSO>, int32_t>* value);
+  static inline void setStaticF___9__9_0(::System::Func_2<::UnityW<::GlobalNamespace::LightGroupSO>, int32_t>* value);
 
-  static inline ::System::Func_2<::UnityW<::GlobalNamespace::LightGroupSO>, int32_t>* getStaticF___9__6_0();
+  static inline ::System::Func_2<::UnityW<::GlobalNamespace::LightGroupSO>, int32_t>* getStaticF___9__9_0();
 
   static inline ::GlobalNamespace::__EnvironmentLightGroups____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22408e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1266870, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Sort>b__6_0, addr 0x22408f0, size 0x18, virtual false, abstract: false, final false
-  inline int32_t _Sort_b__6_0(::GlobalNamespace::LightGroupSO* s);
+  /// @brief Method <Sort>b__9_0, addr 0x1266878, size 0x18, virtual false, abstract: false, final false
+  inline int32_t _Sort_b__9_0(::GlobalNamespace::LightGroupSO* s);
 
   // Ctor Parameters [CppParam { name: "", ty: "__EnvironmentLightGroups____c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
@@ -93,7 +96,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__EnvironmentLi
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4176))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10627))
 // CS Name: ::EnvironmentLightGroups*
 class CORDL_TYPE EnvironmentLightGroups : public ::System::Object {
 public:
@@ -112,6 +115,8 @@ public:
   __declspec(property(
       get = __cordl_internal_get__lightGroupSOListForLightGroupDataDict,
       put = __cordl_internal_set__lightGroupSOListForLightGroupDataDict))::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LightGroupSO>>* _lightGroupSOListForLightGroupDataDict;
+
+  __declspec(property(get = get_lightGroups))::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::ILightGroup*>* lightGroups;
 
   __declspec(property(get = get_lightGroupSOList))::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LightGroupSO>>* lightGroupSOList;
 
@@ -141,19 +146,22 @@ public:
 
   constexpr void __cordl_internal_set__lightGroupSOListForLightGroupDataDict(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LightGroupSO>>* value);
 
-  /// @brief Method get_lightGroupSOList, addr 0x2240508, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightGroups, addr 0x1266468, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::ILightGroup*>* get_lightGroups();
+
+  /// @brief Method get_lightGroupSOList, addr 0x1266470, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LightGroupSO>>* get_lightGroupSOList();
 
-  /// @brief Method GetDataForGroup, addr 0x2240510, size 0x24c, virtual true, abstract: false, final true
+  static inline ::GlobalNamespace::EnvironmentLightGroups* New_ctor(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LightGroupSO>>* lightGroups);
+
+  /// @brief Method .ctor, addr 0x1266478, size 0x28, virtual false, abstract: false, final false
+  inline void _ctor(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LightGroupSO>>* lightGroups);
+
+  /// @brief Method GetDataForGroup, addr 0x12664a0, size 0x24c, virtual true, abstract: false, final true
   inline ::GlobalNamespace::ILightGroup* GetDataForGroup(int32_t groupId);
 
-  /// @brief Method Sort, addr 0x224075c, size 0x120, virtual true, abstract: false, final true
+  /// @brief Method Sort, addr 0x12666ec, size 0x120, virtual false, abstract: false, final false
   inline void Sort();
-
-  static inline ::GlobalNamespace::EnvironmentLightGroups* New_ctor();
-
-  /// @brief Method .ctor, addr 0x224087c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EnvironmentLightGroups", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

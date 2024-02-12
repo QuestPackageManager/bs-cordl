@@ -10,6 +10,9 @@ namespace GlobalNamespace {
 class BeatmapData;
 }
 namespace GlobalNamespace {
+class BeatmapLevel;
+}
+namespace GlobalNamespace {
 struct EnvironmentEffectsFilterPreset;
 }
 namespace GlobalNamespace {
@@ -17,9 +20,6 @@ class EnvironmentIntensityReductionOptions;
 }
 namespace GlobalNamespace {
 class GameplayModifiers;
-}
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
 class IReadonlyBeatmapData;
@@ -44,30 +44,30 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapDataTransformHelper);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4133))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10591))
 // CS Name: ::BeatmapDataTransformHelper*
 class CORDL_TYPE BeatmapDataTransformHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateTransformedBeatmapData, addr 0x223b9d8, size 0x198, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::IReadonlyBeatmapData* CreateTransformedBeatmapData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData, ::GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel,
+  /// @brief Method CreateTransformedBeatmapData, addr 0x1264c18, size 0x198, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::IReadonlyBeatmapData* CreateTransformedBeatmapData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
                                                                                       ::GlobalNamespace::GameplayModifiers* gameplayModifiers, bool leftHanded,
                                                                                       ::GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterPreset,
                                                                                       ::GlobalNamespace::EnvironmentIntensityReductionOptions* environmentIntensityReductionOptions,
                                                                                       ::GlobalNamespace::MainSettingsModelSO* mainSettingsModel);
 
-  /// @brief Method AddTestBurstSlider, addr 0x223bc68, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method AddTestBurstSlider, addr 0x1264ea8, size 0xec, virtual false, abstract: false, final false
   static inline void AddTestBurstSlider(float_t time, float_t duration, int32_t headLineIndex, ::GlobalNamespace::NoteLineLayer headNoteLineLayer, ::GlobalNamespace::NoteCutDirection headCutDirection,
                                         int32_t tailLineIndex, ::GlobalNamespace::NoteLineLayer tailNoteLineLayer, ::GlobalNamespace::NoteCutDirection tailCutDirection, int32_t sliceCount,
                                         float_t squishAmount, ::GlobalNamespace::BeatmapData* beatmapData);
 
-  /// @brief Method AddTestSlider, addr 0x223bd54, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method AddTestSlider, addr 0x1264f94, size 0x188, virtual false, abstract: false, final false
   static inline void AddTestSlider(float_t time, float_t duration, int32_t headLineIndex, ::GlobalNamespace::NoteLineLayer headNoteLineLayer, ::GlobalNamespace::NoteCutDirection headCutDirection,
                                    float_t headControlPointLength, int32_t tailLineIndex, ::GlobalNamespace::NoteLineLayer tailNoteLineLayer, ::GlobalNamespace::NoteCutDirection tailCutDirection,
                                    float_t tailControlPointLength, bool hasHeadNote, bool hasTailNote, ::GlobalNamespace::BeatmapData* beatmapData);
 
-  /// @brief Method IsObstaclesMergingNeeded, addr 0x223bc5c, size 0xc, virtual false, abstract: false, final false
-  static inline bool IsObstaclesMergingNeeded(::GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel, bool screenDisplacementEffectsEnabled);
+  /// @brief Method IsObstaclesMergingNeeded, addr 0x1264e9c, size 0xc, virtual false, abstract: false, final false
+  static inline bool IsObstaclesMergingNeeded(::GlobalNamespace::BeatmapLevel* beatmapLevel, bool screenDisplacementEffectsEnabled);
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataTransformHelper", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

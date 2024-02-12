@@ -31,13 +31,13 @@ public:
 
   __declspec(property(get = get_Name))::StringW Name;
 
-  /// @brief Method .ctor, addr 0x24b4500, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24d5574, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW entryName, ::System::Object* entryValue, ::System::Type* entryType);
 
-  /// @brief Method get_Value, addr 0x24b450c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x24d5580, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Value();
 
-  /// @brief Method get_Name, addr 0x24b4514, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x24d5588, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
   // Ctor Parameters [CppParam { name: "_name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "_value", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam {

@@ -66,23 +66,23 @@ public:
 
   static inline ::System::Text::EncoderFallbackException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2634098, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x265a1bc, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Text::EncoderFallbackException* New_ctor(::StringW message, char16_t charUnknown, int32_t index);
 
-  /// @brief Method .ctor, addr 0x2633bf8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2659d1c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, char16_t charUnknown, int32_t index);
 
   static inline ::System::Text::EncoderFallbackException* New_ctor(::StringW message, char16_t charUnknownHigh, char16_t charUnknownLow, int32_t index);
 
-  /// @brief Method .ctor, addr 0x2633e88, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2659fac, size 0x1f8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, char16_t charUnknownHigh, char16_t charUnknownLow, int32_t index);
 
   static inline ::System::Text::EncoderFallbackException* New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
                                                                    ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method .ctor, addr 0x26340f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x265a218, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
   // Ctor Parameters [CppParam { name: "", ty: "EncoderFallbackException", modifiers: "&&", def_value: None }]

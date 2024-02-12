@@ -101,7 +101,7 @@ namespace GlobalNamespace {
 template <typename TType, typename TData, typename TPacket>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12892))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12790))
 // CS Name: ::NetworkPacketSerializer`2::<>c__DisplayClass4_0`1<TType,TData,TPacket>*
 class CORDL_TYPE __NetworkPacketSerializer_2____c__DisplayClass4_0_1 : public ::System::Object {
 public:
@@ -151,7 +151,7 @@ namespace GlobalNamespace {
 template <typename TType, typename TData, typename TPacket>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12893))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12791))
 // CS Name: ::NetworkPacketSerializer`2::<>c__DisplayClass5_0`1<TType,TData,TPacket>*
 class CORDL_TYPE __NetworkPacketSerializer_2____c__DisplayClass5_0_1 : public ::System::Object {
 public:
@@ -216,7 +216,7 @@ namespace GlobalNamespace {
 template <typename TType, typename TData, typename TPacket>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12894))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12792))
 // CS Name: ::NetworkPacketSerializer`2::<>c__6`1<TType,TData,TPacket>*
 class CORDL_TYPE __NetworkPacketSerializer_2____c__6_1 : public ::System::Object {
 public:
@@ -268,7 +268,7 @@ namespace GlobalNamespace {
 template <typename TType, typename TData, typename TPacket>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12895))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12793))
 // CS Name: ::NetworkPacketSerializer`2::<>c__DisplayClass7_0`1<TType,TData,TPacket>*
 class CORDL_TYPE __NetworkPacketSerializer_2____c__DisplayClass7_0_1 : public ::System::Object {
 public:
@@ -318,7 +318,7 @@ namespace GlobalNamespace {
 template <typename TType, typename TData, typename TPacket>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12896))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12794))
 // CS Name: ::NetworkPacketSerializer`2::<>c__DisplayClass8_0`1<TType,TData,TPacket>*
 class CORDL_TYPE __NetworkPacketSerializer_2____c__DisplayClass8_0_1 : public ::System::Object {
 public:
@@ -395,7 +395,7 @@ namespace GlobalNamespace {
 template <typename TType, typename TData>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12897))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12795))
 // CS Name: ::NetworkPacketSerializer`2::<>c__DisplayClass10_0<TType,TData>*
 class CORDL_TYPE __NetworkPacketSerializer_2____c__DisplayClass10_0 : public ::System::Object {
 public:
@@ -445,7 +445,7 @@ namespace GlobalNamespace {
 template <typename TType, typename TData>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12898))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12796))
 // CS Name: ::NetworkPacketSerializer`2<TType,TData>*
 class CORDL_TYPE NetworkPacketSerializer_2 : public ::System::Object {
 public:

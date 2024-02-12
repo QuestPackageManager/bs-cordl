@@ -22,15 +22,15 @@ MARK_REF_PTR_T(::GlobalNamespace::EssentialHelpers);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15853))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15598))
 // CS Name: ::EssentialHelpers*
 class CORDL_TYPE EssentialHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_CurrentTimeStamp, addr 0xe27ac0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentTimeStamp, addr 0xe517fc, size 0xb4, virtual false, abstract: false, final false
   static inline double_t get_CurrentTimeStamp();
 
-  /// @brief Method SafeDestroy, addr 0xe27b74, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method SafeDestroy, addr 0xe518b0, size 0xa8, virtual false, abstract: false, final false
   static inline void SafeDestroy(::UnityEngine::Object* obj);
 
   /// @brief Method GetOrAddComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

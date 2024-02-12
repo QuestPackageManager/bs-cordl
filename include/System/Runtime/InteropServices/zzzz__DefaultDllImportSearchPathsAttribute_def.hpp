@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::System::Runtime::InteropServices::DefaultDllImportSearchPathsAt
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Runtime::InteropServices {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(3328))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3329))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(3326))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3327))
 // CS Name: ::System.Runtime.InteropServices::DefaultDllImportSearchPathsAttribute*
 class CORDL_TYPE DefaultDllImportSearchPathsAttribute : public ::System::Attribute {
 public:
@@ -35,7 +35,7 @@ public:
 
   static inline ::System::Runtime::InteropServices::DefaultDllImportSearchPathsAttribute* New_ctor(::System::Runtime::InteropServices::DllImportSearchPath paths);
 
-  /// @brief Method .ctor, addr 0x24d72e8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f7f78, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::InteropServices::DllImportSearchPath paths);
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultDllImportSearchPathsAttribute", modifiers: "&&", def_value: None }]

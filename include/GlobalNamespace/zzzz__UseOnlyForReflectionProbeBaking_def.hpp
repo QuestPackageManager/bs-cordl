@@ -14,18 +14,18 @@ MARK_REF_PTR_T(::GlobalNamespace::UseOnlyForReflectionProbeBaking);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5868))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5158))
 // CS Name: ::UseOnlyForReflectionProbeBaking*
 class CORDL_TYPE UseOnlyForReflectionProbeBaking : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Method Awake, addr 0x22f84b0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2324e10, size 0x24, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::UseOnlyForReflectionProbeBaking* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22f84d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2324e34, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "UseOnlyForReflectionProbeBaking", modifiers: "&&", def_value: None }]

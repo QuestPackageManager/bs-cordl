@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::__Test_TreeInstance_Extensions____c);
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9940))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9732))
 // CS Name: ::Test_TreeInstance_Extensions::<>c*
 class CORDL_TYPE __Test_TreeInstance_Extensions____c : public ::System::Object {
 public:
@@ -63,13 +63,13 @@ public:
 
   static inline ::HoudiniEngineUnity::__Test_TreeInstance_Extensions____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21e86f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x227dfdc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <ToTestObject>b__1_0, addr 0x21e86fc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method <ToTestObject>b__1_0, addr 0x227dfe4, size 0x88, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::Test_TreeInstance* _ToTestObject_b__1_0(::UnityEngine::TreeInstance lod);
 
-  /// @brief Method <ToTestObject>b__2_0, addr 0x21e8784, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method <ToTestObject>b__2_0, addr 0x227e06c, size 0x88, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::Test_TreeInstance* _ToTestObject_b__2_0(::UnityEngine::TreeInstance lod);
 
   // Ctor Parameters [CppParam { name: "", ty: "__Test_TreeInstance_Extensions____c", modifiers: "&&", def_value: None }]
@@ -97,21 +97,21 @@ static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__Test_TreeI
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9941))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9733))
 // CS Name: ::HoudiniEngineUnity::Test_TreeInstance_Extensions*
 class CORDL_TYPE Test_TreeInstance_Extensions : public ::System::Object {
 public:
   // Declarations
   using __c = ::HoudiniEngineUnity::__Test_TreeInstance_Extensions____c;
 
-  /// @brief Method ToTestObject, addr 0x21e8414, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x227dcfc, size 0x88, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::Test_TreeInstance* ToTestObject(::UnityEngine::TreeInstance self);
 
-  /// @brief Method ToTestObject, addr 0x21e849c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x227dd84, size 0xf8, virtual false, abstract: false, final false
   static inline ::ArrayW<::HoudiniEngineUnity::Test_TreeInstance*, ::Array<::HoudiniEngineUnity::Test_TreeInstance*>*>
   ToTestObject(::ArrayW<::UnityEngine::TreeInstance, ::Array<::UnityEngine::TreeInstance>*> self);
 
-  /// @brief Method ToTestObject, addr 0x21e8594, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x227de7c, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_TreeInstance*>* ToTestObject(::System::Collections::Generic::List_1<::UnityEngine::TreeInstance>* self);
 
   // Ctor Parameters [CppParam { name: "", ty: "Test_TreeInstance_Extensions", modifiers: "&&", def_value: None }]

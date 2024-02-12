@@ -63,13 +63,13 @@ MARK_VAL_T(::UnityEngine::InputSystem::HID::__HIDParser__HIDReportData);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::HID {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6393))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6406))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5652))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5665))
 // CS Name: ::HIDParser::HIDReportData
 struct CORDL_TYPE __HIDParser__HIDReportData {
 public:
   // Declarations
-  /// @brief Method FindOrAddReport, addr 0x2adfb04, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method FindOrAddReport, addr 0x2ae0670, size 0x18c, virtual false, abstract: false, final false
   static inline int32_t FindOrAddReport(::System::Nullable_1<int32_t> reportId, ::UnityEngine::InputSystem::HID::__HID__HIDReportType reportType,
                                         ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::HID::__HIDParser__HIDReportData>* reports);
 
@@ -110,7 +110,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::HID::__HIDParser__HIDReportDa
 namespace UnityEngine::InputSystem::HID {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6407))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5666))
 // CS Name: ::HIDParser::HIDItemTypeAndTag
 struct CORDL_TYPE __HIDParser__HIDItemTypeAndTag {
 public:
@@ -259,19 +259,19 @@ static_assert(offsetof(::UnityEngine::InputSystem::HID::__HIDParser__HIDItemType
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::HID {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 98 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6408))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 103 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5667))
 // CS Name: ::HIDParser::HIDItemStateLocal
 struct CORDL_TYPE __HIDParser__HIDItemStateLocal {
 public:
   // Declarations
-  /// @brief Method Reset, addr 0x2adfaa4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x2ae0610, size 0x60, virtual false, abstract: false, final false
   static inline void Reset(ByRef<::UnityEngine::InputSystem::HID::__HIDParser__HIDItemStateLocal> state);
 
-  /// @brief Method SetUsage, addr 0x2adf7a8, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method SetUsage, addr 0x2ae0314, size 0x158, virtual false, abstract: false, final false
   inline void SetUsage(int32_t value);
 
-  /// @brief Method GetUsage, addr 0x2adf98c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method GetUsage, addr 0x2ae04f8, size 0x118, virtual false, abstract: false, final false
   inline int32_t GetUsage(int32_t index);
 
   // Ctor Parameters [CppParam { name: "usage", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "usageMinimum", ty: "::System::Nullable_1<int32_t>", modifiers:
@@ -352,19 +352,19 @@ static_assert(offsetof(::UnityEngine::InputSystem::HID::__HIDParser__HIDItemStat
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::HID {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 98 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6409))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 103 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5668))
 // CS Name: ::HIDParser::HIDItemStateGlobal
 struct CORDL_TYPE __HIDParser__HIDItemStateGlobal {
 public:
   // Declarations
-  /// @brief Method GetUsagePage, addr 0x2adf900, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetUsagePage, addr 0x2ae046c, size 0x8c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::HID::__HID__UsagePage GetUsagePage(int32_t index, ByRef<::UnityEngine::InputSystem::HID::__HIDParser__HIDItemStateLocal> localItemState);
 
-  /// @brief Method GetPhysicalMin, addr 0x2adfc90, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method GetPhysicalMin, addr 0x2ae07fc, size 0xc4, virtual false, abstract: false, final false
   inline int32_t GetPhysicalMin();
 
-  /// @brief Method GetPhysicalMax, addr 0x2adfd54, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetPhysicalMax, addr 0x2ae08c0, size 0xb4, virtual false, abstract: false, final false
   inline int32_t GetPhysicalMax();
 
   // Ctor Parameters [CppParam { name: "usagePage", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "logicalMinimum", ty: "::System::Nullable_1<int32_t>",
@@ -446,7 +446,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::HID::__HIDParser__HIDItemStat
 namespace UnityEngine::InputSystem::HID {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6410))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5669))
 // CS Name: ::UnityEngine.InputSystem.HID::HIDParser*
 class CORDL_TYPE HIDParser : public ::System::Object {
 public:
@@ -459,13 +459,13 @@ public:
 
   using HIDReportData = ::UnityEngine::InputSystem::HID::__HIDParser__HIDReportData;
 
-  /// @brief Method ParseReportDescriptor, addr 0x2adf6c0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ParseReportDescriptor, addr 0x2ae022c, size 0x70, virtual false, abstract: false, final false
   static inline bool ParseReportDescriptor(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, ByRef<::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor> deviceDescriptor);
 
-  /// @brief Method ParseReportDescriptor, addr 0x2adbffc, size 0xc44, virtual false, abstract: false, final false
+  /// @brief Method ParseReportDescriptor, addr 0x2adcb68, size 0xc44, virtual false, abstract: false, final false
   static inline bool ParseReportDescriptor(::cordl_internals::Ptr<uint8_t> bufferPtr, int32_t bufferLength, ByRef<::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor> deviceDescriptor);
 
-  /// @brief Method ReadData, addr 0x2adf730, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ReadData, addr 0x2ae029c, size 0x78, virtual false, abstract: false, final false
   static inline int32_t ReadData(int32_t itemSize, ::cordl_internals::Ptr<uint8_t> currentPtr, ::cordl_internals::Ptr<uint8_t> endPtr);
 
   // Ctor Parameters [CppParam { name: "", ty: "HIDParser", modifiers: "&&", def_value: None }]

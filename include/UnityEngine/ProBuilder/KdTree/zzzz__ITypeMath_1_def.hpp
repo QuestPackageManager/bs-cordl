@@ -18,7 +18,7 @@ namespace UnityEngine::ProBuilder::KdTree {
 template <typename T>
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15920))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16043))
 // CS Name: ::UnityEngine.ProBuilder.KdTree::ITypeMath`1<T>*
 class CORDL_TYPE ITypeMath_1 {
 public:

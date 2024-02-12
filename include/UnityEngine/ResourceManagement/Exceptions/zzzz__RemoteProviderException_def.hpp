@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::Exceptions::RemoteProviderExce
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::Exceptions {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13964))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13965))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13977))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13978))
 // CS Name: ::UnityEngine.ResourceManagement.Exceptions::RemoteProviderException*
 class CORDL_TYPE RemoteProviderException : public ::UnityEngine::ResourceManagement::Exceptions::ProviderException {
 public:
@@ -48,17 +48,17 @@ public:
                                                                                                  ::UnityEngine::ResourceManagement::Util::UnityWebRequestResult* uwrResult,
                                                                                                  ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x2bd01c0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bcdd2c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::UnityEngine::ResourceManagement::Util::UnityWebRequestResult* uwrResult,
                     ::System::Exception* innerException);
 
-  /// @brief Method get_Message, addr 0x2bd01ec, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x2bcdd58, size 0xc, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
-  /// @brief Method get_WebRequestResult, addr 0x2bd01f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_WebRequestResult, addr 0x2bcdd64, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::Util::UnityWebRequestResult* get_WebRequestResult();
 
-  /// @brief Method ToString, addr 0x2bd0200, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2bcdd6c, size 0x174, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "RemoteProviderException", modifiers: "&&", def_value: None }]

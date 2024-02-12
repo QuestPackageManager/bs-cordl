@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::System::Net::EndPointManager);
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9165))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7175))
 // CS Name: ::System.Net::EndPointManager*
 class CORDL_TYPE EndPointManager : public ::System::Object {
 public:
@@ -41,28 +41,28 @@ public:
 
   static inline ::System::Collections::Hashtable* getStaticF_ip_to_endpoints();
 
-  /// @brief Method AddListener, addr 0x29c353c, size 0x70c, virtual false, abstract: false, final false
+  /// @brief Method AddListener, addr 0x29c6fe0, size 0x70c, virtual false, abstract: false, final false
   static inline void AddListener(::System::Net::HttpListener* listener);
 
-  /// @brief Method AddPrefix, addr 0x29c3f6c, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method AddPrefix, addr 0x29c7a10, size 0x11c, virtual false, abstract: false, final false
   static inline void AddPrefix(::StringW prefix, ::System::Net::HttpListener* listener);
 
-  /// @brief Method AddPrefixInternal, addr 0x29c3cf0, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method AddPrefixInternal, addr 0x29c7794, size 0x160, virtual false, abstract: false, final false
   static inline void AddPrefixInternal(::StringW p, ::System::Net::HttpListener* listener);
 
-  /// @brief Method GetEPListener, addr 0x29c4088, size 0x3dc, virtual false, abstract: false, final false
+  /// @brief Method GetEPListener, addr 0x29c7b2c, size 0x3dc, virtual false, abstract: false, final false
   static inline ::System::Net::EndPointListener* GetEPListener(::StringW host, int32_t port, ::System::Net::HttpListener* listener, bool secure);
 
-  /// @brief Method RemoveEndPoint, addr 0x29c279c, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method RemoveEndPoint, addr 0x29c6240, size 0x260, virtual false, abstract: false, final false
   static inline void RemoveEndPoint(::System::Net::EndPointListener* epl, ::System::Net::IPEndPoint* ep);
 
-  /// @brief Method RemoveListener, addr 0x29c4464, size 0x384, virtual false, abstract: false, final false
+  /// @brief Method RemoveListener, addr 0x29c7f08, size 0x384, virtual false, abstract: false, final false
   static inline void RemoveListener(::System::Net::HttpListener* listener);
 
-  /// @brief Method RemovePrefix, addr 0x29c3e50, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method RemovePrefix, addr 0x29c78f4, size 0x11c, virtual false, abstract: false, final false
   static inline void RemovePrefix(::StringW prefix, ::System::Net::HttpListener* listener);
 
-  /// @brief Method RemovePrefixInternal, addr 0x29c47e8, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method RemovePrefixInternal, addr 0x29c828c, size 0x11c, virtual false, abstract: false, final false
   static inline void RemovePrefixInternal(::StringW prefix, ::System::Net::HttpListener* listener);
 
   // Ctor Parameters [CppParam { name: "", ty: "EndPointManager", modifiers: "&&", def_value: None }]

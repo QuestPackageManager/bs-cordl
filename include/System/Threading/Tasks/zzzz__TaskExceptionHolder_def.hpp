@@ -92,40 +92,40 @@ public:
 
   static inline ::System::Threading::Tasks::TaskExceptionHolder* New_ctor(::System::Threading::Tasks::Task* task);
 
-  /// @brief Method .ctor, addr 0x2624af0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x264ac14, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::Task* task);
 
-  /// @brief Method ShouldFailFastOnUnobservedException, addr 0x262c79c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ShouldFailFastOnUnobservedException, addr 0x26528c0, size 0x8, virtual false, abstract: false, final false
   static inline bool ShouldFailFastOnUnobservedException();
 
-  /// @brief Method Finalize, addr 0x262c7a4, size 0x204, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x26528c8, size 0x204, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method get_ContainsFaultList, addr 0x2624704, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_ContainsFaultList, addr 0x264a828, size 0x1c, virtual false, abstract: false, final false
   inline bool get_ContainsFaultList();
 
-  /// @brief Method Add, addr 0x2624b18, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x264ac3c, size 0xc, virtual false, abstract: false, final false
   inline void Add(::System::Object* exceptionObject, bool representsCancellation);
 
-  /// @brief Method SetCancellationException, addr 0x262cb48, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method SetCancellationException, addr 0x2652c6c, size 0xbc, virtual false, abstract: false, final false
   inline void SetCancellationException(::System::Object* exceptionObject);
 
-  /// @brief Method AddFaultException, addr 0x262cc04, size 0x50c, virtual false, abstract: false, final false
+  /// @brief Method AddFaultException, addr 0x2652d28, size 0x50c, virtual false, abstract: false, final false
   inline void AddFaultException(::System::Object* exceptionObject);
 
-  /// @brief Method MarkAsUnhandled, addr 0x262d110, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method MarkAsUnhandled, addr 0x2653234, size 0x70, virtual false, abstract: false, final false
   inline void MarkAsUnhandled();
 
-  /// @brief Method MarkAsHandled, addr 0x26248dc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method MarkAsHandled, addr 0x264aa00, size 0x7c, virtual false, abstract: false, final false
   inline void MarkAsHandled(bool calledFromFinalizer);
 
-  /// @brief Method CreateExceptionObject, addr 0x2624b24, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method CreateExceptionObject, addr 0x264ac48, size 0x1b4, virtual false, abstract: false, final false
   inline ::System::AggregateException* CreateExceptionObject(bool calledFromFinalizer, ::System::Exception* includeThisException);
 
-  /// @brief Method GetExceptionDispatchInfos, addr 0x2624de4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetExceptionDispatchInfos, addr 0x264af08, size 0x8c, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*>* GetExceptionDispatchInfos();
 
-  /// @brief Method GetCancellationExceptionDispatchInfo, addr 0x262d180, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetCancellationExceptionDispatchInfo, addr 0x26532a4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* GetCancellationExceptionDispatchInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "TaskExceptionHolder", modifiers: "&&", def_value: None }]

@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::IKMappingSpine);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 113, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12554))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12558))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12452))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12456))
 // CS Name: ::RootMotion.FinalIK::IKMappingSpine*
 class CORDL_TYPE IKMappingSpine : public ::RootMotion::FinalIK::IKMapping {
 public:
@@ -168,50 +168,50 @@ public:
 
   constexpr void __cordl_internal_set_useFABRIK(bool value);
 
-  /// @brief Method IsValid, addr 0x125cf78, size 0x320, virtual true, abstract: false, final false
+  /// @brief Method IsValid, addr 0x12f6028, size 0x320, virtual true, abstract: false, final false
   inline bool IsValid(::RootMotion::FinalIK::IKSolver* solver, ByRef<::StringW> message);
 
   static inline ::RootMotion::FinalIK::IKMappingSpine* New_ctor();
 
-  /// @brief Method .ctor, addr 0x125d298, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12f6348, size 0x13c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::RootMotion::FinalIK::IKMappingSpine* New_ctor(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> spineBones, ::UnityEngine::Transform* leftUpperArmBone,
                                                                 ::UnityEngine::Transform* rightUpperArmBone, ::UnityEngine::Transform* leftThighBone, ::UnityEngine::Transform* rightThighBone);
 
-  /// @brief Method .ctor, addr 0x125d3d4, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12f6484, size 0x170, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> spineBones, ::UnityEngine::Transform* leftUpperArmBone, ::UnityEngine::Transform* rightUpperArmBone,
                     ::UnityEngine::Transform* leftThighBone, ::UnityEngine::Transform* rightThighBone);
 
-  /// @brief Method SetBones, addr 0x125d544, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetBones, addr 0x12f65f4, size 0x10, virtual false, abstract: false, final false
   inline void SetBones(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> spineBones, ::UnityEngine::Transform* leftUpperArmBone, ::UnityEngine::Transform* rightUpperArmBone,
                        ::UnityEngine::Transform* leftThighBone, ::UnityEngine::Transform* rightThighBone);
 
-  /// @brief Method StoreDefaultLocalState, addr 0x125d554, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method StoreDefaultLocalState, addr 0x12f6604, size 0x5c, virtual false, abstract: false, final false
   inline void StoreDefaultLocalState();
 
-  /// @brief Method FixTransforms, addr 0x125d5b0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method FixTransforms, addr 0x12f6660, size 0x78, virtual false, abstract: false, final false
   inline void FixTransforms();
 
-  /// @brief Method Initiate, addr 0x125d628, size 0x614, virtual true, abstract: false, final false
+  /// @brief Method Initiate, addr 0x12f66d8, size 0x614, virtual true, abstract: false, final false
   inline void Initiate(::RootMotion::FinalIK::IKSolverFullBody* solver);
 
-  /// @brief Method UseFABRIK, addr 0x125dc3c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method UseFABRIK, addr 0x12f6cec, size 0x38, virtual false, abstract: false, final false
   inline bool UseFABRIK();
 
-  /// @brief Method ReadPose, addr 0x125dc74, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method ReadPose, addr 0x12f6d24, size 0x264, virtual false, abstract: false, final false
   inline void ReadPose();
 
-  /// @brief Method WritePose, addr 0x125ded8, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method WritePose, addr 0x12f6f88, size 0x320, virtual false, abstract: false, final false
   inline void WritePose(::RootMotion::FinalIK::IKSolverFullBody* solver);
 
-  /// @brief Method ForwardReach, addr 0x125e1f8, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method ForwardReach, addr 0x12f72a8, size 0xe0, virtual false, abstract: false, final false
   inline void ForwardReach(::UnityEngine::Vector3 position);
 
-  /// @brief Method BackwardReach, addr 0x125e2d8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method BackwardReach, addr 0x12f7388, size 0xb4, virtual false, abstract: false, final false
   inline void BackwardReach(::UnityEngine::Vector3 position);
 
-  /// @brief Method MapToSolverPositions, addr 0x125e38c, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method MapToSolverPositions, addr 0x12f743c, size 0x23c, virtual false, abstract: false, final false
   inline void MapToSolverPositions(::RootMotion::FinalIK::IKSolverFullBody* solver);
 
   // Ctor Parameters [CppParam { name: "", ty: "IKMappingSpine", modifiers: "&&", def_value: None }]

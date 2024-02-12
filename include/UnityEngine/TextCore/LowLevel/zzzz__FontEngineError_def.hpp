@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::TextCore::LowLevel::FontEngineError);
 namespace UnityEngine::TextCore::LowLevel {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15533))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15719))
 // CS Name: ::UnityEngine.TextCore.LowLevel::FontEngineError
 struct CORDL_TYPE FontEngineError {
 public:

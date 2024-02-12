@@ -16,7 +16,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_PackedPrimInstancingMode);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9693))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9485))
 // CS Name: ::HoudiniEngineUnity::HAPI_PackedPrimInstancingMode
 struct CORDL_TYPE HAPI_PackedPrimInstancingMode {
 public:

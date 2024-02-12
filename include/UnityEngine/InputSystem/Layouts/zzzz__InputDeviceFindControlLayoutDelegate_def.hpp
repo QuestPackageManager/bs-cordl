@@ -33,26 +33,26 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Layouts::InputDeviceFindControlLayout
 namespace UnityEngine::InputSystem::Layouts {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6595))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5854))
 // CS Name: ::UnityEngine.InputSystem.Layouts::InputDeviceFindControlLayoutDelegate*
 class CORDL_TYPE InputDeviceFindControlLayoutDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Layouts::InputDeviceFindControlLayoutDelegate* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2afa2b4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2afae20, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x2afa38c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2afaef8, size 0x14, virtual true, abstract: false, final false
   inline ::StringW Invoke(ByRef<::UnityEngine::InputSystem::Layouts::InputDeviceDescription> description, ::StringW matchedLayout,
                           ::UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDelegate* executeDeviceCommand);
 
-  /// @brief Method BeginInvoke, addr 0x2afa3a0, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2afaf0c, size 0xa0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(ByRef<::UnityEngine::InputSystem::Layouts::InputDeviceDescription> description, ::StringW matchedLayout,
                                              ::UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDelegate* executeDeviceCommand, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2afa440, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2afafac, size 0x1c, virtual true, abstract: false, final false
   inline ::StringW EndInvoke(ByRef<::UnityEngine::InputSystem::Layouts::InputDeviceDescription> description, ::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "InputDeviceFindControlLayoutDelegate", modifiers: "&&", def_value: None }]

@@ -93,7 +93,7 @@ namespace Zenject {
 template <typename TSignal>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10641))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9783))
 // CS Name: ::BindSignalToBinder`1::<>c__DisplayClass6_0<TSignal>*
 class CORDL_TYPE __BindSignalToBinder_1____c__DisplayClass6_0 : public ::System::Object {
 public:
@@ -149,7 +149,7 @@ namespace Zenject {
 template <typename TSignal>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10642))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9784))
 // CS Name: ::BindSignalToBinder`1::<>c__DisplayClass7_0<TSignal>*
 class CORDL_TYPE __BindSignalToBinder_1____c__DisplayClass7_0 : public ::System::Object {
 public:
@@ -205,7 +205,7 @@ namespace Zenject {
 template <typename TSignal, typename TObject>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10643))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9785))
 // CS Name: ::BindSignalToBinder`1::<>c__DisplayClass8_0`1<TSignal,TObject>*
 class CORDL_TYPE __BindSignalToBinder_1____c__DisplayClass8_0_1 : public ::System::Object {
 public:
@@ -261,7 +261,7 @@ namespace Zenject {
 template <typename TSignal, typename TObject>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10644))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9786))
 // CS Name: ::BindSignalToBinder`1::<>c__DisplayClass8_1`1<TSignal,TObject>*
 class CORDL_TYPE __BindSignalToBinder_1____c__DisplayClass8_1_1 : public ::System::Object {
 public:
@@ -330,7 +330,7 @@ namespace Zenject {
 template <typename TSignal, typename TObject>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10645))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9787))
 // CS Name: ::BindSignalToBinder`1::<>c__DisplayClass9_0`1<TSignal,TObject>*
 class CORDL_TYPE __BindSignalToBinder_1____c__DisplayClass9_0_1 : public ::System::Object {
 public:
@@ -386,7 +386,7 @@ namespace Zenject {
 template <typename TSignal, typename TObject>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10646))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9788))
 // CS Name: ::BindSignalToBinder`1::<>c__DisplayClass9_1`1<TSignal,TObject>*
 class CORDL_TYPE __BindSignalToBinder_1____c__DisplayClass9_1_1 : public ::System::Object {
 public:
@@ -455,7 +455,7 @@ namespace Zenject {
 template <typename TSignal>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10647))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9789))
 // CS Name: ::Zenject::BindSignalToBinder`1<TSignal>*
 class CORDL_TYPE BindSignalToBinder_1 : public ::System::Object {
 public:

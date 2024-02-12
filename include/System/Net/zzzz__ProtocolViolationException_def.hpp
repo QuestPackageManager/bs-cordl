@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::System::Net::ProtocolViolationException);
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2427))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9082))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7092))
 // CS Name: ::System.Net::ProtocolViolationException*
 class CORDL_TYPE ProtocolViolationException : public ::System::InvalidOperationException {
 public:
@@ -38,25 +38,25 @@ public:
 
   static inline ::System::Net::ProtocolViolationException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x299ec40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29a36e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Net::ProtocolViolationException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x299ec48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29a36ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::System::Net::ProtocolViolationException* New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
                                                                     ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method .ctor, addr 0x299ec50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29a36f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x299ec58, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x29a36fc, size 0x8, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
                                                                        ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method GetObjectData, addr 0x299ec60, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x29a3704, size 0x8, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
   // Ctor Parameters [CppParam { name: "", ty: "ProtocolViolationException", modifiers: "&&", def_value: None }]

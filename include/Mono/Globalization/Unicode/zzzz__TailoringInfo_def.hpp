@@ -59,7 +59,7 @@ public:
 
   static inline ::Mono::Globalization::Unicode::TailoringInfo* New_ctor(int32_t lcid, int32_t tailoringIndex, int32_t tailoringCount, bool frenchSort);
 
-  /// @brief Method .ctor, addr 0x241553c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x243539c, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(int32_t lcid, int32_t tailoringIndex, int32_t tailoringCount, bool frenchSort);
 
   // Ctor Parameters [CppParam { name: "", ty: "TailoringInfo", modifiers: "&&", def_value: None }]

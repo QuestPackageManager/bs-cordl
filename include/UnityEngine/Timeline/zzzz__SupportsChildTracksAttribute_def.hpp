@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::SupportsChildTracksAttribute);
 namespace UnityEngine::Timeline {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13919))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13872))
 // CS Name: ::UnityEngine.Timeline::SupportsChildTracksAttribute*
 class CORDL_TYPE SupportsChildTracksAttribute : public ::System::Attribute {
 public:
@@ -44,7 +44,7 @@ public:
 
   static inline ::UnityEngine::Timeline::SupportsChildTracksAttribute* New_ctor(::System::Type* childType, int32_t levels);
 
-  /// @brief Method .ctor, addr 0x2c6e728, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c6b294, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* childType, int32_t levels);
 
   // Ctor Parameters [CppParam { name: "", ty: "SupportsChildTracksAttribute", modifiers: "&&", def_value: None }]

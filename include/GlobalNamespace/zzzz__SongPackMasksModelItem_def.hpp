@@ -2,33 +2,22 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__PackDefinitionSO_def.hpp"
 #include "GlobalNamespace/zzzz__SongPackDataType_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(SongPackMasksModelItem)
 namespace GlobalNamespace {
-class BeatmapLevelPackCollectionSO;
+class BeatmapLevelsModel;
 }
 namespace GlobalNamespace {
-class BeatmapLevelPackSO;
-}
-namespace GlobalNamespace {
-class IBeatmapLevelPack;
-}
-namespace GlobalNamespace {
-class PreviewBeatmapLevelPackSO;
+class PackDefinitionSO;
 }
 namespace GlobalNamespace {
 struct SongPackMask;
 }
 namespace GlobalNamespace {
 class __SongPackMasksModelItem____c;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -48,7 +37,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__SongPackMasksModelItem____c);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4520))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10943))
 // CS Name: ::SongPackMasksModelItem::<>c*
 class CORDL_TYPE __SongPackMasksModelItem____c : public ::System::Object {
 public:
@@ -56,66 +45,24 @@ public:
   /// @brief Field <>9, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9, put = setStaticF___9))::GlobalNamespace::__SongPackMasksModelItem____c* __9;
 
-  /// @brief Field <>9__11_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__11_0, put = setStaticF___9__11_0))::System::Func_2<::GlobalNamespace::IBeatmapLevelPack*, ::StringW>* __9__11_0;
-
-  /// @brief Field <>9__11_1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__11_1, put = setStaticF___9__11_1))::System::Func_2<::UnityW<::GlobalNamespace::BeatmapLevelPackSO>, ::StringW>* __9__11_1;
-
-  /// @brief Field <>9__11_2, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__11_2, put = setStaticF___9__11_2))::System::Func_2<::UnityW<::GlobalNamespace::PreviewBeatmapLevelPackSO>, ::StringW>* __9__11_2;
-
-  /// @brief Field <>9__11_4, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__11_4, put = setStaticF___9__11_4))::System::Func_2<::GlobalNamespace::IBeatmapLevelPack*, ::StringW>* __9__11_4;
-
-  /// @brief Field <>9__11_3, offset 0xffffffff, size 0x8
-  static __declspec(
-      property(get = getStaticF___9__11_3,
-               put = setStaticF___9__11_3))::System::Func_2<::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionSO>, ::System::Collections::Generic::IEnumerable_1<::StringW>*>* __9__11_3;
+  /// @brief Field <>9__7_0, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__7_0, put = setStaticF___9__7_0))::System::Func_2<::UnityW<::GlobalNamespace::PackDefinitionSO>, ::StringW>* __9__7_0;
 
   static inline void setStaticF___9(::GlobalNamespace::__SongPackMasksModelItem____c* value);
 
   static inline ::GlobalNamespace::__SongPackMasksModelItem____c* getStaticF___9();
 
-  static inline void setStaticF___9__11_0(::System::Func_2<::GlobalNamespace::IBeatmapLevelPack*, ::StringW>* value);
+  static inline void setStaticF___9__7_0(::System::Func_2<::UnityW<::GlobalNamespace::PackDefinitionSO>, ::StringW>* value);
 
-  static inline ::System::Func_2<::GlobalNamespace::IBeatmapLevelPack*, ::StringW>* getStaticF___9__11_0();
-
-  static inline void setStaticF___9__11_1(::System::Func_2<::UnityW<::GlobalNamespace::BeatmapLevelPackSO>, ::StringW>* value);
-
-  static inline ::System::Func_2<::UnityW<::GlobalNamespace::BeatmapLevelPackSO>, ::StringW>* getStaticF___9__11_1();
-
-  static inline void setStaticF___9__11_2(::System::Func_2<::UnityW<::GlobalNamespace::PreviewBeatmapLevelPackSO>, ::StringW>* value);
-
-  static inline ::System::Func_2<::UnityW<::GlobalNamespace::PreviewBeatmapLevelPackSO>, ::StringW>* getStaticF___9__11_2();
-
-  static inline void setStaticF___9__11_4(::System::Func_2<::GlobalNamespace::IBeatmapLevelPack*, ::StringW>* value);
-
-  static inline ::System::Func_2<::GlobalNamespace::IBeatmapLevelPack*, ::StringW>* getStaticF___9__11_4();
-
-  static inline void setStaticF___9__11_3(::System::Func_2<::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionSO>, ::System::Collections::Generic::IEnumerable_1<::StringW>*>* value);
-
-  static inline ::System::Func_2<::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionSO>, ::System::Collections::Generic::IEnumerable_1<::StringW>*>* getStaticF___9__11_3();
+  static inline ::System::Func_2<::UnityW<::GlobalNamespace::PackDefinitionSO>, ::StringW>* getStaticF___9__7_0();
 
   static inline ::GlobalNamespace::__SongPackMasksModelItem____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2364398, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12a1e38, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_songPackMask>b__11_0, addr 0x23643a0, size 0x9c, virtual false, abstract: false, final false
-  inline ::StringW _get_songPackMask_b__11_0(::GlobalNamespace::IBeatmapLevelPack* pack);
-
-  /// @brief Method <get_songPackMask>b__11_1, addr 0x236443c, size 0x18, virtual false, abstract: false, final false
-  inline ::StringW _get_songPackMask_b__11_1(::GlobalNamespace::BeatmapLevelPackSO* pack);
-
-  /// @brief Method <get_songPackMask>b__11_2, addr 0x2364454, size 0x18, virtual false, abstract: false, final false
-  inline ::StringW _get_songPackMask_b__11_2(::GlobalNamespace::PreviewBeatmapLevelPackSO* pack);
-
-  /// @brief Method <get_songPackMask>b__11_3, addr 0x236446c, size 0x114, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IEnumerable_1<::StringW>* _get_songPackMask_b__11_3(::GlobalNamespace::BeatmapLevelPackCollectionSO* collection);
-
-  /// @brief Method <get_songPackMask>b__11_4, addr 0x2364580, size 0x9c, virtual false, abstract: false, final false
-  inline ::StringW _get_songPackMask_b__11_4(::GlobalNamespace::IBeatmapLevelPack* pack);
+  /// @brief Method <GetSongPackMask>b__7_0, addr 0x12a1e40, size 0x20, virtual false, abstract: false, final false
+  inline ::StringW _GetSongPackMask_b__7_0(::GlobalNamespace::PackDefinitionSO* pack);
 
   // Ctor Parameters [CppParam { name: "", ty: "__SongPackMasksModelItem____c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
@@ -138,11 +85,11 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SongPackMasks
 
 } // namespace GlobalNamespace
 // Type: ::SongPackMasksModelItem
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4517))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4521))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10827)), TypeDefinitionIndex(TypeDefinitionIndex(10939))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10944))
 // CS Name: ::SongPackMasksModelItem*
 class CORDL_TYPE SongPackMasksModelItem : public ::System::Object {
 public:
@@ -152,34 +99,19 @@ public:
   /// @brief Field _type, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__type, put = __cordl_internal_set__type))::GlobalNamespace::SongPackDataType _type;
 
-  /// @brief Field _beatmapLevelPack, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapLevelPack, put = __cordl_internal_set__beatmapLevelPack))::UnityW<::GlobalNamespace::BeatmapLevelPackSO> _beatmapLevelPack;
-
-  /// @brief Field _previewBeatmapLevelPack, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__previewBeatmapLevelPack,
-                      put = __cordl_internal_set__previewBeatmapLevelPack))::UnityW<::GlobalNamespace::PreviewBeatmapLevelPackSO> _previewBeatmapLevelPack;
-
-  /// @brief Field _serializedName, offset 0x28, size 0x8
+  /// @brief Field _serializedName, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__serializedName, put = __cordl_internal_set__serializedName))::StringW _serializedName;
 
-  /// @brief Field _levelPackCollection, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__levelPackCollection, put = __cordl_internal_set__levelPackCollection))::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionSO> _levelPackCollection;
+  /// @brief Field _beatmapLevelPackId, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__beatmapLevelPackId, put = __cordl_internal_set__beatmapLevelPackId))::StringW _beatmapLevelPackId;
 
-  /// @brief Field _beatmapLevelPacks, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapLevelPacks,
-                      put = __cordl_internal_set__beatmapLevelPacks))::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapLevelPackSO>>* _beatmapLevelPacks;
+  /// @brief Field _includeTags, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get__includeTags, put = __cordl_internal_set__includeTags))::GlobalNamespace::__PackDefinitionSO__Tags _includeTags;
 
-  /// @brief Field _previewBeatmapLevelPacks, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__previewBeatmapLevelPacks,
-                      put = __cordl_internal_set__previewBeatmapLevelPacks))::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::PreviewBeatmapLevelPackSO>>* _previewBeatmapLevelPacks;
-
-  /// @brief Field _levelPackCollections, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__levelPackCollections,
-                      put = __cordl_internal_set__levelPackCollections))::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionSO>>* _levelPackCollections;
+  /// @brief Field _excludeTags, offset 0x2c, size 0x4
+  __declspec(property(get = __cordl_internal_get__excludeTags, put = __cordl_internal_set__excludeTags))::GlobalNamespace::__PackDefinitionSO__Tags _excludeTags;
 
   __declspec(property(get = get_serializedName))::StringW serializedName;
-
-  __declspec(property(get = get_songPackMask))::GlobalNamespace::SongPackMask songPackMask;
 
   __declspec(property(get = get_containsMultiplePacks)) bool containsMultiplePacks;
 
@@ -189,62 +121,42 @@ public:
 
   constexpr void __cordl_internal_set__type(::GlobalNamespace::SongPackDataType value);
 
-  constexpr ::UnityW<::GlobalNamespace::BeatmapLevelPackSO>& __cordl_internal_get__beatmapLevelPack();
-
-  constexpr ::UnityW<::GlobalNamespace::BeatmapLevelPackSO> const& __cordl_internal_get__beatmapLevelPack() const;
-
-  constexpr void __cordl_internal_set__beatmapLevelPack(::UnityW<::GlobalNamespace::BeatmapLevelPackSO> value);
-
-  constexpr ::UnityW<::GlobalNamespace::PreviewBeatmapLevelPackSO>& __cordl_internal_get__previewBeatmapLevelPack();
-
-  constexpr ::UnityW<::GlobalNamespace::PreviewBeatmapLevelPackSO> const& __cordl_internal_get__previewBeatmapLevelPack() const;
-
-  constexpr void __cordl_internal_set__previewBeatmapLevelPack(::UnityW<::GlobalNamespace::PreviewBeatmapLevelPackSO> value);
-
   constexpr ::StringW& __cordl_internal_get__serializedName();
 
   constexpr ::StringW const& __cordl_internal_get__serializedName() const;
 
   constexpr void __cordl_internal_set__serializedName(::StringW value);
 
-  constexpr ::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionSO>& __cordl_internal_get__levelPackCollection();
+  constexpr ::StringW& __cordl_internal_get__beatmapLevelPackId();
 
-  constexpr ::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionSO> const& __cordl_internal_get__levelPackCollection() const;
+  constexpr ::StringW const& __cordl_internal_get__beatmapLevelPackId() const;
 
-  constexpr void __cordl_internal_set__levelPackCollection(::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionSO> value);
+  constexpr void __cordl_internal_set__beatmapLevelPackId(::StringW value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapLevelPackSO>>*& __cordl_internal_get__beatmapLevelPacks();
+  constexpr ::GlobalNamespace::__PackDefinitionSO__Tags& __cordl_internal_get__includeTags();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapLevelPackSO>>*> const& __cordl_internal_get__beatmapLevelPacks() const;
+  constexpr ::GlobalNamespace::__PackDefinitionSO__Tags const& __cordl_internal_get__includeTags() const;
 
-  constexpr void __cordl_internal_set__beatmapLevelPacks(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapLevelPackSO>>* value);
+  constexpr void __cordl_internal_set__includeTags(::GlobalNamespace::__PackDefinitionSO__Tags value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::PreviewBeatmapLevelPackSO>>*& __cordl_internal_get__previewBeatmapLevelPacks();
+  constexpr ::GlobalNamespace::__PackDefinitionSO__Tags& __cordl_internal_get__excludeTags();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::PreviewBeatmapLevelPackSO>>*> const&
-  __cordl_internal_get__previewBeatmapLevelPacks() const;
+  constexpr ::GlobalNamespace::__PackDefinitionSO__Tags const& __cordl_internal_get__excludeTags() const;
 
-  constexpr void __cordl_internal_set__previewBeatmapLevelPacks(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::PreviewBeatmapLevelPackSO>>* value);
+  constexpr void __cordl_internal_set__excludeTags(::GlobalNamespace::__PackDefinitionSO__Tags value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionSO>>*& __cordl_internal_get__levelPackCollections();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionSO>>*> const&
-  __cordl_internal_get__levelPackCollections() const;
-
-  constexpr void __cordl_internal_set__levelPackCollections(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionSO>>* value);
-
-  /// @brief Method get_serializedName, addr 0x2363bdc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_serializedName, addr 0x12a1954, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW get_serializedName();
 
-  /// @brief Method get_songPackMask, addr 0x2363c1c, size 0x3c8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::SongPackMask get_songPackMask();
+  /// @brief Method GetSongPackMask, addr 0x12a1970, size 0x198, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::SongPackMask GetSongPackMask(::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel);
 
-  /// @brief Method get_containsMultiplePacks, addr 0x2363fe4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_containsMultiplePacks, addr 0x12a1b08, size 0x10, virtual false, abstract: false, final false
   inline bool get_containsMultiplePacks();
 
   static inline ::GlobalNamespace::SongPackMasksModelItem* New_ctor();
 
-  /// @brief Method .ctor, addr 0x236432c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12a1dcc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SongPackMasksModelItem", modifiers: "&&", def_value: None }]
@@ -264,47 +176,32 @@ public:
   /// @brief Field _type, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::SongPackDataType ____type;
 
-  /// @brief Field _beatmapLevelPack, offset: 0x18, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::BeatmapLevelPackSO> ____beatmapLevelPack;
-
-  /// @brief Field _previewBeatmapLevelPack, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::PreviewBeatmapLevelPackSO> ____previewBeatmapLevelPack;
-
-  /// @brief Field _serializedName, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _serializedName, offset: 0x18, size: 0x8, def value: None
   ::StringW ____serializedName;
 
-  /// @brief Field _levelPackCollection, offset: 0x30, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionSO> ____levelPackCollection;
+  /// @brief Field _beatmapLevelPackId, offset: 0x20, size: 0x8, def value: None
+  ::StringW ____beatmapLevelPackId;
 
-  /// @brief Field _beatmapLevelPacks, offset: 0x38, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapLevelPackSO>>* ____beatmapLevelPacks;
+  /// @brief Field _includeTags, offset: 0x28, size: 0x4, def value: None
+  ::GlobalNamespace::__PackDefinitionSO__Tags ____includeTags;
 
-  /// @brief Field _previewBeatmapLevelPacks, offset: 0x40, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::PreviewBeatmapLevelPackSO>>* ____previewBeatmapLevelPacks;
-
-  /// @brief Field _levelPackCollections, offset: 0x48, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionSO>>* ____levelPackCollections;
+  /// @brief Field _excludeTags, offset: 0x2c, size: 0x4, def value: None
+  ::GlobalNamespace::__PackDefinitionSO__Tags ____excludeTags;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SongPackMasksModelItem, 0x50>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SongPackMasksModelItem, 0x30>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SongPackMasksModelItem, ____type) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SongPackMasksModelItem, ____beatmapLevelPack) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SongPackMasksModelItem, ____serializedName) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SongPackMasksModelItem, ____previewBeatmapLevelPack) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SongPackMasksModelItem, ____beatmapLevelPackId) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SongPackMasksModelItem, ____serializedName) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SongPackMasksModelItem, ____includeTags) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SongPackMasksModelItem, ____levelPackCollection) == 0x30, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::SongPackMasksModelItem, ____beatmapLevelPacks) == 0x38, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::SongPackMasksModelItem, ____previewBeatmapLevelPacks) == 0x40, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::SongPackMasksModelItem, ____levelPackCollections) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SongPackMasksModelItem, ____excludeTags) == 0x2c, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SongPackMasksModelItem);

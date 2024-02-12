@@ -44,10 +44,10 @@ public:
 
   static inline ::System::Threading::__CancellationTokenSource__Linked2CancellationTokenSource* New_ctor(::System::Threading::CancellationToken token1, ::System::Threading::CancellationToken token2);
 
-  /// @brief Method .ctor, addr 0x2613958, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2638860, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::CancellationToken token1, ::System::Threading::CancellationToken token2);
 
-  /// @brief Method Dispose, addr 0x2613cc8, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x2638bd0, size 0x3c, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   // Ctor Parameters [CppParam { name: "", ty: "__CancellationTokenSource__Linked2CancellationTokenSource", modifiers: "&&", def_value: None }]

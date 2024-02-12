@@ -114,34 +114,34 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Macs::Dstu7624Mac* New_ctor(int32_t blockSizeBits, int32_t q);
 
-  /// @brief Method .ctor, addr 0xf0c490, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf38320, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor(int32_t blockSizeBits, int32_t q);
 
-  /// @brief Method Init, addr 0xf0c588, size 0x130, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0xf38418, size 0x130, virtual true, abstract: false, final true
   inline void Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method get_AlgorithmName, addr 0xf0c6b8, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_AlgorithmName, addr 0xf38548, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method GetMacSize, addr 0xf0c6f8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetMacSize, addr 0xf38588, size 0x8, virtual true, abstract: false, final true
   inline int32_t GetMacSize();
 
-  /// @brief Method Update, addr 0xf0c700, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method Update, addr 0xf38590, size 0x80, virtual true, abstract: false, final true
   inline void Update(uint8_t input);
 
-  /// @brief Method BlockUpdate, addr 0xf0c7c8, size 0x140, virtual true, abstract: false, final true
+  /// @brief Method BlockUpdate, addr 0xf38658, size 0x140, virtual true, abstract: false, final true
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t len);
 
-  /// @brief Method processBlock, addr 0xf0c780, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method processBlock, addr 0xf38610, size 0x48, virtual false, abstract: false, final false
   inline void processBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff);
 
-  /// @brief Method Xor, addr 0xf0c908, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Xor, addr 0xf38798, size 0x90, virtual false, abstract: false, final false
   inline void Xor(::ArrayW<uint8_t, ::Array<uint8_t>*> c, int32_t cOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> xorResult);
 
-  /// @brief Method DoFinal, addr 0xf0c998, size 0x134, virtual true, abstract: false, final true
+  /// @brief Method DoFinal, addr 0xf38828, size 0x134, virtual true, abstract: false, final true
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset, addr 0xf0cacc, size 0xd8, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0xf3895c, size 0xd8, virtual true, abstract: false, final true
   inline void Reset();
 
   // Ctor Parameters [CppParam { name: "", ty: "Dstu7624Mac", modifiers: "&&", def_value: None }]

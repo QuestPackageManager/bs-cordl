@@ -35,22 +35,22 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable();
 
-  /// @brief Method StringToUtf8_icall, addr 0x2412e94, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method StringToUtf8_icall, addr 0x2432cf4, size 0x4, virtual false, abstract: false, final false
   static inline void* StringToUtf8_icall(ByRef<::StringW> str);
 
-  /// @brief Method StringToUtf8, addr 0x2412e98, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method StringToUtf8, addr 0x2432cf8, size 0x18, virtual false, abstract: false, final false
   static inline void* StringToUtf8(::StringW str);
 
-  /// @brief Method GFree, addr 0x2412eb0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GFree, addr 0x2432d10, size 0x4, virtual false, abstract: false, final false
   static inline void GFree(void* ptr);
 
-  /// @brief Method .ctor, addr 0x2412c6c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2432acc, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::StringW str);
 
-  /// @brief Method get_Value, addr 0x2412eb4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x2432d14, size 0x80, virtual false, abstract: false, final false
   inline void* get_Value();
 
-  /// @brief Method Dispose, addr 0x2412f34, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2432d94, size 0x74, virtual true, abstract: false, final true
   inline void Dispose();
 
   // Ctor Parameters [CppParam { name: "str", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "marshaled_string", ty: "void*", modifiers: "", def_value: None }]

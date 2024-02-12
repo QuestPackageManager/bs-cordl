@@ -33,7 +33,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::JoystickState);
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6500))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5759))
 // CS Name: ::JoystickState::Button
 struct CORDL_TYPE __JoystickState__Button {
 public:
@@ -94,8 +94,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__JoystickState__Bu
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10243))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6501))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8987))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5760))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::JoystickState
 struct CORDL_TYPE JoystickState {
 public:
@@ -110,10 +110,10 @@ public:
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
   constexpr ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo* i___UnityEngine__InputSystem__LowLevel__IInputStateTypeInfo();
 
-  /// @brief Method get_kFormat, addr 0x2ae8850, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_kFormat, addr 0x2aea3bc, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_kFormat();
 
-  /// @brief Method get_format, addr 0x2ae8880, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_format, addr 0x2aea3ec, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
   // Ctor Parameters [CppParam { name: "buttons", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "stick", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }]

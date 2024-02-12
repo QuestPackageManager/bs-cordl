@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::UserCapability);
 namespace Oculus::Platform::Models {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13487))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13443))
 // CS Name: ::Oculus.Platform.Models::UserCapability*
 class CORDL_TYPE UserCapability : public ::System::Object {
 public:
@@ -60,7 +60,7 @@ public:
 
   static inline ::Oculus::Platform::Models::UserCapability* New_ctor(void* o);
 
-  /// @brief Method .ctor, addr 0x2709038, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x273da64, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "UserCapability", modifiers: "&&", def_value: None }]

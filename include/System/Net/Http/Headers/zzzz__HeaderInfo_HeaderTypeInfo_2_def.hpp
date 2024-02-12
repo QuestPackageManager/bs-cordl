@@ -36,8 +36,8 @@ namespace System::Net::Http::Headers {
 // cpp template
 template <typename T, typename U>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14671))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14669))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14676))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14674))
 // CS Name: ::HeaderInfo::HeaderTypeInfo`2<T,U>*
 class CORDL_TYPE __HeaderInfo__HeaderTypeInfo_2 : public ::System::Net::Http::Headers::HeaderInfo {
 public:

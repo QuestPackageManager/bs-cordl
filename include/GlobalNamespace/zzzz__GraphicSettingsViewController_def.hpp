@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::GlobalNamespace::GraphicSettingsViewController);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5753))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13558))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5053))
 // CS Name: ::GraphicSettingsViewController*
 class CORDL_TYPE GraphicSettingsViewController : public ::HMUI::ViewController {
 public:
@@ -32,12 +32,12 @@ public:
 
   constexpr void __cordl_internal_set__mainSettingsModel(::UnityW<::GlobalNamespace::MainSettingsModelSO> value);
 
-  /// @brief Method DidActivate, addr 0x22da2ec, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x230a9d4, size 0x4, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::GraphicSettingsViewController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22da2f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x230a9d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GraphicSettingsViewController", modifiers: "&&", def_value: None }]

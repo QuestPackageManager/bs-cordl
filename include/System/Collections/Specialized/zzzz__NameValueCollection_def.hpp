@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::System::Collections::Specialized::NameValueCollection);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Specialized {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9522))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9513))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7532))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7523))
 // CS Name: ::System.Collections.Specialized::NameValueCollection*
 class CORDL_TYPE NameValueCollection : public ::System::Collections::Specialized::NameObjectCollectionBase {
 public:
@@ -60,67 +60,67 @@ public:
 
   static inline ::System::Collections::Specialized::NameValueCollection* New_ctor();
 
-  /// @brief Method .ctor, addr 0x293caec, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2941154, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Specialized::NameValueCollection* New_ctor(int32_t capacity);
 
-  /// @brief Method .ctor, addr 0x293cba0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2941208, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity);
 
   static inline ::System::Collections::Specialized::NameValueCollection* New_ctor(int32_t capacity, ::System::Collections::IEqualityComparer* equalityComparer);
 
-  /// @brief Method .ctor, addr 0x293ccb4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x294131c, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity, ::System::Collections::IEqualityComparer* equalityComparer);
 
   static inline ::System::Collections::Specialized::NameValueCollection* New_ctor(::System::Runtime::Serialization::SerializationInfo* info,
                                                                                   ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x293cd54, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29413bc, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method InvalidateCachedArrays, addr 0x293cde8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InvalidateCachedArrays, addr 0x2941450, size 0x8, virtual false, abstract: false, final false
   inline void InvalidateCachedArrays();
 
-  /// @brief Method GetAsOneString, addr 0x293cdf0, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method GetAsOneString, addr 0x2941458, size 0x1a0, virtual false, abstract: false, final false
   static inline ::StringW GetAsOneString(::System::Collections::ArrayList* list);
 
-  /// @brief Method GetAsStringArray, addr 0x293cf90, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetAsStringArray, addr 0x29415f8, size 0xa0, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> GetAsStringArray(::System::Collections::ArrayList* list);
 
-  /// @brief Method Add, addr 0x293d030, size 0x16c, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x2941698, size 0x16c, virtual true, abstract: false, final false
   inline void Add(::StringW name, ::StringW value);
 
-  /// @brief Method Get, addr 0x293d318, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Get, addr 0x2941980, size 0x8c, virtual true, abstract: false, final false
   inline ::StringW Get(::StringW name);
 
-  /// @brief Method GetValues, addr 0x293d3a4, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method GetValues, addr 0x2941a0c, size 0x8c, virtual true, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> GetValues(::StringW name);
 
-  /// @brief Method Set, addr 0x293d430, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method Set, addr 0x2941a98, size 0xec, virtual true, abstract: false, final false
   inline void Set(::StringW name, ::StringW value);
 
-  /// @brief Method Remove, addr 0x293d5cc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Remove, addr 0x2941c34, size 0x8, virtual true, abstract: false, final false
   inline void Remove(::StringW name);
 
-  /// @brief Method get_Item, addr 0x293d7e0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x2941e48, size 0x10, virtual false, abstract: false, final false
   inline ::StringW get_Item(::StringW name);
 
-  /// @brief Method set_Item, addr 0x293d7f0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x2941e58, size 0x10, virtual false, abstract: false, final false
   inline void set_Item(::StringW name, ::StringW value);
 
-  /// @brief Method Get, addr 0x293d800, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method Get, addr 0x2941e68, size 0x84, virtual true, abstract: false, final false
   inline ::StringW Get(int32_t index);
 
-  /// @brief Method GetValues, addr 0x293d920, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method GetValues, addr 0x2941f88, size 0x84, virtual true, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> GetValues(int32_t index);
 
-  /// @brief Method GetKey, addr 0x293d9a4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method GetKey, addr 0x294200c, size 0x4, virtual true, abstract: false, final false
   inline ::StringW GetKey(int32_t index);
 
   static inline ::System::Collections::Specialized::NameValueCollection* New_ctor(::System::DBNull* dummy);
 
-  /// @brief Method .ctor, addr 0x293da44, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29420ac, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::DBNull* dummy);
 
   // Ctor Parameters [CppParam { name: "", ty: "NameValueCollection", modifiers: "&&", def_value: None }]

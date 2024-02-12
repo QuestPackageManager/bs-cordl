@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::TextGenerationError);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15897))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15839))
 // CS Name: ::UnityEngine::TextGenerationError
 struct CORDL_TYPE TextGenerationError {
 public:

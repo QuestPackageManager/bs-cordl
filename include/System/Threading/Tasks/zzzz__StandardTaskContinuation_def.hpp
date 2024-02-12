@@ -60,10 +60,10 @@ public:
   static inline ::System::Threading::Tasks::StandardTaskContinuation* New_ctor(::System::Threading::Tasks::Task* task, ::System::Threading::Tasks::TaskContinuationOptions options,
                                                                                ::System::Threading::Tasks::TaskScheduler* scheduler);
 
-  /// @brief Method .ctor, addr 0x2628370, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x264e494, size 0x120, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::Task* task, ::System::Threading::Tasks::TaskContinuationOptions options, ::System::Threading::Tasks::TaskScheduler* scheduler);
 
-  /// @brief Method Run, addr 0x262b60c, size 0x198, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x2651730, size 0x198, virtual true, abstract: false, final false
   inline void Run(::System::Threading::Tasks::Task* completedTask, bool bCanInlineContinuationTask);
 
   // Ctor Parameters [CppParam { name: "", ty: "StandardTaskContinuation", modifiers: "&&", def_value: None }]

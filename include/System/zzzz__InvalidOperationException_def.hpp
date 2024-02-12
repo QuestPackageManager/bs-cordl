@@ -32,22 +32,22 @@ public:
   // Declarations
   static inline ::System::InvalidOperationException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25adaa8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d09c0, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::InvalidOperationException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x25adb04, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d0a1c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::System::InvalidOperationException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x25adb28, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d0a40, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
   static inline ::System::InvalidOperationException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x25adb4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d0a64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "InvalidOperationException", modifiers: "&&", def_value: None }]

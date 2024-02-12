@@ -56,7 +56,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IStyle);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7362))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6621))
 // CS Name: ::UnityEngine.UIElements::IStyle*
 class CORDL_TYPE IStyle {
 public:

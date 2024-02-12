@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::GlobalNamespace::AvatarColorBehaviour);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10425)), TypeDefinitionIndex(TypeDefinitionIndex(16090))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6004))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8995)), TypeDefinitionIndex(TypeDefinitionIndex(9193)), TypeDefinitionIndex(TypeDefinitionIndex(16199))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5281))
 // CS Name: ::AvatarColorBehaviour*
 class CORDL_TYPE AvatarColorBehaviour : public ::UnityEngine::Playables::PlayableBehaviour {
 public:
@@ -81,18 +81,18 @@ public:
 
   constexpr void __cordl_internal_set__duration(float_t value);
 
-  /// @brief Method OnGraphStart, addr 0x2315250, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method OnGraphStart, addr 0x2341218, size 0x74, virtual true, abstract: false, final false
   inline void OnGraphStart(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method ProcessFrame, addr 0x23152c4, size 0x1e8, virtual true, abstract: false, final false
+  /// @brief Method ProcessFrame, addr 0x234128c, size 0x1e8, virtual true, abstract: false, final false
   inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* playerData);
 
-  /// @brief Method OnPlayableDestroy, addr 0x23154ac, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method OnPlayableDestroy, addr 0x2341474, size 0x8c, virtual true, abstract: false, final false
   inline void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
 
   static inline ::GlobalNamespace::AvatarColorBehaviour* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2315538, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2341500, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AvatarColorBehaviour", modifiers: "&&", def_value: None }]

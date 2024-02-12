@@ -15,18 +15,17 @@ MARK_REF_PTR_T(::System::LocalAppContextSwitches);
 namespace System {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8892))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11300))
 // CS Name: ::System::LocalAppContextSwitches*
 class CORDL_TYPE LocalAppContextSwitches : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field MemberDescriptorEqualsReturnsFalseIfEquivalent, offset 0xffffffff, size 0x1
-  static __declspec(property(get = getStaticF_MemberDescriptorEqualsReturnsFalseIfEquivalent,
-                             put = setStaticF_MemberDescriptorEqualsReturnsFalseIfEquivalent)) bool MemberDescriptorEqualsReturnsFalseIfEquivalent;
+  /// @brief Field DontThrowOnInvalidSurrogatePairs, offset 0xffffffff, size 0x1
+  static __declspec(property(get = getStaticF_DontThrowOnInvalidSurrogatePairs, put = setStaticF_DontThrowOnInvalidSurrogatePairs)) bool DontThrowOnInvalidSurrogatePairs;
 
-  static inline void setStaticF_MemberDescriptorEqualsReturnsFalseIfEquivalent(bool value);
+  static inline void setStaticF_DontThrowOnInvalidSurrogatePairs(bool value);
 
-  static inline bool getStaticF_MemberDescriptorEqualsReturnsFalseIfEquivalent();
+  static inline bool getStaticF_DontThrowOnInvalidSurrogatePairs();
 
   // Ctor Parameters [CppParam { name: "", ty: "LocalAppContextSwitches", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

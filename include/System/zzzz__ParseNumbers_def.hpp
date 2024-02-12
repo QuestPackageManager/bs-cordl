@@ -26,46 +26,46 @@ namespace System {
 class CORDL_TYPE ParseNumbers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method StringToLong, addr 0x25be474, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method StringToLong, addr 0x25e038c, size 0x18, virtual false, abstract: false, final false
   static inline int64_t StringToLong(::System::ReadOnlySpan_1<char16_t> s, int32_t radix, int32_t flags);
 
-  /// @brief Method StringToLong, addr 0x25be48c, size 0x370, virtual false, abstract: false, final false
+  /// @brief Method StringToLong, addr 0x25e03a4, size 0x370, virtual false, abstract: false, final false
   static inline int64_t StringToLong(::System::ReadOnlySpan_1<char16_t> s, int32_t radix, int32_t flags, ByRef<int32_t> currPos);
 
-  /// @brief Method StringToInt, addr 0x25beab0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method StringToInt, addr 0x25e09c8, size 0x18, virtual false, abstract: false, final false
   static inline int32_t StringToInt(::System::ReadOnlySpan_1<char16_t> s, int32_t radix, int32_t flags);
 
-  /// @brief Method StringToInt, addr 0x25beac8, size 0x3cc, virtual false, abstract: false, final false
+  /// @brief Method StringToInt, addr 0x25e09e0, size 0x3cc, virtual false, abstract: false, final false
   static inline int32_t StringToInt(::System::ReadOnlySpan_1<char16_t> s, int32_t radix, int32_t flags, ByRef<int32_t> currPos);
 
-  /// @brief Method IntToString, addr 0x25bf0b8, size 0x380, virtual false, abstract: false, final false
+  /// @brief Method IntToString, addr 0x25e0fd0, size 0x380, virtual false, abstract: false, final false
   static inline ::StringW IntToString(int32_t n, int32_t radix, int32_t width, char16_t paddingChar, int32_t flags);
 
-  /// @brief Method LongToString, addr 0x25bf438, size 0x3fc, virtual false, abstract: false, final false
+  /// @brief Method LongToString, addr 0x25e1350, size 0x3fc, virtual false, abstract: false, final false
   static inline ::StringW LongToString(int64_t n, int32_t radix, int32_t width, char16_t paddingChar, int32_t flags);
 
-  /// @brief Method EatWhiteSpace, addr 0x25be7fc, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method EatWhiteSpace, addr 0x25e0714, size 0xc4, virtual false, abstract: false, final false
   static inline void EatWhiteSpace(::System::ReadOnlySpan_1<char16_t> s, ByRef<int32_t> i);
 
-  /// @brief Method GrabLongs, addr 0x25be8c0, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method GrabLongs, addr 0x25e07d8, size 0x1f0, virtual false, abstract: false, final false
   static inline int64_t GrabLongs(int32_t radix, ::System::ReadOnlySpan_1<char16_t> s, ByRef<int32_t> i, bool isUnsigned);
 
-  /// @brief Method GrabInts, addr 0x25bee94, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method GrabInts, addr 0x25e0dac, size 0x224, virtual false, abstract: false, final false
   static inline int32_t GrabInts(int32_t radix, ::System::ReadOnlySpan_1<char16_t> s, ByRef<int32_t> i, bool isUnsigned);
 
-  /// @brief Method ThrowOverflowInt32Exception, addr 0x25bf8cc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ThrowOverflowInt32Exception, addr 0x25e17e4, size 0x4c, virtual false, abstract: false, final false
   static inline void ThrowOverflowInt32Exception();
 
-  /// @brief Method ThrowOverflowInt64Exception, addr 0x25bf834, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ThrowOverflowInt64Exception, addr 0x25e174c, size 0x4c, virtual false, abstract: false, final false
   static inline void ThrowOverflowInt64Exception();
 
-  /// @brief Method ThrowOverflowUInt32Exception, addr 0x25bf918, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ThrowOverflowUInt32Exception, addr 0x25e1830, size 0x4c, virtual false, abstract: false, final false
   static inline void ThrowOverflowUInt32Exception();
 
-  /// @brief Method ThrowOverflowUInt64Exception, addr 0x25bf880, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ThrowOverflowUInt64Exception, addr 0x25e1798, size 0x4c, virtual false, abstract: false, final false
   static inline void ThrowOverflowUInt64Exception();
 
-  /// @brief Method IsDigit, addr 0x25bf964, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method IsDigit, addr 0x25e187c, size 0x54, virtual false, abstract: false, final false
   static inline bool IsDigit(char16_t c, int32_t radix, ByRef<int32_t> result);
 
   // Ctor Parameters [CppParam { name: "", ty: "ParseNumbers", modifiers: "&&", def_value: None }]

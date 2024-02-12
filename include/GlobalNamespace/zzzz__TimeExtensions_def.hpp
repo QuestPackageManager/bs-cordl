@@ -21,72 +21,72 @@ MARK_REF_PTR_T(::GlobalNamespace::TimeExtensions);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15833))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15220))
 // CS Name: ::TimeExtensions*
 class CORDL_TYPE TimeExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method MinSecDurationText, addr 0xe25d38, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method MinSecDurationText, addr 0xe47fcc, size 0x1cc, virtual false, abstract: false, final false
   static inline ::StringW MinSecDurationText(float_t duration);
 
-  /// @brief Method MinSecMillisecDurationText, addr 0xe25fb0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method MinSecMillisecDurationText, addr 0xe48244, size 0xf4, virtual false, abstract: false, final false
   static inline ::StringW MinSecMillisecDurationText(float_t duration);
 
-  /// @brief Method OneBeatDuration, addr 0xe260dc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OneBeatDuration, addr 0xe48370, size 0x1c, virtual false, abstract: false, final false
   static inline float_t OneBeatDuration(float_t bpm);
 
-  /// @brief Method TimeToBeat, addr 0xe260f8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method TimeToBeat, addr 0xe4838c, size 0x14, virtual false, abstract: false, final false
   static inline float_t TimeToBeat(float_t time, float_t bpm);
 
-  /// @brief Method SecondsToMinutes, addr 0xe2610c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SecondsToMinutes, addr 0xe483a0, size 0x10, virtual false, abstract: false, final false
   static inline float_t SecondsToMinutes(float_t seconds);
 
-  /// @brief Method SecondsToDays, addr 0xe2611c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method SecondsToDays, addr 0xe483b0, size 0x20, virtual false, abstract: false, final false
   static inline int32_t SecondsToDays(int32_t time);
 
-  /// @brief Method SecondsToHours, addr 0xe2613c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method SecondsToHours, addr 0xe483d0, size 0x20, virtual false, abstract: false, final false
   static inline int32_t SecondsToHours(int32_t time);
 
-  /// @brief Method SecondsToMinutes, addr 0xe2615c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method SecondsToMinutes, addr 0xe483f0, size 0x20, virtual false, abstract: false, final false
   static inline int32_t SecondsToMinutes(int32_t time);
 
-  /// @brief Method DaysToSeconds, addr 0xe2617c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method DaysToSeconds, addr 0xe48410, size 0x10, virtual false, abstract: false, final false
   static inline int32_t DaysToSeconds(int32_t days);
 
-  /// @brief Method HoursToSeconds, addr 0xe2618c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method HoursToSeconds, addr 0xe48420, size 0xc, virtual false, abstract: false, final false
   static inline int32_t HoursToSeconds(int32_t hours);
 
-  /// @brief Method MinutesToSeconds, addr 0xe26198, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method MinutesToSeconds, addr 0xe4842c, size 0xc, virtual false, abstract: false, final false
   static inline int32_t MinutesToSeconds(int32_t minutes);
 
-  /// @brief Method Hours, addr 0xe261a4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Hours, addr 0xe48438, size 0x80, virtual false, abstract: false, final false
   static inline int32_t Hours(float_t time);
 
-  /// @brief Method Minutes, addr 0xe25f04, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Minutes, addr 0xe48198, size 0x7c, virtual false, abstract: false, final false
   static inline int32_t Minutes(float_t time);
 
-  /// @brief Method Seconds, addr 0xe25f80, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Seconds, addr 0xe48214, size 0x30, virtual false, abstract: false, final false
   static inline int32_t Seconds(float_t time);
 
-  /// @brief Method Milliseconds, addr 0xe260a4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Milliseconds, addr 0xe48338, size 0x38, virtual false, abstract: false, final false
   static inline int32_t Milliseconds(float_t time);
 
-  /// @brief Method TotalDays, addr 0xe26224, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method TotalDays, addr 0xe484b8, size 0x38, virtual false, abstract: false, final false
   static inline int32_t TotalDays(float_t time);
 
-  /// @brief Method TotalHours, addr 0xe2625c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method TotalHours, addr 0xe484f0, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t TotalHours(float_t time);
 
-  /// @brief Method TotalMinutes, addr 0xe26298, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method TotalMinutes, addr 0xe4852c, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t TotalMinutes(float_t time);
 
-  /// @brief Method TotalSeconds, addr 0xe262d4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method TotalSeconds, addr 0xe48568, size 0x1c, virtual false, abstract: false, final false
   static inline int32_t TotalSeconds(float_t time);
 
-  /// @brief Method ToUnixTime, addr 0xe262f0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method ToUnixTime, addr 0xe48584, size 0xcc, virtual false, abstract: false, final false
   static inline int64_t ToUnixTime(::System::DateTime dateTime);
 
-  /// @brief Method AsUnixTime, addr 0xe263bc, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method AsUnixTime, addr 0xe48650, size 0xc8, virtual false, abstract: false, final false
   static inline ::System::DateTime AsUnixTime(int64_t unixTime);
 
   // Ctor Parameters [CppParam { name: "", ty: "TimeExtensions", modifiers: "&&", def_value: None }]

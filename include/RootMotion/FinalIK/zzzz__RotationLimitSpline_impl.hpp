@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::RotationLimitSpline::*)()>(
     &::RootMotion::FinalIK::RotationLimitSpline::OpenUserManual)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x1292c90;
+  constexpr static std::size_t addrs = 0x132ad40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::RotationLimitSpline*>::get(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::RotationLimitSpline::*)()>(
     &::RootMotion::FinalIK::RotationLimitSpline::OpenScriptReference)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x1292cd4;
+  constexpr static std::size_t addrs = 0x132ad84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::RotationLimitSpline*>::get(),
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::RotationLimitSpline::*)()>(&::RootMotion::FinalIK::RotationLimitSpline::SupportGroup)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x1292d18;
+  constexpr static std::size_t addrs = 0x132adc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::RotationLimitSpline*>::get(),
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::RotationLimitSpline::*)()>(&::RootMotion::FinalIK::RotationLimitSpline::ASThread)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x1292d5c;
+  constexpr static std::size_t addrs = 0x132ae0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::RotationLimitSpline*>::get(), "ASThread",
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::RootMotion::FinalIK::RotationLimitSpline::*)(::ArrayW<::UnityEngine::Keyframe, ::Array<::UnityEngine::Keyframe>*>)>(&::RootMotion::FinalIK::RotationLimitSpline::SetSpline)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x1292da0;
+  constexpr static std::size_t addrs = 0x132ae50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (::RootMotion::FinalIK::RotationLimitSpline::*)(::UnityEngine::Quaternion)>(
     &::RootMotion::FinalIK::RotationLimitSpline::LimitRotation)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x1292dbc;
+  constexpr static std::size_t addrs = 0x132ae6c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (::RootMotion::FinalIK::RotationLimitSpline::*)(::UnityEngine::Quaternion)>(
     &::RootMotion::FinalIK::RotationLimitSpline::LimitSwing)> {
   constexpr static std::size_t size = 0x3b8;
-  constexpr static std::size_t addrs = 0x1292e50;
+  constexpr static std::size_t addrs = 0x132af00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::RotationLimitSpline::*)()>(&::RootMotion::FinalIK::RotationLimitSpline::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x1293208;
+  constexpr static std::size_t addrs = 0x132b2b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::RotationLimitSpline*>::get(), ".ctor",

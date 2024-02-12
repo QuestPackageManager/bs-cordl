@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::TypeInformation);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11870))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11871))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11768))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11769))
 // CS Name: ::Newtonsoft.Json.Utilities::TypeInformation*
 class CORDL_TYPE TypeInformation : public ::System::Object {
 public:
@@ -50,21 +50,21 @@ public:
 
   constexpr void __cordl_internal_set__TypeCode_k__BackingField(::Newtonsoft::Json::Utilities::PrimitiveTypeCode value);
 
-  /// @brief Method get_Type, addr 0x265bc70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x267ee2c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_Type();
 
-  /// @brief Method set_Type, addr 0x265bc78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Type, addr 0x267ee34, size 0x8, virtual false, abstract: false, final false
   inline void set_Type(::System::Type* value);
 
-  /// @brief Method get_TypeCode, addr 0x265bc80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x267ee3c, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Utilities::PrimitiveTypeCode get_TypeCode();
 
-  /// @brief Method set_TypeCode, addr 0x265bc88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_TypeCode, addr 0x267ee44, size 0x8, virtual false, abstract: false, final false
   inline void set_TypeCode(::Newtonsoft::Json::Utilities::PrimitiveTypeCode value);
 
   static inline ::Newtonsoft::Json::Utilities::TypeInformation* New_ctor();
 
-  /// @brief Method .ctor, addr 0x265bc90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x267ee4c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeInformation", modifiers: "&&", def_value: None }]

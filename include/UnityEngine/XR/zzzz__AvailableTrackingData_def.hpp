@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::XR::AvailableTrackingData);
 namespace UnityEngine::XR {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15628))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15759))
 // CS Name: ::UnityEngine.XR::AvailableTrackingData
 struct CORDL_TYPE AvailableTrackingData {
 public:

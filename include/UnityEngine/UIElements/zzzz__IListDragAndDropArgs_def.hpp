@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IListDragAndDropArgs);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6952))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6211))
 // CS Name: ::UnityEngine.UIElements::IListDragAndDropArgs*
 class CORDL_TYPE IListDragAndDropArgs {
 public:

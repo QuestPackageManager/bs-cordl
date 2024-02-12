@@ -42,7 +42,7 @@ public:
 
   static inline ::Mono::Xml::SmallXmlParserException* New_ctor(::StringW msg, int32_t line, int32_t column);
 
-  /// @brief Method .ctor, addr 0x2413830, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2433690, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::StringW msg, int32_t line, int32_t column);
 
   // Ctor Parameters [CppParam { name: "", ty: "SmallXmlParserException", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::ChainBuilderStats);
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7388))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6647))
 // CS Name: ::UnityEngine.UIElements.UIR::ChainBuilderStats
 struct CORDL_TYPE ChainBuilderStats {
 public:

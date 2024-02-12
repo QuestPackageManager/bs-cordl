@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::UnityEngineInternal::TypeInferenceRuleAttribute);
 namespace UnityEngineInternal {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9962))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8690))
 // CS Name: ::UnityEngineInternal::TypeInferenceRuleAttribute*
 class CORDL_TYPE TypeInferenceRuleAttribute : public ::System::Attribute {
 public:
@@ -35,15 +35,15 @@ public:
 
   static inline ::UnityEngineInternal::TypeInferenceRuleAttribute* New_ctor(::UnityEngineInternal::TypeInferenceRules rule);
 
-  /// @brief Method .ctor, addr 0x2c9d4fc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c9dfa8, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngineInternal::TypeInferenceRules rule);
 
   static inline ::UnityEngineInternal::TypeInferenceRuleAttribute* New_ctor(::StringW rule);
 
-  /// @brief Method .ctor, addr 0x2c9d580, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c9e02c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW rule);
 
-  /// @brief Method ToString, addr 0x2c9d5a8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2c9e054, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeInferenceRuleAttribute", modifiers: "&&", def_value: None }]

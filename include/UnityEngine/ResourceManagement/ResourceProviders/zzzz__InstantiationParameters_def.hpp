@@ -25,8 +25,8 @@ MARK_VAL_T(::UnityEngine::ResourceManagement::ResourceProviders::InstantiationPa
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 58, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13998))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(8996))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14011))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::InstantiationParameters
 struct CORDL_TYPE InstantiationParameters {
 public:
@@ -41,25 +41,25 @@ public:
 
   __declspec(property(get = get_SetPositionRotation)) bool SetPositionRotation;
 
-  /// @brief Method get_Position, addr 0x2bd6d2c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Position, addr 0x2bd4898, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_Position();
 
-  /// @brief Method get_Rotation, addr 0x2bd6d38, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Rotation, addr 0x2bd48a4, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_Rotation();
 
-  /// @brief Method get_Parent, addr 0x2bd6d44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parent, addr 0x2bd48b0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_Parent();
 
-  /// @brief Method get_InstantiateInWorldPosition, addr 0x2bd6d4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InstantiateInWorldPosition, addr 0x2bd48b8, size 0x8, virtual false, abstract: false, final false
   inline bool get_InstantiateInWorldPosition();
 
-  /// @brief Method get_SetPositionRotation, addr 0x2bd6d54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SetPositionRotation, addr 0x2bd48c0, size 0x8, virtual false, abstract: false, final false
   inline bool get_SetPositionRotation();
 
-  /// @brief Method .ctor, addr 0x2bd6d5c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bd48c8, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Transform* parent, bool instantiateInWorldSpace);
 
-  /// @brief Method .ctor, addr 0x2bd6e08, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bd4974, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Transform* parent);
 
   /// @brief Method Instantiate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

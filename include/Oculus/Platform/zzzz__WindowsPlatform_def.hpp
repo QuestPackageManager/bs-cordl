@@ -40,23 +40,23 @@ MARK_REF_PTR_T(::Oculus::Platform::__WindowsPlatform__UnityLogDelegate);
 namespace Oculus::Platform {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13404))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13336))
 // CS Name: ::WindowsPlatform::UnityLogDelegate*
 class CORDL_TYPE __WindowsPlatform__UnityLogDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::Oculus::Platform::__WindowsPlatform__UnityLogDelegate* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x270254c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2735c00, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x2702610, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2735cc4, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(void* tag, void* msg);
 
-  /// @brief Method BeginInvoke, addr 0x2702624, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2735cd8, size 0x98, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(void* tag, void* msg, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x27026bc, size 0x100c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2735d70, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__WindowsPlatform__UnityLogDelegate", modifiers: "&&", def_value: None }]
@@ -84,28 +84,28 @@ static_assert(::cordl_internals::size_check_v<::Oculus::Platform::__WindowsPlatf
 namespace Oculus::Platform {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13405))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13337))
 // CS Name: ::Oculus.Platform::WindowsPlatform*
 class CORDL_TYPE WindowsPlatform : public ::System::Object {
 public:
   // Declarations
   using UnityLogDelegate = ::Oculus::Platform::__WindowsPlatform__UnityLogDelegate;
 
-  /// @brief Method CPPLogCallback, addr 0x270242c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method CPPLogCallback, addr 0x27358a0, size 0xd8, virtual false, abstract: false, final false
   inline void CPPLogCallback(void* tag, void* message);
 
-  /// @brief Method getCallbackPointer, addr 0x2702504, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method getCallbackPointer, addr 0x2735978, size 0x48, virtual false, abstract: false, final false
   inline void* getCallbackPointer();
 
-  /// @brief Method Initialize, addr 0x26f5918, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x27359c0, size 0xf4, virtual false, abstract: false, final false
   inline bool Initialize(::StringW appId);
 
-  /// @brief Method AsyncInitialize, addr 0x26f511c, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method AsyncInitialize, addr 0x2735ab4, size 0x144, virtual false, abstract: false, final false
   inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>* AsyncInitialize(::StringW appId);
 
   static inline ::Oculus::Platform::WindowsPlatform* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26f5114, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2735bf8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "WindowsPlatform", modifiers: "&&", def_value: None }]

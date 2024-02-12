@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::Unity::Collections::LowLevel::Unsafe::NativeDisableContainerSaf
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10024))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8755))
 // CS Name: ::Unity.Collections.LowLevel.Unsafe::NativeDisableContainerSafetyRestrictionAttribute*
 class CORDL_TYPE NativeDisableContainerSafetyRestrictionAttribute : public ::System::Attribute {
 public:

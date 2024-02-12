@@ -42,7 +42,7 @@ MARK_REF_PTR_T(::BeatSaber::AvatarCore::__MultiplayerAvatarAudioController___Sta
 namespace BeatSaber::AvatarCore {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15198))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15279))
 // CS Name: ::MultiplayerAvatarAudioController::<Start>d__4*
 class CORDL_TYPE __MultiplayerAvatarAudioController___Start_d__4 : public ::System::Object {
 public:
@@ -98,22 +98,22 @@ public:
 
   static inline ::BeatSaber::AvatarCore::__MultiplayerAvatarAudioController___Start_d__4* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor, addr 0xe0fbf8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe1b3f4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0xe0fc28, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0xe1b424, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext, addr 0xe0fc2c, size 0xd4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0xe1b428, size 0xd4, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0xe0fd00, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0xe1b4fc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0xe0fd08, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0xe1b504, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0xe0fd48, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0xe1b544, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerAvatarAudioController___Start_d__4", modifiers: "&&", def_value: None }]
@@ -155,8 +155,8 @@ static_assert(offsetof(::BeatSaber::AvatarCore::__MultiplayerAvatarAudioControll
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15199))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15280))
 // CS Name: ::BeatSaber.AvatarCore::MultiplayerAvatarAudioController*
 class CORDL_TYPE MultiplayerAvatarAudioController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -183,15 +183,15 @@ public:
 
   constexpr void __cordl_internal_set__connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
 
-  /// @brief Method set_connectedPlayer, addr 0xe0fb88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_connectedPlayer, addr 0xe1b384, size 0x8, virtual false, abstract: false, final false
   inline void set_connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
 
-  /// @brief Method Start, addr 0xe0fb90, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0xe1b38c, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Start();
 
   static inline ::BeatSaber::AvatarCore::MultiplayerAvatarAudioController* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe0fc20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe1b41c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerAvatarAudioController", modifiers: "&&", def_value: None }]

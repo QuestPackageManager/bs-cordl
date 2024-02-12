@@ -225,81 +225,81 @@ public:
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24c936c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24ea3e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method ObjectEnd, addr 0x24c9374, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ObjectEnd, addr 0x24ea3e8, size 0x4, virtual false, abstract: false, final false
   inline void ObjectEnd();
 
-  /// @brief Method PrepareForReuse, addr 0x24c3fcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method PrepareForReuse, addr 0x24e5040, size 0x8, virtual false, abstract: false, final false
   inline void PrepareForReuse();
 
-  /// @brief Method Create, addr 0x24c9378, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x24ea3ec, size 0x88, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* Create(::System::Type* objectType, ::System::Runtime::Serialization::ISurrogateSelector* surrogateSelector,
                                                                                              ::System::Runtime::Serialization::StreamingContext context,
                                                                                              ::System::Runtime::Serialization::ObjectManager* objectManager,
                                                                                              ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* serObjectInfoInit,
                                                                                              ::System::Runtime::Serialization::IFormatterConverter* converter, bool bSimpleAssembly);
 
-  /// @brief Method Init, addr 0x24c9470, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x24ea4e4, size 0x1c, virtual false, abstract: false, final false
   inline void Init(::System::Type* objectType, ::System::Runtime::Serialization::ISurrogateSelector* surrogateSelector, ::System::Runtime::Serialization::StreamingContext context,
                    ::System::Runtime::Serialization::ObjectManager* objectManager, ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* serObjectInfoInit,
                    ::System::Runtime::Serialization::IFormatterConverter* converter, bool bSimpleAssembly);
 
-  /// @brief Method Create, addr 0x24c9628, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x24ea69c, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo*
   Create(::System::Type* objectType, ::ArrayW<::StringW, ::Array<::StringW>*> memberNames, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> memberTypes,
          ::System::Runtime::Serialization::ISurrogateSelector* surrogateSelector, ::System::Runtime::Serialization::StreamingContext context,
          ::System::Runtime::Serialization::ObjectManager* objectManager, ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* serObjectInfoInit,
          ::System::Runtime::Serialization::IFormatterConverter* converter, bool bSimpleAssembly);
 
-  /// @brief Method Init, addr 0x24c96c4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x24ea738, size 0x50, virtual false, abstract: false, final false
   inline void Init(::System::Type* objectType, ::ArrayW<::StringW, ::Array<::StringW>*> memberNames, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> memberTypes,
                    ::System::Runtime::Serialization::ISurrogateSelector* surrogateSelector, ::System::Runtime::Serialization::StreamingContext context,
                    ::System::Runtime::Serialization::ObjectManager* objectManager, ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* serObjectInfoInit,
                    ::System::Runtime::Serialization::IFormatterConverter* converter, bool bSimpleAssembly);
 
-  /// @brief Method InitReadConstructor, addr 0x24c948c, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method InitReadConstructor, addr 0x24ea500, size 0x19c, virtual false, abstract: false, final false
   inline void InitReadConstructor(::System::Type* objectType, ::System::Runtime::Serialization::ISurrogateSelector* surrogateSelector, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method InitSiRead, addr 0x24c977c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method InitSiRead, addr 0x24ea7f0, size 0x80, virtual false, abstract: false, final false
   inline void InitSiRead();
 
-  /// @brief Method InitNoMembers, addr 0x24c9714, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method InitNoMembers, addr 0x24ea788, size 0x68, virtual false, abstract: false, final false
   inline void InitNoMembers();
 
-  /// @brief Method InitMemberInfo, addr 0x24c97fc, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method InitMemberInfo, addr 0x24ea870, size 0x210, virtual false, abstract: false, final false
   inline void InitMemberInfo();
 
-  /// @brief Method GetMemberInfo, addr 0x24c9b78, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method GetMemberInfo, addr 0x24eabec, size 0x1b8, virtual false, abstract: false, final false
   inline ::System::Reflection::MemberInfo* GetMemberInfo(::StringW name);
 
-  /// @brief Method GetType, addr 0x24c9e64, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method GetType, addr 0x24eaed8, size 0x1ac, virtual false, abstract: false, final false
   inline ::System::Type* GetType(::StringW name);
 
-  /// @brief Method AddValue, addr 0x24ca010, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method AddValue, addr 0x24eb084, size 0x94, virtual false, abstract: false, final false
   inline void AddValue(::StringW name, ::System::Object* value, ByRef<::System::Runtime::Serialization::SerializationInfo*> si,
                        ByRef<::ArrayW<::System::Object*, ::Array<::System::Object*>*>> memberData);
 
-  /// @brief Method InitDataStore, addr 0x24c3efc, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method InitDataStore, addr 0x24e4f70, size 0xd0, virtual false, abstract: false, final false
   inline void InitDataStore(ByRef<::System::Runtime::Serialization::SerializationInfo*> si, ByRef<::ArrayW<::System::Object*, ::Array<::System::Object*>*>> memberData);
 
-  /// @brief Method RecordFixup, addr 0x24ca0a4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method RecordFixup, addr 0x24eb118, size 0xa4, virtual false, abstract: false, final false
   inline void RecordFixup(int64_t objectId, ::StringW name, int64_t idRef);
 
-  /// @brief Method PopulateObjectMembers, addr 0x24ca148, size 0x1098, virtual false, abstract: false, final false
+  /// @brief Method PopulateObjectMembers, addr 0x24eb1bc, size 0x1098, virtual false, abstract: false, final false
   inline void PopulateObjectMembers(::System::Object* obj, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> memberData);
 
-  /// @brief Method Position, addr 0x24c9d30, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method Position, addr 0x24eada4, size 0x134, virtual false, abstract: false, final false
   inline int32_t Position(::StringW name);
 
-  /// @brief Method GetMemberTypes, addr 0x24c370c, size 0x4cc, virtual false, abstract: false, final false
+  /// @brief Method GetMemberTypes, addr 0x24e4780, size 0x4cc, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Type*, ::Array<::System::Type*>*> GetMemberTypes(::ArrayW<::StringW, ::Array<::StringW>*> inMemberNames, ::System::Type* objectType);
 
-  /// @brief Method GetMemberType, addr 0x24c9a0c, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method GetMemberType, addr 0x24eaa80, size 0x16c, virtual false, abstract: false, final false
   inline ::System::Type* GetMemberType(::System::Reflection::MemberInfo* objMember);
 
-  /// @brief Method GetObjectInfo, addr 0x24c9400, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetObjectInfo, addr 0x24ea474, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* GetObjectInfo(::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* serObjectInfoInit);
 
   // Ctor Parameters [CppParam { name: "", ty: "ReadObjectInfo", modifiers: "&&", def_value: None }]

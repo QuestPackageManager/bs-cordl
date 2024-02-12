@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::Test_Mesh);
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9916))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9708))
 // CS Name: ::HoudiniEngineUnity::Test_Mesh*
 class CORDL_TYPE Test_Mesh : public ::System::Object {
 public:
@@ -52,13 +52,13 @@ public:
 
   static inline ::HoudiniEngineUnity::Test_Mesh* New_ctor(::UnityEngine::Mesh* self);
 
-  /// @brief Method .ctor, addr 0x21e56d4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x227afbc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Mesh* self);
 
-  /// @brief Method IsNull, addr 0x21e56fc, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method IsNull, addr 0x227afe4, size 0x60, virtual true, abstract: false, final true
   inline bool IsNull();
 
-  /// @brief Method IsEquivalentTo, addr 0x21e575c, size 0x42c, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x227b044, size 0x42c, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_Mesh* other);
 
   // Ctor Parameters [CppParam { name: "", ty: "Test_Mesh", modifiers: "&&", def_value: None }]

@@ -26,8 +26,8 @@ MARK_VAL_T(::System::Reflection::MonoEventInfo);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3464))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3518))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3460))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3514))
 // CS Name: ::System.Reflection::MonoEventInfo
 struct CORDL_TYPE MonoEventInfo {
 public:

@@ -32,22 +32,22 @@ public:
   // Declarations
   static inline ::System::ArithmeticException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2521050, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2542934, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::ArithmeticException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x25210ac, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2542990, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::System::ArithmeticException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x25210d0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25429b4, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
   static inline ::System::ArithmeticException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x25210f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25429d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "ArithmeticException", modifiers: "&&", def_value: None }]

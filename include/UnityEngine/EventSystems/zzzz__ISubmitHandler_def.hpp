@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::ISubmitHandler);
 namespace UnityEngine::EventSystems {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13187))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13085))
 // CS Name: ::UnityEngine.EventSystems::ISubmitHandler*
 class CORDL_TYPE ISubmitHandler {
 public:

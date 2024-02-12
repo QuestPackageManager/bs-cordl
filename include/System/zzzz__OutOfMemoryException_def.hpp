@@ -29,17 +29,17 @@ public:
   // Declarations
   static inline ::System::OutOfMemoryException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25d1de0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f3cf8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::OutOfMemoryException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x25d1e38, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f3d50, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::System::OutOfMemoryException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x25d1e58, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f3d70, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "OutOfMemoryException", modifiers: "&&", def_value: None }]

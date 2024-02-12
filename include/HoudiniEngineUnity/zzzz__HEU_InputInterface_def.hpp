@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_InputInterface);
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9839))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9631))
 // CS Name: ::HoudiniEngineUnity::HEU_InputInterface*
 class CORDL_TYPE HEU_InputInterface : public ::System::Object {
 public:
@@ -39,15 +39,15 @@ public:
 
   constexpr void __cordl_internal_set__priority(int32_t value);
 
-  /// @brief Method get_Priority, addr 0x21c527c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Priority, addr 0x225bb60, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Priority();
 
   static inline ::HoudiniEngineUnity::HEU_InputInterface* New_ctor(int32_t priority);
 
-  /// @brief Method .ctor, addr 0x21c5284, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x225bb68, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t priority);
 
-  /// @brief Method RegisterInterface, addr 0x21c52ac, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method RegisterInterface, addr 0x225bb90, size 0x58, virtual false, abstract: false, final false
   inline void RegisterInterface();
 
   /// @brief Method IsThisInputObjectSupported, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SetTubeBloomPrePassLightColor);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5309))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4649))
 // CS Name: ::SetTubeBloomPrePassLightColor*
 class CORDL_TYPE SetTubeBloomPrePassLightColor : public ::UnityEngine::MonoBehaviour {
 public:
@@ -46,12 +46,12 @@ public:
 
   constexpr void __cordl_internal_set__tubeLights(::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*> value);
 
-  /// @brief Method Start, addr 0x2264c1c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x23c3a84, size 0x70, virtual false, abstract: false, final false
   inline void Start();
 
   static inline ::GlobalNamespace::SetTubeBloomPrePassLightColor* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2264c8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c3af4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SetTubeBloomPrePassLightColor", modifiers: "&&", def_value: None }]

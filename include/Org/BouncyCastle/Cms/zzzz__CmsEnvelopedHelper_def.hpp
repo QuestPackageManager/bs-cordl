@@ -115,16 +115,16 @@ public:
   static inline ::Org::BouncyCastle::Cms::__CmsEnvelopedHelper__CmsAuthenticatedSecureReadable* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithm,
                                                                                                          ::Org::BouncyCastle::Cms::CmsReadable* readable);
 
-  /// @brief Method .ctor, addr 0x11e3fdc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1210e6c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithm, ::Org::BouncyCastle::Cms::CmsReadable* readable);
 
-  /// @brief Method get_Algorithm, addr 0x11e400c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Algorithm, addr 0x1210e9c, size 0x8, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_Algorithm();
 
-  /// @brief Method get_CryptoObject, addr 0x11e4014, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_CryptoObject, addr 0x1210ea4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* get_CryptoObject();
 
-  /// @brief Method GetReadable, addr 0x11e401c, size 0x430, virtual true, abstract: false, final true
+  /// @brief Method GetReadable, addr 0x1210eac, size 0x430, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Cms::CmsReadable* GetReadable(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* sKey);
 
   // Ctor Parameters [CppParam { name: "", ty: "__CmsEnvelopedHelper__CmsAuthenticatedSecureReadable", modifiers: "&&", def_value: None }]
@@ -212,16 +212,16 @@ public:
   static inline ::Org::BouncyCastle::Cms::__CmsEnvelopedHelper__CmsEnvelopedSecureReadable* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithm,
                                                                                                      ::Org::BouncyCastle::Cms::CmsReadable* readable);
 
-  /// @brief Method .ctor, addr 0x11e4478, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1211308, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithm, ::Org::BouncyCastle::Cms::CmsReadable* readable);
 
-  /// @brief Method get_Algorithm, addr 0x11e44a8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Algorithm, addr 0x1211338, size 0x8, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_Algorithm();
 
-  /// @brief Method get_CryptoObject, addr 0x11e44b0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_CryptoObject, addr 0x1211340, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* get_CryptoObject();
 
-  /// @brief Method GetReadable, addr 0x11e44b8, size 0x63c, virtual true, abstract: false, final true
+  /// @brief Method GetReadable, addr 0x1211348, size 0x63c, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Cms::CmsReadable* GetReadable(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* sKey);
 
   // Ctor Parameters [CppParam { name: "", ty: "__CmsEnvelopedHelper__CmsEnvelopedSecureReadable", modifiers: "&&", def_value: None }]
@@ -294,31 +294,31 @@ public:
 
   static inline ::System::Collections::IDictionary* getStaticF_BaseCipherNames();
 
-  /// @brief Method GetAsymmetricEncryptionAlgName, addr 0x11e2614, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetAsymmetricEncryptionAlgName, addr 0x120f4a4, size 0x98, virtual false, abstract: false, final false
   inline ::StringW GetAsymmetricEncryptionAlgName(::StringW encryptionAlgOid);
 
-  /// @brief Method CreateAsymmetricCipher, addr 0x11e26ac, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method CreateAsymmetricCipher, addr 0x120f53c, size 0x118, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::IBufferedCipher* CreateAsymmetricCipher(::StringW encryptionOid);
 
-  /// @brief Method CreateWrapper, addr 0x11e27c4, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method CreateWrapper, addr 0x120f654, size 0x104, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::IWrapper* CreateWrapper(::StringW encryptionOid);
 
-  /// @brief Method GetRfc3211WrapperName, addr 0x11e28c8, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method GetRfc3211WrapperName, addr 0x120f758, size 0x1d8, virtual false, abstract: false, final false
   inline ::StringW GetRfc3211WrapperName(::StringW oid);
 
-  /// @brief Method GetKeySize, addr 0x11e2aa0, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method GetKeySize, addr 0x120f930, size 0x208, virtual false, abstract: false, final false
   inline int32_t GetKeySize(::StringW oid);
 
-  /// @brief Method BuildRecipientInformationStore, addr 0x11e2ca8, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method BuildRecipientInformationStore, addr 0x120fb38, size 0x134, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Cms::RecipientInformationStore* BuildRecipientInformationStore(::Org::BouncyCastle::Asn1::Asn1Set* recipientInfos,
                                                                                                     ::Org::BouncyCastle::Cms::CmsSecureReadable* secureReadable);
 
-  /// @brief Method ReadRecipientInfo, addr 0x11e2ddc, size 0x37c, virtual false, abstract: false, final false
+  /// @brief Method ReadRecipientInfo, addr 0x120fc6c, size 0x37c, virtual false, abstract: false, final false
   static inline void ReadRecipientInfo(::System::Collections::IList* infos, ::Org::BouncyCastle::Asn1::Cms::RecipientInfo* info, ::Org::BouncyCastle::Cms::CmsSecureReadable* secureReadable);
 
   static inline ::Org::BouncyCastle::Cms::CmsEnvelopedHelper* New_ctor();
 
-  /// @brief Method .ctor, addr 0x11e260c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x120f49c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsEnvelopedHelper", modifiers: "&&", def_value: None }]

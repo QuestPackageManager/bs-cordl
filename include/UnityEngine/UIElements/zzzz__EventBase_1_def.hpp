@@ -23,8 +23,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7179))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7180))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6438))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6439))
 // CS Name: ::UnityEngine.UIElements::EventBase`1<T>*
 class CORDL_TYPE EventBase_1 : public ::UnityEngine::UIElements::EventBase {
 public:

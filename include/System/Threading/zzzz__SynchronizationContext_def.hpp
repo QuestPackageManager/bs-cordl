@@ -78,46 +78,46 @@ public:
 
   static inline ::System::Threading::SynchronizationContext* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2618734, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263d63c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method IsWaitNotificationRequired, addr 0x261873c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsWaitNotificationRequired, addr 0x263d644, size 0xc, virtual false, abstract: false, final false
   inline bool IsWaitNotificationRequired();
 
-  /// @brief Method Send, addr 0x2618748, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Send, addr 0x263d650, size 0x28, virtual true, abstract: false, final false
   inline void Send(::System::Threading::SendOrPostCallback* d, ::System::Object* state);
 
-  /// @brief Method Post, addr 0x2618770, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Post, addr 0x263d678, size 0x8c, virtual true, abstract: false, final false
   inline void Post(::System::Threading::SendOrPostCallback* d, ::System::Object* state);
 
-  /// @brief Method OperationStarted, addr 0x2618928, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OperationStarted, addr 0x263d830, size 0x4, virtual true, abstract: false, final false
   inline void OperationStarted();
 
-  /// @brief Method OperationCompleted, addr 0x261892c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OperationCompleted, addr 0x263d834, size 0x4, virtual true, abstract: false, final false
   inline void OperationCompleted();
 
-  /// @brief Method Wait, addr 0x2618930, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method Wait, addr 0x263d838, size 0x64, virtual true, abstract: false, final false
   inline int32_t Wait(::ArrayW<void*, ::Array<void*>*> waitHandles, bool waitAll, int32_t millisecondsTimeout);
 
-  /// @brief Method WaitHelper, addr 0x2618994, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method WaitHelper, addr 0x263d89c, size 0x8c, virtual false, abstract: false, final false
   static inline int32_t WaitHelper(::ArrayW<void*, ::Array<void*>*> waitHandles, bool waitAll, int32_t millisecondsTimeout);
 
-  /// @brief Method SetSynchronizationContext, addr 0x2618a20, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SetSynchronizationContext, addr 0x263d928, size 0x28, virtual false, abstract: false, final false
   static inline void SetSynchronizationContext(::System::Threading::SynchronizationContext* syncContext);
 
-  /// @brief Method get_Current, addr 0x26106f4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Current, addr 0x26355fc, size 0x30, virtual false, abstract: false, final false
   static inline ::System::Threading::SynchronizationContext* get_Current();
 
-  /// @brief Method get_CurrentNoFlow, addr 0x2618a94, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentNoFlow, addr 0x263d99c, size 0x30, virtual false, abstract: false, final false
   static inline ::System::Threading::SynchronizationContext* get_CurrentNoFlow();
 
-  /// @brief Method GetThreadLocalContext, addr 0x2618a48, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetThreadLocalContext, addr 0x263d950, size 0x4c, virtual false, abstract: false, final false
   static inline ::System::Threading::SynchronizationContext* GetThreadLocalContext();
 
-  /// @brief Method CreateCopy, addr 0x2618c20, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method CreateCopy, addr 0x263db28, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Threading::SynchronizationContext* CreateCopy();
 
-  /// @brief Method get_CurrentExplicit, addr 0x2618c7c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentExplicit, addr 0x263db84, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Threading::SynchronizationContext* get_CurrentExplicit();
 
   // Ctor Parameters [CppParam { name: "", ty: "SynchronizationContext", modifiers: "&&", def_value: None }]

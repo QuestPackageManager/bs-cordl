@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::System::Diagnostics::ConditionalAttribute);
 namespace System::Diagnostics {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3727))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3725))
 // CS Name: ::System.Diagnostics::ConditionalAttribute*
 class CORDL_TYPE ConditionalAttribute : public ::System::Attribute {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::System::Diagnostics::ConditionalAttribute* New_ctor(::StringW conditionString);
 
-  /// @brief Method .ctor, addr 0x2579bd8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x259cac8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW conditionString);
 
   // Ctor Parameters [CppParam { name: "", ty: "ConditionalAttribute", modifiers: "&&", def_value: None }]

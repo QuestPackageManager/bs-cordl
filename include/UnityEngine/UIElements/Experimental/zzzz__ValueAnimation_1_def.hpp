@@ -40,7 +40,7 @@ namespace UnityEngine::UIElements::Experimental {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7458))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6717))
 // CS Name: ::UnityEngine.UIElements.Experimental::ValueAnimation`1<T>*
 class CORDL_TYPE ValueAnimation_1 : public ::System::Object {
 public:

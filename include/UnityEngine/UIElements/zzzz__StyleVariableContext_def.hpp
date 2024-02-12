@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::StyleVariableContext);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7266))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6525))
 // CS Name: ::UnityEngine.UIElements::StyleVariableContext*
 class CORDL_TYPE StyleVariableContext : public ::System::Object {
 public:
@@ -63,29 +63,29 @@ public:
 
   static inline ::UnityEngine::UIElements::StyleVariableContext* getStaticF_none();
 
-  /// @brief Method Add, addr 0x2e69b7c, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x2e83f64, size 0x1a0, virtual false, abstract: false, final false
   inline void Add(::UnityEngine::UIElements::StyleVariable sv);
 
-  /// @brief Method AddInitialRange, addr 0x2e69d1c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method AddInitialRange, addr 0x2e84104, size 0xf8, virtual false, abstract: false, final false
   inline void AddInitialRange(::UnityEngine::UIElements::StyleVariableContext* other);
 
-  /// @brief Method Clear, addr 0x2e69e14, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x2e841fc, size 0x9c, virtual false, abstract: false, final false
   inline void Clear();
 
   static inline ::UnityEngine::UIElements::StyleVariableContext* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e69eb0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e84298, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::StyleVariableContext* New_ctor(::UnityEngine::UIElements::StyleVariableContext* other);
 
-  /// @brief Method .ctor, addr 0x2e69f78, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e84360, size 0xec, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleVariableContext* other);
 
-  /// @brief Method TryFindVariable, addr 0x2e6a064, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method TryFindVariable, addr 0x2e8444c, size 0xec, virtual false, abstract: false, final false
   inline bool TryFindVariable(::StringW name, ByRef<::UnityEngine::UIElements::StyleVariable> v);
 
-  /// @brief Method GetVariableHash, addr 0x2e6a150, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetVariableHash, addr 0x2e84538, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetVariableHash();
 
   // Ctor Parameters [CppParam { name: "", ty: "StyleVariableContext", modifiers: "&&", def_value: None }]

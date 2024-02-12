@@ -16,7 +16,7 @@ MARK_VAL_T(::Oculus::Platform::NetSyncConnectionStatus);
 namespace Oculus::Platform {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13338))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13258))
 // CS Name: ::Oculus.Platform::NetSyncConnectionStatus
 struct CORDL_TYPE NetSyncConnectionStatus {
 public:

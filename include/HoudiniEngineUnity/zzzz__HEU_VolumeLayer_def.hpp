@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_VolumeLayer);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9951))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9952))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9743))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9744))
 // CS Name: ::HoudiniEngineUnity::HEU_VolumeLayer*
 class CORDL_TYPE HEU_VolumeLayer : public ::System::Object {
 public:
@@ -141,12 +141,12 @@ public:
 
   constexpr void __cordl_internal_set__detailPrototype(::HoudiniEngineUnity::HEU_DetailPrototype* value);
 
-  /// @brief Method IsEquivalentTo, addr 0x21e9dbc, size 0x370, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x227f6a4, size 0x370, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_VolumeLayer* other);
 
   static inline ::HoudiniEngineUnity::HEU_VolumeLayer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21ea12c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x227fa14, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_VolumeLayer", modifiers: "&&", def_value: None }]

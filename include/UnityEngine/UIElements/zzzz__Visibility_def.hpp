@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::Visibility);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6896))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6155))
 // CS Name: ::UnityEngine.UIElements::Visibility
 struct CORDL_TYPE Visibility {
 public:

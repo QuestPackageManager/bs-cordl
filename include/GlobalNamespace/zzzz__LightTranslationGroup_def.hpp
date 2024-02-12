@@ -24,9 +24,9 @@ MARK_REF_PTR_T(::GlobalNamespace::LightTranslationGroup);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4936)), TypeDefinitionIndex(TypeDefinitionIndex(4937)), TypeDefinitionIndex(TypeDefinitionIndex(4938)),
-// TypeDefinitionIndex(TypeDefinitionIndex(4943)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4943), inst: 3960 })] Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(4944)) CS Name: ::LightTranslationGroup*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4290)), TypeDefinitionIndex(TypeDefinitionIndex(4291)), TypeDefinitionIndex(TypeDefinitionIndex(4292)),
+// TypeDefinitionIndex(TypeDefinitionIndex(4297)), TypeDefinitionIndex(TypeDefinitionIndex(8987)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4297), inst: 3941 })] Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(4298)) CS Name: ::LightTranslationGroup*
 class CORDL_TYPE LightTranslationGroup
     : public ::GlobalNamespace::LightTransformGroup_3<::UnityW<::GlobalNamespace::LightGroupTranslationXTransform>, ::UnityW<::GlobalNamespace::LightGroupTranslationYTransform>,
                                                       ::UnityW<::GlobalNamespace::LightGroupTranslationZTransform>> {
@@ -104,30 +104,30 @@ public:
 
   constexpr void __cordl_internal_set__zDistributionLimits(::UnityEngine::Vector2 value);
 
-  /// @brief Method get_xTranslationLimits, addr 0x23aa7e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_xTranslationLimits, addr 0x236a91c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_xTranslationLimits();
 
-  /// @brief Method get_yTranslationLimits, addr 0x23aa7f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_yTranslationLimits, addr 0x236a924, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_yTranslationLimits();
 
-  /// @brief Method get_zTranslationLimits, addr 0x23aa7f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_zTranslationLimits, addr 0x236a92c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_zTranslationLimits();
 
-  /// @brief Method get_xDistributionLimits, addr 0x23aa800, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_xDistributionLimits, addr 0x236a934, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_xDistributionLimits();
 
-  /// @brief Method get_yDistributionLimits, addr 0x23aa808, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_yDistributionLimits, addr 0x236a93c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_yDistributionLimits();
 
-  /// @brief Method get_zDistributionLimits, addr 0x23aa810, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_zDistributionLimits, addr 0x236a944, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_zDistributionLimits();
 
-  /// @brief Method __Validate, addr 0x23aa818, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method __Validate, addr 0x236a94c, size 0x21c, virtual false, abstract: false, final false
   inline bool __Validate();
 
   static inline ::GlobalNamespace::LightTranslationGroup* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23aaa34, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x236ab68, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LightTranslationGroup", modifiers: "&&", def_value: None }]

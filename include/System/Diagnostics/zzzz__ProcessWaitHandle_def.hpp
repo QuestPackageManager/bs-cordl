@@ -18,14 +18,14 @@ MARK_REF_PTR_T(::System::Diagnostics::ProcessWaitHandle);
 namespace System::Diagnostics {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2740))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8957))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6967))
 // CS Name: ::System.Diagnostics::ProcessWaitHandle*
 class CORDL_TYPE ProcessWaitHandle : public ::System::Threading::WaitHandle {
 public:
   // Declarations
   static inline ::System::Diagnostics::ProcessWaitHandle* New_ctor(::Microsoft::Win32::SafeHandles::SafeProcessHandle* processHandle);
 
-  /// @brief Method .ctor, addr 0x296f834, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2973628, size 0x154, virtual false, abstract: false, final false
   inline void _ctor(::Microsoft::Win32::SafeHandles::SafeProcessHandle* processHandle);
 
   // Ctor Parameters [CppParam { name: "", ty: "ProcessWaitHandle", modifiers: "&&", def_value: None }]

@@ -7,7 +7,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::MS::Internal::Xml::Cache::XPathNodeRef::*)(
     ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>, int32_t)>(&::MS::Internal::Xml::Cache::XPathNodeRef::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x28eb7a4;
+  constexpr static std::size_t addrs = 0x28ede0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> (
     ::MS::Internal::Xml::Cache::XPathNodeRef::*)()>(&::MS::Internal::Xml::Cache::XPathNodeRef::get_Page)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x28eb7b0;
+  constexpr static std::size_t addrs = 0x28ede18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::MS::Internal::Xml::Cache::XPathNodeRef>::get(), "get_Page",
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::MS::Internal::Xml::Cache::XPathNodeRef::*)()>(&::MS::Internal::Xml::Cache::XPathNodeRef::get_Index)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x28eb7b8;
+  constexpr static std::size_t addrs = 0x28ede20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::MS::Internal::Xml::Cache::XPathNodeRef>::get(), "get_Index",
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::MS::Internal::Xml::Cache::XPathNodeRef::*)()>(&::MS::Internal::Xml::Cache::XPathNodeRef::GetHashCode)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x28eb7c0;
+  constexpr static std::size_t addrs = 0x28ede28;
 
   inline static ::MethodInfo const* methodInfo() {
 

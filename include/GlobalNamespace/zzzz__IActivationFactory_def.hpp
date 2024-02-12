@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IActivationFactory);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16286))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16456))
 // CS Name: ::IActivationFactory*
 class CORDL_TYPE IActivationFactory : public ::System::Object {
 public:

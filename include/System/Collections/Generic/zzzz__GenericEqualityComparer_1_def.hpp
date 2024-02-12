@@ -21,8 +21,8 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3869)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3869), inst: 1701 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3870))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3868)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3868), inst: 1659 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3869))
 // CS Name: ::System.Collections.Generic::GenericEqualityComparer`1<T>*
 class CORDL_TYPE GenericEqualityComparer_1 : public ::System::Collections::Generic::EqualityComparer_1<T> {
 public:

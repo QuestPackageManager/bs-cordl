@@ -77,25 +77,25 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithm, int32_t keySize,
                                                                                        ::ArrayW<uint8_t, ::Array<uint8_t>*> z);
 
-  /// @brief Method .ctor, addr 0x1216d58, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1243be8, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithm, int32_t keySize, ::ArrayW<uint8_t, ::Array<uint8_t>*> z);
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithm, int32_t keySize,
                                                                                        ::ArrayW<uint8_t, ::Array<uint8_t>*> z, ::ArrayW<uint8_t, ::Array<uint8_t>*> extraInfo);
 
-  /// @brief Method .ctor, addr 0x1216d98, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1243c28, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithm, int32_t keySize, ::ArrayW<uint8_t, ::Array<uint8_t>*> z, ::ArrayW<uint8_t, ::Array<uint8_t>*> extraInfo);
 
-  /// @brief Method get_Algorithm, addr 0x1216ddc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Algorithm, addr 0x1243c6c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_Algorithm();
 
-  /// @brief Method get_KeySize, addr 0x1216de4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KeySize, addr 0x1243c74, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_KeySize();
 
-  /// @brief Method GetZ, addr 0x1216dec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetZ, addr 0x1243c7c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetZ();
 
-  /// @brief Method GetExtraInfo, addr 0x1216df4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetExtraInfo, addr 0x1243c84, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetExtraInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "DHKdfParameters", modifiers: "&&", def_value: None }]

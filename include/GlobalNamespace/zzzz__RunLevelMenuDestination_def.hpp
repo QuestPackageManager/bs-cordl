@@ -14,13 +14,13 @@ namespace GlobalNamespace {
 struct BeatmapDifficulty;
 }
 namespace GlobalNamespace {
+class BeatmapLevelPack;
+}
+namespace GlobalNamespace {
+class BeatmapLevel;
+}
+namespace GlobalNamespace {
 class GameplayModifiers;
-}
-namespace GlobalNamespace {
-class IBeatmapLevelPack;
-}
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -32,17 +32,17 @@ MARK_REF_PTR_T(::GlobalNamespace::RunLevelMenuDestination);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 89, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4152)), TypeDefinitionIndex(TypeDefinitionIndex(14717))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4158))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10608)), TypeDefinitionIndex(TypeDefinitionIndex(15101))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10614))
 // CS Name: ::RunLevelMenuDestination*
 class CORDL_TYPE RunLevelMenuDestination : public ::GlobalNamespace::MenuDestination {
 public:
   // Declarations
   /// @brief Field beatmapLevelPack, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_beatmapLevelPack, put = __cordl_internal_set_beatmapLevelPack))::GlobalNamespace::IBeatmapLevelPack* beatmapLevelPack;
+  __declspec(property(get = __cordl_internal_get_beatmapLevelPack, put = __cordl_internal_set_beatmapLevelPack))::GlobalNamespace::BeatmapLevelPack* beatmapLevelPack;
 
-  /// @brief Field previewBeatmapLevel, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_previewBeatmapLevel, put = __cordl_internal_set_previewBeatmapLevel))::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel;
+  /// @brief Field beatmapLevel, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_beatmapLevel, put = __cordl_internal_set_beatmapLevel))::GlobalNamespace::BeatmapLevel* beatmapLevel;
 
   /// @brief Field beatmapDifficulty, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_beatmapDifficulty, put = __cordl_internal_set_beatmapDifficulty))::GlobalNamespace::BeatmapDifficulty beatmapDifficulty;
@@ -74,17 +74,17 @@ public:
   /// @brief Field quitAppAfterRun, offset 0x58, size 0x1
   __declspec(property(get = __cordl_internal_get_quitAppAfterRun, put = __cordl_internal_set_quitAppAfterRun)) bool quitAppAfterRun;
 
-  constexpr ::GlobalNamespace::IBeatmapLevelPack*& __cordl_internal_get_beatmapLevelPack();
+  constexpr ::GlobalNamespace::BeatmapLevelPack*& __cordl_internal_get_beatmapLevelPack();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatmapLevelPack*> const& __cordl_internal_get_beatmapLevelPack() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelPack*> const& __cordl_internal_get_beatmapLevelPack() const;
 
-  constexpr void __cordl_internal_set_beatmapLevelPack(::GlobalNamespace::IBeatmapLevelPack* value);
+  constexpr void __cordl_internal_set_beatmapLevelPack(::GlobalNamespace::BeatmapLevelPack* value);
 
-  constexpr ::GlobalNamespace::IPreviewBeatmapLevel*& __cordl_internal_get_previewBeatmapLevel();
+  constexpr ::GlobalNamespace::BeatmapLevel*& __cordl_internal_get_beatmapLevel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IPreviewBeatmapLevel*> const& __cordl_internal_get_previewBeatmapLevel() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevel*> const& __cordl_internal_get_beatmapLevel() const;
 
-  constexpr void __cordl_internal_set_previewBeatmapLevel(::GlobalNamespace::IPreviewBeatmapLevel* value);
+  constexpr void __cordl_internal_set_beatmapLevel(::GlobalNamespace::BeatmapLevel* value);
 
   constexpr ::GlobalNamespace::BeatmapDifficulty& __cordl_internal_get_beatmapDifficulty();
 
@@ -146,13 +146,13 @@ public:
 
   constexpr void __cordl_internal_set_quitAppAfterRun(bool value);
 
-  static inline ::GlobalNamespace::RunLevelMenuDestination* New_ctor(::GlobalNamespace::IBeatmapLevelPack* beatmapLevelPack, ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel,
+  static inline ::GlobalNamespace::RunLevelMenuDestination* New_ctor(::GlobalNamespace::BeatmapLevelPack* beatmapLevelPack, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
                                                                      ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic,
                                                                      ::GlobalNamespace::GameplayModifiers* gameplayModifiers, bool practice, float_t startSongTime, float_t songSpeedMultiplier,
                                                                      bool overrideEnvironments, ::StringW environmentType, ::StringW environmentName, bool quitAppAfterRun);
 
-  /// @brief Method .ctor, addr 0x223dd50, size 0x98, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::IBeatmapLevelPack* beatmapLevelPack, ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty,
+  /// @brief Method .ctor, addr 0x1265a6c, size 0x98, virtual false, abstract: false, final false
+  inline void _ctor(::GlobalNamespace::BeatmapLevelPack* beatmapLevelPack, ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty,
                     ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, bool practice, float_t startSongTime,
                     float_t songSpeedMultiplier, bool overrideEnvironments, ::StringW environmentType, ::StringW environmentName, bool quitAppAfterRun);
 
@@ -171,10 +171,10 @@ protected:
 
 public:
   /// @brief Field beatmapLevelPack, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::IBeatmapLevelPack* ___beatmapLevelPack;
+  ::GlobalNamespace::BeatmapLevelPack* ___beatmapLevelPack;
 
-  /// @brief Field previewBeatmapLevel, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::IPreviewBeatmapLevel* ___previewBeatmapLevel;
+  /// @brief Field beatmapLevel, offset: 0x18, size: 0x8, def value: None
+  ::GlobalNamespace::BeatmapLevel* ___beatmapLevel;
 
   /// @brief Field beatmapDifficulty, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::BeatmapDifficulty ___beatmapDifficulty;
@@ -213,7 +213,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::RunLevelMenuDes
 
 static_assert(offsetof(::GlobalNamespace::RunLevelMenuDestination, ___beatmapLevelPack) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::RunLevelMenuDestination, ___previewBeatmapLevel) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::RunLevelMenuDestination, ___beatmapLevel) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::RunLevelMenuDestination, ___beatmapDifficulty) == 0x20, "Offset mismatch!");
 

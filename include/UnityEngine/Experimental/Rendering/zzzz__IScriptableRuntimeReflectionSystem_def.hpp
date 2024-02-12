@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflect
 namespace UnityEngine::Experimental::Rendering {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10408))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9176))
 // CS Name: ::UnityEngine.Experimental.Rendering::IScriptableRuntimeReflectionSystem*
 class CORDL_TYPE IScriptableRuntimeReflectionSystem {
 public:

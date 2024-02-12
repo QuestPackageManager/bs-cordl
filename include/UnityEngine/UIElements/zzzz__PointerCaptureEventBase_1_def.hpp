@@ -23,8 +23,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7180)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7180), inst: 1717 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7150))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6439)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6439), inst: 1675 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6409))
 // CS Name: ::UnityEngine.UIElements::PointerCaptureEventBase`1<T>*
 class CORDL_TYPE PointerCaptureEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T> {
 public:

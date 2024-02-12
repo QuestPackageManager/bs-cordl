@@ -44,23 +44,23 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__Grounder__GrounderDelegate);
 namespace RootMotion::FinalIK {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12517))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12415))
 // CS Name: ::Grounder::GrounderDelegate*
 class CORDL_TYPE __Grounder__GrounderDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::RootMotion::FinalIK::__Grounder__GrounderDelegate* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x12447b4, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12df864, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x1244870, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x12df920, size 0x14, virtual true, abstract: false, final false
   inline void Invoke();
 
-  /// @brief Method BeginInvoke, addr 0x1244884, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x12df934, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x12448a4, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x12df954, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__Grounder__GrounderDelegate", modifiers: "&&", def_value: None }]
@@ -87,8 +87,8 @@ static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::__Grounder_
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12518))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12416))
 // CS Name: ::RootMotion.FinalIK::Grounder*
 class CORDL_TYPE Grounder : public ::UnityEngine::MonoBehaviour {
 public:
@@ -145,22 +145,22 @@ public:
   /// @brief Method ResetPosition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ResetPosition();
 
-  /// @brief Method get_initiated, addr 0x12442e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_initiated, addr 0x12df398, size 0x8, virtual false, abstract: false, final false
   inline bool get_initiated();
 
-  /// @brief Method set_initiated, addr 0x12442f0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_initiated, addr 0x12df3a0, size 0xc, virtual false, abstract: false, final false
   inline void set_initiated(bool value);
 
-  /// @brief Method GetSpineOffsetTarget, addr 0x12442fc, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method GetSpineOffsetTarget, addr 0x12df3ac, size 0xc4, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetSpineOffsetTarget();
 
-  /// @brief Method LogWarning, addr 0x12445ac, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method LogWarning, addr 0x12df65c, size 0x24, virtual false, abstract: false, final false
   inline void LogWarning(::StringW message);
 
-  /// @brief Method GetLegSpineBendVector, addr 0x12443c0, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method GetLegSpineBendVector, addr 0x12df470, size 0x1ec, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetLegSpineBendVector(::RootMotion::FinalIK::__Grounding__Leg* leg);
 
-  /// @brief Method GetLegSpineTangent, addr 0x12445d0, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method GetLegSpineTangent, addr 0x12df680, size 0x174, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetLegSpineTangent(::RootMotion::FinalIK::__Grounding__Leg* leg);
 
   /// @brief Method OpenUserManual, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -171,7 +171,7 @@ public:
 
   static inline ::RootMotion::FinalIK::Grounder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1244744, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12df7f4, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Grounder", modifiers: "&&", def_value: None }]

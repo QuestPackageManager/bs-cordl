@@ -16,7 +16,7 @@ MARK_VAL_T(::Oculus::Platform::MultiplayerErrorErrorKey);
 namespace Oculus::Platform {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13336))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13256))
 // CS Name: ::Oculus.Platform::MultiplayerErrorErrorKey
 struct CORDL_TYPE MultiplayerErrorErrorKey {
 public:

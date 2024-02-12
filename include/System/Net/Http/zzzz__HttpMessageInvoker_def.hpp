@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::System::Net::Http::HttpMessageInvoker);
 namespace System::Net::Http {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14651))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14656))
 // CS Name: ::System.Net.Http::HttpMessageInvoker*
 class CORDL_TYPE HttpMessageInvoker : public ::System::Object {
 public:
@@ -64,16 +64,16 @@ public:
 
   static inline ::System::Net::Http::HttpMessageInvoker* New_ctor(::System::Net::Http::HttpMessageHandler* handler, bool disposeHandler);
 
-  /// @brief Method .ctor, addr 0x2830cfc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28354e4, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Http::HttpMessageHandler* handler, bool disposeHandler);
 
-  /// @brief Method Dispose, addr 0x2833438, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2837bac, size 0x10, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x2830f28, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x2835710, size 0x38, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method SendAsync, addr 0x283196c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method SendAsync, addr 0x28360e0, size 0x20, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* SendAsync(::System::Net::Http::HttpRequestMessage* request,
                                                                                                   ::System::Threading::CancellationToken cancellationToken);
 

@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::Zenject::MonoInstallerUtil);
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11145))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10287))
 // CS Name: ::Zenject::MonoInstallerUtil*
 class CORDL_TYPE MonoInstallerUtil : public ::System::Object {
 public:

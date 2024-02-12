@@ -32,25 +32,25 @@ public:
   // Declarations
   __declspec(property(get = get_Value))::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass> Value;
 
-  /// @brief Method .ctor, addr 0x24124f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2432354, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass> value);
 
-  /// @brief Method .ctor, addr 0x24124fc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x243235c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(void* ptr);
 
-  /// @brief Method get_Value, addr 0x241251c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x243237c, size 0x8, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass> get_Value();
 
-  /// @brief Method Equals, addr 0x2412524, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2432384, size 0x104, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2412628, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2432488, size 0x28, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetTypeFromClass, addr 0x2412650, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetTypeFromClass, addr 0x24324b0, size 0x4, virtual false, abstract: false, final false
   static inline void* GetTypeFromClass(::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass> klass);
 
-  /// @brief Method GetTypeHandle, addr 0x2412654, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetTypeHandle, addr 0x24324b4, size 0x8, virtual false, abstract: false, final false
   inline ::System::RuntimeTypeHandle GetTypeHandle();
 
   // Ctor Parameters [CppParam { name: "value", ty: "::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass>", modifiers: "", def_value: None }]

@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::VisualTreeViewDataUpdater);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6754)), TypeDefinitionIndex(TypeDefinitionIndex(9966))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6903))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6013)), TypeDefinitionIndex(TypeDefinitionIndex(8695))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6162))
 // CS Name: ::UnityEngine.UIElements::VisualTreeViewDataUpdater*
 class CORDL_TYPE VisualTreeViewDataUpdater : public ::UnityEngine::UIElements::BaseVisualTreeUpdater {
 public:
@@ -89,24 +89,24 @@ public:
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_ProfilerMarker();
 
-  /// @brief Method get_profilerMarker, addr 0x2dfe9d0, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_profilerMarker, addr 0x2e1bdb8, size 0x58, virtual true, abstract: false, final false
   inline ::Unity::Profiling::ProfilerMarker get_profilerMarker();
 
-  /// @brief Method OnVersionChanged, addr 0x2dfea28, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method OnVersionChanged, addr 0x2e1be10, size 0x90, virtual true, abstract: false, final false
   inline void OnVersionChanged(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VersionChangeType versionChangeType);
 
-  /// @brief Method Update, addr 0x2dfeb60, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x2e1bf48, size 0x144, virtual true, abstract: false, final false
   inline void Update();
 
-  /// @brief Method ValidateViewDataOnSubTree, addr 0x2dfeca4, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method ValidateViewDataOnSubTree, addr 0x2e1c08c, size 0x150, virtual false, abstract: false, final false
   inline void ValidateViewDataOnSubTree(::UnityEngine::UIElements::VisualElement* ve, bool enablePersistence);
 
-  /// @brief Method PropagateToParents, addr 0x2dfeab8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method PropagateToParents, addr 0x2e1bea0, size 0xa8, virtual false, abstract: false, final false
   inline void PropagateToParents(::UnityEngine::UIElements::VisualElement* ve);
 
   static inline ::UnityEngine::UIElements::VisualTreeViewDataUpdater* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2dfedf4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e1c1dc, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "VisualTreeViewDataUpdater", modifiers: "&&", def_value: None }]

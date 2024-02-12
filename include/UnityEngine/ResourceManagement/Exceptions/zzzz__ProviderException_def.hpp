@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::Exceptions::ProviderException)
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::Exceptions {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13963))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13964))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13976))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13977))
 // CS Name: ::UnityEngine.ResourceManagement.Exceptions::ProviderException*
 class CORDL_TYPE ProviderException : public ::UnityEngine::ResourceManagement::Exceptions::OperationException {
 public:
@@ -42,10 +42,10 @@ public:
   static inline ::UnityEngine::ResourceManagement::Exceptions::ProviderException* New_ctor(::StringW message, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location,
                                                                                            ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x2bd0190, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bcdcfc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::System::Exception* innerException);
 
-  /// @brief Method get_Location, addr 0x2bd01b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Location, addr 0x2bcdd24, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* get_Location();
 
   // Ctor Parameters [CppParam { name: "", ty: "ProviderException", modifiers: "&&", def_value: None }]

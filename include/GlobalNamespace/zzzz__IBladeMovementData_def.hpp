@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IBladeMovementData);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15010))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14883))
 // CS Name: ::IBladeMovementData*
 class CORDL_TYPE IBladeMovementData {
 public:

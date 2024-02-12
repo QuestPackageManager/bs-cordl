@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerSpectatingSpotPickerViewController)
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5060))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4413))
 // CS Name: ::MultiplayerSpectatingSpotPickerViewController*
 class CORDL_TYPE MultiplayerSpectatingSpotPickerViewController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -48,27 +48,27 @@ public:
 
   constexpr void __cordl_internal_set__spectatorController(::UnityW<::GlobalNamespace::MultiplayerSpectatorController> value);
 
-  /// @brief Method Start, addr 0x23c68c4, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x23841fc, size 0x148, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy, addr 0x23c6b08, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2384440, size 0x1b4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleSpectatingSpotDidChangeEvent, addr 0x23c6cbc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleSpectatingSpotDidChangeEvent, addr 0x23845f4, size 0x4, virtual false, abstract: false, final false
   inline void HandleSpectatingSpotDidChangeEvent(::GlobalNamespace::IMultiplayerSpectatingSpot* spectatingSpot);
 
-  /// @brief Method RefreshSpectatingSpotName, addr 0x23c6a0c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method RefreshSpectatingSpotName, addr 0x2384344, size 0xfc, virtual false, abstract: false, final false
   inline void RefreshSpectatingSpotName();
 
-  /// @brief Method HandleIncButtonWasPressed, addr 0x23c6cc0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleIncButtonWasPressed, addr 0x23845f8, size 0x1c, virtual false, abstract: false, final false
   inline void HandleIncButtonWasPressed();
 
-  /// @brief Method HandleDecButtonWasPressed, addr 0x23c6cdc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleDecButtonWasPressed, addr 0x2384614, size 0x1c, virtual false, abstract: false, final false
   inline void HandleDecButtonWasPressed();
 
   static inline ::GlobalNamespace::MultiplayerSpectatingSpotPickerViewController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23c6cf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2384630, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerSpectatingSpotPickerViewController", modifiers: "&&", def_value: None }]

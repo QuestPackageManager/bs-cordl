@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::FixedBufferAttribute);
 namespace System::Runtime::CompilerServices {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3369))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3366))
 // CS Name: ::System.Runtime.CompilerServices::FixedBufferAttribute*
 class CORDL_TYPE FixedBufferAttribute : public ::System::Attribute {
 public:
@@ -48,13 +48,13 @@ public:
 
   static inline ::System::Runtime::CompilerServices::FixedBufferAttribute* New_ctor(::System::Type* elementType, int32_t length);
 
-  /// @brief Method .ctor, addr 0x24db044, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24fb3b0, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* elementType, int32_t length);
 
-  /// @brief Method get_ElementType, addr 0x24db074, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ElementType, addr 0x24fb3e0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ElementType();
 
-  /// @brief Method get_Length, addr 0x24db07c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Length, addr 0x24fb3e8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
   // Ctor Parameters [CppParam { name: "", ty: "FixedBufferAttribute", modifiers: "&&", def_value: None }]

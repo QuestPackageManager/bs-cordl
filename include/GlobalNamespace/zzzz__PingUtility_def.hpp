@@ -61,7 +61,7 @@ MARK_VAL_T(::GlobalNamespace::__PingUtility___PingAsync_d__0);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12921))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12819))
 // CS Name: ::PingUtility::<>c*
 class CORDL_TYPE __PingUtility____c : public ::System::Object {
 public:
@@ -82,10 +82,10 @@ public:
 
   static inline ::GlobalNamespace::__PingUtility____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe51740, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe7c578, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <PingAsync>b__0_0, addr 0xe51748, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method <PingAsync>b__0_0, addr 0xe7c580, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::Ping* _PingAsync_b__0_0(::System::Net::IPAddress* ip);
 
   // Ctor Parameters [CppParam { name: "", ty: "__PingUtility____c", modifiers: "&&", def_value: None }]
@@ -112,9 +112,9 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PingUtility__
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9030)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5061 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3402), inst: 333 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(12922)) CS Name: ::PingUtility::<PingAsync>d__0
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3389)), TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3398)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7040)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 5040 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3398), inst: 333 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(12820)) CS Name: ::PingUtility::<PingAsync>d__0
 struct CORDL_TYPE __PingUtility___PingAsync_d__0 {
 public:
   // Declarations
@@ -124,10 +124,10 @@ public:
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0xe517c8, size 0x52c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0xe7c600, size 0x52c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0xe51cf4, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0xe7cb2c, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -204,7 +204,7 @@ static_assert(offsetof(::GlobalNamespace::__PingUtility___PingAsync_d__0, __u__2
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12923))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12821))
 // CS Name: ::PingUtility*
 class CORDL_TYPE PingUtility : public ::System::Object {
 public:
@@ -213,7 +213,7 @@ public:
 
   using __c = ::GlobalNamespace::__PingUtility____c;
 
-  /// @brief Method PingAsync, addr 0xe515dc, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method PingAsync, addr 0xe7c414, size 0x100, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<int64_t>* PingAsync(::StringW url);
 
   // Ctor Parameters [CppParam { name: "", ty: "PingUtility", modifiers: "&&", def_value: None }]

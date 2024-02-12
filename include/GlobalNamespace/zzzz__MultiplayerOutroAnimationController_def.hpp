@@ -53,8 +53,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerOutroAnimationController);
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 192, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10159)), TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5232))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8903)), TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4574))
 // CS Name: ::MultiplayerOutroAnimationController*
 class CORDL_TYPE MultiplayerOutroAnimationController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -256,33 +256,33 @@ public:
 
   constexpr void __cordl_internal_set__onCompleted(::System::Action* value);
 
-  /// @brief Method Start, addr 0x2253df4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x23b3d98, size 0xa0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnValidate, addr 0x2253f54, size 0x7a4, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x23b3ef8, size 0x7a4, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method OnDestroy, addr 0x22546f8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x23b469c, size 0xd0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method AnimateOutro, addr 0x2249c54, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method AnimateOutro, addr 0x23a8084, size 0x1c0, virtual false, abstract: false, final false
   inline void AnimateOutro(::GlobalNamespace::MultiplayerResultsData* multiplayerResultsData, ::System::Action* onCompleted);
 
-  /// @brief Method BindOutroTimeline, addr 0x2254864, size 0x6b4, virtual false, abstract: false, final false
+  /// @brief Method BindOutroTimeline, addr 0x23b4808, size 0x6b4, virtual false, abstract: false, final false
   inline void BindOutroTimeline();
 
-  /// @brief Method BindRingsAndAudio, addr 0x2255138, size 0x968, virtual false, abstract: false, final false
+  /// @brief Method BindRingsAndAudio, addr 0x23b50dc, size 0x724, virtual false, abstract: false, final false
   inline void BindRingsAndAudio(::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*> rings, bool isMock, bool isDuel, ::UnityEngine::GameObject* resultsMocks);
 
-  /// @brief Method Completed, addr 0x22560b4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Completed, addr 0x23b5e14, size 0x24, virtual false, abstract: false, final false
   inline void Completed();
 
-  /// @brief Method HandlePlayerSpawningDidFinish, addr 0x2253e94, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerSpawningDidFinish, addr 0x23b3e38, size 0x24, virtual false, abstract: false, final false
   inline void HandlePlayerSpawningDidFinish();
 
   static inline ::GlobalNamespace::MultiplayerOutroAnimationController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22564d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23b6238, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerOutroAnimationController", modifiers: "&&", def_value: None }]

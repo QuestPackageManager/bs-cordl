@@ -4,10 +4,10 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IBeatmapDataAssetFileModel)
 namespace GlobalNamespace {
-struct GetAssetBundleFileResult;
+class BeatmapLevel;
 }
 namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
+struct GetAssetBundleFileResult;
 }
 namespace GlobalNamespace {
 struct LevelDataAssetDownloadUpdate;
@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IBeatmapDataAssetFileModel);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4412))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10835))
 // CS Name: ::IBeatmapDataAssetFileModel*
 class CORDL_TYPE IBeatmapDataAssetFileModel {
 public:
@@ -43,12 +43,12 @@ public:
   /// @brief Method remove_levelDataAssetDownloadUpdateEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void remove_levelDataAssetDownloadUpdateEvent(::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>* value);
 
-  /// @brief Method GetAssetBundleFileForPreviewLevelAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::GetAssetBundleFileResult>* GetAssetBundleFileForPreviewLevelAsync(::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel,
+  /// @brief Method GetAssetBundleFileForBeatmapLevelAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::GetAssetBundleFileResult>* GetAssetBundleFileForBeatmapLevelAsync(::GlobalNamespace::BeatmapLevel* beatmapLevel,
                                                                                                                                  ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method TryDeleteAssetBundleFileForPreviewLevelAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Threading::Tasks::Task_1<bool>* TryDeleteAssetBundleFileForPreviewLevelAsync(::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel,
+  /// @brief Method TryDeleteAssetBundleFileForBeatmapLevelAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::Threading::Tasks::Task_1<bool>* TryDeleteAssetBundleFileForBeatmapLevelAsync(::GlobalNamespace::BeatmapLevel* beatmapLevel,
                                                                                                 ::System::Threading::CancellationToken cancellationToken);
 
   // Ctor Parameters [CppParam { name: "", ty: "IBeatmapDataAssetFileModel", modifiers: "&&", def_value: None }]

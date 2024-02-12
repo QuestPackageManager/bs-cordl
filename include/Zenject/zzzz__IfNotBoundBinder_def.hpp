@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::Zenject::IfNotBoundBinder);
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10922))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10064))
 // CS Name: ::Zenject::IfNotBoundBinder*
 class CORDL_TYPE IfNotBoundBinder : public ::System::Object {
 public:
@@ -36,16 +36,16 @@ public:
 
   static inline ::Zenject::IfNotBoundBinder* New_ctor(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method .ctor, addr 0x2edb198, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ef72e0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method get_BindInfo, addr 0x2edb1c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BindInfo, addr 0x2ef7308, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::BindInfo* get_BindInfo();
 
-  /// @brief Method set_BindInfo, addr 0x2edb1c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BindInfo, addr 0x2ef7310, size 0x8, virtual false, abstract: false, final false
   inline void set_BindInfo(::Zenject::BindInfo* value);
 
-  /// @brief Method IfNotBound, addr 0x2edb1d0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IfNotBound, addr 0x2ef7318, size 0x20, virtual false, abstract: false, final false
   inline void IfNotBound();
 
   // Ctor Parameters [CppParam { name: "", ty: "IfNotBoundBinder", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Rendering::IndexFormat);
 namespace UnityEngine::Rendering {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10328))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9075))
 // CS Name: ::UnityEngine.Rendering::IndexFormat
 struct CORDL_TYPE IndexFormat {
 public:

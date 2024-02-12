@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ThreadPriority);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10038))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8770))
 // CS Name: ::UnityEngine::ThreadPriority
 struct CORDL_TYPE ThreadPriority {
 public:

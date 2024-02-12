@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ServerPasswordEntryViewController);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5723))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13558))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5025))
 // CS Name: ::ServerPasswordEntryViewController*
 class CORDL_TYPE ServerPasswordEntryViewController : public ::HMUI::ViewController {
 public:
@@ -69,30 +69,30 @@ public:
 
   constexpr void __cordl_internal_set__selectedNetworkPlayer(::GlobalNamespace::INetworkPlayer* value);
 
-  /// @brief Method add_didFinishEvent, addr 0x22d06ac, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x22ffe74, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_2<::GlobalNamespace::INetworkPlayer*, ::StringW>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x22d075c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x22fff24, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_2<::GlobalNamespace::INetworkPlayer*, ::StringW>* value);
 
-  /// @brief Method Setup, addr 0x22d080c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x22fffd4, size 0x8, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::INetworkPlayer* selectedPlayer);
 
-  /// @brief Method DidActivate, addr 0x22d0814, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x22fffdc, size 0xc4, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x22d08d8, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x23000a0, size 0xb4, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleJoinClicked, addr 0x22d098c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method HandleJoinClicked, addr 0x2300154, size 0x3c, virtual false, abstract: false, final false
   inline void HandleJoinClicked();
 
-  /// @brief Method HandleUIKeyboardOkButtonWasPressed, addr 0x22d09c8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method HandleUIKeyboardOkButtonWasPressed, addr 0x2300190, size 0x3c, virtual false, abstract: false, final false
   inline void HandleUIKeyboardOkButtonWasPressed();
 
   static inline ::GlobalNamespace::ServerPasswordEntryViewController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22d0a04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23001cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ServerPasswordEntryViewController", modifiers: "&&", def_value: None }]

@@ -41,7 +41,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__DisconnectPromptView____c__DisplayClass12_0)
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5777))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5075))
 // CS Name: ::DisconnectPromptView::<>c__DisplayClass12_0*
 class CORDL_TYPE __DisconnectPromptView____c__DisplayClass12_0 : public ::System::Object {
 public:
@@ -66,10 +66,10 @@ public:
 
   static inline ::GlobalNamespace::__DisconnectPromptView____c__DisplayClass12_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22e0e70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23110d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Hide>b__0, addr 0x22e0f20, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method <Hide>b__0, addr 0x2311180, size 0x44, virtual false, abstract: false, final false
   inline void _Hide_b__0();
 
   // Ctor Parameters [CppParam { name: "", ty: "__DisconnectPromptView____c__DisplayClass12_0", modifiers: "&&", def_value: None }]
@@ -106,8 +106,8 @@ static_assert(offsetof(::GlobalNamespace::__DisconnectPromptView____c__DisplayCl
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5778))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5076))
 // CS Name: ::DisconnectPromptView*
 class CORDL_TYPE DisconnectPromptView : public ::UnityEngine::MonoBehaviour {
 public:
@@ -177,33 +177,33 @@ public:
 
   constexpr void __cordl_internal_set__buttonBinder(::HMUI::ButtonBinder* value);
 
-  /// @brief Method add_didViewFinishEvent, addr 0x22e0b00, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didViewFinishEvent, addr 0x2310d60, size 0xb0, virtual false, abstract: false, final false
   inline void add_didViewFinishEvent(::System::Action_1<bool>* value);
 
-  /// @brief Method remove_didViewFinishEvent, addr 0x22e0bb0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didViewFinishEvent, addr 0x2310e10, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didViewFinishEvent(::System::Action_1<bool>* value);
 
-  /// @brief Method OnEnable, addr 0x22e0c60, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x2310ec0, size 0xf0, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable, addr 0x22e0d50, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x2310fb0, size 0x1c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method Show, addr 0x22e0d6c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Show, addr 0x2310fcc, size 0x38, virtual false, abstract: false, final false
   inline void Show();
 
-  /// @brief Method Hide, addr 0x22e0da4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Hide, addr 0x2311004, size 0xcc, virtual false, abstract: false, final false
   inline void Hide(::System::Action* finishedCallback);
 
   static inline ::GlobalNamespace::DisconnectPromptView* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22e0e78, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23110d8, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <OnEnable>b__9_0, addr 0x22e0ee0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__9_0, addr 0x2311140, size 0x20, virtual false, abstract: false, final false
   inline void _OnEnable_b__9_0();
 
-  /// @brief Method <OnEnable>b__9_1, addr 0x22e0f00, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__9_1, addr 0x2311160, size 0x20, virtual false, abstract: false, final false
   inline void _OnEnable_b__9_1();
 
   // Ctor Parameters [CppParam { name: "", ty: "DisconnectPromptView", modifiers: "&&", def_value: None }]

@@ -163,20 +163,20 @@ public:
 
   static inline ::Org::BouncyCastle::Utilities::Zlib::InfCodes* New_ctor();
 
-  /// @brief Method .ctor, addr 0x116469c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x119352c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method init, addr 0x1165a8c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method init, addr 0x119491c, size 0x24, virtual false, abstract: false, final false
   inline void init(int32_t bl, int32_t bd, ::ArrayW<int32_t, ::Array<int32_t>*> tl, int32_t tl_index, ::ArrayW<int32_t, ::Array<int32_t>*> td, int32_t td_index,
                    ::Org::BouncyCastle::Utilities::Zlib::ZStream* z);
 
-  /// @brief Method proc, addr 0x1165e10, size 0x9cc, virtual false, abstract: false, final false
+  /// @brief Method proc, addr 0x1194ca0, size 0x9cc, virtual false, abstract: false, final false
   inline int32_t proc(::Org::BouncyCastle::Utilities::Zlib::InfBlocks* s, ::Org::BouncyCastle::Utilities::Zlib::ZStream* z, int32_t r);
 
-  /// @brief Method free, addr 0x116474c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method free, addr 0x11935dc, size 0x4, virtual false, abstract: false, final false
   inline void free(::Org::BouncyCastle::Utilities::Zlib::ZStream* z);
 
-  /// @brief Method inflate_fast, addr 0x1166918, size 0x860, virtual false, abstract: false, final false
+  /// @brief Method inflate_fast, addr 0x11957a8, size 0x860, virtual false, abstract: false, final false
   inline int32_t inflate_fast(int32_t bl, int32_t bd, ::ArrayW<int32_t, ::Array<int32_t>*> tl, int32_t tl_index, ::ArrayW<int32_t, ::Array<int32_t>*> td, int32_t td_index,
                               ::Org::BouncyCastle::Utilities::Zlib::InfBlocks* s, ::Org::BouncyCastle::Utilities::Zlib::ZStream* z);
 

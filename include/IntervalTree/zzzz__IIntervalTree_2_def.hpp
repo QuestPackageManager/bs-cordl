@@ -29,7 +29,7 @@ namespace IntervalTree {
 template <typename TKey, typename TValue>
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16126))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16246))
 // CS Name: ::IntervalTree::IIntervalTree`2<TKey,TValue>*
 class CORDL_TYPE IIntervalTree_2 {
 public:

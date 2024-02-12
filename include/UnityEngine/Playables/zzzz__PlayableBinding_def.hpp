@@ -42,17 +42,17 @@ MARK_VAL_T(::UnityEngine::Playables::PlayableBinding);
 namespace UnityEngine::Playables {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10430))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9198))
 // CS Name: ::PlayableBinding::CreateOutputMethod*
 class CORDL_TYPE __PlayableBinding__CreateOutputMethod : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::UnityEngine::Playables::__PlayableBinding__CreateOutputMethod* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2cf6068, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d00d44, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x2cf612c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2d00e08, size 0x14, virtual true, abstract: false, final false
   inline ::UnityEngine::Playables::PlayableOutput Invoke(::UnityEngine::Playables::PlayableGraph graph, ::StringW name);
 
   // Ctor Parameters [CppParam { name: "", ty: "__PlayableBinding__CreateOutputMethod", modifiers: "&&", def_value: None }]
@@ -80,7 +80,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::Playables::__Playab
 namespace UnityEngine::Playables {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10431))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9199))
 // CS Name: ::UnityEngine.Playables::PlayableBinding
 struct CORDL_TYPE PlayableBinding {
 public:
@@ -105,16 +105,16 @@ public:
 
   static inline double_t getStaticF_DefaultDuration();
 
-  /// @brief Method get_streamName, addr 0x2cf5eec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_streamName, addr 0x2d00bc8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_streamName();
 
-  /// @brief Method get_sourceObject, addr 0x2cf5ef4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sourceObject, addr 0x2d00bd0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> get_sourceObject();
 
-  /// @brief Method CreateOutput, addr 0x2cf5efc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method CreateOutput, addr 0x2d00bd8, size 0x90, virtual false, abstract: false, final false
   inline ::UnityEngine::Playables::PlayableOutput CreateOutput(::UnityEngine::Playables::PlayableGraph graph);
 
-  /// @brief Method CreateInternal, addr 0x2cf5fe4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CreateInternal, addr 0x2d00cc0, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableBinding CreateInternal(::StringW name, ::UnityEngine::Object* sourceObject, ::System::Type* sourceType,
                                                                          ::UnityEngine::Playables::__PlayableBinding__CreateOutputMethod* createFunction);
 

@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::System::ComponentModel::__EventHandlerList__ListEntry);
 namespace System::ComponentModel {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9394))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7404))
 // CS Name: ::EventHandlerList::ListEntry*
 class CORDL_TYPE __EventHandlerList__ListEntry : public ::System::Object {
 public:
@@ -103,7 +103,7 @@ static_assert(offsetof(::System::ComponentModel::__EventHandlerList__ListEntry, 
 namespace System::ComponentModel {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9395))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7405))
 // CS Name: ::System.ComponentModel::EventHandlerList*
 class CORDL_TYPE EventHandlerList : public ::System::Object {
 public:
@@ -130,10 +130,10 @@ public:
 
   constexpr void __cordl_internal_set__parent(::System::ComponentModel::Component* value);
 
-  /// @brief Method get_Item, addr 0x2904dbc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x2909424, size 0x60, virtual false, abstract: false, final false
   inline ::System::Delegate* get_Item(::System::Object* key);
 
-  /// @brief Method Find, addr 0x2904e1c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Find, addr 0x2909484, size 0x18, virtual false, abstract: false, final false
   inline ::System::ComponentModel::__EventHandlerList__ListEntry* Find(::System::Object* key);
 
   // Ctor Parameters [CppParam { name: "", ty: "EventHandlerList", modifiers: "&&", def_value: None }]

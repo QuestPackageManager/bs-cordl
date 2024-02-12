@@ -56,7 +56,7 @@ namespace Priority_Queue {
 template <typename TItem, typename TPriority>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6094))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15225))
 // CS Name: ::GenericPriorityQueue`2::<GetEnumerator>d__25<TItem,TPriority>*
 class CORDL_TYPE __GenericPriorityQueue_2___GetEnumerator_d__25 : public ::System::Object {
 public:
@@ -176,7 +176,7 @@ namespace Priority_Queue {
 template <typename TItem, typename TPriority>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6095))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15226))
 // CS Name: ::Priority_Queue::GenericPriorityQueue`2<TItem,TPriority>*
 class CORDL_TYPE GenericPriorityQueue_2 : public ::System::Object {
 public:

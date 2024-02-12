@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::HashCodeCalculator);
 namespace System::Net::Http::Headers {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14666))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14671))
 // CS Name: ::System.Net.Http.Headers::HashCodeCalculator*
 class CORDL_TYPE HashCodeCalculator : public ::System::Object {
 public:

@@ -374,52 +374,52 @@ public:
 
   static inline ::System::Type* getStaticF_typeofMarshalByRefObject();
 
-  /// @brief Method ToCode, addr 0x24c06b4, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method ToCode, addr 0x24e1728, size 0x124, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE ToCode(::System::Type* type);
 
-  /// @brief Method IsWriteAsByteArray, addr 0x24c4420, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IsWriteAsByteArray, addr 0x24e5494, size 0x24, virtual false, abstract: false, final false
   static inline bool IsWriteAsByteArray(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code);
 
-  /// @brief Method TypeLength, addr 0x24c4444, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method TypeLength, addr 0x24e54b8, size 0x24, virtual false, abstract: false, final false
   static inline int32_t TypeLength(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code);
 
-  /// @brief Method ToArrayType, addr 0x24c109c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method ToArrayType, addr 0x24e2110, size 0xb8, virtual false, abstract: false, final false
   static inline ::System::Type* ToArrayType(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code);
 
-  /// @brief Method InitTypeA, addr 0x24c4820, size 0x3b8, virtual false, abstract: false, final false
+  /// @brief Method InitTypeA, addr 0x24e5894, size 0x3b8, virtual false, abstract: false, final false
   static inline void InitTypeA();
 
-  /// @brief Method InitArrayTypeA, addr 0x24c4468, size 0x3b8, virtual false, abstract: false, final false
+  /// @brief Method InitArrayTypeA, addr 0x24e54dc, size 0x3b8, virtual false, abstract: false, final false
   static inline void InitArrayTypeA();
 
-  /// @brief Method ToType, addr 0x24c0fe4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method ToType, addr 0x24e2058, size 0xb8, virtual false, abstract: false, final false
   static inline ::System::Type* ToType(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code);
 
-  /// @brief Method CreatePrimitiveArray, addr 0x24c4bd8, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method CreatePrimitiveArray, addr 0x24e5c4c, size 0x120, virtual false, abstract: false, final false
   static inline ::System::Array* CreatePrimitiveArray(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code, int32_t length);
 
-  /// @brief Method IsPrimitiveArray, addr 0x24c0204, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method IsPrimitiveArray, addr 0x24e1278, size 0x290, virtual false, abstract: false, final false
   static inline bool IsPrimitiveArray(::System::Type* type, ByRef<::System::Object*> typeInformation);
 
-  /// @brief Method InitValueA, addr 0x24c4cf8, size 0x46c, virtual false, abstract: false, final false
+  /// @brief Method InitValueA, addr 0x24e5d6c, size 0x46c, virtual false, abstract: false, final false
   static inline void InitValueA();
 
-  /// @brief Method ToComType, addr 0x24c0f2c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method ToComType, addr 0x24e1fa0, size 0xb8, virtual false, abstract: false, final false
   static inline ::StringW ToComType(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code);
 
-  /// @brief Method InitTypeCodeA, addr 0x24c5164, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method InitTypeCodeA, addr 0x24e61d8, size 0x194, virtual false, abstract: false, final false
   static inline void InitTypeCodeA();
 
-  /// @brief Method ToTypeCode, addr 0x24c52f8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method ToTypeCode, addr 0x24e636c, size 0xb8, virtual false, abstract: false, final false
   static inline ::System::TypeCode ToTypeCode(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code);
 
-  /// @brief Method InitCodeA, addr 0x24c53b0, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method InitCodeA, addr 0x24e6424, size 0x1a8, virtual false, abstract: false, final false
   static inline void InitCodeA();
 
-  /// @brief Method ToPrimitiveTypeEnum, addr 0x24c4368, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method ToPrimitiveTypeEnum, addr 0x24e53dc, size 0xb8, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE ToPrimitiveTypeEnum(::System::TypeCode typeCode);
 
-  /// @brief Method FromString, addr 0x24c5558, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method FromString, addr 0x24e65cc, size 0xec, virtual false, abstract: false, final false
   static inline ::System::Object* FromString(::StringW value, ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code);
 
   // Ctor Parameters [CppParam { name: "", ty: "Converter", modifiers: "&&", def_value: None }]

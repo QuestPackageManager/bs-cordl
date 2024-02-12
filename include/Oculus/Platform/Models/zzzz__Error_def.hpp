@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::Error);
 namespace Oculus::Platform::Models {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13433))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13372))
 // CS Name: ::Oculus.Platform.Models::Error*
 class CORDL_TYPE Error : public ::System::Object {
 public:
@@ -51,7 +51,7 @@ public:
 
   static inline ::Oculus::Platform::Models::Error* New_ctor(int32_t code, ::StringW message, int32_t httpCode);
 
-  /// @brief Method .ctor, addr 0x2705dc0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2738c9c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(int32_t code, ::StringW message, int32_t httpCode);
 
   // Ctor Parameters [CppParam { name: "", ty: "Error", modifiers: "&&", def_value: None }]

@@ -34,16 +34,16 @@ MARK_VAL_T(::UnityEngine::InputSystem::HID::__HIDSupport__HIDPageUsage);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::HID {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6400))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6411))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5659))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5670))
 // CS Name: ::HIDSupport::HIDPageUsage
 struct CORDL_TYPE __HIDSupport__HIDPageUsage {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x2adb08c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2adbbf8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::HID::__HID__UsagePage page, int32_t usage);
 
-  /// @brief Method .ctor, addr 0x2ae0178, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ae0ce4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::HID::__HID__GenericDesktop usage);
 
   // Ctor Parameters [CppParam { name: "page", ty: "::UnityEngine::InputSystem::HID::__HID__UsagePage", modifiers: "", def_value: None }, CppParam { name: "usage", ty: "int32_t", modifiers: "",
@@ -78,7 +78,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::HID::__HIDSupport__HIDPageUsa
 namespace UnityEngine::InputSystem::HID {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6412))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5671))
 // CS Name: ::UnityEngine.InputSystem.HID::HIDSupport*
 class CORDL_TYPE HIDSupport : public ::System::Object {
 public:
@@ -95,13 +95,13 @@ public:
 
   static inline ::ArrayW<::UnityEngine::InputSystem::HID::__HIDSupport__HIDPageUsage, ::Array<::UnityEngine::InputSystem::HID::__HIDSupport__HIDPageUsage>*> getStaticF_s_SupportedHIDUsages();
 
-  /// @brief Method get_supportedHIDUsages, addr 0x2adb02c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_supportedHIDUsages, addr 0x2adbb98, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::HID::__HIDSupport__HIDPageUsage> get_supportedHIDUsages();
 
-  /// @brief Method set_supportedHIDUsages, addr 0x2adfe08, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method set_supportedHIDUsages, addr 0x2ae0974, size 0x224, virtual false, abstract: false, final false
   static inline void set_supportedHIDUsages(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::HID::__HIDSupport__HIDPageUsage> value);
 
-  /// @brief Method Initialize, addr 0x2ae002c, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x2ae0b98, size 0x14c, virtual false, abstract: false, final false
   static inline void Initialize();
 
   // Ctor Parameters [CppParam { name: "", ty: "HIDSupport", modifiers: "&&", def_value: None }]

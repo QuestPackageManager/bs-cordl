@@ -81,30 +81,30 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::ElGamalPublicBcpgKey* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor, addr 0x11d1668, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11ff4f8, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
   static inline ::Org::BouncyCastle::Bcpg::ElGamalPublicBcpgKey* New_ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* g, ::Org::BouncyCastle::Math::BigInteger* y);
 
-  /// @brief Method .ctor, addr 0x11d1718, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11ff5a8, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* g, ::Org::BouncyCastle::Math::BigInteger* y);
 
-  /// @brief Method get_Format, addr 0x11d17d8, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_Format, addr 0x11ff668, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_Format();
 
-  /// @brief Method GetEncoded, addr 0x11d1818, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x11ff6a8, size 0x84, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
-  /// @brief Method get_P, addr 0x11d189c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_P, addr 0x11ff72c, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_P();
 
-  /// @brief Method get_G, addr 0x11d18b8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_G, addr 0x11ff748, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_G();
 
-  /// @brief Method get_Y, addr 0x11d18d4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Y, addr 0x11ff764, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Y();
 
-  /// @brief Method Encode, addr 0x11d18f0, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x11ff780, size 0x100, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
   // Ctor Parameters [CppParam { name: "", ty: "ElGamalPublicBcpgKey", modifiers: "&&", def_value: None }]

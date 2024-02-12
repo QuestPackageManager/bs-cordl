@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Protocol::Ntlm::ChallengeResponse::*)()>(
     &::Mono::Security::Protocol::Ntlm::ChallengeResponse::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x23feb48;
+  constexpr static std::size_t addrs = 0x241e9a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Protocol::Ntlm::ChallengeResponse*>::get(),
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Protocol::Ntlm::ChallengeResponse::*)(::StringW, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Mono::Security::Protocol::Ntlm::ChallengeResponse::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x23febb8;
+  constexpr static std::size_t addrs = 0x241ea18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Protocol::Ntlm::ChallengeResponse::*)()>(
     &::Mono::Security::Protocol::Ntlm::ChallengeResponse::Finalize)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x23ff130;
+  constexpr static std::size_t addrs = 0x241ef90;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Protocol::Ntlm::ChallengeResponse::*)(::StringW)>(
     &::Mono::Security::Protocol::Ntlm::ChallengeResponse::set_Password)> {
   constexpr static std::size_t size = 0x40c;
-  constexpr static std::size_t addrs = 0x23febf0;
+  constexpr static std::size_t addrs = 0x241ea50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Protocol::Ntlm::ChallengeResponse::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Mono::Security::Protocol::Ntlm::ChallengeResponse::set_Challenge)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x23feffc;
+  constexpr static std::size_t addrs = 0x241ee5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Mono::Security::Protocol::Ntlm::ChallengeResponse::*)()>(
     &::Mono::Security::Protocol::Ntlm::ChallengeResponse::get_LM)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x23ff378;
+  constexpr static std::size_t addrs = 0x241f1d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Protocol::Ntlm::ChallengeResponse*>::get(),
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Mono::Security::Protocol::Ntlm::ChallengeResponse::*)()>(
     &::Mono::Security::Protocol::Ntlm::ChallengeResponse::get_NT)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x23ff6b8;
+  constexpr static std::size_t addrs = 0x241f518;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Protocol::Ntlm::ChallengeResponse*>::get(),
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Protocol::Ntlm::ChallengeResponse::*)()>(
     &::Mono::Security::Protocol::Ntlm::ChallengeResponse::Dispose)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x23ff1d0;
+  constexpr static std::size_t addrs = 0x241f030;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Protocol::Ntlm::ChallengeResponse*>::get(),
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Protocol::Ntlm::ChallengeResponse::*)(bool)>(
     &::Mono::Security::Protocol::Ntlm::ChallengeResponse::Dispose)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x23ff71c;
+  constexpr static std::size_t addrs = 0x241f57c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Mono::Security::Protocol::Ntlm::ChallengeResponse::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Mono::Security::Protocol::Ntlm::ChallengeResponse::GetResponse)> {
   constexpr static std::size_t size = 0x2dc;
-  constexpr static std::size_t addrs = 0x23ff3dc;
+  constexpr static std::size_t addrs = 0x241f23c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Mono::Security::Protocol::Ntlm::ChallengeResponse::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Mono::Security::Protocol::Ntlm::ChallengeResponse::PrepareDESKey)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x23ff788;
+  constexpr static std::size_t addrs = 0x241f5e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Mono::Security::Protocol::Ntlm::ChallengeResponse::*)(::StringW, int32_t)>(
     &::Mono::Security::Protocol::Ntlm::ChallengeResponse::PasswordToKey)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x23ff234;
+  constexpr static std::size_t addrs = 0x241f094;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

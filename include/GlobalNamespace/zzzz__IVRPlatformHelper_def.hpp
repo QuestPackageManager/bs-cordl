@@ -38,7 +38,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IVRPlatformHelper);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14416))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14565))
 // CS Name: ::IVRPlatformHelper*
 class CORDL_TYPE IVRPlatformHelper {
 public:

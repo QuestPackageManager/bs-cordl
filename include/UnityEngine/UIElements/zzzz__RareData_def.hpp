@@ -49,9 +49,9 @@ MARK_VAL_T(::UnityEngine::UIElements::RareData);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6808)), TypeDefinitionIndex(TypeDefinitionIndex(6888)), TypeDefinitionIndex(TypeDefinitionIndex(6893)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6894)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(14596))] Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(7358)) CS Name: ::UnityEngine.UIElements::RareData
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6067)), TypeDefinitionIndex(TypeDefinitionIndex(6147)), TypeDefinitionIndex(TypeDefinitionIndex(6152)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6153)), TypeDefinitionIndex(TypeDefinitionIndex(8995)), TypeDefinitionIndex(TypeDefinitionIndex(14601))] Self: TypeDefinitionIndex(TypeDefinitionIndex(6617))
+// CS Name: ::UnityEngine.UIElements::RareData
 struct CORDL_TYPE RareData {
 public:
   // Declarations
@@ -67,22 +67,22 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::RareData>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::RareData>* i___System__IEquatable_1___UnityEngine__UIElements__RareData_();
 
-  /// @brief Method Copy, addr 0x2e8408c, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Copy, addr 0x2e9e474, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::RareData Copy();
 
-  /// @brief Method CopyFrom, addr 0x2e840a8, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method CopyFrom, addr 0x2e9e490, size 0x14, virtual true, abstract: false, final true
   inline void CopyFrom(ByRef<::UnityEngine::UIElements::RareData> other);
 
-  /// @brief Method op_Equality, addr 0x2e840bc, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x2e9e4a4, size 0x120, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::RareData lhs, ::UnityEngine::UIElements::RareData rhs);
 
-  /// @brief Method Equals, addr 0x2e841dc, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2e9e5c4, size 0x44, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::RareData other);
 
-  /// @brief Method Equals, addr 0x2e84220, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2e9e608, size 0xa0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2e842c0, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2e9e6a8, size 0xf8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "cursor", ty: "::UnityEngine::UIElements::Cursor", modifiers: "", def_value: None }, CppParam { name: "textOverflow", ty:

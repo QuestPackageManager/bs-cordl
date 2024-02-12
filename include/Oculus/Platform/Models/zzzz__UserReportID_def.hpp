@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::UserReportID);
 namespace Oculus::Platform::Models {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13491))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13447))
 // CS Name: ::Oculus.Platform.Models::UserReportID*
 class CORDL_TYPE UserReportID : public ::System::Object {
 public:
@@ -41,7 +41,7 @@ public:
 
   static inline ::Oculus::Platform::Models::UserReportID* New_ctor(void* o);
 
-  /// @brief Method .ctor, addr 0x2709434, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x273de60, size 0x108c, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "UserReportID", modifiers: "&&", def_value: None }]

@@ -29,17 +29,17 @@ MARK_REF_PTR_T(::Mono::Security::Interface::MonoRemoteCertificateValidationCallb
 namespace Mono::Security::Interface {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13780))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13733))
 // CS Name: ::Mono.Security.Interface::MonoRemoteCertificateValidationCallback*
 class CORDL_TYPE MonoRemoteCertificateValidationCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::Mono::Security::Interface::MonoRemoteCertificateValidationCallback* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2402bac, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2422a0c, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x2402c84, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2422ae4, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(::StringW targetHost, ::System::Security::Cryptography::X509Certificates::X509Certificate* certificate, ::System::Security::Cryptography::X509Certificates::X509Chain* chain,
                      ::Mono::Security::Interface::MonoSslPolicyErrors sslPolicyErrors);
 

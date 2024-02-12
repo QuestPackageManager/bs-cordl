@@ -39,10 +39,10 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Asn1Generator* New_ctor(::System::IO::Stream* outStream);
 
-  /// @brief Method .ctor, addr 0x11b3d74, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11e0c04, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* outStream);
 
-  /// @brief Method get_Out, addr 0x11b3d9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Out, addr 0x11e0c2c, size 0x8, virtual false, abstract: false, final false
   inline ::System::IO::Stream* get_Out();
 
   /// @brief Method AddObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

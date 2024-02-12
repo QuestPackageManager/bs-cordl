@@ -59,68 +59,68 @@ public:
 
   static inline ::System::AggregateException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x251f17c, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2540a60, size 0x114, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::AggregateException* New_ctor(::System::Collections::Generic::IEnumerable_1<::System::Exception*>* innerExceptions);
 
-  /// @brief Method .ctor, addr 0x251f290, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2540b74, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<::System::Exception*>* innerExceptions);
 
   static inline ::System::AggregateException* New_ctor(::ArrayW<::System::Exception*, ::Array<::System::Exception*>*> innerExceptions);
 
-  /// @brief Method .ctor, addr 0x251f3ac, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2540c90, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::System::Exception*, ::Array<::System::Exception*>*> innerExceptions);
 
   static inline ::System::AggregateException* New_ctor(::StringW message, ::System::Collections::Generic::IEnumerable_1<::System::Exception*>* innerExceptions);
 
-  /// @brief Method .ctor, addr 0x251f2e8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2540bcc, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Collections::Generic::IEnumerable_1<::System::Exception*>* innerExceptions);
 
   static inline ::System::AggregateException* New_ctor(::StringW message, ::ArrayW<::System::Exception*, ::Array<::System::Exception*>*> innerExceptions);
 
-  /// @brief Method .ctor, addr 0x251f404, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2540ce8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::ArrayW<::System::Exception*, ::Array<::System::Exception*>*> innerExceptions);
 
   static inline ::System::AggregateException* New_ctor(::StringW message, ::System::Collections::Generic::IList_1<::System::Exception*>* innerExceptions);
 
-  /// @brief Method .ctor, addr 0x251f408, size 0x3c0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2540cec, size 0x3c0, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Collections::Generic::IList_1<::System::Exception*>* innerExceptions);
 
   static inline ::System::AggregateException* New_ctor(::System::Collections::Generic::IEnumerable_1<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*>* innerExceptionInfos);
 
-  /// @brief Method .ctor, addr 0x251f7ec, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25410d0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*>* innerExceptionInfos);
 
   static inline ::System::AggregateException* New_ctor(::StringW message,
                                                        ::System::Collections::Generic::IEnumerable_1<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*>* innerExceptionInfos);
 
-  /// @brief Method .ctor, addr 0x251f844, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2541128, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Collections::Generic::IEnumerable_1<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*>* innerExceptionInfos);
 
   static inline ::System::AggregateException* New_ctor(::StringW message, ::System::Collections::Generic::IList_1<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*>* innerExceptionInfos);
 
-  /// @brief Method .ctor, addr 0x251f908, size 0x43c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25411ec, size 0x43c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Collections::Generic::IList_1<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*>* innerExceptionInfos);
 
   static inline ::System::AggregateException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x251fd44, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2541628, size 0x1e8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetObjectData, addr 0x251ff2c, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x2541810, size 0x14c, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method get_InnerExceptions, addr 0x2520078, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InnerExceptions, addr 0x254195c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Exception*>* get_InnerExceptions();
 
-  /// @brief Method Flatten, addr 0x2520080, size 0x3c0, virtual false, abstract: false, final false
+  /// @brief Method Flatten, addr 0x2541964, size 0x3c0, virtual false, abstract: false, final false
   inline ::System::AggregateException* Flatten();
 
-  /// @brief Method get_Message, addr 0x2520440, size 0x18c, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x2541d24, size 0x18c, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
-  /// @brief Method ToString, addr 0x25205cc, size 0x214, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2541eb0, size 0x214, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "AggregateException", modifiers: "&&", def_value: None }]

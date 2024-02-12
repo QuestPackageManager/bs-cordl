@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::EventSystems::EventTriggerType);
 namespace UnityEngine::EventSystems {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13195))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13093))
 // CS Name: ::UnityEngine.EventSystems::EventTriggerType
 struct CORDL_TYPE EventTriggerType {
 public:

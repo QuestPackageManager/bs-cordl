@@ -16,7 +16,7 @@ MARK_VAL_T(::Oculus::Platform::PartyUpdateAction);
 namespace Oculus::Platform {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13345))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13265))
 // CS Name: ::Oculus.Platform::PartyUpdateAction
 struct CORDL_TYPE PartyUpdateAction {
 public:

@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::GlobalNamespace::SelectableStateController);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5455))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4758))
 // CS Name: ::SelectableStateController::ViewState
 struct CORDL_TYPE __SelectableStateController__ViewState {
 public:
@@ -96,8 +96,8 @@ static_assert(offsetof(::GlobalNamespace::__SelectableStateController__ViewState
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5455)), TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5456))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4758)), TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4759))
 // CS Name: ::SelectableStateController*
 class CORDL_TYPE SelectableStateController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -139,30 +139,30 @@ public:
 
   constexpr void __cordl_internal_set__currentViewState_k__BackingField(::GlobalNamespace::__SelectableStateController__ViewState value);
 
-  /// @brief Method add_stateDidChangeEvent, addr 0x227cab0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_stateDidChangeEvent, addr 0x23d8368, size 0xb0, virtual false, abstract: false, final false
   inline void add_stateDidChangeEvent(::System::Action_2<::GlobalNamespace::__SelectableStateController__ViewState, bool>* value);
 
-  /// @brief Method remove_stateDidChangeEvent, addr 0x227cbf0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_stateDidChangeEvent, addr 0x23d84a8, size 0xb0, virtual false, abstract: false, final false
   inline void remove_stateDidChangeEvent(::System::Action_2<::GlobalNamespace::__SelectableStateController__ViewState, bool>* value);
 
-  /// @brief Method get_tweeningManager, addr 0x227f5c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_tweeningManager, addr 0x23dae80, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::Tweening::TimeTweeningManager> get_tweeningManager();
 
-  /// @brief Method get_viewState, addr 0x227cb60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_viewState, addr 0x23d8418, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__SelectableStateController__ViewState get_viewState();
 
-  /// @brief Method get_currentViewState, addr 0x227f5d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_currentViewState, addr 0x23dae88, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__SelectableStateController__ViewState get_currentViewState();
 
-  /// @brief Method set_currentViewState, addr 0x227f5d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_currentViewState, addr 0x23dae90, size 0x8, virtual false, abstract: false, final false
   inline void set_currentViewState(::GlobalNamespace::__SelectableStateController__ViewState value);
 
-  /// @brief Method SetState, addr 0x227f5e0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetState, addr 0x23dae98, size 0x24, virtual false, abstract: false, final false
   inline void SetState(::GlobalNamespace::__SelectableStateController__ViewState state, bool animated);
 
   static inline ::GlobalNamespace::SelectableStateController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x227f604, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23daebc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SelectableStateController", modifiers: "&&", def_value: None }]

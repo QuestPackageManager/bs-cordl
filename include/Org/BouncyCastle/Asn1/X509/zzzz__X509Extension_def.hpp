@@ -60,30 +60,30 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::X509Extension* New_ctor(::Org::BouncyCastle::Asn1::DerBoolean* critical, ::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
-  /// @brief Method .ctor, addr 0x119dc5c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11cbaec, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerBoolean* critical, ::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
   static inline ::Org::BouncyCastle::Asn1::X509::X509Extension* New_ctor(bool critical, ::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
-  /// @brief Method .ctor, addr 0x119c014, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11c9ea4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(bool critical, ::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
-  /// @brief Method get_IsCritical, addr 0x119dcec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsCritical, addr 0x11cbb7c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsCritical();
 
-  /// @brief Method get_Value, addr 0x119dcf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x11cbb84, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_Value();
 
-  /// @brief Method GetParsedValue, addr 0x119dcfc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetParsedValue, addr 0x11cbb8c, size 0x4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* GetParsedValue();
 
-  /// @brief Method GetHashCode, addr 0x119dd00, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x11cbb90, size 0x30, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Equals, addr 0x119dd30, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x11cbbc0, size 0xbc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method ConvertValueToObject, addr 0x118cf6c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method ConvertValueToObject, addr 0x11badfc, size 0x108, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1Object* ConvertValueToObject(::Org::BouncyCastle::Asn1::X509::X509Extension* ext);
 
   // Ctor Parameters [CppParam { name: "", ty: "X509Extension", modifiers: "&&", def_value: None }]

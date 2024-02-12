@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::System::Collections::CaseInsensitiveComparer);
 namespace System::Collections {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3771))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3770))
 // CS Name: ::System.Collections::CaseInsensitiveComparer*
 class CORDL_TYPE CaseInsensitiveComparer : public ::System::Object {
 public:
@@ -50,15 +50,15 @@ public:
 
   static inline ::System::Collections::CaseInsensitiveComparer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x257dd5c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25a0c74, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::CaseInsensitiveComparer* New_ctor(::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method .ctor, addr 0x257ddd4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25a0cec, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method Compare, addr 0x257de5c, size 0xec, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x25a0d74, size 0xec, virtual true, abstract: false, final true
   inline int32_t Compare(::System::Object* a, ::System::Object* b);
 
   // Ctor Parameters [CppParam { name: "", ty: "CaseInsensitiveComparer", modifiers: "&&", def_value: None }]

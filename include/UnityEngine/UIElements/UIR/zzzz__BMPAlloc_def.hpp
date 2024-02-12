@@ -20,8 +20,8 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::BMPAlloc);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7373))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7374))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6632))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6633))
 // CS Name: ::UnityEngine.UIElements.UIR::BMPAlloc
 struct CORDL_TYPE BMPAlloc {
 public:
@@ -33,13 +33,13 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::BMPAlloc getStaticF_Invalid();
 
-  /// @brief Method Equals, addr 0x2e87e84, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x2ea226c, size 0x38, virtual false, abstract: false, final false
   inline bool Equals(::UnityEngine::UIElements::UIR::BMPAlloc other);
 
-  /// @brief Method IsValid, addr 0x2e87ebc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x2ea22a4, size 0x10, virtual false, abstract: false, final false
   inline bool IsValid();
 
-  /// @brief Method ToString, addr 0x2e87ecc, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2ea22b4, size 0xf4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "page", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "pageLine", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name:

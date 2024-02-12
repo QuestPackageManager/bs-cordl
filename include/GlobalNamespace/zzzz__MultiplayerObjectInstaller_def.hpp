@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerObjectInstaller);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11138))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5228))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10280))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4570))
 // CS Name: ::MultiplayerObjectInstaller*
 class CORDL_TYPE MultiplayerObjectInstaller : public ::Zenject::MonoInstaller {
 public:
@@ -60,12 +60,12 @@ public:
 
   constexpr void __cordl_internal_set__multiplayerResultsPyramidViewAvatarPrefab(::UnityW<::GlobalNamespace::MultiplayerResultsPyramidViewAvatar> value);
 
-  /// @brief Method InstallBindings, addr 0x22529fc, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x23b29a0, size 0x144, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::MultiplayerObjectInstaller* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2252b40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23b2ae4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerObjectInstaller", modifiers: "&&", def_value: None }]

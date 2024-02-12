@@ -49,10 +49,10 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsClientContextImpl* New_ctor(::Org::BouncyCastle::Security::SecureRandom* secureRandom,
                                                                                  ::Org::BouncyCastle::Crypto::Tls::SecurityParameters* securityParameters);
 
-  /// @brief Method .ctor, addr 0xf9b73c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfc75cc, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* secureRandom, ::Org::BouncyCastle::Crypto::Tls::SecurityParameters* securityParameters);
 
-  /// @brief Method get_IsServer, addr 0xf9b7ac, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsServer, addr 0xfc763c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsServer();
 
   // Ctor Parameters [CppParam { name: "", ty: "TlsClientContextImpl", modifiers: "&&", def_value: None }]

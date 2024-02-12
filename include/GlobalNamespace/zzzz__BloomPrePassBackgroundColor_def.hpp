@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BloomPrePassBackgroundColor);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(14478))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14456))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8995)), TypeDefinitionIndex(TypeDefinitionIndex(14372))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14350))
 // CS Name: ::BloomPrePassBackgroundColor*
 class CORDL_TYPE BloomPrePassBackgroundColor : public ::GlobalNamespace::BloomPrePassNonLightPass {
 public:
@@ -108,24 +108,24 @@ public:
 
   static inline bool getStaticF__initialized();
 
-  /// @brief Method get_color, addr 0x2103dc4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x219856c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method set_color, addr 0x2103dd0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_color, addr 0x2198578, size 0xc, virtual false, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
-  /// @brief Method get_bgColor, addr 0x2103ddc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_bgColor, addr 0x2198584, size 0x90, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_bgColor();
 
-  /// @brief Method InitIfNeeded, addr 0x2103e6c, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method InitIfNeeded, addr 0x2198614, size 0x184, virtual false, abstract: false, final false
   inline void InitIfNeeded();
 
-  /// @brief Method Render, addr 0x2103ff0, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method Render, addr 0x2198798, size 0xd4, virtual true, abstract: false, final false
   inline void Render(::UnityEngine::RenderTexture* dest, ::UnityEngine::Matrix4x4 viewMatrix, ::UnityEngine::Matrix4x4 projectionMatrix);
 
   static inline ::GlobalNamespace::BloomPrePassBackgroundColor* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21040c4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x219886c, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundColor", modifiers: "&&", def_value: None }]

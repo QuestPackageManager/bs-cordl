@@ -118,37 +118,37 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::V1TbsCertificateGenerator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x119a904, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11c8794, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method SetSerialNumber, addr 0x119a9a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetSerialNumber, addr 0x11c8834, size 0x8, virtual false, abstract: false, final false
   inline void SetSerialNumber(::Org::BouncyCastle::Asn1::DerInteger* serialNumber);
 
-  /// @brief Method SetSignature, addr 0x119a9ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetSignature, addr 0x11c883c, size 0x8, virtual false, abstract: false, final false
   inline void SetSignature(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* signature);
 
-  /// @brief Method SetIssuer, addr 0x119a9b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetIssuer, addr 0x11c8844, size 0x8, virtual false, abstract: false, final false
   inline void SetIssuer(::Org::BouncyCastle::Asn1::X509::X509Name* issuer);
 
-  /// @brief Method SetStartDate, addr 0x119a9bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetStartDate, addr 0x11c884c, size 0x8, virtual false, abstract: false, final false
   inline void SetStartDate(::Org::BouncyCastle::Asn1::X509::Time* startDate);
 
-  /// @brief Method SetStartDate, addr 0x119a9c4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SetStartDate, addr 0x11c8854, size 0x6c, virtual false, abstract: false, final false
   inline void SetStartDate(::Org::BouncyCastle::Asn1::DerUtcTime* startDate);
 
-  /// @brief Method SetEndDate, addr 0x119aa30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetEndDate, addr 0x11c88c0, size 0x8, virtual false, abstract: false, final false
   inline void SetEndDate(::Org::BouncyCastle::Asn1::X509::Time* endDate);
 
-  /// @brief Method SetEndDate, addr 0x119aa38, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SetEndDate, addr 0x11c88c8, size 0x6c, virtual false, abstract: false, final false
   inline void SetEndDate(::Org::BouncyCastle::Asn1::DerUtcTime* endDate);
 
-  /// @brief Method SetSubject, addr 0x119aaa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetSubject, addr 0x11c8934, size 0x8, virtual false, abstract: false, final false
   inline void SetSubject(::Org::BouncyCastle::Asn1::X509::X509Name* subject);
 
-  /// @brief Method SetSubjectPublicKeyInfo, addr 0x119aaac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetSubjectPublicKeyInfo, addr 0x11c893c, size 0x8, virtual false, abstract: false, final false
   inline void SetSubjectPublicKeyInfo(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* pubKeyInfo);
 
-  /// @brief Method GenerateTbsCertificate, addr 0x119aab4, size 0x2d4, virtual false, abstract: false, final false
+  /// @brief Method GenerateTbsCertificate, addr 0x11c8944, size 0x2d4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure* GenerateTbsCertificate();
 
   // Ctor Parameters [CppParam { name: "", ty: "V1TbsCertificateGenerator", modifiers: "&&", def_value: None }]

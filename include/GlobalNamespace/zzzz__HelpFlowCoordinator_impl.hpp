@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::HelpFlowCoordinator::*)(::System::Action_1<::UnityW<::GlobalNamespace::HelpFlowCoordinator>>*)>(&::GlobalNamespace::HelpFlowCoordinator::add_didFinishEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2289ca8;
+  constexpr static std::size_t addrs = 0x23e4f64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HelpFlowCoordinator::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::HelpFlowCoordinator>>*)>(&::GlobalNamespace::HelpFlowCoordinator::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2289d58;
+  constexpr static std::size_t addrs = 0x23e5014;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HelpFlowCoordinator::*)(bool, bool, bool)>(
     &::GlobalNamespace::HelpFlowCoordinator::DidActivate)> {
   constexpr static std::size_t size = 0x50c;
-  constexpr static std::size_t addrs = 0x2289e08;
+  constexpr static std::size_t addrs = 0x23e50c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HelpFlowCoordinator::*)(bool, bool)>(
     &::GlobalNamespace::HelpFlowCoordinator::DidDeactivate)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x228a314;
+  constexpr static std::size_t addrs = 0x23e55d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HelpFlowCoordinator::*)(int32_t)>(
     &::GlobalNamespace::HelpFlowCoordinator::HandleDidSelectHelpSubMenu)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x228a420;
+  constexpr static std::size_t addrs = 0x23e56dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HelpFlowCoordinator::*)(::HMUI::ViewController*)>(
     &::GlobalNamespace::HelpFlowCoordinator::ReplaceViewController)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x228a484;
+  constexpr static std::size_t addrs = 0x23e5740;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HelpFlowCoordinator::*)(::GlobalNamespace::__HowToPlayViewController__HowToPlayOptions)>(
     &::GlobalNamespace::HelpFlowCoordinator::HandleHowToPlayViewControllerDidFinish)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x228a588;
+  constexpr static std::size_t addrs = 0x23e5844;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HelpFlowCoordinator::*)(::HMUI::ViewController*)>(
     &::GlobalNamespace::HelpFlowCoordinator::BackButtonWasPressed)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x228a600;
+  constexpr static std::size_t addrs = 0x23e58bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HelpFlowCoordinator::*)()>(&::GlobalNamespace::HelpFlowCoordinator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x228a620;
+  constexpr static std::size_t addrs = 0x23e58dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HelpFlowCoordinator*>::get(), ".ctor",

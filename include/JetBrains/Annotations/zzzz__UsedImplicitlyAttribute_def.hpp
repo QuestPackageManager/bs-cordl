@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::JetBrains::Annotations::UsedImplicitlyAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace JetBrains::Annotations {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(10028)), TypeDefinitionIndex(TypeDefinitionIndex(10029))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10027))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(8760)), TypeDefinitionIndex(TypeDefinitionIndex(8761))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8758))
 // CS Name: ::JetBrains.Annotations::UsedImplicitlyAttribute*
 class CORDL_TYPE UsedImplicitlyAttribute : public ::System::Attribute {
 public:
@@ -50,12 +50,12 @@ public:
 
   static inline ::JetBrains::Annotations::UsedImplicitlyAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c9e630, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c9f0d4, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::JetBrains::Annotations::UsedImplicitlyAttribute* New_ctor(::JetBrains::Annotations::ImplicitUseKindFlags useKindFlags, ::JetBrains::Annotations::ImplicitUseTargetFlags targetFlags);
 
-  /// @brief Method .ctor, addr 0x2c9e654, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c9f0f8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::JetBrains::Annotations::ImplicitUseKindFlags useKindFlags, ::JetBrains::Annotations::ImplicitUseTargetFlags targetFlags);
 
   // Ctor Parameters [CppParam { name: "", ty: "UsedImplicitlyAttribute", modifiers: "&&", def_value: None }]

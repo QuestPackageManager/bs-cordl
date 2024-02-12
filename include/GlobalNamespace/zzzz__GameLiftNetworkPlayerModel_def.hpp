@@ -49,8 +49,8 @@ MARK_REF_PTR_T(::GlobalNamespace::GameLiftNetworkPlayerModel);
 // SizeInfo { instance_size: 280, native_size: -1, calculated_instance_size: 280, calculated_native_size: 280, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12737)), TypeDefinitionIndex(TypeDefinitionIndex(14962)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14962), inst:
-// 2746 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14941)) CS Name: ::GameLiftNetworkPlayerModel*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12635)), TypeDefinitionIndex(TypeDefinitionIndex(14835)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14835), inst:
+// 2716 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14814)) CS Name: ::GameLiftNetworkPlayerModel*
 class CORDL_TYPE GameLiftNetworkPlayerModel : public ::GlobalNamespace::NetworkPlayerModel_1<::GlobalNamespace::GameLiftConnectionManager*> {
 public:
   // Declarations
@@ -94,40 +94,40 @@ public:
 
   constexpr void __cordl_internal_set__cachedStartClientParams(::GlobalNamespace::__GameLiftConnectionManager__StartClientParams* value);
 
-  /// @brief Method get_secret, addr 0x2636a98, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method get_secret, addr 0x265bbbc, size 0x54, virtual true, abstract: false, final false
   inline ::StringW get_secret();
 
-  /// @brief Method get_code, addr 0x2636aec, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method get_code, addr 0x265bc10, size 0x54, virtual true, abstract: false, final false
   inline ::StringW get_code();
 
-  /// @brief Method get_partyOwnerId, addr 0x2636b40, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_partyOwnerId, addr 0x265bc64, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_partyOwnerId();
 
-  /// @brief Method get_configuration, addr 0x2636b48, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method get_configuration, addr 0x265bc6c, size 0x78, virtual true, abstract: false, final false
   inline ::GlobalNamespace::GameplayServerConfiguration get_configuration();
 
-  /// @brief Method get_selectionMask, addr 0x2636bc0, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method get_selectionMask, addr 0x265bce4, size 0x78, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapLevelSelectionMask get_selectionMask();
 
-  /// @brief Method Update, addr 0x2636c38, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x265bd5c, size 0xc0, virtual true, abstract: false, final false
   inline void Update();
 
-  /// @brief Method RefreshPublicServers, addr 0x2636cf8, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method RefreshPublicServers, addr 0x265be1c, size 0xb8, virtual true, abstract: false, final false
   inline void RefreshPublicServers(::GlobalNamespace::BeatmapLevelSelectionMask localSelectionMask, ::GlobalNamespace::GameplayServerConfiguration localConfiguration,
                                    ::System::Action_1<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PublicServerInfo>*>* onSuccess,
                                    ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* onFailure);
 
-  /// @brief Method GetConnectToServerParams, addr 0x2636db0, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method GetConnectToServerParams, addr 0x265bed4, size 0xe8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::GameLiftConnectionManager*>*
   GetConnectToServerParams(::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, ::GlobalNamespace::GameplayServerConfiguration configuration, ::StringW secret, ::StringW code);
 
-  /// @brief Method GetStartClientParams, addr 0x2636e98, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method GetStartClientParams, addr 0x265bfbc, size 0xd0, virtual true, abstract: false, final false
   inline ::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::GameLiftConnectionManager*>* GetStartClientParams(::GlobalNamespace::BeatmapLevelSelectionMask selectionMask,
                                                                                                                          ::GlobalNamespace::GameplayServerConfiguration configuration);
 
   static inline ::GlobalNamespace::GameLiftNetworkPlayerModel* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2636f68, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x265c08c, size 0xac, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GameLiftNetworkPlayerModel", modifiers: "&&", def_value: None }]

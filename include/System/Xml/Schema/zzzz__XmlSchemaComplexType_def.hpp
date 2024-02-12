@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaComplexType);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 81, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11724)), TypeDefinitionIndex(TypeDefinitionIndex(11742))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11720))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11622)), TypeDefinitionIndex(TypeDefinitionIndex(11640))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11618))
 // CS Name: ::System.Xml.Schema::XmlSchemaComplexType*
 class CORDL_TYPE XmlSchemaComplexType : public ::System::Xml::Schema::XmlSchemaType {
 public:
@@ -95,30 +95,30 @@ public:
 
   static inline ::System::Xml::Schema::XmlSchemaComplexType* getStaticF_untypedAnyType();
 
-  /// @brief Method CreateAnyType, addr 0x28c74b0, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method CreateAnyType, addr 0x28c9b18, size 0x2e4, virtual false, abstract: false, final false
   static inline ::System::Xml::Schema::XmlSchemaComplexType* CreateAnyType(::System::Xml::Schema::XmlSchemaContentProcessing processContents);
 
   static inline ::System::Xml::Schema::XmlSchemaComplexType* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28c7794, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28c9dfc, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AnyType, addr 0x28c7cf0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_AnyType, addr 0x28ca358, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Xml::Schema::XmlSchemaComplexType* get_AnyType();
 
-  /// @brief Method get_AnyTypeContentValidator, addr 0x28c7860, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_AnyTypeContentValidator, addr 0x28c9ec8, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Xml::Schema::ContentValidator* get_AnyTypeContentValidator();
 
-  /// @brief Method set_IsMixed, addr 0x28c7d48, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method set_IsMixed, addr 0x28ca3b0, size 0x1c, virtual true, abstract: false, final false
   inline void set_IsMixed(bool value);
 
-  /// @brief Method get_ContentTypeParticle, addr 0x28c7d64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContentTypeParticle, addr 0x28ca3cc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaParticle* get_ContentTypeParticle();
 
-  /// @brief Method SetContentTypeParticle, addr 0x28c7d6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetContentTypeParticle, addr 0x28ca3d4, size 0x8, virtual false, abstract: false, final false
   inline void SetContentTypeParticle(::System::Xml::Schema::XmlSchemaParticle* value);
 
-  /// @brief Method SetAttributeWildcard, addr 0x28c7d74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetAttributeWildcard, addr 0x28ca3dc, size 0x8, virtual false, abstract: false, final false
   inline void SetAttributeWildcard(::System::Xml::Schema::XmlSchemaAnyAttribute* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaComplexType", modifiers: "&&", def_value: None }]

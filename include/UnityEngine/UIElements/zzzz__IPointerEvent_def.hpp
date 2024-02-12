@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IPointerEvent);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7196))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6455))
 // CS Name: ::UnityEngine.UIElements::IPointerEvent*
 class CORDL_TYPE IPointerEvent {
 public:

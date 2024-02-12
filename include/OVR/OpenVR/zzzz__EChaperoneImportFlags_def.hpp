@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::EChaperoneImportFlags);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8621))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8565))
 // CS Name: ::OVR.OpenVR::EChaperoneImportFlags
 struct CORDL_TYPE EChaperoneImportFlags {
 public:

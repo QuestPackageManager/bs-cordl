@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ToggleableCanvasGroup);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13505))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13458))
 // CS Name: ::ToggleableCanvasGroup*
 class CORDL_TYPE ToggleableCanvasGroup : public ::UnityEngine::MonoBehaviour {
 public:
@@ -53,21 +53,21 @@ public:
 
   constexpr void __cordl_internal_set__invertToggle(bool value);
 
-  /// @brief Method OnEnable, addr 0x2116b24, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x21ab400, size 0xbc, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable, addr 0x2116c10, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x21ab4ec, size 0xa8, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method HandleToggleValueChanged, addr 0x2116cb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HandleToggleValueChanged, addr 0x21ab594, size 0x8, virtual false, abstract: false, final false
   inline void HandleToggleValueChanged(bool isOn);
 
-  /// @brief Method SetCanvasGroupData, addr 0x2116be0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetCanvasGroupData, addr 0x21ab4bc, size 0x30, virtual false, abstract: false, final false
   inline void SetCanvasGroupData(bool isOn);
 
   static inline ::GlobalNamespace::ToggleableCanvasGroup* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2116cc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21ab59c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ToggleableCanvasGroup", modifiers: "&&", def_value: None }]

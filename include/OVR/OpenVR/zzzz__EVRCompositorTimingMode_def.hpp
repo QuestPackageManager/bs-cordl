@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::EVRCompositorTimingMode);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8623))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8567))
 // CS Name: ::OVR.OpenVR::EVRCompositorTimingMode
 struct CORDL_TYPE EVRCompositorTimingMode {
 public:

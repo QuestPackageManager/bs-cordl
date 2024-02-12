@@ -41,8 +41,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_ParameterData);
 // SizeInfo { instance_size: 336, native_size: -1, calculated_instance_size: 336, calculated_native_size: 329, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9734)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9760))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8995)), TypeDefinitionIndex(TypeDefinitionIndex(9526))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9552))
 // CS Name: ::HoudiniEngineUnity::HEU_ParameterData*
 class CORDL_TYPE HEU_ParameterData : public ::System::Object {
 public:
@@ -284,93 +284,93 @@ public:
 
   constexpr void __cordl_internal_set__hasAssetPathTag(bool value);
 
-  /// @brief Method get_ParmID, addr 0x2190908, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ParmID, addr 0x22251ec, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ParmID();
 
-  /// @brief Method get_ParentID, addr 0x219207c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ParentID, addr 0x2226960, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ParentID();
 
-  /// @brief Method get_ChildIndex, addr 0x2192084, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ChildIndex, addr 0x2226968, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ChildIndex();
 
-  /// @brief Method get_ParmSize, addr 0x219208c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ParmSize, addr 0x2226970, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ParmSize();
 
-  /// @brief Method IsInt, addr 0x2192094, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsInt, addr 0x2226978, size 0x10, virtual false, abstract: false, final false
   inline bool IsInt();
 
-  /// @brief Method IsFloat, addr 0x21920a4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsFloat, addr 0x2226988, size 0x10, virtual false, abstract: false, final false
   inline bool IsFloat();
 
-  /// @brief Method IsString, addr 0x21920b4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsString, addr 0x2226998, size 0x10, virtual false, abstract: false, final false
   inline bool IsString();
 
-  /// @brief Method IsPathFile, addr 0x21920c4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsPathFile, addr 0x22269a8, size 0x14, virtual false, abstract: false, final false
   inline bool IsPathFile();
 
-  /// @brief Method HasMin, addr 0x21920d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HasMin, addr 0x22269bc, size 0x8, virtual false, abstract: false, final false
   inline bool HasMin();
 
-  /// @brief Method HasMax, addr 0x21920e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HasMax, addr 0x22269c4, size 0x8, virtual false, abstract: false, final false
   inline bool HasMax();
 
-  /// @brief Method HasUIMin, addr 0x21920e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HasUIMin, addr 0x22269cc, size 0x8, virtual false, abstract: false, final false
   inline bool HasUIMin();
 
-  /// @brief Method HasUIMax, addr 0x21920f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HasUIMax, addr 0x22269d4, size 0x8, virtual false, abstract: false, final false
   inline bool HasUIMax();
 
-  /// @brief Method get_IntMin, addr 0x21920f8, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method get_IntMin, addr 0x22269dc, size 0xdc, virtual false, abstract: false, final false
   inline int32_t get_IntMin();
 
-  /// @brief Method get_IntMax, addr 0x21921d4, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method get_IntMax, addr 0x2226ab8, size 0xdc, virtual false, abstract: false, final false
   inline int32_t get_IntMax();
 
-  /// @brief Method get_IntUIMin, addr 0x21922b0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method get_IntUIMin, addr 0x2226b94, size 0xdc, virtual false, abstract: false, final false
   inline int32_t get_IntUIMin();
 
-  /// @brief Method get_IntUIMax, addr 0x219238c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method get_IntUIMax, addr 0x2226c70, size 0xdc, virtual false, abstract: false, final false
   inline int32_t get_IntUIMax();
 
-  /// @brief Method get_FloatMin, addr 0x2192468, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FloatMin, addr 0x2226d4c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_FloatMin();
 
-  /// @brief Method get_FloatMax, addr 0x2192470, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FloatMax, addr 0x2226d54, size 0x8, virtual false, abstract: false, final false
   inline float_t get_FloatMax();
 
-  /// @brief Method get_FloatUIMin, addr 0x2192478, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FloatUIMin, addr 0x2226d5c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_FloatUIMin();
 
-  /// @brief Method get_FloatUIMax, addr 0x2192480, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FloatUIMax, addr 0x2226d64, size 0x8, virtual false, abstract: false, final false
   inline float_t get_FloatUIMax();
 
-  /// @brief Method IsContainer, addr 0x2192488, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method IsContainer, addr 0x2226d6c, size 0x54, virtual false, abstract: false, final false
   inline bool IsContainer();
 
-  /// @brief Method IsMultiParam, addr 0x21924dc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsMultiParam, addr 0x2226dc0, size 0x10, virtual false, abstract: false, final false
   inline bool IsMultiParam();
 
-  /// @brief Method IsRamp, addr 0x21924ec, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsRamp, addr 0x2226dd0, size 0x10, virtual false, abstract: false, final false
   inline bool IsRamp();
 
-  /// @brief Method IsToggle, addr 0x21924fc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsToggle, addr 0x2226de0, size 0x10, virtual false, abstract: false, final false
   inline bool IsToggle();
 
-  /// @brief Method IsColor, addr 0x219250c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsColor, addr 0x2226df0, size 0x10, virtual false, abstract: false, final false
   inline bool IsColor();
 
-  /// @brief Method ToVector3, addr 0x219251c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ToVector3, addr 0x2226e00, size 0x84, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 ToVector3();
 
-  /// @brief Method IsAssetPath, addr 0x21925a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsAssetPath, addr 0x2226e84, size 0x8, virtual false, abstract: false, final false
   inline bool IsAssetPath();
 
-  /// @brief Method IsEquivalentTo, addr 0x21925a8, size 0x71c, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x2226e8c, size 0x71c, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_ParameterData* other);
 
   static inline ::HoudiniEngineUnity::HEU_ParameterData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2192cc4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22275a8, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_ParameterData", modifiers: "&&", def_value: None }]

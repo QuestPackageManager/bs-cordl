@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::GlobalNamespace::PlayerOptionsViewController);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5640))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13558))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4944))
 // CS Name: ::PlayerOptionsViewController*
 class CORDL_TYPE PlayerOptionsViewController : public ::HMUI::ViewController {
 public:
@@ -72,24 +72,24 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::UnityW<::HMUI::ViewController>>* value);
 
-  /// @brief Method add_didFinishEvent, addr 0x22b3574, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x22e6880, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::UnityW<::HMUI::ViewController>>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x22b3624, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x22e6930, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::UnityW<::HMUI::ViewController>>* value);
 
-  /// @brief Method DidActivate, addr 0x22b36d4, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x22e69e0, size 0xec, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x22b3b08, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x22e6e14, size 0xf8, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
   static inline ::GlobalNamespace::PlayerOptionsViewController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22b3bb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22e6f0c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <DidActivate>b__6_0, addr 0x22b3bc0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__6_0, addr 0x22e6f14, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__6_0();
 
   // Ctor Parameters [CppParam { name: "", ty: "PlayerOptionsViewController", modifiers: "&&", def_value: None }]

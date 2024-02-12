@@ -26,34 +26,34 @@ MARK_REF_PTR_T(::System::IO::IOException);
 namespace System::IO {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2481))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3565))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3561))
 // CS Name: ::System.IO::IOException*
 class CORDL_TYPE IOException : public ::System::SystemException {
 public:
   // Declarations
   static inline ::System::IO::IOException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24fcc88, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x251bd1c, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::IO::IOException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x24fbff4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x251b088, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::System::IO::IOException* New_ctor(::StringW message, int32_t hresult);
 
-  /// @brief Method .ctor, addr 0x24fcce4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x251bd78, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, int32_t hresult);
 
   static inline ::System::IO::IOException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x24fcd0c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x251bda0, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
   static inline ::System::IO::IOException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x24fc044, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x251b0d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "IOException", modifiers: "&&", def_value: None }]

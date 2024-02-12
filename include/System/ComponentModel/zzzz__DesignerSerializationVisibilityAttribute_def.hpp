@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::System::ComponentModel::DesignerSerializationVisibilityAttribut
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(9391))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9392))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(7401))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7402))
 // CS Name: ::System.ComponentModel::DesignerSerializationVisibilityAttribute*
 class CORDL_TYPE DesignerSerializationVisibilityAttribute : public ::System::Attribute {
 public:
@@ -70,19 +70,19 @@ public:
 
   static inline ::System::ComponentModel::DesignerSerializationVisibilityAttribute* New_ctor(::System::ComponentModel::DesignerSerializationVisibility visibility);
 
-  /// @brief Method .ctor, addr 0x2904930, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2908f98, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::DesignerSerializationVisibility visibility);
 
-  /// @brief Method get_Visibility, addr 0x2904958, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Visibility, addr 0x2908fc0, size 0x8, virtual false, abstract: false, final false
   inline ::System::ComponentModel::DesignerSerializationVisibility get_Visibility();
 
-  /// @brief Method Equals, addr 0x2904960, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2908fc8, size 0xd8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2904a38, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x29090a0, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsDefaultAttribute, addr 0x2904a40, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method IsDefaultAttribute, addr 0x29090a8, size 0x68, virtual true, abstract: false, final false
   inline bool IsDefaultAttribute();
 
   // Ctor Parameters [CppParam { name: "", ty: "DesignerSerializationVisibilityAttribute", modifiers: "&&", def_value: None }]

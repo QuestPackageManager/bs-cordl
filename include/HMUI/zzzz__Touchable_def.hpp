@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::HMUI::Touchable);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13042))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13566))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12940))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13519))
 // CS Name: ::HMUI::Touchable*
 class CORDL_TYPE Touchable : public ::UnityEngine::UI::Graphic {
 public:
@@ -35,15 +35,15 @@ public:
 
   constexpr void __cordl_internal_set__skew(float_t value);
 
-  /// @brief Method get_skew, addr 0x21253bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_skew, addr 0x21b9c98, size 0x8, virtual false, abstract: false, final false
   inline float_t get_skew();
 
-  /// @brief Method OnPopulateMesh, addr 0x21253c4, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method OnPopulateMesh, addr 0x21b9ca0, size 0x18, virtual true, abstract: false, final false
   inline void OnPopulateMesh(::UnityEngine::UI::VertexHelper* vh);
 
   static inline ::HMUI::Touchable* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2124bc0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21b949c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Touchable", modifiers: "&&", def_value: None }]

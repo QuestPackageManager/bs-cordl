@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::JetBrains::Annotations::AspMvcDisplayTemplateAttribute);
 namespace JetBrains::Annotations {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15773))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15923))
 // CS Name: ::JetBrains.Annotations::AspMvcDisplayTemplateAttribute*
 class CORDL_TYPE AspMvcDisplayTemplateAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::JetBrains::Annotations::AspMvcDisplayTemplateAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2eba624, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ed676c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AspMvcDisplayTemplateAttribute", modifiers: "&&", def_value: None }]

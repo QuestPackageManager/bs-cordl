@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::GroupPresenceLeaveIntent);
 namespace Oculus::Platform::Models {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13435))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13374))
 // CS Name: ::Oculus.Platform.Models::GroupPresenceLeaveIntent*
 class CORDL_TYPE GroupPresenceLeaveIntent : public ::System::Object {
 public:
@@ -51,7 +51,7 @@ public:
 
   static inline ::Oculus::Platform::Models::GroupPresenceLeaveIntent* New_ctor(void* o);
 
-  /// @brief Method .ctor, addr 0x2705ea4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2738d80, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "GroupPresenceLeaveIntent", modifiers: "&&", def_value: None }]

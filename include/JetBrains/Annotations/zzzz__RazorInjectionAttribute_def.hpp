@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::JetBrains::Annotations::RazorInjectionAttribute);
 namespace JetBrains::Annotations {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15802))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15952))
 // CS Name: ::JetBrains.Annotations::RazorInjectionAttribute*
 class CORDL_TYPE RazorInjectionAttribute : public ::System::Attribute {
 public:
@@ -45,19 +45,19 @@ public:
 
   static inline ::JetBrains::Annotations::RazorInjectionAttribute* New_ctor(::StringW type, ::StringW fieldName);
 
-  /// @brief Method .ctor, addr 0x2eba8a0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ed69e8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW type, ::StringW fieldName);
 
-  /// @brief Method get_Type, addr 0x2eba8cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x2ed6a14, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Type();
 
-  /// @brief Method set_Type, addr 0x2eba8d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Type, addr 0x2ed6a1c, size 0x8, virtual false, abstract: false, final false
   inline void set_Type(::StringW value);
 
-  /// @brief Method get_FieldName, addr 0x2eba8dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FieldName, addr 0x2ed6a24, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_FieldName();
 
-  /// @brief Method set_FieldName, addr 0x2eba8e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_FieldName, addr 0x2ed6a2c, size 0x8, virtual false, abstract: false, final false
   inline void set_FieldName(::StringW value);
 
   // Ctor Parameters [CppParam { name: "", ty: "RazorInjectionAttribute", modifiers: "&&", def_value: None }]

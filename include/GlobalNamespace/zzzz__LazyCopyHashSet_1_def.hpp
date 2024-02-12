@@ -27,7 +27,7 @@ namespace GlobalNamespace {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15821))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15208))
 // CS Name: ::LazyCopyHashSet`1<T>*
 class CORDL_TYPE LazyCopyHashSet_1 : public ::System::Object {
 public:

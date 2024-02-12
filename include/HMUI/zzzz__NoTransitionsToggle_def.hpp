@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::HMUI::NoTransitionsToggle);
 // SizeInfo { instance_size: 304, native_size: -1, calculated_instance_size: 304, calculated_native_size: 300, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13131)), TypeDefinitionIndex(TypeDefinitionIndex(13567))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13637))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13029)), TypeDefinitionIndex(TypeDefinitionIndex(13520))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13590))
 // CS Name: ::HMUI::NoTransitionsToggle*
 class CORDL_TYPE NoTransitionsToggle : public ::UnityEngine::UI::Toggle {
 public:
@@ -51,27 +51,27 @@ public:
 
   constexpr void __cordl_internal_set__selectionState(::HMUI::UISelectionState value);
 
-  /// @brief Method get_selectionState, addr 0x2142b40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectionState, addr 0x21d7424, size 0x8, virtual false, abstract: false, final false
   inline ::HMUI::UISelectionState get_selectionState();
 
-  /// @brief Method add_selectionStateDidChangeEvent, addr 0x2142b48, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method add_selectionStateDidChangeEvent, addr 0x21d742c, size 0xb4, virtual false, abstract: false, final false
   inline void add_selectionStateDidChangeEvent(::System::Action_1<::HMUI::UISelectionState>* value);
 
-  /// @brief Method remove_selectionStateDidChangeEvent, addr 0x2142bfc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method remove_selectionStateDidChangeEvent, addr 0x21d74e0, size 0xb4, virtual false, abstract: false, final false
   inline void remove_selectionStateDidChangeEvent(::System::Action_1<::HMUI::UISelectionState>* value);
 
-  /// @brief Method Start, addr 0x2142cb0, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x21d7594, size 0xac, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method DoStateTransition, addr 0x2142d5c, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method DoStateTransition, addr 0x21d7640, size 0x54, virtual true, abstract: false, final false
   inline void DoStateTransition(::UnityEngine::UI::__Selectable__SelectionState state, bool instant);
 
   static inline ::HMUI::NoTransitionsToggle* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2142db0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21d7694, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Start>b__6_0, addr 0x2142db8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__6_0, addr 0x21d769c, size 0x30, virtual false, abstract: false, final false
   inline void _Start_b__6_0(bool isOn);
 
   // Ctor Parameters [CppParam { name: "", ty: "NoTransitionsToggle", modifiers: "&&", def_value: None }]

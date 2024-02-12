@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::GroupPresenceJoinIntent);
 namespace Oculus::Platform::Models {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13434))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13373))
 // CS Name: ::Oculus.Platform.Models::GroupPresenceJoinIntent*
 class CORDL_TYPE GroupPresenceJoinIntent : public ::System::Object {
 public:
@@ -60,7 +60,7 @@ public:
 
   static inline ::Oculus::Platform::Models::GroupPresenceJoinIntent* New_ctor(void* o);
 
-  /// @brief Method .ctor, addr 0x2705dfc, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2738cd8, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "GroupPresenceJoinIntent", modifiers: "&&", def_value: None }]

@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__MenuEnvironmentManager__MenuEnvironmentObjec
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4690))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4041))
 // CS Name: ::MenuEnvironmentManager::MenuEnvironmentType
 struct CORDL_TYPE __MenuEnvironmentManager__MenuEnvironmentType {
 public:
@@ -90,8 +90,8 @@ static_assert(offsetof(::GlobalNamespace::__MenuEnvironmentManager__MenuEnvironm
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4690))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4691))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4041))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4042))
 // CS Name: ::MenuEnvironmentManager::MenuEnvironmentObjects*
 class CORDL_TYPE __MenuEnvironmentManager__MenuEnvironmentObjects : public ::System::Object {
 public:
@@ -119,15 +119,15 @@ public:
 
   constexpr void __cordl_internal_set__wrapper(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method get_menuEnvironmentType, addr 0x23765cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_menuEnvironmentType, addr 0x22bca50, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__MenuEnvironmentManager__MenuEnvironmentType get_menuEnvironmentType();
 
-  /// @brief Method get_wrapper, addr 0x23765d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_wrapper, addr 0x22bca58, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_wrapper();
 
   static inline ::GlobalNamespace::__MenuEnvironmentManager__MenuEnvironmentObjects* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23765dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22bca60, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MenuEnvironmentManager__MenuEnvironmentObjects", modifiers: "&&", def_value: None }]
@@ -164,8 +164,8 @@ static_assert(offsetof(::GlobalNamespace::__MenuEnvironmentManager__MenuEnvironm
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4690)), TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4692))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4041)), TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4043))
 // CS Name: ::MenuEnvironmentManager*
 class CORDL_TYPE MenuEnvironmentManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -197,15 +197,15 @@ public:
 
   constexpr void __cordl_internal_set__prevMenuEnvironmentType(::GlobalNamespace::__MenuEnvironmentManager__MenuEnvironmentType value);
 
-  /// @brief Method Start, addr 0x237643c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x22bc8c0, size 0x8, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method ShowEnvironmentType, addr 0x2376444, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method ShowEnvironmentType, addr 0x22bc8c8, size 0x180, virtual false, abstract: false, final false
   inline void ShowEnvironmentType(::GlobalNamespace::__MenuEnvironmentManager__MenuEnvironmentType menuEnvironmentType);
 
   static inline ::GlobalNamespace::MenuEnvironmentManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23765c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22bca48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuEnvironmentManager", modifiers: "&&", def_value: None }]

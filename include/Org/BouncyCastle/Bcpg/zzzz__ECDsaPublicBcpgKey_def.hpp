@@ -34,17 +34,17 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Bcpg::ECDsaPublicBcpgKey* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor, addr 0x11d1440, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11ff2d0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
   static inline ::Org::BouncyCastle::Bcpg::ECDsaPublicBcpgKey* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Math::EC::ECPoint* point);
 
-  /// @brief Method .ctor, addr 0x11d1444, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11ff2d4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Math::EC::ECPoint* point);
 
   static inline ::Org::BouncyCastle::Bcpg::ECDsaPublicBcpgKey* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Math::BigInteger* encodedPoint);
 
-  /// @brief Method .ctor, addr 0x11d1448, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11ff2d8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Math::BigInteger* encodedPoint);
 
   // Ctor Parameters [CppParam { name: "", ty: "ECDsaPublicBcpgKey", modifiers: "&&", def_value: None }]

@@ -24,18 +24,18 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::EventDispatchUtilities);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7258))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6517))
 // CS Name: ::UnityEngine.UIElements::EventDispatchUtilities*
 class CORDL_TYPE EventDispatchUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method PropagateEvent, addr 0x2e4bd94, size 0x74c, virtual false, abstract: false, final false
+  /// @brief Method PropagateEvent, addr 0x2e6717c, size 0x74c, virtual false, abstract: false, final false
   static inline void PropagateEvent(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method PropagateToIMGUIContainer, addr 0x2e4c4ec, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method PropagateToIMGUIContainer, addr 0x2e678d4, size 0x224, virtual false, abstract: false, final false
   static inline void PropagateToIMGUIContainer(::UnityEngine::UIElements::VisualElement* root, ::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method ExecuteDefaultAction, addr 0x2e53680, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method ExecuteDefaultAction, addr 0x2e6ea68, size 0x1a8, virtual false, abstract: false, final false
   static inline void ExecuteDefaultAction(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::IPanel* panel);
 
   // Ctor Parameters [CppParam { name: "", ty: "EventDispatchUtilities", modifiers: "&&", def_value: None }]

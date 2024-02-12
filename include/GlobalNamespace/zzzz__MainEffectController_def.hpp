@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MainEffectController);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15291))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15406))
 // CS Name: ::MainEffectController*
 class CORDL_TYPE MainEffectController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -72,36 +72,36 @@ public:
 
   constexpr void __cordl_internal_set__imageEffectController(::UnityW<::GlobalNamespace::ImageEffectController> value);
 
-  /// @brief Method add_afterImageEffectEvent, addr 0x28083a4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_afterImageEffectEvent, addr 0x280cb8c, size 0xb0, virtual false, abstract: false, final false
   inline void add_afterImageEffectEvent(::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>* value);
 
-  /// @brief Method remove_afterImageEffectEvent, addr 0x2808454, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_afterImageEffectEvent, addr 0x280cc3c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_afterImageEffectEvent(::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>* value);
 
-  /// @brief Method OnEnable, addr 0x2808504, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x280ccec, size 0x28, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable, addr 0x2808680, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x280ce68, size 0x88, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnValidate, addr 0x2808708, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x280cef0, size 0x50, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method LazySetupImageEffectController, addr 0x280852c, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method LazySetupImageEffectController, addr 0x280cd14, size 0x154, virtual false, abstract: false, final false
   inline void LazySetupImageEffectController();
 
-  /// @brief Method ImageEffectControllerCallback, addr 0x2808758, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method ImageEffectControllerCallback, addr 0x280cf40, size 0xa4, virtual false, abstract: false, final false
   inline void ImageEffectControllerCallback(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest);
 
-  /// @brief Method OnPreRender, addr 0x28087fc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method OnPreRender, addr 0x280cfe4, size 0xbc, virtual false, abstract: false, final false
   inline void OnPreRender();
 
-  /// @brief Method OnPostRender, addr 0x28088b8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method OnPostRender, addr 0x280d0a0, size 0x6c, virtual false, abstract: false, final false
   inline void OnPostRender();
 
   static inline ::GlobalNamespace::MainEffectController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2808924, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x280d10c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MainEffectController", modifiers: "&&", def_value: None }]

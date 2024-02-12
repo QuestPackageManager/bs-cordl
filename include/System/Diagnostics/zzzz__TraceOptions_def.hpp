@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Diagnostics::TraceOptions);
 namespace System::Diagnostics {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8945))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6955))
 // CS Name: ::System.Diagnostics::TraceOptions
 struct CORDL_TYPE TraceOptions {
 public:

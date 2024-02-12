@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::System::Xml::XmlComment);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11500))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11503))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11398))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11401))
 // CS Name: ::System.Xml::XmlComment*
 class CORDL_TYPE XmlComment : public ::System::Xml::XmlCharacterData {
 public:
@@ -38,19 +38,19 @@ public:
 
   static inline ::System::Xml::XmlComment* New_ctor(::StringW comment, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method .ctor, addr 0x2884008, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2887670, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW comment, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method get_Name, addr 0x2884034, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x288769c, size 0x28, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_LocalName, addr 0x288405c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x28876c4, size 0x28, virtual true, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_NodeType, addr 0x2884084, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x28876ec, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
-  /// @brief Method CloneNode, addr 0x288408c, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method CloneNode, addr 0x28876f4, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* CloneNode(bool deep);
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlComment", modifiers: "&&", def_value: None }]

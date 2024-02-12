@@ -36,7 +36,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::ShapeGenerator);
 namespace UnityEngine::ProBuilder {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12198))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12096))
 // CS Name: ::UnityEngine.ProBuilder::ShapeGenerator*
 class CORDL_TYPE ShapeGenerator : public ::System::Object {
 public:
@@ -69,61 +69,61 @@ public:
 
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_k_CubeTriangles();
 
-  /// @brief Method CreateShape, addr 0x2b6dcbc, size 0x4d8, virtual false, abstract: false, final false
+  /// @brief Method CreateShape, addr 0x2b6c828, size 0x4d8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> CreateShape(::UnityEngine::ProBuilder::ShapeType shape, ::UnityEngine::ProBuilder::PivotLocation pivotType);
 
-  /// @brief Method GenerateStair, addr 0x2b6e404, size 0xa04, virtual false, abstract: false, final false
+  /// @brief Method GenerateStair, addr 0x2b6cf70, size 0xa04, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> GenerateStair(::UnityEngine::ProBuilder::PivotLocation pivotType, ::UnityEngine::Vector3 size, int32_t steps, bool buildSides);
 
-  /// @brief Method GenerateCurvedStair, addr 0x2b6ee08, size 0xdf8, virtual false, abstract: false, final false
+  /// @brief Method GenerateCurvedStair, addr 0x2b6d974, size 0xdf8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> GenerateCurvedStair(::UnityEngine::ProBuilder::PivotLocation pivotType, float_t stairWidth, float_t height, float_t innerRadius,
                                                                                         float_t circumference, int32_t steps, bool buildSides);
 
-  /// @brief Method GenerateStair, addr 0x2b7524c, size 0x4e8, virtual false, abstract: false, final false
+  /// @brief Method GenerateStair, addr 0x2b73db8, size 0x4e8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> GenerateStair(::UnityEngine::ProBuilder::PivotLocation pivotType, int32_t steps, float_t width, float_t height, float_t depth,
                                                                                   bool sidesGoToFloor, bool generateBack, bool platformsOnly);
 
-  /// @brief Method GenerateCube, addr 0x2b6e194, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method GenerateCube, addr 0x2b6cd00, size 0x270, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> GenerateCube(::UnityEngine::ProBuilder::PivotLocation pivotType, ::UnityEngine::Vector3 size);
 
-  /// @brief Method GenerateCylinder, addr 0x2b702b4, size 0x924, virtual false, abstract: false, final false
+  /// @brief Method GenerateCylinder, addr 0x2b6ee20, size 0x924, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> GenerateCylinder(::UnityEngine::ProBuilder::PivotLocation pivotType, int32_t axisDivisions, float_t radius, float_t height,
                                                                                      int32_t heightCuts, int32_t smoothing);
 
-  /// @brief Method GeneratePrism, addr 0x2b6fc00, size 0x6b4, virtual false, abstract: false, final false
+  /// @brief Method GeneratePrism, addr 0x2b6e76c, size 0x6b4, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> GeneratePrism(::UnityEngine::ProBuilder::PivotLocation pivotType, ::UnityEngine::Vector3 size);
 
-  /// @brief Method GenerateDoor, addr 0x2b711cc, size 0x16f4, virtual false, abstract: false, final false
+  /// @brief Method GenerateDoor, addr 0x2b6fd38, size 0x16f4, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> GenerateDoor(::UnityEngine::ProBuilder::PivotLocation pivotType, float_t totalWidth, float_t totalHeight, float_t ledgeHeight,
                                                                                  float_t legWidth, float_t depth);
 
-  /// @brief Method GeneratePlane, addr 0x2b70bd8, size 0x5f4, virtual false, abstract: false, final false
+  /// @brief Method GeneratePlane, addr 0x2b6f744, size 0x5f4, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> GeneratePlane(::UnityEngine::ProBuilder::PivotLocation pivotType, float_t width, float_t height, int32_t widthCuts,
                                                                                   int32_t heightCuts, ::UnityEngine::ProBuilder::Axis axis);
 
-  /// @brief Method GeneratePipe, addr 0x2b728c0, size 0x778, virtual false, abstract: false, final false
+  /// @brief Method GeneratePipe, addr 0x2b7142c, size 0x778, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> GeneratePipe(::UnityEngine::ProBuilder::PivotLocation pivotType, float_t radius, float_t height, float_t thickness,
                                                                                  int32_t subdivAxis, int32_t subdivHeight);
 
-  /// @brief Method GenerateCone, addr 0x2b73038, size 0x9e0, virtual false, abstract: false, final false
+  /// @brief Method GenerateCone, addr 0x2b71ba4, size 0x9e0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> GenerateCone(::UnityEngine::ProBuilder::PivotLocation pivotType, float_t radius, float_t height, int32_t subdivAxis);
 
-  /// @brief Method GenerateArch, addr 0x2b73a18, size 0x780, virtual false, abstract: false, final false
+  /// @brief Method GenerateArch, addr 0x2b72584, size 0x780, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> GenerateArch(::UnityEngine::ProBuilder::PivotLocation pivotType, float_t angle, float_t radius, float_t width, float_t depth,
                                                                                  int32_t radialCuts, bool insideFaces, bool outsideFaces, bool frontFaces, bool backFaces, bool endCaps);
 
-  /// @brief Method GenerateIcosahedron, addr 0x2b74198, size 0xa70, virtual false, abstract: false, final false
+  /// @brief Method GenerateIcosahedron, addr 0x2b72d04, size 0xa70, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> GenerateIcosahedron(::UnityEngine::ProBuilder::PivotLocation pivotType, float_t radius, int32_t subdivisions, bool weldVertices,
                                                                                         bool manualUvs);
 
-  /// @brief Method SubdivideIcosahedron, addr 0x2b75968, size 0x62c, virtual false, abstract: false, final false
+  /// @brief Method SubdivideIcosahedron, addr 0x2b744d4, size 0x62c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> SubdivideIcosahedron(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> vertices, float_t radius);
 
-  /// @brief Method GetCirclePoints, addr 0x2b7661c, size 0x390, virtual false, abstract: false, final false
+  /// @brief Method GetCirclePoints, addr 0x2b75188, size 0x390, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> GetCirclePoints(int32_t segments, float_t radius, float_t circumference, ::UnityEngine::Quaternion rotation,
                                                                                                    float_t offset);
 
-  /// @brief Method GenerateTorus, addr 0x2b74c08, size 0x644, virtual false, abstract: false, final false
+  /// @brief Method GenerateTorus, addr 0x2b73774, size 0x644, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> GenerateTorus(::UnityEngine::ProBuilder::PivotLocation pivotType, int32_t rows, int32_t columns, float_t innerRadius,
                                                                                   float_t outerRadius, bool smooth, float_t horizontalCircumference, float_t verticalCircumference, bool manualUvs);
 

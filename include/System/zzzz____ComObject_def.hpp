@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::System::__ComObject* New_ctor();
 
-  /// @brief Method .ctor, addr 0x260993c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x262e844, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ComObject", modifiers: "&&", def_value: None }]

@@ -28,7 +28,7 @@ namespace GlobalNamespace {
 class __BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation;
 }
 namespace GlobalNamespace {
-class __BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11;
+class __BtsResultsEnvironmentController___DestroyCharactersDelayed_d__13;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
@@ -71,18 +71,18 @@ namespace GlobalNamespace {
 class __BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation;
 }
 namespace GlobalNamespace {
-class __BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11;
+class __BtsResultsEnvironmentController___DestroyCharactersDelayed_d__13;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BtsResultsEnvironmentController);
 MARK_REF_PTR_T(::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation);
-MARK_REF_PTR_T(::GlobalNamespace::__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11);
+MARK_REF_PTR_T(::GlobalNamespace::__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__13);
 // Type: ::BTSResultCharacterPlaceWithAnimation
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3975))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15015))
 // CS Name: ::BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation*
 class CORDL_TYPE __BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation : public ::System::Object {
 public:
@@ -145,18 +145,18 @@ public:
 
   constexpr void __cordl_internal_set__btsCharacterAssetReference(::UnityEngine::AddressableAssets::AssetReference* value);
 
-  /// @brief Method get_name, addr 0x221d040, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0xe2ec6c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method Clean, addr 0x221ced8, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Clean, addr 0xe2eb04, size 0xec, virtual false, abstract: false, final false
   inline void Clean();
 
-  /// @brief Method SetCharacter, addr 0x221ca80, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method SetCharacter, addr 0xe2e6ac, size 0xcc, virtual false, abstract: false, final false
   inline void SetCharacter(::UnityEngine::AddressableAssets::AssetReference* assetReference, ::GlobalNamespace::BTSCharacter* btsCharacter, bool alternativeMaterial);
 
   static inline ::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation* New_ctor();
 
-  /// @brief Method .ctor, addr 0x221d048, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe2ec74, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation", modifiers: "&&", def_value: None }]
@@ -209,14 +209,14 @@ static_assert(offsetof(::GlobalNamespace::__BtsResultsEnvironmentController__BTS
 static_assert(offsetof(::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation, ____btsCharacterAssetReference) == 0x38, "Offset mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<DestroyCharactersDelayed>d__11
+// Type: ::<DestroyCharactersDelayed>d__13
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3976))
-// CS Name: ::BtsResultsEnvironmentController::<DestroyCharactersDelayed>d__11*
-class CORDL_TYPE __BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11 : public ::System::Object {
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15016))
+// CS Name: ::BtsResultsEnvironmentController::<DestroyCharactersDelayed>d__13*
+class CORDL_TYPE __BtsResultsEnvironmentController___DestroyCharactersDelayed_d__13 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
@@ -268,38 +268,38 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::BtsResultsEnvironmentController> value);
 
-  static inline ::GlobalNamespace::__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11* New_ctor(int32_t __1__state);
+  static inline ::GlobalNamespace::__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__13* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor, addr 0x221ceb0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe2eadc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x221d050, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0xe2ec7c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext, addr 0x221d054, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0xe2ec80, size 0xc0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x221d114, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0xe2ed40, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x221d11c, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0xe2ed48, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x221d15c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0xe2ed88, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  // Ctor Parameters [CppParam { name: "", ty: "__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__13", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11(__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11&&) = delete;
+  __BtsResultsEnvironmentController___DestroyCharactersDelayed_d__13(__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__13&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__13", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11(__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11 const&) = delete;
+  __BtsResultsEnvironmentController___DestroyCharactersDelayed_d__13(__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__13 const&) = delete;
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11();
+  constexpr __BtsResultsEnvironmentController___DestroyCharactersDelayed_d__13();
 
 public:
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
@@ -314,26 +314,26 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11, 0x28>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__13, 0x28>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11, _____1__state) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__13, _____1__state) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11, _____2__current) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__13, _____2__current) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11, _____4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__13, _____4__this) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 // Type: ::BtsResultsEnvironmentController
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4687)), TypeDefinitionIndex(TypeDefinitionIndex(14724))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3977))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4038)), TypeDefinitionIndex(TypeDefinitionIndex(15108))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15017))
 // CS Name: ::BtsResultsEnvironmentController*
 class CORDL_TYPE BtsResultsEnvironmentController : public ::GlobalNamespace::BaseResultsEnvironmentController {
 public:
   // Declarations
-  using _DestroyCharactersDelayed_d__11 = ::GlobalNamespace::__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11;
+  using _DestroyCharactersDelayed_d__13 = ::GlobalNamespace::__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__13;
 
   using BTSResultCharacterPlaceWithAnimation = ::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation;
 
@@ -356,6 +356,8 @@ public:
   /// @brief Field _handles, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__handles,
                       put = __cordl_internal_set__handles))::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* _handles;
+
+  __declspec(property(get = get_keyword))::StringW keyword;
 
   constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__btsCharacterAnimationWrapper();
 
@@ -394,27 +396,30 @@ public:
 
   constexpr void __cordl_internal_set__handles(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
 
-  /// @brief Method Setup, addr 0x221c34c, size 0x4e4, virtual true, abstract: false, final false
+  /// @brief Method get_keyword, addr 0xe2df38, size 0x40, virtual true, abstract: false, final false
+  inline ::StringW get_keyword();
+
+  /// @brief Method Setup, addr 0xe2df78, size 0x4e4, virtual true, abstract: false, final false
   inline void Setup(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
 
-  /// @brief Method SpawnBtsCharacters, addr 0x221c830, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method SpawnBtsCharacters, addr 0xe2e45c, size 0x250, virtual false, abstract: false, final false
   inline void SpawnBtsCharacters(::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId* btsCharacterPrefabToSpawn, bool useAlternativeMaterial);
 
-  /// @brief Method Activate, addr 0x221cb4c, size 0xa8, virtual true, abstract: false, final false
-  inline void Activate(bool immediately);
+  /// @brief Method Activate, addr 0xe2e778, size 0xa8, virtual true, abstract: false, final false
+  inline void Activate();
 
-  /// @brief Method Deactivate, addr 0x221cbf4, size 0x1d0, virtual true, abstract: false, final false
-  inline void Deactivate(bool immediately);
+  /// @brief Method Deactivate, addr 0xe2e820, size 0x1d0, virtual true, abstract: false, final false
+  inline void Deactivate();
 
-  /// @brief Method DestroyCharactersDelayed, addr 0x221ce48, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method DestroyCharactersDelayed, addr 0xe2ea74, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* DestroyCharactersDelayed();
 
-  /// @brief Method DestroyCharactersAndStopAnimations, addr 0x221cdc4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method DestroyCharactersAndStopAnimations, addr 0xe2e9f0, size 0x84, virtual false, abstract: false, final false
   inline void DestroyCharactersAndStopAnimations();
 
   static inline ::GlobalNamespace::BtsResultsEnvironmentController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x221cfc4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe2ebf0, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BtsResultsEnvironmentController", modifiers: "&&", def_value: None }]
@@ -471,5 +476,5 @@ NEED_NO_BOX(::GlobalNamespace::BtsResultsEnvironmentController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BtsResultsEnvironmentController*, "", "BtsResultsEnvironmentController");
 NEED_NO_BOX(::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation*, "", "BtsResultsEnvironmentController/BTSResultCharacterPlaceWithAnimation");
-NEED_NO_BOX(::GlobalNamespace::__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11*, "", "BtsResultsEnvironmentController/<DestroyCharactersDelayed>d__11");
+NEED_NO_BOX(::GlobalNamespace::__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__13);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__13*, "", "BtsResultsEnvironmentController/<DestroyCharactersDelayed>d__13");

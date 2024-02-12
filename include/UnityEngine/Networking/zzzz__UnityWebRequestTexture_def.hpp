@@ -19,15 +19,15 @@ MARK_REF_PTR_T(::UnityEngine::Networking::UnityWebRequestTexture);
 namespace UnityEngine::Networking {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16140))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16260))
 // CS Name: ::UnityEngine.Networking::UnityWebRequestTexture*
 class CORDL_TYPE UnityWebRequestTexture : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetTexture, addr 0x2eb0d48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetTexture, addr 0x2eca014, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Networking::UnityWebRequest* GetTexture(::StringW uri);
 
-  /// @brief Method GetTexture, addr 0x2eb0d50, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetTexture, addr 0x2eca01c, size 0xc0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Networking::UnityWebRequest* GetTexture(::StringW uri, bool nonReadable);
 
   // Ctor Parameters [CppParam { name: "", ty: "UnityWebRequestTexture", modifiers: "&&", def_value: None }]

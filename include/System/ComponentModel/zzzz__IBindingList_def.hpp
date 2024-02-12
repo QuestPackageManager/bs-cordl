@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::System::ComponentModel::IBindingList);
 namespace System::ComponentModel {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9430))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7440))
 // CS Name: ::System.ComponentModel::IBindingList*
 class CORDL_TYPE IBindingList {
 public:

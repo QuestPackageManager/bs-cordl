@@ -152,23 +152,23 @@ MARK_VAL_T(::OVR::OpenVR::__CVRSystem__PollNextEventUnion);
 namespace OVR::OpenVR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8552))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8496))
 // CS Name: ::CVRSystem::_PollNextEventPacked*
 class CORDL_TYPE __CVRSystem___PollNextEventPacked : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__CVRSystem___PollNextEventPacked* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x27f17f8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27fefb0, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x27f18d0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x27ff088, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(ByRef<::OVR::OpenVR::VREvent_t_Packed> pEvent, uint32_t uncbVREvent);
 
-  /// @brief Method BeginInvoke, addr 0x27f18e4, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x27ff09c, size 0xb8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(ByRef<::OVR::OpenVR::VREvent_t_Packed> pEvent, uint32_t uncbVREvent, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x27f199c, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x27ff154, size 0x2c, virtual true, abstract: false, final false
   inline bool EndInvoke(ByRef<::OVR::OpenVR::VREvent_t_Packed> pEvent, ::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__CVRSystem___PollNextEventPacked", modifiers: "&&", def_value: None }]
@@ -196,7 +196,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__CVRSystem___PollN
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8553))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8497))
 // CS Name: ::CVRSystem::PollNextEventUnion
 struct CORDL_TYPE __CVRSystem__PollNextEventUnion {
 public:
@@ -275,24 +275,24 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__CVRSystem__PollNe
 namespace OVR::OpenVR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8554))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8498))
 // CS Name: ::CVRSystem::_GetControllerStatePacked*
 class CORDL_TYPE __CVRSystem___GetControllerStatePacked : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__CVRSystem___GetControllerStatePacked* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x27f19c8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27ff180, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x27f1a8c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x27ff244, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(uint32_t unControllerDeviceIndex, ByRef<::OVR::OpenVR::VRControllerState_t_Packed> pControllerState, uint32_t unControllerStateSize);
 
-  /// @brief Method BeginInvoke, addr 0x27f1aa0, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x27ff258, size 0xcc, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint32_t unControllerDeviceIndex, ByRef<::OVR::OpenVR::VRControllerState_t_Packed> pControllerState, uint32_t unControllerStateSize,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x27f1b6c, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x27ff324, size 0x2c, virtual true, abstract: false, final false
   inline bool EndInvoke(ByRef<::OVR::OpenVR::VRControllerState_t_Packed> pControllerState, ::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__CVRSystem___GetControllerStatePacked", modifiers: "&&", def_value: None }]
@@ -320,7 +320,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__CVRSystem___GetCo
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8555))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8499))
 // CS Name: ::CVRSystem::GetControllerStateUnion
 struct CORDL_TYPE __CVRSystem__GetControllerStateUnion {
 public:
@@ -401,25 +401,25 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__CVRSystem__GetCon
 namespace OVR::OpenVR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8556))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8500))
 // CS Name: ::CVRSystem::_GetControllerStateWithPosePacked*
 class CORDL_TYPE __CVRSystem___GetControllerStateWithPosePacked : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__CVRSystem___GetControllerStateWithPosePacked* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x27f1b98, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27ff350, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x27f1c5c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x27ff414, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(::OVR::OpenVR::ETrackingUniverseOrigin eOrigin, uint32_t unControllerDeviceIndex, ByRef<::OVR::OpenVR::VRControllerState_t_Packed> pControllerState,
                      uint32_t unControllerStateSize, ByRef<::OVR::OpenVR::TrackedDevicePose_t> pTrackedDevicePose);
 
-  /// @brief Method BeginInvoke, addr 0x27f1c70, size 0x134, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x27ff428, size 0x134, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::ETrackingUniverseOrigin eOrigin, uint32_t unControllerDeviceIndex, ByRef<::OVR::OpenVR::VRControllerState_t_Packed> pControllerState,
                                              uint32_t unControllerStateSize, ByRef<::OVR::OpenVR::TrackedDevicePose_t> pTrackedDevicePose, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x27f1da4, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x27ff55c, size 0x34, virtual true, abstract: false, final false
   inline bool EndInvoke(ByRef<::OVR::OpenVR::VRControllerState_t_Packed> pControllerState, ByRef<::OVR::OpenVR::TrackedDevicePose_t> pTrackedDevicePose, ::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__CVRSystem___GetControllerStateWithPosePacked", modifiers: "&&", def_value: None }]
@@ -447,7 +447,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__CVRSystem___GetCo
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8557))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8501))
 // CS Name: ::CVRSystem::GetControllerStateWithPoseUnion
 struct CORDL_TYPE __CVRSystem__GetControllerStateWithPoseUnion {
 public:
@@ -528,8 +528,8 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__CVRSystem__GetCon
 // SizeInfo { instance_size: 392, native_size: -1, calculated_instance_size: 392, calculated_native_size: 392, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8264))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8558))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8208))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8502))
 // CS Name: ::OVR.OpenVR::CVRSystem*
 class CORDL_TYPE CVRSystem : public ::System::Object {
 public:
@@ -557,154 +557,154 @@ public:
 
   static inline ::OVR::OpenVR::CVRSystem* New_ctor(void* pInterface);
 
-  /// @brief Method .ctor, addr 0x27f08b4, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27fe06c, size 0x114, virtual false, abstract: false, final false
   inline void _ctor(void* pInterface);
 
-  /// @brief Method GetRecommendedRenderTargetSize, addr 0x27f09c8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetRecommendedRenderTargetSize, addr 0x27fe180, size 0x2c, virtual false, abstract: false, final false
   inline void GetRecommendedRenderTargetSize(ByRef<uint32_t> pnWidth, ByRef<uint32_t> pnHeight);
 
-  /// @brief Method GetProjectionMatrix, addr 0x27f09f4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetProjectionMatrix, addr 0x27fe1ac, size 0x48, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::HmdMatrix44_t GetProjectionMatrix(::OVR::OpenVR::EVREye eEye, float_t fNearZ, float_t fFarZ);
 
-  /// @brief Method GetProjectionRaw, addr 0x27f0a3c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetProjectionRaw, addr 0x27fe1f4, size 0x34, virtual false, abstract: false, final false
   inline void GetProjectionRaw(::OVR::OpenVR::EVREye eEye, ByRef<float_t> pfLeft, ByRef<float_t> pfRight, ByRef<float_t> pfTop, ByRef<float_t> pfBottom);
 
-  /// @brief Method ComputeDistortion, addr 0x27f0a70, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ComputeDistortion, addr 0x27fe228, size 0x24, virtual false, abstract: false, final false
   inline bool ComputeDistortion(::OVR::OpenVR::EVREye eEye, float_t fU, float_t fV, ByRef<::OVR::OpenVR::DistortionCoordinates_t> pDistortionCoordinates);
 
-  /// @brief Method GetEyeToHeadTransform, addr 0x27f0a94, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetEyeToHeadTransform, addr 0x27fe24c, size 0x48, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::HmdMatrix34_t GetEyeToHeadTransform(::OVR::OpenVR::EVREye eEye);
 
-  /// @brief Method GetTimeSinceLastVsync, addr 0x27f0adc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetTimeSinceLastVsync, addr 0x27fe294, size 0x2c, virtual false, abstract: false, final false
   inline bool GetTimeSinceLastVsync(ByRef<float_t> pfSecondsSinceLastVsync, ByRef<uint64_t> pulFrameCounter);
 
-  /// @brief Method GetD3D9AdapterIndex, addr 0x27f0b08, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetD3D9AdapterIndex, addr 0x27fe2c0, size 0x24, virtual false, abstract: false, final false
   inline int32_t GetD3D9AdapterIndex();
 
-  /// @brief Method GetDXGIOutputInfo, addr 0x27f0b2c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetDXGIOutputInfo, addr 0x27fe2e4, size 0x28, virtual false, abstract: false, final false
   inline void GetDXGIOutputInfo(ByRef<int32_t> pnAdapterIndex);
 
-  /// @brief Method GetOutputDevice, addr 0x27f0b54, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetOutputDevice, addr 0x27fe30c, size 0x28, virtual false, abstract: false, final false
   inline void GetOutputDevice(ByRef<uint64_t> pnDevice, ::OVR::OpenVR::ETextureType textureType, void* pInstance);
 
-  /// @brief Method IsDisplayOnDesktop, addr 0x27f0b7c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IsDisplayOnDesktop, addr 0x27fe334, size 0x24, virtual false, abstract: false, final false
   inline bool IsDisplayOnDesktop();
 
-  /// @brief Method SetDisplayVisibility, addr 0x27f0ba0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SetDisplayVisibility, addr 0x27fe358, size 0x28, virtual false, abstract: false, final false
   inline bool SetDisplayVisibility(bool bIsVisibleOnDesktop);
 
-  /// @brief Method GetDeviceToAbsoluteTrackingPose, addr 0x27f0bc8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetDeviceToAbsoluteTrackingPose, addr 0x27fe380, size 0x2c, virtual false, abstract: false, final false
   inline void GetDeviceToAbsoluteTrackingPose(::OVR::OpenVR::ETrackingUniverseOrigin eOrigin, float_t fPredictedSecondsToPhotonsFromNow,
                                               ::ArrayW<::OVR::OpenVR::TrackedDevicePose_t, ::Array<::OVR::OpenVR::TrackedDevicePose_t>*> pTrackedDevicePoseArray);
 
-  /// @brief Method ResetSeatedZeroPose, addr 0x27f0bf4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ResetSeatedZeroPose, addr 0x27fe3ac, size 0x24, virtual false, abstract: false, final false
   inline void ResetSeatedZeroPose();
 
-  /// @brief Method GetSeatedZeroPoseToStandingAbsoluteTrackingPose, addr 0x27f0c18, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetSeatedZeroPoseToStandingAbsoluteTrackingPose, addr 0x27fe3d0, size 0x48, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::HmdMatrix34_t GetSeatedZeroPoseToStandingAbsoluteTrackingPose();
 
-  /// @brief Method GetRawZeroPoseToStandingAbsoluteTrackingPose, addr 0x27f0c60, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetRawZeroPoseToStandingAbsoluteTrackingPose, addr 0x27fe418, size 0x48, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::HmdMatrix34_t GetRawZeroPoseToStandingAbsoluteTrackingPose();
 
-  /// @brief Method GetSortedTrackedDeviceIndicesOfClass, addr 0x27f0ca8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetSortedTrackedDeviceIndicesOfClass, addr 0x27fe460, size 0x30, virtual false, abstract: false, final false
   inline uint32_t GetSortedTrackedDeviceIndicesOfClass(::OVR::OpenVR::ETrackedDeviceClass eTrackedDeviceClass, ::ArrayW<uint32_t, ::Array<uint32_t>*> punTrackedDeviceIndexArray,
                                                        uint32_t unRelativeToTrackedDeviceIndex);
 
-  /// @brief Method GetTrackedDeviceActivityLevel, addr 0x27f0cd8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetTrackedDeviceActivityLevel, addr 0x27fe490, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EDeviceActivityLevel GetTrackedDeviceActivityLevel(uint32_t unDeviceId);
 
-  /// @brief Method ApplyTransform, addr 0x27f0cfc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ApplyTransform, addr 0x27fe4b4, size 0x24, virtual false, abstract: false, final false
   inline void ApplyTransform(ByRef<::OVR::OpenVR::TrackedDevicePose_t> pOutputPose, ByRef<::OVR::OpenVR::TrackedDevicePose_t> pTrackedDevicePose, ByRef<::OVR::OpenVR::HmdMatrix34_t> pTransform);
 
-  /// @brief Method GetTrackedDeviceIndexForControllerRole, addr 0x27f0d20, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetTrackedDeviceIndexForControllerRole, addr 0x27fe4d8, size 0x24, virtual false, abstract: false, final false
   inline uint32_t GetTrackedDeviceIndexForControllerRole(::OVR::OpenVR::ETrackedControllerRole unDeviceType);
 
-  /// @brief Method GetControllerRoleForTrackedDeviceIndex, addr 0x27f0d44, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetControllerRoleForTrackedDeviceIndex, addr 0x27fe4fc, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::ETrackedControllerRole GetControllerRoleForTrackedDeviceIndex(uint32_t unDeviceIndex);
 
-  /// @brief Method GetTrackedDeviceClass, addr 0x27f0d68, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetTrackedDeviceClass, addr 0x27fe520, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::ETrackedDeviceClass GetTrackedDeviceClass(uint32_t unDeviceIndex);
 
-  /// @brief Method IsTrackedDeviceConnected, addr 0x27f0d8c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IsTrackedDeviceConnected, addr 0x27fe544, size 0x24, virtual false, abstract: false, final false
   inline bool IsTrackedDeviceConnected(uint32_t unDeviceIndex);
 
-  /// @brief Method GetBoolTrackedDeviceProperty, addr 0x27f0db0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetBoolTrackedDeviceProperty, addr 0x27fe568, size 0x24, virtual false, abstract: false, final false
   inline bool GetBoolTrackedDeviceProperty(uint32_t unDeviceIndex, ::OVR::OpenVR::ETrackedDeviceProperty prop, ByRef<::OVR::OpenVR::ETrackedPropertyError> pError);
 
-  /// @brief Method GetFloatTrackedDeviceProperty, addr 0x27f0dd4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetFloatTrackedDeviceProperty, addr 0x27fe58c, size 0x24, virtual false, abstract: false, final false
   inline float_t GetFloatTrackedDeviceProperty(uint32_t unDeviceIndex, ::OVR::OpenVR::ETrackedDeviceProperty prop, ByRef<::OVR::OpenVR::ETrackedPropertyError> pError);
 
-  /// @brief Method GetInt32TrackedDeviceProperty, addr 0x27f0df8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetInt32TrackedDeviceProperty, addr 0x27fe5b0, size 0x24, virtual false, abstract: false, final false
   inline int32_t GetInt32TrackedDeviceProperty(uint32_t unDeviceIndex, ::OVR::OpenVR::ETrackedDeviceProperty prop, ByRef<::OVR::OpenVR::ETrackedPropertyError> pError);
 
-  /// @brief Method GetUint64TrackedDeviceProperty, addr 0x27f0e1c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetUint64TrackedDeviceProperty, addr 0x27fe5d4, size 0x24, virtual false, abstract: false, final false
   inline uint64_t GetUint64TrackedDeviceProperty(uint32_t unDeviceIndex, ::OVR::OpenVR::ETrackedDeviceProperty prop, ByRef<::OVR::OpenVR::ETrackedPropertyError> pError);
 
-  /// @brief Method GetMatrix34TrackedDeviceProperty, addr 0x27f0e40, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetMatrix34TrackedDeviceProperty, addr 0x27fe5f8, size 0x48, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::HmdMatrix34_t GetMatrix34TrackedDeviceProperty(uint32_t unDeviceIndex, ::OVR::OpenVR::ETrackedDeviceProperty prop, ByRef<::OVR::OpenVR::ETrackedPropertyError> pError);
 
-  /// @brief Method GetArrayTrackedDeviceProperty, addr 0x27f0e88, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetArrayTrackedDeviceProperty, addr 0x27fe640, size 0x24, virtual false, abstract: false, final false
   inline uint32_t GetArrayTrackedDeviceProperty(uint32_t unDeviceIndex, ::OVR::OpenVR::ETrackedDeviceProperty prop, uint32_t propType, void* pBuffer, uint32_t unBufferSize,
                                                 ByRef<::OVR::OpenVR::ETrackedPropertyError> pError);
 
-  /// @brief Method GetStringTrackedDeviceProperty, addr 0x27f0eac, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetStringTrackedDeviceProperty, addr 0x27fe664, size 0x24, virtual false, abstract: false, final false
   inline uint32_t GetStringTrackedDeviceProperty(uint32_t unDeviceIndex, ::OVR::OpenVR::ETrackedDeviceProperty prop, ::System::Text::StringBuilder* pchValue, uint32_t unBufferSize,
                                                  ByRef<::OVR::OpenVR::ETrackedPropertyError> pError);
 
-  /// @brief Method GetPropErrorNameFromEnum, addr 0x27f0ed0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetPropErrorNameFromEnum, addr 0x27fe688, size 0x84, virtual false, abstract: false, final false
   inline ::StringW GetPropErrorNameFromEnum(::OVR::OpenVR::ETrackedPropertyError error);
 
-  /// @brief Method PollNextEvent, addr 0x27f0f54, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method PollNextEvent, addr 0x27fe70c, size 0x174, virtual false, abstract: false, final false
   inline bool PollNextEvent(ByRef<::OVR::OpenVR::VREvent_t> pEvent, uint32_t uncbVREvent);
 
-  /// @brief Method PollNextEventWithPose, addr 0x27f10e8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method PollNextEventWithPose, addr 0x27fe8a0, size 0x24, virtual false, abstract: false, final false
   inline bool PollNextEventWithPose(::OVR::OpenVR::ETrackingUniverseOrigin eOrigin, ByRef<::OVR::OpenVR::VREvent_t> pEvent, uint32_t uncbVREvent,
                                     ByRef<::OVR::OpenVR::TrackedDevicePose_t> pTrackedDevicePose);
 
-  /// @brief Method GetEventTypeNameFromEnum, addr 0x27f110c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetEventTypeNameFromEnum, addr 0x27fe8c4, size 0x84, virtual false, abstract: false, final false
   inline ::StringW GetEventTypeNameFromEnum(::OVR::OpenVR::EVREventType eType);
 
-  /// @brief Method GetHiddenAreaMesh, addr 0x27f1190, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetHiddenAreaMesh, addr 0x27fe948, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::HiddenAreaMesh_t GetHiddenAreaMesh(::OVR::OpenVR::EVREye eEye, ::OVR::OpenVR::EHiddenAreaMeshType type);
 
-  /// @brief Method GetControllerState, addr 0x27f11b4, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method GetControllerState, addr 0x27fe96c, size 0x1ac, virtual false, abstract: false, final false
   inline bool GetControllerState(uint32_t unControllerDeviceIndex, ByRef<::OVR::OpenVR::VRControllerState_t> pControllerState, uint32_t unControllerStateSize);
 
-  /// @brief Method GetControllerStateWithPose, addr 0x27f13e0, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method GetControllerStateWithPose, addr 0x27feb98, size 0x1cc, virtual false, abstract: false, final false
   inline bool GetControllerStateWithPose(::OVR::OpenVR::ETrackingUniverseOrigin eOrigin, uint32_t unControllerDeviceIndex, ByRef<::OVR::OpenVR::VRControllerState_t> pControllerState,
                                          uint32_t unControllerStateSize, ByRef<::OVR::OpenVR::TrackedDevicePose_t> pTrackedDevicePose);
 
-  /// @brief Method TriggerHapticPulse, addr 0x27f15ac, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method TriggerHapticPulse, addr 0x27fed64, size 0x24, virtual false, abstract: false, final false
   inline void TriggerHapticPulse(uint32_t unControllerDeviceIndex, uint32_t unAxisId, uint16_t usDurationMicroSec);
 
-  /// @brief Method GetButtonIdNameFromEnum, addr 0x27f15d0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetButtonIdNameFromEnum, addr 0x27fed88, size 0x84, virtual false, abstract: false, final false
   inline ::StringW GetButtonIdNameFromEnum(::OVR::OpenVR::EVRButtonId eButtonId);
 
-  /// @brief Method GetControllerAxisTypeNameFromEnum, addr 0x27f1654, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetControllerAxisTypeNameFromEnum, addr 0x27fee0c, size 0x84, virtual false, abstract: false, final false
   inline ::StringW GetControllerAxisTypeNameFromEnum(::OVR::OpenVR::EVRControllerAxisType eAxisType);
 
-  /// @brief Method IsInputAvailable, addr 0x27f16d8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IsInputAvailable, addr 0x27fee90, size 0x24, virtual false, abstract: false, final false
   inline bool IsInputAvailable();
 
-  /// @brief Method IsSteamVRDrawingControllers, addr 0x27f16fc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IsSteamVRDrawingControllers, addr 0x27feeb4, size 0x24, virtual false, abstract: false, final false
   inline bool IsSteamVRDrawingControllers();
 
-  /// @brief Method ShouldApplicationPause, addr 0x27f1720, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ShouldApplicationPause, addr 0x27feed8, size 0x24, virtual false, abstract: false, final false
   inline bool ShouldApplicationPause();
 
-  /// @brief Method ShouldApplicationReduceRenderingWork, addr 0x27f1744, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ShouldApplicationReduceRenderingWork, addr 0x27feefc, size 0x24, virtual false, abstract: false, final false
   inline bool ShouldApplicationReduceRenderingWork();
 
-  /// @brief Method DriverDebugRequest, addr 0x27f1768, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method DriverDebugRequest, addr 0x27fef20, size 0x24, virtual false, abstract: false, final false
   inline uint32_t DriverDebugRequest(uint32_t unDeviceIndex, ::StringW pchRequest, ::System::Text::StringBuilder* pchResponseBuffer, uint32_t unResponseBufferSize);
 
-  /// @brief Method PerformFirmwareUpdate, addr 0x27f178c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method PerformFirmwareUpdate, addr 0x27fef44, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRFirmwareError PerformFirmwareUpdate(uint32_t unDeviceIndex);
 
-  /// @brief Method AcknowledgeQuit_Exiting, addr 0x27f17b0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method AcknowledgeQuit_Exiting, addr 0x27fef68, size 0x24, virtual false, abstract: false, final false
   inline void AcknowledgeQuit_Exiting();
 
-  /// @brief Method AcknowledgeQuit_UserPrompt, addr 0x27f17d4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method AcknowledgeQuit_UserPrompt, addr 0x27fef8c, size 0x24, virtual false, abstract: false, final false
   inline void AcknowledgeQuit_UserPrompt();
 
   // Ctor Parameters [CppParam { name: "", ty: "CVRSystem", modifiers: "&&", def_value: None }]

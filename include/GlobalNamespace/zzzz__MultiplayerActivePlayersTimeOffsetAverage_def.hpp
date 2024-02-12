@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5190))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4529))
 // CS Name: ::MultiplayerActivePlayersTimeOffsetAverage*
 class CORDL_TYPE MultiplayerActivePlayersTimeOffsetAverage : public ::System::Object {
 public:
@@ -65,15 +65,15 @@ public:
 
   constexpr void __cordl_internal_set__timeOfLastValidReturnedTime(int64_t value);
 
-  /// @brief Method get_offsetSyncTime, addr 0x22446e4, size 0x254, virtual true, abstract: false, final true
+  /// @brief Method get_offsetSyncTime, addr 0x23a24dc, size 0x254, virtual true, abstract: false, final true
   inline int64_t get_offsetSyncTime();
 
-  /// @brief Method get_isFailed, addr 0x2244938, size 0x148, virtual true, abstract: false, final true
+  /// @brief Method get_isFailed, addr 0x23a2730, size 0x148, virtual true, abstract: false, final true
   inline bool get_isFailed();
 
   static inline ::GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2244a80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23a2878, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerActivePlayersTimeOffsetAverage", modifiers: "&&", def_value: None }]

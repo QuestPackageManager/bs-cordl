@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Converters::XElementWrapper);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12064))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12067))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11962))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11965))
 // CS Name: ::Newtonsoft.Json.Converters::XElementWrapper*
 class CORDL_TYPE XElementWrapper : public ::Newtonsoft::Json::Converters::XContainerWrapper {
 public:
@@ -66,39 +66,39 @@ public:
 
   constexpr void __cordl_internal_set__attributes(::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* value);
 
-  /// @brief Method get_Element, addr 0x26bcd2c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_Element, addr 0x26deee8, size 0x78, virtual false, abstract: false, final false
   inline ::System::Xml::Linq::XElement* get_Element();
 
   static inline ::Newtonsoft::Json::Converters::XElementWrapper* New_ctor(::System::Xml::Linq::XElement* element);
 
-  /// @brief Method .ctor, addr 0x26bbc90, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26dde4c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XElement* element);
 
-  /// @brief Method SetAttributeNode, addr 0x26bcda4, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method SetAttributeNode, addr 0x26def60, size 0xa4, virtual true, abstract: false, final true
   inline void SetAttributeNode(::Newtonsoft::Json::Converters::IXmlNode* attribute);
 
-  /// @brief Method get_Attributes, addr 0x26bce48, size 0x808, virtual true, abstract: false, final false
+  /// @brief Method get_Attributes, addr 0x26df004, size 0x808, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* get_Attributes();
 
-  /// @brief Method AppendChild, addr 0x26bd690, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method AppendChild, addr 0x26df84c, size 0x18, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Converters::IXmlNode* AppendChild(::Newtonsoft::Json::Converters::IXmlNode* newChild);
 
-  /// @brief Method get_Value, addr 0x26bd6a8, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x26df864, size 0x1c, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method set_Value, addr 0x26bd6c4, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method set_Value, addr 0x26df880, size 0x24, virtual true, abstract: false, final false
   inline void set_Value(::StringW value);
 
-  /// @brief Method get_LocalName, addr 0x26bd6e8, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x26df8a4, size 0x24, virtual true, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_NamespaceUri, addr 0x26bd70c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_NamespaceUri, addr 0x26df8c8, size 0x24, virtual true, abstract: false, final false
   inline ::StringW get_NamespaceUri();
 
-  /// @brief Method GetPrefixOfNamespace, addr 0x26bd650, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method GetPrefixOfNamespace, addr 0x26df80c, size 0x40, virtual true, abstract: false, final true
   inline ::StringW GetPrefixOfNamespace(::StringW namespaceUri);
 
-  /// @brief Method get_IsEmpty, addr 0x26bd730, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_IsEmpty, addr 0x26df8ec, size 0x1c, virtual true, abstract: false, final true
   inline bool get_IsEmpty();
 
   // Ctor Parameters [CppParam { name: "", ty: "XElementWrapper", modifiers: "&&", def_value: None }]

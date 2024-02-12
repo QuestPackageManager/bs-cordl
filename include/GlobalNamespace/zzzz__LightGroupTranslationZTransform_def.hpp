@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::GlobalNamespace::LightGroupTranslationZTransform);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4938))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4292))
 // CS Name: ::LightGroupTranslationZTransform*
 class CORDL_TYPE LightGroupTranslationZTransform : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   static inline ::GlobalNamespace::LightGroupTranslationZTransform* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23a9a20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2369b54, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LightGroupTranslationZTransform", modifiers: "&&", def_value: None }]

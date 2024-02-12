@@ -16,7 +16,7 @@ MARK_VAL_T(::TMPro::TextureMappingOptions);
 namespace TMPro {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12437))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12335))
 // CS Name: ::TMPro::TextureMappingOptions
 struct CORDL_TYPE TextureMappingOptions {
 public:

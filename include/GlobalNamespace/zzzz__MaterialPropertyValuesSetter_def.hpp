@@ -60,7 +60,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyValueP
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14572))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14467))
 // CS Name: ::MaterialPropertyValuesSetter::PropertyValuePairBase*
 class CORDL_TYPE __MaterialPropertyValuesSetter__PropertyValuePairBase : public ::System::Object {
 public:
@@ -85,18 +85,18 @@ public:
 
   constexpr void __cordl_internal_set__propertyId_k__BackingField(int32_t value);
 
-  /// @brief Method get_propertyId, addr 0x21158cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_propertyId, addr 0x21aa1a8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_propertyId();
 
-  /// @brief Method set_propertyId, addr 0x21158d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_propertyId, addr 0x21aa1b0, size 0x8, virtual false, abstract: false, final false
   inline void set_propertyId(int32_t value);
 
   static inline ::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyValuePairBase* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21158dc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21aa1b8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method RefreshPropertyId, addr 0x21158a4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method RefreshPropertyId, addr 0x21aa180, size 0x20, virtual false, abstract: false, final false
   inline void RefreshPropertyId();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MaterialPropertyValuesSetter__PropertyValuePairBase", modifiers: "&&", def_value: None }]
@@ -133,8 +133,8 @@ static_assert(offsetof(::GlobalNamespace::__MaterialPropertyValuesSetter__Proper
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14572))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14573))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14467))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14468))
 // CS Name: ::MaterialPropertyValuesSetter::PropertyNameFloatValuePair*
 class CORDL_TYPE __MaterialPropertyValuesSetter__PropertyNameFloatValuePair : public ::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyValuePairBase {
 public:
@@ -150,7 +150,7 @@ public:
 
   static inline ::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameFloatValuePair* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2115904, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21aa1e0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MaterialPropertyValuesSetter__PropertyNameFloatValuePair", modifiers: "&&", def_value: None }]
@@ -182,8 +182,8 @@ static_assert(offsetof(::GlobalNamespace::__MaterialPropertyValuesSetter__Proper
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14572))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14574))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14467))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14469))
 // CS Name: ::MaterialPropertyValuesSetter::PropertyNameIntValuePair*
 class CORDL_TYPE __MaterialPropertyValuesSetter__PropertyNameIntValuePair : public ::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyValuePairBase {
 public:
@@ -199,7 +199,7 @@ public:
 
   static inline ::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameIntValuePair* New_ctor();
 
-  /// @brief Method .ctor, addr 0x211592c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21aa208, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MaterialPropertyValuesSetter__PropertyNameIntValuePair", modifiers: "&&", def_value: None }]
@@ -231,8 +231,8 @@ static_assert(offsetof(::GlobalNamespace::__MaterialPropertyValuesSetter__Proper
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10246)), TypeDefinitionIndex(TypeDefinitionIndex(14572))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14575))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8990)), TypeDefinitionIndex(TypeDefinitionIndex(14467))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14470))
 // CS Name: ::MaterialPropertyValuesSetter::PropertyNameVectorValuePair*
 class CORDL_TYPE __MaterialPropertyValuesSetter__PropertyNameVectorValuePair : public ::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyValuePairBase {
 public:
@@ -248,7 +248,7 @@ public:
 
   static inline ::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameVectorValuePair* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2115954, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21aa230, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MaterialPropertyValuesSetter__PropertyNameVectorValuePair", modifiers: "&&", def_value: None }]
@@ -280,8 +280,8 @@ static_assert(offsetof(::GlobalNamespace::__MaterialPropertyValuesSetter__Proper
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(14572))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14576))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8995)), TypeDefinitionIndex(TypeDefinitionIndex(14467))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14471))
 // CS Name: ::MaterialPropertyValuesSetter::PropertyNameColorValuePair*
 class CORDL_TYPE __MaterialPropertyValuesSetter__PropertyNameColorValuePair : public ::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyValuePairBase {
 public:
@@ -297,7 +297,7 @@ public:
 
   static inline ::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameColorValuePair* New_ctor();
 
-  /// @brief Method .ctor, addr 0x211597c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21aa258, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MaterialPropertyValuesSetter__PropertyNameColorValuePair", modifiers: "&&", def_value: None }]
@@ -329,8 +329,8 @@ static_assert(offsetof(::GlobalNamespace::__MaterialPropertyValuesSetter__Proper
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14577))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14472))
 // CS Name: ::MaterialPropertyValuesSetter*
 class CORDL_TYPE MaterialPropertyValuesSetter : public ::UnityEngine::MonoBehaviour {
 public:
@@ -410,21 +410,21 @@ public:
   constexpr void __cordl_internal_set__ints(
       ::ArrayW<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameIntValuePair*, ::Array<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameIntValuePair*>*> value);
 
-  /// @brief Method Start, addr 0x21154f8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x21a9dd4, size 0x18, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnValidate, addr 0x211580c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x21aa0e8, size 0x98, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method RefreshPropertyIds, addr 0x2115510, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method RefreshPropertyIds, addr 0x21a9dec, size 0x158, virtual false, abstract: false, final false
   inline void RefreshPropertyIds();
 
-  /// @brief Method ApplyParams, addr 0x2115668, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method ApplyParams, addr 0x21a9f44, size 0x1a4, virtual false, abstract: false, final false
   inline void ApplyParams();
 
   static inline ::GlobalNamespace::MaterialPropertyValuesSetter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21158c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21aa1a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyValuesSetter", modifiers: "&&", def_value: None }]

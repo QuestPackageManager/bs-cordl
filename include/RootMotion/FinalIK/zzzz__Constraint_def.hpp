@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::Constraint);
 namespace RootMotion::FinalIK {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12508))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12406))
 // CS Name: ::RootMotion.FinalIK::Constraint*
 class CORDL_TYPE Constraint : public ::System::Object {
 public:
@@ -44,7 +44,7 @@ public:
 
   constexpr void __cordl_internal_set_weight(float_t value);
 
-  /// @brief Method get_isValid, addr 0x124268c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_isValid, addr 0x12dd73c, size 0x60, virtual false, abstract: false, final false
   inline bool get_isValid();
 
   /// @brief Method UpdateConstraint, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -52,7 +52,7 @@ public:
 
   static inline ::RootMotion::FinalIK::Constraint* New_ctor();
 
-  /// @brief Method .ctor, addr 0x12426ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12dd79c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Constraint", modifiers: "&&", def_value: None }]

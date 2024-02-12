@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::System::Collections::HashtableExtensions);
 namespace System::Collections {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9506))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7516))
 // CS Name: ::System.Collections::HashtableExtensions*
 class CORDL_TYPE HashtableExtensions : public ::System::Object {
 public:

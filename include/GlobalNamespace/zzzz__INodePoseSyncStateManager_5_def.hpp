@@ -26,7 +26,7 @@ namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable>
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14942))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14815))
 // CS Name: ::INodePoseSyncStateManager`5<TStateTable,TType,TState,TSerializable,TDeltaSerializable>*
 class CORDL_TYPE INodePoseSyncStateManager_5 {
 public:

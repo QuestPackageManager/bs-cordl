@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Engines::SeedWrapEngine* New_ctor();
 
-  /// @brief Method .ctor, addr 0xee2a4c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf0d8dc, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SeedWrapEngine", modifiers: "&&", def_value: None }]

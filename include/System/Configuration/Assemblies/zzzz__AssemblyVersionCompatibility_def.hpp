@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Configuration::Assemblies::AssemblyVersionCompatibility);
 namespace System::Configuration::Assemblies {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3751))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3750))
 // CS Name: ::System.Configuration.Assemblies::AssemblyVersionCompatibility
 struct CORDL_TYPE AssemblyVersionCompatibility {
 public:

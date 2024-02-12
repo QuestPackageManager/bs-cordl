@@ -23,24 +23,24 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::TimelineUndo);
 namespace UnityEngine::Timeline {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13940))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13893))
 // CS Name: ::UnityEngine.Timeline::TimelineUndo*
 class CORDL_TYPE TimelineUndo : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method PushDestroyUndo, addr 0x2c726bc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method PushDestroyUndo, addr 0x2c6f228, size 0x88, virtual false, abstract: false, final false
   static inline void PushDestroyUndo(::UnityEngine::Timeline::TimelineAsset* timeline, ::UnityEngine::Object* thingToDirty, ::UnityEngine::Object* objectToDestroy);
 
-  /// @brief Method PushUndo, addr 0x2c72744, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method PushUndo, addr 0x2c6f2b0, size 0x4, virtual false, abstract: false, final false
   static inline void PushUndo(::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> thingsToDirty, ::StringW operation);
 
-  /// @brief Method PushUndo, addr 0x2c72748, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method PushUndo, addr 0x2c6f2b4, size 0x4, virtual false, abstract: false, final false
   static inline void PushUndo(::UnityEngine::Object* thingToDirty, ::StringW operation);
 
-  /// @brief Method RegisterCreatedObjectUndo, addr 0x2c7274c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RegisterCreatedObjectUndo, addr 0x2c6f2b8, size 0x4, virtual false, abstract: false, final false
   static inline void RegisterCreatedObjectUndo(::UnityEngine::Object* thingCreated, ::StringW operation);
 
-  /// @brief Method UndoName, addr 0x2c72750, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method UndoName, addr 0x2c6f2bc, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW UndoName(::StringW name);
 
   // Ctor Parameters [CppParam { name: "", ty: "TimelineUndo", modifiers: "&&", def_value: None }]

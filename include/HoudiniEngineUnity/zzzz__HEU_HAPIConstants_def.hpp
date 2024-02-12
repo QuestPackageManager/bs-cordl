@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_HAPIConstants);
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9685))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9477))
 // CS Name: ::HoudiniEngineUnity::HEU_HAPIConstants*
 class CORDL_TYPE HEU_HAPIConstants : public ::System::Object {
 public:

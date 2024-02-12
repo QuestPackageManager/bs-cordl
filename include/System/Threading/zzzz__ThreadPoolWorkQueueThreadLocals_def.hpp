@@ -65,13 +65,13 @@ public:
 
   static inline ::System::Threading::ThreadPoolWorkQueueThreadLocals* New_ctor(::System::Threading::ThreadPoolWorkQueue* tpq);
 
-  /// @brief Method .ctor, addr 0x261bfe8, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2642164, size 0x11c, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::ThreadPoolWorkQueue* tpq);
 
-  /// @brief Method CleanUp, addr 0x261c104, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method CleanUp, addr 0x2642280, size 0xd4, virtual false, abstract: false, final false
   inline void CleanUp();
 
-  /// @brief Method Finalize, addr 0x261c1d8, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x2642354, size 0xcc, virtual true, abstract: false, final false
   inline void Finalize();
 
   // Ctor Parameters [CppParam { name: "", ty: "ThreadPoolWorkQueueThreadLocals", modifiers: "&&", def_value: None }]

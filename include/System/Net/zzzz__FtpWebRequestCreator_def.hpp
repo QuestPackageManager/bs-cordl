@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::System::Net::FtpWebRequestCreator);
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9051))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7061))
 // CS Name: ::System.Net::FtpWebRequestCreator*
 class CORDL_TYPE FtpWebRequestCreator : public ::System::Object {
 public:
@@ -37,10 +37,10 @@ public:
 
   static inline ::System::Net::FtpWebRequestCreator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x299ac1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x299e6c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Create, addr 0x299ac24, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method Create, addr 0x299e6c8, size 0x60, virtual true, abstract: false, final true
   inline ::System::Net::WebRequest* Create(::System::Uri* uri);
 
   // Ctor Parameters [CppParam { name: "", ty: "FtpWebRequestCreator", modifiers: "&&", def_value: None }]

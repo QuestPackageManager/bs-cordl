@@ -16,7 +16,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_PDG_WorkitemState);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9724))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9516))
 // CS Name: ::HoudiniEngineUnity::HAPI_PDG_WorkitemState
 struct CORDL_TYPE HAPI_PDG_WorkitemState {
 public:

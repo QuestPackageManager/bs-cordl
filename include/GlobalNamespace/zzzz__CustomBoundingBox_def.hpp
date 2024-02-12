@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::GlobalNamespace::CustomBoundingBox);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14358))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8993))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14513))
 // CS Name: ::CustomBoundingBox*
 class CORDL_TYPE CustomBoundingBox : public ::UnityEngine::MonoBehaviour {
 public:
@@ -51,12 +51,12 @@ public:
 
   constexpr void __cordl_internal_set__meshRenderer(::UnityW<::UnityEngine::MeshRenderer> value);
 
-  /// @brief Method Awake, addr 0x20f1db4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x218633c, size 0x6c, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::CustomBoundingBox* New_ctor();
 
-  /// @brief Method .ctor, addr 0x20f1e20, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21863a8, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CustomBoundingBox", modifiers: "&&", def_value: None }]

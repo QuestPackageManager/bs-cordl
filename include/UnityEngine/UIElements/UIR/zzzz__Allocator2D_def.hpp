@@ -61,8 +61,8 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::__Allocator2D__Alloc2D);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10162))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7411))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8906))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6670))
 // CS Name: ::Allocator2D::Area*
 class CORDL_TYPE __Allocator2D__Area : public ::System::Object {
 public:
@@ -87,7 +87,7 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::__Allocator2D__Area* New_ctor(::UnityEngine::RectInt rect);
 
-  /// @brief Method .ctor, addr 0x2dcc4ac, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dea894, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::RectInt rect);
 
   // Ctor Parameters [CppParam { name: "", ty: "__Allocator2D__Area", modifiers: "&&", def_value: None }]
@@ -124,8 +124,8 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::__Allocator2D__Area, ___a
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7399)), TypeDefinitionIndex(TypeDefinitionIndex(7433)), TypeDefinitionIndex(TypeDefinitionIndex(10162)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7399), inst: 3979 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7412)) CS Name: ::Allocator2D::Row*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6658)), TypeDefinitionIndex(TypeDefinitionIndex(6692)), TypeDefinitionIndex(TypeDefinitionIndex(8906)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6658), inst: 3961 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6671)) CS Name: ::Allocator2D::Row*
 class CORDL_TYPE __Allocator2D__Row : public ::UnityEngine::UIElements::UIR::LinkedPoolItem_1<::UnityEngine::UIElements::UIR::__Allocator2D__Row*> {
 public:
   // Declarations
@@ -181,15 +181,15 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::__Allocator2D__Row*>* getStaticF_pool();
 
-  /// @brief Method Create, addr 0x2dcc540, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2dea928, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::UIR::__Allocator2D__Row* Create();
 
-  /// @brief Method Reset, addr 0x2dcc5e0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x2dea9c8, size 0x28, virtual false, abstract: false, final false
   static inline void Reset(::UnityEngine::UIElements::UIR::__Allocator2D__Row* row);
 
   static inline ::UnityEngine::UIElements::UIR::__Allocator2D__Row* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2dcc598, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dea980, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Allocator2D__Row", modifiers: "&&", def_value: None }]
@@ -241,13 +241,13 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::__Allocator2D__Row, ___ne
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7433)), TypeDefinitionIndex(TypeDefinitionIndex(10162))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7413))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6692)), TypeDefinitionIndex(TypeDefinitionIndex(8906))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6672))
 // CS Name: ::Allocator2D::Alloc2D
 struct CORDL_TYPE __Allocator2D__Alloc2D {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x2dcbeec, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dea2d4, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::UIR::__Allocator2D__Row* row, ::UnityEngine::UIElements::UIR::Alloc alloc, int32_t width, int32_t height);
 
   // Ctor Parameters [CppParam { name: "rect", ty: "::UnityEngine::RectInt", modifiers: "", def_value: None }, CppParam { name: "row", ty: "::UnityEngine::UIElements::UIR::__Allocator2D__Row*",
@@ -286,8 +286,8 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::__Allocator2D__Alloc2D, a
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10244))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7414))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8988))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6673))
 // CS Name: ::UnityEngine.UIElements.UIR::Allocator2D*
 class CORDL_TYPE Allocator2D : public ::System::Object {
 public:
@@ -355,23 +355,23 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::Allocator2D* New_ctor(::UnityEngine::Vector2Int minSize, ::UnityEngine::Vector2Int maxSize, int32_t rowHeightBias);
 
-  /// @brief Method .ctor, addr 0x2dcb294, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2de967c, size 0x218, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector2Int minSize, ::UnityEngine::Vector2Int maxSize, int32_t rowHeightBias);
 
-  /// @brief Method TryAllocate, addr 0x2dcb8c0, size 0x498, virtual false, abstract: false, final false
+  /// @brief Method TryAllocate, addr 0x2de9ca8, size 0x498, virtual false, abstract: false, final false
   inline bool TryAllocate(int32_t width, int32_t height, ByRef<::UnityEngine::UIElements::UIR::__Allocator2D__Alloc2D> alloc2D);
 
-  /// @brief Method Free, addr 0x2dcc038, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method Free, addr 0x2dea420, size 0x210, virtual false, abstract: false, final false
   inline void Free(::UnityEngine::UIElements::UIR::__Allocator2D__Alloc2D alloc2D);
 
-  /// @brief Method BuildAreas, addr 0x2dcb4ac, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method BuildAreas, addr 0x2de9894, size 0x270, virtual false, abstract: false, final false
   static inline void BuildAreas(::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__Allocator2D__Area*>* areas, ::UnityEngine::Vector2Int minSize,
                                 ::UnityEngine::Vector2Int maxSize);
 
-  /// @brief Method ComputeMaxAllocSize, addr 0x2dcb71c, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method ComputeMaxAllocSize, addr 0x2de9b04, size 0x11c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2Int ComputeMaxAllocSize(::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__Allocator2D__Area*>* areas, int32_t rowHeightBias);
 
-  /// @brief Method BuildRowArray, addr 0x2dcb838, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method BuildRowArray, addr 0x2de9c20, size 0x88, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::UIElements::UIR::__Allocator2D__Row*, ::Array<::UnityEngine::UIElements::UIR::__Allocator2D__Row*>*> BuildRowArray(int32_t maxRowHeight, int32_t rowHeightBias);
 
   // Ctor Parameters [CppParam { name: "", ty: "Allocator2D", modifiers: "&&", def_value: None }]

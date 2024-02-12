@@ -36,23 +36,23 @@ MARK_REF_PTR_T(::GlobalNamespace::__ImageEffectController__RenderImageCallback);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14500))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14394))
 // CS Name: ::ImageEffectController::RenderImageCallback*
 class CORDL_TYPE __ImageEffectController__RenderImageCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::GlobalNamespace::__ImageEffectController__RenderImageCallback* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x210c198, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21a0940, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x210c2c8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x21a0a70, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest);
 
-  /// @brief Method BeginInvoke, addr 0x210c2dc, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x21a0a84, size 0x28, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x210c304, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x21a0aac, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ImageEffectController__RenderImageCallback", modifiers: "&&", def_value: None }]
@@ -79,8 +79,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ImageEffectCo
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14501))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14395))
 // CS Name: ::ImageEffectController*
 class CORDL_TYPE ImageEffectController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -97,15 +97,15 @@ public:
 
   constexpr void __cordl_internal_set__renderImageCallback(::GlobalNamespace::__ImageEffectController__RenderImageCallback* value);
 
-  /// @brief Method SetCallback, addr 0x210c16c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetCallback, addr 0x21a0914, size 0x8, virtual false, abstract: false, final false
   inline void SetCallback(::GlobalNamespace::__ImageEffectController__RenderImageCallback* renderImageCallback);
 
-  /// @brief Method OnRenderImage, addr 0x210c174, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnRenderImage, addr 0x21a091c, size 0x1c, virtual false, abstract: false, final false
   inline void OnRenderImage(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest);
 
   static inline ::GlobalNamespace::ImageEffectController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x210c190, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21a0938, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ImageEffectController", modifiers: "&&", def_value: None }]

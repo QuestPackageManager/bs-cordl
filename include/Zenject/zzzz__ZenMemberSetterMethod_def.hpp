@@ -25,23 +25,23 @@ MARK_REF_PTR_T(::Zenject::ZenMemberSetterMethod);
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15715))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15865))
 // CS Name: ::Zenject::ZenMemberSetterMethod*
 class CORDL_TYPE ZenMemberSetterMethod : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::Zenject::ZenMemberSetterMethod* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2eb9b18, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ed5c60, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x2eb9c48, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2ed5d90, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* obj, ::System::Object* value);
 
-  /// @brief Method BeginInvoke, addr 0x2eb9c5c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2ed5da4, size 0x28, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::Object* obj, ::System::Object* value, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2eb9c84, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2ed5dcc, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "ZenMemberSetterMethod", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ProBuilder::PivotLocation);
 namespace UnityEngine::ProBuilder {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12195))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12093))
 // CS Name: ::UnityEngine.ProBuilder::PivotLocation
 struct CORDL_TYPE PivotLocation {
 public:

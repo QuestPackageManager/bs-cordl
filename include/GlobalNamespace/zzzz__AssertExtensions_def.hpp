@@ -17,12 +17,12 @@ MARK_REF_PTR_T(::GlobalNamespace::AssertExtensions);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15840))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15580))
 // CS Name: ::AssertExtensions*
 class CORDL_TYPE AssertExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method LessThan, addr 0xe265e0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method LessThan, addr 0xe4f9f4, size 0x4, virtual false, abstract: false, final false
   static inline void LessThan(float_t expected, float_t value, ::StringW message);
 
   // Ctor Parameters [CppParam { name: "", ty: "AssertExtensions", modifiers: "&&", def_value: None }]

@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::System::Xml::XmlLinkedNode);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11520))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11513))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11418))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11411))
 // CS Name: ::System.Xml::XmlLinkedNode*
 class CORDL_TYPE XmlLinkedNode : public ::System::Xml::XmlNode {
 public:
@@ -41,13 +41,13 @@ public:
 
   static inline ::System::Xml::XmlLinkedNode* New_ctor(::System::Xml::XmlDocument* doc);
 
-  /// @brief Method .ctor, addr 0x2888008, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x288b670, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlDocument* doc);
 
-  /// @brief Method get_PreviousSibling, addr 0x288a39c, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method get_PreviousSibling, addr 0x288da04, size 0x68, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* get_PreviousSibling();
 
-  /// @brief Method get_NextSibling, addr 0x288a404, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method get_NextSibling, addr 0x288da6c, size 0x50, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* get_NextSibling();
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlLinkedNode", modifiers: "&&", def_value: None }]

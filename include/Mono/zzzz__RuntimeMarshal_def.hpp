@@ -30,22 +30,22 @@ namespace Mono {
 class CORDL_TYPE RuntimeMarshal : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method PtrToUtf8String, addr 0x2412b38, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method PtrToUtf8String, addr 0x2432998, size 0xe4, virtual false, abstract: false, final false
   static inline ::StringW PtrToUtf8String(void* ptr);
 
-  /// @brief Method MarshalString, addr 0x2412c1c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method MarshalString, addr 0x2432a7c, size 0x50, virtual false, abstract: false, final false
   static inline ::Mono::SafeStringMarshal MarshalString(::StringW str);
 
-  /// @brief Method DecodeBlobSize, addr 0x2412ccc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method DecodeBlobSize, addr 0x2432b2c, size 0x80, virtual false, abstract: false, final false
   static inline int32_t DecodeBlobSize(void* in_ptr, ByRef<void*> out_ptr);
 
-  /// @brief Method DecodeBlobArray, addr 0x2412d4c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method DecodeBlobArray, addr 0x2432bac, size 0xb8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DecodeBlobArray(void* ptr);
 
-  /// @brief Method AsciHexDigitValue, addr 0x2412e04, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method AsciHexDigitValue, addr 0x2432c64, size 0x2c, virtual false, abstract: false, final false
   static inline int32_t AsciHexDigitValue(int32_t c);
 
-  /// @brief Method FreeAssemblyName, addr 0x2412e30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method FreeAssemblyName, addr 0x2432c90, size 0x8, virtual false, abstract: false, final false
   static inline void FreeAssemblyName(ByRef<::Mono::MonoAssemblyName> name, bool freeStruct);
 
   // Ctor Parameters [CppParam { name: "", ty: "RuntimeMarshal", modifiers: "&&", def_value: None }]

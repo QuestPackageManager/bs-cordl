@@ -29,7 +29,7 @@ namespace Zenject {
 template <typename TContract>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10847))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9989))
 // CS Name: ::Zenject::DecoratorToChoiceFromBinder`1<TContract>*
 class CORDL_TYPE DecoratorToChoiceFromBinder_1 : public ::System::Object {
 public:

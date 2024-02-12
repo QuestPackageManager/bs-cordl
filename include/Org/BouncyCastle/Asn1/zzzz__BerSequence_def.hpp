@@ -37,30 +37,30 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::BerSequence* getStaticF_Empty();
 
-  /// @brief Method FromVector, addr 0x11ba548, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method FromVector, addr 0x11e73d8, size 0x8c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::BerSequence* FromVector(::Org::BouncyCastle::Asn1::Asn1EncodableVector* elementVector);
 
   static inline ::Org::BouncyCastle::Asn1::BerSequence* New_ctor();
 
-  /// @brief Method .ctor, addr 0x11bde58, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11eace8, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::BerSequence* New_ctor(::Org::BouncyCastle::Asn1::Asn1Encodable* element);
 
-  /// @brief Method .ctor, addr 0x11b83c8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11e5258, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Encodable* element);
 
   static inline ::Org::BouncyCastle::Asn1::BerSequence* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*, ::Array<::Org::BouncyCastle::Asn1::Asn1Encodable*>*> elements);
 
-  /// @brief Method .ctor, addr 0x11bdeac, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11ead3c, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*, ::Array<::Org::BouncyCastle::Asn1::Asn1Encodable*>*> elements);
 
   static inline ::Org::BouncyCastle::Asn1::BerSequence* New_ctor(::Org::BouncyCastle::Asn1::Asn1EncodableVector* elementVector);
 
-  /// @brief Method .ctor, addr 0x11bddf4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11eac84, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1EncodableVector* elementVector);
 
-  /// @brief Method Encode, addr 0x11bdf10, size 0x3ec, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x11eada0, size 0x3ec, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
   // Ctor Parameters [CppParam { name: "", ty: "BerSequence", modifiers: "&&", def_value: None }]

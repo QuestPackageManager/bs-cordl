@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::LeaderboardEntry);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5533))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8995))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4839))
 // CS Name: ::LeaderboardEntry*
 class CORDL_TYPE LeaderboardEntry : public ::UnityEngine::MonoBehaviour {
 public:
@@ -62,12 +62,12 @@ public:
 
   constexpr void __cordl_internal_set__color(::UnityEngine::Color value);
 
-  /// @brief Method SetScore, addr 0x229e66c, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method SetScore, addr 0x23f8ef0, size 0x190, virtual false, abstract: false, final false
   inline void SetScore(int32_t score, ::StringW playerName, int32_t rank, bool highlighted, bool showSeparator);
 
   static inline ::GlobalNamespace::LeaderboardEntry* New_ctor();
 
-  /// @brief Method .ctor, addr 0x229e7fc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23f9080, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LeaderboardEntry", modifiers: "&&", def_value: None }]

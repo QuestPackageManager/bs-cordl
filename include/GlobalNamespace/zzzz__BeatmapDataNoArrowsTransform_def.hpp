@@ -21,15 +21,15 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapDataNoArrowsTransform);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4126))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10584))
 // CS Name: ::BeatmapDataNoArrowsTransform*
 class CORDL_TYPE BeatmapDataNoArrowsTransform : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateTransformedData, addr 0x223a374, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method CreateTransformedData, addr 0x12635d8, size 0xec, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
 
-  /// @brief Method <CreateTransformedData>g__ProcessData|0_0, addr 0x223a460, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method <CreateTransformedData>g__ProcessData|0_0, addr 0x12636c4, size 0xe4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BeatmapDataItem* _CreateTransformedData_g__ProcessData_0_0(::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataNoArrowsTransform", modifiers: "&&", def_value: None }]

@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::System::Reflection::Emit::LocalBuilder);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection::Emit {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3516))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3542))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3512))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3538))
 // CS Name: ::System.Reflection.Emit::LocalBuilder*
 class CORDL_TYPE LocalBuilder : public ::System::Reflection::LocalVariableInfo {
 public:

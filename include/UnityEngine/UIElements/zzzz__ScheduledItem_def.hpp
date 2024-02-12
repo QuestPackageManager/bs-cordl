@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__ScheduledItem____c);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6941))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6200))
 // CS Name: ::ScheduledItem::<>c*
 class CORDL_TYPE __ScheduledItem____c : public ::System::Object {
 public:
@@ -43,13 +43,13 @@ public:
 
   static inline ::UnityEngine::UIElements::__ScheduledItem____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e07990, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e24d78, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <.cctor>b__25_0, addr 0x2e07998, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__25_0, addr 0x2e24d80, size 0x8, virtual false, abstract: false, final false
   inline bool __cctor_b__25_0();
 
-  /// @brief Method <.cctor>b__25_1, addr 0x2e079a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__25_1, addr 0x2e24d88, size 0x8, virtual false, abstract: false, final false
   inline bool __cctor_b__25_1();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ScheduledItem____c", modifiers: "&&", def_value: None }]
@@ -77,7 +77,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Sched
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6942))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6201))
 // CS Name: ::UnityEngine.UIElements::ScheduledItem*
 class CORDL_TYPE ScheduledItem : public ::System::Object {
 public:
@@ -151,42 +151,42 @@ public:
 
   static inline ::System::Func_1<bool>* getStaticF_ForeverCondition();
 
-  /// @brief Method get_startMs, addr 0x2e076e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_startMs, addr 0x2e24ad0, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_startMs();
 
-  /// @brief Method set_startMs, addr 0x2e076f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_startMs, addr 0x2e24ad8, size 0x8, virtual false, abstract: false, final false
   inline void set_startMs(int64_t value);
 
-  /// @brief Method get_delayMs, addr 0x2e076f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_delayMs, addr 0x2e24ae0, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_delayMs();
 
-  /// @brief Method set_delayMs, addr 0x2e07700, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_delayMs, addr 0x2e24ae8, size 0x8, virtual false, abstract: false, final false
   inline void set_delayMs(int64_t value);
 
-  /// @brief Method get_intervalMs, addr 0x2e07708, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_intervalMs, addr 0x2e24af0, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_intervalMs();
 
-  /// @brief Method set_intervalMs, addr 0x2e07710, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_intervalMs, addr 0x2e24af8, size 0x8, virtual false, abstract: false, final false
   inline void set_intervalMs(int64_t value);
 
-  /// @brief Method get_endTimeMs, addr 0x2e07718, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_endTimeMs, addr 0x2e24b00, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_endTimeMs();
 
   static inline ::UnityEngine::UIElements::ScheduledItem* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e07720, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e24b08, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method ResetStartTime, addr 0x2e07794, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ResetStartTime, addr 0x2e24b7c, size 0x5c, virtual false, abstract: false, final false
   inline void ResetStartTime();
 
   /// @brief Method PerformTimerUpdate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void PerformTimerUpdate(::UnityEngine::UIElements::TimerState state);
 
-  /// @brief Method OnItemUnscheduled, addr 0x2e077f0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnItemUnscheduled, addr 0x2e24bd8, size 0x4, virtual true, abstract: false, final false
   inline void OnItemUnscheduled();
 
-  /// @brief Method ShouldUnschedule, addr 0x2e077f4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ShouldUnschedule, addr 0x2e24bdc, size 0x20, virtual true, abstract: false, final false
   inline bool ShouldUnschedule();
 
   // Ctor Parameters [CppParam { name: "", ty: "ScheduledItem", modifiers: "&&", def_value: None }]

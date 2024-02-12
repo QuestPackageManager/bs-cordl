@@ -48,8 +48,8 @@ MARK_REF_PTR_T(::Mono::Net::Security::MobileTlsContext);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8964))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8837))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6974))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6847))
 // CS Name: ::Mono.Net.Security::MobileTlsContext*
 class CORDL_TYPE MobileTlsContext : public ::System::Object {
 public:
@@ -180,31 +180,31 @@ public:
 
   static inline ::Mono::Net::Security::MobileTlsContext* New_ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, ::Mono::Net::Security::MonoSslAuthenticationOptions* options);
 
-  /// @brief Method .ctor, addr 0x281a744, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x281ef2c, size 0x140, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, ::Mono::Net::Security::MonoSslAuthenticationOptions* options);
 
-  /// @brief Method get_Parent, addr 0x2823e9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parent, addr 0x2828684, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Net::Security::MobileAuthenticatedStream* get_Parent();
 
-  /// @brief Method get_Settings, addr 0x281b0d4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Settings, addr 0x281f8bc, size 0x1c, virtual false, abstract: false, final false
   inline ::Mono::Security::Interface::MonoTlsSettings* get_Settings();
 
   /// @brief Method get_IsAuthenticated, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsAuthenticated();
 
-  /// @brief Method get_IsServer, addr 0x2823ea4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsServer, addr 0x282868c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsServer();
 
-  /// @brief Method get_TargetHost, addr 0x2823eac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TargetHost, addr 0x2828694, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_TargetHost();
 
-  /// @brief Method get_ServerName, addr 0x2823eb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ServerName, addr 0x282869c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ServerName();
 
-  /// @brief Method get_AskForClientCertificate, addr 0x2823ebc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AskForClientCertificate, addr 0x28286a4, size 0x8, virtual false, abstract: false, final false
   inline bool get_AskForClientCertificate();
 
-  /// @brief Method get_ClientCertificates, addr 0x2823ec4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ClientCertificates, addr 0x28286ac, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* get_ClientCertificates();
 
   /// @brief Method StartHandshake, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -216,10 +216,10 @@ public:
   /// @brief Method FinishHandshake, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void FinishHandshake();
 
-  /// @brief Method get_LocalServerCertificate, addr 0x2823ecc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LocalServerCertificate, addr 0x28286b4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate* get_LocalServerCertificate();
 
-  /// @brief Method set_LocalServerCertificate, addr 0x2823ed4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LocalServerCertificate, addr 0x28286bc, size 0x8, virtual false, abstract: false, final false
   inline void set_LocalServerCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate* value);
 
   /// @brief Method get_LocalClientCertificate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -240,22 +240,22 @@ public:
   /// @brief Method PendingRenegotiation, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool PendingRenegotiation();
 
-  /// @brief Method ValidateCertificate, addr 0x281b45c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ValidateCertificate, addr 0x281fc44, size 0x50, virtual false, abstract: false, final false
   inline bool ValidateCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate2* leaf, ::System::Security::Cryptography::X509Certificates::X509Chain* chain);
 
-  /// @brief Method SelectClientCertificate, addr 0x281c5a4, size 0x504, virtual false, abstract: false, final false
+  /// @brief Method SelectClientCertificate, addr 0x2820d8c, size 0x504, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate* SelectClientCertificate(::ArrayW<::StringW, ::Array<::StringW>*> acceptableIssuers);
 
   /// @brief Method Renegotiate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Renegotiate();
 
-  /// @brief Method Dispose, addr 0x282211c, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2826904, size 0x70, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x2823edc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x28286c4, size 0x4, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Finalize, addr 0x2823ee0, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x28286c8, size 0xa4, virtual true, abstract: false, final false
   inline void Finalize();
 
   // Ctor Parameters [CppParam { name: "", ty: "MobileTlsContext", modifiers: "&&", def_value: None }]

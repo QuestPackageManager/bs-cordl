@@ -30,40 +30,40 @@ MARK_REF_PTR_T(::UnityEngine::Tilemaps::TileBase);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Tilemaps {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15947))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8954))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16070))
 // CS Name: ::UnityEngine.Tilemaps::TileBase*
 class CORDL_TYPE TileBase : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
-  /// @brief Method RefreshTile, addr 0x2d50654, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method RefreshTile, addr 0x2d6ea3c, size 0x18, virtual true, abstract: false, final false
   inline void RefreshTile(::UnityEngine::Vector3Int position, ::UnityEngine::Tilemaps::ITilemap* tilemap);
 
-  /// @brief Method GetTileData, addr 0x2d507d0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method GetTileData, addr 0x2d6ebb8, size 0x4, virtual true, abstract: false, final false
   inline void GetTileData(::UnityEngine::Vector3Int position, ::UnityEngine::Tilemaps::ITilemap* tilemap, ByRef<::UnityEngine::Tilemaps::TileData> tileData);
 
-  /// @brief Method GetTileDataNoRef, addr 0x2d507d4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetTileDataNoRef, addr 0x2d6ebbc, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::Tilemaps::TileData GetTileDataNoRef(::UnityEngine::Vector3Int position, ::UnityEngine::Tilemaps::ITilemap* tilemap);
 
-  /// @brief Method GetTileAnimationData, addr 0x2d50820, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetTileAnimationData, addr 0x2d6ec08, size 0x8, virtual true, abstract: false, final false
   inline bool GetTileAnimationData(::UnityEngine::Vector3Int position, ::UnityEngine::Tilemaps::ITilemap* tilemap, ByRef<::UnityEngine::Tilemaps::TileAnimationData> tileAnimationData);
 
-  /// @brief Method GetTileAnimationDataNoRef, addr 0x2d50828, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetTileAnimationDataNoRef, addr 0x2d6ec10, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::Tilemaps::TileAnimationData GetTileAnimationDataNoRef(::UnityEngine::Vector3Int position, ::UnityEngine::Tilemaps::ITilemap* tilemap);
 
-  /// @brief Method GetTileAnimationDataRef, addr 0x2d50858, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetTileAnimationDataRef, addr 0x2d6ec40, size 0x28, virtual false, abstract: false, final false
   inline void GetTileAnimationDataRef(::UnityEngine::Vector3Int position, ::UnityEngine::Tilemaps::ITilemap* tilemap, ByRef<::UnityEngine::Tilemaps::TileAnimationData> tileAnimationData,
                                       ByRef<bool> hasAnimation);
 
-  /// @brief Method StartUp, addr 0x2d50880, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method StartUp, addr 0x2d6ec68, size 0x8, virtual true, abstract: false, final false
   inline bool StartUp(::UnityEngine::Vector3Int position, ::UnityEngine::Tilemaps::ITilemap* tilemap, ::UnityEngine::GameObject* go);
 
-  /// @brief Method StartUpRef, addr 0x2d50888, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method StartUpRef, addr 0x2d6ec70, size 0x28, virtual false, abstract: false, final false
   inline void StartUpRef(::UnityEngine::Vector3Int position, ::UnityEngine::Tilemaps::ITilemap* tilemap, ::UnityEngine::GameObject* go, ByRef<bool> startUpInvokedByUser);
 
   static inline ::UnityEngine::Tilemaps::TileBase* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d5064c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d6ea34, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TileBase", modifiers: "&&", def_value: None }]

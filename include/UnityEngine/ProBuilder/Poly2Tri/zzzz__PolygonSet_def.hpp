@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Poly2Tri::PolygonSet);
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15322))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15482))
 // CS Name: ::UnityEngine.ProBuilder.Poly2Tri::PolygonSet*
 class CORDL_TYPE PolygonSet : public ::System::Object {
 public:
@@ -42,18 +42,18 @@ public:
 
   static inline ::UnityEngine::ProBuilder::Poly2Tri::PolygonSet* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2b2f200, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b2dd6c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::ProBuilder::Poly2Tri::PolygonSet* New_ctor(::UnityEngine::ProBuilder::Poly2Tri::Polygon* poly);
 
-  /// @brief Method .ctor, addr 0x2b2f27c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b2dde8, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ProBuilder::Poly2Tri::Polygon* poly);
 
-  /// @brief Method Add, addr 0x2b2f380, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x2b2deec, size 0xa8, virtual false, abstract: false, final false
   inline void Add(::UnityEngine::ProBuilder::Poly2Tri::Polygon* p);
 
-  /// @brief Method get_Polygons, addr 0x2b2f428, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Polygons, addr 0x2b2df94, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Poly2Tri::Polygon*>* get_Polygons();
 
   // Ctor Parameters [CppParam { name: "", ty: "PolygonSet", modifiers: "&&", def_value: None }]

@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::System::ComponentModel::SettingsBindableAttribute);
 namespace System::ComponentModel {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9454))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7464))
 // CS Name: ::System.ComponentModel::SettingsBindableAttribute*
 class CORDL_TYPE SettingsBindableAttribute : public ::System::Attribute {
 public:
@@ -51,16 +51,16 @@ public:
 
   static inline ::System::ComponentModel::SettingsBindableAttribute* New_ctor(bool bindable);
 
-  /// @brief Method .ctor, addr 0x291820c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x291c874, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool bindable);
 
-  /// @brief Method get_Bindable, addr 0x2918234, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Bindable, addr 0x291c89c, size 0x8, virtual false, abstract: false, final false
   inline bool get_Bindable();
 
-  /// @brief Method Equals, addr 0x291823c, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x291c8a4, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x29182c8, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x291c930, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "SettingsBindableAttribute", modifiers: "&&", def_value: None }]

@@ -24,12 +24,12 @@ MARK_REF_PTR_T(::Oculus::Platform::Avatar);
 namespace Oculus::Platform {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13358))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13284))
 // CS Name: ::Oculus.Platform::Avatar*
 class CORDL_TYPE Avatar : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method LaunchAvatarEditor, addr 0x26fc8c4, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method LaunchAvatarEditor, addr 0x272bc08, size 0x1a0, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AvatarEditorResult*>* LaunchAvatarEditor(::Oculus::Platform::AvatarEditorOptions* options);
 
   // Ctor Parameters [CppParam { name: "", ty: "Avatar", modifiers: "&&", def_value: None }]

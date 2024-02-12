@@ -55,16 +55,16 @@ public:
   /// @brief Method GetEncoding, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Text::Encoding* GetEncoding(int32_t codepage);
 
-  /// @brief Method GetEncoding, addr 0x243840c, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method GetEncoding, addr 0x2458270, size 0xfc, virtual true, abstract: false, final false
   inline ::System::Text::Encoding* GetEncoding(int32_t codepage, ::System::Text::EncoderFallback* encoderFallback, ::System::Text::DecoderFallback* decoderFallback);
 
-  /// @brief Method GetEncodingFromProvider, addr 0x2438508, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetEncodingFromProvider, addr 0x245836c, size 0xdc, virtual false, abstract: false, final false
   static inline ::System::Text::Encoding* GetEncodingFromProvider(int32_t codepage);
 
-  /// @brief Method GetEncodingFromProvider, addr 0x24385e4, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetEncodingFromProvider, addr 0x2458448, size 0xdc, virtual false, abstract: false, final false
   static inline ::System::Text::Encoding* GetEncodingFromProvider(::StringW encodingName);
 
-  /// @brief Method GetEncodingFromProvider, addr 0x24386c0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetEncodingFromProvider, addr 0x2458524, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::Text::Encoding* GetEncodingFromProvider(int32_t codepage, ::System::Text::EncoderFallback* enc, ::System::Text::DecoderFallback* dec);
 
   // Ctor Parameters [CppParam { name: "", ty: "EncodingProvider", modifiers: "&&", def_value: None }]

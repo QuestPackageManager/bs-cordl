@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::GlobalNamespace::PCAppInit);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15392))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4035))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15439))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3980))
 // CS Name: ::PCAppInit*
 class CORDL_TYPE PCAppInit : public ::GlobalNamespace::AppInit {
 public:
@@ -67,21 +67,21 @@ public:
 
   constexpr void __cordl_internal_set__goStraightToEditorCommandArgument(::StringW value);
 
-  /// @brief Method AppStartAndMultiSceneEditorSetup, addr 0x2229668, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method AppStartAndMultiSceneEditorSetup, addr 0x22b2c50, size 0x68, virtual true, abstract: false, final false
   inline void AppStartAndMultiSceneEditorSetup();
 
-  /// @brief Method RepeatableSetupAsync, addr 0x22296d0, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method RepeatableSetupAsync, addr 0x22b2cb8, size 0x9c, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* RepeatableSetupAsync();
 
-  /// @brief Method TransitionToNextScene, addr 0x222976c, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method TransitionToNextScene, addr 0x22b2d54, size 0xd4, virtual true, abstract: false, final false
   inline void TransitionToNextScene();
 
-  /// @brief Method InstallBindings, addr 0x2229840, size 0x1ec, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x22b2e28, size 0x19c, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::PCAppInit* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2229a2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b2fc4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PCAppInit", modifiers: "&&", def_value: None }]

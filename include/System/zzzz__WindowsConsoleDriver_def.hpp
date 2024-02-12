@@ -73,22 +73,22 @@ public:
 
   static inline ::System::WindowsConsoleDriver* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2609554, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x262e45c, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method ReadKey, addr 0x26096c0, size 0x140, virtual true, abstract: false, final true
+  /// @brief Method ReadKey, addr 0x262e5c8, size 0x140, virtual true, abstract: false, final true
   inline ::System::ConsoleKeyInfo ReadKey(bool intercept);
 
-  /// @brief Method IsModifierKey, addr 0x2609908, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method IsModifierKey, addr 0x262e810, size 0x34, virtual false, abstract: false, final false
   static inline bool IsModifierKey(int16_t virtualKeyCode);
 
-  /// @brief Method GetStdHandle, addr 0x26095a8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetStdHandle, addr 0x262e4b0, size 0x84, virtual false, abstract: false, final false
   static inline void* GetStdHandle(::System::Handles handle);
 
-  /// @brief Method GetConsoleScreenBufferInfo, addr 0x260962c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetConsoleScreenBufferInfo, addr 0x262e534, size 0x94, virtual false, abstract: false, final false
   static inline bool GetConsoleScreenBufferInfo(void* handle, ByRef<::System::ConsoleScreenBufferInfo> info);
 
-  /// @brief Method ReadConsoleInput, addr 0x2609800, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method ReadConsoleInput, addr 0x262e708, size 0x108, virtual false, abstract: false, final false
   static inline bool ReadConsoleInput(void* handle, ByRef<::System::InputRecord> record, int32_t length, ByRef<int32_t> nread);
 
   // Ctor Parameters [CppParam { name: "", ty: "WindowsConsoleDriver", modifiers: "&&", def_value: None }]

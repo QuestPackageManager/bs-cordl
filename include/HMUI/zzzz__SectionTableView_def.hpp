@@ -52,7 +52,7 @@ MARK_VAL_T(::HMUI::__SectionTableView__Section);
 namespace HMUI {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13661))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13614))
 // CS Name: ::SectionTableView::IDataSource*
 class CORDL_TYPE __SectionTableView__IDataSource {
 public:
@@ -89,7 +89,7 @@ public:
 namespace HMUI {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13662))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13615))
 // CS Name: ::SectionTableView::Section
 struct CORDL_TYPE __SectionTableView__Section {
 public:
@@ -130,8 +130,8 @@ static_assert(offsetof(::HMUI::__SectionTableView__Section, numberOfBaseRows) ==
 // SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 200, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13669))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13663))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13622))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13616))
 // CS Name: ::HMUI::SectionTableView*
 class CORDL_TYPE SectionTableView : public ::HMUI::TableView {
 public:
@@ -196,66 +196,66 @@ public:
 
   constexpr void __cordl_internal_set__sections(::ArrayW<::HMUI::__SectionTableView__Section, ::Array<::HMUI::__SectionTableView__Section>*> value);
 
-  /// @brief Method add_didSelectRowInSectionEvent, addr 0x2146fdc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didSelectRowInSectionEvent, addr 0x21db8c0, size 0xb0, virtual false, abstract: false, final false
   inline void add_didSelectRowInSectionEvent(::System::Action_3<::UnityW<::HMUI::SectionTableView>, int32_t, int32_t>* value);
 
-  /// @brief Method remove_didSelectRowInSectionEvent, addr 0x214708c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSelectRowInSectionEvent, addr 0x21db970, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didSelectRowInSectionEvent(::System::Action_3<::UnityW<::HMUI::SectionTableView>, int32_t, int32_t>* value);
 
-  /// @brief Method add_didSelectHeaderEvent, addr 0x214713c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didSelectHeaderEvent, addr 0x21dba20, size 0xb0, virtual false, abstract: false, final false
   inline void add_didSelectHeaderEvent(::System::Action_2<::UnityW<::HMUI::SectionTableView>, int32_t>* value);
 
-  /// @brief Method remove_didSelectHeaderEvent, addr 0x21471ec, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSelectHeaderEvent, addr 0x21dbad0, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didSelectHeaderEvent(::System::Action_2<::UnityW<::HMUI::SectionTableView>, int32_t>* value);
 
-  /// @brief Method get_dataSource, addr 0x214729c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dataSource, addr 0x21dbb80, size 0x8, virtual false, abstract: false, final false
   inline ::HMUI::__SectionTableView__IDataSource* get_dataSource();
 
-  /// @brief Method set_dataSource, addr 0x21472a4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_dataSource, addr 0x21dbb88, size 0x24, virtual false, abstract: false, final false
   inline void set_dataSource(::HMUI::__SectionTableView__IDataSource* value);
 
-  /// @brief Method IsSectionUnfolded, addr 0x21472c8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method IsSectionUnfolded, addr 0x21dbbac, size 0x34, virtual false, abstract: false, final false
   inline bool IsSectionUnfolded(int32_t section);
 
-  /// @brief Method CellSize, addr 0x21472fc, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method CellSize, addr 0x21dbbe0, size 0xa0, virtual true, abstract: false, final true
   inline float_t CellSize();
 
-  /// @brief Method NumberOfCells, addr 0x214739c, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method NumberOfCells, addr 0x21dbc80, size 0x48, virtual true, abstract: false, final true
   inline int32_t NumberOfCells();
 
-  /// @brief Method CellForIdx, addr 0x21473e4, size 0x184, virtual true, abstract: false, final true
+  /// @brief Method CellForIdx, addr 0x21dbcc8, size 0x184, virtual true, abstract: false, final true
   inline ::UnityW<::HMUI::TableCell> CellForIdx(::HMUI::TableView* tableView, int32_t baseRow);
 
-  /// @brief Method ReloadData, addr 0x2147648, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ReloadData, addr 0x21dbf2c, size 0x8, virtual true, abstract: false, final false
   inline void ReloadData();
 
-  /// @brief Method ReloadData, addr 0x2147650, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method ReloadData, addr 0x21dbf34, size 0x210, virtual false, abstract: false, final false
   inline void ReloadData(bool resetFoldState);
 
-  /// @brief Method DidSelectCellWithIdx, addr 0x2147b94, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method DidSelectCellWithIdx, addr 0x21dc478, size 0x7c, virtual true, abstract: false, final false
   inline void DidSelectCellWithIdx(int32_t baseRow);
 
-  /// @brief Method UnfoldAllSections, addr 0x2147c10, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method UnfoldAllSections, addr 0x21dc4f4, size 0x58, virtual false, abstract: false, final false
   inline void UnfoldAllSections();
 
-  /// @brief Method FoldAll, addr 0x2147c68, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method FoldAll, addr 0x21dc54c, size 0x54, virtual false, abstract: false, final false
   inline void FoldAll();
 
-  /// @brief Method UnfoldSection, addr 0x2147cbc, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method UnfoldSection, addr 0x21dc5a0, size 0x16c, virtual false, abstract: false, final false
   inline void UnfoldSection(int32_t section);
 
-  /// @brief Method FoldSection, addr 0x21481d8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method FoldSection, addr 0x21dcabc, size 0xa8, virtual false, abstract: false, final false
   inline void FoldSection(int32_t section);
 
-  /// @brief Method ScrollToRow, addr 0x21485ec, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ScrollToRow, addr 0x21dced0, size 0x44, virtual false, abstract: false, final false
   inline void ScrollToRow(int32_t section, int32_t row, ::HMUI::__TableView__ScrollPositionType scrollPositionType, bool animated);
 
-  /// @brief Method SectionAndRowForBaseRow, addr 0x2147568, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method SectionAndRowForBaseRow, addr 0x21dbe4c, size 0xe0, virtual false, abstract: false, final false
   inline void SectionAndRowForBaseRow(int32_t baseRow, ByRef<int32_t> section, ByRef<int32_t> row, ByRef<bool> isSectionHeader);
 
   static inline ::HMUI::SectionTableView* New_ctor();
 
-  /// @brief Method .ctor, addr 0x214870c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21dcff0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SectionTableView", modifiers: "&&", def_value: None }]

@@ -47,44 +47,44 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::TextUtilities);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7147))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6406))
 // CS Name: ::UnityEngine.UIElements::TextUtilities*
 class CORDL_TYPE TextUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ComputeTextScaling, addr 0x2e468dc, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ComputeTextScaling, addr 0x2e61cc4, size 0xfc, virtual false, abstract: false, final false
   static inline float_t ComputeTextScaling(::UnityEngine::Matrix4x4 worldMatrix, float_t pixelsPerPoint);
 
-  /// @brief Method MeasureVisualElementTextSize, addr 0x2e469d8, size 0x464, virtual false, abstract: false, final false
+  /// @brief Method MeasureVisualElementTextSize, addr 0x2e61dc0, size 0x464, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 MeasureVisualElementTextSize(::UnityEngine::UIElements::VisualElement* ve, ::StringW textToMeasure, float_t width,
                                                                     ::UnityEngine::UIElements::__VisualElement__MeasureMode widthMode, float_t height,
                                                                     ::UnityEngine::UIElements::__VisualElement__MeasureMode heightMode, ::UnityEngine::UIElements::ITextHandle* textHandle);
 
-  /// @brief Method GetFontAsset, addr 0x2e46220, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method GetFontAsset, addr 0x2e61608, size 0x128, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> GetFontAsset(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams textParam);
 
-  /// @brief Method GetFontAsset, addr 0x2e46f0c, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method GetFontAsset, addr 0x2e622f4, size 0x16c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> GetFontAsset(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method GetFont, addr 0x2e4713c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetFont, addr 0x2e62524, size 0xf0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Font> GetFont(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams textParam);
 
-  /// @brief Method GetFont, addr 0x2e4722c, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method GetFont, addr 0x2e62614, size 0x15c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Font> GetFont(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method IsFontAssigned, addr 0x2e46e3c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method IsFontAssigned, addr 0x2e62224, size 0xc8, virtual false, abstract: false, final false
   static inline bool IsFontAssigned(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method IsFontAssigned, addr 0x2e47388, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method IsFontAssigned, addr 0x2e62770, size 0x84, virtual false, abstract: false, final false
   static inline bool IsFontAssigned(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams textParams);
 
-  /// @brief Method GetTextSettingsFrom, addr 0x2e47078, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method GetTextSettingsFrom, addr 0x2e62460, size 0xc4, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::UIElements::PanelTextSettings> GetTextSettingsFrom(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method GetTextSettingsFrom, addr 0x2e46168, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetTextSettingsFrom, addr 0x2e61550, size 0xb8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::UIElements::PanelTextSettings> GetTextSettingsFrom(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams textParam);
 
-  /// @brief Method GetTextCoreSettingsForElement, addr 0x2e47540, size 0x3b4, virtual false, abstract: false, final false
+  /// @brief Method GetTextCoreSettingsForElement, addr 0x2e62928, size 0x3b4, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::UIR::TextCoreSettings GetTextCoreSettingsForElement(::UnityEngine::UIElements::VisualElement* ve);
 
   // Ctor Parameters [CppParam { name: "", ty: "TextUtilities", modifiers: "&&", def_value: None }]

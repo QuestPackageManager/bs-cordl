@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::Unity::Collections::LowLevel::Unsafe::NativeSetThreadIndexAttri
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10020))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8751))
 // CS Name: ::Unity.Collections.LowLevel.Unsafe::NativeSetThreadIndexAttribute*
 class CORDL_TYPE NativeSetThreadIndexAttribute : public ::System::Attribute {
 public:

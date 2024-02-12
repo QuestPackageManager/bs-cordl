@@ -52,27 +52,27 @@ public:
   /// @brief Method get_Remaining, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_Remaining();
 
-  /// @brief Method Reset, addr 0x2631468, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x265758c, size 0x28, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method InternalReset, addr 0x262fc8c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method InternalReset, addr 0x2655db0, size 0x10, virtual false, abstract: false, final false
   inline void InternalReset();
 
-  /// @brief Method InternalInitialize, addr 0x262f9fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InternalInitialize, addr 0x2655b20, size 0x8, virtual false, abstract: false, final false
   inline void InternalInitialize(::cordl_internals::Ptr<uint8_t> byteStart, ::cordl_internals::Ptr<char16_t> charEnd);
 
-  /// @brief Method InternalFallback, addr 0x2631490, size 0x190, virtual true, abstract: false, final false
+  /// @brief Method InternalFallback, addr 0x26575b4, size 0x190, virtual true, abstract: false, final false
   inline bool InternalFallback(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, ::cordl_internals::Ptr<uint8_t> pBytes, ByRef<::cordl_internals::Ptr<char16_t>> chars);
 
-  /// @brief Method InternalFallback, addr 0x2631620, size 0x170, virtual true, abstract: false, final false
+  /// @brief Method InternalFallback, addr 0x2657744, size 0x170, virtual true, abstract: false, final false
   inline int32_t InternalFallback(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, ::cordl_internals::Ptr<uint8_t> pBytes);
 
-  /// @brief Method ThrowLastBytesRecursive, addr 0x2631790, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method ThrowLastBytesRecursive, addr 0x26578b4, size 0x1fc, virtual false, abstract: false, final false
   inline void ThrowLastBytesRecursive(::ArrayW<uint8_t, ::Array<uint8_t>*> bytesUnknown);
 
   static inline ::System::Text::DecoderFallbackBuffer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2630e38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2656f5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DecoderFallbackBuffer", modifiers: "&&", def_value: None }]

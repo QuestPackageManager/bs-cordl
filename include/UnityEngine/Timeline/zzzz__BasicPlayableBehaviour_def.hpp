@@ -42,8 +42,8 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::BasicPlayableBehaviour);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13903))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8954))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13856))
 // CS Name: ::UnityEngine.Timeline::BasicPlayableBehaviour*
 class CORDL_TYPE BasicPlayableBehaviour : public ::UnityEngine::ScriptableObject {
 public:
@@ -64,42 +64,42 @@ public:
   /// @brief Convert to "::UnityEngine::Playables::IPlayableBehaviour"
   constexpr ::UnityEngine::Playables::IPlayableBehaviour* i___UnityEngine__Playables__IPlayableBehaviour() noexcept;
 
-  /// @brief Method get_duration, addr 0x2c6a644, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_duration, addr 0x2c681b0, size 0x58, virtual true, abstract: false, final false
   inline double_t get_duration();
 
-  /// @brief Method get_outputs, addr 0x2c6a69c, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_outputs, addr 0x2c68208, size 0x58, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>* get_outputs();
 
-  /// @brief Method OnGraphStart, addr 0x2c6a6f4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnGraphStart, addr 0x2c68260, size 0x4, virtual true, abstract: false, final false
   inline void OnGraphStart(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method OnGraphStop, addr 0x2c6a6f8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnGraphStop, addr 0x2c68264, size 0x4, virtual true, abstract: false, final false
   inline void OnGraphStop(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method OnPlayableCreate, addr 0x2c6a6fc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnPlayableCreate, addr 0x2c68268, size 0x4, virtual true, abstract: false, final false
   inline void OnPlayableCreate(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method OnPlayableDestroy, addr 0x2c6a700, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnPlayableDestroy, addr 0x2c6826c, size 0x4, virtual true, abstract: false, final false
   inline void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method OnBehaviourPlay, addr 0x2c6a704, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnBehaviourPlay, addr 0x2c68270, size 0x4, virtual true, abstract: false, final false
   inline void OnBehaviourPlay(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method OnBehaviourPause, addr 0x2c6a708, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnBehaviourPause, addr 0x2c68274, size 0x4, virtual true, abstract: false, final false
   inline void OnBehaviourPause(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method PrepareFrame, addr 0x2c6a70c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method PrepareFrame, addr 0x2c68278, size 0x4, virtual true, abstract: false, final false
   inline void PrepareFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method ProcessFrame, addr 0x2c6a710, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ProcessFrame, addr 0x2c6827c, size 0x4, virtual true, abstract: false, final false
   inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* playerData);
 
-  /// @brief Method CreatePlayable, addr 0x2c6a714, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method CreatePlayable, addr 0x2c68280, size 0xa4, virtual true, abstract: false, final false
   inline ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* owner);
 
   static inline ::UnityEngine::Timeline::BasicPlayableBehaviour* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c6a7b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c68324, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BasicPlayableBehaviour", modifiers: "&&", def_value: None }]

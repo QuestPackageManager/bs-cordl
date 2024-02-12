@@ -41,7 +41,7 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::WarningHeaderValue);
 namespace System::Net::Http::Headers {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2370)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 2702 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14711)) CS Name:
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 2672 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14716)) CS Name:
 // ::System.Net.Http.Headers::WarningHeaderValue*
 class CORDL_TYPE WarningHeaderValue : public ::System::Object {
 public:
@@ -98,52 +98,52 @@ public:
 
   static inline ::System::Net::Http::Headers::WarningHeaderValue* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2842ca4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x284730c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Agent, addr 0x2842cac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Agent, addr 0x2847314, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Agent();
 
-  /// @brief Method set_Agent, addr 0x2842cb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Agent, addr 0x284731c, size 0x8, virtual false, abstract: false, final false
   inline void set_Agent(::StringW value);
 
-  /// @brief Method get_Code, addr 0x2842cbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Code, addr 0x2847324, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Code();
 
-  /// @brief Method set_Code, addr 0x2842cc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Code, addr 0x284732c, size 0x8, virtual false, abstract: false, final false
   inline void set_Code(int32_t value);
 
-  /// @brief Method get_Date, addr 0x2842ccc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_Date, addr 0x2847334, size 0x14, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::System::DateTimeOffset> get_Date();
 
-  /// @brief Method set_Date, addr 0x2842ce0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_Date, addr 0x2847348, size 0x14, virtual false, abstract: false, final false
   inline void set_Date(::System::Nullable_1<::System::DateTimeOffset> value);
 
-  /// @brief Method get_Text, addr 0x2842cf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Text, addr 0x284735c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Text();
 
-  /// @brief Method set_Text, addr 0x2842cfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Text, addr 0x2847364, size 0x8, virtual false, abstract: false, final false
   inline void set_Text(::StringW value);
 
-  /// @brief Method IsCodeValid, addr 0x2842d04, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsCodeValid, addr 0x284736c, size 0xc, virtual false, abstract: false, final false
   static inline bool IsCodeValid(int32_t code);
 
-  /// @brief Method System.ICloneable.Clone, addr 0x2842d10, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.ICloneable.Clone, addr 0x2847378, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method Equals, addr 0x2842d18, size 0x158, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2847380, size 0x158, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2842e70, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x28474d8, size 0xe0, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method TryParse, addr 0x2842f50, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x28475b8, size 0xb0, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, int32_t minimalCount, ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::WarningHeaderValue*>*> result);
 
-  /// @brief Method TryParseElement, addr 0x2843000, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method TryParseElement, addr 0x2847668, size 0x28c, virtual false, abstract: false, final false
   static inline bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ByRef<::System::Net::Http::Headers::WarningHeaderValue*> parsedValue, ByRef<::System::Net::Http::Headers::Token> t);
 
-  /// @brief Method ToString, addr 0x284328c, size 0x12a8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x28478f4, size 0x12a8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "WarningHeaderValue", modifiers: "&&", def_value: None }]

@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerResultsData);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5242))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10936))
 // CS Name: ::MultiplayerResultsData*
 class CORDL_TYPE MultiplayerResultsData : public ::System::Object {
 public:
@@ -87,16 +87,16 @@ public:
 
   constexpr void __cordl_internal_set__allPlayersSortedData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* value);
 
-  /// @brief Method get_gameId, addr 0x2257e10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameId, addr 0x12a0878, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_gameId();
 
-  /// @brief Method get_localPlayerResultData, addr 0x2257e18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_localPlayerResultData, addr 0x12a0880, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerPlayerResultsData* get_localPlayerResultData();
 
-  /// @brief Method get_otherPlayersData, addr 0x2257e20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_otherPlayersData, addr 0x12a0888, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* get_otherPlayersData();
 
-  /// @brief Method get_allPlayersSortedData, addr 0x2257e28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_allPlayersSortedData, addr 0x12a0890, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* get_allPlayersSortedData();
 
   static inline ::GlobalNamespace::MultiplayerResultsData*
@@ -104,7 +104,7 @@ public:
            ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>* otherPlayersResultData,
            ::GlobalNamespace::MultiplayerBadgesProvider* badgesProvider, ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager);
 
-  /// @brief Method .ctor, addr 0x2247900, size 0x54c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12a0898, size 0x548, virtual false, abstract: false, final false
   inline void _ctor(::StringW gameId, ::GlobalNamespace::MultiplayerLevelCompletionResults* localPlayerResultData,
                     ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>* otherPlayersResultData,
                     ::GlobalNamespace::MultiplayerBadgesProvider* badgesProvider, ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager);

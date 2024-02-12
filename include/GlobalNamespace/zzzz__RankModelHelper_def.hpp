@@ -25,12 +25,12 @@ MARK_REF_PTR_T(::GlobalNamespace::RankModelHelper);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4662))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11068))
 // CS Name: ::RankModelHelper*
 class CORDL_TYPE RankModelHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method MaxRankForGameplayModifiers, addr 0x2373270, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method MaxRankForGameplayModifiers, addr 0x12b8854, size 0x68, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__RankModel__Rank MaxRankForGameplayModifiers(::GlobalNamespace::GameplayModifiers* gameplayModifiers,
                                                                                  ::GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel, float_t energy);
 

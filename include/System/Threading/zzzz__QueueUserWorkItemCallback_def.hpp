@@ -85,16 +85,16 @@ public:
   static inline ::System::Threading::QueueUserWorkItemCallback* New_ctor(::System::Threading::WaitCallback* waitCallback, ::System::Object* stateObj, bool compressStack,
                                                                          ByRef<::System::Threading::StackCrawlMark> stackMark);
 
-  /// @brief Method .ctor, addr 0x261c2f4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2642470, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::WaitCallback* waitCallback, ::System::Object* stateObj, bool compressStack, ByRef<::System::Threading::StackCrawlMark> stackMark);
 
-  /// @brief Method System.Threading.IThreadPoolWorkItem.ExecuteWorkItem, addr 0x261c3ac, size 0xd8, virtual true, abstract: false, final true
+  /// @brief Method System.Threading.IThreadPoolWorkItem.ExecuteWorkItem, addr 0x2642528, size 0xd8, virtual true, abstract: false, final true
   inline void System_Threading_IThreadPoolWorkItem_ExecuteWorkItem();
 
-  /// @brief Method System.Threading.IThreadPoolWorkItem.MarkAborted, addr 0x261c484, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Threading.IThreadPoolWorkItem.MarkAborted, addr 0x2642600, size 0x4, virtual true, abstract: false, final true
   inline void System_Threading_IThreadPoolWorkItem_MarkAborted(::System::Threading::ThreadAbortException* tae);
 
-  /// @brief Method WaitCallback_Context, addr 0x261c488, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method WaitCallback_Context, addr 0x2642604, size 0x78, virtual false, abstract: false, final false
   static inline void WaitCallback_Context(::System::Object* state);
 
   // Ctor Parameters [CppParam { name: "", ty: "QueueUserWorkItemCallback", modifiers: "&&", def_value: None }]

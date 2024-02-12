@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::AnimatorControllerParameterType);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14873))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14746))
 // CS Name: ::UnityEngine::AnimatorControllerParameterType
 struct CORDL_TYPE AnimatorControllerParameterType {
 public:

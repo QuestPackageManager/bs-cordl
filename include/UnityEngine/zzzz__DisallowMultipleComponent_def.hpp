@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::UnityEngine::DisallowMultipleComponent);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10213))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8957))
 // CS Name: ::UnityEngine::DisallowMultipleComponent*
 class CORDL_TYPE DisallowMultipleComponent : public ::System::Attribute {
 public:
   // Declarations
   static inline ::UnityEngine::DisallowMultipleComponent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2cd2764, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cd970c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DisallowMultipleComponent", modifiers: "&&", def_value: None }]

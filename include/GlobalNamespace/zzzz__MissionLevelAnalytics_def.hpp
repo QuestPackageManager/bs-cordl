@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionLevelAnalytics);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4018))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3960))
 // CS Name: ::MissionLevelAnalytics*
 class CORDL_TYPE MissionLevelAnalytics : public ::UnityEngine::MonoBehaviour {
 public:
@@ -48,19 +48,19 @@ public:
 
   constexpr void __cordl_internal_set__analyticsModel(::GlobalNamespace::IAnalyticsModel* value);
 
-  /// @brief Method Start, addr 0x222415c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x22adc68, size 0x8c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy, addr 0x22241e8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x22adcf4, size 0x8c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleMissionLevelDidFinishEvent, addr 0x2224274, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method HandleMissionLevelDidFinishEvent, addr 0x22add80, size 0x21c, virtual false, abstract: false, final false
   inline void HandleMissionLevelDidFinishEvent(::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* missionLevelScenesTransitionSetupData,
                                                ::GlobalNamespace::MissionCompletionResults* missionCompletionResults);
 
   static inline ::GlobalNamespace::MissionLevelAnalytics* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2224490, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22adf9c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionLevelAnalytics", modifiers: "&&", def_value: None }]

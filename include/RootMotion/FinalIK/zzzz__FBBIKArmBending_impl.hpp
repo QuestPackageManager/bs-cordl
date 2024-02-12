@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::FBBIKArmBending::*)()>(&::RootMotion::FinalIK::FBBIKArmBending::LateUpdate)> {
   constexpr static std::size_t size = 0x49c;
-  constexpr static std::size_t addrs = 0x1251204;
+  constexpr static std::size_t addrs = 0x12eb2b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::FBBIKArmBending*>::get(), "LateUpdate",
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::FBBIKArmBending::*)()>(&::RootMotion::FinalIK::FBBIKArmBending::OnPostFBBIK)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x12516a0;
+  constexpr static std::size_t addrs = 0x12eb750;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::FBBIKArmBending*>::get(), "OnPostFBBIK",
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::FBBIKArmBending::*)()>(&::RootMotion::FinalIK::FBBIKArmBending::OnDestroy)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x1251834;
+  constexpr static std::size_t addrs = 0x12eb8e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::FBBIKArmBending*>::get(), "OnDestroy",
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::FBBIKArmBending::*)()>(&::RootMotion::FinalIK::FBBIKArmBending::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1251940;
+  constexpr static std::size_t addrs = 0x12eb9f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::FBBIKArmBending*>::get(), ".ctor",

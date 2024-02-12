@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::DefaultGroupManager);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6861))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6120))
 // CS Name: ::UnityEngine.UIElements::DefaultGroupManager*
 class CORDL_TYPE DefaultGroupManager : public ::System::Object {
 public:
@@ -54,18 +54,18 @@ public:
 
   constexpr void __cordl_internal_set_m_SelectedOption(::UnityEngine::UIElements::IGroupBoxOption* value);
 
-  /// @brief Method OnOptionSelectionChanged, addr 0x2dc839c, size 0x1d0, virtual true, abstract: false, final true
+  /// @brief Method OnOptionSelectionChanged, addr 0x2de6784, size 0x1d0, virtual true, abstract: false, final true
   inline void OnOptionSelectionChanged(::UnityEngine::UIElements::IGroupBoxOption* selectedOption);
 
-  /// @brief Method RegisterOption, addr 0x2dc856c, size 0xd4, virtual true, abstract: false, final true
+  /// @brief Method RegisterOption, addr 0x2de6954, size 0xd4, virtual true, abstract: false, final true
   inline void RegisterOption(::UnityEngine::UIElements::IGroupBoxOption* option);
 
-  /// @brief Method UnregisterOption, addr 0x2dc8640, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method UnregisterOption, addr 0x2de6a28, size 0x58, virtual true, abstract: false, final true
   inline void UnregisterOption(::UnityEngine::UIElements::IGroupBoxOption* option);
 
   static inline ::UnityEngine::UIElements::DefaultGroupManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2dc8698, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2de6a80, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultGroupManager", modifiers: "&&", def_value: None }]

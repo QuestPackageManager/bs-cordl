@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::Test_MeshRenderer);
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9919))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9711))
 // CS Name: ::HoudiniEngineUnity::Test_MeshRenderer*
 class CORDL_TYPE Test_MeshRenderer : public ::System::Object {
 public:
@@ -53,13 +53,13 @@ public:
 
   static inline ::HoudiniEngineUnity::Test_MeshRenderer* New_ctor(::UnityEngine::MeshRenderer* self);
 
-  /// @brief Method .ctor, addr 0x21e5f14, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x227b7fc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::MeshRenderer* self);
 
-  /// @brief Method IsNull, addr 0x21e5f3c, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method IsNull, addr 0x227b824, size 0x60, virtual true, abstract: false, final true
   inline bool IsNull();
 
-  /// @brief Method IsEquivalentTo, addr 0x21e5f9c, size 0x13c, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x227b884, size 0x13c, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_MeshRenderer* other);
 
   // Ctor Parameters [CppParam { name: "", ty: "Test_MeshRenderer", modifiers: "&&", def_value: None }]

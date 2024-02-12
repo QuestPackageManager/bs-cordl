@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IGameEnergyCounter);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5268))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4608))
 // CS Name: ::IGameEnergyCounter*
 class CORDL_TYPE IGameEnergyCounter {
 public:

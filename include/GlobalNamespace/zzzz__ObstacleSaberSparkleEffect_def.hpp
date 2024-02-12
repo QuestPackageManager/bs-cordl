@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ObstacleSaberSparkleEffect);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15883))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4958))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(15043))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4312))
 // CS Name: ::ObstacleSaberSparkleEffect*
 class CORDL_TYPE ObstacleSaberSparkleEffect : public ::UnityEngine::MonoBehaviour {
 public:
@@ -73,24 +73,24 @@ public:
 
   constexpr void __cordl_internal_set__burnParticleSystemEmissionModule(::UnityEngine::__ParticleSystem__EmissionModule value);
 
-  /// @brief Method set_color, addr 0x23a4274, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method set_color, addr 0x23643ac, size 0xfc, virtual false, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
-  /// @brief Method Awake, addr 0x23aec1c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x236ed50, size 0x5c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method SetPositionAndRotation, addr 0x23a4dcc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SetPositionAndRotation, addr 0x2364f04, size 0x78, virtual false, abstract: false, final false
   inline void SetPositionAndRotation(::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rot);
 
-  /// @brief Method StartEmission, addr 0x23a4e44, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method StartEmission, addr 0x2364f7c, size 0x54, virtual false, abstract: false, final false
   inline void StartEmission();
 
-  /// @brief Method StopEmission, addr 0x23a4e98, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method StopEmission, addr 0x2364fd0, size 0x68, virtual false, abstract: false, final false
   inline void StopEmission();
 
   static inline ::GlobalNamespace::ObstacleSaberSparkleEffect* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23aec78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x236edac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ObstacleSaberSparkleEffect", modifiers: "&&", def_value: None }]

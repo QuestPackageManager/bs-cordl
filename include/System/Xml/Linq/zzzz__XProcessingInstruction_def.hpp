@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::System::Xml::Linq::XProcessingInstruction);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Linq {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15453))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15457))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15567))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15571))
 // CS Name: ::System.Xml.Linq::XProcessingInstruction*
 class CORDL_TYPE XProcessingInstruction : public ::System::Xml::Linq::XNode {
 public:
@@ -56,33 +56,33 @@ public:
 
   static inline ::System::Xml::Linq::XProcessingInstruction* New_ctor(::StringW target, ::StringW data);
 
-  /// @brief Method .ctor, addr 0x28614a8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2864b10, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::StringW target, ::StringW data);
 
   static inline ::System::Xml::Linq::XProcessingInstruction* New_ctor(::System::Xml::Linq::XProcessingInstruction* other);
 
-  /// @brief Method .ctor, addr 0x286160c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2864c74, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XProcessingInstruction* other);
 
-  /// @brief Method get_Data, addr 0x2861688, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Data, addr 0x2864cf0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Data();
 
-  /// @brief Method set_Data, addr 0x2861690, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method set_Data, addr 0x2864cf8, size 0xf4, virtual false, abstract: false, final false
   inline void set_Data(::StringW value);
 
-  /// @brief Method get_NodeType, addr 0x2861784, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x2864dec, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
-  /// @brief Method get_Target, addr 0x286178c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Target, addr 0x2864df4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Target();
 
-  /// @brief Method WriteTo, addr 0x2861794, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method WriteTo, addr 0x2864dfc, size 0x74, virtual true, abstract: false, final false
   inline void WriteTo(::System::Xml::XmlWriter* writer);
 
-  /// @brief Method CloneNode, addr 0x2861808, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method CloneNode, addr 0x2864e70, size 0x60, virtual true, abstract: false, final false
   inline ::System::Xml::Linq::XNode* CloneNode();
 
-  /// @brief Method ValidateName, addr 0x286152c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method ValidateName, addr 0x2864b94, size 0xe0, virtual false, abstract: false, final false
   static inline void ValidateName(::StringW name);
 
   // Ctor Parameters [CppParam { name: "", ty: "XProcessingInstruction", modifiers: "&&", def_value: None }]

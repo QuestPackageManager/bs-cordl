@@ -54,8 +54,8 @@ MARK_VAL_T(::GlobalNamespace::__BasePlatformInit___Initialize_d__5);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3400)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(15976)) CS Name: ::BasePlatformInit::<Initialize>d__5
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3396)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 77
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(16352)) CS Name: ::BasePlatformInit::<Initialize>d__5
 struct CORDL_TYPE __BasePlatformInit___Initialize_d__5 {
 public:
   // Declarations
@@ -65,10 +65,10 @@ public:
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x27fd860, size 0x284, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2809cf4, size 0x284, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x27fdae4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2809f78, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -114,9 +114,8 @@ static_assert(offsetof(::GlobalNamespace::__BasePlatformInit___Initialize_d__5, 
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105
-// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 105 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(15977)) CS Name:
-// ::BasePlatformInit::<InitializeAsync>d__7
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3398)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 77
+// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3398), inst: 77 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(16353)) CS Name: ::BasePlatformInit::<InitializeAsync>d__7
 struct CORDL_TYPE __BasePlatformInit___InitializeAsync_d__7 {
 public:
   // Declarations
@@ -126,10 +125,10 @@ public:
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x27fdaf0, size 0x220, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2809f84, size 0x220, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x27fdd10, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x280a1a4, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -176,7 +175,7 @@ static_assert(offsetof(::GlobalNamespace::__BasePlatformInit___InitializeAsync_d
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15978))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16354))
 // CS Name: ::BasePlatformInit*
 class CORDL_TYPE BasePlatformInit : public ::System::Object {
 public:
@@ -217,24 +216,24 @@ public:
 
   constexpr void __cordl_internal_set__initializationTask(::System::Threading::Tasks::Task_1<bool>* value);
 
-  /// @brief Method get_IsInitialized, addr 0x27fd6b8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsInitialized, addr 0x2809b4c, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsInitialized();
 
-  /// @brief Method set_IsInitialized, addr 0x27fd6c0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsInitialized, addr 0x2809b54, size 0xc, virtual false, abstract: false, final false
   inline void set_IsInitialized(bool value);
 
-  /// @brief Method Initialize, addr 0x27fd6cc, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x2809b60, size 0x94, virtual true, abstract: false, final true
   inline void Initialize();
 
   /// @brief Method InitializeInternalAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<bool>* InitializeInternalAsync();
 
-  /// @brief Method InitializeAsync, addr 0x27fd760, size 0xf8, virtual true, abstract: false, final true
+  /// @brief Method InitializeAsync, addr 0x2809bf4, size 0xf8, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<bool>* InitializeAsync();
 
   static inline ::GlobalNamespace::BasePlatformInit* New_ctor();
 
-  /// @brief Method .ctor, addr 0x27fd858, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2809cec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BasePlatformInit", modifiers: "&&", def_value: None }]

@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::UnityEngine::UI::IMaskable);
 namespace UnityEngine::UI {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13057))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12955))
 // CS Name: ::UnityEngine.UI::IMaskable*
 class CORDL_TYPE IMaskable {
 public:

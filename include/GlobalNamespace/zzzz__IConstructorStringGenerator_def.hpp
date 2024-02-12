@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IConstructorStringGenerator);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15847))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15592))
 // CS Name: ::IConstructorStringGenerator*
 class CORDL_TYPE IConstructorStringGenerator {
 public:

@@ -24,42 +24,42 @@ MARK_REF_PTR_T(::RootMotion::V3Tools);
 namespace RootMotion {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12501))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12399))
 // CS Name: ::RootMotion::V3Tools*
 class CORDL_TYPE V3Tools : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Lerp, addr 0x123fa20, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Lerp, addr 0x12daad0, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 Lerp(::UnityEngine::Vector3 fromVector, ::UnityEngine::Vector3 toVector, float_t weight);
 
-  /// @brief Method Slerp, addr 0x123fa7c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Slerp, addr 0x12dab2c, size 0x38, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 Slerp(::UnityEngine::Vector3 fromVector, ::UnityEngine::Vector3 toVector, float_t weight);
 
-  /// @brief Method ExtractVertical, addr 0x123fab4, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method ExtractVertical, addr 0x12dab64, size 0x150, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 ExtractVertical(::UnityEngine::Vector3 v, ::UnityEngine::Vector3 verticalAxis, float_t weight);
 
-  /// @brief Method ExtractHorizontal, addr 0x123fc04, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method ExtractHorizontal, addr 0x12dacb4, size 0x17c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 ExtractHorizontal(::UnityEngine::Vector3 v, ::UnityEngine::Vector3 normal, float_t weight);
 
-  /// @brief Method ClampDirection, addr 0x123fd80, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method ClampDirection, addr 0x12dae30, size 0x230, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 ClampDirection(::UnityEngine::Vector3 direction, ::UnityEngine::Vector3 normalDirection, float_t clampWeight, int32_t clampSmoothing);
 
-  /// @brief Method ClampDirection, addr 0x123ffb0, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method ClampDirection, addr 0x12db060, size 0x250, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 ClampDirection(::UnityEngine::Vector3 direction, ::UnityEngine::Vector3 normalDirection, float_t clampWeight, int32_t clampSmoothing, ByRef<bool> changed);
 
-  /// @brief Method ClampDirection, addr 0x1240200, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method ClampDirection, addr 0x12db2b0, size 0x258, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 ClampDirection(::UnityEngine::Vector3 direction, ::UnityEngine::Vector3 normalDirection, float_t clampWeight, int32_t clampSmoothing, ByRef<float_t> clampValue);
 
-  /// @brief Method LineToPlane, addr 0x1240458, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method LineToPlane, addr 0x12db508, size 0x1ac, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 LineToPlane(::UnityEngine::Vector3 origin, ::UnityEngine::Vector3 direction, ::UnityEngine::Vector3 planeNormal, ::UnityEngine::Vector3 planePoint);
 
-  /// @brief Method PointToPlane, addr 0x1240604, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method PointToPlane, addr 0x12db6b4, size 0x1f8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 PointToPlane(::UnityEngine::Vector3 point, ::UnityEngine::Vector3 planePosition, ::UnityEngine::Vector3 planeNormal);
 
-  /// @brief Method TransformPointUnscaled, addr 0x12407fc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method TransformPointUnscaled, addr 0x12db8ac, size 0x7c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 TransformPointUnscaled(::UnityEngine::Transform* t, ::UnityEngine::Vector3 point);
 
-  /// @brief Method InverseTransformPointUnscaled, addr 0x1240878, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method InverseTransformPointUnscaled, addr 0x12db928, size 0x90, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 InverseTransformPointUnscaled(::UnityEngine::Transform* t, ::UnityEngine::Vector3 point);
 
   // Ctor Parameters [CppParam { name: "", ty: "V3Tools", modifiers: "&&", def_value: None }]

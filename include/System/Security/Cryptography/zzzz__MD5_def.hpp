@@ -22,10 +22,10 @@ public:
   // Declarations
   static inline ::System::Security::Cryptography::MD5* New_ctor();
 
-  /// @brief Method .ctor, addr 0x245fee0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2481f54, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Create, addr 0x245ff00, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2481f74, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::MD5* Create();
 
   // Ctor Parameters [CppParam { name: "", ty: "MD5", modifiers: "&&", def_value: None }]

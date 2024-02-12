@@ -51,24 +51,24 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpObjectFactory* New_ctor(::System::IO::Stream* inputStream);
 
-  /// @brief Method .ctor, addr 0x10b0828, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10dd6b8, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* inputStream);
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpObjectFactory* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method .ctor, addr 0x10b085c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10dd6ec, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method NextPgpObject, addr 0x10b08e8, size 0xa48, virtual false, abstract: false, final false
+  /// @brief Method NextPgpObject, addr 0x10dd778, size 0xa48, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpObject* NextPgpObject();
 
-  /// @brief Method NextObject, addr 0x10b1418, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method NextObject, addr 0x10de2a8, size 0x4, virtual false, abstract: false, final false
   inline ::System::Object* NextObject();
 
-  /// @brief Method AllPgpObjects, addr 0x10b141c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method AllPgpObjects, addr 0x10de2ac, size 0x104, virtual false, abstract: false, final false
   inline ::System::Collections::IList* AllPgpObjects();
 
-  /// @brief Method FilterPgpObjects, addr 0x10b1520, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method FilterPgpObjects, addr 0x10de3b0, size 0x134, virtual false, abstract: false, final false
   inline ::System::Collections::IList* FilterPgpObjects(::System::Type* type);
 
   // Ctor Parameters [CppParam { name: "", ty: "PgpObjectFactory", modifiers: "&&", def_value: None }]

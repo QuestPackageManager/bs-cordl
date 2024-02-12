@@ -44,35 +44,35 @@ public:
 
   constexpr void __cordl_internal_set_str(::StringW value);
 
-  /// @brief Method GetInstance, addr 0x11c5dd4, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x11f2c64, size 0x1c8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerVisibleString* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetInstance, addr 0x11c5f9c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x11f2e2c, size 0x28, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerVisibleString* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
   static inline ::Org::BouncyCastle::Asn1::DerVisibleString* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str);
 
-  /// @brief Method .ctor, addr 0x11b7500, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11e4390, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str);
 
   static inline ::Org::BouncyCastle::Asn1::DerVisibleString* New_ctor(::StringW str);
 
-  /// @brief Method .ctor, addr 0x11c5fc4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11f2e54, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::StringW str);
 
-  /// @brief Method GetString, addr 0x11c603c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetString, addr 0x11f2ecc, size 0x8, virtual true, abstract: false, final false
   inline ::StringW GetString();
 
-  /// @brief Method GetOctets, addr 0x11c6044, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetOctets, addr 0x11f2ed4, size 0xc, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetOctets();
 
-  /// @brief Method Encode, addr 0x11c6050, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x11f2ee0, size 0x30, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
-  /// @brief Method Asn1Equals, addr 0x11c6080, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Asn1Equals, addr 0x11f2f10, size 0xa0, virtual true, abstract: false, final false
   inline bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
 
-  /// @brief Method Asn1GetHashCode, addr 0x11c6120, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method Asn1GetHashCode, addr 0x11f2fb0, size 0x1c, virtual true, abstract: false, final false
   inline int32_t Asn1GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "DerVisibleString", modifiers: "&&", def_value: None }]

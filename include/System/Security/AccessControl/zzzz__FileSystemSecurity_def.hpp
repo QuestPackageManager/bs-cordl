@@ -42,10 +42,10 @@ public:
   // Declarations
   static inline ::System::Security::AccessControl::FileSystemSecurity* New_ctor(bool isContainer, ::StringW name, ::System::Security::AccessControl::AccessControlSections includeSections);
 
-  /// @brief Method .ctor, addr 0x24833b0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24a5424, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(bool isContainer, ::StringW name, ::System::Security::AccessControl::AccessControlSections includeSections);
 
-  /// @brief Method AccessRuleFactory, addr 0x24835cc, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method AccessRuleFactory, addr 0x24a5640, size 0xa0, virtual true, abstract: false, final true
   inline ::System::Security::AccessControl::AccessRule* AccessRuleFactory(::System::Security::Principal::IdentityReference* identityReference, int32_t accessMask, bool isInherited,
                                                                           ::System::Security::AccessControl::InheritanceFlags inheritanceFlags,
                                                                           ::System::Security::AccessControl::PropagationFlags propagationFlags,

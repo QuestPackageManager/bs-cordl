@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaAnyAttribute::*)(::System::Xml::Schema::XmlSchemaContentProcessing)>(
     &::System::Xml::Schema::XmlSchemaAnyAttribute::set_ProcessContents)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x28c723c;
+  constexpr static std::size_t addrs = 0x28c98a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaAnyAttribute::*)(::StringW)>(
     &::System::Xml::Schema::XmlSchemaAnyAttribute::BuildNamespaceList)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x28c7244;
+  constexpr static std::size_t addrs = 0x28c98ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaAnyAttribute::*)()>(&::System::Xml::Schema::XmlSchemaAnyAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x28c72d4;
+  constexpr static std::size_t addrs = 0x28c993c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaAnyAttribute*>::get(), ".ctor",

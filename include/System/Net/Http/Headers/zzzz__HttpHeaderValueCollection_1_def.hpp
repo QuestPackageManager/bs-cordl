@@ -47,7 +47,7 @@ namespace System::Net::Http::Headers {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14674))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14679))
 // CS Name: ::System.Net.Http.Headers::HttpHeaderValueCollection`1<T>*
 class CORDL_TYPE HttpHeaderValueCollection_1 : public ::System::Object {
 public:

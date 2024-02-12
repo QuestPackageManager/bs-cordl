@@ -17,12 +17,12 @@ MARK_REF_PTR_T(::ENet::Extensions);
 namespace ENet {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15235))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15348))
 // CS Name: ::ENet::Extensions*
 class CORDL_TYPE Extensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method StringLength, addr 0x21f2ab4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method StringLength, addr 0x228839c, size 0x9c, virtual false, abstract: false, final false
   static inline int32_t StringLength(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
   // Ctor Parameters [CppParam { name: "", ty: "Extensions", modifiers: "&&", def_value: None }]

@@ -89,7 +89,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__BasicBeatmapObjectManager__InitData);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4702))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4053))
 // CS Name: ::BasicBeatmapObjectManager::InitData*
 class CORDL_TYPE __BasicBeatmapObjectManager__InitData : public ::System::Object {
 public:
@@ -132,7 +132,7 @@ public:
 
   static inline ::GlobalNamespace::__BasicBeatmapObjectManager__InitData* New_ctor(bool disappearingArrows, bool ghostNotes, float_t cutAngleTolerance, float_t notesUniformScale);
 
-  /// @brief Method .ctor, addr 0x2379a48, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22bf26c, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(bool disappearingArrows, bool ghostNotes, float_t cutAngleTolerance, float_t notesUniformScale);
 
   // Ctor Parameters [CppParam { name: "", ty: "__BasicBeatmapObjectManager__InitData", modifiers: "&&", def_value: None }]
@@ -179,8 +179,8 @@ static_assert(offsetof(::GlobalNamespace::__BasicBeatmapObjectManager__InitData,
 // SizeInfo { instance_size: 224, native_size: -1, calculated_instance_size: 224, calculated_native_size: 224, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(4716)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 391
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4703)) CS Name: ::BasicBeatmapObjectManager*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(4067)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 391
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4054)) CS Name: ::BasicBeatmapObjectManager*
 class CORDL_TYPE BasicBeatmapObjectManager : public ::GlobalNamespace::BeatmapObjectManager {
 public:
   // Declarations
@@ -285,37 +285,37 @@ public:
   constexpr void __cordl_internal_set__sliderNotePoolContainersDictionary(
       ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__SliderController__LengthType, ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::SliderController>>*>* value);
 
-  /// @brief Method get_activeObstacleControllers, addr 0x2377964, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method get_activeObstacleControllers, addr 0x22be21c, size 0x50, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::ObstacleController>>* get_activeObstacleControllers();
 
-  /// @brief Method Init, addr 0x23779b4, size 0x5c0, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x22be26c, size 0x5c0, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::__BasicBeatmapObjectManager__InitData* initData, ::GlobalNamespace::__GameNoteController__Pool* basicGameNotePool,
                    ::GlobalNamespace::__GameNoteController__Pool* burstSliderHeadGameNotePool, ::GlobalNamespace::__BurstSliderGameNoteController__Pool* burstSliderGameNotePool,
                    ::GlobalNamespace::__BurstSliderGameNoteController__Pool* burstSliderFillPool, ::GlobalNamespace::__BombNoteController__Pool* bombNotePool,
                    ::GlobalNamespace::__ObstacleController__Pool* obstaclePool, ::GlobalNamespace::__SliderController__Pool* sliderPools);
 
-  /// @brief Method ProcessObstacleData, addr 0x2377f74, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method ProcessObstacleData, addr 0x22be82c, size 0xf8, virtual true, abstract: false, final false
   inline void ProcessObstacleData(::GlobalNamespace::ObstacleData* obstacleData, ByRef<::GlobalNamespace::__BeatmapObjectSpawnMovementData__ObstacleSpawnData> obstacleSpawnData, float_t rotation);
 
-  /// @brief Method DespawnInternal, addr 0x2378200, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method DespawnInternal, addr 0x22be924, size 0x58, virtual true, abstract: false, final false
   inline void DespawnInternal(::GlobalNamespace::ObstacleController* obstacleController);
 
-  /// @brief Method ProcessNoteData, addr 0x2378258, size 0x3f0, virtual true, abstract: false, final false
+  /// @brief Method ProcessNoteData, addr 0x22be97c, size 0x408, virtual true, abstract: false, final false
   inline void ProcessNoteData(::GlobalNamespace::NoteData* noteData, ByRef<::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData> noteSpawnData, float_t rotation,
                               bool forceIsFirstNoteBehaviour);
 
-  /// @brief Method DespawnInternal, addr 0x2378e2c, size 0x1f4, virtual true, abstract: false, final false
+  /// @brief Method DespawnInternal, addr 0x22bed84, size 0x1f4, virtual true, abstract: false, final false
   inline void DespawnInternal(::GlobalNamespace::NoteController* noteController);
 
-  /// @brief Method ProcessSliderData, addr 0x2379020, size 0x244, virtual true, abstract: false, final false
+  /// @brief Method ProcessSliderData, addr 0x22bef78, size 0x250, virtual true, abstract: false, final false
   inline void ProcessSliderData(::GlobalNamespace::SliderData* sliderData, ByRef<::GlobalNamespace::__BeatmapObjectSpawnMovementData__SliderSpawnData> sliderSpawnData, float_t rotation);
 
-  /// @brief Method DespawnInternal, addr 0x237992c, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method DespawnInternal, addr 0x22bf1c8, size 0x9c, virtual true, abstract: false, final false
   inline void DespawnInternal(::GlobalNamespace::SliderController* sliderNoteController);
 
   static inline ::GlobalNamespace::BasicBeatmapObjectManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23799c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22bf264, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BasicBeatmapObjectManager", modifiers: "&&", def_value: None }]

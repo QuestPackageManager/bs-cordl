@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::LowLevel::IInputStateCallbackReceiver
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6561))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5820))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::IInputStateCallbackReceiver*
 class CORDL_TYPE IInputStateCallbackReceiver {
 public:

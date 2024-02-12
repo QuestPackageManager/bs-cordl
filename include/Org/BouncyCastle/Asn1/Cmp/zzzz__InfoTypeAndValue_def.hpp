@@ -59,29 +59,29 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xe67d68, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe92bf8, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance, addr 0xe678ac, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xe9273c, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* infoType);
 
-  /// @brief Method .ctor, addr 0xe67e30, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe92cc0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* infoType);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* infoType, ::Org::BouncyCastle::Asn1::Asn1Encodable* optionalValue);
 
-  /// @brief Method .ctor, addr 0xe67e58, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe92ce8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* infoType, ::Org::BouncyCastle::Asn1::Asn1Encodable* optionalValue);
 
-  /// @brief Method get_InfoType, addr 0xe67e84, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_InfoType, addr 0xe92d14, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_InfoType();
 
-  /// @brief Method get_InfoValue, addr 0xe67e8c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_InfoValue, addr 0xe92d1c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_InfoValue();
 
-  /// @brief Method ToAsn1Object, addr 0xe67e94, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xe92d24, size 0x148, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "InfoTypeAndValue", modifiers: "&&", def_value: None }]

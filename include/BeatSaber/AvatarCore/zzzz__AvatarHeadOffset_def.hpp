@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::BeatSaber::AvatarCore::AvatarHeadOffset);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15173))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8993))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15253))
 // CS Name: ::BeatSaber.AvatarCore::AvatarHeadOffset*
 class CORDL_TYPE AvatarHeadOffset : public ::UnityEngine::MonoBehaviour {
 public:
@@ -46,18 +46,18 @@ public:
 
   constexpr void __cordl_internal_set__avatarPoseController(::UnityW<::BeatSaber::AvatarCore::MultiplayerAvatarPoseController> value);
 
-  /// @brief Method Start, addr 0xe0ba48, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0xe16f48, size 0x88, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy, addr 0xe0bb80, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0xe17080, size 0xd0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleMultiplayerAvatarPoseControllerDidUpdatePose, addr 0xe0bd00, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method HandleMultiplayerAvatarPoseControllerDidUpdatePose, addr 0xe17200, size 0x54, virtual false, abstract: false, final false
   inline void HandleMultiplayerAvatarPoseControllerDidUpdatePose(::UnityEngine::Vector3 headLocalPosition);
 
   static inline ::BeatSaber::AvatarCore::AvatarHeadOffset* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe0bd54, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe17254, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AvatarHeadOffset", modifiers: "&&", def_value: None }]

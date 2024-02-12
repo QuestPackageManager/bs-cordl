@@ -41,14 +41,14 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionLevelNoTransitionInstaller);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11176)), TypeDefinitionIndex(TypeDefinitionIndex(14717))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6039))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10318)), TypeDefinitionIndex(TypeDefinitionIndex(15101))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5314))
 // CS Name: ::MissionLevelNoTransitionInstaller*
 class CORDL_TYPE MissionLevelNoTransitionInstaller : public ::Zenject::NoTransitionInstaller {
 public:
   // Declarations
-  /// @brief Field _beatmapLevel, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapLevel, put = __cordl_internal_set__beatmapLevel))::UnityW<::GlobalNamespace::BeatmapLevelSO> _beatmapLevel;
+  /// @brief Field _beatmapLevelSo, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__beatmapLevelSo, put = __cordl_internal_set__beatmapLevelSo))::UnityW<::GlobalNamespace::BeatmapLevelSO> _beatmapLevelSo;
 
   /// @brief Field _beatmapCharacteristic, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapCharacteristic, put = __cordl_internal_set__beatmapCharacteristic))::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> _beatmapCharacteristic;
@@ -76,11 +76,11 @@ public:
   __declspec(property(get = __cordl_internal_get__scenesTransitionSetupData,
                       put = __cordl_internal_set__scenesTransitionSetupData))::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO> _scenesTransitionSetupData;
 
-  constexpr ::UnityW<::GlobalNamespace::BeatmapLevelSO>& __cordl_internal_get__beatmapLevel();
+  constexpr ::UnityW<::GlobalNamespace::BeatmapLevelSO>& __cordl_internal_get__beatmapLevelSo();
 
-  constexpr ::UnityW<::GlobalNamespace::BeatmapLevelSO> const& __cordl_internal_get__beatmapLevel() const;
+  constexpr ::UnityW<::GlobalNamespace::BeatmapLevelSO> const& __cordl_internal_get__beatmapLevelSo() const;
 
-  constexpr void __cordl_internal_set__beatmapLevel(::UnityW<::GlobalNamespace::BeatmapLevelSO> value);
+  constexpr void __cordl_internal_set__beatmapLevelSo(::UnityW<::GlobalNamespace::BeatmapLevelSO> value);
 
   constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>& __cordl_internal_get__beatmapCharacteristic();
 
@@ -130,12 +130,12 @@ public:
 
   constexpr void __cordl_internal_set__scenesTransitionSetupData(::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO> value);
 
-  /// @brief Method InstallBindings, addr 0x231b0f0, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x2346df4, size 0x158, virtual true, abstract: false, final false
   inline void InstallBindings(::Zenject::DiContainer* container);
 
   static inline ::GlobalNamespace::MissionLevelNoTransitionInstaller* New_ctor();
 
-  /// @brief Method .ctor, addr 0x231b6e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2347344, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionLevelNoTransitionInstaller", modifiers: "&&", def_value: None }]
@@ -152,8 +152,8 @@ protected:
   constexpr MissionLevelNoTransitionInstaller();
 
 public:
-  /// @brief Field _beatmapLevel, offset: 0x18, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::BeatmapLevelSO> ____beatmapLevel;
+  /// @brief Field _beatmapLevelSo, offset: 0x18, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::BeatmapLevelSO> ____beatmapLevelSo;
 
   /// @brief Field _beatmapCharacteristic, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> ____beatmapCharacteristic;
@@ -184,7 +184,7 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionLevelNoTransitionInstaller, 0x60>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MissionLevelNoTransitionInstaller, ____beatmapLevel) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionLevelNoTransitionInstaller, ____beatmapLevelSo) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MissionLevelNoTransitionInstaller, ____beatmapCharacteristic) == 0x20, "Offset mismatch!");
 

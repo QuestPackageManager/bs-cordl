@@ -22,18 +22,18 @@ MARK_REF_PTR_T(::GlobalNamespace::GeometryTools);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15855))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15600))
 // CS Name: ::GeometryTools*
 class CORDL_TYPE GeometryTools : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ThreePointsToBox, addr 0xe28024, size 0x3ec, virtual false, abstract: false, final false
+  /// @brief Method ThreePointsToBox, addr 0xe51d60, size 0x3ec, virtual false, abstract: false, final false
   static inline bool ThreePointsToBox(::UnityEngine::Vector3 p0, ::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 p2, ByRef<::UnityEngine::Vector3> center, ByRef<::UnityEngine::Vector3> halfSize,
                                       ByRef<::UnityEngine::Quaternion> orientation);
 
   static inline ::GlobalNamespace::GeometryTools* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe28410, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe5214c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GeometryTools", modifiers: "&&", def_value: None }]

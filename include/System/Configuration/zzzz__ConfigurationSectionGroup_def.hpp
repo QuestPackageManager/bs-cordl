@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::System::Configuration::ConfigurationSectionGroup);
 namespace System::Configuration {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16263))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16438))
 // CS Name: ::System.Configuration::ConfigurationSectionGroup*
 class CORDL_TYPE ConfigurationSectionGroup : public ::System::Object {
 public:

@@ -73,7 +73,7 @@ namespace GlobalNamespace {
 template <typename T>
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3800))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3799))
 // CS Name: ::ConcurrentQueue`1::Segment::Slot<T>
 struct CORDL_TYPE __ConcurrentQueue_1__Segment__Slot {
 public:
@@ -104,8 +104,8 @@ namespace System::Collections::Concurrent {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3804))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3801))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3803))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3800))
 // CS Name: ::ConcurrentQueue`1::Segment<T>*
 class CORDL_TYPE __ConcurrentQueue_1__Segment : public ::System::Object {
 public:
@@ -234,7 +234,7 @@ namespace System::Collections::Concurrent {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3802))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3801))
 // CS Name: ::ConcurrentQueue`1::<Enumerate>d__28<T>*
 class CORDL_TYPE __ConcurrentQueue_1___Enumerate_d__28 : public ::System::Object {
 public:
@@ -438,7 +438,7 @@ namespace System::Collections::Concurrent {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3803))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3802))
 // CS Name: ::System.Collections.Concurrent::ConcurrentQueue`1<T>*
 class CORDL_TYPE ConcurrentQueue_1 : public ::System::Object {
 public:

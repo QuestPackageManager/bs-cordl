@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::System::Resources::FastResourceComparer);
 namespace System::Resources {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3432))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3428))
 // CS Name: ::System.Resources::FastResourceComparer*
 class CORDL_TYPE FastResourceComparer : public ::System::Object {
 public:
@@ -69,39 +69,39 @@ public:
 
   static inline ::System::Resources::FastResourceComparer* getStaticF_Default();
 
-  /// @brief Method GetHashCode, addr 0x24e0a90, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method GetHashCode, addr 0x24ff14c, size 0x8c, virtual true, abstract: false, final true
   inline int32_t GetHashCode(::System::Object* key);
 
-  /// @brief Method GetHashCode, addr 0x24e0b88, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method GetHashCode, addr 0x24ff244, size 0x54, virtual true, abstract: false, final true
   inline int32_t GetHashCode(::StringW key);
 
-  /// @brief Method HashFunction, addr 0x24e0b1c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method HashFunction, addr 0x24ff1d8, size 0x6c, virtual false, abstract: false, final false
   static inline int32_t HashFunction(::StringW key);
 
-  /// @brief Method Compare, addr 0x24e0bdc, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x24ff298, size 0x9c, virtual true, abstract: false, final true
   inline int32_t Compare(::System::Object* a, ::System::Object* b);
 
-  /// @brief Method Compare, addr 0x24e0c78, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x24ff334, size 0x10, virtual true, abstract: false, final true
   inline int32_t Compare(::StringW a, ::StringW b);
 
-  /// @brief Method Equals, addr 0x24e0c88, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x24ff344, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::StringW a, ::StringW b);
 
-  /// @brief Method Equals, addr 0x24e0c98, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x24ff354, size 0x9c, virtual true, abstract: false, final true
   inline bool Equals(::System::Object* a, ::System::Object* b);
 
-  /// @brief Method CompareOrdinal, addr 0x24e0d34, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method CompareOrdinal, addr 0x24ff3f0, size 0xbc, virtual false, abstract: false, final false
   static inline int32_t CompareOrdinal(::StringW a, ::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t bCharLength);
 
-  /// @brief Method CompareOrdinal, addr 0x24e0df0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method CompareOrdinal, addr 0x24ff4ac, size 0x74, virtual false, abstract: false, final false
   static inline int32_t CompareOrdinal(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t aCharLength, ::StringW b);
 
-  /// @brief Method CompareOrdinal, addr 0x24e0e64, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method CompareOrdinal, addr 0x24ff520, size 0x94, virtual false, abstract: false, final false
   static inline int32_t CompareOrdinal(::cordl_internals::Ptr<uint8_t> a, int32_t byteLen, ::StringW b);
 
   static inline ::System::Resources::FastResourceComparer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24e0ef8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24ff5b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FastResourceComparer", modifiers: "&&", def_value: None }]

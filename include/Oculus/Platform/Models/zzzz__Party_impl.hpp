@@ -1,14 +1,15 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/Models/zzzz__Party_def.hpp"
+#include "Oculus/Platform/Models/zzzz__Room_def.hpp"
 #include "Oculus/Platform/Models/zzzz__UserList_def.hpp"
 #include "Oculus/Platform/Models/zzzz__User_def.hpp"
 //  Writing Method size for method: ::Oculus::Platform::Models::Party._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Models::Party::*)(void*)>(&::Oculus::Platform::Models::Party::_ctor)> {
-  constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x2707d3c;
+  constexpr static std::size_t size = 0x274;
+  constexpr static std::size_t addrs = 0x273bd98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -76,6 +77,30 @@ constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::User*>
 constexpr void Oculus::Platform::Models::Party::__cordl_internal_set_Leader(::Oculus::Platform::Models::User* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Leader)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::Oculus::Platform::Models::Room*& Oculus::Platform::Models::Party::__cordl_internal_get_RoomOptional() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___RoomOptional;
+}
+constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::Room*> const& Oculus::Platform::Models::Party::__cordl_internal_get_RoomOptional() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___RoomOptional;
+}
+constexpr void Oculus::Platform::Models::Party::__cordl_internal_set_RoomOptional(::Oculus::Platform::Models::Room* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___RoomOptional)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::Oculus::Platform::Models::Room*& Oculus::Platform::Models::Party::__cordl_internal_get_Room() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___Room;
+}
+constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::Room*> const& Oculus::Platform::Models::Party::__cordl_internal_get_Room() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___Room;
+}
+constexpr void Oculus::Platform::Models::Party::__cordl_internal_set_Room(::Oculus::Platform::Models::Room* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Room)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Oculus::Platform::Models::UserList*& Oculus::Platform::Models::Party::__cordl_internal_get_UsersOptional() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

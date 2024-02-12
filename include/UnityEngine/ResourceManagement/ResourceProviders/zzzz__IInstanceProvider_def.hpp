@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::IInstancePr
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13999))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14012))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::IInstanceProvider*
 class CORDL_TYPE IInstanceProvider {
 public:

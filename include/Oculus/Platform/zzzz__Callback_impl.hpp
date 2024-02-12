@@ -7,13 +7,14 @@
 #include "Oculus/Platform/zzzz__Message_def.hpp"
 #include "Oculus/Platform/zzzz__Request_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: ::Oculus::Platform::__Callback__RequestCallback._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::__Callback__RequestCallback::*)()>(
     &::Oculus::Platform::__Callback__RequestCallback::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26cfacc;
+  constexpr static std::size_t addrs = 0x26ee7ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::__Callback__RequestCallback*>::get(), ".ctor",
@@ -27,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::__Callback__RequestCallback::*)(::Oculus::Platform::__Message__Callback*)>(
     &::Oculus::Platform::__Callback__RequestCallback::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x26cf3a4;
+  constexpr static std::size_t addrs = 0x26eddf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::__Callback__RequestCallback::*)(::Oculus::Platform::Message*)>(
     &::Oculus::Platform::__Callback__RequestCallback::HandleMessage)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x26cfad4;
+  constexpr static std::size_t addrs = 0x26ee7f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -124,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Oculus::Platform::__Message__MessageType, ::Oculus::Platform::__Message__Callback*)>(
     &::Oculus::Platform::Callback::SetNotificationCallback)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x26cf290;
+  constexpr static std::size_t addrs = 0x26edce0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -139,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Oculus::Platform::Request*)>(&::Oculus::Platform::Callback::AddRequest)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x26cf3cc;
+  constexpr static std::size_t addrs = 0x26ede1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -153,7 +154,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Oculus::Platform::Callback::RunCallbacks)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x26cf4a8;
+  constexpr static std::size_t addrs = 0x26edef8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Callback*>::get(), "RunCallbacks",
@@ -166,7 +167,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint32_t)>(&::Oculus::Platform::Callback::RunLimitedCallbacks)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x26cf824;
+  constexpr static std::size_t addrs = 0x26ee32c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -180,11 +181,25 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Oculus::Platform::Callback::OnApplicationQuit)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x26cf8ac;
+  constexpr static std::size_t addrs = 0x26ee3b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Callback*>::get(), "OnApplicationQuit",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::Callback.FlushRoomInviteNotificationQueue
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Oculus::Platform::Callback::FlushRoomInviteNotificationQueue)> {
+  constexpr static std::size_t size = 0x1c8;
+  constexpr static std::size_t addrs = 0x26ee458;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Callback*>::get(), "FlushRoomInviteNotificationQueue",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -193,7 +208,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Oculus::Platform::Callback::FlushJoinIntentNotificationQueue)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x26cf950;
+  constexpr static std::size_t addrs = 0x26ee620;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -206,8 +221,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Oculus::Platform::Message*)>(&::Oculus::Platform::Callback::HandleMessage)> {
-  constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x26cf5e8;
+  constexpr static std::size_t size = 0x2f4;
+  constexpr static std::size_t addrs = 0x26ee038;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -235,6 +250,22 @@ inline ::System::Collections::Generic::Dictionary_2<::Oculus::Platform::__Messag
 Oculus::Platform::Callback::getStaticF_notificationCallbacks() {
   return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<::Oculus::Platform::__Message__MessageType, ::Oculus::Platform::__Callback__RequestCallback*>*,
                                            "notificationCallbacks", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Callback*>::get>();
+}
+inline void Oculus::Platform::Callback::setStaticF_hasRegisteredRoomInviteNotificationHandler(bool value) {
+  ::cordl_internals::setStaticField<bool, "hasRegisteredRoomInviteNotificationHandler", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Callback*>::get>(
+      std::forward<bool>(value));
+}
+inline bool Oculus::Platform::Callback::getStaticF_hasRegisteredRoomInviteNotificationHandler() {
+  return ::cordl_internals::getStaticField<bool, "hasRegisteredRoomInviteNotificationHandler", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Callback*>::get>();
+}
+inline void Oculus::Platform::Callback::setStaticF_pendingRoomInviteNotifications(::System::Collections::Generic::List_1<::Oculus::Platform::Message*>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::List_1<::Oculus::Platform::Message*>*, "pendingRoomInviteNotifications",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Callback*>::get>(
+      std::forward<::System::Collections::Generic::List_1<::Oculus::Platform::Message*>*>(value));
+}
+inline ::System::Collections::Generic::List_1<::Oculus::Platform::Message*>* Oculus::Platform::Callback::getStaticF_pendingRoomInviteNotifications() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<::Oculus::Platform::Message*>*, "pendingRoomInviteNotifications",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Callback*>::get>();
 }
 inline void Oculus::Platform::Callback::setStaticF_hasRegisteredJoinIntentNotificationHandler(bool value) {
   ::cordl_internals::setStaticField<bool, "hasRegisteredJoinIntentNotificationHandler", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Callback*>::get>(
@@ -288,6 +319,11 @@ inline void Oculus::Platform::Callback::RunLimitedCallbacks(uint32_t limit) {
 inline void Oculus::Platform::Callback::OnApplicationQuit() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Callback*>::get(), "OnApplicationQuit",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
+}
+inline void Oculus::Platform::Callback::FlushRoomInviteNotificationQueue() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Callback*>::get(),
+                                                                             "FlushRoomInviteNotificationQueue", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
 }
 inline void Oculus::Platform::Callback::FlushJoinIntentNotificationQueue() {

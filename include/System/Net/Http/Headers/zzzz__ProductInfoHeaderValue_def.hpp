@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::ProductInfoHeaderValue);
 namespace System::Net::Http::Headers {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14702))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14707))
 // CS Name: ::System.Net.Http.Headers::ProductInfoHeaderValue*
 class CORDL_TYPE ProductInfoHeaderValue : public ::System::Object {
 public:
@@ -69,42 +69,42 @@ public:
 
   static inline ::System::Net::Http::Headers::ProductInfoHeaderValue* New_ctor(::System::Net::Http::Headers::ProductHeaderValue* product);
 
-  /// @brief Method .ctor, addr 0x283f55c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2843bc4, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Http::Headers::ProductHeaderValue* product);
 
   static inline ::System::Net::Http::Headers::ProductInfoHeaderValue* New_ctor();
 
-  /// @brief Method .ctor, addr 0x283f5c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2843c2c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Comment, addr 0x283f5cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Comment, addr 0x2843c34, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Comment();
 
-  /// @brief Method set_Comment, addr 0x283f5d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Comment, addr 0x2843c3c, size 0x8, virtual false, abstract: false, final false
   inline void set_Comment(::StringW value);
 
-  /// @brief Method get_Product, addr 0x283f5dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Product, addr 0x2843c44, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Http::Headers::ProductHeaderValue* get_Product();
 
-  /// @brief Method set_Product, addr 0x283f5e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Product, addr 0x2843c4c, size 0x8, virtual false, abstract: false, final false
   inline void set_Product(::System::Net::Http::Headers::ProductHeaderValue* value);
 
-  /// @brief Method System.ICloneable.Clone, addr 0x283f5ec, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.ICloneable.Clone, addr 0x2843c54, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method Equals, addr 0x283f5f4, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2843c5c, size 0xc0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x283f6b4, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2843d1c, size 0x2c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method TryParse, addr 0x283f6e0, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x2843d48, size 0x1a8, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, int32_t minimalCount, ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::ProductInfoHeaderValue*>*> result);
 
-  /// @brief Method TryParseElement, addr 0x283f888, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method TryParseElement, addr 0x2843ef0, size 0x1ec, virtual false, abstract: false, final false
   static inline bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ByRef<::System::Net::Http::Headers::ProductInfoHeaderValue*> parsedValue);
 
-  /// @brief Method ToString, addr 0x283fa74, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x28440dc, size 0x20, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "ProductInfoHeaderValue", modifiers: "&&", def_value: None }]

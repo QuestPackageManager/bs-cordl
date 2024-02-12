@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::System::Net::DigestClient);
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9161))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7171))
 // CS Name: ::System.Net::DigestClient*
 class CORDL_TYPE DigestClient : public ::System::Object {
 public:
@@ -52,24 +52,24 @@ public:
 
   static inline ::System::Collections::Hashtable* getStaticF_cache();
 
-  /// @brief Method get_Cache, addr 0x29beaac, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method get_Cache, addr 0x29c2550, size 0x168, virtual false, abstract: false, final false
   static inline ::System::Collections::Hashtable* get_Cache();
 
-  /// @brief Method CheckExpired, addr 0x29bec14, size 0x848, virtual false, abstract: false, final false
+  /// @brief Method CheckExpired, addr 0x29c26b8, size 0x848, virtual false, abstract: false, final false
   static inline void CheckExpired(int32_t count);
 
-  /// @brief Method Authenticate, addr 0x29bf45c, size 0x2a8, virtual true, abstract: false, final true
+  /// @brief Method Authenticate, addr 0x29c2f00, size 0x2a8, virtual true, abstract: false, final true
   inline ::System::Net::Authorization* Authenticate(::StringW challenge, ::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
 
-  /// @brief Method PreAuthenticate, addr 0x29bf704, size 0x194, virtual true, abstract: false, final true
+  /// @brief Method PreAuthenticate, addr 0x29c31a8, size 0x194, virtual true, abstract: false, final true
   inline ::System::Net::Authorization* PreAuthenticate(::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
 
-  /// @brief Method get_AuthenticationType, addr 0x29bf898, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_AuthenticationType, addr 0x29c333c, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_AuthenticationType();
 
   static inline ::System::Net::DigestClient* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29badb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29be85c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DigestClient", modifiers: "&&", def_value: None }]

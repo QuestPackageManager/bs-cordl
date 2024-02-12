@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::System::Collections::IEqualityComparer);
 namespace System::Collections {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3761))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3760))
 // CS Name: ::System.Collections::IEqualityComparer*
 class CORDL_TYPE IEqualityComparer {
 public:

@@ -17,12 +17,12 @@ MARK_REF_PTR_T(::System::Net::Mail::DotAtomReader);
 namespace System::Net::Mail {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9377))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7387))
 // CS Name: ::System.Net.Mail::DotAtomReader*
 class CORDL_TYPE DotAtomReader : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ReadReverse, addr 0x2901d40, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method ReadReverse, addr 0x29063a8, size 0x254, virtual false, abstract: false, final false
   static inline int32_t ReadReverse(::StringW data, int32_t index);
 
   // Ctor Parameters [CppParam { name: "", ty: "DotAtomReader", modifiers: "&&", def_value: None }]

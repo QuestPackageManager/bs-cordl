@@ -39,7 +39,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__PosesRecordingSaveData__TransformsSaveKeyfra
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5935))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5195))
 // CS Name: ::PosesRecordingSaveData::PoseSaveData*
 class CORDL_TYPE __PosesRecordingSaveData__PoseSaveData : public ::System::Object {
 public:
@@ -109,7 +109,7 @@ public:
 
   static inline ::GlobalNamespace::__PosesRecordingSaveData__PoseSaveData* New_ctor(float_t posX, float_t posY, float_t posZ, float_t rotX, float_t rotY, float_t rotZ, float_t rotW);
 
-  /// @brief Method .ctor, addr 0x23020b0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2329ff4, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(float_t posX, float_t posY, float_t posZ, float_t rotX, float_t rotY, float_t rotZ, float_t rotW);
 
   // Ctor Parameters [CppParam { name: "", ty: "__PosesRecordingSaveData__PoseSaveData", modifiers: "&&", def_value: None }]
@@ -172,7 +172,7 @@ static_assert(offsetof(::GlobalNamespace::__PosesRecordingSaveData__PoseSaveData
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5936))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5196))
 // CS Name: ::PosesRecordingSaveData::TransformsSaveKeyframe*
 class CORDL_TYPE __PosesRecordingSaveData__TransformsSaveKeyframe : public ::System::Object {
 public:
@@ -200,7 +200,7 @@ public:
   static inline ::GlobalNamespace::__PosesRecordingSaveData__TransformsSaveKeyframe*
   New_ctor(::ArrayW<::GlobalNamespace::__PosesRecordingSaveData__PoseSaveData*, ::Array<::GlobalNamespace::__PosesRecordingSaveData__PoseSaveData*>*> poses, float_t time);
 
-  /// @brief Method .ctor, addr 0x2302114, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x232a058, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::GlobalNamespace::__PosesRecordingSaveData__PoseSaveData*, ::Array<::GlobalNamespace::__PosesRecordingSaveData__PoseSaveData*>*> poses, float_t time);
 
   // Ctor Parameters [CppParam { name: "", ty: "__PosesRecordingSaveData__TransformsSaveKeyframe", modifiers: "&&", def_value: None }]
@@ -238,7 +238,7 @@ static_assert(offsetof(::GlobalNamespace::__PosesRecordingSaveData__TransformsSa
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5937))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5197))
 // CS Name: ::PosesRecordingSaveData::ExternalCameraCalibrationSaveData*
 class CORDL_TYPE __PosesRecordingSaveData__ExternalCameraCalibrationSaveData : public ::System::Object {
 public:
@@ -291,7 +291,7 @@ public:
   static inline ::GlobalNamespace::__PosesRecordingSaveData__ExternalCameraCalibrationSaveData* New_ctor(float_t fieldOfVision, float_t nearClip, float_t farClip, float_t hmdOffset,
                                                                                                          float_t nearOffset);
 
-  /// @brief Method .ctor, addr 0x230214c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x232a090, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(float_t fieldOfVision, float_t nearClip, float_t farClip, float_t hmdOffset, float_t nearOffset);
 
   // Ctor Parameters [CppParam { name: "", ty: "__PosesRecordingSaveData__ExternalCameraCalibrationSaveData", modifiers: "&&", def_value: None }]
@@ -344,7 +344,7 @@ static_assert(offsetof(::GlobalNamespace::__PosesRecordingSaveData__ExternalCame
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5938))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5198))
 // CS Name: ::PosesRecordingSaveData*
 class CORDL_TYPE PosesRecordingSaveData : public ::System::Object {
 public:
@@ -392,7 +392,7 @@ public:
            ::ArrayW<::GlobalNamespace::__PosesRecordingSaveData__TransformsSaveKeyframe*, ::Array<::GlobalNamespace::__PosesRecordingSaveData__TransformsSaveKeyframe*>*> keyframes,
            ::GlobalNamespace::__PosesRecordingSaveData__ExternalCameraCalibrationSaveData* externalCameraCalibration);
 
-  /// @brief Method .ctor, addr 0x2302074, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2329fb8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::StringW, ::Array<::StringW>*> objectIds,
                     ::ArrayW<::GlobalNamespace::__PosesRecordingSaveData__TransformsSaveKeyframe*, ::Array<::GlobalNamespace::__PosesRecordingSaveData__TransformsSaveKeyframe*>*> keyframes,
                     ::GlobalNamespace::__PosesRecordingSaveData__ExternalCameraCalibrationSaveData* externalCameraCalibration);

@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::UnmodifiableList::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::UnmodifiableList::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x115a904;
+  constexpr static std::size_t addrs = 0x1188794;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Utilities::Collections::UnmodifiableList::*)(::System::Object*)>(
     &::Org::BouncyCastle::Utilities::Collections::UnmodifiableList::Add)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x115a90c;
+  constexpr static std::size_t addrs = 0x118879c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::UnmodifiableList::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::UnmodifiableList::Clear)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x115a94c;
+  constexpr static std::size_t addrs = 0x11887dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::UnmodifiableList::*)(int32_t, ::System::Object*)>(
     &::Org::BouncyCastle::Utilities::Collections::UnmodifiableList::Insert)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x115a98c;
+  constexpr static std::size_t addrs = 0x118881c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Utilities::Collections::UnmodifiableList::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::UnmodifiableList::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x115a9cc;
+  constexpr static std::size_t addrs = 0x118885c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -204,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::UnmodifiableList::*)(::System::Object*)>(
     &::Org::BouncyCastle::Utilities::Collections::UnmodifiableList::Remove)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x115a9d4;
+  constexpr static std::size_t addrs = 0x1188864;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -220,7 +220,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::UnmodifiableList::*)(int32_t)>(
     &::Org::BouncyCastle::Utilities::Collections::UnmodifiableList::RemoveAt)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x115aa14;
+  constexpr static std::size_t addrs = 0x11888a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -252,7 +252,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Org::BouncyCastle::Utilities::Collections::UnmodifiableList::*)(int32_t)>(
     &::Org::BouncyCastle::Utilities::Collections::UnmodifiableList::get_Item)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x115aa54;
+  constexpr static std::size_t addrs = 0x11888e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -268,7 +268,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::UnmodifiableList::*)(int32_t, ::System::Object*)>(
     &::Org::BouncyCastle::Utilities::Collections::UnmodifiableList::set_Item)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x115aa64;
+  constexpr static std::size_t addrs = 0x11888f4;
 
   inline static ::MethodInfo const* methodInfo() {
 

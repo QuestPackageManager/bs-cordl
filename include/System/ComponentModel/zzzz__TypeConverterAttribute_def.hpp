@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::System::ComponentModel::TypeConverterAttribute);
 namespace System::ComponentModel {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9458))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7468))
 // CS Name: ::System.ComponentModel::TypeConverterAttribute*
 class CORDL_TYPE TypeConverterAttribute : public ::System::Attribute {
 public:
@@ -48,26 +48,26 @@ public:
 
   static inline ::System::ComponentModel::TypeConverterAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2918dcc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x291d434, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::ComponentModel::TypeConverterAttribute* New_ctor(::System::Type* type);
 
-  /// @brief Method .ctor, addr 0x2918e28, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x291d490, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
   static inline ::System::ComponentModel::TypeConverterAttribute* New_ctor(::StringW typeName);
 
-  /// @brief Method .ctor, addr 0x2918e6c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x291d4d4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW typeName);
 
-  /// @brief Method get_ConverterTypeName, addr 0x2918e94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ConverterTypeName, addr 0x291d4fc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ConverterTypeName();
 
-  /// @brief Method Equals, addr 0x2918e9c, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x291d504, size 0x80, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2918f1c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x291d584, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeConverterAttribute", modifiers: "&&", def_value: None }]

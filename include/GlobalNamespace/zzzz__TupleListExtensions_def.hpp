@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::GlobalNamespace::TupleListExtensions);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15834))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15221))
 // CS Name: ::TupleListExtensions*
 class CORDL_TYPE TupleListExtensions : public ::System::Object {
 public:

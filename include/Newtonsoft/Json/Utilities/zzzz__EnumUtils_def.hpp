@@ -58,7 +58,7 @@ MARK_GEN_REF_PTR_T(::Newtonsoft::Json::Utilities::__EnumUtils____c__2_1);
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11884))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11782))
 // CS Name: ::EnumUtils::<>c*
 class CORDL_TYPE __EnumUtils____c : public ::System::Object {
 public:
@@ -93,16 +93,16 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::__EnumUtils____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2662864, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2685a20, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <InitializeEnumType>b__1_0, addr 0x266286c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <InitializeEnumType>b__1_0, addr 0x2685a28, size 0x18, virtual false, abstract: false, final false
   inline ::StringW _InitializeEnumType_b__1_0(::System::Runtime::Serialization::EnumMemberAttribute* a);
 
-  /// @brief Method <GetValues>b__5_0, addr 0x2662884, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <GetValues>b__5_0, addr 0x2685a40, size 0x18, virtual false, abstract: false, final false
   inline bool _GetValues_b__5_0(::System::Reflection::FieldInfo* f);
 
-  /// @brief Method <GetNames>b__6_0, addr 0x266289c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <GetNames>b__6_0, addr 0x2685a58, size 0x18, virtual false, abstract: false, final false
   inline bool _GetNames_b__6_0(::System::Reflection::FieldInfo* f);
 
   // Ctor Parameters [CppParam { name: "", ty: "__EnumUtils____c", modifiers: "&&", def_value: None }]
@@ -132,7 +132,7 @@ namespace Newtonsoft::Json::Utilities {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11885))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11783))
 // CS Name: ::EnumUtils::<>c__2`1<T>*
 class CORDL_TYPE __EnumUtils____c__2_1 : public ::System::Object {
 public:
@@ -182,7 +182,7 @@ public:
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11886))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11784))
 // CS Name: ::Newtonsoft.Json.Utilities::EnumUtils*
 class CORDL_TYPE EnumUtils : public ::System::Object {
 public:
@@ -200,7 +200,7 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::System::Type*, ::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::StringW>*>* getStaticF_EnumMemberNamesPerType();
 
-  /// @brief Method InitializeEnumType, addr 0x266171c, size 0x434, virtual false, abstract: false, final false
+  /// @brief Method InitializeEnumType, addr 0x26848d8, size 0x434, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::StringW>* InitializeEnumType(::System::Type* type);
 
   /// @brief Method GetFlagsValues, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -212,19 +212,19 @@ public:
   /// @brief Method GetNamesAndValues, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TUnderlyingType> static inline ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Utilities::EnumValue_1<TUnderlyingType>*>* GetNamesAndValues(::System::Type* enumType);
 
-  /// @brief Method GetValues, addr 0x26541e4, size 0x530, virtual false, abstract: false, final false
+  /// @brief Method GetValues, addr 0x26773a0, size 0x530, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IList_1<::System::Object*>* GetValues(::System::Type* enumType);
 
-  /// @brief Method GetNames, addr 0x2661b50, size 0x524, virtual false, abstract: false, final false
+  /// @brief Method GetNames, addr 0x2684d0c, size 0x524, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IList_1<::StringW>* GetNames(::System::Type* enumType);
 
-  /// @brief Method ParseEnumName, addr 0x2662074, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method ParseEnumName, addr 0x2685230, size 0x268, virtual false, abstract: false, final false
   static inline ::System::Object* ParseEnumName(::StringW enumText, bool isNullable, ::System::Type* t);
 
-  /// @brief Method ToEnumName, addr 0x2662354, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method ToEnumName, addr 0x2685510, size 0x1e8, virtual false, abstract: false, final false
   static inline ::StringW ToEnumName(::System::Type* enumType, ::StringW enumText, bool camelCaseText);
 
-  /// @brief Method ResolvedEnumName, addr 0x26622dc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ResolvedEnumName, addr 0x2685498, size 0x78, virtual false, abstract: false, final false
   static inline ::StringW ResolvedEnumName(::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::StringW>* map, ::StringW enumText);
 
   // Ctor Parameters [CppParam { name: "", ty: "EnumUtils", modifiers: "&&", def_value: None }]

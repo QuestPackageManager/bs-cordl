@@ -16,7 +16,7 @@ MARK_VAL_T(::TMPro::SpriteAssetUtilities::SpriteAssetImportFormats);
 namespace TMPro::SpriteAssetUtilities {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12460))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12358))
 // CS Name: ::TMPro.SpriteAssetUtilities::SpriteAssetImportFormats
 struct CORDL_TYPE SpriteAssetImportFormats {
 public:

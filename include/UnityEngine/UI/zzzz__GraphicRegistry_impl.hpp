@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::GraphicRegistry::*)()>(&::UnityEngine::UI::GraphicRegistry::_ctor)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x2d6098c;
+  constexpr static std::size_t addrs = 0x2d7ed74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::GraphicRegistry*>::get(), ".ctor",
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UI::GraphicRegistry* (*)()>(&::UnityEngine::UI::GraphicRegistry::get_instance)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x2d60b34;
+  constexpr static std::size_t addrs = 0x2d7ef1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::GraphicRegistry*>::get(), "get_instance",
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Canvas*, ::UnityEngine::UI::Graphic*)>(
     &::UnityEngine::UI::GraphicRegistry::RegisterGraphicForCanvas)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x2d5c7e4;
+  constexpr static std::size_t addrs = 0x2d7abcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Canvas*, ::UnityEngine::UI::Graphic*)>(
     &::UnityEngine::UI::GraphicRegistry::RegisterRaycastGraphicForCanvas)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x2d5bcbc;
+  constexpr static std::size_t addrs = 0x2d7a0a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Canvas*, ::UnityEngine::UI::Graphic*)>(
     &::UnityEngine::UI::GraphicRegistry::UnregisterGraphicForCanvas)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x2d5d1e8;
+  constexpr static std::size_t addrs = 0x2d7b5d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Canvas*, ::UnityEngine::UI::Graphic*)>(
     &::UnityEngine::UI::GraphicRegistry::UnregisterRaycastGraphicForCanvas)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x2d5bb40;
+  constexpr static std::size_t addrs = 0x2d79f28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Canvas*, ::UnityEngine::UI::Graphic*)>(
     &::UnityEngine::UI::GraphicRegistry::DisableGraphicForCanvas)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x2d5c440;
+  constexpr static std::size_t addrs = 0x2d7a828;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Canvas*, ::UnityEngine::UI::Graphic*)>(
     &::UnityEngine::UI::GraphicRegistry::DisableRaycastGraphicForCanvas)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x2d60bdc;
+  constexpr static std::size_t addrs = 0x2d7efc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::UI::Graphic>>* (*)(::UnityEngine::Canvas*)>(
     &::UnityEngine::UI::GraphicRegistry::GetGraphicsForCanvas)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x2d60d5c;
+  constexpr static std::size_t addrs = 0x2d7f144;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::UI::Graphic>>* (*)(::UnityEngine::Canvas*)>(
     &::UnityEngine::UI::GraphicRegistry::GetRaycastableGraphicsForCanvas)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x2d60154;
+  constexpr static std::size_t addrs = 0x2d7e53c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

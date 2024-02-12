@@ -8,9 +8,6 @@ namespace System::Runtime::CompilerServices {
 class ICriticalNotifyCompletion;
 }
 namespace System::Runtime::CompilerServices {
-class INotifyCompletion;
-}
-namespace System::Runtime::CompilerServices {
 struct __YieldAwaitable__YieldAwaiter;
 }
 namespace System::Threading {
@@ -40,7 +37,7 @@ MARK_VAL_T(::System::Runtime::CompilerServices::__YieldAwaitable__YieldAwaiter);
 namespace System::Runtime::CompilerServices {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3409))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3405))
 // CS Name: ::YieldAwaitable::YieldAwaiter
 #pragma pack(push, 0)
 struct CORDL_TYPE __YieldAwaitable__YieldAwaiter {
@@ -60,12 +57,6 @@ public:
   /// @brief Convert to "::System::Runtime::CompilerServices::ICriticalNotifyCompletion"
   constexpr ::System::Runtime::CompilerServices::ICriticalNotifyCompletion* i___System__Runtime__CompilerServices__ICriticalNotifyCompletion();
 
-  /// @brief Convert operator to "::System::Runtime::CompilerServices::INotifyCompletion"
-  constexpr operator ::System::Runtime::CompilerServices::INotifyCompletion*();
-
-  /// @brief Convert to "::System::Runtime::CompilerServices::INotifyCompletion"
-  constexpr ::System::Runtime::CompilerServices::INotifyCompletion* i___System__Runtime__CompilerServices__INotifyCompletion();
-
   static inline void setStaticF_s_waitCallbackRunAction(::System::Threading::WaitCallback* value);
 
   static inline ::System::Threading::WaitCallback* getStaticF_s_waitCallbackRunAction();
@@ -74,22 +65,19 @@ public:
 
   static inline ::System::Threading::SendOrPostCallback* getStaticF_s_sendOrPostCallbackRunAction();
 
-  /// @brief Method get_IsCompleted, addr 0x24de710, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsCompleted, addr 0x24fd8c4, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsCompleted();
 
-  /// @brief Method OnCompleted, addr 0x24de718, size 0x58, virtual true, abstract: false, final true
-  inline void OnCompleted(::System::Action* continuation);
-
-  /// @brief Method UnsafeOnCompleted, addr 0x24dea10, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method UnsafeOnCompleted, addr 0x24fd8cc, size 0x58, virtual true, abstract: false, final true
   inline void UnsafeOnCompleted(::System::Action* continuation);
 
-  /// @brief Method QueueContinuation, addr 0x24de770, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method QueueContinuation, addr 0x24fd924, size 0x2a0, virtual false, abstract: false, final false
   static inline void QueueContinuation(::System::Action* continuation, bool flowContext);
 
-  /// @brief Method RunAction, addr 0x24dea68, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method RunAction, addr 0x24fdbc4, size 0x6c, virtual false, abstract: false, final false
   static inline void RunAction(::System::Object* state);
 
-  /// @brief Method GetResult, addr 0x24dead4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetResult, addr 0x24fdc30, size 0x4, virtual false, abstract: false, final false
   inline void GetResult();
 
   // Ctor Parameters []
@@ -114,7 +102,7 @@ static_assert(::cordl_internals::size_check_v<::System::Runtime::CompilerService
 namespace System::Runtime::CompilerServices {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3410))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3406))
 // CS Name: ::System.Runtime.CompilerServices::YieldAwaitable
 #pragma pack(push, 0)
 struct CORDL_TYPE YieldAwaitable {
@@ -122,7 +110,7 @@ public:
   // Declarations
   using YieldAwaiter = ::System::Runtime::CompilerServices::__YieldAwaitable__YieldAwaiter;
 
-  /// @brief Method GetAwaiter, addr 0x24de708, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetAwaiter, addr 0x24fd8bc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::CompilerServices::__YieldAwaitable__YieldAwaiter GetAwaiter();
 
   // Ctor Parameters []

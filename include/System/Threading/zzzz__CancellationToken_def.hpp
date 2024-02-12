@@ -53,10 +53,10 @@ public:
 
   static inline ::System::Threading::__CancellationToken____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2610d0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2635c14, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <.cctor>b__26_0, addr 0x2610d14, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__26_0, addr 0x2635c1c, size 0x6c, virtual false, abstract: false, final false
   inline void __cctor_b__26_0(::System::Object* obj);
 
   // Ctor Parameters [CppParam { name: "", ty: "__CancellationToken____c", modifiers: "&&", def_value: None }]
@@ -102,53 +102,53 @@ public:
 
   static inline ::System::Action_1<::System::Object*>* getStaticF_s_actionToActionObjShunt();
 
-  /// @brief Method get_None, addr 0x261038c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_None, addr 0x2635294, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Threading::CancellationToken get_None();
 
-  /// @brief Method get_IsCancellationRequested, addr 0x2610394, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_IsCancellationRequested, addr 0x263529c, size 0x2c, virtual false, abstract: false, final false
   inline bool get_IsCancellationRequested();
 
-  /// @brief Method get_CanBeCanceled, addr 0x26103dc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_CanBeCanceled, addr 0x26352e4, size 0x10, virtual false, abstract: false, final false
   inline bool get_CanBeCanceled();
 
-  /// @brief Method .ctor, addr 0x26103ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26352f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::CancellationTokenSource* source);
 
-  /// @brief Method .ctor, addr 0x26103f4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26352fc, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(bool canceled);
 
-  /// @brief Method Register, addr 0x2610468, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Register, addr 0x2635370, size 0xec, virtual false, abstract: false, final false
   inline ::System::Threading::CancellationTokenRegistration Register(::System::Action* callback);
 
-  /// @brief Method Register, addr 0x2610684, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Register, addr 0x263558c, size 0x38, virtual false, abstract: false, final false
   inline ::System::Threading::CancellationTokenRegistration Register(::System::Action_1<::System::Object*>* callback, ::System::Object* state);
 
-  /// @brief Method InternalRegisterWithoutEC, addr 0x26106bc, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method InternalRegisterWithoutEC, addr 0x26355c4, size 0x38, virtual false, abstract: false, final false
   inline ::System::Threading::CancellationTokenRegistration InternalRegisterWithoutEC(::System::Action_1<::System::Object*>* callback, ::System::Object* state);
 
-  /// @brief Method Register, addr 0x2610554, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method Register, addr 0x263545c, size 0x130, virtual false, abstract: false, final false
   inline ::System::Threading::CancellationTokenRegistration Register(::System::Action_1<::System::Object*>* callback, ::System::Object* state, bool useSynchronizationContext,
                                                                      bool useExecutionContext);
 
-  /// @brief Method Equals, addr 0x2610a3c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x2635944, size 0x10, virtual false, abstract: false, final false
   inline bool Equals(::System::Threading::CancellationToken other);
 
-  /// @brief Method Equals, addr 0x2610a4c, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2635954, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method GetHashCode, addr 0x2610ac4, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x26359cc, size 0x74, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method op_Equality, addr 0x2610b38, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x2635a40, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Threading::CancellationToken left, ::System::Threading::CancellationToken right);
 
-  /// @brief Method op_Inequality, addr 0x2610b44, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x2635a4c, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Inequality(::System::Threading::CancellationToken left, ::System::Threading::CancellationToken right);
 
-  /// @brief Method ThrowIfCancellationRequested, addr 0x2610b50, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method ThrowIfCancellationRequested, addr 0x2635a58, size 0x38, virtual false, abstract: false, final false
   inline void ThrowIfCancellationRequested();
 
-  /// @brief Method ThrowOperationCanceledException, addr 0x2610b88, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ThrowOperationCanceledException, addr 0x2635a90, size 0x5c, virtual false, abstract: false, final false
   inline void ThrowOperationCanceledException();
 
   // Ctor Parameters [CppParam { name: "_source", ty: "::System::Threading::CancellationTokenSource*", modifiers: "", def_value: None }]

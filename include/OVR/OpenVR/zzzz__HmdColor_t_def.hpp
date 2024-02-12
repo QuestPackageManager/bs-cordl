@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::HmdColor_t);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8653))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8597))
 // CS Name: ::OVR.OpenVR::HmdColor_t
 struct CORDL_TYPE HmdColor_t {
 public:

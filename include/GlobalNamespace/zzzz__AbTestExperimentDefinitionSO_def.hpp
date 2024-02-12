@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::GlobalNamespace::AbTestExperimentDefinitionSO);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5816))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5116))
 // CS Name: ::AbTestExperimentDefinitionSO::Group
 struct CORDL_TYPE __AbTestExperimentDefinitionSO__Group {
 public:
@@ -80,8 +80,8 @@ static_assert(offsetof(::GlobalNamespace::__AbTestExperimentDefinitionSO__Group,
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5816)), TypeDefinitionIndex(TypeDefinitionIndex(15857))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5817))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5116)), TypeDefinitionIndex(TypeDefinitionIndex(15602))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5117))
 // CS Name: ::AbTestExperimentDefinitionSO*
 class CORDL_TYPE AbTestExperimentDefinitionSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -151,33 +151,33 @@ public:
 
   constexpr void __cordl_internal_set__currentUserTreatmentGroup(::GlobalNamespace::__AbTestExperimentDefinitionSO__Group value);
 
-  /// @brief Method get_test1GroupSize, addr 0x22eada8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_test1GroupSize, addr 0x2319de4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_test1GroupSize();
 
-  /// @brief Method get_test2GroupSize, addr 0x22eadb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_test2GroupSize, addr 0x2319dec, size 0x8, virtual false, abstract: false, final false
   inline float_t get_test2GroupSize();
 
-  /// @brief Method get_experimentName, addr 0x22eadb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_experimentName, addr 0x2319df4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_experimentName();
 
-  /// @brief Method get_currentUserTreatmentGroup, addr 0x22eadc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_currentUserTreatmentGroup, addr 0x2319dfc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__AbTestExperimentDefinitionSO__Group get_currentUserTreatmentGroup();
 
-  /// @brief Method OnValidate, addr 0x22eadc8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x2319e04, size 0x2c, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method ComputeCurrentUserTreatment, addr 0x22eadf4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ComputeCurrentUserTreatment, addr 0x2319e30, size 0x18, virtual false, abstract: false, final false
   inline void ComputeCurrentUserTreatment(::StringW userId);
 
-  /// @brief Method ForceSetTreatmentGroup, addr 0x22eb094, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ForceSetTreatmentGroup, addr 0x231a0d0, size 0x8, virtual false, abstract: false, final false
   inline void ForceSetTreatmentGroup(::GlobalNamespace::__AbTestExperimentDefinitionSO__Group group);
 
-  /// @brief Method AbSplit, addr 0x22eae0c, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method AbSplit, addr 0x2319e48, size 0x288, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__AbTestExperimentDefinitionSO__Group AbSplit(::StringW userId);
 
   static inline ::GlobalNamespace::AbTestExperimentDefinitionSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22eb09c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x231a0d8, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AbTestExperimentDefinitionSO", modifiers: "&&", def_value: None }]

@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::System::Net::Security::AuthenticatedStream);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Security {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3619))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9364))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3617))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7374))
 // CS Name: ::System.Net.Security::AuthenticatedStream*
 class CORDL_TYPE AuthenticatedStream : public ::System::IO::Stream {
 public:
@@ -47,13 +47,13 @@ public:
 
   static inline ::System::Net::Security::AuthenticatedStream* New_ctor(::System::IO::Stream* innerStream, bool leaveInnerStreamOpen);
 
-  /// @brief Method .ctor, addr 0x28ff760, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2903dc8, size 0x198, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* innerStream, bool leaveInnerStreamOpen);
 
-  /// @brief Method get_InnerStream, addr 0x28ff8f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InnerStream, addr 0x2903f60, size 0x8, virtual false, abstract: false, final false
   inline ::System::IO::Stream* get_InnerStream();
 
-  /// @brief Method Dispose, addr 0x28ff900, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x2903f68, size 0xe8, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   /// @brief Method get_IsAuthenticated, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

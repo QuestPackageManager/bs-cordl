@@ -44,19 +44,19 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Parameters::ElGamalPublicKeyParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* y,
                                                                                               ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* parameters);
 
-  /// @brief Method .ctor, addr 0xf35bc8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf60a58, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* y, ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* parameters);
 
-  /// @brief Method get_Y, addr 0xf35c4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Y, addr 0xf60adc, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Y();
 
-  /// @brief Method Equals, addr 0xf35c54, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0xf60ae4, size 0x9c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0xf35cf0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0xf60b80, size 0x58, virtual false, abstract: false, final false
   inline bool Equals(::Org::BouncyCastle::Crypto::Parameters::ElGamalPublicKeyParameters* other);
 
-  /// @brief Method GetHashCode, addr 0xf35d48, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0xf60bd8, size 0x40, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "ElGamalPublicKeyParameters", modifiers: "&&", def_value: None }]

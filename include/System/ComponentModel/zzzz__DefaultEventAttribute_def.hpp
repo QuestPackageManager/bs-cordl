@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::System::ComponentModel::DefaultEventAttribute);
 namespace System::ComponentModel {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9417))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7427))
 // CS Name: ::System.ComponentModel::DefaultEventAttribute*
 class CORDL_TYPE DefaultEventAttribute : public ::System::Attribute {
 public:
@@ -45,16 +45,16 @@ public:
 
   static inline ::System::ComponentModel::DefaultEventAttribute* New_ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x290e460, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2912ac8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method get_Name, addr 0x290e488, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x2912af0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method Equals, addr 0x290e490, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2912af8, size 0x80, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x290e510, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2912b78, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultEventAttribute", modifiers: "&&", def_value: None }]

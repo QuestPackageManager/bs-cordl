@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::GlobalNamespace::FloatFxBeatmapEventData);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14731)), TypeDefinitionIndex(TypeDefinitionIndex(16090))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14732))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15115)), TypeDefinitionIndex(TypeDefinitionIndex(16199))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15116))
 // CS Name: ::FloatFxBeatmapEventData*
 class CORDL_TYPE FloatFxBeatmapEventData : public ::GlobalNamespace::FxBeatmapEventData {
 public:
@@ -64,30 +64,30 @@ public:
 
   static inline ::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::FloatFxBeatmapEventData*>* getStaticF__defaults();
 
-  /// @brief Method get_value, addr 0xdfe3bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0xe0e880, size 0x8, virtual false, abstract: false, final false
   inline float_t get_value();
 
-  /// @brief Method set_value, addr 0xdfe3c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_value, addr 0xe0e888, size 0x8, virtual false, abstract: false, final false
   inline void set_value(float_t value);
 
-  /// @brief Method get_easeType, addr 0xdfe3cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_easeType, addr 0xe0e890, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EaseType get_easeType();
 
-  /// @brief Method set_easeType, addr 0xdfe3d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_easeType, addr 0xe0e898, size 0x8, virtual false, abstract: false, final false
   inline void set_easeType(::GlobalNamespace::EaseType value);
 
   static inline ::GlobalNamespace::FloatFxBeatmapEventData* New_ctor(float_t time, int32_t groupId, int32_t elementId, bool usePreviousEventValue, float_t value, ::GlobalNamespace::EaseType easeType);
 
-  /// @brief Method .ctor, addr 0xdfe3dc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe0e8a0, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(float_t time, int32_t groupId, int32_t elementId, bool usePreviousEventValue, float_t value, ::GlobalNamespace::EaseType easeType);
 
-  /// @brief Method UpdateBy, addr 0xdfe458, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method UpdateBy, addr 0xe0e91c, size 0x1c, virtual false, abstract: false, final false
   inline void UpdateBy(::GlobalNamespace::FloatFxBeatmapEventData* other);
 
-  /// @brief Method GetCopy, addr 0xdfe474, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method GetCopy, addr 0xe0e938, size 0xa4, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDataItem* GetCopy();
 
-  /// @brief Method GetDefault, addr 0xdfe518, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method GetDefault, addr 0xe0e9dc, size 0x13c, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventData* GetDefault();
 
   // Ctor Parameters [CppParam { name: "", ty: "FloatFxBeatmapEventData", modifiers: "&&", def_value: None }]

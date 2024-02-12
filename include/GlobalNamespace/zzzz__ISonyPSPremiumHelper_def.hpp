@@ -36,7 +36,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ISonyPSPremiumHelper);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4574))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11001))
 // CS Name: ::ISonyPSPremiumHelper::DisplayJoinPremiumDialogResult
 struct CORDL_TYPE __ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult {
 public:
@@ -86,7 +86,7 @@ static_assert(offsetof(::GlobalNamespace::__ISonyPSPremiumHelper__DisplayJoinPre
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4575))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11002))
 // CS Name: ::ISonyPSPremiumHelper::GetPremiumStatusResult
 struct CORDL_TYPE __ISonyPSPremiumHelper__GetPremiumStatusResult {
 public:
@@ -140,7 +140,7 @@ static_assert(offsetof(::GlobalNamespace::__ISonyPSPremiumHelper__GetPremiumStat
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4576))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11003))
 // CS Name: ::ISonyPSPremiumHelper*
 class CORDL_TYPE ISonyPSPremiumHelper {
 public:

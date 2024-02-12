@@ -48,22 +48,22 @@ public:
 
   __declspec(property(get = get_Object))::System::Object* Object;
 
-  /// @brief Method .ctor, addr 0x26063e0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x262a2e8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t value);
 
-  /// @brief Method .ctor, addr 0x26063ec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x262a2f4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t intValue, ::StringW stringValue);
 
-  /// @brief Method op_Implicit, addr 0x2602ea8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2626db0, size 0xc, virtual false, abstract: false, final false
   static inline ::System::__ParameterizedStrings__FormatParam op_Implicit___System____ParameterizedStrings__FormatParam(int32_t value);
 
-  /// @brief Method get_Int32, addr 0x26063f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Int32, addr 0x262a300, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Int32();
 
-  /// @brief Method get_String, addr 0x2605c6c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_String, addr 0x2629b74, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_String();
 
-  /// @brief Method get_Object, addr 0x2605cc0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_Object, addr 0x2629bc8, size 0x5c, virtual false, abstract: false, final false
   inline ::System::Object* get_Object();
 
   // Ctor Parameters [CppParam { name: "_int32", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_string", ty: "::StringW", modifiers: "", def_value: None }]
@@ -123,16 +123,16 @@ public:
 
   static inline ::System::__ParameterizedStrings__LowLevelStack* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2605304, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x262920c, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Pop, addr 0x2605bd8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Pop, addr 0x2629ae0, size 0x94, virtual false, abstract: false, final false
   inline ::System::__ParameterizedStrings__FormatParam Pop();
 
-  /// @brief Method Push, addr 0x2605f70, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method Push, addr 0x2629e78, size 0xd8, virtual false, abstract: false, final false
   inline void Push(::System::__ParameterizedStrings__FormatParam item);
 
-  /// @brief Method Clear, addr 0x2605354, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x262925c, size 0x28, virtual false, abstract: false, final false
   inline void Clear();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ParameterizedStrings__LowLevelStack", modifiers: "&&", def_value: None }]
@@ -186,34 +186,34 @@ public:
 
   static inline ::System::__ParameterizedStrings__LowLevelStack* getStaticF__cachedStack();
 
-  /// @brief Method Evaluate, addr 0x2602eb4, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method Evaluate, addr 0x2626dbc, size 0x16c, virtual false, abstract: false, final false
   static inline ::StringW Evaluate(::StringW format, ::ArrayW<::System::__ParameterizedStrings__FormatParam, ::Array<::System::__ParameterizedStrings__FormatParam>*> args);
 
-  /// @brief Method EvaluateInternal, addr 0x260537c, size 0x85c, virtual false, abstract: false, final false
+  /// @brief Method EvaluateInternal, addr 0x2629284, size 0x85c, virtual false, abstract: false, final false
   static inline ::StringW EvaluateInternal(::StringW format, ByRef<int32_t> pos, ::ArrayW<::System::__ParameterizedStrings__FormatParam, ::Array<::System::__ParameterizedStrings__FormatParam>*> args,
                                            ::System::__ParameterizedStrings__LowLevelStack* stack,
                                            ByRef<::ArrayW<::System::__ParameterizedStrings__FormatParam, ::Array<::System::__ParameterizedStrings__FormatParam>*>> dynamicVars,
                                            ByRef<::ArrayW<::System::__ParameterizedStrings__FormatParam, ::Array<::System::__ParameterizedStrings__FormatParam>*>> staticVars);
 
-  /// @brief Method AsBool, addr 0x2606158, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method AsBool, addr 0x262a060, size 0xc, virtual false, abstract: false, final false
   static inline bool AsBool(int32_t i);
 
-  /// @brief Method AsInt, addr 0x2606150, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AsInt, addr 0x262a058, size 0x8, virtual false, abstract: false, final false
   static inline int32_t AsInt(bool b);
 
-  /// @brief Method StringFromAsciiBytes, addr 0x2606164, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method StringFromAsciiBytes, addr 0x262a06c, size 0xf8, virtual false, abstract: false, final false
   static inline ::StringW StringFromAsciiBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t length);
 
-  /// @brief Method snprintf, addr 0x260625c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method snprintf, addr 0x262a164, size 0xcc, virtual false, abstract: false, final false
   static inline int32_t snprintf(::cordl_internals::Ptr<uint8_t> str, void* size, ::StringW format, ::StringW arg1);
 
-  /// @brief Method snprintf, addr 0x2606328, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method snprintf, addr 0x262a230, size 0xb8, virtual false, abstract: false, final false
   static inline int32_t snprintf(::cordl_internals::Ptr<uint8_t> str, void* size, ::StringW format, int32_t arg1);
 
-  /// @brief Method FormatPrintF, addr 0x2605d1c, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method FormatPrintF, addr 0x2629c24, size 0x254, virtual false, abstract: false, final false
   static inline ::StringW FormatPrintF(::StringW format, ::System::Object* arg);
 
-  /// @brief Method GetDynamicOrStaticVariables, addr 0x2606048, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetDynamicOrStaticVariables, addr 0x2629f50, size 0x108, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::__ParameterizedStrings__FormatParam, ::Array<::System::__ParameterizedStrings__FormatParam>*>
   GetDynamicOrStaticVariables(char16_t c, ByRef<::ArrayW<::System::__ParameterizedStrings__FormatParam, ::Array<::System::__ParameterizedStrings__FormatParam>*>> dynamicVars,
                               ByRef<::ArrayW<::System::__ParameterizedStrings__FormatParam, ::Array<::System::__ParameterizedStrings__FormatParam>*>> staticVars, ByRef<int32_t> index);

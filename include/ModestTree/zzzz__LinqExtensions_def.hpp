@@ -66,7 +66,7 @@ namespace ModestTree {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10610))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9752))
 // CS Name: ::LinqExtensions::<Yield>d__0`1<T>*
 class CORDL_TYPE __LinqExtensions___Yield_d__0_1 : public ::System::Object {
 public:
@@ -216,7 +216,7 @@ namespace ModestTree {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10611))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9753))
 // CS Name: ::LinqExtensions::<>c__8`1<T>*
 class CORDL_TYPE __LinqExtensions____c__8_1 : public ::System::Object {
 public:
@@ -288,7 +288,7 @@ namespace ModestTree {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10612))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9754))
 // CS Name: ::LinqExtensions::<>c__DisplayClass10_0`1<T>*
 class CORDL_TYPE __LinqExtensions____c__DisplayClass10_0_1 : public ::System::Object {
 public:
@@ -336,7 +336,7 @@ public:
 namespace ModestTree {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10613))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9755))
 // CS Name: ::ModestTree::LinqExtensions*
 class CORDL_TYPE LinqExtensions : public ::System::Object {
 public:

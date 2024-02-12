@@ -17,7 +17,7 @@ MARK_VAL_T(::System::Globalization::InternalCodePageDataItem);
 namespace System::Globalization {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3717))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3715))
 // CS Name: ::System.Globalization::InternalCodePageDataItem
 struct CORDL_TYPE InternalCodePageDataItem {
 public:

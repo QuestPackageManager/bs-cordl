@@ -93,33 +93,33 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::PublicKeyPacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor, addr 0x11ce7f4, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11fc684, size 0x298, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
   static inline ::Org::BouncyCastle::Bcpg::PublicKeyPacket* New_ctor(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, ::System::DateTime time, ::Org::BouncyCastle::Bcpg::IBcpgKey* key);
 
-  /// @brief Method .ctor, addr 0x11d259c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x120042c, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, ::System::DateTime time, ::Org::BouncyCastle::Bcpg::IBcpgKey* key);
 
-  /// @brief Method get_Version, addr 0x11d2650, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Version, addr 0x12004e0, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Version();
 
-  /// @brief Method get_Algorithm, addr 0x11d2658, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Algorithm, addr 0x12004e8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag get_Algorithm();
 
-  /// @brief Method get_ValidDays, addr 0x11d2660, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ValidDays, addr 0x12004f0, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ValidDays();
 
-  /// @brief Method GetTime, addr 0x11d2668, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method GetTime, addr 0x12004f8, size 0x60, virtual true, abstract: false, final false
   inline ::System::DateTime GetTime();
 
-  /// @brief Method get_Key, addr 0x11d26c8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Key, addr 0x1200558, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::IBcpgKey* get_Key();
 
-  /// @brief Method GetEncodedContents, addr 0x11d26d0, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method GetEncodedContents, addr 0x1200560, size 0x15c, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncodedContents();
 
-  /// @brief Method Encode, addr 0x11d282c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x12006bc, size 0x38, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
   // Ctor Parameters [CppParam { name: "", ty: "PublicKeyPacket", modifiers: "&&", def_value: None }]

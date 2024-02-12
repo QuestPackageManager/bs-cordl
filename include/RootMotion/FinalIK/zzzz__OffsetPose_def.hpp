@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__OffsetPose__EffectorLink);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(12571))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12659))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(12469))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12557))
 // CS Name: ::OffsetPose::EffectorLink*
 class CORDL_TYPE __OffsetPose__EffectorLink : public ::System::Object {
 public:
@@ -74,12 +74,12 @@ public:
 
   constexpr void __cordl_internal_set_pinWeight(::UnityEngine::Vector3 value);
 
-  /// @brief Method Apply, addr 0x1298680, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x1330730, size 0x250, virtual false, abstract: false, final false
   inline void Apply(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float_t weight, ::UnityEngine::Quaternion rotation);
 
   static inline ::RootMotion::FinalIK::__OffsetPose__EffectorLink* New_ctor();
 
-  /// @brief Method .ctor, addr 0x12989cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1330a7c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__OffsetPose__EffectorLink", modifiers: "&&", def_value: None }]
@@ -126,8 +126,8 @@ static_assert(offsetof(::RootMotion::FinalIK::__OffsetPose__EffectorLink, ___pin
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12660))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12558))
 // CS Name: ::RootMotion.FinalIK::OffsetPose*
 class CORDL_TYPE OffsetPose : public ::UnityEngine::MonoBehaviour {
 public:
@@ -145,15 +145,15 @@ public:
 
   constexpr void __cordl_internal_set_effectorLinks(::ArrayW<::RootMotion::FinalIK::__OffsetPose__EffectorLink*, ::Array<::RootMotion::FinalIK::__OffsetPose__EffectorLink*>*> value);
 
-  /// @brief Method Apply, addr 0x1294c80, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x132cd30, size 0xb4, virtual false, abstract: false, final false
   inline void Apply(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float_t weight);
 
-  /// @brief Method Apply, addr 0x12988d0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x1330980, size 0xa4, virtual false, abstract: false, final false
   inline void Apply(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float_t weight, ::UnityEngine::Quaternion rotation);
 
   static inline ::RootMotion::FinalIK::OffsetPose* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1298974, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1330a24, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OffsetPose", modifiers: "&&", def_value: None }]

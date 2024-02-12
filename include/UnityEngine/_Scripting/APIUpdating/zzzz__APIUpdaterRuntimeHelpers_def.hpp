@@ -20,15 +20,15 @@ MARK_REF_PTR_T(::UnityEngine::_Scripting::APIUpdating::APIUpdaterRuntimeHelpers)
 namespace UnityEngine::_Scripting::APIUpdating {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10292))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9038))
 // CS Name: ::UnityEngine._Scripting.APIUpdating::APIUpdaterRuntimeHelpers*
 class CORDL_TYPE APIUpdaterRuntimeHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetMovedFromAttributeDataForType, addr 0x2ce60f8, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method GetMovedFromAttributeDataForType, addr 0x2ced28c, size 0x140, virtual false, abstract: false, final false
   static inline bool GetMovedFromAttributeDataForType(::System::Type* sourceType, ByRef<::StringW> assembly, ByRef<::StringW> nsp, ByRef<::StringW> klass);
 
-  /// @brief Method GetObsoleteTypeRedirection, addr 0x2ce6238, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method GetObsoleteTypeRedirection, addr 0x2ced3cc, size 0x2bc, virtual false, abstract: false, final false
   static inline bool GetObsoleteTypeRedirection(::System::Type* sourceType, ByRef<::StringW> assemblyName, ByRef<::StringW> nsp, ByRef<::StringW> className);
 
   // Ctor Parameters [CppParam { name: "", ty: "APIUpdaterRuntimeHelpers", modifiers: "&&", def_value: None }]

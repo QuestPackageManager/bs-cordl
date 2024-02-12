@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LightRotationGroupEffect__InitData::*)(
     int32_t, int32_t, ::GlobalNamespace::LightAxis, bool, ::UnityEngine::Transform*)>(&::GlobalNamespace::__LightRotationGroupEffect__InitData::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x23aa06c;
+  constexpr static std::size_t addrs = 0x236a1a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -111,7 +111,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::__LightRotationGroupEffect__InitData*, ::Tweening::SongTimeTweeningManager*, ::GlobalNamespace::BeatmapCallbacksController*)>(
     &::GlobalNamespace::LightRotationGroupEffect::_ctor)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x23a9a70;
+  constexpr static std::size_t addrs = 0x2369ba4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -127,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightRotationGroupEffect::*)()>(&::GlobalNamespace::LightRotationGroupEffect::Cleanup)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x23a9c90;
+  constexpr static std::size_t addrs = 0x2369dc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightRotationGroupEffect*>::get(), "Cleanup",
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightRotationGroupEffect::*)(::GlobalNamespace::LightRotationBeatmapEventData*)>(
     &::GlobalNamespace::LightRotationGroupEffect::HandleRotationChangeBeatmapEvent)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x23a9d2c;
+  constexpr static std::size_t addrs = 0x2369e60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightRotationGroupEffect::*)(float_t)>(
     &::GlobalNamespace::LightRotationGroupEffect::SetRotation)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x23a9eb0;
+  constexpr static std::size_t addrs = 0x2369fe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, float_t, int32_t, ::GlobalNamespace::LightRotationDirection)>(
     &::GlobalNamespace::LightRotationGroupEffect::ComputeTargetAngle)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x23a9f88;
+  constexpr static std::size_t addrs = 0x236a0bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

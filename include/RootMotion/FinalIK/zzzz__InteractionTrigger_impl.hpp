@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::RootMotion::FinalIK::__InteractionTrigger__CharacterPosition::*)()>(
     &::RootMotion::FinalIK::__InteractionTrigger__CharacterPosition::get_offset3D)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x128ba18;
+  constexpr static std::size_t addrs = 0x1323ac8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::RootMotion::FinalIK::__InteractionTrigger__CharacterPosition::*)()>(
     &::RootMotion::FinalIK::__InteractionTrigger__CharacterPosition::get_direction3D)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x128ba24;
+  constexpr static std::size_t addrs = 0x1323ad4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::RootMotion::FinalIK::__InteractionTrigger__CharacterPosition::*)(
     ::UnityEngine::Transform*, ::UnityEngine::Transform*, ByRef<float_t>)>(&::RootMotion::FinalIK::__InteractionTrigger__CharacterPosition::IsInRange)> {
   constexpr static std::size_t size = 0x764;
-  constexpr static std::size_t addrs = 0x128bae4;
+  constexpr static std::size_t addrs = 0x1323b94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__InteractionTrigger__CharacterPosition::*)()>(
     &::RootMotion::FinalIK::__InteractionTrigger__CharacterPosition::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x128c248;
+  constexpr static std::size_t addrs = 0x13242f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -195,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (::RootMotion::FinalIK::__InteractionTrigger__CameraPosition::*)()>(
     &::RootMotion::FinalIK::__InteractionTrigger__CameraPosition::GetRotation)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x128c25c;
+  constexpr static std::size_t addrs = 0x132430c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -210,7 +210,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::RootMotion::FinalIK::__InteractionTrigger__CameraPosition::*)(
     ::UnityEngine::Transform*, ::UnityEngine::RaycastHit, ::UnityEngine::Transform*, ByRef<float_t>)>(&::RootMotion::FinalIK::__InteractionTrigger__CameraPosition::IsInRange)> {
   constexpr static std::size_t size = 0x308;
-  constexpr static std::size_t addrs = 0x128c3d4;
+  constexpr static std::size_t addrs = 0x1324484;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -227,7 +227,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__InteractionTrigger__CameraPosition::*)()>(
     &::RootMotion::FinalIK::__InteractionTrigger__CameraPosition::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x128c6dc;
+  constexpr static std::size_t addrs = 0x132478c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -328,7 +328,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__InteractionTrigger__Range__Interaction::*)()>(
     &::GlobalNamespace::__InteractionTrigger__Range__Interaction::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x128c760;
+  constexpr static std::size_t addrs = 0x1324810;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -381,7 +381,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::RootMotion::FinalIK::__InteractionTrigger__Range::*)(
     ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::RaycastHit, ::UnityEngine::Transform*, ByRef<float_t>)>(&::RootMotion::FinalIK::__InteractionTrigger__Range::IsInRange)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x128b910;
+  constexpr static std::size_t addrs = 0x13239c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -399,7 +399,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__InteractionTrigger__Range::*)()>(
     &::RootMotion::FinalIK::__InteractionTrigger__Range::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x128c750;
+  constexpr static std::size_t addrs = 0x1324800;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::__InteractionTrigger__Range*>::get(),
@@ -497,7 +497,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::InteractionTrigger::*)()>(&::RootMotion::FinalIK::InteractionTrigger::OpenUserManual)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x128b7b8;
+  constexpr static std::size_t addrs = 0x1323868;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::InteractionTrigger*>::get(),
@@ -511,7 +511,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::InteractionTrigger::*)()>(
     &::RootMotion::FinalIK::InteractionTrigger::OpenScriptReference)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x128b7fc;
+  constexpr static std::size_t addrs = 0x13238ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::InteractionTrigger*>::get(),
@@ -524,7 +524,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::InteractionTrigger::*)()>(&::RootMotion::FinalIK::InteractionTrigger::OpenTutorial4)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x128b840;
+  constexpr static std::size_t addrs = 0x13238f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::InteractionTrigger*>::get(),
@@ -537,7 +537,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::InteractionTrigger::*)()>(&::RootMotion::FinalIK::InteractionTrigger::SupportGroup)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x128b884;
+  constexpr static std::size_t addrs = 0x1323934;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::InteractionTrigger*>::get(),
@@ -550,7 +550,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::InteractionTrigger::*)()>(&::RootMotion::FinalIK::InteractionTrigger::ASThread)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x128b8c8;
+  constexpr static std::size_t addrs = 0x1323978;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::InteractionTrigger*>::get(), "ASThread",
@@ -563,7 +563,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::InteractionTrigger::*)()>(&::RootMotion::FinalIK::InteractionTrigger::Start)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x128b90c;
+  constexpr static std::size_t addrs = 0x13239bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::InteractionTrigger*>::get(), "Start",
@@ -577,7 +577,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::RootMotion::FinalIK::InteractionTrigger::*)(
     ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::RaycastHit)>(&::RootMotion::FinalIK::InteractionTrigger::GetBestRangeIndex)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x128a250;
+  constexpr static std::size_t addrs = 0x1322300;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -593,7 +593,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::InteractionTrigger::*)()>(&::RootMotion::FinalIK::InteractionTrigger::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x128b9c0;
+  constexpr static std::size_t addrs = 0x1323a70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::InteractionTrigger*>::get(), ".ctor",

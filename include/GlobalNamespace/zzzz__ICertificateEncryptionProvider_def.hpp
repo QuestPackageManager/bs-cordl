@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ICertificateEncryptionProvider);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12776))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12674))
 // CS Name: ::ICertificateEncryptionProvider*
 class CORDL_TYPE ICertificateEncryptionProvider {
 public:

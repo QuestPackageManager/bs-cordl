@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::HSVColor);
 namespace UnityEngine::ProBuilder {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12113))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12011))
 // CS Name: ::UnityEngine.ProBuilder::HSVColor*
 class CORDL_TYPE HSVColor : public ::System::Object {
 public:
@@ -54,21 +54,21 @@ public:
 
   static inline ::UnityEngine::ProBuilder::HSVColor* New_ctor(float_t h, float_t s, float_t v);
 
-  /// @brief Method .ctor, addr 0x2b3d220, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b3bd8c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(float_t h, float_t s, float_t v);
 
   static inline ::UnityEngine::ProBuilder::HSVColor* New_ctor(float_t h, float_t s, float_t v, float_t sv_modifier);
 
-  /// @brief Method .ctor, addr 0x2b3d25c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b3bdc8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(float_t h, float_t s, float_t v, float_t sv_modifier);
 
-  /// @brief Method FromRGB, addr 0x2b3d2a4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method FromRGB, addr 0x2b3be10, size 0x7c, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::HSVColor* FromRGB(::UnityEngine::Color col);
 
-  /// @brief Method ToString, addr 0x2b3d540, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2b3c0ac, size 0xc4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method SqrDistance, addr 0x2b3d604, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method SqrDistance, addr 0x2b3c170, size 0x48, virtual false, abstract: false, final false
   inline float_t SqrDistance(::UnityEngine::ProBuilder::HSVColor* InColor);
 
   // Ctor Parameters [CppParam { name: "", ty: "HSVColor", modifiers: "&&", def_value: None }]

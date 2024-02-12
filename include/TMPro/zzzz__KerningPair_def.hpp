@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::TMPro::KerningPair);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 61, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12362))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12363))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12260))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12261))
 // CS Name: ::TMPro::KerningPair*
 class CORDL_TYPE KerningPair : public ::System::Object {
 public:
@@ -97,44 +97,44 @@ public:
 
   static inline ::TMPro::KerningPair* getStaticF_empty();
 
-  /// @brief Method get_firstGlyph, addr 0x2c1036c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_firstGlyph, addr 0x2c0ced8, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_firstGlyph();
 
-  /// @brief Method set_firstGlyph, addr 0x2c10374, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_firstGlyph, addr 0x2c0cee0, size 0x8, virtual false, abstract: false, final false
   inline void set_firstGlyph(uint32_t value);
 
-  /// @brief Method get_firstGlyphAdjustments, addr 0x2c1037c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_firstGlyphAdjustments, addr 0x2c0cee8, size 0xc, virtual false, abstract: false, final false
   inline ::TMPro::GlyphValueRecord_Legacy get_firstGlyphAdjustments();
 
-  /// @brief Method get_secondGlyph, addr 0x2c10388, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_secondGlyph, addr 0x2c0cef4, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_secondGlyph();
 
-  /// @brief Method set_secondGlyph, addr 0x2c10390, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_secondGlyph, addr 0x2c0cefc, size 0x8, virtual false, abstract: false, final false
   inline void set_secondGlyph(uint32_t value);
 
-  /// @brief Method get_secondGlyphAdjustments, addr 0x2c10398, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_secondGlyphAdjustments, addr 0x2c0cf04, size 0xc, virtual false, abstract: false, final false
   inline ::TMPro::GlyphValueRecord_Legacy get_secondGlyphAdjustments();
 
-  /// @brief Method get_ignoreSpacingAdjustments, addr 0x2c103a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ignoreSpacingAdjustments, addr 0x2c0cf10, size 0x8, virtual false, abstract: false, final false
   inline bool get_ignoreSpacingAdjustments();
 
   static inline ::TMPro::KerningPair* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c103ac, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c0cf18, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::TMPro::KerningPair* New_ctor(uint32_t left, uint32_t right, float_t offset);
 
-  /// @brief Method .ctor, addr 0x2c103d0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c0cf3c, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(uint32_t left, uint32_t right, float_t offset);
 
   static inline ::TMPro::KerningPair* New_ctor(uint32_t firstGlyph, ::TMPro::GlyphValueRecord_Legacy firstGlyphAdjustments, uint32_t secondGlyph,
                                                ::TMPro::GlyphValueRecord_Legacy secondGlyphAdjustments);
 
-  /// @brief Method .ctor, addr 0x2c10410, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c0cf7c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(uint32_t firstGlyph, ::TMPro::GlyphValueRecord_Legacy firstGlyphAdjustments, uint32_t secondGlyph, ::TMPro::GlyphValueRecord_Legacy secondGlyphAdjustments);
 
-  /// @brief Method ConvertLegacyKerningData, addr 0x2c10490, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ConvertLegacyKerningData, addr 0x2c0cffc, size 0xc, virtual false, abstract: false, final false
   inline void ConvertLegacyKerningData();
 
   // Ctor Parameters [CppParam { name: "", ty: "KerningPair", modifiers: "&&", def_value: None }]

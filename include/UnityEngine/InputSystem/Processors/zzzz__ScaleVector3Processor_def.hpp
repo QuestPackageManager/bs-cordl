@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Processors::ScaleVector3Processor);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Processors {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6236)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6236), inst: 412
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6592)) CS Name: ::UnityEngine.InputSystem.Processors::ScaleVector3Processor*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5495)), TypeDefinitionIndex(TypeDefinitionIndex(8993)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5495), inst: 414
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5851)) CS Name: ::UnityEngine.InputSystem.Processors::ScaleVector3Processor*
 class CORDL_TYPE ScaleVector3Processor : public ::UnityEngine::InputSystem::InputProcessor_1<::UnityEngine::Vector3> {
 public:
   // Declarations
@@ -55,15 +55,15 @@ public:
 
   constexpr void __cordl_internal_set_z(float_t value);
 
-  /// @brief Method Process, addr 0x2af9cec, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Process, addr 0x2afa858, size 0x18, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 Process(::UnityEngine::Vector3 value, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method ToString, addr 0x2af9d04, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2afa870, size 0xc4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   static inline ::UnityEngine::InputSystem::Processors::ScaleVector3Processor* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2af9dc8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2afa934, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ScaleVector3Processor", modifiers: "&&", def_value: None }]

@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::LanguagePackInfo);
 namespace Oculus::Platform::Models {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13440))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13379))
 // CS Name: ::Oculus.Platform.Models::LanguagePackInfo*
 class CORDL_TYPE LanguagePackInfo : public ::System::Object {
 public:
@@ -51,7 +51,7 @@ public:
 
   static inline ::Oculus::Platform::Models::LanguagePackInfo* New_ctor(void* o);
 
-  /// @brief Method .ctor, addr 0x27046f0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2736c84, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "LanguagePackInfo", modifiers: "&&", def_value: None }]

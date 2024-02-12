@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Audio::AudioMixerUpdateMode);
 namespace UnityEngine::Audio {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15603))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15314))
 // CS Name: ::UnityEngine.Audio::AudioMixerUpdateMode
 struct CORDL_TYPE AudioMixerUpdateMode {
 public:

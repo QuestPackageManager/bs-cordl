@@ -46,21 +46,21 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::DerNull* New_ctor();
 
-  /// @brief Method .ctor, addr 0x11bc084, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11e8f14, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::DerNull* New_ctor(int32_t dummy);
 
-  /// @brief Method .ctor, addr 0x11bc0dc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11e8f6c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(int32_t dummy);
 
-  /// @brief Method Encode, addr 0x11bc134, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x11e8fc4, size 0x24, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
-  /// @brief Method Asn1Equals, addr 0x11bc158, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Asn1Equals, addr 0x11e8fe8, size 0x78, virtual true, abstract: false, final false
   inline bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
 
-  /// @brief Method Asn1GetHashCode, addr 0x11bc1d0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Asn1GetHashCode, addr 0x11e9060, size 0x8, virtual true, abstract: false, final false
   inline int32_t Asn1GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "DerNull", modifiers: "&&", def_value: None }]

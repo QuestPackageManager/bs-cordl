@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::UnityEngine::MeshFilter);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10238))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10081))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8982))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8813))
 // CS Name: ::UnityEngine::MeshFilter*
 class CORDL_TYPE MeshFilter : public ::UnityEngine::Component {
 public:
@@ -27,24 +27,24 @@ public:
 
   __declspec(property(get = get_mesh, put = set_mesh))::UnityW<::UnityEngine::Mesh> mesh;
 
-  /// @brief Method DontStripMeshFilter, addr 0x2cb4b44, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method DontStripMeshFilter, addr 0x2cb68e0, size 0x4, virtual false, abstract: false, final false
   inline void DontStripMeshFilter();
 
-  /// @brief Method get_sharedMesh, addr 0x2cb4b48, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_sharedMesh, addr 0x2cb68e4, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_sharedMesh();
 
-  /// @brief Method set_sharedMesh, addr 0x2cb4b84, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_sharedMesh, addr 0x2cb6920, size 0x44, virtual false, abstract: false, final false
   inline void set_sharedMesh(::UnityEngine::Mesh* value);
 
-  /// @brief Method get_mesh, addr 0x2cb4bc8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_mesh, addr 0x2cb6964, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_mesh();
 
-  /// @brief Method set_mesh, addr 0x2cb4c04, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_mesh, addr 0x2cb69a0, size 0x44, virtual false, abstract: false, final false
   inline void set_mesh(::UnityEngine::Mesh* value);
 
   static inline ::UnityEngine::MeshFilter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2cb4c48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cb69e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MeshFilter", modifiers: "&&", def_value: None }]

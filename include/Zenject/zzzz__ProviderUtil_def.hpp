@@ -18,12 +18,12 @@ MARK_REF_PTR_T(::Zenject::ProviderUtil);
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11234))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10376))
 // CS Name: ::Zenject::ProviderUtil*
 class CORDL_TYPE ProviderUtil : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetTypeToInstantiate, addr 0x2f09d30, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method GetTypeToInstantiate, addr 0x2f25e78, size 0xc4, virtual false, abstract: false, final false
   static inline ::System::Type* GetTypeToInstantiate(::System::Type* contractType, ::System::Type* concreteType);
 
   // Ctor Parameters [CppParam { name: "", ty: "ProviderUtil", modifiers: "&&", def_value: None }]

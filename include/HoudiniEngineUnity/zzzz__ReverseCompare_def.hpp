@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::ReverseCompare);
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9830))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9622))
 // CS Name: ::HoudiniEngineUnity::ReverseCompare*
 class CORDL_TYPE ReverseCompare : public ::System::Object {
 public:
@@ -33,12 +33,12 @@ public:
   /// @brief Convert to "::System::Collections::IComparer"
   constexpr ::System::Collections::IComparer* i___System__Collections__IComparer() noexcept;
 
-  /// @brief Method Compare, addr 0x21b90a8, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x224f98c, size 0x78, virtual true, abstract: false, final true
   inline int32_t Compare(::System::Object* x, ::System::Object* y);
 
   static inline ::HoudiniEngineUnity::ReverseCompare* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21b9120, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x224fa04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ReverseCompare", modifiers: "&&", def_value: None }]

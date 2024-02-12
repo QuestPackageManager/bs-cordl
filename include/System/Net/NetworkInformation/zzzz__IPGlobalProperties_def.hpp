@@ -16,17 +16,17 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::IPGlobalProperties);
 namespace System::Net::NetworkInformation {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9249))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7259))
 // CS Name: ::System.Net.NetworkInformation::IPGlobalProperties*
 class CORDL_TYPE IPGlobalProperties : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = get_DomainName))::StringW DomainName;
 
-  /// @brief Method GetIPGlobalProperties, addr 0x29eb6ac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetIPGlobalProperties, addr 0x29f0150, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Net::NetworkInformation::IPGlobalProperties* GetIPGlobalProperties();
 
-  /// @brief Method InternalGetIPGlobalProperties, addr 0x29eb700, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InternalGetIPGlobalProperties, addr 0x29f01a4, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Net::NetworkInformation::IPGlobalProperties* InternalGetIPGlobalProperties();
 
   /// @brief Method get_DomainName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -34,7 +34,7 @@ public:
 
   static inline ::System::Net::NetworkInformation::IPGlobalProperties* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29eb704, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29f01a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "IPGlobalProperties", modifiers: "&&", def_value: None }]

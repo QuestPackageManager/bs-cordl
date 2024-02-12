@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Controls::DiscreteButtonControl);
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6631))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5890))
 // CS Name: ::DiscreteButtonControl::WriteMode
 struct CORDL_TYPE __DiscreteButtonControl__WriteMode {
 public:
@@ -75,8 +75,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::Controls::__DiscreteButtonCon
 // SizeInfo { instance_size: 304, native_size: -1, calculated_instance_size: 304, calculated_native_size: 304, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6629)), TypeDefinitionIndex(TypeDefinitionIndex(6631))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6632))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5888)), TypeDefinitionIndex(TypeDefinitionIndex(5890))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5891))
 // CS Name: ::UnityEngine.InputSystem.Controls::DiscreteButtonControl*
 class CORDL_TYPE DiscreteButtonControl : public ::UnityEngine::InputSystem::Controls::ButtonControl {
 public:
@@ -128,18 +128,18 @@ public:
 
   constexpr void __cordl_internal_set_writeMode(::UnityEngine::InputSystem::Controls::__DiscreteButtonControl__WriteMode value);
 
-  /// @brief Method FinishSetup, addr 0x2b0a588, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x2b0a0f4, size 0xac, virtual true, abstract: false, final false
   inline void FinishSetup();
 
-  /// @brief Method ReadUnprocessedValueFromState, addr 0x2b0a634, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method ReadUnprocessedValueFromState, addr 0x2b0a1a0, size 0x9c, virtual true, abstract: false, final false
   inline float_t ReadUnprocessedValueFromState(::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method WriteValueIntoState, addr 0x2b0a6d4, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method WriteValueIntoState, addr 0x2b0a240, size 0xe8, virtual true, abstract: false, final false
   inline void WriteValueIntoState(float_t value, ::cordl_internals::Ptr<void> statePtr);
 
   static inline ::UnityEngine::InputSystem::Controls::DiscreteButtonControl* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2b0a7c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b0a32c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DiscreteButtonControl", modifiers: "&&", def_value: None }]

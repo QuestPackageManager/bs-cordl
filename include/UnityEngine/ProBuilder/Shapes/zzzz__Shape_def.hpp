@@ -27,12 +27,12 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Shapes::Shape);
 namespace UnityEngine::ProBuilder::Shapes {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12233))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12131))
 // CS Name: ::UnityEngine.ProBuilder.Shapes::Shape*
 class CORDL_TYPE Shape : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method UpdateBounds, addr 0x2b8dbf4, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method UpdateBounds, addr 0x2b8c760, size 0x4c, virtual true, abstract: false, final false
   inline ::UnityEngine::Bounds UpdateBounds(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation, ::UnityEngine::Bounds bounds);
 
   /// @brief Method RebuildMesh, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -43,7 +43,7 @@ public:
 
   static inline ::UnityEngine::ProBuilder::Shapes::Shape* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2b87ae4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b86650, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Shape", modifiers: "&&", def_value: None }]

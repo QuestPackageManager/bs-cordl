@@ -40,9 +40,9 @@ MARK_REF_PTR_T(::Zenject::GameObjectCreationParameters);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10252)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 412 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2448), inst: 3342 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(10949)) CS Name: ::Zenject::GameObjectCreationParameters*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8993)),
+// TypeDefinitionIndex(TypeDefinitionIndex(8996)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 414 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2448), inst: 3311 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(10091)) CS Name: ::Zenject::GameObjectCreationParameters*
 class CORDL_TYPE GameObjectCreationParameters : public ::System::Object {
 public:
   // Declarations
@@ -125,60 +125,60 @@ public:
 
   static inline ::Zenject::GameObjectCreationParameters* getStaticF_Default();
 
-  /// @brief Method get_Name, addr 0x2edf160, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x2efb2a8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method set_Name, addr 0x2edf168, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x2efb2b0, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
-  /// @brief Method get_GroupName, addr 0x2edf170, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_GroupName, addr 0x2efb2b8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_GroupName();
 
-  /// @brief Method set_GroupName, addr 0x2edf178, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_GroupName, addr 0x2efb2c0, size 0x8, virtual false, abstract: false, final false
   inline void set_GroupName(::StringW value);
 
-  /// @brief Method get_ParentTransform, addr 0x2edf180, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ParentTransform, addr 0x2efb2c8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_ParentTransform();
 
-  /// @brief Method set_ParentTransform, addr 0x2edf188, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ParentTransform, addr 0x2efb2d0, size 0x8, virtual false, abstract: false, final false
   inline void set_ParentTransform(::UnityEngine::Transform* value);
 
-  /// @brief Method get_ParentTransformGetter, addr 0x2edf190, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ParentTransformGetter, addr 0x2efb2d8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::Transform>>* get_ParentTransformGetter();
 
-  /// @brief Method set_ParentTransformGetter, addr 0x2edf198, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ParentTransformGetter, addr 0x2efb2e0, size 0x8, virtual false, abstract: false, final false
   inline void set_ParentTransformGetter(::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::Transform>>* value);
 
-  /// @brief Method get_Position, addr 0x2edf1a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Position, addr 0x2efb2e8, size 0xc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::UnityEngine::Vector3> get_Position();
 
-  /// @brief Method set_Position, addr 0x2edf1ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Position, addr 0x2efb2f4, size 0x8, virtual false, abstract: false, final false
   inline void set_Position(::System::Nullable_1<::UnityEngine::Vector3> value);
 
-  /// @brief Method get_Rotation, addr 0x2edf1b4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_Rotation, addr 0x2efb2fc, size 0x14, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::UnityEngine::Quaternion> get_Rotation();
 
-  /// @brief Method set_Rotation, addr 0x2edf1c8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_Rotation, addr 0x2efb310, size 0x14, virtual false, abstract: false, final false
   inline void set_Rotation(::System::Nullable_1<::UnityEngine::Quaternion> value);
 
-  /// @brief Method GetHashCode, addr 0x2edf1dc, size 0x294, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2efb324, size 0x294, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Equals, addr 0x2edf470, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2efb5b8, size 0xd0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method Equals, addr 0x2edf598, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x2efb6e0, size 0x64, virtual false, abstract: false, final false
   inline bool Equals(::Zenject::GameObjectCreationParameters* that);
 
-  /// @brief Method op_Equality, addr 0x2edf540, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x2efb688, size 0x58, virtual false, abstract: false, final false
   static inline bool op_Equality(::Zenject::GameObjectCreationParameters* left, ::Zenject::GameObjectCreationParameters* right);
 
-  /// @brief Method op_Inequality, addr 0x2edf5fc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x2efb744, size 0x20, virtual false, abstract: false, final false
   static inline bool op_Inequality(::Zenject::GameObjectCreationParameters* left, ::Zenject::GameObjectCreationParameters* right);
 
   static inline ::Zenject::GameObjectCreationParameters* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2edbb28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ef7c70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GameObjectCreationParameters", modifiers: "&&", def_value: None }]

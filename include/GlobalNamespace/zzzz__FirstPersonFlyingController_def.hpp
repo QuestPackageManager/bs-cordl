@@ -38,8 +38,8 @@ MARK_REF_PTR_T(::GlobalNamespace::FirstPersonFlyingController);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10102)), TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5835))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8836)), TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5128))
 // CS Name: ::FirstPersonFlyingController*
 class CORDL_TYPE FirstPersonFlyingController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -171,25 +171,25 @@ public:
 
   constexpr void __cordl_internal_set__originalCameraFov(float_t value);
 
-  /// @brief Method Awake, addr 0x22ed928, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x231be04, size 0xc, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnEnable, addr 0x22ed934, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x231be10, size 0x270, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable, addr 0x22edc44, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x231c120, size 0x25c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method Update, addr 0x22edea0, size 0x3a8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x231c37c, size 0x3a8, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method Inject, addr 0x22ee5a4, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method Inject, addr 0x231ca80, size 0x13c, virtual false, abstract: false, final false
   inline void Inject(::UnityEngine::Camera* camera, ::GlobalNamespace::VRCenterAdjust* centerAdjust, ::GlobalNamespace::VRController* controller0, ::GlobalNamespace::VRController* controller1,
                      ::UnityEngine::SpatialTracking::TrackedPoseDriver* trackedPoseDriver, bool shouldBeEnabled);
 
   static inline ::GlobalNamespace::FirstPersonFlyingController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22ee6e0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x231cbbc, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FirstPersonFlyingController", modifiers: "&&", def_value: None }]

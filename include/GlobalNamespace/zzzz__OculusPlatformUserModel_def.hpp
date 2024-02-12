@@ -3,8 +3,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__PlatformEnvironment_def.hpp"
+#include "GlobalNamespace/zzzz__PlatformUserAuthTokenData_def.hpp"
 #include "GlobalNamespace/zzzz__UserInfo_def.hpp"
 #include "GlobalNamespace/zzzz__XPlatformAccessTokenData_def.hpp"
+#include "Oculus/Platform/Models/zzzz__UserList_def.hpp"
+#include "Oculus/Platform/Models/zzzz__UserProof_def.hpp"
+#include "Oculus/Platform/Models/zzzz__User_def.hpp"
+#include "Oculus/Platform/zzzz__Message_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
@@ -28,31 +34,31 @@ namespace GlobalNamespace {
 class UserInfo;
 }
 namespace GlobalNamespace {
-class XPlatformAccessTokenData;
+struct XPlatformAccessTokenData;
 }
 namespace GlobalNamespace {
-struct __OculusPlatformUserModel___GetUserInfoTask_d__13;
+struct __OculusPlatformUserModel___GetUserAuthToken_d__15;
+}
+namespace GlobalNamespace {
+struct __OculusPlatformUserModel___GetUserFriendsUserIds_d__14;
+}
+namespace GlobalNamespace {
+struct __OculusPlatformUserModel___GetUserInfoInternalAsync_d__13;
 }
 namespace GlobalNamespace {
 struct __OculusPlatformUserModel___GetUserInfo_d__12;
 }
 namespace GlobalNamespace {
+struct __OculusPlatformUserModel___GetUserNamesForUserIds_d__16;
+}
+namespace GlobalNamespace {
 struct __OculusPlatformUserModel___RequestXPlatformAccessToken_d__17;
 }
 namespace GlobalNamespace {
-class __OculusPlatformUserModel____c__DisplayClass13_0;
+struct __OculusPlatformUserModel____GetUserNamesForUserIds_g__Fetch_16_0_d;
 }
 namespace GlobalNamespace {
-class __OculusPlatformUserModel____c__DisplayClass14_0;
-}
-namespace GlobalNamespace {
-class __OculusPlatformUserModel____c__DisplayClass15_0;
-}
-namespace GlobalNamespace {
-class __OculusPlatformUserModel____c__DisplayClass16_0;
-}
-namespace GlobalNamespace {
-class __OculusPlatformUserModel____c__DisplayClass16_1;
+class __OculusPlatformUserModel____c;
 }
 namespace Oculus::Platform::Models {
 class UserList;
@@ -79,9 +85,6 @@ namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
 }
 namespace System::Threading::Tasks {
-template <typename TResult> class TaskCompletionSource_1;
-}
-namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
 namespace System::Threading {
@@ -90,51 +93,54 @@ struct CancellationToken;
 namespace System {
 template <typename T> class Action_1;
 }
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class OculusPlatformUserModel;
 }
 namespace GlobalNamespace {
-class __OculusPlatformUserModel____c__DisplayClass13_0;
+class __OculusPlatformUserModel____c;
 }
 namespace GlobalNamespace {
-class __OculusPlatformUserModel____c__DisplayClass14_0;
+struct __OculusPlatformUserModel___GetUserAuthToken_d__15;
 }
 namespace GlobalNamespace {
-class __OculusPlatformUserModel____c__DisplayClass15_0;
+struct __OculusPlatformUserModel___GetUserFriendsUserIds_d__14;
 }
 namespace GlobalNamespace {
-class __OculusPlatformUserModel____c__DisplayClass16_0;
-}
-namespace GlobalNamespace {
-class __OculusPlatformUserModel____c__DisplayClass16_1;
-}
-namespace GlobalNamespace {
-struct __OculusPlatformUserModel___GetUserInfoTask_d__13;
+struct __OculusPlatformUserModel___GetUserInfoInternalAsync_d__13;
 }
 namespace GlobalNamespace {
 struct __OculusPlatformUserModel___GetUserInfo_d__12;
 }
 namespace GlobalNamespace {
+struct __OculusPlatformUserModel___GetUserNamesForUserIds_d__16;
+}
+namespace GlobalNamespace {
 struct __OculusPlatformUserModel___RequestXPlatformAccessToken_d__17;
+}
+namespace GlobalNamespace {
+struct __OculusPlatformUserModel____GetUserNamesForUserIds_g__Fetch_16_0_d;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::OculusPlatformUserModel);
-MARK_REF_PTR_T(::GlobalNamespace::__OculusPlatformUserModel____c__DisplayClass13_0);
-MARK_REF_PTR_T(::GlobalNamespace::__OculusPlatformUserModel____c__DisplayClass14_0);
-MARK_REF_PTR_T(::GlobalNamespace::__OculusPlatformUserModel____c__DisplayClass15_0);
-MARK_REF_PTR_T(::GlobalNamespace::__OculusPlatformUserModel____c__DisplayClass16_0);
-MARK_REF_PTR_T(::GlobalNamespace::__OculusPlatformUserModel____c__DisplayClass16_1);
-MARK_VAL_T(::GlobalNamespace::__OculusPlatformUserModel___GetUserInfoTask_d__13);
+MARK_REF_PTR_T(::GlobalNamespace::__OculusPlatformUserModel____c);
+MARK_VAL_T(::GlobalNamespace::__OculusPlatformUserModel___GetUserAuthToken_d__15);
+MARK_VAL_T(::GlobalNamespace::__OculusPlatformUserModel___GetUserFriendsUserIds_d__14);
+MARK_VAL_T(::GlobalNamespace::__OculusPlatformUserModel___GetUserInfoInternalAsync_d__13);
 MARK_VAL_T(::GlobalNamespace::__OculusPlatformUserModel___GetUserInfo_d__12);
+MARK_VAL_T(::GlobalNamespace::__OculusPlatformUserModel___GetUserNamesForUserIds_d__16);
 MARK_VAL_T(::GlobalNamespace::__OculusPlatformUserModel___RequestXPlatformAccessToken_d__17);
+MARK_VAL_T(::GlobalNamespace::__OculusPlatformUserModel____GetUserNamesForUserIds_g__Fetch_16_0_d);
 // Type: ::<GetUserInfo>d__12
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15996)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 410 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3402), inst: 410 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(15985)) CS Name: ::OculusPlatformUserModel::<GetUserInfo>d__12
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3398)),
+// TypeDefinitionIndex(TypeDefinitionIndex(16364)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 412 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3398), inst: 412 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(15973)) CS Name: ::OculusPlatformUserModel::<GetUserInfo>d__12
 struct CORDL_TYPE __OculusPlatformUserModel___GetUserInfo_d__12 {
 public:
   // Declarations
@@ -144,10 +150,10 @@ public:
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x27fee94, size 0x1ec, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0xe396e4, size 0x1ec, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x27ff080, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0xe398d0, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -196,67 +202,16 @@ static_assert(offsetof(::GlobalNamespace::__OculusPlatformUserModel___GetUserInf
 static_assert(offsetof(::GlobalNamespace::__OculusPlatformUserModel___GetUserInfo_d__12, __u__1) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<>c__DisplayClass13_0
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
-namespace GlobalNamespace {
-// Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15986))
-// CS Name: ::OculusPlatformUserModel::<>c__DisplayClass13_0*
-class CORDL_TYPE __OculusPlatformUserModel____c__DisplayClass13_0 : public ::System::Object {
-public:
-  // Declarations
-  /// @brief Field tcs, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_tcs, put = __cordl_internal_set_tcs))::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::UserInfo*>* tcs;
-
-  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::UserInfo*>*& __cordl_internal_get_tcs();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::UserInfo*>*> const& __cordl_internal_get_tcs() const;
-
-  constexpr void __cordl_internal_set_tcs(::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::UserInfo*>* value);
-
-  static inline ::GlobalNamespace::__OculusPlatformUserModel____c__DisplayClass13_0* New_ctor();
-
-  /// @brief Method .ctor, addr 0x27ff0d8, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method <GetUserInfoTask>b__0, addr 0x27ff0e0, size 0x108, virtual false, abstract: false, final false
-  inline void _GetUserInfoTask_b__0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::User*>* response);
-
-  // Ctor Parameters [CppParam { name: "", ty: "__OculusPlatformUserModel____c__DisplayClass13_0", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __OculusPlatformUserModel____c__DisplayClass13_0(__OculusPlatformUserModel____c__DisplayClass13_0&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__OculusPlatformUserModel____c__DisplayClass13_0", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __OculusPlatformUserModel____c__DisplayClass13_0(__OculusPlatformUserModel____c__DisplayClass13_0 const&) = delete;
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OculusPlatformUserModel____c__DisplayClass13_0();
-
-public:
-  /// @brief Field tcs, offset: 0x10, size: 0x8, def value: None
-  ::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::UserInfo*>* ___tcs;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OculusPlatformUserModel____c__DisplayClass13_0, 0x18>, "Size mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__OculusPlatformUserModel____c__DisplayClass13_0, ___tcs) == 0x10, "Offset mismatch!");
-
-} // namespace GlobalNamespace
-// Type: ::<GetUserInfoTask>d__13
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// Type: ::<GetUserInfoInternalAsync>d__13
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(15996)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 410 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 410 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(15987)) CS Name:
-// ::OculusPlatformUserModel::<GetUserInfoTask>d__13
-struct CORDL_TYPE __OculusPlatformUserModel___GetUserInfoTask_d__13 {
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3398)), TypeDefinitionIndex(TypeDefinitionIndex(13162)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13439)), TypeDefinitionIndex(TypeDefinitionIndex(16364)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 77 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 869 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3398), inst: 412 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13162), inst: 1166 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(15974)) CS Name:
+// ::OculusPlatformUserModel::<GetUserInfoInternalAsync>d__13
+struct CORDL_TYPE __OculusPlatformUserModel___GetUserInfoInternalAsync_d__13 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -265,25 +220,25 @@ public:
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x27ff1e8, size 0x4bc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0xe39928, size 0x408, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x27ff6a4, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0xe39d30, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::UserInfo*>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
-  // "::GlobalNamespace::OculusPlatformUserModel*", modifiers: "", def_value: None }, CppParam { name: "__8__1", ty: "::GlobalNamespace::__OculusPlatformUserModel____c__DisplayClass13_0*", modifiers:
-  // "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::UserInfo*>", modifiers: "", def_value: None }]
-  constexpr __OculusPlatformUserModel___GetUserInfoTask_d__13(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::UserInfo*> __t__builder,
-                                                              ::GlobalNamespace::OculusPlatformUserModel* __4__this, ::GlobalNamespace::__OculusPlatformUserModel____c__DisplayClass13_0* __8__1,
-                                                              ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1,
-                                                              ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::UserInfo*> __u__2) noexcept;
+  // "::GlobalNamespace::OculusPlatformUserModel*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "",
+  // def_value: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::User*>*>", modifiers: "",
+  // def_value: None }]
+  constexpr __OculusPlatformUserModel___GetUserInfoInternalAsync_d__13(
+      int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::UserInfo*> __t__builder, ::GlobalNamespace::OculusPlatformUserModel* __4__this,
+      ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1,
+      ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::User*>*> __u__2) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __OculusPlatformUserModel___GetUserInfoTask_d__13();
+  constexpr __OculusPlatformUserModel___GetUserInfoInternalAsync_d__13();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -294,325 +249,300 @@ public:
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::OculusPlatformUserModel* __4__this;
 
-  /// @brief Field <>8__1, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::__OculusPlatformUserModel____c__DisplayClass13_0* __8__1;
-
-  /// @brief Field <>u__1, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field <>u__1, offset: 0x28, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1;
 
-  /// @brief Field <>u__2, offset: 0x38, size: 0x8, def value: None
-  ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::UserInfo*> __u__2;
+  /// @brief Field <>u__2, offset: 0x30, size: 0x8, def value: None
+  ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::User*>*> __u__2;
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OculusPlatformUserModel___GetUserInfoTask_d__13, 0x40>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OculusPlatformUserModel___GetUserInfoInternalAsync_d__13, 0x38>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OculusPlatformUserModel___GetUserInfoTask_d__13, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__OculusPlatformUserModel___GetUserInfoInternalAsync_d__13, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OculusPlatformUserModel___GetUserInfoTask_d__13, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__OculusPlatformUserModel___GetUserInfoInternalAsync_d__13, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OculusPlatformUserModel___GetUserInfoTask_d__13, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__OculusPlatformUserModel___GetUserInfoInternalAsync_d__13, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OculusPlatformUserModel___GetUserInfoTask_d__13, __8__1) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__OculusPlatformUserModel___GetUserInfoInternalAsync_d__13, __u__1) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OculusPlatformUserModel___GetUserInfoTask_d__13, __u__1) == 0x30, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__OculusPlatformUserModel___GetUserInfoTask_d__13, __u__2) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__OculusPlatformUserModel___GetUserInfoInternalAsync_d__13, __u__2) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<>c__DisplayClass14_0
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// Type: ::<GetUserFriendsUserIds>d__14
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+namespace GlobalNamespace {
+// Is value type: true
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3398)), TypeDefinitionIndex(TypeDefinitionIndex(3837)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13162)), TypeDefinitionIndex(TypeDefinitionIndex(13440)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 5032 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3398), inst: 867 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3837), inst: 398 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13162), inst: 4595 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(15975)) CS Name:
+// ::OculusPlatformUserModel::<GetUserFriendsUserIds>d__14
+struct CORDL_TYPE __OculusPlatformUserModel___GetUserFriendsUserIds_d__14 {
+public:
+  // Declarations
+  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+
+  /// @brief Method MoveNext, addr 0xe39d88, size 0x384, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0xe3a10c, size 0x58, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
+  // "::GlobalNamespace::OculusPlatformUserModel*", modifiers: "", def_value: None }, CppParam { name: "cached", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::UserList*>*>", modifiers: "", def_value: None }]
+  constexpr __OculusPlatformUserModel___GetUserFriendsUserIds_d__14(
+      int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*> __t__builder,
+      ::GlobalNamespace::OculusPlatformUserModel* __4__this, bool cached,
+      ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::UserList*>*> __u__1) noexcept;
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __OculusPlatformUserModel___GetUserFriendsUserIds_d__14();
+
+  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+  int32_t __1__state;
+
+  /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
+  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*> __t__builder;
+
+  /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
+  ::GlobalNamespace::OculusPlatformUserModel* __4__this;
+
+  /// @brief Field cached, offset: 0x28, size: 0x1, def value: None
+  bool cached;
+
+  /// @brief Field <>u__1, offset: 0x30, size: 0x8, def value: None
+  ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::UserList*>*> __u__1;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OculusPlatformUserModel___GetUserFriendsUserIds_d__14, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OculusPlatformUserModel___GetUserFriendsUserIds_d__14, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OculusPlatformUserModel___GetUserFriendsUserIds_d__14, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OculusPlatformUserModel___GetUserFriendsUserIds_d__14, __4__this) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OculusPlatformUserModel___GetUserFriendsUserIds_d__14, cached) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OculusPlatformUserModel___GetUserFriendsUserIds_d__14, __u__1) == 0x30, "Offset mismatch!");
+
+} // namespace GlobalNamespace
+// Type: ::<GetUserAuthToken>d__15
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+namespace GlobalNamespace {
+// Is value type: true
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3398)), TypeDefinitionIndex(TypeDefinitionIndex(13162)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13446)), TypeDefinitionIndex(TypeDefinitionIndex(16358)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 5033 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3398), inst: 898 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13162), inst: 4596 })] Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(15976)) CS Name: ::OculusPlatformUserModel::<GetUserAuthToken>d__15
+struct CORDL_TYPE __OculusPlatformUserModel___GetUserAuthToken_d__15 {
+public:
+  // Declarations
+  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+
+  /// @brief Method MoveNext, addr 0xe3a164, size 0x258, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0xe3a3bc, size 0x58, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::PlatformUserAuthTokenData*>", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::UserProof*>*>", modifiers: "", def_value: None }]
+  constexpr __OculusPlatformUserModel___GetUserAuthToken_d__15(
+      int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::PlatformUserAuthTokenData*> __t__builder,
+      ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::UserProof*>*> __u__1) noexcept;
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __OculusPlatformUserModel___GetUserAuthToken_d__15();
+
+  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+  int32_t __1__state;
+
+  /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
+  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::PlatformUserAuthTokenData*> __t__builder;
+
+  /// @brief Field <>u__1, offset: 0x20, size: 0x8, def value: None
+  ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::UserProof*>*> __u__1;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OculusPlatformUserModel___GetUserAuthToken_d__15, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OculusPlatformUserModel___GetUserAuthToken_d__15, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OculusPlatformUserModel___GetUserAuthToken_d__15, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OculusPlatformUserModel___GetUserAuthToken_d__15, __u__1) == 0x20, "Offset mismatch!");
+
+} // namespace GlobalNamespace
+// Type: ::<>c
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15988))
-// CS Name: ::OculusPlatformUserModel::<>c__DisplayClass14_0*
-class CORDL_TYPE __OculusPlatformUserModel____c__DisplayClass14_0 : public ::System::Object {
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15977))
+// CS Name: ::OculusPlatformUserModel::<>c*
+class CORDL_TYPE __OculusPlatformUserModel____c : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field tcs, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_tcs,
-                      put = __cordl_internal_set_tcs))::System::Threading::Tasks::TaskCompletionSource_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>* tcs;
+  /// @brief Field <>9, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::GlobalNamespace::__OculusPlatformUserModel____c* __9;
 
-  /// @brief Field <>4__this, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::GlobalNamespace::OculusPlatformUserModel* __4__this;
+  /// @brief Field <>9__16_1, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__16_1, put = setStaticF___9__16_1))::System::Func_2<::Oculus::Platform::Message_1<::Oculus::Platform::Models::User*>*, bool>* __9__16_1;
 
-  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>*& __cordl_internal_get_tcs();
+  /// @brief Field <>9__16_2, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__16_2, put = setStaticF___9__16_2))::System::Func_2<::Oculus::Platform::Message_1<::Oculus::Platform::Models::User*>*, ::StringW>* __9__16_2;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>*> const&
-  __cordl_internal_get_tcs() const;
+  static inline void setStaticF___9(::GlobalNamespace::__OculusPlatformUserModel____c* value);
 
-  constexpr void __cordl_internal_set_tcs(::System::Threading::Tasks::TaskCompletionSource_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>* value);
+  static inline ::GlobalNamespace::__OculusPlatformUserModel____c* getStaticF___9();
 
-  constexpr ::GlobalNamespace::OculusPlatformUserModel*& __cordl_internal_get___4__this();
+  static inline void setStaticF___9__16_1(::System::Func_2<::Oculus::Platform::Message_1<::Oculus::Platform::Models::User*>*, bool>* value);
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OculusPlatformUserModel*> const& __cordl_internal_get___4__this() const;
+  static inline ::System::Func_2<::Oculus::Platform::Message_1<::Oculus::Platform::Models::User*>*, bool>* getStaticF___9__16_1();
 
-  constexpr void __cordl_internal_set___4__this(::GlobalNamespace::OculusPlatformUserModel* value);
+  static inline void setStaticF___9__16_2(::System::Func_2<::Oculus::Platform::Message_1<::Oculus::Platform::Models::User*>*, ::StringW>* value);
 
-  static inline ::GlobalNamespace::__OculusPlatformUserModel____c__DisplayClass14_0* New_ctor();
+  static inline ::System::Func_2<::Oculus::Platform::Message_1<::Oculus::Platform::Models::User*>*, ::StringW>* getStaticF___9__16_2();
 
-  /// @brief Method .ctor, addr 0x27fe900, size 0x8, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::__OculusPlatformUserModel____c* New_ctor();
+
+  /// @brief Method .ctor, addr 0xe3a478, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <GetUserFriendsUserIds>b__0, addr 0x27ff6fc, size 0x43c, virtual false, abstract: false, final false
-  inline void _GetUserFriendsUserIds_b__0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::UserList*>* response);
+  /// @brief Method <GetUserNamesForUserIds>b__16_1, addr 0xe3a480, size 0x18, virtual false, abstract: false, final false
+  inline bool _GetUserNamesForUserIds_b__16_1(::Oculus::Platform::Message_1<::Oculus::Platform::Models::User*>* response);
 
-  // Ctor Parameters [CppParam { name: "", ty: "__OculusPlatformUserModel____c__DisplayClass14_0", modifiers: "&&", def_value: None }]
+  /// @brief Method <GetUserNamesForUserIds>b__16_2, addr 0xe3a498, size 0x4c, virtual false, abstract: false, final false
+  inline ::StringW _GetUserNamesForUserIds_b__16_2(::Oculus::Platform::Message_1<::Oculus::Platform::Models::User*>* response);
+
+  // Ctor Parameters [CppParam { name: "", ty: "__OculusPlatformUserModel____c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __OculusPlatformUserModel____c__DisplayClass14_0(__OculusPlatformUserModel____c__DisplayClass14_0&&) = delete;
+  __OculusPlatformUserModel____c(__OculusPlatformUserModel____c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__OculusPlatformUserModel____c__DisplayClass14_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "__OculusPlatformUserModel____c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __OculusPlatformUserModel____c__DisplayClass14_0(__OculusPlatformUserModel____c__DisplayClass14_0 const&) = delete;
+  __OculusPlatformUserModel____c(__OculusPlatformUserModel____c const&) = delete;
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __OculusPlatformUserModel____c__DisplayClass14_0();
+  constexpr __OculusPlatformUserModel____c();
 
 public:
-  /// @brief Field tcs, offset: 0x10, size: 0x8, def value: None
-  ::System::Threading::Tasks::TaskCompletionSource_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>* ___tcs;
-
-  /// @brief Field <>4__this, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::OculusPlatformUserModel* _____4__this;
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OculusPlatformUserModel____c__DisplayClass14_0, 0x20>, "Size mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__OculusPlatformUserModel____c__DisplayClass14_0, ___tcs) == 0x10, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__OculusPlatformUserModel____c__DisplayClass14_0, _____4__this) == 0x18, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OculusPlatformUserModel____c, 0x10>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<>c__DisplayClass15_0
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// Type: ::<GetUserNamesForUserIds>d__16
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
-// Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15989))
-// CS Name: ::OculusPlatformUserModel::<>c__DisplayClass15_0*
-class CORDL_TYPE __OculusPlatformUserModel____c__DisplayClass15_0 : public ::System::Object {
+// Is value type: true
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3398)), TypeDefinitionIndex(TypeDefinitionIndex(3837)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13162)), TypeDefinitionIndex(TypeDefinitionIndex(13439)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 5035 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3398), inst: 867 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3837), inst: 398 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13162), inst: 1166 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(15978)) CS Name:
+// ::OculusPlatformUserModel::<GetUserNamesForUserIds>d__16
+struct CORDL_TYPE __OculusPlatformUserModel___GetUserNamesForUserIds_d__16 {
 public:
   // Declarations
-  /// @brief Field tcs, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_tcs, put = __cordl_internal_set_tcs))::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::PlatformUserAuthTokenData*>* tcs;
+  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::PlatformUserAuthTokenData*>*& __cordl_internal_get_tcs();
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::PlatformUserAuthTokenData*>*> const& __cordl_internal_get_tcs() const;
+  /// @brief Method MoveNext, addr 0xe3a4e4, size 0x47c, virtual true, abstract: false, final true
+  inline void MoveNext();
 
-  constexpr void __cordl_internal_set_tcs(::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::PlatformUserAuthTokenData*>* value);
+  /// @brief Method SetStateMachine, addr 0xe3a960, size 0x58, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
-  static inline ::GlobalNamespace::__OculusPlatformUserModel____c__DisplayClass15_0* New_ctor();
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>", modifiers: "", def_value: None }, CppParam { name: "userIds", ty:
+  // "::System::Collections::Generic::IReadOnlyList_1<::StringW>*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::Oculus::Platform::Message_1<::Oculus::Platform::Models::User*>*,::Array<::Oculus::Platform::Message_1<::Oculus::Platform::Models::User*>*>*>>",
+  // modifiers: "", def_value: None }]
+  constexpr __OculusPlatformUserModel___GetUserNamesForUserIds_d__16(
+      int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*> __t__builder,
+      ::System::Collections::Generic::IReadOnlyList_1<::StringW>* userIds,
+      ::System::Runtime::CompilerServices::TaskAwaiter_1<
+          ::ArrayW<::Oculus::Platform::Message_1<::Oculus::Platform::Models::User*>*, ::Array<::Oculus::Platform::Message_1<::Oculus::Platform::Models::User*>*>*>>
+          __u__1) noexcept;
 
-  /// @brief Method .ctor, addr 0x27fea3c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method <GetUserAuthToken>b__0, addr 0x27ffb38, size 0xc4, virtual false, abstract: false, final false
-  inline void _GetUserAuthToken_b__0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::UserProof*>* response);
-
-  // Ctor Parameters [CppParam { name: "", ty: "__OculusPlatformUserModel____c__DisplayClass15_0", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __OculusPlatformUserModel____c__DisplayClass15_0(__OculusPlatformUserModel____c__DisplayClass15_0&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__OculusPlatformUserModel____c__DisplayClass15_0", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __OculusPlatformUserModel____c__DisplayClass15_0(__OculusPlatformUserModel____c__DisplayClass15_0 const&) = delete;
-
-protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __OculusPlatformUserModel____c__DisplayClass15_0();
+  constexpr __OculusPlatformUserModel___GetUserNamesForUserIds_d__16();
 
-public:
-  /// @brief Field tcs, offset: 0x10, size: 0x8, def value: None
-  ::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::PlatformUserAuthTokenData*>* ___tcs;
+  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+  int32_t __1__state;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
+  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*> __t__builder;
+
+  /// @brief Field userIds, offset: 0x20, size: 0x8, def value: None
+  ::System::Collections::Generic::IReadOnlyList_1<::StringW>* userIds;
+
+  /// @brief Field <>u__1, offset: 0x28, size: 0x8, def value: None
+  ::System::Runtime::CompilerServices::TaskAwaiter_1<
+      ::ArrayW<::Oculus::Platform::Message_1<::Oculus::Platform::Models::User*>*, ::Array<::Oculus::Platform::Message_1<::Oculus::Platform::Models::User*>*>*>>
+      __u__1;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OculusPlatformUserModel____c__DisplayClass15_0, 0x18>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OculusPlatformUserModel___GetUserNamesForUserIds_d__16, 0x30>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OculusPlatformUserModel____c__DisplayClass15_0, ___tcs) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__OculusPlatformUserModel___GetUserNamesForUserIds_d__16, __1__state) == 0x0, "Offset mismatch!");
 
-} // namespace GlobalNamespace
-// Type: ::<>c__DisplayClass16_0
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
-namespace GlobalNamespace {
-// Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15990))
-// CS Name: ::OculusPlatformUserModel::<>c__DisplayClass16_0*
-class CORDL_TYPE __OculusPlatformUserModel____c__DisplayClass16_0 : public ::System::Object {
-public:
-  // Declarations
-  /// @brief Field requests, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_requests, put = __cordl_internal_set_requests)) int32_t requests;
+static_assert(offsetof(::GlobalNamespace::__OculusPlatformUserModel___GetUserNamesForUserIds_d__16, __t__builder) == 0x8, "Offset mismatch!");
 
-  /// @brief Field success, offset 0x14, size 0x1
-  __declspec(property(get = __cordl_internal_get_success, put = __cordl_internal_set_success)) bool success;
+static_assert(offsetof(::GlobalNamespace::__OculusPlatformUserModel___GetUserNamesForUserIds_d__16, userIds) == 0x20, "Offset mismatch!");
 
-  /// @brief Field userNames, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_userNames, put = __cordl_internal_set_userNames))::ArrayW<::StringW, ::Array<::StringW>*> userNames;
-
-  /// @brief Field tcs, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_tcs,
-                      put = __cordl_internal_set_tcs))::System::Threading::Tasks::TaskCompletionSource_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>* tcs;
-
-  constexpr int32_t& __cordl_internal_get_requests();
-
-  constexpr int32_t const& __cordl_internal_get_requests() const;
-
-  constexpr void __cordl_internal_set_requests(int32_t value);
-
-  constexpr bool& __cordl_internal_get_success();
-
-  constexpr bool const& __cordl_internal_get_success() const;
-
-  constexpr void __cordl_internal_set_success(bool value);
-
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_userNames();
-
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_userNames() const;
-
-  constexpr void __cordl_internal_set_userNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
-
-  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>*& __cordl_internal_get_tcs();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>*> const&
-  __cordl_internal_get_tcs() const;
-
-  constexpr void __cordl_internal_set_tcs(::System::Threading::Tasks::TaskCompletionSource_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>* value);
-
-  static inline ::GlobalNamespace::__OculusPlatformUserModel____c__DisplayClass16_0* New_ctor();
-
-  /// @brief Method .ctor, addr 0x27feca0, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method <GetUserNamesForUserIds>g__Fetch|0, addr 0x27feca8, size 0xf4, virtual false, abstract: false, final false
-  inline void _GetUserNamesForUserIds_g__Fetch_0(int32_t index, uint64_t platformId);
-
-  // Ctor Parameters [CppParam { name: "", ty: "__OculusPlatformUserModel____c__DisplayClass16_0", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __OculusPlatformUserModel____c__DisplayClass16_0(__OculusPlatformUserModel____c__DisplayClass16_0&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__OculusPlatformUserModel____c__DisplayClass16_0", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __OculusPlatformUserModel____c__DisplayClass16_0(__OculusPlatformUserModel____c__DisplayClass16_0 const&) = delete;
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OculusPlatformUserModel____c__DisplayClass16_0();
-
-public:
-  /// @brief Field requests, offset: 0x10, size: 0x4, def value: None
-  int32_t ___requests;
-
-  /// @brief Field success, offset: 0x14, size: 0x1, def value: None
-  bool ___success;
-
-  /// @brief Field userNames, offset: 0x18, size: 0x8, def value: None
-  ::ArrayW<::StringW, ::Array<::StringW>*> ___userNames;
-
-  /// @brief Field tcs, offset: 0x20, size: 0x8, def value: None
-  ::System::Threading::Tasks::TaskCompletionSource_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>* ___tcs;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OculusPlatformUserModel____c__DisplayClass16_0, 0x28>, "Size mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__OculusPlatformUserModel____c__DisplayClass16_0, ___requests) == 0x10, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__OculusPlatformUserModel____c__DisplayClass16_0, ___success) == 0x14, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__OculusPlatformUserModel____c__DisplayClass16_0, ___userNames) == 0x18, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__OculusPlatformUserModel____c__DisplayClass16_0, ___tcs) == 0x20, "Offset mismatch!");
-
-} // namespace GlobalNamespace
-// Type: ::<>c__DisplayClass16_1
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
-namespace GlobalNamespace {
-// Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15991))
-// CS Name: ::OculusPlatformUserModel::<>c__DisplayClass16_1*
-class CORDL_TYPE __OculusPlatformUserModel____c__DisplayClass16_1 : public ::System::Object {
-public:
-  // Declarations
-  /// @brief Field index, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_index, put = __cordl_internal_set_index)) int32_t index;
-
-  /// @brief Field CS$<>8__locals1, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_CS$__8__locals1, put = __cordl_internal_set_CS$__8__locals1))::GlobalNamespace::__OculusPlatformUserModel____c__DisplayClass16_0* CS$__8__locals1;
-
-  constexpr int32_t& __cordl_internal_get_index();
-
-  constexpr int32_t const& __cordl_internal_get_index() const;
-
-  constexpr void __cordl_internal_set_index(int32_t value);
-
-  constexpr ::GlobalNamespace::__OculusPlatformUserModel____c__DisplayClass16_0*& __cordl_internal_get_CS$__8__locals1();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OculusPlatformUserModel____c__DisplayClass16_0*> const& __cordl_internal_get_CS$__8__locals1() const;
-
-  constexpr void __cordl_internal_set_CS$__8__locals1(::GlobalNamespace::__OculusPlatformUserModel____c__DisplayClass16_0* value);
-
-  static inline ::GlobalNamespace::__OculusPlatformUserModel____c__DisplayClass16_1* New_ctor();
-
-  /// @brief Method .ctor, addr 0x27ffbfc, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method <GetUserNamesForUserIds>b__1, addr 0x27ffc04, size 0x128, virtual false, abstract: false, final false
-  inline void _GetUserNamesForUserIds_b__1(::Oculus::Platform::Message_1<::Oculus::Platform::Models::User*>* result);
-
-  // Ctor Parameters [CppParam { name: "", ty: "__OculusPlatformUserModel____c__DisplayClass16_1", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __OculusPlatformUserModel____c__DisplayClass16_1(__OculusPlatformUserModel____c__DisplayClass16_1&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__OculusPlatformUserModel____c__DisplayClass16_1", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __OculusPlatformUserModel____c__DisplayClass16_1(__OculusPlatformUserModel____c__DisplayClass16_1 const&) = delete;
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OculusPlatformUserModel____c__DisplayClass16_1();
-
-public:
-  /// @brief Field index, offset: 0x10, size: 0x4, def value: None
-  int32_t ___index;
-
-  /// @brief Field CS$<>8__locals1, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::__OculusPlatformUserModel____c__DisplayClass16_0* ___CS$__8__locals1;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OculusPlatformUserModel____c__DisplayClass16_1, 0x20>, "Size mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__OculusPlatformUserModel____c__DisplayClass16_1, ___index) == 0x10, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__OculusPlatformUserModel____c__DisplayClass16_1, ___CS$__8__locals1) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__OculusPlatformUserModel___GetUserNamesForUserIds_d__16, __u__1) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 // Type: ::<RequestXPlatformAccessToken>d__17
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12925)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3394), inst: 902 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 902 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(15992)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3398)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12823)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 77 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3390), inst: 905 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3398), inst: 905 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(15979)) CS Name:
 // ::OculusPlatformUserModel::<RequestXPlatformAccessToken>d__17
 struct CORDL_TYPE __OculusPlatformUserModel___RequestXPlatformAccessToken_d__17 {
 public:
@@ -623,22 +553,22 @@ public:
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x27ffd2c, size 0x354, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0xe3a9b8, size 0x38c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x28000e8, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0xe3ada4, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::XPlatformAccessTokenData*>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::XPlatformAccessTokenData>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
   // "::GlobalNamespace::OculusPlatformUserModel*", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None
   // }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::XPlatformAccessTokenData*>", modifiers: "", def_value: None }]
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::XPlatformAccessTokenData>", modifiers: "", def_value: None }]
   constexpr __OculusPlatformUserModel___RequestXPlatformAccessToken_d__17(int32_t __1__state,
-                                                                          ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::XPlatformAccessTokenData*> __t__builder,
+                                                                          ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::XPlatformAccessTokenData> __t__builder,
                                                                           ::GlobalNamespace::OculusPlatformUserModel* __4__this, ::System::Threading::CancellationToken cancellationToken,
                                                                           ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1,
-                                                                          ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::XPlatformAccessTokenData*> __u__2) noexcept;
+                                                                          ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::XPlatformAccessTokenData> __u__2) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
@@ -648,7 +578,7 @@ public:
   int32_t __1__state;
 
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
-  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::XPlatformAccessTokenData*> __t__builder;
+  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::XPlatformAccessTokenData> __t__builder;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::OculusPlatformUserModel* __4__this;
@@ -660,7 +590,7 @@ public:
   ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1;
 
   /// @brief Field <>u__2, offset: 0x38, size: 0x8, def value: None
-  ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::XPlatformAccessTokenData*> __u__2;
+  ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::XPlatformAccessTokenData> __u__2;
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -683,43 +613,107 @@ static_assert(offsetof(::GlobalNamespace::__OculusPlatformUserModel___RequestXPl
 static_assert(offsetof(::GlobalNamespace::__OculusPlatformUserModel___RequestXPlatformAccessToken_d__17, __u__2) == 0x38, "Offset mismatch!");
 
 } // namespace GlobalNamespace
+// Type: ::<<GetUserNamesForUserIds>g__Fetch|16_0>d
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+namespace GlobalNamespace {
+// Is value type: true
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3398)), TypeDefinitionIndex(TypeDefinitionIndex(13162)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13439)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 869 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3398), inst: 869 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13162), inst: 1166 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(15980)) CS Name:
+// ::OculusPlatformUserModel::<<GetUserNamesForUserIds>g__Fetch|16_0>d
+struct CORDL_TYPE __OculusPlatformUserModel____GetUserNamesForUserIds_g__Fetch_16_0_d {
+public:
+  // Declarations
+  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+
+  /// @brief Method MoveNext, addr 0xe3adfc, size 0x1d4, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0xe3afd0, size 0x58, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::User*>*>", modifiers: "", def_value: None }, CppParam { name: "userId",
+  // ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::User*>*>", modifiers: "", def_value: None }]
+  constexpr __OculusPlatformUserModel____GetUserNamesForUserIds_g__Fetch_16_0_d(
+      int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::User*>*> __t__builder, ::StringW userId,
+      ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::User*>*> __u__1) noexcept;
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __OculusPlatformUserModel____GetUserNamesForUserIds_g__Fetch_16_0_d();
+
+  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+  int32_t __1__state;
+
+  /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
+  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::User*>*> __t__builder;
+
+  /// @brief Field userId, offset: 0x20, size: 0x8, def value: None
+  ::StringW userId;
+
+  /// @brief Field <>u__1, offset: 0x28, size: 0x8, def value: None
+  ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::User*>*> __u__1;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OculusPlatformUserModel____GetUserNamesForUserIds_g__Fetch_16_0_d, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OculusPlatformUserModel____GetUserNamesForUserIds_g__Fetch_16_0_d, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OculusPlatformUserModel____GetUserNamesForUserIds_g__Fetch_16_0_d, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OculusPlatformUserModel____GetUserNamesForUserIds_g__Fetch_16_0_d, userId) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OculusPlatformUserModel____GetUserNamesForUserIds_g__Fetch_16_0_d, __u__1) == 0x28, "Offset mismatch!");
+
+} // namespace GlobalNamespace
 // Type: ::OculusPlatformUserModel
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12924))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15993))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12822))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15981))
 // CS Name: ::OculusPlatformUserModel*
 class CORDL_TYPE OculusPlatformUserModel : public ::System::Object {
 public:
   // Declarations
+  using __GetUserNamesForUserIds_g__Fetch_16_0_d = ::GlobalNamespace::__OculusPlatformUserModel____GetUserNamesForUserIds_g__Fetch_16_0_d;
+
   using _RequestXPlatformAccessToken_d__17 = ::GlobalNamespace::__OculusPlatformUserModel___RequestXPlatformAccessToken_d__17;
 
-  using __c__DisplayClass16_1 = ::GlobalNamespace::__OculusPlatformUserModel____c__DisplayClass16_1;
+  using _GetUserNamesForUserIds_d__16 = ::GlobalNamespace::__OculusPlatformUserModel___GetUserNamesForUserIds_d__16;
 
-  using __c__DisplayClass16_0 = ::GlobalNamespace::__OculusPlatformUserModel____c__DisplayClass16_0;
+  using __c = ::GlobalNamespace::__OculusPlatformUserModel____c;
 
-  using __c__DisplayClass15_0 = ::GlobalNamespace::__OculusPlatformUserModel____c__DisplayClass15_0;
+  using _GetUserAuthToken_d__15 = ::GlobalNamespace::__OculusPlatformUserModel___GetUserAuthToken_d__15;
 
-  using __c__DisplayClass14_0 = ::GlobalNamespace::__OculusPlatformUserModel____c__DisplayClass14_0;
+  using _GetUserFriendsUserIds_d__14 = ::GlobalNamespace::__OculusPlatformUserModel___GetUserFriendsUserIds_d__14;
 
-  using _GetUserInfoTask_d__13 = ::GlobalNamespace::__OculusPlatformUserModel___GetUserInfoTask_d__13;
-
-  using __c__DisplayClass13_0 = ::GlobalNamespace::__OculusPlatformUserModel____c__DisplayClass13_0;
+  using _GetUserInfoInternalAsync_d__13 = ::GlobalNamespace::__OculusPlatformUserModel___GetUserInfoInternalAsync_d__13;
 
   using _GetUserInfo_d__12 = ::GlobalNamespace::__OculusPlatformUserModel___GetUserInfo_d__12;
 
-  /// @brief Field _userInfoTask, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__userInfoTask, put = __cordl_internal_set__userInfoTask))::System::Threading::Tasks::Task_1<::GlobalNamespace::UserInfo*>* _userInfoTask;
+  /// @brief Field _platformInit, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__platformInit, put = __cordl_internal_set__platformInit))::GlobalNamespace::IPlatformInit* _platformInit;
 
-  /// @brief Field _friendsUserIds, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__friendsUserIds, put = __cordl_internal_set__friendsUserIds))::ArrayW<::StringW, ::Array<::StringW>*> _friendsUserIds;
+  /// @brief Field _userInfoTask, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__userInfoTask, put = __cordl_internal_set__userInfoTask))::System::Threading::Tasks::Task_1<::GlobalNamespace::UserInfo*>* _userInfoTask;
 
   /// @brief Field _userInfo, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__userInfo, put = __cordl_internal_set__userInfo))::GlobalNamespace::UserInfo* _userInfo;
 
-  /// @brief Field _platformInit, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__platformInit, put = __cordl_internal_set__platformInit))::GlobalNamespace::IPlatformInit* _platformInit;
+  /// @brief Field _friendsUserIds, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__friendsUserIds, put = __cordl_internal_set__friendsUserIds))::ArrayW<::StringW, ::Array<::StringW>*> _friendsUserIds;
 
   /// @brief Field _lastXPlatformTokenStatusChange, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__lastXPlatformTokenStatusChange, put = __cordl_internal_set__lastXPlatformTokenStatusChange)) float_t _lastXPlatformTokenStatusChange;
@@ -736,17 +730,17 @@ public:
   /// @brief Convert to "::GlobalNamespace::IPlatformUserModel"
   constexpr ::GlobalNamespace::IPlatformUserModel* i___GlobalNamespace__IPlatformUserModel() noexcept;
 
+  constexpr ::GlobalNamespace::IPlatformInit*& __cordl_internal_get__platformInit();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IPlatformInit*> const& __cordl_internal_get__platformInit() const;
+
+  constexpr void __cordl_internal_set__platformInit(::GlobalNamespace::IPlatformInit* value);
+
   constexpr ::System::Threading::Tasks::Task_1<::GlobalNamespace::UserInfo*>*& __cordl_internal_get__userInfoTask();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task_1<::GlobalNamespace::UserInfo*>*> const& __cordl_internal_get__userInfoTask() const;
 
   constexpr void __cordl_internal_set__userInfoTask(::System::Threading::Tasks::Task_1<::GlobalNamespace::UserInfo*>* value);
-
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get__friendsUserIds();
-
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__friendsUserIds() const;
-
-  constexpr void __cordl_internal_set__friendsUserIds(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
   constexpr ::GlobalNamespace::UserInfo*& __cordl_internal_get__userInfo();
 
@@ -754,11 +748,11 @@ public:
 
   constexpr void __cordl_internal_set__userInfo(::GlobalNamespace::UserInfo* value);
 
-  constexpr ::GlobalNamespace::IPlatformInit*& __cordl_internal_get__platformInit();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get__friendsUserIds();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IPlatformInit*> const& __cordl_internal_get__platformInit() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__friendsUserIds() const;
 
-  constexpr void __cordl_internal_set__platformInit(::GlobalNamespace::IPlatformInit* value);
+  constexpr void __cordl_internal_set__friendsUserIds(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
   constexpr float_t& __cordl_internal_get__lastXPlatformTokenStatusChange();
 
@@ -772,37 +766,40 @@ public:
 
   constexpr void __cordl_internal_set_platformUserInfoDidChangeEvent(::System::Action_1<::GlobalNamespace::UserInfo*>* value);
 
-  static inline ::GlobalNamespace::OculusPlatformUserModel* New_ctor(::GlobalNamespace::IPlatformInit* platformInit);
-
-  /// @brief Method .ctor, addr 0x27fe3e0, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::IPlatformInit* platformInit);
-
-  /// @brief Method add_platformUserInfoDidChangeEvent, addr 0x27fe408, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_platformUserInfoDidChangeEvent, addr 0xe38ea4, size 0xb0, virtual true, abstract: false, final true
   inline void add_platformUserInfoDidChangeEvent(::System::Action_1<::GlobalNamespace::UserInfo*>* value);
 
-  /// @brief Method remove_platformUserInfoDidChangeEvent, addr 0x27fe4b8, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_platformUserInfoDidChangeEvent, addr 0xe38f54, size 0xb0, virtual true, abstract: false, final true
   inline void remove_platformUserInfoDidChangeEvent(::System::Action_1<::GlobalNamespace::UserInfo*>* value);
 
-  /// @brief Method get_CanXPlatformAccessTokenBeCached, addr 0x27fe568, size 0x8, virtual true, abstract: false, final true
+  static inline ::GlobalNamespace::OculusPlatformUserModel* New_ctor(::GlobalNamespace::IPlatformInit* platformInit);
+
+  /// @brief Method .ctor, addr 0xe39004, size 0x28, virtual false, abstract: false, final false
+  inline void _ctor(::GlobalNamespace::IPlatformInit* platformInit);
+
+  /// @brief Method get_CanXPlatformAccessTokenBeCached, addr 0xe3902c, size 0x8, virtual true, abstract: false, final true
   inline bool get_CanXPlatformAccessTokenBeCached();
 
-  /// @brief Method GetUserInfo, addr 0x27fe570, size 0xfc, virtual true, abstract: false, final true
+  /// @brief Method GetUserInfo, addr 0xe39034, size 0xfc, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::UserInfo*>* GetUserInfo(::System::Threading::CancellationToken ctx);
 
-  /// @brief Method GetUserInfoTask, addr 0x27fe66c, size 0xf0, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::UserInfo*>* GetUserInfoTask(::System::Threading::CancellationToken ctx);
+  /// @brief Method GetUserInfoInternalAsync, addr 0xe39130, size 0xf4, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::UserInfo*>* GetUserInfoInternalAsync(::System::Threading::CancellationToken ctx);
 
-  /// @brief Method GetUserFriendsUserIds, addr 0x27fe75c, size 0x1a4, virtual true, abstract: false, final true
+  /// @brief Method GetUserFriendsUserIds, addr 0xe39224, size 0xfc, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>* GetUserFriendsUserIds(bool cached);
 
-  /// @brief Method GetUserAuthToken, addr 0x27fe908, size 0x134, virtual true, abstract: false, final true
+  /// @brief Method GetUserAuthToken, addr 0xe39320, size 0xe4, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::PlatformUserAuthTokenData*>* GetUserAuthToken();
 
-  /// @brief Method GetUserNamesForUserIds, addr 0x27fea44, size 0x25c, virtual true, abstract: false, final true
+  /// @brief Method GetUserNamesForUserIds, addr 0xe39404, size 0xf0, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>* GetUserNamesForUserIds(::System::Collections::Generic::IReadOnlyList_1<::StringW>* userIds);
 
-  /// @brief Method RequestXPlatformAccessToken, addr 0x27fed9c, size 0xf8, virtual true, abstract: false, final true
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData*>* RequestXPlatformAccessToken(::System::Threading::CancellationToken cancellationToken);
+  /// @brief Method RequestXPlatformAccessToken, addr 0xe394f4, size 0x100, virtual true, abstract: false, final true
+  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData>* RequestXPlatformAccessToken(::System::Threading::CancellationToken cancellationToken);
+
+  /// @brief Method <GetUserNamesForUserIds>g__Fetch|16_0, addr 0xe395f4, size 0xf0, virtual false, abstract: false, final false
+  static inline ::System::Threading::Tasks::Task_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::User*>*>* _GetUserNamesForUserIds_g__Fetch_16_0(::StringW userId);
 
   // Ctor Parameters [CppParam { name: "", ty: "OculusPlatformUserModel", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
@@ -818,17 +815,17 @@ protected:
   constexpr OculusPlatformUserModel();
 
 public:
-  /// @brief Field _userInfoTask, offset: 0x10, size: 0x8, def value: None
-  ::System::Threading::Tasks::Task_1<::GlobalNamespace::UserInfo*>* ____userInfoTask;
+  /// @brief Field _platformInit, offset: 0x10, size: 0x8, def value: None
+  ::GlobalNamespace::IPlatformInit* ____platformInit;
 
-  /// @brief Field _friendsUserIds, offset: 0x18, size: 0x8, def value: None
-  ::ArrayW<::StringW, ::Array<::StringW>*> ____friendsUserIds;
+  /// @brief Field _userInfoTask, offset: 0x18, size: 0x8, def value: None
+  ::System::Threading::Tasks::Task_1<::GlobalNamespace::UserInfo*>* ____userInfoTask;
 
   /// @brief Field _userInfo, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::UserInfo* ____userInfo;
 
-  /// @brief Field _platformInit, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::IPlatformInit* ____platformInit;
+  /// @brief Field _friendsUserIds, offset: 0x28, size: 0x8, def value: None
+  ::ArrayW<::StringW, ::Array<::StringW>*> ____friendsUserIds;
 
   /// @brief Field _lastXPlatformTokenStatusChange, offset: 0x30, size: 0x4, def value: None
   float_t ____lastXPlatformTokenStatusChange;
@@ -844,13 +841,13 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OculusPlatformUserModel, 0x40>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformUserModel, ____userInfoTask) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformUserModel, ____platformInit) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformUserModel, ____friendsUserIds) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformUserModel, ____userInfoTask) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::OculusPlatformUserModel, ____userInfo) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformUserModel, ____platformInit) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformUserModel, ____friendsUserIds) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::OculusPlatformUserModel, ____lastXPlatformTokenStatusChange) == 0x30, "Offset mismatch!");
 
@@ -859,16 +856,12 @@ static_assert(offsetof(::GlobalNamespace::OculusPlatformUserModel, ___platformUs
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OculusPlatformUserModel);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OculusPlatformUserModel*, "", "OculusPlatformUserModel");
-NEED_NO_BOX(::GlobalNamespace::__OculusPlatformUserModel____c__DisplayClass13_0);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OculusPlatformUserModel____c__DisplayClass13_0*, "", "OculusPlatformUserModel/<>c__DisplayClass13_0");
-NEED_NO_BOX(::GlobalNamespace::__OculusPlatformUserModel____c__DisplayClass14_0);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OculusPlatformUserModel____c__DisplayClass14_0*, "", "OculusPlatformUserModel/<>c__DisplayClass14_0");
-NEED_NO_BOX(::GlobalNamespace::__OculusPlatformUserModel____c__DisplayClass15_0);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OculusPlatformUserModel____c__DisplayClass15_0*, "", "OculusPlatformUserModel/<>c__DisplayClass15_0");
-NEED_NO_BOX(::GlobalNamespace::__OculusPlatformUserModel____c__DisplayClass16_0);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OculusPlatformUserModel____c__DisplayClass16_0*, "", "OculusPlatformUserModel/<>c__DisplayClass16_0");
-NEED_NO_BOX(::GlobalNamespace::__OculusPlatformUserModel____c__DisplayClass16_1);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OculusPlatformUserModel____c__DisplayClass16_1*, "", "OculusPlatformUserModel/<>c__DisplayClass16_1");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OculusPlatformUserModel___GetUserInfoTask_d__13, "", "OculusPlatformUserModel/<GetUserInfoTask>d__13");
+NEED_NO_BOX(::GlobalNamespace::__OculusPlatformUserModel____c);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OculusPlatformUserModel____c*, "", "OculusPlatformUserModel/<>c");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OculusPlatformUserModel___GetUserAuthToken_d__15, "", "OculusPlatformUserModel/<GetUserAuthToken>d__15");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OculusPlatformUserModel___GetUserFriendsUserIds_d__14, "", "OculusPlatformUserModel/<GetUserFriendsUserIds>d__14");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OculusPlatformUserModel___GetUserInfoInternalAsync_d__13, "", "OculusPlatformUserModel/<GetUserInfoInternalAsync>d__13");
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OculusPlatformUserModel___GetUserInfo_d__12, "", "OculusPlatformUserModel/<GetUserInfo>d__12");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OculusPlatformUserModel___GetUserNamesForUserIds_d__16, "", "OculusPlatformUserModel/<GetUserNamesForUserIds>d__16");
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OculusPlatformUserModel___RequestXPlatformAccessToken_d__17, "", "OculusPlatformUserModel/<RequestXPlatformAccessToken>d__17");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OculusPlatformUserModel____GetUserNamesForUserIds_g__Fetch_16_0_d, "", "OculusPlatformUserModel/<<GetUserNamesForUserIds>g__Fetch|16_0>d");

@@ -25,7 +25,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Generators::Kdf2BytesGenerator* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method .ctor, addr 0xefd314, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf281a4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
   // Ctor Parameters [CppParam { name: "", ty: "Kdf2BytesGenerator", modifiers: "&&", def_value: None }]

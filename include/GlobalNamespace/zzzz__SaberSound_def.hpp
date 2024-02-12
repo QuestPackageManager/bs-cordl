@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SaberSound);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5300))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8993))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4640))
 // CS Name: ::SaberSound*
 class CORDL_TYPE SaberSound : public ::UnityEngine::MonoBehaviour {
 public:
@@ -121,15 +121,15 @@ public:
 
   constexpr void __cordl_internal_set__speed(float_t value);
 
-  /// @brief Method Start, addr 0x226458c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x23c33f4, size 0x2c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x22645b8, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x23c3420, size 0x1cc, virtual false, abstract: false, final false
   inline void Update();
 
   static inline ::GlobalNamespace::SaberSound* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2264784, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c35ec, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SaberSound", modifiers: "&&", def_value: None }]

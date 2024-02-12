@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::InternalDecoderBestFitFallback::*)(::System::Text::Encoding*)>(
     &::System::Text::InternalDecoderBestFitFallback::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x2630b08;
+  constexpr static std::size_t addrs = 0x2656c2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::DecoderFallbackBuffer* (::System::Text::InternalDecoderBestFitFallback::*)()>(
     &::System::Text::InternalDecoderBestFitFallback::CreateFallbackBuffer)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x2630b40;
+  constexpr static std::size_t addrs = 0x2656c64;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::InternalDecoderBestFitFallback::*)()>(
     &::System::Text::InternalDecoderBestFitFallback::get_MaxCharCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2630cc8;
+  constexpr static std::size_t addrs = 0x2656dec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Text::InternalDecoderBestFitFallback::*)(::System::Object*)>(
     &::System::Text::InternalDecoderBestFitFallback::Equals)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x2630cd0;
+  constexpr static std::size_t addrs = 0x2656df4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::InternalDecoderBestFitFallback::*)()>(
     &::System::Text::InternalDecoderBestFitFallback::GetHashCode)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2630d78;
+  constexpr static std::size_t addrs = 0x2656e9c;
 
   inline static ::MethodInfo const* methodInfo() {
 

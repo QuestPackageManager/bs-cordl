@@ -16,7 +16,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_ParmType);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9696))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9488))
 // CS Name: ::HoudiniEngineUnity::HAPI_ParmType
 struct CORDL_TYPE HAPI_ParmType {
 public:

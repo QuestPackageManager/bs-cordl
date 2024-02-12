@@ -26,7 +26,7 @@ namespace Newtonsoft::Json::Utilities {
 template <typename TKey, typename TValue>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11868))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11766))
 // CS Name: ::Newtonsoft.Json.Utilities::ThreadSafeStore`2<TKey,TValue>*
 class CORDL_TYPE ThreadSafeStore_2 : public ::System::Object {
 public:

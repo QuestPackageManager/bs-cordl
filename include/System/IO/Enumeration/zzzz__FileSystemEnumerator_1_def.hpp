@@ -49,8 +49,8 @@ namespace System::IO::Enumeration {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2214)), TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(3354))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3655))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2214)), TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(3351))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3653))
 // CS Name: ::System.IO.Enumeration::FileSystemEnumerator`1<TResult>*
 class CORDL_TYPE FileSystemEnumerator_1 : public ::System::Runtime::ConstrainedExecution::CriticalFinalizerObject {
 public:

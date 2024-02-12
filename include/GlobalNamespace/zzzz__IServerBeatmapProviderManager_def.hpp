@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IServerBeatmapProviderManager);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12814))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12712))
 // CS Name: ::IServerBeatmapProviderManager*
 class CORDL_TYPE IServerBeatmapProviderManager {
 public:

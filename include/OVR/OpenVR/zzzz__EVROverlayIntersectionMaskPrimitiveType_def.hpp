@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::EVROverlayIntersectionMaskPrimitiveType);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8631))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8575))
 // CS Name: ::OVR.OpenVR::EVROverlayIntersectionMaskPrimitiveType
 struct CORDL_TYPE EVROverlayIntersectionMaskPrimitiveType {
 public:

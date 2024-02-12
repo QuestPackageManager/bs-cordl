@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::MS::Internal::Xml::Cache::XPathNodePageInfo);
 namespace MS::Internal::Xml::Cache {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11771))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11669))
 // CS Name: ::MS.Internal.Xml.Cache::XPathNodePageInfo*
 class CORDL_TYPE XPathNodePageInfo : public ::System::Object {
 public:
@@ -59,13 +59,13 @@ public:
 
   constexpr void __cordl_internal_set__pageNext(::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> value);
 
-  /// @brief Method get_PageNumber, addr 0x28eb808, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PageNumber, addr 0x28ede70, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_PageNumber();
 
-  /// @brief Method get_NodeCount, addr 0x28eb810, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NodeCount, addr 0x28ede78, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_NodeCount();
 
-  /// @brief Method get_NextPage, addr 0x28eb818, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NextPage, addr 0x28ede80, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> get_NextPage();
 
   // Ctor Parameters [CppParam { name: "", ty: "XPathNodePageInfo", modifiers: "&&", def_value: None }]

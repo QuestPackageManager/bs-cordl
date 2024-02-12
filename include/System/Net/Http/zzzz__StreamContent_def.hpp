@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::System::Net::Http::StreamContent);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 73, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(14649))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14656))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(14654))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14661))
 // CS Name: ::System.Net.Http::StreamContent*
 class CORDL_TYPE StreamContent : public ::System::Net::Http::HttpContent {
 public:
@@ -82,26 +82,26 @@ public:
 
   static inline ::System::Net::Http::StreamContent* New_ctor(::System::IO::Stream* content);
 
-  /// @brief Method .ctor, addr 0x28343ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2838acc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* content);
 
   static inline ::System::Net::Http::StreamContent* New_ctor(::System::IO::Stream* content, int32_t bufferSize);
 
-  /// @brief Method .ctor, addr 0x28343f4, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2838ad4, size 0xec, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* content, int32_t bufferSize);
 
   static inline ::System::Net::Http::StreamContent* New_ctor(::System::IO::Stream* content, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method .ctor, addr 0x2830af4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28352dc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* content, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Dispose, addr 0x28344e0, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x2838bc0, size 0x4c, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method SerializeToStreamAsync, addr 0x283452c, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method SerializeToStreamAsync, addr 0x2838c0c, size 0xd8, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* SerializeToStreamAsync(::System::IO::Stream* stream, ::System::Net::TransportContext* context);
 
-  /// @brief Method TryComputeLength, addr 0x2834604, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method TryComputeLength, addr 0x2838ce4, size 0x68, virtual true, abstract: false, final false
   inline bool TryComputeLength(ByRef<int64_t> length);
 
   // Ctor Parameters [CppParam { name: "", ty: "StreamContent", modifiers: "&&", def_value: None }]

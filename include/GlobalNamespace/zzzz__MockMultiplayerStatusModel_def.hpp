@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MockMultiplayerStatusModel);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5178))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4517))
 // CS Name: ::MockMultiplayerStatusModel*
 class CORDL_TYPE MockMultiplayerStatusModel : public ::System::Object {
 public:
@@ -47,12 +47,12 @@ public:
 
   constexpr void __cordl_internal_set__multiplayerStatusData(::GlobalNamespace::MultiplayerStatusData* value);
 
-  /// @brief Method GetMultiplayerStatusAsync, addr 0x23df8fc, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method GetMultiplayerStatusAsync, addr 0x239db18, size 0x70, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerStatusData*>* GetMultiplayerStatusAsync(::System::Threading::CancellationToken cancellationToken);
 
   static inline ::GlobalNamespace::MockMultiplayerStatusModel* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23df96c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x239db88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MockMultiplayerStatusModel", modifiers: "&&", def_value: None }]

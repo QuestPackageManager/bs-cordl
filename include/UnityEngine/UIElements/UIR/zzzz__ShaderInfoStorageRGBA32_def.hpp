@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::__ShaderInfoStorageRGBA32____c);
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7382))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6641))
 // CS Name: ::ShaderInfoStorageRGBA32::<>c*
 class CORDL_TYPE __ShaderInfoStorageRGBA32____c : public ::System::Object {
 public:
@@ -48,10 +48,10 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::__ShaderInfoStorageRGBA32____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e8b4e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ea58c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <.cctor>b__2_0, addr 0x2e8b4e8, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__2_0, addr 0x2ea58d0, size 0x2c4, virtual false, abstract: false, final false
   inline ::UnityEngine::Color32 __cctor_b__2_0(::UnityEngine::Color c);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ShaderInfoStorageRGBA32____c", modifiers: "&&", def_value: None }]
@@ -78,8 +78,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::__
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7381)), TypeDefinitionIndex(TypeDefinitionIndex(10250)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7381), inst: 742
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7383)) CS Name: ::UnityEngine.UIElements.UIR::ShaderInfoStorageRGBA32*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6640)), TypeDefinitionIndex(TypeDefinitionIndex(8994)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6640), inst: 738
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6642)) CS Name: ::UnityEngine.UIElements.UIR::ShaderInfoStorageRGBA32*
 class CORDL_TYPE ShaderInfoStorageRGBA32 : public ::UnityEngine::UIElements::UIR::ShaderInfoStorage_1<::UnityEngine::Color32> {
 public:
   // Declarations
@@ -94,7 +94,7 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::ShaderInfoStorageRGBA32* New_ctor(int32_t initialSize, int32_t maxSize);
 
-  /// @brief Method .ctor, addr 0x2e8935c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ea3744, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(int32_t initialSize, int32_t maxSize);
 
   // Ctor Parameters [CppParam { name: "", ty: "ShaderInfoStorageRGBA32", modifiers: "&&", def_value: None }]

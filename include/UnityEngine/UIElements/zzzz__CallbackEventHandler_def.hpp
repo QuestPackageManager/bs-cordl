@@ -36,7 +36,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::CallbackEventHandler);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7211))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6470))
 // CS Name: ::UnityEngine.UIElements::CallbackEventHandler*
 class CORDL_TYPE CallbackEventHandler : public ::System::Object {
 public:
@@ -73,33 +73,33 @@ public:
   /// @brief Method SendEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SendEvent(::UnityEngine::UIElements::EventBase* e, ::UnityEngine::UIElements::DispatchMode dispatchMode);
 
-  /// @brief Method HandleEventAtTargetPhase, addr 0x2e4d8d4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method HandleEventAtTargetPhase, addr 0x2e68cbc, size 0x6c, virtual false, abstract: false, final false
   inline void HandleEventAtTargetPhase(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method HandleEvent, addr 0x2e50964, size 0x2c0, virtual true, abstract: false, final false
+  /// @brief Method HandleEvent, addr 0x2e6bd4c, size 0x2c0, virtual true, abstract: false, final false
   inline void HandleEvent(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method HasTrickleDownHandlers, addr 0x2e4cb6c, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method HasTrickleDownHandlers, addr 0x2e67f54, size 0x28, virtual true, abstract: false, final true
   inline bool HasTrickleDownHandlers();
 
-  /// @brief Method HasBubbleUpHandlers, addr 0x2e4cb94, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method HasBubbleUpHandlers, addr 0x2e67f7c, size 0x28, virtual true, abstract: false, final true
   inline bool HasBubbleUpHandlers();
 
-  /// @brief Method ExecuteDefaultActionAtTarget, addr 0x2e50c24, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ExecuteDefaultActionAtTarget, addr 0x2e6c00c, size 0x4, virtual true, abstract: false, final false
   inline void ExecuteDefaultActionAtTarget(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method ExecuteDefaultAction, addr 0x2e50c28, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ExecuteDefaultAction, addr 0x2e6c010, size 0x4, virtual true, abstract: false, final false
   inline void ExecuteDefaultAction(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method ExecuteDefaultActionDisabledAtTarget, addr 0x2e50c2c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ExecuteDefaultActionDisabledAtTarget, addr 0x2e6c014, size 0x4, virtual true, abstract: false, final false
   inline void ExecuteDefaultActionDisabledAtTarget(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method ExecuteDefaultActionDisabled, addr 0x2e50c30, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ExecuteDefaultActionDisabled, addr 0x2e6c018, size 0x4, virtual true, abstract: false, final false
   inline void ExecuteDefaultActionDisabled(::UnityEngine::UIElements::EventBase* evt);
 
   static inline ::UnityEngine::UIElements::CallbackEventHandler* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e50c34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e6c01c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CallbackEventHandler", modifiers: "&&", def_value: None }]

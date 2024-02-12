@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::HideInMenuAttribute);
 namespace UnityEngine::Timeline {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13924))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13877))
 // CS Name: ::UnityEngine.Timeline::HideInMenuAttribute*
 class CORDL_TYPE HideInMenuAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::UnityEngine::Timeline::HideInMenuAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c6e798, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c6b304, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HideInMenuAttribute", modifiers: "&&", def_value: None }]

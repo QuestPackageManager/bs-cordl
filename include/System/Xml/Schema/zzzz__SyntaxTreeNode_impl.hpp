@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::SyntaxTreeNode::*)()>(&::System::Xml::Schema::SyntaxTreeNode::get_IsRangeNode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x28adbcc;
+  constexpr static std::size_t addrs = 0x28b1234;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::SyntaxTreeNode::*)()>(&::System::Xml::Schema::SyntaxTreeNode::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x28adbd4;
+  constexpr static std::size_t addrs = 0x28b123c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::SyntaxTreeNode*>::get(), ".ctor",

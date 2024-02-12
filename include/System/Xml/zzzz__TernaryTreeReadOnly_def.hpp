@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::System::Xml::TernaryTreeReadOnly);
 namespace System::Xml {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11439))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11337))
 // CS Name: ::System.Xml::TernaryTreeReadOnly*
 class CORDL_TYPE TernaryTreeReadOnly : public ::System::Object {
 public:
@@ -34,10 +34,10 @@ public:
 
   static inline ::System::Xml::TernaryTreeReadOnly* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> nodeBuffer);
 
-  /// @brief Method .ctor, addr 0x2851124, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x285478c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> nodeBuffer);
 
-  /// @brief Method FindCaseInsensitiveString, addr 0x284f980, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method FindCaseInsensitiveString, addr 0x2852fe8, size 0x12c, virtual false, abstract: false, final false
   inline uint8_t FindCaseInsensitiveString(::StringW stringToFind);
 
   // Ctor Parameters [CppParam { name: "", ty: "TernaryTreeReadOnly", modifiers: "&&", def_value: None }]

@@ -42,16 +42,16 @@ public:
 
   static inline ::System::Runtime::Remoting::Messaging::EnvoyTerminatorSink* getStaticF_Instance();
 
-  /// @brief Method SyncProcessMessage, addr 0x24ad3e8, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method SyncProcessMessage, addr 0x24cf45c, size 0xb4, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
 
-  /// @brief Method AsyncProcessMessage, addr 0x24ad49c, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method AsyncProcessMessage, addr 0x24cf510, size 0xc0, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg,
                                                                                    ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
   static inline ::System::Runtime::Remoting::Messaging::EnvoyTerminatorSink* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24ad55c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24cf5d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EnvoyTerminatorSink", modifiers: "&&", def_value: None }]

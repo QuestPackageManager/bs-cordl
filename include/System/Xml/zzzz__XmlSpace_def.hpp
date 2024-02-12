@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Xml::XmlSpace);
 namespace System::Xml {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11458))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11356))
 // CS Name: ::System.Xml::XmlSpace
 struct CORDL_TYPE XmlSpace {
 public:

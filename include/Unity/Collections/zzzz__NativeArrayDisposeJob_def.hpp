@@ -21,8 +21,8 @@ MARK_VAL_T(::Unity::Collections::NativeArrayDisposeJob);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::Collections {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10000))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10001))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8731))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8732))
 // CS Name: ::Unity.Collections::NativeArrayDisposeJob
 struct CORDL_TYPE NativeArrayDisposeJob {
 public:
@@ -33,7 +33,7 @@ public:
   /// @brief Convert to "::Unity::Jobs::IJob"
   constexpr ::Unity::Jobs::IJob* i___Unity__Jobs__IJob();
 
-  /// @brief Method Execute, addr 0x2c9e068, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x2c9eb14, size 0x44, virtual true, abstract: false, final true
   inline void Execute();
 
   // Ctor Parameters [CppParam { name: "Data", ty: "::Unity::Collections::NativeArrayDispose", modifiers: "", def_value: None }]

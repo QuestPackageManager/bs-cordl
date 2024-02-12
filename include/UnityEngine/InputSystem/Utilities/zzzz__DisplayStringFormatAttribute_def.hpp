@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Utilities::DisplayStringFormatAttribu
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6665))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5924))
 // CS Name: ::UnityEngine.InputSystem.Utilities::DisplayStringFormatAttribute*
 class CORDL_TYPE DisplayStringFormatAttribute : public ::System::Attribute {
 public:
@@ -32,15 +32,15 @@ public:
 
   constexpr void __cordl_internal_set__formatString_k__BackingField(::StringW value);
 
-  /// @brief Method get_formatString, addr 0x2b0f9cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_formatString, addr 0x2b0f538, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_formatString();
 
-  /// @brief Method set_formatString, addr 0x2b0f9d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_formatString, addr 0x2b0f540, size 0x8, virtual false, abstract: false, final false
   inline void set_formatString(::StringW value);
 
   static inline ::UnityEngine::InputSystem::Utilities::DisplayStringFormatAttribute* New_ctor(::StringW formatString);
 
-  /// @brief Method .ctor, addr 0x2b0f9dc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b0f548, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW formatString);
 
   // Ctor Parameters [CppParam { name: "", ty: "DisplayStringFormatAttribute", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Yoga::YogaLogLevel);
 namespace UnityEngine::Yoga {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15368))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15528))
 // CS Name: ::UnityEngine.Yoga::YogaLogLevel
 struct CORDL_TYPE YogaLogLevel {
 public:

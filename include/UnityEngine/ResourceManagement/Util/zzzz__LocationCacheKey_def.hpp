@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::Util::LocationCacheKey);
 namespace UnityEngine::ResourceManagement::Util {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13970))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13983))
 // CS Name: ::UnityEngine.ResourceManagement.Util::LocationCacheKey*
 class CORDL_TYPE LocationCacheKey : public ::System::Object {
 public:
@@ -68,19 +68,19 @@ public:
 
   static inline ::UnityEngine::ResourceManagement::Util::LocationCacheKey* New_ctor(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::System::Type* desiredType);
 
-  /// @brief Method .ctor, addr 0x2bcbc00, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bc976c, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::System::Type* desiredType);
 
-  /// @brief Method GetHashCode, addr 0x2bd1618, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2bcf184, size 0xac, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Equals, addr 0x2bd16c4, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2bcf230, size 0x64, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x2bd1784, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2bcf2f0, size 0x64, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::ResourceManagement::Util::IOperationCacheKey* other);
 
-  /// @brief Method Equals, addr 0x2bd1728, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x2bcf294, size 0x5c, virtual false, abstract: false, final false
   inline bool Equals(::UnityEngine::ResourceManagement::Util::LocationCacheKey* other);
 
   // Ctor Parameters [CppParam { name: "", ty: "LocationCacheKey", modifiers: "&&", def_value: None }]

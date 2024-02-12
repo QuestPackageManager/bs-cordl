@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::GlobalNamespace::SyncTimeProvider);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5386))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16197))
 // CS Name: ::SyncTimeProvider*
 class CORDL_TYPE SyncTimeProvider : public ::System::Object {
 public:
@@ -45,12 +45,12 @@ public:
 
   constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
 
-  /// @brief Method get_time, addr 0x226ef60, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method get_time, addr 0x2182714, size 0xa4, virtual true, abstract: false, final true
   inline int64_t get_time();
 
   static inline ::GlobalNamespace::SyncTimeProvider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x226f004, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21827b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SyncTimeProvider", modifiers: "&&", def_value: None }]

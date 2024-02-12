@@ -54,7 +54,7 @@ namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14950))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14823))
 // CS Name: ::MultiplayerSyncStateManager`5::<>c<TStateTable,TType,TState,TSerializable,TDeltaSerializable>*
 class CORDL_TYPE __MultiplayerSyncStateManager_5____c : public ::System::Object {
 public:
@@ -105,8 +105,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14951))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14824))
 // CS Name: ::MultiplayerSyncStateManager`5<TStateTable,TType,TState,TSerializable,TDeltaSerializable>*
 class CORDL_TYPE MultiplayerSyncStateManager_5 : public ::UnityEngine::MonoBehaviour {
 public:

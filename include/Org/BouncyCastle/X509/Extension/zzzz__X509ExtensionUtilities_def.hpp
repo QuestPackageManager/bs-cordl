@@ -32,21 +32,21 @@ namespace Org::BouncyCastle::X509::Extension {
 class CORDL_TYPE X509ExtensionUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FromExtensionValue, addr 0x116ed74, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method FromExtensionValue, addr 0x119dc04, size 0x24, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1Object* FromExtensionValue(::Org::BouncyCastle::Asn1::Asn1OctetString* extensionValue);
 
-  /// @brief Method GetIssuerAlternativeNames, addr 0x116f5f8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetIssuerAlternativeNames, addr 0x119e488, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Collections::ICollection* GetIssuerAlternativeNames(::Org::BouncyCastle::X509::X509Certificate* cert);
 
-  /// @brief Method GetSubjectAlternativeNames, addr 0x117005c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetSubjectAlternativeNames, addr 0x119eeec, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Collections::ICollection* GetSubjectAlternativeNames(::Org::BouncyCastle::X509::X509Certificate* cert);
 
-  /// @brief Method GetAlternativeName, addr 0x116f66c, size 0x9f0, virtual false, abstract: false, final false
+  /// @brief Method GetAlternativeName, addr 0x119e4fc, size 0x9f0, virtual false, abstract: false, final false
   static inline ::System::Collections::ICollection* GetAlternativeName(::Org::BouncyCastle::Asn1::Asn1OctetString* extVal);
 
   static inline ::Org::BouncyCastle::X509::Extension::X509ExtensionUtilities* New_ctor();
 
-  /// @brief Method .ctor, addr 0x11700d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x119ef60, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "X509ExtensionUtilities", modifiers: "&&", def_value: None }]

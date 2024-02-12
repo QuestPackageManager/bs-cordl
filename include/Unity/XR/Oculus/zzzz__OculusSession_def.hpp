@@ -15,12 +15,12 @@ MARK_REF_PTR_T(::Unity::XR::Oculus::OculusSession);
 namespace Unity::XR::Oculus {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15146))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15186))
 // CS Name: ::Unity.XR.Oculus::OculusSession*
 class CORDL_TYPE OculusSession : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Update, addr 0x2c7bba4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2c78710, size 0x60, virtual false, abstract: false, final false
   static inline void Update();
 
   // Ctor Parameters [CppParam { name: "", ty: "OculusSession", modifiers: "&&", def_value: None }]

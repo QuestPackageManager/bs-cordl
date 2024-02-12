@@ -37,20 +37,20 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshOperations::QuadUtility);
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12279))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12177))
 // CS Name: ::UnityEngine.ProBuilder.MeshOperations::QuadUtility*
 class CORDL_TYPE QuadUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToQuads, addr 0x2bbab58, size 0x854, virtual false, abstract: false, final false
+  /// @brief Method ToQuads, addr 0x2bb86c4, size 0x854, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* ToQuads(::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
                                                                                                   ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>* faces, bool smoothing);
 
-  /// @brief Method GetBestQuadConnection, addr 0x2bbeec4, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method GetBestQuadConnection, addr 0x2bbca30, size 0x270, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Face* GetBestQuadConnection(::UnityEngine::ProBuilder::WingedEdge* wing,
                                                                        ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::EdgeLookup, float_t>* connections);
 
-  /// @brief Method GetQuadScore, addr 0x2bbe858, size 0x66c, virtual false, abstract: false, final false
+  /// @brief Method GetQuadScore, addr 0x2bbc3c4, size 0x66c, virtual false, abstract: false, final false
   static inline float_t GetQuadScore(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::WingedEdge* left, ::UnityEngine::ProBuilder::WingedEdge* right,
                                      float_t normalThreshold);
 

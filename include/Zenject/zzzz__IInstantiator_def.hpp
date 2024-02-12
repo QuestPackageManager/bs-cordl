@@ -42,7 +42,7 @@ MARK_REF_PTR_T(::Zenject::IInstantiator);
 namespace Zenject {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11167))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10309))
 // CS Name: ::Zenject::IInstantiator*
 class CORDL_TYPE IInstantiator {
 public:

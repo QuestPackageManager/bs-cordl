@@ -15,18 +15,18 @@ MARK_REF_PTR_T(::Unity::XR::Oculus::RegisterUpdateCallback);
 namespace Unity::XR::Oculus {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15152))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15192))
 // CS Name: ::Unity.XR.Oculus::RegisterUpdateCallback*
 class CORDL_TYPE RegisterUpdateCallback : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Initialize, addr 0x2c78420, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x2c74f8c, size 0x7c, virtual false, abstract: false, final false
   static inline void Initialize();
 
-  /// @brief Method Deinitialize, addr 0x2c78680, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Deinitialize, addr 0x2c751ec, size 0x7c, virtual false, abstract: false, final false
   static inline void Deinitialize();
 
-  /// @brief Method Update, addr 0x2c7bd90, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2c788fc, size 0x10, virtual false, abstract: false, final false
   static inline void Update();
 
   // Ctor Parameters [CppParam { name: "", ty: "RegisterUpdateCallback", modifiers: "&&", def_value: None }]

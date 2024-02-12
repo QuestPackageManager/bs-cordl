@@ -48,13 +48,13 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload* New_ctor(::StringW participantId, ::Org::BouncyCastle::Math::BigInteger* magTag);
 
-  /// @brief Method .ctor, addr 0x121508c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1241f1c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW participantId, ::Org::BouncyCastle::Math::BigInteger* magTag);
 
-  /// @brief Method get_ParticipantId, addr 0x1215c18, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ParticipantId, addr 0x1242aa8, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_ParticipantId();
 
-  /// @brief Method get_MacTag, addr 0x1215c20, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_MacTag, addr 0x1242ab0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_MacTag();
 
   // Ctor Parameters [CppParam { name: "", ty: "JPakeRound3Payload", modifiers: "&&", def_value: None }]

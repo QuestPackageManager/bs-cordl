@@ -17,20 +17,20 @@ MARK_REF_PTR_T(::System::Xml::Schema::Datatype_language);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11654))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11656))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11552))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11554))
 // CS Name: ::System.Xml.Schema::Datatype_language*
 class CORDL_TYPE Datatype_language : public ::System::Xml::Schema::Datatype_token {
 public:
   // Declarations
   __declspec(property(get = get_TypeCode))::System::Xml::Schema::XmlTypeCode TypeCode;
 
-  /// @brief Method get_TypeCode, addr 0x28bb690, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x28bdcf8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
   static inline ::System::Xml::Schema::Datatype_language* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28bb698, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28bdd00, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Datatype_language", modifiers: "&&", def_value: None }]

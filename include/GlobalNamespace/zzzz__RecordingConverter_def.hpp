@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::GlobalNamespace::RecordingConverter);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5942))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5202))
 // CS Name: ::RecordingConverter*
 class CORDL_TYPE RecordingConverter : public ::System::Object {
 public:
@@ -38,10 +38,10 @@ public:
 
   static inline ::GlobalNamespace::RecordingConverter* New_ctor(::GlobalNamespace::IBeatSaberLogger* logger);
 
-  /// @brief Method .ctor, addr 0x2302328, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x232a26c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IBeatSaberLogger* logger);
 
-  /// @brief Method SaveToOldFormat, addr 0x230351c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method SaveToOldFormat, addr 0x232b460, size 0xec, virtual false, abstract: false, final false
   inline void SaveToOldFormat(::StringW path, ::GlobalNamespace::PosesRecordingData* data);
 
   // Ctor Parameters [CppParam { name: "", ty: "RecordingConverter", modifiers: "&&", def_value: None }]

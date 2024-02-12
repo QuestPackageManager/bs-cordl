@@ -20,23 +20,23 @@ MARK_VAL_T(::System::Xml::Xsl::Runtime::StringConcat);
 namespace System::Xml::Xsl::Runtime {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11592))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11490))
 // CS Name: ::System.Xml.Xsl.Runtime::StringConcat
 struct CORDL_TYPE StringConcat {
 public:
   // Declarations
   __declspec(property(get = get_Count)) int32_t Count;
 
-  /// @brief Method Clear, addr 0x28abf98, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x28af600, size 0xc, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method get_Count, addr 0x28abfa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x28af60c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method GetResult, addr 0x28abfac, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetResult, addr 0x28af614, size 0xf4, virtual false, abstract: false, final false
   inline ::StringW GetResult();
 
-  /// @brief Method ConcatNoDelimiter, addr 0x28ac0a0, size 0x2b8, virtual false, abstract: false, final false
+  /// @brief Method ConcatNoDelimiter, addr 0x28af708, size 0x2b8, virtual false, abstract: false, final false
   inline void ConcatNoDelimiter(::StringW s);
 
   // Ctor Parameters [CppParam { name: "s1", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "s2", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "s3", ty:

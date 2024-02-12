@@ -39,8 +39,8 @@ MARK_REF_PTR_T(::Mono::Security::Authenticode::AuthenticodeDeformatter);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::Authenticode {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(13801))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13802))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(13754))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13755))
 // CS Name: ::Mono.Security.Authenticode::AuthenticodeDeformatter*
 class CORDL_TYPE AuthenticodeDeformatter : public ::Mono::Security::Authenticode::AuthenticodeBase {
 public:
@@ -168,33 +168,33 @@ public:
 
   static inline ::Mono::Security::Authenticode::AuthenticodeDeformatter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x240ae30, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x242ac90, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Mono::Security::Authenticode::AuthenticodeDeformatter* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> rawData);
 
-  /// @brief Method .ctor, addr 0x240aebc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x242ad1c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> rawData);
 
-  /// @brief Method set_RawData, addr 0x240aee4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method set_RawData, addr 0x242ad44, size 0xd0, virtual false, abstract: false, final false
   inline void set_RawData(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method get_SigningCertificate, addr 0x240b34c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SigningCertificate, addr 0x242b1ac, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509Certificate* get_SigningCertificate();
 
-  /// @brief Method CheckSignature, addr 0x240b058, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method CheckSignature, addr 0x242aeb8, size 0x2f4, virtual false, abstract: false, final false
   inline bool CheckSignature();
 
-  /// @brief Method CompareIssuerSerial, addr 0x240bd9c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method CompareIssuerSerial, addr 0x242bbfc, size 0xf4, virtual false, abstract: false, final false
   inline bool CompareIssuerSerial(::StringW issuer, ::ArrayW<uint8_t, ::Array<uint8_t>*> serial, ::Mono::Security::X509::X509Certificate* x509);
 
-  /// @brief Method VerifySignature, addr 0x240b354, size 0xa48, virtual false, abstract: false, final false
+  /// @brief Method VerifySignature, addr 0x242b1b4, size 0xa48, virtual false, abstract: false, final false
   inline bool VerifySignature(::Mono::Security::__PKCS7__SignedData* sd, ::ArrayW<uint8_t, ::Array<uint8_t>*> calculatedMessageDigest, ::System::Security::Cryptography::HashAlgorithm* ha);
 
-  /// @brief Method VerifyCounterSignature, addr 0x240be90, size 0xa00, virtual false, abstract: false, final false
+  /// @brief Method VerifyCounterSignature, addr 0x242bcf0, size 0xa00, virtual false, abstract: false, final false
   inline bool VerifyCounterSignature(::Mono::Security::__PKCS7__SignerInfo* cs, ::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
 
-  /// @brief Method Reset, addr 0x240afb4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x242ae14, size 0xa4, virtual false, abstract: false, final false
   inline void Reset();
 
   // Ctor Parameters [CppParam { name: "", ty: "AuthenticodeDeformatter", modifiers: "&&", def_value: None }]

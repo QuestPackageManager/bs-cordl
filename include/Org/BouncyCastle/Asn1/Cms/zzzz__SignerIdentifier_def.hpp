@@ -59,29 +59,29 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* New_ctor(::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber* id);
 
-  /// @brief Method .ctor, addr 0xe80814, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeaa6a4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber* id);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* New_ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* id);
 
-  /// @brief Method .ctor, addr 0xe8083c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeaa6cc, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* id);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* New_ctor(::Org::BouncyCastle::Asn1::Asn1Object* id);
 
-  /// @brief Method .ctor, addr 0xe808c0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeaa750, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Object* id);
 
-  /// @brief Method GetInstance, addr 0xe808e8, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xeaa778, size 0x230, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* GetInstance(::System::Object* o);
 
-  /// @brief Method get_IsTagged, addr 0xe80b18, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_IsTagged, addr 0xeaa9a8, size 0x7c, virtual false, abstract: false, final false
   inline bool get_IsTagged();
 
-  /// @brief Method get_ID, addr 0xe80b94, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_ID, addr 0xeaaa24, size 0x88, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_ID();
 
-  /// @brief Method ToAsn1Object, addr 0xe80c1c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xeaaaac, size 0x20, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "SignerIdentifier", modifiers: "&&", def_value: None }]

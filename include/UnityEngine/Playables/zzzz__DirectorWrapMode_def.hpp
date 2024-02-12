@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Playables::DirectorWrapMode);
 namespace UnityEngine::Playables {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10427))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9195))
 // CS Name: ::UnityEngine.Playables::DirectorWrapMode
 struct CORDL_TYPE DirectorWrapMode {
 public:

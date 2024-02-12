@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::CollectionVirtualizationMethod);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7141))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6400))
 // CS Name: ::UnityEngine.UIElements::CollectionVirtualizationMethod
 struct CORDL_TYPE CollectionVirtualizationMethod {
 public:

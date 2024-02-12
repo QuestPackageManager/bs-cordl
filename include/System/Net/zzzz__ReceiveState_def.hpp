@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::System::Net::ReceiveState);
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9038))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7048))
 // CS Name: ::System.Net::ReceiveState*
 class CORDL_TYPE ReceiveState : public ::System::Object {
 public:
@@ -66,7 +66,7 @@ public:
 
   static inline ::System::Net::ReceiveState* New_ctor(::System::Net::CommandStream* connection);
 
-  /// @brief Method .ctor, addr 0x298ea3c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29924e0, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::CommandStream* connection);
 
   // Ctor Parameters [CppParam { name: "", ty: "ReceiveState", modifiers: "&&", def_value: None }]

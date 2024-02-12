@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::System::Collections::Comparer);
 namespace System::Collections {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3752))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3751))
 // CS Name: ::System.Collections::Comparer*
 class CORDL_TYPE Comparer : public ::System::Object {
 public:
@@ -79,18 +79,18 @@ public:
 
   static inline ::System::Collections::Comparer* New_ctor(::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method .ctor, addr 0x257bf3c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x259ee54, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Globalization::CultureInfo* culture);
 
   static inline ::System::Collections::Comparer* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x257bfc4, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x259eedc, size 0x174, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetObjectData, addr 0x257c138, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method GetObjectData, addr 0x259f050, size 0xa4, virtual true, abstract: false, final true
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method Compare, addr 0x257c1dc, size 0x210, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x259f0f4, size 0x210, virtual true, abstract: false, final true
   inline int32_t Compare(::System::Object* a, ::System::Object* b);
 
   // Ctor Parameters [CppParam { name: "", ty: "Comparer", modifiers: "&&", def_value: None }]

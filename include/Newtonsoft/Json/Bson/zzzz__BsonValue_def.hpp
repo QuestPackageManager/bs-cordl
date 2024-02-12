@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Bson::BsonValue);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Bson {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12074)), TypeDefinitionIndex(TypeDefinitionIndex(12082))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12077))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11972)), TypeDefinitionIndex(TypeDefinitionIndex(11980))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11975))
 // CS Name: ::Newtonsoft.Json.Bson::BsonValue*
 class CORDL_TYPE BsonValue : public ::Newtonsoft::Json::Bson::BsonToken {
 public:
@@ -51,13 +51,13 @@ public:
 
   static inline ::Newtonsoft::Json::Bson::BsonValue* New_ctor(::System::Object* value, ::Newtonsoft::Json::Bson::BsonType type);
 
-  /// @brief Method .ctor, addr 0x26c83c8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ea584, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* value, ::Newtonsoft::Json::Bson::BsonType type);
 
-  /// @brief Method get_Value, addr 0x26c83f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x26ea5b4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Value();
 
-  /// @brief Method get_Type, addr 0x26c8400, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x26ea5bc, size 0x8, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Bson::BsonType get_Type();
 
   // Ctor Parameters [CppParam { name: "", ty: "BsonValue", modifiers: "&&", def_value: None }]

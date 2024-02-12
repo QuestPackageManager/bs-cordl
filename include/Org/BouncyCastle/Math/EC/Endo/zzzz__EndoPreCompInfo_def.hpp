@@ -57,21 +57,21 @@ public:
 
   constexpr void __cordl_internal_set_m_mappedPoint(::Org::BouncyCastle::Math::EC::ECPoint* value);
 
-  /// @brief Method get_Endomorphism, addr 0x1034c60, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Endomorphism, addr 0x1061af0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* get_Endomorphism();
 
-  /// @brief Method set_Endomorphism, addr 0x1034c68, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_Endomorphism, addr 0x1061af8, size 0x8, virtual true, abstract: false, final false
   inline void set_Endomorphism(::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* value);
 
-  /// @brief Method get_MappedPoint, addr 0x1034c70, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_MappedPoint, addr 0x1061b00, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* get_MappedPoint();
 
-  /// @brief Method set_MappedPoint, addr 0x1034c78, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_MappedPoint, addr 0x1061b08, size 0x8, virtual true, abstract: false, final false
   inline void set_MappedPoint(::Org::BouncyCastle::Math::EC::ECPoint* value);
 
   static inline ::Org::BouncyCastle::Math::EC::Endo::EndoPreCompInfo* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1034c80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1061b10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EndoPreCompInfo", modifiers: "&&", def_value: None }]

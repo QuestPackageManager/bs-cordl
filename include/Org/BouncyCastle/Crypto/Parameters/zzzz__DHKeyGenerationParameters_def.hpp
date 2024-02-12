@@ -41,13 +41,13 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters* New_ctor(::Org::BouncyCastle::Security::SecureRandom* random,
                                                                                              ::Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters);
 
-  /// @brief Method .ctor, addr 0xf30320, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf5b1b0, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* random, ::Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters);
 
-  /// @brief Method get_Parameters, addr 0xf30390, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parameters, addr 0xf5b220, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* get_Parameters();
 
-  /// @brief Method GetStrength, addr 0xf3035c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetStrength, addr 0xf5b1ec, size 0x34, virtual false, abstract: false, final false
   static inline int32_t GetStrength(::Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters);
 
   // Ctor Parameters [CppParam { name: "", ty: "DHKeyGenerationParameters", modifiers: "&&", def_value: None }]

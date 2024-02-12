@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HMUI::HoverHintPanel::*)()>(&::HMUI::HoverHintPanel::get_isShown)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x211d7b4;
+  constexpr static std::size_t addrs = 0x21b2090;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::HoverHintPanel*>::get(), "get_isShown",
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::HoverHintPanel::*)(bool)>(&::HMUI::HoverHintPanel::set_isShown)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x211d7bc;
+  constexpr static std::size_t addrs = 0x21b2098;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::HoverHintPanel::*)()>(&::HMUI::HoverHintPanel::Awake)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x211d7c8;
+  constexpr static std::size_t addrs = 0x21b20a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::HoverHintPanel*>::get(), "Awake",
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::HoverHintPanel::*)(::StringW, ::UnityEngine::Transform*, ::UnityEngine::Vector2, ::UnityEngine::Rect)>(
     &::HMUI::HoverHintPanel::Show)> {
   constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x211d2d8;
+  constexpr static std::size_t addrs = 0x21b1bb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::HoverHintPanel::*)()>(&::HMUI::HoverHintPanel::Hide)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x211ce9c;
+  constexpr static std::size_t addrs = 0x21b1778;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::HoverHintPanel*>::get(), "Hide",
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::Vector2 (::HMUI::HoverHintPanel::*)(::UnityEngine::Vector2, ::UnityEngine::Rect, ::UnityEngine::Vector2)>(&::HMUI::HoverHintPanel::CalculatePanelPosition)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x211d87c;
+  constexpr static std::size_t addrs = 0x21b2158;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::HoverHintPanel::*)()>(&::HMUI::HoverHintPanel::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x211d988;
+  constexpr static std::size_t addrs = 0x21b2264;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::HoverHintPanel*>::get(), ".ctor",

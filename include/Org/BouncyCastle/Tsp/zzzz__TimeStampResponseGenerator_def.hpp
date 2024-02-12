@@ -63,7 +63,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Tsp::__TimeStampResponseGenerator__FailInfo* New_ctor(int32_t failInfoValue);
 
-  /// @brief Method .ctor, addr 0x1151404, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x117f294, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(int32_t failInfoValue);
 
   // Ctor Parameters [CppParam { name: "", ty: "__TimeStampResponseGenerator__FailInfo", modifiers: "&&", def_value: None }]
@@ -163,39 +163,39 @@ public:
 
   static inline ::Org::BouncyCastle::Tsp::TimeStampResponseGenerator* New_ctor(::Org::BouncyCastle::Tsp::TimeStampTokenGenerator* tokenGenerator, ::System::Collections::IList* acceptedAlgorithms);
 
-  /// @brief Method .ctor, addr 0x11510b4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x117ef44, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Tsp::TimeStampTokenGenerator* tokenGenerator, ::System::Collections::IList* acceptedAlgorithms);
 
   static inline ::Org::BouncyCastle::Tsp::TimeStampResponseGenerator* New_ctor(::Org::BouncyCastle::Tsp::TimeStampTokenGenerator* tokenGenerator, ::System::Collections::IList* acceptedAlgorithms,
                                                                                ::System::Collections::IList* acceptedPolicy);
 
-  /// @brief Method .ctor, addr 0x1151154, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x117efe4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Tsp::TimeStampTokenGenerator* tokenGenerator, ::System::Collections::IList* acceptedAlgorithms, ::System::Collections::IList* acceptedPolicy);
 
   static inline ::Org::BouncyCastle::Tsp::TimeStampResponseGenerator* New_ctor(::Org::BouncyCastle::Tsp::TimeStampTokenGenerator* tokenGenerator, ::System::Collections::IList* acceptedAlgorithms,
                                                                                ::System::Collections::IList* acceptedPolicies, ::System::Collections::IList* acceptedExtensions);
 
-  /// @brief Method .ctor, addr 0x11510c0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x117ef50, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Tsp::TimeStampTokenGenerator* tokenGenerator, ::System::Collections::IList* acceptedAlgorithms, ::System::Collections::IList* acceptedPolicies,
                     ::System::Collections::IList* acceptedExtensions);
 
-  /// @brief Method AddStatusString, addr 0x115115c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method AddStatusString, addr 0x117efec, size 0x80, virtual false, abstract: false, final false
   inline void AddStatusString(::StringW statusString);
 
-  /// @brief Method SetFailInfoField, addr 0x11511dc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetFailInfoField, addr 0x117f06c, size 0x10, virtual false, abstract: false, final false
   inline void SetFailInfoField(int32_t field);
 
-  /// @brief Method GetPkiStatusInfo, addr 0x11511ec, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method GetPkiStatusInfo, addr 0x117f07c, size 0x218, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* GetPkiStatusInfo();
 
-  /// @brief Method Generate, addr 0x115146c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x117f2fc, size 0x8c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Tsp::TimeStampResponse* Generate(::Org::BouncyCastle::Tsp::TimeStampRequest* request, ::Org::BouncyCastle::Math::BigInteger* serialNumber, ::System::DateTime genTime);
 
-  /// @brief Method Generate, addr 0x1151520, size 0x430, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x117f3b0, size 0x430, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Tsp::TimeStampResponse* Generate(::Org::BouncyCastle::Tsp::TimeStampRequest* request, ::Org::BouncyCastle::Math::BigInteger* serialNumber,
                                                                ::Org::BouncyCastle::Utilities::Date::DateTimeObject* genTime);
 
-  /// @brief Method GenerateFailResponse, addr 0x1151ff8, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method GenerateFailResponse, addr 0x117fe88, size 0x19c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Tsp::TimeStampResponse* GenerateFailResponse(::Org::BouncyCastle::Asn1::Cmp::PkiStatus status, int32_t failInfoField, ::StringW statusString);
 
   // Ctor Parameters [CppParam { name: "", ty: "TimeStampResponseGenerator", modifiers: "&&", def_value: None }]

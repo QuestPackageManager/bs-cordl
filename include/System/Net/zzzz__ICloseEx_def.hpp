@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::System::Net::ICloseEx);
 namespace System::Net {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9105))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7115))
 // CS Name: ::System.Net::ICloseEx*
 class CORDL_TYPE ICloseEx {
 public:

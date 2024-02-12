@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Misc::VerisignCzagExtension::*)(::Org::BouncyCastle::Asn1::DerIA5String*)>(
     &::Org::BouncyCastle::Asn1::Misc::VerisignCzagExtension::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0xf7d498;
+  constexpr static std::size_t addrs = 0xfa8328;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Asn1::Misc::VerisignCzagExtension::*)()>(
     &::Org::BouncyCastle::Asn1::Misc::VerisignCzagExtension::ToString)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0xf7d4d0;
+  constexpr static std::size_t addrs = 0xfa8360;
 
   inline static ::MethodInfo const* methodInfo() {
 

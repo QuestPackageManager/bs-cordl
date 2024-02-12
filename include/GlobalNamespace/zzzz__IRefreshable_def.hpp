@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IRefreshable);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14339))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14497))
 // CS Name: ::IRefreshable*
 class CORDL_TYPE IRefreshable {
 public:

@@ -68,35 +68,35 @@ public:
 
   constexpr void __cordl_internal_set_bagAttributes(::Org::BouncyCastle::Asn1::Asn1Set* value);
 
-  /// @brief Method GetInstance, addr 0xf8f3bc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xfba24c, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::SafeBag* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::SafeBag* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Asn1::Asn1Object* obj);
 
-  /// @brief Method .ctor, addr 0xf8f62c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfba4bc, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Asn1::Asn1Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::SafeBag* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Asn1::Asn1Object* obj,
                                                                    ::Org::BouncyCastle::Asn1::Asn1Set* bagAttributes);
 
-  /// @brief Method .ctor, addr 0xf8f65c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfba4ec, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Asn1::Asn1Object* obj, ::Org::BouncyCastle::Asn1::Asn1Set* bagAttributes);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::SafeBag* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xf8f460, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfba2f0, size 0x1cc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_BagID, addr 0xf8f698, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BagID, addr 0xfba528, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_BagID();
 
-  /// @brief Method get_BagValue, addr 0xf8f6a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BagValue, addr 0xfba530, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* get_BagValue();
 
-  /// @brief Method get_BagAttributes, addr 0xf8f6a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BagAttributes, addr 0xfba538, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Set* get_BagAttributes();
 
-  /// @brief Method ToAsn1Object, addr 0xf8f6b0, size 0x1a4, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xfba540, size 0x1a4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "SafeBag", modifiers: "&&", def_value: None }]

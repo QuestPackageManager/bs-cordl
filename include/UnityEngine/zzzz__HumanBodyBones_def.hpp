@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::HumanBodyBones);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14853))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14726))
 // CS Name: ::UnityEngine::HumanBodyBones
 struct CORDL_TYPE HumanBodyBones {
 public:

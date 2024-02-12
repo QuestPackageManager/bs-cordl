@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRMixedRealityCaptureTest);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8136))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8093))
 // CS Name: ::OVRMixedRealityCaptureTest::CameraMode
 struct CORDL_TYPE __OVRMixedRealityCaptureTest__CameraMode {
 public:
@@ -82,8 +82,8 @@ static_assert(offsetof(::GlobalNamespace::__OVRMixedRealityCaptureTest__CameraMo
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7756)), TypeDefinitionIndex(TypeDefinitionIndex(8136)), TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8137))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7807)), TypeDefinitionIndex(TypeDefinitionIndex(8093)), TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8094))
 // CS Name: ::OVRMixedRealityCaptureTest*
 class CORDL_TYPE OVRMixedRealityCaptureTest : public ::UnityEngine::MonoBehaviour {
 public:
@@ -126,21 +126,21 @@ public:
 
   constexpr void __cordl_internal_set_defaultFov(::GlobalNamespace::__OVRPlugin__Fovf value);
 
-  /// @brief Method Start, addr 0x27b3664, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x27c5040, size 0xb0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Initialize, addr 0x27b3714, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x27c50f0, size 0x224, virtual false, abstract: false, final false
   inline void Initialize();
 
-  /// @brief Method UpdateDefaultExternalCamera, addr 0x27b3938, size 0x428, virtual false, abstract: false, final false
+  /// @brief Method UpdateDefaultExternalCamera, addr 0x27c5314, size 0x428, virtual false, abstract: false, final false
   inline void UpdateDefaultExternalCamera();
 
-  /// @brief Method Update, addr 0x27b3d60, size 0x738, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x27c573c, size 0x738, virtual false, abstract: false, final false
   inline void Update();
 
   static inline ::GlobalNamespace::OVRMixedRealityCaptureTest* New_ctor();
 
-  /// @brief Method .ctor, addr 0x27b4498, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27c5e74, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRMixedRealityCaptureTest", modifiers: "&&", def_value: None }]

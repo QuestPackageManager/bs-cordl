@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Yoga::YogaSize);
 namespace UnityEngine::Yoga {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15366))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15526))
 // CS Name: ::UnityEngine.Yoga::YogaSize
 struct CORDL_TYPE YogaSize {
 public:

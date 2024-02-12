@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ReflectionProbeBakingOverride);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5865))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5155))
 // CS Name: ::ReflectionProbeBakingOverride::ActiveStateHandling
 struct CORDL_TYPE __ReflectionProbeBakingOverride__ActiveStateHandling {
 public:
@@ -79,8 +79,8 @@ static_assert(offsetof(::GlobalNamespace::__ReflectionProbeBakingOverride__Activ
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5865)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5866))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5155)), TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8993))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5156))
 // CS Name: ::ReflectionProbeBakingOverride*
 class CORDL_TYPE ReflectionProbeBakingOverride : public ::UnityEngine::MonoBehaviour {
 public:
@@ -150,12 +150,12 @@ public:
 
   constexpr void __cordl_internal_set__localScale(::UnityEngine::Vector3 value);
 
-  /// @brief Method UpdateForProbeBaking, addr 0x22f82f8, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method UpdateForProbeBaking, addr 0x2324c58, size 0xe8, virtual false, abstract: false, final false
   inline void UpdateForProbeBaking();
 
   static inline ::GlobalNamespace::ReflectionProbeBakingOverride* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22f83e0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2324d40, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectionProbeBakingOverride", modifiers: "&&", def_value: None }]

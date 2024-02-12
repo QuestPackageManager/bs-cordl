@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IDiffieHellmanKeyPair);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12711))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12609))
 // CS Name: ::IDiffieHellmanKeyPair*
 class CORDL_TYPE IDiffieHellmanKeyPair {
 public:

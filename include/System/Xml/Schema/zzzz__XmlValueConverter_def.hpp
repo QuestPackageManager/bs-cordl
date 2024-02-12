@@ -36,7 +36,7 @@ MARK_REF_PTR_T(::System::Xml::Schema::XmlValueConverter);
 namespace System::Xml::Schema {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11747))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11645))
 // CS Name: ::System.Xml.Schema::XmlValueConverter*
 class CORDL_TYPE XmlValueConverter : public ::System::Object {
 public:
@@ -217,7 +217,7 @@ public:
 
   static inline ::System::Xml::Schema::XmlValueConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28c9354, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28cb9bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlValueConverter", modifiers: "&&", def_value: None }]

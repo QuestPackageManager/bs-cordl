@@ -67,52 +67,52 @@ public:
 
   static inline ::System::Security::Cryptography::SHA512Managed* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2469278, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x248b2ec, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Initialize, addr 0x2469440, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method Initialize, addr 0x248b4b4, size 0x44, virtual true, abstract: false, final false
   inline void Initialize();
 
-  /// @brief Method HashCore, addr 0x2469484, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method HashCore, addr 0x248b4f8, size 0x4, virtual true, abstract: false, final false
   inline void HashCore(::ArrayW<uint8_t, ::Array<uint8_t>*> rgb, int32_t ibStart, int32_t cbSize);
 
-  /// @brief Method HashFinal, addr 0x2469654, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method HashFinal, addr 0x248b6c8, size 0x4, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> HashFinal();
 
-  /// @brief Method InitializeState, addr 0x2469340, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method InitializeState, addr 0x248b3b4, size 0x100, virtual false, abstract: false, final false
   inline void InitializeState();
 
-  /// @brief Method _HashData, addr 0x2469488, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method _HashData, addr 0x248b4fc, size 0x1cc, virtual false, abstract: false, final false
   inline void _HashData(::ArrayW<uint8_t, ::Array<uint8_t>*> partIn, int32_t ibStart, int32_t cbSize);
 
-  /// @brief Method _EndHash, addr 0x2469658, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method _EndHash, addr 0x248b6cc, size 0x1a4, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> _EndHash();
 
-  /// @brief Method SHATransform, addr 0x24697fc, size 0x564, virtual false, abstract: false, final false
+  /// @brief Method SHATransform, addr 0x248b870, size 0x564, virtual false, abstract: false, final false
   static inline void SHATransform(::cordl_internals::Ptr<uint64_t> expandedBuffer, ::cordl_internals::Ptr<uint64_t> state, ::cordl_internals::Ptr<uint8_t> block);
 
-  /// @brief Method RotateRight, addr 0x2469ee4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method RotateRight, addr 0x248bf58, size 0x8, virtual false, abstract: false, final false
   static inline uint64_t RotateRight(uint64_t x, int32_t n);
 
-  /// @brief Method Ch, addr 0x2469e64, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Ch, addr 0x248bed8, size 0x10, virtual false, abstract: false, final false
   static inline uint64_t Ch(uint64_t x, uint64_t y, uint64_t z);
 
-  /// @brief Method Maj, addr 0x2469ed0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Maj, addr 0x248bf44, size 0x14, virtual false, abstract: false, final false
   static inline uint64_t Maj(uint64_t x, uint64_t y, uint64_t z);
 
-  /// @brief Method Sigma_0, addr 0x2469e74, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Sigma_0, addr 0x248bee8, size 0x5c, virtual false, abstract: false, final false
   static inline uint64_t Sigma_0(uint64_t x);
 
-  /// @brief Method Sigma_1, addr 0x2469e08, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Sigma_1, addr 0x248be7c, size 0x5c, virtual false, abstract: false, final false
   static inline uint64_t Sigma_1(uint64_t x);
 
-  /// @brief Method sigma_0, addr 0x2469eec, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method sigma_0, addr 0x248bf60, size 0x5c, virtual false, abstract: false, final false
   static inline uint64_t sigma_0(uint64_t x);
 
-  /// @brief Method sigma_1, addr 0x2469f48, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method sigma_1, addr 0x248bfbc, size 0x5c, virtual false, abstract: false, final false
   static inline uint64_t sigma_1(uint64_t x);
 
-  /// @brief Method SHA512Expand, addr 0x2469d60, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method SHA512Expand, addr 0x248bdd4, size 0xa8, virtual false, abstract: false, final false
   static inline void SHA512Expand(::cordl_internals::Ptr<uint64_t> x);
 
   // Ctor Parameters [CppParam { name: "", ty: "SHA512Managed", modifiers: "&&", def_value: None }]

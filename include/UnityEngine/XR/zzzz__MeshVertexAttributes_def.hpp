@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::XR::MeshVertexAttributes);
 namespace UnityEngine::XR {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15637))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15768))
 // CS Name: ::UnityEngine.XR::MeshVertexAttributes
 struct CORDL_TYPE MeshVertexAttributes {
 public:

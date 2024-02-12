@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::LiteNetLib::NetPacketPool);
 namespace LiteNetLib {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14172))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14185))
 // CS Name: ::LiteNetLib::NetPacketPool*
 class CORDL_TYPE NetPacketPool : public ::System::Object {
 public:
@@ -58,24 +58,24 @@ public:
 
   constexpr void __cordl_internal_set__count(int32_t value);
 
-  /// @brief Method GetWithData, addr 0x220152c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetWithData, addr 0x2296e14, size 0xd8, virtual false, abstract: false, final false
   inline ::LiteNetLib::NetPacket* GetWithData(::LiteNetLib::PacketProperty property, ::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t start, int32_t length);
 
-  /// @brief Method GetWithProperty, addr 0x21ff0b4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method GetWithProperty, addr 0x229499c, size 0xac, virtual false, abstract: false, final false
   inline ::LiteNetLib::NetPacket* GetWithProperty(::LiteNetLib::PacketProperty property, int32_t size);
 
-  /// @brief Method GetWithProperty, addr 0x21ffc58, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetWithProperty, addr 0x2295540, size 0xa4, virtual false, abstract: false, final false
   inline ::LiteNetLib::NetPacket* GetWithProperty(::LiteNetLib::PacketProperty property);
 
-  /// @brief Method GetPacket, addr 0x21fd95c, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method GetPacket, addr 0x2293244, size 0x16c, virtual false, abstract: false, final false
   inline ::LiteNetLib::NetPacket* GetPacket(int32_t size);
 
-  /// @brief Method Recycle, addr 0x21fc4a0, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method Recycle, addr 0x2291d88, size 0x140, virtual false, abstract: false, final false
   inline void Recycle(::LiteNetLib::NetPacket* packet);
 
   static inline ::LiteNetLib::NetPacketPool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21fd208, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2292af0, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NetPacketPool", modifiers: "&&", def_value: None }]

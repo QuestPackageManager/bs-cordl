@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::GrounderIK::*)()>(&::RootMotion::FinalIK::GrounderIK::OpenUserManual)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x1247848;
+  constexpr static std::size_t addrs = 0x12e18f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::GrounderIK::*)()>(&::RootMotion::FinalIK::GrounderIK::OpenScriptReference)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x124788c;
+  constexpr static std::size_t addrs = 0x12e193c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::GrounderIK::*)()>(&::RootMotion::FinalIK::GrounderIK::ResetPosition)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x12478d0;
+  constexpr static std::size_t addrs = 0x12e1980;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::RootMotion::FinalIK::GrounderIK::*)()>(&::RootMotion::FinalIK::GrounderIK::IsReadyToInitiate)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x12478e8;
+  constexpr static std::size_t addrs = 0x12e1998;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderIK*>::get(), "IsReadyToInitiate",
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::GrounderIK::*)()>(&::RootMotion::FinalIK::GrounderIK::OnDisable)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x1247af4;
+  constexpr static std::size_t addrs = 0x12e1ba4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderIK*>::get(), "OnDisable",
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::GrounderIK::*)()>(&::RootMotion::FinalIK::GrounderIK::Update)> {
   constexpr static std::size_t size = 0x56c;
-  constexpr static std::size_t addrs = 0x1247bd4;
+  constexpr static std::size_t addrs = 0x12e1c84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderIK*>::get(), "Update",
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::GrounderIK::*)()>(&::RootMotion::FinalIK::GrounderIK::Initiate)> {
   constexpr static std::size_t size = 0x460;
-  constexpr static std::size_t addrs = 0x12482b8;
+  constexpr static std::size_t addrs = 0x12e2368;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderIK*>::get(), "Initiate",
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::GrounderIK::*)()>(&::RootMotion::FinalIK::GrounderIK::OnSolverUpdate)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x1248718;
+  constexpr static std::size_t addrs = 0x12e27c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderIK*>::get(), "OnSolverUpdate",
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::GrounderIK::*)(int32_t)>(&::RootMotion::FinalIK::GrounderIK::SetLegIK)> {
   constexpr static std::size_t size = 0x388;
-  constexpr static std::size_t addrs = 0x12488c4;
+  constexpr static std::size_t addrs = 0x12e2974;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::GrounderIK::*)()>(&::RootMotion::FinalIK::GrounderIK::OnPostSolverUpdate)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x1248c4c;
+  constexpr static std::size_t addrs = 0x12e2cfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderIK*>::get(), "OnPostSolverUpdate",
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::GrounderIK::*)()>(&::RootMotion::FinalIK::GrounderIK::OnDestroy)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x1248e24;
+  constexpr static std::size_t addrs = 0x12e2ed4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderIK*>::get(), "OnDestroy",
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::GrounderIK::*)()>(&::RootMotion::FinalIK::GrounderIK::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x1249028;
+  constexpr static std::size_t addrs = 0x12e30d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GrounderIK*>::get(), ".ctor",

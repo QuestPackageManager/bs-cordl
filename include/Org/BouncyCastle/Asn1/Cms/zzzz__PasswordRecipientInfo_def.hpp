@@ -90,41 +90,41 @@ public:
   static inline ::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyEncryptionAlgorithm,
                                                                                 ::Org::BouncyCastle::Asn1::Asn1OctetString* encryptedKey);
 
-  /// @brief Method .ctor, addr 0xe7be8c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xea6d1c, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyEncryptionAlgorithm, ::Org::BouncyCastle::Asn1::Asn1OctetString* encryptedKey);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyDerivationAlgorithm,
                                                                                 ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyEncryptionAlgorithm,
                                                                                 ::Org::BouncyCastle::Asn1::Asn1OctetString* encryptedKey);
 
-  /// @brief Method .ctor, addr 0xe7bf10, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xea6da0, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyDerivationAlgorithm, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyEncryptionAlgorithm,
                     ::Org::BouncyCastle::Asn1::Asn1OctetString* encryptedKey);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xe7bfa0, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xea6e30, size 0x244, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance, addr 0xe7c1e4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xea7074, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0xe7c1fc, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xea708c, size 0x178, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo* GetInstance(::System::Object* obj);
 
-  /// @brief Method get_Version, addr 0xe7c374, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0xea7204, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
-  /// @brief Method get_KeyDerivationAlgorithm, addr 0xe7c37c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KeyDerivationAlgorithm, addr 0xea720c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_KeyDerivationAlgorithm();
 
-  /// @brief Method get_KeyEncryptionAlgorithm, addr 0xe7c384, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KeyEncryptionAlgorithm, addr 0xea7214, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_KeyEncryptionAlgorithm();
 
-  /// @brief Method get_EncryptedKey, addr 0xe7c38c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EncryptedKey, addr 0xea721c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_EncryptedKey();
 
-  /// @brief Method ToAsn1Object, addr 0xe7c394, size 0x18c, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xea7224, size 0x18c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "PasswordRecipientInfo", modifiers: "&&", def_value: None }]

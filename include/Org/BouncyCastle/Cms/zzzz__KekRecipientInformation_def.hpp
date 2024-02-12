@@ -43,10 +43,10 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::KekRecipientInformation* New_ctor(::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo* info, ::Org::BouncyCastle::Cms::CmsSecureReadable* secureReadable);
 
-  /// @brief Method .ctor, addr 0x11e391c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12107ac, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo* info, ::Org::BouncyCastle::Cms::CmsSecureReadable* secureReadable);
 
-  /// @brief Method GetContentStream, addr 0x120273c, size 0x338, virtual true, abstract: false, final false
+  /// @brief Method GetContentStream, addr 0x122f5cc, size 0x338, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::CmsTypedStream* GetContentStream(::Org::BouncyCastle::Crypto::ICipherParameters* key);
 
   // Ctor Parameters [CppParam { name: "", ty: "KekRecipientInformation", modifiers: "&&", def_value: None }]

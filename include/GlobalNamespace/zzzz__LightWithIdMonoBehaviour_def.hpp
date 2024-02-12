@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::GlobalNamespace::LightWithIdMonoBehaviour);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14542))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14436))
 // CS Name: ::LightWithIdMonoBehaviour*
 class CORDL_TYPE LightWithIdMonoBehaviour : public ::UnityEngine::MonoBehaviour {
 public:
@@ -67,39 +67,39 @@ public:
 
   constexpr void __cordl_internal_set__isRegistered(bool value);
 
-  /// @brief Method get_lightId, addr 0x2111000, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_lightId, addr 0x21a57a8, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_lightId();
 
-  /// @brief Method get_isRegistered, addr 0x2111008, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isRegistered, addr 0x21a57b0, size 0x8, virtual true, abstract: false, final true
   inline bool get_isRegistered();
 
-  /// @brief Method __SetIsRegistered, addr 0x2111010, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method __SetIsRegistered, addr 0x21a57b8, size 0xc, virtual true, abstract: false, final true
   inline void __SetIsRegistered();
 
-  /// @brief Method __SetIsUnRegistered, addr 0x211101c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method __SetIsUnRegistered, addr 0x21a57c4, size 0x8, virtual true, abstract: false, final true
   inline void __SetIsUnRegistered();
 
   /// @brief Method ColorWasSet, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
-  /// @brief Method OnEnable, addr 0x2111024, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x21a57cc, size 0x4, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Start, addr 0x21110ac, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x21a5854, size 0x4, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDisable, addr 0x21110b0, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x21a5858, size 0x84, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method RegisterLight, addr 0x2111028, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method RegisterLight, addr 0x21a57d0, size 0x84, virtual false, abstract: false, final false
   inline void RegisterLight();
 
-  /// @brief Method SetLightId, addr 0x2111134, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method SetLightId, addr 0x21a58dc, size 0xa8, virtual false, abstract: false, final false
   inline void SetLightId(int32_t newLightId);
 
   static inline ::GlobalNamespace::LightWithIdMonoBehaviour* New_ctor();
 
-  /// @brief Method .ctor, addr 0x210e898, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21a3040, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LightWithIdMonoBehaviour", modifiers: "&&", def_value: None }]

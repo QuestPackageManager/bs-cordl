@@ -23,26 +23,26 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Linq::JRaw);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12007))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11974))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11905))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11872))
 // CS Name: ::Newtonsoft.Json.Linq::JRaw*
 class CORDL_TYPE JRaw : public ::Newtonsoft::Json::Linq::JValue {
 public:
   // Declarations
   static inline ::Newtonsoft::Json::Linq::JRaw* New_ctor(::Newtonsoft::Json::Linq::JRaw* other);
 
-  /// @brief Method .ctor, addr 0x2691020, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b31dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::Linq::JRaw* other);
 
   static inline ::Newtonsoft::Json::Linq::JRaw* New_ctor(::System::Object* rawJson);
 
-  /// @brief Method .ctor, addr 0x2691028, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b31e4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* rawJson);
 
-  /// @brief Method Create, addr 0x2691034, size 0x378, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x26b31f0, size 0x378, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::JRaw* Create(::Newtonsoft::Json::JsonReader* reader);
 
-  /// @brief Method CloneToken, addr 0x26913ac, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method CloneToken, addr 0x26b3568, size 0x64, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::JToken* CloneToken();
 
   // Ctor Parameters [CppParam { name: "", ty: "JRaw", modifiers: "&&", def_value: None }]

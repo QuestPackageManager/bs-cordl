@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MenuNeonLightsGenerator);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 108, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4693))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8993))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4044))
 // CS Name: ::MenuNeonLightsGenerator*
 class CORDL_TYPE MenuNeonLightsGenerator : public ::UnityEngine::MonoBehaviour {
 public:
@@ -139,7 +139,7 @@ public:
 
   static inline ::GlobalNamespace::MenuNeonLightsGenerator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23765e4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22bca68, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuNeonLightsGenerator", modifiers: "&&", def_value: None }]

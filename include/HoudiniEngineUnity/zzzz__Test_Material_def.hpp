@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::Test_Material);
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9910))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9702))
 // CS Name: ::HoudiniEngineUnity::Test_Material*
 class CORDL_TYPE Test_Material : public ::System::Object {
 public:
@@ -52,13 +52,13 @@ public:
 
   static inline ::HoudiniEngineUnity::Test_Material* New_ctor(::UnityEngine::Material* self);
 
-  /// @brief Method .ctor, addr 0x21e4de4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x227a6cc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Material* self);
 
-  /// @brief Method IsNull, addr 0x21e4e0c, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method IsNull, addr 0x227a6f4, size 0x60, virtual true, abstract: false, final true
   inline bool IsNull();
 
-  /// @brief Method IsEquivalentTo, addr 0x21e4e6c, size 0xf4, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x227a754, size 0xf4, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_Material* other);
 
   // Ctor Parameters [CppParam { name: "", ty: "Test_Material", modifiers: "&&", def_value: None }]

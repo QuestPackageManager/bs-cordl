@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::Exceptions::UnknownResourcePro
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::Exceptions {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13961))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13962))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13974))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13975))
 // CS Name: ::UnityEngine.ResourceManagement.Exceptions::UnknownResourceProviderException*
 class CORDL_TYPE UnknownResourceProviderException : public ::UnityEngine::ResourceManagement::Exceptions::ResourceManagerException {
 public:
@@ -47,42 +47,42 @@ public:
 
   constexpr void __cordl_internal_set__Location_k__BackingField(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* value);
 
-  /// @brief Method get_Location, addr 0x2bcfe58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Location, addr 0x2bcd9c4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* get_Location();
 
-  /// @brief Method set_Location, addr 0x2bcfe60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Location, addr 0x2bcd9cc, size 0x8, virtual false, abstract: false, final false
   inline void set_Location(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* value);
 
   static inline ::UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException* New_ctor(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location);
 
-  /// @brief Method .ctor, addr 0x2bcbbdc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bc9748, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location);
 
   static inline ::UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2bcfe68, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bcd9d4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x2bcfe6c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bcd9d8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x2bcfe70, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bcd9dc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
   static inline ::UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException* New_ctor(::System::Runtime::Serialization::SerializationInfo* message,
                                                                                                           ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x2bcfe74, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bcd9e0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* message, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method get_Message, addr 0x2bcfe78, size 0x214, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x2bcd9e4, size 0x214, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
-  /// @brief Method ToString, addr 0x2bd008c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2bcdbf8, size 0xc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "UnknownResourceProviderException", modifiers: "&&", def_value: None }]

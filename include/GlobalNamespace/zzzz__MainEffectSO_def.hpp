@@ -18,29 +18,29 @@ MARK_REF_PTR_T(::GlobalNamespace::MainEffectSO);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15293))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15602))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15408))
 // CS Name: ::MainEffectSO*
 class CORDL_TYPE MainEffectSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
   __declspec(property(get = get_hasPostProcessEffect)) bool hasPostProcessEffect;
 
-  /// @brief Method PreRender, addr 0x28089d0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method PreRender, addr 0x280d1b8, size 0x4, virtual true, abstract: false, final false
   inline void PreRender();
 
-  /// @brief Method Render, addr 0x28089d4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Render, addr 0x280d1bc, size 0x4, virtual true, abstract: false, final false
   inline void Render(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest, float_t fade);
 
-  /// @brief Method PostRender, addr 0x28089d8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method PostRender, addr 0x280d1c0, size 0x4, virtual true, abstract: false, final false
   inline void PostRender(float_t fade);
 
-  /// @brief Method get_hasPostProcessEffect, addr 0x28089dc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_hasPostProcessEffect, addr 0x280d1c4, size 0x8, virtual true, abstract: false, final false
   inline bool get_hasPostProcessEffect();
 
   static inline ::GlobalNamespace::MainEffectSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28081d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x280c9c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MainEffectSO", modifiers: "&&", def_value: None }]

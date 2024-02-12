@@ -143,7 +143,7 @@ MARK_VAL_T(::System::Net::__WebConnection___InitConnection_d__19);
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9215))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7225))
 // CS Name: ::WebConnection::<>c*
 class CORDL_TYPE __WebConnection____c : public ::System::Object {
 public:
@@ -172,13 +172,13 @@ public:
 
   static inline ::System::Net::__WebConnection____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29ddd58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29e27fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Connect>b__16_0, addr 0x29ddd60, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method <Connect>b__16_0, addr 0x29e2804, size 0xa0, virtual false, abstract: false, final false
   inline ::System::IAsyncResult* _Connect_b__16_0(::System::Net::IPEndPoint* targetEndPoint, ::System::AsyncCallback* callback, ::System::Object* state);
 
-  /// @brief Method <Connect>b__16_1, addr 0x29dde00, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method <Connect>b__16_1, addr 0x29e28a4, size 0xf4, virtual false, abstract: false, final false
   inline void _Connect_b__16_1(::System::IAsyncResult* asyncResult);
 
   // Ctor Parameters [CppParam { name: "", ty: "__WebConnection____c", modifiers: "&&", def_value: None }]
@@ -205,8 +205,8 @@ static_assert(::cordl_internals::size_check_v<::System::Net::__WebConnection____
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3401))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9216))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3391)), TypeDefinitionIndex(TypeDefinitionIndex(3397))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7226))
 // CS Name: ::WebConnection::<Connect>d__16
 struct CORDL_TYPE __WebConnection___Connect_d__16 {
 public:
@@ -217,10 +217,10 @@ public:
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x29ddef4, size 0x8c0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x29e2998, size 0x8c0, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x29de7f8, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x29e329c, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -296,9 +296,9 @@ static_assert(offsetof(::System::Net::__WebConnection___Connect_d__16, __u__1) =
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3397)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3619)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 899 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 105 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(9217)) CS Name: ::WebConnection::<CreateStream>d__18
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3391)), TypeDefinitionIndex(TypeDefinitionIndex(3393)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3398)), TypeDefinitionIndex(TypeDefinitionIndex(3617)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3393), inst: 902 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3398), inst: 77 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7227)) CS Name: ::WebConnection::<CreateStream>d__18
 struct CORDL_TYPE __WebConnection___CreateStream_d__18 {
 public:
   // Declarations
@@ -308,10 +308,10 @@ public:
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x29de804, size 0x66c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x29e32a8, size 0x66c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x29def80, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x29e3a24, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -388,9 +388,9 @@ static_assert(offsetof(::System::Net::__WebConnection___CreateStream_d__18, __u_
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3397)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(9238)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 105 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 901 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(9218)) CS Name: ::WebConnection::<InitConnection>d__19
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3391)), TypeDefinitionIndex(TypeDefinitionIndex(3393)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3398)), TypeDefinitionIndex(TypeDefinitionIndex(7248)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3393), inst: 77 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3398), inst: 904 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7228)) CS Name: ::WebConnection::<InitConnection>d__19
 struct CORDL_TYPE __WebConnection___InitConnection_d__19 {
 public:
   // Declarations
@@ -400,10 +400,10 @@ public:
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x29defd8, size 0x4cc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x29e3a7c, size 0x4cc, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x29df650, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x29e40f4, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -475,7 +475,7 @@ static_assert(offsetof(::System::Net::__WebConnection___InitConnection_d__19, __
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9219))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7229))
 // CS Name: ::System.Net::WebConnection*
 class CORDL_TYPE WebConnection : public ::System::Object {
 public:
@@ -605,87 +605,87 @@ public:
 
   constexpr void __cordl_internal_set_currentOperation(::System::Net::WebOperation* value);
 
-  /// @brief Method get_ServicePoint, addr 0x29dcb34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ServicePoint, addr 0x29e15d8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::ServicePoint* get_ServicePoint();
 
   static inline ::System::Net::WebConnection* New_ctor(::System::Net::ServicePoint* sPoint);
 
-  /// @brief Method .ctor, addr 0x29db9c0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29e0464, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::ServicePoint* sPoint);
 
-  /// @brief Method CanReuse, addr 0x29dcb3c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method CanReuse, addr 0x29e15e0, size 0x30, virtual false, abstract: false, final false
   inline bool CanReuse();
 
-  /// @brief Method CheckReusable, addr 0x29dcb6c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method CheckReusable, addr 0x29e1610, size 0x9c, virtual false, abstract: false, final false
   inline bool CheckReusable();
 
-  /// @brief Method Connect, addr 0x29dcc08, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method Connect, addr 0x29e16ac, size 0xe4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* Connect(::System::Net::WebOperation* operation, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method CreateStream, addr 0x29dccec, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method CreateStream, addr 0x29e1790, size 0x120, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* CreateStream(::System::Net::WebOperation* operation, bool reused, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method InitConnection, addr 0x29dce0c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method InitConnection, addr 0x29e18b0, size 0x104, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::WebRequestStream*>* InitConnection(::System::Net::WebOperation* operation, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method GetException, addr 0x29dcf10, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetException, addr 0x29e19b4, size 0x188, virtual false, abstract: false, final false
   static inline ::System::Net::WebException* GetException(::System::Net::WebExceptionStatus status, ::System::Exception* error);
 
-  /// @brief Method ReadLine, addr 0x29dd098, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method ReadLine, addr 0x29e1b3c, size 0x1e8, virtual false, abstract: false, final false
   static inline bool ReadLine(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, ByRef<int32_t> start, int32_t max, ByRef<::StringW> output);
 
-  /// @brief Method CanReuseConnection, addr 0x29db3a0, size 0x42c, virtual false, abstract: false, final false
+  /// @brief Method CanReuseConnection, addr 0x29dfe44, size 0x42c, virtual false, abstract: false, final false
   inline bool CanReuseConnection(::System::Net::WebOperation* operation);
 
-  /// @brief Method PrepareSharingNtlm, addr 0x29dd280, size 0x31c, virtual false, abstract: false, final false
+  /// @brief Method PrepareSharingNtlm, addr 0x29e1d24, size 0x31c, virtual false, abstract: false, final false
   inline bool PrepareSharingNtlm(::System::Net::WebOperation* operation);
 
-  /// @brief Method Reset, addr 0x29dd59c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x29e2040, size 0xb8, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Close, addr 0x29dd660, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Close, addr 0x29e2104, size 0xc8, virtual false, abstract: false, final false
   inline void Close(bool reset);
 
-  /// @brief Method CloseSocket, addr 0x29dd728, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method CloseSocket, addr 0x29e21cc, size 0x26c, virtual false, abstract: false, final false
   inline void CloseSocket();
 
-  /// @brief Method get_Closed, addr 0x29dafec, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_Closed, addr 0x29dfa90, size 0x10, virtual false, abstract: false, final false
   inline bool get_Closed();
 
-  /// @brief Method get_IdleSince, addr 0x29dd994, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IdleSince, addr 0x29e2438, size 0x8, virtual false, abstract: false, final false
   inline ::System::DateTime get_IdleSince();
 
-  /// @brief Method StartOperation, addr 0x29db7cc, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method StartOperation, addr 0x29e0270, size 0x1f4, virtual false, abstract: false, final false
   inline bool StartOperation(::System::Net::WebOperation* operation, bool reused);
 
-  /// @brief Method Continue, addr 0x29da188, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method Continue, addr 0x29dec2c, size 0x160, virtual false, abstract: false, final false
   inline bool Continue(::System::Net::WebOperation* next);
 
-  /// @brief Method Dispose, addr 0x29ddc84, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x29e2728, size 0x38, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Dispose, addr 0x29dafe4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x29dfa88, size 0x8, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method ResetNtlm, addr 0x29dd654, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ResetNtlm, addr 0x29e20f8, size 0xc, virtual false, abstract: false, final false
   inline void ResetNtlm();
 
-  /// @brief Method get_NtlmAuthenticated, addr 0x29ddcbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NtlmAuthenticated, addr 0x29e2760, size 0x8, virtual false, abstract: false, final false
   inline bool get_NtlmAuthenticated();
 
-  /// @brief Method set_NtlmAuthenticated, addr 0x29ddcc4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_NtlmAuthenticated, addr 0x29e2768, size 0xc, virtual false, abstract: false, final false
   inline void set_NtlmAuthenticated(bool value);
 
-  /// @brief Method get_NtlmCredential, addr 0x29ddcd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NtlmCredential, addr 0x29e2774, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::NetworkCredential* get_NtlmCredential();
 
-  /// @brief Method set_NtlmCredential, addr 0x29ddcd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_NtlmCredential, addr 0x29e277c, size 0x8, virtual false, abstract: false, final false
   inline void set_NtlmCredential(::System::Net::NetworkCredential* value);
 
-  /// @brief Method get_UnsafeAuthenticatedConnectionSharing, addr 0x29ddce0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UnsafeAuthenticatedConnectionSharing, addr 0x29e2784, size 0x8, virtual false, abstract: false, final false
   inline bool get_UnsafeAuthenticatedConnectionSharing();
 
-  /// @brief Method set_UnsafeAuthenticatedConnectionSharing, addr 0x29ddce8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_UnsafeAuthenticatedConnectionSharing, addr 0x29e278c, size 0xc, virtual false, abstract: false, final false
   inline void set_UnsafeAuthenticatedConnectionSharing(bool value);
 
   // Ctor Parameters [CppParam { name: "", ty: "WebConnection", modifiers: "&&", def_value: None }]

@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ObstacleSaberSoundEffect);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15036))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4073))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(14909))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4019))
 // CS Name: ::ObstacleSaberSoundEffect*
 class CORDL_TYPE ObstacleSaberSoundEffect : public ::UnityEngine::MonoBehaviour {
 public:
@@ -77,24 +77,24 @@ public:
 
   constexpr void __cordl_internal_set__targetVolume(float_t value);
 
-  /// @brief Method Awake, addr 0x222f834, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x22b94dc, size 0x104, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnDestroy, addr 0x222f938, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x22b95e0, size 0x12c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method LateUpdate, addr 0x222fa64, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x22b970c, size 0x104, virtual false, abstract: false, final false
   inline void LateUpdate();
 
-  /// @brief Method HandleSparkleEffectDidStart, addr 0x222fb68, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method HandleSparkleEffectDidStart, addr 0x22b9810, size 0xc8, virtual false, abstract: false, final false
   inline void HandleSparkleEffectDidStart(::GlobalNamespace::SaberType saberType);
 
-  /// @brief Method HandleSparkleEffecDidEnd, addr 0x222fc30, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method HandleSparkleEffecDidEnd, addr 0x22b98d8, size 0x14, virtual false, abstract: false, final false
   inline void HandleSparkleEffecDidEnd(::GlobalNamespace::SaberType saberType);
 
   static inline ::GlobalNamespace::ObstacleSaberSoundEffect* New_ctor();
 
-  /// @brief Method .ctor, addr 0x222fc44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b98ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ObstacleSaberSoundEffect", modifiers: "&&", def_value: None }]

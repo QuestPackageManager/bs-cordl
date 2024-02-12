@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::GlobalNamespace::AudioManagerSO);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 53, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4047))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15602))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3993))
 // CS Name: ::AudioManagerSO*
 class CORDL_TYPE AudioManagerSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -101,39 +101,39 @@ public:
 
   constexpr void __cordl_internal_set__sfxEnabled(bool value);
 
-  /// @brief Method get_sfxLatency, addr 0x222b034, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_sfxLatency, addr 0x22b4cd4, size 0x60, virtual false, abstract: false, final false
   inline float_t get_sfxLatency();
 
-  /// @brief Method Init, addr 0x2226a84, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x22b091c, size 0xa8, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method set_mainVolume, addr 0x2226b2c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_mainVolume, addr 0x22b09c4, size 0x64, virtual false, abstract: false, final false
   inline void set_mainVolume(float_t value);
 
-  /// @brief Method set_musicVolume, addr 0x222b094, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_musicVolume, addr 0x22b4d34, size 0x68, virtual false, abstract: false, final false
   inline void set_musicVolume(float_t value);
 
-  /// @brief Method get_sfxVolume, addr 0x222b0fc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_sfxVolume, addr 0x22b4d9c, size 0x18, virtual false, abstract: false, final false
   inline float_t get_sfxVolume();
 
-  /// @brief Method set_sfxVolume, addr 0x222b114, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method set_sfxVolume, addr 0x22b4db4, size 0x84, virtual false, abstract: false, final false
   inline void set_sfxVolume(float_t value);
 
-  /// @brief Method get_sfxEnabled, addr 0x222b198, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sfxEnabled, addr 0x22b4e38, size 0x8, virtual false, abstract: false, final false
   inline bool get_sfxEnabled();
 
-  /// @brief Method set_sfxEnabled, addr 0x222b1a0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_sfxEnabled, addr 0x22b4e40, size 0x20, virtual false, abstract: false, final false
   inline void set_sfxEnabled(bool value);
 
-  /// @brief Method set_musicPitch, addr 0x222b1c0, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method set_musicPitch, addr 0x22b4e60, size 0x100, virtual false, abstract: false, final false
   inline void set_musicPitch(float_t value);
 
-  /// @brief Method set_musicSpeed, addr 0x222b2c0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_musicSpeed, addr 0x22b4f60, size 0x64, virtual false, abstract: false, final false
   inline void set_musicSpeed(float_t value);
 
   static inline ::GlobalNamespace::AudioManagerSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x222b324, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b4fc4, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AudioManagerSO", modifiers: "&&", def_value: None }]

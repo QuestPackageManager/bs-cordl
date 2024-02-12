@@ -56,33 +56,33 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::BerGenerator* New_ctor(::System::IO::Stream* outStream);
 
-  /// @brief Method .ctor, addr 0x11bbe34, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11e8cc4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* outStream);
 
   static inline ::Org::BouncyCastle::Asn1::BerGenerator* New_ctor(::System::IO::Stream* outStream, int32_t tagNo, bool isExplicit);
 
-  /// @brief Method .ctor, addr 0x11bbe60, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11e8cf0, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* outStream, int32_t tagNo, bool isExplicit);
 
-  /// @brief Method AddObject, addr 0x11bbeac, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method AddObject, addr 0x11e8d3c, size 0x80, virtual true, abstract: false, final false
   inline void AddObject(::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
-  /// @brief Method GetRawOutputStream, addr 0x11bbf30, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetRawOutputStream, addr 0x11e8dc0, size 0x8, virtual true, abstract: false, final false
   inline ::System::IO::Stream* GetRawOutputStream();
 
-  /// @brief Method Close, addr 0x11bbf38, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x11e8dc8, size 0x4, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method WriteHdr, addr 0x11bbfd4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method WriteHdr, addr 0x11e8e64, size 0x44, virtual false, abstract: false, final false
   inline void WriteHdr(int32_t tag);
 
-  /// @brief Method WriteBerHeader, addr 0x11bc018, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method WriteBerHeader, addr 0x11e8ea8, size 0x58, virtual false, abstract: false, final false
   inline void WriteBerHeader(int32_t tag);
 
-  /// @brief Method WriteBerBody, addr 0x11bc070, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method WriteBerBody, addr 0x11e8f00, size 0x14, virtual false, abstract: false, final false
   inline void WriteBerBody(::System::IO::Stream* contentStream);
 
-  /// @brief Method WriteBerEnd, addr 0x11bbf3c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method WriteBerEnd, addr 0x11e8dcc, size 0x98, virtual false, abstract: false, final false
   inline void WriteBerEnd();
 
   // Ctor Parameters [CppParam { name: "", ty: "BerGenerator", modifiers: "&&", def_value: None }]

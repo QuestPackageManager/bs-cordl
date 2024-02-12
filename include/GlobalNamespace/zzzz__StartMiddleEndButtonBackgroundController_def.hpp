@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::StartMiddleEndButtonBackgroundController);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5436))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4739))
 // CS Name: ::StartMiddleEndButtonBackgroundController*
 class CORDL_TYPE StartMiddleEndButtonBackgroundController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -62,18 +62,18 @@ public:
 
   constexpr void __cordl_internal_set__image(::UnityW<::HMUI::ImageView> value);
 
-  /// @brief Method SetStartSprite, addr 0x227c6b4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetStartSprite, addr 0x23d7f6c, size 0x24, virtual false, abstract: false, final false
   inline void SetStartSprite();
 
-  /// @brief Method SetMiddleSprite, addr 0x227c6d8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetMiddleSprite, addr 0x23d7f90, size 0x24, virtual false, abstract: false, final false
   inline void SetMiddleSprite();
 
-  /// @brief Method SetEndSprite, addr 0x227c6fc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetEndSprite, addr 0x23d7fb4, size 0x24, virtual false, abstract: false, final false
   inline void SetEndSprite();
 
   static inline ::GlobalNamespace::StartMiddleEndButtonBackgroundController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x227c720, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d7fd8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "StartMiddleEndButtonBackgroundController", modifiers: "&&", def_value: None }]

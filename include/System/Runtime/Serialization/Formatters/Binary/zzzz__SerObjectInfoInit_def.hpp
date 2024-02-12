@@ -56,7 +56,7 @@ public:
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24cb1e0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24ec254, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SerObjectInfoInit", modifiers: "&&", def_value: None }]

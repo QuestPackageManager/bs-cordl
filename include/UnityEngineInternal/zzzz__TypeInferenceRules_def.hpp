@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngineInternal::TypeInferenceRules);
 namespace UnityEngineInternal {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9961))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8689))
 // CS Name: ::UnityEngineInternal::TypeInferenceRules
 struct CORDL_TYPE TypeInferenceRules {
 public:

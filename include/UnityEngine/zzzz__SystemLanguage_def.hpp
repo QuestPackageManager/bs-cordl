@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::SystemLanguage);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10035))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8767))
 // CS Name: ::UnityEngine::SystemLanguage
 struct CORDL_TYPE SystemLanguage {
 public:

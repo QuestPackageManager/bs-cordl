@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ProBuilder::Axis);
 namespace UnityEngine::ProBuilder {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12160))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12058))
 // CS Name: ::UnityEngine.ProBuilder::Axis
 struct CORDL_TYPE Axis {
 public:

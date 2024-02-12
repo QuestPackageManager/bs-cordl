@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::HMUI::HoverTextSetter);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13544))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13497))
 // CS Name: ::HMUI::HoverTextSetter*
 class CORDL_TYPE HoverTextSetter : public ::UnityEngine::MonoBehaviour {
 public:
@@ -74,24 +74,24 @@ public:
 
   constexpr void __cordl_internal_set__text(::StringW value);
 
-  /// @brief Method get_text, addr 0x211ec40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x21b351c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method set_text, addr 0x211ec48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x21b3524, size 0x8, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
-  /// @brief Method OnPointerEnter, addr 0x211ec50, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method OnPointerEnter, addr 0x21b352c, size 0x20, virtual true, abstract: false, final true
   inline void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerExit, addr 0x211ec70, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method OnPointerExit, addr 0x21b354c, size 0x18, virtual true, abstract: false, final true
   inline void OnPointerExit(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnDisable, addr 0x211ec88, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x21b3564, size 0x18, virtual false, abstract: false, final false
   inline void OnDisable();
 
   static inline ::HMUI::HoverTextSetter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x211eca0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21b357c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HoverTextSetter", modifiers: "&&", def_value: None }]

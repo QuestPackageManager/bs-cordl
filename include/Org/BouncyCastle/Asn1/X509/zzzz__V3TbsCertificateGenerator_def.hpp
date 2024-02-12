@@ -160,46 +160,46 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::V3TbsCertificateGenerator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x119cb7c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11caa0c, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method SetSerialNumber, addr 0x119cc1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetSerialNumber, addr 0x11caaac, size 0x8, virtual false, abstract: false, final false
   inline void SetSerialNumber(::Org::BouncyCastle::Asn1::DerInteger* serialNumber);
 
-  /// @brief Method SetSignature, addr 0x119cc24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetSignature, addr 0x11caab4, size 0x8, virtual false, abstract: false, final false
   inline void SetSignature(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* signature);
 
-  /// @brief Method SetIssuer, addr 0x119cc2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetIssuer, addr 0x11caabc, size 0x8, virtual false, abstract: false, final false
   inline void SetIssuer(::Org::BouncyCastle::Asn1::X509::X509Name* issuer);
 
-  /// @brief Method SetStartDate, addr 0x119cc34, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SetStartDate, addr 0x11caac4, size 0x6c, virtual false, abstract: false, final false
   inline void SetStartDate(::Org::BouncyCastle::Asn1::DerUtcTime* startDate);
 
-  /// @brief Method SetStartDate, addr 0x119cca0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetStartDate, addr 0x11cab30, size 0x8, virtual false, abstract: false, final false
   inline void SetStartDate(::Org::BouncyCastle::Asn1::X509::Time* startDate);
 
-  /// @brief Method SetEndDate, addr 0x119cca8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SetEndDate, addr 0x11cab38, size 0x6c, virtual false, abstract: false, final false
   inline void SetEndDate(::Org::BouncyCastle::Asn1::DerUtcTime* endDate);
 
-  /// @brief Method SetEndDate, addr 0x119cd14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetEndDate, addr 0x11caba4, size 0x8, virtual false, abstract: false, final false
   inline void SetEndDate(::Org::BouncyCastle::Asn1::X509::Time* endDate);
 
-  /// @brief Method SetSubject, addr 0x119cd1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetSubject, addr 0x11cabac, size 0x8, virtual false, abstract: false, final false
   inline void SetSubject(::Org::BouncyCastle::Asn1::X509::X509Name* subject);
 
-  /// @brief Method SetIssuerUniqueID, addr 0x119cd24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetIssuerUniqueID, addr 0x11cabb4, size 0x8, virtual false, abstract: false, final false
   inline void SetIssuerUniqueID(::Org::BouncyCastle::Asn1::DerBitString* uniqueID);
 
-  /// @brief Method SetSubjectUniqueID, addr 0x119cd2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetSubjectUniqueID, addr 0x11cabbc, size 0x8, virtual false, abstract: false, final false
   inline void SetSubjectUniqueID(::Org::BouncyCastle::Asn1::DerBitString* uniqueID);
 
-  /// @brief Method SetSubjectPublicKeyInfo, addr 0x119cd34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetSubjectPublicKeyInfo, addr 0x11cabc4, size 0x8, virtual false, abstract: false, final false
   inline void SetSubjectPublicKeyInfo(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* pubKeyInfo);
 
-  /// @brief Method SetExtensions, addr 0x119cd3c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method SetExtensions, addr 0x11cabcc, size 0x84, virtual false, abstract: false, final false
   inline void SetExtensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions);
 
-  /// @brief Method GenerateTbsCertificate, addr 0x119ceb4, size 0x3ec, virtual false, abstract: false, final false
+  /// @brief Method GenerateTbsCertificate, addr 0x11cad44, size 0x3ec, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure* GenerateTbsCertificate();
 
   // Ctor Parameters [CppParam { name: "", ty: "V3TbsCertificateGenerator", modifiers: "&&", def_value: None }]

@@ -2,8 +2,8 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "BGLib/Polyglot/zzzz__Language_def.hpp"
 #include "GlobalNamespace/zzzz__ObservableVariableSO_1_def.hpp"
-#include "Polyglot/zzzz__Language_def.hpp"
 CORDL_MODULE_EXPORT(LanguageSO)
 // Forward declare root types
 namespace GlobalNamespace {
@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::GlobalNamespace::LanguageSO);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15554)), TypeDefinitionIndex(TypeDefinitionIndex(15869)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15869), inst:
-// 3855 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5848)) CS Name: ::LanguageSO*
-class CORDL_TYPE LanguageSO : public ::GlobalNamespace::ObservableVariableSO_1<::Polyglot::Language> {
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15622)), TypeDefinitionIndex(TypeDefinitionIndex(15672)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15622), inst:
+// 3787 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(15665)) CS Name: ::LanguageSO*
+class CORDL_TYPE LanguageSO : public ::GlobalNamespace::ObservableVariableSO_1<::BGLib::Polyglot::Language> {
 public:
   // Declarations
   static inline ::GlobalNamespace::LanguageSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22f3bd0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe49f54, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LanguageSO", modifiers: "&&", def_value: None }]

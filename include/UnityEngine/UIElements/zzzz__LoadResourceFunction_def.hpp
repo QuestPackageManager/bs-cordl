@@ -27,17 +27,17 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::LoadResourceFunction);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6871))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6130))
 // CS Name: ::UnityEngine.UIElements::LoadResourceFunction*
 class CORDL_TYPE LoadResourceFunction : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::LoadResourceFunction* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2dc9848, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2de7c30, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x2dc9920, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2de7d08, size 0x14, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> Invoke(::StringW pathName, ::System::Type* type, float_t dpiScaling);
 
   // Ctor Parameters [CppParam { name: "", ty: "LoadResourceFunction", modifiers: "&&", def_value: None }]

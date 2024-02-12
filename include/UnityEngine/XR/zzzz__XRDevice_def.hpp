@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::UnityEngine::XR::XRDevice);
 namespace UnityEngine::XR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16124))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16228))
 // CS Name: ::UnityEngine.XR::XRDevice*
 class CORDL_TYPE XRDevice : public ::System::Object {
 public:
@@ -37,13 +37,13 @@ public:
 
   static inline ::System::Action_1<::StringW>* getStaticF_deviceLoaded();
 
-  /// @brief Method SetTrackingSpaceType, addr 0x2eb1f34, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetTrackingSpaceType, addr 0x2ecd078, size 0x3c, virtual false, abstract: false, final false
   static inline bool SetTrackingSpaceType(::UnityEngine::XR::TrackingSpaceType trackingSpaceType);
 
-  /// @brief Method DisableAutoXRCameraTracking, addr 0x2eb1f70, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method DisableAutoXRCameraTracking, addr 0x2ecd0b4, size 0x44, virtual false, abstract: false, final false
   static inline void DisableAutoXRCameraTracking(::UnityEngine::Camera* camera, bool disabled);
 
-  /// @brief Method InvokeDeviceLoaded, addr 0x2eb1fb4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method InvokeDeviceLoaded, addr 0x2ecd0f8, size 0x6c, virtual false, abstract: false, final false
   static inline void InvokeDeviceLoaded(::StringW loadedDeviceName);
 
   // Ctor Parameters [CppParam { name: "", ty: "XRDevice", modifiers: "&&", def_value: None }]

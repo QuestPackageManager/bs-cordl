@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::System::InvariantComparer);
 namespace System {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8868))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6878))
 // CS Name: ::System::InvariantComparer*
 class CORDL_TYPE InvariantComparer : public ::System::Object {
 public:
@@ -54,10 +54,10 @@ public:
 
   static inline ::System::InvariantComparer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29481b0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x294c8ac, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Compare, addr 0x294822c, size 0xec, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x294c928, size 0xec, virtual true, abstract: false, final true
   inline int32_t Compare(::System::Object* a, ::System::Object* b);
 
   // Ctor Parameters [CppParam { name: "", ty: "InvariantComparer", modifiers: "&&", def_value: None }]

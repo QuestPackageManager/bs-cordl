@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MockPlatformEntitlement);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(16270))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4106))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(16445))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10564))
 // CS Name: ::MockPlatformEntitlement*
 class CORDL_TYPE MockPlatformEntitlement : public ::System::Object {
 public:
@@ -47,18 +47,18 @@ public:
 
   constexpr void __cordl_internal_set__status(::GlobalNamespace::EntitlementStatus value);
 
-  /// @brief Method get_id, addr 0x223526c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x125e4c0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_id();
 
-  /// @brief Method get_status, addr 0x2235274, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_status, addr 0x125e4c8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EntitlementStatus get_status();
 
   static inline ::GlobalNamespace::MockPlatformEntitlement* New_ctor(::StringW id, ::GlobalNamespace::EntitlementStatus status);
 
-  /// @brief Method .ctor, addr 0x2234e64, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x125e0b8, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW id, ::GlobalNamespace::EntitlementStatus status);
 
-  /// @brief Method GetIt, addr 0x2234e58, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetIt, addr 0x125e0ac, size 0xc, virtual false, abstract: false, final false
   inline void GetIt();
 
   // Ctor Parameters [CppParam { name: "", ty: "MockPlatformEntitlement", modifiers: "&&", def_value: None }]

@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::RotationLimitAngle::*)()>(&::RootMotion::FinalIK::RotationLimitAngle::OpenUserManual)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x128f62c;
+  constexpr static std::size_t addrs = 0x13276dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::RotationLimitAngle*>::get(),
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::RotationLimitAngle::*)()>(
     &::RootMotion::FinalIK::RotationLimitAngle::OpenScriptReference)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x128f670;
+  constexpr static std::size_t addrs = 0x1327720;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::RotationLimitAngle*>::get(),
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::RotationLimitAngle::*)()>(&::RootMotion::FinalIK::RotationLimitAngle::SupportGroup)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x128f6b4;
+  constexpr static std::size_t addrs = 0x1327764;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::RotationLimitAngle*>::get(),
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::RotationLimitAngle::*)()>(&::RootMotion::FinalIK::RotationLimitAngle::ASThread)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x128f6f8;
+  constexpr static std::size_t addrs = 0x13277a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::RotationLimitAngle*>::get(), "ASThread",
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (::RootMotion::FinalIK::RotationLimitAngle::*)(::UnityEngine::Quaternion)>(
     &::RootMotion::FinalIK::RotationLimitAngle::LimitRotation)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x128f73c;
+  constexpr static std::size_t addrs = 0x13277ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (::RootMotion::FinalIK::RotationLimitAngle::*)(::UnityEngine::Quaternion)>(
     &::RootMotion::FinalIK::RotationLimitAngle::LimitSwing)> {
   constexpr static std::size_t size = 0x324;
-  constexpr static std::size_t addrs = 0x128f774;
+  constexpr static std::size_t addrs = 0x1327824;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::RotationLimitAngle::*)()>(&::RootMotion::FinalIK::RotationLimitAngle::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x128fa98;
+  constexpr static std::size_t addrs = 0x1327b48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::RotationLimitAngle*>::get(), ".ctor",

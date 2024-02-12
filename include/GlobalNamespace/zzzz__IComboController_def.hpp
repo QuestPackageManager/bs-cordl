@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IComboController);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5316))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4656))
 // CS Name: ::IComboController*
 class CORDL_TYPE IComboController {
 public:

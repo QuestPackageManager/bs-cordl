@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::TouchInputModule);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 121, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(13203))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13206))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8987)), TypeDefinitionIndex(TypeDefinitionIndex(13101))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13104))
 // CS Name: ::UnityEngine.EventSystems::TouchInputModule*
 class CORDL_TYPE TouchInputModule : public ::UnityEngine::EventSystems::PointerInputModule {
 public:
@@ -67,49 +67,49 @@ public:
 
   static inline ::UnityEngine::EventSystems::TouchInputModule* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d9efec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dbd3d4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_allowActivationOnStandalone, addr 0x2d9eff0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_allowActivationOnStandalone, addr 0x2dbd3d8, size 0x8, virtual false, abstract: false, final false
   inline bool get_allowActivationOnStandalone();
 
-  /// @brief Method set_allowActivationOnStandalone, addr 0x2d9eff8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_allowActivationOnStandalone, addr 0x2dbd3e0, size 0xc, virtual false, abstract: false, final false
   inline void set_allowActivationOnStandalone(bool value);
 
-  /// @brief Method get_forceModuleActive, addr 0x2d9f004, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_forceModuleActive, addr 0x2dbd3ec, size 0x8, virtual false, abstract: false, final false
   inline bool get_forceModuleActive();
 
-  /// @brief Method set_forceModuleActive, addr 0x2d9f00c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_forceModuleActive, addr 0x2dbd3f4, size 0xc, virtual false, abstract: false, final false
   inline void set_forceModuleActive(bool value);
 
-  /// @brief Method UpdateModule, addr 0x2d9f018, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method UpdateModule, addr 0x2dbd400, size 0x150, virtual true, abstract: false, final false
   inline void UpdateModule();
 
-  /// @brief Method IsModuleSupported, addr 0x2d9f168, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method IsModuleSupported, addr 0x2dbd550, size 0x38, virtual true, abstract: false, final false
   inline bool IsModuleSupported();
 
-  /// @brief Method ShouldActivateModule, addr 0x2d9f1a0, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method ShouldActivateModule, addr 0x2dbd588, size 0xa4, virtual true, abstract: false, final false
   inline bool ShouldActivateModule();
 
-  /// @brief Method UseFakeInput, addr 0x2d9f244, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method UseFakeInput, addr 0x2dbd62c, size 0x30, virtual false, abstract: false, final false
   inline bool UseFakeInput();
 
-  /// @brief Method Process, addr 0x2d9f274, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Process, addr 0x2dbd65c, size 0x28, virtual true, abstract: false, final false
   inline void Process();
 
-  /// @brief Method FakeTouches, addr 0x2d9f29c, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method FakeTouches, addr 0x2dbd684, size 0x124, virtual false, abstract: false, final false
   inline void FakeTouches();
 
-  /// @brief Method ProcessTouchEvents, addr 0x2d9f3c0, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method ProcessTouchEvents, addr 0x2dbd7a8, size 0x148, virtual false, abstract: false, final false
   inline void ProcessTouchEvents();
 
-  /// @brief Method ProcessTouchPress, addr 0x2d9f508, size 0x668, virtual false, abstract: false, final false
+  /// @brief Method ProcessTouchPress, addr 0x2dbd8f0, size 0x668, virtual false, abstract: false, final false
   inline void ProcessTouchPress(::UnityEngine::EventSystems::PointerEventData* pointerEvent, bool pressed, bool released);
 
-  /// @brief Method DeactivateModule, addr 0x2d9fb70, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method DeactivateModule, addr 0x2dbdf58, size 0x4, virtual true, abstract: false, final false
   inline void DeactivateModule();
 
-  /// @brief Method ToString, addr 0x2d9fb74, size 0x250, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2dbdf5c, size 0x250, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "TouchInputModule", modifiers: "&&", def_value: None }]

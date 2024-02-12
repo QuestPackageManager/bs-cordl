@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode::GetInstance)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x1080a04;
+  constexpr static std::size_t addrs = 0x10ad894;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode::*)(int32_t)>(
     &::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode::_ctor)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x1080bf0;
+  constexpr static std::size_t addrs = 0x10ada80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode::*)(::StringW)>(
     &::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode::_ctor)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x1080e18;
+  constexpr static std::size_t addrs = 0x10adca8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode::*)()>(
     &::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode::get_IsAlphabetic)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x1080f20;
+  constexpr static std::size_t addrs = 0x10addb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode::*)()>(
     &::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode::get_Alphabetic)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x1080f9c;
+  constexpr static std::size_t addrs = 0x10ade2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode::*)()>(
     &::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode::get_Numeric)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x1081044;
+  constexpr static std::size_t addrs = 0x10aded4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode::*)()>(
     &::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode::ToAsn1Object)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x10810c4;
+  constexpr static std::size_t addrs = 0x10adf54;
 
   inline static ::MethodInfo const* methodInfo() {
 

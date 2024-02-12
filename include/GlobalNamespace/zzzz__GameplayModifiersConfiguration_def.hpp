@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__GameplayModifiersConfiguration__SongSpeed);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15003))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14876))
 // CS Name: ::GameplayModifiersConfiguration::SongSpeed*
 class CORDL_TYPE __GameplayModifiersConfiguration__SongSpeed : public ::System::Object {
 public:
@@ -79,7 +79,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameplayModif
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15004))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14877))
 // CS Name: ::GameplayModifiersConfiguration::CutAngleTolerance*
 class CORDL_TYPE __GameplayModifiersConfiguration__CutAngleTolerance : public ::System::Object {
 public:
@@ -115,7 +115,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameplayModif
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15005))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14878))
 // CS Name: ::GameplayModifiersConfiguration::NoteUniformScale*
 class CORDL_TYPE __GameplayModifiersConfiguration__NoteUniformScale : public ::System::Object {
 public:
@@ -151,7 +151,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameplayModif
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15006))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14879))
 // CS Name: ::GameplayModifiersConfiguration*
 class CORDL_TYPE GameplayModifiersConfiguration : public ::System::Object {
 public:

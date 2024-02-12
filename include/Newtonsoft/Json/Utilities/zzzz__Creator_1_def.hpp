@@ -27,7 +27,7 @@ namespace Newtonsoft::Json::Utilities {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11893))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11791))
 // CS Name: ::Newtonsoft.Json.Utilities::Creator`1<T>*
 class CORDL_TYPE Creator_1 : public ::System::MulticastDelegate {
 public:

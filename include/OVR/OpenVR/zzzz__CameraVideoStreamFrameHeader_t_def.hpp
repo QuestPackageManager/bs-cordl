@@ -23,8 +23,8 @@ MARK_VAL_T(::OVR::OpenVR::CameraVideoStreamFrameHeader_t);
 // SizeInfo { instance_size: 100, native_size: 100, calculated_instance_size: 100, calculated_native_size: 116, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8612)), TypeDefinitionIndex(TypeDefinitionIndex(8658))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8700))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8556)), TypeDefinitionIndex(TypeDefinitionIndex(8602))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8644))
 // CS Name: ::OVR.OpenVR::CameraVideoStreamFrameHeader_t
 struct CORDL_TYPE CameraVideoStreamFrameHeader_t {
 public:

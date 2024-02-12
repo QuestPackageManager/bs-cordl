@@ -26,8 +26,8 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_PartInfo);
 // SizeInfo { instance_size: 48, native_size: 56, calculated_instance_size: 48, calculated_native_size: 61, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9710))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9740))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9502))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9532))
 // CS Name: ::HoudiniEngineUnity::HAPI_PartInfo
 struct CORDL_TYPE HAPI_PartInfo {
 public:
@@ -40,37 +40,37 @@ public:
 
   __declspec(property(get = get_detailAttributeCount, put = set_detailAttributeCount)) int32_t detailAttributeCount;
 
-  /// @brief Method getElementCountByAttributeOwner, addr 0x2191c48, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method getElementCountByAttributeOwner, addr 0x222652c, size 0x4c, virtual false, abstract: false, final false
   inline int32_t getElementCountByAttributeOwner(::HoudiniEngineUnity::HAPI_AttributeOwner owner);
 
-  /// @brief Method getElementCountByGroupType, addr 0x2191c94, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method getElementCountByGroupType, addr 0x2226578, size 0x28, virtual false, abstract: false, final false
   inline int32_t getElementCountByGroupType(::HoudiniEngineUnity::HAPI_GroupType type);
 
-  /// @brief Method init, addr 0x2186e68, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method init, addr 0x221b74c, size 0x58, virtual false, abstract: false, final false
   inline void init();
 
-  /// @brief Method get_pointAttributeCount, addr 0x2191cbc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_pointAttributeCount, addr 0x22265a0, size 0x34, virtual false, abstract: false, final false
   inline int32_t get_pointAttributeCount();
 
-  /// @brief Method set_pointAttributeCount, addr 0x2191cf0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method set_pointAttributeCount, addr 0x22265d4, size 0x40, virtual false, abstract: false, final false
   inline void set_pointAttributeCount(int32_t value);
 
-  /// @brief Method get_primitiveAttributeCount, addr 0x2191d30, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_primitiveAttributeCount, addr 0x2226614, size 0x34, virtual false, abstract: false, final false
   inline int32_t get_primitiveAttributeCount();
 
-  /// @brief Method set_primitiveAttributeCount, addr 0x2191d64, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method set_primitiveAttributeCount, addr 0x2226648, size 0x40, virtual false, abstract: false, final false
   inline void set_primitiveAttributeCount(int32_t value);
 
-  /// @brief Method get_vertexAttributeCount, addr 0x2191da4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_vertexAttributeCount, addr 0x2226688, size 0x30, virtual false, abstract: false, final false
   inline int32_t get_vertexAttributeCount();
 
-  /// @brief Method set_vertexAttributeCount, addr 0x2191dd4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_vertexAttributeCount, addr 0x22266b8, size 0x3c, virtual false, abstract: false, final false
   inline void set_vertexAttributeCount(int32_t value);
 
-  /// @brief Method get_detailAttributeCount, addr 0x2191e10, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_detailAttributeCount, addr 0x22266f4, size 0x34, virtual false, abstract: false, final false
   inline int32_t get_detailAttributeCount();
 
-  /// @brief Method set_detailAttributeCount, addr 0x2191e44, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method set_detailAttributeCount, addr 0x2226728, size 0x40, virtual false, abstract: false, final false
   inline void set_detailAttributeCount(int32_t value);
 
   // Ctor Parameters [CppParam { name: "id", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "nameSH", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "type", ty:

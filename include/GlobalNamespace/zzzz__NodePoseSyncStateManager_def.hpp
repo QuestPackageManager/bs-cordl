@@ -47,9 +47,9 @@ MARK_REF_PTR_T(::GlobalNamespace::NodePoseSyncStateManager);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12972)), TypeDefinitionIndex(TypeDefinitionIndex(12973)), TypeDefinitionIndex(TypeDefinitionIndex(12974)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12975)), TypeDefinitionIndex(TypeDefinitionIndex(14951)), TypeDefinitionIndex(TypeDefinitionIndex(15042)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(14951), inst: 3651 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14966)) CS Name: ::NodePoseSyncStateManager*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12870)), TypeDefinitionIndex(TypeDefinitionIndex(12871)), TypeDefinitionIndex(TypeDefinitionIndex(12872)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12873)), TypeDefinitionIndex(TypeDefinitionIndex(14824)), TypeDefinitionIndex(TypeDefinitionIndex(14915)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(14824), inst: 3627 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14839)) CS Name: ::NodePoseSyncStateManager*
 class CORDL_TYPE NodePoseSyncStateManager
     : public ::GlobalNamespace::MultiplayerSyncStateManager_5<::GlobalNamespace::NodePoseSyncState, ::GlobalNamespace::__NodePoseSyncState__NodePose, ::GlobalNamespace::PoseSerializable,
                                                               ::GlobalNamespace::NodePoseSyncStateNetSerializable*, ::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*> {
@@ -88,39 +88,39 @@ public:
                                                            ::GlobalNamespace::NodePoseSyncStateNetSerializable*, ::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*>*
   i___GlobalNamespace__INodePoseSyncStateManager_5___GlobalNamespace__NodePoseSyncState___GlobalNamespace____NodePoseSyncState__NodePose___GlobalNamespace__PoseSerializable___GlobalNamespace__NodePoseSyncStateNetSerializable____GlobalNamespace__NodePoseSyncStateDeltaNetSerializable__() noexcept;
 
-  /// @brief Method get_deltaUpdateFrequencyMs, addr 0x2637c2c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_deltaUpdateFrequencyMs, addr 0x265cd4c, size 0x8, virtual true, abstract: false, final false
   inline int64_t get_deltaUpdateFrequencyMs();
 
-  /// @brief Method get_fullStateUpdateFrequencyMs, addr 0x2637c34, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_fullStateUpdateFrequencyMs, addr 0x265cd54, size 0x8, virtual true, abstract: false, final false
   inline int64_t get_fullStateUpdateFrequencyMs();
 
-  /// @brief Method get_localBufferSize, addr 0x2637c3c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_localBufferSize, addr 0x265cd5c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_localBufferSize();
 
-  /// @brief Method get_remoteBufferSize, addr 0x2637c44, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_remoteBufferSize, addr 0x265cd64, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_remoteBufferSize();
 
-  /// @brief Method get_serializablePool, addr 0x2637c4c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_serializablePool, addr 0x265cd6c, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::IPacketPool_1<::GlobalNamespace::NodePoseSyncStateNetSerializable*>* get_serializablePool();
 
-  /// @brief Method get_deltaSerializablePool, addr 0x2637c54, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_deltaSerializablePool, addr 0x265cd74, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::IPacketPool_1<::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*>* get_deltaSerializablePool();
 
-  /// @brief Method get_messageType, addr 0x2637c5c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_messageType, addr 0x265cd7c, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::__MultiplayerSessionManager__MessageType get_messageType();
 
-  /// @brief Method get_deltaMessageType, addr 0x2637c64, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_deltaMessageType, addr 0x265cd84, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::__MultiplayerSessionManager__MessageType get_deltaMessageType();
 
-  /// @brief Method Interpolate, addr 0x2637c6c, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method Interpolate, addr 0x265cd8c, size 0x6c, virtual true, abstract: false, final false
   inline ::GlobalNamespace::PoseSerializable Interpolate(::GlobalNamespace::PoseSerializable prev, int64_t prevTime, ::GlobalNamespace::PoseSerializable curr, int64_t currTime, int64_t time);
 
-  /// @brief Method Smooth, addr 0x2637cd8, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method Smooth, addr 0x265cdf8, size 0x5c, virtual true, abstract: false, final false
   inline ::GlobalNamespace::PoseSerializable Smooth(::GlobalNamespace::PoseSerializable a, ::GlobalNamespace::PoseSerializable b, float_t smooth);
 
   static inline ::GlobalNamespace::NodePoseSyncStateManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2637d34, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x265ce54, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NodePoseSyncStateManager", modifiers: "&&", def_value: None }]

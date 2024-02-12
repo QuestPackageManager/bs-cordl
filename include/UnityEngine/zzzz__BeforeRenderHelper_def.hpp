@@ -30,7 +30,7 @@ MARK_VAL_T(::UnityEngine::__BeforeRenderHelper__OrderBlock);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10099))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8832))
 // CS Name: ::BeforeRenderHelper::OrderBlock
 struct CORDL_TYPE __BeforeRenderHelper__OrderBlock {
 public:
@@ -67,7 +67,7 @@ static_assert(offsetof(::UnityEngine::__BeforeRenderHelper__OrderBlock, callback
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10100))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8833))
 // CS Name: ::UnityEngine::BeforeRenderHelper*
 class CORDL_TYPE BeforeRenderHelper : public ::System::Object {
 public:
@@ -81,16 +81,16 @@ public:
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::__BeforeRenderHelper__OrderBlock>* getStaticF_s_OrderBlocks();
 
-  /// @brief Method GetUpdateOrder, addr 0x2cc177c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method GetUpdateOrder, addr 0x2cc4fb8, size 0x118, virtual false, abstract: false, final false
   static inline int32_t GetUpdateOrder(::UnityEngine::Events::UnityAction* callback);
 
-  /// @brief Method RegisterCallback, addr 0x2cc1894, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method RegisterCallback, addr 0x2cc50d0, size 0x348, virtual false, abstract: false, final false
   static inline void RegisterCallback(::UnityEngine::Events::UnityAction* callback);
 
-  /// @brief Method UnregisterCallback, addr 0x2cc1bdc, size 0x310, virtual false, abstract: false, final false
+  /// @brief Method UnregisterCallback, addr 0x2cc5418, size 0x310, virtual false, abstract: false, final false
   static inline void UnregisterCallback(::UnityEngine::Events::UnityAction* callback);
 
-  /// @brief Method Invoke, addr 0x2cc1eec, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2cc5728, size 0x19c, virtual false, abstract: false, final false
   static inline void Invoke();
 
   // Ctor Parameters [CppParam { name: "", ty: "BeforeRenderHelper", modifiers: "&&", def_value: None }]

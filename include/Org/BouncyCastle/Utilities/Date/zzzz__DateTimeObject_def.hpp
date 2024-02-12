@@ -38,13 +38,13 @@ public:
 
   static inline ::Org::BouncyCastle::Utilities::Date::DateTimeObject* New_ctor(::System::DateTime dt);
 
-  /// @brief Method .ctor, addr 0x11514f8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x117f388, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::DateTime dt);
 
-  /// @brief Method get_Value, addr 0x115b714, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x11895a4, size 0x8, virtual false, abstract: false, final false
   inline ::System::DateTime get_Value();
 
-  /// @brief Method ToString, addr 0x115b71c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x11895ac, size 0x20, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "DateTimeObject", modifiers: "&&", def_value: None }]

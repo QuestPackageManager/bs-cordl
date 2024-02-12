@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::UI::MultiplayerEventSystem);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::UI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13191))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6377))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13089))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5636))
 // CS Name: ::UnityEngine.InputSystem.UI::MultiplayerEventSystem*
 class CORDL_TYPE MultiplayerEventSystem : public ::UnityEngine::EventSystems::EventSystem {
 public:
@@ -34,27 +34,27 @@ public:
 
   constexpr void __cordl_internal_set_m_PlayerRoot(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method get_playerRoot, addr 0x2ad6510, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerRoot, addr 0x2ad707c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_playerRoot();
 
-  /// @brief Method set_playerRoot, addr 0x2ad6518, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_playerRoot, addr 0x2ad7084, size 0x8, virtual false, abstract: false, final false
   inline void set_playerRoot(::UnityEngine::GameObject* value);
 
-  /// @brief Method OnEnable, addr 0x2ad65e4, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x2ad7150, size 0x1c, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable, addr 0x2ad6600, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x2ad716c, size 0x8, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method InitializePlayerRoot, addr 0x2ad6520, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method InitializePlayerRoot, addr 0x2ad708c, size 0xc4, virtual false, abstract: false, final false
   inline void InitializePlayerRoot();
 
-  /// @brief Method Update, addr 0x2ad6608, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x2ad7174, size 0x108, virtual true, abstract: false, final false
   inline void Update();
 
   static inline ::UnityEngine::InputSystem::UI::MultiplayerEventSystem* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ad6710, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ad727c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerEventSystem", modifiers: "&&", def_value: None }]

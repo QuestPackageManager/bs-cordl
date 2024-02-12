@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::Initialization::CacheInitializa
 namespace UnityEngine::AddressableAssets::Initialization {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14120))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14133))
 // CS Name: ::UnityEngine.AddressableAssets.Initialization::CacheInitializationData*
 class CORDL_TYPE CacheInitializationData : public ::System::Object {
 public:
@@ -77,39 +77,39 @@ public:
 
   constexpr void __cordl_internal_set_m_MaximumCacheSize(int64_t value);
 
-  /// @brief Method get_CompressionEnabled, addr 0x2a30900, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CompressionEnabled, addr 0x2a3346c, size 0x8, virtual false, abstract: false, final false
   inline bool get_CompressionEnabled();
 
-  /// @brief Method set_CompressionEnabled, addr 0x2a30908, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_CompressionEnabled, addr 0x2a33474, size 0xc, virtual false, abstract: false, final false
   inline void set_CompressionEnabled(bool value);
 
-  /// @brief Method get_CacheDirectoryOverride, addr 0x2a30914, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CacheDirectoryOverride, addr 0x2a33480, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_CacheDirectoryOverride();
 
-  /// @brief Method set_CacheDirectoryOverride, addr 0x2a3091c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CacheDirectoryOverride, addr 0x2a33488, size 0x8, virtual false, abstract: false, final false
   inline void set_CacheDirectoryOverride(::StringW value);
 
-  /// @brief Method get_ExpirationDelay, addr 0x2a30924, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ExpirationDelay, addr 0x2a33490, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ExpirationDelay();
 
-  /// @brief Method set_ExpirationDelay, addr 0x2a3092c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ExpirationDelay, addr 0x2a33498, size 0x8, virtual false, abstract: false, final false
   inline void set_ExpirationDelay(int32_t value);
 
-  /// @brief Method get_LimitCacheSize, addr 0x2a30934, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LimitCacheSize, addr 0x2a334a0, size 0x8, virtual false, abstract: false, final false
   inline bool get_LimitCacheSize();
 
-  /// @brief Method set_LimitCacheSize, addr 0x2a3093c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_LimitCacheSize, addr 0x2a334a8, size 0xc, virtual false, abstract: false, final false
   inline void set_LimitCacheSize(bool value);
 
-  /// @brief Method get_MaximumCacheSize, addr 0x2a30948, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaximumCacheSize, addr 0x2a334b4, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_MaximumCacheSize();
 
-  /// @brief Method set_MaximumCacheSize, addr 0x2a30950, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MaximumCacheSize, addr 0x2a334bc, size 0x8, virtual false, abstract: false, final false
   inline void set_MaximumCacheSize(int64_t value);
 
   static inline ::UnityEngine::AddressableAssets::Initialization::CacheInitializationData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2a30958, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a334c4, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CacheInitializationData", modifiers: "&&", def_value: None }]

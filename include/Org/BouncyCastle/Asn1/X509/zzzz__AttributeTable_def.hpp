@@ -49,31 +49,31 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::AttributeTable* New_ctor(::System::Collections::IDictionary* attrs);
 
-  /// @brief Method .ctor, addr 0x1084edc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10b1d6c, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IDictionary* attrs);
 
   static inline ::Org::BouncyCastle::Asn1::X509::AttributeTable* New_ctor(::System::Collections::Hashtable* attrs);
 
-  /// @brief Method .ctor, addr 0x1084f54, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10b1de4, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Hashtable* attrs);
 
   static inline ::Org::BouncyCastle::Asn1::X509::AttributeTable* New_ctor(::Org::BouncyCastle::Asn1::Asn1EncodableVector* v);
 
-  /// @brief Method .ctor, addr 0x1084fcc, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10b1e5c, size 0x148, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1EncodableVector* v);
 
   static inline ::Org::BouncyCastle::Asn1::X509::AttributeTable* New_ctor(::Org::BouncyCastle::Asn1::Asn1Set* s);
 
-  /// @brief Method .ctor, addr 0x1085114, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10b1fa4, size 0x178, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Set* s);
 
-  /// @brief Method Get, addr 0x108528c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x10b211c, size 0xf4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AttributeX509* Get(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method ToHashtable, addr 0x1085380, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ToHashtable, addr 0x10b2210, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::Hashtable* ToHashtable();
 
-  /// @brief Method ToDictionary, addr 0x10853e8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ToDictionary, addr 0x10b2278, size 0x5c, virtual false, abstract: false, final false
   inline ::System::Collections::IDictionary* ToDictionary();
 
   // Ctor Parameters [CppParam { name: "", ty: "AttributeTable", modifiers: "&&", def_value: None }]

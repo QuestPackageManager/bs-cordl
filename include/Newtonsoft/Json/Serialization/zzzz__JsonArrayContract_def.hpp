@@ -35,8 +35,8 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::JsonArrayContract);
 // SizeInfo { instance_size: 280, native_size: -1, calculated_instance_size: 280, calculated_native_size: 273, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11907))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11935))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11805))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11833))
 // CS Name: ::Newtonsoft.Json.Serialization::JsonArrayContract*
 class CORDL_TYPE JsonArrayContract : public ::Newtonsoft::Json::Serialization::JsonContainerContract {
 public:
@@ -183,63 +183,63 @@ public:
 
   constexpr void __cordl_internal_set__HasParameterizedCreator_k__BackingField(bool value);
 
-  /// @brief Method get_CollectionItemType, addr 0x267794c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CollectionItemType, addr 0x269ab08, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_CollectionItemType();
 
-  /// @brief Method set_CollectionItemType, addr 0x2677954, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CollectionItemType, addr 0x269ab10, size 0x8, virtual false, abstract: false, final false
   inline void set_CollectionItemType(::System::Type* value);
 
-  /// @brief Method get_IsMultidimensionalArray, addr 0x267795c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsMultidimensionalArray, addr 0x269ab18, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsMultidimensionalArray();
 
-  /// @brief Method set_IsMultidimensionalArray, addr 0x2677964, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsMultidimensionalArray, addr 0x269ab20, size 0xc, virtual false, abstract: false, final false
   inline void set_IsMultidimensionalArray(bool value);
 
-  /// @brief Method get_IsArray, addr 0x2677970, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsArray, addr 0x269ab2c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsArray();
 
-  /// @brief Method set_IsArray, addr 0x2677978, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsArray, addr 0x269ab34, size 0xc, virtual false, abstract: false, final false
   inline void set_IsArray(bool value);
 
-  /// @brief Method get_ShouldCreateWrapper, addr 0x2677984, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ShouldCreateWrapper, addr 0x269ab40, size 0x8, virtual false, abstract: false, final false
   inline bool get_ShouldCreateWrapper();
 
-  /// @brief Method set_ShouldCreateWrapper, addr 0x267798c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ShouldCreateWrapper, addr 0x269ab48, size 0xc, virtual false, abstract: false, final false
   inline void set_ShouldCreateWrapper(bool value);
 
-  /// @brief Method get_CanDeserialize, addr 0x2677998, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CanDeserialize, addr 0x269ab54, size 0x8, virtual false, abstract: false, final false
   inline bool get_CanDeserialize();
 
-  /// @brief Method set_CanDeserialize, addr 0x26779a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_CanDeserialize, addr 0x269ab5c, size 0xc, virtual false, abstract: false, final false
   inline void set_CanDeserialize(bool value);
 
-  /// @brief Method get_ParameterizedCreator, addr 0x26779ac, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_ParameterizedCreator, addr 0x269ab68, size 0x7c, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* get_ParameterizedCreator();
 
-  /// @brief Method get_OverrideCreator, addr 0x2677a28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OverrideCreator, addr 0x269abe4, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* get_OverrideCreator();
 
-  /// @brief Method set_OverrideCreator, addr 0x2674e60, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_OverrideCreator, addr 0x269801c, size 0x10, virtual false, abstract: false, final false
   inline void set_OverrideCreator(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* value);
 
-  /// @brief Method get_HasParameterizedCreator, addr 0x2677a30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HasParameterizedCreator, addr 0x269abec, size 0x8, virtual false, abstract: false, final false
   inline bool get_HasParameterizedCreator();
 
-  /// @brief Method set_HasParameterizedCreator, addr 0x2677a38, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_HasParameterizedCreator, addr 0x269abf4, size 0xc, virtual false, abstract: false, final false
   inline void set_HasParameterizedCreator(bool value);
 
-  /// @brief Method get_HasParameterizedCreatorInternal, addr 0x2677a44, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_HasParameterizedCreatorInternal, addr 0x269ac00, size 0x28, virtual false, abstract: false, final false
   inline bool get_HasParameterizedCreatorInternal();
 
   static inline ::Newtonsoft::Json::Serialization::JsonArrayContract* New_ctor(::System::Type* underlyingType);
 
-  /// @brief Method .ctor, addr 0x26745c8, size 0x898, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2697784, size 0x898, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* underlyingType);
 
-  /// @brief Method CreateWrapper, addr 0x2677ac8, size 0x3c0, virtual false, abstract: false, final false
+  /// @brief Method CreateWrapper, addr 0x269ac84, size 0x3c0, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Utilities::IWrappedCollection* CreateWrapper(::System::Object* list);
 
-  /// @brief Method CreateTemporaryCollection, addr 0x2677e88, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method CreateTemporaryCollection, addr 0x269b044, size 0x22c, virtual false, abstract: false, final false
   inline ::System::Collections::IList* CreateTemporaryCollection();
 
   // Ctor Parameters [CppParam { name: "", ty: "JsonArrayContract", modifiers: "&&", def_value: None }]

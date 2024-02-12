@@ -84,8 +84,8 @@ MARK_VAL_T(::GlobalNamespace::__MediaAsyncLoader___LoadWebpage_d__0);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 397 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5899)) CS Name: ::MediaAsyncLoader::<LoadWebpage>d__0
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3389)), TypeDefinitionIndex(TypeDefinitionIndex(3398)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3398), inst: 398 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(16019)) CS Name: ::MediaAsyncLoader::<LoadWebpage>d__0
 struct CORDL_TYPE __MediaAsyncLoader___LoadWebpage_d__0 {
 public:
   // Declarations
@@ -95,10 +95,10 @@ public:
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x22fc490, size 0x43c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2400ee4, size 0x43c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x22fc8cc, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2401320, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -162,8 +162,8 @@ static_assert(offsetof(::GlobalNamespace::__MediaAsyncLoader___LoadWebpage_d__0,
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(15594)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 276 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5900)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3389)), TypeDefinitionIndex(TypeDefinitionIndex(3398)), TypeDefinitionIndex(TypeDefinitionIndex(15305)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3398), inst: 274 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(16020)) CS Name:
 // ::MediaAsyncLoader::<LoadAudioClipFromFilePathAsync>d__1
 struct CORDL_TYPE __MediaAsyncLoader___LoadAudioClipFromFilePathAsync_d__1 {
 public:
@@ -174,10 +174,10 @@ public:
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x22fc924, size 0x47c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2401378, size 0x47c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x22fcda0, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x24017f4, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -235,8 +235,8 @@ static_assert(offsetof(::GlobalNamespace::__MediaAsyncLoader___LoadAudioClipFrom
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10073)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 403 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5901)) CS
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3389)), TypeDefinitionIndex(TypeDefinitionIndex(3398)),
+// TypeDefinitionIndex(TypeDefinitionIndex(8805)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3398), inst: 404 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(16021)) CS
 // Name: ::MediaAsyncLoader::<LoadTextureAsync>d__2
 struct CORDL_TYPE __MediaAsyncLoader___LoadTextureAsync_d__2 {
 public:
@@ -247,10 +247,10 @@ public:
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x22fcdf8, size 0x434, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x240184c, size 0x434, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x22fd22c, size 0x1058, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2401c80, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -314,8 +314,8 @@ static_assert(offsetof(::GlobalNamespace::__MediaAsyncLoader___LoadTextureAsync_
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10291)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 777 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5902)) CS
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3389)), TypeDefinitionIndex(TypeDefinitionIndex(3398)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9037)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3398), inst: 779 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(16022)) CS
 // Name: ::MediaAsyncLoader::<LoadSpriteAsync>d__3
 struct CORDL_TYPE __MediaAsyncLoader___LoadSpriteAsync_d__3 {
 public:
@@ -326,10 +326,10 @@ public:
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x22fe284, size 0x5ec, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2401cd8, size 0x5f8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x22fe870, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x24022d0, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -394,7 +394,7 @@ static_assert(offsetof(::GlobalNamespace::__MediaAsyncLoader___LoadSpriteAsync_d
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5903))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16023))
 // CS Name: ::MediaAsyncLoader*
 class CORDL_TYPE MediaAsyncLoader : public ::System::Object {
 public:
@@ -413,24 +413,24 @@ public:
   /// @brief Convert to "::GlobalNamespace::IMediaAsyncLoader"
   constexpr ::GlobalNamespace::IMediaAsyncLoader* i___GlobalNamespace__IMediaAsyncLoader() noexcept;
 
-  /// @brief Method LoadWebpage, addr 0x22fc04c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method LoadWebpage, addr 0x2400aa8, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::StringW>* LoadWebpage(::StringW uri, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method LoadAudioClipFromFilePathAsync, addr 0x22fc148, size 0xf0, virtual true, abstract: false, final true
+  /// @brief Method LoadAudioClipFromFilePathAsync, addr 0x2400ba4, size 0xf0, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* LoadAudioClipFromFilePathAsync(::StringW filePath);
 
-  /// @brief Method LoadTextureAsync, addr 0x22fc238, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method LoadTextureAsync, addr 0x2400c94, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Texture2D>>* LoadTextureAsync(::StringW path, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method LoadSpriteAsync, addr 0x22fc334, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method LoadSpriteAsync, addr 0x2400d90, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>* LoadSpriteAsync(::StringW path, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Log, addr 0x22fc430, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Log, addr 0x2400e8c, size 0x58, virtual false, abstract: false, final false
   static inline void Log(::StringW message);
 
   static inline ::GlobalNamespace::MediaAsyncLoader* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22fc488, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23ff52c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MediaAsyncLoader", modifiers: "&&", def_value: None }]

@@ -14,8 +14,8 @@ MARK_REF_PTR_T(::UnityEngine::U2D::SpriteShapeRenderer);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::U2D {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10064))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16200))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8796))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16348))
 // CS Name: ::UnityEngine.U2D::SpriteShapeRenderer*
 class CORDL_TYPE SpriteShapeRenderer : public ::UnityEngine::Renderer {
 public:

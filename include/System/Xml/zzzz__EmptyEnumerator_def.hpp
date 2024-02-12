@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::System::Xml::EmptyEnumerator);
 namespace System::Xml {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11530))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11428))
 // CS Name: ::System.Xml::EmptyEnumerator*
 class CORDL_TYPE EmptyEnumerator : public ::System::Object {
 public:
@@ -34,18 +34,18 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerator"
   constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  /// @brief Method System.Collections.IEnumerator.MoveNext, addr 0x2892350, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.MoveNext, addr 0x28959b8, size 0x8, virtual true, abstract: false, final true
   inline bool System_Collections_IEnumerator_MoveNext();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2892358, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x28959c0, size 0x4, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x289235c, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x28959c4, size 0x60, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   static inline ::System::Xml::EmptyEnumerator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28923bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2895a24, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EmptyEnumerator", modifiers: "&&", def_value: None }]

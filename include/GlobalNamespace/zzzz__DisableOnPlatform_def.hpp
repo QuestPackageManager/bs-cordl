@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::GlobalNamespace::DisableOnPlatform);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5365))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16184))
 // CS Name: ::DisableOnPlatform*
 class CORDL_TYPE DisableOnPlatform : public ::UnityEngine::MonoBehaviour {
 public:
@@ -34,12 +34,12 @@ public:
 
   constexpr void __cordl_internal_set__disabledPlatforms(::ArrayW<::UnityEngine::RuntimePlatform, ::Array<::UnityEngine::RuntimePlatform>*> value);
 
-  /// @brief Method Awake, addr 0x226c564, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2181ac8, size 0x98, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::DisableOnPlatform* New_ctor();
 
-  /// @brief Method .ctor, addr 0x226c5fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2181b60, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DisableOnPlatform", modifiers: "&&", def_value: None }]

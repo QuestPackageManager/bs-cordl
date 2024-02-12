@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerMockSettings);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5189))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8954))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4528))
 // CS Name: ::MultiplayerMockSettings*
 class CORDL_TYPE MultiplayerMockSettings : public ::UnityEngine::ScriptableObject {
 public:
@@ -101,39 +101,39 @@ public:
 
   constexpr void __cordl_internal_set__quickPlaySetupData(::GlobalNamespace::QuickPlaySetupData* value);
 
-  /// @brief Method get_quickplayServer, addr 0x2244570, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_quickplayServer, addr 0x23a2368, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MockServerSettings* get_quickplayServer();
 
-  /// @brief Method get_localPlayer, addr 0x2244578, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method get_localPlayer, addr 0x23a2370, size 0xac, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MockPlayerSettings* get_localPlayer();
 
-  /// @brief Method get_quickPlaySetupData, addr 0x2244624, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_quickPlaySetupData, addr 0x23a241c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::QuickPlaySetupData* get_quickPlaySetupData();
 
-  /// @brief Method set_quickPlaySetupData, addr 0x224462c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_quickPlaySetupData, addr 0x23a2424, size 0x8, virtual false, abstract: false, final false
   inline void set_quickPlaySetupData(::GlobalNamespace::QuickPlaySetupData* value);
 
-  /// @brief Method get_multiplayerStatusData, addr 0x2244634, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_multiplayerStatusData, addr 0x23a242c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerStatusData* get_multiplayerStatusData();
 
-  /// @brief Method set_multiplayerStatusData, addr 0x224463c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_multiplayerStatusData, addr 0x23a2434, size 0x8, virtual false, abstract: false, final false
   inline void set_multiplayerStatusData(::GlobalNamespace::MultiplayerStatusData* value);
 
-  /// @brief Method get_otherPlayers, addr 0x2244644, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_otherPlayers, addr 0x23a243c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::MockPlayerSettings*>* get_otherPlayers();
 
-  /// @brief Method get_isEnabled, addr 0x224464c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isEnabled, addr 0x23a2444, size 0x8, virtual false, abstract: false, final false
   inline bool get_isEnabled();
 
-  /// @brief Method set_isEnabled, addr 0x2244654, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isEnabled, addr 0x23a244c, size 0xc, virtual false, abstract: false, final false
   inline void set_isEnabled(bool value);
 
-  /// @brief Method SharedSettings, addr 0x2244660, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SharedSettings, addr 0x23a2458, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityW<::GlobalNamespace::MultiplayerMockSettings> SharedSettings();
 
   static inline ::GlobalNamespace::MultiplayerMockSettings* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2244668, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23a2460, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerMockSettings", modifiers: "&&", def_value: None }]

@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::UnityOpus::Decoder);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityOpus {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(16215))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16212))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(16384))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16381))
 // CS Name: ::UnityOpus::Decoder*
 class CORDL_TYPE Decoder : public ::System::Object {
 public:
@@ -78,19 +78,19 @@ public:
 
   static inline ::UnityOpus::Decoder* New_ctor(::UnityOpus::SamplingFrequency samplingFrequency, ::UnityOpus::NumChannels channels);
 
-  /// @brief Method .ctor, addr 0x21f70e0, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x228c9c8, size 0x154, virtual false, abstract: false, final false
   inline void _ctor(::UnityOpus::SamplingFrequency samplingFrequency, ::UnityOpus::NumChannels channels);
 
-  /// @brief Method Decode, addr 0x21f72c8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x228cbb0, size 0xcc, virtual false, abstract: false, final false
   inline int32_t Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t dataLength, ::ArrayW<float_t, ::Array<float_t>*> pcm, int32_t decodeFec);
 
-  /// @brief Method Dispose, addr 0x21f7504, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x228cdec, size 0x84, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Finalize, addr 0x21f7604, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x228ceec, size 0xa0, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method Dispose, addr 0x21f76a4, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x228cf8c, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
   // Ctor Parameters [CppParam { name: "", ty: "Decoder", modifiers: "&&", def_value: None }]

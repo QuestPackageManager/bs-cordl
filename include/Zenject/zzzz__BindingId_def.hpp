@@ -26,7 +26,7 @@ MARK_VAL_T(::Zenject::BindingId);
 namespace Zenject {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11158))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10300))
 // CS Name: ::Zenject::BindingId
 struct CORDL_TYPE BindingId {
 public:
@@ -41,37 +41,37 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::Zenject::BindingId>"
   constexpr ::System::IEquatable_1<::Zenject::BindingId>* i___System__IEquatable_1___Zenject__BindingId_();
 
-  /// @brief Method .ctor, addr 0x2ee5410, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f01558, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::System::Object* identifier);
 
-  /// @brief Method get_Type, addr 0x2ef6240, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x2f12388, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_Type();
 
-  /// @brief Method set_Type, addr 0x2ef6248, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Type, addr 0x2f12390, size 0x8, virtual false, abstract: false, final false
   inline void set_Type(::System::Type* value);
 
-  /// @brief Method get_Identifier, addr 0x2ef6250, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Identifier, addr 0x2f12398, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Identifier();
 
-  /// @brief Method set_Identifier, addr 0x2ef6258, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Identifier, addr 0x2f123a0, size 0x8, virtual false, abstract: false, final false
   inline void set_Identifier(::System::Object* value);
 
-  /// @brief Method ToString, addr 0x2ef6260, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2f123a8, size 0x120, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method GetHashCode, addr 0x2ef6380, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2f124c8, size 0x50, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Equals, addr 0x2ef63d0, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2f12518, size 0x84, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method Equals, addr 0x2ef64f8, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2f12640, size 0x18, virtual true, abstract: false, final true
   inline bool Equals(::Zenject::BindingId that);
 
-  /// @brief Method op_Equality, addr 0x2ef6454, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x2f1259c, size 0xa4, virtual false, abstract: false, final false
   static inline bool op_Equality(::Zenject::BindingId left, ::Zenject::BindingId right);
 
-  /// @brief Method op_Inequality, addr 0x2ef6510, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x2f12658, size 0x18, virtual false, abstract: false, final false
   static inline bool op_Inequality(::Zenject::BindingId left, ::Zenject::BindingId right);
 
   // Ctor Parameters [CppParam { name: "_type", ty: "::System::Type*", modifiers: "", def_value: None }, CppParam { name: "_identifier", ty: "::System::Object*", modifiers: "", def_value: None }]

@@ -66,28 +66,28 @@ public:
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair* New_ctor(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* keyPair,
                                                                          ::System::DateTime time);
 
-  /// @brief Method .ctor, addr 0x10ad80c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10da69c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* keyPair, ::System::DateTime time);
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair* New_ctor(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* pubKey,
                                                                          ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privKey, ::System::DateTime time);
 
-  /// @brief Method .ctor, addr 0x10ad82c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10da6bc, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* pubKey,
                     ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privKey, ::System::DateTime time);
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair* New_ctor(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey* pub, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey* priv);
 
-  /// @brief Method .ctor, addr 0x10ade9c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10dad2c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey* pub, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey* priv);
 
-  /// @brief Method get_KeyId, addr 0x10adec8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_KeyId, addr 0x10dad58, size 0x1c, virtual false, abstract: false, final false
   inline int64_t get_KeyId();
 
-  /// @brief Method get_PublicKey, addr 0x10adee4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PublicKey, addr 0x10dad74, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey* get_PublicKey();
 
-  /// @brief Method get_PrivateKey, addr 0x10adeec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PrivateKey, addr 0x10dad7c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey* get_PrivateKey();
 
   // Ctor Parameters [CppParam { name: "", ty: "PgpKeyPair", modifiers: "&&", def_value: None }]

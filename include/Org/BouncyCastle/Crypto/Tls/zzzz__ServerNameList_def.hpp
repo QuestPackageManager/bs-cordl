@@ -41,19 +41,19 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::ServerNameList* New_ctor(::System::Collections::IList* serverNameList);
 
-  /// @brief Method .ctor, addr 0xf9521c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfc10ac, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IList* serverNameList);
 
-  /// @brief Method get_ServerNames, addr 0xf95294, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ServerNames, addr 0xfc1124, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::IList* get_ServerNames();
 
-  /// @brief Method Encode, addr 0xf9529c, size 0x4bc, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0xfc112c, size 0x4bc, virtual true, abstract: false, final false
   inline void Encode(::System::IO::Stream* output);
 
-  /// @brief Method Parse, addr 0xf957f4, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0xfc1684, size 0x2a4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Tls::ServerNameList* Parse(::System::IO::Stream* input);
 
-  /// @brief Method CheckNameType, addr 0xf95758, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method CheckNameType, addr 0xfc15e8, size 0x9c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CheckNameType(::ArrayW<uint8_t, ::Array<uint8_t>*> nameTypesSeen, uint8_t nameType);
 
   // Ctor Parameters [CppParam { name: "", ty: "ServerNameList", modifiers: "&&", def_value: None }]

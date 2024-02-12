@@ -51,8 +51,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__MirroredGameNoteController__Pool);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4746)), TypeDefinitionIndex(TypeDefinitionIndex(4756)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4756), inst: 4619
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4755)) CS Name: ::MirroredGameNoteController*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4097)), TypeDefinitionIndex(TypeDefinitionIndex(4107)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4107), inst: 4600
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4106)) CS Name: ::MirroredGameNoteController*
 class CORDL_TYPE MirroredGameNoteController : public ::GlobalNamespace::MirroredNoteController_1<::GlobalNamespace::IGameNoteMirrorable*> {
 public:
   // Declarations
@@ -117,24 +117,24 @@ public:
 
   static inline int32_t getStaticF__colorId();
 
-  /// @brief Method add_cubeNoteControllerDidInitEvent, addr 0x2386238, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_cubeNoteControllerDidInitEvent, addr 0x22cd47c, size 0xb0, virtual true, abstract: false, final true
   inline void add_cubeNoteControllerDidInitEvent(::System::Action_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>>* value);
 
-  /// @brief Method remove_cubeNoteControllerDidInitEvent, addr 0x23862e8, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_cubeNoteControllerDidInitEvent, addr 0x22cd52c, size 0xb0, virtual true, abstract: false, final true
   inline void remove_cubeNoteControllerDidInitEvent(::System::Action_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>>* value);
 
-  /// @brief Method get_noteMovement, addr 0x2386398, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method get_noteMovement, addr 0x22cd5dc, size 0xac, virtual true, abstract: false, final true
   inline ::UnityW<::GlobalNamespace::NoteMovement> get_noteMovement();
 
-  /// @brief Method get_noteVisualModifierType, addr 0x2386444, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method get_noteVisualModifierType, addr 0x22cd688, size 0xa4, virtual true, abstract: false, final true
   inline ::GlobalNamespace::NoteVisualModifierType get_noteVisualModifierType();
 
-  /// @brief Method Mirror, addr 0x23864e8, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method Mirror, addr 0x22cd72c, size 0x150, virtual true, abstract: false, final false
   inline void Mirror(::GlobalNamespace::IGameNoteMirrorable* noteController);
 
   static inline ::GlobalNamespace::MirroredGameNoteController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2386638, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22cd87c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MirroredGameNoteController", modifiers: "&&", def_value: None }]
@@ -176,14 +176,14 @@ static_assert(offsetof(::GlobalNamespace::MirroredGameNoteController, ___cubeNot
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4755)), TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
-// 348 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4754)) CS Name: ::MirroredGameNoteController::Pool*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4106)), TypeDefinitionIndex(TypeDefinitionIndex(10192)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10192), inst:
+// 349 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4105)) CS Name: ::MirroredGameNoteController::Pool*
 class CORDL_TYPE __MirroredGameNoteController__Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MirroredGameNoteController__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23866e8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22cd92c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MirroredGameNoteController__Pool", modifiers: "&&", def_value: None }]

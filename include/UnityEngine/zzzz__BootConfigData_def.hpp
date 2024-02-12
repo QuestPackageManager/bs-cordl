@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::UnityEngine::BootConfigData);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10186))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8930))
 // CS Name: ::UnityEngine::BootConfigData*
 class CORDL_TYPE BootConfigData : public ::System::Object {
 public:
@@ -31,12 +31,12 @@ public:
 
   constexpr void __cordl_internal_set_m_Ptr(void* value);
 
-  /// @brief Method WrapBootConfigData, addr 0x2ccd090, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method WrapBootConfigData, addr 0x2cd411c, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityEngine::BootConfigData* WrapBootConfigData(void* nativeHandle);
 
   static inline ::UnityEngine::BootConfigData* New_ctor(void* nativeHandle);
 
-  /// @brief Method .ctor, addr 0x2ccd0f0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cd417c, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(void* nativeHandle);
 
   // Ctor Parameters [CppParam { name: "", ty: "BootConfigData", modifiers: "&&", def_value: None }]

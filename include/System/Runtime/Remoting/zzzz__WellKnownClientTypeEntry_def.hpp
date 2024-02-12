@@ -59,19 +59,19 @@ public:
 
   static inline ::System::Runtime::Remoting::WellKnownClientTypeEntry* New_ctor(::StringW typeName, ::StringW assemblyName, ::StringW objectUrl);
 
-  /// @brief Method .ctor, addr 0x24958c8, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24b793c, size 0x134, virtual false, abstract: false, final false
   inline void _ctor(::StringW typeName, ::StringW assemblyName, ::StringW objectUrl);
 
-  /// @brief Method get_ApplicationUrl, addr 0x24959fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ApplicationUrl, addr 0x24b7a70, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ApplicationUrl();
 
-  /// @brief Method get_ObjectType, addr 0x2495a04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectType, addr 0x24b7a78, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ObjectType();
 
-  /// @brief Method get_ObjectUrl, addr 0x2495a0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectUrl, addr 0x24b7a80, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ObjectUrl();
 
-  /// @brief Method ToString, addr 0x2495a14, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x24b7a88, size 0x1c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "WellKnownClientTypeEntry", modifiers: "&&", def_value: None }]

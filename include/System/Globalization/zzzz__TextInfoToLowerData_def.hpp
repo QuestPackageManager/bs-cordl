@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::System::Globalization::TextInfoToLowerData);
 namespace System::Globalization {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3719))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3717))
 // CS Name: ::System.Globalization::TextInfoToLowerData*
 class CORDL_TYPE TextInfoToLowerData : public ::System::Object {
 public:

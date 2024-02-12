@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__SafeAreaRectChecker__InitData);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5434))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4737))
 // CS Name: ::SafeAreaRectChecker::InitData*
 class CORDL_TYPE __SafeAreaRectChecker__InitData : public ::System::Object {
 public:
@@ -53,7 +53,7 @@ public:
 
   static inline ::GlobalNamespace::__SafeAreaRectChecker__InitData* New_ctor(bool checkingEnabled);
 
-  /// @brief Method .ctor, addr 0x227c68c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d7f44, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool checkingEnabled);
 
   // Ctor Parameters [CppParam { name: "", ty: "__SafeAreaRectChecker__InitData", modifiers: "&&", def_value: None }]
@@ -85,8 +85,8 @@ static_assert(offsetof(::GlobalNamespace::__SafeAreaRectChecker__InitData, ___ch
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5435))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4738))
 // CS Name: ::SafeAreaRectChecker*
 class CORDL_TYPE SafeAreaRectChecker : public ::UnityEngine::MonoBehaviour {
 public:
@@ -185,15 +185,15 @@ public:
 
   constexpr void __cordl_internal_set__initData(::GlobalNamespace::__SafeAreaRectChecker__InitData* value);
 
-  /// @brief Method Start, addr 0x227c3d8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x23d7c90, size 0x64, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x227c43c, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x23d7cf4, size 0x1ec, virtual false, abstract: false, final false
   inline void Update();
 
   static inline ::GlobalNamespace::SafeAreaRectChecker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x227c628, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d7ee0, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SafeAreaRectChecker", modifiers: "&&", def_value: None }]

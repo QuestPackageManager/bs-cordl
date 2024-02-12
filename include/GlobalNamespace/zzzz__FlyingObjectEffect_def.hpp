@@ -35,8 +35,8 @@ MARK_REF_PTR_T(::GlobalNamespace::FlyingObjectEffect);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4852))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(8996))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4206))
 // CS Name: ::FlyingObjectEffect*
 class CORDL_TYPE FlyingObjectEffect : public ::UnityEngine::MonoBehaviour {
 public:
@@ -161,13 +161,13 @@ public:
 
   constexpr void __cordl_internal_set__didFinishEvent(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::IFlyingObjectEffectDidFinishEvent*>* value);
 
-  /// @brief Method get_didFinishEvent, addr 0x239821c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_didFinishEvent, addr 0x235934c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::IFlyingObjectEffectDidFinishEvent*>* get_didFinishEvent();
 
-  /// @brief Method InitAndPresent, addr 0x2398224, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method InitAndPresent, addr 0x2359354, size 0xe8, virtual false, abstract: false, final false
   inline void InitAndPresent(float_t duration, ::UnityEngine::Vector3 targetPos, ::UnityEngine::Quaternion rotation, bool shake);
 
-  /// @brief Method Update, addr 0x239830c, size 0x3b8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x235943c, size 0x3b8, virtual false, abstract: false, final false
   inline void Update();
 
   /// @brief Method ManualUpdate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -175,7 +175,7 @@ public:
 
   static inline ::GlobalNamespace::FlyingObjectEffect* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23986c4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23597f4, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FlyingObjectEffect", modifiers: "&&", def_value: None }]

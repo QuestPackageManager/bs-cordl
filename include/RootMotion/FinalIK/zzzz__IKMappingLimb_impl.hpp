@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::RootMotion::FinalIK::IKMappingLimb::*)(::RootMotion::FinalIK::IKSolver*, ByRef<::StringW>)>(
     &::RootMotion::FinalIK::IKMappingLimb::IsValid)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x125c3d4;
+  constexpr static std::size_t addrs = 0x12f5484;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::RootMotion::FinalIK::__IKMapping__BoneMap* (
     ::RootMotion::FinalIK::IKMappingLimb::*)(::RootMotion::FinalIK::__IKMappingLimb__BoneMapType)>(&::RootMotion::FinalIK::IKMappingLimb::GetBoneMap)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x125c448;
+  constexpr static std::size_t addrs = 0x12f54f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::IKMappingLimb::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(
     &::RootMotion::FinalIK::IKMappingLimb::SetLimbOrientation)> {
   constexpr static std::size_t size = 0x2b8;
-  constexpr static std::size_t addrs = 0x125c510;
+  constexpr static std::size_t addrs = 0x12f55c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::IKMappingLimb::*)()>(&::RootMotion::FinalIK::IKMappingLimb::_ctor)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x125c7c8;
+  constexpr static std::size_t addrs = 0x12f5878;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKMappingLimb*>::get(), ".ctor",
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::IKMappingLimb::*)(
     ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*)>(&::RootMotion::FinalIK::IKMappingLimb::_ctor)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x125c8e4;
+  constexpr static std::size_t addrs = 0x12f5994;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::IKMappingLimb::*)(
     ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*)>(&::RootMotion::FinalIK::IKMappingLimb::SetBones)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x125ca2c;
+  constexpr static std::size_t addrs = 0x12f5adc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::IKMappingLimb::*)()>(&::RootMotion::FinalIK::IKMappingLimb::StoreDefaultLocalState)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x125ca38;
+  constexpr static std::size_t addrs = 0x12f5ae8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKMappingLimb*>::get(),
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::IKMappingLimb::*)()>(&::RootMotion::FinalIK::IKMappingLimb::FixTransforms)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x125cad0;
+  constexpr static std::size_t addrs = 0x12f5b80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKMappingLimb*>::get(), "FixTransforms",
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::IKMappingLimb::*)(::RootMotion::FinalIK::IKSolverFullBody*)>(
     &::RootMotion::FinalIK::IKMappingLimb::Initiate)> {
   constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x125cb78;
+  constexpr static std::size_t addrs = 0x12f5c28;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -156,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::IKMappingLimb::*)()>(&::RootMotion::FinalIK::IKMappingLimb::ReadPose)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x125cdd4;
+  constexpr static std::size_t addrs = 0x12f5e84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKMappingLimb*>::get(), "ReadPose",
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::IKMappingLimb::*)(::RootMotion::FinalIK::IKSolverFullBody*, bool)>(
     &::RootMotion::FinalIK::IKMappingLimb::WritePose)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x125ce34;
+  constexpr static std::size_t addrs = 0x12f5ee4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

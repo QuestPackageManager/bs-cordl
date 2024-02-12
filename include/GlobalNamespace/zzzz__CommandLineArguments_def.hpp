@@ -17,18 +17,18 @@ MARK_REF_PTR_T(::GlobalNamespace::CommandLineArguments);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15823))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15210))
 // CS Name: ::CommandLineArguments*
 class CORDL_TYPE CommandLineArguments : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetCommandLineArgs, addr 0xe25354, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetCommandLineArgs, addr 0xe46c40, size 0x3c, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> GetCommandLineArgs();
 
-  /// @brief Method Contains, addr 0xe25390, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0xe46c7c, size 0x84, virtual false, abstract: false, final false
   static inline bool Contains(::StringW argument);
 
-  /// @brief Method GetParameter, addr 0xe25414, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetParameter, addr 0xe46d00, size 0xa0, virtual false, abstract: false, final false
   static inline ::StringW GetParameter(::StringW argument);
 
   // Ctor Parameters [CppParam { name: "", ty: "CommandLineArguments", modifiers: "&&", def_value: None }]

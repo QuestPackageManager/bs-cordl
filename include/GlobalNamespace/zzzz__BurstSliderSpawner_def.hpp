@@ -50,24 +50,24 @@ MARK_REF_PTR_T(::GlobalNamespace::__BurstSliderSpawner__ProcessNoteDataDelegate)
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4727))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4078))
 // CS Name: ::BurstSliderSpawner::ProcessNoteDataDelegate*
 class CORDL_TYPE __BurstSliderSpawner__ProcessNoteDataDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::GlobalNamespace::__BurstSliderSpawner__ProcessNoteDataDelegate* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2379264, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22c7870, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x2380f00, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x22c79a0, size 0x18, virtual true, abstract: false, final false
   inline void Invoke(::GlobalNamespace::NoteData* noteData, ByRef<::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData> noteSpawnData, float_t rotation, bool forceIsFirstNote);
 
-  /// @brief Method BeginInvoke, addr 0x2380f18, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x22c79b8, size 0xf8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::GlobalNamespace::NoteData* noteData, ByRef<::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData> noteSpawnData, float_t rotation,
                                              bool forceIsFirstNote, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2381010, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x22c7ab0, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(ByRef<::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData> noteSpawnData, ::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__BurstSliderSpawner__ProcessNoteDataDelegate", modifiers: "&&", def_value: None }]
@@ -95,17 +95,17 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BurstSliderSp
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4728))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4079))
 // CS Name: ::BurstSliderSpawner*
 class CORDL_TYPE BurstSliderSpawner : public ::System::Object {
 public:
   // Declarations
   using ProcessNoteDataDelegate = ::GlobalNamespace::__BurstSliderSpawner__ProcessNoteDataDelegate;
 
-  /// @brief Method BezierCurve, addr 0x2380e88, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method BezierCurve, addr 0x22c7400, size 0x78, virtual false, abstract: false, final false
   static inline void BezierCurve(::UnityEngine::Vector2 p0, ::UnityEngine::Vector2 p1, ::UnityEngine::Vector2 p2, float_t t, ByRef<::UnityEngine::Vector2> pos, ByRef<::UnityEngine::Vector2> tangent);
 
-  /// @brief Method ProcessSliderData, addr 0x2379394, size 0x3f8, virtual false, abstract: false, final false
+  /// @brief Method ProcessSliderData, addr 0x22c7478, size 0x3f8, virtual false, abstract: false, final false
   static inline void ProcessSliderData(::GlobalNamespace::SliderData* sliderData, ByRef<::GlobalNamespace::__BeatmapObjectSpawnMovementData__SliderSpawnData> sliderSpawnData, float_t rotation,
                                        bool forceIsFirstNote, ::GlobalNamespace::__BurstSliderSpawner__ProcessNoteDataDelegate* processNoteData);
 

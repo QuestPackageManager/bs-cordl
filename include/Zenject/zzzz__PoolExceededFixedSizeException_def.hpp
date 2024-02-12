@@ -16,14 +16,14 @@ MARK_REF_PTR_T(::Zenject::PoolExceededFixedSizeException);
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2561))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11047))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10189))
 // CS Name: ::Zenject::PoolExceededFixedSizeException*
 class CORDL_TYPE PoolExceededFixedSizeException : public ::System::Exception {
 public:
   // Declarations
   static inline ::Zenject::PoolExceededFixedSizeException* New_ctor(::StringW errorMessage);
 
-  /// @brief Method .ctor, addr 0x2ee8724, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f0486c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW errorMessage);
 
   // Ctor Parameters [CppParam { name: "", ty: "PoolExceededFixedSizeException", modifiers: "&&", def_value: None }]

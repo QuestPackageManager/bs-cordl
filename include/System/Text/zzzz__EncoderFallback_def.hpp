@@ -40,10 +40,10 @@ public:
 
   static inline ::System::Text::EncoderFallback* getStaticF_s_exceptionFallback();
 
-  /// @brief Method get_ReplacementFallback, addr 0x262df10, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_ReplacementFallback, addr 0x2654034, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::Text::EncoderFallback* get_ReplacementFallback();
 
-  /// @brief Method get_ExceptionFallback, addr 0x26340fc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_ExceptionFallback, addr 0x265a220, size 0xa0, virtual false, abstract: false, final false
   static inline ::System::Text::EncoderFallback* get_ExceptionFallback();
 
   /// @brief Method CreateFallbackBuffer, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -54,7 +54,7 @@ public:
 
   static inline ::System::Text::EncoderFallback* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26333d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26594fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EncoderFallback", modifiers: "&&", def_value: None }]

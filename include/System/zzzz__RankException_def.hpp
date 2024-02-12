@@ -29,17 +29,17 @@ public:
   // Declarations
   static inline ::System::RankException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25c0254, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25e216c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::RankException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x25c02ac, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25e21c4, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::System::RankException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x25c02cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25e21e4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "RankException", modifiers: "&&", def_value: None }]

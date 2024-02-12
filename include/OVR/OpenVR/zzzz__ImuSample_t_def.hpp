@@ -20,8 +20,8 @@ MARK_VAL_T(::OVR::OpenVR::ImuSample_t);
 // SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8649))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8702))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8593))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8646))
 // CS Name: ::OVR.OpenVR::ImuSample_t
 struct CORDL_TYPE ImuSample_t {
 public:

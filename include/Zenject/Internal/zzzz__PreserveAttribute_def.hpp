@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::Zenject::Internal::PreserveAttribute);
 namespace Zenject::Internal {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15707))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15857))
 // CS Name: ::Zenject.Internal::PreserveAttribute*
 class CORDL_TYPE PreserveAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::Zenject::Internal::PreserveAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2eb97a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ed58f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PreserveAttribute", modifiers: "&&", def_value: None }]

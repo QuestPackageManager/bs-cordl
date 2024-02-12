@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::GlobalNamespace::Vector4SO);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10246)), TypeDefinitionIndex(TypeDefinitionIndex(15857))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15875))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8990)), TypeDefinitionIndex(TypeDefinitionIndex(15602))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15628))
 // CS Name: ::Vector4SO*
 class CORDL_TYPE Vector4SO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -35,12 +35,12 @@ public:
 
   constexpr void __cordl_internal_set__value(::UnityEngine::Vector4 value);
 
-  /// @brief Method get_value, addr 0xe28b68, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0xe52e14, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 get_value();
 
   static inline ::GlobalNamespace::Vector4SO* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe28b74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe52e20, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Vector4SO", modifiers: "&&", def_value: None }]

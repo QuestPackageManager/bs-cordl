@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::VRUIControls::MouseState);
 namespace VRUIControls {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15670))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15828))
 // CS Name: ::VRUIControls::MouseState*
 class CORDL_TYPE MouseState : public ::System::Object {
 public:
@@ -44,22 +44,22 @@ public:
 
   constexpr void __cordl_internal_set__trackedButtons(::System::Collections::Generic::List_1<::VRUIControls::ButtonState*>* value);
 
-  /// @brief Method AnyPressesThisFrame, addr 0x2eb41d4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method AnyPressesThisFrame, addr 0x2ed0318, size 0xa4, virtual false, abstract: false, final false
   inline bool AnyPressesThisFrame();
 
-  /// @brief Method AnyReleasesThisFrame, addr 0x2eb4278, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method AnyReleasesThisFrame, addr 0x2ed03bc, size 0xa8, virtual false, abstract: false, final false
   inline bool AnyReleasesThisFrame();
 
-  /// @brief Method GetButtonState, addr 0x2eb4320, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method GetButtonState, addr 0x2ed0464, size 0x19c, virtual false, abstract: false, final false
   inline ::VRUIControls::ButtonState* GetButtonState(::UnityEngine::EventSystems::__PointerEventData__InputButton button);
 
-  /// @brief Method SetButtonState, addr 0x2eb44bc, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method SetButtonState, addr 0x2ed0600, size 0x38, virtual false, abstract: false, final false
   inline void SetButtonState(::UnityEngine::EventSystems::__PointerEventData__InputButton button, ::UnityEngine::EventSystems::__PointerEventData__FramePressState stateForMouseButton,
                              ::UnityEngine::EventSystems::PointerEventData* data);
 
   static inline ::VRUIControls::MouseState* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2eb44f4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ed0638, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MouseState", modifiers: "&&", def_value: None }]

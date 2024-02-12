@@ -21,17 +21,17 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRKtxTexture);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7626))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7693))
 // CS Name: ::OVRKtxTexture*
 class CORDL_TYPE OVRKtxTexture : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Load, addr 0x2738e04, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x275de98, size 0x250, virtual false, abstract: false, final false
   static inline bool Load(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ByRef<::GlobalNamespace::OVRTextureData> ktxData);
 
   static inline ::GlobalNamespace::OVRKtxTexture* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2739054, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x275e0e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRKtxTexture", modifiers: "&&", def_value: None }]
@@ -49,10 +49,10 @@ protected:
 
 public:
   /// @brief Field KTX_TTF_BC7_RGBA offset 0xffffffff size 0x4
-  static constexpr uint32_t KTX_TTF_BC7_RGBA{ static_cast<uint32_t>(0x400a06u) };
+  static constexpr uint32_t KTX_TTF_BC7_RGBA{ static_cast<uint32_t>(0x2000a06u) };
 
   /// @brief Field KTX_TTF_ASTC_4x4_RGBA offset 0xffffffff size 0x4
-  static constexpr uint32_t KTX_TTF_ASTC_4x4_RGBA{ static_cast<uint32_t>(0x200400au) };
+  static constexpr uint32_t KTX_TTF_ASTC_4x4_RGBA{ static_cast<uint32_t>(0x402000au) };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

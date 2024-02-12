@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::UnityEngine::UI::BaseVertexEffect);
 namespace UnityEngine::UI {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13142))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13040))
 // CS Name: ::UnityEngine.UI::BaseVertexEffect*
 class CORDL_TYPE BaseVertexEffect : public ::System::Object {
 public:
@@ -31,7 +31,7 @@ public:
 
   static inline ::UnityEngine::UI::BaseVertexEffect* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d90518, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dad900, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BaseVertexEffect", modifiers: "&&", def_value: None }]

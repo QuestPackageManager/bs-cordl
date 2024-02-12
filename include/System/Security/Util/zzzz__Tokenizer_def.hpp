@@ -189,21 +189,21 @@ public:
 
   constexpr void __cordl_internal_set__outIndex(int32_t value);
 
-  /// @brief Method HashString, addr 0x24562c8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method HashString, addr 0x247712c, size 0x6c, virtual false, abstract: false, final false
   static inline uint32_t HashString(::StringW str);
 
-  /// @brief Method HashCharArray, addr 0x2456334, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method HashCharArray, addr 0x2477198, size 0x5c, virtual false, abstract: false, final false
   static inline uint32_t HashCharArray(::ArrayW<char16_t, ::Array<char16_t>*> a, int32_t l);
 
   static inline ::System::Security::Util::__Tokenizer__StringMaker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2456390, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24771f4, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CompareStringAndChars, addr 0x2456424, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method CompareStringAndChars, addr 0x2477288, size 0x94, virtual false, abstract: false, final false
   inline bool CompareStringAndChars(::StringW str, ::ArrayW<char16_t, ::Array<char16_t>*> a, int32_t l);
 
-  /// @brief Method MakeString, addr 0x2450998, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method MakeString, addr 0x24717fc, size 0x26c, virtual false, abstract: false, final false
   inline ::StringW MakeString();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Tokenizer__StringMaker", modifiers: "&&", def_value: None }]
@@ -319,13 +319,13 @@ public:
 
   static inline ::System::Security::Util::__Tokenizer__StreamTokenReader* New_ctor(::System::IO::StreamReader* input);
 
-  /// @brief Method .ctor, addr 0x24560ac, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2476f10, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::StreamReader* input);
 
-  /// @brief Method Read, addr 0x24564b8, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x247731c, size 0x3c, virtual true, abstract: false, final false
   inline int32_t Read();
 
-  /// @brief Method get_NumCharEncountered, addr 0x24564f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NumCharEncountered, addr 0x2477358, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_NumCharEncountered();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Tokenizer__StreamTokenReader", modifiers: "&&", def_value: None }]
@@ -520,24 +520,24 @@ public:
 
   constexpr void __cordl_internal_set__inNestedString(::StringW value);
 
-  /// @brief Method BasicInitialization, addr 0x2455fd8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method BasicInitialization, addr 0x2476e3c, size 0x78, virtual false, abstract: false, final false
   inline void BasicInitialization();
 
-  /// @brief Method Recycle, addr 0x2456050, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Recycle, addr 0x2476eb4, size 0x5c, virtual false, abstract: false, final false
   inline void Recycle();
 
   static inline ::System::Security::Util::Tokenizer* New_ctor(::StringW input);
 
-  /// @brief Method .ctor, addr 0x2455f90, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2476df4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::StringW input);
 
-  /// @brief Method ChangeFormat, addr 0x245581c, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method ChangeFormat, addr 0x2476680, size 0x224, virtual false, abstract: false, final false
   inline void ChangeFormat(::System::Text::Encoding* encoding);
 
-  /// @brief Method GetTokens, addr 0x2454fdc, size 0x7e0, virtual false, abstract: false, final false
+  /// @brief Method GetTokens, addr 0x2475e40, size 0x7e0, virtual false, abstract: false, final false
   inline void GetTokens(::System::Security::Util::TokenizerStream* stream, int32_t maxNum, bool endAfterKet);
 
-  /// @brief Method GetStringToken, addr 0x24561c0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetStringToken, addr 0x2477024, size 0x18, virtual false, abstract: false, final false
   inline ::StringW GetStringToken();
 
   // Ctor Parameters [CppParam { name: "", ty: "Tokenizer", modifiers: "&&", def_value: None }]

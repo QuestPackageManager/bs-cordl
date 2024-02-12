@@ -41,8 +41,8 @@ MARK_REF_PTR_T(::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12978)), TypeDefinitionIndex(TypeDefinitionIndex(12988))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12979))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12876)), TypeDefinitionIndex(TypeDefinitionIndex(12886))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12877))
 // CS Name: ::StandardScoreSyncStateDeltaNetSerializable*
 class CORDL_TYPE StandardScoreSyncStateDeltaNetSerializable : public ::System::Object {
 public:
@@ -99,39 +99,39 @@ public:
 
   constexpr void __cordl_internal_set__timeOffsetMs_k__BackingField(int32_t value);
 
-  /// @brief Method get_pool, addr 0xe5a870, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_pool, addr 0xe856a8, size 0x40, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::IPacketPool_1<::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable*>* get_pool();
 
-  /// @brief Method get_baseId, addr 0xe5a8b0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_baseId, addr 0xe856e8, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::SyncStateId get_baseId();
 
-  /// @brief Method set_baseId, addr 0xe5a8b8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_baseId, addr 0xe856f0, size 0x8, virtual true, abstract: false, final true
   inline void set_baseId(::GlobalNamespace::SyncStateId value);
 
-  /// @brief Method get_timeOffsetMs, addr 0xe5a8c0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_timeOffsetMs, addr 0xe856f8, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_timeOffsetMs();
 
-  /// @brief Method set_timeOffsetMs, addr 0xe5a8c8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_timeOffsetMs, addr 0xe85700, size 0x8, virtual true, abstract: false, final true
   inline void set_timeOffsetMs(int32_t value);
 
-  /// @brief Method get_delta, addr 0xe5a8d0, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method get_delta, addr 0xe85708, size 0x14, virtual true, abstract: false, final true
   inline ::GlobalNamespace::StandardScoreSyncState get_delta();
 
-  /// @brief Method set_delta, addr 0xe5a8e4, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method set_delta, addr 0xe8571c, size 0x14, virtual true, abstract: false, final true
   inline void set_delta(::GlobalNamespace::StandardScoreSyncState value);
 
-  /// @brief Method Serialize, addr 0xe5a8f8, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0xe85730, size 0xb0, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method Deserialize, addr 0xe5a9a8, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0xe857e0, size 0x60, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Release, addr 0xe5aa08, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method Release, addr 0xe85840, size 0xac, virtual true, abstract: false, final true
   inline void Release();
 
   static inline ::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe5aab4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe858ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "StandardScoreSyncStateDeltaNetSerializable", modifiers: "&&", def_value: None }]

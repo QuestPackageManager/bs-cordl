@@ -46,9 +46,9 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::CleanBundleCacheOperation);
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 201, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3835)), TypeDefinitionIndex(TypeDefinitionIndex(14032)), TypeDefinitionIndex(TypeDefinitionIndex(14033)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14034)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3835), inst: 275 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(14032), inst: 105 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 792 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14093)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3834)), TypeDefinitionIndex(TypeDefinitionIndex(14045)), TypeDefinitionIndex(TypeDefinitionIndex(14046)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14047)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3834), inst: 273 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(14045), inst: 77 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14046), inst: 793 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14106)) CS Name:
 // ::UnityEngine.AddressableAssets::CleanBundleCacheOperation*
 class CORDL_TYPE CleanBundleCacheOperation : public ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<bool> {
 public:
@@ -122,42 +122,42 @@ public:
 
   static inline ::UnityEngine::AddressableAssets::CleanBundleCacheOperation* New_ctor(::UnityEngine::AddressableAssets::AddressablesImpl* aa, bool forceSingleThreading);
 
-  /// @brief Method .ctor, addr 0x2a22848, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a253b4, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::AddressableAssets::AddressablesImpl* aa, bool forceSingleThreading);
 
-  /// @brief Method Start, addr 0x2a228cc, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2a25438, size 0x10c, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>
   Start(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>
             depOp);
 
-  /// @brief Method CompleteInternal, addr 0x2a251fc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method CompleteInternal, addr 0x2a27d68, size 0x90, virtual false, abstract: false, final false
   inline void CompleteInternal(bool result, bool success, ::StringW errorMsg);
 
-  /// @brief Method InvokeWaitForCompletion, addr 0x2a2528c, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method InvokeWaitForCompletion, addr 0x2a27df8, size 0xd0, virtual true, abstract: false, final false
   inline bool InvokeWaitForCompletion();
 
-  /// @brief Method Destroy, addr 0x2a254f0, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Destroy, addr 0x2a2805c, size 0x7c, virtual true, abstract: false, final false
   inline void Destroy();
 
-  /// @brief Method GetDependencies, addr 0x2a2556c, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method GetDependencies, addr 0x2a280d8, size 0x124, virtual true, abstract: false, final false
   inline void GetDependencies(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* dependencies);
 
-  /// @brief Method Execute, addr 0x2a25690, size 0x1c0, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x2a281fc, size 0x1c0, virtual true, abstract: false, final false
   inline void Execute();
 
-  /// @brief Method UnityEngine.ResourceManagement.IUpdateReceiver.Update, addr 0x2a26580, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ResourceManagement.IUpdateReceiver.Update, addr 0x2a290ec, size 0x40, virtual true, abstract: false, final true
   inline void UnityEngine_ResourceManagement_IUpdateReceiver_Update(float_t unscaledDeltaTime);
 
-  /// @brief Method RemoveCacheEntries, addr 0x2a2535c, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method RemoveCacheEntries, addr 0x2a27ec8, size 0x194, virtual false, abstract: false, final false
   inline void RemoveCacheEntries();
 
-  /// @brief Method DetermineCacheDirsNotInUse, addr 0x2a265c0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method DetermineCacheDirsNotInUse, addr 0x2a2912c, size 0x84, virtual false, abstract: false, final false
   inline void DetermineCacheDirsNotInUse(::System::Object* data);
 
-  /// @brief Method DetermineCacheDirsNotInUse, addr 0x2a26180, size 0x400, virtual false, abstract: false, final false
+  /// @brief Method DetermineCacheDirsNotInUse, addr 0x2a28cec, size 0x400, virtual false, abstract: false, final false
   inline void DetermineCacheDirsNotInUse(::System::Collections::Generic::HashSet_1<::StringW>* cacheDirsInUse);
 
-  /// @brief Method GetCacheDirsInUse, addr 0x2a25850, size 0x930, virtual false, abstract: false, final false
+  /// @brief Method GetCacheDirsInUse, addr 0x2a283bc, size 0x930, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::HashSet_1<::StringW>*
   GetCacheDirsInUse(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* catalogOps);
 

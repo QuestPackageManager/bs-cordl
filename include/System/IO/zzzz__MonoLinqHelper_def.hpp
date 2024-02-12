@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::System::IO::MonoLinqHelper);
 namespace System::IO {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3640))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3638))
 // CS Name: ::System.IO::MonoLinqHelper*
 class CORDL_TYPE MonoLinqHelper : public ::System::Object {
 public:

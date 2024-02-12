@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::UnityEngine::Events::InvokableCallList);
 namespace UnityEngine::Events {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10460))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9229))
 // CS Name: ::UnityEngine.Events::InvokableCallList*
 class CORDL_TYPE InvokableCallList : public ::System::Object {
 public:
@@ -71,27 +71,27 @@ public:
 
   constexpr void __cordl_internal_set_m_NeedsUpdate(bool value);
 
-  /// @brief Method AddPersistentInvokableCall, addr 0x2cf95b4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method AddPersistentInvokableCall, addr 0x2d04290, size 0xac, virtual false, abstract: false, final false
   inline void AddPersistentInvokableCall(::UnityEngine::Events::BaseInvokableCall* call);
 
-  /// @brief Method AddListener, addr 0x2cf9660, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method AddListener, addr 0x2d0433c, size 0xac, virtual false, abstract: false, final false
   inline void AddListener(::UnityEngine::Events::BaseInvokableCall* call);
 
-  /// @brief Method RemoveListener, addr 0x2cf970c, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method RemoveListener, addr 0x2d043e8, size 0x274, virtual false, abstract: false, final false
   inline void RemoveListener(::System::Object* targetObj, ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method Clear, addr 0x2cf9980, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x2d0465c, size 0xb8, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method ClearPersistent, addr 0x2cf9a38, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method ClearPersistent, addr 0x2d04714, size 0xb8, virtual false, abstract: false, final false
   inline void ClearPersistent();
 
-  /// @brief Method PrepareInvoke, addr 0x2cf9af0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method PrepareInvoke, addr 0x2d047cc, size 0xb4, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>* PrepareInvoke();
 
   static inline ::UnityEngine::Events::InvokableCallList* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2cf9ba4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d04880, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "InvokableCallList", modifiers: "&&", def_value: None }]

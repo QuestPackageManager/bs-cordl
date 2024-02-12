@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::GlobalNamespace::SpawnRotationBeatmapEventData);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14738))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15122))
 // CS Name: ::SpawnRotationBeatmapEventData::SpawnRotationEventType
 struct CORDL_TYPE __SpawnRotationBeatmapEventData__SpawnRotationEventType {
 public:
@@ -81,8 +81,8 @@ static_assert(offsetof(::GlobalNamespace::__SpawnRotationBeatmapEventData__Spawn
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14727)), TypeDefinitionIndex(TypeDefinitionIndex(14738))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14739))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15111)), TypeDefinitionIndex(TypeDefinitionIndex(15122))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15123))
 // CS Name: ::SpawnRotationBeatmapEventData*
 class CORDL_TYPE SpawnRotationBeatmapEventData : public ::GlobalNamespace::BeatmapEventData {
 public:
@@ -128,34 +128,34 @@ public:
 
   static inline ::GlobalNamespace::BeatmapEventData* getStaticF__defaultCopy();
 
-  /// @brief Method get_subtypeGroupIdentifier, addr 0xdff254, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_subtypeGroupIdentifier, addr 0xe0f748, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_subtypeGroupIdentifier();
 
-  /// @brief Method get_rotation, addr 0xdff25c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotation, addr 0xe0f750, size 0x8, virtual false, abstract: false, final false
   inline float_t get_rotation();
 
-  /// @brief Method set_rotation, addr 0xdff264, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rotation, addr 0xe0f758, size 0x8, virtual false, abstract: false, final false
   inline void set_rotation(float_t value);
 
   static inline ::GlobalNamespace::SpawnRotationBeatmapEventData* New_ctor(float_t time, ::GlobalNamespace::__SpawnRotationBeatmapEventData__SpawnRotationEventType spawnRotationEventType,
                                                                            float_t deltaRotation);
 
-  /// @brief Method .ctor, addr 0xdff26c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe0f760, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(float_t time, ::GlobalNamespace::__SpawnRotationBeatmapEventData__SpawnRotationEventType spawnRotationEventType, float_t deltaRotation);
 
-  /// @brief Method Mirror, addr 0xdff2c4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Mirror, addr 0xe0f7b8, size 0x1c, virtual false, abstract: false, final false
   inline void Mirror();
 
-  /// @brief Method GetCopy, addr 0xdff2e0, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method GetCopy, addr 0xe0f7d4, size 0xa0, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDataItem* GetCopy();
 
-  /// @brief Method RecalculateRotationFromPreviousEvent, addr 0xdff380, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method RecalculateRotationFromPreviousEvent, addr 0xe0f874, size 0x24, virtual false, abstract: false, final false
   inline void RecalculateRotationFromPreviousEvent(::GlobalNamespace::SpawnRotationBeatmapEventData* previousSpawnRotationBeatmapEventData);
 
-  /// @brief Method SetFirstRotationEventRotation, addr 0xdff3a4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetFirstRotationEventRotation, addr 0xe0f898, size 0xc, virtual false, abstract: false, final false
   inline void SetFirstRotationEventRotation();
 
-  /// @brief Method GetDefault, addr 0xdff3b0, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method GetDefault, addr 0xe0f8a4, size 0x58, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventData* GetDefault();
 
   // Ctor Parameters [CppParam { name: "", ty: "SpawnRotationBeatmapEventData", modifiers: "&&", def_value: None }]

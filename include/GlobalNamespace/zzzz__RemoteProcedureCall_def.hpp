@@ -40,7 +40,7 @@ namespace GlobalNamespace {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12935))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12833))
 // CS Name: ::RemoteProcedureCall::TypeWrapper`1<T>*
 class CORDL_TYPE __RemoteProcedureCall__TypeWrapper_1 : public ::System::Object {
 public:
@@ -110,7 +110,7 @@ public:
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12936))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12834))
 // CS Name: ::RemoteProcedureCall*
 class CORDL_TYPE RemoteProcedureCall : public ::System::Object {
 public:
@@ -146,33 +146,33 @@ public:
 
   constexpr void __cordl_internal_set__syncTime_k__BackingField(int64_t value);
 
-  /// @brief Method get_syncTime, addr 0xe543f4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_syncTime, addr 0xe7f22c, size 0x8, virtual true, abstract: false, final true
   inline int64_t get_syncTime();
 
-  /// @brief Method set_syncTime, addr 0xe543fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_syncTime, addr 0xe7f234, size 0x8, virtual false, abstract: false, final false
   inline void set_syncTime(int64_t value);
 
-  /// @brief Method SerializeData, addr 0xe54404, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SerializeData, addr 0xe7f23c, size 0x4, virtual true, abstract: false, final false
   inline void SerializeData(::LiteNetLib::Utils::NetDataWriter* writer, uint32_t protocolVersion);
 
-  /// @brief Method DeserializeData, addr 0xe54408, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method DeserializeData, addr 0xe7f240, size 0x4, virtual true, abstract: false, final false
   inline void DeserializeData(::LiteNetLib::Utils::NetDataReader* reader, uint32_t protocolVersion);
 
-  /// @brief Method LiteNetLib.Utils.INetSerializable.Serialize, addr 0xe5440c, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method LiteNetLib.Utils.INetSerializable.Serialize, addr 0xe7f244, size 0x44, virtual true, abstract: false, final true
   inline void LiteNetLib_Utils_INetSerializable_Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method LiteNetLib.Utils.INetSerializable.Deserialize, addr 0xe54450, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method LiteNetLib.Utils.INetSerializable.Deserialize, addr 0xe7f288, size 0x40, virtual true, abstract: false, final true
   inline void LiteNetLib_Utils_INetSerializable_Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Release, addr 0xe54490, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Release, addr 0xe7f2c8, size 0x4, virtual true, abstract: false, final false
   inline void Release();
 
-  /// @brief Method Init, addr 0xe54590, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0xe7f3c8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IRemoteProcedureCall* Init(int64_t syncTime);
 
   static inline ::GlobalNamespace::RemoteProcedureCall* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe49244, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe7407c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RemoteProcedureCall", modifiers: "&&", def_value: None }]

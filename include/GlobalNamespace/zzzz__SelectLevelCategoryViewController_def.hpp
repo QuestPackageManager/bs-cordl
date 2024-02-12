@@ -70,7 +70,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__SelectLevelCategoryViewController____c__Disp
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5674))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4976))
 // CS Name: ::SelectLevelCategoryViewController::LevelCategory
 struct CORDL_TYPE __SelectLevelCategoryViewController__LevelCategory {
 public:
@@ -131,8 +131,8 @@ static_assert(offsetof(::GlobalNamespace::__SelectLevelCategoryViewController__L
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5674))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5675))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4976))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4977))
 // CS Name: ::SelectLevelCategoryViewController::LevelCategoryInfo*
 class CORDL_TYPE __SelectLevelCategoryViewController__LevelCategoryInfo : public ::System::Object {
 public:
@@ -166,7 +166,7 @@ public:
 
   static inline ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22c38c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22f33e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__SelectLevelCategoryViewController__LevelCategoryInfo", modifiers: "&&", def_value: None }]
@@ -209,7 +209,7 @@ static_assert(offsetof(::GlobalNamespace::__SelectLevelCategoryViewController__L
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5676))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4978))
 // CS Name: ::SelectLevelCategoryViewController::<>c__DisplayClass12_0*
 class CORDL_TYPE __SelectLevelCategoryViewController____c__DisplayClass12_0 : public ::System::Object {
 public:
@@ -230,10 +230,10 @@ public:
 
   static inline ::GlobalNamespace::__SelectLevelCategoryViewController____c__DisplayClass12_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22c355c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22f307c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Setup>b__0, addr 0x22c38d0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Setup>b__0, addr 0x22f33f0, size 0x58, virtual false, abstract: false, final false
   inline bool _Setup_b__0(::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo* data);
 
   // Ctor Parameters [CppParam { name: "", ty: "__SelectLevelCategoryViewController____c__DisplayClass12_0", modifiers: "&&", def_value: None }]
@@ -266,7 +266,7 @@ static_assert(offsetof(::GlobalNamespace::__SelectLevelCategoryViewController___
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5677))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4979))
 // CS Name: ::SelectLevelCategoryViewController::<>c*
 class CORDL_TYPE __SelectLevelCategoryViewController____c : public ::System::Object {
 public:
@@ -299,13 +299,13 @@ public:
 
   static inline ::GlobalNamespace::__SelectLevelCategoryViewController____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22c398c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22f34ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Setup>b__12_1, addr 0x22c3994, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method <Setup>b__12_1, addr 0x22f34b4, size 0x80, virtual false, abstract: false, final false
   inline ::HMUI::__IconSegmentedControl__DataItem* _Setup_b__12_1(::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo* x);
 
-  /// @brief Method <Setup>b__12_2, addr 0x22c3a14, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <Setup>b__12_2, addr 0x22f3534, size 0x18, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory _Setup_b__12_2(::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo* x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__SelectLevelCategoryViewController____c", modifiers: "&&", def_value: None }]
@@ -332,8 +332,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SelectLevelCa
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5674)), TypeDefinitionIndex(TypeDefinitionIndex(13605))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5678))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4976)), TypeDefinitionIndex(TypeDefinitionIndex(13558))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4980))
 // CS Name: ::SelectLevelCategoryViewController*
 class CORDL_TYPE SelectLevelCategoryViewController : public ::HMUI::ViewController {
 public:
@@ -420,34 +420,34 @@ public:
   constexpr void __cordl_internal_set__levelCategoryInfos(
       ::ArrayW<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo*, ::Array<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo*>*> value);
 
-  /// @brief Method add_didSelectLevelCategoryEvent, addr 0x22bdf68, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didSelectLevelCategoryEvent, addr 0x22f2c04, size 0xb0, virtual false, abstract: false, final false
   inline void
   add_didSelectLevelCategoryEvent(::System::Action_2<::UnityW<::GlobalNamespace::SelectLevelCategoryViewController>, ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory>* value);
 
-  /// @brief Method remove_didSelectLevelCategoryEvent, addr 0x22be674, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSelectLevelCategoryEvent, addr 0x22f2cb4, size 0xb0, virtual false, abstract: false, final false
   inline void
   remove_didSelectLevelCategoryEvent(::System::Action_2<::UnityW<::GlobalNamespace::SelectLevelCategoryViewController>, ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory>* value);
 
-  /// @brief Method get_selectedLevelCategory, addr 0x22bd268, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_selectedLevelCategory, addr 0x22ef298, size 0x58, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory get_selectedLevelCategory();
 
-  /// @brief Method Setup, addr 0x22bd868, size 0x318, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x22f2d64, size 0x318, virtual false, abstract: false, final false
   inline void
   Setup(::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory selectedCategory,
         ::ArrayW<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory, ::Array<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory>*> enabledLevelCategories);
 
-  /// @brief Method DidActivate, addr 0x22c3564, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x22f3084, size 0xa0, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x22c3604, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x22f3124, size 0xa0, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method LevelFilterCategoryIconSegmentedControlDidSelectCell, addr 0x22c36a4, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method LevelFilterCategoryIconSegmentedControlDidSelectCell, addr 0x22f31c4, size 0x21c, virtual false, abstract: false, final false
   inline void LevelFilterCategoryIconSegmentedControlDidSelectCell(::HMUI::SegmentedControl* segmentedControl, int32_t index);
 
   static inline ::GlobalNamespace::SelectLevelCategoryViewController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22c38c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22f33e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SelectLevelCategoryViewController", modifiers: "&&", def_value: None }]

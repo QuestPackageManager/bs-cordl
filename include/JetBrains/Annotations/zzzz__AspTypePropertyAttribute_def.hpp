@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::JetBrains::Annotations::AspTypePropertyAttribute);
 namespace JetBrains::Annotations {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15800))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15950))
 // CS Name: ::JetBrains.Annotations::AspTypePropertyAttribute*
 class CORDL_TYPE AspTypePropertyAttribute : public ::System::Attribute {
 public:
@@ -32,15 +32,15 @@ public:
 
   constexpr void __cordl_internal_set__CreateConstructorReferences_k__BackingField(bool value);
 
-  /// @brief Method get_CreateConstructorReferences, addr 0x2eba828, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CreateConstructorReferences, addr 0x2ed6970, size 0x8, virtual false, abstract: false, final false
   inline bool get_CreateConstructorReferences();
 
-  /// @brief Method set_CreateConstructorReferences, addr 0x2eba830, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_CreateConstructorReferences, addr 0x2ed6978, size 0xc, virtual false, abstract: false, final false
   inline void set_CreateConstructorReferences(bool value);
 
   static inline ::JetBrains::Annotations::AspTypePropertyAttribute* New_ctor(bool createConstructorReferences);
 
-  /// @brief Method .ctor, addr 0x2eba83c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ed6984, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(bool createConstructorReferences);
 
   // Ctor Parameters [CppParam { name: "", ty: "AspTypePropertyAttribute", modifiers: "&&", def_value: None }]

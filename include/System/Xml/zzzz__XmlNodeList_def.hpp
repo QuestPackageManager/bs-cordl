@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::System::Xml::XmlNodeList);
 namespace System::Xml {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11523))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11421))
 // CS Name: ::System.Xml::XmlNodeList*
 class CORDL_TYPE XmlNodeList : public ::System::Object {
 public:
@@ -50,15 +50,15 @@ public:
   /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x2891968, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x2894fd0, size 0xc, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method PrivateDisposeNodeList, addr 0x2891974, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method PrivateDisposeNodeList, addr 0x2894fdc, size 0x4, virtual true, abstract: false, final false
   inline void PrivateDisposeNodeList();
 
   static inline ::System::Xml::XmlNodeList* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2891978, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2894fe0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlNodeList", modifiers: "&&", def_value: None }]

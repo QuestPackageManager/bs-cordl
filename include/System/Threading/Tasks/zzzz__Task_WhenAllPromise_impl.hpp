@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::Tasks::__Task__WhenAllPromise::*)(
     ::ArrayW<::System::Threading::Tasks::Task*, ::Array<::System::Threading::Tasks::Task*>*>)>(&::System::Threading::Tasks::__Task__WhenAllPromise::_ctor)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x2629d14;
+  constexpr static std::size_t addrs = 0x264fe38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::Tasks::__Task__WhenAllPromise::*)(::System::Threading::Tasks::Task*)>(
     &::System::Threading::Tasks::__Task__WhenAllPromise::Invoke)> {
   constexpr static std::size_t size = 0x2c8;
-  constexpr static std::size_t addrs = 0x262ade8;
+  constexpr static std::size_t addrs = 0x2650f0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::Tasks::__Task__WhenAllPromise::*)()>(
     &::System::Threading::Tasks::__Task__WhenAllPromise::get_ShouldNotifyDebuggerOfWaitCompletion)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x262b0b0;
+  constexpr static std::size_t addrs = 0x26511d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::Tasks::__Task__WhenAllPromise::*)()>(
     &::System::Threading::Tasks::__Task__WhenAllPromise::get_InvokeMayRunArbitraryCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x262b124;
+  constexpr static std::size_t addrs = 0x2651248;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::__Task__WhenAllPromise*>::get(),

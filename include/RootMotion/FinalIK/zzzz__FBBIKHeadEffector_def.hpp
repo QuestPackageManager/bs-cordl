@@ -46,8 +46,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__FBBIKHeadEffector__BendBone);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10252))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12546))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8996))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12444))
 // CS Name: ::FBBIKHeadEffector::BendBone*
 class CORDL_TYPE __FBBIKHeadEffector__BendBone : public ::System::Object {
 public:
@@ -81,18 +81,18 @@ public:
 
   static inline ::RootMotion::FinalIK::__FBBIKHeadEffector__BendBone* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1254a44, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12eeaf4, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::RootMotion::FinalIK::__FBBIKHeadEffector__BendBone* New_ctor(::UnityEngine::Transform* transform, float_t weight);
 
-  /// @brief Method .ctor, addr 0x1254aa4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12eeb54, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Transform* transform, float_t weight);
 
-  /// @brief Method StoreDefaultLocalState, addr 0x12521a8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method StoreDefaultLocalState, addr 0x12ec258, size 0x2c, virtual false, abstract: false, final false
   inline void StoreDefaultLocalState();
 
-  /// @brief Method FixTransforms, addr 0x1252578, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method FixTransforms, addr 0x12ec628, size 0x28, virtual false, abstract: false, final false
   inline void FixTransforms();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FBBIKHeadEffector__BendBone", modifiers: "&&", def_value: None }]
@@ -134,8 +134,8 @@ static_assert(offsetof(::RootMotion::FinalIK::__FBBIKHeadEffector__BendBone, ___
 // SizeInfo { instance_size: 368, native_size: -1, calculated_instance_size: 368, calculated_native_size: 368, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12547))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(8996))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12445))
 // CS Name: ::RootMotion.FinalIK::FBBIKHeadEffector*
 class CORDL_TYPE FBBIKHeadEffector : public ::UnityEngine::MonoBehaviour {
 public:
@@ -564,48 +564,48 @@ public:
 
   constexpr void __cordl_internal_set_chestBonesCount(int32_t value);
 
-  /// @brief Method Start, addr 0x1251948, size 0x3ec, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x12eb9f8, size 0x3ec, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnStoreDefaultLocalState, addr 0x1251d34, size 0x474, virtual false, abstract: false, final false
+  /// @brief Method OnStoreDefaultLocalState, addr 0x12ebde4, size 0x474, virtual false, abstract: false, final false
   inline void OnStoreDefaultLocalState();
 
-  /// @brief Method OnFixTransforms, addr 0x12521d4, size 0x3a4, virtual false, abstract: false, final false
+  /// @brief Method OnFixTransforms, addr 0x12ec284, size 0x3a4, virtual false, abstract: false, final false
   inline void OnFixTransforms();
 
-  /// @brief Method OnPreRead, addr 0x12525a0, size 0x640, virtual false, abstract: false, final false
+  /// @brief Method OnPreRead, addr 0x12ec650, size 0x640, virtual false, abstract: false, final false
   inline void OnPreRead();
 
-  /// @brief Method SpineBend, addr 0x1252e9c, size 0x3f8, virtual false, abstract: false, final false
+  /// @brief Method SpineBend, addr 0x12ecf4c, size 0x3f8, virtual false, abstract: false, final false
   inline void SpineBend();
 
-  /// @brief Method CCDPass, addr 0x1253294, size 0x410, virtual false, abstract: false, final false
+  /// @brief Method CCDPass, addr 0x12ed344, size 0x410, virtual false, abstract: false, final false
   inline void CCDPass();
 
-  /// @brief Method Iterate, addr 0x12536a4, size 0x798, virtual false, abstract: false, final false
+  /// @brief Method Iterate, addr 0x12ed754, size 0x798, virtual false, abstract: false, final false
   inline void Iterate(int32_t iteration);
 
-  /// @brief Method OnPostUpdate, addr 0x1254024, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method OnPostUpdate, addr 0x12ee0d4, size 0x23c, virtual false, abstract: false, final false
   inline void OnPostUpdate();
 
-  /// @brief Method ChestDirection, addr 0x1252be0, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method ChestDirection, addr 0x12ecc90, size 0x2bc, virtual false, abstract: false, final false
   inline void ChestDirection();
 
-  /// @brief Method PostStretching, addr 0x1254260, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method PostStretching, addr 0x12ee310, size 0x304, virtual false, abstract: false, final false
   inline void PostStretching();
 
-  /// @brief Method LerpSolverPosition, addr 0x1253f3c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method LerpSolverPosition, addr 0x12edfec, size 0xe8, virtual false, abstract: false, final false
   inline void LerpSolverPosition(::RootMotion::FinalIK::IKEffector* effector, ::UnityEngine::Vector3 position, float_t weight, ::UnityEngine::Vector3 offset);
 
-  /// @brief Method Solve, addr 0x1253e3c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Solve, addr 0x12edeec, size 0x100, virtual false, abstract: false, final false
   inline void Solve(ByRef<::UnityEngine::Vector3> pos1, ByRef<::UnityEngine::Vector3> pos2, float_t nominalDistance);
 
-  /// @brief Method OnDestroy, addr 0x1254564, size 0x338, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x12ee614, size 0x338, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   static inline ::RootMotion::FinalIK::FBBIKHeadEffector* New_ctor();
 
-  /// @brief Method .ctor, addr 0x125489c, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12ee94c, size 0x1a8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FBBIKHeadEffector", modifiers: "&&", def_value: None }]

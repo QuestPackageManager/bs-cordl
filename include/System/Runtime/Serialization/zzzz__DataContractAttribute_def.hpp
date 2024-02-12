@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::DataContractAttribute);
 namespace System::Runtime::Serialization {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16239))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16419))
 // CS Name: ::System.Runtime.Serialization::DataContractAttribute*
 class CORDL_TYPE DataContractAttribute : public ::System::Attribute {
 public:
@@ -31,7 +31,7 @@ public:
 
   constexpr void __cordl_internal_set_isReference(bool value);
 
-  /// @brief Method get_IsReference, addr 0x284d5f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsReference, addr 0x2850c5c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsReference();
 
   // Ctor Parameters [CppParam { name: "", ty: "DataContractAttribute", modifiers: "&&", def_value: None }]

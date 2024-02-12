@@ -26,7 +26,7 @@ namespace GlobalNamespace {
 template <typename T0, typename T1>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14374))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14528))
 // CS Name: ::MemoryPoolContainer`2<T0,T1>*
 class CORDL_TYPE MemoryPoolContainer_2 : public ::System::Object {
 public:

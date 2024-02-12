@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::System::Globalization::IdnMapping);
 namespace System::Globalization {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3723))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3721))
 // CS Name: ::System.Globalization::IdnMapping*
 class CORDL_TYPE IdnMapping : public ::System::Object {
 public:
@@ -57,46 +57,46 @@ public:
 
   static inline ::System::Globalization::IdnMapping* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2577cbc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x259abac, size 0x90, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Equals, addr 0x2577d8c, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x259ac7c, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2577e18, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x259ad08, size 0x10, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetAscii, addr 0x2577e28, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetAscii, addr 0x259ad18, size 0x64, virtual false, abstract: false, final false
   inline ::StringW GetAscii(::StringW unicode);
 
-  /// @brief Method GetAscii, addr 0x2577e8c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method GetAscii, addr 0x259ad7c, size 0xd4, virtual false, abstract: false, final false
   inline ::StringW GetAscii(::StringW unicode, int32_t index, int32_t count);
 
-  /// @brief Method Convert, addr 0x2577f60, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x259ae50, size 0x228, virtual false, abstract: false, final false
   inline ::StringW Convert(::StringW input, int32_t index, int32_t count, bool toAscii);
 
-  /// @brief Method ToAscii, addr 0x2578188, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method ToAscii, addr 0x259b078, size 0x23c, virtual false, abstract: false, final false
   inline ::StringW ToAscii(::StringW s, int32_t offset);
 
-  /// @brief Method VerifyLength, addr 0x2578bf8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method VerifyLength, addr 0x259bae8, size 0xcc, virtual false, abstract: false, final false
   inline void VerifyLength(::StringW s, int32_t offset);
 
-  /// @brief Method NamePrep, addr 0x2578598, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method NamePrep, addr 0x259b488, size 0x14c, virtual false, abstract: false, final false
   inline ::StringW NamePrep(::StringW s, int32_t offset);
 
-  /// @brief Method VerifyProhibitedCharacters, addr 0x2578cc4, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method VerifyProhibitedCharacters, addr 0x259bbb4, size 0x240, virtual false, abstract: false, final false
   inline void VerifyProhibitedCharacters(::StringW s, int32_t offset);
 
-  /// @brief Method VerifyStd3AsciiRules, addr 0x25786e4, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method VerifyStd3AsciiRules, addr 0x259b5d4, size 0x1d0, virtual false, abstract: false, final false
   inline void VerifyStd3AsciiRules(::StringW s, int32_t offset);
 
-  /// @brief Method GetUnicode, addr 0x2578f04, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetUnicode, addr 0x259bdf4, size 0x64, virtual false, abstract: false, final false
   inline ::StringW GetUnicode(::StringW ascii);
 
-  /// @brief Method GetUnicode, addr 0x2578f68, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method GetUnicode, addr 0x259be58, size 0xd4, virtual false, abstract: false, final false
   inline ::StringW GetUnicode(::StringW ascii, int32_t index, int32_t count);
 
-  /// @brief Method ToUnicode, addr 0x25783c4, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method ToUnicode, addr 0x259b2b4, size 0x1d4, virtual false, abstract: false, final false
   inline ::StringW ToUnicode(::StringW s, int32_t offset);
 
   // Ctor Parameters [CppParam { name: "", ty: "IdnMapping", modifiers: "&&", def_value: None }]

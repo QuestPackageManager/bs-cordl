@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::ETrackedControllerRole);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8585))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8529))
 // CS Name: ::OVR.OpenVR::ETrackedControllerRole
 struct CORDL_TYPE ETrackedControllerRole {
 public:

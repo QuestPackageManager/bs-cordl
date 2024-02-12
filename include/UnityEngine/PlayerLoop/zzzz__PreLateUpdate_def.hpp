@@ -113,7 +113,7 @@ MARK_VAL_T(::UnityEngine::PlayerLoop::__PreLateUpdate__UpdateNetworkManager);
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10546))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9315))
 // CS Name: ::PreLateUpdate::Physics2DLateUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __PreLateUpdate__Physics2DLateUpdate {
@@ -141,7 +141,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLa
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10547))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9316))
 // CS Name: ::PreLateUpdate::AIUpdatePostScript
 #pragma pack(push, 0)
 struct CORDL_TYPE __PreLateUpdate__AIUpdatePostScript {
@@ -169,7 +169,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLa
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10548))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9317))
 // CS Name: ::PreLateUpdate::DirectorUpdateAnimationBegin
 #pragma pack(push, 0)
 struct CORDL_TYPE __PreLateUpdate__DirectorUpdateAnimationBegin {
@@ -197,7 +197,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLa
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10549))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9318))
 // CS Name: ::PreLateUpdate::LegacyAnimationUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __PreLateUpdate__LegacyAnimationUpdate {
@@ -225,7 +225,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLa
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10550))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9319))
 // CS Name: ::PreLateUpdate::DirectorUpdateAnimationEnd
 #pragma pack(push, 0)
 struct CORDL_TYPE __PreLateUpdate__DirectorUpdateAnimationEnd {
@@ -253,7 +253,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLa
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10551))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9320))
 // CS Name: ::PreLateUpdate::DirectorDeferredEvaluate
 #pragma pack(push, 0)
 struct CORDL_TYPE __PreLateUpdate__DirectorDeferredEvaluate {
@@ -281,7 +281,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLa
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10552))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9321))
 // CS Name: ::PreLateUpdate::UIElementsUpdatePanels
 #pragma pack(push, 0)
 struct CORDL_TYPE __PreLateUpdate__UIElementsUpdatePanels {
@@ -309,7 +309,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLa
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10553))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9322))
 // CS Name: ::PreLateUpdate::UpdateNetworkManager
 #pragma pack(push, 0)
 struct CORDL_TYPE __PreLateUpdate__UpdateNetworkManager {
@@ -337,7 +337,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLa
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10554))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9323))
 // CS Name: ::PreLateUpdate::UpdateMasterServerInterface
 #pragma pack(push, 0)
 struct CORDL_TYPE __PreLateUpdate__UpdateMasterServerInterface {
@@ -365,7 +365,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLa
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10555))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9324))
 // CS Name: ::PreLateUpdate::UNetUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __PreLateUpdate__UNetUpdate {
@@ -393,7 +393,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLa
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10556))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9325))
 // CS Name: ::PreLateUpdate::EndGraphicsJobsAfterScriptUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __PreLateUpdate__EndGraphicsJobsAfterScriptUpdate {
@@ -421,7 +421,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLa
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10557))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9326))
 // CS Name: ::PreLateUpdate::ParticleSystemBeginUpdateAll
 #pragma pack(push, 0)
 struct CORDL_TYPE __PreLateUpdate__ParticleSystemBeginUpdateAll {
@@ -449,7 +449,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLa
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10558))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9327))
 // CS Name: ::PreLateUpdate::ScriptRunBehaviourLateUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __PreLateUpdate__ScriptRunBehaviourLateUpdate {
@@ -477,7 +477,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLa
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10559))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9328))
 // CS Name: ::PreLateUpdate::ConstraintManagerUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __PreLateUpdate__ConstraintManagerUpdate {
@@ -505,7 +505,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLa
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10560))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9329))
 // CS Name: ::UnityEngine.PlayerLoop::PreLateUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE PreLateUpdate {

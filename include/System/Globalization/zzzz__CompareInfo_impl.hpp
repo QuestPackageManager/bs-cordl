@@ -17,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW, ::StringW, int32_t, int32_t, bool)>(&::System::Globalization::CompareInfo::InvariantIndexOf)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x2549404;
+  constexpr static std::size_t addrs = 0x256b04c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW, ::StringW, int32_t, int32_t, bool)>(
     &::System::Globalization::CompareInfo::InvariantLastIndexOf)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x25497f4;
+  constexpr static std::size_t addrs = 0x256b43c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::cordl_internals::Ptr<char16_t>, int32_t, ::cordl_internals::Ptr<char16_t>, int32_t, bool, bool)>(
     &::System::Globalization::CompareInfo::InvariantFindString)> {
   constexpr static std::size_t size = 0x32c;
-  constexpr static std::size_t addrs = 0x25494c8;
+  constexpr static std::size_t addrs = 0x256b110;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (*)(char16_t)>(&::System::Globalization::CompareInfo::InvariantToUpper)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x25498c0;
+  constexpr static std::size_t addrs = 0x256b508;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Globalization::SortKey* (
     ::System::Globalization::CompareInfo::*)(::StringW, ::System::Globalization::CompareOptions)>(&::System::Globalization::CompareInfo::InvariantCreateSortKey)> {
   constexpr static std::size_t size = 0x29c;
-  constexpr static std::size_t addrs = 0x25498d8;
+  constexpr static std::size_t addrs = 0x256b520;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Globalization::CompareInfo::*)(::System::Globalization::CultureInfo*)>(
     &::System::Globalization::CompareInfo::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x2549b74;
+  constexpr static std::size_t addrs = 0x256b7bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Globalization::CompareInfo* (*)(::StringW)>(&::System::Globalization::CompareInfo::GetCompareInfo)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x2549bc4;
+  constexpr static std::size_t addrs = 0x256b80c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Globalization::CompareInfo::*)(::System::Runtime::Serialization::StreamingContext)>(
     &::System::Globalization::CompareInfo::OnDeserializing)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2549c80;
+  constexpr static std::size_t addrs = 0x256b8c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Globalization::CompareInfo::*)(::System::Object*)>(
     &::System::Globalization::CompareInfo::System_Runtime_Serialization_IDeserializationCallback_OnDeserialization)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2549c88;
+  constexpr static std::size_t addrs = 0x256b8d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::CompareInfo*>::get(),
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Globalization::CompareInfo::*)(::System::Runtime::Serialization::StreamingContext)>(
     &::System::Globalization::CompareInfo::OnDeserialized)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2549d30;
+  constexpr static std::size_t addrs = 0x256b978;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -172,7 +172,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Globalization::CompareInfo::*)()>(&::System::Globalization::CompareInfo::OnDeserialized)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x2549c8c;
+  constexpr static std::size_t addrs = 0x256b8d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::CompareInfo*>::get(), "OnDeserialized",
@@ -186,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Globalization::CompareInfo::*)(::System::Runtime::Serialization::StreamingContext)>(
     &::System::Globalization::CompareInfo::OnSerializing)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x2549d34;
+  constexpr static std::size_t addrs = 0x256b97c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -200,7 +200,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Globalization::CompareInfo::*)()>(&::System::Globalization::CompareInfo::get_Name)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x2549dc0;
+  constexpr static std::size_t addrs = 0x256ba08;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -215,7 +215,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::CompareInfo::*)(::StringW, ::StringW)>(
     &::System::Globalization::CompareInfo::Compare)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2549e4c;
+  constexpr static std::size_t addrs = 0x256ba94;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -230,7 +230,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::CompareInfo::*)(::StringW, ::StringW, ::System::Globalization::CompareOptions)>(
     &::System::Globalization::CompareInfo::Compare)> {
   constexpr static std::size_t size = 0x2a8;
-  constexpr static std::size_t addrs = 0x2549e5c;
+  constexpr static std::size_t addrs = 0x256baa4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -245,7 +245,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::CompareInfo::*)(
     ::System::ReadOnlySpan_1<char16_t>, ::StringW, ::System::Globalization::CompareOptions)>(&::System::Globalization::CompareInfo::Compare)> {
   constexpr static std::size_t size = 0x3a0;
-  constexpr static std::size_t addrs = 0x254a3f4;
+  constexpr static std::size_t addrs = 0x256c03c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -262,7 +262,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::CompareInfo::*)(
     ::System::ReadOnlySpan_1<char16_t>, ::System::ReadOnlySpan_1<char16_t>)>(&::System::Globalization::CompareInfo::CompareOptionIgnoreCase)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x254a7f8;
+  constexpr static std::size_t addrs = 0x256c440;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -278,7 +278,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::CompareInfo::*)(
     ::StringW, int32_t, int32_t, ::StringW, int32_t, int32_t, ::System::Globalization::CompareOptions)>(&::System::Globalization::CompareInfo::Compare)> {
   constexpr static std::size_t size = 0x560;
-  constexpr static std::size_t addrs = 0x254aa24;
+  constexpr static std::size_t addrs = 0x256c66c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -293,7 +293,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW, int32_t, int32_t, ::StringW, int32_t, int32_t)>(
     &::System::Globalization::CompareInfo::CompareOrdinalIgnoreCase)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x254af84;
+  constexpr static std::size_t addrs = 0x256cbcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -310,7 +310,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::ReadOnlySpan_1<char16_t>, ::System::ReadOnlySpan_1<char16_t>)>(
     &::System::Globalization::CompareInfo::CompareOrdinalIgnoreCase)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x254a104;
+  constexpr static std::size_t addrs = 0x256bd4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -326,7 +326,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Globalization::CompareInfo::*)(::StringW, ::StringW, ::System::Globalization::CompareOptions)>(
     &::System::Globalization::CompareInfo::IsPrefix)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x254b258;
+  constexpr static std::size_t addrs = 0x256cea0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -341,7 +341,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Globalization::CompareInfo::*)(::StringW, ::StringW, ::System::Globalization::CompareOptions)>(
     &::System::Globalization::CompareInfo::IsSuffix)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x254b5f0;
+  constexpr static std::size_t addrs = 0x256d238;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -356,7 +356,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Globalization::CompareInfo::*)(
     ::System::ReadOnlySpan_1<char16_t>, ::System::ReadOnlySpan_1<char16_t>, ::System::Globalization::CompareOptions)>(&::System::Globalization::CompareInfo::IsSuffix)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x254b984;
+  constexpr static std::size_t addrs = 0x256d5cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -373,7 +373,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::CompareInfo::*)(::StringW, ::StringW, ::System::Globalization::CompareOptions)>(
     &::System::Globalization::CompareInfo::IndexOf)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x254b9e8;
+  constexpr static std::size_t addrs = 0x256d630;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -388,7 +388,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<int32_t (::System::Globalization::CompareInfo::*)(::StringW, ::StringW, int32_t, int32_t, ::System::Globalization::CompareOptions)>(&::System::Globalization::CompareInfo::IndexOf)> {
   constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x254ba58;
+  constexpr static std::size_t addrs = 0x256d6a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -403,7 +403,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::CompareInfo::*)(::StringW, ::StringW, int32_t, int32_t, bool)>(
     &::System::Globalization::CompareInfo::IndexOfOrdinal)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x254bd1c;
+  constexpr static std::size_t addrs = 0x256d964;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -420,7 +420,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::CompareInfo::*)(::StringW, ::StringW, ::System::Globalization::CompareOptions)>(
     &::System::Globalization::CompareInfo::LastIndexOf)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x254be98;
+  constexpr static std::size_t addrs = 0x256dae0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -435,7 +435,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::CompareInfo::*)(
     ::StringW, ::StringW, int32_t, int32_t, ::System::Globalization::CompareOptions)>(&::System::Globalization::CompareInfo::LastIndexOf)> {
   constexpr static std::size_t size = 0x35c;
-  constexpr static std::size_t addrs = 0x254bf0c;
+  constexpr static std::size_t addrs = 0x256db54;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -450,7 +450,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::CompareInfo::*)(::StringW, ::StringW, int32_t, int32_t, bool)>(
     &::System::Globalization::CompareInfo::LastIndexOfOrdinal)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x254c268;
+  constexpr static std::size_t addrs = 0x256deb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -467,7 +467,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Globalization::SortKey* (::System::Globalization::CompareInfo::*)(::StringW, ::System::Globalization::CompareOptions)>(&::System::Globalization::CompareInfo::GetSortKey)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x254c3a0;
+  constexpr static std::size_t addrs = 0x256dfe8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -481,7 +481,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Globalization::CompareInfo::*)(::System::Object*)>(&::System::Globalization::CompareInfo::Equals)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x254c528;
+  constexpr static std::size_t addrs = 0x256e170;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -495,7 +495,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::CompareInfo::*)()>(&::System::Globalization::CompareInfo::GetHashCode)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x254c5e8;
+  constexpr static std::size_t addrs = 0x256e230;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -509,7 +509,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW)>(&::System::Globalization::CompareInfo::GetIgnoreCaseHash)> {
   constexpr static std::size_t size = 0x47c;
-  constexpr static std::size_t addrs = 0x254c610;
+  constexpr static std::size_t addrs = 0x256e258;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -524,7 +524,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::CompareInfo::*)(::StringW, ::System::Globalization::CompareOptions)>(
     &::System::Globalization::CompareInfo::GetHashCodeOfString)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x254ca8c;
+  constexpr static std::size_t addrs = 0x256e6d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -540,7 +540,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::CompareInfo::*)(::StringW, ::System::Globalization::CompareOptions)>(
     &::System::Globalization::CompareInfo::GetHashCode)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x254cc60;
+  constexpr static std::size_t addrs = 0x256e8a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -554,7 +554,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Globalization::CompareInfo::*)()>(&::System::Globalization::CompareInfo::ToString)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x254cd64;
+  constexpr static std::size_t addrs = 0x256e9ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -568,7 +568,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::System::Globalization::CompareInfo::get_UseManagedCollation)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x254cdc4;
+  constexpr static std::size_t addrs = 0x256ea0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::CompareInfo*>::get(),
@@ -582,7 +582,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Globalization::ISimpleCollator* (::System::Globalization::CompareInfo::*)()>(
     &::System::Globalization::CompareInfo::GetCollator)> {
   constexpr static std::size_t size = 0x334;
-  constexpr static std::size_t addrs = 0x254cf08;
+  constexpr static std::size_t addrs = 0x256eb50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::CompareInfo*>::get(), "GetCollator",
@@ -596,7 +596,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Globalization::SortKey* (
     ::System::Globalization::CompareInfo::*)(::StringW, ::System::Globalization::CompareOptions)>(&::System::Globalization::CompareInfo::CreateSortKeyCore)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x254d23c;
+  constexpr static std::size_t addrs = 0x256ee84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -612,7 +612,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::CompareInfo::*)(
     ::StringW, int32_t, int32_t, ::StringW, ::System::Globalization::CompareOptions, bool)>(&::System::Globalization::CompareInfo::internal_index_switch)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x254d378;
+  constexpr static std::size_t addrs = 0x256efc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -630,7 +630,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::CompareInfo::*)(
     ::StringW, int32_t, int32_t, ::StringW, int32_t, int32_t, ::System::Globalization::CompareOptions)>(&::System::Globalization::CompareInfo::internal_compare_switch)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x254a2f8;
+  constexpr static std::size_t addrs = 0x256bf40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -648,7 +648,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::CompareInfo::*)(
     ::StringW, int32_t, int32_t, ::StringW, int32_t, int32_t, ::System::Globalization::CompareOptions)>(&::System::Globalization::CompareInfo::internal_compare_managed)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x254d748;
+  constexpr static std::size_t addrs = 0x256f390;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -666,7 +666,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::CompareInfo::*)(
     ::StringW, int32_t, int32_t, ::StringW, ::System::Globalization::CompareOptions, bool)>(&::System::Globalization::CompareInfo::internal_index_managed)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x254d568;
+  constexpr static std::size_t addrs = 0x256f1b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -684,7 +684,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(
     ::cordl_internals::Ptr<char16_t>, int32_t, ::cordl_internals::Ptr<char16_t>, int32_t, ::System::Globalization::CompareOptions)>(&::System::Globalization::CompareInfo::internal_compare_icall)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x254d848;
+  constexpr static std::size_t addrs = 0x256f490;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -702,7 +702,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW, int32_t, int32_t, ::StringW, int32_t, int32_t, ::System::Globalization::CompareOptions)>(
     &::System::Globalization::CompareInfo::internal_compare)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x254d694;
+  constexpr static std::size_t addrs = 0x256f2dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -720,7 +720,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::cordl_internals::Ptr<char16_t>, int32_t, int32_t, ::cordl_internals::Ptr<char16_t>, int32_t, bool)>(
     &::System::Globalization::CompareInfo::internal_index_icall)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x254d84c;
+  constexpr static std::size_t addrs = 0x256f494;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -737,7 +737,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW, int32_t, int32_t, ::StringW, bool)>(&::System::Globalization::CompareInfo::internal_index)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x254d4b4;
+  constexpr static std::size_t addrs = 0x256f0fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -754,7 +754,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Globalization::CompareInfo::*)(::System::Globalization::CultureInfo*)>(
     &::System::Globalization::CompareInfo::InitSort)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2549ba8;
+  constexpr static std::size_t addrs = 0x256b7f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -769,7 +769,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::cordl_internals::Ptr<char16_t>, int32_t, ::cordl_internals::Ptr<char16_t>, int32_t)>(
     &::System::Globalization::CompareInfo::CompareStringOrdinalIgnoreCase)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x254b0f8;
+  constexpr static std::size_t addrs = 0x256cd40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -786,7 +786,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW, ::StringW, int32_t, int32_t, bool)>(
     &::System::Globalization::CompareInfo::IndexOfOrdinalCore)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x254be78;
+  constexpr static std::size_t addrs = 0x256dac0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -803,7 +803,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW, ::StringW, int32_t, int32_t, bool)>(
     &::System::Globalization::CompareInfo::LastIndexOfOrdinalCore)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x254c380;
+  constexpr static std::size_t addrs = 0x256dfc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -820,7 +820,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::CompareInfo::*)(
     ::StringW, ::StringW, int32_t, int32_t, ::System::Globalization::CompareOptions)>(&::System::Globalization::CompareInfo::LastIndexOfCore)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x254c368;
+  constexpr static std::size_t addrs = 0x256dfb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -837,7 +837,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::CompareInfo::*)(
     ::StringW, ::StringW, int32_t, int32_t, ::System::Globalization::CompareOptions, ::cordl_internals::Ptr<int32_t>)>(&::System::Globalization::CompareInfo::IndexOfCore)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x254be1c;
+  constexpr static std::size_t addrs = 0x256da64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -855,7 +855,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::CompareInfo::*)(
     ::System::ReadOnlySpan_1<char16_t>, ::StringW, ::System::Globalization::CompareOptions)>(&::System::Globalization::CompareInfo::CompareString)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x254a794;
+  constexpr static std::size_t addrs = 0x256c3dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -872,7 +872,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::CompareInfo::*)(
     ::System::ReadOnlySpan_1<char16_t>, ::System::ReadOnlySpan_1<char16_t>, ::System::Globalization::CompareOptions)>(&::System::Globalization::CompareInfo::CompareString)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x254a934;
+  constexpr static std::size_t addrs = 0x256c57c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -889,7 +889,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Globalization::SortKey* (
     ::System::Globalization::CompareInfo::*)(::StringW, ::System::Globalization::CompareOptions)>(&::System::Globalization::CompareInfo::CreateSortKey)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x254c468;
+  constexpr static std::size_t addrs = 0x256e0b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -905,7 +905,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Globalization::CompareInfo::*)(::StringW, ::StringW, ::System::Globalization::CompareOptions)>(
     &::System::Globalization::CompareInfo::StartsWith)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x254b47c;
+  constexpr static std::size_t addrs = 0x256d0c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -921,7 +921,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Globalization::CompareInfo::*)(::StringW, ::StringW, ::System::Globalization::CompareOptions)>(
     &::System::Globalization::CompareInfo::EndsWith)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x254b814;
+  constexpr static std::size_t addrs = 0x256d45c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -937,7 +937,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Globalization::CompareInfo::*)(
     ::System::ReadOnlySpan_1<char16_t>, ::System::ReadOnlySpan_1<char16_t>, ::System::Globalization::CompareOptions)>(&::System::Globalization::CompareInfo::EndsWith)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x254b988;
+  constexpr static std::size_t addrs = 0x256d5d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -954,7 +954,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::CompareInfo::*)(::StringW, ::System::Globalization::CompareOptions)>(
     &::System::Globalization::CompareInfo::GetHashCodeOfStringCore)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x254cc34;
+  constexpr static std::size_t addrs = 0x256e87c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -969,7 +969,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Globalization::CompareInfo::*)()>(&::System::Globalization::CompareInfo::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x254d8dc;
+  constexpr static std::size_t addrs = 0x256f524;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::CompareInfo*>::get(), ".ctor",

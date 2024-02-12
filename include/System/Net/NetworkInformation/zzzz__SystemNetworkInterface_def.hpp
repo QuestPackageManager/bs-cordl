@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::SystemNetworkInterface);
 namespace System::Net::NetworkInformation {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9282))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7292))
 // CS Name: ::System.Net.NetworkInformation::SystemNetworkInterface*
 class CORDL_TYPE SystemNetworkInterface : public ::System::Object {
 public:
@@ -34,7 +34,7 @@ public:
 
   static inline ::System::Net::NetworkInformation::NetworkInterfaceFactory* getStaticF_nif();
 
-  /// @brief Method GetNetworkInterfaces, addr 0x29eb7d4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method GetNetworkInterfaces, addr 0x29f0278, size 0xfc, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Net::NetworkInformation::NetworkInterface*, ::Array<::System::Net::NetworkInformation::NetworkInterface*>*> GetNetworkInterfaces();
 
   // Ctor Parameters [CppParam { name: "", ty: "SystemNetworkInterface", modifiers: "&&", def_value: None }]

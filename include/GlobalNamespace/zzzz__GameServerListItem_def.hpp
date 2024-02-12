@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::GlobalNamespace::GameServerListItem);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4487))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10913))
 // CS Name: ::GameServerListItem*
 class CORDL_TYPE GameServerListItem : public ::System::Object {
 public:
@@ -60,7 +60,7 @@ public:
 
   static inline ::GlobalNamespace::GameServerListItem* New_ctor(::StringW serverName, int32_t capacity, int32_t occupied, bool password);
 
-  /// @brief Method .ctor, addr 0x2355b74, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1299b4c, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::StringW serverName, int32_t capacity, int32_t occupied, bool password);
 
   // Ctor Parameters [CppParam { name: "", ty: "GameServerListItem", modifiers: "&&", def_value: None }]

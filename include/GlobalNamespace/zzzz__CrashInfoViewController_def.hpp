@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::CrashInfoViewController);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5620))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4925))
 // CS Name: ::CrashInfoViewController*
 class CORDL_TYPE CrashInfoViewController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -44,12 +44,12 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method Start, addr 0x22af4a8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x22e29dc, size 0x78, virtual false, abstract: false, final false
   inline void Start();
 
   static inline ::GlobalNamespace::CrashInfoViewController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22af520, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22e2a54, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CrashInfoViewController", modifiers: "&&", def_value: None }]

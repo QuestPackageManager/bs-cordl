@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::GlobalNamespace::NullAllowedIf);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16247)), TypeDefinitionIndex(TypeDefinitionIndex(16252))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16253))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16402)), TypeDefinitionIndex(TypeDefinitionIndex(16408))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16409))
 // CS Name: ::NullAllowedIf*
 class CORDL_TYPE NullAllowedIf : public ::GlobalNamespace::NullAllowed {
 public:
@@ -60,16 +60,16 @@ public:
 
   static inline ::GlobalNamespace::NullAllowedIf* New_ctor(::StringW propertyName, ::System::Object* equalsTo, ::GlobalNamespace::__NullAllowed__Context context);
 
-  /// @brief Method .ctor, addr 0x21010fc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe4651c, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::StringW propertyName, ::System::Object* equalsTo, ::GlobalNamespace::__NullAllowed__Context context);
 
   static inline ::GlobalNamespace::NullAllowedIf* New_ctor(::StringW propertyName, ::GlobalNamespace::ComparisonOperation comparisonOperation, ::System::Object* valueToCompare,
                                                            ::GlobalNamespace::__NullAllowed__Context context);
 
-  /// @brief Method .ctor, addr 0x210113c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe4655c, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::StringW propertyName, ::GlobalNamespace::ComparisonOperation comparisonOperation, ::System::Object* valueToCompare, ::GlobalNamespace::__NullAllowed__Context context);
 
-  /// @brief Method IsNullAllowedFor, addr 0x2101180, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method IsNullAllowedFor, addr 0xe465a0, size 0xf4, virtual false, abstract: false, final false
   inline bool IsNullAllowedFor(::System::Object* value, ::GlobalNamespace::__NullAllowed__Context context);
 
   // Ctor Parameters [CppParam { name: "", ty: "NullAllowedIf", modifiers: "&&", def_value: None }]

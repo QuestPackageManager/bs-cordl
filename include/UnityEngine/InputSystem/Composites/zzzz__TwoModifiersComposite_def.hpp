@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Composites::TwoModifiersComposite);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Composites {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6189))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6718))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5448))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5977))
 // CS Name: ::UnityEngine.InputSystem.Composites::TwoModifiersComposite*
 class CORDL_TYPE TwoModifiersComposite : public ::UnityEngine::InputSystem::InputBindingComposite {
 public:
@@ -99,30 +99,30 @@ public:
 
   constexpr void __cordl_internal_set_m_BindingIsButton(bool value);
 
-  /// @brief Method get_valueType, addr 0x2a5b780, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_valueType, addr 0x2a5e2ec, size 0x8, virtual true, abstract: false, final false
   inline ::System::Type* get_valueType();
 
-  /// @brief Method get_valueSizeInBytes, addr 0x2a5b788, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_valueSizeInBytes, addr 0x2a5e2f4, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_valueSizeInBytes();
 
-  /// @brief Method EvaluateMagnitude, addr 0x2a5b790, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method EvaluateMagnitude, addr 0x2a5e2fc, size 0x40, virtual true, abstract: false, final false
   inline float_t EvaluateMagnitude(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
-  /// @brief Method ReadValue, addr 0x2a5b88c, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method ReadValue, addr 0x2a5e3f8, size 0x64, virtual true, abstract: false, final false
   inline void ReadValue(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context, ::cordl_internals::Ptr<void> buffer, int32_t bufferSize);
 
-  /// @brief Method ModifiersArePressed, addr 0x2a5b7d0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ModifiersArePressed, addr 0x2a5e33c, size 0xbc, virtual false, abstract: false, final false
   inline bool ModifiersArePressed(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
-  /// @brief Method FinishSetup, addr 0x2a5b8f0, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x2a5e45c, size 0xac, virtual true, abstract: false, final false
   inline void FinishSetup(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
-  /// @brief Method ReadValueAsObject, addr 0x2a5b99c, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method ReadValueAsObject, addr 0x2a5e508, size 0x64, virtual true, abstract: false, final false
   inline ::System::Object* ReadValueAsObject(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
   static inline ::UnityEngine::InputSystem::Composites::TwoModifiersComposite* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2a5ba00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a5e56c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TwoModifiersComposite", modifiers: "&&", def_value: None }]

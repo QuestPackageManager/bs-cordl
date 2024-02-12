@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::__SessionParameters__Builder::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::__SessionParameters__Builder::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0xf962b0;
+  constexpr static std::size_t addrs = 0xfc2140;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Tls::SessionParameters* (
     ::Org::BouncyCastle::Crypto::Tls::__SessionParameters__Builder::*)()>(&::Org::BouncyCastle::Crypto::Tls::__SessionParameters__Builder::Build)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0xf962d8;
+  constexpr static std::size_t addrs = 0xfc2168;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Tls::__SessionParameters__Builder* (
     ::Org::BouncyCastle::Crypto::Tls::__SessionParameters__Builder::*)(int32_t)>(&::Org::BouncyCastle::Crypto::Tls::__SessionParameters__Builder::SetCipherSuite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf9649c;
+  constexpr static std::size_t addrs = 0xfc232c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Tls::__SessionParameters__Builder* (
     ::Org::BouncyCastle::Crypto::Tls::__SessionParameters__Builder::*)(uint8_t)>(&::Org::BouncyCastle::Crypto::Tls::__SessionParameters__Builder::SetCompressionAlgorithm)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0xf964a4;
+  constexpr static std::size_t addrs = 0xfc2334;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Tls::__SessionParameters__Builder* (
     ::Org::BouncyCastle::Crypto::Tls::__SessionParameters__Builder::*)(bool)>(&::Org::BouncyCastle::Crypto::Tls::__SessionParameters__Builder::SetExtendedMasterSecret)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0xf964b0;
+  constexpr static std::size_t addrs = 0xfc2340;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Tls::__SessionParameters__Builder* (
     ::Org::BouncyCastle::Crypto::Tls::__SessionParameters__Builder::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crypto::Tls::__SessionParameters__Builder::SetMasterSecret)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf964bc;
+  constexpr static std::size_t addrs = 0xfc234c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -101,7 +101,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Crypto::Tls::__SessionParameters__Builder* (::Org::BouncyCastle::Crypto::Tls::__SessionParameters__Builder::*)(::Org::BouncyCastle::Crypto::Tls::Certificate*)>(
         &::Org::BouncyCastle::Crypto::Tls::__SessionParameters__Builder::SetPeerCertificate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf964c4;
+  constexpr static std::size_t addrs = 0xfc2354;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Tls::__SessionParameters__Builder* (
     ::Org::BouncyCastle::Crypto::Tls::__SessionParameters__Builder::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crypto::Tls::__SessionParameters__Builder::SetPskIdentity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf964cc;
+  constexpr static std::size_t addrs = 0xfc235c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Tls::__SessionParameters__Builder* (
     ::Org::BouncyCastle::Crypto::Tls::__SessionParameters__Builder::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crypto::Tls::__SessionParameters__Builder::SetSrpIdentity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf964d4;
+  constexpr static std::size_t addrs = 0xfc2364;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Tls::__SessionParameters__Builder* (
     ::Org::BouncyCastle::Crypto::Tls::__SessionParameters__Builder::*)(::System::Collections::IDictionary*)>(&::Org::BouncyCastle::Crypto::Tls::__SessionParameters__Builder::SetServerExtensions)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0xf964dc;
+  constexpr static std::size_t addrs = 0xfc236c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -161,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::__SessionParameters__Builder::*)(bool, ::StringW)>(
     &::Org::BouncyCastle::Crypto::Tls::__SessionParameters__Builder::Validate)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0xf96414;
+  constexpr static std::size_t addrs = 0xfc22a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -348,7 +348,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     int32_t, uint8_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Org::BouncyCastle::Crypto::Tls::Certificate*, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>,
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, bool)>(&::Org::BouncyCastle::Crypto::Tls::SessionParameters::_ctor)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0xf95cd4;
+  constexpr static std::size_t addrs = 0xfc1b64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -369,7 +369,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::SessionParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::SessionParameters::Clear)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0xf95db0;
+  constexpr static std::size_t addrs = 0xfc1c40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::SessionParameters*>::get(),
@@ -383,7 +383,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Tls::SessionParameters* (::Org::BouncyCastle::Crypto::Tls::SessionParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::SessionParameters::Copy)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0xf95e20;
+  constexpr static std::size_t addrs = 0xfc1cb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::SessionParameters*>::get(),
@@ -397,7 +397,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Tls::SessionParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::SessionParameters::get_CipherSuite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf95ee4;
+  constexpr static std::size_t addrs = 0xfc1d74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::SessionParameters*>::get(),
@@ -411,7 +411,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (::Org::BouncyCastle::Crypto::Tls::SessionParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::SessionParameters::get_CompressionAlgorithm)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf95eec;
+  constexpr static std::size_t addrs = 0xfc1d7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::SessionParameters*>::get(),
@@ -425,7 +425,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::Tls::SessionParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::SessionParameters::get_IsExtendedMasterSecret)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf95ef4;
+  constexpr static std::size_t addrs = 0xfc1d84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::SessionParameters*>::get(),
@@ -439,7 +439,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Tls::SessionParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::SessionParameters::get_MasterSecret)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf95efc;
+  constexpr static std::size_t addrs = 0xfc1d8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::SessionParameters*>::get(),
@@ -453,7 +453,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Tls::Certificate* (::Org::BouncyCastle::Crypto::Tls::SessionParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::SessionParameters::get_PeerCertificate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf95f04;
+  constexpr static std::size_t addrs = 0xfc1d94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::SessionParameters*>::get(),
@@ -467,7 +467,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Tls::SessionParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::SessionParameters::get_PskIdentity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf95f0c;
+  constexpr static std::size_t addrs = 0xfc1d9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::SessionParameters*>::get(),
@@ -481,7 +481,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Tls::SessionParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::SessionParameters::get_SrpIdentity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf95f14;
+  constexpr static std::size_t addrs = 0xfc1da4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::SessionParameters*>::get(),
@@ -495,7 +495,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IDictionary* (::Org::BouncyCastle::Crypto::Tls::SessionParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::SessionParameters::ReadServerExtensions)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0xf95f1c;
+  constexpr static std::size_t addrs = 0xfc1dac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::SessionParameters*>::get(),

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlUnspecifiedAttribute::*)(::StringW, ::StringW, ::StringW, ::System::Xml::XmlDocument*)>(
     &::System::Xml::XmlUnspecifiedAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x288cf94;
+  constexpr static std::size_t addrs = 0x28905fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlUnspecifiedAttribute::*)()>(&::System::Xml::XmlUnspecifiedAttribute::get_Specified)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2891fc4;
+  constexpr static std::size_t addrs = 0x289562c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (::System::Xml::XmlUnspecifiedAttribute::*)(bool)>(
     &::System::Xml::XmlUnspecifiedAttribute::CloneNode)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x2891fcc;
+  constexpr static std::size_t addrs = 0x2895634;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlUnspecifiedAttribute::*)(::StringW)>(
     &::System::Xml::XmlUnspecifiedAttribute::set_InnerText)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x28920fc;
+  constexpr static std::size_t addrs = 0x2895764;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (::System::Xml::XmlUnspecifiedAttribute::*)(::System::Xml::XmlNode*)>(
     &::System::Xml::XmlUnspecifiedAttribute::RemoveChild)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x289211c;
+  constexpr static std::size_t addrs = 0x2895784;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (::System::Xml::XmlUnspecifiedAttribute::*)(::System::Xml::XmlNode*)>(
     &::System::Xml::XmlUnspecifiedAttribute::AppendChild)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x289213c;
+  constexpr static std::size_t addrs = 0x28957a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlUnspecifiedAttribute::*)(bool)>(&::System::Xml::XmlUnspecifiedAttribute::SetSpecified)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x289215c;
+  constexpr static std::size_t addrs = 0x28957c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -30,22 +30,22 @@ MARK_REF_PTR_T(::System::ComponentModel::ComponentConverter);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9449))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9470))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7459))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7480))
 // CS Name: ::System.ComponentModel::ComponentConverter*
 class CORDL_TYPE ComponentConverter : public ::System::ComponentModel::ReferenceConverter {
 public:
   // Declarations
   static inline ::System::ComponentModel::ComponentConverter* New_ctor(::System::Type* type);
 
-  /// @brief Method .ctor, addr 0x291a430, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x291ea98, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
-  /// @brief Method GetProperties, addr 0x291a49c, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method GetProperties, addr 0x291eb04, size 0x64, virtual true, abstract: false, final false
   inline ::System::ComponentModel::PropertyDescriptorCollection* GetProperties(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Object* value,
                                                                                ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes);
 
-  /// @brief Method GetPropertiesSupported, addr 0x291a568, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetPropertiesSupported, addr 0x291ebd0, size 0x8, virtual true, abstract: false, final false
   inline bool GetPropertiesSupported(::System::ComponentModel::ITypeDescriptorContext* context);
 
   // Ctor Parameters [CppParam { name: "", ty: "ComponentConverter", modifiers: "&&", def_value: None }]

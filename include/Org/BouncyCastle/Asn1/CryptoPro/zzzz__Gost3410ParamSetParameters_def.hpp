@@ -83,36 +83,36 @@ public:
 
   constexpr void __cordl_internal_set_a(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method GetInstance, addr 0xe8d99c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xeb782c, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0xe8d9b4, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xeb7844, size 0x178, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* New_ctor(int32_t keySize, ::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q,
                                                                                            ::Org::BouncyCastle::Math::BigInteger* a);
 
-  /// @brief Method .ctor, addr 0xe8d3a4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeb7234, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(int32_t keySize, ::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* a);
 
   static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xe8db2c, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeb79bc, size 0x120, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_KeySize, addr 0xe8dc4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KeySize, addr 0xeb7adc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_KeySize();
 
-  /// @brief Method get_P, addr 0xe8dc54, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_P, addr 0xeb7ae4, size 0x18, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_P();
 
-  /// @brief Method get_Q, addr 0xe8dc6c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Q, addr 0xeb7afc, size 0x18, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Q();
 
-  /// @brief Method get_A, addr 0xe8dc84, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_A, addr 0xeb7b14, size 0x18, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_A();
 
-  /// @brief Method ToAsn1Object, addr 0xe8dc9c, size 0x17c, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xeb7b2c, size 0x17c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "Gost3410ParamSetParameters", modifiers: "&&", def_value: None }]

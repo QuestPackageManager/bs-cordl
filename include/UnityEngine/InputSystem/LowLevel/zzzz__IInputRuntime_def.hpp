@@ -47,7 +47,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::LowLevel::IInputRuntime);
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6549))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5808))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::IInputRuntime*
 class CORDL_TYPE IInputRuntime {
 public:

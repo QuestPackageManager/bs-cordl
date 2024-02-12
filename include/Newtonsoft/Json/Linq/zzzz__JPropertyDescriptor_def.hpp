@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Linq::JPropertyDescriptor);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 132, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9444))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11968))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7454))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11866))
 // CS Name: ::Newtonsoft.Json.Linq::JPropertyDescriptor*
 class CORDL_TYPE JPropertyDescriptor : public ::System::ComponentModel::PropertyDescriptor {
 public:
@@ -41,37 +41,37 @@ public:
 
   static inline ::Newtonsoft::Json::Linq::JPropertyDescriptor* New_ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x268f960, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b1b1c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method CastInstance, addr 0x268f96c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method CastInstance, addr 0x26b1b28, size 0x7c, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::JObject* CastInstance(::System::Object* instance);
 
-  /// @brief Method CanResetValue, addr 0x268f9e8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CanResetValue, addr 0x26b1ba4, size 0x8, virtual true, abstract: false, final false
   inline bool CanResetValue(::System::Object* component);
 
-  /// @brief Method GetValue, addr 0x268f9f0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x26b1bac, size 0x44, virtual true, abstract: false, final false
   inline ::System::Object* GetValue(::System::Object* component);
 
-  /// @brief Method ResetValue, addr 0x268fab4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ResetValue, addr 0x26b1c70, size 0x4, virtual true, abstract: false, final false
   inline void ResetValue(::System::Object* component);
 
-  /// @brief Method SetValue, addr 0x268fab8, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x26b1c74, size 0xe8, virtual true, abstract: false, final false
   inline void SetValue(::System::Object* component, ::System::Object* value);
 
-  /// @brief Method ShouldSerializeValue, addr 0x268fc80, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ShouldSerializeValue, addr 0x26b1e3c, size 0x8, virtual true, abstract: false, final false
   inline bool ShouldSerializeValue(::System::Object* component);
 
-  /// @brief Method get_ComponentType, addr 0x268fc88, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method get_ComponentType, addr 0x26b1e44, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Type* get_ComponentType();
 
-  /// @brief Method get_IsReadOnly, addr 0x268fcf4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x26b1eb0, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_PropertyType, addr 0x268fcfc, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method get_PropertyType, addr 0x26b1eb8, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Type* get_PropertyType();
 
-  /// @brief Method get_NameHashCode, addr 0x268fd68, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NameHashCode, addr 0x26b1f24, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_NameHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "JPropertyDescriptor", modifiers: "&&", def_value: None }]

@@ -56,18 +56,18 @@ public:
 
   constexpr void __cordl_internal_set_paramSet(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  /// @brief Method GetInstance, addr 0xe8c960, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xeb67f0, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost28147Parameters* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0xe8c978, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xeb6808, size 0x178, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost28147Parameters* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost28147Parameters* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xe8caf0, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeb6980, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0xe8cc20, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xeb6ab0, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "Gost28147Parameters", modifiers: "&&", def_value: None }]

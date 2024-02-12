@@ -4,22 +4,22 @@
 #include "GlobalNamespace/zzzz__BeatmapData_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventDataBoxGroupList_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventDataBoxGroup_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatToTimeConvertor_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatToTimeConverter_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__LinkedListNode_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BeatmapEventDataBoxGroupLists._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapEventDataBoxGroupLists::*)(
-    ::GlobalNamespace::BeatmapData*, ::GlobalNamespace::IBeatToTimeConvertor*, bool)>(&::GlobalNamespace::BeatmapEventDataBoxGroupLists::_ctor)> {
+    ::GlobalNamespace::BeatmapData*, ::GlobalNamespace::IBeatToTimeConverter*, bool)>(&::GlobalNamespace::BeatmapEventDataBoxGroupLists::_ctor)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x23329a8;
+  constexpr static std::size_t addrs = 0x127acc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapEventDataBoxGroupLists*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapData*>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IBeatToTimeConvertor*>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IBeatToTimeConverter*>::get(),
                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* (
     ::GlobalNamespace::BeatmapEventDataBoxGroupLists::*)(int32_t, ::GlobalNamespace::BeatmapEventDataBoxGroup*)>(&::GlobalNamespace::BeatmapEventDataBoxGroupLists::Insert)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x2333104;
+  constexpr static std::size_t addrs = 0x127ad68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapEventDataBoxGroupLists::*)(
     int32_t, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>*)>(&::GlobalNamespace::BeatmapEventDataBoxGroupLists::Remove)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x233a24c;
+  constexpr static std::size_t addrs = 0x127ae64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -62,8 +62,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapEventDataBoxGroupLists::*)(bool)>(
     &::GlobalNamespace::BeatmapEventDataBoxGroupLists::ToggleUpdateBeatmapDataOnInsert)> {
-  constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x233a30c;
+  constexpr static std::size_t size = 0x198;
+  constexpr static std::size_t addrs = 0x127af24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -77,8 +77,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapEventDataBoxGroupLists::*)()>(
     &::GlobalNamespace::BeatmapEventDataBoxGroupLists::SyncWithBeatmapData)> {
-  constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x2333bdc;
+  constexpr static std::size_t size = 0x18c;
+  constexpr static std::size_t addrs = 0x127b0bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapEventDataBoxGroupLists*>::get(),
@@ -113,17 +113,17 @@ constexpr void GlobalNamespace::BeatmapEventDataBoxGroupLists::__cordl_internal_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::IBeatToTimeConvertor*& GlobalNamespace::BeatmapEventDataBoxGroupLists::__cordl_internal_get__beatToTimeConvertor() {
+constexpr ::GlobalNamespace::IBeatToTimeConverter*& GlobalNamespace::BeatmapEventDataBoxGroupLists::__cordl_internal_get__beatToTimeConverter() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____beatToTimeConvertor;
+  return this->____beatToTimeConverter;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatToTimeConvertor*> const& GlobalNamespace::BeatmapEventDataBoxGroupLists::__cordl_internal_get__beatToTimeConvertor() const {
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatToTimeConverter*> const& GlobalNamespace::BeatmapEventDataBoxGroupLists::__cordl_internal_get__beatToTimeConverter() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____beatToTimeConvertor;
+  return this->____beatToTimeConverter;
 }
-constexpr void GlobalNamespace::BeatmapEventDataBoxGroupLists::__cordl_internal_set__beatToTimeConvertor(::GlobalNamespace::IBeatToTimeConvertor* value) {
+constexpr void GlobalNamespace::BeatmapEventDataBoxGroupLists::__cordl_internal_set__beatToTimeConverter(::GlobalNamespace::IBeatToTimeConverter* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatToTimeConvertor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatToTimeConverter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::BeatmapEventDataBoxGroupLists::__cordl_internal_get__updateBeatmapDataOnInsert() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -138,17 +138,17 @@ constexpr void GlobalNamespace::BeatmapEventDataBoxGroupLists::__cordl_internal_
   this->____updateBeatmapDataOnInsert = value;
 }
 inline ::GlobalNamespace::BeatmapEventDataBoxGroupLists*
-GlobalNamespace::BeatmapEventDataBoxGroupLists::New_ctor(::GlobalNamespace::BeatmapData* beatmapData, ::GlobalNamespace::IBeatToTimeConvertor* beatToTimeConvertor, bool updateBeatmapDataOnInsert) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatmapEventDataBoxGroupLists*>(beatmapData, beatToTimeConvertor, updateBeatmapDataOnInsert));
+GlobalNamespace::BeatmapEventDataBoxGroupLists::New_ctor(::GlobalNamespace::BeatmapData* beatmapData, ::GlobalNamespace::IBeatToTimeConverter* beatToTimeConverter, bool updateBeatmapDataOnInsert) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatmapEventDataBoxGroupLists*>(beatmapData, beatToTimeConverter, updateBeatmapDataOnInsert));
 }
-inline void GlobalNamespace::BeatmapEventDataBoxGroupLists::_ctor(::GlobalNamespace::BeatmapData* beatmapData, ::GlobalNamespace::IBeatToTimeConvertor* beatToTimeConvertor,
+inline void GlobalNamespace::BeatmapEventDataBoxGroupLists::_ctor(::GlobalNamespace::BeatmapData* beatmapData, ::GlobalNamespace::IBeatToTimeConverter* beatToTimeConverter,
                                                                   bool updateBeatmapDataOnInsert) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapEventDataBoxGroupLists*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapData*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IBeatToTimeConvertor*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IBeatToTimeConverter*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, beatmapData, beatToTimeConvertor, updateBeatmapDataOnInsert);
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, beatmapData, beatToTimeConverter, updateBeatmapDataOnInsert);
 }
 inline ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>*
 GlobalNamespace::BeatmapEventDataBoxGroupLists::Insert(int32_t groupId, ::GlobalNamespace::BeatmapEventDataBoxGroup* beatmapEventDataBoxGroup) {

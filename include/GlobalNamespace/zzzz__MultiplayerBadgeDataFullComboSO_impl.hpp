@@ -1,7 +1,7 @@
 #pragma once
 #include "GlobalNamespace/zzzz__MultiplayerBadgeDataSO_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerBadgeDataFullComboSO_def.hpp"
-#include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapKey_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerBadgeAwardData_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerPlayerResultsData_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
@@ -11,9 +11,9 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MultiplayerBadgeAwardData* (
     ::GlobalNamespace::MultiplayerBadgeDataFullComboSO::*)(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>*, ::GlobalNamespace::PlayerDataModel*,
-                                                           ::GlobalNamespace::IDifficultyBeatmap*, float_t)>(&::GlobalNamespace::MultiplayerBadgeDataFullComboSO::CalculateBadgeData)> {
-  constexpr static std::size_t size = 0x464;
-  constexpr static std::size_t addrs = 0x23cd798;
+                                                           ByRef<::GlobalNamespace::BeatmapKey>, float_t)>(&::GlobalNamespace::MultiplayerBadgeDataFullComboSO::CalculateBadgeData)> {
+  constexpr static std::size_t size = 0x488;
+  constexpr static std::size_t addrs = 0x1295f44;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerBadgeDataFullComboSO::*)()>(
     &::GlobalNamespace::MultiplayerBadgeDataFullComboSO::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x23cdc5c;
+  constexpr static std::size_t addrs = 0x129642c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerBadgeDataFullComboSO*>::get(),
@@ -51,11 +51,10 @@ constexpr void GlobalNamespace::MultiplayerBadgeDataFullComboSO::__cordl_interna
 }
 inline ::GlobalNamespace::MultiplayerBadgeAwardData*
 GlobalNamespace::MultiplayerBadgeDataFullComboSO::CalculateBadgeData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData,
-                                                                     ::GlobalNamespace::PlayerDataModel* playerDataModel, ::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap,
-                                                                     float_t randomMultiplier) {
+                                                                     ::GlobalNamespace::PlayerDataModel* playerDataModel, ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, float_t randomMultiplier) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerBadgeDataFullComboSO*>::get(), 4)));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::MultiplayerBadgeAwardData*, false>(this, ___internal_method, resultsData, playerDataModel, difficultyBeatmap, randomMultiplier);
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::MultiplayerBadgeAwardData*, false>(this, ___internal_method, resultsData, playerDataModel, beatmapKey, randomMultiplier);
 }
 inline ::GlobalNamespace::MultiplayerBadgeDataFullComboSO* GlobalNamespace::MultiplayerBadgeDataFullComboSO::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerBadgeDataFullComboSO*>());

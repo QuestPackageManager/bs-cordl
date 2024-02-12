@@ -17,33 +17,33 @@ MARK_REF_PTR_T(::UnityEngine::Profiling::Profiler);
 namespace UnityEngine::Profiling {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10297))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9043))
 // CS Name: ::UnityEngine.Profiling::Profiler*
 class CORDL_TYPE Profiler : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method set_logFile, addr 0x2ce6b40, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_logFile, addr 0x2cedcd4, size 0x3c, virtual false, abstract: false, final false
   static inline void set_logFile(::StringW value);
 
-  /// @brief Method set_enableBinaryLog, addr 0x2ce6b7c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_enableBinaryLog, addr 0x2cedd10, size 0x3c, virtual false, abstract: false, final false
   static inline void set_enableBinaryLog(bool value);
 
-  /// @brief Method set_maxUsedMemory, addr 0x2ce6bb8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_maxUsedMemory, addr 0x2cedd4c, size 0x3c, virtual false, abstract: false, final false
   static inline void set_maxUsedMemory(int32_t value);
 
-  /// @brief Method get_enabled, addr 0x2ce6bf4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_enabled, addr 0x2cedd88, size 0x28, virtual false, abstract: false, final false
   static inline bool get_enabled();
 
-  /// @brief Method set_enabled, addr 0x2ce6c1c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_enabled, addr 0x2ceddb0, size 0x3c, virtual false, abstract: false, final false
   static inline void set_enabled(bool value);
 
-  /// @brief Method GetMonoUsedSizeLong, addr 0x2ce6c58, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetMonoUsedSizeLong, addr 0x2ceddec, size 0x28, virtual false, abstract: false, final false
   static inline int64_t GetMonoUsedSizeLong();
 
-  /// @brief Method GetTotalAllocatedMemoryLong, addr 0x2ce6c80, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetTotalAllocatedMemoryLong, addr 0x2cede14, size 0x28, virtual false, abstract: false, final false
   static inline int64_t GetTotalAllocatedMemoryLong();
 
-  /// @brief Method GetTotalReservedMemoryLong, addr 0x2ce6ca8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetTotalReservedMemoryLong, addr 0x2cede3c, size 0x28, virtual false, abstract: false, final false
   static inline int64_t GetTotalReservedMemoryLong();
 
   // Ctor Parameters [CppParam { name: "", ty: "Profiler", modifiers: "&&", def_value: None }]

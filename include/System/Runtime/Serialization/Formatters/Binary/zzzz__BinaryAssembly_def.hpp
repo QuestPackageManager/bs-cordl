@@ -48,19 +48,19 @@ public:
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryAssembly* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24c1dc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24e2e3c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Set, addr 0x24c1dd0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x24e2e44, size 0xc, virtual false, abstract: false, final false
   inline void Set(int32_t assemId, ::StringW assemblyString);
 
-  /// @brief Method Write, addr 0x24c1ddc, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Write, addr 0x24e2e50, size 0x70, virtual true, abstract: false, final true
   inline void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
 
-  /// @brief Method Read, addr 0x24c1e4c, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method Read, addr 0x24e2ec0, size 0x44, virtual true, abstract: false, final true
   inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
 
-  /// @brief Method Dump, addr 0x24c1e90, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Dump, addr 0x24e2f04, size 0x4, virtual false, abstract: false, final false
   inline void Dump();
 
   // Ctor Parameters [CppParam { name: "", ty: "BinaryAssembly", modifiers: "&&", def_value: None }]

@@ -24,21 +24,21 @@ public:
   // Declarations
   __declspec(property(get = get_Remaining)) int32_t Remaining;
 
-  /// @brief Method Fallback, addr 0x26310fc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Fallback, addr 0x2657220, size 0x8, virtual true, abstract: false, final false
   inline bool Fallback(::ArrayW<uint8_t, ::Array<uint8_t>*> bytesUnknown, int32_t index);
 
-  /// @brief Method GetNextChar, addr 0x26312d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetNextChar, addr 0x26573fc, size 0x8, virtual true, abstract: false, final false
   inline char16_t GetNextChar();
 
-  /// @brief Method get_Remaining, addr 0x26312e0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Remaining, addr 0x2657404, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Remaining();
 
-  /// @brief Method Throw, addr 0x2631104, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method Throw, addr 0x2657228, size 0x1d4, virtual false, abstract: false, final false
   inline void Throw(::ArrayW<uint8_t, ::Array<uint8_t>*> bytesUnknown, int32_t index);
 
   static inline ::System::Text::DecoderExceptionFallbackBuffer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2631088, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26571ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DecoderExceptionFallbackBuffer", modifiers: "&&", def_value: None }]

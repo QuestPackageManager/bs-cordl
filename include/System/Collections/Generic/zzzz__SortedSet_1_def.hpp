@@ -113,8 +113,8 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9542))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9536))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7552))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7546))
 // CS Name: ::SortedSet`1::Node<T>*
 class CORDL_TYPE __SortedSet_1__Node : public ::System::Object {
 public:
@@ -292,7 +292,7 @@ namespace System::Collections::Generic {
 template <typename T>
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9537))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7547))
 // CS Name: ::SortedSet`1::Enumerator<T>
 struct CORDL_TYPE __SortedSet_1__Enumerator {
 public:
@@ -411,7 +411,7 @@ namespace System::Collections::Generic {
 template <typename T>
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9538))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7548))
 // CS Name: ::SortedSet`1::ElementCount<T>
 struct CORDL_TYPE __SortedSet_1__ElementCount {
 public:
@@ -443,7 +443,7 @@ namespace System::Collections::Generic {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9539))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7549))
 // CS Name: ::SortedSet`1::<>c__DisplayClass52_0<T>*
 class CORDL_TYPE __SortedSet_1____c__DisplayClass52_0 : public ::System::Object {
 public:
@@ -517,7 +517,7 @@ namespace System::Collections::Generic {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9540))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7550))
 // CS Name: ::SortedSet`1::<>c__DisplayClass53_0<T>*
 class CORDL_TYPE __SortedSet_1____c__DisplayClass53_0 : public ::System::Object {
 public:
@@ -579,7 +579,7 @@ namespace System::Collections::Generic {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9541))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7551))
 // CS Name: ::System.Collections.Generic::SortedSet`1<T>*
 class CORDL_TYPE SortedSet_1 : public ::System::Object {
 public:

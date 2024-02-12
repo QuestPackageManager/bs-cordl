@@ -24,20 +24,20 @@ public:
   // Declarations
   __declspec(property(get = get_Time)) int64_t Time;
 
-  /// @brief Method TimeToBytes, addr 0x11c7ba8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method TimeToBytes, addr 0x11f5a38, size 0x94, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> TimeToBytes(int64_t t);
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::KeyExpirationTime* New_ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0x11c7c3c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11f5acc, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::KeyExpirationTime* New_ctor(bool critical, int64_t seconds);
 
-  /// @brief Method .ctor, addr 0x11c7c84, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11f5b14, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(bool critical, int64_t seconds);
 
-  /// @brief Method get_Time, addr 0x11c7cd0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_Time, addr 0x11f5b60, size 0x5c, virtual false, abstract: false, final false
   inline int64_t get_Time();
 
   // Ctor Parameters [CppParam { name: "", ty: "KeyExpirationTime", modifiers: "&&", def_value: None }]

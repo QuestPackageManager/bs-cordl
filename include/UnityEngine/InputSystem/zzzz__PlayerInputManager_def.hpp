@@ -75,14 +75,14 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::__PlayerInputManager__PlayerLeftEvent
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6315)), TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst:
-// 378 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6316)) CS Name: ::PlayerInputManager::PlayerJoinedEvent*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5574)), TypeDefinitionIndex(TypeDefinitionIndex(9234)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9234), inst: 379
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5575)) CS Name: ::PlayerInputManager::PlayerJoinedEvent*
 class CORDL_TYPE __PlayerInputManager__PlayerJoinedEvent : public ::UnityEngine::Events::UnityEvent_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>> {
 public:
   // Declarations
   static inline ::UnityEngine::InputSystem::__PlayerInputManager__PlayerJoinedEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ac3dac, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ac4918, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__PlayerInputManager__PlayerJoinedEvent", modifiers: "&&", def_value: None }]
@@ -109,14 +109,14 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__Play
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6315)), TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst:
-// 378 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6317)) CS Name: ::PlayerInputManager::PlayerLeftEvent*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5574)), TypeDefinitionIndex(TypeDefinitionIndex(9234)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9234), inst: 379
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5576)) CS Name: ::PlayerInputManager::PlayerLeftEvent*
 class CORDL_TYPE __PlayerInputManager__PlayerLeftEvent : public ::UnityEngine::Events::UnityEvent_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>> {
 public:
   // Declarations
   static inline ::UnityEngine::InputSystem::__PlayerInputManager__PlayerLeftEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ac3e5c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ac49c8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__PlayerInputManager__PlayerLeftEvent", modifiers: "&&", def_value: None }]
@@ -143,10 +143,10 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__Play
 // SizeInfo { instance_size: 296, native_size: -1, calculated_instance_size: 296, calculated_native_size: 296, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2323)), TypeDefinitionIndex(TypeDefinitionIndex(6164)), TypeDefinitionIndex(TypeDefinitionIndex(6315)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6319)), TypeDefinitionIndex(TypeDefinitionIndex(6320)), TypeDefinitionIndex(TypeDefinitionIndex(6660)), TypeDefinitionIndex(TypeDefinitionIndex(10165)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10225)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2323), inst: 378 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(6660), inst: 988 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6318)) CS Name: ::UnityEngine.InputSystem::PlayerInputManager*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2323)), TypeDefinitionIndex(TypeDefinitionIndex(5423)), TypeDefinitionIndex(TypeDefinitionIndex(5574)),
+// TypeDefinitionIndex(TypeDefinitionIndex(5578)), TypeDefinitionIndex(TypeDefinitionIndex(5579)), TypeDefinitionIndex(TypeDefinitionIndex(5919)), TypeDefinitionIndex(TypeDefinitionIndex(8909)),
+// TypeDefinitionIndex(TypeDefinitionIndex(8969)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2323), inst: 379 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(5919), inst: 987 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5577)) CS Name: ::UnityEngine.InputSystem::PlayerInputManager*
 class CORDL_TYPE PlayerInputManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -356,133 +356,133 @@ public:
 
   static inline ::UnityW<::UnityEngine::InputSystem::PlayerInputManager> getStaticF__instance_k__BackingField();
 
-  /// @brief Method get_splitScreen, addr 0x2ac3030, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_splitScreen, addr 0x2ac3b9c, size 0x8, virtual false, abstract: false, final false
   inline bool get_splitScreen();
 
-  /// @brief Method set_splitScreen, addr 0x2ac3038, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method set_splitScreen, addr 0x2ac3ba4, size 0x260, virtual false, abstract: false, final false
   inline void set_splitScreen(bool value);
 
-  /// @brief Method get_maintainAspectRatioInSplitScreen, addr 0x2ac38d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maintainAspectRatioInSplitScreen, addr 0x2ac4444, size 0x8, virtual false, abstract: false, final false
   inline bool get_maintainAspectRatioInSplitScreen();
 
-  /// @brief Method get_fixedNumberOfSplitScreens, addr 0x2ac38e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fixedNumberOfSplitScreens, addr 0x2ac444c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_fixedNumberOfSplitScreens();
 
-  /// @brief Method get_splitScreenArea, addr 0x2ac38e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_splitScreenArea, addr 0x2ac4454, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_splitScreenArea();
 
-  /// @brief Method get_playerCount, addr 0x2ac38f4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_playerCount, addr 0x2ac4460, size 0x58, virtual false, abstract: false, final false
   inline int32_t get_playerCount();
 
-  /// @brief Method get_maxPlayerCount, addr 0x2ac394c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxPlayerCount, addr 0x2ac44b8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxPlayerCount();
 
-  /// @brief Method get_joiningEnabled, addr 0x2ac3954, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_joiningEnabled, addr 0x2ac44c0, size 0x8, virtual false, abstract: false, final false
   inline bool get_joiningEnabled();
 
-  /// @brief Method get_joinBehavior, addr 0x2ac395c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_joinBehavior, addr 0x2ac44c8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::PlayerJoinBehavior get_joinBehavior();
 
-  /// @brief Method set_joinBehavior, addr 0x2ac3964, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method set_joinBehavior, addr 0x2ac44d0, size 0x50, virtual false, abstract: false, final false
   inline void set_joinBehavior(::UnityEngine::InputSystem::PlayerJoinBehavior value);
 
-  /// @brief Method get_joinAction, addr 0x2ac3c7c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_joinAction, addr 0x2ac47e8, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionProperty get_joinAction();
 
-  /// @brief Method set_joinAction, addr 0x2ac3c90, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method set_joinAction, addr 0x2ac47fc, size 0xa4, virtual false, abstract: false, final false
   inline void set_joinAction(::UnityEngine::InputSystem::InputActionProperty value);
 
-  /// @brief Method get_notificationBehavior, addr 0x2ac3d34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_notificationBehavior, addr 0x2ac48a0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::PlayerNotifications get_notificationBehavior();
 
-  /// @brief Method set_notificationBehavior, addr 0x2ac3d3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_notificationBehavior, addr 0x2ac48a8, size 0x8, virtual false, abstract: false, final false
   inline void set_notificationBehavior(::UnityEngine::InputSystem::PlayerNotifications value);
 
-  /// @brief Method get_playerJoinedEvent, addr 0x2ac3d44, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_playerJoinedEvent, addr 0x2ac48b0, size 0x68, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::__PlayerInputManager__PlayerJoinedEvent* get_playerJoinedEvent();
 
-  /// @brief Method get_playerLeftEvent, addr 0x2ac3df4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_playerLeftEvent, addr 0x2ac4960, size 0x68, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::__PlayerInputManager__PlayerLeftEvent* get_playerLeftEvent();
 
-  /// @brief Method add_onPlayerJoined, addr 0x2ac3ea4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method add_onPlayerJoined, addr 0x2ac4a10, size 0xa0, virtual false, abstract: false, final false
   inline void add_onPlayerJoined(::System::Action_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>>* value);
 
-  /// @brief Method remove_onPlayerJoined, addr 0x2ac3f44, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method remove_onPlayerJoined, addr 0x2ac4ab0, size 0xa0, virtual false, abstract: false, final false
   inline void remove_onPlayerJoined(::System::Action_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>>* value);
 
-  /// @brief Method add_onPlayerLeft, addr 0x2ac3fe4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method add_onPlayerLeft, addr 0x2ac4b50, size 0xa0, virtual false, abstract: false, final false
   inline void add_onPlayerLeft(::System::Action_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>>* value);
 
-  /// @brief Method remove_onPlayerLeft, addr 0x2ac4084, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method remove_onPlayerLeft, addr 0x2ac4bf0, size 0xa0, virtual false, abstract: false, final false
   inline void remove_onPlayerLeft(::System::Action_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>>* value);
 
-  /// @brief Method get_playerPrefab, addr 0x2ac4124, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerPrefab, addr 0x2ac4c90, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_playerPrefab();
 
-  /// @brief Method set_playerPrefab, addr 0x2ac412c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_playerPrefab, addr 0x2ac4c98, size 0x8, virtual false, abstract: false, final false
   inline void set_playerPrefab(::UnityEngine::GameObject* value);
 
-  /// @brief Method get_instance, addr 0x2ac4134, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_instance, addr 0x2ac4ca0, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::InputSystem::PlayerInputManager> get_instance();
 
-  /// @brief Method set_instance, addr 0x2ac417c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_instance, addr 0x2ac4ce8, size 0x4c, virtual false, abstract: false, final false
   static inline void set_instance(::UnityEngine::InputSystem::PlayerInputManager* value);
 
-  /// @brief Method EnableJoining, addr 0x2ac3a8c, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method EnableJoining, addr 0x2ac45f8, size 0x1f0, virtual false, abstract: false, final false
   inline void EnableJoining();
 
-  /// @brief Method DisableJoining, addr 0x2ac39b4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method DisableJoining, addr 0x2ac4520, size 0xd8, virtual false, abstract: false, final false
   inline void DisableJoining();
 
-  /// @brief Method JoinPlayerFromUI, addr 0x2ac41cc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method JoinPlayerFromUI, addr 0x2ac4d38, size 0x54, virtual false, abstract: false, final false
   inline void JoinPlayerFromUI();
 
-  /// @brief Method JoinPlayerFromAction, addr 0x2ac44f8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method JoinPlayerFromAction, addr 0x2ac5064, size 0x54, virtual false, abstract: false, final false
   inline void JoinPlayerFromAction(::UnityEngine::InputSystem::__InputAction__CallbackContext context);
 
-  /// @brief Method JoinPlayerFromActionIfNotAlreadyJoined, addr 0x2ac4608, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method JoinPlayerFromActionIfNotAlreadyJoined, addr 0x2ac5174, size 0xe8, virtual false, abstract: false, final false
   inline void JoinPlayerFromActionIfNotAlreadyJoined(::UnityEngine::InputSystem::__InputAction__CallbackContext context);
 
-  /// @brief Method JoinPlayer, addr 0x2ac454c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method JoinPlayer, addr 0x2ac50b8, size 0xbc, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::InputSystem::PlayerInput> JoinPlayer(int32_t playerIndex, int32_t splitScreenIndex, ::StringW controlScheme, ::UnityEngine::InputSystem::InputDevice* pairWithDevice);
 
-  /// @brief Method JoinPlayer, addr 0x2ac46f0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method JoinPlayer, addr 0x2ac525c, size 0xbc, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::InputSystem::PlayerInput> JoinPlayer(int32_t playerIndex, int32_t splitScreenIndex, ::StringW controlScheme,
                                                                       ::ArrayW<::UnityEngine::InputSystem::InputDevice*, ::Array<::UnityEngine::InputSystem::InputDevice*>*> pairWithDevices);
 
-  /// @brief Method get_messages, addr 0x2ac47ac, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method get_messages, addr 0x2ac5318, size 0xe4, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> get_messages();
 
-  /// @brief Method CheckIfPlayerCanJoin, addr 0x2ac4220, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method CheckIfPlayerCanJoin, addr 0x2ac4d8c, size 0x2d8, virtual false, abstract: false, final false
   inline bool CheckIfPlayerCanJoin(int32_t playerIndex);
 
-  /// @brief Method OnUnpairedDeviceUsed, addr 0x2ac4890, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method OnUnpairedDeviceUsed, addr 0x2ac53fc, size 0xb4, virtual false, abstract: false, final false
   inline void OnUnpairedDeviceUsed(::UnityEngine::InputSystem::InputControl* control, ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr);
 
-  /// @brief Method OnEnable, addr 0x2ac4cc0, size 0x340, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x2ac582c, size 0x340, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable, addr 0x2ac5000, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x2ac5b6c, size 0xdc, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method UpdateSplitScreen, addr 0x2ac3298, size 0x640, virtual false, abstract: false, final false
+  /// @brief Method UpdateSplitScreen, addr 0x2ac3e04, size 0x640, virtual false, abstract: false, final false
   inline void UpdateSplitScreen();
 
-  /// @brief Method IsDeviceUsableWithPlayerActions, addr 0x2ac4944, size 0x37c, virtual false, abstract: false, final false
+  /// @brief Method IsDeviceUsableWithPlayerActions, addr 0x2ac54b0, size 0x37c, virtual false, abstract: false, final false
   inline bool IsDeviceUsableWithPlayerActions(::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method ValidateInputActionAsset, addr 0x2ac41c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ValidateInputActionAsset, addr 0x2ac4d34, size 0x4, virtual false, abstract: false, final false
   inline void ValidateInputActionAsset();
 
-  /// @brief Method NotifyPlayerJoined, addr 0x2ac153c, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method NotifyPlayerJoined, addr 0x2ac20a8, size 0x128, virtual false, abstract: false, final false
   inline void NotifyPlayerJoined(::UnityEngine::InputSystem::PlayerInput* player);
 
-  /// @brief Method NotifyPlayerLeft, addr 0x2ac1ef4, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method NotifyPlayerLeft, addr 0x2ac2a60, size 0x128, virtual false, abstract: false, final false
   inline void NotifyPlayerLeft(::UnityEngine::InputSystem::PlayerInput* player);
 
   static inline ::UnityEngine::InputSystem::PlayerInputManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ac50dc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ac5c48, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PlayerInputManager", modifiers: "&&", def_value: None }]

@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IComponentRefresher);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15856))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15601))
 // CS Name: ::IComponentRefresher*
 class CORDL_TYPE IComponentRefresher {
 public:

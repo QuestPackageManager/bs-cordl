@@ -84,7 +84,7 @@ MARK_GEN_VAL_T(::GlobalNamespace::__GraphAPIClient___Post_d__5_1);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12769))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12667))
 // CS Name: ::GraphAPIClient::PostOptions
 struct CORDL_TYPE __GraphAPIClient__PostOptions {
 public:
@@ -127,9 +127,9 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TRequest, typename TResponse>
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(12769)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 865 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 865 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(12770)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3389)), TypeDefinitionIndex(TypeDefinitionIndex(3390)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3398)), TypeDefinitionIndex(TypeDefinitionIndex(12667)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 866 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3398), inst: 866 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(12668)) CS Name:
 // ::GraphAPIClient::<Post>d__4`2<TRequest,TResponse>
 struct CORDL_TYPE __GraphAPIClient___Post_d__4_2 {
 public:
@@ -216,9 +216,9 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TResponse>
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14655)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 397 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3394), inst: 883 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 94 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(12771)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3398)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14660)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 398 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3390), inst: 887 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3398), inst: 99 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(12669)) CS Name:
 // ::GraphAPIClient::<Post>d__5`1<TResponse>
 struct CORDL_TYPE __GraphAPIClient___Post_d__5_1 {
 public:
@@ -294,7 +294,7 @@ public:
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12772))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12670))
 // CS Name: ::GraphAPIClient*
 class CORDL_TYPE GraphAPIClient : public ::System::Object {
 public:
@@ -325,7 +325,7 @@ public:
 
   static inline ::GlobalNamespace::GraphAPIClient* New_ctor(::GlobalNamespace::INetworkConfig* networkConfig);
 
-  /// @brief Method .ctor, addr 0xe3c254, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe6708c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::INetworkConfig* networkConfig);
 
   /// @brief Method PostLoggedOut, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -343,7 +343,7 @@ public:
   inline ::System::Threading::Tasks::Task_1<TResponse>* Post(::System::Uri* uri, ::StringW accessToken, ::System::Net::Http::HttpContent* httpContent,
                                                              ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method CalculateDelayMsBeforeRetry, addr 0xe3c2d0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method CalculateDelayMsBeforeRetry, addr 0xe67108, size 0x98, virtual false, abstract: false, final false
   static inline int32_t CalculateDelayMsBeforeRetry(int32_t numAttempts, ::GlobalNamespace::__GraphAPIClient__PostOptions postOptions);
 
   // Ctor Parameters [CppParam { name: "", ty: "GraphAPIClient", modifiers: "&&", def_value: None }]

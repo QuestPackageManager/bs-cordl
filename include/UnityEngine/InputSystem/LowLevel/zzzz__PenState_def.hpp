@@ -29,8 +29,8 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::PenState);
 // SizeInfo { instance_size: 36, native_size: 36, calculated_instance_size: 36, calculated_native_size: 52, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10243))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6506))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8987))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5765))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::PenState
 #pragma pack(push, 0)
 struct CORDL_TYPE PenState {
@@ -107,13 +107,13 @@ public:
 
   constexpr void __cordl_internal_set_displayIndex(uint16_t value);
 
-  /// @brief Method get_Format, addr 0x2ae8a88, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Format, addr 0x2aea5f4, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Format();
 
-  /// @brief Method WithButton, addr 0x2ae8ab8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method WithButton, addr 0x2aea624, size 0x34, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::PenState WithButton(::UnityEngine::InputSystem::PenButton button, bool state);
 
-  /// @brief Method get_format, addr 0x2ae8aec, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_format, addr 0x2aea658, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
   // Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "delta", ty: "::UnityEngine::Vector2", modifiers: "", def_value:

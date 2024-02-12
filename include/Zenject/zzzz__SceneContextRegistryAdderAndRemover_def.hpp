@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::Zenject::SceneContextRegistryAdderAndRemover);
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11333))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10475))
 // CS Name: ::Zenject::SceneContextRegistryAdderAndRemover*
 class CORDL_TYPE SceneContextRegistryAdderAndRemover : public ::System::Object {
 public:
@@ -71,19 +71,19 @@ public:
 
   static inline ::Zenject::SceneContextRegistryAdderAndRemover* New_ctor(::Zenject::SceneContext* sceneContext, ::Zenject::SceneContextRegistry* registry);
 
-  /// @brief Method .ctor, addr 0x2f18998, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f34ae0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::SceneContext* sceneContext, ::Zenject::SceneContextRegistry* registry);
 
-  /// @brief Method Initialize, addr 0x2f189c4, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x2f34b0c, size 0x20, virtual true, abstract: false, final true
   inline void Initialize();
 
-  /// @brief Method Dispose, addr 0x2f189e4, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2f34b2c, size 0x20, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method __zenCreate, addr 0x2f18a04, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2f34b4c, size 0x11c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f18b20, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f34c68, size 0x304, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "SceneContextRegistryAdderAndRemover", modifiers: "&&", def_value: None }]

@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ITimeProvider);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5385))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16196))
 // CS Name: ::ITimeProvider*
 class CORDL_TYPE ITimeProvider {
 public:

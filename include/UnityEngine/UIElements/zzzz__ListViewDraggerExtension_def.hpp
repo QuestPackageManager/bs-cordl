@@ -22,12 +22,12 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::ListViewDraggerExtension);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6960))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6219))
 // CS Name: ::UnityEngine.UIElements::ListViewDraggerExtension*
 class CORDL_TYPE ListViewDraggerExtension : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetRecycledItemFromIndex, addr 0x2e09584, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method GetRecycledItemFromIndex, addr 0x2e2696c, size 0x348, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::ReusableCollectionItem* GetRecycledItemFromIndex(::UnityEngine::UIElements::BaseVerticalCollectionView* listView, int32_t index);
 
   // Ctor Parameters [CppParam { name: "", ty: "ListViewDraggerExtension", modifiers: "&&", def_value: None }]

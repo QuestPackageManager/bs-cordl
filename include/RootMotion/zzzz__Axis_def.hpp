@@ -16,7 +16,7 @@ MARK_VAL_T(::RootMotion::Axis);
 namespace RootMotion {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12480))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12378))
 // CS Name: ::RootMotion::Axis
 struct CORDL_TYPE Axis {
 public:

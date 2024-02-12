@@ -70,7 +70,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::__HEU_Parameters____c__DisplayClass35_0);
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9763))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9555))
 // CS Name: ::HEU_Parameters::<>c__DisplayClass35_0*
 class CORDL_TYPE __HEU_Parameters____c__DisplayClass35_0 : public ::System::Object {
 public:
@@ -95,10 +95,10 @@ public:
 
   static inline ::HoudiniEngineUnity::__HEU_Parameters____c__DisplayClass35_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2194ea8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x222978c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Initialize>b__0, addr 0x2197a58, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__0, addr 0x222c33c, size 0x14, virtual false, abstract: false, final false
   inline bool _Initialize_b__0(::HoudiniEngineUnity::HAPI_ParmInfo p);
 
   // Ctor Parameters [CppParam { name: "", ty: "__HEU_Parameters____c__DisplayClass35_0", modifiers: "&&", def_value: None }]
@@ -135,8 +135,8 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_Parameters____c__DisplayClass
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 123, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9764))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8954))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9556))
 // CS Name: ::HoudiniEngineUnity::HEU_Parameters*
 class CORDL_TYPE HEU_Parameters : public ::UnityEngine::ScriptableObject {
 public:
@@ -297,142 +297,142 @@ public:
 
   constexpr void __cordl_internal_set__recacheUI(bool value);
 
-  /// @brief Method get_RootParameters, addr 0x2193058, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RootParameters, addr 0x222793c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<int32_t>* get_RootParameters();
 
-  /// @brief Method set_RootParameters, addr 0x2193060, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RootParameters, addr 0x2227944, size 0x8, virtual false, abstract: false, final false
   inline void set_RootParameters(::System::Collections::Generic::List_1<int32_t>* value);
 
-  /// @brief Method get_ParameterModifiers, addr 0x2193068, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ParameterModifiers, addr 0x222794c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ParameterModifier*>* get_ParameterModifiers();
 
-  /// @brief Method set_ParameterModifiers, addr 0x2193070, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ParameterModifiers, addr 0x2227954, size 0x8, virtual false, abstract: false, final false
   inline void set_ParameterModifiers(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ParameterModifier*>* value);
 
-  /// @brief Method get_RequiresRegeneration, addr 0x2193078, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RequiresRegeneration, addr 0x222795c, size 0x8, virtual false, abstract: false, final false
   inline bool get_RequiresRegeneration();
 
-  /// @brief Method set_RequiresRegeneration, addr 0x2193080, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_RequiresRegeneration, addr 0x2227964, size 0xc, virtual false, abstract: false, final false
   inline void set_RequiresRegeneration(bool value);
 
-  /// @brief Method GetPresetData, addr 0x219308c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetPresetData, addr 0x2227970, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetPresetData();
 
-  /// @brief Method SetPresetData, addr 0x2193094, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetPresetData, addr 0x2227978, size 0x8, virtual false, abstract: false, final false
   inline void SetPresetData(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method GetDefaultPresetData, addr 0x219309c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultPresetData, addr 0x2227980, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetDefaultPresetData();
 
-  /// @brief Method AreParametersValid, addr 0x21930a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AreParametersValid, addr 0x2227988, size 0x8, virtual false, abstract: false, final false
   inline bool AreParametersValid();
 
-  /// @brief Method get_ShowParameters, addr 0x21930ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ShowParameters, addr 0x2227990, size 0x8, virtual false, abstract: false, final false
   inline bool get_ShowParameters();
 
-  /// @brief Method set_ShowParameters, addr 0x21930b4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ShowParameters, addr 0x2227998, size 0xc, virtual false, abstract: false, final false
   inline void set_ShowParameters(bool value);
 
-  /// @brief Method get_RecacheUI, addr 0x21930c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RecacheUI, addr 0x22279a4, size 0x8, virtual false, abstract: false, final false
   inline bool get_RecacheUI();
 
-  /// @brief Method set_RecacheUI, addr 0x21930c8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_RecacheUI, addr 0x22279ac, size 0xc, virtual false, abstract: false, final false
   inline void set_RecacheUI(bool value);
 
-  /// @brief Method CleanUp, addr 0x21930d4, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method CleanUp, addr 0x22279b8, size 0x29c, virtual false, abstract: false, final false
   inline void CleanUp();
 
-  /// @brief Method Initialize, addr 0x2193370, size 0x1b38, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x2227c54, size 0x1b38, virtual false, abstract: false, final false
   inline bool Initialize(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t nodeID, ByRef<::HoudiniEngineUnity::HAPI_NodeInfo> nodeInfo,
                          ::System::Collections::Generic::Dictionary_2<::StringW, ::HoudiniEngineUnity::HEU_ParameterData*>* previousParamFolders,
                          ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::HoudiniEngineUnity::HEU_InputNode>>* previousParamInputNodes,
                          ::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset);
 
-  /// @brief Method SetupRampParameter, addr 0x2194eb0, size 0x3f0, virtual false, abstract: false, final false
+  /// @brief Method SetupRampParameter, addr 0x2229794, size 0x3f0, virtual false, abstract: false, final false
   inline void SetupRampParameter(::HoudiniEngineUnity::HEU_ParameterData* rampParameter);
 
-  /// @brief Method GetParameters, addr 0x21952a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetParameters, addr 0x2229b84, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ParameterData*>* GetParameters();
 
-  /// @brief Method GetParameter, addr 0x2190910, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetParameter, addr 0x22251f4, size 0x84, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_ParameterData* GetParameter(int32_t listIndex);
 
-  /// @brief Method GetParameter, addr 0x21952a8, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method GetParameter, addr 0x2229b8c, size 0x190, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_ParameterData* GetParameter(::StringW name);
 
-  /// @brief Method GetParameterWithParmID, addr 0x219074c, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method GetParameterWithParmID, addr 0x2225030, size 0x164, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_ParameterData* GetParameterWithParmID(int32_t parmID);
 
-  /// @brief Method RemoveParameter, addr 0x2195438, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method RemoveParameter, addr 0x2229d1c, size 0x80, virtual false, abstract: false, final false
   inline void RemoveParameter(int32_t listIndex);
 
-  /// @brief Method GetChosenIndexFromChoiceList, addr 0x21954b8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method GetChosenIndexFromChoiceList, addr 0x2229d9c, size 0xac, virtual false, abstract: false, final false
   inline int32_t GetChosenIndexFromChoiceList(::HoudiniEngineUnity::HEU_ParameterData* inChoiceParameter);
 
-  /// @brief Method GetStringFromParameter, addr 0x2195564, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetStringFromParameter, addr 0x2229e48, size 0x48, virtual false, abstract: false, final false
   inline ::StringW GetStringFromParameter(::StringW paramName);
 
-  /// @brief Method SetStringToParameter, addr 0x21955ac, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method SetStringToParameter, addr 0x2229e90, size 0x70, virtual false, abstract: false, final false
   inline void SetStringToParameter(::StringW paramName, ::StringW value);
 
-  /// @brief Method HaveParametersChanged, addr 0x219561c, size 0x410, virtual false, abstract: false, final false
+  /// @brief Method HaveParametersChanged, addr 0x2229f00, size 0x410, virtual false, abstract: false, final false
   inline bool HaveParametersChanged();
 
-  /// @brief Method UploadValuesToHoudini, addr 0x2195a2c, size 0x71c, virtual false, abstract: false, final false
+  /// @brief Method UploadValuesToHoudini, addr 0x222a310, size 0x71c, virtual false, abstract: false, final false
   inline bool UploadValuesToHoudini(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset, bool bDoCheck, bool bForceUploadInputs);
 
-  /// @brief Method InsertInstanceToMultiParm, addr 0x2196148, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method InsertInstanceToMultiParm, addr 0x222aa2c, size 0xd4, virtual false, abstract: false, final false
   inline void InsertInstanceToMultiParm(int32_t unityParamIndex, int32_t instanceIndex, int32_t numInstancesToAdd);
 
-  /// @brief Method RemoveInstancesFromMultiParm, addr 0x219621c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method RemoveInstancesFromMultiParm, addr 0x222ab00, size 0xd4, virtual false, abstract: false, final false
   inline void RemoveInstancesFromMultiParm(int32_t unityParamIndex, int32_t instanceIndex, int32_t numInstancesToRemove);
 
-  /// @brief Method ClearInstancesFromMultiParm, addr 0x21962f0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method ClearInstancesFromMultiParm, addr 0x222abd4, size 0xc0, virtual false, abstract: false, final false
   inline void ClearInstancesFromMultiParm(int32_t unityParamIndex);
 
-  /// @brief Method HasModifiersPending, addr 0x21963b0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method HasModifiersPending, addr 0x222ac94, size 0x50, virtual false, abstract: false, final false
   inline bool HasModifiersPending();
 
-  /// @brief Method ProcessModifiers, addr 0x2196400, size 0x694, virtual false, abstract: false, final false
+  /// @brief Method ProcessModifiers, addr 0x222ace4, size 0x694, virtual false, abstract: false, final false
   inline void ProcessModifiers(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method GetParameterDataForUIRestore, addr 0x2196a94, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method GetParameterDataForUIRestore, addr 0x222b378, size 0x1e8, virtual false, abstract: false, final false
   inline void GetParameterDataForUIRestore(::System::Collections::Generic::Dictionary_2<::StringW, ::HoudiniEngineUnity::HEU_ParameterData*>* folderParams,
                                            ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::HoudiniEngineUnity::HEU_InputNode>>* inputNodeParams);
 
-  /// @brief Method GetInputNodeConnectionObjects, addr 0x2196c7c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetInputNodeConnectionObjects, addr 0x222b560, size 0x4, virtual false, abstract: false, final false
   inline void GetInputNodeConnectionObjects(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* inputNodeObjects);
 
-  /// @brief Method DownloadPresetData, addr 0x2196c80, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method DownloadPresetData, addr 0x222b564, size 0x50, virtual false, abstract: false, final false
   inline void DownloadPresetData(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method UploadPresetData, addr 0x2196cd0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method UploadPresetData, addr 0x222b5b4, size 0x44, virtual false, abstract: false, final false
   inline void UploadPresetData(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method DownloadAsDefaultPresetData, addr 0x2196d14, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method DownloadAsDefaultPresetData, addr 0x222b5f8, size 0x50, virtual false, abstract: false, final false
   inline void DownloadAsDefaultPresetData(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method UploadParameterInputs, addr 0x2196d64, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method UploadParameterInputs, addr 0x222b648, size 0x1e0, virtual false, abstract: false, final false
   inline void UploadParameterInputs(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset, bool bForceUpdate);
 
-  /// @brief Method UpdateTransformParameters, addr 0x2196f44, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method UpdateTransformParameters, addr 0x222b828, size 0xa8, virtual false, abstract: false, final false
   inline void UpdateTransformParameters(::HoudiniEngineUnity::HEU_SessionBase* session, ByRef<::HoudiniEngineUnity::HAPI_TransformEuler> HAPITransform);
 
-  /// @brief Method SyncParameterFromHoudini, addr 0x2196fec, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SyncParameterFromHoudini, addr 0x222b8d0, size 0x80, virtual false, abstract: false, final false
   inline void SyncParameterFromHoudini(::HoudiniEngineUnity::HEU_SessionBase* session, ::StringW parameterName);
 
-  /// @brief Method SyncInternalParametersForUndoCompare, addr 0x219706c, size 0x41c, virtual false, abstract: false, final false
+  /// @brief Method SyncInternalParametersForUndoCompare, addr 0x222b950, size 0x41c, virtual false, abstract: false, final false
   inline void SyncInternalParametersForUndoCompare(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method ResetAllToDefault, addr 0x2197488, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method ResetAllToDefault, addr 0x222bd6c, size 0x188, virtual false, abstract: false, final false
   inline void ResetAllToDefault(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method IsEquivalentTo, addr 0x2197610, size 0x318, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x222bef4, size 0x318, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_Parameters* other);
 
   static inline ::HoudiniEngineUnity::HEU_Parameters* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2197928, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x222c20c, size 0x130, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_Parameters", modifiers: "&&", def_value: None }]

@@ -37,7 +37,7 @@ namespace UnityEngine::InputSystem::Utilities {
 template <typename TValue>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6692))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5951))
 // CS Name: ::TakeNObservable`1::Take<TValue>*
 class CORDL_TYPE __TakeNObservable_1__Take : public ::System::Object {
 public:
@@ -112,7 +112,7 @@ namespace UnityEngine::InputSystem::Utilities {
 template <typename TValue>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6693))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5952))
 // CS Name: ::UnityEngine.InputSystem.Utilities::TakeNObservable`1<TValue>*
 class CORDL_TYPE TakeNObservable_1 : public ::System::Object {
 public:

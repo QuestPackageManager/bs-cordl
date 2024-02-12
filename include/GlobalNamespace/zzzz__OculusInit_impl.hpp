@@ -1,302 +1,278 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BasePlatformInit_impl.hpp"
+#include "Oculus/Platform/Models/zzzz__PlatformInitialize_impl.hpp"
+#include "Oculus/Platform/zzzz__Message_1_impl.hpp"
+#include "Oculus/Platform/zzzz__Message_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
-#include "System/zzzz__Object_impl.hpp"
+#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_impl.hpp"
 #include "GlobalNamespace/zzzz__OculusInit_def.hpp"
 #include "GlobalNamespace/zzzz__OculusInit_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
 #include "Oculus/Platform/Models/zzzz__PlatformInitialize_def.hpp"
-#include "Oculus/Platform/Models/zzzz__UserAccountAgeCategory_def.hpp"
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
 #include "Oculus/Platform/zzzz__Message_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
-#include "System/Threading/Tasks/zzzz__TaskCompletionSource_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__OculusInit___InitializeInternalAsync_d__7.MoveNext
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
+//  Writing Method size for method: ::GlobalNamespace::__OculusInit___InitializeInternalAsync_d__2.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OculusInit___InitializeInternalAsync_d__7::*)()>(
-    &::GlobalNamespace::__OculusInit___InitializeInternalAsync_d__7::MoveNext)> {
-  constexpr static std::size_t size = 0x318;
-  constexpr static std::size_t addrs = 0x2228f08;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OculusInit___InitializeInternalAsync_d__2::*)()>(
+    &::GlobalNamespace::__OculusInit___InitializeInternalAsync_d__2::MoveNext)> {
+  constexpr static std::size_t size = 0x258;
+  constexpr static std::size_t addrs = 0xe38208;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OculusInit___InitializeInternalAsync_d__7>::get(), "MoveNext",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OculusInit___InitializeInternalAsync_d__2>::get(), "MoveNext",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__OculusInit___InitializeInternalAsync_d__7.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::__OculusInit___InitializeInternalAsync_d__2.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OculusInit___InitializeInternalAsync_d__7::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::__OculusInit___InitializeInternalAsync_d__7::SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OculusInit___InitializeInternalAsync_d__2::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::__OculusInit___InitializeInternalAsync_d__2::SetStateMachine)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2229220;
+  constexpr static std::size_t addrs = 0xe38460;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OculusInit___InitializeInternalAsync_d__7>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OculusInit___InitializeInternalAsync_d__2>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::__OculusInit___InitializeInternalAsync_d__7::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::__OculusInit___InitializeInternalAsync_d__2::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::__OculusInit___InitializeInternalAsync_d__7::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::__OculusInit___InitializeInternalAsync_d__2::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-inline void GlobalNamespace::__OculusInit___InitializeInternalAsync_d__7::MoveNext() {
+inline void GlobalNamespace::__OculusInit___InitializeInternalAsync_d__2::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OculusInit___InitializeInternalAsync_d__7>::get(), "MoveNext",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OculusInit___InitializeInternalAsync_d__2>::get(), "MoveNext",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::__OculusInit___InitializeInternalAsync_d__7::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void GlobalNamespace::__OculusInit___InitializeInternalAsync_d__2::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OculusInit___InitializeInternalAsync_d__7>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OculusInit___InitializeInternalAsync_d__2>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::GlobalNamespace::OculusInit*", modifiers: "",
-// def_value: Some("nullptr") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__OculusInit___InitializeInternalAsync_d__7::__OculusInit___InitializeInternalAsync_d__7(int32_t __1__state,
+// def_value: Some("nullptr") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }]
+constexpr ::GlobalNamespace::__OculusInit___InitializeInternalAsync_d__2::__OculusInit___InitializeInternalAsync_d__2(int32_t __1__state,
                                                                                                                       ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder,
                                                                                                                       ::GlobalNamespace::OculusInit* __4__this,
-                                                                                                                      ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept {
+                                                                                                                      ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->__4__this = __4__this;
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__OculusInit___InitializeInternalAsync_d__7::__OculusInit___InitializeInternalAsync_d__7() {}
-//  Writing Method size for method: ::GlobalNamespace::__OculusInit____c__DisplayClass8_0._ctor
+constexpr ::GlobalNamespace::__OculusInit___InitializeInternalAsync_d__2::__OculusInit___InitializeInternalAsync_d__2() {}
+//  Writing Method size for method: ::GlobalNamespace::__OculusInit___InitializeOculusAsync_d__3.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OculusInit____c__DisplayClass8_0::*)()>(
-    &::GlobalNamespace::__OculusInit____c__DisplayClass8_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2228d2c;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OculusInit____c__DisplayClass8_0*>::get(),
-                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::__OculusInit____c__DisplayClass8_0._TryToInitialize_b__0
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OculusInit____c__DisplayClass8_0::*)(
-    ::Oculus::Platform::Message_1<::Oculus::Platform::Models::PlatformInitialize*>*)>(&::GlobalNamespace::__OculusInit____c__DisplayClass8_0::_TryToInitialize_b__0)> {
-  constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x2229278;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OculusInit____c__DisplayClass8_0*>::get(), "<TryToInitialize>b__0", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::Message_1<::Oculus::Platform::Models::PlatformInitialize*>*>::get() })));
-    return ___internal_method;
-  }
-};
-constexpr ::System::Threading::Tasks::TaskCompletionSource_1<bool>*& GlobalNamespace::__OculusInit____c__DisplayClass8_0::__cordl_internal_get_tcs() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___tcs;
-}
-constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<bool>*> const& GlobalNamespace::__OculusInit____c__DisplayClass8_0::__cordl_internal_get_tcs() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___tcs;
-}
-constexpr void GlobalNamespace::__OculusInit____c__DisplayClass8_0::__cordl_internal_set_tcs(::System::Threading::Tasks::TaskCompletionSource_1<bool>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___tcs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::GlobalNamespace::__OculusInit____c__DisplayClass8_0* GlobalNamespace::__OculusInit____c__DisplayClass8_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__OculusInit____c__DisplayClass8_0*>());
-}
-inline void GlobalNamespace::__OculusInit____c__DisplayClass8_0::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OculusInit____c__DisplayClass8_0*>::get(),
-                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline void GlobalNamespace::__OculusInit____c__DisplayClass8_0::_TryToInitialize_b__0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::PlatformInitialize*>* msg) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OculusInit____c__DisplayClass8_0*>::get(), "<TryToInitialize>b__0", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::Message_1<::Oculus::Platform::Models::PlatformInitialize*>*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, msg);
-}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::__OculusInit____c__DisplayClass8_0::__OculusInit____c__DisplayClass8_0() {}
-//  Writing Method size for method: ::GlobalNamespace::__OculusInit____c__DisplayClass9_0._ctor
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OculusInit____c__DisplayClass9_0::*)()>(
-    &::GlobalNamespace::__OculusInit____c__DisplayClass9_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2228ef8;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OculusInit____c__DisplayClass9_0*>::get(),
-                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::__OculusInit____c__DisplayClass9_0._CheckUserAgeCategory_b__0
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OculusInit____c__DisplayClass9_0::*)(
-    ::Oculus::Platform::Message_1<::Oculus::Platform::Models::UserAccountAgeCategory*>*)>(&::GlobalNamespace::__OculusInit____c__DisplayClass9_0::_CheckUserAgeCategory_b__0)> {
-  constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x22293f0;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OculusInit____c__DisplayClass9_0*>::get(), "<CheckUserAgeCategory>b__0", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::Message_1<::Oculus::Platform::Models::UserAccountAgeCategory*>*>::get() })));
-    return ___internal_method;
-  }
-};
-constexpr ::System::Threading::Tasks::TaskCompletionSource_1<bool>*& GlobalNamespace::__OculusInit____c__DisplayClass9_0::__cordl_internal_get_tcs() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___tcs;
-}
-constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<bool>*> const& GlobalNamespace::__OculusInit____c__DisplayClass9_0::__cordl_internal_get_tcs() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___tcs;
-}
-constexpr void GlobalNamespace::__OculusInit____c__DisplayClass9_0::__cordl_internal_set_tcs(::System::Threading::Tasks::TaskCompletionSource_1<bool>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___tcs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::GlobalNamespace::OculusInit*& GlobalNamespace::__OculusInit____c__DisplayClass9_0::__cordl_internal_get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____4__this;
-}
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OculusInit*> const& GlobalNamespace::__OculusInit____c__DisplayClass9_0::__cordl_internal_get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____4__this;
-}
-constexpr void GlobalNamespace::__OculusInit____c__DisplayClass9_0::__cordl_internal_set___4__this(::GlobalNamespace::OculusInit* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::GlobalNamespace::__OculusInit____c__DisplayClass9_0* GlobalNamespace::__OculusInit____c__DisplayClass9_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__OculusInit____c__DisplayClass9_0*>());
-}
-inline void GlobalNamespace::__OculusInit____c__DisplayClass9_0::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OculusInit____c__DisplayClass9_0*>::get(),
-                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline void GlobalNamespace::__OculusInit____c__DisplayClass9_0::_CheckUserAgeCategory_b__0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::UserAccountAgeCategory*>* uacMessage) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OculusInit____c__DisplayClass9_0*>::get(), "<CheckUserAgeCategory>b__0", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::Message_1<::Oculus::Platform::Models::UserAccountAgeCategory*>*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, uacMessage);
-}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::__OculusInit____c__DisplayClass9_0::__OculusInit____c__DisplayClass9_0() {}
-//  Writing Method size for method: ::GlobalNamespace::__OculusInit____c__DisplayClass10_0._ctor
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OculusInit____c__DisplayClass10_0::*)()>(
-    &::GlobalNamespace::__OculusInit____c__DisplayClass10_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2228f00;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OculusInit____c__DisplayClass10_0*>::get(),
-                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::__OculusInit____c__DisplayClass10_0._CheckEntitlements_b__0
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OculusInit____c__DisplayClass10_0::*)(::Oculus::Platform::Message*)>(
-    &::GlobalNamespace::__OculusInit____c__DisplayClass10_0::_CheckEntitlements_b__0)> {
-  constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x2229564;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OculusInit____c__DisplayClass10_0*>::get(), "<CheckEntitlements>b__0", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::Message*>::get() })));
-    return ___internal_method;
-  }
-};
-constexpr ::System::Threading::Tasks::TaskCompletionSource_1<bool>*& GlobalNamespace::__OculusInit____c__DisplayClass10_0::__cordl_internal_get_tcs() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___tcs;
-}
-constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<bool>*> const& GlobalNamespace::__OculusInit____c__DisplayClass10_0::__cordl_internal_get_tcs() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___tcs;
-}
-constexpr void GlobalNamespace::__OculusInit____c__DisplayClass10_0::__cordl_internal_set_tcs(::System::Threading::Tasks::TaskCompletionSource_1<bool>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___tcs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::GlobalNamespace::__OculusInit____c__DisplayClass10_0* GlobalNamespace::__OculusInit____c__DisplayClass10_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__OculusInit____c__DisplayClass10_0*>());
-}
-inline void GlobalNamespace::__OculusInit____c__DisplayClass10_0::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OculusInit____c__DisplayClass10_0*>::get(),
-                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline void GlobalNamespace::__OculusInit____c__DisplayClass10_0::_CheckEntitlements_b__0(::Oculus::Platform::Message* message) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OculusInit____c__DisplayClass10_0*>::get(), "<CheckEntitlements>b__0", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::Message*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, message);
-}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::__OculusInit____c__DisplayClass10_0::__OculusInit____c__DisplayClass10_0() {}
-//  Writing Method size for method: ::GlobalNamespace::OculusInit.get_userAgeCategoryReceivedOrTimedOut
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OculusInit::*)()>(&::GlobalNamespace::OculusInit::get_userAgeCategoryReceivedOrTimedOut)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2228954;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OculusInit___InitializeOculusAsync_d__3::*)()>(
+    &::GlobalNamespace::__OculusInit___InitializeOculusAsync_d__3::MoveNext)> {
+  constexpr static std::size_t size = 0x2e0;
+  constexpr static std::size_t addrs = 0xe384b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusInit*>::get(), "get_userAgeCategoryReceivedOrTimedOut",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OculusInit___InitializeOculusAsync_d__3>::get(), "MoveNext",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OculusInit.set_userAgeCategoryReceivedOrTimedOut
+//  Writing Method size for method: ::GlobalNamespace::__OculusInit___InitializeOculusAsync_d__3.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusInit::*)(bool)>(
-    &::GlobalNamespace::OculusInit::set_userAgeCategoryReceivedOrTimedOut)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OculusInit___InitializeOculusAsync_d__3::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::__OculusInit___InitializeOculusAsync_d__3::SetStateMachine)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x222895c;
+  constexpr static std::size_t addrs = 0xe38798;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusInit*>::get(), "set_userAgeCategoryReceivedOrTimedOut",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OculusInit___InitializeOculusAsync_d__3>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr GlobalNamespace::__OculusInit___InitializeOculusAsync_d__3::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::__OculusInit___InitializeOculusAsync_d__3::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+inline void GlobalNamespace::__OculusInit___InitializeOculusAsync_d__3::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OculusInit___InitializeOculusAsync_d__3>::get(), "MoveNext",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void GlobalNamespace::__OculusInit___InitializeOculusAsync_d__3::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OculusInit___InitializeOculusAsync_d__3>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
+}
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers:
+// "", def_value: Some("{}") }]
+constexpr ::GlobalNamespace::__OculusInit___InitializeOculusAsync_d__3::__OculusInit___InitializeOculusAsync_d__3(int32_t __1__state,
+                                                                                                                  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
+                                                                                                                  ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept {
+  this->__1__state = __1__state;
+  this->__t__builder = __t__builder;
+  this->__u__1 = __u__1;
+}
+// Ctor Parameters []
+constexpr ::GlobalNamespace::__OculusInit___InitializeOculusAsync_d__3::__OculusInit___InitializeOculusAsync_d__3() {}
+//  Writing Method size for method: ::GlobalNamespace::__OculusInit___InitializeCoreAsync_d__4.MoveNext
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OculusInit___InitializeCoreAsync_d__4::*)()>(
+    &::GlobalNamespace::__OculusInit___InitializeCoreAsync_d__4::MoveNext)> {
+  constexpr static std::size_t size = 0x3b4;
+  constexpr static std::size_t addrs = 0xe387a4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OculusInit___InitializeCoreAsync_d__4>::get(), "MoveNext",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::__OculusInit___InitializeCoreAsync_d__4.SetStateMachine
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OculusInit___InitializeCoreAsync_d__4::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::__OculusInit___InitializeCoreAsync_d__4::SetStateMachine)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0xe38b58;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OculusInit___InitializeCoreAsync_d__4>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+    return ___internal_method;
+  }
+};
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr GlobalNamespace::__OculusInit___InitializeCoreAsync_d__4::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::__OculusInit___InitializeCoreAsync_d__4::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+inline void GlobalNamespace::__OculusInit___InitializeCoreAsync_d__4::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OculusInit___InitializeCoreAsync_d__4>::get(),
+                                                                             "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void GlobalNamespace::__OculusInit___InitializeCoreAsync_d__4::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OculusInit___InitializeCoreAsync_d__4>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
+}
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::PlatformInitialize*>*>", modifiers: "", def_value: Some("{}") }]
+constexpr ::GlobalNamespace::__OculusInit___InitializeCoreAsync_d__4::__OculusInit___InitializeCoreAsync_d__4(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
+    ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::PlatformInitialize*>*> __u__1) noexcept {
+  this->__1__state = __1__state;
+  this->__t__builder = __t__builder;
+  this->__u__1 = __u__1;
+}
+// Ctor Parameters []
+constexpr ::GlobalNamespace::__OculusInit___InitializeCoreAsync_d__4::__OculusInit___InitializeCoreAsync_d__4() {}
+//  Writing Method size for method: ::GlobalNamespace::__OculusInit___CheckEntitlementsAsync_d__5.MoveNext
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OculusInit___CheckEntitlementsAsync_d__5::*)()>(
+    &::GlobalNamespace::__OculusInit___CheckEntitlementsAsync_d__5::MoveNext)> {
+  constexpr static std::size_t size = 0x23c;
+  constexpr static std::size_t addrs = 0xe38b64;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OculusInit___CheckEntitlementsAsync_d__5>::get(), "MoveNext",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::__OculusInit___CheckEntitlementsAsync_d__5.SetStateMachine
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OculusInit___CheckEntitlementsAsync_d__5::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::__OculusInit___CheckEntitlementsAsync_d__5::SetStateMachine)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0xe38e98;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OculusInit___CheckEntitlementsAsync_d__5>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+    return ___internal_method;
+  }
+};
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr GlobalNamespace::__OculusInit___CheckEntitlementsAsync_d__5::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::__OculusInit___CheckEntitlementsAsync_d__5::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+inline void GlobalNamespace::__OculusInit___CheckEntitlementsAsync_d__5::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OculusInit___CheckEntitlementsAsync_d__5>::get(), "MoveNext",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void GlobalNamespace::__OculusInit___CheckEntitlementsAsync_d__5::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OculusInit___CheckEntitlementsAsync_d__5>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
+}
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message*>", modifiers: "", def_value: Some("{}") }]
+constexpr ::GlobalNamespace::__OculusInit___CheckEntitlementsAsync_d__5::__OculusInit___CheckEntitlementsAsync_d__5(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message*> __u__1) noexcept {
+  this->__1__state = __1__state;
+  this->__t__builder = __t__builder;
+  this->__u__1 = __u__1;
+}
+// Ctor Parameters []
+constexpr ::GlobalNamespace::__OculusInit___CheckEntitlementsAsync_d__5::__OculusInit___CheckEntitlementsAsync_d__5() {}
 //  Writing Method size for method: ::GlobalNamespace::OculusInit._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusInit::*)()>(&::GlobalNamespace::OculusInit::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2228968;
+  constexpr static std::size_t addrs = 0xe37e34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusInit*>::get(), ".ctor",
@@ -310,7 +286,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<bool>* (::GlobalNamespace::OculusInit::*)()>(
     &::GlobalNamespace::OculusInit::InitializeInternalAsync)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x2228970;
+  constexpr static std::size_t addrs = 0xe37e3c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -319,87 +295,59 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OculusInit.TryToInitialize
+//  Writing Method size for method: ::GlobalNamespace::OculusInit.InitializeOculusAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusInit::*)(::System::Threading::Tasks::TaskCompletionSource_1<bool>*)>(
-    &::GlobalNamespace::OculusInit::TryToInitialize)> {
-  constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x2228a68;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::OculusInit::*)()>(
+    &::GlobalNamespace::OculusInit::InitializeOculusAsync)> {
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0xe37f34;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusInit*>::get(), "TryToInitialize", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::TaskCompletionSource_1<bool>*>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusInit*>::get(), "InitializeOculusAsync",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OculusInit.CheckUserAgeCategory
+//  Writing Method size for method: ::GlobalNamespace::OculusInit.InitializeCoreAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusInit::*)(::System::Threading::Tasks::TaskCompletionSource_1<bool>*)>(
-    &::GlobalNamespace::OculusInit::CheckUserAgeCategory)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x2228d34;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (*)()>(&::GlobalNamespace::OculusInit::InitializeCoreAsync)> {
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0xe37ff8;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusInit*>::get(), "CheckUserAgeCategory", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::TaskCompletionSource_1<bool>*>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusInit*>::get(), "InitializeCoreAsync",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OculusInit.CheckEntitlements
+//  Writing Method size for method: ::GlobalNamespace::OculusInit.CheckEntitlementsAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusInit::*)(::System::Threading::Tasks::TaskCompletionSource_1<bool>*)>(
-    &::GlobalNamespace::OculusInit::CheckEntitlements)> {
-  constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x2228e1c;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (*)()>(&::GlobalNamespace::OculusInit::CheckEntitlementsAsync)> {
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0xe380bc;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusInit*>::get(), "CheckEntitlements", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::TaskCompletionSource_1<bool>*>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusInit*>::get(), "CheckEntitlementsAsync",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::GlobalNamespace::PlayerDataModel>& GlobalNamespace::OculusInit::__cordl_internal_get__playerDataModel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____playerDataModel;
-}
-constexpr ::UnityW<::GlobalNamespace::PlayerDataModel> const& GlobalNamespace::OculusInit::__cordl_internal_get__playerDataModel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____playerDataModel;
-}
-constexpr void GlobalNamespace::OculusInit::__cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playerDataModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr bool& GlobalNamespace::OculusInit::__cordl_internal_get__userAgeCategoryReceivedOrTimedOut_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____userAgeCategoryReceivedOrTimedOut_k__BackingField;
-}
-constexpr bool const& GlobalNamespace::OculusInit::__cordl_internal_get__userAgeCategoryReceivedOrTimedOut_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____userAgeCategoryReceivedOrTimedOut_k__BackingField;
-}
-constexpr void GlobalNamespace::OculusInit::__cordl_internal_set__userAgeCategoryReceivedOrTimedOut_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____userAgeCategoryReceivedOrTimedOut_k__BackingField = value;
-}
-inline bool GlobalNamespace::OculusInit::get_userAgeCategoryReceivedOrTimedOut() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusInit*>::get(), "get_userAgeCategoryReceivedOrTimedOut",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline void GlobalNamespace::OculusInit::set_userAgeCategoryReceivedOrTimedOut(bool value) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusInit*>::get(), "set_userAgeCategoryReceivedOrTimedOut",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
+//  Writing Method size for method: ::GlobalNamespace::OculusInit.CheckUserAgeCategoryAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (*)()>(&::GlobalNamespace::OculusInit::CheckUserAgeCategoryAsync)> {
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0xe38180;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusInit*>::get(),
+                                                                               "CheckUserAgeCategoryAsync", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
 inline ::GlobalNamespace::OculusInit* GlobalNamespace::OculusInit::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OculusInit*>());
 }
@@ -413,23 +361,25 @@ inline ::System::Threading::Tasks::Task_1<bool>* GlobalNamespace::OculusInit::In
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusInit*>::get(), 7)));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<bool>*, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::OculusInit::TryToInitialize(::System::Threading::Tasks::TaskCompletionSource_1<bool>* tcs) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusInit*>::get(), "TryToInitialize", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::TaskCompletionSource_1<bool>*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, tcs);
+inline ::System::Threading::Tasks::Task* GlobalNamespace::OculusInit::InitializeOculusAsync() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusInit*>::get(), "InitializeOculusAsync",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::OculusInit::CheckUserAgeCategory(::System::Threading::Tasks::TaskCompletionSource_1<bool>* tcs) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusInit*>::get(), "CheckUserAgeCategory", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::TaskCompletionSource_1<bool>*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, tcs);
+inline ::System::Threading::Tasks::Task* GlobalNamespace::OculusInit::InitializeCoreAsync() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusInit*>::get(), "InitializeCoreAsync",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(nullptr, ___internal_method);
 }
-inline void GlobalNamespace::OculusInit::CheckEntitlements(::System::Threading::Tasks::TaskCompletionSource_1<bool>* tcs) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusInit*>::get(), "CheckEntitlements", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::TaskCompletionSource_1<bool>*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, tcs);
+inline ::System::Threading::Tasks::Task* GlobalNamespace::OculusInit::CheckEntitlementsAsync() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusInit*>::get(), "CheckEntitlementsAsync",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(nullptr, ___internal_method);
+}
+inline ::System::Threading::Tasks::Task* GlobalNamespace::OculusInit::CheckUserAgeCategoryAsync() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusInit*>::get(), "CheckUserAgeCategoryAsync",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(nullptr, ___internal_method);
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OculusInit::OculusInit() {}

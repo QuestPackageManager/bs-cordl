@@ -103,34 +103,34 @@ public:
 
   static inline ::Org::BouncyCastle::Utilities::Collections::ISet* getStaticF_noParams();
 
-  /// @brief Method CreatePssParams, addr 0x10d9878, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method CreatePssParams, addr 0x1107708, size 0x12c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters* CreatePssParams(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlgId, int32_t saltSize);
 
   static inline ::Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10d99a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1107834, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> encoded);
 
-  /// @brief Method .ctor, addr 0x10d3934, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11017c4, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> encoded);
 
   static inline ::Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0x10d99ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x110783c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest* New_ctor(::System::IO::Stream* input);
 
-  /// @brief Method .ctor, addr 0x10d99b4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1107844, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* input);
 
   static inline ::Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest* New_ctor(::StringW signatureAlgorithm, ::Org::BouncyCastle::Asn1::X509::X509Name* subject,
                                                                                 ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey, ::Org::BouncyCastle::Asn1::Asn1Set* attributes,
                                                                                 ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* signingKey);
 
-  /// @brief Method .ctor, addr 0x10d9a4c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11078dc, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::StringW signatureAlgorithm, ::Org::BouncyCastle::Asn1::X509::X509Name* subject, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey,
                     ::Org::BouncyCastle::Asn1::Asn1Set* attributes, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* signingKey);
 
@@ -138,43 +138,43 @@ public:
                                                                                 ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey, ::Org::BouncyCastle::Asn1::Asn1Set* attributes,
                                                                                 ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* signingKey);
 
-  /// @brief Method .ctor, addr 0x10d9c30, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1107ac0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::ISignatureFactory* signatureFactory, ::Org::BouncyCastle::Asn1::X509::X509Name* subject,
                     ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey, ::Org::BouncyCastle::Asn1::Asn1Set* attributes, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* signingKey);
 
   static inline ::Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest* New_ctor(::Org::BouncyCastle::Crypto::ISignatureFactory* signatureFactory, ::Org::BouncyCastle::Asn1::X509::X509Name* subject,
                                                                                 ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey, ::Org::BouncyCastle::Asn1::Asn1Set* attributes);
 
-  /// @brief Method .ctor, addr 0x10d9af0, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1107980, size 0x140, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::ISignatureFactory* signatureFactory, ::Org::BouncyCastle::Asn1::X509::X509Name* subject,
                     ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey, ::Org::BouncyCastle::Asn1::Asn1Set* attributes);
 
-  /// @brief Method Init, addr 0x10d9c34, size 0x468, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x1107ac4, size 0x468, virtual false, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::ISignatureFactory* signatureFactory, ::Org::BouncyCastle::Asn1::X509::X509Name* subject, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey,
                    ::Org::BouncyCastle::Asn1::Asn1Set* attributes);
 
-  /// @brief Method GetPublicKey, addr 0x10da09c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetPublicKey, addr 0x1107f2c, size 0x20, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* GetPublicKey();
 
-  /// @brief Method Verify, addr 0x10da0bc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Verify, addr 0x1107f4c, size 0x1c, virtual false, abstract: false, final false
   inline bool Verify();
 
-  /// @brief Method Verify, addr 0x10da0d8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Verify, addr 0x1107f68, size 0x74, virtual false, abstract: false, final false
   inline bool Verify(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
 
-  /// @brief Method Verify, addr 0x10da14c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Verify, addr 0x1107fdc, size 0xb4, virtual false, abstract: false, final false
   inline bool Verify(::Org::BouncyCastle::Crypto::IVerifierFactoryProvider* verifierProvider);
 
-  /// @brief Method Verify, addr 0x10da200, size 0x420, virtual false, abstract: false, final false
+  /// @brief Method Verify, addr 0x1108090, size 0x420, virtual false, abstract: false, final false
   inline bool Verify(::Org::BouncyCastle::Crypto::IVerifierFactory* verifier);
 
-  /// @brief Method SetSignatureParameters, addr 0x10da620, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method SetSignatureParameters, addr 0x11084b0, size 0x17c, virtual false, abstract: false, final false
   inline void SetSignatureParameters(::Org::BouncyCastle::Crypto::ISigner* signature, ::Org::BouncyCastle::Asn1::Asn1Encodable* asn1Params);
 
-  /// @brief Method GetSignatureName, addr 0x10da79c, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method GetSignatureName, addr 0x110862c, size 0x1b0, virtual false, abstract: false, final false
   static inline ::StringW GetSignatureName(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* sigAlgId);
 
-  /// @brief Method GetDigestAlgName, addr 0x10da94c, size 0x370, virtual false, abstract: false, final false
+  /// @brief Method GetDigestAlgName, addr 0x11087dc, size 0x370, virtual false, abstract: false, final false
   static inline ::StringW GetDigestAlgName(::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestAlgOID);
 
   // Ctor Parameters [CppParam { name: "", ty: "Pkcs10CertificationRequest", modifiers: "&&", def_value: None }]

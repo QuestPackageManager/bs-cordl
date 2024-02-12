@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::VREvent_Process_t);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8671))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8615))
 // CS Name: ::OVR.OpenVR::VREvent_Process_t
 struct CORDL_TYPE VREvent_Process_t {
 public:

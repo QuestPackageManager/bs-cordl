@@ -58,7 +58,7 @@ namespace Zenject {
 template <typename TTask>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11334))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10476))
 // CS Name: ::TaskUpdater`1::TaskInfo<TTask>*
 class CORDL_TYPE __TaskUpdater_1__TaskInfo : public ::System::Object {
 public:
@@ -135,7 +135,7 @@ namespace Zenject {
 template <typename TTask>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11335))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10477))
 // CS Name: ::TaskUpdater`1::<>c<TTask>*
 class CORDL_TYPE __TaskUpdater_1____c : public ::System::Object {
 public:
@@ -193,7 +193,7 @@ namespace Zenject {
 template <typename TTask>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11336))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10478))
 // CS Name: ::TaskUpdater`1::<>c__DisplayClass8_0<TTask>*
 class CORDL_TYPE __TaskUpdater_1____c__DisplayClass8_0 : public ::System::Object {
 public:
@@ -249,7 +249,7 @@ namespace Zenject {
 template <typename TTask>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11337))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10479))
 // CS Name: ::Zenject::TaskUpdater`1<TTask>*
 class CORDL_TYPE TaskUpdater_1 : public ::System::Object {
 public:

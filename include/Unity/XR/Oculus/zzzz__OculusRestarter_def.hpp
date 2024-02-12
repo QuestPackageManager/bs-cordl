@@ -51,7 +51,7 @@ MARK_REF_PTR_T(::Unity::XR::Oculus::__OculusRestarter___RestartCoroutine_d__23);
 namespace Unity::XR::Oculus {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15143))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15183))
 // CS Name: ::OculusRestarter::<PauseAndRestartCoroutine>d__22*
 class CORDL_TYPE __OculusRestarter___PauseAndRestartCoroutine_d__22 : public ::System::Object {
 public:
@@ -116,25 +116,25 @@ public:
 
   static inline ::Unity::XR::Oculus::__OculusRestarter___PauseAndRestartCoroutine_d__22* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor, addr 0x2c7b214, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c77d80, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x2c7b2e8, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x2c77e54, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext, addr 0x2c7b304, size 0x254, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2c77e70, size 0x254, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method <>m__Finally1, addr 0x2c7b558, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x2c780c4, size 0x40, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2c7b598, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2c78104, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2c7b5a0, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2c7810c, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2c7b5e0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2c7814c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__OculusRestarter___PauseAndRestartCoroutine_d__22", modifiers: "&&", def_value: None }]
@@ -182,7 +182,7 @@ static_assert(offsetof(::Unity::XR::Oculus::__OculusRestarter___PauseAndRestartC
 namespace Unity::XR::Oculus {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15144))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15184))
 // CS Name: ::OculusRestarter::<RestartCoroutine>d__23*
 class CORDL_TYPE __OculusRestarter___RestartCoroutine_d__23 : public ::System::Object {
 public:
@@ -247,25 +247,25 @@ public:
 
   static inline ::Unity::XR::Oculus::__OculusRestarter___RestartCoroutine_d__23* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor, addr 0x2c7b2b8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c77e24, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x2c7b5e8, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x2c78154, size 0x2c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext, addr 0x2c7b614, size 0x42c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2c78180, size 0x42c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method <>m__Finally1, addr 0x2c7ba40, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x2c785ac, size 0x114, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2c7bb54, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2c786c0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2c7bb5c, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2c786c8, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2c7bb9c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2c78708, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__OculusRestarter___RestartCoroutine_d__23", modifiers: "&&", def_value: None }]
@@ -312,8 +312,8 @@ static_assert(offsetof(::Unity::XR::Oculus::__OculusRestarter___RestartCoroutine
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::XR::Oculus {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15145))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15185))
 // CS Name: ::Unity.XR.Oculus::OculusRestarter*
 class CORDL_TYPE OculusRestarter : public ::UnityEngine::MonoBehaviour {
 public:
@@ -407,36 +407,36 @@ public:
 
   static inline float_t getStaticF__TimeBetweenRestartAttempts_k__BackingField();
 
-  /// @brief Method ResetCallbacks, addr 0x2c7ad1c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ResetCallbacks, addr 0x2c77888, size 0x68, virtual false, abstract: false, final false
   inline void ResetCallbacks();
 
-  /// @brief Method get_isRunning, addr 0x2c7ad84, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_isRunning, addr 0x2c778f0, size 0x10, virtual false, abstract: false, final false
   inline bool get_isRunning();
 
-  /// @brief Method get_TimeBetweenRestartAttempts, addr 0x2c7ad94, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_TimeBetweenRestartAttempts, addr 0x2c77900, size 0x58, virtual false, abstract: false, final false
   static inline float_t get_TimeBetweenRestartAttempts();
 
-  /// @brief Method set_TimeBetweenRestartAttempts, addr 0x2c7adec, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_TimeBetweenRestartAttempts, addr 0x2c77958, size 0x64, virtual false, abstract: false, final false
   static inline void set_TimeBetweenRestartAttempts(float_t value);
 
-  /// @brief Method get_PauseAndRestartAttempts, addr 0x2c7ae50, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_PauseAndRestartAttempts, addr 0x2c779bc, size 0x58, virtual false, abstract: false, final false
   static inline int32_t get_PauseAndRestartAttempts();
 
-  /// @brief Method get_Instance, addr 0x2c7aea8, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method get_Instance, addr 0x2c77a14, size 0x1d4, virtual false, abstract: false, final false
   static inline ::UnityW<::Unity::XR::Oculus::OculusRestarter> get_Instance();
 
-  /// @brief Method PauseAndRestart, addr 0x2c7b07c, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method PauseAndRestart, addr 0x2c77be8, size 0x120, virtual false, abstract: false, final false
   inline void PauseAndRestart();
 
-  /// @brief Method PauseAndRestartCoroutine, addr 0x2c7b19c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method PauseAndRestartCoroutine, addr 0x2c77d08, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* PauseAndRestartCoroutine(float_t pauseTimeInSeconds);
 
-  /// @brief Method RestartCoroutine, addr 0x2c7b23c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method RestartCoroutine, addr 0x2c77da8, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* RestartCoroutine(bool shouldRestart);
 
   static inline ::Unity::XR::Oculus::OculusRestarter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c7b2e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c77e4c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OculusRestarter", modifiers: "&&", def_value: None }]

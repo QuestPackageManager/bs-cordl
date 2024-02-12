@@ -68,19 +68,19 @@ public:
 
   static inline ::System::Threading::ThreadHelper* New_ctor(::System::Delegate* start);
 
-  /// @brief Method .ctor, addr 0x26192a0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263e1a8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Delegate* start);
 
-  /// @brief Method SetExecutionContextHelper, addr 0x26192c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetExecutionContextHelper, addr 0x263e1d0, size 0x8, virtual false, abstract: false, final false
   inline void SetExecutionContextHelper(::System::Threading::ExecutionContext* ec);
 
-  /// @brief Method ThreadStart_Context, addr 0x26192d0, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method ThreadStart_Context, addr 0x263e1d8, size 0x10c, virtual false, abstract: false, final false
   static inline void ThreadStart_Context(::System::Object* state);
 
-  /// @brief Method ThreadStart, addr 0x26193dc, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method ThreadStart, addr 0x263e2e4, size 0x100, virtual false, abstract: false, final false
   inline void ThreadStart(::System::Object* obj);
 
-  /// @brief Method ThreadStart, addr 0x26194dc, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method ThreadStart, addr 0x263e3e4, size 0xf4, virtual false, abstract: false, final false
   inline void ThreadStart();
 
   // Ctor Parameters [CppParam { name: "", ty: "ThreadHelper", modifiers: "&&", def_value: None }]

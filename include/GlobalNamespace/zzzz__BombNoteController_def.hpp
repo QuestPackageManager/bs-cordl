@@ -41,8 +41,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__BombNoteController__Pool);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4761))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4736))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4112))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4087))
 // CS Name: ::BombNoteController*
 class CORDL_TYPE BombNoteController : public ::GlobalNamespace::NoteController {
 public:
@@ -67,37 +67,37 @@ public:
 
   constexpr void __cordl_internal_set__wrapperGO(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method Init, addr 0x2378ab8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x22c9870, size 0xd0, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::NoteData* noteData, float_t worldRotation, ::UnityEngine::Vector3 moveStartPos, ::UnityEngine::Vector3 moveEndPos, ::UnityEngine::Vector3 jumpEndPos,
                    float_t moveDuration, float_t jumpDuration, float_t jumpGravity);
 
-  /// @brief Method Awake, addr 0x2383008, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x22c9c94, size 0xf8, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnDestroy, addr 0x2383290, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x22c9fa4, size 0xdc, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method NoteDidPassMissedMarker, addr 0x2383544, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method NoteDidPassMissedMarker, addr 0x22ca248, size 0x30, virtual true, abstract: false, final false
   inline void NoteDidPassMissedMarker();
 
-  /// @brief Method HandleDidPassHalfJump, addr 0x2383740, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandleDidPassHalfJump, addr 0x22ca444, size 0x24, virtual false, abstract: false, final false
   inline void HandleDidPassHalfJump();
 
-  /// @brief Method HandleWasCutBySaber, addr 0x2383764, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method HandleWasCutBySaber, addr 0x22ca468, size 0x284, virtual false, abstract: false, final false
   inline void HandleWasCutBySaber(::GlobalNamespace::Saber* saber, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Quaternion orientation, ::UnityEngine::Vector3 cutDirVec);
 
-  /// @brief Method NoteDidStartDissolving, addr 0x2383bf4, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method NoteDidStartDissolving, addr 0x22ca918, size 0x24, virtual true, abstract: false, final false
   inline void NoteDidStartDissolving();
 
-  /// @brief Method HiddenStateDidChange, addr 0x2383c18, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method HiddenStateDidChange, addr 0x22ca93c, size 0x24, virtual true, abstract: false, final false
   inline void HiddenStateDidChange(bool hide);
 
-  /// @brief Method Pause, addr 0x2383c3c, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Pause, addr 0x22ca960, size 0x10, virtual true, abstract: false, final false
   inline void Pause(bool pause);
 
   static inline ::GlobalNamespace::BombNoteController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2383c4c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22ca970, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BombNoteController", modifiers: "&&", def_value: None }]
@@ -134,14 +134,14 @@ static_assert(offsetof(::GlobalNamespace::BombNoteController, ____wrapperGO) == 
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4736)), TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
-// 2810 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4735)) CS Name: ::BombNoteController::Pool*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4087)), TypeDefinitionIndex(TypeDefinitionIndex(10192)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10192), inst:
+// 2780 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4086)) CS Name: ::BombNoteController::Pool*
 class CORDL_TYPE __BombNoteController__Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::BombNoteController>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__BombNoteController__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2383ea8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22cabcc, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__BombNoteController__Pool", modifiers: "&&", def_value: None }]

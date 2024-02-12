@@ -118,7 +118,7 @@ namespace GlobalNamespace {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15517))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15703))
 // CS Name: ::MockPlayerInstance::<>c__DisplayClass17_0`1<T>*
 class CORDL_TYPE __MockPlayerInstance____c__DisplayClass17_0_1 : public ::System::Object {
 public:
@@ -177,8 +177,8 @@ public:
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3401))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15518))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3389)), TypeDefinitionIndex(TypeDefinitionIndex(3397))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15704))
 // CS Name: ::MockPlayerInstance::<RunAsync>d__18
 struct CORDL_TYPE __MockPlayerInstance___RunAsync_d__18 {
 public:
@@ -189,10 +189,10 @@ public:
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x23eb820, size 0x218, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x240b680, size 0x218, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x23eba38, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x240b898, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -250,8 +250,8 @@ static_assert(offsetof(::GlobalNamespace::__MockPlayerInstance___RunAsync_d__18,
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3400))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15519))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3389)), TypeDefinitionIndex(TypeDefinitionIndex(3396))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15705))
 // CS Name: ::MockPlayerInstance::<Stop>d__21
 struct CORDL_TYPE __MockPlayerInstance___Stop_d__21 {
 public:
@@ -262,10 +262,10 @@ public:
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x23eba44, size 0x178, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x240b8a4, size 0x178, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x23ebbbc, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x240ba1c, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -311,8 +311,8 @@ static_assert(offsetof(::GlobalNamespace::__MockPlayerInstance___Stop_d__21, __u
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3401))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15520))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3389)), TypeDefinitionIndex(TypeDefinitionIndex(3397))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15706))
 // CS Name: ::MockPlayerInstance::<DisposeAsync>d__22
 struct CORDL_TYPE __MockPlayerInstance___DisposeAsync_d__22 {
 public:
@@ -323,10 +323,10 @@ public:
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x23ebbc8, size 0x20c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x240ba28, size 0x20c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x23ebdd4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x240bc34, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -373,7 +373,7 @@ static_assert(offsetof(::GlobalNamespace::__MockPlayerInstance___DisposeAsync_d_
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15521))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15707))
 // CS Name: ::MockPlayerInstance*
 class CORDL_TYPE MockPlayerInstance : public ::System::Object {
 public:
@@ -486,53 +486,53 @@ public:
 
   constexpr void __cordl_internal_set__fsm(::GlobalNamespace::MockPlayerFiniteStateMachine* value);
 
-  /// @brief Method get_id, addr 0x23eb074, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x240aed4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_id();
 
-  /// @brief Method get_userId, addr 0x23eb07c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_userId, addr 0x240aedc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_userId();
 
-  /// @brief Method get_userName, addr 0x23eb084, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_userName, addr 0x240aee4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_userName();
 
   static inline ::GlobalNamespace::MockPlayerInstance* New_ctor(::BGNet::Core::ITimeProvider* timeProvider, ::BGNet::Core::ITaskUtility* taskUtility,
                                                                 ::GlobalNamespace::IMockBeatmapDataProvider* beatmapDataProvider, ::GlobalNamespace::IConnectionManager* connectionManager);
 
-  /// @brief Method .ctor, addr 0x23eb08c, size 0x384, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x240aeec, size 0x384, virtual false, abstract: false, final false
   inline void _ctor(::BGNet::Core::ITimeProvider* timeProvider, ::BGNet::Core::ITaskUtility* taskUtility, ::GlobalNamespace::IMockBeatmapDataProvider* beatmapDataProvider,
                     ::GlobalNamespace::IConnectionManager* connectionManager);
 
-  /// @brief Method Tick, addr 0x23eb414, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Tick, addr 0x240b274, size 0x18, virtual false, abstract: false, final false
   inline void Tick();
 
   /// @brief Method ConnectToServer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void ConnectToServer(::GlobalNamespace::IConnectionInitParams_1<T>* connectionInitParams);
 
-  /// @brief Method RunAsync, addr 0x23eb42c, size 0xdc, virtual true, abstract: false, final true
+  /// @brief Method RunAsync, addr 0x240b28c, size 0xdc, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* RunAsync(::GlobalNamespace::IStandaloneThreadRunner* runner, ::System::Threading::CancellationToken token);
 
-  /// @brief Method Dispatch, addr 0x23eb508, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Dispatch, addr 0x240b368, size 0x1c, virtual true, abstract: false, final true
   inline void Dispatch(::System::Action* action);
 
-  /// @brief Method DispatchAsync, addr 0x23eb524, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method DispatchAsync, addr 0x240b384, size 0x1c, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* DispatchAsync(::System::Func_1<::System::Threading::Tasks::Task*>* action);
 
-  /// @brief Method Stop, addr 0x23eb540, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method Stop, addr 0x240b3a0, size 0x94, virtual true, abstract: false, final true
   inline void Stop();
 
-  /// @brief Method DisposeAsync, addr 0x23eb5d4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method DisposeAsync, addr 0x240b434, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* DisposeAsync();
 
-  /// @brief Method Dispose, addr 0x23eb69c, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x240b4fc, size 0xb4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method <.ctor>b__15_0, addr 0x23eb750, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__15_0, addr 0x240b5b0, size 0x4, virtual false, abstract: false, final false
   inline void __ctor_b__15_0(::GlobalNamespace::ConnectionFailedReason r);
 
-  /// @brief Method <.ctor>b__15_1, addr 0x23eb754, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__15_1, addr 0x240b5b4, size 0x4, virtual false, abstract: false, final false
   inline void __ctor_b__15_1(::GlobalNamespace::DisconnectedReason r);
 
-  /// @brief Method <DisposeAsync>b__22_0, addr 0x23eb758, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method <DisposeAsync>b__22_0, addr 0x240b5b8, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* _DisposeAsync_b__22_0();
 
   // Ctor Parameters [CppParam { name: "", ty: "MockPlayerInstance", modifiers: "&&", def_value: None }]

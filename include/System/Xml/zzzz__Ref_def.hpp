@@ -16,12 +16,12 @@ MARK_REF_PTR_T(::System::Xml::Ref);
 namespace System::Xml {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11535))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11433))
 // CS Name: ::System.Xml::Ref*
 class CORDL_TYPE Ref : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Equal, addr 0x288e178, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Equal, addr 0x28917e0, size 0xc, virtual false, abstract: false, final false
   static inline bool Equal(::StringW strA, ::StringW strB);
 
   // Ctor Parameters [CppParam { name: "", ty: "Ref", modifiers: "&&", def_value: None }]

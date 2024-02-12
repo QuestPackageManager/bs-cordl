@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements::*)()>(
     &::GlobalNamespace::__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x210e8a8;
+  constexpr static std::size_t addrs = 0x21a3050;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId::ColorWasSet)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x210e7dc;
+  constexpr static std::size_t addrs = 0x21a2f84;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId::*)()>(
     &::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x210e888;
+  constexpr static std::size_t addrs = 0x21a3030;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

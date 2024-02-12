@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Poly2Tri::Triangulatable);
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15335))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15495))
 // CS Name: ::UnityEngine.ProBuilder.Poly2Tri::Triangulatable*
 class CORDL_TYPE Triangulatable {
 public:

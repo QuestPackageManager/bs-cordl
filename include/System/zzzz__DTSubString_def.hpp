@@ -30,7 +30,7 @@ public:
   // Declarations
   __declspec(property(get = get_Item)) char16_t Item[];
 
-  /// @brief Method get_Item, addr 0x25a5844, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x25c875c, size 0x2c, virtual false, abstract: false, final false
   inline char16_t get_Item(int32_t relativeIndex);
 
   // Ctor Parameters [CppParam { name: "s", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None },

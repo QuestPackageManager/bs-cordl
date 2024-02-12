@@ -18,18 +18,18 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::MouseCaptureController);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6910))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6169))
 // CS Name: ::UnityEngine.UIElements::MouseCaptureController*
 class CORDL_TYPE MouseCaptureController : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method HasMouseCapture, addr 0x2e01ae4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method HasMouseCapture, addr 0x2e1eecc, size 0xb0, virtual false, abstract: false, final false
   static inline bool HasMouseCapture(::UnityEngine::UIElements::IEventHandler* handler);
 
-  /// @brief Method CaptureMouse, addr 0x2dfd1fc, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method CaptureMouse, addr 0x2e1a5e4, size 0xe0, virtual false, abstract: false, final false
   static inline void CaptureMouse(::UnityEngine::UIElements::IEventHandler* handler);
 
-  /// @brief Method ReleaseMouse, addr 0x2e0246c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method ReleaseMouse, addr 0x2e1f854, size 0xe0, virtual false, abstract: false, final false
   static inline void ReleaseMouse(::UnityEngine::UIElements::IEventHandler* handler);
 
   // Ctor Parameters [CppParam { name: "", ty: "MouseCaptureController", modifiers: "&&", def_value: None }]

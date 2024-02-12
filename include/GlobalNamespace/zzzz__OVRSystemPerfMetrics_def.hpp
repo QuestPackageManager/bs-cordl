@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8182))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8132))
 // CS Name: ::OVRSystemPerfMetrics::PerfMetrics*
 class CORDL_TYPE __OVRSystemPerfMetrics__PerfMetrics : public ::System::Object {
 public:
@@ -323,15 +323,15 @@ public:
 
   constexpr void __cordl_internal_set_deviceCpuCoreUtilPercentage(::ArrayW<float_t, ::Array<float_t>*> value);
 
-  /// @brief Method ToJSON, addr 0x27c24c0, size 0x774, virtual false, abstract: false, final false
+  /// @brief Method ToJSON, addr 0x27d2b88, size 0x734, virtual false, abstract: false, final false
   inline ::StringW ToJSON();
 
-  /// @brief Method LoadFromJSON, addr 0x27c2cd8, size 0x948, virtual false, abstract: false, final false
+  /// @brief Method LoadFromJSON, addr 0x27d32bc, size 0x948, virtual false, abstract: false, final false
   inline bool LoadFromJSON(::StringW json);
 
   static inline ::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics* New_ctor();
 
-  /// @brief Method .ctor, addr 0x27c3db4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27d43a0, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__OVRSystemPerfMetrics__PerfMetrics", modifiers: "&&", def_value: None }]
@@ -513,8 +513,8 @@ static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, _
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8183))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8133))
 // CS Name: ::OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer*
 class CORDL_TYPE __OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer : public ::UnityEngine::MonoBehaviour {
 public:
@@ -544,21 +544,21 @@ public:
 
   static inline ::UnityW<::GlobalNamespace::__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer> getStaticF_singleton();
 
-  /// @brief Method OnEnable, addr 0x27c3e6c, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x27d4458, size 0x110, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable, addr 0x27c3f80, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x27d4568, size 0x9c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method Update, addr 0x27c4020, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x27d4604, size 0x7c, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method GatherPerfMetrics, addr 0x27c40a4, size 0x300, virtual false, abstract: false, final false
+  /// @brief Method GatherPerfMetrics, addr 0x27d4680, size 0x300, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics* GatherPerfMetrics();
 
   static inline ::GlobalNamespace::__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x27c43a4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27d4980, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer", modifiers: "&&", def_value: None }]
@@ -596,7 +596,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__OVRSystemPerfM
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8184))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8134))
 // CS Name: ::OVRSystemPerfMetrics*
 class CORDL_TYPE OVRSystemPerfMetrics : public ::System::Object {
 public:
@@ -607,7 +607,7 @@ public:
 
   static inline ::GlobalNamespace::OVRSystemPerfMetrics* New_ctor();
 
-  /// @brief Method .ctor, addr 0x27c24b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27d2b80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRSystemPerfMetrics", modifiers: "&&", def_value: None }]

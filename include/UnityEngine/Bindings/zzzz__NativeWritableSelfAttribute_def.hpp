@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::UnityEngine::Bindings::NativeWritableSelfAttribute);
 namespace UnityEngine::Bindings {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16016))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16111))
 // CS Name: ::UnityEngine.Bindings::NativeWritableSelfAttribute*
 class CORDL_TYPE NativeWritableSelfAttribute : public ::System::Attribute {
 public:
@@ -31,12 +31,12 @@ public:
 
   constexpr void __cordl_internal_set__WritableSelf_k__BackingField(bool value);
 
-  /// @brief Method set_WritableSelf, addr 0x2d18488, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_WritableSelf, addr 0x2d38f30, size 0xc, virtual true, abstract: false, final true
   inline void set_WritableSelf(bool value);
 
   static inline ::UnityEngine::Bindings::NativeWritableSelfAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d18494, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d38f3c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NativeWritableSelfAttribute", modifiers: "&&", def_value: None }]

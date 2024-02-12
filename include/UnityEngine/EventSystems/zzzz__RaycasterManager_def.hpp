@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::RaycasterManager);
 namespace UnityEngine::EventSystems {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13208))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13106))
 // CS Name: ::UnityEngine.EventSystems::RaycasterManager*
 class CORDL_TYPE RaycasterManager : public ::System::Object {
 public:
@@ -33,13 +33,13 @@ public:
 
   static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::BaseRaycaster>>* getStaticF_s_Raycasters();
 
-  /// @brief Method AddRaycaster, addr 0x2d9fdc4, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method AddRaycaster, addr 0x2dbe1ac, size 0x114, virtual false, abstract: false, final false
   static inline void AddRaycaster(::UnityEngine::EventSystems::BaseRaycaster* baseRaycaster);
 
-  /// @brief Method GetRaycasters, addr 0x2d9fed8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetRaycasters, addr 0x2dbe2c0, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::BaseRaycaster>>* GetRaycasters();
 
-  /// @brief Method RemoveRaycasters, addr 0x2d9ff30, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method RemoveRaycasters, addr 0x2dbe318, size 0xd0, virtual false, abstract: false, final false
   static inline void RemoveRaycasters(::UnityEngine::EventSystems::BaseRaycaster* baseRaycaster);
 
   // Ctor Parameters [CppParam { name: "", ty: "RaycasterManager", modifiers: "&&", def_value: None }]

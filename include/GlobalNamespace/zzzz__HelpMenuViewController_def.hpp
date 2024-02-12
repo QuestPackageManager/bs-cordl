@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::GlobalNamespace::HelpMenuViewController);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5646))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13558))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4950))
 // CS Name: ::HelpMenuViewController*
 class CORDL_TYPE HelpMenuViewController : public ::HMUI::ViewController {
 public:
@@ -69,24 +69,24 @@ public:
 
   constexpr void __cordl_internal_set__viewControllers(::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityW<::HMUI::ViewController>, ::StringW>>* value);
 
-  /// @brief Method add_didSelectHelpSubMenuEvent, addr 0x22b54e0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didSelectHelpSubMenuEvent, addr 0x22e8834, size 0xb0, virtual false, abstract: false, final false
   inline void add_didSelectHelpSubMenuEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method remove_didSelectHelpSubMenuEvent, addr 0x22b5590, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSelectHelpSubMenuEvent, addr 0x22e88e4, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didSelectHelpSubMenuEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method Init, addr 0x22b5640, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x22e8994, size 0x8, virtual false, abstract: false, final false
   inline void Init(::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityW<::HMUI::ViewController>, ::StringW>>* viewControllers);
 
-  /// @brief Method DidActivate, addr 0x22b5648, size 0x2b8, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x22e899c, size 0x2b8, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method HandleHelpMenuSegmentedControlDidSelectCell, addr 0x22b5900, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandleHelpMenuSegmentedControlDidSelectCell, addr 0x22e8c54, size 0x24, virtual false, abstract: false, final false
   inline void HandleHelpMenuSegmentedControlDidSelectCell(::HMUI::SegmentedControl* segmentedControl, int32_t cellIdx);
 
   static inline ::GlobalNamespace::HelpMenuViewController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22b5924, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22e8c78, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HelpMenuViewController", modifiers: "&&", def_value: None }]

@@ -78,7 +78,7 @@ MARK_VAL_T(::UnityEngine::PlayerLoop::__PreUpdate__WindUpdate);
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10531))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9300))
 // CS Name: ::PreUpdate::PhysicsUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __PreUpdate__PhysicsUpdate {
@@ -106,7 +106,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreUp
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10532))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9301))
 // CS Name: ::PreUpdate::Physics2DUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __PreUpdate__Physics2DUpdate {
@@ -134,7 +134,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreUp
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10533))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9302))
 // CS Name: ::PreUpdate::CheckTexFieldInput
 #pragma pack(push, 0)
 struct CORDL_TYPE __PreUpdate__CheckTexFieldInput {
@@ -162,7 +162,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreUp
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10534))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9303))
 // CS Name: ::PreUpdate::IMGUISendQueuedEvents
 #pragma pack(push, 0)
 struct CORDL_TYPE __PreUpdate__IMGUISendQueuedEvents {
@@ -190,7 +190,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreUp
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10535))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9304))
 // CS Name: ::PreUpdate::SendMouseEvents
 #pragma pack(push, 0)
 struct CORDL_TYPE __PreUpdate__SendMouseEvents {
@@ -218,7 +218,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreUp
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10536))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9305))
 // CS Name: ::PreUpdate::AIUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __PreUpdate__AIUpdate {
@@ -246,7 +246,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreUp
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10537))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9306))
 // CS Name: ::PreUpdate::WindUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __PreUpdate__WindUpdate {
@@ -274,7 +274,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreUp
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10538))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9307))
 // CS Name: ::PreUpdate::UpdateVideo
 #pragma pack(push, 0)
 struct CORDL_TYPE __PreUpdate__UpdateVideo {
@@ -302,7 +302,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreUp
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10539))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9308))
 // CS Name: ::PreUpdate::NewInputUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __PreUpdate__NewInputUpdate {
@@ -330,7 +330,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreUp
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10540))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9309))
 // CS Name: ::UnityEngine.PlayerLoop::PreUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE PreUpdate {

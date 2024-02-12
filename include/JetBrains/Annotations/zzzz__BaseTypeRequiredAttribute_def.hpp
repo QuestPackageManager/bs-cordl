@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::JetBrains::Annotations::BaseTypeRequiredAttribute);
 namespace JetBrains::Annotations {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15747))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15897))
 // CS Name: ::JetBrains.Annotations::BaseTypeRequiredAttribute*
 class CORDL_TYPE BaseTypeRequiredAttribute : public ::System::Attribute {
 public:
@@ -36,13 +36,13 @@ public:
 
   static inline ::JetBrains::Annotations::BaseTypeRequiredAttribute* New_ctor(::System::Type* baseType);
 
-  /// @brief Method .ctor, addr 0x2eba114, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ed625c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* baseType);
 
-  /// @brief Method get_BaseType, addr 0x2eba13c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BaseType, addr 0x2ed6284, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_BaseType();
 
-  /// @brief Method set_BaseType, addr 0x2eba144, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BaseType, addr 0x2ed628c, size 0x8, virtual false, abstract: false, final false
   inline void set_BaseType(::System::Type* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "BaseTypeRequiredAttribute", modifiers: "&&", def_value: None }]

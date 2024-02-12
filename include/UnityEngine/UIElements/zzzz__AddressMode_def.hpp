@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::AddressMode);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6803))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6062))
 // CS Name: ::UnityEngine.UIElements::AddressMode
 struct CORDL_TYPE AddressMode {
 public:

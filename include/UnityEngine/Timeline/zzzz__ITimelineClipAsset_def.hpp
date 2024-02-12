@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::ITimelineClipAsset);
 namespace UnityEngine::Timeline {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13927))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13880))
 // CS Name: ::UnityEngine.Timeline::ITimelineClipAsset*
 class CORDL_TYPE ITimelineClipAsset {
 public:

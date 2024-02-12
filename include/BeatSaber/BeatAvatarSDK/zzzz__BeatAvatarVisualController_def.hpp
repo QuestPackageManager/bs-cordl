@@ -61,23 +61,23 @@ MARK_REF_PTR_T(::BeatSaber::BeatAvatarSDK::__BeatAvatarVisualController__Highlig
 namespace BeatSaber::BeatAvatarSDK {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15694))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15795))
 // CS Name: ::BeatAvatarVisualController::HighlighterDelegate*
 class CORDL_TYPE __BeatAvatarVisualController__HighlighterDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::BeatSaber::BeatAvatarSDK::__BeatAvatarVisualController__HighlighterDelegate* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0xe1b588, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe27bd4, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0xe1c018, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0xe28664, size 0x18, virtual true, abstract: false, final false
   inline void Invoke(bool highlighted, int32_t uvSegmentNumber);
 
-  /// @brief Method BeginInvoke, addr 0xe1c030, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0xe2867c, size 0xbc, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(bool highlighted, int32_t uvSegmentNumber, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0xe1c0ec, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0xe28738, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__BeatAvatarVisualController__HighlighterDelegate", modifiers: "&&", def_value: None }]
@@ -104,8 +104,8 @@ static_assert(::cordl_internals::size_check_v<::BeatSaber::BeatAvatarSDK::__Beat
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 192, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarSDK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15695))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8995))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15796))
 // CS Name: ::BeatSaber.BeatAvatarSDK::BeatAvatarVisualController*
 class CORDL_TYPE BeatAvatarVisualController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -305,30 +305,30 @@ public:
 
   constexpr void __cordl_internal_set__currentHighlighter(::BeatSaber::BeatAvatarSDK::__BeatAvatarVisualController__HighlighterDelegate* value);
 
-  /// @brief Method Awake, addr 0xe1b2fc, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0xe27948, size 0x28c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method UpdateAvatarVisual, addr 0xe1b64c, size 0x424, virtual false, abstract: false, final false
+  /// @brief Method UpdateAvatarVisual, addr 0xe27c98, size 0x424, virtual false, abstract: false, final false
   inline void UpdateAvatarVisual(::BeatSaber::BeatAvatarSDK::AvatarData* avatarData);
 
-  /// @brief Method SetLightColor, addr 0xe1bd04, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetLightColor, addr 0xe28350, size 0xc, virtual false, abstract: false, final false
   inline void SetLightColor(::UnityEngine::Color color);
 
-  /// @brief Method UpdateAvatarColors, addr 0xe1ba70, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method UpdateAvatarColors, addr 0xe280bc, size 0x294, virtual false, abstract: false, final false
   inline void UpdateAvatarColors();
 
-  /// @brief Method HighlightEditedPart, addr 0xe1bee0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method HighlightEditedPart, addr 0xe2852c, size 0x9c, virtual false, abstract: false, final false
   inline void HighlightEditedPart(::BeatSaber::BeatAvatarSDK::AvatarPart editPart, int32_t uvSegment);
 
-  /// @brief Method DisableEditedPartHighlight, addr 0xe1bf7c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method DisableEditedPartHighlight, addr 0xe285c8, size 0x34, virtual false, abstract: false, final false
   inline void DisableEditedPartHighlight();
 
-  /// @brief Method SetHandsHighlight, addr 0xe1bfb0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method SetHandsHighlight, addr 0xe285fc, size 0x48, virtual false, abstract: false, final false
   inline void SetHandsHighlight(bool highlighted, int32_t uvSegment);
 
   static inline ::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe1c008, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe28654, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatAvatarVisualController", modifiers: "&&", def_value: None }]

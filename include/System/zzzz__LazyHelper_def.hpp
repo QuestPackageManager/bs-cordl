@@ -95,26 +95,26 @@ public:
 
   static inline ::System::LazyHelper* getStaticF_PublicationOnlyWaitForOtherThreadToPublish();
 
-  /// @brief Method get_State, addr 0x25add1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_State, addr 0x25d0c34, size 0x8, virtual false, abstract: false, final false
   inline ::System::LazyState get_State();
 
   static inline ::System::LazyHelper* New_ctor(::System::LazyState state);
 
-  /// @brief Method .ctor, addr 0x25add24, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d0c3c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::LazyState state);
 
   static inline ::System::LazyHelper* New_ctor(::System::Threading::LazyThreadSafetyMode mode, ::System::Exception* exception);
 
-  /// @brief Method .ctor, addr 0x25add4c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d0c64, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::LazyThreadSafetyMode mode, ::System::Exception* exception);
 
-  /// @brief Method ThrowException, addr 0x25add9c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ThrowException, addr 0x25d0cb4, size 0x1c, virtual false, abstract: false, final false
   inline void ThrowException();
 
-  /// @brief Method Create, addr 0x25addb8, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x25d0cd0, size 0x140, virtual false, abstract: false, final false
   static inline ::System::LazyHelper* Create(::System::Threading::LazyThreadSafetyMode mode, bool useDefaultConstructor);
 
-  /// @brief Method CreateViaDefaultConstructor, addr 0x25adef8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method CreateViaDefaultConstructor, addr 0x25d0e10, size 0xcc, virtual false, abstract: false, final false
   static inline ::System::Object* CreateViaDefaultConstructor(::System::Type* type);
 
   // Ctor Parameters [CppParam { name: "", ty: "LazyHelper", modifiers: "&&", def_value: None }]

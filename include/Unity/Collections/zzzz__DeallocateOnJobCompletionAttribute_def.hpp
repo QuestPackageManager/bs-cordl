@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::Unity::Collections::DeallocateOnJobCompletionAttribute);
 namespace Unity::Collections {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10006))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8737))
 // CS Name: ::Unity.Collections::DeallocateOnJobCompletionAttribute*
 class CORDL_TYPE DeallocateOnJobCompletionAttribute : public ::System::Attribute {
 public:

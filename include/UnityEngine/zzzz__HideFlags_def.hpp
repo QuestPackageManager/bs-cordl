@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::HideFlags);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10199))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8943))
 // CS Name: ::UnityEngine::HideFlags
 struct CORDL_TYPE HideFlags {
 public:

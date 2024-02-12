@@ -55,13 +55,6 @@ template <typename T> inline void Unity::Collections::NativeArray_1<T>::_ctor(in
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeArrayOptions>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, length, allocator, options);
 }
-template <typename T> inline void Unity::Collections::NativeArray_1<T>::_ctor(::ArrayW<T, ::Array<T>*> array, ::Unity::Collections::Allocator allocator) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::NativeArray_1<T>>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<T, ::Array<T>*>>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::Allocator>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, array, allocator);
-}
 template <typename T> inline void Unity::Collections::NativeArray_1<T>::Allocate(int32_t length, ::Unity::Collections::Allocator allocator, ByRef<::Unity::Collections::NativeArray_1<T>> array) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::NativeArray_1<T>>::get(), "Allocate", std::span<Il2CppClass const* const, 0>(),
@@ -109,12 +102,6 @@ template <typename T> inline void Unity::Collections::NativeArray_1<T>::CopyFrom
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeArray_1<T>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, array);
 }
-template <typename T> inline void Unity::Collections::NativeArray_1<T>::CopyTo(::ArrayW<T, ::Array<T>*> array) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::NativeArray_1<T>>::get(), "CopyTo", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<T, ::Array<T>*>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, array);
-}
 template <typename T> inline ::ArrayW<T, ::Array<T>*> Unity::Collections::NativeArray_1<T>::ToArray() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::NativeArray_1<T>>::get(), "ToArray",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -160,20 +147,6 @@ template <typename T> inline void Unity::Collections::NativeArray_1<T>::Copy(::U
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeArray_1<T>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, src, dst);
 }
-template <typename T> inline void Unity::Collections::NativeArray_1<T>::Copy(::ArrayW<T, ::Array<T>*> src, ::Unity::Collections::NativeArray_1<T> dst) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::NativeArray_1<T>>::get(), "Copy", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<T, ::Array<T>*>>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeArray_1<T>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, src, dst);
-}
-template <typename T> inline void Unity::Collections::NativeArray_1<T>::Copy(::Unity::Collections::NativeArray_1<T> src, ::ArrayW<T, ::Array<T>*> dst) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::NativeArray_1<T>>::get(), "Copy", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeArray_1<T>>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<T, ::Array<T>*>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, src, dst);
-}
 template <typename T> inline void Unity::Collections::NativeArray_1<T>::Copy(::Unity::Collections::NativeArray_1<T> src, ::Unity::Collections::NativeArray_1<T> dst, int32_t length) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::NativeArray_1<T>>::get(), "Copy", std::span<Il2CppClass const* const, 0>(),
@@ -201,15 +174,6 @@ inline void Unity::Collections::NativeArray_1<T>::Copy(::Unity::Collections::Nat
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, src, srcIndex, dst, dstIndex, length);
 }
 template <typename T>
-inline void Unity::Collections::NativeArray_1<T>::Copy(::ArrayW<T, ::Array<T>*> src, int32_t srcIndex, ::Unity::Collections::NativeArray_1<T> dst, int32_t dstIndex, int32_t length) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::NativeArray_1<T>>::get(), "Copy", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<T, ::Array<T>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeArray_1<T>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, src, srcIndex, dst, dstIndex, length);
-}
-template <typename T>
 inline void Unity::Collections::NativeArray_1<T>::Copy(::Unity::Collections::NativeArray_1<T> src, int32_t srcIndex, ::ArrayW<T, ::Array<T>*> dst, int32_t dstIndex, int32_t length) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::NativeArray_1<T>>::get(), "Copy", std::span<Il2CppClass const* const, 0>(),
@@ -217,23 +181,6 @@ inline void Unity::Collections::NativeArray_1<T>::Copy(::Unity::Collections::Nat
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<T, ::Array<T>*>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, src, srcIndex, dst, dstIndex, length);
-}
-template <typename T> template <typename U> inline ::Unity::Collections::NativeArray_1<U> Unity::Collections::NativeArray_1<T>::InternalReinterpret(int32_t length) {
-  static auto* ___internal_method_base =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::NativeArray_1<T>>::get(), "InternalReinterpret",
-                                               std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get() },
-                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  static auto* ___internal_method =
-      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get() }));
-  return ::cordl_internals::RunMethodRethrow<::Unity::Collections::NativeArray_1<U>, false>(this, ___internal_method, length);
-}
-template <typename T> template <typename U> inline ::Unity::Collections::NativeArray_1<U> Unity::Collections::NativeArray_1<T>::Reinterpret(int32_t expectedTypeSize) {
-  static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::NativeArray_1<T>>::get(), "Reinterpret",
-                                                                                  std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get() },
-                                                                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  static auto* ___internal_method =
-      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get() }));
-  return ::cordl_internals::RunMethodRethrow<::Unity::Collections::NativeArray_1<U>, false>(this, ___internal_method, expectedTypeSize);
 }
 // Ctor Parameters [CppParam { name: "m_Buffer", ty: "::cordl_internals::Ptr<void>", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "m_Length", ty: "int32_t", modifiers: "", def_value:
 // Some("{}") }, CppParam { name: "m_AllocatorLabel", ty: "::Unity::Collections::Allocator", modifiers: "", def_value: Some("{}") }]

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::MessageWithAchievementUpdate::*)(void*)>(
     &::Oculus::Platform::MessageWithAchievementUpdate::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x26ee9a8;
+  constexpr static std::size_t addrs = 0x2717fcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,13 +24,13 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::AchievementUpdate* (::Oculus::Platform::MessageWithAchievementUpdate::*)()>(
     &::Oculus::Platform::MessageWithAchievementUpdate::GetAchievementUpdate)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x26f0a38;
+  constexpr static std::size_t addrs = 0x2719f5c;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithAchievementUpdate*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithAchievementUpdate*>::get(), 10));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithAchievementUpdate*>::get(), 12));
     return ___internal_method;
   }
 };
@@ -40,13 +40,13 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::AchievementUpdate* (::Oculus::Platform::MessageWithAchievementUpdate::*)(void*)>(
     &::Oculus::Platform::MessageWithAchievementUpdate::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x26f0a74;
+  constexpr static std::size_t addrs = 0x2719f98;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithAchievementUpdate*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithAchievementUpdate*>::get(), 72));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithAchievementUpdate*>::get(), 89));
     return ___internal_method;
   }
 };
@@ -61,12 +61,12 @@ inline void Oculus::Platform::MessageWithAchievementUpdate::_ctor(void* c_messag
 }
 inline ::Oculus::Platform::Models::AchievementUpdate* Oculus::Platform::MessageWithAchievementUpdate::GetAchievementUpdate() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithAchievementUpdate*>::get(), 10)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithAchievementUpdate*>::get(), 12)));
   return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Models::AchievementUpdate*, false>(this, ___internal_method);
 }
 inline ::Oculus::Platform::Models::AchievementUpdate* Oculus::Platform::MessageWithAchievementUpdate::GetDataFromMessage(void* c_message) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithAchievementUpdate*>::get(), 72)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithAchievementUpdate*>::get(), 89)));
   return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Models::AchievementUpdate*, false>(this, ___internal_method, c_message);
 }
 // Ctor Parameters []

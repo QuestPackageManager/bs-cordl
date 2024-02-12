@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::*)()>(
     &::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::TickRealtimeProbes)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2cf4670;
+  constexpr static std::size_t addrs = 0x2cff34c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::*)()>(
     &::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2cf46c0;
+  constexpr static std::size_t addrs = 0x2cff39c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::*)(bool)>(
     &::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2cf46c4;
+  constexpr static std::size_t addrs = 0x2cff3a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::BuiltinUpdate)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2cf4698;
+  constexpr static std::size_t addrs = 0x2cff374;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem* (*)()>(
     &::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::Internal_BuiltinRuntimeReflectionSystem_New)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x2cf46c8;
+  constexpr static std::size_t addrs = 0x2cff3a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::*)()>(
     &::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2cf4724;
+  constexpr static std::size_t addrs = 0x2cff400;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

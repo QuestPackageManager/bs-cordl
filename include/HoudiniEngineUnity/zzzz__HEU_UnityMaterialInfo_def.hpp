@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_UnityMaterialInfo);
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9780))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9572))
 // CS Name: ::HoudiniEngineUnity::HEU_UnityMaterialInfo*
 class CORDL_TYPE HEU_UnityMaterialInfo : public ::System::Object {
 public:
@@ -51,7 +51,7 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_UnityMaterialInfo* New_ctor(::StringW unityMaterialPath, ::StringW substancePath, int32_t substanceIndex);
 
-  /// @brief Method .ctor, addr 0x21a19d4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22372b8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW unityMaterialPath, ::StringW substancePath, int32_t substanceIndex);
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_UnityMaterialInfo", modifiers: "&&", def_value: None }]

@@ -44,8 +44,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerResultsPyramidView);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5243))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4583))
 // CS Name: ::MultiplayerResultsPyramidView*
 class CORDL_TYPE MultiplayerResultsPyramidView : public ::UnityEngine::MonoBehaviour {
 public:
@@ -143,22 +143,22 @@ public:
 
   constexpr void __cordl_internal_set__anyResultsAvatar(::UnityW<::GlobalNamespace::MultiplayerResultsPyramidViewAvatar> value);
 
-  /// @brief Method get_resultAvatarDirectors, addr 0x2257e30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_resultAvatarDirectors, addr 0x23b7994, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> get_resultAvatarDirectors();
 
-  /// @brief Method get_badgeTimelines, addr 0x2257e38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_badgeTimelines, addr 0x23b799c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> get_badgeTimelines();
 
-  /// @brief Method PrespawnAvatars, addr 0x22560d8, size 0x400, virtual false, abstract: false, final false
+  /// @brief Method PrespawnAvatars, addr 0x23b5e38, size 0x400, virtual false, abstract: false, final false
   inline void PrespawnAvatars(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IConnectedPlayer*>* activePlayers);
 
-  /// @brief Method SetupResults, addr 0x2255aa0, size 0x614, virtual false, abstract: false, final false
+  /// @brief Method SetupResults, addr 0x23b5800, size 0x614, virtual false, abstract: false, final false
   inline void SetupResults(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData, ::UnityEngine::Transform* badgeStartTransform,
                            ::UnityEngine::Transform* badgeMidTransform);
 
   static inline ::GlobalNamespace::MultiplayerResultsPyramidView* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2258820, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23b83ac, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerResultsPyramidView", modifiers: "&&", def_value: None }]

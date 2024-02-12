@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::NetSyncSetSessionPropertyResult);
 namespace Oculus::Platform::Models {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13462))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13410))
 // CS Name: ::Oculus.Platform.Models::NetSyncSetSessionPropertyResult*
 class CORDL_TYPE NetSyncSetSessionPropertyResult : public ::System::Object {
 public:
@@ -35,7 +35,7 @@ public:
 
   static inline ::Oculus::Platform::Models::NetSyncSetSessionPropertyResult* New_ctor(void* o);
 
-  /// @brief Method .ctor, addr 0x2707950, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x273b95c, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "NetSyncSetSessionPropertyResult", modifiers: "&&", def_value: None }]

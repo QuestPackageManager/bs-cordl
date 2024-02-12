@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::HMUI::UIKeyboardKey);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10058)), TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13540))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8790)), TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13493))
 // CS Name: ::HMUI::UIKeyboardKey*
 class CORDL_TYPE UIKeyboardKey : public ::UnityEngine::MonoBehaviour {
 public:
@@ -68,21 +68,21 @@ public:
 
   constexpr void __cordl_internal_set__canBeUppercase(bool value);
 
-  /// @brief Method get_keyCode, addr 0x211e540, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_keyCode, addr 0x21b2e1c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::KeyCode get_keyCode();
 
-  /// @brief Method get_canBeUppercase, addr 0x211e548, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_canBeUppercase, addr 0x21b2e24, size 0x8, virtual false, abstract: false, final false
   inline bool get_canBeUppercase();
 
-  /// @brief Method Awake, addr 0x211e550, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x21b2e2c, size 0xa4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnValidate, addr 0x211e5f4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x21b2ed0, size 0xe0, virtual false, abstract: false, final false
   inline void OnValidate();
 
   static inline ::HMUI::UIKeyboardKey* New_ctor();
 
-  /// @brief Method .ctor, addr 0x211e6d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21b2fb0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "UIKeyboardKey", modifiers: "&&", def_value: None }]

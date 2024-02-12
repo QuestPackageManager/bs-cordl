@@ -19,7 +19,7 @@ namespace System::Collections::Generic {
 template <typename T>
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3845))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3844))
 // CS Name: ::System.Collections.Generic::ArrayBuilder`1<T>
 struct CORDL_TYPE ArrayBuilder_1 {
 public:

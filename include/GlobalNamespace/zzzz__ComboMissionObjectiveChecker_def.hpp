@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ComboMissionObjectiveChecker);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5098))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5087))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4451))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4440))
 // CS Name: ::ComboMissionObjectiveChecker*
 class CORDL_TYPE ComboMissionObjectiveChecker : public ::GlobalNamespace::SimpleValueMissionObjectiveChecker {
 public:
@@ -33,18 +33,18 @@ public:
 
   constexpr void __cordl_internal_set__comboController(::UnityW<::GlobalNamespace::ComboController> value);
 
-  /// @brief Method Init, addr 0x23cb464, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x2388c64, size 0x14c, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method OnDestroy, addr 0x23cb5b0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2388db0, size 0xd4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleComboDidChange, addr 0x23cb684, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method HandleComboDidChange, addr 0x2388e84, size 0x54, virtual false, abstract: false, final false
   inline void HandleComboDidChange(int32_t combo);
 
   static inline ::GlobalNamespace::ComboMissionObjectiveChecker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23cb6d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2388ed8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ComboMissionObjectiveChecker", modifiers: "&&", def_value: None }]

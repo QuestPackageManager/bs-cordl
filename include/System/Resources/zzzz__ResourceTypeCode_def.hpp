@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Resources::ResourceTypeCode);
 namespace System::Resources {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3428))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3424))
 // CS Name: ::System.Resources::ResourceTypeCode
 struct CORDL_TYPE ResourceTypeCode {
 public:

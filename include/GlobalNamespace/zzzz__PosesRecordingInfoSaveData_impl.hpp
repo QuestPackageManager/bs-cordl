@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData::*)()>(
     &::GlobalNamespace::__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData::get_fieldOfVision)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2302230;
+  constexpr static std::size_t addrs = 0x232a174;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData::*)()>(
     &::GlobalNamespace::__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData::get_nearClip)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2302238;
+  constexpr static std::size_t addrs = 0x232a17c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData::*)()>(
     &::GlobalNamespace::__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData::get_farClip)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2302240;
+  constexpr static std::size_t addrs = 0x232a184;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData::*)()>(
     &::GlobalNamespace::__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData::get_hmdOffset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2302248;
+  constexpr static std::size_t addrs = 0x232a18c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData::*)()>(
     &::GlobalNamespace::__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData::get_nearOffset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2302250;
+  constexpr static std::size_t addrs = 0x232a194;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData::*)(
     float_t, float_t, float_t, float_t, float_t)>(&::GlobalNamespace::__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x2302258;
+  constexpr static std::size_t addrs = 0x232a19c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -206,7 +206,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::PosesRecordingInfoSaveData::*)()>(
     &::GlobalNamespace::PosesRecordingInfoSaveData::get_version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x230219c;
+  constexpr static std::size_t addrs = 0x232a0e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PosesRecordingInfoSaveData*>::get(),
@@ -220,7 +220,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW, ::Array<::StringW>*> (::GlobalNamespace::PosesRecordingInfoSaveData::*)()>(
     &::GlobalNamespace::PosesRecordingInfoSaveData::get_objectIds)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23021a4;
+  constexpr static std::size_t addrs = 0x232a0e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PosesRecordingInfoSaveData*>::get(),
@@ -234,7 +234,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData* (
     ::GlobalNamespace::PosesRecordingInfoSaveData::*)()>(&::GlobalNamespace::PosesRecordingInfoSaveData::get_externalCameraCalibration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23021ac;
+  constexpr static std::size_t addrs = 0x232a0f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PosesRecordingInfoSaveData*>::get(),
@@ -248,7 +248,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::PosesRecordingInfoSaveData::*)()>(
     &::GlobalNamespace::PosesRecordingInfoSaveData::get_dataFileName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23021b4;
+  constexpr static std::size_t addrs = 0x232a0f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PosesRecordingInfoSaveData*>::get(),
@@ -262,7 +262,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PosesRecordingInfoSaveData::*)(
     ::ArrayW<::StringW, ::Array<::StringW>*>, ::GlobalNamespace::__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData*, ::StringW)>(&::GlobalNamespace::PosesRecordingInfoSaveData::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x23021bc;
+  constexpr static std::size_t addrs = 0x232a100;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

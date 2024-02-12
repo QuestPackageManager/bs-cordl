@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::CenterStageLobbyViewController);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5709))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13558))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5011))
 // CS Name: ::CenterStageLobbyViewController*
 class CORDL_TYPE CenterStageLobbyViewController : public ::HMUI::ViewController {
 public:
@@ -48,12 +48,12 @@ public:
 
   constexpr void __cordl_internal_set__modifiersSelectionView(::UnityW<::GlobalNamespace::ModifiersSelectionView> value);
 
-  /// @brief Method SetLevelGameplaySetupData, addr 0x22cc804, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method SetLevelGameplaySetupData, addr 0x22fc2ec, size 0x164, virtual false, abstract: false, final false
   inline void SetLevelGameplaySetupData(::GlobalNamespace::ILevelGameplaySetupData* levelGameplaySetupData);
 
   static inline ::GlobalNamespace::CenterStageLobbyViewController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22cc940, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22fc450, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CenterStageLobbyViewController", modifiers: "&&", def_value: None }]

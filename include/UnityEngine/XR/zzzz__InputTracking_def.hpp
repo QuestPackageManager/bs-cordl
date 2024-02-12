@@ -36,7 +36,7 @@ MARK_REF_PTR_T(::UnityEngine::XR::InputTracking);
 namespace UnityEngine::XR {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15626))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15757))
 // CS Name: ::InputTracking::TrackingStateEventType
 struct CORDL_TYPE __InputTracking__TrackingStateEventType {
 public:
@@ -94,7 +94,7 @@ static_assert(offsetof(::UnityEngine::XR::__InputTracking__TrackingStateEventTyp
 namespace UnityEngine::XR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15627))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15758))
 // CS Name: ::UnityEngine.XR::InputTracking*
 class CORDL_TYPE InputTracking : public ::System::Object {
 public:
@@ -129,28 +129,28 @@ public:
 
   static inline ::System::Action_1<::UnityEngine::XR::XRNodeState>* getStaticF_nodeRemoved();
 
-  /// @brief Method GetNodeStates, addr 0x2eb29f4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetNodeStates, addr 0x2ecdb38, size 0xb8, virtual false, abstract: false, final false
   static inline void GetNodeStates(::System::Collections::Generic::List_1<::UnityEngine::XR::XRNodeState>* nodeStates);
 
-  /// @brief Method GetNodeStates_Internal, addr 0x2eb2aac, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetNodeStates_Internal, addr 0x2ecdbf0, size 0x3c, virtual false, abstract: false, final false
   static inline void GetNodeStates_Internal(::System::Collections::Generic::List_1<::UnityEngine::XR::XRNodeState>* nodeStates);
 
-  /// @brief Method GetDeviceIdAtXRNode, addr 0x2eb290c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetDeviceIdAtXRNode, addr 0x2ecda50, size 0x3c, virtual false, abstract: false, final false
   static inline uint64_t GetDeviceIdAtXRNode(::UnityEngine::XR::XRNode node);
 
-  /// @brief Method add_nodeAdded, addr 0x2eb2ae8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method add_nodeAdded, addr 0x2ecdc2c, size 0xd0, virtual false, abstract: false, final false
   static inline void add_nodeAdded(::System::Action_1<::UnityEngine::XR::XRNodeState>* value);
 
-  /// @brief Method remove_nodeAdded, addr 0x2eb2bb8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method remove_nodeAdded, addr 0x2ecdcfc, size 0xd0, virtual false, abstract: false, final false
   static inline void remove_nodeAdded(::System::Action_1<::UnityEngine::XR::XRNodeState>* value);
 
-  /// @brief Method add_nodeRemoved, addr 0x2eb2c88, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method add_nodeRemoved, addr 0x2ecddcc, size 0xd0, virtual false, abstract: false, final false
   static inline void add_nodeRemoved(::System::Action_1<::UnityEngine::XR::XRNodeState>* value);
 
-  /// @brief Method remove_nodeRemoved, addr 0x2eb2d58, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method remove_nodeRemoved, addr 0x2ecde9c, size 0xd0, virtual false, abstract: false, final false
   static inline void remove_nodeRemoved(::System::Action_1<::UnityEngine::XR::XRNodeState>* value);
 
-  /// @brief Method InvokeTrackingEvent, addr 0x2eb2e28, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method InvokeTrackingEvent, addr 0x2ecdf6c, size 0x198, virtual false, abstract: false, final false
   static inline void InvokeTrackingEvent(::UnityEngine::XR::__InputTracking__TrackingStateEventType eventType, ::UnityEngine::XR::XRNode nodeType, int64_t uniqueID, bool tracked);
 
   // Ctor Parameters [CppParam { name: "", ty: "InputTracking", modifiers: "&&", def_value: None }]

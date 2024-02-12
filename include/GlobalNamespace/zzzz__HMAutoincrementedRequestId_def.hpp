@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::GlobalNamespace::HMAutoincrementedRequestId);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14371))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14526))
 // CS Name: ::HMAutoincrementedRequestId*
 class CORDL_TYPE HMAutoincrementedRequestId : public ::System::Object {
 public:
@@ -51,21 +51,21 @@ public:
 
   static inline uint64_t getStaticF__nextRequestId();
 
-  /// @brief Method get_RequestId, addr 0x20f30bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RequestId, addr 0x2187644, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_RequestId();
 
   static inline ::GlobalNamespace::HMAutoincrementedRequestId* New_ctor();
 
-  /// @brief Method .ctor, addr 0x20f2eec, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2187474, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Equals, addr 0x20f30c4, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x218764c, size 0x20, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::HMAutoincrementedRequestId* obj);
 
-  /// @brief Method Equals, addr 0x20f30e4, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x218766c, size 0xb8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x20f319c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2187724, size 0x28, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "HMAutoincrementedRequestId", modifiers: "&&", def_value: None }]

@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::GlobalNamespace::AvatarSyncMessageCounterManager);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14935))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14808))
 // CS Name: ::AvatarSyncMessageCounterManager::MessageType
 struct CORDL_TYPE __AvatarSyncMessageCounterManager__MessageType {
 public:
@@ -84,7 +84,7 @@ static_assert(offsetof(::GlobalNamespace::__AvatarSyncMessageCounterManager__Mes
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14936))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14809))
 // CS Name: ::AvatarSyncMessageCounterManager*
 class CORDL_TYPE AvatarSyncMessageCounterManager : public ::System::Object {
 public:
@@ -126,24 +126,24 @@ public:
 
   static inline ::GlobalNamespace::AvatarSyncMessageCounterManager* getStaticF__instance();
 
-  /// @brief Method get_Instance, addr 0x263570c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_Instance, addr 0x265a830, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::AvatarSyncMessageCounterManager* get_Instance();
 
   static inline ::GlobalNamespace::AvatarSyncMessageCounterManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2635788, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x265a8ac, size 0x14c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method SetMessageTypePeriod, addr 0x26358d4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetMessageTypePeriod, addr 0x265a9f8, size 0x68, virtual false, abstract: false, final false
   inline void SetMessageTypePeriod(::GlobalNamespace::__AvatarSyncMessageCounterManager__MessageType messageType, ::System::TimeSpan period);
 
-  /// @brief Method GetMessageTypePeriod, addr 0x263593c, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method GetMessageTypePeriod, addr 0x265aa60, size 0x18c, virtual false, abstract: false, final false
   inline ::StringW GetMessageTypePeriod(::GlobalNamespace::__AvatarSyncMessageCounterManager__MessageType messageType);
 
-  /// @brief Method MessageReceived, addr 0x2635ac8, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method MessageReceived, addr 0x265abec, size 0x214, virtual false, abstract: false, final false
   inline void MessageReceived(::StringW userId, ::GlobalNamespace::__AvatarSyncMessageCounterManager__MessageType messageType);
 
-  /// @brief Method GetPlayerMessageCount, addr 0x2635cdc, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method GetPlayerMessageCount, addr 0x265ae00, size 0x10c, virtual false, abstract: false, final false
   inline int32_t GetPlayerMessageCount(::StringW userId, ::GlobalNamespace::__AvatarSyncMessageCounterManager__MessageType messageType);
 
   // Ctor Parameters [CppParam { name: "", ty: "AvatarSyncMessageCounterManager", modifiers: "&&", def_value: None }]

@@ -17,12 +17,12 @@ MARK_VAL_T(::GlobalNamespace::MultiplayerAvatarData);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15020))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14893))
 // CS Name: ::MultiplayerAvatarData
 struct CORDL_TYPE MultiplayerAvatarData {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x12a341c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13392f4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(uint32_t avatarTypeIdentifierHash, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
   // Ctor Parameters [CppParam { name: "avatarTypeIdentifierHash", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "data", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "",

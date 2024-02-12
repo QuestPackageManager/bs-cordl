@@ -39,8 +39,8 @@ MARK_REF_PTR_T(::GlobalNamespace::CenterStageScreenController);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5710))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5012))
 // CS Name: ::CenterStageScreenController*
 class CORDL_TYPE CenterStageScreenController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -152,45 +152,45 @@ public:
 
   constexpr void __cordl_internal_set__countdownEndTime(int64_t value);
 
-  /// @brief Method get_countdownShown, addr 0x22cc948, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_countdownShown, addr 0x22fc458, size 0x8, virtual false, abstract: false, final false
   inline bool get_countdownShown();
 
-  /// @brief Method set_countdownShown, addr 0x22cc950, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_countdownShown, addr 0x22fc460, size 0xc, virtual false, abstract: false, final false
   inline void set_countdownShown(bool value);
 
-  /// @brief Method Setup, addr 0x22cc95c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x22fc46c, size 0x30, virtual false, abstract: false, final false
   inline void Setup(bool showModifiers);
 
-  /// @brief Method Show, addr 0x22cc98c, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Show, addr 0x22fc49c, size 0x18c, virtual false, abstract: false, final false
   inline void Show();
 
-  /// @brief Method Hide, addr 0x22ccc80, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method Hide, addr 0x22fc7b8, size 0x130, virtual false, abstract: false, final false
   inline void Hide();
 
-  /// @brief Method ShowCountdown, addr 0x22ccdf4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ShowCountdown, addr 0x22fc92c, size 0x3c, virtual false, abstract: false, final false
   inline void ShowCountdown(int64_t countdownEndTime);
 
-  /// @brief Method HideCountdown, addr 0x22ccdb0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method HideCountdown, addr 0x22fc8e8, size 0x44, virtual false, abstract: false, final false
   inline void HideCountdown(bool instant);
 
-  /// @brief Method SetCountdownEndTime, addr 0x22cce30, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method SetCountdownEndTime, addr 0x22fc968, size 0x58, virtual false, abstract: false, final false
   inline void SetCountdownEndTime(int64_t countdownEndTime);
 
-  /// @brief Method ShowCountdownColorPreset, addr 0x22cce88, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ShowCountdownColorPreset, addr 0x22fc9c0, size 0x2c, virtual false, abstract: false, final false
   inline void ShowCountdownColorPreset(bool animated);
 
-  /// @brief Method ShowLobbyColorPreset, addr 0x22ccb18, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ShowLobbyColorPreset, addr 0x22fc628, size 0x2c, virtual false, abstract: false, final false
   inline void ShowLobbyColorPreset(bool animated);
 
-  /// @brief Method HandleLobbyGameStateControllerSelectedLevelGameplaySetupDataChanged, addr 0x22cceb4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbyGameStateControllerSelectedLevelGameplaySetupDataChanged, addr 0x22fc9ec, size 0x4, virtual false, abstract: false, final false
   inline void HandleLobbyGameStateControllerSelectedLevelGameplaySetupDataChanged(::GlobalNamespace::ILevelGameplaySetupData* levelGameplaySetupData);
 
-  /// @brief Method SetNextGameplaySetupData, addr 0x22ccb44, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method SetNextGameplaySetupData, addr 0x22fc654, size 0x164, virtual false, abstract: false, final false
   inline void SetNextGameplaySetupData(::GlobalNamespace::ILevelGameplaySetupData* levelGameplaySetupData);
 
   static inline ::GlobalNamespace::CenterStageScreenController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22cceb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22fc9f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CenterStageScreenController", modifiers: "&&", def_value: None }]

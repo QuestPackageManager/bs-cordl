@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::System::WeakReference);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3336))]
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3333))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2642))
 // CS Name: ::System::WeakReference*
 class CORDL_TYPE WeakReference : public ::System::Object {
@@ -63,45 +63,45 @@ public:
 
   constexpr void __cordl_internal_set_gcHandle(::System::Runtime::InteropServices::GCHandle value);
 
-  /// @brief Method AllocateHandle, addr 0x2609100, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method AllocateHandle, addr 0x262e008, size 0x28, virtual false, abstract: false, final false
   inline void AllocateHandle(::System::Object* target);
 
   static inline ::System::WeakReference* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2609128, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x262e030, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::WeakReference* New_ctor(::System::Object* target);
 
-  /// @brief Method .ctor, addr 0x2609130, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x262e038, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* target);
 
   static inline ::System::WeakReference* New_ctor(::System::Object* target, bool trackResurrection);
 
-  /// @brief Method .ctor, addr 0x2609160, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x262e068, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* target, bool trackResurrection);
 
   static inline ::System::WeakReference* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x2609194, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x262e09c, size 0x138, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method get_IsAlive, addr 0x26092cc, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_IsAlive, addr 0x262e1d4, size 0x20, virtual true, abstract: false, final false
   inline bool get_IsAlive();
 
-  /// @brief Method get_Target, addr 0x26092ec, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method get_Target, addr 0x262e1f4, size 0x34, virtual true, abstract: false, final false
   inline ::System::Object* get_Target();
 
-  /// @brief Method set_Target, addr 0x2609320, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method set_Target, addr 0x262e228, size 0xc, virtual true, abstract: false, final false
   inline void set_Target(::System::Object* value);
 
-  /// @brief Method get_TrackResurrection, addr 0x260932c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TrackResurrection, addr 0x262e234, size 0x8, virtual true, abstract: false, final false
   inline bool get_TrackResurrection();
 
-  /// @brief Method Finalize, addr 0x2609334, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x262e23c, size 0x9c, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method GetObjectData, addr 0x26093d0, size 0x184, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x262e2d8, size 0x184, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "WeakReference", modifiers: "&&", def_value: None }]

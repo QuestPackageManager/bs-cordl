@@ -261,23 +261,23 @@ MARK_VAL_T(::OVR::OpenVR::IVRApplications);
 namespace OVR::OpenVR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8282))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8226))
 // CS Name: ::IVRApplications::_AddApplicationManifest*
 class CORDL_TYPE __IVRApplications___AddApplicationManifest : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRApplications___AddApplicationManifest* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x27d6a48, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27e4200, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x27d6b20, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x27e42d8, size 0x18, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError Invoke(::StringW pchApplicationManifestFullPath, bool bTemporary);
 
-  /// @brief Method BeginInvoke, addr 0x27d6b38, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x27e42f0, size 0x98, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchApplicationManifestFullPath, bool bTemporary, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x27d6bd0, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x27e4388, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___AddApplicationManifest", modifiers: "&&", def_value: None }]
@@ -305,23 +305,23 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications__
 namespace OVR::OpenVR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8283))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8227))
 // CS Name: ::IVRApplications::_RemoveApplicationManifest*
 class CORDL_TYPE __IVRApplications___RemoveApplicationManifest : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRApplications___RemoveApplicationManifest* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x27d6bf8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27e43b0, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x27d6ccc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x27e4484, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError Invoke(::StringW pchApplicationManifestFullPath);
 
-  /// @brief Method BeginInvoke, addr 0x27d6ce0, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x27e4498, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchApplicationManifestFullPath, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x27d6d00, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x27e44b8, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___RemoveApplicationManifest", modifiers: "&&", def_value: None }]
@@ -349,23 +349,23 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications__
 namespace OVR::OpenVR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8284))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8228))
 // CS Name: ::IVRApplications::_IsApplicationInstalled*
 class CORDL_TYPE __IVRApplications___IsApplicationInstalled : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRApplications___IsApplicationInstalled* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x27d6d28, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27e44e0, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x27d6dfc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x27e45b4, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(::StringW pchAppKey);
 
-  /// @brief Method BeginInvoke, addr 0x27d6e10, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x27e45c8, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchAppKey, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x27d6e30, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x27e45e8, size 0x28, virtual true, abstract: false, final false
   inline bool EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___IsApplicationInstalled", modifiers: "&&", def_value: None }]
@@ -393,23 +393,23 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications__
 namespace OVR::OpenVR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8285))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8229))
 // CS Name: ::IVRApplications::_GetApplicationCount*
 class CORDL_TYPE __IVRApplications___GetApplicationCount : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRApplications___GetApplicationCount* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x27d6e58, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27e4610, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x27d6f14, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x27e46cc, size 0x14, virtual true, abstract: false, final false
   inline uint32_t Invoke();
 
-  /// @brief Method BeginInvoke, addr 0x27d6f28, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x27e46e0, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x27d6f48, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x27e4700, size 0x28, virtual true, abstract: false, final false
   inline uint32_t EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationCount", modifiers: "&&", def_value: None }]
@@ -437,24 +437,24 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications__
 namespace OVR::OpenVR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8286))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8230))
 // CS Name: ::IVRApplications::_GetApplicationKeyByIndex*
 class CORDL_TYPE __IVRApplications___GetApplicationKeyByIndex : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRApplications___GetApplicationKeyByIndex* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x27d6f70, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27e4728, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x27d7034, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x27e47ec, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError Invoke(uint32_t unApplicationIndex, ::System::Text::StringBuilder* pchAppKeyBuffer, uint32_t unAppKeyBufferLen);
 
-  /// @brief Method BeginInvoke, addr 0x27d7048, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x27e4800, size 0xa4, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint32_t unApplicationIndex, ::System::Text::StringBuilder* pchAppKeyBuffer, uint32_t unAppKeyBufferLen, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x27d70ec, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x27e48a4, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationKeyByIndex", modifiers: "&&", def_value: None }]
@@ -482,24 +482,24 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications__
 namespace OVR::OpenVR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8287))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8231))
 // CS Name: ::IVRApplications::_GetApplicationKeyByProcessId*
 class CORDL_TYPE __IVRApplications___GetApplicationKeyByProcessId : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRApplications___GetApplicationKeyByProcessId* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x27d7114, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27e48cc, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x27d71d8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x27e4990, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError Invoke(uint32_t unProcessId, ::System::Text::StringBuilder* pchAppKeyBuffer, uint32_t unAppKeyBufferLen);
 
-  /// @brief Method BeginInvoke, addr 0x27d71ec, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x27e49a4, size 0xa4, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint32_t unProcessId, ::System::Text::StringBuilder* pchAppKeyBuffer, uint32_t unAppKeyBufferLen, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x27d7290, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x27e4a48, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationKeyByProcessId", modifiers: "&&", def_value: None }]
@@ -527,23 +527,23 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications__
 namespace OVR::OpenVR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8288))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8232))
 // CS Name: ::IVRApplications::_LaunchApplication*
 class CORDL_TYPE __IVRApplications___LaunchApplication : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRApplications___LaunchApplication* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x27d72b8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27e4a70, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x27d738c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x27e4b44, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError Invoke(::StringW pchAppKey);
 
-  /// @brief Method BeginInvoke, addr 0x27d73a0, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x27e4b58, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchAppKey, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x27d73c0, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x27e4b78, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___LaunchApplication", modifiers: "&&", def_value: None }]
@@ -571,25 +571,25 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications__
 namespace OVR::OpenVR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8289))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8233))
 // CS Name: ::IVRApplications::_LaunchTemplateApplication*
 class CORDL_TYPE __IVRApplications___LaunchTemplateApplication : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRApplications___LaunchTemplateApplication* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x27d73e8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27e4ba0, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x27d74c0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x27e4c78, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError Invoke(::StringW pchTemplateAppKey, ::StringW pchNewAppKey,
                                                    ByRef<::ArrayW<::OVR::OpenVR::AppOverrideKeys_t, ::Array<::OVR::OpenVR::AppOverrideKeys_t>*>> pKeys, uint32_t unKeys);
 
-  /// @brief Method BeginInvoke, addr 0x27d74d4, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x27e4c8c, size 0xa8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchTemplateAppKey, ::StringW pchNewAppKey, ByRef<::ArrayW<::OVR::OpenVR::AppOverrideKeys_t, ::Array<::OVR::OpenVR::AppOverrideKeys_t>*>> pKeys,
                                              uint32_t unKeys, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x27d757c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x27e4d34, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___LaunchTemplateApplication", modifiers: "&&", def_value: None }]
@@ -617,23 +617,23 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications__
 namespace OVR::OpenVR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8290))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8234))
 // CS Name: ::IVRApplications::_LaunchApplicationFromMimeType*
 class CORDL_TYPE __IVRApplications___LaunchApplicationFromMimeType : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRApplications___LaunchApplicationFromMimeType* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x27d75a4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27e4d5c, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x27d767c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x27e4e34, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError Invoke(::StringW pchMimeType, ::StringW pchArgs);
 
-  /// @brief Method BeginInvoke, addr 0x27d7690, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x27e4e48, size 0x28, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchMimeType, ::StringW pchArgs, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x27d76b8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x27e4e70, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___LaunchApplicationFromMimeType", modifiers: "&&", def_value: None }]
@@ -661,23 +661,23 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications__
 namespace OVR::OpenVR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8291))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8235))
 // CS Name: ::IVRApplications::_LaunchDashboardOverlay*
 class CORDL_TYPE __IVRApplications___LaunchDashboardOverlay : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRApplications___LaunchDashboardOverlay* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x27d76e0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27e4e98, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x27d77b4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x27e4f6c, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError Invoke(::StringW pchAppKey);
 
-  /// @brief Method BeginInvoke, addr 0x27d77c8, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x27e4f80, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchAppKey, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x27d77e8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x27e4fa0, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___LaunchDashboardOverlay", modifiers: "&&", def_value: None }]
@@ -705,23 +705,23 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications__
 namespace OVR::OpenVR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8292))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8236))
 // CS Name: ::IVRApplications::_CancelApplicationLaunch*
 class CORDL_TYPE __IVRApplications___CancelApplicationLaunch : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRApplications___CancelApplicationLaunch* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x27d7810, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27e4fc8, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x27d78e4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x27e509c, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(::StringW pchAppKey);
 
-  /// @brief Method BeginInvoke, addr 0x27d78f8, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x27e50b0, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchAppKey, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x27d7918, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x27e50d0, size 0x28, virtual true, abstract: false, final false
   inline bool EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___CancelApplicationLaunch", modifiers: "&&", def_value: None }]
@@ -749,23 +749,23 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications__
 namespace OVR::OpenVR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8293))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8237))
 // CS Name: ::IVRApplications::_IdentifyApplication*
 class CORDL_TYPE __IVRApplications___IdentifyApplication : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRApplications___IdentifyApplication* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x27d7940, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27e50f8, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x27d7a04, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x27e51bc, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError Invoke(uint32_t unProcessId, ::StringW pchAppKey);
 
-  /// @brief Method BeginInvoke, addr 0x27d7a18, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x27e51d0, size 0x90, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint32_t unProcessId, ::StringW pchAppKey, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x27d7aa8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x27e5260, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___IdentifyApplication", modifiers: "&&", def_value: None }]
@@ -793,23 +793,23 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications__
 namespace OVR::OpenVR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8294))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8238))
 // CS Name: ::IVRApplications::_GetApplicationProcessId*
 class CORDL_TYPE __IVRApplications___GetApplicationProcessId : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRApplications___GetApplicationProcessId* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x27d7ad0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27e5288, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x27d7ba4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x27e535c, size 0x14, virtual true, abstract: false, final false
   inline uint32_t Invoke(::StringW pchAppKey);
 
-  /// @brief Method BeginInvoke, addr 0x27d7bb8, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x27e5370, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchAppKey, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x27d7bd8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x27e5390, size 0x28, virtual true, abstract: false, final false
   inline uint32_t EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationProcessId", modifiers: "&&", def_value: None }]
@@ -837,23 +837,23 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications__
 namespace OVR::OpenVR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8295))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8239))
 // CS Name: ::IVRApplications::_GetApplicationsErrorNameFromEnum*
 class CORDL_TYPE __IVRApplications___GetApplicationsErrorNameFromEnum : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRApplications___GetApplicationsErrorNameFromEnum* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x27d7c00, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27e53b8, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x27d7cc4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x27e547c, size 0x14, virtual true, abstract: false, final false
   inline void* Invoke(::OVR::OpenVR::EVRApplicationError error);
 
-  /// @brief Method BeginInvoke, addr 0x27d7cd8, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x27e5490, size 0x84, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::EVRApplicationError error, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x27d7d5c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x27e5514, size 0x28, virtual true, abstract: false, final false
   inline void* EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationsErrorNameFromEnum", modifiers: "&&", def_value: None }]
@@ -881,25 +881,25 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications__
 namespace OVR::OpenVR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8296))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8240))
 // CS Name: ::IVRApplications::_GetApplicationPropertyString*
 class CORDL_TYPE __IVRApplications___GetApplicationPropertyString : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRApplications___GetApplicationPropertyString* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x27d7d84, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27e553c, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x27d7e5c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x27e5614, size 0x14, virtual true, abstract: false, final false
   inline uint32_t Invoke(::StringW pchAppKey, ::OVR::OpenVR::EVRApplicationProperty eProperty, ::System::Text::StringBuilder* pchPropertyValueBuffer, uint32_t unPropertyValueBufferLen,
                          ByRef<::OVR::OpenVR::EVRApplicationError> peError);
 
-  /// @brief Method BeginInvoke, addr 0x27d7e70, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x27e5628, size 0xfc, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchAppKey, ::OVR::OpenVR::EVRApplicationProperty eProperty, ::System::Text::StringBuilder* pchPropertyValueBuffer,
                                              uint32_t unPropertyValueBufferLen, ByRef<::OVR::OpenVR::EVRApplicationError> peError, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x27d7f6c, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x27e5724, size 0x2c, virtual true, abstract: false, final false
   inline uint32_t EndInvoke(ByRef<::OVR::OpenVR::EVRApplicationError> peError, ::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationPropertyString", modifiers: "&&", def_value: None }]
@@ -927,24 +927,24 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications__
 namespace OVR::OpenVR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8297))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8241))
 // CS Name: ::IVRApplications::_GetApplicationPropertyBool*
 class CORDL_TYPE __IVRApplications___GetApplicationPropertyBool : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRApplications___GetApplicationPropertyBool* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x27d7f98, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27e5750, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x27d8070, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x27e5828, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(::StringW pchAppKey, ::OVR::OpenVR::EVRApplicationProperty eProperty, ByRef<::OVR::OpenVR::EVRApplicationError> peError);
 
-  /// @brief Method BeginInvoke, addr 0x27d8084, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x27e583c, size 0xc8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchAppKey, ::OVR::OpenVR::EVRApplicationProperty eProperty, ByRef<::OVR::OpenVR::EVRApplicationError> peError, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x27d814c, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x27e5904, size 0x2c, virtual true, abstract: false, final false
   inline bool EndInvoke(ByRef<::OVR::OpenVR::EVRApplicationError> peError, ::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationPropertyBool", modifiers: "&&", def_value: None }]
@@ -972,24 +972,24 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications__
 namespace OVR::OpenVR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8298))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8242))
 // CS Name: ::IVRApplications::_GetApplicationPropertyUint64*
 class CORDL_TYPE __IVRApplications___GetApplicationPropertyUint64 : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRApplications___GetApplicationPropertyUint64* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x27d8178, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27e5930, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x27d8250, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x27e5a08, size 0x14, virtual true, abstract: false, final false
   inline uint64_t Invoke(::StringW pchAppKey, ::OVR::OpenVR::EVRApplicationProperty eProperty, ByRef<::OVR::OpenVR::EVRApplicationError> peError);
 
-  /// @brief Method BeginInvoke, addr 0x27d8264, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x27e5a1c, size 0xc8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchAppKey, ::OVR::OpenVR::EVRApplicationProperty eProperty, ByRef<::OVR::OpenVR::EVRApplicationError> peError, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x27d832c, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x27e5ae4, size 0x2c, virtual true, abstract: false, final false
   inline uint64_t EndInvoke(ByRef<::OVR::OpenVR::EVRApplicationError> peError, ::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationPropertyUint64", modifiers: "&&", def_value: None }]
@@ -1017,23 +1017,23 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications__
 namespace OVR::OpenVR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8299))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8243))
 // CS Name: ::IVRApplications::_SetApplicationAutoLaunch*
 class CORDL_TYPE __IVRApplications___SetApplicationAutoLaunch : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRApplications___SetApplicationAutoLaunch* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x27d8358, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27e5b10, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x27d8430, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x27e5be8, size 0x18, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError Invoke(::StringW pchAppKey, bool bAutoLaunch);
 
-  /// @brief Method BeginInvoke, addr 0x27d8448, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x27e5c00, size 0x98, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchAppKey, bool bAutoLaunch, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x27d84e0, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x27e5c98, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___SetApplicationAutoLaunch", modifiers: "&&", def_value: None }]
@@ -1061,23 +1061,23 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications__
 namespace OVR::OpenVR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8300))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8244))
 // CS Name: ::IVRApplications::_GetApplicationAutoLaunch*
 class CORDL_TYPE __IVRApplications___GetApplicationAutoLaunch : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRApplications___GetApplicationAutoLaunch* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x27d8508, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27e5cc0, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x27d85dc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x27e5d94, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(::StringW pchAppKey);
 
-  /// @brief Method BeginInvoke, addr 0x27d85f0, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x27e5da8, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchAppKey, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x27d8610, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x27e5dc8, size 0x28, virtual true, abstract: false, final false
   inline bool EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationAutoLaunch", modifiers: "&&", def_value: None }]
@@ -1105,23 +1105,23 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications__
 namespace OVR::OpenVR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8301))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8245))
 // CS Name: ::IVRApplications::_SetDefaultApplicationForMimeType*
 class CORDL_TYPE __IVRApplications___SetDefaultApplicationForMimeType : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRApplications___SetDefaultApplicationForMimeType* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x27d8638, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27e5df0, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x27d8710, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x27e5ec8, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError Invoke(::StringW pchAppKey, ::StringW pchMimeType);
 
-  /// @brief Method BeginInvoke, addr 0x27d8724, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x27e5edc, size 0x28, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchAppKey, ::StringW pchMimeType, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x27d874c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x27e5f04, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___SetDefaultApplicationForMimeType", modifiers: "&&", def_value: None }]
@@ -1149,24 +1149,24 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications__
 namespace OVR::OpenVR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8302))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8246))
 // CS Name: ::IVRApplications::_GetDefaultApplicationForMimeType*
 class CORDL_TYPE __IVRApplications___GetDefaultApplicationForMimeType : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRApplications___GetDefaultApplicationForMimeType* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x27d8774, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27e5f2c, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x27d884c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x27e6004, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(::StringW pchMimeType, ::System::Text::StringBuilder* pchAppKeyBuffer, uint32_t unAppKeyBufferLen);
 
-  /// @brief Method BeginInvoke, addr 0x27d8860, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x27e6018, size 0x98, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchMimeType, ::System::Text::StringBuilder* pchAppKeyBuffer, uint32_t unAppKeyBufferLen, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x27d88f8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x27e60b0, size 0x28, virtual true, abstract: false, final false
   inline bool EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetDefaultApplicationForMimeType", modifiers: "&&", def_value: None }]
@@ -1194,24 +1194,24 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications__
 namespace OVR::OpenVR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8303))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8247))
 // CS Name: ::IVRApplications::_GetApplicationSupportedMimeTypes*
 class CORDL_TYPE __IVRApplications___GetApplicationSupportedMimeTypes : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRApplications___GetApplicationSupportedMimeTypes* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x27d8920, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27e60d8, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x27d89f8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x27e61b0, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(::StringW pchAppKey, ::System::Text::StringBuilder* pchMimeTypesBuffer, uint32_t unMimeTypesBuffer);
 
-  /// @brief Method BeginInvoke, addr 0x27d8a0c, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x27e61c4, size 0x98, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchAppKey, ::System::Text::StringBuilder* pchMimeTypesBuffer, uint32_t unMimeTypesBuffer, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x27d8aa4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x27e625c, size 0x28, virtual true, abstract: false, final false
   inline bool EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationSupportedMimeTypes", modifiers: "&&", def_value: None }]
@@ -1239,24 +1239,24 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications__
 namespace OVR::OpenVR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8304))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8248))
 // CS Name: ::IVRApplications::_GetApplicationsThatSupportMimeType*
 class CORDL_TYPE __IVRApplications___GetApplicationsThatSupportMimeType : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRApplications___GetApplicationsThatSupportMimeType* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x27d8acc, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27e6284, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x27d8ba4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x27e635c, size 0x14, virtual true, abstract: false, final false
   inline uint32_t Invoke(::StringW pchMimeType, ::System::Text::StringBuilder* pchAppKeysThatSupportBuffer, uint32_t unAppKeysThatSupportBuffer);
 
-  /// @brief Method BeginInvoke, addr 0x27d8bb8, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x27e6370, size 0x98, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchMimeType, ::System::Text::StringBuilder* pchAppKeysThatSupportBuffer, uint32_t unAppKeysThatSupportBuffer, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x27d8c50, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x27e6408, size 0x28, virtual true, abstract: false, final false
   inline uint32_t EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationsThatSupportMimeType", modifiers: "&&", def_value: None }]
@@ -1284,23 +1284,23 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications__
 namespace OVR::OpenVR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8305))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8249))
 // CS Name: ::IVRApplications::_GetApplicationLaunchArguments*
 class CORDL_TYPE __IVRApplications___GetApplicationLaunchArguments : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRApplications___GetApplicationLaunchArguments* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x27d8c78, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27e6430, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x27d8d3c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x27e64f4, size 0x14, virtual true, abstract: false, final false
   inline uint32_t Invoke(uint32_t unHandle, ::System::Text::StringBuilder* pchArgs, uint32_t unArgs);
 
-  /// @brief Method BeginInvoke, addr 0x27d8d50, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x27e6508, size 0xa4, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint32_t unHandle, ::System::Text::StringBuilder* pchArgs, uint32_t unArgs, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x27d8df4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x27e65ac, size 0x28, virtual true, abstract: false, final false
   inline uint32_t EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationLaunchArguments", modifiers: "&&", def_value: None }]
@@ -1328,23 +1328,23 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications__
 namespace OVR::OpenVR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8306))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8250))
 // CS Name: ::IVRApplications::_GetStartingApplication*
 class CORDL_TYPE __IVRApplications___GetStartingApplication : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRApplications___GetStartingApplication* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x27d8e1c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27e65d4, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x27d8ef4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x27e66ac, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError Invoke(::System::Text::StringBuilder* pchAppKeyBuffer, uint32_t unAppKeyBufferLen);
 
-  /// @brief Method BeginInvoke, addr 0x27d8f08, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x27e66c0, size 0x94, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::Text::StringBuilder* pchAppKeyBuffer, uint32_t unAppKeyBufferLen, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x27d8f9c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x27e6754, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetStartingApplication", modifiers: "&&", def_value: None }]
@@ -1372,23 +1372,23 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications__
 namespace OVR::OpenVR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8307))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8251))
 // CS Name: ::IVRApplications::_GetTransitionState*
 class CORDL_TYPE __IVRApplications___GetTransitionState : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRApplications___GetTransitionState* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x27d8fc4, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27e677c, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x27d9080, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x27e6838, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationTransitionState Invoke();
 
-  /// @brief Method BeginInvoke, addr 0x27d9094, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x27e684c, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x27d90b4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x27e686c, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationTransitionState EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetTransitionState", modifiers: "&&", def_value: None }]
@@ -1416,23 +1416,23 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications__
 namespace OVR::OpenVR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8308))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8252))
 // CS Name: ::IVRApplications::_PerformApplicationPrelaunchCheck*
 class CORDL_TYPE __IVRApplications___PerformApplicationPrelaunchCheck : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRApplications___PerformApplicationPrelaunchCheck* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x27d90dc, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27e6894, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x27d91b0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x27e6968, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError Invoke(::StringW pchAppKey);
 
-  /// @brief Method BeginInvoke, addr 0x27d91c4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x27e697c, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchAppKey, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x27d91e4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x27e699c, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___PerformApplicationPrelaunchCheck", modifiers: "&&", def_value: None }]
@@ -1460,23 +1460,23 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications__
 namespace OVR::OpenVR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8309))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8253))
 // CS Name: ::IVRApplications::_GetApplicationsTransitionStateNameFromEnum*
 class CORDL_TYPE __IVRApplications___GetApplicationsTransitionStateNameFromEnum : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRApplications___GetApplicationsTransitionStateNameFromEnum* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x27d920c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27e69c4, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x27d92d0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x27e6a88, size 0x14, virtual true, abstract: false, final false
   inline void* Invoke(::OVR::OpenVR::EVRApplicationTransitionState state);
 
-  /// @brief Method BeginInvoke, addr 0x27d92e4, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x27e6a9c, size 0x84, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::EVRApplicationTransitionState state, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x27d9368, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x27e6b20, size 0x28, virtual true, abstract: false, final false
   inline void* EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationsTransitionStateNameFromEnum", modifiers: "&&", def_value: None }]
@@ -1504,23 +1504,23 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications__
 namespace OVR::OpenVR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8310))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8254))
 // CS Name: ::IVRApplications::_IsQuitUserPromptRequested*
 class CORDL_TYPE __IVRApplications___IsQuitUserPromptRequested : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRApplications___IsQuitUserPromptRequested* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x27d9390, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27e6b48, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x27d944c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x27e6c04, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke();
 
-  /// @brief Method BeginInvoke, addr 0x27d9460, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x27e6c18, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x27d9480, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x27e6c38, size 0x28, virtual true, abstract: false, final false
   inline bool EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___IsQuitUserPromptRequested", modifiers: "&&", def_value: None }]
@@ -1548,23 +1548,23 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications__
 namespace OVR::OpenVR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8311))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8255))
 // CS Name: ::IVRApplications::_LaunchInternalProcess*
 class CORDL_TYPE __IVRApplications___LaunchInternalProcess : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRApplications___LaunchInternalProcess* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x27d94a8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27e6c60, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x27d9580, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x27e6d38, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError Invoke(::StringW pchBinaryPath, ::StringW pchArguments, ::StringW pchWorkingDirectory);
 
-  /// @brief Method BeginInvoke, addr 0x27d9594, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x27e6d4c, size 0x2c, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchBinaryPath, ::StringW pchArguments, ::StringW pchWorkingDirectory, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x27d95c0, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x27e6d78, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___LaunchInternalProcess", modifiers: "&&", def_value: None }]
@@ -1592,23 +1592,23 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications__
 namespace OVR::OpenVR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8312))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8256))
 // CS Name: ::IVRApplications::_GetCurrentSceneProcessId*
 class CORDL_TYPE __IVRApplications___GetCurrentSceneProcessId : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRApplications___GetCurrentSceneProcessId* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x27d95e8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27e6da0, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x27d96a4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x27e6e5c, size 0x14, virtual true, abstract: false, final false
   inline uint32_t Invoke();
 
-  /// @brief Method BeginInvoke, addr 0x27d96b8, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x27e6e70, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x27d96d8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x27e6e90, size 0x28, virtual true, abstract: false, final false
   inline uint32_t EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetCurrentSceneProcessId", modifiers: "&&", def_value: None }]
@@ -1636,7 +1636,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications__
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8313))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8257))
 // CS Name: ::OVR.OpenVR::IVRApplications
 struct CORDL_TYPE IVRApplications {
 public:

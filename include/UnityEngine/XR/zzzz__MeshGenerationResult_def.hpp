@@ -47,8 +47,8 @@ MARK_VAL_T(::UnityEngine::XR::MeshGenerationResult);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::XR {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(15633)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15634)), TypeDefinitionIndex(TypeDefinitionIndex(15637))] Self: TypeDefinitionIndex(TypeDefinitionIndex(15636)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(8996)), TypeDefinitionIndex(TypeDefinitionIndex(15764)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15765)), TypeDefinitionIndex(TypeDefinitionIndex(15768))] Self: TypeDefinitionIndex(TypeDefinitionIndex(15767)) CS Name:
 // ::UnityEngine.XR::MeshGenerationResult
 struct CORDL_TYPE MeshGenerationResult {
 public:
@@ -75,37 +75,37 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::XR::MeshGenerationResult>"
   constexpr ::System::IEquatable_1<::UnityEngine::XR::MeshGenerationResult>* i___System__IEquatable_1___UnityEngine__XR__MeshGenerationResult_();
 
-  /// @brief Method get_MeshId, addr 0x2eb3928, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_MeshId, addr 0x2ecea6c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::MeshId get_MeshId();
 
-  /// @brief Method get_Mesh, addr 0x2eb3934, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Mesh, addr 0x2ecea78, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_Mesh();
 
-  /// @brief Method get_MeshCollider, addr 0x2eb393c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MeshCollider, addr 0x2ecea80, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::MeshCollider> get_MeshCollider();
 
-  /// @brief Method get_Status, addr 0x2eb3944, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Status, addr 0x2ecea88, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::MeshGenerationStatus get_Status();
 
-  /// @brief Method get_Attributes, addr 0x2eb394c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Attributes, addr 0x2ecea90, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::MeshVertexAttributes get_Attributes();
 
-  /// @brief Method get_Position, addr 0x2eb3954, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Position, addr 0x2ecea98, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_Position();
 
-  /// @brief Method get_Rotation, addr 0x2eb3960, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Rotation, addr 0x2eceaa4, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_Rotation();
 
-  /// @brief Method get_Scale, addr 0x2eb396c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Scale, addr 0x2eceab0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_Scale();
 
-  /// @brief Method Equals, addr 0x2eb3978, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2eceabc, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x2eb3a08, size 0x184, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2eceb4c, size 0x184, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::XR::MeshGenerationResult other);
 
-  /// @brief Method GetHashCode, addr 0x2eb3b8c, size 0x208, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2ececd0, size 0x208, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "_MeshId_k__BackingField", ty: "::UnityEngine::XR::MeshId", modifiers: "", def_value: None }, CppParam { name: "_Mesh_k__BackingField", ty:

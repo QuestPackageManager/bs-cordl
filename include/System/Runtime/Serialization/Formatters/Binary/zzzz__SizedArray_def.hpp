@@ -56,29 +56,29 @@ public:
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::SizedArray* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24d2070, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f30e4, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::SizedArray* New_ctor(int32_t length);
 
-  /// @brief Method .ctor, addr 0x24d2148, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f31bc, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(int32_t length);
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::SizedArray* New_ctor(::System::Runtime::Serialization::Formatters::Binary::SizedArray* sizedArray);
 
-  /// @brief Method .ctor, addr 0x24d5a64, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f6ad8, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::Formatters::Binary::SizedArray* sizedArray);
 
-  /// @brief Method Clone, addr 0x24d5b18, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method Clone, addr 0x24f6b8c, size 0x60, virtual true, abstract: false, final true
   inline ::System::Object* Clone();
 
-  /// @brief Method get_Item, addr 0x24d4820, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x24f5894, size 0x74, virtual false, abstract: false, final false
   inline ::System::Object* get_Item(int32_t index);
 
-  /// @brief Method set_Item, addr 0x24d4720, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x24f5794, size 0x100, virtual false, abstract: false, final false
   inline void set_Item(int32_t index, ::System::Object* value);
 
-  /// @brief Method IncreaseCapacity, addr 0x24d5b78, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method IncreaseCapacity, addr 0x24f6bec, size 0x220, virtual false, abstract: false, final false
   inline void IncreaseCapacity(int32_t index);
 
   // Ctor Parameters [CppParam { name: "", ty: "SizedArray", modifiers: "&&", def_value: None }]

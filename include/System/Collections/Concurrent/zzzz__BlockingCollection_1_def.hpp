@@ -58,7 +58,7 @@ namespace System::Collections::Concurrent {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9524))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7534))
 // CS Name: ::System.Collections.Concurrent::BlockingCollection`1<T>*
 class CORDL_TYPE BlockingCollection_1 : public ::System::Object {
 public:

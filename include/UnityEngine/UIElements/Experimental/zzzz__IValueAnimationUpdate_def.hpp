@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::Experimental::IValueAnimationUpdate);
 namespace UnityEngine::UIElements::Experimental {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7457))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6716))
 // CS Name: ::UnityEngine.UIElements.Experimental::IValueAnimationUpdate*
 class CORDL_TYPE IValueAnimationUpdate {
 public:

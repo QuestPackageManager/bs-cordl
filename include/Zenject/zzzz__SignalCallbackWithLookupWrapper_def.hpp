@@ -47,7 +47,7 @@ MARK_REF_PTR_T(::Zenject::SignalCallbackWithLookupWrapper);
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10648))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9790))
 // CS Name: ::Zenject::SignalCallbackWithLookupWrapper*
 class CORDL_TYPE SignalCallbackWithLookupWrapper : public ::System::Object {
 public:
@@ -125,20 +125,20 @@ public:
                                                                      ::System::Func_2<::System::Object*, ::System::Action_1<::System::Object*>*>* methodGetter, ::Zenject::SignalBus* signalBus,
                                                                      ::Zenject::DiContainer* container);
 
-  /// @brief Method .ctor, addr 0x2ec10e4, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2edd22c, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::SignalBindingBindInfo* signalBindInfo, ::System::Type* objectType, ::System::Guid lookupId,
                     ::System::Func_2<::System::Object*, ::System::Action_1<::System::Object*>*>* methodGetter, ::Zenject::SignalBus* signalBus, ::Zenject::DiContainer* container);
 
-  /// @brief Method OnSignalFired, addr 0x2ec11e4, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method OnSignalFired, addr 0x2edd32c, size 0x1c8, virtual false, abstract: false, final false
   inline void OnSignalFired(::System::Object* signal);
 
-  /// @brief Method Dispose, addr 0x2ec13ac, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2edd4f4, size 0xa0, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method __zenCreate, addr 0x2ec1454, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2edd59c, size 0x290, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ec16e4, size 0x544, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2edd82c, size 0x544, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "SignalCallbackWithLookupWrapper", modifiers: "&&", def_value: None }]

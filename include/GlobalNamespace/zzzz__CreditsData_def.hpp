@@ -48,7 +48,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__CreditsData__Text);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5473))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4776))
 // CS Name: ::CreditsData::TextStyle
 struct CORDL_TYPE __CreditsData__TextStyle {
 public:
@@ -101,8 +101,8 @@ static_assert(offsetof(::GlobalNamespace::__CreditsData__TextStyle, value__) == 
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5473))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5474))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4776))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4777))
 // CS Name: ::CreditsData::Text*
 class CORDL_TYPE __CreditsData__Text : public ::System::Object {
 public:
@@ -134,15 +134,15 @@ public:
 
   constexpr void __cordl_internal_set_style(::GlobalNamespace::__CreditsData__TextStyle value);
 
-  /// @brief Method IsEmpty, addr 0x22834d4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsEmpty, addr 0x23df1ec, size 0x20, virtual false, abstract: false, final false
   inline bool IsEmpty();
 
-  /// @brief Method ToString, addr 0x22834f4, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x23df20c, size 0xc4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   static inline ::GlobalNamespace::__CreditsData__Text* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22835b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23df2d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__CreditsData__Text", modifiers: "&&", def_value: None }]
@@ -185,7 +185,7 @@ static_assert(offsetof(::GlobalNamespace::__CreditsData__Text, ___style) == 0x1c
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5475))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4778))
 // CS Name: ::CreditsData::RootCreditsItem*
 class CORDL_TYPE __CreditsData__RootCreditsItem : public ::System::Object {
 public:
@@ -228,18 +228,18 @@ public:
 
   constexpr void __cordl_internal_set_creditsItems(::ArrayW<::GlobalNamespace::__CreditsData__ChildCreditsItem*, ::Array<::GlobalNamespace::__CreditsData__ChildCreditsItem*>*> value);
 
-  /// @brief Method HasTitle, addr 0x22835c0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method HasTitle, addr 0x23df2d8, size 0x10, virtual false, abstract: false, final false
   inline bool HasTitle();
 
-  /// @brief Method HasText, addr 0x22835d0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method HasText, addr 0x23df2e8, size 0x10, virtual false, abstract: false, final false
   inline bool HasText();
 
-  /// @brief Method HasRowItems, addr 0x22835e0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HasRowItems, addr 0x23df2f8, size 0x20, virtual false, abstract: false, final false
   inline bool HasRowItems();
 
   static inline ::GlobalNamespace::__CreditsData__RootCreditsItem* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2283600, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23df318, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__CreditsData__RootCreditsItem", modifiers: "&&", def_value: None }]
@@ -287,7 +287,7 @@ static_assert(offsetof(::GlobalNamespace::__CreditsData__RootCreditsItem, ___cre
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5476))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4779))
 // CS Name: ::CreditsData::ChildCreditsItem*
 class CORDL_TYPE __CreditsData__ChildCreditsItem : public ::System::Object {
 public:
@@ -310,15 +310,15 @@ public:
 
   constexpr void __cordl_internal_set_text(::GlobalNamespace::__CreditsData__Text* value);
 
-  /// @brief Method HasTitle, addr 0x2283608, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method HasTitle, addr 0x23df320, size 0x10, virtual false, abstract: false, final false
   inline bool HasTitle();
 
-  /// @brief Method HasText, addr 0x2283618, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method HasText, addr 0x23df330, size 0x10, virtual false, abstract: false, final false
   inline bool HasText();
 
   static inline ::GlobalNamespace::__CreditsData__ChildCreditsItem* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2283628, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23df340, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__CreditsData__ChildCreditsItem", modifiers: "&&", def_value: None }]
@@ -356,7 +356,7 @@ static_assert(offsetof(::GlobalNamespace::__CreditsData__ChildCreditsItem, ___te
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5477))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4780))
 // CS Name: ::CreditsData*
 class CORDL_TYPE CreditsData : public ::System::Object {
 public:
@@ -379,12 +379,12 @@ public:
 
   constexpr void __cordl_internal_set_creditsItems(::ArrayW<::GlobalNamespace::__CreditsData__RootCreditsItem*, ::Array<::GlobalNamespace::__CreditsData__RootCreditsItem*>*> value);
 
-  /// @brief Method Deserialize, addr 0x22833c8, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method Deserialize, addr 0x23df0e0, size 0x104, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::CreditsData* Deserialize(::StringW text);
 
   static inline ::GlobalNamespace::CreditsData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22834cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23df1e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CreditsData", modifiers: "&&", def_value: None }]

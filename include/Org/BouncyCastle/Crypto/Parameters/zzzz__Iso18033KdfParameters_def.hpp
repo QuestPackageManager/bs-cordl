@@ -42,10 +42,10 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::Iso18033KdfParameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> seed);
 
-  /// @brief Method .ctor, addr 0xf36d28, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf61bb8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> seed);
 
-  /// @brief Method GetSeed, addr 0xf36d50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetSeed, addr 0xf61be0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSeed();
 
   // Ctor Parameters [CppParam { name: "", ty: "Iso18033KdfParameters", modifiers: "&&", def_value: None }]

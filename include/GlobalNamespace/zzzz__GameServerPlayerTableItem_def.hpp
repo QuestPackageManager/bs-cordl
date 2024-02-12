@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::GlobalNamespace::GameServerPlayerTableItem);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4488))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10914))
 // CS Name: ::GameServerPlayerTableItem*
 class CORDL_TYPE GameServerPlayerTableItem : public ::System::Object {
 public:
@@ -59,7 +59,7 @@ public:
 
   static inline ::GlobalNamespace::GameServerPlayerTableItem* New_ctor(::StringW playerName, ::StringW suggestedLevel, ::StringW suggestedModifiers, bool isReady);
 
-  /// @brief Method .ctor, addr 0x2355bb8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1299b90, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::StringW playerName, ::StringW suggestedLevel, ::StringW suggestedModifiers, bool isReady);
 
   // Ctor Parameters [CppParam { name: "", ty: "GameServerPlayerTableItem", modifiers: "&&", def_value: None }]

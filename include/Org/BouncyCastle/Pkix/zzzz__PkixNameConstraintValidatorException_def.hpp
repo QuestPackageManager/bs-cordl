@@ -23,7 +23,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Pkix::PkixNameConstraintValidatorException* New_ctor(::StringW msg);
 
-  /// @brief Method .ctor, addr 0x110afd0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1138e60, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW msg);
 
   // Ctor Parameters [CppParam { name: "", ty: "PkixNameConstraintValidatorException", modifiers: "&&", def_value: None }]

@@ -29,10 +29,10 @@ public:
   // Declarations
   static inline ::System::ConsoleCancelEventHandler* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x25cfb30, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f1a48, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x25cfc60, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x25f1b78, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* sender, ::System::ConsoleCancelEventArgs* e);
 
   // Ctor Parameters [CppParam { name: "", ty: "ConsoleCancelEventHandler", modifiers: "&&", def_value: None }]

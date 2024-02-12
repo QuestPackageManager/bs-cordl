@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::GlobalNamespace::EventBinder);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14365))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14520))
 // CS Name: ::EventBinder*
 class CORDL_TYPE EventBinder : public ::System::Object {
 public:
@@ -35,15 +35,15 @@ public:
 
   constexpr void __cordl_internal_set__unsubscribes(::System::Collections::Generic::List_1<::System::Action*>* value);
 
-  /// @brief Method Bind, addr 0x20f2584, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Bind, addr 0x2186b0c, size 0xcc, virtual false, abstract: false, final false
   inline void Bind(::System::Action* subscribe, ::System::Action* unsubscribe);
 
-  /// @brief Method ClearAllBindings, addr 0x20f2650, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method ClearAllBindings, addr 0x2186bd8, size 0x18c, virtual false, abstract: false, final false
   inline void ClearAllBindings();
 
   static inline ::GlobalNamespace::EventBinder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x20f27dc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2186d64, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EventBinder", modifiers: "&&", def_value: None }]

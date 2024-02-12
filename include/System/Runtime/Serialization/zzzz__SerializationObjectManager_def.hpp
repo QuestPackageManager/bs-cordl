@@ -64,16 +64,16 @@ public:
 
   static inline ::System::Runtime::Serialization::SerializationObjectManager* New_ctor(::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x24b5950, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24d69c4, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method RegisterObject, addr 0x24b59e4, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method RegisterObject, addr 0x24d6a58, size 0x110, virtual false, abstract: false, final false
   inline void RegisterObject(::System::Object* obj);
 
-  /// @brief Method RaiseOnSerializedEvent, addr 0x24b5b84, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method RaiseOnSerializedEvent, addr 0x24d6bf8, size 0x20, virtual false, abstract: false, final false
   inline void RaiseOnSerializedEvent();
 
-  /// @brief Method AddOnSerialized, addr 0x24b5af4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method AddOnSerialized, addr 0x24d6b68, size 0x90, virtual false, abstract: false, final false
   inline void AddOnSerialized(::System::Object* obj);
 
   // Ctor Parameters [CppParam { name: "", ty: "SerializationObjectManager", modifiers: "&&", def_value: None }]

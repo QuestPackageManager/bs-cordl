@@ -85,13 +85,13 @@ public:
   static inline ::System::Security::Cryptography::TripleDESTransform* New_ctor(::System::Security::Cryptography::TripleDES* algo, bool encryption, ::ArrayW<uint8_t, ::Array<uint8_t>*> key,
                                                                                ::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
 
-  /// @brief Method .ctor, addr 0x246b81c, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x248d890, size 0x320, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::TripleDES* algo, bool encryption, ::ArrayW<uint8_t, ::Array<uint8_t>*> key, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
 
-  /// @brief Method ECB, addr 0x2474970, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method ECB, addr 0x24969e4, size 0x120, virtual true, abstract: false, final false
   inline void ECB(::ArrayW<uint8_t, ::Array<uint8_t>*> input, ::ArrayW<uint8_t, ::Array<uint8_t>*> output);
 
-  /// @brief Method GetStrongKey, addr 0x24748cc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetStrongKey, addr 0x2496940, size 0xa4, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetStrongKey();
 
   // Ctor Parameters [CppParam { name: "", ty: "TripleDESTransform", modifiers: "&&", def_value: None }]

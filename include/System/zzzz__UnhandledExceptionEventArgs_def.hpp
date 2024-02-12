@@ -47,13 +47,13 @@ public:
 
   static inline ::System::UnhandledExceptionEventArgs* New_ctor(::System::Object* exception, bool isTerminating);
 
-  /// @brief Method .ctor, addr 0x25cdf38, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25efe50, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* exception, bool isTerminating);
 
-  /// @brief Method get_ExceptionObject, addr 0x25cdfac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ExceptionObject, addr 0x25efec4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_ExceptionObject();
 
-  /// @brief Method get_IsTerminating, addr 0x25cdfb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsTerminating, addr 0x25efecc, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsTerminating();
 
   // Ctor Parameters [CppParam { name: "", ty: "UnhandledExceptionEventArgs", modifiers: "&&", def_value: None }]

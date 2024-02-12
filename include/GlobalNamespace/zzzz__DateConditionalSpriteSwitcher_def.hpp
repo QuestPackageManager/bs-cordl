@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::DateConditionalSpriteSwitcher);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5357))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16176))
 // CS Name: ::DateConditionalSpriteSwitcher*
 class CORDL_TYPE DateConditionalSpriteSwitcher : public ::UnityEngine::MonoBehaviour {
 public:
@@ -73,12 +73,12 @@ public:
 
   constexpr void __cordl_internal_set__conditionalSpriteSwitcher(::UnityW<::GlobalNamespace::ConditionalSpriteSwitcher> value);
 
-  /// @brief Method Awake, addr 0x226c250, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x21817b4, size 0xb8, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::DateConditionalSpriteSwitcher* New_ctor();
 
-  /// @brief Method .ctor, addr 0x226c308, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x218186c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DateConditionalSpriteSwitcher", modifiers: "&&", def_value: None }]

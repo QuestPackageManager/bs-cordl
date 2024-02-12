@@ -28,7 +28,7 @@ MARK_VAL_T(::System::Xml::Linq::NamespaceResolver);
 namespace System::Xml::Linq {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15447))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15561))
 // CS Name: ::NamespaceResolver::NamespaceDeclaration*
 class CORDL_TYPE __NamespaceResolver__NamespaceDeclaration : public ::System::Object {
 public:
@@ -71,7 +71,7 @@ public:
 
   static inline ::System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration* New_ctor();
 
-  /// @brief Method .ctor, addr 0x286003c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28636a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__NamespaceResolver__NamespaceDeclaration", modifiers: "&&", def_value: None }]
@@ -119,26 +119,26 @@ static_assert(offsetof(::System::Xml::Linq::__NamespaceResolver__NamespaceDeclar
 namespace System::Xml::Linq {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15448))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15562))
 // CS Name: ::System.Xml.Linq::NamespaceResolver
 struct CORDL_TYPE NamespaceResolver {
 public:
   // Declarations
   using NamespaceDeclaration = ::System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration;
 
-  /// @brief Method PushScope, addr 0x285ff18, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method PushScope, addr 0x2863580, size 0x10, virtual false, abstract: false, final false
   inline void PushScope();
 
-  /// @brief Method PopScope, addr 0x285ffc4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method PopScope, addr 0x286362c, size 0x78, virtual false, abstract: false, final false
   inline void PopScope();
 
-  /// @brief Method Add, addr 0x285ff28, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x2863590, size 0x9c, virtual false, abstract: false, final false
   inline void Add(::StringW prefix, ::System::Xml::Linq::XNamespace* ns);
 
-  /// @brief Method AddFirst, addr 0x285fdac, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method AddFirst, addr 0x2863414, size 0x98, virtual false, abstract: false, final false
   inline void AddFirst(::StringW prefix, ::System::Xml::Linq::XNamespace* ns);
 
-  /// @brief Method GetPrefixOfNamespace, addr 0x285fc6c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetPrefixOfNamespace, addr 0x28632d4, size 0xdc, virtual false, abstract: false, final false
   inline ::StringW GetPrefixOfNamespace(::System::Xml::Linq::XNamespace* ns, bool allowDefaultNamespace);
 
   // Ctor Parameters [CppParam { name: "_scope", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_declaration", ty:

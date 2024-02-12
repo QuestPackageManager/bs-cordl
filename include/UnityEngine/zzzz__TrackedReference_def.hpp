@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::UnityEngine::TrackedReference);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10209))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8953))
 // CS Name: ::UnityEngine::TrackedReference*
 class CORDL_TYPE TrackedReference : public ::System::Object {
 public:
@@ -36,22 +36,22 @@ public:
 
   static inline ::UnityEngine::TrackedReference* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2cd1718, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cd86c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method op_Equality, addr 0x2cd1720, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x2cd86c8, size 0x94, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::TrackedReference* x, ::UnityEngine::TrackedReference* y);
 
-  /// @brief Method op_Inequality, addr 0x2cd17b4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x2cd875c, size 0x18, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::TrackedReference* x, ::UnityEngine::TrackedReference* y);
 
-  /// @brief Method Equals, addr 0x2cd17cc, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2cd8774, size 0x80, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method GetHashCode, addr 0x2cd184c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2cd87f4, size 0xc, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method op_Implicit, addr 0x2cd1858, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2cd8800, size 0x1c, virtual false, abstract: false, final false
   static inline bool op_Implicit_bool(::UnityEngine::TrackedReference* exists);
 
   // Ctor Parameters [CppParam { name: "", ty: "TrackedReference", modifiers: "&&", def_value: None }]

@@ -14,13 +14,13 @@ MARK_REF_PTR_T(::UnityEngine::LowerResBlitTexture);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10200))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10272))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8944))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9018))
 // CS Name: ::UnityEngine::LowerResBlitTexture*
 class CORDL_TYPE LowerResBlitTexture : public ::UnityEngine::Object {
 public:
   // Declarations
-  /// @brief Method LowerResBlitTextureDontStripMe, addr 0x2cdfdd4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method LowerResBlitTextureDontStripMe, addr 0x2ce6f68, size 0x4, virtual false, abstract: false, final false
   inline void LowerResBlitTextureDontStripMe();
 
   // Ctor Parameters [CppParam { name: "", ty: "LowerResBlitTexture", modifiers: "&&", def_value: None }]

@@ -47,25 +47,25 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::Rfc6637Utilities* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10cf2e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10fd170, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method GetAgreementAlgorithm, addr 0x10cf2e8, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method GetAgreementAlgorithm, addr 0x10fd178, size 0x174, virtual false, abstract: false, final false
   static inline ::StringW GetAgreementAlgorithm(::Org::BouncyCastle::Bcpg::PublicKeyPacket* pubKeyData);
 
-  /// @brief Method GetKeyEncryptionOID, addr 0x10cf45c, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method GetKeyEncryptionOID, addr 0x10fd2ec, size 0x128, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetKeyEncryptionOID(::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag algID);
 
-  /// @brief Method GetKeyLength, addr 0x10cf584, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetKeyLength, addr 0x10fd414, size 0x98, virtual false, abstract: false, final false
   static inline int32_t GetKeyLength(::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag algID);
 
-  /// @brief Method CreateKey, addr 0x10b9b2c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method CreateKey, addr 0x10e79bc, size 0x108, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CreateKey(::Org::BouncyCastle::Bcpg::PublicKeyPacket* pubKeyData, ::Org::BouncyCastle::Math::EC::ECPoint* s);
 
-  /// @brief Method CreateUserKeyingMaterial, addr 0x10cf61c, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method CreateUserKeyingMaterial, addr 0x10fd4ac, size 0x268, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CreateUserKeyingMaterial(::Org::BouncyCastle::Bcpg::PublicKeyPacket* pubKeyData);
 
-  /// @brief Method Kdf, addr 0x10cf884, size 0x37c, virtual false, abstract: false, final false
+  /// @brief Method Kdf, addr 0x10fd714, size 0x37c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Kdf(::Org::BouncyCastle::Bcpg::HashAlgorithmTag digestAlg, ::Org::BouncyCastle::Math::EC::ECPoint* s, int32_t keyLen,
                                                          ::ArrayW<uint8_t, ::Array<uint8_t>*> parameters);
 

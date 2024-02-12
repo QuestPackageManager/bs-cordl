@@ -74,8 +74,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__GameNoteController__Pool);
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 180, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4749)), TypeDefinitionIndex(TypeDefinitionIndex(4761)), TypeDefinitionIndex(TypeDefinitionIndex(14757))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4744))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4100)), TypeDefinitionIndex(TypeDefinitionIndex(4112)), TypeDefinitionIndex(TypeDefinitionIndex(15141))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4095))
 // CS Name: ::GameNoteController*
 class CORDL_TYPE GameNoteController : public ::GlobalNamespace::NoteController {
 public:
@@ -197,58 +197,58 @@ public:
 
   constexpr void __cordl_internal_set__cutAngleTolerance(float_t value);
 
-  /// @brief Method add_cubeNoteControllerDidInitEvent, addr 0x23854dc, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_cubeNoteControllerDidInitEvent, addr 0x22cc484, size 0xb0, virtual true, abstract: false, final true
   inline void add_cubeNoteControllerDidInitEvent(::System::Action_1<::UnityW<::GlobalNamespace::GameNoteController>>* value);
 
-  /// @brief Method remove_cubeNoteControllerDidInitEvent, addr 0x238558c, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_cubeNoteControllerDidInitEvent, addr 0x22cc534, size 0xb0, virtual true, abstract: false, final true
   inline void remove_cubeNoteControllerDidInitEvent(::System::Action_1<::UnityW<::GlobalNamespace::GameNoteController>>* value);
 
-  /// @brief Method get_noteMovement, addr 0x238563c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_noteMovement, addr 0x22cc5e4, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::GlobalNamespace::NoteMovement> get_noteMovement();
 
-  /// @brief Method get_noteVisualModifierType, addr 0x2385644, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_noteVisualModifierType, addr 0x22cc5ec, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::NoteVisualModifierType get_noteVisualModifierType();
 
-  /// @brief Method get_gameplayType, addr 0x238564c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_gameplayType, addr 0x22cc5f4, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::__NoteData__GameplayType get_gameplayType();
 
-  /// @brief Method Init, addr 0x2378648, size 0x2b8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x22cc5fc, size 0x2b8, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::NoteData* noteData, float_t worldRotation, ::UnityEngine::Vector3 moveStartPos, ::UnityEngine::Vector3 moveEndPos, ::UnityEngine::Vector3 jumpEndPos,
                    float_t moveDuration, float_t jumpDuration, float_t jumpGravity, ::GlobalNamespace::NoteVisualModifierType noteVisualModifierType, float_t cutAngleTolerance, float_t uniformScale);
 
-  /// @brief Method Awake, addr 0x2385654, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x22cc8b4, size 0x160, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnDestroy, addr 0x23857b4, size 0x1cc, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x22cca14, size 0x1cc, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method NoteDidPassMissedMarker, addr 0x2385980, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method NoteDidPassMissedMarker, addr 0x22ccbe0, size 0xbc, virtual true, abstract: false, final false
   inline void NoteDidPassMissedMarker();
 
-  /// @brief Method NoteDidStartDissolving, addr 0x2385a3c, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method NoteDidStartDissolving, addr 0x22ccc9c, size 0xb8, virtual true, abstract: false, final false
   inline void NoteDidStartDissolving();
 
-  /// @brief Method HandleBigWasCutBySaber, addr 0x2385af4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandleBigWasCutBySaber, addr 0x22ccd54, size 0x18, virtual false, abstract: false, final false
   inline void HandleBigWasCutBySaber(::GlobalNamespace::Saber* saber, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Quaternion orientation, ::UnityEngine::Vector3 cutDirVec);
 
-  /// @brief Method HandleSmallWasCutBySaber, addr 0x2385fdc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandleSmallWasCutBySaber, addr 0x22cd220, size 0x18, virtual false, abstract: false, final false
   inline void HandleSmallWasCutBySaber(::GlobalNamespace::Saber* saber, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Quaternion orientation, ::UnityEngine::Vector3 cutDirVec);
 
-  /// @brief Method HandleCut, addr 0x2385b0c, size 0x4d0, virtual false, abstract: false, final false
+  /// @brief Method HandleCut, addr 0x22ccd6c, size 0x4b4, virtual false, abstract: false, final false
   inline void HandleCut(::GlobalNamespace::Saber* saber, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Quaternion orientation, ::UnityEngine::Vector3 cutDirVec, bool allowBadCut);
 
-  /// @brief Method NoteDidStartJump, addr 0x2385ff4, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method NoteDidStartJump, addr 0x22cd238, size 0xc0, virtual true, abstract: false, final false
   inline void NoteDidStartJump();
 
-  /// @brief Method HiddenStateDidChange, addr 0x23860b4, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method HiddenStateDidChange, addr 0x22cd2f8, size 0x24, virtual true, abstract: false, final false
   inline void HiddenStateDidChange(bool hide);
 
-  /// @brief Method Pause, addr 0x23860d8, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Pause, addr 0x22cd31c, size 0x10, virtual true, abstract: false, final false
   inline void Pause(bool pause);
 
   static inline ::GlobalNamespace::GameNoteController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23860e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22cd32c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GameNoteController", modifiers: "&&", def_value: None }]
@@ -315,14 +315,14 @@ static_assert(offsetof(::GlobalNamespace::GameNoteController, ____cutAngleTolera
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4744)), TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
-// 310 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4743)) CS Name: ::GameNoteController::Pool*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4095)), TypeDefinitionIndex(TypeDefinitionIndex(10192)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10192), inst:
+// 312 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4094)) CS Name: ::GameNoteController::Pool*
 class CORDL_TYPE __GameNoteController__Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::GameNoteController>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__GameNoteController__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23860ec, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22cd330, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__GameNoteController__Pool", modifiers: "&&", def_value: None }]

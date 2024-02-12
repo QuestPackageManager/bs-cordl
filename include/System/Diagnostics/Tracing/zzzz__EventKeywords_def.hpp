@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Diagnostics::Tracing::EventKeywords);
 namespace System::Diagnostics::Tracing {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3744))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3742))
 // CS Name: ::System.Diagnostics.Tracing::EventKeywords
 struct CORDL_TYPE EventKeywords {
 public:

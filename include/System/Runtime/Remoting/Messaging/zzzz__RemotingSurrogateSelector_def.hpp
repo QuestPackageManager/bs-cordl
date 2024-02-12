@@ -77,10 +77,10 @@ public:
 
   static inline ::System::Runtime::Remoting::Messaging::RemotingSurrogateSelector* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24a3fb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24c6028, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method GetSurrogate, addr 0x24b1ce4, size 0x194, virtual true, abstract: false, final false
+  /// @brief Method GetSurrogate, addr 0x24d3d58, size 0x194, virtual true, abstract: false, final false
   inline ::System::Runtime::Serialization::ISerializationSurrogate* GetSurrogate(::System::Type* type, ::System::Runtime::Serialization::StreamingContext context,
                                                                                  ByRef<::System::Runtime::Serialization::ISurrogateSelector*> ssout);
 

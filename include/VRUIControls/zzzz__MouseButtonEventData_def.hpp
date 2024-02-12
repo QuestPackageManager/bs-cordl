@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::VRUIControls::MouseButtonEventData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace VRUIControls {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13167))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15669))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13065))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15827))
 // CS Name: ::VRUIControls::MouseButtonEventData*
 class CORDL_TYPE MouseButtonEventData : public ::System::Object {
 public:
@@ -42,15 +42,15 @@ public:
 
   constexpr void __cordl_internal_set_buttonData(::UnityEngine::EventSystems::PointerEventData* value);
 
-  /// @brief Method PressedThisFrame, addr 0x2eb41a8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method PressedThisFrame, addr 0x2ed02ec, size 0x10, virtual false, abstract: false, final false
   inline bool PressedThisFrame();
 
-  /// @brief Method ReleasedThisFrame, addr 0x2eb41b8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ReleasedThisFrame, addr 0x2ed02fc, size 0x14, virtual false, abstract: false, final false
   inline bool ReleasedThisFrame();
 
   static inline ::VRUIControls::MouseButtonEventData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2eb41cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ed0310, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MouseButtonEventData", modifiers: "&&", def_value: None }]

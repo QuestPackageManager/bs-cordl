@@ -45,7 +45,7 @@ namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TValue>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11215))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10357))
 // CS Name: ::Zenject::MethodProviderWithContainer`5<TParam1,TParam2,TParam3,TParam4,TValue>*
 class CORDL_TYPE MethodProviderWithContainer_5 : public ::System::Object {
 public:

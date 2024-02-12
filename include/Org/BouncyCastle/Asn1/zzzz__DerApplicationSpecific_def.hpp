@@ -65,57 +65,57 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::DerApplicationSpecific* New_ctor(bool isConstructed, int32_t tag, ::ArrayW<uint8_t, ::Array<uint8_t>*> octets);
 
-  /// @brief Method .ctor, addr 0x11b4b90, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11e1a20, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(bool isConstructed, int32_t tag, ::ArrayW<uint8_t, ::Array<uint8_t>*> octets);
 
   static inline ::Org::BouncyCastle::Asn1::DerApplicationSpecific* New_ctor(int32_t tag, ::ArrayW<uint8_t, ::Array<uint8_t>*> octets);
 
-  /// @brief Method .ctor, addr 0x11bb3d0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11e8260, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t tag, ::ArrayW<uint8_t, ::Array<uint8_t>*> octets);
 
   static inline ::Org::BouncyCastle::Asn1::DerApplicationSpecific* New_ctor(int32_t tag, ::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
-  /// @brief Method .ctor, addr 0x11bb404, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11e8294, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(int32_t tag, ::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
   static inline ::Org::BouncyCastle::Asn1::DerApplicationSpecific* New_ctor(bool isExplicit, int32_t tag, ::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
-  /// @brief Method .ctor, addr 0x11bb414, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11e82a4, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor(bool isExplicit, int32_t tag, ::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
   static inline ::Org::BouncyCastle::Asn1::DerApplicationSpecific* New_ctor(int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1EncodableVector* vec);
 
-  /// @brief Method .ctor, addr 0x11bb5d8, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11e8468, size 0x1d0, virtual false, abstract: false, final false
   inline void _ctor(int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1EncodableVector* vec);
 
-  /// @brief Method GetLengthOfHeader, addr 0x11bb50c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetLengthOfHeader, addr 0x11e839c, size 0xcc, virtual false, abstract: false, final false
   inline int32_t GetLengthOfHeader(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method IsConstructed, addr 0x11bb7a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsConstructed, addr 0x11e8638, size 0x8, virtual false, abstract: false, final false
   inline bool IsConstructed();
 
-  /// @brief Method GetContents, addr 0x11bb7b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetContents, addr 0x11e8640, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetContents();
 
-  /// @brief Method get_ApplicationTag, addr 0x11bb7b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ApplicationTag, addr 0x11e8648, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ApplicationTag();
 
-  /// @brief Method GetObject, addr 0x11bb7c0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetObject, addr 0x11e8650, size 0xc, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* GetObject();
 
-  /// @brief Method GetObject, addr 0x11bb7cc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetObject, addr 0x11e865c, size 0xbc, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* GetObject(int32_t derTagNo);
 
-  /// @brief Method Encode, addr 0x11bb9d0, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x11e8860, size 0x38, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
-  /// @brief Method Asn1Equals, addr 0x11bba08, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method Asn1Equals, addr 0x11e8898, size 0xe8, virtual true, abstract: false, final false
   inline bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
 
-  /// @brief Method Asn1GetHashCode, addr 0x11bbaf0, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Asn1GetHashCode, addr 0x11e8980, size 0xa4, virtual true, abstract: false, final false
   inline int32_t Asn1GetHashCode();
 
-  /// @brief Method ReplaceTagNumber, addr 0x11bb888, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method ReplaceTagNumber, addr 0x11e8718, size 0x148, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReplaceTagNumber(int32_t newTag, ::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
   // Ctor Parameters [CppParam { name: "", ty: "DerApplicationSpecific", modifiers: "&&", def_value: None }]

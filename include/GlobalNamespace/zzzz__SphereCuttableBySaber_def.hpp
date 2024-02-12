@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SphereCuttableBySaber);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5286))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5310))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4626))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4650))
 // CS Name: ::SphereCuttableBySaber*
 class CORDL_TYPE SphereCuttableBySaber : public ::GlobalNamespace::CuttableBySaber {
 public:
@@ -55,24 +55,24 @@ public:
 
   constexpr void __cordl_internal_set__canBeCut(bool value);
 
-  /// @brief Method get_radius, addr 0x2264c94, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_radius, addr 0x23c3afc, size 0x1c, virtual true, abstract: false, final false
   inline float_t get_radius();
 
-  /// @brief Method set_canBeCut, addr 0x2264cb0, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method set_canBeCut, addr 0x23c3b18, size 0x38, virtual true, abstract: false, final false
   inline void set_canBeCut(bool value);
 
-  /// @brief Method get_canBeCut, addr 0x2264ce8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_canBeCut, addr 0x23c3b50, size 0x8, virtual true, abstract: false, final false
   inline bool get_canBeCut();
 
-  /// @brief Method Awake, addr 0x2264cf0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x23c3b58, size 0x2c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Cut, addr 0x2264d1c, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method Cut, addr 0x23c3b84, size 0x34, virtual true, abstract: false, final false
   inline void Cut(::GlobalNamespace::Saber* saber, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Quaternion orientation, ::UnityEngine::Vector3 cutDirVec);
 
   static inline ::GlobalNamespace::SphereCuttableBySaber* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2264d50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c3bb8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SphereCuttableBySaber", modifiers: "&&", def_value: None }]

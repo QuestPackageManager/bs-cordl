@@ -52,7 +52,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__BTSStarTextEffectsManager___DespawnEffectDel
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3980))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15020))
 // CS Name: ::BTSStarTextEffectsManager::<DespawnEffectDelayed>d__5*
 class CORDL_TYPE __BTSStarTextEffectsManager___DespawnEffectDelayed_d__5 : public ::System::Object {
 public:
@@ -117,22 +117,22 @@ public:
 
   static inline ::GlobalNamespace::__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor, addr 0x221d650, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe2f27c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x221d680, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0xe2f2ac, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext, addr 0x221d684, size 0xd8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0xe2f2b0, size 0xd8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x221d75c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0xe2f388, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x221d764, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0xe2f390, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x221d7a4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0xe2f3d0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5", modifiers: "&&", def_value: None }]
@@ -179,8 +179,8 @@ static_assert(offsetof(::GlobalNamespace::__BTSStarTextEffectsManager___DespawnE
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3981))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15021))
 // CS Name: ::BTSStarTextEffectsManager*
 class CORDL_TYPE BTSStarTextEffectsManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -207,21 +207,21 @@ public:
 
   constexpr void __cordl_internal_set__btsStarTextEffectControllerPool(::GlobalNamespace::__BTSStarTextEffectController__Pool* value);
 
-  /// @brief Method Start, addr 0x221d2d8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0xe2ef04, size 0x88, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy, addr 0x221d410, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0xe2f03c, size 0x88, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleBTSStarTextEventEffect, addr 0x221d548, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method HandleBTSStarTextEventEffect, addr 0xe2f174, size 0x94, virtual false, abstract: false, final false
   inline void HandleBTSStarTextEventEffect(::UnityEngine::Sprite* sprite, ::UnityEngine::Transform* parentTransform, float_t desiredAnimationLength);
 
-  /// @brief Method DespawnEffectDelayed, addr 0x221d5dc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method DespawnEffectDelayed, addr 0xe2f208, size 0x74, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* DespawnEffectDelayed(::GlobalNamespace::BTSStarTextEffectController* effectController);
 
   static inline ::GlobalNamespace::BTSStarTextEffectsManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x221d678, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe2f2a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BTSStarTextEffectsManager", modifiers: "&&", def_value: None }]

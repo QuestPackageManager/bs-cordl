@@ -17,7 +17,7 @@ MARK_VAL_T(::OVR::OpenVR::RenderModel_TextureMap_t);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8713))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8657))
 // CS Name: ::OVR.OpenVR::RenderModel_TextureMap_t
 struct CORDL_TYPE RenderModel_TextureMap_t {
 public:

@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Rendering::CommandBufferExecutionFlags);
 namespace UnityEngine::Rendering {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10351))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9107))
 // CS Name: ::UnityEngine.Rendering::CommandBufferExecutionFlags
 struct CORDL_TYPE CommandBufferExecutionFlags {
 public:

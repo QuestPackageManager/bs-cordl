@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::GlobalNamespace::DoesNotRequireDomainReloadInitAttribute);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10170))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16248))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8914))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16403))
 // CS Name: ::DoesNotRequireDomainReloadInitAttribute*
 class CORDL_TYPE DoesNotRequireDomainReloadInitAttribute : public ::UnityEngine::PropertyAttribute {
 public:
   // Declarations
   static inline ::GlobalNamespace::DoesNotRequireDomainReloadInitAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2101030, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe46448, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DoesNotRequireDomainReloadInitAttribute", modifiers: "&&", def_value: None }]

@@ -31,17 +31,17 @@ MARK_REF_PTR_T(::UnityEngine::__CullingGroup__StateChanged);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10147))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8887))
 // CS Name: ::CullingGroup::StateChanged*
 class CORDL_TYPE __CullingGroup__StateChanged : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::UnityEngine::__CullingGroup__StateChanged* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2cc67f0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cc9354, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x2cc68b4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2cc9418, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngine::CullingGroupEvent sphere);
 
   // Ctor Parameters [CppParam { name: "", ty: "__CullingGroup__StateChanged", modifiers: "&&", def_value: None }]
@@ -69,7 +69,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::__CullingGroup__Sta
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10148))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8888))
 // CS Name: ::UnityEngine::CullingGroup*
 class CORDL_TYPE CullingGroup : public ::System::Object {
 public:
@@ -94,7 +94,7 @@ public:
 
   constexpr void __cordl_internal_set_m_OnStateChanged(::UnityEngine::__CullingGroup__StateChanged* value);
 
-  /// @brief Method SendEvents, addr 0x2cc6794, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SendEvents, addr 0x2cc92f8, size 0x5c, virtual false, abstract: false, final false
   static inline void SendEvents(::UnityEngine::CullingGroup* cullingGroup, void* eventsPtr, int32_t count);
 
   // Ctor Parameters [CppParam { name: "", ty: "CullingGroup", modifiers: "&&", def_value: None }]

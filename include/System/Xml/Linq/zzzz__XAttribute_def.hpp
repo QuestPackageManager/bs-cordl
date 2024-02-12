@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::System::Xml::Linq::XAttribute);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Linq {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15454))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15432))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15568))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15546))
 // CS Name: ::System.Xml.Linq::XAttribute*
 class CORDL_TYPE XAttribute : public ::System::Xml::Linq::XObject {
 public:
@@ -70,36 +70,36 @@ public:
 
   static inline ::System::Xml::Linq::XAttribute* New_ctor(::System::Xml::Linq::XName* name, ::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x285a9e8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x285e050, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XName* name, ::System::Object* value);
 
   static inline ::System::Xml::Linq::XAttribute* New_ctor(::System::Xml::Linq::XAttribute* other);
 
-  /// @brief Method .ctor, addr 0x285b0e8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x285e750, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XAttribute* other);
 
-  /// @brief Method get_IsNamespaceDeclaration, addr 0x285b164, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_IsNamespaceDeclaration, addr 0x285e7cc, size 0x9c, virtual false, abstract: false, final false
   inline bool get_IsNamespaceDeclaration();
 
-  /// @brief Method get_Name, addr 0x285b21c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x285e884, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Linq::XName* get_Name();
 
-  /// @brief Method get_NodeType, addr 0x285b224, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x285e88c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
-  /// @brief Method get_Value, addr 0x285b22c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x285e894, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method set_Value, addr 0x285b234, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method set_Value, addr 0x285e89c, size 0x100, virtual false, abstract: false, final false
   inline void set_Value(::StringW value);
 
-  /// @brief Method ToString, addr 0x285b484, size 0x3d4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x285eaec, size 0x3d4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method GetPrefixOfNamespace, addr 0x285b858, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method GetPrefixOfNamespace, addr 0x285eec0, size 0x138, virtual false, abstract: false, final false
   inline ::StringW GetPrefixOfNamespace(::System::Xml::Linq::XNamespace* ns);
 
-  /// @brief Method ValidateAttribute, addr 0x285aeb8, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method ValidateAttribute, addr 0x285e520, size 0x230, virtual false, abstract: false, final false
   static inline void ValidateAttribute(::System::Xml::Linq::XName* name, ::StringW value);
 
   // Ctor Parameters [CppParam { name: "", ty: "XAttribute", modifiers: "&&", def_value: None }]

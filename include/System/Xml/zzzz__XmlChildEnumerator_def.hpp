@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::System::Xml::XmlChildEnumerator);
 namespace System::Xml {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11501))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11399))
 // CS Name: ::System.Xml::XmlChildEnumerator*
 class CORDL_TYPE XmlChildEnumerator : public ::System::Object {
 public:
@@ -68,22 +68,22 @@ public:
 
   static inline ::System::Xml::XmlChildEnumerator* New_ctor(::System::Xml::XmlNode* container);
 
-  /// @brief Method .ctor, addr 0x2883d70, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28873d8, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlNode* container);
 
-  /// @brief Method System.Collections.IEnumerator.MoveNext, addr 0x2883dc0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.MoveNext, addr 0x2887428, size 0x4, virtual true, abstract: false, final true
   inline bool System_Collections_IEnumerator_MoveNext();
 
-  /// @brief Method MoveNext, addr 0x2883dc4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method MoveNext, addr 0x288742c, size 0x64, virtual false, abstract: false, final false
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2883e28, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2887490, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2883e60, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x28874c8, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method get_Current, addr 0x2883e64, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_Current, addr 0x28874cc, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Xml::XmlNode* get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlChildEnumerator", modifiers: "&&", def_value: None }]

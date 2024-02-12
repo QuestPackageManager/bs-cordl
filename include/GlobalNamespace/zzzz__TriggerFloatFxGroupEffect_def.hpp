@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__TriggerFloatFxGroupEffect__InitData);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4914))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4268))
 // CS Name: ::TriggerFloatFxGroupEffect::InitData*
 class CORDL_TYPE __TriggerFloatFxGroupEffect__InitData : public ::System::Object {
 public:
@@ -69,7 +69,7 @@ public:
 
   static inline ::GlobalNamespace::__TriggerFloatFxGroupEffect__InitData* New_ctor(int32_t groupId, int32_t elementId, ::GlobalNamespace::FloatFxGroupEffectTarget* target);
 
-  /// @brief Method .ctor, addr 0x23a71b8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23672f0, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(int32_t groupId, int32_t elementId, ::GlobalNamespace::FloatFxGroupEffectTarget* target);
 
   // Ctor Parameters [CppParam { name: "", ty: "__TriggerFloatFxGroupEffect__InitData", modifiers: "&&", def_value: None }]
@@ -112,7 +112,7 @@ static_assert(offsetof(::GlobalNamespace::__TriggerFloatFxGroupEffect__InitData,
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4915))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4269))
 // CS Name: ::TriggerFloatFxGroupEffect*
 class CORDL_TYPE TriggerFloatFxGroupEffect : public ::System::Object {
 public:
@@ -151,13 +151,13 @@ public:
   static inline ::GlobalNamespace::TriggerFloatFxGroupEffect* New_ctor(::GlobalNamespace::__TriggerFloatFxGroupEffect__InitData* initData,
                                                                        ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 
-  /// @brief Method .ctor, addr 0x23a7074, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23671ac, size 0x11c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__TriggerFloatFxGroupEffect__InitData* initData, ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 
-  /// @brief Method Cleanup, addr 0x23a6f58, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x2367090, size 0x1c, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method HandleFloatFxBeatmapEventCallback, addr 0x23a7190, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method HandleFloatFxBeatmapEventCallback, addr 0x23672c8, size 0x28, virtual false, abstract: false, final false
   inline void HandleFloatFxBeatmapEventCallback(::GlobalNamespace::FloatFxBeatmapEventData* currentEvent);
 
   // Ctor Parameters [CppParam { name: "", ty: "TriggerFloatFxGroupEffect", modifiers: "&&", def_value: None }]

@@ -25,23 +25,23 @@ MARK_REF_PTR_T(::ENet::FreeCallback);
 namespace ENet {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15222))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15335))
 // CS Name: ::ENet::FreeCallback*
 class CORDL_TYPE FreeCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::ENet::FreeCallback* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x21eee3c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2284724, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x21eef00, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x22847e8, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(void* memory);
 
-  /// @brief Method BeginInvoke, addr 0x21eef14, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x22847fc, size 0x84, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(void* memory, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x21eef98, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2284880, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "FreeCallback", modifiers: "&&", def_value: None }]

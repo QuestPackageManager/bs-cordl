@@ -51,13 +51,13 @@ public:
 
   static inline ::System::Runtime::Serialization::MemberHolder* New_ctor(::System::Type* type, ::System::Runtime::Serialization::StreamingContext ctx);
 
-  /// @brief Method .ctor, addr 0x24b4e80, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24d5ef4, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::System::Runtime::Serialization::StreamingContext ctx);
 
-  /// @brief Method GetHashCode, addr 0x24b4ebc, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x24d5f30, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Equals, addr 0x24b4edc, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x24d5f50, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
   // Ctor Parameters [CppParam { name: "", ty: "MemberHolder", modifiers: "&&", def_value: None }]

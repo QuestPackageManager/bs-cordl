@@ -40,7 +40,7 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__OffsetModifierVRIK___Initiate_d__7);
 namespace RootMotion::FinalIK {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12657))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12555))
 // CS Name: ::OffsetModifierVRIK::<Initiate>d__7*
 class CORDL_TYPE __OffsetModifierVRIK___Initiate_d__7 : public ::System::Object {
 public:
@@ -96,22 +96,22 @@ public:
 
   static inline ::RootMotion::FinalIK::__OffsetModifierVRIK___Initiate_d__7* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor, addr 0x12982d4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1330384, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x12984dc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x133058c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext, addr 0x12984e0, size 0x150, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x1330590, size 0x150, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x1298630, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x13306e0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x1298638, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x13306e8, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x1298678, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x1330728, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__OffsetModifierVRIK___Initiate_d__7", modifiers: "&&", def_value: None }]
@@ -153,8 +153,8 @@ static_assert(offsetof(::RootMotion::FinalIK::__OffsetModifierVRIK___Initiate_d_
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12658))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12556))
 // CS Name: ::RootMotion.FinalIK::OffsetModifierVRIK*
 class CORDL_TYPE OffsetModifierVRIK : public ::UnityEngine::MonoBehaviour {
 public:
@@ -190,27 +190,27 @@ public:
 
   constexpr void __cordl_internal_set_lastTime(float_t value);
 
-  /// @brief Method get_deltaTime, addr 0x129822c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_deltaTime, addr 0x13302dc, size 0x20, virtual false, abstract: false, final false
   inline float_t get_deltaTime();
 
   /// @brief Method OnModifyOffset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnModifyOffset();
 
-  /// @brief Method Start, addr 0x129824c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x13302fc, size 0x20, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Initiate, addr 0x129826c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Initiate, addr 0x133031c, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Initiate();
 
-  /// @brief Method ModifyOffset, addr 0x12982fc, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method ModifyOffset, addr 0x13303ac, size 0xd4, virtual false, abstract: false, final false
   inline void ModifyOffset();
 
-  /// @brief Method OnDestroy, addr 0x12983d0, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x1330480, size 0x10c, virtual true, abstract: false, final false
   inline void OnDestroy();
 
   static inline ::RootMotion::FinalIK::OffsetModifierVRIK* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1296234, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x132e2e4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OffsetModifierVRIK", modifiers: "&&", def_value: None }]

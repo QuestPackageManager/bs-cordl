@@ -186,7 +186,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Bsi::BsiObjectIdentifiers* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe63e78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe8ed08, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BsiObjectIdentifiers", modifiers: "&&", def_value: None }]

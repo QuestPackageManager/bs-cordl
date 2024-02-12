@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::GlobalNamespace::SmallBufferPool);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12958))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12856))
 // CS Name: ::SmallBufferPool*
 class CORDL_TYPE SmallBufferPool : public ::System::Object {
 public:
@@ -69,21 +69,21 @@ public:
 
   static inline ::GlobalNamespace::SmallBufferPool* getStaticF_instance();
 
-  /// @brief Method GetBuffer, addr 0xe56ca8, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method GetBuffer, addr 0xe81ae0, size 0x270, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBuffer(int32_t length);
 
-  /// @brief Method ReleaseBuffer, addr 0xe56f18, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ReleaseBuffer, addr 0xe81d50, size 0x4, virtual false, abstract: false, final false
   inline void ReleaseBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer);
 
-  /// @brief Method ReleaseBuffer, addr 0xe570e0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ReleaseBuffer, addr 0xe81f18, size 0x1c, virtual false, abstract: false, final false
   inline void ReleaseBuffer(ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> buffer);
 
-  /// @brief Method ReleaseBufferInternal, addr 0xe56f1c, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method ReleaseBufferInternal, addr 0xe81d54, size 0x1c4, virtual false, abstract: false, final false
   inline void ReleaseBufferInternal(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer);
 
   static inline ::GlobalNamespace::SmallBufferPool* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe570fc, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe81f34, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SmallBufferPool", modifiers: "&&", def_value: None }]

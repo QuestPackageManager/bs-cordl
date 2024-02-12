@@ -90,60 +90,60 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DeferredHash* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf66974, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf90804, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DeferredHash* New_ctor(uint8_t prfHashAlgorithm, ::Org::BouncyCastle::Crypto::IDigest* prfHash);
 
-  /// @brief Method .ctor, addr 0xf66a20, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf908b0, size 0x138, virtual false, abstract: false, final false
   inline void _ctor(uint8_t prfHashAlgorithm, ::Org::BouncyCastle::Crypto::IDigest* prfHash);
 
-  /// @brief Method Init, addr 0xf66b58, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0xf909e8, size 0x8, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::Tls::TlsContext* context);
 
-  /// @brief Method NotifyPrfDetermined, addr 0xf66b60, size 0x180, virtual true, abstract: false, final false
+  /// @brief Method NotifyPrfDetermined, addr 0xf909f0, size 0x180, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash* NotifyPrfDetermined();
 
-  /// @brief Method TrackHashAlgorithm, addr 0xf66d58, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method TrackHashAlgorithm, addr 0xf90be8, size 0x6c, virtual true, abstract: false, final false
   inline void TrackHashAlgorithm(uint8_t hashAlgorithm);
 
-  /// @brief Method SealHashAlgorithms, addr 0xf66dc4, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method SealHashAlgorithms, addr 0xf90c54, size 0x10, virtual true, abstract: false, final false
   inline void SealHashAlgorithms();
 
-  /// @brief Method StopTracking, addr 0xf66dd4, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method StopTracking, addr 0xf90c64, size 0x1c4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash* StopTracking();
 
-  /// @brief Method ForkPrfHash, addr 0xf66f98, size 0x1b4, virtual true, abstract: false, final false
+  /// @brief Method ForkPrfHash, addr 0xf90e28, size 0x1b4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::IDigest* ForkPrfHash();
 
-  /// @brief Method GetFinalHash, addr 0xf6714c, size 0x220, virtual true, abstract: false, final false
+  /// @brief Method GetFinalHash, addr 0xf90fdc, size 0x220, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetFinalHash(uint8_t hashAlgorithm);
 
-  /// @brief Method get_AlgorithmName, addr 0xf6736c, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0xf911fc, size 0x50, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method GetByteLength, addr 0xf673bc, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method GetByteLength, addr 0xf9124c, size 0x50, virtual true, abstract: false, final false
   inline int32_t GetByteLength();
 
-  /// @brief Method GetDigestSize, addr 0xf6740c, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method GetDigestSize, addr 0xf9129c, size 0x50, virtual true, abstract: false, final false
   inline int32_t GetDigestSize();
 
-  /// @brief Method Update, addr 0xf6745c, size 0x43c, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0xf912ec, size 0x43c, virtual true, abstract: false, final false
   inline void Update(uint8_t input);
 
-  /// @brief Method BlockUpdate, addr 0xf67898, size 0x460, virtual true, abstract: false, final false
+  /// @brief Method BlockUpdate, addr 0xf91728, size 0x460, virtual true, abstract: false, final false
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t len);
 
-  /// @brief Method DoFinal, addr 0xf67cf8, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method DoFinal, addr 0xf91b88, size 0x50, virtual true, abstract: false, final false
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset, addr 0xf67d48, size 0x428, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0xf91bd8, size 0x428, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method CheckStopBuffering, addr 0xf68170, size 0x454, virtual true, abstract: false, final false
+  /// @brief Method CheckStopBuffering, addr 0xf92000, size 0x454, virtual true, abstract: false, final false
   inline void CheckStopBuffering();
 
-  /// @brief Method CheckTrackingHash, addr 0xf685c4, size 0x1a0, virtual true, abstract: false, final false
+  /// @brief Method CheckTrackingHash, addr 0xf92454, size 0x1a0, virtual true, abstract: false, final false
   inline void CheckTrackingHash(uint8_t hashAlgorithm);
 
   // Ctor Parameters [CppParam { name: "", ty: "DeferredHash", modifiers: "&&", def_value: None }]

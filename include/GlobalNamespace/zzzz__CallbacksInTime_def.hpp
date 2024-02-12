@@ -41,7 +41,7 @@ MARK_REF_PTR_T(::GlobalNamespace::CallbacksInTime);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4713))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4064))
 // CS Name: ::CallbacksInTime*
 class CORDL_TYPE CallbacksInTime : public ::System::Object {
 public:
@@ -104,24 +104,24 @@ public:
   constexpr void
   __cordl_internal_set__callbacks(::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDataCallbackWrapper*>*>* value);
 
-  /// @brief Method get_isEmpty, addr 0x237ab10, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_isEmpty, addr 0x22c0338, size 0x8c, virtual false, abstract: false, final false
   inline bool get_isEmpty();
 
   static inline ::GlobalNamespace::CallbacksInTime* New_ctor(float_t aheadTime);
 
-  /// @brief Method .ctor, addr 0x237bd1c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22c1550, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(float_t aheadTime);
 
-  /// @brief Method AddCallback, addr 0x237bdf0, size 0x308, virtual false, abstract: false, final false
+  /// @brief Method AddCallback, addr 0x22c1624, size 0x308, virtual false, abstract: false, final false
   inline void AddCallback(::GlobalNamespace::BeatmapDataCallbackWrapper* callbackWrapper);
 
-  /// @brief Method RemoveCallback, addr 0x237a92c, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method RemoveCallback, addr 0x22c0154, size 0x1e4, virtual false, abstract: false, final false
   inline void RemoveCallback(::GlobalNamespace::BeatmapDataCallbackWrapper* callbackWrapper);
 
-  /// @brief Method CallCallbacks, addr 0x237acfc, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method CallCallbacks, addr 0x22c0524, size 0xd4, virtual false, abstract: false, final false
   inline void CallCallbacks(::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
 
-  /// @brief Method CallCallbacks, addr 0x237c0f8, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method CallCallbacks, addr 0x22c192c, size 0x2cc, virtual false, abstract: false, final false
   inline void CallCallbacks(::System::Type* beatmapEventDataType, ::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
 
   // Ctor Parameters [CppParam { name: "", ty: "CallbacksInTime", modifiers: "&&", def_value: None }]

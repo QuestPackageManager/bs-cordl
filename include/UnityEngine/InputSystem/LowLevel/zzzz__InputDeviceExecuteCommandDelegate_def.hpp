@@ -29,23 +29,23 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDe
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6470))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5729))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::InputDeviceExecuteCommandDelegate*
 class CORDL_TYPE InputDeviceExecuteCommandDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDelegate* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2ae785c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ae93c8, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x2ae7930, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2ae949c, size 0x14, virtual true, abstract: false, final false
   inline int64_t Invoke(ByRef<::UnityEngine::InputSystem::LowLevel::InputDeviceCommand> command);
 
-  /// @brief Method BeginInvoke, addr 0x2ae7944, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2ae94b0, size 0x8c, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(ByRef<::UnityEngine::InputSystem::LowLevel::InputDeviceCommand> command, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2ae79d0, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2ae953c, size 0x2c, virtual true, abstract: false, final false
   inline int64_t EndInvoke(ByRef<::UnityEngine::InputSystem::LowLevel::InputDeviceCommand> command, ::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "InputDeviceExecuteCommandDelegate", modifiers: "&&", def_value: None }]

@@ -26,7 +26,7 @@ namespace Zenject {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11117))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10259))
 // CS Name: ::Zenject::LazyInject`1<T>*
 class CORDL_TYPE LazyInject_1 : public ::System::Object {
 public:

@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::GlobalNamespace::PoseObject);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5927))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5187))
 // CS Name: ::PoseObject*
 class CORDL_TYPE PoseObject : public ::System::Object {
 public:
@@ -49,15 +49,15 @@ public:
 
   constexpr void __cordl_internal_set__poseObjectId(::UnityW<::GlobalNamespace::PoseObjectIdSO> value);
 
-  /// @brief Method get_objectTransform, addr 0x230178c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_objectTransform, addr 0x23296d0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_objectTransform();
 
-  /// @brief Method get_id, addr 0x2301794, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x23296d8, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW get_id();
 
   static inline ::GlobalNamespace::PoseObject* New_ctor(::UnityEngine::Transform* transform, ::GlobalNamespace::PoseObjectIdSO* poseObjectId);
 
-  /// @brief Method .ctor, addr 0x22ff910, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2327854, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Transform* transform, ::GlobalNamespace::PoseObjectIdSO* poseObjectId);
 
   // Ctor Parameters [CppParam { name: "", ty: "PoseObject", modifiers: "&&", def_value: None }]

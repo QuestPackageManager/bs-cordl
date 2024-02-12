@@ -67,13 +67,13 @@ public:
 
   static inline ::System::Runtime::Serialization::ObjectHolderListEnumerator* New_ctor(::System::Runtime::Serialization::ObjectHolderList* list, bool isFixupEnumerator);
 
-  /// @brief Method .ctor, addr 0x24bcd0c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24ddd80, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::ObjectHolderList* list, bool isFixupEnumerator);
 
-  /// @brief Method MoveNext, addr 0x24bbbf0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method MoveNext, addr 0x24dcc64, size 0xbc, virtual false, abstract: false, final false
   inline bool MoveNext();
 
-  /// @brief Method get_Current, addr 0x24bbb98, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_Current, addr 0x24dcc0c, size 0x3c, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::ObjectHolder* get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "ObjectHolderListEnumerator", modifiers: "&&", def_value: None }]

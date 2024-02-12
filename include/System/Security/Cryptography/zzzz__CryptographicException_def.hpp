@@ -32,28 +32,28 @@ public:
   // Declarations
   static inline ::System::Security::Cryptography::CryptographicException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x245c0e4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x247d158, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Security::Cryptography::CryptographicException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x245bf48, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x247cfbc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::System::Security::Cryptography::CryptographicException* New_ctor(::StringW format, ::StringW insert);
 
-  /// @brief Method .ctor, addr 0x245c150, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x247d1c4, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::StringW format, ::StringW insert);
 
   static inline ::System::Security::Cryptography::CryptographicException* New_ctor(::StringW message, ::System::Exception* inner);
 
-  /// @brief Method .ctor, addr 0x245c1e8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x247d25c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* inner);
 
   static inline ::System::Security::Cryptography::CryptographicException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info,
                                                                                    ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x245c210, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x247d284, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "CryptographicException", modifiers: "&&", def_value: None }]

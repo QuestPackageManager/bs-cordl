@@ -16,7 +16,7 @@ MARK_VAL_T(::BeatSaber::BeatAvatarSDK::AvatarPart);
 namespace BeatSaber::BeatAvatarSDK {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15683))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15784))
 // CS Name: ::BeatSaber.BeatAvatarSDK::AvatarPart
 struct CORDL_TYPE AvatarPart {
 public:

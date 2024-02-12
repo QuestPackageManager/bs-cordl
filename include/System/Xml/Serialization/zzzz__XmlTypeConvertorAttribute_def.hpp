@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::System::Xml::Serialization::XmlTypeConvertorAttribute);
 namespace System::Xml::Serialization {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11585))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11483))
 // CS Name: ::System.Xml.Serialization::XmlTypeConvertorAttribute*
 class CORDL_TYPE XmlTypeConvertorAttribute : public ::System::Attribute {
 public:
@@ -32,12 +32,12 @@ public:
 
   constexpr void __cordl_internal_set__Method_k__BackingField(::StringW value);
 
-  /// @brief Method set_Method, addr 0x28abea0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Method, addr 0x28af508, size 0x8, virtual false, abstract: false, final false
   inline void set_Method(::StringW value);
 
   static inline ::System::Xml::Serialization::XmlTypeConvertorAttribute* New_ctor(::StringW method);
 
-  /// @brief Method .ctor, addr 0x28abea8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28af510, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW method);
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlTypeConvertorAttribute", modifiers: "&&", def_value: None }]

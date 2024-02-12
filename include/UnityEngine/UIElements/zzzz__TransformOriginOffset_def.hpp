@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::TransformOriginOffset);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6895))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6154))
 // CS Name: ::UnityEngine.UIElements::TransformOriginOffset
 struct CORDL_TYPE TransformOriginOffset {
 public:

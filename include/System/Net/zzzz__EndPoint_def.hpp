@@ -21,25 +21,25 @@ MARK_REF_PTR_T(::System::Net::EndPoint);
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9061))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7071))
 // CS Name: ::System.Net::EndPoint*
 class CORDL_TYPE EndPoint : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = get_AddressFamily))::System::Net::Sockets::AddressFamily AddressFamily;
 
-  /// @brief Method get_AddressFamily, addr 0x299b6d4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_AddressFamily, addr 0x299f178, size 0x28, virtual true, abstract: false, final false
   inline ::System::Net::Sockets::AddressFamily get_AddressFamily();
 
-  /// @brief Method Serialize, addr 0x299b6fc, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Serialize, addr 0x299f1a0, size 0x28, virtual true, abstract: false, final false
   inline ::System::Net::SocketAddress* Serialize();
 
-  /// @brief Method Create, addr 0x299b724, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Create, addr 0x299f1c8, size 0x28, virtual true, abstract: false, final false
   inline ::System::Net::EndPoint* Create(::System::Net::SocketAddress* socketAddress);
 
   static inline ::System::Net::EndPoint* New_ctor();
 
-  /// @brief Method .ctor, addr 0x298c710, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29901b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EndPoint", modifiers: "&&", def_value: None }]

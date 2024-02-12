@@ -87,18 +87,18 @@ public:
 
   static inline ::Org::BouncyCastle::Math::BigInteger* getStaticF_DefaultPublicExponent();
 
-  /// @brief Method Init, addr 0xf05b2c, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0xf309bc, size 0x114, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
 
-  /// @brief Method GenerateKeyPair, addr 0xf05c40, size 0x36c, virtual true, abstract: false, final false
+  /// @brief Method GenerateKeyPair, addr 0xf30ad0, size 0x36c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GenerateKeyPair();
 
-  /// @brief Method ChooseRandomPrime, addr 0xf05fac, size 0x230, virtual true, abstract: false, final false
+  /// @brief Method ChooseRandomPrime, addr 0xf30e3c, size 0x230, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* ChooseRandomPrime(int32_t bitlength, ::Org::BouncyCastle::Math::BigInteger* e);
 
   static inline ::Org::BouncyCastle::Crypto::Generators::RsaKeyPairGenerator* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf06314, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf311a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RsaKeyPairGenerator", modifiers: "&&", def_value: None }]

@@ -379,7 +379,7 @@ MARK_VAL_T(::Mono::Unity::__UnityTls__unitytls_x509name);
 namespace Mono::Unity {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8758))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6768))
 // CS Name: ::UnityTls::unitytls_error_code
 struct CORDL_TYPE __UnityTls__unitytls_error_code {
 public:
@@ -488,8 +488,8 @@ static_assert(offsetof(::Mono::Unity::__UnityTls__unitytls_error_code, value__) 
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Unity {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8758))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8759))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6768))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6769))
 // CS Name: ::UnityTls::unitytls_errorstate
 struct CORDL_TYPE __UnityTls__unitytls_errorstate {
 public:
@@ -531,7 +531,7 @@ static_assert(offsetof(::Mono::Unity::__UnityTls__unitytls_errorstate, reserved)
 namespace Mono::Unity {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8760))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6770))
 // CS Name: ::UnityTls::unitytls_key
 #pragma pack(push, 0)
 struct CORDL_TYPE __UnityTls__unitytls_key {
@@ -559,7 +559,7 @@ static_assert(::cordl_internals::size_check_v<::Mono::Unity::__UnityTls__unitytl
 namespace Mono::Unity {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8761))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6771))
 // CS Name: ::UnityTls::unitytls_key_ref
 struct CORDL_TYPE __UnityTls__unitytls_key_ref {
 public:
@@ -590,7 +590,7 @@ static_assert(offsetof(::Mono::Unity::__UnityTls__unitytls_key_ref, handle) == 0
 namespace Mono::Unity {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8762))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6772))
 // CS Name: ::UnityTls::unitytls_x509_ref
 struct CORDL_TYPE __UnityTls__unitytls_x509_ref {
 public:
@@ -621,7 +621,7 @@ static_assert(offsetof(::Mono::Unity::__UnityTls__unitytls_x509_ref, handle) == 
 namespace Mono::Unity {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8763))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6773))
 // CS Name: ::UnityTls::unitytls_x509list
 #pragma pack(push, 0)
 struct CORDL_TYPE __UnityTls__unitytls_x509list {
@@ -649,7 +649,7 @@ static_assert(::cordl_internals::size_check_v<::Mono::Unity::__UnityTls__unitytl
 namespace Mono::Unity {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8764))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6774))
 // CS Name: ::UnityTls::unitytls_x509list_ref
 struct CORDL_TYPE __UnityTls__unitytls_x509list_ref {
 public:
@@ -680,7 +680,7 @@ static_assert(offsetof(::Mono::Unity::__UnityTls__unitytls_x509list_ref, handle)
 namespace Mono::Unity {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8765))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6775))
 // CS Name: ::UnityTls::unitytls_x509verify_result
 struct CORDL_TYPE __UnityTls__unitytls_x509verify_result {
 public:
@@ -786,17 +786,17 @@ static_assert(offsetof(::Mono::Unity::__UnityTls__unitytls_x509verify_result, va
 namespace Mono::Unity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8766))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6776))
 // CS Name: ::UnityTls::unitytls_x509verify_callback*
 class CORDL_TYPE __UnityTls__unitytls_x509verify_callback : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::Mono::Unity::__UnityTls__unitytls_x509verify_callback* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2817c44, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x281c42c, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x2817d1c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x281c504, size 0x14, virtual true, abstract: false, final false
   inline ::Mono::Unity::__UnityTls__unitytls_x509verify_result Invoke(::cordl_internals::Ptr<void> userData, ::Mono::Unity::__UnityTls__unitytls_x509_ref cert,
                                                                       ::Mono::Unity::__UnityTls__unitytls_x509verify_result result,
                                                                       ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
@@ -826,7 +826,7 @@ static_assert(::cordl_internals::size_check_v<::Mono::Unity::__UnityTls__unitytl
 namespace Mono::Unity {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8767))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6777))
 // CS Name: ::UnityTls::unitytls_tlsctx
 #pragma pack(push, 0)
 struct CORDL_TYPE __UnityTls__unitytls_tlsctx {
@@ -854,7 +854,7 @@ static_assert(::cordl_internals::size_check_v<::Mono::Unity::__UnityTls__unitytl
 namespace Mono::Unity {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8768))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6778))
 // CS Name: ::UnityTls::unitytls_x509name
 #pragma pack(push, 0)
 struct CORDL_TYPE __UnityTls__unitytls_x509name {
@@ -882,7 +882,7 @@ static_assert(::cordl_internals::size_check_v<::Mono::Unity::__UnityTls__unitytl
 namespace Mono::Unity {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8769))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6779))
 // CS Name: ::UnityTls::unitytls_ciphersuite
 struct CORDL_TYPE __UnityTls__unitytls_ciphersuite {
 public:
@@ -928,7 +928,7 @@ static_assert(offsetof(::Mono::Unity::__UnityTls__unitytls_ciphersuite, value__)
 namespace Mono::Unity {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8770))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6780))
 // CS Name: ::UnityTls::unitytls_protocol
 struct CORDL_TYPE __UnityTls__unitytls_protocol {
 public:
@@ -985,8 +985,8 @@ static_assert(offsetof(::Mono::Unity::__UnityTls__unitytls_protocol, value__) ==
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Mono::Unity {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8770))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8771))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6780))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6781))
 // CS Name: ::UnityTls::unitytls_tlsctx_protocolrange
 struct CORDL_TYPE __UnityTls__unitytls_tlsctx_protocolrange {
 public:
@@ -1023,17 +1023,17 @@ static_assert(offsetof(::Mono::Unity::__UnityTls__unitytls_tlsctx_protocolrange,
 namespace Mono::Unity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8772))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6782))
 // CS Name: ::UnityTls::unitytls_tlsctx_write_callback*
 class CORDL_TYPE __UnityTls__unitytls_tlsctx_write_callback : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::Mono::Unity::__UnityTls__unitytls_tlsctx_write_callback* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2817d30, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x281c518, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x2817e08, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x281c5f0, size 0x14, virtual true, abstract: false, final false
   inline void* Invoke(::cordl_internals::Ptr<void> userData, ::cordl_internals::Ptr<uint8_t> data, void* bufferLen, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   // Ctor Parameters [CppParam { name: "", ty: "__UnityTls__unitytls_tlsctx_write_callback", modifiers: "&&", def_value: None }]
@@ -1061,17 +1061,17 @@ static_assert(::cordl_internals::size_check_v<::Mono::Unity::__UnityTls__unitytl
 namespace Mono::Unity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8773))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6783))
 // CS Name: ::UnityTls::unitytls_tlsctx_read_callback*
 class CORDL_TYPE __UnityTls__unitytls_tlsctx_read_callback : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::Mono::Unity::__UnityTls__unitytls_tlsctx_read_callback* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2817e1c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x281c604, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x2817ef4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x281c6dc, size 0x14, virtual true, abstract: false, final false
   inline void* Invoke(::cordl_internals::Ptr<void> userData, ::cordl_internals::Ptr<uint8_t> buffer, void* bufferLen,
                       ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
@@ -1100,17 +1100,17 @@ static_assert(::cordl_internals::size_check_v<::Mono::Unity::__UnityTls__unitytl
 namespace Mono::Unity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8774))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6784))
 // CS Name: ::UnityTls::unitytls_tlsctx_trace_callback*
 class CORDL_TYPE __UnityTls__unitytls_tlsctx_trace_callback : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::Mono::Unity::__UnityTls__unitytls_tlsctx_trace_callback* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2817f08, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x281c6f0, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x2817fe0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x281c7c8, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::cordl_internals::Ptr<void> userData, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx, ::cordl_internals::Ptr<uint8_t> traceMessage,
                      void* traceMessageLen);
 
@@ -1139,17 +1139,17 @@ static_assert(::cordl_internals::size_check_v<::Mono::Unity::__UnityTls__unitytl
 namespace Mono::Unity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8775))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6785))
 // CS Name: ::UnityTls::unitytls_tlsctx_certificate_callback*
 class CORDL_TYPE __UnityTls__unitytls_tlsctx_certificate_callback : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::Mono::Unity::__UnityTls__unitytls_tlsctx_certificate_callback* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2817ff4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x281c7dc, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x28180cc, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x281c8b4, size 0x1c, virtual true, abstract: false, final false
   inline void Invoke(::cordl_internals::Ptr<void> userData, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx, ::cordl_internals::Ptr<uint8_t> cn, void* cnLen,
                      ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509name> caList, void* caListLen, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list_ref> chain,
                      ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_key_ref> key, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
@@ -1179,17 +1179,17 @@ static_assert(::cordl_internals::size_check_v<::Mono::Unity::__UnityTls__unitytl
 namespace Mono::Unity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8776))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6786))
 // CS Name: ::UnityTls::unitytls_tlsctx_x509verify_callback*
 class CORDL_TYPE __UnityTls__unitytls_tlsctx_x509verify_callback : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::Mono::Unity::__UnityTls__unitytls_tlsctx_x509verify_callback* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x28180e8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x281c8d0, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x28181c0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x281c9a8, size 0x14, virtual true, abstract: false, final false
   inline ::Mono::Unity::__UnityTls__unitytls_x509verify_result Invoke(::cordl_internals::Ptr<void> userData, ::Mono::Unity::__UnityTls__unitytls_x509list_ref chain,
                                                                       ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
@@ -1218,7 +1218,7 @@ static_assert(::cordl_internals::size_check_v<::Mono::Unity::__UnityTls__unitytl
 namespace Mono::Unity {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8777))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6787))
 // CS Name: ::UnityTls::unitytls_tlsctx_callbacks
 struct CORDL_TYPE __UnityTls__unitytls_tlsctx_callbacks {
 public:
@@ -1261,17 +1261,17 @@ static_assert(offsetof(::Mono::Unity::__UnityTls__unitytls_tlsctx_callbacks, dat
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8778))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6788))
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_errorstate_create_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_errorstate_create_t : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_create_t* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x28181dc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x281c9c4, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x2818298, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x281ca80, size 0x14, virtual true, abstract: false, final false
   inline ::Mono::Unity::__UnityTls__unitytls_errorstate Invoke();
 
   // Ctor Parameters [CppParam { name: "", ty: "__UnityTls__unitytls_interface_struct__unitytls_errorstate_create_t", modifiers: "&&", def_value: None }]
@@ -1299,17 +1299,17 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8779))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6789))
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_errorstate_raise_error_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_errorstate_raise_error_t : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_raise_error_t* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x28182ac, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x281ca94, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x2818384, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x281cb6c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState, ::Mono::Unity::__UnityTls__unitytls_error_code errorCode);
 
   // Ctor Parameters [CppParam { name: "", ty: "__UnityTls__unitytls_interface_struct__unitytls_errorstate_raise_error_t", modifiers: "&&", def_value: None }]
@@ -1337,17 +1337,17 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8780))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6790))
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_key_get_ref_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_key_get_ref_t : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_get_ref_t* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2818398, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x281cb80, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x2818470, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x281cc58, size 0x14, virtual true, abstract: false, final false
   inline ::Mono::Unity::__UnityTls__unitytls_key_ref Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_key> key,
                                                             ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
@@ -1376,17 +1376,17 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8781))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6791))
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_key_parse_der_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_key_parse_der_t : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_der_t* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2818484, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x281cc6c, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x281855c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x281cd44, size 0x14, virtual true, abstract: false, final false
   inline ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_key> Invoke(::cordl_internals::Ptr<uint8_t> buffer, void* bufferLen, ::cordl_internals::Ptr<uint8_t> password, void* passwordLen,
                                                                                 ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
@@ -1415,17 +1415,17 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8782))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6792))
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_key_parse_pem_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_key_parse_pem_t : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_pem_t* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2818570, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x281cd58, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x2818648, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x281ce30, size 0x14, virtual true, abstract: false, final false
   inline ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_key> Invoke(::cordl_internals::Ptr<uint8_t> buffer, void* bufferLen, ::cordl_internals::Ptr<uint8_t> password, void* passwordLen,
                                                                                 ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
@@ -1454,17 +1454,17 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8783))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6793))
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_key_free_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_key_free_t : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_free_t* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x281865c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x281ce44, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x2818730, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x281cf18, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_key> key);
 
   // Ctor Parameters [CppParam { name: "", ty: "__UnityTls__unitytls_interface_struct__unitytls_key_free_t", modifiers: "&&", def_value: None }]
@@ -1492,17 +1492,17 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8784))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6794))
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_x509_export_der_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_x509_export_der_t : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509_export_der_t* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2818744, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x281cf2c, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x2818808, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x281cff0, size 0x14, virtual true, abstract: false, final false
   inline void* Invoke(::Mono::Unity::__UnityTls__unitytls_x509_ref cert, ::cordl_internals::Ptr<uint8_t> buffer, void* bufferLen,
                       ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
@@ -1531,17 +1531,17 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8785))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6795))
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_x509list_get_ref_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_x509list_get_ref_t : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_ref_t* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x281881c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x281d004, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x28188f4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x281d0dc, size 0x14, virtual true, abstract: false, final false
   inline ::Mono::Unity::__UnityTls__unitytls_x509list_ref Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list> list,
                                                                  ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
@@ -1570,17 +1570,17 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8786))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6796))
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_x509list_get_x509_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_x509list_get_x509_t : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_x509_t* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2818908, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x281d0f0, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x28189cc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x281d1b4, size 0x14, virtual true, abstract: false, final false
   inline ::Mono::Unity::__UnityTls__unitytls_x509_ref Invoke(::Mono::Unity::__UnityTls__unitytls_x509list_ref list, void* index,
                                                              ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
@@ -1609,17 +1609,17 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8787))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6797))
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_x509list_create_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_x509list_create_t : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_create_t* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x28189e0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x281d1c8, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x2818ab4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x281d29c, size 0x14, virtual true, abstract: false, final false
   inline ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list> Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   // Ctor Parameters [CppParam { name: "", ty: "__UnityTls__unitytls_interface_struct__unitytls_x509list_create_t", modifiers: "&&", def_value: None }]
@@ -1647,17 +1647,17 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8788))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6798))
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_x509list_append_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_x509list_append_t : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_t* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2818ac8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x281d2b0, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x2818ba0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x281d388, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list> list, ::Mono::Unity::__UnityTls__unitytls_x509_ref cert,
                      ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
@@ -1686,17 +1686,17 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8789))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6799))
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_x509list_append_der_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2818bb4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x281d39c, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x2818c8c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x281d474, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list> list, ::cordl_internals::Ptr<uint8_t> buffer, void* bufferLen,
                      ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
@@ -1725,17 +1725,17 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8790))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6800))
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_x509list_free_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_x509list_free_t : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_free_t* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2818ca0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x281d488, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x2818d74, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x281d55c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list> list);
 
   // Ctor Parameters [CppParam { name: "", ty: "__UnityTls__unitytls_interface_struct__unitytls_x509list_free_t", modifiers: "&&", def_value: None }]
@@ -1763,17 +1763,17 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8791))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6801))
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_x509verify_default_ca_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_x509verify_default_ca_t : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_default_ca_t* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2818d88, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x281d570, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x2818e4c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x281d634, size 0x14, virtual true, abstract: false, final false
   inline ::Mono::Unity::__UnityTls__unitytls_x509verify_result Invoke(::Mono::Unity::__UnityTls__unitytls_x509list_ref chain, ::cordl_internals::Ptr<uint8_t> cn, void* cnLen,
                                                                       ::Mono::Unity::__UnityTls__unitytls_x509verify_callback* cb, ::cordl_internals::Ptr<void> userData,
                                                                       ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
@@ -1803,17 +1803,17 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8792))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6802))
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_x509verify_explicit_ca_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_x509verify_explicit_ca_t : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_explicit_ca_t* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2818e60, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x281d648, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x2818f24, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x281d70c, size 0x18, virtual true, abstract: false, final false
   inline ::Mono::Unity::__UnityTls__unitytls_x509verify_result Invoke(::Mono::Unity::__UnityTls__unitytls_x509list_ref chain, ::Mono::Unity::__UnityTls__unitytls_x509list_ref trustCA,
                                                                       ::cordl_internals::Ptr<uint8_t> cn, void* cnLen, ::Mono::Unity::__UnityTls__unitytls_x509verify_callback* cb,
                                                                       ::cordl_internals::Ptr<void> userData, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
@@ -1843,17 +1843,17 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8793))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6803))
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_tlsctx_create_server_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_server_t : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_server_t* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2818f3c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x281d724, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x2819000, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x281d7e8, size 0x3c, virtual true, abstract: false, final false
   inline ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> Invoke(::Mono::Unity::__UnityTls__unitytls_tlsctx_protocolrange supportedProtocols,
                                                                                    ::Mono::Unity::__UnityTls__unitytls_tlsctx_callbacks callbacks, uint64_t certChain, uint64_t leafCertificateKey,
                                                                                    ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
@@ -1883,17 +1883,17 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8794))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6804))
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_tlsctx_create_client_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_client_t : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_client_t* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x281903c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x281d824, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x2819100, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x281d8e8, size 0x3c, virtual true, abstract: false, final false
   inline ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> Invoke(::Mono::Unity::__UnityTls__unitytls_tlsctx_protocolrange supportedProtocols,
                                                                                    ::Mono::Unity::__UnityTls__unitytls_tlsctx_callbacks callbacks, ::cordl_internals::Ptr<uint8_t> cn, void* cnLen,
                                                                                    ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
@@ -1923,17 +1923,17 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8795))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6805))
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_tlsctx_server_require_client_authentication_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_server_require_client_authentication_t : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_server_require_client_authentication_t* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x281913c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x281d924, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x2819214, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x281d9fc, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx, ::Mono::Unity::__UnityTls__unitytls_x509list_ref clientAuthCAList,
                      ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
@@ -1964,17 +1964,17 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8796))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6806))
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_tlsctx_set_certificate_callback_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_certificate_callback_t : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_certificate_callback_t* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2819228, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x281da10, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x2819300, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x281dae8, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx, ::Mono::Unity::__UnityTls__unitytls_tlsctx_certificate_callback* cb, ::cordl_internals::Ptr<void> userData,
                      ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
@@ -2003,17 +2003,17 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8797))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6807))
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_tlsctx_set_trace_callback_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_trace_callback_t : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_trace_callback_t* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2819314, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x281dafc, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x28193ec, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x281dbd4, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx, ::Mono::Unity::__UnityTls__unitytls_tlsctx_trace_callback* cb, ::cordl_internals::Ptr<void> userData,
                      ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
@@ -2042,17 +2042,17 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8798))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6808))
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_tlsctx_set_x509verify_callback_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_x509verify_callback_t : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_x509verify_callback_t* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2819400, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x281dbe8, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x28194d8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x281dcc0, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx, ::Mono::Unity::__UnityTls__unitytls_tlsctx_x509verify_callback* cb, ::cordl_internals::Ptr<void> userData,
                      ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
@@ -2081,17 +2081,17 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8799))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6809))
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_tlsctx_set_supported_ciphersuites_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_supported_ciphersuites_t : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_supported_ciphersuites_t* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x28194ec, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x281dcd4, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x28195c4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x281ddac, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_ciphersuite> supportedCiphersuites,
                      void* supportedCiphersuitesLen, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
@@ -2120,17 +2120,17 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8800))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6810))
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_tlsctx_get_ciphersuite_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_ciphersuite_t : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_ciphersuite_t* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x28195d8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x281ddc0, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x28196b0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x281de98, size 0x14, virtual true, abstract: false, final false
   inline ::Mono::Unity::__UnityTls__unitytls_ciphersuite Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx,
                                                                 ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
@@ -2159,17 +2159,17 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8801))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6811))
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_tlsctx_get_protocol_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_protocol_t : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_protocol_t* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x28196c4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x281deac, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x281979c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x281df84, size 0x14, virtual true, abstract: false, final false
   inline ::Mono::Unity::__UnityTls__unitytls_protocol Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx,
                                                              ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
@@ -2198,17 +2198,17 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8802))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6812))
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_tlsctx_process_handshake_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_process_handshake_t : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_process_handshake_t* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x28197b0, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x281df98, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x2819888, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x281e070, size 0x14, virtual true, abstract: false, final false
   inline ::Mono::Unity::__UnityTls__unitytls_x509verify_result Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx,
                                                                       ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
@@ -2237,17 +2237,17 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8803))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6813))
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_tlsctx_read_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_read_t : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_read_t* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x281989c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x281e084, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x2819974, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x281e15c, size 0x14, virtual true, abstract: false, final false
   inline void* Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx, ::cordl_internals::Ptr<uint8_t> buffer, void* bufferLen,
                       ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
@@ -2276,17 +2276,17 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8804))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6814))
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_tlsctx_write_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_write_t : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_write_t* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2819988, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x281e170, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x2819a60, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x281e248, size 0x14, virtual true, abstract: false, final false
   inline void* Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx, ::cordl_internals::Ptr<uint8_t> data, void* bufferLen,
                       ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
@@ -2315,17 +2315,17 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8805))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6815))
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_tlsctx_notify_close_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_notify_close_t : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_notify_close_t* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2819a74, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x281e25c, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x2819b4c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x281e334, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   // Ctor Parameters [CppParam { name: "", ty: "__UnityTls__unitytls_interface_struct__unitytls_tlsctx_notify_close_t", modifiers: "&&", def_value: None }]
@@ -2353,17 +2353,17 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8806))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6816))
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_tlsctx_free_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_free_t : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_free_t* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2819b60, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x281e348, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x2819c34, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x281e41c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx);
 
   // Ctor Parameters [CppParam { name: "", ty: "__UnityTls__unitytls_interface_struct__unitytls_tlsctx_free_t", modifiers: "&&", def_value: None }]
@@ -2391,17 +2391,17 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8807))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6817))
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_random_generate_bytes_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_random_generate_bytes_t : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_random_generate_bytes_t* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2819c48, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x281e430, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x2819d20, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x281e508, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::cordl_internals::Ptr<uint8_t> buffer, void* bufferLen, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   // Ctor Parameters [CppParam { name: "", ty: "__UnityTls__unitytls_interface_struct__unitytls_random_generate_bytes_t", modifiers: "&&", def_value: None }]
@@ -2428,8 +2428,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 // SizeInfo { instance_size: 280, native_size: 264, calculated_instance_size: 280, calculated_native_size: 280, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Unity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8771))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8808))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6781))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6818))
 // CS Name: ::UnityTls::unitytls_interface_struct*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct : public ::System::Object {
 public:
@@ -2853,7 +2853,7 @@ public:
 
   static inline ::Mono::Unity::__UnityTls__unitytls_interface_struct* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28181d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x281c9bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__UnityTls__unitytls_interface_struct", modifiers: "&&", def_value: None }]
@@ -3046,7 +3046,7 @@ static_assert(offsetof(::Mono::Unity::__UnityTls__unitytls_interface_struct, ___
 namespace Mono::Unity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8809))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6819))
 // CS Name: ::Mono.Unity::UnityTls*
 class CORDL_TYPE UnityTls : public ::System::Object {
 public:
@@ -3100,13 +3100,13 @@ public:
 
   static inline ::Mono::Unity::__UnityTls__unitytls_interface_struct* getStaticF_marshalledInterface();
 
-  /// @brief Method GetUnityTlsInterface, addr 0x2817c28, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetUnityTlsInterface, addr 0x281c410, size 0x4, virtual false, abstract: false, final false
   static inline void* GetUnityTlsInterface();
 
-  /// @brief Method get_IsSupported, addr 0x2817c2c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_IsSupported, addr 0x281c414, size 0x18, virtual false, abstract: false, final false
   static inline bool get_IsSupported();
 
-  /// @brief Method get_NativeInterface, addr 0x2817978, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method get_NativeInterface, addr 0x281c160, size 0xe4, virtual false, abstract: false, final false
   static inline ::Mono::Unity::__UnityTls__unitytls_interface_struct* get_NativeInterface();
 
   // Ctor Parameters [CppParam { name: "", ty: "UnityTls", modifiers: "&&", def_value: None }]

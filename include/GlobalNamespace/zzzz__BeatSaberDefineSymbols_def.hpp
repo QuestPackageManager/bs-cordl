@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatSaberDefineSymbols);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16243))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16428))
 // CS Name: ::BeatSaberDefineSymbols*
 class CORDL_TYPE BeatSaberDefineSymbols : public ::System::Object {
 public:

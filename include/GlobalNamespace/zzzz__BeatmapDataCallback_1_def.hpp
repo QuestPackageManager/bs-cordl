@@ -27,7 +27,7 @@ namespace GlobalNamespace {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4710))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4061))
 // CS Name: ::BeatmapDataCallback`1<T>*
 class CORDL_TYPE BeatmapDataCallback_1 : public ::System::MulticastDelegate {
 public:

@@ -15,17 +15,17 @@ MARK_REF_PTR_T(::Mono::Security::Cryptography::MD4);
 namespace Mono::Security::Cryptography {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2916))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2279))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13745))
 // CS Name: ::Mono.Security.Cryptography::MD4*
 class CORDL_TYPE MD4 : public ::System::Security::Cryptography::HashAlgorithm {
 public:
   // Declarations
   static inline ::Mono::Security::Cryptography::MD4* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2420efc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2424d50, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Create, addr 0x2420f1c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2424d70, size 0x58, virtual false, abstract: false, final false
   static inline ::Mono::Security::Cryptography::MD4* Create();
 
   // Ctor Parameters [CppParam { name: "", ty: "MD4", modifiers: "&&", def_value: None }]

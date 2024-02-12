@@ -37,7 +37,7 @@ namespace UnityEngine::Pool {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10446))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9215))
 // CS Name: ::UnityEngine.Pool::ObjectPool`1<T>*
 class CORDL_TYPE ObjectPool_1 : public ::System::Object {
 public:

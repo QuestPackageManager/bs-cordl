@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SongTimeFixedUpdateController);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4084))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4031))
 // CS Name: ::SongTimeFixedUpdateController*
 class CORDL_TYPE SongTimeFixedUpdateController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -80,30 +80,30 @@ public:
 
   constexpr void __cordl_internal_set__interpolationFactor(float_t value);
 
-  /// @brief Method add_songControllerFixedTimeDidUpdateEvent, addr 0x22316d0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_songControllerFixedTimeDidUpdateEvent, addr 0x22bb37c, size 0xb0, virtual false, abstract: false, final false
   inline void add_songControllerFixedTimeDidUpdateEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method remove_songControllerFixedTimeDidUpdateEvent, addr 0x2231780, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_songControllerFixedTimeDidUpdateEvent, addr 0x22bb42c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_songControllerFixedTimeDidUpdateEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method add_songControllerTimeDidUpdateEvent, addr 0x2231830, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_songControllerTimeDidUpdateEvent, addr 0x22bb4dc, size 0x9c, virtual false, abstract: false, final false
   inline void add_songControllerTimeDidUpdateEvent(::System::Action* value);
 
-  /// @brief Method remove_songControllerTimeDidUpdateEvent, addr 0x22318cc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_songControllerTimeDidUpdateEvent, addr 0x22bb578, size 0x9c, virtual false, abstract: false, final false
   inline void remove_songControllerTimeDidUpdateEvent(::System::Action* value);
 
-  /// @brief Method get_fixedDeltaTime, addr 0x2231968, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_fixedDeltaTime, addr 0x22bb614, size 0xc, virtual false, abstract: false, final false
   inline float_t get_fixedDeltaTime();
 
-  /// @brief Method get_interpolationFactor, addr 0x2231974, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_interpolationFactor, addr 0x22bb620, size 0x8, virtual false, abstract: false, final false
   inline float_t get_interpolationFactor();
 
-  /// @brief Method Update, addr 0x223197c, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x22bb628, size 0x140, virtual false, abstract: false, final false
   inline void Update();
 
   static inline ::GlobalNamespace::SongTimeFixedUpdateController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2231abc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22bb768, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SongTimeFixedUpdateController", modifiers: "&&", def_value: None }]

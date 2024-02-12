@@ -50,21 +50,21 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::Gost3410KeyParameters* New_ctor(bool isPrivate, ::Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters* parameters);
 
-  /// @brief Method .ctor, addr 0xf35fa0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf60e30, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(bool isPrivate, ::Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::Gost3410KeyParameters* New_ctor(bool isPrivate, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet);
 
-  /// @brief Method .ctor, addr 0xf35fd0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf60e60, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(bool isPrivate, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet);
 
-  /// @brief Method get_Parameters, addr 0xf36180, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parameters, addr 0xf61010, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters* get_Parameters();
 
-  /// @brief Method get_PublicKeyParamSet, addr 0xf36188, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PublicKeyParamSet, addr 0xf61018, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_PublicKeyParamSet();
 
-  /// @brief Method LookupParameters, addr 0xf36008, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method LookupParameters, addr 0xf60e98, size 0x178, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters* LookupParameters(::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet);
 
   // Ctor Parameters [CppParam { name: "", ty: "Gost3410KeyParameters", modifiers: "&&", def_value: None }]

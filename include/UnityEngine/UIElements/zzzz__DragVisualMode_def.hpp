@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::DragVisualMode);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6956))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6215))
 // CS Name: ::UnityEngine.UIElements::DragVisualMode
 struct CORDL_TYPE DragVisualMode {
 public:

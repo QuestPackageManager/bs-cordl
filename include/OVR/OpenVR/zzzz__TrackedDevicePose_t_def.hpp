@@ -26,8 +26,8 @@ MARK_VAL_T(::OVR::OpenVR::TrackedDevicePose_t);
 // SizeInfo { instance_size: 80, native_size: 80, calculated_instance_size: 80, calculated_native_size: 94, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8583)), TypeDefinitionIndex(TypeDefinitionIndex(8644)), TypeDefinitionIndex(TypeDefinitionIndex(8647))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8658))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8527)), TypeDefinitionIndex(TypeDefinitionIndex(8588)), TypeDefinitionIndex(TypeDefinitionIndex(8591))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8602))
 // CS Name: ::OVR.OpenVR::TrackedDevicePose_t
 struct CORDL_TYPE TrackedDevicePose_t {
 public:

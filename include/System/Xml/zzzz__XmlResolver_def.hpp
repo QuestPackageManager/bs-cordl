@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::System::Xml::XmlResolver);
 namespace System::Xml {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11574))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11472))
 // CS Name: ::System.Xml::XmlResolver*
 class CORDL_TYPE XmlResolver : public ::System::Object {
 public:
@@ -36,18 +36,18 @@ public:
   /// @brief Method GetEntity, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* GetEntity(::System::Uri* absoluteUri, ::StringW role, ::System::Type* ofObjectToReturn);
 
-  /// @brief Method ResolveUri, addr 0x28a92cc, size 0x1d8, virtual true, abstract: false, final false
+  /// @brief Method ResolveUri, addr 0x28ac934, size 0x1d8, virtual true, abstract: false, final false
   inline ::System::Uri* ResolveUri(::System::Uri* baseUri, ::StringW relativeUri);
 
-  /// @brief Method SupportsType, addr 0x28a94a4, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method SupportsType, addr 0x28acb0c, size 0x148, virtual true, abstract: false, final false
   inline bool SupportsType(::System::Uri* absoluteUri, ::System::Type* type);
 
-  /// @brief Method GetEntityAsync, addr 0x28a95ec, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method GetEntityAsync, addr 0x28acc54, size 0x40, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Object*>* GetEntityAsync(::System::Uri* absoluteUri, ::StringW role, ::System::Type* ofObjectToReturn);
 
   static inline ::System::Xml::XmlResolver* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28a962c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28acc94, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlResolver", modifiers: "&&", def_value: None }]

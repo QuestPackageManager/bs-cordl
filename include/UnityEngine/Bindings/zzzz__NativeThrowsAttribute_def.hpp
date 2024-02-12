@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::UnityEngine::Bindings::NativeThrowsAttribute);
 namespace UnityEngine::Bindings {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16029))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16124))
 // CS Name: ::UnityEngine.Bindings::NativeThrowsAttribute*
 class CORDL_TYPE NativeThrowsAttribute : public ::System::Attribute {
 public:
@@ -31,12 +31,12 @@ public:
 
   constexpr void __cordl_internal_set__ThrowsException_k__BackingField(bool value);
 
-  /// @brief Method set_ThrowsException, addr 0x2d189a4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_ThrowsException, addr 0x2d3944c, size 0xc, virtual true, abstract: false, final true
   inline void set_ThrowsException(bool value);
 
   static inline ::UnityEngine::Bindings::NativeThrowsAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d189b0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d39458, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NativeThrowsAttribute", modifiers: "&&", def_value: None }]

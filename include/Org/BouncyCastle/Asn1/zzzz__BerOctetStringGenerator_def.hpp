@@ -75,16 +75,16 @@ public:
   static inline ::Org::BouncyCastle::Asn1::__BerOctetStringGenerator__BufferedBerOctetStream* New_ctor(::Org::BouncyCastle::Asn1::BerOctetStringGenerator* gen,
                                                                                                        ::ArrayW<uint8_t, ::Array<uint8_t>*> buf);
 
-  /// @brief Method .ctor, addr 0x11bd270, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11ea100, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::BerOctetStringGenerator* gen, ::ArrayW<uint8_t, ::Array<uint8_t>*> buf);
 
-  /// @brief Method WriteByte, addr 0x11bd354, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method WriteByte, addr 0x11ea1e4, size 0x68, virtual true, abstract: false, final false
   inline void WriteByte(uint8_t b);
 
-  /// @brief Method Write, addr 0x11bd3bc, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x11ea24c, size 0x120, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t offset, int32_t len);
 
-  /// @brief Method Close, addr 0x11bd4dc, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x11ea36c, size 0x48, virtual true, abstract: false, final false
   inline void Close();
 
   // Ctor Parameters [CppParam { name: "", ty: "__BerOctetStringGenerator__BufferedBerOctetStream", modifiers: "&&", def_value: None }]
@@ -141,21 +141,21 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::BerOctetStringGenerator* New_ctor(::System::IO::Stream* outStream);
 
-  /// @brief Method .ctor, addr 0x11bd0b4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11e9f44, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* outStream);
 
   static inline ::Org::BouncyCastle::Asn1::BerOctetStringGenerator* New_ctor(::System::IO::Stream* outStream, int32_t tagNo, bool isExplicit);
 
-  /// @brief Method .ctor, addr 0x11bd0e8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11e9f78, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* outStream, int32_t tagNo, bool isExplicit);
 
-  /// @brief Method GetOctetOutputStream, addr 0x11bd13c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetOctetOutputStream, addr 0x11e9fcc, size 0x54, virtual false, abstract: false, final false
   inline ::System::IO::Stream* GetOctetOutputStream();
 
-  /// @brief Method GetOctetOutputStream, addr 0x11bd200, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetOctetOutputStream, addr 0x11ea090, size 0x70, virtual false, abstract: false, final false
   inline ::System::IO::Stream* GetOctetOutputStream(int32_t bufSize);
 
-  /// @brief Method GetOctetOutputStream, addr 0x11bd190, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetOctetOutputStream, addr 0x11ea020, size 0x70, virtual false, abstract: false, final false
   inline ::System::IO::Stream* GetOctetOutputStream(::ArrayW<uint8_t, ::Array<uint8_t>*> buf);
 
   // Ctor Parameters [CppParam { name: "", ty: "BerOctetStringGenerator", modifiers: "&&", def_value: None }]

@@ -22,7 +22,7 @@ namespace LiteNetLib::Utils {
 template <typename T>
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14192))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14205))
 // CS Name: ::LiteNetLib.Utils::INetImmutableSerializable`1<T>*
 class CORDL_TYPE INetImmutableSerializable_1 {
 public:

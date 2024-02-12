@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t, int32_t)>(&::UnityEngine::UIElements::UIRUtility::ShapeWindingIsClockwise)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x2e784f8;
+  constexpr static std::size_t addrs = 0x2e928e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::VisualElement*)>(&::UnityEngine::UIElements::UIRUtility::IsRoundRect)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x2e78584;
+  constexpr static std::size_t addrs = 0x2e9296c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::UIRUtility::IsVectorImageBackground)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x2e78788;
+  constexpr static std::size_t addrs = 0x2e92b70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::VisualElement*)>(&::UnityEngine::UIElements::UIRUtility::IsElementSelfHidden)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x2e78818;
+  constexpr static std::size_t addrs = 0x2e92c00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Object*)>(&::UnityEngine::UIElements::UIRUtility::Destroy)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x2e788d8;
+  constexpr static std::size_t addrs = 0x2e92cc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t)>(&::UnityEngine::UIElements::UIRUtility::GetPrevPow2)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x2e78980;
+  constexpr static std::size_t addrs = 0x2e92d68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t)>(&::UnityEngine::UIElements::UIRUtility::GetNextPow2)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2e789b4;
+  constexpr static std::size_t addrs = 0x2e92d9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t)>(&::UnityEngine::UIElements::UIRUtility::GetNextPow2Exp)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x2e789d0;
+  constexpr static std::size_t addrs = 0x2e92db8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

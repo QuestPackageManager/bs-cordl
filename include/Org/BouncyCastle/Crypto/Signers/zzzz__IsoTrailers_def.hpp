@@ -34,18 +34,18 @@ public:
 
   static inline ::System::Collections::IDictionary* getStaticF_trailerMap();
 
-  /// @brief Method CreateTrailerMap, addr 0xf52958, size 0x674, virtual false, abstract: false, final false
+  /// @brief Method CreateTrailerMap, addr 0xf7d7e8, size 0x674, virtual false, abstract: false, final false
   static inline ::System::Collections::IDictionary* CreateTrailerMap();
 
-  /// @brief Method GetTrailer, addr 0xf4f044, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GetTrailer, addr 0xf79ed4, size 0x184, virtual false, abstract: false, final false
   static inline int32_t GetTrailer(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method NoTrailerAvailable, addr 0xf4eef0, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method NoTrailerAvailable, addr 0xf79d80, size 0x154, virtual false, abstract: false, final false
   static inline bool NoTrailerAvailable(::Org::BouncyCastle::Crypto::IDigest* digest);
 
   static inline ::Org::BouncyCastle::Crypto::Signers::IsoTrailers* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf53018, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf7dea8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "IsoTrailers", modifiers: "&&", def_value: None }]

@@ -42,30 +42,30 @@ public:
 
   constexpr void __cordl_internal_set__cancellationToken(::System::Threading::CancellationToken value);
 
-  /// @brief Method get_CancellationToken, addr 0x25bdf24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CancellationToken, addr 0x25dfe3c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Threading::CancellationToken get_CancellationToken();
 
-  /// @brief Method set_CancellationToken, addr 0x25bdf2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CancellationToken, addr 0x25dfe44, size 0x8, virtual false, abstract: false, final false
   inline void set_CancellationToken(::System::Threading::CancellationToken value);
 
   static inline ::System::OperationCanceledException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25bdf34, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25dfe4c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::OperationCanceledException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x25be004, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25dff1c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::System::OperationCanceledException* New_ctor(::StringW message, ::System::Threading::CancellationToken token);
 
-  /// @brief Method .ctor, addr 0x25be024, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25dff3c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Threading::CancellationToken token);
 
   static inline ::System::OperationCanceledException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x25be054, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25dff6c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "OperationCanceledException", modifiers: "&&", def_value: None }]

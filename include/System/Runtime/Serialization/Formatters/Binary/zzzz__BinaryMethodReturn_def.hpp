@@ -103,13 +103,13 @@ public:
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24c21b0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24e3224, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Write, addr 0x24c21c0, size 0x148, virtual true, abstract: false, final true
+  /// @brief Method Write, addr 0x24e3234, size 0x148, virtual true, abstract: false, final true
   inline void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
 
-  /// @brief Method Dump, addr 0x24c2308, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Dump, addr 0x24e337c, size 0x4, virtual false, abstract: false, final false
   inline void Dump();
 
   // Ctor Parameters [CppParam { name: "", ty: "BinaryMethodReturn", modifiers: "&&", def_value: None }]

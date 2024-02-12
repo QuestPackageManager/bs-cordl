@@ -18,14 +18,14 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::TimelineHelpURLAttribute);
 namespace UnityEngine::Timeline {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13863))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13816))
 // CS Name: ::UnityEngine.Timeline::TimelineHelpURLAttribute*
 class CORDL_TYPE TimelineHelpURLAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::UnityEngine::Timeline::TimelineHelpURLAttribute* New_ctor(::System::Type* type);
 
-  /// @brief Method .ctor, addr 0x2c61a68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c5f5d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
   // Ctor Parameters [CppParam { name: "", ty: "TimelineHelpURLAttribute", modifiers: "&&", def_value: None }]

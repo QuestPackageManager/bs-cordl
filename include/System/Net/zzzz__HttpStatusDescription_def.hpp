@@ -20,15 +20,15 @@ MARK_REF_PTR_T(::System::Net::HttpStatusDescription);
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9021))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7031))
 // CS Name: ::System.Net::HttpStatusDescription*
 class CORDL_TYPE HttpStatusDescription : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Get, addr 0x2988644, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x298c0e8, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW Get(::System::Net::HttpStatusCode code);
 
-  /// @brief Method Get, addr 0x2988648, size 0x698, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x298c0ec, size 0x698, virtual false, abstract: false, final false
   static inline ::StringW Get(int32_t code);
 
   // Ctor Parameters [CppParam { name: "", ty: "HttpStatusDescription", modifiers: "&&", def_value: None }]

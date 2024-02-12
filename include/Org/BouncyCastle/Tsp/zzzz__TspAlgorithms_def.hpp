@@ -124,7 +124,7 @@ public:
 
   static inline ::Org::BouncyCastle::Tsp::TspAlgorithms* New_ctor();
 
-  /// @brief Method .ctor, addr 0x115453c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11823cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TspAlgorithms", modifiers: "&&", def_value: None }]

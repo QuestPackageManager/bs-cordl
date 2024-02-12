@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::AxisEventData);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(13165)), TypeDefinitionIndex(TypeDefinitionIndex(13207))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13163))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8987)), TypeDefinitionIndex(TypeDefinitionIndex(13063)), TypeDefinitionIndex(TypeDefinitionIndex(13105))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13061))
 // CS Name: ::UnityEngine.EventSystems::AxisEventData*
 class CORDL_TYPE AxisEventData : public ::UnityEngine::EventSystems::BaseEventData {
 public:
@@ -53,21 +53,21 @@ public:
 
   constexpr void __cordl_internal_set__moveDir_k__BackingField(::UnityEngine::EventSystems::MoveDirection value);
 
-  /// @brief Method get_moveVector, addr 0x2d95378, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_moveVector, addr 0x2db3760, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_moveVector();
 
-  /// @brief Method set_moveVector, addr 0x2d95380, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_moveVector, addr 0x2db3768, size 0x8, virtual false, abstract: false, final false
   inline void set_moveVector(::UnityEngine::Vector2 value);
 
-  /// @brief Method get_moveDir, addr 0x2d95388, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_moveDir, addr 0x2db3770, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::EventSystems::MoveDirection get_moveDir();
 
-  /// @brief Method set_moveDir, addr 0x2d95390, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_moveDir, addr 0x2db3778, size 0x8, virtual false, abstract: false, final false
   inline void set_moveDir(::UnityEngine::EventSystems::MoveDirection value);
 
   static inline ::UnityEngine::EventSystems::AxisEventData* New_ctor(::UnityEngine::EventSystems::EventSystem* eventSystem);
 
-  /// @brief Method .ctor, addr 0x2d95398, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2db3780, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::EventSystems::EventSystem* eventSystem);
 
   // Ctor Parameters [CppParam { name: "", ty: "AxisEventData", modifiers: "&&", def_value: None }]

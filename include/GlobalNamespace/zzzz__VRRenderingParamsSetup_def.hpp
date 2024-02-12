@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::GlobalNamespace::VRRenderingParamsSetup);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6000))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5277))
 // CS Name: ::VRRenderingParamsSetup::SceneType
 struct CORDL_TYPE __VRRenderingParamsSetup__SceneType {
 public:
@@ -90,8 +90,8 @@ static_assert(offsetof(::GlobalNamespace::__VRRenderingParamsSetup__SceneType, v
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6000)), TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6001))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5277)), TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5278))
 // CS Name: ::VRRenderingParamsSetup*
 class CORDL_TYPE VRRenderingParamsSetup : public ::UnityEngine::MonoBehaviour {
 public:
@@ -154,18 +154,18 @@ public:
 
   constexpr void __cordl_internal_set__mainSettingsModel(::UnityW<::GlobalNamespace::MainSettingsModelSO> value);
 
-  /// @brief Method OnEnable, addr 0x2314d38, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x2340d00, size 0xf0, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Start, addr 0x2315038, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2341000, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method SetupOculus, addr 0x2314e28, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method SetupOculus, addr 0x2340df0, size 0x210, virtual false, abstract: false, final false
   inline void SetupOculus();
 
   static inline ::GlobalNamespace::VRRenderingParamsSetup* New_ctor();
 
-  /// @brief Method .ctor, addr 0x231503c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2341004, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "VRRenderingParamsSetup", modifiers: "&&", def_value: None }]

@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::System::Net::Sockets::SafeSocketHandle);
 namespace System::Net::Sockets {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2302))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9356))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7366))
 // CS Name: ::System.Net.Sockets::SafeSocketHandle*
 class CORDL_TYPE SafeSocketHandle : public ::Microsoft::Win32::SafeHandles::SafeHandleMinusOneIsInvalid {
 public:
@@ -72,16 +72,16 @@ public:
 
   static inline ::System::Net::Sockets::SafeSocketHandle* New_ctor(void* preexistingHandle, bool ownsHandle);
 
-  /// @brief Method .ctor, addr 0x28fdcfc, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2902364, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(void* preexistingHandle, bool ownsHandle);
 
-  /// @brief Method ReleaseHandle, addr 0x28fddc8, size 0x5cc, virtual true, abstract: false, final false
+  /// @brief Method ReleaseHandle, addr 0x2902430, size 0x5cc, virtual true, abstract: false, final false
   inline bool ReleaseHandle();
 
-  /// @brief Method RegisterForBlockingSyscall, addr 0x28fe394, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method RegisterForBlockingSyscall, addr 0x29029fc, size 0x148, virtual false, abstract: false, final false
   inline void RegisterForBlockingSyscall();
 
-  /// @brief Method UnRegisterForBlockingSyscall, addr 0x28fe4dc, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method UnRegisterForBlockingSyscall, addr 0x2902b44, size 0x1f0, virtual false, abstract: false, final false
   inline void UnRegisterForBlockingSyscall();
 
   // Ctor Parameters [CppParam { name: "", ty: "SafeSocketHandle", modifiers: "&&", def_value: None }]

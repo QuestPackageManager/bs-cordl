@@ -54,8 +54,8 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::TimelinePlayable);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10425))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13929))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9193))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13882))
 // CS Name: ::UnityEngine.Timeline::TimelinePlayable*
 class CORDL_TYPE TimelinePlayable : public ::UnityEngine::Playables::PlayableBehaviour {
 public:
@@ -128,48 +128,48 @@ public:
 
   static inline bool getStaticF_muteAudioScrubbing();
 
-  /// @brief Method Create, addr 0x2c6e834, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2c6b3a0, size 0x220, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::TimelinePlayable*>
   Create(::UnityEngine::Playables::PlayableGraph graph, ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Timeline::TrackAsset>>* tracks, ::UnityEngine::GameObject* go,
          bool autoRebalance, bool createOutputs);
 
-  /// @brief Method Compile, addr 0x2c6ea54, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method Compile, addr 0x2c6b5c0, size 0x290, virtual false, abstract: false, final false
   inline void Compile(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::Playables::Playable timelinePlayable,
                       ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Timeline::TrackAsset>>* tracks, ::UnityEngine::GameObject* go, bool autoRebalance, bool createOutputs);
 
-  /// @brief Method CompileTrackList, addr 0x2c6ece4, size 0x39c, virtual false, abstract: false, final false
+  /// @brief Method CompileTrackList, addr 0x2c6b850, size 0x39c, virtual false, abstract: false, final false
   inline void CompileTrackList(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::Playables::Playable timelinePlayable,
                                ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Timeline::TrackAsset>>* tracks, ::UnityEngine::GameObject* go, bool createOutputs);
 
-  /// @brief Method CreateTrackOutput, addr 0x2c6f4a0, size 0x680, virtual false, abstract: false, final false
+  /// @brief Method CreateTrackOutput, addr 0x2c6c00c, size 0x680, virtual false, abstract: false, final false
   inline void CreateTrackOutput(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::Timeline::TrackAsset* track, ::UnityEngine::GameObject* go, ::UnityEngine::Playables::Playable playable,
                                 int32_t port);
 
-  /// @brief Method EvaluateWeightsForAnimationPlayableOutput, addr 0x2c6fb20, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method EvaluateWeightsForAnimationPlayableOutput, addr 0x2c6c68c, size 0xf0, virtual false, abstract: false, final false
   inline void EvaluateWeightsForAnimationPlayableOutput(::UnityEngine::Timeline::TrackAsset* track, ::UnityEngine::Animations::AnimationPlayableOutput animOutput);
 
-  /// @brief Method EvaluateAnimationPreviewUpdateCallback, addr 0x2c6fc10, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method EvaluateAnimationPreviewUpdateCallback, addr 0x2c6c77c, size 0xf0, virtual false, abstract: false, final false
   inline void EvaluateAnimationPreviewUpdateCallback(::UnityEngine::Timeline::TrackAsset* track, ::UnityEngine::Animations::AnimationPlayableOutput animOutput);
 
-  /// @brief Method CreateTrackPlayable, addr 0x2c6f080, size 0x420, virtual false, abstract: false, final false
+  /// @brief Method CreateTrackPlayable, addr 0x2c6bbec, size 0x420, virtual false, abstract: false, final false
   inline ::UnityEngine::Playables::Playable CreateTrackPlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::Playables::Playable timelinePlayable,
                                                                 ::UnityEngine::Timeline::TrackAsset* track, ::UnityEngine::GameObject* go, bool createOutputs);
 
-  /// @brief Method PrepareFrame, addr 0x2c6fd70, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method PrepareFrame, addr 0x2c6c8dc, size 0x2c, virtual true, abstract: false, final false
   inline void PrepareFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method Evaluate, addr 0x2c6fd9c, size 0x5ec, virtual false, abstract: false, final false
+  /// @brief Method Evaluate, addr 0x2c6c908, size 0x5ec, virtual false, abstract: false, final false
   inline void Evaluate(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData frameData);
 
-  /// @brief Method CacheTrack, addr 0x2c6fd00, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method CacheTrack, addr 0x2c6c86c, size 0x70, virtual false, abstract: false, final false
   inline void CacheTrack(::UnityEngine::Timeline::TrackAsset* track, ::UnityEngine::Playables::Playable playable, int32_t port, ::UnityEngine::Playables::Playable parent);
 
-  /// @brief Method ForAOTCompilationOnly, addr 0x2c70388, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ForAOTCompilationOnly, addr 0x2c6cef4, size 0x64, virtual false, abstract: false, final false
   static inline void ForAOTCompilationOnly();
 
   static inline ::UnityEngine::Timeline::TimelinePlayable* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c703ec, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c6cf58, size 0x148, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TimelinePlayable", modifiers: "&&", def_value: None }]

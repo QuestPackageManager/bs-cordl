@@ -6,7 +6,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(void*)>(&::System::Platform::uname)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x294d900;
+  constexpr static std::size_t addrs = 0x2951ffc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::Platform::CheckOS)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x294d97c;
+  constexpr static std::size_t addrs = 0x2952078;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Platform*>::get(), "CheckOS",
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::System::Platform::get_IsMacOS)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x294db88;
+  constexpr static std::size_t addrs = 0x2952284;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Platform*>::get(), "get_IsMacOS",
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::System::Platform::get_IsFreeBSD)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x294dc68;
+  constexpr static std::size_t addrs = 0x2952364;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Platform*>::get(), "get_IsFreeBSD",
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::System::Platform::get_IsOpenBSD)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x294dcc4;
+  constexpr static std::size_t addrs = 0x29523c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Platform*>::get(), "get_IsOpenBSD",
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::System::Platform::get_IsIBMi)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x294dd20;
+  constexpr static std::size_t addrs = 0x295241c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Platform*>::get(), "get_IsIBMi",
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::System::Platform::get_IsAix)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x294dd7c;
+  constexpr static std::size_t addrs = 0x2952478;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Platform*>::get(), "get_IsAix",

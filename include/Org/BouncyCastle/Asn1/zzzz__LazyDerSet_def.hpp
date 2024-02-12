@@ -46,22 +46,22 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::LazyDerSet* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> encoded);
 
-  /// @brief Method .ctor, addr 0x11c6518, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11f33a8, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> encoded);
 
-  /// @brief Method Parse, addr 0x11c6824, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x11f36b4, size 0x168, virtual false, abstract: false, final false
   inline void Parse();
 
-  /// @brief Method get_Item, addr 0x11c698c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_Item, addr 0x11f381c, size 0x28, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Item(int32_t index);
 
-  /// @brief Method GetEnumerator, addr 0x11c69b4, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x11f3844, size 0x24, virtual true, abstract: false, final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
-  /// @brief Method get_Count, addr 0x11c69d8, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_Count, addr 0x11f3868, size 0x24, virtual true, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method Encode, addr 0x11c69fc, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x11f388c, size 0xcc, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
   // Ctor Parameters [CppParam { name: "", ty: "LazyDerSet", modifiers: "&&", def_value: None }]

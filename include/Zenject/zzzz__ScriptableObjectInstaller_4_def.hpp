@@ -27,8 +27,8 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TDerived>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11154))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11151))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10296))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10293))
 // CS Name: ::Zenject::ScriptableObjectInstaller`4<TParam1,TParam2,TParam3,TDerived>*
 class CORDL_TYPE ScriptableObjectInstaller_4 : public ::Zenject::ScriptableObjectInstallerBase {
 public:

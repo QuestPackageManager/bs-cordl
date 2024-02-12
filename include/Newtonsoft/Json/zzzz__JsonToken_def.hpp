@@ -16,7 +16,7 @@ MARK_VAL_T(::Newtonsoft::Json::JsonToken);
 namespace Newtonsoft::Json {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11841))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11739))
 // CS Name: ::Newtonsoft.Json::JsonToken
 struct CORDL_TYPE JsonToken {
 public:

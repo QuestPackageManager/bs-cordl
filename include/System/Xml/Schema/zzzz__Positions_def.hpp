@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::System::Xml::Schema::Positions);
 namespace System::Xml::Schema {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11598))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11496))
 // CS Name: ::System.Xml.Schema::Positions*
 class CORDL_TYPE Positions : public ::System::Object {
 public:
@@ -43,18 +43,18 @@ public:
 
   constexpr void __cordl_internal_set_positions(::System::Collections::ArrayList* value);
 
-  /// @brief Method Add, addr 0x28ada20, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x28b1088, size 0x90, virtual false, abstract: false, final false
   inline int32_t Add(int32_t symbol, ::System::Object* particle);
 
-  /// @brief Method get_Item, addr 0x28adab0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x28b1118, size 0x90, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::Position get_Item(int32_t pos);
 
-  /// @brief Method get_Count, addr 0x28adb40, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x28b11a8, size 0x24, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
   static inline ::System::Xml::Schema::Positions* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28adb64, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28b11cc, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Positions", modifiers: "&&", def_value: None }]

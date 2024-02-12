@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::Oculus::Platform::GroupPresenceOptions);
 namespace Oculus::Platform {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13245))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13142))
 // CS Name: ::Oculus.Platform::GroupPresenceOptions*
 class CORDL_TYPE GroupPresenceOptions : public ::System::Object {
 public:
@@ -34,28 +34,28 @@ public:
 
   static inline ::Oculus::Platform::GroupPresenceOptions* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26ca1e0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2714ce4, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method SetDeeplinkMessageOverride, addr 0x26ec80c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetDeeplinkMessageOverride, addr 0x2714d48, size 0x68, virtual false, abstract: false, final false
   inline void SetDeeplinkMessageOverride(::StringW value);
 
-  /// @brief Method SetDestinationApiName, addr 0x26ca244, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetDestinationApiName, addr 0x2714db0, size 0x68, virtual false, abstract: false, final false
   inline void SetDestinationApiName(::StringW value);
 
-  /// @brief Method SetIsJoinable, addr 0x26ca37c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetIsJoinable, addr 0x2714e18, size 0x68, virtual false, abstract: false, final false
   inline void SetIsJoinable(bool value);
 
-  /// @brief Method SetLobbySessionId, addr 0x26ca314, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetLobbySessionId, addr 0x2714e80, size 0x68, virtual false, abstract: false, final false
   inline void SetLobbySessionId(::StringW value);
 
-  /// @brief Method SetMatchSessionId, addr 0x26ca2ac, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetMatchSessionId, addr 0x2714ee8, size 0x68, virtual false, abstract: false, final false
   inline void SetMatchSessionId(::StringW value);
 
-  /// @brief Method op_Explicit, addr 0x26ec874, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x2714f50, size 0x58, virtual false, abstract: false, final false
   static inline void* op_Explicit_void_(::Oculus::Platform::GroupPresenceOptions* options);
 
-  /// @brief Method Finalize, addr 0x26ec8cc, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x2714fa8, size 0xd4, virtual true, abstract: false, final false
   inline void Finalize();
 
   // Ctor Parameters [CppParam { name: "", ty: "GroupPresenceOptions", modifiers: "&&", def_value: None }]

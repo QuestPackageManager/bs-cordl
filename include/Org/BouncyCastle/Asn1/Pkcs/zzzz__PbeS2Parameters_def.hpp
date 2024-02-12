@@ -57,27 +57,27 @@ public:
 
   constexpr void __cordl_internal_set_scheme(::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* value);
 
-  /// @brief Method GetInstance, addr 0xf899bc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xfb484c, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters* New_ctor(::Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc* keyDevFunc,
                                                                            ::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* encScheme);
 
-  /// @brief Method .ctor, addr 0xf89cec, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfb4b7c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc* keyDevFunc, ::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* encScheme);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xf89a60, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfb48f0, size 0x28c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_KeyDerivationFunc, addr 0xf89ea0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KeyDerivationFunc, addr 0xfb4d30, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc* get_KeyDerivationFunc();
 
-  /// @brief Method get_EncryptionScheme, addr 0xf89ea8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EncryptionScheme, addr 0xfb4d38, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* get_EncryptionScheme();
 
-  /// @brief Method ToAsn1Object, addr 0xf89eb0, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xfb4d40, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "PbeS2Parameters", modifiers: "&&", def_value: None }]

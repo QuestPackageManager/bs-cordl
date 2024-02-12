@@ -125,28 +125,28 @@ public:
   static inline ::System::Security::Cryptography::DESTransform* New_ctor(::System::Security::Cryptography::SymmetricAlgorithm* symmAlgo, bool encryption, ::ArrayW<uint8_t, ::Array<uint8_t>*> key,
                                                                          ::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
 
-  /// @brief Method .ctor, addr 0x246f300, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2491374, size 0x228, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::SymmetricAlgorithm* symmAlgo, bool encryption, ::ArrayW<uint8_t, ::Array<uint8_t>*> key, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
 
-  /// @brief Method CipherFunct, addr 0x246f98c, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method CipherFunct, addr 0x2491a00, size 0x230, virtual false, abstract: false, final false
   inline uint32_t CipherFunct(uint32_t r, int32_t n);
 
-  /// @brief Method Permutation, addr 0x246fbbc, size 0x324, virtual false, abstract: false, final false
+  /// @brief Method Permutation, addr 0x2491c30, size 0x324, virtual false, abstract: false, final false
   static inline void Permutation(::ArrayW<uint8_t, ::Array<uint8_t>*> input, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, ::ArrayW<uint32_t, ::Array<uint32_t>*> permTab, bool preSwap);
 
-  /// @brief Method BSwap, addr 0x246fee0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method BSwap, addr 0x2491f54, size 0x78, virtual false, abstract: false, final false
   static inline void BSwap(::ArrayW<uint8_t, ::Array<uint8_t>*> byteBuff);
 
-  /// @brief Method SetKey, addr 0x246f600, size 0x38c, virtual false, abstract: false, final false
+  /// @brief Method SetKey, addr 0x2491674, size 0x38c, virtual false, abstract: false, final false
   inline void SetKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method ProcessBlock, addr 0x246ff58, size 0x388, virtual false, abstract: false, final false
+  /// @brief Method ProcessBlock, addr 0x2491fcc, size 0x388, virtual false, abstract: false, final false
   inline void ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, ::ArrayW<uint8_t, ::Array<uint8_t>*> output);
 
-  /// @brief Method ECB, addr 0x24702e0, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method ECB, addr 0x2492354, size 0xa4, virtual true, abstract: false, final false
   inline void ECB(::ArrayW<uint8_t, ::Array<uint8_t>*> input, ::ArrayW<uint8_t, ::Array<uint8_t>*> output);
 
-  /// @brief Method GetStrongKey, addr 0x246f528, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetStrongKey, addr 0x249159c, size 0xd8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetStrongKey();
 
   // Ctor Parameters [CppParam { name: "", ty: "DESTransform", modifiers: "&&", def_value: None }]

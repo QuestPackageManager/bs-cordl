@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::GlobalNamespace::PlayerMissionStatsData);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4633))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11051))
 // CS Name: ::PlayerMissionStatsData*
 class CORDL_TYPE PlayerMissionStatsData : public ::System::Object {
 public:
@@ -43,18 +43,18 @@ public:
 
   constexpr void __cordl_internal_set__cleared(bool value);
 
-  /// @brief Method get_missionId, addr 0x23727ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_missionId, addr 0x12b5a1c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_missionId();
 
-  /// @brief Method get_cleared, addr 0x23727b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cleared, addr 0x12b5a24, size 0x8, virtual false, abstract: false, final false
   inline bool get_cleared();
 
-  /// @brief Method set_cleared, addr 0x23727bc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_cleared, addr 0x12b5a2c, size 0xc, virtual false, abstract: false, final false
   inline void set_cleared(bool value);
 
   static inline ::GlobalNamespace::PlayerMissionStatsData* New_ctor(::StringW missionId, bool cleared);
 
-  /// @brief Method .ctor, addr 0x23727c8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12b0714, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW missionId, bool cleared);
 
   // Ctor Parameters [CppParam { name: "", ty: "PlayerMissionStatsData", modifiers: "&&", def_value: None }]

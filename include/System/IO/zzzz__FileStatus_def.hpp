@@ -30,44 +30,44 @@ MARK_VAL_T(::System::IO::FileStatus);
 namespace System::IO {
 // Is value type: true
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2215))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3594))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3592))
 // CS Name: ::System.IO::FileStatus
 struct CORDL_TYPE FileStatus {
 public:
   // Declarations
   __declspec(property(get = get_InitiallyDirectory, put = set_InitiallyDirectory)) bool InitiallyDirectory;
 
-  /// @brief Method get_InitiallyDirectory, addr 0x250e1e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InitiallyDirectory, addr 0x252fac4, size 0x8, virtual false, abstract: false, final false
   inline bool get_InitiallyDirectory();
 
-  /// @brief Method set_InitiallyDirectory, addr 0x250e1e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_InitiallyDirectory, addr 0x252facc, size 0xc, virtual false, abstract: false, final false
   inline void set_InitiallyDirectory(bool value);
 
-  /// @brief Method Initialize, addr 0x250e1f4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x252fad8, size 0x14, virtual false, abstract: false, final false
   static inline void Initialize(ByRef<::System::IO::FileStatus> status, bool isDirectory);
 
-  /// @brief Method IsReadOnly, addr 0x250e208, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method IsReadOnly, addr 0x252faec, size 0xf0, virtual false, abstract: false, final false
   inline bool IsReadOnly(::System::ReadOnlySpan_1<char16_t> path, bool continueOnError);
 
-  /// @brief Method GetAttributes, addr 0x250e3b4, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetAttributes, addr 0x252fc98, size 0xe8, virtual false, abstract: false, final false
   inline ::System::IO::FileAttributes GetAttributes(::System::ReadOnlySpan_1<char16_t> path, ::System::ReadOnlySpan_1<char16_t> fileName);
 
-  /// @brief Method GetExists, addr 0x250e49c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetExists, addr 0x252fd80, size 0x44, virtual false, abstract: false, final false
   inline bool GetExists(::System::ReadOnlySpan_1<char16_t> path);
 
-  /// @brief Method GetLastWriteTime, addr 0x250e674, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetLastWriteTime, addr 0x252ff58, size 0x9c, virtual false, abstract: false, final false
   inline ::System::DateTimeOffset GetLastWriteTime(::System::ReadOnlySpan_1<char16_t> path, bool continueOnError);
 
-  /// @brief Method UnixTimeToDateTimeOffset, addr 0x250e710, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method UnixTimeToDateTimeOffset, addr 0x252fff4, size 0xb4, virtual false, abstract: false, final false
   inline ::System::DateTimeOffset UnixTimeToDateTimeOffset(int64_t seconds, int64_t nanoseconds);
 
-  /// @brief Method GetLength, addr 0x250e7c4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetLength, addr 0x25300a8, size 0x1c, virtual false, abstract: false, final false
   inline int64_t GetLength(::System::ReadOnlySpan_1<char16_t> path, bool continueOnError);
 
-  /// @brief Method Refresh, addr 0x250e4e0, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x252fdc4, size 0x194, virtual false, abstract: false, final false
   inline void Refresh(::System::ReadOnlySpan_1<char16_t> path);
 
-  /// @brief Method EnsureStatInitialized, addr 0x250e2f8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method EnsureStatInitialized, addr 0x252fbdc, size 0xbc, virtual false, abstract: false, final false
   inline void EnsureStatInitialized(::System::ReadOnlySpan_1<char16_t> path, bool continueOnError);
 
   // Ctor Parameters [CppParam { name: "_fileStatus", ty: "::GlobalNamespace::__Interop__Sys__FileStatus", modifiers: "", def_value: None }, CppParam { name: "_fileStatusInitialized", ty: "int32_t",

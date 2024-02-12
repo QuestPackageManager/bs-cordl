@@ -64,24 +64,24 @@ public:
 
   constexpr void __cordl_internal_set_forEncryption(bool value);
 
-  /// @brief Method Init, addr 0xeca540, size 0x2a4, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0xef63d0, size 0x2a4, virtual true, abstract: false, final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method get_AlgorithmName, addr 0xeca7e4, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0xef6674, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method GetBlockSize, addr 0xeca824, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetBlockSize, addr 0xef66b4, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetBlockSize();
 
-  /// @brief Method ProcessBlock, addr 0xeca82c, size 0x1f0, virtual true, abstract: false, final false
+  /// @brief Method ProcessBlock, addr 0xef66bc, size 0x1f0, virtual true, abstract: false, final false
   inline int32_t ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset, addr 0xecaa1c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0xef68ac, size 0x4, virtual true, abstract: false, final false
   inline void Reset();
 
   static inline ::Org::BouncyCastle::Crypto::Engines::DesEdeEngine* New_ctor();
 
-  /// @brief Method .ctor, addr 0xecaa20, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xef68b0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DesEdeEngine", modifiers: "&&", def_value: None }]

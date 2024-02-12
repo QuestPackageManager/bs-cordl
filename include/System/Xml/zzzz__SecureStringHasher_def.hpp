@@ -31,17 +31,17 @@ MARK_REF_PTR_T(::System::Xml::__SecureStringHasher__HashCodeOfStringDelegate);
 namespace System::Xml {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11441))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11339))
 // CS Name: ::SecureStringHasher::HashCodeOfStringDelegate*
 class CORDL_TYPE __SecureStringHasher__HashCodeOfStringDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::System::Xml::__SecureStringHasher__HashCodeOfStringDelegate* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x285491c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2857f84, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x28549f4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x285805c, size 0x14, virtual true, abstract: false, final false
   inline int32_t Invoke(::StringW s, int32_t sLen, int64_t additionalEntropy);
 
   // Ctor Parameters [CppParam { name: "", ty: "__SecureStringHasher__HashCodeOfStringDelegate", modifiers: "&&", def_value: None }]
@@ -69,7 +69,7 @@ static_assert(::cordl_internals::size_check_v<::System::Xml::__SecureStringHashe
 namespace System::Xml {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11442))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11340))
 // CS Name: ::System.Xml::SecureStringHasher*
 class CORDL_TYPE SecureStringHasher : public ::System::Object {
 public:
@@ -100,19 +100,19 @@ public:
 
   static inline ::System::Xml::SecureStringHasher* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2854680, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2857ce8, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Equals, addr 0x28546a4, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2857d0c, size 0x18, virtual true, abstract: false, final true
   inline bool Equals(::StringW x, ::StringW y);
 
-  /// @brief Method GetHashCode, addr 0x28546bc, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method GetHashCode, addr 0x2857d24, size 0x9c, virtual true, abstract: false, final true
   inline int32_t GetHashCode(::StringW key);
 
-  /// @brief Method GetHashCodeOfString, addr 0x28548b0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetHashCodeOfString, addr 0x2857f18, size 0x6c, virtual false, abstract: false, final false
   static inline int32_t GetHashCodeOfString(::StringW key, int32_t sLen, int64_t additionalEntropy);
 
-  /// @brief Method GetHashCodeDelegate, addr 0x2854758, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetHashCodeDelegate, addr 0x2857dc0, size 0x158, virtual false, abstract: false, final false
   static inline ::System::Xml::__SecureStringHasher__HashCodeOfStringDelegate* GetHashCodeDelegate();
 
   // Ctor Parameters [CppParam { name: "", ty: "SecureStringHasher", modifiers: "&&", def_value: None }]

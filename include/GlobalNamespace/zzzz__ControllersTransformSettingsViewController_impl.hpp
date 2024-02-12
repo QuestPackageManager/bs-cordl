@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ControllersTransformSettingsViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::ControllersTransformSettingsViewController::DidActivate)> {
   constexpr static std::size_t size = 0x570;
-  constexpr static std::size_t addrs = 0x22ae914;
+  constexpr static std::size_t addrs = 0x22e1e48;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ControllersTransformSettingsViewController::*)(bool, bool)>(
     &::GlobalNamespace::ControllersTransformSettingsViewController::DidDeactivate)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x22aee84;
+  constexpr static std::size_t addrs = 0x22e23b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ControllersTransformSettingsViewController::*)()>(
     &::GlobalNamespace::ControllersTransformSettingsViewController::OnDestroy)> {
   constexpr static std::size_t size = 0x338;
-  constexpr static std::size_t addrs = 0x22aef30;
+  constexpr static std::size_t addrs = 0x22e2464;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ControllersTransformSettingsViewController::*)(::HMUI::RangeValuesTextSlider*, float_t)>(
     &::GlobalNamespace::ControllersTransformSettingsViewController::HandlePositionSliderValueDidChange)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x22af268;
+  constexpr static std::size_t addrs = 0x22e279c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ControllersTransformSettingsViewController::*)(::HMUI::RangeValuesTextSlider*, float_t)>(
     &::GlobalNamespace::ControllersTransformSettingsViewController::HandleRotationSliderValueDidChange)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x22af388;
+  constexpr static std::size_t addrs = 0x22e28bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ControllersTransformSettingsViewController::*)()>(
     &::GlobalNamespace::ControllersTransformSettingsViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22af4a0;
+  constexpr static std::size_t addrs = 0x22e29d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

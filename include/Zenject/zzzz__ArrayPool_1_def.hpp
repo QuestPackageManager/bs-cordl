@@ -21,8 +21,8 @@ namespace Zenject {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11084)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11084), inst: 2805 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11094))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10226)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10226), inst: 2775 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10236))
 // CS Name: ::Zenject::ArrayPool`1<T>*
 class CORDL_TYPE ArrayPool_1 : public ::Zenject::StaticMemoryPoolBaseBase_1<::ArrayW<T, ::Array<T>*>> {
 public:

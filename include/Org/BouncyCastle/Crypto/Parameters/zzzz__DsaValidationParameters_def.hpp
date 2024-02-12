@@ -58,30 +58,30 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> seed, int32_t counter);
 
-  /// @brief Method .ctor, addr 0xf322d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf5d160, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> seed, int32_t counter);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> seed, int32_t counter, int32_t usageIndex);
 
-  /// @brief Method .ctor, addr 0xf322d8, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf5d168, size 0x108, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> seed, int32_t counter, int32_t usageIndex);
 
-  /// @brief Method GetSeed, addr 0xf323e0, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method GetSeed, addr 0xf5d270, size 0x78, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSeed();
 
-  /// @brief Method get_Counter, addr 0xf32458, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Counter, addr 0xf5d2e8, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Counter();
 
-  /// @brief Method get_UsageIndex, addr 0xf32460, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_UsageIndex, addr 0xf5d2f0, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_UsageIndex();
 
-  /// @brief Method Equals, addr 0xf32468, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0xf5d2f8, size 0xa4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0xf3250c, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0xf5d39c, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters* other);
 
-  /// @brief Method GetHashCode, addr 0xf3259c, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0xf5d42c, size 0x88, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "DsaValidationParameters", modifiers: "&&", def_value: None }]

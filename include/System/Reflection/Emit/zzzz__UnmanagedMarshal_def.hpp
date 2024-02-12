@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::System::Reflection::Emit::UnmanagedMarshal);
 namespace System::Reflection::Emit {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3549))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3545))
 // CS Name: ::System.Reflection.Emit::UnmanagedMarshal*
 class CORDL_TYPE UnmanagedMarshal : public ::System::Object {
 public:
   // Declarations
   static inline ::System::Reflection::Emit::UnmanagedMarshal* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24fbe94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x251af28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "UnmanagedMarshal", modifiers: "&&", def_value: None }]

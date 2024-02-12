@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_Defines);
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9671))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9463))
 // CS Name: ::HoudiniEngineUnity::HEU_Defines*
 class CORDL_TYPE HEU_Defines : public ::System::Object {
 public:
@@ -67,7 +67,7 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_Defines* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21856d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2219fb4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_Defines", modifiers: "&&", def_value: None }]

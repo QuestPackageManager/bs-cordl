@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::Unity::Collections::LowLevel::Unsafe::NativeContainerIsAtomicWr
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10016))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8747))
 // CS Name: ::Unity.Collections.LowLevel.Unsafe::NativeContainerIsAtomicWriteOnlyAttribute*
 class CORDL_TYPE NativeContainerIsAtomicWriteOnlyAttribute : public ::System::Attribute {
 public:

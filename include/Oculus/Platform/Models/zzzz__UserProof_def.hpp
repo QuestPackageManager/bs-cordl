@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::UserProof);
 namespace Oculus::Platform::Models {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13490))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13446))
 // CS Name: ::Oculus.Platform.Models::UserProof*
 class CORDL_TYPE UserProof : public ::System::Object {
 public:
@@ -33,7 +33,7 @@ public:
 
   static inline ::Oculus::Platform::Models::UserProof* New_ctor(void* o);
 
-  /// @brief Method .ctor, addr 0x27093bc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x273dde8, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "UserProof", modifiers: "&&", def_value: None }]

@@ -47,7 +47,7 @@ namespace HMUI {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13673))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13626))
 // CS Name: ::UIItemsList`1::DataCallback<T>*
 class CORDL_TYPE __UIItemsList_1__DataCallback : public ::System::MulticastDelegate {
 public:
@@ -90,8 +90,8 @@ namespace HMUI {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13674))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13627))
 // CS Name: ::HMUI::UIItemsList`1<T>*
 class CORDL_TYPE UIItemsList_1 : public ::UnityEngine::MonoBehaviour {
 public:

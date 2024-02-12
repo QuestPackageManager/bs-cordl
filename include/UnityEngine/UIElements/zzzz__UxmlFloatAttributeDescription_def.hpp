@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__UxmlFloatAttributeDescription____c);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6985))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6244))
 // CS Name: ::UxmlFloatAttributeDescription::<>c*
 class CORDL_TYPE __UxmlFloatAttributeDescription____c : public ::System::Object {
 public:
@@ -55,10 +55,10 @@ public:
 
   static inline ::UnityEngine::UIElements::__UxmlFloatAttributeDescription____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e0f2c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e2c6ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <GetValueFromBag>b__3_0, addr 0x2e0f2cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <GetValueFromBag>b__3_0, addr 0x2e2c6b4, size 0x8, virtual false, abstract: false, final false
   inline float_t _GetValueFromBag_b__3_0(::StringW s, float_t f);
 
   // Ctor Parameters [CppParam { name: "", ty: "__UxmlFloatAttributeDescription____c", modifiers: "&&", def_value: None }]
@@ -85,8 +85,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__UxmlF
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6982)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6982), inst: 391 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6986))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6241)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6241), inst: 391 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6245))
 // CS Name: ::UnityEngine.UIElements::UxmlFloatAttributeDescription*
 class CORDL_TYPE UxmlFloatAttributeDescription : public ::UnityEngine::UIElements::TypedUxmlAttributeDescription_1<float_t> {
 public:
@@ -95,13 +95,13 @@ public:
 
   static inline ::UnityEngine::UIElements::UxmlFloatAttributeDescription* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e0efc4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e2c3ac, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method GetValueFromBag, addr 0x2e0f060, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method GetValueFromBag, addr 0x2e2c448, size 0x164, virtual true, abstract: false, final false
   inline float_t GetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
-  /// @brief Method ConvertValueToFloat, addr 0x2e0f1c4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ConvertValueToFloat, addr 0x2e2c5ac, size 0x9c, virtual false, abstract: false, final false
   static inline float_t ConvertValueToFloat(::StringW v, float_t defaultValue);
 
   // Ctor Parameters [CppParam { name: "", ty: "UxmlFloatAttributeDescription", modifiers: "&&", def_value: None }]

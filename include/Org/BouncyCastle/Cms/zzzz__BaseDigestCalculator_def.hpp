@@ -42,10 +42,10 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::BaseDigestCalculator* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> digest);
 
-  /// @brief Method .ctor, addr 0x11d81ac, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x120603c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> digest);
 
-  /// @brief Method GetDigest, addr 0x11d81d4, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method GetDigest, addr 0x1206064, size 0x5c, virtual true, abstract: false, final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetDigest();
 
   // Ctor Parameters [CppParam { name: "", ty: "BaseDigestCalculator", modifiers: "&&", def_value: None }]

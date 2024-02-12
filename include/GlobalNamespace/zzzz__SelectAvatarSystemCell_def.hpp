@@ -54,8 +54,8 @@ MARK_VAL_T(::GlobalNamespace::__SelectAvatarSystemCell___ReloadIsCreated_d__17);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(15177)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5065 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5808)) CS Name: ::SelectAvatarSystemCell::<Load>d__14
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3396)), TypeDefinitionIndex(TypeDefinitionIndex(15257)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 5045 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5106)) CS Name: ::SelectAvatarSystemCell::<Load>d__14
 struct CORDL_TYPE __SelectAvatarSystemCell___Load_d__14 {
 public:
   // Declarations
@@ -65,10 +65,10 @@ public:
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x22e8fbc, size 0x5b4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2317594, size 0x5b4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x22e9570, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2317b48, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -121,8 +121,8 @@ static_assert(offsetof(::GlobalNamespace::__SelectAvatarSystemCell___Load_d__14,
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3400)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5809)) CS Name: ::SelectAvatarSystemCell::<ReloadIsCreated>d__17
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3396)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 77
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5107)) CS Name: ::SelectAvatarSystemCell::<ReloadIsCreated>d__17
 struct CORDL_TYPE __SelectAvatarSystemCell___ReloadIsCreated_d__17 {
 public:
   // Declarations
@@ -132,10 +132,10 @@ public:
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x22e957c, size 0x2b0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2317b54, size 0x2b0, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x22e982c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2317e04, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -188,8 +188,8 @@ static_assert(offsetof(::GlobalNamespace::__SelectAvatarSystemCell___ReloadIsCre
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 145, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13664))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5810))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13617))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5108))
 // CS Name: ::SelectAvatarSystemCell*
 class CORDL_TYPE SelectAvatarSystemCell : public ::HMUI::TableCell {
 public:
@@ -275,57 +275,57 @@ public:
 
   constexpr void __cordl_internal_set__activateViewOnEnable(bool value);
 
-  /// @brief Method add_didSetAvatarSystemPreferredEvent, addr 0x22e8794, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didSetAvatarSystemPreferredEvent, addr 0x2309ba4, size 0xb0, virtual false, abstract: false, final false
   inline void add_didSetAvatarSystemPreferredEvent(::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* value);
 
-  /// @brief Method remove_didSetAvatarSystemPreferredEvent, addr 0x22e8844, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSetAvatarSystemPreferredEvent, addr 0x2317284, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didSetAvatarSystemPreferredEvent(::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* value);
 
-  /// @brief Method add_didRequestEditOfAvatarEvent, addr 0x22e88f4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didRequestEditOfAvatarEvent, addr 0x2309af4, size 0xb0, virtual false, abstract: false, final false
   inline void add_didRequestEditOfAvatarEvent(::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* value);
 
-  /// @brief Method remove_didRequestEditOfAvatarEvent, addr 0x22e89a4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didRequestEditOfAvatarEvent, addr 0x2317334, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didRequestEditOfAvatarEvent(::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* value);
 
-  /// @brief Method add_didRequestCreationOfAvatarEvent, addr 0x22e8a54, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didRequestCreationOfAvatarEvent, addr 0x2309a44, size 0xb0, virtual false, abstract: false, final false
   inline void add_didRequestCreationOfAvatarEvent(::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* value);
 
-  /// @brief Method remove_didRequestCreationOfAvatarEvent, addr 0x22e8b04, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didRequestCreationOfAvatarEvent, addr 0x23173e4, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didRequestCreationOfAvatarEvent(::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* value);
 
-  /// @brief Method Load, addr 0x22e8bb4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x2309c54, size 0x9c, virtual false, abstract: false, final false
   inline void Load(::BeatSaber::AvatarCore::IAvatarSystemMetadata* avatarSystemMetadata);
 
-  /// @brief Method OnEnable, addr 0x22e8c50, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x2317494, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method SetSelectedAvatarSystem, addr 0x22e8ce8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method SetSelectedAvatarSystem, addr 0x230948c, size 0xa8, virtual false, abstract: false, final false
   inline void SetSelectedAvatarSystem(::BeatSaber::AvatarCore::IAvatarSystemMetadata* avatarSystem);
 
-  /// @brief Method ReloadIsCreated, addr 0x22e8d90, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ReloadIsCreated, addr 0x2309534, size 0x90, virtual false, abstract: false, final false
   inline void ReloadIsCreated();
 
-  /// @brief Method Activate, addr 0x22e8e20, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Activate, addr 0x23095c4, size 0xac, virtual false, abstract: false, final false
   inline void Activate();
 
-  /// @brief Method Deactivate, addr 0x22e8ecc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Deactivate, addr 0x2309670, size 0x88, virtual false, abstract: false, final false
   inline void Deactivate();
 
-  /// @brief Method TryActivateOnEnable, addr 0x22e8c54, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method TryActivateOnEnable, addr 0x2317498, size 0x94, virtual false, abstract: false, final false
   inline void TryActivateOnEnable();
 
-  /// @brief Method HandleLoadedSelectionViewDidPressPreferredButton, addr 0x22e8f54, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleLoadedSelectionViewDidPressPreferredButton, addr 0x231752c, size 0x20, virtual false, abstract: false, final false
   inline void HandleLoadedSelectionViewDidPressPreferredButton();
 
-  /// @brief Method HandleLoadedSelectionViewDidPressEditButton, addr 0x22e8f74, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleLoadedSelectionViewDidPressEditButton, addr 0x231754c, size 0x20, virtual false, abstract: false, final false
   inline void HandleLoadedSelectionViewDidPressEditButton();
 
-  /// @brief Method HandleLoadedSelectionViewDidPressCreateButton, addr 0x22e8f94, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleLoadedSelectionViewDidPressCreateButton, addr 0x231756c, size 0x20, virtual false, abstract: false, final false
   inline void HandleLoadedSelectionViewDidPressCreateButton();
 
   static inline ::GlobalNamespace::SelectAvatarSystemCell* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22e8fb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x231758c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SelectAvatarSystemCell", modifiers: "&&", def_value: None }]

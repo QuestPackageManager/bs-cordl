@@ -48,8 +48,8 @@ MARK_REF_PTR_T(::Tayx::Graphy::Ram::G_RamManager);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Tayx::Graphy::Ram {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15064))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15077))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(14937))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14950))
 // CS Name: ::Tayx.Graphy.Ram::G_RamManager*
 class CORDL_TYPE G_RamManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -149,36 +149,36 @@ public:
 
   constexpr void __cordl_internal_set_m_currentModuleState(::Tayx::Graphy::__GraphyManager__ModuleState value);
 
-  /// @brief Method Awake, addr 0x2a07f84, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2a0ca28, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Start, addr 0x2a07f88, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2a0ca2c, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method SetPosition, addr 0x2a00bb4, size 0x2e8, virtual true, abstract: false, final true
+  /// @brief Method SetPosition, addr 0x2a05658, size 0x2e8, virtual true, abstract: false, final true
   inline void SetPosition(::Tayx::Graphy::__GraphyManager__ModulePosition newModulePosition);
 
-  /// @brief Method SetState, addr 0x2a01750, size 0x150, virtual true, abstract: false, final true
+  /// @brief Method SetState, addr 0x2a061f4, size 0x150, virtual true, abstract: false, final true
   inline void SetState(::Tayx::Graphy::__GraphyManager__ModuleState state, bool silentUpdate);
 
-  /// @brief Method RestorePreviousState, addr 0x2a035fc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method RestorePreviousState, addr 0x2a080a0, size 0xc, virtual false, abstract: false, final false
   inline void RestorePreviousState();
 
-  /// @brief Method UpdateParameters, addr 0x2a018d0, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method UpdateParameters, addr 0x2a06374, size 0x1ac, virtual false, abstract: false, final false
   inline void UpdateParameters();
 
-  /// @brief Method RefreshParameters, addr 0x2a05d60, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method RefreshParameters, addr 0x2a0a804, size 0x194, virtual false, abstract: false, final false
   inline void RefreshParameters();
 
-  /// @brief Method Init, addr 0x2a03cd8, size 0x4b8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2a0877c, size 0x4b8, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method SetGraphActive, addr 0x2a07f8c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetGraphActive, addr 0x2a0ca30, size 0x44, virtual false, abstract: false, final false
   inline void SetGraphActive(bool active);
 
   static inline ::Tayx::Graphy::Ram::G_RamManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2a0817c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a0cc20, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "G_RamManager", modifiers: "&&", def_value: None }]

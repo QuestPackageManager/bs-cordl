@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::GlobalNamespace::SonyBackgroundExecutionHelper);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4579))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11006))
 // CS Name: ::SonyBackgroundExecutionHelper*
 class CORDL_TYPE SonyBackgroundExecutionHelper : public ::System::Object {
 public:
@@ -61,27 +61,27 @@ public:
 
   constexpr void __cordl_internal_set__isInBackgroundExecution(bool value);
 
-  /// @brief Method add_didGoToBackgroundExecutionEvent, addr 0x2368df4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didGoToBackgroundExecutionEvent, addr 0x12a93cc, size 0x9c, virtual false, abstract: false, final false
   inline void add_didGoToBackgroundExecutionEvent(::System::Action* value);
 
-  /// @brief Method remove_didGoToBackgroundExecutionEvent, addr 0x2368e90, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didGoToBackgroundExecutionEvent, addr 0x12a9468, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didGoToBackgroundExecutionEvent(::System::Action* value);
 
-  /// @brief Method add_didGoToForegroundExecutionEvent, addr 0x2368f2c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didGoToForegroundExecutionEvent, addr 0x12a9504, size 0x9c, virtual false, abstract: false, final false
   inline void add_didGoToForegroundExecutionEvent(::System::Action* value);
 
-  /// @brief Method remove_didGoToForegroundExecutionEvent, addr 0x2368fc8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didGoToForegroundExecutionEvent, addr 0x12a95a0, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didGoToForegroundExecutionEvent(::System::Action* value);
 
-  /// @brief Method get_isInBackgroundExecution, addr 0x2369064, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isInBackgroundExecution, addr 0x12a963c, size 0x8, virtual false, abstract: false, final false
   inline bool get_isInBackgroundExecution();
 
-  /// @brief Method Tick, addr 0x236906c, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Tick, addr 0x12a9644, size 0x28, virtual true, abstract: false, final true
   inline void Tick();
 
   static inline ::GlobalNamespace::SonyBackgroundExecutionHelper* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2369094, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12a966c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SonyBackgroundExecutionHelper", modifiers: "&&", def_value: None }]

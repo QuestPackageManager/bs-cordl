@@ -29,17 +29,17 @@ public:
   // Declarations
   static inline ::System::MethodAccessException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25afb74, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d2a8c, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::MethodAccessException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x25afbd0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d2ae8, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::System::MethodAccessException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x25afbf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d2b0c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "MethodAccessException", modifiers: "&&", def_value: None }]

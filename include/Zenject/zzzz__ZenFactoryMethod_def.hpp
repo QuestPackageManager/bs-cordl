@@ -26,23 +26,23 @@ MARK_REF_PTR_T(::Zenject::ZenFactoryMethod);
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15714))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15864))
 // CS Name: ::Zenject::ZenFactoryMethod*
 class CORDL_TYPE ZenFactoryMethod : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::Zenject::ZenFactoryMethod* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2eb99ac, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ed5af4, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x2eb9ad8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2ed5c20, size 0x14, virtual true, abstract: false, final false
   inline ::System::Object* Invoke(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method BeginInvoke, addr 0x2eb9aec, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2ed5c34, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2eb9b0c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2ed5c54, size 0xc, virtual true, abstract: false, final false
   inline ::System::Object* EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "ZenFactoryMethod", modifiers: "&&", def_value: None }]

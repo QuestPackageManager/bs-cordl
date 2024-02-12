@@ -43,8 +43,8 @@ MARK_REF_PTR_T(::Zenject::BindInfo);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10942)), TypeDefinitionIndex(TypeDefinitionIndex(10943)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10944)), TypeDefinitionIndex(TypeDefinitionIndex(10945))] Self: TypeDefinitionIndex(TypeDefinitionIndex(10946)) CS Name: ::Zenject::BindInfo*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10084)), TypeDefinitionIndex(TypeDefinitionIndex(10085)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10086)), TypeDefinitionIndex(TypeDefinitionIndex(10087))] Self: TypeDefinitionIndex(TypeDefinitionIndex(10088)) CS Name: ::Zenject::BindInfo*
 class CORDL_TYPE BindInfo : public ::System::Object {
 public:
   // Declarations
@@ -219,16 +219,16 @@ public:
 
   static inline ::Zenject::BindInfo* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ede974, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2efaabc, size 0xec, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Dispose, addr 0x2edeb5c, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2efaca4, size 0x58, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method SetContextInfo, addr 0x2edebb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetContextInfo, addr 0x2efacfc, size 0x8, virtual false, abstract: false, final false
   inline void SetContextInfo(::StringW contextInfo);
 
-  /// @brief Method Reset, addr 0x2edea60, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x2efaba8, size 0xfc, virtual false, abstract: false, final false
   inline void Reset();
 
   // Ctor Parameters [CppParam { name: "", ty: "BindInfo", modifiers: "&&", def_value: None }]

@@ -5,7 +5,7 @@
 #include "GlobalNamespace/zzzz__BeatmapEventDataBox_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventData_def.hpp"
 #include "GlobalNamespace/zzzz__EaseType_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatToTimeConvertor_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatToTimeConverter_def.hpp"
 #include "GlobalNamespace/zzzz__IndexFilter_def.hpp"
 #include "GlobalNamespace/zzzz__LightAxis_def.hpp"
 #include "GlobalNamespace/zzzz__LightTranslationBaseData_def.hpp"
@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::LightTranslationBeatmapEventDataBox::*)()>(
     &::GlobalNamespace::LightTranslationBeatmapEventDataBox::get_subtypeIdentifier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x233d5b4;
+  constexpr static std::size_t addrs = 0x127daa8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::LightTranslationBeatmapEventDataBox::*)()>(
     &::GlobalNamespace::LightTranslationBeatmapEventDataBox::get_beatStep)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x233d5bc;
+  constexpr static std::size_t addrs = 0x127dab0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -51,7 +51,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType, bool, ::GlobalNamespace::EaseType,
     ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightTranslationBaseData*>*)>(&::GlobalNamespace::LightTranslationBeatmapEventDataBox::_ctor)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x233d5c4;
+  constexpr static std::size_t addrs = 0x127dab8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -71,10 +71,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightTranslationBeatmapEventDataBox::*)(
-    float_t, int32_t, int32_t, int32_t, int32_t, float_t, ::GlobalNamespace::IBeatToTimeConvertor*, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>*)>(
+    float_t, int32_t, int32_t, int32_t, int32_t, float_t, ::GlobalNamespace::IBeatToTimeConverter*, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>*)>(
     &::GlobalNamespace::LightTranslationBeatmapEventDataBox::Unpack)> {
-  constexpr static std::size_t size = 0x4e8;
-  constexpr static std::size_t addrs = 0x233d7f8;
+  constexpr static std::size_t size = 0x4e4;
+  constexpr static std::size_t addrs = 0x127dcec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -176,12 +176,12 @@ inline void GlobalNamespace::LightTranslationBeatmapEventDataBox::_ctor(::Global
                                                           gapDistributionParamType, gapDistributionShouldAffectFirstBaseEvent, gapDistributionEaseType, lightTranslationBaseDataList);
 }
 inline void GlobalNamespace::LightTranslationBeatmapEventDataBox::Unpack(float_t groupBoxBeat, int32_t groupId, int32_t elementId, int32_t durationOrderIndex, int32_t distributionOrderIndex,
-                                                                         float_t maxBeat, ::GlobalNamespace::IBeatToTimeConvertor* beatToTimeConvertor,
+                                                                         float_t maxBeat, ::GlobalNamespace::IBeatToTimeConverter* beatToTimeConverter,
                                                                          ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>* output) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightTranslationBeatmapEventDataBox*>::get(), 6)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, groupBoxBeat, groupId, elementId, durationOrderIndex, distributionOrderIndex, maxBeat, beatToTimeConvertor, output);
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, groupBoxBeat, groupId, elementId, durationOrderIndex, distributionOrderIndex, maxBeat, beatToTimeConverter, output);
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LightTranslationBeatmapEventDataBox::LightTranslationBeatmapEventDataBox() {}

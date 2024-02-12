@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::CallerMemberNameAttribute);
 namespace System::Runtime::CompilerServices {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3359))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3356))
 // CS Name: ::System.Runtime.CompilerServices::CallerMemberNameAttribute*
 class CORDL_TYPE CallerMemberNameAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::System::Runtime::CompilerServices::CallerMemberNameAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24da978, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24faea8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CallerMemberNameAttribute", modifiers: "&&", def_value: None }]

@@ -15,7 +15,7 @@ namespace GlobalNamespace {
 class UserInfo;
 }
 namespace GlobalNamespace {
-class XPlatformAccessTokenData;
+struct XPlatformAccessTokenData;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
@@ -40,7 +40,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MockPlatformUserModel);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15984))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16360))
 // CS Name: ::MockPlatformUserModel*
 class CORDL_TYPE MockPlatformUserModel : public ::System::Object {
 public:
@@ -63,33 +63,33 @@ public:
 
   constexpr void __cordl_internal_set_platformUserInfoDidChangeEvent(::System::Action_1<::GlobalNamespace::UserInfo*>* value);
 
-  /// @brief Method add_platformUserInfoDidChangeEvent, addr 0x27fde9c, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_platformUserInfoDidChangeEvent, addr 0x280a330, size 0xb0, virtual true, abstract: false, final true
   inline void add_platformUserInfoDidChangeEvent(::System::Action_1<::GlobalNamespace::UserInfo*>* value);
 
-  /// @brief Method remove_platformUserInfoDidChangeEvent, addr 0x27fdf4c, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_platformUserInfoDidChangeEvent, addr 0x280a3e0, size 0xb0, virtual true, abstract: false, final true
   inline void remove_platformUserInfoDidChangeEvent(::System::Action_1<::GlobalNamespace::UserInfo*>* value);
 
-  /// @brief Method get_CanXPlatformAccessTokenBeCached, addr 0x27fdffc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_CanXPlatformAccessTokenBeCached, addr 0x280a490, size 0x8, virtual true, abstract: false, final true
   inline bool get_CanXPlatformAccessTokenBeCached();
 
-  /// @brief Method GetUserInfo, addr 0x27fe004, size 0xd8, virtual true, abstract: false, final true
+  /// @brief Method GetUserInfo, addr 0x280a498, size 0xd8, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::UserInfo*>* GetUserInfo(::System::Threading::CancellationToken ctx);
 
-  /// @brief Method GetUserFriendsUserIds, addr 0x27fe118, size 0xe0, virtual true, abstract: false, final true
+  /// @brief Method GetUserFriendsUserIds, addr 0x280a5ac, size 0xe0, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>* GetUserFriendsUserIds(bool cached);
 
-  /// @brief Method GetUserAuthToken, addr 0x27fe1f8, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method GetUserAuthToken, addr 0x280a68c, size 0xc0, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::PlatformUserAuthTokenData*>* GetUserAuthToken();
 
-  /// @brief Method GetUserNamesForUserIds, addr 0x27fe2b8, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method GetUserNamesForUserIds, addr 0x280a74c, size 0x6c, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>* GetUserNamesForUserIds(::System::Collections::Generic::IReadOnlyList_1<::StringW>* userIds);
 
-  /// @brief Method RequestXPlatformAccessToken, addr 0x27fe324, size 0xb4, virtual true, abstract: false, final true
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData*>* RequestXPlatformAccessToken(::System::Threading::CancellationToken cancellationToken);
+  /// @brief Method RequestXPlatformAccessToken, addr 0x280a7b8, size 0xa0, virtual true, abstract: false, final true
+  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData>* RequestXPlatformAccessToken(::System::Threading::CancellationToken cancellationToken);
 
   static inline ::GlobalNamespace::MockPlatformUserModel* New_ctor();
 
-  /// @brief Method .ctor, addr 0x27fe3d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x280a858, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MockPlatformUserModel", modifiers: "&&", def_value: None }]

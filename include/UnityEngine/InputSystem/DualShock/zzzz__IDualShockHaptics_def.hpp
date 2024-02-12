@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::DualShock::IDualShockHaptics);
 namespace UnityEngine::InputSystem::DualShock {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6425))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5684))
 // CS Name: ::UnityEngine.InputSystem.DualShock::IDualShockHaptics*
 class CORDL_TYPE IDualShockHaptics {
 public:

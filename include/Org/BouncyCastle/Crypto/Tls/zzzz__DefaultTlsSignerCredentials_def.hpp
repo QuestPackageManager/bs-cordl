@@ -90,7 +90,7 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Tls::DefaultTlsSignerCredentials*
   New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::Org::BouncyCastle::Crypto::Tls::Certificate* certificate, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey);
 
-  /// @brief Method .ctor, addr 0xf65a4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf8f8dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::Org::BouncyCastle::Crypto::Tls::Certificate* certificate, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DefaultTlsSignerCredentials* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context,
@@ -98,17 +98,17 @@ public:
                                                                                         ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey,
                                                                                         ::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* signatureAndHashAlgorithm);
 
-  /// @brief Method .ctor, addr 0xf65a54, size 0x420, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf8f8e4, size 0x420, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::Org::BouncyCastle::Crypto::Tls::Certificate* certificate, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey,
                     ::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* signatureAndHashAlgorithm);
 
-  /// @brief Method get_Certificate, addr 0xf65e74, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Certificate, addr 0xf8fd04, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::Certificate* get_Certificate();
 
-  /// @brief Method GenerateCertificateSignature, addr 0xf65e7c, size 0x238, virtual true, abstract: false, final false
+  /// @brief Method GenerateCertificateSignature, addr 0xf8fd0c, size 0x238, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateCertificateSignature(::ArrayW<uint8_t, ::Array<uint8_t>*> hash);
 
-  /// @brief Method get_SignatureAndHashAlgorithm, addr 0xf660b4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SignatureAndHashAlgorithm, addr 0xf8ff44, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* get_SignatureAndHashAlgorithm();
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultTlsSignerCredentials", modifiers: "&&", def_value: None }]

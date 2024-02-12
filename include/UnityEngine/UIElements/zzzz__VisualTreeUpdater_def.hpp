@@ -42,7 +42,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__VisualTreeUpdater__UpdaterArray);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6751))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6010))
 // CS Name: ::VisualTreeUpdater::UpdaterArray*
 class CORDL_TYPE __VisualTreeUpdater__UpdaterArray : public ::System::Object {
 public:
@@ -64,16 +64,16 @@ public:
 
   static inline ::UnityEngine::UIElements::__VisualTreeUpdater__UpdaterArray* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2db2524, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dd090c, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_Item, addr 0x2db2b40, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x2dd0f28, size 0x64, virtual false, abstract: false, final false
   inline void set_Item(::UnityEngine::UIElements::VisualTreeUpdatePhase phase, ::UnityEngine::UIElements::IVisualTreeUpdater* value);
 
-  /// @brief Method get_Item, addr 0x2db2a10, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x2dd0df8, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::IVisualTreeUpdater* get_Item(::UnityEngine::UIElements::VisualTreeUpdatePhase phase);
 
-  /// @brief Method get_Item, addr 0x2db2788, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x2dd0b70, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::IVisualTreeUpdater* get_Item(int32_t index);
 
   // Ctor Parameters [CppParam { name: "", ty: "__VisualTreeUpdater__UpdaterArray", modifiers: "&&", def_value: None }]
@@ -106,7 +106,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__VisualTreeUpdater__UpdaterAr
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6752))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6011))
 // CS Name: ::UnityEngine.UIElements::VisualTreeUpdater*
 class CORDL_TYPE VisualTreeUpdater : public ::System::Object {
 public:
@@ -139,25 +139,25 @@ public:
 
   static inline ::UnityEngine::UIElements::VisualTreeUpdater* New_ctor(::UnityEngine::UIElements::BaseVisualElementPanel* panel);
 
-  /// @brief Method .ctor, addr 0x2db24a8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dd0890, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::BaseVisualElementPanel* panel);
 
-  /// @brief Method Dispose, addr 0x2db26bc, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2dd0aa4, size 0xcc, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method UpdateVisualTreePhase, addr 0x2db27b8, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method UpdateVisualTreePhase, addr 0x2dd0ba0, size 0x258, virtual false, abstract: false, final false
   inline void UpdateVisualTreePhase(::UnityEngine::UIElements::VisualTreeUpdatePhase phase);
 
-  /// @brief Method OnVersionChanged, addr 0x2db2a40, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method OnVersionChanged, addr 0x2dd0e28, size 0xe8, virtual false, abstract: false, final false
   inline void OnVersionChanged(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VersionChangeType versionChangeType);
 
   /// @brief Method SetUpdater, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void SetUpdater(::UnityEngine::UIElements::VisualTreeUpdatePhase phase);
 
-  /// @brief Method GetUpdater, addr 0x2db2b28, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetUpdater, addr 0x2dd0f10, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::IVisualTreeUpdater* GetUpdater(::UnityEngine::UIElements::VisualTreeUpdatePhase phase);
 
-  /// @brief Method SetDefaultUpdaters, addr 0x2db2580, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method SetDefaultUpdaters, addr 0x2dd0968, size 0x13c, virtual false, abstract: false, final false
   inline void SetDefaultUpdaters();
 
   // Ctor Parameters [CppParam { name: "", ty: "VisualTreeUpdater", modifiers: "&&", def_value: None }]

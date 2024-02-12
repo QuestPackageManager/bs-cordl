@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Android::AndroidLightSensor);
 // SizeInfo { instance_size: 352, native_size: -1, calculated_instance_size: 352, calculated_native_size: 352, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Android {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6281))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6435))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5540))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5694))
 // CS Name: ::UnityEngine.InputSystem.Android::AndroidLightSensor*
 class CORDL_TYPE AndroidLightSensor : public ::UnityEngine::InputSystem::LightSensor {
 public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Android::AndroidLightSensor* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ae59e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ae754c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AndroidLightSensor", modifiers: "&&", def_value: None }]

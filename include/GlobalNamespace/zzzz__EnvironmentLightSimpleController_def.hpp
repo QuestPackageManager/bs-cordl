@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::GlobalNamespace::EnvironmentLightSimpleController);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4866))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8995))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4220))
 // CS Name: ::EnvironmentLightSimpleController*
 class CORDL_TYPE EnvironmentLightSimpleController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -52,12 +52,12 @@ public:
 
   constexpr void __cordl_internal_set__lightManager(::UnityW<::GlobalNamespace::LightWithIdManager> value);
 
-  /// @brief Method LateUpdate, addr 0x239a28c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x235b3bc, size 0x2c, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::EnvironmentLightSimpleController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x239a2b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x235b3e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EnvironmentLightSimpleController", modifiers: "&&", def_value: None }]

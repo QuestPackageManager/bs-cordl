@@ -86,37 +86,37 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* getStaticF_DefaultPSourceAlgorithm();
 
-  /// @brief Method GetInstance, addr 0xf8db54, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xfb89e4, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::RsaesOaepParameters* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::RsaesOaepParameters* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf8de90, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfb8d20, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::RsaesOaepParameters* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlgorithm,
                                                                                ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* maskGenAlgorithm,
                                                                                ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* pSourceAlgorithm);
 
-  /// @brief Method .ctor, addr 0xf8df04, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfb8d94, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlgorithm, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* maskGenAlgorithm,
                     ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* pSourceAlgorithm);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::RsaesOaepParameters* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xf8dcdc, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfb8b6c, size 0x1b4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_HashAlgorithm, addr 0xf8df40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HashAlgorithm, addr 0xfb8dd0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_HashAlgorithm();
 
-  /// @brief Method get_MaskGenAlgorithm, addr 0xf8df48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaskGenAlgorithm, addr 0xfb8dd8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_MaskGenAlgorithm();
 
-  /// @brief Method get_PSourceAlgorithm, addr 0xf8df50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PSourceAlgorithm, addr 0xfb8de0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_PSourceAlgorithm();
 
-  /// @brief Method ToAsn1Object, addr 0xf8df58, size 0x20c, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xfb8de8, size 0x20c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "RsaesOaepParameters", modifiers: "&&", def_value: None }]

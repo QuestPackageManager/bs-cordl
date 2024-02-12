@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert::*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*)>(
     &::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert::_ctor)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0xe64db4;
+  constexpr static std::size_t addrs = 0xe8fc44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert::GetInstance)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0xe648c8;
+  constexpr static std::size_t addrs = 0xe8f758;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert::*)(::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*)>(
     &::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0xe64ea8;
+  constexpr static std::size_t addrs = 0xe8fd38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert::*)(::Org::BouncyCastle::Asn1::Crmf::EncryptedValue*)>(
     &::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0xe64f20;
+  constexpr static std::size_t addrs = 0xe8fdb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* (::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert::get_Certificate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xe64f98;
+  constexpr static std::size_t addrs = 0xe8fe28;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* (::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert::get_EncryptedCert)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xe64fa0;
+  constexpr static std::size_t addrs = 0xe8fe30;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert::ToAsn1Object)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0xe64fa8;
+  constexpr static std::size_t addrs = 0xe8fe38;
 
   inline static ::MethodInfo const* methodInfo() {
 

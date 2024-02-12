@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::GradientRemap);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7339)), TypeDefinitionIndex(TypeDefinitionIndex(7399)), TypeDefinitionIndex(TypeDefinitionIndex(10162)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7399), inst: 313 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7422)) CS Name: ::UnityEngine.UIElements.UIR::GradientRemap*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6598)), TypeDefinitionIndex(TypeDefinitionIndex(6658)), TypeDefinitionIndex(TypeDefinitionIndex(8906)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6658), inst: 315 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6681)) CS Name: ::UnityEngine.UIElements.UIR::GradientRemap*
 class CORDL_TYPE GradientRemap : public ::UnityEngine::UIElements::UIR::LinkedPoolItem_1<::UnityEngine::UIElements::UIR::GradientRemap*> {
 public:
   // Declarations
@@ -67,12 +67,12 @@ public:
 
   constexpr void __cordl_internal_set_atlas(::UnityEngine::UIElements::TextureId value);
 
-  /// @brief Method Reset, addr 0x2dcd160, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x2deb548, size 0x68, virtual false, abstract: false, final false
   inline void Reset();
 
   static inline ::UnityEngine::UIElements::UIR::GradientRemap* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2dcd104, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2deb4ec, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GradientRemap", modifiers: "&&", def_value: None }]

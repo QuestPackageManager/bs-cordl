@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::VREvent_Notification_t);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8670))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8614))
 // CS Name: ::OVR.OpenVR::VREvent_Notification_t
 struct CORDL_TYPE VREvent_Notification_t {
 public:

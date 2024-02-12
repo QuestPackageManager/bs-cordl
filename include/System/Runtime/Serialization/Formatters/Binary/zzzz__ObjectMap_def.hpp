@@ -156,7 +156,7 @@ public:
                                                                                           ::System::Runtime::Serialization::Formatters::Binary::ObjectReader* objectReader, int32_t objectId,
                                                                                           ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* assemblyInfo);
 
-  /// @brief Method .ctor, addr 0x24c3558, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24e45cc, size 0x1b4, virtual false, abstract: false, final false
   inline void _ctor(::StringW objectName, ::System::Type* objectType, ::ArrayW<::StringW, ::Array<::StringW>*> memberNames,
                     ::System::Runtime::Serialization::Formatters::Binary::ObjectReader* objectReader, int32_t objectId,
                     ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* assemblyInfo);
@@ -168,23 +168,23 @@ public:
            ::System::Runtime::Serialization::Formatters::Binary::ObjectReader* objectReader, int32_t objectId, ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* assemblyInfo,
            ::System::Runtime::Serialization::Formatters::Binary::SizedArray* assemIdToAssemblyTable);
 
-  /// @brief Method .ctor, addr 0x24c3bd8, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24e4c4c, size 0x2e4, virtual false, abstract: false, final false
   inline void _ctor(::StringW objectName, ::ArrayW<::StringW, ::Array<::StringW>*> memberNames,
                     ::ArrayW<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum, ::Array<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>*> binaryTypeEnumA,
                     ::ArrayW<::System::Object*, ::Array<::System::Object*>*> typeInformationA, ::ArrayW<int32_t, ::Array<int32_t>*> memberAssemIds,
                     ::System::Runtime::Serialization::Formatters::Binary::ObjectReader* objectReader, int32_t objectId,
                     ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* assemblyInfo, ::System::Runtime::Serialization::Formatters::Binary::SizedArray* assemIdToAssemblyTable);
 
-  /// @brief Method CreateObjectInfo, addr 0x24c3ebc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method CreateObjectInfo, addr 0x24e4f30, size 0x40, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* CreateObjectInfo(ByRef<::System::Runtime::Serialization::SerializationInfo*> si,
                                                                                                 ByRef<::ArrayW<::System::Object*, ::Array<::System::Object*>*>> memberData);
 
-  /// @brief Method Create, addr 0x24c3fd4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x24e5048, size 0xa0, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::Formatters::Binary::ObjectMap* Create(::StringW name, ::System::Type* objectType, ::ArrayW<::StringW, ::Array<::StringW>*> memberNames,
                                                                                         ::System::Runtime::Serialization::Formatters::Binary::ObjectReader* objectReader, int32_t objectId,
                                                                                         ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* assemblyInfo);
 
-  /// @brief Method Create, addr 0x24c4074, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x24e50e8, size 0xc4, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::Formatters::Binary::ObjectMap*
   Create(::StringW name, ::ArrayW<::StringW, ::Array<::StringW>*> memberNames,
          ::ArrayW<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum, ::Array<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>*> binaryTypeEnumA,

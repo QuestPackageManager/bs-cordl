@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::JetBrains::Annotations::AspDataFieldsAttribute);
 namespace JetBrains::Annotations {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15797))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15947))
 // CS Name: ::JetBrains.Annotations::AspDataFieldsAttribute*
 class CORDL_TYPE AspDataFieldsAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::JetBrains::Annotations::AspDataFieldsAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2eba7e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ed6928, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AspDataFieldsAttribute", modifiers: "&&", def_value: None }]

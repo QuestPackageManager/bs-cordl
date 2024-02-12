@@ -42,7 +42,7 @@ MARK_REF_PTR_T(::System::Net::DigestSession);
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9160))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7170))
 // CS Name: ::System.Net::DigestSession*
 class CORDL_TYPE DigestSession : public ::System::Object {
 public:
@@ -115,46 +115,46 @@ public:
 
   static inline ::System::Net::DigestSession* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29bdd64, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29c1808, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Algorithm, addr 0x29bddd4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Algorithm, addr 0x29c1878, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_Algorithm();
 
-  /// @brief Method get_Realm, addr 0x29bddec, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Realm, addr 0x29c1890, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_Realm();
 
-  /// @brief Method get_Nonce, addr 0x29bde04, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Nonce, addr 0x29c18a8, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_Nonce();
 
-  /// @brief Method get_Opaque, addr 0x29bde1c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Opaque, addr 0x29c18c0, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_Opaque();
 
-  /// @brief Method get_QOP, addr 0x29bde34, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_QOP, addr 0x29c18d8, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_QOP();
 
-  /// @brief Method get_CNonce, addr 0x29bde4c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method get_CNonce, addr 0x29c18f0, size 0xf4, virtual false, abstract: false, final false
   inline ::StringW get_CNonce();
 
-  /// @brief Method Parse, addr 0x29bdf40, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x29c19e4, size 0xe0, virtual false, abstract: false, final false
   inline bool Parse(::StringW challenge);
 
-  /// @brief Method HashToHexString, addr 0x29be020, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method HashToHexString, addr 0x29c1ac4, size 0x150, virtual false, abstract: false, final false
   inline ::StringW HashToHexString(::StringW toBeHashed);
 
-  /// @brief Method HA1, addr 0x29be170, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method HA1, addr 0x29c1c14, size 0x124, virtual false, abstract: false, final false
   inline ::StringW HA1(::StringW username, ::StringW password);
 
-  /// @brief Method HA2, addr 0x29be294, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method HA2, addr 0x29c1d38, size 0xd0, virtual false, abstract: false, final false
   inline ::StringW HA2(::System::Net::HttpWebRequest* webRequest);
 
-  /// @brief Method Response, addr 0x29be364, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method Response, addr 0x29c1e08, size 0x160, virtual false, abstract: false, final false
   inline ::StringW Response(::StringW username, ::StringW password, ::System::Net::HttpWebRequest* webRequest);
 
-  /// @brief Method Authenticate, addr 0x29be4c4, size 0x5e0, virtual false, abstract: false, final false
+  /// @brief Method Authenticate, addr 0x29c1f68, size 0x5e0, virtual false, abstract: false, final false
   inline ::System::Net::Authorization* Authenticate(::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
 
-  /// @brief Method get_LastUse, addr 0x29beaa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LastUse, addr 0x29c2548, size 0x8, virtual false, abstract: false, final false
   inline ::System::DateTime get_LastUse();
 
   // Ctor Parameters [CppParam { name: "", ty: "DigestSession", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::UnityEngine::UI::AnimationTriggers);
 namespace UnityEngine::UI {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13016))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12914))
 // CS Name: ::UnityEngine.UI::AnimationTriggers*
 class CORDL_TYPE AnimationTriggers : public ::System::Object {
 public:
@@ -76,39 +76,39 @@ public:
 
   constexpr void __cordl_internal_set_m_DisabledTrigger(::StringW value);
 
-  /// @brief Method get_normalTrigger, addr 0x2d50e38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_normalTrigger, addr 0x2d6f220, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_normalTrigger();
 
-  /// @brief Method set_normalTrigger, addr 0x2d50e40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_normalTrigger, addr 0x2d6f228, size 0x8, virtual false, abstract: false, final false
   inline void set_normalTrigger(::StringW value);
 
-  /// @brief Method get_highlightedTrigger, addr 0x2d50e48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_highlightedTrigger, addr 0x2d6f230, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_highlightedTrigger();
 
-  /// @brief Method set_highlightedTrigger, addr 0x2d50e50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_highlightedTrigger, addr 0x2d6f238, size 0x8, virtual false, abstract: false, final false
   inline void set_highlightedTrigger(::StringW value);
 
-  /// @brief Method get_pressedTrigger, addr 0x2d50e58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pressedTrigger, addr 0x2d6f240, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_pressedTrigger();
 
-  /// @brief Method set_pressedTrigger, addr 0x2d50e60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pressedTrigger, addr 0x2d6f248, size 0x8, virtual false, abstract: false, final false
   inline void set_pressedTrigger(::StringW value);
 
-  /// @brief Method get_selectedTrigger, addr 0x2d50e68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedTrigger, addr 0x2d6f250, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_selectedTrigger();
 
-  /// @brief Method set_selectedTrigger, addr 0x2d50e70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_selectedTrigger, addr 0x2d6f258, size 0x8, virtual false, abstract: false, final false
   inline void set_selectedTrigger(::StringW value);
 
-  /// @brief Method get_disabledTrigger, addr 0x2d50e78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disabledTrigger, addr 0x2d6f260, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_disabledTrigger();
 
-  /// @brief Method set_disabledTrigger, addr 0x2d50e80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_disabledTrigger, addr 0x2d6f268, size 0x8, virtual false, abstract: false, final false
   inline void set_disabledTrigger(::StringW value);
 
   static inline ::UnityEngine::UI::AnimationTriggers* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d50e88, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d6f270, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AnimationTriggers", modifiers: "&&", def_value: None }]

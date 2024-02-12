@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::RuntimeCompatibilityAttribut
 namespace System::Runtime::CompilerServices {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3381))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3377))
 // CS Name: ::System.Runtime.CompilerServices::RuntimeCompatibilityAttribute*
 class CORDL_TYPE RuntimeCompatibilityAttribute : public ::System::Attribute {
 public:
@@ -34,10 +34,10 @@ public:
 
   static inline ::System::Runtime::CompilerServices::RuntimeCompatibilityAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24db240, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24fb5ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_WrapNonExceptionThrows, addr 0x24db248, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_WrapNonExceptionThrows, addr 0x24fb5b4, size 0xc, virtual false, abstract: false, final false
   inline void set_WrapNonExceptionThrows(bool value);
 
   // Ctor Parameters [CppParam { name: "", ty: "RuntimeCompatibilityAttribute", modifiers: "&&", def_value: None }]

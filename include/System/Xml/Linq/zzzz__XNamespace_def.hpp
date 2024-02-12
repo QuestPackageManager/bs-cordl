@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::System::Xml::Linq::XNamespace);
 namespace System::Xml::Linq {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15452))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15566))
 // CS Name: ::System.Xml.Linq::XNamespace*
 class CORDL_TYPE XNamespace : public ::System::Object {
 public:
@@ -94,58 +94,58 @@ public:
 
   static inline ::System::Xml::Linq::XNamespace* New_ctor(::StringW namespaceName);
 
-  /// @brief Method .ctor, addr 0x2860878, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2863ee0, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::StringW namespaceName);
 
-  /// @brief Method get_NamespaceName, addr 0x2860968, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NamespaceName, addr 0x2863fd0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_NamespaceName();
 
-  /// @brief Method GetName, addr 0x286074c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetName, addr 0x2863db4, size 0x64, virtual false, abstract: false, final false
   inline ::System::Xml::Linq::XName* GetName(::StringW localName);
 
-  /// @brief Method ToString, addr 0x2860970, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2863fd8, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_None, addr 0x28606e4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_None, addr 0x2863d4c, size 0x68, virtual false, abstract: false, final false
   static inline ::System::Xml::Linq::XNamespace* get_None();
 
-  /// @brief Method get_Xml, addr 0x2860a64, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_Xml, addr 0x28640cc, size 0x60, virtual false, abstract: false, final false
   static inline ::System::Xml::Linq::XNamespace* get_Xml();
 
-  /// @brief Method get_Xmlns, addr 0x2860ac4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_Xmlns, addr 0x286412c, size 0x60, virtual false, abstract: false, final false
   static inline ::System::Xml::Linq::XNamespace* get_Xmlns();
 
-  /// @brief Method Get, addr 0x285fd48, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x28633b0, size 0x64, virtual false, abstract: false, final false
   static inline ::System::Xml::Linq::XNamespace* Get(::StringW namespaceName);
 
-  /// @brief Method op_Implicit, addr 0x2860b24, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x286418c, size 0xc, virtual false, abstract: false, final false
   static inline ::System::Xml::Linq::XNamespace* op_Implicit___System__Xml__Linq__XNamespace_(::StringW namespaceName);
 
-  /// @brief Method Equals, addr 0x2860b30, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2864198, size 0xc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2860b3c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x28641a4, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method op_Equality, addr 0x285eea8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x2862510, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Xml::Linq::XNamespace* left, ::System::Xml::Linq::XNamespace* right);
 
-  /// @brief Method op_Inequality, addr 0x2860b44, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x28641ac, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Inequality(::System::Xml::Linq::XNamespace* left, ::System::Xml::Linq::XNamespace* right);
 
-  /// @brief Method GetName, addr 0x28605d8, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method GetName, addr 0x2863c40, size 0x10c, virtual false, abstract: false, final false
   inline ::System::Xml::Linq::XName* GetName(::StringW localName, int32_t index, int32_t count);
 
-  /// @brief Method Get, addr 0x28602f0, size 0x2e8, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x2863958, size 0x2e8, virtual false, abstract: false, final false
   static inline ::System::Xml::Linq::XNamespace* Get(::StringW namespaceName, int32_t index, int32_t count);
 
-  /// @brief Method ExtractLocalName, addr 0x2860b50, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ExtractLocalName, addr 0x28641b8, size 0x18, virtual false, abstract: false, final false
   static inline ::StringW ExtractLocalName(::System::Xml::Linq::XName* n);
 
-  /// @brief Method ExtractNamespace, addr 0x2860b68, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ExtractNamespace, addr 0x28641d0, size 0x78, virtual false, abstract: false, final false
   static inline ::StringW ExtractNamespace(::System::WeakReference* r);
 
-  /// @brief Method EnsureNamespace, addr 0x2860978, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method EnsureNamespace, addr 0x2863fe0, size 0xec, virtual false, abstract: false, final false
   static inline ::System::Xml::Linq::XNamespace* EnsureNamespace(ByRef<::System::WeakReference*> refNmsp, ::StringW namespaceName);
 
   // Ctor Parameters [CppParam { name: "", ty: "XNamespace", modifiers: "&&", def_value: None }]

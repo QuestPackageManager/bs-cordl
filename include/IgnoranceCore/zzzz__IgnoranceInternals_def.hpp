@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::IgnoranceCore::IgnoranceInternals);
 namespace IgnoranceCore {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15243))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15356))
 // CS Name: ::IgnoranceCore::IgnoranceInternals*
 class CORDL_TYPE IgnoranceInternals : public ::System::Object {
 public:
   // Declarations
   static inline ::IgnoranceCore::IgnoranceInternals* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21f70d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x228c9c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "IgnoranceInternals", modifiers: "&&", def_value: None }]

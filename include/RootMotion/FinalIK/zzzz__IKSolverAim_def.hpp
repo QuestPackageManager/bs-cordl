@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::IKSolverAim);
 // SizeInfo { instance_size: 240, native_size: -1, calculated_instance_size: 240, calculated_native_size: 240, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(12574))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12565))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(12472))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12463))
 // CS Name: ::RootMotion.FinalIK::IKSolverAim*
 class CORDL_TYPE IKSolverAim : public ::RootMotion::FinalIK::IKSolverHeuristic {
 public:
@@ -163,39 +163,39 @@ public:
 
   constexpr void __cordl_internal_set_lastTransform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method GetAngle, addr 0x125fb80, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method GetAngle, addr 0x12f8c30, size 0x138, virtual false, abstract: false, final false
   inline float_t GetAngle();
 
-  /// @brief Method get_transformAxis, addr 0x125fcb8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_transformAxis, addr 0x12f8d68, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_transformAxis();
 
-  /// @brief Method get_transformPoleAxis, addr 0x125fce8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_transformPoleAxis, addr 0x12f8d98, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_transformPoleAxis();
 
-  /// @brief Method OnInitiate, addr 0x125fd18, size 0x28c, virtual true, abstract: false, final false
+  /// @brief Method OnInitiate, addr 0x12f8dc8, size 0x28c, virtual true, abstract: false, final false
   inline void OnInitiate();
 
-  /// @brief Method OnUpdate, addr 0x125ffa4, size 0x56c, virtual true, abstract: false, final false
+  /// @brief Method OnUpdate, addr 0x12f9054, size 0x56c, virtual true, abstract: false, final false
   inline void OnUpdate();
 
-  /// @brief Method get_minBones, addr 0x126091c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_minBones, addr 0x12f99cc, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_minBones();
 
-  /// @brief Method Solve, addr 0x1260874, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Solve, addr 0x12f9924, size 0xa8, virtual false, abstract: false, final false
   inline void Solve();
 
-  /// @brief Method GetClampedIKPosition, addr 0x1260510, size 0x364, virtual false, abstract: false, final false
+  /// @brief Method GetClampedIKPosition, addr 0x12f95c0, size 0x364, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetClampedIKPosition();
 
-  /// @brief Method RotateToTarget, addr 0x1260924, size 0x538, virtual false, abstract: false, final false
+  /// @brief Method RotateToTarget, addr 0x12f99d4, size 0x538, virtual false, abstract: false, final false
   inline void RotateToTarget(::UnityEngine::Vector3 targetPosition, ::RootMotion::FinalIK::__IKSolver__Bone* bone, float_t weight);
 
-  /// @brief Method get_localDirection, addr 0x1260e5c, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method get_localDirection, addr 0x12f9f0c, size 0x60, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 get_localDirection();
 
   static inline ::RootMotion::FinalIK::IKSolverAim* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1260ebc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12f9f6c, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "IKSolverAim", modifiers: "&&", def_value: None }]

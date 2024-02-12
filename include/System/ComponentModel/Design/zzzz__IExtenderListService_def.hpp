@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::System::ComponentModel::Design::IExtenderListService);
 namespace System::ComponentModel::Design {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9501))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7511))
 // CS Name: ::System.ComponentModel.Design::IExtenderListService*
 class CORDL_TYPE IExtenderListService {
 public:

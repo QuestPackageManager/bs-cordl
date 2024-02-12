@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::SubMeshDescriptor::*)(int32_t, int32_t, ::UnityEngine::MeshTopology)>(
     &::UnityEngine::Rendering::SubMeshDescriptor::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x2cebc98;
+  constexpr static std::size_t addrs = 0x2cf2ee4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Bounds (::UnityEngine::Rendering::SubMeshDescriptor::*)()>(
     &::UnityEngine::Rendering::SubMeshDescriptor::get_bounds)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2cebcb0;
+  constexpr static std::size_t addrs = 0x2cf2efc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SubMeshDescriptor>::get(), "get_bounds",
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::SubMeshDescriptor::*)(::UnityEngine::Bounds)>(
     &::UnityEngine::Rendering::SubMeshDescriptor::set_bounds)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2cebcc4;
+  constexpr static std::size_t addrs = 0x2cf2f10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::MeshTopology (::UnityEngine::Rendering::SubMeshDescriptor::*)()>(
     &::UnityEngine::Rendering::SubMeshDescriptor::get_topology)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2cebcd8;
+  constexpr static std::size_t addrs = 0x2cf2f24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SubMeshDescriptor>::get(),
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::SubMeshDescriptor::*)(::UnityEngine::MeshTopology)>(
     &::UnityEngine::Rendering::SubMeshDescriptor::set_topology)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2cebce0;
+  constexpr static std::size_t addrs = 0x2cf2f2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::SubMeshDescriptor::*)()>(
     &::UnityEngine::Rendering::SubMeshDescriptor::get_indexStart)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2cebce8;
+  constexpr static std::size_t addrs = 0x2cf2f34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SubMeshDescriptor>::get(),
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::SubMeshDescriptor::*)(int32_t)>(
     &::UnityEngine::Rendering::SubMeshDescriptor::set_indexStart)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2cebcf0;
+  constexpr static std::size_t addrs = 0x2cf2f3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::SubMeshDescriptor::*)()>(
     &::UnityEngine::Rendering::SubMeshDescriptor::get_indexCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2cebcf8;
+  constexpr static std::size_t addrs = 0x2cf2f44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SubMeshDescriptor>::get(),
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::SubMeshDescriptor::*)(int32_t)>(
     &::UnityEngine::Rendering::SubMeshDescriptor::set_indexCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2cebd00;
+  constexpr static std::size_t addrs = 0x2cf2f4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::SubMeshDescriptor::*)()>(
     &::UnityEngine::Rendering::SubMeshDescriptor::get_baseVertex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2cebd08;
+  constexpr static std::size_t addrs = 0x2cf2f54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SubMeshDescriptor>::get(),
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::SubMeshDescriptor::*)(int32_t)>(
     &::UnityEngine::Rendering::SubMeshDescriptor::set_baseVertex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2cebd10;
+  constexpr static std::size_t addrs = 0x2cf2f5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::SubMeshDescriptor::*)()>(
     &::UnityEngine::Rendering::SubMeshDescriptor::get_firstVertex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2cebd18;
+  constexpr static std::size_t addrs = 0x2cf2f64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SubMeshDescriptor>::get(),
@@ -185,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::SubMeshDescriptor::*)(int32_t)>(
     &::UnityEngine::Rendering::SubMeshDescriptor::set_firstVertex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2cebd20;
+  constexpr static std::size_t addrs = 0x2cf2f6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -200,7 +200,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::SubMeshDescriptor::*)()>(
     &::UnityEngine::Rendering::SubMeshDescriptor::get_vertexCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2cebd28;
+  constexpr static std::size_t addrs = 0x2cf2f74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SubMeshDescriptor>::get(),
@@ -214,7 +214,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::SubMeshDescriptor::*)(int32_t)>(
     &::UnityEngine::Rendering::SubMeshDescriptor::set_vertexCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2cebd30;
+  constexpr static std::size_t addrs = 0x2cf2f7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -229,7 +229,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Rendering::SubMeshDescriptor::*)()>(
     &::UnityEngine::Rendering::SubMeshDescriptor::ToString)> {
   constexpr static std::size_t size = 0x29c;
-  constexpr static std::size_t addrs = 0x2cebd38;
+  constexpr static std::size_t addrs = 0x2cf2f84;
 
   inline static ::MethodInfo const* methodInfo() {
 

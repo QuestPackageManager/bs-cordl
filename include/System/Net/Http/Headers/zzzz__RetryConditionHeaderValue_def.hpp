@@ -36,8 +36,8 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::RetryConditionHeaderValue);
 namespace System::Net::Http::Headers {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2370)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2484)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 2702 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2448), inst: 2711 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14706)) CS Name: ::System.Net.Http.Headers::RetryConditionHeaderValue*
+// TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 2672 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2448), inst: 2682 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14711)) CS Name: ::System.Net.Http.Headers::RetryConditionHeaderValue*
 class CORDL_TYPE RetryConditionHeaderValue : public ::System::Object {
 public:
   // Declarations
@@ -71,39 +71,39 @@ public:
 
   static inline ::System::Net::Http::Headers::RetryConditionHeaderValue* New_ctor(::System::DateTimeOffset date);
 
-  /// @brief Method .ctor, addr 0x2841058, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28456c0, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::System::DateTimeOffset date);
 
   static inline ::System::Net::Http::Headers::RetryConditionHeaderValue* New_ctor(::System::TimeSpan delta);
 
-  /// @brief Method .ctor, addr 0x28410e8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2845750, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::TimeSpan delta);
 
-  /// @brief Method get_Date, addr 0x28411c0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_Date, addr 0x2845828, size 0x14, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::System::DateTimeOffset> get_Date();
 
-  /// @brief Method set_Date, addr 0x28411d4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_Date, addr 0x284583c, size 0x14, virtual false, abstract: false, final false
   inline void set_Date(::System::Nullable_1<::System::DateTimeOffset> value);
 
-  /// @brief Method get_Delta, addr 0x28411e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Delta, addr 0x2845850, size 0xc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::System::TimeSpan> get_Delta();
 
-  /// @brief Method set_Delta, addr 0x28411f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Delta, addr 0x284585c, size 0x8, virtual false, abstract: false, final false
   inline void set_Delta(::System::Nullable_1<::System::TimeSpan> value);
 
-  /// @brief Method System.ICloneable.Clone, addr 0x28411fc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.ICloneable.Clone, addr 0x2845864, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method Equals, addr 0x2841204, size 0x1a4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x284586c, size 0x1a4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x28413a8, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2845a10, size 0x9c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method TryParse, addr 0x2841444, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x2845aac, size 0x1d0, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ByRef<::System::Net::Http::Headers::RetryConditionHeaderValue*> parsedValue);
 
-  /// @brief Method ToString, addr 0x2841614, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2845c7c, size 0x150, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "RetryConditionHeaderValue", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::System::ComponentModel::ListSortDirection);
 namespace System::ComponentModel {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9442))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7452))
 // CS Name: ::System.ComponentModel::ListSortDirection
 struct CORDL_TYPE ListSortDirection {
 public:

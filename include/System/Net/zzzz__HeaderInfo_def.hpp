@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::System::Net::HeaderInfo);
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9102))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7112))
 // CS Name: ::System.Net::HeaderInfo*
 class CORDL_TYPE HeaderInfo : public ::System::Object {
 public:
@@ -71,7 +71,7 @@ public:
 
   static inline ::System::Net::HeaderInfo* New_ctor(::StringW name, bool requestRestricted, bool responseRestricted, bool multi, ::System::Net::HeaderParser* p);
 
-  /// @brief Method .ctor, addr 0x29a5f04, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29aa9a8, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, bool requestRestricted, bool responseRestricted, bool multi, ::System::Net::HeaderParser* p);
 
   // Ctor Parameters [CppParam { name: "", ty: "HeaderInfo", modifiers: "&&", def_value: None }]

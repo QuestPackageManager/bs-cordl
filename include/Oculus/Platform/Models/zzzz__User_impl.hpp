@@ -6,8 +6,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Models::User::*)(void*)>(&::Oculus::Platform::Models::User::_ctor)> {
-  constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x270414c;
+  constexpr static std::size_t size = 0x128;
+  constexpr static std::size_t addrs = 0x27366f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -51,6 +51,18 @@ constexpr ::StringW const& Oculus::Platform::Models::User::__cordl_internal_get_
 constexpr void Oculus::Platform::Models::User::__cordl_internal_set_ImageURL(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ImageURL)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::StringW& Oculus::Platform::Models::User::__cordl_internal_get_InviteToken() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___InviteToken;
+}
+constexpr ::StringW const& Oculus::Platform::Models::User::__cordl_internal_get_InviteToken() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___InviteToken;
+}
+constexpr void Oculus::Platform::Models::User::__cordl_internal_set_InviteToken(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___InviteToken)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& Oculus::Platform::Models::User::__cordl_internal_get_OculusID() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

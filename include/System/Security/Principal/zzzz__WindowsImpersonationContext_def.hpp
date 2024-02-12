@@ -51,25 +51,25 @@ public:
 
   static inline ::System::Security::Principal::WindowsImpersonationContext* New_ctor(void* token);
 
-  /// @brief Method .ctor, addr 0x247af8c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x249d000, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(void* token);
 
-  /// @brief Method Dispose, addr 0x247b698, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x249d70c, size 0x10, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Undo, addr 0x247b6a8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Undo, addr 0x249d71c, size 0xc4, virtual false, abstract: false, final false
   inline void Undo();
 
-  /// @brief Method CloseToken, addr 0x247b770, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CloseToken, addr 0x249d7e4, size 0x4, virtual false, abstract: false, final false
   static inline bool CloseToken(void* token);
 
-  /// @brief Method DuplicateToken, addr 0x247b690, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method DuplicateToken, addr 0x249d704, size 0x4, virtual false, abstract: false, final false
   static inline void* DuplicateToken(void* token);
 
-  /// @brief Method SetCurrentToken, addr 0x247b694, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetCurrentToken, addr 0x249d708, size 0x4, virtual false, abstract: false, final false
   static inline bool SetCurrentToken(void* token);
 
-  /// @brief Method RevertToSelf, addr 0x247b76c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RevertToSelf, addr 0x249d7e0, size 0x4, virtual false, abstract: false, final false
   static inline bool RevertToSelf();
 
   // Ctor Parameters [CppParam { name: "", ty: "WindowsImpersonationContext", modifiers: "&&", def_value: None }]

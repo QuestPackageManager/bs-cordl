@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IMediaAsyncLoader);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5894))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16014))
 // CS Name: ::IMediaAsyncLoader*
 class CORDL_TYPE IMediaAsyncLoader {
 public:

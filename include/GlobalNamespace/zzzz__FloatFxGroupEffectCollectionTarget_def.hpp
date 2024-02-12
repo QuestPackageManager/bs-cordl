@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::GlobalNamespace::FloatFxGroupEffectCollectionTarget);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4909))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4904))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4263))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4258))
 // CS Name: ::FloatFxGroupEffectCollectionTarget*
 class CORDL_TYPE FloatFxGroupEffectCollectionTarget : public ::GlobalNamespace::FloatFxGroupEffectTarget {
 public:
@@ -38,15 +38,15 @@ public:
   constexpr void
   __cordl_internal_set__floatFxGroupEffectTargets(::ArrayW<::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget>, ::Array<::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget>>*> value);
 
-  /// @brief Method SetValue, addr 0x23a5820, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x2365958, size 0x74, virtual true, abstract: false, final false
   inline void SetValue(float_t value);
 
-  /// @brief Method TriggerValue, addr 0x23a5894, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method TriggerValue, addr 0x23659cc, size 0x74, virtual true, abstract: false, final false
   inline void TriggerValue(float_t value);
 
   static inline ::GlobalNamespace::FloatFxGroupEffectCollectionTarget* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23a5908, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2365a40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FloatFxGroupEffectCollectionTarget", modifiers: "&&", def_value: None }]

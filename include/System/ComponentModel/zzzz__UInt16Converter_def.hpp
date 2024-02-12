@@ -25,29 +25,29 @@ MARK_REF_PTR_T(::System::ComponentModel::UInt16Converter);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9407))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9462))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7417))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7472))
 // CS Name: ::System.ComponentModel::UInt16Converter*
 class CORDL_TYPE UInt16Converter : public ::System::ComponentModel::BaseNumberConverter {
 public:
   // Declarations
   __declspec(property(get = get_TargetType))::System::Type* TargetType;
 
-  /// @brief Method get_TargetType, addr 0x2919334, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method get_TargetType, addr 0x291d99c, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Type* get_TargetType();
 
-  /// @brief Method FromString, addr 0x29193a0, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method FromString, addr 0x291da08, size 0x94, virtual true, abstract: false, final false
   inline ::System::Object* FromString(::StringW value, int32_t radix);
 
-  /// @brief Method FromString, addr 0x2919434, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method FromString, addr 0x291da9c, size 0x74, virtual true, abstract: false, final false
   inline ::System::Object* FromString(::StringW value, ::System::Globalization::NumberFormatInfo* formatInfo);
 
-  /// @brief Method ToString, addr 0x29194a8, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x291db10, size 0xb0, virtual true, abstract: false, final false
   inline ::StringW ToString(::System::Object* value, ::System::Globalization::NumberFormatInfo* formatInfo);
 
   static inline ::System::ComponentModel::UInt16Converter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2919558, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x291dbc0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "UInt16Converter", modifiers: "&&", def_value: None }]

@@ -101,24 +101,24 @@ public:
                                                                             ::Org::BouncyCastle::Crypto::IStreamCipher* serverWriteCipher, ::Org::BouncyCastle::Crypto::IDigest* clientWriteDigest,
                                                                             ::Org::BouncyCastle::Crypto::IDigest* serverWriteDigest, int32_t cipherKeySize, bool usesNonce);
 
-  /// @brief Method .ctor, addr 0xfb97ac, size 0x6a0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfe563c, size 0x6a0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::Org::BouncyCastle::Crypto::IStreamCipher* clientWriteCipher, ::Org::BouncyCastle::Crypto::IStreamCipher* serverWriteCipher,
                     ::Org::BouncyCastle::Crypto::IDigest* clientWriteDigest, ::Org::BouncyCastle::Crypto::IDigest* serverWriteDigest, int32_t cipherKeySize, bool usesNonce);
 
-  /// @brief Method GetPlaintextLimit, addr 0xfb9e4c, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method GetPlaintextLimit, addr 0xfe5cdc, size 0x2c, virtual true, abstract: false, final false
   inline int32_t GetPlaintextLimit(int32_t ciphertextLimit);
 
-  /// @brief Method EncodePlaintext, addr 0xfb9e78, size 0x1f8, virtual true, abstract: false, final false
+  /// @brief Method EncodePlaintext, addr 0xfe5d08, size 0x1f8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodePlaintext(int64_t seqNo, uint8_t type, ::ArrayW<uint8_t, ::Array<uint8_t>*> plaintext, int32_t offset, int32_t len);
 
-  /// @brief Method DecodeCiphertext, addr 0xfba070, size 0x208, virtual true, abstract: false, final false
+  /// @brief Method DecodeCiphertext, addr 0xfe5f00, size 0x208, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DecodeCiphertext(int64_t seqNo, uint8_t type, ::ArrayW<uint8_t, ::Array<uint8_t>*> ciphertext, int32_t offset, int32_t len);
 
-  /// @brief Method CheckMac, addr 0xfba278, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method CheckMac, addr 0xfe6108, size 0x124, virtual true, abstract: false, final false
   inline void CheckMac(int64_t seqNo, uint8_t type, ::ArrayW<uint8_t, ::Array<uint8_t>*> recBuf, int32_t recStart, int32_t recEnd, ::ArrayW<uint8_t, ::Array<uint8_t>*> calcBuf, int32_t calcOff,
                        int32_t calcLen);
 
-  /// @brief Method UpdateIV, addr 0xfba39c, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method UpdateIV, addr 0xfe622c, size 0x150, virtual true, abstract: false, final false
   inline void UpdateIV(::Org::BouncyCastle::Crypto::IStreamCipher* cipher, bool forEncryption, int64_t seqNo);
 
   // Ctor Parameters [CppParam { name: "", ty: "TlsStreamCipher", modifiers: "&&", def_value: None }]

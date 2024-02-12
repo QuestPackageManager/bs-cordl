@@ -26,8 +26,8 @@ MARK_VAL_T(::UnityEngine::UIElements::EasingFunction);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7285))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7286))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6544))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6545))
 // CS Name: ::UnityEngine.UIElements::EasingFunction
 struct CORDL_TYPE EasingFunction {
 public:
@@ -40,28 +40,28 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::EasingFunction>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::EasingFunction>* i___System__IEquatable_1___UnityEngine__UIElements__EasingFunction_();
 
-  /// @brief Method get_mode, addr 0x2e6d21c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mode, addr 0x2e87604, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::EasingMode get_mode();
 
-  /// @brief Method .ctor, addr 0x2e6d224, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e8760c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::EasingMode mode);
 
-  /// @brief Method op_Implicit, addr 0x2e6d22c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2e87614, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::EasingFunction op_Implicit___UnityEngine__UIElements__EasingFunction(::UnityEngine::UIElements::EasingMode easingMode);
 
-  /// @brief Method op_Equality, addr 0x2e6d234, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x2e8761c, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::EasingFunction lhs, ::UnityEngine::UIElements::EasingFunction rhs);
 
-  /// @brief Method Equals, addr 0x2e6d240, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2e87628, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::EasingFunction other);
 
-  /// @brief Method Equals, addr 0x2e6d250, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2e87638, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method ToString, addr 0x2e6d2c8, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2e876b0, size 0x68, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method GetHashCode, addr 0x2e6d330, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2e87718, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "m_Mode", ty: "::UnityEngine::UIElements::EasingMode", modifiers: "", def_value: None }]

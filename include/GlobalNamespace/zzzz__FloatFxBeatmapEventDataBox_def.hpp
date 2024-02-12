@@ -36,8 +36,8 @@ MARK_REF_PTR_T(::GlobalNamespace::FloatFxBeatmapEventDataBox);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4309)), TypeDefinitionIndex(TypeDefinitionIndex(4314)), TypeDefinitionIndex(TypeDefinitionIndex(14732)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4309), inst: 2547 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4311)) CS Name: ::FloatFxBeatmapEventDataBox*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10738)), TypeDefinitionIndex(TypeDefinitionIndex(10743)), TypeDefinitionIndex(TypeDefinitionIndex(15116)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10738), inst: 2523 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(10740)) CS Name: ::FloatFxBeatmapEventDataBox*
 class CORDL_TYPE FloatFxBeatmapEventDataBox : public ::GlobalNamespace::FxBeatmapEventDataBox_2<::GlobalNamespace::FloatFxBaseData*, ::GlobalNamespace::FloatFxBeatmapEventData*> {
 public:
   // Declarations
@@ -64,10 +64,10 @@ public:
 
   constexpr void __cordl_internal_set__beatStep(float_t value);
 
-  /// @brief Method get_subtypeIdentifier, addr 0x233adf4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_subtypeIdentifier, addr 0x127bddc, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_subtypeIdentifier();
 
-  /// @brief Method get_beatStep, addr 0x233adfc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_beatStep, addr 0x127bde4, size 0x8, virtual true, abstract: false, final false
   inline float_t get_beatStep();
 
   static inline ::GlobalNamespace::FloatFxBeatmapEventDataBox* New_ctor(::GlobalNamespace::IndexFilter* indexFilter,
@@ -76,12 +76,12 @@ public:
                                                                         bool eventDistributionShouldAffectFirstBaseEvent, ::GlobalNamespace::EaseType eventDistributionEaseType,
                                                                         ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::FloatFxBaseData*>* fxBaseDataList);
 
-  /// @brief Method .ctor, addr 0x2335f44, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x127bdec, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IndexFilter* indexFilter, ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType beatDistributionParamType, float_t beatDistributionParam,
                     ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType eventDistributionParamType, float_t eventDistributionParam, bool eventDistributionShouldAffectFirstBaseEvent,
                     ::GlobalNamespace::EaseType eventDistributionEaseType, ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::FloatFxBaseData*>* fxBaseDataList);
 
-  /// @brief Method CreateVfxBeatmapEventData, addr 0x233ae04, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method CreateVfxBeatmapEventData, addr 0x127be94, size 0xb4, virtual true, abstract: false, final false
   inline ::GlobalNamespace::FloatFxBeatmapEventData* CreateVfxBeatmapEventData(::GlobalNamespace::FloatFxBaseData* data, float_t time, int32_t groupId, int32_t elementId, float_t distributionOffset);
 
   // Ctor Parameters [CppParam { name: "", ty: "FloatFxBeatmapEventDataBox", modifiers: "&&", def_value: None }]

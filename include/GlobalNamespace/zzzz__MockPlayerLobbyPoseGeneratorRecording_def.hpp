@@ -17,21 +17,21 @@ MARK_REF_PTR_T(::GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15522))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5183))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15708))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4522))
 // CS Name: ::MockPlayerLobbyPoseGeneratorRecording*
 class CORDL_TYPE MockPlayerLobbyPoseGeneratorRecording : public ::GlobalNamespace::MockPlayerLobbyPoseGenerator {
 public:
   // Declarations
   static inline ::GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager);
 
-  /// @brief Method .ctor, addr 0x22442f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x239ff2c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager);
 
-  /// @brief Method Init, addr 0x22442fc, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x23a20f4, size 0x68, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method Tick, addr 0x2244364, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method Tick, addr 0x23a215c, size 0x68, virtual true, abstract: false, final false
   inline void Tick();
 
   // Ctor Parameters [CppParam { name: "", ty: "MockPlayerLobbyPoseGeneratorRecording", modifiers: "&&", def_value: None }]

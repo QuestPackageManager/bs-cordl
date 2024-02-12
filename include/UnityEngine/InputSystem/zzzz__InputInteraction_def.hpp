@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::InputInteraction);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6712))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6131))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5971))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5390))
 // CS Name: ::UnityEngine.InputSystem::InputInteraction*
 class CORDL_TYPE InputInteraction : public ::System::Object {
 public:
@@ -32,13 +32,13 @@ public:
 
   static inline ::UnityEngine::InputSystem::Utilities::TypeTable getStaticF_s_Interactions();
 
-  /// @brief Method GetValueType, addr 0x2a354c8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetValueType, addr 0x2a38034, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::Type* GetValueType(::System::Type* interactionType);
 
-  /// @brief Method GetDisplayName, addr 0x2a355bc, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method GetDisplayName, addr 0x2a38128, size 0x104, virtual false, abstract: false, final false
   static inline ::StringW GetDisplayName(::StringW interaction);
 
-  /// @brief Method GetDisplayName, addr 0x2a356c0, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method GetDisplayName, addr 0x2a3822c, size 0x198, virtual false, abstract: false, final false
   static inline ::StringW GetDisplayName(::System::Type* interactionType);
 
   // Ctor Parameters [CppParam { name: "", ty: "InputInteraction", modifiers: "&&", def_value: None }]

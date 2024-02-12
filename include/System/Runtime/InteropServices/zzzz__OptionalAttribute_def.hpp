@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::System::Runtime::InteropServices::OptionalAttribute);
 namespace System::Runtime::InteropServices {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3327))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3325))
 // CS Name: ::System.Runtime.InteropServices::OptionalAttribute*
 class CORDL_TYPE OptionalAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::System::Runtime::InteropServices::OptionalAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24d72e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f7f70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OptionalAttribute", modifiers: "&&", def_value: None }]

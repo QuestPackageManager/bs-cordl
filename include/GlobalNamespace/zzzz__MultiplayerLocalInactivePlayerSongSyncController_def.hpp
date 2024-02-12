@@ -49,7 +49,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerLocalInactivePlayerSongSyncContro
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5164))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4506))
 // CS Name: ::MultiplayerLocalInactivePlayerSongSyncController::InitData*
 class CORDL_TYPE __MultiplayerLocalInactivePlayerSongSyncController__InitData : public ::System::Object {
 public:
@@ -93,7 +93,7 @@ public:
   static inline ::GlobalNamespace::__MultiplayerLocalInactivePlayerSongSyncController__InitData* New_ctor(::UnityEngine::AudioClip* audioClip, float_t startSongTime, float_t songTimeOffset,
                                                                                                           float_t timeScale);
 
-  /// @brief Method .ctor, addr 0x23dd218, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x239bc08, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::AudioClip* audioClip, float_t startSongTime, float_t songTimeOffset, float_t timeScale);
 
   // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerLocalInactivePlayerSongSyncController__InitData", modifiers: "&&", def_value: None }]
@@ -140,8 +140,8 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerLocalInactivePlayerSongSy
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5165))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4507))
 // CS Name: ::MultiplayerLocalInactivePlayerSongSyncController*
 class CORDL_TYPE MultiplayerLocalInactivePlayerSongSyncController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -276,48 +276,48 @@ public:
 
   constexpr void __cordl_internal_set__lastLatencyOffsetTime(int64_t value);
 
-  /// @brief Method get_waitUntilIsReadyToStartTheSong, addr 0x23dd2b0, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method get_waitUntilIsReadyToStartTheSong, addr 0x239bca0, size 0xac, virtual true, abstract: false, final true
   inline ::UnityEngine::WaitUntil* get_waitUntilIsReadyToStartTheSong();
 
-  /// @brief Method get_isAudioLoaded, addr 0x23dd35c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_isAudioLoaded, addr 0x239bd4c, size 0x9c, virtual false, abstract: false, final false
   inline bool get_isAudioLoaded();
 
-  /// @brief Method Awake, addr 0x23dd3f8, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x239bde8, size 0x118, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Start, addr 0x23dd510, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x239bf00, size 0xf0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy, addr 0x23dd600, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x239bff0, size 0x108, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Update, addr 0x23dd708, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x239c0f8, size 0x27c, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method StartSong, addr 0x23ddae8, size 0xf0, virtual true, abstract: false, final true
+  /// @brief Method StartSong, addr 0x239c4d8, size 0xf0, virtual true, abstract: false, final true
   inline void StartSong(float_t offsetTime);
 
-  /// @brief Method FollowOffsetSyncTime, addr 0x23ddd38, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method FollowOffsetSyncTime, addr 0x239c728, size 0x1e4, virtual false, abstract: false, final false
   inline void FollowOffsetSyncTime(::GlobalNamespace::IMultiplayerObservable* observable, bool crossFade, bool forceUpdate);
 
-  /// @brief Method UpdateOffsetSyncTime, addr 0x23dd984, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method UpdateOffsetSyncTime, addr 0x239c374, size 0x164, virtual false, abstract: false, final false
   inline void UpdateOffsetSyncTime(int64_t offsetSyncTime, bool crossFade, bool forceUpdate);
 
-  /// @brief Method SeekTo, addr 0x23ddf1c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SeekTo, addr 0x239c90c, size 0xc, virtual true, abstract: false, final true
   inline void SeekTo(float_t offsetTime);
 
-  /// @brief Method SeekTo, addr 0x23ddbd8, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method SeekTo, addr 0x239c5c8, size 0x160, virtual false, abstract: false, final false
   inline void SeekTo(float_t offsetTime, bool crossFade, float_t toVolume);
 
-  /// @brief Method HandleVrFocusWasReleased, addr 0x23ddf28, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleVrFocusWasReleased, addr 0x239c918, size 0x4, virtual false, abstract: false, final false
   inline void HandleVrFocusWasReleased();
 
   static inline ::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23ddf2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x239c91c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_waitUntilIsReadyToStartTheSong>b__7_0, addr 0x23ddf34, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <get_waitUntilIsReadyToStartTheSong>b__7_0, addr 0x239c924, size 0x4, virtual false, abstract: false, final false
   inline bool _get_waitUntilIsReadyToStartTheSong_b__7_0();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalInactivePlayerSongSyncController", modifiers: "&&", def_value: None }]

@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::DSACryptoServiceProvider::*)()>(
     &::System::Security::Cryptography::DSACryptoServiceProvider::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x246e3ec;
+  constexpr static std::size_t addrs = 0x2490460;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::DSACryptoServiceProvider::*)(int32_t)>(
     &::System::Security::Cryptography::DSACryptoServiceProvider::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x2470584;
+  constexpr static std::size_t addrs = 0x24925f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::DSACryptoServiceProvider::*)(int32_t, bool)>(
     &::System::Security::Cryptography::DSACryptoServiceProvider::Common)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x24705bc;
+  constexpr static std::size_t addrs = 0x2492630;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::DSACryptoServiceProvider::*)()>(
     &::System::Security::Cryptography::DSACryptoServiceProvider::Finalize)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x24707e0;
+  constexpr static std::size_t addrs = 0x2492854;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Security::Cryptography::DSACryptoServiceProvider::*)()>(
     &::System::Security::Cryptography::DSACryptoServiceProvider::get_KeySize)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2470880;
+  constexpr static std::size_t addrs = 0x24928f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Security::Cryptography::DSACryptoServiceProvider::*)()>(
     &::System::Security::Cryptography::DSACryptoServiceProvider::get_PublicOnly)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x24708a0;
+  constexpr static std::size_t addrs = 0x2492914;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::DSAParameters (::System::Security::Cryptography::DSACryptoServiceProvider::*)(
     bool)>(&::System::Security::Cryptography::DSACryptoServiceProvider::ExportParameters)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x24708bc;
+  constexpr static std::size_t addrs = 0x2492930;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::DSACryptoServiceProvider::*)(
     ::System::Security::Cryptography::DSAParameters)>(&::System::Security::Cryptography::DSACryptoServiceProvider::ImportParameters)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2470970;
+  constexpr static std::size_t addrs = 0x24929e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Security::Cryptography::DSACryptoServiceProvider::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::System::Security::Cryptography::DSACryptoServiceProvider::VerifySignature)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x24709c4;
+  constexpr static std::size_t addrs = 0x2492a38;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::DSACryptoServiceProvider::*)(bool)>(
     &::System::Security::Cryptography::DSACryptoServiceProvider::Dispose)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x24709e4;
+  constexpr static std::size_t addrs = 0x2492a58;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::DSACryptoServiceProvider::*)(::System::Object*, ::System::EventArgs*)>(
     &::System::Security::Cryptography::DSACryptoServiceProvider::OnKeyGenerated)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x2470a38;
+  constexpr static std::size_t addrs = 0x2492aac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -17,14 +17,14 @@ MARK_VAL_T(::OVR::OpenVR::InputOriginInfo_t);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8724))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8668))
 // CS Name: ::OVR.OpenVR::InputOriginInfo_t
 struct CORDL_TYPE InputOriginInfo_t {
 public:
   // Declarations
   __declspec(property(get = get_rchRenderModelComponentName))::StringW rchRenderModelComponentName;
 
-  /// @brief Method get_rchRenderModelComponentName, addr 0x27f6804, size 0x86c, virtual false, abstract: false, final false
+  /// @brief Method get_rchRenderModelComponentName, addr 0x2803fbc, size 0x86c, virtual false, abstract: false, final false
   inline ::StringW get_rchRenderModelComponentName();
 
   // Ctor Parameters [CppParam { name: "devicePath", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "trackedDeviceIndex", ty: "uint32_t", modifiers: "", def_value: None }, CppParam

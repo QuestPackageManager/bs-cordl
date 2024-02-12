@@ -47,15 +47,15 @@ public:
 
   constexpr void __cordl_internal_set_param(::Org::BouncyCastle::Crypto::Parameters::ElGamalKeyGenerationParameters* value);
 
-  /// @brief Method Init, addr 0xefa354, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0xf251e4, size 0xa4, virtual true, abstract: false, final true
   inline void Init(::Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
 
-  /// @brief Method GenerateKeyPair, addr 0xefa3f8, size 0x198, virtual true, abstract: false, final true
+  /// @brief Method GenerateKeyPair, addr 0xf25288, size 0x198, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GenerateKeyPair();
 
   static inline ::Org::BouncyCastle::Crypto::Generators::ElGamalKeyPairGenerator* New_ctor();
 
-  /// @brief Method .ctor, addr 0xefa590, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf25420, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ElGamalKeyPairGenerator", modifiers: "&&", def_value: None }]

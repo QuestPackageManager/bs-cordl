@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::InputSystem::Processors::ScaleVector2Processor::*)(
     ::UnityEngine::Vector2, ::UnityEngine::InputSystem::InputControl*)>(&::UnityEngine::InputSystem::Processors::ScaleVector2Processor::Process)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2af9bec;
+  constexpr static std::size_t addrs = 0x2afa758;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::Processors::ScaleVector2Processor::*)()>(
     &::UnityEngine::InputSystem::Processors::ScaleVector2Processor::ToString)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x2af9bfc;
+  constexpr static std::size_t addrs = 0x2afa768;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Processors::ScaleVector2Processor::*)()>(
     &::UnityEngine::InputSystem::Processors::ScaleVector2Processor::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x2af9c9c;
+  constexpr static std::size_t addrs = 0x2afa808;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

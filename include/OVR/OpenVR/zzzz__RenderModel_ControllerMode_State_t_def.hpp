@@ -15,7 +15,7 @@ MARK_VAL_T(::OVR::OpenVR::RenderModel_ControllerMode_State_t);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8717))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8661))
 // CS Name: ::OVR.OpenVR::RenderModel_ControllerMode_State_t
 struct CORDL_TYPE RenderModel_ControllerMode_State_t {
 public:

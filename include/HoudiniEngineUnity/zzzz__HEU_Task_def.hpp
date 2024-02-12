@@ -53,7 +53,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::__HEU_Task__TaskCallback);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9797))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9589))
 // CS Name: ::HEU_Task::TaskStatus
 struct CORDL_TYPE __HEU_Task__TaskStatus {
 public:
@@ -123,7 +123,7 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_Task__TaskStatus, value__) ==
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9798))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9590))
 // CS Name: ::HEU_Task::TaskResult
 struct CORDL_TYPE __HEU_Task__TaskResult {
 public:
@@ -181,23 +181,23 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_Task__TaskResult, value__) ==
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9799))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9591))
 // CS Name: ::HEU_Task::TaskCallback*
 class CORDL_TYPE __HEU_Task__TaskCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::HoudiniEngineUnity::__HEU_Task__TaskCallback* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x21aa6dc, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x223ffc0, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x21aa808, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x22400ec, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::HoudiniEngineUnity::HEU_Task* task);
 
-  /// @brief Method BeginInvoke, addr 0x21aa81c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2240100, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::HoudiniEngineUnity::HEU_Task* task, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x21aa83c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2240120, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__HEU_Task__TaskCallback", modifiers: "&&", def_value: None }]
@@ -224,8 +224,8 @@ static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_Task__
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9797)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9798))] Self: TypeDefinitionIndex(TypeDefinitionIndex(9800)) CS Name: ::HoudiniEngineUnity::HEU_Task*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9589)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9590))] Self: TypeDefinitionIndex(TypeDefinitionIndex(9592)) CS Name: ::HoudiniEngineUnity::HEU_Task*
 class CORDL_TYPE HEU_Task : public ::System::Object {
 public:
   // Declarations
@@ -273,18 +273,18 @@ public:
 
   constexpr void __cordl_internal_set__taskCompletedDelegate(::HoudiniEngineUnity::__HEU_Task__TaskCallback* value);
 
-  /// @brief Method get_TaskGuid, addr 0x21aa6a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_TaskGuid, addr 0x223ff8c, size 0xc, virtual false, abstract: false, final false
   inline ::System::Guid get_TaskGuid();
 
   static inline ::HoudiniEngineUnity::HEU_Task* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21aa6b4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x223ff98, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method DoTask, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void DoTask();
 
-  /// @brief Method UpdateTask, addr 0x21aa6d8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method UpdateTask, addr 0x223ffbc, size 0x4, virtual true, abstract: false, final false
   inline void UpdateTask();
 
   /// @brief Method KillTask, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

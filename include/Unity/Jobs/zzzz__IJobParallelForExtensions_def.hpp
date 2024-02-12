@@ -45,7 +45,7 @@ namespace GlobalNamespace {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9970))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8699))
 // CS Name: ::IJobParallelForExtensions::ParallelForJobStruct`1::ExecuteJobFunction<T>*
 class CORDL_TYPE __IJobParallelForExtensions__ParallelForJobStruct_1__ExecuteJobFunction : public ::System::MulticastDelegate {
 public:
@@ -83,7 +83,7 @@ namespace Unity::Jobs {
 template <typename T>
 // Is value type: true
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9971))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8700))
 // CS Name: ::IJobParallelForExtensions::ParallelForJobStruct`1<T>
 #pragma pack(push, 0)
 struct CORDL_TYPE __IJobParallelForExtensions__ParallelForJobStruct_1 {
@@ -121,7 +121,7 @@ public:
 namespace Unity::Jobs {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9972))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8701))
 // CS Name: ::Unity.Jobs::IJobParallelForExtensions*
 class CORDL_TYPE IJobParallelForExtensions : public ::System::Object {
 public:

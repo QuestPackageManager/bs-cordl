@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::VRControllersValueSOOffsets);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14439))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4686))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14588))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11125))
 // CS Name: ::VRControllersValueSOOffsets*
 class CORDL_TYPE VRControllersValueSOOffsets : public ::GlobalNamespace::VRControllerTransformOffset {
 public:
@@ -48,15 +48,15 @@ public:
 
   constexpr void __cordl_internal_set__rotationOffset(::UnityW<::GlobalNamespace::Vector3SO> value);
 
-  /// @brief Method get_positionOffset, addr 0x2376250, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method get_positionOffset, addr 0x12bac7c, size 0x4c, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 get_positionOffset();
 
-  /// @brief Method get_rotationOffset, addr 0x237629c, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method get_rotationOffset, addr 0x12bacc8, size 0x4c, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 get_rotationOffset();
 
   static inline ::GlobalNamespace::VRControllersValueSOOffsets* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23762e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12bad14, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "VRControllersValueSOOffsets", modifiers: "&&", def_value: None }]

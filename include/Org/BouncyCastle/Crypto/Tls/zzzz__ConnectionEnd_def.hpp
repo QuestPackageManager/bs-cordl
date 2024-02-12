@@ -23,7 +23,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Tls::ConnectionEnd* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf62d0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf8cb9c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ConnectionEnd", modifiers: "&&", def_value: None }]

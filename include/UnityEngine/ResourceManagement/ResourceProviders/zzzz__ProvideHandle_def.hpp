@@ -44,7 +44,7 @@ MARK_VAL_T(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle);
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14002))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14015))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::ProvideHandle
 struct CORDL_TYPE ProvideHandle {
 public:
@@ -59,37 +59,37 @@ public:
 
   __declspec(property(get = get_DependencyCount)) int32_t DependencyCount;
 
-  /// @brief Method .ctor, addr 0x2bd7194, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bd4d00, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ResourceManagement::ResourceManager* rm, ::UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation* op);
 
-  /// @brief Method get_InternalOp, addr 0x2bd7250, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method get_InternalOp, addr 0x2bd4dbc, size 0x104, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation* get_InternalOp();
 
-  /// @brief Method get_ResourceManager, addr 0x2bd7354, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ResourceManager, addr 0x2bd4ec0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::ResourceManager* get_ResourceManager();
 
-  /// @brief Method get_Type, addr 0x2bd66fc, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x2bd4268, size 0xac, virtual false, abstract: false, final false
   inline ::System::Type* get_Type();
 
-  /// @brief Method get_Location, addr 0x2bd3b90, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method get_Location, addr 0x2bd16fc, size 0xac, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* get_Location();
 
-  /// @brief Method get_DependencyCount, addr 0x2bd735c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method get_DependencyCount, addr 0x2bd4ec8, size 0xac, virtual false, abstract: false, final false
   inline int32_t get_DependencyCount();
 
   /// @brief Method GetDependency, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TDepObject> inline TDepObject GetDependency(int32_t index);
 
-  /// @brief Method GetDependencies, addr 0x2bd62e0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetDependencies, addr 0x2bd3e4c, size 0xb4, virtual false, abstract: false, final false
   inline void GetDependencies(::System::Collections::Generic::IList_1<::System::Object*>* list);
 
-  /// @brief Method SetProgressCallback, addr 0x2bd43dc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method SetProgressCallback, addr 0x2bd1f48, size 0xb4, virtual false, abstract: false, final false
   inline void SetProgressCallback(::System::Func_1<float_t>* callback);
 
-  /// @brief Method SetDownloadProgressCallbacks, addr 0x2bd4490, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method SetDownloadProgressCallbacks, addr 0x2bd1ffc, size 0xb4, virtual false, abstract: false, final false
   inline void SetDownloadProgressCallbacks(::System::Func_1<::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus>* callback);
 
-  /// @brief Method SetWaitForCompletionCallback, addr 0x2bd4544, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method SetWaitForCompletionCallback, addr 0x2bd20b0, size 0xb4, virtual false, abstract: false, final false
   inline void SetWaitForCompletionCallback(::System::Func_1<bool>* callback);
 
   /// @brief Method Complete, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::RootMotion::BakerMuscle);
 namespace RootMotion {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12477))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12375))
 // CS Name: ::RootMotion::BakerMuscle*
 class CORDL_TYPE BakerMuscle : public ::System::Object {
 public:
@@ -60,25 +60,25 @@ public:
 
   static inline ::RootMotion::BakerMuscle* New_ctor(int32_t muscleIndex);
 
-  /// @brief Method .ctor, addr 0x1233938, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12ce9e8, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(int32_t muscleIndex);
 
-  /// @brief Method MuscleNameToPropertyName, addr 0x123399c, size 0xa34, virtual false, abstract: false, final false
+  /// @brief Method MuscleNameToPropertyName, addr 0x12cea4c, size 0xa34, virtual false, abstract: false, final false
   inline ::StringW MuscleNameToPropertyName(::StringW n);
 
-  /// @brief Method MultiplyLength, addr 0x1234430, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method MultiplyLength, addr 0x12cf4e0, size 0xa8, virtual false, abstract: false, final false
   inline void MultiplyLength(::UnityEngine::AnimationCurve* curve, float_t mlp);
 
-  /// @brief Method SetCurves, addr 0x12344d8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method SetCurves, addr 0x12cf588, size 0xf4, virtual false, abstract: false, final false
   inline void SetCurves(ByRef<::UnityEngine::AnimationClip*> clip, float_t maxError, float_t lengthMlp);
 
-  /// @brief Method Reset, addr 0x12343d0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x12cf480, size 0x60, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method SetKeyframe, addr 0x12345cc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetKeyframe, addr 0x12cf67c, size 0x3c, virtual false, abstract: false, final false
   inline void SetKeyframe(float_t time, ::ArrayW<float_t, ::Array<float_t>*> muscles);
 
-  /// @brief Method SetLoopFrame, addr 0x1234608, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetLoopFrame, addr 0x12cf6b8, size 0x8, virtual false, abstract: false, final false
   inline void SetLoopFrame(float_t time);
 
   // Ctor Parameters [CppParam { name: "", ty: "BakerMuscle", modifiers: "&&", def_value: None }]

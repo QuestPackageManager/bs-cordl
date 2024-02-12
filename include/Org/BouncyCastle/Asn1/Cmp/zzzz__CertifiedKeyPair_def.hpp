@@ -73,34 +73,34 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xe647d0, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe8f660, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance, addr 0xe64a50, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xe8f8e0, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair* New_ctor(::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert* certOrEncCert);
 
-  /// @brief Method .ctor, addr 0xe64bd8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe8fa68, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert* certOrEncCert);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair* New_ctor(::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert* certOrEncCert, ::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* privateKey,
                                                                            ::Org::BouncyCastle::Asn1::Crmf::PkiPublicationInfo* publicationInfo);
 
-  /// @brief Method .ctor, addr 0xe64be4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe8fa74, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert* certOrEncCert, ::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* privateKey,
                     ::Org::BouncyCastle::Asn1::Crmf::PkiPublicationInfo* publicationInfo);
 
-  /// @brief Method get_CertOrEncCert, addr 0xe64c70, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CertOrEncCert, addr 0xe8fb00, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert* get_CertOrEncCert();
 
-  /// @brief Method get_PrivateKey, addr 0xe64c78, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_PrivateKey, addr 0xe8fb08, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* get_PrivateKey();
 
-  /// @brief Method get_PublicationInfo, addr 0xe64c80, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_PublicationInfo, addr 0xe8fb10, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::PkiPublicationInfo* get_PublicationInfo();
 
-  /// @brief Method ToAsn1Object, addr 0xe64c88, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xe8fb18, size 0x12c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "CertifiedKeyPair", modifiers: "&&", def_value: None }]

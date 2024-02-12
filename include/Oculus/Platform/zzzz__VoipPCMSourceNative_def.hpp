@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::Oculus::Platform::VoipPCMSourceNative);
 namespace Oculus::Platform {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13402))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13334))
 // CS Name: ::Oculus.Platform::VoipPCMSourceNative*
 class CORDL_TYPE VoipPCMSourceNative : public ::System::Object {
 public:
@@ -41,21 +41,21 @@ public:
 
   constexpr void __cordl_internal_set_senderID(uint64_t value);
 
-  /// @brief Method GetPCM, addr 0x27022e0, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method GetPCM, addr 0x273574c, size 0xb4, virtual true, abstract: false, final true
   inline int32_t GetPCM(::ArrayW<float_t, ::Array<float_t>*> dest, int32_t length);
 
-  /// @brief Method SetSenderID, addr 0x2702390, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetSenderID, addr 0x2735800, size 0x8, virtual true, abstract: false, final true
   inline void SetSenderID(uint64_t senderID);
 
-  /// @brief Method PeekSizeElements, addr 0x2702398, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method PeekSizeElements, addr 0x2735808, size 0x94, virtual true, abstract: false, final true
   inline int32_t PeekSizeElements();
 
-  /// @brief Method Update, addr 0x2702428, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Update, addr 0x273589c, size 0x4, virtual true, abstract: false, final true
   inline void Update();
 
   static inline ::Oculus::Platform::VoipPCMSourceNative* New_ctor();
 
-  /// @brief Method .ctor, addr 0x27017f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2734bf0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "VoipPCMSourceNative", modifiers: "&&", def_value: None }]

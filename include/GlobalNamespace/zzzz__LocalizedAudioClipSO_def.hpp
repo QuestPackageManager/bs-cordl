@@ -2,7 +2,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Polyglot/zzzz__Language_def.hpp"
+#include "BGLib/Polyglot/zzzz__Language_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
@@ -34,23 +34,23 @@ MARK_REF_PTR_T(::GlobalNamespace::__LocalizedAudioClipSO____c__DisplayClass4_0);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15554))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5869))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15672))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5159))
 // CS Name: ::LocalizedAudioClipSO::LocalizedAudioClipInfo*
 class CORDL_TYPE __LocalizedAudioClipSO__LocalizedAudioClipInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field language, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_language, put = __cordl_internal_set_language))::Polyglot::Language language;
+  __declspec(property(get = __cordl_internal_get_language, put = __cordl_internal_set_language))::BGLib::Polyglot::Language language;
 
   /// @brief Field localizedAudioClip, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_localizedAudioClip, put = __cordl_internal_set_localizedAudioClip))::UnityW<::UnityEngine::AudioClip> localizedAudioClip;
 
-  constexpr ::Polyglot::Language& __cordl_internal_get_language();
+  constexpr ::BGLib::Polyglot::Language& __cordl_internal_get_language();
 
-  constexpr ::Polyglot::Language const& __cordl_internal_get_language() const;
+  constexpr ::BGLib::Polyglot::Language const& __cordl_internal_get_language() const;
 
-  constexpr void __cordl_internal_set_language(::Polyglot::Language value);
+  constexpr void __cordl_internal_set_language(::BGLib::Polyglot::Language value);
 
   constexpr ::UnityW<::UnityEngine::AudioClip>& __cordl_internal_get_localizedAudioClip();
 
@@ -60,7 +60,7 @@ public:
 
   static inline ::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22f85f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2324f5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__LocalizedAudioClipSO__LocalizedAudioClipInfo", modifiers: "&&", def_value: None }]
@@ -78,7 +78,7 @@ protected:
 
 public:
   /// @brief Field language, offset: 0x10, size: 0x4, def value: None
-  ::Polyglot::Language ___language;
+  ::BGLib::Polyglot::Language ___language;
 
   /// @brief Field localizedAudioClip, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioClip> ___localizedAudioClip;
@@ -97,27 +97,27 @@ static_assert(offsetof(::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudio
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15554))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5870))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15672))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5160))
 // CS Name: ::LocalizedAudioClipSO::<>c__DisplayClass4_0*
 class CORDL_TYPE __LocalizedAudioClipSO____c__DisplayClass4_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field language, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_language, put = __cordl_internal_set_language))::Polyglot::Language language;
+  __declspec(property(get = __cordl_internal_get_language, put = __cordl_internal_set_language))::BGLib::Polyglot::Language language;
 
-  constexpr ::Polyglot::Language& __cordl_internal_get_language();
+  constexpr ::BGLib::Polyglot::Language& __cordl_internal_get_language();
 
-  constexpr ::Polyglot::Language const& __cordl_internal_get_language() const;
+  constexpr ::BGLib::Polyglot::Language const& __cordl_internal_get_language() const;
 
-  constexpr void __cordl_internal_set_language(::Polyglot::Language value);
+  constexpr void __cordl_internal_set_language(::BGLib::Polyglot::Language value);
 
   static inline ::GlobalNamespace::__LocalizedAudioClipSO____c__DisplayClass4_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22f85e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2324f4c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_localizedAudioClip>b__0, addr 0x22f85fc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <get_localizedAudioClip>b__0, addr 0x2324f64, size 0x24, virtual false, abstract: false, final false
   inline bool _get_localizedAudioClip_b__0(::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo* t);
 
   // Ctor Parameters [CppParam { name: "", ty: "__LocalizedAudioClipSO____c__DisplayClass4_0", modifiers: "&&", def_value: None }]
@@ -135,7 +135,7 @@ protected:
 
 public:
   /// @brief Field language, offset: 0x10, size: 0x4, def value: None
-  ::Polyglot::Language ___language;
+  ::BGLib::Polyglot::Language ___language;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -149,8 +149,8 @@ static_assert(offsetof(::GlobalNamespace::__LocalizedAudioClipSO____c__DisplayCl
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5871))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8954))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5161))
 // CS Name: ::LocalizedAudioClipSO*
 class CORDL_TYPE LocalizedAudioClipSO : public ::UnityEngine::ScriptableObject {
 public:
@@ -185,12 +185,12 @@ public:
 
   constexpr void __cordl_internal_set__lastLocalizedAudioClipInfo(::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo* value);
 
-  /// @brief Method get_localizedAudioClip, addr 0x22f84dc, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method get_localizedAudioClip, addr 0x2324e3c, size 0x110, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::AudioClip> get_localizedAudioClip();
 
   static inline ::GlobalNamespace::LocalizedAudioClipSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22f85ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2324f54, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LocalizedAudioClipSO", modifiers: "&&", def_value: None }]

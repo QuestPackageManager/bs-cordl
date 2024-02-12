@@ -49,21 +49,21 @@ public:
 
   static inline ::System::Security::Cryptography::RSAPKCS1SignatureDeformatter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x246e4c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2490534, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Security::Cryptography::RSAPKCS1SignatureDeformatter* New_ctor(::System::Security::Cryptography::AsymmetricAlgorithm* key);
 
-  /// @brief Method .ctor, addr 0x2473150, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24951c4, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::AsymmetricAlgorithm* key);
 
-  /// @brief Method SetHashAlgorithm, addr 0x2473184, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method SetHashAlgorithm, addr 0x24951f8, size 0x60, virtual true, abstract: false, final false
   inline void SetHashAlgorithm(::StringW strName);
 
-  /// @brief Method SetKey, addr 0x24731e4, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method SetKey, addr 0x2495258, size 0xec, virtual true, abstract: false, final false
   inline void SetKey(::System::Security::Cryptography::AsymmetricAlgorithm* key);
 
-  /// @brief Method VerifySignature, addr 0x24732d0, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method VerifySignature, addr 0x2495344, size 0x160, virtual true, abstract: false, final false
   inline bool VerifySignature(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbHash, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbSignature);
 
   // Ctor Parameters [CppParam { name: "", ty: "RSAPKCS1SignatureDeformatter", modifiers: "&&", def_value: None }]

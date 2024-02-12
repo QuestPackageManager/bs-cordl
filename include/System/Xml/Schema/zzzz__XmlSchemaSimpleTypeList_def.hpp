@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaSimpleTypeList);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11738))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11739))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11636))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11637))
 // CS Name: ::System.Xml.Schema::XmlSchemaSimpleTypeList*
 class CORDL_TYPE XmlSchemaSimpleTypeList : public ::System::Xml::Schema::XmlSchemaSimpleTypeContent {
 public:
@@ -57,18 +57,18 @@ public:
 
   constexpr void __cordl_internal_set_baseItemType(::System::Xml::Schema::XmlSchemaSimpleType* value);
 
-  /// @brief Method set_ItemType, addr 0x28c90fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ItemType, addr 0x28cb764, size 0x8, virtual false, abstract: false, final false
   inline void set_ItemType(::System::Xml::Schema::XmlSchemaSimpleType* value);
 
-  /// @brief Method get_BaseItemType, addr 0x28c9104, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BaseItemType, addr 0x28cb76c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaSimpleType* get_BaseItemType();
 
-  /// @brief Method set_BaseItemType, addr 0x28c910c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BaseItemType, addr 0x28cb774, size 0x8, virtual false, abstract: false, final false
   inline void set_BaseItemType(::System::Xml::Schema::XmlSchemaSimpleType* value);
 
   static inline ::System::Xml::Schema::XmlSchemaSimpleTypeList* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28c9114, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28cb77c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaSimpleTypeList", modifiers: "&&", def_value: None }]

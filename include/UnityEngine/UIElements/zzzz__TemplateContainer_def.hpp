@@ -45,8 +45,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__TemplateContainer__UxmlTraits);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6800))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6778))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6059))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6037))
 // CS Name: ::TemplateContainer::UxmlTraits*
 class CORDL_TYPE __TemplateContainer__UxmlTraits : public ::UnityEngine::UIElements::__BindableElement__UxmlTraits {
 public:
@@ -60,12 +60,12 @@ public:
 
   constexpr void __cordl_internal_set_m_Template(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
-  /// @brief Method Init, addr 0x2db91d4, size 0x39c, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x2dd75bc, size 0x39c, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::__TemplateContainer__UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2db96a4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dd7a8c, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__TemplateContainer__UxmlTraits", modifiers: "&&", def_value: None }]
@@ -97,8 +97,8 @@ static_assert(offsetof(::UnityEngine::UIElements::__TemplateContainer__UxmlTrait
 // SizeInfo { instance_size: 984, native_size: -1, calculated_instance_size: 984, calculated_native_size: 984, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6801))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6779))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6060))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6038))
 // CS Name: ::UnityEngine.UIElements::TemplateContainer*
 class CORDL_TYPE TemplateContainer : public ::UnityEngine::UIElements::BindableElement {
 public:
@@ -140,29 +140,29 @@ public:
 
   constexpr void __cordl_internal_set_m_TemplateSource(::UnityW<::UnityEngine::UIElements::VisualTreeAsset> value);
 
-  /// @brief Method get_templateId, addr 0x2db9014, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_templateId, addr 0x2dd73fc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_templateId();
 
-  /// @brief Method set_templateId, addr 0x2db901c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_templateId, addr 0x2dd7404, size 0x8, virtual false, abstract: false, final false
   inline void set_templateId(::StringW value);
 
-  /// @brief Method set_templateSource, addr 0x2db9024, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_templateSource, addr 0x2dd740c, size 0x8, virtual false, abstract: false, final false
   inline void set_templateSource(::UnityEngine::UIElements::VisualTreeAsset* value);
 
   static inline ::UnityEngine::UIElements::TemplateContainer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2db902c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dd7414, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::TemplateContainer* New_ctor(::StringW templateId);
 
-  /// @brief Method .ctor, addr 0x2db9048, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dd7430, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW templateId);
 
-  /// @brief Method get_contentContainer, addr 0x2db90c8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_contentContainer, addr 0x2dd74b0, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_contentContainer();
 
-  /// @brief Method SetContentContainer, addr 0x2db90d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetContentContainer, addr 0x2dd74b8, size 0x8, virtual false, abstract: false, final false
   inline void SetContentContainer(::UnityEngine::UIElements::VisualElement* content);
 
   // Ctor Parameters [CppParam { name: "", ty: "TemplateContainer", modifiers: "&&", def_value: None }]
@@ -204,8 +204,8 @@ static_assert(offsetof(::UnityEngine::UIElements::TemplateContainer, ___m_Templa
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6778)), TypeDefinitionIndex(TypeDefinitionIndex(6779)), TypeDefinitionIndex(TypeDefinitionIndex(6997)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5278 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6777)) CS Name: ::TemplateContainer::UxmlFactory*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6037)), TypeDefinitionIndex(TypeDefinitionIndex(6038)), TypeDefinitionIndex(TypeDefinitionIndex(6256)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6256), inst: 5258 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6036)) CS Name: ::TemplateContainer::UxmlFactory*
 class CORDL_TYPE __TemplateContainer__UxmlFactory
     : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::TemplateContainer*, ::UnityEngine::UIElements::__TemplateContainer__UxmlTraits*> {
 public:
@@ -214,15 +214,15 @@ public:
 
   __declspec(property(get = get_uxmlQualifiedName))::StringW uxmlQualifiedName;
 
-  /// @brief Method get_uxmlName, addr 0x2db90d8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_uxmlName, addr 0x2dd74c0, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_uxmlName();
 
-  /// @brief Method get_uxmlQualifiedName, addr 0x2db9118, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method get_uxmlQualifiedName, addr 0x2dd7500, size 0x74, virtual true, abstract: false, final false
   inline ::StringW get_uxmlQualifiedName();
 
   static inline ::UnityEngine::UIElements::__TemplateContainer__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2db918c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dd7574, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__TemplateContainer__UxmlFactory", modifiers: "&&", def_value: None }]

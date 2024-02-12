@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::CompilationRelaxationsAttrib
 namespace System::Runtime::CompilerServices {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3414))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3410))
 // CS Name: ::System.Runtime.CompilerServices::CompilationRelaxationsAttribute*
 class CORDL_TYPE CompilationRelaxationsAttribute : public ::System::Attribute {
 public:
@@ -37,15 +37,15 @@ public:
 
   static inline ::System::Runtime::CompilerServices::CompilationRelaxationsAttribute* New_ctor(int32_t relaxations);
 
-  /// @brief Method .ctor, addr 0x24debdc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24fdd38, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t relaxations);
 
   static inline ::System::Runtime::CompilerServices::CompilationRelaxationsAttribute* New_ctor(::System::Runtime::CompilerServices::CompilationRelaxations relaxations);
 
-  /// @brief Method .ctor, addr 0x24dec04, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24fdd60, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::CompilerServices::CompilationRelaxations relaxations);
 
-  /// @brief Method get_CompilationRelaxations, addr 0x24dec2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CompilationRelaxations, addr 0x24fdd88, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_CompilationRelaxations();
 
   // Ctor Parameters [CppParam { name: "", ty: "CompilationRelaxationsAttribute", modifiers: "&&", def_value: None }]

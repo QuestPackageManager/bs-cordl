@@ -22,7 +22,7 @@ MARK_VAL_T(::System::Resources::ResourceLocator);
 namespace System::Resources {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3439))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3435))
 // CS Name: ::System.Resources::ResourceLocator
 struct CORDL_TYPE ResourceLocator {
 public:
@@ -31,19 +31,19 @@ public:
 
   __declspec(property(get = get_Value, put = set_Value))::System::Object* Value;
 
-  /// @brief Method .ctor, addr 0x24e0708, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2500654, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t dataPos, ::System::Object* value);
 
-  /// @brief Method get_DataPosition, addr 0x24e1f98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DataPosition, addr 0x2500660, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_DataPosition();
 
-  /// @brief Method get_Value, addr 0x24e1fa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x2500668, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Value();
 
-  /// @brief Method set_Value, addr 0x24e1fa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Value, addr 0x2500670, size 0x8, virtual false, abstract: false, final false
   inline void set_Value(::System::Object* value);
 
-  /// @brief Method CanCache, addr 0x24e06fc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CanCache, addr 0x2500678, size 0xc, virtual false, abstract: false, final false
   static inline bool CanCache(::System::Resources::ResourceTypeCode value);
 
   // Ctor Parameters [CppParam { name: "_value", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam { name: "_dataPos", ty: "int32_t", modifiers: "", def_value: None }]

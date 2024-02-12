@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509KeyUsageE
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8976)), TypeDefinitionIndex(TypeDefinitionIndex(8984)), TypeDefinitionIndex(TypeDefinitionIndex(9011))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9015))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6986)), TypeDefinitionIndex(TypeDefinitionIndex(6994)), TypeDefinitionIndex(TypeDefinitionIndex(7021))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7025))
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509KeyUsageExtension*
 class CORDL_TYPE X509KeyUsageExtension : public ::System::Security::Cryptography::X509Certificates::X509Extension {
 public:
@@ -56,35 +56,35 @@ public:
 
   static inline ::System::Security::Cryptography::X509Certificates::X509KeyUsageExtension* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2985474, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2988f18, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Security::Cryptography::X509Certificates::X509KeyUsageExtension* New_ctor(::System::Security::Cryptography::AsnEncodedData* encodedKeyUsage, bool critical);
 
-  /// @brief Method .ctor, addr 0x2985510, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2988fb4, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::AsnEncodedData* encodedKeyUsage, bool critical);
 
   static inline ::System::Security::Cryptography::X509Certificates::X509KeyUsageExtension* New_ctor(::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags keyUsages, bool critical);
 
-  /// @brief Method .ctor, addr 0x2985790, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2989234, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags keyUsages, bool critical);
 
-  /// @brief Method get_KeyUsages, addr 0x29859e0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_KeyUsages, addr 0x2989484, size 0x6c, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags get_KeyUsages();
 
-  /// @brief Method CopyFrom, addr 0x2985a4c, size 0x1e0, virtual true, abstract: false, final false
+  /// @brief Method CopyFrom, addr 0x29894f0, size 0x1e0, virtual true, abstract: false, final false
   inline void CopyFrom(::System::Security::Cryptography::AsnEncodedData* asnEncodedData);
 
-  /// @brief Method GetValidFlags, addr 0x2985868, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetValidFlags, addr 0x298930c, size 0x10, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags GetValidFlags(::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags flags);
 
-  /// @brief Method Decode, addr 0x29855dc, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x2989080, size 0x1b4, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::AsnDecodeStatus Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> extension);
 
-  /// @brief Method Encode, addr 0x2985878, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x298931c, size 0x168, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Encode();
 
-  /// @brief Method ToString, addr 0x2985c2c, size 0x530, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x29896d0, size 0x530, virtual true, abstract: false, final false
   inline ::StringW ToString(bool multiLine);
 
   // Ctor Parameters [CppParam { name: "", ty: "X509KeyUsageExtension", modifiers: "&&", def_value: None }]

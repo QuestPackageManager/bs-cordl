@@ -86,7 +86,7 @@ namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10766))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9908))
 // CS Name: ::FactoryFromBinder5Extensions::<>c__DisplayClass0_0`6<TParam1,TParam2,TParam3,TParam4,TParam5,TContract>*
 class CORDL_TYPE __FactoryFromBinder5Extensions____c__DisplayClass0_0_6 : public ::System::Object {
 public:
@@ -142,7 +142,7 @@ namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10767))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9909))
 // CS Name: ::FactoryFromBinder5Extensions::<>c__1`6<TParam1,TParam2,TParam3,TParam4,TParam5,TContract>*
 class CORDL_TYPE __FactoryFromBinder5Extensions____c__1_6 : public ::System::Object {
 public:
@@ -200,7 +200,7 @@ namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10768))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9910))
 // CS Name: ::FactoryFromBinder5Extensions::<>c__3`6<TParam1,TParam2,TParam3,TParam4,TParam5,TContract>*
 class CORDL_TYPE __FactoryFromBinder5Extensions____c__3_6 : public ::System::Object {
 public:
@@ -258,7 +258,7 @@ namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract, typename TMemoryPool>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10769))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9911))
 // CS Name: ::FactoryFromBinder5Extensions::<>c__5`7<TParam1,TParam2,TParam3,TParam4,TParam5,TContract,TMemoryPool>*
 class CORDL_TYPE __FactoryFromBinder5Extensions____c__5_7 : public ::System::Object {
 public:
@@ -316,7 +316,7 @@ namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract, typename TMemoryPool>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10770))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9912))
 // CS Name: ::FactoryFromBinder5Extensions::<>c__DisplayClass6_0`7<TParam1,TParam2,TParam3,TParam4,TParam5,TContract,TMemoryPool>*
 class CORDL_TYPE __FactoryFromBinder5Extensions____c__DisplayClass6_0_7 : public ::System::Object {
 public:
@@ -370,7 +370,7 @@ public:
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10771))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9913))
 // CS Name: ::Zenject::FactoryFromBinder5Extensions*
 class CORDL_TYPE FactoryFromBinder5Extensions : public ::System::Object {
 public:

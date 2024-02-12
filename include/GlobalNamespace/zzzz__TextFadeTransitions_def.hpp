@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::GlobalNamespace::TextFadeTransitions);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5338))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4676))
 // CS Name: ::TextFadeTransitions::State
 struct CORDL_TYPE __TextFadeTransitions__State {
 public:
@@ -86,8 +86,8 @@ static_assert(offsetof(::GlobalNamespace::__TextFadeTransitions__State, value__)
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5338)), TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5339))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4676)), TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4677))
 // CS Name: ::TextFadeTransitions*
 class CORDL_TYPE TextFadeTransitions : public ::UnityEngine::MonoBehaviour {
 public:
@@ -148,24 +148,24 @@ public:
 
   constexpr void __cordl_internal_set__fade(float_t value);
 
-  /// @brief Method Awake, addr 0x22699f4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x23c8890, size 0x7c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Update, addr 0x2269b40, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x23c89dc, size 0x4, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method RefreshState, addr 0x2269b44, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method RefreshState, addr 0x23c89e0, size 0x100, virtual false, abstract: false, final false
   inline void RefreshState();
 
-  /// @brief Method RefreshTextAlpha, addr 0x2269a70, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method RefreshTextAlpha, addr 0x23c890c, size 0xd0, virtual false, abstract: false, final false
   inline void RefreshTextAlpha();
 
-  /// @brief Method ShowText, addr 0x2260c64, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ShowText, addr 0x23bf66c, size 0x74, virtual false, abstract: false, final false
   inline void ShowText(::StringW text);
 
   static inline ::GlobalNamespace::TextFadeTransitions* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2269c44, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c8ae0, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TextFadeTransitions", modifiers: "&&", def_value: None }]

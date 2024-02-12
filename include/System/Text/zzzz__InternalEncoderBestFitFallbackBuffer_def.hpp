@@ -72,33 +72,33 @@ public:
 
   static inline ::System::Object* getStaticF_s_InternalSyncObject();
 
-  /// @brief Method get_InternalSyncObject, addr 0x2633658, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_InternalSyncObject, addr 0x265977c, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::Object* get_InternalSyncObject();
 
   static inline ::System::Text::InternalEncoderBestFitFallbackBuffer* New_ctor(::System::Text::InternalEncoderBestFitFallback* fallback);
 
-  /// @brief Method .ctor, addr 0x2633440, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2659564, size 0x128, virtual false, abstract: false, final false
   inline void _ctor(::System::Text::InternalEncoderBestFitFallback* fallback);
 
-  /// @brief Method Fallback, addr 0x26336fc, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method Fallback, addr 0x2659820, size 0x30, virtual true, abstract: false, final false
   inline bool Fallback(char16_t charUnknown, int32_t index);
 
-  /// @brief Method Fallback, addr 0x2633800, size 0x1e0, virtual true, abstract: false, final false
+  /// @brief Method Fallback, addr 0x2659924, size 0x1e0, virtual true, abstract: false, final false
   inline bool Fallback(char16_t charUnknownHigh, char16_t charUnknownLow, int32_t index);
 
-  /// @brief Method GetNextChar, addr 0x26339e0, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method GetNextChar, addr 0x2659b04, size 0x40, virtual true, abstract: false, final false
   inline char16_t GetNextChar();
 
-  /// @brief Method MovePrevious, addr 0x2633a20, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method MovePrevious, addr 0x2659b44, size 0x2c, virtual true, abstract: false, final false
   inline bool MovePrevious();
 
-  /// @brief Method get_Remaining, addr 0x2633a4c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_Remaining, addr 0x2659b70, size 0xc, virtual true, abstract: false, final false
   inline int32_t get_Remaining();
 
-  /// @brief Method Reset, addr 0x2633a58, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x2659b7c, size 0x14, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method TryBestFit, addr 0x263372c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method TryBestFit, addr 0x2659850, size 0xd4, virtual false, abstract: false, final false
   inline char16_t TryBestFit(char16_t cUnknown);
 
   // Ctor Parameters [CppParam { name: "", ty: "InternalEncoderBestFitFallbackBuffer", modifiers: "&&", def_value: None }]

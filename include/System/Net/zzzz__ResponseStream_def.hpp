@@ -38,8 +38,8 @@ MARK_REF_PTR_T(::System::Net::ResponseStream);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3619))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9199))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3617))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7209))
 // CS Name: ::System.Net::ResponseStream*
 class CORDL_TYPE ResponseStream : public ::System::IO::Stream {
 public:
@@ -108,64 +108,64 @@ public:
 
   static inline ::System::Net::ResponseStream* New_ctor(::System::IO::Stream* stream, ::System::Net::HttpListenerResponse* response, bool ignore_errors);
 
-  /// @brief Method .ctor, addr 0x29d6240, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29dace4, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream, ::System::Net::HttpListenerResponse* response, bool ignore_errors);
 
-  /// @brief Method get_CanRead, addr 0x29d62c4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanRead, addr 0x29dad68, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanRead();
 
-  /// @brief Method get_CanSeek, addr 0x29d62cc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanSeek, addr 0x29dad70, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanSeek();
 
-  /// @brief Method get_CanWrite, addr 0x29d62d4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanWrite, addr 0x29dad78, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanWrite();
 
-  /// @brief Method get_Length, addr 0x29d62dc, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Length, addr 0x29dad80, size 0x40, virtual true, abstract: false, final false
   inline int64_t get_Length();
 
-  /// @brief Method get_Position, addr 0x29d631c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Position, addr 0x29dadc0, size 0x40, virtual true, abstract: false, final false
   inline int64_t get_Position();
 
-  /// @brief Method set_Position, addr 0x29d635c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method set_Position, addr 0x29dae00, size 0x40, virtual true, abstract: false, final false
   inline void set_Position(int64_t value);
 
-  /// @brief Method Close, addr 0x29d639c, size 0x264, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x29dae40, size 0x264, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method GetHeaders, addr 0x29d6600, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method GetHeaders, addr 0x29db0a4, size 0x15c, virtual false, abstract: false, final false
   inline ::System::IO::MemoryStream* GetHeaders(bool closing);
 
-  /// @brief Method Flush, addr 0x29d6908, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Flush, addr 0x29db3ac, size 0x4, virtual true, abstract: false, final false
   inline void Flush();
 
-  /// @brief Method GetChunkSizeBytes, addr 0x29d675c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetChunkSizeBytes, addr 0x29db200, size 0xf0, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetChunkSizeBytes(int32_t size, bool final);
 
-  /// @brief Method InternalWrite, addr 0x29d684c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method InternalWrite, addr 0x29db2f0, size 0xbc, virtual false, abstract: false, final false
   inline void InternalWrite(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method Write, addr 0x29d690c, size 0x308, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x29db3b0, size 0x308, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method BeginWrite, addr 0x29d6c14, size 0x244, virtual true, abstract: false, final false
+  /// @brief Method BeginWrite, addr 0x29db6b8, size 0x244, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginWrite(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::AsyncCallback* cback, ::System::Object* state);
 
-  /// @brief Method EndWrite, addr 0x29d6e58, size 0x22c, virtual true, abstract: false, final false
+  /// @brief Method EndWrite, addr 0x29db8fc, size 0x22c, virtual true, abstract: false, final false
   inline void EndWrite(::System::IAsyncResult* ares);
 
-  /// @brief Method Read, addr 0x29d7084, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x29dbb28, size 0x40, virtual true, abstract: false, final false
   inline int32_t Read(ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method BeginRead, addr 0x29d70c4, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method BeginRead, addr 0x29dbb68, size 0x40, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginRead(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::AsyncCallback* cback, ::System::Object* state);
 
-  /// @brief Method EndRead, addr 0x29d7104, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method EndRead, addr 0x29dbba8, size 0x40, virtual true, abstract: false, final false
   inline int32_t EndRead(::System::IAsyncResult* ares);
 
-  /// @brief Method Seek, addr 0x29d7144, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method Seek, addr 0x29dbbe8, size 0x40, virtual true, abstract: false, final false
   inline int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin);
 
-  /// @brief Method SetLength, addr 0x29d7184, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method SetLength, addr 0x29dbc28, size 0x40, virtual true, abstract: false, final false
   inline void SetLength(int64_t value);
 
   // Ctor Parameters [CppParam { name: "", ty: "ResponseStream", modifiers: "&&", def_value: None }]

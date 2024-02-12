@@ -49,27 +49,27 @@ public:
   static inline ::System::Security::AccessControl::QualifiedAce* New_ctor(::System::Security::AccessControl::AceType type, ::System::Security::AccessControl::AceFlags flags,
                                                                           ::ArrayW<uint8_t, ::Array<uint8_t>*> opaque);
 
-  /// @brief Method .ctor, addr 0x2480ba0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24a2c14, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::AccessControl::AceType type, ::System::Security::AccessControl::AceFlags flags, ::ArrayW<uint8_t, ::Array<uint8_t>*> opaque);
 
   static inline ::System::Security::AccessControl::QualifiedAce* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> binaryForm, int32_t offset);
 
-  /// @brief Method .ctor, addr 0x2480db8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24a2e2c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> binaryForm, int32_t offset);
 
-  /// @brief Method get_AceQualifier, addr 0x2481bb4, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method get_AceQualifier, addr 0x24a3c28, size 0xbc, virtual false, abstract: false, final false
   inline ::System::Security::AccessControl::AceQualifier get_AceQualifier();
 
-  /// @brief Method get_IsCallback, addr 0x24823d8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_IsCallback, addr 0x24a444c, size 0x3c, virtual false, abstract: false, final false
   inline bool get_IsCallback();
 
-  /// @brief Method get_OpaqueLength, addr 0x2480f50, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_OpaqueLength, addr 0x24a2fc4, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_OpaqueLength();
 
-  /// @brief Method GetOpaque, addr 0x2481114, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetOpaque, addr 0x24a3188, size 0x74, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetOpaque();
 
-  /// @brief Method SetOpaque, addr 0x2480e70, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method SetOpaque, addr 0x24a2ee4, size 0xa8, virtual false, abstract: false, final false
   inline void SetOpaque(::ArrayW<uint8_t, ::Array<uint8_t>*> opaque);
 
   // Ctor Parameters [CppParam { name: "", ty: "QualifiedAce", modifiers: "&&", def_value: None }]

@@ -16,12 +16,12 @@ MARK_REF_PTR_T(::System::Net::TcpValidationHelpers);
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9025))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7035))
 // CS Name: ::System.Net::TcpValidationHelpers*
 class CORDL_TYPE TcpValidationHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ValidatePortNumber, addr 0x298a254, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ValidatePortNumber, addr 0x298dcf8, size 0xc, virtual false, abstract: false, final false
   static inline bool ValidatePortNumber(int32_t port);
 
   // Ctor Parameters [CppParam { name: "", ty: "TcpValidationHelpers", modifiers: "&&", def_value: None }]

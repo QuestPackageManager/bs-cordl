@@ -26,10 +26,10 @@ public:
   // Declarations
   static inline ::System::Threading::ParameterizedThreadStart* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x260fde0, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2634ce8, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x260ff0c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2634e14, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* obj);
 
   // Ctor Parameters [CppParam { name: "", ty: "ParameterizedThreadStart", modifiers: "&&", def_value: None }]

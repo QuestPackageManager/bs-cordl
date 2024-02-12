@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::ITreeViewItem);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7345))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6604))
 // CS Name: ::UnityEngine.UIElements::ITreeViewItem*
 class CORDL_TYPE ITreeViewItem {
 public:

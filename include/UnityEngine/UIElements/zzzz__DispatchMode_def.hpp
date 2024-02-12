@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::DispatchMode);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6911))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6170))
 // CS Name: ::UnityEngine.UIElements::DispatchMode
 struct CORDL_TYPE DispatchMode {
 public:

@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::MemoryTraceWriter);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8942))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11908))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6952))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11806))
 // CS Name: ::Newtonsoft.Json.Serialization::MemoryTraceWriter*
 class CORDL_TYPE MemoryTraceWriter : public ::System::Object {
 public:
@@ -63,24 +63,24 @@ public:
 
   constexpr void __cordl_internal_set__LevelFilter_k__BackingField(::System::Diagnostics::TraceLevel value);
 
-  /// @brief Method get_LevelFilter, addr 0x266a9cc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_LevelFilter, addr 0x268db88, size 0x8, virtual true, abstract: false, final true
   inline ::System::Diagnostics::TraceLevel get_LevelFilter();
 
-  /// @brief Method set_LevelFilter, addr 0x266a9d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LevelFilter, addr 0x268db90, size 0x8, virtual false, abstract: false, final false
   inline void set_LevelFilter(::System::Diagnostics::TraceLevel value);
 
   static inline ::Newtonsoft::Json::Serialization::MemoryTraceWriter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x266a9dc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x268db98, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Trace, addr 0x266aa64, size 0x230, virtual true, abstract: false, final true
+  /// @brief Method Trace, addr 0x268dc20, size 0x230, virtual true, abstract: false, final true
   inline void Trace(::System::Diagnostics::TraceLevel level, ::StringW message, ::System::Exception* ex);
 
-  /// @brief Method GetTraceMessages, addr 0x266ac94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetTraceMessages, addr 0x268de50, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::StringW>* GetTraceMessages();
 
-  /// @brief Method ToString, addr 0x266ac9c, size 0x1b8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x268de58, size 0x1b8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "MemoryTraceWriter", modifiers: "&&", def_value: None }]

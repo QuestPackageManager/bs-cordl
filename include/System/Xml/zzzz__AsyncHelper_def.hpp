@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::System::Xml::AsyncHelper);
 namespace System::Xml {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11403))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11301))
 // CS Name: ::System.Xml::AsyncHelper*
 class CORDL_TYPE AsyncHelper : public ::System::Object {
 public:

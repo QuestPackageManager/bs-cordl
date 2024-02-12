@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaCompilationSettings);
 namespace System::Xml::Schema {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11719))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11617))
 // CS Name: ::System.Xml.Schema::XmlSchemaCompilationSettings*
 class CORDL_TYPE XmlSchemaCompilationSettings : public ::System::Object {
 public:
@@ -31,7 +31,7 @@ public:
 
   static inline ::System::Xml::Schema::XmlSchemaCompilationSettings* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28c72e4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28c994c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaCompilationSettings", modifiers: "&&", def_value: None }]

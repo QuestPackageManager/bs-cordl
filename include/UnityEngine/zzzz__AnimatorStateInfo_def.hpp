@@ -17,14 +17,14 @@ MARK_VAL_T(::UnityEngine::AnimatorStateInfo);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14879))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14752))
 // CS Name: ::UnityEngine::AnimatorStateInfo
 struct CORDL_TYPE AnimatorStateInfo {
 public:
   // Declarations
   __declspec(property(get = get_normalizedTime)) float_t normalizedTime;
 
-  /// @brief Method get_normalizedTime, addr 0x2c90718, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_normalizedTime, addr 0x2c8d284, size 0x8, virtual false, abstract: false, final false
   inline float_t get_normalizedTime();
 
   // Ctor Parameters [CppParam { name: "m_Name", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Path", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:

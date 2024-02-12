@@ -36,12 +36,12 @@ MARK_VAL_T(::System::Xml::Schema::__SequenceNode__SequenceConstructPosContext);
 namespace System::Xml::Schema {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11603))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11501))
 // CS Name: ::SequenceNode::SequenceConstructPosContext
 struct CORDL_TYPE __SequenceNode__SequenceConstructPosContext {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x28ae760, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28b1dc8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::SequenceNode* node, ::System::Xml::Schema::BitSet* firstpos, ::System::Xml::Schema::BitSet* lastpos);
 
   // Ctor Parameters [CppParam { name: "this_", ty: "::System::Xml::Schema::SequenceNode*", modifiers: "", def_value: None }, CppParam { name: "firstpos", ty: "::System::Xml::Schema::BitSet*",
@@ -92,8 +92,8 @@ static_assert(offsetof(::System::Xml::Schema::__SequenceNode__SequenceConstructP
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11602))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11604))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11500))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11502))
 // CS Name: ::System.Xml.Schema::SequenceNode*
 class CORDL_TYPE SequenceNode : public ::System::Xml::Schema::InteriorNode {
 public:
@@ -102,19 +102,19 @@ public:
 
   __declspec(property(get = get_IsNullable)) bool IsNullable;
 
-  /// @brief Method ConstructPos, addr 0x28ae418, size 0x348, virtual true, abstract: false, final false
+  /// @brief Method ConstructPos, addr 0x28b1a80, size 0x348, virtual true, abstract: false, final false
   inline void ConstructPos(::System::Xml::Schema::BitSet* firstpos, ::System::Xml::Schema::BitSet* lastpos,
                            ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*> followpos);
 
-  /// @brief Method get_IsNullable, addr 0x28ae770, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method get_IsNullable, addr 0x28b1dd8, size 0x15c, virtual true, abstract: false, final false
   inline bool get_IsNullable();
 
-  /// @brief Method ExpandTree, addr 0x28ae8cc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ExpandTree, addr 0x28b1f34, size 0x4, virtual true, abstract: false, final false
   inline void ExpandTree(::System::Xml::Schema::InteriorNode* parent, ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions);
 
   static inline ::System::Xml::Schema::SequenceNode* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28ae8d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28b1f38, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SequenceNode", modifiers: "&&", def_value: None }]

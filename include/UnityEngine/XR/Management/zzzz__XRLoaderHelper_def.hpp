@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::UnityEngine::XR::Management::XRLoaderHelper);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::XR::Management {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16035))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16036))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16153))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16154))
 // CS Name: ::UnityEngine.XR.Management::XRLoaderHelper*
 class CORDL_TYPE XRLoaderHelper : public ::UnityEngine::XR::Management::XRLoader {
 public:
@@ -64,12 +64,12 @@ public:
   /// @brief Method CreateStandaloneSubsystem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TDescriptor, typename TSubsystem> inline void CreateStandaloneSubsystem(::System::Collections::Generic::List_1<TDescriptor>* descriptors, ::StringW id);
 
-  /// @brief Method Deinitialize, addr 0x2c76514, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Deinitialize, addr 0x2c73080, size 0x58, virtual true, abstract: false, final false
   inline bool Deinitialize();
 
   static inline ::UnityEngine::XR::Management::XRLoaderHelper* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c7656c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c730d8, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "XRLoaderHelper", modifiers: "&&", def_value: None }]

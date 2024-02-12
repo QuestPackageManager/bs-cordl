@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IBeatmapObjectSpawner);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4731))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4082))
 // CS Name: ::IBeatmapObjectSpawner*
 class CORDL_TYPE IBeatmapObjectSpawner {
 public:

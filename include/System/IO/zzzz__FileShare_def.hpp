@@ -16,7 +16,7 @@ MARK_VAL_T(::System::IO::FileShare);
 namespace System::IO {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3564))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3560))
 // CS Name: ::System.IO::FileShare
 struct CORDL_TYPE FileShare {
 public:

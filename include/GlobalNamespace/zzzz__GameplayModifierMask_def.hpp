@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::GameplayModifierMask);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14997))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14870))
 // CS Name: ::GameplayModifierMask
 struct CORDL_TYPE GameplayModifierMask {
 public:

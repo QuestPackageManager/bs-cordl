@@ -17,12 +17,12 @@ MARK_REF_PTR_T(::UnityEngine::ScriptingRuntime);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10202))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8946))
 // CS Name: ::UnityEngine::ScriptingRuntime*
 class CORDL_TYPE ScriptingRuntime : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetAllUserAssemblies, addr 0x2cd0a48, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetAllUserAssemblies, addr 0x2cd79f0, size 0x28, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> GetAllUserAssemblies();
 
   // Ctor Parameters [CppParam { name: "", ty: "ScriptingRuntime", modifiers: "&&", def_value: None }]

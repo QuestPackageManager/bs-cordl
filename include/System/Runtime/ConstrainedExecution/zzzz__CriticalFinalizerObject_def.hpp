@@ -15,17 +15,17 @@ MARK_REF_PTR_T(::System::Runtime::ConstrainedExecution::CriticalFinalizerObject)
 namespace System::Runtime::ConstrainedExecution {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3354))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3351))
 // CS Name: ::System.Runtime.ConstrainedExecution::CriticalFinalizerObject*
 class CORDL_TYPE CriticalFinalizerObject : public ::System::Object {
 public:
   // Declarations
   static inline ::System::Runtime::ConstrainedExecution::CriticalFinalizerObject* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24d76ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f833c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Finalize, addr 0x24da714, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x24fac44, size 0x8, virtual true, abstract: false, final false
   inline void Finalize();
 
   // Ctor Parameters [CppParam { name: "", ty: "CriticalFinalizerObject", modifiers: "&&", def_value: None }]

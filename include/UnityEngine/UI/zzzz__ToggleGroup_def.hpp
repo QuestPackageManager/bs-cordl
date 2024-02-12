@@ -38,7 +38,7 @@ MARK_REF_PTR_T(::UnityEngine::UI::__ToggleGroup____c);
 namespace UnityEngine::UI {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13132))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13030))
 // CS Name: ::ToggleGroup::<>c*
 class CORDL_TYPE __ToggleGroup____c : public ::System::Object {
 public:
@@ -66,13 +66,13 @@ public:
 
   static inline ::UnityEngine::UI::__ToggleGroup____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d8d914, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2daacfc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <AnyTogglesOn>b__13_0, addr 0x2d8d91c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <AnyTogglesOn>b__13_0, addr 0x2daad04, size 0x18, virtual false, abstract: false, final false
   inline bool _AnyTogglesOn_b__13_0(::UnityEngine::UI::Toggle* x);
 
-  /// @brief Method <ActiveToggles>b__14_0, addr 0x2d8d934, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <ActiveToggles>b__14_0, addr 0x2daad1c, size 0x18, virtual false, abstract: false, final false
   inline bool _ActiveToggles_b__14_0(::UnityEngine::UI::Toggle* x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ToggleGroup____c", modifiers: "&&", def_value: None }]
@@ -99,8 +99,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::__ToggleGroup__
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13214))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13133))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13112))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13031))
 // CS Name: ::UnityEngine.UI::ToggleGroup*
 class CORDL_TYPE ToggleGroup : public ::UnityEngine::EventSystems::UIBehaviour {
 public:
@@ -127,48 +127,48 @@ public:
 
   constexpr void __cordl_internal_set_m_Toggles(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Toggle>>* value);
 
-  /// @brief Method get_allowSwitchOff, addr 0x2d8d41c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_allowSwitchOff, addr 0x2daa804, size 0x8, virtual false, abstract: false, final false
   inline bool get_allowSwitchOff();
 
-  /// @brief Method set_allowSwitchOff, addr 0x2d8d424, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_allowSwitchOff, addr 0x2daa80c, size 0xc, virtual false, abstract: false, final false
   inline void set_allowSwitchOff(bool value);
 
   static inline ::UnityEngine::UI::ToggleGroup* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d8d430, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2daa818, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Start, addr 0x2d8d4ac, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x2daa894, size 0x1c, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnEnable, addr 0x2d8d4c8, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x2daa8b0, size 0x1c, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method ValidateToggleIsInGroup, addr 0x2d8d4e4, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method ValidateToggleIsInGroup, addr 0x2daa8cc, size 0x158, virtual false, abstract: false, final false
   inline void ValidateToggleIsInGroup(::UnityEngine::UI::Toggle* toggle);
 
-  /// @brief Method NotifyToggleOn, addr 0x2d8d128, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method NotifyToggleOn, addr 0x2daa510, size 0x10c, virtual false, abstract: false, final false
   inline void NotifyToggleOn(::UnityEngine::UI::Toggle* toggle, bool sendCallback);
 
-  /// @brief Method UnregisterToggle, addr 0x2d8cfc4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method UnregisterToggle, addr 0x2daa3ac, size 0x90, virtual false, abstract: false, final false
   inline void UnregisterToggle(::UnityEngine::UI::Toggle* toggle);
 
-  /// @brief Method RegisterToggle, addr 0x2d8d054, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method RegisterToggle, addr 0x2daa43c, size 0xd4, virtual false, abstract: false, final false
   inline void RegisterToggle(::UnityEngine::UI::Toggle* toggle);
 
-  /// @brief Method EnsureValidState, addr 0x2d8c8f4, size 0x3ec, virtual false, abstract: false, final false
+  /// @brief Method EnsureValidState, addr 0x2da9cdc, size 0x3ec, virtual false, abstract: false, final false
   inline void EnsureValidState();
 
-  /// @brief Method AnyTogglesOn, addr 0x2d8d254, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method AnyTogglesOn, addr 0x2daa63c, size 0x13c, virtual false, abstract: false, final false
   inline bool AnyTogglesOn();
 
-  /// @brief Method ActiveToggles, addr 0x2d8d63c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ActiveToggles, addr 0x2daaa24, size 0xfc, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::UI::Toggle>>* ActiveToggles();
 
-  /// @brief Method GetFirstActiveToggle, addr 0x2d8d738, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetFirstActiveToggle, addr 0x2daab20, size 0x88, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Toggle> GetFirstActiveToggle();
 
-  /// @brief Method SetAllTogglesOff, addr 0x2d8d7c0, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method SetAllTogglesOff, addr 0x2daaba8, size 0xf0, virtual false, abstract: false, final false
   inline void SetAllTogglesOff(bool sendCallback);
 
   // Ctor Parameters [CppParam { name: "", ty: "ToggleGroup", modifiers: "&&", def_value: None }]

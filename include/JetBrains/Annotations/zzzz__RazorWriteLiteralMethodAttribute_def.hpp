@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::JetBrains::Annotations::RazorWriteLiteralMethodAttribute);
 namespace JetBrains::Annotations {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15807))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15957))
 // CS Name: ::JetBrains.Annotations::RazorWriteLiteralMethodAttribute*
 class CORDL_TYPE RazorWriteLiteralMethodAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::JetBrains::Annotations::RazorWriteLiteralMethodAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2eba9a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ed6af0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RazorWriteLiteralMethodAttribute", modifiers: "&&", def_value: None }]

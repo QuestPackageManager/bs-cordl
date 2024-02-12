@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::GlobalNamespace::CommandBufferGrabPass);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10337)), TypeDefinitionIndex(TypeDefinitionIndex(15278))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15277))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9087)), TypeDefinitionIndex(TypeDefinitionIndex(15393))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15392))
 // CS Name: ::CommandBufferGrabPass*
 class CORDL_TYPE CommandBufferGrabPass : public ::GlobalNamespace::CommandBufferGOCore {
 public:
@@ -63,18 +63,18 @@ public:
 
   static inline ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Camera>, ::GlobalNamespace::CommandBufferOwners*>* getStaticF__cameras();
 
-  /// @brief Method CreateCommandBuffer, addr 0x28065ec, size 0x1ec, virtual true, abstract: false, final false
+  /// @brief Method CreateCommandBuffer, addr 0x280add4, size 0x1ec, virtual true, abstract: false, final false
   inline ::UnityEngine::Rendering::CommandBuffer* CreateCommandBuffer(::UnityEngine::Camera* camera);
 
-  /// @brief Method CamerasDict, addr 0x28067d8, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method CamerasDict, addr 0x280afc0, size 0x58, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Camera>, ::GlobalNamespace::CommandBufferOwners*>* CamerasDict();
 
-  /// @brief Method CommandBufferCameraEvent, addr 0x2806830, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CommandBufferCameraEvent, addr 0x280b018, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::Rendering::CameraEvent CommandBufferCameraEvent();
 
   static inline ::GlobalNamespace::CommandBufferGrabPass* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2806838, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x280b020, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CommandBufferGrabPass", modifiers: "&&", def_value: None }]

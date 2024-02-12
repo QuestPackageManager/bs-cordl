@@ -1,29 +1,27 @@
 #pragma once
-#include "GlobalNamespace/zzzz__BeatmapDifficulty_impl.hpp"
+#include "GlobalNamespace/zzzz__BeatmapKey_impl.hpp"
 #include "GlobalNamespace/zzzz__SceneSetupData_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionGameplaySceneSetupData_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDifficulty_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapKey_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapLevel_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
-#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
 #include "GlobalNamespace/zzzz__MissionObjective_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MissionGameplaySceneSetupData._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionGameplaySceneSetupData::*)(
-    ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*>, bool, ::GlobalNamespace::IPreviewBeatmapLevel*, ::GlobalNamespace::BeatmapDifficulty,
-    ::GlobalNamespace::BeatmapCharacteristicSO*, ::GlobalNamespace::GameplayModifiers*, ::StringW)>(&::GlobalNamespace::MissionGameplaySceneSetupData::_ctor)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x231cce0;
+    ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*>, bool, ByRef<::GlobalNamespace::BeatmapKey>, ::GlobalNamespace::BeatmapLevel*,
+    ::GlobalNamespace::GameplayModifiers*, ::StringW)>(&::GlobalNamespace::MissionGameplaySceneSetupData::_ctor)> {
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x2348e30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionGameplaySceneSetupData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 7>{
+        ::std::array<Il2CppType const*, 6>{
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*>>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IPreviewBeatmapLevel*>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapDifficulty>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapCharacteristicSO*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::GlobalNamespace::BeatmapKey>>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevel*>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiers*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
@@ -54,41 +52,29 @@ constexpr void GlobalNamespace::MissionGameplaySceneSetupData::__cordl_internal_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___autoRestart = value;
 }
-constexpr ::GlobalNamespace::IPreviewBeatmapLevel*& GlobalNamespace::MissionGameplaySceneSetupData::__cordl_internal_get_previewBeatmapLevel() {
+constexpr ::GlobalNamespace::BeatmapKey& GlobalNamespace::MissionGameplaySceneSetupData::__cordl_internal_get_beatmapKey() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___previewBeatmapLevel;
+  return this->___beatmapKey;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IPreviewBeatmapLevel*> const& GlobalNamespace::MissionGameplaySceneSetupData::__cordl_internal_get_previewBeatmapLevel() const {
+constexpr ::GlobalNamespace::BeatmapKey const& GlobalNamespace::MissionGameplaySceneSetupData::__cordl_internal_get_beatmapKey() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___previewBeatmapLevel;
+  return this->___beatmapKey;
 }
-constexpr void GlobalNamespace::MissionGameplaySceneSetupData::__cordl_internal_set_previewBeatmapLevel(::GlobalNamespace::IPreviewBeatmapLevel* value) {
+constexpr void GlobalNamespace::MissionGameplaySceneSetupData::__cordl_internal_set_beatmapKey(::GlobalNamespace::BeatmapKey value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___previewBeatmapLevel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  this->___beatmapKey = value;
 }
-constexpr ::GlobalNamespace::BeatmapDifficulty& GlobalNamespace::MissionGameplaySceneSetupData::__cordl_internal_get_beatmapDifficulty() {
+constexpr ::GlobalNamespace::BeatmapLevel*& GlobalNamespace::MissionGameplaySceneSetupData::__cordl_internal_get_beatmapLevel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___beatmapDifficulty;
+  return this->___beatmapLevel;
 }
-constexpr ::GlobalNamespace::BeatmapDifficulty const& GlobalNamespace::MissionGameplaySceneSetupData::__cordl_internal_get_beatmapDifficulty() const {
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevel*> const& GlobalNamespace::MissionGameplaySceneSetupData::__cordl_internal_get_beatmapLevel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___beatmapDifficulty;
+  return this->___beatmapLevel;
 }
-constexpr void GlobalNamespace::MissionGameplaySceneSetupData::__cordl_internal_set_beatmapDifficulty(::GlobalNamespace::BeatmapDifficulty value) {
+constexpr void GlobalNamespace::MissionGameplaySceneSetupData::__cordl_internal_set_beatmapLevel(::GlobalNamespace::BeatmapLevel* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___beatmapDifficulty = value;
-}
-constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>& GlobalNamespace::MissionGameplaySceneSetupData::__cordl_internal_get_beatmapCharacteristic() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___beatmapCharacteristic;
-}
-constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> const& GlobalNamespace::MissionGameplaySceneSetupData::__cordl_internal_get_beatmapCharacteristic() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___beatmapCharacteristic;
-}
-constexpr void GlobalNamespace::MissionGameplaySceneSetupData::__cordl_internal_set_beatmapCharacteristic(::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___beatmapCharacteristic)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___beatmapLevel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::GameplayModifiers*& GlobalNamespace::MissionGameplaySceneSetupData::__cordl_internal_get_gameplayModifiers() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -116,26 +102,21 @@ constexpr void GlobalNamespace::MissionGameplaySceneSetupData::__cordl_internal_
 }
 inline ::GlobalNamespace::MissionGameplaySceneSetupData*
 GlobalNamespace::MissionGameplaySceneSetupData::New_ctor(::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> missionObjectives, bool autoRestart,
-                                                         ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty,
-                                                         ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
-                                                         ::StringW backButtonText) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MissionGameplaySceneSetupData*>(missionObjectives, autoRestart, previewBeatmapLevel, beatmapDifficulty, beatmapCharacteristic,
-                                                                                                     gameplayModifiers, backButtonText));
+                                                         ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
+                                                         ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::StringW backButtonText) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MissionGameplaySceneSetupData*>(missionObjectives, autoRestart, beatmapKey, beatmapLevel, gameplayModifiers, backButtonText));
 }
 inline void GlobalNamespace::MissionGameplaySceneSetupData::_ctor(::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> missionObjectives, bool autoRestart,
-                                                                  ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty,
-                                                                  ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
-                                                                  ::StringW backButtonText) {
+                                                                  ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
+                                                                  ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::StringW backButtonText) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionGameplaySceneSetupData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 7>{
+      ::std::array<Il2CppType const*, 6>{
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*>>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IPreviewBeatmapLevel*>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapDifficulty>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapCharacteristicSO*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::GlobalNamespace::BeatmapKey>>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevel*>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiers*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, missionObjectives, autoRestart, previewBeatmapLevel, beatmapDifficulty, beatmapCharacteristic, gameplayModifiers,
-                                                          backButtonText);
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, missionObjectives, autoRestart, beatmapKey, beatmapLevel, gameplayModifiers, backButtonText);
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MissionGameplaySceneSetupData::MissionGameplaySceneSetupData() {}

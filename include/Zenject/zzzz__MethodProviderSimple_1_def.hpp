@@ -42,7 +42,7 @@ namespace Zenject {
 template <typename TReturn>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11209))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10351))
 // CS Name: ::Zenject::MethodProviderSimple`1<TReturn>*
 class CORDL_TYPE MethodProviderSimple_1 : public ::System::Object {
 public:

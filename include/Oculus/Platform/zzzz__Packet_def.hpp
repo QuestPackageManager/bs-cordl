@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Packet)
+namespace Oculus::Platform {
+struct SendPolicy;
+}
 namespace System {
 class IDisposable;
 }
@@ -21,7 +24,7 @@ MARK_REF_PTR_T(::Oculus::Platform::Packet);
 namespace Oculus::Platform {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13343))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13263))
 // CS Name: ::Oculus.Platform::Packet*
 class CORDL_TYPE Packet : public ::System::Object {
 public:
@@ -35,6 +38,8 @@ public:
   __declspec(property(get = get_SenderID)) uint64_t SenderID;
 
   __declspec(property(get = get_Size)) uint64_t Size;
+
+  __declspec(property(get = get_Policy))::Oculus::Platform::SendPolicy Policy;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
@@ -56,22 +61,25 @@ public:
 
   static inline ::Oculus::Platform::Packet* New_ctor(void* packetHandle);
 
-  /// @brief Method .ctor, addr 0x26f49c0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x271f0fc, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(void* packetHandle);
 
-  /// @brief Method ReadBytes, addr 0x26f4a70, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method ReadBytes, addr 0x271f1ac, size 0x144, virtual false, abstract: false, final false
   inline uint64_t ReadBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> destination);
 
-  /// @brief Method get_SenderID, addr 0x26f4bb4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_SenderID, addr 0x271f2f0, size 0x58, virtual false, abstract: false, final false
   inline uint64_t get_SenderID();
 
-  /// @brief Method get_Size, addr 0x26f4c0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Size, addr 0x271f348, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_Size();
 
-  /// @brief Method Finalize, addr 0x26f4c14, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method get_Policy, addr 0x271f350, size 0x58, virtual false, abstract: false, final false
+  inline ::Oculus::Platform::SendPolicy get_Policy();
+
+  /// @brief Method Finalize, addr 0x271f3a8, size 0x94, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method Dispose, addr 0x26f4ca8, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x271f43c, size 0x88, virtual true, abstract: false, final true
   inline void Dispose();
 
   // Ctor Parameters [CppParam { name: "", ty: "Packet", modifiers: "&&", def_value: None }]

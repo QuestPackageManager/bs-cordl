@@ -3,10 +3,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(LocalLeaderboardsIdModel)
 namespace GlobalNamespace {
-class IDifficultyBeatmap;
+struct BeatmapKey;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -19,17 +20,17 @@ MARK_REF_PTR_T(::GlobalNamespace::LocalLeaderboardsIdModel);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4205))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10656))
 // CS Name: ::LocalLeaderboardsIdModel*
 class CORDL_TYPE LocalLeaderboardsIdModel : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetLocalLeaderboardID, addr 0x2327554, size 0x8, virtual false, abstract: false, final false
-  static inline ::StringW GetLocalLeaderboardID(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
+  /// @brief Method GetLocalLeaderboardID, addr 0x126b35c, size 0x8, virtual false, abstract: false, final false
+  static inline ::StringW GetLocalLeaderboardID(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey);
 
   static inline ::GlobalNamespace::LocalLeaderboardsIdModel* New_ctor();
 
-  /// @brief Method .ctor, addr 0x232755c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x126b364, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LocalLeaderboardsIdModel", modifiers: "&&", def_value: None }]

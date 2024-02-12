@@ -114,13 +114,13 @@ MARK_VAL_T(::OVR::OpenVR::VREvent_Data_t);
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8666)), TypeDefinitionIndex(TypeDefinitionIndex(8667)), TypeDefinitionIndex(TypeDefinitionIndex(8668)),
-// TypeDefinitionIndex(TypeDefinitionIndex(8669)), TypeDefinitionIndex(TypeDefinitionIndex(8670)), TypeDefinitionIndex(TypeDefinitionIndex(8671)), TypeDefinitionIndex(TypeDefinitionIndex(8672)),
-// TypeDefinitionIndex(TypeDefinitionIndex(8673)), TypeDefinitionIndex(TypeDefinitionIndex(8674)), TypeDefinitionIndex(TypeDefinitionIndex(8675)), TypeDefinitionIndex(TypeDefinitionIndex(8676)),
-// TypeDefinitionIndex(TypeDefinitionIndex(8677)), TypeDefinitionIndex(TypeDefinitionIndex(8678)), TypeDefinitionIndex(TypeDefinitionIndex(8679)), TypeDefinitionIndex(TypeDefinitionIndex(8680)),
-// TypeDefinitionIndex(TypeDefinitionIndex(8681)), TypeDefinitionIndex(TypeDefinitionIndex(8682)), TypeDefinitionIndex(TypeDefinitionIndex(8683)), TypeDefinitionIndex(TypeDefinitionIndex(8684)),
-// TypeDefinitionIndex(TypeDefinitionIndex(8685)), TypeDefinitionIndex(TypeDefinitionIndex(8686)), TypeDefinitionIndex(TypeDefinitionIndex(8687)), TypeDefinitionIndex(TypeDefinitionIndex(8688)),
-// TypeDefinitionIndex(TypeDefinitionIndex(8689)), TypeDefinitionIndex(TypeDefinitionIndex(8691))] Self: TypeDefinitionIndex(TypeDefinitionIndex(8642)) CS Name: ::OVR.OpenVR::VREvent_Data_t
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8610)), TypeDefinitionIndex(TypeDefinitionIndex(8611)), TypeDefinitionIndex(TypeDefinitionIndex(8612)),
+// TypeDefinitionIndex(TypeDefinitionIndex(8613)), TypeDefinitionIndex(TypeDefinitionIndex(8614)), TypeDefinitionIndex(TypeDefinitionIndex(8615)), TypeDefinitionIndex(TypeDefinitionIndex(8616)),
+// TypeDefinitionIndex(TypeDefinitionIndex(8617)), TypeDefinitionIndex(TypeDefinitionIndex(8618)), TypeDefinitionIndex(TypeDefinitionIndex(8619)), TypeDefinitionIndex(TypeDefinitionIndex(8620)),
+// TypeDefinitionIndex(TypeDefinitionIndex(8621)), TypeDefinitionIndex(TypeDefinitionIndex(8622)), TypeDefinitionIndex(TypeDefinitionIndex(8623)), TypeDefinitionIndex(TypeDefinitionIndex(8624)),
+// TypeDefinitionIndex(TypeDefinitionIndex(8625)), TypeDefinitionIndex(TypeDefinitionIndex(8626)), TypeDefinitionIndex(TypeDefinitionIndex(8627)), TypeDefinitionIndex(TypeDefinitionIndex(8628)),
+// TypeDefinitionIndex(TypeDefinitionIndex(8629)), TypeDefinitionIndex(TypeDefinitionIndex(8630)), TypeDefinitionIndex(TypeDefinitionIndex(8631)), TypeDefinitionIndex(TypeDefinitionIndex(8632)),
+// TypeDefinitionIndex(TypeDefinitionIndex(8633)), TypeDefinitionIndex(TypeDefinitionIndex(8635))] Self: TypeDefinitionIndex(TypeDefinitionIndex(8586)) CS Name: ::OVR.OpenVR::VREvent_Data_t
 struct CORDL_TYPE VREvent_Data_t {
 public:
   // Declarations

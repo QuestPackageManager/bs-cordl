@@ -57,7 +57,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__BloomPrePassBackgroundNonLightInstancedGroup
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14462))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14356))
 // CS Name: ::BloomPrePassBackgroundNonLightInstancedGroupRenderer::PropertyType
 struct CORDL_TYPE __BloomPrePassBackgroundNonLightInstancedGroupRenderer__PropertyType {
 public:
@@ -114,8 +114,8 @@ static_assert(offsetof(::GlobalNamespace::__BloomPrePassBackgroundNonLightInstan
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14462))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14461))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14356))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14355))
 // CS Name: ::BloomPrePassBackgroundNonLightInstancedGroupRenderer::SupportedProperty*
 class CORDL_TYPE __BloomPrePassBackgroundNonLightInstancedGroupRenderer__SupportedProperty : public ::System::Object {
 public:
@@ -150,7 +150,7 @@ public:
 
   static inline ::GlobalNamespace::__BloomPrePassBackgroundNonLightInstancedGroupRenderer__SupportedProperty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x210583c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2199fe4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__BloomPrePassBackgroundNonLightInstancedGroupRenderer__SupportedProperty", modifiers: "&&", def_value: None }]
@@ -192,8 +192,8 @@ static_assert(offsetof(::GlobalNamespace::__BloomPrePassBackgroundNonLightInstan
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14478))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14463))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14372))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14357))
 // CS Name: ::BloomPrePassBackgroundNonLightInstancedGroupRenderer*
 class CORDL_TYPE BloomPrePassBackgroundNonLightInstancedGroupRenderer : public ::GlobalNamespace::BloomPrePassNonLightPass {
 public:
@@ -311,30 +311,30 @@ public:
 
   static inline int32_t getStaticF__worldSpaceCameraPosID();
 
-  /// @brief Method Awake, addr 0x2104a78, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2199220, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method InitIfNeeded, addr 0x2104a7c, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method InitIfNeeded, addr 0x2199224, size 0x258, virtual false, abstract: false, final false
   inline void InitIfNeeded();
 
-  /// @brief Method Render, addr 0x2104d04, size 0x6c4, virtual true, abstract: false, final false
+  /// @brief Method Render, addr 0x21994ac, size 0x6c4, virtual true, abstract: false, final false
   inline void Render(::UnityEngine::RenderTexture* dest, ::UnityEngine::Matrix4x4 viewMatrix, ::UnityEngine::Matrix4x4 projectionMatrix);
 
-  /// @brief Method GetCachedMatrixArray, addr 0x21053c8, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetCachedMatrixArray, addr 0x2199b70, size 0xdc, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> GetCachedMatrixArray(::StringW propertyName);
 
-  /// @brief Method GetCachedFloatArray, addr 0x2105580, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetCachedFloatArray, addr 0x2199d28, size 0xdc, virtual false, abstract: false, final false
   inline ::ArrayW<float_t, ::Array<float_t>*> GetCachedFloatArray(::StringW propertyName);
 
-  /// @brief Method GetCachedVectorArray, addr 0x21054a4, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetCachedVectorArray, addr 0x2199c4c, size 0xdc, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> GetCachedVectorArray(::StringW propertyName);
 
-  /// @brief Method AutoFillRenderers, addr 0x210565c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method AutoFillRenderers, addr 0x2199e04, size 0x50, virtual false, abstract: false, final false
   inline void AutoFillRenderers();
 
   static inline ::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21056ac, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2199e54, size 0x128, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundNonLightInstancedGroupRenderer", modifiers: "&&", def_value: None }]

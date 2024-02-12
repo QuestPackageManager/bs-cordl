@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::VisualElementUtils);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6917))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6176))
 // CS Name: ::UnityEngine.UIElements::VisualElementUtils*
 class CORDL_TYPE VisualElementUtils : public ::System::Object {
 public:
@@ -45,13 +45,13 @@ public:
 
   static inline ::System::Type* getStaticF_s_FoldoutType();
 
-  /// @brief Method GetUniqueName, addr 0x2e038d0, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetUniqueName, addr 0x2e20cb8, size 0x114, virtual false, abstract: false, final false
   static inline ::StringW GetUniqueName(::StringW nameBase);
 
-  /// @brief Method GetFoldoutDepth, addr 0x2e01fe4, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method GetFoldoutDepth, addr 0x2e1f3cc, size 0xe4, virtual false, abstract: false, final false
   static inline int32_t GetFoldoutDepth(::UnityEngine::UIElements::VisualElement* element);
 
-  /// @brief Method GetListAndFoldoutDepth, addr 0x2e039e4, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetListAndFoldoutDepth, addr 0x2e20dcc, size 0x114, virtual false, abstract: false, final false
   static inline int32_t GetListAndFoldoutDepth(::UnityEngine::UIElements::VisualElement* element);
 
   // Ctor Parameters [CppParam { name: "", ty: "VisualElementUtils", modifiers: "&&", def_value: None }]

@@ -81,34 +81,34 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method .ctor, addr 0xf42034, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf6cec4, size 0x168, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method AddSeedMaterial, addr 0xf4219c, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method AddSeedMaterial, addr 0xf6d02c, size 0xc8, virtual true, abstract: false, final true
   inline void AddSeedMaterial(::ArrayW<uint8_t, ::Array<uint8_t>*> inSeed);
 
-  /// @brief Method AddSeedMaterial, addr 0xf423d0, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method AddSeedMaterial, addr 0xf6d260, size 0xc8, virtual true, abstract: false, final true
   inline void AddSeedMaterial(int64_t rSeed);
 
-  /// @brief Method NextBytes, addr 0xf42590, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method NextBytes, addr 0xf6d420, size 0x1c, virtual true, abstract: false, final true
   inline void NextBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method NextBytes, addr 0xf425ac, size 0x168, virtual true, abstract: false, final true
+  /// @brief Method NextBytes, addr 0xf6d43c, size 0x168, virtual true, abstract: false, final true
   inline void NextBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t start, int32_t len);
 
-  /// @brief Method CycleSeed, addr 0xf42788, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method CycleSeed, addr 0xf6d618, size 0x34, virtual false, abstract: false, final false
   inline void CycleSeed();
 
-  /// @brief Method GenerateState, addr 0xf42714, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GenerateState, addr 0xf6d5a4, size 0x74, virtual false, abstract: false, final false
   inline void GenerateState();
 
-  /// @brief Method DigestAddCounter, addr 0xf42498, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method DigestAddCounter, addr 0xf6d328, size 0xf8, virtual false, abstract: false, final false
   inline void DigestAddCounter(int64_t seedVal);
 
-  /// @brief Method DigestUpdate, addr 0xf42264, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method DigestUpdate, addr 0xf6d0f4, size 0xbc, virtual false, abstract: false, final false
   inline void DigestUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> inSeed);
 
-  /// @brief Method DigestDoFinal, addr 0xf42320, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method DigestDoFinal, addr 0xf6d1b0, size 0xb0, virtual false, abstract: false, final false
   inline void DigestDoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> result);
 
   // Ctor Parameters [CppParam { name: "", ty: "DigestRandomGenerator", modifiers: "&&", def_value: None }]

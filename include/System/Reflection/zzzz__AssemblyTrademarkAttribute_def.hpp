@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::System::Reflection::AssemblyTrademarkAttribute);
 namespace System::Reflection {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3457))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3453))
 // CS Name: ::System.Reflection::AssemblyTrademarkAttribute*
 class CORDL_TYPE AssemblyTrademarkAttribute : public ::System::Attribute {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::System::Reflection::AssemblyTrademarkAttribute* New_ctor(::StringW trademark);
 
-  /// @brief Method .ctor, addr 0x24e6088, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25051e0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW trademark);
 
   // Ctor Parameters [CppParam { name: "", ty: "AssemblyTrademarkAttribute", modifiers: "&&", def_value: None }]

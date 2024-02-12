@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Reflection::AssemblyContentType);
 namespace System::Reflection {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3446))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3442))
 // CS Name: ::System.Reflection::AssemblyContentType
 struct CORDL_TYPE AssemblyContentType {
 public:

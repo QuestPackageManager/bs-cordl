@@ -38,15 +38,15 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider"
   constexpr ::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider* i___Org__BouncyCastle__Crmf__IPKMacPrimitivesProvider() noexcept;
 
-  /// @brief Method CreateDigest, addr 0x121075c, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method CreateDigest, addr 0x123d5ec, size 0x78, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::IDigest* CreateDigest(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digestAlg);
 
-  /// @brief Method CreateMac, addr 0x12107d4, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method CreateMac, addr 0x123d664, size 0x78, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::IMac* CreateMac(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* macAlg);
 
   static inline ::Org::BouncyCastle::Crmf::DefaultPKMacPrimitivesProvider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x121084c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x123d6dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultPKMacPrimitivesProvider", modifiers: "&&", def_value: None }]

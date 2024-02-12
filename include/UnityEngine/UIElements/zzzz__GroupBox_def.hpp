@@ -48,8 +48,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__GroupBox__UxmlTraits);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6800))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7114))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6059))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6373))
 // CS Name: ::GroupBox::UxmlTraits*
 class CORDL_TYPE __GroupBox__UxmlTraits : public ::UnityEngine::UIElements::__BindableElement__UxmlTraits {
 public:
@@ -63,12 +63,12 @@ public:
 
   constexpr void __cordl_internal_set_m_Text(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
-  /// @brief Method Init, addr 0x2e379a8, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x2e53d90, size 0xf8, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::__GroupBox__UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e37aa0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e53e88, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__GroupBox__UxmlTraits", modifiers: "&&", def_value: None }]
@@ -100,8 +100,8 @@ static_assert(offsetof(::UnityEngine::UIElements::__GroupBox__UxmlTraits, ___m_T
 // SizeInfo { instance_size: 968, native_size: -1, calculated_instance_size: 968, calculated_native_size: 968, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6801))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7115))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6060))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6374))
 // CS Name: ::UnityEngine.UIElements::GroupBox*
 class CORDL_TYPE GroupBox : public ::UnityEngine::UIElements::BindableElement {
 public:
@@ -141,17 +141,17 @@ public:
 
   static inline ::StringW getStaticF_labelUssClassName();
 
-  /// @brief Method set_text, addr 0x2e37718, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x2e53b00, size 0x118, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
   static inline ::UnityEngine::UIElements::GroupBox* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e37830, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e53c18, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::GroupBox* New_ctor(::StringW text);
 
-  /// @brief Method .ctor, addr 0x2e37838, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e53c20, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::StringW text);
 
   // Ctor Parameters [CppParam { name: "", ty: "GroupBox", modifiers: "&&", def_value: None }]
@@ -183,14 +183,14 @@ static_assert(offsetof(::UnityEngine::UIElements::GroupBox, ___m_TitleLabel) == 
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7114)), TypeDefinitionIndex(TypeDefinitionIndex(7115)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5261 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7113)) CS Name: ::GroupBox::UxmlFactory*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6256)), TypeDefinitionIndex(TypeDefinitionIndex(6373)), TypeDefinitionIndex(TypeDefinitionIndex(6374)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6256), inst: 5241 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6372)) CS Name: ::GroupBox::UxmlFactory*
 class CORDL_TYPE __GroupBox__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::GroupBox*, ::UnityEngine::UIElements::__GroupBox__UxmlTraits*> {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::__GroupBox__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e37960, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e53d48, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__GroupBox__UxmlFactory", modifiers: "&&", def_value: None }]

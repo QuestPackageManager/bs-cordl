@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::ModestTree::__TypeStringFormatter____c);
 namespace ModestTree {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10622))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9764))
 // CS Name: ::TypeStringFormatter::<>c*
 class CORDL_TYPE __TypeStringFormatter____c : public ::System::Object {
 public:
@@ -53,10 +53,10 @@ public:
 
   static inline ::ModestTree::__TypeStringFormatter____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ebe52c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2eda674, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <PrettyNameInternal>b__2_0, addr 0x2ebe534, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <PrettyNameInternal>b__2_0, addr 0x2eda67c, size 0x54, virtual false, abstract: false, final false
   inline ::StringW _PrettyNameInternal_b__2_0(::System::Type* t);
 
   // Ctor Parameters [CppParam { name: "", ty: "__TypeStringFormatter____c", modifiers: "&&", def_value: None }]
@@ -84,7 +84,7 @@ static_assert(::cordl_internals::size_check_v<::ModestTree::__TypeStringFormatte
 namespace ModestTree {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10623))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9765))
 // CS Name: ::ModestTree::TypeStringFormatter*
 class CORDL_TYPE TypeStringFormatter : public ::System::Object {
 public:
@@ -98,13 +98,13 @@ public:
 
   static inline ::System::Collections::Generic::Dictionary_2<::System::Type*, ::StringW>* getStaticF__prettyNameCache();
 
-  /// @brief Method PrettyName, addr 0x2ebc404, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method PrettyName, addr 0x2ed854c, size 0xec, virtual false, abstract: false, final false
   static inline ::StringW PrettyName(::System::Type* type);
 
-  /// @brief Method PrettyNameInternal, addr 0x2ebdd0c, size 0x438, virtual false, abstract: false, final false
+  /// @brief Method PrettyNameInternal, addr 0x2ed9e54, size 0x438, virtual false, abstract: false, final false
   static inline ::StringW PrettyNameInternal(::System::Type* type);
 
-  /// @brief Method GetCSharpTypeName, addr 0x2ebe144, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method GetCSharpTypeName, addr 0x2eda28c, size 0x2f8, virtual false, abstract: false, final false
   static inline ::StringW GetCSharpTypeName(::StringW typeName);
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeStringFormatter", modifiers: "&&", def_value: None }]

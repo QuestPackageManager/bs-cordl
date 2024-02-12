@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Android::AndroidGravitySensor);
 // SizeInfo { instance_size: 352, native_size: -1, calculated_instance_size: 352, calculated_native_size: 352, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Android {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6277))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6438))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5536))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5697))
 // CS Name: ::UnityEngine.InputSystem.Android::AndroidGravitySensor*
 class CORDL_TYPE AndroidGravitySensor : public ::UnityEngine::InputSystem::GravitySensor {
 public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Android::AndroidGravitySensor* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ae59f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ae7564, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AndroidGravitySensor", modifiers: "&&", def_value: None }]

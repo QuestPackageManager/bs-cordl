@@ -27,8 +27,8 @@ namespace UnityEngine::InputSystem {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6189))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6190))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5448))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5449))
 // CS Name: ::UnityEngine.InputSystem::InputBindingComposite`1<TValue>*
 class CORDL_TYPE InputBindingComposite_1 : public ::UnityEngine::InputSystem::InputBindingComposite {
 public:

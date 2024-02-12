@@ -38,34 +38,34 @@ public:
 
   static inline ::System::Security::SecurityDocument* New_ctor(int32_t numData);
 
-  /// @brief Method .ctor, addr 0x2450378, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24711dc, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(int32_t numData);
 
-  /// @brief Method GuaranteeSize, addr 0x24503e0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GuaranteeSize, addr 0x2471244, size 0xa4, virtual false, abstract: false, final false
   inline void GuaranteeSize(int32_t size);
 
-  /// @brief Method AddString, addr 0x2450484, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method AddString, addr 0x24712e8, size 0x14c, virtual false, abstract: false, final false
   inline void AddString(::StringW str, ByRef<int32_t> position);
 
-  /// @brief Method AppendString, addr 0x24505d0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method AppendString, addr 0x2471434, size 0x98, virtual false, abstract: false, final false
   inline void AppendString(::StringW str, ByRef<int32_t> position);
 
-  /// @brief Method EncodedStringSize, addr 0x2450668, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method EncodedStringSize, addr 0x24714cc, size 0x20, virtual false, abstract: false, final false
   static inline int32_t EncodedStringSize(::StringW str);
 
-  /// @brief Method GetString, addr 0x2450688, size 0x310, virtual false, abstract: false, final false
+  /// @brief Method GetString, addr 0x24714ec, size 0x310, virtual false, abstract: false, final false
   inline ::StringW GetString(ByRef<int32_t> position, bool bCreate);
 
-  /// @brief Method AddToken, addr 0x2450c04, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method AddToken, addr 0x2471a68, size 0x5c, virtual false, abstract: false, final false
   inline void AddToken(uint8_t b, ByRef<int32_t> position);
 
-  /// @brief Method GetRootElement, addr 0x2450c60, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetRootElement, addr 0x2471ac4, size 0x1c, virtual false, abstract: false, final false
   inline ::System::Security::SecurityElement* GetRootElement();
 
-  /// @brief Method GetElement, addr 0x2450c7c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetElement, addr 0x2471ae0, size 0x1c, virtual false, abstract: false, final false
   inline ::System::Security::SecurityElement* GetElement(int32_t position, bool bCreate);
 
-  /// @brief Method InternalGetElement, addr 0x2450c98, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method InternalGetElement, addr 0x2471afc, size 0x208, virtual false, abstract: false, final false
   inline ::System::Security::SecurityElement* InternalGetElement(ByRef<int32_t> position, bool bCreate);
 
   // Ctor Parameters [CppParam { name: "", ty: "SecurityDocument", modifiers: "&&", def_value: None }]

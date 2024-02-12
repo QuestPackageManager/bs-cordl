@@ -36,8 +36,8 @@ MARK_REF_PTR_T(::System::Xml::Schema::NamespaceListNode);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11599))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11601))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11497))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11499))
 // CS Name: ::System.Xml.Schema::NamespaceListNode*
 class CORDL_TYPE NamespaceListNode : public ::System::Xml::Schema::SyntaxTreeNode {
 public:
@@ -64,20 +64,20 @@ public:
 
   static inline ::System::Xml::Schema::NamespaceListNode* New_ctor(::System::Xml::Schema::NamespaceList* namespaceList, ::System::Object* particle);
 
-  /// @brief Method .ctor, addr 0x28adc60, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28b12c8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::NamespaceList* namespaceList, ::System::Object* particle);
 
-  /// @brief Method GetResolvedSymbols, addr 0x28adc8c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetResolvedSymbols, addr 0x28b12f4, size 0x20, virtual true, abstract: false, final false
   inline ::System::Collections::ICollection* GetResolvedSymbols(::System::Xml::Schema::SymbolsDictionary* symbols);
 
-  /// @brief Method ExpandTree, addr 0x28adcac, size 0x478, virtual true, abstract: false, final false
+  /// @brief Method ExpandTree, addr 0x28b1314, size 0x478, virtual true, abstract: false, final false
   inline void ExpandTree(::System::Xml::Schema::InteriorNode* parent, ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions);
 
-  /// @brief Method ConstructPos, addr 0x28ae12c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method ConstructPos, addr 0x28b1794, size 0x40, virtual true, abstract: false, final false
   inline void ConstructPos(::System::Xml::Schema::BitSet* firstpos, ::System::Xml::Schema::BitSet* lastpos,
                            ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*> followpos);
 
-  /// @brief Method get_IsNullable, addr 0x28ae16c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_IsNullable, addr 0x28b17d4, size 0x40, virtual true, abstract: false, final false
   inline bool get_IsNullable();
 
   // Ctor Parameters [CppParam { name: "", ty: "NamespaceListNode", modifiers: "&&", def_value: None }]

@@ -53,24 +53,24 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo* New_ctor(::StringW ldsVersion, ::StringW unicodeVersion);
 
-  /// @brief Method .ctor, addr 0xf75904, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfa0794, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::StringW ldsVersion, ::StringW unicodeVersion);
 
   static inline ::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xf759a4, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfa0834, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance, addr 0xf7545c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xfa02ec, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetLdsVersion, addr 0xf75a8c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetLdsVersion, addr 0xfa091c, size 0x20, virtual true, abstract: false, final false
   inline ::StringW GetLdsVersion();
 
-  /// @brief Method GetUnicodeVersion, addr 0xf75aac, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetUnicodeVersion, addr 0xfa093c, size 0x20, virtual true, abstract: false, final false
   inline ::StringW GetUnicodeVersion();
 
-  /// @brief Method ToAsn1Object, addr 0xf75acc, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xfa095c, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "LdsVersionInfo", modifiers: "&&", def_value: None }]

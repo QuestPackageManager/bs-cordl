@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext);
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15342))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15502))
 // CS Name: ::UnityEngine.ProBuilder.Poly2Tri::TriangulationDebugContext*
 class CORDL_TYPE TriangulationDebugContext : public ::System::Object {
 public:
@@ -34,7 +34,7 @@ public:
 
   static inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext* New_ctor(::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* tcx);
 
-  /// @brief Method .ctor, addr 0x2b34cd4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b33840, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* tcx);
 
   /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

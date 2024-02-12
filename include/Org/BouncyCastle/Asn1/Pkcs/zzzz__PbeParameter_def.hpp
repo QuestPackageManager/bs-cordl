@@ -60,26 +60,26 @@ public:
 
   constexpr void __cordl_internal_set_iterationCount(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method GetInstance, addr 0xf8956c, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xfb43fc, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::PbeParameter* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::PbeParameter* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xf896f4, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfb4584, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::PbeParameter* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount);
 
-  /// @brief Method .ctor, addr 0xf897dc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfb466c, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount);
 
-  /// @brief Method GetSalt, addr 0xf89890, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetSalt, addr 0xfb4720, size 0x20, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSalt();
 
-  /// @brief Method get_IterationCount, addr 0xf898b0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_IterationCount, addr 0xfb4740, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_IterationCount();
 
-  /// @brief Method ToAsn1Object, addr 0xf898cc, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xfb475c, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "PbeParameter", modifiers: "&&", def_value: None }]

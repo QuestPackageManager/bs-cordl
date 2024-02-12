@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::System::ComponentModel::TypeDescriptionProviderAttribute);
 namespace System::ComponentModel {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9461))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7471))
 // CS Name: ::System.ComponentModel::TypeDescriptionProviderAttribute*
 class CORDL_TYPE TypeDescriptionProviderAttribute : public ::System::Attribute {
 public:
@@ -34,10 +34,10 @@ public:
 
   static inline ::System::ComponentModel::TypeDescriptionProviderAttribute* New_ctor(::StringW typeName);
 
-  /// @brief Method .ctor, addr 0x29192b4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x291d91c, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::StringW typeName);
 
-  /// @brief Method get_TypeName, addr 0x291932c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TypeName, addr 0x291d994, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_TypeName();
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeDescriptionProviderAttribute", modifiers: "&&", def_value: None }]

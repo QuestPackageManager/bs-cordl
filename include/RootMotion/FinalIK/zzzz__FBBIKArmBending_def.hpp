@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::FBBIKArmBending);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 113, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12545))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(8996))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12443))
 // CS Name: ::RootMotion.FinalIK::FBBIKArmBending*
 class CORDL_TYPE FBBIKArmBending : public ::UnityEngine::MonoBehaviour {
 public:
@@ -97,18 +97,18 @@ public:
 
   constexpr void __cordl_internal_set_initiated(bool value);
 
-  /// @brief Method LateUpdate, addr 0x1251204, size 0x49c, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x12eb2b4, size 0x49c, virtual false, abstract: false, final false
   inline void LateUpdate();
 
-  /// @brief Method OnPostFBBIK, addr 0x12516a0, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method OnPostFBBIK, addr 0x12eb750, size 0x194, virtual false, abstract: false, final false
   inline void OnPostFBBIK();
 
-  /// @brief Method OnDestroy, addr 0x1251834, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x12eb8e4, size 0x10c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   static inline ::RootMotion::FinalIK::FBBIKArmBending* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1251940, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12eb9f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FBBIKArmBending", modifiers: "&&", def_value: None }]

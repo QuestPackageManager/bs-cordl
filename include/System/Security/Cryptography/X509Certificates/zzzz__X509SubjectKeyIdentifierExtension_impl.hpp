@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::*)()>(
     &::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2986774;
+  constexpr static std::size_t addrs = 0x298a218;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::*)(
     ::System::Security::Cryptography::AsnEncodedData*, bool)>(&::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::_ctor)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x2986810;
+  constexpr static std::size_t addrs = 0x298a2b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, bool)>(&::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::_ctor)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x2986a40;
+  constexpr static std::size_t addrs = 0x298a4e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::*)(::StringW, bool)>(
     &::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::_ctor)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x2986c6c;
+  constexpr static std::size_t addrs = 0x298a710;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::*)(
     ::System::Security::Cryptography::X509Certificates::PublicKey*, bool)>(&::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2986ec4;
+  constexpr static std::size_t addrs = 0x298a968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,7 +95,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Security::Cryptography::X509Certificates::PublicKey*, ::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierHashAlgorithm, bool)>(
     &::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::_ctor)> {
   constexpr static std::size_t size = 0x3cc;
-  constexpr static std::size_t addrs = 0x2986ed0;
+  constexpr static std::size_t addrs = 0x298a974;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::*)()>(
     &::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::get_SubjectKeyIdentifier)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x298729c;
+  constexpr static std::size_t addrs = 0x298ad40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::*)(
     ::System::Security::Cryptography::AsnEncodedData*)>(&::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::CopyFrom)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x2987324;
+  constexpr static std::size_t addrs = 0x298adc8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(char16_t)>(
     &::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::FromHexChar)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2987504;
+  constexpr static std::size_t addrs = 0x298afa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(char16_t, char16_t)>(
     &::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::FromHexChars)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x298754c;
+  constexpr static std::size_t addrs = 0x298aff0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -175,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::StringW)>(
     &::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::FromHex)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x2986dd4;
+  constexpr static std::size_t addrs = 0x298a878;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -191,7 +191,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Security::Cryptography::AsnDecodeStatus (::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
         &::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::Decode)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x29868dc;
+  constexpr static std::size_t addrs = 0x298a380;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -206,7 +206,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (
     ::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::*)()>(&::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::Encode)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x2986bf8;
+  constexpr static std::size_t addrs = 0x298a69c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -221,7 +221,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::*)(bool)>(
     &::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::ToString)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x29875e8;
+  constexpr static std::size_t addrs = 0x298b08c;
 
   inline static ::MethodInfo const* methodInfo() {
 

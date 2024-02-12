@@ -25,19 +25,19 @@ MARK_REF_PTR_T(::UnityEngine::Events::BaseInvokableCall);
 namespace UnityEngine::Events {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10450))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9219))
 // CS Name: ::UnityEngine.Events::BaseInvokableCall*
 class CORDL_TYPE BaseInvokableCall : public ::System::Object {
 public:
   // Declarations
   static inline ::UnityEngine::Events::BaseInvokableCall* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2cf8420, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d030fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Events::BaseInvokableCall* New_ctor(::System::Object* target, ::System::Reflection::MethodInfo* function);
 
-  /// @brief Method .ctor, addr 0x2cf8428, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d03104, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* target, ::System::Reflection::MethodInfo* function);
 
   /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -46,7 +46,7 @@ public:
   /// @brief Method ThrowOnInvalidArg, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void ThrowOnInvalidArg(::System::Object* arg);
 
-  /// @brief Method AllowInvoke, addr 0x2cf8510, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method AllowInvoke, addr 0x2d031ec, size 0xa8, virtual false, abstract: false, final false
   static inline bool AllowInvoke(::System::Delegate* delegate);
 
   /// @brief Method Find, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

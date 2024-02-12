@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::UnityEngine::SpatialTracking::PoseDataSource);
 namespace UnityEngine::SpatialTracking {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16192))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16340))
 // CS Name: ::UnityEngine.SpatialTracking::PoseDataSource*
 class CORDL_TYPE PoseDataSource : public ::System::Object {
 public:
@@ -46,13 +46,13 @@ public:
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::XR::XRNodeState>* getStaticF_nodeStates();
 
-  /// @brief Method GetNodePoseData, addr 0x2d19334, size 0x280, virtual false, abstract: false, final false
+  /// @brief Method GetNodePoseData, addr 0x2d39ddc, size 0x280, virtual false, abstract: false, final false
   static inline ::UnityEngine::SpatialTracking::PoseDataFlags GetNodePoseData(::UnityEngine::XR::XRNode node, ByRef<::UnityEngine::Pose> resultPose);
 
-  /// @brief Method TryGetDataFromSource, addr 0x2d195b4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method TryGetDataFromSource, addr 0x2d3a05c, size 0x70, virtual false, abstract: false, final false
   static inline bool TryGetDataFromSource(::UnityEngine::SpatialTracking::__TrackedPoseDriver__TrackedPose poseSource, ByRef<::UnityEngine::Pose> resultPose);
 
-  /// @brief Method GetDataFromSource, addr 0x2d19624, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method GetDataFromSource, addr 0x2d3a0cc, size 0x270, virtual false, abstract: false, final false
   static inline ::UnityEngine::SpatialTracking::PoseDataFlags GetDataFromSource(::UnityEngine::SpatialTracking::__TrackedPoseDriver__TrackedPose poseSource, ByRef<::UnityEngine::Pose> resultPose);
 
   // Ctor Parameters [CppParam { name: "", ty: "PoseDataSource", modifiers: "&&", def_value: None }]

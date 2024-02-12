@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MockPause);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5055))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4408))
 // CS Name: ::MockPause*
 class CORDL_TYPE MockPause : public ::System::Object {
 public:
@@ -61,39 +61,39 @@ public:
 
   constexpr void __cordl_internal_set_didResumeEvent(::System::Action* value);
 
-  /// @brief Method get_isPaused, addr 0x23c4294, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isPaused, addr 0x2381bcc, size 0x8, virtual true, abstract: false, final true
   inline bool get_isPaused();
 
-  /// @brief Method add_didPauseEvent, addr 0x23c429c, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_didPauseEvent, addr 0x2381bd4, size 0x9c, virtual true, abstract: false, final true
   inline void add_didPauseEvent(::System::Action* value);
 
-  /// @brief Method remove_didPauseEvent, addr 0x23c4338, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_didPauseEvent, addr 0x2381c70, size 0x9c, virtual true, abstract: false, final true
   inline void remove_didPauseEvent(::System::Action* value);
 
-  /// @brief Method add_willResumeEvent, addr 0x23c43d4, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_willResumeEvent, addr 0x2381d0c, size 0x9c, virtual true, abstract: false, final true
   inline void add_willResumeEvent(::System::Action* value);
 
-  /// @brief Method remove_willResumeEvent, addr 0x23c4470, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_willResumeEvent, addr 0x2381da8, size 0x9c, virtual true, abstract: false, final true
   inline void remove_willResumeEvent(::System::Action* value);
 
-  /// @brief Method add_didResumeEvent, addr 0x23c450c, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_didResumeEvent, addr 0x2381e44, size 0x9c, virtual true, abstract: false, final true
   inline void add_didResumeEvent(::System::Action* value);
 
-  /// @brief Method remove_didResumeEvent, addr 0x23c45a8, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_didResumeEvent, addr 0x2381ee0, size 0x9c, virtual true, abstract: false, final true
   inline void remove_didResumeEvent(::System::Action* value);
 
-  /// @brief Method Pause, addr 0x23c4644, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method Pause, addr 0x2381f7c, size 0x40, virtual true, abstract: false, final true
   inline void Pause();
 
-  /// @brief Method WillResume, addr 0x23c4684, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method WillResume, addr 0x2381fbc, size 0x40, virtual true, abstract: false, final true
   inline void WillResume();
 
-  /// @brief Method Resume, addr 0x23c46c4, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method Resume, addr 0x2381ffc, size 0x40, virtual true, abstract: false, final true
   inline void Resume();
 
   static inline ::GlobalNamespace::MockPause* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23c4704, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x238203c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MockPause", modifiers: "&&", def_value: None }]

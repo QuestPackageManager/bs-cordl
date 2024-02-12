@@ -23,21 +23,21 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Android::AndroidSupport);
 namespace UnityEngine::InputSystem::Android {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6444))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5703))
 // CS Name: ::UnityEngine.InputSystem.Android::AndroidSupport*
 class CORDL_TYPE AndroidSupport : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Initialize, addr 0x2ae5a28, size 0x8f4, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x2ae7594, size 0x8f4, virtual false, abstract: false, final false
   static inline void Initialize();
 
-  /// @brief Method OnFindLayoutForDevice, addr 0x2ae631c, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method OnFindLayoutForDevice, addr 0x2ae7e88, size 0x254, virtual false, abstract: false, final false
   static inline ::StringW OnFindLayoutForDevice(ByRef<::UnityEngine::InputSystem::Layouts::InputDeviceDescription> description, ::StringW matchedLayout,
                                                 ::UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDelegate* executeCommandDelegate);
 
   static inline ::UnityEngine::InputSystem::Android::AndroidSupport* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ae6630, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ae819c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AndroidSupport", modifiers: "&&", def_value: None }]

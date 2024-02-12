@@ -73,34 +73,34 @@ public:
 
   static inline int32_t getStaticF_MAXIMUM_WAITERS();
 
-  /// @brief Method .ctor, addr 0x2615e10, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263ad18, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(bool enableThreadOwnerTracking);
 
-  /// @brief Method Enter, addr 0x2615e48, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Enter, addr 0x263ad50, size 0x7c, virtual false, abstract: false, final false
   inline void Enter(ByRef<bool> lockTaken);
 
-  /// @brief Method TryEnter, addr 0x261639c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method TryEnter, addr 0x263b2a4, size 0x98, virtual false, abstract: false, final false
   inline void TryEnter(int32_t millisecondsTimeout, ByRef<bool> lockTaken);
 
-  /// @brief Method ContinueTryEnter, addr 0x2615f14, size 0x488, virtual false, abstract: false, final false
+  /// @brief Method ContinueTryEnter, addr 0x263ae1c, size 0x488, virtual false, abstract: false, final false
   inline void ContinueTryEnter(int32_t millisecondsTimeout, ByRef<bool> lockTaken);
 
-  /// @brief Method DecrementWaiters, addr 0x26165c8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method DecrementWaiters, addr 0x263b4d0, size 0x60, virtual false, abstract: false, final false
   inline void DecrementWaiters();
 
-  /// @brief Method ContinueTryEnterWithThreadTracking, addr 0x26164a0, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method ContinueTryEnterWithThreadTracking, addr 0x263b3a8, size 0x128, virtual false, abstract: false, final false
   inline void ContinueTryEnterWithThreadTracking(int32_t millisecondsTimeout, uint32_t startTime, ByRef<bool> lockTaken);
 
-  /// @brief Method Exit, addr 0x2616758, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Exit, addr 0x263b660, size 0x50, virtual false, abstract: false, final false
   inline void Exit(bool useMemoryBarrier);
 
-  /// @brief Method ExitSlowPath, addr 0x26167a8, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method ExitSlowPath, addr 0x263b6b0, size 0xe0, virtual false, abstract: false, final false
   inline void ExitSlowPath(bool useMemoryBarrier);
 
-  /// @brief Method get_IsHeldByCurrentThread, addr 0x2616888, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_IsHeldByCurrentThread, addr 0x263b790, size 0xa0, virtual false, abstract: false, final false
   inline bool get_IsHeldByCurrentThread();
 
-  /// @brief Method get_IsThreadOwnerTrackingEnabled, addr 0x2616484, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_IsThreadOwnerTrackingEnabled, addr 0x263b38c, size 0x1c, virtual false, abstract: false, final false
   inline bool get_IsThreadOwnerTrackingEnabled();
 
   // Ctor Parameters [CppParam { name: "m_owner", ty: "int32_t", modifiers: "", def_value: None }]

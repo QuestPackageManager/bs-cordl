@@ -62,13 +62,13 @@ public:
 
   static inline ::System::Runtime::Serialization::SurrogateSelector* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24bf9d0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24e0a44, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method AddSurrogate, addr 0x24bfa48, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method AddSurrogate, addr 0x24e0abc, size 0x14c, virtual true, abstract: false, final false
   inline void AddSurrogate(::System::Type* type, ::System::Runtime::Serialization::StreamingContext context, ::System::Runtime::Serialization::ISerializationSurrogate* surrogate);
 
-  /// @brief Method GetSurrogate, addr 0x24bfbd0, size 0x1fc, virtual true, abstract: false, final false
+  /// @brief Method GetSurrogate, addr 0x24e0c44, size 0x1fc, virtual true, abstract: false, final false
   inline ::System::Runtime::Serialization::ISerializationSurrogate* GetSurrogate(::System::Type* type, ::System::Runtime::Serialization::StreamingContext context,
                                                                                  ByRef<::System::Runtime::Serialization::ISurrogateSelector*> selector);
 

@@ -22,12 +22,12 @@ namespace Org::BouncyCastle::Utilities::Zlib {
 class CORDL_TYPE JZlib : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method version, addr 0x1168870, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method version, addr 0x1197700, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW version();
 
   static inline ::Org::BouncyCastle::Utilities::Zlib::JZlib* New_ctor();
 
-  /// @brief Method .ctor, addr 0x11688b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1197740, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "JZlib", modifiers: "&&", def_value: None }]

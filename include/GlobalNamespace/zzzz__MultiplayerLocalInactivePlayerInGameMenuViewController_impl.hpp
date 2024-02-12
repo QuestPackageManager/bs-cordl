@@ -1,6 +1,7 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLocalInactivePlayerInGameMenuViewController_def.hpp"
+#include "BGLib/Polyglot/zzzz__LocalizedTextMeshProUGUI_def.hpp"
 #include "GlobalNamespace/zzzz__DisconnectPromptView_def.hpp"
 #include "GlobalNamespace/zzzz__LevelBar_def.hpp"
 #include "GlobalNamespace/zzzz__LocalPlayerInGameMenuInitData_def.hpp"
@@ -8,7 +9,6 @@
 #include "GlobalNamespace/zzzz__MultiplayerLocalPlayerDisconnectHelper_def.hpp"
 #include "HMUI/zzzz__ButtonBinder_def.hpp"
 #include "HMUI/zzzz__ToggleBinder_def.hpp"
-#include "Polyglot/zzzz__LocalizedTextMeshProUGUI_def.hpp"
 #include "Tweening/zzzz__TimeTweeningManager_def.hpp"
 #include "Tweening/zzzz__Tween_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::*)()>(
     &::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::OnEnable)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x23c607c;
+  constexpr static std::size_t addrs = 0x23839b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::*)()>(
     &::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::OnDisable)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x23c61cc;
+  constexpr static std::size_t addrs = 0x2383b04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::*)()>(
     &::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::Start)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x23c6278;
+  constexpr static std::size_t addrs = 0x2383bb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::*)()>(
     &::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::OnDestroy)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x23c63c4;
+  constexpr static std::size_t addrs = 0x2383cfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::*)()>(
     &::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::DisconnectButtonPressed)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x23c64f0;
+  constexpr static std::size_t addrs = 0x2383e28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::*)(bool)>(
     &::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::DetailsToggleValueChanged)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x23c6524;
+  constexpr static std::size_t addrs = 0x2383e5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::*)(bool)>(
     &::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::HandleDisconnectPromptViewDidViewFinish)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x23c6544;
+  constexpr static std::size_t addrs = 0x2383e7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::*)(
     ::GlobalNamespace::__MultiplayerController__State)>(&::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::HandleStateChanged)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x23c6608;
+  constexpr static std::size_t addrs = 0x2383f40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::*)()>(
     &::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x23c67cc;
+  constexpr static std::size_t addrs = 0x2384104;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::*)()>(
     &::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::_HandleDisconnectPromptViewDidViewFinish_b__22_0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x23c6864;
+  constexpr static std::size_t addrs = 0x238419c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::*)(float_t)>(
     &::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::_HandleStateChanged_b__23_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x23c6884;
+  constexpr static std::size_t addrs = 0x23841bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -187,7 +187,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::*)()>(
     &::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::_HandleStateChanged_b__23_1)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x23c68a0;
+  constexpr static std::size_t addrs = 0x23841d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -208,15 +208,17 @@ constexpr void GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewCont
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____disconnectButton)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::Polyglot::LocalizedTextMeshProUGUI>& GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::__cordl_internal_get__disconnectButtonLocalizedText() {
+constexpr ::UnityW<::BGLib::Polyglot::LocalizedTextMeshProUGUI>& GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::__cordl_internal_get__disconnectButtonLocalizedText() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disconnectButtonLocalizedText;
 }
-constexpr ::UnityW<::Polyglot::LocalizedTextMeshProUGUI> const& GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::__cordl_internal_get__disconnectButtonLocalizedText() const {
+constexpr ::UnityW<::BGLib::Polyglot::LocalizedTextMeshProUGUI> const&
+GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::__cordl_internal_get__disconnectButtonLocalizedText() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disconnectButtonLocalizedText;
 }
-constexpr void GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::__cordl_internal_set__disconnectButtonLocalizedText(::UnityW<::Polyglot::LocalizedTextMeshProUGUI> value) {
+constexpr void
+GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::__cordl_internal_set__disconnectButtonLocalizedText(::UnityW<::BGLib::Polyglot::LocalizedTextMeshProUGUI> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____disconnectButtonLocalizedText)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }

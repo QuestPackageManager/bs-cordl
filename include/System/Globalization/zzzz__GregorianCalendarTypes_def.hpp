@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Globalization::GregorianCalendarTypes);
 namespace System::Globalization {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3701))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3699))
 // CS Name: ::System.Globalization::GregorianCalendarTypes
 struct CORDL_TYPE GregorianCalendarTypes {
 public:

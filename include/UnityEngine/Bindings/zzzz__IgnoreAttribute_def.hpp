@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::UnityEngine::Bindings::IgnoreAttribute);
 namespace UnityEngine::Bindings {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16030))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16125))
 // CS Name: ::UnityEngine.Bindings::IgnoreAttribute*
 class CORDL_TYPE IgnoreAttribute : public ::System::Attribute {
 public:
@@ -32,12 +32,12 @@ public:
 
   constexpr void __cordl_internal_set__DoesNotContributeToSize_k__BackingField(bool value);
 
-  /// @brief Method set_DoesNotContributeToSize, addr 0x2d189d0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_DoesNotContributeToSize, addr 0x2d39478, size 0xc, virtual false, abstract: false, final false
   inline void set_DoesNotContributeToSize(bool value);
 
   static inline ::UnityEngine::Bindings::IgnoreAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d189dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d39484, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "IgnoreAttribute", modifiers: "&&", def_value: None }]

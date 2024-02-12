@@ -181,48 +181,48 @@ public:
 
   constexpr void __cordl_internal_set_extendedMasterSecret(bool value);
 
-  /// @brief Method Clear, addr 0xf94c8c, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method Clear, addr 0xfc0b1c, size 0x6c, virtual true, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method get_Entity, addr 0xf94cf8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Entity, addr 0xfc0b88, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Entity();
 
-  /// @brief Method get_CipherSuite, addr 0xf94d00, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CipherSuite, addr 0xfc0b90, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_CipherSuite();
 
-  /// @brief Method get_CompressionAlgorithm, addr 0xf94d08, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CompressionAlgorithm, addr 0xfc0b98, size 0x8, virtual true, abstract: false, final false
   inline uint8_t get_CompressionAlgorithm();
 
-  /// @brief Method get_PrfAlgorithm, addr 0xf94d10, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_PrfAlgorithm, addr 0xfc0ba0, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_PrfAlgorithm();
 
-  /// @brief Method get_VerifyDataLength, addr 0xf94d18, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_VerifyDataLength, addr 0xfc0ba8, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_VerifyDataLength();
 
-  /// @brief Method get_MasterSecret, addr 0xf94d20, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_MasterSecret, addr 0xfc0bb0, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_MasterSecret();
 
-  /// @brief Method get_ClientRandom, addr 0xf94d28, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ClientRandom, addr 0xfc0bb8, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_ClientRandom();
 
-  /// @brief Method get_ServerRandom, addr 0xf94d30, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ServerRandom, addr 0xfc0bc0, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_ServerRandom();
 
-  /// @brief Method get_SessionHash, addr 0xf94d38, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SessionHash, addr 0xfc0bc8, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_SessionHash();
 
-  /// @brief Method get_PskIdentity, addr 0xf94d40, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_PskIdentity, addr 0xfc0bd0, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_PskIdentity();
 
-  /// @brief Method get_SrpIdentity, addr 0xf94d48, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SrpIdentity, addr 0xfc0bd8, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_SrpIdentity();
 
-  /// @brief Method get_IsExtendedMasterSecret, addr 0xf94d50, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsExtendedMasterSecret, addr 0xfc0be0, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsExtendedMasterSecret();
 
   static inline ::Org::BouncyCastle::Crypto::Tls::SecurityParameters* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf94d58, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfc0be8, size 0x34, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SecurityParameters", modifiers: "&&", def_value: None }]

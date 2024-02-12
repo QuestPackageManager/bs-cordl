@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::System::Security::AccessControl::AuthorizationRuleCollection);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Security::AccessControl {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3777))]
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3776))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3022))
 // CS Name: ::System.Security.AccessControl::AuthorizationRuleCollection*
 class CORDL_TYPE AuthorizationRuleCollection : public ::System::Collections::ReadOnlyCollectionBase {
@@ -27,7 +27,7 @@ public:
   static inline ::System::Security::AccessControl::AuthorizationRuleCollection*
   New_ctor(::ArrayW<::System::Security::AccessControl::AuthorizationRule*, ::Array<::System::Security::AccessControl::AuthorizationRule*>*> rules);
 
-  /// @brief Method .ctor, addr 0x24809e8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24a2a5c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::System::Security::AccessControl::AuthorizationRule*, ::Array<::System::Security::AccessControl::AuthorizationRule*>*> rules);
 
   // Ctor Parameters [CppParam { name: "", ty: "AuthorizationRuleCollection", modifiers: "&&", def_value: None }]

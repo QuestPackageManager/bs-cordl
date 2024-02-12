@@ -81,43 +81,43 @@ public:
 
   constexpr void __cordl_internal_set_failInfo(::Org::BouncyCastle::Asn1::DerBitString* value);
 
-  /// @brief Method GetInstance, addr 0xe6d598, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xe98428, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-  /// @brief Method GetInstance, addr 0xe65928, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xe907b8, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xe6d5b0, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe98440, size 0x178, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* New_ctor(int32_t status);
 
-  /// @brief Method .ctor, addr 0xe6d728, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe985b8, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(int32_t status);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* New_ctor(int32_t status, ::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* statusString);
 
-  /// @brief Method .ctor, addr 0xe6d7a4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe98634, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(int32_t status, ::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* statusString);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* New_ctor(int32_t status, ::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* statusString,
                                                                         ::Org::BouncyCastle::Asn1::Cmp::PkiFailureInfo* failInfo);
 
-  /// @brief Method .ctor, addr 0xe6d824, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe986b4, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(int32_t status, ::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* statusString, ::Org::BouncyCastle::Asn1::Cmp::PkiFailureInfo* failInfo);
 
-  /// @brief Method get_Status, addr 0xe6d8b4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Status, addr 0xe98744, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Status();
 
-  /// @brief Method get_StatusString, addr 0xe6d8d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StatusString, addr 0xe98760, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* get_StatusString();
 
-  /// @brief Method get_FailInfo, addr 0xe6d8d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FailInfo, addr 0xe98768, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerBitString* get_FailInfo();
 
-  /// @brief Method ToAsn1Object, addr 0xe6d8e0, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xe98770, size 0x174, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "PkiStatusInfo", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Rendering::LightProbeUsage);
 namespace UnityEngine::Rendering {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10349))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9104))
 // CS Name: ::UnityEngine.Rendering::LightProbeUsage
 struct CORDL_TYPE LightProbeUsage {
 public:

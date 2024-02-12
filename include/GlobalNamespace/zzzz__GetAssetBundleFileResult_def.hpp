@@ -16,13 +16,23 @@ MARK_VAL_T(::GlobalNamespace::GetAssetBundleFileResult);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4413))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10836))
 // CS Name: ::GetAssetBundleFileResult
 struct CORDL_TYPE GetAssetBundleFileResult {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x234cdc8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Field Error, offset 0xffffffff, size 0x10
+  static __declspec(property(get = getStaticF_Error, put = setStaticF_Error))::GlobalNamespace::GetAssetBundleFileResult Error;
+
+  static inline void setStaticF_Error(::GlobalNamespace::GetAssetBundleFileResult value);
+
+  static inline ::GlobalNamespace::GetAssetBundleFileResult getStaticF_Error();
+
+  /// @brief Method .ctor, addr 0x128ff24, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(bool isError, ::StringW assetBundlePath);
+
+  /// @brief Method Sucess, addr 0x128ff34, size 0xc, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::GetAssetBundleFileResult Sucess(::StringW assetBundlePath);
 
   // Ctor Parameters [CppParam { name: "isError", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "assetBundlePath", ty: "::StringW", modifiers: "", def_value: None }]
   constexpr GetAssetBundleFileResult(bool isError, ::StringW assetBundlePath) noexcept;

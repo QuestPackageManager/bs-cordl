@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::GlobalNamespace::DefaultScenesTransitionsFromInit);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4023))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3967))
 // CS Name: ::DefaultScenesTransitionsFromInit*
 class CORDL_TYPE DefaultScenesTransitionsFromInit : public ::UnityEngine::MonoBehaviour {
 public:
@@ -99,15 +99,15 @@ public:
 
   constexpr void __cordl_internal_set__gameScenesManager(::UnityW<::GlobalNamespace::GameScenesManager> value);
 
-  /// @brief Method get_mainMenuScenesTransitionSetupData, addr 0x2225d5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mainMenuScenesTransitionSetupData, addr 0x22af560, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MenuScenesTransitionSetupDataSO> get_mainMenuScenesTransitionSetupData();
 
-  /// @brief Method TransitionToNextScene, addr 0x2225d64, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method TransitionToNextScene, addr 0x22af568, size 0x1d0, virtual false, abstract: false, final false
   inline void TransitionToNextScene(bool goStraightToMenu, bool goStraightToEditor, bool goToRecordingToolScene);
 
   static inline ::GlobalNamespace::DefaultScenesTransitionsFromInit* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2225f34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22af738, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultScenesTransitionsFromInit", modifiers: "&&", def_value: None }]

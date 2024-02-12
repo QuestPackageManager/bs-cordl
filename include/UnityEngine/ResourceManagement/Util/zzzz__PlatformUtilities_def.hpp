@@ -18,17 +18,17 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::Util::PlatformUtilities);
 namespace UnityEngine::ResourceManagement::Util {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13974))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13987))
 // CS Name: ::UnityEngine.ResourceManagement.Util::PlatformUtilities*
 class CORDL_TYPE PlatformUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method PlatformUsesMultiThreading, addr 0x2bd2000, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method PlatformUsesMultiThreading, addr 0x2bcfb6c, size 0xc, virtual false, abstract: false, final false
   static inline bool PlatformUsesMultiThreading(::UnityEngine::RuntimePlatform platform);
 
   static inline ::UnityEngine::ResourceManagement::Util::PlatformUtilities* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2bd200c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bcfb78, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PlatformUtilities", modifiers: "&&", def_value: None }]

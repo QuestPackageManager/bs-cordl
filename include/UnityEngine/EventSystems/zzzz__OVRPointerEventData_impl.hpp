@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::OVRPointerEventData::*)(::UnityEngine::EventSystems::EventSystem*)>(
     &::UnityEngine::EventSystems::OVRPointerEventData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x27fa218;
+  constexpr static std::size_t addrs = 0x28076ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,8 +24,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::EventSystems::OVRPointerEventData::*)()>(
     &::UnityEngine::EventSystems::OVRPointerEventData::ToString)> {
-  constexpr static std::size_t size = 0x13b4;
-  constexpr static std::size_t addrs = 0x27fc304;
+  constexpr static std::size_t size = 0x3b4;
+  constexpr static std::size_t addrs = 0x2809798;
 
   inline static ::MethodInfo const* methodInfo() {
 

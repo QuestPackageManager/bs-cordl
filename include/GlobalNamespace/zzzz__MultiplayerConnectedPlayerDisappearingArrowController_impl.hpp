@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController> (
     ::GlobalNamespace::MultiplayerConnectedPlayerDisappearingArrowController::*)()>(&::GlobalNamespace::MultiplayerConnectedPlayerDisappearingArrowController::get_gameNoteController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23d77ec;
+  constexpr static std::size_t addrs = 0x23913a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerDisappearingArrowController::*)()>(
     &::GlobalNamespace::MultiplayerConnectedPlayerDisappearingArrowController::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x23d77f4;
+  constexpr static std::size_t addrs = 0x23913ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

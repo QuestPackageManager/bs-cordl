@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IConnection);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12781))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12679))
 // CS Name: ::IConnection*
 class CORDL_TYPE IConnection {
 public:

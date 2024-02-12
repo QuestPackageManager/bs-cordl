@@ -21,12 +21,12 @@ MARK_REF_PTR_T(::System::Linq::Expressions::Error);
 namespace System::Linq::Expressions {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14301))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14314))
 // CS Name: ::System.Linq.Expressions::Error*
 class CORDL_TYPE Error : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ExtensionNodeMustOverrideProperty, addr 0x2813c0c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ExtensionNodeMustOverrideProperty, addr 0x28183f4, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Exception* ExtensionNodeMustOverrideProperty(::System::Object* p0);
 
   // Ctor Parameters [CppParam { name: "", ty: "Error", modifiers: "&&", def_value: None }]

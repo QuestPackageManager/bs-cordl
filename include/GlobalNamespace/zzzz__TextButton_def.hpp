@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::TextButton);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5438))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4741))
 // CS Name: ::TextButton*
 class CORDL_TYPE TextButton : public ::UnityEngine::MonoBehaviour {
 public:
@@ -48,15 +48,15 @@ public:
 
   constexpr void __cordl_internal_set__button(::UnityW<::UnityEngine::UI::Button> value);
 
-  /// @brief Method get_text, addr 0x227c81c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x23d80d4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Text> get_text();
 
-  /// @brief Method get_button, addr 0x227c824, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_button, addr 0x23d80dc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Button> get_button();
 
   static inline ::GlobalNamespace::TextButton* New_ctor();
 
-  /// @brief Method .ctor, addr 0x227c82c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d80e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TextButton", modifiers: "&&", def_value: None }]

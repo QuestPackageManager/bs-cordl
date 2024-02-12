@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::Physics2DRaycaster);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13212))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13210))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13110))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13108))
 // CS Name: ::UnityEngine.EventSystems::Physics2DRaycaster*
 class CORDL_TYPE Physics2DRaycaster : public ::UnityEngine::EventSystems::PhysicsRaycaster {
 public:
@@ -44,10 +44,10 @@ public:
 
   static inline ::UnityEngine::EventSystems::Physics2DRaycaster* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2da0428, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dbe810, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Raycast, addr 0x2da0478, size 0x5c0, virtual true, abstract: false, final false
+  /// @brief Method Raycast, addr 0x2dbe860, size 0x5c0, virtual true, abstract: false, final false
   inline void Raycast(::UnityEngine::EventSystems::PointerEventData* eventData, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* resultAppendList);
 
   // Ctor Parameters [CppParam { name: "", ty: "Physics2DRaycaster", modifiers: "&&", def_value: None }]

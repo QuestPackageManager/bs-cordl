@@ -54,7 +54,7 @@ namespace GlobalNamespace {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2677))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12989))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12887))
 // CS Name: ::TaskExtensions::<>c__DisplayClass0_0`1<T>*
 class CORDL_TYPE __TaskExtensions____c__DisplayClass0_0_1 : public ::System::Object {
 public:
@@ -115,8 +115,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3400)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 104
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(12990)) CS Name: ::TaskExtensions::<WaitForTask>d__1`1<T>
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3396)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 108
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(12888)) CS Name: ::TaskExtensions::<WaitForTask>d__1`1<T>
 struct CORDL_TYPE __TaskExtensions___WaitForTask_d__1_1 {
 public:
   // Declarations
@@ -175,7 +175,7 @@ public:
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12991))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12889))
 // CS Name: ::TaskExtensions*
 class CORDL_TYPE TaskExtensions : public ::System::Object {
 public:

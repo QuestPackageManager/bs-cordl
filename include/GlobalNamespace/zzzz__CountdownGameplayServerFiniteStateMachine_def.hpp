@@ -17,15 +17,15 @@ MARK_REF_PTR_T(::GlobalNamespace::CountdownGameplayServerFiniteStateMachine);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 137, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12762))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12760))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12660))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12658))
 // CS Name: ::CountdownGameplayServerFiniteStateMachine*
 class CORDL_TYPE CountdownGameplayServerFiniteStateMachine : public ::GlobalNamespace::GameplayServerFiniteStateMachine {
 public:
   // Declarations
   static inline ::GlobalNamespace::CountdownGameplayServerFiniteStateMachine* New_ctor(::GlobalNamespace::__GameplayServerFiniteStateMachine__InitParams initParams);
 
-  /// @brief Method .ctor, addr 0xe3bde4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe66c1c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__GameplayServerFiniteStateMachine__InitParams initParams);
 
   // Ctor Parameters [CppParam { name: "", ty: "CountdownGameplayServerFiniteStateMachine", modifiers: "&&", def_value: None }]

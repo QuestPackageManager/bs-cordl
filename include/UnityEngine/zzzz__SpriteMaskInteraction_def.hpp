@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::SpriteMaskInteraction);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10285))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9031))
 // CS Name: ::UnityEngine::SpriteMaskInteraction
 struct CORDL_TYPE SpriteMaskInteraction {
 public:

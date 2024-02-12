@@ -42,7 +42,7 @@ MARK_REF_PTR_T(::System::Net::HttpListenerRequest);
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9175))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7185))
 // CS Name: ::System.Net::HttpListenerRequest*
 class CORDL_TYPE HttpListenerRequest : public ::System::Object {
 public:
@@ -236,61 +236,61 @@ public:
 
   static inline ::System::Net::HttpListenerRequest* New_ctor(::System::Net::HttpListenerContext* context);
 
-  /// @brief Method .ctor, addr 0x29c9540, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29ccfe4, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::HttpListenerContext* context);
 
-  /// @brief Method SetRequestLine, addr 0x29c685c, size 0x34c, virtual false, abstract: false, final false
+  /// @brief Method SetRequestLine, addr 0x29ca300, size 0x34c, virtual false, abstract: false, final false
   inline void SetRequestLine(::StringW req);
 
-  /// @brief Method CreateQueryString, addr 0x29c9de8, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method CreateQueryString, addr 0x29cd88c, size 0x218, virtual false, abstract: false, final false
   inline void CreateQueryString(::StringW query);
 
-  /// @brief Method MaybeUri, addr 0x29ca000, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method MaybeUri, addr 0x29cdaa4, size 0xa8, virtual false, abstract: false, final false
   static inline bool MaybeUri(::StringW s);
 
-  /// @brief Method IsPredefinedScheme, addr 0x29ca0a8, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method IsPredefinedScheme, addr 0x29cdb4c, size 0x1f0, virtual false, abstract: false, final false
   static inline bool IsPredefinedScheme(::StringW scheme);
 
-  /// @brief Method FinishInitialization, addr 0x29c5cd0, size 0x61c, virtual false, abstract: false, final false
+  /// @brief Method FinishInitialization, addr 0x29c9774, size 0x61c, virtual false, abstract: false, final false
   inline bool FinishInitialization();
 
-  /// @brief Method Unquote, addr 0x29ca350, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Unquote, addr 0x29cddf4, size 0x6c, virtual false, abstract: false, final false
   static inline ::StringW Unquote(::StringW str);
 
-  /// @brief Method AddHeader, addr 0x29c6ba8, size 0x8e4, virtual false, abstract: false, final false
+  /// @brief Method AddHeader, addr 0x29ca64c, size 0x8e4, virtual false, abstract: false, final false
   inline void AddHeader(::StringW header);
 
-  /// @brief Method FlushInput, addr 0x29c78d0, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method FlushInput, addr 0x29cb374, size 0x2c8, virtual false, abstract: false, final false
   inline bool FlushInput();
 
-  /// @brief Method get_HasEntityBody, addr 0x29ca3bc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_HasEntityBody, addr 0x29cde60, size 0x24, virtual false, abstract: false, final false
   inline bool get_HasEntityBody();
 
-  /// @brief Method get_Headers, addr 0x29ca484, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Headers, addr 0x29cdf28, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Specialized::NameValueCollection* get_Headers();
 
-  /// @brief Method get_InputStream, addr 0x29ca3e0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method get_InputStream, addr 0x29cde84, size 0xa4, virtual false, abstract: false, final false
   inline ::System::IO::Stream* get_InputStream();
 
-  /// @brief Method get_IsSecureConnection, addr 0x29ca30c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_IsSecureConnection, addr 0x29cddb0, size 0x24, virtual false, abstract: false, final false
   inline bool get_IsSecureConnection();
 
-  /// @brief Method get_KeepAlive, addr 0x29c7774, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method get_KeepAlive, addr 0x29cb218, size 0x15c, virtual false, abstract: false, final false
   inline bool get_KeepAlive();
 
-  /// @brief Method get_LocalEndPoint, addr 0x29ca330, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_LocalEndPoint, addr 0x29cddd4, size 0x20, virtual false, abstract: false, final false
   inline ::System::Net::IPEndPoint* get_LocalEndPoint();
 
-  /// @brief Method get_ProtocolVersion, addr 0x29ca48c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ProtocolVersion, addr 0x29cdf30, size 0x8, virtual false, abstract: false, final false
   inline ::System::Version* get_ProtocolVersion();
 
-  /// @brief Method get_Url, addr 0x29ca494, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Url, addr 0x29cdf38, size 0x8, virtual false, abstract: false, final false
   inline ::System::Uri* get_Url();
 
-  /// @brief Method get_UserHostAddress, addr 0x29ca2ec, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_UserHostAddress, addr 0x29cdd90, size 0x20, virtual false, abstract: false, final false
   inline ::StringW get_UserHostAddress();
 
-  /// @brief Method get_UserHostName, addr 0x29ca298, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_UserHostName, addr 0x29cdd3c, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_UserHostName();
 
   // Ctor Parameters [CppParam { name: "", ty: "HttpListenerRequest", modifiers: "&&", def_value: None }]

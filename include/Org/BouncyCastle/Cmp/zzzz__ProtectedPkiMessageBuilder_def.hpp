@@ -105,58 +105,58 @@ public:
 
   static inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* New_ctor(::Org::BouncyCastle::Asn1::X509::GeneralName* sender, ::Org::BouncyCastle::Asn1::X509::GeneralName* recipient);
 
-  /// @brief Method .ctor, addr 0x11d6bdc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1204a6c, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::GeneralName* sender, ::Org::BouncyCastle::Asn1::X509::GeneralName* recipient);
 
   static inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* New_ctor(int32_t pvno, ::Org::BouncyCastle::Asn1::X509::GeneralName* sender,
                                                                                ::Org::BouncyCastle::Asn1::X509::GeneralName* recipient);
 
-  /// @brief Method .ctor, addr 0x11d6c54, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1204ae4, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor(int32_t pvno, ::Org::BouncyCastle::Asn1::X509::GeneralName* sender, ::Org::BouncyCastle::Asn1::X509::GeneralName* recipient);
 
-  /// @brief Method SetTransactionId, addr 0x11d6d24, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method SetTransactionId, addr 0x1204bb4, size 0x2c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* SetTransactionId(::ArrayW<uint8_t, ::Array<uint8_t>*> tid);
 
-  /// @brief Method SetFreeText, addr 0x11d6d50, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetFreeText, addr 0x1204be0, size 0x30, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* SetFreeText(::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* freeText);
 
-  /// @brief Method AddGeneralInfo, addr 0x11d6d80, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method AddGeneralInfo, addr 0x1204c10, size 0xb4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* AddGeneralInfo(::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue* genInfo);
 
-  /// @brief Method SetMessageTime, addr 0x11d6e34, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method SetMessageTime, addr 0x1204cc4, size 0x2c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* SetMessageTime(::Org::BouncyCastle::Asn1::DerGeneralizedTime* generalizedTime);
 
-  /// @brief Method SetRecipKID, addr 0x11d6e60, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method SetRecipKID, addr 0x1204cf0, size 0x2c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* SetRecipKID(::ArrayW<uint8_t, ::Array<uint8_t>*> id);
 
-  /// @brief Method SetRecipNonce, addr 0x11d6e8c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetRecipNonce, addr 0x1204d1c, size 0x30, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* SetRecipNonce(::ArrayW<uint8_t, ::Array<uint8_t>*> nonce);
 
-  /// @brief Method SetSenderKID, addr 0x11d6ebc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method SetSenderKID, addr 0x1204d4c, size 0x2c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* SetSenderKID(::ArrayW<uint8_t, ::Array<uint8_t>*> id);
 
-  /// @brief Method SetSenderNonce, addr 0x11d6ee8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method SetSenderNonce, addr 0x1204d78, size 0x2c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* SetSenderNonce(::ArrayW<uint8_t, ::Array<uint8_t>*> nonce);
 
-  /// @brief Method SetBody, addr 0x11d6f14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetBody, addr 0x1204da4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* SetBody(::Org::BouncyCastle::Asn1::Cmp::PkiBody* body);
 
-  /// @brief Method AddCmpCertificate, addr 0x11d6f1c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method AddCmpCertificate, addr 0x1204dac, size 0xb4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* AddCmpCertificate(::Org::BouncyCastle::X509::X509Certificate* certificate);
 
-  /// @brief Method Build, addr 0x11d6fd0, size 0x2ec, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x1204e60, size 0x2ec, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessage* Build(::Org::BouncyCastle::Crypto::ISignatureFactory* signatureFactory);
 
-  /// @brief Method Build, addr 0x11d7c78, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x1205b08, size 0x22c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessage* Build(::Org::BouncyCastle::Crypto::IMacFactory* factory);
 
-  /// @brief Method FinalizeHeader, addr 0x11d72bc, size 0x2e0, virtual false, abstract: false, final false
+  /// @brief Method FinalizeHeader, addr 0x120514c, size 0x2e0, virtual false, abstract: false, final false
   inline void FinalizeHeader(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithmIdentifier);
 
-  /// @brief Method FinalizeMessage, addr 0x11d7914, size 0x364, virtual false, abstract: false, final false
+  /// @brief Method FinalizeMessage, addr 0x12057a4, size 0x364, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessage* FinalizeMessage(::Org::BouncyCastle::Asn1::Cmp::PkiHeader* header, ::Org::BouncyCastle::Asn1::DerBitString* protection);
 
-  /// @brief Method CalculateSignature, addr 0x11d759c, size 0x378, virtual false, abstract: false, final false
+  /// @brief Method CalculateSignature, addr 0x120542c, size 0x378, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CalculateSignature(::Org::BouncyCastle::Crypto::IStreamCalculator* signer, ::Org::BouncyCastle::Asn1::Cmp::PkiHeader* header,
                                                                  ::Org::BouncyCastle::Asn1::Cmp::PkiBody* body);
 

@@ -81,7 +81,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__FireworkItemController___FireCoroutine_d__29
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4843))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4197))
 // CS Name: ::FireworkItemController::FireworkItemParticleSystem*
 class CORDL_TYPE __FireworkItemController__FireworkItemParticleSystem : public ::System::Object {
 public:
@@ -142,7 +142,7 @@ public:
 
   static inline ::GlobalNamespace::__FireworkItemController__FireworkItemParticleSystem* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23975e8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2358718, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FireworkItemController__FireworkItemParticleSystem", modifiers: "&&", def_value: None }]
@@ -199,8 +199,8 @@ static_assert(offsetof(::GlobalNamespace::__FireworkItemController__FireworkItem
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4846))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8995))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4200))
 // CS Name: ::FireworkItemController*
 class CORDL_TYPE FireworkItemController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -385,42 +385,42 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::FireworkItemController>>* value);
 
-  /// @brief Method set_directionalLight, addr 0x2396ddc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_directionalLight, addr 0x2357f0c, size 0x8, virtual false, abstract: false, final false
   inline void set_directionalLight(::GlobalNamespace::DirectionalLight* value);
 
-  /// @brief Method set_directionalLightIntensity, addr 0x2396de4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_directionalLightIntensity, addr 0x2357f14, size 0x8, virtual false, abstract: false, final false
   inline void set_directionalLightIntensity(float_t value);
 
-  /// @brief Method add_didFinishEvent, addr 0x2396dec, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x2357f1c, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::FireworkItemController>>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x2396e9c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x2357fcc, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::FireworkItemController>>* value);
 
-  /// @brief Method Awake, addr 0x2396f4c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x235807c, size 0x84, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnDisable, addr 0x2396fd0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x2358100, size 0x58, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method Fire, addr 0x2397128, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Fire, addr 0x2358258, size 0x20, virtual false, abstract: false, final false
   inline void Fire();
 
-  /// @brief Method FireCoroutine, addr 0x2397148, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method FireCoroutine, addr 0x2358278, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* FireCoroutine();
 
-  /// @brief Method SetLightsColor, addr 0x2397028, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method SetLightsColor, addr 0x2358158, size 0x100, virtual false, abstract: false, final false
   inline void SetLightsColor(float_t intensity);
 
-  /// @brief Method PlayExplosionSound, addr 0x23971d8, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method PlayExplosionSound, addr 0x2358308, size 0xdc, virtual false, abstract: false, final false
   inline void PlayExplosionSound();
 
-  /// @brief Method InitializeParticleSystem, addr 0x23972b4, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method InitializeParticleSystem, addr 0x23583e4, size 0x314, virtual false, abstract: false, final false
   inline void InitializeParticleSystem();
 
   static inline ::GlobalNamespace::FireworkItemController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23975c8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23586f8, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FireworkItemController", modifiers: "&&", def_value: None }]
@@ -537,14 +537,14 @@ static_assert(offsetof(::GlobalNamespace::FireworkItemController, ___didFinishEv
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4846)), TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
-// 307 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4844)) CS Name: ::FireworkItemController::Pool*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4200)), TypeDefinitionIndex(TypeDefinitionIndex(10192)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10192), inst:
+// 309 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4198)) CS Name: ::FireworkItemController::Pool*
 class CORDL_TYPE __FireworkItemController__Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::FireworkItemController>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__FireworkItemController__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23975f8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2358728, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FireworkItemController__Pool", modifiers: "&&", def_value: None }]
@@ -572,7 +572,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__FireworkItemC
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4845))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4199))
 // CS Name: ::FireworkItemController::<FireCoroutine>d__29*
 class CORDL_TYPE __FireworkItemController___FireCoroutine_d__29 : public ::System::Object {
 public:
@@ -655,22 +655,22 @@ public:
 
   static inline ::GlobalNamespace::__FireworkItemController___FireCoroutine_d__29* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor, addr 0x23971b0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23582e0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x2397640, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x2358770, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext, addr 0x2397644, size 0x230, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2358774, size 0x230, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2397874, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x23589a4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x239787c, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x23589ac, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x23978bc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x23589ec, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FireworkItemController___FireCoroutine_d__29", modifiers: "&&", def_value: None }]

@@ -40,7 +40,7 @@ MARK_REF_PTR_T(::System::Security::Cryptography::OidCollection);
 namespace System::Security::Cryptography {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8973))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6983))
 // CS Name: ::System.Security.Cryptography::OidCollection*
 class CORDL_TYPE OidCollection : public ::System::Object {
 public:
@@ -76,31 +76,31 @@ public:
 
   static inline ::System::Security::Cryptography::OidCollection* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2975e90, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2979934, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Add, addr 0x2975f10, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x29799b4, size 0xb4, virtual false, abstract: false, final false
   inline int32_t Add(::System::Security::Cryptography::Oid* oid);
 
-  /// @brief Method get_Item, addr 0x2975fc4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x2979a68, size 0x58, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::Oid* get_Item(int32_t index);
 
-  /// @brief Method get_Count, addr 0x297601c, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method get_Count, addr 0x2979ac0, size 0x48, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method GetEnumerator, addr 0x2976064, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x2979b08, size 0x6c, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::OidEnumerator* GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2976100, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2979ba4, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x2976104, size 0x1bc, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x2979ba8, size 0x1bc, virtual true, abstract: false, final true
   inline void System_Collections_ICollection_CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method get_IsSynchronized, addr 0x29762c0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsSynchronized, addr 0x2979d64, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_SyncRoot, addr 0x29762c8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method get_SyncRoot, addr 0x2979d6c, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* get_SyncRoot();
 
   // Ctor Parameters [CppParam { name: "", ty: "OidCollection", modifiers: "&&", def_value: None }]

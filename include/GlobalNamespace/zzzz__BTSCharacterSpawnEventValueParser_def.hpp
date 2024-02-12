@@ -16,21 +16,21 @@ MARK_REF_PTR_T(::GlobalNamespace::BTSCharacterSpawnEventValueParser);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3974))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15014))
 // CS Name: ::BTSCharacterSpawnEventValueParser*
 class CORDL_TYPE BTSCharacterSpawnEventValueParser : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetPrefabId, addr 0x221bdbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetPrefabId, addr 0xe2d9a8, size 0x8, virtual false, abstract: false, final false
   static inline int32_t GetPrefabId(int32_t value);
 
-  /// @brief Method GetAnimationId, addr 0x221bdc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetAnimationId, addr 0xe2d9b0, size 0x8, virtual false, abstract: false, final false
   static inline int32_t GetAnimationId(int32_t value);
 
-  /// @brief Method GetIsAlternativeMaterial, addr 0x221c1fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetIsAlternativeMaterial, addr 0xe2dde8, size 0x8, virtual false, abstract: false, final false
   static inline bool GetIsAlternativeMaterial(int32_t value);
 
-  /// @brief Method MergeValuesIntoOneInt, addr 0x221c334, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method MergeValuesIntoOneInt, addr 0xe2df20, size 0x18, virtual false, abstract: false, final false
   static inline int32_t MergeValuesIntoOneInt(int32_t prefabId, int32_t animationId, bool isAlternativeMaterial);
 
   // Ctor Parameters [CppParam { name: "", ty: "BTSCharacterSpawnEventValueParser", modifiers: "&&", def_value: None }]

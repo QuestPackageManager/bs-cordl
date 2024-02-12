@@ -46,7 +46,7 @@ namespace GlobalNamespace {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12684))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12582))
 // CS Name: ::BatchExtensions::<Batch>d__0`1<T>*
 class CORDL_TYPE __BatchExtensions___Batch_d__0_1 : public ::System::Object {
 public:
@@ -236,7 +236,7 @@ public:
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12685))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12583))
 // CS Name: ::BatchExtensions*
 class CORDL_TYPE BatchExtensions : public ::System::Object {
 public:

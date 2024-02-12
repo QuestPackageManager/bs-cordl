@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IPosesSerializer);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5916))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5176))
 // CS Name: ::IPosesSerializer*
 class CORDL_TYPE IPosesSerializer {
 public:

@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::System::Threading::ManualResetEvent* New_ctor(bool initialState);
 
-  /// @brief Method .ctor, addr 0x260fdd0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2634cd8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(bool initialState);
 
   // Ctor Parameters [CppParam { name: "", ty: "ManualResetEvent", modifiers: "&&", def_value: None }]

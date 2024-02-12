@@ -63,19 +63,19 @@ public:
 
   static inline ::System::Security::AccessControl::AceEnumerator* New_ctor(::System::Security::AccessControl::GenericAcl* owner);
 
-  /// @brief Method .ctor, addr 0x2480914, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24a2988, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::AccessControl::GenericAcl* owner);
 
-  /// @brief Method get_Current, addr 0x2480944, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_Current, addr 0x24a29b8, size 0x34, virtual false, abstract: false, final false
   inline ::System::Security::AccessControl::GenericAce* get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2480978, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x24a29ec, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method MoveNext, addr 0x248097c, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x24a29f0, size 0x58, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method Reset, addr 0x24809d4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x24a2a48, size 0xc, virtual true, abstract: false, final true
   inline void Reset();
 
   // Ctor Parameters [CppParam { name: "", ty: "AceEnumerator", modifiers: "&&", def_value: None }]

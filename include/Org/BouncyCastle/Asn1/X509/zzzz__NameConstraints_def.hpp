@@ -60,34 +60,34 @@ public:
 
   constexpr void __cordl_internal_set_excluded(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method GetInstance, addr 0x1192600, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x11c0490, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::NameConstraints* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::NameConstraints* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0x1192788, size 0x338, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11c0618, size 0x338, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::X509::NameConstraints* New_ctor(::System::Collections::ArrayList* permitted, ::System::Collections::ArrayList* excluded);
 
-  /// @brief Method .ctor, addr 0x1192ac0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11c0950, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::ArrayList* permitted, ::System::Collections::ArrayList* excluded);
 
   static inline ::Org::BouncyCastle::Asn1::X509::NameConstraints* New_ctor(::System::Collections::IList* permitted, ::System::Collections::IList* excluded);
 
-  /// @brief Method .ctor, addr 0x1192ac4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11c0954, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IList* permitted, ::System::Collections::IList* excluded);
 
-  /// @brief Method CreateSequence, addr 0x1192b0c, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method CreateSequence, addr 0x11c099c, size 0x2b0, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerSequence* CreateSequence(::System::Collections::IList* subtrees);
 
-  /// @brief Method get_PermittedSubtrees, addr 0x1192dbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PermittedSubtrees, addr 0x11c0c4c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Sequence* get_PermittedSubtrees();
 
-  /// @brief Method get_ExcludedSubtrees, addr 0x1192dc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ExcludedSubtrees, addr 0x11c0c54, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Sequence* get_ExcludedSubtrees();
 
-  /// @brief Method ToAsn1Object, addr 0x1192dcc, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x11c0c5c, size 0xc0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "NameConstraints", modifiers: "&&", def_value: None }]

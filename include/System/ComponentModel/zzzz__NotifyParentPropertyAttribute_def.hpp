@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::System::ComponentModel::NotifyParentPropertyAttribute);
 namespace System::ComponentModel {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9493))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7503))
 // CS Name: ::System.ComponentModel::NotifyParentPropertyAttribute*
 class CORDL_TYPE NotifyParentPropertyAttribute : public ::System::Attribute {
 public:
@@ -58,19 +58,19 @@ public:
 
   static inline ::System::ComponentModel::NotifyParentPropertyAttribute* New_ctor(bool notifyParent);
 
-  /// @brief Method .ctor, addr 0x293a6c8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x293ed30, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool notifyParent);
 
-  /// @brief Method get_NotifyParent, addr 0x293a6f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NotifyParent, addr 0x293ed58, size 0x8, virtual false, abstract: false, final false
   inline bool get_NotifyParent();
 
-  /// @brief Method Equals, addr 0x293a6f8, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x293ed60, size 0x80, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x293a778, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x293ede0, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsDefaultAttribute, addr 0x293a780, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method IsDefaultAttribute, addr 0x293ede8, size 0x68, virtual true, abstract: false, final false
   inline bool IsDefaultAttribute();
 
   // Ctor Parameters [CppParam { name: "", ty: "NotifyParentPropertyAttribute", modifiers: "&&", def_value: None }]

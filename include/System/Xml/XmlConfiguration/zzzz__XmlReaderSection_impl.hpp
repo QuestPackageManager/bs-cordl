@@ -6,7 +6,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::System::Xml::XmlConfiguration::XmlReaderSection::get_ProhibitDefaultUrlResolver)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x28abf90;
+  constexpr static std::size_t addrs = 0x28af5f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlConfiguration::XmlReaderSection*>::get(),
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::System::Xml::XmlConfiguration::XmlReaderSection::get_CollapseWhiteSpaceIntoEmptyString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x289e1d8;
+  constexpr static std::size_t addrs = 0x28a1840;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

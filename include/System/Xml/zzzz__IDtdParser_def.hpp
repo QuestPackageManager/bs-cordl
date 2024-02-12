@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::System::Xml::IDtdParser);
 namespace System::Xml {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11426))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11324))
 // CS Name: ::System.Xml::IDtdParser*
 class CORDL_TYPE IDtdParser {
 public:

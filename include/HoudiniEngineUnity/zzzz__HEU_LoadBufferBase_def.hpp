@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_LoadBufferBase);
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9804))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9596))
 // CS Name: ::HoudiniEngineUnity::HEU_LoadBufferBase*
 class CORDL_TYPE HEU_LoadBufferBase : public ::System::Object {
 public:
@@ -70,12 +70,12 @@ public:
 
   constexpr void __cordl_internal_set__generatedOutput(::HoudiniEngineUnity::HEU_GeneratedOutput* value);
 
-  /// @brief Method InitializeBuffer, addr 0x21abbe8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InitializeBuffer, addr 0x22414cc, size 0x1c, virtual false, abstract: false, final false
   inline void InitializeBuffer(int32_t id, ::StringW name, bool bInstanced, bool bInstancer);
 
   static inline ::HoudiniEngineUnity::HEU_LoadBufferBase* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21abc04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22414e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_LoadBufferBase", modifiers: "&&", def_value: None }]

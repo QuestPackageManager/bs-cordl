@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::GlobalNamespace::CountdownController);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5558))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4864))
 // CS Name: ::CountdownController*
 class CORDL_TYPE CountdownController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -113,24 +113,24 @@ public:
 
   constexpr void __cordl_internal_set__countdownElementControllerQueue(::System::Collections::Generic::Queue_1<::UnityW<::GlobalNamespace::CountdownElementController>>* value);
 
-  /// @brief Method Awake, addr 0x22a2f54, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x23fd7e8, size 0x18, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Update, addr 0x22a2f6c, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x23fd800, size 0x1dc, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method StartCountdown, addr 0x22a31ac, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method StartCountdown, addr 0x23fda40, size 0xf4, virtual false, abstract: false, final false
   inline void StartCountdown(int64_t countdownEndTime);
 
-  /// @brief Method UpdateCountdown, addr 0x22a32c4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method UpdateCountdown, addr 0x23fdb58, size 0x68, virtual false, abstract: false, final false
   inline void UpdateCountdown(int64_t countdownEndTime);
 
-  /// @brief Method StopCountdown, addr 0x22a332c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method StopCountdown, addr 0x23fdbc0, size 0x78, virtual false, abstract: false, final false
   inline void StopCountdown();
 
   static inline ::GlobalNamespace::CountdownController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22a33a4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23fdc38, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CountdownController", modifiers: "&&", def_value: None }]

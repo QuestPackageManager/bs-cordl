@@ -43,7 +43,7 @@ MARK_VAL_T(::GlobalNamespace::__PyramidBloomRendererSO__Level);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14446))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14340))
 // CS Name: ::PyramidBloomRendererSO::Pass
 struct CORDL_TYPE __PyramidBloomRendererSO__Pass {
 public:
@@ -141,7 +141,7 @@ static_assert(offsetof(::GlobalNamespace::__PyramidBloomRendererSO__Pass, value_
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14447))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14341))
 // CS Name: ::PyramidBloomRendererSO::Level
 struct CORDL_TYPE __PyramidBloomRendererSO__Level {
 public:
@@ -177,8 +177,8 @@ static_assert(offsetof(::GlobalNamespace::__PyramidBloomRendererSO__Level, up) =
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14448))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15602))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14342))
 // CS Name: ::PyramidBloomRendererSO*
 class CORDL_TYPE PyramidBloomRendererSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -291,16 +291,16 @@ public:
 
   static inline int32_t getStaticF__alphaWeightsID();
 
-  /// @brief Method OnEnable, addr 0x2101298, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x2195a40, size 0x110, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable, addr 0x21013a8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x2195b50, size 0x24, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method RenderBloom, addr 0x21013cc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method RenderBloom, addr 0x2195b74, size 0x90, virtual false, abstract: false, final false
   inline void RenderBloom(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest, float_t radius, bool alphaWeights, bool betterQuality, bool gammaCorrection, bool legacyAutoExposure);
 
-  /// @brief Method RenderBloom, addr 0x210145c, size 0x81c, virtual false, abstract: false, final false
+  /// @brief Method RenderBloom, addr 0x2195c04, size 0x81c, virtual false, abstract: false, final false
   inline void RenderBloom(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest, float_t radius, float_t intensity, float_t autoExposureLimit, float_t downIntensityOffset,
                           bool uniformPyramidWeights, bool downsampleOnFirstPass, float_t pyramidWeightsParam, float_t alphaWeights, float_t firstUpsampleBrightness, float_t finalUpsampleBrightness,
                           ::GlobalNamespace::__PyramidBloomRendererSO__Pass preFilterPass, ::GlobalNamespace::__PyramidBloomRendererSO__Pass downsamplePass,
@@ -309,7 +309,7 @@ public:
 
   static inline ::GlobalNamespace::PyramidBloomRendererSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2101c78, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2196420, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PyramidBloomRendererSO", modifiers: "&&", def_value: None }]

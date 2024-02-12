@@ -23,7 +23,7 @@ MARK_VAL_T(::UnityEngine::Rendering::ShaderTagId);
 namespace UnityEngine::Rendering {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10356))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9113))
 // CS Name: ::UnityEngine.Rendering::ShaderTagId
 struct CORDL_TYPE ShaderTagId {
 public:
@@ -36,22 +36,22 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::ShaderTagId>"
   constexpr ::System::IEquatable_1<::UnityEngine::Rendering::ShaderTagId>* i___System__IEquatable_1___UnityEngine__Rendering__ShaderTagId_();
 
-  /// @brief Method .ctor, addr 0x2cedc88, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cf4d70, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method get_id, addr 0x2cedca8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x2cf4d90, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_id();
 
-  /// @brief Method set_id, addr 0x2cedcb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_id, addr 0x2cf4d98, size 0x8, virtual false, abstract: false, final false
   inline void set_id(int32_t value);
 
-  /// @brief Method Equals, addr 0x2cedcb8, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2cf4da0, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x2cedd30, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2cf4e18, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::ShaderTagId other);
 
-  /// @brief Method GetHashCode, addr 0x2cedd40, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2cf4e28, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "m_Id", ty: "int32_t", modifiers: "", def_value: None }]

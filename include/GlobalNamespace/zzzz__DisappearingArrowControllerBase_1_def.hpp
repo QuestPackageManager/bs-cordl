@@ -28,8 +28,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4742))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4093))
 // CS Name: ::DisappearingArrowControllerBase`1<T>*
 class CORDL_TYPE DisappearingArrowControllerBase_1 : public ::UnityEngine::MonoBehaviour {
 public:

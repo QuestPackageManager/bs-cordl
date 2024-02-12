@@ -15,21 +15,21 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Controls::DoubleControl);
 // SizeInfo { instance_size: 240, native_size: -1, calculated_instance_size: 240, calculated_native_size: 240, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6216)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6216), inst: 2704 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6633))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5475)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5475), inst: 2674 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5892))
 // CS Name: ::UnityEngine.InputSystem.Controls::DoubleControl*
 class CORDL_TYPE DoubleControl : public ::UnityEngine::InputSystem::InputControl_1<double_t> {
 public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Controls::DoubleControl* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2b0a7c4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b0a330, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method ReadUnprocessedValueFromState, addr 0x2b0a84c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ReadUnprocessedValueFromState, addr 0x2b0a3b8, size 0xc, virtual true, abstract: false, final false
   inline double_t ReadUnprocessedValueFromState(::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method WriteValueIntoState, addr 0x2b0a858, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method WriteValueIntoState, addr 0x2b0a3c4, size 0xc, virtual true, abstract: false, final false
   inline void WriteValueIntoState(double_t value, ::cordl_internals::Ptr<void> statePtr);
 
   // Ctor Parameters [CppParam { name: "", ty: "DoubleControl", modifiers: "&&", def_value: None }]

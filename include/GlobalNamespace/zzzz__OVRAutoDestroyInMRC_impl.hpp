@@ -6,7 +6,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRAutoDestroyInMRC::*)()>(&::GlobalNamespace::OVRAutoDestroyInMRC::Start)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x27a206c;
+  constexpr static std::size_t addrs = 0x27b53fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRAutoDestroyInMRC*>::get(), "Start",
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRAutoDestroyInMRC::*)()>(&::GlobalNamespace::OVRAutoDestroyInMRC::Update)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x27a2184;
+  constexpr static std::size_t addrs = 0x27b5514;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRAutoDestroyInMRC*>::get(), "Update",
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRAutoDestroyInMRC::*)()>(&::GlobalNamespace::OVRAutoDestroyInMRC::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x27a2188;
+  constexpr static std::size_t addrs = 0x27b5518;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRAutoDestroyInMRC*>::get(), ".ctor",

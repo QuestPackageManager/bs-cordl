@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MoveAndRotateWithMainCamera);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5913))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(8996))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5173))
 // CS Name: ::MoveAndRotateWithMainCamera*
 class CORDL_TYPE MoveAndRotateWithMainCamera : public ::UnityEngine::MonoBehaviour {
 public:
@@ -64,15 +64,15 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method Awake, addr 0x22fed4c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2326c80, size 0x4c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method LateUpdate, addr 0x22fed98, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x2326ccc, size 0x10c, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::MoveAndRotateWithMainCamera* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22fee94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2326dd8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MoveAndRotateWithMainCamera", modifiers: "&&", def_value: None }]

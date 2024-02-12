@@ -38,19 +38,19 @@ namespace Org::BouncyCastle::Pkix {
 class CORDL_TYPE PkixCrlUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FindCrls, addr 0x1105080, size 0x764, virtual true, abstract: false, final false
+  /// @brief Method FindCrls, addr 0x1132f10, size 0x764, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Collections::ISet* FindCrls(::Org::BouncyCastle::X509::Store::X509CrlStoreSelector* crlselect, ::Org::BouncyCastle::Pkix::PkixParameters* paramsPkix,
                                                                      ::System::DateTime currentDate);
 
-  /// @brief Method FindCrls, addr 0x1105d5c, size 0x1d4, virtual true, abstract: false, final false
+  /// @brief Method FindCrls, addr 0x1133bec, size 0x1d4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Collections::ISet* FindCrls(::Org::BouncyCastle::X509::Store::X509CrlStoreSelector* crlselect, ::Org::BouncyCastle::Pkix::PkixParameters* paramsPkix);
 
-  /// @brief Method FindCrls, addr 0x11057e4, size 0x578, virtual false, abstract: false, final false
+  /// @brief Method FindCrls, addr 0x1133674, size 0x578, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* FindCrls(::Org::BouncyCastle::X509::Store::X509CrlStoreSelector* crlSelect, ::System::Collections::IList* crlStores);
 
   static inline ::Org::BouncyCastle::Pkix::PkixCrlUtilities* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1105070, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1132f00, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PkixCrlUtilities", modifiers: "&&", def_value: None }]

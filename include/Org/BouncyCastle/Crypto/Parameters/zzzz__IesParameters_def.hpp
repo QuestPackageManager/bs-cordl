@@ -62,16 +62,16 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::IesParameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> derivation, ::ArrayW<uint8_t, ::Array<uint8_t>*> encoding, int32_t macKeySize);
 
-  /// @brief Method .ctor, addr 0xf36c8c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf61b1c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> derivation, ::ArrayW<uint8_t, ::Array<uint8_t>*> encoding, int32_t macKeySize);
 
-  /// @brief Method GetDerivationV, addr 0xf36cc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetDerivationV, addr 0xf61b58, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetDerivationV();
 
-  /// @brief Method GetEncodingV, addr 0xf36cd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetEncodingV, addr 0xf61b60, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncodingV();
 
-  /// @brief Method get_MacKeySize, addr 0xf36cd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MacKeySize, addr 0xf61b68, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_MacKeySize();
 
   // Ctor Parameters [CppParam { name: "", ty: "IesParameters", modifiers: "&&", def_value: None }]

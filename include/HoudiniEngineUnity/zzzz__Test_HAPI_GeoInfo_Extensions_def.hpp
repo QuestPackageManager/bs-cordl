@@ -21,12 +21,12 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::Test_HAPI_GeoInfo_Extensions);
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9897))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9689))
 // CS Name: ::HoudiniEngineUnity::Test_HAPI_GeoInfo_Extensions*
 class CORDL_TYPE Test_HAPI_GeoInfo_Extensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToTestObject, addr 0x21e34a4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x2278d8c, size 0x88, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::Test_HAPI_GeoInfo* ToTestObject(::HoudiniEngineUnity::HAPI_GeoInfo self);
 
   // Ctor Parameters [CppParam { name: "", ty: "Test_HAPI_GeoInfo_Extensions", modifiers: "&&", def_value: None }]

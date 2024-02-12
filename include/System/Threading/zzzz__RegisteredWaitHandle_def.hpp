@@ -121,16 +121,16 @@ public:
   static inline ::System::Threading::RegisteredWaitHandle* New_ctor(::System::Threading::WaitHandle* waitObject, ::System::Threading::WaitOrTimerCallback* callback, ::System::Object* state,
                                                                     ::System::TimeSpan timeout, bool executeOnlyOnce);
 
-  /// @brief Method .ctor, addr 0x261c76c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26428e8, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::WaitHandle* waitObject, ::System::Threading::WaitOrTimerCallback* callback, ::System::Object* state, ::System::TimeSpan timeout, bool executeOnlyOnce);
 
-  /// @brief Method Wait, addr 0x261f0dc, size 0x530, virtual false, abstract: false, final false
+  /// @brief Method Wait, addr 0x2645258, size 0x530, virtual false, abstract: false, final false
   inline void Wait(::System::Object* state);
 
-  /// @brief Method DoCallBack, addr 0x261f60c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method DoCallBack, addr 0x2645788, size 0x104, virtual false, abstract: false, final false
   inline void DoCallBack(::System::Object* timedOut);
 
-  /// @brief Method Unregister, addr 0x261f710, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Unregister, addr 0x264588c, size 0xf4, virtual false, abstract: false, final false
   inline bool Unregister(::System::Threading::WaitHandle* waitObject);
 
   // Ctor Parameters [CppParam { name: "", ty: "RegisteredWaitHandle", modifiers: "&&", def_value: None }]

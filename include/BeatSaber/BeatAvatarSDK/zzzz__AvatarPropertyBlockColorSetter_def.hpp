@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 113, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarSDK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15688))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8995))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15789))
 // CS Name: ::BeatSaber.BeatAvatarSDK::AvatarPropertyBlockColorSetter*
 class CORDL_TYPE AvatarPropertyBlockColorSetter : public ::UnityEngine::MonoBehaviour {
 public:
@@ -129,27 +129,27 @@ public:
 
   static inline ::UnityEngine::MaterialPropertyBlock* getStaticF__materialPropertyBlock();
 
-  /// @brief Method Awake, addr 0xe1a338, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0xe26984, size 0x10, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnValidate, addr 0xe1a348, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0xe26994, size 0xa0, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method SetColor, addr 0xe1a3e8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method SetColor, addr 0xe26a34, size 0x38, virtual false, abstract: false, final false
   inline void SetColor(::UnityEngine::Color color);
 
-  /// @brief Method SetColors, addr 0xe1a420, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SetColors, addr 0xe26a6c, size 0x14, virtual false, abstract: false, final false
   inline void SetColors(::UnityEngine::Color mainColor, ::UnityEngine::Color rimLightColor);
 
-  /// @brief Method SetHighlight, addr 0xe1a5d4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetHighlight, addr 0xe26c20, size 0xc, virtual false, abstract: false, final false
   inline void SetHighlight(bool highlighted, int32_t uvSegment);
 
-  /// @brief Method UpdateRenderer, addr 0xe1a434, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method UpdateRenderer, addr 0xe26a80, size 0x1a0, virtual false, abstract: false, final false
   inline void UpdateRenderer();
 
   static inline ::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe1a5e0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe26c2c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AvatarPropertyBlockColorSetter", modifiers: "&&", def_value: None }]

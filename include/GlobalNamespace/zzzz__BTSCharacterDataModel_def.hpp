@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3963))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15004))
 // CS Name: ::BTSCharacterDataModel::PrefabWithId*
 class CORDL_TYPE __BTSCharacterDataModel__PrefabWithId : public ::System::Object {
 public:
@@ -62,15 +62,15 @@ public:
 
   constexpr void __cordl_internal_set__prefabAssetReference(::UnityEngine::AddressableAssets::AssetReference* value);
 
-  /// @brief Method get_id, addr 0x2219ac4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0xe2b518, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_id();
 
-  /// @brief Method get_prefabAssetReference, addr 0x2219acc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_prefabAssetReference, addr 0xe2b520, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::AddressableAssets::AssetReference* get_prefabAssetReference();
 
   static inline ::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2219ad4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe2b528, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__BTSCharacterDataModel__PrefabWithId", modifiers: "&&", def_value: None }]
@@ -108,7 +108,7 @@ static_assert(offsetof(::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId,
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3964))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15005))
 // CS Name: ::BTSCharacterDataModel::AnimationClipWithId*
 class CORDL_TYPE __BTSCharacterDataModel__AnimationClipWithId : public ::System::Object {
 public:
@@ -136,15 +136,15 @@ public:
 
   constexpr void __cordl_internal_set__animationClipAssetReference(::UnityEngine::AddressableAssets::AssetReference* value);
 
-  /// @brief Method get_id, addr 0x2219adc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0xe2b530, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_id();
 
-  /// @brief Method get_animationClipAssetReference, addr 0x2219ae4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_animationClipAssetReference, addr 0xe2b538, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::AddressableAssets::AssetReference* get_animationClipAssetReference();
 
   static inline ::GlobalNamespace::__BTSCharacterDataModel__AnimationClipWithId* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2219aec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe2b540, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__BTSCharacterDataModel__AnimationClipWithId", modifiers: "&&", def_value: None }]
@@ -181,8 +181,8 @@ static_assert(offsetof(::GlobalNamespace::__BTSCharacterDataModel__AnimationClip
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3965))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15006))
 // CS Name: ::BTSCharacterDataModel*
 class CORDL_TYPE BTSCharacterDataModel : public ::UnityEngine::MonoBehaviour {
 public:
@@ -222,15 +222,15 @@ public:
   constexpr void __cordl_internal_set__animationClipsWithIds(
       ::ArrayW<::GlobalNamespace::__BTSCharacterDataModel__AnimationClipWithId*, ::Array<::GlobalNamespace::__BTSCharacterDataModel__AnimationClipWithId*>*> value);
 
-  /// @brief Method get_prefabsWithIds, addr 0x2219aac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_prefabsWithIds, addr 0xe2b500, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId*, ::Array<::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId*>*> get_prefabsWithIds();
 
-  /// @brief Method get_animationClipsWithIds, addr 0x2219ab4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_animationClipsWithIds, addr 0xe2b508, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::__BTSCharacterDataModel__AnimationClipWithId*, ::Array<::GlobalNamespace::__BTSCharacterDataModel__AnimationClipWithId*>*> get_animationClipsWithIds();
 
   static inline ::GlobalNamespace::BTSCharacterDataModel* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2219abc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe2b510, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BTSCharacterDataModel", modifiers: "&&", def_value: None }]

@@ -44,21 +44,21 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::CertReqMessages* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xe83cc8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeadb58, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance, addr 0xe83cf0, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xeadb80, size 0x18c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Crmf::CertReqMessages* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::CertReqMessages* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Crmf::CertReqMsg*, ::Array<::Org::BouncyCastle::Asn1::Crmf::CertReqMsg*>*> msgs);
 
-  /// @brief Method .ctor, addr 0xe83e7c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeadd0c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Crmf::CertReqMsg*, ::Array<::Org::BouncyCastle::Asn1::Crmf::CertReqMsg*>*> msgs);
 
-  /// @brief Method ToCertReqMsgArray, addr 0xe83ef8, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method ToCertReqMsgArray, addr 0xeadd88, size 0xf4, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Crmf::CertReqMsg*, ::Array<::Org::BouncyCastle::Asn1::Crmf::CertReqMsg*>*> ToCertReqMsgArray();
 
-  /// @brief Method ToAsn1Object, addr 0xe84090, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xeadf20, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "CertReqMessages", modifiers: "&&", def_value: None }]

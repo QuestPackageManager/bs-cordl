@@ -32,8 +32,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4684))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5275))
 // CS Name: ::EnumTableViewDataSource`1<T>*
 class CORDL_TYPE EnumTableViewDataSource_1 : public ::UnityEngine::MonoBehaviour {
 public:

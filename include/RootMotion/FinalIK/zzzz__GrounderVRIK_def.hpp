@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::GrounderVRIK);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12518))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12525))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12416))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12423))
 // CS Name: ::RootMotion.FinalIK::GrounderVRIK*
 class CORDL_TYPE GrounderVRIK : public ::RootMotion::FinalIK::Grounder {
 public:
@@ -51,45 +51,45 @@ public:
 
   constexpr void __cordl_internal_set_feet(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value);
 
-  /// @brief Method OpenTutorial, addr 0x124b1b0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OpenTutorial, addr 0x12e5260, size 0x44, virtual false, abstract: false, final false
   inline void OpenTutorial();
 
-  /// @brief Method OpenUserManual, addr 0x124b1f4, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method OpenUserManual, addr 0x12e52a4, size 0x44, virtual true, abstract: false, final false
   inline void OpenUserManual();
 
-  /// @brief Method OpenScriptReference, addr 0x124b238, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method OpenScriptReference, addr 0x12e52e8, size 0x44, virtual true, abstract: false, final false
   inline void OpenScriptReference();
 
-  /// @brief Method ResetPosition, addr 0x124b27c, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method ResetPosition, addr 0x12e532c, size 0x18, virtual true, abstract: false, final false
   inline void ResetPosition();
 
-  /// @brief Method IsReadyToInitiate, addr 0x124b294, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method IsReadyToInitiate, addr 0x12e5344, size 0x88, virtual false, abstract: false, final false
   inline bool IsReadyToInitiate();
 
-  /// @brief Method Update, addr 0x124b31c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x12e53cc, size 0x54, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method Initiate, addr 0x124b370, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method Initiate, addr 0x12e5420, size 0x238, virtual false, abstract: false, final false
   inline void Initiate();
 
-  /// @brief Method OnSolverUpdate, addr 0x124b5a8, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method OnSolverUpdate, addr 0x12e5658, size 0x1f4, virtual false, abstract: false, final false
   inline void OnSolverUpdate();
 
-  /// @brief Method SetLegIK, addr 0x124b79c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method SetLegIK, addr 0x12e584c, size 0x84, virtual false, abstract: false, final false
   inline void SetLegIK(::RootMotion::FinalIK::__IKSolverVR__PositionOffset positionOffset, ::UnityEngine::Transform* bone, ::RootMotion::FinalIK::__Grounding__Leg* leg);
 
-  /// @brief Method OnPostSolverUpdate, addr 0x124b820, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method OnPostSolverUpdate, addr 0x12e58d0, size 0x29c, virtual false, abstract: false, final false
   inline void OnPostSolverUpdate();
 
-  /// @brief Method OnDrawGizmosSelected, addr 0x124babc, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method OnDrawGizmosSelected, addr 0x12e5b6c, size 0x134, virtual false, abstract: false, final false
   inline void OnDrawGizmosSelected();
 
-  /// @brief Method OnDestroy, addr 0x124bbf0, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x12e5ca0, size 0x198, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   static inline ::RootMotion::FinalIK::GrounderVRIK* New_ctor();
 
-  /// @brief Method .ctor, addr 0x124bd88, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12e5e38, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GrounderVRIK", modifiers: "&&", def_value: None }]

@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Normals);
 namespace UnityEngine::ProBuilder {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12146))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12044))
 // CS Name: ::UnityEngine.ProBuilder::Normals*
 class CORDL_TYPE Normals : public ::System::Object {
 public:
@@ -50,16 +50,16 @@ public:
 
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_s_CachedIntArray();
 
-  /// @brief Method ClearIntArray, addr 0x2b54ce8, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ClearIntArray, addr 0x2b53854, size 0xfc, virtual false, abstract: false, final false
   static inline void ClearIntArray(int32_t count);
 
-  /// @brief Method CalculateTangents, addr 0x2b54de4, size 0x4fc, virtual false, abstract: false, final false
+  /// @brief Method CalculateTangents, addr 0x2b53950, size 0x4fc, virtual false, abstract: false, final false
   static inline void CalculateTangents(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
 
-  /// @brief Method CalculateHardNormals, addr 0x2b552e0, size 0x4c8, virtual false, abstract: false, final false
+  /// @brief Method CalculateHardNormals, addr 0x2b53e4c, size 0x4c8, virtual false, abstract: false, final false
   static inline void CalculateHardNormals(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
 
-  /// @brief Method CalculateNormals, addr 0x2b557a8, size 0x5a8, virtual false, abstract: false, final false
+  /// @brief Method CalculateNormals, addr 0x2b54314, size 0x5a8, virtual false, abstract: false, final false
   static inline void CalculateNormals(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
 
   // Ctor Parameters [CppParam { name: "", ty: "Normals", modifiers: "&&", def_value: None }]

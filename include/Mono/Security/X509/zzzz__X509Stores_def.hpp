@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::Mono::Security::X509::X509Stores);
 namespace Mono::Security::X509 {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13760))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13713))
 // CS Name: ::Mono.Security.X509::X509Stores*
 class CORDL_TYPE X509Stores : public ::System::Object {
 public:
@@ -55,13 +55,13 @@ public:
 
   static inline ::Mono::Security::X509::X509Stores* New_ctor(::StringW path, bool newFormat);
 
-  /// @brief Method .ctor, addr 0x23fe044, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x241dea4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW path, bool newFormat);
 
-  /// @brief Method get_TrustedRoot, addr 0x23fe114, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method get_TrustedRoot, addr 0x241df74, size 0xdc, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509Store* get_TrustedRoot();
 
-  /// @brief Method Open, addr 0x23fe1f0, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x241e050, size 0x120, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509Store* Open(::StringW storeName, bool create);
 
   // Ctor Parameters [CppParam { name: "", ty: "X509Stores", modifiers: "&&", def_value: None }]

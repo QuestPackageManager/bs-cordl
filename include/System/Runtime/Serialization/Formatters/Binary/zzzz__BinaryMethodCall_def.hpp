@@ -95,15 +95,15 @@ public:
 
   constexpr void __cordl_internal_set_messageEnum(::System::Runtime::Serialization::Formatters::Binary::MessageEnum value);
 
-  /// @brief Method Write, addr 0x24c1fac, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method Write, addr 0x24e3020, size 0x148, virtual false, abstract: false, final false
   inline void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
 
-  /// @brief Method Dump, addr 0x24c20f4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Dump, addr 0x24e3168, size 0x4, virtual false, abstract: false, final false
   inline void Dump();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24c20f8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24e316c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BinaryMethodCall", modifiers: "&&", def_value: None }]

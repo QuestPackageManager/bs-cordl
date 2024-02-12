@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::PropertyName::*)(::StringW)>(&::UnityEngine::PropertyName::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x2cc8668;
+  constexpr static std::size_t addrs = 0x2ccf99c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::PropertyName::*)(::UnityEngine::PropertyName)>(&::UnityEngine::PropertyName::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2cc8710;
+  constexpr static std::size_t addrs = 0x2ccfa44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::PropertyName)>(&::UnityEngine::PropertyName::IsNullOrEmpty)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2cc8718;
+  constexpr static std::size_t addrs = 0x2ccfa4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::PropertyName, ::UnityEngine::PropertyName)>(&::UnityEngine::PropertyName::op_Equality)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2cc8724;
+  constexpr static std::size_t addrs = 0x2ccfa58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::PropertyName::*)()>(&::UnityEngine::PropertyName::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2cc8730;
+  constexpr static std::size_t addrs = 0x2ccfa64;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::PropertyName::*)(::System::Object*)>(&::UnityEngine::PropertyName::Equals)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x2cc8738;
+  constexpr static std::size_t addrs = 0x2ccfa6c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::PropertyName::*)(::UnityEngine::PropertyName)>(&::UnityEngine::PropertyName::Equals)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2cc87b0;
+  constexpr static std::size_t addrs = 0x2ccfae4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::PropertyName (*)(::StringW)>(&::UnityEngine::PropertyName::op_Implicit___UnityEngine__PropertyName)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x2cc87c0;
+  constexpr static std::size_t addrs = 0x2ccfaf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::PropertyName::*)()>(&::UnityEngine::PropertyName::ToString)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x2cc880c;
+  constexpr static std::size_t addrs = 0x2ccfb40;
 
   inline static ::MethodInfo const* methodInfo() {
 

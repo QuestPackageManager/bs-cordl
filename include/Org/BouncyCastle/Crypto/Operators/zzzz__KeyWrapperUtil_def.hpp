@@ -40,15 +40,15 @@ public:
 
   static inline ::System::Collections::IDictionary* getStaticF_providerMap();
 
-  /// @brief Method WrapperForName, addr 0xf28878, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method WrapperForName, addr 0xf53708, size 0x238, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IKeyWrapper* WrapperForName(::StringW algorithm, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method UnwrapperForName, addr 0xf2909c, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method UnwrapperForName, addr 0xf53f2c, size 0x238, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IKeyUnwrapper* UnwrapperForName(::StringW algorithm, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Operators::KeyWrapperUtil* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf292d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf54164, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "KeyWrapperUtil", modifiers: "&&", def_value: None }]

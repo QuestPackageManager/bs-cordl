@@ -2,20 +2,20 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__OverrideEnvironmentSettings_def.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentInfoSO_def.hpp"
-#include "GlobalNamespace/zzzz__EnvironmentTypeSO_def.hpp"
+#include "GlobalNamespace/zzzz__EnvironmentType_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::OverrideEnvironmentSettings.SetEnvironmentInfoForType
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OverrideEnvironmentSettings::*)(
-    ::GlobalNamespace::EnvironmentTypeSO*, ::GlobalNamespace::EnvironmentInfoSO*)>(&::GlobalNamespace::OverrideEnvironmentSettings::SetEnvironmentInfoForType)> {
+    ::GlobalNamespace::EnvironmentType, ::GlobalNamespace::EnvironmentInfoSO*)>(&::GlobalNamespace::OverrideEnvironmentSettings::SetEnvironmentInfoForType)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x236af00;
+  constexpr static std::size_t addrs = 0x12aea28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OverrideEnvironmentSettings*>::get(), "SetEnvironmentInfoForType", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentTypeSO*>::get(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentType>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentInfoSO*>::get() })));
     return ___internal_method;
   }
@@ -24,14 +24,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::EnvironmentInfoSO> (::GlobalNamespace::OverrideEnvironmentSettings::*)(
-    ::GlobalNamespace::EnvironmentTypeSO*)>(&::GlobalNamespace::OverrideEnvironmentSettings::GetOverrideEnvironmentInfoForType)> {
+    ::GlobalNamespace::EnvironmentType)>(&::GlobalNamespace::OverrideEnvironmentSettings::GetOverrideEnvironmentInfoForType)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x236af68;
+  constexpr static std::size_t addrs = 0x12aea90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OverrideEnvironmentSettings*>::get(), "GetOverrideEnvironmentInfoForType", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentTypeSO*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentType>::get() })));
     return ___internal_method;
   }
 };
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OverrideEnvironmentSettings::*)()>(&::GlobalNamespace::OverrideEnvironmentSettings::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x236afe0;
+  constexpr static std::size_t addrs = 0x12aeb08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OverrideEnvironmentSettings*>::get(), ".ctor",
@@ -60,32 +60,32 @@ constexpr void GlobalNamespace::OverrideEnvironmentSettings::__cordl_internal_se
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___overrideEnvironments = value;
 }
-constexpr ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::EnvironmentTypeSO>, ::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*&
+constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::EnvironmentType, ::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*&
 GlobalNamespace::OverrideEnvironmentSettings::__cordl_internal_get__data() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____data;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::EnvironmentTypeSO>, ::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*> const&
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::GlobalNamespace::EnvironmentType, ::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*> const&
 GlobalNamespace::OverrideEnvironmentSettings::__cordl_internal_get__data() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____data;
 }
 constexpr void GlobalNamespace::OverrideEnvironmentSettings::__cordl_internal_set__data(
-    ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::EnvironmentTypeSO>, ::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* value) {
+    ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::EnvironmentType, ::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____data)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::OverrideEnvironmentSettings::SetEnvironmentInfoForType(::GlobalNamespace::EnvironmentTypeSO* environmentType, ::GlobalNamespace::EnvironmentInfoSO* environmentInfo) {
+inline void GlobalNamespace::OverrideEnvironmentSettings::SetEnvironmentInfoForType(::GlobalNamespace::EnvironmentType environmentType, ::GlobalNamespace::EnvironmentInfoSO* environmentInfo) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OverrideEnvironmentSettings*>::get(), "SetEnvironmentInfoForType", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentTypeSO*>::get(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentType>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentInfoSO*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, environmentType, environmentInfo);
 }
-inline ::UnityW<::GlobalNamespace::EnvironmentInfoSO> GlobalNamespace::OverrideEnvironmentSettings::GetOverrideEnvironmentInfoForType(::GlobalNamespace::EnvironmentTypeSO* environmentType) {
+inline ::UnityW<::GlobalNamespace::EnvironmentInfoSO> GlobalNamespace::OverrideEnvironmentSettings::GetOverrideEnvironmentInfoForType(::GlobalNamespace::EnvironmentType environmentType) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OverrideEnvironmentSettings*>::get(), "GetOverrideEnvironmentInfoForType", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentTypeSO*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentType>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, false>(this, ___internal_method, environmentType);
 }
 inline ::GlobalNamespace::OverrideEnvironmentSettings* GlobalNamespace::OverrideEnvironmentSettings::New_ctor() {

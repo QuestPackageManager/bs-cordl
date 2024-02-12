@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__ILobbyPlayersDataModel_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapKey_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
 #include "GlobalNamespace/zzzz__ILobbyPlayerData_def.hpp"
-#include "GlobalNamespace/zzzz__PreviewDifficultyBeatmap_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyDictionary_2_def.hpp"
@@ -72,7 +72,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::ILobbyPlayersDataModel.SetLocalPlayerBeatmapLevel
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ILobbyPlayersDataModel::*)(::GlobalNamespace::PreviewDifficultyBeatmap*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ILobbyPlayersDataModel::*)(ByRef<::GlobalNamespace::BeatmapKey>)>(
     &::GlobalNamespace::ILobbyPlayersDataModel::SetLocalPlayerBeatmapLevel)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
@@ -303,10 +303,10 @@ inline ::StringW GlobalNamespace::ILobbyPlayersDataModel::get_partyOwnerId() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ILobbyPlayersDataModel*>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::ILobbyPlayersDataModel::SetLocalPlayerBeatmapLevel(::GlobalNamespace::PreviewDifficultyBeatmap* beatmapLevel) {
+inline void GlobalNamespace::ILobbyPlayersDataModel::SetLocalPlayerBeatmapLevel(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ILobbyPlayersDataModel*>::get(), 4)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, beatmapLevel);
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, beatmapKey);
 }
 inline void GlobalNamespace::ILobbyPlayersDataModel::ClearLocalPlayerBeatmapLevel() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),

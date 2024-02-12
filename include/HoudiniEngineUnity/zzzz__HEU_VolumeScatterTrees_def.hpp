@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_VolumeScatterTrees);
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9953))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9745))
 // CS Name: ::HoudiniEngineUnity::HEU_VolumeScatterTrees*
 class CORDL_TYPE HEU_VolumeScatterTrees : public ::System::Object {
 public:
@@ -126,12 +126,12 @@ public:
 
   constexpr void __cordl_internal_set__terrainTiles(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  /// @brief Method IsEquivalentTo, addr 0x21ea13c, size 0x374, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x227fa24, size 0x374, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_VolumeScatterTrees* other);
 
   static inline ::HoudiniEngineUnity::HEU_VolumeScatterTrees* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21ea4b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x227fd98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_VolumeScatterTrees", modifiers: "&&", def_value: None }]

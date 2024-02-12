@@ -63,7 +63,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Linq::JsonPath::__FieldMultipleFilter____c);
 namespace Newtonsoft::Json::Linq::JsonPath {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12016))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11914))
 // CS Name: ::FieldMultipleFilter::<>c*
 class CORDL_TYPE __FieldMultipleFilter____c : public ::System::Object {
 public:
@@ -84,10 +84,10 @@ public:
 
   static inline ::Newtonsoft::Json::Linq::JsonPath::__FieldMultipleFilter____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26ae0ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d0268, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <ExecuteFilter>b__4_0, addr 0x26ae0b4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <ExecuteFilter>b__4_0, addr 0x26d0270, size 0x50, virtual false, abstract: false, final false
   inline ::StringW _ExecuteFilter_b__4_0(::StringW n);
 
   // Ctor Parameters [CppParam { name: "", ty: "__FieldMultipleFilter____c", modifiers: "&&", def_value: None }]
@@ -114,8 +114,8 @@ static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Linq::JsonPath
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq::JsonPath {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3842)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 397
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(12017)) CS Name: ::FieldMultipleFilter::<ExecuteFilter>d__4*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3841)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3841), inst: 398
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(11915)) CS Name: ::FieldMultipleFilter::<ExecuteFilter>d__4*
 class CORDL_TYPE __FieldMultipleFilter___ExecuteFilter_d__4 : public ::System::Object {
 public:
   // Declarations
@@ -273,34 +273,34 @@ public:
 
   static inline ::Newtonsoft::Json::Linq::JsonPath::__FieldMultipleFilter___ExecuteFilter_d__4* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor, addr 0x26adffc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d01b8, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x26ae104, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x26d02c0, size 0xb0, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext, addr 0x26ae1b4, size 0x6d8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26d0370, size 0x6d8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method <>m__Finally1, addr 0x26ae8dc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x26d0a98, size 0xb0, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method <>m__Finally2, addr 0x26ae88c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally2, addr 0x26d0a48, size 0x50, virtual false, abstract: false, final false
   inline void __m__Finally2();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<Newtonsoft.Json.Linq.JToken>.get_Current, addr 0x26ae98c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<Newtonsoft.Json.Linq.JToken>.get_Current, addr 0x26d0b48, size 0x8, virtual true, abstract: false, final true
   inline ::Newtonsoft::Json::Linq::JToken* System_Collections_Generic_IEnumerator_Newtonsoft_Json_Linq_JToken__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x26ae994, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x26d0b50, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x26ae9d4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x26d0b90, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.Collections.Generic.IEnumerable<Newtonsoft.Json.Linq.JToken>.GetEnumerator, addr 0x26ae9dc, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<Newtonsoft.Json.Linq.JToken>.GetEnumerator, addr 0x26d0b98, size 0xb0, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>* System_Collections_Generic_IEnumerable_Newtonsoft_Json_Linq_JToken__GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x26aea8c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x26d0c48, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FieldMultipleFilter___ExecuteFilter_d__4", modifiers: "&&", def_value: None }]
@@ -392,8 +392,8 @@ static_assert(offsetof(::Newtonsoft::Json::Linq::JsonPath::__FieldMultipleFilter
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq::JsonPath {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12020))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12018))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11918))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11916))
 // CS Name: ::Newtonsoft.Json.Linq.JsonPath::FieldMultipleFilter*
 class CORDL_TYPE FieldMultipleFilter : public ::Newtonsoft::Json::Linq::JsonPath::PathFilter {
 public:
@@ -413,19 +413,19 @@ public:
 
   constexpr void __cordl_internal_set__Names_k__BackingField(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method get_Names, addr 0x26adf70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Names, addr 0x26d012c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::StringW>* get_Names();
 
-  /// @brief Method set_Names, addr 0x26adf78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Names, addr 0x26d0134, size 0x8, virtual false, abstract: false, final false
   inline void set_Names(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method ExecuteFilter, addr 0x26adf80, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method ExecuteFilter, addr 0x26d013c, size 0x7c, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* ExecuteFilter(::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* current,
                                                                                                          bool errorWhenNoMatch);
 
   static inline ::Newtonsoft::Json::Linq::JsonPath::FieldMultipleFilter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26ae040, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d01fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FieldMultipleFilter", modifiers: "&&", def_value: None }]

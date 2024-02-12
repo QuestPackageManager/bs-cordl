@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::MultiplayerSongEntitlementsStatus);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5255))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4595))
 // CS Name: ::MultiplayerSongEntitlementsStatus
 struct CORDL_TYPE MultiplayerSongEntitlementsStatus {
 public:

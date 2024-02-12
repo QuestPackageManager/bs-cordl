@@ -54,7 +54,7 @@ MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaDatatype);
 namespace System::Xml::Schema {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11723))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11621))
 // CS Name: ::System.Xml.Schema::XmlSchemaDatatype*
 class CORDL_TYPE XmlSchemaDatatype : public ::System::Object {
 public:
@@ -86,10 +86,10 @@ public:
   /// @brief Method ParseValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* ParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr);
 
-  /// @brief Method get_Variety, addr 0x28c7d7c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Variety, addr 0x28ca3e4, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaDatatypeVariety get_Variety();
 
-  /// @brief Method get_TypeCode, addr 0x28c7d84, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x28ca3ec, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
   /// @brief Method get_ValueConverter, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -113,18 +113,18 @@ public:
   /// @brief Method IsEqual, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool IsEqual(::System::Object* o1, ::System::Object* o2);
 
-  /// @brief Method get_TypeCodeString, addr 0x28c1324, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method get_TypeCodeString, addr 0x28c398c, size 0x128, virtual false, abstract: false, final false
   inline ::StringW get_TypeCodeString();
 
-  /// @brief Method TypeCodeToString, addr 0x28c7d8c, size 0x4ac, virtual false, abstract: false, final false
+  /// @brief Method TypeCodeToString, addr 0x28ca3f4, size 0x4ac, virtual false, abstract: false, final false
   inline ::StringW TypeCodeToString(::System::Xml::Schema::XmlTypeCode typeCode);
 
-  /// @brief Method FromXmlTokenizedType, addr 0x28c4658, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method FromXmlTokenizedType, addr 0x28c6cc0, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Xml::Schema::XmlSchemaDatatype* FromXmlTokenizedType(::System::Xml::XmlTokenizedType token);
 
   static inline ::System::Xml::Schema::XmlSchemaDatatype* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28c8238, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28ca8a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaDatatype", modifiers: "&&", def_value: None }]

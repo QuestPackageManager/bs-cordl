@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::System::Reflection::AssemblyKeyFileAttribute);
 namespace System::Reflection {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3453))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3449))
 // CS Name: ::System.Reflection::AssemblyKeyFileAttribute*
 class CORDL_TYPE AssemblyKeyFileAttribute : public ::System::Attribute {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::System::Reflection::AssemblyKeyFileAttribute* New_ctor(::StringW keyFile);
 
-  /// @brief Method .ctor, addr 0x24e6010, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2505168, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW keyFile);
 
   // Ctor Parameters [CppParam { name: "", ty: "AssemblyKeyFileAttribute", modifiers: "&&", def_value: None }]

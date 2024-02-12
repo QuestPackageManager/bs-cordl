@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::System::Net::Cache::RequestCache);
 namespace System::Net::Cache {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9316))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7326))
 // CS Name: ::System.Net.Cache::RequestCache*
 class CORDL_TYPE RequestCache : public ::System::Object {
 public:

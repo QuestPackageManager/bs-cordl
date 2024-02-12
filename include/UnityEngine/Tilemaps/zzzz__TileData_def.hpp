@@ -37,8 +37,8 @@ MARK_VAL_T(::UnityEngine::Tilemaps::TileData);
 // SizeInfo { instance_size: 96, native_size: 96, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Tilemaps {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10245)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(15938)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15945))] Self: TypeDefinitionIndex(TypeDefinitionIndex(15941)) CS Name: ::UnityEngine.Tilemaps::TileData
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8989)), TypeDefinitionIndex(TypeDefinitionIndex(8995)), TypeDefinitionIndex(TypeDefinitionIndex(16061)),
+// TypeDefinitionIndex(TypeDefinitionIndex(16068))] Self: TypeDefinitionIndex(TypeDefinitionIndex(16064)) CS Name: ::UnityEngine.Tilemaps::TileData
 struct CORDL_TYPE TileData {
 public:
   // Declarations
@@ -61,25 +61,25 @@ public:
 
   static inline ::UnityEngine::Tilemaps::TileData getStaticF_Default();
 
-  /// @brief Method set_sprite, addr 0x2d5027c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_sprite, addr 0x2d6e664, size 0x90, virtual false, abstract: false, final false
   inline void set_sprite(::UnityEngine::Sprite* value);
 
-  /// @brief Method set_color, addr 0x2d5030c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_color, addr 0x2d6e6f4, size 0xc, virtual false, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
-  /// @brief Method set_transform, addr 0x2d50318, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_transform, addr 0x2d6e700, size 0x1c, virtual false, abstract: false, final false
   inline void set_transform(::UnityEngine::Matrix4x4 value);
 
-  /// @brief Method set_gameObject, addr 0x2d50334, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_gameObject, addr 0x2d6e71c, size 0x90, virtual false, abstract: false, final false
   inline void set_gameObject(::UnityEngine::GameObject* value);
 
-  /// @brief Method set_flags, addr 0x2d503c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_flags, addr 0x2d6e7ac, size 0x8, virtual false, abstract: false, final false
   inline void set_flags(::UnityEngine::Tilemaps::TileFlags value);
 
-  /// @brief Method set_colliderType, addr 0x2d503cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_colliderType, addr 0x2d6e7b4, size 0x8, virtual false, abstract: false, final false
   inline void set_colliderType(::UnityEngine::Tilemaps::__Tile__ColliderType value);
 
-  /// @brief Method CreateDefault, addr 0x2d503d4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method CreateDefault, addr 0x2d6e7bc, size 0x74, virtual false, abstract: false, final false
   static inline ::UnityEngine::Tilemaps::TileData CreateDefault();
 
   // Ctor Parameters [CppParam { name: "m_Sprite", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Color", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam {

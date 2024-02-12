@@ -27,7 +27,7 @@ namespace System::Collections::Concurrent {
 template <typename T>
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3812))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3811))
 // CS Name: ::System.Collections.Concurrent::IProducerConsumerCollection`1<T>*
 class CORDL_TYPE IProducerConsumerCollection_1 {
 public:

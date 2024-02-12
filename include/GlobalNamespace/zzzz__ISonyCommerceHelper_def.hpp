@@ -53,7 +53,7 @@ MARK_VAL_T(::GlobalNamespace::__ISonyCommerceHelper__AdditionalContentEntitlemen
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4140))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10598))
 // CS Name: ::ISonyCommerceHelper::DisplayProductBrowseDialogResult
 struct CORDL_TYPE __ISonyCommerceHelper__DisplayProductBrowseDialogResult {
 public:
@@ -103,7 +103,7 @@ static_assert(offsetof(::GlobalNamespace::__ISonyCommerceHelper__DisplayProductB
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4141))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10599))
 // CS Name: ::ISonyCommerceHelper::DisplayCategoryBrowseDialogResult
 struct CORDL_TYPE __ISonyCommerceHelper__DisplayCategoryBrowseDialogResult {
 public:
@@ -153,7 +153,7 @@ static_assert(offsetof(::GlobalNamespace::__ISonyCommerceHelper__DisplayCategory
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4142))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10600))
 // CS Name: ::ISonyCommerceHelper::GetAdditionalContentEntitlementsResult
 struct CORDL_TYPE __ISonyCommerceHelper__GetAdditionalContentEntitlementsResult {
 public:
@@ -202,8 +202,8 @@ static_assert(offsetof(::GlobalNamespace::__ISonyCommerceHelper__GetAdditionalCo
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4142))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4143))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10600))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10601))
 // CS Name: ::ISonyCommerceHelper::AdditionalContentEntitlementsAsyncResult
 struct CORDL_TYPE __ISonyCommerceHelper__AdditionalContentEntitlementsAsyncResult {
 public:
@@ -241,7 +241,7 @@ static_assert(offsetof(::GlobalNamespace::__ISonyCommerceHelper__AdditionalConte
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4144))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10602))
 // CS Name: ::ISonyCommerceHelper*
 class CORDL_TYPE ISonyCommerceHelper {
 public:

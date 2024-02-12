@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::MicrophoneAvailabilityState);
 namespace Oculus::Platform::Models {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13457))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13405))
 // CS Name: ::Oculus.Platform.Models::MicrophoneAvailabilityState*
 class CORDL_TYPE MicrophoneAvailabilityState : public ::System::Object {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::Oculus::Platform::Models::MicrophoneAvailabilityState* New_ctor(void* o);
 
-  /// @brief Method .ctor, addr 0x2707464, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x273b470, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "MicrophoneAvailabilityState", modifiers: "&&", def_value: None }]

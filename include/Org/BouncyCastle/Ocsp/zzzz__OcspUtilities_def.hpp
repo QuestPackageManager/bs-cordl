@@ -57,21 +57,21 @@ public:
 
   static inline ::Org::BouncyCastle::Utilities::Collections::ISet* getStaticF_noParams();
 
-  /// @brief Method GetAlgorithmOid, addr 0x10a1a60, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method GetAlgorithmOid, addr 0x10ce8f0, size 0x20c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetAlgorithmOid(::StringW algorithmName);
 
-  /// @brief Method GetAlgorithmName, addr 0x109c14c, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method GetAlgorithmName, addr 0x10c8fdc, size 0x198, virtual false, abstract: false, final false
   static inline ::StringW GetAlgorithmName(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetSigAlgID, addr 0x109e6bc, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method GetSigAlgID, addr 0x10cb54c, size 0x16c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* GetSigAlgID(::Org::BouncyCastle::Asn1::DerObjectIdentifier* sigOid);
 
-  /// @brief Method get_AlgNames, addr 0x109e9c0, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method get_AlgNames, addr 0x10cb850, size 0x10c, virtual false, abstract: false, final false
   static inline ::System::Collections::IEnumerable* get_AlgNames();
 
   static inline ::Org::BouncyCastle::Ocsp::OcspUtilities* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10a4a90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10d1920, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OcspUtilities", modifiers: "&&", def_value: None }]

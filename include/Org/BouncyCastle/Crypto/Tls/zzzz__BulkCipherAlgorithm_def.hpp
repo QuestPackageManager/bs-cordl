@@ -23,7 +23,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Tls::BulkCipherAlgorithm* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf5d358, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf871e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BulkCipherAlgorithm", modifiers: "&&", def_value: None }]

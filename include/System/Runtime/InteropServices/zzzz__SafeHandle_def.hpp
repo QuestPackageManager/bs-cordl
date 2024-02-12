@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::System::Runtime::InteropServices::SafeHandle);
 // SizeInfo { instance_size: 32, native_size: 8, calculated_instance_size: 32, calculated_native_size: 30, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::InteropServices {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(3354))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3334))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(3351))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3332))
 // CS Name: ::System.Runtime.InteropServices::SafeHandle*
 class CORDL_TYPE SafeHandle : public ::System::Runtime::ConstrainedExecution::CriticalFinalizerObject {
 public:
@@ -74,52 +74,52 @@ public:
 
   static inline ::System::Runtime::InteropServices::SafeHandle* New_ctor(void* invalidHandleValue, bool ownsHandle);
 
-  /// @brief Method .ctor, addr 0x24d7614, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f82a4, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(void* invalidHandleValue, bool ownsHandle);
 
-  /// @brief Method Finalize, addr 0x24d76b4, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x24f8344, size 0xa0, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method SetHandle, addr 0x24d7754, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetHandle, addr 0x24f83e4, size 0x8, virtual false, abstract: false, final false
   inline void SetHandle(void* handle);
 
-  /// @brief Method DangerousGetHandle, addr 0x24d775c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method DangerousGetHandle, addr 0x24f83ec, size 0x8, virtual false, abstract: false, final false
   inline void* DangerousGetHandle();
 
-  /// @brief Method get_IsClosed, addr 0x24d7764, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_IsClosed, addr 0x24f83f4, size 0xc, virtual false, abstract: false, final false
   inline bool get_IsClosed();
 
   /// @brief Method get_IsInvalid, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsInvalid();
 
-  /// @brief Method Close, addr 0x24d7770, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Close, addr 0x24f8400, size 0x10, virtual false, abstract: false, final false
   inline void Close();
 
-  /// @brief Method Dispose, addr 0x24d7780, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x24f8410, size 0x10, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x24d7790, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x24f8420, size 0x1c, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   /// @brief Method ReleaseHandle, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool ReleaseHandle();
 
-  /// @brief Method SetHandleAsInvalid, addr 0x24d7868, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method SetHandleAsInvalid, addr 0x24f84f8, size 0x84, virtual false, abstract: false, final false
   inline void SetHandleAsInvalid();
 
-  /// @brief Method DangerousAddRef, addr 0x24d6d7c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method DangerousAddRef, addr 0x24f7a0c, size 0xd0, virtual false, abstract: false, final false
   inline void DangerousAddRef(ByRef<bool> success);
 
-  /// @brief Method DangerousRelease, addr 0x24d6f28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method DangerousRelease, addr 0x24f7bb8, size 0x8, virtual false, abstract: false, final false
   inline void DangerousRelease();
 
-  /// @brief Method InternalDispose, addr 0x24d77ac, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method InternalDispose, addr 0x24f843c, size 0xa8, virtual false, abstract: false, final false
   inline void InternalDispose();
 
-  /// @brief Method InternalFinalize, addr 0x24d7854, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method InternalFinalize, addr 0x24f84e4, size 0x14, virtual false, abstract: false, final false
   inline void InternalFinalize();
 
-  /// @brief Method DangerousReleaseInternal, addr 0x24d78ec, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method DangerousReleaseInternal, addr 0x24f857c, size 0x170, virtual false, abstract: false, final false
   inline void DangerousReleaseInternal(bool dispose);
 
   // Ctor Parameters [CppParam { name: "", ty: "SafeHandle", modifiers: "&&", def_value: None }]

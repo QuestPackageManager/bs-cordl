@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerConnectedPlayerSongTimeSyncContro
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5127))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4465))
 // CS Name: ::MultiplayerConnectedPlayerSongTimeSyncController::InitData*
 class CORDL_TYPE __MultiplayerConnectedPlayerSongTimeSyncController__InitData : public ::System::Object {
 public:
@@ -68,7 +68,7 @@ public:
 
   static inline ::GlobalNamespace::__MultiplayerConnectedPlayerSongTimeSyncController__InitData* New_ctor(float_t startSongTime, float_t songTimeOffset, float_t timeScale);
 
-  /// @brief Method .ctor, addr 0x23d6498, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2390050, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(float_t startSongTime, float_t songTimeOffset, float_t timeScale);
 
   // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerConnectedPlayerSongTimeSyncController__InitData", modifiers: "&&", def_value: None }]
@@ -110,8 +110,8 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerConnectedPlayerSongTimeSy
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 90, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5128))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4466))
 // CS Name: ::MultiplayerConnectedPlayerSongTimeSyncController*
 class CORDL_TYPE MultiplayerConnectedPlayerSongTimeSyncController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -252,45 +252,45 @@ public:
 
   constexpr void __cordl_internal_set__isReady(bool value);
 
-  /// @brief Method get_songTime, addr 0x23d6a48, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_songTime, addr 0x2390600, size 0x8, virtual true, abstract: false, final true
   inline float_t get_songTime();
 
-  /// @brief Method set_songTime, addr 0x23d6a50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_songTime, addr 0x2390608, size 0x8, virtual false, abstract: false, final false
   inline void set_songTime(float_t value);
 
-  /// @brief Method get_lastFrameDeltaSongTime, addr 0x23d6a58, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_lastFrameDeltaSongTime, addr 0x2390610, size 0x8, virtual true, abstract: false, final true
   inline float_t get_lastFrameDeltaSongTime();
 
-  /// @brief Method set_lastFrameDeltaSongTime, addr 0x23d6a60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lastFrameDeltaSongTime, addr 0x2390618, size 0x8, virtual false, abstract: false, final false
   inline void set_lastFrameDeltaSongTime(float_t value);
 
-  /// @brief Method get_songEndTime, addr 0x23d6a68, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_songEndTime, addr 0x2390620, size 0xc, virtual true, abstract: false, final true
   inline float_t get_songEndTime();
 
-  /// @brief Method get_songLength, addr 0x23d6a74, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_songLength, addr 0x239062c, size 0xc, virtual true, abstract: false, final true
   inline float_t get_songLength();
 
-  /// @brief Method get_isReady, addr 0x23d6a80, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isReady, addr 0x2390638, size 0x8, virtual true, abstract: false, final true
   inline bool get_isReady();
 
-  /// @brief Method Start, addr 0x23d6a88, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2390640, size 0xc, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x23d6a94, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x239064c, size 0x160, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method StartSong, addr 0x23d4b70, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method StartSong, addr 0x238e70c, size 0x154, virtual false, abstract: false, final false
   inline void StartSong(int64_t songStartSyncTime);
 
-  /// @brief Method SetConnectedPlayerSongTime, addr 0x23d6bf4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method SetConnectedPlayerSongTime, addr 0x23907ac, size 0x38, virtual false, abstract: false, final false
   inline void SetConnectedPlayerSongTime(int64_t syncTime, float_t songTime);
 
-  /// @brief Method StopSong, addr 0x23d4e40, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method StopSong, addr 0x238e9dc, size 0xc, virtual false, abstract: false, final false
   inline void StopSong();
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23d6c2c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23907e4, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerSongTimeSyncController", modifiers: "&&", def_value: None }]

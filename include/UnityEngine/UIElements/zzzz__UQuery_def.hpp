@@ -77,7 +77,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__UQuery__UQueryMatcher);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6920))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6179))
 // CS Name: ::UQuery::IVisualPredicateWrapper*
 class CORDL_TYPE __UQuery__IVisualPredicateWrapper {
 public:
@@ -104,7 +104,7 @@ namespace UnityEngine::UIElements {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6921))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6180))
 // CS Name: ::UQuery::IsOfType`1<T>*
 class CORDL_TYPE __UQuery__IsOfType_1 : public ::System::Object {
 public:
@@ -153,7 +153,7 @@ public:
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6922))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6181))
 // CS Name: ::UQuery::UQueryMatcher::<>c*
 class CORDL_TYPE __UQuery__UQueryMatcher____c : public ::System::Object {
 public:
@@ -175,10 +175,10 @@ public:
 
   static inline ::GlobalNamespace::__UQuery__UQueryMatcher____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e04930, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e21d18, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <TraverseRecursive>b__5_0, addr 0x2e04938, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <TraverseRecursive>b__5_0, addr 0x2e21d20, size 0x4, virtual false, abstract: false, final false
   inline void _TraverseRecursive_b__5_0(::UnityEngine::UIElements::VisualElement* e, ::UnityEngine::UIElements::StyleSheets::MatchResultInfo i);
 
   // Ctor Parameters [CppParam { name: "", ty: "__UQuery__UQueryMatcher____c", modifiers: "&&", def_value: None }]
@@ -205,8 +205,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UQuery__UQuer
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7459))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6923))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6718))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6182))
 // CS Name: ::UQuery::UQueryMatcher*
 class CORDL_TYPE __UQuery__UQueryMatcher : public ::UnityEngine::UIElements::StyleSheets::HierarchyTraversal {
 public:
@@ -224,22 +224,22 @@ public:
 
   static inline ::UnityEngine::UIElements::__UQuery__UQueryMatcher* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e046a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e21a8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Traverse, addr 0x2e046ac, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Traverse, addr 0x2e21a94, size 0x8, virtual true, abstract: false, final false
   inline void Traverse(::UnityEngine::UIElements::VisualElement* element);
 
-  /// @brief Method OnRuleMatchedElement, addr 0x2e046b4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method OnRuleMatchedElement, addr 0x2e21a9c, size 0x8, virtual true, abstract: false, final false
   inline bool OnRuleMatchedElement(::UnityEngine::UIElements::RuleMatcher matcher, ::UnityEngine::UIElements::VisualElement* element);
 
-  /// @brief Method NoProcessResult, addr 0x2e046bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method NoProcessResult, addr 0x2e21aa4, size 0x4, virtual false, abstract: false, final false
   static inline void NoProcessResult(::UnityEngine::UIElements::VisualElement* e, ::UnityEngine::UIElements::StyleSheets::MatchResultInfo i);
 
-  /// @brief Method TraverseRecursive, addr 0x2e046c0, size 0x1fc, virtual true, abstract: false, final false
+  /// @brief Method TraverseRecursive, addr 0x2e21aa8, size 0x1fc, virtual true, abstract: false, final false
   inline void TraverseRecursive(::UnityEngine::UIElements::VisualElement* element, int32_t depth);
 
-  /// @brief Method Run, addr 0x2e048bc, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x2e21ca4, size 0x10, virtual true, abstract: false, final false
   inline void Run(::UnityEngine::UIElements::VisualElement* root, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::RuleMatcher>* matchers);
 
   // Ctor Parameters [CppParam { name: "", ty: "__UQuery__UQueryMatcher", modifiers: "&&", def_value: None }]
@@ -271,8 +271,8 @@ static_assert(offsetof(::UnityEngine::UIElements::__UQuery__UQueryMatcher, ___m_
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6923))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6924))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6182))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6183))
 // CS Name: ::UQuery::SingleQueryMatcher*
 class CORDL_TYPE __UQuery__SingleQueryMatcher : public ::UnityEngine::UIElements::__UQuery__UQueryMatcher {
 public:
@@ -288,16 +288,16 @@ public:
 
   constexpr void __cordl_internal_set__match_k__BackingField(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method get_match, addr 0x2e0493c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_match, addr 0x2e21d24, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_match();
 
-  /// @brief Method set_match, addr 0x2e04944, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_match, addr 0x2e21d2c, size 0x8, virtual false, abstract: false, final false
   inline void set_match(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method Run, addr 0x2e0494c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x2e21d34, size 0x24, virtual true, abstract: false, final false
   inline void Run(::UnityEngine::UIElements::VisualElement* root, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::RuleMatcher>* matchers);
 
-  /// @brief Method IsInUse, addr 0x2e04970, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsInUse, addr 0x2e21d58, size 0x10, virtual false, abstract: false, final false
   inline bool IsInUse();
 
   /// @brief Method CreateNew, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -305,7 +305,7 @@ public:
 
   static inline ::UnityEngine::UIElements::__UQuery__SingleQueryMatcher* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e04980, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e21d68, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__UQuery__SingleQueryMatcher", modifiers: "&&", def_value: None }]
@@ -337,8 +337,8 @@ static_assert(offsetof(::UnityEngine::UIElements::__UQuery__SingleQueryMatcher, 
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6924))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6925))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6183))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6184))
 // CS Name: ::UQuery::FirstQueryMatcher*
 class CORDL_TYPE __UQuery__FirstQueryMatcher : public ::UnityEngine::UIElements::__UQuery__SingleQueryMatcher {
 public:
@@ -350,15 +350,15 @@ public:
 
   static inline ::UnityEngine::UIElements::__UQuery__FirstQueryMatcher* getStaticF_Instance();
 
-  /// @brief Method OnRuleMatchedElement, addr 0x2e04988, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method OnRuleMatchedElement, addr 0x2e21d70, size 0x14, virtual true, abstract: false, final false
   inline bool OnRuleMatchedElement(::UnityEngine::UIElements::RuleMatcher matcher, ::UnityEngine::UIElements::VisualElement* element);
 
-  /// @brief Method CreateNew, addr 0x2e0499c, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method CreateNew, addr 0x2e21d84, size 0x5c, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::__UQuery__SingleQueryMatcher* CreateNew();
 
   static inline ::UnityEngine::UIElements::__UQuery__FirstQueryMatcher* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e049f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e21de0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__UQuery__FirstQueryMatcher", modifiers: "&&", def_value: None }]
@@ -386,7 +386,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__UQuer
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6926))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6185))
 // CS Name: ::UnityEngine.UIElements::UQuery*
 class CORDL_TYPE UQuery : public ::System::Object {
 public:

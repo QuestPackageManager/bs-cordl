@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::System::Diagnostics::Tracing::EventAttribute);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Diagnostics::Tracing {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(3743)), TypeDefinitionIndex(TypeDefinitionIndex(3744))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3745))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(3741)), TypeDefinitionIndex(TypeDefinitionIndex(3742))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3743))
 // CS Name: ::System.Diagnostics.Tracing::EventAttribute*
 class CORDL_TYPE EventAttribute : public ::System::Attribute {
 public:
@@ -77,19 +77,19 @@ public:
 
   static inline ::System::Diagnostics::Tracing::EventAttribute* New_ctor(int32_t eventId);
 
-  /// @brief Method .ctor, addr 0x257b8c4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x259e7b4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t eventId);
 
-  /// @brief Method set_EventId, addr 0x257b8ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_EventId, addr 0x259e7dc, size 0x8, virtual false, abstract: false, final false
   inline void set_EventId(int32_t value);
 
-  /// @brief Method set_Level, addr 0x257b8f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Level, addr 0x259e7e4, size 0x8, virtual false, abstract: false, final false
   inline void set_Level(::System::Diagnostics::Tracing::EventLevel value);
 
-  /// @brief Method set_Keywords, addr 0x257b8fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Keywords, addr 0x259e7ec, size 0x8, virtual false, abstract: false, final false
   inline void set_Keywords(::System::Diagnostics::Tracing::EventKeywords value);
 
-  /// @brief Method set_Message, addr 0x257b904, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Message, addr 0x259e7f4, size 0x8, virtual false, abstract: false, final false
   inline void set_Message(::StringW value);
 
   // Ctor Parameters [CppParam { name: "", ty: "EventAttribute", modifiers: "&&", def_value: None }]

@@ -21,12 +21,12 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::Test_HAPI_ParmInfo_Extensions);
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9903))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9695))
 // CS Name: ::HoudiniEngineUnity::Test_HAPI_ParmInfo_Extensions*
 class CORDL_TYPE Test_HAPI_ParmInfo_Extensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToTestObject, addr 0x21e41a4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x2279a8c, size 0x88, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::Test_HAPI_ParmInfo* ToTestObject(::HoudiniEngineUnity::HAPI_ParmInfo self);
 
   // Ctor Parameters [CppParam { name: "", ty: "Test_HAPI_ParmInfo_Extensions", modifiers: "&&", def_value: None }]

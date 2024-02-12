@@ -19,12 +19,12 @@ MARK_REF_PTR_T(::System::IO::StreamHelpers);
 namespace System::IO {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3571))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3567))
 // CS Name: ::System.IO::StreamHelpers*
 class CORDL_TYPE StreamHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ValidateCopyToArgs, addr 0x24fe444, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method ValidateCopyToArgs, addr 0x251d4d8, size 0x240, virtual false, abstract: false, final false
   static inline void ValidateCopyToArgs(::System::IO::Stream* source, ::System::IO::Stream* destination, int32_t bufferSize);
 
   // Ctor Parameters [CppParam { name: "", ty: "StreamHelpers", modifiers: "&&", def_value: None }]

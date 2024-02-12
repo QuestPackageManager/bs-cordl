@@ -153,45 +153,45 @@ public:
 
   constexpr void __cordl_internal_set_extensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* value);
 
-  /// @brief Method GetInstance, addr 0x108487c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x10b170c, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::AttributeCertificateInfo* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-  /// @brief Method GetInstance, addr 0x10845a0, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x10b1430, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::AttributeCertificateInfo* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::AttributeCertificateInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0x1084894, size 0x384, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10b1724, size 0x384, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Version, addr 0x1084c18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x10b1aa8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
-  /// @brief Method get_Holder, addr 0x1084c20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Holder, addr 0x10b1ab0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::Holder* get_Holder();
 
-  /// @brief Method get_Issuer, addr 0x1084c28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Issuer, addr 0x10b1ab8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AttCertIssuer* get_Issuer();
 
-  /// @brief Method get_Signature, addr 0x1084c30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Signature, addr 0x10b1ac0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_Signature();
 
-  /// @brief Method get_SerialNumber, addr 0x1084c38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SerialNumber, addr 0x10b1ac8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_SerialNumber();
 
-  /// @brief Method get_AttrCertValidityPeriod, addr 0x1084c40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AttrCertValidityPeriod, addr 0x10b1ad0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AttCertValidityPeriod* get_AttrCertValidityPeriod();
 
-  /// @brief Method get_Attributes, addr 0x1084c48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Attributes, addr 0x10b1ad8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Sequence* get_Attributes();
 
-  /// @brief Method get_IssuerUniqueID, addr 0x1084c50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IssuerUniqueID, addr 0x10b1ae0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerBitString* get_IssuerUniqueID();
 
-  /// @brief Method get_Extensions, addr 0x1084c58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Extensions, addr 0x10b1ae8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* get_Extensions();
 
-  /// @brief Method ToAsn1Object, addr 0x1084c60, size 0x27c, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x10b1af0, size 0x27c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "AttributeCertificateInfo", modifiers: "&&", def_value: None }]

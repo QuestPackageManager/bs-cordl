@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRAudioSourceTest);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8076))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8038))
 // CS Name: ::OVRAudioSourceTest*
 class CORDL_TYPE OVRAudioSourceTest : public ::UnityEngine::MonoBehaviour {
 public:
@@ -39,15 +39,15 @@ public:
 
   constexpr void __cordl_internal_set_nextActionTime(float_t value);
 
-  /// @brief Method Start, addr 0x27a1da0, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x27b5130, size 0x100, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x27a1ea0, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x27b5230, size 0x1bc, virtual false, abstract: false, final false
   inline void Update();
 
   static inline ::GlobalNamespace::OVRAudioSourceTest* New_ctor();
 
-  /// @brief Method .ctor, addr 0x27a205c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27b53ec, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRAudioSourceTest", modifiers: "&&", def_value: None }]

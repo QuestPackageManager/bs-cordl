@@ -49,33 +49,33 @@ public:
 
   constexpr void __cordl_internal_set_seq(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method GetInstance, addr 0x118aa38, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x11b88c8, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::CrlDistPoint* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0x118aa50, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x11b88e0, size 0xa8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::CrlDistPoint* GetInstance(::System::Object* obj);
 
-  /// @brief Method FromExtensions, addr 0x118ab20, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method FromExtensions, addr 0x11b89b0, size 0x74, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::CrlDistPoint* FromExtensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions);
 
   static inline ::Org::BouncyCastle::Asn1::X509::CrlDistPoint* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0x118aaf8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11b8988, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::X509::CrlDistPoint*
   New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::DistributionPoint*, ::Array<::Org::BouncyCastle::Asn1::X509::DistributionPoint*>*> points);
 
-  /// @brief Method .ctor, addr 0x118aba0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11b8a30, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::DistributionPoint*, ::Array<::Org::BouncyCastle::Asn1::X509::DistributionPoint*>*> points);
 
-  /// @brief Method GetDistributionPoints, addr 0x118ac1c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method GetDistributionPoints, addr 0x11b8aac, size 0x110, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::DistributionPoint*, ::Array<::Org::BouncyCastle::Asn1::X509::DistributionPoint*>*> GetDistributionPoints();
 
-  /// @brief Method ToAsn1Object, addr 0x118aea4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x11b8d34, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-  /// @brief Method ToString, addr 0x118aeac, size 0x154, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x11b8d3c, size 0x154, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "CrlDistPoint", modifiers: "&&", def_value: None }]

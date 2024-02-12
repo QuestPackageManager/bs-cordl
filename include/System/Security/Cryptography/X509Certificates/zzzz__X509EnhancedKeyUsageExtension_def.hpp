@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509EnhancedK
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8976)), TypeDefinitionIndex(TypeDefinitionIndex(9011))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9010))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6986)), TypeDefinitionIndex(TypeDefinitionIndex(7021))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7020))
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509EnhancedKeyUsageExtension*
 class CORDL_TYPE X509EnhancedKeyUsageExtension : public ::System::Security::Cryptography::X509Certificates::X509Extension {
 public:
@@ -53,29 +53,29 @@ public:
 
   static inline ::System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension* New_ctor();
 
-  /// @brief Method .ctor, addr 0x297b468, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x297ef0c, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension* New_ctor(::System::Security::Cryptography::AsnEncodedData* encodedEnhancedKeyUsages, bool critical);
 
-  /// @brief Method .ctor, addr 0x297771c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x297b1c0, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::AsnEncodedData* encodedEnhancedKeyUsages, bool critical);
 
   static inline ::System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension* New_ctor(::System::Security::Cryptography::OidCollection* enhancedKeyUsages, bool critical);
 
-  /// @brief Method .ctor, addr 0x2983ec0, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2987964, size 0x188, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::OidCollection* enhancedKeyUsages, bool critical);
 
-  /// @brief Method CopyFrom, addr 0x2984100, size 0x1dc, virtual true, abstract: false, final false
+  /// @brief Method CopyFrom, addr 0x2987ba4, size 0x1dc, virtual true, abstract: false, final false
   inline void CopyFrom(::System::Security::Cryptography::AsnEncodedData* asnEncodedData);
 
-  /// @brief Method Decode, addr 0x2983c60, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x2987704, size 0x260, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::AsnDecodeStatus Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> extension);
 
-  /// @brief Method Encode, addr 0x2984048, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x2987aec, size 0xb8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Encode();
 
-  /// @brief Method ToString, addr 0x29842dc, size 0x2d4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2987d80, size 0x2d4, virtual true, abstract: false, final false
   inline ::StringW ToString(bool multiLine);
 
   // Ctor Parameters [CppParam { name: "", ty: "X509EnhancedKeyUsageExtension", modifiers: "&&", def_value: None }]

@@ -45,13 +45,13 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Operators::DefaultSignatureResult* New_ctor(::Org::BouncyCastle::Crypto::ISigner* signer);
 
-  /// @brief Method .ctor, addr 0xf2dd90, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf58c20, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::ISigner* signer);
 
-  /// @brief Method Collect, addr 0xf2ddb8, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method Collect, addr 0xf58c48, size 0xa4, virtual true, abstract: false, final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Collect();
 
-  /// @brief Method Collect, addr 0xf2de5c, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method Collect, addr 0xf58cec, size 0x40, virtual true, abstract: false, final true
   inline int32_t Collect(::ArrayW<uint8_t, ::Array<uint8_t>*> sig, int32_t sigOff);
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultSignatureResult", modifiers: "&&", def_value: None }]

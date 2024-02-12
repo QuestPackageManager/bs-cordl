@@ -18,12 +18,12 @@ MARK_VAL_T(::TMPro::FontAssetCreationSettings);
 namespace TMPro {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12359))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12257))
 // CS Name: ::TMPro::FontAssetCreationSettings
 struct CORDL_TYPE FontAssetCreationSettings {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x2c10214, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c0cd80, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::StringW sourceFontFileGUID, int32_t pointSize, int32_t pointSizeSamplingMode, int32_t padding, int32_t packingMode, int32_t atlasWidth, int32_t atlasHeight,
                     int32_t characterSelectionMode, ::StringW characterSet, int32_t renderMode);
 

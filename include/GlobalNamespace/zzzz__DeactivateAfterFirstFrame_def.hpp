@@ -36,7 +36,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__DeactivateAfterFirstFrame___Start_d__0);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5358))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16177))
 // CS Name: ::DeactivateAfterFirstFrame::<Start>d__0*
 class CORDL_TYPE __DeactivateAfterFirstFrame___Start_d__0 : public ::System::Object {
 public:
@@ -92,22 +92,22 @@ public:
 
   static inline ::GlobalNamespace::__DeactivateAfterFirstFrame___Start_d__0* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor, addr 0x226c378, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21818dc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x226c3a8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x218190c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext, addr 0x226c3ac, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2181910, size 0x64, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x226c410, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2181974, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x226c418, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x218197c, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x226c458, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x21819bc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__DeactivateAfterFirstFrame___Start_d__0", modifiers: "&&", def_value: None }]
@@ -149,20 +149,20 @@ static_assert(offsetof(::GlobalNamespace::__DeactivateAfterFirstFrame___Start_d_
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5359))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16178))
 // CS Name: ::DeactivateAfterFirstFrame*
 class CORDL_TYPE DeactivateAfterFirstFrame : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   using _Start_d__0 = ::GlobalNamespace::__DeactivateAfterFirstFrame___Start_d__0;
 
-  /// @brief Method Start, addr 0x226c310, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2181874, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Start();
 
   static inline ::GlobalNamespace::DeactivateAfterFirstFrame* New_ctor();
 
-  /// @brief Method .ctor, addr 0x226c3a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2181904, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DeactivateAfterFirstFrame", modifiers: "&&", def_value: None }]

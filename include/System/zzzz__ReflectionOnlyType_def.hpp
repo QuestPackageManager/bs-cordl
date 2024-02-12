@@ -27,10 +27,10 @@ public:
 
   static inline ::System::ReflectionOnlyType* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25f180c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2615724, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_TypeHandle, addr 0x25f1864, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_TypeHandle, addr 0x261577c, size 0x58, virtual true, abstract: false, final false
   inline ::System::RuntimeTypeHandle get_TypeHandle();
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectionOnlyType", modifiers: "&&", def_value: None }]

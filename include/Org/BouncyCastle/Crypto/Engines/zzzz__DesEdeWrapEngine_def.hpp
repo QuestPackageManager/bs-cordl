@@ -119,30 +119,30 @@ public:
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_IV2();
 
-  /// @brief Method Init, addr 0xecaa78, size 0x39c, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0xef6908, size 0x39c, virtual true, abstract: false, final false
   inline void Init(bool forWrapping, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method get_AlgorithmName, addr 0xecae14, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0xef6ca4, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method Wrap, addr 0xecae54, size 0x338, virtual true, abstract: false, final false
+  /// @brief Method Wrap, addr 0xef6ce4, size 0x338, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Wrap(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
-  /// @brief Method Unwrap, addr 0xecb3b4, size 0x430, virtual true, abstract: false, final false
+  /// @brief Method Unwrap, addr 0xef7244, size 0x430, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Unwrap(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
-  /// @brief Method CalculateCmsKeyChecksum, addr 0xecb18c, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method CalculateCmsKeyChecksum, addr 0xef701c, size 0x180, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CalculateCmsKeyChecksum(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method CheckCmsKeyChecksum, addr 0xecb7e4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method CheckCmsKeyChecksum, addr 0xef7674, size 0x80, virtual false, abstract: false, final false
   inline bool CheckCmsKeyChecksum(::ArrayW<uint8_t, ::Array<uint8_t>*> key, ::ArrayW<uint8_t, ::Array<uint8_t>*> checksum);
 
-  /// @brief Method reverse, addr 0xecb30c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method reverse, addr 0xef719c, size 0xa8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> reverse(::ArrayW<uint8_t, ::Array<uint8_t>*> bs);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine* New_ctor();
 
-  /// @brief Method .ctor, addr 0xecb8f8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xef7788, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DesEdeWrapEngine", modifiers: "&&", def_value: None }]

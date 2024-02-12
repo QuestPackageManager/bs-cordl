@@ -72,48 +72,48 @@ public:
 
   constexpr void __cordl_internal_set_seq(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method GetInstance, addr 0x118ce68, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x11bacf8, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0x118ce80, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x11bad10, size 0xec, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage* GetInstance(::System::Object* obj);
 
-  /// @brief Method FromExtensions, addr 0x118d458, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method FromExtensions, addr 0x11bb2e8, size 0x74, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage* FromExtensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions);
 
   static inline ::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0x118d074, size 0x3e4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11baf04, size 0x3e4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::KeyPurposeID*, ::Array<::Org::BouncyCastle::Asn1::X509::KeyPurposeID*>*> usages);
 
-  /// @brief Method .ctor, addr 0x118d4cc, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11bb35c, size 0x170, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::KeyPurposeID*, ::Array<::Org::BouncyCastle::Asn1::X509::KeyPurposeID*>*> usages);
 
   static inline ::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage* New_ctor(::System::Collections::ArrayList* usages);
 
-  /// @brief Method .ctor, addr 0x118d63c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11bb4cc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::ArrayList* usages);
 
   static inline ::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage* New_ctor(::System::Collections::IEnumerable* usages);
 
-  /// @brief Method .ctor, addr 0x118d640, size 0x458, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11bb4d0, size 0x458, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IEnumerable* usages);
 
-  /// @brief Method HasKeyPurposeId, addr 0x118da98, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method HasKeyPurposeId, addr 0x11bb928, size 0xac, virtual false, abstract: false, final false
   inline bool HasKeyPurposeId(::Org::BouncyCastle::Asn1::X509::KeyPurposeID* keyPurposeId);
 
-  /// @brief Method GetUsages, addr 0x118db44, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method GetUsages, addr 0x11bb9d4, size 0xe4, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* GetUsages();
 
-  /// @brief Method GetAllUsages, addr 0x118dc28, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetAllUsages, addr 0x11bbab8, size 0xdc, virtual false, abstract: false, final false
   inline ::System::Collections::IList* GetAllUsages();
 
-  /// @brief Method get_Count, addr 0x118dd04, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x11bbb94, size 0xa4, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method ToAsn1Object, addr 0x118dda8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x11bbc38, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "ExtendedKeyUsage", modifiers: "&&", def_value: None }]

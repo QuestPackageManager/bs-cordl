@@ -31,7 +31,7 @@ namespace GlobalNamespace {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12961))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12859))
 // CS Name: ::SortExtensions::<>c__DisplayClass1_0`1<T>*
 class CORDL_TYPE __SortExtensions____c__DisplayClass1_0_1 : public ::System::Object {
 public:
@@ -79,7 +79,7 @@ public:
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12962))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12860))
 // CS Name: ::SortExtensions*
 class CORDL_TYPE SortExtensions : public ::System::Object {
 public:

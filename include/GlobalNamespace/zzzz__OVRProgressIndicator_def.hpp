@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRProgressIndicator);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8155))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8106))
 // CS Name: ::OVRProgressIndicator*
 class CORDL_TYPE OVRProgressIndicator : public ::UnityEngine::MonoBehaviour {
 public:
@@ -42,15 +42,15 @@ public:
 
   constexpr void __cordl_internal_set_currentProgress(float_t value);
 
-  /// @brief Method Awake, addr 0x27b90f4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x27caad0, size 0x20, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Update, addr 0x27b9114, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x27caaf0, size 0x6c, virtual false, abstract: false, final false
   inline void Update();
 
   static inline ::GlobalNamespace::OVRProgressIndicator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x27b9180, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27cab5c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRProgressIndicator", modifiers: "&&", def_value: None }]

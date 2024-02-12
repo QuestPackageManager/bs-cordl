@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Diagnostics::TraceLevel (::Newtonsoft::Json::Serialization::MemoryTraceWriter::*)()>(
     &::Newtonsoft::Json::Serialization::MemoryTraceWriter::get_LevelFilter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x266a9cc;
+  constexpr static std::size_t addrs = 0x268db88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::MemoryTraceWriter*>::get(),
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::MemoryTraceWriter::*)(::System::Diagnostics::TraceLevel)>(
     &::Newtonsoft::Json::Serialization::MemoryTraceWriter::set_LevelFilter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x266a9d4;
+  constexpr static std::size_t addrs = 0x268db90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::MemoryTraceWriter::*)()>(
     &::Newtonsoft::Json::Serialization::MemoryTraceWriter::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x266a9dc;
+  constexpr static std::size_t addrs = 0x268db98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::MemoryTraceWriter*>::get(),
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::MemoryTraceWriter::*)(
     ::System::Diagnostics::TraceLevel, ::StringW, ::System::Exception*)>(&::Newtonsoft::Json::Serialization::MemoryTraceWriter::Trace)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x266aa64;
+  constexpr static std::size_t addrs = 0x268dc20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::StringW>* (
     ::Newtonsoft::Json::Serialization::MemoryTraceWriter::*)()>(&::Newtonsoft::Json::Serialization::MemoryTraceWriter::GetTraceMessages)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x266ac94;
+  constexpr static std::size_t addrs = 0x268de50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::MemoryTraceWriter*>::get(),
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Serialization::MemoryTraceWriter::*)()>(
     &::Newtonsoft::Json::Serialization::MemoryTraceWriter::ToString)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x266ac9c;
+  constexpr static std::size_t addrs = 0x268de58;
 
   inline static ::MethodInfo const* methodInfo() {
 

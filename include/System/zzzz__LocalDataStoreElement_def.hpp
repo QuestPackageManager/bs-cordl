@@ -48,16 +48,16 @@ public:
 
   static inline ::System::LocalDataStoreElement* New_ctor(int64_t cookie);
 
-  /// @brief Method .ctor, addr 0x25d7c04, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25fab1c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int64_t cookie);
 
-  /// @brief Method get_Value, addr 0x25d7c2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x25fab44, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Value();
 
-  /// @brief Method set_Value, addr 0x25d7c34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Value, addr 0x25fab4c, size 0x8, virtual false, abstract: false, final false
   inline void set_Value(::System::Object* value);
 
-  /// @brief Method get_Cookie, addr 0x25d7c3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Cookie, addr 0x25fab54, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_Cookie();
 
   // Ctor Parameters [CppParam { name: "", ty: "LocalDataStoreElement", modifiers: "&&", def_value: None }]

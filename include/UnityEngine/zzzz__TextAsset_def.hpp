@@ -43,7 +43,7 @@ MARK_REF_PTR_T(::UnityEngine::__TextAsset__EncodingUtility);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10206))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8950))
 // CS Name: ::TextAsset::CreateOptions
 struct CORDL_TYPE __TextAsset__CreateOptions {
 public:
@@ -93,7 +93,7 @@ static_assert(offsetof(::UnityEngine::__TextAsset__CreateOptions, value__) == 0x
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10207))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8951))
 // CS Name: ::TextAsset::EncodingUtility*
 class CORDL_TYPE __TextAsset__EncodingUtility : public ::System::Object {
 public:
@@ -143,8 +143,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::__TextAsset__Encodi
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10200))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10208))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8944))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8952))
 // CS Name: ::UnityEngine::TextAsset*
 class CORDL_TYPE TextAsset : public ::UnityEngine::Object {
 public:
@@ -159,52 +159,52 @@ public:
 
   __declspec(property(get = get_dataSize)) int64_t dataSize;
 
-  /// @brief Method get_bytes, addr 0x2cd0e54, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_bytes, addr 0x2cd7dfc, size 0x3c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_bytes();
 
-  /// @brief Method GetPreviewBytes, addr 0x2cd0e90, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetPreviewBytes, addr 0x2cd7e38, size 0x44, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetPreviewBytes(int32_t maxByteCount);
 
-  /// @brief Method Internal_CreateInstance, addr 0x2cd0ed4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Internal_CreateInstance, addr 0x2cd7e7c, size 0x44, virtual false, abstract: false, final false
   static inline void Internal_CreateInstance(::UnityEngine::TextAsset* self, ::StringW text);
 
-  /// @brief Method GetDataPtr, addr 0x2cd0f18, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetDataPtr, addr 0x2cd7ec0, size 0x3c, virtual false, abstract: false, final false
   inline void* GetDataPtr();
 
-  /// @brief Method GetDataSize, addr 0x2cd0f54, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetDataSize, addr 0x2cd7efc, size 0x3c, virtual false, abstract: false, final false
   inline int64_t GetDataSize();
 
-  /// @brief Method get_text, addr 0x2cd0f90, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x2cd7f38, size 0x40, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method get_dataSize, addr 0x2cd1254, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_dataSize, addr 0x2cd81fc, size 0x3c, virtual false, abstract: false, final false
   inline int64_t get_dataSize();
 
-  /// @brief Method ToString, addr 0x2cd1290, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2cd8238, size 0x4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   static inline ::UnityEngine::TextAsset* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2cd1294, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cd823c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::TextAsset* New_ctor(::StringW text);
 
-  /// @brief Method .ctor, addr 0x2cd134c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cd82f4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW text);
 
   static inline ::UnityEngine::TextAsset* New_ctor(::UnityEngine::__TextAsset__CreateOptions options, ::StringW text);
 
-  /// @brief Method .ctor, addr 0x2cd12a0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cd8248, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::__TextAsset__CreateOptions options, ::StringW text);
 
   /// @brief Method GetData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::Unity::Collections::NativeArray_1<T> GetData();
 
-  /// @brief Method GetPreview, addr 0x2cd1358, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetPreview, addr 0x2cd8300, size 0x48, virtual false, abstract: false, final false
   inline ::StringW GetPreview(int32_t maxChars);
 
-  /// @brief Method DecodeString, addr 0x2cd0fd0, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method DecodeString, addr 0x2cd7f78, size 0x284, virtual false, abstract: false, final false
   static inline ::StringW DecodeString(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
   // Ctor Parameters [CppParam { name: "", ty: "TextAsset", modifiers: "&&", def_value: None }]

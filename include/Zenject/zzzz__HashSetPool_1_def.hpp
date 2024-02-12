@@ -20,8 +20,8 @@ namespace Zenject {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11086)), TypeDefinitionIndex(TypeDefinitionIndex(14315)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11086), inst:
-// 2803 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14315), inst: 2578 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(11096)) CS Name: ::Zenject::HashSetPool`1<T>*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10228)), TypeDefinitionIndex(TypeDefinitionIndex(14328)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10228), inst:
+// 2773 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14328), inst: 2553 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(10238)) CS Name: ::Zenject::HashSetPool`1<T>*
 class CORDL_TYPE HashSetPool_1 : public ::Zenject::StaticMemoryPool_1<::System::Collections::Generic::HashSet_1<T>*> {
 public:
   // Declarations

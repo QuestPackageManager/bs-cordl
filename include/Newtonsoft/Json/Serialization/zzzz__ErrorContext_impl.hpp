@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::ErrorContext::*)(
     ::System::Object*, ::System::Object*, ::StringW, ::System::Exception*)>(&::Newtonsoft::Json::Serialization::ErrorContext::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x26778a4;
+  constexpr static std::size_t addrs = 0x269aa60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Serialization::ErrorContext::*)()>(
     &::Newtonsoft::Json::Serialization::ErrorContext::get_Traced)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26778e4;
+  constexpr static std::size_t addrs = 0x269aaa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::ErrorContext*>::get(),
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::ErrorContext::*)(bool)>(
     &::Newtonsoft::Json::Serialization::ErrorContext::set_Traced)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26778ec;
+  constexpr static std::size_t addrs = 0x269aaa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (::Newtonsoft::Json::Serialization::ErrorContext::*)()>(
     &::Newtonsoft::Json::Serialization::ErrorContext::get_Error)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26778f8;
+  constexpr static std::size_t addrs = 0x269aab4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::ErrorContext*>::get(),
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::ErrorContext::*)(::System::Exception*)>(
     &::Newtonsoft::Json::Serialization::ErrorContext::set_Error)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2677900;
+  constexpr static std::size_t addrs = 0x269aabc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Newtonsoft::Json::Serialization::ErrorContext::*)()>(
     &::Newtonsoft::Json::Serialization::ErrorContext::get_OriginalObject)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2677908;
+  constexpr static std::size_t addrs = 0x269aac4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::ErrorContext*>::get(),
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::ErrorContext::*)(::System::Object*)>(
     &::Newtonsoft::Json::Serialization::ErrorContext::set_OriginalObject)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2677910;
+  constexpr static std::size_t addrs = 0x269aacc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Newtonsoft::Json::Serialization::ErrorContext::*)()>(
     &::Newtonsoft::Json::Serialization::ErrorContext::get_Member)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2677918;
+  constexpr static std::size_t addrs = 0x269aad4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::ErrorContext*>::get(),
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::ErrorContext::*)(::System::Object*)>(
     &::Newtonsoft::Json::Serialization::ErrorContext::set_Member)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2677920;
+  constexpr static std::size_t addrs = 0x269aadc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Serialization::ErrorContext::*)()>(
     &::Newtonsoft::Json::Serialization::ErrorContext::get_Path)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2677928;
+  constexpr static std::size_t addrs = 0x269aae4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::ErrorContext*>::get(),
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::ErrorContext::*)(::StringW)>(
     &::Newtonsoft::Json::Serialization::ErrorContext::set_Path)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2677930;
+  constexpr static std::size_t addrs = 0x269aaec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Serialization::ErrorContext::*)()>(
     &::Newtonsoft::Json::Serialization::ErrorContext::get_Handled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2677938;
+  constexpr static std::size_t addrs = 0x269aaf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::ErrorContext*>::get(),
@@ -185,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::ErrorContext::*)(bool)>(
     &::Newtonsoft::Json::Serialization::ErrorContext::set_Handled)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2677940;
+  constexpr static std::size_t addrs = 0x269aafc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

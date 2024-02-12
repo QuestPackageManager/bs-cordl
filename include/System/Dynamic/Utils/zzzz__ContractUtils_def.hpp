@@ -18,12 +18,12 @@ MARK_REF_PTR_T(::System::Dynamic::Utils::ContractUtils);
 namespace System::Dynamic::Utils {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14310))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14323))
 // CS Name: ::System.Dynamic.Utils::ContractUtils*
 class CORDL_TYPE ContractUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_Unreachable, addr 0x2813d90, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_Unreachable, addr 0x2818578, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Exception* get_Unreachable();
 
   // Ctor Parameters [CppParam { name: "", ty: "ContractUtils", modifiers: "&&", def_value: None }]

@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::TwistRelaxer::*)()>(&::RootMotion::FinalIK::TwistRelaxer::Relax)> {
   constexpr static std::size_t size = 0x444;
-  constexpr static std::size_t addrs = 0x1282e50;
+  constexpr static std::size_t addrs = 0x131af00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::TwistRelaxer*>::get(), "Relax",
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::TwistRelaxer::*)()>(&::RootMotion::FinalIK::TwistRelaxer::Start)> {
   constexpr static std::size_t size = 0x3a0;
-  constexpr static std::size_t addrs = 0x1283294;
+  constexpr static std::size_t addrs = 0x131b344;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::TwistRelaxer*>::get(), "Start",
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::TwistRelaxer::*)()>(&::RootMotion::FinalIK::TwistRelaxer::OnPostUpdate)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x1283634;
+  constexpr static std::size_t addrs = 0x131b6e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::TwistRelaxer*>::get(), "OnPostUpdate",
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::TwistRelaxer::*)()>(&::RootMotion::FinalIK::TwistRelaxer::LateUpdate)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x12836ac;
+  constexpr static std::size_t addrs = 0x131b75c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::TwistRelaxer*>::get(), "LateUpdate",
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::TwistRelaxer::*)()>(&::RootMotion::FinalIK::TwistRelaxer::OnDestroy)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x1283724;
+  constexpr static std::size_t addrs = 0x131b7d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::TwistRelaxer*>::get(), "OnDestroy",
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::TwistRelaxer::*)()>(&::RootMotion::FinalIK::TwistRelaxer::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x128383c;
+  constexpr static std::size_t addrs = 0x131b8ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::TwistRelaxer*>::get(), ".ctor",

@@ -36,7 +36,7 @@ MARK_REF_PTR_T(::GlobalNamespace::AsyncComputeManager);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12678))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12576))
 // CS Name: ::AsyncComputeManager*
 class CORDL_TYPE AsyncComputeManager : public ::System::Object {
 public:
@@ -84,19 +84,19 @@ public:
 
   static inline ::GlobalNamespace::AsyncComputeManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe28f58, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe53d90, size 0x140, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Dispose, addr 0xe29098, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0xe53ed0, size 0x68, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method BeginOperation, addr 0xe29100, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method BeginOperation, addr 0xe53f38, size 0x58, virtual true, abstract: false, final true
   inline void BeginOperation(::GlobalNamespace::AsyncComputeOperation* operation);
 
   /// @brief Method BeginOperation, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   template <typename T> inline ::System::Threading::Tasks::Task_1<T>* BeginOperation(::GlobalNamespace::AsyncComputeOperation_1<T>* operation);
 
-  /// @brief Method ComputeThreadRun, addr 0xe29158, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method ComputeThreadRun, addr 0xe53f90, size 0x160, virtual false, abstract: false, final false
   inline void ComputeThreadRun();
 
   // Ctor Parameters [CppParam { name: "", ty: "AsyncComputeManager", modifiers: "&&", def_value: None }]

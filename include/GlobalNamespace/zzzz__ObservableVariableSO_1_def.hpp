@@ -25,8 +25,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15869))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15602))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15622))
 // CS Name: ::ObservableVariableSO`1<T>*
 class CORDL_TYPE ObservableVariableSO_1 : public ::GlobalNamespace::PersistentScriptableObject {
 public:

@@ -32,22 +32,22 @@ public:
   // Declarations
   static inline ::System::FormatException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2597238, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25b9150, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::FormatException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x2597294, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25b91ac, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::System::FormatException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x25972b8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25b91d0, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
   static inline ::System::FormatException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x25972dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25b91f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "FormatException", modifiers: "&&", def_value: None }]

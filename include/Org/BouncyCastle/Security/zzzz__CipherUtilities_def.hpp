@@ -547,28 +547,28 @@ public:
 
   static inline ::Org::BouncyCastle::Security::CipherUtilities* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1121578, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x114f408, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method GetObjectIdentifier, addr 0x1121580, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method GetObjectIdentifier, addr 0x114f410, size 0x25c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetObjectIdentifier(::StringW mechanism);
 
-  /// @brief Method get_Algorithms, addr 0x11217dc, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method get_Algorithms, addr 0x114f66c, size 0xcc, virtual false, abstract: false, final false
   static inline ::System::Collections::ICollection* get_Algorithms();
 
-  /// @brief Method GetCipher, addr 0x11218a8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetCipher, addr 0x114f738, size 0x60, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IBufferedCipher* GetCipher(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetCipher, addr 0x1121908, size 0x21cc, virtual false, abstract: false, final false
+  /// @brief Method GetCipher, addr 0x114f798, size 0x21cc, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IBufferedCipher* GetCipher(::StringW algorithm);
 
-  /// @brief Method GetAlgorithmName, addr 0x1124120, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetAlgorithmName, addr 0x1151fb0, size 0x108, virtual false, abstract: false, final false
   static inline ::StringW GetAlgorithmName(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetDigitIndex, addr 0x1123ad4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetDigitIndex, addr 0x1151964, size 0xb0, virtual false, abstract: false, final false
   static inline int32_t GetDigitIndex(::StringW s);
 
-  /// @brief Method CreateBlockCipher, addr 0x1123b84, size 0x59c, virtual false, abstract: false, final false
+  /// @brief Method CreateBlockCipher, addr 0x1151a14, size 0x59c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IBlockCipher* CreateBlockCipher(::Org::BouncyCastle::Security::__CipherUtilities__CipherAlgorithm cipherAlgorithm);
 
   // Ctor Parameters [CppParam { name: "", ty: "CipherUtilities", modifiers: "&&", def_value: None }]

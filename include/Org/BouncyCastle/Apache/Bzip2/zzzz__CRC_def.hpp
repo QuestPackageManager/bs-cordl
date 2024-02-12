@@ -40,22 +40,22 @@ public:
 
   static inline ::Org::BouncyCastle::Apache::Bzip2::CRC* New_ctor();
 
-  /// @brief Method .ctor, addr 0x11878fc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11b678c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method InitialiseCRC, addr 0x1188e20, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method InitialiseCRC, addr 0x11b7cb0, size 0xc, virtual false, abstract: false, final false
   inline void InitialiseCRC();
 
-  /// @brief Method GetFinalCRC, addr 0x1188e58, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetFinalCRC, addr 0x11b7ce8, size 0xc, virtual false, abstract: false, final false
   inline int32_t GetFinalCRC();
 
-  /// @brief Method GetGlobalCRC, addr 0x118992c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetGlobalCRC, addr 0x11b87bc, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetGlobalCRC();
 
-  /// @brief Method SetGlobalCRC, addr 0x1189934, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetGlobalCRC, addr 0x11b87c4, size 0x8, virtual false, abstract: false, final false
   inline void SetGlobalCRC(int32_t newCrc);
 
-  /// @brief Method UpdateCRC, addr 0x11897a4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method UpdateCRC, addr 0x11b8634, size 0xa4, virtual false, abstract: false, final false
   inline void UpdateCRC(int32_t inCh);
 
   // Ctor Parameters [CppParam { name: "", ty: "CRC", modifiers: "&&", def_value: None }]

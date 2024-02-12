@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::Unity::Collections::NativeFixedLengthAttribute);
 namespace Unity::Collections {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10007))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8738))
 // CS Name: ::Unity.Collections::NativeFixedLengthAttribute*
 class CORDL_TYPE NativeFixedLengthAttribute : public ::System::Attribute {
 public:

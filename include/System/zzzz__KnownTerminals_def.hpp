@@ -22,13 +22,13 @@ namespace System {
 class CORDL_TYPE KnownTerminals : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_linux, addr 0x25fa304, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_linux, addr 0x261e20c, size 0x70, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_linux();
 
-  /// @brief Method get_xterm, addr 0x25fa374, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_xterm, addr 0x261e27c, size 0x70, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_xterm();
 
-  /// @brief Method get_ansi, addr 0x25fa3e4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_ansi, addr 0x261e2ec, size 0x70, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_ansi();
 
   // Ctor Parameters [CppParam { name: "", ty: "KnownTerminals", modifiers: "&&", def_value: None }]

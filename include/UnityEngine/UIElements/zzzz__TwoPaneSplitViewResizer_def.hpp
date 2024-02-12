@@ -36,8 +36,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::TwoPaneSplitViewResizer);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6826)), TypeDefinitionIndex(TypeDefinitionIndex(7139)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7126))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6085)), TypeDefinitionIndex(TypeDefinitionIndex(6398)), TypeDefinitionIndex(TypeDefinitionIndex(8993))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6385))
 // CS Name: ::UnityEngine.UIElements::TwoPaneSplitViewResizer*
 class CORDL_TYPE TwoPaneSplitViewResizer : public ::UnityEngine::UIElements::PointerManipulator {
 public:
@@ -95,40 +95,40 @@ public:
 
   constexpr void __cordl_internal_set_m_Orientation(::UnityEngine::UIElements::TwoPaneSplitViewOrientation value);
 
-  /// @brief Method get_fixedPane, addr 0x2e39c20, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_fixedPane, addr 0x2e56008, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_fixedPane();
 
-  /// @brief Method get_flexedPane, addr 0x2e39c3c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_flexedPane, addr 0x2e56024, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_flexedPane();
 
-  /// @brief Method get_fixedPaneMinDimension, addr 0x2e39c58, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method get_fixedPaneMinDimension, addr 0x2e56040, size 0x114, virtual false, abstract: false, final false
   inline float_t get_fixedPaneMinDimension();
 
-  /// @brief Method get_flexedPaneMinDimension, addr 0x2e39d6c, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method get_flexedPaneMinDimension, addr 0x2e56154, size 0x114, virtual false, abstract: false, final false
   inline float_t get_flexedPaneMinDimension();
 
   static inline ::UnityEngine::UIElements::TwoPaneSplitViewResizer* New_ctor(::UnityEngine::UIElements::TwoPaneSplitView* splitView, int32_t dir,
                                                                              ::UnityEngine::UIElements::TwoPaneSplitViewOrientation orientation);
 
-  /// @brief Method .ctor, addr 0x2e39e80, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e56268, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::TwoPaneSplitView* splitView, int32_t dir, ::UnityEngine::UIElements::TwoPaneSplitViewOrientation orientation);
 
-  /// @brief Method RegisterCallbacksOnTarget, addr 0x2e39f58, size 0x1cc, virtual true, abstract: false, final false
+  /// @brief Method RegisterCallbacksOnTarget, addr 0x2e56340, size 0x1cc, virtual true, abstract: false, final false
   inline void RegisterCallbacksOnTarget();
 
-  /// @brief Method UnregisterCallbacksFromTarget, addr 0x2e3a124, size 0x1cc, virtual true, abstract: false, final false
+  /// @brief Method UnregisterCallbacksFromTarget, addr 0x2e5650c, size 0x1cc, virtual true, abstract: false, final false
   inline void UnregisterCallbacksFromTarget();
 
-  /// @brief Method ApplyDelta, addr 0x2e3a2f0, size 0x600, virtual false, abstract: false, final false
+  /// @brief Method ApplyDelta, addr 0x2e566d8, size 0x600, virtual false, abstract: false, final false
   inline void ApplyDelta(float_t delta);
 
-  /// @brief Method OnPointerDown, addr 0x2e3a8f0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method OnPointerDown, addr 0x2e56cd8, size 0xc8, virtual false, abstract: false, final false
   inline void OnPointerDown(::UnityEngine::UIElements::PointerDownEvent* e);
 
-  /// @brief Method OnPointerMove, addr 0x2e3a9b8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method OnPointerMove, addr 0x2e56da0, size 0xb8, virtual false, abstract: false, final false
   inline void OnPointerMove(::UnityEngine::UIElements::PointerMoveEvent* e);
 
-  /// @brief Method OnPointerUp, addr 0x2e3aa70, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method OnPointerUp, addr 0x2e56e58, size 0xac, virtual false, abstract: false, final false
   inline void OnPointerUp(::UnityEngine::UIElements::PointerUpEvent* e);
 
   // Ctor Parameters [CppParam { name: "", ty: "TwoPaneSplitViewResizer", modifiers: "&&", def_value: None }]

@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_VolumeCachePreset);
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9612))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9404))
 // CS Name: ::HoudiniEngineUnity::HEU_VolumeCachePreset*
 class CORDL_TYPE HEU_VolumeCachePreset : public ::System::Object {
 public:
@@ -85,7 +85,7 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_VolumeCachePreset* New_ctor();
 
-  /// @brief Method .ctor, addr 0x214e870, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21e4154, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_VolumeCachePreset", modifiers: "&&", def_value: None }]

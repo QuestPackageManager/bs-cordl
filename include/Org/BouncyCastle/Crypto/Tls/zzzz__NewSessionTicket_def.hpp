@@ -49,19 +49,19 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::NewSessionTicket* New_ctor(int64_t ticketLifetimeHint, ::ArrayW<uint8_t, ::Array<uint8_t>*> ticket);
 
-  /// @brief Method .ctor, addr 0xf91f28, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfbddb8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(int64_t ticketLifetimeHint, ::ArrayW<uint8_t, ::Array<uint8_t>*> ticket);
 
-  /// @brief Method get_TicketLifetimeHint, addr 0xf91f54, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TicketLifetimeHint, addr 0xfbdde4, size 0x8, virtual true, abstract: false, final false
   inline int64_t get_TicketLifetimeHint();
 
-  /// @brief Method get_Ticket, addr 0xf91f5c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Ticket, addr 0xfbddec, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Ticket();
 
-  /// @brief Method Encode, addr 0xf91f64, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0xfbddf4, size 0x7c, virtual true, abstract: false, final false
   inline void Encode(::System::IO::Stream* output);
 
-  /// @brief Method Parse, addr 0xf91fe0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0xfbde70, size 0xac, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Tls::NewSessionTicket* Parse(::System::IO::Stream* input);
 
   // Ctor Parameters [CppParam { name: "", ty: "NewSessionTicket", modifiers: "&&", def_value: None }]

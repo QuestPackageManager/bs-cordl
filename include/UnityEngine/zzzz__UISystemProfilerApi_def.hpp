@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::UnityEngine::UISystemProfilerApi);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15663))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15821))
 // CS Name: ::UISystemProfilerApi::SampleType
 struct CORDL_TYPE __UISystemProfilerApi__SampleType {
 public:
@@ -78,20 +78,20 @@ static_assert(offsetof(::UnityEngine::__UISystemProfilerApi__SampleType, value__
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15664))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15822))
 // CS Name: ::UnityEngine::UISystemProfilerApi*
 class CORDL_TYPE UISystemProfilerApi : public ::System::Object {
 public:
   // Declarations
   using SampleType = ::UnityEngine::__UISystemProfilerApi__SampleType;
 
-  /// @brief Method BeginSample, addr 0x2eab674, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method BeginSample, addr 0x2ec4a5c, size 0x3c, virtual false, abstract: false, final false
   static inline void BeginSample(::UnityEngine::__UISystemProfilerApi__SampleType type);
 
-  /// @brief Method EndSample, addr 0x2eab6b0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method EndSample, addr 0x2ec4a98, size 0x3c, virtual false, abstract: false, final false
   static inline void EndSample(::UnityEngine::__UISystemProfilerApi__SampleType type);
 
-  /// @brief Method AddMarker, addr 0x2eab6ec, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method AddMarker, addr 0x2ec4ad4, size 0x44, virtual false, abstract: false, final false
   static inline void AddMarker(::StringW name, ::UnityEngine::Object* obj);
 
   // Ctor Parameters [CppParam { name: "", ty: "UISystemProfilerApi", modifiers: "&&", def_value: None }]

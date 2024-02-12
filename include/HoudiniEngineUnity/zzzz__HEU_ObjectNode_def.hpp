@@ -63,8 +63,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_ObjectNode);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9726)), TypeDefinitionIndex(TypeDefinitionIndex(9738)), TypeDefinitionIndex(TypeDefinitionIndex(10210))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9654))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8954)), TypeDefinitionIndex(TypeDefinitionIndex(9518)), TypeDefinitionIndex(TypeDefinitionIndex(9530))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9446))
 // CS Name: ::HoudiniEngineUnity::HEU_ObjectNode*
 class CORDL_TYPE HEU_ObjectNode : public ::UnityEngine::ScriptableObject {
 public:
@@ -126,118 +126,118 @@ public:
 
   constexpr void __cordl_internal_set__objectTransform(::HoudiniEngineUnity::HAPI_Transform value);
 
-  /// @brief Method get_ObjectID, addr 0x2172ad0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectID, addr 0x22073b4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ObjectID();
 
-  /// @brief Method get_ObjectName, addr 0x2172ad8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectName, addr 0x22073bc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ObjectName();
 
-  /// @brief Method get_ParentAsset, addr 0x2172ae0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ParentAsset, addr 0x22073c4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> get_ParentAsset();
 
-  /// @brief Method IsInstanced, addr 0x2172ae8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsInstanced, addr 0x22073cc, size 0x8, virtual false, abstract: false, final false
   inline bool IsInstanced();
 
-  /// @brief Method IsVisible, addr 0x2172af0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsVisible, addr 0x22073d4, size 0x8, virtual false, abstract: false, final false
   inline bool IsVisible();
 
   static inline ::HoudiniEngineUnity::HEU_ObjectNode* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2172af8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22073dc, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Reset, addr 0x2172b14, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x22073f8, size 0xd8, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method SyncWithObjectInfo, addr 0x2172bec, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method SyncWithObjectInfo, addr 0x22074d0, size 0xe8, virtual false, abstract: false, final false
   inline void SyncWithObjectInfo(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method Initialize, addr 0x2172cd4, size 0x430, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x22075b8, size 0x430, virtual false, abstract: false, final false
   inline void Initialize(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HAPI_ObjectInfo objectInfo, ::HoudiniEngineUnity::HAPI_Transform objectTranform,
                          ::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset);
 
-  /// @brief Method DestroyAllData, addr 0x21731b8, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method DestroyAllData, addr 0x2207a9c, size 0x100, virtual false, abstract: false, final false
   inline void DestroyAllData(bool bIsRebuild);
 
-  /// @brief Method CreateGeoNode, addr 0x2173104, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method CreateGeoNode, addr 0x22079e8, size 0xb4, virtual false, abstract: false, final false
   inline ::UnityW<::HoudiniEngineUnity::HEU_GeoNode> CreateGeoNode(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HAPI_GeoInfo geoInfo);
 
-  /// @brief Method GetDebugInfo, addr 0x21732b8, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method GetDebugInfo, addr 0x2207b9c, size 0x2bc, virtual false, abstract: false, final false
   inline void GetDebugInfo(::System::Text::StringBuilder* sb);
 
-  /// @brief Method SetObjectInfo, addr 0x2173574, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SetObjectInfo, addr 0x2207e58, size 0x1c, virtual false, abstract: false, final false
   inline void SetObjectInfo(::HoudiniEngineUnity::HAPI_ObjectInfo newObjectInfo);
 
-  /// @brief Method UpdateObject, addr 0x2173590, size 0x9f8, virtual false, abstract: false, final false
+  /// @brief Method UpdateObject, addr 0x2207e74, size 0x9f8, virtual false, abstract: false, final false
   inline void UpdateObject(::HoudiniEngineUnity::HEU_SessionBase* session, bool bForceUpdate);
 
-  /// @brief Method GenerateGeometry, addr 0x2173f88, size 0x714, virtual false, abstract: false, final false
+  /// @brief Method GenerateGeometry, addr 0x220886c, size 0x714, virtual false, abstract: false, final false
   inline void GenerateGeometry(::HoudiniEngineUnity::HEU_SessionBase* session, bool bRebuild);
 
-  /// @brief Method GeneratePartInstances, addr 0x2174cd4, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method GeneratePartInstances, addr 0x22095b8, size 0x154, virtual false, abstract: false, final false
   inline void GeneratePartInstances(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method GenerateAttributesStore, addr 0x2174e28, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method GenerateAttributesStore, addr 0x220970c, size 0x154, virtual false, abstract: false, final false
   inline void GenerateAttributesStore(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method ApplyObjectTransformToGeoNodes, addr 0x2174ab4, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method ApplyObjectTransformToGeoNodes, addr 0x2209398, size 0x154, virtual false, abstract: false, final false
   inline void ApplyObjectTransformToGeoNodes();
 
-  /// @brief Method IsUsingMaterial, addr 0x2174f7c, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method IsUsingMaterial, addr 0x2209860, size 0x180, virtual false, abstract: false, final false
   inline bool IsUsingMaterial(::HoudiniEngineUnity::HEU_MaterialData* materialData);
 
-  /// @brief Method GetClonableParts, addr 0x21750fc, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method GetClonableParts, addr 0x22099e0, size 0x164, virtual false, abstract: false, final false
   inline void GetClonableParts(::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_PartData>>* clonableParts);
 
-  /// @brief Method GetOutputGameObjects, addr 0x2175260, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method GetOutputGameObjects, addr 0x2209b44, size 0x154, virtual false, abstract: false, final false
   inline void GetOutputGameObjects(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputObjects);
 
-  /// @brief Method GetOutput, addr 0x21753b4, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method GetOutput, addr 0x2209c98, size 0x154, virtual false, abstract: false, final false
   inline void GetOutput(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeneratedOutput*>* outputs);
 
-  /// @brief Method GetHDAPartWithGameObject, addr 0x2175508, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method GetHDAPartWithGameObject, addr 0x2209dec, size 0x1ac, virtual false, abstract: false, final false
   inline ::UnityW<::HoudiniEngineUnity::HEU_PartData> GetHDAPartWithGameObject(::UnityEngine::GameObject* outputGameObject);
 
-  /// @brief Method GetGeoNode, addr 0x21756b4, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method GetGeoNode, addr 0x2209f98, size 0x190, virtual false, abstract: false, final false
   inline ::UnityW<::HoudiniEngineUnity::HEU_GeoNode> GetGeoNode(::StringW geoName);
 
-  /// @brief Method GetCurves, addr 0x2175844, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetCurves, addr 0x220a128, size 0x158, virtual false, abstract: false, final false
   inline void GetCurves(::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_Curve>>* curves, bool bEditableOnly);
 
-  /// @brief Method GetOutputGeoNodes, addr 0x217599c, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method GetOutputGeoNodes, addr 0x220a280, size 0x1e0, virtual false, abstract: false, final false
   inline void GetOutputGeoNodes(::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_GeoNode>>* outGeoNodes);
 
-  /// @brief Method GenerateObjectInstances, addr 0x2175b7c, size 0x48c, virtual false, abstract: false, final false
+  /// @brief Method GenerateObjectInstances, addr 0x220a460, size 0x48c, virtual false, abstract: false, final false
   inline void GenerateObjectInstances(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method ClearObjectInstances, addr 0x2177800, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method ClearObjectInstances, addr 0x220c0e4, size 0x184, virtual false, abstract: false, final false
   inline void ClearObjectInstances(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method PopulateObjectInstanceInfos, addr 0x2177c94, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method PopulateObjectInstanceInfos, addr 0x220c578, size 0x138, virtual false, abstract: false, final false
   inline void PopulateObjectInstanceInfos(::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_ObjectInstanceInfo>>* objInstanceInfos);
 
-  /// @brief Method ProcessUnityScriptAttributes, addr 0x2177e24, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method ProcessUnityScriptAttributes, addr 0x220c708, size 0x154, virtual false, abstract: false, final false
   inline void ProcessUnityScriptAttributes(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method HideAllGeometry, addr 0x2177f78, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method HideAllGeometry, addr 0x220c85c, size 0x14c, virtual false, abstract: false, final false
   inline void HideAllGeometry();
 
-  /// @brief Method CalculateVisibility, addr 0x21780c4, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method CalculateVisibility, addr 0x220c9a8, size 0x150, virtual false, abstract: false, final false
   inline void CalculateVisibility();
 
-  /// @brief Method CalculateColliderState, addr 0x2178214, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method CalculateColliderState, addr 0x220caf8, size 0x14c, virtual false, abstract: false, final false
   inline void CalculateColliderState();
 
-  /// @brief Method DisableAllColliders, addr 0x2178360, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method DisableAllColliders, addr 0x220cc44, size 0x14c, virtual false, abstract: false, final false
   inline void DisableAllColliders();
 
-  /// @brief Method IsInstancer, addr 0x2176008, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method IsInstancer, addr 0x220a8ec, size 0x184, virtual false, abstract: false, final false
   inline bool IsInstancer();
 
-  /// @brief Method ToString, addr 0x21784ac, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x220cd90, size 0x70, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method IsEquivalentTo, addr 0x217851c, size 0x280, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x220ce00, size 0x280, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_ObjectNode* other);
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_ObjectNode", modifiers: "&&", def_value: None }]

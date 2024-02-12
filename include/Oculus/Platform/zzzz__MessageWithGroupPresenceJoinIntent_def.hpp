@@ -19,20 +19,20 @@ MARK_REF_PTR_T(::Oculus::Platform::MessageWithGroupPresenceJoinIntent);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13262)), TypeDefinitionIndex(TypeDefinitionIndex(13434)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst:
-// 971 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(13289)) CS Name: ::Oculus.Platform::MessageWithGroupPresenceJoinIntent*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13162)), TypeDefinitionIndex(TypeDefinitionIndex(13373)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13162), inst:
+// 968 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(13195)) CS Name: ::Oculus.Platform::MessageWithGroupPresenceJoinIntent*
 class CORDL_TYPE MessageWithGroupPresenceJoinIntent : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::GroupPresenceJoinIntent*> {
 public:
   // Declarations
   static inline ::Oculus::Platform::MessageWithGroupPresenceJoinIntent* New_ctor(void* c_message);
 
-  /// @brief Method .ctor, addr 0x26ef030, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x271880c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(void* c_message);
 
-  /// @brief Method GetGroupPresenceJoinIntent, addr 0x26f19c0, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetGroupPresenceJoinIntent, addr 0x271b44c, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::GroupPresenceJoinIntent* GetGroupPresenceJoinIntent();
 
-  /// @brief Method GetDataFromMessage, addr 0x26f19fc, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x271b488, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::GroupPresenceJoinIntent* GetDataFromMessage(void* c_message);
 
   // Ctor Parameters [CppParam { name: "", ty: "MessageWithGroupPresenceJoinIntent", modifiers: "&&", def_value: None }]

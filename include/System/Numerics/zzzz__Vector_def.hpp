@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::System::Numerics::Vector);
 namespace System::Numerics {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3554))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3550))
 // CS Name: ::System.Numerics::Vector*
 class CORDL_TYPE Vector : public ::System::Object {
 public:
@@ -27,7 +27,7 @@ public:
   /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::Numerics::Vector_1<T> Equals(::System::Numerics::Vector_1<T> left, ::System::Numerics::Vector_1<T> right);
 
-  /// @brief Method get_IsHardwareAccelerated, addr 0x24fbef0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsHardwareAccelerated, addr 0x251af84, size 0x8, virtual false, abstract: false, final false
   static inline bool get_IsHardwareAccelerated();
 
   /// @brief Method AsVectorUInt64, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

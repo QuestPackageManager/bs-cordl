@@ -104,37 +104,37 @@ public:
                                                                                 ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyEncryptionAlgorithm,
                                                                                 ::Org::BouncyCastle::Asn1::Asn1Sequence* recipientEncryptedKeys);
 
-  /// @brief Method .ctor, addr 0xe79770, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xea4600, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey* originator, ::Org::BouncyCastle::Asn1::Asn1OctetString* ukm,
                     ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyEncryptionAlgorithm, ::Org::BouncyCastle::Asn1::Asn1Sequence* recipientEncryptedKeys);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xe79808, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xea4698, size 0x288, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance, addr 0xe79afc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xea498c, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0xe79b14, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xea49a4, size 0x178, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo* GetInstance(::System::Object* obj);
 
-  /// @brief Method get_Version, addr 0xe79c8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0xea4b1c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
-  /// @brief Method get_Originator, addr 0xe79c94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Originator, addr 0xea4b24, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey* get_Originator();
 
-  /// @brief Method get_UserKeyingMaterial, addr 0xe79c9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UserKeyingMaterial, addr 0xea4b2c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_UserKeyingMaterial();
 
-  /// @brief Method get_KeyEncryptionAlgorithm, addr 0xe79ca4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KeyEncryptionAlgorithm, addr 0xea4b34, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_KeyEncryptionAlgorithm();
 
-  /// @brief Method get_RecipientEncryptedKeys, addr 0xe79cac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RecipientEncryptedKeys, addr 0xea4b3c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Sequence* get_RecipientEncryptedKeys();
 
-  /// @brief Method ToAsn1Object, addr 0xe79cb4, size 0x1ec, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xea4b44, size 0x1ec, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "KeyAgreeRecipientInfo", modifiers: "&&", def_value: None }]

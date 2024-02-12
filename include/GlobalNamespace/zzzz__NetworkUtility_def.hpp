@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::GlobalNamespace::NetworkUtility);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12902))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12800))
 // CS Name: ::NetworkUtility*
 class CORDL_TYPE NetworkUtility : public ::System::Object {
 public:
@@ -40,22 +40,22 @@ public:
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF__nameEncryptionIv();
 
-  /// @brief Method Init, addr 0xe4d248, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0xe78080, size 0xe0, virtual false, abstract: false, final false
   static inline void Init();
 
-  /// @brief Method GetHashedUserId, addr 0xe4d328, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetHashedUserId, addr 0xe78160, size 0xcc, virtual false, abstract: false, final false
   static inline ::StringW GetHashedUserId(::StringW userId, ::GlobalNamespace::__AuthenticationToken__Platform platform);
 
-  /// @brief Method EncryptName, addr 0xe4d600, size 0x420, virtual false, abstract: false, final false
+  /// @brief Method EncryptName, addr 0xe78438, size 0x420, virtual false, abstract: false, final false
   static inline ::StringW EncryptName(::StringW text);
 
-  /// @brief Method DecryptName, addr 0xe4da20, size 0x424, virtual false, abstract: false, final false
+  /// @brief Method DecryptName, addr 0xe78858, size 0x424, virtual false, abstract: false, final false
   static inline ::StringW DecryptName(::StringW text);
 
-  /// @brief Method GenerateId, addr 0xe4de44, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GenerateId, addr 0xe78c7c, size 0x98, virtual false, abstract: false, final false
   static inline ::StringW GenerateId();
 
-  /// @brief Method GetHashBase64, addr 0xe4d3f4, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method GetHashBase64, addr 0xe7822c, size 0x20c, virtual false, abstract: false, final false
   static inline ::StringW GetHashBase64(::StringW input);
 
   // Ctor Parameters [CppParam { name: "", ty: "NetworkUtility", modifiers: "&&", def_value: None }]

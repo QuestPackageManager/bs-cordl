@@ -57,21 +57,21 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Parameters::ParametersWithRandom* New_ctor(::Org::BouncyCastle::Crypto::ICipherParameters* parameters,
                                                                                         ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method .ctor, addr 0xf3910c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf63f9c, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::ICipherParameters* parameters, ::Org::BouncyCastle::Security::SecureRandom* random);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::ParametersWithRandom* New_ctor(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method .ctor, addr 0xf391b0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf64040, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method GetRandom, addr 0xf39298, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetRandom, addr 0xf64128, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Security::SecureRandom* GetRandom();
 
-  /// @brief Method get_Random, addr 0xf392a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Random, addr 0xf64130, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Security::SecureRandom* get_Random();
 
-  /// @brief Method get_Parameters, addr 0xf392a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parameters, addr 0xf64138, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::ICipherParameters* get_Parameters();
 
   // Ctor Parameters [CppParam { name: "", ty: "ParametersWithRandom", modifiers: "&&", def_value: None }]

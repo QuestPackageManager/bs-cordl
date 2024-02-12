@@ -35,8 +35,8 @@ MARK_REF_PTR_T(::HMUI::TextSegmentedControl);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13550))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13552))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13503))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13505))
 // CS Name: ::HMUI::TextSegmentedControl*
 class CORDL_TYPE TextSegmentedControl : public ::HMUI::SegmentedControl {
 public:
@@ -137,21 +137,21 @@ public:
 
   constexpr void __cordl_internal_set__texts(::System::Collections::Generic::IReadOnlyList_1<::StringW>* value);
 
-  /// @brief Method SetTexts, addr 0x212029c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetTexts, addr 0x21b4b78, size 0x18, virtual false, abstract: false, final false
   inline void SetTexts(::System::Collections::Generic::IReadOnlyList_1<::StringW>* texts);
 
-  /// @brief Method NumberOfCells, addr 0x21202b4, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method NumberOfCells, addr 0x21b4b90, size 0xac, virtual true, abstract: false, final true
   inline int32_t NumberOfCells();
 
-  /// @brief Method CellForCellNumber, addr 0x2120360, size 0x294, virtual true, abstract: false, final true
+  /// @brief Method CellForCellNumber, addr 0x21b4c3c, size 0x294, virtual true, abstract: false, final true
   inline ::UnityW<::HMUI::SegmentedControlCell> CellForCellNumber(int32_t cellNumber);
 
-  /// @brief Method InstantiateCell, addr 0x21205f4, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method InstantiateCell, addr 0x21b4ed0, size 0x180, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::TextSegmentedControlCell> InstantiateCell(::UnityEngine::Object* prefab);
 
   static inline ::HMUI::TextSegmentedControl* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21207fc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21b50d8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TextSegmentedControl", modifiers: "&&", def_value: None }]

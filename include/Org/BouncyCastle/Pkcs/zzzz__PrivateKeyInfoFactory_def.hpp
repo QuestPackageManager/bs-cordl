@@ -39,24 +39,24 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Pkcs::PrivateKeyInfoFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10e72a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1115130, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreatePrivateKeyInfo, addr 0x10e72a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CreatePrivateKeyInfo, addr 0x1115138, size 0x8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* CreatePrivateKeyInfo(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey);
 
-  /// @brief Method CreatePrivateKeyInfo, addr 0x10e72b0, size 0xfa8, virtual false, abstract: false, final false
+  /// @brief Method CreatePrivateKeyInfo, addr 0x1115140, size 0xfa8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* CreatePrivateKeyInfo(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey, ::Org::BouncyCastle::Asn1::Asn1Set* attributes);
 
-  /// @brief Method CreatePrivateKeyInfo, addr 0x10e8364, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CreatePrivateKeyInfo, addr 0x11161f4, size 0xc, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* CreatePrivateKeyInfo(::ArrayW<char16_t, ::Array<char16_t>*> passPhrase,
                                                                                       ::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* encInfo);
 
-  /// @brief Method CreatePrivateKeyInfo, addr 0x10e8370, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method CreatePrivateKeyInfo, addr 0x1116200, size 0x21c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* CreatePrivateKeyInfo(::ArrayW<char16_t, ::Array<char16_t>*> passPhrase, bool wrongPkcs12Zero,
                                                                                       ::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* encInfo);
 
-  /// @brief Method ExtractBytes, addr 0x10e8258, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method ExtractBytes, addr 0x11160e8, size 0x10c, virtual false, abstract: false, final false
   static inline void ExtractBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> encKey, int32_t size, int32_t offSet, ::Org::BouncyCastle::Math::BigInteger* bI);
 
   // Ctor Parameters [CppParam { name: "", ty: "PrivateKeyInfoFactory", modifiers: "&&", def_value: None }]

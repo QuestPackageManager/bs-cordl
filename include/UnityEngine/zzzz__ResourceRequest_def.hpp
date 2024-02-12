@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::UnityEngine::ResourceRequest);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10201))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10262))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8945))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9006))
 // CS Name: ::UnityEngine::ResourceRequest*
 class CORDL_TYPE ResourceRequest : public ::UnityEngine::AsyncOperation {
 public:
@@ -47,15 +47,15 @@ public:
 
   constexpr void __cordl_internal_set_m_Type(::System::Type* value);
 
-  /// @brief Method GetResult, addr 0x2cddfec, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method GetResult, addr 0x2ce5080, size 0xc, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> GetResult();
 
-  /// @brief Method get_asset, addr 0x2cde070, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_asset, addr 0x2ce5104, size 0xc, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> get_asset();
 
   static inline ::UnityEngine::ResourceRequest* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2cde07c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ce5110, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ResourceRequest", modifiers: "&&", def_value: None }]

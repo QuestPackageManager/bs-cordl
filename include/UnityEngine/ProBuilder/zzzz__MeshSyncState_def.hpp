@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ProBuilder::MeshSyncState);
 namespace UnityEngine::ProBuilder {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12165))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12063))
 // CS Name: ::UnityEngine.ProBuilder::MeshSyncState
 struct CORDL_TYPE MeshSyncState {
 public:

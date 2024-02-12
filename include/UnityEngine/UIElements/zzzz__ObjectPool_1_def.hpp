@@ -21,7 +21,7 @@ namespace UnityEngine::UIElements {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6745))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6004))
 // CS Name: ::UnityEngine.UIElements::ObjectPool`1<T>*
 class CORDL_TYPE ObjectPool_1 : public ::System::Object {
 public:

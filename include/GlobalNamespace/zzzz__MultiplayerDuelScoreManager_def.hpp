@@ -33,8 +33,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerDuelScoreManager);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5203))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4542))
 // CS Name: ::MultiplayerDuelScoreManager*
 class CORDL_TYPE MultiplayerDuelScoreManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -103,30 +103,30 @@ public:
 
   constexpr void __cordl_internal_set__timeSinceLastScoreUpdate(float_t value);
 
-  /// @brief Method Start, addr 0x224b7c8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x23a9c0c, size 0xcc, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy, addr 0x224bb60, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x23a9fa4, size 0xd0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Update, addr 0x224bc30, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x23aa074, size 0x68, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method EnsureOpponentAssigned, addr 0x224bc98, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method EnsureOpponentAssigned, addr 0x23aa0dc, size 0x2c, virtual false, abstract: false, final false
   inline bool EnsureOpponentAssigned();
 
-  /// @brief Method GetOpponentPlayer, addr 0x224bcc4, size 0x3f0, virtual false, abstract: false, final false
+  /// @brief Method GetOpponentPlayer, addr 0x23aa108, size 0x3f0, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IConnectedPlayer* GetOpponentPlayer();
 
-  /// @brief Method UpdateScoreAndName, addr 0x224b9a8, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method UpdateScoreAndName, addr 0x23a9dec, size 0x1b8, virtual false, abstract: false, final false
   inline void UpdateScoreAndName();
 
-  /// @brief Method HandleStateChanged, addr 0x224c194, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method HandleStateChanged, addr 0x23aa5d8, size 0xf0, virtual false, abstract: false, final false
   inline void HandleStateChanged(::GlobalNamespace::__MultiplayerController__State newState);
 
   static inline ::GlobalNamespace::MultiplayerDuelScoreManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x224c284, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23aa6c8, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerDuelScoreManager", modifiers: "&&", def_value: None }]

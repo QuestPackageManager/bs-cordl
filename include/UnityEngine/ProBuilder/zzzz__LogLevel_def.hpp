@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ProBuilder::LogLevel);
 namespace UnityEngine::ProBuilder {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12135))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12033))
 // CS Name: ::UnityEngine.ProBuilder::LogLevel
 struct CORDL_TYPE LogLevel {
 public:

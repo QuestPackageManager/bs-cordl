@@ -180,57 +180,57 @@ public:
 
   static inline ::ArrayW<uint32_t, ::Array<uint32_t>*> getStaticF_Tinv3();
 
-  /// @brief Method Shift, addr 0xeb75f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Shift, addr 0xee2480, size 0x8, virtual false, abstract: false, final false
   static inline uint32_t Shift(uint32_t r, int32_t shift);
 
-  /// @brief Method FFmulX, addr 0xeb75f8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method FFmulX, addr 0xee2488, size 0x20, virtual false, abstract: false, final false
   static inline uint32_t FFmulX(uint32_t x);
 
-  /// @brief Method FFmulX2, addr 0xeb7618, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method FFmulX2, addr 0xee24a8, size 0x1c, virtual false, abstract: false, final false
   static inline uint32_t FFmulX2(uint32_t x);
 
-  /// @brief Method Inv_Mcol, addr 0xeb7634, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Inv_Mcol, addr 0xee24c4, size 0x98, virtual false, abstract: false, final false
   static inline uint32_t Inv_Mcol(uint32_t x);
 
-  /// @brief Method SubWord, addr 0xeb76cc, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method SubWord, addr 0xee255c, size 0xc4, virtual false, abstract: false, final false
   static inline uint32_t SubWord(uint32_t x);
 
-  /// @brief Method GenerateWorkingKey, addr 0xeb7790, size 0xb18, virtual false, abstract: false, final false
+  /// @brief Method GenerateWorkingKey, addr 0xee2620, size 0xb18, virtual false, abstract: false, final false
   inline ::ArrayW<::ArrayW<uint32_t, ::Array<uint32_t>*>, ::Array<::ArrayW<uint32_t, ::Array<uint32_t>*>>*> GenerateWorkingKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key, bool forEncryption);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::AesFastEngine* New_ctor();
 
-  /// @brief Method .ctor, addr 0xeb82a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xee3138, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Init, addr 0xeb82b0, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0xee3140, size 0x124, virtual true, abstract: false, final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method get_AlgorithmName, addr 0xeb83d4, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0xee3264, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method get_IsPartialBlockOkay, addr 0xeb8414, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsPartialBlockOkay, addr 0xee32a4, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsPartialBlockOkay();
 
-  /// @brief Method GetBlockSize, addr 0xeb841c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetBlockSize, addr 0xee32ac, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetBlockSize();
 
-  /// @brief Method ProcessBlock, addr 0xeb8424, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method ProcessBlock, addr 0xee32b4, size 0x138, virtual true, abstract: false, final false
   inline int32_t ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset, addr 0xeb95c0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0xee4450, size 0x4, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method UnPackBlock, addr 0xeb855c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method UnPackBlock, addr 0xee33ec, size 0x70, virtual false, abstract: false, final false
   inline void UnPackBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t off);
 
-  /// @brief Method PackBlock, addr 0xeb955c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method PackBlock, addr 0xee43ec, size 0x64, virtual false, abstract: false, final false
   inline void PackBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t off);
 
-  /// @brief Method EncryptBlock, addr 0xeb85cc, size 0x6d0, virtual false, abstract: false, final false
+  /// @brief Method EncryptBlock, addr 0xee345c, size 0x6d0, virtual false, abstract: false, final false
   inline void EncryptBlock(::ArrayW<::ArrayW<uint32_t, ::Array<uint32_t>*>, ::Array<::ArrayW<uint32_t, ::Array<uint32_t>*>>*> KW);
 
-  /// @brief Method DecryptBlock, addr 0xeb8c9c, size 0x8c0, virtual false, abstract: false, final false
+  /// @brief Method DecryptBlock, addr 0xee3b2c, size 0x8c0, virtual false, abstract: false, final false
   inline void DecryptBlock(::ArrayW<::ArrayW<uint32_t, ::Array<uint32_t>*>, ::Array<::ArrayW<uint32_t, ::Array<uint32_t>*>>*> KW);
 
   // Ctor Parameters [CppParam { name: "", ty: "AesFastEngine", modifiers: "&&", def_value: None }]

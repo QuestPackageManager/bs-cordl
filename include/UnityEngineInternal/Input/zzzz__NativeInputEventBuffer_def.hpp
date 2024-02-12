@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngineInternal::Input::NativeInputEventBuffer);
 namespace UnityEngineInternal::Input {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16109))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16220))
 // CS Name: ::UnityEngineInternal.Input::NativeInputEventBuffer
 #pragma pack(push, 1)
 struct CORDL_TYPE NativeInputEventBuffer {

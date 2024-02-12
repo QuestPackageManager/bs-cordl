@@ -32,7 +32,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::Android::LowLevel::__AndroidSensorState__
 namespace UnityEngine::InputSystem::Android::LowLevel {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6456))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5715))
 // CS Name: ::AndroidSensorState::<data>e__FixedBuffer
 #pragma pack(push, 0)
 struct CORDL_TYPE __AndroidSensorState___data_e__FixedBuffer {
@@ -67,8 +67,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::Android::LowLevel::__AndroidS
 // SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Android::LowLevel {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6456)), TypeDefinitionIndex(TypeDefinitionIndex(6667))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6457))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5715)), TypeDefinitionIndex(TypeDefinitionIndex(5926))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5716))
 // CS Name: ::UnityEngine.InputSystem.Android.LowLevel::AndroidSensorState
 struct CORDL_TYPE AndroidSensorState {
 public:
@@ -90,10 +90,10 @@ public:
 
   static inline ::UnityEngine::InputSystem::Utilities::FourCC getStaticF_kFormat();
 
-  /// @brief Method WithData, addr 0x2ae6dac, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method WithData, addr 0x2ae8918, size 0xd0, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorState WithData(::ArrayW<float_t, ::Array<float_t>*> data);
 
-  /// @brief Method get_format, addr 0x2ae6e7c, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method get_format, addr 0x2ae89e8, size 0x58, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
   // Ctor Parameters [CppParam { name: "data", ty: "::UnityEngine::InputSystem::Android::LowLevel::__AndroidSensorState___data_e__FixedBuffer", modifiers: "", def_value: None }]

@@ -46,7 +46,7 @@ MARK_VAL_T(::HMUI::__CurvedTextMeshPro__CurvedMeshInfo);
 namespace HMUI {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13527))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13480))
 // CS Name: ::CurvedTextMeshPro::CurvedMeshInfo
 struct CORDL_TYPE __CurvedTextMeshPro__CurvedMeshInfo {
 public:
@@ -76,8 +76,8 @@ static_assert(offsetof(::HMUI::__CurvedTextMeshPro__CurvedMeshInfo, uvs3) == 0x0
 // SizeInfo { instance_size: 1968, native_size: -1, calculated_instance_size: 1968, calculated_native_size: 1968, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12310))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13528))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12208))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13481))
 // CS Name: ::HMUI::CurvedTextMeshPro*
 class CORDL_TYPE CurvedTextMeshPro : public ::TMPro::TextMeshProUGUI {
 public:
@@ -131,39 +131,39 @@ public:
 
   constexpr void __cordl_internal_set__curvedCanvasSettingsHelper(::HMUI::CurvedCanvasSettingsHelper* value);
 
-  /// @brief Method get_useScriptableObjectColors, addr 0x211b864, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useScriptableObjectColors, addr 0x21b0140, size 0x8, virtual false, abstract: false, final false
   inline bool get_useScriptableObjectColors();
 
-  /// @brief Method set_useScriptableObjectColors, addr 0x211b86c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_useScriptableObjectColors, addr 0x21b0148, size 0xc, virtual false, abstract: false, final false
   inline void set_useScriptableObjectColors(bool value);
 
-  /// @brief Method get_color, addr 0x211b878, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method get_color, addr 0x21b0154, size 0x90, virtual true, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method set_color, addr 0x211b908, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_color, addr 0x21b01e4, size 0x8, virtual true, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
-  /// @brief Method OnEnable, addr 0x211b910, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x21b01ec, size 0x34, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method GenerateTextMesh, addr 0x211b944, size 0x7b4, virtual true, abstract: false, final false
+  /// @brief Method GenerateTextMesh, addr 0x21b0220, size 0x7b4, virtual true, abstract: false, final false
   inline void GenerateTextMesh();
 
-  /// @brief Method __Refresh, addr 0x211c1a8, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method __Refresh, addr 0x21b0a84, size 0x10, virtual true, abstract: false, final true
   inline void __Refresh();
 
-  /// @brief Method UpdateMesh, addr 0x211c0f8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method UpdateMesh, addr 0x21b09d4, size 0xb0, virtual false, abstract: false, final false
   inline void UpdateMesh(::UnityEngine::Mesh* mesh, int32_t meshIndex, ::UnityEngine::Vector2 curveUV, ::UnityEngine::Color32 color32);
 
-  /// @brief Method FillUV3s, addr 0x211c1b8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method FillUV3s, addr 0x21b0a94, size 0xd8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> FillUV3s(int32_t meshIndex, int32_t vertexCount, ::UnityEngine::Vector2 curve);
 
-  /// @brief Method FillColors, addr 0x211c290, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method FillColors, addr 0x21b0b6c, size 0x74, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Color32, ::Array<::UnityEngine::Color32>*> FillColors(int32_t meshIndex, ::UnityEngine::Color32 color32);
 
   static inline ::HMUI::CurvedTextMeshPro* New_ctor();
 
-  /// @brief Method .ctor, addr 0x211c304, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21b0be0, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CurvedTextMeshPro", modifiers: "&&", def_value: None }]

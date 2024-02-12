@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLayoutProvider);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5233))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5215))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4575))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4554))
 // CS Name: ::MultiplayerLayoutProvider*
 class CORDL_TYPE MultiplayerLayoutProvider : public ::System::Object {
 public:
@@ -61,30 +61,30 @@ public:
 
   constexpr void __cordl_internal_set_playersLayoutWasCalculatedEvent(::System::Action_2<::GlobalNamespace::MultiplayerPlayerLayout, int32_t>* value);
 
-  /// @brief Method get_layout, addr 0x224fcdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_layout, addr 0x23ae128, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerPlayerLayout get_layout();
 
-  /// @brief Method set_layout, addr 0x224fce4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_layout, addr 0x23ae130, size 0x8, virtual false, abstract: false, final false
   inline void set_layout(::GlobalNamespace::MultiplayerPlayerLayout value);
 
-  /// @brief Method get_activePlayerSpotsCount, addr 0x224fcec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_activePlayerSpotsCount, addr 0x23ae138, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_activePlayerSpotsCount();
 
-  /// @brief Method set_activePlayerSpotsCount, addr 0x224fcf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_activePlayerSpotsCount, addr 0x23ae140, size 0x8, virtual false, abstract: false, final false
   inline void set_activePlayerSpotsCount(int32_t value);
 
-  /// @brief Method add_playersLayoutWasCalculatedEvent, addr 0x22457c4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_playersLayoutWasCalculatedEvent, addr 0x23a4c60, size 0xb0, virtual false, abstract: false, final false
   inline void add_playersLayoutWasCalculatedEvent(::System::Action_2<::GlobalNamespace::MultiplayerPlayerLayout, int32_t>* value);
 
-  /// @brief Method remove_playersLayoutWasCalculatedEvent, addr 0x2245908, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_playersLayoutWasCalculatedEvent, addr 0x23ae148, size 0xb0, virtual false, abstract: false, final false
   inline void remove_playersLayoutWasCalculatedEvent(::System::Action_2<::GlobalNamespace::MultiplayerPlayerLayout, int32_t>* value);
 
-  /// @brief Method CalculateLayout, addr 0x224fcfc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CalculateLayout, addr 0x23ae1f8, size 0x5c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerPlayerLayout CalculateLayout(int32_t activePlayersCount);
 
   static inline ::GlobalNamespace::MultiplayerLayoutProvider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x224fd58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23ae254, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLayoutProvider", modifiers: "&&", def_value: None }]

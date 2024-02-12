@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::AssetBundle
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 75, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13989))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13991))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14002))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14004))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::AssetBundleRequestOptions*
 class CORDL_TYPE AssetBundleRequestOptions : public ::System::Object {
 public:
@@ -173,84 +173,84 @@ public:
 
   constexpr void __cordl_internal_set_m_ClearOtherCachedVersionsWhenLoaded(bool value);
 
-  /// @brief Method get_Hash, addr 0x2bd3888, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Hash, addr 0x2bd13f4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Hash();
 
-  /// @brief Method set_Hash, addr 0x2bd3890, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Hash, addr 0x2bd13fc, size 0x8, virtual false, abstract: false, final false
   inline void set_Hash(::StringW value);
 
-  /// @brief Method get_Crc, addr 0x2bd3898, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Crc, addr 0x2bd1404, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_Crc();
 
-  /// @brief Method set_Crc, addr 0x2bd38a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Crc, addr 0x2bd140c, size 0x8, virtual false, abstract: false, final false
   inline void set_Crc(uint32_t value);
 
-  /// @brief Method get_Timeout, addr 0x2bd38a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Timeout, addr 0x2bd1414, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Timeout();
 
-  /// @brief Method set_Timeout, addr 0x2bd38b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Timeout, addr 0x2bd141c, size 0x8, virtual false, abstract: false, final false
   inline void set_Timeout(int32_t value);
 
-  /// @brief Method get_ChunkedTransfer, addr 0x2bd38b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ChunkedTransfer, addr 0x2bd1424, size 0x8, virtual false, abstract: false, final false
   inline bool get_ChunkedTransfer();
 
-  /// @brief Method set_ChunkedTransfer, addr 0x2bd38c0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ChunkedTransfer, addr 0x2bd142c, size 0xc, virtual false, abstract: false, final false
   inline void set_ChunkedTransfer(bool value);
 
-  /// @brief Method get_RedirectLimit, addr 0x2bd38cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RedirectLimit, addr 0x2bd1438, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_RedirectLimit();
 
-  /// @brief Method set_RedirectLimit, addr 0x2bd38d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RedirectLimit, addr 0x2bd1440, size 0x8, virtual false, abstract: false, final false
   inline void set_RedirectLimit(int32_t value);
 
-  /// @brief Method get_RetryCount, addr 0x2bd38dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RetryCount, addr 0x2bd1448, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_RetryCount();
 
-  /// @brief Method set_RetryCount, addr 0x2bd38e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RetryCount, addr 0x2bd1450, size 0x8, virtual false, abstract: false, final false
   inline void set_RetryCount(int32_t value);
 
-  /// @brief Method get_BundleName, addr 0x2bd38ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BundleName, addr 0x2bd1458, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_BundleName();
 
-  /// @brief Method set_BundleName, addr 0x2bd38f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BundleName, addr 0x2bd1460, size 0x8, virtual false, abstract: false, final false
   inline void set_BundleName(::StringW value);
 
-  /// @brief Method get_AssetLoadMode, addr 0x2bd38fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AssetLoadMode, addr 0x2bd1468, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::ResourceProviders::AssetLoadMode get_AssetLoadMode();
 
-  /// @brief Method set_AssetLoadMode, addr 0x2bd3904, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AssetLoadMode, addr 0x2bd1470, size 0x8, virtual false, abstract: false, final false
   inline void set_AssetLoadMode(::UnityEngine::ResourceManagement::ResourceProviders::AssetLoadMode value);
 
-  /// @brief Method get_BundleSize, addr 0x2bd390c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BundleSize, addr 0x2bd1478, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_BundleSize();
 
-  /// @brief Method set_BundleSize, addr 0x2bd3914, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BundleSize, addr 0x2bd1480, size 0x8, virtual false, abstract: false, final false
   inline void set_BundleSize(int64_t value);
 
-  /// @brief Method get_UseCrcForCachedBundle, addr 0x2bd391c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UseCrcForCachedBundle, addr 0x2bd1488, size 0x8, virtual false, abstract: false, final false
   inline bool get_UseCrcForCachedBundle();
 
-  /// @brief Method set_UseCrcForCachedBundle, addr 0x2bd3924, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_UseCrcForCachedBundle, addr 0x2bd1490, size 0xc, virtual false, abstract: false, final false
   inline void set_UseCrcForCachedBundle(bool value);
 
-  /// @brief Method get_UseUnityWebRequestForLocalBundles, addr 0x2bd3930, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UseUnityWebRequestForLocalBundles, addr 0x2bd149c, size 0x8, virtual false, abstract: false, final false
   inline bool get_UseUnityWebRequestForLocalBundles();
 
-  /// @brief Method set_UseUnityWebRequestForLocalBundles, addr 0x2bd3938, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_UseUnityWebRequestForLocalBundles, addr 0x2bd14a4, size 0xc, virtual false, abstract: false, final false
   inline void set_UseUnityWebRequestForLocalBundles(bool value);
 
-  /// @brief Method get_ClearOtherCachedVersionsWhenLoaded, addr 0x2bd3944, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ClearOtherCachedVersionsWhenLoaded, addr 0x2bd14b0, size 0x8, virtual false, abstract: false, final false
   inline bool get_ClearOtherCachedVersionsWhenLoaded();
 
-  /// @brief Method set_ClearOtherCachedVersionsWhenLoaded, addr 0x2bd394c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ClearOtherCachedVersionsWhenLoaded, addr 0x2bd14b8, size 0xc, virtual false, abstract: false, final false
   inline void set_ClearOtherCachedVersionsWhenLoaded(bool value);
 
-  /// @brief Method ComputeSize, addr 0x2bd3958, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method ComputeSize, addr 0x2bd14c4, size 0x148, virtual true, abstract: false, final false
   inline int64_t ComputeSize(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::UnityEngine::ResourceManagement::ResourceManager* resourceManager);
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2bd3aa0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bd160c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AssetBundleRequestOptions", modifiers: "&&", def_value: None }]

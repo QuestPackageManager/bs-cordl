@@ -1,13 +1,13 @@
 #pragma once
+#include "BeatSaber/PerformancePresets/zzzz__ObstaclesQuality_impl.hpp"
 #include "GlobalNamespace/zzzz__ObservableVariableSO_1_impl.hpp"
-#include "GlobalNamespace/zzzz__ObstaclesQuality_impl.hpp"
 #include "GlobalNamespace/zzzz__ObstaclesQualitySO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ObstaclesQualitySO._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstaclesQualitySO::*)()>(&::GlobalNamespace::ObstaclesQualitySO::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2303f70;
+  constexpr static std::size_t addrs = 0x1293b94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstaclesQualitySO*>::get(), ".ctor",

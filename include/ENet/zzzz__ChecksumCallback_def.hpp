@@ -25,23 +25,23 @@ MARK_REF_PTR_T(::ENet::ChecksumCallback);
 namespace ENet {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15226))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15339))
 // CS Name: ::ENet::ChecksumCallback*
 class CORDL_TYPE ChecksumCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::ENet::ChecksumCallback* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x21ef444, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2284d2c, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x21ef508, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2284df0, size 0x14, virtual true, abstract: false, final false
   inline uint64_t Invoke(void* buffers, int32_t bufferCount);
 
-  /// @brief Method BeginInvoke, addr 0x21ef51c, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2284e04, size 0xb4, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(void* buffers, int32_t bufferCount, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x21ef5d0, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2284eb8, size 0x28, virtual true, abstract: false, final false
   inline uint64_t EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "ChecksumCallback", modifiers: "&&", def_value: None }]

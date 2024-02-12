@@ -18,14 +18,14 @@ MARK_REF_PTR_T(::System::Configuration::ConfigurationCollectionAttribute);
 namespace System::Configuration {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16262))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16437))
 // CS Name: ::System.Configuration::ConfigurationCollectionAttribute*
 class CORDL_TYPE ConfigurationCollectionAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::System::Configuration::ConfigurationCollectionAttribute* New_ctor(::System::Type* itemType);
 
-  /// @brief Method .ctor, addr 0x280cb18, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2811300, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* itemType);
 
   // Ctor Parameters [CppParam { name: "", ty: "ConfigurationCollectionAttribute", modifiers: "&&", def_value: None }]

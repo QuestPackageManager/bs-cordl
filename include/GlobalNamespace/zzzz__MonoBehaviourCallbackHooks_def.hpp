@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MonoBehaviourCallbackHooks);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13966)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13966), inst: 1062 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13948))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13979)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13979), inst: 1052 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13961))
 // CS Name: ::MonoBehaviourCallbackHooks*
 class CORDL_TYPE MonoBehaviourCallbackHooks : public ::UnityEngine::ResourceManagement::Util::ComponentSingleton_1<::UnityW<::GlobalNamespace::MonoBehaviourCallbackHooks>> {
 public:
@@ -34,21 +34,21 @@ public:
 
   constexpr void __cordl_internal_set_m_OnUpdateDelegate(::System::Action_1<float_t>* value);
 
-  /// @brief Method add_OnUpdateDelegate, addr 0x2bc994c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method add_OnUpdateDelegate, addr 0x2bc74b8, size 0xa8, virtual false, abstract: false, final false
   inline void add_OnUpdateDelegate(::System::Action_1<float_t>* value);
 
-  /// @brief Method remove_OnUpdateDelegate, addr 0x2bc99f4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method remove_OnUpdateDelegate, addr 0x2bc7560, size 0xa8, virtual false, abstract: false, final false
   inline void remove_OnUpdateDelegate(::System::Action_1<float_t>* value);
 
-  /// @brief Method GetGameObjectName, addr 0x2bc9a9c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method GetGameObjectName, addr 0x2bc7608, size 0x40, virtual true, abstract: false, final false
   inline ::StringW GetGameObjectName();
 
-  /// @brief Method Update, addr 0x2bc9adc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2bc7648, size 0x30, virtual false, abstract: false, final false
   inline void Update();
 
   static inline ::GlobalNamespace::MonoBehaviourCallbackHooks* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2bc9b0c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bc7678, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MonoBehaviourCallbackHooks", modifiers: "&&", def_value: None }]

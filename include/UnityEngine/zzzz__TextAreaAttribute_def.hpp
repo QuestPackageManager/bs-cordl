@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::UnityEngine::TextAreaAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10170))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10179))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8914))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8923))
 // CS Name: ::UnityEngine::TextAreaAttribute*
 class CORDL_TYPE TextAreaAttribute : public ::UnityEngine::PropertyAttribute {
 public:
@@ -41,12 +41,12 @@ public:
 
   static inline ::UnityEngine::TextAreaAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ccc22c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cd32b8, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::TextAreaAttribute* New_ctor(int32_t minLines, int32_t maxLines);
 
-  /// @brief Method .ctor, addr 0x2ccc24c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cd32d8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(int32_t minLines, int32_t maxLines);
 
   // Ctor Parameters [CppParam { name: "", ty: "TextAreaAttribute", modifiers: "&&", def_value: None }]

@@ -7,7 +7,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Models::AssetFileDownloadCancelResult::*)(void*)>(
     &::Oculus::Platform::Models::AssetFileDownloadCancelResult::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x2704a70;
+  constexpr static std::size_t addrs = 0x2737004;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

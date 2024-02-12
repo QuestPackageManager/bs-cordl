@@ -53,19 +53,19 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::ParametersWithIV* New_ctor(::Org::BouncyCastle::Crypto::ICipherParameters* parameters, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
 
-  /// @brief Method .ctor, addr 0xf38f88, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf63e18, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::ICipherParameters* parameters, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::ParametersWithIV* New_ctor(::Org::BouncyCastle::Crypto::ICipherParameters* parameters, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv, int32_t ivOff,
                                                                                     int32_t ivLen);
 
-  /// @brief Method .ctor, addr 0xf38fa4, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf63e34, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::ICipherParameters* parameters, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv, int32_t ivOff, int32_t ivLen);
 
-  /// @brief Method GetIV, addr 0xf3908c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetIV, addr 0xf63f1c, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetIV();
 
-  /// @brief Method get_Parameters, addr 0xf39104, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parameters, addr 0xf63f94, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::ICipherParameters* get_Parameters();
 
   // Ctor Parameters [CppParam { name: "", ty: "ParametersWithIV", modifiers: "&&", def_value: None }]

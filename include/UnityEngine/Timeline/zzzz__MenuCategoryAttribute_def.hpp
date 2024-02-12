@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::MenuCategoryAttribute);
 namespace UnityEngine::Timeline {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13926))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13879))
 // CS Name: ::UnityEngine.Timeline::MenuCategoryAttribute*
 class CORDL_TYPE MenuCategoryAttribute : public ::System::Attribute {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::UnityEngine::Timeline::MenuCategoryAttribute* New_ctor(::StringW category);
 
-  /// @brief Method .ctor, addr 0x2c6e7c8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c6b334, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW category);
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuCategoryAttribute", modifiers: "&&", def_value: None }]

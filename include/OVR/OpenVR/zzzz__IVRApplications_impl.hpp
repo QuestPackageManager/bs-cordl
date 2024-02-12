@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRApplications___AddApplicationManifest::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRApplications___AddApplicationManifest::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x27d6a48;
+  constexpr static std::size_t addrs = 0x27e4200;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::__IVRApplications___AddApplicationManifest::*)(::StringW, bool)>(
     &::OVR::OpenVR::__IVRApplications___AddApplicationManifest::Invoke)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x27d6b20;
+  constexpr static std::size_t addrs = 0x27e42d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -48,7 +48,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::IAsyncResult* (::OVR::OpenVR::__IVRApplications___AddApplicationManifest::*)(::StringW, bool, ::System::AsyncCallback*, ::System::Object*)>(
         &::OVR::OpenVR::__IVRApplications___AddApplicationManifest::BeginInvoke)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x27d6b38;
+  constexpr static std::size_t addrs = 0x27e42f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::__IVRApplications___AddApplicationManifest::*)(
     ::System::IAsyncResult*)>(&::OVR::OpenVR::__IVRApplications___AddApplicationManifest::EndInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x27d6bd0;
+  constexpr static std::size_t addrs = 0x27e4388;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRApplications___RemoveApplicationManifest::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRApplications___RemoveApplicationManifest::_ctor)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x27d6bf8;
+  constexpr static std::size_t addrs = 0x27e43b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::__IVRApplications___RemoveApplicationManifest::*)(::StringW)>(
     &::OVR::OpenVR::__IVRApplications___RemoveApplicationManifest::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x27d6ccc;
+  constexpr static std::size_t addrs = 0x27e4484;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -142,7 +142,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::IAsyncResult* (::OVR::OpenVR::__IVRApplications___RemoveApplicationManifest::*)(::StringW, ::System::AsyncCallback*, ::System::Object*)>(
         &::OVR::OpenVR::__IVRApplications___RemoveApplicationManifest::BeginInvoke)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x27d6ce0;
+  constexpr static std::size_t addrs = 0x27e4498;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::__IVRApplications___RemoveApplicationManifest::*)(
     ::System::IAsyncResult*)>(&::OVR::OpenVR::__IVRApplications___RemoveApplicationManifest::EndInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x27d6d00;
+  constexpr static std::size_t addrs = 0x27e44b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -204,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRApplications___IsApplicationInstalled::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRApplications___IsApplicationInstalled::_ctor)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x27d6d28;
+  constexpr static std::size_t addrs = 0x27e44e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -219,7 +219,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::OVR::OpenVR::__IVRApplications___IsApplicationInstalled::*)(::StringW)>(
     &::OVR::OpenVR::__IVRApplications___IsApplicationInstalled::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x27d6dfc;
+  constexpr static std::size_t addrs = 0x27e45b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -235,7 +235,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
     ::OVR::OpenVR::__IVRApplications___IsApplicationInstalled::*)(::StringW, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::__IVRApplications___IsApplicationInstalled::BeginInvoke)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x27d6e10;
+  constexpr static std::size_t addrs = 0x27e45c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -251,7 +251,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::OVR::OpenVR::__IVRApplications___IsApplicationInstalled::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::__IVRApplications___IsApplicationInstalled::EndInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x27d6e30;
+  constexpr static std::size_t addrs = 0x27e45e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -296,7 +296,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRApplications___GetApplicationCount::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRApplications___GetApplicationCount::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x27d6e58;
+  constexpr static std::size_t addrs = 0x27e4610;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -311,7 +311,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::__IVRApplications___GetApplicationCount::*)()>(
     &::OVR::OpenVR::__IVRApplications___GetApplicationCount::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x27d6f14;
+  constexpr static std::size_t addrs = 0x27e46cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -327,7 +327,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
     ::OVR::OpenVR::__IVRApplications___GetApplicationCount::*)(::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::__IVRApplications___GetApplicationCount::BeginInvoke)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x27d6f28;
+  constexpr static std::size_t addrs = 0x27e46e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -343,7 +343,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::__IVRApplications___GetApplicationCount::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::__IVRApplications___GetApplicationCount::EndInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x27d6f48;
+  constexpr static std::size_t addrs = 0x27e4700;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -388,7 +388,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRApplications___GetApplicationKeyByIndex::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRApplications___GetApplicationKeyByIndex::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x27d6f70;
+  constexpr static std::size_t addrs = 0x27e4728;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -403,7 +403,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::__IVRApplications___GetApplicationKeyByIndex::*)(
     uint32_t, ::System::Text::StringBuilder*, uint32_t)>(&::OVR::OpenVR::__IVRApplications___GetApplicationKeyByIndex::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x27d7034;
+  constexpr static std::size_t addrs = 0x27e47ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -420,7 +420,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::OVR::OpenVR::__IVRApplications___GetApplicationKeyByIndex::*)(uint32_t, ::System::Text::StringBuilder*, uint32_t, ::System::AsyncCallback*, ::System::Object*)>(
     &::OVR::OpenVR::__IVRApplications___GetApplicationKeyByIndex::BeginInvoke)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x27d7048;
+  constexpr static std::size_t addrs = 0x27e4800;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -436,7 +436,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::__IVRApplications___GetApplicationKeyByIndex::*)(
     ::System::IAsyncResult*)>(&::OVR::OpenVR::__IVRApplications___GetApplicationKeyByIndex::EndInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x27d70ec;
+  constexpr static std::size_t addrs = 0x27e48a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -483,7 +483,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRApplications___GetApplicationKeyByProcessId::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRApplications___GetApplicationKeyByProcessId::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x27d7114;
+  constexpr static std::size_t addrs = 0x27e48cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -498,7 +498,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::__IVRApplications___GetApplicationKeyByProcessId::*)(
     uint32_t, ::System::Text::StringBuilder*, uint32_t)>(&::OVR::OpenVR::__IVRApplications___GetApplicationKeyByProcessId::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x27d71d8;
+  constexpr static std::size_t addrs = 0x27e4990;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -515,7 +515,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::OVR::OpenVR::__IVRApplications___GetApplicationKeyByProcessId::*)(uint32_t, ::System::Text::StringBuilder*, uint32_t, ::System::AsyncCallback*, ::System::Object*)>(
     &::OVR::OpenVR::__IVRApplications___GetApplicationKeyByProcessId::BeginInvoke)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x27d71ec;
+  constexpr static std::size_t addrs = 0x27e49a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -531,7 +531,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::__IVRApplications___GetApplicationKeyByProcessId::*)(
     ::System::IAsyncResult*)>(&::OVR::OpenVR::__IVRApplications___GetApplicationKeyByProcessId::EndInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x27d7290;
+  constexpr static std::size_t addrs = 0x27e4a48;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -578,7 +578,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRApplications___LaunchApplication::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRApplications___LaunchApplication::_ctor)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x27d72b8;
+  constexpr static std::size_t addrs = 0x27e4a70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -593,7 +593,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::__IVRApplications___LaunchApplication::*)(::StringW)>(
     &::OVR::OpenVR::__IVRApplications___LaunchApplication::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x27d738c;
+  constexpr static std::size_t addrs = 0x27e4b44;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -609,7 +609,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
     ::OVR::OpenVR::__IVRApplications___LaunchApplication::*)(::StringW, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::__IVRApplications___LaunchApplication::BeginInvoke)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x27d73a0;
+  constexpr static std::size_t addrs = 0x27e4b58;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -625,7 +625,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::__IVRApplications___LaunchApplication::*)(
     ::System::IAsyncResult*)>(&::OVR::OpenVR::__IVRApplications___LaunchApplication::EndInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x27d73c0;
+  constexpr static std::size_t addrs = 0x27e4b78;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -670,7 +670,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRApplications___LaunchTemplateApplication::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRApplications___LaunchTemplateApplication::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x27d73e8;
+  constexpr static std::size_t addrs = 0x27e4ba0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -686,7 +686,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::StringW, ::StringW, ByRef<::ArrayW<::OVR::OpenVR::AppOverrideKeys_t, ::Array<::OVR::OpenVR::AppOverrideKeys_t>*>>, uint32_t)>(
     &::OVR::OpenVR::__IVRApplications___LaunchTemplateApplication::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x27d74c0;
+  constexpr static std::size_t addrs = 0x27e4c78;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -703,7 +703,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::OVR::OpenVR::__IVRApplications___LaunchTemplateApplication::*)(::StringW, ::StringW, ByRef<::ArrayW<::OVR::OpenVR::AppOverrideKeys_t, ::Array<::OVR::OpenVR::AppOverrideKeys_t>*>>, uint32_t,
                                                                      ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::__IVRApplications___LaunchTemplateApplication::BeginInvoke)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x27d74d4;
+  constexpr static std::size_t addrs = 0x27e4c8c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -719,7 +719,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::__IVRApplications___LaunchTemplateApplication::*)(
     ::System::IAsyncResult*)>(&::OVR::OpenVR::__IVRApplications___LaunchTemplateApplication::EndInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x27d757c;
+  constexpr static std::size_t addrs = 0x27e4d34;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -769,7 +769,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRApplications___LaunchApplicationFromMimeType::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRApplications___LaunchApplicationFromMimeType::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x27d75a4;
+  constexpr static std::size_t addrs = 0x27e4d5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -784,7 +784,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::__IVRApplications___LaunchApplicationFromMimeType::*)(
     ::StringW, ::StringW)>(&::OVR::OpenVR::__IVRApplications___LaunchApplicationFromMimeType::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x27d767c;
+  constexpr static std::size_t addrs = 0x27e4e34;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -801,7 +801,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::IAsyncResult* (::OVR::OpenVR::__IVRApplications___LaunchApplicationFromMimeType::*)(::StringW, ::StringW, ::System::AsyncCallback*, ::System::Object*)>(
         &::OVR::OpenVR::__IVRApplications___LaunchApplicationFromMimeType::BeginInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x27d7690;
+  constexpr static std::size_t addrs = 0x27e4e48;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -817,7 +817,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::__IVRApplications___LaunchApplicationFromMimeType::*)(
     ::System::IAsyncResult*)>(&::OVR::OpenVR::__IVRApplications___LaunchApplicationFromMimeType::EndInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x27d76b8;
+  constexpr static std::size_t addrs = 0x27e4e70;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -863,7 +863,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRApplications___LaunchDashboardOverlay::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRApplications___LaunchDashboardOverlay::_ctor)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x27d76e0;
+  constexpr static std::size_t addrs = 0x27e4e98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -878,7 +878,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::__IVRApplications___LaunchDashboardOverlay::*)(::StringW)>(
     &::OVR::OpenVR::__IVRApplications___LaunchDashboardOverlay::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x27d77b4;
+  constexpr static std::size_t addrs = 0x27e4f6c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -894,7 +894,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
     ::OVR::OpenVR::__IVRApplications___LaunchDashboardOverlay::*)(::StringW, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::__IVRApplications___LaunchDashboardOverlay::BeginInvoke)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x27d77c8;
+  constexpr static std::size_t addrs = 0x27e4f80;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -910,7 +910,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::__IVRApplications___LaunchDashboardOverlay::*)(
     ::System::IAsyncResult*)>(&::OVR::OpenVR::__IVRApplications___LaunchDashboardOverlay::EndInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x27d77e8;
+  constexpr static std::size_t addrs = 0x27e4fa0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -955,7 +955,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRApplications___CancelApplicationLaunch::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRApplications___CancelApplicationLaunch::_ctor)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x27d7810;
+  constexpr static std::size_t addrs = 0x27e4fc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -970,7 +970,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::OVR::OpenVR::__IVRApplications___CancelApplicationLaunch::*)(::StringW)>(
     &::OVR::OpenVR::__IVRApplications___CancelApplicationLaunch::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x27d78e4;
+  constexpr static std::size_t addrs = 0x27e509c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -986,7 +986,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
     ::OVR::OpenVR::__IVRApplications___CancelApplicationLaunch::*)(::StringW, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::__IVRApplications___CancelApplicationLaunch::BeginInvoke)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x27d78f8;
+  constexpr static std::size_t addrs = 0x27e50b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1002,7 +1002,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::OVR::OpenVR::__IVRApplications___CancelApplicationLaunch::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::__IVRApplications___CancelApplicationLaunch::EndInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x27d7918;
+  constexpr static std::size_t addrs = 0x27e50d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1047,7 +1047,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRApplications___IdentifyApplication::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRApplications___IdentifyApplication::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x27d7940;
+  constexpr static std::size_t addrs = 0x27e50f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1062,7 +1062,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::__IVRApplications___IdentifyApplication::*)(uint32_t, ::StringW)>(
     &::OVR::OpenVR::__IVRApplications___IdentifyApplication::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x27d7a04;
+  constexpr static std::size_t addrs = 0x27e51bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1079,7 +1079,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::IAsyncResult* (::OVR::OpenVR::__IVRApplications___IdentifyApplication::*)(uint32_t, ::StringW, ::System::AsyncCallback*, ::System::Object*)>(
         &::OVR::OpenVR::__IVRApplications___IdentifyApplication::BeginInvoke)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x27d7a18;
+  constexpr static std::size_t addrs = 0x27e51d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1095,7 +1095,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::__IVRApplications___IdentifyApplication::*)(
     ::System::IAsyncResult*)>(&::OVR::OpenVR::__IVRApplications___IdentifyApplication::EndInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x27d7aa8;
+  constexpr static std::size_t addrs = 0x27e5260;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1141,7 +1141,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRApplications___GetApplicationProcessId::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRApplications___GetApplicationProcessId::_ctor)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x27d7ad0;
+  constexpr static std::size_t addrs = 0x27e5288;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1156,7 +1156,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::__IVRApplications___GetApplicationProcessId::*)(::StringW)>(
     &::OVR::OpenVR::__IVRApplications___GetApplicationProcessId::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x27d7ba4;
+  constexpr static std::size_t addrs = 0x27e535c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1172,7 +1172,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
     ::OVR::OpenVR::__IVRApplications___GetApplicationProcessId::*)(::StringW, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::__IVRApplications___GetApplicationProcessId::BeginInvoke)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x27d7bb8;
+  constexpr static std::size_t addrs = 0x27e5370;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1188,7 +1188,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::__IVRApplications___GetApplicationProcessId::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::__IVRApplications___GetApplicationProcessId::EndInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x27d7bd8;
+  constexpr static std::size_t addrs = 0x27e5390;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1233,7 +1233,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRApplications___GetApplicationsErrorNameFromEnum::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRApplications___GetApplicationsErrorNameFromEnum::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x27d7c00;
+  constexpr static std::size_t addrs = 0x27e53b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1248,7 +1248,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (::OVR::OpenVR::__IVRApplications___GetApplicationsErrorNameFromEnum::*)(::OVR::OpenVR::EVRApplicationError)>(
     &::OVR::OpenVR::__IVRApplications___GetApplicationsErrorNameFromEnum::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x27d7cc4;
+  constexpr static std::size_t addrs = 0x27e547c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1265,7 +1265,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::IAsyncResult* (::OVR::OpenVR::__IVRApplications___GetApplicationsErrorNameFromEnum::*)(::OVR::OpenVR::EVRApplicationError, ::System::AsyncCallback*, ::System::Object*)>(
         &::OVR::OpenVR::__IVRApplications___GetApplicationsErrorNameFromEnum::BeginInvoke)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x27d7cd8;
+  constexpr static std::size_t addrs = 0x27e5490;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1281,7 +1281,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (::OVR::OpenVR::__IVRApplications___GetApplicationsErrorNameFromEnum::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::__IVRApplications___GetApplicationsErrorNameFromEnum::EndInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x27d7d5c;
+  constexpr static std::size_t addrs = 0x27e5514;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1327,7 +1327,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRApplications___GetApplicationPropertyString::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRApplications___GetApplicationPropertyString::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x27d7d84;
+  constexpr static std::size_t addrs = 0x27e553c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1343,7 +1343,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::StringW, ::OVR::OpenVR::EVRApplicationProperty, ::System::Text::StringBuilder*, uint32_t, ByRef<::OVR::OpenVR::EVRApplicationError>)>(
     &::OVR::OpenVR::__IVRApplications___GetApplicationPropertyString::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x27d7e5c;
+  constexpr static std::size_t addrs = 0x27e5614;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1361,7 +1361,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                                                                                                              ByRef<::OVR::OpenVR::EVRApplicationError>, ::System::AsyncCallback*, ::System::Object*)>(
         &::OVR::OpenVR::__IVRApplications___GetApplicationPropertyString::BeginInvoke)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x27d7e70;
+  constexpr static std::size_t addrs = 0x27e5628;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1377,7 +1377,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::__IVRApplications___GetApplicationPropertyString::*)(
     ByRef<::OVR::OpenVR::EVRApplicationError>, ::System::IAsyncResult*)>(&::OVR::OpenVR::__IVRApplications___GetApplicationPropertyString::EndInvoke)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x27d7f6c;
+  constexpr static std::size_t addrs = 0x27e5724;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1428,7 +1428,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRApplications___GetApplicationPropertyBool::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRApplications___GetApplicationPropertyBool::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x27d7f98;
+  constexpr static std::size_t addrs = 0x27e5750;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1443,7 +1443,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::OVR::OpenVR::__IVRApplications___GetApplicationPropertyBool::*)(
     ::StringW, ::OVR::OpenVR::EVRApplicationProperty, ByRef<::OVR::OpenVR::EVRApplicationError>)>(&::OVR::OpenVR::__IVRApplications___GetApplicationPropertyBool::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x27d8070;
+  constexpr static std::size_t addrs = 0x27e5828;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1460,7 +1460,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::OVR::OpenVR::__IVRApplications___GetApplicationPropertyBool::*)(::StringW, ::OVR::OpenVR::EVRApplicationProperty, ByRef<::OVR::OpenVR::EVRApplicationError>, ::System::AsyncCallback*,
                                                                       ::System::Object*)>(&::OVR::OpenVR::__IVRApplications___GetApplicationPropertyBool::BeginInvoke)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x27d8084;
+  constexpr static std::size_t addrs = 0x27e583c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1476,7 +1476,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::OVR::OpenVR::__IVRApplications___GetApplicationPropertyBool::*)(
     ByRef<::OVR::OpenVR::EVRApplicationError>, ::System::IAsyncResult*)>(&::OVR::OpenVR::__IVRApplications___GetApplicationPropertyBool::EndInvoke)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x27d814c;
+  constexpr static std::size_t addrs = 0x27e5904;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1524,7 +1524,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRApplications___GetApplicationPropertyUint64::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRApplications___GetApplicationPropertyUint64::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x27d8178;
+  constexpr static std::size_t addrs = 0x27e5930;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1539,7 +1539,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::OVR::OpenVR::__IVRApplications___GetApplicationPropertyUint64::*)(
     ::StringW, ::OVR::OpenVR::EVRApplicationProperty, ByRef<::OVR::OpenVR::EVRApplicationError>)>(&::OVR::OpenVR::__IVRApplications___GetApplicationPropertyUint64::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x27d8250;
+  constexpr static std::size_t addrs = 0x27e5a08;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1556,7 +1556,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::OVR::OpenVR::__IVRApplications___GetApplicationPropertyUint64::*)(::StringW, ::OVR::OpenVR::EVRApplicationProperty, ByRef<::OVR::OpenVR::EVRApplicationError>, ::System::AsyncCallback*,
                                                                         ::System::Object*)>(&::OVR::OpenVR::__IVRApplications___GetApplicationPropertyUint64::BeginInvoke)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x27d8264;
+  constexpr static std::size_t addrs = 0x27e5a1c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1572,7 +1572,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::OVR::OpenVR::__IVRApplications___GetApplicationPropertyUint64::*)(
     ByRef<::OVR::OpenVR::EVRApplicationError>, ::System::IAsyncResult*)>(&::OVR::OpenVR::__IVRApplications___GetApplicationPropertyUint64::EndInvoke)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x27d832c;
+  constexpr static std::size_t addrs = 0x27e5ae4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1620,7 +1620,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRApplications___SetApplicationAutoLaunch::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRApplications___SetApplicationAutoLaunch::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x27d8358;
+  constexpr static std::size_t addrs = 0x27e5b10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1635,7 +1635,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::__IVRApplications___SetApplicationAutoLaunch::*)(::StringW, bool)>(
     &::OVR::OpenVR::__IVRApplications___SetApplicationAutoLaunch::Invoke)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x27d8430;
+  constexpr static std::size_t addrs = 0x27e5be8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1652,7 +1652,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::IAsyncResult* (::OVR::OpenVR::__IVRApplications___SetApplicationAutoLaunch::*)(::StringW, bool, ::System::AsyncCallback*, ::System::Object*)>(
         &::OVR::OpenVR::__IVRApplications___SetApplicationAutoLaunch::BeginInvoke)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x27d8448;
+  constexpr static std::size_t addrs = 0x27e5c00;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1668,7 +1668,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::__IVRApplications___SetApplicationAutoLaunch::*)(
     ::System::IAsyncResult*)>(&::OVR::OpenVR::__IVRApplications___SetApplicationAutoLaunch::EndInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x27d84e0;
+  constexpr static std::size_t addrs = 0x27e5c98;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1714,7 +1714,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRApplications___GetApplicationAutoLaunch::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRApplications___GetApplicationAutoLaunch::_ctor)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x27d8508;
+  constexpr static std::size_t addrs = 0x27e5cc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1729,7 +1729,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::OVR::OpenVR::__IVRApplications___GetApplicationAutoLaunch::*)(::StringW)>(
     &::OVR::OpenVR::__IVRApplications___GetApplicationAutoLaunch::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x27d85dc;
+  constexpr static std::size_t addrs = 0x27e5d94;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1746,7 +1746,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::IAsyncResult* (::OVR::OpenVR::__IVRApplications___GetApplicationAutoLaunch::*)(::StringW, ::System::AsyncCallback*, ::System::Object*)>(
         &::OVR::OpenVR::__IVRApplications___GetApplicationAutoLaunch::BeginInvoke)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x27d85f0;
+  constexpr static std::size_t addrs = 0x27e5da8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1762,7 +1762,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::OVR::OpenVR::__IVRApplications___GetApplicationAutoLaunch::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::__IVRApplications___GetApplicationAutoLaunch::EndInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x27d8610;
+  constexpr static std::size_t addrs = 0x27e5dc8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1807,7 +1807,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRApplications___SetDefaultApplicationForMimeType::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRApplications___SetDefaultApplicationForMimeType::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x27d8638;
+  constexpr static std::size_t addrs = 0x27e5df0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1822,7 +1822,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::__IVRApplications___SetDefaultApplicationForMimeType::*)(
     ::StringW, ::StringW)>(&::OVR::OpenVR::__IVRApplications___SetDefaultApplicationForMimeType::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x27d8710;
+  constexpr static std::size_t addrs = 0x27e5ec8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1839,7 +1839,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::IAsyncResult* (::OVR::OpenVR::__IVRApplications___SetDefaultApplicationForMimeType::*)(::StringW, ::StringW, ::System::AsyncCallback*, ::System::Object*)>(
         &::OVR::OpenVR::__IVRApplications___SetDefaultApplicationForMimeType::BeginInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x27d8724;
+  constexpr static std::size_t addrs = 0x27e5edc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1855,7 +1855,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::__IVRApplications___SetDefaultApplicationForMimeType::*)(
     ::System::IAsyncResult*)>(&::OVR::OpenVR::__IVRApplications___SetDefaultApplicationForMimeType::EndInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x27d874c;
+  constexpr static std::size_t addrs = 0x27e5f04;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1901,7 +1901,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRApplications___GetDefaultApplicationForMimeType::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRApplications___GetDefaultApplicationForMimeType::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x27d8774;
+  constexpr static std::size_t addrs = 0x27e5f2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1916,7 +1916,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::OVR::OpenVR::__IVRApplications___GetDefaultApplicationForMimeType::*)(
     ::StringW, ::System::Text::StringBuilder*, uint32_t)>(&::OVR::OpenVR::__IVRApplications___GetDefaultApplicationForMimeType::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x27d884c;
+  constexpr static std::size_t addrs = 0x27e6004;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1933,7 +1933,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::OVR::OpenVR::__IVRApplications___GetDefaultApplicationForMimeType::*)(::StringW, ::System::Text::StringBuilder*, uint32_t, ::System::AsyncCallback*, ::System::Object*)>(
     &::OVR::OpenVR::__IVRApplications___GetDefaultApplicationForMimeType::BeginInvoke)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x27d8860;
+  constexpr static std::size_t addrs = 0x27e6018;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1949,7 +1949,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::OVR::OpenVR::__IVRApplications___GetDefaultApplicationForMimeType::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::__IVRApplications___GetDefaultApplicationForMimeType::EndInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x27d88f8;
+  constexpr static std::size_t addrs = 0x27e60b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1995,7 +1995,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRApplications___GetApplicationSupportedMimeTypes::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRApplications___GetApplicationSupportedMimeTypes::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x27d8920;
+  constexpr static std::size_t addrs = 0x27e60d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2010,7 +2010,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::OVR::OpenVR::__IVRApplications___GetApplicationSupportedMimeTypes::*)(
     ::StringW, ::System::Text::StringBuilder*, uint32_t)>(&::OVR::OpenVR::__IVRApplications___GetApplicationSupportedMimeTypes::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x27d89f8;
+  constexpr static std::size_t addrs = 0x27e61b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2027,7 +2027,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::OVR::OpenVR::__IVRApplications___GetApplicationSupportedMimeTypes::*)(::StringW, ::System::Text::StringBuilder*, uint32_t, ::System::AsyncCallback*, ::System::Object*)>(
     &::OVR::OpenVR::__IVRApplications___GetApplicationSupportedMimeTypes::BeginInvoke)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x27d8a0c;
+  constexpr static std::size_t addrs = 0x27e61c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2043,7 +2043,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::OVR::OpenVR::__IVRApplications___GetApplicationSupportedMimeTypes::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::__IVRApplications___GetApplicationSupportedMimeTypes::EndInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x27d8aa4;
+  constexpr static std::size_t addrs = 0x27e625c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2089,7 +2089,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRApplications___GetApplicationsThatSupportMimeType::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRApplications___GetApplicationsThatSupportMimeType::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x27d8acc;
+  constexpr static std::size_t addrs = 0x27e6284;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2104,7 +2104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::__IVRApplications___GetApplicationsThatSupportMimeType::*)(
     ::StringW, ::System::Text::StringBuilder*, uint32_t)>(&::OVR::OpenVR::__IVRApplications___GetApplicationsThatSupportMimeType::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x27d8ba4;
+  constexpr static std::size_t addrs = 0x27e635c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2121,7 +2121,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::OVR::OpenVR::__IVRApplications___GetApplicationsThatSupportMimeType::*)(::StringW, ::System::Text::StringBuilder*, uint32_t, ::System::AsyncCallback*, ::System::Object*)>(
     &::OVR::OpenVR::__IVRApplications___GetApplicationsThatSupportMimeType::BeginInvoke)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x27d8bb8;
+  constexpr static std::size_t addrs = 0x27e6370;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2137,7 +2137,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::__IVRApplications___GetApplicationsThatSupportMimeType::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::__IVRApplications___GetApplicationsThatSupportMimeType::EndInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x27d8c50;
+  constexpr static std::size_t addrs = 0x27e6408;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2185,7 +2185,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRApplications___GetApplicationLaunchArguments::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRApplications___GetApplicationLaunchArguments::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x27d8c78;
+  constexpr static std::size_t addrs = 0x27e6430;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2200,7 +2200,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::__IVRApplications___GetApplicationLaunchArguments::*)(
     uint32_t, ::System::Text::StringBuilder*, uint32_t)>(&::OVR::OpenVR::__IVRApplications___GetApplicationLaunchArguments::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x27d8d3c;
+  constexpr static std::size_t addrs = 0x27e64f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2217,7 +2217,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::OVR::OpenVR::__IVRApplications___GetApplicationLaunchArguments::*)(uint32_t, ::System::Text::StringBuilder*, uint32_t, ::System::AsyncCallback*, ::System::Object*)>(
     &::OVR::OpenVR::__IVRApplications___GetApplicationLaunchArguments::BeginInvoke)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x27d8d50;
+  constexpr static std::size_t addrs = 0x27e6508;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2233,7 +2233,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::__IVRApplications___GetApplicationLaunchArguments::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::__IVRApplications___GetApplicationLaunchArguments::EndInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x27d8df4;
+  constexpr static std::size_t addrs = 0x27e65ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2279,7 +2279,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRApplications___GetStartingApplication::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRApplications___GetStartingApplication::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x27d8e1c;
+  constexpr static std::size_t addrs = 0x27e65d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2294,7 +2294,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::__IVRApplications___GetStartingApplication::*)(
     ::System::Text::StringBuilder*, uint32_t)>(&::OVR::OpenVR::__IVRApplications___GetStartingApplication::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x27d8ef4;
+  constexpr static std::size_t addrs = 0x27e66ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2311,7 +2311,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::IAsyncResult* (::OVR::OpenVR::__IVRApplications___GetStartingApplication::*)(::System::Text::StringBuilder*, uint32_t, ::System::AsyncCallback*, ::System::Object*)>(
         &::OVR::OpenVR::__IVRApplications___GetStartingApplication::BeginInvoke)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x27d8f08;
+  constexpr static std::size_t addrs = 0x27e66c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2327,7 +2327,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::__IVRApplications___GetStartingApplication::*)(
     ::System::IAsyncResult*)>(&::OVR::OpenVR::__IVRApplications___GetStartingApplication::EndInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x27d8f9c;
+  constexpr static std::size_t addrs = 0x27e6754;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2373,7 +2373,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRApplications___GetTransitionState::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRApplications___GetTransitionState::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x27d8fc4;
+  constexpr static std::size_t addrs = 0x27e677c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2388,7 +2388,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRApplicationTransitionState (::OVR::OpenVR::__IVRApplications___GetTransitionState::*)()>(
     &::OVR::OpenVR::__IVRApplications___GetTransitionState::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x27d9080;
+  constexpr static std::size_t addrs = 0x27e6838;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2404,7 +2404,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
     ::OVR::OpenVR::__IVRApplications___GetTransitionState::*)(::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::__IVRApplications___GetTransitionState::BeginInvoke)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x27d9094;
+  constexpr static std::size_t addrs = 0x27e684c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2420,7 +2420,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRApplicationTransitionState (::OVR::OpenVR::__IVRApplications___GetTransitionState::*)(
     ::System::IAsyncResult*)>(&::OVR::OpenVR::__IVRApplications___GetTransitionState::EndInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x27d90b4;
+  constexpr static std::size_t addrs = 0x27e686c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2465,7 +2465,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRApplications___PerformApplicationPrelaunchCheck::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRApplications___PerformApplicationPrelaunchCheck::_ctor)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x27d90dc;
+  constexpr static std::size_t addrs = 0x27e6894;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2480,7 +2480,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::__IVRApplications___PerformApplicationPrelaunchCheck::*)(
     ::StringW)>(&::OVR::OpenVR::__IVRApplications___PerformApplicationPrelaunchCheck::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x27d91b0;
+  constexpr static std::size_t addrs = 0x27e6968;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2497,7 +2497,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::IAsyncResult* (::OVR::OpenVR::__IVRApplications___PerformApplicationPrelaunchCheck::*)(::StringW, ::System::AsyncCallback*, ::System::Object*)>(
         &::OVR::OpenVR::__IVRApplications___PerformApplicationPrelaunchCheck::BeginInvoke)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x27d91c4;
+  constexpr static std::size_t addrs = 0x27e697c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2513,7 +2513,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::__IVRApplications___PerformApplicationPrelaunchCheck::*)(
     ::System::IAsyncResult*)>(&::OVR::OpenVR::__IVRApplications___PerformApplicationPrelaunchCheck::EndInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x27d91e4;
+  constexpr static std::size_t addrs = 0x27e699c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2558,7 +2558,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRApplications___GetApplicationsTransitionStateNameFromEnum::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRApplications___GetApplicationsTransitionStateNameFromEnum::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x27d920c;
+  constexpr static std::size_t addrs = 0x27e69c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2575,7 +2575,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void* (::OVR::OpenVR::__IVRApplications___GetApplicationsTransitionStateNameFromEnum::*)(::OVR::OpenVR::EVRApplicationTransitionState)>(
         &::OVR::OpenVR::__IVRApplications___GetApplicationsTransitionStateNameFromEnum::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x27d92d0;
+  constexpr static std::size_t addrs = 0x27e6a88;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2592,7 +2592,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::OVR::OpenVR::__IVRApplications___GetApplicationsTransitionStateNameFromEnum::*)(::OVR::OpenVR::EVRApplicationTransitionState, ::System::AsyncCallback*, ::System::Object*)>(
     &::OVR::OpenVR::__IVRApplications___GetApplicationsTransitionStateNameFromEnum::BeginInvoke)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x27d92e4;
+  constexpr static std::size_t addrs = 0x27e6a9c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2608,7 +2608,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (::OVR::OpenVR::__IVRApplications___GetApplicationsTransitionStateNameFromEnum::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::__IVRApplications___GetApplicationsTransitionStateNameFromEnum::EndInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x27d9368;
+  constexpr static std::size_t addrs = 0x27e6b20;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2655,7 +2655,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRApplications___IsQuitUserPromptRequested::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRApplications___IsQuitUserPromptRequested::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x27d9390;
+  constexpr static std::size_t addrs = 0x27e6b48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2670,7 +2670,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::OVR::OpenVR::__IVRApplications___IsQuitUserPromptRequested::*)()>(
     &::OVR::OpenVR::__IVRApplications___IsQuitUserPromptRequested::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x27d944c;
+  constexpr static std::size_t addrs = 0x27e6c04;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2686,7 +2686,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
     ::OVR::OpenVR::__IVRApplications___IsQuitUserPromptRequested::*)(::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::__IVRApplications___IsQuitUserPromptRequested::BeginInvoke)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x27d9460;
+  constexpr static std::size_t addrs = 0x27e6c18;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2702,7 +2702,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::OVR::OpenVR::__IVRApplications___IsQuitUserPromptRequested::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::__IVRApplications___IsQuitUserPromptRequested::EndInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x27d9480;
+  constexpr static std::size_t addrs = 0x27e6c38;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2747,7 +2747,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRApplications___LaunchInternalProcess::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRApplications___LaunchInternalProcess::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x27d94a8;
+  constexpr static std::size_t addrs = 0x27e6c60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2762,7 +2762,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::__IVRApplications___LaunchInternalProcess::*)(
     ::StringW, ::StringW, ::StringW)>(&::OVR::OpenVR::__IVRApplications___LaunchInternalProcess::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x27d9580;
+  constexpr static std::size_t addrs = 0x27e6d38;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2779,7 +2779,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::IAsyncResult* (::OVR::OpenVR::__IVRApplications___LaunchInternalProcess::*)(::StringW, ::StringW, ::StringW, ::System::AsyncCallback*, ::System::Object*)>(
         &::OVR::OpenVR::__IVRApplications___LaunchInternalProcess::BeginInvoke)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x27d9594;
+  constexpr static std::size_t addrs = 0x27e6d4c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2795,7 +2795,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::__IVRApplications___LaunchInternalProcess::*)(
     ::System::IAsyncResult*)>(&::OVR::OpenVR::__IVRApplications___LaunchInternalProcess::EndInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x27d95c0;
+  constexpr static std::size_t addrs = 0x27e6d78;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2841,7 +2841,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRApplications___GetCurrentSceneProcessId::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRApplications___GetCurrentSceneProcessId::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x27d95e8;
+  constexpr static std::size_t addrs = 0x27e6da0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2856,7 +2856,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::__IVRApplications___GetCurrentSceneProcessId::*)()>(
     &::OVR::OpenVR::__IVRApplications___GetCurrentSceneProcessId::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x27d96a4;
+  constexpr static std::size_t addrs = 0x27e6e5c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2872,7 +2872,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
     ::OVR::OpenVR::__IVRApplications___GetCurrentSceneProcessId::*)(::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::__IVRApplications___GetCurrentSceneProcessId::BeginInvoke)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x27d96b8;
+  constexpr static std::size_t addrs = 0x27e6e70;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2888,7 +2888,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::__IVRApplications___GetCurrentSceneProcessId::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::__IVRApplications___GetCurrentSceneProcessId::EndInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x27d96d8;
+  constexpr static std::size_t addrs = 0x27e6e90;
 
   inline static ::MethodInfo const* methodInfo() {
 

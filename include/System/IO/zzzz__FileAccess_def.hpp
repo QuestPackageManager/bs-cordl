@@ -16,7 +16,7 @@ MARK_VAL_T(::System::IO::FileAccess);
 namespace System::IO {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3559))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3555))
 // CS Name: ::System.IO::FileAccess
 struct CORDL_TYPE FileAccess {
 public:

@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_HandleParamBinding);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9683))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9475))
 // CS Name: ::HEU_HandleParamBinding::HEU_HandleParamType
 struct CORDL_TYPE __HEU_HandleParamBinding__HEU_HandleParamType {
 public:
@@ -83,8 +83,8 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_HandleParamBinding__HEU_Handl
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9683))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9684))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9475))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9476))
 // CS Name: ::HoudiniEngineUnity::HEU_HandleParamBinding*
 class CORDL_TYPE HEU_HandleParamBinding : public ::System::Object {
 public:
@@ -142,12 +142,12 @@ public:
 
   constexpr void __cordl_internal_set__boundChannels(::ArrayW<bool, ::Array<bool>*> value);
 
-  /// @brief Method IsEquivalentTo, addr 0x21917d0, size 0x200, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x22260b4, size 0x200, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_HandleParamBinding* other);
 
   static inline ::HoudiniEngineUnity::HEU_HandleParamBinding* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21908b0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2225194, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_HandleParamBinding", modifiers: "&&", def_value: None }]

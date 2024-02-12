@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::UnityEngine::RequireComponent);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10214))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8958))
 // CS Name: ::UnityEngine::RequireComponent*
 class CORDL_TYPE RequireComponent : public ::System::Attribute {
 public:
@@ -52,12 +52,12 @@ public:
 
   static inline ::UnityEngine::RequireComponent* New_ctor(::System::Type* requiredComponent);
 
-  /// @brief Method .ctor, addr 0x2cd276c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cd9714, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* requiredComponent);
 
   static inline ::UnityEngine::RequireComponent* New_ctor(::System::Type* requiredComponent, ::System::Type* requiredComponent2);
 
-  /// @brief Method .ctor, addr 0x2cd2794, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cd973c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* requiredComponent, ::System::Type* requiredComponent2);
 
   // Ctor Parameters [CppParam { name: "", ty: "RequireComponent", modifiers: "&&", def_value: None }]

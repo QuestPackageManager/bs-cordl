@@ -30,18 +30,18 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::__HeartbeatMessage__PayloadBuff
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3566))]
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3562))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1248))
 // CS Name: ::HeartbeatMessage::PayloadBuffer*
 class CORDL_TYPE __HeartbeatMessage__PayloadBuffer : public ::System::IO::MemoryStream {
 public:
   // Declarations
-  /// @brief Method ToTruncatedByteArray, addr 0xf91dec, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method ToTruncatedByteArray, addr 0xfbdc7c, size 0xa8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ToTruncatedByteArray(int32_t payloadLength);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::__HeartbeatMessage__PayloadBuffer* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf91de4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfbdc74, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__HeartbeatMessage__PayloadBuffer", modifiers: "&&", def_value: None }]
@@ -105,13 +105,13 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::HeartbeatMessage* New_ctor(uint8_t type, ::ArrayW<uint8_t, ::Array<uint8_t>*> payload, int32_t paddingLength);
 
-  /// @brief Method .ctor, addr 0xf918dc, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfbd76c, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(uint8_t type, ::ArrayW<uint8_t, ::Array<uint8_t>*> payload, int32_t paddingLength);
 
-  /// @brief Method Encode, addr 0xf91a20, size 0x1fc, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0xfbd8b0, size 0x1fc, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::System::IO::Stream* output);
 
-  /// @brief Method Parse, addr 0xf91c1c, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0xfbdaac, size 0x1c8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Tls::HeartbeatMessage* Parse(::System::IO::Stream* input);
 
   // Ctor Parameters [CppParam { name: "", ty: "HeartbeatMessage", modifiers: "&&", def_value: None }]

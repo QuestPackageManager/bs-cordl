@@ -45,19 +45,19 @@ public:
 
   static inline ::System::Runtime::Remoting::TypeEntry* New_ctor();
 
-  /// @brief Method .ctor, addr 0x249562c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24b76a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AssemblyName, addr 0x2495634, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AssemblyName, addr 0x24b76a8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_AssemblyName();
 
-  /// @brief Method set_AssemblyName, addr 0x249563c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AssemblyName, addr 0x24b76b0, size 0x8, virtual false, abstract: false, final false
   inline void set_AssemblyName(::StringW value);
 
-  /// @brief Method get_TypeName, addr 0x2495644, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TypeName, addr 0x24b76b8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_TypeName();
 
-  /// @brief Method set_TypeName, addr 0x249564c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_TypeName, addr 0x24b76c0, size 0x8, virtual false, abstract: false, final false
   inline void set_TypeName(::StringW value);
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeEntry", modifiers: "&&", def_value: None }]

@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::BezierShape);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12104))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12002))
 // CS Name: ::UnityEngine.ProBuilder::BezierShape*
 class CORDL_TYPE BezierShape : public ::UnityEngine::MonoBehaviour {
 public:
@@ -107,27 +107,27 @@ public:
 
   constexpr void __cordl_internal_set_m_Mesh(::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> value);
 
-  /// @brief Method get_isEditing, addr 0x2b3812c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isEditing, addr 0x2b36c98, size 0x8, virtual false, abstract: false, final false
   inline bool get_isEditing();
 
-  /// @brief Method set_isEditing, addr 0x2b38134, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isEditing, addr 0x2b36ca0, size 0xc, virtual false, abstract: false, final false
   inline void set_isEditing(bool value);
 
-  /// @brief Method get_mesh, addr 0x2b38140, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_mesh, addr 0x2b36cac, size 0x94, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> get_mesh();
 
-  /// @brief Method set_mesh, addr 0x2b381d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_mesh, addr 0x2b36d40, size 0x8, virtual false, abstract: false, final false
   inline void set_mesh(::UnityEngine::ProBuilder::ProBuilderMesh* value);
 
-  /// @brief Method Init, addr 0x2b381dc, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2b36d48, size 0x260, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method Refresh, addr 0x2b3843c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x2b36fa8, size 0xc0, virtual false, abstract: false, final false
   inline void Refresh();
 
   static inline ::UnityEngine::ProBuilder::BezierShape* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2b384fc, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b37068, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BezierShape", modifiers: "&&", def_value: None }]

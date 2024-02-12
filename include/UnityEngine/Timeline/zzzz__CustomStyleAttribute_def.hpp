@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::CustomStyleAttribute);
 namespace UnityEngine::Timeline {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13925))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13878))
 // CS Name: ::UnityEngine.Timeline::CustomStyleAttribute*
 class CORDL_TYPE CustomStyleAttribute : public ::System::Attribute {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::UnityEngine::Timeline::CustomStyleAttribute* New_ctor(::StringW ussStyle);
 
-  /// @brief Method .ctor, addr 0x2c6e7a0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c6b30c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW ussStyle);
 
   // Ctor Parameters [CppParam { name: "", ty: "CustomStyleAttribute", modifiers: "&&", def_value: None }]

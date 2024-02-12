@@ -47,15 +47,15 @@ public:
 
   constexpr void __cordl_internal_set_param(::Org::BouncyCastle::Crypto::Parameters::Gost3410KeyGenerationParameters* value);
 
-  /// @brief Method Init, addr 0xefa688, size 0x120, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0xf25518, size 0x120, virtual true, abstract: false, final true
   inline void Init(::Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
 
-  /// @brief Method GenerateKeyPair, addr 0xefa7a8, size 0x224, virtual true, abstract: false, final true
+  /// @brief Method GenerateKeyPair, addr 0xf25638, size 0x224, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GenerateKeyPair();
 
   static inline ::Org::BouncyCastle::Crypto::Generators::Gost3410KeyPairGenerator* New_ctor();
 
-  /// @brief Method .ctor, addr 0xefa9cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf2585c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Gost3410KeyPairGenerator", modifiers: "&&", def_value: None }]

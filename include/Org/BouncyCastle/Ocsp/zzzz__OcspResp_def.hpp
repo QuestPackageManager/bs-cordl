@@ -47,37 +47,37 @@ public:
 
   static inline ::Org::BouncyCastle::Ocsp::OcspResp* New_ctor(::Org::BouncyCastle::Asn1::Ocsp::OcspResponse* resp);
 
-  /// @brief Method .ctor, addr 0x10a1d20, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10cebb0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Ocsp::OcspResponse* resp);
 
   static inline ::Org::BouncyCastle::Ocsp::OcspResp* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> resp);
 
-  /// @brief Method .ctor, addr 0x10a1d48, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10cebd8, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> resp);
 
   static inline ::Org::BouncyCastle::Ocsp::OcspResp* New_ctor(::System::IO::Stream* inStr);
 
-  /// @brief Method .ctor, addr 0x10a1ef4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10ced84, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* inStr);
 
   static inline ::Org::BouncyCastle::Ocsp::OcspResp* New_ctor(::Org::BouncyCastle::Asn1::Asn1InputStream* aIn);
 
-  /// @brief Method .ctor, addr 0x10a1dbc, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10cec4c, size 0x138, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1InputStream* aIn);
 
-  /// @brief Method get_Status, addr 0x10a1f68, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_Status, addr 0x10cedf8, size 0x24, virtual false, abstract: false, final false
   inline int32_t get_Status();
 
-  /// @brief Method GetResponseObject, addr 0x10a1f8c, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method GetResponseObject, addr 0x10cee1c, size 0x1d4, virtual false, abstract: false, final false
   inline ::System::Object* GetResponseObject();
 
-  /// @brief Method GetEncoded, addr 0x10a2160, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x10ceff0, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
-  /// @brief Method Equals, addr 0x10a217c, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x10cf00c, size 0xb0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x10a222c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x10cf0bc, size 0x1c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "OcspResp", modifiers: "&&", def_value: None }]

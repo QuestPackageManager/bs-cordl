@@ -56,21 +56,21 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf664d4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf90364, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier* New_ctor(::System::Collections::IList* groups);
 
-  /// @brief Method .ctor, addr 0xf66540, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf903d0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IList* groups);
 
-  /// @brief Method Accept, addr 0xf66568, size 0x358, virtual true, abstract: false, final false
+  /// @brief Method Accept, addr 0xf903f8, size 0x358, virtual true, abstract: false, final false
   inline bool Accept(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* group);
 
-  /// @brief Method AreGroupsEqual, addr 0xf668c0, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method AreGroupsEqual, addr 0xf90750, size 0x78, virtual true, abstract: false, final false
   inline bool AreGroupsEqual(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* a, ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* b);
 
-  /// @brief Method AreParametersEqual, addr 0xf66938, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method AreParametersEqual, addr 0xf907c8, size 0x3c, virtual true, abstract: false, final false
   inline bool AreParametersEqual(::Org::BouncyCastle::Math::BigInteger* a, ::Org::BouncyCastle::Math::BigInteger* b);
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultTlsSrpGroupVerifier", modifiers: "&&", def_value: None }]

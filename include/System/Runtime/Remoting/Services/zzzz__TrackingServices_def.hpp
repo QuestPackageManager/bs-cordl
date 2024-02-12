@@ -36,13 +36,13 @@ public:
 
   static inline ::System::Collections::ArrayList* getStaticF__handlers();
 
-  /// @brief Method NotifyMarshaledObject, addr 0x2495d00, size 0x310, virtual false, abstract: false, final false
+  /// @brief Method NotifyMarshaledObject, addr 0x24b7d74, size 0x310, virtual false, abstract: false, final false
   static inline void NotifyMarshaledObject(::System::Object* obj, ::System::Runtime::Remoting::ObjRef* _cordl_or);
 
-  /// @brief Method NotifyUnmarshaledObject, addr 0x2496010, size 0x310, virtual false, abstract: false, final false
+  /// @brief Method NotifyUnmarshaledObject, addr 0x24b8084, size 0x310, virtual false, abstract: false, final false
   static inline void NotifyUnmarshaledObject(::System::Object* obj, ::System::Runtime::Remoting::ObjRef* _cordl_or);
 
-  /// @brief Method NotifyDisconnectedObject, addr 0x249345c, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method NotifyDisconnectedObject, addr 0x24b54d0, size 0x304, virtual false, abstract: false, final false
   static inline void NotifyDisconnectedObject(::System::Object* obj);
 
   // Ctor Parameters [CppParam { name: "", ty: "TrackingServices", modifiers: "&&", def_value: None }]

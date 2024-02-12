@@ -46,7 +46,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__LightmapLightWithIdsGroupEntry__LightIntensi
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14538))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14432))
 // CS Name: ::LightmapLightWithIdsGroupEntry::GroupLightData*
 class CORDL_TYPE __LightmapLightWithIdsGroupEntry__GroupLightData : public ::System::Object {
 public:
@@ -85,19 +85,19 @@ public:
 
   constexpr void __cordl_internal_set__groupProbeHighlightsIntensityMultiplier(float_t value);
 
-  /// @brief Method get_lightGroup, addr 0x2110164, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightGroup, addr 0x21a490c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::LightGroupSO> get_lightGroup();
 
-  /// @brief Method get_groupIntensity, addr 0x211016c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_groupIntensity, addr 0x21a4914, size 0x8, virtual false, abstract: false, final false
   inline float_t get_groupIntensity();
 
-  /// @brief Method get_groupProbeHighlightsIntensityMultiplier, addr 0x2110174, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_groupProbeHighlightsIntensityMultiplier, addr 0x21a491c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_groupProbeHighlightsIntensityMultiplier();
 
   static inline ::GlobalNamespace::__LightmapLightWithIdsGroupEntry__GroupLightData* New_ctor(::GlobalNamespace::LightGroupSO* lightGroup, float_t groupIntensity,
                                                                                               float_t groupProbeHighlightsIntensityMultiplier);
 
-  /// @brief Method .ctor, addr 0x211017c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21a4924, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::LightGroupSO* lightGroup, float_t groupIntensity, float_t groupProbeHighlightsIntensityMultiplier);
 
   // Ctor Parameters [CppParam { name: "", ty: "__LightmapLightWithIdsGroupEntry__GroupLightData", modifiers: "&&", def_value: None }]
@@ -140,7 +140,7 @@ static_assert(offsetof(::GlobalNamespace::__LightmapLightWithIdsGroupEntry__Grou
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14539))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14433))
 // CS Name: ::LightmapLightWithIdsGroupEntry::LightIntensitiesWithId*
 class CORDL_TYPE __LightmapLightWithIdsGroupEntry__LightIntensitiesWithId : public ::System::Object {
 public:
@@ -178,18 +178,18 @@ public:
 
   constexpr void __cordl_internal_set__probeHighlightsIntensityMultiplier(float_t value);
 
-  /// @brief Method get_lightId, addr 0x21101b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightId, addr 0x21a4960, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_lightId();
 
-  /// @brief Method get_intensity, addr 0x21101c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_intensity, addr 0x21a4968, size 0x8, virtual false, abstract: false, final false
   inline float_t get_intensity();
 
-  /// @brief Method get_probeHighlightsIntensityMultiplier, addr 0x21101c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_probeHighlightsIntensityMultiplier, addr 0x21a4970, size 0x8, virtual false, abstract: false, final false
   inline float_t get_probeHighlightsIntensityMultiplier();
 
   static inline ::GlobalNamespace::__LightmapLightWithIdsGroupEntry__LightIntensitiesWithId* New_ctor(int32_t lightId, float_t intensity, float_t probeHighlightsIntensityMultiplier);
 
-  /// @brief Method .ctor, addr 0x21101d0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21a4978, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(int32_t lightId, float_t intensity, float_t probeHighlightsIntensityMultiplier);
 
   // Ctor Parameters [CppParam { name: "", ty: "__LightmapLightWithIdsGroupEntry__LightIntensitiesWithId", modifiers: "&&", def_value: None }]
@@ -231,8 +231,8 @@ static_assert(offsetof(::GlobalNamespace::__LightmapLightWithIdsGroupEntry__Ligh
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14522))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14540))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(14416))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14434))
 // CS Name: ::LightmapLightWithIdsGroupEntry*
 class CORDL_TYPE LightmapLightWithIdsGroupEntry : public ::UnityEngine::MonoBehaviour {
 public:
@@ -299,21 +299,21 @@ public:
 
   constexpr void __cordl_internal_set__groupLightsWeighting(::GlobalNamespace::ColorMixAndWeightingApproach value);
 
-  /// @brief Method get_lightmapLightWithIds, addr 0x211013c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightmapLightWithIds, addr 0x21a48e4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::LightmapLightWithIds> get_lightmapLightWithIds();
 
-  /// @brief Method get_groupLightData, addr 0x2110144, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_groupLightData, addr 0x21a48ec, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::__LightmapLightWithIdsGroupEntry__GroupLightData*>* get_groupLightData();
 
-  /// @brief Method get_individualLightData, addr 0x211014c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_individualLightData, addr 0x21a48f4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::__LightmapLightWithIdsGroupEntry__LightIntensitiesWithId*>* get_individualLightData();
 
-  /// @brief Method get_groupLightsWeighting, addr 0x2110154, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_groupLightsWeighting, addr 0x21a48fc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorMixAndWeightingApproach get_groupLightsWeighting();
 
   static inline ::GlobalNamespace::LightmapLightWithIdsGroupEntry* New_ctor();
 
-  /// @brief Method .ctor, addr 0x211015c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21a4904, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LightmapLightWithIdsGroupEntry", modifiers: "&&", def_value: None }]

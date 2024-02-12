@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::LogOption);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10037))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8769))
 // CS Name: ::UnityEngine::LogOption
 struct CORDL_TYPE LogOption {
 public:

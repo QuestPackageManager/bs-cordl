@@ -26,8 +26,8 @@ namespace UnityEngine::Events {
 // cpp template
 template <typename T1, typename T2>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10450))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10453))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9219))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9222))
 // CS Name: ::UnityEngine.Events::InvokableCall`2<T1,T2>*
 class CORDL_TYPE InvokableCall_2 : public ::UnityEngine::Events::BaseInvokableCall {
 public:

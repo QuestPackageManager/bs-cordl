@@ -71,70 +71,70 @@ public:
 
   static inline ::ArrayW<::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::Array<::Org::BouncyCastle::Asn1::DerObjectIdentifier*>*> getStaticF_cache();
 
-  /// @brief Method GetInstance, addr 0x10742e0, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x10a1170, size 0x1d8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetInstance, addr 0x1087fdc, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x10b4e6c, size 0xe8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* New_ctor(::StringW identifier);
 
-  /// @brief Method .ctor, addr 0x106aa7c, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x109790c, size 0x138, virtual false, abstract: false, final false
   inline void _ctor(::StringW identifier);
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::StringW branchID);
 
-  /// @brief Method .ctor, addr 0x108817c, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10b500c, size 0x138, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::StringW branchID);
 
-  /// @brief Method get_Id, addr 0x10883a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Id, addr 0x10b5234, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Id();
 
-  /// @brief Method Branch, addr 0x10883ac, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method Branch, addr 0x10b523c, size 0x70, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* Branch(::StringW branchID);
 
-  /// @brief Method On, addr 0x108841c, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method On, addr 0x10b52ac, size 0xb0, virtual true, abstract: false, final false
   inline bool On(::Org::BouncyCastle::Asn1::DerObjectIdentifier* stem);
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method .ctor, addr 0x10884cc, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10b535c, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method WriteField, addr 0x10887d0, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method WriteField, addr 0x10b5660, size 0xe0, virtual false, abstract: false, final false
   inline void WriteField(::System::IO::Stream* outputStream, int64_t fieldValue);
 
-  /// @brief Method WriteField, addr 0x10888b0, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method WriteField, addr 0x10b5740, size 0x17c, virtual false, abstract: false, final false
   inline void WriteField(::System::IO::Stream* outputStream, ::Org::BouncyCastle::Math::BigInteger* fieldValue);
 
-  /// @brief Method DoOutput, addr 0x1088a2c, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method DoOutput, addr 0x10b58bc, size 0x1b4, virtual false, abstract: false, final false
   inline void DoOutput(::System::IO::MemoryStream* bOut);
 
-  /// @brief Method GetBody, addr 0x1088be0, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetBody, addr 0x10b5a70, size 0x114, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBody();
 
-  /// @brief Method Encode, addr 0x1088cf4, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x10b5b84, size 0x2c, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
-  /// @brief Method Asn1GetHashCode, addr 0x1088d20, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method Asn1GetHashCode, addr 0x10b5bb0, size 0x1c, virtual true, abstract: false, final false
   inline int32_t Asn1GetHashCode();
 
-  /// @brief Method Asn1Equals, addr 0x1088d3c, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Asn1Equals, addr 0x10b5bcc, size 0xa0, virtual true, abstract: false, final false
   inline bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
 
-  /// @brief Method ToString, addr 0x1088ddc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x10b5c6c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method IsValidBranchID, addr 0x10882b4, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method IsValidBranchID, addr 0x10b5144, size 0xf0, virtual false, abstract: false, final false
   static inline bool IsValidBranchID(::StringW branchID, int32_t start);
 
-  /// @brief Method IsValidIdentifier, addr 0x10880c4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method IsValidIdentifier, addr 0x10b4f54, size 0xb8, virtual false, abstract: false, final false
   static inline bool IsValidIdentifier(::StringW identifier);
 
-  /// @brief Method MakeOidStringFromBytes, addr 0x1088578, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method MakeOidStringFromBytes, addr 0x10b5408, size 0x258, virtual false, abstract: false, final false
   static inline ::StringW MakeOidStringFromBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method FromOctetString, addr 0x1087da4, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method FromOctetString, addr 0x10b4c34, size 0x238, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* FromOctetString(::ArrayW<uint8_t, ::Array<uint8_t>*> enc);
 
   // Ctor Parameters [CppParam { name: "", ty: "DerObjectIdentifier", modifiers: "&&", def_value: None }]

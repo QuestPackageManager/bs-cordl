@@ -105,7 +105,7 @@ MARK_REF_PTR_T(::System::Net::__TimerThread__TimerQueue);
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9110))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7120))
 // CS Name: ::TimerThread::Queue*
 class CORDL_TYPE __TimerThread__Queue : public ::System::Object {
 public:
@@ -123,10 +123,10 @@ public:
 
   static inline ::System::Net::__TimerThread__Queue* New_ctor(int32_t durationMilliseconds);
 
-  /// @brief Method .ctor, addr 0x29aa210, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29aecb4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t durationMilliseconds);
 
-  /// @brief Method get_Duration, addr 0x29aa238, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Duration, addr 0x29aecdc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Duration();
 
   /// @brief Method CreateTimer, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -162,7 +162,7 @@ static_assert(offsetof(::System::Net::__TimerThread__Queue, ___m_DurationMillise
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9111))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7121))
 // CS Name: ::TimerThread::Timer*
 class CORDL_TYPE __TimerThread__Timer : public ::System::Object {
 public:
@@ -199,13 +199,13 @@ public:
 
   static inline ::System::Net::__TimerThread__Timer* New_ctor(int32_t durationMilliseconds);
 
-  /// @brief Method .ctor, addr 0x29aa240, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29aece4, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t durationMilliseconds);
 
-  /// @brief Method get_StartTime, addr 0x29aa274, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StartTime, addr 0x29aed18, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_StartTime();
 
-  /// @brief Method get_Expiration, addr 0x29aa27c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Expiration, addr 0x29aed20, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_Expiration();
 
   /// @brief Method Cancel, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -214,7 +214,7 @@ public:
   /// @brief Method get_HasExpired, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_HasExpired();
 
-  /// @brief Method Dispose, addr 0x29aa288, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x29aed2c, size 0xc, virtual true, abstract: false, final true
   inline void Dispose();
 
   // Ctor Parameters [CppParam { name: "", ty: "__TimerThread__Timer", modifiers: "&&", def_value: None }]
@@ -252,17 +252,17 @@ static_assert(offsetof(::System::Net::__TimerThread__Timer, ___m_DurationMillise
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9112))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7122))
 // CS Name: ::TimerThread::Callback*
 class CORDL_TYPE __TimerThread__Callback : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::System::Net::__TimerThread__Callback* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x29aa294, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29aed38, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x29aa3c4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x29aee68, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Net::__TimerThread__Timer* timer, int32_t timeNoticed, ::System::Object* context);
 
   // Ctor Parameters [CppParam { name: "", ty: "__TimerThread__Callback", modifiers: "&&", def_value: None }]
@@ -289,8 +289,8 @@ static_assert(::cordl_internals::size_check_v<::System::Net::__TimerThread__Call
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(9110))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9113))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(7120))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7123))
 // CS Name: ::TimerThread::TimerQueue*
 class CORDL_TYPE __TimerThread__TimerQueue : public ::System::Net::__TimerThread__Queue {
 public:
@@ -315,13 +315,13 @@ public:
 
   static inline ::System::Net::__TimerThread__TimerQueue* New_ctor(int32_t durationMilliseconds);
 
-  /// @brief Method .ctor, addr 0x29a8bcc, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29ad670, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(int32_t durationMilliseconds);
 
-  /// @brief Method CreateTimer, addr 0x29aa408, size 0x20c, virtual true, abstract: false, final false
+  /// @brief Method CreateTimer, addr 0x29aeeac, size 0x20c, virtual true, abstract: false, final false
   inline ::System::Net::__TimerThread__Timer* CreateTimer(::System::Net::__TimerThread__Callback* callback, ::System::Object* context);
 
-  /// @brief Method Fire, addr 0x29a9edc, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method Fire, addr 0x29ae980, size 0x1d0, virtual false, abstract: false, final false
   inline bool Fire(ByRef<int32_t> nextExpiration);
 
   // Ctor Parameters [CppParam { name: "", ty: "__TimerThread__TimerQueue", modifiers: "&&", def_value: None }]
@@ -358,18 +358,18 @@ static_assert(offsetof(::System::Net::__TimerThread__TimerQueue, ___m_Timers) ==
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9110))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9114))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7120))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7124))
 // CS Name: ::TimerThread::InfiniteTimerQueue*
 class CORDL_TYPE __TimerThread__InfiniteTimerQueue : public ::System::Net::__TimerThread__Queue {
 public:
   // Declarations
   static inline ::System::Net::__TimerThread__InfiniteTimerQueue* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29a8bac, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29ad650, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateTimer, addr 0x29aa8e8, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method CreateTimer, addr 0x29af38c, size 0x70, virtual true, abstract: false, final false
   inline ::System::Net::__TimerThread__Timer* CreateTimer(::System::Net::__TimerThread__Callback* callback, ::System::Object* context);
 
   // Ctor Parameters [CppParam { name: "", ty: "__TimerThread__InfiniteTimerQueue", modifiers: "&&", def_value: None }]
@@ -397,7 +397,7 @@ static_assert(::cordl_internals::size_check_v<::System::Net::__TimerThread__Infi
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9115))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7125))
 // CS Name: ::TimerThread::TimerNode::TimerState
 struct CORDL_TYPE __TimerThread__TimerNode__TimerState {
 public:
@@ -454,8 +454,8 @@ static_assert(offsetof(::GlobalNamespace::__TimerThread__TimerNode__TimerState, 
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9111)), TypeDefinitionIndex(TypeDefinitionIndex(9115))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9116))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7121)), TypeDefinitionIndex(TypeDefinitionIndex(7125))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7126))
 // CS Name: ::TimerThread::TimerNode*
 class CORDL_TYPE __TimerThread__TimerNode : public ::System::Net::__TimerThread__Timer {
 public:
@@ -525,33 +525,33 @@ public:
   static inline ::System::Net::__TimerThread__TimerNode* New_ctor(::System::Net::__TimerThread__Callback* callback, ::System::Object* context, int32_t durationMilliseconds,
                                                                   ::System::Object* queueLock);
 
-  /// @brief Method .ctor, addr 0x29aa614, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29af0b8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::__TimerThread__Callback* callback, ::System::Object* context, int32_t durationMilliseconds, ::System::Object* queueLock);
 
   static inline ::System::Net::__TimerThread__TimerNode* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29aa3d8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29aee7c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_HasExpired, addr 0x29aa984, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method get_HasExpired, addr 0x29af428, size 0x10, virtual true, abstract: false, final false
   inline bool get_HasExpired();
 
-  /// @brief Method get_Next, addr 0x29aa994, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Next, addr 0x29af438, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::__TimerThread__TimerNode* get_Next();
 
-  /// @brief Method set_Next, addr 0x29aa99c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Next, addr 0x29af440, size 0x8, virtual false, abstract: false, final false
   inline void set_Next(::System::Net::__TimerThread__TimerNode* value);
 
-  /// @brief Method get_Prev, addr 0x29aa9a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Prev, addr 0x29af448, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::__TimerThread__TimerNode* get_Prev();
 
-  /// @brief Method set_Prev, addr 0x29aa9ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Prev, addr 0x29af450, size 0x8, virtual false, abstract: false, final false
   inline void set_Prev(::System::Net::__TimerThread__TimerNode* value);
 
-  /// @brief Method Cancel, addr 0x29aa9b4, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method Cancel, addr 0x29af458, size 0x138, virtual true, abstract: false, final false
   inline bool Cancel();
 
-  /// @brief Method Fire, addr 0x29aa66c, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method Fire, addr 0x29af110, size 0x27c, virtual false, abstract: false, final false
   inline bool Fire();
 
   // Ctor Parameters [CppParam { name: "", ty: "__TimerThread__TimerNode", modifiers: "&&", def_value: None }]
@@ -608,8 +608,8 @@ static_assert(offsetof(::System::Net::__TimerThread__TimerNode, ___prev) == 0x40
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9111))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9117))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7121))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7127))
 // CS Name: ::TimerThread::InfiniteTimer*
 class CORDL_TYPE __TimerThread__InfiniteTimer : public ::System::Net::__TimerThread__Timer {
 public:
@@ -627,13 +627,13 @@ public:
 
   static inline ::System::Net::__TimerThread__InfiniteTimer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29aa958, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29af3fc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_HasExpired, addr 0x29aaaec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_HasExpired, addr 0x29af590, size 0x8, virtual true, abstract: false, final false
   inline bool get_HasExpired();
 
-  /// @brief Method Cancel, addr 0x29aaaf4, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Cancel, addr 0x29af598, size 0x24, virtual true, abstract: false, final false
   inline bool Cancel();
 
   // Ctor Parameters [CppParam { name: "", ty: "__TimerThread__InfiniteTimer", modifiers: "&&", def_value: None }]
@@ -666,7 +666,7 @@ static_assert(offsetof(::System::Net::__TimerThread__InfiniteTimer, ___cancelled
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9118))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7128))
 // CS Name: ::System.Net::TimerThread*
 class CORDL_TYPE TimerThread : public ::System::Object {
 public:
@@ -741,25 +741,25 @@ public:
 
   static inline ::System::Collections::Hashtable* getStaticF_s_QueuesCache();
 
-  /// @brief Method CreateQueue, addr 0x29a4204, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method CreateQueue, addr 0x29a8ca8, size 0x264, virtual false, abstract: false, final false
   static inline ::System::Net::__TimerThread__Queue* CreateQueue(int32_t durationMilliseconds);
 
-  /// @brief Method GetOrCreateQueue, addr 0x29a8c64, size 0x99c, virtual false, abstract: false, final false
+  /// @brief Method GetOrCreateQueue, addr 0x29ad708, size 0x99c, virtual false, abstract: false, final false
   static inline ::System::Net::__TimerThread__Queue* GetOrCreateQueue(int32_t durationMilliseconds);
 
-  /// @brief Method Prod, addr 0x29a9600, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method Prod, addr 0x29ae0a4, size 0x114, virtual false, abstract: false, final false
   static inline void Prod();
 
-  /// @brief Method ThreadProc, addr 0x29a9714, size 0x7c8, virtual false, abstract: false, final false
+  /// @brief Method ThreadProc, addr 0x29ae1b8, size 0x7c8, virtual false, abstract: false, final false
   static inline void ThreadProc();
 
-  /// @brief Method StopTimerThread, addr 0x29aa0d0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method StopTimerThread, addr 0x29aeb74, size 0x7c, virtual false, abstract: false, final false
   static inline void StopTimerThread();
 
-  /// @brief Method IsTickBetween, addr 0x29aa0ac, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IsTickBetween, addr 0x29aeb50, size 0x24, virtual false, abstract: false, final false
   static inline bool IsTickBetween(int32_t start, int32_t end, int32_t comparand);
 
-  /// @brief Method OnDomainUnload, addr 0x29aa14c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method OnDomainUnload, addr 0x29aebf0, size 0xc4, virtual false, abstract: false, final false
   static inline void OnDomainUnload(::System::Object* sender, ::System::EventArgs* e);
 
   // Ctor Parameters [CppParam { name: "", ty: "TimerThread", modifiers: "&&", def_value: None }]

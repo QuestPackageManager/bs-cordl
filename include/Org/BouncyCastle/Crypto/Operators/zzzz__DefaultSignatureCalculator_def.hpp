@@ -54,13 +54,13 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Operators::DefaultSignatureCalculator* New_ctor(::Org::BouncyCastle::Crypto::ISigner* signer);
 
-  /// @brief Method .ctor, addr 0xf2ccb0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf57b40, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::ISigner* signer);
 
-  /// @brief Method get_Stream, addr 0xf2dd04, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Stream, addr 0xf58b94, size 0x8, virtual true, abstract: false, final true
   inline ::System::IO::Stream* get_Stream();
 
-  /// @brief Method GetResult, addr 0xf2dd0c, size 0x84, virtual true, abstract: false, final true
+  /// @brief Method GetResult, addr 0xf58b9c, size 0x84, virtual true, abstract: false, final true
   inline ::System::Object* GetResult();
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultSignatureCalculator", modifiers: "&&", def_value: None }]

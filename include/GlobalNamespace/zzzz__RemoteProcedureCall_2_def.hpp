@@ -29,8 +29,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T0, typename T1>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12936))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12938))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12834))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12836))
 // CS Name: ::RemoteProcedureCall`2<T0,T1>*
 class CORDL_TYPE RemoteProcedureCall_2 : public ::GlobalNamespace::RemoteProcedureCall {
 public:

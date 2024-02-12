@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::System::ComponentModel::IContainer);
 namespace System::ComponentModel {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9396))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7406))
 // CS Name: ::System.ComponentModel::IContainer*
 class CORDL_TYPE IContainer {
 public:

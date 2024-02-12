@@ -34,7 +34,7 @@ MARK_VAL_T(::UnityEngine::__GUIClip__ParentClipScope);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14599))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14604))
 // CS Name: ::GUIClip::ParentClipScope
 struct CORDL_TYPE __GUIClip__ParentClipScope {
 public:
@@ -45,10 +45,10 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable();
 
-  /// @brief Method .ctor, addr 0x2cfe48c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d09d78, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Matrix4x4 objectTransform, ::UnityEngine::Rect clipRect);
 
-  /// @brief Method Dispose, addr 0x2cfe4e0, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2d09dcc, size 0x40, virtual true, abstract: false, final true
   inline void Dispose();
 
   // Ctor Parameters [CppParam { name: "m_Disposed", ty: "bool", modifiers: "", def_value: None }]
@@ -77,47 +77,47 @@ static_assert(offsetof(::UnityEngine::__GUIClip__ParentClipScope, m_Disposed) ==
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14600))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14605))
 // CS Name: ::UnityEngine::GUIClip*
 class CORDL_TYPE GUIClip : public ::System::Object {
 public:
   // Declarations
   using ParentClipScope = ::UnityEngine::__GUIClip__ParentClipScope;
 
-  /// @brief Method get_visibleRect, addr 0x2cfd19c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_visibleRect, addr 0x2d08a88, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rect get_visibleRect();
 
-  /// @brief Method Internal_Pop, addr 0x2cfe2ac, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Internal_Pop, addr 0x2d09b98, size 0x28, virtual false, abstract: false, final false
   static inline void Internal_Pop();
 
-  /// @brief Method Internal_GetCount, addr 0x2cfe2d4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetCount, addr 0x2d09bc0, size 0x28, virtual false, abstract: false, final false
   static inline int32_t Internal_GetCount();
 
-  /// @brief Method GetMatrix, addr 0x2cfc8ec, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetMatrix, addr 0x2d081d8, size 0x64, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 GetMatrix();
 
-  /// @brief Method SetMatrix, addr 0x2cfc99c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetMatrix, addr 0x2d08288, size 0x3c, virtual false, abstract: false, final false
   static inline void SetMatrix(::UnityEngine::Matrix4x4 m);
 
-  /// @brief Method Internal_PushParentClip, addr 0x2cfe374, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Internal_PushParentClip, addr 0x2d09c60, size 0x40, virtual false, abstract: false, final false
   static inline void Internal_PushParentClip(::UnityEngine::Matrix4x4 objectTransform, ::UnityEngine::Rect clipRect);
 
-  /// @brief Method Internal_PushParentClip, addr 0x2cfe3b4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Internal_PushParentClip, addr 0x2d09ca0, size 0x5c, virtual false, abstract: false, final false
   static inline void Internal_PushParentClip(::UnityEngine::Matrix4x4 renderTransform, ::UnityEngine::Matrix4x4 inputTransform, ::UnityEngine::Rect clipRect);
 
-  /// @brief Method Internal_PopParentClip, addr 0x2cfe464, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Internal_PopParentClip, addr 0x2d09d50, size 0x28, virtual false, abstract: false, final false
   static inline void Internal_PopParentClip();
 
-  /// @brief Method get_visibleRect_Injected, addr 0x2cfe270, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_visibleRect_Injected, addr 0x2d09b5c, size 0x3c, virtual false, abstract: false, final false
   static inline void get_visibleRect_Injected(ByRef<::UnityEngine::Rect> ret);
 
-  /// @brief Method GetMatrix_Injected, addr 0x2cfe2fc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetMatrix_Injected, addr 0x2d09be8, size 0x3c, virtual false, abstract: false, final false
   static inline void GetMatrix_Injected(ByRef<::UnityEngine::Matrix4x4> ret);
 
-  /// @brief Method SetMatrix_Injected, addr 0x2cfe338, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetMatrix_Injected, addr 0x2d09c24, size 0x3c, virtual false, abstract: false, final false
   static inline void SetMatrix_Injected(ByRef<::UnityEngine::Matrix4x4> m);
 
-  /// @brief Method Internal_PushParentClip_Injected, addr 0x2cfe410, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Internal_PushParentClip_Injected, addr 0x2d09cfc, size 0x54, virtual false, abstract: false, final false
   static inline void Internal_PushParentClip_Injected(ByRef<::UnityEngine::Matrix4x4> renderTransform, ByRef<::UnityEngine::Matrix4x4> inputTransform, ByRef<::UnityEngine::Rect> clipRect);
 
   // Ctor Parameters [CppParam { name: "", ty: "GUIClip", modifiers: "&&", def_value: None }]

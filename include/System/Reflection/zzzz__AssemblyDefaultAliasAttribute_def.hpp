@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::System::Reflection::AssemblyDefaultAliasAttribute);
 namespace System::Reflection {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3448))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3444))
 // CS Name: ::System.Reflection::AssemblyDefaultAliasAttribute*
 class CORDL_TYPE AssemblyDefaultAliasAttribute : public ::System::Attribute {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::System::Reflection::AssemblyDefaultAliasAttribute* New_ctor(::StringW defaultAlias);
 
-  /// @brief Method .ctor, addr 0x24e5ef8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2505050, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW defaultAlias);
 
   // Ctor Parameters [CppParam { name: "", ty: "AssemblyDefaultAliasAttribute", modifiers: "&&", def_value: None }]

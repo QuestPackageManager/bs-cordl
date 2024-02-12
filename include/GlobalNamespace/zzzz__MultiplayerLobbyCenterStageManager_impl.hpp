@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLobbyCenterStageManager::*)(float_t, float_t)>(
     &::GlobalNamespace::MultiplayerLobbyCenterStageManager::Init)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22a3940;
+  constexpr static std::size_t addrs = 0x22d6ee8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLobbyCenterStageManager::*)()>(
     &::GlobalNamespace::MultiplayerLobbyCenterStageManager::ActivateCenterStageManager)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x22a3948;
+  constexpr static std::size_t addrs = 0x22d6ef0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLobbyCenterStageManager*>::get(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLobbyCenterStageManager::*)()>(
     &::GlobalNamespace::MultiplayerLobbyCenterStageManager::DeactivateCenterStageManager)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x22a3a64;
+  constexpr static std::size_t addrs = 0x22d700c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLobbyCenterStageManager*>::get(),
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLobbyCenterStageManager::*)()>(
     &::GlobalNamespace::MultiplayerLobbyCenterStageManager::RecalculateCenterPosition)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x22a396c;
+  constexpr static std::size_t addrs = 0x22d6f14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLobbyCenterStageManager*>::get(),
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLobbyCenterStageManager::*)()>(
     &::GlobalNamespace::MultiplayerLobbyCenterStageManager::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x22a3a88;
+  constexpr static std::size_t addrs = 0x22d7030;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLobbyCenterStageManager*>::get(),

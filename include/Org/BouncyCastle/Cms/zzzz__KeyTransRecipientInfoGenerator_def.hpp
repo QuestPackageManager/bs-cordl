@@ -135,35 +135,35 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::KeyTransRecipientInfoGenerator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1204a30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12318c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Cms::KeyTransRecipientInfoGenerator* New_ctor(::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber* issuerAndSerialNumber);
 
-  /// @brief Method .ctor, addr 0x1204a38, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12318c8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber* issuerAndSerialNumber);
 
   static inline ::Org::BouncyCastle::Cms::KeyTransRecipientInfoGenerator* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> subjectKeyIdentifier);
 
-  /// @brief Method .ctor, addr 0x1204a60, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12318f0, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> subjectKeyIdentifier);
 
-  /// @brief Method set_RecipientCert, addr 0x1204adc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_RecipientCert, addr 0x123196c, size 0x58, virtual false, abstract: false, final false
   inline void set_RecipientCert(::Org::BouncyCastle::X509::X509Certificate* value);
 
-  /// @brief Method set_RecipientPublicKey, addr 0x1204b34, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method set_RecipientPublicKey, addr 0x12319c4, size 0xdc, virtual false, abstract: false, final false
   inline void set_RecipientPublicKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* value);
 
-  /// @brief Method set_SubjectKeyIdentifier, addr 0x1204c10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SubjectKeyIdentifier, addr 0x1231aa0, size 0x8, virtual false, abstract: false, final false
   inline void set_SubjectKeyIdentifier(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
-  /// @brief Method Generate, addr 0x1204c18, size 0x1c0, virtual true, abstract: false, final true
+  /// @brief Method Generate, addr 0x1231aa8, size 0x1c0, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::Cms::RecipientInfo* Generate(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* contentEncryptionKey, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method get_AlgorithmDetails, addr 0x1204dd8, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmDetails, addr 0x1231c68, size 0x1c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_AlgorithmDetails();
 
-  /// @brief Method GenerateWrappedKey, addr 0x1204df4, size 0x1dc, virtual true, abstract: false, final false
+  /// @brief Method GenerateWrappedKey, addr 0x1231c84, size 0x1dc, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateWrappedKey(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* contentEncryptionKey);
 
   // Ctor Parameters [CppParam { name: "", ty: "KeyTransRecipientInfoGenerator", modifiers: "&&", def_value: None }]

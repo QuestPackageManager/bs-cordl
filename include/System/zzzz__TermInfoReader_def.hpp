@@ -86,39 +86,39 @@ public:
 
   static inline ::System::TermInfoReader* New_ctor(::StringW term, ::StringW filename);
 
-  /// @brief Method .ctor, addr 0x2600590, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2624498, size 0x2d8, virtual false, abstract: false, final false
   inline void _ctor(::StringW term, ::StringW filename);
 
   static inline ::System::TermInfoReader* New_ctor(::StringW term, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer);
 
-  /// @brief Method .ctor, addr 0x2600868, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2624770, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::StringW term, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer);
 
-  /// @brief Method DetermineVersion, addr 0x26064f4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method DetermineVersion, addr 0x262a3fc, size 0xb0, virtual false, abstract: false, final false
   inline void DetermineVersion(int16_t magic);
 
-  /// @brief Method ReadHeader, addr 0x2606400, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method ReadHeader, addr 0x262a308, size 0xc0, virtual false, abstract: false, final false
   inline void ReadHeader(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, ByRef<int32_t> position);
 
-  /// @brief Method ReadNames, addr 0x26064c0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method ReadNames, addr 0x262a3c8, size 0x34, virtual false, abstract: false, final false
   inline void ReadNames(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, ByRef<int32_t> position);
 
-  /// @brief Method Get, addr 0x26011f0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x26250f8, size 0x60, virtual false, abstract: false, final false
   inline int32_t Get(::System::TermInfoNumbers number);
 
-  /// @brief Method Get, addr 0x2601160, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x2625068, size 0x90, virtual false, abstract: false, final false
   inline ::StringW Get(::System::TermInfoStrings tstr);
 
-  /// @brief Method GetStringBytes, addr 0x26050a4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetStringBytes, addr 0x2628fac, size 0x90, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetStringBytes(::System::TermInfoStrings tstr);
 
-  /// @brief Method GetInt16, addr 0x26065a4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method GetInt16, addr 0x262a4ac, size 0x50, virtual false, abstract: false, final false
   inline int16_t GetInt16(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset);
 
-  /// @brief Method GetString, addr 0x26065f4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetString, addr 0x262a4fc, size 0x7c, virtual false, abstract: false, final false
   inline ::StringW GetString(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset);
 
-  /// @brief Method GetStringBytes, addr 0x2606670, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetStringBytes, addr 0x262a578, size 0xb8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetStringBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset);
 
   // Ctor Parameters [CppParam { name: "", ty: "TermInfoReader", modifiers: "&&", def_value: None }]

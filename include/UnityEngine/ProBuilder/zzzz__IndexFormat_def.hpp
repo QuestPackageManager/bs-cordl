@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ProBuilder::IndexFormat);
 namespace UnityEngine::ProBuilder {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12167))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12065))
 // CS Name: ::UnityEngine.ProBuilder::IndexFormat
 struct CORDL_TYPE IndexFormat {
 public:

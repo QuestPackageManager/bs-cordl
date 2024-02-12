@@ -44,26 +44,26 @@ public:
 
   static inline ::Org::BouncyCastle::Ocsp::RespID* New_ctor(::Org::BouncyCastle::Asn1::Ocsp::ResponderID* id);
 
-  /// @brief Method .ctor, addr 0x109beec, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10c8d7c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Ocsp::ResponderID* id);
 
   static inline ::Org::BouncyCastle::Ocsp::RespID* New_ctor(::Org::BouncyCastle::Asn1::X509::X509Name* name);
 
-  /// @brief Method .ctor, addr 0x10a4d6c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10d1bfc, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::X509Name* name);
 
   static inline ::Org::BouncyCastle::Ocsp::RespID* New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
 
-  /// @brief Method .ctor, addr 0x109d20c, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10ca09c, size 0x210, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
 
-  /// @brief Method ToAsn1Object, addr 0x10a4de8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x10d1c78, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Ocsp::ResponderID* ToAsn1Object();
 
-  /// @brief Method Equals, addr 0x10a4df0, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x10d1c80, size 0xb0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x10a4ea0, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x10d1d30, size 0x1c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "RespID", modifiers: "&&", def_value: None }]

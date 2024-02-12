@@ -19,7 +19,7 @@ namespace GlobalNamespace {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14377))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14531))
 // CS Name: ::RandomObjectPicker`1<T>*
 class CORDL_TYPE RandomObjectPicker_1 : public ::System::Object {
 public:

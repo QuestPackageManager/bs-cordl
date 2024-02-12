@@ -70,16 +70,16 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfoParser* New_ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* seq);
 
-  /// @brief Method .ctor, addr 0xe74da4, size 0x2b8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe9fc34, size 0x2b8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* seq);
 
-  /// @brief Method get_ContentType, addr 0xe76668, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContentType, addr 0xea14f8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_ContentType();
 
-  /// @brief Method get_ContentEncryptionAlgorithm, addr 0xe76670, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContentEncryptionAlgorithm, addr 0xea1500, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_ContentEncryptionAlgorithm();
 
-  /// @brief Method GetEncryptedContent, addr 0xe76678, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetEncryptedContent, addr 0xea1508, size 0xb0, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::IAsn1Convertible* GetEncryptedContent(int32_t tag);
 
   // Ctor Parameters [CppParam { name: "", ty: "EncryptedContentInfoParser", modifiers: "&&", def_value: None }]

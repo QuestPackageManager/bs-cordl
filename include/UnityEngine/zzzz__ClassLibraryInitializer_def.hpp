@@ -15,12 +15,12 @@ MARK_REF_PTR_T(::UnityEngine::ClassLibraryInitializer);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10188))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8932))
 // CS Name: ::UnityEngine::ClassLibraryInitializer*
 class CORDL_TYPE ClassLibraryInitializer : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x2ccd2c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2cd4354, size 0x8, virtual false, abstract: false, final false
   static inline void Init();
 
   // Ctor Parameters [CppParam { name: "", ty: "ClassLibraryInitializer", modifiers: "&&", def_value: None }]

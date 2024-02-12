@@ -36,8 +36,8 @@ MARK_REF_PTR_T(::RootMotion::HumanoidBaker);
 // SizeInfo { instance_size: 280, native_size: -1, calculated_instance_size: 280, calculated_native_size: 280, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(12471)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14884))] Self: TypeDefinitionIndex(TypeDefinitionIndex(12479)) CS Name: ::RootMotion::HumanoidBaker*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(8996)), TypeDefinitionIndex(TypeDefinitionIndex(12369)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14757))] Self: TypeDefinitionIndex(TypeDefinitionIndex(12377)) CS Name: ::RootMotion::HumanoidBaker*
 class CORDL_TYPE HumanoidBaker : public ::RootMotion::Baker {
 public:
   // Declarations
@@ -185,30 +185,30 @@ public:
 
   constexpr void __cordl_internal_set_lastBodyRotation(::UnityEngine::Quaternion value);
 
-  /// @brief Method Awake, addr 0x1234900, size 0x4b8, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x12cf9b0, size 0x4b8, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method GetCharacterRoot, addr 0x1234db8, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetCharacterRoot, addr 0x12cfe68, size 0x1c, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> GetCharacterRoot();
 
-  /// @brief Method OnStartBaking, addr 0x1234dd4, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method OnStartBaking, addr 0x12cfe84, size 0xdc, virtual true, abstract: false, final false
   inline void OnStartBaking();
 
-  /// @brief Method OnSetLoopFrame, addr 0x1234eb0, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method OnSetLoopFrame, addr 0x12cff60, size 0xbc, virtual true, abstract: false, final false
   inline void OnSetLoopFrame(float_t time);
 
-  /// @brief Method OnSetCurves, addr 0x1234f6c, size 0x1a0, virtual true, abstract: false, final false
+  /// @brief Method OnSetCurves, addr 0x12d001c, size 0x1a0, virtual true, abstract: false, final false
   inline void OnSetCurves(ByRef<::UnityEngine::AnimationClip*> clip);
 
-  /// @brief Method OnSetKeyframes, addr 0x123510c, size 0x2a4, virtual true, abstract: false, final false
+  /// @brief Method OnSetKeyframes, addr 0x12d01bc, size 0x2a4, virtual true, abstract: false, final false
   inline void OnSetKeyframes(float_t time, bool lastFrame);
 
-  /// @brief Method UpdateHumanPose, addr 0x12353b0, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method UpdateHumanPose, addr 0x12d0460, size 0xd8, virtual false, abstract: false, final false
   inline void UpdateHumanPose();
 
   static inline ::RootMotion::HumanoidBaker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1235488, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12d0538, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HumanoidBaker", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Xml::Schema::XmlSchemaValidationFlags);
 namespace System::Xml::Schema {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11743))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11641))
 // CS Name: ::System.Xml.Schema::XmlSchemaValidationFlags
 struct CORDL_TYPE XmlSchemaValidationFlags {
 public:

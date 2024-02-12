@@ -29,7 +29,7 @@ MARK_VAL_T(::UnityEngine::UIElements::FontDefinition);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7284))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6543))
 // CS Name: ::UnityEngine.UIElements::FontDefinition
 struct CORDL_TYPE FontDefinition {
 public:
@@ -44,40 +44,40 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::FontDefinition>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::FontDefinition>* i___System__IEquatable_1___UnityEngine__UIElements__FontDefinition_();
 
-  /// @brief Method get_font, addr 0x2e6cdbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_font, addr 0x2e871a4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Font> get_font();
 
-  /// @brief Method get_fontAsset, addr 0x2e6cdc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fontAsset, addr 0x2e871ac, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> get_fontAsset();
 
-  /// @brief Method FromFont, addr 0x2e6cdcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method FromFont, addr 0x2e871b4, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::FontDefinition FromFont(::UnityEngine::Font* f);
 
-  /// @brief Method FromSDFFont, addr 0x2e6cdd4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method FromSDFFont, addr 0x2e871bc, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::FontDefinition FromSDFFont(::UnityEngine::TextCore::Text::FontAsset* f);
 
-  /// @brief Method FromObject, addr 0x2e6cde0, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method FromObject, addr 0x2e871c8, size 0x118, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::FontDefinition FromObject(::System::Object* obj);
 
-  /// @brief Method IsEmpty, addr 0x2e6cef8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method IsEmpty, addr 0x2e872e0, size 0x98, virtual false, abstract: false, final false
   inline bool IsEmpty();
 
-  /// @brief Method ToString, addr 0x2e6cf90, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2e87378, size 0x90, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method Equals, addr 0x2e6d020, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2e87408, size 0x48, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::FontDefinition other);
 
-  /// @brief Method Equals, addr 0x2e6d068, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2e87450, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2e6d0e0, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2e874c8, size 0xe0, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method op_Equality, addr 0x2e6d1c0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x2e875a8, size 0x2c, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::FontDefinition left, ::UnityEngine::UIElements::FontDefinition right);
 
-  /// @brief Method op_Inequality, addr 0x2e6d1ec, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x2e875d4, size 0x30, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::UIElements::FontDefinition left, ::UnityEngine::UIElements::FontDefinition right);
 
   // Ctor Parameters [CppParam { name: "m_Font", ty: "::UnityW<::UnityEngine::Font>", modifiers: "", def_value: None }, CppParam { name: "m_FontAsset", ty:

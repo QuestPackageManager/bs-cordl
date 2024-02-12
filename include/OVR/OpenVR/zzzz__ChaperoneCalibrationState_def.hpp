@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::ChaperoneCalibrationState);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8619))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8563))
 // CS Name: ::OVR.OpenVR::ChaperoneCalibrationState
 struct CORDL_TYPE ChaperoneCalibrationState {
 public:

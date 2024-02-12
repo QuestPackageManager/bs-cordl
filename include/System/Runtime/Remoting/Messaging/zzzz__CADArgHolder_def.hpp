@@ -32,7 +32,7 @@ public:
 
   static inline ::System::Runtime::Remoting::Messaging::CADArgHolder* New_ctor(int32_t i);
 
-  /// @brief Method .ctor, addr 0x24a7bb8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24c9c2c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t i);
 
   // Ctor Parameters [CppParam { name: "", ty: "CADArgHolder", modifiers: "&&", def_value: None }]

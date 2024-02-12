@@ -146,47 +146,47 @@ public:
 
   static inline ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Runtime::Serialization::Formatters::Binary::TypeInformation*>* getStaticF_typeNameCache();
 
-  /// @brief Method set_AssemblyFormat, addr 0x24c5dd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AssemblyFormat, addr 0x24e6e44, size 0x8, virtual false, abstract: false, final false
   inline void set_AssemblyFormat(::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle value);
 
-  /// @brief Method set_SurrogateSelector, addr 0x24c5dd8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_SurrogateSelector, addr 0x24e6e4c, size 0x8, virtual true, abstract: false, final true
   inline void set_SurrogateSelector(::System::Runtime::Serialization::ISurrogateSelector* value);
 
-  /// @brief Method set_Binder, addr 0x24c5de0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_Binder, addr 0x24e6e54, size 0x8, virtual true, abstract: false, final true
   inline void set_Binder(::System::Runtime::Serialization::SerializationBinder* value);
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24c5de8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24e6e5c, size 0x34, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter* New_ctor(::System::Runtime::Serialization::ISurrogateSelector* selector,
                                                                                                 ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x24c5e1c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24e6e90, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::ISurrogateSelector* selector, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method Deserialize, addr 0x24c5e68, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0x24e6edc, size 0xc, virtual true, abstract: false, final true
   inline ::System::Object* Deserialize(::System::IO::Stream* serializationStream);
 
-  /// @brief Method Deserialize, addr 0x24c5e7c, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method Deserialize, addr 0x24e6ef0, size 0x24c, virtual false, abstract: false, final false
   inline ::System::Object* Deserialize(::System::IO::Stream* serializationStream, ::System::Runtime::Remoting::Messaging::HeaderHandler* handler, bool fCheck);
 
-  /// @brief Method Deserialize, addr 0x24c5e74, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0x24e6ee8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* Deserialize(::System::IO::Stream* serializationStream, ::System::Runtime::Remoting::Messaging::HeaderHandler* handler);
 
-  /// @brief Method Serialize, addr 0x24c60c8, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x24e713c, size 0xc, virtual true, abstract: false, final true
   inline void Serialize(::System::IO::Stream* serializationStream, ::System::Object* graph);
 
-  /// @brief Method Serialize, addr 0x24c60d4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x24e7148, size 0x8, virtual true, abstract: false, final true
   inline void Serialize(::System::IO::Stream* serializationStream, ::System::Object* graph,
                         ::ArrayW<::System::Runtime::Remoting::Messaging::Header*, ::Array<::System::Runtime::Remoting::Messaging::Header*>*> headers);
 
-  /// @brief Method Serialize, addr 0x24c60dc, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method Serialize, addr 0x24e7150, size 0x1f8, virtual false, abstract: false, final false
   inline void Serialize(::System::IO::Stream* serializationStream, ::System::Object* graph,
                         ::ArrayW<::System::Runtime::Remoting::Messaging::Header*, ::Array<::System::Runtime::Remoting::Messaging::Header*>*> headers, bool fCheck);
 
-  /// @brief Method GetTypeInformation, addr 0x24c638c, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method GetTypeInformation, addr 0x24e7400, size 0x25c, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::Formatters::Binary::TypeInformation* GetTypeInformation(::System::Type* type);
 
   // Ctor Parameters [CppParam { name: "", ty: "BinaryFormatter", modifiers: "&&", def_value: None }]

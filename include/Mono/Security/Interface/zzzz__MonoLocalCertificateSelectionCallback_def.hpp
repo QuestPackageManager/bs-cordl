@@ -27,17 +27,17 @@ MARK_REF_PTR_T(::Mono::Security::Interface::MonoLocalCertificateSelectionCallbac
 namespace Mono::Security::Interface {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13781))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13734))
 // CS Name: ::Mono.Security.Interface::MonoLocalCertificateSelectionCallback*
 class CORDL_TYPE MonoLocalCertificateSelectionCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::Mono::Security::Interface::MonoLocalCertificateSelectionCallback* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2402c98, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2422af8, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x2402d70, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2422bd0, size 0x14, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate* Invoke(::StringW targetHost,
                                                                                      ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* localCertificates,
                                                                                      ::System::Security::Cryptography::X509Certificates::X509Certificate* remoteCertificate,

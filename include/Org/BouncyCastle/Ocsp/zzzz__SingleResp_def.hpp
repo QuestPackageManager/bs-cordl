@@ -55,25 +55,25 @@ public:
 
   static inline ::Org::BouncyCastle::Ocsp::SingleResp* New_ctor(::Org::BouncyCastle::Asn1::Ocsp::SingleResponse* resp);
 
-  /// @brief Method .ctor, addr 0x109c070, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10c8f00, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Ocsp::SingleResponse* resp);
 
-  /// @brief Method GetCertID, addr 0x10a5030, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetCertID, addr 0x10d1ec0, size 0x6c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Ocsp::CertificateID* GetCertID();
 
-  /// @brief Method GetCertStatus, addr 0x10a509c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetCertStatus, addr 0x10d1f2c, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Object* GetCertStatus();
 
-  /// @brief Method get_ThisUpdate, addr 0x10a51bc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_ThisUpdate, addr 0x10d204c, size 0x24, virtual false, abstract: false, final false
   inline ::System::DateTime get_ThisUpdate();
 
-  /// @brief Method get_NextUpdate, addr 0x10a51e0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_NextUpdate, addr 0x10d2070, size 0x8c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Date::DateTimeObject* get_NextUpdate();
 
-  /// @brief Method get_SingleExtensions, addr 0x10a526c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_SingleExtensions, addr 0x10d20fc, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* get_SingleExtensions();
 
-  /// @brief Method GetX509Extensions, addr 0x10a5288, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetX509Extensions, addr 0x10d2118, size 0x1c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* GetX509Extensions();
 
   // Ctor Parameters [CppParam { name: "", ty: "SingleResp", modifiers: "&&", def_value: None }]

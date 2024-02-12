@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::System::Diagnostics::CorrelationManager);
 namespace System::Diagnostics {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8934))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6944))
 // CS Name: ::System.Diagnostics::CorrelationManager*
 class CORDL_TYPE CorrelationManager : public ::System::Object {
 public:
@@ -27,13 +27,13 @@ public:
 
   static inline ::System::Diagnostics::CorrelationManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x296bc34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x296fb54, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_LogicalOperationStack, addr 0x296bc3c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_LogicalOperationStack, addr 0x296fb5c, size 0x4, virtual false, abstract: false, final false
   inline ::System::Collections::Stack* get_LogicalOperationStack();
 
-  /// @brief Method GetLogicalOperationStack, addr 0x296bc40, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetLogicalOperationStack, addr 0x296fb60, size 0xc0, virtual false, abstract: false, final false
   inline ::System::Collections::Stack* GetLogicalOperationStack();
 
   // Ctor Parameters [CppParam { name: "", ty: "CorrelationManager", modifiers: "&&", def_value: None }]

@@ -28,7 +28,7 @@ namespace UnityEngine::ProBuilder::KdTree {
 template <typename TItem, typename TPriority>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15924))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16047))
 // CS Name: ::UnityEngine.ProBuilder.KdTree::PriorityQueue`2<TItem,TPriority>*
 class CORDL_TYPE PriorityQueue_2 : public ::System::Object {
 public:

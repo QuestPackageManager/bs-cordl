@@ -60,29 +60,29 @@ public:
 
   constexpr void __cordl_internal_set_pgenCounter(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method GetInstance, addr 0x11a8874, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x11d6704, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::DHValidationParms* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-  /// @brief Method GetInstance, addr 0x11a82d0, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x11d6160, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::DHValidationParms* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X9::DHValidationParms* New_ctor(::Org::BouncyCastle::Asn1::DerBitString* seed, ::Org::BouncyCastle::Asn1::DerInteger* pgenCounter);
 
-  /// @brief Method .ctor, addr 0x11a89fc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11d688c, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerBitString* seed, ::Org::BouncyCastle::Asn1::DerInteger* pgenCounter);
 
   static inline ::Org::BouncyCastle::Asn1::X9::DHValidationParms* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0x11a888c, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11d671c, size 0x170, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Seed, addr 0x11a8aa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Seed, addr 0x11d6930, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerBitString* get_Seed();
 
-  /// @brief Method get_PgenCounter, addr 0x11a8aa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PgenCounter, addr 0x11d6938, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_PgenCounter();
 
-  /// @brief Method ToAsn1Object, addr 0x11a8ab0, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x11d6940, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "DHValidationParms", modifiers: "&&", def_value: None }]

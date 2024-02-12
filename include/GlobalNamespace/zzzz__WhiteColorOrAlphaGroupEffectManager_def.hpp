@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4927))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8995))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4281))
 // CS Name: ::WhiteColorOrAlphaGroupEffectManager*
 class CORDL_TYPE WhiteColorOrAlphaGroupEffectManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -73,15 +73,15 @@ public:
 
   constexpr void __cordl_internal_set__whiteColorOrAlphaEffects(::System::Collections::Generic::List_1<::GlobalNamespace::WhiteColorOrAlphaGroupEffect*>* value);
 
-  /// @brief Method Start, addr 0x23a93ec, size 0x280, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2369520, size 0x280, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy, addr 0x23a966c, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x23697a0, size 0x148, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   static inline ::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23a97b4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23698e8, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "WhiteColorOrAlphaGroupEffectManager", modifiers: "&&", def_value: None }]

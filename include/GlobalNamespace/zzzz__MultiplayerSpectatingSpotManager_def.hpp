@@ -38,7 +38,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerSpectatingSpotManager____c);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5261))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4601))
 // CS Name: ::MultiplayerSpectatingSpotManager::<>c*
 class CORDL_TYPE __MultiplayerSpectatingSpotManager____c : public ::System::Object {
 public:
@@ -59,10 +59,10 @@ public:
 
   static inline ::GlobalNamespace::__MultiplayerSpectatingSpotManager____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x225e60c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23bd198, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_defaultSpot>b__3_0, addr 0x225e614, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method <get_defaultSpot>b__3_0, addr 0x23bd1a0, size 0xa0, virtual false, abstract: false, final false
   inline bool _get_defaultSpot_b__3_0(::GlobalNamespace::IMultiplayerSpectatingSpot* s);
 
   // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerSpectatingSpotManager____c", modifiers: "&&", def_value: None }]
@@ -90,7 +90,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MultiplayerSp
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5262))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4602))
 // CS Name: ::MultiplayerSpectatingSpotManager*
 class CORDL_TYPE MultiplayerSpectatingSpotManager : public ::System::Object {
 public:
@@ -122,30 +122,30 @@ public:
 
   constexpr void __cordl_internal_set__spotIndexBySpot(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::IMultiplayerSpectatingSpot*, int32_t>* value);
 
-  /// @brief Method get_spectatingSpots, addr 0x225dfbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_spectatingSpots, addr 0x23bcb48, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>* get_spectatingSpots();
 
-  /// @brief Method get_defaultSpot, addr 0x225dfc4, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method get_defaultSpot, addr 0x23bcb50, size 0x158, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IMultiplayerSpectatingSpot* get_defaultSpot();
 
-  /// @brief Method RegisterSpectatingSpot, addr 0x225d88c, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method RegisterSpectatingSpot, addr 0x23bc418, size 0x164, virtual false, abstract: false, final false
   inline void RegisterSpectatingSpot(::GlobalNamespace::IMultiplayerSpectatingSpot* spectatingSpot);
 
-  /// @brief Method GetAdjacentSpot, addr 0x225e290, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetAdjacentSpot, addr 0x23bce1c, size 0xb4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IMultiplayerSpectatingSpot* GetAdjacentSpot(::GlobalNamespace::IMultiplayerSpectatingSpot* spectatingSpot, int32_t offset);
 
-  /// @brief Method GetIndexBySpot, addr 0x225e344, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetIndexBySpot, addr 0x23bced0, size 0x84, virtual false, abstract: false, final false
   inline int32_t GetIndexBySpot(::GlobalNamespace::IMultiplayerSpectatingSpot* spectatingSpot);
 
-  /// @brief Method UpdateIndexBySpotDictionary, addr 0x225e11c, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method UpdateIndexBySpotDictionary, addr 0x23bcca8, size 0x174, virtual false, abstract: false, final false
   inline void UpdateIndexBySpotDictionary();
 
-  /// @brief Method SpotOnHasBeenRemoved, addr 0x225e3c8, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method SpotOnHasBeenRemoved, addr 0x23bcf54, size 0x120, virtual false, abstract: false, final false
   inline void SpotOnHasBeenRemoved(::GlobalNamespace::IMultiplayerSpectatingSpot* spectatingSpot);
 
   static inline ::GlobalNamespace::MultiplayerSpectatingSpotManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x225e4e8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23bd074, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerSpectatingSpotManager", modifiers: "&&", def_value: None }]

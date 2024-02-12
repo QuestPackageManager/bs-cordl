@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::TMPro::TMP_ResourceManager);
 namespace TMPro {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12407))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12305))
 // CS Name: ::TMPro::TMP_ResourceManager*
 class CORDL_TYPE TMP_ResourceManager : public ::System::Object {
 public:
@@ -64,21 +64,21 @@ public:
 
   static inline ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::TMPro::TMP_FontAsset>>* getStaticF_s_FontAssetReferenceLookup();
 
-  /// @brief Method GetTextSettings, addr 0x2c3f588, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method GetTextSettings, addr 0x2c3d0f4, size 0x110, virtual false, abstract: false, final false
   static inline ::UnityW<::TMPro::TMP_Settings> GetTextSettings();
 
-  /// @brief Method AddFontAsset, addr 0x2c3f698, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method AddFontAsset, addr 0x2c3d204, size 0x154, virtual false, abstract: false, final false
   static inline void AddFontAsset(::TMPro::TMP_FontAsset* fontAsset);
 
-  /// @brief Method TryGetFontAsset, addr 0x2c3f7ec, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method TryGetFontAsset, addr 0x2c3d358, size 0x94, virtual false, abstract: false, final false
   static inline bool TryGetFontAsset(int32_t hashcode, ByRef<::TMPro::TMP_FontAsset*> fontAsset);
 
-  /// @brief Method RebuildFontAssetCache, addr 0x2c3f880, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method RebuildFontAssetCache, addr 0x2c3d3ec, size 0x118, virtual false, abstract: false, final false
   static inline void RebuildFontAssetCache(int32_t instanceID);
 
   static inline ::TMPro::TMP_ResourceManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c3f580, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c3d0ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TMP_ResourceManager", modifiers: "&&", def_value: None }]

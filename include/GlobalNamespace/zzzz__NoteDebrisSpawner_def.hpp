@@ -40,8 +40,8 @@ MARK_REF_PTR_T(::GlobalNamespace::NoteDebrisSpawner);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4895))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4249))
 // CS Name: ::NoteDebrisSpawner*
 class CORDL_TYPE NoteDebrisSpawner : public ::UnityEngine::MonoBehaviour {
 public:
@@ -142,26 +142,26 @@ public:
 
   constexpr void __cordl_internal_set__poolForNoteDebris(::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::NoteDebris>, ::GlobalNamespace::__NoteDebris__Pool*>* value);
 
-  /// @brief Method Start, addr 0x23a3950, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2363a88, size 0xc4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method SpawnDebris, addr 0x23a2e00, size 0x890, virtual false, abstract: false, final false
+  /// @brief Method SpawnDebris, addr 0x2362f38, size 0x890, virtual false, abstract: false, final false
   inline void SpawnDebris(::GlobalNamespace::__NoteData__GameplayType noteGameplayType, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Vector3 cutNormal, float_t saberSpeed,
                           ::UnityEngine::Vector3 saberDir, ::UnityEngine::Vector3 notePos, ::UnityEngine::Quaternion noteRotation, ::UnityEngine::Vector3 noteScale,
                           ::GlobalNamespace::ColorType colorType, float_t timeToNextColorNote, ::UnityEngine::Vector3 moveVec);
 
-  /// @brief Method HandleNoteDebrisDidFinish, addr 0x23a3b20, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method HandleNoteDebrisDidFinish, addr 0x2363c58, size 0xbc, virtual true, abstract: false, final true
   inline void HandleNoteDebrisDidFinish(::GlobalNamespace::NoteDebris* noteDebris);
 
-  /// @brief Method SpawnNoteDebris, addr 0x23a3a14, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method SpawnNoteDebris, addr 0x2363b4c, size 0x10c, virtual false, abstract: false, final false
   inline void SpawnNoteDebris(::GlobalNamespace::__NoteData__GameplayType noteGameplayType, ByRef<::GlobalNamespace::NoteDebris*> debris0, ByRef<::GlobalNamespace::NoteDebris*> debris1);
 
-  /// @brief Method DespawnNoteDebris, addr 0x23a3bdc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method DespawnNoteDebris, addr 0x2363d14, size 0xa4, virtual false, abstract: false, final false
   inline void DespawnNoteDebris(::GlobalNamespace::NoteDebris* noteDebris);
 
   static inline ::GlobalNamespace::NoteDebrisSpawner* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23a3c80, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2363db8, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NoteDebrisSpawner", modifiers: "&&", def_value: None }]

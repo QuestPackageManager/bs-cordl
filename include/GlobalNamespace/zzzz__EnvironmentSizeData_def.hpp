@@ -39,7 +39,7 @@ MARK_REF_PTR_T(::GlobalNamespace::EnvironmentSizeData);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4177))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10629))
 // CS Name: ::EnvironmentSizeData::FloorType
 struct CORDL_TYPE __EnvironmentSizeData__FloorType {
 public:
@@ -89,7 +89,7 @@ static_assert(offsetof(::GlobalNamespace::__EnvironmentSizeData__FloorType, valu
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4178))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10630))
 // CS Name: ::EnvironmentSizeData::CeilingType
 struct CORDL_TYPE __EnvironmentSizeData__CeilingType {
 public:
@@ -139,7 +139,7 @@ static_assert(offsetof(::GlobalNamespace::__EnvironmentSizeData__CeilingType, va
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4179))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10631))
 // CS Name: ::EnvironmentSizeData::TrackLaneType
 struct CORDL_TYPE __EnvironmentSizeData__TrackLaneType {
 public:
@@ -188,8 +188,8 @@ static_assert(offsetof(::GlobalNamespace::__EnvironmentSizeData__TrackLaneType, 
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4177)), TypeDefinitionIndex(TypeDefinitionIndex(4178)),
-// TypeDefinitionIndex(TypeDefinitionIndex(4179))] Self: TypeDefinitionIndex(TypeDefinitionIndex(4180)) CS Name: ::EnvironmentSizeData*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10629)), TypeDefinitionIndex(TypeDefinitionIndex(10630)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10631))] Self: TypeDefinitionIndex(TypeDefinitionIndex(10632)) CS Name: ::EnvironmentSizeData*
 class CORDL_TYPE EnvironmentSizeData : public ::System::Object {
 public:
   // Declarations
@@ -232,18 +232,18 @@ public:
 
   constexpr void __cordl_internal_set__trackLaneType(::GlobalNamespace::__EnvironmentSizeData__TrackLaneType value);
 
-  /// @brief Method get_floorType, addr 0x2240908, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_floorType, addr 0x12668ac, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__EnvironmentSizeData__FloorType get_floorType();
 
-  /// @brief Method get_ceilingType, addr 0x2240910, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ceilingType, addr 0x12668b4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__EnvironmentSizeData__CeilingType get_ceilingType();
 
-  /// @brief Method get_trackLaneType, addr 0x2240918, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_trackLaneType, addr 0x12668bc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__EnvironmentSizeData__TrackLaneType get_trackLaneType();
 
   static inline ::GlobalNamespace::EnvironmentSizeData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2240920, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12668c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EnvironmentSizeData", modifiers: "&&", def_value: None }]

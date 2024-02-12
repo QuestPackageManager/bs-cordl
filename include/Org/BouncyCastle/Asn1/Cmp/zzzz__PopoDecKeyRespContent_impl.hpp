@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cmp::PopoDecKeyRespContent::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Cmp::PopoDecKeyRespContent::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0xe6e074;
+  constexpr static std::size_t addrs = 0xe98f04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cmp::PopoDecKeyRespContent* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Cmp::PopoDecKeyRespContent::GetInstance)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0xe695a0;
+  constexpr static std::size_t addrs = 0xe94430;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Org::BouncyCastle::Asn1::DerInteger*, ::Array<::Org::BouncyCastle::Asn1::DerInteger*>*> (
     ::Org::BouncyCastle::Asn1::Cmp::PopoDecKeyRespContent::*)()>(&::Org::BouncyCastle::Asn1::Cmp::PopoDecKeyRespContent::ToDerIntegerArray)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0xe6e09c;
+  constexpr static std::size_t addrs = 0xe98f2c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Cmp::PopoDecKeyRespContent::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::PopoDecKeyRespContent::ToAsn1Object)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xe6e194;
+  constexpr static std::size_t addrs = 0xe99024;
 
   inline static ::MethodInfo const* methodInfo() {
 

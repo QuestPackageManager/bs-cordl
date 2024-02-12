@@ -34,7 +34,7 @@ MARK_VAL_T(::UnityEngine::XR::__XRMeshSubsystem__MeshTransformList);
 namespace UnityEngine::XR {
 // Is value type: true
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15638))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15769))
 // CS Name: ::XRMeshSubsystem::MeshTransformList
 struct CORDL_TYPE __XRMeshSubsystem__MeshTransformList {
 public:
@@ -45,10 +45,10 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable();
 
-  /// @brief Method Dispose, addr 0x2eb3e34, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2ecef78, size 0x3c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x2eb3e70, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x2ecefb4, size 0x3c, virtual false, abstract: false, final false
   static inline void Dispose(void* self);
 
   // Ctor Parameters [CppParam { name: "m_Self", ty: "void*", modifiers: "", def_value: None }]
@@ -76,20 +76,20 @@ static_assert(offsetof(::UnityEngine::XR::__XRMeshSubsystem__MeshTransformList, 
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::XR {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15965)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15965), inst: 3918 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15639))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16088)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(16088), inst: 3900 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15770))
 // CS Name: ::UnityEngine.XR::XRMeshSubsystem*
 class CORDL_TYPE XRMeshSubsystem : public ::UnityEngine::IntegratedSubsystem_1<Il2CppObject*> {
 public:
   // Declarations
   using MeshTransformList = ::UnityEngine::XR::__XRMeshSubsystem__MeshTransformList;
 
-  /// @brief Method InvokeMeshReadyDelegate, addr 0x2eb3d94, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method InvokeMeshReadyDelegate, addr 0x2eceed8, size 0x58, virtual false, abstract: false, final false
   inline void InvokeMeshReadyDelegate(::UnityEngine::XR::MeshGenerationResult result, ::System::Action_1<::UnityEngine::XR::MeshGenerationResult>* onMeshGenerationComplete);
 
   static inline ::UnityEngine::XR::XRMeshSubsystem* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2eb3dec, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ecef30, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "XRMeshSubsystem", modifiers: "&&", def_value: None }]

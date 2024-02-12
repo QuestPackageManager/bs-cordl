@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::StyleSheets::StylePropertyValueMatcher
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7483))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7484))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6742))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6743))
 // CS Name: ::UnityEngine.UIElements.StyleSheets::StylePropertyValueMatcher*
 class CORDL_TYPE StylePropertyValueMatcher : public ::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher {
 public:
@@ -52,58 +52,58 @@ public:
 
   constexpr void __cordl_internal_set_m_Values(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StylePropertyValue>* value);
 
-  /// @brief Method get_current, addr 0x2df2128, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_current, addr 0x2e0f510, size 0x84, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleSheets::StylePropertyValue get_current();
 
-  /// @brief Method get_valueCount, addr 0x2df21ac, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method get_valueCount, addr 0x2e0f594, size 0x48, virtual true, abstract: false, final false
   inline int32_t get_valueCount();
 
-  /// @brief Method get_isCurrentVariable, addr 0x2df21f4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_isCurrentVariable, addr 0x2e0f5dc, size 0x8, virtual true, abstract: false, final false
   inline bool get_isCurrentVariable();
 
-  /// @brief Method get_isCurrentComma, addr 0x2df21fc, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method get_isCurrentComma, addr 0x2e0f5e4, size 0xa8, virtual true, abstract: false, final false
   inline bool get_isCurrentComma();
 
-  /// @brief Method Match, addr 0x2df22a4, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method Match, addr 0x2e0f68c, size 0x17c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleSheets::MatchResult Match(::UnityEngine::UIElements::StyleSheets::Syntax::Expression* exp,
                                                                    ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StylePropertyValue>* values);
 
-  /// @brief Method MatchKeyword, addr 0x2df2420, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method MatchKeyword, addr 0x2e0f808, size 0xb4, virtual true, abstract: false, final false
   inline bool MatchKeyword(::StringW keyword);
 
-  /// @brief Method MatchNumber, addr 0x2df24d4, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method MatchNumber, addr 0x2e0f8bc, size 0x34, virtual true, abstract: false, final false
   inline bool MatchNumber();
 
-  /// @brief Method MatchInteger, addr 0x2df2508, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method MatchInteger, addr 0x2e0f8f0, size 0x34, virtual true, abstract: false, final false
   inline bool MatchInteger();
 
-  /// @brief Method MatchLength, addr 0x2df253c, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method MatchLength, addr 0x2e0f924, size 0xf4, virtual true, abstract: false, final false
   inline bool MatchLength();
 
-  /// @brief Method MatchPercentage, addr 0x2df2630, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method MatchPercentage, addr 0x2e0fa18, size 0xf4, virtual true, abstract: false, final false
   inline bool MatchPercentage();
 
-  /// @brief Method MatchColor, addr 0x2df2724, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method MatchColor, addr 0x2e0fb0c, size 0xe0, virtual true, abstract: false, final false
   inline bool MatchColor();
 
-  /// @brief Method MatchResource, addr 0x2df2804, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method MatchResource, addr 0x2e0fbec, size 0x34, virtual true, abstract: false, final false
   inline bool MatchResource();
 
-  /// @brief Method MatchUrl, addr 0x2df2838, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method MatchUrl, addr 0x2e0fc20, size 0x40, virtual true, abstract: false, final false
   inline bool MatchUrl();
 
-  /// @brief Method MatchTime, addr 0x2df2878, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method MatchTime, addr 0x2e0fc60, size 0x60, virtual true, abstract: false, final false
   inline bool MatchTime();
 
-  /// @brief Method MatchCustomIdent, addr 0x2df28d8, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method MatchCustomIdent, addr 0x2e0fcc0, size 0xe0, virtual true, abstract: false, final false
   inline bool MatchCustomIdent();
 
-  /// @brief Method MatchAngle, addr 0x2df29b8, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method MatchAngle, addr 0x2e0fda0, size 0xfc, virtual true, abstract: false, final false
   inline bool MatchAngle();
 
   static inline ::UnityEngine::UIElements::StyleSheets::StylePropertyValueMatcher* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2df2ab4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e0fe9c, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "StylePropertyValueMatcher", modifiers: "&&", def_value: None }]

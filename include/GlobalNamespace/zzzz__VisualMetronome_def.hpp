@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::GlobalNamespace::VisualMetronome);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 117, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10243))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5407))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8987))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4710))
 // CS Name: ::VisualMetronome*
 class CORDL_TYPE VisualMetronome : public ::UnityEngine::MonoBehaviour {
 public:
@@ -184,36 +184,36 @@ public:
 
   constexpr void __cordl_internal_set__dontTickThisFrame(bool value);
 
-  /// @brief Method set_tickerColor, addr 0x2274738, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_tickerColor, addr 0x23cfe14, size 0x24, virtual false, abstract: false, final false
   inline void set_tickerColor(::UnityEngine::Color value);
 
-  /// @brief Method set_movingTickerColor, addr 0x227475c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_movingTickerColor, addr 0x23cfe38, size 0x24, virtual false, abstract: false, final false
   inline void set_movingTickerColor(::UnityEngine::Color value);
 
-  /// @brief Method set_zeroOffset, addr 0x2274780, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_zeroOffset, addr 0x23cfe5c, size 0x10, virtual false, abstract: false, final false
   inline void set_zeroOffset(float_t value);
 
-  /// @brief Method get_zeroOffset, addr 0x2274790, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_zeroOffset, addr 0x23cfe6c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_zeroOffset();
 
-  /// @brief Method Awake, addr 0x2274798, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x23cfe74, size 0x98, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnEnable, addr 0x2274830, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x23cff0c, size 0x48, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable, addr 0x2274878, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x23cff54, size 0x48, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method Update, addr 0x22748c0, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x23cff9c, size 0x150, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method SetMovingTickerNormalizedPosition, addr 0x2274a10, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method SetMovingTickerNormalizedPosition, addr 0x23d00ec, size 0xc8, virtual false, abstract: false, final false
   inline void SetMovingTickerNormalizedPosition(float_t t);
 
   static inline ::GlobalNamespace::VisualMetronome* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2274ad8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d01b4, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "VisualMetronome", modifiers: "&&", def_value: None }]

@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::System::ContextBoundObject* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25dc58c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25ff4a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ContextBoundObject", modifiers: "&&", def_value: None }]

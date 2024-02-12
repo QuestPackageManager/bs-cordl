@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBin
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10926))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10702))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10068))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9844))
 // CS Name: ::Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder*
 class CORDL_TYPE DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder : public ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder {
 public:
@@ -44,16 +44,16 @@ public:
 
   static inline ::Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder* New_ctor(::Zenject::SubContainerCreatorBindInfo* subContainerBindInfo, ::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method .ctor, addr 0x2ecba74, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ee7bbc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::SubContainerCreatorBindInfo* subContainerBindInfo, ::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method get_SubContainerCreatorBindInfo, addr 0x2ecbaa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SubContainerCreatorBindInfo, addr 0x2ee7be8, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::SubContainerCreatorBindInfo* get_SubContainerCreatorBindInfo();
 
-  /// @brief Method set_SubContainerCreatorBindInfo, addr 0x2ecbaa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SubContainerCreatorBindInfo, addr 0x2ee7bf0, size 0x8, virtual false, abstract: false, final false
   inline void set_SubContainerCreatorBindInfo(::Zenject::SubContainerCreatorBindInfo* value);
 
-  /// @brief Method WithDefaultGameObjectParent, addr 0x2ecbab0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method WithDefaultGameObjectParent, addr 0x2ee7bf8, size 0x1c, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* WithDefaultGameObjectParent(::StringW defaultParentName);
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder", modifiers: "&&", def_value: None }]

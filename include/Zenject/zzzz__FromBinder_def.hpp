@@ -370,8 +370,8 @@ MARK_REF_PTR_T(::Zenject::__FromBinder____c__DisplayClass72_0);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 29, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15712))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10870))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15862))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10012))
 // CS Name: ::FromBinder::<>c__DisplayClass22_0*
 class CORDL_TYPE __FromBinder____c__DisplayClass22_0 : public ::System::Object {
 public:
@@ -405,16 +405,16 @@ public:
 
   static inline ::Zenject::__FromBinder____c__DisplayClass22_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ecfe9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2eebfe4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <FromResolveInternal>b__0, addr 0x2ed2b4c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method <FromResolveInternal>b__0, addr 0x2eeec94, size 0xa0, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FromResolveInternal_b__0(::Zenject::DiContainer* container, ::System::Type* type);
 
-  /// @brief Method __zenCreate, addr 0x2ed2bec, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2eeed34, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ed2c48, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2eeed90, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FromBinder____c__DisplayClass22_0", modifiers: "&&", def_value: None }]
@@ -459,7 +459,7 @@ namespace Zenject {
 template <typename TContract>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10871))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10013))
 // CS Name: ::FromBinder::<>c__DisplayClass28_0`1<TContract>*
 class CORDL_TYPE __FromBinder____c__DisplayClass28_0_1 : public ::System::Object {
 public:
@@ -513,7 +513,7 @@ public:
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10872))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10014))
 // CS Name: ::FromBinder::<>c__DisplayClass29_0*
 class CORDL_TYPE __FromBinder____c__DisplayClass29_0 : public ::System::Object {
 public:
@@ -529,16 +529,16 @@ public:
 
   static inline ::Zenject::__FromBinder____c__DisplayClass29_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ed00cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2eec214, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <FromComponentsOn>b__0, addr 0x2ed2e08, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method <FromComponentsOn>b__0, addr 0x2eeef50, size 0x7c, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FromComponentsOn_b__0(::Zenject::DiContainer* container, ::System::Type* type);
 
-  /// @brief Method __zenCreate, addr 0x2ed2e84, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2eeefcc, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ed2ee0, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2eef028, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FromBinder____c__DisplayClass29_0", modifiers: "&&", def_value: None }]
@@ -571,7 +571,7 @@ static_assert(offsetof(::Zenject::__FromBinder____c__DisplayClass29_0, ___gameOb
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10873))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10015))
 // CS Name: ::FromBinder::<>c__DisplayClass30_0*
 class CORDL_TYPE __FromBinder____c__DisplayClass30_0 : public ::System::Object {
 public:
@@ -587,16 +587,16 @@ public:
 
   static inline ::Zenject::__FromBinder____c__DisplayClass30_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ed023c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2eec384, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <FromComponentOn>b__0, addr 0x2ed30a0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method <FromComponentOn>b__0, addr 0x2eef1e8, size 0x7c, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FromComponentOn_b__0(::Zenject::DiContainer* container, ::System::Type* type);
 
-  /// @brief Method __zenCreate, addr 0x2ed311c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2eef264, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ed3178, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2eef2c0, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FromBinder____c__DisplayClass30_0", modifiers: "&&", def_value: None }]
@@ -629,7 +629,7 @@ static_assert(offsetof(::Zenject::__FromBinder____c__DisplayClass30_0, ___gameOb
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10874))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10016))
 // CS Name: ::FromBinder::<>c__DisplayClass31_0*
 class CORDL_TYPE __FromBinder____c__DisplayClass31_0 : public ::System::Object {
 public:
@@ -646,16 +646,16 @@ public:
 
   static inline ::Zenject::__FromBinder____c__DisplayClass31_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ed039c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2eec4e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <FromComponentsOn>b__0, addr 0x2ed3338, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method <FromComponentsOn>b__0, addr 0x2eef480, size 0x7c, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FromComponentsOn_b__0(::Zenject::DiContainer* container, ::System::Type* type);
 
-  /// @brief Method __zenCreate, addr 0x2ed33b4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2eef4fc, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ed3410, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2eef558, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FromBinder____c__DisplayClass31_0", modifiers: "&&", def_value: None }]
@@ -688,7 +688,7 @@ static_assert(offsetof(::Zenject::__FromBinder____c__DisplayClass31_0, ___gameOb
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10875))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10017))
 // CS Name: ::FromBinder::<>c__DisplayClass32_0*
 class CORDL_TYPE __FromBinder____c__DisplayClass32_0 : public ::System::Object {
 public:
@@ -705,16 +705,16 @@ public:
 
   static inline ::Zenject::__FromBinder____c__DisplayClass32_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ed04fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2eec644, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <FromComponentOn>b__0, addr 0x2ed35d0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method <FromComponentOn>b__0, addr 0x2eef718, size 0x7c, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FromComponentOn_b__0(::Zenject::DiContainer* container, ::System::Type* type);
 
-  /// @brief Method __zenCreate, addr 0x2ed364c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2eef794, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ed36a8, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2eef7f0, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FromBinder____c__DisplayClass32_0", modifiers: "&&", def_value: None }]
@@ -747,7 +747,7 @@ static_assert(offsetof(::Zenject::__FromBinder____c__DisplayClass32_0, ___gameOb
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10876))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10018))
 // CS Name: ::FromBinder::<>c*
 class CORDL_TYPE __FromBinder____c : public ::System::Object {
 public:
@@ -838,46 +838,46 @@ public:
 
   static inline ::Zenject::__FromBinder____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ed38cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2eefa14, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <FromComponentsOnRoot>b__33_0, addr 0x2ed38d4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method <FromComponentsOnRoot>b__33_0, addr 0x2eefa1c, size 0x60, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> _FromComponentsOnRoot_b__33_0(::Zenject::InjectContext* ctx);
 
-  /// @brief Method <FromComponentOnRoot>b__34_0, addr 0x2ed3934, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method <FromComponentOnRoot>b__34_0, addr 0x2eefa7c, size 0x60, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> _FromComponentOnRoot_b__34_0(::Zenject::InjectContext* ctx);
 
-  /// @brief Method <FromNewComponentOnRoot>b__38_0, addr 0x2ed3994, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method <FromNewComponentOnRoot>b__38_0, addr 0x2eefadc, size 0x60, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> _FromNewComponentOnRoot_b__38_0(::Zenject::InjectContext* ctx);
 
-  /// @brief Method <FromNewComponentOnNewPrefabResource>b__40_0, addr 0x2ed39f4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method <FromNewComponentOnNewPrefabResource>b__40_0, addr 0x2eefb3c, size 0x74, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FromNewComponentOnNewPrefabResource_b__40_0(::System::Type* contractType, ::Zenject::IPrefabInstantiator* instantiator);
 
-  /// @brief Method <FromNewComponentOnNewPrefab>b__42_0, addr 0x2ed3a68, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method <FromNewComponentOnNewPrefab>b__42_0, addr 0x2eefbb0, size 0x74, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FromNewComponentOnNewPrefab_b__42_0(::System::Type* contractType, ::Zenject::IPrefabInstantiator* instantiator);
 
-  /// @brief Method <FromComponentInNewPrefab>b__44_0, addr 0x2ed3adc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method <FromComponentInNewPrefab>b__44_0, addr 0x2eefc24, size 0x78, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FromComponentInNewPrefab_b__44_0(::System::Type* contractType, ::Zenject::IPrefabInstantiator* instantiator);
 
-  /// @brief Method <FromComponentsInNewPrefab>b__46_0, addr 0x2ed3b54, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method <FromComponentsInNewPrefab>b__46_0, addr 0x2eefc9c, size 0x78, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FromComponentsInNewPrefab_b__46_0(::System::Type* contractType, ::Zenject::IPrefabInstantiator* instantiator);
 
-  /// @brief Method <FromComponentInNewPrefabResource>b__48_0, addr 0x2ed3bcc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method <FromComponentInNewPrefabResource>b__48_0, addr 0x2eefd14, size 0x78, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FromComponentInNewPrefabResource_b__48_0(::System::Type* contractType, ::Zenject::IPrefabInstantiator* instantiator);
 
-  /// @brief Method <FromComponentsInNewPrefabResource>b__50_0, addr 0x2ed3c44, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method <FromComponentsInNewPrefabResource>b__50_0, addr 0x2eefd8c, size 0x78, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FromComponentsInNewPrefabResource_b__50_0(::System::Type* contractType, ::Zenject::IPrefabInstantiator* instantiator);
 
-  /// @brief Method <FromComponentSibling>b__63_0, addr 0x2ed3cbc, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method <FromComponentSibling>b__63_0, addr 0x2eefe04, size 0xec, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FromComponentSibling_b__63_0(::Zenject::DiContainer* container, ::System::Type* concreteType);
 
-  /// @brief Method <FromComponentsSibling>b__64_0, addr 0x2ed3db0, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method <FromComponentsSibling>b__64_0, addr 0x2eefef8, size 0xec, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FromComponentsSibling_b__64_0(::Zenject::DiContainer* container, ::System::Type* concreteType);
 
-  /// @brief Method __zenCreate, addr 0x2ed3ea4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2eeffec, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ed3f00, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ef0048, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FromBinder____c", modifiers: "&&", def_value: None }]
@@ -905,7 +905,7 @@ static_assert(::cordl_internals::size_check_v<::Zenject::__FromBinder____c, 0x10
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10877))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10019))
 // CS Name: ::FromBinder::<>c__DisplayClass35_0*
 class CORDL_TYPE __FromBinder____c__DisplayClass35_0 : public ::System::Object {
 public:
@@ -930,16 +930,16 @@ public:
 
   static inline ::Zenject::__FromBinder____c__DisplayClass35_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ed0834, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2eec97c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <FromNewComponentOn>b__0, addr 0x2ed40c0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method <FromNewComponentOn>b__0, addr 0x2ef0208, size 0xac, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FromNewComponentOn_b__0(::Zenject::DiContainer* container, ::System::Type* type);
 
-  /// @brief Method __zenCreate, addr 0x2ed416c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2ef02b4, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ed41c8, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ef0310, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FromBinder____c__DisplayClass35_0", modifiers: "&&", def_value: None }]
@@ -977,7 +977,7 @@ static_assert(offsetof(::Zenject::__FromBinder____c__DisplayClass35_0, _____4__t
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10878))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10020))
 // CS Name: ::FromBinder::<>c__DisplayClass36_0*
 class CORDL_TYPE __FromBinder____c__DisplayClass36_0 : public ::System::Object {
 public:
@@ -1003,16 +1003,16 @@ public:
 
   static inline ::Zenject::__FromBinder____c__DisplayClass36_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ed0998, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2eecae0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <FromNewComponentOn>b__0, addr 0x2ed4388, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method <FromNewComponentOn>b__0, addr 0x2ef04d0, size 0xac, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FromNewComponentOn_b__0(::Zenject::DiContainer* container, ::System::Type* type);
 
-  /// @brief Method __zenCreate, addr 0x2ed4434, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2ef057c, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ed4490, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ef05d8, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FromBinder____c__DisplayClass36_0", modifiers: "&&", def_value: None }]
@@ -1050,7 +1050,7 @@ static_assert(offsetof(::Zenject::__FromBinder____c__DisplayClass36_0, _____4__t
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10879))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10021))
 // CS Name: ::FromBinder::<>c__DisplayClass53_0*
 class CORDL_TYPE __FromBinder____c__DisplayClass53_0 : public ::System::Object {
 public:
@@ -1084,16 +1084,16 @@ public:
 
   static inline ::Zenject::__FromBinder____c__DisplayClass53_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ed197c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2eedac4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <FromScriptableObjectInternal>b__0, addr 0x2ed4650, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method <FromScriptableObjectInternal>b__0, addr 0x2ef0798, size 0xc8, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FromScriptableObjectInternal_b__0(::Zenject::DiContainer* container, ::System::Type* type);
 
-  /// @brief Method __zenCreate, addr 0x2ed4718, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2ef0860, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ed4774, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ef08bc, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FromBinder____c__DisplayClass53_0", modifiers: "&&", def_value: None }]
@@ -1136,7 +1136,7 @@ static_assert(offsetof(::Zenject::__FromBinder____c__DisplayClass53_0, ___create
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10880))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10022))
 // CS Name: ::FromBinder::<>c__DisplayClass56_0*
 class CORDL_TYPE __FromBinder____c__DisplayClass56_0 : public ::System::Object {
 public:
@@ -1170,16 +1170,16 @@ public:
 
   static inline ::Zenject::__FromBinder____c__DisplayClass56_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ed1af8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2eedc40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <FromScriptableObjectResourceInternal>b__0, addr 0x2ed4934, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method <FromScriptableObjectResourceInternal>b__0, addr 0x2ef0a7c, size 0xc8, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FromScriptableObjectResourceInternal_b__0(::Zenject::DiContainer* container, ::System::Type* type);
 
-  /// @brief Method __zenCreate, addr 0x2ed49fc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2ef0b44, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ed4a58, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ef0ba0, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FromBinder____c__DisplayClass56_0", modifiers: "&&", def_value: None }]
@@ -1222,7 +1222,7 @@ static_assert(offsetof(::Zenject::__FromBinder____c__DisplayClass56_0, ___create
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10881))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10023))
 // CS Name: ::FromBinder::<>c__DisplayClass57_0*
 class CORDL_TYPE __FromBinder____c__DisplayClass57_0 : public ::System::Object {
 public:
@@ -1238,16 +1238,16 @@ public:
 
   static inline ::Zenject::__FromBinder____c__DisplayClass57_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ed1c48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2eedd90, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <FromResource>b__0, addr 0x2ed4c18, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method <FromResource>b__0, addr 0x2ef0d60, size 0x7c, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FromResource_b__0(::Zenject::DiContainer* _, ::System::Type* type);
 
-  /// @brief Method __zenCreate, addr 0x2ed4c94, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2ef0ddc, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ed4cf0, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ef0e38, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FromBinder____c__DisplayClass57_0", modifiers: "&&", def_value: None }]
@@ -1280,7 +1280,7 @@ static_assert(offsetof(::Zenject::__FromBinder____c__DisplayClass57_0, ___resour
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10882))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10024))
 // CS Name: ::FromBinder::<>c__DisplayClass58_0*
 class CORDL_TYPE __FromBinder____c__DisplayClass58_0 : public ::System::Object {
 public:
@@ -1296,16 +1296,16 @@ public:
 
   static inline ::Zenject::__FromBinder____c__DisplayClass58_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ed1d98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2eedee0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <FromResources>b__0, addr 0x2ed4eb0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method <FromResources>b__0, addr 0x2ef0ff8, size 0x7c, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FromResources_b__0(::Zenject::DiContainer* _, ::System::Type* type);
 
-  /// @brief Method __zenCreate, addr 0x2ed4f2c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2ef1074, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ed4f88, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ef10d0, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FromBinder____c__DisplayClass58_0", modifiers: "&&", def_value: None }]
@@ -1338,7 +1338,7 @@ static_assert(offsetof(::Zenject::__FromBinder____c__DisplayClass58_0, ___resour
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10883))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10025))
 // CS Name: ::FromBinder::<>c__DisplayClass59_0*
 class CORDL_TYPE __FromBinder____c__DisplayClass59_0 : public ::System::Object {
 public:
@@ -1354,16 +1354,16 @@ public:
 
   static inline ::Zenject::__FromBinder____c__DisplayClass59_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ed1ebc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2eee004, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <FromComponentInChildren>b__0, addr 0x2ed5148, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method <FromComponentInChildren>b__0, addr 0x2ef1290, size 0xf0, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FromComponentInChildren_b__0(::Zenject::DiContainer* container, ::System::Type* concreteType);
 
-  /// @brief Method __zenCreate, addr 0x2ed5240, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2ef1388, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ed529c, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ef13e4, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FromBinder____c__DisplayClass59_0", modifiers: "&&", def_value: None }]
@@ -1396,7 +1396,7 @@ static_assert(offsetof(::Zenject::__FromBinder____c__DisplayClass59_0, ___includ
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10884))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10026))
 // CS Name: ::FromBinder::<>c__DisplayClass59_1*
 class CORDL_TYPE __FromBinder____c__DisplayClass59_1 : public ::System::Object {
 public:
@@ -1421,16 +1421,16 @@ public:
 
   static inline ::Zenject::__FromBinder____c__DisplayClass59_1* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ed5238, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ef1380, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <FromComponentInChildren>b__1, addr 0x2ed545c, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method <FromComponentInChildren>b__1, addr 0x2ef15a4, size 0x238, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Object*>* _FromComponentInChildren_b__1(::Zenject::InjectContext* ctx);
 
-  /// @brief Method __zenCreate, addr 0x2ed5694, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2ef17dc, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ed56f0, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ef1838, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FromBinder____c__DisplayClass59_1", modifiers: "&&", def_value: None }]
@@ -1468,7 +1468,7 @@ static_assert(offsetof(::Zenject::__FromBinder____c__DisplayClass59_1, ___CS$__8
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10885))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10027))
 // CS Name: ::FromBinder::<>c__DisplayClass60_0*
 class CORDL_TYPE __FromBinder____c__DisplayClass60_0 : public ::System::Object {
 public:
@@ -1502,16 +1502,16 @@ public:
 
   static inline ::Zenject::__FromBinder____c__DisplayClass60_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ed1ffc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2eee144, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <FromComponentsInChildrenBase>b__0, addr 0x2ed58b0, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method <FromComponentsInChildrenBase>b__0, addr 0x2ef19f8, size 0xf0, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FromComponentsInChildrenBase_b__0(::Zenject::DiContainer* container, ::System::Type* concreteType);
 
-  /// @brief Method __zenCreate, addr 0x2ed59a8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2ef1af0, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ed5a04, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ef1b4c, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FromBinder____c__DisplayClass60_0", modifiers: "&&", def_value: None }]
@@ -1554,7 +1554,7 @@ static_assert(offsetof(::Zenject::__FromBinder____c__DisplayClass60_0, ___predic
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10886))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10028))
 // CS Name: ::FromBinder::<>c__DisplayClass60_1*
 class CORDL_TYPE __FromBinder____c__DisplayClass60_1 : public ::System::Object {
 public:
@@ -1579,16 +1579,16 @@ public:
 
   static inline ::Zenject::__FromBinder____c__DisplayClass60_1* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ed59a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ef1ae8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <FromComponentsInChildrenBase>b__1, addr 0x2ed5bc4, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method <FromComponentsInChildrenBase>b__1, addr 0x2ef1d0c, size 0x2a0, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Object*>* _FromComponentsInChildrenBase_b__1(::Zenject::InjectContext* ctx);
 
-  /// @brief Method __zenCreate, addr 0x2ed5e6c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2ef1fb4, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ed5ec8, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ef2010, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FromBinder____c__DisplayClass60_1", modifiers: "&&", def_value: None }]
@@ -1626,7 +1626,7 @@ static_assert(offsetof(::Zenject::__FromBinder____c__DisplayClass60_1, ___CS$__8
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10887))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10029))
 // CS Name: ::FromBinder::<>c__DisplayClass60_2*
 class CORDL_TYPE __FromBinder____c__DisplayClass60_2 : public ::System::Object {
 public:
@@ -1651,19 +1651,19 @@ public:
 
   static inline ::Zenject::__FromBinder____c__DisplayClass60_2* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ed5e64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ef1fac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <FromComponentsInChildrenBase>b__2, addr 0x2ed6088, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <FromComponentsInChildrenBase>b__2, addr 0x2ef21d0, size 0x24, virtual false, abstract: false, final false
   inline bool _FromComponentsInChildrenBase_b__2(::UnityEngine::Component* x);
 
-  /// @brief Method <FromComponentsInChildrenBase>b__3, addr 0x2ed60ac, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method <FromComponentsInChildrenBase>b__3, addr 0x2ef21f4, size 0x94, virtual false, abstract: false, final false
   inline bool _FromComponentsInChildrenBase_b__3(::UnityEngine::Component* x);
 
-  /// @brief Method __zenCreate, addr 0x2ed6140, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2ef2288, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ed619c, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ef22e4, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FromBinder____c__DisplayClass60_2", modifiers: "&&", def_value: None }]
@@ -1701,7 +1701,7 @@ static_assert(offsetof(::Zenject::__FromBinder____c__DisplayClass60_2, ___monoBe
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10888))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10030))
 // CS Name: ::FromBinder::<>c__DisplayClass61_0*
 class CORDL_TYPE __FromBinder____c__DisplayClass61_0 : public ::System::Object {
 public:
@@ -1726,16 +1726,16 @@ public:
 
   static inline ::Zenject::__FromBinder____c__DisplayClass61_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ed212c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2eee274, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <FromComponentInParents>b__0, addr 0x2ed635c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method <FromComponentInParents>b__0, addr 0x2ef24a4, size 0xf0, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FromComponentInParents_b__0(::Zenject::DiContainer* container, ::System::Type* concreteType);
 
-  /// @brief Method __zenCreate, addr 0x2ed6454, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2ef259c, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ed64b0, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ef25f8, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FromBinder____c__DisplayClass61_0", modifiers: "&&", def_value: None }]
@@ -1773,7 +1773,7 @@ static_assert(offsetof(::Zenject::__FromBinder____c__DisplayClass61_0, ___exclud
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10889))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10031))
 // CS Name: ::FromBinder::<>c__DisplayClass61_1*
 class CORDL_TYPE __FromBinder____c__DisplayClass61_1 : public ::System::Object {
 public:
@@ -1798,16 +1798,16 @@ public:
 
   static inline ::Zenject::__FromBinder____c__DisplayClass61_1* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ed644c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ef2594, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <FromComponentInParents>b__1, addr 0x2ed6670, size 0x3a8, virtual false, abstract: false, final false
+  /// @brief Method <FromComponentInParents>b__1, addr 0x2ef27b8, size 0x3a8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Object*>* _FromComponentInParents_b__1(::Zenject::InjectContext* ctx);
 
-  /// @brief Method __zenCreate, addr 0x2ed6a20, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2ef2b68, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ed6a7c, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ef2bc4, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FromBinder____c__DisplayClass61_1", modifiers: "&&", def_value: None }]
@@ -1845,7 +1845,7 @@ static_assert(offsetof(::Zenject::__FromBinder____c__DisplayClass61_1, ___CS$__8
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10890))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10032))
 // CS Name: ::FromBinder::<>c__DisplayClass61_2*
 class CORDL_TYPE __FromBinder____c__DisplayClass61_2 : public ::System::Object {
 public:
@@ -1870,19 +1870,19 @@ public:
 
   static inline ::Zenject::__FromBinder____c__DisplayClass61_2* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ed6a18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ef2b60, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <FromComponentInParents>b__2, addr 0x2ed6c3c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <FromComponentInParents>b__2, addr 0x2ef2d84, size 0x24, virtual false, abstract: false, final false
   inline bool _FromComponentInParents_b__2(::UnityEngine::Component* x);
 
-  /// @brief Method <FromComponentInParents>b__3, addr 0x2ed6c60, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method <FromComponentInParents>b__3, addr 0x2ef2da8, size 0x94, virtual false, abstract: false, final false
   inline bool _FromComponentInParents_b__3(::UnityEngine::Component* x);
 
-  /// @brief Method __zenCreate, addr 0x2ed6cf4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2ef2e3c, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ed6d50, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ef2e98, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FromBinder____c__DisplayClass61_2", modifiers: "&&", def_value: None }]
@@ -1920,7 +1920,7 @@ static_assert(offsetof(::Zenject::__FromBinder____c__DisplayClass61_2, ___monoBe
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10891))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10033))
 // CS Name: ::FromBinder::<>c__DisplayClass62_0*
 class CORDL_TYPE __FromBinder____c__DisplayClass62_0 : public ::System::Object {
 public:
@@ -1945,16 +1945,16 @@ public:
 
   static inline ::Zenject::__FromBinder____c__DisplayClass62_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ed225c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2eee3a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <FromComponentsInParents>b__0, addr 0x2ed6f10, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method <FromComponentsInParents>b__0, addr 0x2ef3058, size 0xf0, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FromComponentsInParents_b__0(::Zenject::DiContainer* container, ::System::Type* concreteType);
 
-  /// @brief Method __zenCreate, addr 0x2ed7008, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2ef3150, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ed7064, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ef31ac, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FromBinder____c__DisplayClass62_0", modifiers: "&&", def_value: None }]
@@ -1992,7 +1992,7 @@ static_assert(offsetof(::Zenject::__FromBinder____c__DisplayClass62_0, ___exclud
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10892))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10034))
 // CS Name: ::FromBinder::<>c__DisplayClass62_1*
 class CORDL_TYPE __FromBinder____c__DisplayClass62_1 : public ::System::Object {
 public:
@@ -2017,16 +2017,16 @@ public:
 
   static inline ::Zenject::__FromBinder____c__DisplayClass62_1* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ed7000, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ef3148, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <FromComponentsInParents>b__1, addr 0x2ed7224, size 0x280, virtual false, abstract: false, final false
+  /// @brief Method <FromComponentsInParents>b__1, addr 0x2ef336c, size 0x280, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Object*>* _FromComponentsInParents_b__1(::Zenject::InjectContext* ctx);
 
-  /// @brief Method __zenCreate, addr 0x2ed74ac, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2ef35f4, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ed7508, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ef3650, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FromBinder____c__DisplayClass62_1", modifiers: "&&", def_value: None }]
@@ -2064,7 +2064,7 @@ static_assert(offsetof(::Zenject::__FromBinder____c__DisplayClass62_1, ___CS$__8
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10893))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10035))
 // CS Name: ::FromBinder::<>c__DisplayClass62_2*
 class CORDL_TYPE __FromBinder____c__DisplayClass62_2 : public ::System::Object {
 public:
@@ -2089,19 +2089,19 @@ public:
 
   static inline ::Zenject::__FromBinder____c__DisplayClass62_2* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ed74a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ef35ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <FromComponentsInParents>b__2, addr 0x2ed76c8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <FromComponentsInParents>b__2, addr 0x2ef3810, size 0x24, virtual false, abstract: false, final false
   inline bool _FromComponentsInParents_b__2(::UnityEngine::Component* x);
 
-  /// @brief Method <FromComponentsInParents>b__3, addr 0x2ed76ec, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method <FromComponentsInParents>b__3, addr 0x2ef3834, size 0x94, virtual false, abstract: false, final false
   inline bool _FromComponentsInParents_b__3(::UnityEngine::Component* x);
 
-  /// @brief Method __zenCreate, addr 0x2ed7780, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2ef38c8, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ed77dc, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ef3924, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FromBinder____c__DisplayClass62_2", modifiers: "&&", def_value: None }]
@@ -2139,7 +2139,7 @@ static_assert(offsetof(::Zenject::__FromBinder____c__DisplayClass62_2, ___monoBe
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10894))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10036))
 // CS Name: ::FromBinder::<>c__DisplayClass63_0*
 class CORDL_TYPE __FromBinder____c__DisplayClass63_0 : public ::System::Object {
 public:
@@ -2155,16 +2155,16 @@ public:
 
   static inline ::Zenject::__FromBinder____c__DisplayClass63_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ed3da8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2eefef0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <FromComponentSibling>b__1, addr 0x2ed799c, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method <FromComponentSibling>b__1, addr 0x2ef3ae4, size 0x224, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Object*>* _FromComponentSibling_b__1(::Zenject::InjectContext* ctx);
 
-  /// @brief Method __zenCreate, addr 0x2ed7bc0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2ef3d08, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ed7c1c, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ef3d64, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FromBinder____c__DisplayClass63_0", modifiers: "&&", def_value: None }]
@@ -2197,7 +2197,7 @@ static_assert(offsetof(::Zenject::__FromBinder____c__DisplayClass63_0, ___concre
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10895))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10037))
 // CS Name: ::FromBinder::<>c__DisplayClass64_0*
 class CORDL_TYPE __FromBinder____c__DisplayClass64_0 : public ::System::Object {
 public:
@@ -2213,16 +2213,16 @@ public:
 
   static inline ::Zenject::__FromBinder____c__DisplayClass64_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ed3e9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2eeffe4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <FromComponentsSibling>b__1, addr 0x2ed7ddc, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method <FromComponentsSibling>b__1, addr 0x2ef3f24, size 0x200, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Object*>* _FromComponentsSibling_b__1(::Zenject::InjectContext* ctx);
 
-  /// @brief Method __zenCreate, addr 0x2ed7fe4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2ef412c, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ed8040, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ef4188, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FromBinder____c__DisplayClass64_0", modifiers: "&&", def_value: None }]
@@ -2255,7 +2255,7 @@ static_assert(offsetof(::Zenject::__FromBinder____c__DisplayClass64_0, ___concre
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10896))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10038))
 // CS Name: ::FromBinder::<>c__DisplayClass64_1*
 class CORDL_TYPE __FromBinder____c__DisplayClass64_1 : public ::System::Object {
 public:
@@ -2271,16 +2271,16 @@ public:
 
   static inline ::Zenject::__FromBinder____c__DisplayClass64_1* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ed7fdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ef4124, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <FromComponentsSibling>b__2, addr 0x2ed8200, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <FromComponentsSibling>b__2, addr 0x2ef4348, size 0x10, virtual false, abstract: false, final false
   inline bool _FromComponentsSibling_b__2(::UnityEngine::Component* x);
 
-  /// @brief Method __zenCreate, addr 0x2ed8210, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2ef4358, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ed826c, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ef43b4, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FromBinder____c__DisplayClass64_1", modifiers: "&&", def_value: None }]
@@ -2313,7 +2313,7 @@ static_assert(offsetof(::Zenject::__FromBinder____c__DisplayClass64_1, ___monoBe
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10897))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10039))
 // CS Name: ::FromBinder::<>c__DisplayClass65_0*
 class CORDL_TYPE __FromBinder____c__DisplayClass65_0 : public ::System::Object {
 public:
@@ -2329,16 +2329,16 @@ public:
 
   static inline ::Zenject::__FromBinder____c__DisplayClass65_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ed25fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2eee744, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <FromComponentInHierarchy>b__0, addr 0x2ed842c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method <FromComponentInHierarchy>b__0, addr 0x2ef4574, size 0xf8, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FromComponentInHierarchy_b__0(::Zenject::DiContainer* container, ::System::Type* concreteType);
 
-  /// @brief Method __zenCreate, addr 0x2ed852c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2ef4674, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ed8588, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ef46d0, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FromBinder____c__DisplayClass65_0", modifiers: "&&", def_value: None }]
@@ -2371,7 +2371,7 @@ static_assert(offsetof(::Zenject::__FromBinder____c__DisplayClass65_0, ___includ
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10898))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10040))
 // CS Name: ::FromBinder::<>c__DisplayClass65_1*
 class CORDL_TYPE __FromBinder____c__DisplayClass65_1 : public ::System::Object {
 public:
@@ -2414,19 +2414,19 @@ public:
 
   static inline ::Zenject::__FromBinder____c__DisplayClass65_1* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ed8524, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ef466c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <FromComponentInHierarchy>b__1, addr 0x2ed8748, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method <FromComponentInHierarchy>b__1, addr 0x2ef4890, size 0x2d8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Object*>* _FromComponentInHierarchy_b__1(::Zenject::InjectContext* ctx);
 
-  /// @brief Method <FromComponentInHierarchy>b__2, addr 0x2ed8a28, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <FromComponentInHierarchy>b__2, addr 0x2ef4b70, size 0x30, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Component> _FromComponentInHierarchy_b__2(::UnityEngine::GameObject* x);
 
-  /// @brief Method __zenCreate, addr 0x2ed8a58, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2ef4ba0, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ed8ab4, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ef4bfc, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FromBinder____c__DisplayClass65_1", modifiers: "&&", def_value: None }]
@@ -2474,7 +2474,7 @@ static_assert(offsetof(::Zenject::__FromBinder____c__DisplayClass65_1, _____9__2
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10899))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10041))
 // CS Name: ::FromBinder::<>c__DisplayClass65_2*
 class CORDL_TYPE __FromBinder____c__DisplayClass65_2 : public ::System::Object {
 public:
@@ -2490,16 +2490,16 @@ public:
 
   static inline ::Zenject::__FromBinder____c__DisplayClass65_2* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ed8a20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ef4b68, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <FromComponentInHierarchy>b__3, addr 0x2ed8c74, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method <FromComponentInHierarchy>b__3, addr 0x2ef4dbc, size 0x90, virtual false, abstract: false, final false
   inline bool _FromComponentInHierarchy_b__3(::UnityEngine::Component* x);
 
-  /// @brief Method __zenCreate, addr 0x2ed8d04, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2ef4e4c, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ed8d60, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ef4ea8, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FromBinder____c__DisplayClass65_2", modifiers: "&&", def_value: None }]
@@ -2532,7 +2532,7 @@ static_assert(offsetof(::Zenject::__FromBinder____c__DisplayClass65_2, ___ctx) =
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10900))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10042))
 // CS Name: ::FromBinder::<>c__DisplayClass66_0*
 class CORDL_TYPE __FromBinder____c__DisplayClass66_0 : public ::System::Object {
 public:
@@ -2557,16 +2557,16 @@ public:
 
   static inline ::Zenject::__FromBinder____c__DisplayClass66_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ed272c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2eee874, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <FromComponentsInHierarchyBase>b__0, addr 0x2ed8f20, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method <FromComponentsInHierarchyBase>b__0, addr 0x2ef5068, size 0xf8, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FromComponentsInHierarchyBase_b__0(::Zenject::DiContainer* container, ::System::Type* concreteType);
 
-  /// @brief Method __zenCreate, addr 0x2ed9020, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2ef5168, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ed907c, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ef51c4, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FromBinder____c__DisplayClass66_0", modifiers: "&&", def_value: None }]
@@ -2604,7 +2604,7 @@ static_assert(offsetof(::Zenject::__FromBinder____c__DisplayClass66_0, ___predic
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10901))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10043))
 // CS Name: ::FromBinder::<>c__DisplayClass66_1*
 class CORDL_TYPE __FromBinder____c__DisplayClass66_1 : public ::System::Object {
 public:
@@ -2650,19 +2650,19 @@ public:
 
   static inline ::Zenject::__FromBinder____c__DisplayClass66_1* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ed9018, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ef5160, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <FromComponentsInHierarchyBase>b__1, addr 0x2ed923c, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method <FromComponentsInHierarchyBase>b__1, addr 0x2ef5384, size 0x1c0, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Object*>* _FromComponentsInHierarchyBase_b__1(::Zenject::InjectContext* ctx);
 
-  /// @brief Method <FromComponentsInHierarchyBase>b__2, addr 0x2ed9404, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <FromComponentsInHierarchyBase>b__2, addr 0x2ef554c, size 0x30, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Component>>* _FromComponentsInHierarchyBase_b__2(::UnityEngine::GameObject* x);
 
-  /// @brief Method __zenCreate, addr 0x2ed9434, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2ef557c, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ed9490, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ef55d8, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FromBinder____c__DisplayClass66_1", modifiers: "&&", def_value: None }]
@@ -2710,7 +2710,7 @@ static_assert(offsetof(::Zenject::__FromBinder____c__DisplayClass66_1, _____9__2
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10902))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10044))
 // CS Name: ::FromBinder::<>c__DisplayClass66_2*
 class CORDL_TYPE __FromBinder____c__DisplayClass66_2 : public ::System::Object {
 public:
@@ -2726,16 +2726,16 @@ public:
 
   static inline ::Zenject::__FromBinder____c__DisplayClass66_2* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ed93fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ef5544, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <FromComponentsInHierarchyBase>b__3, addr 0x2ed9650, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <FromComponentsInHierarchyBase>b__3, addr 0x2ef5798, size 0x24, virtual false, abstract: false, final false
   inline bool _FromComponentsInHierarchyBase_b__3(::UnityEngine::Component* x);
 
-  /// @brief Method __zenCreate, addr 0x2ed9674, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2ef57bc, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ed96d0, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ef5818, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FromBinder____c__DisplayClass66_2", modifiers: "&&", def_value: None }]
@@ -2768,7 +2768,7 @@ static_assert(offsetof(::Zenject::__FromBinder____c__DisplayClass66_2, ___ctx) =
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10903))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10045))
 // CS Name: ::FromBinder::<>c__DisplayClass67_0*
 class CORDL_TYPE __FromBinder____c__DisplayClass67_0 : public ::System::Object {
 public:
@@ -2784,16 +2784,16 @@ public:
 
   static inline ::Zenject::__FromBinder____c__DisplayClass67_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ed283c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2eee984, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <FromMethodUntyped>b__0, addr 0x2ed9890, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method <FromMethodUntyped>b__0, addr 0x2ef59d8, size 0x78, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FromMethodUntyped_b__0(::Zenject::DiContainer* container, ::System::Type* type);
 
-  /// @brief Method __zenCreate, addr 0x2ed9908, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2ef5a50, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ed9964, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ef5aac, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FromBinder____c__DisplayClass67_0", modifiers: "&&", def_value: None }]
@@ -2826,7 +2826,7 @@ static_assert(offsetof(::Zenject::__FromBinder____c__DisplayClass67_0, ___method
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10904))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10046))
 // CS Name: ::FromBinder::<>c__DisplayClass68_0*
 class CORDL_TYPE __FromBinder____c__DisplayClass68_0 : public ::System::Object {
 public:
@@ -2844,16 +2844,16 @@ public:
 
   static inline ::Zenject::__FromBinder____c__DisplayClass68_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ed294c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2eeea94, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <FromMethodMultipleUntyped>b__0, addr 0x2ed9b24, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method <FromMethodMultipleUntyped>b__0, addr 0x2ef5c6c, size 0x78, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FromMethodMultipleUntyped_b__0(::Zenject::DiContainer* container, ::System::Type* type);
 
-  /// @brief Method __zenCreate, addr 0x2ed9b9c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2ef5ce4, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ed9bf8, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ef5d40, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FromBinder____c__DisplayClass68_0", modifiers: "&&", def_value: None }]
@@ -2888,7 +2888,7 @@ namespace Zenject {
 template <typename TConcrete>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10905))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10047))
 // CS Name: ::FromBinder::<>c__DisplayClass69_0`1<TConcrete>*
 class CORDL_TYPE __FromBinder____c__DisplayClass69_0_1 : public ::System::Object {
 public:
@@ -2944,7 +2944,7 @@ namespace Zenject {
 template <typename TConcrete>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10906))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10048))
 // CS Name: ::FromBinder::<>c__DisplayClass70_0`1<TConcrete>*
 class CORDL_TYPE __FromBinder____c__DisplayClass70_0_1 : public ::System::Object {
 public:
@@ -3000,8 +3000,8 @@ namespace Zenject {
 // cpp template
 template <typename TObj, typename TResult>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15712))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10907))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15862))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10049))
 // CS Name: ::FromBinder::<>c__DisplayClass71_0`2<TObj,TResult>*
 class CORDL_TYPE __FromBinder____c__DisplayClass71_0_2 : public ::System::Object {
 public:
@@ -3091,7 +3091,7 @@ public:
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10908))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10050))
 // CS Name: ::FromBinder::<>c__DisplayClass72_0*
 class CORDL_TYPE __FromBinder____c__DisplayClass72_0 : public ::System::Object {
 public:
@@ -3107,16 +3107,16 @@ public:
 
   static inline ::Zenject::__FromBinder____c__DisplayClass72_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ed2aa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2eeebf0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <FromInstanceBase>b__0, addr 0x2ed9db8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method <FromInstanceBase>b__0, addr 0x2ef5f00, size 0x80, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FromInstanceBase_b__0(::Zenject::DiContainer* container, ::System::Type* type);
 
-  /// @brief Method __zenCreate, addr 0x2ed9e38, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2ef5f80, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ed9e94, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ef5fdc, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FromBinder____c__DisplayClass72_0", modifiers: "&&", def_value: None }]
@@ -3148,8 +3148,8 @@ static_assert(offsetof(::Zenject::__FromBinder____c__DisplayClass72_0, ___instan
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10926))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10909))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10068))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10051))
 // CS Name: ::Zenject::FromBinder*
 class CORDL_TYPE FromBinder : public ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder {
 public:
@@ -3262,192 +3262,192 @@ public:
 
   static inline ::Zenject::FromBinder* New_ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::BindStatement* bindStatement);
 
-  /// @brief Method .ctor, addr 0x2ecfb8c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2eebcd4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::BindStatement* bindStatement);
 
-  /// @brief Method get_BindContainer, addr 0x2ecfbbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BindContainer, addr 0x2eebd04, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* get_BindContainer();
 
-  /// @brief Method set_BindContainer, addr 0x2ecfbc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BindContainer, addr 0x2eebd0c, size 0x8, virtual false, abstract: false, final false
   inline void set_BindContainer(::Zenject::DiContainer* value);
 
-  /// @brief Method get_BindStatement, addr 0x2ecfbcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BindStatement, addr 0x2eebd14, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::BindStatement* get_BindStatement();
 
-  /// @brief Method set_BindStatement, addr 0x2ecfbd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BindStatement, addr 0x2eebd1c, size 0x8, virtual false, abstract: false, final false
   inline void set_BindStatement(::Zenject::BindStatement* value);
 
-  /// @brief Method set_SubFinalizer, addr 0x2ec6df0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_SubFinalizer, addr 0x2ee2f38, size 0x1c, virtual false, abstract: false, final false
   inline void set_SubFinalizer(::Zenject::IBindingFinalizer* value);
 
-  /// @brief Method get_AllParentTypes, addr 0x2ecfbdc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_AllParentTypes, addr 0x2eebd24, size 0x58, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* get_AllParentTypes();
 
-  /// @brief Method get_ConcreteTypes, addr 0x2ecfc34, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_ConcreteTypes, addr 0x2eebd7c, size 0x90, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* get_ConcreteTypes();
 
-  /// @brief Method FromNew, addr 0x2ecfcc4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method FromNew, addr 0x2eebe0c, size 0x30, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromNew();
 
-  /// @brief Method FromResolve, addr 0x2ecfcf4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method FromResolve, addr 0x2eebe3c, size 0x10, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromResolve();
 
-  /// @brief Method FromResolve, addr 0x2ecfd04, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method FromResolve, addr 0x2eebe4c, size 0xc, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromResolve(::System::Object* subIdentifier);
 
-  /// @brief Method FromResolve, addr 0x2ecfd10, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method FromResolve, addr 0x2eebe58, size 0xc, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromResolve(::System::Object* subIdentifier, ::Zenject::InjectSources source);
 
-  /// @brief Method FromResolveAll, addr 0x2ecfe74, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method FromResolveAll, addr 0x2eebfbc, size 0x10, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromResolveAll();
 
-  /// @brief Method FromResolveAll, addr 0x2ecfe84, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method FromResolveAll, addr 0x2eebfcc, size 0xc, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromResolveAll(::System::Object* subIdentifier);
 
-  /// @brief Method FromResolveAll, addr 0x2ecfe90, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method FromResolveAll, addr 0x2eebfd8, size 0xc, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromResolveAll(::System::Object* subIdentifier, ::Zenject::InjectSources source);
 
-  /// @brief Method FromResolveInternal, addr 0x2ecfd1c, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method FromResolveInternal, addr 0x2eebe64, size 0x158, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromResolveInternal(::System::Object* subIdentifier, bool matchAll, ::Zenject::InjectSources source);
 
-  /// @brief Method FromSubContainerResolveAll, addr 0x2ecfea4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method FromSubContainerResolveAll, addr 0x2eebfec, size 0xc, virtual false, abstract: false, final false
   inline ::Zenject::SubContainerBinder* FromSubContainerResolveAll();
 
-  /// @brief Method FromSubContainerResolveAll, addr 0x2ecfeb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method FromSubContainerResolveAll, addr 0x2eebff8, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::SubContainerBinder* FromSubContainerResolveAll(::System::Object* subIdentifier);
 
-  /// @brief Method FromSubContainerResolve, addr 0x2ecff50, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method FromSubContainerResolve, addr 0x2eec098, size 0xc, virtual false, abstract: false, final false
   inline ::Zenject::SubContainerBinder* FromSubContainerResolve();
 
-  /// @brief Method FromSubContainerResolve, addr 0x2ecff5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method FromSubContainerResolve, addr 0x2eec0a4, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::SubContainerBinder* FromSubContainerResolve(::System::Object* subIdentifier);
 
-  /// @brief Method FromSubContainerResolveInternal, addr 0x2ecfeb8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method FromSubContainerResolveInternal, addr 0x2eec000, size 0x98, virtual false, abstract: false, final false
   inline ::Zenject::SubContainerBinder* FromSubContainerResolveInternal(::System::Object* subIdentifier, bool resolveAll);
 
   /// @brief Method FromIFactoryBase, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TContract>
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromIFactoryBase(::System::Action_1<::Zenject::ConcreteBinderGeneric_1<::Zenject::IFactory_1<TContract>*>*>* factoryBindGenerator);
 
-  /// @brief Method FromComponentsOn, addr 0x2ecff64, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method FromComponentsOn, addr 0x2eec0ac, size 0x168, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentsOn(::UnityEngine::GameObject* gameObject);
 
-  /// @brief Method FromComponentOn, addr 0x2ed00d4, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method FromComponentOn, addr 0x2eec21c, size 0x168, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentOn(::UnityEngine::GameObject* gameObject);
 
-  /// @brief Method FromComponentsOn, addr 0x2ed0244, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method FromComponentsOn, addr 0x2eec38c, size 0x158, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentsOn(::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::GameObject>>* gameObjectGetter);
 
-  /// @brief Method FromComponentOn, addr 0x2ed03a4, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method FromComponentOn, addr 0x2eec4ec, size 0x158, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentOn(::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::GameObject>>* gameObjectGetter);
 
-  /// @brief Method FromComponentsOnRoot, addr 0x2ed0504, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method FromComponentsOnRoot, addr 0x2eec64c, size 0xe4, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentsOnRoot();
 
-  /// @brief Method FromComponentOnRoot, addr 0x2ed05e8, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method FromComponentOnRoot, addr 0x2eec730, size 0xe4, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentOnRoot();
 
-  /// @brief Method FromNewComponentOn, addr 0x2ed06cc, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method FromNewComponentOn, addr 0x2eec814, size 0x168, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromNewComponentOn(::UnityEngine::GameObject* gameObject);
 
-  /// @brief Method FromNewComponentOn, addr 0x2ed083c, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method FromNewComponentOn, addr 0x2eec984, size 0x15c, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromNewComponentOn(::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::GameObject>>* gameObjectGetter);
 
-  /// @brief Method FromNewComponentSibling, addr 0x2ed09a0, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method FromNewComponentSibling, addr 0x2eecae8, size 0x128, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromNewComponentSibling();
 
-  /// @brief Method FromNewComponentOnRoot, addr 0x2ed0ac8, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method FromNewComponentOnRoot, addr 0x2eecc10, size 0xe4, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromNewComponentOnRoot();
 
-  /// @brief Method FromNewComponentOnNewPrefabResource, addr 0x2ed0bac, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method FromNewComponentOnNewPrefabResource, addr 0x2eeccf4, size 0x74, virtual false, abstract: false, final false
   inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* FromNewComponentOnNewPrefabResource(::StringW resourcePath);
 
-  /// @brief Method FromNewComponentOnNewPrefabResource, addr 0x2ed0c20, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method FromNewComponentOnNewPrefabResource, addr 0x2eecd68, size 0x1a8, virtual false, abstract: false, final false
   inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* FromNewComponentOnNewPrefabResource(::StringW resourcePath, ::Zenject::GameObjectCreationParameters* gameObjectInfo);
 
-  /// @brief Method FromNewComponentOnNewPrefab, addr 0x2ed0dc8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method FromNewComponentOnNewPrefab, addr 0x2eecf10, size 0x74, virtual false, abstract: false, final false
   inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* FromNewComponentOnNewPrefab(::UnityEngine::Object* prefab);
 
-  /// @brief Method FromNewComponentOnNewPrefab, addr 0x2ed0e3c, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method FromNewComponentOnNewPrefab, addr 0x2eecf84, size 0x1a8, virtual false, abstract: false, final false
   inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* FromNewComponentOnNewPrefab(::UnityEngine::Object* prefab, ::Zenject::GameObjectCreationParameters* gameObjectInfo);
 
-  /// @brief Method FromComponentInNewPrefab, addr 0x2ed0fe4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method FromComponentInNewPrefab, addr 0x2eed12c, size 0x74, virtual false, abstract: false, final false
   inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentInNewPrefab(::UnityEngine::Object* prefab);
 
-  /// @brief Method FromComponentInNewPrefab, addr 0x2ed1058, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method FromComponentInNewPrefab, addr 0x2eed1a0, size 0x198, virtual false, abstract: false, final false
   inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentInNewPrefab(::UnityEngine::Object* prefab, ::Zenject::GameObjectCreationParameters* gameObjectInfo);
 
-  /// @brief Method FromComponentsInNewPrefab, addr 0x2ed11f0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method FromComponentsInNewPrefab, addr 0x2eed338, size 0x74, virtual false, abstract: false, final false
   inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentsInNewPrefab(::UnityEngine::Object* prefab);
 
-  /// @brief Method FromComponentsInNewPrefab, addr 0x2ed1264, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method FromComponentsInNewPrefab, addr 0x2eed3ac, size 0x198, virtual false, abstract: false, final false
   inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentsInNewPrefab(::UnityEngine::Object* prefab, ::Zenject::GameObjectCreationParameters* gameObjectInfo);
 
-  /// @brief Method FromComponentInNewPrefabResource, addr 0x2ed13fc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method FromComponentInNewPrefabResource, addr 0x2eed544, size 0x74, virtual false, abstract: false, final false
   inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentInNewPrefabResource(::StringW resourcePath);
 
-  /// @brief Method FromComponentInNewPrefabResource, addr 0x2ed1470, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method FromComponentInNewPrefabResource, addr 0x2eed5b8, size 0x198, virtual false, abstract: false, final false
   inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentInNewPrefabResource(::StringW resourcePath, ::Zenject::GameObjectCreationParameters* gameObjectInfo);
 
-  /// @brief Method FromComponentsInNewPrefabResource, addr 0x2ed1608, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method FromComponentsInNewPrefabResource, addr 0x2eed750, size 0x74, virtual false, abstract: false, final false
   inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentsInNewPrefabResource(::StringW resourcePath);
 
-  /// @brief Method FromComponentsInNewPrefabResource, addr 0x2ed167c, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method FromComponentsInNewPrefabResource, addr 0x2eed7c4, size 0x198, virtual false, abstract: false, final false
   inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentsInNewPrefabResource(::StringW resourcePath, ::Zenject::GameObjectCreationParameters* gameObjectInfo);
 
-  /// @brief Method FromNewScriptableObject, addr 0x2ed1814, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method FromNewScriptableObject, addr 0x2eed95c, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromNewScriptableObject(::UnityEngine::ScriptableObject* resource);
 
-  /// @brief Method FromScriptableObject, addr 0x2ed1974, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method FromScriptableObject, addr 0x2eedabc, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromScriptableObject(::UnityEngine::ScriptableObject* resource);
 
-  /// @brief Method FromScriptableObjectInternal, addr 0x2ed181c, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method FromScriptableObjectInternal, addr 0x2eed964, size 0x158, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromScriptableObjectInternal(::UnityEngine::ScriptableObject* resource, bool createNew);
 
-  /// @brief Method FromNewScriptableObjectResource, addr 0x2ed1984, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method FromNewScriptableObjectResource, addr 0x2eedacc, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromNewScriptableObjectResource(::StringW resourcePath);
 
-  /// @brief Method FromScriptableObjectResource, addr 0x2ed1af0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method FromScriptableObjectResource, addr 0x2eedc38, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromScriptableObjectResource(::StringW resourcePath);
 
-  /// @brief Method FromScriptableObjectResourceInternal, addr 0x2ed198c, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method FromScriptableObjectResourceInternal, addr 0x2eedad4, size 0x164, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromScriptableObjectResourceInternal(::StringW resourcePath, bool createNew);
 
-  /// @brief Method FromResource, addr 0x2ed1b00, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method FromResource, addr 0x2eedc48, size 0x148, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromResource(::StringW resourcePath);
 
-  /// @brief Method FromResources, addr 0x2ed1c50, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method FromResources, addr 0x2eedd98, size 0x148, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromResources(::StringW resourcePath);
 
-  /// @brief Method FromComponentInChildren, addr 0x2ed1da0, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method FromComponentInChildren, addr 0x2eedee8, size 0x11c, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentInChildren(bool includeInactive);
 
-  /// @brief Method FromComponentsInChildrenBase, addr 0x2ed1ec4, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method FromComponentsInChildrenBase, addr 0x2eee00c, size 0x138, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentsInChildrenBase(bool excludeSelf, ::System::Func_2<::UnityW<::UnityEngine::Component>, bool>* predicate,
                                                                                                bool includeInactive);
 
-  /// @brief Method FromComponentInParents, addr 0x2ed2004, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method FromComponentInParents, addr 0x2eee14c, size 0x128, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentInParents(bool excludeSelf, bool includeInactive);
 
-  /// @brief Method FromComponentsInParents, addr 0x2ed2134, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method FromComponentsInParents, addr 0x2eee27c, size 0x128, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentsInParents(bool excludeSelf, bool includeInactive);
 
-  /// @brief Method FromComponentSibling, addr 0x2ed2264, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method FromComponentSibling, addr 0x2eee3ac, size 0x13c, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentSibling();
 
-  /// @brief Method FromComponentsSibling, addr 0x2ed23a0, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method FromComponentsSibling, addr 0x2eee4e8, size 0x13c, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentsSibling();
 
-  /// @brief Method FromComponentInHierarchy, addr 0x2ed24dc, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method FromComponentInHierarchy, addr 0x2eee624, size 0x120, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentInHierarchy(bool includeInactive);
 
-  /// @brief Method FromComponentsInHierarchyBase, addr 0x2ed2604, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method FromComponentsInHierarchyBase, addr 0x2eee74c, size 0x128, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentsInHierarchyBase(::System::Func_2<::UnityW<::UnityEngine::Component>, bool>* predicate, bool includeInactive);
 
-  /// @brief Method FromMethodUntyped, addr 0x2ed2734, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method FromMethodUntyped, addr 0x2eee87c, size 0x108, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromMethodUntyped(::System::Func_2<::Zenject::InjectContext*, ::System::Object*>* method);
 
-  /// @brief Method FromMethodMultipleUntyped, addr 0x2ed2844, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method FromMethodMultipleUntyped, addr 0x2eee98c, size 0x108, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder*
   FromMethodMultipleUntyped(::System::Func_2<::Zenject::InjectContext*, ::System::Collections::Generic::IEnumerable_1<::System::Object*>*>* method);
 
@@ -3464,10 +3464,10 @@ public:
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromResolveGetterBase(::System::Object* identifier, ::System::Func_2<TObj, TResult>* method, ::Zenject::InjectSources source,
                                                                                         bool matchMultiple);
 
-  /// @brief Method FromInstanceBase, addr 0x2ed2954, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method FromInstanceBase, addr 0x2eeea9c, size 0x154, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromInstanceBase(::System::Object* instance);
 
-  /// @brief Method <FromNewComponentSibling>b__37_0, addr 0x2ed2ab0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method <FromNewComponentSibling>b__37_0, addr 0x2eeebf8, size 0x9c, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FromNewComponentSibling_b__37_0(::Zenject::DiContainer* container, ::System::Type* type);
 
   // Ctor Parameters [CppParam { name: "", ty: "FromBinder", modifiers: "&&", def_value: None }]

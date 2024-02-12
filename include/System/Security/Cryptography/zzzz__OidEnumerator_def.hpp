@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::System::Security::Cryptography::OidEnumerator);
 namespace System::Security::Cryptography {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8974))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6984))
 // CS Name: ::System.Security.Cryptography::OidEnumerator*
 class CORDL_TYPE OidEnumerator : public ::System::Object {
 public:
@@ -63,19 +63,19 @@ public:
 
   static inline ::System::Security::Cryptography::OidEnumerator* New_ctor(::System::Security::Cryptography::OidCollection* oids);
 
-  /// @brief Method .ctor, addr 0x29760d0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2979b74, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::OidCollection* oids);
 
-  /// @brief Method get_Current, addr 0x29762cc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_Current, addr 0x2979d70, size 0x20, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::Oid* get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x29762ec, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2979d90, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method MoveNext, addr 0x29762f0, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2979d94, size 0x50, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method Reset, addr 0x2976340, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x2979de4, size 0xc, virtual true, abstract: false, final true
   inline void Reset();
 
   // Ctor Parameters [CppParam { name: "", ty: "OidEnumerator", modifiers: "&&", def_value: None }]

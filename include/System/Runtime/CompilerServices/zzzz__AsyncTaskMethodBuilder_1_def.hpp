@@ -30,8 +30,8 @@ namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename TResult>
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3408))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3402))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3404))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3398))
 // CS Name: ::System.Runtime.CompilerServices::AsyncTaskMethodBuilder`1<TResult>
 struct CORDL_TYPE AsyncTaskMethodBuilder_1 {
 public:

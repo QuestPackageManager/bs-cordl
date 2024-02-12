@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Linq::Expressions::ExpressionType);
 namespace System::Linq::Expressions {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14302))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14315))
 // CS Name: ::System.Linq.Expressions::ExpressionType
 struct CORDL_TYPE ExpressionType {
 public:

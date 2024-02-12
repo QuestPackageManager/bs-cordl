@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SaberClashChecker);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5294))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8993))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4634))
 // CS Name: ::SaberClashChecker*
 class CORDL_TYPE SaberClashChecker : public ::System::Object {
 public:
@@ -78,18 +78,18 @@ public:
 
   constexpr void __cordl_internal_set__prevGetFrameNum(int32_t value);
 
-  /// @brief Method Init, addr 0x2263c04, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x23c2908, size 0x1c, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::SaberManager* saberManager);
 
-  /// @brief Method AreSabersClashing, addr 0x225f95c, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method AreSabersClashing, addr 0x23c2924, size 0x164, virtual false, abstract: false, final false
   inline bool AreSabersClashing(ByRef<::UnityEngine::Vector3> clashingPoint);
 
-  /// @brief Method SegmentToSegmentDist, addr 0x2263c20, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method SegmentToSegmentDist, addr 0x23c2a88, size 0x268, virtual false, abstract: false, final false
   inline float_t SegmentToSegmentDist(::UnityEngine::Vector3 fromA, ::UnityEngine::Vector3 toA, ::UnityEngine::Vector3 fromB, ::UnityEngine::Vector3 toB, ByRef<::UnityEngine::Vector3> inbetweenPoint);
 
   static inline ::GlobalNamespace::SaberClashChecker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2263e88, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c2cf0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SaberClashChecker", modifiers: "&&", def_value: None }]

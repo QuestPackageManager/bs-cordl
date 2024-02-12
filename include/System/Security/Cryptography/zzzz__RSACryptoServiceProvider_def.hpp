@@ -107,63 +107,63 @@ public:
 
   static inline ::System::Security::Cryptography::CspProviderFlags getStaticF_s_UseMachineKeyStore();
 
-  /// @brief Method get_UseMachineKeyStore, addr 0x246611c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_UseMachineKeyStore, addr 0x2488190, size 0x54, virtual false, abstract: false, final false
   static inline bool get_UseMachineKeyStore();
 
   static inline ::System::Security::Cryptography::RSACryptoServiceProvider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24656fc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2487770, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Security::Cryptography::RSACryptoServiceProvider* New_ctor(::System::Security::Cryptography::CspParameters* parameters);
 
-  /// @brief Method .ctor, addr 0x24661a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x248821c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::CspParameters* parameters);
 
   static inline ::System::Security::Cryptography::RSACryptoServiceProvider* New_ctor(int32_t dwKeySize);
 
-  /// @brief Method .ctor, addr 0x2466170, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24881e4, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(int32_t dwKeySize);
 
   static inline ::System::Security::Cryptography::RSACryptoServiceProvider* New_ctor(int32_t dwKeySize, ::System::Security::Cryptography::CspParameters* parameters);
 
-  /// @brief Method .ctor, addr 0x24661b4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2488228, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(int32_t dwKeySize, ::System::Security::Cryptography::CspParameters* parameters);
 
-  /// @brief Method Common, addr 0x2466210, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method Common, addr 0x2488284, size 0x21c, virtual false, abstract: false, final false
   inline void Common(int32_t dwKeySize, bool parameters);
 
-  /// @brief Method Common, addr 0x246642c, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method Common, addr 0x24884a0, size 0x120, virtual false, abstract: false, final false
   inline void Common(::System::Security::Cryptography::CspParameters* p);
 
-  /// @brief Method Finalize, addr 0x246654c, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x24885c0, size 0xa0, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method get_KeySize, addr 0x24665ec, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_KeySize, addr 0x2488660, size 0x20, virtual true, abstract: false, final false
   inline int32_t get_KeySize();
 
-  /// @brief Method get_PublicOnly, addr 0x246660c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_PublicOnly, addr 0x2488680, size 0x1c, virtual false, abstract: false, final false
   inline bool get_PublicOnly();
 
-  /// @brief Method EncryptValue, addr 0x2466628, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method EncryptValue, addr 0x248869c, size 0x20, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncryptValue(::ArrayW<uint8_t, ::Array<uint8_t>*> rgb);
 
-  /// @brief Method ExportParameters, addr 0x2466648, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method ExportParameters, addr 0x24886bc, size 0x140, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::RSAParameters ExportParameters(bool includePrivateParameters);
 
-  /// @brief Method ImportParameters, addr 0x2466788, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method ImportParameters, addr 0x24887fc, size 0x54, virtual true, abstract: false, final false
   inline void ImportParameters(::System::Security::Cryptography::RSAParameters parameters);
 
-  /// @brief Method GetHashNameFromOID, addr 0x24667dc, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method GetHashNameFromOID, addr 0x2488850, size 0x1cc, virtual false, abstract: false, final false
   inline ::StringW GetHashNameFromOID(::StringW oid);
 
-  /// @brief Method VerifyHash, addr 0x24669a8, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method VerifyHash, addr 0x2488a1c, size 0x128, virtual false, abstract: false, final false
   inline bool VerifyHash(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbHash, ::StringW str, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbSignature);
 
-  /// @brief Method Dispose, addr 0x2466ad0, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x2488b44, size 0x54, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method OnKeyGenerated, addr 0x2466b24, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method OnKeyGenerated, addr 0x2488b98, size 0x84, virtual false, abstract: false, final false
   inline void OnKeyGenerated(::System::Object* sender, ::System::EventArgs* e);
 
   // Ctor Parameters [CppParam { name: "", ty: "RSACryptoServiceProvider", modifiers: "&&", def_value: None }]

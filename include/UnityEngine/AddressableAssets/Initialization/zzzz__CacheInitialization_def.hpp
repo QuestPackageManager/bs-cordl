@@ -46,8 +46,8 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::Initialization::__CacheInitiali
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 145, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::Initialization {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14032)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 105 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14117))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14045)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14045), inst: 77 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14130))
 // CS Name: ::CacheInitialization::CacheInitOp*
 class CORDL_TYPE __CacheInitialization__CacheInitOp : public ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<bool> {
 public:
@@ -76,21 +76,21 @@ public:
 
   constexpr void __cordl_internal_set_m_UpdateRequired(bool value);
 
-  /// @brief Method Init, addr 0x2a306f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2a33260, size 0x8, virtual false, abstract: false, final false
   inline void Init(::System::Func_1<bool>* callback);
 
-  /// @brief Method InvokeWaitForCompletion, addr 0x2a306fc, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method InvokeWaitForCompletion, addr 0x2a33268, size 0x94, virtual true, abstract: false, final false
   inline bool InvokeWaitForCompletion();
 
-  /// @brief Method Update, addr 0x2a30790, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method Update, addr 0x2a332fc, size 0xb4, virtual true, abstract: false, final true
   inline void Update(float_t unscaledDeltaTime);
 
-  /// @brief Method Execute, addr 0x2a30844, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x2a333b0, size 0x98, virtual true, abstract: false, final false
   inline void Execute();
 
   static inline ::UnityEngine::AddressableAssets::Initialization::__CacheInitialization__CacheInitOp* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2a30624, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a33190, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__CacheInitialization__CacheInitOp", modifiers: "&&", def_value: None }]
@@ -128,7 +128,7 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::Initialization::__Cache
 namespace UnityEngine::AddressableAssets::Initialization {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14118))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14131))
 // CS Name: ::CacheInitialization::<>c__DisplayClass1_0*
 class CORDL_TYPE __CacheInitialization____c__DisplayClass1_0 : public ::System::Object {
 public:
@@ -162,10 +162,10 @@ public:
 
   static inline ::UnityEngine::AddressableAssets::Initialization::__CacheInitialization____c__DisplayClass1_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2a3061c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a33188, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <InitializeAsync>b__0, addr 0x2a308dc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <InitializeAsync>b__0, addr 0x2a33448, size 0x24, virtual false, abstract: false, final false
   inline bool _InitializeAsync_b__0();
 
   // Ctor Parameters [CppParam { name: "", ty: "__CacheInitialization____c__DisplayClass1_0", modifiers: "&&", def_value: None }]
@@ -208,7 +208,7 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::Initialization::__Cache
 namespace UnityEngine::AddressableAssets::Initialization {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14119))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14132))
 // CS Name: ::UnityEngine.AddressableAssets.Initialization::CacheInitialization*
 class CORDL_TYPE CacheInitialization : public ::System::Object {
 public:
@@ -223,18 +223,18 @@ public:
   /// @brief Convert to "::UnityEngine::ResourceManagement::Util::IInitializableObject"
   constexpr ::UnityEngine::ResourceManagement::Util::IInitializableObject* i___UnityEngine__ResourceManagement__Util__IInitializableObject() noexcept;
 
-  /// @brief Method Initialize, addr 0x2a3037c, size 0x14c, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x2a32ee8, size 0x14c, virtual true, abstract: false, final true
   inline bool Initialize(::StringW id, ::StringW dataStr);
 
-  /// @brief Method InitializeAsync, addr 0x2a304c8, size 0x154, virtual true, abstract: false, final false
+  /// @brief Method InitializeAsync, addr 0x2a33034, size 0x154, virtual true, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> InitializeAsync(::UnityEngine::ResourceManagement::ResourceManager* rm, ::StringW id, ::StringW data);
 
-  /// @brief Method get_RootPath, addr 0x2a30674, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_RootPath, addr 0x2a331e0, size 0x78, virtual false, abstract: false, final false
   static inline ::StringW get_RootPath();
 
   static inline ::UnityEngine::AddressableAssets::Initialization::CacheInitialization* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2a306ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a33258, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CacheInitialization", modifiers: "&&", def_value: None }]

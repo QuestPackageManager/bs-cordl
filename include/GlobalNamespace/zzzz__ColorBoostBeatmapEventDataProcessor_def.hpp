@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorBoostBeatmapEventDataProcessor);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14730)), TypeDefinitionIndex(TypeDefinitionIndex(14741)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14741), inst:
-// 950 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14742)) CS Name: ::ColorBoostBeatmapEventDataProcessor*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15114)), TypeDefinitionIndex(TypeDefinitionIndex(15125)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15125), inst:
+// 946 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(15126)) CS Name: ::ColorBoostBeatmapEventDataProcessor*
 class CORDL_TYPE ColorBoostBeatmapEventDataProcessor : public ::GlobalNamespace::BeatmapEventDataProcessor_1<::GlobalNamespace::ColorBoostBeatmapEventData*> {
 public:
   // Declarations
   static inline ::GlobalNamespace::ColorBoostBeatmapEventDataProcessor* New_ctor();
 
-  /// @brief Method .ctor, addr 0xdff8ec, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe0fde0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ColorBoostBeatmapEventDataProcessor", modifiers: "&&", def_value: None }]

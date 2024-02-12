@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::System::Xml::Schema::Datatype_ENTITY);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11659))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11662))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11557))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11560))
 // CS Name: ::System.Xml.Schema::Datatype_ENTITY*
 class CORDL_TYPE Datatype_ENTITY : public ::System::Xml::Schema::Datatype_NCName {
 public:
@@ -30,15 +30,15 @@ public:
 
   __declspec(property(get = get_TokenizedType))::System::Xml::XmlTokenizedType TokenizedType;
 
-  /// @brief Method get_TypeCode, addr 0x28bb7ec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x28bde54, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
-  /// @brief Method get_TokenizedType, addr 0x28bb7f4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TokenizedType, addr 0x28bde5c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlTokenizedType get_TokenizedType();
 
   static inline ::System::Xml::Schema::Datatype_ENTITY* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28bb7fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28bde64, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Datatype_ENTITY", modifiers: "&&", def_value: None }]

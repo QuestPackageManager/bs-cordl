@@ -51,7 +51,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__BlocksBlade__Element);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5282))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4622))
 // CS Name: ::BlocksBlade::Element*
 class CORDL_TYPE __BlocksBlade__Element : public ::System::Object {
 public:
@@ -76,7 +76,7 @@ public:
 
   static inline ::GlobalNamespace::__BlocksBlade__Element* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2261abc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c04c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__BlocksBlade__Element", modifiers: "&&", def_value: None }]
@@ -113,8 +113,8 @@ static_assert(offsetof(::GlobalNamespace::__BlocksBlade__Element, ___velocity) =
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5283))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8995))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4623))
 // CS Name: ::BlocksBlade*
 class CORDL_TYPE BlocksBlade : public ::UnityEngine::MonoBehaviour {
 public:
@@ -313,27 +313,27 @@ public:
 
   static inline int32_t getStaticF__zClipPropertyID();
 
-  /// @brief Method get_color, addr 0x226186c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x23c0274, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method set_color, addr 0x2261878, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_color, addr 0x23c0280, size 0xc, virtual false, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
-  /// @brief Method Start, addr 0x2261884, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x23c028c, size 0x238, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x2261c28, size 0x458, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x23c0630, size 0x458, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method SetUpElement, addr 0x2261ac4, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method SetUpElement, addr 0x23c04cc, size 0x164, virtual false, abstract: false, final false
   inline void SetUpElement(::GlobalNamespace::__BlocksBlade__Element* element, float_t velocity, ::UnityEngine::Color color);
 
-  /// @brief Method RandomPointOnCircle, addr 0x2262080, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method RandomPointOnCircle, addr 0x23c0a88, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 RandomPointOnCircle(float_t radius);
 
   static inline ::GlobalNamespace::BlocksBlade* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22620cc, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c0ad4, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BlocksBlade", modifiers: "&&", def_value: None }]

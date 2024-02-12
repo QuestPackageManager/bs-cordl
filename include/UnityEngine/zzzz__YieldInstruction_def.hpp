@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::UnityEngine::YieldInstruction);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10191))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8935))
 // CS Name: ::UnityEngine::YieldInstruction*
 class CORDL_TYPE YieldInstruction : public ::System::Object {
 public:
   // Declarations
   static inline ::UnityEngine::YieldInstruction* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ccd2d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cd4364, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "YieldInstruction", modifiers: "&&", def_value: None }]

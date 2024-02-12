@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::InputFeatureNames);
 namespace UnityEngine::InputSystem {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6291))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5550))
 // CS Name: ::UnityEngine.InputSystem::InputFeatureNames*
 class CORDL_TYPE InputFeatureNames : public ::System::Object {
 public:

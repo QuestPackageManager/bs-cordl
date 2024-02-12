@@ -44,21 +44,21 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PollReqContent* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xe6dcf0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe98b80, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance, addr 0xe69ea4, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xe94d34, size 0x18c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::PollReqContent* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetCertReqIDs, addr 0xe6dd18, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method GetCertReqIDs, addr 0xe98ba8, size 0x13c, virtual true, abstract: false, final false
   inline ::ArrayW<::ArrayW<::Org::BouncyCastle::Asn1::DerInteger*, ::Array<::Org::BouncyCastle::Asn1::DerInteger*>*>,
                   ::Array<::ArrayW<::Org::BouncyCastle::Asn1::DerInteger*, ::Array<::Org::BouncyCastle::Asn1::DerInteger*>*>>*>
   GetCertReqIDs();
 
-  /// @brief Method SequenceToDerIntegerArray, addr 0xe6de54, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method SequenceToDerIntegerArray, addr 0xe98ce4, size 0xf4, virtual false, abstract: false, final false
   static inline ::ArrayW<::Org::BouncyCastle::Asn1::DerInteger*, ::Array<::Org::BouncyCastle::Asn1::DerInteger*>*> SequenceToDerIntegerArray(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0xe6df48, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xe98dd8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "PollReqContent", modifiers: "&&", def_value: None }]

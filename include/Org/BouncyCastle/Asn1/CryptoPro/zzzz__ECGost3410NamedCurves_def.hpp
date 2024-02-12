@@ -66,37 +66,37 @@ public:
 
   static inline ::System::Collections::IDictionary* getStaticF_names();
 
-  /// @brief Method ConfigureBasepoint, addr 0xe89a84, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method ConfigureBasepoint, addr 0xeb3914, size 0x98, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::EC::ECPoint* ConfigureBasepoint(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::BigInteger* x,
                                                                            ::Org::BouncyCastle::Math::BigInteger* y);
 
-  /// @brief Method ConfigureCurve, addr 0xe89b1c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ConfigureCurve, addr 0xeb39ac, size 0x4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::EC::ECCurve* ConfigureCurve(::Org::BouncyCastle::Math::EC::ECCurve* curve);
 
   static inline ::Org::BouncyCastle::Asn1::CryptoPro::ECGost3410NamedCurves* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe89b20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeb39b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method GetByOid, addr 0xe8ba30, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method GetByOid, addr 0xeb58c0, size 0x11c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* GetByOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetByOidX9, addr 0xe8bb4c, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method GetByOidX9, addr 0xeb59dc, size 0x1cc, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByOidX9(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method get_Names, addr 0xe8bd18, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method get_Names, addr 0xeb5ba8, size 0x10c, virtual false, abstract: false, final false
   static inline ::System::Collections::IEnumerable* get_Names();
 
-  /// @brief Method GetByName, addr 0xe8be24, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method GetByName, addr 0xeb5cb4, size 0x1ec, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* GetByName(::StringW name);
 
-  /// @brief Method GetByNameX9, addr 0xe8c010, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method GetByNameX9, addr 0xeb5ea0, size 0x144, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByNameX9(::StringW name);
 
-  /// @brief Method GetName, addr 0xe8c154, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetName, addr 0xeb5fe4, size 0x100, virtual false, abstract: false, final false
   static inline ::StringW GetName(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetOid, addr 0xe8c254, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method GetOid, addr 0xeb60e4, size 0x11c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetOid(::StringW name);
 
   // Ctor Parameters [CppParam { name: "", ty: "ECGost3410NamedCurves", modifiers: "&&", def_value: None }]

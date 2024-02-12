@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Events::InvokableCallList::*)(::UnityEngine::Events::BaseInvokableCall*)>(
     &::UnityEngine::Events::InvokableCallList::AddPersistentInvokableCall)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x2cf95b4;
+  constexpr static std::size_t addrs = 0x2d04290;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Events::InvokableCallList::*)(::UnityEngine::Events::BaseInvokableCall*)>(
     &::UnityEngine::Events::InvokableCallList::AddListener)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x2cf9660;
+  constexpr static std::size_t addrs = 0x2d0433c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Events::InvokableCallList::*)(::System::Object*, ::System::Reflection::MethodInfo*)>(
     &::UnityEngine::Events::InvokableCallList::RemoveListener)> {
   constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x2cf970c;
+  constexpr static std::size_t addrs = 0x2d043e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Events::InvokableCallList::*)()>(&::UnityEngine::Events::InvokableCallList::Clear)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x2cf9980;
+  constexpr static std::size_t addrs = 0x2d0465c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::InvokableCallList*>::get(), "Clear",
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Events::InvokableCallList::*)()>(&::UnityEngine::Events::InvokableCallList::ClearPersistent)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x2cf9a38;
+  constexpr static std::size_t addrs = 0x2d04714;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::InvokableCallList*>::get(),
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>* (
     ::UnityEngine::Events::InvokableCallList::*)()>(&::UnityEngine::Events::InvokableCallList::PrepareInvoke)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x2cf9af0;
+  constexpr static std::size_t addrs = 0x2d047cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::InvokableCallList*>::get(),
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Events::InvokableCallList::*)()>(&::UnityEngine::Events::InvokableCallList::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x2cf9ba4;
+  constexpr static std::size_t addrs = 0x2d04880;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::InvokableCallList*>::get(), ".ctor",

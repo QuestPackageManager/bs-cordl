@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__OffsetModifier__OffsetLimits::*)(
     ::RootMotion::FinalIK::IKEffector*, ::UnityEngine::Quaternion)>(&::RootMotion::FinalIK::__OffsetModifier__OffsetLimits::Apply)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x1297d58;
+  constexpr static std::size_t addrs = 0x132fe08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::RootMotion::FinalIK::__OffsetModifier__OffsetLimits::*)(float_t, float_t, float_t)>(
     &::RootMotion::FinalIK::__OffsetModifier__OffsetLimits::SpringAxis)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x1297fc8;
+  constexpr static std::size_t addrs = 0x1330078;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::RootMotion::FinalIK::__OffsetModifier__OffsetLimits::*)(float_t, float_t, bool)>(
     &::RootMotion::FinalIK::__OffsetModifier__OffsetLimits::Spring)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x1298038;
+  constexpr static std::size_t addrs = 0x13300e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__OffsetModifier__OffsetLimits::*)()>(
     &::RootMotion::FinalIK::__OffsetModifier__OffsetLimits::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1298080;
+  constexpr static std::size_t addrs = 0x1330130;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::__OffsetModifier__OffsetLimits*>::get(),
@@ -242,7 +242,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__OffsetModifier___Initiate_d__8::*)(int32_t)>(
     &::RootMotion::FinalIK::__OffsetModifier___Initiate_d__8::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x1297c5c;
+  constexpr static std::size_t addrs = 0x132fd0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -257,7 +257,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__OffsetModifier___Initiate_d__8::*)()>(
     &::RootMotion::FinalIK::__OffsetModifier___Initiate_d__8::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x1298088;
+  constexpr static std::size_t addrs = 0x1330138;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::__OffsetModifier___Initiate_d__8*>::get(),
@@ -271,7 +271,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::RootMotion::FinalIK::__OffsetModifier___Initiate_d__8::*)()>(
     &::RootMotion::FinalIK::__OffsetModifier___Initiate_d__8::MoveNext)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x129808c;
+  constexpr static std::size_t addrs = 0x133013c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::__OffsetModifier___Initiate_d__8*>::get(),
@@ -285,7 +285,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::RootMotion::FinalIK::__OffsetModifier___Initiate_d__8::*)()>(
     &::RootMotion::FinalIK::__OffsetModifier___Initiate_d__8::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x12981dc;
+  constexpr static std::size_t addrs = 0x133028c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -300,7 +300,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__OffsetModifier___Initiate_d__8::*)()>(
     &::RootMotion::FinalIK::__OffsetModifier___Initiate_d__8::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x12981e4;
+  constexpr static std::size_t addrs = 0x1330294;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -315,7 +315,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::RootMotion::FinalIK::__OffsetModifier___Initiate_d__8::*)()>(
     &::RootMotion::FinalIK::__OffsetModifier___Initiate_d__8::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1298224;
+  constexpr static std::size_t addrs = 0x13302d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -429,7 +429,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::RootMotion::FinalIK::OffsetModifier::*)()>(&::RootMotion::FinalIK::OffsetModifier::get_deltaTime)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x12946ac;
+  constexpr static std::size_t addrs = 0x132c75c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::OffsetModifier*>::get(), "get_deltaTime",
@@ -456,7 +456,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::OffsetModifier::*)()>(&::RootMotion::FinalIK::OffsetModifier::Start)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x1294a74;
+  constexpr static std::size_t addrs = 0x132cb24;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -471,7 +471,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::RootMotion::FinalIK::OffsetModifier::*)()>(
     &::RootMotion::FinalIK::OffsetModifier::Initiate)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x1297bf4;
+  constexpr static std::size_t addrs = 0x132fca4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::OffsetModifier*>::get(), "Initiate",
@@ -484,7 +484,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::OffsetModifier::*)()>(&::RootMotion::FinalIK::OffsetModifier::ModifyOffset)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x1297c84;
+  constexpr static std::size_t addrs = 0x132fd34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::OffsetModifier*>::get(), "ModifyOffset",
@@ -498,7 +498,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::OffsetModifier::*)(
     ::ArrayW<::RootMotion::FinalIK::__OffsetModifier__OffsetLimits*, ::Array<::RootMotion::FinalIK::__OffsetModifier__OffsetLimits*>*>)>(&::RootMotion::FinalIK::OffsetModifier::ApplyLimits)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x12970dc;
+  constexpr static std::size_t addrs = 0x132f18c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -513,7 +513,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::OffsetModifier::*)()>(&::RootMotion::FinalIK::OffsetModifier::OnDestroy)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x1297ebc;
+  constexpr static std::size_t addrs = 0x132ff6c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -527,7 +527,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::OffsetModifier::*)()>(&::RootMotion::FinalIK::OffsetModifier::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x12949ec;
+  constexpr static std::size_t addrs = 0x132ca9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::OffsetModifier*>::get(), ".ctor",

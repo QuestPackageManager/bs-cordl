@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::UnityEngine::Animations::DiscreteEvaluationAttribute);
 namespace UnityEngine::Animations {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14903))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14776))
 // CS Name: ::UnityEngine.Animations::DiscreteEvaluationAttribute*
 class CORDL_TYPE DiscreteEvaluationAttribute : public ::System::Attribute {
 public:

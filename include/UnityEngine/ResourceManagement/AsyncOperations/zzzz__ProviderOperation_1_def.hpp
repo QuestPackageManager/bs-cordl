@@ -77,10 +77,10 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
 // cpp template
 template <typename TObject>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3835)), TypeDefinitionIndex(TypeDefinitionIndex(14032)), TypeDefinitionIndex(TypeDefinitionIndex(14033)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14034)), TypeDefinitionIndex(TypeDefinitionIndex(14036)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3835), inst: 275 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 790 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 792 })] Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(14040)) CS Name: ::UnityEngine.ResourceManagement.AsyncOperations::ProviderOperation`1<TObject>*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3834)), TypeDefinitionIndex(TypeDefinitionIndex(14045)), TypeDefinitionIndex(TypeDefinitionIndex(14046)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14047)), TypeDefinitionIndex(TypeDefinitionIndex(14049)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3834), inst: 273 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14045), inst: 791 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14046), inst: 793 })] Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(14053)) CS Name: ::UnityEngine.ResourceManagement.AsyncOperations::ProviderOperation`1<TObject>*
 class CORDL_TYPE ProviderOperation_1 : public ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject> {
 public:
   // Declarations

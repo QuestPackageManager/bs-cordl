@@ -57,27 +57,27 @@ public:
 
   constexpr void __cordl_internal_set_sigQualifier(::Org::BouncyCastle::Asn1::Asn1Object* value);
 
-  /// @brief Method GetInstance, addr 0xe98154, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xec1fe4, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xe99474, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xec3304, size 0x208, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* sigPolicyQualifierId,
                                                                                  ::Org::BouncyCastle::Asn1::Asn1Encodable* sigQualifier);
 
-  /// @brief Method .ctor, addr 0xe9967c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xec350c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* sigPolicyQualifierId, ::Org::BouncyCastle::Asn1::Asn1Encodable* sigQualifier);
 
-  /// @brief Method get_SigPolicyQualifierId, addr 0xe996c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SigPolicyQualifierId, addr 0xec3554, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_SigPolicyQualifierId();
 
-  /// @brief Method get_SigQualifier, addr 0xe996cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SigQualifier, addr 0xec355c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* get_SigQualifier();
 
-  /// @brief Method ToAsn1Object, addr 0xe996d4, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xec3564, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "SigPolicyQualifierInfo", modifiers: "&&", def_value: None }]

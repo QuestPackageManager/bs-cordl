@@ -41,7 +41,7 @@ namespace Oculus::Platform::Models {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13430))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13369))
 // CS Name: ::Oculus.Platform.Models::DeserializableList`1<T>*
 class CORDL_TYPE DeserializableList_1 : public ::System::Object {
 public:

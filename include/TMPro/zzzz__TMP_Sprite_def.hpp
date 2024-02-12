@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::TMPro::TMP_Sprite);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(12449))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12417))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8987)), TypeDefinitionIndex(TypeDefinitionIndex(12347))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12315))
 // CS Name: ::TMPro::TMP_Sprite*
 class CORDL_TYPE TMP_Sprite : public ::TMPro::TMP_TextElement_Legacy {
 public:
@@ -73,7 +73,7 @@ public:
 
   static inline ::TMPro::TMP_Sprite* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c41f34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c3faa0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TMP_Sprite", modifiers: "&&", def_value: None }]

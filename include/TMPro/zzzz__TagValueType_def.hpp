@@ -16,7 +16,7 @@ MARK_VAL_T(::TMPro::TagValueType);
 namespace TMPro {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12409))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12307))
 // CS Name: ::TMPro::TagValueType
 struct CORDL_TYPE TagValueType {
 public:

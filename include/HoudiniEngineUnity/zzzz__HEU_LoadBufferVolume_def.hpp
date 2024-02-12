@@ -33,8 +33,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_LoadBufferVolume);
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9804)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9806))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(9596))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9598))
 // CS Name: ::HoudiniEngineUnity::HEU_LoadBufferVolume*
 class CORDL_TYPE HEU_LoadBufferVolume : public ::HoudiniEngineUnity::HEU_LoadBufferBase {
 public:
@@ -196,7 +196,7 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_LoadBufferVolume* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21abc14, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22414f8, size 0x104, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_LoadBufferVolume", modifiers: "&&", def_value: None }]

@@ -20,18 +20,18 @@ MARK_REF_PTR_T(::Mono::Net::Security::AsyncHandshakeRequest);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8822))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8823))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6832))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6833))
 // CS Name: ::Mono.Net.Security::AsyncHandshakeRequest*
 class CORDL_TYPE AsyncHandshakeRequest : public ::Mono::Net::Security::AsyncProtocolRequest {
 public:
   // Declarations
   static inline ::Mono::Net::Security::AsyncHandshakeRequest* New_ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, bool sync);
 
-  /// @brief Method .ctor, addr 0x281f65c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2823e44, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, bool sync);
 
-  /// @brief Method Run, addr 0x281f664, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x2823e4c, size 0x1c, virtual true, abstract: false, final false
   inline ::Mono::Net::Security::AsyncOperationStatus Run(::Mono::Net::Security::AsyncOperationStatus status);
 
   // Ctor Parameters [CppParam { name: "", ty: "AsyncHandshakeRequest", modifiers: "&&", def_value: None }]

@@ -19,15 +19,15 @@ MARK_REF_PTR_T(::System::PasteArguments);
 namespace System {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8864))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6874))
 // CS Name: ::System::PasteArguments*
 class CORDL_TYPE PasteArguments : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AppendArgument, addr 0x2946770, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method AppendArgument, addr 0x294ae6c, size 0x1dc, virtual false, abstract: false, final false
   static inline void AppendArgument(::System::Text::StringBuilder* stringBuilder, ::StringW argument);
 
-  /// @brief Method ContainsNoWhitespaceOrQuotes, addr 0x294694c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method ContainsNoWhitespaceOrQuotes, addr 0x294b048, size 0xc0, virtual false, abstract: false, final false
   static inline bool ContainsNoWhitespaceOrQuotes(::StringW s);
 
   // Ctor Parameters [CppParam { name: "", ty: "PasteArguments", modifiers: "&&", def_value: None }]

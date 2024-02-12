@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeType (
     ::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData::*)()>(&::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData::get_resizeType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x224c89c;
+  constexpr static std::size_t addrs = 0x23aace8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData::*)()>(
     &::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData::get_offset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x224c8a4;
+  constexpr static std::size_t addrs = 0x23aacf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*> (
         ::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData::*)()>(&::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData::get_lights)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x224c8ac;
+  constexpr static std::size_t addrs = 0x23aacf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> (
     ::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData::*)()>(&::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData::get_otherTransforms)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x224c8b4;
+  constexpr static std::size_t addrs = 0x23aad00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData::*)()>(
     &::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x224c8bc;
+  constexpr static std::size_t addrs = 0x23aad08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -192,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MultiplayerEnvironmentResizeController::*)()>(
     &::GlobalNamespace::MultiplayerEnvironmentResizeController::get_isResizingFinished)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x224c298;
+  constexpr static std::size_t addrs = 0x23aa6dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -207,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerEnvironmentResizeController::*)(::System::Action*)>(
     &::GlobalNamespace::MultiplayerEnvironmentResizeController::add_resizingDidFinishEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x224c2a0;
+  constexpr static std::size_t addrs = 0x23aa6e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -222,7 +222,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerEnvironmentResizeController::*)(::System::Action*)>(
     &::GlobalNamespace::MultiplayerEnvironmentResizeController::remove_resizingDidFinishEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x224c33c;
+  constexpr static std::size_t addrs = 0x23aa780;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -236,8 +236,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerEnvironmentResizeController::*)()>(
     &::GlobalNamespace::MultiplayerEnvironmentResizeController::Start)> {
-  constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x224c3d8;
+  constexpr static std::size_t size = 0x140;
+  constexpr static std::size_t addrs = 0x23aa81c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -251,8 +251,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerEnvironmentResizeController::*)()>(
     &::GlobalNamespace::MultiplayerEnvironmentResizeController::OnDestroy)> {
-  constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x224c544;
+  constexpr static std::size_t size = 0x154;
+  constexpr static std::size_t addrs = 0x23aa98c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -267,7 +267,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerEnvironmentResizeController::*)(float_t)>(
     &::GlobalNamespace::MultiplayerEnvironmentResizeController::HandleEdgeDistanceFromCenterWasCalculated)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x224c514;
+  constexpr static std::size_t addrs = 0x23aa95c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -282,7 +282,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerEnvironmentResizeController::*)(float_t)>(
     &::GlobalNamespace::MultiplayerEnvironmentResizeController::HandleSpawnCenterDistanceWasFound)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x224c52c;
+  constexpr static std::size_t addrs = 0x23aa974;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -297,7 +297,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerEnvironmentResizeController::*)()>(
     &::GlobalNamespace::MultiplayerEnvironmentResizeController::TryResize)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x224c694;
+  constexpr static std::size_t addrs = 0x23aaae0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -312,7 +312,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerEnvironmentResizeController::*)()>(
     &::GlobalNamespace::MultiplayerEnvironmentResizeController::Resize)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x224c6ac;
+  constexpr static std::size_t addrs = 0x23aaaf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -327,7 +327,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerEnvironmentResizeController::*)()>(
     &::GlobalNamespace::MultiplayerEnvironmentResizeController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x224c894;
+  constexpr static std::size_t addrs = 0x23aace0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

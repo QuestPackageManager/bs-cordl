@@ -77,36 +77,36 @@ public:
 
   static inline ::System::TypeLoadException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25f225c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2616174, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::TypeLoadException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x25f22bc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26161d4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method get_Message, addr 0x25f22e4, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x26161fc, size 0x18, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
-  /// @brief Method SetMessageField, addr 0x25f22fc, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method SetMessageField, addr 0x2616214, size 0xf0, virtual false, abstract: false, final false
   inline void SetMessageField();
 
   static inline ::System::TypeLoadException* New_ctor(::StringW className, ::StringW assemblyName);
 
-  /// @brief Method .ctor, addr 0x25f23ec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2616304, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW className, ::StringW assemblyName);
 
   static inline ::System::TypeLoadException* New_ctor(::StringW className, ::StringW assemblyName, ::StringW messageArg, int32_t resourceId);
 
-  /// @brief Method .ctor, addr 0x25f23f8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2616310, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::StringW className, ::StringW assemblyName, ::StringW messageArg, int32_t resourceId);
 
   static inline ::System::TypeLoadException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x25f2458, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2616370, size 0x148, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetObjectData, addr 0x25f25a0, size 0x1d4, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x26164b8, size 0x1d4, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeLoadException", modifiers: "&&", def_value: None }]

@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::UnityEngine::UI::RectangularVertexClipper);
 namespace UnityEngine::UI {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13028))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12926))
 // CS Name: ::UnityEngine.UI::RectangularVertexClipper*
 class CORDL_TYPE RectangularVertexClipper : public ::System::Object {
 public:
@@ -51,12 +51,12 @@ public:
 
   constexpr void __cordl_internal_set_m_CanvasCorners(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
-  /// @brief Method GetCanvasRect, addr 0x2d535b8, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method GetCanvasRect, addr 0x2d719a0, size 0x170, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect GetCanvasRect(::UnityEngine::RectTransform* t, ::UnityEngine::Canvas* c);
 
   static inline ::UnityEngine::UI::RectangularVertexClipper* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d53728, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d71b10, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RectangularVertexClipper", modifiers: "&&", def_value: None }]

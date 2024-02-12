@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::InternalsVisibleToAttribute)
 namespace System::Runtime::CompilerServices {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3415))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3411))
 // CS Name: ::System.Runtime.CompilerServices::InternalsVisibleToAttribute*
 class CORDL_TYPE InternalsVisibleToAttribute : public ::System::Attribute {
 public:
@@ -43,10 +43,10 @@ public:
 
   static inline ::System::Runtime::CompilerServices::InternalsVisibleToAttribute* New_ctor(::StringW assemblyName);
 
-  /// @brief Method .ctor, addr 0x24dec34, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24fdd90, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW assemblyName);
 
-  /// @brief Method set_AllInternalsVisible, addr 0x24dec64, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_AllInternalsVisible, addr 0x24fddc0, size 0xc, virtual false, abstract: false, final false
   inline void set_AllInternalsVisible(bool value);
 
   // Ctor Parameters [CppParam { name: "", ty: "InternalsVisibleToAttribute", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::ArcVisibilityType);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4606))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11035))
 // CS Name: ::ArcVisibilityType
 struct CORDL_TYPE ArcVisibilityType {
 public:

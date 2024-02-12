@@ -27,8 +27,8 @@ MARK_VAL_T(::UnityEngine::ProBuilder::IntVec2);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10243))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12132))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8987))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12030))
 // CS Name: ::UnityEngine.ProBuilder::IntVec2
 struct CORDL_TYPE IntVec2 {
 public:
@@ -43,43 +43,43 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::ProBuilder::IntVec2>"
   constexpr ::System::IEquatable_1<::UnityEngine::ProBuilder::IntVec2>* i___System__IEquatable_1___UnityEngine__ProBuilder__IntVec2_();
 
-  /// @brief Method get_x, addr 0x2b4674c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_x, addr 0x2b452b8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_x();
 
-  /// @brief Method get_y, addr 0x2b46754, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_y, addr 0x2b452c0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_y();
 
-  /// @brief Method .ctor, addr 0x2b4675c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b452c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector2 vector);
 
-  /// @brief Method ToString, addr 0x2b46764, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2b452d0, size 0xa0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method op_Equality, addr 0x2b46804, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x2b45370, size 0x24, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::ProBuilder::IntVec2 a, ::UnityEngine::ProBuilder::IntVec2 b);
 
-  /// @brief Method op_Inequality, addr 0x2b46894, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x2b45400, size 0x28, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::ProBuilder::IntVec2 a, ::UnityEngine::ProBuilder::IntVec2 b);
 
-  /// @brief Method Equals, addr 0x2b46828, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2b45394, size 0x6c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::ProBuilder::IntVec2 p);
 
-  /// @brief Method Equals, addr 0x2b46924, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x2b45490, size 0x6c, virtual false, abstract: false, final false
   inline bool Equals(::UnityEngine::Vector2 p);
 
-  /// @brief Method Equals, addr 0x2b46990, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2b454fc, size 0xbc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* b);
 
-  /// @brief Method GetHashCode, addr 0x2b46a4c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2b455b8, size 0xc, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method round, addr 0x2b468bc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method round, addr 0x2b45428, size 0x68, virtual false, abstract: false, final false
   static inline int32_t round(float_t v);
 
-  /// @brief Method op_Implicit, addr 0x2b46a58, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2b455c4, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 op_Implicit___UnityEngine__Vector2(::UnityEngine::ProBuilder::IntVec2 p);
 
-  /// @brief Method op_Implicit, addr 0x2b46a5c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2b455c8, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::IntVec2 op_Implicit___UnityEngine__ProBuilder__IntVec2(::UnityEngine::Vector2 p);
 
   // Ctor Parameters [CppParam { name: "value", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }]

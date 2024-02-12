@@ -16,14 +16,14 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_HoudiniVersion);
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9759))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9551))
 // CS Name: ::HoudiniEngineUnity::HEU_HoudiniVersion*
 class CORDL_TYPE HEU_HoudiniVersion : public ::System::Object {
 public:
   // Declarations
   static inline ::HoudiniEngineUnity::HEU_HoudiniVersion* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2192074, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2226958, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_HoudiniVersion", modifiers: "&&", def_value: None }]

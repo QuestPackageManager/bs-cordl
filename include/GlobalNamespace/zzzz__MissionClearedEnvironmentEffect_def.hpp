@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionClearedEnvironmentEffect);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4956))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4310))
 // CS Name: ::MissionClearedEnvironmentEffect*
 class CORDL_TYPE MissionClearedEnvironmentEffect : public ::UnityEngine::MonoBehaviour {
 public:
@@ -46,18 +46,18 @@ public:
 
   constexpr void __cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value);
 
-  /// @brief Method Awake, addr 0x23ae7c4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x236e8f8, size 0x8c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnDestroy, addr 0x23ae850, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x236e984, size 0x8c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleMissionObjectiveCheckersManagerObjectiveWasCleared, addr 0x23ae8dc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method HandleMissionObjectiveCheckersManagerObjectiveWasCleared, addr 0x236ea10, size 0x7c, virtual false, abstract: false, final false
   inline void HandleMissionObjectiveCheckersManagerObjectiveWasCleared();
 
   static inline ::GlobalNamespace::MissionClearedEnvironmentEffect* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23ae958, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x236ea8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionClearedEnvironmentEffect", modifiers: "&&", def_value: None }]

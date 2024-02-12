@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::Initialization::AddressablesRun
 namespace UnityEngine::AddressableAssets::Initialization {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14116))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14129))
 // CS Name: ::UnityEngine.AddressableAssets.Initialization::AddressablesRuntimeProperties*
 class CORDL_TYPE AddressablesRuntimeProperties : public ::System::Object {
 public:
@@ -63,25 +63,25 @@ public:
 
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* getStaticF_s_CachedValues();
 
-  /// @brief Method GetAssemblies, addr 0x2a2f6e8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetAssemblies, addr 0x2a32254, size 0x20, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Reflection::Assembly*, ::Array<::System::Reflection::Assembly*>*> GetAssemblies();
 
-  /// @brief Method GetCachedValueCount, addr 0x2a2f708, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetCachedValueCount, addr 0x2a32274, size 0x78, virtual false, abstract: false, final false
   static inline int32_t GetCachedValueCount();
 
-  /// @brief Method SetPropertyValue, addr 0x2a2f780, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method SetPropertyValue, addr 0x2a322ec, size 0x90, virtual false, abstract: false, final false
   static inline void SetPropertyValue(::StringW name, ::StringW val);
 
-  /// @brief Method ClearCachedPropertyValues, addr 0x2a2f810, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ClearCachedPropertyValues, addr 0x2a3237c, size 0x78, virtual false, abstract: false, final false
   static inline void ClearCachedPropertyValues();
 
-  /// @brief Method EvaluateProperty, addr 0x2a2f888, size 0x438, virtual false, abstract: false, final false
+  /// @brief Method EvaluateProperty, addr 0x2a323f4, size 0x438, virtual false, abstract: false, final false
   static inline ::StringW EvaluateProperty(::StringW name);
 
-  /// @brief Method EvaluateString, addr 0x2a1c254, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method EvaluateString, addr 0x2a1edc0, size 0xac, virtual false, abstract: false, final false
   static inline ::StringW EvaluateString(::StringW input);
 
-  /// @brief Method EvaluateString, addr 0x2a2fcc0, size 0x58c, virtual false, abstract: false, final false
+  /// @brief Method EvaluateString, addr 0x2a3282c, size 0x58c, virtual false, abstract: false, final false
   static inline ::StringW EvaluateString(::StringW inputString, char16_t startDelimiter, char16_t endDelimiter, ::System::Func_2<::StringW, ::StringW>* varFunc);
 
   // Ctor Parameters [CppParam { name: "", ty: "AddressablesRuntimeProperties", modifiers: "&&", def_value: None }]

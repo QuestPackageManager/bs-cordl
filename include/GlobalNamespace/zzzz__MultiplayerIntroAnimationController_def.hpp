@@ -55,8 +55,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerIntroAnimationController);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 145, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10159)), TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5208))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8903)), TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4547))
 // CS Name: ::MultiplayerIntroAnimationController*
 class CORDL_TYPE MultiplayerIntroAnimationController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -225,36 +225,36 @@ public:
 
   static inline ::System::Random* getStaticF__random();
 
-  /// @brief Method OnValidate, addr 0x224cea4, size 0x57c, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x23ab2f0, size 0x57c, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method SetBeforeIntroValue, addr 0x224b254, size 0x478, virtual false, abstract: false, final false
+  /// @brief Method SetBeforeIntroValue, addr 0x23a9698, size 0x478, virtual false, abstract: false, final false
   inline void SetBeforeIntroValue();
 
-  /// @brief Method PlayIntroAnimation, addr 0x2248c00, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method PlayIntroAnimation, addr 0x23a7030, size 0x118, virtual false, abstract: false, final false
   inline void PlayIntroAnimation(float_t maxDesiredIntroAnimationDuration, ::System::Action* onCompleted);
 
-  /// @brief Method GetFullIntroAnimationTime, addr 0x22487e8, size 0x418, virtual false, abstract: false, final false
+  /// @brief Method GetFullIntroAnimationTime, addr 0x23a6c18, size 0x418, virtual false, abstract: false, final false
   inline int64_t GetFullIntroAnimationTime();
 
-  /// @brief Method BindTimeline, addr 0x224d420, size 0x78c, virtual false, abstract: false, final false
+  /// @brief Method BindTimeline, addr 0x23ab86c, size 0x78c, virtual false, abstract: false, final false
   inline void BindTimeline();
 
-  /// @brief Method BindRingsAndSetTiming, addr 0x224e234, size 0x7f4, virtual false, abstract: false, final false
+  /// @brief Method BindRingsAndSetTiming, addr 0x23ac680, size 0x7f4, virtual false, abstract: false, final false
   inline void BindRingsAndSetTiming(int32_t connectedPlayersCount, ::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*> connectedRings, ::UnityEngine::GameObject* localRing);
 
-  /// @brief Method TransitionToAfterIntroAnimationState, addr 0x2248d18, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method TransitionToAfterIntroAnimationState, addr 0x23a7148, size 0xd4, virtual false, abstract: false, final false
   inline void TransitionToAfterIntroAnimationState();
 
-  /// @brief Method CalculatePlayerIndexSequence, addr 0x224dbac, size 0x584, virtual false, abstract: false, final false
+  /// @brief Method CalculatePlayerIndexSequence, addr 0x23abff8, size 0x584, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Queue_1<int32_t>* CalculatePlayerIndexSequence(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IConnectedPlayer*>* allActivePlayer);
 
-  /// @brief Method Completed, addr 0x224ea28, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Completed, addr 0x23ace74, size 0x38, virtual false, abstract: false, final false
   inline void Completed();
 
   static inline ::GlobalNamespace::MultiplayerIntroAnimationController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x224ea60, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23aceac, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerIntroAnimationController", modifiers: "&&", def_value: None }]

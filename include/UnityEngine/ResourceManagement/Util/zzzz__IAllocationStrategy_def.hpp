@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::Util::IAllocationStrategy);
 namespace UnityEngine::ResourceManagement::Util {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13977))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13990))
 // CS Name: ::UnityEngine.ResourceManagement.Util::IAllocationStrategy*
 class CORDL_TYPE IAllocationStrategy {
 public:

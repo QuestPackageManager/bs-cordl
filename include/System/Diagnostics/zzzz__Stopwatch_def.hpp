@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::System::Diagnostics::Stopwatch);
 namespace System::Diagnostics {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8961))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6971))
 // CS Name: ::System.Diagnostics::Stopwatch*
 class CORDL_TYPE Stopwatch : public ::System::Object {
 public:
@@ -73,36 +73,36 @@ public:
 
   static inline bool getStaticF_IsHighResolution();
 
-  /// @brief Method GetTimestamp, addr 0x296cc10, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetTimestamp, addr 0x2970b30, size 0x4, virtual false, abstract: false, final false
   static inline int64_t GetTimestamp();
 
-  /// @brief Method StartNew, addr 0x2973e30, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method StartNew, addr 0x29778d4, size 0x64, virtual false, abstract: false, final false
   static inline ::System::Diagnostics::Stopwatch* StartNew();
 
   static inline ::System::Diagnostics::Stopwatch* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2973e94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2977938, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Elapsed, addr 0x2973f04, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method get_Elapsed, addr 0x29779a8, size 0xf8, virtual false, abstract: false, final false
   inline ::System::TimeSpan get_Elapsed();
 
-  /// @brief Method get_ElapsedMilliseconds, addr 0x297406c, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method get_ElapsedMilliseconds, addr 0x2977b10, size 0x11c, virtual false, abstract: false, final false
   inline int64_t get_ElapsedMilliseconds();
 
-  /// @brief Method get_ElapsedTicks, addr 0x2973ffc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_ElapsedTicks, addr 0x2977aa0, size 0x70, virtual false, abstract: false, final false
   inline int64_t get_ElapsedTicks();
 
-  /// @brief Method get_IsRunning, addr 0x2974188, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsRunning, addr 0x2977c2c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsRunning();
 
-  /// @brief Method Reset, addr 0x2974190, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x2977c34, size 0xc, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Start, addr 0x2973e9c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2977940, size 0x68, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Stop, addr 0x297419c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Stop, addr 0x2977c40, size 0x78, virtual false, abstract: false, final false
   inline void Stop();
 
   // Ctor Parameters [CppParam { name: "", ty: "Stopwatch", modifiers: "&&", def_value: None }]

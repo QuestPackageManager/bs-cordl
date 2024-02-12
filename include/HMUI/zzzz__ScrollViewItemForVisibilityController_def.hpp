@@ -18,18 +18,18 @@ MARK_REF_PTR_T(::HMUI::ScrollViewItemForVisibilityController);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13649))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13602))
 // CS Name: ::HMUI::ScrollViewItemForVisibilityController*
 class CORDL_TYPE ScrollViewItemForVisibilityController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Method GetWorldCorners, addr 0x2144e44, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetWorldCorners, addr 0x21d9728, size 0x68, virtual false, abstract: false, final false
   inline void GetWorldCorners(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> fourCornersArray);
 
   static inline ::HMUI::ScrollViewItemForVisibilityController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2144eac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21d9790, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ScrollViewItemForVisibilityController", modifiers: "&&", def_value: None }]

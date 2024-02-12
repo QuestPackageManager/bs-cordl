@@ -49,28 +49,28 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
   constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable();
 
-  /// @brief Method .ctor, addr 0x25ff248, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2623150, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(void* v);
 
-  /// @brief Method .ctor, addr 0x25ff250, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2623158, size 0x1b4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method get_Value, addr 0x25ff404, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x262330c, size 0x8, virtual false, abstract: false, final false
   inline void* get_Value();
 
-  /// @brief Method GetObjectData, addr 0x25ff40c, size 0x1bc, virtual true, abstract: false, final true
+  /// @brief Method GetObjectData, addr 0x2623314, size 0x1bc, virtual true, abstract: false, final true
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method Equals, addr 0x25ff5c8, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x26234d0, size 0xfc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x25ff6c4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x26235cc, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ConstructInstantiation, addr 0x25ff6cc, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method ConstructInstantiation, addr 0x26235d4, size 0x158, virtual false, abstract: false, final false
   static inline ::StringW ConstructInstantiation(::System::Reflection::RuntimeMethodInfo* method, ::System::TypeNameFormatFlags format);
 
-  /// @brief Method IsNullHandle, addr 0x25ff824, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method IsNullHandle, addr 0x262372c, size 0x58, virtual false, abstract: false, final false
   inline bool IsNullHandle();
 
   // Ctor Parameters [CppParam { name: "value", ty: "void*", modifiers: "", def_value: None }]

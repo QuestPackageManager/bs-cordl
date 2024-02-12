@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::System::Net::Configuration::SettingsSectionInternal);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net::Configuration {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9340))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9315))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7350))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7325))
 // CS Name: ::System.Net.Configuration::SettingsSectionInternal*
 class CORDL_TYPE SettingsSectionInternal : public ::System::Object {
 public:
@@ -48,15 +48,15 @@ public:
 
   static inline ::System::Net::Configuration::SettingsSectionInternal* getStaticF_instance();
 
-  /// @brief Method get_Section, addr 0x29f0db0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Section, addr 0x29f5854, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Net::Configuration::SettingsSectionInternal* get_Section();
 
-  /// @brief Method get_Ipv6Enabled, addr 0x29f0e08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Ipv6Enabled, addr 0x29f58ac, size 0x8, virtual false, abstract: false, final false
   inline bool get_Ipv6Enabled();
 
   static inline ::System::Net::Configuration::SettingsSectionInternal* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29f0e10, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29f58b4, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SettingsSectionInternal", modifiers: "&&", def_value: None }]

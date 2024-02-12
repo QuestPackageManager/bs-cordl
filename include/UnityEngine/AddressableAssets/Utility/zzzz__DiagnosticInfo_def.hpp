@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::Utility::DiagnosticInfo);
 namespace UnityEngine::AddressableAssets::Utility {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14100))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14113))
 // CS Name: ::UnityEngine.AddressableAssets.Utility::DiagnosticInfo*
 class CORDL_TYPE DiagnosticInfo : public ::System::Object {
 public:
@@ -56,13 +56,13 @@ public:
 
   constexpr void __cordl_internal_set_Dependencies(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  /// @brief Method CreateEvent, addr 0x2a28770, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method CreateEvent, addr 0x2a2b2dc, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent CreateEvent(::StringW category, ::UnityEngine::ResourceManagement::__ResourceManager__DiagnosticEventType eventType,
                                                                                      int32_t frame, int32_t val);
 
   static inline ::UnityEngine::AddressableAssets::Utility::DiagnosticInfo* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2a287b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a2b320, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DiagnosticInfo", modifiers: "&&", def_value: None }]

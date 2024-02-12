@@ -49,7 +49,7 @@ namespace Zenject {
 template <typename TContract>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11194))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10336))
 // CS Name: ::Zenject::IFactoryProviderBase`1<TContract>*
 class CORDL_TYPE IFactoryProviderBase_1 : public ::System::Object {
 public:

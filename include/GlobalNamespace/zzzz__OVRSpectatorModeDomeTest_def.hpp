@@ -47,7 +47,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__OVRSpectatorModeDomeTest___TimerCoroutine_d_
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8180))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8130))
 // CS Name: ::OVRSpectatorModeDomeTest::<TimerCoroutine>d__20*
 class CORDL_TYPE __OVRSpectatorModeDomeTest___TimerCoroutine_d__20 : public ::System::Object {
 public:
@@ -103,22 +103,22 @@ public:
 
   static inline ::GlobalNamespace::__OVRSpectatorModeDomeTest___TimerCoroutine_d__20* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor, addr 0x27c21e4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27d28ac, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x27c23b0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x27d2a78, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext, addr 0x27c23b4, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x27d2a7c, size 0xb4, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x27c2468, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x27d2b30, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x27c2470, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x27d2b38, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x27c24b0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x27d2b78, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__OVRSpectatorModeDomeTest___TimerCoroutine_d__20", modifiers: "&&", def_value: None }]
@@ -160,8 +160,8 @@ static_assert(offsetof(::GlobalNamespace::__OVRSpectatorModeDomeTest___TimerCoro
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 100, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7756)), TypeDefinitionIndex(TypeDefinitionIndex(7847)), TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8181))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7807)), TypeDefinitionIndex(TypeDefinitionIndex(7878)), TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8131))
 // CS Name: ::OVRSpectatorModeDomeTest*
 class CORDL_TYPE OVRSpectatorModeDomeTest : public ::UnityEngine::MonoBehaviour {
 public:
@@ -267,39 +267,39 @@ public:
 
   constexpr void __cordl_internal_set_polar(float_t value);
 
-  /// @brief Method Awake, addr 0x27c1648, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x27d1d10, size 0x3c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Start, addr 0x27c1684, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x27d1d4c, size 0xb0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Initialize, addr 0x27c1734, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x27d1dfc, size 0x228, virtual false, abstract: false, final false
   inline void Initialize();
 
-  /// @brief Method UpdateDefaultExternalCamera, addr 0x27c195c, size 0x428, virtual false, abstract: false, final false
+  /// @brief Method UpdateDefaultExternalCamera, addr 0x27d2024, size 0x428, virtual false, abstract: false, final false
   inline void UpdateDefaultExternalCamera();
 
-  /// @brief Method UpdateSpectatorCameraStatus, addr 0x27c1d84, size 0x364, virtual false, abstract: false, final false
+  /// @brief Method UpdateSpectatorCameraStatus, addr 0x27d244c, size 0x364, virtual false, abstract: false, final false
   inline void UpdateSpectatorCameraStatus();
 
-  /// @brief Method SpectatorCameraDomePosition, addr 0x27c2150, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method SpectatorCameraDomePosition, addr 0x27d2818, size 0x94, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 SpectatorCameraDomePosition(::UnityEngine::Vector3 spectatorAnchorPosition, float_t d, float_t e, float_t p);
 
-  /// @brief Method TimerCoroutine, addr 0x27c20e8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method TimerCoroutine, addr 0x27d27b0, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* TimerCoroutine();
 
-  /// @brief Method Update, addr 0x27c220c, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x27d28d4, size 0x140, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method OnApplicationPause, addr 0x27c234c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationPause, addr 0x27d2a14, size 0x20, virtual false, abstract: false, final false
   inline void OnApplicationPause();
 
-  /// @brief Method OnApplicationQuit, addr 0x27c236c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationQuit, addr 0x27d2a34, size 0x20, virtual false, abstract: false, final false
   inline void OnApplicationQuit();
 
   static inline ::GlobalNamespace::OVRSpectatorModeDomeTest* New_ctor();
 
-  /// @brief Method .ctor, addr 0x27c238c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27d2a54, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRSpectatorModeDomeTest", modifiers: "&&", def_value: None }]

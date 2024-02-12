@@ -16,7 +16,7 @@ MARK_VAL_T(::System::IO::FileOptions);
 namespace System::IO {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3563))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3559))
 // CS Name: ::System.IO::FileOptions
 struct CORDL_TYPE FileOptions {
 public:

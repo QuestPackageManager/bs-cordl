@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionObjectiveGameUIView);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5035))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8995))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4388))
 // CS Name: ::MissionObjectiveGameUIView*
 class CORDL_TYPE MissionObjectiveGameUIView : public ::UnityEngine::MonoBehaviour {
 public:
@@ -164,24 +164,24 @@ public:
 
   constexpr void __cordl_internal_set__missionObjectiveChecker(::UnityW<::GlobalNamespace::MissionObjectiveChecker> value);
 
-  /// @brief Method SetMissionObjectiveChecker, addr 0x23c1034, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method SetMissionObjectiveChecker, addr 0x237e6e4, size 0x274, virtual false, abstract: false, final false
   inline void SetMissionObjectiveChecker(::GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker);
 
-  /// @brief Method HandleMissionObjectiveStatusDidChange, addr 0x23c140c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleMissionObjectiveStatusDidChange, addr 0x237ec14, size 0x4, virtual false, abstract: false, final false
   inline void HandleMissionObjectiveStatusDidChange(::GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker);
 
-  /// @brief Method HandleMissionObjectiveCheckedValueDidChange, addr 0x23c1410, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleMissionObjectiveCheckedValueDidChange, addr 0x237ec18, size 0x4, virtual false, abstract: false, final false
   inline void HandleMissionObjectiveCheckedValueDidChange(::GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker);
 
-  /// @brief Method RefreshIcon, addr 0x23c12b0, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method RefreshIcon, addr 0x237eab8, size 0x104, virtual false, abstract: false, final false
   inline void RefreshIcon();
 
-  /// @brief Method RefreshValue, addr 0x23c13b4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method RefreshValue, addr 0x237ebbc, size 0x58, virtual false, abstract: false, final false
   inline void RefreshValue();
 
   static inline ::GlobalNamespace::MissionObjectiveGameUIView* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23c1414, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x237ec1c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionObjectiveGameUIView", modifiers: "&&", def_value: None }]

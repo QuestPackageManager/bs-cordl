@@ -86,36 +86,36 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Parameters::DsaParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q,
                                                                                  ::Org::BouncyCastle::Math::BigInteger* g);
 
-  /// @brief Method .ctor, addr 0xf31b44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf5c9d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* g);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::DsaParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q,
                                                                                  ::Org::BouncyCastle::Math::BigInteger* g,
                                                                                  ::Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters* parameters);
 
-  /// @brief Method .ctor, addr 0xf31b4c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf5c9dc, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* g,
                     ::Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters* parameters);
 
-  /// @brief Method get_P, addr 0xf31c2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_P, addr 0xf5cabc, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_P();
 
-  /// @brief Method get_Q, addr 0xf31c34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Q, addr 0xf5cac4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Q();
 
-  /// @brief Method get_G, addr 0xf31c3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_G, addr 0xf5cacc, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_G();
 
-  /// @brief Method get_ValidationParameters, addr 0xf31c44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ValidationParameters, addr 0xf5cad4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters* get_ValidationParameters();
 
-  /// @brief Method Equals, addr 0xf31c4c, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0xf5cadc, size 0x9c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0xf31ce8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0xf5cb78, size 0x80, virtual false, abstract: false, final false
   inline bool Equals(::Org::BouncyCastle::Crypto::Parameters::DsaParameters* other);
 
-  /// @brief Method GetHashCode, addr 0xf31d68, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0xf5cbf8, size 0x70, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "DsaParameters", modifiers: "&&", def_value: None }]

@@ -23,18 +23,18 @@ MARK_REF_PTR_T(::Zenject::ConcreteIdArgConditionCopyNonLazyBinder);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10669))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10675))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9811))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9817))
 // CS Name: ::Zenject::ConcreteIdArgConditionCopyNonLazyBinder*
 class CORDL_TYPE ConcreteIdArgConditionCopyNonLazyBinder : public ::Zenject::ArgConditionCopyNonLazyBinder {
 public:
   // Declarations
   static inline ::Zenject::ConcreteIdArgConditionCopyNonLazyBinder* New_ctor(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method .ctor, addr 0x2ec73ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ee3534, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method WithConcreteId, addr 0x2ec73f4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method WithConcreteId, addr 0x2ee353c, size 0x1c, virtual false, abstract: false, final false
   inline ::Zenject::ArgConditionCopyNonLazyBinder* WithConcreteId(::System::Object* id);
 
   // Ctor Parameters [CppParam { name: "", ty: "ConcreteIdArgConditionCopyNonLazyBinder", modifiers: "&&", def_value: None }]

@@ -77,14 +77,14 @@ MARK_REF_PTR_T(::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnec
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Networking::PlayerConnection {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10312)), TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst:
-// 5226 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(10301)) CS Name: ::PlayerEditorConnectionEvents::MessageEvent*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9058)), TypeDefinitionIndex(TypeDefinitionIndex(9234)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9234), inst: 5206
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(9047)) CS Name: ::PlayerEditorConnectionEvents::MessageEvent*
 class CORDL_TYPE __PlayerEditorConnectionEvents__MessageEvent : public ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Networking::PlayerConnection::MessageEventArgs*> {
 public:
   // Declarations
   static inline ::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__MessageEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ce7840, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cee9d4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__PlayerEditorConnectionEvents__MessageEvent", modifiers: "&&", def_value: None }]
@@ -111,15 +111,15 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::Networking::PlayerC
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Networking::PlayerConnection {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 98 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10302))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9234)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9234), inst: 103 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9048))
 // CS Name: ::PlayerEditorConnectionEvents::ConnectionChangeEvent*
 class CORDL_TYPE __PlayerEditorConnectionEvents__ConnectionChangeEvent : public ::UnityEngine::Events::UnityEvent_1<int32_t> {
 public:
   // Declarations
   static inline ::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__ConnectionChangeEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ce7abc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ceec50, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__PlayerEditorConnectionEvents__ConnectionChangeEvent", modifiers: "&&", def_value: None }]
@@ -147,7 +147,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::Networking::PlayerC
 namespace UnityEngine::Networking::PlayerConnection {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10303))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9049))
 // CS Name: ::PlayerEditorConnectionEvents::MessageTypeSubscribers*
 class CORDL_TYPE __PlayerEditorConnectionEvents__MessageTypeSubscribers : public ::System::Object {
 public:
@@ -182,15 +182,15 @@ public:
 
   constexpr void __cordl_internal_set_messageCallback(::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__MessageEvent* value);
 
-  /// @brief Method get_MessageTypeId, addr 0x2ce7b04, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_MessageTypeId, addr 0x2ceec98, size 0x2c, virtual false, abstract: false, final false
   inline ::System::Guid get_MessageTypeId();
 
-  /// @brief Method set_MessageTypeId, addr 0x2ce7814, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_MessageTypeId, addr 0x2cee9a8, size 0x2c, virtual false, abstract: false, final false
   inline void set_MessageTypeId(::System::Guid value);
 
   static inline ::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__MessageTypeSubscribers* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ce77ac, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cee940, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__PlayerEditorConnectionEvents__MessageTypeSubscribers", modifiers: "&&", def_value: None }]
@@ -233,7 +233,7 @@ static_assert(offsetof(::UnityEngine::Networking::PlayerConnection::__PlayerEdit
 namespace UnityEngine::Networking::PlayerConnection {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10304))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9050))
 // CS Name: ::PlayerEditorConnectionEvents::<>c__DisplayClass6_0*
 class CORDL_TYPE __PlayerEditorConnectionEvents____c__DisplayClass6_0 : public ::System::Object {
 public:
@@ -249,10 +249,10 @@ public:
 
   static inline ::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents____c__DisplayClass6_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ce75b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cee748, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <InvokeMessageIdSubscribers>b__0, addr 0x2ce7b30, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method <InvokeMessageIdSubscribers>b__0, addr 0x2ceecc4, size 0x48, virtual false, abstract: false, final false
   inline bool _InvokeMessageIdSubscribers_b__0(::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__MessageTypeSubscribers* x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__PlayerEditorConnectionEvents____c__DisplayClass6_0", modifiers: "&&", def_value: None }]
@@ -285,7 +285,7 @@ static_assert(offsetof(::UnityEngine::Networking::PlayerConnection::__PlayerEdit
 namespace UnityEngine::Networking::PlayerConnection {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10305))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9051))
 // CS Name: ::PlayerEditorConnectionEvents::<>c__DisplayClass7_0*
 class CORDL_TYPE __PlayerEditorConnectionEvents____c__DisplayClass7_0 : public ::System::Object {
 public:
@@ -301,10 +301,10 @@ public:
 
   static inline ::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents____c__DisplayClass7_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ce77a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cee938, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <AddAndCreate>b__0, addr 0x2ce7b78, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method <AddAndCreate>b__0, addr 0x2ceed0c, size 0x48, virtual false, abstract: false, final false
   inline bool _AddAndCreate_b__0(::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__MessageTypeSubscribers* x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__PlayerEditorConnectionEvents____c__DisplayClass7_0", modifiers: "&&", def_value: None }]
@@ -337,7 +337,7 @@ static_assert(offsetof(::UnityEngine::Networking::PlayerConnection::__PlayerEdit
 namespace UnityEngine::Networking::PlayerConnection {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10306))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9052))
 // CS Name: ::PlayerEditorConnectionEvents::<>c__DisplayClass8_0*
 class CORDL_TYPE __PlayerEditorConnectionEvents____c__DisplayClass8_0 : public ::System::Object {
 public:
@@ -353,10 +353,10 @@ public:
 
   static inline ::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents____c__DisplayClass8_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ce79f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ceeb88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <UnregisterManagedCallback>b__0, addr 0x2ce7bc0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method <UnregisterManagedCallback>b__0, addr 0x2ceed54, size 0x48, virtual false, abstract: false, final false
   inline bool _UnregisterManagedCallback_b__0(::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__MessageTypeSubscribers* x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__PlayerEditorConnectionEvents____c__DisplayClass8_0", modifiers: "&&", def_value: None }]
@@ -389,7 +389,7 @@ static_assert(offsetof(::UnityEngine::Networking::PlayerConnection::__PlayerEdit
 namespace UnityEngine::Networking::PlayerConnection {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10307))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9053))
 // CS Name: ::UnityEngine.Networking.PlayerConnection::PlayerEditorConnectionEvents*
 class CORDL_TYPE PlayerEditorConnectionEvents : public ::System::Object {
 public:
@@ -441,18 +441,18 @@ public:
 
   constexpr void __cordl_internal_set_disconnectionEvent(::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__ConnectionChangeEvent* value);
 
-  /// @brief Method InvokeMessageIdSubscribers, addr 0x2ce7110, size 0x4a4, virtual false, abstract: false, final false
+  /// @brief Method InvokeMessageIdSubscribers, addr 0x2cee2a4, size 0x4a4, virtual false, abstract: false, final false
   inline void InvokeMessageIdSubscribers(::System::Guid messageId, ::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t playerId);
 
-  /// @brief Method AddAndCreate, addr 0x2ce75c4, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method AddAndCreate, addr 0x2cee758, size 0x1e0, virtual false, abstract: false, final false
   inline ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Networking::PlayerConnection::MessageEventArgs*>* AddAndCreate(::System::Guid messageId);
 
-  /// @brief Method UnregisterManagedCallback, addr 0x2ce7888, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method UnregisterManagedCallback, addr 0x2ceea1c, size 0x16c, virtual false, abstract: false, final false
   inline void UnregisterManagedCallback(::System::Guid messageId, ::UnityEngine::Events::UnityAction_1<::UnityEngine::Networking::PlayerConnection::MessageEventArgs*>* callback);
 
   static inline ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ce79fc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ceeb90, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PlayerEditorConnectionEvents", modifiers: "&&", def_value: None }]

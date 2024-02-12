@@ -25,29 +25,29 @@ MARK_REF_PTR_T(::System::Reflection::CustomAttributeFormatException);
 namespace System::Reflection {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2382))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3462))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3458))
 // CS Name: ::System.Reflection::CustomAttributeFormatException*
 class CORDL_TYPE CustomAttributeFormatException : public ::System::FormatException {
 public:
   // Declarations
   static inline ::System::Reflection::CustomAttributeFormatException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24e625c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25053b4, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Reflection::CustomAttributeFormatException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x24e62bc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2505414, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::System::Reflection::CustomAttributeFormatException* New_ctor(::StringW message, ::System::Exception* inner);
 
-  /// @brief Method .ctor, addr 0x24e62e4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x250543c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* inner);
 
   static inline ::System::Reflection::CustomAttributeFormatException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x24e6308, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2505460, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "CustomAttributeFormatException", modifiers: "&&", def_value: None }]

@@ -83,7 +83,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12259))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12157))
 // CS Name: ::ElementSelection::<>c*
 class CORDL_TYPE __ElementSelection____c : public ::System::Object {
 public:
@@ -214,51 +214,51 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2bb0b08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bae674, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <GetPerimeterEdges>b__5_0, addr 0x2bb0b10, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <GetPerimeterEdges>b__5_0, addr 0x2bae67c, size 0x18, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* _GetPerimeterEdges_b__5_0(::UnityEngine::ProBuilder::Face* x);
 
-  /// @brief Method <GetPerimeterEdges>b__5_1, addr 0x2bb0b28, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <GetPerimeterEdges>b__5_1, addr 0x2bae694, size 0x58, virtual false, abstract: false, final false
   inline bool _GetPerimeterEdges_b__5_1(::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>*> x);
 
-  /// @brief Method <GetPerimeterEdges>b__5_2, addr 0x2bb0b80, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method <GetPerimeterEdges>b__5_2, addr 0x2bae6ec, size 0x60, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Edge
   _GetPerimeterEdges_b__5_2(::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>*> x);
 
-  /// @brief Method <GetPerimeterFaces>b__7_0, addr 0x2bb0be0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <GetPerimeterFaces>b__7_0, addr 0x2bae74c, size 0x58, virtual false, abstract: false, final false
   inline bool _GetPerimeterFaces_b__7_0(::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*> x);
 
-  /// @brief Method <GetPerimeterFaces>b__7_1, addr 0x2bb0c38, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method <GetPerimeterFaces>b__7_1, addr 0x2bae7a4, size 0x60, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Face*
   _GetPerimeterFaces_b__7_1(::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*> x);
 
-  /// @brief Method <GetEdgeRing>b__10_0, addr 0x2bb0c98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <GetEdgeRing>b__10_0, addr 0x2bae804, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Edge _GetEdgeRing_b__10_0(::UnityEngine::ProBuilder::EdgeLookup x);
 
-  /// @brief Method <GetEdgeRingIterative>b__11_0, addr 0x2bb0ca0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <GetEdgeRingIterative>b__11_0, addr 0x2bae80c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Edge _GetEdgeRingIterative_b__11_0(::UnityEngine::ProBuilder::EdgeLookup x);
 
-  /// @brief Method <GetEdgeLoop>b__12_0, addr 0x2bb0ca8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <GetEdgeLoop>b__12_0, addr 0x2bae814, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Edge _GetEdgeLoop_b__12_0(::UnityEngine::ProBuilder::EdgeLookup x);
 
-  /// @brief Method <GetEdgeLoopIterative>b__13_0, addr 0x2bb0cb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <GetEdgeLoopIterative>b__13_0, addr 0x2bae81c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Edge _GetEdgeLoopIterative_b__13_0(::UnityEngine::ProBuilder::EdgeLookup x);
 
-  /// @brief Method <GetEdgeLoopInternal>b__14_0, addr 0x2bb0cb8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <GetEdgeLoopInternal>b__14_0, addr 0x2bae824, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Edge _GetEdgeLoopInternal_b__14_0(::UnityEngine::ProBuilder::WingedEdge* x);
 
-  /// @brief Method <GetEdgeLoopInternalIterative>b__15_0, addr 0x2bb0cd0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <GetEdgeLoopInternalIterative>b__15_0, addr 0x2bae83c, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Edge _GetEdgeLoopInternalIterative_b__15_0(::UnityEngine::ProBuilder::WingedEdge* x);
 
-  /// @brief Method <GetEdgeLoopInternalIterative>b__15_1, addr 0x2bb0ce8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <GetEdgeLoopInternalIterative>b__15_1, addr 0x2bae854, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Edge _GetEdgeLoopInternalIterative_b__15_1(::UnityEngine::ProBuilder::WingedEdge* x);
 
-  /// @brief Method <FindHoles>b__26_0, addr 0x2bb0d00, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <FindHoles>b__26_0, addr 0x2bae86c, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Edge _FindHoles_b__26_0(::UnityEngine::ProBuilder::WingedEdge* x);
 
-  /// @brief Method <FindHoles>b__27_0, addr 0x2bb0d18, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <FindHoles>b__27_0, addr 0x2bae884, size 0x58, virtual false, abstract: false, final false
   inline int32_t _FindHoles_b__27_0(::UnityEngine::ProBuilder::SimpleTuple_2<int32_t, int32_t> x, ::UnityEngine::ProBuilder::SimpleTuple_2<int32_t, int32_t> y);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ElementSelection____c", modifiers: "&&", def_value: None }]
@@ -286,7 +286,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::MeshOpe
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12260))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12158))
 // CS Name: ::ElementSelection::<>c__DisplayClass25_0*
 class CORDL_TYPE __ElementSelection____c__DisplayClass25_0 : public ::System::Object {
 public:
@@ -302,10 +302,10 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass25_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2bb0d70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bae8dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <GetFaceLoop>b__0, addr 0x2bb0d78, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <GetFaceLoop>b__0, addr 0x2bae8e4, size 0x24, virtual false, abstract: false, final false
   inline bool _GetFaceLoop_b__0(::UnityEngine::ProBuilder::WingedEdge* x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ElementSelection____c__DisplayClass25_0", modifiers: "&&", def_value: None }]
@@ -338,7 +338,7 @@ static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::__ElementSelec
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12261))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12159))
 // CS Name: ::ElementSelection::<>c__DisplayClass27_0*
 class CORDL_TYPE __ElementSelection____c__DisplayClass27_0 : public ::System::Object {
 public:
@@ -372,13 +372,13 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass27_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2bb0d9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bae908, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <FindHoles>b__1, addr 0x2bb0da4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <FindHoles>b__1, addr 0x2bae910, size 0x5c, virtual false, abstract: false, final false
   inline bool _FindHoles_b__1(::UnityEngine::ProBuilder::WingedEdge* w);
 
-  /// @brief Method <FindHoles>b__2, addr 0x2bb0e00, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <FindHoles>b__2, addr 0x2bae96c, size 0x5c, virtual false, abstract: false, final false
   inline bool _FindHoles_b__2(::UnityEngine::ProBuilder::WingedEdge* w);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ElementSelection____c__DisplayClass27_0", modifiers: "&&", def_value: None }]
@@ -420,8 +420,8 @@ static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::__ElementSelec
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12262))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8993))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12160))
 // CS Name: ::UnityEngine.ProBuilder.MeshOperations::ElementSelection*
 class CORDL_TYPE ElementSelection : public ::System::Object {
 public:
@@ -439,106 +439,106 @@ public:
 
   static inline ::UnityEngine::Vector3 getStaticF_Vector3_Zero();
 
-  /// @brief Method GetNeighborFaces, addr 0x2baa428, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method GetNeighborFaces, addr 0x2ba7f94, size 0x25c, virtual false, abstract: false, final false
   static inline void GetNeighborFaces(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Edge edge,
                                       ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* neighborFaces);
 
-  /// @brief Method GetNeighborFaces, addr 0x2b980d8, size 0x2d4, virtual false, abstract: false, final false
+  /// @brief Method GetNeighborFaces, addr 0x2b95c44, size 0x2d4, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::Face*, ::UnityEngine::ProBuilder::Edge>>*
   GetNeighborFaces(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Edge edge);
 
-  /// @brief Method GetNeighborFaces, addr 0x2baa684, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method GetNeighborFaces, addr 0x2ba81f0, size 0x2b4, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* GetNeighborFaces(::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
                                                                                                            ::ArrayW<int32_t, ::Array<int32_t>*> indexes);
 
-  /// @brief Method GetConnectedEdges, addr 0x2baa938, size 0x610, virtual false, abstract: false, final false
+  /// @brief Method GetConnectedEdges, addr 0x2ba84a4, size 0x610, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*> GetConnectedEdges(::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
                                                                                                                        ::ArrayW<int32_t, ::Array<int32_t>*> indexes);
 
-  /// @brief Method GetPerimeterEdges, addr 0x2baaf48, size 0x5f0, virtual false, abstract: false, final false
+  /// @brief Method GetPerimeterEdges, addr 0x2ba8ab4, size 0x5f0, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*
   GetPerimeterEdges(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces);
 
-  /// @brief Method GetPerimeterEdges, addr 0x2bab538, size 0x394, virtual false, abstract: false, final false
+  /// @brief Method GetPerimeterEdges, addr 0x2ba90a4, size 0x394, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> GetPerimeterEdges(::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
                                                                        ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Edge>* edges);
 
-  /// @brief Method GetPerimeterFaces, addr 0x2bab8cc, size 0x780, virtual false, abstract: false, final false
+  /// @brief Method GetPerimeterFaces, addr 0x2ba9438, size 0x780, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*
   GetPerimeterFaces(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces);
 
-  /// @brief Method GetPerimeterVertices, addr 0x2bac04c, size 0x354, virtual false, abstract: false, final false
+  /// @brief Method GetPerimeterVertices, addr 0x2ba9bb8, size 0x354, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> GetPerimeterVertices(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<int32_t, ::Array<int32_t>*> indexes,
                                                                           ::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*> universal_edges_all);
 
-  /// @brief Method EdgeRingNext, addr 0x2bac3a0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method EdgeRingNext, addr 0x2ba9f0c, size 0x84, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::WingedEdge* EdgeRingNext(::UnityEngine::ProBuilder::WingedEdge* edge);
 
-  /// @brief Method GetEdgeRing, addr 0x2bac424, size 0x484, virtual false, abstract: false, final false
+  /// @brief Method GetEdgeRing, addr 0x2ba9f90, size 0x484, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* GetEdgeRing(::UnityEngine::ProBuilder::ProBuilderMesh* pb,
                                                                                                             ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* edges);
 
-  /// @brief Method GetEdgeRingIterative, addr 0x2bac8a8, size 0x4a0, virtual false, abstract: false, final false
+  /// @brief Method GetEdgeRingIterative, addr 0x2baa414, size 0x4a0, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*
   GetEdgeRingIterative(::UnityEngine::ProBuilder::ProBuilderMesh* pb, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* edges);
 
-  /// @brief Method GetEdgeLoop, addr 0x2bacd48, size 0x374, virtual false, abstract: false, final false
+  /// @brief Method GetEdgeLoop, addr 0x2baa8b4, size 0x374, virtual false, abstract: false, final false
   static inline bool GetEdgeLoop(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* edges,
                                  ByRef<::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*>> loop);
 
-  /// @brief Method GetEdgeLoopIterative, addr 0x2bad2ec, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method GetEdgeLoopIterative, addr 0x2baae58, size 0x2f8, virtual false, abstract: false, final false
   static inline bool GetEdgeLoopIterative(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* edges,
                                           ByRef<::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*>> loop);
 
-  /// @brief Method GetEdgeLoopInternal, addr 0x2bad0bc, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method GetEdgeLoopInternal, addr 0x2baac28, size 0x230, virtual false, abstract: false, final false
   static inline bool GetEdgeLoopInternal(::UnityEngine::ProBuilder::WingedEdge* start, int32_t startIndex, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::EdgeLookup>* used);
 
-  /// @brief Method GetEdgeLoopInternalIterative, addr 0x2bad5e4, size 0x388, virtual false, abstract: false, final false
+  /// @brief Method GetEdgeLoopInternalIterative, addr 0x2bab150, size 0x388, virtual false, abstract: false, final false
   static inline void GetEdgeLoopInternalIterative(::UnityEngine::ProBuilder::WingedEdge* start, ::UnityEngine::ProBuilder::Edge edge,
                                                   ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::EdgeLookup>* used);
 
-  /// @brief Method NextSpoke, addr 0x2badc2c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method NextSpoke, addr 0x2bab798, size 0x94, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::WingedEdge* NextSpoke(::UnityEngine::ProBuilder::WingedEdge* wing, int32_t pivot, bool opp);
 
-  /// @brief Method GetSpokes, addr 0x2bad96c, size 0x2c0, virtual false, abstract: false, final false
+  /// @brief Method GetSpokes, addr 0x2bab4d8, size 0x2c0, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>* GetSpokes(::UnityEngine::ProBuilder::WingedEdge* wing, int32_t sharedIndex, bool allowHoles);
 
-  /// @brief Method GrowSelection, addr 0x2badcc0, size 0x578, virtual false, abstract: false, final false
+  /// @brief Method GrowSelection, addr 0x2bab82c, size 0x578, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*
   GrowSelection(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces, float_t maxAngleDiff);
 
-  /// @brief Method Flood, addr 0x2bae238, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Flood, addr 0x2babda4, size 0x7c, virtual false, abstract: false, final false
   static inline void Flood(::UnityEngine::ProBuilder::WingedEdge* wing, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* selection);
 
-  /// @brief Method Flood, addr 0x2bae2b4, size 0x280, virtual false, abstract: false, final false
+  /// @brief Method Flood, addr 0x2babe20, size 0x280, virtual false, abstract: false, final false
   static inline void Flood(::UnityEngine::ProBuilder::ProBuilderMesh* pb, ::UnityEngine::ProBuilder::WingedEdge* wing, ::UnityEngine::Vector3 wingNrm, float_t maxAngle,
                            ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* selection);
 
-  /// @brief Method FloodSelection, addr 0x2bae534, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method FloodSelection, addr 0x2bac0a0, size 0x2ac, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*
   FloodSelection(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>* faces, float_t maxAngleDiff);
 
-  /// @brief Method GetFaceLoop, addr 0x2bae7e0, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method GetFaceLoop, addr 0x2bac34c, size 0x20c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*
   GetFaceLoop(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*> faces, bool ring);
 
-  /// @brief Method GetFaceRingAndLoop, addr 0x2baebc4, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method GetFaceRingAndLoop, addr 0x2bac730, size 0x224, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*
   GetFaceRingAndLoop(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*> faces);
 
-  /// @brief Method GetFaceLoop, addr 0x2bae9ec, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method GetFaceLoop, addr 0x2bac558, size 0x1d8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* GetFaceLoop(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>* wings,
                                                                                                          ::UnityEngine::ProBuilder::Face* face, bool ring);
 
-  /// @brief Method FindHoles, addr 0x2baede8, size 0x3ac, virtual false, abstract: false, final false
+  /// @brief Method FindHoles, addr 0x2bac954, size 0x3ac, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>*>*
   FindHoles(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<int32_t>* indexes);
 
-  /// @brief Method FindHoles, addr 0x2baf194, size 0x844, virtual false, abstract: false, final false
+  /// @brief Method FindHoles, addr 0x2bacd00, size 0x844, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>*>*
   FindHoles(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>* wings, ::System::Collections::Generic::HashSet_1<int32_t>* common);
 
-  /// @brief Method FindNextEdgeInHole, addr 0x2baf9d8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method FindNextEdgeInHole, addr 0x2bad544, size 0x80, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::WingedEdge* FindNextEdgeInHole(::UnityEngine::ProBuilder::WingedEdge* wing, int32_t common);
 
   // Ctor Parameters [CppParam { name: "", ty: "ElementSelection", modifiers: "&&", def_value: None }]

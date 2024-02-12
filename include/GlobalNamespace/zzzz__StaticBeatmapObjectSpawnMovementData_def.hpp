@@ -23,18 +23,18 @@ MARK_REF_PTR_T(::GlobalNamespace::StaticBeatmapObjectSpawnMovementData);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14781))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15163))
 // CS Name: ::StaticBeatmapObjectSpawnMovementData*
 class CORDL_TYPE StaticBeatmapObjectSpawnMovementData : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Get2DNoteOffset, addr 0xe04e84, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Get2DNoteOffset, addr 0xe1536c, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 Get2DNoteOffset(int32_t noteLineIndex, int32_t noteLinesCount, ::GlobalNamespace::NoteLineLayer noteLineLayer);
 
-  /// @brief Method LineYPosForLineLayer, addr 0xe05268, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method LineYPosForLineLayer, addr 0xe1566c, size 0x24, virtual false, abstract: false, final false
   static inline float_t LineYPosForLineLayer(::GlobalNamespace::NoteLineLayer lineLayer);
 
-  /// @brief Method get_layerHeight, addr 0xe0528c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_layerHeight, addr 0xe15690, size 0x6c, virtual false, abstract: false, final false
   static inline float_t get_layerHeight();
 
   // Ctor Parameters [CppParam { name: "", ty: "StaticBeatmapObjectSpawnMovementData", modifiers: "&&", def_value: None }]

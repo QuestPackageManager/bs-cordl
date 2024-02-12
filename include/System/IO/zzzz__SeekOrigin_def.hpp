@@ -16,7 +16,7 @@ MARK_VAL_T(::System::IO::SeekOrigin);
 namespace System::IO {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3570))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3566))
 // CS Name: ::System.IO::SeekOrigin
 struct CORDL_TYPE SeekOrigin {
 public:

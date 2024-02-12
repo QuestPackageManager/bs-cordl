@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::System::Net::__WebUtility__UrlDecoder);
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9098))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7108))
 // CS Name: ::WebUtility::UrlDecoder*
 class CORDL_TYPE __WebUtility__UrlDecoder : public ::System::Object {
 public:
@@ -96,21 +96,21 @@ public:
 
   constexpr void __cordl_internal_set__encoding(::System::Text::Encoding* value);
 
-  /// @brief Method FlushBytes, addr 0x29a5cf0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method FlushBytes, addr 0x29aa794, size 0x60, virtual false, abstract: false, final false
   inline void FlushBytes();
 
   static inline ::System::Net::__WebUtility__UrlDecoder* New_ctor(int32_t bufferSize, ::System::Text::Encoding* encoding);
 
-  /// @brief Method .ctor, addr 0x29a597c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29aa420, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(int32_t bufferSize, ::System::Text::Encoding* encoding);
 
-  /// @brief Method AddChar, addr 0x29a5ad8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method AddChar, addr 0x29aa57c, size 0x60, virtual false, abstract: false, final false
   inline void AddChar(char16_t ch);
 
-  /// @brief Method AddByte, addr 0x29a5a40, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method AddByte, addr 0x29aa4e4, size 0x98, virtual false, abstract: false, final false
   inline void AddByte(uint8_t b);
 
-  /// @brief Method GetString, addr 0x29a5b38, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetString, addr 0x29aa5dc, size 0x88, virtual false, abstract: false, final false
   inline ::StringW GetString();
 
   // Ctor Parameters [CppParam { name: "", ty: "__WebUtility__UrlDecoder", modifiers: "&&", def_value: None }]
@@ -167,8 +167,8 @@ static_assert(offsetof(::System::Net::__WebUtility__UrlDecoder, ____encoding) ==
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9313)), TypeDefinitionIndex(TypeDefinitionIndex(9314))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9099))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7323)), TypeDefinitionIndex(TypeDefinitionIndex(7324))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7109))
 // CS Name: ::System.Net::WebUtility*
 class CORDL_TYPE WebUtility : public ::System::Object {
 public:
@@ -196,28 +196,28 @@ public:
 
   static inline ::System::Net::Configuration::UnicodeEncodingConformance getStaticF__htmlEncodeConformance();
 
-  /// @brief Method HtmlEncode, addr 0x29a4fb4, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method HtmlEncode, addr 0x29a9a58, size 0x120, virtual false, abstract: false, final false
   static inline ::StringW HtmlEncode(::StringW value);
 
-  /// @brief Method HtmlEncode, addr 0x29a521c, size 0x3b4, virtual false, abstract: false, final false
+  /// @brief Method HtmlEncode, addr 0x29a9cc0, size 0x3b4, virtual false, abstract: false, final false
   static inline void HtmlEncode(::StringW value, ::System::IO::TextWriter* output);
 
-  /// @brief Method IndexOfHtmlEncodingChars, addr 0x29a50d4, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method IndexOfHtmlEncodingChars, addr 0x29a9b78, size 0x148, virtual false, abstract: false, final false
   static inline int32_t IndexOfHtmlEncodingChars(::StringW s, int32_t startPos);
 
-  /// @brief Method get_HtmlEncodeConformance, addr 0x29a55d0, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method get_HtmlEncodeConformance, addr 0x29aa074, size 0xe4, virtual false, abstract: false, final false
   static inline ::System::Net::Configuration::UnicodeEncodingConformance get_HtmlEncodeConformance();
 
-  /// @brief Method UrlDecodeInternal, addr 0x29a576c, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method UrlDecodeInternal, addr 0x29aa210, size 0x210, virtual false, abstract: false, final false
   static inline ::StringW UrlDecodeInternal(::StringW value, ::System::Text::Encoding* encoding);
 
-  /// @brief Method UrlDecode, addr 0x29a5bc0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method UrlDecode, addr 0x29aa664, size 0x7c, virtual false, abstract: false, final false
   static inline ::StringW UrlDecode(::StringW encodedValue);
 
-  /// @brief Method GetNextUnicodeScalarValueFromUtf16Surrogate, addr 0x29a56b4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetNextUnicodeScalarValueFromUtf16Surrogate, addr 0x29aa158, size 0xb8, virtual false, abstract: false, final false
   static inline int32_t GetNextUnicodeScalarValueFromUtf16Surrogate(ByRef<::cordl_internals::Ptr<char16_t>> pch, ByRef<int32_t> charsRemaining);
 
-  /// @brief Method HexToInt, addr 0x29a59f0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method HexToInt, addr 0x29aa494, size 0x50, virtual false, abstract: false, final false
   static inline int32_t HexToInt(char16_t h);
 
   // Ctor Parameters [CppParam { name: "", ty: "WebUtility", modifiers: "&&", def_value: None }]

@@ -40,13 +40,13 @@ public:
 
   static inline ::Mono::ISystemDependencyProvider* getStaticF_systemDependency();
 
-  /// @brief Method get_SystemProvider, addr 0x2411f0c, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method get_SystemProvider, addr 0x2431d6c, size 0x204, virtual false, abstract: false, final false
   static inline ::Mono::ISystemDependencyProvider* get_SystemProvider();
 
-  /// @brief Method Register, addr 0x241225c, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method Register, addr 0x24320bc, size 0x1a8, virtual false, abstract: false, final false
   static inline void Register(::Mono::ISystemDependencyProvider* provider);
 
-  /// @brief Method ReflectionLoad, addr 0x2412110, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method ReflectionLoad, addr 0x2431f70, size 0x14c, virtual false, abstract: false, final false
   static inline ::Mono::ISystemDependencyProvider* ReflectionLoad();
 
   // Ctor Parameters [CppParam { name: "", ty: "DependencyInjector", modifiers: "&&", def_value: None }]

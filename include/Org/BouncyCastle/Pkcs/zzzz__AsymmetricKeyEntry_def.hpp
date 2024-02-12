@@ -46,26 +46,26 @@ public:
 
   static inline ::Org::BouncyCastle::Pkcs::AsymmetricKeyEntry* New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key);
 
-  /// @brief Method .ctor, addr 0x10d5ef8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1103d88, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key);
 
   static inline ::Org::BouncyCastle::Pkcs::AsymmetricKeyEntry* New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key, ::System::Collections::Hashtable* attributes);
 
-  /// @brief Method .ctor, addr 0x10d5f6c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1103dfc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key, ::System::Collections::Hashtable* attributes);
 
   static inline ::Org::BouncyCastle::Pkcs::AsymmetricKeyEntry* New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key, ::System::Collections::IDictionary* attributes);
 
-  /// @brief Method .ctor, addr 0x10d5f94, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1103e24, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key, ::System::Collections::IDictionary* attributes);
 
-  /// @brief Method get_Key, addr 0x10d5fbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Key, addr 0x1103e4c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* get_Key();
 
-  /// @brief Method Equals, addr 0x10d5fc4, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x1103e54, size 0xa4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x10d6068, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x1103ef8, size 0x28, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "AsymmetricKeyEntry", modifiers: "&&", def_value: None }]

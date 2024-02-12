@@ -51,7 +51,7 @@ MARK_REF_PTR_T(::System::Net::HttpListenerResponse);
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9176))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7186))
 // CS Name: ::System.Net::HttpListenerResponse*
 class CORDL_TYPE HttpListenerResponse : public ::System::Object {
 public:
@@ -249,61 +249,61 @@ public:
 
   static inline ::System::Net::HttpListenerResponse* New_ctor(::System::Net::HttpListenerContext* context);
 
-  /// @brief Method .ctor, addr 0x29c95f0, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29cd094, size 0x114, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::HttpListenerContext* context);
 
-  /// @brief Method get_ForceCloseChunked, addr 0x29ca560, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ForceCloseChunked, addr 0x29ce004, size 0x8, virtual false, abstract: false, final false
   inline bool get_ForceCloseChunked();
 
-  /// @brief Method get_ContentEncoding, addr 0x29c7698, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_ContentEncoding, addr 0x29cb13c, size 0x20, virtual false, abstract: false, final false
   inline ::System::Text::Encoding* get_ContentEncoding();
 
-  /// @brief Method set_ContentLength64, addr 0x29ca568, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method set_ContentLength64, addr 0x29ce00c, size 0x130, virtual false, abstract: false, final false
   inline void set_ContentLength64(int64_t value);
 
-  /// @brief Method set_ContentType, addr 0x29c75c0, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method set_ContentType, addr 0x29cb064, size 0xd8, virtual false, abstract: false, final false
   inline void set_ContentType(::StringW value);
 
-  /// @brief Method get_Headers, addr 0x29ca698, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Headers, addr 0x29ce13c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::WebHeaderCollection* get_Headers();
 
-  /// @brief Method get_OutputStream, addr 0x29ca6a0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_OutputStream, addr 0x29ce144, size 0x34, virtual false, abstract: false, final false
   inline ::System::IO::Stream* get_OutputStream();
 
-  /// @brief Method get_SendChunked, addr 0x29ca6d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SendChunked, addr 0x29ce178, size 0x8, virtual false, abstract: false, final false
   inline bool get_SendChunked();
 
-  /// @brief Method set_SendChunked, addr 0x29c5434, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method set_SendChunked, addr 0x29c8ed8, size 0xdc, virtual false, abstract: false, final false
   inline void set_SendChunked(bool value);
 
-  /// @brief Method set_StatusCode, addr 0x29c748c, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method set_StatusCode, addr 0x29caf30, size 0x134, virtual false, abstract: false, final false
   inline void set_StatusCode(int32_t value);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x29ca6dc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x29ce180, size 0x8, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method Close, addr 0x29ca6e4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Close, addr 0x29ce188, size 0x2c, virtual false, abstract: false, final false
   inline void Close(bool force);
 
-  /// @brief Method Close, addr 0x29ca710, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Close, addr 0x29ce1b4, size 0x14, virtual false, abstract: false, final false
   inline void Close();
 
-  /// @brief Method Close, addr 0x29c76b8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Close, addr 0x29cb15c, size 0xbc, virtual false, abstract: false, final false
   inline void Close(::ArrayW<uint8_t, ::Array<uint8_t>*> responseEntity, bool willBlock);
 
-  /// @brief Method SendHeaders, addr 0x29ca724, size 0x9a8, virtual false, abstract: false, final false
+  /// @brief Method SendHeaders, addr 0x29ce1c8, size 0x9a8, virtual false, abstract: false, final false
   inline void SendHeaders(bool closing, ::System::IO::MemoryStream* ms);
 
-  /// @brief Method FormatHeaders, addr 0x29cb364, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method FormatHeaders, addr 0x29cee08, size 0x254, virtual false, abstract: false, final false
   static inline ::StringW FormatHeaders(::System::Net::WebHeaderCollection* headers);
 
-  /// @brief Method CookieToClientString, addr 0x29cb0cc, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method CookieToClientString, addr 0x29ceb70, size 0x298, virtual false, abstract: false, final false
   static inline ::StringW CookieToClientString(::System::Net::Cookie* cookie);
 
-  /// @brief Method QuotedString, addr 0x29cb5b8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method QuotedString, addr 0x29cf05c, size 0xd0, virtual false, abstract: false, final false
   static inline ::StringW QuotedString(::System::Net::Cookie* cookie, ::StringW value);
 
-  /// @brief Method IsToken, addr 0x29cb688, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method IsToken, addr 0x29cf12c, size 0xd0, virtual false, abstract: false, final false
   static inline bool IsToken(::StringW value);
 
   // Ctor Parameters [CppParam { name: "", ty: "HttpListenerResponse", modifiers: "&&", def_value: None }]

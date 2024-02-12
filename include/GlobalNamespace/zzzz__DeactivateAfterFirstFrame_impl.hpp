@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__DeactivateAfterFirstFrame___Start_d__0::*)(int32_t)>(
     &::GlobalNamespace::__DeactivateAfterFirstFrame___Start_d__0::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x226c378;
+  constexpr static std::size_t addrs = 0x21818dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__DeactivateAfterFirstFrame___Start_d__0::*)()>(
     &::GlobalNamespace::__DeactivateAfterFirstFrame___Start_d__0::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x226c3a8;
+  constexpr static std::size_t addrs = 0x218190c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__DeactivateAfterFirstFrame___Start_d__0::*)()>(
     &::GlobalNamespace::__DeactivateAfterFirstFrame___Start_d__0::MoveNext)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x226c3ac;
+  constexpr static std::size_t addrs = 0x2181910;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__DeactivateAfterFirstFrame___Start_d__0::*)()>(
     &::GlobalNamespace::__DeactivateAfterFirstFrame___Start_d__0::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x226c410;
+  constexpr static std::size_t addrs = 0x2181974;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__DeactivateAfterFirstFrame___Start_d__0::*)()>(
     &::GlobalNamespace::__DeactivateAfterFirstFrame___Start_d__0::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x226c418;
+  constexpr static std::size_t addrs = 0x218197c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__DeactivateAfterFirstFrame___Start_d__0::*)()>(
     &::GlobalNamespace::__DeactivateAfterFirstFrame___Start_d__0::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x226c458;
+  constexpr static std::size_t addrs = 0x21819bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -205,7 +205,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::DeactivateAfterFirstFrame::*)()>(
     &::GlobalNamespace::DeactivateAfterFirstFrame::Start)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x226c310;
+  constexpr static std::size_t addrs = 0x2181874;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DeactivateAfterFirstFrame*>::get(), "Start",
@@ -218,7 +218,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DeactivateAfterFirstFrame::*)()>(&::GlobalNamespace::DeactivateAfterFirstFrame::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x226c3a0;
+  constexpr static std::size_t addrs = 0x2181904;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DeactivateAfterFirstFrame*>::get(), ".ctor",

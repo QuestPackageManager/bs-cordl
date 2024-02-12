@@ -46,15 +46,15 @@ public:
 
   static inline ::System::ConsoleCancelEventArgs* New_ctor(::System::ConsoleSpecialKey type);
 
-  /// @brief Method .ctor, addr 0x25cfc74, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f1b8c, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::ConsoleSpecialKey type);
 
-  /// @brief Method get_Cancel, addr 0x25cfce0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Cancel, addr 0x25f1bf8, size 0x8, virtual false, abstract: false, final false
   inline bool get_Cancel();
 
   static inline ::System::ConsoleCancelEventArgs* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25cfce8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f1c00, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ConsoleCancelEventArgs", modifiers: "&&", def_value: None }]

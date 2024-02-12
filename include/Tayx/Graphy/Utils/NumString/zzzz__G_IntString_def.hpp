@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::Tayx::Graphy::Utils::NumString::G_IntString);
 namespace Tayx::Graphy::Utils::NumString {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15073))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14946))
 // CS Name: ::Tayx.Graphy.Utils.NumString::G_IntString*
 class CORDL_TYPE G_IntString : public ::System::Object {
 public:
@@ -37,19 +37,19 @@ public:
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_m_positiveBuffer();
 
-  /// @brief Method get_MinValue, addr 0x2a07164, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_MinValue, addr 0x2a0bc08, size 0x6c, virtual false, abstract: false, final false
   static inline int32_t get_MinValue();
 
-  /// @brief Method get_MaxValue, addr 0x2a071d0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_MaxValue, addr 0x2a0bc74, size 0x64, virtual false, abstract: false, final false
   static inline int32_t get_MaxValue();
 
-  /// @brief Method Init, addr 0x2a07234, size 0x280, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2a0bcd8, size 0x280, virtual false, abstract: false, final false
   static inline void Init(int32_t minNegativeValue, int32_t maxPositiveValue);
 
-  /// @brief Method Dispose, addr 0x2a02d4c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x2a077f0, size 0x98, virtual false, abstract: false, final false
   static inline void Dispose();
 
-  /// @brief Method ToStringNonAlloc, addr 0x2a074b4, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method ToStringNonAlloc, addr 0x2a0bf58, size 0x120, virtual false, abstract: false, final false
   static inline ::StringW ToStringNonAlloc(int32_t value);
 
   // Ctor Parameters [CppParam { name: "", ty: "G_IntString", modifiers: "&&", def_value: None }]

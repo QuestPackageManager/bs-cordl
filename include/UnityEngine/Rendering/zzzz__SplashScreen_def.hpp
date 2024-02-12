@@ -15,12 +15,12 @@ MARK_REF_PTR_T(::UnityEngine::Rendering::SplashScreen);
 namespace UnityEngine::Rendering {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10353))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9110))
 // CS Name: ::UnityEngine.Rendering::SplashScreen*
 class CORDL_TYPE SplashScreen : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_isFinished, addr 0x2ceca88, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_isFinished, addr 0x2cf3cd4, size 0x28, virtual false, abstract: false, final false
   static inline bool get_isFinished();
 
   // Ctor Parameters [CppParam { name: "", ty: "SplashScreen", modifiers: "&&", def_value: None }]

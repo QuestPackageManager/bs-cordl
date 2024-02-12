@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::BeatSaber::AvatarCore::IAvatarSystemMetadata);
 namespace BeatSaber::AvatarCore {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15193))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15274))
 // CS Name: ::BeatSaber.AvatarCore::IAvatarSystemMetadata*
 class CORDL_TYPE IAvatarSystemMetadata {
 public:

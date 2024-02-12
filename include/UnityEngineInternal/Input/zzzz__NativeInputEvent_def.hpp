@@ -20,8 +20,8 @@ MARK_VAL_T(::UnityEngineInternal::Input::NativeInputEvent);
 // SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: Some(1) }
 namespace UnityEngineInternal::Input {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16108))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16110))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16219))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16221))
 // CS Name: ::UnityEngineInternal.Input::NativeInputEvent
 #pragma pack(push, 1)
 struct CORDL_TYPE NativeInputEvent {

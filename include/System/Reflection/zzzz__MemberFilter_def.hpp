@@ -22,17 +22,17 @@ MARK_REF_PTR_T(::System::Reflection::MemberFilter);
 namespace System::Reflection {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3473))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3469))
 // CS Name: ::System.Reflection::MemberFilter*
 class CORDL_TYPE MemberFilter : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::System::Reflection::MemberFilter* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x24e7818, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2506970, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x24e7948, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2506aa0, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(::System::Reflection::MemberInfo* m, ::System::Object* filterCriteria);
 
   // Ctor Parameters [CppParam { name: "", ty: "MemberFilter", modifiers: "&&", def_value: None }]

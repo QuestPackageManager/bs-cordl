@@ -36,7 +36,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IUnifiedNetworkPlayerModel);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14946))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14819))
 // CS Name: ::IUnifiedNetworkPlayerModel*
 class CORDL_TYPE IUnifiedNetworkPlayerModel {
 public:

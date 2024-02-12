@@ -52,13 +52,13 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::ECDHWithKdfBasicAgreement* New_ctor(::StringW algorithm, ::Org::BouncyCastle::Crypto::IDerivationFunction* kdf);
 
-  /// @brief Method .ctor, addr 0x121ab3c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12479cc, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::StringW algorithm, ::Org::BouncyCastle::Crypto::IDerivationFunction* kdf);
 
-  /// @brief Method CalculateAgreement, addr 0x121abe0, size 0x26c, virtual true, abstract: false, final false
+  /// @brief Method CalculateAgreement, addr 0x1247a70, size 0x26c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* CalculateAgreement(::Org::BouncyCastle::Crypto::ICipherParameters* pubKey);
 
-  /// @brief Method BigIntToBytes, addr 0x121ae4c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method BigIntToBytes, addr 0x1247cdc, size 0x3c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> BigIntToBytes(::Org::BouncyCastle::Math::BigInteger* r);
 
   // Ctor Parameters [CppParam { name: "", ty: "ECDHWithKdfBasicAgreement", modifiers: "&&", def_value: None }]

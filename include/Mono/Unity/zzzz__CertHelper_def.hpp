@@ -27,17 +27,17 @@ MARK_REF_PTR_T(::Mono::Unity::CertHelper);
 namespace Mono::Unity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8756))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6766))
 // CS Name: ::Mono.Unity::CertHelper*
 class CORDL_TYPE CertHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AddCertificatesToNativeChain, addr 0x28175e0, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method AddCertificatesToNativeChain, addr 0x281bdc8, size 0x1d8, virtual false, abstract: false, final false
   static inline void AddCertificatesToNativeChain(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list> nativeCertificateChain,
                                                   ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* certificates,
                                                   ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
-  /// @brief Method AddCertificateToNativeChain, addr 0x28177b8, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method AddCertificateToNativeChain, addr 0x281bfa0, size 0x1c0, virtual false, abstract: false, final false
   static inline void AddCertificateToNativeChain(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list> nativeCertificateChain,
                                                  ::System::Security::Cryptography::X509Certificates::X509Certificate* certificate,
                                                  ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);

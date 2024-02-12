@@ -28,7 +28,7 @@ MARK_VAL_T(::UnityEngine::UIElements::VisualElementStyleSheetSet);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6859))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6118))
 // CS Name: ::UnityEngine.UIElements::VisualElementStyleSheetSet
 struct CORDL_TYPE VisualElementStyleSheetSet {
 public:
@@ -39,22 +39,22 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::VisualElementStyleSheetSet>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::VisualElementStyleSheetSet>* i___System__IEquatable_1___UnityEngine__UIElements__VisualElementStyleSheetSet_();
 
-  /// @brief Method .ctor, addr 0x2dc7ff0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2de63d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::VisualElement* element);
 
-  /// @brief Method Add, addr 0x2dc7ff8, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x2de63e0, size 0x1d0, virtual false, abstract: false, final false
   inline void Add(::UnityEngine::UIElements::StyleSheet* styleSheet);
 
-  /// @brief Method Remove, addr 0x2dc81c8, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x2de65b0, size 0x134, virtual false, abstract: false, final false
   inline bool Remove(::UnityEngine::UIElements::StyleSheet* styleSheet);
 
-  /// @brief Method Equals, addr 0x2dc82fc, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2de66e4, size 0xc, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::VisualElementStyleSheetSet other);
 
-  /// @brief Method Equals, addr 0x2dc8308, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2de66f0, size 0x7c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2dc8384, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2de676c, size 0x18, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "m_Element", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: None }]

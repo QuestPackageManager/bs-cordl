@@ -100,7 +100,7 @@ namespace System::Threading::Tasks {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2773)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 3850 })]
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2773)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 3833 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2766))
 // CS Name: ::ValueTask`1::ValueTaskSourceAsTask<TResult>*
 class CORDL_TYPE __ValueTask_1__ValueTaskSourceAsTask : public ::System::Threading::Tasks::Task_1<TResult> {

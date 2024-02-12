@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ParticleSystemContinuousEventEffect);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14724))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4959))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(15108))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4313))
 // CS Name: ::ParticleSystemContinuousEventEffect*
 class CORDL_TYPE ParticleSystemContinuousEventEffect : public ::UnityEngine::MonoBehaviour {
 public:
@@ -73,21 +73,21 @@ public:
 
   constexpr void __cordl_internal_set__beatmapDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
 
-  /// @brief Method Start, addr 0x23aec80, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x236edb4, size 0x124, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy, addr 0x23aeda4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x236eed8, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleBeatmapEvent, addr 0x23aedc0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0x236eef4, size 0x20, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
-  /// @brief Method ToggleEmitting, addr 0x23aede0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ToggleEmitting, addr 0x236ef14, size 0xb4, virtual false, abstract: false, final false
   inline void ToggleEmitting(bool shouldPlay);
 
   static inline ::GlobalNamespace::ParticleSystemContinuousEventEffect* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23aee94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x236efc8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ParticleSystemContinuousEventEffect", modifiers: "&&", def_value: None }]

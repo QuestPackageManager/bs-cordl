@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BasicSpectrogramData);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4998))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4352))
 // CS Name: ::BasicSpectrogramData*
 class CORDL_TYPE BasicSpectrogramData : public ::UnityEngine::MonoBehaviour {
 public:
@@ -87,24 +87,24 @@ public:
 
   constexpr void __cordl_internal_set__processedSamples(::System::Collections::Generic::List_1<float_t>* value);
 
-  /// @brief Method get_Samples, addr 0x23b6928, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_Samples, addr 0x2375a6c, size 0x98, virtual false, abstract: false, final false
   inline ::ArrayW<float_t, ::Array<float_t>*> get_Samples();
 
-  /// @brief Method get_ProcessedSamples, addr 0x23b69c0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_ProcessedSamples, addr 0x2375b04, size 0x3c, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<float_t>* get_ProcessedSamples();
 
-  /// @brief Method Awake, addr 0x23b6b8c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2375cd0, size 0xb0, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method LateUpdate, addr 0x23b6c3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x2375d80, size 0x8, virtual false, abstract: false, final false
   inline void LateUpdate();
 
-  /// @brief Method ProcessSamples, addr 0x23b69fc, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method ProcessSamples, addr 0x2375b40, size 0x190, virtual false, abstract: false, final false
   inline void ProcessSamples(::ArrayW<float_t, ::Array<float_t>*> sourceSamples, ::System::Collections::Generic::List_1<float_t>* processedSamples);
 
   static inline ::GlobalNamespace::BasicSpectrogramData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23b6c44, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2375d88, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BasicSpectrogramData", modifiers: "&&", def_value: None }]

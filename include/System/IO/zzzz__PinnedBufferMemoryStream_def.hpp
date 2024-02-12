@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::System::IO::PinnedBufferMemoryStream);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3336)), TypeDefinitionIndex(TypeDefinitionIndex(3587))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3569))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3333)), TypeDefinitionIndex(TypeDefinitionIndex(3584))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3565))
 // CS Name: ::System.IO::PinnedBufferMemoryStream*
 class CORDL_TYPE PinnedBufferMemoryStream : public ::System::IO::UnmanagedMemoryStream {
 public:
@@ -49,19 +49,19 @@ public:
 
   static inline ::System::IO::PinnedBufferMemoryStream* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> array);
 
-  /// @brief Method .ctor, addr 0x2500294, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x251f328, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> array);
 
-  /// @brief Method Read, addr 0x25005b4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x251f648, size 0x4, virtual true, abstract: false, final false
   inline int32_t Read(::System::Span_1<uint8_t> buffer);
 
-  /// @brief Method Write, addr 0x25007e4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x251f878, size 0x4, virtual true, abstract: false, final false
   inline void Write(::System::ReadOnlySpan_1<uint8_t> buffer);
 
-  /// @brief Method Finalize, addr 0x2500ae4, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x251fb78, size 0xa4, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method Dispose, addr 0x2500b88, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x251fc1c, size 0x50, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   // Ctor Parameters [CppParam { name: "", ty: "PinnedBufferMemoryStream", modifiers: "&&", def_value: None }]

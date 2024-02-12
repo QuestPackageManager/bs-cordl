@@ -79,30 +79,30 @@ public:
   static inline ::Org::BouncyCastle::Asn1::Cms::KekIdentifier* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> keyIdentifier, ::Org::BouncyCastle::Asn1::DerGeneralizedTime* date,
                                                                         ::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute* other);
 
-  /// @brief Method .ctor, addr 0xe78794, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xea3624, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> keyIdentifier, ::Org::BouncyCastle::Asn1::DerGeneralizedTime* date, ::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute* other);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::KekIdentifier* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xe78824, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xea36b4, size 0x298, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance, addr 0xe78c44, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xea3ad4, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::KekIdentifier* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0xe78c5c, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xea3aec, size 0x178, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::KekIdentifier* GetInstance(::System::Object* obj);
 
-  /// @brief Method get_KeyIdentifier, addr 0xe78dd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KeyIdentifier, addr 0xea3c64, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_KeyIdentifier();
 
-  /// @brief Method get_Date, addr 0xe78ddc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Date, addr 0xea3c6c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerGeneralizedTime* get_Date();
 
-  /// @brief Method get_Other, addr 0xe78de4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Other, addr 0xea3c74, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute* get_Other();
 
-  /// @brief Method ToAsn1Object, addr 0xe78dec, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xea3c7c, size 0x174, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "KekIdentifier", modifiers: "&&", def_value: None }]

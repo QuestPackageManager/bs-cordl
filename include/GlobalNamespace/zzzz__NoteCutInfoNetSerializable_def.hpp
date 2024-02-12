@@ -49,9 +49,9 @@ MARK_REF_PTR_T(::GlobalNamespace::NoteCutInfoNetSerializable);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14752)), TypeDefinitionIndex(TypeDefinitionIndex(14757)), TypeDefinitionIndex(TypeDefinitionIndex(14760)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15033)), TypeDefinitionIndex(TypeDefinitionIndex(15039)), TypeDefinitionIndex(TypeDefinitionIndex(15041))] Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(15026)) CS Name: ::NoteCutInfoNetSerializable*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14906)), TypeDefinitionIndex(TypeDefinitionIndex(14912)), TypeDefinitionIndex(TypeDefinitionIndex(14914)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15136)), TypeDefinitionIndex(TypeDefinitionIndex(15141)), TypeDefinitionIndex(TypeDefinitionIndex(15144))] Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(14899)) CS Name: ::NoteCutInfoNetSerializable*
 class CORDL_TYPE NoteCutInfoNetSerializable : public ::GlobalNamespace::PoolableSerializable {
 public:
   // Declarations
@@ -190,25 +190,25 @@ public:
 
   constexpr void __cordl_internal_set_moveVec(::GlobalNamespace::Vector3Serializable value);
 
-  /// @brief Method Obtain, addr 0x12a4288, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Obtain, addr 0x133a160, size 0x64, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::NoteCutInfoNetSerializable* Obtain();
 
-  /// @brief Method Deserialize, addr 0x12a42ec, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method Deserialize, addr 0x133a1c4, size 0x118, virtual true, abstract: false, final false
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Serialize, addr 0x12a44cc, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method Serialize, addr 0x133a3a4, size 0x104, virtual true, abstract: false, final false
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   static inline ::GlobalNamespace::NoteCutInfoNetSerializable* New_ctor();
 
-  /// @brief Method .ctor, addr 0x12a4678, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x133a550, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Init, addr 0x12a46d8, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x133a5b0, size 0xe4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteCutInfoNetSerializable* Init(ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo, ::GlobalNamespace::NoteData* noteData, ::UnityEngine::Vector3 notePosition,
                                                              ::UnityEngine::Quaternion noteRotation, ::UnityEngine::Vector3 noteScale, ::UnityEngine::Vector3 moveVec);
 
-  /// @brief Method Init, addr 0x12a47bc, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x133a694, size 0x224, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteCutInfoNetSerializable* Init(float_t saberSpeed, bool cutWasOk, ::UnityEngine::Vector3 saberDir, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Vector3 cutNormal,
                                                              ::GlobalNamespace::__NoteData__GameplayType gameplayType, ::GlobalNamespace::ColorType colorType,
                                                              ::GlobalNamespace::NoteLineLayer lineLayer, int32_t noteLineIndex, float_t noteTime, float_t timeToNextColorNote,

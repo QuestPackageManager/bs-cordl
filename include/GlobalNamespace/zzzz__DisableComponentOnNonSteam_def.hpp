@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::GlobalNamespace::DisableComponentOnNonSteam);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5360))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16179))
 // CS Name: ::DisableComponentOnNonSteam*
 class CORDL_TYPE DisableComponentOnNonSteam : public ::UnityEngine::MonoBehaviour {
 public:
@@ -32,12 +32,12 @@ public:
 
   constexpr void __cordl_internal_set__component(::UnityW<::UnityEngine::MonoBehaviour> value);
 
-  /// @brief Method Awake, addr 0x226c460, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x21819c4, size 0x20, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::DisableComponentOnNonSteam* New_ctor();
 
-  /// @brief Method .ctor, addr 0x226c480, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21819e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DisableComponentOnNonSteam", modifiers: "&&", def_value: None }]

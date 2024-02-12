@@ -18,20 +18,20 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Controls::TouchPhaseControl);
 // SizeInfo { instance_size: 240, native_size: -1, calculated_instance_size: 240, calculated_native_size: 240, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6216)), TypeDefinitionIndex(TypeDefinitionIndex(6287)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6216), inst: 3895
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6642)) CS Name: ::UnityEngine.InputSystem.Controls::TouchPhaseControl*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5475)), TypeDefinitionIndex(TypeDefinitionIndex(5546)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5475), inst: 3877
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5901)) CS Name: ::UnityEngine.InputSystem.Controls::TouchPhaseControl*
 class CORDL_TYPE TouchPhaseControl : public ::UnityEngine::InputSystem::InputControl_1<::UnityEngine::InputSystem::TouchPhase> {
 public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Controls::TouchPhaseControl* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2b0bbe4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b0b750, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method ReadUnprocessedValueFromState, addr 0x2b0bc6c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method ReadUnprocessedValueFromState, addr 0x2b0b7d8, size 0x28, virtual true, abstract: false, final false
   inline ::UnityEngine::InputSystem::TouchPhase ReadUnprocessedValueFromState(::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method WriteValueIntoState, addr 0x2b0bc94, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method WriteValueIntoState, addr 0x2b0b800, size 0xc, virtual true, abstract: false, final false
   inline void WriteValueIntoState(::UnityEngine::InputSystem::TouchPhase value, ::cordl_internals::Ptr<void> statePtr);
 
   // Ctor Parameters [CppParam { name: "", ty: "TouchPhaseControl", modifiers: "&&", def_value: None }]

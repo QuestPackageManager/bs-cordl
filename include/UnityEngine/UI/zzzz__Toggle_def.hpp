@@ -63,7 +63,7 @@ MARK_REF_PTR_T(::UnityEngine::UI::__Toggle__ToggleEvent);
 namespace UnityEngine::UI {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13129))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13027))
 // CS Name: ::Toggle::ToggleTransition
 struct CORDL_TYPE __Toggle__ToggleTransition {
 public:
@@ -112,15 +112,15 @@ static_assert(offsetof(::UnityEngine::UI::__Toggle__ToggleTransition, value__) =
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 105 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13130))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9234)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9234), inst: 77 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13028))
 // CS Name: ::Toggle::ToggleEvent*
 class CORDL_TYPE __Toggle__ToggleEvent : public ::UnityEngine::Events::UnityEvent_1<bool> {
 public:
   // Declarations
   static inline ::UnityEngine::UI::__Toggle__ToggleEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d8c820, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2da9c08, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Toggle__ToggleEvent", modifiers: "&&", def_value: None }]
@@ -147,8 +147,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::__Toggle__Toggl
 // SizeInfo { instance_size: 288, native_size: -1, calculated_instance_size: 288, calculated_native_size: 281, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13119)), TypeDefinitionIndex(TypeDefinitionIndex(13129))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13131))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13017)), TypeDefinitionIndex(TypeDefinitionIndex(13027))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13029))
 // CS Name: ::UnityEngine.UI::Toggle*
 class CORDL_TYPE Toggle : public ::UnityEngine::UI::Selectable {
 public:
@@ -230,69 +230,69 @@ public:
 
   constexpr void __cordl_internal_set_m_IsOn(bool value);
 
-  /// @brief Method get_group, addr 0x2d8c56c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_group, addr 0x2da9954, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::ToggleGroup> get_group();
 
-  /// @brief Method set_group, addr 0x2d8c574, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_group, addr 0x2da995c, size 0x20, virtual false, abstract: false, final false
   inline void set_group(::UnityEngine::UI::ToggleGroup* value);
 
   static inline ::UnityEngine::UI::Toggle* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d8c794, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2da9b7c, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Rebuild, addr 0x2d8c868, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Rebuild, addr 0x2da9c50, size 0x4, virtual true, abstract: false, final false
   inline void Rebuild(::UnityEngine::UI::CanvasUpdate executing);
 
-  /// @brief Method LayoutComplete, addr 0x2d8c86c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method LayoutComplete, addr 0x2da9c54, size 0x4, virtual true, abstract: false, final false
   inline void LayoutComplete();
 
-  /// @brief Method GraphicUpdateComplete, addr 0x2d8c870, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method GraphicUpdateComplete, addr 0x2da9c58, size 0x4, virtual true, abstract: false, final false
   inline void GraphicUpdateComplete();
 
-  /// @brief Method OnDestroy, addr 0x2d8c874, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2da9c5c, size 0x80, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnEnable, addr 0x2d8cce0, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x2daa0c8, size 0x2c, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable, addr 0x2d8cd0c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x2daa0f4, size 0x20, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnDidApplyAnimationProperties, addr 0x2d8cd2c, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method OnDidApplyAnimationProperties, addr 0x2daa114, size 0x124, virtual true, abstract: false, final false
   inline void OnDidApplyAnimationProperties();
 
-  /// @brief Method SetToggleGroup, addr 0x2d8c594, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method SetToggleGroup, addr 0x2da997c, size 0x13c, virtual false, abstract: false, final false
   inline void SetToggleGroup(::UnityEngine::UI::ToggleGroup* newGroup, bool setMemberValue);
 
-  /// @brief Method get_isOn, addr 0x2d8d234, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isOn, addr 0x2daa61c, size 0x8, virtual false, abstract: false, final false
   inline bool get_isOn();
 
-  /// @brief Method set_isOn, addr 0x2d8d23c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isOn, addr 0x2daa624, size 0xc, virtual false, abstract: false, final false
   inline void set_isOn(bool value);
 
-  /// @brief Method SetIsOnWithoutNotify, addr 0x2d8d248, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetIsOnWithoutNotify, addr 0x2daa630, size 0xc, virtual false, abstract: false, final false
   inline void SetIsOnWithoutNotify(bool value);
 
-  /// @brief Method Set, addr 0x2d8ce50, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x2daa238, size 0x174, virtual false, abstract: false, final false
   inline void Set(bool value, bool sendCallback);
 
-  /// @brief Method PlayEffect, addr 0x2d8c6d0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method PlayEffect, addr 0x2da9ab8, size 0xc4, virtual false, abstract: false, final false
   inline void PlayEffect(bool instant);
 
-  /// @brief Method Start, addr 0x2d8d390, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x2daa778, size 0x8, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method InternalToggle, addr 0x2d8d398, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method InternalToggle, addr 0x2daa780, size 0x54, virtual false, abstract: false, final false
   inline void InternalToggle();
 
-  /// @brief Method OnPointerClick, addr 0x2d8d3ec, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method OnPointerClick, addr 0x2daa7d4, size 0x24, virtual true, abstract: false, final false
   inline void OnPointerClick(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnSubmit, addr 0x2d8d410, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnSubmit, addr 0x2daa7f8, size 0x4, virtual true, abstract: false, final false
   inline void OnSubmit(::UnityEngine::EventSystems::BaseEventData* eventData);
 
-  /// @brief Method UnityEngine.UI.ICanvasElement.get_transform, addr 0x2d8d414, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UI.ICanvasElement.get_transform, addr 0x2daa7fc, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::Transform> UnityEngine_UI_ICanvasElement_get_transform();
 
   // Ctor Parameters [CppParam { name: "", ty: "Toggle", modifiers: "&&", def_value: None }]

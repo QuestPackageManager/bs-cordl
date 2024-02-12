@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::System::Net::ListenerPrefix);
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9190))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7200))
 // CS Name: ::System.Net::ListenerPrefix*
 class CORDL_TYPE ListenerPrefix : public ::System::Object {
 public:
@@ -92,34 +92,34 @@ public:
 
   static inline ::System::Net::ListenerPrefix* New_ctor(::StringW prefix);
 
-  /// @brief Method .ctor, addr 0x29d32b4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29d7d58, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW prefix);
 
-  /// @brief Method ToString, addr 0x29d35d4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x29d8078, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_Secure, addr 0x29d35dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Secure, addr 0x29d8080, size 0x8, virtual false, abstract: false, final false
   inline bool get_Secure();
 
-  /// @brief Method get_Host, addr 0x29d35e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Host, addr 0x29d8088, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Host();
 
-  /// @brief Method get_Port, addr 0x29d35ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Port, addr 0x29d8090, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Port();
 
-  /// @brief Method get_Path, addr 0x29d35f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Path, addr 0x29d8098, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Path();
 
-  /// @brief Method Equals, addr 0x29d35fc, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x29d80a0, size 0x80, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method GetHashCode, addr 0x29d367c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x29d8120, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Parse, addr 0x29d32e4, size 0x2f0, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x29d7d88, size 0x2f0, virtual false, abstract: false, final false
   inline void Parse(::StringW uri);
 
-  /// @brief Method CheckUri, addr 0x29d369c, size 0x350, virtual false, abstract: false, final false
+  /// @brief Method CheckUri, addr 0x29d8140, size 0x350, virtual false, abstract: false, final false
   static inline void CheckUri(::StringW uri);
 
   // Ctor Parameters [CppParam { name: "", ty: "ListenerPrefix", modifiers: "&&", def_value: None }]

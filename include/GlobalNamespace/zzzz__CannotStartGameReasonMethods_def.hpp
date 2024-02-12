@@ -19,12 +19,12 @@ MARK_REF_PTR_T(::GlobalNamespace::CannotStartGameReasonMethods);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4484))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10909))
 // CS Name: ::CannotStartGameReasonMethods*
 class CORDL_TYPE CannotStartGameReasonMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method LocalizedKey, addr 0x2355840, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method LocalizedKey, addr 0x1299818, size 0xd8, virtual false, abstract: false, final false
   static inline ::StringW LocalizedKey(::GlobalNamespace::CannotStartGameReason cannotStartGameReason);
 
   // Ctor Parameters [CppParam { name: "", ty: "CannotStartGameReasonMethods", modifiers: "&&", def_value: None }]

@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::System::Globalization::TaiwanCalendar);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(3696))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3705))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(3694))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3703))
 // CS Name: ::System.Globalization::TaiwanCalendar*
 class CORDL_TYPE TaiwanCalendar : public ::System::Globalization::Calendar {
 public:
@@ -78,63 +78,63 @@ public:
 
   static inline ::System::DateTime getStaticF_calendarMinValue();
 
-  /// @brief Method GetDefaultInstance, addr 0x2567154, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultInstance, addr 0x2589d9c, size 0xb8, virtual false, abstract: false, final false
   static inline ::System::Globalization::Calendar* GetDefaultInstance();
 
-  /// @brief Method get_MinSupportedDateTime, addr 0x25673dc, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_MinSupportedDateTime, addr 0x258a024, size 0x58, virtual true, abstract: false, final false
   inline ::System::DateTime get_MinSupportedDateTime();
 
-  /// @brief Method get_MaxSupportedDateTime, addr 0x2567434, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_MaxSupportedDateTime, addr 0x258a07c, size 0x58, virtual true, abstract: false, final false
   inline ::System::DateTime get_MaxSupportedDateTime();
 
   static inline ::System::Globalization::TaiwanCalendar* New_ctor();
 
-  /// @brief Method .ctor, addr 0x256720c, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2589e54, size 0x1d0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ID, addr 0x256748c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ID, addr 0x258a0d4, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ID();
 
-  /// @brief Method GetDaysInMonth, addr 0x2567494, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetDaysInMonth, addr 0x258a0dc, size 0x18, virtual true, abstract: false, final false
   inline int32_t GetDaysInMonth(int32_t year, int32_t month, int32_t era);
 
-  /// @brief Method GetDaysInYear, addr 0x25674ac, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetDaysInYear, addr 0x258a0f4, size 0x18, virtual true, abstract: false, final false
   inline int32_t GetDaysInYear(int32_t year, int32_t era);
 
-  /// @brief Method GetDayOfMonth, addr 0x25674c4, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method GetDayOfMonth, addr 0x258a10c, size 0x48, virtual true, abstract: false, final false
   inline int32_t GetDayOfMonth(::System::DateTime time);
 
-  /// @brief Method GetDayOfWeek, addr 0x256750c, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetDayOfWeek, addr 0x258a154, size 0x18, virtual true, abstract: false, final false
   inline ::System::DayOfWeek GetDayOfWeek(::System::DateTime time);
 
-  /// @brief Method GetMonthsInYear, addr 0x2567524, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetMonthsInYear, addr 0x258a16c, size 0x24, virtual true, abstract: false, final false
   inline int32_t GetMonthsInYear(int32_t year, int32_t era);
 
-  /// @brief Method GetEra, addr 0x2567548, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetEra, addr 0x258a190, size 0x18, virtual true, abstract: false, final false
   inline int32_t GetEra(::System::DateTime time);
 
-  /// @brief Method GetMonth, addr 0x2567560, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method GetMonth, addr 0x258a1a8, size 0x48, virtual true, abstract: false, final false
   inline int32_t GetMonth(::System::DateTime time);
 
-  /// @brief Method GetYear, addr 0x25675a8, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetYear, addr 0x258a1f0, size 0x18, virtual true, abstract: false, final false
   inline int32_t GetYear(::System::DateTime time);
 
-  /// @brief Method IsLeapYear, addr 0x25675c0, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method IsLeapYear, addr 0x258a208, size 0x18, virtual true, abstract: false, final false
   inline bool IsLeapYear(int32_t year, int32_t era);
 
-  /// @brief Method ToDateTime, addr 0x25675d8, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ToDateTime, addr 0x258a220, size 0x20, virtual true, abstract: false, final false
   inline ::System::DateTime ToDateTime(int32_t year, int32_t month, int32_t day, int32_t hour, int32_t minute, int32_t second, int32_t millisecond, int32_t era);
 
-  /// @brief Method get_Eras, addr 0x25675f8, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_Eras, addr 0x258a240, size 0x18, virtual true, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> get_Eras();
 
-  /// @brief Method get_TwoDigitYearMax, addr 0x2567610, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_TwoDigitYearMax, addr 0x258a258, size 0x44, virtual true, abstract: false, final false
   inline int32_t get_TwoDigitYearMax();
 
-  /// @brief Method set_TwoDigitYearMax, addr 0x2567654, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method set_TwoDigitYearMax, addr 0x258a29c, size 0x13c, virtual true, abstract: false, final false
   inline void set_TwoDigitYearMax(int32_t value);
 
-  /// @brief Method ToFourDigitYear, addr 0x2567790, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method ToFourDigitYear, addr 0x258a3d8, size 0x150, virtual true, abstract: false, final false
   inline int32_t ToFourDigitYear(int32_t year);
 
   // Ctor Parameters [CppParam { name: "", ty: "TaiwanCalendar", modifiers: "&&", def_value: None }]

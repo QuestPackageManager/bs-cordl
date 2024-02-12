@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::System::Xml::XmlWriter);
 namespace System::Xml {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11491))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11389))
 // CS Name: ::System.Xml::XmlWriter*
 class CORDL_TYPE XmlWriter : public ::System::Object {
 public:
@@ -67,7 +67,7 @@ public:
   /// @brief Method WriteFullEndElement, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void WriteFullEndElement();
 
-  /// @brief Method WriteAttributeString, addr 0x288046c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method WriteAttributeString, addr 0x2883ad4, size 0x50, virtual false, abstract: false, final false
   inline void WriteAttributeString(::StringW prefix, ::StringW localName, ::StringW ns, ::StringW value);
 
   /// @brief Method WriteStartAttribute, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -112,13 +112,13 @@ public:
   /// @brief Method WriteBase64, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void WriteBase64(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t index, int32_t count);
 
-  /// @brief Method WriteBinHex, addr 0x287ec44, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method WriteBinHex, addr 0x28822ac, size 0x1c, virtual true, abstract: false, final false
   inline void WriteBinHex(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t index, int32_t count);
 
   /// @brief Method get_WriteState, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Xml::WriteState get_WriteState();
 
-  /// @brief Method Close, addr 0x28804bc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x2883b24, size 0x4, virtual true, abstract: false, final false
   inline void Close();
 
   /// @brief Method Flush, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -127,24 +127,24 @@ public:
   /// @brief Method LookupPrefix, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW LookupPrefix(::StringW ns);
 
-  /// @brief Method WriteValue, addr 0x28804c0, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method WriteValue, addr 0x2883b28, size 0x18, virtual true, abstract: false, final false
   inline void WriteValue(::StringW value);
 
-  /// @brief Method Dispose, addr 0x28804d8, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2883b40, size 0x14, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x28804ec, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x2883b54, size 0x44, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Create, addr 0x2880530, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2883b98, size 0x68, virtual false, abstract: false, final false
   static inline ::System::Xml::XmlWriter* Create(::System::IO::Stream* output, ::System::Xml::XmlWriterSettings* settings);
 
-  /// @brief Method Create, addr 0x2880ad0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2884138, size 0x68, virtual false, abstract: false, final false
   static inline ::System::Xml::XmlWriter* Create(::System::IO::TextWriter* output, ::System::Xml::XmlWriterSettings* settings);
 
   static inline ::System::Xml::XmlWriter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2878eb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x287c520, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlWriter", modifiers: "&&", def_value: None }]

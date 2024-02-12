@@ -164,58 +164,58 @@ public:
 
   static inline ::System::Runtime::Remoting::Messaging::ConstructionCall* New_ctor(::System::Type* type);
 
-  /// @brief Method .ctor, addr 0x2497c38, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24b9cac, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
   static inline ::System::Runtime::Remoting::Messaging::ConstructionCall* New_ctor(::System::Runtime::Serialization::SerializationInfo* info,
                                                                                    ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x24ab094, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24cd108, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method InitDictionary, addr 0x24ab130, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method InitDictionary, addr 0x24cd1a4, size 0x84, virtual true, abstract: false, final false
   inline void InitDictionary();
 
-  /// @brief Method get_IsContextOk, addr 0x24ab260, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsContextOk, addr 0x24cd2d4, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsContextOk();
 
-  /// @brief Method set_IsContextOk, addr 0x24ab268, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsContextOk, addr 0x24cd2dc, size 0xc, virtual false, abstract: false, final false
   inline void set_IsContextOk(bool value);
 
-  /// @brief Method get_ActivationType, addr 0x24ab274, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method get_ActivationType, addr 0x24cd2e8, size 0xc8, virtual true, abstract: false, final true
   inline ::System::Type* get_ActivationType();
 
-  /// @brief Method get_ActivationTypeName, addr 0x24ab33c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_ActivationTypeName, addr 0x24cd3b0, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_ActivationTypeName();
 
-  /// @brief Method get_Activator, addr 0x24ab344, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Activator, addr 0x24cd3b8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Activation::IActivator* get_Activator();
 
-  /// @brief Method set_Activator, addr 0x24ab34c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_Activator, addr 0x24cd3c0, size 0x8, virtual true, abstract: false, final true
   inline void set_Activator(::System::Runtime::Remoting::Activation::IActivator* value);
 
-  /// @brief Method get_CallSiteActivationAttributes, addr 0x24ab354, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_CallSiteActivationAttributes, addr 0x24cd3c8, size 0x8, virtual true, abstract: false, final true
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> get_CallSiteActivationAttributes();
 
-  /// @brief Method SetActivationAttributes, addr 0x24ab35c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetActivationAttributes, addr 0x24cd3d0, size 0x8, virtual false, abstract: false, final false
   inline void SetActivationAttributes(::ArrayW<::System::Object*, ::Array<::System::Object*>*> attributes);
 
-  /// @brief Method get_ContextProperties, addr 0x24ab364, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method get_ContextProperties, addr 0x24cd3d8, size 0x6c, virtual true, abstract: false, final true
   inline ::System::Collections::IList* get_ContextProperties();
 
-  /// @brief Method InitMethodProperty, addr 0x24ab3d0, size 0x2b0, virtual true, abstract: false, final false
+  /// @brief Method InitMethodProperty, addr 0x24cd444, size 0x2b0, virtual true, abstract: false, final false
   inline void InitMethodProperty(::StringW key, ::System::Object* value);
 
-  /// @brief Method GetObjectData, addr 0x24aba9c, size 0x198, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x24cdb10, size 0x198, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method get_Properties, addr 0x24ac0c4, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x24ce138, size 0x30, virtual true, abstract: false, final false
   inline ::System::Collections::IDictionary* get_Properties();
 
-  /// @brief Method get_SourceProxy, addr 0x24ac124, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SourceProxy, addr 0x24ce198, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::Proxies::RemotingProxy* get_SourceProxy();
 
-  /// @brief Method set_SourceProxy, addr 0x24ac12c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SourceProxy, addr 0x24ce1a0, size 0x8, virtual false, abstract: false, final false
   inline void set_SourceProxy(::System::Runtime::Remoting::Proxies::RemotingProxy* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "ConstructionCall", modifiers: "&&", def_value: None }]

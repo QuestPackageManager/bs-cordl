@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::GlobalNamespace::LongRollingAverage);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12832))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12730))
 // CS Name: ::LongRollingAverage*
 class CORDL_TYPE LongRollingAverage : public ::System::Object {
 public:
@@ -71,21 +71,21 @@ public:
 
   constexpr void __cordl_internal_set__length(int32_t value);
 
-  /// @brief Method get_currentAverage, addr 0xe430f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_currentAverage, addr 0xe6df2c, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_currentAverage();
 
-  /// @brief Method get_hasValue, addr 0xe430fc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_hasValue, addr 0xe6df34, size 0x10, virtual false, abstract: false, final false
   inline bool get_hasValue();
 
   static inline ::GlobalNamespace::LongRollingAverage* New_ctor(int32_t window);
 
-  /// @brief Method .ctor, addr 0xe4310c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe6df44, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(int32_t window);
 
-  /// @brief Method Update, addr 0xe43174, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0xe6dfac, size 0xf8, virtual false, abstract: false, final false
   inline void Update(int64_t value);
 
-  /// @brief Method Reset, addr 0xe4326c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0xe6e0a4, size 0xc, virtual false, abstract: false, final false
   inline void Reset();
 
   // Ctor Parameters [CppParam { name: "", ty: "LongRollingAverage", modifiers: "&&", def_value: None }]

@@ -22,7 +22,7 @@ namespace System::Linq {
 template <typename TKey, typename TElement>
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14282))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14295))
 // CS Name: ::System.Linq::IGrouping`2<TKey,TElement>*
 class CORDL_TYPE IGrouping_2 {
 public:

@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::IPointerEnterHandler);
 namespace UnityEngine::EventSystems {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13172))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13070))
 // CS Name: ::UnityEngine.EventSystems::IPointerEnterHandler*
 class CORDL_TYPE IPointerEnterHandler {
 public:

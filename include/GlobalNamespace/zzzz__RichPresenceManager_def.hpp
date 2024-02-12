@@ -66,8 +66,8 @@ MARK_REF_PTR_T(::GlobalNamespace::RichPresenceManager);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4678))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5252))
 // CS Name: ::RichPresenceManager*
 class CORDL_TYPE RichPresenceManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -238,36 +238,36 @@ public:
 
   constexpr void __cordl_internal_set__currentPresenceData(::GlobalNamespace::IRichPresenceData* value);
 
-  /// @brief Method Awake, addr 0x2374340, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2337830, size 0x2a8, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnDestroy, addr 0x23745dc, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2337ad8, size 0x264, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleLobbyGameStateModelDidChange, addr 0x2374840, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbyGameStateModelDidChange, addr 0x2337d3c, size 0x1c, virtual false, abstract: false, final false
   inline void HandleLobbyGameStateModelDidChange(::GlobalNamespace::MultiplayerGameState newGameState);
 
-  /// @brief Method SetMenuPresence, addr 0x237485c, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method SetMenuPresence, addr 0x2337d58, size 0x22c, virtual false, abstract: false, final false
   inline void SetMenuPresence();
 
-  /// @brief Method HandleGameScenesManagerTransitionDidFinish, addr 0x2374b34, size 0x324, virtual false, abstract: false, final false
+  /// @brief Method HandleGameScenesManagerTransitionDidFinish, addr 0x2338030, size 0x328, virtual false, abstract: false, final false
   inline void HandleGameScenesManagerTransitionDidFinish(::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, ::Zenject::DiContainer* diContainer);
 
-  /// @brief Method HandleMultiplayerPartySizeChanged, addr 0x2374f00, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method HandleMultiplayerPartySizeChanged, addr 0x2338400, size 0x1d0, virtual false, abstract: false, final false
   inline void HandleMultiplayerPartySizeChanged(int32_t currentPartySize);
 
-  /// @brief Method HandleLobbyPlayerPermissionChanged, addr 0x23750d0, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbyPlayerPermissionChanged, addr 0x23385d0, size 0x154, virtual false, abstract: false, final false
   inline void HandleLobbyPlayerPermissionChanged();
 
-  /// @brief Method SetPresence, addr 0x2374a88, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method SetPresence, addr 0x2337f84, size 0xac, virtual false, abstract: false, final false
   inline void SetPresence(::GlobalNamespace::IRichPresenceData* presenceData);
 
-  /// @brief Method Clear, addr 0x2374e58, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x2338358, size 0xa8, virtual false, abstract: false, final false
   inline void Clear();
 
   static inline ::GlobalNamespace::RichPresenceManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2375224, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2338724, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RichPresenceManager", modifiers: "&&", def_value: None }]

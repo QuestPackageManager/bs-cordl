@@ -159,56 +159,56 @@ public:
                                                                                 ::Org::BouncyCastle::Crypto::IEntropySource* entropySource, ::ArrayW<uint8_t, ::Array<uint8_t>*> personalizationString,
                                                                                 ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce);
 
-  /// @brief Method .ctor, addr 0xf3c968, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf677f8, size 0x254, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher* engine, int32_t keySizeInBits, int32_t securityStrength, ::Org::BouncyCastle::Crypto::IEntropySource* entropySource,
                     ::ArrayW<uint8_t, ::Array<uint8_t>*> personalizationString, ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce);
 
-  /// @brief Method CTR_DRBG_Instantiate_algorithm, addr 0xf3cf10, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method CTR_DRBG_Instantiate_algorithm, addr 0xf67da0, size 0x21c, virtual false, abstract: false, final false
   inline void CTR_DRBG_Instantiate_algorithm(::ArrayW<uint8_t, ::Array<uint8_t>*> entropy, ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce, ::ArrayW<uint8_t, ::Array<uint8_t>*> personalisationString);
 
-  /// @brief Method CTR_DRBG_Update, addr 0xf3d604, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method CTR_DRBG_Update, addr 0xf68494, size 0x348, virtual false, abstract: false, final false
   inline void CTR_DRBG_Update(::ArrayW<uint8_t, ::Array<uint8_t>*> seed, ::ArrayW<uint8_t, ::Array<uint8_t>*> key, ::ArrayW<uint8_t, ::Array<uint8_t>*> v);
 
-  /// @brief Method CTR_DRBG_Reseed_algorithm, addr 0xf3daec, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method CTR_DRBG_Reseed_algorithm, addr 0xf6897c, size 0xa4, virtual false, abstract: false, final false
   inline void CTR_DRBG_Reseed_algorithm(::ArrayW<uint8_t, ::Array<uint8_t>*> additionalInput);
 
-  /// @brief Method XOR, addr 0xf3da58, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method XOR, addr 0xf688e8, size 0x94, virtual false, abstract: false, final false
   inline void XOR(::ArrayW<uint8_t, ::Array<uint8_t>*> output, ::ArrayW<uint8_t, ::Array<uint8_t>*> a, ::ArrayW<uint8_t, ::Array<uint8_t>*> b, int32_t bOff);
 
-  /// @brief Method AddOneTo, addr 0xf3d9f0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method AddOneTo, addr 0xf68880, size 0x68, virtual false, abstract: false, final false
   inline void AddOneTo(::ArrayW<uint8_t, ::Array<uint8_t>*> longer);
 
-  /// @brief Method GetEntropy, addr 0xf3cdf8, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method GetEntropy, addr 0xf67c88, size 0x118, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEntropy();
 
-  /// @brief Method Block_Cipher_df, addr 0xf3d12c, size 0x4d8, virtual false, abstract: false, final false
+  /// @brief Method Block_Cipher_df, addr 0xf67fbc, size 0x4d8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Block_Cipher_df(::ArrayW<uint8_t, ::Array<uint8_t>*> inputString, int32_t bitLength);
 
-  /// @brief Method BCC, addr 0xf3dc10, size 0x30c, virtual false, abstract: false, final false
+  /// @brief Method BCC, addr 0xf68aa0, size 0x30c, virtual false, abstract: false, final false
   inline void BCC(::ArrayW<uint8_t, ::Array<uint8_t>*> bccOut, ::ArrayW<uint8_t, ::Array<uint8_t>*> k, ::ArrayW<uint8_t, ::Array<uint8_t>*> iV, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method copyIntToByteArray, addr 0xf3db90, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method copyIntToByteArray, addr 0xf68a20, size 0x80, virtual false, abstract: false, final false
   inline void copyIntToByteArray(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t value, int32_t offSet);
 
-  /// @brief Method get_BlockSize, addr 0xf3df1c, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method get_BlockSize, addr 0xf68dac, size 0x20, virtual true, abstract: false, final true
   inline int32_t get_BlockSize();
 
-  /// @brief Method Generate, addr 0xf3df3c, size 0x4a4, virtual true, abstract: false, final true
+  /// @brief Method Generate, addr 0xf68dcc, size 0x4a4, virtual true, abstract: false, final true
   inline int32_t Generate(::ArrayW<uint8_t, ::Array<uint8_t>*> output, ::ArrayW<uint8_t, ::Array<uint8_t>*> additionalInput, bool predictionResistant);
 
-  /// @brief Method Reseed, addr 0xf3e3f4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Reseed, addr 0xf69284, size 0x4, virtual true, abstract: false, final true
   inline void Reseed(::ArrayW<uint8_t, ::Array<uint8_t>*> additionalInput);
 
-  /// @brief Method IsTdea, addr 0xf3cca8, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method IsTdea, addr 0xf67b38, size 0x150, virtual false, abstract: false, final false
   inline bool IsTdea(::Org::BouncyCastle::Crypto::IBlockCipher* cipher);
 
-  /// @brief Method GetMaxSecurityStrength, addr 0xf3cbbc, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetMaxSecurityStrength, addr 0xf67a4c, size 0xec, virtual false, abstract: false, final false
   inline int32_t GetMaxSecurityStrength(::Org::BouncyCastle::Crypto::IBlockCipher* cipher, int32_t keySizeInBits);
 
-  /// @brief Method ExpandKey, addr 0xf3d94c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method ExpandKey, addr 0xf687dc, size 0xa4, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ExpandKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method PadKey, addr 0xf3e3f8, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method PadKey, addr 0xf69288, size 0x290, virtual false, abstract: false, final false
   inline void PadKey(::ArrayW<uint8_t, ::Array<uint8_t>*> keyMaster, int32_t keyOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> tmp, int32_t tmpOff);
 
   // Ctor Parameters [CppParam { name: "", ty: "CtrSP800Drbg", modifiers: "&&", def_value: None }]

@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::EnableOnVisible);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14364))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14519))
 // CS Name: ::EnableOnVisible*
 class CORDL_TYPE EnableOnVisible : public ::UnityEngine::MonoBehaviour {
 public:
@@ -46,24 +46,24 @@ public:
 
   constexpr void __cordl_internal_set__components(::ArrayW<::UnityW<::UnityEngine::Behaviour>, ::Array<::UnityW<::UnityEngine::Behaviour>>*> value);
 
-  /// @brief Method add_VisibilityChangedEvent, addr 0x20f22a8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_VisibilityChangedEvent, addr 0x2186830, size 0xb0, virtual false, abstract: false, final false
   inline void add_VisibilityChangedEvent(::System::Action_1<bool>* value);
 
-  /// @brief Method remove_VisibilityChangedEvent, addr 0x20f2358, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_VisibilityChangedEvent, addr 0x21868e0, size 0xb0, virtual false, abstract: false, final false
   inline void remove_VisibilityChangedEvent(::System::Action_1<bool>* value);
 
-  /// @brief Method Awake, addr 0x20f2408, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2186990, size 0x64, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnBecameVisible, addr 0x20f246c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnBecameVisible, addr 0x21869f4, size 0x88, virtual false, abstract: false, final false
   inline void OnBecameVisible();
 
-  /// @brief Method OnBecameInvisible, addr 0x20f24f4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnBecameInvisible, addr 0x2186a7c, size 0x88, virtual false, abstract: false, final false
   inline void OnBecameInvisible();
 
   static inline ::GlobalNamespace::EnableOnVisible* New_ctor();
 
-  /// @brief Method .ctor, addr 0x20f257c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2186b04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EnableOnVisible", modifiers: "&&", def_value: None }]

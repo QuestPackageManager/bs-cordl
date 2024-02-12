@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::OVRGLTFInputNode);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7554))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7632))
 // CS Name: ::OVRGLTFInputNode
 struct CORDL_TYPE OVRGLTFInputNode {
 public:

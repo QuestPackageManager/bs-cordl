@@ -17,7 +17,7 @@ MARK_VAL_T(::UnityEngine::AnimatorClipInfo);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14878))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14751))
 // CS Name: ::UnityEngine::AnimatorClipInfo
 struct CORDL_TYPE AnimatorClipInfo {
 public:

@@ -60,16 +60,16 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::ConstructedOctetStream* New_ctor(::Org::BouncyCastle::Asn1::Asn1StreamParser* parser);
 
-  /// @brief Method .ctor, addr 0x11bd878, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11ea708, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1StreamParser* parser);
 
-  /// @brief Method Read, addr 0x11bfcbc, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x11ecb4c, size 0x1c4, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method ReadByte, addr 0x11bff88, size 0x134, virtual true, abstract: false, final false
+  /// @brief Method ReadByte, addr 0x11ece18, size 0x134, virtual true, abstract: false, final false
   inline int32_t ReadByte();
 
-  /// @brief Method GetNextParser, addr 0x11bfe80, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetNextParser, addr 0x11ecd10, size 0x108, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetStringParser* GetNextParser();
 
   // Ctor Parameters [CppParam { name: "", ty: "ConstructedOctetStream", modifiers: "&&", def_value: None }]

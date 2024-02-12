@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::Mono::Security::Cryptography::MD2Managed);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::Cryptography {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13790))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13791))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13743))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13744))
 // CS Name: ::Mono.Security.Cryptography::MD2Managed*
 class CORDL_TYPE MD2Managed : public ::Mono::Security::Cryptography::MD2 {
 public:
@@ -74,24 +74,24 @@ public:
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_PI_SUBST();
 
-  /// @brief Method Padding, addr 0x240493c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Padding, addr 0x242479c, size 0x9c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Padding(int32_t nLength);
 
   static inline ::Mono::Security::Cryptography::MD2Managed* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2404898, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24246f8, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Initialize, addr 0x24049d8, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method Initialize, addr 0x2424838, size 0x60, virtual true, abstract: false, final false
   inline void Initialize();
 
-  /// @brief Method HashCore, addr 0x2404a38, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method HashCore, addr 0x2424898, size 0xdc, virtual true, abstract: false, final false
   inline void HashCore(::ArrayW<uint8_t, ::Array<uint8_t>*> array, int32_t ibStart, int32_t cbSize);
 
-  /// @brief Method HashFinal, addr 0x2404d6c, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method HashFinal, addr 0x2424bcc, size 0xf0, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> HashFinal();
 
-  /// @brief Method MD2Transform, addr 0x2404b14, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method MD2Transform, addr 0x2424974, size 0x258, virtual false, abstract: false, final false
   inline void MD2Transform(::ArrayW<uint8_t, ::Array<uint8_t>*> state, ::ArrayW<uint8_t, ::Array<uint8_t>*> checksum, ::ArrayW<uint8_t, ::Array<uint8_t>*> block, int32_t index);
 
   // Ctor Parameters [CppParam { name: "", ty: "MD2Managed", modifiers: "&&", def_value: None }]

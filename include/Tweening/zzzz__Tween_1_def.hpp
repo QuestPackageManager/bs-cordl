@@ -23,8 +23,8 @@ namespace Tweening {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16098))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16099))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16207))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16208))
 // CS Name: ::Tweening::Tween`1<T>*
 class CORDL_TYPE Tween_1 : public ::Tweening::Tween {
 public:

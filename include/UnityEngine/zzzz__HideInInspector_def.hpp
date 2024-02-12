@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::UnityEngine::HideInInspector);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10220))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8964))
 // CS Name: ::UnityEngine::HideInInspector*
 class CORDL_TYPE HideInInspector : public ::System::Attribute {
 public:
   // Declarations
   static inline ::UnityEngine::HideInInspector* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2cd28f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cd98a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HideInInspector", modifiers: "&&", def_value: None }]

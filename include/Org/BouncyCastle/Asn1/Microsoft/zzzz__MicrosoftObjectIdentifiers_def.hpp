@@ -74,7 +74,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Microsoft::MicrosoftObjectIdentifiers* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf7bd10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfa6ba0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MicrosoftObjectIdentifiers", modifiers: "&&", def_value: None }]

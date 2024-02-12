@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::HMUI::ITableCellOwner);
 namespace HMUI {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13660))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13613))
 // CS Name: ::HMUI::ITableCellOwner*
 class CORDL_TYPE ITableCellOwner {
 public:

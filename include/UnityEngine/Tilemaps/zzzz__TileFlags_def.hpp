@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Tilemaps::TileFlags);
 namespace UnityEngine::Tilemaps {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15938))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16061))
 // CS Name: ::UnityEngine.Tilemaps::TileFlags
 struct CORDL_TYPE TileFlags {
 public:

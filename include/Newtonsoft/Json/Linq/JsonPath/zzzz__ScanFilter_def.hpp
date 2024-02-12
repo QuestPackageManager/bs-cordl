@@ -46,7 +46,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Linq::JsonPath::__ScanFilter___ExecuteFilter_
 namespace Newtonsoft::Json::Linq::JsonPath {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12027))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11925))
 // CS Name: ::ScanFilter::<ExecuteFilter>d__4*
 class CORDL_TYPE __ScanFilter___ExecuteFilter_d__4 : public ::System::Object {
 public:
@@ -169,31 +169,31 @@ public:
 
   static inline ::Newtonsoft::Json::Linq::JsonPath::__ScanFilter___ExecuteFilter_d__4* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor, addr 0x26b26f4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d48b0, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x26b2738, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x26d48f4, size 0x2c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext, addr 0x26b2764, size 0x4ec, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26d4920, size 0x4ec, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method <>m__Finally1, addr 0x26b2c50, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x26d4e0c, size 0xb0, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<Newtonsoft.Json.Linq.JToken>.get_Current, addr 0x26b2d00, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<Newtonsoft.Json.Linq.JToken>.get_Current, addr 0x26d4ebc, size 0x8, virtual true, abstract: false, final true
   inline ::Newtonsoft::Json::Linq::JToken* System_Collections_Generic_IEnumerator_Newtonsoft_Json_Linq_JToken__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x26b2d08, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x26d4ec4, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x26b2d48, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x26d4f04, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.Collections.Generic.IEnumerable<Newtonsoft.Json.Linq.JToken>.GetEnumerator, addr 0x26b2d50, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<Newtonsoft.Json.Linq.JToken>.GetEnumerator, addr 0x26d4f0c, size 0xa8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>* System_Collections_Generic_IEnumerable_Newtonsoft_Json_Linq_JToken__GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x26b2df8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x26d4fb4, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ScanFilter___ExecuteFilter_d__4", modifiers: "&&", def_value: None }]
@@ -265,8 +265,8 @@ static_assert(offsetof(::Newtonsoft::Json::Linq::JsonPath::__ScanFilter___Execut
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq::JsonPath {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12020))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12028))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11918))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11926))
 // CS Name: ::Newtonsoft.Json.Linq.JsonPath::ScanFilter*
 class CORDL_TYPE ScanFilter : public ::Newtonsoft::Json::Linq::JsonPath::PathFilter {
 public:
@@ -284,19 +284,19 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method get_Name, addr 0x26b2674, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x26d4830, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method set_Name, addr 0x26b267c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x26d4838, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
-  /// @brief Method ExecuteFilter, addr 0x26b2684, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method ExecuteFilter, addr 0x26d4840, size 0x70, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* ExecuteFilter(::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* current,
                                                                                                          bool errorWhenNoMatch);
 
   static inline ::Newtonsoft::Json::Linq::JsonPath::ScanFilter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26af314, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d14d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ScanFilter", modifiers: "&&", def_value: None }]

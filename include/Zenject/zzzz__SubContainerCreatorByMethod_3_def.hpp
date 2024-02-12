@@ -34,8 +34,8 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11246))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11250))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10388))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10392))
 // CS Name: ::Zenject::SubContainerCreatorByMethod`3<TParam1,TParam2,TParam3>*
 class CORDL_TYPE SubContainerCreatorByMethod_3 : public ::Zenject::SubContainerCreatorByMethodBase {
 public:

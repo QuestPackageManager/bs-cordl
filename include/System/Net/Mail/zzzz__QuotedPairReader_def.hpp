@@ -17,15 +17,15 @@ MARK_REF_PTR_T(::System::Net::Mail::QuotedPairReader);
 namespace System::Net::Mail {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9379))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7389))
 // CS Name: ::System.Net.Mail::QuotedPairReader*
 class CORDL_TYPE QuotedPairReader : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CountQuotedChars, addr 0x2901bac, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method CountQuotedChars, addr 0x2906214, size 0x194, virtual false, abstract: false, final false
   static inline int32_t CountQuotedChars(::StringW data, int32_t index, bool permitUnicodeEscaping);
 
-  /// @brief Method CountBackslashes, addr 0x2903114, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method CountBackslashes, addr 0x290777c, size 0xa4, virtual false, abstract: false, final false
   static inline int32_t CountBackslashes(::StringW data, int32_t index);
 
   // Ctor Parameters [CppParam { name: "", ty: "QuotedPairReader", modifiers: "&&", def_value: None }]

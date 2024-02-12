@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerBigAvatarInstaller);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11138))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5192))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10280))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4531))
 // CS Name: ::MultiplayerBigAvatarInstaller*
 class CORDL_TYPE MultiplayerBigAvatarInstaller : public ::Zenject::MonoInstaller {
 public:
@@ -57,12 +57,12 @@ public:
 
   constexpr void __cordl_internal_set__playerSpecificSettings(::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* value);
 
-  /// @brief Method InstallBindings, addr 0x2245108, size 0x414, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x23a2c84, size 0x414, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::MultiplayerBigAvatarInstaller* New_ctor();
 
-  /// @brief Method .ctor, addr 0x224551c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23a3098, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBigAvatarInstaller", modifiers: "&&", def_value: None }]

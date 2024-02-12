@@ -36,7 +36,7 @@ MARK_REF_PTR_T(::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12926))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12824))
 // CS Name: ::PlayerSpecificSettingsAtStartNetSerializable*
 class CORDL_TYPE PlayerSpecificSettingsAtStartNetSerializable : public ::System::Object {
 public:
@@ -75,30 +75,30 @@ public:
 
   constexpr void __cordl_internal_set__activePlayersAtGameStart(::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer*>* value);
 
-  /// @brief Method get_activePlayersAtGameStart, addr 0xe51d9c, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method get_activePlayersAtGameStart, addr 0xe7cbd4, size 0x260, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer*>* get_activePlayersAtGameStart();
 
-  /// @brief Method get_activePlayerSpecificSettingsAtGameStart, addr 0xe51ffc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_activePlayerSpecificSettingsAtGameStart, addr 0xe7ce34, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PlayerSpecificSettingsNetSerializable*>* get_activePlayerSpecificSettingsAtGameStart();
 
-  /// @brief Method set_activePlayerSpecificSettingsAtGameStart, addr 0xe52004, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_activePlayerSpecificSettingsAtGameStart, addr 0xe7ce3c, size 0x8, virtual false, abstract: false, final false
   inline void set_activePlayerSpecificSettingsAtGameStart(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PlayerSpecificSettingsNetSerializable*>* value);
 
   static inline ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe5200c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe7ce44, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*
   New_ctor(::System::Collections::Generic::List_1<::GlobalNamespace::PlayerSpecificSettingsNetSerializable*>* activePlayerSpecificSettingsAtGameStart);
 
-  /// @brief Method .ctor, addr 0xe52014, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe7ce4c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::GlobalNamespace::PlayerSpecificSettingsNetSerializable*>* activePlayerSpecificSettingsAtGameStart);
 
-  /// @brief Method Serialize, addr 0xe5203c, size 0x36c, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0xe7ce74, size 0x36c, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method Deserialize, addr 0xe52438, size 0x158, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0xe7d270, size 0x158, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
   // Ctor Parameters [CppParam { name: "", ty: "PlayerSpecificSettingsAtStartNetSerializable", modifiers: "&&", def_value: None }]

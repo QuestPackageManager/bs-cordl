@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::QueueMode);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14860))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14733))
 // CS Name: ::UnityEngine::QueueMode
 struct CORDL_TYPE QueueMode {
 public:

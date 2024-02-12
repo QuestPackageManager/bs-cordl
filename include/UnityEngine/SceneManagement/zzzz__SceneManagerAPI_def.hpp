@@ -3,15 +3,11 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SceneManagerAPI)
 namespace UnityEngine::SceneManagement {
 struct LoadSceneParameters;
-}
-namespace UnityEngine::SceneManagement {
-struct UnloadSceneOptions;
 }
 namespace UnityEngine {
 class AsyncOperation;
@@ -27,7 +23,7 @@ MARK_REF_PTR_T(::UnityEngine::SceneManagement::SceneManagerAPI);
 namespace UnityEngine::SceneManagement {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10382))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9150))
 // CS Name: ::UnityEngine.SceneManagement::SceneManagerAPI*
 class CORDL_TYPE SceneManagerAPI : public ::System::Object {
 public:
@@ -47,29 +43,25 @@ public:
 
   static inline ::UnityEngine::SceneManagement::SceneManagerAPI* getStaticF__overrideAPI_k__BackingField();
 
-  /// @brief Method get_ActiveAPI, addr 0x2cf1c78, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method get_ActiveAPI, addr 0x2cfbeac, size 0xa8, virtual false, abstract: false, final false
   static inline ::UnityEngine::SceneManagement::SceneManagerAPI* get_ActiveAPI();
 
-  /// @brief Method get_overrideAPI, addr 0x2cf1d20, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_overrideAPI, addr 0x2cfca68, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::SceneManagement::SceneManagerAPI* get_overrideAPI();
 
   static inline ::UnityEngine::SceneManagement::SceneManagerAPI* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2cf1d78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cfcac0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method GetNumScenesInBuildSettings, addr 0x2cf1d80, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetNumScenesInBuildSettings, addr 0x2cfcac8, size 0x28, virtual true, abstract: false, final false
   inline int32_t GetNumScenesInBuildSettings();
 
-  /// @brief Method LoadSceneAsyncByNameOrIndex, addr 0x2cf1da8, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method LoadSceneAsyncByNameOrIndex, addr 0x2cfcaf0, size 0x60, virtual true, abstract: false, final false
   inline ::UnityEngine::AsyncOperation* LoadSceneAsyncByNameOrIndex(::StringW sceneName, int32_t sceneBuildIndex, ::UnityEngine::SceneManagement::LoadSceneParameters parameters,
                                                                     bool mustCompleteNextFrame);
 
-  /// @brief Method UnloadSceneAsyncByNameOrIndex, addr 0x2cf1e08, size 0x6c, virtual true, abstract: false, final false
-  inline ::UnityEngine::AsyncOperation* UnloadSceneAsyncByNameOrIndex(::StringW sceneName, int32_t sceneBuildIndex, bool immediately, ::UnityEngine::SceneManagement::UnloadSceneOptions options,
-                                                                      ByRef<bool> outSuccess);
-
-  /// @brief Method LoadFirstScene, addr 0x2cf1e74, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method LoadFirstScene, addr 0x2cfcb50, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::AsyncOperation* LoadFirstScene(bool mustLoadAsync);
 
   // Ctor Parameters [CppParam { name: "", ty: "SceneManagerAPI", modifiers: "&&", def_value: None }]

@@ -155,24 +155,24 @@ public:
 
   constexpr void __cordl_internal_set_m_foreignLock(::System::Threading::SpinLock value);
 
-  /// @brief Method LocalPush, addr 0x261a9c0, size 0x434, virtual false, abstract: false, final false
+  /// @brief Method LocalPush, addr 0x263fb3c, size 0x434, virtual false, abstract: false, final false
   inline void LocalPush(::System::Threading::IThreadPoolWorkItem* obj);
 
-  /// @brief Method LocalFindAndPop, addr 0x261ae64, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method LocalFindAndPop, addr 0x263ffe0, size 0x2bc, virtual false, abstract: false, final false
   inline bool LocalFindAndPop(::System::Threading::IThreadPoolWorkItem* obj);
 
-  /// @brief Method LocalPop, addr 0x261b2f0, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method LocalPop, addr 0x264046c, size 0x274, virtual false, abstract: false, final false
   inline bool LocalPop(ByRef<::System::Threading::IThreadPoolWorkItem*> obj);
 
-  /// @brief Method TrySteal, addr 0x261b564, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method TrySteal, addr 0x26406e0, size 0x8, virtual false, abstract: false, final false
   inline bool TrySteal(ByRef<::System::Threading::IThreadPoolWorkItem*> obj, ByRef<bool> missedSteal);
 
-  /// @brief Method TrySteal, addr 0x261ba4c, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method TrySteal, addr 0x2640bc8, size 0x244, virtual false, abstract: false, final false
   inline bool TrySteal(ByRef<::System::Threading::IThreadPoolWorkItem*> obj, ByRef<bool> missedSteal, int32_t millisecondsTimeout);
 
   static inline ::System::Threading::__ThreadPoolWorkQueue__WorkStealingQueue* New_ctor();
 
-  /// @brief Method .ctor, addr 0x261bc90, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2640e0c, size 0x1080, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ThreadPoolWorkQueue__WorkStealingQueue", modifiers: "&&", def_value: None }]
@@ -258,24 +258,24 @@ public:
 
   constexpr void __cordl_internal_set_Next(::System::Threading::__ThreadPoolWorkQueue__QueueSegment* value);
 
-  /// @brief Method GetIndexes, addr 0x261bd10, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetIndexes, addr 0x2641e8c, size 0x34, virtual false, abstract: false, final false
   inline void GetIndexes(ByRef<int32_t> upper, ByRef<int32_t> lower);
 
-  /// @brief Method CompareExchangeIndexes, addr 0x261bd44, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method CompareExchangeIndexes, addr 0x2641ec0, size 0x68, virtual false, abstract: false, final false
   inline bool CompareExchangeIndexes(ByRef<int32_t> prevUpper, int32_t newUpper, ByRef<int32_t> prevLower, int32_t newLower);
 
   static inline ::System::Threading::__ThreadPoolWorkQueue__QueueSegment* New_ctor();
 
-  /// @brief Method .ctor, addr 0x261bdb0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2641f2c, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method IsUsedUp, addr 0x261be0c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method IsUsedUp, addr 0x2641f88, size 0x44, virtual false, abstract: false, final false
   inline bool IsUsedUp();
 
-  /// @brief Method TryEnqueue, addr 0x261be50, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method TryEnqueue, addr 0x2641fcc, size 0xac, virtual false, abstract: false, final false
   inline bool TryEnqueue(::System::Threading::IThreadPoolWorkItem* node);
 
-  /// @brief Method TryDequeue, addr 0x261befc, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method TryDequeue, addr 0x2642078, size 0xec, virtual false, abstract: false, final false
   inline bool TryDequeue(ByRef<::System::Threading::IThreadPoolWorkItem*> node);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ThreadPoolWorkQueue__QueueSegment", modifiers: "&&", def_value: None }]
@@ -367,28 +367,28 @@ public:
 
   static inline ::System::Threading::ThreadPoolWorkQueue* New_ctor();
 
-  /// @brief Method .ctor, addr 0x261a690, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263f80c, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method EnsureCurrentThreadHasQueue, addr 0x261a708, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method EnsureCurrentThreadHasQueue, addr 0x263f884, size 0x90, virtual false, abstract: false, final false
   inline ::System::Threading::ThreadPoolWorkQueueThreadLocals* EnsureCurrentThreadHasQueue();
 
-  /// @brief Method EnsureThreadRequested, addr 0x261a798, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method EnsureThreadRequested, addr 0x263f914, size 0xa0, virtual false, abstract: false, final false
   inline void EnsureThreadRequested();
 
-  /// @brief Method MarkThreadRequestSatisfied, addr 0x261a838, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method MarkThreadRequestSatisfied, addr 0x263f9b4, size 0x4c, virtual false, abstract: false, final false
   inline void MarkThreadRequestSatisfied();
 
-  /// @brief Method Enqueue, addr 0x261a884, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method Enqueue, addr 0x263fa00, size 0x13c, virtual false, abstract: false, final false
   inline void Enqueue(::System::Threading::IThreadPoolWorkItem* callback, bool forceGlobal);
 
-  /// @brief Method LocalFindAndPop, addr 0x261adf4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method LocalFindAndPop, addr 0x263ff70, size 0x70, virtual false, abstract: false, final false
   inline bool LocalFindAndPop(::System::Threading::IThreadPoolWorkItem* callback);
 
-  /// @brief Method Dequeue, addr 0x261b120, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method Dequeue, addr 0x264029c, size 0x1d0, virtual false, abstract: false, final false
   inline void Dequeue(::System::Threading::ThreadPoolWorkQueueThreadLocals* tl, ByRef<::System::Threading::IThreadPoolWorkItem*> callback, ByRef<bool> missedSteal);
 
-  /// @brief Method Dispatch, addr 0x261b56c, size 0x450, virtual false, abstract: false, final false
+  /// @brief Method Dispatch, addr 0x26406e8, size 0x450, virtual false, abstract: false, final false
   static inline bool Dispatch();
 
   // Ctor Parameters [CppParam { name: "", ty: "ThreadPoolWorkQueue", modifiers: "&&", def_value: None }]

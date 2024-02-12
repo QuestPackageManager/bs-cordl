@@ -18,14 +18,14 @@ MARK_REF_PTR_T(::System::Net::Cache::RequestCacheProtocol);
 namespace System::Net::Cache {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9323))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7333))
 // CS Name: ::System.Net.Cache::RequestCacheProtocol*
 class CORDL_TYPE RequestCacheProtocol : public ::System::Object {
 public:
   // Declarations
   static inline ::System::Net::Cache::RequestCacheProtocol* New_ctor(::System::Object* arg1, ::System::Object* arg2);
 
-  /// @brief Method .ctor, addr 0x29f1524, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29f5fc8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* arg1, ::System::Object* arg2);
 
   // Ctor Parameters [CppParam { name: "", ty: "RequestCacheProtocol", modifiers: "&&", def_value: None }]

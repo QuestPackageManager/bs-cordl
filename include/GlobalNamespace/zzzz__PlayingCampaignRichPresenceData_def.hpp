@@ -19,18 +19,17 @@ MARK_REF_PTR_T(::GlobalNamespace::PlayingCampaignRichPresenceData);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4675))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5249))
 // CS Name: ::PlayingCampaignRichPresenceData*
 class CORDL_TYPE PlayingCampaignRichPresenceData : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field <localizedDescription>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__localizedDescription_k__BackingField,
-                      put = __cordl_internal_set__localizedDescription_k__BackingField))::StringW _localizedDescription_k__BackingField;
+  /// @brief Field _localizedDescription, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__localizedDescription, put = __cordl_internal_set__localizedDescription))::StringW _localizedDescription;
 
   __declspec(property(get = get_apiName))::StringW apiName;
 
-  __declspec(property(get = get_localizedDescription, put = set_localizedDescription))::StringW localizedDescription;
+  __declspec(property(get = get_localizedDescription))::StringW localizedDescription;
 
   /// @brief Convert operator to "::GlobalNamespace::IRichPresenceData"
   constexpr operator ::GlobalNamespace::IRichPresenceData*() noexcept;
@@ -38,24 +37,21 @@ public:
   /// @brief Convert to "::GlobalNamespace::IRichPresenceData"
   constexpr ::GlobalNamespace::IRichPresenceData* i___GlobalNamespace__IRichPresenceData() noexcept;
 
-  constexpr ::StringW& __cordl_internal_get__localizedDescription_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__localizedDescription();
 
-  constexpr ::StringW const& __cordl_internal_get__localizedDescription_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__localizedDescription() const;
 
-  constexpr void __cordl_internal_set__localizedDescription_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__localizedDescription(::StringW value);
 
-  /// @brief Method get_apiName, addr 0x2373d1c, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_apiName, addr 0x2337530, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_apiName();
 
-  /// @brief Method get_localizedDescription, addr 0x2373d5c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_localizedDescription, addr 0x2337570, size 0x58, virtual true, abstract: false, final true
   inline ::StringW get_localizedDescription();
-
-  /// @brief Method set_localizedDescription, addr 0x2373d64, size 0x8, virtual false, abstract: false, final false
-  inline void set_localizedDescription(::StringW value);
 
   static inline ::GlobalNamespace::PlayingCampaignRichPresenceData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2373d6c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23375c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PlayingCampaignRichPresenceData", modifiers: "&&", def_value: None }]
@@ -72,8 +68,8 @@ protected:
   constexpr PlayingCampaignRichPresenceData();
 
 public:
-  /// @brief Field <localizedDescription>k__BackingField, offset: 0x10, size: 0x8, def value: None
-  ::StringW ____localizedDescription_k__BackingField;
+  /// @brief Field _localizedDescription, offset: 0x10, size: 0x8, def value: None
+  ::StringW ____localizedDescription;
 
   /// @brief Field kPlayingCampaignRichPresenceLocalizationKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kPlayingCampaignRichPresenceLocalizationKey{ u"PLAYING_CAMPAIGN_PRESENCE" };
@@ -83,7 +79,7 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlayingCampaignRichPresenceData, 0x18>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PlayingCampaignRichPresenceData, ____localizedDescription_k__BackingField) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayingCampaignRichPresenceData, ____localizedDescription) == 0x10, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PlayingCampaignRichPresenceData);

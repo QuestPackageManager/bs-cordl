@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::NoteCutScoreSpawner);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4894))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4248))
 // CS Name: ::NoteCutScoreSpawner*
 class CORDL_TYPE NoteCutScoreSpawner : public ::UnityEngine::MonoBehaviour {
 public:
@@ -47,18 +47,18 @@ public:
 
   constexpr void __cordl_internal_set__scoreController(::GlobalNamespace::IScoreController* value);
 
-  /// @brief Method Start, addr 0x23a36a4, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x23637dc, size 0xf0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy, addr 0x23a3794, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x23638cc, size 0x108, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleScoringForNoteStarted, addr 0x23a389c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method HandleScoringForNoteStarted, addr 0x23639d4, size 0xac, virtual false, abstract: false, final false
   inline void HandleScoringForNoteStarted(::GlobalNamespace::ScoringElement* scoringElement);
 
   static inline ::GlobalNamespace::NoteCutScoreSpawner* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23a3948, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2363a80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NoteCutScoreSpawner", modifiers: "&&", def_value: None }]

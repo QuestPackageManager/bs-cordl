@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::System::ComponentModel::AddingNewEventArgs);
 namespace System::ComponentModel {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11785))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11683))
 // CS Name: ::System.ComponentModel::AddingNewEventArgs*
 class CORDL_TYPE AddingNewEventArgs : public ::System::Object {
 public:
@@ -34,20 +34,20 @@ public:
 
   constexpr void __cordl_internal_set__NewObject_k__BackingField(::System::Object* value);
 
-  /// @brief Method get_NewObject, addr 0x263da4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NewObject, addr 0x2661c08, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_NewObject();
 
-  /// @brief Method set_NewObject, addr 0x263da54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_NewObject, addr 0x2661c10, size 0x8, virtual false, abstract: false, final false
   inline void set_NewObject(::System::Object* value);
 
   static inline ::System::ComponentModel::AddingNewEventArgs* New_ctor();
 
-  /// @brief Method .ctor, addr 0x263da5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2661c18, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::ComponentModel::AddingNewEventArgs* New_ctor(::System::Object* newObject);
 
-  /// @brief Method .ctor, addr 0x263da64, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2661c20, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* newObject);
 
   // Ctor Parameters [CppParam { name: "", ty: "AddingNewEventArgs", modifiers: "&&", def_value: None }]

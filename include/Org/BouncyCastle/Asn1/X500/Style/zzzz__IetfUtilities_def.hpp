@@ -33,30 +33,30 @@ namespace Org::BouncyCastle::Asn1::X500::Style {
 class CORDL_TYPE IetfUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ValueToString, addr 0x107ea78, size 0x4fc, virtual false, abstract: false, final false
+  /// @brief Method ValueToString, addr 0x10ab908, size 0x4fc, virtual false, abstract: false, final false
   static inline ::StringW ValueToString(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method Canonicalize, addr 0x107ef74, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method Canonicalize, addr 0x10abe04, size 0x2a4, virtual false, abstract: false, final false
   static inline ::StringW Canonicalize(::StringW s);
 
-  /// @brief Method CanonicalString, addr 0x107f494, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method CanonicalString, addr 0x10ac324, size 0x10, virtual false, abstract: false, final false
   static inline ::StringW CanonicalString(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method DecodeObject, addr 0x107f218, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method DecodeObject, addr 0x10ac0a8, size 0x150, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1Object* DecodeObject(::StringW oValue);
 
-  /// @brief Method StripInternalSpaces, addr 0x107f368, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method StripInternalSpaces, addr 0x10ac1f8, size 0x12c, virtual false, abstract: false, final false
   static inline ::StringW StripInternalSpaces(::StringW str);
 
-  /// @brief Method RdnAreEqual, addr 0x107f4a4, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method RdnAreEqual, addr 0x10ac334, size 0xe8, virtual false, abstract: false, final false
   static inline bool RdnAreEqual(::Org::BouncyCastle::Asn1::X500::Rdn* rdn1, ::Org::BouncyCastle::Asn1::X500::Rdn* rdn2);
 
-  /// @brief Method AtvAreEqual, addr 0x107f58c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method AtvAreEqual, addr 0x10ac41c, size 0xcc, virtual false, abstract: false, final false
   static inline bool AtvAreEqual(::Org::BouncyCastle::Asn1::X500::AttributeTypeAndValue* atv1, ::Org::BouncyCastle::Asn1::X500::AttributeTypeAndValue* atv2);
 
   static inline ::Org::BouncyCastle::Asn1::X500::Style::IetfUtilities* New_ctor();
 
-  /// @brief Method .ctor, addr 0x107f658, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10ac4e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "IetfUtilities", modifiers: "&&", def_value: None }]

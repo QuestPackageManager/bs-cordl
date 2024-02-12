@@ -65,32 +65,32 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::PKMacValue* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xe87580, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeb1410, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance, addr 0xe87634, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xeb14c4, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Crmf::PKMacValue* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetInstance, addr 0xe877bc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xeb164c, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Crmf::PKMacValue* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::PKMacValue* New_ctor(::Org::BouncyCastle::Asn1::Cmp::PbmParameter* pbmParams, ::Org::BouncyCastle::Asn1::DerBitString* macValue);
 
-  /// @brief Method .ctor, addr 0xe877d4, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeb1664, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cmp::PbmParameter* pbmParams, ::Org::BouncyCastle::Asn1::DerBitString* macValue);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::PKMacValue* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algID, ::Org::BouncyCastle::Asn1::DerBitString* macValue);
 
-  /// @brief Method .ctor, addr 0xe87890, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeb1720, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algID, ::Org::BouncyCastle::Asn1::DerBitString* macValue);
 
-  /// @brief Method get_AlgID, addr 0xe878bc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_AlgID, addr 0xeb174c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_AlgID();
 
-  /// @brief Method get_MacValue, addr 0xe878c4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_MacValue, addr 0xeb1754, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerBitString* get_MacValue();
 
-  /// @brief Method ToAsn1Object, addr 0xe878cc, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xeb175c, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "PKMacValue", modifiers: "&&", def_value: None }]

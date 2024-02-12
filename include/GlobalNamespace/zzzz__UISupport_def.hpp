@@ -15,12 +15,12 @@ MARK_REF_PTR_T(::GlobalNamespace::UISupport);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6114))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5373))
 // CS Name: ::UISupport*
 class CORDL_TYPE UISupport : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Initialize, addr 0x2a33d1c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x2a36888, size 0x74, virtual false, abstract: false, final false
   static inline void Initialize();
 
   // Ctor Parameters [CppParam { name: "", ty: "UISupport", modifiers: "&&", def_value: None }]

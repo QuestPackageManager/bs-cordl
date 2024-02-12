@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::JetBrains::Annotations::AspChildControlTypeAttribute);
 namespace JetBrains::Annotations {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15795))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15945))
 // CS Name: ::JetBrains.Annotations::AspChildControlTypeAttribute*
 class CORDL_TYPE AspChildControlTypeAttribute : public ::System::Attribute {
 public:
@@ -48,19 +48,19 @@ public:
 
   static inline ::JetBrains::Annotations::AspChildControlTypeAttribute* New_ctor(::StringW tagName, ::System::Type* controlType);
 
-  /// @brief Method .ctor, addr 0x2eba78c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ed68d4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW tagName, ::System::Type* controlType);
 
-  /// @brief Method get_TagName, addr 0x2eba7b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TagName, addr 0x2ed6900, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_TagName();
 
-  /// @brief Method set_TagName, addr 0x2eba7c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_TagName, addr 0x2ed6908, size 0x8, virtual false, abstract: false, final false
   inline void set_TagName(::StringW value);
 
-  /// @brief Method get_ControlType, addr 0x2eba7c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ControlType, addr 0x2ed6910, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ControlType();
 
-  /// @brief Method set_ControlType, addr 0x2eba7d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ControlType, addr 0x2ed6918, size 0x8, virtual false, abstract: false, final false
   inline void set_ControlType(::System::Type* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "AspChildControlTypeAttribute", modifiers: "&&", def_value: None }]

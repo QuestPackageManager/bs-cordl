@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::EVRControllerEventOutputType);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8600))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8544))
 // CS Name: ::OVR.OpenVR::EVRControllerEventOutputType
 struct CORDL_TYPE EVRControllerEventOutputType {
 public:

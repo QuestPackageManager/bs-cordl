@@ -29,8 +29,8 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3869)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3869), inst: 1702 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3877))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3868)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3868), inst: 1660 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3876))
 // CS Name: ::System.Collections.Generic::LongEnumEqualityComparer`1<T>*
 class CORDL_TYPE LongEnumEqualityComparer_1 : public ::System::Collections::Generic::EqualityComparer_1<T> {
 public:

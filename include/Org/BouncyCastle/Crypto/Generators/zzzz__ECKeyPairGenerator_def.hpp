@@ -95,27 +95,27 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator* New_ctor();
 
-  /// @brief Method .ctor, addr 0xef991c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf247ac, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator* New_ctor(::StringW algorithm);
 
-  /// @brief Method .ctor, addr 0xef9964, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf247f4, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(::StringW algorithm);
 
-  /// @brief Method Init, addr 0xef9a24, size 0x2a8, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0xf248b4, size 0x2a8, virtual true, abstract: false, final true
   inline void Init(::Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
 
-  /// @brief Method GenerateKeyPair, addr 0xef9d40, size 0x314, virtual true, abstract: false, final true
+  /// @brief Method GenerateKeyPair, addr 0xf24bd0, size 0x314, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GenerateKeyPair();
 
-  /// @brief Method CreateBasePointMultiplier, addr 0xefa054, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method CreateBasePointMultiplier, addr 0xf24ee4, size 0x5c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* CreateBasePointMultiplier();
 
-  /// @brief Method FindECCurveByOid, addr 0xef9ccc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method FindECCurveByOid, addr 0xf24b5c, size 0x74, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* FindECCurveByOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetCorrespondingPublicKey, addr 0xefa0b0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method GetCorrespondingPublicKey, addr 0xf24f40, size 0xfc, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* GetCorrespondingPublicKey(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* privKey);
 
   // Ctor Parameters [CppParam { name: "", ty: "ECKeyPairGenerator", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::Sockets::SelectMode);
 namespace System::Net::Sockets {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9344))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7354))
 // CS Name: ::System.Net.Sockets::SelectMode
 struct CORDL_TYPE SelectMode {
 public:

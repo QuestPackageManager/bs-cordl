@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::TextCore::LowLevel::GlyphPackingMode);
 namespace UnityEngine::TextCore::LowLevel {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15535))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15721))
 // CS Name: ::UnityEngine.TextCore.LowLevel::GlyphPackingMode
 struct CORDL_TYPE GlyphPackingMode {
 public:

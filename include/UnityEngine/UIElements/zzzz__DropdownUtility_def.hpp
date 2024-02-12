@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::DropdownUtility);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6757))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6016))
 // CS Name: ::UnityEngine.UIElements::DropdownUtility*
 class CORDL_TYPE DropdownUtility : public ::System::Object {
 public:
@@ -33,7 +33,7 @@ public:
 
   static inline ::System::Func_1<::UnityEngine::UIElements::IGenericMenu*>* getStaticF_MakeDropdownFunc();
 
-  /// @brief Method CreateDropdown, addr 0x2db3f18, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method CreateDropdown, addr 0x2dd2300, size 0x98, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::IGenericMenu* CreateDropdown();
 
   // Ctor Parameters [CppParam { name: "", ty: "DropdownUtility", modifiers: "&&", def_value: None }]

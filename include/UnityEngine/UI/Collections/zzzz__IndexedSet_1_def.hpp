@@ -49,7 +49,7 @@ namespace UnityEngine::UI::Collections {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13149))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13047))
 // CS Name: ::UnityEngine.UI.Collections::IndexedSet`1<T>*
 class CORDL_TYPE IndexedSet_1 : public ::System::Object {
 public:

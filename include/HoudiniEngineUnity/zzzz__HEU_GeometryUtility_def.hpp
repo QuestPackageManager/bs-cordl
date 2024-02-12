@@ -31,25 +31,25 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_GeometryUtility);
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9837))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9629))
 // CS Name: ::HoudiniEngineUnity::HEU_GeometryUtility*
 class CORDL_TYPE HEU_GeometryUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GeneratePerTriangle, addr 0x21bef14, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GeneratePerTriangle, addr 0x22557f8, size 0x4c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> GeneratePerTriangle(::UnityEngine::Mesh* meshSrc);
 
-  /// @brief Method GenerateSecondaryUVSet, addr 0x21c4674, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GenerateSecondaryUVSet, addr 0x225af58, size 0x44, virtual false, abstract: false, final false
   static inline void GenerateSecondaryUVSet(::UnityEngine::Mesh* meshsrc);
 
-  /// @brief Method CalculateMeshTangents, addr 0x21bdeb8, size 0x4d8, virtual false, abstract: false, final false
+  /// @brief Method CalculateMeshTangents, addr 0x225479c, size 0x4d8, virtual false, abstract: false, final false
   static inline void CalculateMeshTangents(::UnityEngine::Mesh* mesh);
 
-  /// @brief Method GenerateCubeMeshFromPoints, addr 0x21c46b8, size 0xb00, virtual false, abstract: false, final false
+  /// @brief Method GenerateCubeMeshFromPoints, addr 0x225af9c, size 0xb00, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Mesh> GenerateCubeMeshFromPoints(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> points,
                                                                          ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> pointsColor, float_t size);
 
-  /// @brief Method GetInstanceOutputName, addr 0x21c51b8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetInstanceOutputName, addr 0x225ba9c, size 0xbc, virtual false, abstract: false, final false
   static inline ::StringW GetInstanceOutputName(::StringW partName, ::ArrayW<::StringW, ::Array<::StringW>*> userPrefix, int32_t index);
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_GeometryUtility", modifiers: "&&", def_value: None }]

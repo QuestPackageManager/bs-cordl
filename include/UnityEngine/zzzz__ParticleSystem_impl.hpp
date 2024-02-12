@@ -7,23 +7,32 @@
 #include "UnityEngine/zzzz__ParticleSystem_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/zzzz__ParticleSystem_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
+#include "Unity/Jobs/LowLevel/Unsafe/zzzz__JobsUtility_def.hpp"
+#include "Unity/Jobs/zzzz__JobHandle_def.hpp"
+#include "UnityEngine/ParticleSystemJobs/zzzz__NativeParticleData_def.hpp"
 #include "UnityEngine/zzzz__AnimationCurve_def.hpp"
 #include "UnityEngine/zzzz__Color32_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__Gradient_def.hpp"
 #include "UnityEngine/zzzz__MeshRenderer_def.hpp"
 #include "UnityEngine/zzzz__ParticleSystemCurveMode_def.hpp"
+#include "UnityEngine/zzzz__ParticleSystemCustomData_def.hpp"
 #include "UnityEngine/zzzz__ParticleSystemGradientMode_def.hpp"
+#include "UnityEngine/zzzz__ParticleSystemScalingMode_def.hpp"
+#include "UnityEngine/zzzz__ParticleSystemSimulationSpace_def.hpp"
 #include "UnityEngine/zzzz__ParticleSystemStopBehavior_def.hpp"
 #include "UnityEngine/zzzz__ParticleSystem_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Vector4_def.hpp"
 //  Writing Method size for method: ::UnityEngine::__ParticleSystem__MainModule._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__MainModule::*)(::UnityEngine::ParticleSystem*)>(
     &::UnityEngine::__ParticleSystem__MainModule::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2d10d9c;
+  constexpr static std::size_t addrs = 0x2d1d850;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::__ParticleSystem__MainModule::*)()>(
     &::UnityEngine::__ParticleSystem__MainModule::get_duration)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2d10fb4;
+  constexpr static std::size_t addrs = 0x2d1deac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(),
@@ -51,11 +60,55 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::__ParticleSystem__MainModule::*)()>(&::UnityEngine::__ParticleSystem__MainModule::get_loop)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2d1102c;
+  constexpr static std::size_t addrs = 0x2d1dc98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "get_loop",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__MainModule.set_loop
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__MainModule::*)(bool)>(
+    &::UnityEngine::__ParticleSystem__MainModule::set_loop)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x2d1dd1c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "set_loop",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__MainModule.get_startDelayMultiplier
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::__ParticleSystem__MainModule::*)()>(
+    &::UnityEngine::__ParticleSystem__MainModule::get_startDelayMultiplier)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x2d1db84;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(),
+                                                                               "get_startDelayMultiplier", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__MainModule.set_startDelayMultiplier
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__MainModule::*)(float_t)>(
+    &::UnityEngine::__ParticleSystem__MainModule::set_startDelayMultiplier)> {
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x2d1dc08;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "set_startDelayMultiplier",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
@@ -65,12 +118,41 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__MainModule::*)(::UnityEngine::__ParticleSystem__MinMaxCurve)>(
     &::UnityEngine::__ParticleSystem__MainModule::set_startLifetime)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2d110a4;
+  constexpr static std::size_t addrs = 0x2d1f0b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "set_startLifetime", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::__ParticleSystem__MinMaxCurve>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__MainModule.get_startLifetimeMultiplier
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::__ParticleSystem__MainModule::*)()>(
+    &::UnityEngine::__ParticleSystem__MainModule::get_startLifetimeMultiplier)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x2d1ea34;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(),
+                                                                               "get_startLifetimeMultiplier", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__MainModule.set_startLifetimeMultiplier
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__MainModule::*)(float_t)>(
+    &::UnityEngine::__ParticleSystem__MainModule::set_startLifetimeMultiplier)> {
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x2d1eab8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "set_startLifetimeMultiplier",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
@@ -80,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__MainModule::*)(::UnityEngine::__ParticleSystem__MinMaxCurve)>(
     &::UnityEngine::__ParticleSystem__MainModule::set_startSpeed)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2d1112c;
+  constexpr static std::size_t addrs = 0x2d1f1c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -95,7 +177,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::__ParticleSystem__MainModule::*)()>(
     &::UnityEngine::__ParticleSystem__MainModule::get_startSpeedMultiplier)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2d111b4;
+  constexpr static std::size_t addrs = 0x2d1e26c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(),
@@ -109,11 +191,156 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__MainModule::*)(float_t)>(
     &::UnityEngine::__ParticleSystem__MainModule::set_startSpeedMultiplier)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x2d1122c;
+  constexpr static std::size_t addrs = 0x2d1e2f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "set_startSpeedMultiplier",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__MainModule.get_startSizeMultiplier
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::__ParticleSystem__MainModule::*)()>(
+    &::UnityEngine::__ParticleSystem__MainModule::get_startSizeMultiplier)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x2d1e37c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(),
+                                                                               "get_startSizeMultiplier", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__MainModule.set_startSizeMultiplier
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__MainModule::*)(float_t)>(
+    &::UnityEngine::__ParticleSystem__MainModule::set_startSizeMultiplier)> {
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x2d1e400;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "set_startSizeMultiplier",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__MainModule.get_startRotationMultiplier
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::__ParticleSystem__MainModule::*)()>(
+    &::UnityEngine::__ParticleSystem__MainModule::get_startRotationMultiplier)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x2d1e628;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(),
+                                                                               "get_startRotationMultiplier", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__MainModule.set_startRotationMultiplier
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__MainModule::*)(float_t)>(
+    &::UnityEngine::__ParticleSystem__MainModule::set_startRotationMultiplier)> {
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x2d1e6ac;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "set_startRotationMultiplier",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__MainModule.get_startRotationXMultiplier
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::__ParticleSystem__MainModule::*)()>(
+    &::UnityEngine::__ParticleSystem__MainModule::get_startRotationXMultiplier)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x2d1e7ac;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(),
+                                                                               "get_startRotationXMultiplier", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__MainModule.set_startRotationXMultiplier
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__MainModule::*)(float_t)>(
+    &::UnityEngine::__ParticleSystem__MainModule::set_startRotationXMultiplier)> {
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x2d1e910;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "set_startRotationXMultiplier",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__MainModule.get_startRotationYMultiplier
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::__ParticleSystem__MainModule::*)()>(
+    &::UnityEngine::__ParticleSystem__MainModule::get_startRotationYMultiplier)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x2d1e7e8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(),
+                                                                               "get_startRotationYMultiplier", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__MainModule.set_startRotationYMultiplier
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__MainModule::*)(float_t)>(
+    &::UnityEngine::__ParticleSystem__MainModule::set_startRotationYMultiplier)> {
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x2d1e95c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "set_startRotationYMultiplier",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__MainModule.get_startRotationZMultiplier
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::__ParticleSystem__MainModule::*)()>(
+    &::UnityEngine::__ParticleSystem__MainModule::get_startRotationZMultiplier)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x2d1e824;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(),
+                                                                               "get_startRotationZMultiplier", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__MainModule.set_startRotationZMultiplier
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__MainModule::*)(float_t)>(
+    &::UnityEngine::__ParticleSystem__MainModule::set_startRotationZMultiplier)> {
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x2d1e9a8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "set_startRotationZMultiplier",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
@@ -124,7 +351,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::__ParticleSystem__MinMaxGradient (::UnityEngine::__ParticleSystem__MainModule::*)()>(
     &::UnityEngine::__ParticleSystem__MainModule::get_startColor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x2d112c4;
+  constexpr static std::size_t addrs = 0x2d1e4a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(),
@@ -138,12 +365,84 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__MainModule::*)(::UnityEngine::__ParticleSystem__MinMaxGradient)>(
     &::UnityEngine::__ParticleSystem__MainModule::set_startColor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2d11380;
+  constexpr static std::size_t addrs = 0x2d1e5a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "set_startColor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::__ParticleSystem__MinMaxGradient>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__MainModule.get_gravityModifierMultiplier
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::__ParticleSystem__MainModule::*)()>(
+    &::UnityEngine::__ParticleSystem__MainModule::get_gravityModifierMultiplier)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x2d1eb44;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(),
+                                                                               "get_gravityModifierMultiplier", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__MainModule.set_gravityModifierMultiplier
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__MainModule::*)(float_t)>(
+    &::UnityEngine::__ParticleSystem__MainModule::set_gravityModifierMultiplier)> {
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x2d1ebc8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "set_gravityModifierMultiplier",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__MainModule.get_simulationSpace
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ParticleSystemSimulationSpace (::UnityEngine::__ParticleSystem__MainModule::*)()>(
+    &::UnityEngine::__ParticleSystem__MainModule::get_simulationSpace)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x2d1ed5c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(),
+                                                                               "get_simulationSpace", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__MainModule.set_simulationSpace
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__MainModule::*)(::UnityEngine::ParticleSystemSimulationSpace)>(
+    &::UnityEngine::__ParticleSystem__MainModule::set_simulationSpace)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x2d1ede0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "set_simulationSpace", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ParticleSystemSimulationSpace>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__MainModule.get_simulationSpeed
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::__ParticleSystem__MainModule::*)()>(
+    &::UnityEngine::__ParticleSystem__MainModule::get_simulationSpeed)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x2d1df28;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(),
+                                                                               "get_simulationSpeed", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -153,12 +452,70 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__MainModule::*)(float_t)>(
     &::UnityEngine::__ParticleSystem__MainModule::set_simulationSpeed)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x2d11408;
+  constexpr static std::size_t addrs = 0x2d1dfac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "set_simulationSpeed",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__MainModule.get_scalingMode
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ParticleSystemScalingMode (::UnityEngine::__ParticleSystem__MainModule::*)()>(
+    &::UnityEngine::__ParticleSystem__MainModule::get_scalingMode)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x2d1ee64;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(),
+                                                                               "get_scalingMode", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__MainModule.set_scalingMode
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__MainModule::*)(::UnityEngine::ParticleSystemScalingMode)>(
+    &::UnityEngine::__ParticleSystem__MainModule::set_scalingMode)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x2d1eee8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "set_scalingMode", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ParticleSystemScalingMode>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__MainModule.get_playOnAwake
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::__ParticleSystem__MainModule::*)()>(
+    &::UnityEngine::__ParticleSystem__MainModule::get_playOnAwake)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x2d1dda4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(),
+                                                                               "get_playOnAwake", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__MainModule.set_playOnAwake
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__MainModule::*)(bool)>(
+    &::UnityEngine::__ParticleSystem__MainModule::set_playOnAwake)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x2d1de28;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "set_playOnAwake",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
@@ -168,7 +525,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::__ParticleSystem__MainModule::*)()>(
     &::UnityEngine::__ParticleSystem__MainModule::get_maxParticles)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2d114a0;
+  constexpr static std::size_t addrs = 0x2d1ec54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(),
@@ -182,7 +539,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__MainModule::*)(int32_t)>(
     &::UnityEngine::__ParticleSystem__MainModule::set_maxParticles)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2d11518;
+  constexpr static std::size_t addrs = 0x2d1ecd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -197,7 +554,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(ByRef<::UnityEngine::__ParticleSystem__MainModule>)>(
     &::UnityEngine::__ParticleSystem__MainModule::get_duration_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2d10ff0;
+  constexpr static std::size_t addrs = 0x2d1ef70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -212,12 +569,59 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<::UnityEngine::__ParticleSystem__MainModule>)>(
     &::UnityEngine::__ParticleSystem__MainModule::get_loop_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2d11068;
+  constexpr static std::size_t addrs = 0x2d1efac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "get_loop_Injected", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__MainModule>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__MainModule.set_loop_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::__ParticleSystem__MainModule>, bool)>(
+    &::UnityEngine::__ParticleSystem__MainModule::set_loop_Injected)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x2d1efe8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "set_loop_Injected", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__MainModule>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__MainModule.get_startDelayMultiplier_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(ByRef<::UnityEngine::__ParticleSystem__MainModule>)>(
+    &::UnityEngine::__ParticleSystem__MainModule::get_startDelayMultiplier_Injected)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x2d1f02c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "get_startDelayMultiplier_Injected", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__MainModule>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__MainModule.set_startDelayMultiplier_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::__ParticleSystem__MainModule>, float_t)>(
+    &::UnityEngine::__ParticleSystem__MainModule::set_startDelayMultiplier_Injected)> {
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x2d1f068;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "set_startDelayMultiplier_Injected", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__MainModule>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
@@ -227,7 +631,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::__ParticleSystem__MainModule>, ByRef<::UnityEngine::__ParticleSystem__MinMaxCurve>)>(
     &::UnityEngine::__ParticleSystem__MainModule::set_startLifetime_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2d110e8;
+  constexpr static std::size_t addrs = 0x2d1f0f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -237,13 +641,44 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__MainModule.get_startLifetimeMultiplier_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(ByRef<::UnityEngine::__ParticleSystem__MainModule>)>(
+    &::UnityEngine::__ParticleSystem__MainModule::get_startLifetimeMultiplier_Injected)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x2d1f13c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "get_startLifetimeMultiplier_Injected", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__MainModule>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__MainModule.set_startLifetimeMultiplier_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::__ParticleSystem__MainModule>, float_t)>(
+    &::UnityEngine::__ParticleSystem__MainModule::set_startLifetimeMultiplier_Injected)> {
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x2d1f178;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "set_startLifetimeMultiplier_Injected", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__MainModule>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::__ParticleSystem__MainModule.set_startSpeed_Injected
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::__ParticleSystem__MainModule>, ByRef<::UnityEngine::__ParticleSystem__MinMaxCurve>)>(
     &::UnityEngine::__ParticleSystem__MainModule::set_startSpeed_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2d11170;
+  constexpr static std::size_t addrs = 0x2d1f208;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -259,7 +694,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(ByRef<::UnityEngine::__ParticleSystem__MainModule>)>(
     &::UnityEngine::__ParticleSystem__MainModule::get_startSpeedMultiplier_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2d111f0;
+  constexpr static std::size_t addrs = 0x2d1f24c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -274,11 +709,166 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::__ParticleSystem__MainModule>, float_t)>(
     &::UnityEngine::__ParticleSystem__MainModule::set_startSpeedMultiplier_Injected)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x2d11278;
+  constexpr static std::size_t addrs = 0x2d1f288;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "set_startSpeedMultiplier_Injected", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__MainModule>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__MainModule.get_startSizeMultiplier_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(ByRef<::UnityEngine::__ParticleSystem__MainModule>)>(
+    &::UnityEngine::__ParticleSystem__MainModule::get_startSizeMultiplier_Injected)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x2d1f2d4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "get_startSizeMultiplier_Injected", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__MainModule>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__MainModule.set_startSizeMultiplier_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::__ParticleSystem__MainModule>, float_t)>(
+    &::UnityEngine::__ParticleSystem__MainModule::set_startSizeMultiplier_Injected)> {
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x2d1f310;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "set_startSizeMultiplier_Injected", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__MainModule>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__MainModule.get_startRotationMultiplier_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(ByRef<::UnityEngine::__ParticleSystem__MainModule>)>(
+    &::UnityEngine::__ParticleSystem__MainModule::get_startRotationMultiplier_Injected)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x2d1f35c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "get_startRotationMultiplier_Injected", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__MainModule>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__MainModule.set_startRotationMultiplier_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::__ParticleSystem__MainModule>, float_t)>(
+    &::UnityEngine::__ParticleSystem__MainModule::set_startRotationMultiplier_Injected)> {
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x2d1f398;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "set_startRotationMultiplier_Injected", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__MainModule>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__MainModule.get_startRotationXMultiplier_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(ByRef<::UnityEngine::__ParticleSystem__MainModule>)>(
+    &::UnityEngine::__ParticleSystem__MainModule::get_startRotationXMultiplier_Injected)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x2d1f3e4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "get_startRotationXMultiplier_Injected", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__MainModule>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__MainModule.set_startRotationXMultiplier_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::__ParticleSystem__MainModule>, float_t)>(
+    &::UnityEngine::__ParticleSystem__MainModule::set_startRotationXMultiplier_Injected)> {
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x2d1f420;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "set_startRotationXMultiplier_Injected", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__MainModule>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__MainModule.get_startRotationYMultiplier_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(ByRef<::UnityEngine::__ParticleSystem__MainModule>)>(
+    &::UnityEngine::__ParticleSystem__MainModule::get_startRotationYMultiplier_Injected)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x2d1f46c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "get_startRotationYMultiplier_Injected", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__MainModule>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__MainModule.set_startRotationYMultiplier_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::__ParticleSystem__MainModule>, float_t)>(
+    &::UnityEngine::__ParticleSystem__MainModule::set_startRotationYMultiplier_Injected)> {
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x2d1f4a8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "set_startRotationYMultiplier_Injected", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__MainModule>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__MainModule.get_startRotationZMultiplier_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(ByRef<::UnityEngine::__ParticleSystem__MainModule>)>(
+    &::UnityEngine::__ParticleSystem__MainModule::get_startRotationZMultiplier_Injected)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x2d1f4f4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "get_startRotationZMultiplier_Injected", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__MainModule>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__MainModule.set_startRotationZMultiplier_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::__ParticleSystem__MainModule>, float_t)>(
+    &::UnityEngine::__ParticleSystem__MainModule::set_startRotationZMultiplier_Injected)> {
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x2d1f530;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "set_startRotationZMultiplier_Injected", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__MainModule>>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
@@ -290,7 +880,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::__ParticleSystem__MainModule>, ByRef<::UnityEngine::__ParticleSystem__MinMaxGradient>)>(
     &::UnityEngine::__ParticleSystem__MainModule::get_startColor_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2d1133c;
+  constexpr static std::size_t addrs = 0x2d1f57c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -306,7 +896,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::__ParticleSystem__MainModule>, ByRef<::UnityEngine::__ParticleSystem__MinMaxGradient>)>(
     &::UnityEngine::__ParticleSystem__MainModule::set_startColor_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2d113c4;
+  constexpr static std::size_t addrs = 0x2d1f5c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -316,13 +906,90 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__MainModule.get_gravityModifierMultiplier_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(ByRef<::UnityEngine::__ParticleSystem__MainModule>)>(
+    &::UnityEngine::__ParticleSystem__MainModule::get_gravityModifierMultiplier_Injected)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x2d1f604;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "get_gravityModifierMultiplier_Injected", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__MainModule>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__MainModule.set_gravityModifierMultiplier_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::__ParticleSystem__MainModule>, float_t)>(
+    &::UnityEngine::__ParticleSystem__MainModule::set_gravityModifierMultiplier_Injected)> {
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x2d1f640;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "set_gravityModifierMultiplier_Injected", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__MainModule>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__MainModule.get_simulationSpace_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ParticleSystemSimulationSpace (*)(ByRef<::UnityEngine::__ParticleSystem__MainModule>)>(
+    &::UnityEngine::__ParticleSystem__MainModule::get_simulationSpace_Injected)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x2d1f68c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "get_simulationSpace_Injected", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__MainModule>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__MainModule.set_simulationSpace_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::__ParticleSystem__MainModule>, ::UnityEngine::ParticleSystemSimulationSpace)>(
+    &::UnityEngine::__ParticleSystem__MainModule::set_simulationSpace_Injected)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x2d1f6c8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "set_simulationSpace_Injected", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__MainModule>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ParticleSystemSimulationSpace>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__MainModule.get_simulationSpeed_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(ByRef<::UnityEngine::__ParticleSystem__MainModule>)>(
+    &::UnityEngine::__ParticleSystem__MainModule::get_simulationSpeed_Injected)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x2d1f70c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "get_simulationSpeed_Injected", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__MainModule>>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::__ParticleSystem__MainModule.set_simulationSpeed_Injected
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::__ParticleSystem__MainModule>, float_t)>(
     &::UnityEngine::__ParticleSystem__MainModule::set_simulationSpeed_Injected)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x2d11454;
+  constexpr static std::size_t addrs = 0x2d1f748;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -332,13 +999,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__MainModule.get_scalingMode_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ParticleSystemScalingMode (*)(ByRef<::UnityEngine::__ParticleSystem__MainModule>)>(
+    &::UnityEngine::__ParticleSystem__MainModule::get_scalingMode_Injected)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x2d1f794;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "get_scalingMode_Injected", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__MainModule>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__MainModule.set_scalingMode_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::__ParticleSystem__MainModule>, ::UnityEngine::ParticleSystemScalingMode)>(
+    &::UnityEngine::__ParticleSystem__MainModule::set_scalingMode_Injected)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x2d1f7d0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "set_scalingMode_Injected", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__MainModule>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ParticleSystemScalingMode>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__MainModule.get_playOnAwake_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<::UnityEngine::__ParticleSystem__MainModule>)>(
+    &::UnityEngine::__ParticleSystem__MainModule::get_playOnAwake_Injected)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x2d1f814;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "get_playOnAwake_Injected", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__MainModule>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__MainModule.set_playOnAwake_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::__ParticleSystem__MainModule>, bool)>(
+    &::UnityEngine::__ParticleSystem__MainModule::set_playOnAwake_Injected)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x2d1f850;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "set_playOnAwake_Injected", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__MainModule>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::__ParticleSystem__MainModule.get_maxParticles_Injected
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(ByRef<::UnityEngine::__ParticleSystem__MainModule>)>(
     &::UnityEngine::__ParticleSystem__MainModule::get_maxParticles_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2d114dc;
+  constexpr static std::size_t addrs = 0x2d1f894;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -353,7 +1082,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::__ParticleSystem__MainModule>, int32_t)>(
     &::UnityEngine::__ParticleSystem__MainModule::set_maxParticles_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2d1155c;
+  constexpr static std::size_t addrs = 0x2d1f8d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -379,10 +1108,38 @@ inline bool UnityEngine::__ParticleSystem__MainModule::get_loop() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
+inline void UnityEngine::__ParticleSystem__MainModule::set_loop(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "set_loop",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline float_t UnityEngine::__ParticleSystem__MainModule::get_startDelayMultiplier() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(),
+                                                                             "get_startDelayMultiplier", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+}
+inline void UnityEngine::__ParticleSystem__MainModule::set_startDelayMultiplier(float_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "set_startDelayMultiplier",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
 inline void UnityEngine::__ParticleSystem__MainModule::set_startLifetime(::UnityEngine::__ParticleSystem__MinMaxCurve value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "set_startLifetime", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::__ParticleSystem__MinMaxCurve>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline float_t UnityEngine::__ParticleSystem__MainModule::get_startLifetimeMultiplier() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(),
+                                                                             "get_startLifetimeMultiplier", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+}
+inline void UnityEngine::__ParticleSystem__MainModule::set_startLifetimeMultiplier(float_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "set_startLifetimeMultiplier",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void UnityEngine::__ParticleSystem__MainModule::set_startSpeed(::UnityEngine::__ParticleSystem__MinMaxCurve value) {
@@ -402,6 +1159,61 @@ inline void UnityEngine::__ParticleSystem__MainModule::set_startSpeedMultiplier(
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
+inline float_t UnityEngine::__ParticleSystem__MainModule::get_startSizeMultiplier() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(),
+                                                                             "get_startSizeMultiplier", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+}
+inline void UnityEngine::__ParticleSystem__MainModule::set_startSizeMultiplier(float_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "set_startSizeMultiplier",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline float_t UnityEngine::__ParticleSystem__MainModule::get_startRotationMultiplier() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(),
+                                                                             "get_startRotationMultiplier", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+}
+inline void UnityEngine::__ParticleSystem__MainModule::set_startRotationMultiplier(float_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "set_startRotationMultiplier",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline float_t UnityEngine::__ParticleSystem__MainModule::get_startRotationXMultiplier() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(),
+                                                                             "get_startRotationXMultiplier", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+}
+inline void UnityEngine::__ParticleSystem__MainModule::set_startRotationXMultiplier(float_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "set_startRotationXMultiplier",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline float_t UnityEngine::__ParticleSystem__MainModule::get_startRotationYMultiplier() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(),
+                                                                             "get_startRotationYMultiplier", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+}
+inline void UnityEngine::__ParticleSystem__MainModule::set_startRotationYMultiplier(float_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "set_startRotationYMultiplier",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline float_t UnityEngine::__ParticleSystem__MainModule::get_startRotationZMultiplier() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(),
+                                                                             "get_startRotationZMultiplier", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+}
+inline void UnityEngine::__ParticleSystem__MainModule::set_startRotationZMultiplier(float_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "set_startRotationZMultiplier",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
 inline ::UnityEngine::__ParticleSystem__MinMaxGradient UnityEngine::__ParticleSystem__MainModule::get_startColor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(),
                                                                              "get_startColor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -413,10 +1225,59 @@ inline void UnityEngine::__ParticleSystem__MainModule::set_startColor(::UnityEng
                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::__ParticleSystem__MinMaxGradient>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
+inline float_t UnityEngine::__ParticleSystem__MainModule::get_gravityModifierMultiplier() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(),
+                                                                             "get_gravityModifierMultiplier", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+}
+inline void UnityEngine::__ParticleSystem__MainModule::set_gravityModifierMultiplier(float_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "set_gravityModifierMultiplier",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline ::UnityEngine::ParticleSystemSimulationSpace UnityEngine::__ParticleSystem__MainModule::get_simulationSpace() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(),
+                                                                             "get_simulationSpace", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::ParticleSystemSimulationSpace, false>(this, ___internal_method);
+}
+inline void UnityEngine::__ParticleSystem__MainModule::set_simulationSpace(::UnityEngine::ParticleSystemSimulationSpace value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "set_simulationSpace", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ParticleSystemSimulationSpace>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline float_t UnityEngine::__ParticleSystem__MainModule::get_simulationSpeed() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(),
+                                                                             "get_simulationSpeed", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+}
 inline void UnityEngine::__ParticleSystem__MainModule::set_simulationSpeed(float_t value) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "set_simulationSpeed",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline ::UnityEngine::ParticleSystemScalingMode UnityEngine::__ParticleSystem__MainModule::get_scalingMode() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(),
+                                                                             "get_scalingMode", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::ParticleSystemScalingMode, false>(this, ___internal_method);
+}
+inline void UnityEngine::__ParticleSystem__MainModule::set_scalingMode(::UnityEngine::ParticleSystemScalingMode value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "set_scalingMode", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ParticleSystemScalingMode>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline bool UnityEngine::__ParticleSystem__MainModule::get_playOnAwake() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(),
+                                                                             "get_playOnAwake", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline void UnityEngine::__ParticleSystem__MainModule::set_playOnAwake(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "set_playOnAwake",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline int32_t UnityEngine::__ParticleSystem__MainModule::get_maxParticles() {
@@ -442,12 +1303,45 @@ inline bool UnityEngine::__ParticleSystem__MainModule::get_loop_Injected(ByRef<:
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__MainModule>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, _unity_self);
 }
+inline void UnityEngine::__ParticleSystem__MainModule::set_loop_Injected(ByRef<::UnityEngine::__ParticleSystem__MainModule> _unity_self, bool value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "set_loop_Injected", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__MainModule>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, _unity_self, value);
+}
+inline float_t UnityEngine::__ParticleSystem__MainModule::get_startDelayMultiplier_Injected(ByRef<::UnityEngine::__ParticleSystem__MainModule> _unity_self) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "get_startDelayMultiplier_Injected", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__MainModule>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, _unity_self);
+}
+inline void UnityEngine::__ParticleSystem__MainModule::set_startDelayMultiplier_Injected(ByRef<::UnityEngine::__ParticleSystem__MainModule> _unity_self, float_t value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "set_startDelayMultiplier_Injected", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__MainModule>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, _unity_self, value);
+}
 inline void UnityEngine::__ParticleSystem__MainModule::set_startLifetime_Injected(ByRef<::UnityEngine::__ParticleSystem__MainModule> _unity_self,
                                                                                   ByRef<::UnityEngine::__ParticleSystem__MinMaxCurve> value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "set_startLifetime_Injected", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__MainModule>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__MinMaxCurve>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, _unity_self, value);
+}
+inline float_t UnityEngine::__ParticleSystem__MainModule::get_startLifetimeMultiplier_Injected(ByRef<::UnityEngine::__ParticleSystem__MainModule> _unity_self) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "get_startLifetimeMultiplier_Injected", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__MainModule>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, _unity_self);
+}
+inline void UnityEngine::__ParticleSystem__MainModule::set_startLifetimeMultiplier_Injected(ByRef<::UnityEngine::__ParticleSystem__MainModule> _unity_self, float_t value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "set_startLifetimeMultiplier_Injected", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__MainModule>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, _unity_self, value);
 }
 inline void UnityEngine::__ParticleSystem__MainModule::set_startSpeed_Injected(ByRef<::UnityEngine::__ParticleSystem__MainModule> _unity_self,
@@ -471,6 +1365,71 @@ inline void UnityEngine::__ParticleSystem__MainModule::set_startSpeedMultiplier_
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, _unity_self, value);
 }
+inline float_t UnityEngine::__ParticleSystem__MainModule::get_startSizeMultiplier_Injected(ByRef<::UnityEngine::__ParticleSystem__MainModule> _unity_self) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "get_startSizeMultiplier_Injected", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__MainModule>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, _unity_self);
+}
+inline void UnityEngine::__ParticleSystem__MainModule::set_startSizeMultiplier_Injected(ByRef<::UnityEngine::__ParticleSystem__MainModule> _unity_self, float_t value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "set_startSizeMultiplier_Injected", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__MainModule>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, _unity_self, value);
+}
+inline float_t UnityEngine::__ParticleSystem__MainModule::get_startRotationMultiplier_Injected(ByRef<::UnityEngine::__ParticleSystem__MainModule> _unity_self) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "get_startRotationMultiplier_Injected", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__MainModule>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, _unity_self);
+}
+inline void UnityEngine::__ParticleSystem__MainModule::set_startRotationMultiplier_Injected(ByRef<::UnityEngine::__ParticleSystem__MainModule> _unity_self, float_t value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "set_startRotationMultiplier_Injected", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__MainModule>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, _unity_self, value);
+}
+inline float_t UnityEngine::__ParticleSystem__MainModule::get_startRotationXMultiplier_Injected(ByRef<::UnityEngine::__ParticleSystem__MainModule> _unity_self) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "get_startRotationXMultiplier_Injected", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__MainModule>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, _unity_self);
+}
+inline void UnityEngine::__ParticleSystem__MainModule::set_startRotationXMultiplier_Injected(ByRef<::UnityEngine::__ParticleSystem__MainModule> _unity_self, float_t value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "set_startRotationXMultiplier_Injected", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__MainModule>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, _unity_self, value);
+}
+inline float_t UnityEngine::__ParticleSystem__MainModule::get_startRotationYMultiplier_Injected(ByRef<::UnityEngine::__ParticleSystem__MainModule> _unity_self) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "get_startRotationYMultiplier_Injected", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__MainModule>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, _unity_self);
+}
+inline void UnityEngine::__ParticleSystem__MainModule::set_startRotationYMultiplier_Injected(ByRef<::UnityEngine::__ParticleSystem__MainModule> _unity_self, float_t value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "set_startRotationYMultiplier_Injected", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__MainModule>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, _unity_self, value);
+}
+inline float_t UnityEngine::__ParticleSystem__MainModule::get_startRotationZMultiplier_Injected(ByRef<::UnityEngine::__ParticleSystem__MainModule> _unity_self) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "get_startRotationZMultiplier_Injected", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__MainModule>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, _unity_self);
+}
+inline void UnityEngine::__ParticleSystem__MainModule::set_startRotationZMultiplier_Injected(ByRef<::UnityEngine::__ParticleSystem__MainModule> _unity_self, float_t value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "set_startRotationZMultiplier_Injected", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__MainModule>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, _unity_self, value);
+}
 inline void UnityEngine::__ParticleSystem__MainModule::get_startColor_Injected(ByRef<::UnityEngine::__ParticleSystem__MainModule> _unity_self,
                                                                                ByRef<::UnityEngine::__ParticleSystem__MinMaxGradient> ret) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -487,11 +1446,70 @@ inline void UnityEngine::__ParticleSystem__MainModule::set_startColor_Injected(B
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__MinMaxGradient>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, _unity_self, value);
 }
+inline float_t UnityEngine::__ParticleSystem__MainModule::get_gravityModifierMultiplier_Injected(ByRef<::UnityEngine::__ParticleSystem__MainModule> _unity_self) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "get_gravityModifierMultiplier_Injected", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__MainModule>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, _unity_self);
+}
+inline void UnityEngine::__ParticleSystem__MainModule::set_gravityModifierMultiplier_Injected(ByRef<::UnityEngine::__ParticleSystem__MainModule> _unity_self, float_t value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "set_gravityModifierMultiplier_Injected", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__MainModule>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, _unity_self, value);
+}
+inline ::UnityEngine::ParticleSystemSimulationSpace UnityEngine::__ParticleSystem__MainModule::get_simulationSpace_Injected(ByRef<::UnityEngine::__ParticleSystem__MainModule> _unity_self) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "get_simulationSpace_Injected", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__MainModule>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::ParticleSystemSimulationSpace, false>(nullptr, ___internal_method, _unity_self);
+}
+inline void UnityEngine::__ParticleSystem__MainModule::set_simulationSpace_Injected(ByRef<::UnityEngine::__ParticleSystem__MainModule> _unity_self,
+                                                                                    ::UnityEngine::ParticleSystemSimulationSpace value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "set_simulationSpace_Injected", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__MainModule>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ParticleSystemSimulationSpace>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, _unity_self, value);
+}
+inline float_t UnityEngine::__ParticleSystem__MainModule::get_simulationSpeed_Injected(ByRef<::UnityEngine::__ParticleSystem__MainModule> _unity_self) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "get_simulationSpeed_Injected", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__MainModule>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, _unity_self);
+}
 inline void UnityEngine::__ParticleSystem__MainModule::set_simulationSpeed_Injected(ByRef<::UnityEngine::__ParticleSystem__MainModule> _unity_self, float_t value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "set_simulationSpeed_Injected", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__MainModule>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, _unity_self, value);
+}
+inline ::UnityEngine::ParticleSystemScalingMode UnityEngine::__ParticleSystem__MainModule::get_scalingMode_Injected(ByRef<::UnityEngine::__ParticleSystem__MainModule> _unity_self) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "get_scalingMode_Injected", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__MainModule>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::ParticleSystemScalingMode, false>(nullptr, ___internal_method, _unity_self);
+}
+inline void UnityEngine::__ParticleSystem__MainModule::set_scalingMode_Injected(ByRef<::UnityEngine::__ParticleSystem__MainModule> _unity_self, ::UnityEngine::ParticleSystemScalingMode value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "set_scalingMode_Injected", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__MainModule>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ParticleSystemScalingMode>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, _unity_self, value);
+}
+inline bool UnityEngine::__ParticleSystem__MainModule::get_playOnAwake_Injected(ByRef<::UnityEngine::__ParticleSystem__MainModule> _unity_self) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "get_playOnAwake_Injected", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__MainModule>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, _unity_self);
+}
+inline void UnityEngine::__ParticleSystem__MainModule::set_playOnAwake_Injected(ByRef<::UnityEngine::__ParticleSystem__MainModule> _unity_self, bool value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MainModule>::get(), "set_playOnAwake_Injected", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__MainModule>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, _unity_self, value);
 }
 inline int32_t UnityEngine::__ParticleSystem__MainModule::get_maxParticles_Injected(ByRef<::UnityEngine::__ParticleSystem__MainModule> _unity_self) {
@@ -519,7 +1537,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__EmissionModule::*)(::UnityEngine::ParticleSystem*)>(
     &::UnityEngine::__ParticleSystem__EmissionModule::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2d10da8;
+  constexpr static std::size_t addrs = 0x2d1d85c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -534,7 +1552,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::__ParticleSystem__EmissionModule::*)()>(
     &::UnityEngine::__ParticleSystem__EmissionModule::get_enabled)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2d115a0;
+  constexpr static std::size_t addrs = 0x2d1e03c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__EmissionModule>::get(),
@@ -548,12 +1566,41 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__EmissionModule::*)(bool)>(
     &::UnityEngine::__ParticleSystem__EmissionModule::set_enabled)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2d11618;
+  constexpr static std::size_t addrs = 0x2d1e0c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__EmissionModule>::get(), "set_enabled",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__EmissionModule.set_rateOverTime
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__EmissionModule::*)(::UnityEngine::__ParticleSystem__MinMaxCurve)>(
+    &::UnityEngine::__ParticleSystem__EmissionModule::set_rateOverTime)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x2d1e1e8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__EmissionModule>::get(), "set_rateOverTime", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::__ParticleSystem__MinMaxCurve>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__EmissionModule.get_rateOverTimeMultiplier
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::__ParticleSystem__EmissionModule::*)()>(
+    &::UnityEngine::__ParticleSystem__EmissionModule::get_rateOverTimeMultiplier)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x2d1e144;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__EmissionModule>::get(),
+                                                                               "get_rateOverTimeMultiplier", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -563,7 +1610,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<::UnityEngine::__ParticleSystem__EmissionModule>)>(
     &::UnityEngine::__ParticleSystem__EmissionModule::get_enabled_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2d115dc;
+  constexpr static std::size_t addrs = 0x2d1f914;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -578,13 +1625,44 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::__ParticleSystem__EmissionModule>, bool)>(
     &::UnityEngine::__ParticleSystem__EmissionModule::set_enabled_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2d1165c;
+  constexpr static std::size_t addrs = 0x2d1f950;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__EmissionModule>::get(), "set_enabled_Injected", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__EmissionModule>>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__EmissionModule.set_rateOverTime_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
+    ByRef<::UnityEngine::__ParticleSystem__EmissionModule>, ByRef<::UnityEngine::__ParticleSystem__MinMaxCurve>)>(&::UnityEngine::__ParticleSystem__EmissionModule::set_rateOverTime_Injected)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x2d1f994;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__EmissionModule>::get(), "set_rateOverTime_Injected", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__EmissionModule>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__MinMaxCurve>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__EmissionModule.get_rateOverTimeMultiplier_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(ByRef<::UnityEngine::__ParticleSystem__EmissionModule>)>(
+    &::UnityEngine::__ParticleSystem__EmissionModule::get_rateOverTimeMultiplier_Injected)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x2d1f9d8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__EmissionModule>::get(), "get_rateOverTimeMultiplier_Injected", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__EmissionModule>>::get() })));
     return ___internal_method;
   }
 };
@@ -605,6 +1683,17 @@ inline void UnityEngine::__ParticleSystem__EmissionModule::set_enabled(bool valu
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
+inline void UnityEngine::__ParticleSystem__EmissionModule::set_rateOverTime(::UnityEngine::__ParticleSystem__MinMaxCurve value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__EmissionModule>::get(), "set_rateOverTime", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::__ParticleSystem__MinMaxCurve>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline float_t UnityEngine::__ParticleSystem__EmissionModule::get_rateOverTimeMultiplier() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__EmissionModule>::get(),
+                                                                             "get_rateOverTimeMultiplier", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+}
 inline bool UnityEngine::__ParticleSystem__EmissionModule::get_enabled_Injected(ByRef<::UnityEngine::__ParticleSystem__EmissionModule> _unity_self) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__EmissionModule>::get(), "get_enabled_Injected", std::span<Il2CppClass const* const, 0>(),
@@ -618,6 +1707,20 @@ inline void UnityEngine::__ParticleSystem__EmissionModule::set_enabled_Injected(
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, _unity_self, value);
 }
+inline void UnityEngine::__ParticleSystem__EmissionModule::set_rateOverTime_Injected(ByRef<::UnityEngine::__ParticleSystem__EmissionModule> _unity_self,
+                                                                                     ByRef<::UnityEngine::__ParticleSystem__MinMaxCurve> value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__EmissionModule>::get(), "set_rateOverTime_Injected", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__EmissionModule>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__MinMaxCurve>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, _unity_self, value);
+}
+inline float_t UnityEngine::__ParticleSystem__EmissionModule::get_rateOverTimeMultiplier_Injected(ByRef<::UnityEngine::__ParticleSystem__EmissionModule> _unity_self) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__EmissionModule>::get(), "get_rateOverTimeMultiplier_Injected", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__EmissionModule>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, _unity_self);
+}
 // Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("nullptr") }]
 constexpr ::UnityEngine::__ParticleSystem__EmissionModule::__ParticleSystem__EmissionModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept {
   this->m_ParticleSystem = m_ParticleSystem;
@@ -630,7 +1733,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__ShapeModule::*)(::UnityEngine::ParticleSystem*)>(
     &::UnityEngine::__ParticleSystem__ShapeModule::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2d10db4;
+  constexpr static std::size_t addrs = 0x2d1d868;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -645,7 +1748,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::MeshRenderer> (::UnityEngine::__ParticleSystem__ShapeModule::*)()>(
     &::UnityEngine::__ParticleSystem__ShapeModule::get_meshRenderer)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2d116a0;
+  constexpr static std::size_t addrs = 0x2d1fa14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__ShapeModule>::get(),
@@ -659,7 +1762,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__ShapeModule::*)(::UnityEngine::MeshRenderer*)>(
     &::UnityEngine::__ParticleSystem__ShapeModule::set_meshRenderer)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2d11718;
+  constexpr static std::size_t addrs = 0x2d1fa8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -674,7 +1777,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__ShapeModule::*)(::UnityEngine::Vector3)>(
     &::UnityEngine::__ParticleSystem__ShapeModule::set_rotation)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2d117a0;
+  constexpr static std::size_t addrs = 0x2d1fb14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -689,7 +1792,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::MeshRenderer> (*)(ByRef<::UnityEngine::__ParticleSystem__ShapeModule>)>(
     &::UnityEngine::__ParticleSystem__ShapeModule::get_meshRenderer_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2d116dc;
+  constexpr static std::size_t addrs = 0x2d1fa50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -704,7 +1807,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::__ParticleSystem__ShapeModule>, ::UnityEngine::MeshRenderer*)>(
     &::UnityEngine::__ParticleSystem__ShapeModule::set_meshRenderer_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2d1175c;
+  constexpr static std::size_t addrs = 0x2d1fad0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -720,7 +1823,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::__ParticleSystem__ShapeModule>, ByRef<::UnityEngine::Vector3>)>(
     &::UnityEngine::__ParticleSystem__ShapeModule::set_rotation_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2d117f4;
+  constexpr static std::size_t addrs = 0x2d1fb68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -779,13 +1882,418 @@ constexpr ::UnityEngine::__ParticleSystem__ShapeModule::__ParticleSystem__ShapeM
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::__ParticleSystem__ShapeModule::__ParticleSystem__ShapeModule() {}
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__VelocityOverLifetimeModule._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__VelocityOverLifetimeModule::*)(::UnityEngine::ParticleSystem*)>(
+    &::UnityEngine::__ParticleSystem__VelocityOverLifetimeModule::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x2d1d874;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__VelocityOverLifetimeModule>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ParticleSystem*>::get() })));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::__ParticleSystem__VelocityOverLifetimeModule::_ctor(::UnityEngine::ParticleSystem* particleSystem) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__VelocityOverLifetimeModule>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ParticleSystem*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, particleSystem);
+}
+// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("nullptr") }]
+constexpr ::UnityEngine::__ParticleSystem__VelocityOverLifetimeModule::__ParticleSystem__VelocityOverLifetimeModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept {
+  this->m_ParticleSystem = m_ParticleSystem;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::__ParticleSystem__VelocityOverLifetimeModule::__ParticleSystem__VelocityOverLifetimeModule() {}
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__LimitVelocityOverLifetimeModule._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__LimitVelocityOverLifetimeModule::*)(::UnityEngine::ParticleSystem*)>(
+    &::UnityEngine::__ParticleSystem__LimitVelocityOverLifetimeModule::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x2d1d880;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__LimitVelocityOverLifetimeModule>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ParticleSystem*>::get() })));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::__ParticleSystem__LimitVelocityOverLifetimeModule::_ctor(::UnityEngine::ParticleSystem* particleSystem) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__LimitVelocityOverLifetimeModule>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ParticleSystem*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, particleSystem);
+}
+// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("nullptr") }]
+constexpr ::UnityEngine::__ParticleSystem__LimitVelocityOverLifetimeModule::__ParticleSystem__LimitVelocityOverLifetimeModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept {
+  this->m_ParticleSystem = m_ParticleSystem;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::__ParticleSystem__LimitVelocityOverLifetimeModule::__ParticleSystem__LimitVelocityOverLifetimeModule() {}
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__InheritVelocityModule._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__InheritVelocityModule::*)(::UnityEngine::ParticleSystem*)>(
+    &::UnityEngine::__ParticleSystem__InheritVelocityModule::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x2d1d88c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__InheritVelocityModule>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ParticleSystem*>::get() })));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::__ParticleSystem__InheritVelocityModule::_ctor(::UnityEngine::ParticleSystem* particleSystem) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__InheritVelocityModule>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ParticleSystem*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, particleSystem);
+}
+// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("nullptr") }]
+constexpr ::UnityEngine::__ParticleSystem__InheritVelocityModule::__ParticleSystem__InheritVelocityModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept {
+  this->m_ParticleSystem = m_ParticleSystem;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::__ParticleSystem__InheritVelocityModule::__ParticleSystem__InheritVelocityModule() {}
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__LifetimeByEmitterSpeedModule._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__LifetimeByEmitterSpeedModule::*)(::UnityEngine::ParticleSystem*)>(
+    &::UnityEngine::__ParticleSystem__LifetimeByEmitterSpeedModule::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x2d1d898;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__LifetimeByEmitterSpeedModule>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ParticleSystem*>::get() })));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::__ParticleSystem__LifetimeByEmitterSpeedModule::_ctor(::UnityEngine::ParticleSystem* particleSystem) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__LifetimeByEmitterSpeedModule>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ParticleSystem*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, particleSystem);
+}
+// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("nullptr") }]
+constexpr ::UnityEngine::__ParticleSystem__LifetimeByEmitterSpeedModule::__ParticleSystem__LifetimeByEmitterSpeedModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept {
+  this->m_ParticleSystem = m_ParticleSystem;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::__ParticleSystem__LifetimeByEmitterSpeedModule::__ParticleSystem__LifetimeByEmitterSpeedModule() {}
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__ForceOverLifetimeModule._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__ForceOverLifetimeModule::*)(::UnityEngine::ParticleSystem*)>(
+    &::UnityEngine::__ParticleSystem__ForceOverLifetimeModule::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x2d1d8a4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__ForceOverLifetimeModule>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ParticleSystem*>::get() })));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::__ParticleSystem__ForceOverLifetimeModule::_ctor(::UnityEngine::ParticleSystem* particleSystem) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__ForceOverLifetimeModule>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ParticleSystem*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, particleSystem);
+}
+// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("nullptr") }]
+constexpr ::UnityEngine::__ParticleSystem__ForceOverLifetimeModule::__ParticleSystem__ForceOverLifetimeModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept {
+  this->m_ParticleSystem = m_ParticleSystem;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::__ParticleSystem__ForceOverLifetimeModule::__ParticleSystem__ForceOverLifetimeModule() {}
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__ColorOverLifetimeModule._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__ColorOverLifetimeModule::*)(::UnityEngine::ParticleSystem*)>(
+    &::UnityEngine::__ParticleSystem__ColorOverLifetimeModule::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x2d1d8b0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__ColorOverLifetimeModule>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ParticleSystem*>::get() })));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::__ParticleSystem__ColorOverLifetimeModule::_ctor(::UnityEngine::ParticleSystem* particleSystem) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__ColorOverLifetimeModule>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ParticleSystem*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, particleSystem);
+}
+// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("nullptr") }]
+constexpr ::UnityEngine::__ParticleSystem__ColorOverLifetimeModule::__ParticleSystem__ColorOverLifetimeModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept {
+  this->m_ParticleSystem = m_ParticleSystem;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::__ParticleSystem__ColorOverLifetimeModule::__ParticleSystem__ColorOverLifetimeModule() {}
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__ColorBySpeedModule._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__ColorBySpeedModule::*)(::UnityEngine::ParticleSystem*)>(
+    &::UnityEngine::__ParticleSystem__ColorBySpeedModule::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x2d1d8bc;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__ColorBySpeedModule>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ParticleSystem*>::get() })));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::__ParticleSystem__ColorBySpeedModule::_ctor(::UnityEngine::ParticleSystem* particleSystem) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__ColorBySpeedModule>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ParticleSystem*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, particleSystem);
+}
+// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("nullptr") }]
+constexpr ::UnityEngine::__ParticleSystem__ColorBySpeedModule::__ParticleSystem__ColorBySpeedModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept {
+  this->m_ParticleSystem = m_ParticleSystem;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::__ParticleSystem__ColorBySpeedModule::__ParticleSystem__ColorBySpeedModule() {}
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__SizeOverLifetimeModule._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__SizeOverLifetimeModule::*)(::UnityEngine::ParticleSystem*)>(
+    &::UnityEngine::__ParticleSystem__SizeOverLifetimeModule::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x2d1d8c8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__SizeOverLifetimeModule>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ParticleSystem*>::get() })));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::__ParticleSystem__SizeOverLifetimeModule::_ctor(::UnityEngine::ParticleSystem* particleSystem) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__SizeOverLifetimeModule>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ParticleSystem*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, particleSystem);
+}
+// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("nullptr") }]
+constexpr ::UnityEngine::__ParticleSystem__SizeOverLifetimeModule::__ParticleSystem__SizeOverLifetimeModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept {
+  this->m_ParticleSystem = m_ParticleSystem;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::__ParticleSystem__SizeOverLifetimeModule::__ParticleSystem__SizeOverLifetimeModule() {}
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__SizeBySpeedModule._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__SizeBySpeedModule::*)(::UnityEngine::ParticleSystem*)>(
+    &::UnityEngine::__ParticleSystem__SizeBySpeedModule::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x2d1d8d4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((
+        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__SizeBySpeedModule>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ParticleSystem*>::get() })));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::__ParticleSystem__SizeBySpeedModule::_ctor(::UnityEngine::ParticleSystem* particleSystem) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__SizeBySpeedModule>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ParticleSystem*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, particleSystem);
+}
+// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("nullptr") }]
+constexpr ::UnityEngine::__ParticleSystem__SizeBySpeedModule::__ParticleSystem__SizeBySpeedModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept {
+  this->m_ParticleSystem = m_ParticleSystem;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::__ParticleSystem__SizeBySpeedModule::__ParticleSystem__SizeBySpeedModule() {}
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__RotationOverLifetimeModule._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__RotationOverLifetimeModule::*)(::UnityEngine::ParticleSystem*)>(
+    &::UnityEngine::__ParticleSystem__RotationOverLifetimeModule::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x2d1d8e0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__RotationOverLifetimeModule>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ParticleSystem*>::get() })));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::__ParticleSystem__RotationOverLifetimeModule::_ctor(::UnityEngine::ParticleSystem* particleSystem) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__RotationOverLifetimeModule>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ParticleSystem*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, particleSystem);
+}
+// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("nullptr") }]
+constexpr ::UnityEngine::__ParticleSystem__RotationOverLifetimeModule::__ParticleSystem__RotationOverLifetimeModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept {
+  this->m_ParticleSystem = m_ParticleSystem;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::__ParticleSystem__RotationOverLifetimeModule::__ParticleSystem__RotationOverLifetimeModule() {}
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__RotationBySpeedModule._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__RotationBySpeedModule::*)(::UnityEngine::ParticleSystem*)>(
+    &::UnityEngine::__ParticleSystem__RotationBySpeedModule::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x2d1d8ec;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__RotationBySpeedModule>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ParticleSystem*>::get() })));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::__ParticleSystem__RotationBySpeedModule::_ctor(::UnityEngine::ParticleSystem* particleSystem) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__RotationBySpeedModule>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ParticleSystem*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, particleSystem);
+}
+// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("nullptr") }]
+constexpr ::UnityEngine::__ParticleSystem__RotationBySpeedModule::__ParticleSystem__RotationBySpeedModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept {
+  this->m_ParticleSystem = m_ParticleSystem;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::__ParticleSystem__RotationBySpeedModule::__ParticleSystem__RotationBySpeedModule() {}
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__ExternalForcesModule._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__ExternalForcesModule::*)(::UnityEngine::ParticleSystem*)>(
+    &::UnityEngine::__ParticleSystem__ExternalForcesModule::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x2d1d8f8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__ExternalForcesModule>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ParticleSystem*>::get() })));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::__ParticleSystem__ExternalForcesModule::_ctor(::UnityEngine::ParticleSystem* particleSystem) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__ExternalForcesModule>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ParticleSystem*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, particleSystem);
+}
+// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("nullptr") }]
+constexpr ::UnityEngine::__ParticleSystem__ExternalForcesModule::__ParticleSystem__ExternalForcesModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept {
+  this->m_ParticleSystem = m_ParticleSystem;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::__ParticleSystem__ExternalForcesModule::__ParticleSystem__ExternalForcesModule() {}
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__NoiseModule._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__NoiseModule::*)(::UnityEngine::ParticleSystem*)>(
+    &::UnityEngine::__ParticleSystem__NoiseModule::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x2d1d904;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__NoiseModule>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ParticleSystem*>::get() })));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::__ParticleSystem__NoiseModule::_ctor(::UnityEngine::ParticleSystem* particleSystem) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__NoiseModule>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ParticleSystem*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, particleSystem);
+}
+// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("nullptr") }]
+constexpr ::UnityEngine::__ParticleSystem__NoiseModule::__ParticleSystem__NoiseModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept {
+  this->m_ParticleSystem = m_ParticleSystem;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::__ParticleSystem__NoiseModule::__ParticleSystem__NoiseModule() {}
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__CollisionModule._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__CollisionModule::*)(::UnityEngine::ParticleSystem*)>(
+    &::UnityEngine::__ParticleSystem__CollisionModule::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x2d1d910;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__CollisionModule>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ParticleSystem*>::get() })));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::__ParticleSystem__CollisionModule::_ctor(::UnityEngine::ParticleSystem* particleSystem) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__CollisionModule>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ParticleSystem*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, particleSystem);
+}
+// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("nullptr") }]
+constexpr ::UnityEngine::__ParticleSystem__CollisionModule::__ParticleSystem__CollisionModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept {
+  this->m_ParticleSystem = m_ParticleSystem;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::__ParticleSystem__CollisionModule::__ParticleSystem__CollisionModule() {}
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__TriggerModule._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__TriggerModule::*)(::UnityEngine::ParticleSystem*)>(
+    &::UnityEngine::__ParticleSystem__TriggerModule::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x2d1d91c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__TriggerModule>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ParticleSystem*>::get() })));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::__ParticleSystem__TriggerModule::_ctor(::UnityEngine::ParticleSystem* particleSystem) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__TriggerModule>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ParticleSystem*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, particleSystem);
+}
+// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("nullptr") }]
+constexpr ::UnityEngine::__ParticleSystem__TriggerModule::__ParticleSystem__TriggerModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept {
+  this->m_ParticleSystem = m_ParticleSystem;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::__ParticleSystem__TriggerModule::__ParticleSystem__TriggerModule() {}
 //  Writing Method size for method: ::UnityEngine::__ParticleSystem__SubEmittersModule._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__SubEmittersModule::*)(::UnityEngine::ParticleSystem*)>(
     &::UnityEngine::__ParticleSystem__SubEmittersModule::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2d10dc0;
+  constexpr static std::size_t addrs = 0x2d1d928;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -800,7 +2308,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::__ParticleSystem__SubEmittersModule::*)()>(
     &::UnityEngine::__ParticleSystem__SubEmittersModule::get_subEmittersCount)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2d11838;
+  constexpr static std::size_t addrs = 0x2d1fbac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__SubEmittersModule>::get(),
@@ -814,7 +2322,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::ParticleSystem> (::UnityEngine::__ParticleSystem__SubEmittersModule::*)(int32_t)>(
     &::UnityEngine::__ParticleSystem__SubEmittersModule::GetSubEmitterSystem)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2d118b0;
+  constexpr static std::size_t addrs = 0x2d1fc24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -829,7 +2337,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(ByRef<::UnityEngine::__ParticleSystem__SubEmittersModule>)>(
     &::UnityEngine::__ParticleSystem__SubEmittersModule::get_subEmittersCount_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2d11874;
+  constexpr static std::size_t addrs = 0x2d1fbe8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -844,7 +2352,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::ParticleSystem> (*)(ByRef<::UnityEngine::__ParticleSystem__SubEmittersModule>, int32_t)>(
     &::UnityEngine::__ParticleSystem__SubEmittersModule::GetSubEmitterSystem_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2d118f4;
+  constexpr static std::size_t addrs = 0x2d1fc68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -891,13 +2399,121 @@ constexpr ::UnityEngine::__ParticleSystem__SubEmittersModule::__ParticleSystem__
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::__ParticleSystem__SubEmittersModule::__ParticleSystem__SubEmittersModule() {}
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__TextureSheetAnimationModule._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__TextureSheetAnimationModule::*)(::UnityEngine::ParticleSystem*)>(
+    &::UnityEngine::__ParticleSystem__TextureSheetAnimationModule::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x2d1d934;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__TextureSheetAnimationModule>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ParticleSystem*>::get() })));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::__ParticleSystem__TextureSheetAnimationModule::_ctor(::UnityEngine::ParticleSystem* particleSystem) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__TextureSheetAnimationModule>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ParticleSystem*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, particleSystem);
+}
+// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("nullptr") }]
+constexpr ::UnityEngine::__ParticleSystem__TextureSheetAnimationModule::__ParticleSystem__TextureSheetAnimationModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept {
+  this->m_ParticleSystem = m_ParticleSystem;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::__ParticleSystem__TextureSheetAnimationModule::__ParticleSystem__TextureSheetAnimationModule() {}
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__LightsModule._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__LightsModule::*)(::UnityEngine::ParticleSystem*)>(
+    &::UnityEngine::__ParticleSystem__LightsModule::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x2d1d940;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__LightsModule>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ParticleSystem*>::get() })));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::__ParticleSystem__LightsModule::_ctor(::UnityEngine::ParticleSystem* particleSystem) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__LightsModule>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ParticleSystem*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, particleSystem);
+}
+// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("nullptr") }]
+constexpr ::UnityEngine::__ParticleSystem__LightsModule::__ParticleSystem__LightsModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept {
+  this->m_ParticleSystem = m_ParticleSystem;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::__ParticleSystem__LightsModule::__ParticleSystem__LightsModule() {}
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__TrailModule._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__TrailModule::*)(::UnityEngine::ParticleSystem*)>(
+    &::UnityEngine::__ParticleSystem__TrailModule::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x2d1d94c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__TrailModule>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ParticleSystem*>::get() })));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::__ParticleSystem__TrailModule::_ctor(::UnityEngine::ParticleSystem* particleSystem) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__TrailModule>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ParticleSystem*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, particleSystem);
+}
+// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("nullptr") }]
+constexpr ::UnityEngine::__ParticleSystem__TrailModule::__ParticleSystem__TrailModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept {
+  this->m_ParticleSystem = m_ParticleSystem;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::__ParticleSystem__TrailModule::__ParticleSystem__TrailModule() {}
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__CustomDataModule._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__CustomDataModule::*)(::UnityEngine::ParticleSystem*)>(
+    &::UnityEngine::__ParticleSystem__CustomDataModule::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x2d1d958;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__CustomDataModule>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ParticleSystem*>::get() })));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::__ParticleSystem__CustomDataModule::_ctor(::UnityEngine::ParticleSystem* particleSystem) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__CustomDataModule>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ParticleSystem*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, particleSystem);
+}
+// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("nullptr") }]
+constexpr ::UnityEngine::__ParticleSystem__CustomDataModule::__ParticleSystem__CustomDataModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept {
+  this->m_ParticleSystem = m_ParticleSystem;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::__ParticleSystem__CustomDataModule::__ParticleSystem__CustomDataModule() {}
 //  Writing Method size for method: ::UnityEngine::__ParticleSystem__MinMaxCurve._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__MinMaxCurve::*)(float_t)>(
     &::UnityEngine::__ParticleSystem__MinMaxCurve::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2d11938;
+  constexpr static std::size_t addrs = 0x2d1fcac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -912,7 +2528,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__MinMaxCurve::*)(float_t, float_t)>(
     &::UnityEngine::__ParticleSystem__MinMaxCurve::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2d1194c;
+  constexpr static std::size_t addrs = 0x2d1fcc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -927,7 +2543,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__MinMaxCurve::*)(float_t)>(
     &::UnityEngine::__ParticleSystem__MinMaxCurve::set_constantMax)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2d11968;
+  constexpr static std::size_t addrs = 0x2d1fcdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -942,7 +2558,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__MinMaxCurve::*)(float_t)>(
     &::UnityEngine::__ParticleSystem__MinMaxCurve::set_constantMin)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2d11970;
+  constexpr static std::size_t addrs = 0x2d1fce4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -957,7 +2573,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::__ParticleSystem__MinMaxCurve (*)(float_t)>(
     &::UnityEngine::__ParticleSystem__MinMaxCurve::op_Implicit___UnityEngine____ParticleSystem__MinMaxCurve)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2d11978;
+  constexpr static std::size_t addrs = 0x2d1e1d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1018,7 +2634,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__MinMaxGradient::*)(::UnityEngine::Color)>(
     &::UnityEngine::__ParticleSystem__MinMaxGradient::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2d1198c;
+  constexpr static std::size_t addrs = 0x2d1fcec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1033,7 +2649,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::UnityEngine::__ParticleSystem__MinMaxGradient::*)()>(
     &::UnityEngine::__ParticleSystem__MinMaxGradient::get_color)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2d119a8;
+  constexpr static std::size_t addrs = 0x2d1e520;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__MinMaxGradient>::get(),
@@ -1047,7 +2663,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::__ParticleSystem__MinMaxGradient (*)(::UnityEngine::Color)>(
     &::UnityEngine::__ParticleSystem__MinMaxGradient::op_Implicit___UnityEngine____ParticleSystem__MinMaxGradient)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2d119b4;
+  constexpr static std::size_t addrs = 0x2d1e588;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1093,7 +2709,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__Particle::*)(::UnityEngine::Vector3)>(
     &::UnityEngine::__ParticleSystem__Particle::set_position)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2d10ecc;
+  constexpr static std::size_t addrs = 0x2d1da64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1108,7 +2724,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__Particle::*)(::UnityEngine::Vector3)>(
     &::UnityEngine::__ParticleSystem__Particle::set_velocity)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2d10ed8;
+  constexpr static std::size_t addrs = 0x2d1da70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1123,7 +2739,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__Particle::*)(float_t)>(
     &::UnityEngine::__ParticleSystem__Particle::set_remainingLifetime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2d119d0;
+  constexpr static std::size_t addrs = 0x2d1fd08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1138,7 +2754,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__Particle::*)(float_t)>(
     &::UnityEngine::__ParticleSystem__Particle::set_startLifetime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2d10eec;
+  constexpr static std::size_t addrs = 0x2d1da84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1153,7 +2769,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__Particle::*)(::UnityEngine::Color32)>(
     &::UnityEngine::__ParticleSystem__Particle::set_startColor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2d10f58;
+  constexpr static std::size_t addrs = 0x2d1daf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -1168,7 +2784,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__Particle::*)(uint32_t)>(
     &::UnityEngine::__ParticleSystem__Particle::set_randomSeed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2d10f60;
+  constexpr static std::size_t addrs = 0x2d1daf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1183,7 +2799,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__Particle::*)(float_t)>(
     &::UnityEngine::__ParticleSystem__Particle::set_startSize)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2d10ef4;
+  constexpr static std::size_t addrs = 0x2d1da8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1198,7 +2814,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__Particle::*)(::UnityEngine::Vector3)>(
     &::UnityEngine::__ParticleSystem__Particle::set_rotation3D)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2d10f00;
+  constexpr static std::size_t addrs = 0x2d1da98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -1213,7 +2829,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__Particle::*)(::UnityEngine::Vector3)>(
     &::UnityEngine::__ParticleSystem__Particle::set_angularVelocity3D)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2d10f2c;
+  constexpr static std::size_t addrs = 0x2d1dac4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1228,7 +2844,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__Particle::*)(float_t)>(
     &::UnityEngine::__ParticleSystem__Particle::set_lifetime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2d10ee4;
+  constexpr static std::size_t addrs = 0x2d1da7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1337,7 +2953,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__EmitParams::*)(::UnityEngine::Vector3)>(
     &::UnityEngine::__ParticleSystem__EmitParams::set_position)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2d119d8;
+  constexpr static std::size_t addrs = 0x2d1fd10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -1352,7 +2968,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__EmitParams::*)(bool)>(
     &::UnityEngine::__ParticleSystem__EmitParams::set_applyShapeToPosition)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2d119ec;
+  constexpr static std::size_t addrs = 0x2d1fd24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1367,7 +2983,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__EmitParams::*)(::UnityEngine::Vector3)>(
     &::UnityEngine::__ParticleSystem__EmitParams::set_rotation3D)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x2d119f8;
+  constexpr static std::size_t addrs = 0x2d1fd30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1382,7 +2998,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__EmitParams::*)(::UnityEngine::Color32)>(
     &::UnityEngine::__ParticleSystem__EmitParams::set_startColor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2d11a2c;
+  constexpr static std::size_t addrs = 0x2d1fd64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1439,12 +3055,222 @@ constexpr ::UnityEngine::__ParticleSystem__EmitParams::__ParticleSystem__EmitPar
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::__ParticleSystem__EmitParams::__ParticleSystem__EmitParams() {}
+// Ctor Parameters [CppParam { name: "x", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "y", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "z",
+// ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "w", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+constexpr ::GlobalNamespace::__ParticleSystem__PlaybackState__Seed::__ParticleSystem__PlaybackState__Seed(uint32_t x, uint32_t y, uint32_t z, uint32_t w) noexcept {
+  this->x = x;
+  this->y = y;
+  this->z = z;
+  this->w = w;
+}
+// Ctor Parameters []
+constexpr ::GlobalNamespace::__ParticleSystem__PlaybackState__Seed::__ParticleSystem__PlaybackState__Seed() {}
+// Ctor Parameters [CppParam { name: "x", ty: "::GlobalNamespace::__ParticleSystem__PlaybackState__Seed", modifiers: "", def_value: Some("{}") }, CppParam { name: "y", ty:
+// "::GlobalNamespace::__ParticleSystem__PlaybackState__Seed", modifiers: "", def_value: Some("{}") }, CppParam { name: "z", ty: "::GlobalNamespace::__ParticleSystem__PlaybackState__Seed", modifiers:
+// "", def_value: Some("{}") }, CppParam { name: "w", ty: "::GlobalNamespace::__ParticleSystem__PlaybackState__Seed", modifiers: "", def_value: Some("{}") }]
+constexpr ::GlobalNamespace::__ParticleSystem__PlaybackState__Seed4::__ParticleSystem__PlaybackState__Seed4(::GlobalNamespace::__ParticleSystem__PlaybackState__Seed x,
+                                                                                                            ::GlobalNamespace::__ParticleSystem__PlaybackState__Seed y,
+                                                                                                            ::GlobalNamespace::__ParticleSystem__PlaybackState__Seed z,
+                                                                                                            ::GlobalNamespace::__ParticleSystem__PlaybackState__Seed w) noexcept {
+  this->x = x;
+  this->y = y;
+  this->z = z;
+  this->w = w;
+}
+// Ctor Parameters []
+constexpr ::GlobalNamespace::__ParticleSystem__PlaybackState__Seed4::__ParticleSystem__PlaybackState__Seed4() {}
+// Ctor Parameters [CppParam { name: "m_ParticleSpacing", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ToEmitAccumulator", ty: "float_t", modifiers: "", def_value:
+// Some("{}") }, CppParam { name: "m_Random", ty: "::GlobalNamespace::__ParticleSystem__PlaybackState__Seed", modifiers: "", def_value: Some("{}") }]
+constexpr ::GlobalNamespace::__ParticleSystem__PlaybackState__Emission::__ParticleSystem__PlaybackState__Emission(float_t m_ParticleSpacing, float_t m_ToEmitAccumulator,
+                                                                                                                  ::GlobalNamespace::__ParticleSystem__PlaybackState__Seed m_Random) noexcept {
+  this->m_ParticleSpacing = m_ParticleSpacing;
+  this->m_ToEmitAccumulator = m_ToEmitAccumulator;
+  this->m_Random = m_Random;
+}
+// Ctor Parameters []
+constexpr ::GlobalNamespace::__ParticleSystem__PlaybackState__Emission::__ParticleSystem__PlaybackState__Emission() {}
+// Ctor Parameters [CppParam { name: "m_Random", ty: "::GlobalNamespace::__ParticleSystem__PlaybackState__Seed4", modifiers: "", def_value: Some("{}") }]
+constexpr ::GlobalNamespace::__ParticleSystem__PlaybackState__Initial::__ParticleSystem__PlaybackState__Initial(::GlobalNamespace::__ParticleSystem__PlaybackState__Seed4 m_Random) noexcept {
+  this->m_Random = m_Random;
+}
+// Ctor Parameters []
+constexpr ::GlobalNamespace::__ParticleSystem__PlaybackState__Initial::__ParticleSystem__PlaybackState__Initial() {}
+// Ctor Parameters [CppParam { name: "m_Random", ty: "::GlobalNamespace::__ParticleSystem__PlaybackState__Seed4", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_RadiusTimer", ty:
+// "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_RadiusTimerPrev", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ArcTimer", ty: "float_t",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ArcTimerPrev", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_MeshSpawnTimer", ty: "float_t", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "m_MeshSpawnTimerPrev", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_OrderedMeshVertexIndex", ty: "int32_t", modifiers: "",
+// def_value: Some("{}") }]
+constexpr ::GlobalNamespace::__ParticleSystem__PlaybackState__Shape::__ParticleSystem__PlaybackState__Shape(::GlobalNamespace::__ParticleSystem__PlaybackState__Seed4 m_Random, float_t m_RadiusTimer,
+                                                                                                            float_t m_RadiusTimerPrev, float_t m_ArcTimer, float_t m_ArcTimerPrev,
+                                                                                                            float_t m_MeshSpawnTimer, float_t m_MeshSpawnTimerPrev,
+                                                                                                            int32_t m_OrderedMeshVertexIndex) noexcept {
+  this->m_Random = m_Random;
+  this->m_RadiusTimer = m_RadiusTimer;
+  this->m_RadiusTimerPrev = m_RadiusTimerPrev;
+  this->m_ArcTimer = m_ArcTimer;
+  this->m_ArcTimerPrev = m_ArcTimerPrev;
+  this->m_MeshSpawnTimer = m_MeshSpawnTimer;
+  this->m_MeshSpawnTimerPrev = m_MeshSpawnTimerPrev;
+  this->m_OrderedMeshVertexIndex = m_OrderedMeshVertexIndex;
+}
+// Ctor Parameters []
+constexpr ::GlobalNamespace::__ParticleSystem__PlaybackState__Shape::__ParticleSystem__PlaybackState__Shape() {}
+// Ctor Parameters [CppParam { name: "m_Random", ty: "::GlobalNamespace::__ParticleSystem__PlaybackState__Seed4", modifiers: "", def_value: Some("{}") }]
+constexpr ::GlobalNamespace::__ParticleSystem__PlaybackState__Force::__ParticleSystem__PlaybackState__Force(::GlobalNamespace::__ParticleSystem__PlaybackState__Seed4 m_Random) noexcept {
+  this->m_Random = m_Random;
+}
+// Ctor Parameters []
+constexpr ::GlobalNamespace::__ParticleSystem__PlaybackState__Force::__ParticleSystem__PlaybackState__Force() {}
+// Ctor Parameters [CppParam { name: "m_Random", ty: "::GlobalNamespace::__ParticleSystem__PlaybackState__Seed4", modifiers: "", def_value: Some("{}") }]
+constexpr ::GlobalNamespace::__ParticleSystem__PlaybackState__Collision::__ParticleSystem__PlaybackState__Collision(::GlobalNamespace::__ParticleSystem__PlaybackState__Seed4 m_Random) noexcept {
+  this->m_Random = m_Random;
+}
+// Ctor Parameters []
+constexpr ::GlobalNamespace::__ParticleSystem__PlaybackState__Collision::__ParticleSystem__PlaybackState__Collision() {}
+// Ctor Parameters [CppParam { name: "m_ScrollOffset", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+constexpr ::GlobalNamespace::__ParticleSystem__PlaybackState__Noise::__ParticleSystem__PlaybackState__Noise(float_t m_ScrollOffset) noexcept {
+  this->m_ScrollOffset = m_ScrollOffset;
+}
+// Ctor Parameters []
+constexpr ::GlobalNamespace::__ParticleSystem__PlaybackState__Noise::__ParticleSystem__PlaybackState__Noise() {}
+// Ctor Parameters [CppParam { name: "m_Random", ty: "::GlobalNamespace::__ParticleSystem__PlaybackState__Seed", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ParticleEmissionCounter",
+// ty: "float_t", modifiers: "", def_value: Some("{}") }]
+constexpr ::GlobalNamespace::__ParticleSystem__PlaybackState__Lights::__ParticleSystem__PlaybackState__Lights(::GlobalNamespace::__ParticleSystem__PlaybackState__Seed m_Random,
+                                                                                                              float_t m_ParticleEmissionCounter) noexcept {
+  this->m_Random = m_Random;
+  this->m_ParticleEmissionCounter = m_ParticleEmissionCounter;
+}
+// Ctor Parameters []
+constexpr ::GlobalNamespace::__ParticleSystem__PlaybackState__Lights::__ParticleSystem__PlaybackState__Lights() {}
+// Ctor Parameters [CppParam { name: "m_Timer", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+constexpr ::GlobalNamespace::__ParticleSystem__PlaybackState__Trail::__ParticleSystem__PlaybackState__Trail(float_t m_Timer) noexcept {
+  this->m_Timer = m_Timer;
+}
+// Ctor Parameters []
+constexpr ::GlobalNamespace::__ParticleSystem__PlaybackState__Trail::__ParticleSystem__PlaybackState__Trail() {}
+// Ctor Parameters [CppParam { name: "m_AccumulatedDt", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_StartDelay", ty: "float_t", modifiers: "", def_value: Some("{}") },
+// CppParam { name: "m_PlaybackTime", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_RingBufferIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
+// name: "m_Emission", ty: "::GlobalNamespace::__ParticleSystem__PlaybackState__Emission", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Initial", ty:
+// "::GlobalNamespace::__ParticleSystem__PlaybackState__Initial", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Shape", ty: "::GlobalNamespace::__ParticleSystem__PlaybackState__Shape",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Force", ty: "::GlobalNamespace::__ParticleSystem__PlaybackState__Force", modifiers: "", def_value: Some("{}") }, CppParam { name:
+// "m_Collision", ty: "::GlobalNamespace::__ParticleSystem__PlaybackState__Collision", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Noise", ty:
+// "::GlobalNamespace::__ParticleSystem__PlaybackState__Noise", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Lights", ty: "::GlobalNamespace::__ParticleSystem__PlaybackState__Lights",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Trail", ty: "::GlobalNamespace::__ParticleSystem__PlaybackState__Trail", modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::__ParticleSystem__PlaybackState::__ParticleSystem__PlaybackState(
+    float_t m_AccumulatedDt, float_t m_StartDelay, float_t m_PlaybackTime, int32_t m_RingBufferIndex, ::GlobalNamespace::__ParticleSystem__PlaybackState__Emission m_Emission,
+    ::GlobalNamespace::__ParticleSystem__PlaybackState__Initial m_Initial, ::GlobalNamespace::__ParticleSystem__PlaybackState__Shape m_Shape,
+    ::GlobalNamespace::__ParticleSystem__PlaybackState__Force m_Force, ::GlobalNamespace::__ParticleSystem__PlaybackState__Collision m_Collision,
+    ::GlobalNamespace::__ParticleSystem__PlaybackState__Noise m_Noise, ::GlobalNamespace::__ParticleSystem__PlaybackState__Lights m_Lights,
+    ::GlobalNamespace::__ParticleSystem__PlaybackState__Trail m_Trail) noexcept {
+  this->m_AccumulatedDt = m_AccumulatedDt;
+  this->m_StartDelay = m_StartDelay;
+  this->m_PlaybackTime = m_PlaybackTime;
+  this->m_RingBufferIndex = m_RingBufferIndex;
+  this->m_Emission = m_Emission;
+  this->m_Initial = m_Initial;
+  this->m_Shape = m_Shape;
+  this->m_Force = m_Force;
+  this->m_Collision = m_Collision;
+  this->m_Noise = m_Noise;
+  this->m_Lights = m_Lights;
+  this->m_Trail = m_Trail;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::__ParticleSystem__PlaybackState::__ParticleSystem__PlaybackState() {}
+//  Writing Method size for method: ::UnityEngine::__ParticleSystem__Trails.Allocate
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__ParticleSystem__Trails::*)()>(&::UnityEngine::__ParticleSystem__Trails::Allocate)> {
+  constexpr static std::size_t size = 0x118;
+  constexpr static std::size_t addrs = 0x2d1cb10;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__Trails>::get(), "Allocate",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::__ParticleSystem__Trails::Allocate() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__ParticleSystem__Trails>::get(), "Allocate",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+// Ctor Parameters [CppParam { name: "positions", ty: "::System::Collections::Generic::List_1<::UnityEngine::Vector4>*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "frontPositions",
+// ty: "::System::Collections::Generic::List_1<int32_t>*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "backPositions", ty: "::System::Collections::Generic::List_1<int32_t>*",
+// modifiers: "", def_value: Some("nullptr") }, CppParam { name: "positionCounts", ty: "::System::Collections::Generic::List_1<int32_t>*", modifiers: "", def_value: Some("nullptr") }, CppParam { name:
+// "maxTrailCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "maxPositionsPerTrailCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::__ParticleSystem__Trails::__ParticleSystem__Trails(::System::Collections::Generic::List_1<::UnityEngine::Vector4>* positions,
+                                                                            ::System::Collections::Generic::List_1<int32_t>* frontPositions,
+                                                                            ::System::Collections::Generic::List_1<int32_t>* backPositions,
+                                                                            ::System::Collections::Generic::List_1<int32_t>* positionCounts, int32_t maxTrailCount,
+                                                                            int32_t maxPositionsPerTrailCount) noexcept {
+  this->positions = positions;
+  this->frontPositions = frontPositions;
+  this->backPositions = backPositions;
+  this->positionCounts = positionCounts;
+  this->maxTrailCount = maxTrailCount;
+  this->maxPositionsPerTrailCount = maxPositionsPerTrailCount;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::__ParticleSystem__Trails::__ParticleSystem__Trails() {}
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.get_isPlaying
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ParticleSystem::*)()>(&::UnityEngine::ParticleSystem::get_isPlaying)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x2d1bf2c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_isPlaying",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.get_isEmitting
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ParticleSystem::*)()>(&::UnityEngine::ParticleSystem::get_isEmitting)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x2d1bf68;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_isEmitting",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.get_isStopped
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ParticleSystem::*)()>(&::UnityEngine::ParticleSystem::get_isStopped)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x2d1bfa4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_isStopped",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.get_isPaused
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ParticleSystem::*)()>(&::UnityEngine::ParticleSystem::get_isPaused)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x2d1bfe0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_isPaused",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::ParticleSystem.get_particleCount
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ParticleSystem::*)()>(&::UnityEngine::ParticleSystem::get_particleCount)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2d10640;
+  constexpr static std::size_t addrs = 0x2d1c01c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_particleCount",
@@ -1457,10 +3283,37 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::ParticleSystem::*)()>(&::UnityEngine::ParticleSystem::get_time)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2d1067c;
+  constexpr static std::size_t addrs = 0x2d1c058;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_time",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.set_time
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)(float_t)>(&::UnityEngine::ParticleSystem::set_time)> {
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x2d1c094;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "set_time", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.get_randomSeed
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::ParticleSystem::*)()>(&::UnityEngine::ParticleSystem::get_randomSeed)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x2d1c0e0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_randomSeed",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
@@ -1470,7 +3323,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)(uint32_t)>(&::UnityEngine::ParticleSystem::set_randomSeed)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2d106b8;
+  constexpr static std::size_t addrs = 0x2d1c11c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1484,7 +3337,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ParticleSystem::*)()>(&::UnityEngine::ParticleSystem::get_useAutoRandomSeed)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2d106fc;
+  constexpr static std::size_t addrs = 0x2d1c160;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_useAutoRandomSeed",
@@ -1497,12 +3350,86 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)(bool)>(&::UnityEngine::ParticleSystem::set_useAutoRandomSeed)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2d10738;
+  constexpr static std::size_t addrs = 0x2d1c19c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "set_useAutoRandomSeed",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.get_proceduralSimulationSupported
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ParticleSystem::*)()>(&::UnityEngine::ParticleSystem::get_proceduralSimulationSupported)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x2d1c1e0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_proceduralSimulationSupported",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.GetParticleCurrentSize
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::ParticleSystem::*)(ByRef<::UnityEngine::__ParticleSystem__Particle>)>(
+    &::UnityEngine::ParticleSystem::GetParticleCurrentSize)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x2d1c21c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "GetParticleCurrentSize", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__Particle>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.GetParticleCurrentSize3D
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::ParticleSystem::*)(ByRef<::UnityEngine::__ParticleSystem__Particle>)>(
+    &::UnityEngine::ParticleSystem::GetParticleCurrentSize3D)> {
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x2d1c260;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "GetParticleCurrentSize3D", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__Particle>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.GetParticleCurrentColor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color32 (::UnityEngine::ParticleSystem::*)(ByRef<::UnityEngine::__ParticleSystem__Particle>)>(
+    &::UnityEngine::ParticleSystem::GetParticleCurrentColor)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x2d1c318;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "GetParticleCurrentColor", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__Particle>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.GetParticleMeshIndex
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ParticleSystem::*)(ByRef<::UnityEngine::__ParticleSystem__Particle>)>(
+    &::UnityEngine::ParticleSystem::GetParticleMeshIndex)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x2d1c3c8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "GetParticleMeshIndex", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__Particle>>::get() })));
     return ___internal_method;
   }
 };
@@ -1512,7 +3439,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)(
     ByRef<::ArrayW<::UnityEngine::__ParticleSystem__Particle, ::Array<::UnityEngine::__ParticleSystem__Particle>*>>, int32_t, int32_t)>(&::UnityEngine::ParticleSystem::SetParticles)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x2d1077c;
+  constexpr static std::size_t addrs = 0x2d1c40c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1529,7 +3456,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)(
     ByRef<::ArrayW<::UnityEngine::__ParticleSystem__Particle, ::Array<::UnityEngine::__ParticleSystem__Particle>*>>, int32_t)>(&::UnityEngine::ParticleSystem::SetParticles)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2d107d8;
+  constexpr static std::size_t addrs = 0x2d1c468;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1540,13 +3467,92 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.SetParticles
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)(
+    ByRef<::ArrayW<::UnityEngine::__ParticleSystem__Particle, ::Array<::UnityEngine::__ParticleSystem__Particle>*>>)>(&::UnityEngine::ParticleSystem::SetParticles)> {
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x2d1c4c0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "SetParticles", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<::UnityEngine::__ParticleSystem__Particle, ::Array<::UnityEngine::__ParticleSystem__Particle>*>>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.SetParticlesWithNativeArray
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)(void*, int32_t, int32_t, int32_t)>(
+    &::UnityEngine::ParticleSystem::SetParticlesWithNativeArray)> {
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x2d1c50c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "SetParticlesWithNativeArray", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.SetParticles
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)(
+    ByRef<::Unity::Collections::NativeArray_1<::UnityEngine::__ParticleSystem__Particle>>, int32_t, int32_t)>(&::UnityEngine::ParticleSystem::SetParticles)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x2d1c578;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "SetParticles", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::Unity::Collections::NativeArray_1<::UnityEngine::__ParticleSystem__Particle>>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.SetParticles
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)(
+    ByRef<::Unity::Collections::NativeArray_1<::UnityEngine::__ParticleSystem__Particle>>, int32_t)>(&::UnityEngine::ParticleSystem::SetParticles)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x2d1c628;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "SetParticles", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::Unity::Collections::NativeArray_1<::UnityEngine::__ParticleSystem__Particle>>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.SetParticles
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::UnityEngine::ParticleSystem::*)(ByRef<::Unity::Collections::NativeArray_1<::UnityEngine::__ParticleSystem__Particle>>)>(&::UnityEngine::ParticleSystem::SetParticles)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x2d1c630;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "SetParticles", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::Unity::Collections::NativeArray_1<::UnityEngine::__ParticleSystem__Particle>>>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::ParticleSystem.GetParticles
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ParticleSystem::*)(
     ByRef<::ArrayW<::UnityEngine::__ParticleSystem__Particle, ::Array<::UnityEngine::__ParticleSystem__Particle>*>>, int32_t, int32_t)>(&::UnityEngine::ParticleSystem::GetParticles)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x2d10830;
+  constexpr static std::size_t addrs = 0x2d1c63c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1563,7 +3569,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ParticleSystem::*)(
     ByRef<::ArrayW<::UnityEngine::__ParticleSystem__Particle, ::Array<::UnityEngine::__ParticleSystem__Particle>*>>, int32_t)>(&::UnityEngine::ParticleSystem::GetParticles)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2d1088c;
+  constexpr static std::size_t addrs = 0x2d1c698;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1574,12 +3580,211 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.GetParticles
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ParticleSystem::*)(
+    ByRef<::ArrayW<::UnityEngine::__ParticleSystem__Particle, ::Array<::UnityEngine::__ParticleSystem__Particle>*>>)>(&::UnityEngine::ParticleSystem::GetParticles)> {
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x2d1c6f0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "GetParticles", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<::UnityEngine::__ParticleSystem__Particle, ::Array<::UnityEngine::__ParticleSystem__Particle>*>>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.GetParticlesWithNativeArray
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ParticleSystem::*)(void*, int32_t, int32_t, int32_t)>(
+    &::UnityEngine::ParticleSystem::GetParticlesWithNativeArray)> {
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x2d1c73c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "GetParticlesWithNativeArray", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.GetParticles
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ParticleSystem::*)(
+    ByRef<::Unity::Collections::NativeArray_1<::UnityEngine::__ParticleSystem__Particle>>, int32_t, int32_t)>(&::UnityEngine::ParticleSystem::GetParticles)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x2d1c7a8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "GetParticles", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::Unity::Collections::NativeArray_1<::UnityEngine::__ParticleSystem__Particle>>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.GetParticles
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ParticleSystem::*)(
+    ByRef<::Unity::Collections::NativeArray_1<::UnityEngine::__ParticleSystem__Particle>>, int32_t)>(&::UnityEngine::ParticleSystem::GetParticles)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x2d1c858;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "GetParticles", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::Unity::Collections::NativeArray_1<::UnityEngine::__ParticleSystem__Particle>>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.GetParticles
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<int32_t (::UnityEngine::ParticleSystem::*)(ByRef<::Unity::Collections::NativeArray_1<::UnityEngine::__ParticleSystem__Particle>>)>(&::UnityEngine::ParticleSystem::GetParticles)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x2d1c860;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "GetParticles", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::Unity::Collections::NativeArray_1<::UnityEngine::__ParticleSystem__Particle>>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.SetCustomParticleData
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)(
+    ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*, ::UnityEngine::ParticleSystemCustomData)>(&::UnityEngine::ParticleSystem::SetCustomParticleData)> {
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x2d1c86c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "SetCustomParticleData", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ParticleSystemCustomData>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.GetCustomParticleData
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ParticleSystem::*)(
+    ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*, ::UnityEngine::ParticleSystemCustomData)>(&::UnityEngine::ParticleSystem::GetCustomParticleData)> {
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x2d1c8c0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "GetCustomParticleData", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ParticleSystemCustomData>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.GetPlaybackState
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::__ParticleSystem__PlaybackState (::UnityEngine::ParticleSystem::*)()>(
+    &::UnityEngine::ParticleSystem::GetPlaybackState)> {
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x2d1c914;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "GetPlaybackState",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.SetPlaybackState
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)(::UnityEngine::__ParticleSystem__PlaybackState)>(
+    &::UnityEngine::ParticleSystem::SetPlaybackState)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x2d1c9d0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "SetPlaybackState", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::__ParticleSystem__PlaybackState>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.GetTrailDataInternal
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)(ByRef<::UnityEngine::__ParticleSystem__Trails>)>(
+    &::UnityEngine::ParticleSystem::GetTrailDataInternal)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x2d1ca58;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "GetTrailDataInternal", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__Trails>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.GetTrails
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::__ParticleSystem__Trails (::UnityEngine::ParticleSystem::*)()>(
+    &::UnityEngine::ParticleSystem::GetTrails)> {
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x2d1ca9c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "GetTrails",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.GetTrails
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ParticleSystem::*)(ByRef<::UnityEngine::__ParticleSystem__Trails>)>(
+    &::UnityEngine::ParticleSystem::GetTrails)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x2d1cc28;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "GetTrails", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__Trails>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.SetTrails
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)(::UnityEngine::__ParticleSystem__Trails)>(
+    &::UnityEngine::ParticleSystem::SetTrails)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x2d1cca8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "SetTrails", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::__ParticleSystem__Trails>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::ParticleSystem.Simulate
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)(float_t, bool, bool, bool)>(&::UnityEngine::ParticleSystem::Simulate)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x2d108e4;
+  constexpr static std::size_t addrs = 0x2d1cd30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1594,7 +3799,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)(float_t, bool, bool)>(&::UnityEngine::ParticleSystem::Simulate)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2d10950;
+  constexpr static std::size_t addrs = 0x2d1cd9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1604,12 +3809,40 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.Simulate
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)(float_t, bool)>(&::UnityEngine::ParticleSystem::Simulate)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x2d1ce04;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "Simulate", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.Simulate
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)(float_t)>(&::UnityEngine::ParticleSystem::Simulate)> {
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x2d1ce60;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "Simulate", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::ParticleSystem.Play
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)(bool)>(&::UnityEngine::ParticleSystem::Play)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2d109b8;
+  constexpr static std::size_t addrs = 0x2d1ceb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1623,7 +3856,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)()>(&::UnityEngine::ParticleSystem::Play)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2d109fc;
+  constexpr static std::size_t addrs = 0x2d1cefc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "Play",
@@ -1636,7 +3869,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)(bool)>(&::UnityEngine::ParticleSystem::Pause)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2d10a3c;
+  constexpr static std::size_t addrs = 0x2d1cf3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1650,7 +3883,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)()>(&::UnityEngine::ParticleSystem::Pause)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2d10a80;
+  constexpr static std::size_t addrs = 0x2d1cf80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "Pause",
@@ -1664,7 +3897,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)(bool, ::UnityEngine::ParticleSystemStopBehavior)>(
     &::UnityEngine::ParticleSystem::Stop)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2d10ac0;
+  constexpr static std::size_t addrs = 0x2d1cfc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1679,7 +3912,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)(bool)>(&::UnityEngine::ParticleSystem::Stop)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2d10b14;
+  constexpr static std::size_t addrs = 0x2d1d014;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1693,7 +3926,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)()>(&::UnityEngine::ParticleSystem::Stop)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2d10b5c;
+  constexpr static std::size_t addrs = 0x2d1d05c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "Stop",
@@ -1706,7 +3939,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)(bool)>(&::UnityEngine::ParticleSystem::Clear)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2d10ba0;
+  constexpr static std::size_t addrs = 0x2d1d0a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1720,10 +3953,37 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)()>(&::UnityEngine::ParticleSystem::Clear)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2d10be4;
+  constexpr static std::size_t addrs = 0x2d1d0e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "Clear",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.IsAlive
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ParticleSystem::*)(bool)>(&::UnityEngine::ParticleSystem::IsAlive)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x2d1d124;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "IsAlive", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.IsAlive
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ParticleSystem::*)()>(&::UnityEngine::ParticleSystem::IsAlive)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x2d1d168;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "IsAlive",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
@@ -1733,7 +3993,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)(int32_t)>(&::UnityEngine::ParticleSystem::Emit)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2d10c24;
+  constexpr static std::size_t addrs = 0x2d1d1a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1747,7 +4007,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)(int32_t)>(&::UnityEngine::ParticleSystem::Emit_Internal)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2d10c68;
+  constexpr static std::size_t addrs = 0x2d1d1ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1762,7 +4022,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)(::UnityEngine::__ParticleSystem__EmitParams, int32_t)>(
     &::UnityEngine::ParticleSystem::Emit)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2d10cac;
+  constexpr static std::size_t addrs = 0x2d1d230;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1778,12 +4038,217 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)(ByRef<::UnityEngine::__ParticleSystem__Particle>)>(
     &::UnityEngine::ParticleSystem::EmitOld_Internal)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2d10d54;
+  constexpr static std::size_t addrs = 0x2d1d2d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "EmitOld_Internal", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__Particle>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.TriggerSubEmitter
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)(int32_t)>(&::UnityEngine::ParticleSystem::TriggerSubEmitter)> {
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x2d1d31c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "TriggerSubEmitter", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.TriggerSubEmitter
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)(int32_t, ByRef<::UnityEngine::__ParticleSystem__Particle>)>(
+    &::UnityEngine::ParticleSystem::TriggerSubEmitter)> {
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x2d1d3b8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "TriggerSubEmitter", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__Particle>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.TriggerSubEmitterForParticle
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)(int32_t, ::UnityEngine::__ParticleSystem__Particle)>(
+    &::UnityEngine::ParticleSystem::TriggerSubEmitterForParticle)> {
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x2d1d420;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "TriggerSubEmitterForParticle", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::__ParticleSystem__Particle>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.TriggerSubEmitter
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)(
+    int32_t, ::System::Collections::Generic::List_1<::UnityEngine::__ParticleSystem__Particle>*)>(&::UnityEngine::ParticleSystem::TriggerSubEmitter)> {
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x2d1d364;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "TriggerSubEmitter", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::__ParticleSystem__Particle>*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.ResetPreMappedBufferMemory
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::ParticleSystem::ResetPreMappedBufferMemory)> {
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x2d1d4c8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(),
+                                                                               "ResetPreMappedBufferMemory", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.SetMaximumPreMappedBufferCounts
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, int32_t)>(&::UnityEngine::ParticleSystem::SetMaximumPreMappedBufferCounts)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x2d1d4f0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "SetMaximumPreMappedBufferCounts", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.AllocateAxisOfRotationAttribute
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)()>(&::UnityEngine::ParticleSystem::AllocateAxisOfRotationAttribute)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x2d1d534;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "AllocateAxisOfRotationAttribute",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.AllocateMeshIndexAttribute
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)()>(&::UnityEngine::ParticleSystem::AllocateMeshIndexAttribute)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x2d1d570;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(),
+                                                                               "AllocateMeshIndexAttribute", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.AllocateCustomDataAttribute
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)(::UnityEngine::ParticleSystemCustomData)>(
+    &::UnityEngine::ParticleSystem::AllocateCustomDataAttribute)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x2d1d5ac;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "AllocateCustomDataAttribute", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ParticleSystemCustomData>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.GetManagedJobData
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::cordl_internals::Ptr<void> (::UnityEngine::ParticleSystem::*)()>(
+    &::UnityEngine::ParticleSystem::GetManagedJobData)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x2d1d5f0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "GetManagedJobData",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.GetManagedJobHandle
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Jobs::JobHandle (::UnityEngine::ParticleSystem::*)()>(&::UnityEngine::ParticleSystem::GetManagedJobHandle)> {
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x2d1d62c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "GetManagedJobHandle",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.SetManagedJobHandle
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)(::Unity::Jobs::JobHandle)>(
+    &::UnityEngine::ParticleSystem::SetManagedJobHandle)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x2d1d6c4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "SetManagedJobHandle", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Jobs::JobHandle>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.ScheduleManagedJob
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Jobs::JobHandle (*)(ByRef<::Unity::Jobs::LowLevel::Unsafe::__JobsUtility__JobScheduleParameters>,
+                                                                                                               ::cordl_internals::Ptr<void>)>(&::UnityEngine::ParticleSystem::ScheduleManagedJob)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x2d1d758;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "ScheduleManagedJob", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::Unity::Jobs::LowLevel::Unsafe::__JobsUtility__JobScheduleParameters>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<void>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.CopyManagedJobData
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<void>, ByRef<::UnityEngine::ParticleSystemJobs::NativeParticleData>)>(
+    &::UnityEngine::ParticleSystem::CopyManagedJobData)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x2d1d808;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "CopyManagedJobData", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<void>>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::ParticleSystemJobs::NativeParticleData>>::get() })));
     return ___internal_method;
   }
 };
@@ -1793,7 +4258,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::__ParticleSystem__MainModule (::UnityEngine::ParticleSystem::*)()>(
     &::UnityEngine::ParticleSystem::get_main)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2d10d98;
+  constexpr static std::size_t addrs = 0x2d1d84c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_main",
@@ -1807,7 +4272,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::__ParticleSystem__EmissionModule (::UnityEngine::ParticleSystem::*)()>(
     &::UnityEngine::ParticleSystem::get_emission)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2d10da4;
+  constexpr static std::size_t addrs = 0x2d1d858;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_emission",
@@ -1821,10 +4286,220 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::__ParticleSystem__ShapeModule (::UnityEngine::ParticleSystem::*)()>(
     &::UnityEngine::ParticleSystem::get_shape)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2d10db0;
+  constexpr static std::size_t addrs = 0x2d1d864;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_shape",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.get_velocityOverLifetime
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::__ParticleSystem__VelocityOverLifetimeModule (::UnityEngine::ParticleSystem::*)()>(
+    &::UnityEngine::ParticleSystem::get_velocityOverLifetime)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x2d1d870;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(),
+                                                                               "get_velocityOverLifetime", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.get_limitVelocityOverLifetime
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::__ParticleSystem__LimitVelocityOverLifetimeModule (::UnityEngine::ParticleSystem::*)()>(
+    &::UnityEngine::ParticleSystem::get_limitVelocityOverLifetime)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x2d1d87c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(),
+                                                                               "get_limitVelocityOverLifetime", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.get_inheritVelocity
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::__ParticleSystem__InheritVelocityModule (::UnityEngine::ParticleSystem::*)()>(
+    &::UnityEngine::ParticleSystem::get_inheritVelocity)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x2d1d888;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_inheritVelocity",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.get_lifetimeByEmitterSpeed
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::__ParticleSystem__LifetimeByEmitterSpeedModule (::UnityEngine::ParticleSystem::*)()>(
+    &::UnityEngine::ParticleSystem::get_lifetimeByEmitterSpeed)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x2d1d894;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(),
+                                                                               "get_lifetimeByEmitterSpeed", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.get_forceOverLifetime
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::__ParticleSystem__ForceOverLifetimeModule (::UnityEngine::ParticleSystem::*)()>(
+    &::UnityEngine::ParticleSystem::get_forceOverLifetime)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x2d1d8a0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_forceOverLifetime",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.get_colorOverLifetime
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::__ParticleSystem__ColorOverLifetimeModule (::UnityEngine::ParticleSystem::*)()>(
+    &::UnityEngine::ParticleSystem::get_colorOverLifetime)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x2d1d8ac;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_colorOverLifetime",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.get_colorBySpeed
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::__ParticleSystem__ColorBySpeedModule (::UnityEngine::ParticleSystem::*)()>(
+    &::UnityEngine::ParticleSystem::get_colorBySpeed)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x2d1d8b8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_colorBySpeed",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.get_sizeOverLifetime
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::__ParticleSystem__SizeOverLifetimeModule (::UnityEngine::ParticleSystem::*)()>(
+    &::UnityEngine::ParticleSystem::get_sizeOverLifetime)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x2d1d8c4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_sizeOverLifetime",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.get_sizeBySpeed
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::__ParticleSystem__SizeBySpeedModule (::UnityEngine::ParticleSystem::*)()>(
+    &::UnityEngine::ParticleSystem::get_sizeBySpeed)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x2d1d8d0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_sizeBySpeed",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.get_rotationOverLifetime
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::__ParticleSystem__RotationOverLifetimeModule (::UnityEngine::ParticleSystem::*)()>(
+    &::UnityEngine::ParticleSystem::get_rotationOverLifetime)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x2d1d8dc;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(),
+                                                                               "get_rotationOverLifetime", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.get_rotationBySpeed
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::__ParticleSystem__RotationBySpeedModule (::UnityEngine::ParticleSystem::*)()>(
+    &::UnityEngine::ParticleSystem::get_rotationBySpeed)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x2d1d8e8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_rotationBySpeed",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.get_externalForces
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::__ParticleSystem__ExternalForcesModule (::UnityEngine::ParticleSystem::*)()>(
+    &::UnityEngine::ParticleSystem::get_externalForces)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x2d1d8f4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_externalForces",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.get_noise
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::__ParticleSystem__NoiseModule (::UnityEngine::ParticleSystem::*)()>(
+    &::UnityEngine::ParticleSystem::get_noise)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x2d1d900;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_noise",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.get_collision
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::__ParticleSystem__CollisionModule (::UnityEngine::ParticleSystem::*)()>(
+    &::UnityEngine::ParticleSystem::get_collision)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x2d1d90c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_collision",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.get_trigger
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::__ParticleSystem__TriggerModule (::UnityEngine::ParticleSystem::*)()>(
+    &::UnityEngine::ParticleSystem::get_trigger)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x2d1d918;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_trigger",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
@@ -1835,10 +4510,66 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::__ParticleSystem__SubEmittersModule (::UnityEngine::ParticleSystem::*)()>(
     &::UnityEngine::ParticleSystem::get_subEmitters)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2d10dbc;
+  constexpr static std::size_t addrs = 0x2d1d924;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_subEmitters",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.get_textureSheetAnimation
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::__ParticleSystem__TextureSheetAnimationModule (::UnityEngine::ParticleSystem::*)()>(
+    &::UnityEngine::ParticleSystem::get_textureSheetAnimation)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x2d1d930;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(),
+                                                                               "get_textureSheetAnimation", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.get_lights
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::__ParticleSystem__LightsModule (::UnityEngine::ParticleSystem::*)()>(
+    &::UnityEngine::ParticleSystem::get_lights)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x2d1d93c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_lights",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.get_trails
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::__ParticleSystem__TrailModule (::UnityEngine::ParticleSystem::*)()>(
+    &::UnityEngine::ParticleSystem::get_trails)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x2d1d948;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_trails",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.get_customData
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::__ParticleSystem__CustomDataModule (::UnityEngine::ParticleSystem::*)()>(
+    &::UnityEngine::ParticleSystem::get_customData)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x2d1d954;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_customData",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
@@ -1849,7 +4580,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::UnityEngine::ParticleSystem::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t, float_t, ::UnityEngine::Color32)>(&::UnityEngine::ParticleSystem::Emit)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x2d10dc8;
+  constexpr static std::size_t addrs = 0x2d1d960;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1867,7 +4598,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)(::UnityEngine::__ParticleSystem__Particle)>(
     &::UnityEngine::ParticleSystem::Emit)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2d10f68;
+  constexpr static std::size_t addrs = 0x2d1db00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1876,16 +4607,556 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.get_startDelay
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::ParticleSystem::*)()>(&::UnityEngine::ParticleSystem::get_startDelay)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x2d1db44;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_startDelay",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.set_startDelay
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)(float_t)>(&::UnityEngine::ParticleSystem::set_startDelay)> {
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x2d1dbc0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "set_startDelay", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.get_loop
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ParticleSystem::*)()>(&::UnityEngine::ParticleSystem::get_loop)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x2d1dc54;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_loop",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.set_loop
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)(bool)>(&::UnityEngine::ParticleSystem::set_loop)> {
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x2d1dcd4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "set_loop", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.get_playOnAwake
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ParticleSystem::*)()>(&::UnityEngine::ParticleSystem::get_playOnAwake)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x2d1dd60;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_playOnAwake",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.set_playOnAwake
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)(bool)>(&::UnityEngine::ParticleSystem::set_playOnAwake)> {
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x2d1dde0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "set_playOnAwake",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.get_duration
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::ParticleSystem::*)()>(&::UnityEngine::ParticleSystem::get_duration)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x2d1de6c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_duration",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.get_playbackSpeed
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::ParticleSystem::*)()>(&::UnityEngine::ParticleSystem::get_playbackSpeed)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x2d1dee8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_playbackSpeed",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.set_playbackSpeed
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)(float_t)>(&::UnityEngine::ParticleSystem::set_playbackSpeed)> {
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x2d1df64;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "set_playbackSpeed", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.get_enableEmission
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ParticleSystem::*)()>(&::UnityEngine::ParticleSystem::get_enableEmission)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x2d1dff8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_enableEmission",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.set_enableEmission
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)(bool)>(&::UnityEngine::ParticleSystem::set_enableEmission)> {
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x2d1e078;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "set_enableEmission",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.get_emissionRate
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::ParticleSystem::*)()>(&::UnityEngine::ParticleSystem::get_emissionRate)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x2d1e104;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_emissionRate",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.set_emissionRate
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)(float_t)>(&::UnityEngine::ParticleSystem::set_emissionRate)> {
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x2d1e180;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "set_emissionRate", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.get_startSpeed
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::ParticleSystem::*)()>(&::UnityEngine::ParticleSystem::get_startSpeed)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x2d1e22c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_startSpeed",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.set_startSpeed
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)(float_t)>(&::UnityEngine::ParticleSystem::set_startSpeed)> {
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x2d1e2a8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "set_startSpeed", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.get_startSize
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::ParticleSystem::*)()>(&::UnityEngine::ParticleSystem::get_startSize)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x2d1e33c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_startSize",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.set_startSize
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)(float_t)>(&::UnityEngine::ParticleSystem::set_startSize)> {
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x2d1e3b8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "set_startSize", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.get_startColor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::UnityEngine::ParticleSystem::*)()>(&::UnityEngine::ParticleSystem::get_startColor)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x2d1e44c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_startColor",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.set_startColor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)(::UnityEngine::Color)>(&::UnityEngine::ParticleSystem::set_startColor)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x2d1e52c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "set_startColor", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.get_startRotation
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::ParticleSystem::*)()>(&::UnityEngine::ParticleSystem::get_startRotation)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x2d1e5e8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_startRotation",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.set_startRotation
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)(float_t)>(&::UnityEngine::ParticleSystem::set_startRotation)> {
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x2d1e664;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "set_startRotation", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.get_startRotation3D
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::ParticleSystem::*)()>(&::UnityEngine::ParticleSystem::get_startRotation3D)> {
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x2d1e6f8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_startRotation3D",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.set_startRotation3D
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)(::UnityEngine::Vector3)>(
+    &::UnityEngine::ParticleSystem::set_startRotation3D)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x2d1e860;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "set_startRotation3D", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.get_startLifetime
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::ParticleSystem::*)()>(&::UnityEngine::ParticleSystem::get_startLifetime)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x2d1e9f4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_startLifetime",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.set_startLifetime
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)(float_t)>(&::UnityEngine::ParticleSystem::set_startLifetime)> {
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x2d1ea70;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "set_startLifetime", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.get_gravityModifier
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::ParticleSystem::*)()>(&::UnityEngine::ParticleSystem::get_gravityModifier)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x2d1eb04;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_gravityModifier",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.set_gravityModifier
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)(float_t)>(&::UnityEngine::ParticleSystem::set_gravityModifier)> {
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x2d1eb80;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "set_gravityModifier", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.get_maxParticles
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ParticleSystem::*)()>(&::UnityEngine::ParticleSystem::get_maxParticles)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x2d1ec14;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_maxParticles",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.set_maxParticles
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)(int32_t)>(&::UnityEngine::ParticleSystem::set_maxParticles)> {
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x2d1ec90;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "set_maxParticles", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.get_simulationSpace
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ParticleSystemSimulationSpace (::UnityEngine::ParticleSystem::*)()>(
+    &::UnityEngine::ParticleSystem::get_simulationSpace)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x2d1ed1c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_simulationSpace",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.set_simulationSpace
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)(::UnityEngine::ParticleSystemSimulationSpace)>(
+    &::UnityEngine::ParticleSystem::set_simulationSpace)> {
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x2d1ed98;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "set_simulationSpace", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ParticleSystemSimulationSpace>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.get_scalingMode
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ParticleSystemScalingMode (::UnityEngine::ParticleSystem::*)()>(
+    &::UnityEngine::ParticleSystem::get_scalingMode)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x2d1ee24;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_scalingMode",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.set_scalingMode
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)(::UnityEngine::ParticleSystemScalingMode)>(
+    &::UnityEngine::ParticleSystem::set_scalingMode)> {
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x2d1eea0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "set_scalingMode", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ParticleSystemScalingMode>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.get_automaticCullingEnabled
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ParticleSystem::*)()>(&::UnityEngine::ParticleSystem::get_automaticCullingEnabled)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x2d1ef2c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(),
+                                                                               "get_automaticCullingEnabled", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::ParticleSystem._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)()>(&::UnityEngine::ParticleSystem::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2d10fac;
+  constexpr static std::size_t addrs = 0x2d1ef68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), ".ctor",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.GetParticleCurrentSize3D_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)(
+    ByRef<::UnityEngine::__ParticleSystem__Particle>, ByRef<::UnityEngine::Vector3>)>(&::UnityEngine::ParticleSystem::GetParticleCurrentSize3D_Injected)> {
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x2d1c2c4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "GetParticleCurrentSize3D_Injected", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__Particle>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::Vector3>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.GetParticleCurrentColor_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)(
+    ByRef<::UnityEngine::__ParticleSystem__Particle>, ByRef<::UnityEngine::Color32>)>(&::UnityEngine::ParticleSystem::GetParticleCurrentColor_Injected)> {
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x2d1c374;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "GetParticleCurrentColor_Injected", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__Particle>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::Color32>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.GetPlaybackState_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)(ByRef<::UnityEngine::__ParticleSystem__PlaybackState>)>(
+    &::UnityEngine::ParticleSystem::GetPlaybackState_Injected)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x2d1c98c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((
+        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "GetPlaybackState_Injected", std::span<Il2CppClass const* const, 0>(),
+                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__PlaybackState>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.SetPlaybackState_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)(ByRef<::UnityEngine::__ParticleSystem__PlaybackState>)>(
+    &::UnityEngine::ParticleSystem::SetPlaybackState_Injected)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x2d1ca14;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((
+        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "SetPlaybackState_Injected", std::span<Il2CppClass const* const, 0>(),
+                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__PlaybackState>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.SetTrails_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)(ByRef<::UnityEngine::__ParticleSystem__Trails>)>(
+    &::UnityEngine::ParticleSystem::SetTrails_Injected)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x2d1ccec;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "SetTrails_Injected", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__Trails>>::get() })));
     return ___internal_method;
   }
 };
@@ -1895,7 +5166,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)(ByRef<::UnityEngine::__ParticleSystem__EmitParams>, int32_t)>(
     &::UnityEngine::ParticleSystem::Emit_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2d10d00;
+  constexpr static std::size_t addrs = 0x2d1d284;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1905,6 +5176,89 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.TriggerSubEmitterForParticle_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)(int32_t, ByRef<::UnityEngine::__ParticleSystem__Particle>)>(
+    &::UnityEngine::ParticleSystem::TriggerSubEmitterForParticle_Injected)> {
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x2d1d474;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "TriggerSubEmitterForParticle_Injected", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__Particle>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.GetManagedJobHandle_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)(ByRef<::Unity::Jobs::JobHandle>)>(
+    &::UnityEngine::ParticleSystem::GetManagedJobHandle_Injected)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x2d1d680;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "GetManagedJobHandle_Injected", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::Unity::Jobs::JobHandle>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.SetManagedJobHandle_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ParticleSystem::*)(ByRef<::Unity::Jobs::JobHandle>)>(
+    &::UnityEngine::ParticleSystem::SetManagedJobHandle_Injected)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x2d1d714;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "SetManagedJobHandle_Injected", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::Unity::Jobs::JobHandle>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ParticleSystem.ScheduleManagedJob_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::Unity::Jobs::LowLevel::Unsafe::__JobsUtility__JobScheduleParameters>, ::cordl_internals::Ptr<void>,
+                                                                                           ByRef<::Unity::Jobs::JobHandle>)>(&::UnityEngine::ParticleSystem::ScheduleManagedJob_Injected)> {
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x2d1d7b4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "ScheduleManagedJob_Injected", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::Unity::Jobs::LowLevel::Unsafe::__JobsUtility__JobScheduleParameters>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<void>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::Unity::Jobs::JobHandle>>::get() })));
+    return ___internal_method;
+  }
+};
+inline bool UnityEngine::ParticleSystem::get_isPlaying() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_isPlaying",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline bool UnityEngine::ParticleSystem::get_isEmitting() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_isEmitting",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline bool UnityEngine::ParticleSystem::get_isStopped() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_isStopped",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline bool UnityEngine::ParticleSystem::get_isPaused() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_isPaused",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
 inline int32_t UnityEngine::ParticleSystem::get_particleCount() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_particleCount",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -1914,6 +5268,17 @@ inline float_t UnityEngine::ParticleSystem::get_time() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_time",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+}
+inline void UnityEngine::ParticleSystem::set_time(float_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "set_time", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline uint32_t UnityEngine::ParticleSystem::get_randomSeed() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_randomSeed",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method);
 }
 inline void UnityEngine::ParticleSystem::set_randomSeed(uint32_t value) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -1932,6 +5297,36 @@ inline void UnityEngine::ParticleSystem::set_useAutoRandomSeed(bool value) {
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
+inline bool UnityEngine::ParticleSystem::get_proceduralSimulationSupported() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_proceduralSimulationSupported",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline float_t UnityEngine::ParticleSystem::GetParticleCurrentSize(ByRef<::UnityEngine::__ParticleSystem__Particle> particle) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "GetParticleCurrentSize", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__Particle>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method, particle);
+}
+inline ::UnityEngine::Vector3 UnityEngine::ParticleSystem::GetParticleCurrentSize3D(ByRef<::UnityEngine::__ParticleSystem__Particle> particle) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "GetParticleCurrentSize3D", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__Particle>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3, false>(this, ___internal_method, particle);
+}
+inline ::UnityEngine::Color32 UnityEngine::ParticleSystem::GetParticleCurrentColor(ByRef<::UnityEngine::__ParticleSystem__Particle> particle) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "GetParticleCurrentColor", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__Particle>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color32, false>(this, ___internal_method, particle);
+}
+inline int32_t UnityEngine::ParticleSystem::GetParticleMeshIndex(ByRef<::UnityEngine::__ParticleSystem__Particle> particle) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "GetParticleMeshIndex", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__Particle>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, particle);
+}
 inline void UnityEngine::ParticleSystem::SetParticles(ByRef<::ArrayW<::UnityEngine::__ParticleSystem__Particle, ::Array<::UnityEngine::__ParticleSystem__Particle>*>> particles, int32_t size,
                                                       int32_t offset) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1948,6 +5343,40 @@ inline void UnityEngine::ParticleSystem::SetParticles(ByRef<::ArrayW<::UnityEngi
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<::UnityEngine::__ParticleSystem__Particle, ::Array<::UnityEngine::__ParticleSystem__Particle>*>>>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, particles, size);
+}
+inline void UnityEngine::ParticleSystem::SetParticles(ByRef<::ArrayW<::UnityEngine::__ParticleSystem__Particle, ::Array<::UnityEngine::__ParticleSystem__Particle>*>> particles) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "SetParticles", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<::UnityEngine::__ParticleSystem__Particle, ::Array<::UnityEngine::__ParticleSystem__Particle>*>>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, particles);
+}
+inline void UnityEngine::ParticleSystem::SetParticlesWithNativeArray(void* particles, int32_t particlesLength, int32_t size, int32_t offset) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "SetParticlesWithNativeArray", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, particles, particlesLength, size, offset);
+}
+inline void UnityEngine::ParticleSystem::SetParticles(ByRef<::Unity::Collections::NativeArray_1<::UnityEngine::__ParticleSystem__Particle>> particles, int32_t size, int32_t offset) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "SetParticles", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::Unity::Collections::NativeArray_1<::UnityEngine::__ParticleSystem__Particle>>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, particles, size, offset);
+}
+inline void UnityEngine::ParticleSystem::SetParticles(ByRef<::Unity::Collections::NativeArray_1<::UnityEngine::__ParticleSystem__Particle>> particles, int32_t size) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "SetParticles", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::Unity::Collections::NativeArray_1<::UnityEngine::__ParticleSystem__Particle>>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, particles, size);
+}
+inline void UnityEngine::ParticleSystem::SetParticles(ByRef<::Unity::Collections::NativeArray_1<::UnityEngine::__ParticleSystem__Particle>> particles) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "SetParticles", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::Unity::Collections::NativeArray_1<::UnityEngine::__ParticleSystem__Particle>>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, particles);
 }
 inline int32_t UnityEngine::ParticleSystem::GetParticles(ByRef<::ArrayW<::UnityEngine::__ParticleSystem__Particle, ::Array<::UnityEngine::__ParticleSystem__Particle>*>> particles, int32_t size,
                                                          int32_t offset) {
@@ -1966,6 +5395,88 @@ inline int32_t UnityEngine::ParticleSystem::GetParticles(ByRef<::ArrayW<::UnityE
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, particles, size);
 }
+inline int32_t UnityEngine::ParticleSystem::GetParticles(ByRef<::ArrayW<::UnityEngine::__ParticleSystem__Particle, ::Array<::UnityEngine::__ParticleSystem__Particle>*>> particles) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "GetParticles", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<::UnityEngine::__ParticleSystem__Particle, ::Array<::UnityEngine::__ParticleSystem__Particle>*>>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, particles);
+}
+inline int32_t UnityEngine::ParticleSystem::GetParticlesWithNativeArray(void* particles, int32_t particlesLength, int32_t size, int32_t offset) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "GetParticlesWithNativeArray", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, particles, particlesLength, size, offset);
+}
+inline int32_t UnityEngine::ParticleSystem::GetParticles(ByRef<::Unity::Collections::NativeArray_1<::UnityEngine::__ParticleSystem__Particle>> particles, int32_t size, int32_t offset) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "GetParticles", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::Unity::Collections::NativeArray_1<::UnityEngine::__ParticleSystem__Particle>>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, particles, size, offset);
+}
+inline int32_t UnityEngine::ParticleSystem::GetParticles(ByRef<::Unity::Collections::NativeArray_1<::UnityEngine::__ParticleSystem__Particle>> particles, int32_t size) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "GetParticles", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::Unity::Collections::NativeArray_1<::UnityEngine::__ParticleSystem__Particle>>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, particles, size);
+}
+inline int32_t UnityEngine::ParticleSystem::GetParticles(ByRef<::Unity::Collections::NativeArray_1<::UnityEngine::__ParticleSystem__Particle>> particles) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "GetParticles", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::Unity::Collections::NativeArray_1<::UnityEngine::__ParticleSystem__Particle>>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, particles);
+}
+inline void UnityEngine::ParticleSystem::SetCustomParticleData(::System::Collections::Generic::List_1<::UnityEngine::Vector4>* customData, ::UnityEngine::ParticleSystemCustomData streamIndex) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "SetCustomParticleData", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ParticleSystemCustomData>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, customData, streamIndex);
+}
+inline int32_t UnityEngine::ParticleSystem::GetCustomParticleData(::System::Collections::Generic::List_1<::UnityEngine::Vector4>* customData, ::UnityEngine::ParticleSystemCustomData streamIndex) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "GetCustomParticleData", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ParticleSystemCustomData>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, customData, streamIndex);
+}
+inline ::UnityEngine::__ParticleSystem__PlaybackState UnityEngine::ParticleSystem::GetPlaybackState() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "GetPlaybackState",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::__ParticleSystem__PlaybackState, false>(this, ___internal_method);
+}
+inline void UnityEngine::ParticleSystem::SetPlaybackState(::UnityEngine::__ParticleSystem__PlaybackState playbackState) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "SetPlaybackState", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::__ParticleSystem__PlaybackState>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, playbackState);
+}
+inline void UnityEngine::ParticleSystem::GetTrailDataInternal(ByRef<::UnityEngine::__ParticleSystem__Trails> trailData) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "GetTrailDataInternal", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__Trails>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, trailData);
+}
+inline ::UnityEngine::__ParticleSystem__Trails UnityEngine::ParticleSystem::GetTrails() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "GetTrails",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::__ParticleSystem__Trails, false>(this, ___internal_method);
+}
+inline int32_t UnityEngine::ParticleSystem::GetTrails(ByRef<::UnityEngine::__ParticleSystem__Trails> trailData) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "GetTrails", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__Trails>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, trailData);
+}
+inline void UnityEngine::ParticleSystem::SetTrails(::UnityEngine::__ParticleSystem__Trails trailData) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "SetTrails", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::__ParticleSystem__Trails>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, trailData);
+}
 inline void UnityEngine::ParticleSystem::Simulate(float_t t, bool withChildren, bool restart, bool fixedTimeStep) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "Simulate", std::span<Il2CppClass const* const, 0>(),
@@ -1979,6 +5490,18 @@ inline void UnityEngine::ParticleSystem::Simulate(float_t t, bool withChildren, 
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, t, withChildren, restart);
+}
+inline void UnityEngine::ParticleSystem::Simulate(float_t t, bool withChildren) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "Simulate", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, t, withChildren);
+}
+inline void UnityEngine::ParticleSystem::Simulate(float_t t) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "Simulate", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, t);
 }
 inline void UnityEngine::ParticleSystem::Play(bool withChildren) {
   static auto* ___internal_method =
@@ -2031,6 +5554,17 @@ inline void UnityEngine::ParticleSystem::Clear() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline bool UnityEngine::ParticleSystem::IsAlive(bool withChildren) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "IsAlive", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, withChildren);
+}
+inline bool UnityEngine::ParticleSystem::IsAlive() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "IsAlive",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
 inline void UnityEngine::ParticleSystem::Emit(int32_t count) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "Emit", std::span<Il2CppClass const* const, 0>(),
@@ -2056,6 +5590,91 @@ inline void UnityEngine::ParticleSystem::EmitOld_Internal(ByRef<::UnityEngine::_
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__Particle>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, particle);
 }
+inline void UnityEngine::ParticleSystem::TriggerSubEmitter(int32_t subEmitterIndex) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "TriggerSubEmitter",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, subEmitterIndex);
+}
+inline void UnityEngine::ParticleSystem::TriggerSubEmitter(int32_t subEmitterIndex, ByRef<::UnityEngine::__ParticleSystem__Particle> particle) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "TriggerSubEmitter", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__Particle>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, subEmitterIndex, particle);
+}
+inline void UnityEngine::ParticleSystem::TriggerSubEmitterForParticle(int32_t subEmitterIndex, ::UnityEngine::__ParticleSystem__Particle particle) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "TriggerSubEmitterForParticle", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::__ParticleSystem__Particle>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, subEmitterIndex, particle);
+}
+inline void UnityEngine::ParticleSystem::TriggerSubEmitter(int32_t subEmitterIndex, ::System::Collections::Generic::List_1<::UnityEngine::__ParticleSystem__Particle>* particles) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "TriggerSubEmitter", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::__ParticleSystem__Particle>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, subEmitterIndex, particles);
+}
+inline void UnityEngine::ParticleSystem::ResetPreMappedBufferMemory() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(),
+                                                                             "ResetPreMappedBufferMemory", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
+}
+inline void UnityEngine::ParticleSystem::SetMaximumPreMappedBufferCounts(int32_t vertexBuffersCount, int32_t indexBuffersCount) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "SetMaximumPreMappedBufferCounts", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, vertexBuffersCount, indexBuffersCount);
+}
+inline void UnityEngine::ParticleSystem::AllocateAxisOfRotationAttribute() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(),
+                                                                             "AllocateAxisOfRotationAttribute", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void UnityEngine::ParticleSystem::AllocateMeshIndexAttribute() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(),
+                                                                             "AllocateMeshIndexAttribute", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void UnityEngine::ParticleSystem::AllocateCustomDataAttribute(::UnityEngine::ParticleSystemCustomData stream) {
+  static auto* ___internal_method = THROW_UNLESS((
+      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "AllocateCustomDataAttribute", std::span<Il2CppClass const* const, 0>(),
+                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ParticleSystemCustomData>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stream);
+}
+inline ::cordl_internals::Ptr<void> UnityEngine::ParticleSystem::GetManagedJobData() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "GetManagedJobData",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::cordl_internals::Ptr<void>, false>(this, ___internal_method);
+}
+inline ::Unity::Jobs::JobHandle UnityEngine::ParticleSystem::GetManagedJobHandle() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "GetManagedJobHandle",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::Unity::Jobs::JobHandle, false>(this, ___internal_method);
+}
+inline void UnityEngine::ParticleSystem::SetManagedJobHandle(::Unity::Jobs::JobHandle handle) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "SetManagedJobHandle", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Jobs::JobHandle>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, handle);
+}
+inline ::Unity::Jobs::JobHandle UnityEngine::ParticleSystem::ScheduleManagedJob(ByRef<::Unity::Jobs::LowLevel::Unsafe::__JobsUtility__JobScheduleParameters> parameters,
+                                                                                ::cordl_internals::Ptr<void> additionalData) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "ScheduleManagedJob", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::Unity::Jobs::LowLevel::Unsafe::__JobsUtility__JobScheduleParameters>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<void>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::Unity::Jobs::JobHandle, false>(nullptr, ___internal_method, parameters, additionalData);
+}
+inline void UnityEngine::ParticleSystem::CopyManagedJobData(::cordl_internals::Ptr<void> systemPtr, ByRef<::UnityEngine::ParticleSystemJobs::NativeParticleData> particleData) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "CopyManagedJobData", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<void>>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::ParticleSystemJobs::NativeParticleData>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, systemPtr, particleData);
+}
 inline ::UnityEngine::__ParticleSystem__MainModule UnityEngine::ParticleSystem::get_main() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_main",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -2071,10 +5690,105 @@ inline ::UnityEngine::__ParticleSystem__ShapeModule UnityEngine::ParticleSystem:
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::__ParticleSystem__ShapeModule, false>(this, ___internal_method);
 }
+inline ::UnityEngine::__ParticleSystem__VelocityOverLifetimeModule UnityEngine::ParticleSystem::get_velocityOverLifetime() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_velocityOverLifetime",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::__ParticleSystem__VelocityOverLifetimeModule, false>(this, ___internal_method);
+}
+inline ::UnityEngine::__ParticleSystem__LimitVelocityOverLifetimeModule UnityEngine::ParticleSystem::get_limitVelocityOverLifetime() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(),
+                                                                             "get_limitVelocityOverLifetime", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::__ParticleSystem__LimitVelocityOverLifetimeModule, false>(this, ___internal_method);
+}
+inline ::UnityEngine::__ParticleSystem__InheritVelocityModule UnityEngine::ParticleSystem::get_inheritVelocity() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_inheritVelocity",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::__ParticleSystem__InheritVelocityModule, false>(this, ___internal_method);
+}
+inline ::UnityEngine::__ParticleSystem__LifetimeByEmitterSpeedModule UnityEngine::ParticleSystem::get_lifetimeByEmitterSpeed() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(),
+                                                                             "get_lifetimeByEmitterSpeed", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::__ParticleSystem__LifetimeByEmitterSpeedModule, false>(this, ___internal_method);
+}
+inline ::UnityEngine::__ParticleSystem__ForceOverLifetimeModule UnityEngine::ParticleSystem::get_forceOverLifetime() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_forceOverLifetime",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::__ParticleSystem__ForceOverLifetimeModule, false>(this, ___internal_method);
+}
+inline ::UnityEngine::__ParticleSystem__ColorOverLifetimeModule UnityEngine::ParticleSystem::get_colorOverLifetime() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_colorOverLifetime",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::__ParticleSystem__ColorOverLifetimeModule, false>(this, ___internal_method);
+}
+inline ::UnityEngine::__ParticleSystem__ColorBySpeedModule UnityEngine::ParticleSystem::get_colorBySpeed() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_colorBySpeed",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::__ParticleSystem__ColorBySpeedModule, false>(this, ___internal_method);
+}
+inline ::UnityEngine::__ParticleSystem__SizeOverLifetimeModule UnityEngine::ParticleSystem::get_sizeOverLifetime() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_sizeOverLifetime",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::__ParticleSystem__SizeOverLifetimeModule, false>(this, ___internal_method);
+}
+inline ::UnityEngine::__ParticleSystem__SizeBySpeedModule UnityEngine::ParticleSystem::get_sizeBySpeed() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_sizeBySpeed",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::__ParticleSystem__SizeBySpeedModule, false>(this, ___internal_method);
+}
+inline ::UnityEngine::__ParticleSystem__RotationOverLifetimeModule UnityEngine::ParticleSystem::get_rotationOverLifetime() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_rotationOverLifetime",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::__ParticleSystem__RotationOverLifetimeModule, false>(this, ___internal_method);
+}
+inline ::UnityEngine::__ParticleSystem__RotationBySpeedModule UnityEngine::ParticleSystem::get_rotationBySpeed() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_rotationBySpeed",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::__ParticleSystem__RotationBySpeedModule, false>(this, ___internal_method);
+}
+inline ::UnityEngine::__ParticleSystem__ExternalForcesModule UnityEngine::ParticleSystem::get_externalForces() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_externalForces",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::__ParticleSystem__ExternalForcesModule, false>(this, ___internal_method);
+}
+inline ::UnityEngine::__ParticleSystem__NoiseModule UnityEngine::ParticleSystem::get_noise() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_noise",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::__ParticleSystem__NoiseModule, false>(this, ___internal_method);
+}
+inline ::UnityEngine::__ParticleSystem__CollisionModule UnityEngine::ParticleSystem::get_collision() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_collision",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::__ParticleSystem__CollisionModule, false>(this, ___internal_method);
+}
+inline ::UnityEngine::__ParticleSystem__TriggerModule UnityEngine::ParticleSystem::get_trigger() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_trigger",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::__ParticleSystem__TriggerModule, false>(this, ___internal_method);
+}
 inline ::UnityEngine::__ParticleSystem__SubEmittersModule UnityEngine::ParticleSystem::get_subEmitters() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_subEmitters",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::__ParticleSystem__SubEmittersModule, false>(this, ___internal_method);
+}
+inline ::UnityEngine::__ParticleSystem__TextureSheetAnimationModule UnityEngine::ParticleSystem::get_textureSheetAnimation() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_textureSheetAnimation",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::__ParticleSystem__TextureSheetAnimationModule, false>(this, ___internal_method);
+}
+inline ::UnityEngine::__ParticleSystem__LightsModule UnityEngine::ParticleSystem::get_lights() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_lights",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::__ParticleSystem__LightsModule, false>(this, ___internal_method);
+}
+inline ::UnityEngine::__ParticleSystem__TrailModule UnityEngine::ParticleSystem::get_trails() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_trails",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::__ParticleSystem__TrailModule, false>(this, ___internal_method);
+}
+inline ::UnityEngine::__ParticleSystem__CustomDataModule UnityEngine::ParticleSystem::get_customData() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_customData",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::__ParticleSystem__CustomDataModule, false>(this, ___internal_method);
 }
 inline void UnityEngine::ParticleSystem::Emit(::UnityEngine::Vector3 position, ::UnityEngine::Vector3 velocity, float_t size, float_t lifetime, ::UnityEngine::Color32 color) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -2091,6 +5805,192 @@ inline void UnityEngine::ParticleSystem::Emit(::UnityEngine::__ParticleSystem__P
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::__ParticleSystem__Particle>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, particle);
 }
+inline float_t UnityEngine::ParticleSystem::get_startDelay() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_startDelay",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+}
+inline void UnityEngine::ParticleSystem::set_startDelay(float_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "set_startDelay",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline bool UnityEngine::ParticleSystem::get_loop() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_loop",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline void UnityEngine::ParticleSystem::set_loop(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "set_loop", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline bool UnityEngine::ParticleSystem::get_playOnAwake() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_playOnAwake",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline void UnityEngine::ParticleSystem::set_playOnAwake(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "set_playOnAwake",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline float_t UnityEngine::ParticleSystem::get_duration() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_duration",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+}
+inline float_t UnityEngine::ParticleSystem::get_playbackSpeed() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_playbackSpeed",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+}
+inline void UnityEngine::ParticleSystem::set_playbackSpeed(float_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "set_playbackSpeed",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline bool UnityEngine::ParticleSystem::get_enableEmission() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_enableEmission",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline void UnityEngine::ParticleSystem::set_enableEmission(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "set_enableEmission",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline float_t UnityEngine::ParticleSystem::get_emissionRate() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_emissionRate",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+}
+inline void UnityEngine::ParticleSystem::set_emissionRate(float_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "set_emissionRate",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline float_t UnityEngine::ParticleSystem::get_startSpeed() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_startSpeed",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+}
+inline void UnityEngine::ParticleSystem::set_startSpeed(float_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "set_startSpeed",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline float_t UnityEngine::ParticleSystem::get_startSize() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_startSize",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+}
+inline void UnityEngine::ParticleSystem::set_startSize(float_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "set_startSize", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline ::UnityEngine::Color UnityEngine::ParticleSystem::get_startColor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_startColor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color, false>(this, ___internal_method);
+}
+inline void UnityEngine::ParticleSystem::set_startColor(::UnityEngine::Color value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "set_startColor", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline float_t UnityEngine::ParticleSystem::get_startRotation() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_startRotation",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+}
+inline void UnityEngine::ParticleSystem::set_startRotation(float_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "set_startRotation",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline ::UnityEngine::Vector3 UnityEngine::ParticleSystem::get_startRotation3D() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_startRotation3D",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3, false>(this, ___internal_method);
+}
+inline void UnityEngine::ParticleSystem::set_startRotation3D(::UnityEngine::Vector3 value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "set_startRotation3D", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline float_t UnityEngine::ParticleSystem::get_startLifetime() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_startLifetime",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+}
+inline void UnityEngine::ParticleSystem::set_startLifetime(float_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "set_startLifetime",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline float_t UnityEngine::ParticleSystem::get_gravityModifier() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_gravityModifier",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+}
+inline void UnityEngine::ParticleSystem::set_gravityModifier(float_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "set_gravityModifier",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline int32_t UnityEngine::ParticleSystem::get_maxParticles() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_maxParticles",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+}
+inline void UnityEngine::ParticleSystem::set_maxParticles(int32_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "set_maxParticles",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline ::UnityEngine::ParticleSystemSimulationSpace UnityEngine::ParticleSystem::get_simulationSpace() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_simulationSpace",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::ParticleSystemSimulationSpace, false>(this, ___internal_method);
+}
+inline void UnityEngine::ParticleSystem::set_simulationSpace(::UnityEngine::ParticleSystemSimulationSpace value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "set_simulationSpace", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ParticleSystemSimulationSpace>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline ::UnityEngine::ParticleSystemScalingMode UnityEngine::ParticleSystem::get_scalingMode() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "get_scalingMode",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::ParticleSystemScalingMode, false>(this, ___internal_method);
+}
+inline void UnityEngine::ParticleSystem::set_scalingMode(::UnityEngine::ParticleSystemScalingMode value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "set_scalingMode", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ParticleSystemScalingMode>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline bool UnityEngine::ParticleSystem::get_automaticCullingEnabled() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(),
+                                                                             "get_automaticCullingEnabled", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
 inline ::UnityEngine::ParticleSystem* UnityEngine::ParticleSystem::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ParticleSystem*>());
 }
@@ -2099,12 +5999,72 @@ inline void UnityEngine::ParticleSystem::_ctor() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline void UnityEngine::ParticleSystem::GetParticleCurrentSize3D_Injected(ByRef<::UnityEngine::__ParticleSystem__Particle> particle, ByRef<::UnityEngine::Vector3> ret) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "GetParticleCurrentSize3D_Injected", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__Particle>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::Vector3>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, particle, ret);
+}
+inline void UnityEngine::ParticleSystem::GetParticleCurrentColor_Injected(ByRef<::UnityEngine::__ParticleSystem__Particle> particle, ByRef<::UnityEngine::Color32> ret) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "GetParticleCurrentColor_Injected", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__Particle>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::Color32>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, particle, ret);
+}
+inline void UnityEngine::ParticleSystem::GetPlaybackState_Injected(ByRef<::UnityEngine::__ParticleSystem__PlaybackState> ret) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "GetPlaybackState_Injected", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__PlaybackState>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, ret);
+}
+inline void UnityEngine::ParticleSystem::SetPlaybackState_Injected(ByRef<::UnityEngine::__ParticleSystem__PlaybackState> playbackState) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "SetPlaybackState_Injected", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__PlaybackState>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, playbackState);
+}
+inline void UnityEngine::ParticleSystem::SetTrails_Injected(ByRef<::UnityEngine::__ParticleSystem__Trails> trailData) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "SetTrails_Injected", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__Trails>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, trailData);
+}
 inline void UnityEngine::ParticleSystem::Emit_Injected(ByRef<::UnityEngine::__ParticleSystem__EmitParams> emitParams, int32_t count) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "Emit_Injected", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__EmitParams>>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, emitParams, count);
+}
+inline void UnityEngine::ParticleSystem::TriggerSubEmitterForParticle_Injected(int32_t subEmitterIndex, ByRef<::UnityEngine::__ParticleSystem__Particle> particle) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "TriggerSubEmitterForParticle_Injected", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::__ParticleSystem__Particle>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, subEmitterIndex, particle);
+}
+inline void UnityEngine::ParticleSystem::GetManagedJobHandle_Injected(ByRef<::Unity::Jobs::JobHandle> ret) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "GetManagedJobHandle_Injected", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::Unity::Jobs::JobHandle>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, ret);
+}
+inline void UnityEngine::ParticleSystem::SetManagedJobHandle_Injected(ByRef<::Unity::Jobs::JobHandle> handle) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "SetManagedJobHandle_Injected", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::Unity::Jobs::JobHandle>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, handle);
+}
+inline void UnityEngine::ParticleSystem::ScheduleManagedJob_Injected(ByRef<::Unity::Jobs::LowLevel::Unsafe::__JobsUtility__JobScheduleParameters> parameters,
+                                                                     ::cordl_internals::Ptr<void> additionalData, ByRef<::Unity::Jobs::JobHandle> ret) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ParticleSystem*>::get(), "ScheduleManagedJob_Injected", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::Unity::Jobs::LowLevel::Unsafe::__JobsUtility__JobScheduleParameters>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<void>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::Unity::Jobs::JobHandle>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, parameters, additionalData, ret);
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ParticleSystem::ParticleSystem() {}

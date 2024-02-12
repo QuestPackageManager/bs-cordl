@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::RandomNoteRotation);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4785))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4136))
 // CS Name: ::RandomNoteRotation*
 class CORDL_TYPE RandomNoteRotation : public ::UnityEngine::MonoBehaviour {
 public:
@@ -53,18 +53,18 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method Awake, addr 0x238bcc4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x22d2ebc, size 0xb8, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnDestroy, addr 0x238bd7c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x22d2f74, size 0x100, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleNoteControllerDidInit, addr 0x238be7c, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method HandleNoteControllerDidInit, addr 0x22d3074, size 0x28, virtual true, abstract: false, final true
   inline void HandleNoteControllerDidInit(::GlobalNamespace::NoteControllerBase* noteController);
 
   static inline ::GlobalNamespace::RandomNoteRotation* New_ctor();
 
-  /// @brief Method .ctor, addr 0x238bea4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22d309c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RandomNoteRotation", modifiers: "&&", def_value: None }]

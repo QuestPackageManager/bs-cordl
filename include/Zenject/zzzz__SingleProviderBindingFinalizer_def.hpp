@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::Zenject::SingleProviderBindingFinalizer);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10966))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10970))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10108))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10112))
 // CS Name: ::Zenject::SingleProviderBindingFinalizer*
 class CORDL_TYPE SingleProviderBindingFinalizer : public ::Zenject::ProviderBindingFinalizer {
 public:
@@ -47,10 +47,10 @@ public:
 
   static inline ::Zenject::SingleProviderBindingFinalizer* New_ctor(::Zenject::BindInfo* bindInfo, ::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>* providerFactory);
 
-  /// @brief Method .ctor, addr 0x2ee674c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f02894, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo, ::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>* providerFactory);
 
-  /// @brief Method OnFinalizeBinding, addr 0x2ee6778, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method OnFinalizeBinding, addr 0x2f028c0, size 0xc4, virtual true, abstract: false, final false
   inline void OnFinalizeBinding(::Zenject::DiContainer* container);
 
   // Ctor Parameters [CppParam { name: "", ty: "SingleProviderBindingFinalizer", modifiers: "&&", def_value: None }]

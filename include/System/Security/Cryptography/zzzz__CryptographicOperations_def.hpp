@@ -24,7 +24,7 @@ namespace System::Security::Cryptography {
 class CORDL_TYPE CryptographicOperations : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ZeroMemory, addr 0x2459c58, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ZeroMemory, addr 0x247aabc, size 0x68, virtual false, abstract: false, final false
   static inline void ZeroMemory(::System::Span_1<uint8_t> buffer);
 
   // Ctor Parameters [CppParam { name: "", ty: "CryptographicOperations", modifiers: "&&", def_value: None }]

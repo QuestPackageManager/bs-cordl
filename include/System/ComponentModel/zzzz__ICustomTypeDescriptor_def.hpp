@@ -43,7 +43,7 @@ MARK_REF_PTR_T(::System::ComponentModel::ICustomTypeDescriptor);
 namespace System::ComponentModel {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9431))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7441))
 // CS Name: ::System.ComponentModel::ICustomTypeDescriptor*
 class CORDL_TYPE ICustomTypeDescriptor {
 public:

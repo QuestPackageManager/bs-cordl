@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ConditionalMaterialSwitcher);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5354))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16173))
 // CS Name: ::ConditionalMaterialSwitcher*
 class CORDL_TYPE ConditionalMaterialSwitcher : public ::UnityEngine::MonoBehaviour {
 public:
@@ -65,12 +65,12 @@ public:
 
   constexpr void __cordl_internal_set__renderer(::UnityW<::UnityEngine::Renderer> value);
 
-  /// @brief Method Awake, addr 0x226c040, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x21815a4, size 0x78, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::ConditionalMaterialSwitcher* New_ctor();
 
-  /// @brief Method .ctor, addr 0x226c0b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x218161c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ConditionalMaterialSwitcher", modifiers: "&&", def_value: None }]

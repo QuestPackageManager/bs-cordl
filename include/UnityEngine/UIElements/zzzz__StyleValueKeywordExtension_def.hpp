@@ -19,12 +19,12 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::StyleValueKeywordExtension);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7281))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6540))
 // CS Name: ::UnityEngine.UIElements::StyleValueKeywordExtension*
 class CORDL_TYPE StyleValueKeywordExtension : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToUssString, addr 0x2e6c938, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method ToUssString, addr 0x2e86d20, size 0x120, virtual false, abstract: false, final false
   static inline ::StringW ToUssString(::UnityEngine::UIElements::StyleValueKeyword svk);
 
   // Ctor Parameters [CppParam { name: "", ty: "StyleValueKeywordExtension", modifiers: "&&", def_value: None }]

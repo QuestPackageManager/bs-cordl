@@ -50,7 +50,7 @@ namespace Zenject {
 template <typename TParam1>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11259))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10401))
 // CS Name: ::SubContainerCreatorByNewGameObjectMethod`1::<>c__DisplayClass2_0<TParam1>*
 class CORDL_TYPE __SubContainerCreatorByNewGameObjectMethod_1____c__DisplayClass2_0 : public ::System::Object {
 public:
@@ -117,8 +117,8 @@ namespace Zenject {
 // cpp template
 template <typename TParam1>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11255))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11260))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10397))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10402))
 // CS Name: ::Zenject::SubContainerCreatorByNewGameObjectMethod`1<TParam1>*
 class CORDL_TYPE SubContainerCreatorByNewGameObjectMethod_1 : public ::Zenject::SubContainerCreatorByNewGameObjectDynamicContext {
 public:

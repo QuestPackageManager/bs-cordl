@@ -16,7 +16,7 @@ MARK_VAL_T(::JetBrains::Annotations::ImplicitUseKindFlags);
 namespace JetBrains::Annotations {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10028))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8760))
 // CS Name: ::JetBrains.Annotations::ImplicitUseKindFlags
 struct CORDL_TYPE ImplicitUseKindFlags {
 public:

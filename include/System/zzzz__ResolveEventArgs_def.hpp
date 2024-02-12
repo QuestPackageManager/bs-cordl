@@ -45,12 +45,12 @@ public:
 
   static inline ::System::ResolveEventArgs* New_ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x25c02d0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25e21e8, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
   static inline ::System::ResolveEventArgs* New_ctor(::StringW name, ::System::Reflection::Assembly* requestingAssembly);
 
-  /// @brief Method .ctor, addr 0x25c033c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25e2254, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::System::Reflection::Assembly* requestingAssembly);
 
   // Ctor Parameters [CppParam { name: "", ty: "ResolveEventArgs", modifiers: "&&", def_value: None }]

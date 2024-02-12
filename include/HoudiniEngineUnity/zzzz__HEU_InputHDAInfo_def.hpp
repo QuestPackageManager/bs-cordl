@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_InputHDAInfo);
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9647))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9439))
 // CS Name: ::HoudiniEngineUnity::HEU_InputHDAInfo*
 class CORDL_TYPE HEU_InputHDAInfo : public ::System::Object {
 public:
@@ -60,15 +60,15 @@ public:
 
   constexpr void __cordl_internal_set__connectedInputNodeID(int32_t value);
 
-  /// @brief Method CopyTo, addr 0x2170b94, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x2205478, size 0x24, virtual false, abstract: false, final false
   inline void CopyTo(::HoudiniEngineUnity::HEU_InputHDAInfo* destInfo);
 
-  /// @brief Method IsEquivalentTo, addr 0x217226c, size 0x130, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x2206b50, size 0x130, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_InputHDAInfo* other);
 
   static inline ::HoudiniEngineUnity::HEU_InputHDAInfo* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2170094, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2204978, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_InputHDAInfo", modifiers: "&&", def_value: None }]

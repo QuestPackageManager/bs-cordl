@@ -16,7 +16,7 @@ MARK_VAL_T(::RootMotion::FinalIK::FullBodyBipedChain);
 namespace RootMotion::FinalIK {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12572))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12470))
 // CS Name: ::RootMotion.FinalIK::FullBodyBipedChain
 struct CORDL_TYPE FullBodyBipedChain {
 public:

@@ -16,7 +16,7 @@ MARK_VAL_T(::LiteNetLib::NatAddressType);
 namespace LiteNetLib {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14144))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14157))
 // CS Name: ::LiteNetLib::NatAddressType
 struct CORDL_TYPE NatAddressType {
 public:

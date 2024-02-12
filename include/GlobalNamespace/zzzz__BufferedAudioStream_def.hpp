@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::GlobalNamespace::BufferedAudioStream);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13220))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13116))
 // CS Name: ::BufferedAudioStream*
 class CORDL_TYPE BufferedAudioStream : public ::System::Object {
 public:
@@ -73,16 +73,16 @@ public:
 
   static inline ::GlobalNamespace::BufferedAudioStream* New_ctor(::UnityEngine::AudioSource* audio);
 
-  /// @brief Method .ctor, addr 0x26cd350, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ebda0, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::AudioSource* audio);
 
-  /// @brief Method Update, addr 0x26cd458, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x26ebea8, size 0x1d0, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method Stop, addr 0x26cd414, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Stop, addr 0x26ebe64, size 0x44, virtual false, abstract: false, final false
   inline void Stop();
 
-  /// @brief Method AddData, addr 0x26cd628, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method AddData, addr 0x26ec078, size 0x11c, virtual false, abstract: false, final false
   inline void AddData(::ArrayW<float_t, ::Array<float_t>*> samples);
 
   // Ctor Parameters [CppParam { name: "", ty: "BufferedAudioStream", modifiers: "&&", def_value: None }]

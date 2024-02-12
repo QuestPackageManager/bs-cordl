@@ -16,7 +16,7 @@ MARK_VAL_T(::IgnoranceCore::IgnoranceClientStats);
 namespace IgnoranceCore {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15249))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15362))
 // CS Name: ::IgnoranceCore::IgnoranceClientStats
 struct CORDL_TYPE IgnoranceClientStats {
 public:

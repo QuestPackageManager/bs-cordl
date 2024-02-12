@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509ChainImpl
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9006))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7016))
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509ChainImpl*
 class CORDL_TYPE X509ChainImpl : public ::System::Object {
 public:
@@ -57,7 +57,7 @@ public:
   /// @brief Method get_IsValid, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsValid();
 
-  /// @brief Method ThrowIfContextInvalid, addr 0x29808e4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method ThrowIfContextInvalid, addr 0x2984388, size 0x40, virtual false, abstract: false, final false
   inline void ThrowIfContextInvalid();
 
   /// @brief Method get_ChainElements, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -78,18 +78,18 @@ public:
   /// @brief Method Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Reset();
 
-  /// @brief Method Dispose, addr 0x297fb34, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x29835d8, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x2980924, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x29843c8, size 0x4, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Finalize, addr 0x2980928, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x29843cc, size 0xa0, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::System::Security::Cryptography::X509Certificates::X509ChainImpl* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29809c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x298446c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "X509ChainImpl", modifiers: "&&", def_value: None }]

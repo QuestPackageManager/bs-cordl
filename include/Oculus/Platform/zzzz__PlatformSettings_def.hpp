@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::Oculus::Platform::PlatformSettings);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13378))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8954))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13304))
 // CS Name: ::Oculus.Platform::PlatformSettings*
 class CORDL_TYPE PlatformSettings : public ::UnityEngine::ScriptableObject {
 public:
@@ -55,33 +55,33 @@ public:
 
   static inline ::UnityW<::Oculus::Platform::PlatformSettings> getStaticF_instance();
 
-  /// @brief Method get_AppID, addr 0x26f5a24, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_AppID, addr 0x27330ac, size 0x1c, virtual false, abstract: false, final false
   static inline ::StringW get_AppID();
 
-  /// @brief Method set_AppID, addr 0x2700b9c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_AppID, addr 0x27331ec, size 0x20, virtual false, abstract: false, final false
   static inline void set_AppID(::StringW value);
 
-  /// @brief Method get_MobileAppID, addr 0x26f5a08, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_MobileAppID, addr 0x273320c, size 0x1c, virtual false, abstract: false, final false
   static inline ::StringW get_MobileAppID();
 
-  /// @brief Method set_MobileAppID, addr 0x2700bbc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_MobileAppID, addr 0x2733228, size 0x20, virtual false, abstract: false, final false
   static inline void set_MobileAppID(::StringW value);
 
-  /// @brief Method get_UseStandalonePlatform, addr 0x26f4fc8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_UseStandalonePlatform, addr 0x2733248, size 0x1c, virtual false, abstract: false, final false
   static inline bool get_UseStandalonePlatform();
 
-  /// @brief Method set_UseStandalonePlatform, addr 0x2700bdc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_UseStandalonePlatform, addr 0x2733264, size 0x24, virtual false, abstract: false, final false
   static inline void set_UseStandalonePlatform(bool value);
 
-  /// @brief Method get_Instance, addr 0x2700a78, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method get_Instance, addr 0x27330c8, size 0x124, virtual false, abstract: false, final false
   static inline ::UnityW<::Oculus::Platform::PlatformSettings> get_Instance();
 
-  /// @brief Method set_Instance, addr 0x2700c00, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_Instance, addr 0x2733288, size 0x4c, virtual false, abstract: false, final false
   static inline void set_Instance(::Oculus::Platform::PlatformSettings* value);
 
   static inline ::Oculus::Platform::PlatformSettings* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2700c4c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27332d4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PlatformSettings", modifiers: "&&", def_value: None }]

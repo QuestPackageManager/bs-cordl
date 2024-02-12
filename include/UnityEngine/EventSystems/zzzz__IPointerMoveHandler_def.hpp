@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::IPointerMoveHandler);
 namespace UnityEngine::EventSystems {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13171))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13069))
 // CS Name: ::UnityEngine.EventSystems::IPointerMoveHandler*
 class CORDL_TYPE IPointerMoveHandler {
 public:

@@ -110,37 +110,37 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::__SessionParameters__Builder* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf962b0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfc2140, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Build, addr 0xf962d8, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0xfc2168, size 0x13c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::SessionParameters* Build();
 
-  /// @brief Method SetCipherSuite, addr 0xf9649c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetCipherSuite, addr 0xfc232c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::__SessionParameters__Builder* SetCipherSuite(int32_t cipherSuite);
 
-  /// @brief Method SetCompressionAlgorithm, addr 0xf964a4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetCompressionAlgorithm, addr 0xfc2334, size 0xc, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::__SessionParameters__Builder* SetCompressionAlgorithm(uint8_t compressionAlgorithm);
 
-  /// @brief Method SetExtendedMasterSecret, addr 0xf964b0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetExtendedMasterSecret, addr 0xfc2340, size 0xc, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::__SessionParameters__Builder* SetExtendedMasterSecret(bool extendedMasterSecret);
 
-  /// @brief Method SetMasterSecret, addr 0xf964bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetMasterSecret, addr 0xfc234c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::__SessionParameters__Builder* SetMasterSecret(::ArrayW<uint8_t, ::Array<uint8_t>*> masterSecret);
 
-  /// @brief Method SetPeerCertificate, addr 0xf964c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetPeerCertificate, addr 0xfc2354, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::__SessionParameters__Builder* SetPeerCertificate(::Org::BouncyCastle::Crypto::Tls::Certificate* peerCertificate);
 
-  /// @brief Method SetPskIdentity, addr 0xf964cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetPskIdentity, addr 0xfc235c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::__SessionParameters__Builder* SetPskIdentity(::ArrayW<uint8_t, ::Array<uint8_t>*> pskIdentity);
 
-  /// @brief Method SetSrpIdentity, addr 0xf964d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetSrpIdentity, addr 0xfc2364, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::__SessionParameters__Builder* SetSrpIdentity(::ArrayW<uint8_t, ::Array<uint8_t>*> srpIdentity);
 
-  /// @brief Method SetServerExtensions, addr 0xf964dc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method SetServerExtensions, addr 0xfc236c, size 0x94, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::__SessionParameters__Builder* SetServerExtensions(::System::Collections::IDictionary* serverExtensions);
 
-  /// @brief Method Validate, addr 0xf96414, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Validate, addr 0xfc22a4, size 0x88, virtual false, abstract: false, final false
   inline void Validate(bool condition, ::StringW parameter);
 
   // Ctor Parameters [CppParam { name: "", ty: "__SessionParameters__Builder", modifiers: "&&", def_value: None }]
@@ -306,39 +306,39 @@ public:
                                                                               ::ArrayW<uint8_t, ::Array<uint8_t>*> srpIdentity, ::ArrayW<uint8_t, ::Array<uint8_t>*> encodedServerExtensions,
                                                                               bool extendedMasterSecret);
 
-  /// @brief Method .ctor, addr 0xf95cd4, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfc1b64, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor(int32_t cipherSuite, uint8_t compressionAlgorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> masterSecret, ::Org::BouncyCastle::Crypto::Tls::Certificate* peerCertificate,
                     ::ArrayW<uint8_t, ::Array<uint8_t>*> pskIdentity, ::ArrayW<uint8_t, ::Array<uint8_t>*> srpIdentity, ::ArrayW<uint8_t, ::Array<uint8_t>*> encodedServerExtensions,
                     bool extendedMasterSecret);
 
-  /// @brief Method Clear, addr 0xf95db0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0xfc1c40, size 0x70, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Copy, addr 0xf95e20, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Copy, addr 0xfc1cb0, size 0xc4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::SessionParameters* Copy();
 
-  /// @brief Method get_CipherSuite, addr 0xf95ee4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CipherSuite, addr 0xfc1d74, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_CipherSuite();
 
-  /// @brief Method get_CompressionAlgorithm, addr 0xf95eec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CompressionAlgorithm, addr 0xfc1d7c, size 0x8, virtual false, abstract: false, final false
   inline uint8_t get_CompressionAlgorithm();
 
-  /// @brief Method get_IsExtendedMasterSecret, addr 0xf95ef4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsExtendedMasterSecret, addr 0xfc1d84, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsExtendedMasterSecret();
 
-  /// @brief Method get_MasterSecret, addr 0xf95efc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MasterSecret, addr 0xfc1d8c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_MasterSecret();
 
-  /// @brief Method get_PeerCertificate, addr 0xf95f04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PeerCertificate, addr 0xfc1d94, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::Certificate* get_PeerCertificate();
 
-  /// @brief Method get_PskIdentity, addr 0xf95f0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PskIdentity, addr 0xfc1d9c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_PskIdentity();
 
-  /// @brief Method get_SrpIdentity, addr 0xf95f14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SrpIdentity, addr 0xfc1da4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_SrpIdentity();
 
-  /// @brief Method ReadServerExtensions, addr 0xf95f1c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ReadServerExtensions, addr 0xfc1dac, size 0x80, virtual false, abstract: false, final false
   inline ::System::Collections::IDictionary* ReadServerExtensions();
 
   // Ctor Parameters [CppParam { name: "", ty: "SessionParameters", modifiers: "&&", def_value: None }]

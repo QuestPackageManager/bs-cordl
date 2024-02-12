@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::BGNet::Logging::UnityLogger);
 namespace BGNet::Logging {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16237))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16417))
 // CS Name: ::BGNet.Logging::UnityLogger*
 class CORDL_TYPE UnityLogger : public ::System::Object {
 public:
@@ -33,21 +33,21 @@ public:
   /// @brief Convert to "::BGNet::Logging::__Debug__ILogger"
   constexpr ::BGNet::Logging::__Debug__ILogger* i___BGNet__Logging____Debug__ILogger() noexcept;
 
-  /// @brief Method LogInfo, addr 0xe61c60, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method LogInfo, addr 0xe8caf0, size 0x4, virtual true, abstract: false, final true
   inline void LogInfo(::StringW message);
 
-  /// @brief Method LogError, addr 0xe61c64, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method LogError, addr 0xe8caf4, size 0x58, virtual true, abstract: false, final true
   inline void LogError(::StringW message);
 
-  /// @brief Method LogException, addr 0xe61cbc, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method LogException, addr 0xe8cb4c, size 0x88, virtual true, abstract: false, final true
   inline void LogException(::System::Exception* exception, ::StringW message);
 
-  /// @brief Method LogWarning, addr 0xe61d44, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method LogWarning, addr 0xe8cbd4, size 0x58, virtual true, abstract: false, final true
   inline void LogWarning(::StringW message);
 
   static inline ::BGNet::Logging::UnityLogger* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe61410, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe8c2a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "UnityLogger", modifiers: "&&", def_value: None }]

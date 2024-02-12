@@ -16,15 +16,15 @@ MARK_REF_PTR_T(::System::Buffers::Utilities);
 namespace System::Buffers {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3890))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3889))
 // CS Name: ::System.Buffers::Utilities*
 class CORDL_TYPE Utilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SelectBucketIndex, addr 0x258c5fc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SelectBucketIndex, addr 0x25af514, size 0x7c, virtual false, abstract: false, final false
   static inline int32_t SelectBucketIndex(int32_t bufferSize);
 
-  /// @brief Method GetMaxSizeForBucket, addr 0x258c678, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetMaxSizeForBucket, addr 0x25af590, size 0xc, virtual false, abstract: false, final false
   static inline int32_t GetMaxSizeForBucket(int32_t binIndex);
 
   // Ctor Parameters [CppParam { name: "", ty: "Utilities", modifiers: "&&", def_value: None }]

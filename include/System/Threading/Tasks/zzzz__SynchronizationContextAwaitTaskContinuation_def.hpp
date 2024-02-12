@@ -55,10 +55,10 @@ public:
 
   static inline ::System::Threading::Tasks::__SynchronizationContextAwaitTaskContinuation____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x262be10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2651f34, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <.cctor>b__7_0, addr 0x262be18, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__7_0, addr 0x2651f3c, size 0x6c, virtual false, abstract: false, final false
   inline void __cctor_b__7_0(::System::Object* state);
 
   // Ctor Parameters [CppParam { name: "", ty: "__SynchronizationContextAwaitTaskContinuation____c", modifiers: "&&", def_value: None }]
@@ -119,16 +119,16 @@ public:
   static inline ::System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation* New_ctor(::System::Threading::SynchronizationContext* context, ::System::Action* action,
                                                                                                   bool flowExecutionContext);
 
-  /// @brief Method .ctor, addr 0x2626898, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x264c9bc, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::SynchronizationContext* context, ::System::Action* action, bool flowExecutionContext);
 
-  /// @brief Method Run, addr 0x262b824, size 0x1ec, virtual true, abstract: false, final true
+  /// @brief Method Run, addr 0x2651948, size 0x1ec, virtual true, abstract: false, final true
   inline void Run(::System::Threading::Tasks::Task* ignored, bool canInlineContinuationTask);
 
-  /// @brief Method PostAction, addr 0x262bb8c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method PostAction, addr 0x2651cb0, size 0x94, virtual false, abstract: false, final false
   static inline void PostAction(::System::Object* state);
 
-  /// @brief Method GetPostActionCallback, addr 0x262bc20, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetPostActionCallback, addr 0x2651d44, size 0xc8, virtual false, abstract: false, final false
   static inline ::System::Threading::ContextCallback* GetPostActionCallback();
 
   // Ctor Parameters [CppParam { name: "", ty: "SynchronizationContextAwaitTaskContinuation", modifiers: "&&", def_value: None }]

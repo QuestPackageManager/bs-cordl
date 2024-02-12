@@ -17,7 +17,7 @@ namespace System::Collections::Generic {
 template <typename TKey, typename TValue>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3831))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3830))
 // CS Name: ::System.Collections.Generic::DictionaryValueCollectionDebugView`2<TKey,TValue>*
 class CORDL_TYPE DictionaryValueCollectionDebugView_2 : public ::System::Object {
 public:

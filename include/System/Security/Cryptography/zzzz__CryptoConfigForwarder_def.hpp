@@ -24,7 +24,7 @@ namespace System::Security::Cryptography {
 class CORDL_TYPE CryptoConfigForwarder : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateFromName, addr 0x2474a90, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CreateFromName, addr 0x2496b04, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* CreateFromName(::StringW name);
 
   // Ctor Parameters [CppParam { name: "", ty: "CryptoConfigForwarder", modifiers: "&&", def_value: None }]

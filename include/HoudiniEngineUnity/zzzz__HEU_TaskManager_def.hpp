@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_TaskManager);
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9803))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9595))
 // CS Name: ::HoudiniEngineUnity::HEU_TaskManager*
 class CORDL_TYPE HEU_TaskManager : public ::System::Object {
 public:
@@ -53,36 +53,36 @@ public:
 
   static inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Task*>* getStaticF__pendingRemove();
 
-  /// @brief Method Update, addr 0x21ab588, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2240e6c, size 0x4, virtual false, abstract: false, final false
   static inline void Update();
 
-  /// @brief Method GetTask, addr 0x21ab58c, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method GetTask, addr 0x2240e70, size 0x1a4, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::HEU_Task* GetTask(::System::Guid taskGuid);
 
-  /// @brief Method AddTask, addr 0x21ab730, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method AddTask, addr 0x2241014, size 0x150, virtual false, abstract: false, final false
   static inline void AddTask(::HoudiniEngineUnity::HEU_Task* task);
 
-  /// @brief Method KillTask, addr 0x21ab880, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method KillTask, addr 0x2241164, size 0xe8, virtual false, abstract: false, final false
   static inline void KillTask(::HoudiniEngineUnity::HEU_Task* task, bool bRemove);
 
-  /// @brief Method KillTask, addr 0x21abaac, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method KillTask, addr 0x2241390, size 0x9c, virtual false, abstract: false, final false
   static inline void KillTask(::System::Guid taskGuid, bool bRemove);
 
-  /// @brief Method RemoveTask, addr 0x21ab968, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method RemoveTask, addr 0x224124c, size 0x144, virtual false, abstract: false, final false
   static inline void RemoveTask(::HoudiniEngineUnity::HEU_Task* task);
 
-  /// @brief Method ExecuteTask, addr 0x21abb48, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method ExecuteTask, addr 0x224142c, size 0x38, virtual false, abstract: false, final false
   static inline void ExecuteTask(::HoudiniEngineUnity::HEU_Task* task);
 
-  /// @brief Method CompleteTask, addr 0x21aaeac, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method CompleteTask, addr 0x2240790, size 0x28, virtual false, abstract: false, final false
   static inline void CompleteTask(::HoudiniEngineUnity::HEU_Task* task, ::HoudiniEngineUnity::__HEU_Task__TaskResult result);
 
-  /// @brief Method InternalCompleteTask, addr 0x21abb80, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method InternalCompleteTask, addr 0x2241464, size 0x60, virtual false, abstract: false, final false
   static inline void InternalCompleteTask(::HoudiniEngineUnity::HEU_Task* task);
 
   static inline ::HoudiniEngineUnity::HEU_TaskManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21abbe0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22414c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_TaskManager", modifiers: "&&", def_value: None }]

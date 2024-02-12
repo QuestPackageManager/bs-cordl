@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::System::Buffers::IPinnable);
 namespace System::Buffers {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3883))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3882))
 // CS Name: ::System.Buffers::IPinnable*
 class CORDL_TYPE IPinnable {
 public:

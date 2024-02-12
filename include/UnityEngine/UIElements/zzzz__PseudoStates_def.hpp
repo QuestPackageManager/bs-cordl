@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::PseudoStates);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6821))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6080))
 // CS Name: ::UnityEngine.UIElements::PseudoStates
 struct CORDL_TYPE PseudoStates {
 public:

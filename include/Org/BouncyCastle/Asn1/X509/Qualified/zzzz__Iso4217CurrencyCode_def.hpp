@@ -55,29 +55,29 @@ public:
 
   constexpr void __cordl_internal_set_obj(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method GetInstance, addr 0x1080a04, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x10ad894, size 0x1ec, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode* New_ctor(int32_t numeric);
 
-  /// @brief Method .ctor, addr 0x1080bf0, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10ada80, size 0x228, virtual false, abstract: false, final false
   inline void _ctor(int32_t numeric);
 
   static inline ::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode* New_ctor(::StringW alphabetic);
 
-  /// @brief Method .ctor, addr 0x1080e18, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10adca8, size 0x108, virtual false, abstract: false, final false
   inline void _ctor(::StringW alphabetic);
 
-  /// @brief Method get_IsAlphabetic, addr 0x1080f20, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_IsAlphabetic, addr 0x10addb0, size 0x7c, virtual false, abstract: false, final false
   inline bool get_IsAlphabetic();
 
-  /// @brief Method get_Alphabetic, addr 0x1080f9c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method get_Alphabetic, addr 0x10ade2c, size 0xa8, virtual false, abstract: false, final false
   inline ::StringW get_Alphabetic();
 
-  /// @brief Method get_Numeric, addr 0x1081044, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_Numeric, addr 0x10aded4, size 0x80, virtual false, abstract: false, final false
   inline int32_t get_Numeric();
 
-  /// @brief Method ToAsn1Object, addr 0x10810c4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x10adf54, size 0x20, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "Iso4217CurrencyCode", modifiers: "&&", def_value: None }]

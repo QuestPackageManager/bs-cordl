@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::TrackLaneRingsManager);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5004))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4358))
 // CS Name: ::TrackLaneRingsManager*
 class CORDL_TYPE TrackLaneRingsManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -88,27 +88,27 @@ public:
 
   constexpr void __cordl_internal_set__rings(::ArrayW<::UnityW<::GlobalNamespace::TrackLaneRing>, ::Array<::UnityW<::GlobalNamespace::TrackLaneRing>>*> value);
 
-  /// @brief Method get_ringPositionStep, addr 0x23b791c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ringPositionStep, addr 0x2376a60, size 0x8, virtual false, abstract: false, final false
   inline float_t get_ringPositionStep();
 
-  /// @brief Method get_Rings, addr 0x23b7924, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Rings, addr 0x2376a68, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::TrackLaneRing>, ::Array<::UnityW<::GlobalNamespace::TrackLaneRing>>*> get_Rings();
 
-  /// @brief Method Start, addr 0x23b792c, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2376a70, size 0x2b0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method FixedUpdate, addr 0x23b7bdc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method FixedUpdate, addr 0x2376d20, size 0x9c, virtual false, abstract: false, final false
   inline void FixedUpdate();
 
-  /// @brief Method LateUpdate, addr 0x23b7c78, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x2376dbc, size 0x9c, virtual false, abstract: false, final false
   inline void LateUpdate();
 
-  /// @brief Method OnDrawGizmosSelected, addr 0x23b7d14, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method OnDrawGizmosSelected, addr 0x2376e58, size 0x284, virtual false, abstract: false, final false
   inline void OnDrawGizmosSelected();
 
   static inline ::GlobalNamespace::TrackLaneRingsManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23b7f98, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23770dc, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TrackLaneRingsManager", modifiers: "&&", def_value: None }]

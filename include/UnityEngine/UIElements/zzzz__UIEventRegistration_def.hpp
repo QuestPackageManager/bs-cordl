@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__UIEventRegistration____c);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6900))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6159))
 // CS Name: ::UIEventRegistration::<>c*
 class CORDL_TYPE __UIEventRegistration____c : public ::System::Object {
 public:
@@ -46,25 +46,25 @@ public:
 
   static inline ::UnityEngine::UIElements::__UIEventRegistration____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2dfcd54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e1a13c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <.cctor>b__1_0, addr 0x2dfcd5c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__1_0, addr 0x2e1a144, size 0x4c, virtual false, abstract: false, final false
   inline void __cctor_b__1_0();
 
-  /// @brief Method <.cctor>b__1_1, addr 0x2dfcda8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__1_1, addr 0x2e1a190, size 0x4c, virtual false, abstract: false, final false
   inline void __cctor_b__1_1();
 
-  /// @brief Method <.cctor>b__1_2, addr 0x2dfcdf4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__1_2, addr 0x2e1a1dc, size 0x64, virtual false, abstract: false, final false
   inline bool __cctor_b__1_2(int32_t i, void* ptr);
 
-  /// @brief Method <.cctor>b__1_3, addr 0x2dfce58, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__1_3, addr 0x2e1a240, size 0x4c, virtual false, abstract: false, final false
   inline void __cctor_b__1_3();
 
-  /// @brief Method <.cctor>b__1_4, addr 0x2dfcea4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__1_4, addr 0x2e1a28c, size 0x54, virtual false, abstract: false, final false
   inline bool __cctor_b__1_4(::System::Exception* exception);
 
-  /// @brief Method <.cctor>b__1_5, addr 0x2dfcef8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__1_5, addr 0x2e1a2e0, size 0x4c, virtual false, abstract: false, final false
   inline void __cctor_b__1_5();
 
   // Ctor Parameters [CppParam { name: "", ty: "__UIEventRegistration____c", modifiers: "&&", def_value: None }]
@@ -92,7 +92,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__UIEve
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6901))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6160))
 // CS Name: ::UnityEngine.UIElements::UIEventRegistration*
 class CORDL_TYPE UIEventRegistration : public ::System::Object {
 public:
@@ -106,25 +106,25 @@ public:
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IUIElementsUtility*>* getStaticF_s_Utilities();
 
-  /// @brief Method RegisterUIElementSystem, addr 0x2dfc0c4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method RegisterUIElementSystem, addr 0x2e194ac, size 0x84, virtual false, abstract: false, final false
   static inline void RegisterUIElementSystem(::UnityEngine::UIElements::IUIElementsUtility* utility);
 
-  /// @brief Method TakeCapture, addr 0x2dfc148, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method TakeCapture, addr 0x2e19530, size 0x1d8, virtual false, abstract: false, final false
   static inline void TakeCapture();
 
-  /// @brief Method ReleaseCapture, addr 0x2dfc320, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method ReleaseCapture, addr 0x2e19708, size 0x1dc, virtual false, abstract: false, final false
   static inline void ReleaseCapture();
 
-  /// @brief Method EndContainerGUIFromException, addr 0x2dfc4fc, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method EndContainerGUIFromException, addr 0x2e198e4, size 0x218, virtual false, abstract: false, final false
   static inline bool EndContainerGUIFromException(::System::Exception* exception);
 
-  /// @brief Method ProcessEvent, addr 0x2dfc714, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method ProcessEvent, addr 0x2e19afc, size 0x224, virtual false, abstract: false, final false
   static inline bool ProcessEvent(int32_t instanceID, void* nativeEventPtr);
 
-  /// @brief Method CleanupRoots, addr 0x2dfc938, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method CleanupRoots, addr 0x2e19d20, size 0x1dc, virtual false, abstract: false, final false
   static inline void CleanupRoots();
 
-  /// @brief Method MakeCurrentIMGUIContainerDirty, addr 0x2dfcb14, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method MakeCurrentIMGUIContainerDirty, addr 0x2e19efc, size 0x1dc, virtual false, abstract: false, final false
   static inline void MakeCurrentIMGUIContainerDirty();
 
   // Ctor Parameters [CppParam { name: "", ty: "UIEventRegistration", modifiers: "&&", def_value: None }]

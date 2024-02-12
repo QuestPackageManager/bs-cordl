@@ -185,7 +185,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__PlayerSaveData__PracticeSettings);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4634))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11093))
 // CS Name: ::PlayerSaveData::GameplayModifiers::EnabledObstacleType
 struct CORDL_TYPE __PlayerSaveData__GameplayModifiers__EnabledObstacleType {
 public:
@@ -239,7 +239,7 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__GameplayModifiers__E
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4635))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11094))
 // CS Name: ::PlayerSaveData::GameplayModifiers::EnergyType
 struct CORDL_TYPE __PlayerSaveData__GameplayModifiers__EnergyType {
 public:
@@ -289,7 +289,7 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__GameplayModifiers__E
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4636))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11095))
 // CS Name: ::PlayerSaveData::GameplayModifiers::SongSpeed
 struct CORDL_TYPE __PlayerSaveData__GameplayModifiers__SongSpeed {
 public:
@@ -342,8 +342,8 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__GameplayModifiers__S
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 45, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4634)), TypeDefinitionIndex(TypeDefinitionIndex(4635)),
-// TypeDefinitionIndex(TypeDefinitionIndex(4636))] Self: TypeDefinitionIndex(TypeDefinitionIndex(4637)) CS Name: ::PlayerSaveData::GameplayModifiers*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11093)), TypeDefinitionIndex(TypeDefinitionIndex(11094)),
+// TypeDefinitionIndex(TypeDefinitionIndex(11095))] Self: TypeDefinitionIndex(TypeDefinitionIndex(11096)) CS Name: ::PlayerSaveData::GameplayModifiers*
 class CORDL_TYPE __PlayerSaveData__GameplayModifiers : public ::System::Object {
 public:
   // Declarations
@@ -491,7 +491,7 @@ public:
 
   static inline ::GlobalNamespace::__PlayerSaveData__GameplayModifiers* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2372854, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12b1f88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__PlayerSaveData__GameplayModifiers", modifiers: "&&", def_value: None }]
@@ -594,7 +594,7 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__GameplayModifiers, _
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4638))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11097))
 // CS Name: ::PlayerSaveData::PlayerSpecificSettings::EnvironmentEffectsFilterPresetSaveData
 struct CORDL_TYPE __PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData {
 public:
@@ -648,7 +648,7 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettin
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4639))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11098))
 // CS Name: ::PlayerSaveData::PlayerSpecificSettings::ArcVisibilityTypeSaveData
 struct CORDL_TYPE __PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData {
 public:
@@ -706,7 +706,7 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettin
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4640))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11099))
 // CS Name: ::PlayerSaveData::PlayerSpecificSettings::NoteJumpDurationTypeSettingsSaveData
 struct CORDL_TYPE __PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData {
 public:
@@ -755,8 +755,8 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettin
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4638)), TypeDefinitionIndex(TypeDefinitionIndex(4639)),
-// TypeDefinitionIndex(TypeDefinitionIndex(4640))] Self: TypeDefinitionIndex(TypeDefinitionIndex(4641)) CS Name: ::PlayerSaveData::PlayerSpecificSettings*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11097)), TypeDefinitionIndex(TypeDefinitionIndex(11098)),
+// TypeDefinitionIndex(TypeDefinitionIndex(11099))] Self: TypeDefinitionIndex(TypeDefinitionIndex(11100)) CS Name: ::PlayerSaveData::PlayerSpecificSettings*
 class CORDL_TYPE __PlayerSaveData__PlayerSpecificSettings : public ::System::Object {
 public:
   // Declarations
@@ -964,7 +964,7 @@ public:
 
   static inline ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings* New_ctor();
 
-  /// @brief Method .ctor, addr 0x237285c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12b1f90, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__PlayerSaveData__PlayerSpecificSettings", modifiers: "&&", def_value: None }]
@@ -1097,7 +1097,7 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettin
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4642))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11101))
 // CS Name: ::PlayerSaveData::PlayerAllOverallStatsData*
 class CORDL_TYPE __PlayerSaveData__PlayerAllOverallStatsData : public ::System::Object {
 public:
@@ -1144,7 +1144,7 @@ public:
 
   static inline ::GlobalNamespace::__PlayerSaveData__PlayerAllOverallStatsData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x237239c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12b56a4, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__PlayerSaveData__PlayerAllOverallStatsData* New_ctor(::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* campaignOverallStatsData,
@@ -1152,7 +1152,7 @@ public:
                                                                                          ::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* partyFreePlayOverallStatsData,
                                                                                          ::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* onlinePlayOverallStatsData);
 
-  /// @brief Method .ctor, addr 0x2372548, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12b5850, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* campaignOverallStatsData, ::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* soloFreePlayOverallStatsData,
                     ::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* partyFreePlayOverallStatsData,
                     ::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* onlinePlayOverallStatsData);
@@ -1202,7 +1202,7 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerAllOverallStat
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4643))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11102))
 // CS Name: ::PlayerSaveData::PlayerOverallStatsData*
 class CORDL_TYPE __PlayerSaveData__PlayerOverallStatsData : public ::System::Object {
 public:
@@ -1308,14 +1308,14 @@ public:
 
   static inline ::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2372588, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12b5890, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* New_ctor(int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCutsCount, int64_t totalScore,
                                                                                       int32_t playedLevelsCount, int32_t cleardLevelsCount, int32_t failedLevelsCount, int32_t fullComboCount,
                                                                                       float_t timePlayed, int32_t handDistanceTravelled, int64_t cummulativeCutScoreWithoutMultiplier);
 
-  /// @brief Method .ctor, addr 0x2372590, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12b5898, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCutsCount, int64_t totalScore, int32_t playedLevelsCount, int32_t cleardLevelsCount, int32_t failedLevelsCount,
                     int32_t fullComboCount, float_t timePlayed, int32_t handDistanceTravelled, int64_t cummulativeCutScoreWithoutMultiplier);
 
@@ -1398,8 +1398,8 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsDa
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14717)), TypeDefinitionIndex(TypeDefinitionIndex(15034))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4644))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14907)), TypeDefinitionIndex(TypeDefinitionIndex(15101))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11103))
 // CS Name: ::PlayerSaveData::PlayerLevelStatsData*
 class CORDL_TYPE __PlayerSaveData__PlayerLevelStatsData : public ::System::Object {
 public:
@@ -1487,7 +1487,7 @@ public:
 
   static inline ::GlobalNamespace::__PlayerSaveData__PlayerLevelStatsData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2372894, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12b20d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__PlayerSaveData__PlayerLevelStatsData", modifiers: "&&", def_value: None }]
@@ -1560,7 +1560,7 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerLevelStatsData
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4645))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11104))
 // CS Name: ::PlayerSaveData::PlayerMissionStatsData*
 class CORDL_TYPE __PlayerSaveData__PlayerMissionStatsData : public ::System::Object {
 public:
@@ -1585,7 +1585,7 @@ public:
 
   static inline ::GlobalNamespace::__PlayerSaveData__PlayerMissionStatsData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x237289c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12b20dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__PlayerSaveData__PlayerMissionStatsData", modifiers: "&&", def_value: None }]
@@ -1623,7 +1623,7 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerMissionStatsDa
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4646))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11105))
 // CS Name: ::PlayerSaveData::PracticeSettings*
 class CORDL_TYPE __PlayerSaveData__PracticeSettings : public ::System::Object {
 public:
@@ -1648,7 +1648,7 @@ public:
 
   static inline ::GlobalNamespace::__PlayerSaveData__PracticeSettings* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23728a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12b2000, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__PlayerSaveData__PracticeSettings", modifiers: "&&", def_value: None }]
@@ -1685,8 +1685,8 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PracticeSettings, __
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4647))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8995))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11106))
 // CS Name: ::PlayerSaveData::ColorScheme*
 class CORDL_TYPE __PlayerSaveData__ColorScheme : public ::System::Object {
 public:
@@ -1767,7 +1767,7 @@ public:
                                                                            ::UnityEngine::Color environmentColor0, ::UnityEngine::Color environmentColor1, ::UnityEngine::Color obstaclesColor,
                                                                            ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost);
 
-  /// @brief Method .ctor, addr 0x23728ac, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12b20ec, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor(::StringW colorSchemeId, ::UnityEngine::Color saberAColor, ::UnityEngine::Color saberBColor, ::UnityEngine::Color environmentColor0, ::UnityEngine::Color environmentColor1,
                     ::UnityEngine::Color obstaclesColor, ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost);
 
@@ -1836,7 +1836,7 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__ColorScheme, ___envi
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4648))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11107))
 // CS Name: ::PlayerSaveData::ColorSchemesSettings*
 class CORDL_TYPE __PlayerSaveData__ColorSchemesSettings : public ::System::Object {
 public:
@@ -1872,7 +1872,7 @@ public:
   static inline ::GlobalNamespace::__PlayerSaveData__ColorSchemesSettings* New_ctor(bool overrideDefaultColors, ::StringW selectedColorSchemeId,
                                                                                     ::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__ColorScheme*>* colorSchemes);
 
-  /// @brief Method .ctor, addr 0x237297c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12b21bc, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(bool overrideDefaultColors, ::StringW selectedColorSchemeId, ::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__ColorScheme*>* colorSchemes);
 
   // Ctor Parameters [CppParam { name: "", ty: "__PlayerSaveData__ColorSchemesSettings", modifiers: "&&", def_value: None }]
@@ -1915,7 +1915,7 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__ColorSchemesSettings
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4649))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11108))
 // CS Name: ::PlayerSaveData::OverrideEnvironmentSettings*
 class CORDL_TYPE __PlayerSaveData__OverrideEnvironmentSettings : public ::System::Object {
 public:
@@ -1949,7 +1949,7 @@ public:
 
   static inline ::GlobalNamespace::__PlayerSaveData__OverrideEnvironmentSettings* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23729b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12b21f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__PlayerSaveData__OverrideEnvironmentSettings", modifiers: "&&", def_value: None }]
@@ -1992,7 +1992,7 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__OverrideEnvironmentS
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4650))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11109))
 // CS Name: ::PlayerSaveData::GuestPlayer*
 class CORDL_TYPE __PlayerSaveData__GuestPlayer : public ::System::Object {
 public:
@@ -2008,7 +2008,7 @@ public:
 
   static inline ::GlobalNamespace::__PlayerSaveData__GuestPlayer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23729c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12b20e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__PlayerSaveData__GuestPlayer", modifiers: "&&", def_value: None }]
@@ -2041,7 +2041,7 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__GuestPlayer, ___play
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4651))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11110))
 // CS Name: ::PlayerSaveData::MultiplayerModeSettings*
 class CORDL_TYPE __PlayerSaveData__MultiplayerModeSettings : public ::System::Object {
 public:
@@ -2093,7 +2093,7 @@ public:
 
   static inline ::GlobalNamespace::__PlayerSaveData__MultiplayerModeSettings* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23729c8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12b2200, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__PlayerSaveData__MultiplayerModeSettings", modifiers: "&&", def_value: None }]
@@ -2146,7 +2146,7 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__MultiplayerModeSetti
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4652))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11111))
 // CS Name: ::PlayerSaveData::PlayerAgreementsData*
 class CORDL_TYPE __PlayerSaveData__PlayerAgreementsData : public ::System::Object {
 public:
@@ -2189,7 +2189,7 @@ public:
 
   static inline ::GlobalNamespace::__PlayerSaveData__PlayerAgreementsData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2372a3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12b2274, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__PlayerSaveData__PlayerAgreementsData", modifiers: "&&", def_value: None }]
@@ -2237,7 +2237,7 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerAgreementsData
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4653))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11112))
 // CS Name: ::PlayerSaveData::UserAgeCategorySaveData
 struct CORDL_TYPE __PlayerSaveData__UserAgeCategorySaveData {
 public:
@@ -2295,7 +2295,7 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__UserAgeCategorySaveD
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4654))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11113))
 // CS Name: ::PlayerSaveData::PlayerSensitivityFlagSaveData
 struct CORDL_TYPE __PlayerSaveData__PlayerSensitivityFlagSaveData {
 public:
@@ -2348,8 +2348,8 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerSensitivityFla
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 192, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4653)), TypeDefinitionIndex(TypeDefinitionIndex(4654)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14717))] Self: TypeDefinitionIndex(TypeDefinitionIndex(4655)) CS Name: ::PlayerSaveData::LocalPlayer*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11112)), TypeDefinitionIndex(TypeDefinitionIndex(11113)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15101))] Self: TypeDefinitionIndex(TypeDefinitionIndex(11114)) CS Name: ::PlayerSaveData::LocalPlayer*
 class CORDL_TYPE __PlayerSaveData__LocalPlayer : public ::System::Object {
 public:
   // Declarations
@@ -2609,7 +2609,7 @@ public:
 
   static inline ::GlobalNamespace::__PlayerSaveData__LocalPlayer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2372a44, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12b1f70, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__PlayerSaveData__LocalPlayer", modifiers: "&&", def_value: None }]
@@ -2771,8 +2771,8 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__LocalPlayer, ___desi
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4685))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4656))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11124))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11115))
 // CS Name: ::PlayerSaveData*
 class CORDL_TYPE PlayerSaveData : public ::GlobalNamespace::VersionSaveData {
 public:
@@ -2831,7 +2831,7 @@ public:
 
   static inline ::GlobalNamespace::PlayerSaveData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23727f8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12b1f1c, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PlayerSaveData", modifiers: "&&", def_value: None }]

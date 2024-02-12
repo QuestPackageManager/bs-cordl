@@ -52,7 +52,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IMultiplayerSessionManager);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12799))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12697))
 // CS Name: ::IMultiplayerSessionManager*
 class CORDL_TYPE IMultiplayerSessionManager {
 public:

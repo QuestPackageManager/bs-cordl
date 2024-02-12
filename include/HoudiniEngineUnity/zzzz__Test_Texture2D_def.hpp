@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::Test_Texture2D);
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9936))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9728))
 // CS Name: ::HoudiniEngineUnity::Test_Texture2D*
 class CORDL_TYPE Test_Texture2D : public ::System::Object {
 public:
@@ -52,13 +52,13 @@ public:
 
   static inline ::HoudiniEngineUnity::Test_Texture2D* New_ctor(::UnityEngine::Texture2D* self);
 
-  /// @brief Method .ctor, addr 0x21e7d0c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x227d5f4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Texture2D* self);
 
-  /// @brief Method IsNull, addr 0x21e7d34, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method IsNull, addr 0x227d61c, size 0x60, virtual true, abstract: false, final true
   inline bool IsNull();
 
-  /// @brief Method IsEquivalentTo, addr 0x21e7d94, size 0x108, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x227d67c, size 0x108, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_Texture2D* other);
 
   // Ctor Parameters [CppParam { name: "", ty: "Test_Texture2D", modifiers: "&&", def_value: None }]

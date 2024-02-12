@@ -17,7 +17,7 @@ MARK_VAL_T(::OVR::OpenVR::CVRSettingHelper);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8719))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8663))
 // CS Name: ::OVR.OpenVR::CVRSettingHelper
 struct CORDL_TYPE CVRSettingHelper {
 public:

@@ -67,7 +67,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__OculusPlatformAchievementHandler____c__Displ
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4542))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10970))
 // CS Name: ::OculusPlatformAchievementHandler::<>c__DisplayClass2_0*
 class CORDL_TYPE __OculusPlatformAchievementHandler____c__DisplayClass2_0 : public ::System::Object {
 public:
@@ -84,10 +84,10 @@ public:
 
   static inline ::GlobalNamespace::__OculusPlatformAchievementHandler____c__DisplayClass2_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23679a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12a6284, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <UnlockAchievement>b__0, addr 0x2367aac, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method <UnlockAchievement>b__0, addr 0x12a638c, size 0x40, virtual false, abstract: false, final false
   inline void _UnlockAchievement_b__0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::AchievementUpdate*>* message);
 
   // Ctor Parameters [CppParam { name: "", ty: "__OculusPlatformAchievementHandler____c__DisplayClass2_0", modifiers: "&&", def_value: None }]
@@ -120,7 +120,7 @@ static_assert(offsetof(::GlobalNamespace::__OculusPlatformAchievementHandler____
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4543))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10971))
 // CS Name: ::OculusPlatformAchievementHandler::<>c__DisplayClass3_0*
 class CORDL_TYPE __OculusPlatformAchievementHandler____c__DisplayClass3_0 : public ::System::Object {
 public:
@@ -146,10 +146,10 @@ public:
 
   static inline ::GlobalNamespace::__OculusPlatformAchievementHandler____c__DisplayClass3_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2367a9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12a637c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <GetUnlockedAchievements>b__0, addr 0x2367aec, size 0x528, virtual false, abstract: false, final false
+  /// @brief Method <GetUnlockedAchievements>b__0, addr 0x12a63cc, size 0x528, virtual false, abstract: false, final false
   inline void _GetUnlockedAchievements_b__0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::AchievementProgressList*>* message);
 
   // Ctor Parameters [CppParam { name: "", ty: "__OculusPlatformAchievementHandler____c__DisplayClass3_0", modifiers: "&&", def_value: None }]
@@ -187,7 +187,7 @@ static_assert(offsetof(::GlobalNamespace::__OculusPlatformAchievementHandler____
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4544))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10972))
 // CS Name: ::OculusPlatformAchievementHandler::<>c__DisplayClass3_1*
 class CORDL_TYPE __OculusPlatformAchievementHandler____c__DisplayClass3_1 : public ::System::Object {
 public:
@@ -203,10 +203,10 @@ public:
 
   static inline ::GlobalNamespace::__OculusPlatformAchievementHandler____c__DisplayClass3_1* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2368014, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12a68f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <GetUnlockedAchievements>b__1, addr 0x236801c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <GetUnlockedAchievements>b__1, addr 0x12a68fc, size 0x28, virtual false, abstract: false, final false
   inline bool _GetUnlockedAchievements_b__1(::GlobalNamespace::AchievementSO* x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__OculusPlatformAchievementHandler____c__DisplayClass3_1", modifiers: "&&", def_value: None }]
@@ -239,7 +239,7 @@ static_assert(offsetof(::GlobalNamespace::__OculusPlatformAchievementHandler____
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4545))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10973))
 // CS Name: ::OculusPlatformAchievementHandler*
 class CORDL_TYPE OculusPlatformAchievementHandler : public ::System::Object {
 public:
@@ -265,18 +265,18 @@ public:
 
   constexpr void __cordl_internal_set__achievementIdsModel(::UnityW<::GlobalNamespace::AchievementIdsModelSO> value);
 
-  /// @brief Method Initialize, addr 0x23678ac, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x12a618c, size 0x4, virtual true, abstract: false, final true
   inline void Initialize();
 
-  /// @brief Method UnlockAchievement, addr 0x23678b0, size 0xf4, virtual true, abstract: false, final true
+  /// @brief Method UnlockAchievement, addr 0x12a6190, size 0xf4, virtual true, abstract: false, final true
   inline ::GlobalNamespace::HMAsyncRequest* UnlockAchievement(::StringW achievementId, ::GlobalNamespace::__IPlatformAchievementsHandler__UnlockAchievementCompletionHandler* completionHandler);
 
-  /// @brief Method GetUnlockedAchievements, addr 0x23679ac, size 0xf0, virtual true, abstract: false, final true
+  /// @brief Method GetUnlockedAchievements, addr 0x12a628c, size 0xf0, virtual true, abstract: false, final true
   inline ::GlobalNamespace::HMAsyncRequest* GetUnlockedAchievements(::GlobalNamespace::__IPlatformAchievementsHandler__GetUnlockedAchievementsCompletionHandler* completionHandler);
 
   static inline ::GlobalNamespace::OculusPlatformAchievementHandler* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2367aa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12a6384, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OculusPlatformAchievementHandler", modifiers: "&&", def_value: None }]

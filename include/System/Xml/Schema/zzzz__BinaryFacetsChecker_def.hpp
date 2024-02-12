@@ -28,27 +28,27 @@ MARK_REF_PTR_T(::System::Xml::Schema::BinaryFacetsChecker);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11686))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11694))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11584))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11592))
 // CS Name: ::System.Xml.Schema::BinaryFacetsChecker*
 class CORDL_TYPE BinaryFacetsChecker : public ::System::Xml::Schema::FacetsChecker {
 public:
   // Declarations
-  /// @brief Method CheckValueFacets, addr 0x28c3248, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x28c58b0, size 0x90, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::System::Object* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x28c32d8, size 0x1b0, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x28c5940, size 0x1b0, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::ArrayW<uint8_t, ::Array<uint8_t>*> value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method MatchEnumeration, addr 0x28c359c, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method MatchEnumeration, addr 0x28c5c04, size 0x84, virtual true, abstract: false, final false
   inline bool MatchEnumeration(::System::Object* value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method MatchEnumeration, addr 0x28c3488, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method MatchEnumeration, addr 0x28c5af0, size 0x114, virtual false, abstract: false, final false
   inline bool MatchEnumeration(::ArrayW<uint8_t, ::Array<uint8_t>*> value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
   static inline ::System::Xml::Schema::BinaryFacetsChecker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28c3620, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28c5c88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BinaryFacetsChecker", modifiers: "&&", def_value: None }]

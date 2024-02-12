@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::GlobalNamespace::FloatFxBaseData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4312)), TypeDefinitionIndex(TypeDefinitionIndex(16090))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4314))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10741)), TypeDefinitionIndex(TypeDefinitionIndex(16199))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10743))
 // CS Name: ::FloatFxBaseData*
 class CORDL_TYPE FloatFxBaseData : public ::GlobalNamespace::FxBaseData {
 public:
@@ -45,7 +45,7 @@ public:
 
   static inline ::GlobalNamespace::FloatFxBaseData* New_ctor(float_t beat, bool usePreviousEventValue, float_t value, ::GlobalNamespace::EaseType easeType);
 
-  /// @brief Method .ctor, addr 0x233602c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x127bfc0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, bool usePreviousEventValue, float_t value, ::GlobalNamespace::EaseType easeType);
 
   // Ctor Parameters [CppParam { name: "", ty: "FloatFxBaseData", modifiers: "&&", def_value: None }]

@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::Zenject::__DefaultGameObjectParentInstaller__DefaultParentObjec
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11347))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10489))
 // CS Name: ::DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer*
 class CORDL_TYPE __DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer : public ::System::Object {
 public:
@@ -59,16 +59,16 @@ public:
 
   static inline ::Zenject::__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer* New_ctor(::UnityEngine::GameObject* gameObject);
 
-  /// @brief Method .ctor, addr 0x2f1d524, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f3966c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::GameObject* gameObject);
 
-  /// @brief Method Dispose, addr 0x2f1d54c, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2f39694, size 0x5c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method __zenCreate, addr 0x2f1d5a8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2f396f0, size 0xac, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f1d654, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f3979c, size 0x274, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer", modifiers: "&&", def_value: None }]
@@ -100,8 +100,8 @@ static_assert(offsetof(::Zenject::__DefaultGameObjectParentInstaller__DefaultPar
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11132)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11132), inst: 3908 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11348))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10274)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10274), inst: 3890 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10490))
 // CS Name: ::Zenject::DefaultGameObjectParentInstaller*
 class CORDL_TYPE DefaultGameObjectParentInstaller : public ::Zenject::Installer_2<::StringW, ::Zenject::DefaultGameObjectParentInstaller*> {
 public:
@@ -119,16 +119,16 @@ public:
 
   static inline ::Zenject::DefaultGameObjectParentInstaller* New_ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x2f1d064, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f391ac, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method InstallBindings, addr 0x2f1d0c0, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x2f39208, size 0x148, virtual true, abstract: false, final false
   inline void InstallBindings();
 
-  /// @brief Method __zenCreate, addr 0x2f1d208, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2f39350, size 0xa8, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f1d2b0, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f393f8, size 0x274, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultGameObjectParentInstaller", modifiers: "&&", def_value: None }]

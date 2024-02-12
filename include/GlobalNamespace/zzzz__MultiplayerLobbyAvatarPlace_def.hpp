@@ -28,20 +28,20 @@ MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerLobbyAvatarPlace__Pool);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5225))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4564))
 // CS Name: ::MultiplayerLobbyAvatarPlace*
 class CORDL_TYPE MultiplayerLobbyAvatarPlace : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   using Pool = ::GlobalNamespace::__MultiplayerLobbyAvatarPlace__Pool;
 
-  /// @brief Method SetPositionAndRotation, addr 0x2251d00, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SetPositionAndRotation, addr 0x23b01fc, size 0x78, virtual false, abstract: false, final false
   inline void SetPositionAndRotation(::UnityEngine::Vector3 worldPos, ::UnityEngine::Quaternion rotation);
 
   static inline ::GlobalNamespace::MultiplayerLobbyAvatarPlace* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2251d78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23b0274, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyAvatarPlace", modifiers: "&&", def_value: None }]
@@ -68,14 +68,14 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLobb
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5225)), TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
-// 2821 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5224)) CS Name: ::MultiplayerLobbyAvatarPlace::Pool*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4564)), TypeDefinitionIndex(TypeDefinitionIndex(10192)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10192), inst:
+// 2791 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4563)) CS Name: ::MultiplayerLobbyAvatarPlace::Pool*
 class CORDL_TYPE __MultiplayerLobbyAvatarPlace__Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarPlace>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MultiplayerLobbyAvatarPlace__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2251d80, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23b027c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerLobbyAvatarPlace__Pool", modifiers: "&&", def_value: None }]

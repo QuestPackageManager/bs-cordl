@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::ProGridsNoSnapAttribute);
 namespace UnityEngine::ProBuilder {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12177))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12075))
 // CS Name: ::UnityEngine.ProBuilder::ProGridsNoSnapAttribute*
 class CORDL_TYPE ProGridsNoSnapAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::UnityEngine::ProBuilder::ProGridsNoSnapAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2b60d90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b5f8fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ProGridsNoSnapAttribute", modifiers: "&&", def_value: None }]

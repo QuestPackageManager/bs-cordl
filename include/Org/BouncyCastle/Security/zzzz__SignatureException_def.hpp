@@ -26,17 +26,17 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Security::SignatureException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1140fcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x116ee5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Security::SignatureException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x1140fd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x116ee64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::Org::BouncyCastle::Security::SignatureException* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor, addr 0x1140fdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x116ee6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
   // Ctor Parameters [CppParam { name: "", ty: "SignatureException", modifiers: "&&", def_value: None }]

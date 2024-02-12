@@ -100,39 +100,39 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::Chacha20Poly1305* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context);
 
-  /// @brief Method .ctor, addr 0xf60e94, size 0x324, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf8ad24, size 0x324, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context);
 
-  /// @brief Method GetPlaintextLimit, addr 0xf611b8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetPlaintextLimit, addr 0xf8b048, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetPlaintextLimit(int32_t ciphertextLimit);
 
-  /// @brief Method EncodePlaintext, addr 0xf611c0, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method EncodePlaintext, addr 0xf8b050, size 0x13c, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodePlaintext(int64_t seqNo, uint8_t type, ::ArrayW<uint8_t, ::Array<uint8_t>*> plaintext, int32_t offset, int32_t len);
 
-  /// @brief Method DecodeCiphertext, addr 0xf612fc, size 0x1f0, virtual true, abstract: false, final false
+  /// @brief Method DecodeCiphertext, addr 0xf8b18c, size 0x1f0, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DecodeCiphertext(int64_t seqNo, uint8_t type, ::ArrayW<uint8_t, ::Array<uint8_t>*> ciphertext, int32_t offset, int32_t len);
 
-  /// @brief Method InitRecord, addr 0xf614ec, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method InitRecord, addr 0xf8b37c, size 0x130, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* InitRecord(::Org::BouncyCastle::Crypto::IStreamCipher* cipher, bool forEncryption, int64_t seqNo,
                                                                            ::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
 
-  /// @brief Method CalculateNonce, addr 0xf6161c, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method CalculateNonce, addr 0xf8b4ac, size 0xec, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CalculateNonce(int64_t seqNo, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
 
-  /// @brief Method GenerateRecordMacKey, addr 0xf61708, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method GenerateRecordMacKey, addr 0xf8b598, size 0x15c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* GenerateRecordMacKey(::Org::BouncyCastle::Crypto::IStreamCipher* cipher);
 
-  /// @brief Method CalculateRecordMac, addr 0xf61864, size 0x1a8, virtual true, abstract: false, final false
+  /// @brief Method CalculateRecordMac, addr 0xf8b6f4, size 0x1a8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CalculateRecordMac(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* macKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> additionalData,
                                                                  ::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
-  /// @brief Method UpdateRecordMacLength, addr 0xf61a0c, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method UpdateRecordMacLength, addr 0xf8b89c, size 0xc8, virtual true, abstract: false, final false
   inline void UpdateRecordMacLength(::Org::BouncyCastle::Crypto::IMac* mac, int32_t len);
 
-  /// @brief Method UpdateRecordMacText, addr 0xf61ad4, size 0x188, virtual true, abstract: false, final false
+  /// @brief Method UpdateRecordMacText, addr 0xf8b964, size 0x188, virtual true, abstract: false, final false
   inline void UpdateRecordMacText(::Org::BouncyCastle::Crypto::IMac* mac, ::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
-  /// @brief Method GetAdditionalData, addr 0xf61c5c, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method GetAdditionalData, addr 0xf8baec, size 0x160, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetAdditionalData(int64_t seqNo, uint8_t type, int32_t len);
 
   // Ctor Parameters [CppParam { name: "", ty: "Chacha20Poly1305", modifiers: "&&", def_value: None }]

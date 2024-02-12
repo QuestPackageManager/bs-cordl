@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::GlobalNamespace::XRSubsystemHelper);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14441))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14590))
 // CS Name: ::XRSubsystemHelper*
 class CORDL_TYPE XRSubsystemHelper : public ::System::Object {
 public:
@@ -51,13 +51,13 @@ public:
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::XR::XRInputSubsystem*>* getStaticF_s_inputSubsystems();
 
-  /// @brief Method GetCurrentDisplaySubsystem, addr 0x2100c20, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentDisplaySubsystem, addr 0x2194630, size 0x140, virtual false, abstract: false, final false
   static inline Il2CppObject* GetCurrentDisplaySubsystem();
 
-  /// @brief Method GetCurrentDisplaySubsystemDescriptor, addr 0x2100d60, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentDisplaySubsystemDescriptor, addr 0x2194770, size 0x138, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::XRDisplaySubsystemDescriptor* GetCurrentDisplaySubsystemDescriptor();
 
-  /// @brief Method GetCurrentInputSubsystem, addr 0x2100e98, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentInputSubsystem, addr 0x21948a8, size 0x138, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::XRInputSubsystem* GetCurrentInputSubsystem();
 
   // Ctor Parameters [CppParam { name: "", ty: "XRSubsystemHelper", modifiers: "&&", def_value: None }]

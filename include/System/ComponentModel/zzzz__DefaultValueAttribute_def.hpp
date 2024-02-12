@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::System::ComponentModel::DefaultValueAttribute);
 namespace System::ComponentModel {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9383))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7393))
 // CS Name: ::System.ComponentModel::DefaultValueAttribute*
 class CORDL_TYPE DefaultValueAttribute : public ::System::Attribute {
 public:
@@ -38,26 +38,26 @@ public:
 
   static inline ::System::ComponentModel::DefaultValueAttribute* New_ctor(bool value);
 
-  /// @brief Method .ctor, addr 0x290373c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2907da4, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(bool value);
 
   static inline ::System::ComponentModel::DefaultValueAttribute* New_ctor(::StringW value);
 
-  /// @brief Method .ctor, addr 0x29037a8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2907e10, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW value);
 
   static inline ::System::ComponentModel::DefaultValueAttribute* New_ctor(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x29037d0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2907e38, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* value);
 
-  /// @brief Method get_Value, addr 0x29037f8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x2907e60, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* get_Value();
 
-  /// @brief Method Equals, addr 0x2903800, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2907e68, size 0x10c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x290390c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2907f74, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultValueAttribute", modifiers: "&&", def_value: None }]

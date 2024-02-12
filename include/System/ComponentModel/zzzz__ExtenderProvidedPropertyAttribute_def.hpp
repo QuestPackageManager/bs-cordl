@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::System::ComponentModel::ExtenderProvidedPropertyAttribute);
 namespace System::ComponentModel {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9428))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7438))
 // CS Name: ::System.ComponentModel::ExtenderProvidedPropertyAttribute*
 class CORDL_TYPE ExtenderProvidedPropertyAttribute : public ::System::Attribute {
 public:
@@ -68,40 +68,40 @@ public:
 
   constexpr void __cordl_internal_set__ReceiverType_k__BackingField(::System::Type* value);
 
-  /// @brief Method Create, addr 0x29102d4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x291493c, size 0x78, virtual false, abstract: false, final false
   static inline ::System::ComponentModel::ExtenderProvidedPropertyAttribute* Create(::System::ComponentModel::PropertyDescriptor* extenderProperty, ::System::Type* receiverType,
                                                                                     ::System::ComponentModel::IExtenderProvider* provider);
 
   static inline ::System::ComponentModel::ExtenderProvidedPropertyAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2910734, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2914d9c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ExtenderProperty, addr 0x291073c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ExtenderProperty, addr 0x2914da4, size 0x8, virtual false, abstract: false, final false
   inline ::System::ComponentModel::PropertyDescriptor* get_ExtenderProperty();
 
-  /// @brief Method set_ExtenderProperty, addr 0x2910744, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ExtenderProperty, addr 0x2914dac, size 0x8, virtual false, abstract: false, final false
   inline void set_ExtenderProperty(::System::ComponentModel::PropertyDescriptor* value);
 
-  /// @brief Method get_Provider, addr 0x291074c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Provider, addr 0x2914db4, size 0x8, virtual false, abstract: false, final false
   inline ::System::ComponentModel::IExtenderProvider* get_Provider();
 
-  /// @brief Method set_Provider, addr 0x2910754, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Provider, addr 0x2914dbc, size 0x8, virtual false, abstract: false, final false
   inline void set_Provider(::System::ComponentModel::IExtenderProvider* value);
 
-  /// @brief Method get_ReceiverType, addr 0x291075c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ReceiverType, addr 0x2914dc4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ReceiverType();
 
-  /// @brief Method set_ReceiverType, addr 0x2910764, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ReceiverType, addr 0x2914dcc, size 0x8, virtual false, abstract: false, final false
   inline void set_ReceiverType(::System::Type* value);
 
-  /// @brief Method Equals, addr 0x291076c, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2914dd4, size 0xd4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2910840, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2914ea8, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsDefaultAttribute, addr 0x2910848, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method IsDefaultAttribute, addr 0x2914eb0, size 0x60, virtual true, abstract: false, final false
   inline bool IsDefaultAttribute();
 
   // Ctor Parameters [CppParam { name: "", ty: "ExtenderProvidedPropertyAttribute", modifiers: "&&", def_value: None }]

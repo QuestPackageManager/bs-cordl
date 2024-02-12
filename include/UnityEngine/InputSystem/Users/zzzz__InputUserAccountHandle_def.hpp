@@ -23,7 +23,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::Users::InputUserAccountHandle);
 namespace UnityEngine::InputSystem::Users {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6365))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5624))
 // CS Name: ::UnityEngine.InputSystem.Users::InputUserAccountHandle
 struct CORDL_TYPE InputUserAccountHandle {
 public:
@@ -38,31 +38,31 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::InputSystem::Users::InputUserAccountHandle>"
   constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::Users::InputUserAccountHandle>* i___System__IEquatable_1___UnityEngine__InputSystem__Users__InputUserAccountHandle_();
 
-  /// @brief Method get_apiName, addr 0x2acf338, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_apiName, addr 0x2acfea4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_apiName();
 
-  /// @brief Method get_handle, addr 0x2acf340, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_handle, addr 0x2acfeac, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_handle();
 
-  /// @brief Method .ctor, addr 0x2acf348, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2acfeb4, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::StringW apiName, uint64_t handle);
 
-  /// @brief Method ToString, addr 0x2acf3c8, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2acff34, size 0xc4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method Equals, addr 0x2acf48c, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2acfff8, size 0xb0, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::InputSystem::Users::InputUserAccountHandle other);
 
-  /// @brief Method Equals, addr 0x2acf53c, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2ad00a8, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method op_Equality, addr 0x2acf224, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x2acfd90, size 0x2c, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::InputSystem::Users::InputUserAccountHandle left, ::UnityEngine::InputSystem::Users::InputUserAccountHandle right);
 
-  /// @brief Method op_Inequality, addr 0x2acf5b4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x2ad0120, size 0x30, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::InputSystem::Users::InputUserAccountHandle left, ::UnityEngine::InputSystem::Users::InputUserAccountHandle right);
 
-  /// @brief Method GetHashCode, addr 0x2acf5e4, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2ad0150, size 0x58, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "m_ApiName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_Handle", ty: "uint64_t", modifiers: "", def_value: None }]

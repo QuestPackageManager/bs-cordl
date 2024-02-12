@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IReadonlyCutScoreBuffer);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5314))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4654))
 // CS Name: ::IReadonlyCutScoreBuffer*
 class CORDL_TYPE IReadonlyCutScoreBuffer {
 public:

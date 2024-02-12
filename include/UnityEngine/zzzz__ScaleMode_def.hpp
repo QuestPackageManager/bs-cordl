@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ScaleMode);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14596))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14601))
 // CS Name: ::UnityEngine::ScaleMode
 struct CORDL_TYPE ScaleMode {
 public:

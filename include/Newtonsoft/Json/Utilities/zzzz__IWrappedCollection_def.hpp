@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::IWrappedCollection);
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11877))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11775))
 // CS Name: ::Newtonsoft.Json.Utilities::IWrappedCollection*
 class CORDL_TYPE IWrappedCollection {
 public:

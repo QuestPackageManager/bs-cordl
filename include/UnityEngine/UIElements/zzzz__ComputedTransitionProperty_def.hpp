@@ -23,8 +23,8 @@ MARK_VAL_T(::UnityEngine::UIElements::ComputedTransitionProperty);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7487))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7287))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6746))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6546))
 // CS Name: ::UnityEngine.UIElements::ComputedTransitionProperty
 struct CORDL_TYPE ComputedTransitionProperty {
 public:

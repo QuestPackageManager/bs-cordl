@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ControllersTransformSettingsViewController);
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 184, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5619))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13558))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4924))
 // CS Name: ::ControllersTransformSettingsViewController*
 class CORDL_TYPE ControllersTransformSettingsViewController : public ::HMUI::ViewController {
 public:
@@ -111,24 +111,24 @@ public:
 
   constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
 
-  /// @brief Method DidActivate, addr 0x22ae914, size 0x570, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x22e1e48, size 0x570, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x22aee84, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x22e23b8, size 0xac, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method OnDestroy, addr 0x22aef30, size 0x338, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x22e2464, size 0x338, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandlePositionSliderValueDidChange, addr 0x22af268, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method HandlePositionSliderValueDidChange, addr 0x22e279c, size 0x120, virtual false, abstract: false, final false
   inline void HandlePositionSliderValueDidChange(::HMUI::RangeValuesTextSlider* slider, float_t value);
 
-  /// @brief Method HandleRotationSliderValueDidChange, addr 0x22af388, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method HandleRotationSliderValueDidChange, addr 0x22e28bc, size 0x118, virtual false, abstract: false, final false
   inline void HandleRotationSliderValueDidChange(::HMUI::RangeValuesTextSlider* slider, float_t value);
 
   static inline ::GlobalNamespace::ControllersTransformSettingsViewController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22af4a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22e29d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ControllersTransformSettingsViewController", modifiers: "&&", def_value: None }]

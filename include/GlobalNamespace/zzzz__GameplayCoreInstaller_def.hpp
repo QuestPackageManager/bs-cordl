@@ -53,8 +53,8 @@ MARK_REF_PTR_T(::GlobalNamespace::GameplayCoreInstaller);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11138))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5393))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10280))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4695))
 // CS Name: ::GameplayCoreInstaller*
 class CORDL_TYPE GameplayCoreInstaller : public ::Zenject::MonoInstaller {
 public:
@@ -184,15 +184,15 @@ public:
 
   constexpr void __cordl_internal_set__relativeSfxVolumePerLevelModel(::GlobalNamespace::RelativeSfxVolumePerLevelModel* value);
 
-  /// @brief Method InstallBindings, addr 0x226ff3c, size 0x1b30, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x23cbc14, size 0x1524, virtual true, abstract: false, final false
   inline void InstallBindings();
 
-  /// @brief Method InstallRecordingTool, addr 0x2271a6c, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method InstallRecordingTool, addr 0x23cd138, size 0x124, virtual false, abstract: false, final false
   inline void InstallRecordingTool();
 
   static inline ::GlobalNamespace::GameplayCoreInstaller* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2271b90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23cd25c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GameplayCoreInstaller", modifiers: "&&", def_value: None }]

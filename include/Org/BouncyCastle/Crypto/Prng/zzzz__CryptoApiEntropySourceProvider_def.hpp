@@ -78,16 +78,16 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Prng::__CryptoApiEntropySourceProvider__CryptoApiEntropySource* New_ctor(::System::Security::Cryptography::RandomNumberGenerator* rng,
                                                                                                                       bool predictionResistant, int32_t entropySize);
 
-  /// @brief Method .ctor, addr 0xf41d68, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf6cbf8, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::RandomNumberGenerator* rng, bool predictionResistant, int32_t entropySize);
 
-  /// @brief Method Org.BouncyCastle.Crypto.IEntropySource.get_IsPredictionResistant, addr 0xf41da8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Org.BouncyCastle.Crypto.IEntropySource.get_IsPredictionResistant, addr 0xf6cc38, size 0x8, virtual true, abstract: false, final true
   inline bool Org_BouncyCastle_Crypto_IEntropySource_get_IsPredictionResistant();
 
-  /// @brief Method Org.BouncyCastle.Crypto.IEntropySource.GetEntropy, addr 0xf41db0, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method Org.BouncyCastle.Crypto.IEntropySource.GetEntropy, addr 0xf6cc40, size 0x88, virtual true, abstract: false, final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org_BouncyCastle_Crypto_IEntropySource_GetEntropy();
 
-  /// @brief Method Org.BouncyCastle.Crypto.IEntropySource.get_EntropySize, addr 0xf41e38, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Org.BouncyCastle.Crypto.IEntropySource.get_EntropySize, addr 0xf6ccc8, size 0x8, virtual true, abstract: false, final true
   inline int32_t Org_BouncyCastle_Crypto_IEntropySource_get_EntropySize();
 
   // Ctor Parameters [CppParam { name: "", ty: "__CryptoApiEntropySourceProvider__CryptoApiEntropySource", modifiers: "&&", def_value: None }]
@@ -163,15 +163,15 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Prng::CryptoApiEntropySourceProvider* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf41c40, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf6cad0, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Prng::CryptoApiEntropySourceProvider* New_ctor(::System::Security::Cryptography::RandomNumberGenerator* rng, bool isPredictionResistant);
 
-  /// @brief Method .ctor, addr 0xf41c64, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf6caf4, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::RandomNumberGenerator* rng, bool isPredictionResistant);
 
-  /// @brief Method Get, addr 0xf41ce8, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method Get, addr 0xf6cb78, size 0x80, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::IEntropySource* Get(int32_t bitsRequired);
 
   // Ctor Parameters [CppParam { name: "", ty: "CryptoApiEntropySourceProvider", modifiers: "&&", def_value: None }]

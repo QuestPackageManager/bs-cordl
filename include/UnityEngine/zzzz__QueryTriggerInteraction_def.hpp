@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::QueryTriggerInteraction);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15503))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13954))
 // CS Name: ::UnityEngine::QueryTriggerInteraction
 struct CORDL_TYPE QueryTriggerInteraction {
 public:

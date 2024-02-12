@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::RenderingPath);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10101))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8834))
 // CS Name: ::UnityEngine::RenderingPath
 struct CORDL_TYPE RenderingPath {
 public:

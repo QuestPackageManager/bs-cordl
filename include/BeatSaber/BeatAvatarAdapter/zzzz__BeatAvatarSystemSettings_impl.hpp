@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AddressableAssets::AssetReferenceGameObject* (
     ::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings::*)()>(&::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings::get_avatarGameplayPrefab)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xe14b78;
+  constexpr static std::size_t addrs = 0xe20760;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings*>::get(),
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AddressableAssets::AssetReferenceGameObject* (
     ::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings::*)()>(&::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings::get_avatarResultsPrefab)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xe14b80;
+  constexpr static std::size_t addrs = 0xe20768;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings*>::get(),
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AddressableAssets::AssetReferenceGameObject* (
     ::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings::*)()>(&::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings::get_avatarHologramPrefab)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xe14b88;
+  constexpr static std::size_t addrs = 0xe20770;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings*>::get(),
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AddressableAssets::AssetReferenceGameObject* (
     ::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings::*)()>(&::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings::get_avatarEditorPrefab)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xe14b90;
+  constexpr static std::size_t addrs = 0xe20778;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings*>::get(),
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AddressableAssets::AssetReferenceGameObject* (
     ::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings::*)()>(&::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings::get_avatarSelectionViewPrefab)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xe14b98;
+  constexpr static std::size_t addrs = 0xe20780;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings*>::get(),
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AddressableAssets::AssetReferenceGameObject* (
     ::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings::*)()>(&::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings::get_avatarForUnityEditorPrefab)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xe14ba0;
+  constexpr static std::size_t addrs = 0xe20788;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings*>::get(),
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings::*)()>(
     &::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xe14ba8;
+  constexpr static std::size_t addrs = 0xe20790;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings*>::get(),

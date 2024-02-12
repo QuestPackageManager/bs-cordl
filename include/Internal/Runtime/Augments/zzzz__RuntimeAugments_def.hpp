@@ -34,10 +34,10 @@ public:
 
   static inline ::Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks* getStaticF_s_reflectionExecutionDomainCallbacks();
 
-  /// @brief Method ReportUnhandledException, addr 0x242c5d4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ReportUnhandledException, addr 0x244c438, size 0x20, virtual false, abstract: false, final false
   static inline void ReportUnhandledException(::System::Exception* exception);
 
-  /// @brief Method get_Callbacks, addr 0x242c5f4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Callbacks, addr 0x244c458, size 0x58, virtual false, abstract: false, final false
   static inline ::Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks* get_Callbacks();
 
   // Ctor Parameters [CppParam { name: "", ty: "RuntimeAugments", modifiers: "&&", def_value: None }]

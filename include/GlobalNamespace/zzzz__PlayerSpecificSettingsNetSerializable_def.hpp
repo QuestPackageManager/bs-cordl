@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::GlobalNamespace::PlayerSpecificSettingsNetSerializable);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 156, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12690))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12927))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12588))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12825))
 // CS Name: ::PlayerSpecificSettingsNetSerializable*
 class CORDL_TYPE PlayerSpecificSettingsNetSerializable : public ::System::Object {
 public:
@@ -106,7 +106,7 @@ public:
 
   static inline ::GlobalNamespace::PlayerSpecificSettingsNetSerializable* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe52590, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe7d3c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::PlayerSpecificSettingsNetSerializable* New_ctor(::StringW userId, ::StringW userName, bool leftHanded, bool automaticPlayerHeight, float_t playerHeight,
@@ -114,15 +114,15 @@ public:
                                                                                    ::UnityEngine::Color obstaclesColor, ::UnityEngine::Color environmentColor0, ::UnityEngine::Color environmentColor1,
                                                                                    ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost);
 
-  /// @brief Method .ctor, addr 0xe52630, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe7d468, size 0x140, virtual false, abstract: false, final false
   inline void _ctor(::StringW userId, ::StringW userName, bool leftHanded, bool automaticPlayerHeight, float_t playerHeight, float_t headPosToPlayerHeightOffset, ::UnityEngine::Color saberAColor,
                     ::UnityEngine::Color saberBColor, ::UnityEngine::Color obstaclesColor, ::UnityEngine::Color environmentColor0, ::UnityEngine::Color environmentColor1,
                     ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost);
 
-  /// @brief Method Serialize, addr 0xe523a8, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0xe7d1e0, size 0x90, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method Deserialize, addr 0xe52598, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0xe7d3d0, size 0x98, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
   // Ctor Parameters [CppParam { name: "", ty: "PlayerSpecificSettingsNetSerializable", modifiers: "&&", def_value: None }]

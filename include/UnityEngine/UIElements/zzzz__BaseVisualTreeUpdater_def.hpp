@@ -36,7 +36,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::BaseVisualTreeUpdater);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6754))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6013))
 // CS Name: ::UnityEngine.UIElements::BaseVisualTreeUpdater*
 class CORDL_TYPE BaseVisualTreeUpdater : public ::System::Object {
 public:
@@ -77,28 +77,28 @@ public:
 
   constexpr void __cordl_internal_set_m_Panel(::UnityEngine::UIElements::BaseVisualElementPanel* value);
 
-  /// @brief Method add_panelChanged, addr 0x2db2ba4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_panelChanged, addr 0x2dd0f8c, size 0xb0, virtual false, abstract: false, final false
   inline void add_panelChanged(::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel*>* value);
 
-  /// @brief Method remove_panelChanged, addr 0x2db2c54, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_panelChanged, addr 0x2dd103c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_panelChanged(::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel*>* value);
 
-  /// @brief Method get_panel, addr 0x2db2d04, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_panel, addr 0x2dd10ec, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::BaseVisualElementPanel* get_panel();
 
-  /// @brief Method set_panel, addr 0x2db2d0c, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method set_panel, addr 0x2dd10f4, size 0x20, virtual true, abstract: false, final true
   inline void set_panel(::UnityEngine::UIElements::BaseVisualElementPanel* value);
 
-  /// @brief Method get_visualTree, addr 0x2db2d2c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_visualTree, addr 0x2dd1114, size 0x24, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_visualTree();
 
   /// @brief Method get_profilerMarker, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Unity::Profiling::ProfilerMarker get_profilerMarker();
 
-  /// @brief Method Dispose, addr 0x2db2d50, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2dd1138, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x2db2dbc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x2dd11a4, size 0x4, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   /// @brief Method Update, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -109,7 +109,7 @@ public:
 
   static inline ::UnityEngine::UIElements::BaseVisualTreeUpdater* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2db2dc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dd11a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BaseVisualTreeUpdater", modifiers: "&&", def_value: None }]

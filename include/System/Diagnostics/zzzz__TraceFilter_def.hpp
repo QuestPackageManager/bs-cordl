@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::System::Diagnostics::TraceFilter);
 namespace System::Diagnostics {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8940))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6950))
 // CS Name: ::System.Diagnostics::TraceFilter*
 class CORDL_TYPE TraceFilter : public ::System::Object {
 public:
@@ -36,7 +36,7 @@ public:
   inline bool ShouldTrace(::System::Diagnostics::TraceEventCache* cache, ::StringW source, ::System::Diagnostics::TraceEventType eventType, int32_t id, ::StringW formatOrMessage,
                           ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args, ::System::Object* data1, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> data);
 
-  /// @brief Method ShouldTrace, addr 0x296d088, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ShouldTrace, addr 0x2970fa8, size 0x2c, virtual false, abstract: false, final false
   inline bool ShouldTrace(::System::Diagnostics::TraceEventCache* cache, ::StringW source, ::System::Diagnostics::TraceEventType eventType, int32_t id, ::StringW formatOrMessage);
 
   // Ctor Parameters [CppParam { name: "", ty: "TraceFilter", modifiers: "&&", def_value: None }]

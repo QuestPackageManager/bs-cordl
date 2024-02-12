@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::GlobalNamespace::FriendsViewController);
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 177, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5725))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5634))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5027))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4938))
 // CS Name: ::FriendsViewController*
 class CORDL_TYPE FriendsViewController : public ::GlobalNamespace::NetworkPlayersViewController {
 public:
@@ -87,33 +87,33 @@ public:
 
   constexpr void __cordl_internal_set__allowAnyoneToJoin(bool value);
 
-  /// @brief Method get_myPartyTitle, addr 0x22b113c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_myPartyTitle, addr 0x22e4400, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_myPartyTitle();
 
-  /// @brief Method get_otherPlayersTitle, addr 0x22b117c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_otherPlayersTitle, addr 0x22e4440, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_otherPlayersTitle();
 
-  /// @brief Method get_networkPlayerModel, addr 0x22b11bc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_networkPlayerModel, addr 0x22e4480, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::INetworkPlayerModel* get_networkPlayerModel();
 
-  /// @brief Method NetworkPlayersViewControllerDidActivate, addr 0x22b11c4, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method NetworkPlayersViewControllerDidActivate, addr 0x22e4488, size 0x10c, virtual true, abstract: false, final false
   inline void NetworkPlayersViewControllerDidActivate(bool firstActivation, bool addedToHierarchy);
 
-  /// @brief Method DidDeactivate, addr 0x22b1450, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x22e4714, size 0x44, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method OnDestroy, addr 0x22b1494, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x22e4758, size 0x28, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleOpenPartyToggleChanged, addr 0x22b14bc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method HandleOpenPartyToggleChanged, addr 0x22e4780, size 0x10, virtual false, abstract: false, final false
   inline void HandleOpenPartyToggleChanged(bool openParty);
 
-  /// @brief Method RefreshParty, addr 0x22b12d0, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method RefreshParty, addr 0x22e4594, size 0x180, virtual false, abstract: false, final false
   inline void RefreshParty(bool overrideHide);
 
   static inline ::GlobalNamespace::FriendsViewController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22b14cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22e4790, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FriendsViewController", modifiers: "&&", def_value: None }]

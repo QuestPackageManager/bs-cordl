@@ -46,18 +46,18 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::DefaultAuthenticatedAttributeTableGenerator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1200298, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x122d128, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Cms::DefaultAuthenticatedAttributeTableGenerator* New_ctor(::Org::BouncyCastle::Asn1::Cms::AttributeTable* attributeTable);
 
-  /// @brief Method .ctor, addr 0x1200300, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x122d190, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::AttributeTable* attributeTable);
 
-  /// @brief Method CreateStandardAttributeTable, addr 0x1200380, size 0x528, virtual true, abstract: false, final false
+  /// @brief Method CreateStandardAttributeTable, addr 0x122d210, size 0x528, virtual true, abstract: false, final false
   inline ::System::Collections::IDictionary* CreateStandardAttributeTable(::System::Collections::IDictionary* parameters);
 
-  /// @brief Method GetAttributes, addr 0x12008a8, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method GetAttributes, addr 0x122d738, size 0x8c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* GetAttributes(::System::Collections::IDictionary* parameters);
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultAuthenticatedAttributeTableGenerator", modifiers: "&&", def_value: None }]

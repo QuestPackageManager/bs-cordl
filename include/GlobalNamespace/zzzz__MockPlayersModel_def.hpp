@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::GlobalNamespace::MockPlayersModel);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5186))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4525))
 // CS Name: ::MockPlayersModel*
 class CORDL_TYPE MockPlayersModel : public ::System::Object {
 public:
   // Declarations
   static inline ::GlobalNamespace::MockPlayersModel* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22444e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23a22e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MockPlayersModel", modifiers: "&&", def_value: None }]

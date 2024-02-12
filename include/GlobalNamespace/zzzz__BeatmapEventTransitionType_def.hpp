@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::BeatmapEventTransitionType);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14728))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15112))
 // CS Name: ::BeatmapEventTransitionType
 struct CORDL_TYPE BeatmapEventTransitionType {
 public:

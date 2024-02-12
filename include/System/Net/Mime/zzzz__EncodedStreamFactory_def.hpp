@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::System::Net::Mime::EncodedStreamFactory);
 namespace System::Net::Mime {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9375))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7385))
 // CS Name: ::System.Net.Mime::EncodedStreamFactory*
 class CORDL_TYPE EncodedStreamFactory : public ::System::Object {
 public:
   // Declarations
   static inline ::System::Net::Mime::EncodedStreamFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2901770, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2905dd8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EncodedStreamFactory", modifiers: "&&", def_value: None }]

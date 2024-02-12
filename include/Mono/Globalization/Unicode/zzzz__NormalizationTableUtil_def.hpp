@@ -59,10 +59,10 @@ public:
 
   static inline ::Mono::Globalization::Unicode::CodePointIndexer* getStaticF_Helper();
 
-  /// @brief Method PropIdx, addr 0x2417d1c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method PropIdx, addr 0x2437b7c, size 0x68, virtual false, abstract: false, final false
   static inline int32_t PropIdx(int32_t cp);
 
-  /// @brief Method MapIdx, addr 0x2417d84, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method MapIdx, addr 0x2437be4, size 0x68, virtual false, abstract: false, final false
   static inline int32_t MapIdx(int32_t cp);
 
   // Ctor Parameters [CppParam { name: "", ty: "NormalizationTableUtil", modifiers: "&&", def_value: None }]

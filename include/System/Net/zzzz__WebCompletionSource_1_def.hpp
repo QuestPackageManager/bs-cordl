@@ -69,8 +69,8 @@ namespace System::Net {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9209)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9209), inst: 5027 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9209))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7219)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7219), inst: 4998 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7219))
 // CS Name: ::WebCompletionSource`1::Status<T>
 struct CORDL_TYPE __WebCompletionSource_1__Status {
 public:
@@ -125,8 +125,8 @@ namespace System::Net {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9209)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9209), inst: 5026
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(9210)) CS Name: ::WebCompletionSource`1::Result<T>*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7219)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7219), inst: 4997
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7220)) CS Name: ::WebCompletionSource`1::Result<T>*
 class CORDL_TYPE __WebCompletionSource_1__Result : public ::System::Object {
 public:
   // Declarations
@@ -222,9 +222,9 @@ namespace System::Net {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(9210)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 1122 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 101 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9210), inst: 101 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(9211)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3398)), TypeDefinitionIndex(TypeDefinitionIndex(7220)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3393), inst: 1113 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3398), inst: 105 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7220), inst: 105 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7221)) CS Name:
 // ::WebCompletionSource`1::<WaitForCompletion>d__15<T>
 struct CORDL_TYPE __WebCompletionSource_1___WaitForCompletion_d__15 {
 public:
@@ -279,7 +279,7 @@ namespace System::Net {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9212))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7222))
 // CS Name: ::System.Net::WebCompletionSource`1<T>*
 class CORDL_TYPE WebCompletionSource_1 : public ::System::Object {
 public:

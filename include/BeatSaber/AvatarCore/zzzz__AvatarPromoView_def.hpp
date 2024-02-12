@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::BeatSaber::AvatarCore::AvatarPromoView);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15175))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15255))
 // CS Name: ::BeatSaber.AvatarCore::AvatarPromoView*
 class CORDL_TYPE AvatarPromoView : public ::UnityEngine::MonoBehaviour {
 public:
@@ -34,12 +34,12 @@ public:
 
   constexpr void __cordl_internal_set__rectTransform(::UnityW<::UnityEngine::RectTransform> value);
 
-  /// @brief Method get_rectTransform, addr 0xe0bdb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rectTransform, addr 0xe172b8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RectTransform> get_rectTransform();
 
   static inline ::BeatSaber::AvatarCore::AvatarPromoView* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe0bdc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe172c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AvatarPromoView", modifiers: "&&", def_value: None }]

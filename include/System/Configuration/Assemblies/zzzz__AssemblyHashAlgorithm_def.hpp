@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Configuration::Assemblies::AssemblyHashAlgorithm);
 namespace System::Configuration::Assemblies {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3750))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3749))
 // CS Name: ::System.Configuration.Assemblies::AssemblyHashAlgorithm
 struct CORDL_TYPE AssemblyHashAlgorithm {
 public:

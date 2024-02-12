@@ -38,7 +38,7 @@ MARK_REF_PTR_T(::System::CultureAwareComparer);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2474)), TypeDefinitionIndex(TypeDefinitionIndex(3659))]
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2474)), TypeDefinitionIndex(TypeDefinitionIndex(3657))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2475))
 // CS Name: ::System::CultureAwareComparer*
 class CORDL_TYPE CultureAwareComparer : public ::System::StringComparer {
@@ -70,35 +70,35 @@ public:
 
   static inline ::System::CultureAwareComparer* New_ctor(::System::Globalization::CultureInfo* culture, ::System::Globalization::CompareOptions options);
 
-  /// @brief Method .ctor, addr 0x25c534c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25e7264, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::System::Globalization::CultureInfo* culture, ::System::Globalization::CompareOptions options);
 
   static inline ::System::CultureAwareComparer* New_ctor(::System::Globalization::CompareInfo* compareInfo, ::System::Globalization::CompareOptions options);
 
-  /// @brief Method .ctor, addr 0x25c53a0, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25e72b8, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(::System::Globalization::CompareInfo* compareInfo, ::System::Globalization::CompareOptions options);
 
   static inline ::System::CultureAwareComparer* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x25c5484, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25e739c, size 0x20c, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method Compare, addr 0x25c5690, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Compare, addr 0x25e75a8, size 0x54, virtual true, abstract: false, final false
   inline int32_t Compare(::StringW x, ::StringW y);
 
-  /// @brief Method Equals, addr 0x25c56e4, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x25e75fc, size 0x50, virtual true, abstract: false, final false
   inline bool Equals(::StringW x, ::StringW y);
 
-  /// @brief Method GetHashCode, addr 0x25c5734, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x25e764c, size 0x74, virtual true, abstract: false, final false
   inline int32_t GetHashCode(::StringW obj);
 
-  /// @brief Method Equals, addr 0x25c57a8, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x25e76c0, size 0x98, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x25c5840, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x25e7758, size 0x34, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetObjectData, addr 0x25c5874, size 0xec, virtual true, abstract: false, final true
+  /// @brief Method GetObjectData, addr 0x25e778c, size 0xec, virtual true, abstract: false, final true
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "CultureAwareComparer", modifiers: "&&", def_value: None }]

@@ -62,7 +62,7 @@ namespace UnityEngine::InputSystem::Utilities {
 template <typename TValue>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6656))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5915))
 // CS Name: ::ArrayHelpers::<>c__DisplayClass33_0`1<TValue>*
 class CORDL_TYPE __ArrayHelpers____c__DisplayClass33_0_1 : public ::System::Object {
 public:
@@ -112,7 +112,7 @@ namespace UnityEngine::InputSystem::Utilities {
 template <typename TValue>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6657))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5916))
 // CS Name: ::ArrayHelpers::<>c__DisplayClass34_0`1<TValue>*
 class CORDL_TYPE __ArrayHelpers____c__DisplayClass34_0_1 : public ::System::Object {
 public:
@@ -159,7 +159,7 @@ namespace UnityEngine::InputSystem::Utilities {
 template <typename TValue>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6658))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5917))
 // CS Name: ::ArrayHelpers::<>c__DisplayClass34_1`1<TValue>*
 class CORDL_TYPE __ArrayHelpers____c__DisplayClass34_1_1 : public ::System::Object {
 public:
@@ -220,7 +220,7 @@ public:
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6659))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5918))
 // CS Name: ::UnityEngine.InputSystem.Utilities::ArrayHelpers*
 class CORDL_TYPE ArrayHelpers : public ::System::Object {
 public:

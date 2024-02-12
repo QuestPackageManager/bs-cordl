@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::DerSetParser::*)(::Org::BouncyCastle::Asn1::Asn1StreamParser*)>(
     &::Org::BouncyCastle::Asn1::DerSetParser::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x11ba3a8;
+  constexpr static std::size_t addrs = 0x11e7238;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::IAsn1Convertible* (::Org::BouncyCastle::Asn1::DerSetParser::*)()>(
     &::Org::BouncyCastle::Asn1::DerSetParser::ReadObject)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x11c4174;
+  constexpr static std::size_t addrs = 0x11f1004;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::DerSetParser*>::get(), "ReadObject",
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::DerSetParser::*)()>(
     &::Org::BouncyCastle::Asn1::DerSetParser::ToAsn1Object)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x11c4194;
+  constexpr static std::size_t addrs = 0x11f1024;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::DerSetParser*>::get(), "ToAsn1Object",

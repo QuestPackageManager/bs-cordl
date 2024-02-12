@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerBadgeAwardData);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5111))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10906))
 // CS Name: ::MultiplayerBadgeAwardData*
 class CORDL_TYPE MultiplayerBadgeAwardData : public ::System::Object {
 public:
@@ -108,28 +108,28 @@ public:
 
   constexpr void __cordl_internal_set__badgeData(::UnityW<::GlobalNamespace::MultiplayerBadgeDataSO> value);
 
-  /// @brief Method get_awardedPlayer, addr 0x23cf92c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_awardedPlayer, addr 0x1298178, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IConnectedPlayer* get_awardedPlayer();
 
-  /// @brief Method get_titleLocalizationKey, addr 0x23cf934, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_titleLocalizationKey, addr 0x1298180, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW get_titleLocalizationKey();
 
-  /// @brief Method get_title, addr 0x23cf950, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_title, addr 0x129819c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_title();
 
-  /// @brief Method get_subtitle, addr 0x23cf958, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_subtitle, addr 0x12981a4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_subtitle();
 
-  /// @brief Method get_icon, addr 0x23cf960, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_icon, addr 0x12981ac, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_icon();
 
   static inline ::GlobalNamespace::MultiplayerBadgeAwardData* New_ctor(::GlobalNamespace::IConnectedPlayer* awardedPlayer, float_t weight, ::StringW title, ::StringW subtitle,
                                                                        ::GlobalNamespace::MultiplayerBadgeDataSO* badgeData);
 
-  /// @brief Method .ctor, addr 0x23cdbfc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12963cc, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IConnectedPlayer* awardedPlayer, float_t weight, ::StringW title, ::StringW subtitle, ::GlobalNamespace::MultiplayerBadgeDataSO* badgeData);
 
-  /// @brief Method CompareTo, addr 0x23cf968, size 0xf0, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x12981b4, size 0xf0, virtual true, abstract: false, final true
   inline int32_t CompareTo(::System::Object* obj);
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBadgeAwardData", modifiers: "&&", def_value: None }]

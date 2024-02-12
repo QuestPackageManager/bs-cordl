@@ -2,9 +2,10 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__LevelCollectionTableView_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapLevelsPromoDataSO_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapLevel_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapLevelsModel_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapLevelsPromoModel_def.hpp"
 #include "GlobalNamespace/zzzz__IAdditionalContentModel_def.hpp"
-#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
 #include "GlobalNamespace/zzzz__LevelCollectionTableView_def.hpp"
 #include "GlobalNamespace/zzzz__LevelListTableCell_def.hpp"
 #include "GlobalNamespace/zzzz__LevelPackHeaderTableCell_def.hpp"
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LevelCollectionTableView____c::*)()>(
     &::GlobalNamespace::__LevelCollectionTableView____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22e6d28;
+  constexpr static std::size_t addrs = 0x23160dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LevelCollectionTableView____c*>::get(),
@@ -32,18 +33,18 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__LevelCollectionTableView____c._SetData_b__27_0
+//  Writing Method size for method: ::GlobalNamespace::__LevelCollectionTableView____c._SetData_b__28_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__LevelCollectionTableView____c::*)(::GlobalNamespace::IPreviewBeatmapLevel*)>(
-    &::GlobalNamespace::__LevelCollectionTableView____c::_SetData_b__27_0)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x22e6d30;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__LevelCollectionTableView____c::*)(::GlobalNamespace::BeatmapLevel*)>(
+    &::GlobalNamespace::__LevelCollectionTableView____c::_SetData_b__28_0)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x23160e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LevelCollectionTableView____c*>::get(), "<SetData>b__27_0", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IPreviewBeatmapLevel*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LevelCollectionTableView____c*>::get(), "<SetData>b__28_0", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevel*>::get() })));
     return ___internal_method;
   }
 };
@@ -56,13 +57,13 @@ inline ::GlobalNamespace::__LevelCollectionTableView____c* GlobalNamespace::__Le
   return ::cordl_internals::getStaticField<::GlobalNamespace::__LevelCollectionTableView____c*, "<>9",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LevelCollectionTableView____c*>::get>();
 }
-inline void GlobalNamespace::__LevelCollectionTableView____c::setStaticF___9__27_0(::System::Func_2<::GlobalNamespace::IPreviewBeatmapLevel*, bool>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::GlobalNamespace::IPreviewBeatmapLevel*, bool>*, "<>9__27_0",
+inline void GlobalNamespace::__LevelCollectionTableView____c::setStaticF___9__28_0(::System::Func_2<::GlobalNamespace::BeatmapLevel*, bool>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::GlobalNamespace::BeatmapLevel*, bool>*, "<>9__28_0",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LevelCollectionTableView____c*>::get>(
-      std::forward<::System::Func_2<::GlobalNamespace::IPreviewBeatmapLevel*, bool>*>(value));
+      std::forward<::System::Func_2<::GlobalNamespace::BeatmapLevel*, bool>*>(value));
 }
-inline ::System::Func_2<::GlobalNamespace::IPreviewBeatmapLevel*, bool>* GlobalNamespace::__LevelCollectionTableView____c::getStaticF___9__27_0() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::GlobalNamespace::IPreviewBeatmapLevel*, bool>*, "<>9__27_0",
+inline ::System::Func_2<::GlobalNamespace::BeatmapLevel*, bool>* GlobalNamespace::__LevelCollectionTableView____c::getStaticF___9__28_0() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::GlobalNamespace::BeatmapLevel*, bool>*, "<>9__28_0",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LevelCollectionTableView____c*>::get>();
 }
 inline ::GlobalNamespace::__LevelCollectionTableView____c* GlobalNamespace::__LevelCollectionTableView____c::New_ctor() {
@@ -73,10 +74,10 @@ inline void GlobalNamespace::__LevelCollectionTableView____c::_ctor() {
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool GlobalNamespace::__LevelCollectionTableView____c::_SetData_b__27_0(::GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel) {
+inline bool GlobalNamespace::__LevelCollectionTableView____c::_SetData_b__28_0(::GlobalNamespace::BeatmapLevel* beatmapLevel) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LevelCollectionTableView____c*>::get(), "<SetData>b__27_0", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IPreviewBeatmapLevel*>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LevelCollectionTableView____c*>::get(), "<SetData>b__28_0", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevel*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, beatmapLevel);
 }
 // Ctor Parameters []
@@ -85,15 +86,15 @@ constexpr ::GlobalNamespace::__LevelCollectionTableView____c::__LevelCollectionT
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionTableView::*)(
-    ::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionTableView>, ::GlobalNamespace::IPreviewBeatmapLevel*>*)>(&::GlobalNamespace::LevelCollectionTableView::add_didSelectLevelEvent)> {
+    ::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionTableView>, ::GlobalNamespace::BeatmapLevel*>*)>(&::GlobalNamespace::LevelCollectionTableView::add_didSelectLevelEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22e4b7c;
+  constexpr static std::size_t addrs = 0x2314528;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCollectionTableView*>::get(), "add_didSelectLevelEvent", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionTableView>, ::GlobalNamespace::IPreviewBeatmapLevel*>*>::get() })));
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionTableView>, ::GlobalNamespace::BeatmapLevel*>*>::get() })));
     return ___internal_method;
   }
 };
@@ -101,15 +102,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionTableView::*)(
-    ::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionTableView>, ::GlobalNamespace::IPreviewBeatmapLevel*>*)>(&::GlobalNamespace::LevelCollectionTableView::remove_didSelectLevelEvent)> {
+    ::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionTableView>, ::GlobalNamespace::BeatmapLevel*>*)>(&::GlobalNamespace::LevelCollectionTableView::remove_didSelectLevelEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22e4c2c;
+  constexpr static std::size_t addrs = 0x23145d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCollectionTableView*>::get(), "remove_didSelectLevelEvent", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionTableView>, ::GlobalNamespace::IPreviewBeatmapLevel*>*>::get() })));
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionTableView>, ::GlobalNamespace::BeatmapLevel*>*>::get() })));
     return ___internal_method;
   }
 };
@@ -119,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionTableView::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::LevelCollectionTableView>>*)>(&::GlobalNamespace::LevelCollectionTableView::add_didSelectHeaderEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22e4cdc;
+  constexpr static std::size_t addrs = 0x2314688;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -134,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionTableView::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::LevelCollectionTableView>>*)>(&::GlobalNamespace::LevelCollectionTableView::remove_didSelectHeaderEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22e4d8c;
+  constexpr static std::size_t addrs = 0x2314738;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -149,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionTableView::*)(::StringW, ::UnityEngine::Sprite*)>(
     &::GlobalNamespace::LevelCollectionTableView::Init)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x22e4e3c;
+  constexpr static std::size_t addrs = 0x23147e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -164,7 +165,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionTableView::*)()>(&::GlobalNamespace::LevelCollectionTableView::Init)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x22e4e7c;
+  constexpr static std::size_t addrs = 0x2314828;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCollectionTableView*>::get(), "Init",
@@ -176,15 +177,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionTableView::*)(
-    ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IPreviewBeatmapLevel*>*, ::System::Collections::Generic::HashSet_1<::StringW>*, bool, bool)>(
+    ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevel*>*, ::System::Collections::Generic::HashSet_1<::StringW>*, bool, bool)>(
     &::GlobalNamespace::LevelCollectionTableView::SetData)> {
   constexpr static std::size_t size = 0x340;
-  constexpr static std::size_t addrs = 0x22e4f3c;
+  constexpr static std::size_t addrs = 0x23148e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCollectionTableView*>::get(), "SetData", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IPreviewBeatmapLevel*>*>::get(),
+        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevel*>*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::HashSet_1<::StringW>*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
@@ -196,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionTableView::*)(::System::Collections::Generic::HashSet_1<::StringW>*)>(
     &::GlobalNamespace::LevelCollectionTableView::RefreshFavorites)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x22e527c;
+  constexpr static std::size_t addrs = 0x2314c28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -210,7 +211,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionTableView::*)()>(&::GlobalNamespace::LevelCollectionTableView::OnEnable)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x22e5388;
+  constexpr static std::size_t addrs = 0x2314d34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCollectionTableView*>::get(), "OnEnable",
@@ -223,7 +224,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionTableView::*)()>(&::GlobalNamespace::LevelCollectionTableView::OnDisable)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x22e5474;
+  constexpr static std::size_t addrs = 0x2314e20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCollectionTableView*>::get(), "OnDisable",
@@ -236,7 +237,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionTableView::*)()>(&::GlobalNamespace::LevelCollectionTableView::OnDestroy)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x22e5564;
+  constexpr static std::size_t addrs = 0x2314f10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCollectionTableView*>::get(), "OnDestroy",
@@ -249,7 +250,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::LevelCollectionTableView::*)()>(&::GlobalNamespace::LevelCollectionTableView::CellSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22e5638;
+  constexpr static std::size_t addrs = 0x2314fe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCollectionTableView*>::get(), "CellSize",
@@ -263,7 +264,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::LevelCollectionTableView::*)()>(
     &::GlobalNamespace::LevelCollectionTableView::NumberOfCells)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22e5640;
+  constexpr static std::size_t addrs = 0x2314fec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCollectionTableView*>::get(),
@@ -276,8 +277,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::HMUI::TableCell> (::GlobalNamespace::LevelCollectionTableView::*)(::HMUI::TableView*, int32_t)>(
     &::GlobalNamespace::LevelCollectionTableView::CellForIdx)> {
-  constexpr static std::size_t size = 0x3f8;
-  constexpr static std::size_t addrs = 0x22e56f0;
+  constexpr static std::size_t size = 0x32c;
+  constexpr static std::size_t addrs = 0x231509c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -293,7 +294,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionTableView::*)(::HMUI::TableView*, int32_t)>(
     &::GlobalNamespace::LevelCollectionTableView::HandleDidSelectRowEvent)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x22e5ed8;
+  constexpr static std::size_t addrs = 0x23153c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCollectionTableView*>::get(),
@@ -309,7 +310,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionTableView::*)()>(
     &::GlobalNamespace::LevelCollectionTableView::HandleAdditionalContentModelDidInvalidateData)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x22e5fec;
+  constexpr static std::size_t addrs = 0x23154dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -324,7 +325,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionTableView::*)()>(
     &::GlobalNamespace::LevelCollectionTableView::CancelAsyncOperations)> {
   constexpr static std::size_t size = 0x37c;
-  constexpr static std::size_t addrs = 0x22e6090;
+  constexpr static std::size_t addrs = 0x2315580;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCollectionTableView*>::get(),
@@ -337,8 +338,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionTableView::*)()>(
     &::GlobalNamespace::LevelCollectionTableView::RefreshLevelsAvailability)> {
-  constexpr static std::size_t size = 0x548;
-  constexpr static std::size_t addrs = 0x22e640c;
+  constexpr static std::size_t size = 0x4d8;
+  constexpr static std::size_t addrs = 0x23158fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCollectionTableView*>::get(),
@@ -352,7 +353,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionTableView::*)()>(
     &::GlobalNamespace::LevelCollectionTableView::SelectLevelPackHeaderCell)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x22e6954;
+  constexpr static std::size_t addrs = 0x2315dd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCollectionTableView*>::get(),
@@ -366,7 +367,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionTableView::*)()>(
     &::GlobalNamespace::LevelCollectionTableView::ClearSelection)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x22e6980;
+  constexpr static std::size_t addrs = 0x2315e00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCollectionTableView*>::get(),
@@ -377,15 +378,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::LevelCollectionTableView.SelectLevel
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionTableView::*)(::GlobalNamespace::IPreviewBeatmapLevel*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionTableView::*)(::GlobalNamespace::BeatmapLevel*)>(
     &::GlobalNamespace::LevelCollectionTableView::SelectLevel)> {
-  constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x22e69b0;
+  constexpr static std::size_t size = 0x1bc;
+  constexpr static std::size_t addrs = 0x2315e30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
         ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCollectionTableView*>::get(), "SelectLevel", std::span<Il2CppClass const* const, 0>(),
-                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IPreviewBeatmapLevel*>::get() })));
+                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevel*>::get() })));
     return ___internal_method;
   }
 };
@@ -394,7 +395,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionTableView::*)()>(&::GlobalNamespace::LevelCollectionTableView::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x22e6c38;
+  constexpr static std::size_t addrs = 0x2315fec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCollectionTableView*>::get(), ".ctor",
@@ -518,17 +519,29 @@ constexpr void GlobalNamespace::LevelCollectionTableView::__cordl_internal_set__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____additionalContentModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::GlobalNamespace::BeatmapLevelsPromoDataSO>& GlobalNamespace::LevelCollectionTableView::__cordl_internal_get__beatmapLevelsPromoData() {
+constexpr ::GlobalNamespace::BeatmapLevelsModel*& GlobalNamespace::LevelCollectionTableView::__cordl_internal_get__beatmapLevelsModel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____beatmapLevelsPromoData;
+  return this->____beatmapLevelsModel;
 }
-constexpr ::UnityW<::GlobalNamespace::BeatmapLevelsPromoDataSO> const& GlobalNamespace::LevelCollectionTableView::__cordl_internal_get__beatmapLevelsPromoData() const {
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelsModel*> const& GlobalNamespace::LevelCollectionTableView::__cordl_internal_get__beatmapLevelsModel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____beatmapLevelsPromoData;
+  return this->____beatmapLevelsModel;
 }
-constexpr void GlobalNamespace::LevelCollectionTableView::__cordl_internal_set__beatmapLevelsPromoData(::UnityW<::GlobalNamespace::BeatmapLevelsPromoDataSO> value) {
+constexpr void GlobalNamespace::LevelCollectionTableView::__cordl_internal_set__beatmapLevelsModel(::GlobalNamespace::BeatmapLevelsModel* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapLevelsPromoData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapLevelsModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::GlobalNamespace::BeatmapLevelsPromoModel*& GlobalNamespace::LevelCollectionTableView::__cordl_internal_get__beatmapLevelsPromoModel() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____beatmapLevelsPromoModel;
+}
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelsPromoModel*> const& GlobalNamespace::LevelCollectionTableView::__cordl_internal_get__beatmapLevelsPromoModel() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____beatmapLevelsPromoModel;
+}
+constexpr void GlobalNamespace::LevelCollectionTableView::__cordl_internal_set__beatmapLevelsPromoModel(::GlobalNamespace::BeatmapLevelsPromoModel* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapLevelsPromoModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityW<::GlobalNamespace::PlayerDataModel>& GlobalNamespace::LevelCollectionTableView::__cordl_internal_get__playerDataModel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -542,18 +555,18 @@ constexpr void GlobalNamespace::LevelCollectionTableView::__cordl_internal_set__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playerDataModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionTableView>, ::GlobalNamespace::IPreviewBeatmapLevel*>*&
+constexpr ::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionTableView>, ::GlobalNamespace::BeatmapLevel*>*&
 GlobalNamespace::LevelCollectionTableView::__cordl_internal_get_didSelectLevelEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didSelectLevelEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionTableView>, ::GlobalNamespace::IPreviewBeatmapLevel*>*> const&
+constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionTableView>, ::GlobalNamespace::BeatmapLevel*>*> const&
 GlobalNamespace::LevelCollectionTableView::__cordl_internal_get_didSelectLevelEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didSelectLevelEvent;
 }
 constexpr void GlobalNamespace::LevelCollectionTableView::__cordl_internal_set_didSelectLevelEvent(
-    ::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionTableView>, ::GlobalNamespace::IPreviewBeatmapLevel*>* value) {
+    ::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionTableView>, ::GlobalNamespace::BeatmapLevel*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didSelectLevelEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -582,18 +595,18 @@ constexpr void GlobalNamespace::LevelCollectionTableView::__cordl_internal_set__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isInitialized = value;
 }
-constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IPreviewBeatmapLevel*>*& GlobalNamespace::LevelCollectionTableView::__cordl_internal_get__previewBeatmapLevels() {
+constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevel*>*& GlobalNamespace::LevelCollectionTableView::__cordl_internal_get__beatmapLevels() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____previewBeatmapLevels;
+  return this->____beatmapLevels;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IPreviewBeatmapLevel*>*> const&
-GlobalNamespace::LevelCollectionTableView::__cordl_internal_get__previewBeatmapLevels() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevel*>*> const&
+GlobalNamespace::LevelCollectionTableView::__cordl_internal_get__beatmapLevels() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____previewBeatmapLevels;
+  return this->____beatmapLevels;
 }
-constexpr void GlobalNamespace::LevelCollectionTableView::__cordl_internal_set__previewBeatmapLevels(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IPreviewBeatmapLevel*>* value) {
+constexpr void GlobalNamespace::LevelCollectionTableView::__cordl_internal_set__beatmapLevels(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevel*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____previewBeatmapLevels)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapLevels)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityW<::UnityEngine::Sprite>& GlobalNamespace::LevelCollectionTableView::__cordl_internal_get__headerSprite() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -655,32 +668,30 @@ constexpr void GlobalNamespace::LevelCollectionTableView::__cordl_internal_set__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____selectedRow = value;
 }
-constexpr ::GlobalNamespace::IPreviewBeatmapLevel*& GlobalNamespace::LevelCollectionTableView::__cordl_internal_get__selectedPreviewBeatmapLevel() {
+constexpr ::GlobalNamespace::BeatmapLevel*& GlobalNamespace::LevelCollectionTableView::__cordl_internal_get__selectedBeatmapLevel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____selectedPreviewBeatmapLevel;
+  return this->____selectedBeatmapLevel;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IPreviewBeatmapLevel*> const& GlobalNamespace::LevelCollectionTableView::__cordl_internal_get__selectedPreviewBeatmapLevel() const {
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevel*> const& GlobalNamespace::LevelCollectionTableView::__cordl_internal_get__selectedBeatmapLevel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____selectedPreviewBeatmapLevel;
+  return this->____selectedBeatmapLevel;
 }
-constexpr void GlobalNamespace::LevelCollectionTableView::__cordl_internal_set__selectedPreviewBeatmapLevel(::GlobalNamespace::IPreviewBeatmapLevel* value) {
+constexpr void GlobalNamespace::LevelCollectionTableView::__cordl_internal_set__selectedBeatmapLevel(::GlobalNamespace::BeatmapLevel* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____selectedPreviewBeatmapLevel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____selectedBeatmapLevel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void
-GlobalNamespace::LevelCollectionTableView::add_didSelectLevelEvent(::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionTableView>, ::GlobalNamespace::IPreviewBeatmapLevel*>* value) {
+inline void GlobalNamespace::LevelCollectionTableView::add_didSelectLevelEvent(::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionTableView>, ::GlobalNamespace::BeatmapLevel*>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCollectionTableView*>::get(), "add_didSelectLevelEvent", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionTableView>, ::GlobalNamespace::IPreviewBeatmapLevel*>*>::get() })));
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionTableView>, ::GlobalNamespace::BeatmapLevel*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void
-GlobalNamespace::LevelCollectionTableView::remove_didSelectLevelEvent(::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionTableView>, ::GlobalNamespace::IPreviewBeatmapLevel*>* value) {
+inline void GlobalNamespace::LevelCollectionTableView::remove_didSelectLevelEvent(::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionTableView>, ::GlobalNamespace::BeatmapLevel*>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCollectionTableView*>::get(), "remove_didSelectLevelEvent", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionTableView>, ::GlobalNamespace::IPreviewBeatmapLevel*>*>::get() })));
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionTableView>, ::GlobalNamespace::BeatmapLevel*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::LevelCollectionTableView::add_didSelectHeaderEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelCollectionTableView>>* value) {
@@ -707,14 +718,14 @@ inline void GlobalNamespace::LevelCollectionTableView::Init() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::LevelCollectionTableView::SetData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IPreviewBeatmapLevel*>* previewBeatmapLevels,
-                                                               ::System::Collections::Generic::HashSet_1<::StringW>* favoriteLevelIds, bool beatmapLevelsAreSorted, bool sortPreviewBeatmapLevels) {
+inline void GlobalNamespace::LevelCollectionTableView::SetData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevel*>* beatmapLevels,
+                                                               ::System::Collections::Generic::HashSet_1<::StringW>* favoriteLevelIds, bool beatmapLevelsAreSorted, bool sortBeatmapLevels) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCollectionTableView*>::get(), "SetData", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IPreviewBeatmapLevel*>*>::get(),
+      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevel*>*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::HashSet_1<::StringW>*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, previewBeatmapLevels, favoriteLevelIds, beatmapLevelsAreSorted, sortPreviewBeatmapLevels);
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, beatmapLevels, favoriteLevelIds, beatmapLevelsAreSorted, sortBeatmapLevels);
 }
 inline void GlobalNamespace::LevelCollectionTableView::RefreshFavorites(::System::Collections::Generic::HashSet_1<::StringW>* favoriteLevelIds) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -785,10 +796,10 @@ inline void GlobalNamespace::LevelCollectionTableView::ClearSelection() {
                                                                              "ClearSelection", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::LevelCollectionTableView::SelectLevel(::GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel) {
+inline void GlobalNamespace::LevelCollectionTableView::SelectLevel(::GlobalNamespace::BeatmapLevel* beatmapLevel) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCollectionTableView*>::get(), "SelectLevel", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IPreviewBeatmapLevel*>::get() })));
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevel*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, beatmapLevel);
 }
 inline ::GlobalNamespace::LevelCollectionTableView* GlobalNamespace::LevelCollectionTableView::New_ctor() {

@@ -13,7 +13,7 @@ namespace GlobalNamespace {
 template <typename T> class __ShuffleExtensions___TakeWithTombstone_d__2_1;
 }
 namespace GlobalNamespace {
-template <typename T1, typename T2> class __ShuffleExtensions___ZipSkipTombstone_d__3_2;
+class __ShuffleExtensions___ZipSkipTombstone_d__3;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
@@ -53,13 +53,13 @@ namespace GlobalNamespace {
 template <typename T> class __ShuffleExtensions___TakeWithTombstone_d__2_1;
 }
 namespace GlobalNamespace {
-template <typename T1, typename T2> class __ShuffleExtensions___ZipSkipTombstone_d__3_2;
+class __ShuffleExtensions___ZipSkipTombstone_d__3;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ShuffleExtensions);
 MARK_GEN_REF_PTR_T(::GlobalNamespace::__ShuffleExtensions___PickRandomElementsWithTombstone_d__1_1);
 MARK_GEN_REF_PTR_T(::GlobalNamespace::__ShuffleExtensions___TakeWithTombstone_d__2_1);
-MARK_GEN_REF_PTR_T(::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2);
+MARK_REF_PTR_T(::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3);
 // Type: ::<PickRandomElementsWithTombstone>d__1`1
 // SizeInfo { instance_size: 120, native_size: 120, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
@@ -67,7 +67,7 @@ namespace GlobalNamespace {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15827))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15214))
 // CS Name: ::ShuffleExtensions::<PickRandomElementsWithTombstone>d__1`1<T>*
 class CORDL_TYPE __ShuffleExtensions___PickRandomElementsWithTombstone_d__1_1 : public ::System::Object {
 public:
@@ -352,7 +352,7 @@ namespace GlobalNamespace {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15828))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15215))
 // CS Name: ::ShuffleExtensions::<TakeWithTombstone>d__2`1<T>*
 class CORDL_TYPE __ShuffleExtensions___TakeWithTombstone_d__2_1 : public ::System::Object {
 public:
@@ -570,59 +570,59 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Type: ::<ZipSkipTombstone>d__3`2
-// SizeInfo { instance_size: 112, native_size: 112, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// Type: ::<ZipSkipTombstone>d__3
+// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
-// cpp template
-template <typename T1, typename T2>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2507)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2507), inst: 5306
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(15829)) CS Name: ::ShuffleExtensions::<ZipSkipTombstone>d__3`2<T1,T2>*
-class CORDL_TYPE __ShuffleExtensions___ZipSkipTombstone_d__3_2 : public ::System::Object {
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2507)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2507), inst: 530
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(15216)) CS Name: ::ShuffleExtensions::<ZipSkipTombstone>d__3*
+class CORDL_TYPE __ShuffleExtensions___ZipSkipTombstone_d__3 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
-  /// @brief Field <>2__current, offset 0x18, size 0x10
-  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::ValueTuple_2<T1, T2> __2__current;
+  /// @brief Field <>2__current, offset 0x14, size 0x8
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::ValueTuple_2<int32_t, int32_t> __2__current;
 
-  /// @brief Field <>l__initialThreadId, offset 0x28, size 0x4
+  /// @brief Field <>l__initialThreadId, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
-  /// @brief Field collection1, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_collection1, put = __cordl_internal_set_collection1))::System::Collections::Generic::IEnumerable_1<T1>* collection1;
+  /// @brief Field collection1, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_collection1, put = __cordl_internal_set_collection1))::System::Collections::Generic::IEnumerable_1<int32_t>* collection1;
 
-  /// @brief Field <>3__collection1, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get___3__collection1, put = __cordl_internal_set___3__collection1))::System::Collections::Generic::IEnumerable_1<T1>* __3__collection1;
+  /// @brief Field <>3__collection1, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get___3__collection1, put = __cordl_internal_set___3__collection1))::System::Collections::Generic::IEnumerable_1<int32_t>* __3__collection1;
 
-  /// @brief Field collection2, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_collection2, put = __cordl_internal_set_collection2))::System::Collections::Generic::IEnumerable_1<T2>* collection2;
+  /// @brief Field collection2, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_collection2, put = __cordl_internal_set_collection2))::System::Collections::Generic::IEnumerable_1<int32_t>* collection2;
 
-  /// @brief Field <>3__collection2, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get___3__collection2, put = __cordl_internal_set___3__collection2))::System::Collections::Generic::IEnumerable_1<T2>* __3__collection2;
+  /// @brief Field <>3__collection2, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get___3__collection2, put = __cordl_internal_set___3__collection2))::System::Collections::Generic::IEnumerable_1<int32_t>* __3__collection2;
 
-  /// @brief Field collection2Tombstone, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_collection2Tombstone, put = __cordl_internal_set_collection2Tombstone)) T2 collection2Tombstone;
+  /// @brief Field collection2Tombstone, offset 0x40, size 0x4
+  __declspec(property(get = __cordl_internal_get_collection2Tombstone, put = __cordl_internal_set_collection2Tombstone)) int32_t collection2Tombstone;
 
-  /// @brief Field <>3__collection2Tombstone, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get___3__collection2Tombstone, put = __cordl_internal_set___3__collection2Tombstone)) T2 __3__collection2Tombstone;
+  /// @brief Field <>3__collection2Tombstone, offset 0x44, size 0x4
+  __declspec(property(get = __cordl_internal_get___3__collection2Tombstone, put = __cordl_internal_set___3__collection2Tombstone)) int32_t __3__collection2Tombstone;
 
-  /// @brief Field <enum1>5__2, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__enum1_5__2, put = __cordl_internal_set__enum1_5__2))::System::Collections::Generic::IEnumerator_1<T1>* _enum1_5__2;
+  /// @brief Field <enum1>5__2, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__enum1_5__2, put = __cordl_internal_set__enum1_5__2))::System::Collections::Generic::IEnumerator_1<int32_t>* _enum1_5__2;
 
-  /// @brief Field <enum2>5__3, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__enum2_5__3, put = __cordl_internal_set__enum2_5__3))::System::Collections::Generic::IEnumerator_1<T2>* _enum2_5__3;
+  /// @brief Field <enum2>5__3, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__enum2_5__3, put = __cordl_internal_set__enum2_5__3))::System::Collections::Generic::IEnumerator_1<int32_t>* _enum2_5__3;
 
-  __declspec(property(get = System_Collections_Generic_IEnumerator__T1_T2___get_Current))::System::ValueTuple_2<T1, T2> System_Collections_Generic_IEnumerator__T1_T2___Current;
+  __declspec(property(get = System_Collections_Generic_IEnumerator__System_Int32_System_Int32___get_Current))::System::ValueTuple_2<
+      int32_t, int32_t> System_Collections_Generic_IEnumerator__System_Int32_System_Int32___Current;
 
   __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<T1,T2>>"
-  constexpr operator ::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<T1, T2>>*() noexcept;
+  /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<int32_t,int32_t>>"
+  constexpr operator ::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<int32_t, int32_t>>*() noexcept;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<T1,T2>>"
-  constexpr ::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<T1, T2>>* i___System__Collections__Generic__IEnumerable_1___System__ValueTuple_2_T1_T2__() noexcept;
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<int32_t,int32_t>>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<int32_t, int32_t>>*
+  i___System__Collections__Generic__IEnumerable_1___System__ValueTuple_2_int32_t_int32_t__() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
@@ -630,11 +630,12 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<T1,T2>>"
-  constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<T1, T2>>*() noexcept;
+  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<int32_t,int32_t>>"
+  constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<int32_t, int32_t>>*() noexcept;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<T1,T2>>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<T1, T2>>* i___System__Collections__Generic__IEnumerator_1___System__ValueTuple_2_T1_T2__() noexcept;
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<int32_t,int32_t>>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<int32_t, int32_t>>*
+  i___System__Collections__Generic__IEnumerator_1___System__ValueTuple_2_int32_t_int32_t__() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
@@ -654,11 +655,11 @@ public:
 
   constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::ValueTuple_2<T1, T2>& __cordl_internal_get___2__current();
+  constexpr ::System::ValueTuple_2<int32_t, int32_t>& __cordl_internal_get___2__current();
 
-  constexpr ::System::ValueTuple_2<T1, T2> const& __cordl_internal_get___2__current() const;
+  constexpr ::System::ValueTuple_2<int32_t, int32_t> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __cordl_internal_set___2__current(::System::ValueTuple_2<T1, T2> value);
+  constexpr void __cordl_internal_set___2__current(::System::ValueTuple_2<int32_t, int32_t> value);
 
   constexpr int32_t& __cordl_internal_get___l__initialThreadId();
 
@@ -666,148 +667,172 @@ public:
 
   constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  constexpr ::System::Collections::Generic::IEnumerable_1<T1>*& __cordl_internal_get_collection1();
+  constexpr ::System::Collections::Generic::IEnumerable_1<int32_t>*& __cordl_internal_get_collection1();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<T1>*> const& __cordl_internal_get_collection1() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<int32_t>*> const& __cordl_internal_get_collection1() const;
 
-  constexpr void __cordl_internal_set_collection1(::System::Collections::Generic::IEnumerable_1<T1>* value);
+  constexpr void __cordl_internal_set_collection1(::System::Collections::Generic::IEnumerable_1<int32_t>* value);
 
-  constexpr ::System::Collections::Generic::IEnumerable_1<T1>*& __cordl_internal_get___3__collection1();
+  constexpr ::System::Collections::Generic::IEnumerable_1<int32_t>*& __cordl_internal_get___3__collection1();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<T1>*> const& __cordl_internal_get___3__collection1() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<int32_t>*> const& __cordl_internal_get___3__collection1() const;
 
-  constexpr void __cordl_internal_set___3__collection1(::System::Collections::Generic::IEnumerable_1<T1>* value);
+  constexpr void __cordl_internal_set___3__collection1(::System::Collections::Generic::IEnumerable_1<int32_t>* value);
 
-  constexpr ::System::Collections::Generic::IEnumerable_1<T2>*& __cordl_internal_get_collection2();
+  constexpr ::System::Collections::Generic::IEnumerable_1<int32_t>*& __cordl_internal_get_collection2();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<T2>*> const& __cordl_internal_get_collection2() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<int32_t>*> const& __cordl_internal_get_collection2() const;
 
-  constexpr void __cordl_internal_set_collection2(::System::Collections::Generic::IEnumerable_1<T2>* value);
+  constexpr void __cordl_internal_set_collection2(::System::Collections::Generic::IEnumerable_1<int32_t>* value);
 
-  constexpr ::System::Collections::Generic::IEnumerable_1<T2>*& __cordl_internal_get___3__collection2();
+  constexpr ::System::Collections::Generic::IEnumerable_1<int32_t>*& __cordl_internal_get___3__collection2();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<T2>*> const& __cordl_internal_get___3__collection2() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<int32_t>*> const& __cordl_internal_get___3__collection2() const;
 
-  constexpr void __cordl_internal_set___3__collection2(::System::Collections::Generic::IEnumerable_1<T2>* value);
+  constexpr void __cordl_internal_set___3__collection2(::System::Collections::Generic::IEnumerable_1<int32_t>* value);
 
-  constexpr T2& __cordl_internal_get_collection2Tombstone();
+  constexpr int32_t& __cordl_internal_get_collection2Tombstone();
 
-  constexpr T2 const& __cordl_internal_get_collection2Tombstone() const;
+  constexpr int32_t const& __cordl_internal_get_collection2Tombstone() const;
 
-  constexpr void __cordl_internal_set_collection2Tombstone(T2 value);
+  constexpr void __cordl_internal_set_collection2Tombstone(int32_t value);
 
-  constexpr T2& __cordl_internal_get___3__collection2Tombstone();
+  constexpr int32_t& __cordl_internal_get___3__collection2Tombstone();
 
-  constexpr T2 const& __cordl_internal_get___3__collection2Tombstone() const;
+  constexpr int32_t const& __cordl_internal_get___3__collection2Tombstone() const;
 
-  constexpr void __cordl_internal_set___3__collection2Tombstone(T2 value);
+  constexpr void __cordl_internal_set___3__collection2Tombstone(int32_t value);
 
-  constexpr ::System::Collections::Generic::IEnumerator_1<T1>*& __cordl_internal_get__enum1_5__2();
+  constexpr ::System::Collections::Generic::IEnumerator_1<int32_t>*& __cordl_internal_get__enum1_5__2();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<T1>*> const& __cordl_internal_get__enum1_5__2() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<int32_t>*> const& __cordl_internal_get__enum1_5__2() const;
 
-  constexpr void __cordl_internal_set__enum1_5__2(::System::Collections::Generic::IEnumerator_1<T1>* value);
+  constexpr void __cordl_internal_set__enum1_5__2(::System::Collections::Generic::IEnumerator_1<int32_t>* value);
 
-  constexpr ::System::Collections::Generic::IEnumerator_1<T2>*& __cordl_internal_get__enum2_5__3();
+  constexpr ::System::Collections::Generic::IEnumerator_1<int32_t>*& __cordl_internal_get__enum2_5__3();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<T2>*> const& __cordl_internal_get__enum2_5__3() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<int32_t>*> const& __cordl_internal_get__enum2_5__3() const;
 
-  constexpr void __cordl_internal_set__enum2_5__3(::System::Collections::Generic::IEnumerator_1<T2>* value);
+  constexpr void __cordl_internal_set__enum2_5__3(::System::Collections::Generic::IEnumerator_1<int32_t>* value);
 
-  static inline ::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>* New_ctor(int32_t __1__state);
+  static inline ::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe472f4, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0xe47328, size 0xb8, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0xe473e0, size 0x550, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method <>m__Finally1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0xe479e0, size 0xb0, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method <>m__Finally2, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally2, addr 0xe47930, size 0xb0, virtual false, abstract: false, final false
   inline void __m__Finally2();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<(T1,T2)>.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline ::System::ValueTuple_2<T1, T2> System_Collections_Generic_IEnumerator__T1_T2___get_Current();
+  /// @brief Method System.Collections.Generic.IEnumerator<(System.Int32,System.Int32)>.get_Current, addr 0xe47a90, size 0x8, virtual true, abstract: false, final true
+  inline ::System::ValueTuple_2<int32_t, int32_t> System_Collections_Generic_IEnumerator__System_Int32_System_Int32___get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0xe47a98, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0xe47ad8, size 0x5c, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.Collections.Generic.IEnumerable<(T1,T2)>.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline ::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<T1, T2>>* System_Collections_Generic_IEnumerable__T1_T2___GetEnumerator();
+  /// @brief Method System.Collections.Generic.IEnumerable<(System.Int32,System.Int32)>.GetEnumerator, addr 0xe47b34, size 0xb4, virtual true, abstract: false, final true
+  inline ::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<int32_t, int32_t>>* System_Collections_Generic_IEnumerable__System_Int32_System_Int32___GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0xe47be8, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ShuffleExtensions___ZipSkipTombstone_d__3_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "__ShuffleExtensions___ZipSkipTombstone_d__3", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ShuffleExtensions___ZipSkipTombstone_d__3_2(__ShuffleExtensions___ZipSkipTombstone_d__3_2&&) = delete;
+  __ShuffleExtensions___ZipSkipTombstone_d__3(__ShuffleExtensions___ZipSkipTombstone_d__3&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ShuffleExtensions___ZipSkipTombstone_d__3_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "__ShuffleExtensions___ZipSkipTombstone_d__3", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ShuffleExtensions___ZipSkipTombstone_d__3_2(__ShuffleExtensions___ZipSkipTombstone_d__3_2 const&) = delete;
+  __ShuffleExtensions___ZipSkipTombstone_d__3(__ShuffleExtensions___ZipSkipTombstone_d__3 const&) = delete;
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ShuffleExtensions___ZipSkipTombstone_d__3_2();
+  constexpr __ShuffleExtensions___ZipSkipTombstone_d__3();
 
 public:
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
 
-  /// @brief Field <>2__current, offset: 0x18, size: 0x10, def value: None
-  ::System::ValueTuple_2<T1, T2> _____2__current;
+  /// @brief Field <>2__current, offset: 0x14, size: 0x8, def value: None
+  ::System::ValueTuple_2<int32_t, int32_t> _____2__current;
 
-  /// @brief Field <>l__initialThreadId, offset: 0x28, size: 0x4, def value: None
+  /// @brief Field <>l__initialThreadId, offset: 0x1c, size: 0x4, def value: None
   int32_t _____l__initialThreadId;
 
-  /// @brief Field collection1, offset: 0x30, size: 0x8, def value: None
-  ::System::Collections::Generic::IEnumerable_1<T1>* ___collection1;
+  /// @brief Field collection1, offset: 0x20, size: 0x8, def value: None
+  ::System::Collections::Generic::IEnumerable_1<int32_t>* ___collection1;
 
-  /// @brief Field <>3__collection1, offset: 0x38, size: 0x8, def value: None
-  ::System::Collections::Generic::IEnumerable_1<T1>* _____3__collection1;
+  /// @brief Field <>3__collection1, offset: 0x28, size: 0x8, def value: None
+  ::System::Collections::Generic::IEnumerable_1<int32_t>* _____3__collection1;
 
-  /// @brief Field collection2, offset: 0x40, size: 0x8, def value: None
-  ::System::Collections::Generic::IEnumerable_1<T2>* ___collection2;
+  /// @brief Field collection2, offset: 0x30, size: 0x8, def value: None
+  ::System::Collections::Generic::IEnumerable_1<int32_t>* ___collection2;
 
-  /// @brief Field <>3__collection2, offset: 0x48, size: 0x8, def value: None
-  ::System::Collections::Generic::IEnumerable_1<T2>* _____3__collection2;
+  /// @brief Field <>3__collection2, offset: 0x38, size: 0x8, def value: None
+  ::System::Collections::Generic::IEnumerable_1<int32_t>* _____3__collection2;
 
-  /// @brief Field collection2Tombstone, offset: 0x50, size: 0x8, def value: None
-  T2 ___collection2Tombstone;
+  /// @brief Field collection2Tombstone, offset: 0x40, size: 0x4, def value: None
+  int32_t ___collection2Tombstone;
 
-  /// @brief Field <>3__collection2Tombstone, offset: 0x58, size: 0x8, def value: None
-  T2 _____3__collection2Tombstone;
+  /// @brief Field <>3__collection2Tombstone, offset: 0x44, size: 0x4, def value: None
+  int32_t _____3__collection2Tombstone;
 
-  /// @brief Field <enum1>5__2, offset: 0x60, size: 0x8, def value: None
-  ::System::Collections::Generic::IEnumerator_1<T1>* ____enum1_5__2;
+  /// @brief Field <enum1>5__2, offset: 0x48, size: 0x8, def value: None
+  ::System::Collections::Generic::IEnumerator_1<int32_t>* ____enum1_5__2;
 
-  /// @brief Field <enum2>5__3, offset: 0x68, size: 0x8, def value: None
-  ::System::Collections::Generic::IEnumerator_1<T2>* ____enum2_5__3;
+  /// @brief Field <enum2>5__3, offset: 0x50, size: 0x8, def value: None
+  ::System::Collections::Generic::IEnumerator_1<int32_t>* ____enum2_5__3;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3, 0x58>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3, _____2__current) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3, _____l__initialThreadId) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3, ___collection1) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3, _____3__collection1) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3, ___collection2) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3, _____3__collection2) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3, ___collection2Tombstone) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3, _____3__collection2Tombstone) == 0x44, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3, ____enum1_5__2) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3, ____enum2_5__3) == 0x50, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 // Type: ::ShuffleExtensions
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15830))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15217))
 // CS Name: ::ShuffleExtensions*
 class CORDL_TYPE ShuffleExtensions : public ::System::Object {
 public:
   // Declarations
-  template <typename T1, typename T2> using _ZipSkipTombstone_d__3_2 = ::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>;
+  using _ZipSkipTombstone_d__3 = ::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3;
 
   template <typename T> using _TakeWithTombstone_d__2_1 = ::GlobalNamespace::__ShuffleExtensions___TakeWithTombstone_d__2_1<T>;
 
@@ -824,10 +849,9 @@ public:
   /// @brief Method TakeWithTombstone, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::Collections::Generic::IEnumerable_1<T>* TakeWithTombstone(::System::Collections::Generic::IEnumerable_1<T>* source, int32_t limit, T tombstone);
 
-  /// @brief Method ZipSkipTombstone, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T1, typename T2>
-  static inline ::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<T1, T2>>*
-  ZipSkipTombstone(::System::Collections::Generic::IEnumerable_1<T1>* collection1, ::System::Collections::Generic::IEnumerable_1<T2>* collection2, T2 collection2Tombstone);
+  /// @brief Method ZipSkipTombstone, addr 0xe47264, size 0x90, virtual false, abstract: false, final false
+  static inline ::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<int32_t, int32_t>>*
+  ZipSkipTombstone(::System::Collections::Generic::IEnumerable_1<int32_t>* collection1, ::System::Collections::Generic::IEnumerable_1<int32_t>* collection2, int32_t collection2Tombstone);
 
   /// @brief Method ShuffleInPlace, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void ShuffleInPlace(::System::Collections::Generic::IList_1<T>* list, ::System::Random* random);
@@ -856,4 +880,5 @@ NEED_NO_BOX(::GlobalNamespace::ShuffleExtensions);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ShuffleExtensions*, "", "ShuffleExtensions");
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::__ShuffleExtensions___PickRandomElementsWithTombstone_d__1_1, "", "ShuffleExtensions/<PickRandomElementsWithTombstone>d__1`1");
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::__ShuffleExtensions___TakeWithTombstone_d__2_1, "", "ShuffleExtensions/<TakeWithTombstone>d__2`1");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2, "", "ShuffleExtensions/<ZipSkipTombstone>d__3`2");
+NEED_NO_BOX(::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3*, "", "ShuffleExtensions/<ZipSkipTombstone>d__3");

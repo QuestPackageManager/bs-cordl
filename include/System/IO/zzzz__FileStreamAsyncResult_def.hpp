@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::System::IO::FileStreamAsyncResult);
 namespace System::IO {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3628))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3626))
 // CS Name: ::System.IO::FileStreamAsyncResult*
 class CORDL_TYPE FileStreamAsyncResult : public ::System::Object {
 public:
@@ -133,22 +133,22 @@ public:
 
   static inline ::System::IO::FileStreamAsyncResult* New_ctor(::System::AsyncCallback* cb, ::System::Object* state);
 
-  /// @brief Method .ctor, addr 0x2540510, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2560f38, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::AsyncCallback* cb, ::System::Object* state);
 
-  /// @brief Method CBWrapper, addr 0x2541554, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method CBWrapper, addr 0x2561f7c, size 0x94, virtual false, abstract: false, final false
   static inline void CBWrapper(::System::IAsyncResult* ares);
 
-  /// @brief Method get_AsyncState, addr 0x25415e8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_AsyncState, addr 0x2562010, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* get_AsyncState();
 
-  /// @brief Method get_CompletedSynchronously, addr 0x25415f0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_CompletedSynchronously, addr 0x2562018, size 0x8, virtual true, abstract: false, final true
   inline bool get_CompletedSynchronously();
 
-  /// @brief Method get_AsyncWaitHandle, addr 0x25415f8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_AsyncWaitHandle, addr 0x2562020, size 0x8, virtual true, abstract: false, final true
   inline ::System::Threading::WaitHandle* get_AsyncWaitHandle();
 
-  /// @brief Method get_IsCompleted, addr 0x2541600, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsCompleted, addr 0x2562028, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsCompleted();
 
   // Ctor Parameters [CppParam { name: "", ty: "FileStreamAsyncResult", modifiers: "&&", def_value: None }]

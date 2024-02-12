@@ -33,8 +33,8 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Log);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12135)), TypeDefinitionIndex(TypeDefinitionIndex(12136))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12137))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12033)), TypeDefinitionIndex(TypeDefinitionIndex(12034))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12035))
 // CS Name: ::UnityEngine.ProBuilder::Log*
 class CORDL_TYPE Log : public ::System::Object {
 public:
@@ -67,61 +67,61 @@ public:
 
   static inline ::StringW getStaticF_s_LogFilePath();
 
-  /// @brief Method PushLogLevel, addr 0x2b47318, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method PushLogLevel, addr 0x2b45e84, size 0x90, virtual false, abstract: false, final false
   static inline void PushLogLevel(::UnityEngine::ProBuilder::LogLevel level);
 
-  /// @brief Method PopLogLevel, addr 0x2b473a8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method PopLogLevel, addr 0x2b45f14, size 0x88, virtual false, abstract: false, final false
   static inline void PopLogLevel();
 
-  /// @brief Method SetLogLevel, addr 0x2b47430, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetLogLevel, addr 0x2b45f9c, size 0x5c, virtual false, abstract: false, final false
   static inline void SetLogLevel(::UnityEngine::ProBuilder::LogLevel level);
 
-  /// @brief Method SetOutput, addr 0x2b4748c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetOutput, addr 0x2b45ff8, size 0x5c, virtual false, abstract: false, final false
   static inline void SetOutput(::UnityEngine::ProBuilder::LogOutput output);
 
-  /// @brief Method SetLogFile, addr 0x2b474e8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetLogFile, addr 0x2b46054, size 0x5c, virtual false, abstract: false, final false
   static inline void SetLogFile(::StringW path);
 
   /// @brief Method Debug, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void Debug(T value);
 
-  /// @brief Method Debug, addr 0x2b47544, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Debug, addr 0x2b460b0, size 0x58, virtual false, abstract: false, final false
   static inline void Debug(::StringW message);
 
-  /// @brief Method Debug, addr 0x2b4766c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Debug, addr 0x2b461d8, size 0x4, virtual false, abstract: false, final false
   static inline void Debug(::StringW format, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> values);
 
-  /// @brief Method Info, addr 0x2b47670, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Info, addr 0x2b461dc, size 0x78, virtual false, abstract: false, final false
   static inline void Info(::StringW format, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> values);
 
-  /// @brief Method Info, addr 0x2b476e8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Info, addr 0x2b46254, size 0x80, virtual false, abstract: false, final false
   static inline void Info(::StringW message);
 
-  /// @brief Method Warning, addr 0x2b47768, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Warning, addr 0x2b462d4, size 0x78, virtual false, abstract: false, final false
   static inline void Warning(::StringW format, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> values);
 
-  /// @brief Method Warning, addr 0x2b477e0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Warning, addr 0x2b4634c, size 0x80, virtual false, abstract: false, final false
   static inline void Warning(::StringW message);
 
-  /// @brief Method Error, addr 0x2b47860, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Error, addr 0x2b463cc, size 0x78, virtual false, abstract: false, final false
   static inline void Error(::StringW format, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> values);
 
-  /// @brief Method Error, addr 0x2b3b24c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Error, addr 0x2b39db8, size 0x80, virtual false, abstract: false, final false
   static inline void Error(::StringW message);
 
   /// @brief Method Watch, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T, typename K> static inline void Watch(T key, K value);
 
-  /// @brief Method DoPrint, addr 0x2b4759c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method DoPrint, addr 0x2b46108, size 0xd0, virtual false, abstract: false, final false
   static inline void DoPrint(::StringW message, ::UnityEngine::LogType type);
 
-  /// @brief Method PrintToFile, addr 0x2b479ac, size 0x3d8, virtual false, abstract: false, final false
+  /// @brief Method PrintToFile, addr 0x2b46518, size 0x3d8, virtual false, abstract: false, final false
   static inline void PrintToFile(::StringW message, ::StringW path);
 
-  /// @brief Method ClearLogFile, addr 0x2b47d84, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ClearLogFile, addr 0x2b468f0, size 0x90, virtual false, abstract: false, final false
   static inline void ClearLogFile();
 
-  /// @brief Method PrintToConsole, addr 0x2b478d8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method PrintToConsole, addr 0x2b46444, size 0xd4, virtual false, abstract: false, final false
   static inline void PrintToConsole(::StringW message, ::UnityEngine::LogType type);
 
   /// @brief Method NotNull, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

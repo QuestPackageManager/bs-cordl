@@ -39,7 +39,7 @@ MARK_REF_PTR_T(::System::Net::ListenerAsyncResult);
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9189))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7199))
 // CS Name: ::System.Net::ListenerAsyncResult*
 class CORDL_TYPE ListenerAsyncResult : public ::System::Object {
 public:
@@ -166,34 +166,34 @@ public:
 
   static inline ::System::Net::ListenerAsyncResult* New_ctor(::System::AsyncCallback* cb, ::System::Object* state);
 
-  /// @brief Method .ctor, addr 0x29d26bc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29d7160, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::AsyncCallback* cb, ::System::Object* state);
 
-  /// @brief Method Complete, addr 0x29d273c, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x29d71e0, size 0x1f4, virtual false, abstract: false, final false
   inline void Complete(::System::Exception* exc);
 
-  /// @brief Method InvokeCallback, addr 0x29d2930, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method InvokeCallback, addr 0x29d73d4, size 0x13c, virtual false, abstract: false, final false
   static inline void InvokeCallback(::System::Object* o);
 
-  /// @brief Method Complete, addr 0x29d2a6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x29d7510, size 0x8, virtual false, abstract: false, final false
   inline void Complete(::System::Net::HttpListenerContext* context);
 
-  /// @brief Method Complete, addr 0x29d2a74, size 0x530, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x29d7518, size 0x530, virtual false, abstract: false, final false
   inline void Complete(::System::Net::HttpListenerContext* context, bool synch);
 
-  /// @brief Method GetContext, addr 0x29d2fa4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetContext, addr 0x29d7a48, size 0x3c, virtual false, abstract: false, final false
   inline ::System::Net::HttpListenerContext* GetContext();
 
-  /// @brief Method get_AsyncState, addr 0x29d2fe0, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method get_AsyncState, addr 0x29d7a84, size 0x14, virtual true, abstract: false, final true
   inline ::System::Object* get_AsyncState();
 
-  /// @brief Method get_AsyncWaitHandle, addr 0x29d2ff4, size 0x138, virtual true, abstract: false, final true
+  /// @brief Method get_AsyncWaitHandle, addr 0x29d7a98, size 0x138, virtual true, abstract: false, final true
   inline ::System::Threading::WaitHandle* get_AsyncWaitHandle();
 
-  /// @brief Method get_CompletedSynchronously, addr 0x29d312c, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method get_CompletedSynchronously, addr 0x29d7bd0, size 0x14, virtual true, abstract: false, final true
   inline bool get_CompletedSynchronously();
 
-  /// @brief Method get_IsCompleted, addr 0x29d3140, size 0xe0, virtual true, abstract: false, final true
+  /// @brief Method get_IsCompleted, addr 0x29d7be4, size 0xe0, virtual true, abstract: false, final true
   inline bool get_IsCompleted();
 
   // Ctor Parameters [CppParam { name: "", ty: "ListenerAsyncResult", modifiers: "&&", def_value: None }]

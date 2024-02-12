@@ -132,7 +132,7 @@ namespace LiteNetLib::Utils {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14196))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14209))
 // CS Name: ::NetPacketProcessor::HashCache`1<T>*
 class CORDL_TYPE __NetPacketProcessor__HashCache_1 : public ::System::Object {
 public:
@@ -174,23 +174,23 @@ public:
 namespace LiteNetLib::Utils {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14197))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14210))
 // CS Name: ::NetPacketProcessor::SubscribeDelegate*
 class CORDL_TYPE __NetPacketProcessor__SubscribeDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::LiteNetLib::Utils::__NetPacketProcessor__SubscribeDelegate* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x220bb4c, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22a1434, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x220bc7c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x22a1564, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::LiteNetLib::Utils::NetDataReader* reader, ::System::Object* userData);
 
-  /// @brief Method BeginInvoke, addr 0x220bc90, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x22a1578, size 0x28, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::LiteNetLib::Utils::NetDataReader* reader, ::System::Object* userData, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x220bcb8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x22a15a0, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__NetPacketProcessor__SubscribeDelegate", modifiers: "&&", def_value: None }]
@@ -220,7 +220,7 @@ namespace LiteNetLib::Utils {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14198))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14211))
 // CS Name: ::NetPacketProcessor::<>c__DisplayClass25_0`1<T>*
 class CORDL_TYPE __NetPacketProcessor____c__DisplayClass25_0_1 : public ::System::Object {
 public:
@@ -294,7 +294,7 @@ namespace LiteNetLib::Utils {
 template <typename T, typename TUserData>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14199))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14212))
 // CS Name: ::NetPacketProcessor::<>c__DisplayClass26_0`2<T,TUserData>*
 class CORDL_TYPE __NetPacketProcessor____c__DisplayClass26_0_2 : public ::System::Object {
 public:
@@ -368,7 +368,7 @@ namespace LiteNetLib::Utils {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14200))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14213))
 // CS Name: ::NetPacketProcessor::<>c__DisplayClass27_0`1<T>*
 class CORDL_TYPE __NetPacketProcessor____c__DisplayClass27_0_1 : public ::System::Object {
 public:
@@ -442,7 +442,7 @@ namespace LiteNetLib::Utils {
 template <typename T, typename TUserData>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14201))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14214))
 // CS Name: ::NetPacketProcessor::<>c__DisplayClass28_0`2<T,TUserData>*
 class CORDL_TYPE __NetPacketProcessor____c__DisplayClass28_0_2 : public ::System::Object {
 public:
@@ -516,7 +516,7 @@ namespace LiteNetLib::Utils {
 template <typename T, typename TUserData>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14202))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14215))
 // CS Name: ::NetPacketProcessor::<>c__DisplayClass29_0`2<T,TUserData>*
 class CORDL_TYPE __NetPacketProcessor____c__DisplayClass29_0_2 : public ::System::Object {
 public:
@@ -578,7 +578,7 @@ namespace LiteNetLib::Utils {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14203))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14216))
 // CS Name: ::NetPacketProcessor::<>c__DisplayClass30_0`1<T>*
 class CORDL_TYPE __NetPacketProcessor____c__DisplayClass30_0_1 : public ::System::Object {
 public:
@@ -640,7 +640,7 @@ namespace LiteNetLib::Utils {
 template <typename T, typename TUserData>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14204))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14217))
 // CS Name: ::NetPacketProcessor::<>c__DisplayClass31_0`2<T,TUserData>*
 class CORDL_TYPE __NetPacketProcessor____c__DisplayClass31_0_2 : public ::System::Object {
 public:
@@ -702,7 +702,7 @@ namespace LiteNetLib::Utils {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14205))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14218))
 // CS Name: ::NetPacketProcessor::<>c__DisplayClass32_0`1<T>*
 class CORDL_TYPE __NetPacketProcessor____c__DisplayClass32_0_1 : public ::System::Object {
 public:
@@ -762,7 +762,7 @@ public:
 namespace LiteNetLib::Utils {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14206))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14219))
 // CS Name: ::LiteNetLib.Utils::NetPacketProcessor*
 class CORDL_TYPE NetPacketProcessor : public ::System::Object {
 public:
@@ -818,18 +818,18 @@ public:
 
   static inline ::LiteNetLib::Utils::NetPacketProcessor* New_ctor();
 
-  /// @brief Method .ctor, addr 0x220b6c4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22a0fac, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::LiteNetLib::Utils::NetPacketProcessor* New_ctor(int32_t maxStringLength);
 
-  /// @brief Method .ctor, addr 0x220b7ac, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22a1094, size 0xec, virtual false, abstract: false, final false
   inline void _ctor(int32_t maxStringLength);
 
   /// @brief Method GetHash, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   template <typename T> inline uint64_t GetHash();
 
-  /// @brief Method GetCallbackFromData, addr 0x220b928, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method GetCallbackFromData, addr 0x22a1210, size 0xd0, virtual true, abstract: false, final false
   inline ::LiteNetLib::Utils::__NetPacketProcessor__SubscribeDelegate* GetCallbackFromData(::LiteNetLib::Utils::NetDataReader* reader);
 
   /// @brief Method WriteHash, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -845,13 +845,13 @@ public:
   /// @brief Method RegisterNestedType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void RegisterNestedType(::System::Func_1<T>* constructor);
 
-  /// @brief Method ReadAllPackets, addr 0x220ba60, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ReadAllPackets, addr 0x22a1348, size 0x4c, virtual false, abstract: false, final false
   inline void ReadAllPackets(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method ReadAllPackets, addr 0x220bab4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ReadAllPackets, addr 0x22a139c, size 0x50, virtual false, abstract: false, final false
   inline void ReadAllPackets(::LiteNetLib::Utils::NetDataReader* reader, ::System::Object* userData);
 
-  /// @brief Method ReadPacket, addr 0x220baac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ReadPacket, addr 0x22a1394, size 0x8, virtual false, abstract: false, final false
   inline void ReadPacket(::LiteNetLib::Utils::NetDataReader* reader);
 
   /// @brief Method Send, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -878,7 +878,7 @@ public:
   /// @brief Method WriteNetSerializable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::ArrayW<uint8_t, ::Array<uint8_t>*> WriteNetSerializable(T packet);
 
-  /// @brief Method ReadPacket, addr 0x220bb04, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method ReadPacket, addr 0x22a13ec, size 0x48, virtual false, abstract: false, final false
   inline void ReadPacket(::LiteNetLib::Utils::NetDataReader* reader, ::System::Object* userData);
 
   /// @brief Method Subscribe, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

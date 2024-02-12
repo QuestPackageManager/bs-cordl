@@ -21,8 +21,8 @@ MARK_VAL_T(::UnityEngine::Experimental::Playables::TexturePlayableOutput);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Experimental::Playables {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10415))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10413))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9183))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9181))
 // CS Name: ::UnityEngine.Experimental.Playables::TexturePlayableOutput
 struct CORDL_TYPE TexturePlayableOutput {
 public:
@@ -33,7 +33,7 @@ public:
   /// @brief Convert to "::UnityEngine::Playables::IPlayableOutput"
   constexpr ::UnityEngine::Playables::IPlayableOutput* i___UnityEngine__Playables__IPlayableOutput();
 
-  /// @brief Method GetHandle, addr 0x2cf48b4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetHandle, addr 0x2cff590, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableOutputHandle GetHandle();
 
   // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableOutputHandle", modifiers: "", def_value: None }]

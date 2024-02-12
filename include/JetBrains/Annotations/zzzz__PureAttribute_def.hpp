@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::JetBrains::Annotations::PureAttribute);
 namespace JetBrains::Annotations {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10030))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8762))
 // CS Name: ::JetBrains.Annotations::PureAttribute*
 class CORDL_TYPE PureAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::JetBrains::Annotations::PureAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c9e680, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c9f174, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PureAttribute", modifiers: "&&", def_value: None }]

@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FileBrowserTableView::*)(
     ::System::Action_2<::UnityW<::GlobalNamespace::FileBrowserTableView>, ::GlobalNamespace::FileBrowserItem*>*)>(&::GlobalNamespace::FileBrowserTableView::add_didSelectRow)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2285518;
+  constexpr static std::size_t addrs = 0x23e022c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FileBrowserTableView::*)(
     ::System::Action_2<::UnityW<::GlobalNamespace::FileBrowserTableView>, ::GlobalNamespace::FileBrowserItem*>*)>(&::GlobalNamespace::FileBrowserTableView::remove_didSelectRow)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22855c8;
+  constexpr static std::size_t addrs = 0x23e02dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FileBrowserTableView::*)(
     ::ArrayW<::GlobalNamespace::FileBrowserItem*, ::Array<::GlobalNamespace::FileBrowserItem*>*>)>(&::GlobalNamespace::FileBrowserTableView::Init)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x2285678;
+  constexpr static std::size_t addrs = 0x23e038c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FileBrowserTableView::*)(
     ::ArrayW<::GlobalNamespace::FileBrowserItem*, ::Array<::GlobalNamespace::FileBrowserItem*>*>)>(&::GlobalNamespace::FileBrowserTableView::SetItems)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2285780;
+  constexpr static std::size_t addrs = 0x23e0494;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::FileBrowserTableView::*)(::StringW)>(
     &::GlobalNamespace::FileBrowserTableView::SelectAndScrollRowToItemWithPath)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x22857c4;
+  constexpr static std::size_t addrs = 0x23e04d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::FileBrowserTableView::*)()>(&::GlobalNamespace::FileBrowserTableView::CellSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22858a4;
+  constexpr static std::size_t addrs = 0x23e05b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FileBrowserTableView*>::get(), "CellSize",
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::FileBrowserTableView::*)()>(&::GlobalNamespace::FileBrowserTableView::NumberOfCells)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x22858ac;
+  constexpr static std::size_t addrs = 0x23e05c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FileBrowserTableView*>::get(), "NumberOfCells",
@@ -116,8 +116,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::HMUI::TableCell> (::GlobalNamespace::FileBrowserTableView::*)(::HMUI::TableView*, int32_t)>(
     &::GlobalNamespace::FileBrowserTableView::CellForIdx)> {
-  constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x22858c4;
+  constexpr static std::size_t size = 0x178;
+  constexpr static std::size_t addrs = 0x23e05d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FileBrowserTableView::*)(::HMUI::TableView*, int32_t)>(
     &::GlobalNamespace::FileBrowserTableView::HandleDidSelectRowEvent)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x2285a30;
+  constexpr static std::size_t addrs = 0x23e0750;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FileBrowserTableView*>::get(),
@@ -149,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FileBrowserTableView::*)(int32_t)>(
     &::GlobalNamespace::FileBrowserTableView::SelectAndScrollRow)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x2285858;
+  constexpr static std::size_t addrs = 0x23e056c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -164,7 +164,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FileBrowserTableView::*)(bool, bool)>(
     &::GlobalNamespace::FileBrowserTableView::ClearSelection)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x2285a80;
+  constexpr static std::size_t addrs = 0x23e07a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -178,7 +178,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FileBrowserTableView::*)()>(&::GlobalNamespace::FileBrowserTableView::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2285adc;
+  constexpr static std::size_t addrs = 0x23e07fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FileBrowserTableView*>::get(), ".ctor",

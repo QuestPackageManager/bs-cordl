@@ -52,20 +52,20 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::OriginatorInfoGenerator* New_ctor(::Org::BouncyCastle::X509::X509Certificate* origCert);
 
-  /// @brief Method .ctor, addr 0x1206928, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12337b8, size 0x110, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::X509::X509Certificate* origCert);
 
   static inline ::Org::BouncyCastle::Cms::OriginatorInfoGenerator* New_ctor(::Org::BouncyCastle::X509::Store::IX509Store* origCerts);
 
-  /// @brief Method .ctor, addr 0x1206a38, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12338c8, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::X509::Store::IX509Store* origCerts);
 
   static inline ::Org::BouncyCastle::Cms::OriginatorInfoGenerator* New_ctor(::Org::BouncyCastle::X509::Store::IX509Store* origCerts, ::Org::BouncyCastle::X509::Store::IX509Store* origCrls);
 
-  /// @brief Method .ctor, addr 0x1206a68, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12338f8, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::X509::Store::IX509Store* origCerts, ::Org::BouncyCastle::X509::Store::IX509Store* origCrls);
 
-  /// @brief Method Generate, addr 0x1206ab4, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Generate, addr 0x1233944, size 0x90, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* Generate();
 
   // Ctor Parameters [CppParam { name: "", ty: "OriginatorInfoGenerator", modifiers: "&&", def_value: None }]

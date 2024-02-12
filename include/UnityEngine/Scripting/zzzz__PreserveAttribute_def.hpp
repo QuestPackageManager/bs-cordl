@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::UnityEngine::Scripting::PreserveAttribute);
 namespace UnityEngine::Scripting {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10317))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9063))
 // CS Name: ::UnityEngine.Scripting::PreserveAttribute*
 class CORDL_TYPE PreserveAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::UnityEngine::Scripting::PreserveAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ce9c70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cf0e04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PreserveAttribute", modifiers: "&&", def_value: None }]

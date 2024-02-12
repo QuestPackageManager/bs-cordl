@@ -47,7 +47,7 @@ MARK_REF_PTR_T(::System::IO::MonoIO);
 namespace System::IO {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3630))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3628))
 // CS Name: ::System.IO::MonoIO*
 class CORDL_TYPE MonoIO : public ::System::Object {
 public:
@@ -66,102 +66,102 @@ public:
 
   static inline bool getStaticF_dump_handles();
 
-  /// @brief Method GetException, addr 0x2541608, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method GetException, addr 0x2562030, size 0x130, virtual false, abstract: false, final false
   static inline ::System::Exception* GetException(::System::IO::MonoIOError error);
 
-  /// @brief Method GetException, addr 0x253dc54, size 0x71c, virtual false, abstract: false, final false
+  /// @brief Method GetException, addr 0x255e67c, size 0x71c, virtual false, abstract: false, final false
   static inline ::System::Exception* GetException(::StringW path, ::System::IO::MonoIOError error);
 
-  /// @brief Method GetCurrentDirectory, addr 0x254173c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentDirectory, addr 0x2562164, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW GetCurrentDirectory(ByRef<::System::IO::MonoIOError> error);
 
-  /// @brief Method GetFileType, addr 0x2541740, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetFileType, addr 0x2562168, size 0x4, virtual false, abstract: false, final false
   static inline ::System::IO::MonoFileType GetFileType(void* handle, ByRef<::System::IO::MonoIOError> error);
 
-  /// @brief Method GetFileType, addr 0x253e370, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method GetFileType, addr 0x255ed98, size 0x128, virtual false, abstract: false, final false
   static inline ::System::IO::MonoFileType GetFileType(::System::Runtime::InteropServices::SafeHandle* safeHandle, ByRef<::System::IO::MonoIOError> error);
 
-  /// @brief Method Open, addr 0x2541744, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x256216c, size 0x4, virtual false, abstract: false, final false
   static inline void* Open(::cordl_internals::Ptr<char16_t> filename, ::System::IO::FileMode mode, ::System::IO::FileAccess access, ::System::IO::FileShare share, ::System::IO::FileOptions options,
                            ByRef<::System::IO::MonoIOError> error);
 
-  /// @brief Method Open, addr 0x253db40, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x255e568, size 0x9c, virtual false, abstract: false, final false
   static inline void* Open(::StringW filename, ::System::IO::FileMode mode, ::System::IO::FileAccess access, ::System::IO::FileShare share, ::System::IO::FileOptions options,
                            ByRef<::System::IO::MonoIOError> error);
 
-  /// @brief Method Cancel_internal, addr 0x2541748, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Cancel_internal, addr 0x2562170, size 0x4, virtual false, abstract: false, final false
   static inline bool Cancel_internal(void* handle, ByRef<::System::IO::MonoIOError> error);
 
-  /// @brief Method Cancel, addr 0x254174c, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method Cancel, addr 0x2562174, size 0x128, virtual false, abstract: false, final false
   static inline bool Cancel(::System::Runtime::InteropServices::SafeHandle* safeHandle, ByRef<::System::IO::MonoIOError> error);
 
-  /// @brief Method Close, addr 0x25412d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Close, addr 0x2561d00, size 0x4, virtual false, abstract: false, final false
   static inline bool Close(void* handle, ByRef<::System::IO::MonoIOError> error);
 
-  /// @brief Method Read, addr 0x2541874, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Read, addr 0x256229c, size 0x4, virtual false, abstract: false, final false
   static inline int32_t Read(void* handle, ::ArrayW<uint8_t, ::Array<uint8_t>*> dest, int32_t dest_offset, int32_t count, ByRef<::System::IO::MonoIOError> error);
 
-  /// @brief Method Read, addr 0x254136c, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method Read, addr 0x2561d94, size 0x148, virtual false, abstract: false, final false
   static inline int32_t Read(::System::Runtime::InteropServices::SafeHandle* safeHandle, ::ArrayW<uint8_t, ::Array<uint8_t>*> dest, int32_t dest_offset, int32_t count,
                              ByRef<::System::IO::MonoIOError> error);
 
-  /// @brief Method Write, addr 0x2541878, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Write, addr 0x25622a0, size 0x4, virtual false, abstract: false, final false
   static inline int32_t Write(void* handle, ByRefConst<::ArrayW<uint8_t, ::Array<uint8_t>*>> src, int32_t src_offset, int32_t count, ByRef<::System::IO::MonoIOError> error);
 
-  /// @brief Method Write, addr 0x2540064, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method Write, addr 0x2560a8c, size 0x148, virtual false, abstract: false, final false
   static inline int32_t Write(::System::Runtime::InteropServices::SafeHandle* safeHandle, ::ArrayW<uint8_t, ::Array<uint8_t>*> src, int32_t src_offset, int32_t count,
                               ByRef<::System::IO::MonoIOError> error);
 
-  /// @brief Method Seek, addr 0x254187c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Seek, addr 0x25622a4, size 0x4, virtual false, abstract: false, final false
   static inline int64_t Seek(void* handle, int64_t offset, ::System::IO::SeekOrigin origin, ByRef<::System::IO::MonoIOError> error);
 
-  /// @brief Method Seek, addr 0x253e74c, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method Seek, addr 0x255f174, size 0x140, virtual false, abstract: false, final false
   static inline int64_t Seek(::System::Runtime::InteropServices::SafeHandle* safeHandle, int64_t offset, ::System::IO::SeekOrigin origin, ByRef<::System::IO::MonoIOError> error);
 
-  /// @brief Method GetLength, addr 0x2541880, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetLength, addr 0x25622a8, size 0x4, virtual false, abstract: false, final false
   static inline int64_t GetLength(void* handle, ByRef<::System::IO::MonoIOError> error);
 
-  /// @brief Method GetLength, addr 0x253ea30, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method GetLength, addr 0x255f458, size 0x128, virtual false, abstract: false, final false
   static inline int64_t GetLength(::System::Runtime::InteropServices::SafeHandle* safeHandle, ByRef<::System::IO::MonoIOError> error);
 
-  /// @brief Method SetLength, addr 0x2541884, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetLength, addr 0x25622ac, size 0x4, virtual false, abstract: false, final false
   static inline bool SetLength(void* handle, int64_t length, ByRef<::System::IO::MonoIOError> error);
 
-  /// @brief Method SetLength, addr 0x2540d58, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method SetLength, addr 0x2561780, size 0x130, virtual false, abstract: false, final false
   static inline bool SetLength(::System::Runtime::InteropServices::SafeHandle* safeHandle, int64_t length, ByRef<::System::IO::MonoIOError> error);
 
-  /// @brief Method get_ConsoleOutput, addr 0x2541888, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_ConsoleOutput, addr 0x25622b0, size 0x4, virtual false, abstract: false, final false
   static inline void* get_ConsoleOutput();
 
-  /// @brief Method get_ConsoleInput, addr 0x254188c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_ConsoleInput, addr 0x25622b4, size 0x4, virtual false, abstract: false, final false
   static inline void* get_ConsoleInput();
 
-  /// @brief Method get_ConsoleError, addr 0x2541890, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_ConsoleError, addr 0x25622b8, size 0x4, virtual false, abstract: false, final false
   static inline void* get_ConsoleError();
 
-  /// @brief Method CreatePipe, addr 0x2541894, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CreatePipe, addr 0x25622bc, size 0x4, virtual false, abstract: false, final false
   static inline bool CreatePipe(ByRef<void*> read_handle, ByRef<void*> write_handle, ByRef<::System::IO::MonoIOError> error);
 
-  /// @brief Method DuplicateHandle, addr 0x2541898, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method DuplicateHandle, addr 0x25622c0, size 0x4, virtual false, abstract: false, final false
   static inline bool DuplicateHandle(void* source_process_handle, void* source_handle, void* target_process_handle, ByRef<void*> target_handle, int32_t access, int32_t inherit, int32_t options,
                                      ByRef<::System::IO::MonoIOError> error);
 
-  /// @brief Method get_VolumeSeparatorChar, addr 0x254189c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_VolumeSeparatorChar, addr 0x25622c4, size 0x4, virtual false, abstract: false, final false
   static inline char16_t get_VolumeSeparatorChar();
 
-  /// @brief Method get_DirectorySeparatorChar, addr 0x25418a0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_DirectorySeparatorChar, addr 0x25622c8, size 0x4, virtual false, abstract: false, final false
   static inline char16_t get_DirectorySeparatorChar();
 
-  /// @brief Method get_AltDirectorySeparatorChar, addr 0x25418a4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_AltDirectorySeparatorChar, addr 0x25622cc, size 0x4, virtual false, abstract: false, final false
   static inline char16_t get_AltDirectorySeparatorChar();
 
-  /// @brief Method get_PathSeparator, addr 0x25418a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_PathSeparator, addr 0x25622d0, size 0x4, virtual false, abstract: false, final false
   static inline char16_t get_PathSeparator();
 
-  /// @brief Method DumpHandles, addr 0x2541738, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method DumpHandles, addr 0x2562160, size 0x4, virtual false, abstract: false, final false
   static inline void DumpHandles();
 
-  /// @brief Method RemapPath, addr 0x25418ac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RemapPath, addr 0x25622d4, size 0x4, virtual false, abstract: false, final false
   static inline bool RemapPath(::StringW path, ByRef<::StringW> newPath);
 
   // Ctor Parameters [CppParam { name: "", ty: "MonoIO", modifiers: "&&", def_value: None }]

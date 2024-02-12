@@ -50,7 +50,7 @@ MARK_REF_PTR_T(::HMUI::__UIKeyboard____c__DisplayClass13_0);
 namespace HMUI {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13538))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13491))
 // CS Name: ::UIKeyboard::<>c__DisplayClass13_0*
 class CORDL_TYPE __UIKeyboard____c__DisplayClass13_0 : public ::System::Object {
 public:
@@ -75,10 +75,10 @@ public:
 
   static inline ::HMUI::__UIKeyboard____c__DisplayClass13_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x211e254, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21b2b30, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Awake>b__2, addr 0x211e51c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__2, addr 0x21b2df8, size 0x24, virtual false, abstract: false, final false
   inline void _Awake_b__2();
 
   // Ctor Parameters [CppParam { name: "", ty: "__UIKeyboard____c__DisplayClass13_0", modifiers: "&&", def_value: None }]
@@ -115,8 +115,8 @@ static_assert(offsetof(::HMUI::__UIKeyboard____c__DisplayClass13_0, _____4__this
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13539))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13492))
 // CS Name: ::HMUI::UIKeyboard*
 class CORDL_TYPE UIKeyboard : public ::UnityEngine::MonoBehaviour {
 public:
@@ -187,51 +187,51 @@ public:
 
   constexpr void __cordl_internal_set__letterBtnTexts(::System::Collections::Generic::List_1<::UnityW<::TMPro::TextMeshProUGUI>>* value);
 
-  /// @brief Method add_okButtonWasPressedEvent, addr 0x211db4c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_okButtonWasPressedEvent, addr 0x21b2428, size 0x9c, virtual false, abstract: false, final false
   inline void add_okButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method remove_okButtonWasPressedEvent, addr 0x211dbe8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_okButtonWasPressedEvent, addr 0x21b24c4, size 0x9c, virtual false, abstract: false, final false
   inline void remove_okButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method add_keyWasPressedEvent, addr 0x211dc84, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_keyWasPressedEvent, addr 0x21b2560, size 0xb0, virtual false, abstract: false, final false
   inline void add_keyWasPressedEvent(::System::Action_1<char16_t>* value);
 
-  /// @brief Method remove_keyWasPressedEvent, addr 0x211dd34, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_keyWasPressedEvent, addr 0x21b2610, size 0xb0, virtual false, abstract: false, final false
   inline void remove_keyWasPressedEvent(::System::Action_1<char16_t>* value);
 
-  /// @brief Method add_deleteButtonWasPressedEvent, addr 0x211dde4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_deleteButtonWasPressedEvent, addr 0x21b26c0, size 0x9c, virtual false, abstract: false, final false
   inline void add_deleteButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method remove_deleteButtonWasPressedEvent, addr 0x211de80, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_deleteButtonWasPressedEvent, addr 0x21b275c, size 0x9c, virtual false, abstract: false, final false
   inline void remove_deleteButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method Awake, addr 0x211df1c, size 0x338, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x21b27f8, size 0x338, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleKeyPress, addr 0x211e25c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method HandleKeyPress, addr 0x21b2b38, size 0xe8, virtual false, abstract: false, final false
   inline void HandleKeyPress(::UnityEngine::KeyCode keyCode);
 
-  /// @brief Method HandleCapsLockPressed, addr 0x211e344, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandleCapsLockPressed, addr 0x21b2c20, size 0x18, virtual false, abstract: false, final false
   inline void HandleCapsLockPressed();
 
-  /// @brief Method SetKeyboardCapitalization, addr 0x211e35c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method SetKeyboardCapitalization, addr 0x21b2c38, size 0xec, virtual false, abstract: false, final false
   inline void SetKeyboardCapitalization(bool capitalize);
 
-  /// @brief Method HasFontStyle, addr 0x211e448, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HasFontStyle, addr 0x21b2d24, size 0x20, virtual false, abstract: false, final false
   inline bool HasFontStyle(::TMPro::TextMeshProUGUI* text, ::TMPro::FontStyles style);
 
-  /// @brief Method OnEnable, addr 0x211e468, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x21b2d44, size 0xc, virtual false, abstract: false, final false
   inline void OnEnable();
 
   static inline ::HMUI::UIKeyboard* New_ctor();
 
-  /// @brief Method .ctor, addr 0x211e474, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21b2d50, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Awake>b__13_0, addr 0x211e4e4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__13_0, addr 0x21b2dc0, size 0x1c, virtual false, abstract: false, final false
   inline void _Awake_b__13_0();
 
-  /// @brief Method <Awake>b__13_1, addr 0x211e500, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__13_1, addr 0x21b2ddc, size 0x1c, virtual false, abstract: false, final false
   inline void _Awake_b__13_1();
 
   // Ctor Parameters [CppParam { name: "", ty: "UIKeyboard", modifiers: "&&", def_value: None }]

@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::Mono::Security::X509::X509Chain);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::X509 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13755))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13754))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13708))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13707))
 // CS Name: ::Mono.Security.X509::X509Chain*
 class CORDL_TYPE X509Chain : public ::System::Object {
 public:
@@ -76,34 +76,34 @@ public:
 
   static inline ::Mono::Security::X509::X509Chain* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23fbe8c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x241bcec, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_TrustAnchors, addr 0x23fbef8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_TrustAnchors, addr 0x241bd58, size 0x7c, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509CertificateCollection* get_TrustAnchors();
 
-  /// @brief Method LoadCertificates, addr 0x23fc040, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method LoadCertificates, addr 0x241bea0, size 0x18, virtual false, abstract: false, final false
   inline void LoadCertificates(::Mono::Security::X509::X509CertificateCollection* collection);
 
-  /// @brief Method Build, addr 0x23fc058, size 0x3a8, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x241beb8, size 0x3a8, virtual false, abstract: false, final false
   inline bool Build(::Mono::Security::X509::X509Certificate* leaf);
 
-  /// @brief Method Reset, addr 0x23fca20, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x241c880, size 0x40, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method IsValid, addr 0x23fc974, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x241c7d4, size 0xac, virtual false, abstract: false, final false
   inline bool IsValid(::Mono::Security::X509::X509Certificate* cert);
 
-  /// @brief Method FindCertificateParent, addr 0x23fc400, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method FindCertificateParent, addr 0x241c260, size 0x1f0, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509Certificate* FindCertificateParent(::Mono::Security::X509::X509Certificate* child);
 
-  /// @brief Method FindCertificateRoot, addr 0x23fc5f0, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method FindCertificateRoot, addr 0x241c450, size 0x240, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509Certificate* FindCertificateRoot(::Mono::Security::X509::X509Certificate* potentialRoot);
 
-  /// @brief Method IsTrusted, addr 0x23fca60, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method IsTrusted, addr 0x241c8c0, size 0x2c, virtual false, abstract: false, final false
   inline bool IsTrusted(::Mono::Security::X509::X509Certificate* potentialTrusted);
 
-  /// @brief Method IsParent, addr 0x23fc830, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method IsParent, addr 0x241c690, size 0x144, virtual false, abstract: false, final false
   inline bool IsParent(::Mono::Security::X509::X509Certificate* child, ::Mono::Security::X509::X509Certificate* parent);
 
   // Ctor Parameters [CppParam { name: "", ty: "X509Chain", modifiers: "&&", def_value: None }]

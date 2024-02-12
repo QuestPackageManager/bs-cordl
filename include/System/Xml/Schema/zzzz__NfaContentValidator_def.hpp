@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::System::Xml::Schema::NfaContentValidator);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11610))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11613))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11508))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11511))
 // CS Name: ::System.Xml.Schema::NfaContentValidator*
 class CORDL_TYPE NfaContentValidator : public ::System::Xml::Schema::ContentValidator {
 public:
@@ -84,7 +84,7 @@ public:
                                                                      ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions, int32_t endMarkerPos,
                                                                      ::System::Xml::Schema::XmlSchemaContentType contentType, bool isOpen, bool isEmptiable);
 
-  /// @brief Method .ctor, addr 0x28b0ab0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28b4118, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::BitSet* firstpos, ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*> followpos,
                     ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions, int32_t endMarkerPos, ::System::Xml::Schema::XmlSchemaContentType contentType,
                     bool isOpen, bool isEmptiable);

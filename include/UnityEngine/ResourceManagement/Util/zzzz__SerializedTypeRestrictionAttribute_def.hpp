@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::Util::SerializedTypeRestrictio
 namespace UnityEngine::ResourceManagement::Util {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13980))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13993))
 // CS Name: ::UnityEngine.ResourceManagement.Util::SerializedTypeRestrictionAttribute*
 class CORDL_TYPE SerializedTypeRestrictionAttribute : public ::System::Attribute {
 public:
@@ -34,7 +34,7 @@ public:
 
   static inline ::UnityEngine::ResourceManagement::Util::SerializedTypeRestrictionAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2bd2450, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bcffbc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SerializedTypeRestrictionAttribute", modifiers: "&&", def_value: None }]

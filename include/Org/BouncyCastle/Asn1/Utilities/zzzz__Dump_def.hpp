@@ -24,10 +24,10 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Asn1::Utilities::Dump* New_ctor();
 
-  /// @brief Method .ctor, addr 0x107e694, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10ab524, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Main, addr 0x107e69c, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method Main, addr 0x10ab52c, size 0x144, virtual false, abstract: false, final false
   static inline void Main(::ArrayW<::StringW, ::Array<::StringW>*> args);
 
   // Ctor Parameters [CppParam { name: "", ty: "Dump", modifiers: "&&", def_value: None }]

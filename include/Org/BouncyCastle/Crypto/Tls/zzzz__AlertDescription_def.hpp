@@ -22,15 +22,15 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class CORDL_TYPE AlertDescription : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetName, addr 0xf5ca30, size 0x3f4, virtual false, abstract: false, final false
+  /// @brief Method GetName, addr 0xf868c0, size 0x3f4, virtual false, abstract: false, final false
   static inline ::StringW GetName(uint8_t alertDescription);
 
-  /// @brief Method GetText, addr 0xf5ce24, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetText, addr 0xf86cb4, size 0x17c, virtual false, abstract: false, final false
   static inline ::StringW GetText(uint8_t alertDescription);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::AlertDescription* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf5cfa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf86e30, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AlertDescription", modifiers: "&&", def_value: None }]

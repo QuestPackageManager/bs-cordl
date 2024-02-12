@@ -49,8 +49,8 @@ MARK_REF_PTR_T(::System::Xml::Schema::Datatype_NOTATION);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11624))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11663))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11522))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11561))
 // CS Name: ::System.Xml.Schema::Datatype_NOTATION*
 class CORDL_TYPE Datatype_NOTATION : public ::System::Xml::Schema::Datatype_anySimpleType {
 public:
@@ -81,33 +81,33 @@ public:
 
   static inline ::System::Type* getStaticF_listValueType();
 
-  /// @brief Method CreateValueConverter, addr 0x28bb800, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method CreateValueConverter, addr 0x28bde68, size 0xc, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlValueConverter* CreateValueConverter(::System::Xml::Schema::XmlSchemaType* schemaType);
 
-  /// @brief Method get_FacetsChecker, addr 0x28bb80c, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_FacetsChecker, addr 0x28bde74, size 0x58, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::FacetsChecker* get_FacetsChecker();
 
-  /// @brief Method get_TypeCode, addr 0x28bb864, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x28bdecc, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
-  /// @brief Method get_TokenizedType, addr 0x28bb86c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TokenizedType, addr 0x28bded4, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlTokenizedType get_TokenizedType();
 
-  /// @brief Method get_ValueType, addr 0x28bb874, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_ValueType, addr 0x28bdedc, size 0x58, virtual true, abstract: false, final false
   inline ::System::Type* get_ValueType();
 
-  /// @brief Method get_ListValueType, addr 0x28bb8cc, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_ListValueType, addr 0x28bdf34, size 0x58, virtual true, abstract: false, final false
   inline ::System::Type* get_ListValueType();
 
-  /// @brief Method get_BuiltInWhitespaceFacet, addr 0x28bb924, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_BuiltInWhitespaceFacet, addr 0x28bdf8c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet();
 
-  /// @brief Method TryParseValue, addr 0x28bb92c, size 0x238, virtual true, abstract: false, final false
+  /// @brief Method TryParseValue, addr 0x28bdf94, size 0x238, virtual true, abstract: false, final false
   inline ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ByRef<::System::Object*> typedValue);
 
   static inline ::System::Xml::Schema::Datatype_NOTATION* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28bbb64, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28be1cc, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Datatype_NOTATION", modifiers: "&&", def_value: None }]

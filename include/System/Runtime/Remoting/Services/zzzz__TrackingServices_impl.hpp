@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*, ::System::Runtime::Remoting::ObjRef*)>(
     &::System::Runtime::Remoting::Services::TrackingServices::NotifyMarshaledObject)> {
   constexpr static std::size_t size = 0x310;
-  constexpr static std::size_t addrs = 0x2495d00;
+  constexpr static std::size_t addrs = 0x24b7d74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*, ::System::Runtime::Remoting::ObjRef*)>(
     &::System::Runtime::Remoting::Services::TrackingServices::NotifyUnmarshaledObject)> {
   constexpr static std::size_t size = 0x310;
-  constexpr static std::size_t addrs = 0x2496010;
+  constexpr static std::size_t addrs = 0x24b8084;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*)>(&::System::Runtime::Remoting::Services::TrackingServices::NotifyDisconnectedObject)> {
   constexpr static std::size_t size = 0x304;
-  constexpr static std::size_t addrs = 0x249345c;
+  constexpr static std::size_t addrs = 0x24b54d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

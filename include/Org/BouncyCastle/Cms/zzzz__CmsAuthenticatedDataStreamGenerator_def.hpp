@@ -105,17 +105,17 @@ public:
                                                                                                                             ::Org::BouncyCastle::Asn1::BerSequenceGenerator* authGen,
                                                                                                                             ::Org::BouncyCastle::Asn1::BerSequenceGenerator* eiGen);
 
-  /// @brief Method .ctor, addr 0x11dbfcc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1209e5c, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* macStream, ::Org::BouncyCastle::Crypto::IMac* mac, ::Org::BouncyCastle::Asn1::BerSequenceGenerator* cGen,
                     ::Org::BouncyCastle::Asn1::BerSequenceGenerator* authGen, ::Org::BouncyCastle::Asn1::BerSequenceGenerator* eiGen);
 
-  /// @brief Method WriteByte, addr 0x11dc1d8, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method WriteByte, addr 0x120a068, size 0x24, virtual true, abstract: false, final false
   inline void WriteByte(uint8_t b);
 
-  /// @brief Method Write, addr 0x11dc1fc, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x120a08c, size 0x24, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t off, int32_t len);
 
-  /// @brief Method Close, addr 0x11dc220, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x120a0b0, size 0x138, virtual true, abstract: false, final false
   inline void Close();
 
   // Ctor Parameters [CppParam { name: "", ty: "__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream", modifiers: "&&", def_value: None }]
@@ -195,31 +195,31 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::CmsAuthenticatedDataStreamGenerator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x11db10c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1208f9c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Cms::CmsAuthenticatedDataStreamGenerator* New_ctor(::Org::BouncyCastle::Security::SecureRandom* rand);
 
-  /// @brief Method .ctor, addr 0x11db110, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1208fa0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* rand);
 
-  /// @brief Method SetBufferSize, addr 0x11db114, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetBufferSize, addr 0x1208fa4, size 0x8, virtual false, abstract: false, final false
   inline void SetBufferSize(int32_t bufferSize);
 
-  /// @brief Method SetBerEncodeRecipients, addr 0x11db11c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetBerEncodeRecipients, addr 0x1208fac, size 0xc, virtual false, abstract: false, final false
   inline void SetBerEncodeRecipients(bool berEncodeRecipientSet);
 
-  /// @brief Method Open, addr 0x11db128, size 0x5f8, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x1208fb8, size 0x5f8, virtual false, abstract: false, final false
   inline ::System::IO::Stream* Open(::System::IO::Stream* outStr, ::StringW macOid, ::Org::BouncyCastle::Crypto::CipherKeyGenerator* keyGen);
 
-  /// @brief Method Open, addr 0x11db720, size 0x8ac, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x12095b0, size 0x8ac, virtual false, abstract: false, final false
   inline ::System::IO::Stream* Open(::System::IO::Stream* outStr, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* macAlgId, ::Org::BouncyCastle::Crypto::ICipherParameters* cipherParameters,
                                     ::Org::BouncyCastle::Asn1::Asn1EncodableVector* recipientInfos);
 
-  /// @brief Method Open, addr 0x11dc01c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x1209eac, size 0xdc, virtual false, abstract: false, final false
   inline ::System::IO::Stream* Open(::System::IO::Stream* outStr, ::StringW encryptionOid);
 
-  /// @brief Method Open, addr 0x11dc0f8, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x1209f88, size 0xe0, virtual false, abstract: false, final false
   inline ::System::IO::Stream* Open(::System::IO::Stream* outStr, ::StringW encryptionOid, int32_t keySize);
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsAuthenticatedDataStreamGenerator", modifiers: "&&", def_value: None }]

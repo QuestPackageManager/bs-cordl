@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::System::Net::HttpListenerContext);
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9173))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7183))
 // CS Name: ::System.Net::HttpListenerContext*
 class CORDL_TYPE HttpListenerContext : public ::System::Object {
 public:
@@ -117,37 +117,37 @@ public:
 
   static inline ::System::Net::HttpListenerContext* New_ctor(::System::Net::HttpConnection* cnc);
 
-  /// @brief Method .ctor, addr 0x29c5014, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29c8ab8, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::HttpConnection* cnc);
 
-  /// @brief Method get_ErrorStatus, addr 0x29c9704, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ErrorStatus, addr 0x29cd1a8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ErrorStatus();
 
-  /// @brief Method set_ErrorStatus, addr 0x29c970c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ErrorStatus, addr 0x29cd1b0, size 0x8, virtual false, abstract: false, final false
   inline void set_ErrorStatus(int32_t value);
 
-  /// @brief Method get_ErrorMessage, addr 0x29c9714, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ErrorMessage, addr 0x29cd1b8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ErrorMessage();
 
-  /// @brief Method set_ErrorMessage, addr 0x29c971c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ErrorMessage, addr 0x29cd1c0, size 0x8, virtual false, abstract: false, final false
   inline void set_ErrorMessage(::StringW value);
 
-  /// @brief Method get_HaveError, addr 0x29c5cc0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HaveError, addr 0x29c9764, size 0x10, virtual false, abstract: false, final false
   inline bool get_HaveError();
 
-  /// @brief Method get_Connection, addr 0x29c9724, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Connection, addr 0x29cd1c8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::HttpConnection* get_Connection();
 
-  /// @brief Method get_Request, addr 0x29c972c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Request, addr 0x29cd1d0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::HttpListenerRequest* get_Request();
 
-  /// @brief Method get_Response, addr 0x29c9734, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Response, addr 0x29cd1d8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::HttpListenerResponse* get_Response();
 
-  /// @brief Method ParseAuthentication, addr 0x29c91b4, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method ParseAuthentication, addr 0x29ccc58, size 0x120, virtual false, abstract: false, final false
   inline void ParseAuthentication(::System::Net::AuthenticationSchemes expectedSchemes);
 
-  /// @brief Method ParseBasicAuthentication, addr 0x29c973c, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method ParseBasicAuthentication, addr 0x29cd1e0, size 0x24c, virtual false, abstract: false, final false
   inline ::System::Security::Principal::IPrincipal* ParseBasicAuthentication(::StringW authData);
 
   // Ctor Parameters [CppParam { name: "", ty: "HttpListenerContext", modifiers: "&&", def_value: None }]

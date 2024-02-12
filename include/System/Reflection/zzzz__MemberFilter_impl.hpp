@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Reflection::MemberFilter::*)(::System::Object*, void*)>(&::System::Reflection::MemberFilter::_ctor)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x24e7818;
+  constexpr static std::size_t addrs = 0x2506970;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::MemberFilter::*)(::System::Reflection::MemberInfo*, ::System::Object*)>(
     &::System::Reflection::MemberFilter::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x24e7948;
+  constexpr static std::size_t addrs = 0x2506aa0;
 
   inline static ::MethodInfo const* methodInfo() {
 

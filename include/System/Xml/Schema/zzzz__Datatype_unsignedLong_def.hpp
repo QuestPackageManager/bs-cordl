@@ -38,8 +38,8 @@ MARK_REF_PTR_T(::System::Xml::Schema::Datatype_unsignedLong);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11671))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11672))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11569))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11570))
 // CS Name: ::System.Xml.Schema::Datatype_unsignedLong*
 class CORDL_TYPE Datatype_unsignedLong : public ::System::Xml::Schema::Datatype_nonNegativeInteger {
 public:
@@ -73,27 +73,27 @@ public:
 
   static inline ::System::Xml::Schema::FacetsChecker* getStaticF_numeric10FacetsChecker();
 
-  /// @brief Method get_FacetsChecker, addr 0x28bd4ec, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_FacetsChecker, addr 0x28bfb54, size 0x58, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::FacetsChecker* get_FacetsChecker();
 
-  /// @brief Method get_TypeCode, addr 0x28bd544, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x28bfbac, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
-  /// @brief Method Compare, addr 0x28bd54c, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Compare, addr 0x28bfbb4, size 0x94, virtual true, abstract: false, final false
   inline int32_t Compare(::System::Object* value1, ::System::Object* value2);
 
-  /// @brief Method get_ValueType, addr 0x28bd5e0, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_ValueType, addr 0x28bfc48, size 0x58, virtual true, abstract: false, final false
   inline ::System::Type* get_ValueType();
 
-  /// @brief Method get_ListValueType, addr 0x28bd638, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_ListValueType, addr 0x28bfca0, size 0x58, virtual true, abstract: false, final false
   inline ::System::Type* get_ListValueType();
 
-  /// @brief Method TryParseValue, addr 0x28bd690, size 0x184, virtual true, abstract: false, final false
+  /// @brief Method TryParseValue, addr 0x28bfcf8, size 0x184, virtual true, abstract: false, final false
   inline ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ByRef<::System::Object*> typedValue);
 
   static inline ::System::Xml::Schema::Datatype_unsignedLong* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28bd814, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28bfe7c, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Datatype_unsignedLong", modifiers: "&&", def_value: None }]

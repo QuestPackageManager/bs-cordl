@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::GlobalNamespace::DroppedFramesLabel);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14343))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14501))
 // CS Name: ::DroppedFramesLabel*
 class CORDL_TYPE DroppedFramesLabel : public ::UnityEngine::MonoBehaviour {
 public:
@@ -97,18 +97,18 @@ public:
 
   constexpr void __cordl_internal_set__frameCountInInterval(int32_t value);
 
-  /// @brief Method Start, addr 0x20f04bc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2184a44, size 0x74, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x20f0530, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2184ab8, size 0x90, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method RefreshText, addr 0x20f05c0, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method RefreshText, addr 0x2184b48, size 0x168, virtual false, abstract: false, final false
   inline void RefreshText();
 
   static inline ::GlobalNamespace::DroppedFramesLabel* New_ctor();
 
-  /// @brief Method .ctor, addr 0x20f0728, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2184cb0, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DroppedFramesLabel", modifiers: "&&", def_value: None }]

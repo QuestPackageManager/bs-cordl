@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::GlobalNamespace::DisableWhenMirrorIsEnabled);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5858))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5148))
 // CS Name: ::DisableWhenMirrorIsEnabled*
 class CORDL_TYPE DisableWhenMirrorIsEnabled : public ::UnityEngine::MonoBehaviour {
 public:
@@ -34,24 +34,24 @@ public:
 
   constexpr void __cordl_internal_set__mirror(::UnityW<::GlobalNamespace::Mirror> value);
 
-  /// @brief Method get_mirror, addr 0x22f77fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mirror, addr 0x2324104, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::Mirror> get_mirror();
 
-  /// @brief Method set_mirror, addr 0x22f7804, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_mirror, addr 0x232410c, size 0x8, virtual false, abstract: false, final false
   inline void set_mirror(::GlobalNamespace::Mirror* value);
 
-  /// @brief Method Start, addr 0x22f780c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2324114, size 0xa0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy, addr 0x22f78d8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x23241e0, size 0xd4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleMirrorDidChangeEnabledState, addr 0x22f78ac, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method HandleMirrorDidChangeEnabledState, addr 0x23241b4, size 0x2c, virtual false, abstract: false, final false
   inline void HandleMirrorDidChangeEnabledState(bool isEnabled);
 
   static inline ::GlobalNamespace::DisableWhenMirrorIsEnabled* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22f79ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23242b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DisableWhenMirrorIsEnabled", modifiers: "&&", def_value: None }]

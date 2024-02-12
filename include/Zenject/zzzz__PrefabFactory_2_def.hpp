@@ -36,7 +36,7 @@ namespace Zenject {
 template <typename P1, typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11101))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10243))
 // CS Name: ::Zenject::PrefabFactory`2<P1,T>*
 class CORDL_TYPE PrefabFactory_2 : public ::System::Object {
 public:

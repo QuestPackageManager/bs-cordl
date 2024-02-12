@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::System::Net::BufferOffsetSize);
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9100))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7110))
 // CS Name: ::System.Net::BufferOffsetSize*
 class CORDL_TYPE BufferOffsetSize : public ::System::Object {
 public:
@@ -51,12 +51,12 @@ public:
 
   static inline ::System::Net::BufferOffsetSize* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size, bool copyBuffer);
 
-  /// @brief Method .ctor, addr 0x29a5d50, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29aa7f4, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size, bool copyBuffer);
 
   static inline ::System::Net::BufferOffsetSize* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, bool copyBuffer);
 
-  /// @brief Method .ctor, addr 0x29a5dfc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29aa8a0, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, bool copyBuffer);
 
   // Ctor Parameters [CppParam { name: "", ty: "BufferOffsetSize", modifiers: "&&", def_value: None }]

@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::HttpTransferUpdate);
 namespace Oculus::Platform::Models {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13436))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13375))
 // CS Name: ::Oculus.Platform.Models::HttpTransferUpdate*
 class CORDL_TYPE HttpTransferUpdate : public ::System::Object {
 public:
@@ -51,7 +51,7 @@ public:
 
   static inline ::Oculus::Platform::Models::HttpTransferUpdate* New_ctor(void* o);
 
-  /// @brief Method .ctor, addr 0x2705f3c, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2738e18, size 0x158, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "HttpTransferUpdate", modifiers: "&&", def_value: None }]

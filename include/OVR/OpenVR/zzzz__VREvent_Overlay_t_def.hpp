@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::VREvent_Overlay_t);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8672))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8616))
 // CS Name: ::OVR.OpenVR::VREvent_Overlay_t
 struct CORDL_TYPE VREvent_Overlay_t {
 public:

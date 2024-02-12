@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::IBeginDragHandler);
 namespace UnityEngine::EventSystems {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13177))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13075))
 // CS Name: ::UnityEngine.EventSystems::IBeginDragHandler*
 class CORDL_TYPE IBeginDragHandler {
 public:

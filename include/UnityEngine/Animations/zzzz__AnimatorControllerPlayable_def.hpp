@@ -24,8 +24,8 @@ MARK_VAL_T(::UnityEngine::Animations::AnimatorControllerPlayable);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Animations {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10440))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14889))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9209))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14762))
 // CS Name: ::UnityEngine.Animations::AnimatorControllerPlayable
 struct CORDL_TYPE AnimatorControllerPlayable {
 public:
@@ -49,16 +49,16 @@ public:
 
   static inline ::UnityEngine::Animations::AnimatorControllerPlayable getStaticF_m_NullPlayable();
 
-  /// @brief Method .ctor, addr 0x2c96e08, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c93974, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Playables::PlayableHandle handle);
 
-  /// @brief Method GetHandle, addr 0x2c96f88, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetHandle, addr 0x2c93af4, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableHandle GetHandle();
 
-  /// @brief Method SetHandle, addr 0x2c96e80, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method SetHandle, addr 0x2c939ec, size 0x108, virtual false, abstract: false, final false
   inline void SetHandle(::UnityEngine::Playables::PlayableHandle handle);
 
-  /// @brief Method Equals, addr 0x2c96f94, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2c93b00, size 0x78, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Animations::AnimatorControllerPlayable other);
 
   // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableHandle", modifiers: "", def_value: None }]

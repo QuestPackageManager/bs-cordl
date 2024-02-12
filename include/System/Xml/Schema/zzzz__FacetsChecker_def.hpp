@@ -47,65 +47,65 @@ MARK_REF_PTR_T(::System::Xml::Schema::FacetsChecker);
 namespace System::Xml::Schema {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11686))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11584))
 // CS Name: ::System.Xml.Schema::FacetsChecker*
 class CORDL_TYPE FacetsChecker : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CheckLexicalFacets, addr 0x28c0934, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method CheckLexicalFacets, addr 0x28c2f9c, size 0x40, virtual true, abstract: false, final false
   inline ::System::Exception* CheckLexicalFacets(ByRef<::StringW> parseString, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x28c0bc0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x28c3228, size 0x8, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::System::Object* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x28c0bc8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x28c3230, size 0x8, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::System::Decimal value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x28c0bd0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x28c3238, size 0x8, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(int64_t value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x28c0bd8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x28c3240, size 0x8, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(int32_t value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x28c0be0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x28c3248, size 0x8, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(int16_t value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x28c0be8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x28c3250, size 0x8, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::System::DateTime value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x28c0bf0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x28c3258, size 0x8, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(double_t value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x28c0bf8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x28c3260, size 0x8, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(float_t value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x28c0c00, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x28c3268, size 0x8, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::StringW value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x28c0c08, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x28c3270, size 0x8, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::ArrayW<uint8_t, ::Array<uint8_t>*> value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x28c0c10, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x28c3278, size 0x8, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::System::TimeSpan value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x28c0c18, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x28c3280, size 0x8, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::System::Xml::XmlQualifiedName* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckWhitespaceFacets, addr 0x28c0974, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method CheckWhitespaceFacets, addr 0x28c2fdc, size 0xe4, virtual false, abstract: false, final false
   inline void CheckWhitespaceFacets(ByRef<::StringW> s, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckPatternFacets, addr 0x28c0a58, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method CheckPatternFacets, addr 0x28c30c0, size 0x168, virtual false, abstract: false, final false
   inline ::System::Exception* CheckPatternFacets(::System::Xml::Schema::RestrictionFacets* restriction, ::StringW value);
 
-  /// @brief Method MatchEnumeration, addr 0x28c0c20, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method MatchEnumeration, addr 0x28c3288, size 0x8, virtual true, abstract: false, final false
   inline bool MatchEnumeration(::System::Object* value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method Power, addr 0x28c0c28, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method Power, addr 0x28c3290, size 0x12c, virtual false, abstract: false, final false
   static inline ::System::Decimal Power(int32_t x, int32_t y);
 
   static inline ::System::Xml::Schema::FacetsChecker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28c0d54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28c33bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FacetsChecker", modifiers: "&&", def_value: None }]

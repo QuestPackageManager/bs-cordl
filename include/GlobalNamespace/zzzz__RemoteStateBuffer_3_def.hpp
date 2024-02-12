@@ -30,8 +30,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TStateTable, typename TType, typename TState>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12985)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12985), inst: 3837 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12987))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12883)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12883), inst: 3820 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12885))
 // CS Name: ::RemoteStateBuffer`3<TStateTable,TType,TState>*
 class CORDL_TYPE RemoteStateBuffer_3 : public ::GlobalNamespace::StateBuffer_3<TStateTable, TType, TState> {
 public:

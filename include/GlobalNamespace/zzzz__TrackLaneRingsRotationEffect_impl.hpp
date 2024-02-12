@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect::*)()>(
     &::GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23b8300;
+  constexpr static std::size_t addrs = 0x2377444;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TrackLaneRingsRotationEffect::*)()>(
     &::GlobalNamespace::TrackLaneRingsRotationEffect::Awake)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x23b8180;
+  constexpr static std::size_t addrs = 0x23772c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TrackLaneRingsRotationEffect*>::get(), "Awake",
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TrackLaneRingsRotationEffect::*)()>(
     &::GlobalNamespace::TrackLaneRingsRotationEffect::Start)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x23b8308;
+  constexpr static std::size_t addrs = 0x237744c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TrackLaneRingsRotationEffect*>::get(), "Start",
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TrackLaneRingsRotationEffect::*)()>(
     &::GlobalNamespace::TrackLaneRingsRotationEffect::FixedUpdate)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x23b83fc;
+  constexpr static std::size_t addrs = 0x2377540;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TrackLaneRingsRotationEffect*>::get(),
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TrackLaneRingsRotationEffect::*)(float_t, float_t, int32_t, float_t)>(
     &::GlobalNamespace::TrackLaneRingsRotationEffect::AddRingRotationEffect)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x23b8318;
+  constexpr static std::size_t addrs = 0x237745c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::TrackLaneRingsRotationEffect::*)()>(
     &::GlobalNamespace::TrackLaneRingsRotationEffect::GetFirstRingRotationAngle)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x23b86dc;
+  constexpr static std::size_t addrs = 0x2377820;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TrackLaneRingsRotationEffect*>::get(),
@@ -169,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::TrackLaneRingsRotationEffect::*)()>(
     &::GlobalNamespace::TrackLaneRingsRotationEffect::GetFirstRingDestinationRotationAngle)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x23b8714;
+  constexpr static std::size_t addrs = 0x2377858;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -184,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect* (
     ::GlobalNamespace::TrackLaneRingsRotationEffect::*)()>(&::GlobalNamespace::TrackLaneRingsRotationEffect::SpawnRingRotationEffect)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x23b8608;
+  constexpr static std::size_t addrs = 0x237774c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TrackLaneRingsRotationEffect*>::get(),
@@ -198,7 +198,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TrackLaneRingsRotationEffect::*)(
     ::GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect*)>(&::GlobalNamespace::TrackLaneRingsRotationEffect::RecycleRingRotationEffect)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x23b8560;
+  constexpr static std::size_t addrs = 0x23776a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -213,7 +213,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TrackLaneRingsRotationEffect::*)()>(
     &::GlobalNamespace::TrackLaneRingsRotationEffect::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x23b874c;
+  constexpr static std::size_t addrs = 0x2377890;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TrackLaneRingsRotationEffect*>::get(), ".ctor",

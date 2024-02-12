@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::TextMeshProButton);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5439))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4742))
 // CS Name: ::TextMeshProButton*
 class CORDL_TYPE TextMeshProButton : public ::UnityEngine::MonoBehaviour {
 public:
@@ -48,15 +48,15 @@ public:
 
   constexpr void __cordl_internal_set__button(::UnityW<::UnityEngine::UI::Button> value);
 
-  /// @brief Method get_text, addr 0x227c834, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x23d80ec, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::TMPro::TextMeshProUGUI> get_text();
 
-  /// @brief Method get_button, addr 0x227c83c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_button, addr 0x23d80f4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Button> get_button();
 
   static inline ::GlobalNamespace::TextMeshProButton* New_ctor();
 
-  /// @brief Method .ctor, addr 0x227c844, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d80fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TextMeshProButton", modifiers: "&&", def_value: None }]

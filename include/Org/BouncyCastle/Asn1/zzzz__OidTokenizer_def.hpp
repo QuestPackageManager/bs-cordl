@@ -44,13 +44,13 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::OidTokenizer* New_ctor(::StringW oid);
 
-  /// @brief Method .ctor, addr 0x11c6ac8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11f3958, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW oid);
 
-  /// @brief Method get_HasMoreTokens, addr 0x11c6af0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HasMoreTokens, addr 0x11f3980, size 0x10, virtual false, abstract: false, final false
   inline bool get_HasMoreTokens();
 
-  /// @brief Method NextToken, addr 0x11c6b00, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method NextToken, addr 0x11f3990, size 0x88, virtual false, abstract: false, final false
   inline ::StringW NextToken();
 
   // Ctor Parameters [CppParam { name: "", ty: "OidTokenizer", modifiers: "&&", def_value: None }]

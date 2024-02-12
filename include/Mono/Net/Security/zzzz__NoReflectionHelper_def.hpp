@@ -18,12 +18,12 @@ MARK_REF_PTR_T(::Mono::Net::Security::NoReflectionHelper);
 namespace Mono::Net::Security {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8845))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6855))
 // CS Name: ::Mono.Net.Security::NoReflectionHelper*
 class CORDL_TYPE NoReflectionHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetProvider, addr 0x2825d30, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetProvider, addr 0x282a518, size 0x4c, virtual false, abstract: false, final false
   static inline ::System::Object* GetProvider();
 
   // Ctor Parameters [CppParam { name: "", ty: "NoReflectionHelper", modifiers: "&&", def_value: None }]

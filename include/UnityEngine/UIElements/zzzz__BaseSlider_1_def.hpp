@@ -56,8 +56,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename TValueType>
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7100)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7100), inst: 2686 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7100))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6359)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6359), inst: 2658 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6359))
 // CS Name: ::BaseSlider`1::SliderKey<TValueType>
 struct CORDL_TYPE __BaseSlider_1__SliderKey {
 public:
@@ -124,8 +124,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename TValueType>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7099)), TypeDefinitionIndex(TypeDefinitionIndex(7130)), TypeDefinitionIndex(TypeDefinitionIndex(10165)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7130), inst: 918 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7101)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6358)), TypeDefinitionIndex(TypeDefinitionIndex(6389)), TypeDefinitionIndex(TypeDefinitionIndex(8909)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6389), inst: 920 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6360)) CS Name:
 // ::UnityEngine.UIElements::BaseSlider`1<TValueType>*
 class CORDL_TYPE BaseSlider_1 : public ::UnityEngine::UIElements::BaseField_1<TValueType> {
 public:

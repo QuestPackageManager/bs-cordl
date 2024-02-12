@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::RecordingToolSettingsNoTransitionInstaller);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11176))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6041))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10318))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5316))
 // CS Name: ::RecordingToolSettingsNoTransitionInstaller*
 class CORDL_TYPE RecordingToolSettingsNoTransitionInstaller : public ::Zenject::NoTransitionInstaller {
 public:
@@ -49,12 +49,12 @@ public:
 
   constexpr void __cordl_internal_set__scenesTransitionSetupData(::UnityW<::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO> value);
 
-  /// @brief Method InstallBindings, addr 0x231b6f8, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x2347354, size 0x44, virtual true, abstract: false, final false
   inline void InstallBindings(::Zenject::DiContainer* container);
 
   static inline ::GlobalNamespace::RecordingToolSettingsNoTransitionInstaller* New_ctor();
 
-  /// @brief Method .ctor, addr 0x231b744, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23473a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RecordingToolSettingsNoTransitionInstaller", modifiers: "&&", def_value: None }]

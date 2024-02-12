@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__MainCameraCullingMask__InitData);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15287))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15402))
 // CS Name: ::MainCameraCullingMask::InitData*
 class CORDL_TYPE __MainCameraCullingMask__InitData : public ::System::Object {
 public:
@@ -42,7 +42,7 @@ public:
 
   static inline ::GlobalNamespace::__MainCameraCullingMask__InitData* New_ctor(bool showDebris);
 
-  /// @brief Method .ctor, addr 0x2807d8c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x280c574, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool showDebris);
 
   // Ctor Parameters [CppParam { name: "", ty: "__MainCameraCullingMask__InitData", modifiers: "&&", def_value: None }]
@@ -74,8 +74,8 @@ static_assert(offsetof(::GlobalNamespace::__MainCameraCullingMask__InitData, ___
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15288))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15403))
 // CS Name: ::MainCameraCullingMask*
 class CORDL_TYPE MainCameraCullingMask : public ::UnityEngine::MonoBehaviour {
 public:
@@ -100,12 +100,12 @@ public:
 
   constexpr void __cordl_internal_set__initData(::GlobalNamespace::__MainCameraCullingMask__InitData* value);
 
-  /// @brief Method Start, addr 0x2807c6c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x280c454, size 0xb0, virtual false, abstract: false, final false
   inline void Start();
 
   static inline ::GlobalNamespace::MainCameraCullingMask* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2807d1c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x280c504, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MainCameraCullingMask", modifiers: "&&", def_value: None }]

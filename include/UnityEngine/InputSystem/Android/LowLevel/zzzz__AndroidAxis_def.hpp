@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis);
 namespace UnityEngine::InputSystem::Android::LowLevel {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6445))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5704))
 // CS Name: ::UnityEngine.InputSystem.Android.LowLevel::AndroidAxis
 struct CORDL_TYPE AndroidAxis {
 public:

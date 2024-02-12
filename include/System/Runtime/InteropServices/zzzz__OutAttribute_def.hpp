@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::System::Runtime::InteropServices::OutAttribute);
 namespace System::Runtime::InteropServices {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3326))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3324))
 // CS Name: ::System.Runtime.InteropServices::OutAttribute*
 class CORDL_TYPE OutAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::System::Runtime::InteropServices::OutAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24d72d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f7f68, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OutAttribute", modifiers: "&&", def_value: None }]

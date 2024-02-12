@@ -90,44 +90,44 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Macs::CbcBlockCipherMac* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher);
 
-  /// @brief Method .ctor, addr 0xf09140, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf34fd0, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher);
 
   static inline ::Org::BouncyCastle::Crypto::Macs::CbcBlockCipherMac* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher, ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* padding);
 
-  /// @brief Method .ctor, addr 0xf09394, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf35224, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher, ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* padding);
 
   static inline ::Org::BouncyCastle::Crypto::Macs::CbcBlockCipherMac* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher, int32_t macSizeInBits);
 
-  /// @brief Method .ctor, addr 0xf0946c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf352fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher, int32_t macSizeInBits);
 
   static inline ::Org::BouncyCastle::Crypto::Macs::CbcBlockCipherMac* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher, int32_t macSizeInBits,
                                                                                ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* padding);
 
-  /// @brief Method .ctor, addr 0xf0920c, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf3509c, size 0x188, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher, int32_t macSizeInBits, ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* padding);
 
-  /// @brief Method get_AlgorithmName, addr 0xf09574, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method get_AlgorithmName, addr 0xf35404, size 0xa0, virtual true, abstract: false, final true
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method Init, addr 0xf09614, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0xf354a4, size 0xb8, virtual true, abstract: false, final true
   inline void Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method GetMacSize, addr 0xf0978c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetMacSize, addr 0xf3561c, size 0x8, virtual true, abstract: false, final true
   inline int32_t GetMacSize();
 
-  /// @brief Method Update, addr 0xf09794, size 0x114, virtual true, abstract: false, final true
+  /// @brief Method Update, addr 0xf35624, size 0x114, virtual true, abstract: false, final true
   inline void Update(uint8_t input);
 
-  /// @brief Method BlockUpdate, addr 0xf098a8, size 0x28c, virtual true, abstract: false, final true
+  /// @brief Method BlockUpdate, addr 0xf35738, size 0x28c, virtual true, abstract: false, final true
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t len);
 
-  /// @brief Method DoFinal, addr 0xf09b34, size 0x2b0, virtual true, abstract: false, final true
+  /// @brief Method DoFinal, addr 0xf359c4, size 0x2b0, virtual true, abstract: false, final true
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset, addr 0xf096cc, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0xf3555c, size 0xc0, virtual true, abstract: false, final true
   inline void Reset();
 
   // Ctor Parameters [CppParam { name: "", ty: "CbcBlockCipherMac", modifiers: "&&", def_value: None }]

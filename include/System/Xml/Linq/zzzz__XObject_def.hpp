@@ -36,7 +36,7 @@ MARK_REF_PTR_T(::System::Xml::Linq::XObject);
 namespace System::Xml::Linq {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15454))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15568))
 // CS Name: ::System.Xml.Linq::XObject*
 class CORDL_TYPE XObject : public ::System::Object {
 public:
@@ -65,31 +65,31 @@ public:
 
   static inline ::System::Xml::Linq::XObject* New_ctor();
 
-  /// @brief Method .ctor, addr 0x285aaa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x285e10c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_NodeType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
-  /// @brief Method get_Parent, addr 0x28611b4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_Parent, addr 0x286481c, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Xml::Linq::XElement* get_Parent();
 
-  /// @brief Method AnnotationForSealedType, addr 0x2861230, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method AnnotationForSealedType, addr 0x2864898, size 0x144, virtual false, abstract: false, final false
   inline ::System::Object* AnnotationForSealedType(::System::Type* type);
 
   /// @brief Method Annotation, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline T Annotation();
 
-  /// @brief Method NotifyChanged, addr 0x285b3dc, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method NotifyChanged, addr 0x285ea44, size 0xa8, virtual false, abstract: false, final false
   inline bool NotifyChanged(::System::Object* sender, ::System::Xml::Linq::XObjectChangeEventArgs* e);
 
-  /// @brief Method NotifyChanging, addr 0x285b334, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method NotifyChanging, addr 0x285e99c, size 0xa8, virtual false, abstract: false, final false
   inline bool NotifyChanging(::System::Object* sender, ::System::Xml::Linq::XObjectChangeEventArgs* e);
 
-  /// @brief Method SkipNotify, addr 0x285c890, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method SkipNotify, addr 0x285fef8, size 0x70, virtual false, abstract: false, final false
   inline bool SkipNotify();
 
-  /// @brief Method GetSaveOptionsFromAnnotations, addr 0x2860c60, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method GetSaveOptionsFromAnnotations, addr 0x28642c8, size 0xe0, virtual false, abstract: false, final false
   inline ::System::Xml::Linq::SaveOptions GetSaveOptionsFromAnnotations();
 
   // Ctor Parameters [CppParam { name: "", ty: "XObject", modifiers: "&&", def_value: None }]

@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SonyFirstPersonFlyingControllerHandler);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5837))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5130))
 // CS Name: ::SonyFirstPersonFlyingControllerHandler*
 class CORDL_TYPE SonyFirstPersonFlyingControllerHandler : public ::UnityEngine::MonoBehaviour {
 public:
@@ -34,7 +34,7 @@ public:
 
   static inline ::GlobalNamespace::SonyFirstPersonFlyingControllerHandler* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22ee8bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x231cd98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SonyFirstPersonFlyingControllerHandler", modifiers: "&&", def_value: None }]

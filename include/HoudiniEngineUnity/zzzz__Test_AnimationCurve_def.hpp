@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::Test_AnimationCurve);
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9930))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9722))
 // CS Name: ::HoudiniEngineUnity::Test_AnimationCurve*
 class CORDL_TYPE Test_AnimationCurve : public ::System::Object {
 public:
@@ -53,13 +53,13 @@ public:
 
   static inline ::HoudiniEngineUnity::Test_AnimationCurve* New_ctor(::UnityEngine::AnimationCurve* self);
 
-  /// @brief Method .ctor, addr 0x21e6f8c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x227c874, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::AnimationCurve* self);
 
-  /// @brief Method IsNull, addr 0x21e6fb4, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method IsNull, addr 0x227c89c, size 0x10, virtual true, abstract: false, final true
   inline bool IsNull();
 
-  /// @brief Method IsEquivalentTo, addr 0x21e6fc4, size 0xe0, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x227c8ac, size 0xe0, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_AnimationCurve* other);
 
   // Ctor Parameters [CppParam { name: "", ty: "Test_AnimationCurve", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ProBuilder::HandleAxis);
 namespace UnityEngine::ProBuilder {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12159))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12057))
 // CS Name: ::UnityEngine.ProBuilder::HandleAxis
 struct CORDL_TYPE HandleAxis {
 public:

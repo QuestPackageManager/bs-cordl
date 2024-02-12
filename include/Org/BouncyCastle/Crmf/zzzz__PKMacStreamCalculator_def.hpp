@@ -54,13 +54,13 @@ public:
 
   static inline ::Org::BouncyCastle::Crmf::PKMacStreamCalculator* New_ctor(::Org::BouncyCastle::Crypto::IMac* mac);
 
-  /// @brief Method .ctor, addr 0x1211eac, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x123ed3c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IMac* mac);
 
-  /// @brief Method get_Stream, addr 0x1211f28, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Stream, addr 0x123edb8, size 0x8, virtual true, abstract: false, final true
   inline ::System::IO::Stream* get_Stream();
 
-  /// @brief Method GetResult, addr 0x1211f30, size 0x84, virtual true, abstract: false, final true
+  /// @brief Method GetResult, addr 0x123edc0, size 0x84, virtual true, abstract: false, final true
   inline ::System::Object* GetResult();
 
   // Ctor Parameters [CppParam { name: "", ty: "PKMacStreamCalculator", modifiers: "&&", def_value: None }]

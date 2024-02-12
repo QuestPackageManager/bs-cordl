@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::GPUBufferAllocator);
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7437))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6696))
 // CS Name: ::UnityEngine.UIElements.UIR::GPUBufferAllocator*
 class CORDL_TYPE GPUBufferAllocator : public ::System::Object {
 public:
@@ -49,19 +49,19 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::GPUBufferAllocator* New_ctor(uint32_t maxSize);
 
-  /// @brief Method .ctor, addr 0x2dd52a0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2df3688, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(uint32_t maxSize);
 
-  /// @brief Method Allocate, addr 0x2dd0cf0, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method Allocate, addr 0x2def0d8, size 0x13c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::Alloc Allocate(uint32_t size, bool shortLived);
 
-  /// @brief Method Free, addr 0x2dd0e2c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Free, addr 0x2def214, size 0x84, virtual false, abstract: false, final false
   inline void Free(::UnityEngine::UIElements::UIR::Alloc alloc);
 
-  /// @brief Method get_isEmpty, addr 0x2dd536c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isEmpty, addr 0x2df3754, size 0x3c, virtual false, abstract: false, final false
   inline bool get_isEmpty();
 
-  /// @brief Method HighLowCollide, addr 0x2dd5334, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HighLowCollide, addr 0x2df371c, size 0x38, virtual false, abstract: false, final false
   inline bool HighLowCollide();
 
   // Ctor Parameters [CppParam { name: "", ty: "GPUBufferAllocator", modifiers: "&&", def_value: None }]

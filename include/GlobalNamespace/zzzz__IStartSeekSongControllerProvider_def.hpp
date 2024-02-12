@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IStartSeekSongControllerProvider);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5166))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4508))
 // CS Name: ::IStartSeekSongControllerProvider*
 class CORDL_TYPE IStartSeekSongControllerProvider {
 public:

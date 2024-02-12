@@ -105,42 +105,42 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Engines::SM2Engine* New_ctor();
 
-  /// @brief Method .ctor, addr 0xee835c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf131ec, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Engines::SM2Engine* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method .ctor, addr 0xee83c8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf13258, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method Init, addr 0xee83f0, size 0x29c, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0xf13280, size 0x29c, virtual true, abstract: false, final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* param);
 
-  /// @brief Method ProcessBlock, addr 0xee868c, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method ProcessBlock, addr 0xf1351c, size 0x10, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t inLen);
 
-  /// @brief Method CreateBasePointMultiplier, addr 0xee8f0c, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method CreateBasePointMultiplier, addr 0xf13d9c, size 0x5c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* CreateBasePointMultiplier();
 
-  /// @brief Method Encrypt, addr 0xee869c, size 0x3f8, virtual false, abstract: false, final false
+  /// @brief Method Encrypt, addr 0xf1352c, size 0x3f8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Encrypt(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t inLen);
 
-  /// @brief Method Decrypt, addr 0xee8a94, size 0x478, virtual false, abstract: false, final false
+  /// @brief Method Decrypt, addr 0xf13924, size 0x478, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Decrypt(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t inLen);
 
-  /// @brief Method NotEncrypted, addr 0xee9430, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method NotEncrypted, addr 0xf142c0, size 0x68, virtual false, abstract: false, final false
   inline bool NotEncrypted(::ArrayW<uint8_t, ::Array<uint8_t>*> encData, ::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff);
 
-  /// @brief Method Kdf, addr 0xee9038, size 0x3f8, virtual false, abstract: false, final false
+  /// @brief Method Kdf, addr 0xf13ec8, size 0x3f8, virtual false, abstract: false, final false
   inline void Kdf(::Org::BouncyCastle::Crypto::IDigest* digest, ::Org::BouncyCastle::Math::EC::ECPoint* c1, ::ArrayW<uint8_t, ::Array<uint8_t>*> encData);
 
-  /// @brief Method Xor, addr 0xee956c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Xor, addr 0xf143fc, size 0x64, virtual false, abstract: false, final false
   inline void Xor(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::ArrayW<uint8_t, ::Array<uint8_t>*> kdfOut, int32_t dOff, int32_t dRemaining);
 
-  /// @brief Method NextK, addr 0xee8f68, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method NextK, addr 0xf13df8, size 0xd0, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* NextK();
 
-  /// @brief Method AddFieldElement, addr 0xee9498, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method AddFieldElement, addr 0xf14328, size 0xd4, virtual false, abstract: false, final false
   inline void AddFieldElement(::Org::BouncyCastle::Crypto::IDigest* digest, ::Org::BouncyCastle::Math::EC::ECFieldElement* v);
 
   // Ctor Parameters [CppParam { name: "", ty: "SM2Engine", modifiers: "&&", def_value: None }]

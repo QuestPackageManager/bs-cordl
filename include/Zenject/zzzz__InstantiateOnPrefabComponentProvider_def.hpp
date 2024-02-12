@@ -40,7 +40,7 @@ MARK_REF_PTR_T(::Zenject::InstantiateOnPrefabComponentProvider);
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11190))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10332))
 // CS Name: ::Zenject::InstantiateOnPrefabComponentProvider*
 class CORDL_TYPE InstantiateOnPrefabComponentProvider : public ::System::Object {
 public:
@@ -75,19 +75,19 @@ public:
 
   static inline ::Zenject::InstantiateOnPrefabComponentProvider* New_ctor(::System::Type* componentType, ::Zenject::IPrefabInstantiator* prefabInstantiator);
 
-  /// @brief Method .ctor, addr 0x2f0743c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f23584, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* componentType, ::Zenject::IPrefabInstantiator* prefabInstantiator);
 
-  /// @brief Method get_IsCached, addr 0x2f07468, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsCached, addr 0x2f235b0, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsCached();
 
-  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x2f07470, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x2f235b8, size 0x8, virtual true, abstract: false, final true
   inline bool get_TypeVariesBasedOnMemberType();
 
-  /// @brief Method GetInstanceType, addr 0x2f07478, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetInstanceType, addr 0x2f235c0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
 
-  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x2f07480, size 0x16c, virtual true, abstract: false, final true
+  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x2f235c8, size 0x16c, virtual true, abstract: false, final true
   inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction,
                                              ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 

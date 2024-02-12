@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::InputActionReference);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6165))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8954))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5424))
 // CS Name: ::UnityEngine.InputSystem::InputActionReference*
 class CORDL_TYPE InputActionReference : public ::UnityEngine::ScriptableObject {
 public:
@@ -58,42 +58,42 @@ public:
 
   constexpr void __cordl_internal_set_m_Action(::UnityEngine::InputSystem::InputAction* value);
 
-  /// @brief Method get_asset, addr 0x2a46e30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_asset, addr 0x2a4999c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::InputSystem::InputActionAsset> get_asset();
 
-  /// @brief Method get_action, addr 0x2a46a58, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method get_action, addr 0x2a495c4, size 0xac, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputAction* get_action();
 
-  /// @brief Method Set, addr 0x2a46e38, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x2a499a4, size 0x108, virtual false, abstract: false, final false
   inline void Set(::UnityEngine::InputSystem::InputAction* action);
 
-  /// @brief Method Set, addr 0x2a470b4, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x2a49c20, size 0x224, virtual false, abstract: false, final false
   inline void Set(::UnityEngine::InputSystem::InputActionAsset* asset, ::StringW mapName, ::StringW actionName);
 
-  /// @brief Method SetInternal, addr 0x2a46f40, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method SetInternal, addr 0x2a49aac, size 0x174, virtual false, abstract: false, final false
   inline void SetInternal(::UnityEngine::InputSystem::InputActionAsset* asset, ::UnityEngine::InputSystem::InputAction* action);
 
-  /// @brief Method ToString, addr 0x2a47398, size 0x320, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2a49f04, size 0x320, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method GetDisplayName, addr 0x2a472d8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetDisplayName, addr 0x2a49e44, size 0xc0, virtual false, abstract: false, final false
   static inline ::StringW GetDisplayName(::UnityEngine::InputSystem::InputAction* action);
 
-  /// @brief Method ToDisplayName, addr 0x2a476b8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ToDisplayName, addr 0x2a4a224, size 0x3c, virtual false, abstract: false, final false
   inline ::StringW ToDisplayName();
 
-  /// @brief Method op_Implicit, addr 0x2a476f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2a4a260, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputAction* op_Implicit___UnityEngine__InputSystem__InputAction_(::UnityEngine::InputSystem::InputActionReference* reference);
 
-  /// @brief Method Create, addr 0x2a47700, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2a4a26c, size 0x6c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::InputSystem::InputActionReference> Create(::UnityEngine::InputSystem::InputAction* action);
 
-  /// @brief Method ToInputAction, addr 0x2a4776c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ToInputAction, addr 0x2a4a2d8, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputAction* ToInputAction();
 
   static inline ::UnityEngine::InputSystem::InputActionReference* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2a47770, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a4a2dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "InputActionReference", modifiers: "&&", def_value: None }]

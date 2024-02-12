@@ -72,37 +72,37 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::SrpTlsServer* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsSrpIdentityManager* srpIdentityManager);
 
-  /// @brief Method .ctor, addr 0xf97830, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfc36c0, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsSrpIdentityManager* srpIdentityManager);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::SrpTlsServer* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory* cipherFactory,
                                                                          ::Org::BouncyCastle::Crypto::Tls::TlsSrpIdentityManager* srpIdentityManager);
 
-  /// @brief Method .ctor, addr 0xf978b0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfc3740, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory* cipherFactory, ::Org::BouncyCastle::Crypto::Tls::TlsSrpIdentityManager* srpIdentityManager);
 
-  /// @brief Method GetDsaSignerCredentials, addr 0xf978dc, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetDsaSignerCredentials, addr 0xfc376c, size 0x44, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsSignerCredentials* GetDsaSignerCredentials();
 
-  /// @brief Method GetRsaSignerCredentials, addr 0xf97920, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetRsaSignerCredentials, addr 0xfc37b0, size 0x44, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsSignerCredentials* GetRsaSignerCredentials();
 
-  /// @brief Method GetCipherSuites, addr 0xf97964, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method GetCipherSuites, addr 0xfc37f4, size 0x70, virtual true, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> GetCipherSuites();
 
-  /// @brief Method ProcessClientExtensions, addr 0xf979d4, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method ProcessClientExtensions, addr 0xfc3864, size 0x34, virtual true, abstract: false, final false
   inline void ProcessClientExtensions(::System::Collections::IDictionary* clientExtensions);
 
-  /// @brief Method GetSelectedCipherSuite, addr 0xf97a08, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method GetSelectedCipherSuite, addr 0xfc3898, size 0x12c, virtual true, abstract: false, final false
   inline int32_t GetSelectedCipherSuite();
 
-  /// @brief Method GetCredentials, addr 0xf97b34, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method GetCredentials, addr 0xfc39c4, size 0xe8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsCredentials* GetCredentials();
 
-  /// @brief Method GetKeyExchange, addr 0xf97c1c, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method GetKeyExchange, addr 0xfc3aac, size 0xc0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange* GetKeyExchange();
 
-  /// @brief Method CreateSrpKeyExchange, addr 0xf97cdc, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method CreateSrpKeyExchange, addr 0xfc3b6c, size 0x84, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange* CreateSrpKeyExchange(int32_t keyExchange);
 
   // Ctor Parameters [CppParam { name: "", ty: "SrpTlsServer", modifiers: "&&", def_value: None }]

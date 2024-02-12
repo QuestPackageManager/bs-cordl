@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::OVRSimpleJSON::JSONNull);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVRSimpleJSON {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8204))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8213))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8148))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8157))
 // CS Name: ::OVRSimpleJSON::JSONNull*
 class CORDL_TYPE JSONNull : public ::OVRSimpleJSON::JSONNode {
 public:
@@ -59,42 +59,42 @@ public:
 
   static inline bool getStaticF_reuseSameInstance();
 
-  /// @brief Method CreateOrGet, addr 0x27c8d68, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method CreateOrGet, addr 0x27da774, size 0x94, virtual false, abstract: false, final false
   static inline ::OVRSimpleJSON::JSONNull* CreateOrGet();
 
   static inline ::OVRSimpleJSON::JSONNull* New_ctor();
 
-  /// @brief Method .ctor, addr 0x27ce358, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27dcb0c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Tag, addr 0x27ce360, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Tag, addr 0x27dcb14, size 0x8, virtual true, abstract: false, final false
   inline ::OVRSimpleJSON::JSONNodeType get_Tag();
 
-  /// @brief Method get_IsNull, addr 0x27ce368, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsNull, addr 0x27dcb1c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsNull();
 
-  /// @brief Method GetEnumerator, addr 0x27ce370, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x27dcb24, size 0x14, virtual true, abstract: false, final false
   inline ::OVRSimpleJSON::__JSONNode__Enumerator GetEnumerator();
 
-  /// @brief Method get_Value, addr 0x27ce384, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x27dcb38, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method set_Value, addr 0x27ce3c4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method set_Value, addr 0x27dcb78, size 0x4, virtual true, abstract: false, final false
   inline void set_Value(::StringW value);
 
-  /// @brief Method get_AsBool, addr 0x27ce3c8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_AsBool, addr 0x27dcb7c, size 0x8, virtual true, abstract: false, final false
   inline bool get_AsBool();
 
-  /// @brief Method set_AsBool, addr 0x27ce3d0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method set_AsBool, addr 0x27dcb84, size 0x4, virtual true, abstract: false, final false
   inline void set_AsBool(bool value);
 
-  /// @brief Method Equals, addr 0x27ce3d4, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x27dcb88, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x27ce460, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x27dcc14, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method WriteToStringBuilder, addr 0x27ce468, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method WriteToStringBuilder, addr 0x27dcc1c, size 0x54, virtual true, abstract: false, final false
   inline void WriteToStringBuilder(::System::Text::StringBuilder* aSB, int32_t aIndent, int32_t aIndentInc, ::OVRSimpleJSON::JSONTextMode aMode);
 
   // Ctor Parameters [CppParam { name: "", ty: "JSONNull", modifiers: "&&", def_value: None }]

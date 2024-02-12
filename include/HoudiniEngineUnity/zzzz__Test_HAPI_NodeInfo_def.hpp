@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::Test_HAPI_NodeInfo);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9733))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9890))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9525))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9682))
 // CS Name: ::HoudiniEngineUnity::Test_HAPI_NodeInfo*
 class CORDL_TYPE Test_HAPI_NodeInfo : public ::System::Object {
 public:
@@ -44,10 +44,10 @@ public:
 
   static inline ::HoudiniEngineUnity::Test_HAPI_NodeInfo* New_ctor(::HoudiniEngineUnity::HAPI_NodeInfo self);
 
-  /// @brief Method .ctor, addr 0x21e283c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2278124, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::HoudiniEngineUnity::HAPI_NodeInfo self);
 
-  /// @brief Method IsEquivalentTo, addr 0x21e2870, size 0x340, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x2278158, size 0x340, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_HAPI_NodeInfo* other);
 
   // Ctor Parameters [CppParam { name: "", ty: "Test_HAPI_NodeInfo", modifiers: "&&", def_value: None }]

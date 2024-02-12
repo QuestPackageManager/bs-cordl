@@ -76,50 +76,50 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cms::RecipientInfo* New_ctor(::Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo* info);
 
-  /// @brief Method .ctor, addr 0xe7cac8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xea7958, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo* info);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::RecipientInfo* New_ctor(::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo* info);
 
-  /// @brief Method .ctor, addr 0xe7caf0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xea7980, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo* info);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::RecipientInfo* New_ctor(::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo* info);
 
-  /// @brief Method .ctor, addr 0xe7cb74, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xea7a04, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo* info);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::RecipientInfo* New_ctor(::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo* info);
 
-  /// @brief Method .ctor, addr 0xe7cbf8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xea7a88, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo* info);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::RecipientInfo* New_ctor(::Org::BouncyCastle::Asn1::Cms::OtherRecipientInfo* info);
 
-  /// @brief Method .ctor, addr 0xe7cc7c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xea7b0c, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::OtherRecipientInfo* info);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::RecipientInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Object* info);
 
-  /// @brief Method .ctor, addr 0xe7cd00, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xea7b90, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Object* info);
 
-  /// @brief Method GetInstance, addr 0xe77620, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xea24b0, size 0x1b4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::RecipientInfo* GetInstance(::System::Object* o);
 
-  /// @brief Method get_Version, addr 0xe777d4, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0xea2664, size 0x16c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
-  /// @brief Method get_IsTagged, addr 0xe7cd4c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_IsTagged, addr 0xea7bdc, size 0x7c, virtual false, abstract: false, final false
   inline bool get_IsTagged();
 
-  /// @brief Method get_Info, addr 0xe7cdc8, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method get_Info, addr 0xea7c58, size 0x140, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Info();
 
-  /// @brief Method GetKekInfo, addr 0xe7cd28, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetKekInfo, addr 0xea7bb8, size 0x24, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo* GetKekInfo(::Org::BouncyCastle::Asn1::Asn1TaggedObject* o);
 
-  /// @brief Method ToAsn1Object, addr 0xe7cf08, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xea7d98, size 0x20, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "RecipientInfo", modifiers: "&&", def_value: None }]

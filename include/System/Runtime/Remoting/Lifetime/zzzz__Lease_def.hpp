@@ -61,16 +61,16 @@ public:
   // Declarations
   static inline ::System::Runtime::Remoting::Lifetime::__Lease__RenewalDelegate* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x249b2ec, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24bd360, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x249b644, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x24bd6b8, size 0x14, virtual true, abstract: false, final false
   inline ::System::TimeSpan Invoke(::System::Runtime::Remoting::Lifetime::ILease* lease);
 
-  /// @brief Method BeginInvoke, addr 0x249b418, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x24bd48c, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::Runtime::Remoting::Lifetime::ILease* lease, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x249b61c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x24bd690, size 0x28, virtual true, abstract: false, final false
   inline ::System::TimeSpan EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__Lease__RenewalDelegate", modifiers: "&&", def_value: None }]
@@ -190,34 +190,34 @@ public:
 
   static inline ::System::Runtime::Remoting::Lifetime::Lease* New_ctor();
 
-  /// @brief Method .ctor, addr 0x249294c, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24b49c0, size 0x158, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_CurrentLeaseTime, addr 0x249acb4, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method get_CurrentLeaseTime, addr 0x24bcd28, size 0x68, virtual true, abstract: false, final true
   inline ::System::TimeSpan get_CurrentLeaseTime();
 
-  /// @brief Method get_CurrentState, addr 0x249ad1c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_CurrentState, addr 0x24bcd90, size 0x8, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Lifetime::LeaseState get_CurrentState();
 
-  /// @brief Method Activate, addr 0x249ad24, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Activate, addr 0x24bcd98, size 0xc, virtual false, abstract: false, final false
   inline void Activate();
 
-  /// @brief Method get_RenewOnCallTime, addr 0x249ad30, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_RenewOnCallTime, addr 0x24bcda4, size 0x8, virtual true, abstract: false, final true
   inline ::System::TimeSpan get_RenewOnCallTime();
 
-  /// @brief Method Renew, addr 0x249ad38, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method Renew, addr 0x24bcdac, size 0x8c, virtual true, abstract: false, final true
   inline ::System::TimeSpan Renew(::System::TimeSpan renewalTime);
 
-  /// @brief Method Unregister, addr 0x249adc4, size 0x144, virtual true, abstract: false, final true
+  /// @brief Method Unregister, addr 0x24bce38, size 0x144, virtual true, abstract: false, final true
   inline void Unregister(::System::Runtime::Remoting::Lifetime::ISponsor* obj);
 
-  /// @brief Method UpdateState, addr 0x249af08, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method UpdateState, addr 0x24bcf7c, size 0x1a0, virtual false, abstract: false, final false
   inline void UpdateState();
 
-  /// @brief Method CheckNextSponsor, addr 0x249b0a8, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method CheckNextSponsor, addr 0x24bd11c, size 0x244, virtual false, abstract: false, final false
   inline void CheckNextSponsor();
 
-  /// @brief Method ProcessSponsorResponse, addr 0x249b438, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method ProcessSponsorResponse, addr 0x24bd4ac, size 0x1e4, virtual false, abstract: false, final false
   inline void ProcessSponsorResponse(::System::Object* state, bool timedOut);
 
   // Ctor Parameters [CppParam { name: "", ty: "Lease", modifiers: "&&", def_value: None }]

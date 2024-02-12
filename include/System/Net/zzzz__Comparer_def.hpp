@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::System::Net::Comparer);
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9125))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7135))
 // CS Name: ::System.Net::Comparer*
 class CORDL_TYPE Comparer : public ::System::Object {
 public:
@@ -33,12 +33,12 @@ public:
   /// @brief Convert to "::System::Collections::IComparer"
   constexpr ::System::Collections::IComparer* i___System__Collections__IComparer() noexcept;
 
-  /// @brief Method System.Collections.IComparer.Compare, addr 0x29adc18, size 0xdc, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IComparer.Compare, addr 0x29b26bc, size 0xdc, virtual true, abstract: false, final true
   inline int32_t System_Collections_IComparer_Compare(::System::Object* ol, ::System::Object* _cordl_or);
 
   static inline ::System::Net::Comparer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29acc04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29b16a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Comparer", modifiers: "&&", def_value: None }]

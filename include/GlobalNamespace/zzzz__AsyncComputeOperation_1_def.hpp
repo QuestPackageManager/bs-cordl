@@ -26,8 +26,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12679))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12680))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12577))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12578))
 // CS Name: ::AsyncComputeOperation`1<T>*
 class CORDL_TYPE AsyncComputeOperation_1 : public ::GlobalNamespace::AsyncComputeOperation {
 public:

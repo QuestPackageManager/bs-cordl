@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BloomPrePassBackgroundColorsGradientTintColorW
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14552))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14516))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14446))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14410))
 // CS Name: ::BloomPrePassBackgroundColorsGradientTintColorWithLightId*
 class CORDL_TYPE BloomPrePassBackgroundColorsGradientTintColorWithLightId : public ::GlobalNamespace::RuntimeLightWithIds {
 public:
@@ -55,12 +55,12 @@ public:
 
   constexpr void __cordl_internal_set_grayscaleFactor(float_t value);
 
-  /// @brief Method ColorWasSet, addr 0x210e8b8, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x21a3060, size 0x70, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::BloomPrePassBackgroundColorsGradientTintColorWithLightId* New_ctor();
 
-  /// @brief Method .ctor, addr 0x210e928, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21a30d0, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundColorsGradientTintColorWithLightId", modifiers: "&&", def_value: None }]

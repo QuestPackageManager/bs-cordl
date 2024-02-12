@@ -58,38 +58,38 @@ public:
 
   static inline ::Org::BouncyCastle::Security::SignerUtilities* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1140fe4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x116ee74, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method GetObjectIdentifier, addr 0x114c0f0, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method GetObjectIdentifier, addr 0x1179f80, size 0x25c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetObjectIdentifier(::StringW mechanism);
 
-  /// @brief Method get_Algorithms, addr 0x114c34c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method get_Algorithms, addr 0x117a1dc, size 0xcc, virtual false, abstract: false, final false
   static inline ::System::Collections::ICollection* get_Algorithms();
 
-  /// @brief Method GetDefaultX509Parameters, addr 0x114c418, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultX509Parameters, addr 0x117a2a8, size 0x60, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1Encodable* GetDefaultX509Parameters(::Org::BouncyCastle::Asn1::DerObjectIdentifier* id);
 
-  /// @brief Method GetDefaultX509Parameters, addr 0x114c478, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultX509Parameters, addr 0x117a308, size 0x2a8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1Encodable* GetDefaultX509Parameters(::StringW algorithm);
 
-  /// @brief Method GetPssX509Parameters, addr 0x114c720, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method GetPssX509Parameters, addr 0x117a5b0, size 0x244, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1Encodable* GetPssX509Parameters(::StringW digestName);
 
-  /// @brief Method GetSigner, addr 0x114c964, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetSigner, addr 0x117a7f4, size 0x60, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::ISigner* GetSigner(::Org::BouncyCastle::Asn1::DerObjectIdentifier* id);
 
-  /// @brief Method GetSigner, addr 0x114c9c4, size 0x103c, virtual false, abstract: false, final false
+  /// @brief Method GetSigner, addr 0x117a854, size 0x103c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::ISigner* GetSigner(::StringW algorithm);
 
-  /// @brief Method GetEncodingName, addr 0x114da00, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetEncodingName, addr 0x117b890, size 0x108, virtual false, abstract: false, final false
   static inline ::StringW GetEncodingName(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method InitSigner, addr 0x114db08, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method InitSigner, addr 0x117b998, size 0x80, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::ISigner* InitSigner(::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithmOid, bool forSigning,
                                                                  ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method InitSigner, addr 0x114db88, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method InitSigner, addr 0x117ba18, size 0x138, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::ISigner* InitSigner(::StringW algorithm, bool forSigning, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey,
                                                                  ::Org::BouncyCastle::Security::SecureRandom* random);
 

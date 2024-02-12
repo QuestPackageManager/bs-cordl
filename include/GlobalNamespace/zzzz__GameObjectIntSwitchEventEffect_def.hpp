@@ -41,7 +41,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__GameObjectIntSwitchEventEffect__GameObjectVa
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4898))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4252))
 // CS Name: ::GameObjectIntSwitchEventEffect::GameObjectValueList*
 class CORDL_TYPE __GameObjectIntSwitchEventEffect__GameObjectValueList : public ::System::Object {
 public:
@@ -76,18 +76,18 @@ public:
 
   constexpr void __cordl_internal_set__isActive_k__BackingField(bool value);
 
-  /// @brief Method get_isActive, addr 0x23a545c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isActive, addr 0x2365594, size 0x8, virtual false, abstract: false, final false
   inline bool get_isActive();
 
-  /// @brief Method set_isActive, addr 0x23a5464, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isActive, addr 0x236559c, size 0xc, virtual false, abstract: false, final false
   inline void set_isActive(bool value);
 
-  /// @brief Method SetActive, addr 0x23a5268, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetActive, addr 0x23653a0, size 0x7c, virtual false, abstract: false, final false
   inline void SetActive(bool active);
 
   static inline ::GlobalNamespace::__GameObjectIntSwitchEventEffect__GameObjectValueList* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23a5470, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23655a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__GameObjectIntSwitchEventEffect__GameObjectValueList", modifiers: "&&", def_value: None }]
@@ -129,8 +129,8 @@ static_assert(offsetof(::GlobalNamespace::__GameObjectIntSwitchEventEffect__Game
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14724))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4899))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(15108))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4253))
 // CS Name: ::GameObjectIntSwitchEventEffect*
 class CORDL_TYPE GameObjectIntSwitchEventEffect : public ::UnityEngine::MonoBehaviour {
 public:
@@ -210,18 +210,18 @@ public:
 
   constexpr void __cordl_internal_set__previousActiveIdx(int32_t value);
 
-  /// @brief Method Start, addr 0x23a50b0, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x23651e8, size 0x1b8, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy, addr 0x23a52e4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x236541c, size 0x2c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleBasicBeatmapEventData, addr 0x23a5310, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method HandleBasicBeatmapEventData, addr 0x2365448, size 0x144, virtual false, abstract: false, final false
   inline void HandleBasicBeatmapEventData(::GlobalNamespace::BasicBeatmapEventData* data);
 
   static inline ::GlobalNamespace::GameObjectIntSwitchEventEffect* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23a5454, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x236558c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GameObjectIntSwitchEventEffect", modifiers: "&&", def_value: None }]

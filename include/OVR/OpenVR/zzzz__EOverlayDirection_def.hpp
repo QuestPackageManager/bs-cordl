@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::EOverlayDirection);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8630))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8574))
 // CS Name: ::OVR.OpenVR::EOverlayDirection
 struct CORDL_TYPE EOverlayDirection {
 public:

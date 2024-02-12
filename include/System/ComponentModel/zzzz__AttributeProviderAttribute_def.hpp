@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::System::ComponentModel::AttributeProviderAttribute);
 namespace System::ComponentModel {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9406))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7416))
 // CS Name: ::System.ComponentModel::AttributeProviderAttribute*
 class CORDL_TYPE AttributeProviderAttribute : public ::System::Attribute {
 public:
@@ -43,10 +43,10 @@ public:
 
   constexpr void __cordl_internal_set__PropertyName_k__BackingField(::StringW value);
 
-  /// @brief Method get_TypeName, addr 0x29065b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TypeName, addr 0x290ac1c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_TypeName();
 
-  /// @brief Method get_PropertyName, addr 0x29065bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PropertyName, addr 0x290ac24, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_PropertyName();
 
   // Ctor Parameters [CppParam { name: "", ty: "AttributeProviderAttribute", modifiers: "&&", def_value: None }]

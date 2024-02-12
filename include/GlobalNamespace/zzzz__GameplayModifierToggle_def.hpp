@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::GlobalNamespace::GameplayModifierToggle);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5530))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8995))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4836))
 // CS Name: ::GameplayModifierToggle*
 class CORDL_TYPE GameplayModifierToggle : public ::UnityEngine::MonoBehaviour {
 public:
@@ -103,18 +103,18 @@ public:
 
   constexpr void __cordl_internal_set__positiveColor(::UnityEngine::Color value);
 
-  /// @brief Method get_toggle, addr 0x229e1ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_toggle, addr 0x23f8a3c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Toggle> get_toggle();
 
-  /// @brief Method get_gameplayModifier, addr 0x229e1b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameplayModifier, addr 0x23f8a44, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::GameplayModifierParamsSO> get_gameplayModifier();
 
-  /// @brief Method Start, addr 0x229e1bc, size 0x37c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x23f8a4c, size 0x370, virtual false, abstract: false, final false
   inline void Start();
 
   static inline ::GlobalNamespace::GameplayModifierToggle* New_ctor();
 
-  /// @brief Method .ctor, addr 0x229e538, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23f8dbc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GameplayModifierToggle", modifiers: "&&", def_value: None }]

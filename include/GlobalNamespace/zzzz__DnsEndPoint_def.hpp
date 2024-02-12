@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::GlobalNamespace::DnsEndPoint);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12722))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12620))
 // CS Name: ::DnsEndPoint*
 class CORDL_TYPE DnsEndPoint : public ::System::Object {
 public:
@@ -72,38 +72,38 @@ public:
 
   constexpr void __cordl_internal_set__getEndPointTask(::System::Threading::Tasks::Task_1<::System::Net::IPEndPoint*>* value);
 
-  /// @brief Method get_endPoint, addr 0xe33b78, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_endPoint, addr 0xe5e9b0, size 0x74, virtual false, abstract: false, final false
   inline ::System::Net::IPEndPoint* get_endPoint();
 
   static inline ::GlobalNamespace::DnsEndPoint* New_ctor(::StringW hostName, int32_t port);
 
-  /// @brief Method .ctor, addr 0xe32a1c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe5d854, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW hostName, int32_t port);
 
   static inline ::GlobalNamespace::DnsEndPoint* New_ctor(::System::Net::IPEndPoint* endPoint);
 
-  /// @brief Method .ctor, addr 0xe33bec, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe5ea24, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::IPEndPoint* endPoint);
 
-  /// @brief Method GetEndPointAsync, addr 0xe33ca0, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method GetEndPointAsync, addr 0xe5ead8, size 0x120, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::IPEndPoint*>* GetEndPointAsync(::BGNet::Core::ITaskUtility* taskUtility);
 
-  /// @brief Method GetEndPoint, addr 0xe33dc0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetEndPoint, addr 0xe5ebf8, size 0x94, virtual false, abstract: false, final false
   inline ::System::Net::IPEndPoint* GetEndPoint();
 
-  /// @brief Method GetEndPointInternal, addr 0xe33e54, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetEndPointInternal, addr 0xe5ec8c, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Net::IPEndPoint* GetEndPointInternal();
 
-  /// @brief Method ToString, addr 0xe33f04, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0xe5ed3c, size 0x8c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method Equals, addr 0xe33f90, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0xe5edc8, size 0xa0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0xe34030, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0xe5ee68, size 0x4c, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::DnsEndPoint* other);
 
-  /// @brief Method GetHashCode, addr 0xe3407c, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0xe5eeb4, size 0x2c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "DnsEndPoint", modifiers: "&&", def_value: None }]

@@ -33,27 +33,27 @@ public:
 
   static inline ::Org::BouncyCastle::Security::SecureRandom* getStaticF_RandomSource();
 
-  /// @brief Method Invert, addr 0x105bfcc, size 0x3c4, virtual false, abstract: false, final false
+  /// @brief Method Invert, addr 0x1088e5c, size 0x3c4, virtual false, abstract: false, final false
   static inline void Invert(::ArrayW<uint32_t, ::Array<uint32_t>*> p, ::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint32_t, ::Array<uint32_t>*> z);
 
-  /// @brief Method Random, addr 0x105c758, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method Random, addr 0x10895e8, size 0x158, virtual false, abstract: false, final false
   static inline ::ArrayW<uint32_t, ::Array<uint32_t>*> Random(::ArrayW<uint32_t, ::Array<uint32_t>*> p);
 
-  /// @brief Method Add, addr 0x105c8b0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x1089740, size 0x4c, virtual false, abstract: false, final false
   static inline void Add(::ArrayW<uint32_t, ::Array<uint32_t>*> p, ::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint32_t, ::Array<uint32_t>*> y, ::ArrayW<uint32_t, ::Array<uint32_t>*> z);
 
-  /// @brief Method Subtract, addr 0x105c990, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Subtract, addr 0x1089820, size 0x4c, virtual false, abstract: false, final false
   static inline void Subtract(::ArrayW<uint32_t, ::Array<uint32_t>*> p, ::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint32_t, ::Array<uint32_t>*> y, ::ArrayW<uint32_t, ::Array<uint32_t>*> z);
 
-  /// @brief Method InversionResult, addr 0x105c628, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method InversionResult, addr 0x10894b8, size 0x48, virtual false, abstract: false, final false
   static inline void InversionResult(::ArrayW<uint32_t, ::Array<uint32_t>*> p, int32_t ac, ::ArrayW<uint32_t, ::Array<uint32_t>*> a, ::ArrayW<uint32_t, ::Array<uint32_t>*> z);
 
-  /// @brief Method InversionStep, addr 0x105c518, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method InversionStep, addr 0x10893a8, size 0x110, virtual false, abstract: false, final false
   static inline void InversionStep(::ArrayW<uint32_t, ::Array<uint32_t>*> p, ::ArrayW<uint32_t, ::Array<uint32_t>*> u, int32_t uLen, ::ArrayW<uint32_t, ::Array<uint32_t>*> x, ByRef<int32_t> xc);
 
   static inline ::Org::BouncyCastle::Math::Raw::Mod* New_ctor();
 
-  /// @brief Method .ctor, addr 0x105cc84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1089b14, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Mod", modifiers: "&&", def_value: None }]

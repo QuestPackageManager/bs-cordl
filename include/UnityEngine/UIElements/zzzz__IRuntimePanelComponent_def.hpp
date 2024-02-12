@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IRuntimePanelComponent);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6878))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6137))
 // CS Name: ::UnityEngine.UIElements::IRuntimePanelComponent*
 class CORDL_TYPE IRuntimePanelComponent {
 public:

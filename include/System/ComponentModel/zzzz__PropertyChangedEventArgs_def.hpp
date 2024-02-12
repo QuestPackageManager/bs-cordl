@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::System::ComponentModel::PropertyChangedEventArgs);
 namespace System::ComponentModel {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2376))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9466))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7476))
 // CS Name: ::System.ComponentModel::PropertyChangedEventArgs*
 class CORDL_TYPE PropertyChangedEventArgs : public ::System::EventArgs {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::System::ComponentModel::PropertyChangedEventArgs* New_ctor(::StringW propertyName);
 
-  /// @brief Method .ctor, addr 0x29199b0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x291e018, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW propertyName);
 
   // Ctor Parameters [CppParam { name: "", ty: "PropertyChangedEventArgs", modifiers: "&&", def_value: None }]

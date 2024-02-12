@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Video::VideoSource);
 namespace UnityEngine::Video {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16081))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15992))
 // CS Name: ::UnityEngine.Video::VideoSource
 struct CORDL_TYPE VideoSource {
 public:

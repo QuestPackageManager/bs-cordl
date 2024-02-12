@@ -69,7 +69,7 @@ MARK_REF_PTR_T(::Zenject::__PrefabInstantiator____c__DisplayClass15_0);
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11228))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10370))
 // CS Name: ::PrefabInstantiator::<>c__DisplayClass15_0*
 class CORDL_TYPE __PrefabInstantiator____c__DisplayClass15_0 : public ::System::Object {
 public:
@@ -121,16 +121,16 @@ public:
 
   static inline ::Zenject::__PrefabInstantiator____c__DisplayClass15_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f09004, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f2514c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Instantiate>b__0, addr 0x2f0900c, size 0x5a8, virtual false, abstract: false, final false
+  /// @brief Method <Instantiate>b__0, addr 0x2f25154, size 0x5a8, virtual false, abstract: false, final false
   inline void _Instantiate_b__0();
 
-  /// @brief Method __zenCreate, addr 0x2f095b4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2f256fc, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f09610, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f25758, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__PrefabInstantiator____c__DisplayClass15_0", modifiers: "&&", def_value: None }]
@@ -183,7 +183,7 @@ static_assert(offsetof(::Zenject::__PrefabInstantiator____c__DisplayClass15_0, _
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11229))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10371))
 // CS Name: ::Zenject::PrefabInstantiator*
 class CORDL_TYPE PrefabInstantiator : public ::System::Object {
 public:
@@ -272,24 +272,24 @@ public:
                                                         ::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>* extraArguments, ::Zenject::IPrefabProvider* prefabProvider,
                                                         ::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* instantiateCallback);
 
-  /// @brief Method .ctor, addr 0x2f08ce0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f24e28, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo, ::System::Type* argumentTarget,
                     ::System::Collections::Generic::IEnumerable_1<::System::Type*>* instantiateCallbackTypes, ::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>* extraArguments,
                     ::Zenject::IPrefabProvider* prefabProvider, ::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* instantiateCallback);
 
-  /// @brief Method get_GameObjectCreationParameters, addr 0x2f08da4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_GameObjectCreationParameters, addr 0x2f24eec, size 0x8, virtual true, abstract: false, final true
   inline ::Zenject::GameObjectCreationParameters* get_GameObjectCreationParameters();
 
-  /// @brief Method get_ArgumentTarget, addr 0x2f08dac, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_ArgumentTarget, addr 0x2f24ef4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* get_ArgumentTarget();
 
-  /// @brief Method get_ExtraArguments, addr 0x2f08db4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_ExtraArguments, addr 0x2f24efc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* get_ExtraArguments();
 
-  /// @brief Method GetPrefab, addr 0x2f08dbc, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method GetPrefab, addr 0x2f24f04, size 0xa0, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::Object> GetPrefab();
 
-  /// @brief Method Instantiate, addr 0x2f08e5c, size 0x1a8, virtual true, abstract: false, final true
+  /// @brief Method Instantiate, addr 0x2f24fa4, size 0x1a8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::GameObject> Instantiate(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args,
                                                          ByRef<::System::Action*> injectAction);
 

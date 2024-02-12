@@ -19,8 +19,8 @@ MARK_VAL_T(::System::Net::HeaderVariantInfo);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9119))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9129))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7129))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7139))
 // CS Name: ::System.Net::HeaderVariantInfo
 struct CORDL_TYPE HeaderVariantInfo {
 public:
@@ -29,13 +29,13 @@ public:
 
   __declspec(property(get = get_Variant))::System::Net::CookieVariant Variant;
 
-  /// @brief Method .ctor, addr 0x29aee20, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29b38c4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::System::Net::CookieVariant variant);
 
-  /// @brief Method get_Name, addr 0x29aee2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x29b38d0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_Variant, addr 0x29aee34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Variant, addr 0x29b38d8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::CookieVariant get_Variant();
 
   // Ctor Parameters [CppParam { name: "m_name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_variant", ty: "::System::Net::CookieVariant", modifiers: "", def_value: None }]

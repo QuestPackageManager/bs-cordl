@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SwitchSettingsController);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16155))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16295))
 // CS Name: ::SwitchSettingsController*
 class CORDL_TYPE SwitchSettingsController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -47,24 +47,24 @@ public:
   /// @brief Method ApplyValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ApplyValue(bool value);
 
-  /// @brief Method Awake, addr 0x23e5984, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x24057f8, size 0xa8, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnDestroy, addr 0x23e5a2c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x24058a0, size 0xa8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnEnable, addr 0x23e5ad4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x2405948, size 0x3c, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method RefreshUI, addr 0x23e5b10, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method RefreshUI, addr 0x2405984, size 0x24, virtual false, abstract: false, final false
   inline void RefreshUI();
 
-  /// @brief Method HandleToggleValueDidChange, addr 0x23e5b34, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method HandleToggleValueDidChange, addr 0x24059a8, size 0x10, virtual false, abstract: false, final false
   inline void HandleToggleValueDidChange(bool value);
 
   static inline ::GlobalNamespace::SwitchSettingsController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23e4260, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24040c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SwitchSettingsController", modifiers: "&&", def_value: None }]

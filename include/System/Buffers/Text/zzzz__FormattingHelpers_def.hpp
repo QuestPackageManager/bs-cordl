@@ -16,18 +16,18 @@ MARK_REF_PTR_T(::System::Buffers::Text::FormattingHelpers);
 namespace System::Buffers::Text {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3892))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3891))
 // CS Name: ::System.Buffers.Text::FormattingHelpers*
 class CORDL_TYPE FormattingHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CountDigits, addr 0x258c6c8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method CountDigits, addr 0x25af5e0, size 0xbc, virtual false, abstract: false, final false
   static inline int32_t CountDigits(uint64_t value);
 
-  /// @brief Method CountDigits, addr 0x258c784, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method CountDigits, addr 0x25af69c, size 0x6c, virtual false, abstract: false, final false
   static inline int32_t CountDigits(uint32_t value);
 
-  /// @brief Method CountHexDigits, addr 0x258c7f0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method CountHexDigits, addr 0x25af708, size 0x48, virtual false, abstract: false, final false
   static inline int32_t CountHexDigits(uint64_t value);
 
   // Ctor Parameters [CppParam { name: "", ty: "FormattingHelpers", modifiers: "&&", def_value: None }]

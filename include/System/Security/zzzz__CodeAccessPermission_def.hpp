@@ -54,37 +54,37 @@ public:
 
   static inline ::System::Security::CodeAccessPermission* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2451124, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2471f88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Demand, addr 0x245112c, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method Demand, addr 0x2471f90, size 0x2c, virtual true, abstract: false, final true
   inline void Demand();
 
-  /// @brief Method Equals, addr 0x2451224, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2472088, size 0x124, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2451348, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x24721ac, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Method IsSubsetOf, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool IsSubsetOf(::System::Security::IPermission* target);
 
-  /// @brief Method ToString, addr 0x2451350, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x24721b4, size 0x28, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   /// @brief Method ToXml, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Security::SecurityElement* ToXml();
 
-  /// @brief Method Element, addr 0x2451378, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method Element, addr 0x24721dc, size 0x168, virtual false, abstract: false, final false
   inline ::System::Security::SecurityElement* Element(int32_t version);
 
-  /// @brief Method CheckPermissionState, addr 0x24514e0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method CheckPermissionState, addr 0x2472344, size 0xb0, virtual false, abstract: false, final false
   static inline ::System::Security::Permissions::PermissionState CheckPermissionState(::System::Security::Permissions::PermissionState state, bool allowUnrestricted);
 
-  /// @brief Method ThrowInvalidPermission, addr 0x2451590, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method ThrowInvalidPermission, addr 0x24723f4, size 0xa4, virtual false, abstract: false, final false
   static inline void ThrowInvalidPermission(::System::Security::IPermission* target, ::System::Type* expected);
 
-  /// @brief Method System.Security.IPermission.Demand, addr 0x2451634, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Security.IPermission.Demand, addr 0x2472498, size 0x4, virtual true, abstract: false, final true
   inline void System_Security_IPermission_Demand();
 
   // Ctor Parameters [CppParam { name: "", ty: "CodeAccessPermission", modifiers: "&&", def_value: None }]

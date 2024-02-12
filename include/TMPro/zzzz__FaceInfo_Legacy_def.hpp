@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::TMPro::FaceInfo_Legacy);
 namespace TMPro {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12357))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12255))
 // CS Name: ::TMPro::FaceInfo_Legacy*
 class CORDL_TYPE FaceInfo_Legacy : public ::System::Object {
 public:
@@ -214,7 +214,7 @@ public:
 
   static inline ::TMPro::FaceInfo_Legacy* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c10188, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c0ccf4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FaceInfo_Legacy", modifiers: "&&", def_value: None }]

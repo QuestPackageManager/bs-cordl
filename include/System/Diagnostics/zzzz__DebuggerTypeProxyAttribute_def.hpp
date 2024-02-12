@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::System::Diagnostics::DebuggerTypeProxyAttribute);
 namespace System::Diagnostics {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3736))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3734))
 // CS Name: ::System.Diagnostics::DebuggerTypeProxyAttribute*
 class CORDL_TYPE DebuggerTypeProxyAttribute : public ::System::Attribute {
 public:
@@ -35,7 +35,7 @@ public:
 
   static inline ::System::Diagnostics::DebuggerTypeProxyAttribute* New_ctor(::System::Type* type);
 
-  /// @brief Method .ctor, addr 0x2579cc4, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x259cbb4, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
   // Ctor Parameters [CppParam { name: "", ty: "DebuggerTypeProxyAttribute", modifiers: "&&", def_value: None }]

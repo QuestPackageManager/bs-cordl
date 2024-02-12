@@ -43,7 +43,7 @@ MARK_VAL_T(::GlobalNamespace::__Noise3DTexturesGenerator__MaterialTextureParamsC
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15300))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15415))
 // CS Name: ::Noise3DTexturesGenerator::MaterialTextureParamsCouple
 struct CORDL_TYPE __Noise3DTexturesGenerator__MaterialTextureParamsCouple {
 public:
@@ -84,7 +84,7 @@ static_assert(offsetof(::GlobalNamespace::__Noise3DTexturesGenerator__MaterialTe
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15301))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15416))
 // CS Name: ::Noise3DTexturesGenerator::MaterialPropertyNameCouple
 struct CORDL_TYPE __Noise3DTexturesGenerator__MaterialPropertyNameCouple {
 public:
@@ -120,8 +120,8 @@ static_assert(offsetof(::GlobalNamespace::__Noise3DTexturesGenerator__MaterialPr
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15302))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15417))
 // CS Name: ::Noise3DTexturesGenerator*
 class CORDL_TYPE Noise3DTexturesGenerator : public ::UnityEngine::MonoBehaviour {
 public:
@@ -150,15 +150,15 @@ public:
 
   static inline ::UnityW<::UnityEngine::Texture3D> getStaticF__texture();
 
-  /// @brief Method Awake, addr 0x280afac, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x280f794, size 0x210, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method CreateNoisePixels, addr 0x280b1bc, size 0x324, virtual false, abstract: false, final false
+  /// @brief Method CreateNoisePixels, addr 0x280f9a4, size 0x324, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Color32, ::Array<::UnityEngine::Color32>*> CreateNoisePixels(int32_t width, int32_t height, int32_t depth, float_t scale, int32_t repeat, float_t contrast);
 
   static inline ::GlobalNamespace::Noise3DTexturesGenerator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x280b4e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x280fcc8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Noise3DTexturesGenerator", modifiers: "&&", def_value: None }]

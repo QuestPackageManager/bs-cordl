@@ -44,7 +44,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__CutoutAnimateEffect___AnimateToCutoutCorouti
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4839))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4193))
 // CS Name: ::CutoutAnimateEffect::<AnimateToCutoutCoroutine>d__7*
 class CORDL_TYPE __CutoutAnimateEffect___AnimateToCutoutCoroutine_d__7 : public ::System::Object {
 public:
@@ -136,22 +136,22 @@ public:
 
   static inline ::GlobalNamespace::__CutoutAnimateEffect___AnimateToCutoutCoroutine_d__7* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor, addr 0x2396940, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2357a70, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x2396a60, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x2357b90, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext, addr 0x2396a64, size 0xf8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2357b94, size 0xf8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2396b5c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2357c8c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2396b64, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2357c94, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2396ba4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2357cd4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__CutoutAnimateEffect___AnimateToCutoutCoroutine_d__7", modifiers: "&&", def_value: None }]
@@ -213,8 +213,8 @@ static_assert(offsetof(::GlobalNamespace::__CutoutAnimateEffect___AnimateToCutou
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4840))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4194))
 // CS Name: ::CutoutAnimateEffect*
 class CORDL_TYPE CutoutAnimateEffect : public ::UnityEngine::MonoBehaviour {
 public:
@@ -251,30 +251,30 @@ public:
 
   constexpr void __cordl_internal_set__animating_k__BackingField(bool value);
 
-  /// @brief Method get_animating, addr 0x239682c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_animating, addr 0x235795c, size 0x8, virtual false, abstract: false, final false
   inline bool get_animating();
 
-  /// @brief Method set_animating, addr 0x2396834, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_animating, addr 0x2357964, size 0xc, virtual false, abstract: false, final false
   inline void set_animating(bool value);
 
-  /// @brief Method Start, addr 0x2396840, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2357970, size 0x8, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method AnimateToCutoutCoroutine, addr 0x23968b4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method AnimateToCutoutCoroutine, addr 0x23579e4, size 0x8c, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* AnimateToCutoutCoroutine(float_t cutoutStart, float_t cutoutEnd, float_t duration);
 
-  /// @brief Method SetCutout, addr 0x2396848, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SetCutout, addr 0x2357978, size 0x6c, virtual false, abstract: false, final false
   inline void SetCutout(float_t cutout);
 
-  /// @brief Method ResetEffect, addr 0x238e510, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ResetEffect, addr 0x234fa74, size 0x24, virtual false, abstract: false, final false
   inline void ResetEffect();
 
-  /// @brief Method AnimateCutout, addr 0x238e558, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method AnimateCutout, addr 0x2352794, size 0x54, virtual false, abstract: false, final false
   inline void AnimateCutout(float_t cutoutStart, float_t cutoutEnd, float_t duration);
 
   static inline ::GlobalNamespace::CutoutAnimateEffect* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2396a2c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2357b5c, size 0x34, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CutoutAnimateEffect", modifiers: "&&", def_value: None }]

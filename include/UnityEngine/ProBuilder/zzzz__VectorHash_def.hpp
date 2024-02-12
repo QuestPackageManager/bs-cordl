@@ -26,21 +26,21 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::VectorHash);
 namespace UnityEngine::ProBuilder {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12215))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12113))
 // CS Name: ::UnityEngine.ProBuilder::VectorHash*
 class CORDL_TYPE VectorHash : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method HashFloat, addr 0x2b7f47c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method HashFloat, addr 0x2b7dfe8, size 0x40, virtual false, abstract: false, final false
   static inline int32_t HashFloat(float_t f);
 
-  /// @brief Method GetHashCode, addr 0x2b7f4bc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2b7e028, size 0x7c, virtual false, abstract: false, final false
   static inline int32_t GetHashCode(::UnityEngine::Vector2 v);
 
-  /// @brief Method GetHashCode, addr 0x2b69de8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2b68954, size 0xb0, virtual false, abstract: false, final false
   static inline int32_t GetHashCode(::UnityEngine::Vector3 v);
 
-  /// @brief Method GetHashCode, addr 0x2b7f538, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2b7e0a4, size 0xe0, virtual false, abstract: false, final false
   static inline int32_t GetHashCode(::UnityEngine::Vector4 v);
 
   // Ctor Parameters [CppParam { name: "", ty: "VectorHash", modifiers: "&&", def_value: None }]

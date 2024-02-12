@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::MeshTopology);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10109))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8845))
 // CS Name: ::UnityEngine::MeshTopology
 struct CORDL_TYPE MeshTopology {
 public:

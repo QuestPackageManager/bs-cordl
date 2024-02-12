@@ -58,35 +58,35 @@ public:
 
   static inline ::System::Text::DecoderReplacementFallback* New_ctor();
 
-  /// @brief Method .ctor, addr 0x263137c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26574a0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Text::DecoderReplacementFallback* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x2632688, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26587ac, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x263278c, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x26588b0, size 0x5c, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Text::DecoderReplacementFallback* New_ctor(::StringW replacement);
 
-  /// @brief Method .ctor, addr 0x26324e0, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2658604, size 0x1a8, virtual false, abstract: false, final false
   inline void _ctor(::StringW replacement);
 
-  /// @brief Method get_DefaultString, addr 0x26327e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultString, addr 0x265890c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_DefaultString();
 
-  /// @brief Method CreateFallbackBuffer, addr 0x26327f0, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method CreateFallbackBuffer, addr 0x2658914, size 0x60, virtual true, abstract: false, final false
   inline ::System::Text::DecoderFallbackBuffer* CreateFallbackBuffer();
 
-  /// @brief Method get_MaxCharCount, addr 0x263288c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_MaxCharCount, addr 0x26589b0, size 0x1c, virtual true, abstract: false, final false
   inline int32_t get_MaxCharCount();
 
-  /// @brief Method Equals, addr 0x26328a8, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x26589cc, size 0x80, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* value);
 
-  /// @brief Method GetHashCode, addr 0x2632928, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2658a4c, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "DecoderReplacementFallback", modifiers: "&&", def_value: None }]

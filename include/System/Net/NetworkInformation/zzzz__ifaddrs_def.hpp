@@ -21,8 +21,8 @@ MARK_VAL_T(::System::Net::NetworkInformation::ifaddrs);
 // SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(9270))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9271))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(7280))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7281))
 // CS Name: ::System.Net.NetworkInformation::ifaddrs
 struct CORDL_TYPE ifaddrs {
 public:

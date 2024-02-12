@@ -15,20 +15,20 @@ MARK_REF_PTR_T(::BeatSaber::BeatAvatarSDK::IAvatarPart);
 namespace BeatSaber::BeatAvatarSDK {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15697))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15798))
 // CS Name: ::BeatSaber.BeatAvatarSDK::IAvatarPart*
 class CORDL_TYPE IAvatarPart {
 public:
   // Declarations
   __declspec(property(get = get_id))::StringW id;
 
-  __declspec(property(get = get_localizedName))::StringW localizedName;
+  __declspec(property(get = get_localizationKey))::StringW localizationKey;
 
   /// @brief Method get_id, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_id();
 
-  /// @brief Method get_localizedName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::StringW get_localizedName();
+  /// @brief Method get_localizationKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::StringW get_localizationKey();
 
   // Ctor Parameters [CppParam { name: "", ty: "IAvatarPart", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

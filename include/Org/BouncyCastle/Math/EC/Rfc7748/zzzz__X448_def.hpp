@@ -25,37 +25,37 @@ namespace Org::BouncyCastle::Math::EC::Rfc7748 {
 class CORDL_TYPE X448 : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CalculateAgreement, addr 0x103dd40, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method CalculateAgreement, addr 0x106abd0, size 0xb4, virtual false, abstract: false, final false
   static inline bool CalculateAgreement(::ArrayW<uint8_t, ::Array<uint8_t>*> k, int32_t kOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> u, int32_t uOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> r,
                                         int32_t rOff);
 
-  /// @brief Method Decode32, addr 0x103e0ec, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Decode32, addr 0x106af7c, size 0x68, virtual false, abstract: false, final false
   static inline uint32_t Decode32(::ArrayW<uint8_t, ::Array<uint8_t>*> bs, int32_t off);
 
-  /// @brief Method DecodeScalar, addr 0x103e154, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method DecodeScalar, addr 0x106afe4, size 0x8c, virtual false, abstract: false, final false
   static inline void DecodeScalar(::ArrayW<uint8_t, ::Array<uint8_t>*> k, int32_t kOff, ::ArrayW<uint32_t, ::Array<uint32_t>*> n);
 
-  /// @brief Method GeneratePrivateKey, addr 0x103e1e0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GeneratePrivateKey, addr 0x106b070, size 0x54, virtual false, abstract: false, final false
   static inline void GeneratePrivateKey(::Org::BouncyCastle::Security::SecureRandom* random, ::ArrayW<uint8_t, ::Array<uint8_t>*> k);
 
-  /// @brief Method GeneratePublicKey, addr 0x103e234, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GeneratePublicKey, addr 0x106b0c4, size 0x4, virtual false, abstract: false, final false
   static inline void GeneratePublicKey(::ArrayW<uint8_t, ::Array<uint8_t>*> k, int32_t kOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> r, int32_t rOff);
 
-  /// @brief Method PointDouble, addr 0x103e31c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method PointDouble, addr 0x106b1ac, size 0xb8, virtual false, abstract: false, final false
   static inline void PointDouble(::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint32_t, ::Array<uint32_t>*> z);
 
-  /// @brief Method Precompute, addr 0x103f8a8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Precompute, addr 0x106c738, size 0x50, virtual false, abstract: false, final false
   static inline void Precompute();
 
-  /// @brief Method ScalarMult, addr 0x103ddf4, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method ScalarMult, addr 0x106ac84, size 0x2f8, virtual false, abstract: false, final false
   static inline void ScalarMult(::ArrayW<uint8_t, ::Array<uint8_t>*> k, int32_t kOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> u, int32_t uOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> r, int32_t rOff);
 
-  /// @brief Method ScalarMultBase, addr 0x103e238, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method ScalarMultBase, addr 0x106b0c8, size 0xe4, virtual false, abstract: false, final false
   static inline void ScalarMultBase(::ArrayW<uint8_t, ::Array<uint8_t>*> k, int32_t kOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> r, int32_t rOff);
 
   static inline ::Org::BouncyCastle::Math::EC::Rfc7748::X448* New_ctor();
 
-  /// @brief Method .ctor, addr 0x103fbac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x106ca3c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "X448", modifiers: "&&", def_value: None }]

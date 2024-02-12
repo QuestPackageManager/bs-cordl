@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::System::Net::IAuthenticationModule);
 namespace System::Net {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9068))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7078))
 // CS Name: ::System.Net::IAuthenticationModule*
 class CORDL_TYPE IAuthenticationModule {
 public:

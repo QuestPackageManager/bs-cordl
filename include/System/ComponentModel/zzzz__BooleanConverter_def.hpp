@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::System::ComponentModel::BooleanConverter);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9480))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9408))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7490))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7418))
 // CS Name: ::System.ComponentModel::BooleanConverter*
 class CORDL_TYPE BooleanConverter : public ::System::ComponentModel::TypeConverter {
 public:
@@ -42,24 +42,24 @@ public:
 
   static inline ::System::ComponentModel::__TypeConverter__StandardValuesCollection* getStaticF_s_values();
 
-  /// @brief Method CanConvertFrom, addr 0x2906d74, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method CanConvertFrom, addr 0x290b3dc, size 0xc8, virtual true, abstract: false, final false
   inline bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* sourceType);
 
-  /// @brief Method ConvertFrom, addr 0x2906e3c, size 0x200, virtual true, abstract: false, final false
+  /// @brief Method ConvertFrom, addr 0x290b4a4, size 0x200, virtual true, abstract: false, final false
   inline ::System::Object* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value);
 
-  /// @brief Method GetStandardValues, addr 0x290703c, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method GetStandardValues, addr 0x290b6a4, size 0x164, virtual true, abstract: false, final false
   inline ::System::ComponentModel::__TypeConverter__StandardValuesCollection* GetStandardValues(::System::ComponentModel::ITypeDescriptorContext* context);
 
-  /// @brief Method GetStandardValuesExclusive, addr 0x29071a0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetStandardValuesExclusive, addr 0x290b808, size 0x8, virtual true, abstract: false, final false
   inline bool GetStandardValuesExclusive(::System::ComponentModel::ITypeDescriptorContext* context);
 
-  /// @brief Method GetStandardValuesSupported, addr 0x29071a8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetStandardValuesSupported, addr 0x290b810, size 0x8, virtual true, abstract: false, final false
   inline bool GetStandardValuesSupported(::System::ComponentModel::ITypeDescriptorContext* context);
 
   static inline ::System::ComponentModel::BooleanConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29071b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x290b818, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BooleanConverter", modifiers: "&&", def_value: None }]

@@ -43,15 +43,15 @@ public:
 
   static inline ::System::Collections::Concurrent::ConcurrentDictionary_2<::StringW, ::System::Object*>* getStaticF_ht();
 
-  /// @brief Method GetCachedValue, addr 0x24cf098, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetCachedValue, addr 0x24f010c, size 0xa8, virtual false, abstract: false, final false
   inline ::System::Object* GetCachedValue(::StringW name);
 
-  /// @brief Method SetCachedValue, addr 0x24cf540, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method SetCachedValue, addr 0x24f05b4, size 0x90, virtual false, abstract: false, final false
   inline void SetCachedValue(::System::Object* value);
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::NameCache* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24cb5d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24ec648, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NameCache", modifiers: "&&", def_value: None }]

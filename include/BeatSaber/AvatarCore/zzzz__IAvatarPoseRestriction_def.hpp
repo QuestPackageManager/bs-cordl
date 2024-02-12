@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::BeatSaber::AvatarCore::IAvatarPoseRestriction);
 namespace BeatSaber::AvatarCore {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15191))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15272))
 // CS Name: ::BeatSaber.AvatarCore::IAvatarPoseRestriction*
 class CORDL_TYPE IAvatarPoseRestriction {
 public:

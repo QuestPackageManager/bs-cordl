@@ -146,16 +146,16 @@ public:
 
   using VolatileBoolean = ::System::Threading::__Volatile__VolatileBoolean;
 
-  /// @brief Method Read, addr 0x2620b84, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Read, addr 0x2646d00, size 0x18, virtual false, abstract: false, final false
   static inline bool Read(ByRef<bool> location);
 
-  /// @brief Method Write, addr 0x2620b9c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Write, addr 0x2646d18, size 0x24, virtual false, abstract: false, final false
   static inline void Write(ByRef<bool> location, bool value);
 
-  /// @brief Method Read, addr 0x2620bc0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Read, addr 0x2646d3c, size 0x18, virtual false, abstract: false, final false
   static inline int32_t Read(ByRef<int32_t> location);
 
-  /// @brief Method Write, addr 0x2620bd8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Write, addr 0x2646d54, size 0x24, virtual false, abstract: false, final false
   static inline void Write(ByRef<int32_t> location, int32_t value);
 
   /// @brief Method Read, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

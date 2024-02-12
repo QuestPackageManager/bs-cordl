@@ -89,7 +89,7 @@ namespace System::Threading::Tasks {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2773)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 5111 })]
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2773)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 5093 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2797))
 // CS Name: ::System.Threading.Tasks::UnwrapPromise`1<TResult>*
 class CORDL_TYPE UnwrapPromise_1 : public ::System::Threading::Tasks::Task_1<TResult> {

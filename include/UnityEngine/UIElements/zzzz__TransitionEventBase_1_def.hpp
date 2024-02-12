@@ -24,8 +24,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7180)), TypeDefinitionIndex(TypeDefinitionIndex(7187)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7180), inst: 1719
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7188)) CS Name: ::UnityEngine.UIElements::TransitionEventBase`1<T>*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6439)), TypeDefinitionIndex(TypeDefinitionIndex(6446)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6439), inst: 1677
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6447)) CS Name: ::UnityEngine.UIElements::TransitionEventBase`1<T>*
 class CORDL_TYPE TransitionEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T> {
 public:
   // Declarations

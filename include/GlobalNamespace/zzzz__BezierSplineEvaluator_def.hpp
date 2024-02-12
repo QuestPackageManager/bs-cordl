@@ -38,18 +38,18 @@ MARK_VAL_T(::GlobalNamespace::__BezierSplineEvaluator__CubicSolveResult);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3996))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15037))
 // CS Name: ::BezierSplineEvaluator::CubicSolveResult
 struct CORDL_TYPE __BezierSplineEvaluator__CubicSolveResult {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x221f11c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe31f84, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(float_t solution1);
 
-  /// @brief Method .ctor, addr 0x221f130, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe31f98, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(float_t solution1, float_t solution2);
 
-  /// @brief Method .ctor, addr 0x221f144, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe31fac, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(float_t solution1, float_t solution2, float_t solution3);
 
   // Ctor Parameters [CppParam { name: "numberOfSolutions", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "solution1", ty: "float_t", modifiers: "", def_value: None }, CppParam {
@@ -94,7 +94,7 @@ static_assert(offsetof(::GlobalNamespace::__BezierSplineEvaluator__CubicSolveRes
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3997))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15038))
 // CS Name: ::BezierSplineEvaluator*
 class CORDL_TYPE BezierSplineEvaluator : public ::System::Object {
 public:
@@ -121,37 +121,37 @@ public:
 
   static inline ::GlobalNamespace::BezierSplineEvaluator* New_ctor(::GlobalNamespace::BezierSpline* spline);
 
-  /// @brief Method .ctor, addr 0x22195f0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe2b044, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BezierSpline* spline);
 
-  /// @brief Method EvaluatePosition, addr 0x22172f0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method EvaluatePosition, addr 0xe28d44, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 EvaluatePosition(float_t time);
 
-  /// @brief Method Evaluate, addr 0x221e6ac, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method Evaluate, addr 0xe31514, size 0x14c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 Evaluate(float_t t);
 
-  /// @brief Method EvaluateFirstDerivation, addr 0x221e7f8, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method EvaluateFirstDerivation, addr 0xe31660, size 0x15c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 EvaluateFirstDerivation(float_t t);
 
-  /// @brief Method EvaluateSecondDerivation, addr 0x221e954, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method EvaluateSecondDerivation, addr 0xe317bc, size 0x14c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 EvaluateSecondDerivation(float_t t);
 
-  /// @brief Method OffsetSegmentAndGetT, addr 0x221e55c, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method OffsetSegmentAndGetT, addr 0xe313c4, size 0x150, virtual false, abstract: false, final false
   inline float_t OffsetSegmentAndGetT(float_t time);
 
-  /// @brief Method GetTForSegment, addr 0x221ebc0, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method GetTForSegment, addr 0xe31a28, size 0x14c, virtual false, abstract: false, final false
   inline float_t GetTForSegment(int32_t segmentIndex, float_t time);
 
-  /// @brief Method GetTimeValuesForSegment, addr 0x221f030, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetTimeValuesForSegment, addr 0xe31e98, size 0xb8, virtual false, abstract: false, final false
   inline void GetTimeValuesForSegment(int32_t segmentIndex, ByRef<float_t> t0Value, ByRef<float_t> t1Value);
 
-  /// @brief Method OffsetStartIndexToDistance, addr 0x221eaa0, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method OffsetStartIndexToDistance, addr 0xe31908, size 0x120, virtual false, abstract: false, final false
   inline void OffsetStartIndexToDistance(float_t time);
 
-  /// @brief Method CubeRoot, addr 0x221f0e8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method CubeRoot, addr 0xe31f50, size 0x34, virtual false, abstract: false, final false
   static inline float_t CubeRoot(float_t x);
 
-  /// @brief Method SolveCubic, addr 0x221ed0c, size 0x324, virtual false, abstract: false, final false
+  /// @brief Method SolveCubic, addr 0xe31b74, size 0x324, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__BezierSplineEvaluator__CubicSolveResult SolveCubic(float_t a, float_t b, float_t c, float_t d);
 
   // Ctor Parameters [CppParam { name: "", ty: "BezierSplineEvaluator", modifiers: "&&", def_value: None }]

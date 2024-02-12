@@ -86,39 +86,39 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PbmParameter* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xe68c04, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe93a94, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance, addr 0xe68cb0, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xe93b40, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::PbmParameter* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PbmParameter* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* owf, int32_t iterationCount,
                                                                        ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* mac);
 
-  /// @brief Method .ctor, addr 0xe68e38, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe93cc8, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* owf, int32_t iterationCount,
                     ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* mac);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PbmParameter* New_ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* salt, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* owf,
                                                                        ::Org::BouncyCastle::Asn1::DerInteger* iterationCount, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* mac);
 
-  /// @brief Method .ctor, addr 0xe68efc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe93d8c, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* salt, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* owf, ::Org::BouncyCastle::Asn1::DerInteger* iterationCount,
                     ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* mac);
 
-  /// @brief Method get_Salt, addr 0xe68f3c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Salt, addr 0xe93dcc, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_Salt();
 
-  /// @brief Method get_Owf, addr 0xe68f44, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Owf, addr 0xe93dd4, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_Owf();
 
-  /// @brief Method get_IterationCount, addr 0xe68f4c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IterationCount, addr 0xe93ddc, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_IterationCount();
 
-  /// @brief Method get_Mac, addr 0xe68f54, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Mac, addr 0xe93de4, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_Mac();
 
-  /// @brief Method ToAsn1Object, addr 0xe68f5c, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xe93dec, size 0x148, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "PbmParameter", modifiers: "&&", def_value: None }]

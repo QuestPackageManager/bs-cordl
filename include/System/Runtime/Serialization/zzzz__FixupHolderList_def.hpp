@@ -46,18 +46,18 @@ public:
 
   static inline ::System::Runtime::Serialization::FixupHolderList* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24bc7cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24dd840, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Runtime::Serialization::FixupHolderList* New_ctor(int32_t startingSize);
 
-  /// @brief Method .ctor, addr 0x24bc8d8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24dd94c, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(int32_t startingSize);
 
-  /// @brief Method Add, addr 0x24bc944, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x24dd9b8, size 0xa8, virtual true, abstract: false, final false
   inline void Add(::System::Runtime::Serialization::FixupHolder* fixup);
 
-  /// @brief Method EnlargeArray, addr 0x24bc9ec, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method EnlargeArray, addr 0x24dda60, size 0x88, virtual false, abstract: false, final false
   inline void EnlargeArray();
 
   // Ctor Parameters [CppParam { name: "", ty: "FixupHolderList", modifiers: "&&", def_value: None }]

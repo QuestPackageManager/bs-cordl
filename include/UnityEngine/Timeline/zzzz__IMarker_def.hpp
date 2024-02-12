@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::IMarker);
 namespace UnityEngine::Timeline {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13886))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13839))
 // CS Name: ::UnityEngine.Timeline::IMarker*
 class CORDL_TYPE IMarker {
 public:

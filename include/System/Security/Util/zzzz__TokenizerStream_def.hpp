@@ -102,37 +102,37 @@ public:
 
   static inline ::System::Security::Util::TokenizerStream* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2455d48, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2476bac, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method AddToken, addr 0x24560d8, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method AddToken, addr 0x2476f3c, size 0xe8, virtual false, abstract: false, final false
   inline void AddToken(int16_t token);
 
-  /// @brief Method AddString, addr 0x24561d8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method AddString, addr 0x247703c, size 0xf0, virtual false, abstract: false, final false
   inline void AddString(::StringW str);
 
-  /// @brief Method Reset, addr 0x2455df0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x2476c54, size 0x1c, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method GetNextFullToken, addr 0x2455e0c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetNextFullToken, addr 0x2476c70, size 0x70, virtual false, abstract: false, final false
   inline int16_t GetNextFullToken();
 
-  /// @brief Method GetNextToken, addr 0x2454d34, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetNextToken, addr 0x2475b98, size 0x14, virtual false, abstract: false, final false
   inline int16_t GetNextToken();
 
-  /// @brief Method GetNextString, addr 0x2454dc0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetNextString, addr 0x2475c24, size 0x6c, virtual false, abstract: false, final false
   inline ::StringW GetNextString();
 
-  /// @brief Method ThrowAwayNextString, addr 0x2454d48, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ThrowAwayNextString, addr 0x2475bac, size 0x4, virtual false, abstract: false, final false
   inline void ThrowAwayNextString();
 
-  /// @brief Method TagLastToken, addr 0x2454d4c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method TagLastToken, addr 0x2475bb0, size 0x74, virtual false, abstract: false, final false
   inline void TagLastToken(int16_t tag);
 
-  /// @brief Method GetTokenCount, addr 0x24565ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetTokenCount, addr 0x2477410, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetTokenCount();
 
-  /// @brief Method GoToPosition, addr 0x24557bc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GoToPosition, addr 0x2476620, size 0x60, virtual false, abstract: false, final false
   inline void GoToPosition(int32_t position);
 
   // Ctor Parameters [CppParam { name: "", ty: "TokenizerStream", modifiers: "&&", def_value: None }]

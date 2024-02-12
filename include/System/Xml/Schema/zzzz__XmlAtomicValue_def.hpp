@@ -55,7 +55,7 @@ MARK_VAL_T(::System::Xml::Schema::__XmlAtomicValue__Union);
 namespace System::Xml::Schema {
 // Is value type: true
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11711))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11609))
 // CS Name: ::XmlAtomicValue::Union
 #pragma pack(push, 0)
 struct CORDL_TYPE __XmlAtomicValue__Union {
@@ -206,7 +206,7 @@ static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::__XmlAtomic
 namespace System::Xml::Schema {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11712))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11610))
 // CS Name: ::XmlAtomicValue::NamespacePrefixForQName*
 class CORDL_TYPE __XmlAtomicValue__NamespacePrefixForQName : public ::System::Object {
 public:
@@ -237,13 +237,13 @@ public:
 
   static inline ::System::Xml::Schema::__XmlAtomicValue__NamespacePrefixForQName* New_ctor(::StringW prefix, ::StringW ns);
 
-  /// @brief Method .ctor, addr 0x28c63c8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28c8a30, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW prefix, ::StringW ns);
 
-  /// @brief Method LookupNamespace, addr 0x28c7064, size 0x34, virtual true, abstract: false, final true
+  /// @brief Method LookupNamespace, addr 0x28c96cc, size 0x34, virtual true, abstract: false, final true
   inline ::StringW LookupNamespace(::StringW prefix);
 
-  /// @brief Method LookupPrefix, addr 0x28c7098, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method LookupPrefix, addr 0x28c9700, size 0x2c, virtual true, abstract: false, final true
   inline ::StringW LookupPrefix(::StringW namespaceName);
 
   // Ctor Parameters [CppParam { name: "", ty: "__XmlAtomicValue__NamespacePrefixForQName", modifiers: "&&", def_value: None }]
@@ -280,8 +280,8 @@ static_assert(offsetof(::System::Xml::Schema::__XmlAtomicValue__NamespacePrefixF
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2496)), TypeDefinitionIndex(TypeDefinitionIndex(11580)), TypeDefinitionIndex(TypeDefinitionIndex(11711))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11713))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2496)), TypeDefinitionIndex(TypeDefinitionIndex(11478)), TypeDefinitionIndex(TypeDefinitionIndex(11609))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11611))
 // CS Name: ::System.Xml.Schema::XmlAtomicValue*
 class CORDL_TYPE XmlAtomicValue : public ::System::Xml::XPath::XPathItem {
 public:
@@ -361,86 +361,86 @@ public:
 
   static inline ::System::Xml::Schema::XmlAtomicValue* New_ctor(::System::Xml::Schema::XmlSchemaType* xmlType, bool value);
 
-  /// @brief Method .ctor, addr 0x28c5d44, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28c83ac, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaType* xmlType, bool value);
 
   static inline ::System::Xml::Schema::XmlAtomicValue* New_ctor(::System::Xml::Schema::XmlSchemaType* xmlType, ::System::DateTime value);
 
-  /// @brief Method .ctor, addr 0x28c5dd0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28c8438, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaType* xmlType, ::System::DateTime value);
 
   static inline ::System::Xml::Schema::XmlAtomicValue* New_ctor(::System::Xml::Schema::XmlSchemaType* xmlType, double_t value);
 
-  /// @brief Method .ctor, addr 0x28c5e58, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28c84c0, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaType* xmlType, double_t value);
 
   static inline ::System::Xml::Schema::XmlAtomicValue* New_ctor(::System::Xml::Schema::XmlSchemaType* xmlType, int32_t value);
 
-  /// @brief Method .ctor, addr 0x28c5ee8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28c8550, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaType* xmlType, int32_t value);
 
   static inline ::System::Xml::Schema::XmlAtomicValue* New_ctor(::System::Xml::Schema::XmlSchemaType* xmlType, int64_t value);
 
-  /// @brief Method .ctor, addr 0x28c5f70, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28c85d8, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaType* xmlType, int64_t value);
 
   static inline ::System::Xml::Schema::XmlAtomicValue* New_ctor(::System::Xml::Schema::XmlSchemaType* xmlType, ::StringW value);
 
-  /// @brief Method .ctor, addr 0x28c5ff8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28c8660, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaType* xmlType, ::StringW value);
 
   static inline ::System::Xml::Schema::XmlAtomicValue* New_ctor(::System::Xml::Schema::XmlSchemaType* xmlType, ::StringW value, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method .ctor, addr 0x28c609c, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28c8704, size 0x1ac, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaType* xmlType, ::StringW value, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
   static inline ::System::Xml::Schema::XmlAtomicValue* New_ctor(::System::Xml::Schema::XmlSchemaType* xmlType, ::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x28c63f4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28c8a5c, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaType* xmlType, ::System::Object* value);
 
   static inline ::System::Xml::Schema::XmlAtomicValue* New_ctor(::System::Xml::Schema::XmlSchemaType* xmlType, ::System::Object* value, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method .ctor, addr 0x28c6498, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28c8b00, size 0x1f0, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaType* xmlType, ::System::Object* value, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method System.ICloneable.Clone, addr 0x28c6688, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.ICloneable.Clone, addr 0x28c8cf0, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method get_XmlType, addr 0x28c668c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_XmlType, addr 0x28c8cf4, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaType* get_XmlType();
 
-  /// @brief Method get_ValueType, addr 0x28c6694, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_ValueType, addr 0x28c8cfc, size 0x28, virtual true, abstract: false, final false
   inline ::System::Type* get_ValueType();
 
-  /// @brief Method get_TypedValue, addr 0x28c66bc, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method get_TypedValue, addr 0x28c8d24, size 0x1c4, virtual true, abstract: false, final false
   inline ::System::Object* get_TypedValue();
 
-  /// @brief Method get_ValueAsBoolean, addr 0x28c68f8, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method get_ValueAsBoolean, addr 0x28c8f60, size 0xcc, virtual true, abstract: false, final false
   inline bool get_ValueAsBoolean();
 
-  /// @brief Method get_ValueAsDateTime, addr 0x28c69c4, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method get_ValueAsDateTime, addr 0x28c902c, size 0xe0, virtual true, abstract: false, final false
   inline ::System::DateTime get_ValueAsDateTime();
 
-  /// @brief Method get_ValueAsDouble, addr 0x28c6aa4, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method get_ValueAsDouble, addr 0x28c910c, size 0xdc, virtual true, abstract: false, final false
   inline double_t get_ValueAsDouble();
 
-  /// @brief Method get_ValueAsInt, addr 0x28c6b80, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method get_ValueAsInt, addr 0x28c91e8, size 0xd4, virtual true, abstract: false, final false
   inline int32_t get_ValueAsInt();
 
-  /// @brief Method get_ValueAsLong, addr 0x28c6c54, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method get_ValueAsLong, addr 0x28c92bc, size 0xe0, virtual true, abstract: false, final false
   inline int64_t get_ValueAsLong();
 
-  /// @brief Method ValueAs, addr 0x28c6d34, size 0x230, virtual true, abstract: false, final false
+  /// @brief Method ValueAs, addr 0x28c939c, size 0x230, virtual true, abstract: false, final false
   inline ::System::Object* ValueAs(::System::Type* type, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method get_Value, addr 0x28c6f64, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x28c95cc, size 0xf4, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method ToString, addr 0x28c7058, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x28c96c0, size 0xc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method GetPrefixFromQName, addr 0x28c62fc, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetPrefixFromQName, addr 0x28c8964, size 0xcc, virtual false, abstract: false, final false
   inline ::StringW GetPrefixFromQName(::StringW value);
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlAtomicValue", modifiers: "&&", def_value: None }]

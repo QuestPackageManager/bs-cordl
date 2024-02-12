@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::ICommandEvent);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7228))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6487))
 // CS Name: ::UnityEngine.UIElements::ICommandEvent*
 class CORDL_TYPE ICommandEvent {
 public:

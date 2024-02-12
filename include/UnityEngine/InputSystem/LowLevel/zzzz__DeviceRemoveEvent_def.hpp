@@ -29,8 +29,8 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::DeviceRemoveEvent);
 // SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6530))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6523))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5789))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5782))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::DeviceRemoveEvent
 #pragma pack(push, 0)
 struct CORDL_TYPE DeviceRemoveEvent {
@@ -53,13 +53,13 @@ public:
 
   constexpr void __cordl_internal_set_baseEvent(::UnityEngine::InputSystem::LowLevel::InputEvent value);
 
-  /// @brief Method get_typeStatic, addr 0x2ae9bbc, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x2aeb728, size 0x20, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
-  /// @brief Method ToEventPtr, addr 0x2ae9bdc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ToEventPtr, addr 0x2aeb748, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::InputEventPtr ToEventPtr();
 
-  /// @brief Method Create, addr 0x2ae9be0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2aeb74c, size 0x90, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::DeviceRemoveEvent Create(int32_t deviceId, double_t time);
 
   // Ctor Parameters [CppParam { name: "baseEvent", ty: "::UnityEngine::InputSystem::LowLevel::InputEvent", modifiers: "", def_value: None }]

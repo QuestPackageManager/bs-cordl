@@ -20,8 +20,8 @@ namespace Zenject {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3843)), TypeDefinitionIndex(TypeDefinitionIndex(11086)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3843), inst:
-// 3989 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11086), inst: 2804 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(11097)) CS Name: ::Zenject::ListPool`1<T>*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3842)), TypeDefinitionIndex(TypeDefinitionIndex(10228)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst:
+// 3971 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10228), inst: 2774 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(10239)) CS Name: ::Zenject::ListPool`1<T>*
 class CORDL_TYPE ListPool_1 : public ::Zenject::StaticMemoryPool_1<::System::Collections::Generic::List_1<T>*> {
 public:
   // Declarations

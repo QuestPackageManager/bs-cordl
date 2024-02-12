@@ -34,7 +34,7 @@ public:
   static inline ::Org::BouncyCastle::Math::EC::AbstractF2mPoint* New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x,
                                                                           ::Org::BouncyCastle::Math::EC::ECFieldElement* y, bool withCompression);
 
-  /// @brief Method .ctor, addr 0x1003ef0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x102fd80, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y, bool withCompression);
 
   static inline ::Org::BouncyCastle::Math::EC::AbstractF2mPoint* New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x,
@@ -42,35 +42,35 @@ public:
                                                                           ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> zs,
                                                                           bool withCompression);
 
-  /// @brief Method .ctor, addr 0x1003efc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x102fd8c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y,
                     ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> zs, bool withCompression);
 
-  /// @brief Method SatisfiesCurveEquation, addr 0x1003f08, size 0x458, virtual true, abstract: false, final false
+  /// @brief Method SatisfiesCurveEquation, addr 0x102fd98, size 0x458, virtual true, abstract: false, final false
   inline bool SatisfiesCurveEquation();
 
-  /// @brief Method SatisfiesOrder, addr 0x1004360, size 0x308, virtual true, abstract: false, final false
+  /// @brief Method SatisfiesOrder, addr 0x10301f0, size 0x308, virtual true, abstract: false, final false
   inline bool SatisfiesOrder();
 
-  /// @brief Method ScaleX, addr 0x1004668, size 0x298, virtual true, abstract: false, final false
+  /// @brief Method ScaleX, addr 0x10304f8, size 0x298, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* ScaleX(::Org::BouncyCastle::Math::EC::ECFieldElement* scale);
 
-  /// @brief Method ScaleXNegateY, addr 0x1004900, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method ScaleXNegateY, addr 0x1030790, size 0x10, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* ScaleXNegateY(::Org::BouncyCastle::Math::EC::ECFieldElement* scale);
 
-  /// @brief Method ScaleY, addr 0x1004910, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method ScaleY, addr 0x10307a0, size 0xe8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* ScaleY(::Org::BouncyCastle::Math::EC::ECFieldElement* scale);
 
-  /// @brief Method ScaleYNegateX, addr 0x10049f8, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method ScaleYNegateX, addr 0x1030888, size 0x10, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* ScaleYNegateX(::Org::BouncyCastle::Math::EC::ECFieldElement* scale);
 
-  /// @brief Method Subtract, addr 0x1004a08, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method Subtract, addr 0x1030898, size 0x6c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Subtract(::Org::BouncyCastle::Math::EC::ECPoint* b);
 
-  /// @brief Method Tau, addr 0x1004a74, size 0x288, virtual true, abstract: false, final false
+  /// @brief Method Tau, addr 0x1030904, size 0x288, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::AbstractF2mPoint* Tau();
 
-  /// @brief Method TauPow, addr 0x1004cfc, size 0x2a8, virtual true, abstract: false, final false
+  /// @brief Method TauPow, addr 0x1030b8c, size 0x2a8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::AbstractF2mPoint* TauPow(int32_t pow);
 
   // Ctor Parameters [CppParam { name: "", ty: "AbstractF2mPoint", modifiers: "&&", def_value: None }]

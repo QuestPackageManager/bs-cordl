@@ -93,34 +93,34 @@ public:
                                                                            ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyEncryptionAlgorithm,
                                                                            ::Org::BouncyCastle::Asn1::Asn1OctetString* encryptedKey);
 
-  /// @brief Method .ctor, addr 0xe78f60, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xea3df0, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::KekIdentifier* kekID, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyEncryptionAlgorithm,
                     ::Org::BouncyCastle::Asn1::Asn1OctetString* encryptedKey);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xe78ff0, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xea3e80, size 0x188, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance, addr 0xe79178, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xea4008, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0xe79190, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xea4020, size 0x178, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo* GetInstance(::System::Object* obj);
 
-  /// @brief Method get_Version, addr 0xe79308, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0xea4198, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
-  /// @brief Method get_KekID, addr 0xe79310, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KekID, addr 0xea41a0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::KekIdentifier* get_KekID();
 
-  /// @brief Method get_KeyEncryptionAlgorithm, addr 0xe79318, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KeyEncryptionAlgorithm, addr 0xea41a8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_KeyEncryptionAlgorithm();
 
-  /// @brief Method get_EncryptedKey, addr 0xe79320, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EncryptedKey, addr 0xea41b0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_EncryptedKey();
 
-  /// @brief Method ToAsn1Object, addr 0xe79328, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xea41b8, size 0x148, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "KekRecipientInfo", modifiers: "&&", def_value: None }]

@@ -87,24 +87,24 @@ public:
            ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> knowledgeProofForX1,
            ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> knowledgeProofForX2);
 
-  /// @brief Method .ctor, addr 0x1213a0c, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x124089c, size 0x19c, virtual false, abstract: false, final false
   inline void _ctor(::StringW participantId, ::Org::BouncyCastle::Math::BigInteger* gx1, ::Org::BouncyCastle::Math::BigInteger* gx2,
                     ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> knowledgeProofForX1,
                     ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> knowledgeProofForX2);
 
-  /// @brief Method get_ParticipantId, addr 0x1215a7c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ParticipantId, addr 0x124290c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_ParticipantId();
 
-  /// @brief Method get_Gx1, addr 0x1215a84, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Gx1, addr 0x1242914, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Gx1();
 
-  /// @brief Method get_Gx2, addr 0x1215a8c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Gx2, addr 0x124291c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Gx2();
 
-  /// @brief Method get_KnowledgeProofForX1, addr 0x1215a94, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method get_KnowledgeProofForX1, addr 0x1242924, size 0x7c, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> get_KnowledgeProofForX1();
 
-  /// @brief Method get_KnowledgeProofForX2, addr 0x1215b10, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method get_KnowledgeProofForX2, addr 0x12429a0, size 0x7c, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> get_KnowledgeProofForX2();
 
   // Ctor Parameters [CppParam { name: "", ty: "JPakeRound1Payload", modifiers: "&&", def_value: None }]

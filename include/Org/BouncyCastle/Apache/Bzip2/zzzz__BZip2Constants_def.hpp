@@ -31,7 +31,7 @@ public:
 
   static inline ::Org::BouncyCastle::Apache::Bzip2::BZip2Constants* New_ctor();
 
-  /// @brief Method .ctor, addr 0x11876a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11b6534, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BZip2Constants", modifiers: "&&", def_value: None }]

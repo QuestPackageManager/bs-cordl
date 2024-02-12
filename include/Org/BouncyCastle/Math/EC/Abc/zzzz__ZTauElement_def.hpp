@@ -43,7 +43,7 @@ public:
 
   static inline ::Org::BouncyCastle::Math::EC::Abc::ZTauElement* New_ctor(::Org::BouncyCastle::Math::BigInteger* u, ::Org::BouncyCastle::Math::BigInteger* v);
 
-  /// @brief Method .ctor, addr 0xfc7994, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xff4824, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* u, ::Org::BouncyCastle::Math::BigInteger* v);
 
   // Ctor Parameters [CppParam { name: "", ty: "ZTauElement", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityOpus::NumChannels);
 namespace UnityOpus {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16215))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16384))
 // CS Name: ::UnityOpus::NumChannels
 struct CORDL_TYPE NumChannels {
 public:

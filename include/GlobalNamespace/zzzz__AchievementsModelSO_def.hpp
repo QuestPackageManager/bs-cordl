@@ -40,7 +40,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__AchievementsModelSO____c__DisplayClass4_0);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4087))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10548))
 // CS Name: ::AchievementsModelSO::<>c__DisplayClass4_0*
 class CORDL_TYPE __AchievementsModelSO____c__DisplayClass4_0 : public ::System::Object {
 public:
@@ -65,10 +65,10 @@ public:
 
   static inline ::GlobalNamespace::__AchievementsModelSO____c__DisplayClass4_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2232fa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x125ce74, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <UnlockAchievement>b__0, addr 0x2233194, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <UnlockAchievement>b__0, addr 0x125d060, size 0x70, virtual false, abstract: false, final false
   inline void _UnlockAchievement_b__0(::GlobalNamespace::__IPlatformAchievementsHandler__UnlockAchievementResult result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__AchievementsModelSO____c__DisplayClass4_0", modifiers: "&&", def_value: None }]
@@ -105,8 +105,8 @@ static_assert(offsetof(::GlobalNamespace::__AchievementsModelSO____c__DisplayCla
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4088))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15602))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10549))
 // CS Name: ::AchievementsModelSO*
 class CORDL_TYPE AchievementsModelSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -142,18 +142,18 @@ public:
 
   constexpr void __cordl_internal_set__initialized(bool value);
 
-  /// @brief Method Initialize, addr 0x2231cc4, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x125bdd8, size 0x174, virtual false, abstract: false, final false
   inline void Initialize();
 
-  /// @brief Method UnlockAchievement, addr 0x2232d58, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method UnlockAchievement, addr 0x125cc24, size 0x184, virtual false, abstract: false, final false
   inline void UnlockAchievement(::GlobalNamespace::AchievementSO* achievement);
 
   static inline ::GlobalNamespace::AchievementsModelSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2233074, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x125cf40, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Initialize>b__3_0, addr 0x22330f0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__3_0, addr 0x125cfbc, size 0xa4, virtual false, abstract: false, final false
   inline void _Initialize_b__3_0(::GlobalNamespace::__IPlatformAchievementsHandler__GetUnlockedAchievementsResult result, ::ArrayW<::StringW, ::Array<::StringW>*> achievementIds);
 
   // Ctor Parameters [CppParam { name: "", ty: "AchievementsModelSO", modifiers: "&&", def_value: None }]

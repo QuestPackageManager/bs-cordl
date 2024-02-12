@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::GlobalNamespace::UtcTimeProvider);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12993))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12891))
 // CS Name: ::UtcTimeProvider*
 class CORDL_TYPE UtcTimeProvider : public ::System::Object {
 public:
@@ -45,15 +45,15 @@ public:
 
   static inline ::GlobalNamespace::UtcTimeProvider* getStaticF_instance();
 
-  /// @brief Method GetTimeMs, addr 0xe5ad8c, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method GetTimeMs, addr 0xe85bc4, size 0x2c, virtual true, abstract: false, final true
   inline int64_t GetTimeMs();
 
-  /// @brief Method GetTicks, addr 0xe49968, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method GetTicks, addr 0xe747a0, size 0xb4, virtual true, abstract: false, final true
   inline int64_t GetTicks();
 
   static inline ::GlobalNamespace::UtcTimeProvider* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe5adb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe85bf0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "UtcTimeProvider", modifiers: "&&", def_value: None }]

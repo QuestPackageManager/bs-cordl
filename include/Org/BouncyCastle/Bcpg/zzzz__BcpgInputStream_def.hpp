@@ -67,16 +67,16 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::__BcpgInputStream__PartialInputStream* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn, bool partial, int32_t dataLength);
 
-  /// @brief Method .ctor, addr 0x11cd280, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11fb110, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn, bool partial, int32_t dataLength);
 
-  /// @brief Method ReadByte, addr 0x11cf344, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method ReadByte, addr 0x11fd1d4, size 0xac, virtual true, abstract: false, final false
   inline int32_t ReadByte();
 
-  /// @brief Method Read, addr 0x11cf520, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x11fd3b0, size 0xe0, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method ReadPartialDataLength, addr 0x11cf3f0, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method ReadPartialDataLength, addr 0x11fd280, size 0x130, virtual false, abstract: false, final false
   inline int32_t ReadPartialDataLength();
 
   // Ctor Parameters [CppParam { name: "", ty: "__BcpgInputStream__PartialInputStream", modifiers: "&&", def_value: None }]
@@ -153,36 +153,36 @@ public:
 
   constexpr void __cordl_internal_set_nextB(int32_t value);
 
-  /// @brief Method Wrap, addr 0x11cc880, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Wrap, addr 0x11fa710, size 0x98, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Bcpg::BcpgInputStream* Wrap(::System::IO::Stream* inStr);
 
   static inline ::Org::BouncyCastle::Bcpg::BcpgInputStream* New_ctor(::System::IO::Stream* inputStream);
 
-  /// @brief Method .ctor, addr 0x11cc918, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11fa7a8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* inputStream);
 
-  /// @brief Method ReadByte, addr 0x11cc944, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method ReadByte, addr 0x11fa7d4, size 0x40, virtual true, abstract: false, final false
   inline int32_t ReadByte();
 
-  /// @brief Method Read, addr 0x11cc984, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x11fa814, size 0xb4, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method ReadAll, addr 0x11cca38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ReadAll, addr 0x11fa8c8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReadAll();
 
-  /// @brief Method ReadFully, addr 0x11cca40, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ReadFully, addr 0x11fa8d0, size 0x5c, virtual false, abstract: false, final false
   inline void ReadFully(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t off, int32_t len);
 
-  /// @brief Method ReadFully, addr 0x11cca9c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ReadFully, addr 0x11fa92c, size 0x1c, virtual false, abstract: false, final false
   inline void ReadFully(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer);
 
-  /// @brief Method NextPacketTag, addr 0x11ccab8, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method NextPacketTag, addr 0x11fa948, size 0xe0, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::PacketTag NextPacketTag();
 
-  /// @brief Method ReadPacket, addr 0x11ccb98, size 0x6e8, virtual false, abstract: false, final false
+  /// @brief Method ReadPacket, addr 0x11faa28, size 0x6e8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::Packet* ReadPacket();
 
-  /// @brief Method Close, addr 0x11cf2dc, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x11fd16c, size 0x68, virtual true, abstract: false, final false
   inline void Close();
 
   // Ctor Parameters [CppParam { name: "", ty: "BcpgInputStream", modifiers: "&&", def_value: None }]

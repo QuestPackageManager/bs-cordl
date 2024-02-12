@@ -94,40 +94,40 @@ public:
 
   static inline ::System::Runtime::Remoting::Messaging::CADMessageBase* New_ctor(::System::Runtime::Remoting::Messaging::IMethodMessage* msg);
 
-  /// @brief Method .ctor, addr 0x24a8568, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24ca5dc, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::IMethodMessage* msg);
 
-  /// @brief Method GetMethod, addr 0x24a85fc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetMethod, addr 0x24ca670, size 0x80, virtual false, abstract: false, final false
   inline ::System::Reflection::MethodBase* GetMethod();
 
-  /// @brief Method GetSignature, addr 0x24a867c, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method GetSignature, addr 0x24ca6f0, size 0x1b0, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Type*, ::Array<::System::Type*>*> GetSignature(::System::Reflection::MethodBase* methodBase, bool load);
 
-  /// @brief Method MarshalProperties, addr 0x24a882c, size 0x764, virtual false, abstract: false, final false
+  /// @brief Method MarshalProperties, addr 0x24ca8a0, size 0x764, virtual false, abstract: false, final false
   static inline int32_t MarshalProperties(::System::Collections::IDictionary* dict, ByRef<::System::Collections::ArrayList*> args);
 
-  /// @brief Method UnmarshalProperties, addr 0x24a9114, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method UnmarshalProperties, addr 0x24cb188, size 0x13c, virtual false, abstract: false, final false
   static inline void UnmarshalProperties(::System::Collections::IDictionary* dict, int32_t count, ::System::Collections::ArrayList* args);
 
-  /// @brief Method IsPossibleToIgnoreMarshal, addr 0x24a9250, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method IsPossibleToIgnoreMarshal, addr 0x24cb2c4, size 0x1b0, virtual false, abstract: false, final false
   static inline bool IsPossibleToIgnoreMarshal(::System::Object* obj);
 
-  /// @brief Method MarshalArgument, addr 0x24a9400, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method MarshalArgument, addr 0x24cb474, size 0x1c4, virtual false, abstract: false, final false
   inline ::System::Object* MarshalArgument(::System::Object* arg, ByRef<::System::Collections::ArrayList*> args);
 
-  /// @brief Method UnmarshalArgument, addr 0x24a95c4, size 0x72c, virtual false, abstract: false, final false
+  /// @brief Method UnmarshalArgument, addr 0x24cb638, size 0x72c, virtual false, abstract: false, final false
   inline ::System::Object* UnmarshalArgument(::System::Object* arg, ::System::Collections::ArrayList* args);
 
-  /// @brief Method MarshalArguments, addr 0x24a9cf0, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method MarshalArguments, addr 0x24cbd64, size 0x100, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> MarshalArguments(::ArrayW<::System::Object*, ::Array<::System::Object*>*> arguments, ByRef<::System::Collections::ArrayList*> args);
 
-  /// @brief Method UnmarshalArguments, addr 0x24a9df0, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method UnmarshalArguments, addr 0x24cbe64, size 0x100, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> UnmarshalArguments(::ArrayW<::System::Object*, ::Array<::System::Object*>*> arguments, ::System::Collections::ArrayList* args);
 
-  /// @brief Method SaveLogicalCallContext, addr 0x24a9ef0, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method SaveLogicalCallContext, addr 0x24cbf64, size 0x23c, virtual false, abstract: false, final false
   inline void SaveLogicalCallContext(::System::Runtime::Remoting::Messaging::IMethodMessage* msg, ByRef<::System::Collections::ArrayList*> serializeList);
 
-  /// @brief Method GetLogicalCallContext, addr 0x24aa12c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetLogicalCallContext, addr 0x24cc1a0, size 0x88, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::LogicalCallContext* GetLogicalCallContext(::System::Collections::ArrayList* args);
 
   // Ctor Parameters [CppParam { name: "", ty: "CADMessageBase", modifiers: "&&", def_value: None }]

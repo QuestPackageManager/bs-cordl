@@ -28,32 +28,32 @@ MARK_REF_PTR_T(::Newtonsoft::Json::JsonException);
 namespace Newtonsoft::Json {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2561))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11804))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11702))
 // CS Name: ::Newtonsoft.Json::JsonException*
 class CORDL_TYPE JsonException : public ::System::Exception {
 public:
   // Declarations
   static inline ::Newtonsoft::Json::JsonException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x263e41c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26625d8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Newtonsoft::Json::JsonException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x263e474, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2662630, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::Newtonsoft::Json::JsonException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x263e4dc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2662698, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
   static inline ::Newtonsoft::Json::JsonException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x263e54c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2662708, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method Create, addr 0x263e5cc, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2662788, size 0xac, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::JsonException* Create(::Newtonsoft::Json::IJsonLineInfo* lineInfo, ::StringW path, ::StringW message);
 
   // Ctor Parameters [CppParam { name: "", ty: "JsonException", modifiers: "&&", def_value: None }]

@@ -41,8 +41,8 @@ MARK_REF_PTR_T(::Ice::__FloorLightTile__Pool);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Ice {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16168))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16308))
 // CS Name: ::Ice::FloorLightTile*
 class CORDL_TYPE FloorLightTile : public ::UnityEngine::MonoBehaviour {
 public:
@@ -103,27 +103,27 @@ public:
 
   constexpr void __cordl_internal_set__fadeOutTween(::Tweening::ColorTween* value);
 
-  /// @brief Method Awake, addr 0x129f894, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0xe34330, size 0x1f0, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnDestroy, addr 0x129fa84, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0xe34520, size 0xa0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HighlightWithColor, addr 0x129fb24, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method HighlightWithColor, addr 0xe345c0, size 0xcc, virtual false, abstract: false, final false
   inline void HighlightWithColor(::UnityEngine::Color color, float_t fadeInDuration, float_t fadeOutDuration);
 
-  /// @brief Method HandleFadeInTweenOnCompleted, addr 0x129fbf0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandleFadeInTweenOnCompleted, addr 0xe3468c, size 0x24, virtual false, abstract: false, final false
   inline void HandleFadeInTweenOnCompleted();
 
-  /// @brief Method HandleFadeOutTweenOnCompleted, addr 0x129fc14, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleFadeOutTweenOnCompleted, addr 0xe346b0, size 0x20, virtual false, abstract: false, final false
   inline void HandleFadeOutTweenOnCompleted();
 
-  /// @brief Method SetColor, addr 0x129fc34, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method SetColor, addr 0xe346d0, size 0x60, virtual false, abstract: false, final false
   inline void SetColor(::UnityEngine::Color color);
 
   static inline ::Ice::FloorLightTile* New_ctor();
 
-  /// @brief Method .ctor, addr 0x129fc94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe34730, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FloorLightTile", modifiers: "&&", def_value: None }]
@@ -180,14 +180,14 @@ static_assert(offsetof(::Ice::FloorLightTile, ____fadeOutTween) == 0x40, "Offset
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Ice {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11050)), TypeDefinitionIndex(TypeDefinitionIndex(16168)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
-// 308 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(16167)) CS Name: ::FloorLightTile::Pool*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10192)), TypeDefinitionIndex(TypeDefinitionIndex(16308)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10192), inst:
+// 310 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(16307)) CS Name: ::FloorLightTile::Pool*
 class CORDL_TYPE __FloorLightTile__Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::Ice::FloorLightTile>> {
 public:
   // Declarations
   static inline ::Ice::__FloorLightTile__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x129fc9c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe34738, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FloorLightTile__Pool", modifiers: "&&", def_value: None }]

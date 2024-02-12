@@ -17,7 +17,7 @@ MARK_VAL_T(::OVR::OpenVR::VRVulkanTextureData_t);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8664))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8608))
 // CS Name: ::OVR.OpenVR::VRVulkanTextureData_t
 struct CORDL_TYPE VRVulkanTextureData_t {
 public:

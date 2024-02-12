@@ -25,7 +25,7 @@ namespace Newtonsoft::Json::Utilities {
 template <typename TFirst, typename TSecond>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11869))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11767))
 // CS Name: ::Newtonsoft.Json.Utilities::BidirectionalDictionary`2<TFirst,TSecond>*
 class CORDL_TYPE BidirectionalDictionary_2 : public ::System::Object {
 public:

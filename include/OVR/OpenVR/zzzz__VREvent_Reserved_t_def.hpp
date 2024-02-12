@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::VREvent_Reserved_t);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8677))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8621))
 // CS Name: ::OVR.OpenVR::VREvent_Reserved_t
 struct CORDL_TYPE VREvent_Reserved_t {
 public:

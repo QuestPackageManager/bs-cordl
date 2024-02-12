@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::JsonExtensionDataAttribute);
 namespace Newtonsoft::Json {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11805))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11703))
 // CS Name: ::Newtonsoft.Json::JsonExtensionDataAttribute*
 class CORDL_TYPE JsonExtensionDataAttribute : public ::System::Attribute {
 public:
@@ -42,21 +42,21 @@ public:
 
   constexpr void __cordl_internal_set__ReadData_k__BackingField(bool value);
 
-  /// @brief Method get_WriteData, addr 0x263e9a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_WriteData, addr 0x2662b60, size 0x8, virtual false, abstract: false, final false
   inline bool get_WriteData();
 
-  /// @brief Method set_WriteData, addr 0x263e9ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_WriteData, addr 0x2662b68, size 0xc, virtual false, abstract: false, final false
   inline void set_WriteData(bool value);
 
-  /// @brief Method get_ReadData, addr 0x263e9b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ReadData, addr 0x2662b74, size 0x8, virtual false, abstract: false, final false
   inline bool get_ReadData();
 
-  /// @brief Method set_ReadData, addr 0x263e9c0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ReadData, addr 0x2662b7c, size 0xc, virtual false, abstract: false, final false
   inline void set_ReadData(bool value);
 
   static inline ::Newtonsoft::Json::JsonExtensionDataAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x263e9cc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2662b88, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "JsonExtensionDataAttribute", modifiers: "&&", def_value: None }]

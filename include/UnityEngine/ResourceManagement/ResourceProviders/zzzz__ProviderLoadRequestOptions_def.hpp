@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoa
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14014))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14027))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::ProviderLoadRequestOptions*
 class CORDL_TYPE ProviderLoadRequestOptions : public ::System::Object {
 public:
@@ -43,24 +43,24 @@ public:
 
   constexpr void __cordl_internal_set_m_WebRequestTimeout(int32_t value);
 
-  /// @brief Method Copy, addr 0x2bd83bc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Copy, addr 0x2bd5f28, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions* Copy();
 
-  /// @brief Method get_IgnoreFailures, addr 0x2bd843c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IgnoreFailures, addr 0x2bd5fa8, size 0x8, virtual false, abstract: false, final false
   inline bool get_IgnoreFailures();
 
-  /// @brief Method set_IgnoreFailures, addr 0x2bd8444, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IgnoreFailures, addr 0x2bd5fb0, size 0xc, virtual false, abstract: false, final false
   inline void set_IgnoreFailures(bool value);
 
-  /// @brief Method get_WebRequestTimeout, addr 0x2bd8450, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_WebRequestTimeout, addr 0x2bd5fbc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_WebRequestTimeout();
 
-  /// @brief Method set_WebRequestTimeout, addr 0x2bd8458, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_WebRequestTimeout, addr 0x2bd5fc4, size 0x8, virtual false, abstract: false, final false
   inline void set_WebRequestTimeout(int32_t value);
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2bd8460, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bd5fcc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ProviderLoadRequestOptions", modifiers: "&&", def_value: None }]

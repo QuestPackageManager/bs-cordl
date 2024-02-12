@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::WebRequestQueue);
 namespace UnityEngine::ResourceManagement {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13960))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13973))
 // CS Name: ::UnityEngine.ResourceManagement::WebRequestQueue*
 class CORDL_TYPE WebRequestQueue : public ::System::Object {
 public:
@@ -62,16 +62,16 @@ public:
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::Networking::UnityWebRequestAsyncOperation*>* getStaticF_s_ActiveRequests();
 
-  /// @brief Method SetMaxConcurrentRequests, addr 0x2bcefa0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method SetMaxConcurrentRequests, addr 0x2bccb0c, size 0xc4, virtual false, abstract: false, final false
   static inline void SetMaxConcurrentRequests(int32_t maxRequests);
 
-  /// @brief Method QueueRequest, addr 0x2bcf064, size 0x344, virtual false, abstract: false, final false
+  /// @brief Method QueueRequest, addr 0x2bccbd0, size 0x344, virtual false, abstract: false, final false
   static inline ::UnityEngine::ResourceManagement::WebRequestQueueOperation* QueueRequest(::UnityEngine::Networking::UnityWebRequest* request);
 
-  /// @brief Method WaitForRequestToBeActive, addr 0x2bcf608, size 0x48c, virtual false, abstract: false, final false
+  /// @brief Method WaitForRequestToBeActive, addr 0x2bcd174, size 0x48c, virtual false, abstract: false, final false
   static inline void WaitForRequestToBeActive(::UnityEngine::ResourceManagement::WebRequestQueueOperation* request, int32_t millisecondsTimeout);
 
-  /// @brief Method OnWebAsyncOpComplete, addr 0x2bcf3a8, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method OnWebAsyncOpComplete, addr 0x2bccf14, size 0x260, virtual false, abstract: false, final false
   static inline void OnWebAsyncOpComplete(::UnityEngine::AsyncOperation* operation);
 
   // Ctor Parameters [CppParam { name: "", ty: "WebRequestQueue", modifiers: "&&", def_value: None }]

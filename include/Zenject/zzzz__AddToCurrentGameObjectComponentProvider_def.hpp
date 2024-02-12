@@ -57,7 +57,7 @@ MARK_REF_PTR_T(::Zenject::__AddToCurrentGameObjectComponentProvider____c__Displa
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11180))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10322))
 // CS Name: ::AddToCurrentGameObjectComponentProvider::<>c__DisplayClass15_0*
 class CORDL_TYPE __AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0 : public ::System::Object {
 public:
@@ -100,16 +100,16 @@ public:
 
   static inline ::Zenject::__AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f05df4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f21f3c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <GetAllInstancesWithInjectSplit>b__0, addr 0x2f05f14, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method <GetAllInstancesWithInjectSplit>b__0, addr 0x2f2205c, size 0x158, virtual false, abstract: false, final false
   inline void _GetAllInstancesWithInjectSplit_b__0();
 
-  /// @brief Method __zenCreate, addr 0x2f0606c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2f221b4, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f060c8, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f22210, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0", modifiers: "&&", def_value: None }]
@@ -157,7 +157,7 @@ static_assert(offsetof(::Zenject::__AddToCurrentGameObjectComponentProvider____c
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11181))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10323))
 // CS Name: ::Zenject::AddToCurrentGameObjectComponentProvider*
 class CORDL_TYPE AddToCurrentGameObjectComponentProvider : public ::System::Object {
 public:
@@ -229,26 +229,26 @@ public:
                                                                              ::System::Object* concreteIdentifier,
                                                                              ::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* instantiateCallback);
 
-  /// @brief Method .ctor, addr 0x2f05998, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f21ae0, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::System::Type* componentType, ::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>* extraArguments,
                     ::System::Object* concreteIdentifier, ::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* instantiateCallback);
 
-  /// @brief Method get_IsCached, addr 0x2f05a78, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsCached, addr 0x2f21bc0, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsCached();
 
-  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x2f05a80, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x2f21bc8, size 0x8, virtual true, abstract: false, final true
   inline bool get_TypeVariesBasedOnMemberType();
 
-  /// @brief Method get_Container, addr 0x2f05a88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Container, addr 0x2f21bd0, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* get_Container();
 
-  /// @brief Method get_ComponentType, addr 0x2f05a90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ComponentType, addr 0x2f21bd8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ComponentType();
 
-  /// @brief Method GetInstanceType, addr 0x2f05a98, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetInstanceType, addr 0x2f21be0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
 
-  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x2f05aa0, size 0x354, virtual true, abstract: false, final true
+  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x2f21be8, size 0x354, virtual true, abstract: false, final true
   inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction,
                                              ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 

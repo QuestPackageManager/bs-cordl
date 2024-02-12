@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::UnityEngine::Events::PersistentCallGroup);
 namespace UnityEngine::Events {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10459))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9228))
 // CS Name: ::UnityEngine.Events::PersistentCallGroup*
 class CORDL_TYPE PersistentCallGroup : public ::System::Object {
 public:
@@ -46,13 +46,13 @@ public:
 
   static inline ::UnityEngine::Events::PersistentCallGroup* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2cf935c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d04038, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Count, addr 0x2cf93dc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x2d040b8, size 0x48, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method Initialize, addr 0x2cf9424, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x2d04100, size 0x190, virtual false, abstract: false, final false
   inline void Initialize(::UnityEngine::Events::InvokableCallList* invokableList, ::UnityEngine::Events::UnityEventBase* unityEventBase);
 
   // Ctor Parameters [CppParam { name: "", ty: "PersistentCallGroup", modifiers: "&&", def_value: None }]

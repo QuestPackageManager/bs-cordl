@@ -39,8 +39,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6788)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6788), inst: 1562 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6788))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6047)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6047), inst: 1531 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6047))
 // CS Name: ::ClampedDragger`1::DragDirection<T>
 struct CORDL_TYPE __ClampedDragger_1__DragDirection {
 public:
@@ -95,8 +95,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6788)), TypeDefinitionIndex(TypeDefinitionIndex(6807)), TypeDefinitionIndex(TypeDefinitionIndex(10243)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6788), inst: 920 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6789)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6047)), TypeDefinitionIndex(TypeDefinitionIndex(6066)), TypeDefinitionIndex(TypeDefinitionIndex(8987)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6047), inst: 922 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6048)) CS Name:
 // ::UnityEngine.UIElements::ClampedDragger`1<T>*
 class CORDL_TYPE ClampedDragger_1 : public ::UnityEngine::UIElements::Clickable {
 public:

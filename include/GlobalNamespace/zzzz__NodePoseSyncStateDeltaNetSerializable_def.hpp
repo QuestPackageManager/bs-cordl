@@ -41,8 +41,8 @@ MARK_REF_PTR_T(::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12973)), TypeDefinitionIndex(TypeDefinitionIndex(12988))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12974))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12871)), TypeDefinitionIndex(TypeDefinitionIndex(12886))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12872))
 // CS Name: ::NodePoseSyncStateDeltaNetSerializable*
 class CORDL_TYPE NodePoseSyncStateDeltaNetSerializable : public ::System::Object {
 public:
@@ -98,39 +98,39 @@ public:
 
   constexpr void __cordl_internal_set__timeOffsetMs_k__BackingField(int32_t value);
 
-  /// @brief Method get_pool, addr 0xe59b90, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_pool, addr 0xe849c8, size 0x40, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::IPacketPool_1<::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*>* get_pool();
 
-  /// @brief Method get_baseId, addr 0xe59bd0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_baseId, addr 0xe84a08, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::SyncStateId get_baseId();
 
-  /// @brief Method set_baseId, addr 0xe59bd8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_baseId, addr 0xe84a10, size 0x8, virtual true, abstract: false, final true
   inline void set_baseId(::GlobalNamespace::SyncStateId value);
 
-  /// @brief Method get_timeOffsetMs, addr 0xe59be0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_timeOffsetMs, addr 0xe84a18, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_timeOffsetMs();
 
-  /// @brief Method set_timeOffsetMs, addr 0xe59be8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_timeOffsetMs, addr 0xe84a20, size 0x8, virtual true, abstract: false, final true
   inline void set_timeOffsetMs(int32_t value);
 
-  /// @brief Method get_delta, addr 0xe59bf0, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method get_delta, addr 0xe84a28, size 0x10, virtual true, abstract: false, final true
   inline ::GlobalNamespace::NodePoseSyncState get_delta();
 
-  /// @brief Method set_delta, addr 0xe59c00, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method set_delta, addr 0xe84a38, size 0x18, virtual true, abstract: false, final true
   inline void set_delta(::GlobalNamespace::NodePoseSyncState value);
 
-  /// @brief Method Serialize, addr 0xe59c18, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0xe84a50, size 0x98, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method Deserialize, addr 0xe59ce4, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0xe84b1c, size 0x68, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Release, addr 0xe59d78, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method Release, addr 0xe84bb0, size 0xac, virtual true, abstract: false, final true
   inline void Release();
 
   static inline ::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe59e24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe84c5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NodePoseSyncStateDeltaNetSerializable", modifiers: "&&", def_value: None }]

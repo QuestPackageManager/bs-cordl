@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ListSettingsController);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16147))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16149))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16287))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16289))
 // CS Name: ::ListSettingsController*
 class CORDL_TYPE ListSettingsController : public ::GlobalNamespace::IncDecSettingsController {
 public:
@@ -50,24 +50,24 @@ public:
   /// @brief Method TextForValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW TextForValue(int32_t idx);
 
-  /// @brief Method OnEnable, addr 0x23e506c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x2404ecc, size 0x34, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method RefreshUI, addr 0x23e50a0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method RefreshUI, addr 0x2404f00, size 0x54, virtual false, abstract: false, final false
   inline void RefreshUI();
 
-  /// @brief Method Refresh, addr 0x23e50f4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x2404f54, size 0x5c, virtual false, abstract: false, final false
   inline void Refresh(bool applyValue);
 
-  /// @brief Method IncButtonPressed, addr 0x23e5150, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method IncButtonPressed, addr 0x2404fb0, size 0x40, virtual true, abstract: false, final false
   inline void IncButtonPressed();
 
-  /// @brief Method DecButtonPressed, addr 0x23e5190, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method DecButtonPressed, addr 0x2404ff0, size 0x38, virtual true, abstract: false, final false
   inline void DecButtonPressed();
 
   static inline ::GlobalNamespace::ListSettingsController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23e51c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2405028, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ListSettingsController", modifiers: "&&", def_value: None }]

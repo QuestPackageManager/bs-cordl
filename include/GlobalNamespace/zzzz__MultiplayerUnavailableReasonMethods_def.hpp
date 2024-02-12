@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MultiplayerUnavailableReasonMethods)
+namespace BGLib::Polyglot {
+struct Language;
+}
 namespace GlobalNamespace {
 class MultiplayerStatusData;
 }
 namespace GlobalNamespace {
 struct MultiplayerUnavailableReason;
-}
-namespace Polyglot {
-struct Language;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -26,24 +26,24 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerUnavailableReasonMethods);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4516))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10938))
 // CS Name: ::MultiplayerUnavailableReasonMethods*
 class CORDL_TYPE MultiplayerUnavailableReasonMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method LocalizedKey, addr 0x2362fb4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method LocalizedKey, addr 0x12a0de0, size 0x84, virtual false, abstract: false, final false
   static inline ::StringW LocalizedKey(::GlobalNamespace::MultiplayerUnavailableReason multiplayerUnavailableReason);
 
-  /// @brief Method ErrorCode, addr 0x2363038, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ErrorCode, addr 0x12a0e64, size 0x80, virtual false, abstract: false, final false
   static inline ::StringW ErrorCode(::GlobalNamespace::MultiplayerUnavailableReason multiplayerUnavailableReason);
 
-  /// @brief Method TryGetMultiplayerUnavailableReason, addr 0x23630b8, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method TryGetMultiplayerUnavailableReason, addr 0x12a0ee4, size 0x108, virtual false, abstract: false, final false
   static inline bool TryGetMultiplayerUnavailableReason(::GlobalNamespace::MultiplayerStatusData* data, ByRef<::GlobalNamespace::MultiplayerUnavailableReason> reason);
 
-  /// @brief Method GetLocalizedMessage, addr 0x23633c8, size 0xb0, virtual false, abstract: false, final false
-  static inline ::StringW GetLocalizedMessage(::GlobalNamespace::MultiplayerStatusData* data, ::Polyglot::Language language);
+  /// @brief Method GetLocalizedMessage, addr 0x12a11f4, size 0xb0, virtual false, abstract: false, final false
+  static inline ::StringW GetLocalizedMessage(::GlobalNamespace::MultiplayerStatusData* data, ::BGLib::Polyglot::Language language);
 
-  /// @brief Method VersionLessThan, addr 0x23631c0, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method VersionLessThan, addr 0x12a0fec, size 0x208, virtual false, abstract: false, final false
   static inline bool VersionLessThan(::StringW currentVersion, ::StringW minVersion);
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerUnavailableReasonMethods", modifiers: "&&", def_value: None }]

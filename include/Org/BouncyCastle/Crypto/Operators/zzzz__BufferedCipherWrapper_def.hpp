@@ -61,16 +61,16 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Operators::BufferedCipherWrapper* New_ctor(::Org::BouncyCastle::Crypto::IBufferedCipher* bufferedCipher, ::System::IO::Stream* source);
 
-  /// @brief Method .ctor, addr 0xf285e0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf53470, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBufferedCipher* bufferedCipher, ::System::IO::Stream* source);
 
-  /// @brief Method GetMaxOutputSize, addr 0xf28674, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method GetMaxOutputSize, addr 0xf53504, size 0xac, virtual true, abstract: false, final true
   inline int32_t GetMaxOutputSize(int32_t inputLen);
 
-  /// @brief Method GetUpdateOutputSize, addr 0xf28720, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method GetUpdateOutputSize, addr 0xf535b0, size 0xac, virtual true, abstract: false, final true
   inline int32_t GetUpdateOutputSize(int32_t inputLen);
 
-  /// @brief Method get_Stream, addr 0xf287cc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Stream, addr 0xf5365c, size 0x8, virtual true, abstract: false, final true
   inline ::System::IO::Stream* get_Stream();
 
   // Ctor Parameters [CppParam { name: "", ty: "BufferedCipherWrapper", modifiers: "&&", def_value: None }]

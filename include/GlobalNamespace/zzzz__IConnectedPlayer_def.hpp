@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IConnectedPlayer);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12778))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12676))
 // CS Name: ::IConnectedPlayer*
 class CORDL_TYPE IConnectedPlayer {
 public:

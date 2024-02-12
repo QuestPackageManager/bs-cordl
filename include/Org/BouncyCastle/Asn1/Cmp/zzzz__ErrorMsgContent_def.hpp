@@ -73,33 +73,33 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::ErrorMsgContent* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xe66f38, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe91dc8, size 0x11c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance, addr 0xe671dc, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xe9206c, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::ErrorMsgContent* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::ErrorMsgContent* New_ctor(::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* pkiStatusInfo);
 
-  /// @brief Method .ctor, addr 0xe67364, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe921f4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* pkiStatusInfo);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::ErrorMsgContent* New_ctor(::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* pkiStatusInfo, ::Org::BouncyCastle::Asn1::DerInteger* errorCode,
                                                                           ::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* errorDetails);
 
-  /// @brief Method .ctor, addr 0xe67370, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe92200, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* pkiStatusInfo, ::Org::BouncyCastle::Asn1::DerInteger* errorCode, ::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* errorDetails);
 
-  /// @brief Method get_PkiStatusInfo, addr 0xe673fc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_PkiStatusInfo, addr 0xe9228c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* get_PkiStatusInfo();
 
-  /// @brief Method get_ErrorCode, addr 0xe67404, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ErrorCode, addr 0xe92294, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_ErrorCode();
 
-  /// @brief Method get_ErrorDetails, addr 0xe6740c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ErrorDetails, addr 0xe9229c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* get_ErrorDetails();
 
-  /// @brief Method ToAsn1Object, addr 0xe67414, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xe922a4, size 0x174, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "ErrorMsgContent", modifiers: "&&", def_value: None }]

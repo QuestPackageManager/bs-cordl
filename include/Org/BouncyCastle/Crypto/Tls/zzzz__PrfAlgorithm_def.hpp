@@ -23,7 +23,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Tls::PrfAlgorithm* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf92734, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfbe5c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PrfAlgorithm", modifiers: "&&", def_value: None }]

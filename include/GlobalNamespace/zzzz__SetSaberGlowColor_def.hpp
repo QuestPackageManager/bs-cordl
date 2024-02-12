@@ -41,8 +41,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__SetSaberGlowColor__PropertyTintColorPair);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5307))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8995))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4647))
 // CS Name: ::SetSaberGlowColor::PropertyTintColorPair*
 class CORDL_TYPE __SetSaberGlowColor__PropertyTintColorPair : public ::System::Object {
 public:
@@ -67,7 +67,7 @@ public:
 
   static inline ::GlobalNamespace::__SetSaberGlowColor__PropertyTintColorPair* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2264c14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c3a7c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__SetSaberGlowColor__PropertyTintColorPair", modifiers: "&&", def_value: None }]
@@ -104,8 +104,8 @@ static_assert(offsetof(::GlobalNamespace::__SetSaberGlowColor__PropertyTintColor
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15036))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5308))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(14909))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4648))
 // CS Name: ::SetSaberGlowColor*
 class CORDL_TYPE SetSaberGlowColor : public ::UnityEngine::MonoBehaviour {
 public:
@@ -173,18 +173,18 @@ public:
 
   constexpr void __cordl_internal_set__saberType(::GlobalNamespace::SaberType value);
 
-  /// @brief Method set_saberType, addr 0x22644a4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_saberType, addr 0x23c330c, size 0xc, virtual false, abstract: false, final false
   inline void set_saberType(::GlobalNamespace::SaberType value);
 
-  /// @brief Method Start, addr 0x2264b8c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x23c39f4, size 0x80, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method SetColors, addr 0x2264a74, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method SetColors, addr 0x23c38dc, size 0x118, virtual false, abstract: false, final false
   inline void SetColors();
 
   static inline ::GlobalNamespace::SetSaberGlowColor* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2264c0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c3a74, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SetSaberGlowColor", modifiers: "&&", def_value: None }]

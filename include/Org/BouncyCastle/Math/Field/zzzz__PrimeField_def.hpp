@@ -51,19 +51,19 @@ public:
 
   static inline ::Org::BouncyCastle::Math::Field::PrimeField* New_ctor(::Org::BouncyCastle::Math::BigInteger* characteristic);
 
-  /// @brief Method .ctor, addr 0x105b47c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x108830c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* characteristic);
 
-  /// @brief Method get_Characteristic, addr 0x105bb00, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Characteristic, addr 0x1088990, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Characteristic();
 
-  /// @brief Method get_Dimension, addr 0x105bb08, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Dimension, addr 0x1088998, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Dimension();
 
-  /// @brief Method Equals, addr 0x105bb10, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x10889a0, size 0xb4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x105bbc4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x1088a54, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "PrimeField", modifiers: "&&", def_value: None }]

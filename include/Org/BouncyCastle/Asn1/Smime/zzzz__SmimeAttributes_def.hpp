@@ -39,7 +39,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Smime::SmimeAttributes* New_ctor();
 
-  /// @brief Method .ctor, addr 0x107334c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10a01dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SmimeAttributes", modifiers: "&&", def_value: None }]

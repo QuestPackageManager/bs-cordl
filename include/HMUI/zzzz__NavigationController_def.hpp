@@ -64,7 +64,7 @@ MARK_REF_PTR_T(::HMUI::__NavigationController____c__DisplayClass8_0);
 namespace HMUI {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13584))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13537))
 // CS Name: ::NavigationController::Orientation
 struct CORDL_TYPE __NavigationController__Orientation {
 public:
@@ -114,7 +114,7 @@ static_assert(offsetof(::HMUI::__NavigationController__Orientation, value__) == 
 namespace HMUI {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13585))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13538))
 // CS Name: ::NavigationController::Alignment
 struct CORDL_TYPE __NavigationController__Alignment {
 public:
@@ -168,7 +168,7 @@ static_assert(offsetof(::HMUI::__NavigationController__Alignment, value__) == 0x
 namespace HMUI {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13586))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13539))
 // CS Name: ::NavigationController::<>c__DisplayClass8_0*
 class CORDL_TYPE __NavigationController____c__DisplayClass8_0 : public ::System::Object {
 public:
@@ -211,10 +211,10 @@ public:
 
   static inline ::HMUI::__NavigationController____c__DisplayClass8_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x212b32c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21bfc10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <PushViewController>g__AnimationLayouter|0, addr 0x212b5dc, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method <PushViewController>g__AnimationLayouter|0, addr 0x21bfec0, size 0x2a8, virtual false, abstract: false, final false
   inline void _PushViewController_g__AnimationLayouter_0(float_t t, ::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*> viewControllers);
 
   // Ctor Parameters [CppParam { name: "", ty: "__NavigationController____c__DisplayClass8_0", modifiers: "&&", def_value: None }]
@@ -262,7 +262,7 @@ static_assert(offsetof(::HMUI::__NavigationController____c__DisplayClass8_0, ___
 namespace HMUI {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13587))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13540))
 // CS Name: ::NavigationController::<>c__DisplayClass10_0*
 class CORDL_TYPE __NavigationController____c__DisplayClass10_0 : public ::System::Object {
 public:
@@ -305,10 +305,10 @@ public:
 
   static inline ::HMUI::__NavigationController____c__DisplayClass10_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x212b530, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21bfe14, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <PopViewControllers>g__AnimationLayouter|0, addr 0x212b884, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method <PopViewControllers>g__AnimationLayouter|0, addr 0x21c0168, size 0x274, virtual false, abstract: false, final false
   inline void _PopViewControllers_g__AnimationLayouter_0(float_t t, ::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*> viewControllers,
                                                          ::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>* removingViewControllers);
 
@@ -356,8 +356,8 @@ static_assert(offsetof(::HMUI::__NavigationController____c__DisplayClass10_0, __
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 148, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13570)), TypeDefinitionIndex(TypeDefinitionIndex(13584)), TypeDefinitionIndex(TypeDefinitionIndex(13585))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13588))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13523)), TypeDefinitionIndex(TypeDefinitionIndex(13537)), TypeDefinitionIndex(TypeDefinitionIndex(13538))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13541))
 // CS Name: ::HMUI::NavigationController*
 class CORDL_TYPE NavigationController : public ::HMUI::ContainerViewController {
 public:
@@ -415,31 +415,31 @@ public:
 
   constexpr void __cordl_internal_set__viewControllersSeparator(float_t value);
 
-  /// @brief Method LayoutViewControllers, addr 0x212abf4, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method LayoutViewControllers, addr 0x21bf4d8, size 0x118, virtual true, abstract: false, final false
   inline void LayoutViewControllers(::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>* viewControllers);
 
-  /// @brief Method PushViewController, addr 0x212b24c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method PushViewController, addr 0x21bfb30, size 0xe0, virtual false, abstract: false, final false
   inline void PushViewController(::HMUI::ViewController* viewController, ::System::Action* finishedCallback, bool immediately);
 
-  /// @brief Method PopViewController, addr 0x212b334, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method PopViewController, addr 0x21bfc18, size 0x14, virtual false, abstract: false, final false
   inline void PopViewController(::System::Action* finishedCallback, bool immediately);
 
-  /// @brief Method PopViewControllers, addr 0x212b348, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method PopViewControllers, addr 0x21bfc2c, size 0x1e8, virtual false, abstract: false, final false
   inline void PopViewControllers(int32_t numberOfViewControllersToPop, ::System::Action* finishedCallback, bool immediately);
 
-  /// @brief Method PositionVector, addr 0x212b22c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method PositionVector, addr 0x21bfb10, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 PositionVector(float_t pos);
 
-  /// @brief Method SetupViewControllerRect, addr 0x212b200, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method SetupViewControllerRect, addr 0x21bfae4, size 0x2c, virtual false, abstract: false, final false
   inline void SetupViewControllerRect(::HMUI::ViewController* viewController);
 
-  /// @brief Method GetNewPositionsForViewControllers, addr 0x212ad0c, size 0x4f4, virtual false, abstract: false, final false
+  /// @brief Method GetNewPositionsForViewControllers, addr 0x21bf5f0, size 0x4f4, virtual false, abstract: false, final false
   inline ::ArrayW<float_t, ::Array<float_t>*> GetNewPositionsForViewControllers(::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>* viewControllers,
                                                                                 ::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>* fixedViewControllers, float_t fixedEndPos);
 
   static inline ::HMUI::NavigationController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x212b5cc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21bfeb0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NavigationController", modifiers: "&&", def_value: None }]

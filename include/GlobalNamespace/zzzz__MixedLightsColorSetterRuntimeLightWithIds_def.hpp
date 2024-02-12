@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MixedLightsColorSetterRuntimeLightWithIds);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14552))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14547))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14446))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14441))
 // CS Name: ::MixedLightsColorSetterRuntimeLightWithIds*
 class CORDL_TYPE MixedLightsColorSetterRuntimeLightWithIds : public ::GlobalNamespace::RuntimeLightWithIds {
 public:
@@ -46,12 +46,12 @@ public:
 
   constexpr void __cordl_internal_set__lightMultiplier(float_t value);
 
-  /// @brief Method ColorWasSet, addr 0x2111e74, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x21a661c, size 0x34, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::MixedLightsColorSetterRuntimeLightWithIds* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2111ea8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21a6650, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MixedLightsColorSetterRuntimeLightWithIds", modifiers: "&&", def_value: None }]

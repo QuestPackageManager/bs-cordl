@@ -44,8 +44,8 @@ MARK_REF_PTR_T(::UnityEngine::UI::__StencilMaterial__MatEntry);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10334)), TypeDefinitionIndex(TypeDefinitionIndex(10335)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10336))] Self: TypeDefinitionIndex(TypeDefinitionIndex(13126)) CS Name: ::StencilMaterial::MatEntry*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9082)), TypeDefinitionIndex(TypeDefinitionIndex(9083)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9084))] Self: TypeDefinitionIndex(TypeDefinitionIndex(13024)) CS Name: ::StencilMaterial::MatEntry*
 class CORDL_TYPE __StencilMaterial__MatEntry : public ::System::Object {
 public:
   // Declarations
@@ -141,7 +141,7 @@ public:
 
   static inline ::UnityEngine::UI::__StencilMaterial__MatEntry* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d8a7c8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2da7bb0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__StencilMaterial__MatEntry", modifiers: "&&", def_value: None }]
@@ -219,7 +219,7 @@ static_assert(offsetof(::UnityEngine::UI::__StencilMaterial__MatEntry, ___colorM
 namespace UnityEngine::UI {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13127))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13025))
 // CS Name: ::UnityEngine.UI::StencilMaterial*
 class CORDL_TYPE StencilMaterial : public ::System::Object {
 public:
@@ -233,25 +233,25 @@ public:
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::UI::__StencilMaterial__MatEntry*>* getStaticF_m_List();
 
-  /// @brief Method Add, addr 0x2d89da4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x2da718c, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> Add(::UnityEngine::Material* baseMat, int32_t stencilID);
 
-  /// @brief Method Add, addr 0x2d89dac, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x2da7194, size 0x8c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> Add(::UnityEngine::Material* baseMat, int32_t stencilID, ::UnityEngine::Rendering::StencilOp operation,
                                                       ::UnityEngine::Rendering::CompareFunction compareFunction, ::UnityEngine::Rendering::ColorWriteMask colorWriteMask);
 
-  /// @brief Method LogWarningWhenNotInBatchmode, addr 0x2d8a750, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method LogWarningWhenNotInBatchmode, addr 0x2da7b38, size 0x78, virtual false, abstract: false, final false
   static inline void LogWarningWhenNotInBatchmode(::StringW warning, ::UnityEngine::Object* context);
 
-  /// @brief Method Add, addr 0x2d89e38, size 0x918, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x2da7220, size 0x918, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> Add(::UnityEngine::Material* baseMat, int32_t stencilID, ::UnityEngine::Rendering::StencilOp operation,
                                                       ::UnityEngine::Rendering::CompareFunction compareFunction, ::UnityEngine::Rendering::ColorWriteMask colorWriteMask, int32_t readMask,
                                                       int32_t writeMask);
 
-  /// @brief Method Remove, addr 0x2d8a7d8, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x2da7bc0, size 0x1c0, virtual false, abstract: false, final false
   static inline void Remove(::UnityEngine::Material* customMat);
 
-  /// @brief Method ClearAll, addr 0x2d8a998, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method ClearAll, addr 0x2da7d80, size 0x11c, virtual false, abstract: false, final false
   static inline void ClearAll();
 
   // Ctor Parameters [CppParam { name: "", ty: "StencilMaterial", modifiers: "&&", def_value: None }]

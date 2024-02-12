@@ -26,17 +26,17 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Cms::CmsException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x11d8230, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12060c0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Cms::CmsException* New_ctor(::StringW msg);
 
-  /// @brief Method .ctor, addr 0x11d8288, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1206118, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW msg);
 
   static inline ::Org::BouncyCastle::Cms::CmsException* New_ctor(::StringW msg, ::System::Exception* e);
 
-  /// @brief Method .ctor, addr 0x11d82f0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1206180, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW msg, ::System::Exception* e);
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsException", modifiers: "&&", def_value: None }]

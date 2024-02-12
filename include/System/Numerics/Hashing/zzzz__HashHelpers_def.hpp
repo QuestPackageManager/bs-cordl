@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::System::Numerics::Hashing::HashHelpers);
 namespace System::Numerics::Hashing {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3555))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3551))
 // CS Name: ::System.Numerics.Hashing::HashHelpers*
 class CORDL_TYPE HashHelpers : public ::System::Object {
 public:
@@ -28,7 +28,7 @@ public:
 
   static inline int32_t getStaticF_RandomSeed();
 
-  /// @brief Method Combine, addr 0x24fbef8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Combine, addr 0x251af8c, size 0x10, virtual false, abstract: false, final false
   static inline int32_t Combine(int32_t h1, int32_t h2);
 
   // Ctor Parameters [CppParam { name: "", ty: "HashHelpers", modifiers: "&&", def_value: None }]

@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BakedLightDataLoader);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5851))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5141))
 // CS Name: ::BakedLightDataLoader*
 class CORDL_TYPE BakedLightDataLoader : public ::UnityEngine::MonoBehaviour {
 public:
@@ -61,21 +61,21 @@ public:
 
   static inline int32_t getStaticF__lightMap2PropertyId();
 
-  /// @brief Method get_lightmapData, addr 0x22f570c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightmapData, addr 0x23220ac, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::LightmapDataSO> get_lightmapData();
 
-  /// @brief Method set_lightmapData, addr 0x22f5714, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lightmapData, addr 0x23220b4, size 0x8, virtual false, abstract: false, final false
   inline void set_lightmapData(::GlobalNamespace::LightmapDataSO* value);
 
-  /// @brief Method Start, addr 0x22f571c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x23220bc, size 0xb8, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method SetTextureDataToShaders, addr 0x22f57d4, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method SetTextureDataToShaders, addr 0x2322174, size 0x13c, virtual false, abstract: false, final false
   inline void SetTextureDataToShaders();
 
   static inline ::GlobalNamespace::BakedLightDataLoader* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22f5910, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23222b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BakedLightDataLoader", modifiers: "&&", def_value: None }]

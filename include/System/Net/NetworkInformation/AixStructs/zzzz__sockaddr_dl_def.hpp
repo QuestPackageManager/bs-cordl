@@ -17,12 +17,12 @@ MARK_VAL_T(::System::Net::NetworkInformation::AixStructs::sockaddr_dl);
 namespace System::Net::NetworkInformation::AixStructs {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9311))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7321))
 // CS Name: ::System.Net.NetworkInformation.AixStructs::sockaddr_dl
 struct CORDL_TYPE sockaddr_dl {
 public:
   // Declarations
-  /// @brief Method Read, addr 0x29ed5e8, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method Read, addr 0x29f208c, size 0x190, virtual false, abstract: false, final false
   inline void Read(void* ptr);
 
   // Ctor Parameters [CppParam { name: "sdl_len", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "sdl_family", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name:

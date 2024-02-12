@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension::*)(
     ::Mono::Security::X509::X509Extension*)>(&::Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x23fe310;
+  constexpr static std::size_t addrs = 0x241e170;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension::*)()>(
     &::Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension::Decode)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x23fe314;
+  constexpr static std::size_t addrs = 0x241e174;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension::*)()>(
     &::Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension::Encode)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x23fe42c;
+  constexpr static std::size_t addrs = 0x241e28c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension::*)()>(
     &::Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension::get_Identifier)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x23fe550;
+  constexpr static std::size_t addrs = 0x241e3b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension::*)()>(
     &::Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension::ToString)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x23fe5c4;
+  constexpr static std::size_t addrs = 0x241e424;
 
   inline static ::MethodInfo const* methodInfo() {
 

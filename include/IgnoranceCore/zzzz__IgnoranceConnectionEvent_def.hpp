@@ -17,7 +17,7 @@ MARK_VAL_T(::IgnoranceCore::IgnoranceConnectionEvent);
 namespace IgnoranceCore {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15247))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15360))
 // CS Name: ::IgnoranceCore::IgnoranceConnectionEvent
 struct CORDL_TYPE IgnoranceConnectionEvent {
 public:

@@ -37,32 +37,32 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Spline);
 namespace UnityEngine::ProBuilder {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12205))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12103))
 // CS Name: ::UnityEngine.ProBuilder::Spline*
 class CORDL_TYPE Spline : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Extrude, addr 0x2b7978c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Extrude, addr 0x2b782f8, size 0x24, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> Extrude(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::BezierPoint>* points, float_t radius, int32_t columns,
                                                                             int32_t rows, bool closeLoop, bool smooth);
 
-  /// @brief Method Extrude, addr 0x2b797b0, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method Extrude, addr 0x2b7831c, size 0xd8, virtual false, abstract: false, final false
   static inline void Extrude(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::BezierPoint>* bezierPoints, float_t radius, int32_t columns, int32_t rows, bool closeLoop, bool smooth,
                              ByRef<::UnityEngine::ProBuilder::ProBuilderMesh*> target);
 
-  /// @brief Method GetControlPoints, addr 0x2b79888, size 0x520, virtual false, abstract: false, final false
+  /// @brief Method GetControlPoints, addr 0x2b783f4, size 0x520, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* GetControlPoints(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::BezierPoint>* bezierPoints,
                                                                                                  int32_t subdivisionsPerSegment, bool closeLoop,
                                                                                                  ::System::Collections::Generic::List_1<::UnityEngine::Quaternion>* rotations);
 
-  /// @brief Method Extrude, addr 0x2b79da8, size 0x95c, virtual false, abstract: false, final false
+  /// @brief Method Extrude, addr 0x2b78914, size 0x95c, virtual false, abstract: false, final false
   static inline void Extrude(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* points, float_t radius, int32_t radiusRows, bool closeLoop, bool smooth,
                              ByRef<::UnityEngine::ProBuilder::ProBuilderMesh*> target, ::System::Collections::Generic::IList_1<::UnityEngine::Quaternion>* pointRotations);
 
-  /// @brief Method GetRingRotation, addr 0x2b7a704, size 0x890, virtual false, abstract: false, final false
+  /// @brief Method GetRingRotation, addr 0x2b79270, size 0x890, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion GetRingRotation(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* points, int32_t i, bool closeLoop, ByRef<float_t> secant);
 
-  /// @brief Method VertexRing, addr 0x2b7af94, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method VertexRing, addr 0x2b79b00, size 0x1f0, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> VertexRing(::UnityEngine::Quaternion orientation, ::UnityEngine::Vector3 offset, float_t radius, int32_t segments);
 
   // Ctor Parameters [CppParam { name: "", ty: "Spline", modifiers: "&&", def_value: None }]

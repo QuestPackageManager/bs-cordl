@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::GlobalNamespace::GuestNameButtonsListItemsList);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5531)), TypeDefinitionIndex(TypeDefinitionIndex(13674)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13674), inst:
-// 5217 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5532)) CS Name: ::GuestNameButtonsListItemsList*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4837)), TypeDefinitionIndex(TypeDefinitionIndex(13627)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13627), inst:
+// 5197 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4838)) CS Name: ::GuestNameButtonsListItemsList*
 class CORDL_TYPE GuestNameButtonsListItemsList : public ::HMUI::UIItemsList_1<::UnityW<::GlobalNamespace::GuestNameButtonsListItem>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::GuestNameButtonsListItemsList* New_ctor();
 
-  /// @brief Method .ctor, addr 0x229e624, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23f8ea8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GuestNameButtonsListItemsList", modifiers: "&&", def_value: None }]

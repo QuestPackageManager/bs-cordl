@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::GameObject*, ::UnityEngine::GameObject*, ByRef<bool>, ::StringW, ::StringW, ::StringW,
                                                                                            ::StringW, ::StringW)>(&::HoudiniEngineUnity::HEU_TestHelpers::AssertTrueLogEquivalent)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x21e13ac;
+  constexpr static std::size_t addrs = 0x2276c94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::StringW, ByRef<bool>, ::StringW, ::StringW, ::StringW, ::StringW, ::StringW)>(
     &::HoudiniEngineUnity::HEU_TestHelpers::AssertTrueLogEquivalent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x21e2030;
+  constexpr static std::size_t addrs = 0x2277918;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -71,7 +71,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::ArrayW<::StringW, ::Array<::StringW>*>, ::ArrayW<::StringW, ::Array<::StringW>*>, ByRef<bool>, ::StringW, ::StringW, ::StringW, ::StringW, ::StringW)>(
         &::HoudiniEngineUnity::HEU_TestHelpers::AssertTrueLogEquivalent)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x21e2120;
+  constexpr static std::size_t addrs = 0x2277a08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, ByRef<bool>, ::StringW, ::StringW, ::StringW, ::StringW, ::StringW)>(
     &::HoudiniEngineUnity::HEU_TestHelpers::PrintTestLogAndSetResult)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x21e1ed0;
+  constexpr static std::size_t addrs = 0x22777b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::GameObject*, ::UnityEngine::GameObject*, ByRef<bool>, ::StringW, ::StringW)>(
     &::HoudiniEngineUnity::HEU_TestHelpers::ShouldBeTested)> {
   constexpr static std::size_t size = 0x35c;
-  constexpr static std::size_t addrs = 0x21e14c0;
+  constexpr static std::size_t addrs = 0x2276da8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::StringW, ByRef<bool>, ::StringW, ::StringW)>(
     &::HoudiniEngineUnity::HEU_TestHelpers::ShouldBeTested)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x21e20cc;
+  constexpr static std::size_t addrs = 0x22779b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::GameObject*, ::UnityEngine::GameObject*)>(
     &::HoudiniEngineUnity::HEU_TestHelpers::TestOutputObjectEquivalence)> {
   constexpr static std::size_t size = 0x6b4;
-  constexpr static std::size_t addrs = 0x21e181c;
+  constexpr static std::size_t addrs = 0x2277104;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_TestHelpers::*)()>(&::HoudiniEngineUnity::HEU_TestHelpers::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x21e24b8;
+  constexpr static std::size_t addrs = 0x2277da0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_TestHelpers*>::get(), ".ctor",

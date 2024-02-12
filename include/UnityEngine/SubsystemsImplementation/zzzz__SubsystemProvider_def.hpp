@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::UnityEngine::SubsystemsImplementation::SubsystemProvider);
 namespace UnityEngine::SubsystemsImplementation {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15974))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16097))
 // CS Name: ::UnityEngine.SubsystemsImplementation::SubsystemProvider*
 class CORDL_TYPE SubsystemProvider : public ::System::Object {
 public:

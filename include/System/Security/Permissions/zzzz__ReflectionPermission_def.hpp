@@ -43,25 +43,25 @@ public:
 
   static inline ::System::Security::Permissions::ReflectionPermission* New_ctor(::System::Security::Permissions::ReflectionPermissionFlag flag);
 
-  /// @brief Method .ctor, addr 0x2456ab4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2477918, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Permissions::ReflectionPermissionFlag flag);
 
-  /// @brief Method get_Flags, addr 0x2456b98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Flags, addr 0x24779fc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Permissions::ReflectionPermissionFlag get_Flags();
 
-  /// @brief Method set_Flags, addr 0x2456ae0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method set_Flags, addr 0x2477944, size 0xb8, virtual false, abstract: false, final false
   inline void set_Flags(::System::Security::Permissions::ReflectionPermissionFlag value);
 
-  /// @brief Method IsSubsetOf, addr 0x2456ba0, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method IsSubsetOf, addr 0x2477a04, size 0x50, virtual true, abstract: false, final false
   inline bool IsSubsetOf(::System::Security::IPermission* target);
 
-  /// @brief Method IsUnrestricted, addr 0x2456c94, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method IsUnrestricted, addr 0x2477af8, size 0x10, virtual true, abstract: false, final true
   inline bool IsUnrestricted();
 
-  /// @brief Method ToXml, addr 0x2456ca4, size 0x1e8, virtual true, abstract: false, final false
+  /// @brief Method ToXml, addr 0x2477b08, size 0x1e8, virtual true, abstract: false, final false
   inline ::System::Security::SecurityElement* ToXml();
 
-  /// @brief Method Cast, addr 0x2456bf0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Cast, addr 0x2477a54, size 0xa4, virtual false, abstract: false, final false
   inline ::System::Security::Permissions::ReflectionPermission* Cast(::System::Security::IPermission* target);
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectionPermission", modifiers: "&&", def_value: None }]

@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SaberTypeObject);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15036))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5301))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(14909))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4641))
 // CS Name: ::SaberTypeObject*
 class CORDL_TYPE SaberTypeObject : public ::UnityEngine::MonoBehaviour {
 public:
@@ -35,12 +35,12 @@ public:
 
   constexpr void __cordl_internal_set__saberType(::GlobalNamespace::SaberType value);
 
-  /// @brief Method get_saberType, addr 0x2264798, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_saberType, addr 0x23c3600, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SaberType get_saberType();
 
   static inline ::GlobalNamespace::SaberTypeObject* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22647a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c3608, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SaberTypeObject", modifiers: "&&", def_value: None }]

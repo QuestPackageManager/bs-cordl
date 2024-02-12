@@ -30,15 +30,15 @@ MARK_REF_PTR_T(::Zenject::ArgConditionCopyNonLazyBinder);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10924))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10669))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10066))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9811))
 // CS Name: ::Zenject::ArgConditionCopyNonLazyBinder*
 class CORDL_TYPE ArgConditionCopyNonLazyBinder : public ::Zenject::InstantiateCallbackConditionCopyNonLazyBinder {
 public:
   // Declarations
   static inline ::Zenject::ArgConditionCopyNonLazyBinder* New_ctor(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method .ctor, addr 0x2ec672c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ee2874, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo);
 
   /// @brief Method WithArguments, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -62,10 +62,10 @@ public:
   template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6>
   inline ::Zenject::InstantiateCallbackConditionCopyNonLazyBinder* WithArguments(TParam1 param1, TParam2 param2, TParam3 param3, TParam4 param4, TParam5 param5, TParam6 param6);
 
-  /// @brief Method WithArguments, addr 0x2ec6734, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method WithArguments, addr 0x2ee287c, size 0x18c, virtual false, abstract: false, final false
   inline ::Zenject::InstantiateCallbackConditionCopyNonLazyBinder* WithArguments(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method WithArgumentsExplicit, addr 0x2ec68c0, size 0x3a8, virtual false, abstract: false, final false
+  /// @brief Method WithArgumentsExplicit, addr 0x2ee2a08, size 0x3a8, virtual false, abstract: false, final false
   inline ::Zenject::InstantiateCallbackConditionCopyNonLazyBinder* WithArgumentsExplicit(::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>* extraArgs);
 
   // Ctor Parameters [CppParam { name: "", ty: "ArgConditionCopyNonLazyBinder", modifiers: "&&", def_value: None }]

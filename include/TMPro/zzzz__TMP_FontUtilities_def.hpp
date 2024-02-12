@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::TMPro::TMP_FontUtilities);
 namespace TMPro {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12369))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12267))
 // CS Name: ::TMPro::TMP_FontUtilities*
 class CORDL_TYPE TMP_FontUtilities : public ::System::Object {
 public:
@@ -38,17 +38,17 @@ public:
 
   static inline ::System::Collections::Generic::List_1<int32_t>* getStaticF_k_searchedFontAssets();
 
-  /// @brief Method SearchForCharacter, addr 0x2c10f64, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method SearchForCharacter, addr 0x2c0dad0, size 0xe4, virtual false, abstract: false, final false
   static inline ::UnityW<::TMPro::TMP_FontAsset> SearchForCharacter(::TMPro::TMP_FontAsset* font, uint32_t unicode, ByRef<::TMPro::TMP_Character*> character);
 
-  /// @brief Method SearchForCharacter, addr 0x2c112d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SearchForCharacter, addr 0x2c0de44, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityW<::TMPro::TMP_FontAsset> SearchForCharacter(::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>* fonts, uint32_t unicode,
                                                                     ByRef<::TMPro::TMP_Character*> character);
 
-  /// @brief Method SearchForCharacterInternal, addr 0x2c11048, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method SearchForCharacterInternal, addr 0x2c0dbb4, size 0x290, virtual false, abstract: false, final false
   static inline ::UnityW<::TMPro::TMP_FontAsset> SearchForCharacterInternal(::TMPro::TMP_FontAsset* font, uint32_t unicode, ByRef<::TMPro::TMP_Character*> character);
 
-  /// @brief Method SearchForCharacterInternal, addr 0x2c112dc, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method SearchForCharacterInternal, addr 0x2c0de48, size 0xf0, virtual false, abstract: false, final false
   static inline ::UnityW<::TMPro::TMP_FontAsset> SearchForCharacterInternal(::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>* fonts, uint32_t unicode,
                                                                             ByRef<::TMPro::TMP_Character*> character);
 

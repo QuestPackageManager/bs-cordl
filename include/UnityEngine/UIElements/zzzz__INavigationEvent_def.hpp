@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::INavigationEvent);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7247))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6506))
 // CS Name: ::UnityEngine.UIElements::INavigationEvent*
 class CORDL_TYPE INavigationEvent {
 public:

@@ -60,29 +60,29 @@ public:
 
   constexpr void __cordl_internal_set_id(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method GetInstance, addr 0xf82530, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xfad3c0, size 0x1ec, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::ResponderID* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::ResponderID* New_ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* id);
 
-  /// @brief Method .ctor, addr 0xf8271c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfad5ac, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* id);
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::ResponderID* New_ctor(::Org::BouncyCastle::Asn1::X509::X509Name* id);
 
-  /// @brief Method .ctor, addr 0xf82794, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfad624, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::X509Name* id);
 
-  /// @brief Method GetInstance, addr 0xf8280c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xfad69c, size 0x1c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::ResponderID* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-  /// @brief Method GetKeyHash, addr 0xf82828, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method GetKeyHash, addr 0xfad6b8, size 0x88, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetKeyHash();
 
-  /// @brief Method get_Name, addr 0xf828b0, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0xfad740, size 0xb0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Name* get_Name();
 
-  /// @brief Method ToAsn1Object, addr 0xf82960, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xfad7f0, size 0xc0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "ResponderID", modifiers: "&&", def_value: None }]

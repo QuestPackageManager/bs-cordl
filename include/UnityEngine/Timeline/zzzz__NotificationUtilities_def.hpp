@@ -37,17 +37,17 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::NotificationUtilities);
 namespace UnityEngine::Timeline {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13935))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13888))
 // CS Name: ::UnityEngine.Timeline::NotificationUtilities*
 class CORDL_TYPE NotificationUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateNotificationsPlayable, addr 0x2c70db0, size 0x6e0, virtual false, abstract: false, final false
+  /// @brief Method CreateNotificationsPlayable, addr 0x2c6d91c, size 0x6e0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::TimeNotificationBehaviour*>
   CreateNotificationsPlayable(::UnityEngine::Playables::PlayableGraph graph, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::IMarker*>* markers, double_t duration,
                               ::UnityEngine::Playables::DirectorWrapMode extrapolationMode);
 
-  /// @brief Method TrackTypeSupportsNotifications, addr 0x2c71490, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method TrackTypeSupportsNotifications, addr 0x2c6dffc, size 0x18c, virtual false, abstract: false, final false
   static inline bool TrackTypeSupportsNotifications(::System::Type* type);
 
   // Ctor Parameters [CppParam { name: "", ty: "NotificationUtilities", modifiers: "&&", def_value: None }]

@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MockPlayerLobbyPoseGenerator);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15522))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15708))
 // CS Name: ::MockPlayerLobbyPoseGenerator*
 class CORDL_TYPE MockPlayerLobbyPoseGenerator : public ::System::Object {
 public:
@@ -57,10 +57,10 @@ public:
 
   static inline ::GlobalNamespace::MockPlayerLobbyPoseGenerator* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager);
 
-  /// @brief Method .ctor, addr 0x23ebde0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x240bc40, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager);
 
-  /// @brief Method Dispose, addr 0x23ebe5c, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x240bcbc, size 0x10, virtual true, abstract: false, final false
   inline void Dispose();
 
   /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

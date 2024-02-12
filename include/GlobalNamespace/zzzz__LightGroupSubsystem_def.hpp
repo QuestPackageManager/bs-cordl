@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::GlobalNamespace::LightGroupSubsystem);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4935))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4289))
 // CS Name: ::LightGroupSubsystem*
 class CORDL_TYPE LightGroupSubsystem : public ::UnityEngine::MonoBehaviour {
 public:
@@ -37,18 +37,18 @@ public:
 
   constexpr void __cordl_internal_set__lightGroup(::UnityW<::GlobalNamespace::LightGroup> value);
 
-  /// @brief Method get_groupId, addr 0x23a5f78, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_groupId, addr 0x23660b0, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_groupId();
 
-  /// @brief Method get_lightGroup, addr 0x23a99a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightGroup, addr 0x2369adc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::LightGroup> get_lightGroup();
 
-  /// @brief Method OnEnable, addr 0x23a99b0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x2369ae4, size 0x60, virtual false, abstract: false, final false
   inline void OnEnable();
 
   static inline ::GlobalNamespace::LightGroupSubsystem* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23a5818, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2365950, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LightGroupSubsystem", modifiers: "&&", def_value: None }]

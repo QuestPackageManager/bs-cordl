@@ -38,30 +38,30 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::IFormatterConverter"
   constexpr ::System::Runtime::Serialization::IFormatterConverter* i___System__Runtime__Serialization__IFormatterConverter() noexcept;
 
-  /// @brief Method Convert, addr 0x24b4a90, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method Convert, addr 0x24d5b04, size 0xa0, virtual true, abstract: false, final true
   inline ::System::Object* Convert(::System::Object* value, ::System::Type* type);
 
-  /// @brief Method ToBoolean, addr 0x24b4b80, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method ToBoolean, addr 0x24d5bf4, size 0x98, virtual true, abstract: false, final true
   inline bool ToBoolean(::System::Object* value);
 
-  /// @brief Method ToInt32, addr 0x24b4c18, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method ToInt32, addr 0x24d5c8c, size 0x98, virtual true, abstract: false, final true
   inline int32_t ToInt32(::System::Object* value);
 
-  /// @brief Method ToInt64, addr 0x24b4cb0, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method ToInt64, addr 0x24d5d24, size 0x98, virtual true, abstract: false, final true
   inline int64_t ToInt64(::System::Object* value);
 
-  /// @brief Method ToSingle, addr 0x24b4d48, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method ToSingle, addr 0x24d5dbc, size 0x98, virtual true, abstract: false, final true
   inline float_t ToSingle(::System::Object* value);
 
-  /// @brief Method ToString, addr 0x24b4de0, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method ToString, addr 0x24d5e54, size 0x98, virtual true, abstract: false, final true
   inline ::StringW ToString(::System::Object* value);
 
-  /// @brief Method ThrowValueNullException, addr 0x24b4b30, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ThrowValueNullException, addr 0x24d5ba4, size 0x50, virtual false, abstract: false, final false
   static inline void ThrowValueNullException();
 
   static inline ::System::Runtime::Serialization::FormatterConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24b4e78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24d5eec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FormatterConverter", modifiers: "&&", def_value: None }]

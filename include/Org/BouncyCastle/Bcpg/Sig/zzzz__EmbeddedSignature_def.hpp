@@ -24,7 +24,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Bcpg::Sig::EmbeddedSignature* New_ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0x11c7418, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11f52a8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
   // Ctor Parameters [CppParam { name: "", ty: "EmbeddedSignature", modifiers: "&&", def_value: None }]

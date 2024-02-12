@@ -20,10 +20,10 @@ namespace System::Security {
 class CORDL_TYPE SecurityManager : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_SecurityEnabled, addr 0x2451158, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SecurityEnabled, addr 0x2471fbc, size 0x8, virtual false, abstract: false, final false
   static inline bool get_SecurityEnabled();
 
-  /// @brief Method EnsureElevatedPermissions, addr 0x24548a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method EnsureElevatedPermissions, addr 0x247570c, size 0x4, virtual false, abstract: false, final false
   static inline void EnsureElevatedPermissions();
 
   // Ctor Parameters [CppParam { name: "", ty: "SecurityManager", modifiers: "&&", def_value: None }]

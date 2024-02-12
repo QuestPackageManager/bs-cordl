@@ -16,15 +16,15 @@ MARK_REF_PTR_T(::System::Xml::XmlComplianceUtil);
 namespace System::Xml {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11545))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11443))
 // CS Name: ::System.Xml::XmlComplianceUtil*
 class CORDL_TYPE XmlComplianceUtil : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method NonCDataNormalize, addr 0x289df68, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method NonCDataNormalize, addr 0x28a15d0, size 0x270, virtual false, abstract: false, final false
   static inline ::StringW NonCDataNormalize(::StringW value);
 
-  /// @brief Method CDataNormalize, addr 0x289e1e0, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method CDataNormalize, addr 0x28a1848, size 0x1e4, virtual false, abstract: false, final false
   static inline ::StringW CDataNormalize(::StringW value);
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlComplianceUtil", modifiers: "&&", def_value: None }]

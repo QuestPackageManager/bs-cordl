@@ -52,8 +52,8 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRBody);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7679)), TypeDefinitionIndex(TypeDefinitionIndex(7786)), TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7526))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7733)), TypeDefinitionIndex(TypeDefinitionIndex(7837)), TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7606))
 // CS Name: ::OVRBody*
 class CORDL_TYPE OVRBody : public ::UnityEngine::MonoBehaviour {
 public:
@@ -135,48 +135,48 @@ public:
 
   static inline int32_t getStaticF__trackingInstanceCount();
 
-  /// @brief Method get_BodyState, addr 0x271554c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_BodyState, addr 0x274313c, size 0x88, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::GlobalNamespace::__OVRPlugin__BodyState> get_BodyState();
 
-  /// @brief Method Awake, addr 0x27155d4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x27431c4, size 0x7c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnEnable, addr 0x2715650, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x2743240, size 0x114, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnPermissionGranted, addr 0x27158c0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method OnPermissionGranted, addr 0x27434b0, size 0x60, virtual false, abstract: false, final false
   inline void OnPermissionGranted(::StringW permissionId);
 
-  /// @brief Method StartBodyTracking, addr 0x2715764, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method StartBodyTracking, addr 0x2743354, size 0xd8, virtual false, abstract: false, final false
   inline bool StartBodyTracking();
 
-  /// @brief Method OnDisable, addr 0x2715920, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x2743510, size 0x88, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnDestroy, addr 0x27159a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2743598, size 0xc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Update, addr 0x27159b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x27435a4, size 0x8, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method GetBodyState, addr 0x271583c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetBodyState, addr 0x274342c, size 0x84, virtual false, abstract: false, final false
   inline void GetBodyState(::GlobalNamespace::__OVRPlugin__Step step);
 
-  /// @brief Method OVRSkeleton.IOVRSkeletonDataProvider.GetSkeletonType, addr 0x27159bc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method OVRSkeleton.IOVRSkeletonDataProvider.GetSkeletonType, addr 0x27435ac, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::__OVRSkeleton__SkeletonType OVRSkeleton_IOVRSkeletonDataProvider_GetSkeletonType();
 
-  /// @brief Method OVRSkeleton.IOVRSkeletonDataProvider.GetSkeletonPoseData, addr 0x27159c4, size 0x250, virtual true, abstract: false, final true
+  /// @brief Method OVRSkeleton.IOVRSkeletonDataProvider.GetSkeletonPoseData, addr 0x27435b4, size 0x250, virtual true, abstract: false, final true
   inline ::GlobalNamespace::__OVRSkeleton__SkeletonPoseData OVRSkeleton_IOVRSkeletonDataProvider_GetSkeletonPoseData();
 
-  /// @brief Method OVRSkeletonRenderer.IOVRSkeletonRendererDataProvider.GetSkeletonRendererData, addr 0x2715c14, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method OVRSkeletonRenderer.IOVRSkeletonRendererDataProvider.GetSkeletonRendererData, addr 0x2743804, size 0x18, virtual true, abstract: false, final true
   inline ::GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData OVRSkeletonRenderer_IOVRSkeletonRendererDataProvider_GetSkeletonRendererData();
 
   static inline ::GlobalNamespace::OVRBody* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2715c2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x274381c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method OVRSkeleton.IOVRSkeletonDataProvider.get_enabled, addr 0x2715c34, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method OVRSkeleton.IOVRSkeletonDataProvider.get_enabled, addr 0x2743824, size 0x8, virtual true, abstract: false, final true
   inline bool OVRSkeleton_IOVRSkeletonDataProvider_get_enabled();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRBody", modifiers: "&&", def_value: None }]

@@ -55,7 +55,7 @@ namespace System::Collections::ObjectModel {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3815))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3814))
 // CS Name: ::System.Collections.ObjectModel::ReadOnlyCollection`1<T>*
 class CORDL_TYPE ReadOnlyCollection_1 : public ::System::Object {
 public:

@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::WaitUntil::*)()>(&::UnityEngine::WaitUntil::get_keepWaiting)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x2ccef78;
+  constexpr static std::size_t addrs = 0x2cd5ffc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::WaitUntil::*)(::System::Func_1<bool>*)>(&::UnityEngine::WaitUntil::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2ccefa8;
+  constexpr static std::size_t addrs = 0x2cd602c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

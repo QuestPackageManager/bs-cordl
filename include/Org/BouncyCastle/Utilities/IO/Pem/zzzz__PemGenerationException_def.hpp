@@ -26,17 +26,17 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Utilities::IO::Pem::PemGenerationException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x115f7cc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x118d65c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Utilities::IO::Pem::PemGenerationException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x115f824, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x118d6b4, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::Org::BouncyCastle::Utilities::IO::Pem::PemGenerationException* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor, addr 0x115f88c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x118d71c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
   // Ctor Parameters [CppParam { name: "", ty: "PemGenerationException", modifiers: "&&", def_value: None }]

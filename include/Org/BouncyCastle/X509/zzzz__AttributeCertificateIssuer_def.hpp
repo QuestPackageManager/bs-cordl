@@ -69,36 +69,36 @@ public:
 
   static inline ::Org::BouncyCastle::X509::AttributeCertificateIssuer* New_ctor(::Org::BouncyCastle::Asn1::X509::AttCertIssuer* issuer);
 
-  /// @brief Method .ctor, addr 0x11740e0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11a2f70, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AttCertIssuer* issuer);
 
   static inline ::Org::BouncyCastle::X509::AttributeCertificateIssuer* New_ctor(::Org::BouncyCastle::Asn1::X509::X509Name* principal);
 
-  /// @brief Method .ctor, addr 0x1174114, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11a2fa4, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::X509Name* principal);
 
-  /// @brief Method GetNames, addr 0x11741f0, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method GetNames, addr 0x11a3080, size 0x1fc, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetNames();
 
-  /// @brief Method GetPrincipals, addr 0x11743ec, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method GetPrincipals, addr 0x11a327c, size 0x1c0, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::X509Name*, ::Array<::Org::BouncyCastle::Asn1::X509::X509Name*>*> GetPrincipals();
 
-  /// @brief Method MatchesDN, addr 0x11745ac, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method MatchesDN, addr 0x11a343c, size 0x180, virtual false, abstract: false, final false
   inline bool MatchesDN(::Org::BouncyCastle::Asn1::X509::X509Name* subject, ::Org::BouncyCastle::Asn1::X509::GeneralNames* targets);
 
-  /// @brief Method Clone, addr 0x117472c, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method Clone, addr 0x11a35bc, size 0x80, virtual true, abstract: false, final true
   inline ::System::Object* Clone();
 
-  /// @brief Method Match, addr 0x11747ac, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Match, addr 0x11a363c, size 0x18c, virtual false, abstract: false, final false
   inline bool Match(::Org::BouncyCastle::X509::X509Certificate* x509Cert);
 
-  /// @brief Method Equals, addr 0x1174938, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x11a37c8, size 0xa8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x11749e0, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x11a3870, size 0x1c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Match, addr 0x11749fc, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method Match, addr 0x11a388c, size 0x8c, virtual true, abstract: false, final true
   inline bool Match(::System::Object* obj);
 
   // Ctor Parameters [CppParam { name: "", ty: "AttributeCertificateIssuer", modifiers: "&&", def_value: None }]

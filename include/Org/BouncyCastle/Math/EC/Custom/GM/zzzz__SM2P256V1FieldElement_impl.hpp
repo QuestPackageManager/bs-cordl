@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1FieldElement::*)(::Org::BouncyCastle::Math::BigInteger*)>(
     &::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1FieldElement::_ctor)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0xfd2718;
+  constexpr static std::size_t addrs = 0xfff5a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1FieldElement::*)()>(
     &::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1FieldElement::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0xfd4540;
+  constexpr static std::size_t addrs = 0x10013d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1FieldElement::*)(::ArrayW<uint32_t, ::Array<uint32_t>*>)>(
     &::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1FieldElement::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0xfd2d34;
+  constexpr static std::size_t addrs = 0xfffbc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1FieldElement::*)()>(
     &::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1FieldElement::get_IsZero)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0xfd4564;
+  constexpr static std::size_t addrs = 0x10013f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1FieldElement::*)()>(
     &::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1FieldElement::get_IsOne)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0xfd4570;
+  constexpr static std::size_t addrs = 0x1001400;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1FieldElement::*)()>(
     &::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1FieldElement::TestBitZero)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0xfd457c;
+  constexpr static std::size_t addrs = 0x100140c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1FieldElement::*)()>(
     &::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1FieldElement::ToBigInteger)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0xfd45a0;
+  constexpr static std::size_t addrs = 0x1001430;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1FieldElement::*)()>(
     &::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1FieldElement::get_FieldName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0xfd45ac;
+  constexpr static std::size_t addrs = 0x100143c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1FieldElement::*)()>(
     &::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1FieldElement::get_FieldSize)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0xfd45ec;
+  constexpr static std::size_t addrs = 0x100147c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECFieldElement* (
     ::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1FieldElement::*)(::Org::BouncyCastle::Math::EC::ECFieldElement*)>(&::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1FieldElement::Add)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0xfd4650;
+  constexpr static std::size_t addrs = 0x10014e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECFieldElement* (
     ::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1FieldElement::*)()>(&::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1FieldElement::AddOne)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0xfd4740;
+  constexpr static std::size_t addrs = 0x10015d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -184,7 +184,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Math::EC::ECFieldElement* (::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1FieldElement::*)(::Org::BouncyCastle::Math::EC::ECFieldElement*)>(
         &::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1FieldElement::Subtract)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0xfd47e8;
+  constexpr static std::size_t addrs = 0x1001678;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -201,7 +201,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Math::EC::ECFieldElement* (::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1FieldElement::*)(::Org::BouncyCastle::Math::EC::ECFieldElement*)>(
         &::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1FieldElement::Multiply)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0xfd48d8;
+  constexpr static std::size_t addrs = 0x1001768;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -217,7 +217,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECFieldElement* (
     ::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1FieldElement::*)(::Org::BouncyCastle::Math::EC::ECFieldElement*)>(&::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1FieldElement::Divide)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0xfd49c8;
+  constexpr static std::size_t addrs = 0x1001858;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -233,7 +233,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECFieldElement* (
     ::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1FieldElement::*)()>(&::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1FieldElement::Negate)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0xfd4ac0;
+  constexpr static std::size_t addrs = 0x1001950;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -249,7 +249,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECFieldElement* (
     ::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1FieldElement::*)()>(&::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1FieldElement::Square)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0xfd4b68;
+  constexpr static std::size_t addrs = 0x10019f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -265,7 +265,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECFieldElement* (
     ::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1FieldElement::*)()>(&::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1FieldElement::Invert)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0xfd4c10;
+  constexpr static std::size_t addrs = 0x1001aa0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -281,7 +281,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECFieldElement* (
     ::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1FieldElement::*)()>(&::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1FieldElement::Sqrt)> {
   constexpr static std::size_t size = 0x294;
-  constexpr static std::size_t addrs = 0xfd4cb8;
+  constexpr static std::size_t addrs = 0x1001b48;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -297,7 +297,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1FieldElement::*)(::System::Object*)>(
     &::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1FieldElement::Equals)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0xfd4f4c;
+  constexpr static std::size_t addrs = 0x1001ddc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -313,7 +313,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1FieldElement::*)(
     ::Org::BouncyCastle::Math::EC::ECFieldElement*)>(&::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1FieldElement::Equals)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0xfd4fd8;
+  constexpr static std::size_t addrs = 0x1001e68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -329,7 +329,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1FieldElement::*)(
     ::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1FieldElement*)>(&::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1FieldElement::Equals)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0xfd5064;
+  constexpr static std::size_t addrs = 0x1001ef4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -345,7 +345,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1FieldElement::*)()>(
     &::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1FieldElement::GetHashCode)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0xfd5090;
+  constexpr static std::size_t addrs = 0x1001f20;
 
   inline static ::MethodInfo const* methodInfo() {
 

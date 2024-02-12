@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::System::Reflection::ReflectionTypeLoadException);
 namespace System::Reflection {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2481))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3489))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3485))
 // CS Name: ::System.Reflection::ReflectionTypeLoadException*
 class CORDL_TYPE ReflectionTypeLoadException : public ::System::SystemException {
 public:
@@ -69,27 +69,27 @@ public:
   static inline ::System::Reflection::ReflectionTypeLoadException* New_ctor(::ArrayW<::System::Type*, ::Array<::System::Type*>*> classes,
                                                                             ::ArrayW<::System::Exception*, ::Array<::System::Exception*>*> exceptions);
 
-  /// @brief Method .ctor, addr 0x24e9a98, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2508bf0, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::System::Type*, ::Array<::System::Type*>*> classes, ::ArrayW<::System::Exception*, ::Array<::System::Exception*>*> exceptions);
 
   static inline ::System::Reflection::ReflectionTypeLoadException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x24e9ad4, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2508c2c, size 0x138, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetObjectData, addr 0x24e9c0c, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x2508d64, size 0x128, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method get_LoaderExceptions, addr 0x24e9d34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LoaderExceptions, addr 0x2508e8c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Exception*, ::Array<::System::Exception*>*> get_LoaderExceptions();
 
-  /// @brief Method get_Message, addr 0x24e9d3c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x2508e94, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
-  /// @brief Method ToString, addr 0x24e9e7c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2508fd4, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method CreateString, addr 0x24e9d44, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method CreateString, addr 0x2508e9c, size 0x138, virtual false, abstract: false, final false
   inline ::StringW CreateString(bool isMessage);
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectionTypeLoadException", modifiers: "&&", def_value: None }]

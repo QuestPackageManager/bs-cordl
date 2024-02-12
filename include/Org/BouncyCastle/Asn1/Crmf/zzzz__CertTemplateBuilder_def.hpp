@@ -141,45 +141,45 @@ public:
 
   constexpr void __cordl_internal_set_extensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* value);
 
-  /// @brief Method SetVersion, addr 0xe854c4, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method SetVersion, addr 0xeaf354, size 0x70, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::CertTemplateBuilder* SetVersion(int32_t ver);
 
-  /// @brief Method SetSerialNumber, addr 0xe85534, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetSerialNumber, addr 0xeaf3c4, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::CertTemplateBuilder* SetSerialNumber(::Org::BouncyCastle::Asn1::DerInteger* ser);
 
-  /// @brief Method SetSigningAlg, addr 0xe8553c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetSigningAlg, addr 0xeaf3cc, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::CertTemplateBuilder* SetSigningAlg(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* aid);
 
-  /// @brief Method SetIssuer, addr 0xe85544, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetIssuer, addr 0xeaf3d4, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::CertTemplateBuilder* SetIssuer(::Org::BouncyCastle::Asn1::X509::X509Name* name);
 
-  /// @brief Method SetValidity, addr 0xe8554c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetValidity, addr 0xeaf3dc, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::CertTemplateBuilder* SetValidity(::Org::BouncyCastle::Asn1::Crmf::OptionalValidity* v);
 
-  /// @brief Method SetSubject, addr 0xe85554, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetSubject, addr 0xeaf3e4, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::CertTemplateBuilder* SetSubject(::Org::BouncyCastle::Asn1::X509::X509Name* name);
 
-  /// @brief Method SetPublicKey, addr 0xe8555c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetPublicKey, addr 0xeaf3ec, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::CertTemplateBuilder* SetPublicKey(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* spki);
 
-  /// @brief Method SetIssuerUID, addr 0xe85564, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetIssuerUID, addr 0xeaf3f4, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::CertTemplateBuilder* SetIssuerUID(::Org::BouncyCastle::Asn1::DerBitString* uid);
 
-  /// @brief Method SetSubjectUID, addr 0xe8556c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetSubjectUID, addr 0xeaf3fc, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::CertTemplateBuilder* SetSubjectUID(::Org::BouncyCastle::Asn1::DerBitString* uid);
 
-  /// @brief Method SetExtensions, addr 0xe85574, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetExtensions, addr 0xeaf404, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::CertTemplateBuilder* SetExtensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* extens);
 
-  /// @brief Method Build, addr 0xe8557c, size 0x158, virtual true, abstract: false, final false
+  /// @brief Method Build, addr 0xeaf40c, size 0x158, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::CertTemplate* Build();
 
-  /// @brief Method AddOptional, addr 0xe856d4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method AddOptional, addr 0xeaf564, size 0xa0, virtual false, abstract: false, final false
   inline void AddOptional(::Org::BouncyCastle::Asn1::Asn1EncodableVector* v, int32_t tagNo, bool isExplicit, ::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::CertTemplateBuilder* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe85774, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeaf604, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CertTemplateBuilder", modifiers: "&&", def_value: None }]

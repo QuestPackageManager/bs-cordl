@@ -16,7 +16,7 @@ MARK_VAL_T(::System::UnescapeMode);
 namespace System {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8882))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6892))
 // CS Name: ::System::UnescapeMode
 struct CORDL_TYPE UnescapeMode {
 public:

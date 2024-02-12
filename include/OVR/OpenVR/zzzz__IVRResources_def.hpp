@@ -44,23 +44,23 @@ MARK_VAL_T(::OVR::OpenVR::IVRResources);
 namespace OVR::OpenVR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8515))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8459))
 // CS Name: ::IVRResources::_LoadSharedResource*
 class CORDL_TYPE __IVRResources___LoadSharedResource : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRResources___LoadSharedResource* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x27ecef0, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27fa6a8, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x27ecfc8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x27fa780, size 0x14, virtual true, abstract: false, final false
   inline uint32_t Invoke(::StringW pchResourceName, ::StringW pchBuffer, uint32_t unBufferLen);
 
-  /// @brief Method BeginInvoke, addr 0x27ecfdc, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x27fa794, size 0x98, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchResourceName, ::StringW pchBuffer, uint32_t unBufferLen, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x27ed074, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x27fa82c, size 0x28, virtual true, abstract: false, final false
   inline uint32_t EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRResources___LoadSharedResource", modifiers: "&&", def_value: None }]
@@ -88,24 +88,24 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRResources___Lo
 namespace OVR::OpenVR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8516))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8460))
 // CS Name: ::IVRResources::_GetResourceFullPath*
 class CORDL_TYPE __IVRResources___GetResourceFullPath : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRResources___GetResourceFullPath* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x27ed09c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27fa854, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x27ed174, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x27fa92c, size 0x14, virtual true, abstract: false, final false
   inline uint32_t Invoke(::StringW pchResourceName, ::StringW pchResourceTypeDirectory, ::System::Text::StringBuilder* pchPathBuffer, uint32_t unBufferLen);
 
-  /// @brief Method BeginInvoke, addr 0x27ed188, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x27fa940, size 0xa8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchResourceName, ::StringW pchResourceTypeDirectory, ::System::Text::StringBuilder* pchPathBuffer, uint32_t unBufferLen,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x27ed230, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x27fa9e8, size 0x28, virtual true, abstract: false, final false
   inline uint32_t EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRResources___GetResourceFullPath", modifiers: "&&", def_value: None }]
@@ -133,7 +133,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRResources___Ge
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8517))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8461))
 // CS Name: ::OVR.OpenVR::IVRResources
 struct CORDL_TYPE IVRResources {
 public:

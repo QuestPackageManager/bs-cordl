@@ -37,7 +37,7 @@ namespace Unity::Collections::LowLevel::Unsafe {
 template <typename T>
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10010))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8741))
 // CS Name: ::UnsafeUtility::AlignOfHelper`1<T>
 struct CORDL_TYPE __UnsafeUtility__AlignOfHelper_1 {
 public:
@@ -67,7 +67,7 @@ public:
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10011))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8742))
 // CS Name: ::Unity.Collections.LowLevel.Unsafe::UnsafeUtility*
 class CORDL_TYPE UnsafeUtility : public ::System::Object {
 public:
@@ -101,19 +101,19 @@ public:
   /// @brief Method EnumEquals, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool EnumEquals(T lhs, T rhs);
 
-  /// @brief Method IsBlittableValueType, addr 0x2c9e0c4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method IsBlittableValueType, addr 0x2c9eb68, size 0x60, virtual false, abstract: false, final false
   static inline bool IsBlittableValueType(::System::Type* t);
 
-  /// @brief Method GetReasonForTypeNonBlittableImpl, addr 0x2c9e160, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method GetReasonForTypeNonBlittableImpl, addr 0x2c9ec04, size 0x1bc, virtual false, abstract: false, final false
   static inline ::StringW GetReasonForTypeNonBlittableImpl(::System::Type* t, ::StringW name);
 
-  /// @brief Method IsArrayBlittable, addr 0x2c9e31c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method IsArrayBlittable, addr 0x2c9edc0, size 0x30, virtual false, abstract: false, final false
   static inline bool IsArrayBlittable(::System::Array* arr);
 
   /// @brief Method IsGenericListBlittable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool IsGenericListBlittable();
 
-  /// @brief Method GetReasonForArrayNonBlittable, addr 0x2c9e34c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetReasonForArrayNonBlittable, addr 0x2c9edf0, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW GetReasonForArrayNonBlittable(::System::Array* arr);
 
   /// @brief Method GetReasonForGenericListNonBlittable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -125,31 +125,31 @@ public:
   /// @brief Method IsBlittable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool IsBlittable();
 
-  /// @brief Method Malloc, addr 0x2c9e398, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Malloc, addr 0x2c9ee3c, size 0x54, virtual false, abstract: false, final false
   static inline ::cordl_internals::Ptr<void> Malloc(int64_t size, int32_t alignment, ::Unity::Collections::Allocator allocator);
 
-  /// @brief Method Free, addr 0x2c9e024, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Free, addr 0x2c9ead0, size 0x44, virtual false, abstract: false, final false
   static inline void Free(::cordl_internals::Ptr<void> memory, ::Unity::Collections::Allocator allocator);
 
-  /// @brief Method MemCpy, addr 0x2c9e3ec, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method MemCpy, addr 0x2c9ee90, size 0x54, virtual false, abstract: false, final false
   static inline void MemCpy(::cordl_internals::Ptr<void> destination, ::cordl_internals::Ptr<void> source, int64_t size);
 
-  /// @brief Method MemCpyStride, addr 0x2c9e440, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method MemCpyStride, addr 0x2c9eee4, size 0x74, virtual false, abstract: false, final false
   static inline void MemCpyStride(::cordl_internals::Ptr<void> destination, int32_t destinationStride, ::cordl_internals::Ptr<void> source, int32_t sourceStride, int32_t elementSize, int32_t count);
 
-  /// @brief Method MemMove, addr 0x2c9e4b4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method MemMove, addr 0x2c9ef58, size 0x54, virtual false, abstract: false, final false
   static inline void MemMove(::cordl_internals::Ptr<void> destination, ::cordl_internals::Ptr<void> source, int64_t size);
 
-  /// @brief Method MemSet, addr 0x2c9e508, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method MemSet, addr 0x2c9efac, size 0x54, virtual false, abstract: false, final false
   static inline void MemSet(::cordl_internals::Ptr<void> destination, uint8_t value, int64_t size);
 
-  /// @brief Method MemClear, addr 0x2c9e55c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method MemClear, addr 0x2c9f000, size 0x48, virtual false, abstract: false, final false
   static inline void MemClear(::cordl_internals::Ptr<void> destination, int64_t size);
 
-  /// @brief Method MemCmp, addr 0x2c9e5a4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method MemCmp, addr 0x2c9f048, size 0x54, virtual false, abstract: false, final false
   static inline int32_t MemCmp(::cordl_internals::Ptr<void> ptr1, ::cordl_internals::Ptr<void> ptr2, int64_t size);
 
-  /// @brief Method IsBlittable, addr 0x2c9e124, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsBlittable, addr 0x2c9ebc8, size 0x3c, virtual false, abstract: false, final false
   static inline bool IsBlittable(::System::Type* type);
 
   // Ctor Parameters [CppParam { name: "", ty: "UnsafeUtility", modifiers: "&&", def_value: None }]

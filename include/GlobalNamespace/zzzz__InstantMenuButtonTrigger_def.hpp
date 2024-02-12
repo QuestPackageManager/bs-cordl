@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::GlobalNamespace::InstantMenuButtonTrigger);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5054))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4407))
 // CS Name: ::InstantMenuButtonTrigger*
 class CORDL_TYPE InstantMenuButtonTrigger : public ::System::Object {
 public:
@@ -62,18 +62,18 @@ public:
 
   constexpr void __cordl_internal_set_menuButtonTriggeredEvent(::System::Action* value);
 
-  /// @brief Method add_menuButtonTriggeredEvent, addr 0x23c4088, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_menuButtonTriggeredEvent, addr 0x23819c0, size 0x9c, virtual true, abstract: false, final true
   inline void add_menuButtonTriggeredEvent(::System::Action* value);
 
-  /// @brief Method remove_menuButtonTriggeredEvent, addr 0x23c4124, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_menuButtonTriggeredEvent, addr 0x2381a5c, size 0x9c, virtual true, abstract: false, final true
   inline void remove_menuButtonTriggeredEvent(::System::Action* value);
 
-  /// @brief Method Tick, addr 0x23c41c0, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method Tick, addr 0x2381af8, size 0xcc, virtual true, abstract: false, final true
   inline void Tick();
 
   static inline ::GlobalNamespace::InstantMenuButtonTrigger* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23c428c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2381bc4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "InstantMenuButtonTrigger", modifiers: "&&", def_value: None }]

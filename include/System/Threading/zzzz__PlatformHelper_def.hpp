@@ -42,7 +42,7 @@ public:
 
   static inline bool getStaticF_IsSingleProcessor();
 
-  /// @brief Method get_ProcessorCount, addr 0x26122b4, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method get_ProcessorCount, addr 0x26371bc, size 0xec, virtual false, abstract: false, final false
   static inline int32_t get_ProcessorCount();
 
   // Ctor Parameters [CppParam { name: "", ty: "PlatformHelper", modifiers: "&&", def_value: None }]

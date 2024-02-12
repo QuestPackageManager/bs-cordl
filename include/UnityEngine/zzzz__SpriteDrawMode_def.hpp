@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::SpriteDrawMode);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10283))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9029))
 // CS Name: ::UnityEngine::SpriteDrawMode
 struct CORDL_TYPE SpriteDrawMode {
 public:

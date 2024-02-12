@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::LiteNetLib::INetLogger);
 namespace LiteNetLib {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14158))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14171))
 // CS Name: ::LiteNetLib::INetLogger*
 class CORDL_TYPE INetLogger {
 public:

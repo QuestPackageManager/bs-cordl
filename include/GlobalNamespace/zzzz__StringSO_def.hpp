@@ -15,15 +15,15 @@ MARK_REF_PTR_T(::GlobalNamespace::StringSO);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15869)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15869), inst: 397 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15872))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15622)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15622), inst: 398 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15625))
 // CS Name: ::StringSO*
 class CORDL_TYPE StringSO : public ::GlobalNamespace::ObservableVariableSO_1<::StringW> {
 public:
   // Declarations
   static inline ::GlobalNamespace::StringSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe28a90, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe52d3c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "StringSO", modifiers: "&&", def_value: None }]

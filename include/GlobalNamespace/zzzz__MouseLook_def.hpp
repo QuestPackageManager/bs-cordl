@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MouseLook);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 81, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10252))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5836))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8996))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5129))
 // CS Name: ::MouseLook*
 class CORDL_TYPE MouseLook : public ::System::Object {
 public:
@@ -127,30 +127,30 @@ public:
 
   constexpr void __cordl_internal_set__cursorIsLocked(bool value);
 
-  /// @brief Method Init, addr 0x22edba4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x231c080, size 0x6c, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::Transform* character, ::UnityEngine::Transform* camera);
 
-  /// @brief Method SetRotations, addr 0x22ee7bc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SetRotations, addr 0x231cc98, size 0x14, virtual false, abstract: false, final false
   inline void SetRotations(::UnityEngine::Quaternion characterRotation, ::UnityEngine::Quaternion cameraRotation);
 
-  /// @brief Method LookRotation, addr 0x22ee248, size 0x35c, virtual false, abstract: false, final false
+  /// @brief Method LookRotation, addr 0x231c724, size 0x35c, virtual false, abstract: false, final false
   inline void LookRotation(::UnityEngine::Transform* character, ::UnityEngine::Transform* camera);
 
-  /// @brief Method SetCursorLock, addr 0x22edc10, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method SetCursorLock, addr 0x231c0ec, size 0x34, virtual false, abstract: false, final false
   inline void SetCursorLock(bool value);
 
-  /// @brief Method UpdateCursorLock, addr 0x22ee834, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method UpdateCursorLock, addr 0x231cd10, size 0x10, virtual false, abstract: false, final false
   inline void UpdateCursorLock();
 
-  /// @brief Method InternalLockUpdate, addr 0x22ee844, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method InternalLockUpdate, addr 0x231cd20, size 0x78, virtual false, abstract: false, final false
   inline void InternalLockUpdate();
 
-  /// @brief Method ClampRotationAroundXAxis, addr 0x22ee7d0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ClampRotationAroundXAxis, addr 0x231ccac, size 0x64, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion ClampRotationAroundXAxis(::UnityEngine::Quaternion q);
 
   static inline ::GlobalNamespace::MouseLook* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22ee788, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x231cc64, size 0x34, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MouseLook", modifiers: "&&", def_value: None }]

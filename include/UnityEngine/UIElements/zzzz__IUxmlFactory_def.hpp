@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IUxmlFactory);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6996))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6255))
 // CS Name: ::UnityEngine.UIElements::IUxmlFactory*
 class CORDL_TYPE IUxmlFactory {
 public:

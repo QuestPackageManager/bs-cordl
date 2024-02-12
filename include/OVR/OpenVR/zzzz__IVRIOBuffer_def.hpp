@@ -69,24 +69,24 @@ MARK_VAL_T(::OVR::OpenVR::IVRIOBuffer);
 namespace OVR::OpenVR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8541))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8485))
 // CS Name: ::IVRIOBuffer::_Open*
 class CORDL_TYPE __IVRIOBuffer___Open : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRIOBuffer___Open* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x27ef858, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27fd010, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x27ef930, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x27fd0e8, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EIOBufferError Invoke(::StringW pchPath, ::OVR::OpenVR::EIOBufferMode mode, uint32_t unElementSize, uint32_t unElements, ByRef<uint64_t> pulBuffer);
 
-  /// @brief Method BeginInvoke, addr 0x27ef944, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x27fd0fc, size 0x108, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchPath, ::OVR::OpenVR::EIOBufferMode mode, uint32_t unElementSize, uint32_t unElements, ByRef<uint64_t> pulBuffer,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x27efa4c, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x27fd204, size 0x2c, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EIOBufferError EndInvoke(ByRef<uint64_t> pulBuffer, ::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRIOBuffer___Open", modifiers: "&&", def_value: None }]
@@ -114,23 +114,23 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRIOBuffer___Ope
 namespace OVR::OpenVR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8542))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8486))
 // CS Name: ::IVRIOBuffer::_Close*
 class CORDL_TYPE __IVRIOBuffer___Close : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRIOBuffer___Close* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x27efa78, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27fd230, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x27efb3c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x27fd2f4, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EIOBufferError Invoke(uint64_t ulBuffer);
 
-  /// @brief Method BeginInvoke, addr 0x27efb50, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x27fd308, size 0x84, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulBuffer, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x27efbd4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x27fd38c, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EIOBufferError EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRIOBuffer___Close", modifiers: "&&", def_value: None }]
@@ -158,23 +158,23 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRIOBuffer___Clo
 namespace OVR::OpenVR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8543))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8487))
 // CS Name: ::IVRIOBuffer::_Read*
 class CORDL_TYPE __IVRIOBuffer___Read : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRIOBuffer___Read* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x27efbfc, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27fd3b4, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x27efcc0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x27fd478, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EIOBufferError Invoke(uint64_t ulBuffer, void* pDst, uint32_t unBytes, ByRef<uint32_t> punRead);
 
-  /// @brief Method BeginInvoke, addr 0x27efcd4, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x27fd48c, size 0x100, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulBuffer, void* pDst, uint32_t unBytes, ByRef<uint32_t> punRead, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x27efdd4, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x27fd58c, size 0x2c, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EIOBufferError EndInvoke(ByRef<uint32_t> punRead, ::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRIOBuffer___Read", modifiers: "&&", def_value: None }]
@@ -202,23 +202,23 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRIOBuffer___Rea
 namespace OVR::OpenVR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8544))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8488))
 // CS Name: ::IVRIOBuffer::_Write*
 class CORDL_TYPE __IVRIOBuffer___Write : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRIOBuffer___Write* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x27efe00, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27fd5b8, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x27efec4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x27fd67c, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EIOBufferError Invoke(uint64_t ulBuffer, void* pSrc, uint32_t unBytes);
 
-  /// @brief Method BeginInvoke, addr 0x27efed8, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x27fd690, size 0xe0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulBuffer, void* pSrc, uint32_t unBytes, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x27effb8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x27fd770, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EIOBufferError EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRIOBuffer___Write", modifiers: "&&", def_value: None }]
@@ -246,23 +246,23 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRIOBuffer___Wri
 namespace OVR::OpenVR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8545))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8489))
 // CS Name: ::IVRIOBuffer::_PropertyContainer*
 class CORDL_TYPE __IVRIOBuffer___PropertyContainer : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRIOBuffer___PropertyContainer* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x27effe0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27fd798, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x27f00a4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x27fd85c, size 0x14, virtual true, abstract: false, final false
   inline uint64_t Invoke(uint64_t ulBuffer);
 
-  /// @brief Method BeginInvoke, addr 0x27f00b8, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x27fd870, size 0x84, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulBuffer, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x27f013c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x27fd8f4, size 0x28, virtual true, abstract: false, final false
   inline uint64_t EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRIOBuffer___PropertyContainer", modifiers: "&&", def_value: None }]
@@ -290,7 +290,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRIOBuffer___Pro
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8546))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8490))
 // CS Name: ::OVR.OpenVR::IVRIOBuffer
 struct CORDL_TYPE IVRIOBuffer {
 public:

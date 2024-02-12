@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::CollectionVirtualizationController);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7371))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6630))
 // CS Name: ::UnityEngine.UIElements::CollectionVirtualizationController*
 class CORDL_TYPE CollectionVirtualizationController : public ::System::Object {
 public:
@@ -60,7 +60,7 @@ public:
 
   static inline ::UnityEngine::UIElements::CollectionVirtualizationController* New_ctor(::UnityEngine::UIElements::ScrollView* scrollView);
 
-  /// @brief Method .ctor, addr 0x2e87ba4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ea1f8c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::ScrollView* scrollView);
 
   /// @brief Method Refresh, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

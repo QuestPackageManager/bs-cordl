@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BloomPrePassBloomTextureEffectSO);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14446)), TypeDefinitionIndex(TypeDefinitionIndex(14470))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15312))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14340)), TypeDefinitionIndex(TypeDefinitionIndex(14364))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15427))
 // CS Name: ::BloomPrePassBloomTextureEffectSO*
 class CORDL_TYPE BloomPrePassBloomTextureEffectSO : public ::GlobalNamespace::BloomPrePassEffectSO {
 public:
@@ -153,15 +153,15 @@ public:
 
   constexpr void __cordl_internal_set__bloomFog(::UnityW<::GlobalNamespace::BloomFogSO> value);
 
-  /// @brief Method get_toneMapping, addr 0x280c20c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_toneMapping, addr 0x28109f4, size 0x20, virtual true, abstract: false, final false
   inline ::GlobalNamespace::ToneMapping get_toneMapping();
 
-  /// @brief Method Render, addr 0x280c22c, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method Render, addr 0x2810a14, size 0x6c, virtual true, abstract: false, final false
   inline void Render(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest);
 
   static inline ::GlobalNamespace::BloomPrePassBloomTextureEffectSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x280c298, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2810a80, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBloomTextureEffectSO", modifiers: "&&", def_value: None }]

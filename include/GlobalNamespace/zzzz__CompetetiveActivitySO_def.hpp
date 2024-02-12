@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::GlobalNamespace::CompetetiveActivitySO);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4560))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4557))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10988))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10985))
 // CS Name: ::CompetetiveActivitySO*
 class CORDL_TYPE CompetetiveActivitySO : public ::GlobalNamespace::PS5ActivityDataSO {
 public:
   // Declarations
   static inline ::GlobalNamespace::CompetetiveActivitySO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2368268, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12a88bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CompetetiveActivitySO", modifiers: "&&", def_value: None }]

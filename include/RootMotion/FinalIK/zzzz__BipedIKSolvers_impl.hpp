@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::RootMotion::FinalIK::IKSolverLimb*, ::Array<::RootMotion::FinalIK::IKSolverLimb*>*> (
     ::RootMotion::FinalIK::BipedIKSolvers::*)()>(&::RootMotion::FinalIK::BipedIKSolvers::get_limbs)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x1241930;
+  constexpr static std::size_t addrs = 0x12dc9e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::BipedIKSolvers*>::get(), "get_limbs",
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::RootMotion::FinalIK::IKSolver*, ::Array<::RootMotion::FinalIK::IKSolver*>*> (
     ::RootMotion::FinalIK::BipedIKSolvers::*)()>(&::RootMotion::FinalIK::BipedIKSolvers::get_ikSolvers)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x12424d0;
+  constexpr static std::size_t addrs = 0x12dd580;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::BipedIKSolvers*>::get(), "get_ikSolvers",
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::BipedIKSolvers::*)(::RootMotion::BipedReferences*)>(
     &::RootMotion::FinalIK::BipedIKSolvers::AssignReferences)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x1241cac;
+  constexpr static std::size_t addrs = 0x12dcd5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::BipedIKSolvers::*)()>(&::RootMotion::FinalIK::BipedIKSolvers::_ctor)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x1242344;
+  constexpr static std::size_t addrs = 0x12dd3f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::BipedIKSolvers*>::get(), ".ctor",

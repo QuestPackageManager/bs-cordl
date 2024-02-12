@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::CollectionExtensions);
 namespace System::Net::Http::Headers {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14660))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14665))
 // CS Name: ::System.Net.Http.Headers::CollectionExtensions*
 class CORDL_TYPE CollectionExtensions : public ::System::Object {
 public:
@@ -33,7 +33,7 @@ public:
   /// @brief Method SequenceEqual, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSource> static inline bool SequenceEqual(::System::Collections::Generic::List_1<TSource>* first, ::System::Collections::Generic::List_1<TSource>* second);
 
-  /// @brief Method SetValue, addr 0x28370ac, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x283b780, size 0x1d4, virtual false, abstract: false, final false
   static inline void SetValue(::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue*>* parameters, ::StringW key, ::StringW value);
 
   /// @brief Method ToString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

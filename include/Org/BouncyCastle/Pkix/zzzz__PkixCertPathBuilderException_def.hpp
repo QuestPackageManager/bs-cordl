@@ -26,17 +26,17 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Pkix::PkixCertPathBuilderException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10f3fa4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1121e34, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Pkix::PkixCertPathBuilderException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x10e964c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11174dc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::Org::BouncyCastle::Pkix::PkixCertPathBuilderException* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor, addr 0x10e9e58, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1117ce8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
   // Ctor Parameters [CppParam { name: "", ty: "PkixCertPathBuilderException", modifiers: "&&", def_value: None }]

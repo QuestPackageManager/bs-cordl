@@ -84,7 +84,7 @@ namespace UnityEngine::ProBuilder::KdTree {
 template <typename TKey, typename TValue>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15916))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16039))
 // CS Name: ::KdTree`2::<>c__DisplayClass33_0<TKey,TValue>*
 class CORDL_TYPE __KdTree_2____c__DisplayClass33_0 : public ::System::Object {
 public:
@@ -150,7 +150,7 @@ namespace UnityEngine::ProBuilder::KdTree {
 template <typename TKey, typename TValue>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15917))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16040))
 // CS Name: ::KdTree`2::<GetEnumerator>d__33<TKey,TValue>*
 class CORDL_TYPE __KdTree_2___GetEnumerator_d__33 : public ::System::Object {
 public:
@@ -298,8 +298,8 @@ namespace UnityEngine::ProBuilder::KdTree {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15914))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15918))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(16037))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16041))
 // CS Name: ::UnityEngine.ProBuilder.KdTree::KdTree`2<TKey,TValue>*
 class CORDL_TYPE KdTree_2 : public ::System::Object {
 public:

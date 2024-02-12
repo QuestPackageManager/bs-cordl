@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::Unity::Collections::LowLevel::Unsafe::NativeSliceUnsafeUtility)
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10012))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8743))
 // CS Name: ::Unity.Collections.LowLevel.Unsafe::NativeSliceUnsafeUtility*
 class CORDL_TYPE NativeSliceUnsafeUtility : public ::System::Object {
 public:

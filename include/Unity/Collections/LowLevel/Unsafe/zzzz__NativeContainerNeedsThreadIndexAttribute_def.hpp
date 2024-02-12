@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::Unity::Collections::LowLevel::Unsafe::NativeContainerNeedsThrea
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10021))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8752))
 // CS Name: ::Unity.Collections.LowLevel.Unsafe::NativeContainerNeedsThreadIndexAttribute*
 class CORDL_TYPE NativeContainerNeedsThreadIndexAttribute : public ::System::Attribute {
 public:

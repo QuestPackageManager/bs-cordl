@@ -39,7 +39,7 @@ MARK_REF_PTR_T(::LiteNetLib::Utils::NtpRequest);
 namespace LiteNetLib::Utils {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14240))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14253))
 // CS Name: ::LiteNetLib.Utils::NtpRequest*
 class CORDL_TYPE NtpRequest : public ::System::Object {
 public:
@@ -79,28 +79,28 @@ public:
 
   static inline ::LiteNetLib::Utils::NtpRequest* New_ctor(::System::Net::IPEndPoint* endPoint, ::System::Action_1<::LiteNetLib::Utils::NtpPacket*>* onRequestComplete);
 
-  /// @brief Method .ctor, addr 0x220ccac, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22a2594, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::IPEndPoint* endPoint, ::System::Action_1<::LiteNetLib::Utils::NtpPacket*>* onRequestComplete);
 
-  /// @brief Method Create, addr 0x220cd9c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x22a2684, size 0x70, virtual false, abstract: false, final false
   static inline ::LiteNetLib::Utils::NtpRequest* Create(::System::Net::IPEndPoint* endPoint, ::System::Action_1<::LiteNetLib::Utils::NtpPacket*>* onRequestComplete);
 
-  /// @brief Method Create, addr 0x220ce0c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x22a26f4, size 0x78, virtual false, abstract: false, final false
   static inline ::LiteNetLib::Utils::NtpRequest* Create(::System::Net::IPAddress* ipAddress, ::System::Action_1<::LiteNetLib::Utils::NtpPacket*>* onRequestComplete);
 
-  /// @brief Method Create, addr 0x220ce84, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x22a276c, size 0x74, virtual false, abstract: false, final false
   static inline ::LiteNetLib::Utils::NtpRequest* Create(::StringW ntpServerAddress, int32_t port, ::System::Action_1<::LiteNetLib::Utils::NtpPacket*>* onRequestComplete);
 
-  /// @brief Method Create, addr 0x220cef8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x22a27e0, size 0x70, virtual false, abstract: false, final false
   static inline ::LiteNetLib::Utils::NtpRequest* Create(::StringW ntpServerAddress, ::System::Action_1<::LiteNetLib::Utils::NtpPacket*>* onRequestComplete);
 
-  /// @brief Method Send, addr 0x220cf68, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Send, addr 0x22a2850, size 0xc8, virtual false, abstract: false, final false
   inline void Send();
 
-  /// @brief Method Close, addr 0x220d030, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Close, addr 0x22a2918, size 0x20, virtual false, abstract: false, final false
   inline void Close();
 
-  /// @brief Method LiteNetLib.INetSocketListener.OnMessageReceived, addr 0x220d050, size 0x19c, virtual true, abstract: false, final true
+  /// @brief Method LiteNetLib.INetSocketListener.OnMessageReceived, addr 0x22a2938, size 0x19c, virtual true, abstract: false, final true
   inline void LiteNetLib_INetSocketListener_OnMessageReceived(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t length, ::System::Net::Sockets::SocketError errorCode,
                                                               ::System::Net::IPEndPoint* remoteEndPoint);
 

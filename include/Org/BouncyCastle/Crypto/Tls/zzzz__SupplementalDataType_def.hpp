@@ -23,7 +23,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Tls::SupplementalDataType* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf98874, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfc4704, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SupplementalDataType", modifiers: "&&", def_value: None }]

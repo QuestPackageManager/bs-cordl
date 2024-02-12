@@ -110,31 +110,31 @@ public:
 
   static inline ::System::Runtime::Serialization::SafeSerializationManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24bce54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24ddec8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Runtime::Serialization::SafeSerializationManager* New_ctor(::System::Runtime::Serialization::SerializationInfo* info,
                                                                                      ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x24bce5c, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24dded0, size 0x1e4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method get_IsActive, addr 0x24bd35c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsActive, addr 0x24de3d0, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsActive();
 
-  /// @brief Method CompleteSerialization, addr 0x24bd36c, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method CompleteSerialization, addr 0x24de3e0, size 0x174, virtual false, abstract: false, final false
   inline void CompleteSerialization(::System::Object* serializedObject, ::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method CompleteDeserialization, addr 0x24bd69c, size 0x3a0, virtual false, abstract: false, final false
+  /// @brief Method CompleteDeserialization, addr 0x24de710, size 0x3a0, virtual false, abstract: false, final false
   inline void CompleteDeserialization(::System::Object* deserializedObject);
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x24bda3c, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x24deab0, size 0xb0, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method System.Runtime.Serialization.IObjectReference.GetRealObject, addr 0x24bdaec, size 0x2c0, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.IObjectReference.GetRealObject, addr 0x24deb60, size 0x2c0, virtual true, abstract: false, final true
   inline ::System::Object* System_Runtime_Serialization_IObjectReference_GetRealObject(::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method OnDeserialized, addr 0x24bddac, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method OnDeserialized, addr 0x24dee20, size 0x9c, virtual false, abstract: false, final false
   inline void OnDeserialized(::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "SafeSerializationManager", modifiers: "&&", def_value: None }]

@@ -33,8 +33,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14478))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14465))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14372))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14359))
 // CS Name: ::BloomPrePassBackgroundNonLightRendererCore*
 class CORDL_TYPE BloomPrePassBackgroundNonLightRendererCore : public ::GlobalNamespace::BloomPrePassNonLightPass {
 public:
@@ -116,27 +116,27 @@ public:
   /// @brief Method get_renderer, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityW<::UnityEngine::Renderer> get_renderer();
 
-  /// @brief Method get_useCustomMaterial, addr 0x2105cec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useCustomMaterial, addr 0x219a494, size 0x8, virtual false, abstract: false, final false
   inline bool get_useCustomMaterial();
 
-  /// @brief Method get_customMaterial, addr 0x2105cf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_customMaterial, addr 0x219a49c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_customMaterial();
 
-  /// @brief Method SetCustomPropertyBlock, addr 0x2105cfc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method SetCustomPropertyBlock, addr 0x219a4a4, size 0xbc, virtual false, abstract: false, final false
   inline void SetCustomPropertyBlock(::UnityEngine::MaterialPropertyBlock* bloomPropertyBlock);
 
-  /// @brief Method InitIfNeeded, addr 0x2105b84, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method InitIfNeeded, addr 0x219a32c, size 0x114, virtual true, abstract: false, final false
   inline void InitIfNeeded();
 
-  /// @brief Method Awake, addr 0x2105a68, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x219a210, size 0xc, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Render, addr 0x2105db8, size 0x310, virtual true, abstract: false, final false
+  /// @brief Method Render, addr 0x219a560, size 0x310, virtual true, abstract: false, final false
   inline void Render(::UnityEngine::RenderTexture* dest, ::UnityEngine::Matrix4x4 viewMatrix, ::UnityEngine::Matrix4x4 projectionMatrix);
 
   static inline ::GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2104a20, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21991c8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundNonLightRendererCore", modifiers: "&&", def_value: None }]

@@ -41,12 +41,12 @@ MARK_VAL_T(::System::Xml::__XmlNamespaceManager__NamespaceDeclaration);
 namespace System::Xml {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11569))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11467))
 // CS Name: ::XmlNamespaceManager::NamespaceDeclaration
 struct CORDL_TYPE __XmlNamespaceManager__NamespaceDeclaration {
 public:
   // Declarations
-  /// @brief Method Set, addr 0x28a7f18, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x28ab580, size 0xc, virtual false, abstract: false, final false
   inline void Set(::StringW prefix, ::StringW uri, int32_t scopeId, int32_t previousNsIndex);
 
   // Ctor Parameters [CppParam { name: "prefix", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "uri", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
@@ -91,7 +91,7 @@ static_assert(offsetof(::System::Xml::__XmlNamespaceManager__NamespaceDeclaratio
 namespace System::Xml {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11570))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11468))
 // CS Name: ::System.Xml::XmlNamespaceManager*
 class CORDL_TYPE XmlNamespaceManager : public ::System::Object {
 public:
@@ -190,42 +190,42 @@ public:
 
   static inline ::System::Xml::XmlNamespaceManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28a7d54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28ab3bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Xml::XmlNamespaceManager* New_ctor(::System::Xml::XmlNameTable* nameTable);
 
-  /// @brief Method .ctor, addr 0x28a7d5c, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28ab3c4, size 0x1bc, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlNameTable* nameTable);
 
-  /// @brief Method get_NameTable, addr 0x28a7f24, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NameTable, addr 0x28ab58c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNameTable* get_NameTable();
 
-  /// @brief Method get_DefaultNamespace, addr 0x28a7f2c, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method get_DefaultNamespace, addr 0x28ab594, size 0x70, virtual true, abstract: false, final false
   inline ::StringW get_DefaultNamespace();
 
-  /// @brief Method PushScope, addr 0x28a7f9c, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method PushScope, addr 0x28ab604, size 0x10, virtual true, abstract: false, final false
   inline void PushScope();
 
-  /// @brief Method PopScope, addr 0x28a7fac, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method PopScope, addr 0x28ab614, size 0xd8, virtual true, abstract: false, final false
   inline bool PopScope();
 
-  /// @brief Method AddNamespace, addr 0x28a8084, size 0x3a4, virtual true, abstract: false, final false
+  /// @brief Method AddNamespace, addr 0x28ab6ec, size 0x3a4, virtual true, abstract: false, final false
   inline void AddNamespace(::StringW prefix, ::StringW uri);
 
-  /// @brief Method RemoveNamespace, addr 0x28a85b4, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method RemoveNamespace, addr 0x28abc1c, size 0x13c, virtual true, abstract: false, final false
   inline void RemoveNamespace(::StringW prefix, ::StringW uri);
 
-  /// @brief Method GetEnumerator, addr 0x28a86f0, size 0x170, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x28abd58, size 0x170, virtual true, abstract: false, final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
-  /// @brief Method LookupNamespace, addr 0x28a8860, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method LookupNamespace, addr 0x28abec8, size 0x4c, virtual true, abstract: false, final false
   inline ::StringW LookupNamespace(::StringW prefix);
 
-  /// @brief Method LookupNamespaceDecl, addr 0x28a8428, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method LookupNamespaceDecl, addr 0x28aba90, size 0x18c, virtual false, abstract: false, final false
   inline int32_t LookupNamespaceDecl(::StringW prefix);
 
-  /// @brief Method LookupPrefix, addr 0x28a88ac, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method LookupPrefix, addr 0x28abf14, size 0xc4, virtual true, abstract: false, final false
   inline ::StringW LookupPrefix(::StringW uri);
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlNamespaceManager", modifiers: "&&", def_value: None }]

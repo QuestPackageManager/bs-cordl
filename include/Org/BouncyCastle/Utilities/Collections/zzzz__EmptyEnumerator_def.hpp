@@ -43,16 +43,16 @@ public:
 
   static inline ::Org::BouncyCastle::Utilities::Collections::EmptyEnumerator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1157ab4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1185944, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method MoveNext, addr 0x1157abc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x118594c, size 0x8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method Reset, addr 0x1157ac4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x1185954, size 0x4, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method get_Current, addr 0x1157ac8, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x1185958, size 0x50, virtual true, abstract: false, final true
   inline ::System::Object* get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "EmptyEnumerator", modifiers: "&&", def_value: None }]

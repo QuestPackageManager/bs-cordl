@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::GlobalNamespace::CanvasGroupTransitionSO);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5443))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5445))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4746))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4748))
 // CS Name: ::CanvasGroupTransitionSO*
 class CORDL_TYPE CanvasGroupTransitionSO : public ::GlobalNamespace::BaseTransitionSO {
 public:
@@ -87,27 +87,27 @@ public:
 
   constexpr void __cordl_internal_set__selectedAndHighlightedAlpha(float_t value);
 
-  /// @brief Method get_normalAlpha, addr 0x227d284, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_normalAlpha, addr 0x23d8b3c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_normalAlpha();
 
-  /// @brief Method get_highlightedAlpha, addr 0x227d28c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_highlightedAlpha, addr 0x23d8b44, size 0x8, virtual false, abstract: false, final false
   inline float_t get_highlightedAlpha();
 
-  /// @brief Method get_pressedAlpha, addr 0x227d294, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pressedAlpha, addr 0x23d8b4c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_pressedAlpha();
 
-  /// @brief Method get_disabledAlpha, addr 0x227d29c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disabledAlpha, addr 0x23d8b54, size 0x8, virtual false, abstract: false, final false
   inline float_t get_disabledAlpha();
 
-  /// @brief Method get_selectedAlpha, addr 0x227d2a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedAlpha, addr 0x23d8b5c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_selectedAlpha();
 
-  /// @brief Method get_selectedAndHighlightedAlpha, addr 0x227d2ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedAndHighlightedAlpha, addr 0x23d8b64, size 0x8, virtual false, abstract: false, final false
   inline float_t get_selectedAndHighlightedAlpha();
 
   static inline ::GlobalNamespace::CanvasGroupTransitionSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x227d2b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d8b6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CanvasGroupTransitionSO", modifiers: "&&", def_value: None }]

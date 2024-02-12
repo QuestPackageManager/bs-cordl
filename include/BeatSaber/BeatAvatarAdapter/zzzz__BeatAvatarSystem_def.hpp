@@ -4,6 +4,10 @@
 CORDL_MODULE_INIT
 #include "BeatSaber/AvatarCore/zzzz__AvatarSystemIdentifier_def.hpp"
 #include "BeatSaber/AvatarCore/zzzz__AvatarSystem_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
+#include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatAvatarSystem)
 namespace BeatSaber::AvatarCore {
@@ -24,11 +28,26 @@ class IOptionalAvatarDataProvider;
 namespace BeatSaber::BeatAvatarAdapter {
 class BeatAvatarSystemSettings;
 }
+namespace BeatSaber::BeatAvatarAdapter {
+struct __BeatAvatarSystem___CreateDefaultAvatarIfUserCreatedAvatarDoesNotExist_d__12;
+}
 namespace BeatSaber::BeatAvatarSDK {
 class AvatarDataModel;
 }
 namespace GlobalNamespace {
 struct MultiplayerAvatarData;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct AsyncTaskMethodBuilder_1;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct TaskAwaiter_1;
+}
+namespace System::Runtime::CompilerServices {
+struct TaskAwaiter;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
@@ -40,18 +59,93 @@ class DiContainer;
 namespace BeatSaber::BeatAvatarAdapter {
 class BeatAvatarSystem;
 }
+namespace BeatSaber::BeatAvatarAdapter {
+struct __BeatAvatarSystem___CreateDefaultAvatarIfUserCreatedAvatarDoesNotExist_d__12;
+}
 // Write type traits
 MARK_REF_PTR_T(::BeatSaber::BeatAvatarAdapter::BeatAvatarSystem);
+MARK_VAL_T(::BeatSaber::BeatAvatarAdapter::__BeatAvatarSystem___CreateDefaultAvatarIfUserCreatedAvatarDoesNotExist_d__12);
+// Type: ::<CreateDefaultAvatarIfUserCreatedAvatarDoesNotExist>d__12
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+namespace BeatSaber::BeatAvatarAdapter {
+// Is value type: true
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3389)), TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3398)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 77 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3398), inst: 77 })] Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(15372)) CS Name: ::BeatAvatarSystem::<CreateDefaultAvatarIfUserCreatedAvatarDoesNotExist>d__12
+struct CORDL_TYPE __BeatAvatarSystem___CreateDefaultAvatarIfUserCreatedAvatarDoesNotExist_d__12 {
+public:
+  // Declarations
+  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+
+  /// @brief Method MoveNext, addr 0xe20440, size 0x2c8, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0xe20708, size 0x58, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::BeatSaber::BeatAvatarAdapter::BeatAvatarSystem*",
+  // modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  constexpr __BeatAvatarSystem___CreateDefaultAvatarIfUserCreatedAvatarDoesNotExist_d__12(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder,
+                                                                                          ::BeatSaber::BeatAvatarAdapter::BeatAvatarSystem* __4__this,
+                                                                                          ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1,
+                                                                                          ::System::Runtime::CompilerServices::TaskAwaiter __u__2) noexcept;
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BeatAvatarSystem___CreateDefaultAvatarIfUserCreatedAvatarDoesNotExist_d__12();
+
+  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+  int32_t __1__state;
+
+  /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
+  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder;
+
+  /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
+  ::BeatSaber::BeatAvatarAdapter::BeatAvatarSystem* __4__this;
+
+  /// @brief Field <>u__1, offset: 0x28, size: 0x8, def value: None
+  ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1;
+
+  /// @brief Field <>u__2, offset: 0x30, size: 0x8, def value: None
+  ::System::Runtime::CompilerServices::TaskAwaiter __u__2;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::BeatSaber::BeatAvatarAdapter::__BeatAvatarSystem___CreateDefaultAvatarIfUserCreatedAvatarDoesNotExist_d__12, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::BeatSaber::BeatAvatarAdapter::__BeatAvatarSystem___CreateDefaultAvatarIfUserCreatedAvatarDoesNotExist_d__12, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::BeatSaber::BeatAvatarAdapter::__BeatAvatarSystem___CreateDefaultAvatarIfUserCreatedAvatarDoesNotExist_d__12, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::BeatSaber::BeatAvatarAdapter::__BeatAvatarSystem___CreateDefaultAvatarIfUserCreatedAvatarDoesNotExist_d__12, __4__this) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::BeatSaber::BeatAvatarAdapter::__BeatAvatarSystem___CreateDefaultAvatarIfUserCreatedAvatarDoesNotExist_d__12, __u__1) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::BeatSaber::BeatAvatarAdapter::__BeatAvatarSystem___CreateDefaultAvatarIfUserCreatedAvatarDoesNotExist_d__12, __u__2) == 0x30, "Offset mismatch!");
+
+} // namespace BeatSaber::BeatAvatarAdapter
 // Type: BeatSaber.BeatAvatarAdapter::BeatAvatarSystem
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarAdapter {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15179)), TypeDefinitionIndex(TypeDefinitionIndex(15183))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15259))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15259)), TypeDefinitionIndex(TypeDefinitionIndex(15264))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15373))
 // CS Name: ::BeatSaber.BeatAvatarAdapter::BeatAvatarSystem*
 class CORDL_TYPE BeatAvatarSystem : public ::BeatSaber::AvatarCore::AvatarSystem {
 public:
   // Declarations
+  using _CreateDefaultAvatarIfUserCreatedAvatarDoesNotExist_d__12 = ::BeatSaber::BeatAvatarAdapter::__BeatAvatarSystem___CreateDefaultAvatarIfUserCreatedAvatarDoesNotExist_d__12;
+
   /// @brief Field _avatarDataModel, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__avatarDataModel, put = __cordl_internal_set__avatarDataModel))::BeatSaber::BeatAvatarSDK::AvatarDataModel* _avatarDataModel;
 
@@ -91,35 +185,35 @@ public:
   static inline ::BeatSaber::BeatAvatarAdapter::BeatAvatarSystem* New_ctor(::Zenject::DiContainer* container, ::BeatSaber::BeatAvatarSDK::AvatarDataModel* model,
                                                                            ::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings* settings);
 
-  /// @brief Method .ctor, addr 0xe146ac, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe1fea8, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::BeatSaber::BeatAvatarSDK::AvatarDataModel* model, ::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings* settings);
 
-  /// @brief Method get_avatarCreated, addr 0xe14794, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method get_avatarCreated, addr 0xe1ff90, size 0x1c, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* get_avatarCreated();
 
-  /// @brief Method InstantiateAvatar, addr 0xe14814, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method InstantiateAvatar, addr 0xe1ffac, size 0xac, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::UnityW<::BeatSaber::AvatarCore::Avatar>>* InstantiateAvatar(::BeatSaber::AvatarCore::AvatarDisplayContext avatarDisplayContext, int32_t levelOfDetail,
                                                                                                           ::Zenject::DiContainer* container);
 
-  /// @brief Method InstantiateAvatarEditorUI, addr 0xe148c0, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method InstantiateAvatarEditorUI, addr 0xe20058, size 0x64, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>>* InstantiateAvatarEditorUI(::Zenject::DiContainer* container);
 
-  /// @brief Method InstantiateAvatarSelectionView, addr 0xe14924, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method InstantiateAvatarSelectionView, addr 0xe200bc, size 0x64, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::UnityW<::BeatSaber::AvatarCore::AvatarSelectionView>>* InstantiateAvatarSelectionView(::Zenject::DiContainer* container);
 
-  /// @brief Method GetMultiplayerAvatarsData, addr 0xe14988, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method GetMultiplayerAvatarsData, addr 0xe20120, size 0x8c, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerAvatarData>* GetMultiplayerAvatarsData();
 
-  /// @brief Method GetMultiplayerAvatarOptionalDataProvider, addr 0xe14a14, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetMultiplayerAvatarOptionalDataProvider, addr 0xe201ac, size 0x8, virtual true, abstract: false, final false
   inline ::BeatSaber::AvatarCore::IOptionalAvatarDataProvider* GetMultiplayerAvatarOptionalDataProvider();
 
-  /// @brief Method CreateDefaultAvatarIfUserCreatedAvatarDoesNotExist, addr 0xe14a1c, size 0x34, virtual true, abstract: false, final false
-  inline bool CreateDefaultAvatarIfUserCreatedAvatarDoesNotExist();
+  /// @brief Method CreateDefaultAvatarIfUserCreatedAvatarDoesNotExist, addr 0xe201b4, size 0xfc, virtual true, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<bool>* CreateDefaultAvatarIfUserCreatedAvatarDoesNotExist();
 
-  /// @brief Method __GetRandomizedMultiplayerAvatarsData, addr 0xe14a50, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method __GetRandomizedMultiplayerAvatarsData, addr 0xe202b0, size 0x90, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerAvatarData>* __GetRandomizedMultiplayerAvatarsData();
 
-  /// @brief Method DeleteUserCreatedAvatar, addr 0xe14ae0, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method DeleteUserCreatedAvatar, addr 0xe20340, size 0x84, virtual true, abstract: false, final false
   inline void DeleteUserCreatedAvatar();
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatAvatarSystem", modifiers: "&&", def_value: None }]
@@ -159,3 +253,5 @@ static_assert(offsetof(::BeatSaber::BeatAvatarAdapter::BeatAvatarSystem, ____set
 } // namespace BeatSaber::BeatAvatarAdapter
 NEED_NO_BOX(::BeatSaber::BeatAvatarAdapter::BeatAvatarSystem);
 DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::BeatAvatarAdapter::BeatAvatarSystem*, "BeatSaber.BeatAvatarAdapter", "BeatAvatarSystem");
+DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::BeatAvatarAdapter::__BeatAvatarSystem___CreateDefaultAvatarIfUserCreatedAvatarDoesNotExist_d__12, "BeatSaber.BeatAvatarAdapter",
+                       "BeatAvatarSystem/<CreateDefaultAvatarIfUserCreatedAvatarDoesNotExist>d__12");

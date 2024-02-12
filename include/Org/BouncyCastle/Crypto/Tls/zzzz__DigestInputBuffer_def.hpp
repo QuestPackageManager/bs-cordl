@@ -44,13 +44,13 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::__DigestInputBuffer__DigStream* New_ctor(::Org::BouncyCastle::Crypto::IDigest* d);
 
-  /// @brief Method .ctor, addr 0xf68764, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf925f4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* d);
 
-  /// @brief Method WriteByte, addr 0xf6878c, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method WriteByte, addr 0xf9261c, size 0xac, virtual true, abstract: false, final false
   inline void WriteByte(uint8_t b);
 
-  /// @brief Method Write, addr 0xf68838, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0xf926c8, size 0xc4, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
   // Ctor Parameters [CppParam { name: "", ty: "__DigestInputBuffer__DigStream", modifiers: "&&", def_value: None }]
@@ -82,7 +82,7 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::__DigestInputBuffer__Di
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3566))]
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3562))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1220))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::DigestInputBuffer*
 class CORDL_TYPE DigestInputBuffer : public ::System::IO::MemoryStream {
@@ -90,12 +90,12 @@ public:
   // Declarations
   using DigStream = ::Org::BouncyCastle::Crypto::Tls::__DigestInputBuffer__DigStream;
 
-  /// @brief Method UpdateDigest, addr 0xf66ce0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method UpdateDigest, addr 0xf90b70, size 0x78, virtual false, abstract: false, final false
   inline void UpdateDigest(::Org::BouncyCastle::Crypto::IDigest* d);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DigestInputBuffer* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf66a18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf908a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DigestInputBuffer", modifiers: "&&", def_value: None }]

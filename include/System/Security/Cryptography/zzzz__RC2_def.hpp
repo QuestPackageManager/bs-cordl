@@ -56,16 +56,16 @@ public:
 
   static inline ::System::Security::Cryptography::RC2* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2460030, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24820a4, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_EffectiveKeySize, addr 0x24600ac, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_EffectiveKeySize, addr 0x2482120, size 0x1c, virtual true, abstract: false, final false
   inline int32_t get_EffectiveKeySize();
 
-  /// @brief Method get_KeySize, addr 0x24600c8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_KeySize, addr 0x248213c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_KeySize();
 
-  /// @brief Method set_KeySize, addr 0x24600d0, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method set_KeySize, addr 0x2482144, size 0x7c, virtual true, abstract: false, final false
   inline void set_KeySize(int32_t value);
 
   // Ctor Parameters [CppParam { name: "", ty: "RC2", modifiers: "&&", def_value: None }]

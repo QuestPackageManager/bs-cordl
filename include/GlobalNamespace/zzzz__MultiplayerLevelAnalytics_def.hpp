@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLevelAnalytics);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4019))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3961))
 // CS Name: ::MultiplayerLevelAnalytics*
 class CORDL_TYPE MultiplayerLevelAnalytics : public ::UnityEngine::MonoBehaviour {
 public:
@@ -49,19 +49,19 @@ public:
 
   constexpr void __cordl_internal_set__analyticsModel(::GlobalNamespace::IAnalyticsModel* value);
 
-  /// @brief Method Start, addr 0x2224498, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x22adfa4, size 0x8c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy, addr 0x2224524, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x22ae030, size 0x8c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleMultiplayerLevelDidFinish, addr 0x22245b0, size 0x6a4, virtual false, abstract: false, final false
+  /// @brief Method HandleMultiplayerLevelDidFinish, addr 0x22ae0bc, size 0x480, virtual false, abstract: false, final false
   inline void HandleMultiplayerLevelDidFinish(::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* multiplayerLevelScenesTransitionSetupData,
                                               ::GlobalNamespace::MultiplayerResultsData* multiplayerResultsData);
 
   static inline ::GlobalNamespace::MultiplayerLevelAnalytics* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2224c54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22ae53c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLevelAnalytics", modifiers: "&&", def_value: None }]

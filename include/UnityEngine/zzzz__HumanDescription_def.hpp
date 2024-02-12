@@ -24,7 +24,7 @@ MARK_VAL_T(::UnityEngine::HumanDescription);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14852))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14725))
 // CS Name: ::UnityEngine::HumanDescription
 struct CORDL_TYPE HumanDescription {
 public:

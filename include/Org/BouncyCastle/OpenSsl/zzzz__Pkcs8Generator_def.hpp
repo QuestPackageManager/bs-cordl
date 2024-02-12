@@ -136,24 +136,24 @@ public:
 
   static inline ::Org::BouncyCastle::OpenSsl::Pkcs8Generator* New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privKey);
 
-  /// @brief Method .ctor, addr 0x10d4fb8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1102e48, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privKey);
 
   static inline ::Org::BouncyCastle::OpenSsl::Pkcs8Generator* New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privKey, ::StringW algorithm);
 
-  /// @brief Method .ctor, addr 0x10d4fe0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1102e70, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privKey, ::StringW algorithm);
 
-  /// @brief Method set_SecureRandom, addr 0x10d5018, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SecureRandom, addr 0x1102ea8, size 0x8, virtual false, abstract: false, final false
   inline void set_SecureRandom(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method set_Password, addr 0x10d5020, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Password, addr 0x1102eb0, size 0x8, virtual false, abstract: false, final false
   inline void set_Password(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
-  /// @brief Method set_IterationCount, addr 0x10d5028, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IterationCount, addr 0x1102eb8, size 0x8, virtual false, abstract: false, final false
   inline void set_IterationCount(int32_t value);
 
-  /// @brief Method Generate, addr 0x10d5030, size 0x270, virtual true, abstract: false, final true
+  /// @brief Method Generate, addr 0x1102ec0, size 0x270, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Utilities::IO::Pem::PemObject* Generate();
 
   // Ctor Parameters [CppParam { name: "", ty: "Pkcs8Generator", modifiers: "&&", def_value: None }]

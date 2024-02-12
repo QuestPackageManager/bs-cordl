@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ArgumentBase);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5978))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5262))
 // CS Name: ::ArgumentBase*
 class CORDL_TYPE ArgumentBase : public ::System::Object {
 public:
@@ -58,7 +58,7 @@ public:
 
   static inline ::GlobalNamespace::ArgumentBase* New_ctor(::StringW name, ::StringW description, ::System::Type* valueType);
 
-  /// @brief Method .ctor, addr 0x230dcc4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x233c810, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::StringW description, ::System::Type* valueType);
 
   /// @brief Method TryParseWithValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

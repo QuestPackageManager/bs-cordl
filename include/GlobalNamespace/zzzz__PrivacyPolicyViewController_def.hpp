@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::GlobalNamespace::PrivacyPolicyViewController);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5733))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5037))
 // CS Name: ::PrivacyPolicyViewController::ButtonType
 struct CORDL_TYPE __PrivacyPolicyViewController__ButtonType {
 public:
@@ -82,8 +82,8 @@ static_assert(offsetof(::GlobalNamespace::__PrivacyPolicyViewController__ButtonT
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 162, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5734))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13558))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5038))
 // CS Name: ::PrivacyPolicyViewController*
 class CORDL_TYPE PrivacyPolicyViewController : public ::HMUI::ViewController {
 public:
@@ -164,27 +164,27 @@ public:
 
   constexpr void __cordl_internal_set__showIAcceptPrompt(bool value);
 
-  /// @brief Method add_didFinishEvent, addr 0x22d573c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x2305f78, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::__PrivacyPolicyViewController__ButtonType>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x22d57ec, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x2306028, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::__PrivacyPolicyViewController__ButtonType>* value);
 
-  /// @brief Method DidActivate, addr 0x22d589c, size 0x1dc, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x23060d8, size 0x1dc, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method Init, addr 0x22d5a78, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x23062b4, size 0x14, virtual false, abstract: false, final false
   inline void Init(bool showUpdate, bool showIAcceptPrompt);
 
   static inline ::GlobalNamespace::PrivacyPolicyViewController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22d5a8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23062c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <DidActivate>b__11_0, addr 0x22d5a94, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__11_0, addr 0x23062d0, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__11_0();
 
-  /// @brief Method <DidActivate>b__11_1, addr 0x22d5ab4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__11_1, addr 0x23062f0, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__11_1();
 
   // Ctor Parameters [CppParam { name: "", ty: "PrivacyPolicyViewController", modifiers: "&&", def_value: None }]

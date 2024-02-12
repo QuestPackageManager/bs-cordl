@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::TutorialNoTransitionInstaller);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11176))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6044))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10318))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5319))
 // CS Name: ::TutorialNoTransitionInstaller*
 class CORDL_TYPE TutorialNoTransitionInstaller : public ::Zenject::NoTransitionInstaller {
 public:
@@ -48,12 +48,12 @@ public:
 
   constexpr void __cordl_internal_set__playerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings* value);
 
-  /// @brief Method InstallBindings, addr 0x231bfc4, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x2347a5c, size 0x40, virtual true, abstract: false, final false
   inline void InstallBindings(::Zenject::DiContainer* container);
 
   static inline ::GlobalNamespace::TutorialNoTransitionInstaller* New_ctor();
 
-  /// @brief Method .ctor, addr 0x231c280, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2347e7c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TutorialNoTransitionInstaller", modifiers: "&&", def_value: None }]

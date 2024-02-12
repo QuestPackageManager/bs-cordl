@@ -9,7 +9,22 @@ namespace GlobalNamespace {
 class GameplayCoreSceneSetupData;
 }
 namespace GlobalNamespace {
+class GameplayModifiers;
+}
+namespace GlobalNamespace {
 class IGamePause;
+}
+namespace GlobalNamespace {
+class MainSettingsModelSO;
+}
+namespace GlobalNamespace {
+class PerformanceConfigurationChecks;
+}
+namespace GlobalNamespace {
+class PerformanceConfigurationStats;
+}
+namespace GlobalNamespace {
+class PlayerSpecificSettings;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -21,11 +36,11 @@ class PerformanceRecorder;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PerformanceRecorder);
 // Type: ::PerformanceRecorder
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5945))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5218))
 // CS Name: ::PerformanceRecorder*
 class CORDL_TYPE PerformanceRecorder : public ::UnityEngine::MonoBehaviour {
 public:
@@ -40,12 +55,36 @@ public:
   __declspec(property(get = __cordl_internal_get__sceneSetupData_k__BackingField,
                       put = __cordl_internal_set__sceneSetupData_k__BackingField))::GlobalNamespace::GameplayCoreSceneSetupData* _sceneSetupData_k__BackingField;
 
-  /// @brief Field frameTimes, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_frameTimes, put = __cordl_internal_set_frameTimes))::System::Collections::Generic::List_1<float_t>* frameTimes;
+  /// @brief Field <mainSettings>k__BackingField, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__mainSettings_k__BackingField,
+                      put = __cordl_internal_set__mainSettings_k__BackingField))::UnityW<::GlobalNamespace::MainSettingsModelSO> _mainSettings_k__BackingField;
+
+  /// @brief Field <playerSpecificSettings>k__BackingField, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__playerSpecificSettings_k__BackingField,
+                      put = __cordl_internal_set__playerSpecificSettings_k__BackingField))::GlobalNamespace::PlayerSpecificSettings* _playerSpecificSettings_k__BackingField;
+
+  /// @brief Field <gameplayModifiers>k__BackingField, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__gameplayModifiers_k__BackingField,
+                      put = __cordl_internal_set__gameplayModifiers_k__BackingField))::GlobalNamespace::GameplayModifiers* _gameplayModifiers_k__BackingField;
+
+  /// @brief Field _frameTimes, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__frameTimes, put = __cordl_internal_set__frameTimes))::System::Collections::Generic::List_1<float_t>* _frameTimes;
+
+  /// @brief Field _configChecks, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__configChecks, put = __cordl_internal_set__configChecks))::GlobalNamespace::PerformanceConfigurationChecks* _configChecks;
+
+  /// @brief Field _configStats, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get__configStats, put = __cordl_internal_set__configStats))::GlobalNamespace::PerformanceConfigurationStats* _configStats;
 
   __declspec(property(get = get_gamePause, put = set_gamePause))::GlobalNamespace::IGamePause* gamePause;
 
   __declspec(property(get = get_sceneSetupData, put = set_sceneSetupData))::GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData;
+
+  __declspec(property(get = get_mainSettings, put = set_mainSettings))::UnityW<::GlobalNamespace::MainSettingsModelSO> mainSettings;
+
+  __declspec(property(get = get_playerSpecificSettings, put = set_playerSpecificSettings))::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings;
+
+  __declspec(property(get = get_gameplayModifiers, put = set_gameplayModifiers))::GlobalNamespace::GameplayModifiers* gameplayModifiers;
 
   constexpr float_t& __cordl_internal_get_minFpsWindow();
 
@@ -65,39 +104,90 @@ public:
 
   constexpr void __cordl_internal_set__sceneSetupData_k__BackingField(::GlobalNamespace::GameplayCoreSceneSetupData* value);
 
-  constexpr ::System::Collections::Generic::List_1<float_t>*& __cordl_internal_get_frameTimes();
+  constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO>& __cordl_internal_get__mainSettings_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<float_t>*> const& __cordl_internal_get_frameTimes() const;
+  constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO> const& __cordl_internal_get__mainSettings_k__BackingField() const;
 
-  constexpr void __cordl_internal_set_frameTimes(::System::Collections::Generic::List_1<float_t>* value);
+  constexpr void __cordl_internal_set__mainSettings_k__BackingField(::UnityW<::GlobalNamespace::MainSettingsModelSO> value);
 
-  /// @brief Method get_gamePause, addr 0x2303fb8, size 0x8, virtual false, abstract: false, final false
+  constexpr ::GlobalNamespace::PlayerSpecificSettings*& __cordl_internal_get__playerSpecificSettings_k__BackingField();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerSpecificSettings*> const& __cordl_internal_get__playerSpecificSettings_k__BackingField() const;
+
+  constexpr void __cordl_internal_set__playerSpecificSettings_k__BackingField(::GlobalNamespace::PlayerSpecificSettings* value);
+
+  constexpr ::GlobalNamespace::GameplayModifiers*& __cordl_internal_get__gameplayModifiers_k__BackingField();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiers*> const& __cordl_internal_get__gameplayModifiers_k__BackingField() const;
+
+  constexpr void __cordl_internal_set__gameplayModifiers_k__BackingField(::GlobalNamespace::GameplayModifiers* value);
+
+  constexpr ::System::Collections::Generic::List_1<float_t>*& __cordl_internal_get__frameTimes();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<float_t>*> const& __cordl_internal_get__frameTimes() const;
+
+  constexpr void __cordl_internal_set__frameTimes(::System::Collections::Generic::List_1<float_t>* value);
+
+  constexpr ::GlobalNamespace::PerformanceConfigurationChecks*& __cordl_internal_get__configChecks();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PerformanceConfigurationChecks*> const& __cordl_internal_get__configChecks() const;
+
+  constexpr void __cordl_internal_set__configChecks(::GlobalNamespace::PerformanceConfigurationChecks* value);
+
+  constexpr ::GlobalNamespace::PerformanceConfigurationStats*& __cordl_internal_get__configStats();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PerformanceConfigurationStats*> const& __cordl_internal_get__configStats() const;
+
+  constexpr void __cordl_internal_set__configStats(::GlobalNamespace::PerformanceConfigurationStats* value);
+
+  /// @brief Method get_gamePause, addr 0x2331a78, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IGamePause* get_gamePause();
 
-  /// @brief Method set_gamePause, addr 0x2303fc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_gamePause, addr 0x2331a80, size 0x8, virtual false, abstract: false, final false
   inline void set_gamePause(::GlobalNamespace::IGamePause* value);
 
-  /// @brief Method get_sceneSetupData, addr 0x2303fc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sceneSetupData, addr 0x2331a88, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayCoreSceneSetupData* get_sceneSetupData();
 
-  /// @brief Method set_sceneSetupData, addr 0x2303fd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_sceneSetupData, addr 0x2331a90, size 0x8, virtual false, abstract: false, final false
   inline void set_sceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData* value);
 
-  /// @brief Method OnEnable, addr 0x2303fd8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_mainSettings, addr 0x2331a98, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::GlobalNamespace::MainSettingsModelSO> get_mainSettings();
+
+  /// @brief Method set_mainSettings, addr 0x2331aa0, size 0x8, virtual false, abstract: false, final false
+  inline void set_mainSettings(::GlobalNamespace::MainSettingsModelSO* value);
+
+  /// @brief Method get_playerSpecificSettings, addr 0x2331aa8, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::PlayerSpecificSettings* get_playerSpecificSettings();
+
+  /// @brief Method set_playerSpecificSettings, addr 0x2331ab0, size 0x8, virtual false, abstract: false, final false
+  inline void set_playerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings* value);
+
+  /// @brief Method get_gameplayModifiers, addr 0x2331ab8, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
+
+  /// @brief Method set_gameplayModifiers, addr 0x2331ac0, size 0x8, virtual false, abstract: false, final false
+  inline void set_gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
+
+  /// @brief Method Awake, addr 0x2331ac8, size 0xc, virtual false, abstract: false, final false
+  inline void Awake();
+
+  /// @brief Method OnEnable, addr 0x2331ad4, size 0x84, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable, addr 0x2304028, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x2331b58, size 0x4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method Update, addr 0x2304250, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2331e40, size 0x170, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method GenerateReports, addr 0x230402c, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method GenerateReports, addr 0x2331b5c, size 0x2e4, virtual false, abstract: false, final false
   inline void GenerateReports();
 
   static inline ::GlobalNamespace::PerformanceRecorder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2304b38, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23325c0, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PerformanceRecorder", modifiers: "&&", def_value: None }]
@@ -123,13 +213,28 @@ public:
   /// @brief Field <sceneSetupData>k__BackingField, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::GameplayCoreSceneSetupData* ____sceneSetupData_k__BackingField;
 
-  /// @brief Field frameTimes, offset: 0x30, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<float_t>* ___frameTimes;
+  /// @brief Field <mainSettings>k__BackingField, offset: 0x30, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::MainSettingsModelSO> ____mainSettings_k__BackingField;
+
+  /// @brief Field <playerSpecificSettings>k__BackingField, offset: 0x38, size: 0x8, def value: None
+  ::GlobalNamespace::PlayerSpecificSettings* ____playerSpecificSettings_k__BackingField;
+
+  /// @brief Field <gameplayModifiers>k__BackingField, offset: 0x40, size: 0x8, def value: None
+  ::GlobalNamespace::GameplayModifiers* ____gameplayModifiers_k__BackingField;
+
+  /// @brief Field _frameTimes, offset: 0x48, size: 0x8, def value: None
+  ::System::Collections::Generic::List_1<float_t>* ____frameTimes;
+
+  /// @brief Field _configChecks, offset: 0x50, size: 0x8, def value: None
+  ::GlobalNamespace::PerformanceConfigurationChecks* ____configChecks;
+
+  /// @brief Field _configStats, offset: 0x58, size: 0x8, def value: None
+  ::GlobalNamespace::PerformanceConfigurationStats* ____configStats;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PerformanceRecorder, 0x38>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PerformanceRecorder, 0x60>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PerformanceRecorder, ___minFpsWindow) == 0x18, "Offset mismatch!");
 
@@ -137,7 +242,17 @@ static_assert(offsetof(::GlobalNamespace::PerformanceRecorder, ____gamePause_k__
 
 static_assert(offsetof(::GlobalNamespace::PerformanceRecorder, ____sceneSetupData_k__BackingField) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PerformanceRecorder, ___frameTimes) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PerformanceRecorder, ____mainSettings_k__BackingField) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PerformanceRecorder, ____playerSpecificSettings_k__BackingField) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PerformanceRecorder, ____gameplayModifiers_k__BackingField) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PerformanceRecorder, ____frameTimes) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PerformanceRecorder, ____configChecks) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PerformanceRecorder, ____configStats) == 0x58, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PerformanceRecorder);

@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::HMUI::PanelAnimationSO);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13510))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8954))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13463))
 // CS Name: ::HMUI::PanelAnimationSO*
 class CORDL_TYPE PanelAnimationSO : public ::UnityEngine::ScriptableObject {
 public:
@@ -78,21 +78,21 @@ public:
 
   constexpr void __cordl_internal_set__parentAlphaAnimationCurve(::UnityEngine::AnimationCurve* value);
 
-  /// @brief Method ExecuteAnimation, addr 0x2118200, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ExecuteAnimation, addr 0x21acadc, size 0x10, virtual false, abstract: false, final false
   inline void ExecuteAnimation(::UnityEngine::GameObject* go);
 
-  /// @brief Method ExecuteAnimation, addr 0x21182dc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ExecuteAnimation, addr 0x21acbb8, size 0x10, virtual false, abstract: false, final false
   inline void ExecuteAnimation(::UnityEngine::GameObject* go, ::System::Action* finishedCallback);
 
-  /// @brief Method ExecuteAnimation, addr 0x21182ec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ExecuteAnimation, addr 0x21acbc8, size 0xc, virtual false, abstract: false, final false
   inline void ExecuteAnimation(::UnityEngine::GameObject* go, ::UnityEngine::CanvasGroup* parentCanvasGroup, ::System::Action* finishedCallback);
 
-  /// @brief Method ExecuteAnimation, addr 0x2118210, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method ExecuteAnimation, addr 0x21acaec, size 0xcc, virtual false, abstract: false, final false
   inline void ExecuteAnimation(::UnityEngine::GameObject* go, ::UnityEngine::CanvasGroup* parentCanvasGroup, bool instant, ::System::Action* finishedCallback);
 
   static inline ::HMUI::PanelAnimationSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21182f8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21acbd4, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PanelAnimationSO", modifiers: "&&", def_value: None }]

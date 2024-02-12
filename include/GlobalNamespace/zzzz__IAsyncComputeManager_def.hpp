@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IAsyncComputeManager);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12774))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12672))
 // CS Name: ::IAsyncComputeManager*
 class CORDL_TYPE IAsyncComputeManager {
 public:

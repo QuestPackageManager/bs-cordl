@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::System::Xml::CharEntityEncoderFallbackBuffer);
 namespace System::Xml {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2845))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11412))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11310))
 // CS Name: ::System.Xml::CharEntityEncoderFallbackBuffer*
 class CORDL_TYPE CharEntityEncoderFallbackBuffer : public ::System::Text::EncoderFallbackBuffer {
 public:
@@ -56,28 +56,28 @@ public:
 
   static inline ::System::Xml::CharEntityEncoderFallbackBuffer* New_ctor(::System::Xml::CharEntityEncoderFallback* parent);
 
-  /// @brief Method .ctor, addr 0x284ea30, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2852098, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::CharEntityEncoderFallback* parent);
 
-  /// @brief Method Fallback, addr 0x284eb28, size 0x1f0, virtual true, abstract: false, final false
+  /// @brief Method Fallback, addr 0x2852190, size 0x1f0, virtual true, abstract: false, final false
   inline bool Fallback(char16_t charUnknown, int32_t index);
 
-  /// @brief Method Fallback, addr 0x284ed18, size 0x280, virtual true, abstract: false, final false
+  /// @brief Method Fallback, addr 0x2852380, size 0x280, virtual true, abstract: false, final false
   inline bool Fallback(char16_t charUnknownHigh, char16_t charUnknownLow, int32_t index);
 
-  /// @brief Method GetNextChar, addr 0x284efa8, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method GetNextChar, addr 0x2852610, size 0x58, virtual true, abstract: false, final false
   inline char16_t GetNextChar();
 
-  /// @brief Method MovePrevious, addr 0x284f000, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method MovePrevious, addr 0x2852668, size 0x20, virtual true, abstract: false, final false
   inline bool MovePrevious();
 
-  /// @brief Method get_Remaining, addr 0x284f020, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method get_Remaining, addr 0x2852688, size 0x34, virtual true, abstract: false, final false
   inline int32_t get_Remaining();
 
-  /// @brief Method Reset, addr 0x284f054, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x28526bc, size 0xc, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method SurrogateCharToUtf32, addr 0x284ef98, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SurrogateCharToUtf32, addr 0x2852600, size 0x10, virtual false, abstract: false, final false
   inline int32_t SurrogateCharToUtf32(char16_t highSurrogate, char16_t lowSurrogate);
 
   // Ctor Parameters [CppParam { name: "", ty: "CharEntityEncoderFallbackBuffer", modifiers: "&&", def_value: None }]

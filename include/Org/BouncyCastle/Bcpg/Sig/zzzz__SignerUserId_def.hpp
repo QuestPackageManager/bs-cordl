@@ -23,20 +23,20 @@ namespace Org::BouncyCastle::Bcpg::Sig {
 class CORDL_TYPE SignerUserId : public ::Org::BouncyCastle::Bcpg::SignatureSubpacket {
 public:
   // Declarations
-  /// @brief Method UserIdToBytes, addr 0x11c8fd8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method UserIdToBytes, addr 0x11f6e68, size 0xa4, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> UserIdToBytes(::StringW id);
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::SignerUserId* New_ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0x11c907c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11f6f0c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::SignerUserId* New_ctor(bool critical, ::StringW userId);
 
-  /// @brief Method .ctor, addr 0x11c90c4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11f6f54, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(bool critical, ::StringW userId);
 
-  /// @brief Method GetId, addr 0x11c9110, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetId, addr 0x11f6fa0, size 0xb4, virtual false, abstract: false, final false
   inline ::StringW GetId();
 
   // Ctor Parameters [CppParam { name: "", ty: "SignerUserId", modifiers: "&&", def_value: None }]

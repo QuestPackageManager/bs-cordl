@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Rendering::GraphicsDeviceType);
 namespace UnityEngine::Rendering {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10342))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9092))
 // CS Name: ::UnityEngine.Rendering::GraphicsDeviceType
 struct CORDL_TYPE GraphicsDeviceType {
 public:

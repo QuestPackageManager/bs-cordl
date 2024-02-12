@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::System::Xml::XmlCDataSection);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11500))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11499))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11398))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11397))
 // CS Name: ::System.Xml::XmlCDataSection*
 class CORDL_TYPE XmlCDataSection : public ::System::Xml::XmlCharacterData {
 public:
@@ -42,25 +42,25 @@ public:
 
   static inline ::System::Xml::XmlCDataSection* New_ctor(::StringW data, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method .ctor, addr 0x2883a74, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28870dc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW data, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method get_Name, addr 0x2883acc, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x2887134, size 0x28, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_LocalName, addr 0x2883af4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x288715c, size 0x28, virtual true, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_NodeType, addr 0x2883b1c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x2887184, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
-  /// @brief Method get_ParentNode, addr 0x2883b24, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method get_ParentNode, addr 0x288718c, size 0x84, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* get_ParentNode();
 
-  /// @brief Method CloneNode, addr 0x2883ba8, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method CloneNode, addr 0x2887210, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* CloneNode(bool deep);
 
-  /// @brief Method get_IsText, addr 0x2883c04, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsText, addr 0x288726c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsText();
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlCDataSection", modifiers: "&&", def_value: None }]

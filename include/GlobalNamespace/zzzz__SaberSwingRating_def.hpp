@@ -16,18 +16,18 @@ MARK_REF_PTR_T(::GlobalNamespace::SaberSwingRating);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4195))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10647))
 // CS Name: ::SaberSwingRating*
 class CORDL_TYPE SaberSwingRating : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method NormalRating, addr 0x2324854, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method NormalRating, addr 0x12687e0, size 0x2c, virtual false, abstract: false, final false
   static inline float_t NormalRating(float_t normalDiff);
 
-  /// @brief Method BeforeCutStepRating, addr 0x2324818, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method BeforeCutStepRating, addr 0x12687a4, size 0x3c, virtual false, abstract: false, final false
   static inline float_t BeforeCutStepRating(float_t angleDiff, float_t normalDiff);
 
-  /// @brief Method AfterCutStepRating, addr 0x2324880, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method AfterCutStepRating, addr 0x126880c, size 0x3c, virtual false, abstract: false, final false
   static inline float_t AfterCutStepRating(float_t angleDiff, float_t normalDiff);
 
   // Ctor Parameters [CppParam { name: "", ty: "SaberSwingRating", modifiers: "&&", def_value: None }]

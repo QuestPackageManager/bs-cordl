@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::__Test_MeshRenderer_Extensions____c);
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9920))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9712))
 // CS Name: ::Test_MeshRenderer_Extensions::<>c*
 class CORDL_TYPE __Test_MeshRenderer_Extensions____c : public ::System::Object {
 public:
@@ -63,13 +63,13 @@ public:
 
   static inline ::HoudiniEngineUnity::__Test_MeshRenderer_Extensions____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21e6330, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x227bc18, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <ToTestObject>b__1_0, addr 0x21e6338, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <ToTestObject>b__1_0, addr 0x227bc20, size 0x64, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::Test_MeshRenderer* _ToTestObject_b__1_0(::UnityEngine::MeshRenderer* lod);
 
-  /// @brief Method <ToTestObject>b__2_0, addr 0x21e639c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <ToTestObject>b__2_0, addr 0x227bc84, size 0x64, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::Test_MeshRenderer* _ToTestObject_b__2_0(::UnityEngine::MeshRenderer* lod);
 
   // Ctor Parameters [CppParam { name: "", ty: "__Test_MeshRenderer_Extensions____c", modifiers: "&&", def_value: None }]
@@ -97,21 +97,21 @@ static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__Test_MeshR
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9921))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9713))
 // CS Name: ::HoudiniEngineUnity::Test_MeshRenderer_Extensions*
 class CORDL_TYPE Test_MeshRenderer_Extensions : public ::System::Object {
 public:
   // Declarations
   using __c = ::HoudiniEngineUnity::__Test_MeshRenderer_Extensions____c;
 
-  /// @brief Method ToTestObject, addr 0x21e238c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x2277c74, size 0x64, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::Test_MeshRenderer* ToTestObject(::UnityEngine::MeshRenderer* self);
 
-  /// @brief Method ToTestObject, addr 0x21e60d8, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x227b9c0, size 0xf8, virtual false, abstract: false, final false
   static inline ::ArrayW<::HoudiniEngineUnity::Test_MeshRenderer*, ::Array<::HoudiniEngineUnity::Test_MeshRenderer*>*>
   ToTestObject(::ArrayW<::UnityEngine::MeshRenderer*, ::Array<::UnityEngine::MeshRenderer*>*> self);
 
-  /// @brief Method ToTestObject, addr 0x21e61d0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x227bab8, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_MeshRenderer*>* ToTestObject(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshRenderer>>* self);
 
   // Ctor Parameters [CppParam { name: "", ty: "Test_MeshRenderer_Extensions", modifiers: "&&", def_value: None }]

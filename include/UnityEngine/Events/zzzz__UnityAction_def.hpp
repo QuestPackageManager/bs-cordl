@@ -19,17 +19,17 @@ MARK_REF_PTR_T(::UnityEngine::Events::UnityAction);
 namespace UnityEngine::Events {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10470))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9239))
 // CS Name: ::UnityEngine.Events::UnityAction*
 class CORDL_TYPE UnityAction : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::UnityEngine::Events::UnityAction* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2cfa270, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d04f4c, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x2cfa32c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2d05008, size 0x14, virtual true, abstract: false, final false
   inline void Invoke();
 
   // Ctor Parameters [CppParam { name: "", ty: "UnityAction", modifiers: "&&", def_value: None }]

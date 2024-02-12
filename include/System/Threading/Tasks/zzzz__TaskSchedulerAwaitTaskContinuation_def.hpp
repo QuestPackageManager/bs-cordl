@@ -59,10 +59,10 @@ public:
 
   static inline ::System::Threading::Tasks::__TaskSchedulerAwaitTaskContinuation____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x262c2d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26523fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Run>b__2_0, addr 0x262c2e0, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method <Run>b__2_0, addr 0x2652404, size 0xf0, virtual false, abstract: false, final false
   inline void _Run_b__2_0(::System::Object* state);
 
   // Ctor Parameters [CppParam { name: "", ty: "__TaskSchedulerAwaitTaskContinuation____c", modifiers: "&&", def_value: None }]
@@ -108,10 +108,10 @@ public:
 
   static inline ::System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation* New_ctor(::System::Threading::Tasks::TaskScheduler* scheduler, ::System::Action* action, bool flowExecutionContext);
 
-  /// @brief Method .ctor, addr 0x262696c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x264ca90, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::TaskScheduler* scheduler, ::System::Action* action, bool flowExecutionContext);
 
-  /// @brief Method Run, addr 0x262be84, size 0x244, virtual true, abstract: false, final true
+  /// @brief Method Run, addr 0x2651fa8, size 0x244, virtual true, abstract: false, final true
   inline void Run(::System::Threading::Tasks::Task* ignored, bool canInlineContinuationTask);
 
   // Ctor Parameters [CppParam { name: "", ty: "TaskSchedulerAwaitTaskContinuation", modifiers: "&&", def_value: None }]

@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MockObstacleData);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14760))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15512))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15144))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15698))
 // CS Name: ::MockObstacleData*
 class CORDL_TYPE MockObstacleData : public ::System::Object {
 public:
@@ -81,39 +81,39 @@ public:
 
   constexpr void __cordl_internal_set__width_k__BackingField(int32_t value);
 
-  /// @brief Method get_time, addr 0x23e6e28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_time, addr 0x2406c9c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_time();
 
-  /// @brief Method set_time, addr 0x23e6e30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_time, addr 0x2406ca4, size 0x8, virtual false, abstract: false, final false
   inline void set_time(float_t value);
 
-  /// @brief Method get_lineIndex, addr 0x23e6e38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lineIndex, addr 0x2406cac, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_lineIndex();
 
-  /// @brief Method set_lineIndex, addr 0x23e6e40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lineIndex, addr 0x2406cb4, size 0x8, virtual false, abstract: false, final false
   inline void set_lineIndex(int32_t value);
 
-  /// @brief Method get_lineLayer, addr 0x23e6e48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lineLayer, addr 0x2406cbc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteLineLayer get_lineLayer();
 
-  /// @brief Method set_lineLayer, addr 0x23e6e50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lineLayer, addr 0x2406cc4, size 0x8, virtual false, abstract: false, final false
   inline void set_lineLayer(::GlobalNamespace::NoteLineLayer value);
 
-  /// @brief Method get_duration, addr 0x23e6e58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_duration, addr 0x2406ccc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_duration();
 
-  /// @brief Method set_duration, addr 0x23e6e60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_duration, addr 0x2406cd4, size 0x8, virtual false, abstract: false, final false
   inline void set_duration(float_t value);
 
-  /// @brief Method get_width, addr 0x23e6e68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_width, addr 0x2406cdc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_width();
 
-  /// @brief Method set_width, addr 0x23e6e70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_width, addr 0x2406ce4, size 0x8, virtual false, abstract: false, final false
   inline void set_width(int32_t value);
 
   static inline ::GlobalNamespace::MockObstacleData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23e6e78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2406cec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MockObstacleData", modifiers: "&&", def_value: None }]

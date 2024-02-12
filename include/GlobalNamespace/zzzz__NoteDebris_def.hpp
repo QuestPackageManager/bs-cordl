@@ -61,8 +61,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__NoteDebris__Pool);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4773))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4124))
 // CS Name: ::NoteDebris*
 class CORDL_TYPE NoteDebris : public ::UnityEngine::MonoBehaviour {
 public:
@@ -198,23 +198,23 @@ public:
 
   static inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> getStaticF__meshVertices();
 
-  /// @brief Method get_didFinishEvent, addr 0x238797c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_didFinishEvent, addr 0x22cf4bc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteDebrisDidFinishEvent*>* get_didFinishEvent();
 
-  /// @brief Method Awake, addr 0x2387984, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x22cf4c4, size 0x98, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Update, addr 0x2387a1c, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x22cf55c, size 0x27c, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method Init, addr 0x2387c98, size 0x570, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x22cf7d8, size 0x570, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::ColorType colorType, ::UnityEngine::Vector3 notePos, ::UnityEngine::Quaternion noteRot, ::UnityEngine::Vector3 noteMoveVec, ::UnityEngine::Vector3 noteScale,
                    ::UnityEngine::Vector3 positionOffset, ::UnityEngine::Quaternion rotationOffset, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Vector3 cutNormal, ::UnityEngine::Vector3 force,
                    ::UnityEngine::Vector3 torque, float_t lifeTime);
 
   static inline ::GlobalNamespace::NoteDebris* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2388208, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22cfd48, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NoteDebris", modifiers: "&&", def_value: None }]
@@ -291,14 +291,14 @@ static_assert(offsetof(::GlobalNamespace::NoteDebris, ____didFinishEvent) == 0x5
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4773)), TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
-// 2824 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4772)) CS Name: ::NoteDebris::Pool*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4124)), TypeDefinitionIndex(TypeDefinitionIndex(10192)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10192), inst:
+// 2794 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4123)) CS Name: ::NoteDebris::Pool*
 class CORDL_TYPE __NoteDebris__Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::NoteDebris>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__NoteDebris__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23883a8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22cfee8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__NoteDebris__Pool", modifiers: "&&", def_value: None }]

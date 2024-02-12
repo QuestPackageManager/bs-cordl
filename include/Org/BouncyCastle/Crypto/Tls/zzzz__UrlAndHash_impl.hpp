@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::UrlAndHash::*)(::StringW, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Crypto::Tls::UrlAndHash::_ctor)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0xfbfd70;
+  constexpr static std::size_t addrs = 0xfebc00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Tls::UrlAndHash::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::UrlAndHash::get_Url)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xfbfe58;
+  constexpr static std::size_t addrs = 0xfebce8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Tls::UrlAndHash::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::UrlAndHash::get_Sha1Hash)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xfbfe60;
+  constexpr static std::size_t addrs = 0xfebcf0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::UrlAndHash::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Crypto::Tls::UrlAndHash::Encode)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0xfbfe68;
+  constexpr static std::size_t addrs = 0xfebcf8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Crypto::Tls::UrlAndHash* (*)(::Org::BouncyCastle::Crypto::Tls::TlsContext*, ::System::IO::Stream*)>(&::Org::BouncyCastle::Crypto::Tls::UrlAndHash::Parse)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0xfbff68;
+  constexpr static std::size_t addrs = 0xfebdf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

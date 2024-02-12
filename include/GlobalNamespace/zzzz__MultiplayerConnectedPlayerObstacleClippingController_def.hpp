@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingCont
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5140))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4478))
 // CS Name: ::MultiplayerConnectedPlayerObstacleClippingController*
 class CORDL_TYPE MultiplayerConnectedPlayerObstacleClippingController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -56,12 +56,12 @@ public:
 
   static inline int32_t getStaticF__clippingPlaneNormalID();
 
-  /// @brief Method SetClippingParams, addr 0x23d7a5c, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method SetClippingParams, addr 0x2391614, size 0x14c, virtual false, abstract: false, final false
   inline void SetClippingParams(::UnityEngine::Vector3 position, ::UnityEngine::Vector3 normal);
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23d7ba8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2391760, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerObstacleClippingController", modifiers: "&&", def_value: None }]

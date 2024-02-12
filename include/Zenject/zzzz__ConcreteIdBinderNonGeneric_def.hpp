@@ -29,18 +29,18 @@ MARK_REF_PTR_T(::Zenject::ConcreteIdBinderNonGeneric);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10672))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10674))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9814))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9816))
 // CS Name: ::Zenject::ConcreteIdBinderNonGeneric*
 class CORDL_TYPE ConcreteIdBinderNonGeneric : public ::Zenject::ConcreteBinderNonGeneric {
 public:
   // Declarations
   static inline ::Zenject::ConcreteIdBinderNonGeneric* New_ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::BindStatement* bindStatement);
 
-  /// @brief Method .ctor, addr 0x2ec739c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ee34e4, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::BindStatement* bindStatement);
 
-  /// @brief Method WithId, addr 0x2ec73d0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method WithId, addr 0x2ee3518, size 0x1c, virtual false, abstract: false, final false
   inline ::Zenject::ConcreteBinderNonGeneric* WithId(::System::Object* identifier);
 
   // Ctor Parameters [CppParam { name: "", ty: "ConcreteIdBinderNonGeneric", modifiers: "&&", def_value: None }]

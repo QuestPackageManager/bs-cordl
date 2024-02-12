@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::CullingGroupEvent);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10146))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8886))
 // CS Name: ::UnityEngine::CullingGroupEvent
 struct CORDL_TYPE CullingGroupEvent {
 public:

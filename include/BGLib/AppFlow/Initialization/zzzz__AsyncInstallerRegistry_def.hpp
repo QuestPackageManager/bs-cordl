@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::BGLib::AppFlow::Initialization::AsyncInstallerRegistry);
 namespace BGLib::AppFlow::Initialization {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15423))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15469))
 // CS Name: ::BGLib.AppFlow.Initialization::AsyncInstallerRegistry*
 class CORDL_TYPE AsyncInstallerRegistry : public ::System::Object {
 public:
@@ -57,15 +57,15 @@ public:
 
   constexpr void __cordl_internal_set_scriptableObjectInstallers(::System::Collections::Generic::List_1<::UnityW<::Zenject::ScriptableObjectInstaller>>* value);
 
-  /// @brief Method AddMonoInstaller, addr 0xe23c34, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method AddMonoInstaller, addr 0xe45338, size 0xa8, virtual true, abstract: false, final true
   inline void AddMonoInstaller(::Zenject::MonoInstaller* newMonoInstaller);
 
-  /// @brief Method AddScriptableObjectInstaller, addr 0xe23cdc, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method AddScriptableObjectInstaller, addr 0xe453e0, size 0xa8, virtual true, abstract: false, final true
   inline void AddScriptableObjectInstaller(::Zenject::ScriptableObjectInstaller* newScriptableObjectInstaller);
 
   static inline ::BGLib::AppFlow::Initialization::AsyncInstallerRegistry* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe23d84, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe45488, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AsyncInstallerRegistry", modifiers: "&&", def_value: None }]

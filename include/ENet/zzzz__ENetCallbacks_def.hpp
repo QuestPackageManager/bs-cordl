@@ -24,7 +24,7 @@ MARK_VAL_T(::ENet::ENetCallbacks);
 namespace ENet {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15220))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15333))
 // CS Name: ::ENet::ENetCallbacks
 struct CORDL_TYPE ENetCallbacks {
 public:

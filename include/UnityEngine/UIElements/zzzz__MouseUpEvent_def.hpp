@@ -26,33 +26,33 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::MouseUpEvent);
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7215)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7215), inst: 4649 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7217))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6474)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6474), inst: 4630 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6476))
 // CS Name: ::UnityEngine.UIElements::MouseUpEvent*
 class CORDL_TYPE MouseUpEvent : public ::UnityEngine::UIElements::MouseEventBase_1<::UnityEngine::UIElements::MouseUpEvent*> {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x2e51074, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x2e6c45c, size 0x54, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x2e510c8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x2e6c4b0, size 0xc, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::MouseUpEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e510d4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e6c4bc, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method MakeFromPointerEvent, addr 0x2e51128, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method MakeFromPointerEvent, addr 0x2e6c510, size 0x18c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::MouseUpEvent* MakeFromPointerEvent(::UnityEngine::UIElements::IPointerEvent* pointerEvent);
 
-  /// @brief Method GetPooled, addr 0x2e50100, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x2e6b4e8, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::MouseUpEvent* GetPooled(::UnityEngine::UIElements::PointerUpEvent* pointerEvent);
 
-  /// @brief Method GetPooled, addr 0x2e4fa40, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x2e6ae28, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::MouseUpEvent* GetPooled(::UnityEngine::UIElements::PointerMoveEvent* pointerEvent);
 
-  /// @brief Method GetPooled, addr 0x2e505d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x2e6b9c0, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::MouseUpEvent* GetPooled(::UnityEngine::UIElements::PointerCancelEvent* pointerEvent);
 
   // Ctor Parameters [CppParam { name: "", ty: "MouseUpEvent", modifiers: "&&", def_value: None }]

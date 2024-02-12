@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Shapes::Cone);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Shapes {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12233))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12225))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12131))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12123))
 // CS Name: ::UnityEngine.ProBuilder.Shapes::Cone*
 class CORDL_TYPE Cone : public ::UnityEngine::ProBuilder::Shapes::Shape {
 public:
@@ -64,18 +64,18 @@ public:
 
   constexpr void __cordl_internal_set_m_Smooth(bool value);
 
-  /// @brief Method CopyShape, addr 0x2b87aec, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method CopyShape, addr 0x2b86658, size 0x84, virtual true, abstract: false, final false
   inline void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* shape);
 
-  /// @brief Method UpdateBounds, addr 0x2b87b70, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method UpdateBounds, addr 0x2b866dc, size 0x174, virtual true, abstract: false, final false
   inline ::UnityEngine::Bounds UpdateBounds(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation, ::UnityEngine::Bounds bounds);
 
-  /// @brief Method RebuildMesh, addr 0x2b87ce4, size 0xc4c, virtual true, abstract: false, final false
+  /// @brief Method RebuildMesh, addr 0x2b86850, size 0xc4c, virtual true, abstract: false, final false
   inline ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
 
   static inline ::UnityEngine::ProBuilder::Shapes::Cone* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2b88930, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b8749c, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Cone", modifiers: "&&", def_value: None }]

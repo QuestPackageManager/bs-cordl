@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::Util::AsyncOpHandlesCacheKey);
 namespace UnityEngine::ResourceManagement::Util {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13972))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13985))
 // CS Name: ::UnityEngine.ResourceManagement.Util::AsyncOpHandlesCacheKey*
 class CORDL_TYPE AsyncOpHandlesCacheKey : public ::System::Object {
 public:
@@ -65,19 +65,19 @@ public:
   static inline ::UnityEngine::ResourceManagement::Util::AsyncOpHandlesCacheKey*
   New_ctor(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* handles);
 
-  /// @brief Method .ctor, addr 0x2bcd0c4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bcac30, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* handles);
 
-  /// @brief Method GetHashCode, addr 0x2bd1e9c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2bcfa08, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Equals, addr 0x2bd1ebc, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2bcfa28, size 0x64, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x2bd1f9c, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2bcfb08, size 0x64, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::ResourceManagement::Util::IOperationCacheKey* other);
 
-  /// @brief Method Equals, addr 0x2bd1f20, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x2bcfa8c, size 0x7c, virtual false, abstract: false, final false
   inline bool Equals(::UnityEngine::ResourceManagement::Util::AsyncOpHandlesCacheKey* other);
 
   // Ctor Parameters [CppParam { name: "", ty: "AsyncOpHandlesCacheKey", modifiers: "&&", def_value: None }]

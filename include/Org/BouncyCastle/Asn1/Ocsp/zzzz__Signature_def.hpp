@@ -73,41 +73,41 @@ public:
 
   constexpr void __cordl_internal_set_certs(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method GetInstance, addr 0xf80f74, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xfabe04, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::Signature* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0xf83eb4, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xfaed44, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::Signature* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::Signature* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* signatureAlgorithm, ::Org::BouncyCastle::Asn1::DerBitString* signatureValue);
 
-  /// @brief Method .ctor, addr 0xf841a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfaf038, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* signatureAlgorithm, ::Org::BouncyCastle::Asn1::DerBitString* signatureValue);
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::Signature* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* signatureAlgorithm, ::Org::BouncyCastle::Asn1::DerBitString* signatureValue,
                                                                      ::Org::BouncyCastle::Asn1::Asn1Sequence* certs);
 
-  /// @brief Method .ctor, addr 0xf841b0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfaf040, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* signatureAlgorithm, ::Org::BouncyCastle::Asn1::DerBitString* signatureValue, ::Org::BouncyCastle::Asn1::Asn1Sequence* certs);
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::Signature* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xf8403c, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfaeecc, size 0x16c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_SignatureAlgorithm, addr 0xf84264, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SignatureAlgorithm, addr 0xfaf0f4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_SignatureAlgorithm();
 
-  /// @brief Method get_SignatureValue, addr 0xf8426c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SignatureValue, addr 0xfaf0fc, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerBitString* get_SignatureValue();
 
-  /// @brief Method GetSignatureOctets, addr 0xf84274, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetSignatureOctets, addr 0xfaf104, size 0x20, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSignatureOctets();
 
-  /// @brief Method get_Certs, addr 0xf84294, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Certs, addr 0xfaf124, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Sequence* get_Certs();
 
-  /// @brief Method ToAsn1Object, addr 0xf8429c, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xfaf12c, size 0x140, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "Signature", modifiers: "&&", def_value: None }]

@@ -51,16 +51,16 @@ public:
   static inline ::Org::BouncyCastle::Cms::KeyTransRecipientInformation* New_ctor(::Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo* info,
                                                                                  ::Org::BouncyCastle::Cms::CmsSecureReadable* secureReadable);
 
-  /// @brief Method .ctor, addr 0x11e3700, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1210590, size 0x21c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo* info, ::Org::BouncyCastle::Cms::CmsSecureReadable* secureReadable);
 
-  /// @brief Method GetExchangeEncryptionAlgorithmName, addr 0x1205048, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method GetExchangeEncryptionAlgorithmName, addr 0x1231ed8, size 0x1c4, virtual false, abstract: false, final false
   inline ::StringW GetExchangeEncryptionAlgorithmName(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algo);
 
-  /// @brief Method UnwrapKey, addr 0x120520c, size 0x388, virtual false, abstract: false, final false
+  /// @brief Method UnwrapKey, addr 0x123209c, size 0x388, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* UnwrapKey(::Org::BouncyCastle::Crypto::ICipherParameters* key);
 
-  /// @brief Method GetContentStream, addr 0x1205594, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetContentStream, addr 0x1232424, size 0x1c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::CmsTypedStream* GetContentStream(::Org::BouncyCastle::Crypto::ICipherParameters* key);
 
   // Ctor Parameters [CppParam { name: "", ty: "KeyTransRecipientInformation", modifiers: "&&", def_value: None }]

@@ -28,8 +28,8 @@ MARK_VAL_T(::UnityEngine::InputSystem::XR::Haptics::GetCurrentHapticStateCommand
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::XR::Haptics {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6471))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6344))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5730))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5603))
 // CS Name: ::UnityEngine.InputSystem.XR.Haptics::GetCurrentHapticStateCommand
 #pragma pack(push, 0)
 struct CORDL_TYPE GetCurrentHapticStateCommand {
@@ -72,16 +72,16 @@ public:
 
   constexpr void __cordl_internal_set_samplesAvailable(uint32_t value);
 
-  /// @brief Method get_Type, addr 0x2ac97ec, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x2aca358, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();
 
-  /// @brief Method get_typeStatic, addr 0x2ac981c, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x2aca388, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
-  /// @brief Method get_currentState, addr 0x2ac984c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_currentState, addr 0x2aca3b8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::XR::Haptics::HapticState get_currentState();
 
-  /// @brief Method Create, addr 0x2ac9854, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2aca3c0, size 0x50, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::XR::Haptics::GetCurrentHapticStateCommand Create();
 
   // Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: None }, CppParam { name: "samplesQueued", ty:

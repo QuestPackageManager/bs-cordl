@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::System::Net::HttpValidationHelpers);
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9022))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7032))
 // CS Name: ::System.Net::HttpValidationHelpers*
 class CORDL_TYPE HttpValidationHelpers : public ::System::Object {
 public:
@@ -29,7 +29,7 @@ public:
 
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_s_httpTrimCharacters();
 
-  /// @brief Method IsInvalidMethodOrHeaderString, addr 0x2988ce0, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method IsInvalidMethodOrHeaderString, addr 0x298c784, size 0x100, virtual false, abstract: false, final false
   static inline bool IsInvalidMethodOrHeaderString(::StringW stringValue);
 
   // Ctor Parameters [CppParam { name: "", ty: "HttpValidationHelpers", modifiers: "&&", def_value: None }]

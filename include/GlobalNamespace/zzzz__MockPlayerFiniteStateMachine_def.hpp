@@ -39,7 +39,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MockPlayerFiniteStateMachine);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15514))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15700))
 // CS Name: ::MockPlayerFiniteStateMachine*
 class CORDL_TYPE MockPlayerFiniteStateMachine : public ::System::Object {
 public:
@@ -68,51 +68,51 @@ public:
                                                                           ::GlobalNamespace::MockPlayerLobbyPoseGenerator* lobbyPoseGenerator,
                                                                           ::GlobalNamespace::MockPlayerGamePoseGenerator* gamePoseGenerator);
 
-  /// @brief Method .ctor, addr 0x23e708c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2406eec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager,
                     ::GlobalNamespace::IMenuRpcManager* menuRpcManager, ::GlobalNamespace::IMockBeatmapDataProvider* beatmapDataProvider,
                     ::GlobalNamespace::MockPlayerLobbyPoseGenerator* lobbyPoseGenerator, ::GlobalNamespace::MockPlayerGamePoseGenerator* gamePoseGenerator);
 
-  /// @brief Method get_saberAColor, addr 0x23e7094, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_saberAColor, addr 0x2406ef4, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_saberAColor();
 
-  /// @brief Method set_saberAColor, addr 0x23e70a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_saberAColor, addr 0x2406f08, size 0x4, virtual false, abstract: false, final false
   inline void set_saberAColor(::UnityEngine::Color value);
 
-  /// @brief Method get_saberBColor, addr 0x23e70ac, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_saberBColor, addr 0x2406f0c, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_saberBColor();
 
-  /// @brief Method set_saberBColor, addr 0x23e70c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_saberBColor, addr 0x2406f20, size 0x4, virtual false, abstract: false, final false
   inline void set_saberBColor(::UnityEngine::Color value);
 
-  /// @brief Method get_obstaclesColor, addr 0x23e70c4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_obstaclesColor, addr 0x2406f24, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_obstaclesColor();
 
-  /// @brief Method set_obstaclesColor, addr 0x23e70d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_obstaclesColor, addr 0x2406f38, size 0x4, virtual false, abstract: false, final false
   inline void set_obstaclesColor(::UnityEngine::Color value);
 
-  /// @brief Method get_leftHanded, addr 0x23e70dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftHanded, addr 0x2406f3c, size 0x8, virtual false, abstract: false, final false
   inline bool get_leftHanded();
 
-  /// @brief Method set_leftHanded, addr 0x23e70e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_leftHanded, addr 0x2406f44, size 0x4, virtual false, abstract: false, final false
   inline void set_leftHanded(bool value);
 
-  /// @brief Method get_inactiveByDefault, addr 0x23e70e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_inactiveByDefault, addr 0x2406f48, size 0x8, virtual false, abstract: false, final false
   inline bool get_inactiveByDefault();
 
-  /// @brief Method set_inactiveByDefault, addr 0x23e70f0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_inactiveByDefault, addr 0x2406f50, size 0x4, virtual false, abstract: false, final false
   inline void set_inactiveByDefault(bool value);
 
-  /// @brief Method get_gamePoseGenerator, addr 0x23e70f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gamePoseGenerator, addr 0x2406f54, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MockPlayerGamePoseGenerator* get_gamePoseGenerator();
 
-  /// @brief Method Tick, addr 0x23e70fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Tick, addr 0x2406f5c, size 0x4, virtual false, abstract: false, final false
   inline void Tick();
 
-  /// @brief Method Dispose, addr 0x23e7100, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2406f60, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method SetIsReady, addr 0x23e7104, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetIsReady, addr 0x2406f64, size 0x4, virtual false, abstract: false, final false
   inline void SetIsReady(bool isReady);
 
   // Ctor Parameters [CppParam { name: "", ty: "MockPlayerFiniteStateMachine", modifiers: "&&", def_value: None }]

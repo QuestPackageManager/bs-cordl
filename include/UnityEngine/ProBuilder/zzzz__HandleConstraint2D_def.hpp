@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::HandleConstraint2D);
 namespace UnityEngine::ProBuilder {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12126))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12024))
 // CS Name: ::UnityEngine.ProBuilder::HandleConstraint2D*
 class CORDL_TYPE HandleConstraint2D : public ::System::Object {
 public:
@@ -55,31 +55,31 @@ public:
 
   static inline ::UnityEngine::ProBuilder::HandleConstraint2D* New_ctor(int32_t x, int32_t y);
 
-  /// @brief Method .ctor, addr 0x2b4244c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b40fb8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(int32_t x, int32_t y);
 
-  /// @brief Method Inverse, addr 0x2b42478, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Inverse, addr 0x2b40fe4, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::HandleConstraint2D* Inverse();
 
-  /// @brief Method Mask, addr 0x2b424f8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Mask, addr 0x2b41064, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 Mask(::UnityEngine::Vector2 v);
 
-  /// @brief Method InverseMask, addr 0x2b42510, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method InverseMask, addr 0x2b4107c, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 InverseMask(::UnityEngine::Vector2 v);
 
-  /// @brief Method op_Equality, addr 0x2b42538, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x2b410a4, size 0x40, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::ProBuilder::HandleConstraint2D* a, ::UnityEngine::ProBuilder::HandleConstraint2D* b);
 
-  /// @brief Method op_Inequality, addr 0x2b42578, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x2b410e4, size 0x40, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::ProBuilder::HandleConstraint2D* a, ::UnityEngine::ProBuilder::HandleConstraint2D* b);
 
-  /// @brief Method GetHashCode, addr 0x2b425b8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2b41124, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Equals, addr 0x2b425c0, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2b4112c, size 0x80, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method ToString, addr 0x2b42640, size 0x1a4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2b411ac, size 0x1a4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "HandleConstraint2D", modifiers: "&&", def_value: None }]

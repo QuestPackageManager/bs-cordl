@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::GlobalNamespace::GameLiftClientConnectionRequestHandler);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12731))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12629))
 // CS Name: ::GameLiftClientConnectionRequestHandler*
 class CORDL_TYPE GameLiftClientConnectionRequestHandler : public ::System::Object {
 public:
@@ -48,21 +48,21 @@ public:
 
   constexpr void __cordl_internal_set__playerSessionId_k__BackingField(::StringW value);
 
-  /// @brief Method get_playerSessionId, addr 0xe36b84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerSessionId, addr 0xe619bc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_playerSessionId();
 
-  /// @brief Method set_playerSessionId, addr 0xe36b8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_playerSessionId, addr 0xe619c4, size 0x8, virtual false, abstract: false, final false
   inline void set_playerSessionId(::StringW value);
 
-  /// @brief Method GetConnectionMessage, addr 0xe36b94, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method GetConnectionMessage, addr 0xe619cc, size 0x70, virtual true, abstract: false, final true
   inline void GetConnectionMessage(::LiteNetLib::Utils::NetDataWriter* writer, ::StringW userId, ::StringW userName, bool isConnectionOwner);
 
-  /// @brief Method ValidateConnectionMessage, addr 0xe36c04, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method ValidateConnectionMessage, addr 0xe61a3c, size 0x14, virtual true, abstract: false, final true
   inline bool ValidateConnectionMessage(::LiteNetLib::Utils::NetDataReader* reader, ByRef<::StringW> userId, ByRef<::StringW> userName, ByRef<bool> isConnectionOwner);
 
   static inline ::GlobalNamespace::GameLiftClientConnectionRequestHandler* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe36c18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe61a50, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GameLiftClientConnectionRequestHandler", modifiers: "&&", def_value: None }]

@@ -36,8 +36,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TStateTable, typename TType, typename TState>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14947)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14947), inst: 3832 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14948))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14820)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14820), inst: 3815 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14821))
 // CS Name: ::LocalMultiplayerSyncState`3<TStateTable,TType,TState>*
 class CORDL_TYPE LocalMultiplayerSyncState_3 : public ::GlobalNamespace::MultiplayerSyncState_3<TStateTable, TType, TState> {
 public:

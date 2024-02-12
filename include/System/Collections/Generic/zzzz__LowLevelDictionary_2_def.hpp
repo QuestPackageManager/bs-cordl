@@ -36,7 +36,7 @@ namespace System::Collections::Generic {
 template <typename TKey, typename TValue>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3848))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3847))
 // CS Name: ::LowLevelDictionary`2::Entry<TKey,TValue>*
 class CORDL_TYPE __LowLevelDictionary_2__Entry : public ::System::Object {
 public:
@@ -107,7 +107,7 @@ namespace System::Collections::Generic {
 template <typename TKey, typename TValue, typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3849))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3848))
 // CS Name: ::LowLevelDictionary`2::DefaultComparer`1<TKey,TValue,T>*
 class CORDL_TYPE __LowLevelDictionary_2__DefaultComparer_1 : public ::System::Object {
 public:
@@ -154,7 +154,7 @@ namespace System::Collections::Generic {
 template <typename TKey, typename TValue>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3850))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3849))
 // CS Name: ::System.Collections.Generic::LowLevelDictionary`2<TKey,TValue>*
 class CORDL_TYPE LowLevelDictionary_2 : public ::System::Object {
 public:

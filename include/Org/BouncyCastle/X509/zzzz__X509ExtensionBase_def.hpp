@@ -45,24 +45,24 @@ public:
   /// @brief Method GetX509Extensions, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* GetX509Extensions();
 
-  /// @brief Method GetExtensionOids, addr 0x109b7f4, size 0x3f0, virtual true, abstract: false, final false
+  /// @brief Method GetExtensionOids, addr 0x10c8684, size 0x3f0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Collections::ISet* GetExtensionOids(bool critical);
 
-  /// @brief Method GetNonCriticalExtensionOids, addr 0x109bbe4, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method GetNonCriticalExtensionOids, addr 0x10c8a74, size 0x10, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Collections::ISet* GetNonCriticalExtensionOids();
 
-  /// @brief Method GetCriticalExtensionOids, addr 0x109bbf4, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method GetCriticalExtensionOids, addr 0x10c8a84, size 0x10, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Collections::ISet* GetCriticalExtensionOids();
 
-  /// @brief Method GetExtensionValue, addr 0x109bc04, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method GetExtensionValue, addr 0x10c8a94, size 0x7c, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* GetExtensionValue(::StringW oid);
 
-  /// @brief Method GetExtensionValue, addr 0x109bc80, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetExtensionValue, addr 0x10c8b10, size 0x38, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* GetExtensionValue(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
   static inline ::Org::BouncyCastle::X509::X509ExtensionBase* New_ctor();
 
-  /// @brief Method .ctor, addr 0x109bcb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10c8b48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "X509ExtensionBase", modifiers: "&&", def_value: None }]

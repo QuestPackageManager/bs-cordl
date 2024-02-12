@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::UnityEngine::ExcludeFromObjectFactoryAttribute);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10232))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8976))
 // CS Name: ::UnityEngine::ExcludeFromObjectFactoryAttribute*
 class CORDL_TYPE ExcludeFromObjectFactoryAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::UnityEngine::ExcludeFromObjectFactoryAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2cd3670, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cda618, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ExcludeFromObjectFactoryAttribute", modifiers: "&&", def_value: None }]

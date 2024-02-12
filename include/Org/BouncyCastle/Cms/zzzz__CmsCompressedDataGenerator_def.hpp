@@ -29,10 +29,10 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Cms::CmsCompressedDataGenerator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x11dcb44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x120a9d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Generate, addr 0x11dcb4c, size 0x3ec, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x120a9dc, size 0x3ec, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::CmsCompressedData* Generate(::Org::BouncyCastle::Cms::CmsProcessable* content, ::StringW compressionOid);
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsCompressedDataGenerator", modifiers: "&&", def_value: None }]

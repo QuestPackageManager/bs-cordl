@@ -36,8 +36,8 @@ MARK_REF_PTR_T(::UnityEngine::TextCore::Text::TextInfo);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 97, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10243))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13713))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8987))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13666))
 // CS Name: ::UnityEngine.TextCore.Text::TextInfo*
 class CORDL_TYPE TextInfo : public ::System::Object {
 public:
@@ -199,16 +199,16 @@ public:
 
   static inline ::UnityEngine::TextCore::Text::TextInfo* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d47fa8, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d66a50, size 0x134, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Clear, addr 0x2d480dc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x2d66b84, size 0x5c, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method ClearMeshInfo, addr 0x2d48138, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ClearMeshInfo, addr 0x2d66be0, size 0x80, virtual false, abstract: false, final false
   inline void ClearMeshInfo(bool updateMesh);
 
-  /// @brief Method ClearLineInfo, addr 0x2d481e4, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method ClearLineInfo, addr 0x2d66c8c, size 0x16c, virtual false, abstract: false, final false
   inline void ClearLineInfo();
 
   /// @brief Method Resize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

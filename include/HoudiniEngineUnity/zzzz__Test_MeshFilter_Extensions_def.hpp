@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::__Test_MeshFilter_Extensions____c);
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9923))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9715))
 // CS Name: ::Test_MeshFilter_Extensions::<>c*
 class CORDL_TYPE __Test_MeshFilter_Extensions____c : public ::System::Object {
 public:
@@ -63,13 +63,13 @@ public:
 
   static inline ::HoudiniEngineUnity::__Test_MeshFilter_Extensions____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21e6880, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x227c168, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <ToTestObject>b__1_0, addr 0x21e6888, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <ToTestObject>b__1_0, addr 0x227c170, size 0x64, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::Test_MeshFilter* _ToTestObject_b__1_0(::UnityEngine::MeshFilter* lod);
 
-  /// @brief Method <ToTestObject>b__2_0, addr 0x21e68ec, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <ToTestObject>b__2_0, addr 0x227c1d4, size 0x64, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::Test_MeshFilter* _ToTestObject_b__2_0(::UnityEngine::MeshFilter* lod);
 
   // Ctor Parameters [CppParam { name: "", ty: "__Test_MeshFilter_Extensions____c", modifiers: "&&", def_value: None }]
@@ -97,21 +97,21 @@ static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__Test_MeshF
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9924))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9716))
 // CS Name: ::HoudiniEngineUnity::Test_MeshFilter_Extensions*
 class CORDL_TYPE Test_MeshFilter_Extensions : public ::System::Object {
 public:
   // Declarations
   using __c = ::HoudiniEngineUnity::__Test_MeshFilter_Extensions____c;
 
-  /// @brief Method ToTestObject, addr 0x21e22c4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x2277bac, size 0x64, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::Test_MeshFilter* ToTestObject(::UnityEngine::MeshFilter* self);
 
-  /// @brief Method ToTestObject, addr 0x21e6628, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x227bf10, size 0xf8, virtual false, abstract: false, final false
   static inline ::ArrayW<::HoudiniEngineUnity::Test_MeshFilter*, ::Array<::HoudiniEngineUnity::Test_MeshFilter*>*>
   ToTestObject(::ArrayW<::UnityEngine::MeshFilter*, ::Array<::UnityEngine::MeshFilter*>*> self);
 
-  /// @brief Method ToTestObject, addr 0x21e6720, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x227c008, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_MeshFilter*>* ToTestObject(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshFilter>>* self);
 
   // Ctor Parameters [CppParam { name: "", ty: "Test_MeshFilter_Extensions", modifiers: "&&", def_value: None }]

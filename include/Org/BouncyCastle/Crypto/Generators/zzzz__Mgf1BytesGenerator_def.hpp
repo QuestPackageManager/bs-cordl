@@ -68,19 +68,19 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Generators::Mgf1BytesGenerator* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method .ctor, addr 0xeff338, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf2a1c8, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method Init, addr 0xeff3f4, size 0x148, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0xf2a284, size 0x148, virtual true, abstract: false, final true
   inline void Init(::Org::BouncyCastle::Crypto::IDerivationParameters* parameters);
 
-  /// @brief Method get_Digest, addr 0xeff53c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Digest, addr 0xf2a3cc, size 0x8, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::IDigest* get_Digest();
 
-  /// @brief Method ItoOSP, addr 0xeff544, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ItoOSP, addr 0xf2a3d4, size 0x54, virtual false, abstract: false, final false
   inline void ItoOSP(int32_t i, ::ArrayW<uint8_t, ::Array<uint8_t>*> sp);
 
-  /// @brief Method GenerateBytes, addr 0xeff598, size 0x4c0, virtual true, abstract: false, final true
+  /// @brief Method GenerateBytes, addr 0xf2a428, size 0x4c0, virtual true, abstract: false, final true
   inline int32_t GenerateBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff, int32_t length);
 
   // Ctor Parameters [CppParam { name: "", ty: "Mgf1BytesGenerator", modifiers: "&&", def_value: None }]

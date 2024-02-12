@@ -28,8 +28,8 @@ namespace System::Net::Http::Headers {
 // cpp template
 template <typename T, typename U>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14669)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14669), inst: 2613 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14670))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14674)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14674), inst: 2588 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14675))
 // CS Name: ::HeaderInfo::CollectionHeaderTypeInfo`2<T,U>*
 class CORDL_TYPE __HeaderInfo__CollectionHeaderTypeInfo_2 : public ::System::Net::Http::Headers::__HeaderInfo__HeaderTypeInfo_2<T, U> {
 public:

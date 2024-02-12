@@ -55,24 +55,24 @@ public:
 
   constexpr void __cordl_internal_set_m_skipSize(int32_t value);
 
-  /// @brief Method get_MinSize, addr 0x245c000, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MinSize, addr 0x247d074, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_MinSize();
 
-  /// @brief Method get_MaxSize, addr 0x245c008, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaxSize, addr 0x247d07c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_MaxSize();
 
-  /// @brief Method get_SkipSize, addr 0x245c010, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SkipSize, addr 0x247d084, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_SkipSize();
 
   static inline ::System::Security::Cryptography::KeySizes* New_ctor(int32_t minSize, int32_t maxSize, int32_t skipSize);
 
-  /// @brief Method .ctor, addr 0x245bdac, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x247ce20, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(int32_t minSize, int32_t maxSize, int32_t skipSize);
 
-  /// @brief Method IsLegal, addr 0x245c018, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method IsLegal, addr 0x247d08c, size 0x4c, virtual false, abstract: false, final false
   inline bool IsLegal(int32_t keySize);
 
-  /// @brief Method IsLegalKeySize, addr 0x245c064, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method IsLegalKeySize, addr 0x247d0d8, size 0x80, virtual false, abstract: false, final false
   static inline bool IsLegalKeySize(::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> legalKeys, int32_t size);
 
   // Ctor Parameters [CppParam { name: "", ty: "KeySizes", modifiers: "&&", def_value: None }]

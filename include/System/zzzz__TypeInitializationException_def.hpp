@@ -43,28 +43,28 @@ public:
 
   static inline ::System::TypeInitializationException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25cb1b0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25ed0c8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::TypeInitializationException* New_ctor(::StringW fullTypeName, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x25cb208, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25ed120, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::StringW fullTypeName, ::System::Exception* innerException);
 
   static inline ::System::TypeInitializationException* New_ctor(::StringW fullTypeName, ::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x25cb288, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25ed1a0, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::StringW fullTypeName, ::StringW message, ::System::Exception* innerException);
 
   static inline ::System::TypeInitializationException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x25cb2c0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25ed1d8, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetObjectData, addr 0x25cb344, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x25ed25c, size 0x108, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method get_TypeName, addr 0x25cb44c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_TypeName, addr 0x25ed364, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_TypeName();
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeInitializationException", modifiers: "&&", def_value: None }]

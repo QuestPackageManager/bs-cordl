@@ -59,7 +59,7 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
 template <typename TObject>
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14033))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14046))
 // CS Name: ::UnityEngine.ResourceManagement.AsyncOperations::AsyncOperationHandle`1<TObject>
 struct CORDL_TYPE AsyncOperationHandle_1 {
 public:

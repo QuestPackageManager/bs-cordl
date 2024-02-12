@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::Test_HAPI_TransformEuler);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9727))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9900))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9519))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9692))
 // CS Name: ::HoudiniEngineUnity::Test_HAPI_TransformEuler*
 class CORDL_TYPE Test_HAPI_TransformEuler : public ::System::Object {
 public:
@@ -44,10 +44,10 @@ public:
 
   static inline ::HoudiniEngineUnity::Test_HAPI_TransformEuler* New_ctor(::HoudiniEngineUnity::HAPI_TransformEuler self);
 
-  /// @brief Method .ctor, addr 0x21e36d4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2278fbc, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::HoudiniEngineUnity::HAPI_TransformEuler self);
 
-  /// @brief Method IsEquivalentTo, addr 0x21e3708, size 0x254, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x2278ff0, size 0x254, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_HAPI_TransformEuler* other);
 
   // Ctor Parameters [CppParam { name: "", ty: "Test_HAPI_TransformEuler", modifiers: "&&", def_value: None }]

@@ -1,12 +1,14 @@
 #pragma once
+#include "GlobalNamespace/zzzz__BeatmapKey_impl.hpp"
 #include "GlobalNamespace/zzzz__SinglePlayerLevelSelectionFlowCoordinator_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PartyFreePlayFlowCoordinator_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapKey_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapLevel_def.hpp"
 #include "GlobalNamespace/zzzz__EnterPlayerGuestNameViewController_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
-#include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
+#include "GlobalNamespace/zzzz__IFileStorage_def.hpp"
 #include "GlobalNamespace/zzzz__IReadonlyBeatmapData_def.hpp"
-#include "GlobalNamespace/zzzz__ISaveData_def.hpp"
 #include "GlobalNamespace/zzzz__LeaderboardViewController_def.hpp"
 #include "GlobalNamespace/zzzz__LevelCompletionResults_def.hpp"
 #include "GlobalNamespace/zzzz__LocalLeaderboardViewController_def.hpp"
@@ -20,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PartyFreePlayFlowCoordinator____c__DisplayClass18_0::*)()>(
     &::GlobalNamespace::__PartyFreePlayFlowCoordinator____c__DisplayClass18_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x229b118;
+  constexpr static std::size_t addrs = 0x23f6040;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -35,8 +37,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::__PartyFreePlayFlowCoordinator____c__DisplayClass18_0::*)(::GlobalNamespace::EnterPlayerGuestNameViewController*, ::StringW)>(
         &::GlobalNamespace::__PartyFreePlayFlowCoordinator____c__DisplayClass18_0::_ProcessLevelCompletionResultsAfterLevelDidFinish_b__0)> {
-  constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x229b388;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x23f6308;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -97,18 +99,30 @@ constexpr void GlobalNamespace::__PartyFreePlayFlowCoordinator____c__DisplayClas
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___transformedBeatmapData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::IDifficultyBeatmap*& GlobalNamespace::__PartyFreePlayFlowCoordinator____c__DisplayClass18_0::__cordl_internal_get_difficultyBeatmap() {
+constexpr ::GlobalNamespace::BeatmapKey& GlobalNamespace::__PartyFreePlayFlowCoordinator____c__DisplayClass18_0::__cordl_internal_get_beatmapKey() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___difficultyBeatmap;
+  return this->___beatmapKey;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IDifficultyBeatmap*> const&
-GlobalNamespace::__PartyFreePlayFlowCoordinator____c__DisplayClass18_0::__cordl_internal_get_difficultyBeatmap() const {
+constexpr ::GlobalNamespace::BeatmapKey const& GlobalNamespace::__PartyFreePlayFlowCoordinator____c__DisplayClass18_0::__cordl_internal_get_beatmapKey() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___difficultyBeatmap;
+  return this->___beatmapKey;
 }
-constexpr void GlobalNamespace::__PartyFreePlayFlowCoordinator____c__DisplayClass18_0::__cordl_internal_set_difficultyBeatmap(::GlobalNamespace::IDifficultyBeatmap* value) {
+constexpr void GlobalNamespace::__PartyFreePlayFlowCoordinator____c__DisplayClass18_0::__cordl_internal_set_beatmapKey(::GlobalNamespace::BeatmapKey value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___difficultyBeatmap)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  this->___beatmapKey = value;
+}
+constexpr ::GlobalNamespace::BeatmapLevel*& GlobalNamespace::__PartyFreePlayFlowCoordinator____c__DisplayClass18_0::__cordl_internal_get_beatmapLevel() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___beatmapLevel;
+}
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevel*> const&
+GlobalNamespace::__PartyFreePlayFlowCoordinator____c__DisplayClass18_0::__cordl_internal_get_beatmapLevel() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___beatmapLevel;
+}
+constexpr void GlobalNamespace::__PartyFreePlayFlowCoordinator____c__DisplayClass18_0::__cordl_internal_set_beatmapLevel(::GlobalNamespace::BeatmapLevel* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___beatmapLevel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::__PartyFreePlayFlowCoordinator____c__DisplayClass18_0::__cordl_internal_get_practice() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -131,15 +145,14 @@ inline void GlobalNamespace::__PartyFreePlayFlowCoordinator____c__DisplayClass18
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void
-GlobalNamespace::__PartyFreePlayFlowCoordinator____c__DisplayClass18_0::_ProcessLevelCompletionResultsAfterLevelDidFinish_b__0(::GlobalNamespace::EnterPlayerGuestNameViewController* viewController,
-                                                                                                                               ::StringW playerName) {
+inline void GlobalNamespace::__PartyFreePlayFlowCoordinator____c__DisplayClass18_0::_ProcessLevelCompletionResultsAfterLevelDidFinish_b__0(::GlobalNamespace::EnterPlayerGuestNameViewController* _,
+                                                                                                                                           ::StringW playerName) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PartyFreePlayFlowCoordinator____c__DisplayClass18_0*>::get(),
                                                "<ProcessLevelCompletionResultsAfterLevelDidFinish>b__0", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnterPlayerGuestNameViewController*>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, viewController, playerName);
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, _, playerName);
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::__PartyFreePlayFlowCoordinator____c__DisplayClass18_0::__PartyFreePlayFlowCoordinator____c__DisplayClass18_0() {}
@@ -149,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PartyFreePlayFlowCoordinator____c__DisplayClass23_0::*)()>(
     &::GlobalNamespace::__PartyFreePlayFlowCoordinator____c__DisplayClass23_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x229b370;
+  constexpr static std::size_t addrs = 0x23f62f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -164,7 +177,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PartyFreePlayFlowCoordinator____c__DisplayClass23_0::*)()>(
     &::GlobalNamespace::__PartyFreePlayFlowCoordinator____c__DisplayClass23_0::_HandleResultsViewControllerRestartButtonPressed_b__0)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x229b450;
+  constexpr static std::size_t addrs = 0x23f63d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -220,7 +233,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::PartyFreePlayFlowCoordinator::*)()>(
     &::GlobalNamespace::PartyFreePlayFlowCoordinator::get_gameMode)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x229aaf4;
+  constexpr static std::size_t addrs = 0x23f5964;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -236,7 +249,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::LeaderboardViewController> (::GlobalNamespace::PartyFreePlayFlowCoordinator::*)()>(
     &::GlobalNamespace::PartyFreePlayFlowCoordinator::get_leaderboardViewController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x229ab34;
+  constexpr static std::size_t addrs = 0x23f59a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -252,7 +265,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PartyFreePlayFlowCoordinator::*)()>(
     &::GlobalNamespace::PartyFreePlayFlowCoordinator::get_showBackButtonForMainViewController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x229ab3c;
+  constexpr static std::size_t addrs = 0x23f59ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -268,7 +281,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::PartyFreePlayFlowCoordinator::*)()>(
     &::GlobalNamespace::PartyFreePlayFlowCoordinator::get_mainTitle)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x229ab44;
+  constexpr static std::size_t addrs = 0x23f59b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -283,8 +296,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PartyFreePlayFlowCoordinator::*)(bool, bool)>(
     &::GlobalNamespace::PartyFreePlayFlowCoordinator::SinglePlayerLevelSelectionFlowCoordinatorDidActivate)> {
-  constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x229ab88;
+  constexpr static std::size_t size = 0x214;
+  constexpr static std::size_t addrs = 0x23f59f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -300,7 +313,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PartyFreePlayFlowCoordinator::*)(bool)>(
     &::GlobalNamespace::PartyFreePlayFlowCoordinator::SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x229ad88;
+  constexpr static std::size_t addrs = 0x23f5c3c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -314,10 +327,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PartyFreePlayFlowCoordinator::*)(
-    ::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::IReadonlyBeatmapData*, ::GlobalNamespace::IDifficultyBeatmap*, ::GlobalNamespace::GameplayModifiers*, bool)>(
-    &::GlobalNamespace::PartyFreePlayFlowCoordinator::ProcessLevelCompletionResultsAfterLevelDidFinish)> {
-  constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x229aed4;
+    ::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::IReadonlyBeatmapData*, ::GlobalNamespace::BeatmapKey, ::GlobalNamespace::BeatmapLevel*, ::GlobalNamespace::GameplayModifiers*,
+    bool)>(&::GlobalNamespace::PartyFreePlayFlowCoordinator::ProcessLevelCompletionResultsAfterLevelDidFinish)> {
+  constexpr static std::size_t size = 0x2b8;
+  constexpr static std::size_t addrs = 0x23f5d88;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -333,7 +346,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PartyFreePlayFlowCoordinator::*)(
     ::GlobalNamespace::LevelCompletionResults*, ::StringW, bool)>(&::GlobalNamespace::PartyFreePlayFlowCoordinator::WillScoreGoToLeaderboard)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x229b144;
+  constexpr static std::size_t addrs = 0x23f606c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -349,7 +362,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PartyFreePlayFlowCoordinator::*)(::GlobalNamespace::LevelCompletionResults*, ::StringW)>(
     &::GlobalNamespace::PartyFreePlayFlowCoordinator::IsNewHighScore)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x229b194;
+  constexpr static std::size_t addrs = 0x23f60bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -364,8 +377,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PartyFreePlayFlowCoordinator::*)(
     ::GlobalNamespace::LevelCompletionResults*, ::StringW, ::StringW)>(&::GlobalNamespace::PartyFreePlayFlowCoordinator::ProcessScore)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x229b1d8;
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x23f6100;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -381,7 +394,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PartyFreePlayFlowCoordinator::*)(::GlobalNamespace::ResultsViewController*)>(
     &::GlobalNamespace::PartyFreePlayFlowCoordinator::HandleResultsViewControllerContinueButtonPressed)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x229b26c;
+  constexpr static std::size_t addrs = 0x23f61ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -396,7 +409,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PartyFreePlayFlowCoordinator::*)(::GlobalNamespace::ResultsViewController*)>(
     &::GlobalNamespace::PartyFreePlayFlowCoordinator::HandleResultsViewControllerRestartButtonPressed)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x229b2a8;
+  constexpr static std::size_t addrs = 0x23f6228;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -411,7 +424,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PartyFreePlayFlowCoordinator::*)()>(
     &::GlobalNamespace::PartyFreePlayFlowCoordinator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x229b378;
+  constexpr static std::size_t addrs = 0x23f62f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PartyFreePlayFlowCoordinator*>::get(), ".ctor",
@@ -503,17 +516,17 @@ constexpr void GlobalNamespace::PartyFreePlayFlowCoordinator::__cordl_internal_s
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____enterNameViewController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::ISaveData*& GlobalNamespace::PartyFreePlayFlowCoordinator::__cordl_internal_get__saveData() {
+constexpr ::GlobalNamespace::IFileStorage*& GlobalNamespace::PartyFreePlayFlowCoordinator::__cordl_internal_get__fileStorage() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____saveData;
+  return this->____fileStorage;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ISaveData*> const& GlobalNamespace::PartyFreePlayFlowCoordinator::__cordl_internal_get__saveData() const {
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IFileStorage*> const& GlobalNamespace::PartyFreePlayFlowCoordinator::__cordl_internal_get__fileStorage() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____saveData;
+  return this->____fileStorage;
 }
-constexpr void GlobalNamespace::PartyFreePlayFlowCoordinator::__cordl_internal_set__saveData(::GlobalNamespace::ISaveData* value) {
+constexpr void GlobalNamespace::PartyFreePlayFlowCoordinator::__cordl_internal_set__fileStorage(::GlobalNamespace::IFileStorage* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____saveData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____fileStorage)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::StringW GlobalNamespace::PartyFreePlayFlowCoordinator::get_gameMode() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
@@ -547,11 +560,11 @@ inline void GlobalNamespace::PartyFreePlayFlowCoordinator::SinglePlayerLevelSele
 }
 inline void GlobalNamespace::PartyFreePlayFlowCoordinator::ProcessLevelCompletionResultsAfterLevelDidFinish(::GlobalNamespace::LevelCompletionResults* levelCompletionResults,
                                                                                                             ::GlobalNamespace::IReadonlyBeatmapData* transformedBeatmapData,
-                                                                                                            ::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap,
-                                                                                                            ::GlobalNamespace::GameplayModifiers* gameplayModifiers, bool practice) {
+                                                                                                            ::GlobalNamespace::BeatmapKey beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
+                                                                                                            ::GlobalNamespace::GameplayModifiers* modifiers, bool practice) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PartyFreePlayFlowCoordinator*>::get(), 38)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, levelCompletionResults, transformedBeatmapData, difficultyBeatmap, gameplayModifiers, practice);
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, levelCompletionResults, transformedBeatmapData, beatmapKey, beatmapLevel, modifiers, practice);
 }
 inline bool GlobalNamespace::PartyFreePlayFlowCoordinator::WillScoreGoToLeaderboard(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::StringW leaderboardId, bool practice) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

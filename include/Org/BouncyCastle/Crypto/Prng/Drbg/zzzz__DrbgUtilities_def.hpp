@@ -38,21 +38,21 @@ public:
 
   static inline ::System::Collections::IDictionary* getStaticF_maxSecurityStrengths();
 
-  /// @brief Method GetMaxSecurityStrength, addr 0xf3ec68, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GetMaxSecurityStrength, addr 0xf69af8, size 0x184, virtual false, abstract: false, final false
   static inline int32_t GetMaxSecurityStrength(::Org::BouncyCastle::Crypto::IDigest* d);
 
-  /// @brief Method GetMaxSecurityStrength, addr 0xf3edec, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method GetMaxSecurityStrength, addr 0xf69c7c, size 0x1cc, virtual false, abstract: false, final false
   static inline int32_t GetMaxSecurityStrength(::Org::BouncyCastle::Crypto::IMac* m);
 
-  /// @brief Method HashDF, addr 0xf3efb8, size 0x514, virtual false, abstract: false, final false
+  /// @brief Method HashDF, addr 0xf69e48, size 0x514, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> HashDF(::Org::BouncyCastle::Crypto::IDigest* digest, ::ArrayW<uint8_t, ::Array<uint8_t>*> seedMaterial, int32_t seedLength);
 
-  /// @brief Method IsTooLarge, addr 0xf3e3e0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsTooLarge, addr 0xf69270, size 0x14, virtual false, abstract: false, final false
   static inline bool IsTooLarge(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t maxBytes);
 
   static inline ::Org::BouncyCastle::Crypto::Prng::Drbg::DrbgUtilities* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf3f4cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf6a35c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DrbgUtilities", modifiers: "&&", def_value: None }]

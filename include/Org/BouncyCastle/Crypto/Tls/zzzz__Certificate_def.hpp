@@ -55,28 +55,28 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Tls::Certificate*
   New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*, ::Array<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*>*> certificateList);
 
-  /// @brief Method .ctor, addr 0xf5e478, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf88308, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*, ::Array<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*>*> certificateList);
 
-  /// @brief Method GetCertificateList, addr 0xf5e4f0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method GetCertificateList, addr 0xf88380, size 0xc, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*, ::Array<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*>*> GetCertificateList();
 
-  /// @brief Method GetCertificateAt, addr 0xf5e4fc, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method GetCertificateAt, addr 0xf8838c, size 0x30, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509CertificateStructure* GetCertificateAt(int32_t index);
 
-  /// @brief Method get_Length, addr 0xf5e52c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_Length, addr 0xf883bc, size 0x1c, virtual true, abstract: false, final false
   inline int32_t get_Length();
 
-  /// @brief Method get_IsEmpty, addr 0xf5e548, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_IsEmpty, addr 0xf883d8, size 0x24, virtual true, abstract: false, final false
   inline bool get_IsEmpty();
 
-  /// @brief Method Encode, addr 0xf5e56c, size 0x4c4, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0xf883fc, size 0x4c4, virtual true, abstract: false, final false
   inline void Encode(::System::IO::Stream* output);
 
-  /// @brief Method Parse, addr 0xf5ea30, size 0x464, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0xf888c0, size 0x464, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Tls::Certificate* Parse(::System::IO::Stream* input);
 
-  /// @brief Method CloneCertificateList, addr 0xf5ee94, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method CloneCertificateList, addr 0xf88d24, size 0x78, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*, ::Array<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*>*> CloneCertificateList();
 
   // Ctor Parameters [CppParam { name: "", ty: "Certificate", modifiers: "&&", def_value: None }]

@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::Zenject::ProfileBlock);
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11352))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10494))
 // CS Name: ::Zenject::ProfileBlock*
 class CORDL_TYPE ProfileBlock : public ::System::Object {
 public:
@@ -46,33 +46,33 @@ public:
 
   static inline ::Zenject::ProfileBlock* New_ctor(::StringW sampleName, bool rootBlock);
 
-  /// @brief Method .ctor, addr 0x2f1e5a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f3a6f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW sampleName, bool rootBlock);
 
   static inline ::Zenject::ProfileBlock* New_ctor(::StringW sampleName);
 
-  /// @brief Method .ctor, addr 0x2f1e5b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f3a6f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW sampleName);
 
-  /// @brief Method get_ProfilePattern, addr 0x2f1e5b8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_ProfilePattern, addr 0x2f3a700, size 0x48, virtual false, abstract: false, final false
   static inline ::System::Text::RegularExpressions::Regex* get_ProfilePattern();
 
-  /// @brief Method set_ProfilePattern, addr 0x2f1e600, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_ProfilePattern, addr 0x2f3a748, size 0x4c, virtual false, abstract: false, final false
   static inline void set_ProfilePattern(::System::Text::RegularExpressions::Regex* value);
 
-  /// @brief Method Start, addr 0x2f1e64c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2f3a794, size 0x8, virtual false, abstract: false, final false
   static inline ::Zenject::ProfileBlock* Start();
 
-  /// @brief Method Start, addr 0x2f1e654, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2f3a79c, size 0x8, virtual false, abstract: false, final false
   static inline ::Zenject::ProfileBlock* Start(::StringW sampleNameFormat, ::System::Object* obj1, ::System::Object* obj2);
 
-  /// @brief Method Start, addr 0x2f1e65c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2f3a7a4, size 0x8, virtual false, abstract: false, final false
   static inline ::Zenject::ProfileBlock* Start(::StringW sampleNameFormat, ::System::Object* obj);
 
-  /// @brief Method Start, addr 0x2f1e664, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2f3a7ac, size 0x8, virtual false, abstract: false, final false
   static inline ::Zenject::ProfileBlock* Start(::StringW sampleName);
 
-  /// @brief Method Dispose, addr 0x2f1e66c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2f3a7b4, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
   // Ctor Parameters [CppParam { name: "", ty: "ProfileBlock", modifiers: "&&", def_value: None }]

@@ -83,7 +83,7 @@ namespace IntervalTree {
 template <typename TKey, typename TValue>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16127))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16247))
 // CS Name: ::IntervalTree`2::<>c<TKey,TValue>*
 class CORDL_TYPE __IntervalTree_2____c : public ::System::Object {
 public:
@@ -135,7 +135,7 @@ namespace IntervalTree {
 template <typename TKey, typename TValue>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16128))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16248))
 // CS Name: ::IntervalTree`2::<>c__DisplayClass19_0<TKey,TValue>*
 class CORDL_TYPE __IntervalTree_2____c__DisplayClass19_0 : public ::System::Object {
 public:
@@ -185,7 +185,7 @@ namespace IntervalTree {
 template <typename TKey, typename TValue>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16129))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16249))
 // CS Name: ::IntervalTree`2::<>c__DisplayClass20_0<TKey,TValue>*
 class CORDL_TYPE __IntervalTree_2____c__DisplayClass20_0 : public ::System::Object {
 public:
@@ -235,7 +235,7 @@ namespace IntervalTree {
 template <typename TKey, typename TValue>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16130))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16250))
 // CS Name: ::IntervalTree`2::<>c__DisplayClass23_0<TKey,TValue>*
 class CORDL_TYPE __IntervalTree_2____c__DisplayClass23_0 : public ::System::Object {
 public:
@@ -297,7 +297,7 @@ namespace IntervalTree {
 template <typename TKey, typename TValue>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16131))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16251))
 // CS Name: ::IntervalTree`2::<>c__DisplayClass24_0<TKey,TValue>*
 class CORDL_TYPE __IntervalTree_2____c__DisplayClass24_0 : public ::System::Object {
 public:
@@ -359,7 +359,7 @@ namespace IntervalTree {
 template <typename TKey, typename TValue>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16132))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16252))
 // CS Name: ::IntervalTree::IntervalTree`2<TKey,TValue>*
 class CORDL_TYPE IntervalTree_2 : public ::System::Object {
 public:

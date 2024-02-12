@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::Test_Gradient);
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9927))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9719))
 // CS Name: ::HoudiniEngineUnity::Test_Gradient*
 class CORDL_TYPE Test_Gradient : public ::System::Object {
 public:
@@ -52,13 +52,13 @@ public:
 
   static inline ::HoudiniEngineUnity::Test_Gradient* New_ctor(::UnityEngine::Gradient* self);
 
-  /// @brief Method .ctor, addr 0x21e6ad4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x227c3bc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Gradient* self);
 
-  /// @brief Method IsNull, addr 0x21e6afc, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method IsNull, addr 0x227c3e4, size 0x10, virtual true, abstract: false, final true
   inline bool IsNull();
 
-  /// @brief Method IsEquivalentTo, addr 0x21e6b0c, size 0xf4, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x227c3f4, size 0xf4, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_Gradient* other);
 
   // Ctor Parameters [CppParam { name: "", ty: "Test_Gradient", modifiers: "&&", def_value: None }]

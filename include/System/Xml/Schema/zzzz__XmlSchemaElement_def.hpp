@@ -14,8 +14,8 @@ MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaElement);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11734))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11725))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11632))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11623))
 // CS Name: ::System.Xml.Schema::XmlSchemaElement*
 class CORDL_TYPE XmlSchemaElement : public ::System::Xml::Schema::XmlSchemaParticle {
 public:

@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::ContextualMenuPopulateEvent);
 // SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 200, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7215)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7215), inst: 4640 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7227))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6474)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6474), inst: 4621 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6486))
 // CS Name: ::UnityEngine.UIElements::ContextualMenuPopulateEvent*
 class CORDL_TYPE ContextualMenuPopulateEvent : public ::UnityEngine::UIElements::MouseEventBase_1<::UnityEngine::UIElements::ContextualMenuPopulateEvent*> {
 public:
@@ -64,30 +64,30 @@ public:
 
   constexpr void __cordl_internal_set_m_ContextualMenuManager(::UnityEngine::UIElements::ContextualMenuManager* value);
 
-  /// @brief Method get_menu, addr 0x2e51d18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_menu, addr 0x2e6d100, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::DropdownMenu* get_menu();
 
-  /// @brief Method set_menu, addr 0x2e51d20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_menu, addr 0x2e6d108, size 0x8, virtual false, abstract: false, final false
   inline void set_menu(::UnityEngine::UIElements::DropdownMenu* value);
 
-  /// @brief Method get_triggerEvent, addr 0x2e51d28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_triggerEvent, addr 0x2e6d110, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::EventBase* get_triggerEvent();
 
-  /// @brief Method set_triggerEvent, addr 0x2e51d30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_triggerEvent, addr 0x2e6d118, size 0x8, virtual false, abstract: false, final false
   inline void set_triggerEvent(::UnityEngine::UIElements::EventBase* value);
 
-  /// @brief Method Init, addr 0x2e51d38, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x2e6d120, size 0x70, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x2e51da8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x2e6d190, size 0x34, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::ContextualMenuPopulateEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e51ddc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e6d1c4, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method PostDispatch, addr 0x2e51e4c, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method PostDispatch, addr 0x2e6d234, size 0x90, virtual true, abstract: false, final false
   inline void PostDispatch(::UnityEngine::UIElements::IPanel* panel);
 
   // Ctor Parameters [CppParam { name: "", ty: "ContextualMenuPopulateEvent", modifiers: "&&", def_value: None }]

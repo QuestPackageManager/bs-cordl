@@ -67,25 +67,25 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput);
 
-  /// @brief Method .ctor, addr 0x10ace60, size 0x55c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10d9cf0, size 0x55c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput);
 
-  /// @brief Method get_Item, addr 0x10ad3ec, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x10da27c, size 0xf4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData* get_Item(int32_t index);
 
-  /// @brief Method Get, addr 0x10ad4e0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x10da370, size 0x4, virtual false, abstract: false, final false
   inline ::System::Object* Get(int32_t index);
 
-  /// @brief Method get_Size, addr 0x10ad4e4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method get_Size, addr 0x10da374, size 0xa4, virtual false, abstract: false, final false
   inline int32_t get_Size();
 
-  /// @brief Method get_Count, addr 0x10ad588, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x10da418, size 0xa4, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_IsEmpty, addr 0x10ad62c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method get_IsEmpty, addr 0x10da4bc, size 0xb0, virtual false, abstract: false, final false
   inline bool get_IsEmpty();
 
-  /// @brief Method GetEncryptedDataObjects, addr 0x10ad6dc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetEncryptedDataObjects, addr 0x10da56c, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerable* GetEncryptedDataObjects();
 
   // Ctor Parameters [CppParam { name: "", ty: "PgpEncryptedDataList", modifiers: "&&", def_value: None }]

@@ -55,7 +55,7 @@ MARK_REF_PTR_T(::Mono::Security::__PKCS7__SignerInfo);
 namespace Mono::Security {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13740))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13693))
 // CS Name: ::PKCS7::ContentInfo*
 class CORDL_TYPE __PKCS7__ContentInfo : public ::System::Object {
 public:
@@ -86,40 +86,40 @@ public:
 
   static inline ::Mono::Security::__PKCS7__ContentInfo* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23eef3c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x240ed9c, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Mono::Security::__PKCS7__ContentInfo* New_ctor(::StringW oid);
 
-  /// @brief Method .ctor, addr 0x23eefb4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x240ee14, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW oid);
 
   static inline ::Mono::Security::__PKCS7__ContentInfo* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0x23eefd8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x240ee38, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
   static inline ::Mono::Security::__PKCS7__ContentInfo* New_ctor(::Mono::Security::ASN1* asn1);
 
-  /// @brief Method .ctor, addr 0x23ef048, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x240eea8, size 0x188, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Security::ASN1* asn1);
 
-  /// @brief Method get_ASN1, addr 0x23ef1d0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_ASN1, addr 0x240f030, size 0x4, virtual false, abstract: false, final false
   inline ::Mono::Security::ASN1* get_ASN1();
 
-  /// @brief Method get_Content, addr 0x23ef288, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Content, addr 0x240f0e8, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::ASN1* get_Content();
 
-  /// @brief Method set_Content, addr 0x23ef290, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Content, addr 0x240f0f0, size 0x8, virtual false, abstract: false, final false
   inline void set_Content(::Mono::Security::ASN1* value);
 
-  /// @brief Method get_ContentType, addr 0x23ef298, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContentType, addr 0x240f0f8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ContentType();
 
-  /// @brief Method set_ContentType, addr 0x23ef2a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ContentType, addr 0x240f100, size 0x8, virtual false, abstract: false, final false
   inline void set_ContentType(::StringW value);
 
-  /// @brief Method GetASN1, addr 0x23ef1d4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetASN1, addr 0x240f034, size 0xb4, virtual false, abstract: false, final false
   inline ::Mono::Security::ASN1* GetASN1();
 
   // Ctor Parameters [CppParam { name: "", ty: "__PKCS7__ContentInfo", modifiers: "&&", def_value: None }]
@@ -157,7 +157,7 @@ static_assert(offsetof(::Mono::Security::__PKCS7__ContentInfo, ___content) == 0x
 namespace Mono::Security {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13741))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13694))
 // CS Name: ::PKCS7::EncryptedData*
 class CORDL_TYPE __PKCS7__EncryptedData : public ::System::Object {
 public:
@@ -204,18 +204,18 @@ public:
 
   static inline ::Mono::Security::__PKCS7__EncryptedData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23ef2a8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x240f108, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Mono::Security::__PKCS7__EncryptedData* New_ctor(::Mono::Security::ASN1* asn1);
 
-  /// @brief Method .ctor, addr 0x23ef2c4, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x240f124, size 0x2d8, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Security::ASN1* asn1);
 
-  /// @brief Method get_EncryptionAlgorithm, addr 0x23ef59c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EncryptionAlgorithm, addr 0x240f3fc, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::__PKCS7__ContentInfo* get_EncryptionAlgorithm();
 
-  /// @brief Method get_EncryptedContent, addr 0x23ef5a4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_EncryptedContent, addr 0x240f404, size 0x74, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_EncryptedContent();
 
   // Ctor Parameters [CppParam { name: "", ty: "__PKCS7__EncryptedData", modifiers: "&&", def_value: None }]
@@ -263,7 +263,7 @@ static_assert(offsetof(::Mono::Security::__PKCS7__EncryptedData, ____encrypted) 
 namespace Mono::Security {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13742))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13695))
 // CS Name: ::PKCS7::SignedData*
 class CORDL_TYPE __PKCS7__SignedData : public ::System::Object {
 public:
@@ -341,22 +341,22 @@ public:
 
   static inline ::Mono::Security::__PKCS7__SignedData* New_ctor(::Mono::Security::ASN1* asn1);
 
-  /// @brief Method .ctor, addr 0x23ef618, size 0x4e4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x240f478, size 0x4e4, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Security::ASN1* asn1);
 
-  /// @brief Method get_Certificates, addr 0x23f02e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Certificates, addr 0x2410148, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509CertificateCollection* get_Certificates();
 
-  /// @brief Method get_ContentInfo, addr 0x23f02f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContentInfo, addr 0x2410150, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::__PKCS7__ContentInfo* get_ContentInfo();
 
-  /// @brief Method set_HashName, addr 0x23f02c8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_HashName, addr 0x2410128, size 0x20, virtual false, abstract: false, final false
   inline void set_HashName(::StringW value);
 
-  /// @brief Method get_SignerInfo, addr 0x23f02f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SignerInfo, addr 0x2410158, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::__PKCS7__SignerInfo* get_SignerInfo();
 
-  /// @brief Method OidToName, addr 0x23f0114, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method OidToName, addr 0x240ff74, size 0x1b4, virtual false, abstract: false, final false
   inline ::StringW OidToName(::StringW oid);
 
   // Ctor Parameters [CppParam { name: "", ty: "__PKCS7__SignedData", modifiers: "&&", def_value: None }]
@@ -419,7 +419,7 @@ static_assert(offsetof(::Mono::Security::__PKCS7__SignedData, ___mda) == 0x40, "
 namespace Mono::Security {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13743))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13696))
 // CS Name: ::PKCS7::SignerInfo*
 class CORDL_TYPE __PKCS7__SignerInfo : public ::System::Object {
 public:
@@ -512,36 +512,36 @@ public:
 
   static inline ::Mono::Security::__PKCS7__SignerInfo* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23f0084, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x240fee4, size 0x90, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Mono::Security::__PKCS7__SignerInfo* New_ctor(::Mono::Security::ASN1* asn1);
 
-  /// @brief Method .ctor, addr 0x23efd0c, size 0x378, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x240fb6c, size 0x378, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Security::ASN1* asn1);
 
-  /// @brief Method get_IssuerName, addr 0x23f0438, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IssuerName, addr 0x2410298, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_IssuerName();
 
-  /// @brief Method get_SerialNumber, addr 0x23f0440, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_SerialNumber, addr 0x24102a0, size 0x74, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_SerialNumber();
 
-  /// @brief Method get_AuthenticatedAttributes, addr 0x23f04b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AuthenticatedAttributes, addr 0x2410314, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* get_AuthenticatedAttributes();
 
-  /// @brief Method get_HashName, addr 0x23f04bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HashName, addr 0x241031c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_HashName();
 
-  /// @brief Method set_HashName, addr 0x23f04c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_HashName, addr 0x2410324, size 0x8, virtual false, abstract: false, final false
   inline void set_HashName(::StringW value);
 
-  /// @brief Method get_Signature, addr 0x23f04cc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_Signature, addr 0x241032c, size 0x74, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Signature();
 
-  /// @brief Method get_UnauthenticatedAttributes, addr 0x23f0540, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UnauthenticatedAttributes, addr 0x24103a0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* get_UnauthenticatedAttributes();
 
-  /// @brief Method get_Version, addr 0x23f0548, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x24103a8, size 0x8, virtual false, abstract: false, final false
   inline uint8_t get_Version();
 
   // Ctor Parameters [CppParam { name: "", ty: "__PKCS7__SignerInfo", modifiers: "&&", def_value: None }]
@@ -609,7 +609,7 @@ static_assert(offsetof(::Mono::Security::__PKCS7__SignerInfo, ___ski) == 0x48, "
 namespace Mono::Security {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13744))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13697))
 // CS Name: ::Mono.Security::PKCS7*
 class CORDL_TYPE PKCS7 : public ::System::Object {
 public:

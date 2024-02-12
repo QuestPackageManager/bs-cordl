@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::System::ComponentModel::ReflectEventDescriptor);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 137, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9423))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9450))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7433))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7460))
 // CS Name: ::System.ComponentModel::ReflectEventDescriptor*
 class CORDL_TYPE ReflectEventDescriptor : public ::System::ComponentModel::EventDescriptor {
 public:
@@ -88,19 +88,19 @@ public:
 
   static inline ::System::ComponentModel::ReflectEventDescriptor* New_ctor(::System::Type* componentClass, ::System::Reflection::EventInfo* eventInfo);
 
-  /// @brief Method .ctor, addr 0x2916c34, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x291b29c, size 0x178, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* componentClass, ::System::Reflection::EventInfo* eventInfo);
 
-  /// @brief Method FillAttributes, addr 0x2916dac, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method FillAttributes, addr 0x291b414, size 0x64, virtual true, abstract: false, final false
   inline void FillAttributes(::System::Collections::IList* attributes);
 
-  /// @brief Method FillEventInfoAttribute, addr 0x2917258, size 0x328, virtual false, abstract: false, final false
+  /// @brief Method FillEventInfoAttribute, addr 0x291b8c0, size 0x328, virtual false, abstract: false, final false
   inline void FillEventInfoAttribute(::System::Reflection::EventInfo* realEventInfo, ::System::Collections::IList* attributes);
 
-  /// @brief Method FillMethods, addr 0x2916e10, size 0x448, virtual false, abstract: false, final false
+  /// @brief Method FillMethods, addr 0x291b478, size 0x448, virtual false, abstract: false, final false
   inline void FillMethods();
 
-  /// @brief Method FillSingleMethodAttribute, addr 0x2917580, size 0x368, virtual false, abstract: false, final false
+  /// @brief Method FillSingleMethodAttribute, addr 0x291bbe8, size 0x368, virtual false, abstract: false, final false
   inline void FillSingleMethodAttribute(::System::Reflection::MethodInfo* realMethodInfo, ::System::Collections::IList* attributes);
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectEventDescriptor", modifiers: "&&", def_value: None }]

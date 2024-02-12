@@ -16,21 +16,21 @@ MARK_REF_PTR_T(::Oculus::Platform::MessageWithString);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13262)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst: 397 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13324))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13162)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13162), inst: 398 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13240))
 // CS Name: ::Oculus.Platform::MessageWithString*
 class CORDL_TYPE MessageWithString : public ::Oculus::Platform::Message_1<::StringW> {
 public:
   // Declarations
   static inline ::Oculus::Platform::MessageWithString* New_ctor(void* c_message);
 
-  /// @brief Method .ctor, addr 0x26ef8c8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x271946c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(void* c_message);
 
-  /// @brief Method GetString, addr 0x26f3b10, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetString, addr 0x271de0c, size 0x3c, virtual true, abstract: false, final false
   inline ::StringW GetString();
 
-  /// @brief Method GetDataFromMessage, addr 0x26f3b4c, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x271de48, size 0x54, virtual true, abstract: false, final false
   inline ::StringW GetDataFromMessage(void* c_message);
 
   // Ctor Parameters [CppParam { name: "", ty: "MessageWithString", modifiers: "&&", def_value: None }]

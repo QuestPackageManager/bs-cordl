@@ -68,41 +68,41 @@ public:
 
   constexpr void __cordl_internal_set_encryptionParamSet(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  /// @brief Method GetInstance, addr 0xe8de18, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xeb7ca8, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0xe8de30, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xeb7cc0, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet,
                                                                                                ::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestParamSet);
 
-  /// @brief Method .ctor, addr 0xe8e098, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeb7f28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestParamSet);
 
   static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet,
                                                                                                ::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestParamSet,
                                                                                                ::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionParamSet);
 
-  /// @brief Method .ctor, addr 0xe8e0a0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeb7f30, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestParamSet,
                     ::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionParamSet);
 
   static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xe8ded4, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeb7d64, size 0x1c4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_PublicKeyParamSet, addr 0xe8e154, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PublicKeyParamSet, addr 0xeb7fe4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_PublicKeyParamSet();
 
-  /// @brief Method get_DigestParamSet, addr 0xe8e15c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DigestParamSet, addr 0xeb7fec, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_DigestParamSet();
 
-  /// @brief Method get_EncryptionParamSet, addr 0xe8e164, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EncryptionParamSet, addr 0xeb7ff4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_EncryptionParamSet();
 
-  /// @brief Method ToAsn1Object, addr 0xe8e16c, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xeb7ffc, size 0x174, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "Gost3410PublicKeyAlgParameters", modifiers: "&&", def_value: None }]

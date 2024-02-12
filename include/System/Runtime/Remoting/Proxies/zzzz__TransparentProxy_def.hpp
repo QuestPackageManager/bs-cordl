@@ -65,27 +65,27 @@ public:
 
   constexpr void __cordl_internal_set__custom_type_info(bool value);
 
-  /// @brief Method GetProxyType, addr 0x2496560, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetProxyType, addr 0x24b85d4, size 0xd0, virtual false, abstract: false, final false
   inline ::System::RuntimeType* GetProxyType();
 
-  /// @brief Method get_IsContextBoundObject, addr 0x2496630, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_IsContextBoundObject, addr 0x24b86a4, size 0x1c, virtual false, abstract: false, final false
   inline bool get_IsContextBoundObject();
 
-  /// @brief Method get_TargetContext, addr 0x249664c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_TargetContext, addr 0x24b86c0, size 0x1c, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::Contexts::Context* get_TargetContext();
 
-  /// @brief Method InCurrentContext, addr 0x2496668, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method InCurrentContext, addr 0x24b86dc, size 0x40, virtual false, abstract: false, final false
   inline bool InCurrentContext();
 
-  /// @brief Method LoadRemoteFieldNew, addr 0x24966a8, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method LoadRemoteFieldNew, addr 0x24b871c, size 0x2d8, virtual false, abstract: false, final false
   inline ::System::Object* LoadRemoteFieldNew(void* classPtr, void* fieldPtr);
 
-  /// @brief Method StoreRemoteField, addr 0x249738c, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method StoreRemoteField, addr 0x24b9400, size 0x2d8, virtual false, abstract: false, final false
   inline void StoreRemoteField(void* classPtr, void* fieldPtr, ::System::Object* arg);
 
   static inline ::System::Runtime::Remoting::Proxies::TransparentProxy* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2497664, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24b96d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TransparentProxy", modifiers: "&&", def_value: None }]

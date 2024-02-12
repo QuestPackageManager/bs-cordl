@@ -16,7 +16,7 @@ MARK_VAL_T(::Oculus::Platform::PermissionType);
 namespace Oculus::Platform {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13347))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13268))
 // CS Name: ::Oculus.Platform::PermissionType
 struct CORDL_TYPE PermissionType {
 public:

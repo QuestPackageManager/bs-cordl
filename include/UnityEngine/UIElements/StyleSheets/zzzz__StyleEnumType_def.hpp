@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::StyleEnumType);
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7486))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6745))
 // CS Name: ::UnityEngine.UIElements.StyleSheets::StyleEnumType
 struct CORDL_TYPE StyleEnumType {
 public:

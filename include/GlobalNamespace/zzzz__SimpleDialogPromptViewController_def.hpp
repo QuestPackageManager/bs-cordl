@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__SimpleDialogPromptViewController____c__Displ
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5762))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5062))
 // CS Name: ::SimpleDialogPromptViewController::<>c__DisplayClass5_0*
 class CORDL_TYPE __SimpleDialogPromptViewController____c__DisplayClass5_0 : public ::System::Object {
 public:
@@ -60,10 +60,10 @@ public:
 
   static inline ::GlobalNamespace::__SimpleDialogPromptViewController____c__DisplayClass5_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22db9fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x230c0d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <DidActivate>b__0, addr 0x22dbc00, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__0, addr 0x230c2d4, size 0x38, virtual false, abstract: false, final false
   inline void _DidActivate_b__0();
 
   // Ctor Parameters [CppParam { name: "", ty: "__SimpleDialogPromptViewController____c__DisplayClass5_0", modifiers: "&&", def_value: None }]
@@ -100,8 +100,8 @@ static_assert(offsetof(::GlobalNamespace::__SimpleDialogPromptViewController____
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5763))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13558))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5063))
 // CS Name: ::SimpleDialogPromptViewController*
 class CORDL_TYPE SimpleDialogPromptViewController : public ::HMUI::ViewController {
 public:
@@ -154,24 +154,24 @@ public:
 
   constexpr void __cordl_internal_set__didFinishAction(::System::Action_1<int32_t>* value);
 
-  /// @brief Method DidActivate, addr 0x22db8d0, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x230bfa4, size 0x12c, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x22dba04, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x230c0d8, size 0xc, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method Init, addr 0x22dba10, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x230c0e4, size 0x10, virtual false, abstract: false, final false
   inline void Init(::StringW title, ::StringW message, ::StringW buttonText, ::System::Action_1<int32_t>* didFinishAction);
 
-  /// @brief Method Init, addr 0x22dbbf4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x230c2c8, size 0xc, virtual false, abstract: false, final false
   inline void Init(::StringW title, ::StringW message, ::StringW firstButtonText, ::StringW secondButtonText, ::System::Action_1<int32_t>* didFinishAction);
 
-  /// @brief Method Init, addr 0x22dba20, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x230c0f4, size 0x1d4, virtual false, abstract: false, final false
   inline void Init(::StringW title, ::StringW message, ::StringW firstButtonText, ::StringW secondButtonText, ::StringW thirdButtonText, ::System::Action_1<int32_t>* didFinishAction);
 
   static inline ::GlobalNamespace::SimpleDialogPromptViewController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22d7ef8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23080f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SimpleDialogPromptViewController", modifiers: "&&", def_value: None }]

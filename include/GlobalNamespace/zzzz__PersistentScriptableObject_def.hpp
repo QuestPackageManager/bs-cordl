@@ -14,18 +14,18 @@ MARK_REF_PTR_T(::GlobalNamespace::PersistentScriptableObject);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15857))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8954))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15602))
 // CS Name: ::PersistentScriptableObject*
 class CORDL_TYPE PersistentScriptableObject : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
-  /// @brief Method OnEnable, addr 0xe28418, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0xe52154, size 0x24, virtual true, abstract: false, final false
   inline void OnEnable();
 
   static inline ::GlobalNamespace::PersistentScriptableObject* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe2843c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe52178, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PersistentScriptableObject", modifiers: "&&", def_value: None }]

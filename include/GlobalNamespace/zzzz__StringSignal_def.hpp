@@ -15,15 +15,15 @@ MARK_REF_PTR_T(::GlobalNamespace::StringSignal);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14394), inst: 397 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14400))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14543)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14543), inst: 398 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14549))
 // CS Name: ::StringSignal*
 class CORDL_TYPE StringSignal : public ::GlobalNamespace::GenericSignal_1<::StringW> {
 public:
   // Declarations
   static inline ::GlobalNamespace::StringSignal* New_ctor();
 
-  /// @brief Method .ctor, addr 0x20f5af0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21894e0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "StringSignal", modifiers: "&&", def_value: None }]

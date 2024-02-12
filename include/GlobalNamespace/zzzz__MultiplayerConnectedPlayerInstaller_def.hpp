@@ -39,8 +39,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerConnectedPlayerInstaller);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5239)), TypeDefinitionIndex(TypeDefinitionIndex(11138))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5124))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4580)), TypeDefinitionIndex(TypeDefinitionIndex(10280))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4462))
 // CS Name: ::MultiplayerConnectedPlayerInstaller*
 class CORDL_TYPE MultiplayerConnectedPlayerInstaller : public ::Zenject::MonoInstaller {
 public:
@@ -163,12 +163,12 @@ public:
 
   constexpr void __cordl_internal_set__playersSpecificSettingsAtGameStartModel(::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* value);
 
-  /// @brief Method InstallBindings, addr 0x23d5814, size 0xc84, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x238f618, size 0xa38, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerInstaller* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23d64d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x239008c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerInstaller", modifiers: "&&", def_value: None }]

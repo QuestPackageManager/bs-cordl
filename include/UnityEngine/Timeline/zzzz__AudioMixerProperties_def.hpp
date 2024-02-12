@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::AudioMixerProperties);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10425))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13866))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9193))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13819))
 // CS Name: ::UnityEngine.Timeline::AudioMixerProperties*
 class CORDL_TYPE AudioMixerProperties : public ::UnityEngine::Playables::PlayableBehaviour {
 public:
@@ -54,12 +54,12 @@ public:
 
   constexpr void __cordl_internal_set_spatialBlend(float_t value);
 
-  /// @brief Method PrepareFrame, addr 0x2c61ad0, size 0x234, virtual true, abstract: false, final false
+  /// @brief Method PrepareFrame, addr 0x2c5f63c, size 0x234, virtual true, abstract: false, final false
   inline void PrepareFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
   static inline ::UnityEngine::Timeline::AudioMixerProperties* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c61d04, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c5f870, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AudioMixerProperties", modifiers: "&&", def_value: None }]

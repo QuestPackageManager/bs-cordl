@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ProBuilder::ColliderType);
 namespace UnityEngine::ProBuilder {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12157))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12055))
 // CS Name: ::UnityEngine.ProBuilder::ColliderType
 struct CORDL_TYPE ColliderType {
 public:

@@ -93,7 +93,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::__HEU_PDGAssetLink__UpdateUIDelegate);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9766))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9558))
 // CS Name: ::HEU_PDGAssetLink::LinkState
 struct CORDL_TYPE __HEU_PDGAssetLink__LinkState {
 public:
@@ -151,23 +151,23 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_PDGAssetLink__LinkState, valu
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9767))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9559))
 // CS Name: ::HEU_PDGAssetLink::UpdateUIDelegate*
 class CORDL_TYPE __HEU_PDGAssetLink__UpdateUIDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::HoudiniEngineUnity::__HEU_PDGAssetLink__UpdateUIDelegate* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x219c83c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2232120, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x219c8f8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x22321dc, size 0x14, virtual true, abstract: false, final false
   inline void Invoke();
 
-  /// @brief Method BeginInvoke, addr 0x219c90c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x22321f0, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x219c92c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2232210, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__HEU_PDGAssetLink__UpdateUIDelegate", modifiers: "&&", def_value: None }]
@@ -194,8 +194,8 @@ static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_PDGAss
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9766)), TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9768))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(9558))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9560))
 // CS Name: ::HoudiniEngineUnity::HEU_PDGAssetLink*
 class CORDL_TYPE HEU_PDGAssetLink : public ::UnityEngine::MonoBehaviour {
 public:
@@ -360,153 +360,153 @@ public:
 
   constexpr void __cordl_internal_set__outputCachePathRoot(::StringW value);
 
-  /// @brief Method Awake, addr 0x21994bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x222eda0, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnBeforeSerialize, addr 0x21994c4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method OnBeforeSerialize, addr 0x222eda8, size 0x4, virtual true, abstract: false, final true
   inline void OnBeforeSerialize();
 
-  /// @brief Method OnAfterDeserialize, addr 0x21994c8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method OnAfterDeserialize, addr 0x222edac, size 0x4, virtual true, abstract: false, final true
   inline void OnAfterDeserialize();
 
-  /// @brief Method HandleInitialLoad, addr 0x21994c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleInitialLoad, addr 0x222eda4, size 0x4, virtual false, abstract: false, final false
   inline void HandleInitialLoad();
 
-  /// @brief Method OnDestroy, addr 0x21994cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x222edb0, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Setup, addr 0x2199550, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x222ee34, size 0x12c, virtual false, abstract: false, final false
   inline void Setup(::HoudiniEngineUnity::HEU_HoudiniAsset* hdaAsset);
 
-  /// @brief Method NotifyAssetCooked, addr 0x2199aac, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method NotifyAssetCooked, addr 0x222f390, size 0x2c, virtual false, abstract: false, final false
   inline void NotifyAssetCooked(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool bSuccess, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* generatedOutputs);
 
-  /// @brief Method NotifyAssetCooked, addr 0x2199ca0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method NotifyAssetCooked, addr 0x222f584, size 0x10, virtual false, abstract: false, final false
   inline void NotifyAssetCooked(::HoudiniEngineUnity::HEU_CookedEventData* cookedEventData);
 
-  /// @brief Method NotifyAssetCooked, addr 0x2199cb0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method NotifyAssetCooked, addr 0x222f594, size 0x10, virtual false, abstract: false, final false
   inline void NotifyAssetCooked(::HoudiniEngineUnity::HEU_ReloadEventData* reloadEventData);
 
-  /// @brief Method Reset, addr 0x219967c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x222ef60, size 0x4, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Refresh, addr 0x2199680, size 0x42c, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x222ef64, size 0x42c, virtual false, abstract: false, final false
   inline void Refresh();
 
-  /// @brief Method PopulateFromHDA, addr 0x2199b38, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method PopulateFromHDA, addr 0x222f41c, size 0x168, virtual false, abstract: false, final false
   inline void PopulateFromHDA();
 
-  /// @brief Method PopulateTOPNetworks, addr 0x2199fa0, size 0x4cc, virtual false, abstract: false, final false
+  /// @brief Method PopulateTOPNetworks, addr 0x222f884, size 0x4cc, virtual false, abstract: false, final false
   inline bool PopulateTOPNetworks();
 
-  /// @brief Method PopulateTOPNodes, addr 0x219aa54, size 0x3e8, virtual false, abstract: false, final false
+  /// @brief Method PopulateTOPNodes, addr 0x2230338, size 0x3e8, virtual false, abstract: false, final false
   static inline bool PopulateTOPNodes(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_TOPNetworkData* topNetwork, ::ArrayW<int32_t, ::Array<int32_t>*> topNodeIDs,
                                       bool useHEngineData);
 
-  /// @brief Method SelectTOPNetwork, addr 0x219b10c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SelectTOPNetwork, addr 0x22309f0, size 0x5c, virtual false, abstract: false, final false
   inline void SelectTOPNetwork(int32_t newIndex);
 
-  /// @brief Method SelectTOPNode, addr 0x219b168, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method SelectTOPNode, addr 0x2230a4c, size 0x60, virtual false, abstract: false, final false
   inline void SelectTOPNode(::HoudiniEngineUnity::HEU_TOPNetworkData* network, int32_t newIndex);
 
-  /// @brief Method GetSelectedTOPNetwork, addr 0x219b1c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetSelectedTOPNetwork, addr 0x2230aac, size 0x8, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_TOPNetworkData* GetSelectedTOPNetwork();
 
-  /// @brief Method GetSelectedTOPNode, addr 0x219b254, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetSelectedTOPNode, addr 0x2230b38, size 0x90, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_TOPNodeData* GetSelectedTOPNode();
 
-  /// @brief Method GetTOPNetwork, addr 0x219b1d0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetTOPNetwork, addr 0x2230ab4, size 0x84, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_TOPNetworkData* GetTOPNetwork(int32_t index);
 
-  /// @brief Method GetTOPNetworkByName, addr 0x219a8b0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetTOPNetworkByName, addr 0x2230194, size 0xcc, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::HEU_TOPNetworkData* GetTOPNetworkByName(::StringW name, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPNetworkData*>* topNetworks);
 
-  /// @brief Method GetTOPNodeByName, addr 0x219ae3c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetTOPNodeByName, addr 0x2230720, size 0xcc, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::HEU_TOPNodeData* GetTOPNodeByName(::StringW name, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPNodeData*>* topNodes);
 
-  /// @brief Method ClearAllTOPData, addr 0x2199cc0, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method ClearAllTOPData, addr 0x222f5a4, size 0x2c4, virtual false, abstract: false, final false
   inline void ClearAllTOPData();
 
-  /// @brief Method ClearTOPNetworkWorkItemResults, addr 0x219b2e4, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method ClearTOPNetworkWorkItemResults, addr 0x2230bc8, size 0x140, virtual false, abstract: false, final false
   static inline void ClearTOPNetworkWorkItemResults(::HoudiniEngineUnity::HEU_TOPNetworkData* topNetwork);
 
-  /// @brief Method ClearTOPNodeWorkItemResults, addr 0x219afec, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method ClearTOPNodeWorkItemResults, addr 0x22308d0, size 0x120, virtual false, abstract: false, final false
   static inline void ClearTOPNodeWorkItemResults(::HoudiniEngineUnity::HEU_TOPNodeData* topNode);
 
-  /// @brief Method ClearWorkItemResultByID, addr 0x219b60c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ClearWorkItemResultByID, addr 0x2230ef0, size 0x1c, virtual false, abstract: false, final false
   static inline void ClearWorkItemResultByID(::HoudiniEngineUnity::HEU_TOPNodeData* topNode, int32_t workItemID);
 
-  /// @brief Method ClearWorkItemResult, addr 0x219b784, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ClearWorkItemResult, addr 0x2231068, size 0x74, virtual false, abstract: false, final false
   static inline void ClearWorkItemResult(::HoudiniEngineUnity::HEU_TOPNodeData* topNode, ::HoudiniEngineUnity::HEU_TOPWorkResult* result);
 
-  /// @brief Method UpdateTOPNodeResultsVisibility, addr 0x219b7f8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method UpdateTOPNodeResultsVisibility, addr 0x22310dc, size 0x8c, virtual false, abstract: false, final false
   inline void UpdateTOPNodeResultsVisibility(::HoudiniEngineUnity::HEU_TOPNodeData* topNode);
 
-  /// @brief Method GetWorkResultByID, addr 0x219b628, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method GetWorkResultByID, addr 0x2230f0c, size 0x15c, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::HEU_TOPWorkResult* GetWorkResultByID(::HoudiniEngineUnity::HEU_TOPNodeData* topNode, int32_t workItemID);
 
-  /// @brief Method DestroyWorkItemResultData, addr 0x219b424, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method DestroyWorkItemResultData, addr 0x2230d08, size 0x1e8, virtual false, abstract: false, final false
   static inline void DestroyWorkItemResultData(::HoudiniEngineUnity::HEU_TOPNodeData* topNode, ::HoudiniEngineUnity::HEU_TOPWorkResult* result);
 
-  /// @brief Method DirtyTOPNode, addr 0x219b884, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method DirtyTOPNode, addr 0x2231168, size 0x20, virtual false, abstract: false, final false
   inline void DirtyTOPNode(::HoudiniEngineUnity::HEU_TOPNodeData* topNode);
 
-  /// @brief Method CookTOPNode, addr 0x219b8ac, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method CookTOPNode, addr 0x2231190, size 0x20, virtual false, abstract: false, final false
   inline void CookTOPNode(::HoudiniEngineUnity::HEU_TOPNodeData* topNode);
 
-  /// @brief Method DirtyAll, addr 0x219b8d4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method DirtyAll, addr 0x22311b8, size 0x20, virtual false, abstract: false, final false
   inline void DirtyAll();
 
-  /// @brief Method CookOutput, addr 0x2199ad8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method CookOutput, addr 0x222f3bc, size 0x60, virtual false, abstract: false, final false
   inline void CookOutput();
 
-  /// @brief Method PauseCook, addr 0x219b9b4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method PauseCook, addr 0x2231298, size 0x60, virtual false, abstract: false, final false
   inline void PauseCook();
 
-  /// @brief Method CancelCook, addr 0x219ba18, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method CancelCook, addr 0x22312fc, size 0x60, virtual false, abstract: false, final false
   inline void CancelCook();
 
-  /// @brief Method GetHAPISession, addr 0x219a46c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetHAPISession, addr 0x222fd50, size 0x8c, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_SessionBase* GetHAPISession();
 
-  /// @brief Method LoadResults, addr 0x219ba7c, size 0x5ec, virtual false, abstract: false, final false
+  /// @brief Method LoadResults, addr 0x2231360, size 0x5ec, virtual false, abstract: false, final false
   inline void LoadResults(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_TOPNodeData* topNode, ::HoudiniEngineUnity::HAPI_PDG_WorkitemInfo workItemInfo,
                           ::ArrayW<::HoudiniEngineUnity::HAPI_PDG_WorkitemResultInfo, ::Array<::HoudiniEngineUnity::HAPI_PDG_WorkitemResultInfo>*> resultInfos, int32_t workItemID);
 
-  /// @brief Method GetLoadRootTransform, addr 0x219c0ec, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method GetLoadRootTransform, addr 0x22319d0, size 0xe4, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> GetLoadRootTransform();
 
-  /// @brief Method GetTOPNode, addr 0x219c1d0, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method GetTOPNode, addr 0x2231ab4, size 0x170, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_TOPNodeData* GetTOPNode(int32_t nodeID);
 
-  /// @brief Method RepaintUI, addr 0x2199f84, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method RepaintUI, addr 0x222f868, size 0x1c, virtual false, abstract: false, final false
   inline void RepaintUI();
 
-  /// @brief Method UpdateWorkItemTally, addr 0x219c340, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method UpdateWorkItemTally, addr 0x2231c24, size 0x2d8, virtual false, abstract: false, final false
   inline void UpdateWorkItemTally();
 
-  /// @brief Method ResetTOPNetworkWorkItemTally, addr 0x219b908, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method ResetTOPNetworkWorkItemTally, addr 0x22311ec, size 0xa8, virtual false, abstract: false, final false
   inline void ResetTOPNetworkWorkItemTally(::HoudiniEngineUnity::HEU_TOPNetworkData* topNetwork);
 
-  /// @brief Method GetTOPNodeStatus, addr 0x219c618, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetTOPNodeStatus, addr 0x2231efc, size 0x100, virtual false, abstract: false, final false
   inline ::StringW GetTOPNodeStatus(::HoudiniEngineUnity::HEU_TOPNodeData* topNode);
 
-  /// @brief Method ParseHEngineData, addr 0x219a6e4, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method ParseHEngineData, addr 0x222ffc8, size 0x1cc, virtual false, abstract: false, final false
   static inline void ParseHEngineData(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t topNodeID, ByRef<::HoudiniEngineUnity::HAPI_NodeInfo> nodeInfo,
                                       ByRef<::HoudiniEngineUnity::TOPNodeTags*> nodeTags);
 
-  /// @brief Method get_AssetName, addr 0x219c73c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AssetName, addr 0x2232020, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_AssetName();
 
-  /// @brief Method get_SelectedTOPNetwork, addr 0x219c744, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SelectedTOPNetwork, addr 0x2232028, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_SelectedTOPNetwork();
 
-  /// @brief Method get_AssetLinkState, addr 0x219c74c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AssetLinkState, addr 0x2232030, size 0x8, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::__HEU_PDGAssetLink__LinkState get_AssetLinkState();
 
   static inline ::HoudiniEngineUnity::HEU_PDGAssetLink* New_ctor();
 
-  /// @brief Method .ctor, addr 0x219c754, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2232038, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_PDGAssetLink", modifiers: "&&", def_value: None }]

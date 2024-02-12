@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::GlobalNamespace::LevelParamsPanel);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5794))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5092))
 // CS Name: ::LevelParamsPanel*
 class CORDL_TYPE LevelParamsPanel : public ::UnityEngine::MonoBehaviour {
 public:
@@ -69,21 +69,21 @@ public:
 
   constexpr void __cordl_internal_set__bombsCountText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method set_notesPerSecond, addr 0x22e6ddc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method set_notesPerSecond, addr 0x2316104, size 0x80, virtual false, abstract: false, final false
   inline void set_notesPerSecond(float_t value);
 
-  /// @brief Method set_notesCount, addr 0x22e6e5c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_notesCount, addr 0x2316184, size 0x48, virtual false, abstract: false, final false
   inline void set_notesCount(int32_t value);
 
-  /// @brief Method set_obstaclesCount, addr 0x22e6ea4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_obstaclesCount, addr 0x23161cc, size 0x48, virtual false, abstract: false, final false
   inline void set_obstaclesCount(int32_t value);
 
-  /// @brief Method set_bombsCount, addr 0x22e6eec, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_bombsCount, addr 0x2316214, size 0x48, virtual false, abstract: false, final false
   inline void set_bombsCount(int32_t value);
 
   static inline ::GlobalNamespace::LevelParamsPanel* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22e6f34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x231625c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LevelParamsPanel", modifiers: "&&", def_value: None }]

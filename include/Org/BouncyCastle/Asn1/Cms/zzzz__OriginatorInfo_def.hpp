@@ -59,27 +59,27 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Set* certs, ::Org::BouncyCastle::Asn1::Asn1Set* crls);
 
-  /// @brief Method .ctor, addr 0xe7b188, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xea6018, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Set* certs, ::Org::BouncyCastle::Asn1::Asn1Set* crls);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xe7b1b4, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xea6044, size 0x2a0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance, addr 0xe72860, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xe9d6f0, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0xe731c8, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xe9e058, size 0x178, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* GetInstance(::System::Object* obj);
 
-  /// @brief Method get_Certificates, addr 0xe7b454, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Certificates, addr 0xea62e4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Set* get_Certificates();
 
-  /// @brief Method get_Crls, addr 0xe7b45c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Crls, addr 0xea62ec, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Set* get_Crls();
 
-  /// @brief Method ToAsn1Object, addr 0xe7b464, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xea62f4, size 0xc0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "OriginatorInfo", modifiers: "&&", def_value: None }]

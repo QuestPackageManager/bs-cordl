@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Interactions::TapInteraction);
 namespace UnityEngine::InputSystem::Interactions {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6652))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5911))
 // CS Name: ::UnityEngine.InputSystem.Interactions::TapInteraction*
 class CORDL_TYPE TapInteraction : public ::System::Object {
 public:
@@ -67,24 +67,24 @@ public:
 
   constexpr void __cordl_internal_set_m_TapStartTime(double_t value);
 
-  /// @brief Method get_durationOrDefault, addr 0x2b0d234, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_durationOrDefault, addr 0x2b0cda0, size 0x70, virtual false, abstract: false, final false
   inline float_t get_durationOrDefault();
 
-  /// @brief Method get_pressPointOrDefault, addr 0x2b0d2a4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_pressPointOrDefault, addr 0x2b0ce10, size 0x58, virtual false, abstract: false, final false
   inline float_t get_pressPointOrDefault();
 
-  /// @brief Method get_releasePointOrDefault, addr 0x2b0d2fc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_releasePointOrDefault, addr 0x2b0ce68, size 0x88, virtual false, abstract: false, final false
   inline float_t get_releasePointOrDefault();
 
-  /// @brief Method Process, addr 0x2b0d384, size 0x160, virtual true, abstract: false, final true
+  /// @brief Method Process, addr 0x2b0cef0, size 0x160, virtual true, abstract: false, final true
   inline void Process(ByRef<::UnityEngine::InputSystem::InputInteractionContext> context);
 
-  /// @brief Method Reset, addr 0x2b0d4e4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x2b0d050, size 0x8, virtual true, abstract: false, final true
   inline void Reset();
 
   static inline ::UnityEngine::InputSystem::Interactions::TapInteraction* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2b0d4ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b0d058, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TapInteraction", modifiers: "&&", def_value: None }]

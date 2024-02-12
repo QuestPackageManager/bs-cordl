@@ -16,7 +16,7 @@ MARK_VAL_T(::Newtonsoft::Json::ReadType);
 namespace Newtonsoft::Json {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11823))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11721))
 // CS Name: ::Newtonsoft.Json::ReadType
 struct CORDL_TYPE ReadType {
 public:

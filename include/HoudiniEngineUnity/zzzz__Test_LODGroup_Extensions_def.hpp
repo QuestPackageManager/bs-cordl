@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::__Test_LODGroup_Extensions____c);
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9905))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9697))
 // CS Name: ::Test_LODGroup_Extensions::<>c*
 class CORDL_TYPE __Test_LODGroup_Extensions____c : public ::System::Object {
 public:
@@ -63,13 +63,13 @@ public:
 
   static inline ::HoudiniEngineUnity::__Test_LODGroup_Extensions____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21e4798, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x227a080, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <ToTestObject>b__1_0, addr 0x21e47a0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <ToTestObject>b__1_0, addr 0x227a088, size 0x64, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::Test_LODGroup* _ToTestObject_b__1_0(::UnityEngine::LODGroup* lod);
 
-  /// @brief Method <ToTestObject>b__2_0, addr 0x21e4804, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <ToTestObject>b__2_0, addr 0x227a0ec, size 0x64, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::Test_LODGroup* _ToTestObject_b__2_0(::UnityEngine::LODGroup* lod);
 
   // Ctor Parameters [CppParam { name: "", ty: "__Test_LODGroup_Extensions____c", modifiers: "&&", def_value: None }]
@@ -97,21 +97,21 @@ static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__Test_LODGr
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9906))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9698))
 // CS Name: ::HoudiniEngineUnity::Test_LODGroup_Extensions*
 class CORDL_TYPE Test_LODGroup_Extensions : public ::System::Object {
 public:
   // Declarations
   using __c = ::HoudiniEngineUnity::__Test_LODGroup_Extensions____c;
 
-  /// @brief Method ToTestObject, addr 0x21e2260, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x2277b48, size 0x64, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::Test_LODGroup* ToTestObject(::UnityEngine::LODGroup* self);
 
-  /// @brief Method ToTestObject, addr 0x21e4540, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x2279e28, size 0xf8, virtual false, abstract: false, final false
   static inline ::ArrayW<::HoudiniEngineUnity::Test_LODGroup*, ::Array<::HoudiniEngineUnity::Test_LODGroup*>*>
   ToTestObject(::ArrayW<::UnityEngine::LODGroup*, ::Array<::UnityEngine::LODGroup*>*> self);
 
-  /// @brief Method ToTestObject, addr 0x21e4638, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x2279f20, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_LODGroup*>* ToTestObject(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::LODGroup>>* self);
 
   // Ctor Parameters [CppParam { name: "", ty: "Test_LODGroup_Extensions", modifiers: "&&", def_value: None }]

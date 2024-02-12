@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::IUpdateSelectedHandler);
 namespace UnityEngine::EventSystems {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13183))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13081))
 // CS Name: ::UnityEngine.EventSystems::IUpdateSelectedHandler*
 class CORDL_TYPE IUpdateSelectedHandler {
 public:

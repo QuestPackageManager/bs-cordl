@@ -45,16 +45,16 @@ public:
 
   static inline ::Org::BouncyCastle::Utilities::IO::TeeOutputStream* New_ctor(::System::IO::Stream* output, ::System::IO::Stream* tee);
 
-  /// @brief Method .ctor, addr 0x1160410, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x118e2a0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* output, ::System::IO::Stream* tee);
 
-  /// @brief Method Close, addr 0x116043c, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x118e2cc, size 0x74, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method Write, addr 0x11604b0, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x118e340, size 0x68, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method WriteByte, addr 0x1160518, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method WriteByte, addr 0x118e3a8, size 0x50, virtual true, abstract: false, final false
   inline void WriteByte(uint8_t b);
 
   // Ctor Parameters [CppParam { name: "", ty: "TeeOutputStream", modifiers: "&&", def_value: None }]

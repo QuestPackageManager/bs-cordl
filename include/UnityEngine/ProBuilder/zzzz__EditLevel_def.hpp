@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ProBuilder::EditLevel);
 namespace UnityEngine::ProBuilder {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12155))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12053))
 // CS Name: ::UnityEngine.ProBuilder::EditLevel
 struct CORDL_TYPE EditLevel {
 public:

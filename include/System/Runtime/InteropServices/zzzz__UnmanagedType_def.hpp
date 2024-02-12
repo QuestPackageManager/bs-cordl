@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Runtime::InteropServices::UnmanagedType);
 namespace System::Runtime::InteropServices {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3321))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3319))
 // CS Name: ::System.Runtime.InteropServices::UnmanagedType
 struct CORDL_TYPE UnmanagedType {
 public:

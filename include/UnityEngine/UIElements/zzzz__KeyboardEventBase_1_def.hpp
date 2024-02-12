@@ -30,8 +30,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7180)), TypeDefinitionIndex(TypeDefinitionIndex(10058)), TypeDefinitionIndex(TypeDefinitionIndex(14602)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7180), inst: 1713 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7240)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6439)), TypeDefinitionIndex(TypeDefinitionIndex(8790)), TypeDefinitionIndex(TypeDefinitionIndex(14607)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6439), inst: 1671 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6499)) CS Name:
 // ::UnityEngine.UIElements::KeyboardEventBase`1<T>*
 class CORDL_TYPE KeyboardEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T> {
 public:

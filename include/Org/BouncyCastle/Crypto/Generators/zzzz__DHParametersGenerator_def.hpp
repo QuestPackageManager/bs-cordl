@@ -54,15 +54,15 @@ public:
 
   constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method Init, addr 0xef7880, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0xf22710, size 0xc, virtual true, abstract: false, final false
   inline void Init(int32_t size, int32_t certainty, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method GenerateParameters, addr 0xef788c, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method GenerateParameters, addr 0xf2271c, size 0x118, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* GenerateParameters();
 
   static inline ::Org::BouncyCastle::Crypto::Generators::DHParametersGenerator* New_ctor();
 
-  /// @brief Method .ctor, addr 0xef7f70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf22e00, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DHParametersGenerator", modifiers: "&&", def_value: None }]

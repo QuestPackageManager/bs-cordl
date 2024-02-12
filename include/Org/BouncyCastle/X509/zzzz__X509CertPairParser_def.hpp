@@ -40,24 +40,24 @@ public:
 
   constexpr void __cordl_internal_set_currentStream(::System::IO::Stream* value);
 
-  /// @brief Method ReadDerCrossCertificatePair, addr 0x117aae8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method ReadDerCrossCertificatePair, addr 0x11a9978, size 0xf4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::X509CertificatePair* ReadDerCrossCertificatePair(::System::IO::Stream* inStream);
 
-  /// @brief Method ReadCertPair, addr 0x117abdc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ReadCertPair, addr 0x11a9a6c, size 0x78, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::X509CertificatePair* ReadCertPair(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
-  /// @brief Method ReadCertPairs, addr 0x117ae98, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ReadCertPairs, addr 0x11a9d28, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* ReadCertPairs(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
-  /// @brief Method ReadCertPair, addr 0x117ac54, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method ReadCertPair, addr 0x11a9ae4, size 0x244, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::X509CertificatePair* ReadCertPair(::System::IO::Stream* inStream);
 
-  /// @brief Method ReadCertPairs, addr 0x117af10, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method ReadCertPairs, addr 0x11a9da0, size 0x110, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* ReadCertPairs(::System::IO::Stream* inStream);
 
   static inline ::Org::BouncyCastle::X509::X509CertPairParser* New_ctor();
 
-  /// @brief Method .ctor, addr 0x117b020, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11a9eb0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "X509CertPairParser", modifiers: "&&", def_value: None }]

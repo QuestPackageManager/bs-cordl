@@ -15,24 +15,24 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Controls::TouchPressControl);
 // SizeInfo { instance_size: 288, native_size: -1, calculated_instance_size: 288, calculated_native_size: 284, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6629))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6643))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5888))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5902))
 // CS Name: ::UnityEngine.InputSystem.Controls::TouchPressControl*
 class CORDL_TYPE TouchPressControl : public ::UnityEngine::InputSystem::Controls::ButtonControl {
 public:
   // Declarations
-  /// @brief Method FinishSetup, addr 0x2b0bca0, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x2b0b80c, size 0xac, virtual true, abstract: false, final false
   inline void FinishSetup();
 
-  /// @brief Method ReadUnprocessedValueFromState, addr 0x2b0bd4c, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method ReadUnprocessedValueFromState, addr 0x2b0b8b8, size 0x48, virtual true, abstract: false, final false
   inline float_t ReadUnprocessedValueFromState(::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method WriteValueIntoState, addr 0x2b0bf28, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method WriteValueIntoState, addr 0x2b0ba94, size 0x40, virtual true, abstract: false, final false
   inline void WriteValueIntoState(float_t value, ::cordl_internals::Ptr<void> statePtr);
 
   static inline ::UnityEngine::InputSystem::Controls::TouchPressControl* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2b0bf68, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b0bad4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TouchPressControl", modifiers: "&&", def_value: None }]

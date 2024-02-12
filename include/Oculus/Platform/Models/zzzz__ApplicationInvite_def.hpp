@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::ApplicationInvite);
 namespace Oculus::Platform::Models {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13414))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13344))
 // CS Name: ::Oculus.Platform.Models::ApplicationInvite*
 class CORDL_TYPE ApplicationInvite : public ::System::Object {
 public:
@@ -102,7 +102,7 @@ public:
 
   static inline ::Oculus::Platform::Models::ApplicationInvite* New_ctor(void* o);
 
-  /// @brief Method .ctor, addr 0x2703ef8, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x273649c, size 0x1bc, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "ApplicationInvite", modifiers: "&&", def_value: None }]

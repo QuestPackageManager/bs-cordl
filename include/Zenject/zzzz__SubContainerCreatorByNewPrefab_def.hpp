@@ -36,7 +36,7 @@ MARK_REF_PTR_T(::Zenject::SubContainerCreatorByNewPrefab);
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11273))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10415))
 // CS Name: ::Zenject::SubContainerCreatorByNewPrefab*
 class CORDL_TYPE SubContainerCreatorByNewPrefab : public ::System::Object {
 public:
@@ -77,10 +77,10 @@ public:
   static inline ::Zenject::SubContainerCreatorByNewPrefab* New_ctor(::Zenject::DiContainer* container, ::Zenject::IPrefabProvider* prefabProvider,
                                                                     ::Zenject::GameObjectCreationParameters* gameObjectBindInfo);
 
-  /// @brief Method .ctor, addr 0x2f0bfec, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f28134, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::Zenject::IPrefabProvider* prefabProvider, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo);
 
-  /// @brief Method CreateSubContainer, addr 0x2f0c028, size 0x1a4, virtual true, abstract: false, final true
+  /// @brief Method CreateSubContainer, addr 0x2f28170, size 0x1a4, virtual true, abstract: false, final true
   inline ::Zenject::DiContainer* CreateSubContainer(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::InjectContext* parentContext);
 
   // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByNewPrefab", modifiers: "&&", def_value: None }]

@@ -23,7 +23,7 @@ MARK_VAL_T(::UnityEngine::PropertyName);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10159))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8903))
 // CS Name: ::UnityEngine::PropertyName
 struct CORDL_TYPE PropertyName {
 public:
@@ -34,31 +34,31 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::PropertyName>"
   constexpr ::System::IEquatable_1<::UnityEngine::PropertyName>* i___System__IEquatable_1___UnityEngine__PropertyName_();
 
-  /// @brief Method .ctor, addr 0x2cc8668, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ccf99c, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x2cc8710, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ccfa44, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::PropertyName other);
 
-  /// @brief Method IsNullOrEmpty, addr 0x2cc8718, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsNullOrEmpty, addr 0x2ccfa4c, size 0xc, virtual false, abstract: false, final false
   static inline bool IsNullOrEmpty(::UnityEngine::PropertyName prop);
 
-  /// @brief Method op_Equality, addr 0x2cc8724, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x2ccfa58, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::PropertyName lhs, ::UnityEngine::PropertyName rhs);
 
-  /// @brief Method GetHashCode, addr 0x2cc8730, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2ccfa64, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Equals, addr 0x2cc8738, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2ccfa6c, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method Equals, addr 0x2cc87b0, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2ccfae4, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::PropertyName other);
 
-  /// @brief Method op_Implicit, addr 0x2cc87c0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2ccfaf4, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::PropertyName op_Implicit___UnityEngine__PropertyName(::StringW name);
 
-  /// @brief Method ToString, addr 0x2cc880c, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2ccfb40, size 0x84, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "id", ty: "int32_t", modifiers: "", def_value: None }]

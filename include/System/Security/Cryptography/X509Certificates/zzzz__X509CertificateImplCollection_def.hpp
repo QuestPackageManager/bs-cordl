@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509Certifica
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9001))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7011))
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509CertificateImplCollection*
 class CORDL_TYPE X509CertificateImplCollection : public ::System::Object {
 public:
@@ -53,33 +53,33 @@ public:
 
   static inline ::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection* New_ctor();
 
-  /// @brief Method .ctor, addr 0x297e4f4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2981f98, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection* New_ctor(::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection* other);
 
-  /// @brief Method .ctor, addr 0x297f2f4, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2982d98, size 0x230, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection* other);
 
-  /// @brief Method get_Count, addr 0x297f524, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x2982fc8, size 0x48, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Item, addr 0x297f56c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x2983010, size 0x58, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* get_Item(int32_t index);
 
-  /// @brief Method Add, addr 0x297e574, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x2982018, size 0xd4, virtual false, abstract: false, final false
   inline void Add(::System::Security::Cryptography::X509Certificates::X509CertificateImpl* impl, bool takeOwnership);
 
-  /// @brief Method Clone, addr 0x297d360, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Clone, addr 0x2980e04, size 0x60, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection* Clone();
 
-  /// @brief Method Dispose, addr 0x297f5c4, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2983068, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x297f630, size 0x220, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x29830d4, size 0x220, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Finalize, addr 0x297f850, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x29832f4, size 0xa0, virtual true, abstract: false, final false
   inline void Finalize();
 
   // Ctor Parameters [CppParam { name: "", ty: "X509CertificateImplCollection", modifiers: "&&", def_value: None }]

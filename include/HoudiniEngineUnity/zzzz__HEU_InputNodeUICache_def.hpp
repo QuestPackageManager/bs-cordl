@@ -32,14 +32,14 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::__HEU_InputNodeUICache__HEU_InputObjectUICa
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9648))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9440))
 // CS Name: ::HEU_InputNodeUICache::HEU_InputObjectUICache*
 class CORDL_TYPE __HEU_InputNodeUICache__HEU_InputObjectUICache : public ::System::Object {
 public:
   // Declarations
   static inline ::HoudiniEngineUnity::__HEU_InputNodeUICache__HEU_InputObjectUICache* New_ctor();
 
-  /// @brief Method .ctor, addr 0x217245c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2206d40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__HEU_InputNodeUICache__HEU_InputObjectUICache", modifiers: "&&", def_value: None }]
@@ -67,14 +67,14 @@ static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_InputN
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9649))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9441))
 // CS Name: ::HEU_InputNodeUICache::HEU_InputAssetUICache*
 class CORDL_TYPE __HEU_InputNodeUICache__HEU_InputAssetUICache : public ::System::Object {
 public:
   // Declarations
   static inline ::HoudiniEngineUnity::__HEU_InputNodeUICache__HEU_InputAssetUICache* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2172464, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2206d48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__HEU_InputNodeUICache__HEU_InputAssetUICache", modifiers: "&&", def_value: None }]
@@ -102,7 +102,7 @@ static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_InputN
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9650))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9442))
 // CS Name: ::HoudiniEngineUnity::HEU_InputNodeUICache*
 class CORDL_TYPE HEU_InputNodeUICache : public ::System::Object {
 public:
@@ -135,7 +135,7 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_InputNodeUICache* New_ctor();
 
-  /// @brief Method .ctor, addr 0x217239c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2206c80, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_InputNodeUICache", modifiers: "&&", def_value: None }]

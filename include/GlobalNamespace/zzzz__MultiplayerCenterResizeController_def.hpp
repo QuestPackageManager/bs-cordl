@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerCenterResizeController);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5193))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4532))
 // CS Name: ::MultiplayerCenterResizeController*
 class CORDL_TYPE MultiplayerCenterResizeController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -83,36 +83,36 @@ public:
 
   constexpr void __cordl_internal_set__edgeDistanceFromCenter_k__BackingField(float_t value);
 
-  /// @brief Method add_edgeDistanceFromCenterWasCalculatedEvent, addr 0x2245524, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_edgeDistanceFromCenterWasCalculatedEvent, addr 0x2397054, size 0xb0, virtual false, abstract: false, final false
   inline void add_edgeDistanceFromCenterWasCalculatedEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method remove_edgeDistanceFromCenterWasCalculatedEvent, addr 0x22455d4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_edgeDistanceFromCenterWasCalculatedEvent, addr 0x239726c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_edgeDistanceFromCenterWasCalculatedEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method get_isEdgeDistanceFromCenterCalculated, addr 0x2245684, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isEdgeDistanceFromCenterCalculated, addr 0x23a30a0, size 0x8, virtual false, abstract: false, final false
   inline bool get_isEdgeDistanceFromCenterCalculated();
 
-  /// @brief Method set_isEdgeDistanceFromCenterCalculated, addr 0x224568c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isEdgeDistanceFromCenterCalculated, addr 0x23a30a8, size 0xc, virtual false, abstract: false, final false
   inline void set_isEdgeDistanceFromCenterCalculated(bool value);
 
-  /// @brief Method get_edgeDistanceFromCenter, addr 0x2245698, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_edgeDistanceFromCenter, addr 0x23a30b4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_edgeDistanceFromCenter();
 
-  /// @brief Method set_edgeDistanceFromCenter, addr 0x22456a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_edgeDistanceFromCenter, addr 0x23a30bc, size 0x8, virtual false, abstract: false, final false
   inline void set_edgeDistanceFromCenter(float_t value);
 
-  /// @brief Method Start, addr 0x22456a8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x23a30c4, size 0xa8, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy, addr 0x2245874, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x23a31e4, size 0x98, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandlePlayersLayoutWasCalculated, addr 0x224574c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayersLayoutWasCalculated, addr 0x23a316c, size 0x78, virtual false, abstract: false, final false
   inline void HandlePlayersLayoutWasCalculated(::GlobalNamespace::MultiplayerPlayerLayout layout, int32_t numberOfPlayers);
 
   static inline ::GlobalNamespace::MultiplayerCenterResizeController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22459b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23a327c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerCenterResizeController", modifiers: "&&", def_value: None }]

@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::System::IO::StringWriter);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3586))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3624))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3583))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3622))
 // CS Name: ::System.IO::StringWriter*
 class CORDL_TYPE StringWriter : public ::System::IO::TextWriter {
 public:
@@ -67,41 +67,41 @@ public:
 
   static inline ::System::IO::StringWriter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x253be60, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x255c8bc, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::IO::StringWriter* New_ctor(::System::IFormatProvider* formatProvider);
 
-  /// @brief Method .ctor, addr 0x253bfdc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x255ca38, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::System::IFormatProvider* formatProvider);
 
   static inline ::System::IO::StringWriter* New_ctor(::System::Text::StringBuilder* sb, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method .ctor, addr 0x253bef4, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x255c950, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor(::System::Text::StringBuilder* sb, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method Close, addr 0x253c050, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x255caac, size 0x10, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method Dispose, addr 0x253c060, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x255cabc, size 0x10, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method get_Encoding, addr 0x253c070, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method get_Encoding, addr 0x255cacc, size 0xac, virtual true, abstract: false, final false
   inline ::System::Text::Encoding* get_Encoding();
 
-  /// @brief Method Write, addr 0x253c11c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x255cb78, size 0x28, virtual true, abstract: false, final false
   inline void Write(char16_t value);
 
-  /// @brief Method Write, addr 0x253c144, size 0x188, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x255cba0, size 0x188, virtual true, abstract: false, final false
   inline void Write(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count);
 
-  /// @brief Method Write, addr 0x253c2cc, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x255cd28, size 0x34, virtual true, abstract: false, final false
   inline void Write(::StringW value);
 
-  /// @brief Method FlushAsync, addr 0x253c300, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method FlushAsync, addr 0x255cd5c, size 0x88, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* FlushAsync();
 
-  /// @brief Method ToString, addr 0x253c388, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x255cde4, size 0x20, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "StringWriter", modifiers: "&&", def_value: None }]

@@ -24,8 +24,8 @@ MARK_VAL_T(::OVR::OpenVR::Texture_t);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(8581)), TypeDefinitionIndex(TypeDefinitionIndex(8582))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8657))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(8525)), TypeDefinitionIndex(TypeDefinitionIndex(8526))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8601))
 // CS Name: ::OVR.OpenVR::Texture_t
 struct CORDL_TYPE Texture_t {
 public:

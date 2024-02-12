@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SceneInfo);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15407))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15602))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15455))
 // CS Name: ::SceneInfo*
 class CORDL_TYPE SceneInfo : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -43,18 +43,18 @@ public:
 
   constexpr void __cordl_internal_set__disabledRootObjects(bool value);
 
-  /// @brief Method get_sceneName, addr 0xe23400, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sceneName, addr 0xe44fd4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_sceneName();
 
-  /// @brief Method get_disabledRootObjects, addr 0xe23408, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disabledRootObjects, addr 0xe44fdc, size 0x8, virtual false, abstract: false, final false
   inline bool get_disabledRootObjects();
 
-  /// @brief Method SetSceneName, addr 0xe23410, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetSceneName, addr 0xe44fe4, size 0x8, virtual false, abstract: false, final false
   inline void SetSceneName(::StringW newSceneName);
 
   static inline ::GlobalNamespace::SceneInfo* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe23418, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe44fec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SceneInfo", modifiers: "&&", def_value: None }]

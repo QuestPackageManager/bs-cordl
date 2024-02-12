@@ -45,13 +45,13 @@ public:
 
   static inline ::System::Empty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25e1c4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2604b64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method ToString, addr 0x25e1c54, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2604b6c, size 0x48, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method GetObjectData, addr 0x25e1c9c, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method GetObjectData, addr 0x2604bb4, size 0x6c, virtual true, abstract: false, final true
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "Empty", modifiers: "&&", def_value: None }]

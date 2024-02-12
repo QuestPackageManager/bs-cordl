@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::MidiParser::MidiTrack);
 namespace MidiParser {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16229))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16395))
 // CS Name: ::MidiParser::MidiTrack*
 class CORDL_TYPE MidiTrack : public ::System::Object {
 public:
@@ -47,7 +47,7 @@ public:
 
   static inline ::MidiParser::MidiTrack* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23e6444, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24062b8, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MidiTrack", modifiers: "&&", def_value: None }]

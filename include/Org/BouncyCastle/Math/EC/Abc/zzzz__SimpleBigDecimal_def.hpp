@@ -52,83 +52,83 @@ public:
 
   constexpr void __cordl_internal_set_scale(int32_t value);
 
-  /// @brief Method GetInstance, addr 0xfc6658, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xff34e8, size 0x84, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* GetInstance(::Org::BouncyCastle::Math::BigInteger* val, int32_t scale);
 
   static inline ::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* New_ctor(::Org::BouncyCastle::Math::BigInteger* bigInt, int32_t scale);
 
-  /// @brief Method .ctor, addr 0xfc66dc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xff356c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* bigInt, int32_t scale);
 
   static inline ::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* New_ctor(::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* limBigDec);
 
-  /// @brief Method .ctor, addr 0xfc675c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xff35ec, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* limBigDec);
 
-  /// @brief Method CheckScale, addr 0xfc6798, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method CheckScale, addr 0xff3628, size 0x70, virtual false, abstract: false, final false
   inline void CheckScale(::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* b);
 
-  /// @brief Method AdjustScale, addr 0xfc6808, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method AdjustScale, addr 0xff3698, size 0xe0, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* AdjustScale(int32_t newScale);
 
-  /// @brief Method Add, addr 0xfc68e8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0xff3778, size 0x98, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* Add(::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* b);
 
-  /// @brief Method Add, addr 0xfc6980, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0xff3810, size 0xa0, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* Add(::Org::BouncyCastle::Math::BigInteger* b);
 
-  /// @brief Method Negate, addr 0xfc6a20, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Negate, addr 0xff38b0, size 0x80, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* Negate();
 
-  /// @brief Method Subtract, addr 0xfc6aa0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Subtract, addr 0xff3930, size 0x28, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* Subtract(::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* b);
 
-  /// @brief Method Subtract, addr 0xfc6ac8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Subtract, addr 0xff3958, size 0xa0, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* Subtract(::Org::BouncyCastle::Math::BigInteger* b);
 
-  /// @brief Method Multiply, addr 0xfc6b68, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Multiply, addr 0xff39f8, size 0x98, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* Multiply(::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* b);
 
-  /// @brief Method Multiply, addr 0xfc6c00, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Multiply, addr 0xff3a90, size 0x88, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* Multiply(::Org::BouncyCastle::Math::BigInteger* b);
 
-  /// @brief Method Divide, addr 0xfc6c88, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Divide, addr 0xff3b18, size 0xa8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* Divide(::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* b);
 
-  /// @brief Method Divide, addr 0xfc6d30, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Divide, addr 0xff3bc0, size 0x88, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* Divide(::Org::BouncyCastle::Math::BigInteger* b);
 
-  /// @brief Method ShiftLeft, addr 0xfc6db8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method ShiftLeft, addr 0xff3c48, size 0x88, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* ShiftLeft(int32_t n);
 
-  /// @brief Method CompareTo, addr 0xfc6e40, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method CompareTo, addr 0xff3cd0, size 0x38, virtual false, abstract: false, final false
   inline int32_t CompareTo(::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* val);
 
-  /// @brief Method CompareTo, addr 0xfc6e78, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method CompareTo, addr 0xff3d08, size 0x3c, virtual false, abstract: false, final false
   inline int32_t CompareTo(::Org::BouncyCastle::Math::BigInteger* val);
 
-  /// @brief Method Floor, addr 0xfc6eb4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Floor, addr 0xff3d44, size 0x24, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* Floor();
 
-  /// @brief Method Round, addr 0xfc6ed8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Round, addr 0xff3d68, size 0xbc, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* Round();
 
-  /// @brief Method get_IntValue, addr 0xfc6f94, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_IntValue, addr 0xff3e24, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_IntValue();
 
-  /// @brief Method get_LongValue, addr 0xfc6fb0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_LongValue, addr 0xff3e40, size 0x1c, virtual false, abstract: false, final false
   inline int64_t get_LongValue();
 
-  /// @brief Method get_Scale, addr 0xfc6fcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Scale, addr 0xff3e5c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Scale();
 
-  /// @brief Method ToString, addr 0xfc6fd4, size 0x2fc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0xff3e64, size 0x2fc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method Equals, addr 0xfc72d0, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0xff4160, size 0xc4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0xfc7394, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0xff4224, size 0x30, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "SimpleBigDecimal", modifiers: "&&", def_value: None }]

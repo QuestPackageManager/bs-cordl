@@ -19,12 +19,12 @@ MARK_REF_PTR_T(::HMUI::SetPropertyUtility);
 namespace HMUI {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13655))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13608))
 // CS Name: ::HMUI::SetPropertyUtility*
 class CORDL_TYPE SetPropertyUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SetColor, addr 0x2146070, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method SetColor, addr 0x21da954, size 0x48, virtual false, abstract: false, final false
   static inline bool SetColor(ByRef<::UnityEngine::Color> currentValue, ::UnityEngine::Color newValue);
 
   /// @brief Method SetStruct, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

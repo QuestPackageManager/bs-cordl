@@ -39,7 +39,7 @@ MARK_REF_PTR_T(::Zenject::SubContainerCreatorByInstaller);
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11243))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10385))
 // CS Name: ::Zenject::SubContainerCreatorByInstaller*
 class CORDL_TYPE SubContainerCreatorByInstaller : public ::System::Object {
 public:
@@ -89,16 +89,16 @@ public:
   static inline ::Zenject::SubContainerCreatorByInstaller* New_ctor(::Zenject::DiContainer* container, ::Zenject::SubContainerCreatorBindInfo* containerBindInfo, ::System::Type* installerType,
                                                                     ::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>* extraArgs);
 
-  /// @brief Method .ctor, addr 0x2f0afec, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f27134, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::Zenject::SubContainerCreatorBindInfo* containerBindInfo, ::System::Type* installerType,
                     ::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>* extraArgs);
 
   static inline ::Zenject::SubContainerCreatorByInstaller* New_ctor(::Zenject::DiContainer* container, ::Zenject::SubContainerCreatorBindInfo* containerBindInfo, ::System::Type* installerType);
 
-  /// @brief Method .ctor, addr 0x2f0b0dc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f27224, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::Zenject::SubContainerCreatorBindInfo* containerBindInfo, ::System::Type* installerType);
 
-  /// @brief Method CreateSubContainer, addr 0x2f0b17c, size 0x1a8, virtual true, abstract: false, final true
+  /// @brief Method CreateSubContainer, addr 0x2f272c4, size 0x1a8, virtual true, abstract: false, final true
   inline ::Zenject::DiContainer* CreateSubContainer(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::InjectContext* context);
 
   // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByInstaller", modifiers: "&&", def_value: None }]

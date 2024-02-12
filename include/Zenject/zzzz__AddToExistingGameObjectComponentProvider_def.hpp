@@ -38,8 +38,8 @@ MARK_REF_PTR_T(::Zenject::AddToExistingGameObjectComponentProvider);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11185))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11182))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10327))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10324))
 // CS Name: ::Zenject::AddToExistingGameObjectComponentProvider*
 class CORDL_TYPE AddToExistingGameObjectComponentProvider : public ::Zenject::AddToGameObjectComponentProviderBase {
 public:
@@ -60,15 +60,15 @@ public:
                                                                               ::System::Object* concreteIdentifier,
                                                                               ::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* instantiateCallback);
 
-  /// @brief Method .ctor, addr 0x2f06288, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f223d0, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::GameObject* gameObject, ::Zenject::DiContainer* container, ::System::Type* componentType,
                     ::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>* extraArguments, ::System::Object* concreteIdentifier,
                     ::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* instantiateCallback);
 
-  /// @brief Method get_ShouldToggleActive, addr 0x2f063a0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ShouldToggleActive, addr 0x2f224e8, size 0x8, virtual true, abstract: false, final false
   inline bool get_ShouldToggleActive();
 
-  /// @brief Method GetGameObject, addr 0x2f063a8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetGameObject, addr 0x2f224f0, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> GetGameObject(::Zenject::InjectContext* context);
 
   // Ctor Parameters [CppParam { name: "", ty: "AddToExistingGameObjectComponentProvider", modifiers: "&&", def_value: None }]

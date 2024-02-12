@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::NavigationMoveEvent);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7249))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6508))
 // CS Name: ::NavigationMoveEvent::Direction
 struct CORDL_TYPE __NavigationMoveEvent__Direction {
 public:
@@ -91,8 +91,8 @@ static_assert(offsetof(::UnityEngine::UIElements::__NavigationMoveEvent__Directi
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7248)), TypeDefinitionIndex(TypeDefinitionIndex(7249)), TypeDefinitionIndex(TypeDefinitionIndex(10243)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7248), inst: 4702 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7250)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6507)), TypeDefinitionIndex(TypeDefinitionIndex(6508)), TypeDefinitionIndex(TypeDefinitionIndex(8987)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6507), inst: 4683 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6509)) CS Name:
 // ::UnityEngine.UIElements::NavigationMoveEvent*
 class CORDL_TYPE NavigationMoveEvent : public ::UnityEngine::UIElements::NavigationEventBase_1<::UnityEngine::UIElements::NavigationMoveEvent*> {
 public:
@@ -122,27 +122,27 @@ public:
 
   constexpr void __cordl_internal_set__move_k__BackingField(::UnityEngine::Vector2 value);
 
-  /// @brief Method DetermineMoveDirection, addr 0x2e52eb4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method DetermineMoveDirection, addr 0x2e6e29c, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::__NavigationMoveEvent__Direction DetermineMoveDirection(float_t x, float_t y, float_t deadZone);
 
-  /// @brief Method get_direction, addr 0x2e52f08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_direction, addr 0x2e6e2f0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::__NavigationMoveEvent__Direction get_direction();
 
-  /// @brief Method set_direction, addr 0x2e52f10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_direction, addr 0x2e6e2f8, size 0x8, virtual false, abstract: false, final false
   inline void set_direction(::UnityEngine::UIElements::__NavigationMoveEvent__Direction value);
 
-  /// @brief Method set_move, addr 0x2e52f18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_move, addr 0x2e6e300, size 0x8, virtual false, abstract: false, final false
   inline void set_move(::UnityEngine::Vector2 value);
 
-  /// @brief Method GetPooled, addr 0x2e52f20, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x2e6e308, size 0xe0, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::NavigationMoveEvent* GetPooled(::UnityEngine::Vector2 moveVector);
 
-  /// @brief Method Init, addr 0x2e53000, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x2e6e3e8, size 0x88, virtual true, abstract: false, final false
   inline void Init();
 
   static inline ::UnityEngine::UIElements::NavigationMoveEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e53088, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e6e470, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NavigationMoveEvent", modifiers: "&&", def_value: None }]

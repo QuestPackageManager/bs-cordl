@@ -3,9 +3,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(ICriticalNotifyCompletion)
-namespace System::Runtime::CompilerServices {
-class INotifyCompletion;
-}
 namespace System {
 class Action;
 }
@@ -20,17 +17,11 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::ICriticalNotifyCompletion);
 namespace System::Runtime::CompilerServices {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3374))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3370))
 // CS Name: ::System.Runtime.CompilerServices::ICriticalNotifyCompletion*
 class CORDL_TYPE ICriticalNotifyCompletion {
 public:
   // Declarations
-  /// @brief Convert operator to "::System::Runtime::CompilerServices::INotifyCompletion"
-  constexpr operator ::System::Runtime::CompilerServices::INotifyCompletion*() noexcept;
-
-  /// @brief Convert to "::System::Runtime::CompilerServices::INotifyCompletion"
-  constexpr ::System::Runtime::CompilerServices::INotifyCompletion* i___System__Runtime__CompilerServices__INotifyCompletion() noexcept;
-
   /// @brief Method UnsafeOnCompleted, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UnsafeOnCompleted(::System::Action* continuation);
 

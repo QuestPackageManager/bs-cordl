@@ -24,16 +24,16 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPad* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10b2254, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10df0e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method PadSessionData, addr 0x10b225c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method PadSessionData, addr 0x10df0ec, size 0x8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> PadSessionData(::ArrayW<uint8_t, ::Array<uint8_t>*> sessionInfo);
 
-  /// @brief Method PadSessionData, addr 0x10acb08, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method PadSessionData, addr 0x10d9998, size 0x108, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> PadSessionData(::ArrayW<uint8_t, ::Array<uint8_t>*> sessionInfo, bool obfuscate);
 
-  /// @brief Method UnpadSessionData, addr 0x10b2264, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method UnpadSessionData, addr 0x10df0f4, size 0x138, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> UnpadSessionData(::ArrayW<uint8_t, ::Array<uint8_t>*> encoded);
 
   // Ctor Parameters [CppParam { name: "", ty: "PgpPad", modifiers: "&&", def_value: None }]

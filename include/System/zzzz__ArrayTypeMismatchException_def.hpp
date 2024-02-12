@@ -28,12 +28,12 @@ public:
   // Declarations
   static inline ::System::ArrayTypeMismatchException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25210fc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25429e0, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::ArrayTypeMismatchException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x2521158, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2542a3c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "ArrayTypeMismatchException", modifiers: "&&", def_value: None }]

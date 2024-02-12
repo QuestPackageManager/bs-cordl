@@ -41,8 +41,8 @@ MARK_REF_PTR_T(::System::Reflection::MemberInfoSerializationHolder);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3475))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3509))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3471))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3505))
 // CS Name: ::System.Reflection::MemberInfoSerializationHolder*
 class CORDL_TYPE MemberInfoSerializationHolder : public ::System::Object {
 public:
@@ -113,23 +113,23 @@ public:
 
   constexpr void __cordl_internal_set_m_info(::System::Runtime::Serialization::SerializationInfo* value);
 
-  /// @brief Method GetSerializationInfo, addr 0x24edeec, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetSerializationInfo, addr 0x250d044, size 0x10, virtual false, abstract: false, final false
   static inline void GetSerializationInfo(::System::Runtime::Serialization::SerializationInfo* info, ::StringW name, ::System::RuntimeType* reflectedClass, ::StringW signature,
                                           ::System::Reflection::MemberTypes type);
 
-  /// @brief Method GetSerializationInfo, addr 0x24edefc, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method GetSerializationInfo, addr 0x250d054, size 0x314, virtual false, abstract: false, final false
   static inline void GetSerializationInfo(::System::Runtime::Serialization::SerializationInfo* info, ::StringW name, ::System::RuntimeType* reflectedClass, ::StringW signature, ::StringW signature2,
                                           ::System::Reflection::MemberTypes type, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> genericArguments);
 
   static inline ::System::Reflection::MemberInfoSerializationHolder* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x24ee210, size 0x324, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x250d368, size 0x324, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetObjectData, addr 0x24ee534, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x250d68c, size 0x60, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetRealObject, addr 0x24ee594, size 0x808, virtual true, abstract: false, final false
+  /// @brief Method GetRealObject, addr 0x250d6ec, size 0x808, virtual true, abstract: false, final false
   inline ::System::Object* GetRealObject(::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "MemberInfoSerializationHolder", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior);
 namespace UnityEngine::ProBuilder::KdTree {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15914))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16037))
 // CS Name: ::UnityEngine.ProBuilder.KdTree::AddDuplicateBehavior
 struct CORDL_TYPE AddDuplicateBehavior {
 public:

@@ -22,18 +22,18 @@ MARK_REF_PTR_T(::GlobalNamespace::NoteJumpStartBeatOffsetDropdown);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5602)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5602), inst: 391 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5607))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4907)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4907), inst: 391 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4912))
 // CS Name: ::NoteJumpStartBeatOffsetDropdown*
 class CORDL_TYPE NoteJumpStartBeatOffsetDropdown : public ::GlobalNamespace::ValueDropdownController_1<float_t> {
 public:
   // Declarations
-  /// @brief Method GetNamedValues, addr 0x22ab8a0, size 0x198, virtual true, abstract: false, final false
+  /// @brief Method GetNamedValues, addr 0x22dedbc, size 0x198, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<float_t, ::StringW>*>* GetNamedValues();
 
   static inline ::GlobalNamespace::NoteJumpStartBeatOffsetDropdown* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22aba38, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22def54, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NoteJumpStartBeatOffsetDropdown", modifiers: "&&", def_value: None }]

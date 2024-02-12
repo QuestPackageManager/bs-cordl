@@ -16,7 +16,7 @@ MARK_VAL_T(::Oculus::Platform::SdkAccountType);
 namespace Oculus::Platform {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13385))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13316))
 // CS Name: ::Oculus.Platform::SdkAccountType
 struct CORDL_TYPE SdkAccountType {
 public:

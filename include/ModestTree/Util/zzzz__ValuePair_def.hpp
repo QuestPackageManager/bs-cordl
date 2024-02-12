@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::ModestTree::Util::ValuePair);
 namespace ModestTree::Util {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10629))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9771))
 // CS Name: ::ModestTree.Util::ValuePair*
 class CORDL_TYPE ValuePair : public ::System::Object {
 public:

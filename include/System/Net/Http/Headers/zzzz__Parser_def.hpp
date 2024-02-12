@@ -111,15 +111,15 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::__Parser__Uri);
 namespace System::Net::Http::Headers {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14689))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14694))
 // CS Name: ::Parser::Token*
 class CORDL_TYPE __Parser__Token : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Check, addr 0x28334d4, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Check, addr 0x2837c48, size 0x10c, virtual false, abstract: false, final false
   static inline void Check(::StringW s);
 
-  /// @brief Method TryCheck, addr 0x283ba98, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method TryCheck, addr 0x284016c, size 0x68, virtual false, abstract: false, final false
   static inline bool TryCheck(::StringW s);
 
   // Ctor Parameters [CppParam { name: "", ty: "__Parser__Token", modifiers: "&&", def_value: None }]
@@ -147,7 +147,7 @@ static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::__Pa
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14690))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14695))
 // CS Name: ::Parser::DateTime::<>c*
 class CORDL_TYPE __Parser__DateTime____c : public ::System::Object {
 public:
@@ -161,10 +161,10 @@ public:
 
   static inline ::GlobalNamespace::__Parser__DateTime____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x283ea48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28430b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <.cctor>b__2_0, addr 0x283ea50, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__2_0, addr 0x28430b8, size 0xd8, virtual false, abstract: false, final false
   inline ::StringW __cctor_b__2_0(::System::Object* l);
 
   // Ctor Parameters [CppParam { name: "", ty: "__Parser__DateTime____c", modifiers: "&&", def_value: None }]
@@ -192,7 +192,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__Parser__DateT
 namespace System::Net::Http::Headers {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14691))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14696))
 // CS Name: ::Parser::DateTime*
 class CORDL_TYPE __Parser__DateTime : public ::System::Object {
 public:
@@ -206,7 +206,7 @@ public:
 
   static inline ::System::Func_2<::System::Object*, ::StringW>* getStaticF_ToString();
 
-  /// @brief Method TryParse, addr 0x283e8bc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x2842f24, size 0x64, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ByRef<::System::DateTimeOffset> result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__Parser__DateTime", modifiers: "&&", def_value: None }]
@@ -234,12 +234,12 @@ static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::__Pa
 namespace System::Net::Http::Headers {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14692))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14697))
 // CS Name: ::Parser::EmailAddress*
 class CORDL_TYPE __Parser__EmailAddress : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method TryParse, addr 0x283eb28, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x2843190, size 0xe8, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ByRef<::StringW> result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__Parser__EmailAddress", modifiers: "&&", def_value: None }]
@@ -267,12 +267,12 @@ static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::__Pa
 namespace System::Net::Http::Headers {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14693))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14698))
 // CS Name: ::Parser::Host*
 class CORDL_TYPE __Parser__Host : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method TryParse, addr 0x283ec10, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x2843278, size 0xc8, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ByRef<::StringW> result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__Parser__Host", modifiers: "&&", def_value: None }]
@@ -300,12 +300,12 @@ static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::__Pa
 namespace System::Net::Http::Headers {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14694))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14699))
 // CS Name: ::Parser::Int*
 class CORDL_TYPE __Parser__Int : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method TryParse, addr 0x283ecd8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x2843340, size 0x78, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ByRef<int32_t> result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__Parser__Int", modifiers: "&&", def_value: None }]
@@ -333,12 +333,12 @@ static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::__Pa
 namespace System::Net::Http::Headers {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14695))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14700))
 // CS Name: ::Parser::Long*
 class CORDL_TYPE __Parser__Long : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method TryParse, addr 0x283ed50, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x28433b8, size 0x78, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ByRef<int64_t> result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__Parser__Long", modifiers: "&&", def_value: None }]
@@ -366,7 +366,7 @@ static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::__Pa
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14696))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14701))
 // CS Name: ::Parser::MD5::<>c*
 class CORDL_TYPE __Parser__MD5____c : public ::System::Object {
 public:
@@ -380,10 +380,10 @@ public:
 
   static inline ::GlobalNamespace::__Parser__MD5____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x283efe0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2843648, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <.cctor>b__2_0, addr 0x283efe8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__2_0, addr 0x2843650, size 0x94, virtual false, abstract: false, final false
   inline ::StringW __cctor_b__2_0(::System::Object* l);
 
   // Ctor Parameters [CppParam { name: "", ty: "__Parser__MD5____c", modifiers: "&&", def_value: None }]
@@ -411,7 +411,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__Parser__MD5__
 namespace System::Net::Http::Headers {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14697))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14702))
 // CS Name: ::Parser::MD5*
 class CORDL_TYPE __Parser__MD5 : public ::System::Object {
 public:
@@ -425,7 +425,7 @@ public:
 
   static inline ::System::Func_2<::System::Object*, ::StringW>* getStaticF_ToString();
 
-  /// @brief Method TryParse, addr 0x283edc8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x2843430, size 0xf0, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__Parser__MD5", modifiers: "&&", def_value: None }]
@@ -453,12 +453,12 @@ static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::__Pa
 namespace System::Net::Http::Headers {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14698))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14703))
 // CS Name: ::Parser::TimeSpanSeconds*
 class CORDL_TYPE __Parser__TimeSpanSeconds : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method TryParse, addr 0x283f07c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x28436e4, size 0xb0, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ByRef<::System::TimeSpan> result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__Parser__TimeSpanSeconds", modifiers: "&&", def_value: None }]
@@ -486,12 +486,12 @@ static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::__Pa
 namespace System::Net::Http::Headers {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14699))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14704))
 // CS Name: ::Parser::Uri*
 class CORDL_TYPE __Parser__Uri : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method TryParse, addr 0x283f12c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x2843794, size 0x6c, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ByRef<::System::Uri*> result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__Parser__Uri", modifiers: "&&", def_value: None }]
@@ -519,7 +519,7 @@ static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::__Pa
 namespace System::Net::Http::Headers {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14700))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14705))
 // CS Name: ::System.Net.Http.Headers::Parser*
 class CORDL_TYPE Parser : public ::System::Object {
 public:

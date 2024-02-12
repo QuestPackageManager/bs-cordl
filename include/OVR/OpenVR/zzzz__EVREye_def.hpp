@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::EVREye);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8580))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8524))
 // CS Name: ::OVR.OpenVR::EVREye
 struct CORDL_TYPE EVREye {
 public:

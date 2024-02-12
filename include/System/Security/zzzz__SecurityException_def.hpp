@@ -41,28 +41,28 @@ public:
 
   static inline ::System::Security::SecurityException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24545e4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2475448, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Security::SecurityException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x245464c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24754b0, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::System::Security::SecurityException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x2454670, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24754d4, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Security::SecurityException* New_ctor(::StringW message, ::System::Exception* inner);
 
-  /// @brief Method .ctor, addr 0x245477c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24755e0, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* inner);
 
-  /// @brief Method GetObjectData, addr 0x24547a0, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x2475604, size 0x100, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method ToString, addr 0x24548a0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2475704, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "SecurityException", modifiers: "&&", def_value: None }]

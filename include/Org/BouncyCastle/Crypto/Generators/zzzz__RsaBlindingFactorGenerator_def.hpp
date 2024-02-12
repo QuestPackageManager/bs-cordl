@@ -50,15 +50,15 @@ public:
 
   constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method Init, addr 0xf057c4, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0xf30654, size 0x1d8, virtual false, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::ICipherParameters* param);
 
-  /// @brief Method GenerateBlindingFactor, addr 0xf0599c, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GenerateBlindingFactor, addr 0xf3082c, size 0x188, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* GenerateBlindingFactor();
 
   static inline ::Org::BouncyCastle::Crypto::Generators::RsaBlindingFactorGenerator* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf05b24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf309b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RsaBlindingFactorGenerator", modifiers: "&&", def_value: None }]

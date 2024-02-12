@@ -56,32 +56,32 @@ public:
 
   static inline ::System::Security::Principal::GenericIdentity* New_ctor(::StringW name, ::StringW type);
 
-  /// @brief Method .ctor, addr 0x2476548, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24985bc, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::StringW type);
 
   static inline ::System::Security::Principal::GenericIdentity* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24766f8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x249876c, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Security::Principal::GenericIdentity* New_ctor(::System::Security::Principal::GenericIdentity* identity);
 
-  /// @brief Method .ctor, addr 0x2476714, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2498788, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Principal::GenericIdentity* identity);
 
-  /// @brief Method Clone, addr 0x2476934, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x24989a8, size 0x60, virtual true, abstract: false, final false
   inline ::System::Security::Claims::ClaimsIdentity* Clone();
 
-  /// @brief Method get_Claims, addr 0x2476994, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method get_Claims, addr 0x2498a08, size 0x4, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Security::Claims::Claim*>* get_Claims();
 
-  /// @brief Method get_Name, addr 0x2476a10, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x2498a84, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_AuthenticationType, addr 0x2476a18, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_AuthenticationType, addr 0x2498a8c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_AuthenticationType();
 
-  /// @brief Method AddNameClaim, addr 0x2476620, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method AddNameClaim, addr 0x2498694, size 0xd8, virtual false, abstract: false, final false
   inline void AddNameClaim();
 
   // Ctor Parameters [CppParam { name: "", ty: "GenericIdentity", modifiers: "&&", def_value: None }]

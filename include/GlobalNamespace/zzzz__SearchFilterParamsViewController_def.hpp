@@ -47,8 +47,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SearchFilterParamsViewController);
 // SizeInfo { instance_size: 328, native_size: -1, calculated_instance_size: 328, calculated_native_size: 328, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4402)), TypeDefinitionIndex(TypeDefinitionIndex(13605))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5673))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10813)), TypeDefinitionIndex(TypeDefinitionIndex(13558))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4975))
 // CS Name: ::SearchFilterParamsViewController*
 class CORDL_TYPE SearchFilterParamsViewController : public ::HMUI::ViewController {
 public:
@@ -220,42 +220,42 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::SearchFilterParamsViewController>, ::GlobalNamespace::LevelFilter>* value);
 
-  /// @brief Method add_didFinishEvent, addr 0x22c28b0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x22f1f70, size 0xb4, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::SearchFilterParamsViewController>, ::GlobalNamespace::LevelFilter>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x22c2964, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x22f2024, size 0xb4, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::SearchFilterParamsViewController>, ::GlobalNamespace::LevelFilter>* value);
 
-  /// @brief Method Setup, addr 0x22c2a18, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x22f20d8, size 0x30, virtual false, abstract: false, final false
   inline void Setup(ByRef<::GlobalNamespace::LevelFilter> filter);
 
-  /// @brief Method DidActivate, addr 0x22c2dec, size 0x260, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x22f2494, size 0x260, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x22c304c, size 0x1c8, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x22f26f4, size 0x1c8, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method OkButtonPressed, addr 0x22c3214, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method OkButtonPressed, addr 0x22f28bc, size 0x1d8, virtual false, abstract: false, final false
   inline void OkButtonPressed();
 
-  /// @brief Method MinBpmControllerValueDidChange, addr 0x22c33ec, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method MinBpmControllerValueDidChange, addr 0x22f2a94, size 0x88, virtual false, abstract: false, final false
   inline void MinBpmControllerValueDidChange(::GlobalNamespace::FormattedFloatListSettingsController* minBpmController, float_t value);
 
-  /// @brief Method MaxBpmControllerValueDidChange, addr 0x22c3474, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method MaxBpmControllerValueDidChange, addr 0x22f2b1c, size 0x88, virtual false, abstract: false, final false
   inline void MaxBpmControllerValueDidChange(::GlobalNamespace::FormattedFloatListSettingsController* maxBpmController, float_t value);
 
-  /// @brief Method HandleFilterByOwnedValueValueChanged, addr 0x22c34fc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method HandleFilterByOwnedValueValueChanged, addr 0x22f2ba4, size 0x2c, virtual false, abstract: false, final false
   inline void HandleFilterByOwnedValueValueChanged(bool isOn);
 
-  /// @brief Method HandleFilterByNotOwnedValueValueChanged, addr 0x22c3528, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method HandleFilterByNotOwnedValueValueChanged, addr 0x22f2bd0, size 0x2c, virtual false, abstract: false, final false
   inline void HandleFilterByNotOwnedValueValueChanged(bool isOn);
 
-  /// @brief Method Refresh, addr 0x22c2a48, size 0x3a4, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x22f2108, size 0x38c, virtual false, abstract: false, final false
   inline void Refresh(ByRef<::GlobalNamespace::LevelFilter> filter);
 
   static inline ::GlobalNamespace::SearchFilterParamsViewController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22c3554, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22f2bfc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SearchFilterParamsViewController", modifiers: "&&", def_value: None }]

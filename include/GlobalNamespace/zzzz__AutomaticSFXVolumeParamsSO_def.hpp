@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::GlobalNamespace::AutomaticSFXVolumeParamsSO);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4056))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8954))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4002))
 // CS Name: ::AutomaticSFXVolumeParamsSO*
 class CORDL_TYPE AutomaticSFXVolumeParamsSO : public ::UnityEngine::ScriptableObject {
 public:
@@ -109,33 +109,33 @@ public:
 
   constexpr void __cordl_internal_set__volumeSmooth(float_t value);
 
-  /// @brief Method get_musicVolumeMultiplier, addr 0x222c574, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_musicVolumeMultiplier, addr 0x22b620c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_musicVolumeMultiplier();
 
-  /// @brief Method get_threshold, addr 0x222c57c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_threshold, addr 0x22b6214, size 0x8, virtual false, abstract: false, final false
   inline float_t get_threshold();
 
-  /// @brief Method get_impact, addr 0x222c584, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_impact, addr 0x22b621c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_impact();
 
-  /// @brief Method get_attackTime, addr 0x222c58c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_attackTime, addr 0x22b6224, size 0x8, virtual false, abstract: false, final false
   inline float_t get_attackTime();
 
-  /// @brief Method get_releaseTime, addr 0x222c594, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_releaseTime, addr 0x22b622c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_releaseTime();
 
-  /// @brief Method get_minVolume, addr 0x222c59c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_minVolume, addr 0x22b6234, size 0x8, virtual false, abstract: false, final false
   inline float_t get_minVolume();
 
-  /// @brief Method get_maxVolume, addr 0x222c5a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxVolume, addr 0x22b623c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_maxVolume();
 
-  /// @brief Method get_volumeSmooth, addr 0x222c5ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_volumeSmooth, addr 0x22b6244, size 0x8, virtual false, abstract: false, final false
   inline float_t get_volumeSmooth();
 
   static inline ::GlobalNamespace::AutomaticSFXVolumeParamsSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x222c5b4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b624c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AutomaticSFXVolumeParamsSO", modifiers: "&&", def_value: None }]

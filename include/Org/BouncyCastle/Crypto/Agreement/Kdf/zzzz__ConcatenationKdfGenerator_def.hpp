@@ -77,16 +77,16 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::Kdf::ConcatenationKdfGenerator* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method .ctor, addr 0x12165f0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1243480, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method Init, addr 0x12166ac, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x124353c, size 0xcc, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::IDerivationParameters* param);
 
-  /// @brief Method get_Digest, addr 0x1216778, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Digest, addr 0x1243608, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::IDigest* get_Digest();
 
-  /// @brief Method GenerateBytes, addr 0x1216780, size 0x5d8, virtual true, abstract: false, final false
+  /// @brief Method GenerateBytes, addr 0x1243610, size 0x5d8, virtual true, abstract: false, final false
   inline int32_t GenerateBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff, int32_t len);
 
   // Ctor Parameters [CppParam { name: "", ty: "ConcatenationKdfGenerator", modifiers: "&&", def_value: None }]

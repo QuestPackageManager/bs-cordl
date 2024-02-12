@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::System::Runtime::ExceptionServices::ExceptionDispatchInfo);
 namespace System::Runtime::ExceptionServices {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3349))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3346))
 // CS Name: ::System.Runtime.ExceptionServices::ExceptionDispatchInfo*
 class CORDL_TYPE ExceptionDispatchInfo : public ::System::Object {
 public:
@@ -50,22 +50,22 @@ public:
 
   static inline ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* New_ctor(::System::Exception* exception);
 
-  /// @brief Method .ctor, addr 0x24da590, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24faac0, size 0x128, virtual false, abstract: false, final false
   inline void _ctor(::System::Exception* exception);
 
-  /// @brief Method get_BinaryStackTraceArray, addr 0x24da6b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BinaryStackTraceArray, addr 0x24fabe8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_BinaryStackTraceArray();
 
-  /// @brief Method Capture, addr 0x24da14c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Capture, addr 0x24fa67c, size 0xcc, virtual false, abstract: false, final false
   static inline ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* Capture(::System::Exception* source);
 
-  /// @brief Method get_SourceException, addr 0x24da6c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SourceException, addr 0x24fabf0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Exception* get_SourceException();
 
-  /// @brief Method Throw, addr 0x24da218, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Throw, addr 0x24fa748, size 0x44, virtual false, abstract: false, final false
   inline void Throw();
 
-  /// @brief Method Throw, addr 0x24da6c8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Throw, addr 0x24fabf8, size 0x18, virtual false, abstract: false, final false
   static inline void Throw(::System::Exception* source);
 
   // Ctor Parameters [CppParam { name: "", ty: "ExceptionDispatchInfo", modifiers: "&&", def_value: None }]

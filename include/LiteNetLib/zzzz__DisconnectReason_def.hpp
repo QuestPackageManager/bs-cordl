@@ -16,7 +16,7 @@ MARK_VAL_T(::LiteNetLib::DisconnectReason);
 namespace LiteNetLib {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14131))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14144))
 // CS Name: ::LiteNetLib::DisconnectReason
 struct CORDL_TYPE DisconnectReason {
 public:

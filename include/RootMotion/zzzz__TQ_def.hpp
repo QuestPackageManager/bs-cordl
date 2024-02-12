@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::RootMotion::TQ);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12473))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(8996))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12371))
 // CS Name: ::RootMotion::TQ*
 class CORDL_TYPE TQ : public ::System::Object {
 public:
@@ -48,7 +48,7 @@ public:
 
   static inline ::RootMotion::TQ* New_ctor(::UnityEngine::Vector3 translation, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method .ctor, addr 0x1231c68, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12ccd18, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 translation, ::UnityEngine::Quaternion rotation);
 
   // Ctor Parameters [CppParam { name: "", ty: "TQ", modifiers: "&&", def_value: None }]

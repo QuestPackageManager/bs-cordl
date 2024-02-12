@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IFocusRing);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6882))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6141))
 // CS Name: ::UnityEngine.UIElements::IFocusRing*
 class CORDL_TYPE IFocusRing {
 public:

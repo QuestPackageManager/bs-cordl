@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::UnityEngine::DefaultExecutionOrder);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10222))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8966))
 // CS Name: ::UnityEngine::DefaultExecutionOrder*
 class CORDL_TYPE DefaultExecutionOrder : public ::System::Attribute {
 public:
@@ -34,10 +34,10 @@ public:
 
   static inline ::UnityEngine::DefaultExecutionOrder* New_ctor(int32_t order);
 
-  /// @brief Method .ctor, addr 0x2cd2968, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cd9910, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t order);
 
-  /// @brief Method get_order, addr 0x2ccdab8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_order, addr 0x2cd4b44, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_order();
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultExecutionOrder", modifiers: "&&", def_value: None }]

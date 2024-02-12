@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaSimpleTypeRestriction);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11738))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11740))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11636))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11638))
 // CS Name: ::System.Xml.Schema::XmlSchemaSimpleTypeRestriction*
 class CORDL_TYPE XmlSchemaSimpleTypeRestriction : public ::System::Xml::Schema::XmlSchemaSimpleTypeContent {
 public:
@@ -46,12 +46,12 @@ public:
 
   constexpr void __cordl_internal_set_facets(::System::Xml::Schema::XmlSchemaObjectCollection* value);
 
-  /// @brief Method set_BaseTypeName, addr 0x28c917c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method set_BaseTypeName, addr 0x28cb7e4, size 0x98, virtual false, abstract: false, final false
   inline void set_BaseTypeName(::System::Xml::XmlQualifiedName* value);
 
   static inline ::System::Xml::Schema::XmlSchemaSimpleTypeRestriction* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28c9214, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28cb87c, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaSimpleTypeRestriction", modifiers: "&&", def_value: None }]

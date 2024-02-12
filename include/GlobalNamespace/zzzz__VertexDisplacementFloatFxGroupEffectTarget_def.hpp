@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4909)), TypeDefinitionIndex(TypeDefinitionIndex(10164)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4917))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4263)), TypeDefinitionIndex(TypeDefinitionIndex(8908)), TypeDefinitionIndex(TypeDefinitionIndex(8993))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4271))
 // CS Name: ::VertexDisplacementFloatFxGroupEffectTarget*
 class CORDL_TYPE VertexDisplacementFloatFxGroupEffectTarget : public ::GlobalNamespace::FloatFxGroupEffectTarget {
 public:
@@ -125,24 +125,24 @@ public:
 
   static inline int32_t getStaticF__vertexDisplacementRangeVectorPropertyID();
 
-  /// @brief Method OnEnable, addr 0x23a7254, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x236738c, size 0xd4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnValidate, addr 0x23a73b0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x23674e8, size 0x1c, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method CalculateDisplacementVector, addr 0x23a7328, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method CalculateDisplacementVector, addr 0x2367460, size 0x88, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 CalculateDisplacementVector(float_t value);
 
-  /// @brief Method SetValue, addr 0x23a73cc, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x2367504, size 0xd4, virtual true, abstract: false, final false
   inline void SetValue(float_t value);
 
-  /// @brief Method TriggerValue, addr 0x23a74a0, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method TriggerValue, addr 0x23675d8, size 0xd4, virtual true, abstract: false, final false
   inline void TriggerValue(float_t value);
 
   static inline ::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23a7574, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23676ac, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "VertexDisplacementFloatFxGroupEffectTarget", modifiers: "&&", def_value: None }]

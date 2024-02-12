@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::GlobalNamespace::PreviousColorPanelController);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16178))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8995))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16326))
 // CS Name: ::PreviousColorPanelController*
 class CORDL_TYPE PreviousColorPanelController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -93,30 +93,30 @@ public:
 
   constexpr void __cordl_internal_set__graphicsColor(::UnityEngine::Color value);
 
-  /// @brief Method add_colorWasSelectedEvent, addr 0x23e3848, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_colorWasSelectedEvent, addr 0x24036a8, size 0xb0, virtual false, abstract: false, final false
   inline void add_colorWasSelectedEvent(::System::Action_1<::UnityEngine::Color>* value);
 
-  /// @brief Method remove_colorWasSelectedEvent, addr 0x23e38f8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_colorWasSelectedEvent, addr 0x2403758, size 0xb0, virtual false, abstract: false, final false
   inline void remove_colorWasSelectedEvent(::System::Action_1<::UnityEngine::Color>* value);
 
-  /// @brief Method Awake, addr 0x23e39a8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2403808, size 0xc4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnDestroy, addr 0x23e3a6c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x24038cc, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method AddColor, addr 0x23e3a88, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method AddColor, addr 0x24038e8, size 0xa4, virtual false, abstract: false, final false
   inline void AddColor(::UnityEngine::Color color);
 
-  /// @brief Method DiscardUpcomingColor, addr 0x23e3b2c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method DiscardUpcomingColor, addr 0x240398c, size 0xc, virtual false, abstract: false, final false
   inline void DiscardUpcomingColor();
 
   static inline ::GlobalNamespace::PreviousColorPanelController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23e3b38, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2403998, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Awake>b__9_0, addr 0x23e3b50, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__9_0, addr 0x24039b0, size 0x24, virtual false, abstract: false, final false
   inline void _Awake_b__9_0();
 
   // Ctor Parameters [CppParam { name: "", ty: "PreviousColorPanelController", modifiers: "&&", def_value: None }]

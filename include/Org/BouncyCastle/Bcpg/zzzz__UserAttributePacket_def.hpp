@@ -42,19 +42,19 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::UserAttributePacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor, addr 0x11cee70, size 0x324, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11fcd00, size 0x324, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
   static inline ::Org::BouncyCastle::Bcpg::UserAttributePacket*
   New_ctor(::ArrayW<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*>*> subpackets);
 
-  /// @brief Method .ctor, addr 0x11d4f0c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1202d9c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*>*> subpackets);
 
-  /// @brief Method GetSubpackets, addr 0x11d4f34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetSubpackets, addr 0x1202dc4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*>*> GetSubpackets();
 
-  /// @brief Method Encode, addr 0x11d4f3c, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x1202dcc, size 0xd8, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
   // Ctor Parameters [CppParam { name: "", ty: "UserAttributePacket", modifiers: "&&", def_value: None }]

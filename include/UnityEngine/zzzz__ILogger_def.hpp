@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::UnityEngine::ILogger);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10054))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8786))
 // CS Name: ::UnityEngine::ILogger*
 class CORDL_TYPE ILogger {
 public:

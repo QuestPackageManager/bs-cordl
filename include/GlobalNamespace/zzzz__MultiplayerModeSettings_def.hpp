@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerModeSettings);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14719))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4514))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15103))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10934))
 // CS Name: ::MultiplayerModeSettings*
 class CORDL_TYPE MultiplayerModeSettings : public ::System::Object {
 public:
@@ -61,7 +61,7 @@ public:
 
   static inline ::GlobalNamespace::MultiplayerModeSettings* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2362f4c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12a0604, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerModeSettings", modifiers: "&&", def_value: None }]

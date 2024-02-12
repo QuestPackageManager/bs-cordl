@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::CoroutineStarter);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15851))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15596))
 // CS Name: ::CoroutineStarter*
 class CORDL_TYPE CoroutineStarter : public ::UnityEngine::MonoBehaviour {
 public:
@@ -35,15 +35,15 @@ public:
   /// @brief Convert to "::GlobalNamespace::ICoroutineStarter"
   constexpr ::GlobalNamespace::ICoroutineStarter* i___GlobalNamespace__ICoroutineStarter() noexcept;
 
-  /// @brief Method ICoroutineStarter.StartCoroutine, addr 0xe27308, size 0xd4, virtual true, abstract: false, final true
+  /// @brief Method ICoroutineStarter.StartCoroutine, addr 0xe51044, size 0xd4, virtual true, abstract: false, final true
   inline ::UnityEngine::Coroutine* ICoroutineStarter_StartCoroutine(::System::Collections::IEnumerator* routine);
 
-  /// @brief Method ICoroutineStarter.StopCoroutine, addr 0xe273dc, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method ICoroutineStarter.StopCoroutine, addr 0xe51118, size 0xcc, virtual true, abstract: false, final true
   inline void ICoroutineStarter_StopCoroutine(::UnityEngine::Coroutine* routine);
 
   static inline ::GlobalNamespace::CoroutineStarter* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe274a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe511e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CoroutineStarter", modifiers: "&&", def_value: None }]

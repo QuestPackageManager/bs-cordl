@@ -59,7 +59,7 @@ MARK_REF_PTR_T(::Zenject::__InitializableManager____c__DisplayClass2_0);
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11317))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10459))
 // CS Name: ::InitializableManager::InitializableInfo*
 class CORDL_TYPE __InitializableManager__InitializableInfo : public ::System::Object {
 public:
@@ -84,13 +84,13 @@ public:
 
   static inline ::Zenject::__InitializableManager__InitializableInfo* New_ctor(::Zenject::IInitializable* initializable, int32_t priority);
 
-  /// @brief Method .ctor, addr 0x2f13724, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f2f86c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::IInitializable* initializable, int32_t priority);
 
-  /// @brief Method __zenCreate, addr 0x2f140ac, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2f301f4, size 0x110, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f141bc, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f30304, size 0x304, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__InitializableManager__InitializableInfo", modifiers: "&&", def_value: None }]
@@ -128,7 +128,7 @@ static_assert(offsetof(::Zenject::__InitializableManager__InitializableInfo, ___
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11318))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10460))
 // CS Name: ::InitializableManager::<>c__DisplayClass2_0*
 class CORDL_TYPE __InitializableManager____c__DisplayClass2_0 : public ::System::Object {
 public:
@@ -144,16 +144,16 @@ public:
 
   static inline ::Zenject::__InitializableManager____c__DisplayClass2_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f1371c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f2f864, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <.ctor>b__0, addr 0x2f144c0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0, addr 0x2f30608, size 0x80, virtual false, abstract: false, final false
   inline bool __ctor_b__0(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>* x);
 
-  /// @brief Method __zenCreate, addr 0x2f14540, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2f30688, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f1459c, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f306e4, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__InitializableManager____c__DisplayClass2_0", modifiers: "&&", def_value: None }]
@@ -186,7 +186,7 @@ static_assert(offsetof(::Zenject::__InitializableManager____c__DisplayClass2_0, 
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11319))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10461))
 // CS Name: ::InitializableManager::<>c*
 class CORDL_TYPE __InitializableManager____c : public ::System::Object {
 public:
@@ -214,19 +214,19 @@ public:
 
   static inline ::Zenject::__InitializableManager____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f147c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f30908, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <.ctor>b__2_1, addr 0x2f147c8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__2_1, addr 0x2f30910, size 0x18, virtual false, abstract: false, final false
   inline int32_t __ctor_b__2_1(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>* x);
 
-  /// @brief Method <Initialize>b__5_0, addr 0x2f147e0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__5_0, addr 0x2f30928, size 0x18, virtual false, abstract: false, final false
   inline int32_t _Initialize_b__5_0(::Zenject::__InitializableManager__InitializableInfo* x);
 
-  /// @brief Method __zenCreate, addr 0x2f147f8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2f30940, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f14854, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f3099c, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__InitializableManager____c", modifiers: "&&", def_value: None }]
@@ -254,7 +254,7 @@ static_assert(::cordl_internals::size_check_v<::Zenject::__InitializableManager_
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11320))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10462))
 // CS Name: ::Zenject::InitializableManager*
 class CORDL_TYPE InitializableManager : public ::System::Object {
 public:
@@ -287,23 +287,23 @@ public:
   static inline ::Zenject::InitializableManager* New_ctor(::System::Collections::Generic::List_1<::Zenject::IInitializable*>* initializables,
                                                           ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* priorities);
 
-  /// @brief Method .ctor, addr 0x2f13380, size 0x39c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f2f4c8, size 0x39c, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::Zenject::IInitializable*>* initializables,
                     ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* priorities);
 
-  /// @brief Method Add, addr 0x2f13754, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x2f2f89c, size 0x8, virtual false, abstract: false, final false
   inline void Add(::Zenject::IInitializable* initializable);
 
-  /// @brief Method Add, addr 0x2f1375c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x2f2f8a4, size 0x104, virtual false, abstract: false, final false
   inline void Add(::Zenject::IInitializable* initializable, int32_t priority);
 
-  /// @brief Method Initialize, addr 0x2f13860, size 0x42c, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x2f2f9a8, size 0x42c, virtual false, abstract: false, final false
   inline void Initialize();
 
-  /// @brief Method __zenCreate, addr 0x2f13c8c, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2f2fdd4, size 0x11c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f13da8, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f2fef0, size 0x304, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "InitializableManager", modifiers: "&&", def_value: None }]

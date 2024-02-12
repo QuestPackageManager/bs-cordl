@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::System::Reflection::AssemblyCompanyAttribute);
 namespace System::Reflection {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3444))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3440))
 // CS Name: ::System.Reflection::AssemblyCompanyAttribute*
 class CORDL_TYPE AssemblyCompanyAttribute : public ::System::Attribute {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::System::Reflection::AssemblyCompanyAttribute* New_ctor(::StringW company);
 
-  /// @brief Method .ctor, addr 0x24e5e80, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2504fd8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW company);
 
   // Ctor Parameters [CppParam { name: "", ty: "AssemblyCompanyAttribute", modifiers: "&&", def_value: None }]

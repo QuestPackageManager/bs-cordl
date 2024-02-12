@@ -88,19 +88,19 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::PasswordRecipientInfoGenerator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x120758c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x123441c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_KeyDerivationAlgorithm, addr 0x1207594, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_KeyDerivationAlgorithm, addr 0x1234424, size 0x8, virtual false, abstract: false, final false
   inline void set_KeyDerivationAlgorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
 
-  /// @brief Method set_KeyEncryptionKey, addr 0x120759c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_KeyEncryptionKey, addr 0x123442c, size 0x8, virtual false, abstract: false, final false
   inline void set_KeyEncryptionKey(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* value);
 
-  /// @brief Method set_KeyEncryptionKeyOID, addr 0x12075a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_KeyEncryptionKeyOID, addr 0x1234434, size 0x8, virtual false, abstract: false, final false
   inline void set_KeyEncryptionKeyOID(::StringW value);
 
-  /// @brief Method Generate, addr 0x12075ac, size 0x4bc, virtual true, abstract: false, final true
+  /// @brief Method Generate, addr 0x123443c, size 0x4bc, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::Cms::RecipientInfo* Generate(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* contentEncryptionKey, ::Org::BouncyCastle::Security::SecureRandom* random);
 
   // Ctor Parameters [CppParam { name: "", ty: "PasswordRecipientInfoGenerator", modifiers: "&&", def_value: None }]

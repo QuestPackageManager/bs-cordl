@@ -41,8 +41,8 @@ MARK_REF_PTR_T(::Mono::Net::Security::MobileTlsProvider);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13782))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8838))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13735))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6848))
 // CS Name: ::Mono.Net.Security::MobileTlsProvider*
 class CORDL_TYPE MobileTlsProvider : public ::Mono::Security::Interface::MonoTlsProvider {
 public:
@@ -58,7 +58,7 @@ public:
 
   static inline ::Mono::Net::Security::MobileTlsProvider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x281d6e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2821ec8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MobileTlsProvider", modifiers: "&&", def_value: None }]

@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::TupleElementNamesAttribute);
 namespace System::Runtime::CompilerServices {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3386))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3382))
 // CS Name: ::System.Runtime.CompilerServices::TupleElementNamesAttribute*
 class CORDL_TYPE TupleElementNamesAttribute : public ::System::Attribute {
 public:
@@ -33,7 +33,7 @@ public:
 
   static inline ::System::Runtime::CompilerServices::TupleElementNamesAttribute* New_ctor(::ArrayW<::StringW, ::Array<::StringW>*> transformNames);
 
-  /// @brief Method .ctor, addr 0x24db510, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24fb87c, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::StringW, ::Array<::StringW>*> transformNames);
 
   // Ctor Parameters [CppParam { name: "", ty: "TupleElementNamesAttribute", modifiers: "&&", def_value: None }]

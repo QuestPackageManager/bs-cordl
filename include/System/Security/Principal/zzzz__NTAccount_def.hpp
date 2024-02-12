@@ -44,25 +44,25 @@ public:
 
   static inline ::System::Security::Principal::NTAccount* New_ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x2476e94, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2498f08, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method get_Value, addr 0x2476f7c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x2498ff0, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method Equals, addr 0x2476f84, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2498ff8, size 0x98, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method GetHashCode, addr 0x2477084, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x24990f8, size 0x28, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x24770ac, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2499120, size 0xc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method Translate, addr 0x24770b8, size 0x22c, virtual true, abstract: false, final false
+  /// @brief Method Translate, addr 0x249912c, size 0x22c, virtual true, abstract: false, final false
   inline ::System::Security::Principal::IdentityReference* Translate(::System::Type* targetType);
 
-  /// @brief Method op_Equality, addr 0x247701c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x2499090, size 0x68, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Security::Principal::NTAccount* left, ::System::Security::Principal::NTAccount* right);
 
   // Ctor Parameters [CppParam { name: "", ty: "NTAccount", modifiers: "&&", def_value: None }]

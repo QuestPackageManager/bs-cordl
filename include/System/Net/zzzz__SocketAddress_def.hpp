@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::System::Net::SocketAddress);
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9083))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7093))
 // CS Name: ::System.Net::SocketAddress*
 class CORDL_TYPE SocketAddress : public ::System::Object {
 public:
@@ -77,43 +77,43 @@ public:
 
   constexpr void __cordl_internal_set_m_hash(int32_t value);
 
-  /// @brief Method get_Family, addr 0x299ec68, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_Family, addr 0x29a370c, size 0x38, virtual false, abstract: false, final false
   inline ::System::Net::Sockets::AddressFamily get_Family();
 
-  /// @brief Method get_Size, addr 0x299eca0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Size, addr 0x29a3744, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Size();
 
-  /// @brief Method get_Item, addr 0x299eca8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x29a374c, size 0x7c, virtual false, abstract: false, final false
   inline uint8_t get_Item(int32_t offset);
 
   static inline ::System::Net::SocketAddress* New_ctor(::System::Net::Sockets::AddressFamily family, int32_t size);
 
-  /// @brief Method .ctor, addr 0x299ed24, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29a37c8, size 0x120, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Sockets::AddressFamily family, int32_t size);
 
   static inline ::System::Net::SocketAddress* New_ctor(::System::Net::IPAddress* ipAddress);
 
-  /// @brief Method .ctor, addr 0x299ee44, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29a38e8, size 0x288, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::IPAddress* ipAddress);
 
   static inline ::System::Net::SocketAddress* New_ctor(::System::Net::IPAddress* ipaddress, int32_t port);
 
-  /// @brief Method .ctor, addr 0x299f0cc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29a3b70, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::IPAddress* ipaddress, int32_t port);
 
-  /// @brief Method GetIPAddress, addr 0x299f128, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method GetIPAddress, addr 0x29a3bcc, size 0x1f4, virtual false, abstract: false, final false
   inline ::System::Net::IPAddress* GetIPAddress();
 
-  /// @brief Method GetIPEndPoint, addr 0x299f31c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetIPEndPoint, addr 0x29a3dc0, size 0xa8, virtual false, abstract: false, final false
   inline ::System::Net::IPEndPoint* GetIPEndPoint();
 
-  /// @brief Method Equals, addr 0x299f3c4, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x29a3e68, size 0xec, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* comparand);
 
-  /// @brief Method GetHashCode, addr 0x299f4b0, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x29a3f54, size 0x130, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x299f5e0, size 0x2ec, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x29a4084, size 0x2ec, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "SocketAddress", modifiers: "&&", def_value: None }]

@@ -75,25 +75,25 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Tls::ServerSrpParams* New_ctor(::Org::BouncyCastle::Math::BigInteger* N, ::Org::BouncyCastle::Math::BigInteger* g, ::ArrayW<uint8_t, ::Array<uint8_t>*> s,
                                                                             ::Org::BouncyCastle::Math::BigInteger* B);
 
-  /// @brief Method .ctor, addr 0xf95aa8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfc1938, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* N, ::Org::BouncyCastle::Math::BigInteger* g, ::ArrayW<uint8_t, ::Array<uint8_t>*> s, ::Org::BouncyCastle::Math::BigInteger* B);
 
-  /// @brief Method get_B, addr 0xf95b38, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_B, addr 0xfc19c8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_B();
 
-  /// @brief Method get_G, addr 0xf95b40, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_G, addr 0xfc19d0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_G();
 
-  /// @brief Method get_N, addr 0xf95b48, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_N, addr 0xfc19d8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_N();
 
-  /// @brief Method get_S, addr 0xf95b50, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_S, addr 0xfc19e0, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_S();
 
-  /// @brief Method Encode, addr 0xf95b58, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0xfc19e8, size 0x9c, virtual true, abstract: false, final false
   inline void Encode(::System::IO::Stream* output);
 
-  /// @brief Method Parse, addr 0xf95bf4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0xfc1a84, size 0xe0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Tls::ServerSrpParams* Parse(::System::IO::Stream* input);
 
   // Ctor Parameters [CppParam { name: "", ty: "ServerSrpParams", modifiers: "&&", def_value: None }]

@@ -82,27 +82,27 @@ public:
 
   constexpr void __cordl_internal_set_workingKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method get_AlgorithmName, addr 0xef4120, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0xf1efb0, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method Init, addr 0xef4160, size 0x198, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0xf1eff0, size 0x198, virtual true, abstract: false, final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method InitKey, addr 0xef42f8, size 0x1fc, virtual true, abstract: false, final false
+  /// @brief Method InitKey, addr 0xf1f188, size 0x1fc, virtual true, abstract: false, final false
   inline void InitKey(::ArrayW<uint8_t, ::Array<uint8_t>*> keyBytes, ::ArrayW<uint8_t, ::Array<uint8_t>*> ivBytes);
 
-  /// @brief Method ProcessBytes, addr 0xef44f4, size 0x1c0, virtual true, abstract: false, final false
+  /// @brief Method ProcessBytes, addr 0xf1f384, size 0x1c0, virtual true, abstract: false, final false
   inline void ProcessBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t len, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset, addr 0xef46b4, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0xf1f544, size 0x10, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method ReturnByte, addr 0xef46c4, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method ReturnByte, addr 0xf1f554, size 0xc4, virtual true, abstract: false, final false
   inline uint8_t ReturnByte(uint8_t input);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::VmpcEngine* New_ctor();
 
-  /// @brief Method .ctor, addr 0xef4788, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf1f618, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "VmpcEngine", modifiers: "&&", def_value: None }]

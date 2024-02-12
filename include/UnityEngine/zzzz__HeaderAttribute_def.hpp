@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::UnityEngine::HeaderAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10170))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10175))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8914))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8919))
 // CS Name: ::UnityEngine::HeaderAttribute*
 class CORDL_TYPE HeaderAttribute : public ::UnityEngine::PropertyAttribute {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::UnityEngine::HeaderAttribute* New_ctor(::StringW header);
 
-  /// @brief Method .ctor, addr 0x2ccc190, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cd321c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW header);
 
   // Ctor Parameters [CppParam { name: "", ty: "HeaderAttribute", modifiers: "&&", def_value: None }]

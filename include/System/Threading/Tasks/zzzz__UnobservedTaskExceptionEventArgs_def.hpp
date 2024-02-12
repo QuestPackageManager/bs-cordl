@@ -43,7 +43,7 @@ public:
 
   static inline ::System::Threading::Tasks::UnobservedTaskExceptionEventArgs* New_ctor(::System::AggregateException* exception);
 
-  /// @brief Method .ctor, addr 0x262c9a8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2652acc, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::AggregateException* exception);
 
   // Ctor Parameters [CppParam { name: "", ty: "UnobservedTaskExceptionEventArgs", modifiers: "&&", def_value: None }]

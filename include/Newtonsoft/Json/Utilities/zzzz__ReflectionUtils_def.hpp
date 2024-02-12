@@ -91,7 +91,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayCla
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11895))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11793))
 // CS Name: ::ReflectionUtils::<>c*
 class CORDL_TYPE __ReflectionUtils____c : public ::System::Object {
 public:
@@ -133,19 +133,19 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::__ReflectionUtils____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26696c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x268c87c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <GetDefaultConstructor>b__10_0, addr 0x26696c8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method <GetDefaultConstructor>b__10_0, addr 0x268c884, size 0x6c, virtual false, abstract: false, final false
   inline bool _GetDefaultConstructor_b__10_0(::System::Reflection::ConstructorInfo* c);
 
-  /// @brief Method <GetFieldsAndProperties>b__29_0, addr 0x2669734, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <GetFieldsAndProperties>b__29_0, addr 0x268c8f0, size 0x20, virtual false, abstract: false, final false
   inline ::StringW _GetFieldsAndProperties_b__29_0(::System::Reflection::MemberInfo* m);
 
-  /// @brief Method <GetMemberInfoFromType>b__37_0, addr 0x2669754, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <GetMemberInfoFromType>b__37_0, addr 0x268c910, size 0x20, virtual false, abstract: false, final false
   inline ::System::Type* _GetMemberInfoFromType_b__37_0(::System::Reflection::ParameterInfo* p);
 
-  /// @brief Method <GetChildPrivateFields>b__39_0, addr 0x2669774, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <GetChildPrivateFields>b__39_0, addr 0x268c930, size 0x18, virtual false, abstract: false, final false
   inline bool _GetChildPrivateFields_b__39_0(::System::Reflection::FieldInfo* f);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ReflectionUtils____c", modifiers: "&&", def_value: None }]
@@ -173,7 +173,7 @@ static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Utilities::__R
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11896))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11794))
 // CS Name: ::ReflectionUtils::<>c__DisplayClass42_0*
 class CORDL_TYPE __ReflectionUtils____c__DisplayClass42_0 : public ::System::Object {
 public:
@@ -189,16 +189,16 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass42_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2669328, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x268c4e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <GetChildPrivateProperties>b__0, addr 0x266978c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <GetChildPrivateProperties>b__0, addr 0x268c948, size 0x54, virtual false, abstract: false, final false
   inline bool _GetChildPrivateProperties_b__0(::System::Reflection::PropertyInfo* p);
 
-  /// @brief Method <GetChildPrivateProperties>b__1, addr 0x26697e0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method <GetChildPrivateProperties>b__1, addr 0x268c99c, size 0xa0, virtual false, abstract: false, final false
   inline bool _GetChildPrivateProperties_b__1(::System::Reflection::PropertyInfo* p);
 
-  /// @brief Method <GetChildPrivateProperties>b__2, addr 0x2669880, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method <GetChildPrivateProperties>b__2, addr 0x268ca3c, size 0x134, virtual false, abstract: false, final false
   inline bool _GetChildPrivateProperties_b__2(::System::Reflection::PropertyInfo* p);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ReflectionUtils____c__DisplayClass42_0", modifiers: "&&", def_value: None }]
@@ -231,7 +231,7 @@ static_assert(offsetof(::Newtonsoft::Json::Utilities::__ReflectionUtils____c__Di
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11897))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11795))
 // CS Name: ::ReflectionUtils::<>c__DisplayClass43_0*
 class CORDL_TYPE __ReflectionUtils____c__DisplayClass43_0 : public ::System::Object {
 public:
@@ -256,10 +256,10 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass43_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x266942c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x268c5e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <IsMethodOverridden>b__0, addr 0x26699b4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method <IsMethodOverridden>b__0, addr 0x268cb70, size 0x98, virtual false, abstract: false, final false
   inline bool _IsMethodOverridden_b__0(::System::Reflection::MethodInfo* info);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ReflectionUtils____c__DisplayClass43_0", modifiers: "&&", def_value: None }]
@@ -297,7 +297,7 @@ static_assert(offsetof(::Newtonsoft::Json::Utilities::__ReflectionUtils____c__Di
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11898))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11796))
 // CS Name: ::Newtonsoft.Json.Utilities::ReflectionUtils*
 class CORDL_TYPE ReflectionUtils : public ::System::Object {
 public:
@@ -315,92 +315,92 @@ public:
 
   static inline ::ArrayW<::System::Type*, ::Array<::System::Type*>*> getStaticF_EmptyTypes();
 
-  /// @brief Method IsVirtual, addr 0x2665d84, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method IsVirtual, addr 0x2688f40, size 0x98, virtual false, abstract: false, final false
   static inline bool IsVirtual(::System::Reflection::PropertyInfo* propertyInfo);
 
-  /// @brief Method GetBaseDefinition, addr 0x2665e1c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetBaseDefinition, addr 0x2688fd8, size 0x8c, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* GetBaseDefinition(::System::Reflection::PropertyInfo* propertyInfo);
 
-  /// @brief Method IsPublic, addr 0x2665ea8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method IsPublic, addr 0x2689064, size 0x78, virtual false, abstract: false, final false
   static inline bool IsPublic(::System::Reflection::PropertyInfo* property);
 
-  /// @brief Method GetObjectType, addr 0x265d5e4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetObjectType, addr 0x26807a0, size 0x10, virtual false, abstract: false, final false
   static inline ::System::Type* GetObjectType(::System::Object* v);
 
-  /// @brief Method GetTypeName, addr 0x2665f20, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetTypeName, addr 0x26890dc, size 0xd0, virtual false, abstract: false, final false
   static inline ::StringW GetTypeName(::System::Type* t, ::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle assemblyFormat,
                                       ::System::Runtime::Serialization::SerializationBinder* binder);
 
-  /// @brief Method RemoveAssemblyDetails, addr 0x2665ff0, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method RemoveAssemblyDetails, addr 0x26891ac, size 0x130, virtual false, abstract: false, final false
   static inline ::StringW RemoveAssemblyDetails(::StringW fullyQualifiedTypeName);
 
-  /// @brief Method HasDefaultConstructor, addr 0x265b2fc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method HasDefaultConstructor, addr 0x267e4b8, size 0xb0, virtual false, abstract: false, final false
   static inline bool HasDefaultConstructor(::System::Type* t, bool nonPublic);
 
-  /// @brief Method GetDefaultConstructor, addr 0x2666264, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultConstructor, addr 0x2689420, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Reflection::ConstructorInfo* GetDefaultConstructor(::System::Type* t);
 
-  /// @brief Method GetDefaultConstructor, addr 0x2666134, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultConstructor, addr 0x26892f0, size 0x130, virtual false, abstract: false, final false
   static inline ::System::Reflection::ConstructorInfo* GetDefaultConstructor(::System::Type* t, bool nonPublic);
 
-  /// @brief Method IsNullable, addr 0x265d1a4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method IsNullable, addr 0x2680360, size 0x9c, virtual false, abstract: false, final false
   static inline bool IsNullable(::System::Type* t);
 
-  /// @brief Method IsNullableType, addr 0x265bf38, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method IsNullableType, addr 0x267f0f4, size 0xe0, virtual false, abstract: false, final false
   static inline bool IsNullableType(::System::Type* t);
 
-  /// @brief Method EnsureNotNullableType, addr 0x26662dc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method EnsureNotNullableType, addr 0x2689498, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Type* EnsureNotNullableType(::System::Type* t);
 
-  /// @brief Method IsGenericDefinition, addr 0x2666350, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method IsGenericDefinition, addr 0x268950c, size 0x5c, virtual false, abstract: false, final false
   static inline bool IsGenericDefinition(::System::Type* type, ::System::Type* genericInterfaceDefinition);
 
-  /// @brief Method ImplementsGenericDefinition, addr 0x2664568, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ImplementsGenericDefinition, addr 0x2687724, size 0x74, virtual false, abstract: false, final false
   static inline bool ImplementsGenericDefinition(::System::Type* type, ::System::Type* genericInterfaceDefinition);
 
-  /// @brief Method ImplementsGenericDefinition, addr 0x26663ac, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method ImplementsGenericDefinition, addr 0x2689568, size 0x210, virtual false, abstract: false, final false
   static inline bool ImplementsGenericDefinition(::System::Type* type, ::System::Type* genericInterfaceDefinition, ByRef<::System::Type*> implementingType);
 
-  /// @brief Method InheritsGenericDefinition, addr 0x26665bc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method InheritsGenericDefinition, addr 0x2689778, size 0x74, virtual false, abstract: false, final false
   static inline bool InheritsGenericDefinition(::System::Type* type, ::System::Type* genericClassDefinition);
 
-  /// @brief Method InheritsGenericDefinition, addr 0x2666630, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method InheritsGenericDefinition, addr 0x26897ec, size 0x15c, virtual false, abstract: false, final false
   static inline bool InheritsGenericDefinition(::System::Type* type, ::System::Type* genericClassDefinition, ByRef<::System::Type*> implementingType);
 
-  /// @brief Method InheritsGenericDefinitionInternal, addr 0x26667a0, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method InheritsGenericDefinitionInternal, addr 0x268995c, size 0xe8, virtual false, abstract: false, final false
   static inline bool InheritsGenericDefinitionInternal(::System::Type* currentType, ::System::Type* genericClassDefinition, ByRef<::System::Type*> implementingType);
 
-  /// @brief Method GetCollectionItemType, addr 0x26668a8, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method GetCollectionItemType, addr 0x2689a64, size 0x228, virtual false, abstract: false, final false
   static inline ::System::Type* GetCollectionItemType(::System::Type* type);
 
-  /// @brief Method GetDictionaryKeyValueTypes, addr 0x2666ad0, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method GetDictionaryKeyValueTypes, addr 0x2689c8c, size 0x22c, virtual false, abstract: false, final false
   static inline void GetDictionaryKeyValueTypes(::System::Type* dictionaryType, ByRef<::System::Type*> keyType, ByRef<::System::Type*> valueType);
 
-  /// @brief Method GetMemberUnderlyingType, addr 0x265b6a0, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method GetMemberUnderlyingType, addr 0x267e85c, size 0x224, virtual false, abstract: false, final false
   static inline ::System::Type* GetMemberUnderlyingType(::System::Reflection::MemberInfo* member);
 
-  /// @brief Method IsIndexedProperty, addr 0x2666cfc, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method IsIndexedProperty, addr 0x2689eb8, size 0xcc, virtual false, abstract: false, final false
   static inline bool IsIndexedProperty(::System::Reflection::MemberInfo* member);
 
-  /// @brief Method IsIndexedProperty, addr 0x2666dc8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method IsIndexedProperty, addr 0x2689f84, size 0x78, virtual false, abstract: false, final false
   static inline bool IsIndexedProperty(::System::Reflection::PropertyInfo* property);
 
-  /// @brief Method GetMemberValue, addr 0x2666e40, size 0x328, virtual false, abstract: false, final false
+  /// @brief Method GetMemberValue, addr 0x2689ffc, size 0x328, virtual false, abstract: false, final false
   static inline ::System::Object* GetMemberValue(::System::Reflection::MemberInfo* member, ::System::Object* target);
 
-  /// @brief Method SetMemberValue, addr 0x2667168, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method SetMemberValue, addr 0x268a324, size 0x214, virtual false, abstract: false, final false
   static inline void SetMemberValue(::System::Reflection::MemberInfo* member, ::System::Object* target, ::System::Object* value);
 
-  /// @brief Method CanReadMemberValue, addr 0x265b3d0, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method CanReadMemberValue, addr 0x267e58c, size 0x144, virtual false, abstract: false, final false
   static inline bool CanReadMemberValue(::System::Reflection::MemberInfo* member, bool nonPublic);
 
-  /// @brief Method CanSetMemberValue, addr 0x265b514, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method CanSetMemberValue, addr 0x267e6d0, size 0x17c, virtual false, abstract: false, final false
   static inline bool CanSetMemberValue(::System::Reflection::MemberInfo* member, bool nonPublic, bool canSetReadOnly);
 
-  /// @brief Method GetFieldsAndProperties, addr 0x266737c, size 0xa88, virtual false, abstract: false, final false
+  /// @brief Method GetFieldsAndProperties, addr 0x268a538, size 0xa88, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::System::Reflection::MemberInfo*>* GetFieldsAndProperties(::System::Type* type, ::System::Reflection::BindingFlags bindingAttr);
 
-  /// @brief Method IsOverridenGenericMember, addr 0x26681dc, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method IsOverridenGenericMember, addr 0x268b398, size 0x19c, virtual false, abstract: false, final false
   static inline bool IsOverridenGenericMember(::System::Reflection::MemberInfo* memberInfo, ::System::Reflection::BindingFlags bindingAttr);
 
   /// @brief Method GetAttribute, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -412,39 +412,39 @@ public:
   /// @brief Method GetAttributes, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<T, ::Array<T>*> GetAttributes(::System::Object* attributeProvider, bool inherit);
 
-  /// @brief Method GetAttributes, addr 0x2668378, size 0x4f4, virtual false, abstract: false, final false
+  /// @brief Method GetAttributes, addr 0x268b534, size 0x4f4, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> GetAttributes(::System::Object* attributeProvider, ::System::Type* attributeType, bool inherit);
 
-  /// @brief Method SplitFullyQualifiedTypeName, addr 0x266886c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method SplitFullyQualifiedTypeName, addr 0x268ba28, size 0xf0, virtual false, abstract: false, final false
   static inline void SplitFullyQualifiedTypeName(::StringW fullyQualifiedTypeName, ByRef<::StringW> typeName, ByRef<::StringW> assemblyName);
 
-  /// @brief Method GetAssemblyDelimiterIndex, addr 0x266895c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetAssemblyDelimiterIndex, addr 0x268bb18, size 0xd8, virtual false, abstract: false, final false
   static inline ::System::Nullable_1<int32_t> GetAssemblyDelimiterIndex(::StringW fullyQualifiedTypeName);
 
-  /// @brief Method GetMemberInfoFromType, addr 0x2668a34, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method GetMemberInfoFromType, addr 0x268bbf0, size 0x268, virtual false, abstract: false, final false
   static inline ::System::Reflection::MemberInfo* GetMemberInfoFromType(::System::Type* targetType, ::System::Reflection::MemberInfo* memberInfo);
 
-  /// @brief Method GetFields, addr 0x2667e04, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method GetFields, addr 0x268afc0, size 0x11c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::System::Reflection::FieldInfo*>* GetFields(::System::Type* targetType, ::System::Reflection::BindingFlags bindingAttr);
 
-  /// @brief Method GetChildPrivateFields, addr 0x2668c9c, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method GetChildPrivateFields, addr 0x268be58, size 0x1e8, virtual false, abstract: false, final false
   static inline void GetChildPrivateFields(::System::Collections::Generic::IList_1<::System::Reflection::MemberInfo*>* initialFields, ::System::Type* targetType,
                                            ::System::Reflection::BindingFlags bindingAttr);
 
-  /// @brief Method GetProperties, addr 0x2667f20, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method GetProperties, addr 0x268b0dc, size 0x2bc, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::System::Reflection::PropertyInfo*>* GetProperties(::System::Type* targetType, ::System::Reflection::BindingFlags bindingAttr);
 
-  /// @brief Method RemoveFlag, addr 0x2668e84, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method RemoveFlag, addr 0x268c040, size 0x10, virtual false, abstract: false, final false
   static inline ::System::Reflection::BindingFlags RemoveFlag(::System::Reflection::BindingFlags bindingAttr, ::System::Reflection::BindingFlags flag);
 
-  /// @brief Method GetChildPrivateProperties, addr 0x2668e94, size 0x494, virtual false, abstract: false, final false
+  /// @brief Method GetChildPrivateProperties, addr 0x268c050, size 0x494, virtual false, abstract: false, final false
   static inline void GetChildPrivateProperties(::System::Collections::Generic::IList_1<::System::Reflection::PropertyInfo*>* initialProperties, ::System::Type* targetType,
                                                ::System::Reflection::BindingFlags bindingAttr);
 
-  /// @brief Method IsMethodOverridden, addr 0x2669330, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method IsMethodOverridden, addr 0x268c4ec, size 0xfc, virtual false, abstract: false, final false
   static inline bool IsMethodOverridden(::System::Type* currentType, ::System::Type* methodDeclaringType, ::StringW method);
 
-  /// @brief Method GetDefaultValue, addr 0x2669434, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultValue, addr 0x268c5f0, size 0x228, virtual false, abstract: false, final false
   static inline ::System::Object* GetDefaultValue(::System::Type* type);
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectionUtils", modifiers: "&&", def_value: None }]

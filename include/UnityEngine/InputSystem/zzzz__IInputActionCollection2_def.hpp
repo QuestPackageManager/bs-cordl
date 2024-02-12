@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::IInputActionCollection2);
 namespace UnityEngine::InputSystem {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6128))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5387))
 // CS Name: ::UnityEngine.InputSystem::IInputActionCollection2*
 class CORDL_TYPE IInputActionCollection2 {
 public:

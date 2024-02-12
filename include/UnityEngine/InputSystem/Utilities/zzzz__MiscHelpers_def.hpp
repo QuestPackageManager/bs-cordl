@@ -46,7 +46,7 @@ namespace UnityEngine::InputSystem::Utilities {
 template <typename TValue>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6679))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5938))
 // CS Name: ::MiscHelpers::<EveryNth>d__1`1<TValue>*
 class CORDL_TYPE __MiscHelpers___EveryNth_d__1_1 : public ::System::Object {
 public:
@@ -269,7 +269,7 @@ public:
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6680))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5939))
 // CS Name: ::UnityEngine.InputSystem.Utilities::MiscHelpers*
 class CORDL_TYPE MiscHelpers : public ::System::Object {
 public:

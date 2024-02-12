@@ -41,8 +41,8 @@ namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TParam9, typename TParam10,
           typename TContract>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11194)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11194), inst: 3465 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11202))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10336)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10336), inst: 3436 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10344))
 // CS Name: ::Zenject::IFactoryProvider`11<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TParam8,TParam9,TParam10,TContract>*
 class CORDL_TYPE IFactoryProvider_11 : public ::Zenject::IFactoryProviderBase_1<TContract> {
 public:

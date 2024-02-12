@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::System::ComponentModel::ITypeDescriptorContext);
 namespace System::ComponentModel {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9434))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7444))
 // CS Name: ::System.ComponentModel::ITypeDescriptorContext*
 class CORDL_TYPE ITypeDescriptorContext {
 public:

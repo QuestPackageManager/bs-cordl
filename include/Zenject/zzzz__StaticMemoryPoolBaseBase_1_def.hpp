@@ -39,7 +39,7 @@ namespace Zenject {
 template <typename TValue>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11084))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10226))
 // CS Name: ::Zenject::StaticMemoryPoolBaseBase`1<TValue>*
 class CORDL_TYPE StaticMemoryPoolBaseBase_1 : public ::System::Object {
 public:

@@ -24,19 +24,19 @@ MARK_REF_PTR_T(::System::Net::Security::CertificateHelper);
 namespace System::Net::Security {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9361))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7371))
 // CS Name: ::System.Net.Security::CertificateHelper*
 class CORDL_TYPE CertificateHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetEligibleClientCertificate, addr 0x28ff090, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method GetEligibleClientCertificate, addr 0x29036f8, size 0x1ac, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::X509Certificates::X509Certificate2* GetEligibleClientCertificate();
 
-  /// @brief Method GetEligibleClientCertificate, addr 0x28ff3c0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetEligibleClientCertificate, addr 0x2903a28, size 0x94, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::X509Certificates::X509Certificate2*
   GetEligibleClientCertificate(::System::Security::Cryptography::X509Certificates::X509CertificateCollection* candidateCerts);
 
-  /// @brief Method GetEligibleClientCertificate, addr 0x28ff23c, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GetEligibleClientCertificate, addr 0x29038a4, size 0x184, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::X509Certificates::X509Certificate2*
   GetEligibleClientCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* candidateCerts);
 

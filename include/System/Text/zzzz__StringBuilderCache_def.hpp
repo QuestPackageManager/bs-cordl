@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::System::Text::StringBuilderCache);
 namespace System::Text {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15460))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15574))
 // CS Name: ::System.Text::StringBuilderCache*
 class CORDL_TYPE StringBuilderCache : public ::System::Object {
 public:
@@ -32,13 +32,13 @@ public:
 
   static inline ::System::Text::StringBuilder* getStaticF_t_cachedInstance();
 
-  /// @brief Method Acquire, addr 0x285e154, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Acquire, addr 0x28617bc, size 0xc8, virtual false, abstract: false, final false
   static inline ::System::Text::StringBuilder* Acquire(int32_t capacity);
 
-  /// @brief Method Release, addr 0x28619f0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x2865058, size 0x78, virtual false, abstract: false, final false
   static inline void Release(::System::Text::StringBuilder* sb);
 
-  /// @brief Method GetStringAndRelease, addr 0x285e21c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetStringAndRelease, addr 0x2861884, size 0x3c, virtual false, abstract: false, final false
   static inline ::StringW GetStringAndRelease(::System::Text::StringBuilder* sb);
 
   // Ctor Parameters [CppParam { name: "", ty: "StringBuilderCache", modifiers: "&&", def_value: None }]

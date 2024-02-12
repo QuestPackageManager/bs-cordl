@@ -46,7 +46,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__CoroutineHelpers___ExecuteAfterDelayCoroutin
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15848))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15593))
 // CS Name: ::CoroutineHelpers::<ExecuteAfterDelayCoroutine>d__0*
 class CORDL_TYPE __CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0 : public ::System::Object {
 public:
@@ -111,22 +111,22 @@ public:
 
   static inline ::GlobalNamespace::__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor, addr 0xe27058, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe50d94, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0xe271fc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0xe50f38, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext, addr 0xe27200, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0xe50f3c, size 0xb8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0xe272b8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0xe50ff4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0xe272c0, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0xe50ffc, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0xe27300, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0xe5103c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0", modifiers: "&&", def_value: None }]
@@ -174,20 +174,20 @@ static_assert(offsetof(::GlobalNamespace::__CoroutineHelpers___ExecuteAfterDelay
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15849))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15594))
 // CS Name: ::CoroutineHelpers*
 class CORDL_TYPE CoroutineHelpers : public ::System::Object {
 public:
   // Declarations
   using _ExecuteAfterDelayCoroutine_d__0 = ::GlobalNamespace::__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0;
 
-  /// @brief Method ExecuteAfterDelayCoroutine, addr 0xe26fe0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ExecuteAfterDelayCoroutine, addr 0xe50d1c, size 0x78, virtual false, abstract: false, final false
   static inline ::System::Collections::IEnumerator* ExecuteAfterDelayCoroutine(::System::Action* action, float_t timeSeconds);
 
-  /// @brief Method StartSingleCoroutine, addr 0xe27080, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method StartSingleCoroutine, addr 0xe50dbc, size 0xc4, virtual false, abstract: false, final false
   static inline void StartSingleCoroutine(::GlobalNamespace::ICoroutineStarter* coroutineStarter, ByRef<::UnityEngine::Coroutine*> handle, ::System::Collections::IEnumerator* routine);
 
-  /// @brief Method StopSingleCoroutine, addr 0xe27144, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method StopSingleCoroutine, addr 0xe50e80, size 0xb8, virtual false, abstract: false, final false
   static inline void StopSingleCoroutine(::GlobalNamespace::ICoroutineStarter* coroutineStarter, ByRef<::UnityEngine::Coroutine*> handle);
 
   // Ctor Parameters [CppParam { name: "", ty: "CoroutineHelpers", modifiers: "&&", def_value: None }]

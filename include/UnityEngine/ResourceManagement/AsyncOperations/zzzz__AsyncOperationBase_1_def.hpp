@@ -80,7 +80,7 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
 template <typename TObject>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14030))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14043))
 // CS Name: ::AsyncOperationBase`1::<>c__DisplayClass57_0<TObject>*
 class CORDL_TYPE __AsyncOperationBase_1____c__DisplayClass57_0 : public ::System::Object {
 public:
@@ -130,7 +130,7 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
 template <typename TObject>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14031))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14044))
 // CS Name: ::AsyncOperationBase`1::<>c__DisplayClass58_0<TObject>*
 class CORDL_TYPE __AsyncOperationBase_1____c__DisplayClass58_0 : public ::System::Object {
 public:
@@ -179,8 +179,8 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
 // cpp template
 template <typename TObject>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14035))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14032))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14048))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14045))
 // CS Name: ::UnityEngine.ResourceManagement.AsyncOperations::AsyncOperationBase`1<TObject>*
 class CORDL_TYPE AsyncOperationBase_1 : public ::System::Object {
 public:

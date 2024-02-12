@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::UnityEngine::UI::FontUpdateTracker);
 namespace UnityEngine::UI {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13041))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12939))
 // CS Name: ::UnityEngine.UI::FontUpdateTracker*
 class CORDL_TYPE FontUpdateTracker : public ::System::Object {
 public:
@@ -42,13 +42,13 @@ public:
 
   static inline ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Font>, ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::UI::Text>>*>* getStaticF_m_Tracked();
 
-  /// @brief Method TrackText, addr 0x2d5b244, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method TrackText, addr 0x2d7962c, size 0x250, virtual false, abstract: false, final false
   static inline void TrackText(::UnityEngine::UI::Text* t);
 
-  /// @brief Method RebuildForFont, addr 0x2d5b494, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method RebuildForFont, addr 0x2d7987c, size 0x1a4, virtual false, abstract: false, final false
   static inline void RebuildForFont(::UnityEngine::Font* f);
 
-  /// @brief Method UntrackText, addr 0x2d5b638, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method UntrackText, addr 0x2d79a20, size 0x20c, virtual false, abstract: false, final false
   static inline void UntrackText(::UnityEngine::UI::Text* t);
 
   // Ctor Parameters [CppParam { name: "", ty: "FontUpdateTracker", modifiers: "&&", def_value: None }]

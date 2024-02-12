@@ -112,10 +112,10 @@ public:
 
   static inline ::System::__DelegateSerializationHolder__DelegateEntry* New_ctor(::System::Delegate* del, ::StringW targetLabel);
 
-  /// @brief Method .ctor, addr 0x25f9f50, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x261de50, size 0x11c, virtual false, abstract: false, final false
   inline void _ctor(::System::Delegate* del, ::StringW targetLabel);
 
-  /// @brief Method DeserializeDelegate, addr 0x25f9cd8, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method DeserializeDelegate, addr 0x261dbd8, size 0x278, virtual false, abstract: false, final false
   inline ::System::Delegate* DeserializeDelegate(::System::Runtime::Serialization::SerializationInfo* info, int32_t index);
 
   // Ctor Parameters [CppParam { name: "", ty: "__DelegateSerializationHolder__DelegateEntry", modifiers: "&&", def_value: None }]
@@ -208,16 +208,16 @@ public:
 
   static inline ::System::DelegateSerializationHolder* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext ctx);
 
-  /// @brief Method .ctor, addr 0x25f9ad8, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x261d9d8, size 0x200, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext ctx);
 
-  /// @brief Method GetDelegateData, addr 0x25f96b8, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method GetDelegateData, addr 0x261d5b8, size 0x248, virtual false, abstract: false, final false
   static inline void GetDelegateData(::System::Delegate* instance, ::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext ctx);
 
-  /// @brief Method GetObjectData, addr 0x25fa06c, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method GetObjectData, addr 0x261df6c, size 0x40, virtual true, abstract: false, final true
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetRealObject, addr 0x25fa0ac, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetRealObject, addr 0x261dfac, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* GetRealObject(::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "DelegateSerializationHolder", modifiers: "&&", def_value: None }]

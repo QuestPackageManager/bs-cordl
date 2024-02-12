@@ -50,19 +50,19 @@ public:
 
   static inline ::Org::BouncyCastle::Cmp::CertificateConfirmationContent* New_ctor(::Org::BouncyCastle::Asn1::Cmp::CertConfirmContent* content);
 
-  /// @brief Method .ctor, addr 0x11d5388, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1203218, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cmp::CertConfirmContent* content);
 
   static inline ::Org::BouncyCastle::Cmp::CertificateConfirmationContent* New_ctor(::Org::BouncyCastle::Asn1::Cmp::CertConfirmContent* content,
                                                                                    ::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder* digestAlgFinder);
 
-  /// @brief Method .ctor, addr 0x11d53b0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1203240, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cmp::CertConfirmContent* content, ::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder* digestAlgFinder);
 
-  /// @brief Method ToAsn1Structure, addr 0x11d53dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToAsn1Structure, addr 0x120326c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::CertConfirmContent* ToAsn1Structure();
 
-  /// @brief Method GetStatusMessages, addr 0x11d53e4, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method GetStatusMessages, addr 0x1203274, size 0x12c, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Cmp::CertificateStatus*, ::Array<::Org::BouncyCastle::Cmp::CertificateStatus*>*> GetStatusMessages();
 
   // Ctor Parameters [CppParam { name: "", ty: "CertificateConfirmationContent", modifiers: "&&", def_value: None }]

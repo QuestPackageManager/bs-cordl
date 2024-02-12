@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::UnityEngine::Networking::DownloadHandler);
 namespace UnityEngine::Networking {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15580))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15738))
 // CS Name: ::UnityEngine.Networking::DownloadHandler*
 class CORDL_TYPE DownloadHandler : public ::System::Object {
 public:
@@ -56,66 +56,66 @@ public:
 
   constexpr void __cordl_internal_set_m_Ptr(void* value);
 
-  /// @brief Method Release, addr 0x2eaf378, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x2ec9644, size 0x3c, virtual false, abstract: false, final false
   inline void Release();
 
   static inline ::UnityEngine::Networking::DownloadHandler* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2eaf3b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ec9680, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Finalize, addr 0x2eaf3bc, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x2ec9688, size 0x9c, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method Dispose, addr 0x2eaf458, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x2ec9724, size 0x94, virtual true, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method get_error, addr 0x2eaf4ec, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_error, addr 0x2ec97b8, size 0x3c, virtual false, abstract: false, final false
   inline ::StringW get_error();
 
-  /// @brief Method GetErrorMsg, addr 0x2eaf528, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetErrorMsg, addr 0x2ec97f4, size 0x3c, virtual false, abstract: false, final false
   inline ::StringW GetErrorMsg();
 
-  /// @brief Method get_text, addr 0x2eaf564, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x2ec9830, size 0xc, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method GetNativeData, addr 0x2eaf570, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method GetNativeData, addr 0x2ec983c, size 0xc, virtual true, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<uint8_t> GetNativeData();
 
-  /// @brief Method GetData, addr 0x2eaf57c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method GetData, addr 0x2ec9848, size 0x4, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetData();
 
-  /// @brief Method GetText, addr 0x2eaf624, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method GetText, addr 0x2ec98f0, size 0xe8, virtual true, abstract: false, final false
   inline ::StringW GetText();
 
-  /// @brief Method GetTextEncoder, addr 0x2eaf70c, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method GetTextEncoder, addr 0x2ec99d8, size 0x270, virtual false, abstract: false, final false
   inline ::System::Text::Encoding* GetTextEncoder();
 
-  /// @brief Method GetContentType, addr 0x2eaf97c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetContentType, addr 0x2ec9c48, size 0x3c, virtual false, abstract: false, final false
   inline ::StringW GetContentType();
 
-  /// @brief Method ReceiveContentLengthHeader, addr 0x2eaf9b8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ReceiveContentLengthHeader, addr 0x2ec9c84, size 0xc, virtual true, abstract: false, final false
   inline void ReceiveContentLengthHeader(uint64_t contentLength);
 
-  /// @brief Method ReceiveContentLength, addr 0x2eaf9c4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ReceiveContentLength, addr 0x2ec9c90, size 0x4, virtual true, abstract: false, final false
   inline void ReceiveContentLength(int32_t contentLength);
 
   /// @brief Method GetCheckedDownloader, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T GetCheckedDownloader(::UnityEngine::Networking::UnityWebRequest* www);
 
-  /// @brief Method InternalGetByteArray, addr 0x2eaf9c8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method InternalGetByteArray, addr 0x2ec9c94, size 0x44, virtual false, abstract: false, final false
   static inline ::cordl_internals::Ptr<uint8_t> InternalGetByteArray(::UnityEngine::Networking::DownloadHandler* dh, ByRef<int32_t> length);
 
-  /// @brief Method InternalGetByteArray, addr 0x2eaf580, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method InternalGetByteArray, addr 0x2ec984c, size 0xa4, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> InternalGetByteArray(::UnityEngine::Networking::DownloadHandler* dh);
 
-  /// @brief Method InternalGetNativeArray, addr 0x2eafa0c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method InternalGetNativeArray, addr 0x2ec9cd8, size 0xbc, virtual false, abstract: false, final false
   static inline ::Unity::Collections::NativeArray_1<uint8_t> InternalGetNativeArray(::UnityEngine::Networking::DownloadHandler* dh, ByRef<::Unity::Collections::NativeArray_1<uint8_t>> nativeArray);
 
-  /// @brief Method DisposeNativeArray, addr 0x2eafac8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method DisposeNativeArray, addr 0x2ec9d94, size 0x54, virtual false, abstract: false, final false
   static inline void DisposeNativeArray(ByRef<::Unity::Collections::NativeArray_1<uint8_t>> data);
 
-  /// @brief Method CreateNativeArrayForNativeData, addr 0x2eafb1c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method CreateNativeArrayForNativeData, addr 0x2ec9de8, size 0x68, virtual false, abstract: false, final false
   static inline void CreateNativeArrayForNativeData(ByRef<::Unity::Collections::NativeArray_1<uint8_t>> data, ::cordl_internals::Ptr<uint8_t> bytes, int32_t length);
 
   // Ctor Parameters [CppParam { name: "", ty: "DownloadHandler", modifiers: "&&", def_value: None }]

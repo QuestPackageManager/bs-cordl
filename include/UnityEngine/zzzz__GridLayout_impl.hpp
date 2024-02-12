@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::GridLayout::*)(::UnityEngine::Vector3Int)>(
     &::UnityEngine::GridLayout::CellToLocal)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2cfaefc;
+  constexpr static std::size_t addrs = 0x2d067e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GridLayout::*)()>(&::UnityEngine::GridLayout::DoNothing)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2cfafb8;
+  constexpr static std::size_t addrs = 0x2d068a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GridLayout*>::get(), "DoNothing",
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GridLayout::*)()>(&::UnityEngine::GridLayout::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2cfafbc;
+  constexpr static std::size_t addrs = 0x2d068a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GridLayout*>::get(), ".ctor",
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GridLayout::*)(ByRef<::UnityEngine::Vector3Int>, ByRef<::UnityEngine::Vector3>)>(
     &::UnityEngine::GridLayout::CellToLocal_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2cfaf64;
+  constexpr static std::size_t addrs = 0x2d06850;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

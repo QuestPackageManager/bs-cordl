@@ -26,17 +26,17 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Security::KeyException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x112ee6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x115ccfc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Security::KeyException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x112ee74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x115cd04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::Org::BouncyCastle::Security::KeyException* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor, addr 0x112ee7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x115cd0c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
   // Ctor Parameters [CppParam { name: "", ty: "KeyException", modifiers: "&&", def_value: None }]

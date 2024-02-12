@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BloomFogEnvironmentParams);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14450))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15602))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14344))
 // CS Name: ::BloomFogEnvironmentParams*
 class CORDL_TYPE BloomFogEnvironmentParams : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -86,7 +86,7 @@ public:
 
   static inline ::GlobalNamespace::BloomFogEnvironmentParams* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2102164, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x219690c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BloomFogEnvironmentParams", modifiers: "&&", def_value: None }]

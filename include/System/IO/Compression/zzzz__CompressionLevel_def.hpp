@@ -16,7 +16,7 @@ MARK_VAL_T(::System::IO::Compression::CompressionLevel);
 namespace System::IO::Compression {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9545))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7556))
 // CS Name: ::System.IO.Compression::CompressionLevel
 struct CORDL_TYPE CompressionLevel {
 public:

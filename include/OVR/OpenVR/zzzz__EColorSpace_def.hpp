@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::EColorSpace);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8582))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8526))
 // CS Name: ::OVR.OpenVR::EColorSpace
 struct CORDL_TYPE EColorSpace {
 public:

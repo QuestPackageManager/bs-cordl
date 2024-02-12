@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::LayerMasks);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10204))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16245))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8948))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16430))
 // CS Name: ::LayerMasks*
 class CORDL_TYPE LayerMasks : public ::System::Object {
 public:
@@ -68,18 +68,18 @@ public:
 
   static inline int32_t getStaticF_cutEffectParticlesLayer();
 
-  /// @brief Method GetLayerMask, addr 0x122da84, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetLayerMask, addr 0x125b90c, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::LayerMask GetLayerMask(::StringW layerName);
 
-  /// @brief Method GetLayerMask, addr 0x122dab4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetLayerMask, addr 0x125b93c, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::LayerMask GetLayerMask(int32_t layerNum);
 
-  /// @brief Method GetLayer, addr 0x122dadc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetLayer, addr 0x125b964, size 0x8, virtual false, abstract: false, final false
   static inline int32_t GetLayer(::StringW layerName);
 
   static inline ::GlobalNamespace::LayerMasks* New_ctor();
 
-  /// @brief Method .ctor, addr 0x122dae4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x125b96c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LayerMasks", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute
 namespace JetBrains::Annotations {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15743))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15893))
 // CS Name: ::JetBrains.Annotations::NotifyPropertyChangedInvocatorAttribute*
 class CORDL_TYPE NotifyPropertyChangedInvocatorAttribute : public ::System::Attribute {
 public:
@@ -34,18 +34,18 @@ public:
 
   static inline ::JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2eb9fe8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ed6130, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute* New_ctor(::StringW parameterName);
 
-  /// @brief Method .ctor, addr 0x2eb9ff0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ed6138, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW parameterName);
 
-  /// @brief Method get_ParameterName, addr 0x2eba018, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ParameterName, addr 0x2ed6160, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ParameterName();
 
-  /// @brief Method set_ParameterName, addr 0x2eba020, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ParameterName, addr 0x2ed6168, size 0x8, virtual false, abstract: false, final false
   inline void set_ParameterName(::StringW value);
 
   // Ctor Parameters [CppParam { name: "", ty: "NotifyPropertyChangedInvocatorAttribute", modifiers: "&&", def_value: None }]

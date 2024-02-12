@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::System::Globalization::EncodingTable);
 namespace System::Globalization {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3715))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3713))
 // CS Name: ::System.Globalization::EncodingTable*
 class CORDL_TYPE EncodingTable : public ::System::Object {
 public:
@@ -73,22 +73,22 @@ public:
 
   static inline ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Globalization::CodePageDataItem*>* getStaticF_hashByCodePage();
 
-  /// @brief Method GetNumEncodingItems, addr 0x256c824, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetNumEncodingItems, addr 0x258f46c, size 0x64, virtual false, abstract: false, final false
   static inline int32_t GetNumEncodingItems();
 
-  /// @brief Method ENC, addr 0x256c888, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ENC, addr 0x258f4d0, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Globalization::InternalEncodingDataItem ENC(::StringW name, uint16_t cp);
 
-  /// @brief Method MapCodePageDataItem, addr 0x256c890, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method MapCodePageDataItem, addr 0x258f4d8, size 0x14, virtual false, abstract: false, final false
   static inline ::System::Globalization::InternalCodePageDataItem MapCodePageDataItem(uint16_t cp, uint16_t fcp, ::StringW names, uint32_t flags);
 
-  /// @brief Method internalGetCodePageFromName, addr 0x2571d5c, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method internalGetCodePageFromName, addr 0x25949a4, size 0x258, virtual false, abstract: false, final false
   static inline int32_t internalGetCodePageFromName(::StringW name);
 
-  /// @brief Method GetCodePageFromName, addr 0x2571fb4, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method GetCodePageFromName, addr 0x2594bfc, size 0x284, virtual false, abstract: false, final false
   static inline int32_t GetCodePageFromName(::StringW name);
 
-  /// @brief Method GetCodePageDataItem, addr 0x2572238, size 0x2e8, virtual false, abstract: false, final false
+  /// @brief Method GetCodePageDataItem, addr 0x2594e80, size 0x2e8, virtual false, abstract: false, final false
   static inline ::System::Globalization::CodePageDataItem* GetCodePageDataItem(int32_t codepage);
 
   // Ctor Parameters [CppParam { name: "", ty: "EncodingTable", modifiers: "&&", def_value: None }]

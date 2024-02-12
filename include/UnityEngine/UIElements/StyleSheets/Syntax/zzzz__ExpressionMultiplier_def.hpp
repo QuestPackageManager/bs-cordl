@@ -19,24 +19,24 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplier)
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7496))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7497))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6755))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6756))
 // CS Name: ::UnityEngine.UIElements.StyleSheets.Syntax::ExpressionMultiplier
 struct CORDL_TYPE ExpressionMultiplier {
 public:
   // Declarations
   __declspec(property(get = get_type, put = set_type))::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType type;
 
-  /// @brief Method get_type, addr 0x2df16a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x2e0ea88, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType get_type();
 
-  /// @brief Method set_type, addr 0x2df861c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_type, addr 0x2e15a04, size 0x4, virtual false, abstract: false, final false
   inline void set_type(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType value);
 
-  /// @brief Method .ctor, addr 0x2df888c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e15c74, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType type);
 
-  /// @brief Method SetType, addr 0x2df889c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetType, addr 0x2e15c84, size 0x54, virtual false, abstract: false, final false
   inline void SetType(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType value);
 
   // Ctor Parameters [CppParam { name: "m_Type", ty: "::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType", modifiers: "", def_value: None }, CppParam { name: "min", ty:

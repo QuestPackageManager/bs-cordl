@@ -28,15 +28,15 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshOperations::Subdivision);
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12280))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12178))
 // CS Name: ::UnityEngine.ProBuilder.MeshOperations::Subdivision*
 class CORDL_TYPE Subdivision : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Subdivide, addr 0x2bbf134, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Subdivide, addr 0x2bbcca0, size 0xb4, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::ActionResult* Subdivide(::UnityEngine::ProBuilder::ProBuilderMesh* pb);
 
-  /// @brief Method Subdivide, addr 0x2bbf1e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Subdivide, addr 0x2bbcd54, size 0x8, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*> Subdivide(::UnityEngine::ProBuilder::ProBuilderMesh* pb,
                                                                                                                  ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>* faces);
 

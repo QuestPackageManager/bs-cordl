@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::System::IOAsyncResult);
 namespace System {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8895))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6905))
 // CS Name: ::System::IOAsyncResult*
 class CORDL_TYPE IOAsyncResult : public ::System::Object {
 public:
@@ -98,36 +98,36 @@ public:
 
   static inline ::System::IOAsyncResult* New_ctor();
 
-  /// @brief Method .ctor, addr 0x294d5f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2951cf4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Init, addr 0x294d600, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2951cfc, size 0x20, virtual false, abstract: false, final false
   inline void Init(::System::AsyncCallback* async_callback, ::System::Object* async_state);
 
   static inline ::System::IOAsyncResult* New_ctor(::System::AsyncCallback* async_callback, ::System::Object* async_state);
 
-  /// @brief Method .ctor, addr 0x294d620, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2951d1c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::AsyncCallback* async_callback, ::System::Object* async_state);
 
-  /// @brief Method get_AsyncCallback, addr 0x294d64c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AsyncCallback, addr 0x2951d48, size 0x8, virtual false, abstract: false, final false
   inline ::System::AsyncCallback* get_AsyncCallback();
 
-  /// @brief Method get_AsyncState, addr 0x294d654, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_AsyncState, addr 0x2951d50, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* get_AsyncState();
 
-  /// @brief Method get_AsyncWaitHandle, addr 0x294d65c, size 0x124, virtual true, abstract: false, final true
+  /// @brief Method get_AsyncWaitHandle, addr 0x2951d58, size 0x124, virtual true, abstract: false, final true
   inline ::System::Threading::WaitHandle* get_AsyncWaitHandle();
 
-  /// @brief Method get_CompletedSynchronously, addr 0x294d780, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_CompletedSynchronously, addr 0x2951e7c, size 0x8, virtual true, abstract: false, final true
   inline bool get_CompletedSynchronously();
 
-  /// @brief Method set_CompletedSynchronously, addr 0x294d788, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_CompletedSynchronously, addr 0x2951e84, size 0xc, virtual false, abstract: false, final false
   inline void set_CompletedSynchronously(bool value);
 
-  /// @brief Method get_IsCompleted, addr 0x294d794, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsCompleted, addr 0x2951e90, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsCompleted();
 
-  /// @brief Method set_IsCompleted, addr 0x294d79c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method set_IsCompleted, addr 0x2951e98, size 0xd8, virtual false, abstract: false, final false
   inline void set_IsCompleted(bool value);
 
   /// @brief Method CompleteDisposed, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

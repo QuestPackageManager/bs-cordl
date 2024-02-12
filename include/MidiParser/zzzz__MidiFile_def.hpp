@@ -32,27 +32,27 @@ MARK_REF_PTR_T(::MidiParser::__MidiFile__Reader);
 namespace MidiParser {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16227))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16393))
 // CS Name: ::MidiFile::Reader*
 class CORDL_TYPE __MidiFile__Reader : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Read16, addr 0x23e5f44, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Read16, addr 0x2405db8, size 0x54, virtual false, abstract: false, final false
   static inline int32_t Read16(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ByRef<int32_t> i);
 
-  /// @brief Method Read32, addr 0x23e5eb4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Read32, addr 0x2405d28, size 0x90, virtual false, abstract: false, final false
   static inline int32_t Read32(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ByRef<int32_t> i);
 
-  /// @brief Method Read8, addr 0x23e64c0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Read8, addr 0x2406334, size 0x38, virtual false, abstract: false, final false
   static inline uint8_t Read8(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ByRef<int32_t> i);
 
-  /// @brief Method ReadAllBytesFromStream, addr 0x23e64f8, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method ReadAllBytesFromStream, addr 0x240636c, size 0x228, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReadAllBytesFromStream(::System::IO::Stream* input);
 
-  /// @brief Method ReadString, addr 0x23e5e5c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ReadString, addr 0x2405cd0, size 0x58, virtual false, abstract: false, final false
   static inline ::StringW ReadString(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ByRef<int32_t> i, int32_t length);
 
-  /// @brief Method ReadVarInt, addr 0x23e63c0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ReadVarInt, addr 0x2406234, size 0x84, virtual false, abstract: false, final false
   static inline int32_t ReadVarInt(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ByRef<int32_t> i);
 
   // Ctor Parameters [CppParam { name: "", ty: "__MidiFile__Reader", modifiers: "&&", def_value: None }]
@@ -80,7 +80,7 @@ static_assert(::cordl_internals::size_check_v<::MidiParser::__MidiFile__Reader, 
 namespace MidiParser {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16228))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16394))
 // CS Name: ::MidiParser::MidiFile*
 class CORDL_TYPE MidiFile : public ::System::Object {
 public:
@@ -125,18 +125,18 @@ public:
 
   static inline ::MidiParser::MidiFile* New_ctor(::StringW path);
 
-  /// @brief Method .ctor, addr 0x23e5b44, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24059b8, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW path);
 
   static inline ::MidiParser::MidiFile* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0x23e5b68, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24059dc, size 0x2f4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method ParseMetaEvent, addr 0x23e62dc, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method ParseMetaEvent, addr 0x2406150, size 0xe4, virtual false, abstract: false, final false
   static inline bool ParseMetaEvent(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ByRef<int32_t> position, uint8_t metaEventType, ByRef<int32_t> data1, ByRef<int32_t> data2);
 
-  /// @brief Method ParseTrack, addr 0x23e5f98, size 0x344, virtual false, abstract: false, final false
+  /// @brief Method ParseTrack, addr 0x2405e0c, size 0x344, virtual false, abstract: false, final false
   static inline ::MidiParser::MidiTrack* ParseTrack(int32_t index, ::ArrayW<uint8_t, ::Array<uint8_t>*> data, ByRef<int32_t> position);
 
   // Ctor Parameters [CppParam { name: "", ty: "MidiFile", modifiers: "&&", def_value: None }]

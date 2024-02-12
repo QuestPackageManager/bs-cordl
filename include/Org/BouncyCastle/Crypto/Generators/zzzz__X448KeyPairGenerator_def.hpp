@@ -47,15 +47,15 @@ public:
 
   constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method Init, addr 0xf07024, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0xf31eb4, size 0x1c, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
 
-  /// @brief Method GenerateKeyPair, addr 0xf07040, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method GenerateKeyPair, addr 0xf31ed0, size 0xb0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GenerateKeyPair();
 
   static inline ::Org::BouncyCastle::Crypto::Generators::X448KeyPairGenerator* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf070f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf31f80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "X448KeyPairGenerator", modifiers: "&&", def_value: None }]

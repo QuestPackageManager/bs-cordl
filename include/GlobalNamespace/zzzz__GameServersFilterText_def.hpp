@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::GlobalNamespace::GameServersFilterText);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5782))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5080))
 // CS Name: ::GameServersFilterText*
 class CORDL_TYPE GameServersFilterText : public ::UnityEngine::MonoBehaviour {
 public:
@@ -65,15 +65,15 @@ public:
 
   constexpr void __cordl_internal_set__stringBuilder(::System::Text::StringBuilder* value);
 
-  /// @brief Method Setup, addr 0x22e1ef4, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x23128d4, size 0x264, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::GameServersFilter* filter, bool visible);
 
-  /// @brief Method Setup, addr 0x22ce74c, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x2312b38, size 0x214, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::BeatmapDifficultyMask beatmapDifficultyMask, ::GlobalNamespace::SongPackMask songPackMask, bool visible);
 
   static inline ::GlobalNamespace::GameServersFilterText* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22e213c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2312d4c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GameServersFilterText", modifiers: "&&", def_value: None }]

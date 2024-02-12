@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::ChallengeEntry);
 namespace Oculus::Platform::Models {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13428))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13362))
 // CS Name: ::Oculus.Platform.Models::ChallengeEntry*
 class CORDL_TYPE ChallengeEntry : public ::System::Object {
 public:
@@ -92,7 +92,7 @@ public:
 
   static inline ::Oculus::Platform::Models::ChallengeEntry* New_ctor(void* o);
 
-  /// @brief Method .ctor, addr 0x27057d8, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2738140, size 0x110, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "ChallengeEntry", modifiers: "&&", def_value: None }]

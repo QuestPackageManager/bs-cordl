@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::JetBrains::Annotations::HtmlAttributeValueAttribute);
 namespace JetBrains::Annotations {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15781))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15931))
 // CS Name: ::JetBrains.Annotations::HtmlAttributeValueAttribute*
 class CORDL_TYPE HtmlAttributeValueAttribute : public ::System::Attribute {
 public:
@@ -34,13 +34,13 @@ public:
 
   static inline ::JetBrains::Annotations::HtmlAttributeValueAttribute* New_ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x2eba69c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ed67e4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method get_Name, addr 0x2eba6c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x2ed680c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method set_Name, addr 0x2eba6cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x2ed6814, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
   // Ctor Parameters [CppParam { name: "", ty: "HtmlAttributeValueAttribute", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::Newtonsoft::Json::WriteState);
 namespace Newtonsoft::Json {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11844))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11742))
 // CS Name: ::Newtonsoft.Json::WriteState
 struct CORDL_TYPE WriteState {
 public:

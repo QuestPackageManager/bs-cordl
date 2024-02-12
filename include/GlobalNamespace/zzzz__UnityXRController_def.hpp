@@ -45,7 +45,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__UnityXRController__Configuration);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14433))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14582))
 // CS Name: ::UnityXRController::Configuration*
 class CORDL_TYPE __UnityXRController__Configuration : public ::System::Object {
 public:
@@ -86,30 +86,30 @@ public:
 
   constexpr void __cordl_internal_set__thumbstickActionReference_k__BackingField(::UnityW<::UnityEngine::InputSystem::InputActionReference> value);
 
-  /// @brief Method get_positionActionReference, addr 0x20fd6e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_positionActionReference, addr 0x21910f4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::InputSystem::InputActionReference> get_positionActionReference();
 
-  /// @brief Method set_positionActionReference, addr 0x20fd6ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_positionActionReference, addr 0x21910fc, size 0x8, virtual false, abstract: false, final false
   inline void set_positionActionReference(::UnityEngine::InputSystem::InputActionReference* value);
 
-  /// @brief Method get_orientationActionReference, addr 0x20fd6f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_orientationActionReference, addr 0x2191104, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::InputSystem::InputActionReference> get_orientationActionReference();
 
-  /// @brief Method set_orientationActionReference, addr 0x20fd6fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_orientationActionReference, addr 0x219110c, size 0x8, virtual false, abstract: false, final false
   inline void set_orientationActionReference(::UnityEngine::InputSystem::InputActionReference* value);
 
-  /// @brief Method get_thumbstickActionReference, addr 0x20fd704, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_thumbstickActionReference, addr 0x2191114, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::InputSystem::InputActionReference> get_thumbstickActionReference();
 
-  /// @brief Method set_thumbstickActionReference, addr 0x20fd70c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_thumbstickActionReference, addr 0x219111c, size 0x8, virtual false, abstract: false, final false
   inline void set_thumbstickActionReference(::UnityEngine::InputSystem::InputActionReference* value);
 
-  /// @brief Method CreateController, addr 0x20fad40, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method CreateController, addr 0x218e750, size 0xc0, virtual false, abstract: false, final false
   inline ::GlobalNamespace::UnityXRController* CreateController(::UnityEngine::XR::XRNode node);
 
   static inline ::GlobalNamespace::__UnityXRController__Configuration* New_ctor();
 
-  /// @brief Method .ctor, addr 0x20fd714, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2191124, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__UnityXRController__Configuration", modifiers: "&&", def_value: None }]
@@ -151,8 +151,8 @@ static_assert(offsetof(::GlobalNamespace::__UnityXRController__Configuration, __
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14435)), TypeDefinitionIndex(TypeDefinitionIndex(15614))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14434))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14584)), TypeDefinitionIndex(TypeDefinitionIndex(15745))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14583))
 // CS Name: ::UnityXRController*
 class CORDL_TYPE UnityXRController : public ::System::Object {
 public:
@@ -218,32 +218,32 @@ public:
 
   constexpr void __cordl_internal_set__hapticsHandler(::GlobalNamespace::IUnityXRHapticsHandler* value);
 
-  /// @brief Method get_hapticsHandler, addr 0x20fd2e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hapticsHandler, addr 0x2190cf4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IUnityXRHapticsHandler* get_hapticsHandler();
 
-  /// @brief Method get_manufacturerName, addr 0x20fd2ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_manufacturerName, addr 0x2190cfc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__UnityXRHelper__VRControllerManufacturerName get_manufacturerName();
 
-  /// @brief Method set_manufacturerName, addr 0x20fd2f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_manufacturerName, addr 0x2190d04, size 0x8, virtual false, abstract: false, final false
   inline void set_manufacturerName(::GlobalNamespace::__UnityXRHelper__VRControllerManufacturerName value);
 
   static inline ::GlobalNamespace::UnityXRController* New_ctor(::UnityEngine::XR::XRNode node, ::UnityEngine::InputSystem::InputAction* positionAction,
                                                                ::UnityEngine::InputSystem::InputAction* rotationAction, ::UnityEngine::InputSystem::InputAction* thumbstickAction);
 
-  /// @brief Method .ctor, addr 0x20fd2fc, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2190d0c, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::XR::XRNode node, ::UnityEngine::InputSystem::InputAction* positionAction, ::UnityEngine::InputSystem::InputAction* rotationAction,
                     ::UnityEngine::InputSystem::InputAction* thumbstickAction);
 
-  /// @brief Method SetupController, addr 0x20fd3cc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method SetupController, addr 0x2190ddc, size 0x34, virtual false, abstract: false, final false
   inline bool SetupController(::UnityEngine::XR::InputDevice device, ::UnityEngine::MonoBehaviour* coroutineRunner);
 
-  /// @brief Method UpdateHapticsHandler, addr 0x20fd550, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method UpdateHapticsHandler, addr 0x2190f60, size 0x18c, virtual false, abstract: false, final false
   inline void UpdateHapticsHandler(::UnityEngine::MonoBehaviour* coroutineRunner);
 
-  /// @brief Method TryToUpdateManufacturerName, addr 0x20fd400, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method TryToUpdateManufacturerName, addr 0x2190e10, size 0x150, virtual false, abstract: false, final false
   inline bool TryToUpdateManufacturerName(::UnityEngine::XR::InputDevice device);
 
-  /// @brief Method ResetManufacturerName, addr 0x20fd6dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ResetManufacturerName, addr 0x21910ec, size 0x8, virtual false, abstract: false, final false
   inline void ResetManufacturerName();
 
   // Ctor Parameters [CppParam { name: "", ty: "UnityXRController", modifiers: "&&", def_value: None }]

@@ -33,8 +33,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ScaleAnimator);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5257))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4597))
 // CS Name: ::ScaleAnimator*
 class CORDL_TYPE ScaleAnimator : public ::UnityEngine::MonoBehaviour {
 public:
@@ -93,39 +93,39 @@ public:
 
   constexpr void __cordl_internal_set__initialized(bool value);
 
-  /// @brief Method OnDestroy, addr 0x225cd04, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x23bb890, size 0x88, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method InitIfNeeded, addr 0x225cd8c, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method InitIfNeeded, addr 0x23bb918, size 0x254, virtual false, abstract: false, final false
   inline void InitIfNeeded();
 
-  /// @brief Method SetPositionAndRotation, addr 0x225cfe0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SetPositionAndRotation, addr 0x23bbb6c, size 0x78, virtual false, abstract: false, final false
   inline void SetPositionAndRotation(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method HideInstant, addr 0x225d058, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method HideInstant, addr 0x23bbbe4, size 0xa8, virtual false, abstract: false, final false
   inline void HideInstant();
 
-  /// @brief Method ShowInstant, addr 0x225d100, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ShowInstant, addr 0x23bbc8c, size 0x70, virtual false, abstract: false, final false
   inline void ShowInstant();
 
-  /// @brief Method Animate, addr 0x225d170, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method Animate, addr 0x23bbcfc, size 0xfc, virtual false, abstract: false, final false
   inline void Animate(bool show, float_t duration, ::GlobalNamespace::EaseType easeType, float_t delay);
 
   static inline ::GlobalNamespace::ScaleAnimator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x225d26c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23bbdf8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <InitIfNeeded>b__7_0, addr 0x225d27c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <InitIfNeeded>b__7_0, addr 0x23bbe08, size 0x24, virtual false, abstract: false, final false
   inline void _InitIfNeeded_b__7_0(float_t val);
 
-  /// @brief Method <InitIfNeeded>b__7_2, addr 0x225d2a0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <InitIfNeeded>b__7_2, addr 0x23bbe2c, size 0x2c, virtual false, abstract: false, final false
   inline void _InitIfNeeded_b__7_2();
 
-  /// @brief Method <InitIfNeeded>b__7_1, addr 0x225d2cc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <InitIfNeeded>b__7_1, addr 0x23bbe58, size 0x24, virtual false, abstract: false, final false
   inline void _InitIfNeeded_b__7_1(float_t val);
 
-  /// @brief Method <InitIfNeeded>b__7_3, addr 0x225d2f0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <InitIfNeeded>b__7_3, addr 0x23bbe7c, size 0x2c, virtual false, abstract: false, final false
   inline void _InitIfNeeded_b__7_3();
 
   // Ctor Parameters [CppParam { name: "", ty: "ScaleAnimator", modifiers: "&&", def_value: None }]

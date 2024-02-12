@@ -50,7 +50,7 @@ MARK_REF_PTR_T(::Mono::Security::X509::__X509Crl__X509CrlEntry);
 namespace Mono::Security::X509 {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13749))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13702))
 // CS Name: ::X509Crl::X509CrlEntry*
 class CORDL_TYPE __X509Crl__X509CrlEntry : public ::System::Object {
 public:
@@ -90,16 +90,16 @@ public:
 
   static inline ::Mono::Security::X509::__X509Crl__X509CrlEntry* New_ctor(::Mono::Security::ASN1* entry);
 
-  /// @brief Method .ctor, addr 0x23f9054, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2418eb4, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Security::ASN1* entry);
 
-  /// @brief Method get_SerialNumber, addr 0x23f96d8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_SerialNumber, addr 0x2419538, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_SerialNumber();
 
-  /// @brief Method get_RevocationDate, addr 0x23f9c7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RevocationDate, addr 0x2419adc, size 0x8, virtual false, abstract: false, final false
   inline ::System::DateTime get_RevocationDate();
 
-  /// @brief Method get_Extensions, addr 0x23f9c84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Extensions, addr 0x2419ae4, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509ExtensionCollection* get_Extensions();
 
   // Ctor Parameters [CppParam { name: "", ty: "__X509Crl__X509CrlEntry", modifiers: "&&", def_value: None }]
@@ -142,7 +142,7 @@ static_assert(offsetof(::Mono::Security::X509::__X509Crl__X509CrlEntry, ___exten
 namespace Mono::Security::X509 {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13750))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13703))
 // CS Name: ::Mono.Security.X509::X509Crl*
 class CORDL_TYPE X509Crl : public ::System::Object {
 public:
@@ -249,40 +249,40 @@ public:
 
   static inline ::Mono::Security::X509::X509Crl* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> crl);
 
-  /// @brief Method .ctor, addr 0x23f88ac, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x241870c, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> crl);
 
-  /// @brief Method Parse, addr 0x23f89a4, size 0x6b0, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x2418804, size 0x6b0, virtual false, abstract: false, final false
   inline void Parse(::ArrayW<uint8_t, ::Array<uint8_t>*> crl);
 
-  /// @brief Method get_Extensions, addr 0x23f9268, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Extensions, addr 0x24190c8, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509ExtensionCollection* get_Extensions();
 
-  /// @brief Method get_Hash, addr 0x23f9270, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method get_Hash, addr 0x24190d0, size 0x214, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Hash();
 
-  /// @brief Method get_IssuerName, addr 0x23f9484, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IssuerName, addr 0x24192e4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_IssuerName();
 
-  /// @brief Method get_NextUpdate, addr 0x23f948c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NextUpdate, addr 0x24192ec, size 0x8, virtual false, abstract: false, final false
   inline ::System::DateTime get_NextUpdate();
 
-  /// @brief Method Compare, addr 0x23f9494, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Compare, addr 0x24192f4, size 0x7c, virtual false, abstract: false, final false
   inline bool Compare(::ArrayW<uint8_t, ::Array<uint8_t>*> array1, ::ArrayW<uint8_t, ::Array<uint8_t>*> array2);
 
-  /// @brief Method GetCrlEntry, addr 0x23f9510, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetCrlEntry, addr 0x2419370, size 0x80, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::__X509Crl__X509CrlEntry* GetCrlEntry(::Mono::Security::X509::X509Certificate* x509);
 
-  /// @brief Method GetCrlEntry, addr 0x23f9590, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method GetCrlEntry, addr 0x24193f0, size 0x148, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::__X509Crl__X509CrlEntry* GetCrlEntry(::ArrayW<uint8_t, ::Array<uint8_t>*> serialNumber);
 
-  /// @brief Method VerifySignature, addr 0x23f9750, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method VerifySignature, addr 0x24195b0, size 0x2cc, virtual false, abstract: false, final false
   inline bool VerifySignature(::System::Security::Cryptography::DSA* dsa);
 
-  /// @brief Method VerifySignature, addr 0x23f9a1c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method VerifySignature, addr 0x241987c, size 0xd4, virtual false, abstract: false, final false
   inline bool VerifySignature(::System::Security::Cryptography::RSA* rsa);
 
-  /// @brief Method VerifySignature, addr 0x23f9af0, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method VerifySignature, addr 0x2419950, size 0x18c, virtual false, abstract: false, final false
   inline bool VerifySignature(::System::Security::Cryptography::AsymmetricAlgorithm* aa);
 
   // Ctor Parameters [CppParam { name: "", ty: "X509Crl", modifiers: "&&", def_value: None }]

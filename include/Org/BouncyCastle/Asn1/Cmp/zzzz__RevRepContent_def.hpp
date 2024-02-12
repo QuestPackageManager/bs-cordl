@@ -68,22 +68,22 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::RevRepContent* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xe6ec54, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe99ae4, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance, addr 0xe698b8, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xe94748, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::RevRepContent* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetStatus, addr 0xe6ed34, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method GetStatus, addr 0xe99bc4, size 0xf4, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo*, ::Array<::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo*>*> GetStatus();
 
-  /// @brief Method GetRevCerts, addr 0xe6ee28, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method GetRevCerts, addr 0xe99cb8, size 0x100, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Crmf::CertId*, ::Array<::Org::BouncyCastle::Asn1::Crmf::CertId*>*> GetRevCerts();
 
-  /// @brief Method GetCrls, addr 0xe6ef28, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method GetCrls, addr 0xe99db8, size 0x100, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::CertificateList*, ::Array<::Org::BouncyCastle::Asn1::X509::CertificateList*>*> GetCrls();
 
-  /// @brief Method ToAsn1Object, addr 0xe6f028, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xe99eb8, size 0x12c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "RevRepContent", modifiers: "&&", def_value: None }]

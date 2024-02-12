@@ -38,17 +38,17 @@ MARK_REF_PTR_T(::UnityEngine::AI::__NavMesh__OnNavMeshPreUpdate);
 namespace UnityEngine::AI {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16117))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16233))
 // CS Name: ::NavMesh::OnNavMeshPreUpdate*
 class CORDL_TYPE __NavMesh__OnNavMeshPreUpdate : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::UnityEngine::AI::__NavMesh__OnNavMeshPreUpdate* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2c7db8c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c7a6f8, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x2c7dc48, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2c7a7b4, size 0x14, virtual true, abstract: false, final false
   inline void Invoke();
 
   // Ctor Parameters [CppParam { name: "", ty: "__NavMesh__OnNavMeshPreUpdate", modifiers: "&&", def_value: None }]
@@ -76,7 +76,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::AI::__NavMesh__OnNa
 namespace UnityEngine::AI {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16118))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16234))
 // CS Name: ::UnityEngine.AI::NavMesh*
 class CORDL_TYPE NavMesh : public ::System::Object {
 public:
@@ -90,22 +90,22 @@ public:
 
   static inline ::UnityEngine::AI::__NavMesh__OnNavMeshPreUpdate* getStaticF_onPreUpdate();
 
-  /// @brief Method Internal_CallOnNavMeshPreUpdate, addr 0x2c7d8ec, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Internal_CallOnNavMeshPreUpdate, addr 0x2c7a458, size 0x64, virtual false, abstract: false, final false
   static inline void Internal_CallOnNavMeshPreUpdate();
 
-  /// @brief Method CalculatePath, addr 0x2c7d950, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method CalculatePath, addr 0x2c7a4bc, size 0xa0, virtual false, abstract: false, final false
   static inline bool CalculatePath(::UnityEngine::Vector3 sourcePosition, ::UnityEngine::Vector3 targetPosition, int32_t areaMask, ::UnityEngine::AI::NavMeshPath* path);
 
-  /// @brief Method CalculatePathInternal, addr 0x2c7d9f0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method CalculatePathInternal, addr 0x2c7a55c, size 0x6c, virtual false, abstract: false, final false
   static inline bool CalculatePathInternal(::UnityEngine::Vector3 sourcePosition, ::UnityEngine::Vector3 targetPosition, int32_t areaMask, ::UnityEngine::AI::NavMeshPath* path);
 
-  /// @brief Method SamplePosition, addr 0x2c7dab8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method SamplePosition, addr 0x2c7a624, size 0x70, virtual false, abstract: false, final false
   static inline bool SamplePosition(::UnityEngine::Vector3 sourcePosition, ByRef<::UnityEngine::AI::NavMeshHit> hit, float_t maxDistance, int32_t areaMask);
 
-  /// @brief Method CalculatePathInternal_Injected, addr 0x2c7da5c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CalculatePathInternal_Injected, addr 0x2c7a5c8, size 0x5c, virtual false, abstract: false, final false
   static inline bool CalculatePathInternal_Injected(ByRef<::UnityEngine::Vector3> sourcePosition, ByRef<::UnityEngine::Vector3> targetPosition, int32_t areaMask, ::UnityEngine::AI::NavMeshPath* path);
 
-  /// @brief Method SamplePosition_Injected, addr 0x2c7db28, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method SamplePosition_Injected, addr 0x2c7a694, size 0x64, virtual false, abstract: false, final false
   static inline bool SamplePosition_Injected(ByRef<::UnityEngine::Vector3> sourcePosition, ByRef<::UnityEngine::AI::NavMeshHit> hit, float_t maxDistance, int32_t areaMask);
 
   // Ctor Parameters [CppParam { name: "", ty: "NavMesh", modifiers: "&&", def_value: None }]

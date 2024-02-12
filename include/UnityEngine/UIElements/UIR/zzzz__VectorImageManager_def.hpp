@@ -51,8 +51,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::VectorImageManager);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 58, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9966))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7423))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8695))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6682))
 // CS Name: ::UnityEngine.UIElements.UIR::VectorImageManager*
 class CORDL_TYPE VectorImageManager : public ::System::Object {
 public:
@@ -158,33 +158,33 @@ public:
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_MarkerUnregister();
 
-  /// @brief Method get_atlas, addr 0x2dcd1c8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_atlas, addr 0x2deb5b0, size 0x14, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> get_atlas();
 
   static inline ::UnityEngine::UIElements::UIR::VectorImageManager* New_ctor(::UnityEngine::UIElements::AtlasBase* atlas);
 
-  /// @brief Method .ctor, addr 0x2dcd1dc, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2deb5c4, size 0x1bc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::AtlasBase* atlas);
 
-  /// @brief Method get_disposed, addr 0x2dcd398, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x2deb780, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
-  /// @brief Method set_disposed, addr 0x2dcd3a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x2deb788, size 0xc, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
-  /// @brief Method Dispose, addr 0x2dcd3ac, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2deb794, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x2dcd418, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x2deb800, size 0x118, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Commit, addr 0x2dcd530, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Commit, addr 0x2deb918, size 0x30, virtual false, abstract: false, final false
   inline void Commit();
 
-  /// @brief Method AddUser, addr 0x2dcd560, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method AddUser, addr 0x2deb948, size 0x104, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::GradientRemap* AddUser(::UnityEngine::UIElements::VectorImage* vi, ::UnityEngine::UIElements::VisualElement* context);
 
-  /// @brief Method Register, addr 0x2dcd664, size 0x434, virtual false, abstract: false, final false
+  /// @brief Method Register, addr 0x2deba4c, size 0x434, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::VectorImageRenderInfo* Register(::UnityEngine::UIElements::VectorImage* vi, ::UnityEngine::UIElements::VisualElement* context);
 
   // Ctor Parameters [CppParam { name: "", ty: "VectorImageManager", modifiers: "&&", def_value: None }]

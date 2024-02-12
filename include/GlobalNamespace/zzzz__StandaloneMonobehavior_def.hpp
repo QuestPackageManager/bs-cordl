@@ -96,8 +96,8 @@ MARK_VAL_T(::GlobalNamespace::__StandaloneMonobehavior___Dispatch_d__20);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3400)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(12963)) CS Name: ::StandaloneMonobehavior::<Dispatch>d__20
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3396)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 77
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(12861)) CS Name: ::StandaloneMonobehavior::<Dispatch>d__20
 struct CORDL_TYPE __StandaloneMonobehavior___Dispatch_d__20 {
 public:
   // Declarations
@@ -107,10 +107,10 @@ public:
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0xe58d1c, size 0x200, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0xe83b54, size 0x200, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0xe58f1c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0xe83d54, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -163,8 +163,8 @@ static_assert(offsetof(::GlobalNamespace::__StandaloneMonobehavior___Dispatch_d_
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3401)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(12964)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3389)), TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3397)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 77 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(12862)) CS Name:
 // ::StandaloneMonobehavior::<DispatchAsync>d__21
 struct CORDL_TYPE __StandaloneMonobehavior___DispatchAsync_d__21 {
 public:
@@ -175,10 +175,10 @@ public:
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0xe58f28, size 0x2b0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0xe83d60, size 0x2b0, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0xe591d8, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0xe84010, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -238,7 +238,7 @@ static_assert(offsetof(::GlobalNamespace::__StandaloneMonobehavior___DispatchAsy
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2677))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12965))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12863))
 // CS Name: ::StandaloneMonobehavior::<RunAsyncCoroutine>d__25*
 class CORDL_TYPE __StandaloneMonobehavior___RunAsyncCoroutine_d__25 : public ::System::Object {
 public:
@@ -312,22 +312,22 @@ public:
 
   static inline ::GlobalNamespace::__StandaloneMonobehavior___RunAsyncCoroutine_d__25* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor, addr 0xe58cf4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe83b2c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0xe591e4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0xe8401c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext, addr 0xe591e8, size 0x174, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0xe84020, size 0x174, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0xe5935c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0xe84194, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0xe59364, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0xe8419c, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0xe593a4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0xe841dc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__StandaloneMonobehavior___RunAsyncCoroutine_d__25", modifiers: "&&", def_value: None }]
@@ -379,8 +379,8 @@ static_assert(offsetof(::GlobalNamespace::__StandaloneMonobehavior___RunAsyncCor
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12966))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12864))
 // CS Name: ::StandaloneMonobehavior*
 class CORDL_TYPE StandaloneMonobehavior : public ::UnityEngine::MonoBehaviour {
 public:
@@ -453,60 +453,60 @@ public:
 
   constexpr void __cordl_internal_set__lastFrameTimeCount(int32_t value);
 
-  /// @brief Method get_objectLifeTime, addr 0xe588a4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_objectLifeTime, addr 0xe836dc, size 0x20, virtual false, abstract: false, final false
   inline float_t get_objectLifeTime();
 
-  /// @brief Method get_deltaTime, addr 0xe588c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_deltaTime, addr 0xe836fc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_deltaTime();
 
-  /// @brief Method get_lastFrameTime, addr 0xe588cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_lastFrameTime, addr 0xe83704, size 0x4, virtual false, abstract: false, final false
   inline float_t get_lastFrameTime();
 
-  /// @brief Method get_frameCount, addr 0xe4ad1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_frameCount, addr 0xe75b54, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_frameCount();
 
-  /// @brief Method get_isReady, addr 0xe58940, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_isReady, addr 0xe83778, size 0x50, virtual false, abstract: false, final false
   inline bool get_isReady();
 
-  /// @brief Method Awake, addr 0xe58990, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0xe837c8, size 0x1c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Start, addr 0xe589ac, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0xe837e4, size 0x4, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0xe589b0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0xe837e8, size 0x4, virtual true, abstract: false, final false
   inline void Update();
 
-  /// @brief Method OnDestroy, addr 0xe589b4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0xe837ec, size 0x4, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnApplicationPause, addr 0xe589b8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnApplicationPause, addr 0xe837f0, size 0x4, virtual true, abstract: false, final false
   inline void OnApplicationPause(bool pauseStatus);
 
-  /// @brief Method Dispatch, addr 0xe589bc, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method Dispatch, addr 0xe837f4, size 0x9c, virtual true, abstract: false, final true
   inline void Dispatch(::System::Action* action);
 
-  /// @brief Method DispatchAsync, addr 0xe58a58, size 0xd8, virtual true, abstract: false, final true
+  /// @brief Method DispatchAsync, addr 0xe83890, size 0xd8, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* DispatchAsync(::System::Func_1<::System::Threading::Tasks::Task*>* action);
 
   /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T Create();
 
-  /// @brief Method RunAsync, addr 0xe58b30, size 0x140, virtual true, abstract: false, final true
+  /// @brief Method RunAsync, addr 0xe83968, size 0x140, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* RunAsync(::GlobalNamespace::IStandaloneThreadRunner* runner, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Stop, addr 0xe58cec, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Stop, addr 0xe83b24, size 0x8, virtual true, abstract: false, final true
   inline void Stop();
 
-  /// @brief Method RunAsyncCoroutine, addr 0xe58c70, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method RunAsyncCoroutine, addr 0xe83aa8, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* RunAsyncCoroutine(::System::Threading::Tasks::TaskCompletionSource_1<bool>* tcs, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method GetLastFrameTime, addr 0xe588d0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetLastFrameTime, addr 0xe83708, size 0x70, virtual false, abstract: false, final false
   inline float_t GetLastFrameTime();
 
   static inline ::GlobalNamespace::StandaloneMonobehavior* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe4cbfc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe77a34, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "StandaloneMonobehavior", modifiers: "&&", def_value: None }]

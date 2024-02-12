@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::GlobalNamespace::Mirror);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15296))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15411))
 // CS Name: ::Mirror*
 class CORDL_TYPE Mirror : public ::UnityEngine::MonoBehaviour {
 public:
@@ -101,36 +101,36 @@ public:
 
   static inline int32_t getStaticF__texturePropertyID();
 
-  /// @brief Method get_mirrorMaterial, addr 0x2809140, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mirrorMaterial, addr 0x280d928, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_mirrorMaterial();
 
-  /// @brief Method get_noMirrorMaterial, addr 0x2809148, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_noMirrorMaterial, addr 0x280d930, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_noMirrorMaterial();
 
-  /// @brief Method get_isEnabled, addr 0x2809150, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isEnabled, addr 0x280d938, size 0x8, virtual false, abstract: false, final false
   inline bool get_isEnabled();
 
-  /// @brief Method set_isEnabled, addr 0x2809158, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isEnabled, addr 0x280d940, size 0xc, virtual false, abstract: false, final false
   inline void set_isEnabled(bool value);
 
-  /// @brief Method add_mirrorDidChangeEnabledStateEvent, addr 0x2809164, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_mirrorDidChangeEnabledStateEvent, addr 0x280d94c, size 0xb0, virtual false, abstract: false, final false
   inline void add_mirrorDidChangeEnabledStateEvent(::System::Action_1<bool>* value);
 
-  /// @brief Method remove_mirrorDidChangeEnabledStateEvent, addr 0x2809214, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_mirrorDidChangeEnabledStateEvent, addr 0x280d9fc, size 0xb0, virtual false, abstract: false, final false
   inline void remove_mirrorDidChangeEnabledStateEvent(::System::Action_1<bool>* value);
 
-  /// @brief Method Update, addr 0x28092c4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x280daac, size 0x18, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method OnWillRenderObject, addr 0x2809468, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method OnWillRenderObject, addr 0x280dc50, size 0x25c, virtual false, abstract: false, final false
   inline void OnWillRenderObject();
 
-  /// @brief Method ChangeMirrorEnabledState, addr 0x28096c4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method ChangeMirrorEnabledState, addr 0x280deac, size 0x38, virtual false, abstract: false, final false
   inline void ChangeMirrorEnabledState(bool newIsEnabled);
 
   static inline ::GlobalNamespace::Mirror* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2809f04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x280e6ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Mirror", modifiers: "&&", def_value: None }]

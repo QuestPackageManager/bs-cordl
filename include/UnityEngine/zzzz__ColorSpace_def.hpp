@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ColorSpace);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10111))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8847))
 // CS Name: ::UnityEngine::ColorSpace
 struct CORDL_TYPE ColorSpace {
 public:

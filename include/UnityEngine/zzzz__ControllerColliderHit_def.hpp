@@ -13,6 +13,18 @@ class CharacterController;
 namespace UnityEngine {
 class Collider;
 }
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+class Rigidbody;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
+struct Vector3;
+}
 // Forward declare root types
 namespace UnityEngine {
 class ControllerColliderHit;
@@ -23,8 +35,8 @@ MARK_REF_PTR_T(::UnityEngine::ControllerColliderHit);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15501))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8993))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13951))
 // CS Name: ::UnityEngine::ControllerColliderHit*
 class CORDL_TYPE ControllerColliderHit : public ::System::Object {
 public:
@@ -49,6 +61,26 @@ public:
 
   /// @brief Field m_Push, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get_m_Push, put = __cordl_internal_set_m_Push)) int32_t m_Push;
+
+  __declspec(property(get = get_controller))::UnityW<::UnityEngine::CharacterController> controller;
+
+  __declspec(property(get = get_collider))::UnityW<::UnityEngine::Collider> collider;
+
+  __declspec(property(get = get_rigidbody))::UnityW<::UnityEngine::Rigidbody> rigidbody;
+
+  __declspec(property(get = get_gameObject))::UnityW<::UnityEngine::GameObject> gameObject;
+
+  __declspec(property(get = get_transform))::UnityW<::UnityEngine::Transform> transform;
+
+  __declspec(property(get = get_point))::UnityEngine::Vector3 point;
+
+  __declspec(property(get = get_normal))::UnityEngine::Vector3 normal;
+
+  __declspec(property(get = get_moveDirection))::UnityEngine::Vector3 moveDirection;
+
+  __declspec(property(get = get_moveLength)) float_t moveLength;
+
+  __declspec(property(get = get_push, put = set_push)) bool push;
 
   constexpr ::UnityW<::UnityEngine::CharacterController>& __cordl_internal_get_m_Controller();
 
@@ -91,6 +123,44 @@ public:
   constexpr int32_t const& __cordl_internal_get_m_Push() const;
 
   constexpr void __cordl_internal_set_m_Push(int32_t value);
+
+  /// @brief Method get_controller, addr 0x2d388f8, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::CharacterController> get_controller();
+
+  /// @brief Method get_collider, addr 0x2d38900, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Collider> get_collider();
+
+  /// @brief Method get_rigidbody, addr 0x2d38908, size 0x44, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Rigidbody> get_rigidbody();
+
+  /// @brief Method get_gameObject, addr 0x2d3894c, size 0x1c, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::GameObject> get_gameObject();
+
+  /// @brief Method get_transform, addr 0x2d38968, size 0x1c, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Transform> get_transform();
+
+  /// @brief Method get_point, addr 0x2d38984, size 0xc, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 get_point();
+
+  /// @brief Method get_normal, addr 0x2d38990, size 0xc, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 get_normal();
+
+  /// @brief Method get_moveDirection, addr 0x2d3899c, size 0xc, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 get_moveDirection();
+
+  /// @brief Method get_moveLength, addr 0x2d389a8, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_moveLength();
+
+  /// @brief Method get_push, addr 0x2d389b0, size 0x10, virtual false, abstract: false, final false
+  inline bool get_push();
+
+  /// @brief Method set_push, addr 0x2d389c0, size 0x1c, virtual false, abstract: false, final false
+  inline void set_push(bool value);
+
+  static inline ::UnityEngine::ControllerColliderHit* New_ctor();
+
+  /// @brief Method .ctor, addr 0x2d389dc, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ControllerColliderHit", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

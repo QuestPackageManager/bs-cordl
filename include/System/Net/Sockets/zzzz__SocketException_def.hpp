@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::System::Net::Sockets::SocketException);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Sockets {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9492))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9336))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7502))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7346))
 // CS Name: ::System.Net.Sockets::SocketException*
 class CORDL_TYPE SocketException : public ::System::ComponentModel::Win32Exception {
 public:
@@ -49,42 +49,42 @@ public:
 
   constexpr void __cordl_internal_set_m_EndPoint(::System::Net::EndPoint* value);
 
-  /// @brief Method WSAGetLastError_icall, addr 0x28fc484, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method WSAGetLastError_icall, addr 0x2900aec, size 0x4, virtual false, abstract: false, final false
   static inline int32_t WSAGetLastError_icall();
 
   static inline ::System::Net::Sockets::SocketException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28fc488, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2900af0, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Net::Sockets::SocketException* New_ctor(int32_t error, ::StringW message);
 
-  /// @brief Method .ctor, addr 0x28fc4a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2900b10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t error, ::StringW message);
 
   static inline ::System::Net::Sockets::SocketException* New_ctor(int32_t errorCode);
 
-  /// @brief Method .ctor, addr 0x28fa6ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28fed54, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t errorCode);
 
   static inline ::System::Net::Sockets::SocketException* New_ctor(::System::Net::Sockets::SocketError socketError);
 
-  /// @brief Method .ctor, addr 0x28fbc30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2900298, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Sockets::SocketError socketError);
 
   static inline ::System::Net::Sockets::SocketException* New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
                                                                   ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method .ctor, addr 0x28fc4b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2900b18, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method get_ErrorCode, addr 0x28fc4b8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ErrorCode, addr 0x2900b20, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ErrorCode();
 
-  /// @brief Method get_Message, addr 0x28fc4c0, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x2900b28, size 0x90, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
-  /// @brief Method get_SocketErrorCode, addr 0x28fa370, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SocketErrorCode, addr 0x28fe9d8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Sockets::SocketError get_SocketErrorCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "SocketException", modifiers: "&&", def_value: None }]

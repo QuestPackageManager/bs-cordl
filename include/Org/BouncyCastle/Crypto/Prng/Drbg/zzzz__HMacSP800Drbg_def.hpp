@@ -111,26 +111,26 @@ public:
                                                                                  ::Org::BouncyCastle::Crypto::IEntropySource* entropySource, ::ArrayW<uint8_t, ::Array<uint8_t>*> personalizationString,
                                                                                  ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce);
 
-  /// @brief Method .ctor, addr 0xf40b60, size 0x354, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf6b9f0, size 0x354, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IMac* hMac, int32_t securityStrength, ::Org::BouncyCastle::Crypto::IEntropySource* entropySource,
                     ::ArrayW<uint8_t, ::Array<uint8_t>*> personalizationString, ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce);
 
-  /// @brief Method hmac_DRBG_Update, addr 0xf40fcc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method hmac_DRBG_Update, addr 0xf6be5c, size 0x40, virtual false, abstract: false, final false
   inline void hmac_DRBG_Update(::ArrayW<uint8_t, ::Array<uint8_t>*> seedMaterial);
 
-  /// @brief Method hmac_DRBG_Update_Func, addr 0xf4100c, size 0x434, virtual false, abstract: false, final false
+  /// @brief Method hmac_DRBG_Update_Func, addr 0xf6be9c, size 0x434, virtual false, abstract: false, final false
   inline void hmac_DRBG_Update_Func(::ArrayW<uint8_t, ::Array<uint8_t>*> seedMaterial, uint8_t vValue);
 
-  /// @brief Method get_BlockSize, addr 0xf41440, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method get_BlockSize, addr 0xf6c2d0, size 0x20, virtual true, abstract: false, final true
   inline int32_t get_BlockSize();
 
-  /// @brief Method Generate, addr 0xf41460, size 0x510, virtual true, abstract: false, final true
+  /// @brief Method Generate, addr 0xf6c2f0, size 0x510, virtual true, abstract: false, final true
   inline int32_t Generate(::ArrayW<uint8_t, ::Array<uint8_t>*> output, ::ArrayW<uint8_t, ::Array<uint8_t>*> additionalInput, bool predictionResistant);
 
-  /// @brief Method Reseed, addr 0xf41970, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method Reseed, addr 0xf6c800, size 0x90, virtual true, abstract: false, final true
   inline void Reseed(::ArrayW<uint8_t, ::Array<uint8_t>*> additionalInput);
 
-  /// @brief Method GetEntropy, addr 0xf40eb4, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method GetEntropy, addr 0xf6bd44, size 0x118, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEntropy();
 
   // Ctor Parameters [CppParam { name: "", ty: "HMacSP800Drbg", modifiers: "&&", def_value: None }]

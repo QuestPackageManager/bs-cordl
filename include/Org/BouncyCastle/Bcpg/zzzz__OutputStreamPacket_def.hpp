@@ -34,7 +34,7 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::OutputStreamPacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
-  /// @brief Method .ctor, addr 0x11d21a4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1200034, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
   /// @brief Method Open, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

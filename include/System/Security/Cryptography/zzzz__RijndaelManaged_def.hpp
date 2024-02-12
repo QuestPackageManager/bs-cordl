@@ -33,22 +33,22 @@ public:
   // Declarations
   static inline ::System::Security::Cryptography::RijndaelManaged* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2460954, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24829c8, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateEncryptor, addr 0x2460a34, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method CreateEncryptor, addr 0x2482aa8, size 0x14, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::ICryptoTransform* CreateEncryptor(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbIV);
 
-  /// @brief Method CreateDecryptor, addr 0x2460b44, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method CreateDecryptor, addr 0x2482bb8, size 0x14, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::ICryptoTransform* CreateDecryptor(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbIV);
 
-  /// @brief Method GenerateKey, addr 0x2460b58, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method GenerateKey, addr 0x2482bcc, size 0x30, virtual true, abstract: false, final false
   inline void GenerateKey();
 
-  /// @brief Method GenerateIV, addr 0x2460b88, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method GenerateIV, addr 0x2482bfc, size 0x30, virtual true, abstract: false, final false
   inline void GenerateIV();
 
-  /// @brief Method NewEncryptor, addr 0x2460a48, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method NewEncryptor, addr 0x2482abc, size 0xfc, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::ICryptoTransform* NewEncryptor(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbKey, ::System::Security::Cryptography::CipherMode mode,
                                                                           ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbIV, int32_t feedbackSize,
                                                                           ::System::Security::Cryptography::RijndaelManagedTransformMode encryptMode);

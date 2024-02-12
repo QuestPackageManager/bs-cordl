@@ -64,23 +64,23 @@ MARK_REF_PTR_T(::GlobalNamespace::__OVRHandTest____c);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8117))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8074))
 // CS Name: ::OVRHandTest::BoolMonitor::BoolGenerator*
 class CORDL_TYPE __OVRHandTest__BoolMonitor__BoolGenerator : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::GlobalNamespace::__OVRHandTest__BoolMonitor__BoolGenerator* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x27af490, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27bfe74, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x27b04e8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x27c0ecc, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke();
 
-  /// @brief Method BeginInvoke, addr 0x27b04fc, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x27c0ee0, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x27b051c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x27c0f00, size 0x28, virtual true, abstract: false, final false
   inline bool EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__OVRHandTest__BoolMonitor__BoolGenerator", modifiers: "&&", def_value: None }]
@@ -108,7 +108,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRHandTest__
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8118))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8075))
 // CS Name: ::OVRHandTest::BoolMonitor*
 class CORDL_TYPE __OVRHandTest__BoolMonitor : public ::System::Object {
 public:
@@ -180,13 +180,13 @@ public:
 
   static inline ::GlobalNamespace::__OVRHandTest__BoolMonitor* New_ctor(::StringW name, ::GlobalNamespace::__OVRHandTest__BoolMonitor__BoolGenerator* generator, float_t displayTimeout);
 
-  /// @brief Method .ctor, addr 0x27af54c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27bff30, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::GlobalNamespace::__OVRHandTest__BoolMonitor__BoolGenerator* generator, float_t displayTimeout);
 
-  /// @brief Method Update, addr 0x27b01c8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x27c0bac, size 0x94, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method AppendToStringBuilder, addr 0x27b025c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method AppendToStringBuilder, addr 0x27c0c40, size 0xd4, virtual false, abstract: false, final false
   inline void AppendToStringBuilder(ByRef<::System::Text::StringBuilder*> sb);
 
   // Ctor Parameters [CppParam { name: "", ty: "__OVRHandTest__BoolMonitor", modifiers: "&&", def_value: None }]
@@ -249,7 +249,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRHandTest__BoolMonitor, ___m_displ
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8119))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8076))
 // CS Name: ::OVRHandTest::<>c*
 class CORDL_TYPE __OVRHandTest____c : public ::System::Object {
 public:
@@ -270,13 +270,13 @@ public:
 
   static inline ::GlobalNamespace::__OVRHandTest____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x27b05a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27c0f8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Start>b__14_0, addr 0x27b05b0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__14_0, addr 0x27c0f94, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__14_0();
 
-  /// @brief Method <.cctor>b__19_0, addr 0x27b0608, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__19_0, addr 0x27c0fec, size 0x108, virtual false, abstract: false, final false
   inline bool __cctor_b__19_0();
 
   // Ctor Parameters [CppParam { name: "", ty: "__OVRHandTest____c", modifiers: "&&", def_value: None }]
@@ -303,8 +303,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRHandTest__
 // SizeInfo { instance_size: 376, native_size: -1, calculated_instance_size: 376, calculated_native_size: 372, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7771)), TypeDefinitionIndex(TypeDefinitionIndex(7777)), TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8120))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7822)), TypeDefinitionIndex(TypeDefinitionIndex(7828)), TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8077))
 // CS Name: ::OVRHandTest*
 class CORDL_TYPE OVRHandTest : public ::UnityEngine::MonoBehaviour {
 public:
@@ -444,15 +444,15 @@ public:
 
   static inline ::GlobalNamespace::__OVRHandTest__BoolMonitor* getStaticF_controllers();
 
-  /// @brief Method Start, addr 0x27af1ac, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x27bfb90, size 0x2e4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x27af5c4, size 0xc04, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x27bffa8, size 0xc04, virtual false, abstract: false, final false
   inline void Update();
 
   static inline ::GlobalNamespace::OVRHandTest* New_ctor();
 
-  /// @brief Method .ctor, addr 0x27b0330, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27c0d14, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRHandTest", modifiers: "&&", def_value: None }]

@@ -24,17 +24,17 @@ public:
   // Declarations
   static inline ::System::Security::Cryptography::HMACSHA1* New_ctor();
 
-  /// @brief Method .ctor, addr 0x245e5ac, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2480620, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Security::Cryptography::HMACSHA1* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method .ctor, addr 0x245ec84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2480cf8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
   static inline ::System::Security::Cryptography::HMACSHA1* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, bool useManagedSha1);
 
-  /// @brief Method .ctor, addr 0x245ec8c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2480d00, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, bool useManagedSha1);
 
   // Ctor Parameters [CppParam { name: "", ty: "HMACSHA1", modifiers: "&&", def_value: None }]

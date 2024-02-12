@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BoxCuttableBySaber);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5286))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5284))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4626))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4624))
 // CS Name: ::BoxCuttableBySaber*
 class CORDL_TYPE BoxCuttableBySaber : public ::GlobalNamespace::CuttableBySaber {
 public:
@@ -68,42 +68,42 @@ public:
 
   constexpr void __cordl_internal_set__radius(float_t value);
 
-  /// @brief Method get_radius, addr 0x2262200, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_radius, addr 0x23c0c08, size 0x8, virtual true, abstract: false, final false
   inline float_t get_radius();
 
-  /// @brief Method set_canBeCut, addr 0x2262208, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method set_canBeCut, addr 0x23c0c10, size 0x38, virtual true, abstract: false, final false
   inline void set_canBeCut(bool value);
 
-  /// @brief Method get_canBeCut, addr 0x2262240, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_canBeCut, addr 0x23c0c48, size 0x8, virtual true, abstract: false, final false
   inline bool get_canBeCut();
 
-  /// @brief Method set_colliderSize, addr 0x2262248, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_colliderSize, addr 0x23c0c50, size 0x28, virtual false, abstract: false, final false
   inline void set_colliderSize(::UnityEngine::Vector3 value);
 
-  /// @brief Method get_colliderSize, addr 0x22622d8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_colliderSize, addr 0x23c0ce0, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_colliderSize();
 
-  /// @brief Method set_colliderCenter, addr 0x22622f4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_colliderCenter, addr 0x23c0cfc, size 0x1c, virtual false, abstract: false, final false
   inline void set_colliderCenter(::UnityEngine::Vector3 value);
 
-  /// @brief Method get_colliderCenter, addr 0x2262310, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_colliderCenter, addr 0x23c0d18, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_colliderCenter();
 
-  /// @brief Method Awake, addr 0x226232c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x23c0d34, size 0x30, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Cut, addr 0x226235c, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method Cut, addr 0x23c0d64, size 0x34, virtual true, abstract: false, final false
   inline void Cut(::GlobalNamespace::Saber* saber, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Quaternion orientation, ::UnityEngine::Vector3 cutDirVec);
 
-  /// @brief Method SetColliderCenterAndSize, addr 0x22623bc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method SetColliderCenterAndSize, addr 0x23c0dc4, size 0x58, virtual false, abstract: false, final false
   inline void SetColliderCenterAndSize(::UnityEngine::Vector3 center, ::UnityEngine::Vector3 size);
 
-  /// @brief Method RefreshRadius, addr 0x2262270, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method RefreshRadius, addr 0x23c0c78, size 0x68, virtual false, abstract: false, final false
   inline void RefreshRadius();
 
   static inline ::GlobalNamespace::BoxCuttableBySaber* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2262414, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c0e1c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BoxCuttableBySaber", modifiers: "&&", def_value: None }]

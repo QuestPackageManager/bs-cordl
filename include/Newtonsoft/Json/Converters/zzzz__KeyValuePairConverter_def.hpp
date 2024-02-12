@@ -35,8 +35,8 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Converters::KeyValuePairConverter);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11830))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12035))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11728))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11933))
 // CS Name: ::Newtonsoft.Json.Converters::KeyValuePairConverter*
 class CORDL_TYPE KeyValuePairConverter : public ::Newtonsoft::Json::JsonConverter {
 public:
@@ -50,21 +50,21 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::System::Type*, ::Newtonsoft::Json::Utilities::ReflectionObject*>* getStaticF_ReflectionObjectPerType();
 
-  /// @brief Method InitializeReflectionObject, addr 0x26b40ac, size 0x280, virtual false, abstract: false, final false
+  /// @brief Method InitializeReflectionObject, addr 0x26d6268, size 0x280, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Utilities::ReflectionObject* InitializeReflectionObject(::System::Type* t);
 
-  /// @brief Method WriteJson, addr 0x26b432c, size 0x240, virtual true, abstract: false, final false
+  /// @brief Method WriteJson, addr 0x26d64e8, size 0x240, virtual true, abstract: false, final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method ReadJson, addr 0x26b456c, size 0x37c, virtual true, abstract: false, final false
+  /// @brief Method ReadJson, addr 0x26d6728, size 0x37c, virtual true, abstract: false, final false
   inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method CanConvert, addr 0x26b48e8, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method CanConvert, addr 0x26d6aa4, size 0x10c, virtual true, abstract: false, final false
   inline bool CanConvert(::System::Type* objectType);
 
   static inline ::Newtonsoft::Json::Converters::KeyValuePairConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26b49f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d6bb0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "KeyValuePairConverter", modifiers: "&&", def_value: None }]

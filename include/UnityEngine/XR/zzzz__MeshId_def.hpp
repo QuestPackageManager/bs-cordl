@@ -23,7 +23,7 @@ MARK_VAL_T(::UnityEngine::XR::MeshId);
 namespace UnityEngine::XR {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15633))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15764))
 // CS Name: ::UnityEngine.XR::MeshId
 struct CORDL_TYPE MeshId {
 public:
@@ -41,16 +41,16 @@ public:
 
   static inline ::UnityEngine::XR::MeshId getStaticF_s_InvalidId();
 
-  /// @brief Method ToString, addr 0x2eb36a8, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2ece7ec, size 0x94, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method GetHashCode, addr 0x2eb373c, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2ece880, size 0x34, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Equals, addr 0x2eb3770, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2ece8b4, size 0x88, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x2eb37f8, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2ece93c, size 0x24, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::XR::MeshId other);
 
   // Ctor Parameters [CppParam { name: "m_SubId1", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "m_SubId2", ty: "uint64_t", modifiers: "", def_value: None }]

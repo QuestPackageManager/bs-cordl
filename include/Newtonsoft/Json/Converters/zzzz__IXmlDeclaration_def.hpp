@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Converters::IXmlDeclaration);
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12054))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11952))
 // CS Name: ::Newtonsoft.Json.Converters::IXmlDeclaration*
 class CORDL_TYPE IXmlDeclaration {
 public:

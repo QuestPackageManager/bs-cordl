@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::GlobalNamespace::PackLevelListHeaderTableCell);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(13664))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5433))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8995)), TypeDefinitionIndex(TypeDefinitionIndex(13617))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4736))
 // CS Name: ::PackLevelListHeaderTableCell*
 class CORDL_TYPE PackLevelListHeaderTableCell : public ::HMUI::TableCell {
 public:
@@ -90,24 +90,24 @@ public:
 
   constexpr void __cordl_internal_set__cancellationTokenSource(::System::Threading::CancellationTokenSource* value);
 
-  /// @brief Method set_text, addr 0x227c2ec, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x23d7ba4, size 0x24, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
-  /// @brief Method get_text, addr 0x227c310, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x23d7bc8, size 0x24, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method SelectionDidChange, addr 0x227c334, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SelectionDidChange, addr 0x23d7bec, size 0x4, virtual true, abstract: false, final false
   inline void SelectionDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
 
-  /// @brief Method HighlightDidChange, addr 0x227c3c0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method HighlightDidChange, addr 0x23d7c78, size 0x4, virtual true, abstract: false, final false
   inline void HighlightDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
 
-  /// @brief Method RefreshVisuals, addr 0x227c338, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method RefreshVisuals, addr 0x23d7bf0, size 0x88, virtual false, abstract: false, final false
   inline void RefreshVisuals();
 
   static inline ::GlobalNamespace::PackLevelListHeaderTableCell* New_ctor();
 
-  /// @brief Method .ctor, addr 0x227c3c4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d7c7c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PackLevelListHeaderTableCell", modifiers: "&&", def_value: None }]

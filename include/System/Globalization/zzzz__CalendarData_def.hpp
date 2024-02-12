@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::System::Globalization::CalendarData);
 namespace System::Globalization {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3697))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3695))
 // CS Name: ::System.Globalization::CalendarData*
 class CORDL_TYPE CalendarData : public ::System::Object {
 public:
@@ -217,39 +217,39 @@ public:
 
   static inline ::System::Globalization::CalendarData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x255ea1c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2581664, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Globalization::CalendarData* New_ctor(::StringW localeName, int32_t calendarId, bool bUseUserOverrides);
 
-  /// @brief Method .ctor, addr 0x255ff58, size 0x518, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2582ba0, size 0x518, virtual false, abstract: false, final false
   inline void _ctor(::StringW localeName, int32_t calendarId, bool bUseUserOverrides);
 
-  /// @brief Method InitializeEraNames, addr 0x2560534, size 0x3bc, virtual false, abstract: false, final false
+  /// @brief Method InitializeEraNames, addr 0x258317c, size 0x3bc, virtual false, abstract: false, final false
   inline void InitializeEraNames(::StringW localeName, int32_t calendarId);
 
-  /// @brief Method GetJapaneseEraNames, addr 0x2560cd8, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetJapaneseEraNames, addr 0x2583920, size 0xec, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> GetJapaneseEraNames();
 
-  /// @brief Method GetJapaneseEnglishEraNames, addr 0x2560bec, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetJapaneseEnglishEraNames, addr 0x2583834, size 0xec, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> GetJapaneseEnglishEraNames();
 
-  /// @brief Method InitializeAbbreviatedEraNames, addr 0x25608f0, size 0x2fc, virtual false, abstract: false, final false
+  /// @brief Method InitializeAbbreviatedEraNames, addr 0x2583538, size 0x2fc, virtual false, abstract: false, final false
   inline void InitializeAbbreviatedEraNames(::StringW localeName, int32_t calendarId);
 
-  /// @brief Method GetCalendarData, addr 0x255e320, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetCalendarData, addr 0x2580f68, size 0xa4, virtual false, abstract: false, final false
   static inline ::System::Globalization::CalendarData* GetCalendarData(int32_t calendarId);
 
-  /// @brief Method CalendarIdToCultureName, addr 0x2560fec, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method CalendarIdToCultureName, addr 0x2583c34, size 0xcc, virtual false, abstract: false, final false
   static inline ::StringW CalendarIdToCultureName(int32_t calendarId);
 
-  /// @brief Method nativeGetTwoDigitYearMax, addr 0x255ea14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method nativeGetTwoDigitYearMax, addr 0x258165c, size 0x8, virtual false, abstract: false, final false
   static inline int32_t nativeGetTwoDigitYearMax(int32_t calID);
 
-  /// @brief Method nativeGetCalendarData, addr 0x2560470, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method nativeGetCalendarData, addr 0x25830b8, size 0xbc, virtual false, abstract: false, final false
   static inline bool nativeGetCalendarData(::System::Globalization::CalendarData* data, ::StringW localeName, int32_t calendarId);
 
-  /// @brief Method fill_calendar_data, addr 0x25611d0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method fill_calendar_data, addr 0x2583e18, size 0x4, virtual false, abstract: false, final false
   inline bool fill_calendar_data(::StringW localeName, int32_t datetimeIndex);
 
   // Ctor Parameters [CppParam { name: "", ty: "CalendarData", modifiers: "&&", def_value: None }]

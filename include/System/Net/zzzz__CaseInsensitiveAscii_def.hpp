@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::System::Net::CaseInsensitiveAscii);
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9092))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7102))
 // CS Name: ::System.Net::CaseInsensitiveAscii*
 class CORDL_TYPE CaseInsensitiveAscii : public ::System::Object {
 public:
@@ -58,21 +58,21 @@ public:
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_AsciiToLower();
 
-  /// @brief Method GetHashCode, addr 0x29a26ec, size 0x118, virtual true, abstract: false, final true
+  /// @brief Method GetHashCode, addr 0x29a7190, size 0x118, virtual true, abstract: false, final true
   inline int32_t GetHashCode(::System::Object* myObject);
 
-  /// @brief Method Compare, addr 0x29a2804, size 0x170, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x29a72a8, size 0x170, virtual true, abstract: false, final true
   inline int32_t Compare(::System::Object* firstObject, ::System::Object* secondObject);
 
-  /// @brief Method FastGetHashCode, addr 0x29a2974, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method FastGetHashCode, addr 0x29a7418, size 0xf0, virtual false, abstract: false, final false
   inline int32_t FastGetHashCode(::StringW myString);
 
-  /// @brief Method Equals, addr 0x29a2a64, size 0x178, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x29a7508, size 0x178, virtual true, abstract: false, final true
   inline bool Equals(::System::Object* firstObject, ::System::Object* secondObject);
 
   static inline ::System::Net::CaseInsensitiveAscii* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29a2bdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29a7680, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CaseInsensitiveAscii", modifiers: "&&", def_value: None }]

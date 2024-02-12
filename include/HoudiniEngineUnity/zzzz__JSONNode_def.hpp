@@ -138,7 +138,7 @@ MARK_VAL_T(::HoudiniEngineUnity::__JSONNode__ValueEnumerator);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9862))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9654))
 // CS Name: ::JSONNode::Enumerator::Type
 struct CORDL_TYPE __JSONNode__Enumerator__Type {
 public:
@@ -191,8 +191,8 @@ static_assert(offsetof(::GlobalNamespace::__JSONNode__Enumerator__Type, value__)
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9881))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9869))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9673))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9661))
 // CS Name: ::HoudiniEngineUnity::JSONNode*
 class CORDL_TYPE JSONNode : public ::System::Object {
 public:
@@ -302,76 +302,76 @@ public:
   /// @brief Method get_Tag, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::HoudiniEngineUnity::JSONNodeType get_Tag();
 
-  /// @brief Method get_Item, addr 0x21d3fcc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Item, addr 0x22698b4, size 0x8, virtual true, abstract: false, final false
   inline ::HoudiniEngineUnity::JSONNode* get_Item(int32_t aIndex);
 
-  /// @brief Method set_Item, addr 0x21d3fd4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method set_Item, addr 0x22698bc, size 0x4, virtual true, abstract: false, final false
   inline void set_Item(int32_t aIndex, ::HoudiniEngineUnity::JSONNode* value);
 
-  /// @brief Method get_Item, addr 0x21d3fd8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Item, addr 0x22698c0, size 0x8, virtual true, abstract: false, final false
   inline ::HoudiniEngineUnity::JSONNode* get_Item(::StringW aKey);
 
-  /// @brief Method set_Item, addr 0x21d3fe0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method set_Item, addr 0x22698c8, size 0x4, virtual true, abstract: false, final false
   inline void set_Item(::StringW aKey, ::HoudiniEngineUnity::JSONNode* value);
 
-  /// @brief Method get_Value, addr 0x21d3fe4, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x22698cc, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method set_Value, addr 0x21d4024, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method set_Value, addr 0x226990c, size 0x4, virtual true, abstract: false, final false
   inline void set_Value(::StringW value);
 
-  /// @brief Method get_Count, addr 0x21d4028, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Count, addr 0x2269910, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_IsNumber, addr 0x21d4030, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsNumber, addr 0x2269918, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsNumber();
 
-  /// @brief Method get_IsString, addr 0x21d4038, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsString, addr 0x2269920, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsString();
 
-  /// @brief Method get_IsBoolean, addr 0x21d4040, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsBoolean, addr 0x2269928, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsBoolean();
 
-  /// @brief Method get_IsNull, addr 0x21d4048, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsNull, addr 0x2269930, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsNull();
 
-  /// @brief Method get_IsArray, addr 0x21d4050, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsArray, addr 0x2269938, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsArray();
 
-  /// @brief Method get_IsObject, addr 0x21d4058, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsObject, addr 0x2269940, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsObject();
 
-  /// @brief Method get_Inline, addr 0x21d4060, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Inline, addr 0x2269948, size 0x8, virtual true, abstract: false, final false
   inline bool get_Inline();
 
-  /// @brief Method set_Inline, addr 0x21d4068, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method set_Inline, addr 0x2269950, size 0x4, virtual true, abstract: false, final false
   inline void set_Inline(bool value);
 
-  /// @brief Method Add, addr 0x21d406c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x2269954, size 0x4, virtual true, abstract: false, final false
   inline void Add(::StringW aKey, ::HoudiniEngineUnity::JSONNode* aItem);
 
-  /// @brief Method Add, addr 0x21d4070, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x2269958, size 0x64, virtual true, abstract: false, final false
   inline void Add(::HoudiniEngineUnity::JSONNode* aItem);
 
-  /// @brief Method Remove, addr 0x21d40d4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Remove, addr 0x22699bc, size 0x8, virtual true, abstract: false, final false
   inline ::HoudiniEngineUnity::JSONNode* Remove(::StringW aKey);
 
-  /// @brief Method Remove, addr 0x21d40dc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Remove, addr 0x22699c4, size 0x8, virtual true, abstract: false, final false
   inline ::HoudiniEngineUnity::JSONNode* Remove(int32_t aIndex);
 
-  /// @brief Method Remove, addr 0x21d40e4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Remove, addr 0x22699cc, size 0x8, virtual true, abstract: false, final false
   inline ::HoudiniEngineUnity::JSONNode* Remove(::HoudiniEngineUnity::JSONNode* aNode);
 
-  /// @brief Method get_Children, addr 0x21d40ec, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method get_Children, addr 0x22699d4, size 0x70, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::HoudiniEngineUnity::JSONNode*>* get_Children();
 
-  /// @brief Method get_DeepChildren, addr 0x21d4190, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_DeepChildren, addr 0x2269a78, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::HoudiniEngineUnity::JSONNode*>* get_DeepChildren();
 
-  /// @brief Method ToString, addr 0x21d423c, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2269b24, size 0x8c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x21d42c8, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2269bb0, size 0x98, virtual true, abstract: false, final false
   inline ::StringW ToString(int32_t aIndent);
 
   /// @brief Method WriteToStringBuilder, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -380,222 +380,222 @@ public:
   /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::HoudiniEngineUnity::__JSONNode__Enumerator GetEnumerator();
 
-  /// @brief Method get_Linq, addr 0x21d4360, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_Linq, addr 0x2269c48, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::HoudiniEngineUnity::JSONNode*>>* get_Linq();
 
-  /// @brief Method get_Keys, addr 0x21d4440, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_Keys, addr 0x2269d28, size 0x3c, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::__JSONNode__KeyEnumerator get_Keys();
 
-  /// @brief Method get_Values, addr 0x21d447c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_Values, addr 0x2269d64, size 0x3c, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::__JSONNode__ValueEnumerator get_Values();
 
-  /// @brief Method get_AsDouble, addr 0x21d44b8, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method get_AsDouble, addr 0x2269da0, size 0xa4, virtual true, abstract: false, final false
   inline double_t get_AsDouble();
 
-  /// @brief Method set_AsDouble, addr 0x21d455c, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method set_AsDouble, addr 0x2269e44, size 0x88, virtual true, abstract: false, final false
   inline void set_AsDouble(double_t value);
 
-  /// @brief Method get_AsInt, addr 0x21d45e4, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method get_AsInt, addr 0x2269ecc, size 0x34, virtual true, abstract: false, final false
   inline int32_t get_AsInt();
 
-  /// @brief Method set_AsInt, addr 0x21d4618, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method set_AsInt, addr 0x2269f00, size 0x18, virtual true, abstract: false, final false
   inline void set_AsInt(int32_t value);
 
-  /// @brief Method get_AsFloat, addr 0x21d4630, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_AsFloat, addr 0x2269f18, size 0x20, virtual true, abstract: false, final false
   inline float_t get_AsFloat();
 
-  /// @brief Method set_AsFloat, addr 0x21d4650, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method set_AsFloat, addr 0x2269f38, size 0x14, virtual true, abstract: false, final false
   inline void set_AsFloat(float_t value);
 
-  /// @brief Method get_AsBool, addr 0x21d4664, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method get_AsBool, addr 0x2269f4c, size 0xb8, virtual true, abstract: false, final false
   inline bool get_AsBool();
 
-  /// @brief Method set_AsBool, addr 0x21d471c, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method set_AsBool, addr 0x226a004, size 0x78, virtual true, abstract: false, final false
   inline void set_AsBool(bool value);
 
-  /// @brief Method get_AsLong, addr 0x21d4794, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method get_AsLong, addr 0x226a07c, size 0x34, virtual true, abstract: false, final false
   inline int64_t get_AsLong();
 
-  /// @brief Method set_AsLong, addr 0x21d47c8, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method set_AsLong, addr 0x226a0b0, size 0x3c, virtual true, abstract: false, final false
   inline void set_AsLong(int64_t value);
 
-  /// @brief Method get_AsArray, addr 0x21d4804, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method get_AsArray, addr 0x226a0ec, size 0x78, virtual true, abstract: false, final false
   inline ::HoudiniEngineUnity::JSONArray* get_AsArray();
 
-  /// @brief Method get_AsObject, addr 0x21d487c, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method get_AsObject, addr 0x226a164, size 0x78, virtual true, abstract: false, final false
   inline ::HoudiniEngineUnity::JSONObject* get_AsObject();
 
-  /// @brief Method op_Implicit, addr 0x21d48f4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x226a1dc, size 0x64, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::JSONNode* op_Implicit___HoudiniEngineUnity__JSONNode_(::StringW s);
 
-  /// @brief Method op_Implicit, addr 0x21d268c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2267f74, size 0x3c, virtual false, abstract: false, final false
   static inline ::StringW op_Implicit___StringW(::HoudiniEngineUnity::JSONNode* d);
 
-  /// @brief Method op_Implicit, addr 0x21d4b00, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x226a3e8, size 0x6c, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::JSONNode* op_Implicit___HoudiniEngineUnity__JSONNode_(double_t n);
 
-  /// @brief Method op_Implicit, addr 0x21d4b94, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x226a47c, size 0x40, virtual false, abstract: false, final false
   static inline double_t op_Implicit_double_t(::HoudiniEngineUnity::JSONNode* d);
 
-  /// @brief Method op_Implicit, addr 0x21d4bd4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x226a4bc, size 0x70, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::JSONNode* op_Implicit___HoudiniEngineUnity__JSONNode_(float_t n);
 
-  /// @brief Method op_Implicit, addr 0x21d4c44, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x226a52c, size 0x40, virtual false, abstract: false, final false
   static inline float_t op_Implicit_float_t(::HoudiniEngineUnity::JSONNode* d);
 
-  /// @brief Method op_Implicit, addr 0x21d4c84, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x226a56c, size 0x70, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::JSONNode* op_Implicit___HoudiniEngineUnity__JSONNode_(int32_t n);
 
-  /// @brief Method op_Implicit, addr 0x21d4cf4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x226a5dc, size 0x40, virtual false, abstract: false, final false
   static inline int32_t op_Implicit_int32_t(::HoudiniEngineUnity::JSONNode* d);
 
-  /// @brief Method op_Implicit, addr 0x21d4d34, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x226a61c, size 0xe0, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::JSONNode* op_Implicit___HoudiniEngineUnity__JSONNode_(int64_t n);
 
-  /// @brief Method op_Implicit, addr 0x21d4e14, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x226a6fc, size 0x40, virtual false, abstract: false, final false
   static inline int64_t op_Implicit_int64_t(::HoudiniEngineUnity::JSONNode* d);
 
-  /// @brief Method op_Implicit, addr 0x21d4e54, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x226a73c, size 0x68, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::JSONNode* op_Implicit___HoudiniEngineUnity__JSONNode_(bool b);
 
-  /// @brief Method op_Implicit, addr 0x21d4ee4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x226a7cc, size 0x40, virtual false, abstract: false, final false
   static inline bool op_Implicit_bool(::HoudiniEngineUnity::JSONNode* d);
 
-  /// @brief Method op_Implicit, addr 0x21d4f24, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x226a80c, size 0x3c, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::JSONNode* op_Implicit___HoudiniEngineUnity__JSONNode_(::System::Collections::Generic::KeyValuePair_2<::StringW, ::HoudiniEngineUnity::JSONNode*> aKeyValue);
 
-  /// @brief Method op_Equality, addr 0x21d4980, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x226a268, size 0x180, virtual false, abstract: false, final false
   static inline bool op_Equality(::HoudiniEngineUnity::JSONNode* a, ::System::Object* b);
 
-  /// @brief Method op_Inequality, addr 0x21d2674, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x2267f5c, size 0x18, virtual false, abstract: false, final false
   static inline bool op_Inequality(::HoudiniEngineUnity::JSONNode* a, ::System::Object* b);
 
-  /// @brief Method Equals, addr 0x21d4f60, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x226a848, size 0xc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x21d4f6c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x226a854, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method get_EscapeBuilder, addr 0x21d4f74, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_EscapeBuilder, addr 0x226a85c, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::Text::StringBuilder* get_EscapeBuilder();
 
-  /// @brief Method Escape, addr 0x21d5010, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method Escape, addr 0x226a8f8, size 0x2c4, virtual false, abstract: false, final false
   static inline ::StringW Escape(::StringW aText);
 
-  /// @brief Method ParseElement, addr 0x21d52d4, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method ParseElement, addr 0x226abbc, size 0x170, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::JSONNode* ParseElement(::StringW token, bool quoted);
 
-  /// @brief Method Parse, addr 0x21d54d8, size 0x5fc, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x226adc0, size 0x5fc, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::JSONNode* Parse(::StringW aJSON);
 
-  /// @brief Method GetContainer, addr 0x21d5bcc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetContainer, addr 0x226b4b4, size 0x8c, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::JSONNode* GetContainer(::HoudiniEngineUnity::JSONContainerType aType);
 
-  /// @brief Method op_Implicit, addr 0x21d5c58, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x226b540, size 0x9c, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::JSONNode* op_Implicit___HoudiniEngineUnity__JSONNode_(::UnityEngine::Vector2 aVec);
 
-  /// @brief Method op_Implicit, addr 0x21d5e24, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x226b70c, size 0xc4, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::JSONNode* op_Implicit___HoudiniEngineUnity__JSONNode_(::UnityEngine::Vector3 aVec);
 
-  /// @brief Method op_Implicit, addr 0x21d6088, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x226b970, size 0x84, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::JSONNode* op_Implicit___HoudiniEngineUnity__JSONNode_(::UnityEngine::Vector4 aVec);
 
-  /// @brief Method op_Implicit, addr 0x21d635c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x226bc44, size 0x84, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::JSONNode* op_Implicit___HoudiniEngineUnity__JSONNode_(::UnityEngine::Quaternion aRot);
 
-  /// @brief Method op_Implicit, addr 0x21d6630, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x226bf18, size 0x84, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::JSONNode* op_Implicit___HoudiniEngineUnity__JSONNode_(::UnityEngine::Rect aRect);
 
-  /// @brief Method op_Implicit, addr 0x21d6960, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x226c248, size 0x5c, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::JSONNode* op_Implicit___HoudiniEngineUnity__JSONNode_(::UnityEngine::RectOffset* aRect);
 
-  /// @brief Method op_Implicit, addr 0x21d6c88, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x226c570, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 op_Implicit___UnityEngine__Vector2(::HoudiniEngineUnity::JSONNode* aNode);
 
-  /// @brief Method op_Implicit, addr 0x21d6ce8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x226c5d0, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 op_Implicit___UnityEngine__Vector3(::HoudiniEngineUnity::JSONNode* aNode);
 
-  /// @brief Method op_Implicit, addr 0x21d6d4c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x226c634, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector4 op_Implicit___UnityEngine__Vector4(::HoudiniEngineUnity::JSONNode* aNode);
 
-  /// @brief Method op_Implicit, addr 0x21d6db0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x226c698, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion op_Implicit___UnityEngine__Quaternion(::HoudiniEngineUnity::JSONNode* aNode);
 
-  /// @brief Method op_Implicit, addr 0x21d6e14, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x226c6fc, size 0x20, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rect op_Implicit___UnityEngine__Rect(::HoudiniEngineUnity::JSONNode* aNode);
 
-  /// @brief Method op_Implicit, addr 0x21d6e48, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x226c730, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::RectOffset* op_Implicit___UnityEngine__RectOffset_(::HoudiniEngineUnity::JSONNode* aNode);
 
-  /// @brief Method ReadVector2, addr 0x21d6ebc, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method ReadVector2, addr 0x226c7a4, size 0x140, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 ReadVector2(::UnityEngine::Vector2 aDefault);
 
-  /// @brief Method ReadVector2, addr 0x21d6ffc, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method ReadVector2, addr 0x226c8e4, size 0xd8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 ReadVector2(::StringW aXName, ::StringW aYName);
 
-  /// @brief Method ReadVector2, addr 0x21d6c98, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ReadVector2, addr 0x226c580, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 ReadVector2();
 
-  /// @brief Method WriteVector2, addr 0x21d5cf4, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method WriteVector2, addr 0x226b5dc, size 0x130, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::JSONNode* WriteVector2(::UnityEngine::Vector2 aVec, ::StringW aXName, ::StringW aYName);
 
-  /// @brief Method ReadVector3, addr 0x21d70d4, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method ReadVector3, addr 0x226c9bc, size 0x1bc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 ReadVector3(::UnityEngine::Vector3 aDefault);
 
-  /// @brief Method ReadVector3, addr 0x21d7290, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method ReadVector3, addr 0x226cb78, size 0x118, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 ReadVector3(::StringW aXName, ::StringW aYName, ::StringW aZName);
 
-  /// @brief Method ReadVector3, addr 0x21d6cf8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ReadVector3, addr 0x226c5e0, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 ReadVector3();
 
-  /// @brief Method WriteVector3, addr 0x21d5ee8, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method WriteVector3, addr 0x226b7d0, size 0x1a0, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::JSONNode* WriteVector3(::UnityEngine::Vector3 aVec, ::StringW aXName, ::StringW aYName, ::StringW aZName);
 
-  /// @brief Method ReadVector4, addr 0x21d73a8, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method ReadVector4, addr 0x226cc90, size 0x230, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 ReadVector4(::UnityEngine::Vector4 aDefault);
 
-  /// @brief Method ReadVector4, addr 0x21d6d5c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ReadVector4, addr 0x226c644, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 ReadVector4();
 
-  /// @brief Method WriteVector4, addr 0x21d610c, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method WriteVector4, addr 0x226b9f4, size 0x250, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::JSONNode* WriteVector4(::UnityEngine::Vector4 aVec);
 
-  /// @brief Method ReadQuaternion, addr 0x21d75d8, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method ReadQuaternion, addr 0x226cec0, size 0x230, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion ReadQuaternion(::UnityEngine::Quaternion aDefault);
 
-  /// @brief Method ReadQuaternion, addr 0x21d6dc0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ReadQuaternion, addr 0x226c6a8, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion ReadQuaternion();
 
-  /// @brief Method WriteQuaternion, addr 0x21d63e0, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method WriteQuaternion, addr 0x226bcc8, size 0x250, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::JSONNode* WriteQuaternion(::UnityEngine::Quaternion aRot);
 
-  /// @brief Method ReadRect, addr 0x21d7808, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method ReadRect, addr 0x226d0f0, size 0x258, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect ReadRect(::UnityEngine::Rect aDefault);
 
-  /// @brief Method ReadRect, addr 0x21d6e34, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ReadRect, addr 0x226c71c, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect ReadRect();
 
-  /// @brief Method WriteRect, addr 0x21d66b4, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method WriteRect, addr 0x226bf9c, size 0x2ac, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::JSONNode* WriteRect(::UnityEngine::Rect aRect);
 
-  /// @brief Method ReadRectOffset, addr 0x21d7a60, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method ReadRectOffset, addr 0x226d348, size 0x29c, virtual false, abstract: false, final false
   inline ::UnityEngine::RectOffset* ReadRectOffset(::UnityEngine::RectOffset* aDefault);
 
-  /// @brief Method ReadRectOffset, addr 0x21d6e58, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ReadRectOffset, addr 0x226c740, size 0x64, virtual false, abstract: false, final false
   inline ::UnityEngine::RectOffset* ReadRectOffset();
 
-  /// @brief Method WriteRectOffset, addr 0x21d69bc, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method WriteRectOffset, addr 0x226c2a4, size 0x2cc, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::JSONNode* WriteRectOffset(::UnityEngine::RectOffset* aRect);
 
-  /// @brief Method ReadMatrix, addr 0x21d7cfc, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method ReadMatrix, addr 0x226d5e4, size 0xe4, virtual false, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 ReadMatrix();
 
-  /// @brief Method WriteMatrix, addr 0x21d7de0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method WriteMatrix, addr 0x226d6c8, size 0xac, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::JSONNode* WriteMatrix(::UnityEngine::Matrix4x4 aMatrix);
 
   static inline ::HoudiniEngineUnity::JSONNode* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21d7e8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x226d774, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "JSONNode", modifiers: "&&", def_value: None }]
@@ -622,9 +622,9 @@ static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::JSONNode, 0x
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3819)), TypeDefinitionIndex(TypeDefinitionIndex(3842)), TypeDefinitionIndex(TypeDefinitionIndex(9862)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9869)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3819), inst: 1428 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3842), inst: 1690 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(9863)) CS Name: ::JSONNode::Enumerator
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3818)), TypeDefinitionIndex(TypeDefinitionIndex(3841)), TypeDefinitionIndex(TypeDefinitionIndex(9654)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9661)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3818), inst: 1400 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3841), inst: 1648 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(9655)) CS Name: ::JSONNode::Enumerator
 struct CORDL_TYPE __JSONNode__Enumerator {
 public:
   // Declarations
@@ -634,19 +634,19 @@ public:
 
   __declspec(property(get = get_Current))::System::Collections::Generic::KeyValuePair_2<::StringW, ::HoudiniEngineUnity::JSONNode*> Current;
 
-  /// @brief Method get_IsValid, addr 0x21d7e94, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsValid, addr 0x226d77c, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsValid();
 
-  /// @brief Method .ctor, addr 0x21d7ea4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x226d78c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::__List_1__Enumerator<::HoudiniEngineUnity::JSONNode*> aArrayEnum);
 
-  /// @brief Method .ctor, addr 0x21d7ed0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x226d7b8, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::__Dictionary_2__Enumerator<::StringW, ::HoudiniEngineUnity::JSONNode*> aDictEnum);
 
-  /// @brief Method get_Current, addr 0x21d7ef4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method get_Current, addr 0x226d7dc, size 0xcc, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::KeyValuePair_2<::StringW, ::HoudiniEngineUnity::JSONNode*> get_Current();
 
-  /// @brief Method MoveNext, addr 0x21d7fc0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method MoveNext, addr 0x226d8a8, size 0x94, virtual false, abstract: false, final false
   inline bool MoveNext();
 
   // Ctor Parameters [CppParam { name: "type", ty: "::GlobalNamespace::__JSONNode__Enumerator__Type", modifiers: "", def_value: None }, CppParam { name: "m_Object", ty:
@@ -688,30 +688,30 @@ static_assert(offsetof(::HoudiniEngineUnity::__JSONNode__Enumerator, m_Array) ==
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9863))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9864))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9655))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9656))
 // CS Name: ::JSONNode::ValueEnumerator
 struct CORDL_TYPE __JSONNode__ValueEnumerator {
 public:
   // Declarations
   __declspec(property(get = get_Current))::HoudiniEngineUnity::JSONNode* Current;
 
-  /// @brief Method .ctor, addr 0x21d8054, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x226d93c, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::__List_1__Enumerator<::HoudiniEngineUnity::JSONNode*> aArrayEnum);
 
-  /// @brief Method .ctor, addr 0x21d8094, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x226d97c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::__Dictionary_2__Enumerator<::StringW, ::HoudiniEngineUnity::JSONNode*> aDictEnum);
 
-  /// @brief Method .ctor, addr 0x21d8104, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x226d9ec, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::HoudiniEngineUnity::__JSONNode__Enumerator aEnumerator);
 
-  /// @brief Method get_Current, addr 0x21d8118, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_Current, addr 0x226da00, size 0x44, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::JSONNode* get_Current();
 
-  /// @brief Method MoveNext, addr 0x21d815c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method MoveNext, addr 0x226da44, size 0x4, virtual false, abstract: false, final false
   inline bool MoveNext();
 
-  /// @brief Method GetEnumerator, addr 0x21d8160, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x226da48, size 0x10, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::__JSONNode__ValueEnumerator GetEnumerator();
 
   // Ctor Parameters [CppParam { name: "m_Enumerator", ty: "::HoudiniEngineUnity::__JSONNode__Enumerator", modifiers: "", def_value: None }]
@@ -739,30 +739,30 @@ static_assert(offsetof(::HoudiniEngineUnity::__JSONNode__ValueEnumerator, m_Enum
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9863))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9865))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9655))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9657))
 // CS Name: ::JSONNode::KeyEnumerator
 struct CORDL_TYPE __JSONNode__KeyEnumerator {
 public:
   // Declarations
   __declspec(property(get = get_Current))::StringW Current;
 
-  /// @brief Method .ctor, addr 0x21d8170, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x226da58, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::__List_1__Enumerator<::HoudiniEngineUnity::JSONNode*> aArrayEnum);
 
-  /// @brief Method .ctor, addr 0x21d81b0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x226da98, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::__Dictionary_2__Enumerator<::StringW, ::HoudiniEngineUnity::JSONNode*> aDictEnum);
 
-  /// @brief Method .ctor, addr 0x21d8220, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x226db08, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::HoudiniEngineUnity::__JSONNode__Enumerator aEnumerator);
 
-  /// @brief Method get_Current, addr 0x21d8234, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_Current, addr 0x226db1c, size 0x3c, virtual false, abstract: false, final false
   inline ::StringW get_Current();
 
-  /// @brief Method MoveNext, addr 0x21d8270, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method MoveNext, addr 0x226db58, size 0x4, virtual false, abstract: false, final false
   inline bool MoveNext();
 
-  /// @brief Method GetEnumerator, addr 0x21d8274, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x226db5c, size 0x10, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::__JSONNode__KeyEnumerator GetEnumerator();
 
   // Ctor Parameters [CppParam { name: "m_Enumerator", ty: "::HoudiniEngineUnity::__JSONNode__Enumerator", modifiers: "", def_value: None }]
@@ -790,8 +790,8 @@ static_assert(offsetof(::HoudiniEngineUnity::__JSONNode__KeyEnumerator, m_Enumer
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9863))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9866))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9655))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9658))
 // CS Name: ::JSONNode::LinqEnumerator*
 class CORDL_TYPE __JSONNode__LinqEnumerator : public ::System::Object {
 public:
@@ -852,28 +852,28 @@ public:
 
   static inline ::HoudiniEngineUnity::__JSONNode__LinqEnumerator* New_ctor(::HoudiniEngineUnity::JSONNode* aNode);
 
-  /// @brief Method .ctor, addr 0x21d43c0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2269ca8, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::HoudiniEngineUnity::JSONNode* aNode);
 
-  /// @brief Method get_Current, addr 0x21d8284, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x226db6c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::KeyValuePair_2<::StringW, ::HoudiniEngineUnity::JSONNode*> get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x21d828c, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x226db74, size 0x64, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method MoveNext, addr 0x21d82f0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x226dbd8, size 0x8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method Dispose, addr 0x21d82f8, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x226dbe0, size 0x14, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetEnumerator, addr 0x21d830c, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x226dbf4, size 0x64, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::HoudiniEngineUnity::JSONNode*>>* GetEnumerator();
 
-  /// @brief Method Reset, addr 0x21d8370, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x226dc58, size 0x68, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x21d83d8, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x226dcc0, size 0x64, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   // Ctor Parameters [CppParam { name: "", ty: "__JSONNode__LinqEnumerator", modifiers: "&&", def_value: None }]
@@ -911,7 +911,7 @@ static_assert(offsetof(::HoudiniEngineUnity::__JSONNode__LinqEnumerator, ___m_En
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9867))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9659))
 // CS Name: ::JSONNode::<get_Children>d__40*
 class CORDL_TYPE __JSONNode___get_Children_d__40 : public ::System::Object {
 public:
@@ -981,28 +981,28 @@ public:
 
   static inline ::HoudiniEngineUnity::__JSONNode___get_Children_d__40* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor, addr 0x21d415c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2269a44, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x21d843c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x226dd24, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext, addr 0x21d8440, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x226dd28, size 0x18, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<HoudiniEngineUnity.JSONNode>.get_Current, addr 0x21d8458, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<HoudiniEngineUnity.JSONNode>.get_Current, addr 0x226dd40, size 0x8, virtual true, abstract: false, final true
   inline ::HoudiniEngineUnity::JSONNode* System_Collections_Generic_IEnumerator_HoudiniEngineUnity_JSONNode__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x21d8460, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x226dd48, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x21d84a0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x226dd88, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.Collections.Generic.IEnumerable<HoudiniEngineUnity.JSONNode>.GetEnumerator, addr 0x21d84a8, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<HoudiniEngineUnity.JSONNode>.GetEnumerator, addr 0x226dd90, size 0x98, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::HoudiniEngineUnity::JSONNode*>* System_Collections_Generic_IEnumerable_HoudiniEngineUnity_JSONNode__GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x21d8540, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x226de28, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   // Ctor Parameters [CppParam { name: "", ty: "__JSONNode___get_Children_d__40", modifiers: "&&", def_value: None }]
@@ -1045,7 +1045,7 @@ static_assert(offsetof(::HoudiniEngineUnity::__JSONNode___get_Children_d__40, __
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9868))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9660))
 // CS Name: ::JSONNode::<get_DeepChildren>d__42*
 class CORDL_TYPE __JSONNode___get_DeepChildren_d__42 : public ::System::Object {
 public:
@@ -1142,34 +1142,34 @@ public:
 
   static inline ::HoudiniEngineUnity::__JSONNode___get_DeepChildren_d__42* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor, addr 0x21d4208, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2269af0, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x21d8544, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x226de2c, size 0xb8, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext, addr 0x21d85fc, size 0x434, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x226dee4, size 0x434, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method <>m__Finally1, addr 0x21d8ae0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x226e3c8, size 0xb0, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method <>m__Finally2, addr 0x21d8a30, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally2, addr 0x226e318, size 0xb0, virtual false, abstract: false, final false
   inline void __m__Finally2();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<HoudiniEngineUnity.JSONNode>.get_Current, addr 0x21d8b90, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<HoudiniEngineUnity.JSONNode>.get_Current, addr 0x226e478, size 0x8, virtual true, abstract: false, final true
   inline ::HoudiniEngineUnity::JSONNode* System_Collections_Generic_IEnumerator_HoudiniEngineUnity_JSONNode__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x21d8b98, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x226e480, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x21d8bd8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x226e4c0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.Collections.Generic.IEnumerable<HoudiniEngineUnity.JSONNode>.GetEnumerator, addr 0x21d8be0, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<HoudiniEngineUnity.JSONNode>.GetEnumerator, addr 0x226e4c8, size 0xa4, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::HoudiniEngineUnity::JSONNode*>* System_Collections_Generic_IEnumerable_HoudiniEngineUnity_JSONNode__GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x21d8c84, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x226e56c, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   // Ctor Parameters [CppParam { name: "", ty: "__JSONNode___get_DeepChildren_d__42", modifiers: "&&", def_value: None }]

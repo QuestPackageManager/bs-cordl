@@ -282,10 +282,10 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::EC::__CustomNamedCurves__Curve25519Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0xeadbb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xed8a44, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0xeadbbc, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0xed8a4c, size 0x120, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   // Ctor Parameters [CppParam { name: "", ty: "__CustomNamedCurves__Curve25519Holder", modifiers: "&&", def_value: None }]
@@ -327,10 +327,10 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::EC::__CustomNamedCurves__SecP128R1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0xeadd40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xed8bd0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0xeadd48, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0xed8bd8, size 0x174, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   // Ctor Parameters [CppParam { name: "", ty: "__CustomNamedCurves__SecP128R1Holder", modifiers: "&&", def_value: None }]
@@ -372,10 +372,10 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::EC::__CustomNamedCurves__SecP160K1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0xeadf20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xed8db0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0xeadf28, size 0x434, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0xed8db8, size 0x434, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   // Ctor Parameters [CppParam { name: "", ty: "__CustomNamedCurves__SecP160K1Holder", modifiers: "&&", def_value: None }]
@@ -417,10 +417,10 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::EC::__CustomNamedCurves__SecP160R1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0xeae3c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xed9250, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0xeae3c8, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0xed9258, size 0x174, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   // Ctor Parameters [CppParam { name: "", ty: "__CustomNamedCurves__SecP160R1Holder", modifiers: "&&", def_value: None }]
@@ -462,10 +462,10 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::EC::__CustomNamedCurves__SecP160R2Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0xeae5a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xed9430, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0xeae5a8, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0xed9438, size 0x174, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   // Ctor Parameters [CppParam { name: "", ty: "__CustomNamedCurves__SecP160R2Holder", modifiers: "&&", def_value: None }]
@@ -507,10 +507,10 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::EC::__CustomNamedCurves__SecP192K1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0xeae780, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xed9610, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0xeae788, size 0x434, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0xed9618, size 0x434, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   // Ctor Parameters [CppParam { name: "", ty: "__CustomNamedCurves__SecP192K1Holder", modifiers: "&&", def_value: None }]
@@ -552,10 +552,10 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::EC::__CustomNamedCurves__SecP192R1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0xeaec20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xed9ab0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0xeaec28, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0xed9ab8, size 0x174, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   // Ctor Parameters [CppParam { name: "", ty: "__CustomNamedCurves__SecP192R1Holder", modifiers: "&&", def_value: None }]
@@ -597,10 +597,10 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::EC::__CustomNamedCurves__SecP224K1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0xeaee00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xed9c90, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0xeaee08, size 0x434, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0xed9c98, size 0x434, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   // Ctor Parameters [CppParam { name: "", ty: "__CustomNamedCurves__SecP224K1Holder", modifiers: "&&", def_value: None }]
@@ -642,10 +642,10 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::EC::__CustomNamedCurves__SecP224R1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0xeaf2a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeda130, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0xeaf2a8, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0xeda138, size 0x174, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   // Ctor Parameters [CppParam { name: "", ty: "__CustomNamedCurves__SecP224R1Holder", modifiers: "&&", def_value: None }]
@@ -687,10 +687,10 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::EC::__CustomNamedCurves__SecP256K1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0xeaf480, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeda310, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0xeaf488, size 0x434, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0xeda318, size 0x434, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   // Ctor Parameters [CppParam { name: "", ty: "__CustomNamedCurves__SecP256K1Holder", modifiers: "&&", def_value: None }]
@@ -732,10 +732,10 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::EC::__CustomNamedCurves__SecP256R1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0xeaf920, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeda7b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0xeaf928, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0xeda7b8, size 0x174, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   // Ctor Parameters [CppParam { name: "", ty: "__CustomNamedCurves__SecP256R1Holder", modifiers: "&&", def_value: None }]
@@ -777,10 +777,10 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::EC::__CustomNamedCurves__SecP384R1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0xeafb00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeda990, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0xeafb08, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0xeda998, size 0x174, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   // Ctor Parameters [CppParam { name: "", ty: "__CustomNamedCurves__SecP384R1Holder", modifiers: "&&", def_value: None }]
@@ -822,10 +822,10 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::EC::__CustomNamedCurves__SecP521R1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0xeafce0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xedab70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0xeafce8, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0xedab78, size 0x174, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   // Ctor Parameters [CppParam { name: "", ty: "__CustomNamedCurves__SecP521R1Holder", modifiers: "&&", def_value: None }]
@@ -867,10 +867,10 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::EC::__CustomNamedCurves__SecT113R1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0xeafec0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xedad50, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0xeafec8, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0xedad58, size 0x174, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   // Ctor Parameters [CppParam { name: "", ty: "__CustomNamedCurves__SecT113R1Holder", modifiers: "&&", def_value: None }]
@@ -912,10 +912,10 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::EC::__CustomNamedCurves__SecT113R2Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0xeb00a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xedaf30, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0xeb00a8, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0xedaf38, size 0x174, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   // Ctor Parameters [CppParam { name: "", ty: "__CustomNamedCurves__SecT113R2Holder", modifiers: "&&", def_value: None }]
@@ -957,10 +957,10 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::EC::__CustomNamedCurves__SecT131R1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0xeb0280, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xedb110, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0xeb0288, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0xedb118, size 0x174, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   // Ctor Parameters [CppParam { name: "", ty: "__CustomNamedCurves__SecT131R1Holder", modifiers: "&&", def_value: None }]
@@ -1002,10 +1002,10 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::EC::__CustomNamedCurves__SecT131R2Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0xeb0460, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xedb2f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0xeb0468, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0xedb2f8, size 0x174, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   // Ctor Parameters [CppParam { name: "", ty: "__CustomNamedCurves__SecT131R2Holder", modifiers: "&&", def_value: None }]
@@ -1047,10 +1047,10 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::EC::__CustomNamedCurves__SecT163K1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0xeb0640, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xedb4d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0xeb0648, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0xedb4d8, size 0x120, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   // Ctor Parameters [CppParam { name: "", ty: "__CustomNamedCurves__SecT163K1Holder", modifiers: "&&", def_value: None }]
@@ -1092,10 +1092,10 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::EC::__CustomNamedCurves__SecT163R1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0xeb07cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xedb65c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0xeb07d4, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0xedb664, size 0x174, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   // Ctor Parameters [CppParam { name: "", ty: "__CustomNamedCurves__SecT163R1Holder", modifiers: "&&", def_value: None }]
@@ -1137,10 +1137,10 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::EC::__CustomNamedCurves__SecT163R2Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0xeb09ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xedb83c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0xeb09b4, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0xedb844, size 0x174, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   // Ctor Parameters [CppParam { name: "", ty: "__CustomNamedCurves__SecT163R2Holder", modifiers: "&&", def_value: None }]
@@ -1182,10 +1182,10 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::EC::__CustomNamedCurves__SecT193R1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0xeb0b8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xedba1c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0xeb0b94, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0xedba24, size 0x174, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   // Ctor Parameters [CppParam { name: "", ty: "__CustomNamedCurves__SecT193R1Holder", modifiers: "&&", def_value: None }]
@@ -1227,10 +1227,10 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::EC::__CustomNamedCurves__SecT193R2Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0xeb0d6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xedbbfc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0xeb0d74, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0xedbc04, size 0x174, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   // Ctor Parameters [CppParam { name: "", ty: "__CustomNamedCurves__SecT193R2Holder", modifiers: "&&", def_value: None }]
@@ -1272,10 +1272,10 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::EC::__CustomNamedCurves__SecT233K1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0xeb0f4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xedbddc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0xeb0f54, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0xedbde4, size 0x120, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   // Ctor Parameters [CppParam { name: "", ty: "__CustomNamedCurves__SecT233K1Holder", modifiers: "&&", def_value: None }]
@@ -1317,10 +1317,10 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::EC::__CustomNamedCurves__SecT233R1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0xeb10d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xedbf68, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0xeb10e0, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0xedbf70, size 0x174, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   // Ctor Parameters [CppParam { name: "", ty: "__CustomNamedCurves__SecT233R1Holder", modifiers: "&&", def_value: None }]
@@ -1362,10 +1362,10 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::EC::__CustomNamedCurves__SecT239K1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0xeb12b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xedc148, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0xeb12c0, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0xedc150, size 0x120, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   // Ctor Parameters [CppParam { name: "", ty: "__CustomNamedCurves__SecT239K1Holder", modifiers: "&&", def_value: None }]
@@ -1407,10 +1407,10 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::EC::__CustomNamedCurves__SecT283K1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0xeb1444, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xedc2d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0xeb144c, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0xedc2dc, size 0x120, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   // Ctor Parameters [CppParam { name: "", ty: "__CustomNamedCurves__SecT283K1Holder", modifiers: "&&", def_value: None }]
@@ -1452,10 +1452,10 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::EC::__CustomNamedCurves__SecT283R1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0xeb15d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xedc460, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0xeb15d8, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0xedc468, size 0x174, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   // Ctor Parameters [CppParam { name: "", ty: "__CustomNamedCurves__SecT283R1Holder", modifiers: "&&", def_value: None }]
@@ -1497,10 +1497,10 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::EC::__CustomNamedCurves__SecT409K1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0xeb17b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xedc640, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0xeb17b8, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0xedc648, size 0x120, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   // Ctor Parameters [CppParam { name: "", ty: "__CustomNamedCurves__SecT409K1Holder", modifiers: "&&", def_value: None }]
@@ -1542,10 +1542,10 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::EC::__CustomNamedCurves__SecT409R1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0xeb193c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xedc7cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0xeb1944, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0xedc7d4, size 0x174, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   // Ctor Parameters [CppParam { name: "", ty: "__CustomNamedCurves__SecT409R1Holder", modifiers: "&&", def_value: None }]
@@ -1587,10 +1587,10 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::EC::__CustomNamedCurves__SecT571K1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0xeb1b1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xedc9ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0xeb1b24, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0xedc9b4, size 0x120, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   // Ctor Parameters [CppParam { name: "", ty: "__CustomNamedCurves__SecT571K1Holder", modifiers: "&&", def_value: None }]
@@ -1632,10 +1632,10 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::EC::__CustomNamedCurves__SecT571R1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0xeb1ca8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xedcb38, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0xeb1cb0, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0xedcb40, size 0x174, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   // Ctor Parameters [CppParam { name: "", ty: "__CustomNamedCurves__SecT571R1Holder", modifiers: "&&", def_value: None }]
@@ -1677,10 +1677,10 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::EC::__CustomNamedCurves__SM2P256V1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0xeb1e88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xedcd18, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0xeb1e90, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0xedcd20, size 0x120, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   // Ctor Parameters [CppParam { name: "", ty: "__CustomNamedCurves__SM2P256V1Holder", modifiers: "&&", def_value: None }]
@@ -1814,40 +1814,40 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::EC::CustomNamedCurves* New_ctor();
 
-  /// @brief Method .ctor, addr 0xeabeac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xed6d3c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method ConfigureBasepoint, addr 0xeabeb4, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ConfigureBasepoint, addr 0xed6d44, size 0xf0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECPoint* ConfigureBasepoint(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::StringW encoding);
 
-  /// @brief Method ConfigureCurve, addr 0xeabfa4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ConfigureCurve, addr 0xed6e34, size 0x4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::EC::ECCurve* ConfigureCurve(::Org::BouncyCastle::Math::EC::ECCurve* curve);
 
-  /// @brief Method ConfigureCurveGlv, addr 0xeabfa8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method ConfigureCurveGlv, addr 0xed6e38, size 0xa8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::EC::ECCurve* ConfigureCurveGlv(::Org::BouncyCastle::Math::EC::ECCurve* c, ::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters* p);
 
-  /// @brief Method DefineCurve, addr 0xeac050, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method DefineCurve, addr 0xed6ee0, size 0x19c, virtual false, abstract: false, final false
   static inline void DefineCurve(::StringW name, ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* holder);
 
-  /// @brief Method DefineCurveWithOid, addr 0xeac1ec, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method DefineCurveWithOid, addr 0xed707c, size 0x304, virtual false, abstract: false, final false
   static inline void DefineCurveWithOid(::StringW name, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* holder);
 
-  /// @brief Method DefineCurveAlias, addr 0xeac4f0, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method DefineCurveAlias, addr 0xed7380, size 0x258, virtual false, abstract: false, final false
   static inline void DefineCurveAlias(::StringW name, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetByName, addr 0xead640, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method GetByName, addr 0xed84d0, size 0x164, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByName(::StringW name);
 
-  /// @brief Method GetByOid, addr 0xead7a4, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method GetByOid, addr 0xed8634, size 0x12c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetOid, addr 0xead8d0, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method GetOid, addr 0xed8760, size 0x154, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetOid(::StringW name);
 
-  /// @brief Method GetName, addr 0xeada24, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetName, addr 0xed88b4, size 0x100, virtual false, abstract: false, final false
   static inline ::StringW GetName(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method get_Names, addr 0xeadb24, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_Names, addr 0xed89b4, size 0x90, virtual false, abstract: false, final false
   static inline ::System::Collections::IEnumerable* get_Names();
 
   // Ctor Parameters [CppParam { name: "", ty: "CustomNamedCurves", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::CommandType);
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7442))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6701))
 // CS Name: ::UnityEngine.UIElements.UIR::CommandType
 struct CORDL_TYPE CommandType {
 public:

@@ -25,7 +25,7 @@ namespace System::Collections::Generic {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3859))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3858))
 // CS Name: ::System.Collections.Generic::LowLevelList`1<T>*
 class CORDL_TYPE LowLevelList_1 : public ::System::Object {
 public:

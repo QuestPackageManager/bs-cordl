@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::NoteJumpDurationTypeSettings);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4622))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11039))
 // CS Name: ::NoteJumpDurationTypeSettings
 struct CORDL_TYPE NoteJumpDurationTypeSettings {
 public:

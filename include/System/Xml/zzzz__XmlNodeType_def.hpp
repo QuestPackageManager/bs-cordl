@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Xml::XmlNodeType);
 namespace System::Xml {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11571))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11469))
 // CS Name: ::System.Xml::XmlNodeType
 struct CORDL_TYPE XmlNodeType {
 public:

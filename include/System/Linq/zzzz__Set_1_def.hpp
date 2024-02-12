@@ -30,7 +30,7 @@ namespace System::Linq {
 template <typename TElement>
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14287))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14300))
 // CS Name: ::Set`1::Slot<TElement>
 struct CORDL_TYPE __Set_1__Slot {
 public:
@@ -66,7 +66,7 @@ namespace System::Linq {
 template <typename TElement>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14288))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14301))
 // CS Name: ::System.Linq::Set`1<TElement>*
 class CORDL_TYPE Set_1 : public ::System::Object {
 public:
@@ -125,9 +125,6 @@ public:
 
   /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool Add(TElement value);
-
-  /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline bool Remove(TElement value);
 
   /// @brief Method Find, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool Find(TElement value, bool add);

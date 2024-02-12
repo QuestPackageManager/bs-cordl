@@ -47,13 +47,13 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* N, ::Org::BouncyCastle::Math::BigInteger* g);
 
-  /// @brief Method .ctor, addr 0xf3b83c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf666cc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* N, ::Org::BouncyCastle::Math::BigInteger* g);
 
-  /// @brief Method get_G, addr 0xf3b868, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_G, addr 0xf666f8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_G();
 
-  /// @brief Method get_N, addr 0xf3b870, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_N, addr 0xf66700, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_N();
 
   // Ctor Parameters [CppParam { name: "", ty: "Srp6GroupParameters", modifiers: "&&", def_value: None }]

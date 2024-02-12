@@ -81,16 +81,16 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Operators::RsaOaepWrapper* New_ctor(bool forWrapping, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters,
                                                                                  ::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestOid);
 
-  /// @brief Method .ctor, addr 0xf292dc, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf5416c, size 0x2a0, virtual false, abstract: false, final false
   inline void _ctor(bool forWrapping, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestOid);
 
-  /// @brief Method get_AlgorithmDetails, addr 0xf2957c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_AlgorithmDetails, addr 0xf5440c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* get_AlgorithmDetails();
 
-  /// @brief Method Unwrap, addr 0xf29584, size 0x104, virtual true, abstract: false, final true
+  /// @brief Method Unwrap, addr 0xf54414, size 0x104, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::IBlockResult* Unwrap(::ArrayW<uint8_t, ::Array<uint8_t>*> cipherText, int32_t offset, int32_t length);
 
-  /// @brief Method Wrap, addr 0xf29688, size 0x104, virtual true, abstract: false, final true
+  /// @brief Method Wrap, addr 0xf54518, size 0x104, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::IBlockResult* Wrap(::ArrayW<uint8_t, ::Array<uint8_t>*> keyData);
 
   // Ctor Parameters [CppParam { name: "", ty: "RsaOaepWrapper", modifiers: "&&", def_value: None }]

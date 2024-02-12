@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::Zenject::SignalBindingBindInfo);
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10653))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9795))
 // CS Name: ::Zenject::SignalBindingBindInfo*
 class CORDL_TYPE SignalBindingBindInfo : public ::System::Object {
 public:
@@ -50,19 +50,19 @@ public:
 
   static inline ::Zenject::SignalBindingBindInfo* New_ctor(::System::Type* signalType);
 
-  /// @brief Method .ctor, addr 0x2ec2404, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ede54c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* signalType);
 
-  /// @brief Method get_Identifier, addr 0x2ec242c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Identifier, addr 0x2ede574, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Identifier();
 
-  /// @brief Method set_Identifier, addr 0x2ec2434, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Identifier, addr 0x2ede57c, size 0x8, virtual false, abstract: false, final false
   inline void set_Identifier(::System::Object* value);
 
-  /// @brief Method get_SignalType, addr 0x2ec243c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SignalType, addr 0x2ede584, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_SignalType();
 
-  /// @brief Method set_SignalType, addr 0x2ec2444, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SignalType, addr 0x2ede58c, size 0x8, virtual false, abstract: false, final false
   inline void set_SignalType(::System::Type* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "SignalBindingBindInfo", modifiers: "&&", def_value: None }]

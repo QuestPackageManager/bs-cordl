@@ -40,15 +40,15 @@ public:
 
   constexpr void __cordl_internal_set_x(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-  /// @brief Method Init, addr 0xf1209c, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0xf3df2c, size 0x68, virtual true, abstract: false, final true
   inline void Init(::ArrayW<uint8_t, ::Array<uint8_t>*> x);
 
-  /// @brief Method ExponentiateX, addr 0xf1216c, size 0x110, virtual true, abstract: false, final true
+  /// @brief Method ExponentiateX, addr 0xf3dffc, size 0x110, virtual true, abstract: false, final true
   inline void ExponentiateX(int64_t pow, ::ArrayW<uint8_t, ::Array<uint8_t>*> output);
 
   static inline ::Org::BouncyCastle::Crypto::Modes::Gcm::BasicGcmExponentiator* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf123b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf3e248, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BasicGcmExponentiator", modifiers: "&&", def_value: None }]

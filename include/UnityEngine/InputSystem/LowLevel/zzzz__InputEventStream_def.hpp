@@ -23,8 +23,8 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::InputEventStream);
 // SizeInfo { instance_size: 120, native_size: 120, calculated_instance_size: 120, calculated_native_size: 129, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6532))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6537))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5791))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5796))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::InputEventStream
 struct CORDL_TYPE InputEventStream {
 public:
@@ -39,37 +39,37 @@ public:
 
   __declspec(property(get = get_numBytesRetainedInBuffer)) uint32_t numBytesRetainedInBuffer;
 
-  /// @brief Method get_isOpen, addr 0x2aebe8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isOpen, addr 0x2aed9f8, size 0x8, virtual false, abstract: false, final false
   inline bool get_isOpen();
 
-  /// @brief Method get_remainingEventCount, addr 0x2aebe94, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_remainingEventCount, addr 0x2aeda00, size 0x10, virtual false, abstract: false, final false
   inline int32_t get_remainingEventCount();
 
-  /// @brief Method get_numEventsRetainedInBuffer, addr 0x2aebea4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_numEventsRetainedInBuffer, addr 0x2aeda10, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_numEventsRetainedInBuffer();
 
-  /// @brief Method get_currentEventPtr, addr 0x2aebeac, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_currentEventPtr, addr 0x2aeda18, size 0x34, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> get_currentEventPtr();
 
-  /// @brief Method get_numBytesRetainedInBuffer, addr 0x2aebee0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_numBytesRetainedInBuffer, addr 0x2aeda4c, size 0x54, virtual false, abstract: false, final false
   inline uint32_t get_numBytesRetainedInBuffer();
 
-  /// @brief Method .ctor, addr 0x2aebf34, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aedaa0, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(ByRef<::UnityEngine::InputSystem::LowLevel::InputEventBuffer> eventBuffer, int32_t maxAppendedEvents);
 
-  /// @brief Method Close, addr 0x2aebfc0, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method Close, addr 0x2aedb2c, size 0x114, virtual false, abstract: false, final false
   inline void Close(ByRef<::UnityEngine::InputSystem::LowLevel::InputEventBuffer> eventBuffer);
 
-  /// @brief Method CleanUpAfterException, addr 0x2aec0d4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method CleanUpAfterException, addr 0x2aedc40, size 0x90, virtual false, abstract: false, final false
   inline void CleanUpAfterException();
 
-  /// @brief Method Write, addr 0x2aec164, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method Write, addr 0x2aedcd0, size 0x1b0, virtual false, abstract: false, final false
   inline void Write(::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> eventPtr);
 
-  /// @brief Method Advance, addr 0x2aec314, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Advance, addr 0x2aede80, size 0xa4, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> Advance(bool leaveEventInBuffer);
 
-  /// @brief Method Peek, addr 0x2aec3b8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Peek, addr 0x2aedf24, size 0x64, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> Peek();
 
   // Ctor Parameters [CppParam { name: "m_NativeBuffer", ty: "::UnityEngine::InputSystem::LowLevel::InputEventBuffer", modifiers: "", def_value: None }, CppParam { name: "m_CurrentNativeEventReadPtr",

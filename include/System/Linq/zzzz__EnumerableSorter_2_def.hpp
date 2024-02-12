@@ -27,8 +27,8 @@ namespace System::Linq {
 // cpp template
 template <typename TElement, typename TKey>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14293)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14293), inst: 1676 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14294))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14306)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14306), inst: 1635 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14307))
 // CS Name: ::System.Linq::EnumerableSorter`2<TElement,TKey>*
 class CORDL_TYPE EnumerableSorter_2 : public ::System::Linq::EnumerableSorter_1<TElement> {
 public:

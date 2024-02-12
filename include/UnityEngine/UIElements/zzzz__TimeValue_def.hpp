@@ -27,8 +27,8 @@ MARK_VAL_T(::UnityEngine::UIElements::TimeValue);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7321))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7322))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6580))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6581))
 // CS Name: ::UnityEngine.UIElements::TimeValue
 struct CORDL_TYPE TimeValue {
 public:
@@ -43,37 +43,37 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::TimeValue>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::TimeValue>* i___System__IEquatable_1___UnityEngine__UIElements__TimeValue_();
 
-  /// @brief Method get_value, addr 0x2e7622c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x2e90614, size 0x8, virtual false, abstract: false, final false
   inline float_t get_value();
 
-  /// @brief Method get_unit, addr 0x2e76234, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_unit, addr 0x2e9061c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TimeUnit get_unit();
 
-  /// @brief Method .ctor, addr 0x2e6e1d4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e885bc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t value);
 
-  /// @brief Method .ctor, addr 0x2e7623c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e90624, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t value, ::UnityEngine::UIElements::TimeUnit unit);
 
-  /// @brief Method op_Implicit, addr 0x2e76248, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2e90630, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::TimeValue op_Implicit___UnityEngine__UIElements__TimeValue(float_t value);
 
-  /// @brief Method op_Equality, addr 0x2e76250, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x2e90638, size 0x28, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::TimeValue lhs, ::UnityEngine::UIElements::TimeValue rhs);
 
-  /// @brief Method op_Inequality, addr 0x2e6e1ac, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x2e88594, size 0x28, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::UIElements::TimeValue lhs, ::UnityEngine::UIElements::TimeValue rhs);
 
-  /// @brief Method Equals, addr 0x2e76278, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2e90660, size 0x28, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::TimeValue other);
 
-  /// @brief Method Equals, addr 0x2e762a0, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2e90688, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2e6de64, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2e8824c, size 0x28, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x2e7632c, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2e90714, size 0xf8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "m_Value", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Unit", ty: "::UnityEngine::UIElements::TimeUnit", modifiers: "", def_value: None

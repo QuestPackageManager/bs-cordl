@@ -54,18 +54,18 @@ public:
 
   constexpr void __cordl_internal_set_hasTypeForwardedFrom(bool value);
 
-  /// @brief Method get_FullTypeName, addr 0x24cb3d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FullTypeName, addr 0x24ec444, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_FullTypeName();
 
-  /// @brief Method get_AssemblyString, addr 0x24cb3d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AssemblyString, addr 0x24ec44c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_AssemblyString();
 
-  /// @brief Method get_HasTypeForwardedFrom, addr 0x24cb3e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HasTypeForwardedFrom, addr 0x24ec454, size 0x8, virtual false, abstract: false, final false
   inline bool get_HasTypeForwardedFrom();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::TypeInformation* New_ctor(::StringW fullTypeName, ::StringW assemblyString, bool hasTypeForwardedFrom);
 
-  /// @brief Method .ctor, addr 0x24cb3e8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24ec45c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW fullTypeName, ::StringW assemblyString, bool hasTypeForwardedFrom);
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeInformation", modifiers: "&&", def_value: None }]

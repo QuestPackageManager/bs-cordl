@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::TMPro::CodePoint);
 namespace TMPro {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12411))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12309))
 // CS Name: ::TMPro::CodePoint*
 class CORDL_TYPE CodePoint : public ::System::Object {
 public:

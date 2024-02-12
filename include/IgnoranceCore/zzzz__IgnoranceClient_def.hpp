@@ -49,7 +49,7 @@ MARK_VAL_T(::IgnoranceCore::__IgnoranceClient__ThreadParamInfo);
 namespace IgnoranceCore {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15238))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15351))
 // CS Name: ::IgnoranceClient::ThreadParamInfo
 struct CORDL_TYPE __IgnoranceClient__ThreadParamInfo {
 public:
@@ -130,7 +130,7 @@ static_assert(offsetof(::IgnoranceCore::__IgnoranceClient__ThreadParamInfo, Root
 namespace IgnoranceCore {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15239))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15352))
 // CS Name: ::IgnoranceCore::IgnoranceClient*
 class CORDL_TYPE IgnoranceClient : public ::System::Object {
 public:
@@ -321,24 +321,24 @@ public:
 
   constexpr void __cordl_internal_set_WorkerThread(::System::Threading::Thread* value);
 
-  /// @brief Method get_IsAlive, addr 0x21f4290, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_IsAlive, addr 0x2289b78, size 0x14, virtual false, abstract: false, final false
   inline bool get_IsAlive();
 
-  /// @brief Method Start, addr 0x21f42a4, size 0x370, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2289b8c, size 0x370, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Stop, addr 0x21f4858, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Stop, addr 0x228a140, size 0x90, virtual false, abstract: false, final false
   inline void Stop();
 
-  /// @brief Method ThreadWorker, addr 0x21f48e8, size 0xe90, virtual false, abstract: false, final false
+  /// @brief Method ThreadWorker, addr 0x228a1d0, size 0xe90, virtual false, abstract: false, final false
   inline void ThreadWorker(::System::Object* parameters);
 
-  /// @brief Method SetupRingBuffersIfNull, addr 0x21f4614, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method SetupRingBuffersIfNull, addr 0x2289efc, size 0x244, virtual false, abstract: false, final false
   inline void SetupRingBuffersIfNull();
 
   static inline ::IgnoranceCore::IgnoranceClient* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21f5778, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x228b060, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "IgnoranceClient", modifiers: "&&", def_value: None }]

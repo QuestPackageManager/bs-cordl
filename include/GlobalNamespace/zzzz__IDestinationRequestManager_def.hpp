@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IDestinationRequestManager);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4149))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10607))
 // CS Name: ::IDestinationRequestManager*
 class CORDL_TYPE IDestinationRequestManager {
 public:

@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::Unity::XR::Oculus::Input::OculusRemote);
 // SizeInfo { instance_size: 368, native_size: -1, calculated_instance_size: 368, calculated_native_size: 368, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::XR::Oculus::Input {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6239))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15156))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5498))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15196))
 // CS Name: ::Unity.XR.Oculus.Input::OculusRemote*
 class CORDL_TYPE OculusRemote : public ::UnityEngine::InputSystem::InputDevice {
 public:
@@ -60,30 +60,30 @@ public:
 
   constexpr void __cordl_internal_set__touchpad_k__BackingField(::UnityEngine::InputSystem::Controls::Vector2Control* value);
 
-  /// @brief Method get_back, addr 0x2c7ca58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_back, addr 0x2c795c4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_back();
 
-  /// @brief Method set_back, addr 0x2c7ca60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_back, addr 0x2c795cc, size 0x8, virtual false, abstract: false, final false
   inline void set_back(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method get_start, addr 0x2c7ca68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_start, addr 0x2c795d4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_start();
 
-  /// @brief Method set_start, addr 0x2c7ca70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_start, addr 0x2c795dc, size 0x8, virtual false, abstract: false, final false
   inline void set_start(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method get_touchpad, addr 0x2c7ca78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_touchpad, addr 0x2c795e4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector2Control* get_touchpad();
 
-  /// @brief Method set_touchpad, addr 0x2c7ca80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_touchpad, addr 0x2c795ec, size 0x8, virtual false, abstract: false, final false
   inline void set_touchpad(::UnityEngine::InputSystem::Controls::Vector2Control* value);
 
-  /// @brief Method FinishSetup, addr 0x2c7ca88, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x2c795f4, size 0xe8, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::Unity::XR::Oculus::Input::OculusRemote* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c7cb70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c796dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OculusRemote", modifiers: "&&", def_value: None }]

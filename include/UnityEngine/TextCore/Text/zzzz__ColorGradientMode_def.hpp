@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::ColorGradientMode);
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13722))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13675))
 // CS Name: ::UnityEngine.TextCore.Text::ColorGradientMode
 struct CORDL_TYPE ColorGradientMode {
 public:

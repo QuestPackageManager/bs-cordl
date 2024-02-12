@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionNodeConnection);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 89, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10243))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5544))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8987))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4850))
 // CS Name: ::MissionNodeConnection*
 class CORDL_TYPE MissionNodeConnection : public ::UnityEngine::MonoBehaviour {
 public:
@@ -130,30 +130,30 @@ public:
 
   constexpr void __cordl_internal_set__isActive(bool value);
 
-  /// @brief Method get_parentMissionNode, addr 0x22a05c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_parentMissionNode, addr 0x23fae44, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MissionNodeVisualController> get_parentMissionNode();
 
-  /// @brief Method get_childMissionNode, addr 0x22a05c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_childMissionNode, addr 0x23fae4c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MissionNodeVisualController> get_childMissionNode();
 
-  /// @brief Method get_isActive, addr 0x22a05d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isActive, addr 0x23fae54, size 0x8, virtual false, abstract: false, final false
   inline bool get_isActive();
 
-  /// @brief Method Setup, addr 0x229f118, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x23f999c, size 0x8, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::MissionNodeVisualController* parentMissionNode, ::GlobalNamespace::MissionNodeVisualController* childMissionNode);
 
-  /// @brief Method UpdateConnectionRectTransform, addr 0x22a05d8, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method UpdateConnectionRectTransform, addr 0x23fae5c, size 0x278, virtual false, abstract: false, final false
   inline void UpdateConnectionRectTransform();
 
-  /// @brief Method SetActive, addr 0x22a03a0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method SetActive, addr 0x23fac24, size 0xcc, virtual false, abstract: false, final false
   inline void SetActive(bool animated);
 
-  /// @brief Method MissionConnectionEnabledDidFinish, addr 0x22a0850, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method MissionConnectionEnabledDidFinish, addr 0x23fb0d4, size 0x20, virtual false, abstract: false, final false
   inline void MissionConnectionEnabledDidFinish();
 
   static inline ::GlobalNamespace::MissionNodeConnection* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22a0870, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23fb0f4, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionNodeConnection", modifiers: "&&", def_value: None }]

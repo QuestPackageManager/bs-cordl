@@ -32,7 +32,7 @@ namespace UnityEngine::Timeline {
 template <typename T>
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13880))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13833))
 // CS Name: ::IntervalTree`1::Entry<T>
 struct CORDL_TYPE __IntervalTree_1__Entry {
 public:
@@ -68,7 +68,7 @@ namespace UnityEngine::Timeline {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13881))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13834))
 // CS Name: ::UnityEngine.Timeline::IntervalTree`1<T>*
 class CORDL_TYPE IntervalTree_1 : public ::System::Object {
 public:

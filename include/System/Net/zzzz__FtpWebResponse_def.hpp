@@ -44,15 +44,15 @@ MARK_REF_PTR_T(::System::Net::__FtpWebResponse__EmptyStream);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3566))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9052))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3562))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7062))
 // CS Name: ::FtpWebResponse::EmptyStream*
 class CORDL_TYPE __FtpWebResponse__EmptyStream : public ::System::IO::MemoryStream {
 public:
   // Declarations
   static inline ::System::Net::__FtpWebResponse__EmptyStream* New_ctor();
 
-  /// @brief Method .ctor, addr 0x299acec, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x299e790, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FtpWebResponse__EmptyStream", modifiers: "&&", def_value: None }]
@@ -79,8 +79,8 @@ static_assert(::cordl_internals::size_check_v<::System::Net::__FtpWebResponse__E
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(9062)), TypeDefinitionIndex(TypeDefinitionIndex(9097))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9053))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(7072)), TypeDefinitionIndex(TypeDefinitionIndex(7107))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7063))
 // CS Name: ::System.Net::FtpWebResponse*
 class CORDL_TYPE FtpWebResponse : public ::System::Net::WebResponse {
 public:
@@ -192,29 +192,29 @@ public:
   static inline ::System::Net::FtpWebResponse* New_ctor(::System::IO::Stream* responseStream, int64_t contentLength, ::System::Uri* responseUri, ::System::Net::FtpStatusCode statusCode,
                                                         ::StringW statusLine, ::System::DateTime lastModified, ::StringW bannerMessage, ::StringW welcomeMessage, ::StringW exitMessage);
 
-  /// @brief Method .ctor, addr 0x299a58c, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x299e030, size 0x11c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* responseStream, int64_t contentLength, ::System::Uri* responseUri, ::System::Net::FtpStatusCode statusCode, ::StringW statusLine,
                     ::System::DateTime lastModified, ::StringW bannerMessage, ::StringW welcomeMessage, ::StringW exitMessage);
 
-  /// @brief Method UpdateStatus, addr 0x29990f0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method UpdateStatus, addr 0x299cb94, size 0x10, virtual false, abstract: false, final false
   inline void UpdateStatus(::System::Net::FtpStatusCode statusCode, ::StringW statusLine, ::StringW exitMessage);
 
-  /// @brief Method GetResponseStream, addr 0x299ac84, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method GetResponseStream, addr 0x299e728, size 0x68, virtual true, abstract: false, final false
   inline ::System::IO::Stream* GetResponseStream();
 
-  /// @brief Method SetResponseStream, addr 0x299a4f8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method SetResponseStream, addr 0x299df9c, size 0x94, virtual false, abstract: false, final false
   inline void SetResponseStream(::System::IO::Stream* stream);
 
-  /// @brief Method Close, addr 0x299ad78, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x299e81c, size 0xe4, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method get_Headers, addr 0x299ae5c, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method get_Headers, addr 0x299e900, size 0x120, virtual true, abstract: false, final false
   inline ::System::Net::WebHeaderCollection* get_Headers();
 
-  /// @brief Method get_ResponseUri, addr 0x299af7c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ResponseUri, addr 0x299ea20, size 0x8, virtual true, abstract: false, final false
   inline ::System::Uri* get_ResponseUri();
 
-  /// @brief Method get_StatusCode, addr 0x299af84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StatusCode, addr 0x299ea28, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::FtpStatusCode get_StatusCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "FtpWebResponse", modifiers: "&&", def_value: None }]

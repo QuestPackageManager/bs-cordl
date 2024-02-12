@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::GlobalNamespace::GetXPlatformAccessTokenResponse);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15999))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16367))
 // CS Name: ::GetXPlatformAccessTokenResponse*
 class CORDL_TYPE GetXPlatformAccessTokenResponse : public ::System::Object {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::GlobalNamespace::GetXPlatformAccessTokenResponse* New_ctor(::StringW accessToken);
 
-  /// @brief Method .ctor, addr 0x28001b0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x280a968, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW accessToken);
 
   // Ctor Parameters [CppParam { name: "", ty: "GetXPlatformAccessTokenResponse", modifiers: "&&", def_value: None }]

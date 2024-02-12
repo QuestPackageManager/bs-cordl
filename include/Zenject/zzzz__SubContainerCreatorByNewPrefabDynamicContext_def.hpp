@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::Zenject::SubContainerCreatorByNewPrefabDynamicContext);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11295))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11274))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10437))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10416))
 // CS Name: ::Zenject::SubContainerCreatorByNewPrefabDynamicContext*
 class CORDL_TYPE SubContainerCreatorByNewPrefabDynamicContext : public ::Zenject::SubContainerCreatorDynamicContext {
 public:
@@ -54,10 +54,10 @@ public:
   static inline ::Zenject::SubContainerCreatorByNewPrefabDynamicContext* New_ctor(::Zenject::DiContainer* container, ::Zenject::IPrefabProvider* prefabProvider,
                                                                                   ::Zenject::GameObjectCreationParameters* gameObjectBindInfo);
 
-  /// @brief Method .ctor, addr 0x2f0c1cc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f28314, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::Zenject::IPrefabProvider* prefabProvider, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo);
 
-  /// @brief Method CreateGameObject, addr 0x2f0c208, size 0x1c0, virtual true, abstract: false, final false
+  /// @brief Method CreateGameObject, addr 0x2f28350, size 0x1c0, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> CreateGameObject(ByRef<bool> shouldMakeActive);
 
   // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByNewPrefabDynamicContext", modifiers: "&&", def_value: None }]

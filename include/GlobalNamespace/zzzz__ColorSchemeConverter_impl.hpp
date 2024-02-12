@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ColorScheme* (*)(::GlobalNamespace::ColorSchemeNetSerializable)>(
     &::GlobalNamespace::ColorSchemeConverter::FromNetSerializable)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x22ec398;
+  constexpr static std::size_t addrs = 0x231a828;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

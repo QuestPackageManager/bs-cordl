@@ -45,7 +45,7 @@ namespace GlobalNamespace {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5601))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4906))
 // CS Name: ::ValueDropdownController`1::<>c<T>*
 class CORDL_TYPE __ValueDropdownController_1____c : public ::System::Object {
 public:
@@ -96,8 +96,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5602))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4907))
 // CS Name: ::ValueDropdownController`1<T>*
 class CORDL_TYPE ValueDropdownController_1 : public ::UnityEngine::MonoBehaviour {
 public:

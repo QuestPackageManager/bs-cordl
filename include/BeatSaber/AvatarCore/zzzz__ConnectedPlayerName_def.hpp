@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::BeatSaber::AvatarCore::ConnectedPlayerName);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15189))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15270))
 // CS Name: ::BeatSaber.AvatarCore::ConnectedPlayerName*
 class CORDL_TYPE ConnectedPlayerName : public ::UnityEngine::MonoBehaviour {
 public:
@@ -44,12 +44,12 @@ public:
 
   constexpr void __cordl_internal_set__connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
 
-  /// @brief Method Start, addr 0xe0f56c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0xe1ad68, size 0xc4, virtual false, abstract: false, final false
   inline void Start();
 
   static inline ::BeatSaber::AvatarCore::ConnectedPlayerName* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe0f630, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe1ae2c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ConnectedPlayerName", modifiers: "&&", def_value: None }]

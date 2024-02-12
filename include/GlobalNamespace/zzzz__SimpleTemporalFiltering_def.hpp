@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::GlobalNamespace::SimpleTemporalFiltering);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15311))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15426))
 // CS Name: ::SimpleTemporalFiltering*
 class CORDL_TYPE SimpleTemporalFiltering : public ::System::Object {
 public:
@@ -68,13 +68,13 @@ public:
 
   static inline ::GlobalNamespace::SimpleTemporalFiltering* New_ctor();
 
-  /// @brief Method .ctor, addr 0x280bd34, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x281051c, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method FilterTexture, addr 0x280be00, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method FilterTexture, addr 0x28105e8, size 0x180, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RenderTexture> FilterTexture(::UnityEngine::RenderTexture* src);
 
-  /// @brief Method CreateRenderTexturesIfNeeded, addr 0x280bf80, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method CreateRenderTexturesIfNeeded, addr 0x2810768, size 0x28c, virtual false, abstract: false, final false
   inline void CreateRenderTexturesIfNeeded(int32_t width, int32_t height);
 
   // Ctor Parameters [CppParam { name: "", ty: "SimpleTemporalFiltering", modifiers: "&&", def_value: None }]

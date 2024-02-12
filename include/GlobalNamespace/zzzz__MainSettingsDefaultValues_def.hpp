@@ -17,14 +17,14 @@ MARK_REF_PTR_T(::GlobalNamespace::MainSettingsDefaultValues);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4432))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10847))
 // CS Name: ::MainSettingsDefaultValues*
 class CORDL_TYPE MainSettingsDefaultValues : public ::System::Object {
 public:
   // Declarations
   static inline ::GlobalNamespace::MainSettingsDefaultValues* New_ctor();
 
-  /// @brief Method .ctor, addr 0x234e72c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12916fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MainSettingsDefaultValues", modifiers: "&&", def_value: None }]
@@ -73,9 +73,6 @@ public:
 
   /// @brief Field kDefaultWindowResolutionHeight offset 0xffffffff size 0x4
   static constexpr int32_t kDefaultWindowResolutionHeight{ static_cast<int32_t>(0x438) };
-
-  /// @brief Field kDefaultAudioLatency offset 0xffffffff size 0x4
-  static constexpr float_t kDefaultAudioLatency{ 0.09 };
 
   /// @brief Field kCreateScreenshotDuringTheGame offset 0xffffffff size 0x1
   static constexpr bool kCreateScreenshotDuringTheGame{ false };

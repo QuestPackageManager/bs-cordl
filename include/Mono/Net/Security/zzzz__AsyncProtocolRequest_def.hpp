@@ -85,8 +85,8 @@ MARK_VAL_T(::Mono::Net::Security::__AsyncProtocolRequest___StartOperation_d__23)
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// TypeDefinitionIndex(TypeDefinitionIndex(8818)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 875 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(8819)) CS
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3391)), TypeDefinitionIndex(TypeDefinitionIndex(3398)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6828)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3398), inst: 879 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6829)) CS
 // Name: ::AsyncProtocolRequest::<StartOperation>d__23
 struct CORDL_TYPE __AsyncProtocolRequest___StartOperation_d__23 {
 public:
@@ -97,10 +97,10 @@ public:
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x281e690, size 0x358, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2822e78, size 0x358, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x281ea28, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2823210, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -153,9 +153,9 @@ static_assert(offsetof(::Mono::Net::Security::__AsyncProtocolRequest___StartOper
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3395)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(8817)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2448), inst: 98 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 867 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(8820)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3391)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(6827)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2448), inst: 103 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3393), inst: 870 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6830)) CS Name:
 // ::AsyncProtocolRequest::<ProcessOperation>d__24
 struct CORDL_TYPE __AsyncProtocolRequest___ProcessOperation_d__24 {
 public:
@@ -166,10 +166,10 @@ public:
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x281ea80, size 0x494, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2823268, size 0x494, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x281f18c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2823974, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -241,9 +241,9 @@ static_assert(offsetof(::Mono::Net::Security::__AsyncProtocolRequest___ProcessOp
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3397)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 98 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3397), inst: 98 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 867 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(8821)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3393)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3398)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 103 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3393), inst: 103 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3398), inst: 870 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6831)) CS Name:
 // ::AsyncProtocolRequest::<InnerRead>d__25
 struct CORDL_TYPE __AsyncProtocolRequest___InnerRead_d__25 {
 public:
@@ -254,10 +254,10 @@ public:
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x281f198, size 0x350, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2823980, size 0x350, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x281f604, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2823dec, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -323,7 +323,7 @@ static_assert(offsetof(::Mono::Net::Security::__AsyncProtocolRequest___InnerRead
 namespace Mono::Net::Security {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8822))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6832))
 // CS Name: ::Mono.Net.Security::AsyncProtocolRequest*
 class CORDL_TYPE AsyncProtocolRequest : public ::System::Object {
 public:
@@ -405,45 +405,45 @@ public:
 
   constexpr void __cordl_internal_set_locker(::System::Object* value);
 
-  /// @brief Method get_Parent, addr 0x281e1c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parent, addr 0x28229a8, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Net::Security::MobileAuthenticatedStream* get_Parent();
 
-  /// @brief Method get_RunSynchronously, addr 0x281e1c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RunSynchronously, addr 0x28229b0, size 0x8, virtual false, abstract: false, final false
   inline bool get_RunSynchronously();
 
-  /// @brief Method get_Name, addr 0x281e1d0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x28229b8, size 0x24, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_UserResult, addr 0x281e1f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UserResult, addr 0x28229dc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_UserResult();
 
-  /// @brief Method set_UserResult, addr 0x281e1fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_UserResult, addr 0x28229e4, size 0x8, virtual false, abstract: false, final false
   inline void set_UserResult(int32_t value);
 
   static inline ::Mono::Net::Security::AsyncProtocolRequest* New_ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, bool sync);
 
-  /// @brief Method .ctor, addr 0x281e204, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28229ec, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, bool sync);
 
-  /// @brief Method RequestRead, addr 0x281e28c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method RequestRead, addr 0x2822a74, size 0xc4, virtual false, abstract: false, final false
   inline void RequestRead(int32_t size);
 
-  /// @brief Method RequestWrite, addr 0x281e350, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method RequestWrite, addr 0x2822b38, size 0xc, virtual false, abstract: false, final false
   inline void RequestWrite();
 
-  /// @brief Method StartOperation, addr 0x281e35c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method StartOperation, addr 0x2822b44, size 0xf8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::Mono::Net::Security::AsyncProtocolResult*>* StartOperation(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ProcessOperation, addr 0x281e454, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method ProcessOperation, addr 0x2822c3c, size 0xe0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ProcessOperation(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method InnerRead, addr 0x281e534, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method InnerRead, addr 0x2822d1c, size 0x104, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<int32_t>>* InnerRead(::System::Threading::CancellationToken cancellationToken);
 
   /// @brief Method Run, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Mono::Net::Security::AsyncOperationStatus Run(::Mono::Net::Security::AsyncOperationStatus status);
 
-  /// @brief Method ToString, addr 0x281e638, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2822e20, size 0x58, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "AsyncProtocolRequest", modifiers: "&&", def_value: None }]

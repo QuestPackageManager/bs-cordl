@@ -29,7 +29,7 @@ namespace HMUI {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13524))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13477))
 // CS Name: ::HMUI::ValueChangedBinder`1<T>*
 class CORDL_TYPE ValueChangedBinder_1 : public ::System::Object {
 public:

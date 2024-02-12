@@ -30,7 +30,7 @@ namespace GlobalNamespace {
 template <typename T, typename TBase>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14780))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15162))
 // CS Name: ::SortedList`2<T,TBase>*
 class CORDL_TYPE SortedList_2 : public ::System::Object {
 public:

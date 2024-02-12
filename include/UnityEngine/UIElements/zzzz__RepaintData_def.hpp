@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::RepaintData);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(10243)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10245))] Self: TypeDefinitionIndex(TypeDefinitionIndex(6867)) CS Name: ::UnityEngine.UIElements::RepaintData*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8909)), TypeDefinitionIndex(TypeDefinitionIndex(8987)),
+// TypeDefinitionIndex(TypeDefinitionIndex(8989))] Self: TypeDefinitionIndex(TypeDefinitionIndex(6126)) CS Name: ::UnityEngine.UIElements::RepaintData*
 class CORDL_TYPE RepaintData : public ::System::Object {
 public:
   // Declarations
@@ -73,21 +73,21 @@ public:
 
   constexpr void __cordl_internal_set__repaintEvent_k__BackingField(::UnityEngine::Event* value);
 
-  /// @brief Method get_currentOffset, addr 0x2dc8714, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_currentOffset, addr 0x2de6afc, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 get_currentOffset();
 
-  /// @brief Method get_currentWorldClip, addr 0x2dc8728, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_currentWorldClip, addr 0x2de6b10, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_currentWorldClip();
 
-  /// @brief Method get_repaintEvent, addr 0x2dc8734, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_repaintEvent, addr 0x2de6b1c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Event* get_repaintEvent();
 
-  /// @brief Method set_repaintEvent, addr 0x2dc873c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_repaintEvent, addr 0x2de6b24, size 0x8, virtual false, abstract: false, final false
   inline void set_repaintEvent(::UnityEngine::Event* value);
 
   static inline ::UnityEngine::UIElements::RepaintData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2dc8744, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2de6b2c, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RepaintData", modifiers: "&&", def_value: None }]

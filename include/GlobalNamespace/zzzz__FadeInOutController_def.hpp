@@ -46,7 +46,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__FadeInOutController___Fade_d__15);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14366))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14521))
 // CS Name: ::FadeInOutController::<Fade>d__15*
 class CORDL_TYPE __FadeInOutController___Fade_d__15 : public ::System::Object {
 public:
@@ -165,22 +165,22 @@ public:
 
   static inline ::GlobalNamespace::__FadeInOutController___Fade_d__15* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor, addr 0x20f2ac4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x218704c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x20f2b08, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x2187090, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext, addr 0x20f2b0c, size 0x190, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2187094, size 0x190, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x20f2c9c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2187224, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x20f2ca4, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x218722c, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x20f2ce4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x218726c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FadeInOutController___Fade_d__15", modifiers: "&&", def_value: None }]
@@ -257,8 +257,8 @@ static_assert(offsetof(::GlobalNamespace::__FadeInOutController___Fade_d__15, __
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14367))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14522))
 // CS Name: ::FadeInOutController*
 class CORDL_TYPE FadeInOutController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -319,40 +319,40 @@ public:
 
   constexpr void __cordl_internal_set__defaultFadeInDuration(float_t value);
 
-  /// @brief Method FadeOutInstant, addr 0x20f2858, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method FadeOutInstant, addr 0x2186de0, size 0xc, virtual false, abstract: false, final false
   inline void FadeOutInstant();
 
-  /// @brief Method FadeIn, addr 0x20f2924, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method FadeIn, addr 0x2186eac, size 0xc, virtual false, abstract: false, final false
   inline void FadeIn();
 
-  /// @brief Method FadeOut, addr 0x20f29ec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method FadeOut, addr 0x2186f74, size 0xc, virtual false, abstract: false, final false
   inline void FadeOut();
 
-  /// @brief Method FadeIn, addr 0x20f29f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method FadeIn, addr 0x2186f80, size 0x8, virtual false, abstract: false, final false
   inline void FadeIn(float_t duration);
 
-  /// @brief Method FadeOut, addr 0x20f2a00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method FadeOut, addr 0x2186f88, size 0x8, virtual false, abstract: false, final false
   inline void FadeOut(float_t duration);
 
-  /// @brief Method FadeIn, addr 0x20f2a08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method FadeIn, addr 0x2186f90, size 0x8, virtual false, abstract: false, final false
   inline void FadeIn(::System::Action* fadeInCallback);
 
-  /// @brief Method FadeOut, addr 0x20f2a10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method FadeOut, addr 0x2186f98, size 0x8, virtual false, abstract: false, final false
   inline void FadeOut(::System::Action* fadeOutCallback);
 
-  /// @brief Method FadeIn, addr 0x20f2930, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method FadeIn, addr 0x2186eb8, size 0xbc, virtual false, abstract: false, final false
   inline void FadeIn(float_t duration, ::System::Action* fadeInFinishedCallback);
 
-  /// @brief Method FadeOut, addr 0x20f2864, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method FadeOut, addr 0x2186dec, size 0xc0, virtual false, abstract: false, final false
   inline void FadeOut(float_t duration, ::System::Action* fadeOutFinishedCallback);
 
-  /// @brief Method Fade, addr 0x20f2a18, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Fade, addr 0x2186fa0, size 0xac, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Fade(float_t fromValue, float_t toValue, float_t duration, float_t startDelay, ::UnityEngine::AnimationCurve* curve,
                                                   ::System::Action* fadeFinishedCallback);
 
   static inline ::GlobalNamespace::FadeInOutController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x20f2aec, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2187074, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FadeInOutController", modifiers: "&&", def_value: None }]

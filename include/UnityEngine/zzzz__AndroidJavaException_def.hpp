@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::UnityEngine::AndroidJavaException);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2561))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14909))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14782))
 // CS Name: ::UnityEngine::AndroidJavaException*
 class CORDL_TYPE AndroidJavaException : public ::System::Exception {
 public:
@@ -34,10 +34,10 @@ public:
 
   static inline ::UnityEngine::AndroidJavaException* New_ctor(::StringW message, ::StringW javaStackTrace);
 
-  /// @brief Method .ctor, addr 0x2c7e190, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c7acfc, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::StringW javaStackTrace);
 
-  /// @brief Method get_StackTrace, addr 0x2c83e74, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_StackTrace, addr 0x2c809e0, size 0x24, virtual true, abstract: false, final false
   inline ::StringW get_StackTrace();
 
   // Ctor Parameters [CppParam { name: "", ty: "AndroidJavaException", modifiers: "&&", def_value: None }]

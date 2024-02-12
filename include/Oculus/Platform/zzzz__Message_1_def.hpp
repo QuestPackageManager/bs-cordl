@@ -35,7 +35,7 @@ namespace Oculus::Platform {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13261))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13161))
 // CS Name: ::Message`1::Callback<T>*
 class CORDL_TYPE __Message_1__Callback : public ::System::MulticastDelegate {
 public:
@@ -78,8 +78,8 @@ namespace Oculus::Platform {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13266))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13262))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13166))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13162))
 // CS Name: ::Oculus.Platform::Message`1<T>*
 class CORDL_TYPE Message_1 : public ::Oculus::Platform::Message {
 public:

@@ -33,7 +33,7 @@ MARK_VAL_T(::UnityEngine::XR::__XRDisplaySubsystem__XRRenderPass);
 namespace UnityEngine::XR {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15641))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15772))
 // CS Name: ::XRDisplaySubsystem::LateLatchNode
 struct CORDL_TYPE __XRDisplaySubsystem__LateLatchNode {
 public:
@@ -86,8 +86,8 @@ static_assert(offsetof(::UnityEngine::XR::__XRDisplaySubsystem__LateLatchNode, v
 // SizeInfo { instance_size: 216, native_size: 216, calculated_instance_size: 216, calculated_native_size: 228, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::XR {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(10089)), TypeDefinitionIndex(TypeDefinitionIndex(10346))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15642))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(8821)), TypeDefinitionIndex(TypeDefinitionIndex(9096))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15773))
 // CS Name: ::XRDisplaySubsystem::XRRenderPass
 struct CORDL_TYPE __XRDisplaySubsystem__XRRenderPass {
 public:
@@ -166,7 +166,7 @@ static_assert(offsetof(::UnityEngine::XR::__XRDisplaySubsystem__XRRenderPass, cu
 namespace UnityEngine::XR {
 // Is value type: true
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15643))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15774))
 // CS Name: ::XRDisplaySubsystem::XRMirrorViewBlitDesc
 struct CORDL_TYPE __XRDisplaySubsystem__XRMirrorViewBlitDesc {
 public:

@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::GlobalNamespace::EnvironmentStartEndSongAudioEffect);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 110, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4982)), TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4063))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4336)), TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4009))
 // CS Name: ::EnvironmentStartEndSongAudioEffect*
 class CORDL_TYPE EnvironmentStartEndSongAudioEffect : public ::UnityEngine::MonoBehaviour {
 public:
@@ -176,30 +176,30 @@ public:
 
   constexpr void __cordl_internal_set__isWaitingToPlayStartAudio(bool value);
 
-  /// @brief Method Start, addr 0x222d3bc, size 0x478, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x22b7068, size 0x478, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy, addr 0x222d834, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x22b74e0, size 0x254, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Update, addr 0x222da88, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x22b7734, size 0x2a8, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method LevelWillFinishWithinAheadTime, addr 0x222dd30, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method LevelWillFinishWithinAheadTime, addr 0x22b79dc, size 0x5c, virtual false, abstract: false, final false
   inline void LevelWillFinishWithinAheadTime();
 
-  /// @brief Method HandleLevelFailed, addr 0x222dd8c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method HandleLevelFailed, addr 0x22b7a38, size 0x90, virtual false, abstract: false, final false
   inline void HandleLevelFailed();
 
-  /// @brief Method HandleGamePauseDidResume, addr 0x222de1c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandleGamePauseDidResume, addr 0x22b7ac8, size 0x24, virtual false, abstract: false, final false
   inline void HandleGamePauseDidResume();
 
-  /// @brief Method HandleGamePauseDidPause, addr 0x222de40, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandleGamePauseDidPause, addr 0x22b7aec, size 0x24, virtual false, abstract: false, final false
   inline void HandleGamePauseDidPause();
 
   static inline ::GlobalNamespace::EnvironmentStartEndSongAudioEffect* New_ctor();
 
-  /// @brief Method .ctor, addr 0x222de64, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b7b10, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EnvironmentStartEndSongAudioEffect", modifiers: "&&", def_value: None }]

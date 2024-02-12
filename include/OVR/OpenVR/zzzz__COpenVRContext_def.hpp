@@ -17,7 +17,7 @@ MARK_VAL_T(::OVR::OpenVR::COpenVRContext);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8727))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8671))
 // CS Name: ::OVR.OpenVR::COpenVRContext
 struct CORDL_TYPE COpenVRContext {
 public:

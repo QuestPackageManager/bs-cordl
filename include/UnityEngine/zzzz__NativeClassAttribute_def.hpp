@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::UnityEngine::NativeClassAttribute);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16008))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16103))
 // CS Name: ::UnityEngine::NativeClassAttribute*
 class CORDL_TYPE NativeClassAttribute : public ::System::Attribute {
 public:
@@ -43,20 +43,20 @@ public:
 
   constexpr void __cordl_internal_set__Declaration_k__BackingField(::StringW value);
 
-  /// @brief Method set_QualifiedNativeName, addr 0x2d18060, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_QualifiedNativeName, addr 0x2d38b08, size 0x8, virtual false, abstract: false, final false
   inline void set_QualifiedNativeName(::StringW value);
 
-  /// @brief Method set_Declaration, addr 0x2d18068, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Declaration, addr 0x2d38b10, size 0x8, virtual false, abstract: false, final false
   inline void set_Declaration(::StringW value);
 
   static inline ::UnityEngine::NativeClassAttribute* New_ctor(::StringW qualifiedCppName);
 
-  /// @brief Method .ctor, addr 0x2d18070, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d38b18, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW qualifiedCppName);
 
   static inline ::UnityEngine::NativeClassAttribute* New_ctor(::StringW qualifiedCppName, ::StringW declaration);
 
-  /// @brief Method .ctor, addr 0x2d180e0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d38b88, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW qualifiedCppName, ::StringW declaration);
 
   // Ctor Parameters [CppParam { name: "", ty: "NativeClassAttribute", modifiers: "&&", def_value: None }]

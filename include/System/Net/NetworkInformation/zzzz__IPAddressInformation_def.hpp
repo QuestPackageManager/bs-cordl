@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::IPAddressInformation);
 namespace System::Net::NetworkInformation {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9248))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7258))
 // CS Name: ::System.Net.NetworkInformation::IPAddressInformation*
 class CORDL_TYPE IPAddressInformation : public ::System::Object {
 public:
@@ -30,7 +30,7 @@ public:
 
   static inline ::System::Net::NetworkInformation::IPAddressInformation* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29eb6a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29f0148, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "IPAddressInformation", modifiers: "&&", def_value: None }]

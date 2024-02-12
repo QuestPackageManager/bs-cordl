@@ -55,24 +55,24 @@ public:
 
   static inline ::System::Security::AccessControl::KnownAce* New_ctor(::System::Security::AccessControl::AceType type, ::System::Security::AccessControl::AceFlags flags);
 
-  /// @brief Method .ctor, addr 0x2483ed0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24a5f44, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::AccessControl::AceType type, ::System::Security::AccessControl::AceFlags flags);
 
   static inline ::System::Security::AccessControl::KnownAce* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> binaryForm, int32_t offset);
 
-  /// @brief Method .ctor, addr 0x2483ed4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24a5f48, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> binaryForm, int32_t offset);
 
-  /// @brief Method get_AccessMask, addr 0x2483ed8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AccessMask, addr 0x24a5f4c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_AccessMask();
 
-  /// @brief Method set_AccessMask, addr 0x2483ee0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AccessMask, addr 0x24a5f54, size 0x8, virtual false, abstract: false, final false
   inline void set_AccessMask(int32_t value);
 
-  /// @brief Method get_SecurityIdentifier, addr 0x2483ee8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SecurityIdentifier, addr 0x24a5f5c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Principal::SecurityIdentifier* get_SecurityIdentifier();
 
-  /// @brief Method set_SecurityIdentifier, addr 0x2483ef0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SecurityIdentifier, addr 0x24a5f64, size 0x8, virtual false, abstract: false, final false
   inline void set_SecurityIdentifier(::System::Security::Principal::SecurityIdentifier* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "KnownAce", modifiers: "&&", def_value: None }]

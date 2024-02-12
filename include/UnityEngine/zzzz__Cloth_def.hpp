@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::UnityEngine::Cloth);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 29, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10238))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16181))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8982))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16329))
 // CS Name: ::UnityEngine::Cloth*
 class CORDL_TYPE Cloth : public ::UnityEngine::Component {
 public:
@@ -46,10 +46,10 @@ public:
 
   constexpr void __cordl_internal_set__selfCollision_k__BackingField(bool value);
 
-  /// @brief Method set_externalAcceleration, addr 0x2c9d454, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_externalAcceleration, addr 0x2c9df00, size 0x54, virtual false, abstract: false, final false
   inline void set_externalAcceleration(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_externalAcceleration_Injected, addr 0x2c9d4a8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_externalAcceleration_Injected, addr 0x2c9df54, size 0x44, virtual false, abstract: false, final false
   inline void set_externalAcceleration_Injected(ByRef<::UnityEngine::Vector3> value);
 
   // Ctor Parameters [CppParam { name: "", ty: "Cloth", modifiers: "&&", def_value: None }]

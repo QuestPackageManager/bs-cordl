@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::System::Reflection::Emit::SignatureHelper);
 namespace System::Reflection::Emit {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3547))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3543))
 // CS Name: ::System.Reflection.Emit::SignatureHelper*
 class CORDL_TYPE SignatureHelper : public ::System::Object {
 public:

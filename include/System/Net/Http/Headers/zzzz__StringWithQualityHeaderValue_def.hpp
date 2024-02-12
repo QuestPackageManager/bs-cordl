@@ -37,8 +37,8 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::StringWithQualityHeaderValue);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 2704
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14707)) CS Name: ::System.Net.Http.Headers::StringWithQualityHeaderValue*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 2674
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14712)) CS Name: ::System.Net.Http.Headers::StringWithQualityHeaderValue*
 class CORDL_TYPE StringWithQualityHeaderValue : public ::System::Object {
 public:
   // Declarations
@@ -72,38 +72,38 @@ public:
 
   static inline ::System::Net::Http::Headers::StringWithQualityHeaderValue* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2841764, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2845dcc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Quality, addr 0x284176c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Quality, addr 0x2845dd4, size 0xc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<double_t> get_Quality();
 
-  /// @brief Method set_Quality, addr 0x2841778, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Quality, addr 0x2845de0, size 0x8, virtual false, abstract: false, final false
   inline void set_Quality(::System::Nullable_1<double_t> value);
 
-  /// @brief Method get_Value, addr 0x2841780, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x2845de8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method set_Value, addr 0x2841788, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Value, addr 0x2845df0, size 0x8, virtual false, abstract: false, final false
   inline void set_Value(::StringW value);
 
-  /// @brief Method System.ICloneable.Clone, addr 0x2841790, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.ICloneable.Clone, addr 0x2845df8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method Equals, addr 0x2841798, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2845e00, size 0xe8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2841880, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2845ee8, size 0x8c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method TryParse, addr 0x284190c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x2845f74, size 0xb0, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, int32_t minimalCount, ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::StringWithQualityHeaderValue*>*> result);
 
-  /// @brief Method TryParseElement, addr 0x28419bc, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method TryParseElement, addr 0x2846024, size 0x268, virtual false, abstract: false, final false
   static inline bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ByRef<::System::Net::Http::Headers::StringWithQualityHeaderValue*> parsedValue,
                                      ByRef<::System::Net::Http::Headers::Token> t);
 
-  /// @brief Method ToString, addr 0x2841c24, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x284628c, size 0x10c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "StringWithQualityHeaderValue", modifiers: "&&", def_value: None }]

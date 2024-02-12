@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::Zenject::SignalDeclarationBindInfo);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11172))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10654))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10314))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9796))
 // CS Name: ::Zenject::SignalDeclarationBindInfo*
 class CORDL_TYPE SignalDeclarationBindInfo : public ::System::Object {
 public:
@@ -89,37 +89,37 @@ public:
 
   static inline ::Zenject::SignalDeclarationBindInfo* New_ctor(::System::Type* signalType);
 
-  /// @brief Method .ctor, addr 0x2ec244c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ede594, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* signalType);
 
-  /// @brief Method get_Identifier, addr 0x2ec2474, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Identifier, addr 0x2ede5bc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Identifier();
 
-  /// @brief Method set_Identifier, addr 0x2ec247c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Identifier, addr 0x2ede5c4, size 0x8, virtual false, abstract: false, final false
   inline void set_Identifier(::System::Object* value);
 
-  /// @brief Method get_SignalType, addr 0x2ec2484, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SignalType, addr 0x2ede5cc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_SignalType();
 
-  /// @brief Method set_SignalType, addr 0x2ec248c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SignalType, addr 0x2ede5d4, size 0x8, virtual false, abstract: false, final false
   inline void set_SignalType(::System::Type* value);
 
-  /// @brief Method get_RunAsync, addr 0x2ec2494, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RunAsync, addr 0x2ede5dc, size 0x8, virtual false, abstract: false, final false
   inline bool get_RunAsync();
 
-  /// @brief Method set_RunAsync, addr 0x2ec249c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_RunAsync, addr 0x2ede5e4, size 0xc, virtual false, abstract: false, final false
   inline void set_RunAsync(bool value);
 
-  /// @brief Method get_TickPriority, addr 0x2ec24a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TickPriority, addr 0x2ede5f0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_TickPriority();
 
-  /// @brief Method set_TickPriority, addr 0x2ec24b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_TickPriority, addr 0x2ede5f8, size 0x8, virtual false, abstract: false, final false
   inline void set_TickPriority(int32_t value);
 
-  /// @brief Method get_MissingHandlerResponse, addr 0x2ec24b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MissingHandlerResponse, addr 0x2ede600, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::SignalMissingHandlerResponses get_MissingHandlerResponse();
 
-  /// @brief Method set_MissingHandlerResponse, addr 0x2ec24c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MissingHandlerResponse, addr 0x2ede608, size 0x8, virtual false, abstract: false, final false
   inline void set_MissingHandlerResponse(::Zenject::SignalMissingHandlerResponses value);
 
   // Ctor Parameters [CppParam { name: "", ty: "SignalDeclarationBindInfo", modifiers: "&&", def_value: None }]

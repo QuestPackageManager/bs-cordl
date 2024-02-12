@@ -50,8 +50,8 @@ MARK_VAL_T(::UnityEngine::UIElements::__StylePropertyNameCollection__Enumerator)
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3842)), TypeDefinitionIndex(TypeDefinitionIndex(6791)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1693
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7186)) CS Name: ::StylePropertyNameCollection::Enumerator
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3841)), TypeDefinitionIndex(TypeDefinitionIndex(6050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3841), inst: 1651
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6445)) CS Name: ::StylePropertyNameCollection::Enumerator
 struct CORDL_TYPE __StylePropertyNameCollection__Enumerator {
 public:
   // Declarations
@@ -78,22 +78,22 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable();
 
-  /// @brief Method .ctor, addr 0x2e4e6e0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e69ac8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::__List_1__Enumerator<::UnityEngine::UIElements::StylePropertyName> enumerator);
 
-  /// @brief Method MoveNext, addr 0x2e4e7bc, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2e69ba4, size 0x48, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method get_Current, addr 0x2e4e804, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x2e69bec, size 0x3c, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StylePropertyName get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2e4e840, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2e69c28, size 0x7c, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method Reset, addr 0x2e4e8bc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x2e69ca4, size 0x4, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method Dispose, addr 0x2e4e8c0, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2e69ca8, size 0x48, virtual true, abstract: false, final true
   inline void Dispose();
 
   // Ctor Parameters [CppParam { name: "m_Enumerator", ty: "::System::Collections::Generic::__List_1__Enumerator<::UnityEngine::UIElements::StylePropertyName>", modifiers: "", def_value: None }]
@@ -122,7 +122,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__StylePropertyNameCollection_
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7187))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6446))
 // CS Name: ::UnityEngine.UIElements::StylePropertyNameCollection
 struct CORDL_TYPE StylePropertyNameCollection {
 public:
@@ -142,16 +142,16 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable();
 
-  /// @brief Method .ctor, addr 0x2e4e668, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e69a50, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StylePropertyName>* list);
 
-  /// @brief Method GetEnumerator, addr 0x2e4e670, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x2e69a58, size 0x70, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::__StylePropertyNameCollection__Enumerator GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.UIElements.StylePropertyName>.GetEnumerator, addr 0x2e4e6ec, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.UIElements.StylePropertyName>.GetEnumerator, addr 0x2e69ad4, size 0x68, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::StylePropertyName>* System_Collections_Generic_IEnumerable_UnityEngine_UIElements_StylePropertyName__GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2e4e754, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2e69b3c, size 0x68, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   // Ctor Parameters [CppParam { name: "propertiesList", ty: "::System::Collections::Generic::List_1<::UnityEngine::UIElements::StylePropertyName>*", modifiers: "", def_value: None }]

@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SwitchSettingsController::*)()>(&::GlobalNamespace::SwitchSettingsController::Awake)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x23e5984;
+  constexpr static std::size_t addrs = 0x24057f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SwitchSettingsController*>::get(), "Awake",
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SwitchSettingsController::*)()>(&::GlobalNamespace::SwitchSettingsController::OnDestroy)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x23e5a2c;
+  constexpr static std::size_t addrs = 0x24058a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SwitchSettingsController*>::get(), "OnDestroy",
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SwitchSettingsController::*)()>(&::GlobalNamespace::SwitchSettingsController::OnEnable)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x23e5ad4;
+  constexpr static std::size_t addrs = 0x2405948;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SwitchSettingsController*>::get(), "OnEnable",
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SwitchSettingsController::*)()>(&::GlobalNamespace::SwitchSettingsController::RefreshUI)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x23e5b10;
+  constexpr static std::size_t addrs = 0x2405984;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SwitchSettingsController*>::get(), "RefreshUI",
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SwitchSettingsController::*)(bool)>(
     &::GlobalNamespace::SwitchSettingsController::HandleToggleValueDidChange)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x23e5b34;
+  constexpr static std::size_t addrs = 0x24059a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SwitchSettingsController::*)()>(&::GlobalNamespace::SwitchSettingsController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23e4260;
+  constexpr static std::size_t addrs = 0x24040c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SwitchSettingsController*>::get(), ".ctor",

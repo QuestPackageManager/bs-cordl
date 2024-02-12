@@ -15,12 +15,12 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::RuntimeFeature);
 namespace System::Runtime::CompilerServices {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3382))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3378))
 // CS Name: ::System.Runtime.CompilerServices::RuntimeFeature*
 class CORDL_TYPE RuntimeFeature : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_IsDynamicCodeSupported, addr 0x24db254, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDynamicCodeSupported, addr 0x24fb5c0, size 0x8, virtual false, abstract: false, final false
   static inline bool get_IsDynamicCodeSupported();
 
   // Ctor Parameters [CppParam { name: "", ty: "RuntimeFeature", modifiers: "&&", def_value: None }]

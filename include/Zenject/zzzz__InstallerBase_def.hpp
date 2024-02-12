@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::Zenject::InstallerBase);
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11137))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10279))
 // CS Name: ::Zenject::InstallerBase*
 class CORDL_TYPE InstallerBase : public ::System::Object {
 public:
@@ -51,10 +51,10 @@ public:
 
   constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
 
-  /// @brief Method get_Container, addr 0x2ef4bbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Container, addr 0x2f10d04, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* get_Container();
 
-  /// @brief Method get_IsEnabled, addr 0x2ef4bc4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsEnabled, addr 0x2f10d0c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsEnabled();
 
   /// @brief Method InstallBindings, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -62,13 +62,13 @@ public:
 
   static inline ::Zenject::InstallerBase* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ef4a3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f10b84, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method __zenFieldSetter0, addr 0x2ef4bcc, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method __zenFieldSetter0, addr 0x2f10d14, size 0x134, virtual false, abstract: false, final false
   static inline void __zenFieldSetter0(::System::Object* P_0, ::System::Object* P_1);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ef4d00, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f10e48, size 0x2b0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "InstallerBase", modifiers: "&&", def_value: None }]

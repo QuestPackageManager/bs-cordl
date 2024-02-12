@@ -80,9 +80,9 @@ MARK_VAL_T(::System::Net::Http::__HttpClient___SendAsyncWorker_d__47);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3397)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(14645)), TypeDefinitionIndex(TypeDefinitionIndex(14655)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3397), inst: 883 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 883 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14642)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3391)), TypeDefinitionIndex(TypeDefinitionIndex(3393)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3398)), TypeDefinitionIndex(TypeDefinitionIndex(14650)), TypeDefinitionIndex(TypeDefinitionIndex(14660)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3393), inst: 887 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3398), inst: 887 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14647)) CS Name:
 // ::HttpClient::<SendAsyncWorker>d__47
 struct CORDL_TYPE __HttpClient___SendAsyncWorker_d__47 {
 public:
@@ -93,10 +93,10 @@ public:
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x283198c, size 0x620, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2836100, size 0x620, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2831fac, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2836720, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -181,9 +181,9 @@ static_assert(offsetof(::System::Net::Http::__HttpClient___SendAsyncWorker_d__47
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(14655)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 397 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 883 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 397 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14643)) CS Name: ::HttpClient::<GetStringAsync>d__53
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3398)), TypeDefinitionIndex(TypeDefinitionIndex(14660)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3393), inst: 398 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3393), inst: 887 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3398), inst: 398 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14648)) CS Name: ::HttpClient::<GetStringAsync>d__53
 struct CORDL_TYPE __HttpClient___GetStringAsync_d__53 {
 public:
   // Declarations
@@ -193,10 +193,10 @@ public:
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x2832004, size 0x4c4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2836778, size 0x4c4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2832668, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2836ddc, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -262,8 +262,8 @@ static_assert(offsetof(::System::Net::Http::__HttpClient___GetStringAsync_d__53,
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2484)), TypeDefinitionIndex(TypeDefinitionIndex(14651))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14644))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2484)), TypeDefinitionIndex(TypeDefinitionIndex(14656))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14649))
 // CS Name: ::System.Net.Http::HttpClient*
 class CORDL_TYPE HttpClient : public ::System::Net::Http::HttpMessageInvoker {
 public:
@@ -339,49 +339,46 @@ public:
 
   static inline ::System::Net::Http::HttpClient* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2830bdc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28353c4, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Net::Http::HttpClient* New_ctor(::System::Net::Http::HttpMessageHandler* handler, bool disposeHandler);
 
-  /// @brief Method .ctor, addr 0x2830c40, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2835428, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Http::HttpMessageHandler* handler, bool disposeHandler);
 
-  /// @brief Method get_MaxResponseContentBufferSize, addr 0x2830d80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaxResponseContentBufferSize, addr 0x2835568, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_MaxResponseContentBufferSize();
 
-  /// @brief Method set_Timeout, addr 0x2830d88, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method set_Timeout, addr 0x2835570, size 0x134, virtual false, abstract: false, final false
   inline void set_Timeout(::System::TimeSpan value);
 
-  /// @brief Method Dispose, addr 0x2830ebc, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x28356a4, size 0x6c, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method GetAsync, addr 0x2830f60, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetAsync, addr 0x2835748, size 0xdc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* GetAsync(::System::Uri* requestUri, ::System::Net::Http::HttpCompletionOption completionOption);
 
-  /// @brief Method SendAsync, addr 0x28310f0, size 0x74, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* SendAsync(::System::Net::Http::HttpRequestMessage* request);
-
-  /// @brief Method SendAsync, addr 0x2831078, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SendAsync, addr 0x2835860, size 0x78, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* SendAsync(::System::Net::Http::HttpRequestMessage* request,
                                                                                                   ::System::Net::Http::HttpCompletionOption completionOption);
 
-  /// @brief Method SendAsync, addr 0x28313f4, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method SendAsync, addr 0x2835b68, size 0xc, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* SendAsync(::System::Net::Http::HttpRequestMessage* request,
                                                                                                   ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method SendAsync, addr 0x2831164, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method SendAsync, addr 0x28358d8, size 0x290, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>*
   SendAsync(::System::Net::Http::HttpRequestMessage* request, ::System::Net::Http::HttpCompletionOption completionOption, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method SendAsyncWorker, addr 0x28316b8, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method SendAsyncWorker, addr 0x2835e2c, size 0x118, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>*
   SendAsyncWorker(::System::Net::Http::HttpRequestMessage* request, ::System::Net::Http::HttpCompletionOption completionOption, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method GetStringAsync, addr 0x28317d0, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetStringAsync, addr 0x2835f44, size 0x100, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::StringW>* GetStringAsync(::System::Uri* requestUri);
 
-  /// @brief Method <>n__0, addr 0x283194c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <>n__0, addr 0x28360c0, size 0x20, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* __n__0(::System::Net::Http::HttpRequestMessage* request,
                                                                                                ::System::Threading::CancellationToken cancellationToken);
 

@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::LicensesDisplayViewController);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5688))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13558))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4989))
 // CS Name: ::LicensesDisplayViewController*
 class CORDL_TYPE LicensesDisplayViewController : public ::HMUI::ViewController {
 public:
@@ -44,12 +44,12 @@ public:
 
   constexpr void __cordl_internal_set__textAsset(::UnityW<::UnityEngine::TextAsset> value);
 
-  /// @brief Method DidActivate, addr 0x22c800c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x22f7874, size 0x44, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::LicensesDisplayViewController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22c8050, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22f78b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LicensesDisplayViewController", modifiers: "&&", def_value: None }]

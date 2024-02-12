@@ -2,16 +2,17 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ILobbyPlayersDataModel)
+namespace GlobalNamespace {
+struct BeatmapKey;
+}
 namespace GlobalNamespace {
 class GameplayModifiers;
 }
 namespace GlobalNamespace {
 class ILobbyPlayerData;
-}
-namespace GlobalNamespace {
-class PreviewDifficultyBeatmap;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
@@ -42,7 +43,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ILobbyPlayersDataModel);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4492))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10918))
 // CS Name: ::ILobbyPlayersDataModel*
 class CORDL_TYPE ILobbyPlayersDataModel {
 public:
@@ -91,7 +92,7 @@ public:
   inline ::StringW get_partyOwnerId();
 
   /// @brief Method SetLocalPlayerBeatmapLevel, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void SetLocalPlayerBeatmapLevel(::GlobalNamespace::PreviewDifficultyBeatmap* beatmapLevel);
+  inline void SetLocalPlayerBeatmapLevel(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey);
 
   /// @brief Method ClearLocalPlayerBeatmapLevel, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ClearLocalPlayerBeatmapLevel();

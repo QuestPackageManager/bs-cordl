@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::Test_TerrainData);
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9942))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9734))
 // CS Name: ::HoudiniEngineUnity::Test_TerrainData*
 class CORDL_TYPE Test_TerrainData : public ::System::Object {
 public:
@@ -53,13 +53,13 @@ public:
 
   static inline ::HoudiniEngineUnity::Test_TerrainData* New_ctor(::UnityEngine::TerrainData* self);
 
-  /// @brief Method .ctor, addr 0x21e880c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x227e0f4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::TerrainData* self);
 
-  /// @brief Method IsNull, addr 0x21e8834, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method IsNull, addr 0x227e11c, size 0x60, virtual true, abstract: false, final true
   inline bool IsNull();
 
-  /// @brief Method IsEquivalentTo, addr 0x21e8894, size 0x568, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x227e17c, size 0x568, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_TerrainData* other);
 
   // Ctor Parameters [CppParam { name: "", ty: "Test_TerrainData", modifiers: "&&", def_value: None }]

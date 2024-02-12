@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::RangeItemHeaderValue);
 namespace System::Net::Http::Headers {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 333
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14705)) CS Name: ::System.Net.Http.Headers::RangeItemHeaderValue*
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14710)) CS Name: ::System.Net.Http.Headers::RangeItemHeaderValue*
 class CORDL_TYPE RangeItemHeaderValue : public ::System::Object {
 public:
   // Declarations
@@ -61,31 +61,31 @@ public:
 
   static inline ::System::Net::Http::Headers::RangeItemHeaderValue* New_ctor(::System::Nullable_1<int64_t> from, ::System::Nullable_1<int64_t> to);
 
-  /// @brief Method .ctor, addr 0x2840a80, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28450e8, size 0x15c, virtual false, abstract: false, final false
   inline void _ctor(::System::Nullable_1<int64_t> from, ::System::Nullable_1<int64_t> to);
 
-  /// @brief Method get_From, addr 0x2840d7c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_From, addr 0x28453e4, size 0xc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int64_t> get_From();
 
-  /// @brief Method set_From, addr 0x2840d88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_From, addr 0x28453f0, size 0x8, virtual false, abstract: false, final false
   inline void set_From(::System::Nullable_1<int64_t> value);
 
-  /// @brief Method get_To, addr 0x2840d90, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_To, addr 0x28453f8, size 0xc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int64_t> get_To();
 
-  /// @brief Method set_To, addr 0x2840d9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_To, addr 0x2845404, size 0x8, virtual false, abstract: false, final false
   inline void set_To(::System::Nullable_1<int64_t> value);
 
-  /// @brief Method System.ICloneable.Clone, addr 0x2840da4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.ICloneable.Clone, addr 0x284540c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method Equals, addr 0x2840dac, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2845414, size 0x104, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2840eb0, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2845518, size 0x78, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x2840f28, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2845590, size 0x130, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "RangeItemHeaderValue", modifiers: "&&", def_value: None }]

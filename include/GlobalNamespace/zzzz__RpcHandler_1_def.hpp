@@ -127,7 +127,7 @@ namespace GlobalNamespace {
 template <typename TType, typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12942))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12840))
 // CS Name: ::RpcHandler`1::<>c__DisplayClass10_0`1<TType,T>*
 class CORDL_TYPE __RpcHandler_1____c__DisplayClass10_0_1 : public ::System::Object {
 public:
@@ -177,7 +177,7 @@ namespace GlobalNamespace {
 template <typename TType, typename T, typename T0>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12943))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12841))
 // CS Name: ::RpcHandler`1::<>c__DisplayClass11_0`2<TType,T,T0>*
 class CORDL_TYPE __RpcHandler_1____c__DisplayClass11_0_2 : public ::System::Object {
 public:
@@ -227,7 +227,7 @@ namespace GlobalNamespace {
 template <typename TType, typename T, typename T0, typename T1>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12944))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12842))
 // CS Name: ::RpcHandler`1::<>c__DisplayClass12_0`3<TType,T,T0,T1>*
 class CORDL_TYPE __RpcHandler_1____c__DisplayClass12_0_3 : public ::System::Object {
 public:
@@ -277,7 +277,7 @@ namespace GlobalNamespace {
 template <typename TType, typename T, typename T0, typename T1, typename T2>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12945))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12843))
 // CS Name: ::RpcHandler`1::<>c__DisplayClass13_0`4<TType,T,T0,T1,T2>*
 class CORDL_TYPE __RpcHandler_1____c__DisplayClass13_0_4 : public ::System::Object {
 public:
@@ -327,7 +327,7 @@ namespace GlobalNamespace {
 template <typename TType, typename T, typename T0, typename T1, typename T2, typename T3>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12946))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12844))
 // CS Name: ::RpcHandler`1::<>c__DisplayClass14_0`5<TType,T,T0,T1,T2,T3>*
 class CORDL_TYPE __RpcHandler_1____c__DisplayClass14_0_5 : public ::System::Object {
 public:
@@ -377,7 +377,7 @@ namespace GlobalNamespace {
 template <typename TType, typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12947))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12845))
 // CS Name: ::RpcHandler`1::<>c__DisplayClass15_0`1<TType,T>*
 class CORDL_TYPE __RpcHandler_1____c__DisplayClass15_0_1 : public ::System::Object {
 public:
@@ -427,7 +427,7 @@ namespace GlobalNamespace {
 template <typename TType, typename T, typename T0>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12948))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12846))
 // CS Name: ::RpcHandler`1::<>c__DisplayClass16_0`2<TType,T,T0>*
 class CORDL_TYPE __RpcHandler_1____c__DisplayClass16_0_2 : public ::System::Object {
 public:
@@ -477,7 +477,7 @@ namespace GlobalNamespace {
 template <typename TType, typename T, typename T0, typename T1>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12949))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12847))
 // CS Name: ::RpcHandler`1::<>c__DisplayClass17_0`3<TType,T,T0,T1>*
 class CORDL_TYPE __RpcHandler_1____c__DisplayClass17_0_3 : public ::System::Object {
 public:
@@ -527,7 +527,7 @@ namespace GlobalNamespace {
 template <typename TType, typename T, typename T0, typename T1, typename T2>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12950))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12848))
 // CS Name: ::RpcHandler`1::<>c__DisplayClass18_0`4<TType,T,T0,T1,T2>*
 class CORDL_TYPE __RpcHandler_1____c__DisplayClass18_0_4 : public ::System::Object {
 public:
@@ -577,7 +577,7 @@ namespace GlobalNamespace {
 template <typename TType, typename T, typename T0, typename T1, typename T2, typename T3>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12951))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12849))
 // CS Name: ::RpcHandler`1::<>c__DisplayClass19_0`5<TType,T,T0,T1,T2,T3>*
 class CORDL_TYPE __RpcHandler_1____c__DisplayClass19_0_5 : public ::System::Object {
 public:
@@ -627,7 +627,7 @@ namespace GlobalNamespace {
 template <typename TType, typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12952))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12850))
 // CS Name: ::RpcHandler`1::<>c__DisplayClass20_0`1<TType,T>*
 class CORDL_TYPE __RpcHandler_1____c__DisplayClass20_0_1 : public ::System::Object {
 public:
@@ -676,8 +676,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TType>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12881))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12953))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12779))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12851))
 // CS Name: ::RpcHandler`1<TType>*
 class CORDL_TYPE RpcHandler_1 : public ::System::Object {
 public:

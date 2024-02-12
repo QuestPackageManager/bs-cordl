@@ -20,18 +20,18 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::StringReferenceExtensions);
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11867))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11765))
 // CS Name: ::Newtonsoft.Json.Utilities::StringReferenceExtensions*
 class CORDL_TYPE StringReferenceExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IndexOf, addr 0x265ba80, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x267ec3c, size 0x84, virtual false, abstract: false, final false
   static inline int32_t IndexOf(::Newtonsoft::Json::Utilities::StringReference s, char16_t c, int32_t startIndex, int32_t length);
 
-  /// @brief Method StartsWith, addr 0x265bb04, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method StartsWith, addr 0x267ecc0, size 0xb4, virtual false, abstract: false, final false
   static inline bool StartsWith(::Newtonsoft::Json::Utilities::StringReference s, ::StringW text);
 
-  /// @brief Method EndsWith, addr 0x265bbb8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method EndsWith, addr 0x267ed74, size 0xb8, virtual false, abstract: false, final false
   static inline bool EndsWith(::Newtonsoft::Json::Utilities::StringReference s, ::StringW text);
 
   // Ctor Parameters [CppParam { name: "", ty: "StringReferenceExtensions", modifiers: "&&", def_value: None }]

@@ -19,12 +19,12 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::WeightUtility);
 namespace UnityEngine::Timeline {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13944))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13897))
 // CS Name: ::UnityEngine.Timeline::WeightUtility*
 class CORDL_TYPE WeightUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method NormalizeMixer, addr 0x2c74474, size 0x1188, virtual false, abstract: false, final false
+  /// @brief Method NormalizeMixer, addr 0x2c70fe0, size 0x1188, virtual false, abstract: false, final false
   static inline float_t NormalizeMixer(::UnityEngine::Playables::Playable mixer);
 
   // Ctor Parameters [CppParam { name: "", ty: "WeightUtility", modifiers: "&&", def_value: None }]

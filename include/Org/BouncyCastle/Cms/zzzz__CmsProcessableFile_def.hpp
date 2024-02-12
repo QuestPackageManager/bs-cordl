@@ -68,21 +68,21 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::CmsProcessableFile* New_ctor(::System::IO::FileInfo* file);
 
-  /// @brief Method .ctor, addr 0x11e5190, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1212020, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::FileInfo* file);
 
   static inline ::Org::BouncyCastle::Cms::CmsProcessableFile* New_ctor(::System::IO::FileInfo* file, int32_t bufSize);
 
-  /// @brief Method .ctor, addr 0x11e51c0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1212050, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::FileInfo* file, int32_t bufSize);
 
-  /// @brief Method GetInputStream, addr 0x11e51f0, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method GetInputStream, addr 0x1212080, size 0x94, virtual true, abstract: false, final false
   inline ::System::IO::Stream* GetInputStream();
 
-  /// @brief Method Write, addr 0x11e5284, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x1212114, size 0x84, virtual true, abstract: false, final false
   inline void Write(::System::IO::Stream* zOut);
 
-  /// @brief Method GetContent, addr 0x11e5308, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetContent, addr 0x1212198, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* GetContent();
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsProcessableFile", modifiers: "&&", def_value: None }]

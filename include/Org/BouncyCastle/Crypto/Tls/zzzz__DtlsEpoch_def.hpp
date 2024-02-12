@@ -73,22 +73,22 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DtlsEpoch* New_ctor(int32_t epoch, ::Org::BouncyCastle::Crypto::Tls::TlsCipher* cipher);
 
-  /// @brief Method .ctor, addr 0xf6d3f8, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf97288, size 0x134, virtual false, abstract: false, final false
   inline void _ctor(int32_t epoch, ::Org::BouncyCastle::Crypto::Tls::TlsCipher* cipher);
 
-  /// @brief Method AllocateSequenceNumber, addr 0xf6d540, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method AllocateSequenceNumber, addr 0xf973d0, size 0xf4, virtual false, abstract: false, final false
   inline int64_t AllocateSequenceNumber();
 
-  /// @brief Method get_Cipher, addr 0xf6d634, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Cipher, addr 0xf974c4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsCipher* get_Cipher();
 
-  /// @brief Method get_Epoch, addr 0xf6d63c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Epoch, addr 0xf974cc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Epoch();
 
-  /// @brief Method get_ReplayWindow, addr 0xf6d644, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ReplayWindow, addr 0xf974d4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::DtlsReplayWindow* get_ReplayWindow();
 
-  /// @brief Method get_SequenceNumber, addr 0xf6d64c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_SequenceNumber, addr 0xf974dc, size 0x34, virtual false, abstract: false, final false
   inline int64_t get_SequenceNumber();
 
   // Ctor Parameters [CppParam { name: "", ty: "DtlsEpoch", modifiers: "&&", def_value: None }]

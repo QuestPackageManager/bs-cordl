@@ -72,28 +72,28 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Signers::GenericSigner* New_ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* engine, ::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method .ctor, addr 0xf4c380, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf77210, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* engine, ::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method get_AlgorithmName, addr 0xf4c3ac, size 0x274, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0xf7723c, size 0x274, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method Init, addr 0xf4c620, size 0x228, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0xf774b0, size 0x228, virtual true, abstract: false, final false
   inline void Init(bool forSigning, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method Update, addr 0xf4c848, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0xf776d8, size 0xac, virtual true, abstract: false, final false
   inline void Update(uint8_t input);
 
-  /// @brief Method BlockUpdate, addr 0xf4c8f4, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method BlockUpdate, addr 0xf77784, size 0xc4, virtual true, abstract: false, final false
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
-  /// @brief Method GenerateSignature, addr 0xf4c9b8, size 0x220, virtual true, abstract: false, final false
+  /// @brief Method GenerateSignature, addr 0xf77848, size 0x220, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateSignature();
 
-  /// @brief Method VerifySignature, addr 0xf4cbd8, size 0x360, virtual true, abstract: false, final false
+  /// @brief Method VerifySignature, addr 0xf77a68, size 0x360, virtual true, abstract: false, final false
   inline bool VerifySignature(::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
 
-  /// @brief Method Reset, addr 0xf4cf38, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0xf77dc8, size 0xa4, virtual true, abstract: false, final false
   inline void Reset();
 
   // Ctor Parameters [CppParam { name: "", ty: "GenericSigner", modifiers: "&&", def_value: None }]

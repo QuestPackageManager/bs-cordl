@@ -25,23 +25,23 @@ MARK_REF_PTR_T(::ENet::NoMemoryCallback);
 namespace ENet {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15223))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15336))
 // CS Name: ::ENet::NoMemoryCallback*
 class CORDL_TYPE NoMemoryCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::ENet::NoMemoryCallback* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x21eefa4, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x228488c, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x21ef060, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2284948, size 0x14, virtual true, abstract: false, final false
   inline void Invoke();
 
-  /// @brief Method BeginInvoke, addr 0x21ef074, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x228495c, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x21ef094, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x228497c, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "NoMemoryCallback", modifiers: "&&", def_value: None }]

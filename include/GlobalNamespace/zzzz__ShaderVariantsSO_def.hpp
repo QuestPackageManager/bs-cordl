@@ -38,8 +38,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__ShaderVariantsSO__ShaderVariant__Variant);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10340))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15308))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9090))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15423))
 // CS Name: ::ShaderVariantsSO::ShaderVariant::Variant*
 class CORDL_TYPE __ShaderVariantsSO__ShaderVariant__Variant : public ::System::Object {
 public:
@@ -66,15 +66,15 @@ public:
 
   constexpr void __cordl_internal_set__keywords(::StringW value);
 
-  /// @brief Method get_passType, addr 0x280bcf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_passType, addr 0x28104dc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::PassType get_passType();
 
-  /// @brief Method get_keywords, addr 0x280bcfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_keywords, addr 0x28104e4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_keywords();
 
   static inline ::GlobalNamespace::__ShaderVariantsSO__ShaderVariant__Variant* New_ctor(::UnityEngine::Rendering::PassType passType, ::StringW keywords);
 
-  /// @brief Method .ctor, addr 0x280bd04, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28104ec, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::PassType passType, ::StringW keywords);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ShaderVariantsSO__ShaderVariant__Variant", modifiers: "&&", def_value: None }]
@@ -112,7 +112,7 @@ static_assert(offsetof(::GlobalNamespace::__ShaderVariantsSO__ShaderVariant__Var
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15309))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15424))
 // CS Name: ::ShaderVariantsSO::ShaderVariant*
 class CORDL_TYPE __ShaderVariantsSO__ShaderVariant : public ::System::Object {
 public:
@@ -144,16 +144,16 @@ public:
 
   constexpr void __cordl_internal_set__shader(::UnityW<::UnityEngine::Shader> value);
 
-  /// @brief Method get_variants, addr 0x280bcb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_variants, addr 0x28104a0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant__Variant*, ::Array<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant__Variant*>*> get_variants();
 
-  /// @brief Method get_shader, addr 0x280bcc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_shader, addr 0x28104a8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_shader();
 
   static inline ::GlobalNamespace::__ShaderVariantsSO__ShaderVariant*
   New_ctor(::UnityEngine::Shader* shader, ::ArrayW<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant__Variant*, ::Array<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant__Variant*>*> variants);
 
-  /// @brief Method .ctor, addr 0x280bcc8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28104b0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Shader* shader,
                     ::ArrayW<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant__Variant*, ::Array<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant__Variant*>*> variants);
 
@@ -191,8 +191,8 @@ static_assert(offsetof(::GlobalNamespace::__ShaderVariantsSO__ShaderVariant, ___
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15310))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15602))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15425))
 // CS Name: ::ShaderVariantsSO*
 class CORDL_TYPE ShaderVariantsSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -212,15 +212,15 @@ public:
 
   constexpr void __cordl_internal_set__shaderVariants(::ArrayW<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant*, ::Array<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant*>*> value);
 
-  /// @brief Method get_shaderVariants, addr 0x280bca0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_shaderVariants, addr 0x2810488, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant*, ::Array<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant*>*> get_shaderVariants();
 
-  /// @brief Method Init, addr 0x280bca8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2810490, size 0x8, virtual false, abstract: false, final false
   inline void Init(::ArrayW<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant*, ::Array<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant*>*> shaderVariants);
 
   static inline ::GlobalNamespace::ShaderVariantsSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x280bcb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2810498, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ShaderVariantsSO", modifiers: "&&", def_value: None }]

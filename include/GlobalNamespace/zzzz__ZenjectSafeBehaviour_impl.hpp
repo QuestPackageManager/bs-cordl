@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ZenjectSafeBehaviour::*)()>(&::GlobalNamespace::ZenjectSafeBehaviour::Inject)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x280c338;
+  constexpr static std::size_t addrs = 0x2810b20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ZenjectSafeBehaviour*>::get(), "Inject",
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ZenjectSafeBehaviour::*)()>(&::GlobalNamespace::ZenjectSafeBehaviour::OnEnable)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x280c378;
+  constexpr static std::size_t addrs = 0x2810b60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ZenjectSafeBehaviour*>::get(), "OnEnable",
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ZenjectSafeBehaviour::*)()>(
     &::GlobalNamespace::ZenjectSafeBehaviour::TryInvokeOnEnablePostInjection)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x280c358;
+  constexpr static std::size_t addrs = 0x2810b40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ZenjectSafeBehaviour*>::get(),
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ZenjectSafeBehaviour::*)()>(
     &::GlobalNamespace::ZenjectSafeBehaviour::OnEnablePostInjection)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x280c398;
+  constexpr static std::size_t addrs = 0x2810b80;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ZenjectSafeBehaviour::*)()>(&::GlobalNamespace::ZenjectSafeBehaviour::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x280772c;
+  constexpr static std::size_t addrs = 0x280bf14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ZenjectSafeBehaviour*>::get(), ".ctor",
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::GlobalNamespace::ZenjectSafeBehaviour::__zenInjectMethod0)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x280c39c;
+  constexpr static std::size_t addrs = 0x2810b84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::GlobalNamespace::ZenjectSafeBehaviour::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x280c43c;
+  constexpr static std::size_t addrs = 0x2810c24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ZenjectSafeBehaviour*>::get(),

@@ -158,7 +158,7 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::SignaturePacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor, addr 0x11cd64c, size 0xd7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11fb4dc, size 0xd7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
   static inline ::Org::BouncyCastle::Bcpg::SignaturePacket* New_ctor(int32_t signatureType, int64_t keyId, ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm,
@@ -168,7 +168,7 @@ public:
                                                                      ::ArrayW<uint8_t, ::Array<uint8_t>*> fingerprint,
                                                                      ::ArrayW<::Org::BouncyCastle::Bcpg::MPInteger*, ::Array<::Org::BouncyCastle::Bcpg::MPInteger*>*> signature);
 
-  /// @brief Method .ctor, addr 0x11d3f4c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1201ddc, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(int32_t signatureType, int64_t keyId, ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm, ::Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm,
                     ::ArrayW<::Org::BouncyCastle::Bcpg::SignatureSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::SignatureSubpacket*>*> hashedData,
                     ::ArrayW<::Org::BouncyCastle::Bcpg::SignatureSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::SignatureSubpacket*>*> unhashedData, ::ArrayW<uint8_t, ::Array<uint8_t>*> fingerprint,
@@ -178,7 +178,7 @@ public:
                                                                      ::Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm, int64_t creationTime, ::ArrayW<uint8_t, ::Array<uint8_t>*> fingerprint,
                                                                      ::ArrayW<::Org::BouncyCastle::Bcpg::MPInteger*, ::Array<::Org::BouncyCastle::Bcpg::MPInteger*>*> signature);
 
-  /// @brief Method .ctor, addr 0x11d4024, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1201eb4, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(int32_t version, int32_t signatureType, int64_t keyId, ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm, ::Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm,
                     int64_t creationTime, ::ArrayW<uint8_t, ::Array<uint8_t>*> fingerprint, ::ArrayW<::Org::BouncyCastle::Bcpg::MPInteger*, ::Array<::Org::BouncyCastle::Bcpg::MPInteger*>*> signature);
 
@@ -189,55 +189,55 @@ public:
                                                                      ::ArrayW<uint8_t, ::Array<uint8_t>*> fingerprint,
                                                                      ::ArrayW<::Org::BouncyCastle::Bcpg::MPInteger*, ::Array<::Org::BouncyCastle::Bcpg::MPInteger*>*> signature);
 
-  /// @brief Method .ctor, addr 0x11d3f8c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1201e1c, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(int32_t version, int32_t signatureType, int64_t keyId, ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm, ::Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm,
                     ::ArrayW<::Org::BouncyCastle::Bcpg::SignatureSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::SignatureSubpacket*>*> hashedData,
                     ::ArrayW<::Org::BouncyCastle::Bcpg::SignatureSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::SignatureSubpacket*>*> unhashedData, ::ArrayW<uint8_t, ::Array<uint8_t>*> fingerprint,
                     ::ArrayW<::Org::BouncyCastle::Bcpg::MPInteger*, ::Array<::Org::BouncyCastle::Bcpg::MPInteger*>*> signature);
 
-  /// @brief Method get_Version, addr 0x11d4188, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x1202018, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Version();
 
-  /// @brief Method get_SignatureType, addr 0x11d4190, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SignatureType, addr 0x1202020, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_SignatureType();
 
-  /// @brief Method get_KeyId, addr 0x11d4198, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KeyId, addr 0x1202028, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_KeyId();
 
-  /// @brief Method GetSignatureTrailer, addr 0x11d41a0, size 0x2fc, virtual false, abstract: false, final false
+  /// @brief Method GetSignatureTrailer, addr 0x1202030, size 0x2fc, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSignatureTrailer();
 
-  /// @brief Method get_KeyAlgorithm, addr 0x11d449c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KeyAlgorithm, addr 0x120232c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag get_KeyAlgorithm();
 
-  /// @brief Method get_HashAlgorithm, addr 0x11d44a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HashAlgorithm, addr 0x1202334, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::HashAlgorithmTag get_HashAlgorithm();
 
-  /// @brief Method GetSignature, addr 0x11d44ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetSignature, addr 0x120233c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Bcpg::MPInteger*, ::Array<::Org::BouncyCastle::Bcpg::MPInteger*>*> GetSignature();
 
-  /// @brief Method GetSignatureBytes, addr 0x11d44b4, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method GetSignatureBytes, addr 0x1202344, size 0x21c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSignatureBytes();
 
-  /// @brief Method GetHashedSubPackets, addr 0x11d46d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetHashedSubPackets, addr 0x1202560, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Bcpg::SignatureSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::SignatureSubpacket*>*> GetHashedSubPackets();
 
-  /// @brief Method GetUnhashedSubPackets, addr 0x11d46d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetUnhashedSubPackets, addr 0x1202568, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Bcpg::SignatureSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::SignatureSubpacket*>*> GetUnhashedSubPackets();
 
-  /// @brief Method get_CreationTime, addr 0x11d46e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CreationTime, addr 0x1202570, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_CreationTime();
 
-  /// @brief Method Encode, addr 0x11d46e8, size 0x32c, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x1202578, size 0x32c, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
-  /// @brief Method EncodeLengthAndData, addr 0x11d4ac4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method EncodeLengthAndData, addr 0x1202954, size 0x54, virtual false, abstract: false, final false
   static inline void EncodeLengthAndData(::Org::BouncyCastle::Bcpg::BcpgOutputStream* pOut, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method GetEncodedSubpackets, addr 0x11d4a14, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetEncodedSubpackets, addr 0x12028a4, size 0xb0, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncodedSubpackets(::ArrayW<::Org::BouncyCastle::Bcpg::SignatureSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::SignatureSubpacket*>*> ps);
 
-  /// @brief Method setCreationTime, addr 0x11d4090, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method setCreationTime, addr 0x1201f20, size 0xf8, virtual false, abstract: false, final false
   inline void setCreationTime();
 
   // Ctor Parameters [CppParam { name: "", ty: "SignaturePacket", modifiers: "&&", def_value: None }]

@@ -65,8 +65,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLocalActiveClient);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5147))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4489))
 // CS Name: ::MultiplayerLocalActiveClient*
 class CORDL_TYPE MultiplayerLocalActiveClient : public ::UnityEngine::MonoBehaviour {
 public:
@@ -145,42 +145,42 @@ public:
 
   constexpr void __cordl_internal_set__comboController(::UnityW<::GlobalNamespace::ComboController> value);
 
-  /// @brief Method Start, addr 0x23d8948, size 0x6e0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x23975f8, size 0x6e0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy, addr 0x23d9028, size 0x434, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2397cd8, size 0x434, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method LateUpdate, addr 0x23d945c, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x239810c, size 0x348, virtual false, abstract: false, final false
   inline void LateUpdate();
 
-  /// @brief Method HandleNoteWasAdded, addr 0x23d97a4, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasAdded, addr 0x2398454, size 0x160, virtual false, abstract: false, final false
   inline void HandleNoteWasAdded(::GlobalNamespace::NoteData* noteData, ::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData noteSpawnData, float_t rotation);
 
-  /// @brief Method HandleObstacleWasAdded, addr 0x23d9904, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method HandleObstacleWasAdded, addr 0x23985b4, size 0x140, virtual false, abstract: false, final false
   inline void HandleObstacleWasAdded(::GlobalNamespace::ObstacleData* obstacleData, ::GlobalNamespace::__BeatmapObjectSpawnMovementData__ObstacleSpawnData obstacleSpawnData, float_t rotation);
 
-  /// @brief Method HandleSliderWasAdded, addr 0x23d9a44, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method HandleSliderWasAdded, addr 0x23986f4, size 0x1d4, virtual false, abstract: false, final false
   inline void HandleSliderWasAdded(::GlobalNamespace::SliderData* sliderData, ::GlobalNamespace::__BeatmapObjectSpawnMovementData__SliderSpawnData sliderSpawnData, float_t rotation);
 
-  /// @brief Method HandleNoteWasMissed, addr 0x23d9c18, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasMissed, addr 0x23988c8, size 0xfc, virtual false, abstract: false, final false
   inline void HandleNoteWasMissed(::GlobalNamespace::NoteController* noteController);
 
-  /// @brief Method HandleNoteWasCut, addr 0x23d9d14, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasCut, addr 0x23989c4, size 0x1c4, virtual false, abstract: false, final false
   inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
-  /// @brief Method HandleComboDidChange, addr 0x23d9ed8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method HandleComboDidChange, addr 0x2398b88, size 0xcc, virtual false, abstract: false, final false
   inline void HandleComboDidChange(int32_t combo);
 
-  /// @brief Method HandleMultiplierDidChange, addr 0x23d9fa4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method HandleMultiplierDidChange, addr 0x2398c54, size 0xcc, virtual false, abstract: false, final false
   inline void HandleMultiplierDidChange(int32_t multiplier, float_t multiplierProgress);
 
-  /// @brief Method HandleScoreDidChange, addr 0x23da070, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method HandleScoreDidChange, addr 0x2398d20, size 0x254, virtual false, abstract: false, final false
   inline void HandleScoreDidChange(int32_t multipliedScore, int32_t modifiedScore);
 
   static inline ::GlobalNamespace::MultiplayerLocalActiveClient* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23da2c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2398f74, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActiveClient", modifiers: "&&", def_value: None }]

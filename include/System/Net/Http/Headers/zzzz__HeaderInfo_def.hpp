@@ -45,8 +45,8 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::HeaderInfo);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14673))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14671))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14678))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14676))
 // CS Name: ::System.Net.Http.Headers::HeaderInfo*
 class CORDL_TYPE HeaderInfo : public ::System::Object {
 public:
@@ -98,7 +98,7 @@ public:
 
   static inline ::System::Net::Http::Headers::HeaderInfo* New_ctor(::StringW name, ::System::Net::Http::Headers::HttpHeaderKind headerKind);
 
-  /// @brief Method .ctor, addr 0x2838ed8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x283d5ac, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::System::Net::Http::Headers::HttpHeaderKind headerKind);
 
   /// @brief Method CreateSingle, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -111,16 +111,16 @@ public:
   static inline ::System::Net::Http::Headers::HeaderInfo* CreateMulti(::StringW name, ::System::Net::Http::Headers::TryParseListDelegate_1<T>* elementParser,
                                                                       ::System::Net::Http::Headers::HttpHeaderKind headerKind, int32_t minimalCount, ::StringW separator);
 
-  /// @brief Method CreateCollection, addr 0x2838f08, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method CreateCollection, addr 0x283d5dc, size 0x10, virtual false, abstract: false, final false
   inline ::System::Object* CreateCollection(::System::Net::Http::Headers::HttpHeaders* headers);
 
-  /// @brief Method get_CustomToString, addr 0x2838f18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CustomToString, addr 0x283d5ec, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_2<::System::Object*, ::StringW>* get_CustomToString();
 
-  /// @brief Method set_CustomToString, addr 0x2838f20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CustomToString, addr 0x283d5f4, size 0x8, virtual false, abstract: false, final false
   inline void set_CustomToString(::System::Func_2<::System::Object*, ::StringW>* value);
 
-  /// @brief Method get_Separator, addr 0x2838f28, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Separator, addr 0x283d5fc, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_Separator();
 
   /// @brief Method AddToCollection, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

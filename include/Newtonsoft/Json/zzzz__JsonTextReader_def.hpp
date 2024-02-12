@@ -53,8 +53,8 @@ MARK_REF_PTR_T(::Newtonsoft::Json::JsonTextReader);
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11833)), TypeDefinitionIndex(TypeDefinitionIndex(11866)), TypeDefinitionIndex(TypeDefinitionIndex(11890))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11824))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11731)), TypeDefinitionIndex(TypeDefinitionIndex(11764)), TypeDefinitionIndex(TypeDefinitionIndex(11788))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11722))
 // CS Name: ::Newtonsoft.Json::JsonTextReader*
 class CORDL_TYPE JsonTextReader : public ::Newtonsoft::Json::JsonReader {
 public:
@@ -172,187 +172,187 @@ public:
 
   static inline ::Newtonsoft::Json::JsonTextReader* New_ctor(::System::IO::TextReader* reader);
 
-  /// @brief Method .ctor, addr 0x2640884, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2664a40, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::TextReader* reader);
 
-  /// @brief Method get_ArrayPool, addr 0x2640958, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ArrayPool, addr 0x2664b14, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::IArrayPool_1<char16_t>* get_ArrayPool();
 
-  /// @brief Method set_ArrayPool, addr 0x2640960, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_ArrayPool, addr 0x2664b1c, size 0x60, virtual false, abstract: false, final false
   inline void set_ArrayPool(::Newtonsoft::Json::IArrayPool_1<char16_t>* value);
 
-  /// @brief Method EnsureBufferNotEmpty, addr 0x26409c0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method EnsureBufferNotEmpty, addr 0x2664b7c, size 0x54, virtual false, abstract: false, final false
   inline void EnsureBufferNotEmpty();
 
-  /// @brief Method OnNewLine, addr 0x2640a14, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method OnNewLine, addr 0x2664bd0, size 0x10, virtual false, abstract: false, final false
   inline void OnNewLine(int32_t pos);
 
-  /// @brief Method ParseString, addr 0x2640a24, size 0x3b8, virtual false, abstract: false, final false
+  /// @brief Method ParseString, addr 0x2664be0, size 0x3b8, virtual false, abstract: false, final false
   inline void ParseString(char16_t quote, ::Newtonsoft::Json::ReadType readType);
 
-  /// @brief Method BlockCopyChars, addr 0x264151c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method BlockCopyChars, addr 0x26656d8, size 0x14, virtual false, abstract: false, final false
   static inline void BlockCopyChars(::ArrayW<char16_t, ::Array<char16_t>*> src, int32_t srcOffset, ::ArrayW<char16_t, ::Array<char16_t>*> dst, int32_t dstOffset, int32_t count);
 
-  /// @brief Method ShiftBufferIfNeeded, addr 0x2640ddc, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method ShiftBufferIfNeeded, addr 0x2664f98, size 0xa8, virtual false, abstract: false, final false
   inline void ShiftBufferIfNeeded();
 
-  /// @brief Method ReadData, addr 0x2641530, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ReadData, addr 0x26656ec, size 0xc, virtual false, abstract: false, final false
   inline int32_t ReadData(bool append);
 
-  /// @brief Method ReadData, addr 0x264153c, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method ReadData, addr 0x26656f8, size 0x20c, virtual false, abstract: false, final false
   inline int32_t ReadData(bool append, int32_t charsRequired);
 
-  /// @brief Method EnsureChars, addr 0x2641748, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method EnsureChars, addr 0x2665904, size 0x20, virtual false, abstract: false, final false
   inline bool EnsureChars(int32_t relativePosition, bool append);
 
-  /// @brief Method ReadChars, addr 0x2641768, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ReadChars, addr 0x2665924, size 0x70, virtual false, abstract: false, final false
   inline bool ReadChars(int32_t relativePosition, bool append);
 
-  /// @brief Method Read, addr 0x26417d8, size 0x218, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x2665994, size 0x218, virtual true, abstract: false, final false
   inline bool Read();
 
-  /// @brief Method ReadAsInt32, addr 0x2642620, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method ReadAsInt32, addr 0x26667dc, size 0x90, virtual true, abstract: false, final false
   inline ::System::Nullable_1<int32_t> ReadAsInt32();
 
-  /// @brief Method ReadAsDateTime, addr 0x2642b68, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method ReadAsDateTime, addr 0x2666d24, size 0x90, virtual true, abstract: false, final false
   inline ::System::Nullable_1<::System::DateTime> ReadAsDateTime();
 
-  /// @brief Method ReadAsString, addr 0x2643308, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method ReadAsString, addr 0x26674c4, size 0x64, virtual true, abstract: false, final false
   inline ::StringW ReadAsString();
 
-  /// @brief Method ReadAsBytes, addr 0x264336c, size 0x480, virtual true, abstract: false, final false
+  /// @brief Method ReadAsBytes, addr 0x2667528, size 0x480, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReadAsBytes();
 
-  /// @brief Method ReadStringValue, addr 0x2642bf8, size 0x710, virtual false, abstract: false, final false
+  /// @brief Method ReadStringValue, addr 0x2666db4, size 0x710, virtual false, abstract: false, final false
   inline ::System::Object* ReadStringValue(::Newtonsoft::Json::ReadType readType);
 
-  /// @brief Method CreateUnexpectedCharacterException, addr 0x2643dfc, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method CreateUnexpectedCharacterException, addr 0x2667fb8, size 0xd0, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::JsonReaderException* CreateUnexpectedCharacterException(char16_t c);
 
-  /// @brief Method ReadAsBoolean, addr 0x2645854, size 0x4e0, virtual true, abstract: false, final false
+  /// @brief Method ReadAsBoolean, addr 0x2669a10, size 0x4e0, virtual true, abstract: false, final false
   inline ::System::Nullable_1<bool> ReadAsBoolean();
 
-  /// @brief Method ProcessValueComma, addr 0x2643da4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ProcessValueComma, addr 0x2667f60, size 0x58, virtual false, abstract: false, final false
   inline void ProcessValueComma();
 
-  /// @brief Method ReadNumberValue, addr 0x26426b0, size 0x4b8, virtual false, abstract: false, final false
+  /// @brief Method ReadNumberValue, addr 0x266686c, size 0x4b8, virtual false, abstract: false, final false
   inline ::System::Object* ReadNumberValue(::Newtonsoft::Json::ReadType readType);
 
-  /// @brief Method ReadAsDateTimeOffset, addr 0x26465fc, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method ReadAsDateTimeOffset, addr 0x266a7b8, size 0xcc, virtual true, abstract: false, final false
   inline ::System::Nullable_1<::System::DateTimeOffset> ReadAsDateTimeOffset();
 
-  /// @brief Method ReadAsDecimal, addr 0x26466c8, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method ReadAsDecimal, addr 0x266a884, size 0xcc, virtual true, abstract: false, final false
   inline ::System::Nullable_1<::System::Decimal> ReadAsDecimal();
 
-  /// @brief Method ReadAsDouble, addr 0x2646794, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method ReadAsDouble, addr 0x266a950, size 0xb4, virtual true, abstract: false, final false
   inline ::System::Nullable_1<double_t> ReadAsDouble();
 
-  /// @brief Method HandleNull, addr 0x2643cd4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method HandleNull, addr 0x2667e90, size 0xd0, virtual false, abstract: false, final false
   inline void HandleNull();
 
-  /// @brief Method ReadFinished, addr 0x2643f68, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method ReadFinished, addr 0x2668124, size 0x150, virtual false, abstract: false, final false
   inline void ReadFinished();
 
-  /// @brief Method ReadNullChar, addr 0x26437ec, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ReadNullChar, addr 0x26679a8, size 0x50, virtual false, abstract: false, final false
   inline bool ReadNullChar();
 
-  /// @brief Method EnsureBuffer, addr 0x26419f0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method EnsureBuffer, addr 0x2665bac, size 0x44, virtual false, abstract: false, final false
   inline void EnsureBuffer();
 
-  /// @brief Method ReadStringIntoBuffer, addr 0x2640e84, size 0x498, virtual false, abstract: false, final false
+  /// @brief Method ReadStringIntoBuffer, addr 0x2665040, size 0x498, virtual false, abstract: false, final false
   inline void ReadStringIntoBuffer(char16_t quote);
 
-  /// @brief Method WriteCharToBuffer, addr 0x2646a50, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method WriteCharToBuffer, addr 0x266ac0c, size 0x50, virtual false, abstract: false, final false
   inline void WriteCharToBuffer(char16_t writeChar, int32_t lastWritePosition, int32_t writeToPosition);
 
-  /// @brief Method ParseUnicode, addr 0x2646940, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method ParseUnicode, addr 0x266aafc, size 0x110, virtual false, abstract: false, final false
   inline char16_t ParseUnicode();
 
-  /// @brief Method ReadNumberIntoBuffer, addr 0x2646aa0, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method ReadNumberIntoBuffer, addr 0x266ac5c, size 0x1d0, virtual false, abstract: false, final false
   inline void ReadNumberIntoBuffer();
 
-  /// @brief Method ClearRecentString, addr 0x2646c70, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ClearRecentString, addr 0x266ae2c, size 0xc, virtual false, abstract: false, final false
   inline void ClearRecentString();
 
-  /// @brief Method ParsePostValue, addr 0x2641fe0, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method ParsePostValue, addr 0x266619c, size 0x270, virtual false, abstract: false, final false
   inline bool ParsePostValue();
 
-  /// @brief Method ParseObject, addr 0x2641e50, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method ParseObject, addr 0x266600c, size 0x190, virtual false, abstract: false, final false
   inline bool ParseObject();
 
-  /// @brief Method ParseProperty, addr 0x2646c7c, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method ParseProperty, addr 0x266ae38, size 0x224, virtual false, abstract: false, final false
   inline bool ParseProperty();
 
-  /// @brief Method ValidIdentifierChar, addr 0x2646ea0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ValidIdentifierChar, addr 0x266b05c, size 0x80, virtual false, abstract: false, final false
   inline bool ValidIdentifierChar(char16_t value);
 
-  /// @brief Method ParseUnquotedProperty, addr 0x2646f20, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method ParseUnquotedProperty, addr 0x266b0dc, size 0x1b4, virtual false, abstract: false, final false
   inline void ParseUnquotedProperty();
 
-  /// @brief Method ParseValue, addr 0x2641a34, size 0x41c, virtual false, abstract: false, final false
+  /// @brief Method ParseValue, addr 0x2665bf0, size 0x41c, virtual false, abstract: false, final false
   inline bool ParseValue();
 
-  /// @brief Method ProcessLineFeed, addr 0x2643f4c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ProcessLineFeed, addr 0x2668108, size 0x1c, virtual false, abstract: false, final false
   inline void ProcessLineFeed();
 
-  /// @brief Method ProcessCarriageReturn, addr 0x2643ecc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ProcessCarriageReturn, addr 0x2668088, size 0x80, virtual false, abstract: false, final false
   inline void ProcessCarriageReturn(bool append);
 
-  /// @brief Method EatWhitespace, addr 0x2642250, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method EatWhitespace, addr 0x266640c, size 0x130, virtual false, abstract: false, final false
   inline bool EatWhitespace(bool oneOrMore);
 
-  /// @brief Method ParseConstructor, addr 0x2647290, size 0x328, virtual false, abstract: false, final false
+  /// @brief Method ParseConstructor, addr 0x266b44c, size 0x328, virtual false, abstract: false, final false
   inline void ParseConstructor();
 
-  /// @brief Method ParseNumber, addr 0x2644708, size 0xde0, virtual false, abstract: false, final false
+  /// @brief Method ParseNumber, addr 0x26688c4, size 0xde0, virtual false, abstract: false, final false
   inline void ParseNumber(::Newtonsoft::Json::ReadType readType);
 
-  /// @brief Method ParseComment, addr 0x264238c, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method ParseComment, addr 0x2666548, size 0x28c, virtual false, abstract: false, final false
   inline void ParseComment(bool setToken);
 
-  /// @brief Method EndComment, addr 0x26476e8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method EndComment, addr 0x266b8a4, size 0x60, virtual false, abstract: false, final false
   inline void EndComment(bool setToken, int32_t initialPosition, int32_t endPosition);
 
-  /// @brief Method MatchValue, addr 0x2647748, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method MatchValue, addr 0x266b904, size 0x104, virtual false, abstract: false, final false
   inline bool MatchValue(::StringW value);
 
-  /// @brief Method MatchValueWithTrailingSeparator, addr 0x26454e8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method MatchValueWithTrailingSeparator, addr 0x26696a4, size 0xa4, virtual false, abstract: false, final false
   inline bool MatchValueWithTrailingSeparator(::StringW value);
 
-  /// @brief Method IsSeparator, addr 0x264784c, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method IsSeparator, addr 0x266ba08, size 0x158, virtual false, abstract: false, final false
   inline bool IsSeparator(char16_t c);
 
-  /// @brief Method ParseTrue, addr 0x26470d4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method ParseTrue, addr 0x266b290, size 0xe0, virtual false, abstract: false, final false
   inline void ParseTrue();
 
-  /// @brief Method ParseNull, addr 0x2646848, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ParseNull, addr 0x266aa04, size 0xac, virtual false, abstract: false, final false
   inline void ParseNull();
 
-  /// @brief Method ParseUndefined, addr 0x26475b8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ParseUndefined, addr 0x266b774, size 0xac, virtual false, abstract: false, final false
   inline void ParseUndefined();
 
-  /// @brief Method ParseFalse, addr 0x26471b4, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method ParseFalse, addr 0x266b370, size 0xdc, virtual false, abstract: false, final false
   inline void ParseFalse();
 
-  /// @brief Method ParseNumberNegativeInfinity, addr 0x26445a8, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method ParseNumberNegativeInfinity, addr 0x2668764, size 0x160, virtual false, abstract: false, final false
   inline ::System::Object* ParseNumberNegativeInfinity(::Newtonsoft::Json::ReadType readType);
 
-  /// @brief Method ParseNumberPositiveInfinity, addr 0x2645594, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method ParseNumberPositiveInfinity, addr 0x2669750, size 0x160, virtual false, abstract: false, final false
   inline ::System::Object* ParseNumberPositiveInfinity(::Newtonsoft::Json::ReadType readType);
 
-  /// @brief Method ParseNumberNaN, addr 0x26456f4, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method ParseNumberNaN, addr 0x26698b0, size 0x160, virtual false, abstract: false, final false
   inline ::System::Object* ParseNumberNaN(::Newtonsoft::Json::ReadType readType);
 
-  /// @brief Method Close, addr 0x26479a4, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x266bb60, size 0x60, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method HasLineInfo, addr 0x2647a18, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method HasLineInfo, addr 0x266bbd4, size 0x8, virtual true, abstract: false, final true
   inline bool HasLineInfo();
 
-  /// @brief Method get_LineNumber, addr 0x2647a20, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method get_LineNumber, addr 0x266bbdc, size 0x48, virtual true, abstract: false, final true
   inline int32_t get_LineNumber();
 
-  /// @brief Method get_LinePosition, addr 0x2647a68, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_LinePosition, addr 0x266bc24, size 0xc, virtual true, abstract: false, final true
   inline int32_t get_LinePosition();
 
   // Ctor Parameters [CppParam { name: "", ty: "JsonTextReader", modifiers: "&&", def_value: None }]

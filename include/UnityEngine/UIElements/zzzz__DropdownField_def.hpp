@@ -87,8 +87,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__DropdownField____c__DisplayClass38_0
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7129)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7129), inst: 397 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7054))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6388)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6388), inst: 398 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6313))
 // CS Name: ::DropdownField::UxmlTraits*
 class CORDL_TYPE __DropdownField__UxmlTraits : public ::UnityEngine::UIElements::__BaseField_1__UxmlTraits<::StringW> {
 public:
@@ -111,12 +111,12 @@ public:
 
   constexpr void __cordl_internal_set_m_Choices(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
-  /// @brief Method Init, addr 0x2e288e4, size 0x17c, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x2e44ccc, size 0x17c, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::__DropdownField__UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e28a60, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e44e48, size 0xec, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__DropdownField__UxmlTraits", modifiers: "&&", def_value: None }]
@@ -153,8 +153,8 @@ static_assert(offsetof(::UnityEngine::UIElements::__DropdownField__UxmlTraits, _
 // SizeInfo { instance_size: 1088, native_size: -1, calculated_instance_size: 1088, calculated_native_size: 1084, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7130)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7130), inst: 397 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7057))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6389)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6389), inst: 398 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6316))
 // CS Name: ::UnityEngine.UIElements::DropdownField*
 class CORDL_TYPE DropdownField : public ::UnityEngine::UIElements::BaseField_1<::StringW> {
 public:
@@ -295,53 +295,53 @@ public:
 
   static inline ::StringW getStaticF_inputUssClassNamePopupField();
 
-  /// @brief Method get_textElement, addr 0x2e27618, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_textElement, addr 0x2e43a00, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TextElement* get_textElement();
 
-  /// @brief Method GetValueToDisplay, addr 0x2e27620, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetValueToDisplay, addr 0x2e43a08, size 0x8c, virtual false, abstract: false, final false
   inline ::StringW GetValueToDisplay();
 
-  /// @brief Method GetListItemToDisplay, addr 0x2e276ac, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method GetListItemToDisplay, addr 0x2e43a94, size 0xac, virtual false, abstract: false, final false
   inline ::StringW GetListItemToDisplay(::StringW value);
 
-  /// @brief Method set_index, addr 0x2e27758, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method set_index, addr 0x2e43b40, size 0x9c, virtual false, abstract: false, final false
   inline void set_index(int32_t value);
 
   static inline ::UnityEngine::UIElements::DropdownField* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e277f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e43bdc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::DropdownField* New_ctor(::StringW label);
 
-  /// @brief Method .ctor, addr 0x2e277fc, size 0x2b8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e43be4, size 0x2b8, virtual false, abstract: false, final false
   inline void _ctor(::StringW label);
 
-  /// @brief Method AddMenuItems, addr 0x2e27b0c, size 0x308, virtual false, abstract: false, final false
+  /// @brief Method AddMenuItems, addr 0x2e43ef4, size 0x308, virtual false, abstract: false, final false
   inline void AddMenuItems(::UnityEngine::UIElements::IGenericMenu* menu);
 
-  /// @brief Method ChangeValueFromMenu, addr 0x2e27e1c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ChangeValueFromMenu, addr 0x2e44204, size 0x10, virtual false, abstract: false, final false
   inline void ChangeValueFromMenu(::StringW menuItem);
 
-  /// @brief Method set_choices, addr 0x2e27e2c, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method set_choices, addr 0x2e44214, size 0x70, virtual true, abstract: false, final false
   inline void set_choices(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method get_value, addr 0x2e27e9c, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method get_value, addr 0x2e44284, size 0x48, virtual true, abstract: false, final false
   inline ::StringW get_value();
 
-  /// @brief Method set_value, addr 0x2e27ee4, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method set_value, addr 0x2e442cc, size 0x84, virtual true, abstract: false, final false
   inline void set_value(::StringW value);
 
-  /// @brief Method SetValueWithoutNotify, addr 0x2e27f68, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method SetValueWithoutNotify, addr 0x2e44350, size 0x110, virtual true, abstract: false, final false
   inline void SetValueWithoutNotify(::StringW newValue);
 
-  /// @brief Method ExecuteDefaultActionAtTarget, addr 0x2e28078, size 0x180, virtual true, abstract: false, final false
+  /// @brief Method ExecuteDefaultActionAtTarget, addr 0x2e44460, size 0x180, virtual true, abstract: false, final false
   inline void ExecuteDefaultActionAtTarget(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method ShowMenu, addr 0x2e281f8, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method ShowMenu, addr 0x2e445e0, size 0x180, virtual false, abstract: false, final false
   inline void ShowMenu();
 
-  /// @brief Method UpdateMixedValueContent, addr 0x2e2864c, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method UpdateMixedValueContent, addr 0x2e44a34, size 0xc0, virtual true, abstract: false, final false
   inline void UpdateMixedValueContent();
 
   // Ctor Parameters [CppParam { name: "", ty: "DropdownField", modifiers: "&&", def_value: None }]
@@ -403,14 +403,14 @@ static_assert(offsetof(::UnityEngine::UIElements::DropdownField, ___m_Index) == 
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7054)), TypeDefinitionIndex(TypeDefinitionIndex(7057)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5259 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7053)) CS Name: ::DropdownField::UxmlFactory*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6256)), TypeDefinitionIndex(TypeDefinitionIndex(6313)), TypeDefinitionIndex(TypeDefinitionIndex(6316)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6256), inst: 5239 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6312)) CS Name: ::DropdownField::UxmlFactory*
 class CORDL_TYPE __DropdownField__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::DropdownField*, ::UnityEngine::UIElements::__DropdownField__UxmlTraits*> {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::__DropdownField__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e2889c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e44c84, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__DropdownField__UxmlFactory", modifiers: "&&", def_value: None }]
@@ -437,19 +437,19 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Dropd
 // SizeInfo { instance_size: 1144, native_size: -1, calculated_instance_size: 1144, calculated_native_size: 1140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6814))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7055))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6073))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6314))
 // CS Name: ::DropdownField::PopupTextElement*
 class CORDL_TYPE __DropdownField__PopupTextElement : public ::UnityEngine::UIElements::TextElement {
 public:
   // Declarations
-  /// @brief Method DoMeasure, addr 0x2e28b4c, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method DoMeasure, addr 0x2e44f34, size 0xa4, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 DoMeasure(float_t desiredWidth, ::UnityEngine::UIElements::__VisualElement__MeasureMode widthMode, float_t desiredHeight,
                                           ::UnityEngine::UIElements::__VisualElement__MeasureMode heightMode);
 
   static inline ::UnityEngine::UIElements::__DropdownField__PopupTextElement* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e27ab4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e43e9c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__DropdownField__PopupTextElement", modifiers: "&&", def_value: None }]
@@ -477,7 +477,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Dropd
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7056))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6315))
 // CS Name: ::DropdownField::<>c__DisplayClass38_0*
 class CORDL_TYPE __DropdownField____c__DisplayClass38_0 : public ::System::Object {
 public:
@@ -502,10 +502,10 @@ public:
 
   static inline ::UnityEngine::UIElements::__DropdownField____c__DisplayClass38_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e27e14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e441fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <AddMenuItems>b__0, addr 0x2e28bf0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <AddMenuItems>b__0, addr 0x2e44fd8, size 0x2c, virtual false, abstract: false, final false
   inline void _AddMenuItems_b__0();
 
   // Ctor Parameters [CppParam { name: "", ty: "__DropdownField____c__DisplayClass38_0", modifiers: "&&", def_value: None }]

@@ -45,15 +45,15 @@ public:
 
   static inline ::Org::BouncyCastle::Math::Field::IFiniteField* getStaticF_GF_3();
 
-  /// @brief Method GetBinaryExtensionField, addr 0x105b0c4, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method GetBinaryExtensionField, addr 0x1087f54, size 0x194, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::Field::IPolynomialExtensionField* GetBinaryExtensionField(::ArrayW<int32_t, ::Array<int32_t>*> exponents);
 
-  /// @brief Method GetPrimeField, addr 0x105b2fc, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method GetPrimeField, addr 0x108818c, size 0x180, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::Field::IFiniteField* GetPrimeField(::Org::BouncyCastle::Math::BigInteger* characteristic);
 
   static inline ::Org::BouncyCastle::Math::Field::FiniteFields* New_ctor();
 
-  /// @brief Method .ctor, addr 0x105b59c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x108842c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FiniteFields", modifiers: "&&", def_value: None }]

@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::System::Text::RegularExpressions::RegexRunnerFactory);
 namespace System::Text::RegularExpressions {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8930))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6940))
 // CS Name: ::System.Text.RegularExpressions::RegexRunnerFactory*
 class CORDL_TYPE RegexRunnerFactory : public ::System::Object {
 public:

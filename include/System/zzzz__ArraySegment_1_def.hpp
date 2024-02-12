@@ -134,7 +134,7 @@ namespace System {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2349)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2349), inst: 772 })]
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2349)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2349), inst: 771 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2349))
 // CS Name: ::System::ArraySegment`1<T>
 struct CORDL_TYPE ArraySegment_1 {

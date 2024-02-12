@@ -41,7 +41,7 @@ namespace UnityEngine::UI::CoroutineTween {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13156))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13054))
 // CS Name: ::TweenRunner`1::<Start>d__2<T>*
 class CORDL_TYPE __TweenRunner_1___Start_d__2 : public ::System::Object {
 public:
@@ -161,7 +161,7 @@ namespace UnityEngine::UI::CoroutineTween {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13157))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13055))
 // CS Name: ::UnityEngine.UI.CoroutineTween::TweenRunner`1<T>*
 class CORDL_TYPE TweenRunner_1 : public ::System::Object {
 public:

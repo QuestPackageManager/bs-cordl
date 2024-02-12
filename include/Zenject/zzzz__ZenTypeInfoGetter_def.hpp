@@ -28,23 +28,23 @@ MARK_REF_PTR_T(::Zenject::ZenTypeInfoGetter);
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11353))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10495))
 // CS Name: ::Zenject::ZenTypeInfoGetter*
 class CORDL_TYPE ZenTypeInfoGetter : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::Zenject::ZenTypeInfoGetter* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2f1e670, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f3a7b8, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x2f1e72c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2f3a874, size 0x14, virtual true, abstract: false, final false
   inline ::Zenject::InjectTypeInfo* Invoke();
 
-  /// @brief Method BeginInvoke, addr 0x2f1e740, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2f3a888, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2f1e760, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2f3a8a8, size 0xc, virtual true, abstract: false, final false
   inline ::Zenject::InjectTypeInfo* EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "ZenTypeInfoGetter", modifiers: "&&", def_value: None }]

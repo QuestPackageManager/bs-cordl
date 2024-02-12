@@ -19,12 +19,12 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::ProjectionUtils);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6731))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5990))
 // CS Name: ::UnityEngine.UIElements::ProjectionUtils*
 class CORDL_TYPE ProjectionUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Ortho, addr 0x2da15d0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Ortho, addr 0x2dbf9b8, size 0x70, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 Ortho(float_t left, float_t right, float_t bottom, float_t top, float_t near, float_t far);
 
   // Ctor Parameters [CppParam { name: "", ty: "ProjectionUtils", modifiers: "&&", def_value: None }]

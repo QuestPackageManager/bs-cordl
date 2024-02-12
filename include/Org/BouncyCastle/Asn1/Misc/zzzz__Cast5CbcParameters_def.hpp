@@ -57,26 +57,26 @@ public:
 
   constexpr void __cordl_internal_set_iv(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
-  /// @brief Method GetInstance, addr 0xf7bd18, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xfa6ba8, size 0x148, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Misc::Cast5CbcParameters* GetInstance(::System::Object* o);
 
   static inline ::Org::BouncyCastle::Asn1::Misc::Cast5CbcParameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> iv, int32_t keyLength);
 
-  /// @brief Method .ctor, addr 0xf7c028, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfa6eb8, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> iv, int32_t keyLength);
 
   static inline ::Org::BouncyCastle::Asn1::Misc::Cast5CbcParameters* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xf7be60, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfa6cf0, size 0x1c8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetIV, addr 0xf7c0dc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetIV, addr 0xfa6f6c, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetIV();
 
-  /// @brief Method get_KeyLength, addr 0xf7c154, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_KeyLength, addr 0xfa6fe4, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_KeyLength();
 
-  /// @brief Method ToAsn1Object, addr 0xf7c170, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xfa7000, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "Cast5CbcParameters", modifiers: "&&", def_value: None }]

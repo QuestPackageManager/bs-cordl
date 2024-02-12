@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ObstacleScaleUp);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4796))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4147))
 // CS Name: ::ObstacleScaleUp*
 class CORDL_TYPE ObstacleScaleUp : public ::UnityEngine::MonoBehaviour {
 public:
@@ -57,24 +57,24 @@ public:
 
   constexpr void __cordl_internal_set__obstacleController(::UnityW<::GlobalNamespace::ObstacleController> value);
 
-  /// @brief Method Awake, addr 0x238e798, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x22d4dbc, size 0x94, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnDestroy, addr 0x238e948, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x22d4f6c, size 0x138, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method UpdateScale, addr 0x238e82c, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method UpdateScale, addr 0x22d4e50, size 0x11c, virtual false, abstract: false, final false
   inline void UpdateScale(float_t progress);
 
-  /// @brief Method HandleObstacleControllerDidUpdateProgress, addr 0x238ea80, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method HandleObstacleControllerDidUpdateProgress, addr 0x22d50a4, size 0x28, virtual false, abstract: false, final false
   inline void HandleObstacleControllerDidUpdateProgress(::GlobalNamespace::ObstacleController* obstacleController, float_t time);
 
-  /// @brief Method HandleObstacleControllerDidInit, addr 0x238eaa8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method HandleObstacleControllerDidInit, addr 0x22d50cc, size 0xd0, virtual false, abstract: false, final false
   inline void HandleObstacleControllerDidInit(::GlobalNamespace::ObstacleControllerBase* obstacleController);
 
   static inline ::GlobalNamespace::ObstacleScaleUp* New_ctor();
 
-  /// @brief Method .ctor, addr 0x238eb78, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22d519c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ObstacleScaleUp", modifiers: "&&", def_value: None }]

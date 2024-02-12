@@ -6,8 +6,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SimpleValueMissionObjectiveChecker::*)()>(
     &::GlobalNamespace::SimpleValueMissionObjectiveChecker::CheckAndUpdateStatus)> {
-  constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x23cb350;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x238a7b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleValueMissionObjectiveChecker*>::get(),
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SimpleValueMissionObjectiveChecker::*)()>(
     &::GlobalNamespace::SimpleValueMissionObjectiveChecker::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23cb45c;
+  constexpr static std::size_t addrs = 0x238a86c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleValueMissionObjectiveChecker*>::get(),

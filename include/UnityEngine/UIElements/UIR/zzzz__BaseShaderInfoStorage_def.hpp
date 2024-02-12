@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::BaseShaderInfoStorage);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9966))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7380))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8695))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6639))
 // CS Name: ::UnityEngine.UIElements.UIR::BaseShaderInfoStorage*
 class CORDL_TYPE BaseShaderInfoStorage : public ::System::Object {
 public:
@@ -94,21 +94,21 @@ public:
   /// @brief Method UpdateTexture, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UpdateTexture();
 
-  /// @brief Method get_disposed, addr 0x2e8b298, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x2ea5680, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
-  /// @brief Method set_disposed, addr 0x2e8b2a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x2ea5688, size 0xc, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
-  /// @brief Method Dispose, addr 0x2e89b3c, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2ea3f24, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x2e8b2ac, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x2ea5694, size 0x18, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::UnityEngine::UIElements::UIR::BaseShaderInfoStorage* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e8b2c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ea56ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BaseShaderInfoStorage", modifiers: "&&", def_value: None }]

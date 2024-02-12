@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::InputControlLayoutChange);
 namespace UnityEngine::InputSystem {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6224))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5483))
 // CS Name: ::UnityEngine.InputSystem::InputControlLayoutChange
 struct CORDL_TYPE InputControlLayoutChange {
 public:

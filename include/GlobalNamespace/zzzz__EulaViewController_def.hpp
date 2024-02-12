@@ -74,7 +74,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5627))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4932))
 // CS Name: ::EulaViewController::ButtonType
 struct CORDL_TYPE __EulaViewController__ButtonType {
 public:
@@ -124,7 +124,7 @@ static_assert(offsetof(::GlobalNamespace::__EulaViewController__ButtonType, valu
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5628))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4933))
 // CS Name: ::EulaViewController::InitData*
 class CORDL_TYPE __EulaViewController__InitData : public ::System::Object {
 public:
@@ -140,7 +140,7 @@ public:
 
   static inline ::GlobalNamespace::__EulaViewController__InitData* New_ctor(bool showDoNotAgreeButton);
 
-  /// @brief Method .ctor, addr 0x22b059c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22e3ac4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool showDoNotAgreeButton);
 
   // Ctor Parameters [CppParam { name: "", ty: "__EulaViewController__InitData", modifiers: "&&", def_value: None }]
@@ -173,7 +173,7 @@ static_assert(offsetof(::GlobalNamespace::__EulaViewController__InitData, ___sho
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5629))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4934))
 // CS Name: ::EulaViewController::<EnableButtonsCoroutine>d__21*
 class CORDL_TYPE __EulaViewController___EnableButtonsCoroutine_d__21 : public ::System::Object {
 public:
@@ -256,22 +256,22 @@ public:
 
   static inline ::GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor, addr 0x22b0504, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22e3a2c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x22b05c4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x22e3aec, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext, addr 0x22b05c8, size 0x17c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x22e3af0, size 0x17c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x22b0744, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x22e3c6c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x22b074c, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x22e3c74, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x22b078c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x22e3cb4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__EulaViewController___EnableButtonsCoroutine_d__21", modifiers: "&&", def_value: None }]
@@ -328,8 +328,8 @@ static_assert(offsetof(::GlobalNamespace::__EulaViewController___EnableButtonsCo
 // SizeInfo { instance_size: 216, native_size: -1, calculated_instance_size: 216, calculated_native_size: 216, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5630))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13558))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4935))
 // CS Name: ::EulaViewController*
 class CORDL_TYPE EulaViewController : public ::HMUI::ViewController {
 public:
@@ -466,36 +466,36 @@ public:
 
   constexpr void __cordl_internal_set__buttonsCoroutine(::UnityEngine::Coroutine* value);
 
-  /// @brief Method add_didFinishEvent, addr 0x22aff24, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x22e344c, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::__EulaViewController__ButtonType>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x22affd4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x22e34fc, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::__EulaViewController__ButtonType>* value);
 
-  /// @brief Method DidActivate, addr 0x22b0084, size 0x334, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x22e35ac, size 0x334, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x22b0430, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x22e3958, size 0xc0, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method Init, addr 0x22b04f0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x22e3a18, size 0x14, virtual false, abstract: false, final false
   inline void Init(bool showUpdate, bool showOnlyContinueButton);
 
-  /// @brief Method EnableButtonsCoroutine, addr 0x22b03b8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method EnableButtonsCoroutine, addr 0x22e38e0, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* EnableButtonsCoroutine(float_t delay);
 
   static inline ::GlobalNamespace::EulaViewController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22b052c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22e3a54, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <DidActivate>b__18_0, addr 0x22b053c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__18_0, addr 0x22e3a64, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__18_0();
 
-  /// @brief Method <DidActivate>b__18_1, addr 0x22b055c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__18_1, addr 0x22e3a84, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__18_1();
 
-  /// @brief Method <DidActivate>b__18_2, addr 0x22b057c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__18_2, addr 0x22e3aa4, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__18_2();
 
   // Ctor Parameters [CppParam { name: "", ty: "EulaViewController", modifiers: "&&", def_value: None }]

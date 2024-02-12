@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::BufferedIesCipher::*)(::Org::BouncyCastle::Crypto::Engines::IesEngine*)>(
     &::Org::BouncyCastle::Crypto::BufferedIesCipher::_ctor)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0xfc4a88;
+  constexpr static std::size_t addrs = 0xff1918;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Crypto::BufferedIesCipher::*)()>(
     &::Org::BouncyCastle::Crypto::BufferedIesCipher::get_AlgorithmName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0xfc4b78;
+  constexpr static std::size_t addrs = 0xff1a08;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::BufferedIesCipher::*)(bool, ::Org::BouncyCastle::Crypto::ICipherParameters*)>(
     &::Org::BouncyCastle::Crypto::BufferedIesCipher::Init)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0xfc4bb8;
+  constexpr static std::size_t addrs = 0xff1a48;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::BufferedIesCipher::*)()>(
     &::Org::BouncyCastle::Crypto::BufferedIesCipher::GetBlockSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xfc4c04;
+  constexpr static std::size_t addrs = 0xff1a94;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::BufferedIesCipher::*)(int32_t)>(
     &::Org::BouncyCastle::Crypto::BufferedIesCipher::GetOutputSize)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0xfc4c0c;
+  constexpr static std::size_t addrs = 0xff1a9c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::BufferedIesCipher::*)(int32_t)>(
     &::Org::BouncyCastle::Crypto::BufferedIesCipher::GetUpdateOutputSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xfc4cac;
+  constexpr static std::size_t addrs = 0xff1b3c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::BufferedIesCipher::*)(uint8_t)>(
     &::Org::BouncyCastle::Crypto::BufferedIesCipher::ProcessByte)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0xfc4cb4;
+  constexpr static std::size_t addrs = 0xff1b44;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::BufferedIesCipher::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::BufferedIesCipher::ProcessBytes)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0xfc4ce0;
+  constexpr static std::size_t addrs = 0xff1b70;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::BufferedIesCipher::*)()>(
     &::Org::BouncyCastle::Crypto::BufferedIesCipher::DoFinal)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0xfc4df4;
+  constexpr static std::size_t addrs = 0xff1c84;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::BufferedIesCipher::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::BufferedIesCipher::DoFinal)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0xfc4e60;
+  constexpr static std::size_t addrs = 0xff1cf0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -168,7 +168,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::BufferedIesCipher::*)()>(&::Org::BouncyCastle::Crypto::BufferedIesCipher::Reset)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0xfc4e90;
+  constexpr static std::size_t addrs = 0xff1d20;
 
   inline static ::MethodInfo const* methodInfo() {
 

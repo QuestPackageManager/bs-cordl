@@ -19,15 +19,15 @@ MARK_VAL_T(::TMPro::GlyphValueRecord_Legacy);
 namespace TMPro {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12362))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12260))
 // CS Name: ::TMPro::GlyphValueRecord_Legacy
 struct CORDL_TYPE GlyphValueRecord_Legacy {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x2c102f8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c0ce64, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::TextCore::LowLevel::GlyphValueRecord valueRecord);
 
-  /// @brief Method op_Addition, addr 0x2c10358, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Addition, addr 0x2c0cec4, size 0x14, virtual false, abstract: false, final false
   static inline ::TMPro::GlyphValueRecord_Legacy op_Addition(::TMPro::GlyphValueRecord_Legacy a, ::TMPro::GlyphValueRecord_Legacy b);
 
   // Ctor Parameters [CppParam { name: "xPlacement", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "yPlacement", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:

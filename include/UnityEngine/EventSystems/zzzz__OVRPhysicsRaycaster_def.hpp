@@ -53,7 +53,7 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::__OVRPhysicsRaycaster____c);
 namespace UnityEngine::EventSystems {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8740))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8680))
 // CS Name: ::OVRPhysicsRaycaster::<>c*
 class CORDL_TYPE __OVRPhysicsRaycaster____c : public ::System::Object {
 public:
@@ -81,13 +81,13 @@ public:
 
   static inline ::UnityEngine::EventSystems::__OVRPhysicsRaycaster____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x27fc27c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2809710, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Raycast>b__15_0, addr 0x27fc284, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method <Raycast>b__15_0, addr 0x2809718, size 0x40, virtual false, abstract: false, final false
   inline int32_t _Raycast_b__15_0(::UnityEngine::RaycastHit r1, ::UnityEngine::RaycastHit r2);
 
-  /// @brief Method <Spherecast>b__16_0, addr 0x27fc2c4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method <Spherecast>b__16_0, addr 0x2809758, size 0x40, virtual false, abstract: false, final false
   inline int32_t _Spherecast_b__16_0(::UnityEngine::RaycastHit r1, ::UnityEngine::RaycastHit r2);
 
   // Ctor Parameters [CppParam { name: "", ty: "__OVRPhysicsRaycaster____c", modifiers: "&&", def_value: None }]
@@ -114,8 +114,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::EventSystems::__OVR
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10204)), TypeDefinitionIndex(TypeDefinitionIndex(13209))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8741))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8948)), TypeDefinitionIndex(TypeDefinitionIndex(13107))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8681))
 // CS Name: ::UnityEngine.EventSystems::OVRPhysicsRaycaster*
 class CORDL_TYPE OVRPhysicsRaycaster : public ::UnityEngine::EventSystems::BaseRaycaster {
 public:
@@ -152,35 +152,35 @@ public:
 
   static inline ::UnityEngine::EventSystems::OVRPhysicsRaycaster* New_ctor();
 
-  /// @brief Method .ctor, addr 0x27fbb40, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2808fd4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_eventCamera, addr 0x27fbb68, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_eventCamera, addr 0x2808ffc, size 0x58, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> get_eventCamera();
 
-  /// @brief Method get_depth, addr 0x27fbbc0, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method get_depth, addr 0x2809054, size 0xc4, virtual true, abstract: false, final false
   inline int32_t get_depth();
 
-  /// @brief Method get_sortOrderPriority, addr 0x27fbc84, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_sortOrderPriority, addr 0x2809118, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_sortOrderPriority();
 
-  /// @brief Method get_finalEventMask, addr 0x27fbc8c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method get_finalEventMask, addr 0x2809120, size 0xc4, virtual false, abstract: false, final false
   inline int32_t get_finalEventMask();
 
-  /// @brief Method get_eventMask, addr 0x27fbd50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_eventMask, addr 0x28091e4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LayerMask get_eventMask();
 
-  /// @brief Method set_eventMask, addr 0x27fbd58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_eventMask, addr 0x28091ec, size 0x8, virtual false, abstract: false, final false
   inline void set_eventMask(::UnityEngine::LayerMask value);
 
-  /// @brief Method Raycast, addr 0x27fbd60, size 0x430, virtual true, abstract: false, final false
+  /// @brief Method Raycast, addr 0x28091f4, size 0x430, virtual true, abstract: false, final false
   inline void Raycast(::UnityEngine::EventSystems::PointerEventData* eventData, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* resultAppendList);
 
-  /// @brief Method Spherecast, addr 0x27faacc, size 0x438, virtual false, abstract: false, final false
+  /// @brief Method Spherecast, addr 0x2807f60, size 0x438, virtual false, abstract: false, final false
   inline void Spherecast(::UnityEngine::EventSystems::PointerEventData* eventData, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* resultAppendList,
                          float_t radius);
 
-  /// @brief Method GetScreenPos, addr 0x27faf04, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method GetScreenPos, addr 0x2808398, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 GetScreenPos(::UnityEngine::Vector3 worldPosition);
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPhysicsRaycaster", modifiers: "&&", def_value: None }]

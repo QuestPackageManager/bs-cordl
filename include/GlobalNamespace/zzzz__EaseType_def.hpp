@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::EaseType);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16090))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16199))
 // CS Name: ::EaseType
 struct CORDL_TYPE EaseType {
 public:

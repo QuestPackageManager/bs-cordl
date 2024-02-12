@@ -10,9 +10,6 @@ namespace System::Runtime::CompilerServices {
 class ICriticalNotifyCompletion;
 }
 namespace System::Runtime::CompilerServices {
-class INotifyCompletion;
-}
-namespace System::Runtime::CompilerServices {
 class __ValueTaskAwaiter____c;
 }
 namespace System::Threading::Tasks {
@@ -42,7 +39,7 @@ MARK_VAL_T(::System::Runtime::CompilerServices::ValueTaskAwaiter);
 namespace System::Runtime::CompilerServices {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3389))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3385))
 // CS Name: ::ValueTaskAwaiter::<>c*
 class CORDL_TYPE __ValueTaskAwaiter____c : public ::System::Object {
 public:
@@ -56,10 +53,10 @@ public:
 
   static inline ::System::Runtime::CompilerServices::__ValueTaskAwaiter____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24dbc8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24fbe5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <.cctor>b__9_0, addr 0x24dbc94, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__9_0, addr 0x24fbe64, size 0x74, virtual false, abstract: false, final false
   inline void __cctor_b__9_0(::System::Object* state);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ValueTaskAwaiter____c", modifiers: "&&", def_value: None }]
@@ -87,7 +84,7 @@ static_assert(::cordl_internals::size_check_v<::System::Runtime::CompilerService
 namespace System::Runtime::CompilerServices {
 // Is value type: true
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2764))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3390))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3386))
 // CS Name: ::System.Runtime.CompilerServices::ValueTaskAwaiter
 struct CORDL_TYPE ValueTaskAwaiter {
 public:
@@ -105,29 +102,20 @@ public:
   /// @brief Convert to "::System::Runtime::CompilerServices::ICriticalNotifyCompletion"
   constexpr ::System::Runtime::CompilerServices::ICriticalNotifyCompletion* i___System__Runtime__CompilerServices__ICriticalNotifyCompletion();
 
-  /// @brief Convert operator to "::System::Runtime::CompilerServices::INotifyCompletion"
-  constexpr operator ::System::Runtime::CompilerServices::INotifyCompletion*();
-
-  /// @brief Convert to "::System::Runtime::CompilerServices::INotifyCompletion"
-  constexpr ::System::Runtime::CompilerServices::INotifyCompletion* i___System__Runtime__CompilerServices__INotifyCompletion();
-
   static inline void setStaticF_s_invokeActionDelegate(::System::Action_1<::System::Object*>* value);
 
   static inline ::System::Action_1<::System::Object*>* getStaticF_s_invokeActionDelegate();
 
-  /// @brief Method .ctor, addr 0x24db61c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24fb988, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::ValueTask value);
 
-  /// @brief Method get_IsCompleted, addr 0x24db624, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method get_IsCompleted, addr 0x24fb990, size 0x108, virtual false, abstract: false, final false
   inline bool get_IsCompleted();
 
-  /// @brief Method GetResult, addr 0x24db72c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetResult, addr 0x24fba98, size 0x100, virtual false, abstract: false, final false
   inline void GetResult();
 
-  /// @brief Method OnCompleted, addr 0x24db82c, size 0x18c, virtual true, abstract: false, final true
-  inline void OnCompleted(::System::Action* continuation);
-
-  /// @brief Method UnsafeOnCompleted, addr 0x24db9c8, size 0x18c, virtual true, abstract: false, final true
+  /// @brief Method UnsafeOnCompleted, addr 0x24fbb98, size 0x18c, virtual true, abstract: false, final true
   inline void UnsafeOnCompleted(::System::Action* continuation);
 
   // Ctor Parameters [CppParam { name: "_value", ty: "::System::Threading::Tasks::ValueTask", modifiers: "", def_value: None }]

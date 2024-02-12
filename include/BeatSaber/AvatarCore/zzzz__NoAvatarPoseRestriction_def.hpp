@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::BeatSaber::AvatarCore::NoAvatarPoseRestriction);
 namespace BeatSaber::AvatarCore {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15202))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15283))
 // CS Name: ::BeatSaber.AvatarCore::NoAvatarPoseRestriction*
 class CORDL_TYPE NoAvatarPoseRestriction : public ::System::Object {
 public:
@@ -36,13 +36,13 @@ public:
   /// @brief Convert to "::BeatSaber::AvatarCore::IAvatarPoseRestriction"
   constexpr ::BeatSaber::AvatarCore::IAvatarPoseRestriction* i___BeatSaber__AvatarCore__IAvatarPoseRestriction() noexcept;
 
-  /// @brief Method RestrictPose, addr 0xe10498, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method RestrictPose, addr 0xe1bc94, size 0x2c, virtual true, abstract: false, final true
   inline void RestrictPose(::UnityEngine::Quaternion headRotation, ::UnityEngine::Vector3 headPosition, ::UnityEngine::Vector3 leftHandPosition, ::UnityEngine::Vector3 rightHandPosition,
                            ByRef<::UnityEngine::Vector3> newHeadPosition, ByRef<::UnityEngine::Vector3> newLeftHandPosition, ByRef<::UnityEngine::Vector3> newRightHandPosition);
 
   static inline ::BeatSaber::AvatarCore::NoAvatarPoseRestriction* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe104c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe1bcc0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NoAvatarPoseRestriction", modifiers: "&&", def_value: None }]

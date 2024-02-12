@@ -94,30 +94,30 @@ public:
 
   static inline ::System::CharEnumerator* New_ctor(::StringW str);
 
-  /// @brief Method .ctor, addr 0x2527280, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2548b64, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW str);
 
-  /// @brief Method Clone, addr 0x25272b0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Clone, addr 0x2548b94, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* Clone();
 
-  /// @brief Method MoveNext, addr 0x25272b8, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2548b9c, size 0x54, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method Dispose, addr 0x252730c, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2548bf0, size 0x18, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2527324, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2548c08, size 0x64, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method get_Current, addr 0x2527388, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x2548c6c, size 0xa4, virtual true, abstract: false, final true
   inline char16_t get_Current();
 
-  /// @brief Method Reset, addr 0x252742c, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x2548d10, size 0x10, virtual true, abstract: false, final true
   inline void Reset();
 
   static inline ::System::CharEnumerator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x252743c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2548d20, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CharEnumerator", modifiers: "&&", def_value: None }]

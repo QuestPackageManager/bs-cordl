@@ -29,19 +29,19 @@ public:
   // Declarations
   static inline ::System::Runtime::Remoting::Messaging::CallContext* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24a616c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24c81e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method SetCurrentCallContext, addr 0x24a6174, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetCurrentCallContext, addr 0x24c81e8, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Object* SetCurrentCallContext(::System::Runtime::Remoting::Messaging::LogicalCallContext* ctx);
 
-  /// @brief Method SetLogicalCallContext, addr 0x24a617c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetLogicalCallContext, addr 0x24c81f0, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Runtime::Remoting::Messaging::LogicalCallContext* SetLogicalCallContext(::System::Runtime::Remoting::Messaging::LogicalCallContext* callCtx);
 
-  /// @brief Method LogicalGetData, addr 0x24a61c0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method LogicalGetData, addr 0x24c8234, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Object* LogicalGetData(::StringW name);
 
-  /// @brief Method LogicalSetData, addr 0x24a6220, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method LogicalSetData, addr 0x24c8294, size 0x68, virtual false, abstract: false, final false
   static inline void LogicalSetData(::StringW name, ::System::Object* data);
 
   // Ctor Parameters [CppParam { name: "", ty: "CallContext", modifiers: "&&", def_value: None }]

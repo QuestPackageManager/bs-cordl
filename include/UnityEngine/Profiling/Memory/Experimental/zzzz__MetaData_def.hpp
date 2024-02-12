@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::UnityEngine::Profiling::Memory::Experimental::MetaData);
 namespace UnityEngine::Profiling::Memory::Experimental {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10298))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9044))
 // CS Name: ::UnityEngine.Profiling.Memory.Experimental::MetaData*
 class CORDL_TYPE MetaData : public ::System::Object {
 public:
@@ -41,7 +41,7 @@ public:
 
   static inline ::UnityEngine::Profiling::Memory::Experimental::MetaData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ce6cd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cede64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MetaData", modifiers: "&&", def_value: None }]

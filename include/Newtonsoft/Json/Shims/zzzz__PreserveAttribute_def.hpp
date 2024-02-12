@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Shims::PreserveAttribute);
 namespace Newtonsoft::Json::Shims {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11903))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11801))
 // CS Name: ::Newtonsoft.Json.Shims::PreserveAttribute*
 class CORDL_TYPE PreserveAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::Newtonsoft::Json::Shims::PreserveAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x266a35c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x268d518, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PreserveAttribute", modifiers: "&&", def_value: None }]

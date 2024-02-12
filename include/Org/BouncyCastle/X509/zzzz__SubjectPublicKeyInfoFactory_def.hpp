@@ -33,16 +33,16 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::X509::SubjectPublicKeyInfoFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x11751d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11a4064, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateSubjectPublicKeyInfo, addr 0x11751dc, size 0xdbc, virtual false, abstract: false, final false
+  /// @brief Method CreateSubjectPublicKeyInfo, addr 0x11a406c, size 0xdbc, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* CreateSubjectPublicKeyInfo(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
 
-  /// @brief Method ExtractBytes, addr 0x11760a4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method ExtractBytes, addr 0x11a4f34, size 0xc0, virtual false, abstract: false, final false
   static inline void ExtractBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> encKey, int32_t offset, ::Org::BouncyCastle::Math::BigInteger* bI);
 
-  /// @brief Method ExtractBytes, addr 0x1175f98, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method ExtractBytes, addr 0x11a4e28, size 0x10c, virtual false, abstract: false, final false
   static inline void ExtractBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> encKey, int32_t size, int32_t offSet, ::Org::BouncyCastle::Math::BigInteger* bI);
 
   // Ctor Parameters [CppParam { name: "", ty: "SubjectPublicKeyInfoFactory", modifiers: "&&", def_value: None }]

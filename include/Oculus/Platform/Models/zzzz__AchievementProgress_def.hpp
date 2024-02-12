@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::AchievementProgress);
 namespace Oculus::Platform::Models {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13409))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13341))
 // CS Name: ::Oculus.Platform.Models::AchievementProgress*
 class CORDL_TYPE AchievementProgress : public ::System::Object {
 public:
@@ -70,7 +70,7 @@ public:
 
   static inline ::Oculus::Platform::Models::AchievementProgress* New_ctor(void* o);
 
-  /// @brief Method .ctor, addr 0x2703a44, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27360f8, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "AchievementProgress", modifiers: "&&", def_value: None }]

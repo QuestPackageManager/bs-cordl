@@ -60,18 +60,18 @@ public:
 
   constexpr void __cordl_internal_set_dhParams(::Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
 
-  /// @brief Method Init, addr 0x121994c, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x12467dc, size 0x13c, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method GetFieldSize, addr 0x1219a88, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetFieldSize, addr 0x1246918, size 0x44, virtual true, abstract: false, final false
   inline int32_t GetFieldSize();
 
-  /// @brief Method CalculateAgreement, addr 0x1219acc, size 0x27c, virtual true, abstract: false, final false
+  /// @brief Method CalculateAgreement, addr 0x124695c, size 0x27c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* CalculateAgreement(::Org::BouncyCastle::Crypto::ICipherParameters* pubKey);
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1219d48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1246bd8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DHBasicAgreement", modifiers: "&&", def_value: None }]

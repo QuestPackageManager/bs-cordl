@@ -27,7 +27,7 @@ namespace UnityEngine::ProBuilder::KdTree {
 template <typename TItem, typename TDistance>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15922))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16045))
 // CS Name: ::UnityEngine.ProBuilder.KdTree::NearestNeighbourList`2<TItem,TDistance>*
 class CORDL_TYPE NearestNeighbourList_2 : public ::System::Object {
 public:

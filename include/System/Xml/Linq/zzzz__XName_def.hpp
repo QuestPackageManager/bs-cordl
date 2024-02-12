@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::System::Xml::Linq::XName);
 namespace System::Xml::Linq {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15451))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15565))
 // CS Name: ::System.Xml.Linq::XName*
 class CORDL_TYPE XName : public ::System::Object {
 public:
@@ -87,48 +87,48 @@ public:
 
   static inline ::System::Xml::Linq::XName* New_ctor(::System::Xml::Linq::XNamespace* ns, ::StringW localName);
 
-  /// @brief Method .ctor, addr 0x2860044, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28636ac, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XNamespace* ns, ::StringW localName);
 
-  /// @brief Method get_LocalName, addr 0x28600fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x2863764, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_Namespace, addr 0x2860104, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Namespace, addr 0x286376c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Linq::XNamespace* get_Namespace();
 
-  /// @brief Method get_NamespaceName, addr 0x285b200, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_NamespaceName, addr 0x285e868, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW get_NamespaceName();
 
-  /// @brief Method ToString, addr 0x286010c, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2863774, size 0x90, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method Get, addr 0x286019c, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x2863804, size 0x154, virtual false, abstract: false, final false
   static inline ::System::Xml::Linq::XName* Get(::StringW expandedName);
 
-  /// @brief Method Get, addr 0x28607b0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x2863e18, size 0x24, virtual false, abstract: false, final false
   static inline ::System::Xml::Linq::XName* Get(::StringW localName, ::StringW namespaceName);
 
-  /// @brief Method op_Implicit, addr 0x28607d4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2863e3c, size 0xc, virtual false, abstract: false, final false
   static inline ::System::Xml::Linq::XName* op_Implicit___System__Xml__Linq__XName_(::StringW expandedName);
 
-  /// @brief Method Equals, addr 0x28607e0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2863e48, size 0xc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x28607ec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2863e54, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method op_Equality, addr 0x285aaac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x285e114, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Xml::Linq::XName* left, ::System::Xml::Linq::XName* right);
 
-  /// @brief Method System.IEquatable<System.Xml.Linq.XName>.Equals, addr 0x28607f4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method System.IEquatable<System.Xml.Linq.XName>.Equals, addr 0x2863e5c, size 0xc, virtual true, abstract: false, final true
   inline bool System_IEquatable_System_Xml_Linq_XName__Equals(::System::Xml::Linq::XName* other);
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x2860800, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x2863e68, size 0x40, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Xml::Linq::XName* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2860840, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2863ea8, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "XName", modifiers: "&&", def_value: None }]

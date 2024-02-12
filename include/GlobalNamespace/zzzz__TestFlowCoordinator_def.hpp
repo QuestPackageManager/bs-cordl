@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::GlobalNamespace::TestFlowCoordinator);
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13582))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5529))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13535))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4835))
 // CS Name: ::TestFlowCoordinator*
 class CORDL_TYPE TestFlowCoordinator : public ::HMUI::FlowCoordinator {
 public:
@@ -68,12 +68,12 @@ public:
 
   constexpr void __cordl_internal_set__topScreenViewController(::UnityW<::HMUI::ViewController> value);
 
-  /// @brief Method DidActivate, addr 0x229e188, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x23f8a18, size 0x1c, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::TestFlowCoordinator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x229e1a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23f8a34, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TestFlowCoordinator", modifiers: "&&", def_value: None }]

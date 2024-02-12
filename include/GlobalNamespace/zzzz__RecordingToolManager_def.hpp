@@ -89,7 +89,7 @@ MARK_VAL_T(::GlobalNamespace::__RecordingToolManager___HandleGameplayLevelSceneT
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5962))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5235))
 // CS Name: ::RecordingToolManager::SetupData
 struct CORDL_TYPE __RecordingToolManager__SetupData {
 public:
@@ -125,7 +125,7 @@ static_assert(offsetof(::GlobalNamespace::__RecordingToolManager__SetupData, run
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5963))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5236))
 // CS Name: ::RecordingToolManager::<>c*
 class CORDL_TYPE __RecordingToolManager____c : public ::System::Object {
 public:
@@ -146,10 +146,10 @@ public:
 
   static inline ::GlobalNamespace::__RecordingToolManager____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2308a0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2335db4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <.ctor>b__25_0, addr 0x2308a14, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__25_0, addr 0x2335dbc, size 0x18, virtual false, abstract: false, final false
   inline bool __ctor_b__25_0(::GlobalNamespace::RecordingSettings* recordingSettings);
 
   // Ctor Parameters [CppParam { name: "", ty: "__RecordingToolManager____c", modifiers: "&&", def_value: None }]
@@ -176,8 +176,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__RecordingTool
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3400))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5964))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3389)), TypeDefinitionIndex(TypeDefinitionIndex(3396))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5237))
 // CS Name: ::RecordingToolManager::<HandleGameplayLevelSceneTransitionEventsAnyGameplayLevelDidFinish>d__28
 struct CORDL_TYPE __RecordingToolManager___HandleGameplayLevelSceneTransitionEventsAnyGameplayLevelDidFinish_d__28 {
 public:
@@ -188,10 +188,10 @@ public:
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x2308a2c, size 0x2b8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2335dd4, size 0x2b8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2308ce4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x233608c, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -240,7 +240,7 @@ static_assert(offsetof(::GlobalNamespace::__RecordingToolManager___HandleGamepla
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5965))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5238))
 // CS Name: ::RecordingToolManager*
 class CORDL_TYPE RecordingToolManager : public ::System::Object {
 public:
@@ -376,44 +376,44 @@ public:
 
   constexpr void __cordl_internal_set__currentRecordingIndex(int32_t value);
 
-  /// @brief Method get_recordingToolEnabled, addr 0x230811c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_recordingToolEnabled, addr 0x23354c4, size 0x8, virtual false, abstract: false, final false
   inline bool get_recordingToolEnabled();
 
-  /// @brief Method get_showRecordingToolScene, addr 0x2308124, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_showRecordingToolScene, addr 0x23354cc, size 0x8, virtual false, abstract: false, final false
   inline bool get_showRecordingToolScene();
 
-  /// @brief Method get_performanceRecordingEnabled, addr 0x230812c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_performanceRecordingEnabled, addr 0x23354d4, size 0x8, virtual false, abstract: false, final false
   inline bool get_performanceRecordingEnabled();
 
-  /// @brief Method get_configJsonData, addr 0x2308134, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_configJsonData, addr 0x23354dc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_configJsonData();
 
-  /// @brief Method get_recordingToolSettings, addr 0x230813c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_recordingToolSettings, addr 0x23354e4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::RecordingToolSettings* get_recordingToolSettings();
 
-  /// @brief Method get_posesSerializer, addr 0x2308144, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_posesSerializer, addr 0x23354ec, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IPosesSerializer* get_posesSerializer();
 
   static inline ::GlobalNamespace::RecordingToolManager* New_ctor(::GlobalNamespace::RecordingToolConfigurationProcessor* processor,
                                                                   ::GlobalNamespace::BeatmapCharacteristicCollection* beatmapCharacteristicCollection, ::Zenject::DiContainer* diContainer);
 
-  /// @brief Method .ctor, addr 0x230814c, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23354f4, size 0x198, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::RecordingToolConfigurationProcessor* processor, ::GlobalNamespace::BeatmapCharacteristicCollection* beatmapCharacteristicCollection,
                     ::Zenject::DiContainer* diContainer);
 
-  /// @brief Method Initialize, addr 0x23082e4, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x233568c, size 0xa8, virtual true, abstract: false, final true
   inline void Initialize();
 
-  /// @brief Method Dispose, addr 0x2308530, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x23358d8, size 0x98, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method HandleGameplayLevelSceneTransitionEventsAnyGameplayLevelDidFinish, addr 0x23085c8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method HandleGameplayLevelSceneTransitionEventsAnyGameplayLevelDidFinish, addr 0x2335970, size 0x94, virtual false, abstract: false, final false
   inline void HandleGameplayLevelSceneTransitionEventsAnyGameplayLevelDidFinish();
 
-  /// @brief Method StartNextRecording, addr 0x230838c, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method StartNextRecording, addr 0x2335734, size 0x1a4, virtual false, abstract: false, final false
   inline void StartNextRecording();
 
-  /// @brief Method BindNextRecording, addr 0x230865c, size 0x34c, virtual false, abstract: false, final false
+  /// @brief Method BindNextRecording, addr 0x2335a04, size 0x34c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MenuDestination* BindNextRecording(::Zenject::DiContainer* container, ::GlobalNamespace::RecordingSettings* recordingSettings, bool quitAppAfterRun);
 
   // Ctor Parameters [CppParam { name: "", ty: "RecordingToolManager", modifiers: "&&", def_value: None }]

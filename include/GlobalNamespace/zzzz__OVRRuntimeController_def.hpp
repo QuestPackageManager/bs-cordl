@@ -53,7 +53,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__OVRRuntimeController___UpdateControllerModel
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8161))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8111))
 // CS Name: ::OVRRuntimeController::<UpdateControllerModel>d__16*
 class CORDL_TYPE __OVRRuntimeController___UpdateControllerModel_d__16 : public ::System::Object {
 public:
@@ -109,22 +109,22 @@ public:
 
   static inline ::GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor, addr 0x27bb58c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27ccf58, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x27bb668, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x27cd030, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext, addr 0x27bb66c, size 0x120, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x27cd034, size 0x120, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x27bb78c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x27cd154, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x27bb794, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x27cd15c, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x27bb7d4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x27cd19c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__OVRRuntimeController___UpdateControllerModel_d__16", modifiers: "&&", def_value: None }]
@@ -166,8 +166,8 @@ static_assert(offsetof(::GlobalNamespace::__OVRRuntimeController___UpdateControl
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7598)), TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8162))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7667)), TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8112))
 // CS Name: ::OVRRuntimeController*
 class CORDL_TYPE OVRRuntimeController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -281,33 +281,33 @@ public:
 
   static inline ::StringW getStaticF_rightControllerModelPath();
 
-  /// @brief Method Start, addr 0x27bab34, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x27cc508, size 0x184, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x27bae84, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x27cc858, size 0x10c, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method IsModelSupported, addr 0x27bacb8, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method IsModelSupported, addr 0x27cc68c, size 0x164, virtual false, abstract: false, final false
   inline bool IsModelSupported(::StringW modelPath);
 
-  /// @brief Method LoadControllerModel, addr 0x27bb2cc, size 0x2c0, virtual false, abstract: false, final false
+  /// @brief Method LoadControllerModel, addr 0x27ccc98, size 0x2c0, virtual false, abstract: false, final false
   inline bool LoadControllerModel(::StringW modelPath);
 
-  /// @brief Method UpdateControllerModel, addr 0x27bae1c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method UpdateControllerModel, addr 0x27cc7f0, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* UpdateControllerModel();
 
-  /// @brief Method UpdateControllerAnimation, addr 0x27baf90, size 0x33c, virtual false, abstract: false, final false
+  /// @brief Method UpdateControllerAnimation, addr 0x27cc964, size 0x334, virtual false, abstract: false, final false
   inline void UpdateControllerAnimation();
 
-  /// @brief Method InputFocusAquired, addr 0x27bb5b4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method InputFocusAquired, addr 0x27ccf80, size 0xc, virtual false, abstract: false, final false
   inline void InputFocusAquired();
 
-  /// @brief Method InputFocusLost, addr 0x27bb5c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InputFocusLost, addr 0x27ccf8c, size 0x8, virtual false, abstract: false, final false
   inline void InputFocusLost();
 
   static inline ::GlobalNamespace::OVRRuntimeController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x27bb5c8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27ccf94, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRRuntimeController", modifiers: "&&", def_value: None }]

@@ -42,7 +42,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__MissionObjectiveCheckersManager__InitData);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5094))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4447))
 // CS Name: ::MissionObjectiveCheckersManager::InitData*
 class CORDL_TYPE __MissionObjectiveCheckersManager__InitData : public ::System::Object {
 public:
@@ -60,7 +60,7 @@ public:
   static inline ::GlobalNamespace::__MissionObjectiveCheckersManager__InitData*
   New_ctor(::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> missionObjectives);
 
-  /// @brief Method .ctor, addr 0x23cd16c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x238a5a8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> missionObjectives);
 
   // Ctor Parameters [CppParam { name: "", ty: "__MissionObjectiveCheckersManager__InitData", modifiers: "&&", def_value: None }]
@@ -92,8 +92,8 @@ static_assert(offsetof(::GlobalNamespace::__MissionObjectiveCheckersManager__Ini
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5095))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4448))
 // CS Name: ::MissionObjectiveCheckersManager*
 class CORDL_TYPE MissionObjectiveCheckersManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -173,54 +173,54 @@ public:
   constexpr void
   __cordl_internal_set__activeMissionObjectiveCheckers(::ArrayW<::UnityW<::GlobalNamespace::MissionObjectiveChecker>, ::Array<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>*> value);
 
-  /// @brief Method add_objectiveDidFailEvent, addr 0x23cc400, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_objectiveDidFailEvent, addr 0x237bb84, size 0x9c, virtual false, abstract: false, final false
   inline void add_objectiveDidFailEvent(::System::Action* value);
 
-  /// @brief Method remove_objectiveDidFailEvent, addr 0x23cc49c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_objectiveDidFailEvent, addr 0x237b400, size 0x9c, virtual false, abstract: false, final false
   inline void remove_objectiveDidFailEvent(::System::Action* value);
 
-  /// @brief Method add_objectiveWasClearedEvent, addr 0x23cc538, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_objectiveWasClearedEvent, addr 0x2389aac, size 0x9c, virtual false, abstract: false, final false
   inline void add_objectiveWasClearedEvent(::System::Action* value);
 
-  /// @brief Method remove_objectiveWasClearedEvent, addr 0x23cc5d4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_objectiveWasClearedEvent, addr 0x2389b48, size 0x9c, virtual false, abstract: false, final false
   inline void remove_objectiveWasClearedEvent(::System::Action* value);
 
-  /// @brief Method add_objectivesListDidChangeEvent, addr 0x23cc670, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_objectivesListDidChangeEvent, addr 0x237ecbc, size 0x9c, virtual false, abstract: false, final false
   inline void add_objectivesListDidChangeEvent(::System::Action* value);
 
-  /// @brief Method remove_objectivesListDidChangeEvent, addr 0x23cc70c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_objectivesListDidChangeEvent, addr 0x237f1c8, size 0x9c, virtual false, abstract: false, final false
   inline void remove_objectivesListDidChangeEvent(::System::Action* value);
 
-  /// @brief Method get_activeMissionObjectiveCheckers, addr 0x23cc7a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_activeMissionObjectiveCheckers, addr 0x2389be4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::MissionObjectiveChecker>, ::Array<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>*> get_activeMissionObjectiveCheckers();
 
-  /// @brief Method Start, addr 0x23cc7b0, size 0x5cc, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2389bec, size 0x5cc, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy, addr 0x23ccd7c, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x238a1b8, size 0x1a4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleMissionObjectiveCheckerStatusDidChange, addr 0x23ccf20, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method HandleMissionObjectiveCheckerStatusDidChange, addr 0x238a35c, size 0x4c, virtual false, abstract: false, final false
   inline void HandleMissionObjectiveCheckerStatusDidChange(::GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker);
 
-  /// @brief Method GetMissionObjectiveChecker, addr 0x23ccf6c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetMissionObjectiveChecker, addr 0x238a3a8, size 0xc8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MissionObjectiveChecker> GetMissionObjectiveChecker(::GlobalNamespace::MissionObjectiveTypeSO* missionObjectiveType);
 
-  /// @brief Method GetResults, addr 0x23c95c4, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method GetResults, addr 0x2386ecc, size 0x194, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::MissionObjectiveResult*, ::Array<::GlobalNamespace::MissionObjectiveResult*>*> GetResults();
 
-  /// @brief Method HandleLevelFailed, addr 0x23cd034, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleLevelFailed, addr 0x238a470, size 0x4, virtual false, abstract: false, final false
   inline void HandleLevelFailed();
 
-  /// @brief Method HandleLevelFinished, addr 0x23cd110, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleLevelFinished, addr 0x238a54c, size 0x4, virtual false, abstract: false, final false
   inline void HandleLevelFinished();
 
-  /// @brief Method StopChecking, addr 0x23cd038, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method StopChecking, addr 0x238a474, size 0xd8, virtual false, abstract: false, final false
   inline void StopChecking();
 
   static inline ::GlobalNamespace::MissionObjectiveCheckersManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23cd114, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x238a550, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionObjectiveCheckersManager", modifiers: "&&", def_value: None }]

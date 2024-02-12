@@ -16,7 +16,7 @@ MARK_VAL_T(::LiteNetLib::DeliveryMethod);
 namespace LiteNetLib {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14155))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14168))
 // CS Name: ::LiteNetLib::DeliveryMethod
 struct CORDL_TYPE DeliveryMethod {
 public:

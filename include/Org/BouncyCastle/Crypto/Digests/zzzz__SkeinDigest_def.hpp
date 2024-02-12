@@ -60,42 +60,42 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Digests::SkeinDigest* New_ctor(int32_t stateSizeBits, int32_t digestSizeBits);
 
-  /// @brief Method .ctor, addr 0xea6070, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xed0f00, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(int32_t stateSizeBits, int32_t digestSizeBits);
 
   static inline ::Org::BouncyCastle::Crypto::Digests::SkeinDigest* New_ctor(::Org::BouncyCastle::Crypto::Digests::SkeinDigest* digest);
 
-  /// @brief Method .ctor, addr 0xea62a0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xed1130, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Digests::SkeinDigest* digest);
 
-  /// @brief Method Reset, addr 0xea6370, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0xed1200, size 0x8c, virtual true, abstract: false, final true
   inline void Reset(::Org::BouncyCastle::Utilities::IMemoable* other);
 
-  /// @brief Method Copy, addr 0xea6520, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method Copy, addr 0xed13b0, size 0x60, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Utilities::IMemoable* Copy();
 
-  /// @brief Method get_AlgorithmName, addr 0xea6580, size 0x1c4, virtual true, abstract: false, final true
+  /// @brief Method get_AlgorithmName, addr 0xed1410, size 0x1c4, virtual true, abstract: false, final true
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method GetDigestSize, addr 0xea6768, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method GetDigestSize, addr 0xed15f8, size 0x1c, virtual true, abstract: false, final true
   inline int32_t GetDigestSize();
 
-  /// @brief Method GetByteLength, addr 0xea6784, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method GetByteLength, addr 0xed1614, size 0x2c, virtual true, abstract: false, final true
   inline int32_t GetByteLength();
 
-  /// @brief Method Init, addr 0xea6288, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0xed1118, size 0x18, virtual false, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::Parameters::SkeinParameters* parameters);
 
-  /// @brief Method Reset, addr 0xea6868, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0xed16f8, size 0x18, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method Update, addr 0xea68c0, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method Update, addr 0xed1750, size 0x18, virtual true, abstract: false, final true
   inline void Update(uint8_t inByte);
 
-  /// @brief Method BlockUpdate, addr 0xea690c, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method BlockUpdate, addr 0xed179c, size 0x18, virtual true, abstract: false, final true
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> inBytes, int32_t inOff, int32_t len);
 
-  /// @brief Method DoFinal, addr 0xea6970, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method DoFinal, addr 0xed1800, size 0x18, virtual true, abstract: false, final true
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
   // Ctor Parameters [CppParam { name: "", ty: "SkeinDigest", modifiers: "&&", def_value: None }]

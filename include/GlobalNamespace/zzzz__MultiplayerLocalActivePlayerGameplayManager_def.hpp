@@ -50,7 +50,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerLocalActivePlayerGameplayManager_
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5153))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4495))
 // CS Name: ::MultiplayerLocalActivePlayerGameplayManager::InitData*
 class CORDL_TYPE __MultiplayerLocalActivePlayerGameplayManager__InitData : public ::System::Object {
 public:
@@ -66,7 +66,7 @@ public:
 
   static inline ::GlobalNamespace::__MultiplayerLocalActivePlayerGameplayManager__InitData* New_ctor(bool failOn0Energy);
 
-  /// @brief Method .ctor, addr 0x23dc398, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x239b048, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool failOn0Energy);
 
   // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerLocalActivePlayerGameplayManager__InitData", modifiers: "&&", def_value: None }]
@@ -98,8 +98,8 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerLocalActivePlayerGameplay
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 105, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5154))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4496))
 // CS Name: ::MultiplayerLocalActivePlayerGameplayManager*
 class CORDL_TYPE MultiplayerLocalActivePlayerGameplayManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -209,48 +209,48 @@ public:
 
   constexpr void __cordl_internal_set__levelFinishedOrFailed(bool value);
 
-  /// @brief Method Start, addr 0x23db0d8, size 0x478, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2399d88, size 0x478, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDisable, addr 0x23db570, size 0x498, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x239a220, size 0x498, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method PerformPlayerFail, addr 0x23dba08, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method PerformPlayerFail, addr 0x239a6b8, size 0x240, virtual false, abstract: false, final false
   inline void PerformPlayerFail();
 
-  /// @brief Method PerformPlayerGivenUp, addr 0x23dbc48, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method PerformPlayerGivenUp, addr 0x239a8f8, size 0x240, virtual false, abstract: false, final false
   inline void PerformPlayerGivenUp();
 
-  /// @brief Method HandleGameEnergyDidReach0, addr 0x23dbe88, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method HandleGameEnergyDidReach0, addr 0x239ab38, size 0x28, virtual false, abstract: false, final false
   inline void HandleGameEnergyDidReach0();
 
-  /// @brief Method HandleInGameMenuControllerDidGiveUp, addr 0x23dbeb0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleInGameMenuControllerDidGiveUp, addr 0x239ab60, size 0x4, virtual false, abstract: false, final false
   inline void HandleInGameMenuControllerDidGiveUp();
 
-  /// @brief Method HandleInGameMenuControllerRequestsDisconnect, addr 0x23dbeb4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method HandleInGameMenuControllerRequestsDisconnect, addr 0x239ab64, size 0x40, virtual false, abstract: false, final false
   inline void HandleInGameMenuControllerRequestsDisconnect();
 
-  /// @brief Method HandleSongDidFinish, addr 0x23dc104, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method HandleSongDidFinish, addr 0x239adb4, size 0x240, virtual false, abstract: false, final false
   inline void HandleSongDidFinish();
 
-  /// @brief Method HandleHmdUnmounted, addr 0x23dc344, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleHmdUnmounted, addr 0x239aff4, size 0x4, virtual false, abstract: false, final false
   inline void HandleHmdUnmounted();
 
-  /// @brief Method HandleVrFocusWasCapturedEvent, addr 0x23dc348, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleVrFocusWasCapturedEvent, addr 0x239aff8, size 0x4, virtual false, abstract: false, final false
   inline void HandleVrFocusWasCapturedEvent();
 
-  /// @brief Method HandleInputFocusCaptured, addr 0x23db550, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleInputFocusCaptured, addr 0x239a200, size 0x20, virtual false, abstract: false, final false
   inline void HandleInputFocusCaptured();
 
-  /// @brief Method HandleInputFocusReleased, addr 0x23dc34c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HandleInputFocusReleased, addr 0x239affc, size 0x38, virtual false, abstract: false, final false
   inline void HandleInputFocusReleased();
 
-  /// @brief Method OnApplicationFocus, addr 0x23dc384, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationFocus, addr 0x239b034, size 0xc, virtual false, abstract: false, final false
   inline void OnApplicationFocus(bool hasFocus);
 
   static inline ::GlobalNamespace::MultiplayerLocalActivePlayerGameplayManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23dc390, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x239b040, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActivePlayerGameplayManager", modifiers: "&&", def_value: None }]

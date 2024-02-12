@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLobbyCenterStageManager);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5563))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4869))
 // CS Name: ::MultiplayerLobbyCenterStageManager*
 class CORDL_TYPE MultiplayerLobbyCenterStageManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -76,21 +76,21 @@ public:
 
   constexpr void __cordl_internal_set__minOuterCircleRadius(float_t value);
 
-  /// @brief Method Init, addr 0x22a3940, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x22d6ee8, size 0x8, virtual false, abstract: false, final false
   inline void Init(float_t innerCircleRadius, float_t minOuterCircleRadius);
 
-  /// @brief Method ActivateCenterStageManager, addr 0x22a3948, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ActivateCenterStageManager, addr 0x22d6ef0, size 0x24, virtual false, abstract: false, final false
   inline void ActivateCenterStageManager();
 
-  /// @brief Method DeactivateCenterStageManager, addr 0x22a3a64, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method DeactivateCenterStageManager, addr 0x22d700c, size 0x24, virtual false, abstract: false, final false
   inline void DeactivateCenterStageManager();
 
-  /// @brief Method RecalculateCenterPosition, addr 0x22a396c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method RecalculateCenterPosition, addr 0x22d6f14, size 0xf8, virtual false, abstract: false, final false
   inline void RecalculateCenterPosition();
 
   static inline ::GlobalNamespace::MultiplayerLobbyCenterStageManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22a3a88, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22d7030, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyCenterStageManager", modifiers: "&&", def_value: None }]

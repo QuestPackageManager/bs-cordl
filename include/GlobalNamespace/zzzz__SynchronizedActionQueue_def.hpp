@@ -30,12 +30,12 @@ MARK_VAL_T(::GlobalNamespace::__SynchronizedActionQueue__SynchronizedAction);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12968))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12866))
 // CS Name: ::SynchronizedActionQueue::SynchronizedAction
 struct CORDL_TYPE __SynchronizedActionQueue__SynchronizedAction {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0xe59548, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe84380, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t time, ::System::Action* action);
 
   // Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "action", ty: "::System::Action*", modifiers: "", def_value: None }]
@@ -69,7 +69,7 @@ static_assert(offsetof(::GlobalNamespace::__SynchronizedActionQueue__Synchronize
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12969))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12867))
 // CS Name: ::SynchronizedActionQueue*
 class CORDL_TYPE SynchronizedActionQueue : public ::System::Object {
 public:
@@ -88,18 +88,18 @@ public:
 
   constexpr void __cordl_internal_set__synchronizedActionQueue(::System::Collections::Generic::List_1<::GlobalNamespace::__SynchronizedActionQueue__SynchronizedAction>* value);
 
-  /// @brief Method Clear, addr 0xe5941c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0xe84254, size 0x70, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method EnqueueAction, addr 0xe5948c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method EnqueueAction, addr 0xe842c4, size 0xbc, virtual false, abstract: false, final false
   inline void EnqueueAction(float_t time, ::System::Action* action);
 
-  /// @brief Method Update, addr 0xe59554, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0xe8438c, size 0x114, virtual false, abstract: false, final false
   inline void Update(float_t time);
 
   static inline ::GlobalNamespace::SynchronizedActionQueue* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe59668, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe844a0, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SynchronizedActionQueue", modifiers: "&&", def_value: None }]

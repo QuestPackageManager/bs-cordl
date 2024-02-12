@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::System::Runtime::InteropServices::ErrorWrapper);
 namespace System::Runtime::InteropServices {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3311))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3309))
 // CS Name: ::System.Runtime.InteropServices::ErrorWrapper*
 class CORDL_TYPE ErrorWrapper : public ::System::Object {
 public:

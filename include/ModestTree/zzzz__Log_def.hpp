@@ -23,30 +23,30 @@ MARK_REF_PTR_T(::ModestTree::Log);
 namespace ModestTree {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10614))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9756))
 // CS Name: ::ModestTree::Log*
 class CORDL_TYPE Log : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Debug, addr 0x2ebc1d0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Debug, addr 0x2ed8318, size 0x4, virtual false, abstract: false, final false
   static inline void Debug(::StringW message, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method Info, addr 0x2ebc1d4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Info, addr 0x2ed831c, size 0x78, virtual false, abstract: false, final false
   static inline void Info(::StringW message, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method Warn, addr 0x2ebbbc8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Warn, addr 0x2ed7d10, size 0x78, virtual false, abstract: false, final false
   static inline void Warn(::StringW message, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method Trace, addr 0x2ebc24c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Trace, addr 0x2ed8394, size 0x78, virtual false, abstract: false, final false
   static inline void Trace(::StringW message, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method ErrorException, addr 0x2ebc2c4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ErrorException, addr 0x2ed840c, size 0x58, virtual false, abstract: false, final false
   static inline void ErrorException(::System::Exception* e);
 
-  /// @brief Method ErrorException, addr 0x2ebc31c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ErrorException, addr 0x2ed8464, size 0x70, virtual false, abstract: false, final false
   static inline void ErrorException(::StringW message, ::System::Exception* e);
 
-  /// @brief Method Error, addr 0x2ebc38c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Error, addr 0x2ed84d4, size 0x78, virtual false, abstract: false, final false
   static inline void Error(::StringW message, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
   // Ctor Parameters [CppParam { name: "", ty: "Log", modifiers: "&&", def_value: None }]

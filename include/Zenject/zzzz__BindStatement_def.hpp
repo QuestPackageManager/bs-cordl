@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::Zenject::BindStatement);
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10947))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10089))
 // CS Name: ::Zenject::BindStatement*
 class CORDL_TYPE BindStatement : public ::System::Object {
 public:
@@ -68,34 +68,34 @@ public:
 
   static inline ::Zenject::BindStatement* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2edebbc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2efad04, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_BindingInheritanceMethod, addr 0x2eded7c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method get_BindingInheritanceMethod, addr 0x2efaec4, size 0xa8, virtual false, abstract: false, final false
   inline ::Zenject::BindingInheritanceMethods get_BindingInheritanceMethod();
 
-  /// @brief Method get_HasFinalizer, addr 0x2edee68, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HasFinalizer, addr 0x2efafb0, size 0x10, virtual false, abstract: false, final false
   inline bool get_HasFinalizer();
 
-  /// @brief Method SetFinalizer, addr 0x2edee78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetFinalizer, addr 0x2efafc0, size 0x8, virtual false, abstract: false, final false
   inline void SetFinalizer(::Zenject::IBindingFinalizer* bindingFinalizer);
 
-  /// @brief Method AssertHasFinalizer, addr 0x2edee24, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method AssertHasFinalizer, addr 0x2efaf6c, size 0x44, virtual false, abstract: false, final false
   inline void AssertHasFinalizer();
 
-  /// @brief Method AddDisposable, addr 0x2edee80, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method AddDisposable, addr 0x2efafc8, size 0xa8, virtual false, abstract: false, final false
   inline void AddDisposable(::System::IDisposable* disposable);
 
-  /// @brief Method SpawnBindInfo, addr 0x2edef28, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SpawnBindInfo, addr 0x2efb070, size 0x6c, virtual false, abstract: false, final false
   inline ::Zenject::BindInfo* SpawnBindInfo();
 
-  /// @brief Method FinalizeBinding, addr 0x2edef94, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method FinalizeBinding, addr 0x2efb0dc, size 0xb4, virtual false, abstract: false, final false
   inline void FinalizeBinding(::Zenject::DiContainer* container);
 
-  /// @brief Method Reset, addr 0x2edec40, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x2efad88, size 0x13c, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Dispose, addr 0x2edf048, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2efb190, size 0x58, virtual true, abstract: false, final true
   inline void Dispose();
 
   // Ctor Parameters [CppParam { name: "", ty: "BindStatement", modifiers: "&&", def_value: None }]

@@ -40,7 +40,7 @@ MARK_REF_PTR_T(::System::Net::CookieContainer);
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9130))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7140))
 // CS Name: ::System.Net::CookieContainer*
 class CORDL_TYPE CookieContainer : public ::System::Object {
 public:
@@ -108,41 +108,41 @@ public:
 
   static inline ::System::Net::CookieContainer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29aee3c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29b38e0, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method AddRemoveDomain, addr 0x29aef30, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method AddRemoveDomain, addr 0x29b39d4, size 0x128, virtual false, abstract: false, final false
   inline void AddRemoveDomain(::StringW key, ::System::Net::PathList* value);
 
-  /// @brief Method Add, addr 0x29af058, size 0x820, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x29b3afc, size 0x820, virtual false, abstract: false, final false
   inline void Add(::System::Net::Cookie* cookie, bool throwOnError);
 
-  /// @brief Method AgeCookies, addr 0x29afeac, size 0x153c, virtual false, abstract: false, final false
+  /// @brief Method AgeCookies, addr 0x29b4950, size 0x153c, virtual false, abstract: false, final false
   inline bool AgeCookies(::StringW domain);
 
-  /// @brief Method ExpireCollection, addr 0x29b1414, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method ExpireCollection, addr 0x29b5eb8, size 0x16c, virtual false, abstract: false, final false
   inline int32_t ExpireCollection(::System::Net::CookieCollection* cc);
 
-  /// @brief Method IsLocalDomain, addr 0x29b15a4, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method IsLocalDomain, addr 0x29b6048, size 0x29c, virtual false, abstract: false, final false
   inline bool IsLocalDomain(::StringW host);
 
-  /// @brief Method CookieCutter, addr 0x29b1840, size 0x6d4, virtual false, abstract: false, final false
+  /// @brief Method CookieCutter, addr 0x29b62e4, size 0x6d4, virtual false, abstract: false, final false
   inline ::System::Net::CookieCollection* CookieCutter(::System::Uri* uri, ::StringW headerName, ::StringW setCookieHeader, bool isThrow);
 
-  /// @brief Method InternalGetCookies, addr 0x29b1f14, size 0x4ac, virtual false, abstract: false, final false
+  /// @brief Method InternalGetCookies, addr 0x29b69b8, size 0x4ac, virtual false, abstract: false, final false
   inline ::System::Net::CookieCollection* InternalGetCookies(::System::Uri* uri);
 
-  /// @brief Method BuildCookieCollectionFromDomainMatches, addr 0x29b23c0, size 0x804, virtual false, abstract: false, final false
+  /// @brief Method BuildCookieCollectionFromDomainMatches, addr 0x29b6e64, size 0x804, virtual false, abstract: false, final false
   inline void BuildCookieCollectionFromDomainMatches(::System::Uri* uri, bool isSecure, int32_t port, ::System::Net::CookieCollection* cookies,
                                                      ::System::Collections::Generic::List_1<::StringW>* domainAttribute, bool matchOnlyPlainCookie);
 
-  /// @brief Method MergeUpdateCollections, addr 0x29b2be8, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method MergeUpdateCollections, addr 0x29b768c, size 0x20c, virtual false, abstract: false, final false
   inline void MergeUpdateCollections(::System::Net::CookieCollection* destination, ::System::Net::CookieCollection* source, int32_t port, bool isSecure, bool isPlainOnly);
 
-  /// @brief Method GetCookieHeader, addr 0x29b2df4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetCookieHeader, addr 0x29b7898, size 0xd0, virtual false, abstract: false, final false
   inline ::StringW GetCookieHeader(::System::Uri* uri);
 
-  /// @brief Method GetCookieHeader, addr 0x29b2ec4, size 0x398, virtual false, abstract: false, final false
+  /// @brief Method GetCookieHeader, addr 0x29b7968, size 0x398, virtual false, abstract: false, final false
   inline ::StringW GetCookieHeader(::System::Uri* uri, ByRef<::StringW> optCookie2);
 
   // Ctor Parameters [CppParam { name: "", ty: "CookieContainer", modifiers: "&&", def_value: None }]

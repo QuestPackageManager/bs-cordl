@@ -86,7 +86,7 @@ namespace Zenject {
 template <typename TContract>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10823))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9965))
 // CS Name: ::FactorySubContainerBinderBase`1::<>c__DisplayClass23_0<TContract>*
 class CORDL_TYPE __FactorySubContainerBinderBase_1____c__DisplayClass23_0 : public ::System::Object {
 public:
@@ -166,7 +166,7 @@ namespace Zenject {
 template <typename TContract>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10824))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9966))
 // CS Name: ::FactorySubContainerBinderBase`1::<>c__DisplayClass25_0<TContract>*
 class CORDL_TYPE __FactorySubContainerBinderBase_1____c__DisplayClass25_0 : public ::System::Object {
 public:
@@ -246,7 +246,7 @@ namespace Zenject {
 template <typename TContract>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10825))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9967))
 // CS Name: ::FactorySubContainerBinderBase`1::<>c__DisplayClass27_0<TContract>*
 class CORDL_TYPE __FactorySubContainerBinderBase_1____c__DisplayClass27_0 : public ::System::Object {
 public:
@@ -338,7 +338,7 @@ namespace Zenject {
 template <typename TContract>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10826))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9968))
 // CS Name: ::FactorySubContainerBinderBase`1::<>c__DisplayClass29_0<TContract>*
 class CORDL_TYPE __FactorySubContainerBinderBase_1____c__DisplayClass29_0 : public ::System::Object {
 public:
@@ -430,7 +430,7 @@ namespace Zenject {
 template <typename TContract>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10827))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9969))
 // CS Name: ::Zenject::FactorySubContainerBinderBase`1<TContract>*
 class CORDL_TYPE FactorySubContainerBinderBase_1 : public ::System::Object {
 public:

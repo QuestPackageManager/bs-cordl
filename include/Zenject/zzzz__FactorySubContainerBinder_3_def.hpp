@@ -84,7 +84,7 @@ namespace Zenject {
 template <typename TParam1, typename TParam2, typename TContract>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10798))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9940))
 // CS Name: ::FactorySubContainerBinder`3::<>c__DisplayClass1_0<TParam1,TParam2,TContract>*
 class CORDL_TYPE __FactorySubContainerBinder_3____c__DisplayClass1_0 : public ::System::Object {
 public:
@@ -164,7 +164,7 @@ namespace Zenject {
 template <typename TParam1, typename TParam2, typename TContract>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10799))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9941))
 // CS Name: ::FactorySubContainerBinder`3::<>c__DisplayClass2_0<TParam1,TParam2,TContract>*
 class CORDL_TYPE __FactorySubContainerBinder_3____c__DisplayClass2_0 : public ::System::Object {
 public:
@@ -244,7 +244,7 @@ namespace Zenject {
 template <typename TParam1, typename TParam2, typename TContract>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10800))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9942))
 // CS Name: ::FactorySubContainerBinder`3::<>c__DisplayClass3_0<TParam1,TParam2,TContract>*
 class CORDL_TYPE __FactorySubContainerBinder_3____c__DisplayClass3_0 : public ::System::Object {
 public:
@@ -336,7 +336,7 @@ namespace Zenject {
 template <typename TParam1, typename TParam2, typename TContract>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10801))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9943))
 // CS Name: ::FactorySubContainerBinder`3::<>c__DisplayClass4_0<TParam1,TParam2,TContract>*
 class CORDL_TYPE __FactorySubContainerBinder_3____c__DisplayClass4_0 : public ::System::Object {
 public:
@@ -427,8 +427,8 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TContract>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10830)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10830), inst: 1858 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10802))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9972)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9972), inst: 1816 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9944))
 // CS Name: ::Zenject::FactorySubContainerBinder`3<TParam1,TParam2,TContract>*
 class CORDL_TYPE FactorySubContainerBinder_3 : public ::Zenject::FactorySubContainerBinderWithParams_1<TContract> {
 public:

@@ -18,12 +18,12 @@ MARK_REF_PTR_T(::UnityEngine::Internal_SubsystemDescriptors);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15963))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16086))
 // CS Name: ::UnityEngine::Internal_SubsystemDescriptors*
 class CORDL_TYPE Internal_SubsystemDescriptors : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Internal_AddDescriptor, addr 0x2d1a1f0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Internal_AddDescriptor, addr 0x2d3ac98, size 0x54, virtual false, abstract: false, final false
   static inline void Internal_AddDescriptor(::UnityEngine::SubsystemDescriptor* descriptor);
 
   // Ctor Parameters [CppParam { name: "", ty: "Internal_SubsystemDescriptors", modifiers: "&&", def_value: None }]

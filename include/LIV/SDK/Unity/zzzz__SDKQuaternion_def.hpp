@@ -23,30 +23,30 @@ MARK_VAL_T(::LIV::SDK::Unity::SDKQuaternion);
 namespace LIV::SDK::Unity {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15110))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14983))
 // CS Name: ::LIV.SDK.Unity::SDKQuaternion
 struct CORDL_TYPE SDKQuaternion {
 public:
   // Declarations
-  /// @brief Method get_identity, addr 0x2213fec, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_identity, addr 0x22a98d4, size 0x14, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKQuaternion get_identity();
 
-  /// @brief Method op_Implicit, addr 0x2214000, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x22a98e8, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion op_Implicit___UnityEngine__Quaternion(::LIV::SDK::Unity::SDKQuaternion v);
 
-  /// @brief Method op_Implicit, addr 0x2213464, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x22a8d4c, size 0x4, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKQuaternion op_Implicit___LIV__SDK__Unity__SDKQuaternion(::UnityEngine::Quaternion v);
 
-  /// @brief Method Euler, addr 0x2214004, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Euler, addr 0x22a98ec, size 0xb4, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKQuaternion Euler(float_t pitch, float_t yaw, float_t roll);
 
-  /// @brief Method op_Multiply, addr 0x22140b8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method op_Multiply, addr 0x22a99a0, size 0x74, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKQuaternion op_Multiply(::LIV::SDK::Unity::SDKQuaternion lhs, ::LIV::SDK::Unity::SDKQuaternion rhs);
 
-  /// @brief Method op_Multiply, addr 0x221412c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method op_Multiply, addr 0x22a9a14, size 0xa4, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKVector3 op_Multiply(::LIV::SDK::Unity::SDKQuaternion lhs, ::LIV::SDK::Unity::SDKVector3 rhs);
 
-  /// @brief Method ToString, addr 0x22141d0, size 0x1ac, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x22a9ab8, size 0x1ac, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "x", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "y", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "z", ty: "float_t",

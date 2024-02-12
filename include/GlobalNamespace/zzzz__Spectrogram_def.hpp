@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::GlobalNamespace::Spectrogram);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4999))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4353))
 // CS Name: ::Spectrogram*
 class CORDL_TYPE Spectrogram : public ::UnityEngine::MonoBehaviour {
 public:
@@ -88,18 +88,18 @@ public:
 
   static inline ::UnityEngine::MaterialPropertyBlock* getStaticF__materialPropertyBlock();
 
-  /// @brief Method get_materialPropertyBlock, addr 0x23b6cfc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method get_materialPropertyBlock, addr 0x2375e40, size 0xb4, virtual false, abstract: false, final false
   inline ::UnityEngine::MaterialPropertyBlock* get_materialPropertyBlock();
 
-  /// @brief Method Awake, addr 0x23b6db0, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2375ef4, size 0xf0, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Update, addr 0x23b6ea0, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2375fe4, size 0x1a8, virtual false, abstract: false, final false
   inline void Update();
 
   static inline ::GlobalNamespace::Spectrogram* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23b7048, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x237618c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Spectrogram", modifiers: "&&", def_value: None }]

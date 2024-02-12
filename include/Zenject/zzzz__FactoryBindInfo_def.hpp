@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::Zenject::FactoryBindInfo);
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10948))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10090))
 // CS Name: ::Zenject::FactoryBindInfo*
 class CORDL_TYPE FactoryBindInfo : public ::System::Object {
 public:
@@ -75,25 +75,25 @@ public:
 
   static inline ::Zenject::FactoryBindInfo* New_ctor(::System::Type* factoryType);
 
-  /// @brief Method .ctor, addr 0x2edf0a0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2efb1e8, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* factoryType);
 
-  /// @brief Method get_FactoryType, addr 0x2edf130, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FactoryType, addr 0x2efb278, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_FactoryType();
 
-  /// @brief Method set_FactoryType, addr 0x2edf138, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_FactoryType, addr 0x2efb280, size 0x8, virtual false, abstract: false, final false
   inline void set_FactoryType(::System::Type* value);
 
-  /// @brief Method get_ProviderFunc, addr 0x2edf140, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ProviderFunc, addr 0x2efb288, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_2<::Zenject::DiContainer*, ::Zenject::IProvider*>* get_ProviderFunc();
 
-  /// @brief Method set_ProviderFunc, addr 0x2edf148, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ProviderFunc, addr 0x2efb290, size 0x8, virtual false, abstract: false, final false
   inline void set_ProviderFunc(::System::Func_2<::Zenject::DiContainer*, ::Zenject::IProvider*>* value);
 
-  /// @brief Method get_Arguments, addr 0x2edf150, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Arguments, addr 0x2efb298, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* get_Arguments();
 
-  /// @brief Method set_Arguments, addr 0x2edf158, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Arguments, addr 0x2efb2a0, size 0x8, virtual false, abstract: false, final false
   inline void set_Arguments(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "FactoryBindInfo", modifiers: "&&", def_value: None }]

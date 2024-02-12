@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::System::Resources::IResourceReader);
 namespace System::Resources {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3425))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3421))
 // CS Name: ::System.Resources::IResourceReader*
 class CORDL_TYPE IResourceReader {
 public:

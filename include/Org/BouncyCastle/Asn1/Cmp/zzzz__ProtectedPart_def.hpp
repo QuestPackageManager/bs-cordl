@@ -59,24 +59,24 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::ProtectedPart* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xe6e19c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe9902c, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance, addr 0xe6e248, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xe990d8, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::ProtectedPart* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::ProtectedPart* New_ctor(::Org::BouncyCastle::Asn1::Cmp::PkiHeader* header, ::Org::BouncyCastle::Asn1::Cmp::PkiBody* body);
 
-  /// @brief Method .ctor, addr 0xe6e3d0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe99260, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cmp::PkiHeader* header, ::Org::BouncyCastle::Asn1::Cmp::PkiBody* body);
 
-  /// @brief Method get_Header, addr 0xe6e3fc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Header, addr 0xe9928c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeader* get_Header();
 
-  /// @brief Method get_Body, addr 0xe6e404, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Body, addr 0xe99294, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::PkiBody* get_Body();
 
-  /// @brief Method ToAsn1Object, addr 0xe6e40c, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xe9929c, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "ProtectedPart", modifiers: "&&", def_value: None }]

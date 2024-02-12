@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Android::AndroidProximity);
 // SizeInfo { instance_size: 352, native_size: -1, calculated_instance_size: 352, calculated_native_size: 352, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Android {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6283))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6437))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5542))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5696))
 // CS Name: ::UnityEngine.InputSystem.Android::AndroidProximity*
 class CORDL_TYPE AndroidProximity : public ::UnityEngine::InputSystem::ProximitySensor {
 public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Android::AndroidProximity* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ae59f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ae755c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AndroidProximity", modifiers: "&&", def_value: None }]

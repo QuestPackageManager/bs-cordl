@@ -73,7 +73,7 @@ namespace GlobalNamespace {
 template <typename TKey, typename TElement>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14283))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14296))
 // CS Name: ::Lookup`2::Grouping::<GetEnumerator>d__7<TKey,TElement>*
 class CORDL_TYPE __Lookup_2__Grouping___GetEnumerator_d__7 : public ::System::Object {
 public:
@@ -193,7 +193,7 @@ namespace System::Linq {
 template <typename TKey, typename TElement>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14284))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14297))
 // CS Name: ::Lookup`2::Grouping<TKey,TElement>*
 class CORDL_TYPE __Lookup_2__Grouping : public ::System::Object {
 public:
@@ -388,7 +388,7 @@ namespace System::Linq {
 template <typename TKey, typename TElement>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14285))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14298))
 // CS Name: ::Lookup`2::<GetEnumerator>d__12<TKey,TElement>*
 class CORDL_TYPE __Lookup_2___GetEnumerator_d__12 : public ::System::Object {
 public:
@@ -510,7 +510,7 @@ namespace System::Linq {
 template <typename TKey, typename TElement>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14286))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14299))
 // CS Name: ::System.Linq::Lookup`2<TKey,TElement>*
 class CORDL_TYPE Lookup_2 : public ::System::Object {
 public:

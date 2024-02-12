@@ -16,7 +16,7 @@ MARK_VAL_T(::TMPro::AtlasPopulationMode);
 namespace TMPro {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12354))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12252))
 // CS Name: ::TMPro::AtlasPopulationMode
 struct CORDL_TYPE AtlasPopulationMode {
 public:

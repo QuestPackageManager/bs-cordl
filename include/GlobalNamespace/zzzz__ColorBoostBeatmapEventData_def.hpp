@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorBoostBeatmapEventData);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14727))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14730))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15111))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15114))
 // CS Name: ::ColorBoostBeatmapEventData*
 class CORDL_TYPE ColorBoostBeatmapEventData : public ::GlobalNamespace::BeatmapEventData {
 public:
@@ -45,13 +45,13 @@ public:
 
   static inline ::GlobalNamespace::ColorBoostBeatmapEventData* New_ctor(float_t time, bool boostColorsAreOn);
 
-  /// @brief Method .ctor, addr 0xdfe19c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe0e660, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(float_t time, bool boostColorsAreOn);
 
-  /// @brief Method GetCopy, addr 0xdfe1e8, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method GetCopy, addr 0xe0e6ac, size 0x8c, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDataItem* GetCopy();
 
-  /// @brief Method GetDefault, addr 0xdfe274, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method GetDefault, addr 0xe0e738, size 0x58, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventData* GetDefault();
 
   // Ctor Parameters [CppParam { name: "", ty: "ColorBoostBeatmapEventData", modifiers: "&&", def_value: None }]

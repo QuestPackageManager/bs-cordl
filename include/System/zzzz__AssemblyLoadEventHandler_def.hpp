@@ -29,10 +29,10 @@ public:
   // Declarations
   static inline ::System::AssemblyLoadEventHandler* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x25211cc, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2542ab0, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x25212fc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2542be0, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* sender, ::System::AssemblyLoadEventArgs* args);
 
   // Ctor Parameters [CppParam { name: "", ty: "AssemblyLoadEventHandler", modifiers: "&&", def_value: None }]

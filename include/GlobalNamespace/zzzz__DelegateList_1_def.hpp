@@ -30,7 +30,7 @@ namespace GlobalNamespace {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13946))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13959))
 // CS Name: ::DelegateList`1<T>*
 class CORDL_TYPE DelegateList_1 : public ::System::Object {
 public:

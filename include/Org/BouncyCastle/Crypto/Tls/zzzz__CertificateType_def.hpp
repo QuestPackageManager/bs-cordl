@@ -23,7 +23,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Tls::CertificateType* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf60588, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf8a418, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CertificateType", modifiers: "&&", def_value: None }]

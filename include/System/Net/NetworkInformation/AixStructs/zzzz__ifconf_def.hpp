@@ -17,7 +17,7 @@ MARK_VAL_T(::System::Net::NetworkInformation::AixStructs::ifconf);
 namespace System::Net::NetworkInformation::AixStructs {
 // Is value type: true
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9300))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7310))
 // CS Name: ::System.Net.NetworkInformation.AixStructs::ifconf
 #pragma pack(push, 0)
 struct CORDL_TYPE ifconf {

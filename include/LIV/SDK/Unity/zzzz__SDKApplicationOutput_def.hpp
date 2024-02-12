@@ -19,16 +19,16 @@ MARK_VAL_T(::LIV::SDK::Unity::SDKApplicationOutput);
 // SizeInfo { instance_size: 72, native_size: 72, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15101))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15114))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14974))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14987))
 // CS Name: ::LIV.SDK.Unity::SDKApplicationOutput
 struct CORDL_TYPE SDKApplicationOutput {
 public:
   // Declarations
-  /// @brief Method get_empty, addr 0x220e4f8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_empty, addr 0x22a3de0, size 0x80, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKApplicationOutput get_empty();
 
-  /// @brief Method ToString, addr 0x2214ff0, size 0x244, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x22aa8d8, size 0x244, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "supportedFeatures", ty: "::LIV::SDK::Unity::FEATURES", modifiers: "", def_value: None }, CppParam { name: "engineName", ty: "::StringW", modifiers: "",

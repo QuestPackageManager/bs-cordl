@@ -48,16 +48,16 @@ public:
 
   static inline ::System::PointerSpec* New_ctor(int32_t pointer_level);
 
-  /// @brief Method .ctor, addr 0x2606aa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x262a9ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t pointer_level);
 
-  /// @brief Method Resolve, addr 0x2606aac, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method Resolve, addr 0x262a9b4, size 0x54, virtual true, abstract: false, final true
   inline ::System::Type* Resolve(::System::Type* type);
 
-  /// @brief Method Append, addr 0x2606b00, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Append, addr 0x262aa08, size 0x28, virtual true, abstract: false, final true
   inline ::System::Text::StringBuilder* Append(::System::Text::StringBuilder* sb);
 
-  /// @brief Method ToString, addr 0x2606b28, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x262aa30, size 0x1074, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "PointerSpec", modifiers: "&&", def_value: None }]

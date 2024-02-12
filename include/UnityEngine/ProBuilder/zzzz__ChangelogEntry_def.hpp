@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::ChangelogEntry);
 namespace UnityEngine::ProBuilder {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12107))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12005))
 // CS Name: ::UnityEngine.ProBuilder::ChangelogEntry*
 class CORDL_TYPE ChangelogEntry : public ::System::Object {
 public:
@@ -46,18 +46,18 @@ public:
 
   constexpr void __cordl_internal_set_m_ReleaseNotes(::StringW value);
 
-  /// @brief Method get_versionInfo, addr 0x2b3bc7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_versionInfo, addr 0x2b3a7e8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::SemVer* get_versionInfo();
 
-  /// @brief Method get_releaseNotes, addr 0x2b3bc84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_releaseNotes, addr 0x2b3a7f0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_releaseNotes();
 
   static inline ::UnityEngine::ProBuilder::ChangelogEntry* New_ctor(::UnityEngine::ProBuilder::SemVer* version, ::StringW releaseNotes);
 
-  /// @brief Method .ctor, addr 0x2b3bc8c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b3a7f8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ProBuilder::SemVer* version, ::StringW releaseNotes);
 
-  /// @brief Method ToString, addr 0x2b3bcb8, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2b3a824, size 0x64, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "ChangelogEntry", modifiers: "&&", def_value: None }]

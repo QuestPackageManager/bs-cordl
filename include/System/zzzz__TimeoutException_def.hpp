@@ -29,17 +29,17 @@ public:
   // Declarations
   static inline ::System::TimeoutException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25c7310, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25e9228, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::TimeoutException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x25c7368, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25e9280, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::System::TimeoutException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x25c7388, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25e92a0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "TimeoutException", modifiers: "&&", def_value: None }]

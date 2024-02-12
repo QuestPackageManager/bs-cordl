@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::Test_MeshFilter);
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9922))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9714))
 // CS Name: ::HoudiniEngineUnity::Test_MeshFilter*
 class CORDL_TYPE Test_MeshFilter : public ::System::Object {
 public:
@@ -52,13 +52,13 @@ public:
 
   static inline ::HoudiniEngineUnity::Test_MeshFilter* New_ctor(::UnityEngine::MeshFilter* self);
 
-  /// @brief Method .ctor, addr 0x21e6400, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x227bce8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::MeshFilter* self);
 
-  /// @brief Method IsNull, addr 0x21e6428, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method IsNull, addr 0x227bd10, size 0x60, virtual true, abstract: false, final true
   inline bool IsNull();
 
-  /// @brief Method IsEquivalentTo, addr 0x21e6488, size 0x1a0, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x227bd70, size 0x1a0, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_MeshFilter* other);
 
   // Ctor Parameters [CppParam { name: "", ty: "Test_MeshFilter", modifiers: "&&", def_value: None }]

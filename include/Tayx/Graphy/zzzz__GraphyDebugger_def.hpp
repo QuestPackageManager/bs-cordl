@@ -112,7 +112,7 @@ MARK_VAL_T(::Tayx::Graphy::__GraphyDebugger__DebugCondition);
 namespace Tayx::Graphy {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15051))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14924))
 // CS Name: ::GraphyDebugger::DebugVariable
 struct CORDL_TYPE __GraphyDebugger__DebugVariable {
 public:
@@ -186,7 +186,7 @@ static_assert(offsetof(::Tayx::Graphy::__GraphyDebugger__DebugVariable, value__)
 namespace Tayx::Graphy {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15052))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14925))
 // CS Name: ::GraphyDebugger::DebugComparer
 struct CORDL_TYPE __GraphyDebugger__DebugComparer {
 public:
@@ -248,7 +248,7 @@ static_assert(offsetof(::Tayx::Graphy::__GraphyDebugger__DebugComparer, value__)
 namespace Tayx::Graphy {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15053))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14926))
 // CS Name: ::GraphyDebugger::ConditionEvaluation
 struct CORDL_TYPE __GraphyDebugger__ConditionEvaluation {
 public:
@@ -298,7 +298,7 @@ static_assert(offsetof(::Tayx::Graphy::__GraphyDebugger__ConditionEvaluation, va
 namespace Tayx::Graphy {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15054))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14927))
 // CS Name: ::GraphyDebugger::MessageType
 struct CORDL_TYPE __GraphyDebugger__MessageType {
 public:
@@ -351,8 +351,8 @@ static_assert(offsetof(::Tayx::Graphy::__GraphyDebugger__MessageType, value__) =
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Tayx::Graphy {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15051)), TypeDefinitionIndex(TypeDefinitionIndex(15052))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15055))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14924)), TypeDefinitionIndex(TypeDefinitionIndex(14925))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14928))
 // CS Name: ::GraphyDebugger::DebugCondition
 struct CORDL_TYPE __GraphyDebugger__DebugCondition {
 public:
@@ -393,8 +393,8 @@ static_assert(offsetof(::Tayx::Graphy::__GraphyDebugger__DebugCondition, Value) 
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Tayx::Graphy {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15053)), TypeDefinitionIndex(TypeDefinitionIndex(15054))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15056))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14926)), TypeDefinitionIndex(TypeDefinitionIndex(14927))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14929))
 // CS Name: ::GraphyDebugger::DebugPacket*
 class CORDL_TYPE __GraphyDebugger__DebugPacket : public ::System::Object {
 public:
@@ -555,18 +555,18 @@ public:
 
   constexpr void __cordl_internal_set_timePassed(float_t value);
 
-  /// @brief Method get_Check, addr 0x2a005d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Check, addr 0x2a0507c, size 0x8, virtual false, abstract: false, final false
   inline bool get_Check();
 
-  /// @brief Method Update, addr 0x29ffed8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2a0497c, size 0x5c, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method Executed, addr 0x2a005cc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Executed, addr 0x2a05070, size 0xc, virtual false, abstract: false, final false
   inline void Executed();
 
   static inline ::Tayx::Graphy::__GraphyDebugger__DebugPacket* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29ff4c0, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a03f64, size 0x11c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__GraphyDebugger__DebugPacket", modifiers: "&&", def_value: None }]
@@ -679,7 +679,7 @@ static_assert(offsetof(::Tayx::Graphy::__GraphyDebugger__DebugPacket, ___timePas
 namespace Tayx::Graphy {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15057))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14930))
 // CS Name: ::GraphyDebugger::<>c__DisplayClass18_0*
 class CORDL_TYPE __GraphyDebugger____c__DisplayClass18_0 : public ::System::Object {
 public:
@@ -695,10 +695,10 @@ public:
 
   static inline ::Tayx::Graphy::__GraphyDebugger____c__DisplayClass18_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29ff9a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a0444c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <GetFirstDebugPacketWithId>b__0, addr 0x2a005e0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <GetFirstDebugPacketWithId>b__0, addr 0x2a05084, size 0x24, virtual false, abstract: false, final false
   inline bool _GetFirstDebugPacketWithId_b__0(::Tayx::Graphy::__GraphyDebugger__DebugPacket* x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__GraphyDebugger____c__DisplayClass18_0", modifiers: "&&", def_value: None }]
@@ -731,7 +731,7 @@ static_assert(offsetof(::Tayx::Graphy::__GraphyDebugger____c__DisplayClass18_0, 
 namespace Tayx::Graphy {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15058))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14931))
 // CS Name: ::GraphyDebugger::<>c__DisplayClass19_0*
 class CORDL_TYPE __GraphyDebugger____c__DisplayClass19_0 : public ::System::Object {
 public:
@@ -747,10 +747,10 @@ public:
 
   static inline ::Tayx::Graphy::__GraphyDebugger____c__DisplayClass19_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29ffa8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a04530, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <GetAllDebugPacketsWithId>b__0, addr 0x2a00604, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <GetAllDebugPacketsWithId>b__0, addr 0x2a050a8, size 0x24, virtual false, abstract: false, final false
   inline bool _GetAllDebugPacketsWithId_b__0(::Tayx::Graphy::__GraphyDebugger__DebugPacket* x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__GraphyDebugger____c__DisplayClass19_0", modifiers: "&&", def_value: None }]
@@ -783,7 +783,7 @@ static_assert(offsetof(::Tayx::Graphy::__GraphyDebugger____c__DisplayClass19_0, 
 namespace Tayx::Graphy {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15059))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14932))
 // CS Name: ::GraphyDebugger::<>c__DisplayClass21_0*
 class CORDL_TYPE __GraphyDebugger____c__DisplayClass21_0 : public ::System::Object {
 public:
@@ -799,10 +799,10 @@ public:
 
   static inline ::Tayx::Graphy::__GraphyDebugger____c__DisplayClass21_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29ffc0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a046b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <RemoveAllDebugPacketsWithId>b__0, addr 0x2a00628, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <RemoveAllDebugPacketsWithId>b__0, addr 0x2a050cc, size 0x24, virtual false, abstract: false, final false
   inline bool _RemoveAllDebugPacketsWithId_b__0(::Tayx::Graphy::__GraphyDebugger__DebugPacket* x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__GraphyDebugger____c__DisplayClass21_0", modifiers: "&&", def_value: None }]
@@ -835,7 +835,7 @@ static_assert(offsetof(::Tayx::Graphy::__GraphyDebugger____c__DisplayClass21_0, 
 namespace Tayx::Graphy {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15060))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14933))
 // CS Name: ::GraphyDebugger::<>c*
 class CORDL_TYPE __GraphyDebugger____c : public ::System::Object {
 public:
@@ -856,10 +856,10 @@ public:
 
   static inline ::Tayx::Graphy::__GraphyDebugger____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2a006b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a05154, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <CheckDebugPackets>b__24_0, addr 0x2a006b8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <CheckDebugPackets>b__24_0, addr 0x2a0515c, size 0xc, virtual false, abstract: false, final false
   inline bool _CheckDebugPackets_b__24_0(::Tayx::Graphy::__GraphyDebugger__DebugPacket* packet);
 
   // Ctor Parameters [CppParam { name: "", ty: "__GraphyDebugger____c", modifiers: "&&", def_value: None }]
@@ -886,8 +886,8 @@ static_assert(::cordl_internals::size_check_v<::Tayx::Graphy::__GraphyDebugger__
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Tayx::Graphy {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15071)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15071), inst: 2552 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15061))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14944)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14944), inst: 2528 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14934))
 // CS Name: ::Tayx.Graphy::GraphyDebugger*
 class CORDL_TYPE GraphyDebugger : public ::Tayx::Graphy::Utils::G_Singleton_1<::UnityW<::Tayx::Graphy::GraphyDebugger>> {
 public:
@@ -951,63 +951,63 @@ public:
 
   static inline ::Tayx::Graphy::GraphyDebugger* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29fed00, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a037a4, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Start, addr 0x29fedbc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2a03860, size 0xa0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x29fee5c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2a03900, size 0x4, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method AddNewDebugPacket, addr 0x29ff27c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method AddNewDebugPacket, addr 0x2a03d20, size 0xa8, virtual false, abstract: false, final false
   inline void AddNewDebugPacket(::Tayx::Graphy::__GraphyDebugger__DebugPacket* newDebugPacket);
 
-  /// @brief Method AddNewDebugPacket, addr 0x29ff324, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method AddNewDebugPacket, addr 0x2a03dc8, size 0x19c, virtual false, abstract: false, final false
   inline void AddNewDebugPacket(int32_t newId, ::Tayx::Graphy::__GraphyDebugger__DebugCondition newDebugCondition, ::Tayx::Graphy::__GraphyDebugger__MessageType newMessageType, ::StringW newMessage,
                                 bool newDebugBreak, ::System::Action* newCallback);
 
-  /// @brief Method AddNewDebugPacket, addr 0x29ff5dc, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method AddNewDebugPacket, addr 0x2a04080, size 0x118, virtual false, abstract: false, final false
   inline void AddNewDebugPacket(int32_t newId, ::System::Collections::Generic::List_1<::Tayx::Graphy::__GraphyDebugger__DebugCondition>* newDebugConditions,
                                 ::Tayx::Graphy::__GraphyDebugger__MessageType newMessageType, ::StringW newMessage, bool newDebugBreak, ::System::Action* newCallback);
 
-  /// @brief Method AddNewDebugPacket, addr 0x29ff6f4, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method AddNewDebugPacket, addr 0x2a04198, size 0x130, virtual false, abstract: false, final false
   inline void AddNewDebugPacket(int32_t newId, ::Tayx::Graphy::__GraphyDebugger__DebugCondition newDebugCondition, ::Tayx::Graphy::__GraphyDebugger__MessageType newMessageType, ::StringW newMessage,
                                 bool newDebugBreak, ::System::Collections::Generic::List_1<::System::Action*>* newCallbacks);
 
-  /// @brief Method AddNewDebugPacket, addr 0x29ff824, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method AddNewDebugPacket, addr 0x2a042c8, size 0xac, virtual false, abstract: false, final false
   inline void AddNewDebugPacket(int32_t newId, ::System::Collections::Generic::List_1<::Tayx::Graphy::__GraphyDebugger__DebugCondition>* newDebugConditions,
                                 ::Tayx::Graphy::__GraphyDebugger__MessageType newMessageType, ::StringW newMessage, bool newDebugBreak,
                                 ::System::Collections::Generic::List_1<::System::Action*>* newCallbacks);
 
-  /// @brief Method GetFirstDebugPacketWithId, addr 0x29ff8d0, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetFirstDebugPacketWithId, addr 0x2a04374, size 0xd8, virtual false, abstract: false, final false
   inline ::Tayx::Graphy::__GraphyDebugger__DebugPacket* GetFirstDebugPacketWithId(int32_t packetId);
 
-  /// @brief Method GetAllDebugPacketsWithId, addr 0x29ff9b0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetAllDebugPacketsWithId, addr 0x2a04454, size 0xdc, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::Tayx::Graphy::__GraphyDebugger__DebugPacket*>* GetAllDebugPacketsWithId(int32_t packetId);
 
-  /// @brief Method RemoveFirstDebugPacketWithId, addr 0x29ffa94, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method RemoveFirstDebugPacketWithId, addr 0x2a04538, size 0x8c, virtual false, abstract: false, final false
   inline void RemoveFirstDebugPacketWithId(int32_t packetId);
 
-  /// @brief Method RemoveAllDebugPacketsWithId, addr 0x29ffb20, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method RemoveAllDebugPacketsWithId, addr 0x2a045c4, size 0xec, virtual false, abstract: false, final false
   inline void RemoveAllDebugPacketsWithId(int32_t packetId);
 
-  /// @brief Method AddCallbackToFirstDebugPacketWithId, addr 0x29ffc14, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method AddCallbackToFirstDebugPacketWithId, addr 0x2a046b8, size 0xd8, virtual false, abstract: false, final false
   inline void AddCallbackToFirstDebugPacketWithId(::System::Action* callback, int32_t id);
 
-  /// @brief Method AddCallbackToAllDebugPacketWithId, addr 0x29ffcec, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method AddCallbackToAllDebugPacketWithId, addr 0x2a04790, size 0x1ec, virtual false, abstract: false, final false
   inline void AddCallbackToAllDebugPacketWithId(::System::Action* callback, int32_t id);
 
-  /// @brief Method CheckDebugPackets, addr 0x29fee60, size 0x41c, virtual false, abstract: false, final false
+  /// @brief Method CheckDebugPackets, addr 0x2a03904, size 0x41c, virtual false, abstract: false, final false
   inline void CheckDebugPackets();
 
-  /// @brief Method CheckIfConditionIsMet, addr 0x29fff34, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method CheckIfConditionIsMet, addr 0x2a049d8, size 0x110, virtual false, abstract: false, final false
   inline bool CheckIfConditionIsMet(::Tayx::Graphy::__GraphyDebugger__DebugCondition debugCondition);
 
-  /// @brief Method GetRequestedValueFromDebugVariable, addr 0x2a00400, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method GetRequestedValueFromDebugVariable, addr 0x2a04ea4, size 0x1cc, virtual false, abstract: false, final false
   inline float_t GetRequestedValueFromDebugVariable(::Tayx::Graphy::__GraphyDebugger__DebugVariable debugVariable);
 
-  /// @brief Method ExecuteOperationsInDebugPacket, addr 0x2a00044, size 0x3bc, virtual false, abstract: false, final false
+  /// @brief Method ExecuteOperationsInDebugPacket, addr 0x2a04ae8, size 0x3bc, virtual false, abstract: false, final false
   inline void ExecuteOperationsInDebugPacket(::Tayx::Graphy::__GraphyDebugger__DebugPacket* debugPacket);
 
   // Ctor Parameters [CppParam { name: "", ty: "GraphyDebugger", modifiers: "&&", def_value: None }]

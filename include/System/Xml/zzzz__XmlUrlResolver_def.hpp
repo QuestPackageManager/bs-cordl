@@ -64,9 +64,9 @@ MARK_VAL_T(::System::Xml::__XmlUrlResolver___GetEntityAsync_d__15);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3619)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 899 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3402), inst: 2 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(11575)) CS Name: ::XmlUrlResolver::<GetEntityAsync>d__15
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3398)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3617)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3393), inst: 902 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3398), inst: 71 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(11473)) CS Name: ::XmlUrlResolver::<GetEntityAsync>d__15
 struct CORDL_TYPE __XmlUrlResolver___GetEntityAsync_d__15 {
 public:
   // Declarations
@@ -76,10 +76,10 @@ public:
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x28a999c, size 0x37c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x28ad004, size 0x37c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x28a9d18, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x28ad380, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -138,8 +138,8 @@ static_assert(offsetof(::System::Xml::__XmlUrlResolver___GetEntityAsync_d__15, _
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11574))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11576))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11472))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11474))
 // CS Name: ::System.Xml::XmlUrlResolver*
 class CORDL_TYPE XmlUrlResolver : public ::System::Xml::XmlResolver {
 public:
@@ -180,21 +180,21 @@ public:
 
   static inline ::System::Object* getStaticF_s_DownloadManager();
 
-  /// @brief Method get_DownloadManager, addr 0x28a9634, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method get_DownloadManager, addr 0x28acc9c, size 0xd4, virtual false, abstract: false, final false
   static inline ::System::Xml::XmlDownloadManager* get_DownloadManager();
 
   static inline ::System::Xml::XmlUrlResolver* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28a9708, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28acd70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method GetEntity, addr 0x28a9710, size 0x17c, virtual true, abstract: false, final false
+  /// @brief Method GetEntity, addr 0x28acd78, size 0x17c, virtual true, abstract: false, final false
   inline ::System::Object* GetEntity(::System::Uri* absoluteUri, ::StringW role, ::System::Type* ofObjectToReturn);
 
-  /// @brief Method ResolveUri, addr 0x28a988c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ResolveUri, addr 0x28acef4, size 0x4, virtual true, abstract: false, final false
   inline ::System::Uri* ResolveUri(::System::Uri* baseUri, ::StringW relativeUri);
 
-  /// @brief Method GetEntityAsync, addr 0x28a9890, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method GetEntityAsync, addr 0x28acef8, size 0x10c, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Object*>* GetEntityAsync(::System::Uri* absoluteUri, ::StringW role, ::System::Type* ofObjectToReturn);
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlUrlResolver", modifiers: "&&", def_value: None }]

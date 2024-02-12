@@ -28,24 +28,24 @@ MARK_REF_PTR_T(::GlobalNamespace::VRPlatformUtils);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14417))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14566))
 // CS Name: ::VRPlatformUtils*
 class CORDL_TYPE VRPlatformUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method TriggerValueDefaultImplementation, addr 0x20f73c8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method TriggerValueDefaultImplementation, addr 0x218adb8, size 0x80, virtual false, abstract: false, final false
   static inline float_t TriggerValueDefaultImplementation(::UnityEngine::XR::XRNode node);
 
-  /// @brief Method GetMenuButtonDefaultImplementation, addr 0x20f6ca0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetMenuButtonDefaultImplementation, addr 0x218a690, size 0x78, virtual false, abstract: false, final false
   static inline bool GetMenuButtonDefaultImplementation();
 
-  /// @brief Method GetMenuButtonDownDefaultImplementation, addr 0x20f6d1c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetMenuButtonDownDefaultImplementation, addr 0x218a70c, size 0x78, virtual false, abstract: false, final false
   static inline bool GetMenuButtonDownDefaultImplementation();
 
-  /// @brief Method GetAnyJoystickMaxAxisDefaultImplementation, addr 0x20f7448, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method GetAnyJoystickMaxAxisDefaultImplementation, addr 0x218ae38, size 0x138, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 GetAnyJoystickMaxAxisDefaultImplementation(::GlobalNamespace::IVRPlatformHelper* vrPlatformHelper);
 
-  /// @brief Method StopXR, addr 0x20f759c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method StopXR, addr 0x218af70, size 0x100, virtual false, abstract: false, final false
   static inline void StopXR(::GlobalNamespace::IVerboseLogger* logger);
 
   // Ctor Parameters [CppParam { name: "", ty: "VRPlatformUtils", modifiers: "&&", def_value: None }]

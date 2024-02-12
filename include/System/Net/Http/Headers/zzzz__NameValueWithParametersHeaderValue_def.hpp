@@ -38,8 +38,8 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::NameValueWithParametersHeaderValue)
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14687))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14688))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14692))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14693))
 // CS Name: ::System.Net.Http.Headers::NameValueWithParametersHeaderValue*
 class CORDL_TYPE NameValueWithParametersHeaderValue : public ::System::Net::Http::Headers::NameValueHeaderValue {
 public:
@@ -64,33 +64,33 @@ public:
 
   static inline ::System::Net::Http::Headers::NameValueWithParametersHeaderValue* New_ctor(::System::Net::Http::Headers::NameValueWithParametersHeaderValue* source);
 
-  /// @brief Method .ctor, addr 0x283e1a8, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2842810, size 0x1ec, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Http::Headers::NameValueWithParametersHeaderValue* source);
 
   static inline ::System::Net::Http::Headers::NameValueWithParametersHeaderValue* New_ctor();
 
-  /// @brief Method .ctor, addr 0x283e414, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2842a7c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Parameters, addr 0x283e394, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_Parameters, addr 0x28429fc, size 0x80, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::ICollection_1<::System::Net::Http::Headers::NameValueHeaderValue*>* get_Parameters();
 
-  /// @brief Method System.ICloneable.Clone, addr 0x283e41c, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method System.ICloneable.Clone, addr 0x2842a84, size 0x60, virtual true, abstract: false, final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method Equals, addr 0x283e47c, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2842ae4, size 0xc0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x283e53c, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2842ba4, size 0x60, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x283e59c, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2842c04, size 0x94, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryParse, addr 0x283e630, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x2842c98, size 0xb0, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, int32_t minimalCount, ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueWithParametersHeaderValue*>*> result);
 
-  /// @brief Method TryParseElement, addr 0x283e6e0, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method TryParseElement, addr 0x2842d48, size 0x1dc, virtual false, abstract: false, final false
   static inline bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ByRef<::System::Net::Http::Headers::NameValueWithParametersHeaderValue*> parsedValue,
                                      ByRef<::System::Net::Http::Headers::Token> t);
 

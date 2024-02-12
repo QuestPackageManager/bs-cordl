@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::UnityEngine::BeforeRenderOrderAttribute);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10098))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8831))
 // CS Name: ::UnityEngine::BeforeRenderOrderAttribute*
 class CORDL_TYPE BeforeRenderOrderAttribute : public ::System::Attribute {
 public:
@@ -32,15 +32,15 @@ public:
 
   constexpr void __cordl_internal_set__order_k__BackingField(int32_t value);
 
-  /// @brief Method get_order, addr 0x2cc1744, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_order, addr 0x2cc4f80, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_order();
 
-  /// @brief Method set_order, addr 0x2cc174c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_order, addr 0x2cc4f88, size 0x8, virtual false, abstract: false, final false
   inline void set_order(int32_t value);
 
   static inline ::UnityEngine::BeforeRenderOrderAttribute* New_ctor(int32_t order);
 
-  /// @brief Method .ctor, addr 0x2cc1754, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cc4f90, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t order);
 
   // Ctor Parameters [CppParam { name: "", ty: "BeforeRenderOrderAttribute", modifiers: "&&", def_value: None }]

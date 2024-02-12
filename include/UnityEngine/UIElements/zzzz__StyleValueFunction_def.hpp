@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleValueFunction);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7274))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6533))
 // CS Name: ::UnityEngine.UIElements::StyleValueFunction
 struct CORDL_TYPE StyleValueFunction {
 public:

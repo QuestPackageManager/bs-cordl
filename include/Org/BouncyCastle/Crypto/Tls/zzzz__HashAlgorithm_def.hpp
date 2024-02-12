@@ -22,21 +22,21 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class CORDL_TYPE HashAlgorithm : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetName, addr 0xf91478, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetName, addr 0xfbd308, size 0xb8, virtual false, abstract: false, final false
   static inline ::StringW GetName(uint8_t hashAlgorithm);
 
-  /// @brief Method GetText, addr 0xf91530, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetText, addr 0xfbd3c0, size 0x17c, virtual false, abstract: false, final false
   static inline ::StringW GetText(uint8_t hashAlgorithm);
 
-  /// @brief Method IsPrivate, addr 0xf916ac, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsPrivate, addr 0xfbd53c, size 0x10, virtual false, abstract: false, final false
   static inline bool IsPrivate(uint8_t hashAlgorithm);
 
-  /// @brief Method IsRecognized, addr 0xf916bc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsRecognized, addr 0xfbd54c, size 0x14, virtual false, abstract: false, final false
   static inline bool IsRecognized(uint8_t hashAlgorithm);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::HashAlgorithm* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf916d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfbd560, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HashAlgorithm", modifiers: "&&", def_value: None }]

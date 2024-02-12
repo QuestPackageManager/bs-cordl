@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SortingLayer);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14402))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14551))
 // CS Name: ::SortingLayer*
 class CORDL_TYPE SortingLayer : public ::UnityEngine::MonoBehaviour {
 public:
@@ -34,15 +34,15 @@ public:
 
   constexpr void __cordl_internal_set__renderer(::UnityW<::UnityEngine::Renderer> value);
 
-  /// @brief Method get_renderer, addr 0x20f5b40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_renderer, addr 0x2189530, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Renderer> get_renderer();
 
-  /// @brief Method Reset, addr 0x20f5b48, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x2189538, size 0x50, virtual false, abstract: false, final false
   inline void Reset();
 
   static inline ::GlobalNamespace::SortingLayer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x20f5b98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2189588, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SortingLayer", modifiers: "&&", def_value: None }]

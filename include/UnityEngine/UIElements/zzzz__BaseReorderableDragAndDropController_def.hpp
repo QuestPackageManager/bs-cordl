@@ -43,7 +43,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::BaseReorderableDragAndDropController);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6951))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6210))
 // CS Name: ::UnityEngine.UIElements::BaseReorderableDragAndDropController*
 class CORDL_TYPE BaseReorderableDragAndDropController : public ::System::Object {
 public:
@@ -98,19 +98,19 @@ public:
 
   static inline ::UnityEngine::UIElements::BaseReorderableDragAndDropController* New_ctor(::UnityEngine::UIElements::BaseVerticalCollectionView* view);
 
-  /// @brief Method .ctor, addr 0x2e08b40, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e25f28, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::BaseVerticalCollectionView* view);
 
-  /// @brief Method get_enableReordering, addr 0x2e08f94, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_enableReordering, addr 0x2e2637c, size 0x8, virtual true, abstract: false, final true
   inline bool get_enableReordering();
 
-  /// @brief Method set_enableReordering, addr 0x2e08f9c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_enableReordering, addr 0x2e26384, size 0xc, virtual true, abstract: false, final true
   inline void set_enableReordering(bool value);
 
-  /// @brief Method CanStartDrag, addr 0x2e08fa8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CanStartDrag, addr 0x2e26390, size 0x8, virtual true, abstract: false, final false
   inline bool CanStartDrag(::System::Collections::Generic::IEnumerable_1<int32_t>* itemIndices);
 
-  /// @brief Method SetupDragAndDrop, addr 0x2e08fb0, size 0x5d4, virtual true, abstract: false, final false
+  /// @brief Method SetupDragAndDrop, addr 0x2e26398, size 0x5d4, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StartDragArgs* SetupDragAndDrop(::System::Collections::Generic::IEnumerable_1<int32_t>* itemIndices, bool skipText);
 
   /// @brief Method HandleDragAndDrop, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

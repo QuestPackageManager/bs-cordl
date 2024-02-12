@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::System::Runtime::InteropServices::ComCompatibleVersionAttribute
 namespace System::Runtime::InteropServices {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3332))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3330))
 // CS Name: ::System.Runtime.InteropServices::ComCompatibleVersionAttribute*
 class CORDL_TYPE ComCompatibleVersionAttribute : public ::System::Attribute {
 public:
@@ -59,7 +59,7 @@ public:
 
   static inline ::System::Runtime::InteropServices::ComCompatibleVersionAttribute* New_ctor(int32_t major, int32_t minor, int32_t build, int32_t revision);
 
-  /// @brief Method .ctor, addr 0x24d75d4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f8264, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(int32_t major, int32_t minor, int32_t build, int32_t revision);
 
   // Ctor Parameters [CppParam { name: "", ty: "ComCompatibleVersionAttribute", modifiers: "&&", def_value: None }]

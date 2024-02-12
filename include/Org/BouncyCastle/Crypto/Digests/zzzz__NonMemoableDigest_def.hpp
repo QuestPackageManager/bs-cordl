@@ -45,28 +45,28 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Digests::NonMemoableDigest* New_ctor(::Org::BouncyCastle::Crypto::IDigest* baseDigest);
 
-  /// @brief Method .ctor, addr 0x122983c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12566cc, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* baseDigest);
 
-  /// @brief Method get_AlgorithmName, addr 0x12298b4, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x1256744, size 0xa0, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method GetDigestSize, addr 0x1229954, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method GetDigestSize, addr 0x12567e4, size 0xa4, virtual true, abstract: false, final false
   inline int32_t GetDigestSize();
 
-  /// @brief Method Update, addr 0x12299f8, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x1256888, size 0xac, virtual true, abstract: false, final false
   inline void Update(uint8_t input);
 
-  /// @brief Method BlockUpdate, addr 0x1229aa4, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method BlockUpdate, addr 0x1256934, size 0xc4, virtual true, abstract: false, final false
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t len);
 
-  /// @brief Method DoFinal, addr 0x1229b68, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x12569f8, size 0xbc, virtual true, abstract: false, final false
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset, addr 0x1229c24, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x1256ab4, size 0xa4, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method GetByteLength, addr 0x1229cc8, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method GetByteLength, addr 0x1256b58, size 0xa4, virtual true, abstract: false, final false
   inline int32_t GetByteLength();
 
   // Ctor Parameters [CppParam { name: "", ty: "NonMemoableDigest", modifiers: "&&", def_value: None }]

@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Controls::Vector3Control);
 // SizeInfo { instance_size: 264, native_size: -1, calculated_instance_size: 264, calculated_native_size: 264, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6216)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6216), inst: 412
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6645)) CS Name: ::UnityEngine.InputSystem.Controls::Vector3Control*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5475)), TypeDefinitionIndex(TypeDefinitionIndex(8993)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5475), inst: 414
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5904)) CS Name: ::UnityEngine.InputSystem.Controls::Vector3Control*
 class CORDL_TYPE Vector3Control : public ::UnityEngine::InputSystem::InputControl_1<::UnityEngine::Vector3> {
 public:
   // Declarations
@@ -60,39 +60,39 @@ public:
 
   constexpr void __cordl_internal_set__z_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method get_x, addr 0x2b0c108, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_x, addr 0x2b0bc74, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_x();
 
-  /// @brief Method set_x, addr 0x2b0c110, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_x, addr 0x2b0bc7c, size 0x8, virtual false, abstract: false, final false
   inline void set_x(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method get_y, addr 0x2b0c118, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_y, addr 0x2b0bc84, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_y();
 
-  /// @brief Method set_y, addr 0x2b0c120, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_y, addr 0x2b0bc8c, size 0x8, virtual false, abstract: false, final false
   inline void set_y(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method get_z, addr 0x2b0c128, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_z, addr 0x2b0bc94, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_z();
 
-  /// @brief Method set_z, addr 0x2b0c130, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_z, addr 0x2b0bc9c, size 0x8, virtual false, abstract: false, final false
   inline void set_z(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
   static inline ::UnityEngine::InputSystem::Controls::Vector3Control* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2b0c138, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b0bca4, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method FinishSetup, addr 0x2b0c1c0, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x2b0bd2c, size 0xd0, virtual true, abstract: false, final false
   inline void FinishSetup();
 
-  /// @brief Method ReadUnprocessedValueFromState, addr 0x2b0c290, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method ReadUnprocessedValueFromState, addr 0x2b0bdfc, size 0x8c, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 ReadUnprocessedValueFromState(::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method WriteValueIntoState, addr 0x2b0c31c, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method WriteValueIntoState, addr 0x2b0be88, size 0x84, virtual true, abstract: false, final false
   inline void WriteValueIntoState(::UnityEngine::Vector3 value, ::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method EvaluateMagnitude, addr 0x2b0c3a0, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method EvaluateMagnitude, addr 0x2b0bf0c, size 0xc8, virtual true, abstract: false, final false
   inline float_t EvaluateMagnitude(::cordl_internals::Ptr<void> statePtr);
 
   // Ctor Parameters [CppParam { name: "", ty: "Vector3Control", modifiers: "&&", def_value: None }]

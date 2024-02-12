@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::JetBrains::Annotations::MacroAttribute);
 namespace JetBrains::Annotations {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15759))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15909))
 // CS Name: ::JetBrains.Annotations::MacroAttribute*
 class CORDL_TYPE MacroAttribute : public ::System::Attribute {
 public:
@@ -55,27 +55,27 @@ public:
 
   constexpr void __cordl_internal_set__Target_k__BackingField(::StringW value);
 
-  /// @brief Method get_Expression, addr 0x2eba3bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Expression, addr 0x2ed6504, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Expression();
 
-  /// @brief Method set_Expression, addr 0x2eba3c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Expression, addr 0x2ed650c, size 0x8, virtual false, abstract: false, final false
   inline void set_Expression(::StringW value);
 
-  /// @brief Method get_Editable, addr 0x2eba3cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Editable, addr 0x2ed6514, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Editable();
 
-  /// @brief Method set_Editable, addr 0x2eba3d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Editable, addr 0x2ed651c, size 0x8, virtual false, abstract: false, final false
   inline void set_Editable(int32_t value);
 
-  /// @brief Method get_Target, addr 0x2eba3dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Target, addr 0x2ed6524, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Target();
 
-  /// @brief Method set_Target, addr 0x2eba3e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Target, addr 0x2ed652c, size 0x8, virtual false, abstract: false, final false
   inline void set_Target(::StringW value);
 
   static inline ::JetBrains::Annotations::MacroAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2eba3ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ed6534, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MacroAttribute", modifiers: "&&", def_value: None }]

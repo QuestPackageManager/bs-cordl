@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::ITraceWriter);
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11906))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11804))
 // CS Name: ::Newtonsoft.Json.Serialization::ITraceWriter*
 class CORDL_TYPE ITraceWriter {
 public:

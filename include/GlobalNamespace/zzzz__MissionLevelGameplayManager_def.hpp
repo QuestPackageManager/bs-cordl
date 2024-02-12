@@ -79,7 +79,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__MissionLevelGameplayManager___Start_d__23);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5018))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4372))
 // CS Name: ::MissionLevelGameplayManager::InitData*
 class CORDL_TYPE __MissionLevelGameplayManager__InitData : public ::System::Object {
 public:
@@ -95,7 +95,7 @@ public:
 
   static inline ::GlobalNamespace::__MissionLevelGameplayManager__InitData* New_ctor(bool failOn0Energy);
 
-  /// @brief Method .ctor, addr 0x23bc598, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x237b79c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool failOn0Energy);
 
   // Ctor Parameters [CppParam { name: "", ty: "__MissionLevelGameplayManager__InitData", modifiers: "&&", def_value: None }]
@@ -128,7 +128,7 @@ static_assert(offsetof(::GlobalNamespace::__MissionLevelGameplayManager__InitDat
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5019))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4373))
 // CS Name: ::MissionLevelGameplayManager::GameState
 struct CORDL_TYPE __MissionLevelGameplayManager__GameState {
 public:
@@ -190,7 +190,7 @@ static_assert(offsetof(::GlobalNamespace::__MissionLevelGameplayManager__GameSta
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5020))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4374))
 // CS Name: ::MissionLevelGameplayManager::<Start>d__23*
 class CORDL_TYPE __MissionLevelGameplayManager___Start_d__23 : public ::System::Object {
 public:
@@ -246,22 +246,22 @@ public:
 
   static inline ::GlobalNamespace::__MissionLevelGameplayManager___Start_d__23* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor, addr 0x23bbf94, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x237b100, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x23bc5c0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x237b7c4, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext, addr 0x23bc5c4, size 0x3c0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x237b7c8, size 0x3bc, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x23bcb6c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x237be08, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x23bcb74, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x237be10, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x23bcbb4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x237be50, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MissionLevelGameplayManager___Start_d__23", modifiers: "&&", def_value: None }]
@@ -303,8 +303,8 @@ static_assert(offsetof(::GlobalNamespace::__MissionLevelGameplayManager___Start_
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5019)), TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5021))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4373)), TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4375))
 // CS Name: ::MissionLevelGameplayManager*
 class CORDL_TYPE MissionLevelGameplayManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -436,60 +436,60 @@ public:
 
   constexpr void __cordl_internal_set__prePauseGameState(::GlobalNamespace::__MissionLevelGameplayManager__GameState value);
 
-  /// @brief Method add_levelWillStartIntroEvent, addr 0x23bba44, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_levelWillStartIntroEvent, addr 0x237abb0, size 0x9c, virtual true, abstract: false, final true
   inline void add_levelWillStartIntroEvent(::System::Action* value);
 
-  /// @brief Method remove_levelWillStartIntroEvent, addr 0x23bbae0, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_levelWillStartIntroEvent, addr 0x237ac4c, size 0x9c, virtual true, abstract: false, final true
   inline void remove_levelWillStartIntroEvent(::System::Action* value);
 
-  /// @brief Method add_levelDidStartEvent, addr 0x23bbb7c, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_levelDidStartEvent, addr 0x237ace8, size 0x9c, virtual true, abstract: false, final true
   inline void add_levelDidStartEvent(::System::Action* value);
 
-  /// @brief Method remove_levelDidStartEvent, addr 0x23bbc18, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_levelDidStartEvent, addr 0x237ad84, size 0x9c, virtual true, abstract: false, final true
   inline void remove_levelDidStartEvent(::System::Action* value);
 
-  /// @brief Method add_levelFailedEvent, addr 0x23bbcb4, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_levelFailedEvent, addr 0x237ae20, size 0x9c, virtual true, abstract: false, final true
   inline void add_levelFailedEvent(::System::Action* value);
 
-  /// @brief Method remove_levelFailedEvent, addr 0x23bbd50, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_levelFailedEvent, addr 0x237aebc, size 0x9c, virtual true, abstract: false, final true
   inline void remove_levelFailedEvent(::System::Action* value);
 
-  /// @brief Method add_levelFinishedEvent, addr 0x23bbdec, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_levelFinishedEvent, addr 0x237af58, size 0x9c, virtual true, abstract: false, final true
   inline void add_levelFinishedEvent(::System::Action* value);
 
-  /// @brief Method remove_levelFinishedEvent, addr 0x23bbe88, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_levelFinishedEvent, addr 0x237aff4, size 0x9c, virtual true, abstract: false, final true
   inline void remove_levelFinishedEvent(::System::Action* value);
 
-  /// @brief Method Awake, addr 0x23bbf24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x237b090, size 0x8, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Start, addr 0x23bbf2c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x237b098, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Start();
 
-  /// @brief Method OnDestroy, addr 0x23bbfbc, size 0x2dc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x237b128, size 0x2d8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleGameEnergyDidReach0, addr 0x23bc480, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method HandleGameEnergyDidReach0, addr 0x237b684, size 0x54, virtual false, abstract: false, final false
   inline void HandleGameEnergyDidReach0();
 
-  /// @brief Method HandleMissionObjectiveCheckersManagerObjectiveDidFail, addr 0x23bc4d4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method HandleMissionObjectiveCheckersManagerObjectiveDidFail, addr 0x237b6d8, size 0x34, virtual false, abstract: false, final false
   inline void HandleMissionObjectiveCheckersManagerObjectiveDidFail();
 
-  /// @brief Method HandleSongDidFinish, addr 0x23bc508, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method HandleSongDidFinish, addr 0x237b70c, size 0x34, virtual false, abstract: false, final false
   inline void HandleSongDidFinish();
 
-  /// @brief Method HandlePauseControllerCanPause, addr 0x23bc53c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandlePauseControllerCanPause, addr 0x237b740, size 0x24, virtual false, abstract: false, final false
   inline void HandlePauseControllerCanPause(::System::Action_1<bool>* canPause);
 
-  /// @brief Method HandlePauseControllerDidPause, addr 0x23bc560, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandlePauseControllerDidPause, addr 0x237b764, size 0x18, virtual false, abstract: false, final false
   inline void HandlePauseControllerDidPause();
 
-  /// @brief Method HandlePauseControllerDidResume, addr 0x23bc578, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandlePauseControllerDidResume, addr 0x237b77c, size 0x18, virtual false, abstract: false, final false
   inline void HandlePauseControllerDidResume();
 
   static inline ::GlobalNamespace::MissionLevelGameplayManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23bc590, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x237b794, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionLevelGameplayManager", modifiers: "&&", def_value: None }]

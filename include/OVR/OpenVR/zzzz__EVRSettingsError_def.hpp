@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::EVRSettingsError);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8636))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8580))
 // CS Name: ::OVR.OpenVR::EVRSettingsError
 struct CORDL_TYPE EVRSettingsError {
 public:

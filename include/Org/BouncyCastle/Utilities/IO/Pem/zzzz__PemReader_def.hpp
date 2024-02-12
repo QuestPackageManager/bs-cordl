@@ -40,16 +40,16 @@ public:
 
   static inline ::Org::BouncyCastle::Utilities::IO::Pem::PemReader* New_ctor(::System::IO::TextReader* reader);
 
-  /// @brief Method .ctor, addr 0x10d15a4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10ff434, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::TextReader* reader);
 
-  /// @brief Method get_Reader, addr 0x10d161c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Reader, addr 0x10ff4ac, size 0x8, virtual false, abstract: false, final false
   inline ::System::IO::TextReader* get_Reader();
 
-  /// @brief Method ReadPemObject, addr 0x10d1624, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method ReadPemObject, addr 0x10ff4b4, size 0x154, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::IO::Pem::PemObject* ReadPemObject();
 
-  /// @brief Method LoadObject, addr 0x10d1778, size 0x3d8, virtual false, abstract: false, final false
+  /// @brief Method LoadObject, addr 0x10ff608, size 0x3d8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::IO::Pem::PemObject* LoadObject(::StringW type);
 
   // Ctor Parameters [CppParam { name: "", ty: "PemReader", modifiers: "&&", def_value: None }]

@@ -26,22 +26,22 @@ MARK_REF_PTR_T(::System::Security::Authentication::ExtendedProtection::ExtendedP
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Security::Authentication::ExtendedProtection {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9480))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8967))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7490))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6977))
 // CS Name: ::System.Security.Authentication.ExtendedProtection::ExtendedProtectionPolicyTypeConverter*
 class CORDL_TYPE ExtendedProtectionPolicyTypeConverter : public ::System::ComponentModel::TypeConverter {
 public:
   // Declarations
-  /// @brief Method CanConvertTo, addr 0x297437c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method CanConvertTo, addr 0x2977e20, size 0x40, virtual true, abstract: false, final false
   inline bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* destinationType);
 
-  /// @brief Method ConvertTo, addr 0x29743bc, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method ConvertTo, addr 0x2977e60, size 0x40, virtual true, abstract: false, final false
   inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
                                      ::System::Type* destinationType);
 
   static inline ::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicyTypeConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29743fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2977ea0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ExtendedProtectionPolicyTypeConverter", modifiers: "&&", def_value: None }]

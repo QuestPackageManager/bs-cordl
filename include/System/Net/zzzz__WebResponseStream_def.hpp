@@ -125,9 +125,9 @@ MARK_VAL_T(::System::Net::__WebResponseStream___ReadAsync_d__40);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3397)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 2 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3397), inst: 98 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 98 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(9239)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3393)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3398)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3393), inst: 71 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3393), inst: 103 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3398), inst: 103 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7249)) CS Name:
 // ::WebResponseStream::<ReadAsync>d__40
 struct CORDL_TYPE __WebResponseStream___ReadAsync_d__40 {
 public:
@@ -138,10 +138,10 @@ public:
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x29e8ff4, size 0x8e4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x29eda98, size 0x8e4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x29e98d8, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x29ee37c, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -236,7 +236,7 @@ static_assert(offsetof(::System::Net::__WebResponseStream___ReadAsync_d__40, __u
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9240))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7250))
 // CS Name: ::WebResponseStream::<>c__DisplayClass41_0*
 class CORDL_TYPE __WebResponseStream____c__DisplayClass41_0 : public ::System::Object {
 public:
@@ -279,16 +279,16 @@ public:
 
   static inline ::System::Net::__WebResponseStream____c__DisplayClass41_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29e7b18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29ec5bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <ProcessRead>b__0, addr 0x29e9930, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method <ProcessRead>b__0, addr 0x29ee3d4, size 0x3c, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* _ProcessRead_b__0(::System::Threading::CancellationToken ct);
 
-  /// @brief Method <ProcessRead>b__1, addr 0x29e996c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method <ProcessRead>b__1, addr 0x29ee410, size 0x40, virtual false, abstract: false, final false
   inline void _ProcessRead_b__1();
 
-  /// @brief Method <ProcessRead>b__2, addr 0x29e99ac, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <ProcessRead>b__2, addr 0x29ee450, size 0x24, virtual false, abstract: false, final false
   inline bool _ProcessRead_b__2();
 
   // Ctor Parameters [CppParam { name: "", ty: "__WebResponseStream____c__DisplayClass41_0", modifiers: "&&", def_value: None }]
@@ -335,9 +335,9 @@ static_assert(offsetof(::System::Net::__WebResponseStream____c__DisplayClass41_0
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 873 })] Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(9241)) CS Name: ::WebResponseStream::<ReadAllAsyncInner>d__47
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3398)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3393), inst: 103 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3398), inst: 877 })] Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(7251)) CS Name: ::WebResponseStream::<ReadAllAsyncInner>d__47
 struct CORDL_TYPE __WebResponseStream___ReadAllAsyncInner_d__47 {
 public:
   // Declarations
@@ -347,10 +347,10 @@ public:
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x29e99d0, size 0x56c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x29ee474, size 0x56c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x29e9f3c, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x29ee9e0, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -421,9 +421,9 @@ static_assert(offsetof(::System::Net::__WebResponseStream___ReadAllAsyncInner_d_
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(2787)), TypeDefinitionIndex(TypeDefinitionIndex(3397)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 400 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3397), inst: 873 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(9242)) CS Name: ::WebResponseStream::<ReadAllAsync>d__48
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(2787)), TypeDefinitionIndex(TypeDefinitionIndex(3393)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3397)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3393), inst: 401 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3393), inst: 877 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7252)) CS Name: ::WebResponseStream::<ReadAllAsync>d__48
 struct CORDL_TYPE __WebResponseStream___ReadAllAsync_d__48 {
 public:
   // Declarations
@@ -433,10 +433,10 @@ public:
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x29e9f94, size 0x95c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x29eea38, size 0x95c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x29ea8f0, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x29ef394, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -519,8 +519,8 @@ static_assert(offsetof(::System::Net::__WebResponseStream___ReadAllAsync_d__48, 
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3401)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9214)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(9243)) CS
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3397)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7224)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3393), inst: 103 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7253)) CS
 // Name: ::WebResponseStream::<InitReadAsync>d__52
 struct CORDL_TYPE __WebResponseStream___InitReadAsync_d__52 {
 public:
@@ -531,10 +531,10 @@ public:
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x29ea8fc, size 0x6bc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x29ef3a0, size 0x6bc, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x29eafb8, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x29efa5c, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -604,8 +604,8 @@ static_assert(offsetof(::System::Net::__WebResponseStream___InitReadAsync_d__52,
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 170, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9027)), TypeDefinitionIndex(TypeDefinitionIndex(9220))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9244))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7037)), TypeDefinitionIndex(TypeDefinitionIndex(7230))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7254))
 // CS Name: ::System.Net::WebResponseStream*
 class CORDL_TYPE WebResponseStream : public ::System::Net::WebConnectionStream {
 public:
@@ -767,90 +767,90 @@ public:
 
   constexpr void __cordl_internal_set__ChunkedRead_k__BackingField(bool value);
 
-  /// @brief Method get_RequestStream, addr 0x29e7660, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RequestStream, addr 0x29ec104, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::WebRequestStream* get_RequestStream();
 
-  /// @brief Method get_Headers, addr 0x29e7668, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Headers, addr 0x29ec10c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::WebHeaderCollection* get_Headers();
 
-  /// @brief Method set_Headers, addr 0x29e7670, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Headers, addr 0x29ec114, size 0x8, virtual false, abstract: false, final false
   inline void set_Headers(::System::Net::WebHeaderCollection* value);
 
-  /// @brief Method get_StatusCode, addr 0x29e7678, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StatusCode, addr 0x29ec11c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::HttpStatusCode get_StatusCode();
 
-  /// @brief Method set_StatusCode, addr 0x29e7680, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_StatusCode, addr 0x29ec124, size 0x8, virtual false, abstract: false, final false
   inline void set_StatusCode(::System::Net::HttpStatusCode value);
 
-  /// @brief Method get_StatusDescription, addr 0x29e7688, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StatusDescription, addr 0x29ec12c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_StatusDescription();
 
-  /// @brief Method set_StatusDescription, addr 0x29e7690, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_StatusDescription, addr 0x29ec134, size 0x8, virtual false, abstract: false, final false
   inline void set_StatusDescription(::StringW value);
 
-  /// @brief Method get_Version, addr 0x29e7698, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x29ec13c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Version* get_Version();
 
-  /// @brief Method set_Version, addr 0x29e76a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Version, addr 0x29ec144, size 0x8, virtual false, abstract: false, final false
   inline void set_Version(::System::Version* value);
 
-  /// @brief Method get_KeepAlive, addr 0x29e76a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KeepAlive, addr 0x29ec14c, size 0x8, virtual false, abstract: false, final false
   inline bool get_KeepAlive();
 
-  /// @brief Method set_KeepAlive, addr 0x29e76b0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_KeepAlive, addr 0x29ec154, size 0xc, virtual false, abstract: false, final false
   inline void set_KeepAlive(bool value);
 
   static inline ::System::Net::WebResponseStream* New_ctor(::System::Net::WebRequestStream* request);
 
-  /// @brief Method .ctor, addr 0x29e76bc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29ec160, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::WebRequestStream* request);
 
-  /// @brief Method get_CanRead, addr 0x29e7740, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanRead, addr 0x29ec1e4, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanRead();
 
-  /// @brief Method get_CanWrite, addr 0x29e7748, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanWrite, addr 0x29ec1ec, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanWrite();
 
-  /// @brief Method get_ChunkedRead, addr 0x29e7750, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ChunkedRead, addr 0x29ec1f4, size 0x8, virtual false, abstract: false, final false
   inline bool get_ChunkedRead();
 
-  /// @brief Method set_ChunkedRead, addr 0x29e7758, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ChunkedRead, addr 0x29ec1fc, size 0xc, virtual false, abstract: false, final false
   inline void set_ChunkedRead(bool value);
 
-  /// @brief Method ReadAsync, addr 0x29e7764, size 0x134, virtual true, abstract: false, final false
+  /// @brief Method ReadAsync, addr 0x29ec208, size 0x134, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ReadAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ProcessRead, addr 0x29e7898, size 0x280, virtual false, abstract: false, final false
+  /// @brief Method ProcessRead, addr 0x29ec33c, size 0x280, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ProcessRead(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method TryReadFromBufferedContent, addr 0x29e7b20, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method TryReadFromBufferedContent, addr 0x29ec5c4, size 0xcc, virtual true, abstract: false, final false
   inline bool TryReadFromBufferedContent(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ByRef<int32_t> result);
 
-  /// @brief Method get_ExpectContent, addr 0x29e7bec, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_ExpectContent, addr 0x29ec690, size 0x90, virtual false, abstract: false, final false
   inline bool get_ExpectContent();
 
-  /// @brief Method Initialize, addr 0x29e7c7c, size 0x52c, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x29ec720, size 0x52c, virtual false, abstract: false, final false
   inline void Initialize(::System::Net::BufferOffsetSize* buffer);
 
-  /// @brief Method ReadAllAsyncInner, addr 0x29e81a8, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method ReadAllAsyncInner, addr 0x29ecc4c, size 0x100, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>* ReadAllAsyncInner(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadAllAsync, addr 0x29e82a8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method ReadAllAsync, addr 0x29ecd4c, size 0xf4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ReadAllAsync(bool resending, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteAsync, addr 0x29e839c, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method WriteAsync, addr 0x29ece40, size 0x9c, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Close_internal, addr 0x29e8438, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Close_internal, addr 0x29ecedc, size 0x8c, virtual true, abstract: false, final false
   inline void Close_internal(ByRef<bool> disposed);
 
-  /// @brief Method GetReadException, addr 0x29e84c4, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method GetReadException, addr 0x29ecf68, size 0x29c, virtual false, abstract: false, final false
   inline ::System::Net::WebException* GetReadException(::System::Net::WebExceptionStatus status, ::System::Exception* error, ::StringW where);
 
-  /// @brief Method InitReadAsync, addr 0x29e8760, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method InitReadAsync, addr 0x29ed204, size 0xdc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* InitReadAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method GetResponse, addr 0x29e883c, size 0x7b8, virtual false, abstract: false, final false
+  /// @brief Method GetResponse, addr 0x29ed2e0, size 0x7b8, virtual false, abstract: false, final false
   inline bool GetResponse(::System::Net::BufferOffsetSize* buffer, ByRef<int32_t> pos, ByRef<::System::Net::ReadState> state);
 
   // Ctor Parameters [CppParam { name: "", ty: "WebResponseStream", modifiers: "&&", def_value: None }]

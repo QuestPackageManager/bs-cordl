@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::GlobalNamespace::DeterministicHitChanceScoreCalculator);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5169))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4511))
 // CS Name: ::DeterministicHitChanceScoreCalculator*
 class CORDL_TYPE DeterministicHitChanceScoreCalculator : public ::System::Object {
 public:
@@ -54,10 +54,10 @@ public:
 
   static inline ::GlobalNamespace::DeterministicHitChanceScoreCalculator* New_ctor(float_t hitChance);
 
-  /// @brief Method .ctor, addr 0x23ddfb8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x239c9a8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(float_t hitChance);
 
-  /// @brief Method GetScoreForNote, addr 0x23ddfe0, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method GetScoreForNote, addr 0x239c9d0, size 0x30, virtual true, abstract: false, final true
   inline int32_t GetScoreForNote(::GlobalNamespace::MockNoteData* noteData);
 
   // Ctor Parameters [CppParam { name: "", ty: "DeterministicHitChanceScoreCalculator", modifiers: "&&", def_value: None }]

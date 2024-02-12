@@ -8,7 +8,7 @@ namespace GlobalNamespace {
 class EnvironmentInfoSO;
 }
 namespace GlobalNamespace {
-class EnvironmentTypeSO;
+struct EnvironmentType;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::GlobalNamespace::OverrideEnvironmentSettings);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4623))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11040))
 // CS Name: ::OverrideEnvironmentSettings*
 class CORDL_TYPE OverrideEnvironmentSettings : public ::System::Object {
 public:
@@ -33,9 +33,8 @@ public:
   __declspec(property(get = __cordl_internal_get_overrideEnvironments, put = __cordl_internal_set_overrideEnvironments)) bool overrideEnvironments;
 
   /// @brief Field _data, offset 0x18, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get__data,
-               put = __cordl_internal_set__data))::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::EnvironmentTypeSO>, ::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* _data;
+  __declspec(property(get = __cordl_internal_get__data,
+                      put = __cordl_internal_set__data))::System::Collections::Generic::Dictionary_2<::GlobalNamespace::EnvironmentType, ::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* _data;
 
   constexpr bool& __cordl_internal_get_overrideEnvironments();
 
@@ -43,22 +42,22 @@ public:
 
   constexpr void __cordl_internal_set_overrideEnvironments(bool value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::EnvironmentTypeSO>, ::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*& __cordl_internal_get__data();
+  constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::EnvironmentType, ::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*& __cordl_internal_get__data();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::EnvironmentTypeSO>, ::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*> const&
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::GlobalNamespace::EnvironmentType, ::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*> const&
   __cordl_internal_get__data() const;
 
-  constexpr void __cordl_internal_set__data(::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::EnvironmentTypeSO>, ::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* value);
+  constexpr void __cordl_internal_set__data(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::EnvironmentType, ::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* value);
 
-  /// @brief Method SetEnvironmentInfoForType, addr 0x236af00, size 0x68, virtual false, abstract: false, final false
-  inline void SetEnvironmentInfoForType(::GlobalNamespace::EnvironmentTypeSO* environmentType, ::GlobalNamespace::EnvironmentInfoSO* environmentInfo);
+  /// @brief Method SetEnvironmentInfoForType, addr 0x12aea28, size 0x68, virtual false, abstract: false, final false
+  inline void SetEnvironmentInfoForType(::GlobalNamespace::EnvironmentType environmentType, ::GlobalNamespace::EnvironmentInfoSO* environmentInfo);
 
-  /// @brief Method GetOverrideEnvironmentInfoForType, addr 0x236af68, size 0x78, virtual false, abstract: false, final false
-  inline ::UnityW<::GlobalNamespace::EnvironmentInfoSO> GetOverrideEnvironmentInfoForType(::GlobalNamespace::EnvironmentTypeSO* environmentType);
+  /// @brief Method GetOverrideEnvironmentInfoForType, addr 0x12aea90, size 0x78, virtual false, abstract: false, final false
+  inline ::UnityW<::GlobalNamespace::EnvironmentInfoSO> GetOverrideEnvironmentInfoForType(::GlobalNamespace::EnvironmentType environmentType);
 
   static inline ::GlobalNamespace::OverrideEnvironmentSettings* New_ctor();
 
-  /// @brief Method .ctor, addr 0x236afe0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12aeb08, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OverrideEnvironmentSettings", modifiers: "&&", def_value: None }]
@@ -79,7 +78,7 @@ public:
   bool ___overrideEnvironments;
 
   /// @brief Field _data, offset: 0x18, size: 0x8, def value: None
-  ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::EnvironmentTypeSO>, ::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* ____data;
+  ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::EnvironmentType, ::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* ____data;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

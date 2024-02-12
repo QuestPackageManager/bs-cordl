@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::System::Net::TransportContext);
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9084))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7094))
 // CS Name: ::System.Net::TransportContext*
 class CORDL_TYPE TransportContext : public ::System::Object {
 public:

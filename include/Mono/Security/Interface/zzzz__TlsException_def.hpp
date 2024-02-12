@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::Mono::Security::Interface::TlsException);
 namespace Mono::Security::Interface {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2561))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13785))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13738))
 // CS Name: ::Mono.Security.Interface::TlsException*
 class CORDL_TYPE TlsException : public ::System::Exception {
 public:
@@ -38,12 +38,12 @@ public:
 
   static inline ::Mono::Security::Interface::TlsException* New_ctor(::Mono::Security::Interface::Alert* alert, ::StringW message);
 
-  /// @brief Method .ctor, addr 0x24031c0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2423020, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Security::Interface::Alert* alert, ::StringW message);
 
   static inline ::Mono::Security::Interface::TlsException* New_ctor(::Mono::Security::Interface::AlertDescription description, ::StringW message);
 
-  /// @brief Method .ctor, addr 0x2403234, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2423094, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Security::Interface::AlertDescription description, ::StringW message);
 
   // Ctor Parameters [CppParam { name: "", ty: "TlsException", modifiers: "&&", def_value: None }]

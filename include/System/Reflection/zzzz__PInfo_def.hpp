@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Reflection::PInfo);
 namespace System::Reflection {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3528))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3524))
 // CS Name: ::System.Reflection::PInfo
 struct CORDL_TYPE PInfo {
 public:

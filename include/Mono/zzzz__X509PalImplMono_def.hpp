@@ -31,25 +31,25 @@ MARK_REF_PTR_T(::Mono::X509PalImplMono);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8754))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8753))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6764))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6763))
 // CS Name: ::Mono::X509PalImplMono*
 class CORDL_TYPE X509PalImplMono : public ::Mono::X509PalImpl {
 public:
   // Declarations
-  /// @brief Method Import, addr 0x2816ed8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Import, addr 0x281b6c0, size 0x4, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* Import(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method Import, addr 0x2816edc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Import, addr 0x281b6c4, size 0x4, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl* Import(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::Microsoft::Win32::SafeHandles::SafePasswordHandle* password,
                                                                                           ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags);
 
-  /// @brief Method Import, addr 0x2816ee0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Import, addr 0x281b6c8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl* Import(::System::Security::Cryptography::X509Certificates::X509Certificate* cert);
 
   static inline ::Mono::X509PalImplMono* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2816478, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x281ac60, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "X509PalImplMono", modifiers: "&&", def_value: None }]

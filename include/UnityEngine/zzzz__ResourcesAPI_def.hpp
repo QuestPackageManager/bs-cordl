@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::UnityEngine::ResourcesAPI);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10264))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9008))
 // CS Name: ::UnityEngine::ResourcesAPI*
 class CORDL_TYPE ResourcesAPI : public ::System::Object {
 public:
@@ -48,33 +48,33 @@ public:
 
   static inline ::UnityEngine::ResourcesAPI* getStaticF__overrideAPI_k__BackingField();
 
-  /// @brief Method get_ActiveAPI, addr 0x2cde204, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method get_ActiveAPI, addr 0x2ce5298, size 0xa8, virtual false, abstract: false, final false
   static inline ::UnityEngine::ResourcesAPI* get_ActiveAPI();
 
-  /// @brief Method get_overrideAPI, addr 0x2cde2ac, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_overrideAPI, addr 0x2ce5340, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::ResourcesAPI* get_overrideAPI();
 
   static inline ::UnityEngine::ResourcesAPI* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2cde304, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ce5398, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method FindObjectsOfTypeAll, addr 0x2cde30c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method FindObjectsOfTypeAll, addr 0x2ce53a0, size 0x3c, virtual true, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> FindObjectsOfTypeAll(::System::Type* systemTypeInstance);
 
-  /// @brief Method FindShaderByName, addr 0x2cde348, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method FindShaderByName, addr 0x2ce53dc, size 0x3c, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> FindShaderByName(::StringW name);
 
-  /// @brief Method Load, addr 0x2cde384, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method Load, addr 0x2ce5418, size 0x44, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> Load(::StringW path, ::System::Type* systemTypeInstance);
 
-  /// @brief Method LoadAll, addr 0x2cde3c8, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method LoadAll, addr 0x2ce545c, size 0x44, virtual true, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> LoadAll(::StringW path, ::System::Type* systemTypeInstance);
 
-  /// @brief Method LoadAsync, addr 0x2cde40c, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method LoadAsync, addr 0x2ce54a0, size 0x54, virtual true, abstract: false, final false
   inline ::UnityEngine::ResourceRequest* LoadAsync(::StringW path, ::System::Type* systemTypeInstance);
 
-  /// @brief Method UnloadAsset, addr 0x2cde460, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method UnloadAsset, addr 0x2ce54f4, size 0x3c, virtual true, abstract: false, final false
   inline void UnloadAsset(::UnityEngine::Object* assetToUnload);
 
   // Ctor Parameters [CppParam { name: "", ty: "ResourcesAPI", modifiers: "&&", def_value: None }]

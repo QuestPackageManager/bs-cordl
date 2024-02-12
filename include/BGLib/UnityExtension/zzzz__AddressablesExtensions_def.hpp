@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::BGLib::UnityExtension::AddressablesExtensions);
 namespace BGLib::UnityExtension {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15878))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15631))
 // CS Name: ::BGLib.UnityExtension::AddressablesExtensions*
 class CORDL_TYPE AddressablesExtensions : public ::System::Object {
 public:

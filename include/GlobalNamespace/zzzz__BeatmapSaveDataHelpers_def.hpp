@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__BeatmapSaveDataHelpers__VersionSerializedDat
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14774))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11078))
 // CS Name: ::BeatmapSaveDataHelpers::VersionSerializedData*
 class CORDL_TYPE __BeatmapSaveDataHelpers__VersionSerializedData : public ::System::Object {
 public:
@@ -51,12 +51,12 @@ public:
 
   constexpr void __cordl_internal_set_version(::StringW value);
 
-  /// @brief Method get_v, addr 0xe05124, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_v, addr 0x12b9468, size 0x30, virtual false, abstract: false, final false
   inline ::StringW get_v();
 
   static inline ::GlobalNamespace::__BeatmapSaveDataHelpers__VersionSerializedData* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe05154, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12b95d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__BeatmapSaveDataHelpers__VersionSerializedData", modifiers: "&&", def_value: None }]
@@ -94,14 +94,42 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapSaveDataHelpers__VersionSeria
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14775))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11079))
 // CS Name: ::BeatmapSaveDataHelpers*
 class CORDL_TYPE BeatmapSaveDataHelpers : public ::System::Object {
 public:
   // Declarations
   using VersionSerializedData = ::GlobalNamespace::__BeatmapSaveDataHelpers__VersionSerializedData;
 
-  /// @brief Method GetVersion, addr 0xe05078, size 0xac, virtual false, abstract: false, final false
+  /// @brief Field noVersion, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_noVersion, put = setStaticF_noVersion))::System::Version* noVersion;
+
+  /// @brief Field version2, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_version2, put = setStaticF_version2))::System::Version* version2;
+
+  /// @brief Field version3, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_version3, put = setStaticF_version3))::System::Version* version3;
+
+  /// @brief Field version4, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_version4, put = setStaticF_version4))::System::Version* version4;
+
+  static inline void setStaticF_noVersion(::System::Version* value);
+
+  static inline ::System::Version* getStaticF_noVersion();
+
+  static inline void setStaticF_version2(::System::Version* value);
+
+  static inline ::System::Version* getStaticF_version2();
+
+  static inline void setStaticF_version3(::System::Version* value);
+
+  static inline ::System::Version* getStaticF_version3();
+
+  static inline void setStaticF_version4(::System::Version* value);
+
+  static inline ::System::Version* getStaticF_version4();
+
+  /// @brief Method GetVersion, addr 0x12b91ac, size 0xe0, virtual false, abstract: false, final false
   static inline ::System::Version* GetVersion(::StringW data);
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapSaveDataHelpers", modifiers: "&&", def_value: None }]

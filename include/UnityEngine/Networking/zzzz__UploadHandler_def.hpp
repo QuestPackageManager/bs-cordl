@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::UnityEngine::Networking::UploadHandler);
 namespace UnityEngine::Networking {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15582))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15740))
 // CS Name: ::UnityEngine.Networking::UploadHandler*
 class CORDL_TYPE UploadHandler : public ::System::Object {
 public:
@@ -31,10 +31,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Ptr(void* value);
 
-  /// @brief Method Release, addr 0x2eafc28, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x2ec9ef4, size 0x3c, virtual false, abstract: false, final false
   inline void Release();
 
-  /// @brief Method Dispose, addr 0x2eafc64, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x2ec9f30, size 0x94, virtual true, abstract: false, final false
   inline void Dispose();
 
   // Ctor Parameters [CppParam { name: "", ty: "UploadHandler", modifiers: "&&", def_value: None }]

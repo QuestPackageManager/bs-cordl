@@ -25,29 +25,29 @@ MARK_REF_PTR_T(::System::Reflection::InvalidFilterCriteriaException);
 namespace System::Reflection {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2343))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3472))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3468))
 // CS Name: ::System.Reflection::InvalidFilterCriteriaException*
 class CORDL_TYPE InvalidFilterCriteriaException : public ::System::ApplicationException {
 public:
   // Declarations
   static inline ::System::Reflection::InvalidFilterCriteriaException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24e7764, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25068bc, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Reflection::InvalidFilterCriteriaException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x24e77c4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x250691c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::System::Reflection::InvalidFilterCriteriaException* New_ctor(::StringW message, ::System::Exception* inner);
 
-  /// @brief Method .ctor, addr 0x24e77ec, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2506944, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* inner);
 
   static inline ::System::Reflection::InvalidFilterCriteriaException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x24e7810, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2506968, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "InvalidFilterCriteriaException", modifiers: "&&", def_value: None }]

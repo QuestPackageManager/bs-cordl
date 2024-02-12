@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IVisualTreeUpdater);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6753))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6012))
 // CS Name: ::UnityEngine.UIElements::IVisualTreeUpdater*
 class CORDL_TYPE IVisualTreeUpdater {
 public:

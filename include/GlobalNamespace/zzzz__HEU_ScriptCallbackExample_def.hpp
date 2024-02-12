@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::GlobalNamespace::HEU_ScriptCallbackExample);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9589))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9381))
 // CS Name: ::HEU_ScriptCallbackExample*
 class CORDL_TYPE HEU_ScriptCallbackExample : public ::UnityEngine::MonoBehaviour {
 public:
@@ -30,15 +30,15 @@ public:
 
   constexpr void __cordl_internal_set__msg(::StringW value);
 
-  /// @brief Method AssetCallbackWithMsg, addr 0x214cfc8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method AssetCallbackWithMsg, addr 0x21e28ac, size 0x98, virtual false, abstract: false, final false
   inline void AssetCallbackWithMsg(::StringW msg);
 
-  /// @brief Method AssetCallbackNoMsg, addr 0x214d060, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method AssetCallbackNoMsg, addr 0x21e2944, size 0x68, virtual false, abstract: false, final false
   inline void AssetCallbackNoMsg();
 
   static inline ::GlobalNamespace::HEU_ScriptCallbackExample* New_ctor();
 
-  /// @brief Method .ctor, addr 0x214d0c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21e29ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_ScriptCallbackExample", modifiers: "&&", def_value: None }]

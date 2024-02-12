@@ -18,7 +18,7 @@ MARK_VAL_T(::System::Collections::DictionaryEntry);
 namespace System::Collections {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3753))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3752))
 // CS Name: ::System.Collections::DictionaryEntry
 struct CORDL_TYPE DictionaryEntry {
 public:
@@ -27,13 +27,13 @@ public:
 
   __declspec(property(get = get_Value))::System::Object* Value;
 
-  /// @brief Method .ctor, addr 0x257c4b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x259f3c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* key, ::System::Object* value);
 
-  /// @brief Method get_Key, addr 0x257c4b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Key, addr 0x259f3d0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Key();
 
-  /// @brief Method get_Value, addr 0x257c4c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x259f3d8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Value();
 
   // Ctor Parameters [CppParam { name: "_key", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam { name: "_value", ty: "::System::Object*", modifiers: "", def_value: None }]

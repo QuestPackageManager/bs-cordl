@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Xml::WriteState);
 namespace System::Xml {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11490))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11388))
 // CS Name: ::System.Xml::WriteState
 struct CORDL_TYPE WriteState {
 public:

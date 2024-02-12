@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::U2D::SpriteAtlas::*)()>(&::UnityEngine::U2D::SpriteAtlas::get_isVariant)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2ce687c;
+  constexpr static std::size_t addrs = 0x2ceda10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::U2D::SpriteAtlas*>::get(), "get_isVariant",
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::U2D::SpriteAtlas::*)()>(&::UnityEngine::U2D::SpriteAtlas::get_tag)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2ce68b8;
+  constexpr static std::size_t addrs = 0x2ceda4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::U2D::SpriteAtlas*>::get(), "get_tag",
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::U2D::SpriteAtlas::*)()>(&::UnityEngine::U2D::SpriteAtlas::get_spriteCount)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2ce68f4;
+  constexpr static std::size_t addrs = 0x2ceda88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::U2D::SpriteAtlas*>::get(), "get_spriteCount",
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::U2D::SpriteAtlas::*)(::UnityEngine::Sprite*)>(&::UnityEngine::U2D::SpriteAtlas::CanBindTo)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2ce6930;
+  constexpr static std::size_t addrs = 0x2cedac4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Sprite> (::UnityEngine::U2D::SpriteAtlas::*)(::StringW)>(
     &::UnityEngine::U2D::SpriteAtlas::GetSprite)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2ce6974;
+  constexpr static std::size_t addrs = 0x2cedb08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::U2D::SpriteAtlas::*)(::ArrayW<::UnityEngine::Sprite*, ::Array<::UnityEngine::Sprite*>*>)>(
     &::UnityEngine::U2D::SpriteAtlas::GetSprites)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2ce69b8;
+  constexpr static std::size_t addrs = 0x2cedb4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<int32_t (::UnityEngine::U2D::SpriteAtlas::*)(::ArrayW<::UnityEngine::Sprite*, ::Array<::UnityEngine::Sprite*>*>, ::StringW)>(&::UnityEngine::U2D::SpriteAtlas::GetSprites)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2ce6a40;
+  constexpr static std::size_t addrs = 0x2cedbd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::U2D::SpriteAtlas::*)(::ArrayW<::UnityEngine::Sprite*, ::Array<::UnityEngine::Sprite*>*>)>(
     &::UnityEngine::U2D::SpriteAtlas::GetSpritesScripting)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2ce69fc;
+  constexpr static std::size_t addrs = 0x2cedb90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::U2D::SpriteAtlas::*)(
     ::ArrayW<::UnityEngine::Sprite*, ::Array<::UnityEngine::Sprite*>*>, ::StringW)>(&::UnityEngine::U2D::SpriteAtlas::GetSpritesWithNameScripting)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2ce6a94;
+  constexpr static std::size_t addrs = 0x2cedc28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::U2D::SpriteAtlas::*)()>(&::UnityEngine::U2D::SpriteAtlas::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2ce6ae8;
+  constexpr static std::size_t addrs = 0x2cedc7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::U2D::SpriteAtlas*>::get(), ".ctor",

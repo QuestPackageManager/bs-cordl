@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Globalization::NumberStyles);
 namespace System::Globalization {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3679))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3677))
 // CS Name: ::System.Globalization::NumberStyles
 struct CORDL_TYPE NumberStyles {
 public:

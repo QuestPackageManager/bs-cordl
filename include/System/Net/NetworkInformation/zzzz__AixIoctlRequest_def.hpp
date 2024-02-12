@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::NetworkInformation::AixIoctlRequest);
 namespace System::Net::NetworkInformation {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9264))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7274))
 // CS Name: ::System.Net.NetworkInformation::AixIoctlRequest
 struct CORDL_TYPE AixIoctlRequest {
 public:

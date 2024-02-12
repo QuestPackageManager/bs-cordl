@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::XR::XRDeviceDescriptor);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::XR {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15617))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6336))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15748))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5595))
 // CS Name: ::UnityEngine.InputSystem.XR::XRDeviceDescriptor*
 class CORDL_TYPE XRDeviceDescriptor : public ::System::Object {
 public:
@@ -84,15 +84,15 @@ public:
 
   constexpr void __cordl_internal_set_inputFeatures(::System::Collections::Generic::List_1<::UnityEngine::InputSystem::XR::XRFeatureDescriptor>* value);
 
-  /// @brief Method ToJson, addr 0x2ac8328, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToJson, addr 0x2ac8e94, size 0x8, virtual false, abstract: false, final false
   inline ::StringW ToJson();
 
-  /// @brief Method FromJson, addr 0x2ac5be8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method FromJson, addr 0x2ac6754, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::XR::XRDeviceDescriptor* FromJson(::StringW json);
 
   static inline ::UnityEngine::InputSystem::XR::XRDeviceDescriptor* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ac8330, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ac8e9c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "XRDeviceDescriptor", modifiers: "&&", def_value: None }]

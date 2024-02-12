@@ -92,7 +92,7 @@ namespace Zenject {
 template <typename TContract, typename TFactory>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10910))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10052))
 // CS Name: ::FromBinderGeneric`1::<>c__1`1<TContract,TFactory>*
 class CORDL_TYPE __FromBinderGeneric_1____c__1_1 : public ::System::Object {
 public:
@@ -150,7 +150,7 @@ namespace Zenject {
 template <typename TContract>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10911))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10053))
 // CS Name: ::FromBinderGeneric`1::<>c__DisplayClass3_0<TContract>*
 class CORDL_TYPE __FromBinderGeneric_1____c__DisplayClass3_0 : public ::System::Object {
 public:
@@ -206,7 +206,7 @@ namespace Zenject {
 template <typename TContract>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10912))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10054))
 // CS Name: ::FromBinderGeneric`1::<>c__DisplayClass14_0<TContract>*
 class CORDL_TYPE __FromBinderGeneric_1____c__DisplayClass14_0 : public ::System::Object {
 public:
@@ -262,7 +262,7 @@ namespace Zenject {
 template <typename TContract>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10913))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10055))
 // CS Name: ::FromBinderGeneric`1::<>c__DisplayClass15_0<TContract>*
 class CORDL_TYPE __FromBinderGeneric_1____c__DisplayClass15_0 : public ::System::Object {
 public:
@@ -317,8 +317,8 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10909))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10914))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10051))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10056))
 // CS Name: ::Zenject::FromBinderGeneric`1<TContract>*
 class CORDL_TYPE FromBinderGeneric_1 : public ::Zenject::FromBinder {
 public:

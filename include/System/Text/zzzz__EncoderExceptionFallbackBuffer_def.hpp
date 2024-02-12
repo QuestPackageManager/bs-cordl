@@ -25,22 +25,22 @@ public:
 
   static inline ::System::Text::EncoderExceptionFallbackBuffer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2633ad0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2659bf4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Fallback, addr 0x2633b44, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method Fallback, addr 0x2659c68, size 0xb4, virtual true, abstract: false, final false
   inline bool Fallback(char16_t charUnknown, int32_t index);
 
-  /// @brief Method Fallback, addr 0x2633c28, size 0x260, virtual true, abstract: false, final false
+  /// @brief Method Fallback, addr 0x2659d4c, size 0x260, virtual true, abstract: false, final false
   inline bool Fallback(char16_t charUnknownHigh, char16_t charUnknownLow, int32_t index);
 
-  /// @brief Method GetNextChar, addr 0x2634080, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetNextChar, addr 0x265a1a4, size 0x8, virtual true, abstract: false, final false
   inline char16_t GetNextChar();
 
-  /// @brief Method MovePrevious, addr 0x2634088, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method MovePrevious, addr 0x265a1ac, size 0x8, virtual true, abstract: false, final false
   inline bool MovePrevious();
 
-  /// @brief Method get_Remaining, addr 0x2634090, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Remaining, addr 0x265a1b4, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Remaining();
 
   // Ctor Parameters [CppParam { name: "", ty: "EncoderExceptionFallbackBuffer", modifiers: "&&", def_value: None }]

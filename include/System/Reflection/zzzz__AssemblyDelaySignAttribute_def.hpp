@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::System::Reflection::AssemblyDelaySignAttribute);
 namespace System::Reflection {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3449))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3445))
 // CS Name: ::System.Reflection::AssemblyDelaySignAttribute*
 class CORDL_TYPE AssemblyDelaySignAttribute : public ::System::Attribute {
 public:
@@ -31,7 +31,7 @@ public:
 
   static inline ::System::Reflection::AssemblyDelaySignAttribute* New_ctor(bool delaySign);
 
-  /// @brief Method .ctor, addr 0x24e5f20, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2505078, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool delaySign);
 
   // Ctor Parameters [CppParam { name: "", ty: "AssemblyDelaySignAttribute", modifiers: "&&", def_value: None }]

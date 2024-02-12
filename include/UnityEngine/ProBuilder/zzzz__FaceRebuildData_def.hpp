@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::FaceRebuildData);
 namespace UnityEngine::ProBuilder {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12125))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12023))
 // CS Name: ::UnityEngine.ProBuilder::FaceRebuildData*
 class CORDL_TYPE FaceRebuildData : public ::System::Object {
 public:
@@ -85,24 +85,24 @@ public:
 
   constexpr void __cordl_internal_set__appliedOffset(int32_t value);
 
-  /// @brief Method Offset, addr 0x2b41c60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Offset, addr 0x2b407cc, size 0x8, virtual false, abstract: false, final false
   inline int32_t Offset();
 
-  /// @brief Method ToString, addr 0x2b41c68, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2b407d4, size 0xc8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method Apply, addr 0x2b41d30, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x2b4089c, size 0x184, virtual false, abstract: false, final false
   static inline void Apply(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::FaceRebuildData*>* newFaces, ::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
                            ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* faces);
 
-  /// @brief Method Apply, addr 0x2b41eb4, size 0x590, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x2b40a20, size 0x590, virtual false, abstract: false, final false
   static inline void Apply(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::FaceRebuildData*>* newFaces,
                            ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* faces,
                            ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* sharedVertexLookup, ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* sharedTextureLookup);
 
   static inline ::UnityEngine::ProBuilder::FaceRebuildData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2b42444, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b40fb0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FaceRebuildData", modifiers: "&&", def_value: None }]

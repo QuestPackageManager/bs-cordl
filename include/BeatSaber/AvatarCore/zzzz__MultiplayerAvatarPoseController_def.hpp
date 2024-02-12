@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::BeatSaber::AvatarCore::MultiplayerAvatarPoseController);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15200))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15281))
 // CS Name: ::BeatSaber.AvatarCore::MultiplayerAvatarPoseController*
 class CORDL_TYPE MultiplayerAvatarPoseController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -104,24 +104,24 @@ public:
 
   constexpr void __cordl_internal_set_didUpdatePoseEvent(::System::Action_1<::UnityEngine::Vector3>* value);
 
-  /// @brief Method add_didUpdatePoseEvent, addr 0xe0bad0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didUpdatePoseEvent, addr 0xe16fd0, size 0xb0, virtual false, abstract: false, final false
   inline void add_didUpdatePoseEvent(::System::Action_1<::UnityEngine::Vector3>* value);
 
-  /// @brief Method remove_didUpdatePoseEvent, addr 0xe0bc50, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didUpdatePoseEvent, addr 0xe17150, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didUpdatePoseEvent(::System::Action_1<::UnityEngine::Vector3>* value);
 
-  /// @brief Method set_connectedPlayer, addr 0xe0fd50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_connectedPlayer, addr 0xe1b54c, size 0x8, virtual false, abstract: false, final false
   inline void set_connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
 
-  /// @brief Method Start, addr 0xe0fd58, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0xe1b554, size 0x18, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0xe0fd70, size 0x4dc, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0xe1b56c, size 0x4dc, virtual false, abstract: false, final false
   inline void Update();
 
   static inline ::BeatSaber::AvatarCore::MultiplayerAvatarPoseController* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe1024c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe1ba48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerAvatarPoseController", modifiers: "&&", def_value: None }]

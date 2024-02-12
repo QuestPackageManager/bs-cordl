@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__DroneHover__SineLayer);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4012))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3957))
 // CS Name: ::DroneHover::SineLayer*
 class CORDL_TYPE __DroneHover__SineLayer : public ::System::Object {
 public:
@@ -62,7 +62,7 @@ public:
 
   static inline ::GlobalNamespace::__DroneHover__SineLayer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2222b7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22ad460, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__DroneHover__SineLayer", modifiers: "&&", def_value: None }]
@@ -99,8 +99,8 @@ static_assert(offsetof(::GlobalNamespace::__DroneHover__SineLayer, ___offset) ==
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4013))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8993))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3958))
 // CS Name: ::DroneHover*
 class CORDL_TYPE DroneHover : public ::UnityEngine::MonoBehaviour {
 public:
@@ -199,24 +199,24 @@ public:
 
   constexpr void __cordl_internal_set__cloth(::UnityW<::UnityEngine::Cloth> value);
 
-  /// @brief Method Start, addr 0x22225e0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x22acec4, size 0x30, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x2222610, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x22acef4, size 0x120, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method GetNoiseVec3, addr 0x2222730, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetNoiseVec3, addr 0x22ad014, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetNoiseVec3(float_t time);
 
-  /// @brief Method GetNoise, addr 0x2222a6c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetNoise, addr 0x22ad350, size 0xf4, virtual false, abstract: false, final false
   inline float_t GetNoise(float_t time, float_t offset);
 
-  /// @brief Method UpdateTiltTransform, addr 0x22227ac, size 0x2c0, virtual false, abstract: false, final false
+  /// @brief Method UpdateTiltTransform, addr 0x22ad090, size 0x2c0, virtual false, abstract: false, final false
   inline void UpdateTiltTransform();
 
   static inline ::GlobalNamespace::DroneHover* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2222b60, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22ad444, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DroneHover", modifiers: "&&", def_value: None }]

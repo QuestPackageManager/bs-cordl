@@ -6,7 +6,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Cryptography::MD4Managed::*)()>(&::Mono::Security::Cryptography::MD4Managed::_ctor)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x2404f68;
+  constexpr static std::size_t addrs = 0x2424dc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::MD4Managed*>::get(), ".ctor",
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Cryptography::MD4Managed::*)()>(&::Mono::Security::Cryptography::MD4Managed::Initialize)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x2405038;
+  constexpr static std::size_t addrs = 0x2424e98;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Cryptography::MD4Managed::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::Mono::Security::Cryptography::MD4Managed::HashCore)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x24050ec;
+  constexpr static std::size_t addrs = 0x2424f4c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Mono::Security::Cryptography::MD4Managed::*)()>(
     &::Mono::Security::Cryptography::MD4Managed::HashFinal)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x2405888;
+  constexpr static std::size_t addrs = 0x24256e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Mono::Security::Cryptography::MD4Managed::*)(int32_t)>(
     &::Mono::Security::Cryptography::MD4Managed::Padding)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x2405a7c;
+  constexpr static std::size_t addrs = 0x24258dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::Mono::Security::Cryptography::MD4Managed::*)(uint32_t, uint32_t, uint32_t)>(
     &::Mono::Security::Cryptography::MD4Managed::F)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2405af4;
+  constexpr static std::size_t addrs = 0x2425954;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::Mono::Security::Cryptography::MD4Managed::*)(uint32_t, uint32_t, uint32_t)>(
     &::Mono::Security::Cryptography::MD4Managed::G)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2405b04;
+  constexpr static std::size_t addrs = 0x2425964;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::Mono::Security::Cryptography::MD4Managed::*)(uint32_t, uint32_t, uint32_t)>(
     &::Mono::Security::Cryptography::MD4Managed::H)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2405b18;
+  constexpr static std::size_t addrs = 0x2425978;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::Mono::Security::Cryptography::MD4Managed::*)(uint32_t, uint8_t)>(
     &::Mono::Security::Cryptography::MD4Managed::ROL)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2405b24;
+  constexpr static std::size_t addrs = 0x2425984;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::Mono::Security::Cryptography::MD4Managed::*)(ByRef<uint32_t>, uint32_t, uint32_t, uint32_t, uint32_t, uint8_t)>(&::Mono::Security::Cryptography::MD4Managed::FF)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2405b34;
+  constexpr static std::size_t addrs = 0x2425994;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::Mono::Security::Cryptography::MD4Managed::*)(ByRef<uint32_t>, uint32_t, uint32_t, uint32_t, uint32_t, uint8_t)>(&::Mono::Security::Cryptography::MD4Managed::GG)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2405b60;
+  constexpr static std::size_t addrs = 0x24259c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -176,7 +176,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::Mono::Security::Cryptography::MD4Managed::*)(ByRef<uint32_t>, uint32_t, uint32_t, uint32_t, uint32_t, uint8_t)>(&::Mono::Security::Cryptography::MD4Managed::HH)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x2405b9c;
+  constexpr static std::size_t addrs = 0x24259fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -193,7 +193,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Cryptography::MD4Managed::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint32_t, ::Array<uint32_t>*>)>(&::Mono::Security::Cryptography::MD4Managed::Encode)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x2405984;
+  constexpr static std::size_t addrs = 0x24257e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -209,7 +209,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Cryptography::MD4Managed::*)(
     ::ArrayW<uint32_t, ::Array<uint32_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Mono::Security::Cryptography::MD4Managed::Decode)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x2405bd0;
+  constexpr static std::size_t addrs = 0x2425a30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -226,7 +226,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Cryptography::MD4Managed::*)(
     ::ArrayW<uint32_t, ::Array<uint32_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Mono::Security::Cryptography::MD4Managed::MD4Transform)> {
   constexpr static std::size_t size = 0x678;
-  constexpr static std::size_t addrs = 0x2405210;
+  constexpr static std::size_t addrs = 0x2425070;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((

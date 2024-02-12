@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::System::Collections::Specialized::StringDictionary);
 namespace System::Collections::Specialized {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9518))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7528))
 // CS Name: ::System.Collections.Specialized::StringDictionary*
 class CORDL_TYPE StringDictionary : public ::System::Object {
 public:
@@ -47,13 +47,13 @@ public:
 
   static inline ::System::Collections::Specialized::StringDictionary* New_ctor();
 
-  /// @brief Method .ctor, addr 0x293fc3c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29442a4, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Add, addr 0x293fca4, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x294430c, size 0x98, virtual true, abstract: false, final false
   inline void Add(::StringW key, ::StringW value);
 
-  /// @brief Method GetEnumerator, addr 0x293fd3c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x29443a4, size 0x24, virtual true, abstract: false, final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
   // Ctor Parameters [CppParam { name: "", ty: "StringDictionary", modifiers: "&&", def_value: None }]

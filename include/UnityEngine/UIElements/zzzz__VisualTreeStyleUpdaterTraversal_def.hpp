@@ -68,7 +68,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__VisualTreeStyleUpdaterTraversal____c
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6818))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6077))
 // CS Name: ::VisualTreeStyleUpdaterTraversal::<>c*
 class CORDL_TYPE __VisualTreeStyleUpdaterTraversal____c : public ::System::Object {
 public:
@@ -89,10 +89,10 @@ public:
 
   static inline ::UnityEngine::UIElements::__VisualTreeStyleUpdaterTraversal____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2dc3340, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2de1728, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <ProcessMatchedRules>b__24_0, addr 0x2dc3348, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method <ProcessMatchedRules>b__24_0, addr 0x2de1730, size 0x44, virtual false, abstract: false, final false
   inline int32_t _ProcessMatchedRules_b__24_0(::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord a, ::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord b);
 
   // Ctor Parameters [CppParam { name: "", ty: "__VisualTreeStyleUpdaterTraversal____c", modifiers: "&&", def_value: None }]
@@ -119,8 +119,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Visua
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7459))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6819))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6718))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6078))
 // CS Name: ::UnityEngine.UIElements::VisualTreeStyleUpdaterTraversal*
 class CORDL_TYPE VisualTreeStyleUpdaterTraversal : public ::UnityEngine::UIElements::StyleSheets::HierarchyTraversal {
 public:
@@ -209,55 +209,55 @@ public:
 
   constexpr void __cordl_internal_set_m_AnimatedProperties(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StylePropertyId>* value);
 
-  /// @brief Method get_currentPixelsPerPoint, addr 0x2dc1e6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_currentPixelsPerPoint, addr 0x2de0254, size 0x8, virtual false, abstract: false, final false
   inline float_t get_currentPixelsPerPoint();
 
-  /// @brief Method set_currentPixelsPerPoint, addr 0x2dc1e74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_currentPixelsPerPoint, addr 0x2de025c, size 0x8, virtual false, abstract: false, final false
   inline void set_currentPixelsPerPoint(float_t value);
 
-  /// @brief Method PrepareTraversal, addr 0x2dc1844, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method PrepareTraversal, addr 0x2ddfc2c, size 0x8, virtual false, abstract: false, final false
   inline void PrepareTraversal(float_t pixelsPerPoint);
 
-  /// @brief Method AddChangedElement, addr 0x2dc105c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method AddChangedElement, addr 0x2ddf444, size 0x80, virtual false, abstract: false, final false
   inline void AddChangedElement(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VersionChangeType versionChangeType);
 
-  /// @brief Method Clear, addr 0x2dc14c8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x2ddf8b0, size 0xa4, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method PropagateToChildren, addr 0x2dc1e7c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method PropagateToChildren, addr 0x2de0264, size 0xd4, virtual false, abstract: false, final false
   inline void PropagateToChildren(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method PropagateToParents, addr 0x2dc1f50, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method PropagateToParents, addr 0x2de0338, size 0xa8, virtual false, abstract: false, final false
   inline void PropagateToParents(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method OnProcessMatchResult, addr 0x2dc1ff8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method OnProcessMatchResult, addr 0x2de03e0, size 0x30, virtual false, abstract: false, final false
   static inline void OnProcessMatchResult(::UnityEngine::UIElements::VisualElement* current, ::UnityEngine::UIElements::StyleSheets::MatchResultInfo info);
 
-  /// @brief Method TraverseRecursive, addr 0x2dc2028, size 0x600, virtual true, abstract: false, final false
+  /// @brief Method TraverseRecursive, addr 0x2de0410, size 0x600, virtual true, abstract: false, final false
   inline void TraverseRecursive(::UnityEngine::UIElements::VisualElement* element, int32_t depth);
 
-  /// @brief Method ProcessTransitions, addr 0x2dc2e68, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method ProcessTransitions, addr 0x2de1250, size 0xe4, virtual false, abstract: false, final false
   inline void ProcessTransitions(::UnityEngine::UIElements::VisualElement* element, ByRef<::UnityEngine::UIElements::ComputedStyle> oldStyle, ByRef<::UnityEngine::UIElements::ComputedStyle> newStyle);
 
-  /// @brief Method ForceUpdateTransitions, addr 0x2dc2f4c, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method ForceUpdateTransitions, addr 0x2de1334, size 0x294, virtual false, abstract: false, final false
   inline void ForceUpdateTransitions(::UnityEngine::UIElements::VisualElement* element);
 
-  /// @brief Method CancelAnimationsWithNoTransitionProperty, addr 0x2dc156c, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method CancelAnimationsWithNoTransitionProperty, addr 0x2ddf954, size 0x2c8, virtual false, abstract: false, final false
   inline void CancelAnimationsWithNoTransitionProperty(::UnityEngine::UIElements::VisualElement* element, ByRef<::UnityEngine::UIElements::ComputedStyle> newStyle);
 
-  /// @brief Method ShouldSkipElement, addr 0x2dc2628, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ShouldSkipElement, addr 0x2de0a10, size 0x84, virtual false, abstract: false, final false
   inline bool ShouldSkipElement(::UnityEngine::UIElements::VisualElement* element);
 
-  /// @brief Method ProcessMatchedRules, addr 0x2dc26ac, size 0x7bc, virtual false, abstract: false, final false
+  /// @brief Method ProcessMatchedRules, addr 0x2de0a94, size 0x7bc, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ComputedStyle ProcessMatchedRules(::UnityEngine::UIElements::VisualElement* element,
                                                                       ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>* matchingSelectors);
 
-  /// @brief Method ProcessMatchedVariables, addr 0x2dc31e0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ProcessMatchedVariables, addr 0x2de15c8, size 0xfc, virtual false, abstract: false, final false
   inline void ProcessMatchedVariables(::UnityEngine::UIElements::StyleSheet* sheet, ::UnityEngine::UIElements::StyleRule* rule);
 
   static inline ::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2dc1920, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ddfd08, size 0x208, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "VisualTreeStyleUpdaterTraversal", modifiers: "&&", def_value: None }]

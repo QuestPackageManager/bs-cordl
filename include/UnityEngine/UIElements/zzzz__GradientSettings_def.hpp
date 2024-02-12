@@ -30,8 +30,8 @@ MARK_VAL_T(::UnityEngine::UIElements::GradientSettings);
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6802)), TypeDefinitionIndex(TypeDefinitionIndex(6803)), TypeDefinitionIndex(TypeDefinitionIndex(10162)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10243))] Self: TypeDefinitionIndex(TypeDefinitionIndex(6805)) CS Name: ::UnityEngine.UIElements::GradientSettings
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6061)), TypeDefinitionIndex(TypeDefinitionIndex(6062)), TypeDefinitionIndex(TypeDefinitionIndex(8906)),
+// TypeDefinitionIndex(TypeDefinitionIndex(8987))] Self: TypeDefinitionIndex(TypeDefinitionIndex(6064)) CS Name: ::UnityEngine.UIElements::GradientSettings
 struct CORDL_TYPE GradientSettings {
 public:
   // Declarations

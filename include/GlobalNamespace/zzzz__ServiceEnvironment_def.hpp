@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::ServiceEnvironment);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12740))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12638))
 // CS Name: ::ServiceEnvironment
 struct CORDL_TYPE ServiceEnvironment {
 public:

@@ -78,13 +78,13 @@ public:
   static inline ::Org::BouncyCastle::Math::EC::Endo::__EndoUtilities__MapPointCallback* New_ctor(::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* endomorphism,
                                                                                                  ::Org::BouncyCastle::Math::EC::ECPoint* point);
 
-  /// @brief Method .ctor, addr 0x10350e4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1061f74, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* endomorphism, ::Org::BouncyCastle::Math::EC::ECPoint* point);
 
-  /// @brief Method Precompute, addr 0x1035178, size 0x1f8, virtual true, abstract: false, final true
+  /// @brief Method Precompute, addr 0x1062008, size 0x1f8, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* Precompute(::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* existing);
 
-  /// @brief Method CheckExisting, addr 0x1035370, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CheckExisting, addr 0x1062200, size 0x58, virtual false, abstract: false, final false
   inline bool CheckExisting(::Org::BouncyCastle::Math::EC::Endo::EndoPreCompInfo* existingEndo, ::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* endomorphism);
 
   // Ctor Parameters [CppParam { name: "", ty: "__EndoUtilities__MapPointCallback", modifiers: "&&", def_value: None }]
@@ -136,19 +136,19 @@ public:
 
   static inline ::StringW getStaticF_PRECOMP_NAME();
 
-  /// @brief Method DecomposeScalar, addr 0x1034c88, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method DecomposeScalar, addr 0x1061b18, size 0x234, virtual false, abstract: false, final false
   static inline ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> DecomposeScalar(::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* p,
                                                                                                                                    ::Org::BouncyCastle::Math::BigInteger* k);
 
-  /// @brief Method MapPoint, addr 0x1034fbc, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method MapPoint, addr 0x1061e4c, size 0x128, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::EC::ECPoint* MapPoint(::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* endomorphism, ::Org::BouncyCastle::Math::EC::ECPoint* p);
 
-  /// @brief Method CalculateB, addr 0x1034ebc, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method CalculateB, addr 0x1061d4c, size 0x100, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* CalculateB(::Org::BouncyCastle::Math::BigInteger* k, ::Org::BouncyCastle::Math::BigInteger* g, int32_t t);
 
   static inline ::Org::BouncyCastle::Math::EC::Endo::EndoUtilities* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1035170, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1062000, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EndoUtilities", modifiers: "&&", def_value: None }]

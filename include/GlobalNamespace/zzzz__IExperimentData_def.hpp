@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IExperimentData);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4186))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10640))
 // CS Name: ::IExperimentData*
 class CORDL_TYPE IExperimentData {
 public:

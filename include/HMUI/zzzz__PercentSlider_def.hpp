@@ -16,18 +16,18 @@ MARK_REF_PTR_T(::HMUI::PercentSlider);
 // SizeInfo { instance_size: 360, native_size: -1, calculated_instance_size: 360, calculated_native_size: 360, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13558))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13557))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13511))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13510))
 // CS Name: ::HMUI::PercentSlider*
 class CORDL_TYPE PercentSlider : public ::HMUI::RangeValuesTextSlider {
 public:
   // Declarations
-  /// @brief Method TextForValue, addr 0x2122460, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method TextForValue, addr 0x21b6d3c, size 0x8c, virtual true, abstract: false, final false
   inline ::StringW TextForValue(float_t value);
 
   static inline ::HMUI::PercentSlider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21224ec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21b6dc8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PercentSlider", modifiers: "&&", def_value: None }]

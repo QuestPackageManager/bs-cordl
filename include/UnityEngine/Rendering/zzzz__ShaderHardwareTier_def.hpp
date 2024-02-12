@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Rendering::ShaderHardwareTier);
 namespace UnityEngine::Rendering {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10326))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9073))
 // CS Name: ::UnityEngine.Rendering::ShaderHardwareTier
 struct CORDL_TYPE ShaderHardwareTier {
 public:

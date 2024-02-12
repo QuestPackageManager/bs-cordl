@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceLocations::ILocationSi
 namespace UnityEngine::ResourceManagement::ResourceLocations {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14020))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14033))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceLocations::ILocationSizeData*
 class CORDL_TYPE ILocationSizeData {
 public:

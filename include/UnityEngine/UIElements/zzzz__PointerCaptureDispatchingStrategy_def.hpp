@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::PointerCaptureDispatchingStrategy);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7161))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6420))
 // CS Name: ::UnityEngine.UIElements::PointerCaptureDispatchingStrategy*
 class CORDL_TYPE PointerCaptureDispatchingStrategy : public ::System::Object {
 public:
@@ -35,15 +35,15 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IEventDispatchingStrategy"
   constexpr ::UnityEngine::UIElements::IEventDispatchingStrategy* i___UnityEngine__UIElements__IEventDispatchingStrategy() noexcept;
 
-  /// @brief Method CanDispatchEvent, addr 0x2e4a6dc, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method CanDispatchEvent, addr 0x2e65ac4, size 0x54, virtual true, abstract: false, final true
   inline bool CanDispatchEvent(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method DispatchEvent, addr 0x2e4a730, size 0x5d0, virtual true, abstract: false, final true
+  /// @brief Method DispatchEvent, addr 0x2e65b18, size 0x5d0, virtual true, abstract: false, final true
   inline void DispatchEvent(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::IPanel* panel);
 
   static inline ::UnityEngine::UIElements::PointerCaptureDispatchingStrategy* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e4ad8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e66174, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PointerCaptureDispatchingStrategy", modifiers: "&&", def_value: None }]

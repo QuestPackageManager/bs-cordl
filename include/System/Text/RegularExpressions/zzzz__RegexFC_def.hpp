@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::System::Text::RegularExpressions::RegexFC);
 namespace System::Text::RegularExpressions {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8921))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6931))
 // CS Name: ::System.Text.RegularExpressions::RegexFC*
 class CORDL_TYPE RegexFC : public ::System::Object {
 public:
@@ -58,29 +58,29 @@ public:
 
   static inline ::System::Text::RegularExpressions::RegexFC* New_ctor(bool nullable);
 
-  /// @brief Method .ctor, addr 0x295fd64, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2963c84, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(bool nullable);
 
   static inline ::System::Text::RegularExpressions::RegexFC* New_ctor(char16_t ch, bool _cordl_not, bool nullable, bool caseInsensitive);
 
-  /// @brief Method .ctor, addr 0x295fe90, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2963db0, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(char16_t ch, bool _cordl_not, bool nullable, bool caseInsensitive);
 
   static inline ::System::Text::RegularExpressions::RegexFC* New_ctor(::StringW charClass, bool nullable, bool caseInsensitive);
 
-  /// @brief Method .ctor, addr 0x295ff84, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2963ea4, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::StringW charClass, bool nullable, bool caseInsensitive);
 
-  /// @brief Method AddFC, addr 0x295fde4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method AddFC, addr 0x2963d04, size 0xac, virtual false, abstract: false, final false
   inline bool AddFC(::System::Text::RegularExpressions::RegexFC* fc, bool concatenate);
 
-  /// @brief Method get_CaseInsensitive, addr 0x2960018, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CaseInsensitive, addr 0x2963f38, size 0x8, virtual false, abstract: false, final false
   inline bool get_CaseInsensitive();
 
-  /// @brief Method set_CaseInsensitive, addr 0x2960020, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_CaseInsensitive, addr 0x2963f40, size 0xc, virtual false, abstract: false, final false
   inline void set_CaseInsensitive(bool value);
 
-  /// @brief Method GetFirstChars, addr 0x295f19c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetFirstChars, addr 0x29630bc, size 0x38, virtual false, abstract: false, final false
   inline ::StringW GetFirstChars(::System::Globalization::CultureInfo* culture);
 
   // Ctor Parameters [CppParam { name: "", ty: "RegexFC", modifiers: "&&", def_value: None }]

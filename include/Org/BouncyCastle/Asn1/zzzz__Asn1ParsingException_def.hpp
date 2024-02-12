@@ -26,17 +26,17 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Asn1::Asn1ParsingException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x11b814c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11e4fdc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::Asn1ParsingException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x11b8154, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11e4fe4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::Org::BouncyCastle::Asn1::Asn1ParsingException* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor, addr 0x11b815c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11e4fec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
   // Ctor Parameters [CppParam { name: "", ty: "Asn1ParsingException", modifiers: "&&", def_value: None }]

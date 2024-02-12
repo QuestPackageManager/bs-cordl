@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::__X509Certifi
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8999))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7009))
 // CS Name: ::X509CertificateCollection::X509CertificateEnumerator*
 class CORDL_TYPE __X509CertificateCollection__X509CertificateEnumerator : public ::System::Object {
 public:
@@ -60,22 +60,22 @@ public:
   static inline ::System::Security::Cryptography::X509Certificates::__X509CertificateCollection__X509CertificateEnumerator*
   New_ctor(::System::Security::Cryptography::X509Certificates::X509CertificateCollection* mappings);
 
-  /// @brief Method .ctor, addr 0x297eea8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x298294c, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::X509Certificates::X509CertificateCollection* mappings);
 
-  /// @brief Method get_Current, addr 0x297ef7c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method get_Current, addr 0x2982a20, size 0xf0, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate* get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x297f06c, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2982b10, size 0xa4, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.MoveNext, addr 0x297f110, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.MoveNext, addr 0x2982bb4, size 0xa0, virtual true, abstract: false, final true
   inline bool System_Collections_IEnumerator_MoveNext();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x297f1b0, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2982c54, size 0xa4, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method MoveNext, addr 0x297f254, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method MoveNext, addr 0x2982cf8, size 0xa0, virtual false, abstract: false, final false
   inline bool MoveNext();
 
   // Ctor Parameters [CppParam { name: "", ty: "__X509CertificateCollection__X509CertificateEnumerator", modifiers: "&&", def_value: None }]
@@ -107,8 +107,8 @@ static_assert(offsetof(::System::Security::Cryptography::X509Certificates::__X50
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3773))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9000))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3772))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7010))
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509CertificateCollection*
 class CORDL_TYPE X509CertificateCollection : public ::System::Collections::CollectionBase {
 public:
@@ -119,24 +119,24 @@ public:
 
   static inline ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* New_ctor();
 
-  /// @brief Method .ctor, addr 0x297b518, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x297efbc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* New_ctor(::System::Security::Cryptography::X509Certificates::X509CertificateCollection* value);
 
-  /// @brief Method .ctor, addr 0x297ecb0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2982754, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::X509Certificates::X509CertificateCollection* value);
 
-  /// @brief Method get_Item, addr 0x297edb0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x2982854, size 0x98, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate* get_Item(int32_t index);
 
-  /// @brief Method AddRange, addr 0x297ecdc, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method AddRange, addr 0x2982780, size 0xd4, virtual false, abstract: false, final false
   inline void AddRange(::System::Security::Cryptography::X509Certificates::X509CertificateCollection* value);
 
-  /// @brief Method GetEnumerator, addr 0x297ee48, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x29828ec, size 0x60, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::__X509CertificateCollection__X509CertificateEnumerator* GetEnumerator();
 
-  /// @brief Method GetHashCode, addr 0x297ef5c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2982a00, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "X509CertificateCollection", modifiers: "&&", def_value: None }]

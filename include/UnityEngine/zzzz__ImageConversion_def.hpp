@@ -23,33 +23,33 @@ MARK_REF_PTR_T(::UnityEngine::ImageConversion);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16157))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16297))
 // CS Name: ::UnityEngine::ImageConversion*
 class CORDL_TYPE ImageConversion : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method EncodeToTGA, addr 0x2cfb06c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method EncodeToTGA, addr 0x2d06958, size 0x3c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodeToTGA(::UnityEngine::Texture2D* tex);
 
-  /// @brief Method EncodeToPNG, addr 0x2cfb0a8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method EncodeToPNG, addr 0x2d06994, size 0x3c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodeToPNG(::UnityEngine::Texture2D* tex);
 
-  /// @brief Method EncodeToJPG, addr 0x2cfb0e4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method EncodeToJPG, addr 0x2d069d0, size 0x44, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodeToJPG(::UnityEngine::Texture2D* tex, int32_t quality);
 
-  /// @brief Method EncodeToJPG, addr 0x2cfb128, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method EncodeToJPG, addr 0x2d06a14, size 0x40, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodeToJPG(::UnityEngine::Texture2D* tex);
 
-  /// @brief Method EncodeToEXR, addr 0x2cfb168, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method EncodeToEXR, addr 0x2d06a54, size 0x44, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodeToEXR(::UnityEngine::Texture2D* tex, ::UnityEngine::__Texture2D__EXRFlags flags);
 
-  /// @brief Method EncodeToEXR, addr 0x2cfb1ac, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method EncodeToEXR, addr 0x2d06a98, size 0x40, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodeToEXR(::UnityEngine::Texture2D* tex);
 
-  /// @brief Method LoadImage, addr 0x2cfb1ec, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method LoadImage, addr 0x2d06ad8, size 0x54, virtual false, abstract: false, final false
   static inline bool LoadImage(::UnityEngine::Texture2D* tex, ::ArrayW<uint8_t, ::Array<uint8_t>*> data, bool markNonReadable);
 
-  /// @brief Method LoadImage, addr 0x2cfb240, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method LoadImage, addr 0x2d06b2c, size 0x48, virtual false, abstract: false, final false
   static inline bool LoadImage(::UnityEngine::Texture2D* tex, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
   // Ctor Parameters [CppParam { name: "", ty: "ImageConversion", modifiers: "&&", def_value: None }]

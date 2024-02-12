@@ -43,7 +43,7 @@ MARK_VAL_T(::UnityEngine::PlayerLoop::__Update__ScriptRunDelayedTasks);
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10541))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9310))
 // CS Name: ::Update::ScriptRunBehaviourUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __Update__ScriptRunBehaviourUpdate {
@@ -71,7 +71,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Updat
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10542))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9311))
 // CS Name: ::Update::DirectorUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __Update__DirectorUpdate {
@@ -99,7 +99,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Updat
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10543))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9312))
 // CS Name: ::Update::ScriptRunDelayedDynamicFrameRate
 #pragma pack(push, 0)
 struct CORDL_TYPE __Update__ScriptRunDelayedDynamicFrameRate {
@@ -127,7 +127,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Updat
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10544))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9313))
 // CS Name: ::Update::ScriptRunDelayedTasks
 #pragma pack(push, 0)
 struct CORDL_TYPE __Update__ScriptRunDelayedTasks {
@@ -155,7 +155,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Updat
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10545))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9314))
 // CS Name: ::UnityEngine.PlayerLoop::Update
 #pragma pack(push, 0)
 struct CORDL_TYPE Update {

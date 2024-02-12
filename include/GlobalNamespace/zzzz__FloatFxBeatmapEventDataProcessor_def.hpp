@@ -18,17 +18,17 @@ MARK_REF_PTR_T(::GlobalNamespace::FloatFxBeatmapEventDataProcessor);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14732)), TypeDefinitionIndex(TypeDefinitionIndex(14743)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14743), inst:
-// 2548 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14744)) CS Name: ::FloatFxBeatmapEventDataProcessor*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15116)), TypeDefinitionIndex(TypeDefinitionIndex(15127)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15127), inst:
+// 2524 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(15128)) CS Name: ::FloatFxBeatmapEventDataProcessor*
 class CORDL_TYPE FloatFxBeatmapEventDataProcessor : public ::GlobalNamespace::FxBeatmapEventDataProcessor_1<::GlobalNamespace::FloatFxBeatmapEventData*> {
 public:
   // Declarations
-  /// @brief Method UpdateByOther, addr 0xdff934, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method UpdateByOther, addr 0xe0fe28, size 0x20, virtual true, abstract: false, final false
   inline void UpdateByOther(::GlobalNamespace::FloatFxBeatmapEventData* current, ::GlobalNamespace::FloatFxBeatmapEventData* other);
 
   static inline ::GlobalNamespace::FloatFxBeatmapEventDataProcessor* New_ctor();
 
-  /// @brief Method .ctor, addr 0xdff954, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe0fe48, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FloatFxBeatmapEventDataProcessor", modifiers: "&&", def_value: None }]

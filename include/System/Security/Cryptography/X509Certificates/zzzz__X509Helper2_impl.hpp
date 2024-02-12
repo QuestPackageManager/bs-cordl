@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::X509::X509Certificate* (*)(::System::Security::Cryptography::X509Certificates::X509Certificate2*)>(
     &::System::Security::Cryptography::X509Certificates::X509Helper2::GetMonoCertificate)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x2985260;
+  constexpr static std::size_t addrs = 0x2988d04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::X509Certificates::X509ChainImpl* (*)(bool)>(
     &::System::Security::Cryptography::X509Certificates::X509Helper2::CreateChainImpl)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2985334;
+  constexpr static std::size_t addrs = 0x2988dd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Security::Cryptography::X509Certificates::X509ChainImpl*)>(
     &::System::Security::Cryptography::X509Certificates::X509Helper2::IsValid)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2985398;
+  constexpr static std::size_t addrs = 0x2988e3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Security::Cryptography::X509Certificates::X509ChainImpl*)>(
     &::System::Security::Cryptography::X509Certificates::X509Helper2::ThrowIfContextInvalid)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x29853ac;
+  constexpr static std::size_t addrs = 0x2988e50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(
     &::System::Security::Cryptography::X509Certificates::X509Helper2::GetInvalidChainContextException)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x29853ec;
+  constexpr static std::size_t addrs = 0x2988e90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -16,12 +16,12 @@ MARK_REF_PTR_T(::UnityEngine::Events::UnityEventTools);
 namespace UnityEngine::Events {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10448))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9217))
 // CS Name: ::UnityEngine.Events::UnityEventTools*
 class CORDL_TYPE UnityEventTools : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method TidyAssemblyTypeName, addr 0x2cf8188, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method TidyAssemblyTypeName, addr 0x2d02e64, size 0x228, virtual false, abstract: false, final false
   static inline ::StringW TidyAssemblyTypeName(::StringW assemblyTypeName);
 
   // Ctor Parameters [CppParam { name: "", ty: "UnityEventTools", modifiers: "&&", def_value: None }]

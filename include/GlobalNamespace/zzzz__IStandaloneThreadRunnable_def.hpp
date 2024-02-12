@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IStandaloneThreadRunnable);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12819))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12717))
 // CS Name: ::IStandaloneThreadRunnable*
 class CORDL_TYPE IStandaloneThreadRunnable {
 public:

@@ -64,33 +64,33 @@ public:
 
   constexpr void __cordl_internal_set_str(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method GetInstance, addr 0x11b756c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x11e43fc, size 0xd4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1OctetString* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-  /// @brief Method GetInstance, addr 0x11b07a0, size 0x2b8, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x11dd630, size 0x2b8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1OctetString* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Asn1OctetString* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str);
 
-  /// @brief Method .ctor, addr 0x11b776c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11e45fc, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str);
 
-  /// @brief Method GetOctetStream, addr 0x11b77e4, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method GetOctetStream, addr 0x11e4674, size 0x6c, virtual true, abstract: false, final true
   inline ::System::IO::Stream* GetOctetStream();
 
-  /// @brief Method get_Parser, addr 0x11b7850, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_Parser, addr 0x11e46e0, size 0x4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetStringParser* get_Parser();
 
-  /// @brief Method GetOctets, addr 0x11b7854, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetOctets, addr 0x11e46e4, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetOctets();
 
-  /// @brief Method Asn1GetHashCode, addr 0x11b785c, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method Asn1GetHashCode, addr 0x11e46ec, size 0x70, virtual true, abstract: false, final false
   inline int32_t Asn1GetHashCode();
 
-  /// @brief Method Asn1Equals, addr 0x11b78cc, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method Asn1Equals, addr 0x11e475c, size 0xec, virtual true, abstract: false, final false
   inline bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
 
-  /// @brief Method ToString, addr 0x11b79b8, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x11e4848, size 0x84, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "Asn1OctetString", modifiers: "&&", def_value: None }]

@@ -33,8 +33,8 @@ MARK_REF_PTR_T(::BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15195))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8993))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15276))
 // CS Name: ::LimitAvatarPoseRestriction::Parameters*
 class CORDL_TYPE __LimitAvatarPoseRestriction__Parameters : public ::System::Object {
 public:
@@ -124,7 +124,7 @@ public:
 
   static inline ::BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe0f8d8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe1b0d4, size 0x44, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__LimitAvatarPoseRestriction__Parameters", modifiers: "&&", def_value: None }]
@@ -197,7 +197,7 @@ static_assert(offsetof(::BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Pa
 namespace BeatSaber::AvatarCore {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15196))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15277))
 // CS Name: ::BeatSaber.AvatarCore::LimitAvatarPoseRestriction*
 class CORDL_TYPE LimitAvatarPoseRestriction : public ::System::Object {
 public:
@@ -219,16 +219,16 @@ public:
 
   constexpr void __cordl_internal_set__parameters(::BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters* value);
 
-  /// @brief Method RestrictPose, addr 0xe0f638, size 0x1f4, virtual true, abstract: false, final true
+  /// @brief Method RestrictPose, addr 0xe1ae34, size 0x1f4, virtual true, abstract: false, final true
   inline void RestrictPose(::UnityEngine::Quaternion headRotation, ::UnityEngine::Vector3 headPosition, ::UnityEngine::Vector3 leftHandPosition, ::UnityEngine::Vector3 rightHandPosition,
                            ByRef<::UnityEngine::Vector3> newHeadPosition, ByRef<::UnityEngine::Vector3> newLeftHandPosition, ByRef<::UnityEngine::Vector3> newRightHandPosition);
 
-  /// @brief Method LimitHandPositionRelativeToHead, addr 0xe0f82c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method LimitHandPositionRelativeToHead, addr 0xe1b028, size 0xa4, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 LimitHandPositionRelativeToHead(::UnityEngine::Vector3 handPosition, ::UnityEngine::Vector3 headCenter);
 
   static inline ::BeatSaber::AvatarCore::LimitAvatarPoseRestriction* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe0f8d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe1b0cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LimitAvatarPoseRestriction", modifiers: "&&", def_value: None }]

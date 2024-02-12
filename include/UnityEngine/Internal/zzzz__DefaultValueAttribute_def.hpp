@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::UnityEngine::Internal::DefaultValueAttribute);
 namespace UnityEngine::Internal {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10323))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9070))
 // CS Name: ::UnityEngine.Internal::DefaultValueAttribute*
 class CORDL_TYPE DefaultValueAttribute : public ::System::Attribute {
 public:
@@ -38,16 +38,16 @@ public:
 
   static inline ::UnityEngine::Internal::DefaultValueAttribute* New_ctor(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2ce9e8c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cf1020, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW value);
 
-  /// @brief Method get_Value, addr 0x2ce9eb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x2cf1048, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Value();
 
-  /// @brief Method Equals, addr 0x2ce9ebc, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2cf1050, size 0xb8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2ce9f74, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2cf1108, size 0x24, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultValueAttribute", modifiers: "&&", def_value: None }]

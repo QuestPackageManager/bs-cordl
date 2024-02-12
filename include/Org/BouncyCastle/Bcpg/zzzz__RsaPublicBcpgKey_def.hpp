@@ -70,27 +70,27 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::RsaPublicBcpgKey* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor, addr 0x11d2508, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1200398, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
   static inline ::Org::BouncyCastle::Bcpg::RsaPublicBcpgKey* New_ctor(::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Math::BigInteger* e);
 
-  /// @brief Method .ctor, addr 0x11d28a0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1200730, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Math::BigInteger* e);
 
-  /// @brief Method get_PublicExponent, addr 0x11d2938, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_PublicExponent, addr 0x12007c8, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_PublicExponent();
 
-  /// @brief Method get_Modulus, addr 0x11d2954, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Modulus, addr 0x12007e4, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Modulus();
 
-  /// @brief Method get_Format, addr 0x11d2970, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_Format, addr 0x1200800, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_Format();
 
-  /// @brief Method GetEncoded, addr 0x11d29b0, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x1200840, size 0x84, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
-  /// @brief Method Encode, addr 0x11d2a34, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x12008c4, size 0xd4, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
   // Ctor Parameters [CppParam { name: "", ty: "RsaPublicBcpgKey", modifiers: "&&", def_value: None }]

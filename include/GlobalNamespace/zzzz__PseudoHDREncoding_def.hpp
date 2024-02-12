@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::GlobalNamespace::PseudoHDREncoding);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5864))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5154))
 // CS Name: ::PseudoHDREncoding*
 class CORDL_TYPE PseudoHDREncoding : public ::System::Object {
 public:
@@ -33,7 +33,7 @@ public:
 
   static inline ::UnityW<::UnityEngine::Material> getStaticF__material();
 
-  /// @brief Method CreatePseudoHDREncodedTexture, addr 0x22f8108, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method CreatePseudoHDREncodedTexture, addr 0x2324a68, size 0x1f0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::RenderTexture> CreatePseudoHDREncodedTexture(::UnityEngine::RenderTexture* src);
 
   // Ctor Parameters [CppParam { name: "", ty: "PseudoHDREncoding", modifiers: "&&", def_value: None }]

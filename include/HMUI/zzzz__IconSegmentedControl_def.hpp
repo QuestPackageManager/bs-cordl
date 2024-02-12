@@ -45,7 +45,7 @@ MARK_REF_PTR_T(::HMUI::__IconSegmentedControl__DataItem);
 namespace HMUI {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13546))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13499))
 // CS Name: ::IconSegmentedControl::DataItem*
 class CORDL_TYPE __IconSegmentedControl__DataItem : public ::System::Object {
 public:
@@ -72,21 +72,21 @@ public:
 
   constexpr void __cordl_internal_set__hintText_k__BackingField(::StringW value);
 
-  /// @brief Method get_icon, addr 0x211f950, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_icon, addr 0x21b422c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_icon();
 
-  /// @brief Method set_icon, addr 0x211f958, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_icon, addr 0x21b4234, size 0x8, virtual false, abstract: false, final false
   inline void set_icon(::UnityEngine::Sprite* value);
 
-  /// @brief Method get_hintText, addr 0x211f960, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hintText, addr 0x21b423c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_hintText();
 
-  /// @brief Method set_hintText, addr 0x211f968, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_hintText, addr 0x21b4244, size 0x8, virtual false, abstract: false, final false
   inline void set_hintText(::StringW value);
 
   static inline ::HMUI::__IconSegmentedControl__DataItem* New_ctor(::UnityEngine::Sprite* icon, ::StringW hintText);
 
-  /// @brief Method .ctor, addr 0x211f970, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21b424c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Sprite* icon, ::StringW hintText);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IconSegmentedControl__DataItem", modifiers: "&&", def_value: None }]
@@ -123,8 +123,8 @@ static_assert(offsetof(::HMUI::__IconSegmentedControl__DataItem, ____hintText_k_
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 153, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13550))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13547))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13503))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13500))
 // CS Name: ::HMUI::IconSegmentedControl*
 class CORDL_TYPE IconSegmentedControl : public ::HMUI::SegmentedControl {
 public:
@@ -237,24 +237,24 @@ public:
 
   constexpr void __cordl_internal_set__isInitialized(bool value);
 
-  /// @brief Method Init, addr 0x211efa0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x21b387c, size 0x1c, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method SetData, addr 0x211efc4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x21b38a0, size 0x40, virtual false, abstract: false, final false
   inline void SetData(::ArrayW<::HMUI::__IconSegmentedControl__DataItem*, ::Array<::HMUI::__IconSegmentedControl__DataItem*>*> dataItems);
 
-  /// @brief Method NumberOfCells, addr 0x211f40c, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method NumberOfCells, addr 0x21b3ce8, size 0x18, virtual true, abstract: false, final true
   inline int32_t NumberOfCells();
 
-  /// @brief Method CellForCellNumber, addr 0x211f424, size 0x180, virtual true, abstract: false, final true
+  /// @brief Method CellForCellNumber, addr 0x21b3d00, size 0x180, virtual true, abstract: false, final true
   inline ::UnityW<::HMUI::SegmentedControlCell> CellForCellNumber(int32_t cellNumber);
 
-  /// @brief Method InstantiateCell, addr 0x211f5a4, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method InstantiateCell, addr 0x21b3e80, size 0x180, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::IconSegmentedControlCell> InstantiateCell(::UnityEngine::Object* prefab);
 
   static inline ::HMUI::IconSegmentedControl* New_ctor();
 
-  /// @brief Method .ctor, addr 0x211f834, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21b4110, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "IconSegmentedControl", modifiers: "&&", def_value: None }]

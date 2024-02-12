@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::UnityEngine::UnityEngineModuleAssembly);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16007))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16102))
 // CS Name: ::UnityEngine::UnityEngineModuleAssembly*
 class CORDL_TYPE UnityEngineModuleAssembly : public ::System::Attribute {
 public:
   // Declarations
   static inline ::UnityEngine::UnityEngineModuleAssembly* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d18058, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d38b00, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "UnityEngineModuleAssembly", modifiers: "&&", def_value: None }]

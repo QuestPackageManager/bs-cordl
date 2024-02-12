@@ -45,7 +45,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__ModifiersSelectionView____c__DisplayClass3_0
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5797))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5095))
 // CS Name: ::ModifiersSelectionView::<>c__DisplayClass3_0*
 class CORDL_TYPE __ModifiersSelectionView____c__DisplayClass3_0 : public ::System::Object {
 public:
@@ -62,10 +62,10 @@ public:
 
   static inline ::GlobalNamespace::__ModifiersSelectionView____c__DisplayClass3_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22e771c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23166b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <SetGameplayModifiers>b__0, addr 0x22e772c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method <SetGameplayModifiers>b__0, addr 0x23166c0, size 0x7c, virtual false, abstract: false, final false
   inline void _SetGameplayModifiers_b__0(int32_t idx, ::GlobalNamespace::GameplayModifierInfoListItem* item);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ModifiersSelectionView____c__DisplayClass3_0", modifiers: "&&", def_value: None }]
@@ -97,8 +97,8 @@ static_assert(offsetof(::GlobalNamespace::__ModifiersSelectionView____c__Display
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5798))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5096))
 // CS Name: ::ModifiersSelectionView*
 class CORDL_TYPE ModifiersSelectionView : public ::UnityEngine::MonoBehaviour {
 public:
@@ -133,12 +133,12 @@ public:
 
   constexpr void __cordl_internal_set__gameplayModifiersModel(::UnityW<::GlobalNamespace::GameplayModifiersModelSO> value);
 
-  /// @brief Method SetGameplayModifiers, addr 0x22e75b0, size 0x16c, virtual true, abstract: false, final false
+  /// @brief Method SetGameplayModifiers, addr 0x2311418, size 0x16c, virtual true, abstract: false, final false
   inline void SetGameplayModifiers(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
   static inline ::GlobalNamespace::ModifiersSelectionView* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22e7724, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2311594, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ModifiersSelectionView", modifiers: "&&", def_value: None }]

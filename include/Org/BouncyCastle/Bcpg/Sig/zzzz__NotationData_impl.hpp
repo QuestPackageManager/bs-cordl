@@ -7,7 +7,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::Sig::NotationData::*)(bool, bool, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Bcpg::Sig::NotationData::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x11c7ef0;
+  constexpr static std::size_t addrs = 0x11f5d80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::Sig::NotationData::*)(bool, bool, ::StringW, ::StringW)>(
     &::Org::BouncyCastle::Bcpg::Sig::NotationData::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x11c7f38;
+  constexpr static std::size_t addrs = 0x11f5dc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(bool, ::StringW, ::StringW)>(
     &::Org::BouncyCastle::Bcpg::Sig::NotationData::CreateData)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x11c7f8c;
+  constexpr static std::size_t addrs = 0x11f5e1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Bcpg::Sig::NotationData::*)()>(
     &::Org::BouncyCastle::Bcpg::Sig::NotationData::get_IsHumanReadable)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x11c81ac;
+  constexpr static std::size_t addrs = 0x11f603c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::Sig::NotationData*>::get(),
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Bcpg::Sig::NotationData::*)()>(
     &::Org::BouncyCastle::Bcpg::Sig::NotationData::GetNotationName)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x11c81dc;
+  constexpr static std::size_t addrs = 0x11f606c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::Sig::NotationData*>::get(),
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Bcpg::Sig::NotationData::*)()>(
     &::Org::BouncyCastle::Bcpg::Sig::NotationData::GetNotationValue)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x11c8248;
+  constexpr static std::size_t addrs = 0x11f60d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::Sig::NotationData*>::get(),
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Bcpg::Sig::NotationData::*)()>(
     &::Org::BouncyCastle::Bcpg::Sig::NotationData::GetNotationValueBytes)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x11c82d8;
+  constexpr static std::size_t addrs = 0x11f6168;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::Sig::NotationData*>::get(),

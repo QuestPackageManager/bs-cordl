@@ -42,7 +42,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__RumbleHapticFeedbackPlayer__RumbleData);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14431))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14580))
 // CS Name: ::RumbleHapticFeedbackPlayer::RumbleData*
 class CORDL_TYPE __RumbleHapticFeedbackPlayer__RumbleData : public ::System::Object {
 public:
@@ -94,7 +94,7 @@ public:
 
   static inline ::GlobalNamespace::__RumbleHapticFeedbackPlayer__RumbleData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x20fd260, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2190c70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__RumbleHapticFeedbackPlayer__RumbleData", modifiers: "&&", def_value: None }]
@@ -146,8 +146,8 @@ static_assert(offsetof(::GlobalNamespace::__RumbleHapticFeedbackPlayer__RumbleDa
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14432))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14581))
 // CS Name: ::RumbleHapticFeedbackPlayer*
 class CORDL_TYPE RumbleHapticFeedbackPlayer : public ::UnityEngine::MonoBehaviour {
 public:
@@ -185,27 +185,27 @@ public:
       ::System::Collections::Generic::Dictionary_2<::UnityEngine::XR::XRNode,
                                                    ::System::Collections::Generic::Dictionary_2<::System::Object*, ::GlobalNamespace::__RumbleHapticFeedbackPlayer__RumbleData*>*>* value);
 
-  /// @brief Method Awake, addr 0x20fcb98, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x21905a8, size 0xe0, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method PlayHapticFeedback, addr 0x20f6f44, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method PlayHapticFeedback, addr 0x218a934, size 0xc8, virtual true, abstract: false, final true
   inline void PlayHapticFeedback(::UnityEngine::XR::XRNode node, ::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset);
 
-  /// @brief Method CanPlayHapticPreset, addr 0x20fcd98, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method CanPlayHapticPreset, addr 0x21907a8, size 0x40, virtual true, abstract: false, final true
   inline bool CanPlayHapticPreset(::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset);
 
-  /// @brief Method LateUpdate, addr 0x20fcdd8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x21907e8, size 0x4, virtual false, abstract: false, final false
   inline void LateUpdate();
 
-  /// @brief Method UpdateRumbles, addr 0x20fcddc, size 0x484, virtual false, abstract: false, final false
+  /// @brief Method UpdateRumbles, addr 0x21907ec, size 0x484, virtual false, abstract: false, final false
   inline void UpdateRumbles();
 
-  /// @brief Method GetRumble, addr 0x20fcc78, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method GetRumble, addr 0x2190688, size 0x120, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__RumbleHapticFeedbackPlayer__RumbleData* GetRumble(::UnityEngine::XR::XRNode node, ::System::Object* preset);
 
   static inline ::GlobalNamespace::RumbleHapticFeedbackPlayer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x20fd268, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2190c78, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RumbleHapticFeedbackPlayer", modifiers: "&&", def_value: None }]

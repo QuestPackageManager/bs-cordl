@@ -23,12 +23,12 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapObjectSpawnControllerHelpers);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4721))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4072))
 // CS Name: ::BeatmapObjectSpawnControllerHelpers*
 class CORDL_TYPE BeatmapObjectSpawnControllerHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetNoteJumpValues, addr 0x2380a2c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetNoteJumpValues, addr 0x22c6fa4, size 0x38, virtual false, abstract: false, final false
   static inline void GetNoteJumpValues(::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, float_t defaultNoteJumpStartBeatOffset,
                                        ByRef<::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteJumpValueType> noteJumpValueType, ByRef<float_t> noteJumpValue);
 

@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::GlobalNamespace::PlatformInstaller);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4105)), TypeDefinitionIndex(TypeDefinitionIndex(11133)), TypeDefinitionIndex(TypeDefinitionIndex(15394)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11133), inst: 3910 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4039)) CS Name: ::PlatformInstaller*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10275)), TypeDefinitionIndex(TypeDefinitionIndex(10563)), TypeDefinitionIndex(TypeDefinitionIndex(15441)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10275), inst: 3892 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(3982)) CS Name: ::PlatformInstaller*
 class CORDL_TYPE PlatformInstaller
     : public ::Zenject::Installer_3<::GlobalNamespace::AppInitSetupData*, ::UnityW<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO>, ::GlobalNamespace::PlatformInstaller*> {
 public:
@@ -50,25 +50,28 @@ public:
   static inline ::GlobalNamespace::PlatformInstaller* New_ctor(::GlobalNamespace::AppInitSetupData* appInitSetupData,
                                                                ::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO* mockPlatformAdditionalContentModelInitialData);
 
-  /// @brief Method .ctor, addr 0x2229acc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b3064, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::AppInitSetupData* appInitSetupData, ::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO* mockPlatformAdditionalContentModelInitialData);
 
-  /// @brief Method InstallBindings, addr 0x2229b44, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x22b30dc, size 0x30, virtual true, abstract: false, final false
   inline void InstallBindings();
 
-  /// @brief Method BindPlatformUserModel, addr 0x2229b6c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method BindAnalyticsModel, addr 0x22b31e8, size 0x9c, virtual false, abstract: false, final false
+  inline void BindAnalyticsModel();
+
+  /// @brief Method BindPlatformUserModel, addr 0x22b310c, size 0xdc, virtual false, abstract: false, final false
   inline void BindPlatformUserModel();
 
-  /// @brief Method BindBeatmapDataAssetFileModel, addr 0x2229d38, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method BindBeatmapDataAssetFileModel, addr 0x22b3374, size 0x7c, virtual false, abstract: false, final false
   inline void BindBeatmapDataAssetFileModel();
 
-  /// @brief Method BindAchievementsHandler, addr 0x2229c48, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method BindAchievementsHandler, addr 0x22b3284, size 0x7c, virtual false, abstract: false, final false
   inline void BindAchievementsHandler();
 
-  /// @brief Method BindAdditionalContentModel, addr 0x2229cc4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method BindAdditionalContentModel, addr 0x22b3300, size 0x74, virtual false, abstract: false, final false
   inline void BindAdditionalContentModel();
 
-  /// @brief Method BindMockPlatformAdditionalContentModel, addr 0x2229db4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method BindMockPlatformAdditionalContentModel, addr 0x22b33f0, size 0x9c, virtual false, abstract: false, final false
   inline void BindMockPlatformAdditionalContentModel();
 
   // Ctor Parameters [CppParam { name: "", ty: "PlatformInstaller", modifiers: "&&", def_value: None }]

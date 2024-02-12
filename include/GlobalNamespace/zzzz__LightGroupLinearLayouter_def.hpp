@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::GlobalNamespace::LightGroupLinearLayouter);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4935)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4931))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4289)), TypeDefinitionIndex(TypeDefinitionIndex(8993))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4285))
 // CS Name: ::LightGroupLinearLayouter*
 class CORDL_TYPE LightGroupLinearLayouter : public ::GlobalNamespace::LightGroupSubsystem {
 public:
@@ -59,7 +59,7 @@ public:
 
   static inline ::GlobalNamespace::LightGroupLinearLayouter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23a9920, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2369a54, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LightGroupLinearLayouter", modifiers: "&&", def_value: None }]

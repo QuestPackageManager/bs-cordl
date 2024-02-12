@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::IncDecColorController);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16146))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16286))
 // CS Name: ::IncDecColorController*
 class CORDL_TYPE IncDecColorController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -41,19 +41,19 @@ public:
 
   constexpr void __cordl_internal_set__stepValuePicker(::UnityW<::GlobalNamespace::ColorStepValuePicker> value);
 
-  /// @brief Method set_enableDec, addr 0x23e47b8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_enableDec, addr 0x2404618, size 0x28, virtual false, abstract: false, final false
   inline void set_enableDec(bool value);
 
-  /// @brief Method set_enableInc, addr 0x23e47e0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_enableInc, addr 0x2404640, size 0x28, virtual false, abstract: false, final false
   inline void set_enableInc(bool value);
 
-  /// @brief Method set_color, addr 0x23e4808, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_color, addr 0x2404668, size 0x2c, virtual false, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
-  /// @brief Method Awake, addr 0x23e4834, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x2404694, size 0xb8, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnDestroy, addr 0x23e48ec, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x240474c, size 0x104, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   /// @brief Method IncButtonPressed, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -64,7 +64,7 @@ public:
 
   static inline ::GlobalNamespace::IncDecColorController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23e49f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2404850, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "IncDecColorController", modifiers: "&&", def_value: None }]

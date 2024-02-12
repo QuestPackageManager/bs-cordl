@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::Zenject::SignalDeclarationAsyncInitializer);
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10668))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9810))
 // CS Name: ::Zenject::SignalDeclarationAsyncInitializer*
 class CORDL_TYPE SignalDeclarationAsyncInitializer : public ::System::Object {
 public:
@@ -69,16 +69,16 @@ public:
   static inline ::Zenject::SignalDeclarationAsyncInitializer* New_ctor(::System::Collections::Generic::List_1<::Zenject::SignalDeclaration*>* declarations,
                                                                        ::Zenject::LazyInject_1<::Zenject::TickableManager*>* tickManager);
 
-  /// @brief Method .ctor, addr 0x2ec61dc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ee2324, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::Zenject::SignalDeclaration*>* declarations, ::Zenject::LazyInject_1<::Zenject::TickableManager*>* tickManager);
 
-  /// @brief Method Initialize, addr 0x2ec6208, size 0x104, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x2ee2350, size 0x104, virtual true, abstract: false, final true
   inline void Initialize();
 
-  /// @brief Method __zenCreate, addr 0x2ec630c, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2ee2454, size 0x11c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ec6428, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ee2570, size 0x304, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "SignalDeclarationAsyncInitializer", modifiers: "&&", def_value: None }]

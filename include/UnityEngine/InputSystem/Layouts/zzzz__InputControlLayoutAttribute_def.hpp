@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Layouts::InputControlLayoutAttribute)
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 73, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Layouts {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2547)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6616)) CS Name: ::UnityEngine.InputSystem.Layouts::InputControlLayoutAttribute*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2547)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 77
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5875)) CS Name: ::UnityEngine.InputSystem.Layouts::InputControlLayoutAttribute*
 class CORDL_TYPE InputControlLayoutAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -148,75 +148,75 @@ public:
 
   constexpr void __cordl_internal_set__hideInUI_k__BackingField(bool value);
 
-  /// @brief Method get_stateType, addr 0x2b035e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_stateType, addr 0x2b04150, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_stateType();
 
-  /// @brief Method set_stateType, addr 0x2b035ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_stateType, addr 0x2b04158, size 0x8, virtual false, abstract: false, final false
   inline void set_stateType(::System::Type* value);
 
-  /// @brief Method get_stateFormat, addr 0x2b035f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_stateFormat, addr 0x2b04160, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_stateFormat();
 
-  /// @brief Method set_stateFormat, addr 0x2b035fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_stateFormat, addr 0x2b04168, size 0x8, virtual false, abstract: false, final false
   inline void set_stateFormat(::StringW value);
 
-  /// @brief Method get_commonUsages, addr 0x2b03604, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_commonUsages, addr 0x2b04170, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_commonUsages();
 
-  /// @brief Method set_commonUsages, addr 0x2b0360c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_commonUsages, addr 0x2b04178, size 0x8, virtual false, abstract: false, final false
   inline void set_commonUsages(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method get_variants, addr 0x2b03614, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_variants, addr 0x2b04180, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_variants();
 
-  /// @brief Method set_variants, addr 0x2b0361c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_variants, addr 0x2b04188, size 0x8, virtual false, abstract: false, final false
   inline void set_variants(::StringW value);
 
-  /// @brief Method get_isNoisy, addr 0x2b03624, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isNoisy, addr 0x2b04190, size 0x8, virtual false, abstract: false, final false
   inline bool get_isNoisy();
 
-  /// @brief Method set_isNoisy, addr 0x2b0362c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isNoisy, addr 0x2b04198, size 0xc, virtual false, abstract: false, final false
   inline void set_isNoisy(bool value);
 
-  /// @brief Method get_canRunInBackground, addr 0x2b03638, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_canRunInBackground, addr 0x2b041a4, size 0x48, virtual false, abstract: false, final false
   inline bool get_canRunInBackground();
 
-  /// @brief Method set_canRunInBackground, addr 0x2b03680, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_canRunInBackground, addr 0x2b041ec, size 0x68, virtual false, abstract: false, final false
   inline void set_canRunInBackground(bool value);
 
-  /// @brief Method get_updateBeforeRender, addr 0x2b036e8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_updateBeforeRender, addr 0x2b04254, size 0x48, virtual false, abstract: false, final false
   inline bool get_updateBeforeRender();
 
-  /// @brief Method set_updateBeforeRender, addr 0x2b03730, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_updateBeforeRender, addr 0x2b0429c, size 0x68, virtual false, abstract: false, final false
   inline void set_updateBeforeRender(bool value);
 
-  /// @brief Method get_isGenericTypeOfDevice, addr 0x2b03798, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isGenericTypeOfDevice, addr 0x2b04304, size 0x8, virtual false, abstract: false, final false
   inline bool get_isGenericTypeOfDevice();
 
-  /// @brief Method set_isGenericTypeOfDevice, addr 0x2b037a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isGenericTypeOfDevice, addr 0x2b0430c, size 0xc, virtual false, abstract: false, final false
   inline void set_isGenericTypeOfDevice(bool value);
 
-  /// @brief Method get_displayName, addr 0x2b037ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_displayName, addr 0x2b04318, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_displayName();
 
-  /// @brief Method set_displayName, addr 0x2b037b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_displayName, addr 0x2b04320, size 0x8, virtual false, abstract: false, final false
   inline void set_displayName(::StringW value);
 
-  /// @brief Method get_description, addr 0x2b037bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_description, addr 0x2b04328, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_description();
 
-  /// @brief Method set_description, addr 0x2b037c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_description, addr 0x2b04330, size 0x8, virtual false, abstract: false, final false
   inline void set_description(::StringW value);
 
-  /// @brief Method get_hideInUI, addr 0x2b037cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hideInUI, addr 0x2b04338, size 0x8, virtual false, abstract: false, final false
   inline bool get_hideInUI();
 
-  /// @brief Method set_hideInUI, addr 0x2b037d4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_hideInUI, addr 0x2b04340, size 0xc, virtual false, abstract: false, final false
   inline void set_hideInUI(bool value);
 
   static inline ::UnityEngine::InputSystem::Layouts::InputControlLayoutAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2b037e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b0434c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "InputControlLayoutAttribute", modifiers: "&&", def_value: None }]

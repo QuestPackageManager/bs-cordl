@@ -27,8 +27,8 @@ MARK_VAL_T(::UnityEngine::UIElements::TransformOrigin);
 // SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7313))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7317))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6572))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6576))
 // CS Name: ::UnityEngine.UIElements::TransformOrigin
 struct CORDL_TYPE TransformOrigin {
 public:
@@ -45,37 +45,37 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::TransformOrigin>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::TransformOrigin>* i___System__IEquatable_1___UnityEngine__UIElements__TransformOrigin_();
 
-  /// @brief Method .ctor, addr 0x2e75844, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e8fc2c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::Length x, ::UnityEngine::UIElements::Length y, float_t z);
 
-  /// @brief Method Initial, addr 0x2e75850, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Initial, addr 0x2e8fc38, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::TransformOrigin Initial();
 
-  /// @brief Method get_x, addr 0x2e75868, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_x, addr 0x2e8fc50, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Length get_x();
 
-  /// @brief Method get_y, addr 0x2e75870, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_y, addr 0x2e8fc58, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Length get_y();
 
-  /// @brief Method get_z, addr 0x2e75878, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_z, addr 0x2e8fc60, size 0x8, virtual false, abstract: false, final false
   inline float_t get_z();
 
-  /// @brief Method op_Equality, addr 0x2e755a8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x2e8f990, size 0x60, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::TransformOrigin lhs, ::UnityEngine::UIElements::TransformOrigin rhs);
 
-  /// @brief Method op_Inequality, addr 0x2e75880, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x2e8fc68, size 0x6c, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::UIElements::TransformOrigin lhs, ::UnityEngine::UIElements::TransformOrigin rhs);
 
-  /// @brief Method Equals, addr 0x2e758ec, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2e8fcd4, size 0x6c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::TransformOrigin other);
 
-  /// @brief Method Equals, addr 0x2e75958, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2e8fd40, size 0xd0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2e75748, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2e8fb30, size 0x74, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x2e75a28, size 0x1cc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2e8fe10, size 0x1cc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "m_X", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None }, CppParam { name: "m_Y", ty: "::UnityEngine::UIElements::Length", modifiers: "",

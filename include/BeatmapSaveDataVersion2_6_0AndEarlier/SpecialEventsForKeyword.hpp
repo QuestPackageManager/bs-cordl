@@ -1,0 +1,3 @@
+#pragma once
+#include "BeatmapSaveDataVersion2_6_0AndEarlier/zzzz__SpecialEventsForKeyword_def.hpp"
+#include "BeatmapSaveDataVersion2_6_0AndEarlier/zzzz__SpecialEventsForKeyword_impl.hpp"

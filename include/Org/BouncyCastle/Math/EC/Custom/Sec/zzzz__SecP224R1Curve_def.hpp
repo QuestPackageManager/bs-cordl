@@ -83,19 +83,19 @@ public:
   static inline ::Org::BouncyCastle::Math::EC::Custom::Sec::__SecP224R1Curve__SecP224R1LookupTable* New_ctor(::Org::BouncyCastle::Math::EC::Custom::Sec::SecP224R1Curve* outer,
                                                                                                              ::ArrayW<uint32_t, ::Array<uint32_t>*> table, int32_t size);
 
-  /// @brief Method .ctor, addr 0xfeddc4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x101ac54, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::Custom::Sec::SecP224R1Curve* outer, ::ArrayW<uint32_t, ::Array<uint32_t>*> table, int32_t size);
 
-  /// @brief Method get_Size, addr 0xfee1e8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Size, addr 0x101b078, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Size();
 
-  /// @brief Method Lookup, addr 0xfee1f0, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method Lookup, addr 0x101b080, size 0x108, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Lookup(int32_t index);
 
-  /// @brief Method LookupVar, addr 0xfee3d8, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method LookupVar, addr 0x101b268, size 0xc8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* LookupVar(int32_t index);
 
-  /// @brief Method CreatePoint, addr 0xfee2f8, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method CreatePoint, addr 0x101b188, size 0xe0, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* CreatePoint(::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint32_t, ::Array<uint32_t>*> y);
 
   // Ctor Parameters [CppParam { name: "", ty: "__SecP224R1Curve__SecP224R1LookupTable", modifiers: "&&", def_value: None }]
@@ -178,43 +178,43 @@ public:
 
   static inline ::Org::BouncyCastle::Math::EC::Custom::Sec::SecP224R1Curve* New_ctor();
 
-  /// @brief Method .ctor, addr 0xfed5a0, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x101a430, size 0x220, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CloneCurve, addr 0xfed7c8, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method CloneCurve, addr 0x101a658, size 0x58, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECCurve* CloneCurve();
 
-  /// @brief Method SupportsCoordinateSystem, addr 0xfed820, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method SupportsCoordinateSystem, addr 0x101a6b0, size 0xc, virtual true, abstract: false, final false
   inline bool SupportsCoordinateSystem(int32_t coord);
 
-  /// @brief Method get_Q, addr 0xfed82c, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_Q, addr 0x101a6bc, size 0x58, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Q();
 
-  /// @brief Method get_Infinity, addr 0xfed884, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Infinity, addr 0x101a714, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* get_Infinity();
 
-  /// @brief Method get_FieldSize, addr 0xfed88c, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method get_FieldSize, addr 0x101a71c, size 0x64, virtual true, abstract: false, final false
   inline int32_t get_FieldSize();
 
-  /// @brief Method FromBigInteger, addr 0xfed8f0, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method FromBigInteger, addr 0x101a780, size 0x60, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* FromBigInteger(::Org::BouncyCastle::Math::BigInteger* x);
 
-  /// @brief Method CreateRawPoint, addr 0xfeda68, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method CreateRawPoint, addr 0x101a8f8, size 0x88, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* CreateRawPoint(::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y, bool withCompression);
 
-  /// @brief Method CreateRawPoint, addr 0xfedb7c, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method CreateRawPoint, addr 0x101aa0c, size 0x94, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* CreateRawPoint(::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y,
                                                                 ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> zs,
                                                                 bool withCompression);
 
-  /// @brief Method CreateCacheSafeLookupTable, addr 0xfedc1c, size 0x1a8, virtual true, abstract: false, final false
+  /// @brief Method CreateCacheSafeLookupTable, addr 0x101aaac, size 0x1a8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECLookupTable* CreateCacheSafeLookupTable(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*> points,
                                                                                   int32_t off, int32_t len);
 
-  /// @brief Method RandomFieldElement, addr 0xfede00, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method RandomFieldElement, addr 0x101ac90, size 0xa4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* RandomFieldElement(::Org::BouncyCastle::Security::SecureRandom* r);
 
-  /// @brief Method RandomFieldElementMult, addr 0xfedfa4, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method RandomFieldElementMult, addr 0x101ae34, size 0xa4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* RandomFieldElementMult(::Org::BouncyCastle::Security::SecureRandom* r);
 
   // Ctor Parameters [CppParam { name: "", ty: "SecP224R1Curve", modifiers: "&&", def_value: None }]

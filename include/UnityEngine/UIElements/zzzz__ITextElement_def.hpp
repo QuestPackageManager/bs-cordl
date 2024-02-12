@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::ITextElement);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6811))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6070))
 // CS Name: ::UnityEngine.UIElements::ITextElement*
 class CORDL_TYPE ITextElement {
 public:

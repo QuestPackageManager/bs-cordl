@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::System::Xml::Schema::Datatype_QNameXdr);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11624))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11679))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11522))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11577))
 // CS Name: ::System.Xml.Schema::Datatype_QNameXdr*
 class CORDL_TYPE Datatype_QNameXdr : public ::System::Xml::Schema::Datatype_anySimpleType {
 public:
@@ -56,21 +56,21 @@ public:
 
   static inline ::System::Type* getStaticF_listValueType();
 
-  /// @brief Method get_TokenizedType, addr 0x28bef80, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TokenizedType, addr 0x28c15e8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlTokenizedType get_TokenizedType();
 
-  /// @brief Method ParseValue, addr 0x28bef88, size 0x274, virtual true, abstract: false, final false
+  /// @brief Method ParseValue, addr 0x28c15f0, size 0x274, virtual true, abstract: false, final false
   inline ::System::Object* ParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr);
 
-  /// @brief Method get_ValueType, addr 0x28bf1fc, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_ValueType, addr 0x28c1864, size 0x58, virtual true, abstract: false, final false
   inline ::System::Type* get_ValueType();
 
-  /// @brief Method get_ListValueType, addr 0x28bf254, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_ListValueType, addr 0x28c18bc, size 0x58, virtual true, abstract: false, final false
   inline ::System::Type* get_ListValueType();
 
   static inline ::System::Xml::Schema::Datatype_QNameXdr* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28bf2ac, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28c1914, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Datatype_QNameXdr", modifiers: "&&", def_value: None }]

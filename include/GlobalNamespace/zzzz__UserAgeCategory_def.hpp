@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::UserAgeCategory);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4660))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11054))
 // CS Name: ::UserAgeCategory
 struct CORDL_TYPE UserAgeCategory {
 public:

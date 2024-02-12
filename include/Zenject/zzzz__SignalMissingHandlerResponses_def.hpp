@@ -16,7 +16,7 @@ MARK_VAL_T(::Zenject::SignalMissingHandlerResponses);
 namespace Zenject {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11172))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10314))
 // CS Name: ::Zenject::SignalMissingHandlerResponses
 struct CORDL_TYPE SignalMissingHandlerResponses {
 public:

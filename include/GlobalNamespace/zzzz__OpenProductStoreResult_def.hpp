@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::OpenProductStoreResult);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16271))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16446))
 // CS Name: ::OpenProductStoreResult
 struct CORDL_TYPE OpenProductStoreResult {
 public:

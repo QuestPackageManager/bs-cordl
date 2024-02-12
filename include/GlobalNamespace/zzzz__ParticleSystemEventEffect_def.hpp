@@ -37,8 +37,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ParticleSystemEventEffect);
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 184, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(14724)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15882))] Self: TypeDefinitionIndex(TypeDefinitionIndex(4967)) CS Name: ::ParticleSystemEventEffect*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8995)), TypeDefinitionIndex(TypeDefinitionIndex(15042)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15108))] Self: TypeDefinitionIndex(TypeDefinitionIndex(4321)) CS Name: ::ParticleSystemEventEffect*
 class CORDL_TYPE ParticleSystemEventEffect : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -207,24 +207,24 @@ public:
 
   constexpr void __cordl_internal_set__beatmapDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
 
-  /// @brief Method Start, addr 0x23b0324, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2370458, size 0x1d8, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy, addr 0x23b08bc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x23709f0, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Update, addr 0x23b08d8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2370a0c, size 0xcc, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method HandleBeatmapEvent, addr 0x23b09a4, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0x2370ad8, size 0x1cc, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
-  /// @brief Method RefreshParticles, addr 0x23b04fc, size 0x3c0, virtual false, abstract: false, final false
+  /// @brief Method RefreshParticles, addr 0x2370630, size 0x3c0, virtual false, abstract: false, final false
   inline void RefreshParticles();
 
   static inline ::GlobalNamespace::ParticleSystemEventEffect* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23b0b70, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2370ca4, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ParticleSystemEventEffect", modifiers: "&&", def_value: None }]

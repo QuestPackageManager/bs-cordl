@@ -46,14 +46,14 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Utilities::CipherFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0xfc0790, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfec620, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateContentCipher, addr 0xfc0798, size 0x758, virtual false, abstract: false, final false
+  /// @brief Method CreateContentCipher, addr 0xfec628, size 0x758, virtual false, abstract: false, final false
   static inline ::System::Object* CreateContentCipher(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* encKey,
                                                       ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* encryptionAlgID);
 
-  /// @brief Method CreateCipher, addr 0xfc0ef0, size 0x3b8, virtual false, abstract: false, final false
+  /// @brief Method CreateCipher, addr 0xfecd80, size 0x3b8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::BufferedBlockCipher* CreateCipher(::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithm);
 
   // Ctor Parameters [CppParam { name: "", ty: "CipherFactory", modifiers: "&&", def_value: None }]

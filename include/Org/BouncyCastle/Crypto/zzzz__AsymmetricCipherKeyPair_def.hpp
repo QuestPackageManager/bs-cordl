@@ -48,13 +48,13 @@ public:
   static inline ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicParameter,
                                                                                ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateParameter);
 
-  /// @brief Method .ctor, addr 0xfc2b68, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfee9f8, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicParameter, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateParameter);
 
-  /// @brief Method get_Public, addr 0xfc2c44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Public, addr 0xfeead4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* get_Public();
 
-  /// @brief Method get_Private, addr 0xfc2c4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Private, addr 0xfeeadc, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* get_Private();
 
   // Ctor Parameters [CppParam { name: "", ty: "AsymmetricCipherKeyPair", modifiers: "&&", def_value: None }]

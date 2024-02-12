@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::JetBrains::Annotations::RazorDirectiveAttribute);
 namespace JetBrains::Annotations {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15803))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15953))
 // CS Name: ::JetBrains.Annotations::RazorDirectiveAttribute*
 class CORDL_TYPE RazorDirectiveAttribute : public ::System::Attribute {
 public:
@@ -34,13 +34,13 @@ public:
 
   static inline ::JetBrains::Annotations::RazorDirectiveAttribute* New_ctor(::StringW directive);
 
-  /// @brief Method .ctor, addr 0x2eba8ec, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ed6a34, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW directive);
 
-  /// @brief Method get_Directive, addr 0x2eba914, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Directive, addr 0x2ed6a5c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Directive();
 
-  /// @brief Method set_Directive, addr 0x2eba91c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Directive, addr 0x2ed6a64, size 0x8, virtual false, abstract: false, final false
   inline void set_Directive(::StringW value);
 
   // Ctor Parameters [CppParam { name: "", ty: "RazorDirectiveAttribute", modifiers: "&&", def_value: None }]

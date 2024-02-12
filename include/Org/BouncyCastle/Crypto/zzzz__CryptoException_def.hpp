@@ -26,17 +26,17 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::CryptoException* New_ctor();
 
-  /// @brief Method .ctor, addr 0xfc5858, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xff26e8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Crypto::CryptoException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0xfc58b0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xff2740, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::Org::BouncyCastle::Crypto::CryptoException* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor, addr 0xfc5918, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xff27a8, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
   // Ctor Parameters [CppParam { name: "", ty: "CryptoException", modifiers: "&&", def_value: None }]

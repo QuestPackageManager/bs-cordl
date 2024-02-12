@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::SystemVoipState);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13391)), TypeDefinitionIndex(TypeDefinitionIndex(13400))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13483))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13323)), TypeDefinitionIndex(TypeDefinitionIndex(13332))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13436))
 // CS Name: ::Oculus.Platform.Models::SystemVoipState*
 class CORDL_TYPE SystemVoipState : public ::System::Object {
 public:
@@ -43,7 +43,7 @@ public:
 
   static inline ::Oculus::Platform::Models::SystemVoipState* New_ctor(void* o);
 
-  /// @brief Method .ctor, addr 0x2708f38, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x273d554, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "SystemVoipState", modifiers: "&&", def_value: None }]

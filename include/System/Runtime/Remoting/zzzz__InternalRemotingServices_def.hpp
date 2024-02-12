@@ -36,7 +36,7 @@ public:
 
   static inline ::System::Collections::Hashtable* getStaticF__soapAttributes();
 
-  /// @brief Method GetCachedSoapAttribute, addr 0x248546c, size 0x550, virtual false, abstract: false, final false
+  /// @brief Method GetCachedSoapAttribute, addr 0x24a74e0, size 0x550, virtual false, abstract: false, final false
   static inline ::System::Runtime::Remoting::Metadata::SoapAttribute* GetCachedSoapAttribute(::System::Object* reflectionObject);
 
   // Ctor Parameters [CppParam { name: "", ty: "InternalRemotingServices", modifiers: "&&", def_value: None }]

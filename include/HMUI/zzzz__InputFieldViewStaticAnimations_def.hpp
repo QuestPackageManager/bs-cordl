@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::HMUI::InputFieldViewStaticAnimations);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 73, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13633))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13586))
 // CS Name: ::HMUI::InputFieldViewStaticAnimations*
 class CORDL_TYPE InputFieldViewStaticAnimations : public ::UnityEngine::MonoBehaviour {
 public:
@@ -92,24 +92,24 @@ public:
 
   constexpr void __cordl_internal_set__didStart(bool value);
 
-  /// @brief Method Awake, addr 0x2141750, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x21d6034, size 0x88, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Start, addr 0x21417d8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x21d60bc, size 0x24, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnEnable, addr 0x21418fc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x21d61e0, size 0x1c, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnDestroy, addr 0x2141918, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x21d61fc, size 0xd0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleInputFieldViewSelectionStateDidChange, addr 0x21417fc, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method HandleInputFieldViewSelectionStateDidChange, addr 0x21d60e0, size 0x100, virtual false, abstract: false, final false
   inline void HandleInputFieldViewSelectionStateDidChange(::HMUI::__InputFieldView__SelectionState state);
 
   static inline ::HMUI::InputFieldViewStaticAnimations* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21419e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21d62cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "InputFieldViewStaticAnimations", modifiers: "&&", def_value: None }]

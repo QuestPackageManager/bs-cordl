@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::UnityEngine::UI::IGraphicEnabledDisabled);
 namespace UnityEngine::UI {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13047))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12945))
 // CS Name: ::UnityEngine.UI::IGraphicEnabledDisabled*
 class CORDL_TYPE IGraphicEnabledDisabled {
 public:

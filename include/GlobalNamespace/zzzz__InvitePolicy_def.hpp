@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::InvitePolicy);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12804))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12702))
 // CS Name: ::InvitePolicy
 struct CORDL_TYPE InvitePolicy {
 public:

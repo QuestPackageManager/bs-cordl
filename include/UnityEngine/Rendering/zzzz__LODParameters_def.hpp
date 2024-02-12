@@ -26,8 +26,8 @@ MARK_VAL_T(::UnityEngine::Rendering::LODParameters);
 // SizeInfo { instance_size: 28, native_size: 28, calculated_instance_size: 28, calculated_native_size: 44, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10355))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8993))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9112))
 // CS Name: ::UnityEngine.Rendering::LODParameters
 struct CORDL_TYPE LODParameters {
 public:
@@ -38,13 +38,13 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::LODParameters>"
   constexpr ::System::IEquatable_1<::UnityEngine::Rendering::LODParameters>* i___System__IEquatable_1___UnityEngine__Rendering__LODParameters_();
 
-  /// @brief Method Equals, addr 0x2cedac8, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2cf4bb0, size 0x9c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::LODParameters other);
 
-  /// @brief Method Equals, addr 0x2cedb64, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2cf4c4c, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2cedbf4, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2cf4cdc, size 0x94, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "m_IsOrthographic", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_CameraPosition", ty: "::UnityEngine::Vector3", modifiers: "", def_value:

@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::__HoverHintController___ShowHintAfterDelay_d__10::*)(int32_t)>(
     &::HMUI::__HoverHintController___ShowHintAfterDelay_d__10::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x211d138;
+  constexpr static std::size_t addrs = 0x21b1a14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::__HoverHintController___ShowHintAfterDelay_d__10::*)()>(
     &::HMUI::__HoverHintController___ShowHintAfterDelay_d__10::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x211d554;
+  constexpr static std::size_t addrs = 0x21b1e30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__HoverHintController___ShowHintAfterDelay_d__10*>::get(),
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HMUI::__HoverHintController___ShowHintAfterDelay_d__10::*)()>(
     &::HMUI::__HoverHintController___ShowHintAfterDelay_d__10::MoveNext)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x211d558;
+  constexpr static std::size_t addrs = 0x21b1e34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__HoverHintController___ShowHintAfterDelay_d__10*>::get(),
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::HMUI::__HoverHintController___ShowHintAfterDelay_d__10::*)()>(
     &::HMUI::__HoverHintController___ShowHintAfterDelay_d__10::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x211d644;
+  constexpr static std::size_t addrs = 0x21b1f20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::__HoverHintController___ShowHintAfterDelay_d__10::*)()>(
     &::HMUI::__HoverHintController___ShowHintAfterDelay_d__10::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x211d64c;
+  constexpr static std::size_t addrs = 0x21b1f28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::HMUI::__HoverHintController___ShowHintAfterDelay_d__10::*)()>(
     &::HMUI::__HoverHintController___ShowHintAfterDelay_d__10::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x211d68c;
+  constexpr static std::size_t addrs = 0x21b1f68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -228,7 +228,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::__HoverHintController___HideHintAfterDelay_d__11::*)(int32_t)>(
     &::HMUI::__HoverHintController___HideHintAfterDelay_d__11::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x211d160;
+  constexpr static std::size_t addrs = 0x21b1a3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -243,7 +243,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::__HoverHintController___HideHintAfterDelay_d__11::*)()>(
     &::HMUI::__HoverHintController___HideHintAfterDelay_d__11::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x211d694;
+  constexpr static std::size_t addrs = 0x21b1f70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__HoverHintController___HideHintAfterDelay_d__11*>::get(),
@@ -257,7 +257,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HMUI::__HoverHintController___HideHintAfterDelay_d__11::*)()>(
     &::HMUI::__HoverHintController___HideHintAfterDelay_d__11::MoveNext)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x211d698;
+  constexpr static std::size_t addrs = 0x21b1f74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__HoverHintController___HideHintAfterDelay_d__11*>::get(),
@@ -271,7 +271,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::HMUI::__HoverHintController___HideHintAfterDelay_d__11::*)()>(
     &::HMUI::__HoverHintController___HideHintAfterDelay_d__11::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x211d764;
+  constexpr static std::size_t addrs = 0x21b2040;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -286,7 +286,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::__HoverHintController___HideHintAfterDelay_d__11::*)()>(
     &::HMUI::__HoverHintController___HideHintAfterDelay_d__11::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x211d76c;
+  constexpr static std::size_t addrs = 0x21b2048;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -301,7 +301,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::HMUI::__HoverHintController___HideHintAfterDelay_d__11::*)()>(
     &::HMUI::__HoverHintController___HideHintAfterDelay_d__11::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x211d7ac;
+  constexpr static std::size_t addrs = 0x21b2088;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -427,7 +427,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::HoverHintController::*)()>(&::HMUI::HoverHintController::Awake)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x211cdfc;
+  constexpr static std::size_t addrs = 0x21b16d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::HoverHintController*>::get(), "Awake",
@@ -440,7 +440,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::HoverHintController::*)(bool)>(&::HMUI::HoverHintController::OnApplicationFocus)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x211cec4;
+  constexpr static std::size_t addrs = 0x21b17a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -454,7 +454,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::HoverHintController::*)(::HMUI::HoverHint*)>(&::HMUI::HoverHintController::ShowHint)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x211cb5c;
+  constexpr static std::size_t addrs = 0x21b1438;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -468,7 +468,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::HoverHintController::*)()>(&::HMUI::HoverHintController::HideHint)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x211cce0;
+  constexpr static std::size_t addrs = 0x21b15bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::HoverHintController*>::get(), "HideHint",
@@ -481,7 +481,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::HoverHintController::*)()>(&::HMUI::HoverHintController::HideHintInstant)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x211ccac;
+  constexpr static std::size_t addrs = 0x21b1588;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::HoverHintController*>::get(), "HideHintInstant",
@@ -495,7 +495,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::HMUI::HoverHintController::*)(::HMUI::HoverHint*, float_t)>(
     &::HMUI::HoverHintController::ShowHintAfterDelay)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x211d03c;
+  constexpr static std::size_t addrs = 0x21b1918;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -511,7 +511,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::HMUI::HoverHintController::*)(float_t)>(
     &::HMUI::HoverHintController::HideHintAfterDelay)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x211d0c0;
+  constexpr static std::size_t addrs = 0x21b199c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -525,7 +525,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::HoverHintController::*)(::HMUI::HoverHint*)>(&::HMUI::HoverHintController::SetupAndShowHintPanel)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x211cef0;
+  constexpr static std::size_t addrs = 0x21b17cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -540,7 +540,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (*)(::HMUI::HoverHint*)>(
     &::HMUI::HoverHintController::GetScreenTransformForHoverHint)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x211d188;
+  constexpr static std::size_t addrs = 0x21b1a64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -554,7 +554,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::HoverHintController::*)()>(&::HMUI::HoverHintController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x211d54c;
+  constexpr static std::size_t addrs = 0x21b1e28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::HoverHintController*>::get(), ".ctor",

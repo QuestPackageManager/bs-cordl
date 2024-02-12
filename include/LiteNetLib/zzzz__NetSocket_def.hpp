@@ -42,7 +42,7 @@ MARK_REF_PTR_T(::LiteNetLib::NetSocket);
 namespace LiteNetLib {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14180))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14193))
 // CS Name: ::LiteNetLib::NetSocket*
 class CORDL_TYPE NetSocket : public ::System::Object {
 public:
@@ -128,42 +128,42 @@ public:
 
   static inline bool getStaticF_IPv6Support();
 
-  /// @brief Method get_LocalPort, addr 0x2204ed8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LocalPort, addr 0x229a7c0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_LocalPort();
 
-  /// @brief Method set_LocalPort, addr 0x2204ee0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LocalPort, addr 0x229a7c8, size 0x8, virtual false, abstract: false, final false
   inline void set_LocalPort(int32_t value);
 
-  /// @brief Method get_Ttl, addr 0x2204ee8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Ttl, addr 0x229a7d0, size 0x1c, virtual false, abstract: false, final false
   inline int16_t get_Ttl();
 
-  /// @brief Method set_Ttl, addr 0x21fb8dc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_Ttl, addr 0x22911c4, size 0x1c, virtual false, abstract: false, final false
   inline void set_Ttl(int16_t value);
 
   static inline ::LiteNetLib::NetSocket* New_ctor(::LiteNetLib::INetSocketListener* listener);
 
-  /// @brief Method .ctor, addr 0x21fd1e0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2292ac8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::LiteNetLib::INetSocketListener* listener);
 
-  /// @brief Method IsActive, addr 0x2204fcc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method IsActive, addr 0x229a8b4, size 0x18, virtual false, abstract: false, final false
   inline bool IsActive();
 
-  /// @brief Method ReceiveLogic, addr 0x2204fe4, size 0x578, virtual false, abstract: false, final false
+  /// @brief Method ReceiveLogic, addr 0x229a8cc, size 0x578, virtual false, abstract: false, final false
   inline void ReceiveLogic(::System::Object* state);
 
-  /// @brief Method Bind, addr 0x2200e44, size 0x404, virtual false, abstract: false, final false
+  /// @brief Method Bind, addr 0x229672c, size 0x404, virtual false, abstract: false, final false
   inline bool Bind(::System::Net::IPAddress* addressIPv4, ::System::Net::IPAddress* addressIPv6, int32_t port, bool reuseAddress, bool ipv6, ::System::Threading::ThreadPriority priority);
 
-  /// @brief Method BindSocket, addr 0x220555c, size 0x6bc, virtual false, abstract: false, final false
+  /// @brief Method BindSocket, addr 0x229ae44, size 0x6bc, virtual false, abstract: false, final false
   inline bool BindSocket(::System::Net::Sockets::Socket* socket, ::System::Net::IPEndPoint* ep, bool reuseAddress);
 
-  /// @brief Method SendBroadcast, addr 0x220180c, size 0x30c, virtual false, abstract: false, final false
+  /// @brief Method SendBroadcast, addr 0x22970f4, size 0x30c, virtual false, abstract: false, final false
   inline bool SendBroadcast(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t offset, int32_t size, int32_t port);
 
-  /// @brief Method SendTo, addr 0x21fb8f8, size 0x360, virtual false, abstract: false, final false
+  /// @brief Method SendTo, addr 0x22911e0, size 0x360, virtual false, abstract: false, final false
   inline int32_t SendTo(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t offset, int32_t size, ::System::Net::IPEndPoint* remoteEndPoint, ByRef<::System::Net::Sockets::SocketError> errorCode);
 
-  /// @brief Method Close, addr 0x22026a4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Close, addr 0x2297f8c, size 0xa8, virtual false, abstract: false, final false
   inline void Close(bool suspend);
 
   // Ctor Parameters [CppParam { name: "", ty: "NetSocket", modifiers: "&&", def_value: None }]

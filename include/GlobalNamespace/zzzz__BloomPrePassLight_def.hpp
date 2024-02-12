@@ -65,8 +65,8 @@ MARK_VAL_T(::GlobalNamespace::__BloomPrePassLight__VertexData);
 // SizeInfo { instance_size: 52, native_size: 52, calculated_instance_size: 52, calculated_native_size: 68, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14471))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(8995))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14365))
 // CS Name: ::BloomPrePassLight::VertexData
 struct CORDL_TYPE __BloomPrePassLight__VertexData {
 public:
@@ -190,8 +190,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BloomPrePassL
 // SizeInfo { instance_size: 208, native_size: 208, calculated_instance_size: 208, calculated_native_size: 224, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14471))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14472))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14365))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14366))
 // CS Name: ::BloomPrePassLight::QuadData
 struct CORDL_TYPE __BloomPrePassLight__QuadData {
 public:
@@ -318,7 +318,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BloomPrePassL
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14473))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14367))
 // CS Name: ::BloomPrePassLight::LightsDataItem*
 class CORDL_TYPE __BloomPrePassLight__LightsDataItem : public ::System::Object {
 public:
@@ -344,7 +344,7 @@ public:
   static inline ::GlobalNamespace::__BloomPrePassLight__LightsDataItem* New_ctor(::GlobalNamespace::BloomPrePassLightTypeSO* lightType,
                                                                                  ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::BloomPrePassLight>>* lights);
 
-  /// @brief Method .ctor, addr 0x2106d6c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x219b514, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BloomPrePassLightTypeSO* lightType, ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::BloomPrePassLight>>* lights);
 
   // Ctor Parameters [CppParam { name: "", ty: "__BloomPrePassLight__LightsDataItem", modifiers: "&&", def_value: None }]
@@ -381,8 +381,8 @@ static_assert(offsetof(::GlobalNamespace::__BloomPrePassLight__LightsDataItem, _
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 42, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14474))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14368))
 // CS Name: ::BloomPrePassLight*
 class CORDL_TYPE BloomPrePassLight : public ::UnityEngine::MonoBehaviour {
 public:
@@ -451,30 +451,30 @@ public:
 
   static inline ::System::Collections::Generic::List_1<::GlobalNamespace::__BloomPrePassLight__LightsDataItem*>* getStaticF__lightsDataItems();
 
-  /// @brief Method get_bloomLightsDict, addr 0x2106930, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_bloomLightsDict, addr 0x219b0d8, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO>,
                                                              ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::BloomPrePassLight>>*>*
   get_bloomLightsDict();
 
-  /// @brief Method get_lightsDataItems, addr 0x2106988, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_lightsDataItems, addr 0x219b130, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::GlobalNamespace::__BloomPrePassLight__LightsDataItem*>* get_lightsDataItems();
 
   /// @brief Method get_isDirty, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_isDirty();
 
-  /// @brief Method OnEnable, addr 0x21069e0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x219b188, size 0x4, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable, addr 0x2106c98, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x219b440, size 0x4, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnDestroy, addr 0x2106d60, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x219b508, size 0xc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RegisterLight, addr 0x21069e4, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method RegisterLight, addr 0x219b18c, size 0x2b4, virtual false, abstract: false, final false
   inline void RegisterLight();
 
-  /// @brief Method UnregisterLight, addr 0x2106c9c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method UnregisterLight, addr 0x219b444, size 0xc4, virtual false, abstract: false, final false
   inline void UnregisterLight();
 
   /// @brief Method DidRegisterLight, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -489,7 +489,7 @@ public:
 
   static inline ::GlobalNamespace::BloomPrePassLight* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2106d98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x219b540, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassLight", modifiers: "&&", def_value: None }]

@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::System::Diagnostics::AsyncStreamReader);
 namespace System::Diagnostics {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8947))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6957))
 // CS Name: ::System.Diagnostics::AsyncStreamReader*
 class CORDL_TYPE AsyncStreamReader : public ::System::Object {
 public:
@@ -121,13 +121,13 @@ public:
 
   constexpr void __cordl_internal_set_asyncReadResult(::System::IAsyncResult* value);
 
-  /// @brief Method Close, addr 0x296e8cc, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x29727ec, size 0x10, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method Dispose, addr 0x296e8dc, size 0x370, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x29727fc, size 0x370, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method CancelOperation, addr 0x296ec4c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CancelOperation, addr 0x2972b6c, size 0xc, virtual false, abstract: false, final false
   inline void CancelOperation();
 
   // Ctor Parameters [CppParam { name: "", ty: "AsyncStreamReader", modifiers: "&&", def_value: None }]

@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::System::Diagnostics::Debugger);
 namespace System::Diagnostics {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3738))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3736))
 // CS Name: ::System.Diagnostics::Debugger*
 class CORDL_TYPE Debugger : public ::System::Object {
 public:
@@ -30,16 +30,16 @@ public:
 
   static inline ::StringW getStaticF_DefaultCategory();
 
-  /// @brief Method IsLogging, addr 0x2579e1c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method IsLogging, addr 0x259cd0c, size 0x4, virtual false, abstract: false, final false
   static inline bool IsLogging();
 
-  /// @brief Method Log_icall, addr 0x2579e20, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Log_icall, addr 0x259cd10, size 0x4, virtual false, abstract: false, final false
   static inline void Log_icall(int32_t level, ByRef<::StringW> category, ByRef<::StringW> message);
 
-  /// @brief Method Log, addr 0x2579e24, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Log, addr 0x259cd14, size 0x6c, virtual false, abstract: false, final false
   static inline void Log(int32_t level, ::StringW category, ::StringW message);
 
-  /// @brief Method NotifyOfCrossThreadDependency, addr 0x2579e90, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method NotifyOfCrossThreadDependency, addr 0x259cd80, size 0x4, virtual false, abstract: false, final false
   static inline void NotifyOfCrossThreadDependency();
 
   // Ctor Parameters [CppParam { name: "", ty: "Debugger", modifiers: "&&", def_value: None }]

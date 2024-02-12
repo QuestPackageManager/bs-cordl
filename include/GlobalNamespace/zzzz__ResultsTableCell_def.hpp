@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ResultsTableCell);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13502))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5806))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13455))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5104))
 // CS Name: ::ResultsTableCell*
 class CORDL_TYPE ResultsTableCell : public ::GlobalNamespace::TableCellWithSeparator {
 public:
@@ -78,12 +78,12 @@ public:
 
   constexpr void __cordl_internal_set__rankText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method SetData, addr 0x22e8148, size 0x38c, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x2316c38, size 0x38c, virtual false, abstract: false, final false
   inline void SetData(int32_t order, ::GlobalNamespace::IConnectedPlayer* connectedPlayer, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
   static inline ::GlobalNamespace::ResultsTableCell* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22e84d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2316fc4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ResultsTableCell", modifiers: "&&", def_value: None }]

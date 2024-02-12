@@ -15,12 +15,12 @@ MARK_REF_PTR_T(::System::__Il2CppComObject);
 namespace System {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16287))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16457))
 // CS Name: ::System::__Il2CppComObject*
 class CORDL_TYPE __Il2CppComObject : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Finalize, addr 0x2f29720, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x2f459a8, size 0x3c, virtual true, abstract: false, final false
   inline void Finalize();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Il2CppComObject", modifiers: "&&", def_value: None }]

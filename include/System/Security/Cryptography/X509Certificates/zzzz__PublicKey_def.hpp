@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::PublicKey);
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8990))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7000))
 // CS Name: ::System.Security.Cryptography.X509Certificates::PublicKey*
 class CORDL_TYPE PublicKey : public ::System::Object {
 public:
@@ -82,28 +82,28 @@ public:
   static inline ::System::Security::Cryptography::X509Certificates::PublicKey* New_ctor(::System::Security::Cryptography::Oid* oid, ::System::Security::Cryptography::AsnEncodedData* parameters,
                                                                                         ::System::Security::Cryptography::AsnEncodedData* keyValue);
 
-  /// @brief Method .ctor, addr 0x29777f4, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x297b298, size 0x174, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::Oid* oid, ::System::Security::Cryptography::AsnEncodedData* parameters, ::System::Security::Cryptography::AsnEncodedData* keyValue);
 
-  /// @brief Method get_EncodedKeyValue, addr 0x2977968, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EncodedKeyValue, addr 0x297b40c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::AsnEncodedData* get_EncodedKeyValue();
 
-  /// @brief Method get_EncodedParameters, addr 0x2977970, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EncodedParameters, addr 0x297b414, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::AsnEncodedData* get_EncodedParameters();
 
-  /// @brief Method get_Key, addr 0x2977978, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method get_Key, addr 0x297b41c, size 0x1a4, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::AsymmetricAlgorithm* get_Key();
 
-  /// @brief Method get_Oid, addr 0x2978380, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Oid, addr 0x297be24, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::Oid* get_Oid();
 
-  /// @brief Method GetUnsignedBigInteger, addr 0x2978388, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetUnsignedBigInteger, addr 0x297be2c, size 0x94, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetUnsignedBigInteger(::ArrayW<uint8_t, ::Array<uint8_t>*> integer);
 
-  /// @brief Method DecodeDSA, addr 0x2977ed4, size 0x4ac, virtual false, abstract: false, final false
+  /// @brief Method DecodeDSA, addr 0x297b978, size 0x4ac, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::DSA* DecodeDSA(::ArrayW<uint8_t, ::Array<uint8_t>*> rawPublicKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> rawParameters);
 
-  /// @brief Method DecodeRSA, addr 0x2977b1c, size 0x3b8, virtual false, abstract: false, final false
+  /// @brief Method DecodeRSA, addr 0x297b5c0, size 0x3b8, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::RSA* DecodeRSA(::ArrayW<uint8_t, ::Array<uint8_t>*> rawPublicKey);
 
   // Ctor Parameters [CppParam { name: "", ty: "PublicKey", modifiers: "&&", def_value: None }]

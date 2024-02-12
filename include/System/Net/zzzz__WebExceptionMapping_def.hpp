@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::System::Net::WebExceptionMapping);
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9088))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7098))
 // CS Name: ::System.Net::WebExceptionMapping*
 class CORDL_TYPE WebExceptionMapping : public ::System::Object {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_s_Mapping();
 
-  /// @brief Method GetWebStatusString, addr 0x299fb38, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method GetWebStatusString, addr 0x29a45dc, size 0x198, virtual false, abstract: false, final false
   static inline ::StringW GetWebStatusString(::System::Net::WebExceptionStatus status);
 
   // Ctor Parameters [CppParam { name: "", ty: "WebExceptionMapping", modifiers: "&&", def_value: None }]

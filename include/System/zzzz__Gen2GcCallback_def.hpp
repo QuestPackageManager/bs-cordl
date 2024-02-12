@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::System::Gen2GcCallback);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3336)), TypeDefinitionIndex(TypeDefinitionIndex(3354))]
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3333)), TypeDefinitionIndex(TypeDefinitionIndex(3351))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2384))
 // CS Name: ::System::Gen2GcCallback*
 class CORDL_TYPE Gen2GcCallback : public ::System::Runtime::ConstrainedExecution::CriticalFinalizerObject {
@@ -47,16 +47,16 @@ public:
 
   static inline ::System::Gen2GcCallback* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2597368, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25b9280, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Register, addr 0x2597370, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Register, addr 0x25b9288, size 0x80, virtual false, abstract: false, final false
   static inline void Register(::System::Func_2<::System::Object*, bool>* callback, ::System::Object* targetObj);
 
-  /// @brief Method Setup, addr 0x25973f0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x25b9308, size 0x28, virtual false, abstract: false, final false
   inline void Setup(::System::Func_2<::System::Object*, bool>* callback, ::System::Object* targetObj);
 
-  /// @brief Method Finalize, addr 0x2597418, size 0x1ac, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x25b9330, size 0x1ac, virtual true, abstract: false, final false
   inline void Finalize();
 
   // Ctor Parameters [CppParam { name: "", ty: "Gen2GcCallback", modifiers: "&&", def_value: None }]

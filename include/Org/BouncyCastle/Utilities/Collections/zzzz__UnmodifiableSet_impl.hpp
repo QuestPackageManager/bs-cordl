@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x115b08c;
+  constexpr static std::size_t addrs = 0x1188f1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::*)(::System::Object*)>(
     &::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::Add)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x115b094;
+  constexpr static std::size_t addrs = 0x1188f24;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::*)(::System::Collections::IEnumerable*)>(
     &::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::AddAll)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x115b0d4;
+  constexpr static std::size_t addrs = 0x1188f64;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::Clear)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x115b114;
+  constexpr static std::size_t addrs = 0x1188fa4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x115b154;
+  constexpr static std::size_t addrs = 0x1188fe4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -220,7 +220,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::*)(::System::Object*)>(
     &::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::Remove)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x115b15c;
+  constexpr static std::size_t addrs = 0x1188fec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -236,7 +236,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::*)(::System::Collections::IEnumerable*)>(
     &::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::RemoveAll)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x115b19c;
+  constexpr static std::size_t addrs = 0x118902c;
 
   inline static ::MethodInfo const* methodInfo() {
 

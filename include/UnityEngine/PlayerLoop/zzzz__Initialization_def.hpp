@@ -64,7 +64,7 @@ MARK_VAL_T(::UnityEngine::PlayerLoop::__Initialization__XREarlyUpdate);
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10477))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9246))
 // CS Name: ::Initialization::ProfilerStartFrame
 #pragma pack(push, 0)
 struct CORDL_TYPE __Initialization__ProfilerStartFrame {
@@ -92,7 +92,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Initi
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10478))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9247))
 // CS Name: ::Initialization::UpdateCameraMotionVectors
 #pragma pack(push, 0)
 struct CORDL_TYPE __Initialization__UpdateCameraMotionVectors {
@@ -120,7 +120,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Initi
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10479))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9248))
 // CS Name: ::Initialization::DirectorSampleTime
 #pragma pack(push, 0)
 struct CORDL_TYPE __Initialization__DirectorSampleTime {
@@ -148,7 +148,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Initi
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10480))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9249))
 // CS Name: ::Initialization::AsyncUploadTimeSlicedUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __Initialization__AsyncUploadTimeSlicedUpdate {
@@ -176,7 +176,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Initi
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10481))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9250))
 // CS Name: ::Initialization::SynchronizeState
 #pragma pack(push, 0)
 struct CORDL_TYPE __Initialization__SynchronizeState {
@@ -204,7 +204,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Initi
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10482))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9251))
 // CS Name: ::Initialization::SynchronizeInputs
 #pragma pack(push, 0)
 struct CORDL_TYPE __Initialization__SynchronizeInputs {
@@ -232,7 +232,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Initi
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10483))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9252))
 // CS Name: ::Initialization::XREarlyUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __Initialization__XREarlyUpdate {
@@ -260,7 +260,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Initi
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10484))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9253))
 // CS Name: ::UnityEngine.PlayerLoop::Initialization
 #pragma pack(push, 0)
 struct CORDL_TYPE Initialization {

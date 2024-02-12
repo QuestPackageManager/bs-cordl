@@ -46,10 +46,10 @@ public:
 
   static inline ::Org::BouncyCastle::Math::EC::ScaleYNegateXPointMap* New_ctor(::Org::BouncyCastle::Math::EC::ECFieldElement* scale);
 
-  /// @brief Method .ctor, addr 0x105ae4c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1087cdc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECFieldElement* scale);
 
-  /// @brief Method Map, addr 0x105ae74, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method Map, addr 0x1087d04, size 0x2c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Map(::Org::BouncyCastle::Math::EC::ECPoint* p);
 
   // Ctor Parameters [CppParam { name: "", ty: "ScaleYNegateXPointMap", modifiers: "&&", def_value: None }]

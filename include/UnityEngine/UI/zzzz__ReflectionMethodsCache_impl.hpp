@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::__ReflectionMethodsCache__Raycast3DCallback::*)(::System::Object*, void*)>(
     &::UnityEngine::UI::__ReflectionMethodsCache__Raycast3DCallback::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x2d8e5dc;
+  constexpr static std::size_t addrs = 0x2dab9c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UI::__ReflectionMethodsCache__Raycast3DCallback::*)(
     ::UnityEngine::Ray, ByRef<::UnityEngine::RaycastHit>, float_t, int32_t)>(&::UnityEngine::UI::__ReflectionMethodsCache__Raycast3DCallback::Invoke)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2d8e6a0;
+  constexpr static std::size_t addrs = 0x2daba88;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -48,7 +48,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::UI::__ReflectionMethodsCache__Raycast3DCallback::*)(::UnityEngine::Ray, ByRef<::UnityEngine::RaycastHit>, float_t, int32_t, ::System::AsyncCallback*, ::System::Object*)>(
     &::UnityEngine::UI::__ReflectionMethodsCache__Raycast3DCallback::BeginInvoke)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x2d8e6e0;
+  constexpr static std::size_t addrs = 0x2dabac8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UI::__ReflectionMethodsCache__Raycast3DCallback::*)(
     ByRef<::UnityEngine::RaycastHit>, ::System::IAsyncResult*)>(&::UnityEngine::UI::__ReflectionMethodsCache__Raycast3DCallback::EndInvoke)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2d8e800;
+  constexpr static std::size_t addrs = 0x2dabbe8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::__ReflectionMethodsCache__RaycastAllCallback::*)(::System::Object*, void*)>(
     &::UnityEngine::UI::__ReflectionMethodsCache__RaycastAllCallback::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x2d8e82c;
+  constexpr static std::size_t addrs = 0x2dabc14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::RaycastHit, ::Array<::UnityEngine::RaycastHit>*> (
     ::UnityEngine::UI::__ReflectionMethodsCache__RaycastAllCallback::*)(::UnityEngine::Ray, float_t, int32_t)>(&::UnityEngine::UI::__ReflectionMethodsCache__RaycastAllCallback::Invoke)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2d8e8f0;
+  constexpr static std::size_t addrs = 0x2dabcd8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -142,7 +142,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::IAsyncResult* (::UnityEngine::UI::__ReflectionMethodsCache__RaycastAllCallback::*)(::UnityEngine::Ray, float_t, int32_t, ::System::AsyncCallback*, ::System::Object*)>(
         &::UnityEngine::UI::__ReflectionMethodsCache__RaycastAllCallback::BeginInvoke)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x2d8e92c;
+  constexpr static std::size_t addrs = 0x2dabd14;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::RaycastHit, ::Array<::UnityEngine::RaycastHit>*> (
     ::UnityEngine::UI::__ReflectionMethodsCache__RaycastAllCallback::*)(::System::IAsyncResult*)>(&::UnityEngine::UI::__ReflectionMethodsCache__RaycastAllCallback::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2d8ea18;
+  constexpr static std::size_t addrs = 0x2dabe00;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -204,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::__ReflectionMethodsCache__GetRaycastNonAllocCallback::*)(::System::Object*, void*)>(
     &::UnityEngine::UI::__ReflectionMethodsCache__GetRaycastNonAllocCallback::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x2d8ea24;
+  constexpr static std::size_t addrs = 0x2dabe0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -220,7 +220,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Ray, ::ArrayW<::UnityEngine::RaycastHit, ::Array<::UnityEngine::RaycastHit>*>, float_t, int32_t)>(
     &::UnityEngine::UI::__ReflectionMethodsCache__GetRaycastNonAllocCallback::Invoke)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2d8eae8;
+  constexpr static std::size_t addrs = 0x2dabed0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -238,7 +238,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                 ::System::AsyncCallback*, ::System::Object*)>(
     &::UnityEngine::UI::__ReflectionMethodsCache__GetRaycastNonAllocCallback::BeginInvoke)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x2d8eb24;
+  constexpr static std::size_t addrs = 0x2dabf0c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -254,7 +254,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UI::__ReflectionMethodsCache__GetRaycastNonAllocCallback::*)(::System::IAsyncResult*)>(
     &::UnityEngine::UI::__ReflectionMethodsCache__GetRaycastNonAllocCallback::EndInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2d8ec14;
+  constexpr static std::size_t addrs = 0x2dabffc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -303,7 +303,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::__ReflectionMethodsCache__Raycast2DCallback::*)(::System::Object*, void*)>(
     &::UnityEngine::UI::__ReflectionMethodsCache__Raycast2DCallback::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x2d8ec3c;
+  constexpr static std::size_t addrs = 0x2dac024;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -318,7 +318,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::RaycastHit2D (::UnityEngine::UI::__ReflectionMethodsCache__Raycast2DCallback::*)(
     ::UnityEngine::Vector2, ::UnityEngine::Vector2, float_t, int32_t)>(&::UnityEngine::UI::__ReflectionMethodsCache__Raycast2DCallback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2d8ed00;
+  constexpr static std::size_t addrs = 0x2dac0e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -335,7 +335,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::UI::__ReflectionMethodsCache__Raycast2DCallback::*)(::UnityEngine::Vector2, ::UnityEngine::Vector2, float_t, int32_t, ::System::AsyncCallback*, ::System::Object*)>(
     &::UnityEngine::UI::__ReflectionMethodsCache__Raycast2DCallback::BeginInvoke)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x2d8ed14;
+  constexpr static std::size_t addrs = 0x2dac0fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -351,7 +351,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::RaycastHit2D (::UnityEngine::UI::__ReflectionMethodsCache__Raycast2DCallback::*)(
     ::System::IAsyncResult*)>(&::UnityEngine::UI::__ReflectionMethodsCache__Raycast2DCallback::EndInvoke)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x2d8ee10;
+  constexpr static std::size_t addrs = 0x2dac1f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -397,7 +397,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllCallback::*)(::System::Object*, void*)>(
     &::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllCallback::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x2d8ee48;
+  constexpr static std::size_t addrs = 0x2dac230;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -413,7 +413,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllCallback::*)(::UnityEngine::Ray, float_t, int32_t)>(
     &::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllCallback::Invoke)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2d8ef0c;
+  constexpr static std::size_t addrs = 0x2dac2f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -430,7 +430,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllCallback::*)(::UnityEngine::Ray, float_t, int32_t, ::System::AsyncCallback*, ::System::Object*)>(
     &::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllCallback::BeginInvoke)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x2d8ef48;
+  constexpr static std::size_t addrs = 0x2dac330;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -446,7 +446,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::RaycastHit2D, ::Array<::UnityEngine::RaycastHit2D>*> (
     ::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllCallback::*)(::System::IAsyncResult*)>(&::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllCallback::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2d8f034;
+  constexpr static std::size_t addrs = 0x2dac41c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -495,7 +495,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback::*)(
     ::System::Object*, void*)>(&::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x2d8f040;
+  constexpr static std::size_t addrs = 0x2dac428;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -512,7 +512,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Ray, ::ArrayW<::UnityEngine::RaycastHit2D, ::Array<::UnityEngine::RaycastHit2D>*>, float_t, int32_t)>(
     &::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback::Invoke)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2d8f104;
+  constexpr static std::size_t addrs = 0x2dac4ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -530,7 +530,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                            int32_t, ::System::AsyncCallback*, ::System::Object*)>(
     &::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback::BeginInvoke)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x2d8f140;
+  constexpr static std::size_t addrs = 0x2dac528;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -546,7 +546,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback::*)(
     ::System::IAsyncResult*)>(&::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback::EndInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2d8f230;
+  constexpr static std::size_t addrs = 0x2dac618;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -595,7 +595,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ReflectionMethodsCache::*)()>(&::UnityEngine::UI::ReflectionMethodsCache::_ctor)> {
   constexpr static std::size_t size = 0xc14;
-  constexpr static std::size_t addrs = 0x2d8d94c;
+  constexpr static std::size_t addrs = 0x2daad34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache*>::get(), ".ctor",
@@ -608,7 +608,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UI::ReflectionMethodsCache* (*)()>(&::UnityEngine::UI::ReflectionMethodsCache::get_Singleton)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x2d8e560;
+  constexpr static std::size_t addrs = 0x2dab948;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ReflectionMethodsCache*>::get(),

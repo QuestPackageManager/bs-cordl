@@ -28,12 +28,12 @@ public:
   // Declarations
   static inline ::System::TypeAccessException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25cb14c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25ed064, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::TypeAccessException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x25cb1a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25ed0c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeAccessException", modifiers: "&&", def_value: None }]

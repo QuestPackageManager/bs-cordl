@@ -45,8 +45,8 @@ MARK_REF_PTR_T(::HMUI::ColorGradientSlider);
 // SizeInfo { instance_size: 408, native_size: -1, calculated_instance_size: 408, calculated_native_size: 408, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(13560))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13555))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8995)), TypeDefinitionIndex(TypeDefinitionIndex(13513))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13508))
 // CS Name: ::HMUI::ColorGradientSlider*
 class CORDL_TYPE ColorGradientSlider : public ::HMUI::TextSlider {
 public:
@@ -137,36 +137,36 @@ public:
 
   static inline ::System::Text::StringBuilder* getStaticF__stringBuilder();
 
-  /// @brief Method add_colorDidChangeEvent, addr 0x2121460, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method add_colorDidChangeEvent, addr 0x21b5d3c, size 0xb4, virtual false, abstract: false, final false
   inline void add_colorDidChangeEvent(::System::Action_3<::UnityW<::HMUI::ColorGradientSlider>, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
-  /// @brief Method remove_colorDidChangeEvent, addr 0x2121514, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method remove_colorDidChangeEvent, addr 0x21b5df0, size 0xb4, virtual false, abstract: false, final false
   inline void remove_colorDidChangeEvent(::System::Action_3<::UnityW<::HMUI::ColorGradientSlider>, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
-  /// @brief Method Awake, addr 0x21215c8, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x21b5ea4, size 0x98, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnDestroy, addr 0x21217a4, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x21b6080, size 0x8c, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetColors, addr 0x21218e4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetColors, addr 0x21b61c0, size 0x30, virtual false, abstract: false, final false
   inline void SetColors(::UnityEngine::Color color0, ::UnityEngine::Color color1);
 
-  /// @brief Method UpdateVisuals, addr 0x2121914, size 0x1a4, virtual true, abstract: false, final false
+  /// @brief Method UpdateVisuals, addr 0x21b61f0, size 0x1a4, virtual true, abstract: false, final false
   inline void UpdateVisuals();
 
-  /// @brief Method TextForNormalizedValue, addr 0x2122048, size 0x1a0, virtual true, abstract: false, final false
+  /// @brief Method TextForNormalizedValue, addr 0x21b6924, size 0x1a0, virtual true, abstract: false, final false
   inline ::StringW TextForNormalizedValue(float_t normalizedValue);
 
-  /// @brief Method HandleNormalizedValueDidChange, addr 0x21221e8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method HandleNormalizedValueDidChange, addr 0x21b6ac4, size 0x58, virtual false, abstract: false, final false
   inline void HandleNormalizedValueDidChange(::HMUI::TextSlider* slider, float_t normalizedValue);
 
-  /// @brief Method OnPointerUp, addr 0x2122240, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method OnPointerUp, addr 0x21b6b1c, size 0xa0, virtual true, abstract: false, final false
   inline void OnPointerUp(::UnityEngine::EventSystems::PointerEventData* eventData);
 
   static inline ::HMUI::ColorGradientSlider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21222e0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21b6bbc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ColorGradientSlider", modifiers: "&&", def_value: None }]

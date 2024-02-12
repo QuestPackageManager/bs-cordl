@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerConnectedPlayerObservable);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5197))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4536))
 // CS Name: ::MultiplayerConnectedPlayerObservable*
 class CORDL_TYPE MultiplayerConnectedPlayerObservable : public ::System::Object {
 public:
@@ -48,13 +48,13 @@ public:
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerObservable* New_ctor(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
-  /// @brief Method .ctor, addr 0x22463a4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23a4d18, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
-  /// @brief Method get_offsetSyncTime, addr 0x22463cc, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method get_offsetSyncTime, addr 0x23a4d40, size 0xa4, virtual true, abstract: false, final true
   inline int64_t get_offsetSyncTime();
 
-  /// @brief Method get_isFailed, addr 0x2246470, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_isFailed, addr 0x23a4de4, size 0xc, virtual true, abstract: false, final true
   inline bool get_isFailed();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerObservable", modifiers: "&&", def_value: None }]

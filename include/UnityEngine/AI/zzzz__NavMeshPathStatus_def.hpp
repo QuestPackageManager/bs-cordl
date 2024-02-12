@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::AI::NavMeshPathStatus);
 namespace UnityEngine::AI {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16114))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16230))
 // CS Name: ::UnityEngine.AI::NavMeshPathStatus
 struct CORDL_TYPE NavMeshPathStatus {
 public:

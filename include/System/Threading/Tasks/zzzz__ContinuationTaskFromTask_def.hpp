@@ -48,11 +48,11 @@ public:
                                                                                ::System::Threading::Tasks::TaskCreationOptions creationOptions,
                                                                                ::System::Threading::Tasks::InternalTaskOptions internalOptions);
 
-  /// @brief Method .ctor, addr 0x2628018, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x264e13c, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::Task* antecedent, ::System::Delegate* action, ::System::Object* state, ::System::Threading::Tasks::TaskCreationOptions creationOptions,
                     ::System::Threading::Tasks::InternalTaskOptions internalOptions);
 
-  /// @brief Method InnerInvoke, addr 0x262b3f0, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method InnerInvoke, addr 0x2651514, size 0xd0, virtual true, abstract: false, final false
   inline void InnerInvoke();
 
   // Ctor Parameters [CppParam { name: "", ty: "ContinuationTaskFromTask", modifiers: "&&", def_value: None }]

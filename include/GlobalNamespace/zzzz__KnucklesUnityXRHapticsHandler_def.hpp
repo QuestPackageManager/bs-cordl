@@ -52,8 +52,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__KnucklesUnityXRHapticsHandler___HapticsCorou
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15621))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14413))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15752))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14562))
 // CS Name: ::KnucklesUnityXRHapticsHandler::<HapticsCoroutine>d__9*
 class CORDL_TYPE __KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9 : public ::System::Object {
 public:
@@ -127,22 +127,22 @@ public:
 
   static inline ::GlobalNamespace::__KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor, addr 0x20f71b8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x218aba8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x20f7264, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x218ac54, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext, addr 0x20f7268, size 0x110, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x218ac58, size 0x110, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x20f7378, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x218ad68, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x20f7380, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x218ad70, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x20f73c0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x218adb0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9", modifiers: "&&", def_value: None }]
@@ -194,8 +194,8 @@ static_assert(offsetof(::GlobalNamespace::__KnucklesUnityXRHapticsHandler___Hapt
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15614))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14414))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15745))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14563))
 // CS Name: ::KnucklesUnityXRHapticsHandler*
 class CORDL_TYPE KnucklesUnityXRHapticsHandler : public ::System::Object {
 public:
@@ -261,19 +261,19 @@ public:
 
   static inline ::GlobalNamespace::KnucklesUnityXRHapticsHandler* New_ctor(::UnityEngine::XR::XRNode node, ::UnityEngine::MonoBehaviour* coroutineRunner);
 
-  /// @brief Method .ctor, addr 0x20f70c0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x218aab0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::XR::XRNode node, ::UnityEngine::MonoBehaviour* coroutineRunner);
 
-  /// @brief Method TriggerHapticPulse, addr 0x20f7180, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method TriggerHapticPulse, addr 0x218ab70, size 0x20, virtual true, abstract: false, final true
   inline void TriggerHapticPulse(float_t strength, float_t duration);
 
-  /// @brief Method StopHaptics, addr 0x20f71a0, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method StopHaptics, addr 0x218ab90, size 0x18, virtual true, abstract: false, final true
   inline void StopHaptics();
 
-  /// @brief Method HapticsCoroutine, addr 0x20f7118, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method HapticsCoroutine, addr 0x218ab08, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* HapticsCoroutine();
 
-  /// @brief Method Dispose, addr 0x20f71e0, size 0x84, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x218abd0, size 0x84, virtual true, abstract: false, final true
   inline void Dispose();
 
   // Ctor Parameters [CppParam { name: "", ty: "KnucklesUnityXRHapticsHandler", modifiers: "&&", def_value: None }]

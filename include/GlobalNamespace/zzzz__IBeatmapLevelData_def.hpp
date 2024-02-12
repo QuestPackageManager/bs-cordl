@@ -2,15 +2,14 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IBeatmapLevelData)
 namespace GlobalNamespace {
-class IDifficultyBeatmapSet;
+struct BeatmapKey;
 }
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
-namespace UnityEngine {
-class AudioClip;
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -23,20 +22,31 @@ MARK_REF_PTR_T(::GlobalNamespace::IBeatmapLevelData);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4392))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10805))
 // CS Name: ::IBeatmapLevelData*
 class CORDL_TYPE IBeatmapLevelData {
 public:
   // Declarations
-  __declspec(property(get = get_audioClip))::UnityW<::UnityEngine::AudioClip> audioClip;
+  /// @brief Method GetAudioDataStringAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::Threading::Tasks::Task_1<::StringW>* GetAudioDataStringAsync();
 
-  __declspec(property(get = get_difficultyBeatmapSets))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmapSet*>* difficultyBeatmapSets;
+  /// @brief Method GetBeatmapStringAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::Threading::Tasks::Task_1<::StringW>* GetBeatmapStringAsync(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey);
 
-  /// @brief Method get_audioClip, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::UnityW<::UnityEngine::AudioClip> get_audioClip();
+  /// @brief Method GetLightshowStringAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::Threading::Tasks::Task_1<::StringW>* GetLightshowStringAsync(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey);
 
-  /// @brief Method get_difficultyBeatmapSets, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmapSet*>* get_difficultyBeatmapSets();
+  /// @brief Method GetAudioDataString, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::StringW GetAudioDataString();
+
+  /// @brief Method GetBeatmapString, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::StringW GetBeatmapString(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey);
+
+  /// @brief Method GetLightshowString, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::StringW GetLightshowString(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey);
+
+  /// @brief Method GetBeatmapChecksum, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::StringW GetBeatmapChecksum(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey);
 
   // Ctor Parameters [CppParam { name: "", ty: "IBeatmapLevelData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

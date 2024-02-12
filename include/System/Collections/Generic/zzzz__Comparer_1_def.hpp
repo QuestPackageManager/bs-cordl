@@ -27,7 +27,7 @@ namespace System::Collections::Generic {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3865))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3864))
 // CS Name: ::System.Collections.Generic::Comparer`1<T>*
 class CORDL_TYPE Comparer_1 : public ::System::Object {
 public:

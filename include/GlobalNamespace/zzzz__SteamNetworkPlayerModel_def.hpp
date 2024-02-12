@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SteamNetworkPlayerModel);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14973))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14979))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14846))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14852))
 // CS Name: ::SteamNetworkPlayerModel*
 class CORDL_TYPE SteamNetworkPlayerModel : public ::GlobalNamespace::PlatformNetworkPlayerModel {
 public:
@@ -31,7 +31,7 @@ public:
 
   static inline ::GlobalNamespace::SteamNetworkPlayerModel* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2639c64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x265ee20, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SteamNetworkPlayerModel", modifiers: "&&", def_value: None }]

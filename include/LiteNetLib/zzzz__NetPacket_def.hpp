@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::LiteNetLib::NetPacket);
 namespace LiteNetLib {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14169))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14182))
 // CS Name: ::LiteNetLib::NetPacket*
 class CORDL_TYPE NetPacket : public ::System::Object {
 public:
@@ -78,71 +78,71 @@ public:
 
   static inline int32_t getStaticF_LastProperty();
 
-  /// @brief Method get_Property, addr 0x21ffbc4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_Property, addr 0x22954ac, size 0x2c, virtual false, abstract: false, final false
   inline ::LiteNetLib::PacketProperty get_Property();
 
-  /// @brief Method set_Property, addr 0x22017d8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method set_Property, addr 0x22970c0, size 0x34, virtual false, abstract: false, final false
   inline void set_Property(::LiteNetLib::PacketProperty value);
 
-  /// @brief Method get_ConnectionNumber, addr 0x2202b64, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_ConnectionNumber, addr 0x229844c, size 0x2c, virtual false, abstract: false, final false
   inline uint8_t get_ConnectionNumber();
 
-  /// @brief Method set_ConnectionNumber, addr 0x21ff160, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method set_ConnectionNumber, addr 0x2294a48, size 0x34, virtual false, abstract: false, final false
   inline void set_ConnectionNumber(uint8_t value);
 
-  /// @brief Method get_Sequence, addr 0x2202b90, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_Sequence, addr 0x2298478, size 0x60, virtual false, abstract: false, final false
   inline uint16_t get_Sequence();
 
-  /// @brief Method set_Sequence, addr 0x2202bf0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_Sequence, addr 0x22984d8, size 0x10, virtual false, abstract: false, final false
   inline void set_Sequence(uint16_t value);
 
-  /// @brief Method get_IsFragmented, addr 0x2202c04, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_IsFragmented, addr 0x22984ec, size 0x30, virtual false, abstract: false, final false
   inline bool get_IsFragmented();
 
-  /// @brief Method MarkFragmented, addr 0x2202c34, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method MarkFragmented, addr 0x229851c, size 0x30, virtual false, abstract: false, final false
   inline void MarkFragmented();
 
-  /// @brief Method get_ChannelId, addr 0x2202c64, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_ChannelId, addr 0x229854c, size 0x2c, virtual false, abstract: false, final false
   inline uint8_t get_ChannelId();
 
-  /// @brief Method set_ChannelId, addr 0x2202c90, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_ChannelId, addr 0x2298578, size 0x2c, virtual false, abstract: false, final false
   inline void set_ChannelId(uint8_t value);
 
-  /// @brief Method get_FragmentId, addr 0x2202cbc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_FragmentId, addr 0x22985a4, size 0x60, virtual false, abstract: false, final false
   inline uint16_t get_FragmentId();
 
-  /// @brief Method set_FragmentId, addr 0x2202d1c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_FragmentId, addr 0x2298604, size 0x10, virtual false, abstract: false, final false
   inline void set_FragmentId(uint16_t value);
 
-  /// @brief Method get_FragmentPart, addr 0x2202d2c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_FragmentPart, addr 0x2298614, size 0x60, virtual false, abstract: false, final false
   inline uint16_t get_FragmentPart();
 
-  /// @brief Method set_FragmentPart, addr 0x2202d8c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_FragmentPart, addr 0x2298674, size 0x10, virtual false, abstract: false, final false
   inline void set_FragmentPart(uint16_t value);
 
-  /// @brief Method get_FragmentsTotal, addr 0x2202d9c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_FragmentsTotal, addr 0x2298684, size 0x60, virtual false, abstract: false, final false
   inline uint16_t get_FragmentsTotal();
 
-  /// @brief Method set_FragmentsTotal, addr 0x2202dfc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_FragmentsTotal, addr 0x22986e4, size 0x10, virtual false, abstract: false, final false
   inline void set_FragmentsTotal(uint16_t value);
 
   static inline ::LiteNetLib::NetPacket* New_ctor(int32_t size);
 
-  /// @brief Method .ctor, addr 0x2202e0c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22986f4, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(int32_t size);
 
   static inline ::LiteNetLib::NetPacket* New_ctor(::LiteNetLib::PacketProperty property, int32_t size);
 
-  /// @brief Method .ctor, addr 0x2202e78, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2298760, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::LiteNetLib::PacketProperty property, int32_t size);
 
-  /// @brief Method GetHeaderSize, addr 0x22017ac, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetHeaderSize, addr 0x2297094, size 0x2c, virtual false, abstract: false, final false
   static inline int32_t GetHeaderSize(::LiteNetLib::PacketProperty property);
 
-  /// @brief Method GetHeaderSize, addr 0x21fc3cc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetHeaderSize, addr 0x2291cb4, size 0x88, virtual false, abstract: false, final false
   inline int32_t GetHeaderSize();
 
-  /// @brief Method FromBytes, addr 0x21ffa98, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method FromBytes, addr 0x2295380, size 0x12c, virtual false, abstract: false, final false
   inline bool FromBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t start, int32_t packetSize);
 
   // Ctor Parameters [CppParam { name: "", ty: "NetPacket", modifiers: "&&", def_value: None }]

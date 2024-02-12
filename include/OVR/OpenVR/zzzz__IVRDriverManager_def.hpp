@@ -51,23 +51,23 @@ MARK_VAL_T(::OVR::OpenVR::IVRDriverManager);
 namespace OVR::OpenVR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8518))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8462))
 // CS Name: ::IVRDriverManager::_GetDriverCount*
 class CORDL_TYPE __IVRDriverManager___GetDriverCount : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRDriverManager___GetDriverCount* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x27ed258, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27faa10, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x27ed314, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x27faacc, size 0x14, virtual true, abstract: false, final false
   inline uint32_t Invoke();
 
-  /// @brief Method BeginInvoke, addr 0x27ed328, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x27faae0, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x27ed348, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x27fab00, size 0x28, virtual true, abstract: false, final false
   inline uint32_t EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRDriverManager___GetDriverCount", modifiers: "&&", def_value: None }]
@@ -95,23 +95,23 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRDriverManager_
 namespace OVR::OpenVR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8519))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8463))
 // CS Name: ::IVRDriverManager::_GetDriverName*
 class CORDL_TYPE __IVRDriverManager___GetDriverName : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRDriverManager___GetDriverName* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x27ed370, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27fab28, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x27ed434, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x27fabec, size 0x14, virtual true, abstract: false, final false
   inline uint32_t Invoke(uint32_t nDriver, ::System::Text::StringBuilder* pchValue, uint32_t unBufferSize);
 
-  /// @brief Method BeginInvoke, addr 0x27ed448, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x27fac00, size 0xa4, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint32_t nDriver, ::System::Text::StringBuilder* pchValue, uint32_t unBufferSize, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x27ed4ec, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x27faca4, size 0x28, virtual true, abstract: false, final false
   inline uint32_t EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRDriverManager___GetDriverName", modifiers: "&&", def_value: None }]
@@ -139,23 +139,23 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRDriverManager_
 namespace OVR::OpenVR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8520))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8464))
 // CS Name: ::IVRDriverManager::_GetDriverHandle*
 class CORDL_TYPE __IVRDriverManager___GetDriverHandle : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRDriverManager___GetDriverHandle* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x27ed514, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27faccc, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x27ed5e8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x27fada0, size 0x14, virtual true, abstract: false, final false
   inline uint64_t Invoke(::StringW pchDriverName);
 
-  /// @brief Method BeginInvoke, addr 0x27ed5fc, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x27fadb4, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchDriverName, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x27ed61c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x27fadd4, size 0x28, virtual true, abstract: false, final false
   inline uint64_t EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRDriverManager___GetDriverHandle", modifiers: "&&", def_value: None }]
@@ -183,7 +183,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRDriverManager_
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8521))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8465))
 // CS Name: ::OVR.OpenVR::IVRDriverManager
 struct CORDL_TYPE IVRDriverManager {
 public:

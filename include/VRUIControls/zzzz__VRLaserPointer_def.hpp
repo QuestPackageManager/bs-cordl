@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::VRUIControls::VRLaserPointer);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace VRUIControls {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15677))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15835))
 // CS Name: ::VRUIControls::VRLaserPointer*
 class CORDL_TYPE VRLaserPointer : public ::UnityEngine::MonoBehaviour {
 public:
@@ -54,18 +54,18 @@ public:
 
   static inline ::UnityEngine::MaterialPropertyBlock* getStaticF__materialPropertyBlock();
 
-  /// @brief Method SetLocalPosition, addr 0x2eb8848, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method SetLocalPosition, addr 0x2ed4990, size 0x48, virtual false, abstract: false, final false
   inline void SetLocalPosition(::UnityEngine::Vector3 position);
 
-  /// @brief Method SetLocalScale, addr 0x2eb8890, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method SetLocalScale, addr 0x2ed49d8, size 0x48, virtual false, abstract: false, final false
   inline void SetLocalScale(::UnityEngine::Vector3 scale);
 
-  /// @brief Method SetFadeDistance, addr 0x2eb88d8, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method SetFadeDistance, addr 0x2ed4a20, size 0xfc, virtual false, abstract: false, final false
   inline void SetFadeDistance(float_t distance);
 
   static inline ::VRUIControls::VRLaserPointer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2eb89d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ed4b1c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "VRLaserPointer", modifiers: "&&", def_value: None }]

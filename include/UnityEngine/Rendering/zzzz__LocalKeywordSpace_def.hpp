@@ -23,7 +23,7 @@ MARK_VAL_T(::UnityEngine::Rendering::LocalKeywordSpace);
 namespace UnityEngine::Rendering {
 // Is value type: true
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10373))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9141))
 // CS Name: ::UnityEngine.Rendering::LocalKeywordSpace
 struct CORDL_TYPE LocalKeywordSpace {
 public:
@@ -34,16 +34,16 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::LocalKeywordSpace>"
   constexpr ::System::IEquatable_1<::UnityEngine::Rendering::LocalKeywordSpace>* i___System__IEquatable_1___UnityEngine__Rendering__LocalKeywordSpace_();
 
-  /// @brief Method Equals, addr 0x2cef1f8, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2cfae28, size 0x7c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method Equals, addr 0x2cef274, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2cfaea4, size 0xc, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::LocalKeywordSpace rhs);
 
-  /// @brief Method op_Equality, addr 0x2cef178, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x2cfada8, size 0x8, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::Rendering::LocalKeywordSpace lhs, ::UnityEngine::Rendering::LocalKeywordSpace rhs);
 
-  /// @brief Method GetHashCode, addr 0x2cef1d0, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2cfae00, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "m_KeywordSpace", ty: "void*", modifiers: "", def_value: None }]

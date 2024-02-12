@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::Mono::Security::X509::X501);
 namespace Mono::Security::X509 {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13748))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13701))
 // CS Name: ::Mono.Security.X509::X501*
 class CORDL_TYPE X501 : public ::System::Object {
 public:
@@ -141,13 +141,13 @@ public:
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_initial();
 
-  /// @brief Method ToString, addr 0x23f0300, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x2410160, size 0x138, virtual false, abstract: false, final false
   static inline ::StringW ToString(::Mono::Security::ASN1* seq);
 
-  /// @brief Method ToString, addr 0x23f82d4, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x2418134, size 0x1a8, virtual false, abstract: false, final false
   static inline ::StringW ToString(::Mono::Security::ASN1* seq, bool reversed, ::StringW separator, bool quotes);
 
-  /// @brief Method AppendEntry, addr 0x23f7b10, size 0x7c4, virtual false, abstract: false, final false
+  /// @brief Method AppendEntry, addr 0x2417970, size 0x7c4, virtual false, abstract: false, final false
   static inline void AppendEntry(::System::Text::StringBuilder* sb, ::Mono::Security::ASN1* entry, bool quotes);
 
   // Ctor Parameters [CppParam { name: "", ty: "X501", modifiers: "&&", def_value: None }]

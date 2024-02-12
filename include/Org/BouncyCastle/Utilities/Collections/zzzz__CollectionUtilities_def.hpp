@@ -42,30 +42,30 @@ namespace Org::BouncyCastle::Utilities::Collections {
 class CORDL_TYPE CollectionUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AddRange, addr 0x1156e58, size 0x35c, virtual false, abstract: false, final false
+  /// @brief Method AddRange, addr 0x1184ce8, size 0x35c, virtual false, abstract: false, final false
   static inline void AddRange(::System::Collections::IList* to, ::System::Collections::IEnumerable* range);
 
-  /// @brief Method CheckElementsAreOfType, addr 0x11571b4, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method CheckElementsAreOfType, addr 0x1185044, size 0x314, virtual false, abstract: false, final false
   static inline bool CheckElementsAreOfType(::System::Collections::IEnumerable* e, ::System::Type* t);
 
-  /// @brief Method ReadOnly, addr 0x11574c8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ReadOnly, addr 0x1185358, size 0x64, virtual false, abstract: false, final false
   static inline ::System::Collections::IDictionary* ReadOnly(::System::Collections::IDictionary* d);
 
-  /// @brief Method ReadOnly, addr 0x1155dfc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ReadOnly, addr 0x1183c8c, size 0x64, virtual false, abstract: false, final false
   static inline ::System::Collections::IList* ReadOnly(::System::Collections::IList* l);
 
-  /// @brief Method ReadOnly, addr 0x1155d98, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ReadOnly, addr 0x1183c28, size 0x64, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Utilities::Collections::ISet* ReadOnly(::Org::BouncyCastle::Utilities::Collections::ISet* s);
 
-  /// @brief Method RequireNext, addr 0x11575a4, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method RequireNext, addr 0x1185434, size 0x138, virtual false, abstract: false, final false
   static inline ::System::Object* RequireNext(::System::Collections::IEnumerator* e);
 
-  /// @brief Method ToString, addr 0x11576dc, size 0x30c, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x118556c, size 0x30c, virtual false, abstract: false, final false
   static inline ::StringW ToString(::System::Collections::IEnumerable* c);
 
   static inline ::Org::BouncyCastle::Utilities::Collections::CollectionUtilities* New_ctor();
 
-  /// @brief Method .ctor, addr 0x11579e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1185878, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CollectionUtilities", modifiers: "&&", def_value: None }]

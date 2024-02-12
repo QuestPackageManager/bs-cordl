@@ -23,8 +23,8 @@ namespace UnityEngine::InputSystem {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6235))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6236))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5494))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5495))
 // CS Name: ::UnityEngine.InputSystem::InputProcessor`1<TValue>*
 class CORDL_TYPE InputProcessor_1 : public ::UnityEngine::InputSystem::InputProcessor {
 public:

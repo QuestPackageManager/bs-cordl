@@ -19,15 +19,15 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::MatchResult);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7480))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7481))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6739))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6740))
 // CS Name: ::UnityEngine.UIElements.StyleSheets::MatchResult
 struct CORDL_TYPE MatchResult {
 public:
   // Declarations
   __declspec(property(get = get_success)) bool success;
 
-  /// @brief Method get_success, addr 0x2df1400, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_success, addr 0x2e0e7e8, size 0x10, virtual false, abstract: false, final false
   inline bool get_success();
 
   // Ctor Parameters [CppParam { name: "errorCode", ty: "::UnityEngine::UIElements::StyleSheets::MatchResultErrorCode", modifiers: "", def_value: None }, CppParam { name: "errorValue", ty:

@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::GlobalNamespace::StandaloneThreadContext);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12967))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12865))
 // CS Name: ::StandaloneThreadContext*
 class CORDL_TYPE StandaloneThreadContext : public ::System::Object {
 public:
@@ -39,12 +39,12 @@ public:
 
   static inline ::GlobalNamespace::StandaloneThreadContext* getStaticF_instance();
 
-  /// @brief Method Run, addr 0xe593ac, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Run, addr 0xe841e4, size 0x4, virtual true, abstract: false, final true
   inline void Run(::GlobalNamespace::IStandaloneThreadRunnable* runnable);
 
   static inline ::GlobalNamespace::StandaloneThreadContext* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe593b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe841e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "StandaloneThreadContext", modifiers: "&&", def_value: None }]

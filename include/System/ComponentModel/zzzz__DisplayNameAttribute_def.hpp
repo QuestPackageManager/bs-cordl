@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::System::ComponentModel::DisplayNameAttribute);
 namespace System::ComponentModel {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9393))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7403))
 // CS Name: ::System.ComponentModel::DisplayNameAttribute*
 class CORDL_TYPE DisplayNameAttribute : public ::System::Attribute {
 public:
@@ -47,30 +47,30 @@ public:
 
   static inline ::System::ComponentModel::DisplayNameAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2904b64, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29091cc, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::ComponentModel::DisplayNameAttribute* New_ctor(::StringW displayName);
 
-  /// @brief Method .ctor, addr 0x2904bc0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2909228, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW displayName);
 
-  /// @brief Method get_DisplayName, addr 0x2904be8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_DisplayName, addr 0x2909250, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_DisplayName();
 
-  /// @brief Method get_DisplayNameValue, addr 0x2904bf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DisplayNameValue, addr 0x2909258, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_DisplayNameValue();
 
-  /// @brief Method set_DisplayNameValue, addr 0x2904bf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DisplayNameValue, addr 0x2909260, size 0x8, virtual false, abstract: false, final false
   inline void set_DisplayNameValue(::StringW value);
 
-  /// @brief Method Equals, addr 0x2904c00, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2909268, size 0xcc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2904ccc, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2909334, size 0x28, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsDefaultAttribute, addr 0x2904cf4, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method IsDefaultAttribute, addr 0x290935c, size 0x68, virtual true, abstract: false, final false
   inline bool IsDefaultAttribute();
 
   // Ctor Parameters [CppParam { name: "", ty: "DisplayNameAttribute", modifiers: "&&", def_value: None }]

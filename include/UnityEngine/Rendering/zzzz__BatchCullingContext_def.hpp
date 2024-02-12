@@ -36,14 +36,14 @@ MARK_VAL_T(::UnityEngine::Rendering::BatchCullingContext);
 // SizeInfo { instance_size: 160, native_size: 160, calculated_instance_size: 160, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9999)), TypeDefinitionIndex(TypeDefinitionIndex(10163)), TypeDefinitionIndex(TypeDefinitionIndex(10245)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10355)), TypeDefinitionIndex(TypeDefinitionIndex(10364)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 98 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 738 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 748 })] Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(10365)) CS Name: ::UnityEngine.Rendering::BatchCullingContext
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8730)), TypeDefinitionIndex(TypeDefinitionIndex(8907)), TypeDefinitionIndex(TypeDefinitionIndex(8989)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9112)), TypeDefinitionIndex(TypeDefinitionIndex(9131)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8730), inst: 103 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8730), inst: 732 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8730), inst: 744 })] Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(9132)) CS Name: ::UnityEngine.Rendering::BatchCullingContext
 struct CORDL_TYPE BatchCullingContext {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x2ceec9c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cfa43c, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::NativeArray_1<::UnityEngine::Plane> inCullingPlanes, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::BatchVisibility> inOutBatchVisibility,
                     ::Unity::Collections::NativeArray_1<int32_t> outVisibleIndices, ::Unity::Collections::NativeArray_1<int32_t> outVisibleIndicesY,
                     ::UnityEngine::Rendering::LODParameters inLodParameters, ::UnityEngine::Matrix4x4 inCullingMatrix, float_t inNearPlane);

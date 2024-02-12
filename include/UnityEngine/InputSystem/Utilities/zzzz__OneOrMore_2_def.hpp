@@ -51,7 +51,7 @@ namespace UnityEngine::InputSystem::Utilities {
 template <typename TValue, typename TList>
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6697))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5956))
 // CS Name: ::UnityEngine.InputSystem.Utilities::OneOrMore`2<TValue,TList>
 struct CORDL_TYPE OneOrMore_2 {
 public:
@@ -140,8 +140,8 @@ namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue, typename TList>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6697)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6697), inst: 4802
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6696)) CS Name: ::OneOrMore`2::Enumerator<TValue,TList>*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5956)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5956), inst: 4775
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5955)) CS Name: ::OneOrMore`2::Enumerator<TValue,TList>*
 class CORDL_TYPE __OneOrMore_2__Enumerator : public ::System::Object {
 public:
   // Declarations

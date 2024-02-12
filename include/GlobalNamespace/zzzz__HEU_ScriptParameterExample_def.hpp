@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::HEU_ScriptParameterExample);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9592))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9384))
 // CS Name: ::HEU_ScriptParameterExample*
 class CORDL_TYPE HEU_ScriptParameterExample : public ::UnityEngine::MonoBehaviour {
 public:
@@ -63,15 +63,15 @@ public:
 
   constexpr void __cordl_internal_set__scale(float_t value);
 
-  /// @brief Method Start, addr 0x214d9c0, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x21e32a4, size 0x288, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method UpdateGravity, addr 0x214dc48, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method UpdateGravity, addr 0x21e352c, size 0xe4, virtual false, abstract: false, final false
   inline void UpdateGravity();
 
   static inline ::GlobalNamespace::HEU_ScriptParameterExample* New_ctor();
 
-  /// @brief Method .ctor, addr 0x214dd2c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21e3610, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_ScriptParameterExample", modifiers: "&&", def_value: None }]

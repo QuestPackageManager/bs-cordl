@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo::GetInstance)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0xf776f4;
+  constexpr static std::size_t addrs = 0xfa2584;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo::_ctor)> {
   constexpr static std::size_t size = 0x8b0;
-  constexpr static std::size_t addrs = 0xf79c54;
+  constexpr static std::size_t addrs = 0xfa4ae4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -46,7 +46,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::Array<::Org::BouncyCastle::Asn1::DerObjectIdentifier*>*>, ::StringW, ::Org::BouncyCastle::Asn1::Asn1OctetString*)>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo::_ctor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0xf7a504;
+  constexpr static std::size_t addrs = 0xfa5394;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo::*)()>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo::ToAsn1Object)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0xf7a5cc;
+  constexpr static std::size_t addrs = 0xfa545c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1OctetString* (::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo::*)()>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo::get_AddProfessionInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf7a794;
+  constexpr static std::size_t addrs = 0xfa5624;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority* (
     ::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo::*)()>(&::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo::get_NamingAuthority)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf7a79c;
+  constexpr static std::size_t addrs = 0xfa562c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -114,7 +114,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::Org::BouncyCastle::Asn1::X500::DirectoryString*, ::Array<::Org::BouncyCastle::Asn1::X500::DirectoryString*>*> (::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo::*)()>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo::GetProfessionItems)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0xf7a7a4;
+  constexpr static std::size_t addrs = 0xfa5634;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::Array<::Org::BouncyCastle::Asn1::DerObjectIdentifier*>*> (
     ::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo::*)()>(&::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo::GetProfessionOids)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0xf7a8b8;
+  constexpr static std::size_t addrs = 0xfa5748;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo::*)()>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo::get_RegistrationNumber)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf7aa20;
+  constexpr static std::size_t addrs = 0xfa58b0;
 
   inline static ::MethodInfo const* methodInfo() {
 

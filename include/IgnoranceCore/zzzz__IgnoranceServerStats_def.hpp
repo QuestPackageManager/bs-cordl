@@ -22,7 +22,7 @@ MARK_VAL_T(::IgnoranceCore::IgnoranceServerStats);
 namespace IgnoranceCore {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15251))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15364))
 // CS Name: ::IgnoranceCore::IgnoranceServerStats
 struct CORDL_TYPE IgnoranceServerStats {
 public:

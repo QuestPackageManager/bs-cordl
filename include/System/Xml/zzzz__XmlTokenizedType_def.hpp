@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Xml::XmlTokenizedType);
 namespace System::Xml {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11542))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11440))
 // CS Name: ::System.Xml::XmlTokenizedType
 struct CORDL_TYPE XmlTokenizedType {
 public:

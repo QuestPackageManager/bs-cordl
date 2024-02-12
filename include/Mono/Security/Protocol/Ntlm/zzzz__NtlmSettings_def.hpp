@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::Mono::Security::Protocol::Ntlm::NtlmSettings);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono::Security::Protocol::Ntlm {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13766))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13768))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13719))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13721))
 // CS Name: ::Mono.Security.Protocol.Ntlm::NtlmSettings*
 class CORDL_TYPE NtlmSettings : public ::System::Object {
 public:
@@ -31,7 +31,7 @@ public:
 
   static inline ::Mono::Security::Protocol::Ntlm::NtlmAuthLevel getStaticF_defaultAuthLevel();
 
-  /// @brief Method get_DefaultAuthLevel, addr 0x2401374, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultAuthLevel, addr 0x24211d4, size 0x58, virtual false, abstract: false, final false
   static inline ::Mono::Security::Protocol::Ntlm::NtlmAuthLevel get_DefaultAuthLevel();
 
   // Ctor Parameters [CppParam { name: "", ty: "NtlmSettings", modifiers: "&&", def_value: None }]

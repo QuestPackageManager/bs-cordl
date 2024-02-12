@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::UnityEngine::UI::GraphicRegistry);
 namespace UnityEngine::UI {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13046))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12944))
 // CS Name: ::UnityEngine.UI::GraphicRegistry*
 class CORDL_TYPE GraphicRegistry : public ::System::Object {
 public:
@@ -82,34 +82,34 @@ public:
 
   static inline ::UnityEngine::UI::GraphicRegistry* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d6098c, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d7ed74, size 0x1a8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_instance, addr 0x2d60b34, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method get_instance, addr 0x2d7ef1c, size 0xa8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UI::GraphicRegistry* get_instance();
 
-  /// @brief Method RegisterGraphicForCanvas, addr 0x2d5c7e4, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method RegisterGraphicForCanvas, addr 0x2d7abcc, size 0x1f4, virtual false, abstract: false, final false
   static inline void RegisterGraphicForCanvas(::UnityEngine::Canvas* c, ::UnityEngine::UI::Graphic* graphic);
 
-  /// @brief Method RegisterRaycastGraphicForCanvas, addr 0x2d5bcbc, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method RegisterRaycastGraphicForCanvas, addr 0x2d7a0a4, size 0x1f4, virtual false, abstract: false, final false
   static inline void RegisterRaycastGraphicForCanvas(::UnityEngine::Canvas* c, ::UnityEngine::UI::Graphic* graphic);
 
-  /// @brief Method UnregisterGraphicForCanvas, addr 0x2d5d1e8, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method UnregisterGraphicForCanvas, addr 0x2d7b5d0, size 0x1a4, virtual false, abstract: false, final false
   static inline void UnregisterGraphicForCanvas(::UnityEngine::Canvas* c, ::UnityEngine::UI::Graphic* graphic);
 
-  /// @brief Method UnregisterRaycastGraphicForCanvas, addr 0x2d5bb40, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method UnregisterRaycastGraphicForCanvas, addr 0x2d79f28, size 0x17c, virtual false, abstract: false, final false
   static inline void UnregisterRaycastGraphicForCanvas(::UnityEngine::Canvas* c, ::UnityEngine::UI::Graphic* graphic);
 
-  /// @brief Method DisableGraphicForCanvas, addr 0x2d5c440, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method DisableGraphicForCanvas, addr 0x2d7a828, size 0x180, virtual false, abstract: false, final false
   static inline void DisableGraphicForCanvas(::UnityEngine::Canvas* c, ::UnityEngine::UI::Graphic* graphic);
 
-  /// @brief Method DisableRaycastGraphicForCanvas, addr 0x2d60bdc, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method DisableRaycastGraphicForCanvas, addr 0x2d7efc4, size 0x180, virtual false, abstract: false, final false
   static inline void DisableRaycastGraphicForCanvas(::UnityEngine::Canvas* c, ::UnityEngine::UI::Graphic* graphic);
 
-  /// @brief Method GetGraphicsForCanvas, addr 0x2d60d5c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetGraphicsForCanvas, addr 0x2d7f144, size 0xbc, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::UI::Graphic>>* GetGraphicsForCanvas(::UnityEngine::Canvas* canvas);
 
-  /// @brief Method GetRaycastableGraphicsForCanvas, addr 0x2d60154, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetRaycastableGraphicsForCanvas, addr 0x2d7e53c, size 0xbc, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::UI::Graphic>>* GetRaycastableGraphicsForCanvas(::UnityEngine::Canvas* canvas);
 
   // Ctor Parameters [CppParam { name: "", ty: "GraphicRegistry", modifiers: "&&", def_value: None }]

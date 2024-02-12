@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ClientCertificateValidator);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12689))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12587))
 // CS Name: ::ClientCertificateValidator*
 class CORDL_TYPE ClientCertificateValidator : public ::System::Object {
 public:
@@ -37,17 +37,17 @@ public:
   /// @brief Convert to "::GlobalNamespace::ICertificateValidator"
   constexpr ::GlobalNamespace::ICertificateValidator* i___GlobalNamespace__ICertificateValidator() noexcept;
 
-  /// @brief Method ValidateCertificateChain, addr 0xe2a5e4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method ValidateCertificateChain, addr 0xe5541c, size 0x4, virtual true, abstract: false, final true
   inline void ValidateCertificateChain(::GlobalNamespace::DnsEndPoint* endPoint, ::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate,
                                        ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> certificateChain);
 
-  /// @brief Method ValidateCertificateChainInternal, addr 0xe2a5e8, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method ValidateCertificateChainInternal, addr 0xe55420, size 0x1c8, virtual false, abstract: false, final false
   inline void ValidateCertificateChainInternal(::GlobalNamespace::DnsEndPoint* endPoint, ::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate,
                                                ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> certificateChain);
 
   static inline ::GlobalNamespace::ClientCertificateValidator* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe2a7b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe555e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ClientCertificateValidator", modifiers: "&&", def_value: None }]

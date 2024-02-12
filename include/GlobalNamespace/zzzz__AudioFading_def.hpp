@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::GlobalNamespace::AudioFading);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4045))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3991))
 // CS Name: ::AudioFading*
 class CORDL_TYPE AudioFading : public ::UnityEngine::MonoBehaviour {
 public:
@@ -60,21 +60,21 @@ public:
 
   constexpr void __cordl_internal_set__targetVolume(float_t value);
 
-  /// @brief Method Start, addr 0x222ae60, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x22b4b00, size 0x5c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x222aee0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x22b4b80, size 0xd0, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method FadeOut, addr 0x222afb0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method FadeOut, addr 0x22b4c50, size 0x20, virtual false, abstract: false, final false
   inline void FadeOut();
 
-  /// @brief Method FadeIn, addr 0x222aebc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method FadeIn, addr 0x22b4b5c, size 0x24, virtual false, abstract: false, final false
   inline void FadeIn();
 
   static inline ::GlobalNamespace::AudioFading* New_ctor();
 
-  /// @brief Method .ctor, addr 0x222afd0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b4c70, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AudioFading", modifiers: "&&", def_value: None }]

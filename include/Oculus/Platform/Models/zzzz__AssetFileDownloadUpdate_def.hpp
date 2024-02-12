@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::AssetFileDownloadUpdate);
 namespace Oculus::Platform::Models {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13422))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13352))
 // CS Name: ::Oculus.Platform.Models::AssetFileDownloadUpdate*
 class CORDL_TYPE AssetFileDownloadUpdate : public ::System::Object {
 public:
@@ -68,7 +68,7 @@ public:
 
   static inline ::Oculus::Platform::Models::AssetFileDownloadUpdate* New_ctor(void* o);
 
-  /// @brief Method .ctor, addr 0x2704ba4, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2737138, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "AssetFileDownloadUpdate", modifiers: "&&", def_value: None }]

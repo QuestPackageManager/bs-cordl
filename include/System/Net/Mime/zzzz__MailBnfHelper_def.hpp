@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::System::Net::Mime::MailBnfHelper);
 namespace System::Net::Mime {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9374))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7384))
 // CS Name: ::System.Net.Mime::MailBnfHelper*
 class CORDL_TYPE MailBnfHelper : public ::System::Object {
 public:
@@ -191,25 +191,25 @@ public:
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_s_months();
 
-  /// @brief Method CreateCharactersAllowedInAtoms, addr 0x2900b6c, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method CreateCharactersAllowedInAtoms, addr 0x29051d4, size 0x1dc, virtual false, abstract: false, final false
   static inline ::ArrayW<bool, ::Array<bool>*> CreateCharactersAllowedInAtoms();
 
-  /// @brief Method CreateCharactersAllowedInQuotedStrings, addr 0x2900d48, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method CreateCharactersAllowedInQuotedStrings, addr 0x29053b0, size 0x114, virtual false, abstract: false, final false
   static inline ::ArrayW<bool, ::Array<bool>*> CreateCharactersAllowedInQuotedStrings();
 
-  /// @brief Method CreateCharactersAllowedInDomainLiterals, addr 0x2900e5c, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method CreateCharactersAllowedInDomainLiterals, addr 0x29054c4, size 0x114, virtual false, abstract: false, final false
   static inline ::ArrayW<bool, ::Array<bool>*> CreateCharactersAllowedInDomainLiterals();
 
-  /// @brief Method CreateCharactersAllowedInHeaderNames, addr 0x2900f70, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method CreateCharactersAllowedInHeaderNames, addr 0x29055d8, size 0xa8, virtual false, abstract: false, final false
   static inline ::ArrayW<bool, ::Array<bool>*> CreateCharactersAllowedInHeaderNames();
 
-  /// @brief Method CreateCharactersAllowedInTokens, addr 0x2901018, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method CreateCharactersAllowedInTokens, addr 0x2905680, size 0xf0, virtual false, abstract: false, final false
   static inline ::ArrayW<bool, ::Array<bool>*> CreateCharactersAllowedInTokens();
 
-  /// @brief Method CreateCharactersAllowedInComments, addr 0x2901108, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method CreateCharactersAllowedInComments, addr 0x2905770, size 0x13c, virtual false, abstract: false, final false
   static inline ::ArrayW<bool, ::Array<bool>*> CreateCharactersAllowedInComments();
 
-  /// @brief Method IsAllowedWhiteSpace, addr 0x2901244, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method IsAllowedWhiteSpace, addr 0x29058ac, size 0xcc, virtual false, abstract: false, final false
   static inline bool IsAllowedWhiteSpace(char16_t c);
 
   // Ctor Parameters [CppParam { name: "", ty: "MailBnfHelper", modifiers: "&&", def_value: None }]

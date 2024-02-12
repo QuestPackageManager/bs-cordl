@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::HMUI::StackLayoutGroup);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 90, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13091))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13563))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12989))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13516))
 // CS Name: ::HMUI::StackLayoutGroup*
 class CORDL_TYPE StackLayoutGroup : public ::UnityEngine::UI::LayoutGroup {
 public:
@@ -43,39 +43,39 @@ public:
 
   constexpr void __cordl_internal_set_m_ChildForceExpandHeight(bool value);
 
-  /// @brief Method get_childForceExpandWidth, addr 0x21243e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_childForceExpandWidth, addr 0x21b8cbc, size 0x8, virtual false, abstract: false, final false
   inline bool get_childForceExpandWidth();
 
-  /// @brief Method set_childForceExpandWidth, addr 0x21243e8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_childForceExpandWidth, addr 0x21b8cc4, size 0x5c, virtual false, abstract: false, final false
   inline void set_childForceExpandWidth(bool value);
 
-  /// @brief Method get_childForceExpandHeight, addr 0x2124444, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_childForceExpandHeight, addr 0x21b8d20, size 0x8, virtual false, abstract: false, final false
   inline bool get_childForceExpandHeight();
 
-  /// @brief Method set_childForceExpandHeight, addr 0x212444c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_childForceExpandHeight, addr 0x21b8d28, size 0x5c, virtual false, abstract: false, final false
   inline void set_childForceExpandHeight(bool value);
 
   static inline ::HMUI::StackLayoutGroup* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21244a8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21b8d84, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CalculateLayoutInputHorizontal, addr 0x21244b8, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method CalculateLayoutInputHorizontal, addr 0x21b8d94, size 0x20, virtual true, abstract: false, final false
   inline void CalculateLayoutInputHorizontal();
 
-  /// @brief Method CalculateLayoutInputVertical, addr 0x212464c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CalculateLayoutInputVertical, addr 0x21b8f28, size 0x8, virtual true, abstract: false, final false
   inline void CalculateLayoutInputVertical();
 
-  /// @brief Method SetLayoutHorizontal, addr 0x2124654, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetLayoutHorizontal, addr 0x21b8f30, size 0x8, virtual true, abstract: false, final false
   inline void SetLayoutHorizontal();
 
-  /// @brief Method SetLayoutVertical, addr 0x2124864, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetLayoutVertical, addr 0x21b9140, size 0x8, virtual true, abstract: false, final false
   inline void SetLayoutVertical();
 
-  /// @brief Method CalcAlongAxis, addr 0x21244d8, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method CalcAlongAxis, addr 0x21b8db4, size 0x174, virtual false, abstract: false, final false
   inline void CalcAlongAxis(int32_t axis);
 
-  /// @brief Method SetChildrenAlongAxis, addr 0x212465c, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method SetChildrenAlongAxis, addr 0x21b8f38, size 0x208, virtual false, abstract: false, final false
   inline void SetChildrenAlongAxis(int32_t axis);
 
   // Ctor Parameters [CppParam { name: "", ty: "StackLayoutGroup", modifiers: "&&", def_value: None }]

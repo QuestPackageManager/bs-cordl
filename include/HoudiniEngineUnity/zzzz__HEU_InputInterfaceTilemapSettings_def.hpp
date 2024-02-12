@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings);
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9845))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9637))
 // CS Name: ::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings*
 class CORDL_TYPE HEU_InputInterfaceTilemapSettings : public ::System::Object {
 public:
@@ -58,7 +58,7 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21cb574, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2260e58, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_InputInterfaceTilemapSettings", modifiers: "&&", def_value: None }]

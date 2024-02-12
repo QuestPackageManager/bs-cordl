@@ -16,12 +16,12 @@ MARK_REF_PTR_T(::UnityEngine::SubsystemBindings);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15966))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16089))
 // CS Name: ::UnityEngine::SubsystemBindings*
 class CORDL_TYPE SubsystemBindings : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method DestroySubsystem, addr 0x2d1a5ac, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method DestroySubsystem, addr 0x2d3b054, size 0x3c, virtual false, abstract: false, final false
   static inline void DestroySubsystem(void* nativePtr);
 
   // Ctor Parameters [CppParam { name: "", ty: "SubsystemBindings", modifiers: "&&", def_value: None }]

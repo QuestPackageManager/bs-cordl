@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_LoadBufferInstancer);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9804))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9808))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9596))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9600))
 // CS Name: ::HoudiniEngineUnity::HEU_LoadBufferInstancer*
 class CORDL_TYPE HEU_LoadBufferInstancer : public ::HoudiniEngineUnity::HEU_LoadBufferBase {
 public:
@@ -74,7 +74,7 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_LoadBufferInstancer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21abd98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x224167c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_LoadBufferInstancer", modifiers: "&&", def_value: None }]

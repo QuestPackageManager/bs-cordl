@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::JsonConverter);
 namespace Newtonsoft::Json {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11830))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11728))
 // CS Name: ::Newtonsoft.Json::JsonConverter*
 class CORDL_TYPE JsonConverter : public ::System::Object {
 public:
@@ -48,15 +48,15 @@ public:
   /// @brief Method CanConvert, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool CanConvert(::System::Type* objectType);
 
-  /// @brief Method get_CanRead, addr 0x264a514, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanRead, addr 0x266e6d0, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanRead();
 
-  /// @brief Method get_CanWrite, addr 0x264a51c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanWrite, addr 0x266e6d8, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanWrite();
 
   static inline ::Newtonsoft::Json::JsonConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x264a524, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x266e6e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "JsonConverter", modifiers: "&&", def_value: None }]

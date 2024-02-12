@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::Zenject::IProviderExtensions);
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11205))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10347))
 // CS Name: ::Zenject::IProviderExtensions*
 class CORDL_TYPE IProviderExtensions : public ::System::Object {
 public:
@@ -46,27 +46,27 @@ public:
 
   static inline ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* getStaticF_EmptyArgList();
 
-  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x2f07bdc, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x2f23d24, size 0xfc, virtual false, abstract: false, final false
   static inline void GetAllInstancesWithInjectSplit(::Zenject::IProvider* creator, ::Zenject::InjectContext* context, ByRef<::System::Action*> injectAction,
                                                     ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 
-  /// @brief Method GetAllInstances, addr 0x2f07cd8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetAllInstances, addr 0x2f23e20, size 0x78, virtual false, abstract: false, final false
   static inline void GetAllInstances(::Zenject::IProvider* creator, ::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 
-  /// @brief Method GetAllInstances, addr 0x2f07d50, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method GetAllInstances, addr 0x2f23e98, size 0xf8, virtual false, abstract: false, final false
   static inline void GetAllInstances(::Zenject::IProvider* creator, ::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args,
                                      ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 
-  /// @brief Method TryGetInstance, addr 0x2f07e48, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method TryGetInstance, addr 0x2f23f90, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Object* TryGetInstance(::Zenject::IProvider* creator, ::Zenject::InjectContext* context);
 
-  /// @brief Method TryGetInstance, addr 0x2f07eb8, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method TryGetInstance, addr 0x2f24000, size 0x1ec, virtual false, abstract: false, final false
   static inline ::System::Object* TryGetInstance(::Zenject::IProvider* creator, ::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args);
 
-  /// @brief Method GetInstance, addr 0x2f080a4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x2f241ec, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Object* GetInstance(::Zenject::IProvider* creator, ::Zenject::InjectContext* context);
 
-  /// @brief Method GetInstance, addr 0x2f08114, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x2f2425c, size 0x23c, virtual false, abstract: false, final false
   static inline ::System::Object* GetInstance(::Zenject::IProvider* creator, ::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args);
 
   // Ctor Parameters [CppParam { name: "", ty: "IProviderExtensions", modifiers: "&&", def_value: None }]

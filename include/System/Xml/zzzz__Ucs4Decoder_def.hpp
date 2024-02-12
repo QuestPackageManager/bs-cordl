@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::System::Xml::Ucs4Decoder);
 namespace System::Xml {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2827))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11562))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11460))
 // CS Name: ::System.Xml::Ucs4Decoder*
 class CORDL_TYPE Ucs4Decoder : public ::System::Text::Decoder {
 public:
@@ -41,25 +41,25 @@ public:
 
   constexpr void __cordl_internal_set_lastBytesCount(int32_t value);
 
-  /// @brief Method GetCharCount, addr 0x28a62ac, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetCharCount, addr 0x28a9914, size 0x1c, virtual true, abstract: false, final false
   inline int32_t GetCharCount(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t index, int32_t count);
 
   /// @brief Method GetFullChars, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetFullChars(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t byteIndex, int32_t byteCount, ::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t charIndex);
 
-  /// @brief Method GetChars, addr 0x28a62c8, size 0x178, virtual true, abstract: false, final false
+  /// @brief Method GetChars, addr 0x28a9930, size 0x178, virtual true, abstract: false, final false
   inline int32_t GetChars(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t byteIndex, int32_t byteCount, ::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t charIndex);
 
-  /// @brief Method Convert, addr 0x28a6440, size 0x1f4, virtual true, abstract: false, final false
+  /// @brief Method Convert, addr 0x28a9aa8, size 0x1f4, virtual true, abstract: false, final false
   inline void Convert(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t byteIndex, int32_t byteCount, ::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t charIndex, int32_t charCount, bool flush,
                       ByRef<int32_t> bytesUsed, ByRef<int32_t> charsUsed, ByRef<bool> completed);
 
-  /// @brief Method Ucs4ToUTF16, addr 0x28a6634, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Ucs4ToUTF16, addr 0x28a9c9c, size 0x58, virtual false, abstract: false, final false
   inline void Ucs4ToUTF16(uint32_t code, ::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t charIndex);
 
   static inline ::System::Xml::Ucs4Decoder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28a668c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28a9cf4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Ucs4Decoder", modifiers: "&&", def_value: None }]

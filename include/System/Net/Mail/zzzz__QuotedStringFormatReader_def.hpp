@@ -17,18 +17,18 @@ MARK_REF_PTR_T(::System::Net::Mail::QuotedStringFormatReader);
 namespace System::Net::Mail {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9380))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7390))
 // CS Name: ::System.Net.Mail::QuotedStringFormatReader*
 class CORDL_TYPE QuotedStringFormatReader : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ReadReverseQuoted, addr 0x2902da8, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method ReadReverseQuoted, addr 0x2907410, size 0x1cc, virtual false, abstract: false, final false
   static inline int32_t ReadReverseQuoted(::StringW data, int32_t index, bool permitUnicode);
 
-  /// @brief Method ReadReverseUnQuoted, addr 0x2902f74, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method ReadReverseUnQuoted, addr 0x29075dc, size 0x1a0, virtual false, abstract: false, final false
   static inline int32_t ReadReverseUnQuoted(::StringW data, int32_t index, bool permitUnicode, bool expectCommaDelimiter);
 
-  /// @brief Method IsValidQtext, addr 0x29031b8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method IsValidQtext, addr 0x2907820, size 0xb8, virtual false, abstract: false, final false
   static inline bool IsValidQtext(bool allowUnicode, char16_t ch);
 
   // Ctor Parameters [CppParam { name: "", ty: "QuotedStringFormatReader", modifiers: "&&", def_value: None }]

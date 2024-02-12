@@ -45,22 +45,22 @@ public:
 
   static inline ::Org::BouncyCastle::Tsp::GenTimeAccuracy* New_ctor(::Org::BouncyCastle::Asn1::Tsp::Accuracy* accuracy);
 
-  /// @brief Method .ctor, addr 0x114ef5c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x117cdec, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Tsp::Accuracy* accuracy);
 
-  /// @brief Method get_Seconds, addr 0x114ef84, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_Seconds, addr 0x117ce14, size 0x2c, virtual false, abstract: false, final false
   inline int32_t get_Seconds();
 
-  /// @brief Method get_Millis, addr 0x114efc8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_Millis, addr 0x117ce58, size 0x2c, virtual false, abstract: false, final false
   inline int32_t get_Millis();
 
-  /// @brief Method get_Micros, addr 0x114eff4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_Micros, addr 0x117ce84, size 0x2c, virtual false, abstract: false, final false
   inline int32_t get_Micros();
 
-  /// @brief Method GetTimeComponent, addr 0x114efb0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetTimeComponent, addr 0x117ce40, size 0x18, virtual false, abstract: false, final false
   inline int32_t GetTimeComponent(::Org::BouncyCastle::Asn1::DerInteger* time);
 
-  /// @brief Method ToString, addr 0x114f020, size 0x1bc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x117ceb0, size 0x1bc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "GenTimeAccuracy", modifiers: "&&", def_value: None }]

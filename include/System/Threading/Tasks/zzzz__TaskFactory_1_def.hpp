@@ -87,7 +87,7 @@ namespace System::Threading::Tasks {
 // cpp template
 template <typename TResult, typename TInstance>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2773)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 5117 })]
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2773)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 5099 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2775))
 // CS Name: ::TaskFactory`1::FromAsyncTrimPromise`1<TResult,TInstance>*
 class CORDL_TYPE __TaskFactory_1__FromAsyncTrimPromise_1 : public ::System::Threading::Tasks::Task_1<TResult> {

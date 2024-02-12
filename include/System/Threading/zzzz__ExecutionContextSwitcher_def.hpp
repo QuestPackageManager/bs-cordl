@@ -30,10 +30,10 @@ namespace System::Threading {
 struct CORDL_TYPE ExecutionContextSwitcher {
 public:
   // Declarations
-  /// @brief Method UndoNoThrow, addr 0x2616c48, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method UndoNoThrow, addr 0x263bb50, size 0x88, virtual false, abstract: false, final false
   inline bool UndoNoThrow();
 
-  /// @brief Method Undo, addr 0x2616cd0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Undo, addr 0x263bbd8, size 0x88, virtual false, abstract: false, final false
   inline void Undo();
 
   // Ctor Parameters [CppParam { name: "outerEC", ty: "::System::Threading::__ExecutionContext__Reader", modifiers: "", def_value: None }, CppParam { name: "outerECBelongsToScope", ty: "bool",

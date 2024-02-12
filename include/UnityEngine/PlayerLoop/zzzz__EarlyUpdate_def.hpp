@@ -232,7 +232,7 @@ MARK_VAL_T(::UnityEngine::PlayerLoop::__EarlyUpdate__XRUpdate);
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10485))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9254))
 // CS Name: ::EarlyUpdate::PollPlayerConnection
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__PollPlayerConnection {
@@ -260,7 +260,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10486))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9255))
 // CS Name: ::EarlyUpdate::PollHtcsPlayerConnection
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__PollHtcsPlayerConnection {
@@ -288,7 +288,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10487))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9256))
 // CS Name: ::EarlyUpdate::GpuTimestamp
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__GpuTimestamp {
@@ -316,7 +316,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10488))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9257))
 // CS Name: ::EarlyUpdate::AnalyticsCoreStatsUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__AnalyticsCoreStatsUpdate {
@@ -344,7 +344,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10489))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9258))
 // CS Name: ::EarlyUpdate::UnityWebRequestUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__UnityWebRequestUpdate {
@@ -372,7 +372,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10490))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9259))
 // CS Name: ::EarlyUpdate::UpdateStreamingManager
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__UpdateStreamingManager {
@@ -400,7 +400,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10491))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9260))
 // CS Name: ::EarlyUpdate::ExecuteMainThreadJobs
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__ExecuteMainThreadJobs {
@@ -428,7 +428,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10492))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9261))
 // CS Name: ::EarlyUpdate::ProcessMouseInWindow
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__ProcessMouseInWindow {
@@ -456,7 +456,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10493))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9262))
 // CS Name: ::EarlyUpdate::ClearIntermediateRenderers
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__ClearIntermediateRenderers {
@@ -484,7 +484,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10494))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9263))
 // CS Name: ::EarlyUpdate::ClearLines
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__ClearLines {
@@ -512,7 +512,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10495))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9264))
 // CS Name: ::EarlyUpdate::PresentBeforeUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__PresentBeforeUpdate {
@@ -540,7 +540,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10496))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9265))
 // CS Name: ::EarlyUpdate::ResetFrameStatsAfterPresent
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__ResetFrameStatsAfterPresent {
@@ -568,7 +568,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10497))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9266))
 // CS Name: ::EarlyUpdate::UpdateAsyncReadbackManager
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__UpdateAsyncReadbackManager {
@@ -596,7 +596,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10498))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9267))
 // CS Name: ::EarlyUpdate::UpdateTextureStreamingManager
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__UpdateTextureStreamingManager {
@@ -624,7 +624,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10499))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9268))
 // CS Name: ::EarlyUpdate::UpdatePreloading
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__UpdatePreloading {
@@ -652,7 +652,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10500))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9269))
 // CS Name: ::EarlyUpdate::RendererNotifyInvisible
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__RendererNotifyInvisible {
@@ -680,7 +680,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10501))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9270))
 // CS Name: ::EarlyUpdate::PlayerCleanupCachedData
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__PlayerCleanupCachedData {
@@ -708,7 +708,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10502))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9271))
 // CS Name: ::EarlyUpdate::UpdateMainGameViewRect
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__UpdateMainGameViewRect {
@@ -736,7 +736,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10503))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9272))
 // CS Name: ::EarlyUpdate::UpdateCanvasRectTransform
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__UpdateCanvasRectTransform {
@@ -764,7 +764,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10504))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9273))
 // CS Name: ::EarlyUpdate::UpdateInputManager
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__UpdateInputManager {
@@ -792,7 +792,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10505))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9274))
 // CS Name: ::EarlyUpdate::ProcessRemoteInput
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__ProcessRemoteInput {
@@ -820,7 +820,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10506))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9275))
 // CS Name: ::EarlyUpdate::XRUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__XRUpdate {
@@ -848,7 +848,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10507))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9276))
 // CS Name: ::EarlyUpdate::ScriptRunDelayedStartupFrame
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__ScriptRunDelayedStartupFrame {
@@ -876,7 +876,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10508))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9277))
 // CS Name: ::EarlyUpdate::UpdateKinect
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__UpdateKinect {
@@ -904,7 +904,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10509))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9278))
 // CS Name: ::EarlyUpdate::DeliverIosPlatformEvents
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__DeliverIosPlatformEvents {
@@ -932,7 +932,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10510))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9279))
 // CS Name: ::EarlyUpdate::DispatchEventQueueEvents
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__DispatchEventQueueEvents {
@@ -960,7 +960,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10511))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9280))
 // CS Name: ::EarlyUpdate::PhysicsResetInterpolatedTransformPosition
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__PhysicsResetInterpolatedTransformPosition {
@@ -988,7 +988,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10512))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9281))
 // CS Name: ::EarlyUpdate::SpriteAtlasManagerUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__SpriteAtlasManagerUpdate {
@@ -1016,7 +1016,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10513))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9282))
 // CS Name: ::EarlyUpdate::TangoUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__TangoUpdate {
@@ -1044,7 +1044,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10514))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9283))
 // CS Name: ::EarlyUpdate::ARCoreUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__ARCoreUpdate {
@@ -1072,7 +1072,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10515))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9284))
 // CS Name: ::EarlyUpdate::PerformanceAnalyticsUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__PerformanceAnalyticsUpdate {
@@ -1100,7 +1100,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10516))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9285))
 // CS Name: ::UnityEngine.PlayerLoop::EarlyUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE EarlyUpdate {

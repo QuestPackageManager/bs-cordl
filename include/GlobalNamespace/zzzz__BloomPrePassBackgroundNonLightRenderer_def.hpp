@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14465))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14464))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14359))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14358))
 // CS Name: ::BloomPrePassBackgroundNonLightRenderer*
 class CORDL_TYPE BloomPrePassBackgroundNonLightRenderer : public ::GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore {
 public:
@@ -73,33 +73,33 @@ public:
 
   constexpr void __cordl_internal_set__cachedTransform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method get_renderer, addr 0x2105844, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_renderer, addr 0x2199fec, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Renderer> get_renderer();
 
-  /// @brief Method get_meshFilter, addr 0x210584c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_meshFilter, addr 0x2199ff4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::MeshFilter> get_meshFilter();
 
-  /// @brief Method get_cachedTransform, addr 0x2105854, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cachedTransform, addr 0x2199ffc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_cachedTransform();
 
-  /// @brief Method set_isPartOfInstancedRendering, addr 0x2104cd4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_isPartOfInstancedRendering, addr 0x219947c, size 0x30, virtual false, abstract: false, final false
   inline void set_isPartOfInstancedRendering(bool value);
 
-  /// @brief Method Awake, addr 0x2105a3c, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x219a1e4, size 0x2c, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnEnable, addr 0x2105a74, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x219a21c, size 0x10, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnValidate, addr 0x2105a88, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x219a230, size 0x34, virtual true, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method InitIfNeeded, addr 0x2105abc, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method InitIfNeeded, addr 0x219a264, size 0xc8, virtual true, abstract: false, final false
   inline void InitIfNeeded();
 
   static inline ::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2105c98, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x219a440, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundNonLightRenderer", modifiers: "&&", def_value: None }]

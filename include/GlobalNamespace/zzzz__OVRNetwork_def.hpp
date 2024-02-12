@@ -70,16 +70,16 @@ MARK_VAL_T(::GlobalNamespace::__OVRNetwork__FrameHeader);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8140))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8097))
 // CS Name: ::OVRNetwork::FrameHeader
 #pragma pack(push, 1)
 struct CORDL_TYPE __OVRNetwork__FrameHeader {
 public:
   // Declarations
-  /// @brief Method ToBytes, addr 0x27b47a4, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method ToBytes, addr 0x27c6180, size 0x120, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ToBytes();
 
-  /// @brief Method FromBytes, addr 0x27b48c4, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method FromBytes, addr 0x27c62a0, size 0x130, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRNetwork__FrameHeader FromBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> arr);
 
   // Ctor Parameters [CppParam { name: "protocolIdentifier", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "payloadType", ty: "int32_t", modifiers: "", def_value: None }, CppParam
@@ -123,7 +123,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRNetwork__FrameHeader, payloadLeng
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8141))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8098))
 // CS Name: ::OVRNetwork::OVRNetworkTcpServer*
 class CORDL_TYPE __OVRNetwork__OVRNetworkTcpServer : public ::System::Object {
 public:
@@ -155,27 +155,27 @@ public:
 
   constexpr void __cordl_internal_set_clients(::System::Collections::Generic::List_1<::System::Net::Sockets::TcpClient*>* value);
 
-  /// @brief Method StartListening, addr 0x27b49f4, size 0x528, virtual false, abstract: false, final false
+  /// @brief Method StartListening, addr 0x27c63d0, size 0x528, virtual false, abstract: false, final false
   inline void StartListening(int32_t listeningPort);
 
-  /// @brief Method StopListening, addr 0x27b4f1c, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method StopListening, addr 0x27c68f8, size 0x1c0, virtual false, abstract: false, final false
   inline void StopListening();
 
-  /// @brief Method DoAcceptTcpClientCallback, addr 0x27b50dc, size 0x54c, virtual false, abstract: false, final false
+  /// @brief Method DoAcceptTcpClientCallback, addr 0x27c6ab8, size 0x54c, virtual false, abstract: false, final false
   inline void DoAcceptTcpClientCallback(::System::IAsyncResult* ar);
 
-  /// @brief Method HasConnectedClient, addr 0x27b5628, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method HasConnectedClient, addr 0x27c7004, size 0x254, virtual false, abstract: false, final false
   inline bool HasConnectedClient();
 
-  /// @brief Method Broadcast, addr 0x27b587c, size 0x5b0, virtual false, abstract: false, final false
+  /// @brief Method Broadcast, addr 0x27c7258, size 0x5b0, virtual false, abstract: false, final false
   inline void Broadcast(int32_t payloadType, ::ArrayW<uint8_t, ::Array<uint8_t>*> payload);
 
-  /// @brief Method DoWriteDataCallback, addr 0x27b5e2c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method DoWriteDataCallback, addr 0x27c7808, size 0xf4, virtual false, abstract: false, final false
   inline void DoWriteDataCallback(::System::IAsyncResult* ar);
 
   static inline ::GlobalNamespace::__OVRNetwork__OVRNetworkTcpServer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x27b5f20, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27c78fc, size 0xac, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__OVRNetwork__OVRNetworkTcpServer", modifiers: "&&", def_value: None }]
@@ -218,7 +218,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRNetwork__OVRNetworkTcpServer, ___
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8142))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8099))
 // CS Name: ::OVRNetwork::OVRNetworkTcpClient::ConnectionState
 struct CORDL_TYPE __OVRNetwork__OVRNetworkTcpClient__ConnectionState {
 public:
@@ -272,7 +272,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRNetwork__OVRNetworkTcpClient__Con
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8143))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8100))
 // CS Name: ::OVRNetwork::OVRNetworkTcpClient*
 class CORDL_TYPE __OVRNetwork__OVRNetworkTcpClient : public ::System::Object {
 public:
@@ -348,30 +348,30 @@ public:
 
   constexpr void __cordl_internal_set_readyReceiveDataEvent(::System::Threading::ManualResetEvent* value);
 
-  /// @brief Method get_connectionState, addr 0x27b5fcc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_connectionState, addr 0x27c79a8, size 0x28, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRNetwork__OVRNetworkTcpClient__ConnectionState get_connectionState();
 
-  /// @brief Method get_Connected, addr 0x27b5ff4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_Connected, addr 0x27c79d0, size 0x14, virtual false, abstract: false, final false
   inline bool get_Connected();
 
-  /// @brief Method Connect, addr 0x27b6008, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method Connect, addr 0x27c79e4, size 0x17c, virtual false, abstract: false, final false
   inline void Connect(int32_t listeningPort);
 
-  /// @brief Method ConnectCallback, addr 0x27b6184, size 0x300, virtual false, abstract: false, final false
+  /// @brief Method ConnectCallback, addr 0x27c7b60, size 0x300, virtual false, abstract: false, final false
   inline void ConnectCallback(::System::IAsyncResult* ar);
 
-  /// @brief Method Disconnect, addr 0x27b6484, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method Disconnect, addr 0x27c7e60, size 0x238, virtual false, abstract: false, final false
   inline void Disconnect();
 
-  /// @brief Method Tick, addr 0x27b66bc, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method Tick, addr 0x27c8098, size 0x218, virtual false, abstract: false, final false
   inline void Tick();
 
-  /// @brief Method OnReadDataCallback, addr 0x27b68d4, size 0x4dc, virtual false, abstract: false, final false
+  /// @brief Method OnReadDataCallback, addr 0x27c82b0, size 0x4dc, virtual false, abstract: false, final false
   inline void OnReadDataCallback(::System::IAsyncResult* ar);
 
   static inline ::GlobalNamespace::__OVRNetwork__OVRNetworkTcpClient* New_ctor();
 
-  /// @brief Method .ctor, addr 0x27b6db0, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27c878c, size 0x134, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__OVRNetwork__OVRNetworkTcpClient", modifiers: "&&", def_value: None }]
@@ -434,7 +434,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRNetwork__OVRNetworkTcpClient, ___
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8144))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8101))
 // CS Name: ::OVRNetwork*
 class CORDL_TYPE OVRNetwork : public ::System::Object {
 public:
@@ -447,7 +447,7 @@ public:
 
   static inline ::GlobalNamespace::OVRNetwork* New_ctor();
 
-  /// @brief Method .ctor, addr 0x27b479c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27c6178, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRNetwork", modifiers: "&&", def_value: None }]

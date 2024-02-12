@@ -46,15 +46,15 @@ public:
 
   constexpr void __cordl_internal_set__principal(::System::Security::Principal::IPrincipal* value);
 
-  /// @brief Method get_HasInfo, addr 0x24a7418, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HasInfo, addr 0x24c948c, size 0x10, virtual false, abstract: false, final false
   inline bool get_HasInfo();
 
-  /// @brief Method Clone, addr 0x24a73a0, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Clone, addr 0x24c9414, size 0x68, virtual true, abstract: false, final true
   inline ::System::Object* Clone();
 
   static inline ::System::Runtime::Remoting::Messaging::CallContextSecurityData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24a7574, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24c95e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CallContextSecurityData", modifiers: "&&", def_value: None }]

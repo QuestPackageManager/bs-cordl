@@ -9,9 +9,6 @@ namespace System::Runtime::CompilerServices {
 class ICriticalNotifyCompletion;
 }
 namespace System::Runtime::CompilerServices {
-class INotifyCompletion;
-}
-namespace System::Runtime::CompilerServices {
 template <typename TResult> struct __ConfiguredValueTaskAwaitable_1__ConfiguredValueTaskAwaiter;
 }
 namespace System::Threading::Tasks {
@@ -36,8 +33,8 @@ namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename TResult>
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2767)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2767), inst: 5302 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3363))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2767)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2767), inst: 5282 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3360))
 // CS Name: ::ConfiguredValueTaskAwaitable`1::ConfiguredValueTaskAwaiter<TResult>
 struct CORDL_TYPE __ConfiguredValueTaskAwaitable_1__ConfiguredValueTaskAwaiter {
 public:
@@ -50,12 +47,6 @@ public:
   /// @brief Convert to "::System::Runtime::CompilerServices::ICriticalNotifyCompletion"
   constexpr ::System::Runtime::CompilerServices::ICriticalNotifyCompletion* i___System__Runtime__CompilerServices__ICriticalNotifyCompletion();
 
-  /// @brief Convert operator to "::System::Runtime::CompilerServices::INotifyCompletion"
-  constexpr operator ::System::Runtime::CompilerServices::INotifyCompletion*();
-
-  /// @brief Convert to "::System::Runtime::CompilerServices::INotifyCompletion"
-  constexpr ::System::Runtime::CompilerServices::INotifyCompletion* i___System__Runtime__CompilerServices__INotifyCompletion();
-
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::ValueTask_1<TResult> value);
 
@@ -64,9 +55,6 @@ public:
 
   /// @brief Method GetResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TResult GetResult();
-
-  /// @brief Method OnCompleted, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline void OnCompleted(::System::Action* continuation);
 
   /// @brief Method UnsafeOnCompleted, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void UnsafeOnCompleted(::System::Action* continuation);
@@ -94,8 +82,8 @@ namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename TResult>
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2767)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2767), inst: 1127 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3364))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2767)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2767), inst: 1118 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3361))
 // CS Name: ::System.Runtime.CompilerServices::ConfiguredValueTaskAwaitable`1<TResult>
 struct CORDL_TYPE ConfiguredValueTaskAwaitable_1 {
 public:

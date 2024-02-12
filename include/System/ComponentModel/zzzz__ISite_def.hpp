@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::System::ComponentModel::ISite);
 namespace System::ComponentModel {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9397))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7407))
 // CS Name: ::System.ComponentModel::ISite*
 class CORDL_TYPE ISite {
 public:

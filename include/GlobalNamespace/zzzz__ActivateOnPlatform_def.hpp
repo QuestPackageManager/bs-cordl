@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ActivateOnPlatform);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14415))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14330))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(14564))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14488))
 // CS Name: ::ActivateOnPlatform*
 class CORDL_TYPE ActivateOnPlatform : public ::UnityEngine::MonoBehaviour {
 public:
@@ -42,12 +42,12 @@ public:
 
   constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
 
-  /// @brief Method Awake, addr 0x20ee708, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2182c90, size 0xd0, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::ActivateOnPlatform* New_ctor();
 
-  /// @brief Method .ctor, addr 0x20ee7d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2182d60, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ActivateOnPlatform", modifiers: "&&", def_value: None }]

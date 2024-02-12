@@ -30,8 +30,8 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleFloat);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7300))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7297))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6559))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6556))
 // CS Name: ::UnityEngine.UIElements::StyleFloat
 struct CORDL_TYPE StyleFloat {
 public:
@@ -52,40 +52,40 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StyleFloat>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::StyleFloat>* i___System__IEquatable_1___UnityEngine__UIElements__StyleFloat_();
 
-  /// @brief Method get_value, addr 0x2e70994, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method get_value, addr 0x2e8ad7c, size 0x18, virtual true, abstract: false, final true
   inline float_t get_value();
 
-  /// @brief Method get_keyword, addr 0x2e709ac, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_keyword, addr 0x2e8ad94, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleKeyword get_keyword();
 
-  /// @brief Method .ctor, addr 0x2e709b4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e8ad9c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t v);
 
-  /// @brief Method .ctor, addr 0x2e709cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e8adb4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method .ctor, addr 0x2e709c0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e8ada8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t v, ::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method op_Equality, addr 0x2e709d4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x2e8adbc, size 0x28, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::StyleFloat lhs, ::UnityEngine::UIElements::StyleFloat rhs);
 
-  /// @brief Method op_Implicit, addr 0x2e709fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2e8ade4, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleFloat op_Implicit___UnityEngine__UIElements__StyleFloat(::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method op_Implicit, addr 0x2e70a04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2e8adec, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleFloat op_Implicit___UnityEngine__UIElements__StyleFloat(float_t v);
 
-  /// @brief Method Equals, addr 0x2e70a0c, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2e8adf4, size 0x28, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::StyleFloat other);
 
-  /// @brief Method Equals, addr 0x2e70a34, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2e8ae1c, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2e70ac0, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2e8aea8, size 0x28, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x2e70ae8, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2e8aed0, size 0x78, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "m_Value", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Keyword", ty: "::UnityEngine::UIElements::StyleKeyword", modifiers: "",

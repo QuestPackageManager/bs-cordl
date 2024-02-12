@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_SessionSyncData);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9789))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9581))
 // CS Name: ::HEU_SessionSyncData::Status
 struct CORDL_TYPE __HEU_SessionSyncData__Status {
 public:
@@ -89,8 +89,8 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_SessionSyncData__Status, valu
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 99, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9755)), TypeDefinitionIndex(TypeDefinitionIndex(9756))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9790))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9547)), TypeDefinitionIndex(TypeDefinitionIndex(9548))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9582))
 // CS Name: ::HoudiniEngineUnity::HEU_SessionSyncData*
 class CORDL_TYPE HEU_SessionSyncData : public ::System::Object {
 public:
@@ -189,15 +189,15 @@ public:
 
   constexpr void __cordl_internal_set__syncInfo(::HoudiniEngineUnity::HAPI_SessionSyncInfo value);
 
-  /// @brief Method get_SyncStatus, addr 0x21a53d0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_SyncStatus, addr 0x223acb4, size 0x14, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::__HEU_SessionSyncData__Status get_SyncStatus();
 
-  /// @brief Method set_SyncStatus, addr 0x21a53e4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_SyncStatus, addr 0x223acc8, size 0xc, virtual false, abstract: false, final false
   inline void set_SyncStatus(::HoudiniEngineUnity::__HEU_SessionSyncData__Status value);
 
   static inline ::HoudiniEngineUnity::HEU_SessionSyncData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21a2764, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2238048, size 0xac, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_SessionSyncData", modifiers: "&&", def_value: None }]

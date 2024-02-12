@@ -49,7 +49,7 @@ MARK_REF_PTR_T(::Zenject::__ProjectKernel____c__DisplayClass4_0);
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11324))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10466))
 // CS Name: ::ProjectKernel::<>c__DisplayClass4_0*
 class CORDL_TYPE __ProjectKernel____c__DisplayClass4_0 : public ::System::Object {
 public:
@@ -74,16 +74,16 @@ public:
 
   static inline ::Zenject::__ProjectKernel____c__DisplayClass4_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f16414, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f3255c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <ForceUnloadAllScenes>b__0, addr 0x2f16a78, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method <ForceUnloadAllScenes>b__0, addr 0x2f32bc0, size 0x78, virtual false, abstract: false, final false
   inline int32_t _ForceUnloadAllScenes_b__0(::Zenject::SceneContext* x);
 
-  /// @brief Method __zenCreate, addr 0x2f16af0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2f32c38, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f16b4c, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f32c94, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ProjectKernel____c__DisplayClass4_0", modifiers: "&&", def_value: None }]
@@ -120,8 +120,8 @@ static_assert(offsetof(::Zenject::__ProjectKernel____c__DisplayClass4_0, _____9_
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11323))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11325))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10465))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10467))
 // CS Name: ::Zenject::ProjectKernel*
 class CORDL_TYPE ProjectKernel : public ::Zenject::MonoKernel {
 public:
@@ -146,27 +146,27 @@ public:
 
   constexpr void __cordl_internal_set__contextRegistry(::Zenject::SceneContextRegistry* value);
 
-  /// @brief Method OnApplicationQuit, addr 0x2f15f6c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationQuit, addr 0x2f320b4, size 0x28, virtual false, abstract: false, final false
   inline void OnApplicationQuit();
 
-  /// @brief Method DestroyEverythingInOrder, addr 0x2f15f94, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method DestroyEverythingInOrder, addr 0x2f320dc, size 0x98, virtual false, abstract: false, final false
   inline void DestroyEverythingInOrder();
 
-  /// @brief Method ForceUnloadAllScenes, addr 0x2f1602c, size 0x3e8, virtual false, abstract: false, final false
+  /// @brief Method ForceUnloadAllScenes, addr 0x2f32174, size 0x3e8, virtual false, abstract: false, final false
   inline void ForceUnloadAllScenes(bool immediate);
 
   static inline ::Zenject::ProjectKernel* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f1646c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f325b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method __zenFieldSetter0, addr 0x2f16474, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method __zenFieldSetter0, addr 0x2f325bc, size 0x134, virtual false, abstract: false, final false
   static inline void __zenFieldSetter0(::System::Object* P_0, ::System::Object* P_1);
 
-  /// @brief Method __zenFieldSetter1, addr 0x2f165a8, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method __zenFieldSetter1, addr 0x2f326f0, size 0x134, virtual false, abstract: false, final false
   static inline void __zenFieldSetter1(::System::Object* P_0, ::System::Object* P_1);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f166dc, size 0x39c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f32824, size 0x39c, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "ProjectKernel", modifiers: "&&", def_value: None }]

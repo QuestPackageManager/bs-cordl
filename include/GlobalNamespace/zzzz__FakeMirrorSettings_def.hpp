@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::GlobalNamespace::FakeMirrorSettings);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15286))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8993))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15401))
 // CS Name: ::FakeMirrorSettings*
 class CORDL_TYPE FakeMirrorSettings : public ::UnityEngine::MonoBehaviour {
 public:
@@ -114,27 +114,27 @@ public:
 
   static inline int32_t getStaticF__vertexDistortionZposMultiplierId();
 
-  /// @brief Method get_fakeMirrorTransparency, addr 0x28079e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fakeMirrorTransparency, addr 0x280c1d0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_fakeMirrorTransparency();
 
-  /// @brief Method set_fakeMirrorTransparency, addr 0x28079f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_fakeMirrorTransparency, addr 0x280c1d8, size 0x8, virtual false, abstract: false, final false
   inline void set_fakeMirrorTransparency(float_t value);
 
-  /// @brief Method Start, addr 0x28079f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x280c1e0, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnEnable, addr 0x2807b0c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x280c2f4, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnValidate, addr 0x2807b10, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x280c2f8, size 0x4, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method SetGlobalParameters, addr 0x28079fc, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method SetGlobalParameters, addr 0x280c1e4, size 0x110, virtual false, abstract: false, final false
   inline void SetGlobalParameters();
 
   static inline ::GlobalNamespace::FakeMirrorSettings* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2807b14, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x280c2fc, size 0x30, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FakeMirrorSettings", modifiers: "&&", def_value: None }]

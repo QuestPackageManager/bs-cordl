@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::TextFontWeight);
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13677))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13630))
 // CS Name: ::UnityEngine.TextCore.Text::TextFontWeight
 struct CORDL_TYPE TextFontWeight {
 public:

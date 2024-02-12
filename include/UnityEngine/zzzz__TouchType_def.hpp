@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::TouchType);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15952))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16075))
 // CS Name: ::UnityEngine::TouchType
 struct CORDL_TYPE TouchType {
 public:

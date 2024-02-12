@@ -23,27 +23,27 @@ MARK_REF_PTR_T(::GlobalNamespace::PosePrediction);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12976))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12874))
 // CS Name: ::PosePrediction*
 class CORDL_TYPE PosePrediction : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method PredictPose, addr 0xe59ff0, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method PredictPose, addr 0xe84e28, size 0xf0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Pose PredictPose(::UnityEngine::Pose prev, int64_t prevTime, ::UnityEngine::Pose curr, int64_t currTime, int64_t time);
 
-  /// @brief Method InterpolatePose, addr 0xe5a0e0, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method InterpolatePose, addr 0xe84f18, size 0x2cc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Pose InterpolatePose(::UnityEngine::Pose prev, ::UnityEngine::Pose curr, float_t t);
 
-  /// @brief Method PredictPoseSerializable, addr 0xe5a3ac, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method PredictPoseSerializable, addr 0xe851e4, size 0xe0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PoseSerializable PredictPoseSerializable(::GlobalNamespace::PoseSerializable prev, int64_t prevTime, ::GlobalNamespace::PoseSerializable curr, int64_t currTime,
                                                                             int64_t time);
 
-  /// @brief Method InterpolatePoseSerializable, addr 0xe5a48c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method InterpolatePoseSerializable, addr 0xe852c4, size 0xf0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PoseSerializable InterpolatePoseSerializable(::GlobalNamespace::PoseSerializable a, ::GlobalNamespace::PoseSerializable b, float_t t);
 
   static inline ::GlobalNamespace::PosePrediction* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe5a57c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe853b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PosePrediction", modifiers: "&&", def_value: None }]

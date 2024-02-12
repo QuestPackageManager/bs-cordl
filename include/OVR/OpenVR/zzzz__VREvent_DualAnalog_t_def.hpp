@@ -19,8 +19,8 @@ MARK_VAL_T(::OVR::OpenVR::VREvent_DualAnalog_t);
 // SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8595))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8686))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8539))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8630))
 // CS Name: ::OVR.OpenVR::VREvent_DualAnalog_t
 struct CORDL_TYPE VREvent_DualAnalog_t {
 public:

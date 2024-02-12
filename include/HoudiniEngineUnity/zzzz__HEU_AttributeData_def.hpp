@@ -39,7 +39,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_AttributeData);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9661))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9453))
 // CS Name: ::HEU_AttributeData::AttributeType
 struct CORDL_TYPE __HEU_AttributeData__AttributeType {
 public:
@@ -105,7 +105,7 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_AttributeData__AttributeType,
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9662))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9454))
 // CS Name: ::HEU_AttributeData::AttributeState
 struct CORDL_TYPE __HEU_AttributeData__AttributeState {
 public:
@@ -158,8 +158,8 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_AttributeData__AttributeState
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 100, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9661)), TypeDefinitionIndex(TypeDefinitionIndex(9662)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9741))] Self: TypeDefinitionIndex(TypeDefinitionIndex(9663)) CS Name: ::HoudiniEngineUnity::HEU_AttributeData*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9453)), TypeDefinitionIndex(TypeDefinitionIndex(9454)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9533))] Self: TypeDefinitionIndex(TypeDefinitionIndex(9455)) CS Name: ::HoudiniEngineUnity::HEU_AttributeData*
 class CORDL_TYPE HEU_AttributeData : public ::System::Object {
 public:
   // Declarations
@@ -236,18 +236,18 @@ public:
 
   constexpr void __cordl_internal_set__attributeState(::HoudiniEngineUnity::__HEU_AttributeData__AttributeState value);
 
-  /// @brief Method IsColorAttribute, addr 0x217f7c4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method IsColorAttribute, addr 0x22140a8, size 0x70, virtual false, abstract: false, final false
   inline bool IsColorAttribute();
 
-  /// @brief Method CopyValuesTo, addr 0x217f834, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method CopyValuesTo, addr 0x2214118, size 0x124, virtual false, abstract: false, final false
   inline void CopyValuesTo(::HoudiniEngineUnity::HEU_AttributeData* destAttrData);
 
-  /// @brief Method IsEquivalentTo, addr 0x217f958, size 0x328, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x221423c, size 0x328, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_AttributeData* other);
 
   static inline ::HoudiniEngineUnity::HEU_AttributeData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x217fc80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2214564, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_AttributeData", modifiers: "&&", def_value: None }]

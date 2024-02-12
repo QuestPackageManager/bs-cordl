@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::System::Xml::Schema::Datatype_positiveInteger);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11671))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11676))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11569))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11574))
 // CS Name: ::System.Xml.Schema::Datatype_positiveInteger*
 class CORDL_TYPE Datatype_positiveInteger : public ::System::Xml::Schema::Datatype_nonNegativeInteger {
 public:
@@ -37,15 +37,15 @@ public:
 
   static inline ::System::Xml::Schema::FacetsChecker* getStaticF_numeric10FacetsChecker();
 
-  /// @brief Method get_FacetsChecker, addr 0x28be810, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_FacetsChecker, addr 0x28c0e78, size 0x58, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::FacetsChecker* get_FacetsChecker();
 
-  /// @brief Method get_TypeCode, addr 0x28be868, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x28c0ed0, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
   static inline ::System::Xml::Schema::Datatype_positiveInteger* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28be870, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28c0ed8, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Datatype_positiveInteger", modifiers: "&&", def_value: None }]

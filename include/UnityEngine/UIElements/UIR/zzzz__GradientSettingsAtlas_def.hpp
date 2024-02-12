@@ -49,15 +49,15 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::__GradientSettingsAtlas__RawTexture);
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7378))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6637))
 // CS Name: ::GradientSettingsAtlas::RawTexture
 struct CORDL_TYPE __GradientSettingsAtlas__RawTexture {
 public:
   // Declarations
-  /// @brief Method WriteRawInt2Packed, addr 0x2e8af7c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method WriteRawInt2Packed, addr 0x2ea5364, size 0x88, virtual false, abstract: false, final false
   inline void WriteRawInt2Packed(int32_t v0, int32_t v1, int32_t destX, int32_t destY);
 
-  /// @brief Method WriteRawFloat4Packed, addr 0x2e8aed4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method WriteRawFloat4Packed, addr 0x2ea52bc, size 0xa8, virtual false, abstract: false, final false
   inline void WriteRawFloat4Packed(float_t f0, float_t f1, float_t f2, float_t f3, int32_t destX, int32_t destY);
 
   // Ctor Parameters [CppParam { name: "rgba", ty: "::ArrayW<::UnityEngine::Color32,::Array<::UnityEngine::Color32>*>", modifiers: "", def_value: None }, CppParam { name: "width", ty: "int32_t",
@@ -96,8 +96,8 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::__GradientSettingsAtlas__
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 58, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7378)), TypeDefinitionIndex(TypeDefinitionIndex(9966))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7379))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6637)), TypeDefinitionIndex(TypeDefinitionIndex(8695))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6638))
 // CS Name: ::UnityEngine.UIElements.UIR::GradientSettingsAtlas*
 class CORDL_TYPE GradientSettingsAtlas : public ::System::Object {
 public:
@@ -202,49 +202,49 @@ public:
 
   static inline int32_t getStaticF_s_TextureCounter();
 
-  /// @brief Method get_length, addr 0x2e8a744, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_length, addr 0x2ea4b2c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_length();
 
-  /// @brief Method get_disposed, addr 0x2e8a74c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x2ea4b34, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
-  /// @brief Method set_disposed, addr 0x2e8a754, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x2ea4b3c, size 0xc, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
-  /// @brief Method Dispose, addr 0x2e8a760, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2ea4b48, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x2e8a7cc, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x2ea4bb4, size 0x78, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::UnityEngine::UIElements::UIR::GradientSettingsAtlas* New_ctor(int32_t length);
 
-  /// @brief Method .ctor, addr 0x2e8a844, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ea4c2c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(int32_t length);
 
-  /// @brief Method Reset, addr 0x2e8a874, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x2ea4c5c, size 0xcc, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method get_atlas, addr 0x2e8a940, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_atlas, addr 0x2ea4d28, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> get_atlas();
 
-  /// @brief Method Add, addr 0x2e8a948, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x2ea4d30, size 0xec, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::Alloc Add(int32_t count);
 
-  /// @brief Method Write, addr 0x2e8aa34, size 0x4a0, virtual false, abstract: false, final false
+  /// @brief Method Write, addr 0x2ea4e1c, size 0x4a0, virtual false, abstract: false, final false
   inline void Write(::UnityEngine::UIElements::UIR::Alloc alloc, ::ArrayW<::UnityEngine::UIElements::GradientSettings, ::Array<::UnityEngine::UIElements::GradientSettings>*> settings,
                     ::UnityEngine::UIElements::UIR::GradientRemap* remap);
 
-  /// @brief Method get_MustCommit, addr 0x2e8b004, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MustCommit, addr 0x2ea53ec, size 0x8, virtual false, abstract: false, final false
   inline bool get_MustCommit();
 
-  /// @brief Method set_MustCommit, addr 0x2e8b00c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_MustCommit, addr 0x2ea53f4, size 0xc, virtual false, abstract: false, final false
   inline void set_MustCommit(bool value);
 
-  /// @brief Method Commit, addr 0x2e8b018, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Commit, addr 0x2ea5400, size 0x64, virtual false, abstract: false, final false
   inline void Commit();
 
-  /// @brief Method PrepareAtlas, addr 0x2e8b07c, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method PrepareAtlas, addr 0x2ea5464, size 0x168, virtual false, abstract: false, final false
   inline void PrepareAtlas();
 
   // Ctor Parameters [CppParam { name: "", ty: "GradientSettingsAtlas", modifiers: "&&", def_value: None }]

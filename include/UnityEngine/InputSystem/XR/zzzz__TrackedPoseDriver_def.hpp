@@ -53,7 +53,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::XR::TrackedPoseDriver);
 namespace UnityEngine::InputSystem::XR {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6327))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5586))
 // CS Name: ::TrackedPoseDriver::TrackingType
 struct CORDL_TYPE __TrackedPoseDriver__TrackingType {
 public:
@@ -107,7 +107,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::XR::__TrackedPoseDriver__Trac
 namespace UnityEngine::InputSystem::XR {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6328))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5587))
 // CS Name: ::TrackedPoseDriver::UpdateType
 struct CORDL_TYPE __TrackedPoseDriver__UpdateType {
 public:
@@ -160,9 +160,9 @@ static_assert(offsetof(::UnityEngine::InputSystem::XR::__TrackedPoseDriver__Upda
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 129, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::XR {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6164)), TypeDefinitionIndex(TypeDefinitionIndex(6327)), TypeDefinitionIndex(TypeDefinitionIndex(6328)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))] Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(6329)) CS Name: ::UnityEngine.InputSystem.XR::TrackedPoseDriver*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5423)), TypeDefinitionIndex(TypeDefinitionIndex(5586)), TypeDefinitionIndex(TypeDefinitionIndex(5587)),
+// TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(8996))] Self: TypeDefinitionIndex(TypeDefinitionIndex(5588))
+// CS Name: ::UnityEngine.InputSystem.XR::TrackedPoseDriver*
 class CORDL_TYPE TrackedPoseDriver : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -287,114 +287,114 @@ public:
 
   constexpr void __cordl_internal_set_m_HasMigratedActions(bool value);
 
-  /// @brief Method get_trackingType, addr 0x2ac5d68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_trackingType, addr 0x2ac68d4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::XR::__TrackedPoseDriver__TrackingType get_trackingType();
 
-  /// @brief Method set_trackingType, addr 0x2ac5d70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_trackingType, addr 0x2ac68dc, size 0x8, virtual false, abstract: false, final false
   inline void set_trackingType(::UnityEngine::InputSystem::XR::__TrackedPoseDriver__TrackingType value);
 
-  /// @brief Method get_updateType, addr 0x2ac5d78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_updateType, addr 0x2ac68e4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::XR::__TrackedPoseDriver__UpdateType get_updateType();
 
-  /// @brief Method set_updateType, addr 0x2ac5d80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_updateType, addr 0x2ac68ec, size 0x8, virtual false, abstract: false, final false
   inline void set_updateType(::UnityEngine::InputSystem::XR::__TrackedPoseDriver__UpdateType value);
 
-  /// @brief Method get_positionInput, addr 0x2ac5d88, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_positionInput, addr 0x2ac68f4, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionProperty get_positionInput();
 
-  /// @brief Method set_positionInput, addr 0x2ac5d9c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method set_positionInput, addr 0x2ac6908, size 0x6c, virtual false, abstract: false, final false
   inline void set_positionInput(::UnityEngine::InputSystem::InputActionProperty value);
 
-  /// @brief Method get_rotationInput, addr 0x2ac6100, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_rotationInput, addr 0x2ac6c6c, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionProperty get_rotationInput();
 
-  /// @brief Method set_rotationInput, addr 0x2ac6114, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method set_rotationInput, addr 0x2ac6c80, size 0x6c, virtual false, abstract: false, final false
   inline void set_rotationInput(::UnityEngine::InputSystem::InputActionProperty value);
 
-  /// @brief Method BindActions, addr 0x2ac6478, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method BindActions, addr 0x2ac6fe4, size 0x18, virtual false, abstract: false, final false
   inline void BindActions();
 
-  /// @brief Method BindPosition, addr 0x2ac5f58, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method BindPosition, addr 0x2ac6ac4, size 0x1a8, virtual false, abstract: false, final false
   inline void BindPosition();
 
-  /// @brief Method BindRotation, addr 0x2ac62d0, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method BindRotation, addr 0x2ac6e3c, size 0x1a8, virtual false, abstract: false, final false
   inline void BindRotation();
 
-  /// @brief Method UnbindActions, addr 0x2ac6490, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method UnbindActions, addr 0x2ac6ffc, size 0x18, virtual false, abstract: false, final false
   inline void UnbindActions();
 
-  /// @brief Method UnbindPosition, addr 0x2ac5e08, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method UnbindPosition, addr 0x2ac6974, size 0x150, virtual false, abstract: false, final false
   inline void UnbindPosition();
 
-  /// @brief Method UnbindRotation, addr 0x2ac6180, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method UnbindRotation, addr 0x2ac6cec, size 0x150, virtual false, abstract: false, final false
   inline void UnbindRotation();
 
-  /// @brief Method OnPositionPerformed, addr 0x2ac64a8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method OnPositionPerformed, addr 0x2ac7014, size 0x60, virtual false, abstract: false, final false
   inline void OnPositionPerformed(::UnityEngine::InputSystem::__InputAction__CallbackContext context);
 
-  /// @brief Method OnPositionCanceled, addr 0x2ac6508, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method OnPositionCanceled, addr 0x2ac7074, size 0x58, virtual false, abstract: false, final false
   inline void OnPositionCanceled(::UnityEngine::InputSystem::__InputAction__CallbackContext context);
 
-  /// @brief Method OnRotationPerformed, addr 0x2ac6560, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method OnRotationPerformed, addr 0x2ac70cc, size 0x60, virtual false, abstract: false, final false
   inline void OnRotationPerformed(::UnityEngine::InputSystem::__InputAction__CallbackContext context);
 
-  /// @brief Method OnRotationCanceled, addr 0x2ac65c0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method OnRotationCanceled, addr 0x2ac712c, size 0x50, virtual false, abstract: false, final false
   inline void OnRotationCanceled(::UnityEngine::InputSystem::__InputAction__CallbackContext context);
 
-  /// @brief Method Awake, addr 0x2ac6610, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x2ac717c, size 0x6c, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnEnable, addr 0x2ac6734, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x2ac72a0, size 0xb4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable, addr 0x2ac67e8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x2ac7354, size 0xb4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnDestroy, addr 0x2ac689c, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2ac7408, size 0x6c, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method UpdateCallback, addr 0x2ac6908, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method UpdateCallback, addr 0x2ac7474, size 0x68, virtual false, abstract: false, final false
   inline void UpdateCallback();
 
-  /// @brief Method OnUpdate, addr 0x2ac6970, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method OnUpdate, addr 0x2ac74dc, size 0x1c, virtual true, abstract: false, final false
   inline void OnUpdate();
 
-  /// @brief Method OnBeforeRender, addr 0x2ac698c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method OnBeforeRender, addr 0x2ac74f8, size 0x20, virtual true, abstract: false, final false
   inline void OnBeforeRender();
 
-  /// @brief Method SetLocalTransform, addr 0x2ac69ac, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method SetLocalTransform, addr 0x2ac7518, size 0xcc, virtual true, abstract: false, final false
   inline void SetLocalTransform(::UnityEngine::Vector3 newPosition, ::UnityEngine::Quaternion newRotation);
 
-  /// @brief Method HasStereoCamera, addr 0x2ac667c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method HasStereoCamera, addr 0x2ac71e8, size 0xb8, virtual false, abstract: false, final false
   inline bool HasStereoCamera();
 
-  /// @brief Method PerformUpdate, addr 0x2ac6a78, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method PerformUpdate, addr 0x2ac75e4, size 0x1c, virtual true, abstract: false, final false
   inline void PerformUpdate();
 
-  /// @brief Method get_positionAction, addr 0x2ac6a94, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_positionAction, addr 0x2ac7600, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputAction* get_positionAction();
 
-  /// @brief Method set_positionAction, addr 0x2ac6aa0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_positionAction, addr 0x2ac760c, size 0x48, virtual false, abstract: false, final false
   inline void set_positionAction(::UnityEngine::InputSystem::InputAction* value);
 
-  /// @brief Method get_rotationAction, addr 0x2ac6ae8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_rotationAction, addr 0x2ac7654, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputAction* get_rotationAction();
 
-  /// @brief Method set_rotationAction, addr 0x2ac6af4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_rotationAction, addr 0x2ac7660, size 0x48, virtual false, abstract: false, final false
   inline void set_rotationAction(::UnityEngine::InputSystem::InputAction* value);
 
-  /// @brief Method Reset, addr 0x2ac6b3c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x2ac76a8, size 0xc, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize, addr 0x2ac6b48, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize, addr 0x2ac76b4, size 0x4, virtual true, abstract: false, final true
   inline void UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize();
 
-  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize, addr 0x2ac6b4c, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize, addr 0x2ac76b8, size 0x78, virtual true, abstract: false, final true
   inline void UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize();
 
   static inline ::UnityEngine::InputSystem::XR::TrackedPoseDriver* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ac6bc4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ac7730, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TrackedPoseDriver", modifiers: "&&", def_value: None }]

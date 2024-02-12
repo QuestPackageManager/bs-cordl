@@ -42,7 +42,7 @@ MARK_REF_PTR_T(::System::Net::__UnsafeNclNativeMethods__SecureStringHelper);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9141))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7151))
 // CS Name: ::UnsafeNclNativeMethods::HttpApi::HTTP_REQUEST_HEADER_ID*
 class CORDL_TYPE __UnsafeNclNativeMethods__HttpApi__HTTP_REQUEST_HEADER_ID : public ::System::Object {
 public:
@@ -54,7 +54,7 @@ public:
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_m_Strings();
 
-  /// @brief Method ToString, addr 0x29b9a9c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x29bd540, size 0x7c, virtual false, abstract: false, final false
   static inline ::StringW ToString(int32_t position);
 
   // Ctor Parameters [CppParam { name: "", ty: "__UnsafeNclNativeMethods__HttpApi__HTTP_REQUEST_HEADER_ID", modifiers: "&&", def_value: None }]
@@ -82,7 +82,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnsafeNclNati
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9142))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7152))
 // CS Name: ::UnsafeNclNativeMethods::HttpApi*
 class CORDL_TYPE __UnsafeNclNativeMethods__HttpApi : public ::System::Object {
 public:
@@ -121,15 +121,15 @@ static_assert(::cordl_internals::size_check_v<::System::Net::__UnsafeNclNativeMe
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9143))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7153))
 // CS Name: ::UnsafeNclNativeMethods::SecureStringHelper*
 class CORDL_TYPE __UnsafeNclNativeMethods__SecureStringHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateString, addr 0x29ba5dc, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method CreateString, addr 0x29be080, size 0x1b0, virtual false, abstract: false, final false
   static inline ::StringW CreateString(::System::Security::SecureString* secureString);
 
-  /// @brief Method CreateSecureString, addr 0x29ba78c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method CreateSecureString, addr 0x29be230, size 0xac, virtual false, abstract: false, final false
   static inline ::System::Security::SecureString* CreateSecureString(::StringW plainString);
 
   // Ctor Parameters [CppParam { name: "", ty: "__UnsafeNclNativeMethods__SecureStringHelper", modifiers: "&&", def_value: None }]
@@ -157,7 +157,7 @@ static_assert(::cordl_internals::size_check_v<::System::Net::__UnsafeNclNativeMe
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9144))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7154))
 // CS Name: ::System.Net::UnsafeNclNativeMethods*
 class CORDL_TYPE UnsafeNclNativeMethods : public ::System::Object {
 public:

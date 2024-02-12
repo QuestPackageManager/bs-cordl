@@ -18,12 +18,12 @@ MARK_REF_PTR_T(::UnityEngine::Rendering::CameraEventUtils);
 namespace UnityEngine::Rendering {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10338))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9088))
 // CS Name: ::UnityEngine.Rendering::CameraEventUtils*
 class CORDL_TYPE CameraEventUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsValid, addr 0x2cebc8c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x2cf2ed8, size 0xc, virtual false, abstract: false, final false
   static inline bool IsValid(::UnityEngine::Rendering::CameraEvent value);
 
   // Ctor Parameters [CppParam { name: "", ty: "CameraEventUtils", modifiers: "&&", def_value: None }]

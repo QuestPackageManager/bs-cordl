@@ -44,7 +44,7 @@ MARK_REF_PTR_T(::BeatSaber::AvatarCore::ConnectedPlayerOptionalAvatarDataProvide
 namespace BeatSaber::AvatarCore {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15203))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15284))
 // CS Name: ::BeatSaber.AvatarCore::ConnectedPlayerOptionalAvatarDataProvider*
 class CORDL_TYPE ConnectedPlayerOptionalAvatarDataProvider : public ::System::Object {
 public:
@@ -103,33 +103,33 @@ public:
 
   constexpr void __cordl_internal_set__optionalAvatarDataSyncHandler(::BeatSaber::AvatarCore::OptionalAvatarDataSyncHandler* value);
 
-  /// @brief Method get_currentData, addr 0xe104cc, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method get_currentData, addr 0xe1bcc8, size 0x38, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::Dictionary_2<uint32_t, ::BeatSaber::AvatarCore::OptionalAvatarData>* get_currentData();
 
-  /// @brief Method get_playbackDelaySeconds, addr 0xe1056c, size 0x12c, virtual true, abstract: false, final true
+  /// @brief Method get_playbackDelaySeconds, addr 0xe1bd68, size 0x12c, virtual true, abstract: false, final true
   inline float_t get_playbackDelaySeconds();
 
-  /// @brief Method add_dataDidChangeEvent, addr 0xe10698, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_dataDidChangeEvent, addr 0xe1be94, size 0xb0, virtual true, abstract: false, final true
   inline void add_dataDidChangeEvent(::System::Action_1<::BeatSaber::AvatarCore::OptionalAvatarData>* value);
 
-  /// @brief Method remove_dataDidChangeEvent, addr 0xe10748, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_dataDidChangeEvent, addr 0xe1bf44, size 0xb0, virtual true, abstract: false, final true
   inline void remove_dataDidChangeEvent(::System::Action_1<::BeatSaber::AvatarCore::OptionalAvatarData>* value);
 
   static inline ::BeatSaber::AvatarCore::ConnectedPlayerOptionalAvatarDataProvider* New_ctor(::GlobalNamespace::IConnectedPlayer* connectedPlayer,
                                                                                              ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager,
                                                                                              ::BeatSaber::AvatarCore::OptionalAvatarDataSyncHandler* optionalAvatarDataSyncHandler);
 
-  /// @brief Method .ctor, addr 0xe107f8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe1bff4, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IConnectedPlayer* connectedPlayer, ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager,
                     ::BeatSaber::AvatarCore::OptionalAvatarDataSyncHandler* optionalAvatarDataSyncHandler);
 
-  /// @brief Method Dispose, addr 0xe1095c, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0xe1c158, size 0x94, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method SetDisplayContext, addr 0xe10aa0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method SetDisplayContext, addr 0xe1c29c, size 0x4, virtual true, abstract: false, final true
   inline void SetDisplayContext(::BeatSaber::AvatarCore::AvatarDisplayContext avatarDisplayContext);
 
-  /// @brief Method HandleOptionalAvatarDataSyncHandlerDidChangeOptionalAvatarDataSync, addr 0xe10aa4, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method HandleOptionalAvatarDataSyncHandlerDidChangeOptionalAvatarDataSync, addr 0xe1c2a0, size 0x16c, virtual false, abstract: false, final false
   inline void HandleOptionalAvatarDataSyncHandlerDidChangeOptionalAvatarDataSync(::GlobalNamespace::IConnectedPlayer* connectedPlayer, ::BeatSaber::AvatarCore::OptionalAvatarData optionalAvatarData);
 
   // Ctor Parameters [CppParam { name: "", ty: "ConnectedPlayerOptionalAvatarDataProvider", modifiers: "&&", def_value: None }]

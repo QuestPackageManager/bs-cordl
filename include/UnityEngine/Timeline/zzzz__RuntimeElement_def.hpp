@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::RuntimeElement);
 namespace UnityEngine::Timeline {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13884))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13837))
 // CS Name: ::UnityEngine.Timeline::RuntimeElement*
 class CORDL_TYPE RuntimeElement : public ::System::Object {
 public:
@@ -57,10 +57,10 @@ public:
   /// @brief Method get_intervalEnd, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int64_t get_intervalEnd();
 
-  /// @brief Method get_intervalBit, addr 0x2c680a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_intervalBit, addr 0x2c65c10, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_intervalBit();
 
-  /// @brief Method set_intervalBit, addr 0x2c680ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_intervalBit, addr 0x2c65c18, size 0x8, virtual false, abstract: false, final false
   inline void set_intervalBit(int32_t value);
 
   /// @brief Method set_enable, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -74,7 +74,7 @@ public:
 
   static inline ::UnityEngine::Timeline::RuntimeElement* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c6773c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c652a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RuntimeElement", modifiers: "&&", def_value: None }]

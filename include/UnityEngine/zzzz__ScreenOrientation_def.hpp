@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ScreenOrientation);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10112))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8848))
 // CS Name: ::UnityEngine::ScreenOrientation
 struct CORDL_TYPE ScreenOrientation {
 public:

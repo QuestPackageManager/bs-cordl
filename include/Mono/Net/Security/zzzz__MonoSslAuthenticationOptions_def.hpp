@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::Mono::Net::Security::MonoSslAuthenticationOptions);
 namespace Mono::Net::Security {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8839))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6849))
 // CS Name: ::Mono.Net.Security::MonoSslAuthenticationOptions*
 class CORDL_TYPE MonoSslAuthenticationOptions : public ::System::Object {
 public:
@@ -106,12 +106,12 @@ public:
   /// @brief Method set_ClientCertificateRequired, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_ClientCertificateRequired(bool value);
 
-  /// @brief Method get_ServerCertSelectionDelegate, addr 0x2823f84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ServerCertSelectionDelegate, addr 0x282876c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Security::ServerCertSelectionCallback* get_ServerCertSelectionDelegate();
 
   static inline ::Mono::Net::Security::MonoSslAuthenticationOptions* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2823f8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2828774, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MonoSslAuthenticationOptions", modifiers: "&&", def_value: None }]

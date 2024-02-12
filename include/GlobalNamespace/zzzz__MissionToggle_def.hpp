@@ -52,8 +52,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionToggle);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 156, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(13214))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5555))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8995)), TypeDefinitionIndex(TypeDefinitionIndex(13112))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4861))
 // CS Name: ::MissionToggle*
 class CORDL_TYPE MissionToggle : public ::UnityEngine::EventSystems::UIBehaviour {
 public:
@@ -242,63 +242,63 @@ public:
 
   constexpr void __cordl_internal_set__missionCleared(bool value);
 
-  /// @brief Method add_selectionDidChangeEvent, addr 0x22a1e7c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_selectionDidChangeEvent, addr 0x23fc710, size 0xb0, virtual false, abstract: false, final false
   inline void add_selectionDidChangeEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionToggle>>* value);
 
-  /// @brief Method remove_selectionDidChangeEvent, addr 0x22a2064, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_selectionDidChangeEvent, addr 0x23fc8f8, size 0xb0, virtual false, abstract: false, final false
   inline void remove_selectionDidChangeEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionToggle>>* value);
 
-  /// @brief Method set_missionCleared, addr 0x22a257c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_missionCleared, addr 0x23fce10, size 0xc, virtual false, abstract: false, final false
   inline void set_missionCleared(bool value);
 
-  /// @brief Method get_selected, addr 0x22a2588, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selected, addr 0x23fce1c, size 0x8, virtual false, abstract: false, final false
   inline bool get_selected();
 
-  /// @brief Method set_selected, addr 0x22a1db0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_selected, addr 0x23fc644, size 0x10, virtual false, abstract: false, final false
   inline void set_selected(bool value);
 
-  /// @brief Method get_interactable, addr 0x22a2590, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_interactable, addr 0x23fce24, size 0x8, virtual false, abstract: false, final false
   inline bool get_interactable();
 
-  /// @brief Method set_interactable, addr 0x22a1f2c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_interactable, addr 0x23fc7c0, size 0xc, virtual false, abstract: false, final false
   inline void set_interactable(bool value);
 
-  /// @brief Method get_highlighted, addr 0x22a2840, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_highlighted, addr 0x23fd0d4, size 0x8, virtual false, abstract: false, final false
   inline bool get_highlighted();
 
-  /// @brief Method Start, addr 0x22a2848, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x23fd0dc, size 0x1c, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method ChangeSelection, addr 0x22a2198, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ChangeSelection, addr 0x23fca2c, size 0x64, virtual false, abstract: false, final false
   inline void ChangeSelection(bool value, bool callSelectionDidChange, bool ignoreCurrentValue);
 
-  /// @brief Method ChangeHighlight, addr 0x22a2864, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ChangeHighlight, addr 0x23fd0f8, size 0x20, virtual false, abstract: false, final false
   inline void ChangeHighlight(bool value, bool ignoreCurrentValue);
 
-  /// @brief Method SetText, addr 0x22a2114, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetText, addr 0x23fc9a8, size 0x24, virtual false, abstract: false, final false
   inline void SetText(::StringW text);
 
-  /// @brief Method InternalToggle, addr 0x22a2884, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method InternalToggle, addr 0x23fd118, size 0x30, virtual false, abstract: false, final false
   inline void InternalToggle();
 
-  /// @brief Method RefreshUI, addr 0x22a2598, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method RefreshUI, addr 0x23fce2c, size 0x2a8, virtual false, abstract: false, final false
   inline void RefreshUI();
 
-  /// @brief Method OnPointerClick, addr 0x22a28b4, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method OnPointerClick, addr 0x23fd148, size 0xa8, virtual true, abstract: false, final false
   inline void OnPointerClick(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnSubmit, addr 0x22a295c, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method OnSubmit, addr 0x23fd1f0, size 0x98, virtual true, abstract: false, final false
   inline void OnSubmit(::UnityEngine::EventSystems::BaseEventData* eventData);
 
-  /// @brief Method OnPointerEnter, addr 0x22a29f4, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method OnPointerEnter, addr 0x23fd288, size 0x24, virtual true, abstract: false, final false
   inline void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerExit, addr 0x22a2a18, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method OnPointerExit, addr 0x23fd2ac, size 0x1c, virtual true, abstract: false, final false
   inline void OnPointerExit(::UnityEngine::EventSystems::PointerEventData* eventData);
 
   static inline ::GlobalNamespace::MissionToggle* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22a2a34, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23fd2c8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionToggle", modifiers: "&&", def_value: None }]

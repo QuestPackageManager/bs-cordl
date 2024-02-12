@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::EVRSpatialAnchorError);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8597))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8541))
 // CS Name: ::OVR.OpenVR::EVRSpatialAnchorError
 struct CORDL_TYPE EVRSpatialAnchorError {
 public:

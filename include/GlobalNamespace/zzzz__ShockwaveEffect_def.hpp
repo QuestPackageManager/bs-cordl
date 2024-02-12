@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ShockwaveEffect);
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 188, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15889))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4882))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(15068))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4236))
 // CS Name: ::ShockwaveEffect*
 class CORDL_TYPE ShockwaveEffect : public ::UnityEngine::MonoBehaviour {
 public:
@@ -67,15 +67,15 @@ public:
 
   constexpr void __cordl_internal_set__prevShockwaveParticleSpawnTime(float_t value);
 
-  /// @brief Method Start, addr 0x23a0adc, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2360c0c, size 0x11c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method SpawnShockwave, addr 0x23a0bf8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SpawnShockwave, addr 0x2360d28, size 0xd4, virtual false, abstract: false, final false
   inline void SpawnShockwave(::UnityEngine::Vector3 pos);
 
   static inline ::GlobalNamespace::ShockwaveEffect* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23a0ccc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2360dfc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ShockwaveEffect", modifiers: "&&", def_value: None }]

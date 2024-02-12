@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::GlobalNamespace::RankModel);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15034))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14907))
 // CS Name: ::RankModel::Rank
 struct CORDL_TYPE __RankModel__Rank {
 public:
@@ -99,17 +99,17 @@ static_assert(offsetof(::GlobalNamespace::__RankModel__Rank, value__) == 0x0, "O
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15035))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14908))
 // CS Name: ::RankModel*
 class CORDL_TYPE RankModel : public ::System::Object {
 public:
   // Declarations
   using Rank = ::GlobalNamespace::__RankModel__Rank;
 
-  /// @brief Method GetRankName, addr 0x12a6590, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetRankName, addr 0x133c468, size 0xbc, virtual false, abstract: false, final false
   static inline ::StringW GetRankName(::GlobalNamespace::__RankModel__Rank rank);
 
-  /// @brief Method GetRankForScore, addr 0x12a664c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetRankForScore, addr 0x133c524, size 0xc8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__RankModel__Rank GetRankForScore(int32_t multipliedScore, int32_t modifiedScore, int32_t maxMultipliedScore, int32_t maxModifiedScore);
 
   // Ctor Parameters [CppParam { name: "", ty: "RankModel", modifiers: "&&", def_value: None }]

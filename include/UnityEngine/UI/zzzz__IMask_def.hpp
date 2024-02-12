@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::UnityEngine::UI::IMask);
 namespace UnityEngine::UI {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13056))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12954))
 // CS Name: ::UnityEngine.UI::IMask*
 class CORDL_TYPE IMask {
 public:

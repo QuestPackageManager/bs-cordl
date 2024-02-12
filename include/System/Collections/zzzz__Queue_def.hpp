@@ -50,7 +50,7 @@ MARK_REF_PTR_T(::System::Collections::__Queue__QueueEnumerator);
 namespace System::Collections {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3774))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3773))
 // CS Name: ::Queue::QueueEnumerator*
 class CORDL_TYPE __Queue__QueueEnumerator : public ::System::Object {
 public:
@@ -107,19 +107,19 @@ public:
 
   static inline ::System::Collections::__Queue__QueueEnumerator* New_ctor(::System::Collections::Queue* q);
 
-  /// @brief Method .ctor, addr 0x257f724, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25a263c, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Queue* q);
 
-  /// @brief Method Clone, addr 0x257f914, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Clone, addr 0x25a282c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* Clone();
 
-  /// @brief Method MoveNext, addr 0x257f91c, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method MoveNext, addr 0x25a2834, size 0xc8, virtual true, abstract: false, final false
   inline bool MoveNext();
 
-  /// @brief Method get_Current, addr 0x257f9e4, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method get_Current, addr 0x25a28fc, size 0x94, virtual true, abstract: false, final false
   inline ::System::Object* get_Current();
 
-  /// @brief Method Reset, addr 0x257fa78, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x25a2990, size 0x8c, virtual true, abstract: false, final false
   inline void Reset();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Queue__QueueEnumerator", modifiers: "&&", def_value: None }]
@@ -167,7 +167,7 @@ static_assert(offsetof(::System::Collections::__Queue__QueueEnumerator, ____curr
 namespace System::Collections {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3775))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3774))
 // CS Name: ::Queue::QueueDebugView*
 class CORDL_TYPE __Queue__QueueDebugView : public ::System::Object {
 public:
@@ -197,7 +197,7 @@ static_assert(::cordl_internals::size_check_v<::System::Collections::__Queue__Qu
 namespace System::Collections {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3776))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3775))
 // CS Name: ::System.Collections::Queue*
 class CORDL_TYPE Queue : public ::System::Object {
 public:
@@ -295,55 +295,55 @@ public:
 
   static inline ::System::Collections::Queue* New_ctor();
 
-  /// @brief Method .ctor, addr 0x257ed38, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25a1c50, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Queue* New_ctor(int32_t capacity);
 
-  /// @brief Method .ctor, addr 0x257ef04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25a1e1c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity);
 
   static inline ::System::Collections::Queue* New_ctor(int32_t capacity, float_t growFactor);
 
-  /// @brief Method .ctor, addr 0x257ed44, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25a1c5c, size 0x1c0, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity, float_t growFactor);
 
   static inline ::System::Collections::Queue* New_ctor(::System::Collections::ICollection* col);
 
-  /// @brief Method .ctor, addr 0x257ef0c, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25a1e24, size 0x26c, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::ICollection* col);
 
-  /// @brief Method get_Count, addr 0x257f178, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Count, addr 0x25a2090, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method Clone, addr 0x257f180, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x25a2098, size 0xe4, virtual true, abstract: false, final false
   inline ::System::Object* Clone();
 
-  /// @brief Method get_IsSynchronized, addr 0x257f264, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsSynchronized, addr 0x25a217c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_SyncRoot, addr 0x257f26c, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method get_SyncRoot, addr 0x25a2184, size 0x7c, virtual true, abstract: false, final false
   inline ::System::Object* get_SyncRoot();
 
-  /// @brief Method CopyTo, addr 0x257f2e8, size 0x1f4, virtual true, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x25a2200, size 0x1f4, virtual true, abstract: false, final false
   inline void CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method Enqueue, addr 0x257f4dc, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method Enqueue, addr 0x25a23f4, size 0xfc, virtual true, abstract: false, final false
   inline void Enqueue(::System::Object* obj);
 
-  /// @brief Method GetEnumerator, addr 0x257f6c4, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x25a25dc, size 0x60, virtual true, abstract: false, final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
-  /// @brief Method Dequeue, addr 0x257f774, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method Dequeue, addr 0x25a268c, size 0xcc, virtual true, abstract: false, final false
   inline ::System::Object* Dequeue();
 
-  /// @brief Method Peek, addr 0x257f840, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Peek, addr 0x25a2758, size 0x94, virtual true, abstract: false, final false
   inline ::System::Object* Peek();
 
-  /// @brief Method GetElement, addr 0x257f8d4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method GetElement, addr 0x25a27ec, size 0x40, virtual false, abstract: false, final false
   inline ::System::Object* GetElement(int32_t i);
 
-  /// @brief Method SetCapacity, addr 0x257f5d8, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method SetCapacity, addr 0x25a24f0, size 0xec, virtual false, abstract: false, final false
   inline void SetCapacity(int32_t capacity);
 
   // Ctor Parameters [CppParam { name: "", ty: "Queue", modifiers: "&&", def_value: None }]

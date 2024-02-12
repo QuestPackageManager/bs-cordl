@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode);
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15325))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15485))
 // CS Name: ::UnityEngine.ProBuilder.Poly2Tri::AdvancingFrontNode*
 class CORDL_TYPE AdvancingFrontNode : public ::System::Object {
 public:
@@ -78,13 +78,13 @@ public:
 
   static inline ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* New_ctor(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* point);
 
-  /// @brief Method .ctor, addr 0x2b30cf4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b2f860, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* point);
 
-  /// @brief Method get_HasNext, addr 0x2b30d2c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HasNext, addr 0x2b2f898, size 0x10, virtual false, abstract: false, final false
   inline bool get_HasNext();
 
-  /// @brief Method get_HasPrev, addr 0x2b30d3c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HasPrev, addr 0x2b2f8a8, size 0x10, virtual false, abstract: false, final false
   inline bool get_HasPrev();
 
   // Ctor Parameters [CppParam { name: "", ty: "AdvancingFrontNode", modifiers: "&&", def_value: None }]

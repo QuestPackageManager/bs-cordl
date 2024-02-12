@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IAssetSongPreviewAudioClipProvider);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5891))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16011))
 // CS Name: ::IAssetSongPreviewAudioClipProvider*
 class CORDL_TYPE IAssetSongPreviewAudioClipProvider {
 public:

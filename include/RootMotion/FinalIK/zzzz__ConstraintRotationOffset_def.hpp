@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::ConstraintRotationOffset);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 109, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(12508))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12512))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8996)), TypeDefinitionIndex(TypeDefinitionIndex(12406))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12410))
 // CS Name: ::RootMotion.FinalIK::ConstraintRotationOffset*
 class CORDL_TYPE ConstraintRotationOffset : public ::RootMotion::FinalIK::Constraint {
 public:
@@ -80,20 +80,20 @@ public:
 
   constexpr void __cordl_internal_set_initiated(bool value);
 
-  /// @brief Method UpdateConstraint, addr 0x12429f8, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method UpdateConstraint, addr 0x12ddaa8, size 0x104, virtual true, abstract: false, final false
   inline void UpdateConstraint();
 
   static inline ::RootMotion::FinalIK::ConstraintRotationOffset* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1242b54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12ddc04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::RootMotion::FinalIK::ConstraintRotationOffset* New_ctor(::UnityEngine::Transform* transform);
 
-  /// @brief Method .ctor, addr 0x1242b5c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12ddc0c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Transform* transform);
 
-  /// @brief Method get_rotationChanged, addr 0x1242afc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_rotationChanged, addr 0x12ddbac, size 0x58, virtual false, abstract: false, final false
   inline bool get_rotationChanged();
 
   // Ctor Parameters [CppParam { name: "", ty: "ConstraintRotationOffset", modifiers: "&&", def_value: None }]

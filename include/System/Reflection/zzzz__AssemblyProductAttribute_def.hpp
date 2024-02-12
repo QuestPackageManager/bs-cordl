@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::System::Reflection::AssemblyProductAttribute);
 namespace System::Reflection {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3455))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3451))
 // CS Name: ::System.Reflection::AssemblyProductAttribute*
 class CORDL_TYPE AssemblyProductAttribute : public ::System::Attribute {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::System::Reflection::AssemblyProductAttribute* New_ctor(::StringW product);
 
-  /// @brief Method .ctor, addr 0x24e6038, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2505190, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW product);
 
   // Ctor Parameters [CppParam { name: "", ty: "AssemblyProductAttribute", modifiers: "&&", def_value: None }]

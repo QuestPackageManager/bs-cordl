@@ -19,12 +19,12 @@ MARK_REF_PTR_T(::UnityEngine::ColorUtility);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10248))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8992))
 // CS Name: ::UnityEngine::ColorUtility*
 class CORDL_TYPE ColorUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToHtmlStringRGB, addr 0x2cd8614, size 0x3f0, virtual false, abstract: false, final false
+  /// @brief Method ToHtmlStringRGB, addr 0x2cdf780, size 0x3f0, virtual false, abstract: false, final false
   static inline ::StringW ToHtmlStringRGB(::UnityEngine::Color color);
 
   // Ctor Parameters [CppParam { name: "", ty: "ColorUtility", modifiers: "&&", def_value: None }]

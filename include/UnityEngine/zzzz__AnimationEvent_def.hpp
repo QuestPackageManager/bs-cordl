@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::UnityEngine::AnimationEvent);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 116, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14863)), TypeDefinitionIndex(TypeDefinitionIndex(14878)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14879))] Self: TypeDefinitionIndex(TypeDefinitionIndex(14867)) CS Name: ::UnityEngine::AnimationEvent*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14736)), TypeDefinitionIndex(TypeDefinitionIndex(14751)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14752))] Self: TypeDefinitionIndex(TypeDefinitionIndex(14740)) CS Name: ::UnityEngine::AnimationEvent*
 class CORDL_TYPE AnimationEvent : public ::System::Object {
 public:
   // Declarations
@@ -132,7 +132,7 @@ public:
 
   static inline ::UnityEngine::AnimationEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c905d0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c8d13c, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AnimationEvent", modifiers: "&&", def_value: None }]

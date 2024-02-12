@@ -33,8 +33,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::DrawParams);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10165))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7443))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8909))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6702))
 // CS Name: ::UnityEngine.UIElements.UIR::DrawParams*
 class CORDL_TYPE DrawParams : public ::System::Object {
 public:
@@ -90,12 +90,12 @@ public:
 
   static inline ::UnityEngine::Rect getStaticF_k_FullNormalizedRect();
 
-  /// @brief Method Reset, addr 0x2dd3870, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x2df1c58, size 0x1cc, virtual false, abstract: false, final false
   inline void Reset();
 
   static inline ::UnityEngine::UIElements::UIR::DrawParams* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2dce574, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dec95c, size 0x158, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DrawParams", modifiers: "&&", def_value: None }]

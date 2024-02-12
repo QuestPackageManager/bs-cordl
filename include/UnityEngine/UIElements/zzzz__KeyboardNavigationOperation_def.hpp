@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::KeyboardNavigationOperation);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6827))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6086))
 // CS Name: ::UnityEngine.UIElements::KeyboardNavigationOperation
 struct CORDL_TYPE KeyboardNavigationOperation {
 public:

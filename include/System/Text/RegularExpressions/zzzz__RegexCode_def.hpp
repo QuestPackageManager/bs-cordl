@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::System::Text::RegularExpressions::RegexCode);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 93, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text::RegularExpressions {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8927)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4755 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(8919)) CS Name: ::System.Text.RegularExpressions::RegexCode*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6937)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4738 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6929)) CS Name: ::System.Text.RegularExpressions::RegexCode*
 class CORDL_TYPE RegexCode : public ::System::Object {
 public:
   // Declarations
@@ -124,12 +124,12 @@ public:
                                                                         ::System::Collections::Hashtable* caps, int32_t capsize, ::System::Text::RegularExpressions::RegexBoyerMoore* bmPrefix,
                                                                         ::System::Nullable_1<::System::Text::RegularExpressions::RegexPrefix> fcPrefix, int32_t anchors, bool rightToLeft);
 
-  /// @brief Method .ctor, addr 0x295ec68, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2962b88, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<int32_t, ::Array<int32_t>*> codes, ::System::Collections::Generic::List_1<::StringW>* stringlist, int32_t trackcount, ::System::Collections::Hashtable* caps,
                     int32_t capsize, ::System::Text::RegularExpressions::RegexBoyerMoore* bmPrefix, ::System::Nullable_1<::System::Text::RegularExpressions::RegexPrefix> fcPrefix, int32_t anchors,
                     bool rightToLeft);
 
-  /// @brief Method OpcodeBacktracks, addr 0x295ed38, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method OpcodeBacktracks, addr 0x2962c58, size 0x30, virtual false, abstract: false, final false
   static inline bool OpcodeBacktracks(int32_t Op);
 
   // Ctor Parameters [CppParam { name: "", ty: "RegexCode", modifiers: "&&", def_value: None }]

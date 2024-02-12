@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::EVRMouseButton);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8594))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8538))
 // CS Name: ::OVR.OpenVR::EVRMouseButton
 struct CORDL_TYPE EVRMouseButton {
 public:

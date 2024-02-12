@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_Shelf);
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9858))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9650))
 // CS Name: ::HoudiniEngineUnity::HEU_Shelf*
 class CORDL_TYPE HEU_Shelf : public ::System::Object {
 public:
@@ -65,7 +65,7 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_Shelf* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21d06f8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2265fdc, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_Shelf", modifiers: "&&", def_value: None }]

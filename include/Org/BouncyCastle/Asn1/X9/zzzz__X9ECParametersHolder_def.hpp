@@ -34,7 +34,7 @@ public:
 
   constexpr void __cordl_internal_set_parameters(::Org::BouncyCastle::Asn1::X9::X9ECParameters* value);
 
-  /// @brief Method get_Parameters, addr 0xe62558, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method get_Parameters, addr 0xe8d3e8, size 0xb8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* get_Parameters();
 
   /// @brief Method CreateParameters, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -42,7 +42,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe6282c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe8d6bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "X9ECParametersHolder", modifiers: "&&", def_value: None }]

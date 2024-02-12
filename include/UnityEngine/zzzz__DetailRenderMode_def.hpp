@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::DetailRenderMode);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15468))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15646))
 // CS Name: ::UnityEngine::DetailRenderMode
 struct CORDL_TYPE DetailRenderMode {
 public:

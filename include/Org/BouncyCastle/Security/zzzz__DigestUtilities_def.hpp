@@ -275,34 +275,34 @@ public:
 
   static inline ::Org::BouncyCastle::Security::DigestUtilities* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1124228, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11520b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method GetObjectIdentifier, addr 0x1127c70, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method GetObjectIdentifier, addr 0x1155b00, size 0x25c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetObjectIdentifier(::StringW mechanism);
 
-  /// @brief Method get_Algorithms, addr 0x1127ecc, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method get_Algorithms, addr 0x1155d5c, size 0xcc, virtual false, abstract: false, final false
   static inline ::System::Collections::ICollection* get_Algorithms();
 
-  /// @brief Method GetDigest, addr 0x1127f98, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetDigest, addr 0x1155e28, size 0x60, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IDigest* GetDigest(::Org::BouncyCastle::Asn1::DerObjectIdentifier* id);
 
-  /// @brief Method GetDigest, addr 0x1127ff8, size 0xc04, virtual false, abstract: false, final false
+  /// @brief Method GetDigest, addr 0x1155e88, size 0xc04, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IDigest* GetDigest(::StringW algorithm);
 
-  /// @brief Method GetAlgorithmName, addr 0x1128bfc, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetAlgorithmName, addr 0x1156a8c, size 0x108, virtual false, abstract: false, final false
   static inline ::StringW GetAlgorithmName(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method CalculateDigest, addr 0x1128d04, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method CalculateDigest, addr 0x1156b94, size 0x68, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CalculateDigest(::Org::BouncyCastle::Asn1::DerObjectIdentifier* id, ::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
-  /// @brief Method CalculateDigest, addr 0x1128d6c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method CalculateDigest, addr 0x1156bfc, size 0xf8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CalculateDigest(::StringW algorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
-  /// @brief Method DoFinal, addr 0x1128e64, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x1156cf4, size 0x134, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DoFinal(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method DoFinal, addr 0x1128f98, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x1156e28, size 0xec, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DoFinal(::Org::BouncyCastle::Crypto::IDigest* digest, ::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
   // Ctor Parameters [CppParam { name: "", ty: "DigestUtilities", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::Oculus::Platform::PartyMicState);
 namespace Oculus::Platform {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13344))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13264))
 // CS Name: ::Oculus.Platform::PartyMicState
 struct CORDL_TYPE PartyMicState {
 public:

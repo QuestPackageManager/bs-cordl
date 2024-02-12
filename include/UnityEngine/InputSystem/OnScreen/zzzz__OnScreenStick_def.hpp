@@ -33,8 +33,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::OnScreen::OnScreenStick);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::OnScreen {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6388)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6389))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5647)), TypeDefinitionIndex(TypeDefinitionIndex(8987)), TypeDefinitionIndex(TypeDefinitionIndex(8993))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5648))
 // CS Name: ::UnityEngine.InputSystem.OnScreen::OnScreenStick*
 class CORDL_TYPE OnScreenStick : public ::UnityEngine::InputSystem::OnScreen::OnScreenControl {
 public:
@@ -103,33 +103,33 @@ public:
 
   constexpr void __cordl_internal_set_m_PointerDownPos(::UnityEngine::Vector2 value);
 
-  /// @brief Method OnPointerDown, addr 0x2ad99f8, size 0x124, virtual true, abstract: false, final true
+  /// @brief Method OnPointerDown, addr 0x2ada564, size 0x124, virtual true, abstract: false, final true
   inline void OnPointerDown(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnDrag, addr 0x2ad9b1c, size 0x224, virtual true, abstract: false, final true
+  /// @brief Method OnDrag, addr 0x2ada688, size 0x224, virtual true, abstract: false, final true
   inline void OnDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerUp, addr 0x2ad9d40, size 0xc4, virtual true, abstract: false, final true
+  /// @brief Method OnPointerUp, addr 0x2ada8ac, size 0xc4, virtual true, abstract: false, final true
   inline void OnPointerUp(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method Start, addr 0x2ad9e04, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2ada970, size 0x78, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method get_movementRange, addr 0x2ad9e7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_movementRange, addr 0x2ada9e8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_movementRange();
 
-  /// @brief Method set_movementRange, addr 0x2ad9e84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_movementRange, addr 0x2ada9f0, size 0x8, virtual false, abstract: false, final false
   inline void set_movementRange(float_t value);
 
-  /// @brief Method get_controlPathInternal, addr 0x2ad9e8c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_controlPathInternal, addr 0x2ada9f8, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_controlPathInternal();
 
-  /// @brief Method set_controlPathInternal, addr 0x2ad9e94, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_controlPathInternal, addr 0x2adaa00, size 0x8, virtual true, abstract: false, final false
   inline void set_controlPathInternal(::StringW value);
 
   static inline ::UnityEngine::InputSystem::OnScreen::OnScreenStick* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ad9e9c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2adaa08, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OnScreenStick", modifiers: "&&", def_value: None }]

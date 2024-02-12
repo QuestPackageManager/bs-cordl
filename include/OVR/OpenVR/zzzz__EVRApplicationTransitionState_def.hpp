@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::EVRApplicationTransitionState);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8618))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8562))
 // CS Name: ::OVR.OpenVR::EVRApplicationTransitionState
 struct CORDL_TYPE EVRApplicationTransitionState {
 public:

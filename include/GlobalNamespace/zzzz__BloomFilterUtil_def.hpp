@@ -36,7 +36,7 @@ namespace GlobalNamespace {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14994))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14867))
 // CS Name: ::BloomFilterUtil::<>c__DisplayClass1_0`1<T>*
 class CORDL_TYPE __BloomFilterUtil____c__DisplayClass1_0_1 : public ::System::Object {
 public:
@@ -98,7 +98,7 @@ namespace GlobalNamespace {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14995))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14868))
 // CS Name: ::BloomFilterUtil::<>c__DisplayClass2_0`1<T>*
 class CORDL_TYPE __BloomFilterUtil____c__DisplayClass2_0_1 : public ::System::Object {
 public:
@@ -158,7 +158,7 @@ public:
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14996))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14869))
 // CS Name: ::BloomFilterUtil*
 class CORDL_TYPE BloomFilterUtil : public ::System::Object {
 public:

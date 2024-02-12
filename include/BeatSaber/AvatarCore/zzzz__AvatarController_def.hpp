@@ -57,8 +57,8 @@ MARK_VAL_T(::BeatSaber::AvatarCore::__AvatarController___LoadAndDisplayAvatar_d_
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(15166)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5063 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(15167)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3396)), TypeDefinitionIndex(TypeDefinitionIndex(15246)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 5042 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(15247)) CS Name:
 // ::AvatarController::<LoadAndDisplayAvatar>d__11
 struct CORDL_TYPE __AvatarController___LoadAndDisplayAvatar_d__11 {
 public:
@@ -69,10 +69,10 @@ public:
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0xe0ae3c, size 0x5d0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0xe1633c, size 0x5d0, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0xe0b58c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0xe16a8c, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -119,8 +119,8 @@ static_assert(offsetof(::BeatSaber::AvatarCore::__AvatarController___LoadAndDisp
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15169))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15168))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(15249))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15248))
 // CS Name: ::BeatSaber.AvatarCore::AvatarController*
 class CORDL_TYPE AvatarController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -201,18 +201,18 @@ public:
 
   constexpr void __cordl_internal_set__avatar(::UnityW<::BeatSaber::AvatarCore::Avatar> value);
 
-  /// @brief Method get_avatar, addr 0xe0ad94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_avatar, addr 0xe16294, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::BeatSaber::AvatarCore::Avatar> get_avatar();
 
-  /// @brief Method Start, addr 0xe0ad9c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0xe1629c, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method LoadAndDisplayAvatar, addr 0xe0ada0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method LoadAndDisplayAvatar, addr 0xe162a0, size 0x94, virtual false, abstract: false, final false
   inline void LoadAndDisplayAvatar();
 
   static inline ::BeatSaber::AvatarCore::AvatarController* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe0ae34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe16334, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AvatarController", modifiers: "&&", def_value: None }]

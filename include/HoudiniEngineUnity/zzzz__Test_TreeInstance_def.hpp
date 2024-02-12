@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::Test_TreeInstance);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15470))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9939))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15648))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9731))
 // CS Name: ::HoudiniEngineUnity::Test_TreeInstance*
 class CORDL_TYPE Test_TreeInstance : public ::System::Object {
 public:
@@ -44,10 +44,10 @@ public:
 
   static inline ::HoudiniEngineUnity::Test_TreeInstance* New_ctor(::UnityEngine::TreeInstance self);
 
-  /// @brief Method .ctor, addr 0x21e81c4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x227daac, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::TreeInstance self);
 
-  /// @brief Method IsEquivalentTo, addr 0x21e81f8, size 0x21c, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x227dae0, size 0x21c, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_TreeInstance* other);
 
   // Ctor Parameters [CppParam { name: "", ty: "Test_TreeInstance", modifiers: "&&", def_value: None }]

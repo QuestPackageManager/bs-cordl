@@ -146,40 +146,40 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::V2AttributeCertificateInfoGenerator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x119ad88, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11c8c18, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method SetHolder, addr 0x119ae28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetHolder, addr 0x11c8cb8, size 0x8, virtual false, abstract: false, final false
   inline void SetHolder(::Org::BouncyCastle::Asn1::X509::Holder* holder);
 
-  /// @brief Method AddAttribute, addr 0x119ae30, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method AddAttribute, addr 0x11c8cc0, size 0xe8, virtual false, abstract: false, final false
   inline void AddAttribute(::StringW oid, ::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method AddAttribute, addr 0x119af18, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method AddAttribute, addr 0x11c8da8, size 0x1c, virtual false, abstract: false, final false
   inline void AddAttribute(::Org::BouncyCastle::Asn1::X509::AttributeX509* attribute);
 
-  /// @brief Method SetSerialNumber, addr 0x119af34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetSerialNumber, addr 0x11c8dc4, size 0x8, virtual false, abstract: false, final false
   inline void SetSerialNumber(::Org::BouncyCastle::Asn1::DerInteger* serialNumber);
 
-  /// @brief Method SetSignature, addr 0x119af3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetSignature, addr 0x11c8dcc, size 0x8, virtual false, abstract: false, final false
   inline void SetSignature(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* signature);
 
-  /// @brief Method SetIssuer, addr 0x119af44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetIssuer, addr 0x11c8dd4, size 0x8, virtual false, abstract: false, final false
   inline void SetIssuer(::Org::BouncyCastle::Asn1::X509::AttCertIssuer* issuer);
 
-  /// @brief Method SetStartDate, addr 0x119af4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetStartDate, addr 0x11c8ddc, size 0x8, virtual false, abstract: false, final false
   inline void SetStartDate(::Org::BouncyCastle::Asn1::DerGeneralizedTime* startDate);
 
-  /// @brief Method SetEndDate, addr 0x119af54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetEndDate, addr 0x11c8de4, size 0x8, virtual false, abstract: false, final false
   inline void SetEndDate(::Org::BouncyCastle::Asn1::DerGeneralizedTime* endDate);
 
-  /// @brief Method SetIssuerUniqueID, addr 0x119af5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetIssuerUniqueID, addr 0x11c8dec, size 0x8, virtual false, abstract: false, final false
   inline void SetIssuerUniqueID(::Org::BouncyCastle::Asn1::DerBitString* issuerUniqueID);
 
-  /// @brief Method SetExtensions, addr 0x119af64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetExtensions, addr 0x11c8df4, size 0x8, virtual false, abstract: false, final false
   inline void SetExtensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions);
 
-  /// @brief Method GenerateAttributeCertificateInfo, addr 0x119af6c, size 0x2dc, virtual false, abstract: false, final false
+  /// @brief Method GenerateAttributeCertificateInfo, addr 0x11c8dfc, size 0x2dc, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AttributeCertificateInfo* GenerateAttributeCertificateInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "V2AttributeCertificateInfoGenerator", modifiers: "&&", def_value: None }]

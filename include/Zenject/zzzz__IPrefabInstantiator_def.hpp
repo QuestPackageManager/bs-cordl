@@ -39,7 +39,7 @@ MARK_REF_PTR_T(::Zenject::IPrefabInstantiator);
 namespace Zenject {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11227))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10369))
 // CS Name: ::Zenject::IPrefabInstantiator*
 class CORDL_TYPE IPrefabInstantiator {
 public:

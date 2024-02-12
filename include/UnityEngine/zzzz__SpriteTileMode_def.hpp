@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::SpriteTileMode);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10284))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9030))
 // CS Name: ::UnityEngine::SpriteTileMode
 struct CORDL_TYPE SpriteTileMode {
 public:

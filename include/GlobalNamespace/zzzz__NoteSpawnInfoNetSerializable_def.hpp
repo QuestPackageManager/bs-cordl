@@ -45,9 +45,9 @@ MARK_REF_PTR_T(::GlobalNamespace::NoteSpawnInfoNetSerializable);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14752)), TypeDefinitionIndex(TypeDefinitionIndex(14755)), TypeDefinitionIndex(TypeDefinitionIndex(14757)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14758)), TypeDefinitionIndex(TypeDefinitionIndex(14760)), TypeDefinitionIndex(TypeDefinitionIndex(15033)), TypeDefinitionIndex(TypeDefinitionIndex(15039))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15028))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14906)), TypeDefinitionIndex(TypeDefinitionIndex(14912)), TypeDefinitionIndex(TypeDefinitionIndex(15136)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15139)), TypeDefinitionIndex(TypeDefinitionIndex(15141)), TypeDefinitionIndex(TypeDefinitionIndex(15142)), TypeDefinitionIndex(TypeDefinitionIndex(15144))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14901))
 // CS Name: ::NoteSpawnInfoNetSerializable*
 class CORDL_TYPE NoteSpawnInfoNetSerializable : public ::GlobalNamespace::PoolableSerializable {
 public:
@@ -241,10 +241,10 @@ public:
 
   constexpr void __cordl_internal_set_cutSfxVolumeMultiplier(float_t value);
 
-  /// @brief Method Obtain, addr 0x12a4c54, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Obtain, addr 0x133ab2c, size 0x64, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::NoteSpawnInfoNetSerializable* Obtain();
 
-  /// @brief Method Init, addr 0x12a4cb8, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x133ab90, size 0x140, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteSpawnInfoNetSerializable* Init(float_t time, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer noteLineLayer,
                                                                ::GlobalNamespace::NoteLineLayer beforeJumpNoteLineLayer, ::GlobalNamespace::__NoteData__GameplayType gameplayType,
                                                                ::GlobalNamespace::__NoteData__ScoringType scoringType, ::GlobalNamespace::ColorType colorType,
@@ -255,13 +255,13 @@ public:
 
   static inline ::GlobalNamespace::NoteSpawnInfoNetSerializable* New_ctor();
 
-  /// @brief Method .ctor, addr 0x12a4df8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x133acd0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Serialize, addr 0x12a4e50, size 0x1a4, virtual true, abstract: false, final false
+  /// @brief Method Serialize, addr 0x133ad28, size 0x1a4, virtual true, abstract: false, final false
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method Deserialize, addr 0x12a4ff4, size 0x1b4, virtual true, abstract: false, final false
+  /// @brief Method Deserialize, addr 0x133aecc, size 0x1b4, virtual true, abstract: false, final false
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
   // Ctor Parameters [CppParam { name: "", ty: "NoteSpawnInfoNetSerializable", modifiers: "&&", def_value: None }]

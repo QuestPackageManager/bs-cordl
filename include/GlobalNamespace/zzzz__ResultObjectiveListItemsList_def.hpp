@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::GlobalNamespace::ResultObjectiveListItemsList);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5804)), TypeDefinitionIndex(TypeDefinitionIndex(13674)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13674), inst:
-// 5220 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5805)) CS Name: ::ResultObjectiveListItemsList*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5102)), TypeDefinitionIndex(TypeDefinitionIndex(13627)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13627), inst:
+// 5200 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5103)) CS Name: ::ResultObjectiveListItemsList*
 class CORDL_TYPE ResultObjectiveListItemsList : public ::HMUI::UIItemsList_1<::UnityW<::GlobalNamespace::ResultObjectiveListItem>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::ResultObjectiveListItemsList* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22e8100, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2316bf0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ResultObjectiveListItemsList", modifiers: "&&", def_value: None }]

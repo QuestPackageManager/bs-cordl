@@ -40,10 +40,10 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::CompressedDataPacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor, addr 0x11cea90, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11fc920, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method get_Algorithm, addr 0x11d0414, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Algorithm, addr 0x11fe2a4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag get_Algorithm();
 
   // Ctor Parameters [CppParam { name: "", ty: "CompressedDataPacket", modifiers: "&&", def_value: None }]

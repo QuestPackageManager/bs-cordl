@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::IInitializePotentialDragHandler);
 namespace UnityEngine::EventSystems {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13178))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13076))
 // CS Name: ::UnityEngine.EventSystems::IInitializePotentialDragHandler*
 class CORDL_TYPE IInitializePotentialDragHandler {
 public:

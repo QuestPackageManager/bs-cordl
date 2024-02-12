@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::TextureSlotManager);
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7408))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6667))
 // CS Name: ::UnityEngine.UIElements.UIR::TextureSlotManager*
 class CORDL_TYPE TextureSlotManager : public ::System::Object {
 public:
@@ -123,31 +123,31 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::TextureSlotManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e9a040, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2eb3428, size 0x168, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Reset, addr 0x2e9a1a8, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x2eb3590, size 0x12c, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method StartNewBatch, addr 0x2e9a2d4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method StartNewBatch, addr 0x2eb36bc, size 0x6c, virtual false, abstract: false, final false
   inline void StartNewBatch();
 
-  /// @brief Method IndexOf, addr 0x2e9a340, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x2eb3728, size 0xd4, virtual false, abstract: false, final false
   inline int32_t IndexOf(::UnityEngine::UIElements::TextureId id);
 
-  /// @brief Method MarkUsed, addr 0x2e9a414, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method MarkUsed, addr 0x2eb37fc, size 0x58, virtual false, abstract: false, final false
   inline void MarkUsed(int32_t slotIndex);
 
-  /// @brief Method get_FreeSlots, addr 0x2e9a46c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FreeSlots, addr 0x2eb3854, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_FreeSlots();
 
-  /// @brief Method set_FreeSlots, addr 0x2e9a474, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_FreeSlots, addr 0x2eb385c, size 0x8, virtual false, abstract: false, final false
   inline void set_FreeSlots(int32_t value);
 
-  /// @brief Method FindOldestSlot, addr 0x2e9a47c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method FindOldestSlot, addr 0x2eb3864, size 0xd0, virtual false, abstract: false, final false
   inline int32_t FindOldestSlot();
 
-  /// @brief Method Bind, addr 0x2e9a54c, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method Bind, addr 0x2eb3934, size 0x218, virtual false, abstract: false, final false
   inline void Bind(::UnityEngine::UIElements::TextureId id, int32_t slot, ::UnityEngine::MaterialPropertyBlock* mat);
 
   // Ctor Parameters [CppParam { name: "", ty: "TextureSlotManager", modifiers: "&&", def_value: None }]

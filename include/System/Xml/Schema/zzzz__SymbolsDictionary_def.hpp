@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::System::Xml::Schema::SymbolsDictionary);
 namespace System::Xml::Schema {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11596))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11494))
 // CS Name: ::System.Xml.Schema::SymbolsDictionary*
 class CORDL_TYPE SymbolsDictionary : public ::System::Object {
 public:
@@ -100,34 +100,34 @@ public:
 
   static inline ::System::Xml::Schema::SymbolsDictionary* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28acb20, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28b0188, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Count, addr 0x28acbc4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x28b022c, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_IsUpaEnforced, addr 0x28acbd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsUpaEnforced, addr 0x28b0238, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsUpaEnforced();
 
-  /// @brief Method set_IsUpaEnforced, addr 0x28acbd8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsUpaEnforced, addr 0x28b0240, size 0xc, virtual false, abstract: false, final false
   inline void set_IsUpaEnforced(bool value);
 
-  /// @brief Method AddName, addr 0x28acbe4, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method AddName, addr 0x28b024c, size 0x134, virtual false, abstract: false, final false
   inline int32_t AddName(::System::Xml::XmlQualifiedName* name, ::System::Object* particle);
 
-  /// @brief Method AddNamespaceList, addr 0x28acd18, size 0x39c, virtual false, abstract: false, final false
+  /// @brief Method AddNamespaceList, addr 0x28b0380, size 0x39c, virtual false, abstract: false, final false
   inline void AddNamespaceList(::System::Xml::Schema::NamespaceList* list, ::System::Object* particle, bool allowLocal);
 
-  /// @brief Method AddWildcard, addr 0x28ad0b4, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method AddWildcard, addr 0x28b071c, size 0x168, virtual false, abstract: false, final false
   inline void AddWildcard(::StringW wildcard, ::System::Object* particle);
 
-  /// @brief Method GetNamespaceListSymbols, addr 0x28ad21c, size 0x78c, virtual false, abstract: false, final false
+  /// @brief Method GetNamespaceListSymbols, addr 0x28b0884, size 0x78c, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* GetNamespaceListSymbols(::System::Xml::Schema::NamespaceList* list);
 
-  /// @brief Method Exists, addr 0x28ad9a8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Exists, addr 0x28b1010, size 0x30, virtual false, abstract: false, final false
   inline bool Exists(::System::Xml::XmlQualifiedName* name);
 
-  /// @brief Method GetParticle, addr 0x28ad9d8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetParticle, addr 0x28b1040, size 0x3c, virtual false, abstract: false, final false
   inline ::System::Object* GetParticle(int32_t symbol);
 
   // Ctor Parameters [CppParam { name: "", ty: "SymbolsDictionary", modifiers: "&&", def_value: None }]

@@ -61,10 +61,10 @@ public:
   // Declarations
   static inline ::System::Threading::__OSSpecificSynchronizationContext__InvocationEntryDelegate* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2619014, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263df1c, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x26191bc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x263e0c4, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(void* arg);
 
   // Ctor Parameters [CppParam { name: "", ty: "__OSSpecificSynchronizationContext__InvocationEntryDelegate", modifiers: "&&", def_value: None }]
@@ -117,10 +117,10 @@ public:
 
   static inline ::System::Threading::__OSSpecificSynchronizationContext__InvocationContext* New_ctor(::System::Threading::SendOrPostCallback* d, ::System::Object* state);
 
-  /// @brief Method .ctor, addr 0x26190d8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263dfe0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::SendOrPostCallback* d, ::System::Object* state);
 
-  /// @brief Method Invoke, addr 0x2619108, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x263e010, size 0x28, virtual false, abstract: false, final false
   inline void Invoke();
 
   // Ctor Parameters [CppParam { name: "", ty: "__OSSpecificSynchronizationContext__InvocationContext", modifiers: "&&", def_value: None }]
@@ -181,10 +181,10 @@ public:
 
   static inline ::System::Threading::__OSSpecificSynchronizationContext____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2619234, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263e13c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Get>b__3_0, addr 0x261923c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <Get>b__3_0, addr 0x263e144, size 0x64, virtual false, abstract: false, final false
   inline ::System::Threading::OSSpecificSynchronizationContext* _Get_b__3_0(::System::Object* _osContext);
 
   // Ctor Parameters [CppParam { name: "", ty: "__OSSpecificSynchronizationContext____c", modifiers: "&&", def_value: None }]
@@ -243,28 +243,28 @@ public:
 
   static inline ::System::Threading::OSSpecificSynchronizationContext* New_ctor(::System::Object* osContext);
 
-  /// @brief Method .ctor, addr 0x2618de8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263dcf0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* osContext);
 
-  /// @brief Method Get, addr 0x2618ac4, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x263d9cc, size 0x15c, virtual false, abstract: false, final false
   static inline ::System::Threading::OSSpecificSynchronizationContext* Get();
 
-  /// @brief Method CreateCopy, addr 0x2618e14, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method CreateCopy, addr 0x263dd1c, size 0x68, virtual true, abstract: false, final false
   inline ::System::Threading::SynchronizationContext* CreateCopy();
 
-  /// @brief Method Send, addr 0x2618e7c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method Send, addr 0x263dd84, size 0x40, virtual true, abstract: false, final false
   inline void Send(::System::Threading::SendOrPostCallback* d, ::System::Object* state);
 
-  /// @brief Method Post, addr 0x2618ebc, size 0x158, virtual true, abstract: false, final false
+  /// @brief Method Post, addr 0x263ddc4, size 0x158, virtual true, abstract: false, final false
   inline void Post(::System::Threading::SendOrPostCallback* d, ::System::Object* state);
 
-  /// @brief Method InvocationEntry, addr 0x2618c80, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method InvocationEntry, addr 0x263db88, size 0x168, virtual false, abstract: false, final false
   static inline void InvocationEntry(void* arg);
 
-  /// @brief Method GetOSContext, addr 0x2618e10, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetOSContext, addr 0x263dd18, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Object* GetOSContext();
 
-  /// @brief Method PostInternal, addr 0x2619104, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method PostInternal, addr 0x263e00c, size 0x4, virtual false, abstract: false, final false
   static inline void PostInternal(::System::Object* osSynchronizationContext, void* callback, void* arg);
 
   // Ctor Parameters [CppParam { name: "", ty: "OSSpecificSynchronizationContext", modifiers: "&&", def_value: None }]

@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::System::Xml::Linq::XObjectChangeAnnotation);
 namespace System::Xml::Linq {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15455))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15569))
 // CS Name: ::System.Xml.Linq::XObjectChangeAnnotation*
 class CORDL_TYPE XObjectChangeAnnotation : public ::System::Object {
 public:

@@ -51,8 +51,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerConnectedPlayerFacade__Factory);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(16090))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5122))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(16199))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4460))
 // CS Name: ::MultiplayerConnectedPlayerFacade*
 class CORDL_TYPE MultiplayerConnectedPlayerFacade : public ::UnityEngine::MonoBehaviour {
 public:
@@ -148,36 +148,36 @@ public:
 
   constexpr void __cordl_internal_set__beatmapObjectEventManager(::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager* value);
 
-  /// @brief Method get_introAnimator, addr 0x23d4b40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_introAnimator, addr 0x238e6dc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator> get_introAnimator();
 
-  /// @brief Method get_outroAnimator, addr 0x23d4b48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_outroAnimator, addr 0x238e6e4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_outroAnimator();
 
-  /// @brief Method get_scoreDiffText, addr 0x23d4b50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_scoreDiffText, addr 0x238e6ec, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MultiplayerScoreDiffText> get_scoreDiffText();
 
-  /// @brief Method SetSongStartSyncTime, addr 0x23d4b58, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetSongStartSyncTime, addr 0x238e6f4, size 0x18, virtual false, abstract: false, final false
   inline void SetSongStartSyncTime(int64_t songStartSyncTime);
 
-  /// @brief Method PauseSpawning, addr 0x23d4cc4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method PauseSpawning, addr 0x238e860, size 0xa4, virtual false, abstract: false, final false
   inline void PauseSpawning();
 
-  /// @brief Method ResumeSpawning, addr 0x23d4d68, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method ResumeSpawning, addr 0x238e904, size 0xa4, virtual false, abstract: false, final false
   inline void ResumeSpawning();
 
-  /// @brief Method __ForceStopSong, addr 0x23d4e0c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method __ForceStopSong, addr 0x238e9a8, size 0x34, virtual false, abstract: false, final false
   inline void __ForceStopSong();
 
-  /// @brief Method HideBigAvatar, addr 0x23d4e4c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method HideBigAvatar, addr 0x238e9e8, size 0x8c, virtual false, abstract: false, final false
   inline void HideBigAvatar();
 
-  /// @brief Method __GetPlayerAvatar, addr 0x23d4edc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method __GetPlayerAvatar, addr 0x238ec44, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityW<::BeatSaber::AvatarCore::Avatar> __GetPlayerAvatar();
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerFacade* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23d4f28, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x238ec90, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerFacade", modifiers: "&&", def_value: None }]
@@ -249,8 +249,8 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerFacade, ____
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5122)), TypeDefinitionIndex(TypeDefinitionIndex(5239)), TypeDefinitionIndex(TypeDefinitionIndex(11008)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12778)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11008), inst: 3503 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5121)) CS
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4460)), TypeDefinitionIndex(TypeDefinitionIndex(4580)), TypeDefinitionIndex(TypeDefinitionIndex(10150)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12676)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10150), inst: 3474 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4459)) CS
 // Name: ::MultiplayerConnectedPlayerFacade::Factory*
 class CORDL_TYPE __MultiplayerConnectedPlayerFacade__Factory
     : public ::Zenject::PlaceholderFactory_3<::GlobalNamespace::IConnectedPlayer*, ::GlobalNamespace::MultiplayerPlayerStartState, ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerFacade>> {
@@ -258,7 +258,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__MultiplayerConnectedPlayerFacade__Factory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23d4f3c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x238eca4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerConnectedPlayerFacade__Factory", modifiers: "&&", def_value: None }]

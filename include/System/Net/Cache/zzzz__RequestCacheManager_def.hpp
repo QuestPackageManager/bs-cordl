@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::System::Net::Cache::RequestCacheManager);
 namespace System::Net::Cache {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9317))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7327))
 // CS Name: ::System.Net.Cache::RequestCacheManager*
 class CORDL_TYPE RequestCacheManager : public ::System::Object {
 public:
@@ -62,10 +62,10 @@ public:
 
   static inline ::System::Net::Cache::RequestCacheBinding* getStaticF_s_DefaultFtpBinding();
 
-  /// @brief Method GetBinding, addr 0x29f0f30, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method GetBinding, addr 0x29f59d4, size 0x1fc, virtual false, abstract: false, final false
   static inline ::System::Net::Cache::RequestCacheBinding* GetBinding(::StringW internedScheme);
 
-  /// @brief Method LoadConfigSettings, addr 0x29f112c, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method LoadConfigSettings, addr 0x29f5bd0, size 0x184, virtual false, abstract: false, final false
   static inline void LoadConfigSettings();
 
   // Ctor Parameters [CppParam { name: "", ty: "RequestCacheManager", modifiers: "&&", def_value: None }]

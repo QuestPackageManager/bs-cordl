@@ -55,32 +55,32 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
   constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable();
 
-  /// @brief Method .ctor, addr 0x25fedb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2622cc0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(void* v);
 
-  /// @brief Method .ctor, addr 0x25fedc0, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2622cc8, size 0x1b4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method get_Value, addr 0x25fef74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x2622e7c, size 0x8, virtual false, abstract: false, final false
   inline void* get_Value();
 
-  /// @brief Method GetObjectData, addr 0x25fef7c, size 0x1bc, virtual true, abstract: false, final true
+  /// @brief Method GetObjectData, addr 0x2622e84, size 0x1bc, virtual true, abstract: false, final true
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method Equals, addr 0x25ff138, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2623040, size 0xfc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x25ff234, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x262313c, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method SetValueInternal, addr 0x25ff23c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetValueInternal, addr 0x2623144, size 0x4, virtual false, abstract: false, final false
   static inline void SetValueInternal(::System::Reflection::FieldInfo* fi, ::System::Object* obj, ::System::Object* value);
 
-  /// @brief Method SetValue, addr 0x25ff240, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x2623148, size 0x4, virtual false, abstract: false, final false
   static inline void SetValue(::System::Reflection::RuntimeFieldInfo* field, ::System::Object* obj, ::System::Object* value, ::System::RuntimeType* fieldType,
                               ::System::Reflection::FieldAttributes fieldAttr, ::System::RuntimeType* declaringType, ByRef<bool> domainInitialized);
 
-  /// @brief Method SetValueDirect, addr 0x25ff244, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetValueDirect, addr 0x262314c, size 0x4, virtual false, abstract: false, final false
   static inline void SetValueDirect(::System::Reflection::RuntimeFieldInfo* field, ::System::RuntimeType* fieldType, ::cordl_internals::Ptr<void> pTypedRef, ::System::Object* value,
                                     ::System::RuntimeType* contextType);
 

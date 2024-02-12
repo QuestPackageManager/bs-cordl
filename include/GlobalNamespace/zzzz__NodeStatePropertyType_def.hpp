@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::NodeStatePropertyType);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7533))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7613))
 // CS Name: ::NodeStatePropertyType
 struct CORDL_TYPE NodeStatePropertyType {
 public:

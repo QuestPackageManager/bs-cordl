@@ -87,7 +87,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__MissionMapAnimationController____c);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5537))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4843))
 // CS Name: ::MissionMapAnimationController::<UpdateMissionMapCoroutine>d__12*
 class CORDL_TYPE __MissionMapAnimationController___UpdateMissionMapCoroutine_d__12 : public ::System::Object {
 public:
@@ -161,22 +161,22 @@ public:
 
   static inline ::GlobalNamespace::__MissionMapAnimationController___UpdateMissionMapCoroutine_d__12* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor, addr 0x229f604, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23f9e88, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x229f7fc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x23fa080, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext, addr 0x229f800, size 0x1f8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x23fa084, size 0x1f8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x229f9f8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x23fa27c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x229fa00, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x23fa284, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x229fa40, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x23fa2c4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MissionMapAnimationController___UpdateMissionMapCoroutine_d__12", modifiers: "&&", def_value: None }]
@@ -229,7 +229,7 @@ static_assert(offsetof(::GlobalNamespace::__MissionMapAnimationController___Upda
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5538))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4844))
 // CS Name: ::MissionMapAnimationController::<UpdateClearedNodeStateCoroutine>d__13*
 class CORDL_TYPE __MissionMapAnimationController___UpdateClearedNodeStateCoroutine_d__13 : public ::System::Object {
 public:
@@ -294,22 +294,22 @@ public:
 
   static inline ::GlobalNamespace::__MissionMapAnimationController___UpdateClearedNodeStateCoroutine_d__13* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor, addr 0x229f6a0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23f9f24, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x229fa48, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x23fa2cc, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext, addr 0x229fa4c, size 0xf0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x23fa2d0, size 0xf0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x229fb48, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x23fa3cc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x229fb50, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x23fa3d4, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x229fb90, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x23fa414, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MissionMapAnimationController___UpdateClearedNodeStateCoroutine_d__13", modifiers: "&&", def_value: None }]
@@ -357,7 +357,7 @@ static_assert(offsetof(::GlobalNamespace::__MissionMapAnimationController___Upda
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5539))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4845))
 // CS Name: ::MissionMapAnimationController::<UpdateStageCoroutine>d__14*
 class CORDL_TYPE __MissionMapAnimationController___UpdateStageCoroutine_d__14 : public ::System::Object {
 public:
@@ -413,22 +413,22 @@ public:
 
   static inline ::GlobalNamespace::__MissionMapAnimationController___UpdateStageCoroutine_d__14* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor, addr 0x229f730, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23f9fb4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x229fb98, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x23fa41c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext, addr 0x229fb9c, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x23fa420, size 0x9c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x229fdf8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x23fa67c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x229fe00, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x23fa684, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x229fe40, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x23fa6c4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MissionMapAnimationController___UpdateStageCoroutine_d__14", modifiers: "&&", def_value: None }]
@@ -471,7 +471,7 @@ static_assert(offsetof(::GlobalNamespace::__MissionMapAnimationController___Upda
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5540))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4846))
 // CS Name: ::MissionMapAnimationController::<>c*
 class CORDL_TYPE __MissionMapAnimationController____c : public ::System::Object {
 public:
@@ -499,13 +499,13 @@ public:
 
   static inline ::GlobalNamespace::__MissionMapAnimationController____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x229feac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23fa730, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <UpdateNodesAndConnectionCoroutine>b__15_0, addr 0x229feb4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <UpdateNodesAndConnectionCoroutine>b__15_0, addr 0x23fa738, size 0x24, virtual false, abstract: false, final false
   inline float_t _UpdateNodesAndConnectionCoroutine_b__15_0(::GlobalNamespace::MissionNodeConnection* connection);
 
-  /// @brief Method <UpdateNodesAndConnectionCoroutine>b__15_1, addr 0x229fef4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <UpdateNodesAndConnectionCoroutine>b__15_1, addr 0x23fa778, size 0x24, virtual false, abstract: false, final false
   inline float_t _UpdateNodesAndConnectionCoroutine_b__15_1(::GlobalNamespace::MissionNodeConnection* connection);
 
   // Ctor Parameters [CppParam { name: "", ty: "__MissionMapAnimationController____c", modifiers: "&&", def_value: None }]
@@ -533,7 +533,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MissionMapAni
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5541))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4847))
 // CS Name: ::MissionMapAnimationController::<UpdateNodesAndConnectionCoroutine>d__15*
 class CORDL_TYPE __MissionMapAnimationController___UpdateNodesAndConnectionCoroutine_d__15 : public ::System::Object {
 public:
@@ -619,22 +619,22 @@ public:
 
   static inline ::GlobalNamespace::__MissionMapAnimationController___UpdateNodesAndConnectionCoroutine_d__15* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor, addr 0x229f7c0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23fa044, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x229ff18, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x23fa79c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext, addr 0x229ff1c, size 0x310, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x23fa7a0, size 0x310, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x22a0478, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x23facfc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x22a0480, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x23fad04, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x22a04c0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x23fad44, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MissionMapAnimationController___UpdateNodesAndConnectionCoroutine_d__15", modifiers: "&&", def_value: None }]
@@ -691,8 +691,8 @@ static_assert(offsetof(::GlobalNamespace::__MissionMapAnimationController___Upda
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5542))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4848))
 // CS Name: ::MissionMapAnimationController*
 class CORDL_TYPE MissionMapAnimationController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -783,30 +783,30 @@ public:
 
   constexpr void __cordl_internal_set__shockwaveEffect(::UnityW<::GlobalNamespace::MenuShockwave> value);
 
-  /// @brief Method get_animatedUpdateIsRequired, addr 0x229f128, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_animatedUpdateIsRequired, addr 0x23f99ac, size 0x74, virtual false, abstract: false, final false
   inline bool get_animatedUpdateIsRequired();
 
-  /// @brief Method ScrollToTopMostNotClearedMission, addr 0x229f24c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method ScrollToTopMostNotClearedMission, addr 0x23f9ad0, size 0xcc, virtual false, abstract: false, final false
   inline void ScrollToTopMostNotClearedMission();
 
-  /// @brief Method UpdateMissionMapAfterMissionWasCleared, addr 0x229f464, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method UpdateMissionMapAfterMissionWasCleared, addr 0x23f9ce8, size 0xe8, virtual false, abstract: false, final false
   inline void UpdateMissionMapAfterMissionWasCleared(bool animated, ::System::Action* finishCallback);
 
-  /// @brief Method UpdateMissionMapCoroutine, addr 0x229f588, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method UpdateMissionMapCoroutine, addr 0x23f9e0c, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* UpdateMissionMapCoroutine(::GlobalNamespace::MissionNode* lastClearedMissionNode, ::System::Action* finishCallback);
 
-  /// @brief Method UpdateClearedNodeStateCoroutine, addr 0x229f62c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method UpdateClearedNodeStateCoroutine, addr 0x23f9eb0, size 0x74, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* UpdateClearedNodeStateCoroutine(::GlobalNamespace::MissionNode* lastClearedMissionNode);
 
-  /// @brief Method UpdateStageCoroutine, addr 0x229f6c8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method UpdateStageCoroutine, addr 0x23f9f4c, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* UpdateStageCoroutine();
 
-  /// @brief Method UpdateNodesAndConnectionCoroutine, addr 0x229f758, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method UpdateNodesAndConnectionCoroutine, addr 0x23f9fdc, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* UpdateNodesAndConnectionCoroutine();
 
   static inline ::GlobalNamespace::MissionMapAnimationController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x229f7e8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23fa06c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionMapAnimationController", modifiers: "&&", def_value: None }]

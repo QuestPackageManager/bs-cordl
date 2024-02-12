@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IBindable);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7082))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6341))
 // CS Name: ::UnityEngine.UIElements::IBindable*
 class CORDL_TYPE IBindable {
 public:

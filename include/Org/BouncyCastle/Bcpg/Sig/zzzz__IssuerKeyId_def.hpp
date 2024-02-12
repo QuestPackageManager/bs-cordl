@@ -24,20 +24,20 @@ public:
   // Declarations
   __declspec(property(get = get_KeyId)) int64_t KeyId;
 
-  /// @brief Method KeyIdToBytes, addr 0x11c79a4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method KeyIdToBytes, addr 0x11f5834, size 0xd4, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> KeyIdToBytes(int64_t keyId);
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::IssuerKeyId* New_ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0x11c7a78, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11f5908, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::IssuerKeyId* New_ctor(bool critical, int64_t keyId);
 
-  /// @brief Method .ctor, addr 0x11c7ac0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11f5950, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(bool critical, int64_t keyId);
 
-  /// @brief Method get_KeyId, addr 0x11c7b0c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_KeyId, addr 0x11f599c, size 0x9c, virtual false, abstract: false, final false
   inline int64_t get_KeyId();
 
   // Ctor Parameters [CppParam { name: "", ty: "IssuerKeyId", modifiers: "&&", def_value: None }]

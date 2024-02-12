@@ -102,85 +102,85 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Engines::SerpentEngineBase* New_ctor();
 
-  /// @brief Method .ctor, addr 0xee2ab4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf0d944, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Init, addr 0xee2abc, size 0x184, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0xf0d94c, size 0x184, virtual true, abstract: false, final false
   inline void Init(bool encrypting, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method get_AlgorithmName, addr 0xee2c40, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0xf0dad0, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method get_IsPartialBlockOkay, addr 0xee2c80, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsPartialBlockOkay, addr 0xf0db10, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsPartialBlockOkay();
 
-  /// @brief Method GetBlockSize, addr 0xee2c88, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method GetBlockSize, addr 0xf0db18, size 0x58, virtual true, abstract: false, final false
   inline int32_t GetBlockSize();
 
-  /// @brief Method ProcessBlock, addr 0xee2ce0, size 0x1b0, virtual true, abstract: false, final true
+  /// @brief Method ProcessBlock, addr 0xf0db70, size 0x1b0, virtual true, abstract: false, final true
   inline int32_t ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset, addr 0xee2e90, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0xf0dd20, size 0x4, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method RotateLeft, addr 0xee2e94, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method RotateLeft, addr 0xf0dd24, size 0xc, virtual false, abstract: false, final false
   static inline int32_t RotateLeft(int32_t x, int32_t bits);
 
-  /// @brief Method RotateRight, addr 0xee2ea0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method RotateRight, addr 0xf0dd30, size 0x8, virtual false, abstract: false, final false
   static inline int32_t RotateRight(int32_t x, int32_t bits);
 
-  /// @brief Method Sb0, addr 0xee2ea8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Sb0, addr 0xf0dd38, size 0x40, virtual false, abstract: false, final false
   inline void Sb0(int32_t a, int32_t b, int32_t c, int32_t d);
 
-  /// @brief Method Ib0, addr 0xee2ee8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Ib0, addr 0xf0dd78, size 0x44, virtual false, abstract: false, final false
   inline void Ib0(int32_t a, int32_t b, int32_t c, int32_t d);
 
-  /// @brief Method Sb1, addr 0xee2f2c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Sb1, addr 0xf0ddbc, size 0x40, virtual false, abstract: false, final false
   inline void Sb1(int32_t a, int32_t b, int32_t c, int32_t d);
 
-  /// @brief Method Ib1, addr 0xee2f6c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Ib1, addr 0xf0ddfc, size 0x40, virtual false, abstract: false, final false
   inline void Ib1(int32_t a, int32_t b, int32_t c, int32_t d);
 
-  /// @brief Method Sb2, addr 0xee2fac, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Sb2, addr 0xf0de3c, size 0x48, virtual false, abstract: false, final false
   inline void Sb2(int32_t a, int32_t b, int32_t c, int32_t d);
 
-  /// @brief Method Ib2, addr 0xee2ff4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Ib2, addr 0xf0de84, size 0x44, virtual false, abstract: false, final false
   inline void Ib2(int32_t a, int32_t b, int32_t c, int32_t d);
 
-  /// @brief Method Sb3, addr 0xee3038, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Sb3, addr 0xf0dec8, size 0x4c, virtual false, abstract: false, final false
   inline void Sb3(int32_t a, int32_t b, int32_t c, int32_t d);
 
-  /// @brief Method Ib3, addr 0xee3084, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Ib3, addr 0xf0df14, size 0x48, virtual false, abstract: false, final false
   inline void Ib3(int32_t a, int32_t b, int32_t c, int32_t d);
 
-  /// @brief Method Sb4, addr 0xee30cc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Sb4, addr 0xf0df5c, size 0x44, virtual false, abstract: false, final false
   inline void Sb4(int32_t a, int32_t b, int32_t c, int32_t d);
 
-  /// @brief Method Ib4, addr 0xee3110, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Ib4, addr 0xf0dfa0, size 0x44, virtual false, abstract: false, final false
   inline void Ib4(int32_t a, int32_t b, int32_t c, int32_t d);
 
-  /// @brief Method Sb5, addr 0xee3154, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Sb5, addr 0xf0dfe4, size 0x48, virtual false, abstract: false, final false
   inline void Sb5(int32_t a, int32_t b, int32_t c, int32_t d);
 
-  /// @brief Method Ib5, addr 0xee319c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Ib5, addr 0xf0e02c, size 0x48, virtual false, abstract: false, final false
   inline void Ib5(int32_t a, int32_t b, int32_t c, int32_t d);
 
-  /// @brief Method Sb6, addr 0xee31e4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Sb6, addr 0xf0e074, size 0x40, virtual false, abstract: false, final false
   inline void Sb6(int32_t a, int32_t b, int32_t c, int32_t d);
 
-  /// @brief Method Ib6, addr 0xee3224, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Ib6, addr 0xf0e0b4, size 0x44, virtual false, abstract: false, final false
   inline void Ib6(int32_t a, int32_t b, int32_t c, int32_t d);
 
-  /// @brief Method Sb7, addr 0xee3268, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Sb7, addr 0xf0e0f8, size 0x48, virtual false, abstract: false, final false
   inline void Sb7(int32_t a, int32_t b, int32_t c, int32_t d);
 
-  /// @brief Method Ib7, addr 0xee32b0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Ib7, addr 0xf0e140, size 0x4c, virtual false, abstract: false, final false
   inline void Ib7(int32_t a, int32_t b, int32_t c, int32_t d);
 
-  /// @brief Method LT, addr 0xee32fc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method LT, addr 0xf0e18c, size 0x9c, virtual false, abstract: false, final false
   inline void LT();
 
-  /// @brief Method InverseLT, addr 0xee3398, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method InverseLT, addr 0xf0e228, size 0x8c, virtual false, abstract: false, final false
   inline void InverseLT();
 
   /// @brief Method MakeWorkingKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

@@ -11,11 +11,11 @@ class AppStaticSettingsSO;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::AppStaticSettingsSO);
 // Type: ::AppStaticSettingsSO
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 27, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4122))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8954))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10580))
 // CS Name: ::AppStaticSettingsSO*
 class CORDL_TYPE AppStaticSettingsSO : public ::UnityEngine::ScriptableObject {
 public:
@@ -28,9 +28,6 @@ public:
 
   /// @brief Field enableCustomLevels, offset 0x1a, size 0x1
   __declspec(property(get = __cordl_internal_get_enableCustomLevels, put = __cordl_internal_set_enableCustomLevels)) bool enableCustomLevels;
-
-  /// @brief Field disableMultiplayer, offset 0x1b, size 0x1
-  __declspec(property(get = __cordl_internal_get_disableMultiplayer, put = __cordl_internal_set_disableMultiplayer)) bool disableMultiplayer;
 
   constexpr bool& __cordl_internal_get_requirePrivacyPolicy();
 
@@ -50,15 +47,9 @@ public:
 
   constexpr void __cordl_internal_set_enableCustomLevels(bool value);
 
-  constexpr bool& __cordl_internal_get_disableMultiplayer();
-
-  constexpr bool const& __cordl_internal_get_disableMultiplayer() const;
-
-  constexpr void __cordl_internal_set_disableMultiplayer(bool value);
-
   static inline ::GlobalNamespace::AppStaticSettingsSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2239bd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1262e58, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AppStaticSettingsSO", modifiers: "&&", def_value: None }]
@@ -84,9 +75,6 @@ public:
   /// @brief Field enableCustomLevels, offset: 0x1a, size: 0x1, def value: None
   bool ___enableCustomLevels;
 
-  /// @brief Field disableMultiplayer, offset: 0x1b, size: 0x1, def value: None
-  bool ___disableMultiplayer;
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -97,8 +85,6 @@ static_assert(offsetof(::GlobalNamespace::AppStaticSettingsSO, ___requirePrivacy
 static_assert(offsetof(::GlobalNamespace::AppStaticSettingsSO, ___enable360DegreeLevels) == 0x19, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::AppStaticSettingsSO, ___enableCustomLevels) == 0x1a, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::AppStaticSettingsSO, ___disableMultiplayer) == 0x1b, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::AppStaticSettingsSO);

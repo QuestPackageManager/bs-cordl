@@ -7,10 +7,13 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(RelativeSfxVolumePerLevelModel)
 namespace GlobalNamespace {
-class RelativeSfxVolumePerLevelSO;
+class PackDefinitionSO;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -23,7 +26,7 @@ MARK_REF_PTR_T(::GlobalNamespace::RelativeSfxVolumePerLevelModel);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4420))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10842))
 // CS Name: ::RelativeSfxVolumePerLevelModel*
 class CORDL_TYPE RelativeSfxVolumePerLevelModel : public ::System::Object {
 public:
@@ -38,12 +41,12 @@ public:
 
   constexpr void __cordl_internal_set__relativeSfxVolumePerLevelId(::System::Collections::Generic::Dictionary_2<::StringW, float_t>* value);
 
-  static inline ::GlobalNamespace::RelativeSfxVolumePerLevelModel* New_ctor(::GlobalNamespace::RelativeSfxVolumePerLevelSO* relativeSfxVolumePerLevelData);
+  static inline ::GlobalNamespace::RelativeSfxVolumePerLevelModel* New_ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
 
-  /// @brief Method .ctor, addr 0x234d86c, size 0x1b4, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::RelativeSfxVolumePerLevelSO* relativeSfxVolumePerLevelData);
+  /// @brief Method .ctor, addr 0x1290e88, size 0x7a8, virtual false, abstract: false, final false
+  inline void _ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
 
-  /// @brief Method GetRelativeSfxVolume, addr 0x234da20, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetRelativeSfxVolume, addr 0x1291630, size 0x7c, virtual false, abstract: false, final false
   inline float_t GetRelativeSfxVolume(::StringW levelId);
 
   // Ctor Parameters [CppParam { name: "", ty: "RelativeSfxVolumePerLevelModel", modifiers: "&&", def_value: None }]

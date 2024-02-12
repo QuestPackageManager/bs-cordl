@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::GlobalNamespace::SettingsSubMenuInfo);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5692))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4994))
 // CS Name: ::SettingsSubMenuInfo*
 class CORDL_TYPE SettingsSubMenuInfo : public ::System::Object {
 public:
@@ -46,15 +46,15 @@ public:
 
   constexpr void __cordl_internal_set__menuName(::StringW value);
 
-  /// @brief Method get_viewController, addr 0x22c94f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_viewController, addr 0x22f90f4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::ViewController> get_viewController();
 
-  /// @brief Method get_localizedMenuName, addr 0x22c9500, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_localizedMenuName, addr 0x22f90fc, size 0xc, virtual false, abstract: false, final false
   inline ::StringW get_localizedMenuName();
 
   static inline ::GlobalNamespace::SettingsSubMenuInfo* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22c950c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22f9108, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SettingsSubMenuInfo", modifiers: "&&", def_value: None }]

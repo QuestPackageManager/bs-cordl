@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::ENet::Callbacks);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace ENet {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15220))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15231))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15333))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15344))
 // CS Name: ::ENet::Callbacks*
 class CORDL_TYPE Callbacks : public ::System::Object {
 public:
@@ -44,15 +44,15 @@ public:
 
   constexpr void __cordl_internal_set_nativeCallbacks(::ENet::ENetCallbacks value);
 
-  /// @brief Method get_NativeData, addr 0x21efe4c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_NativeData, addr 0x2285734, size 0x14, virtual false, abstract: false, final false
   inline ::ENet::ENetCallbacks get_NativeData();
 
-  /// @brief Method set_NativeData, addr 0x21efe60, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_NativeData, addr 0x2285748, size 0x14, virtual false, abstract: false, final false
   inline void set_NativeData(::ENet::ENetCallbacks value);
 
   static inline ::ENet::Callbacks* New_ctor(::ENet::AllocCallback* allocCallback, ::ENet::FreeCallback* freeCallback, ::ENet::NoMemoryCallback* noMemoryCallback);
 
-  /// @brief Method .ctor, addr 0x21efe74, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x228575c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::ENet::AllocCallback* allocCallback, ::ENet::FreeCallback* freeCallback, ::ENet::NoMemoryCallback* noMemoryCallback);
 
   // Ctor Parameters [CppParam { name: "", ty: "Callbacks", modifiers: "&&", def_value: None }]

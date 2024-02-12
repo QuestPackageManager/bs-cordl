@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::System::Text::RegularExpressions::CaptureCollection);
 namespace System::Text::RegularExpressions {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8901))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6911))
 // CS Name: ::System.Text.RegularExpressions::CaptureCollection*
 class CORDL_TYPE CaptureCollection : public ::System::Object {
 public:

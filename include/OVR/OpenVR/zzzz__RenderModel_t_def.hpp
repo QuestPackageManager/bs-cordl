@@ -17,7 +17,7 @@ MARK_VAL_T(::OVR::OpenVR::RenderModel_t);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8715))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8659))
 // CS Name: ::OVR.OpenVR::RenderModel_t
 struct CORDL_TYPE RenderModel_t {
 public:

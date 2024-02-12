@@ -26,8 +26,8 @@ MARK_VAL_T(::UnityEngine::UIVertex);
 // SizeInfo { instance_size: 108, native_size: 108, calculated_instance_size: 108, calculated_native_size: 124, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10246)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10250))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15907))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8990)), TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(8994))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15850))
 // CS Name: ::UnityEngine::UIVertex
 struct CORDL_TYPE UIVertex {
 public:

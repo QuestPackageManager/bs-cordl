@@ -16,7 +16,7 @@ MARK_VAL_T(::IgnoranceCore::IgnoranceChannelTypes);
 namespace IgnoranceCore {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15242))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15355))
 // CS Name: ::IgnoranceCore::IgnoranceChannelTypes
 struct CORDL_TYPE IgnoranceChannelTypes {
 public:

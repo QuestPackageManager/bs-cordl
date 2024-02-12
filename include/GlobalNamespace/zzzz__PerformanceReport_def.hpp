@@ -24,21 +24,21 @@ MARK_REF_PTR_T(::GlobalNamespace::PerformanceReport);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5946))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5219))
 // CS Name: ::PerformanceReport*
 class CORDL_TYPE PerformanceReport : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateTimestamp, addr 0x23047ac, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method CreateTimestamp, addr 0x23323e8, size 0x50, virtual false, abstract: false, final false
   static inline ::StringW CreateTimestamp(::System::DateTime timestamp);
 
-  /// @brief Method CreateReportDescriptor, addr 0x23047fc, size 0x33c, virtual false, abstract: false, final false
+  /// @brief Method CreateReportDescriptor, addr 0x2332438, size 0x188, virtual false, abstract: false, final false
   static inline ::StringW CreateReportDescriptor(::System::DateTime timestamp, ::GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData);
 
-  /// @brief Method ListAggregatedFps, addr 0x2304488, size 0x324, virtual false, abstract: false, final false
+  /// @brief Method ListAggregatedFps, addr 0x23320c4, size 0x324, virtual false, abstract: false, final false
   static inline ::StringW ListAggregatedFps(::ArrayW<float_t, ::Array<float_t>*> frameDurations, float_t minWindowSize);
 
-  /// @brief Method ListFrameDurations, addr 0x2304374, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method ListFrameDurations, addr 0x2331fb0, size 0x114, virtual false, abstract: false, final false
   static inline ::StringW ListFrameDurations(::ArrayW<float_t, ::Array<float_t>*> frameDurations);
 
   // Ctor Parameters [CppParam { name: "", ty: "PerformanceReport", modifiers: "&&", def_value: None }]

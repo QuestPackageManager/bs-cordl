@@ -42,23 +42,23 @@ public:
 
   constexpr void __cordl_internal_set_targets(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method GetInstance, addr 0x1198150, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x11c5fe0, size 0x18c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::Targets* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::Targets* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* targets);
 
-  /// @brief Method .ctor, addr 0x119844c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11c62dc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* targets);
 
   static inline ::Org::BouncyCastle::Asn1::X509::Targets* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::Target*, ::Array<::Org::BouncyCastle::Asn1::X509::Target*>*> targets);
 
-  /// @brief Method .ctor, addr 0x11983c8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11c6258, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::Target*, ::Array<::Org::BouncyCastle::Asn1::X509::Target*>*> targets);
 
-  /// @brief Method GetTargets, addr 0x1198474, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method GetTargets, addr 0x11c6304, size 0x110, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::Target*, ::Array<::Org::BouncyCastle::Asn1::X509::Target*>*> GetTargets();
 
-  /// @brief Method ToAsn1Object, addr 0x1198584, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x11c6414, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "Targets", modifiers: "&&", def_value: None }]

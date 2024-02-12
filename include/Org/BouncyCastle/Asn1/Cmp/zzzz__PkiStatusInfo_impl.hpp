@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* (*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(
     &::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo::GetInstance)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0xe6d598;
+  constexpr static std::size_t addrs = 0xe98428;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo::GetInstance)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0xe65928;
+  constexpr static std::size_t addrs = 0xe907b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo::_ctor)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0xe6d5b0;
+  constexpr static std::size_t addrs = 0xe98440;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo::*)(int32_t)>(
     &::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0xe6d728;
+  constexpr static std::size_t addrs = 0xe985b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo::*)(int32_t, ::Org::BouncyCastle::Asn1::Cmp::PkiFreeText*)>(
     &::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0xe6d7a4;
+  constexpr static std::size_t addrs = 0xe98634;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo::*)(
     int32_t, ::Org::BouncyCastle::Asn1::Cmp::PkiFreeText*, ::Org::BouncyCastle::Asn1::Cmp::PkiFailureInfo*)>(&::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0xe6d824;
+  constexpr static std::size_t addrs = 0xe986b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo::get_Status)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0xe6d8b4;
+  constexpr static std::size_t addrs = 0xe98744;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo*>::get(),
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* (::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo::get_StatusString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xe6d8d0;
+  constexpr static std::size_t addrs = 0xe98760;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo*>::get(),
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerBitString* (::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo::get_FailInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xe6d8d8;
+  constexpr static std::size_t addrs = 0xe98768;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo*>::get(),
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo::ToAsn1Object)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0xe6d8e0;
+  constexpr static std::size_t addrs = 0xe98770;
 
   inline static ::MethodInfo const* methodInfo() {
 

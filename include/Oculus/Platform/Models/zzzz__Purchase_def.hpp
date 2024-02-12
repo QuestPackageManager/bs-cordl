@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::Purchase);
 namespace Oculus::Platform::Models {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13475))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13424))
 // CS Name: ::Oculus.Platform.Models::Purchase*
 class CORDL_TYPE Purchase : public ::System::Object {
 public:
@@ -79,7 +79,7 @@ public:
 
   static inline ::Oculus::Platform::Models::Purchase* New_ctor(void* o);
 
-  /// @brief Method .ctor, addr 0x27087ac, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x273c888, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "Purchase", modifiers: "&&", def_value: None }]

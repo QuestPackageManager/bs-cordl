@@ -25,15 +25,15 @@ MARK_REF_PTR_T(::UnityEngine::UI::MultipleDisplayUtilities);
 namespace UnityEngine::UI {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13103))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13001))
 // CS Name: ::UnityEngine.UI::MultipleDisplayUtilities*
 class CORDL_TYPE MultipleDisplayUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetRelativeMousePositionForDrag, addr 0x2d7db5c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetRelativeMousePositionForDrag, addr 0x2d9af44, size 0x68, virtual false, abstract: false, final false
   static inline bool GetRelativeMousePositionForDrag(::UnityEngine::EventSystems::PointerEventData* eventData, ByRef<::UnityEngine::Vector2> position);
 
-  /// @brief Method RelativeMouseAtScaled, addr 0x2d7dbc4, size 0x468, virtual false, abstract: false, final false
+  /// @brief Method RelativeMouseAtScaled, addr 0x2d9afac, size 0x468, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 RelativeMouseAtScaled(::UnityEngine::Vector2 position);
 
   // Ctor Parameters [CppParam { name: "", ty: "MultipleDisplayUtilities", modifiers: "&&", def_value: None }]

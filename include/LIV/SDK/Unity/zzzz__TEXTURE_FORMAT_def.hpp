@@ -16,7 +16,7 @@ MARK_VAL_T(::LIV::SDK::Unity::TEXTURE_FORMAT);
 namespace LIV::SDK::Unity {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15104))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14977))
 // CS Name: ::LIV.SDK.Unity::TEXTURE_FORMAT
 struct CORDL_TYPE TEXTURE_FORMAT {
 public:

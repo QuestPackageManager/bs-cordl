@@ -37,24 +37,24 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Signers::__Ed25519Signer__Buffer);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Signers {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3566))]
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3562))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1134))
 // CS Name: ::Ed25519Signer::Buffer*
 class CORDL_TYPE __Ed25519Signer__Buffer : public ::System::IO::MemoryStream {
 public:
   // Declarations
-  /// @brief Method GenerateSignature, addr 0xf4af8c, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GenerateSignature, addr 0xf75e1c, size 0x188, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateSignature(::Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters* privateKey);
 
-  /// @brief Method VerifySignature, addr 0xf4b18c, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method VerifySignature, addr 0xf7601c, size 0x1b4, virtual false, abstract: false, final false
   inline bool VerifySignature(::Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters* publicKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
 
-  /// @brief Method Reset, addr 0xf4b358, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0xf761e8, size 0xf4, virtual false, abstract: false, final false
   inline void Reset();
 
   static inline ::Org::BouncyCastle::Crypto::Signers::__Ed25519Signer__Buffer* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf4ada8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf75c38, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Ed25519Signer__Buffer", modifiers: "&&", def_value: None }]
@@ -135,28 +135,28 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Signers::Ed25519Signer* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf4ad40, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf75bd0, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AlgorithmName, addr 0xf4adb0, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0xf75c40, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method Init, addr 0xf4adf0, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0xf75c80, size 0xe0, virtual true, abstract: false, final false
   inline void Init(bool forSigning, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method Update, addr 0xf4aed0, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0xf75d60, size 0x24, virtual true, abstract: false, final false
   inline void Update(uint8_t b);
 
-  /// @brief Method BlockUpdate, addr 0xf4aef4, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method BlockUpdate, addr 0xf75d84, size 0x24, virtual true, abstract: false, final false
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
-  /// @brief Method GenerateSignature, addr 0xf4af18, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method GenerateSignature, addr 0xf75da8, size 0x74, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateSignature();
 
-  /// @brief Method VerifySignature, addr 0xf4b114, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method VerifySignature, addr 0xf75fa4, size 0x78, virtual true, abstract: false, final false
   inline bool VerifySignature(::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
 
-  /// @brief Method Reset, addr 0xf4b340, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0xf761d0, size 0x18, virtual true, abstract: false, final false
   inline void Reset();
 
   // Ctor Parameters [CppParam { name: "", ty: "Ed25519Signer", modifiers: "&&", def_value: None }]

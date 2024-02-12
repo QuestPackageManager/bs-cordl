@@ -109,66 +109,66 @@ public:
 
   constexpr void __cordl_internal_set_idx(int32_t value);
 
-  /// @brief Method F1, addr 0xed2098, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method F1, addr 0xefdf28, size 0x10, virtual false, abstract: false, final false
   static inline uint32_t F1(uint32_t x);
 
-  /// @brief Method F2, addr 0xed20b0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method F2, addr 0xefdf40, size 0x10, virtual false, abstract: false, final false
   static inline uint32_t F2(uint32_t x);
 
-  /// @brief Method G1, addr 0xed20c0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method G1, addr 0xefdf50, size 0x14, virtual false, abstract: false, final false
   inline uint32_t G1(uint32_t x, uint32_t y, uint32_t z);
 
-  /// @brief Method G2, addr 0xed20d4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method G2, addr 0xefdf64, size 0x14, virtual false, abstract: false, final false
   inline uint32_t G2(uint32_t x, uint32_t y, uint32_t z);
 
-  /// @brief Method RotateLeft, addr 0xed20e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method RotateLeft, addr 0xefdf78, size 0xc, virtual false, abstract: false, final false
   static inline uint32_t RotateLeft(uint32_t x, int32_t bits);
 
-  /// @brief Method RotateRight, addr 0xed20a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method RotateRight, addr 0xefdf38, size 0x8, virtual false, abstract: false, final false
   static inline uint32_t RotateRight(uint32_t x, int32_t bits);
 
-  /// @brief Method H1, addr 0xed20f4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method H1, addr 0xefdf84, size 0x4c, virtual false, abstract: false, final false
   inline uint32_t H1(uint32_t x);
 
-  /// @brief Method H2, addr 0xed2140, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method H2, addr 0xefdfd0, size 0x4c, virtual false, abstract: false, final false
   inline uint32_t H2(uint32_t x);
 
-  /// @brief Method Mod1024, addr 0xed218c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Mod1024, addr 0xefe01c, size 0x8, virtual false, abstract: false, final false
   static inline uint32_t Mod1024(uint32_t x);
 
-  /// @brief Method Mod512, addr 0xed2194, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Mod512, addr 0xefe024, size 0x8, virtual false, abstract: false, final false
   static inline uint32_t Mod512(uint32_t x);
 
-  /// @brief Method Dim, addr 0xed219c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Dim, addr 0xefe02c, size 0xc, virtual false, abstract: false, final false
   static inline uint32_t Dim(uint32_t x, uint32_t y);
 
-  /// @brief Method Step, addr 0xed21a8, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method Step, addr 0xefe038, size 0x1a8, virtual false, abstract: false, final false
   inline uint32_t Step();
 
-  /// @brief Method Init, addr 0xed2350, size 0x300, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0xefe1e0, size 0x300, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method get_AlgorithmName, addr 0xed2650, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0xefe4e0, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method Init, addr 0xed2690, size 0x1d4, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0xefe520, size 0x1d4, virtual true, abstract: false, final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method GetByte, addr 0xed2864, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetByte, addr 0xefe6f4, size 0x60, virtual false, abstract: false, final false
   inline uint8_t GetByte();
 
-  /// @brief Method ProcessBytes, addr 0xed28c4, size 0x19c, virtual true, abstract: false, final false
+  /// @brief Method ProcessBytes, addr 0xefe754, size 0x19c, virtual true, abstract: false, final false
   inline void ProcessBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t len, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset, addr 0xed2a60, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0xefe8f0, size 0x4, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method ReturnByte, addr 0xed2a64, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method ReturnByte, addr 0xefe8f4, size 0x18, virtual true, abstract: false, final false
   inline uint8_t ReturnByte(uint8_t input);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::HC128Engine* New_ctor();
 
-  /// @brief Method .ctor, addr 0xed2a7c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xefe90c, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HC128Engine", modifiers: "&&", def_value: None }]

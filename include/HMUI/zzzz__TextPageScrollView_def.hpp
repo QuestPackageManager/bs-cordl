@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::HMUI::TextPageScrollView);
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13648))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13670))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13601))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13623))
 // CS Name: ::HMUI::TextPageScrollView*
 class CORDL_TYPE TextPageScrollView : public ::HMUI::ScrollView {
 public:
@@ -33,12 +33,12 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method SetText, addr 0x214aa2c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetText, addr 0x21df310, size 0x68, virtual false, abstract: false, final false
   inline void SetText(::StringW text);
 
   static inline ::HMUI::TextPageScrollView* New_ctor();
 
-  /// @brief Method .ctor, addr 0x214aa94, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21df378, size 0x30, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TextPageScrollView", modifiers: "&&", def_value: None }]

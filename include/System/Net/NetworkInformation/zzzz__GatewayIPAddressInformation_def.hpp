@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::GatewayIPAddressInformation);
 namespace System::Net::NetworkInformation {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9245))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7255))
 // CS Name: ::System.Net.NetworkInformation::GatewayIPAddressInformation*
 class CORDL_TYPE GatewayIPAddressInformation : public ::System::Object {
 public:
   // Declarations
   static inline ::System::Net::NetworkInformation::GatewayIPAddressInformation* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29eafc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29efa68, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GatewayIPAddressInformation", modifiers: "&&", def_value: None }]

@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Yoga::YogaNode::*)(::UnityEngine::Yoga::YogaValue)>(&::UnityEngine::Yoga::YogaNode::set_Left)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2ea1f20;
+  constexpr static std::size_t addrs = 0x2ebb308;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Yoga::YogaNode::*)(::UnityEngine::Yoga::YogaValue)>(&::UnityEngine::Yoga::YogaNode::set_Top)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2ea1fb0;
+  constexpr static std::size_t addrs = 0x2ebb398;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Yoga::YogaNode::*)(::UnityEngine::Yoga::YogaValue)>(&::UnityEngine::Yoga::YogaNode::set_Right)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2ea1fbc;
+  constexpr static std::size_t addrs = 0x2ebb3a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Yoga::YogaNode::*)(::UnityEngine::Yoga::YogaValue)>(
     &::UnityEngine::Yoga::YogaNode::set_Bottom)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2ea1fc8;
+  constexpr static std::size_t addrs = 0x2ebb3b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Yoga::YogaNode::*)(::UnityEngine::Yoga::YogaEdge, ::UnityEngine::Yoga::YogaValue)>(
     &::UnityEngine::Yoga::YogaNode::SetStylePosition)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x2ea1f2c;
+  constexpr static std::size_t addrs = 0x2ebb314;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Yoga::YogaNode::*)(::UnityEngine::Yoga::YogaValue)>(
     &::UnityEngine::Yoga::YogaNode::set_MarginLeft)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2ea208c;
+  constexpr static std::size_t addrs = 0x2ebb474;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Yoga::YogaNode::*)(::UnityEngine::Yoga::YogaValue)>(
     &::UnityEngine::Yoga::YogaNode::set_MarginTop)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2ea2160;
+  constexpr static std::size_t addrs = 0x2ebb548;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Yoga::YogaNode::*)(::UnityEngine::Yoga::YogaValue)>(
     &::UnityEngine::Yoga::YogaNode::set_MarginRight)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2ea216c;
+  constexpr static std::size_t addrs = 0x2ebb554;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Yoga::YogaNode::*)(::UnityEngine::Yoga::YogaValue)>(
     &::UnityEngine::Yoga::YogaNode::set_MarginBottom)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2ea2178;
+  constexpr static std::size_t addrs = 0x2ebb560;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Yoga::YogaNode::*)(::UnityEngine::Yoga::YogaEdge, ::UnityEngine::Yoga::YogaValue)>(
     &::UnityEngine::Yoga::YogaNode::SetStyleMargin)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x2ea2098;
+  constexpr static std::size_t addrs = 0x2ebb480;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -178,7 +178,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Yoga::YogaNode::*)(::UnityEngine::Yoga::YogaValue)>(
     &::UnityEngine::Yoga::YogaNode::set_PaddingLeft)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2ea2270;
+  constexpr static std::size_t addrs = 0x2ebb658;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -193,7 +193,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Yoga::YogaNode::*)(::UnityEngine::Yoga::YogaValue)>(
     &::UnityEngine::Yoga::YogaNode::set_PaddingTop)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2ea2300;
+  constexpr static std::size_t addrs = 0x2ebb6e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -208,7 +208,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Yoga::YogaNode::*)(::UnityEngine::Yoga::YogaValue)>(
     &::UnityEngine::Yoga::YogaNode::set_PaddingRight)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2ea230c;
+  constexpr static std::size_t addrs = 0x2ebb6f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -223,7 +223,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Yoga::YogaNode::*)(::UnityEngine::Yoga::YogaValue)>(
     &::UnityEngine::Yoga::YogaNode::set_PaddingBottom)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2ea2318;
+  constexpr static std::size_t addrs = 0x2ebb700;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -238,7 +238,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Yoga::YogaNode::*)(::UnityEngine::Yoga::YogaEdge, ::UnityEngine::Yoga::YogaValue)>(
     &::UnityEngine::Yoga::YogaNode::SetStylePadding)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x2ea227c;
+  constexpr static std::size_t addrs = 0x2ebb664;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -253,7 +253,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Yoga::YogaNode::*)(float_t)>(&::UnityEngine::Yoga::YogaNode::set_BorderLeftWidth)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x2ea23cc;
+  constexpr static std::size_t addrs = 0x2ebb7b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -267,7 +267,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Yoga::YogaNode::*)(float_t)>(&::UnityEngine::Yoga::YogaNode::set_BorderTopWidth)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x2ea2470;
+  constexpr static std::size_t addrs = 0x2ebb858;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -281,7 +281,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Yoga::YogaNode::*)(float_t)>(&::UnityEngine::Yoga::YogaNode::set_BorderRightWidth)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x2ea24c0;
+  constexpr static std::size_t addrs = 0x2ebb8a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -295,7 +295,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Yoga::YogaNode::*)(float_t)>(&::UnityEngine::Yoga::YogaNode::set_BorderBottomWidth)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x2ea2510;
+  constexpr static std::size_t addrs = 0x2ebb8f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -309,7 +309,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Yoga::YogaNode::*)()>(&::UnityEngine::Yoga::YogaNode::get_LayoutMarginLeft)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2ea2560;
+  constexpr static std::size_t addrs = 0x2ebb948;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Yoga::YogaNode*>::get(), "get_LayoutMarginLeft",
@@ -322,7 +322,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Yoga::YogaNode::*)()>(&::UnityEngine::Yoga::YogaNode::get_LayoutMarginTop)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2ea25e4;
+  constexpr static std::size_t addrs = 0x2ebb9cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Yoga::YogaNode*>::get(), "get_LayoutMarginTop",
@@ -335,7 +335,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Yoga::YogaNode::*)()>(&::UnityEngine::Yoga::YogaNode::get_LayoutMarginRight)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2ea2624;
+  constexpr static std::size_t addrs = 0x2ebba0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Yoga::YogaNode*>::get(), "get_LayoutMarginRight",
@@ -348,7 +348,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Yoga::YogaNode::*)()>(&::UnityEngine::Yoga::YogaNode::get_LayoutMarginBottom)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2ea2664;
+  constexpr static std::size_t addrs = 0x2ebba4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Yoga::YogaNode*>::get(), "get_LayoutMarginBottom",
@@ -361,7 +361,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Yoga::YogaNode::*)()>(&::UnityEngine::Yoga::YogaNode::get_LayoutPaddingLeft)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2ea26a4;
+  constexpr static std::size_t addrs = 0x2ebba8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Yoga::YogaNode*>::get(), "get_LayoutPaddingLeft",
@@ -374,7 +374,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Yoga::YogaNode::*)()>(&::UnityEngine::Yoga::YogaNode::get_LayoutPaddingTop)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2ea2728;
+  constexpr static std::size_t addrs = 0x2ebbb10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Yoga::YogaNode*>::get(), "get_LayoutPaddingTop",
@@ -387,7 +387,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Yoga::YogaNode::*)()>(&::UnityEngine::Yoga::YogaNode::get_LayoutPaddingRight)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2ea2768;
+  constexpr static std::size_t addrs = 0x2ebbb50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Yoga::YogaNode*>::get(), "get_LayoutPaddingRight",
@@ -400,7 +400,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Yoga::YogaNode::*)()>(&::UnityEngine::Yoga::YogaNode::get_LayoutPaddingBottom)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2ea27a8;
+  constexpr static std::size_t addrs = 0x2ebbb90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Yoga::YogaNode*>::get(), "get_LayoutPaddingBottom",
@@ -413,7 +413,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Yoga::YogaNode::*)()>(&::UnityEngine::Yoga::YogaNode::get_LayoutBorderLeft)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2ea27e8;
+  constexpr static std::size_t addrs = 0x2ebbbd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Yoga::YogaNode*>::get(), "get_LayoutBorderLeft",
@@ -426,7 +426,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Yoga::YogaNode::*)()>(&::UnityEngine::Yoga::YogaNode::get_LayoutBorderTop)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2ea286c;
+  constexpr static std::size_t addrs = 0x2ebbc54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Yoga::YogaNode*>::get(), "get_LayoutBorderTop",
@@ -439,7 +439,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Yoga::YogaNode::*)()>(&::UnityEngine::Yoga::YogaNode::get_LayoutBorderRight)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2ea28ac;
+  constexpr static std::size_t addrs = 0x2ebbc94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Yoga::YogaNode*>::get(), "get_LayoutBorderRight",
@@ -452,7 +452,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Yoga::YogaNode::*)()>(&::UnityEngine::Yoga::YogaNode::get_LayoutBorderBottom)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2ea28ec;
+  constexpr static std::size_t addrs = 0x2ebbcd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Yoga::YogaNode*>::get(), "get_LayoutBorderBottom",
@@ -465,7 +465,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Yoga::YogaNode::*)(::UnityEngine::Yoga::YogaConfig*)>(&::UnityEngine::Yoga::YogaNode::_ctor)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x2ea292c;
+  constexpr static std::size_t addrs = 0x2ebbd14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -479,7 +479,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Yoga::YogaNode::*)()>(&::UnityEngine::Yoga::YogaNode::Finalize)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x2ea2aa0;
+  constexpr static std::size_t addrs = 0x2ebbe88;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -494,7 +494,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Yoga::YogaNode::*)(::UnityEngine::Yoga::YogaConfig*)>(
     &::UnityEngine::Yoga::YogaNode::set_Config)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2ea2bc4;
+  constexpr static std::size_t addrs = 0x2ebbfac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -508,7 +508,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Yoga::YogaNode::*)()>(&::UnityEngine::Yoga::YogaNode::get_IsDirty)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2ea2cb8;
+  constexpr static std::size_t addrs = 0x2ebc0a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Yoga::YogaNode*>::get(), "get_IsDirty",
@@ -521,7 +521,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Yoga::YogaNode::*)()>(&::UnityEngine::Yoga::YogaNode::MarkDirty)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2ea2d30;
+  constexpr static std::size_t addrs = 0x2ebc118;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -535,7 +535,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Yoga::YogaNode::*)()>(&::UnityEngine::Yoga::YogaNode::get_HasNewLayout)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2ea2da8;
+  constexpr static std::size_t addrs = 0x2ebc190;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Yoga::YogaNode*>::get(), "get_HasNewLayout",
@@ -548,7 +548,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Yoga::YogaNode::*)()>(&::UnityEngine::Yoga::YogaNode::get_IsMeasureDefined)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2ea2e20;
+  constexpr static std::size_t addrs = 0x2ebc208;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Yoga::YogaNode*>::get(), "get_IsMeasureDefined",
@@ -561,7 +561,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Yoga::YogaNode::*)()>(&::UnityEngine::Yoga::YogaNode::get_IsBaselineDefined)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2ea2e30;
+  constexpr static std::size_t addrs = 0x2ebc218;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Yoga::YogaNode*>::get(), "get_IsBaselineDefined",
@@ -574,7 +574,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Yoga::YogaNode::*)(::UnityEngine::Yoga::YogaNode*)>(&::UnityEngine::Yoga::YogaNode::CopyStyle)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x2ea2e40;
+  constexpr static std::size_t addrs = 0x2ebc228;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -589,7 +589,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Yoga::YogaNode::*)(::UnityEngine::Yoga::YogaFlexDirection)>(
     &::UnityEngine::Yoga::YogaNode::set_FlexDirection)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2ea2ed0;
+  constexpr static std::size_t addrs = 0x2ebc2b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -604,7 +604,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Yoga::YogaNode::*)(::UnityEngine::Yoga::YogaJustify)>(
     &::UnityEngine::Yoga::YogaNode::set_JustifyContent)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2ea2f58;
+  constexpr static std::size_t addrs = 0x2ebc340;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -619,7 +619,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Yoga::YogaNode::*)(::UnityEngine::Yoga::YogaDisplay)>(
     &::UnityEngine::Yoga::YogaNode::set_Display)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2ea2fe0;
+  constexpr static std::size_t addrs = 0x2ebc3c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -634,7 +634,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Yoga::YogaNode::*)(::UnityEngine::Yoga::YogaAlign)>(
     &::UnityEngine::Yoga::YogaNode::set_AlignItems)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2ea3068;
+  constexpr static std::size_t addrs = 0x2ebc450;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -649,7 +649,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Yoga::YogaNode::*)(::UnityEngine::Yoga::YogaAlign)>(
     &::UnityEngine::Yoga::YogaNode::set_AlignSelf)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2ea30f0;
+  constexpr static std::size_t addrs = 0x2ebc4d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -664,7 +664,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Yoga::YogaNode::*)(::UnityEngine::Yoga::YogaAlign)>(
     &::UnityEngine::Yoga::YogaNode::set_AlignContent)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2ea3178;
+  constexpr static std::size_t addrs = 0x2ebc560;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -679,7 +679,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Yoga::YogaNode::*)(::UnityEngine::Yoga::YogaPositionType)>(
     &::UnityEngine::Yoga::YogaNode::set_PositionType)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2ea3200;
+  constexpr static std::size_t addrs = 0x2ebc5e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -693,7 +693,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Yoga::YogaNode::*)(::UnityEngine::Yoga::YogaWrap)>(&::UnityEngine::Yoga::YogaNode::set_Wrap)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2ea3288;
+  constexpr static std::size_t addrs = 0x2ebc670;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -707,7 +707,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Yoga::YogaNode::*)(float_t)>(&::UnityEngine::Yoga::YogaNode::set_Flex)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x2ea3310;
+  constexpr static std::size_t addrs = 0x2ebc6f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -721,7 +721,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Yoga::YogaNode::*)(float_t)>(&::UnityEngine::Yoga::YogaNode::set_FlexGrow)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x2ea33a8;
+  constexpr static std::size_t addrs = 0x2ebc790;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -735,7 +735,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Yoga::YogaNode::*)(float_t)>(&::UnityEngine::Yoga::YogaNode::set_FlexShrink)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x2ea3440;
+  constexpr static std::size_t addrs = 0x2ebc828;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -750,7 +750,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Yoga::YogaNode::*)(::UnityEngine::Yoga::YogaValue)>(
     &::UnityEngine::Yoga::YogaNode::set_FlexBasis)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x2ea34d8;
+  constexpr static std::size_t addrs = 0x2ebc8c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -764,7 +764,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Yoga::YogaNode::*)(::UnityEngine::Yoga::YogaValue)>(&::UnityEngine::Yoga::YogaNode::set_Width)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x2ea3668;
+  constexpr static std::size_t addrs = 0x2ebca50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -779,7 +779,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Yoga::YogaNode::*)(::UnityEngine::Yoga::YogaValue)>(
     &::UnityEngine::Yoga::YogaNode::set_Height)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x2ea37f8;
+  constexpr static std::size_t addrs = 0x2ebcbe0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -794,7 +794,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Yoga::YogaNode::*)(::UnityEngine::Yoga::YogaValue)>(
     &::UnityEngine::Yoga::YogaNode::set_MaxWidth)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x2ea3988;
+  constexpr static std::size_t addrs = 0x2ebcd70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -809,7 +809,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Yoga::YogaNode::*)(::UnityEngine::Yoga::YogaValue)>(
     &::UnityEngine::Yoga::YogaNode::set_MaxHeight)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x2ea3a9c;
+  constexpr static std::size_t addrs = 0x2ebce84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -824,7 +824,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Yoga::YogaNode::*)(::UnityEngine::Yoga::YogaValue)>(
     &::UnityEngine::Yoga::YogaNode::set_MinWidth)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x2ea3bb0;
+  constexpr static std::size_t addrs = 0x2ebcf98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -839,7 +839,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Yoga::YogaNode::*)(::UnityEngine::Yoga::YogaValue)>(
     &::UnityEngine::Yoga::YogaNode::set_MinHeight)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x2ea3cc4;
+  constexpr static std::size_t addrs = 0x2ebd0ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -853,7 +853,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Yoga::YogaNode::*)()>(&::UnityEngine::Yoga::YogaNode::get_LayoutX)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2ea3dd8;
+  constexpr static std::size_t addrs = 0x2ebd1c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Yoga::YogaNode*>::get(), "get_LayoutX",
@@ -866,7 +866,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Yoga::YogaNode::*)()>(&::UnityEngine::Yoga::YogaNode::get_LayoutY)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2ea3e50;
+  constexpr static std::size_t addrs = 0x2ebd238;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Yoga::YogaNode*>::get(), "get_LayoutY",
@@ -879,7 +879,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Yoga::YogaNode::*)()>(&::UnityEngine::Yoga::YogaNode::get_LayoutRight)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2ea3ec8;
+  constexpr static std::size_t addrs = 0x2ebd2b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Yoga::YogaNode*>::get(), "get_LayoutRight",
@@ -892,7 +892,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Yoga::YogaNode::*)()>(&::UnityEngine::Yoga::YogaNode::get_LayoutBottom)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2ea3f40;
+  constexpr static std::size_t addrs = 0x2ebd328;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Yoga::YogaNode*>::get(), "get_LayoutBottom",
@@ -905,7 +905,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Yoga::YogaNode::*)()>(&::UnityEngine::Yoga::YogaNode::get_LayoutWidth)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2ea3fb8;
+  constexpr static std::size_t addrs = 0x2ebd3a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Yoga::YogaNode*>::get(), "get_LayoutWidth",
@@ -918,7 +918,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Yoga::YogaNode::*)()>(&::UnityEngine::Yoga::YogaNode::get_LayoutHeight)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2ea4030;
+  constexpr static std::size_t addrs = 0x2ebd418;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Yoga::YogaNode*>::get(), "get_LayoutHeight",
@@ -932,7 +932,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Yoga::YogaNode::*)(::UnityEngine::Yoga::YogaOverflow)>(
     &::UnityEngine::Yoga::YogaNode::set_Overflow)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2ea40a8;
+  constexpr static std::size_t addrs = 0x2ebd490;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -946,7 +946,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Yoga::YogaNode::*)()>(&::UnityEngine::Yoga::YogaNode::get_Count)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x2ea4130;
+  constexpr static std::size_t addrs = 0x2ebd518;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Yoga::YogaNode*>::get(), "get_Count",
@@ -959,7 +959,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Yoga::YogaNode::*)()>(&::UnityEngine::Yoga::YogaNode::MarkLayoutSeen)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2ea417c;
+  constexpr static std::size_t addrs = 0x2ebd564;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Yoga::YogaNode*>::get(), "MarkLayoutSeen",
@@ -973,7 +973,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Yoga::YogaNode::*)(int32_t, ::UnityEngine::Yoga::YogaNode*)>(
     &::UnityEngine::Yoga::YogaNode::Insert)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x2ea4200;
+  constexpr static std::size_t addrs = 0x2ebd5e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -988,7 +988,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Yoga::YogaNode::*)(int32_t)>(&::UnityEngine::Yoga::YogaNode::RemoveAt)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x2ea4378;
+  constexpr static std::size_t addrs = 0x2ebd760;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1002,7 +1002,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Yoga::YogaNode::*)()>(&::UnityEngine::Yoga::YogaNode::Clear)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2ea4484;
+  constexpr static std::size_t addrs = 0x2ebd86c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Yoga::YogaNode*>::get(), "Clear",
@@ -1016,7 +1016,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Yoga::YogaNode::*)(::UnityEngine::Yoga::MeasureFunction*)>(
     &::UnityEngine::Yoga::YogaNode::SetMeasureFunction)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x2ea44e8;
+  constexpr static std::size_t addrs = 0x2ebd8d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1030,7 +1030,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Yoga::YogaNode::*)(float_t, float_t)>(&::UnityEngine::Yoga::YogaNode::CalculateLayout)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x2ea467c;
+  constexpr static std::size_t addrs = 0x2ebda64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1045,7 +1045,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Yoga::YogaSize (*)(
     ::UnityEngine::Yoga::YogaNode*, float_t, ::UnityEngine::Yoga::YogaMeasureMode, float_t, ::UnityEngine::Yoga::YogaMeasureMode)>(&::UnityEngine::Yoga::YogaNode::MeasureInternal)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x2ea4798;
+  constexpr static std::size_t addrs = 0x2ebdb80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1062,7 +1062,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::Yoga::YogaNode*, float_t, float_t)>(&::UnityEngine::Yoga::YogaNode::BaselineInternal)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x2ea4814;
+  constexpr static std::size_t addrs = 0x2ebdbfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1078,7 +1078,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::Yoga::YogaNode*>* (::UnityEngine::Yoga::YogaNode::*)()>(
     &::UnityEngine::Yoga::YogaNode::GetEnumerator)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x2ea4888;
+  constexpr static std::size_t addrs = 0x2ebdc70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Yoga::YogaNode*>::get(), "GetEnumerator",
@@ -1092,7 +1092,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::UnityEngine::Yoga::YogaNode::*)()>(
     &::UnityEngine::Yoga::YogaNode::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x2ea49b4;
+  constexpr static std::size_t addrs = 0x2ebdd9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

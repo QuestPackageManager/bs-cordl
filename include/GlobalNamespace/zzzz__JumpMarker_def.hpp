@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::GlobalNamespace::JumpMarker);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10159)), TypeDefinitionIndex(TypeDefinitionIndex(13888))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14404))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8903)), TypeDefinitionIndex(TypeDefinitionIndex(13841))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14553))
 // CS Name: ::JumpMarker*
 class CORDL_TYPE JumpMarker : public ::UnityEngine::Timeline::Marker {
 public:
@@ -58,15 +58,15 @@ public:
 
   constexpr void __cordl_internal_set__id_k__BackingField(::UnityEngine::PropertyName value);
 
-  /// @brief Method get_id, addr 0x20f5ba8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_id, addr 0x2189598, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::PropertyName get_id();
 
-  /// @brief Method get_jumpDestination, addr 0x20f5bb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_jumpDestination, addr 0x21895a0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::JumpDestinationMarker> get_jumpDestination();
 
   static inline ::GlobalNamespace::JumpMarker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x20f5bb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21895a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "JumpMarker", modifiers: "&&", def_value: None }]

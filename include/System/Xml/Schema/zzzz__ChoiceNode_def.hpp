@@ -30,31 +30,31 @@ MARK_REF_PTR_T(::System::Xml::Schema::ChoiceNode);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11602))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11605))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11500))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11503))
 // CS Name: ::System.Xml.Schema::ChoiceNode*
 class CORDL_TYPE ChoiceNode : public ::System::Xml::Schema::InteriorNode {
 public:
   // Declarations
   __declspec(property(get = get_IsNullable)) bool IsNullable;
 
-  /// @brief Method ConstructChildPos, addr 0x28ae8d8, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method ConstructChildPos, addr 0x28b1f40, size 0xdc, virtual false, abstract: false, final false
   static inline void ConstructChildPos(::System::Xml::Schema::SyntaxTreeNode* child, ::System::Xml::Schema::BitSet* firstpos, ::System::Xml::Schema::BitSet* lastpos,
                                        ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*> followpos);
 
-  /// @brief Method ConstructPos, addr 0x28ae9b4, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method ConstructPos, addr 0x28b201c, size 0x118, virtual true, abstract: false, final false
   inline void ConstructPos(::System::Xml::Schema::BitSet* firstpos, ::System::Xml::Schema::BitSet* lastpos,
                            ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*> followpos);
 
-  /// @brief Method get_IsNullable, addr 0x28aeacc, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method get_IsNullable, addr 0x28b2134, size 0x90, virtual true, abstract: false, final false
   inline bool get_IsNullable();
 
-  /// @brief Method ExpandTree, addr 0x28aeb5c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ExpandTree, addr 0x28b21c4, size 0x4, virtual true, abstract: false, final false
   inline void ExpandTree(::System::Xml::Schema::InteriorNode* parent, ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions);
 
   static inline ::System::Xml::Schema::ChoiceNode* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28ae124, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28b178c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ChoiceNode", modifiers: "&&", def_value: None }]

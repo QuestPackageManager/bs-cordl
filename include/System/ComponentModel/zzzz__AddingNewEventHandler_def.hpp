@@ -28,23 +28,23 @@ MARK_REF_PTR_T(::System::ComponentModel::AddingNewEventHandler);
 namespace System::ComponentModel {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11786))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11684))
 // CS Name: ::System.ComponentModel::AddingNewEventHandler*
 class CORDL_TYPE AddingNewEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::System::ComponentModel::AddingNewEventHandler* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x263da8c, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2661c48, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x263dbbc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2661d78, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* sender, ::System::ComponentModel::AddingNewEventArgs* e);
 
-  /// @brief Method BeginInvoke, addr 0x263dbd0, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2661d8c, size 0x28, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::Object* sender, ::System::ComponentModel::AddingNewEventArgs* e, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x263dbf8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2661db4, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "AddingNewEventHandler", modifiers: "&&", def_value: None }]

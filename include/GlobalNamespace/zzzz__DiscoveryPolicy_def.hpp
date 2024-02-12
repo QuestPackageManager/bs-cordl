@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::DiscoveryPolicy);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12721))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12619))
 // CS Name: ::DiscoveryPolicy
 struct CORDL_TYPE DiscoveryPolicy {
 public:

@@ -42,18 +42,18 @@ MARK_VAL_T(::UnityEngine::__SendMouseEvents__HitInfo);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15956))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16079))
 // CS Name: ::SendMouseEvents::HitInfo
 struct CORDL_TYPE __SendMouseEvents__HitInfo {
 public:
   // Declarations
-  /// @brief Method SendMessage, addr 0x2d0fb04, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SendMessage, addr 0x2d1b3f0, size 0x24, virtual false, abstract: false, final false
   inline void SendMessage(::StringW name);
 
-  /// @brief Method op_Implicit, addr 0x2d0fa64, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2d1b350, size 0xa0, virtual false, abstract: false, final false
   static inline bool op_Implicit_bool(::UnityEngine::__SendMouseEvents__HitInfo exists);
 
-  /// @brief Method Compare, addr 0x2d0fb28, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Compare, addr 0x2d1b414, size 0xb4, virtual false, abstract: false, final false
   static inline bool Compare(::UnityEngine::__SendMouseEvents__HitInfo lhs, ::UnityEngine::__SendMouseEvents__HitInfo rhs);
 
   // Ctor Parameters [CppParam { name: "target", ty: "::UnityW<::UnityEngine::GameObject>", modifiers: "", def_value: None }, CppParam { name: "camera", ty: "::UnityW<::UnityEngine::Camera>",
@@ -87,8 +87,8 @@ static_assert(offsetof(::UnityEngine::__SendMouseEvents__HitInfo, camera) == 0x8
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10243))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15957))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8987))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16080))
 // CS Name: ::UnityEngine::SendMouseEvents*
 class CORDL_TYPE SendMouseEvents : public ::System::Object {
 public:
@@ -161,16 +161,16 @@ public:
 
   static inline bool getStaticF_s_MouseButtonIsPressed();
 
-  /// @brief Method UpdateMouse, addr 0x2d0ead8, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method UpdateMouse, addr 0x2d1a3c4, size 0x1c4, virtual false, abstract: false, final false
   static inline void UpdateMouse();
 
-  /// @brief Method SetMouseMoved, addr 0x2d0ec9c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetMouseMoved, addr 0x2d1a588, size 0x5c, virtual false, abstract: false, final false
   static inline void SetMouseMoved();
 
-  /// @brief Method DoSendMouseEvents, addr 0x2d0ecf8, size 0x94c, virtual false, abstract: false, final false
+  /// @brief Method DoSendMouseEvents, addr 0x2d1a5e4, size 0x94c, virtual false, abstract: false, final false
   static inline void DoSendMouseEvents(int32_t skipRTCameras);
 
-  /// @brief Method SendEvents, addr 0x2d0f644, size 0x420, virtual false, abstract: false, final false
+  /// @brief Method SendEvents, addr 0x2d1af30, size 0x420, virtual false, abstract: false, final false
   static inline void SendEvents(int32_t i, ::UnityEngine::__SendMouseEvents__HitInfo hit);
 
   // Ctor Parameters [CppParam { name: "", ty: "SendMouseEvents", modifiers: "&&", def_value: None }]

@@ -44,21 +44,21 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiMessages* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xe6d07c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe97f0c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance, addr 0xe69d18, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xe94ba8, size 0x18c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiMessages* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiMessages* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Cmp::PkiMessage*, ::Array<::Org::BouncyCastle::Asn1::Cmp::PkiMessage*>*> msgs);
 
-  /// @brief Method .ctor, addr 0xe6d0a4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe97f34, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Cmp::PkiMessage*, ::Array<::Org::BouncyCastle::Asn1::Cmp::PkiMessage*>*> msgs);
 
-  /// @brief Method ToPkiMessageArray, addr 0xe6d120, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method ToPkiMessageArray, addr 0xe97fb0, size 0xf4, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Cmp::PkiMessage*, ::Array<::Org::BouncyCastle::Asn1::Cmp::PkiMessage*>*> ToPkiMessageArray();
 
-  /// @brief Method ToAsn1Object, addr 0xe6d214, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xe980a4, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "PkiMessages", modifiers: "&&", def_value: None }]

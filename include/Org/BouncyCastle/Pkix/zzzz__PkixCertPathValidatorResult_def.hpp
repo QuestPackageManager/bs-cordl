@@ -66,25 +66,25 @@ public:
 
   constexpr void __cordl_internal_set_subjectPublicKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* value);
 
-  /// @brief Method get_PolicyTree, addr 0x10f3fa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PolicyTree, addr 0x1121e38, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Pkix::PkixPolicyNode* get_PolicyTree();
 
-  /// @brief Method get_TrustAnchor, addr 0x10f3fb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TrustAnchor, addr 0x1121e40, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Pkix::TrustAnchor* get_TrustAnchor();
 
-  /// @brief Method get_SubjectPublicKey, addr 0x10f3fb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SubjectPublicKey, addr 0x1121e48, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* get_SubjectPublicKey();
 
   static inline ::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult* New_ctor(::Org::BouncyCastle::Pkix::TrustAnchor* trustAnchor, ::Org::BouncyCastle::Pkix::PkixPolicyNode* policyTree,
                                                                                  ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* subjectPublicKey);
 
-  /// @brief Method .ctor, addr 0x10f3fc0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1121e50, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Pkix::TrustAnchor* trustAnchor, ::Org::BouncyCastle::Pkix::PkixPolicyNode* policyTree, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* subjectPublicKey);
 
-  /// @brief Method Clone, addr 0x10f4074, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Clone, addr 0x1121f04, size 0x78, virtual false, abstract: false, final false
   inline ::System::Object* Clone();
 
-  /// @brief Method ToString, addr 0x10f40ec, size 0x170, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x1121f7c, size 0x170, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "PkixCertPathValidatorResult", modifiers: "&&", def_value: None }]

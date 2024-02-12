@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalo
 namespace UnityEngine::AddressableAssets::ResourceLocators {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14108))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14121))
 // CS Name: ::UnityEngine.AddressableAssets.ResourceLocators::ContentCatalogDataEntry*
 class CORDL_TYPE ContentCatalogDataEntry : public ::System::Object {
 public:
@@ -101,40 +101,40 @@ public:
 
   constexpr void __cordl_internal_set__ResourceType_k__BackingField(::System::Type* value);
 
-  /// @brief Method get_InternalId, addr 0x2a2cfe0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InternalId, addr 0x2a2fb4c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_InternalId();
 
-  /// @brief Method set_InternalId, addr 0x2a2cfe8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_InternalId, addr 0x2a2fb54, size 0x8, virtual false, abstract: false, final false
   inline void set_InternalId(::StringW value);
 
-  /// @brief Method get_Provider, addr 0x2a2cff0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Provider, addr 0x2a2fb5c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Provider();
 
-  /// @brief Method set_Provider, addr 0x2a2cff8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Provider, addr 0x2a2fb64, size 0x8, virtual false, abstract: false, final false
   inline void set_Provider(::StringW value);
 
-  /// @brief Method get_Keys, addr 0x2a2d000, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Keys, addr 0x2a2fb6c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::System::Object*>* get_Keys();
 
-  /// @brief Method set_Keys, addr 0x2a2d008, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Keys, addr 0x2a2fb74, size 0x8, virtual false, abstract: false, final false
   inline void set_Keys(::System::Collections::Generic::List_1<::System::Object*>* value);
 
-  /// @brief Method get_Dependencies, addr 0x2a2d010, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Dependencies, addr 0x2a2fb7c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::System::Object*>* get_Dependencies();
 
-  /// @brief Method set_Dependencies, addr 0x2a2d018, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Dependencies, addr 0x2a2fb84, size 0x8, virtual false, abstract: false, final false
   inline void set_Dependencies(::System::Collections::Generic::List_1<::System::Object*>* value);
 
-  /// @brief Method get_Data, addr 0x2a2d020, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Data, addr 0x2a2fb8c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Data();
 
-  /// @brief Method set_Data, addr 0x2a2d028, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Data, addr 0x2a2fb94, size 0x8, virtual false, abstract: false, final false
   inline void set_Data(::System::Object* value);
 
-  /// @brief Method get_ResourceType, addr 0x2a2d030, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ResourceType, addr 0x2a2fb9c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ResourceType();
 
-  /// @brief Method set_ResourceType, addr 0x2a2d038, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ResourceType, addr 0x2a2fba4, size 0x8, virtual false, abstract: false, final false
   inline void set_ResourceType(::System::Type* value);
 
   static inline ::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry* New_ctor(::System::Type* type, ::StringW internalId, ::StringW provider,
@@ -142,7 +142,7 @@ public:
                                                                                                       ::System::Collections::Generic::IEnumerable_1<::System::Object*>* dependencies,
                                                                                                       ::System::Object* extraData);
 
-  /// @brief Method .ctor, addr 0x2a2d040, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a2fbac, size 0x108, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::StringW internalId, ::StringW provider, ::System::Collections::Generic::IEnumerable_1<::System::Object*>* keys,
                     ::System::Collections::Generic::IEnumerable_1<::System::Object*>* dependencies, ::System::Object* extraData);
 

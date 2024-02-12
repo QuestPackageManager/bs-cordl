@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::InvokePolicy);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7164))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6423))
 // CS Name: ::UnityEngine.UIElements::InvokePolicy
 struct CORDL_TYPE InvokePolicy {
 public:

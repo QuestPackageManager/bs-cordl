@@ -17,7 +17,7 @@ MARK_VAL_T(::UnityEngine::Resolution);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10083))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8815))
 // CS Name: ::UnityEngine::Resolution
 struct CORDL_TYPE Resolution {
 public:
@@ -28,25 +28,25 @@ public:
 
   __declspec(property(get = get_refreshRate, put = set_refreshRate)) int32_t refreshRate;
 
-  /// @brief Method get_width, addr 0x2cb64f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_width, addr 0x2cb828c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_width();
 
-  /// @brief Method set_width, addr 0x2cb64f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_width, addr 0x2cb8294, size 0x8, virtual false, abstract: false, final false
   inline void set_width(int32_t value);
 
-  /// @brief Method get_height, addr 0x2cb6500, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_height, addr 0x2cb829c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_height();
 
-  /// @brief Method set_height, addr 0x2cb6508, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_height, addr 0x2cb82a4, size 0x8, virtual false, abstract: false, final false
   inline void set_height(int32_t value);
 
-  /// @brief Method get_refreshRate, addr 0x2cb6510, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_refreshRate, addr 0x2cb82ac, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_refreshRate();
 
-  /// @brief Method set_refreshRate, addr 0x2cb6518, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_refreshRate, addr 0x2cb82b4, size 0x8, virtual false, abstract: false, final false
   inline void set_refreshRate(int32_t value);
 
-  /// @brief Method ToString, addr 0x2cb6520, size 0x16c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2cb82bc, size 0x16c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "m_Width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Height", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:

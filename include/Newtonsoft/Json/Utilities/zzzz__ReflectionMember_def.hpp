@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::ReflectionMember);
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11861))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11759))
 // CS Name: ::Newtonsoft.Json.Utilities::ReflectionMember*
 class CORDL_TYPE ReflectionMember : public ::System::Object {
 public:
@@ -67,27 +67,27 @@ public:
 
   constexpr void __cordl_internal_set__Setter_k__BackingField(::System::Action_2<::System::Object*, ::System::Object*>* value);
 
-  /// @brief Method get_MemberType, addr 0x265a740, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MemberType, addr 0x267d8fc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_MemberType();
 
-  /// @brief Method set_MemberType, addr 0x265a748, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MemberType, addr 0x267d904, size 0x8, virtual false, abstract: false, final false
   inline void set_MemberType(::System::Type* value);
 
-  /// @brief Method get_Getter, addr 0x265a750, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Getter, addr 0x267d90c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_2<::System::Object*, ::System::Object*>* get_Getter();
 
-  /// @brief Method set_Getter, addr 0x265a758, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Getter, addr 0x267d914, size 0x8, virtual false, abstract: false, final false
   inline void set_Getter(::System::Func_2<::System::Object*, ::System::Object*>* value);
 
-  /// @brief Method get_Setter, addr 0x265a760, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Setter, addr 0x267d91c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action_2<::System::Object*, ::System::Object*>* get_Setter();
 
-  /// @brief Method set_Setter, addr 0x265a768, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Setter, addr 0x267d924, size 0x8, virtual false, abstract: false, final false
   inline void set_Setter(::System::Action_2<::System::Object*, ::System::Object*>* value);
 
   static inline ::Newtonsoft::Json::Utilities::ReflectionMember* New_ctor();
 
-  /// @brief Method .ctor, addr 0x265a770, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x267d92c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectionMember", modifiers: "&&", def_value: None }]

@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::System::Xml::IDtdAttributeListInfo);
 namespace System::Xml {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11422))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11320))
 // CS Name: ::System.Xml::IDtdAttributeListInfo*
 class CORDL_TYPE IDtdAttributeListInfo {
 public:

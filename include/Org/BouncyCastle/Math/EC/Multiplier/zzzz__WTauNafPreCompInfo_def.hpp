@@ -45,15 +45,15 @@ public:
 
   constexpr void __cordl_internal_set_m_preComp(::ArrayW<::Org::BouncyCastle::Math::EC::AbstractF2mPoint*, ::Array<::Org::BouncyCastle::Math::EC::AbstractF2mPoint*>*> value);
 
-  /// @brief Method get_PreComp, addr 0x103ade8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_PreComp, addr 0x1067c78, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Math::EC::AbstractF2mPoint*, ::Array<::Org::BouncyCastle::Math::EC::AbstractF2mPoint*>*> get_PreComp();
 
-  /// @brief Method set_PreComp, addr 0x103adf0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_PreComp, addr 0x1067c80, size 0x8, virtual true, abstract: false, final false
   inline void set_PreComp(::ArrayW<::Org::BouncyCastle::Math::EC::AbstractF2mPoint*, ::Array<::Org::BouncyCastle::Math::EC::AbstractF2mPoint*>*> value);
 
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::WTauNafPreCompInfo* New_ctor();
 
-  /// @brief Method .ctor, addr 0x103ade0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1067c70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "WTauNafPreCompInfo", modifiers: "&&", def_value: None }]

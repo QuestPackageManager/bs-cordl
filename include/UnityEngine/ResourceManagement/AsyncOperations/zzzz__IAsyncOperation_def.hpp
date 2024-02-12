@@ -53,7 +53,7 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperati
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14029))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14042))
 // CS Name: ::UnityEngine.ResourceManagement.AsyncOperations::IAsyncOperation*
 class CORDL_TYPE IAsyncOperation {
 public:

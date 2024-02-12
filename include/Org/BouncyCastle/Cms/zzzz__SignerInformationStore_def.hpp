@@ -58,24 +58,24 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::SignerInformationStore* New_ctor(::Org::BouncyCastle::Cms::SignerInformation* signerInfo);
 
-  /// @brief Method .ctor, addr 0x120d260, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x123a0f0, size 0x18c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Cms::SignerInformation* signerInfo);
 
   static inline ::Org::BouncyCastle::Cms::SignerInformationStore* New_ctor(::System::Collections::ICollection* signerInfos);
 
-  /// @brief Method .ctor, addr 0x120d3ec, size 0x5a8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x123a27c, size 0x5a8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::ICollection* signerInfos);
 
-  /// @brief Method GetFirstSigner, addr 0x120d994, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method GetFirstSigner, addr 0x123a824, size 0x190, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::SignerInformation* GetFirstSigner(::Org::BouncyCastle::Cms::SignerID* selector);
 
-  /// @brief Method get_Count, addr 0x120db24, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x123a9b4, size 0xa4, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method GetSigners, addr 0x120dbc8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetSigners, addr 0x123aa58, size 0x5c, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* GetSigners();
 
-  /// @brief Method GetSigners, addr 0x120dc24, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method GetSigners, addr 0x123aab4, size 0x130, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* GetSigners(::Org::BouncyCastle::Cms::SignerID* selector);
 
   // Ctor Parameters [CppParam { name: "", ty: "SignerInformationStore", modifiers: "&&", def_value: None }]

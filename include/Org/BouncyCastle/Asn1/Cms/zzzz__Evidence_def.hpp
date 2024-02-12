@@ -66,24 +66,24 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cms::Evidence* New_ctor(::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence* tstEvidence);
 
-  /// @brief Method .ctor, addr 0xe78118, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xea2fa8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence* tstEvidence);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::Evidence* New_ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagged);
 
-  /// @brief Method .ctor, addr 0xe78140, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xea2fd0, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagged);
 
-  /// @brief Method GetInstance, addr 0xe78208, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xea3098, size 0x168, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::Evidence* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetInstance, addr 0xe78370, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xea3200, size 0x1c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::Evidence* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-  /// @brief Method get_TstEvidence, addr 0xe7838c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TstEvidence, addr 0xea321c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence* get_TstEvidence();
 
-  /// @brief Method ToAsn1Object, addr 0xe78394, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xea3224, size 0x94, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "Evidence", modifiers: "&&", def_value: None }]

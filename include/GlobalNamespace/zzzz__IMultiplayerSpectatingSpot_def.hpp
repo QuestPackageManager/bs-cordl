@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IMultiplayerSpectatingSpot);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5258))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4598))
 // CS Name: ::IMultiplayerSpectatingSpot*
 class CORDL_TYPE IMultiplayerSpectatingSpot {
 public:

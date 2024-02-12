@@ -16,7 +16,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_Permissions);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9694))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9486))
 // CS Name: ::HoudiniEngineUnity::HAPI_Permissions
 struct CORDL_TYPE HAPI_Permissions {
 public:

@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRNativeBuffer);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7536))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7616))
 // CS Name: ::OVRNativeBuffer*
 class CORDL_TYPE OVRNativeBuffer : public ::System::Object {
 public:
@@ -60,31 +60,31 @@ public:
 
   static inline ::GlobalNamespace::OVRNativeBuffer* New_ctor(int32_t numBytes);
 
-  /// @brief Method .ctor, addr 0x2716244, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2743e44, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(int32_t numBytes);
 
-  /// @brief Method Finalize, addr 0x271a75c, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x2747f28, size 0xa8, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method Reset, addr 0x2715de8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x27439e8, size 0x4, virtual false, abstract: false, final false
   inline void Reset(int32_t numBytes);
 
-  /// @brief Method GetCapacity, addr 0x271a828, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetCapacity, addr 0x2747ff4, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetCapacity();
 
-  /// @brief Method GetPointer, addr 0x2715dec, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetPointer, addr 0x27439ec, size 0x9c, virtual false, abstract: false, final false
   inline void* GetPointer(int32_t byteOffset);
 
-  /// @brief Method Dispose, addr 0x271a830, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2747ffc, size 0x70, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x271a804, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x2747fd0, size 0x24, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Reallocate, addr 0x271a6bc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Reallocate, addr 0x2747e88, size 0xa0, virtual false, abstract: false, final false
   inline void Reallocate(int32_t numBytes);
 
-  /// @brief Method Release, addr 0x271a8a0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x274806c, size 0xa4, virtual false, abstract: false, final false
   inline void Release();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRNativeBuffer", modifiers: "&&", def_value: None }]

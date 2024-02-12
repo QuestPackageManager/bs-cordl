@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::System::Xml::Schema::SyntaxTreeNode);
 namespace System::Xml::Schema {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11599))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11497))
 // CS Name: ::System.Xml.Schema::SyntaxTreeNode*
 class CORDL_TYPE SyntaxTreeNode : public ::System::Object {
 public:
@@ -47,12 +47,12 @@ public:
   /// @brief Method get_IsNullable, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsNullable();
 
-  /// @brief Method get_IsRangeNode, addr 0x28adbcc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsRangeNode, addr 0x28b1234, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsRangeNode();
 
   static inline ::System::Xml::Schema::SyntaxTreeNode* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28adbd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28b123c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SyntaxTreeNode", modifiers: "&&", def_value: None }]

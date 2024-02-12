@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_GeneratedOutputData);
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9628))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9420))
 // CS Name: ::HoudiniEngineUnity::HEU_GeneratedOutputData*
 class CORDL_TYPE HEU_GeneratedOutputData : public ::System::Object {
 public:
@@ -70,12 +70,12 @@ public:
 
   constexpr void __cordl_internal_set__colliders(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Collider>>* value);
 
-  /// @brief Method IsEquivalentTo, addr 0x2157164, size 0x1ec, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x21eca48, size 0x1ec, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_GeneratedOutputData* other);
 
   static inline ::HoudiniEngineUnity::HEU_GeneratedOutputData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21570e8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21ec9cc, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_GeneratedOutputData", modifiers: "&&", def_value: None }]

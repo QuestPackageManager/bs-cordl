@@ -24,13 +24,13 @@ MARK_VAL_T(::UnityEngine::UIElements::ColorPage);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10250))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7332))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8994))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6591))
 // CS Name: ::UnityEngine.UIElements::ColorPage
 struct CORDL_TYPE ColorPage {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x2e79a78, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2e93e60, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::ColorPage Init(::UnityEngine::UIElements::UIR::RenderChain* renderChain, ::UnityEngine::UIElements::UIR::BMPAlloc alloc);
 
   // Ctor Parameters [CppParam { name: "isValid", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "pageAndID", ty: "::UnityEngine::Color32", modifiers: "", def_value: None }]

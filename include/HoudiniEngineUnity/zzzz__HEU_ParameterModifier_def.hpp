@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_ParameterModifier);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9761))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9553))
 // CS Name: ::HEU_ParameterModifier::ModifierAction
 struct CORDL_TYPE __HEU_ParameterModifier__ModifierAction {
 public:
@@ -90,8 +90,8 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_ParameterModifier__ModifierAc
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9761))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9762))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9553))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9554))
 // CS Name: ::HoudiniEngineUnity::HEU_ParameterModifier*
 class CORDL_TYPE HEU_ParameterModifier : public ::System::Object {
 public:
@@ -158,16 +158,16 @@ public:
 
   constexpr void __cordl_internal_set__intValue(int32_t value);
 
-  /// @brief Method GetNewModifier, addr 0x2192d40, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetNewModifier, addr 0x2227624, size 0x84, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::HEU_ParameterModifier* GetNewModifier(::HoudiniEngineUnity::__HEU_ParameterModifier__ModifierAction action, int32_t parameterIndex, int32_t instanceIndex,
                                                                             int32_t modifierValue);
 
-  /// @brief Method IsEquivalentTo, addr 0x2192dcc, size 0x28c, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x22276b0, size 0x28c, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_ParameterModifier* other);
 
   static inline ::HoudiniEngineUnity::HEU_ParameterModifier* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2192dc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22276a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_ParameterModifier", modifiers: "&&", def_value: None }]

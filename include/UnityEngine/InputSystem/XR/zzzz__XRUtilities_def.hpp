@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::XR::XRUtilities);
 namespace UnityEngine::InputSystem::XR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6332))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5591))
 // CS Name: ::UnityEngine.InputSystem.XR::XRUtilities*
 class CORDL_TYPE XRUtilities : public ::System::Object {
 public:

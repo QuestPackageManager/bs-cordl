@@ -63,27 +63,27 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::UserAttributeSubpacket* New_ctor(::Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag type, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0x11c6b88, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11f3a18, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag type, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
   static inline ::Org::BouncyCastle::Bcpg::UserAttributeSubpacket* New_ctor(::Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag type, bool forceLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0x11c6bbc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11f3a4c, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag type, bool forceLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method get_SubpacketType, addr 0x11c6bfc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SubpacketType, addr 0x11f3a8c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag get_SubpacketType();
 
-  /// @brief Method GetData, addr 0x11c6c04, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetData, addr 0x11f3a94, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetData();
 
-  /// @brief Method Encode, addr 0x11c6c0c, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x11f3a9c, size 0x138, virtual true, abstract: false, final false
   inline void Encode(::System::IO::Stream* os);
 
-  /// @brief Method Equals, addr 0x11c6d44, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x11f3bd4, size 0xe8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x11c6e2c, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x11f3cbc, size 0x10a4, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "UserAttributeSubpacket", modifiers: "&&", def_value: None }]

@@ -42,8 +42,8 @@ MARK_REF_PTR_T(::System::Reflection::ParameterInfo);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3482))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3483))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3478))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3479))
 // CS Name: ::System.Reflection::ParameterInfo*
 class CORDL_TYPE ParameterInfo : public ::System::Object {
 public:
@@ -140,49 +140,49 @@ public:
 
   static inline ::System::Reflection::ParameterInfo* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24e91c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x250831c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Attributes, addr 0x24e91cc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Attributes, addr 0x2508324, size 0x8, virtual true, abstract: false, final false
   inline ::System::Reflection::ParameterAttributes get_Attributes();
 
-  /// @brief Method get_Member, addr 0x24e91d4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Member, addr 0x250832c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Reflection::MemberInfo* get_Member();
 
-  /// @brief Method get_Name, addr 0x24e91dc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x2508334, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ParameterType, addr 0x24e91e4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ParameterType, addr 0x250833c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Type* get_ParameterType();
 
-  /// @brief Method get_Position, addr 0x24e91ec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Position, addr 0x2508344, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Position();
 
-  /// @brief Method get_IsIn, addr 0x24e91f4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_IsIn, addr 0x250834c, size 0x1c, virtual false, abstract: false, final false
   inline bool get_IsIn();
 
-  /// @brief Method get_IsOptional, addr 0x24e9210, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_IsOptional, addr 0x2508368, size 0x1c, virtual false, abstract: false, final false
   inline bool get_IsOptional();
 
-  /// @brief Method get_IsOut, addr 0x24e922c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_IsOut, addr 0x2508384, size 0x1c, virtual false, abstract: false, final false
   inline bool get_IsOut();
 
-  /// @brief Method get_DefaultValue, addr 0x24e9248, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_DefaultValue, addr 0x25083a0, size 0x28, virtual true, abstract: false, final false
   inline ::System::Object* get_DefaultValue();
 
-  /// @brief Method IsDefined, addr 0x24e9270, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method IsDefined, addr 0x25083c8, size 0xb4, virtual true, abstract: false, final false
   inline bool IsDefined(::System::Type* attributeType, bool inherit);
 
-  /// @brief Method GetCustomAttributes, addr 0x24e9324, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x250847c, size 0x7c, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetCustomAttributes(bool inherit);
 
-  /// @brief Method GetCustomAttributes, addr 0x24e93a0, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x25084f8, size 0x104, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetCustomAttributes(::System::Type* attributeType, bool inherit);
 
-  /// @brief Method GetRealObject, addr 0x24e94a4, size 0x2e0, virtual true, abstract: false, final true
+  /// @brief Method GetRealObject, addr 0x25085fc, size 0x2e0, virtual true, abstract: false, final true
   inline ::System::Object* GetRealObject(::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method ToString, addr 0x24e9784, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x25088dc, size 0x84, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "ParameterInfo", modifiers: "&&", def_value: None }]

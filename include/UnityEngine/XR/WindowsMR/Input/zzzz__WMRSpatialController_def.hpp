@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::UnityEngine::XR::WindowsMR::Input::WMRSpatialController);
 // SizeInfo { instance_size: 512, native_size: -1, calculated_instance_size: 512, calculated_native_size: 512, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::XR::WindowsMR::Input {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6326))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6126))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5585))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5385))
 // CS Name: ::UnityEngine.XR.WindowsMR.Input::WMRSpatialController*
 class CORDL_TYPE WMRSpatialController : public ::UnityEngine::InputSystem::XR::XRControllerWithRumble {
 public:
@@ -237,114 +237,114 @@ public:
 
   constexpr void __cordl_internal_set__pointerRotation_k__BackingField(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
-  /// @brief Method get_joystick, addr 0x2a3504c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_joystick, addr 0x2a37bb8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector2Control* get_joystick();
 
-  /// @brief Method set_joystick, addr 0x2a35054, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_joystick, addr 0x2a37bc0, size 0x8, virtual false, abstract: false, final false
   inline void set_joystick(::UnityEngine::InputSystem::Controls::Vector2Control* value);
 
-  /// @brief Method get_touchpad, addr 0x2a3505c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_touchpad, addr 0x2a37bc8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector2Control* get_touchpad();
 
-  /// @brief Method set_touchpad, addr 0x2a35064, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_touchpad, addr 0x2a37bd0, size 0x8, virtual false, abstract: false, final false
   inline void set_touchpad(::UnityEngine::InputSystem::Controls::Vector2Control* value);
 
-  /// @brief Method get_grip, addr 0x2a3506c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_grip, addr 0x2a37bd8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_grip();
 
-  /// @brief Method set_grip, addr 0x2a35074, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_grip, addr 0x2a37be0, size 0x8, virtual false, abstract: false, final false
   inline void set_grip(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method get_gripPressed, addr 0x2a3507c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gripPressed, addr 0x2a37be8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_gripPressed();
 
-  /// @brief Method set_gripPressed, addr 0x2a35084, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_gripPressed, addr 0x2a37bf0, size 0x8, virtual false, abstract: false, final false
   inline void set_gripPressed(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method get_menu, addr 0x2a3508c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_menu, addr 0x2a37bf8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_menu();
 
-  /// @brief Method set_menu, addr 0x2a35094, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_menu, addr 0x2a37c00, size 0x8, virtual false, abstract: false, final false
   inline void set_menu(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method get_trigger, addr 0x2a3509c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_trigger, addr 0x2a37c08, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_trigger();
 
-  /// @brief Method set_trigger, addr 0x2a350a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_trigger, addr 0x2a37c10, size 0x8, virtual false, abstract: false, final false
   inline void set_trigger(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method get_triggerPressed, addr 0x2a350ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_triggerPressed, addr 0x2a37c18, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_triggerPressed();
 
-  /// @brief Method set_triggerPressed, addr 0x2a350b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_triggerPressed, addr 0x2a37c20, size 0x8, virtual false, abstract: false, final false
   inline void set_triggerPressed(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method get_joystickClicked, addr 0x2a350bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_joystickClicked, addr 0x2a37c28, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_joystickClicked();
 
-  /// @brief Method set_joystickClicked, addr 0x2a350c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_joystickClicked, addr 0x2a37c30, size 0x8, virtual false, abstract: false, final false
   inline void set_joystickClicked(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method get_touchpadClicked, addr 0x2a350cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_touchpadClicked, addr 0x2a37c38, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_touchpadClicked();
 
-  /// @brief Method set_touchpadClicked, addr 0x2a350d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_touchpadClicked, addr 0x2a37c40, size 0x8, virtual false, abstract: false, final false
   inline void set_touchpadClicked(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method get_touchpadTouched, addr 0x2a350dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_touchpadTouched, addr 0x2a37c48, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_touchpadTouched();
 
-  /// @brief Method set_touchpadTouched, addr 0x2a350e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_touchpadTouched, addr 0x2a37c50, size 0x8, virtual false, abstract: false, final false
   inline void set_touchpadTouched(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method get_deviceVelocity, addr 0x2a350ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_deviceVelocity, addr 0x2a37c58, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_deviceVelocity();
 
-  /// @brief Method set_deviceVelocity, addr 0x2a350f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_deviceVelocity, addr 0x2a37c60, size 0x8, virtual false, abstract: false, final false
   inline void set_deviceVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method get_deviceAngularVelocity, addr 0x2a350fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_deviceAngularVelocity, addr 0x2a37c68, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_deviceAngularVelocity();
 
-  /// @brief Method set_deviceAngularVelocity, addr 0x2a35104, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_deviceAngularVelocity, addr 0x2a37c70, size 0x8, virtual false, abstract: false, final false
   inline void set_deviceAngularVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method get_batteryLevel, addr 0x2a3510c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_batteryLevel, addr 0x2a37c78, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_batteryLevel();
 
-  /// @brief Method set_batteryLevel, addr 0x2a35114, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_batteryLevel, addr 0x2a37c80, size 0x8, virtual false, abstract: false, final false
   inline void set_batteryLevel(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method get_sourceLossRisk, addr 0x2a3511c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sourceLossRisk, addr 0x2a37c88, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_sourceLossRisk();
 
-  /// @brief Method set_sourceLossRisk, addr 0x2a35124, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_sourceLossRisk, addr 0x2a37c90, size 0x8, virtual false, abstract: false, final false
   inline void set_sourceLossRisk(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method get_sourceLossMitigationDirection, addr 0x2a3512c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sourceLossMitigationDirection, addr 0x2a37c98, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_sourceLossMitigationDirection();
 
-  /// @brief Method set_sourceLossMitigationDirection, addr 0x2a35134, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_sourceLossMitigationDirection, addr 0x2a37ca0, size 0x8, virtual false, abstract: false, final false
   inline void set_sourceLossMitigationDirection(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method get_pointerPosition, addr 0x2a3513c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pointerPosition, addr 0x2a37ca8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_pointerPosition();
 
-  /// @brief Method set_pointerPosition, addr 0x2a35144, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pointerPosition, addr 0x2a37cb0, size 0x8, virtual false, abstract: false, final false
   inline void set_pointerPosition(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method get_pointerRotation, addr 0x2a3514c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pointerRotation, addr 0x2a37cb8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::QuaternionControl* get_pointerRotation();
 
-  /// @brief Method set_pointerRotation, addr 0x2a35154, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pointerRotation, addr 0x2a37cc0, size 0x8, virtual false, abstract: false, final false
   inline void set_pointerRotation(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
-  /// @brief Method FinishSetup, addr 0x2a3515c, size 0x364, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x2a37cc8, size 0x364, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::XR::WindowsMR::Input::WMRSpatialController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2a354c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a3802c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "WMRSpatialController", modifiers: "&&", def_value: None }]

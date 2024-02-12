@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::System::ComponentModel::BrowsableAttribute);
 namespace System::ComponentModel {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9386))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7396))
 // CS Name: ::System.ComponentModel::BrowsableAttribute*
 class CORDL_TYPE BrowsableAttribute : public ::System::Attribute {
 public:
@@ -58,19 +58,19 @@ public:
 
   static inline ::System::ComponentModel::BrowsableAttribute* New_ctor(bool browsable);
 
-  /// @brief Method .ctor, addr 0x29039d0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2908038, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool browsable);
 
-  /// @brief Method get_Browsable, addr 0x29039f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Browsable, addr 0x2908060, size 0x8, virtual false, abstract: false, final false
   inline bool get_Browsable();
 
-  /// @brief Method Equals, addr 0x2903a00, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2908068, size 0xe4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2903ae4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x290814c, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsDefaultAttribute, addr 0x2903b04, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method IsDefaultAttribute, addr 0x290816c, size 0x68, virtual true, abstract: false, final false
   inline bool IsDefaultAttribute();
 
   // Ctor Parameters [CppParam { name: "", ty: "BrowsableAttribute", modifiers: "&&", def_value: None }]

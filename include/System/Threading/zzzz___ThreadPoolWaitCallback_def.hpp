@@ -20,7 +20,7 @@ namespace System::Threading {
 class CORDL_TYPE _ThreadPoolWaitCallback : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method PerformWaitCallback, addr 0x261c2a4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method PerformWaitCallback, addr 0x2642420, size 0x50, virtual false, abstract: false, final false
   static inline bool PerformWaitCallback();
 
   // Ctor Parameters [CppParam { name: "", ty: "_ThreadPoolWaitCallback", modifiers: "&&", def_value: None }]

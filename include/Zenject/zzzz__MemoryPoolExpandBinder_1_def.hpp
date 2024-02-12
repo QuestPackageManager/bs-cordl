@@ -31,8 +31,8 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10703)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10703), inst: 1771 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10866))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9845)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9845), inst: 1729 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10008))
 // CS Name: ::Zenject::MemoryPoolExpandBinder`1<TContract>*
 class CORDL_TYPE MemoryPoolExpandBinder_1 : public ::Zenject::FactoryArgumentsToChoiceBinder_1<TContract> {
 public:

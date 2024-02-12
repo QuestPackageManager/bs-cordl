@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLocalActiveCenterRingLightsControll
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 66, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5146))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4488))
 // CS Name: ::MultiplayerLocalActiveCenterRingLightsController*
 class CORDL_TYPE MultiplayerLocalActiveCenterRingLightsController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -100,27 +100,27 @@ public:
 
   constexpr void __cordl_internal_set__spawnCenterDistanceFound(bool value);
 
-  /// @brief Method Start, addr 0x23d8350, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2396ea8, size 0x194, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy, addr 0x23d8518, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x239711c, size 0x150, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method TryResize, addr 0x23d866c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method TryResize, addr 0x239731c, size 0x18, virtual false, abstract: false, final false
   inline void TryResize();
 
-  /// @brief Method Resize, addr 0x23d8684, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method Resize, addr 0x2397334, size 0x2bc, virtual false, abstract: false, final false
   inline void Resize();
 
-  /// @brief Method HandleSpawnCenterDistanceWasFound, addr 0x23d8500, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandleSpawnCenterDistanceWasFound, addr 0x2397104, size 0x18, virtual false, abstract: false, final false
   inline void HandleSpawnCenterDistanceWasFound(float_t spawnCenterDistance);
 
-  /// @brief Method HandleEdgeDistanceFromCenterWasCalculated, addr 0x23d84e8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandleEdgeDistanceFromCenterWasCalculated, addr 0x239703c, size 0x18, virtual false, abstract: false, final false
   inline void HandleEdgeDistanceFromCenterWasCalculated(float_t constructEdgeDistanceFromCenter);
 
   static inline ::GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23d8940, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23975f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActiveCenterRingLightsController", modifiers: "&&", def_value: None }]

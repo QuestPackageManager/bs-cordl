@@ -36,8 +36,8 @@ MARK_VAL_T(::UnityEngine::Experimental::GlobalIllumination::RectangleLight);
 // SizeInfo { instance_size: 84, native_size: 88, calculated_instance_size: 84, calculated_native_size: 97, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Experimental::GlobalIllumination {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10387)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10388)), TypeDefinitionIndex(TypeDefinitionIndex(10390))] Self: TypeDefinitionIndex(TypeDefinitionIndex(10394)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(8996)), TypeDefinitionIndex(TypeDefinitionIndex(9155)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9156)), TypeDefinitionIndex(TypeDefinitionIndex(9158))] Self: TypeDefinitionIndex(TypeDefinitionIndex(9162)) CS Name:
 // ::UnityEngine.Experimental.GlobalIllumination::RectangleLight
 struct CORDL_TYPE RectangleLight {
 public:

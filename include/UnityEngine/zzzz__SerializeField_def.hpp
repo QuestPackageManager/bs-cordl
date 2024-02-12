@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::UnityEngine::SerializeField);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10048))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8780))
 // CS Name: ::UnityEngine::SerializeField*
 class CORDL_TYPE SerializeField : public ::System::Attribute {
 public:
   // Declarations
   static inline ::UnityEngine::SerializeField* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ca114c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ca1b04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SerializeField", modifiers: "&&", def_value: None }]

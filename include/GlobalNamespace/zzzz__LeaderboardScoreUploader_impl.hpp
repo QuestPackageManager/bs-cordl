@@ -1,17 +1,28 @@
 #pragma once
+#include "GlobalNamespace/zzzz__BeatmapKey_impl.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_impl.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_impl.hpp"
+#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
+#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_impl.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__LeaderboardScoreUploader_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapKey_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
 #include "GlobalNamespace/zzzz__HMAsyncRequest_def.hpp"
-#include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
-#include "GlobalNamespace/zzzz__ISaveData_def.hpp"
+#include "GlobalNamespace/zzzz__IFileStorage_def.hpp"
 #include "GlobalNamespace/zzzz__LeaderboardScoreUploader_def.hpp"
 #include "GlobalNamespace/zzzz__PlatformLeaderboardsModel_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
@@ -23,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::__LeaderboardScoreUploader__ScoreData::*)()>(
     &::GlobalNamespace::__LeaderboardScoreUploader__ScoreData::get_playerId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x232826c;
+  constexpr static std::size_t addrs = 0x126c194;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LeaderboardScoreUploader__ScoreData*>::get(),
@@ -37,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LeaderboardScoreUploader__ScoreData::*)(::StringW)>(
     &::GlobalNamespace::__LeaderboardScoreUploader__ScoreData::set_playerId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2328274;
+  constexpr static std::size_t addrs = 0x126c19c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,32 +57,32 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__LeaderboardScoreUploader__ScoreData.get_beatmap
+//  Writing Method size for method: ::GlobalNamespace::__LeaderboardScoreUploader__ScoreData.get_beatmapKey
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IDifficultyBeatmap* (::GlobalNamespace::__LeaderboardScoreUploader__ScoreData::*)()>(
-    &::GlobalNamespace::__LeaderboardScoreUploader__ScoreData::get_beatmap)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x232827c;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapKey (::GlobalNamespace::__LeaderboardScoreUploader__ScoreData::*)()>(
+    &::GlobalNamespace::__LeaderboardScoreUploader__ScoreData::get_beatmapKey)> {
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x126c1a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LeaderboardScoreUploader__ScoreData*>::get(),
-                                                                               "get_beatmap", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                               "get_beatmapKey", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__LeaderboardScoreUploader__ScoreData.set_beatmap
+//  Writing Method size for method: ::GlobalNamespace::__LeaderboardScoreUploader__ScoreData.set_beatmapKey
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LeaderboardScoreUploader__ScoreData::*)(::GlobalNamespace::IDifficultyBeatmap*)>(
-    &::GlobalNamespace::__LeaderboardScoreUploader__ScoreData::set_beatmap)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2328284;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LeaderboardScoreUploader__ScoreData::*)(::GlobalNamespace::BeatmapKey)>(
+    &::GlobalNamespace::__LeaderboardScoreUploader__ScoreData::set_beatmapKey)> {
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x126c1b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LeaderboardScoreUploader__ScoreData*>::get(), "set_beatmap", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IDifficultyBeatmap*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LeaderboardScoreUploader__ScoreData*>::get(), "set_beatmapKey", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapKey>::get() })));
     return ___internal_method;
   }
 };
@@ -81,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::GameplayModifiers* (::GlobalNamespace::__LeaderboardScoreUploader__ScoreData::*)()>(
     &::GlobalNamespace::__LeaderboardScoreUploader__ScoreData::get_gameplayModifiers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x232828c;
+  constexpr static std::size_t addrs = 0x126c1cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LeaderboardScoreUploader__ScoreData*>::get(),
@@ -95,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LeaderboardScoreUploader__ScoreData::*)(::GlobalNamespace::GameplayModifiers*)>(
     &::GlobalNamespace::__LeaderboardScoreUploader__ScoreData::set_gameplayModifiers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2328294;
+  constexpr static std::size_t addrs = 0x126c1d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -110,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::__LeaderboardScoreUploader__ScoreData::*)()>(
     &::GlobalNamespace::__LeaderboardScoreUploader__ScoreData::get_multipliedScore)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x232829c;
+  constexpr static std::size_t addrs = 0x126c1dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LeaderboardScoreUploader__ScoreData*>::get(),
@@ -124,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LeaderboardScoreUploader__ScoreData::*)(int32_t)>(
     &::GlobalNamespace::__LeaderboardScoreUploader__ScoreData::set_multipliedScore)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23282a4;
+  constexpr static std::size_t addrs = 0x126c1e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -139,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::__LeaderboardScoreUploader__ScoreData::*)()>(
     &::GlobalNamespace::__LeaderboardScoreUploader__ScoreData::get_modifiedScore)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23282ac;
+  constexpr static std::size_t addrs = 0x126c1ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LeaderboardScoreUploader__ScoreData*>::get(),
@@ -153,7 +164,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LeaderboardScoreUploader__ScoreData::*)(int32_t)>(
     &::GlobalNamespace::__LeaderboardScoreUploader__ScoreData::set_modifiedScore)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23282b4;
+  constexpr static std::size_t addrs = 0x126c1f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -168,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__LeaderboardScoreUploader__ScoreData::*)()>(
     &::GlobalNamespace::__LeaderboardScoreUploader__ScoreData::get_fullCombo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23282bc;
+  constexpr static std::size_t addrs = 0x126c1fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LeaderboardScoreUploader__ScoreData*>::get(),
@@ -182,7 +193,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LeaderboardScoreUploader__ScoreData::*)(bool)>(
     &::GlobalNamespace::__LeaderboardScoreUploader__ScoreData::set_fullCombo)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x23282c4;
+  constexpr static std::size_t addrs = 0x126c204;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -197,7 +208,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::__LeaderboardScoreUploader__ScoreData::*)()>(
     &::GlobalNamespace::__LeaderboardScoreUploader__ScoreData::get_goodCutsCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23282d0;
+  constexpr static std::size_t addrs = 0x126c210;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LeaderboardScoreUploader__ScoreData*>::get(),
@@ -211,7 +222,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LeaderboardScoreUploader__ScoreData::*)(int32_t)>(
     &::GlobalNamespace::__LeaderboardScoreUploader__ScoreData::set_goodCutsCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23282d8;
+  constexpr static std::size_t addrs = 0x126c218;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -226,7 +237,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::__LeaderboardScoreUploader__ScoreData::*)()>(
     &::GlobalNamespace::__LeaderboardScoreUploader__ScoreData::get_badCutsCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23282e0;
+  constexpr static std::size_t addrs = 0x126c220;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LeaderboardScoreUploader__ScoreData*>::get(),
@@ -240,7 +251,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LeaderboardScoreUploader__ScoreData::*)(int32_t)>(
     &::GlobalNamespace::__LeaderboardScoreUploader__ScoreData::set_badCutsCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23282e8;
+  constexpr static std::size_t addrs = 0x126c228;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -255,7 +266,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::__LeaderboardScoreUploader__ScoreData::*)()>(
     &::GlobalNamespace::__LeaderboardScoreUploader__ScoreData::get_missedCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23282f0;
+  constexpr static std::size_t addrs = 0x126c230;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LeaderboardScoreUploader__ScoreData*>::get(),
@@ -269,7 +280,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LeaderboardScoreUploader__ScoreData::*)(int32_t)>(
     &::GlobalNamespace::__LeaderboardScoreUploader__ScoreData::set_missedCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23282f8;
+  constexpr static std::size_t addrs = 0x126c238;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -284,7 +295,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::__LeaderboardScoreUploader__ScoreData::*)()>(
     &::GlobalNamespace::__LeaderboardScoreUploader__ScoreData::get_maxCombo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2328300;
+  constexpr static std::size_t addrs = 0x126c240;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LeaderboardScoreUploader__ScoreData*>::get(),
@@ -298,7 +309,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LeaderboardScoreUploader__ScoreData::*)(int32_t)>(
     &::GlobalNamespace::__LeaderboardScoreUploader__ScoreData::set_maxCombo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2328308;
+  constexpr static std::size_t addrs = 0x126c248;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -311,16 +322,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LeaderboardScoreUploader__ScoreData::*)(
-    ::StringW, ::GlobalNamespace::IDifficultyBeatmap*, int32_t, int32_t, bool, int32_t, int32_t, int32_t, int32_t, ::GlobalNamespace::GameplayModifiers*)>(
+    ::StringW, ByRef<::GlobalNamespace::BeatmapKey>, int32_t, int32_t, bool, int32_t, int32_t, int32_t, int32_t, ::GlobalNamespace::GameplayModifiers*)>(
     &::GlobalNamespace::__LeaderboardScoreUploader__ScoreData::_ctor)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x2328310;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x126c250;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LeaderboardScoreUploader__ScoreData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 10>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IDifficultyBeatmap*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::GlobalNamespace::BeatmapKey>>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
@@ -340,18 +351,17 @@ constexpr void GlobalNamespace::__LeaderboardScoreUploader__ScoreData::__cordl_i
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playerId_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::IDifficultyBeatmap*& GlobalNamespace::__LeaderboardScoreUploader__ScoreData::__cordl_internal_get__beatmap_k__BackingField() {
+constexpr ::GlobalNamespace::BeatmapKey& GlobalNamespace::__LeaderboardScoreUploader__ScoreData::__cordl_internal_get__beatmapKey_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____beatmap_k__BackingField;
+  return this->____beatmapKey_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IDifficultyBeatmap*> const&
-GlobalNamespace::__LeaderboardScoreUploader__ScoreData::__cordl_internal_get__beatmap_k__BackingField() const {
+constexpr ::GlobalNamespace::BeatmapKey const& GlobalNamespace::__LeaderboardScoreUploader__ScoreData::__cordl_internal_get__beatmapKey_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____beatmap_k__BackingField;
+  return this->____beatmapKey_k__BackingField;
 }
-constexpr void GlobalNamespace::__LeaderboardScoreUploader__ScoreData::__cordl_internal_set__beatmap_k__BackingField(::GlobalNamespace::IDifficultyBeatmap* value) {
+constexpr void GlobalNamespace::__LeaderboardScoreUploader__ScoreData::__cordl_internal_set__beatmapKey_k__BackingField(::GlobalNamespace::BeatmapKey value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmap_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  this->____beatmapKey_k__BackingField = value;
 }
 constexpr ::GlobalNamespace::GameplayModifiers*& GlobalNamespace::__LeaderboardScoreUploader__ScoreData::__cordl_internal_get__gameplayModifiers_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -485,15 +495,15 @@ inline void GlobalNamespace::__LeaderboardScoreUploader__ScoreData::set_playerId
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::GlobalNamespace::IDifficultyBeatmap* GlobalNamespace::__LeaderboardScoreUploader__ScoreData::get_beatmap() {
+inline ::GlobalNamespace::BeatmapKey GlobalNamespace::__LeaderboardScoreUploader__ScoreData::get_beatmapKey() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LeaderboardScoreUploader__ScoreData*>::get(),
-                                                                             "get_beatmap", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::IDifficultyBeatmap*, false>(this, ___internal_method);
+                                                                             "get_beatmapKey", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BeatmapKey, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::__LeaderboardScoreUploader__ScoreData::set_beatmap(::GlobalNamespace::IDifficultyBeatmap* value) {
+inline void GlobalNamespace::__LeaderboardScoreUploader__ScoreData::set_beatmapKey(::GlobalNamespace::BeatmapKey value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LeaderboardScoreUploader__ScoreData*>::get(), "set_beatmap", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IDifficultyBeatmap*>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LeaderboardScoreUploader__ScoreData*>::get(), "set_beatmapKey", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapKey>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline ::GlobalNamespace::GameplayModifiers* GlobalNamespace::__LeaderboardScoreUploader__ScoreData::get_gameplayModifiers() {
@@ -584,26 +594,26 @@ inline void GlobalNamespace::__LeaderboardScoreUploader__ScoreData::set_maxCombo
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::GlobalNamespace::__LeaderboardScoreUploader__ScoreData* GlobalNamespace::__LeaderboardScoreUploader__ScoreData::New_ctor(::StringW playerId, ::GlobalNamespace::IDifficultyBeatmap* beatmap,
+inline ::GlobalNamespace::__LeaderboardScoreUploader__ScoreData* GlobalNamespace::__LeaderboardScoreUploader__ScoreData::New_ctor(::StringW playerId, ByRef<::GlobalNamespace::BeatmapKey> beatmapKey,
                                                                                                                                   int32_t multipliedScore, int32_t modifiedScore, bool fullCombo,
                                                                                                                                   int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCount,
                                                                                                                                   int32_t maxCombo,
                                                                                                                                   ::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__LeaderboardScoreUploader__ScoreData*>(playerId, beatmap, multipliedScore, modifiedScore, fullCombo, goodCutsCount, badCutsCount,
-                                                                                                             missedCount, maxCombo, gameplayModifiers));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__LeaderboardScoreUploader__ScoreData*>(playerId, beatmapKey, multipliedScore, modifiedScore, fullCombo, goodCutsCount,
+                                                                                                             badCutsCount, missedCount, maxCombo, gameplayModifiers));
 }
-inline void GlobalNamespace::__LeaderboardScoreUploader__ScoreData::_ctor(::StringW playerId, ::GlobalNamespace::IDifficultyBeatmap* beatmap, int32_t multipliedScore, int32_t modifiedScore,
+inline void GlobalNamespace::__LeaderboardScoreUploader__ScoreData::_ctor(::StringW playerId, ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, int32_t multipliedScore, int32_t modifiedScore,
                                                                           bool fullCombo, int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCount, int32_t maxCombo,
                                                                           ::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LeaderboardScoreUploader__ScoreData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 10>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IDifficultyBeatmap*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::GlobalNamespace::BeatmapKey>>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiers*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, playerId, beatmap, multipliedScore, modifiedScore, fullCombo, goodCutsCount, badCutsCount, missedCount, maxCombo,
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, playerId, beatmapKey, multipliedScore, modifiedScore, fullCombo, goodCutsCount, badCutsCount, missedCount, maxCombo,
                                                           gameplayModifiers);
 }
 // Ctor Parameters []
@@ -614,7 +624,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LeaderboardScoreUploader__ScoresToUploadData::*)()>(
     &::GlobalNamespace::__LeaderboardScoreUploader__ScoresToUploadData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23280f0;
+  constexpr static std::size_t addrs = 0x126c2e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -655,7 +665,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LeaderboardScoreUploader__UploadScoreCallback::*)(::System::Object*, void*)>(
     &::GlobalNamespace::__LeaderboardScoreUploader__UploadScoreCallback::_ctor)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x2328398;
+  constexpr static std::size_t addrs = 0x126c2ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -672,7 +682,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                            ::GlobalNamespace::__PlatformLeaderboardsModel__UploadScoreCompletionHandler*)>(
     &::GlobalNamespace::__LeaderboardScoreUploader__UploadScoreCallback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x23284c8;
+  constexpr static std::size_t addrs = 0x126c41c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -690,7 +700,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                            ::GlobalNamespace::__PlatformLeaderboardsModel__UploadScoreCompletionHandler*, ::System::AsyncCallback*, ::System::Object*)>(
     &::GlobalNamespace::__LeaderboardScoreUploader__UploadScoreCallback::BeginInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x23284dc;
+  constexpr static std::size_t addrs = 0x126c430;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -706,7 +716,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::HMAsyncRequest* (
     ::GlobalNamespace::__LeaderboardScoreUploader__UploadScoreCallback::*)(::System::IAsyncResult*)>(&::GlobalNamespace::__LeaderboardScoreUploader__UploadScoreCallback::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2328504;
+  constexpr static std::size_t addrs = 0x126c458;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -756,7 +766,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LeaderboardScoreUploader____c__DisplayClass16_0::*)()>(
     &::GlobalNamespace::__LeaderboardScoreUploader____c__DisplayClass16_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2328510;
+  constexpr static std::size_t addrs = 0x126c464;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -771,7 +781,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LeaderboardScoreUploader____c__DisplayClass16_0::*)(
     ::GlobalNamespace::__PlatformLeaderboardsModel__UploadScoreResult)>(&::GlobalNamespace::__LeaderboardScoreUploader____c__DisplayClass16_0::_UploadScoresCoroutine_b__0)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x2328518;
+  constexpr static std::size_t addrs = 0x126c46c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -830,7 +840,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LeaderboardScoreUploader___UploadScoresCoroutine_d__16::*)(int32_t)>(
     &::GlobalNamespace::__LeaderboardScoreUploader___UploadScoresCoroutine_d__16::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2327b64;
+  constexpr static std::size_t addrs = 0x126be9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -845,7 +855,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LeaderboardScoreUploader___UploadScoresCoroutine_d__16::*)()>(
     &::GlobalNamespace::__LeaderboardScoreUploader___UploadScoresCoroutine_d__16::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2328750;
+  constexpr static std::size_t addrs = 0x126c6a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -860,7 +870,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__LeaderboardScoreUploader___UploadScoresCoroutine_d__16::*)()>(
     &::GlobalNamespace::__LeaderboardScoreUploader___UploadScoresCoroutine_d__16::MoveNext)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x2328754;
+  constexpr static std::size_t addrs = 0x126c6a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -875,7 +885,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__LeaderboardScoreUploader___UploadScoresCoroutine_d__16::*)()>(
     &::GlobalNamespace::__LeaderboardScoreUploader___UploadScoresCoroutine_d__16::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2328a00;
+  constexpr static std::size_t addrs = 0x126c954;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -890,7 +900,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LeaderboardScoreUploader___UploadScoresCoroutine_d__16::*)()>(
     &::GlobalNamespace::__LeaderboardScoreUploader___UploadScoresCoroutine_d__16::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2328a08;
+  constexpr static std::size_t addrs = 0x126c95c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -905,7 +915,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__LeaderboardScoreUploader___UploadScoresCoroutine_d__16::*)()>(
     &::GlobalNamespace::__LeaderboardScoreUploader___UploadScoresCoroutine_d__16::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2328a48;
+  constexpr static std::size_t addrs = 0x126c99c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1016,13 +1026,145 @@ inline ::System::Object* GlobalNamespace::__LeaderboardScoreUploader___UploadSco
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::__LeaderboardScoreUploader___UploadScoresCoroutine_d__16::__LeaderboardScoreUploader___UploadScoresCoroutine_d__16() {}
+//  Writing Method size for method: ::GlobalNamespace::__LeaderboardScoreUploader___LoadScoresToUploadFromFile_d__17.MoveNext
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LeaderboardScoreUploader___LoadScoresToUploadFromFile_d__17::*)()>(
+    &::GlobalNamespace::__LeaderboardScoreUploader___LoadScoresToUploadFromFile_d__17::MoveNext)> {
+  constexpr static std::size_t size = 0x574;
+  constexpr static std::size_t addrs = 0x126c9a4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LeaderboardScoreUploader___LoadScoresToUploadFromFile_d__17>::get(),
+                                                 "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::__LeaderboardScoreUploader___LoadScoresToUploadFromFile_d__17.SetStateMachine
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LeaderboardScoreUploader___LoadScoresToUploadFromFile_d__17::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::__LeaderboardScoreUploader___LoadScoresToUploadFromFile_d__17::SetStateMachine)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x126cf18;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LeaderboardScoreUploader___LoadScoresToUploadFromFile_d__17>::get(), "SetStateMachine",
+                                    std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+    return ___internal_method;
+  }
+};
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr GlobalNamespace::__LeaderboardScoreUploader___LoadScoresToUploadFromFile_d__17::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
+GlobalNamespace::__LeaderboardScoreUploader___LoadScoresToUploadFromFile_d__17::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+inline void GlobalNamespace::__LeaderboardScoreUploader___LoadScoresToUploadFromFile_d__17::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LeaderboardScoreUploader___LoadScoresToUploadFromFile_d__17>::get(),
+                                               "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void GlobalNamespace::__LeaderboardScoreUploader___LoadScoresToUploadFromFile_d__17::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LeaderboardScoreUploader___LoadScoresToUploadFromFile_d__17>::get(), "SetStateMachine",
+                                  std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
+}
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::LeaderboardScoreUploader>",
+// modifiers: "", def_value: Some("nullptr") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: Some("{}") }]
+constexpr ::GlobalNamespace::__LeaderboardScoreUploader___LoadScoresToUploadFromFile_d__17::__LeaderboardScoreUploader___LoadScoresToUploadFromFile_d__17(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::LeaderboardScoreUploader> __4__this,
+    ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1) noexcept {
+  this->__1__state = __1__state;
+  this->__t__builder = __t__builder;
+  this->__4__this = __4__this;
+  this->__u__1 = __u__1;
+}
+// Ctor Parameters []
+constexpr ::GlobalNamespace::__LeaderboardScoreUploader___LoadScoresToUploadFromFile_d__17::__LeaderboardScoreUploader___LoadScoresToUploadFromFile_d__17() {}
+//  Writing Method size for method: ::GlobalNamespace::__LeaderboardScoreUploader___SaveScoresToUploadToFile_d__18.MoveNext
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LeaderboardScoreUploader___SaveScoresToUploadToFile_d__18::*)()>(
+    &::GlobalNamespace::__LeaderboardScoreUploader___SaveScoresToUploadToFile_d__18::MoveNext)> {
+  constexpr static std::size_t size = 0x488;
+  constexpr static std::size_t addrs = 0x126cf24;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LeaderboardScoreUploader___SaveScoresToUploadToFile_d__18>::get(),
+                                                 "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::__LeaderboardScoreUploader___SaveScoresToUploadToFile_d__18.SetStateMachine
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LeaderboardScoreUploader___SaveScoresToUploadToFile_d__18::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::__LeaderboardScoreUploader___SaveScoresToUploadToFile_d__18::SetStateMachine)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x126d3ac;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LeaderboardScoreUploader___SaveScoresToUploadToFile_d__18>::get(), "SetStateMachine",
+                                    std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+    return ___internal_method;
+  }
+};
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr GlobalNamespace::__LeaderboardScoreUploader___SaveScoresToUploadToFile_d__18::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
+GlobalNamespace::__LeaderboardScoreUploader___SaveScoresToUploadToFile_d__18::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+inline void GlobalNamespace::__LeaderboardScoreUploader___SaveScoresToUploadToFile_d__18::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LeaderboardScoreUploader___SaveScoresToUploadToFile_d__18>::get(),
+                                               "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void GlobalNamespace::__LeaderboardScoreUploader___SaveScoresToUploadToFile_d__18::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LeaderboardScoreUploader___SaveScoresToUploadToFile_d__18>::get(), "SetStateMachine",
+                                  std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
+}
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::LeaderboardScoreUploader>",
+// modifiers: "", def_value: Some("nullptr") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }]
+constexpr ::GlobalNamespace::__LeaderboardScoreUploader___SaveScoresToUploadToFile_d__18::__LeaderboardScoreUploader___SaveScoresToUploadToFile_d__18(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::LeaderboardScoreUploader> __4__this,
+    ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept {
+  this->__1__state = __1__state;
+  this->__t__builder = __t__builder;
+  this->__4__this = __4__this;
+  this->__u__1 = __u__1;
+}
+// Ctor Parameters []
+constexpr ::GlobalNamespace::__LeaderboardScoreUploader___SaveScoresToUploadToFile_d__18::__LeaderboardScoreUploader___SaveScoresToUploadToFile_d__18() {}
 //  Writing Method size for method: ::GlobalNamespace::LeaderboardScoreUploader.add_allScoresDidUploadEvent
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LeaderboardScoreUploader::*)(::System::Action*)>(
     &::GlobalNamespace::LeaderboardScoreUploader::add_allScoresDidUploadEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x23278b8;
+  constexpr static std::size_t addrs = 0x126bbf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1037,7 +1179,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LeaderboardScoreUploader::*)(::System::Action*)>(
     &::GlobalNamespace::LeaderboardScoreUploader::remove_allScoresDidUploadEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2327954;
+  constexpr static std::size_t addrs = 0x126bc8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1052,7 +1194,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LeaderboardScoreUploader::*)(
     ::GlobalNamespace::__LeaderboardScoreUploader__UploadScoreCallback*, ::StringW)>(&::GlobalNamespace::LeaderboardScoreUploader::Init)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x23279f0;
+  constexpr static std::size_t addrs = 0x126bd28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1068,7 +1210,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LeaderboardScoreUploader::*)()>(
     &::GlobalNamespace::LeaderboardScoreUploader::Uninitialize)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2327ab0;
+  constexpr static std::size_t addrs = 0x126bde8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LeaderboardScoreUploader*>::get(),
@@ -1082,7 +1224,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LeaderboardScoreUploader::*)()>(
     &::GlobalNamespace::LeaderboardScoreUploader::OnApplicationQuit)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2327b60;
+  constexpr static std::size_t addrs = 0x126be98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LeaderboardScoreUploader*>::get(),
@@ -1096,7 +1238,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::LeaderboardScoreUploader::*)()>(
     &::GlobalNamespace::LeaderboardScoreUploader::UploadScoresCoroutine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2327a48;
+  constexpr static std::size_t addrs = 0x126bd80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LeaderboardScoreUploader*>::get(),
@@ -1107,10 +1249,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::LeaderboardScoreUploader.LoadScoresToUploadFromFile
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LeaderboardScoreUploader::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::LeaderboardScoreUploader::*)()>(
     &::GlobalNamespace::LeaderboardScoreUploader::LoadScoresToUploadFromFile)> {
-  constexpr static std::size_t size = 0x378;
-  constexpr static std::size_t addrs = 0x2327b8c;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x126bec4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LeaderboardScoreUploader*>::get(),
@@ -1123,8 +1265,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LeaderboardScoreUploader::*)()>(
     &::GlobalNamespace::LeaderboardScoreUploader::SaveScoresToUploadToFile)> {
-  constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x2327f04;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x126bf8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LeaderboardScoreUploader*>::get(),
@@ -1138,7 +1280,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LeaderboardScoreUploader::*)(::GlobalNamespace::__LeaderboardScoreUploader__ScoreData*)>(
     &::GlobalNamespace::LeaderboardScoreUploader::AddScore)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x23280f8;
+  constexpr static std::size_t addrs = 0x126c020;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1152,7 +1294,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LeaderboardScoreUploader::*)()>(&::GlobalNamespace::LeaderboardScoreUploader::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x23281bc;
+  constexpr static std::size_t addrs = 0x126c0e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LeaderboardScoreUploader*>::get(), ".ctor",
@@ -1166,7 +1308,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LeaderboardScoreUploader::*)()>(
     &::GlobalNamespace::LeaderboardScoreUploader::_UploadScoresCoroutine_b__16_1)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x232825c;
+  constexpr static std::size_t addrs = 0x126c184;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LeaderboardScoreUploader*>::get(),
@@ -1252,17 +1394,17 @@ constexpr void GlobalNamespace::LeaderboardScoreUploader::__cordl_internal_set__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____uploading = value;
 }
-constexpr ::GlobalNamespace::ISaveData*& GlobalNamespace::LeaderboardScoreUploader::__cordl_internal_get__saveData() {
+constexpr ::GlobalNamespace::IFileStorage*& GlobalNamespace::LeaderboardScoreUploader::__cordl_internal_get__fileStorage() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____saveData;
+  return this->____fileStorage;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ISaveData*> const& GlobalNamespace::LeaderboardScoreUploader::__cordl_internal_get__saveData() const {
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IFileStorage*> const& GlobalNamespace::LeaderboardScoreUploader::__cordl_internal_get__fileStorage() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____saveData;
+  return this->____fileStorage;
 }
-constexpr void GlobalNamespace::LeaderboardScoreUploader::__cordl_internal_set__saveData(::GlobalNamespace::ISaveData* value) {
+constexpr void GlobalNamespace::LeaderboardScoreUploader::__cordl_internal_set__fileStorage(::GlobalNamespace::IFileStorage* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____saveData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____fileStorage)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::LeaderboardScoreUploader::add_allScoresDidUploadEvent(::System::Action* value) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -1298,10 +1440,10 @@ inline ::System::Collections::IEnumerator* GlobalNamespace::LeaderboardScoreUplo
                                                                              "UploadScoresCoroutine", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::LeaderboardScoreUploader::LoadScoresToUploadFromFile() {
+inline ::System::Threading::Tasks::Task* GlobalNamespace::LeaderboardScoreUploader::LoadScoresToUploadFromFile() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LeaderboardScoreUploader*>::get(),
                                                                              "LoadScoresToUploadFromFile", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::LeaderboardScoreUploader::SaveScoresToUploadToFile() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LeaderboardScoreUploader*>::get(),

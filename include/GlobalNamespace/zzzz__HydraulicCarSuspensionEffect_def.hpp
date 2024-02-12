@@ -36,8 +36,8 @@ MARK_REF_PTR_T(::GlobalNamespace::HydraulicCarSuspensionEffect);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14724))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4001))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(15108))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16391))
 // CS Name: ::HydraulicCarSuspensionEffect*
 class CORDL_TYPE HydraulicCarSuspensionEffect : public ::UnityEngine::MonoBehaviour {
 public:
@@ -164,21 +164,21 @@ public:
 
   constexpr void __cordl_internal_set__expandBeatmapDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
 
-  /// @brief Method Start, addr 0x222059c, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0xe33474, size 0x220, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy, addr 0x22207bc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0xe33694, size 0x40, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleContractBeatmapEvent, addr 0x22207fc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method HandleContractBeatmapEvent, addr 0xe336d4, size 0xa4, virtual false, abstract: false, final false
   inline void HandleContractBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
-  /// @brief Method HandleExpandBeatmapEvent, addr 0x22208a0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method HandleExpandBeatmapEvent, addr 0xe33778, size 0xa4, virtual false, abstract: false, final false
   inline void HandleExpandBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
   static inline ::GlobalNamespace::HydraulicCarSuspensionEffect* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2220944, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe3381c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HydraulicCarSuspensionEffect", modifiers: "&&", def_value: None }]

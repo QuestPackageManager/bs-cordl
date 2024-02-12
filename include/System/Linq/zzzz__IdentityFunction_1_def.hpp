@@ -27,7 +27,7 @@ namespace System::Linq {
 template <typename TElement>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14279))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14292))
 // CS Name: ::IdentityFunction`1::<>c<TElement>*
 class CORDL_TYPE __IdentityFunction_1____c : public ::System::Object {
 public:
@@ -79,7 +79,7 @@ namespace System::Linq {
 template <typename TElement>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14280))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14293))
 // CS Name: ::System.Linq::IdentityFunction`1<TElement>*
 class CORDL_TYPE IdentityFunction_1 : public ::System::Object {
 public:

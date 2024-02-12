@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SimpleAudioPlayer);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 53, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4050))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4077))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3996))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4023))
 // CS Name: ::SimpleAudioPlayer*
 class CORDL_TYPE SimpleAudioPlayer : public ::GlobalNamespace::AudioPlayerBase {
 public:
@@ -83,30 +83,30 @@ public:
 
   constexpr void __cordl_internal_set__fadingIn(bool value);
 
-  /// @brief Method get_activeAudioClip, addr 0x2230134, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_activeAudioClip, addr 0x22b9dd4, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::AudioClip> get_activeAudioClip();
 
-  /// @brief Method Start, addr 0x223013c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x22b9ddc, size 0x80, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x22301f8, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x22b9e98, size 0x100, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method FadeIn, addr 0x22301bc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method FadeIn, addr 0x22b9e5c, size 0x3c, virtual false, abstract: false, final false
   inline void FadeIn(float_t duration);
 
-  /// @brief Method FadeOut, addr 0x22302f8, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method FadeOut, addr 0x22b9f98, size 0x38, virtual true, abstract: false, final false
   inline void FadeOut(float_t duration);
 
-  /// @brief Method PauseCurrentChannel, addr 0x2230330, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method PauseCurrentChannel, addr 0x22b9fd0, size 0x1c, virtual true, abstract: false, final false
   inline void PauseCurrentChannel();
 
-  /// @brief Method UnPauseCurrentChannel, addr 0x223034c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method UnPauseCurrentChannel, addr 0x22b9fec, size 0x1c, virtual true, abstract: false, final false
   inline void UnPauseCurrentChannel();
 
   static inline ::GlobalNamespace::SimpleAudioPlayer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2230368, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22ba008, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SimpleAudioPlayer", modifiers: "&&", def_value: None }]

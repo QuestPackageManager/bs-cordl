@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::SubsystemDescriptor*)>(
     &::UnityEngine::Internal_SubsystemDescriptors::Internal_AddDescriptor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2d1a1f0;
+  constexpr static std::size_t addrs = 0x2d3ac98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

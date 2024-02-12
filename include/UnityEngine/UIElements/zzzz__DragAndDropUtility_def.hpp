@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::DragAndDropUtility);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6963))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6222))
 // CS Name: ::UnityEngine.UIElements::DragAndDropUtility*
 class CORDL_TYPE DragAndDropUtility : public ::System::Object {
 public:
@@ -40,7 +40,7 @@ public:
 
   static inline ::UnityEngine::UIElements::IDragAndDrop* getStaticF_s_DragAndDrop();
 
-  /// @brief Method get_dragAndDrop, addr 0x2e0b62c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method get_dragAndDrop, addr 0x2e28a14, size 0xac, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::IDragAndDrop* get_dragAndDrop();
 
   // Ctor Parameters [CppParam { name: "", ty: "DragAndDropUtility", modifiers: "&&", def_value: None }]

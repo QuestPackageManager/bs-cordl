@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TypedReference (*)(
     ::System::Object*, ::ArrayW<::System::Reflection::FieldInfo*, ::Array<::System::Reflection::FieldInfo*>*>)>(&::System::TypedReference::MakeTypedReference)> {
   constexpr static std::size_t size = 0x448;
-  constexpr static std::size_t addrs = 0x25f1c40;
+  constexpr static std::size_t addrs = 0x2615b58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<void>, ::System::Object*, ::ArrayW<void*, ::Array<void*>*>, ::System::RuntimeType*)>(
     &::System::TypedReference::InternalMakeTypedReference)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x25f208c;
+  constexpr static std::size_t addrs = 0x2615fa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::TypedReference::*)()>(&::System::TypedReference::GetHashCode)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x25f2090;
+  constexpr static std::size_t addrs = 0x2615fa8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::TypedReference::*)(::System::Object*)>(&::System::TypedReference::Equals)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x25f2148;
+  constexpr static std::size_t addrs = 0x2616060;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::TypedReference::*)()>(&::System::TypedReference::get_IsNull)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x25f21a0;
+  constexpr static std::size_t addrs = 0x26160b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TypedReference>::get(), "get_IsNull",
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::TypedReference, ::System::Object*)>(&::System::TypedReference::SetTypedReference)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x25f220c;
+  constexpr static std::size_t addrs = 0x2616124;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

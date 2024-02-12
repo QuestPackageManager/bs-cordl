@@ -21,8 +21,8 @@ MARK_VAL_T(::Newtonsoft::Json::Utilities::DateTimeParser);
 // SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11845))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11846))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11743))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11744))
 // CS Name: ::Newtonsoft.Json.Utilities::DateTimeParser
 struct CORDL_TYPE DateTimeParser {
 public:
@@ -125,28 +125,28 @@ public:
 
   static inline int32_t getStaticF_Lz_zz();
 
-  /// @brief Method Parse, addr 0x2658ff4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x267c1b0, size 0xd8, virtual false, abstract: false, final false
   inline bool Parse(::ArrayW<char16_t, ::Array<char16_t>*> text, int32_t startIndex, int32_t length);
 
-  /// @brief Method ParseDate, addr 0x26590cc, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method ParseDate, addr 0x267c288, size 0x198, virtual false, abstract: false, final false
   inline bool ParseDate(int32_t start);
 
-  /// @brief Method ParseTimeAndZoneAndWhitespace, addr 0x26592b0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method ParseTimeAndZoneAndWhitespace, addr 0x267c46c, size 0x40, virtual false, abstract: false, final false
   inline bool ParseTimeAndZoneAndWhitespace(int32_t start);
 
-  /// @brief Method ParseTime, addr 0x2659460, size 0x2c0, virtual false, abstract: false, final false
+  /// @brief Method ParseTime, addr 0x267c61c, size 0x2c0, virtual false, abstract: false, final false
   inline bool ParseTime(ByRef<int32_t> start);
 
-  /// @brief Method ParseZone, addr 0x2659720, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method ParseZone, addr 0x267c8dc, size 0x1d0, virtual false, abstract: false, final false
   inline bool ParseZone(int32_t start);
 
-  /// @brief Method Parse4Digit, addr 0x26592f0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Parse4Digit, addr 0x267c4ac, size 0xdc, virtual false, abstract: false, final false
   inline bool Parse4Digit(int32_t start, ByRef<int32_t> num);
 
-  /// @brief Method Parse2Digit, addr 0x26593cc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Parse2Digit, addr 0x267c588, size 0x94, virtual false, abstract: false, final false
   inline bool Parse2Digit(int32_t start, ByRef<int32_t> num);
 
-  /// @brief Method ParseChar, addr 0x2659264, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ParseChar, addr 0x267c420, size 0x4c, virtual false, abstract: false, final false
   inline bool ParseChar(int32_t start, char16_t ch);
 
   // Ctor Parameters [CppParam { name: "Year", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Month", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Day", ty:

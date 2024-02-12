@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::StringFreezingAttribute);
 namespace System::Runtime::CompilerServices {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3385))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3381))
 // CS Name: ::System.Runtime.CompilerServices::StringFreezingAttribute*
 class CORDL_TYPE StringFreezingAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::System::Runtime::CompilerServices::StringFreezingAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24db508, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24fb874, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "StringFreezingAttribute", modifiers: "&&", def_value: None }]

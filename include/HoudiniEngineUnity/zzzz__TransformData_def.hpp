@@ -25,19 +25,19 @@ MARK_VAL_T(::HoudiniEngineUnity::TransformData);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9823))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(8996))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9615))
 // CS Name: ::HoudiniEngineUnity::TransformData
 struct CORDL_TYPE TransformData {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x21b3370, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2249c54, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Transform* other);
 
-  /// @brief Method CopyTo, addr 0x21b3408, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x2249cec, size 0x80, virtual false, abstract: false, final false
   inline void CopyTo(::UnityEngine::Transform* other, bool copyParent);
 
-  /// @brief Method CopyToLocal, addr 0x21b3488, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method CopyToLocal, addr 0x2249d6c, size 0x80, virtual false, abstract: false, final false
   inline void CopyToLocal(::UnityEngine::Transform* other, bool copyParent);
 
   // Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "::UnityEngine::Quaternion", modifiers: "",

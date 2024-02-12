@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::TextEditorEventHandler);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7094))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6353))
 // CS Name: ::UnityEngine.UIElements::TextEditorEventHandler*
 class CORDL_TYPE TextEditorEventHandler : public ::System::Object {
 public:
@@ -53,27 +53,27 @@ public:
 
   constexpr void __cordl_internal_set__textInputField_k__BackingField(::UnityEngine::UIElements::ITextInputField* value);
 
-  /// @brief Method get_editorEngine, addr 0x2e33aa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_editorEngine, addr 0x2e4fe90, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TextEditorEngine* get_editorEngine();
 
-  /// @brief Method set_editorEngine, addr 0x2e33ab0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_editorEngine, addr 0x2e4fe98, size 0x8, virtual false, abstract: false, final false
   inline void set_editorEngine(::UnityEngine::UIElements::TextEditorEngine* value);
 
-  /// @brief Method get_textInputField, addr 0x2e33ab8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_textInputField, addr 0x2e4fea0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ITextInputField* get_textInputField();
 
-  /// @brief Method set_textInputField, addr 0x2e33ac0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_textInputField, addr 0x2e4fea8, size 0x8, virtual false, abstract: false, final false
   inline void set_textInputField(::UnityEngine::UIElements::ITextInputField* value);
 
   static inline ::UnityEngine::UIElements::TextEditorEventHandler* New_ctor(::UnityEngine::UIElements::TextEditorEngine* editorEngine, ::UnityEngine::UIElements::ITextInputField* textInputField);
 
-  /// @brief Method .ctor, addr 0x2e33ac8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e4feb0, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::TextEditorEngine* editorEngine, ::UnityEngine::UIElements::ITextInputField* textInputField);
 
-  /// @brief Method ExecuteDefaultActionAtTarget, addr 0x2e33b88, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ExecuteDefaultActionAtTarget, addr 0x2e4ff70, size 0x4, virtual true, abstract: false, final false
   inline void ExecuteDefaultActionAtTarget(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method ExecuteDefaultAction, addr 0x2e33b8c, size 0x158, virtual true, abstract: false, final false
+  /// @brief Method ExecuteDefaultAction, addr 0x2e4ff74, size 0x158, virtual true, abstract: false, final false
   inline void ExecuteDefaultAction(::UnityEngine::UIElements::EventBase* evt);
 
   // Ctor Parameters [CppParam { name: "", ty: "TextEditorEventHandler", modifiers: "&&", def_value: None }]

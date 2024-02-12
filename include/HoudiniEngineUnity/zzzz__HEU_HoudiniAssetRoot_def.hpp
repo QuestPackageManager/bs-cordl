@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_HoudiniAssetRoot);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9640))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9432))
 // CS Name: ::HoudiniEngineUnity::HEU_HoudiniAssetRoot*
 class CORDL_TYPE HEU_HoudiniAssetRoot : public ::UnityEngine::MonoBehaviour {
 public:
@@ -47,24 +47,24 @@ public:
 
   constexpr void __cordl_internal_set__bakeTargets(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* value);
 
-  /// @brief Method OnDestroy, addr 0x216d488, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2201d6c, size 0x1c8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RemoveHoudiniEngineAssetData, addr 0x216d650, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method RemoveHoudiniEngineAssetData, addr 0x2201f34, size 0xdc, virtual false, abstract: false, final false
   inline void RemoveHoudiniEngineAssetData();
 
-  /// @brief Method ClearHoudiniEngineReferences, addr 0x216d72c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ClearHoudiniEngineReferences, addr 0x2202010, size 0x74, virtual false, abstract: false, final false
   inline void ClearHoudiniEngineReferences();
 
-  /// @brief Method DestroyRootComponent, addr 0x216d7a0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method DestroyRootComponent, addr 0x2202084, size 0x10, virtual false, abstract: false, final false
   static inline void DestroyRootComponent(::HoudiniEngineUnity::HEU_HoudiniAssetRoot* assetRoot);
 
-  /// @brief Method Reset, addr 0x216d7b0, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x2202094, size 0xe8, virtual false, abstract: false, final false
   inline void Reset();
 
   static inline ::HoudiniEngineUnity::HEU_HoudiniAssetRoot* New_ctor();
 
-  /// @brief Method .ctor, addr 0x216d898, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x220217c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_HoudiniAssetRoot", modifiers: "&&", def_value: None }]

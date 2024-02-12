@@ -2,13 +2,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__BeatmapKey_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerBadgesProvider)
-namespace GlobalNamespace {
-class IDifficultyBeatmap;
-}
 namespace GlobalNamespace {
 class MultiplayerBadgesModelSO;
 }
@@ -42,7 +40,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerBadgesProvider____c);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5112))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10907))
 // CS Name: ::MultiplayerBadgesProvider::<>c*
 class CORDL_TYPE __MultiplayerBadgesProvider____c : public ::System::Object {
 public:
@@ -70,13 +68,13 @@ public:
 
   static inline ::GlobalNamespace::__MultiplayerBadgesProvider____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23d0f68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12997c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <SelectBadgesAndPutThemIntoResults>b__7_0, addr 0x23d0f70, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <SelectBadgesAndPutThemIntoResults>b__7_0, addr 0x12997d0, size 0x20, virtual false, abstract: false, final false
   inline bool _SelectBadgesAndPutThemIntoResults_b__7_0(::GlobalNamespace::MultiplayerPlayerResultsData* result);
 
-  /// @brief Method <SelectBadgesAndPutThemIntoResults>b__7_1, addr 0x23d0f90, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <SelectBadgesAndPutThemIntoResults>b__7_1, addr 0x12997f0, size 0x28, virtual false, abstract: false, final false
   inline int32_t _SelectBadgesAndPutThemIntoResults_b__7_1(::GlobalNamespace::MultiplayerPlayerResultsData* p);
 
   // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerBadgesProvider____c", modifiers: "&&", def_value: None }]
@@ -100,11 +98,11 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MultiplayerBa
 
 } // namespace GlobalNamespace
 // Type: ::MultiplayerBadgesProvider
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5113))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10773))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10908))
 // CS Name: ::MultiplayerBadgesProvider*
 class CORDL_TYPE MultiplayerBadgesProvider : public ::System::Object {
 public:
@@ -114,10 +112,10 @@ public:
   /// @brief Field _playerDataModel, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel))::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
 
-  /// @brief Field _difficultyBeatmap, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__difficultyBeatmap, put = __cordl_internal_set__difficultyBeatmap))::GlobalNamespace::IDifficultyBeatmap* _difficultyBeatmap;
+  /// @brief Field _beatmapKey, offset 0x18, size 0x18
+  __declspec(property(get = __cordl_internal_get__beatmapKey, put = __cordl_internal_set__beatmapKey))::GlobalNamespace::BeatmapKey _beatmapKey;
 
-  /// @brief Field _multiplayerBadgesModel, offset 0x20, size 0x8
+  /// @brief Field _multiplayerBadgesModel, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__multiplayerBadgesModel,
                       put = __cordl_internal_set__multiplayerBadgesModel))::UnityW<::GlobalNamespace::MultiplayerBadgesModelSO> _multiplayerBadgesModel;
 
@@ -127,11 +125,11 @@ public:
 
   constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
 
-  constexpr ::GlobalNamespace::IDifficultyBeatmap*& __cordl_internal_get__difficultyBeatmap();
+  constexpr ::GlobalNamespace::BeatmapKey& __cordl_internal_get__beatmapKey();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IDifficultyBeatmap*> const& __cordl_internal_get__difficultyBeatmap() const;
+  constexpr ::GlobalNamespace::BeatmapKey const& __cordl_internal_get__beatmapKey() const;
 
-  constexpr void __cordl_internal_set__difficultyBeatmap(::GlobalNamespace::IDifficultyBeatmap* value);
+  constexpr void __cordl_internal_set__beatmapKey(::GlobalNamespace::BeatmapKey value);
 
   constexpr ::UnityW<::GlobalNamespace::MultiplayerBadgesModelSO>& __cordl_internal_get__multiplayerBadgesModel();
 
@@ -139,12 +137,12 @@ public:
 
   constexpr void __cordl_internal_set__multiplayerBadgesModel(::UnityW<::GlobalNamespace::MultiplayerBadgesModelSO> value);
 
-  /// @brief Method SelectBadgesAndPutThemIntoResults, addr 0x23cfa58, size 0x14a4, virtual false, abstract: false, final false
+  /// @brief Method SelectBadgesAndPutThemIntoResults, addr 0x12982a4, size 0x14b8, virtual false, abstract: false, final false
   inline void SelectBadgesAndPutThemIntoResults(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* playerResults);
 
   static inline ::GlobalNamespace::MultiplayerBadgesProvider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23d0efc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x129975c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBadgesProvider", modifiers: "&&", def_value: None }]
@@ -164,10 +162,10 @@ public:
   /// @brief Field _playerDataModel, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 
-  /// @brief Field _difficultyBeatmap, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::IDifficultyBeatmap* ____difficultyBeatmap;
+  /// @brief Field _beatmapKey, offset: 0x18, size: 0x18, def value: None
+  ::GlobalNamespace::BeatmapKey ____beatmapKey;
 
-  /// @brief Field _multiplayerBadgesModel, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _multiplayerBadgesModel, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerBadgesModelSO> ____multiplayerBadgesModel;
 
   /// @brief Field kTargetPositiveBadgesCount offset 0xffffffff size 0x4
@@ -185,13 +183,13 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerBadgesProvider, 0x28>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerBadgesProvider, 0x38>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerBadgesProvider, ____playerDataModel) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerBadgesProvider, ____difficultyBeatmap) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerBadgesProvider, ____beatmapKey) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerBadgesProvider, ____multiplayerBadgesModel) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerBadgesProvider, ____multiplayerBadgesModel) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerBadgesProvider);

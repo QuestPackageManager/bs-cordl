@@ -23,7 +23,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Utilities::MemoableResetException* New_ctor(::StringW msg);
 
-  /// @brief Method .ctor, addr 0x116dc3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x119cacc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW msg);
 
   // Ctor Parameters [CppParam { name: "", ty: "MemoableResetException", modifiers: "&&", def_value: None }]

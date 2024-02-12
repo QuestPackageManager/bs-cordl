@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::ProGridsConditionalSnapAttribute);
 namespace UnityEngine::ProBuilder {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12178))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12076))
 // CS Name: ::UnityEngine.ProBuilder::ProGridsConditionalSnapAttribute*
 class CORDL_TYPE ProGridsConditionalSnapAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::UnityEngine::ProBuilder::ProGridsConditionalSnapAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2b60d98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b5f904, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ProGridsConditionalSnapAttribute", modifiers: "&&", def_value: None }]

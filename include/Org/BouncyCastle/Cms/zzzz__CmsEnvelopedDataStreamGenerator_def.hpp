@@ -113,17 +113,17 @@ public:
   New_ctor(::Org::BouncyCastle::Cms::CmsEnvelopedGenerator* outer, ::Org::BouncyCastle::Crypto::IO::CipherStream* outStream, ::Org::BouncyCastle::Asn1::BerSequenceGenerator* cGen,
            ::Org::BouncyCastle::Asn1::BerSequenceGenerator* envGen, ::Org::BouncyCastle::Asn1::BerSequenceGenerator* eiGen);
 
-  /// @brief Method .ctor, addr 0x11e1dec, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x120ec7c, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Cms::CmsEnvelopedGenerator* outer, ::Org::BouncyCastle::Crypto::IO::CipherStream* outStream, ::Org::BouncyCastle::Asn1::BerSequenceGenerator* cGen,
                     ::Org::BouncyCastle::Asn1::BerSequenceGenerator* envGen, ::Org::BouncyCastle::Asn1::BerSequenceGenerator* eiGen);
 
-  /// @brief Method WriteByte, addr 0x11e1e3c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method WriteByte, addr 0x120eccc, size 0x24, virtual true, abstract: false, final false
   inline void WriteByte(uint8_t b);
 
-  /// @brief Method Write, addr 0x11e1e60, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x120ecf0, size 0x24, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t off, int32_t len);
 
-  /// @brief Method Close, addr 0x11e1e84, size 0x1e4, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x120ed14, size 0x1e4, virtual true, abstract: false, final false
   inline void Close();
 
   // Ctor Parameters [CppParam { name: "", ty: "__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream", modifiers: "&&", def_value: None }]
@@ -223,34 +223,34 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::CmsEnvelopedDataStreamGenerator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x11dfc5c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x120daec, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Cms::CmsEnvelopedDataStreamGenerator* New_ctor(::Org::BouncyCastle::Security::SecureRandom* rand);
 
-  /// @brief Method .ctor, addr 0x11dfcb4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x120db44, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* rand);
 
-  /// @brief Method SetBufferSize, addr 0x11dfd1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetBufferSize, addr 0x120dbac, size 0x8, virtual false, abstract: false, final false
   inline void SetBufferSize(int32_t bufferSize);
 
-  /// @brief Method SetBerEncodeRecipients, addr 0x11dfd24, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetBerEncodeRecipients, addr 0x120dbb4, size 0xc, virtual false, abstract: false, final false
   inline void SetBerEncodeRecipients(bool berEncodeRecipientSet);
 
-  /// @brief Method get_Version, addr 0x11dfd30, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x120dbc0, size 0x80, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
-  /// @brief Method Open, addr 0x11dfdb0, size 0x600, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x120dc40, size 0x600, virtual false, abstract: false, final false
   inline ::System::IO::Stream* Open(::System::IO::Stream* outStream, ::StringW encryptionOid, ::Org::BouncyCastle::Crypto::CipherKeyGenerator* keyGen);
 
-  /// @brief Method Open, addr 0x11e03b0, size 0x880, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x120e240, size 0x880, virtual false, abstract: false, final false
   inline ::System::IO::Stream* Open(::System::IO::Stream* outStream, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* encAlgID, ::Org::BouncyCastle::Crypto::ICipherParameters* cipherParameters,
                                     ::Org::BouncyCastle::Asn1::Asn1EncodableVector* recipientInfos);
 
-  /// @brief Method Open, addr 0x11e0c30, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x120eac0, size 0xdc, virtual false, abstract: false, final false
   inline ::System::IO::Stream* Open(::System::IO::Stream* outStream, ::StringW encryptionOid);
 
-  /// @brief Method Open, addr 0x11e0d0c, size 0x10e0, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x120eb9c, size 0xe0, virtual false, abstract: false, final false
   inline ::System::IO::Stream* Open(::System::IO::Stream* outStream, ::StringW encryptionOid, int32_t keySize);
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsEnvelopedDataStreamGenerator", modifiers: "&&", def_value: None }]

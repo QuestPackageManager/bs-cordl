@@ -52,24 +52,24 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> identity, ::ArrayW<uint8_t, ::Array<uint8_t>*> psk);
 
-  /// @brief Method .ctor, addr 0xf5d1d4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf87064, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> identity, ::ArrayW<uint8_t, ::Array<uint8_t>*> psk);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity* New_ctor(::StringW identity, ::ArrayW<uint8_t, ::Array<uint8_t>*> psk);
 
-  /// @brief Method .ctor, addr 0xf5d260, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf870f0, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::StringW identity, ::ArrayW<uint8_t, ::Array<uint8_t>*> psk);
 
-  /// @brief Method SkipIdentityHint, addr 0xf5d2ec, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SkipIdentityHint, addr 0xf8717c, size 0x4, virtual true, abstract: false, final false
   inline void SkipIdentityHint();
 
-  /// @brief Method NotifyIdentityHint, addr 0xf5d2f0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method NotifyIdentityHint, addr 0xf87180, size 0x4, virtual true, abstract: false, final false
   inline void NotifyIdentityHint(::ArrayW<uint8_t, ::Array<uint8_t>*> psk_identity_hint);
 
-  /// @brief Method GetPskIdentity, addr 0xf5d2f4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetPskIdentity, addr 0xf87184, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetPskIdentity();
 
-  /// @brief Method GetPsk, addr 0xf5d2fc, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method GetPsk, addr 0xf8718c, size 0x5c, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetPsk();
 
   // Ctor Parameters [CppParam { name: "", ty: "BasicTlsPskIdentity", modifiers: "&&", def_value: None }]

@@ -50,7 +50,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::__RemoteInputPlayerConnection__Subscr
 namespace UnityEngine::InputSystem {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6272))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5531))
 // CS Name: ::RemoteInputPlayerConnection::Subscriber*
 class CORDL_TYPE __RemoteInputPlayerConnection__Subscriber : public ::System::Object {
 public:
@@ -79,12 +79,12 @@ public:
 
   constexpr void __cordl_internal_set_observer(::System::IObserver_1<::UnityEngine::InputSystem::__InputRemoting__Message>* value);
 
-  /// @brief Method Dispose, addr 0x2aa79e0, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2aa954c, size 0x58, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::UnityEngine::InputSystem::__RemoteInputPlayerConnection__Subscriber* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2aa7344, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aa8eb0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__RemoteInputPlayerConnection__Subscriber", modifiers: "&&", def_value: None }]
@@ -121,8 +121,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::__RemoteInputPlayerConnection
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(10210))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6273))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(8954))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5532))
 // CS Name: ::UnityEngine.InputSystem::RemoteInputPlayerConnection*
 class CORDL_TYPE RemoteInputPlayerConnection : public ::UnityEngine::ScriptableObject {
 public:
@@ -222,54 +222,54 @@ public:
 
   static inline ::System::Guid getStaticF_kStopSendingMsg();
 
-  /// @brief Method Bind, addr 0x2aa69ec, size 0x6dc, virtual false, abstract: false, final false
+  /// @brief Method Bind, addr 0x2aa8558, size 0x6dc, virtual false, abstract: false, final false
   inline void Bind(::UnityEngine::Networking::PlayerConnection::IEditorPlayerConnection* connection, bool isConnected);
 
-  /// @brief Method Subscribe, addr 0x2aa71a4, size 0x1a0, virtual true, abstract: false, final true
+  /// @brief Method Subscribe, addr 0x2aa8d10, size 0x1a0, virtual true, abstract: false, final true
   inline ::System::IDisposable* Subscribe(::System::IObserver_1<::UnityEngine::InputSystem::__InputRemoting__Message>* observer);
 
-  /// @brief Method OnConnected, addr 0x2aa70c8, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method OnConnected, addr 0x2aa8c34, size 0xdc, virtual false, abstract: false, final false
   inline void OnConnected(int32_t id);
 
-  /// @brief Method OnDisconnected, addr 0x2aa7458, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method OnDisconnected, addr 0x2aa8fc4, size 0xdc, virtual false, abstract: false, final false
   inline void OnDisconnected(int32_t id);
 
-  /// @brief Method OnNewDevice, addr 0x2aa7534, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnNewDevice, addr 0x2aa90a0, size 0xc, virtual false, abstract: false, final false
   inline void OnNewDevice(::UnityEngine::Networking::PlayerConnection::MessageEventArgs* args);
 
-  /// @brief Method OnNewLayout, addr 0x2aa7540, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnNewLayout, addr 0x2aa90ac, size 0xc, virtual false, abstract: false, final false
   inline void OnNewLayout(::UnityEngine::Networking::PlayerConnection::MessageEventArgs* args);
 
-  /// @brief Method OnNewEvents, addr 0x2aa754c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnNewEvents, addr 0x2aa90b8, size 0xc, virtual false, abstract: false, final false
   inline void OnNewEvents(::UnityEngine::Networking::PlayerConnection::MessageEventArgs* args);
 
-  /// @brief Method OnRemoveDevice, addr 0x2aa7558, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnRemoveDevice, addr 0x2aa90c4, size 0xc, virtual false, abstract: false, final false
   inline void OnRemoveDevice(::UnityEngine::Networking::PlayerConnection::MessageEventArgs* args);
 
-  /// @brief Method OnChangeUsages, addr 0x2aa7564, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnChangeUsages, addr 0x2aa90d0, size 0xc, virtual false, abstract: false, final false
   inline void OnChangeUsages(::UnityEngine::Networking::PlayerConnection::MessageEventArgs* args);
 
-  /// @brief Method OnStartSending, addr 0x2aa7570, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnStartSending, addr 0x2aa90dc, size 0xc, virtual false, abstract: false, final false
   inline void OnStartSending(::UnityEngine::Networking::PlayerConnection::MessageEventArgs* args);
 
-  /// @brief Method OnStopSending, addr 0x2aa757c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnStopSending, addr 0x2aa90e8, size 0xc, virtual false, abstract: false, final false
   inline void OnStopSending(::UnityEngine::Networking::PlayerConnection::MessageEventArgs* args);
 
-  /// @brief Method SendToSubscribers, addr 0x2aa734c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method SendToSubscribers, addr 0x2aa8eb8, size 0x10c, virtual false, abstract: false, final false
   inline void SendToSubscribers(::UnityEngine::InputSystem::__InputRemoting__MessageType type, ::UnityEngine::Networking::PlayerConnection::MessageEventArgs* args);
 
-  /// @brief Method System.IObserver<UnityEngine.InputSystem.InputRemoting.Message>.OnNext, addr 0x2aa7588, size 0x264, virtual true, abstract: false, final true
+  /// @brief Method System.IObserver<UnityEngine.InputSystem.InputRemoting.Message>.OnNext, addr 0x2aa90f4, size 0x264, virtual true, abstract: false, final true
   inline void System_IObserver_UnityEngine_InputSystem_InputRemoting_Message__OnNext(::UnityEngine::InputSystem::__InputRemoting__Message msg);
 
-  /// @brief Method System.IObserver<UnityEngine.InputSystem.InputRemoting.Message>.OnError, addr 0x2aa77ec, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IObserver<UnityEngine.InputSystem.InputRemoting.Message>.OnError, addr 0x2aa9358, size 0x4, virtual true, abstract: false, final true
   inline void System_IObserver_UnityEngine_InputSystem_InputRemoting_Message__OnError(::System::Exception* error);
 
-  /// @brief Method System.IObserver<UnityEngine.InputSystem.InputRemoting.Message>.OnCompleted, addr 0x2aa77f0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IObserver<UnityEngine.InputSystem.InputRemoting.Message>.OnCompleted, addr 0x2aa935c, size 0x4, virtual true, abstract: false, final true
   inline void System_IObserver_UnityEngine_InputSystem_InputRemoting_Message__OnCompleted();
 
   static inline ::UnityEngine::InputSystem::RemoteInputPlayerConnection* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2aa77f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aa9360, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RemoteInputPlayerConnection", modifiers: "&&", def_value: None }]

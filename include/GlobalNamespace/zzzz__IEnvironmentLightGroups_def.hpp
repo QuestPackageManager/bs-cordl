@@ -7,6 +7,9 @@ CORDL_MODULE_EXPORT(IEnvironmentLightGroups)
 namespace GlobalNamespace {
 class ILightGroup;
 }
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class IEnvironmentLightGroups;
@@ -18,16 +21,18 @@ MARK_REF_PTR_T(::GlobalNamespace::IEnvironmentLightGroups);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4183))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10637))
 // CS Name: ::IEnvironmentLightGroups*
 class CORDL_TYPE IEnvironmentLightGroups {
 public:
   // Declarations
+  __declspec(property(get = get_lightGroups))::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::ILightGroup*>* lightGroups;
+
+  /// @brief Method get_lightGroups, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::ILightGroup*>* get_lightGroups();
+
   /// @brief Method GetDataForGroup, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::ILightGroup* GetDataForGroup(int32_t groupId);
-
-  /// @brief Method Sort, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void Sort();
 
   // Ctor Parameters [CppParam { name: "", ty: "IEnvironmentLightGroups", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

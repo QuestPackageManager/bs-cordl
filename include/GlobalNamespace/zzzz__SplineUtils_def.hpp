@@ -19,12 +19,12 @@ MARK_REF_PTR_T(::GlobalNamespace::SplineUtils);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4878))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4232))
 // CS Name: ::SplineUtils*
 class CORDL_TYPE SplineUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Interpolate, addr 0x23a0740, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Interpolate, addr 0x2360870, size 0x110, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 Interpolate(::UnityEngine::Vector3 t0, ::UnityEngine::Vector3 p0, ::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 t1, float_t f);
 
   // Ctor Parameters [CppParam { name: "", ty: "SplineUtils", modifiers: "&&", def_value: None }]

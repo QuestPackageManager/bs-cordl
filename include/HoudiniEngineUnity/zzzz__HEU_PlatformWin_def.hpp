@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_PlatformWin);
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9675))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9467))
 // CS Name: ::HoudiniEngineUnity::HEU_PlatformWin*
 class CORDL_TYPE HEU_PlatformWin : public ::System::Object {
 public:

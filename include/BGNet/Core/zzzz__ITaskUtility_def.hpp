@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::BGNet::Core::ITaskUtility);
 namespace BGNet::Core {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13003))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12901))
 // CS Name: ::BGNet.Core::ITaskUtility*
 class CORDL_TYPE ITaskUtility {
 public:

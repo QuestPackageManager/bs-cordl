@@ -48,7 +48,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__MissionLevelModifiersViewController____c__Di
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5698))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5000))
 // CS Name: ::MissionLevelModifiersViewController::<>c__DisplayClass7_0*
 class CORDL_TYPE __MissionLevelModifiersViewController____c__DisplayClass7_0 : public ::System::Object {
 public:
@@ -65,10 +65,10 @@ public:
 
   static inline ::GlobalNamespace::__MissionLevelModifiersViewController____c__DisplayClass7_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22ca4dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22fa0fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <RefreshContent>b__0, addr 0x22ca4ec, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method <RefreshContent>b__0, addr 0x22fa10c, size 0x7c, virtual false, abstract: false, final false
   inline void _RefreshContent_b__0(int32_t idx, ::GlobalNamespace::GameplayModifierInfoListItem* gameplayModifierInfoListItem);
 
   // Ctor Parameters [CppParam { name: "", ty: "__MissionLevelModifiersViewController____c__DisplayClass7_0", modifiers: "&&", def_value: None }]
@@ -100,8 +100,8 @@ static_assert(offsetof(::GlobalNamespace::__MissionLevelModifiersViewController_
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5699))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13558))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5001))
 // CS Name: ::MissionLevelModifiersViewController*
 class CORDL_TYPE MissionLevelModifiersViewController : public ::HMUI::ViewController {
 public:
@@ -155,18 +155,18 @@ public:
 
   constexpr void __cordl_internal_set__gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
 
-  /// @brief Method Setup, addr 0x22ca31c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x22f9f3c, size 0x2c, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method DidActivate, addr 0x22ca4d8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x22fa0f8, size 0x4, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method RefreshContent, addr 0x22ca348, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method RefreshContent, addr 0x22f9f68, size 0x190, virtual false, abstract: false, final false
   inline void RefreshContent();
 
   static inline ::GlobalNamespace::MissionLevelModifiersViewController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22ca4e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22fa104, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionLevelModifiersViewController", modifiers: "&&", def_value: None }]

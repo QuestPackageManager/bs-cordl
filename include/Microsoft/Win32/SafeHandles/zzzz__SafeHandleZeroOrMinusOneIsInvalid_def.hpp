@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvali
 // SizeInfo { instance_size: 32, native_size: 8, calculated_instance_size: 32, calculated_native_size: 30, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Microsoft::Win32::SafeHandles {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3334))]
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3332))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2301))
 // CS Name: ::Microsoft.Win32.SafeHandles::SafeHandleZeroOrMinusOneIsInvalid*
 class CORDL_TYPE SafeHandleZeroOrMinusOneIsInvalid : public ::System::Runtime::InteropServices::SafeHandle {
@@ -24,10 +24,10 @@ public:
 
   static inline ::Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid* New_ctor(bool ownsHandle);
 
-  /// @brief Method .ctor, addr 0x242c144, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x244bfa8, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(bool ownsHandle);
 
-  /// @brief Method get_IsInvalid, addr 0x242c268, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method get_IsInvalid, addr 0x244c0cc, size 0x5c, virtual true, abstract: false, final false
   inline bool get_IsInvalid();
 
   // Ctor Parameters [CppParam { name: "", ty: "SafeHandleZeroOrMinusOneIsInvalid", modifiers: "&&", def_value: None }]

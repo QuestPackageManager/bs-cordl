@@ -38,19 +38,19 @@ public:
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::MemberReference* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24c336c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24e43e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Set, addr 0x24c3374, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x24e43e8, size 0x8, virtual false, abstract: false, final false
   inline void Set(int32_t idRef);
 
-  /// @brief Method Write, addr 0x24c337c, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method Write, addr 0x24e43f0, size 0x54, virtual true, abstract: false, final true
   inline void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
 
-  /// @brief Method Read, addr 0x24c33d0, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Read, addr 0x24e4444, size 0x28, virtual true, abstract: false, final true
   inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
 
-  /// @brief Method Dump, addr 0x24c33f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Dump, addr 0x24e446c, size 0x4, virtual false, abstract: false, final false
   inline void Dump();
 
   // Ctor Parameters [CppParam { name: "", ty: "MemberReference", modifiers: "&&", def_value: None }]

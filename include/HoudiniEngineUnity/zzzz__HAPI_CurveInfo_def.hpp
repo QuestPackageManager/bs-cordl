@@ -19,8 +19,8 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_CurveInfo);
 // SizeInfo { instance_size: 28, native_size: 28, calculated_instance_size: 28, calculated_native_size: 41, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9704))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9749))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9496))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9541))
 // CS Name: ::HoudiniEngineUnity::HAPI_CurveInfo
 struct CORDL_TYPE HAPI_CurveInfo {
 public:

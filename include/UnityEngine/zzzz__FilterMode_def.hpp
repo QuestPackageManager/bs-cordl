@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::FilterMode);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10113))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8849))
 // CS Name: ::UnityEngine::FilterMode
 struct CORDL_TYPE FilterMode {
 public:

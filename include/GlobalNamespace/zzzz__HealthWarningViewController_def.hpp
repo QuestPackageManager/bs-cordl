@@ -56,7 +56,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__HealthWarningViewController___DismissHealthA
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5644))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4948))
 // CS Name: ::HealthWarningViewController::<DismissHealthAndSafety>d__15*
 class CORDL_TYPE __HealthWarningViewController___DismissHealthAndSafety_d__15 : public ::System::Object {
 public:
@@ -112,22 +112,22 @@ public:
 
   static inline ::GlobalNamespace::__HealthWarningViewController___DismissHealthAndSafety_d__15* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor, addr 0x22b5378, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22e86cc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x22b53c4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x22e8718, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext, addr 0x22b53c8, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x22e871c, size 0xc8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x22b5490, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x22e87e4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x22b5498, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x22e87ec, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x22b54d8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x22e882c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__HealthWarningViewController___DismissHealthAndSafety_d__15", modifiers: "&&", def_value: None }]
@@ -169,8 +169,8 @@ static_assert(offsetof(::GlobalNamespace::__HealthWarningViewController___Dismis
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 192, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5645))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13558))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4949))
 // CS Name: ::HealthWarningViewController*
 class CORDL_TYPE HealthWarningViewController : public ::HMUI::ViewController {
 public:
@@ -267,30 +267,30 @@ public:
 
   constexpr void __cordl_internal_set__dismissCoroutine(::UnityEngine::Coroutine* value);
 
-  /// @brief Method add_didFinishEvent, addr 0x22b4f64, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x22e82b8, size 0x9c, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x22b5000, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x22e8354, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action* value);
 
-  /// @brief Method DidActivate, addr 0x22b509c, size 0x1a4, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x22e83f0, size 0x1a4, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x22b52a8, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x22e85fc, size 0xc4, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method Init, addr 0x22b536c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x22e86c0, size 0xc, virtual false, abstract: false, final false
   inline void Init(bool requiresInteraction);
 
-  /// @brief Method DismissHealthAndSafety, addr 0x22b5240, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method DismissHealthAndSafety, addr 0x22e8594, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* DismissHealthAndSafety();
 
   static inline ::GlobalNamespace::HealthWarningViewController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22b53a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22e86f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <DidActivate>b__12_0, addr 0x22b53a8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__12_0, addr 0x22e86fc, size 0x1c, virtual false, abstract: false, final false
   inline void _DidActivate_b__12_0();
 
   // Ctor Parameters [CppParam { name: "", ty: "HealthWarningViewController", modifiers: "&&", def_value: None }]

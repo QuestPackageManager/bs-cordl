@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::PrimitiveType);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10032))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8764))
 // CS Name: ::UnityEngine::PrimitiveType
 struct CORDL_TYPE PrimitiveType {
 public:

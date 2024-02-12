@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::Zenject::SubContainerCreatorByInstanceGetter);
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11245))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10387))
 // CS Name: ::Zenject::SubContainerCreatorByInstanceGetter*
 class CORDL_TYPE SubContainerCreatorByInstanceGetter : public ::System::Object {
 public:
@@ -56,10 +56,10 @@ public:
 
   static inline ::Zenject::SubContainerCreatorByInstanceGetter* New_ctor(::System::Func_2<::Zenject::InjectContext*, ::Zenject::DiContainer*>* subcontainerGetter);
 
-  /// @brief Method .ctor, addr 0x2f0b6b8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f27800, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Func_2<::Zenject::InjectContext*, ::Zenject::DiContainer*>* subcontainerGetter);
 
-  /// @brief Method CreateSubContainer, addr 0x2f0b6e0, size 0x84, virtual true, abstract: false, final true
+  /// @brief Method CreateSubContainer, addr 0x2f27828, size 0x84, virtual true, abstract: false, final true
   inline ::Zenject::DiContainer* CreateSubContainer(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::InjectContext* context);
 
   // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByInstanceGetter", modifiers: "&&", def_value: None }]

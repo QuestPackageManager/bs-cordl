@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::GlobalNamespace::AutoSetupController);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5556))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4862))
 // CS Name: ::AutoSetupController*
 class CORDL_TYPE AutoSetupController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -123,39 +123,39 @@ public:
 
   constexpr void __cordl_internal_set__autoSetupData(::GlobalNamespace::AutoSetupData* value);
 
-  /// @brief Method add_didFinishEvent, addr 0x22a2a60, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x23fd2f4, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::AutoSetupData*>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x22a2b10, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x23fd3a4, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::AutoSetupData*>* value);
 
-  /// @brief Method Setup, addr 0x22a2bc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x23fd454, size 0x8, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::AutoSetupData* autoSetupData);
 
-  /// @brief Method OnEnable, addr 0x22a2bc8, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x23fd45c, size 0x200, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable, addr 0x22a2dc8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x23fd65c, size 0x1c, virtual false, abstract: false, final false
   inline void OnDisable();
 
   static inline ::GlobalNamespace::AutoSetupController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22a2de4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23fd678, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <OnEnable>b__12_0, addr 0x22a2eb4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__12_0, addr 0x23fd748, size 0x20, virtual false, abstract: false, final false
   inline void _OnEnable_b__12_0();
 
-  /// @brief Method <OnEnable>b__12_1, addr 0x22a2ed4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__12_1, addr 0x23fd768, size 0x20, virtual false, abstract: false, final false
   inline void _OnEnable_b__12_1(bool isOn);
 
-  /// @brief Method <OnEnable>b__12_2, addr 0x22a2ef4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__12_2, addr 0x23fd788, size 0x20, virtual false, abstract: false, final false
   inline void _OnEnable_b__12_2(bool isOn);
 
-  /// @brief Method <OnEnable>b__12_3, addr 0x22a2f14, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__12_3, addr 0x23fd7a8, size 0x20, virtual false, abstract: false, final false
   inline void _OnEnable_b__12_3(bool isOn);
 
-  /// @brief Method <OnEnable>b__12_4, addr 0x22a2f34, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__12_4, addr 0x23fd7c8, size 0x20, virtual false, abstract: false, final false
   inline void _OnEnable_b__12_4(bool isOn);
 
   // Ctor Parameters [CppParam { name: "", ty: "AutoSetupController", modifiers: "&&", def_value: None }]

@@ -35,8 +35,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::IKSolverLeg);
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 192, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(12564))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12575))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(8996)), TypeDefinitionIndex(TypeDefinitionIndex(12462))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12473))
 // CS Name: ::RootMotion.FinalIK::IKSolverLeg*
 class CORDL_TYPE IKSolverLeg : public ::RootMotion::FinalIK::IKSolver {
 public:
@@ -140,43 +140,43 @@ public:
 
   constexpr void __cordl_internal_set_rotations(::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> value);
 
-  /// @brief Method IsValid, addr 0x126a8b8, size 0x35c, virtual true, abstract: false, final false
+  /// @brief Method IsValid, addr 0x1303968, size 0x35c, virtual true, abstract: false, final false
   inline bool IsValid(ByRef<::StringW> message);
 
-  /// @brief Method SetChain, addr 0x126ac14, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method SetChain, addr 0x1303cc4, size 0x64, virtual false, abstract: false, final false
   inline bool SetChain(::UnityEngine::Transform* pelvis, ::UnityEngine::Transform* thigh, ::UnityEngine::Transform* calf, ::UnityEngine::Transform* foot, ::UnityEngine::Transform* toe,
                        ::UnityEngine::Transform* root);
 
-  /// @brief Method GetPoints, addr 0x126ac78, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method GetPoints, addr 0x1303d28, size 0x144, virtual true, abstract: false, final false
   inline ::ArrayW<::RootMotion::FinalIK::__IKSolver__Point*, ::Array<::RootMotion::FinalIK::__IKSolver__Point*>*> GetPoints();
 
-  /// @brief Method GetPoint, addr 0x126adbc, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method GetPoint, addr 0x1303e6c, size 0x160, virtual true, abstract: false, final false
   inline ::RootMotion::FinalIK::__IKSolver__Point* GetPoint(::UnityEngine::Transform* transform);
 
-  /// @brief Method StoreDefaultLocalState, addr 0x126af1c, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method StoreDefaultLocalState, addr 0x1303fcc, size 0x50, virtual true, abstract: false, final false
   inline void StoreDefaultLocalState();
 
-  /// @brief Method FixTransforms, addr 0x126af6c, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method FixTransforms, addr 0x130401c, size 0x60, virtual true, abstract: false, final false
   inline void FixTransforms();
 
-  /// @brief Method OnInitiate, addr 0x126afcc, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method OnInitiate, addr 0x130407c, size 0x58, virtual true, abstract: false, final false
   inline void OnInitiate();
 
-  /// @brief Method OnUpdate, addr 0x126b328, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method OnUpdate, addr 0x13043d8, size 0x20, virtual true, abstract: false, final false
   inline void OnUpdate();
 
-  /// @brief Method Solve, addr 0x126b348, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Solve, addr 0x13043f8, size 0x84, virtual false, abstract: false, final false
   inline void Solve();
 
-  /// @brief Method Read, addr 0x126b024, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method Read, addr 0x13040d4, size 0x304, virtual false, abstract: false, final false
   inline void Read();
 
-  /// @brief Method Write, addr 0x126b3cc, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method Write, addr 0x130447c, size 0x178, virtual false, abstract: false, final false
   inline void Write();
 
   static inline ::RootMotion::FinalIK::IKSolverLeg* New_ctor();
 
-  /// @brief Method .ctor, addr 0x126b7ac, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x130485c, size 0x194, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "IKSolverLeg", modifiers: "&&", def_value: None }]

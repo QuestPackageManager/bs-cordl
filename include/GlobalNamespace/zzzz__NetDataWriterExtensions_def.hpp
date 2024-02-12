@@ -22,15 +22,15 @@ MARK_REF_PTR_T(::GlobalNamespace::NetDataWriterExtensions);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12887))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12785))
 // CS Name: ::NetDataWriterExtensions*
 class CORDL_TYPE NetDataWriterExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SetUpPacket, addr 0xe4ce58, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetUpPacket, addr 0xe77c90, size 0x4, virtual false, abstract: false, final false
   static inline void SetUpPacket(::LiteNetLib::Utils::NetDataWriter* netDataWriter, uint8_t senderId, uint8_t receiverId, ::GlobalNamespace::PacketOption packetOptions);
 
-  /// @brief Method SetUpPacket, addr 0xe4ce5c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method SetUpPacket, addr 0xe77c94, size 0x4c, virtual false, abstract: false, final false
   static inline void SetUpPacket(::LiteNetLib::Utils::NetDataWriter* netDataWriter, uint8_t senderId, uint8_t receiverId, uint8_t packetOptions);
 
   // Ctor Parameters [CppParam { name: "", ty: "NetDataWriterExtensions", modifiers: "&&", def_value: None }]

@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::IAssetBundl
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13990))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14003))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::IAssetBundleResource*
 class CORDL_TYPE IAssetBundleResource {
 public:

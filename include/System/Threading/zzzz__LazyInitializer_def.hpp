@@ -45,7 +45,7 @@ public:
   /// @brief Method EnsureInitializedCore, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T EnsureInitializedCore(ByRef<T> target, ByRef<::System::Object*> syncLock, ::System::Func_1<T>* valueFactory);
 
-  /// @brief Method EnsureLockInitialized, addr 0x260fc10, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method EnsureLockInitialized, addr 0x2634b18, size 0x80, virtual false, abstract: false, final false
   static inline ::System::Object* EnsureLockInitialized(ByRef<::System::Object*> syncLock);
 
   // Ctor Parameters [CppParam { name: "", ty: "LazyInitializer", modifiers: "&&", def_value: None }]

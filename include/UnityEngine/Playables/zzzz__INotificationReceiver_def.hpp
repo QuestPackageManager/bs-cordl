@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::UnityEngine::Playables::INotificationReceiver);
 namespace UnityEngine::Playables {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10437))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9206))
 // CS Name: ::UnityEngine.Playables::INotificationReceiver*
 class CORDL_TYPE INotificationReceiver {
 public:

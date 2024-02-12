@@ -14,18 +14,18 @@ MARK_REF_PTR_T(::GlobalNamespace::LobbyDataModelInstaller);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11138))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5394))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10280))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4696))
 // CS Name: ::LobbyDataModelInstaller*
 class CORDL_TYPE LobbyDataModelInstaller : public ::Zenject::MonoInstaller {
 public:
   // Declarations
-  /// @brief Method InstallBindings, addr 0x2271b98, size 0x474, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x23cd264, size 0x37c, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::LobbyDataModelInstaller* New_ctor();
 
-  /// @brief Method .ctor, addr 0x227200c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23cd5e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LobbyDataModelInstaller", modifiers: "&&", def_value: None }]

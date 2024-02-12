@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::TMPro::TMP_InputValidator);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12393))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8954))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12291))
 // CS Name: ::TMPro::TMP_InputValidator*
 class CORDL_TYPE TMP_InputValidator : public ::UnityEngine::ScriptableObject {
 public:
@@ -28,7 +28,7 @@ public:
 
   static inline ::TMPro::TMP_InputValidator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c396c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c37234, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TMP_InputValidator", modifiers: "&&", def_value: None }]

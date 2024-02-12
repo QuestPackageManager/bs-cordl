@@ -19,20 +19,20 @@ MARK_REF_PTR_T(::Oculus::Platform::MessageWithUserCapabilityList);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13262)), TypeDefinitionIndex(TypeDefinitionIndex(13488)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst:
-// 4612 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(13329)) CS Name: ::Oculus.Platform::MessageWithUserCapabilityList*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13162)), TypeDefinitionIndex(TypeDefinitionIndex(13444)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13162), inst:
+// 4593 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(13245)) CS Name: ::Oculus.Platform::MessageWithUserCapabilityList*
 class CORDL_TYPE MessageWithUserCapabilityList : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::UserCapabilityList*> {
 public:
   // Declarations
   static inline ::Oculus::Platform::MessageWithUserCapabilityList* New_ctor(void* c_message);
 
-  /// @brief Method .ctor, addr 0x26efa80, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2719624, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(void* c_message);
 
-  /// @brief Method GetUserCapabilityList, addr 0x26f3f00, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetUserCapabilityList, addr 0x271e1fc, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::UserCapabilityList* GetUserCapabilityList();
 
-  /// @brief Method GetDataFromMessage, addr 0x26f3f3c, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x271e238, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::UserCapabilityList* GetDataFromMessage(void* c_message);
 
   // Ctor Parameters [CppParam { name: "", ty: "MessageWithUserCapabilityList", modifiers: "&&", def_value: None }]

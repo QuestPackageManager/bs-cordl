@@ -63,7 +63,7 @@ namespace GlobalNamespace {
 template <typename TKey, typename TValue>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12728))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12626))
 // CS Name: ::ExpiringDictionary`2::Entry<TKey,TValue>*
 class CORDL_TYPE __ExpiringDictionary_2__Entry : public ::System::Object {
 public:
@@ -143,7 +143,7 @@ namespace GlobalNamespace {
 template <typename TKey, typename TValue>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12729))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12627))
 // CS Name: ::ExpiringDictionary`2::<Enumerate>d__14<TKey,TValue>*
 class CORDL_TYPE __ExpiringDictionary_2___Enumerate_d__14 : public ::System::Object {
 public:
@@ -268,7 +268,7 @@ namespace GlobalNamespace {
 template <typename TKey, typename TValue>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12730))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12628))
 // CS Name: ::ExpiringDictionary`2<TKey,TValue>*
 class CORDL_TYPE ExpiringDictionary_2 : public ::System::Object {
 public:

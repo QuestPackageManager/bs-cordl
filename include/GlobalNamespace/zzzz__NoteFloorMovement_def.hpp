@@ -35,8 +35,8 @@ MARK_REF_PTR_T(::GlobalNamespace::NoteFloorMovement);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 132, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4777))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(8996))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4128))
 // CS Name: ::NoteFloorMovement*
 class CORDL_TYPE NoteFloorMovement : public ::UnityEngine::MonoBehaviour {
 public:
@@ -156,48 +156,48 @@ public:
 
   constexpr void __cordl_internal_set__localPosition(::UnityEngine::Vector3 value);
 
-  /// @brief Method add_floorMovementDidFinishEvent, addr 0x23887c0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_floorMovementDidFinishEvent, addr 0x22d0300, size 0x9c, virtual false, abstract: false, final false
   inline void add_floorMovementDidFinishEvent(::System::Action* value);
 
-  /// @brief Method remove_floorMovementDidFinishEvent, addr 0x238885c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_floorMovementDidFinishEvent, addr 0x22d039c, size 0x9c, virtual false, abstract: false, final false
   inline void remove_floorMovementDidFinishEvent(::System::Action* value);
 
-  /// @brief Method get_distanceToPlayer, addr 0x23888f8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_distanceToPlayer, addr 0x22d0438, size 0x40, virtual false, abstract: false, final false
   inline float_t get_distanceToPlayer();
 
-  /// @brief Method get_startPos, addr 0x2388938, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_startPos, addr 0x22d0478, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_startPos();
 
-  /// @brief Method get_endPos, addr 0x2388944, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_endPos, addr 0x22d0484, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_endPos();
 
-  /// @brief Method get_startTime, addr 0x2388950, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_startTime, addr 0x22d0490, size 0x8, virtual false, abstract: false, final false
   inline float_t get_startTime();
 
-  /// @brief Method get_moveDuration, addr 0x2388958, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_moveDuration, addr 0x22d0498, size 0x8, virtual false, abstract: false, final false
   inline float_t get_moveDuration();
 
-  /// @brief Method get_worldRotation, addr 0x2388960, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_worldRotation, addr 0x22d04a0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_worldRotation();
 
-  /// @brief Method get_inverseWorldRotation, addr 0x238896c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_inverseWorldRotation, addr 0x22d04ac, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_inverseWorldRotation();
 
-  /// @brief Method get_localPosition, addr 0x2388978, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_localPosition, addr 0x22d04b8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_localPosition();
 
-  /// @brief Method Init, addr 0x2388984, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x22d04c4, size 0xb8, virtual false, abstract: false, final false
   inline void Init(float_t worldRotation, ::UnityEngine::Vector3 startPos, ::UnityEngine::Vector3 endPos, float_t moveDuration, float_t startTime);
 
-  /// @brief Method SetToStart, addr 0x2388a3c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method SetToStart, addr 0x22d057c, size 0xf4, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 SetToStart();
 
-  /// @brief Method ManualUpdate, addr 0x2388b30, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x22d0670, size 0x180, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 ManualUpdate();
 
   static inline ::GlobalNamespace::NoteFloorMovement* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2388cb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22d07f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NoteFloorMovement", modifiers: "&&", def_value: None }]

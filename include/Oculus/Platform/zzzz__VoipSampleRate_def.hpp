@@ -16,7 +16,7 @@ MARK_VAL_T(::Oculus::Platform::VoipSampleRate);
 namespace Oculus::Platform {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13403))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13335))
 // CS Name: ::Oculus.Platform::VoipSampleRate
 struct CORDL_TYPE VoipSampleRate {
 public:

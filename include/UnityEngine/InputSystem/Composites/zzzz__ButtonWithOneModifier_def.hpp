@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Composites::ButtonWithOneModifier);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Composites {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6190)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6190), inst: 391 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6715))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5449)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5449), inst: 391 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5974))
 // CS Name: ::UnityEngine.InputSystem.Composites::ButtonWithOneModifier*
 class CORDL_TYPE ButtonWithOneModifier : public ::UnityEngine::InputSystem::InputBindingComposite_1<float_t> {
 public:
@@ -53,21 +53,21 @@ public:
 
   constexpr void __cordl_internal_set_overrideModifiersNeedToBePressedFirst(bool value);
 
-  /// @brief Method ReadValue, addr 0x2a5ac90, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method ReadValue, addr 0x2a5d7fc, size 0x70, virtual true, abstract: false, final false
   inline float_t ReadValue(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
-  /// @brief Method ModifierIsPressed, addr 0x2a5ad00, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ModifierIsPressed, addr 0x2a5d86c, size 0x80, virtual false, abstract: false, final false
   inline bool ModifierIsPressed(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
-  /// @brief Method EvaluateMagnitude, addr 0x2a5ad80, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EvaluateMagnitude, addr 0x2a5d8ec, size 0xc, virtual true, abstract: false, final false
   inline float_t EvaluateMagnitude(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
-  /// @brief Method FinishSetup, addr 0x2a5ad8c, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x2a5d8f8, size 0x90, virtual true, abstract: false, final false
   inline void FinishSetup(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
   static inline ::UnityEngine::InputSystem::Composites::ButtonWithOneModifier* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2a5ae1c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a5d988, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ButtonWithOneModifier", modifiers: "&&", def_value: None }]

@@ -47,8 +47,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::RenderChainCommand);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7399)), TypeDefinitionIndex(TypeDefinitionIndex(7441)), TypeDefinitionIndex(TypeDefinitionIndex(7442)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9966)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7399), inst: 383 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7444)) CS
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6658)), TypeDefinitionIndex(TypeDefinitionIndex(6700)), TypeDefinitionIndex(TypeDefinitionIndex(6701)),
+// TypeDefinitionIndex(TypeDefinitionIndex(8695)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6658), inst: 383 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6703)) CS
 // Name: ::UnityEngine.UIElements.UIR::RenderChainCommand*
 class CORDL_TYPE RenderChainCommand : public ::UnityEngine::UIElements::UIR::LinkedPoolItem_1<::UnityEngine::UIElements::UIR::RenderChainCommand*> {
 public:
@@ -157,24 +157,24 @@ public:
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_ImmediateOverheadMarker();
 
-  /// @brief Method Reset, addr 0x2dd54f8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x2df38e0, size 0x24, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method ExecuteNonDrawMesh, addr 0x2dd3c84, size 0xbbc, virtual false, abstract: false, final false
+  /// @brief Method ExecuteNonDrawMesh, addr 0x2df206c, size 0xbbc, virtual false, abstract: false, final false
   inline void ExecuteNonDrawMesh(::UnityEngine::UIElements::UIR::DrawParams* drawParams, float_t pixelsPerPoint, ByRef<::System::Exception*> immediateException);
 
-  /// @brief Method Blit, addr 0x2dd5ad8, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Blit, addr 0x2df3ec0, size 0x170, virtual false, abstract: false, final false
   inline void Blit(::UnityEngine::Texture* source, ::UnityEngine::RenderTexture* destination, float_t depth);
 
-  /// @brief Method CombineScissorRects, addr 0x2dd5920, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method CombineScissorRects, addr 0x2df3d08, size 0x1b8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rect CombineScissorRects(::UnityEngine::Rect r0, ::UnityEngine::Rect r1);
 
-  /// @brief Method RectPointsToPixelsAndFlipYAxis, addr 0x2dd551c, size 0x404, virtual false, abstract: false, final false
+  /// @brief Method RectPointsToPixelsAndFlipYAxis, addr 0x2df3904, size 0x404, virtual false, abstract: false, final false
   static inline ::UnityEngine::RectInt RectPointsToPixelsAndFlipYAxis(::UnityEngine::Rect rect, float_t pixelsPerPoint);
 
   static inline ::UnityEngine::UIElements::UIR::RenderChainCommand* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2dd5c48, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2df4030, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RenderChainCommand", modifiers: "&&", def_value: None }]

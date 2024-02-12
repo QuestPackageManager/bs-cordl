@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::HMUI::IconSegmentedControlCell);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13551))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13548))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13504))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13501))
 // CS Name: ::HMUI::IconSegmentedControlCell*
 class CORDL_TYPE IconSegmentedControlCell : public ::HMUI::SegmentedControlCell {
 public:
@@ -69,24 +69,24 @@ public:
 
   constexpr void __cordl_internal_set__backgroundGameObject(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method set_sprite, addr 0x211f724, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_sprite, addr 0x21b4000, size 0x1c, virtual false, abstract: false, final false
   inline void set_sprite(::UnityEngine::Sprite* value);
 
-  /// @brief Method get_sprite, addr 0x211f99c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_sprite, addr 0x21b4278, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_sprite();
 
-  /// @brief Method set_hintText, addr 0x211f740, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_hintText, addr 0x21b401c, size 0x1c, virtual false, abstract: false, final false
   inline void set_hintText(::StringW value);
 
-  /// @brief Method set_iconSize, addr 0x211f7f8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_iconSize, addr 0x21b40d4, size 0x3c, virtual false, abstract: false, final false
   inline void set_iconSize(float_t value);
 
-  /// @brief Method set_hideBackgroundImage, addr 0x211f75c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method set_hideBackgroundImage, addr 0x21b4038, size 0x9c, virtual false, abstract: false, final false
   inline void set_hideBackgroundImage(bool value);
 
   static inline ::HMUI::IconSegmentedControlCell* New_ctor();
 
-  /// @brief Method .ctor, addr 0x211f9b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21b4294, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "IconSegmentedControlCell", modifiers: "&&", def_value: None }]

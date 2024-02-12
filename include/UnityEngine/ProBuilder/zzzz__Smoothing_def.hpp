@@ -49,7 +49,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::__Smoothing____c);
 namespace UnityEngine::ProBuilder {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12203))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12101))
 // CS Name: ::Smoothing::<>c*
 class CORDL_TYPE __Smoothing____c : public ::System::Object {
 public:
@@ -77,13 +77,13 @@ public:
 
   static inline ::UnityEngine::ProBuilder::__Smoothing____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2b79754, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b782c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <GetUnusedSmoothingGroup>b__5_0, addr 0x2b7975c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <GetUnusedSmoothingGroup>b__5_0, addr 0x2b782c8, size 0x18, virtual false, abstract: false, final false
   inline int32_t _GetUnusedSmoothingGroup_b__5_0(::UnityEngine::ProBuilder::Face* x);
 
-  /// @brief Method <ApplySmoothingGroups>b__9_0, addr 0x2b79774, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <ApplySmoothingGroups>b__9_0, addr 0x2b782e0, size 0x18, virtual false, abstract: false, final false
   inline int32_t _ApplySmoothingGroups_b__9_0(::UnityEngine::ProBuilder::Face* x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__Smoothing____c", modifiers: "&&", def_value: None }]
@@ -111,35 +111,35 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::__Smoot
 namespace UnityEngine::ProBuilder {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12204))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12102))
 // CS Name: ::UnityEngine.ProBuilder::Smoothing*
 class CORDL_TYPE Smoothing : public ::System::Object {
 public:
   // Declarations
   using __c = ::UnityEngine::ProBuilder::__Smoothing____c;
 
-  /// @brief Method GetUnusedSmoothingGroup, addr 0x2b78534, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method GetUnusedSmoothingGroup, addr 0x2b770a0, size 0x1dc, virtual false, abstract: false, final false
   static inline int32_t GetUnusedSmoothingGroup(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
 
-  /// @brief Method GetNextUnusedSmoothingGroup, addr 0x2b78710, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetNextUnusedSmoothingGroup, addr 0x2b7727c, size 0xa8, virtual false, abstract: false, final false
   static inline int32_t GetNextUnusedSmoothingGroup(int32_t start, ::System::Collections::Generic::HashSet_1<int32_t>* used);
 
-  /// @brief Method IsSmooth, addr 0x2b787b8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsSmooth, addr 0x2b77324, size 0x20, virtual false, abstract: false, final false
   static inline bool IsSmooth(int32_t index);
 
-  /// @brief Method ApplySmoothingGroups, addr 0x2b787d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ApplySmoothingGroups, addr 0x2b77344, size 0x8, virtual false, abstract: false, final false
   static inline void ApplySmoothingGroups(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces,
                                           float_t angleThreshold);
 
-  /// @brief Method ApplySmoothingGroups, addr 0x2b787e0, size 0x81c, virtual false, abstract: false, final false
+  /// @brief Method ApplySmoothingGroups, addr 0x2b7734c, size 0x81c, virtual false, abstract: false, final false
   static inline void ApplySmoothingGroups(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces,
                                           float_t angleThreshold, ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> normals);
 
-  /// @brief Method FindSoftEdgesRecursive, addr 0x2b78ffc, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method FindSoftEdgesRecursive, addr 0x2b77b68, size 0x2d0, virtual false, abstract: false, final false
   static inline bool FindSoftEdgesRecursive(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> normals, ::UnityEngine::ProBuilder::WingedEdge* wing, float_t angleThreshold,
                                             ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* processed);
 
-  /// @brief Method IsSoftEdge, addr 0x2b792cc, size 0x424, virtual false, abstract: false, final false
+  /// @brief Method IsSoftEdge, addr 0x2b77e38, size 0x424, virtual false, abstract: false, final false
   static inline bool IsSoftEdge(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> normals, ::UnityEngine::ProBuilder::EdgeLookup left, ::UnityEngine::ProBuilder::EdgeLookup right,
                                 float_t threshold);
 

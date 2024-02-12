@@ -6,7 +6,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IServerBeatmapProvider)
 namespace GlobalNamespace {
-class BeatmapIdentifierNetSerializable;
+class BeatmapKeyNetSerializable;
 }
 namespace GlobalNamespace {
 struct BeatmapLevelSelectionMask;
@@ -28,17 +28,17 @@ MARK_REF_PTR_T(::GlobalNamespace::IServerBeatmapProvider);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12813))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12711))
 // CS Name: ::IServerBeatmapProvider*
 class CORDL_TYPE IServerBeatmapProvider {
 public:
   // Declarations
   /// @brief Method VerifyBeatmapForSelectionMask, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool VerifyBeatmapForSelectionMask(::GlobalNamespace::BeatmapIdentifierNetSerializable* beatmapId, ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask);
+  inline bool VerifyBeatmapForSelectionMask(::GlobalNamespace::BeatmapKeyNetSerializable* beatmapKeySerializable, ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask);
 
   /// @brief Method SelectBeatmapFromSuggestionsWithSelectionMaskAndOwnedSongPacks, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::GlobalNamespace::BeatmapIdentifierNetSerializable* SelectBeatmapFromSuggestionsWithSelectionMaskAndOwnedSongPacks(
-      int32_t playerCount, ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::BeatmapIdentifierNetSerializable*>* beatmapsSuggestedByPlayers,
+  inline ::GlobalNamespace::BeatmapKeyNetSerializable* SelectBeatmapFromSuggestionsWithSelectionMaskAndOwnedSongPacks(
+      int32_t playerCount, ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::BeatmapKeyNetSerializable*>* beatmapsSuggestedByPlayers,
       ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::SongPackMask>* playerOwnedSongPacks);
 
   // Ctor Parameters [CppParam { name: "", ty: "IServerBeatmapProvider", modifiers: "&&", def_value: None }]

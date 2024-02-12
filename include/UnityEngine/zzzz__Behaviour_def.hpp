@@ -14,8 +14,8 @@ MARK_REF_PTR_T(::UnityEngine::Behaviour);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10238))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10187))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8982))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8931))
 // CS Name: ::UnityEngine::Behaviour*
 class CORDL_TYPE Behaviour : public ::UnityEngine::Component {
 public:
@@ -24,18 +24,18 @@ public:
 
   __declspec(property(get = get_isActiveAndEnabled)) bool isActiveAndEnabled;
 
-  /// @brief Method get_enabled, addr 0x2ccd1b4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_enabled, addr 0x2cd4240, size 0x3c, virtual false, abstract: false, final false
   inline bool get_enabled();
 
-  /// @brief Method set_enabled, addr 0x2ccd1f0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_enabled, addr 0x2cd427c, size 0x44, virtual false, abstract: false, final false
   inline void set_enabled(bool value);
 
-  /// @brief Method get_isActiveAndEnabled, addr 0x2ccd234, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isActiveAndEnabled, addr 0x2cd42c0, size 0x3c, virtual false, abstract: false, final false
   inline bool get_isActiveAndEnabled();
 
   static inline ::UnityEngine::Behaviour* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2cc69b8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ccaba4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Behaviour", modifiers: "&&", def_value: None }]

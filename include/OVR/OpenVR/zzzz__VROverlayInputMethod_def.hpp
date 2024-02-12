@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::VROverlayInputMethod);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8624))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8568))
 // CS Name: ::OVR.OpenVR::VROverlayInputMethod
 struct CORDL_TYPE VROverlayInputMethod {
 public:

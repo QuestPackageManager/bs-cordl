@@ -77,25 +77,25 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Parameters::AeadParameters* New_ctor(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* key, int32_t macSize,
                                                                                   ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce);
 
-  /// @brief Method .ctor, addr 0xf2f5bc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf5a44c, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* key, int32_t macSize, ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::AeadParameters* New_ctor(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* key, int32_t macSize,
                                                                                   ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce, ::ArrayW<uint8_t, ::Array<uint8_t>*> associatedText);
 
-  /// @brief Method .ctor, addr 0xf2f5fc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf5a48c, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* key, int32_t macSize, ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce, ::ArrayW<uint8_t, ::Array<uint8_t>*> associatedText);
 
-  /// @brief Method get_Key, addr 0xf2f640, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Key, addr 0xf5a4d0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* get_Key();
 
-  /// @brief Method get_MacSize, addr 0xf2f648, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_MacSize, addr 0xf5a4d8, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_MacSize();
 
-  /// @brief Method GetAssociatedText, addr 0xf2f650, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetAssociatedText, addr 0xf5a4e0, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetAssociatedText();
 
-  /// @brief Method GetNonce, addr 0xf2f658, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetNonce, addr 0xf5a4e8, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetNonce();
 
   // Ctor Parameters [CppParam { name: "", ty: "AeadParameters", modifiers: "&&", def_value: None }]

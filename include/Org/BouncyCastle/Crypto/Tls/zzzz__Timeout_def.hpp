@@ -41,30 +41,30 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::Timeout* New_ctor(int64_t durationMillis);
 
-  /// @brief Method .ctor, addr 0xf9887c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfc470c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(int64_t durationMillis);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::Timeout* New_ctor(int64_t durationMillis, int64_t currentTimeMillis);
 
-  /// @brief Method .ctor, addr 0xf988ec, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfc477c, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(int64_t durationMillis, int64_t currentTimeMillis);
 
-  /// @brief Method RemainingMillis, addr 0xf98980, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method RemainingMillis, addr 0xfc4810, size 0x64, virtual false, abstract: false, final false
   inline int64_t RemainingMillis(int64_t currentTimeMillis);
 
-  /// @brief Method ConstrainWaitMillis, addr 0xf989e4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method ConstrainWaitMillis, addr 0xfc4874, size 0xc8, virtual false, abstract: false, final false
   static inline int32_t ConstrainWaitMillis(int32_t waitMillis, ::Org::BouncyCastle::Crypto::Tls::Timeout* timeout, int64_t currentTimeMillis);
 
-  /// @brief Method ForWaitMillis, addr 0xf98ae0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ForWaitMillis, addr 0xfc4970, size 0x60, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Tls::Timeout* ForWaitMillis(int32_t waitMillis);
 
-  /// @brief Method ForWaitMillis, addr 0xf98b40, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method ForWaitMillis, addr 0xfc49d0, size 0xd8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Tls::Timeout* ForWaitMillis(int32_t waitMillis, int64_t currentTimeMillis);
 
-  /// @brief Method GetWaitMillis, addr 0xf98aac, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetWaitMillis, addr 0xfc493c, size 0x34, virtual false, abstract: false, final false
   static inline int32_t GetWaitMillis(::Org::BouncyCastle::Crypto::Tls::Timeout* timeout, int64_t currentTimeMillis);
 
-  /// @brief Method HasExpired, addr 0xf98c18, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HasExpired, addr 0xfc4aa8, size 0x1c, virtual false, abstract: false, final false
   static inline bool HasExpired(::Org::BouncyCastle::Crypto::Tls::Timeout* timeout, int64_t currentTimeMillis);
 
   // Ctor Parameters [CppParam { name: "", ty: "Timeout", modifiers: "&&", def_value: None }]

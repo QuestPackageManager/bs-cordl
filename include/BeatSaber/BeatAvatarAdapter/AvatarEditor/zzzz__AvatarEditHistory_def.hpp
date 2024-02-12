@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarEditHistory);
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15261))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15375))
 // CS Name: ::BeatSaber.BeatAvatarAdapter.AvatarEditor::AvatarEditHistory*
 class CORDL_TYPE AvatarEditHistory : public ::System::Object {
 public:
@@ -70,33 +70,33 @@ public:
 
   constexpr void __cordl_internal_set__currentDataId(int32_t value);
 
-  /// @brief Method get_undoAvailable, addr 0xe14bb0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_undoAvailable, addr 0xe20798, size 0x10, virtual false, abstract: false, final false
   inline bool get_undoAvailable();
 
-  /// @brief Method get_redoAvailable, addr 0xe14bc0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_redoAvailable, addr 0xe207a8, size 0x58, virtual false, abstract: false, final false
   inline bool get_redoAvailable();
 
-  /// @brief Method get_currentSnapShot, addr 0xe14c18, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_currentSnapShot, addr 0xe20800, size 0x54, virtual false, abstract: false, final false
   inline ::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarHistorySnapshot get_currentSnapShot();
 
-  /// @brief Method get_lastEditedPart, addr 0xe14c6c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_lastEditedPart, addr 0xe20854, size 0x10, virtual false, abstract: false, final false
   inline ::BeatSaber::BeatAvatarSDK::AvatarPart get_lastEditedPart();
 
-  /// @brief Method Clear, addr 0xe14c7c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0xe20864, size 0x6c, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Undo, addr 0xe14ce8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Undo, addr 0xe208d0, size 0x1c, virtual false, abstract: false, final false
   inline void Undo();
 
-  /// @brief Method Redo, addr 0xe14d04, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Redo, addr 0xe208ec, size 0x68, virtual false, abstract: false, final false
   inline void Redo();
 
-  /// @brief Method UpdateEditHistory, addr 0xe14d6c, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method UpdateEditHistory, addr 0xe20954, size 0x184, virtual false, abstract: false, final false
   inline void UpdateEditHistory(::BeatSaber::BeatAvatarSDK::AvatarData* avatarData, ::BeatSaber::BeatAvatarSDK::AvatarPart avatarEditPart);
 
   static inline ::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarEditHistory* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe14efc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe20ae4, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AvatarEditHistory", modifiers: "&&", def_value: None }]

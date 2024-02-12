@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::GlobalNamespace::AvatarSyncMessageCounter);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2484)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14934))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14807))
 // CS Name: ::AvatarSyncMessageCounter*
 class CORDL_TYPE AvatarSyncMessageCounter : public ::System::Object {
 public:
@@ -51,16 +51,16 @@ public:
 
   static inline ::GlobalNamespace::AvatarSyncMessageCounter* New_ctor(::System::TimeSpan period);
 
-  /// @brief Method .ctor, addr 0x2635468, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x265a58c, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::System::TimeSpan period);
 
-  /// @brief Method MessageReceived, addr 0x26354f8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method MessageReceived, addr 0x265a61c, size 0x8c, virtual false, abstract: false, final false
   inline void MessageReceived();
 
-  /// @brief Method CurrentMessages, addr 0x26356bc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method CurrentMessages, addr 0x265a7e0, size 0x50, virtual false, abstract: false, final false
   inline int32_t CurrentMessages();
 
-  /// @brief Method CleanOldMessages, addr 0x2635584, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method CleanOldMessages, addr 0x265a6a8, size 0x138, virtual false, abstract: false, final false
   inline void CleanOldMessages();
 
   // Ctor Parameters [CppParam { name: "", ty: "AvatarSyncMessageCounter", modifiers: "&&", def_value: None }]

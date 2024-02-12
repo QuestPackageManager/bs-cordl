@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::UnixNetworkInterface);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9252)), TypeDefinitionIndex(TypeDefinitionIndex(9258))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9292))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7262)), TypeDefinitionIndex(TypeDefinitionIndex(7268))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7302))
 // CS Name: ::System.Net.NetworkInformation::UnixNetworkInterface*
 class CORDL_TYPE UnixNetworkInterface : public ::System::Net::NetworkInformation::NetworkInterface {
 public:
@@ -87,19 +87,19 @@ public:
 
   static inline ::System::Net::NetworkInformation::UnixNetworkInterface* New_ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x29ed864, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29f2308, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method AddAddress, addr 0x29ed7a0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method AddAddress, addr 0x29f2244, size 0xa8, virtual false, abstract: false, final false
   inline void AddAddress(::System::Net::IPAddress* address);
 
-  /// @brief Method SetLinkLayerInfo, addr 0x29ed848, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetLinkLayerInfo, addr 0x29f22ec, size 0xc, virtual false, abstract: false, final false
   inline void SetLinkLayerInfo(int32_t index, ::ArrayW<uint8_t, ::Array<uint8_t>*> macAddress, ::System::Net::NetworkInformation::NetworkInterfaceType type);
 
-  /// @brief Method get_Name, addr 0x29f0bcc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x29f5670, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NetworkInterfaceType, addr 0x29f0bd4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NetworkInterfaceType, addr 0x29f5678, size 0x8, virtual true, abstract: false, final false
   inline ::System::Net::NetworkInformation::NetworkInterfaceType get_NetworkInterfaceType();
 
   // Ctor Parameters [CppParam { name: "", ty: "UnixNetworkInterface", modifiers: "&&", def_value: None }]

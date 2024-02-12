@@ -21,15 +21,15 @@ MARK_REF_PTR_T(::GlobalNamespace::AuthenticationTokenPlatformExtensions);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14933))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14806))
 // CS Name: ::AuthenticationTokenPlatformExtensions*
 class CORDL_TYPE AuthenticationTokenPlatformExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToAuthenticationTokenPlatform, addr 0x2635414, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ToAuthenticationTokenPlatform, addr 0x265a538, size 0x28, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__AuthenticationToken__Platform ToAuthenticationTokenPlatform(::GlobalNamespace::__UserInfo__Platform platform);
 
-  /// @brief Method ToUserInfoPlatform, addr 0x263543c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ToUserInfoPlatform, addr 0x265a560, size 0x2c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__UserInfo__Platform ToUserInfoPlatform(::GlobalNamespace::__AuthenticationToken__Platform platform);
 
   // Ctor Parameters [CppParam { name: "", ty: "AuthenticationTokenPlatformExtensions", modifiers: "&&", def_value: None }]

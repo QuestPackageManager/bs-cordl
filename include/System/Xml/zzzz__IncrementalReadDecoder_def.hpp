@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::System::Xml::IncrementalReadDecoder);
 namespace System::Xml {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11432))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11330))
 // CS Name: ::System.Xml::IncrementalReadDecoder*
 class CORDL_TYPE IncrementalReadDecoder : public ::System::Object {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::System::Xml::IncrementalReadDecoder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2853ab4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x285711c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "IncrementalReadDecoder", modifiers: "&&", def_value: None }]

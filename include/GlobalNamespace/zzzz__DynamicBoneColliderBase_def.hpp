@@ -38,7 +38,7 @@ MARK_REF_PTR_T(::GlobalNamespace::DynamicBoneColliderBase);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16047))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16165))
 // CS Name: ::DynamicBoneColliderBase::Direction
 struct CORDL_TYPE __DynamicBoneColliderBase__Direction {
 public:
@@ -92,7 +92,7 @@ static_assert(offsetof(::GlobalNamespace::__DynamicBoneColliderBase__Direction, 
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16048))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16166))
 // CS Name: ::DynamicBoneColliderBase::Bound
 struct CORDL_TYPE __DynamicBoneColliderBase__Bound {
 public:
@@ -141,8 +141,8 @@ static_assert(offsetof(::GlobalNamespace::__DynamicBoneColliderBase__Bound, valu
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(16047)),
-// TypeDefinitionIndex(TypeDefinitionIndex(16048))] Self: TypeDefinitionIndex(TypeDefinitionIndex(16049)) CS Name: ::DynamicBoneColliderBase*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(16165)),
+// TypeDefinitionIndex(TypeDefinitionIndex(16166))] Self: TypeDefinitionIndex(TypeDefinitionIndex(16167)) CS Name: ::DynamicBoneColliderBase*
 class CORDL_TYPE DynamicBoneColliderBase : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -177,12 +177,12 @@ public:
 
   constexpr void __cordl_internal_set_m_Bound(::GlobalNamespace::__DynamicBoneColliderBase__Bound value);
 
-  /// @brief Method Collide, addr 0x12308e4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Collide, addr 0x12cb994, size 0x4, virtual true, abstract: false, final false
   inline void Collide(ByRef<::UnityEngine::Vector3> particlePosition, float_t particleRadius);
 
   static inline ::GlobalNamespace::DynamicBoneColliderBase* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1230880, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12cb930, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DynamicBoneColliderBase", modifiers: "&&", def_value: None }]

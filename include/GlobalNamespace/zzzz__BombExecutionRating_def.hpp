@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::GlobalNamespace::BombExecutionRating);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4136))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10594))
 // CS Name: ::BombExecutionRating::Rating
 struct CORDL_TYPE __BombExecutionRating__Rating {
 public:
@@ -75,8 +75,8 @@ static_assert(offsetof(::GlobalNamespace::__BombExecutionRating__Rating, value__
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4135)), TypeDefinitionIndex(TypeDefinitionIndex(4136))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4137))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10593)), TypeDefinitionIndex(TypeDefinitionIndex(10594))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10595))
 // CS Name: ::BombExecutionRating*
 class CORDL_TYPE BombExecutionRating : public ::GlobalNamespace::BeatmapObjectExecutionRating {
 public:
@@ -94,12 +94,12 @@ public:
 
   constexpr void __cordl_internal_set__rating_k__BackingField(::GlobalNamespace::__BombExecutionRating__Rating value);
 
-  /// @brief Method get_rating, addr 0x223bfbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rating, addr 0x12651fc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__BombExecutionRating__Rating get_rating();
 
   static inline ::GlobalNamespace::BombExecutionRating* New_ctor(float_t time, ::GlobalNamespace::__BombExecutionRating__Rating rating);
 
-  /// @brief Method .ctor, addr 0x223bfc4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1265204, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(float_t time, ::GlobalNamespace::__BombExecutionRating__Rating rating);
 
   // Ctor Parameters [CppParam { name: "", ty: "BombExecutionRating", modifiers: "&&", def_value: None }]

@@ -103,31 +103,31 @@ public:
 
   static inline ::System::Runtime::Remoting::Metadata::SoapTypeAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24a5f30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24c7fa4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_UseAttribute, addr 0x24a5f38, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_UseAttribute, addr 0x24c7fac, size 0x8, virtual true, abstract: false, final false
   inline bool get_UseAttribute();
 
-  /// @brief Method get_XmlElementName, addr 0x24a5f40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlElementName, addr 0x24c7fb4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_XmlElementName();
 
-  /// @brief Method get_XmlNamespace, addr 0x24a5f48, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_XmlNamespace, addr 0x24c7fbc, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_XmlNamespace();
 
-  /// @brief Method get_XmlTypeName, addr 0x24a5f50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlTypeName, addr 0x24c7fc4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_XmlTypeName();
 
-  /// @brief Method get_XmlTypeNamespace, addr 0x24a5f58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlTypeNamespace, addr 0x24c7fcc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_XmlTypeNamespace();
 
-  /// @brief Method get_IsInteropXmlElement, addr 0x24a5f60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsInteropXmlElement, addr 0x24c7fd4, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsInteropXmlElement();
 
-  /// @brief Method get_IsInteropXmlType, addr 0x24a5f68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsInteropXmlType, addr 0x24c7fdc, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsInteropXmlType();
 
-  /// @brief Method SetReflectionObject, addr 0x24a5f70, size 0x1fc, virtual true, abstract: false, final false
+  /// @brief Method SetReflectionObject, addr 0x24c7fe4, size 0x1fc, virtual true, abstract: false, final false
   inline void SetReflectionObject(::System::Object* reflectionObject);
 
   // Ctor Parameters [CppParam { name: "", ty: "SoapTypeAttribute", modifiers: "&&", def_value: None }]

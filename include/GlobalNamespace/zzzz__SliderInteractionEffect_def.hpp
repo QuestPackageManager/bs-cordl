@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SliderInteractionEffect);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4819))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4170))
 // CS Name: ::SliderInteractionEffect*
 class CORDL_TYPE SliderInteractionEffect : public ::UnityEngine::MonoBehaviour {
 public:
@@ -41,16 +41,16 @@ public:
 
   constexpr void __cordl_internal_set__sliderInteractionManager(::UnityW<::GlobalNamespace::SliderInteractionManager> value);
 
-  /// @brief Method get_saberInteractionParam, addr 0x2392e50, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_saberInteractionParam, addr 0x2352a04, size 0x1c, virtual false, abstract: false, final false
   inline float_t get_saberInteractionParam();
 
-  /// @brief Method get_colorType, addr 0x2392d60, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_colorType, addr 0x2352914, size 0x1c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorType get_colorType();
 
-  /// @brief Method Start, addr 0x2392c74, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x2352828, size 0xec, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy, addr 0x2393bc0, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2353774, size 0xec, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   /// @brief Method StartEffect, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -59,15 +59,15 @@ public:
   /// @brief Method EndEffect, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void EndEffect();
 
-  /// @brief Method HandleSliderWasAddedToActiveSliders, addr 0x2393df8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method HandleSliderWasAddedToActiveSliders, addr 0x23539ac, size 0xc, virtual false, abstract: false, final false
   inline void HandleSliderWasAddedToActiveSliders(float_t saberInteractionParam);
 
-  /// @brief Method HandleAllSliderWereRemovedFromActiveSliders, addr 0x2393e04, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method HandleAllSliderWereRemovedFromActiveSliders, addr 0x23539b8, size 0xc, virtual false, abstract: false, final false
   inline void HandleAllSliderWereRemovedFromActiveSliders();
 
   static inline ::GlobalNamespace::SliderInteractionEffect* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2392f08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2352abc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SliderInteractionEffect", modifiers: "&&", def_value: None }]

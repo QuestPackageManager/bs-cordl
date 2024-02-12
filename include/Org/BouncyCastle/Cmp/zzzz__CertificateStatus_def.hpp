@@ -70,16 +70,16 @@ public:
   static inline ::Org::BouncyCastle::Cmp::CertificateStatus* New_ctor(::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder* digestAlgFinder,
                                                                       ::Org::BouncyCastle::Asn1::Cmp::CertStatus* certStatus);
 
-  /// @brief Method .ctor, addr 0x11d5510, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12033a0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder* digestAlgFinder, ::Org::BouncyCastle::Asn1::Cmp::CertStatus* certStatus);
 
-  /// @brief Method get_PkiStatusInfo, addr 0x11d5c9c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_PkiStatusInfo, addr 0x1203b2c, size 0x20, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* get_PkiStatusInfo();
 
-  /// @brief Method get_CertRequestId, addr 0x11d5cbc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_CertRequestId, addr 0x1203b4c, size 0x2c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_CertRequestId();
 
-  /// @brief Method IsVerified, addr 0x11d5ce8, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method IsVerified, addr 0x1203b78, size 0x1f0, virtual false, abstract: false, final false
   inline bool IsVerified(::Org::BouncyCastle::X509::X509Certificate* cert);
 
   // Ctor Parameters [CppParam { name: "", ty: "CertificateStatus", modifiers: "&&", def_value: None }]

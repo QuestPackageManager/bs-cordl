@@ -240,42 +240,42 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Macs::Poly1305* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf0fb24, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf3b9b4, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Macs::Poly1305* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher);
 
-  /// @brief Method .ctor, addr 0xf0fb98, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf3ba28, size 0x14c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher);
 
-  /// @brief Method Init, addr 0xf0fce4, size 0x19c, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0xf3bb74, size 0x19c, virtual true, abstract: false, final true
   inline void Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method SetKey, addr 0xf0fe80, size 0x344, virtual false, abstract: false, final false
+  /// @brief Method SetKey, addr 0xf3bd10, size 0x344, virtual false, abstract: false, final false
   inline void SetKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key, ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce);
 
-  /// @brief Method get_AlgorithmName, addr 0xf101d0, size 0xe8, virtual true, abstract: false, final true
+  /// @brief Method get_AlgorithmName, addr 0xf3c060, size 0xe8, virtual true, abstract: false, final true
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method GetMacSize, addr 0xf102b8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetMacSize, addr 0xf3c148, size 0x8, virtual true, abstract: false, final true
   inline int32_t GetMacSize();
 
-  /// @brief Method Update, addr 0xf102c0, size 0x34, virtual true, abstract: false, final true
+  /// @brief Method Update, addr 0xf3c150, size 0x34, virtual true, abstract: false, final true
   inline void Update(uint8_t input);
 
-  /// @brief Method BlockUpdate, addr 0xf102f4, size 0xe8, virtual true, abstract: false, final true
+  /// @brief Method BlockUpdate, addr 0xf3c184, size 0xe8, virtual true, abstract: false, final true
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t len);
 
-  /// @brief Method ProcessBlock, addr 0xf103dc, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method ProcessBlock, addr 0xf3c26c, size 0x21c, virtual false, abstract: false, final false
   inline void ProcessBlock();
 
-  /// @brief Method DoFinal, addr 0xf10600, size 0x1e0, virtual true, abstract: false, final true
+  /// @brief Method DoFinal, addr 0xf3c490, size 0x1e0, virtual true, abstract: false, final true
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset, addr 0xf101c4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0xf3c054, size 0xc, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method mul32x32_64, addr 0xf105f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method mul32x32_64, addr 0xf3c488, size 0x8, virtual false, abstract: false, final false
   static inline uint64_t mul32x32_64(uint32_t i1, uint32_t i2);
 
   // Ctor Parameters [CppParam { name: "", ty: "Poly1305", modifiers: "&&", def_value: None }]

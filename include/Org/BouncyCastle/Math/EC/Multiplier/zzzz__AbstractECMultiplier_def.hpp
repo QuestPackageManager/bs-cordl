@@ -35,18 +35,18 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier"
   constexpr ::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* i___Org__BouncyCastle__Math__EC__Multiplier__ECMultiplier() noexcept;
 
-  /// @brief Method Multiply, addr 0x1035ba8, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method Multiply, addr 0x1062a38, size 0xdc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Multiply(::Org::BouncyCastle::Math::EC::ECPoint* p, ::Org::BouncyCastle::Math::BigInteger* k);
 
   /// @brief Method MultiplyPositive, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* MultiplyPositive(::Org::BouncyCastle::Math::EC::ECPoint* p, ::Org::BouncyCastle::Math::BigInteger* k);
 
-  /// @brief Method CheckResult, addr 0x1035c84, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method CheckResult, addr 0x1062b14, size 0xc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* CheckResult(::Org::BouncyCastle::Math::EC::ECPoint* p);
 
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1035c90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1062b20, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AbstractECMultiplier", modifiers: "&&", def_value: None }]

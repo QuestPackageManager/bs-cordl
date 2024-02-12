@@ -18,12 +18,12 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Utilities::ExceptionHelpers);
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6666))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5925))
 // CS Name: ::UnityEngine.InputSystem.Utilities::ExceptionHelpers*
 class CORDL_TYPE ExceptionHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsExceptionIndicatingBugInCode, addr 0x2b0fa04, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method IsExceptionIndicatingBugInCode, addr 0x2b0f570, size 0xd8, virtual false, abstract: false, final false
   static inline bool IsExceptionIndicatingBugInCode(::System::Exception* exception);
 
   // Ctor Parameters [CppParam { name: "", ty: "ExceptionHelpers", modifiers: "&&", def_value: None }]

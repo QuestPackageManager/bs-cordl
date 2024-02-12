@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::NetworkInformation::OperationalStatus);
 namespace System::Net::NetworkInformation {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9254))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7264))
 // CS Name: ::System.Net.NetworkInformation::OperationalStatus
 struct CORDL_TYPE OperationalStatus {
 public:

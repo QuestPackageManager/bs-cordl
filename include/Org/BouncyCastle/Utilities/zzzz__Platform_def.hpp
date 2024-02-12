@@ -63,69 +63,69 @@ public:
 
   static inline ::StringW getStaticF_NewLine();
 
-  /// @brief Method GetNewLine, addr 0x116dc44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetNewLine, addr 0x119cad4, size 0x8, virtual false, abstract: false, final false
   static inline ::StringW GetNewLine();
 
-  /// @brief Method EqualsIgnoreCase, addr 0x116dc4c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method EqualsIgnoreCase, addr 0x119cadc, size 0x7c, virtual false, abstract: false, final false
   static inline bool EqualsIgnoreCase(::StringW a, ::StringW b);
 
-  /// @brief Method GetEnvironmentVariable, addr 0x116dd34, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetEnvironmentVariable, addr 0x119cbc4, size 0x88, virtual false, abstract: false, final false
   static inline ::StringW GetEnvironmentVariable(::StringW variable);
 
-  /// @brief Method CreateNotImplementedException, addr 0x116ddbc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method CreateNotImplementedException, addr 0x119cc4c, size 0x64, virtual false, abstract: false, final false
   static inline ::System::Exception* CreateNotImplementedException(::StringW message);
 
-  /// @brief Method CreateArrayList, addr 0x116de20, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CreateArrayList, addr 0x119ccb0, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Collections::IList* CreateArrayList();
 
-  /// @brief Method CreateArrayList, addr 0x116de7c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method CreateArrayList, addr 0x119cd0c, size 0x64, virtual false, abstract: false, final false
   static inline ::System::Collections::IList* CreateArrayList(int32_t capacity);
 
-  /// @brief Method CreateArrayList, addr 0x116dee0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method CreateArrayList, addr 0x119cd70, size 0x64, virtual false, abstract: false, final false
   static inline ::System::Collections::IList* CreateArrayList(::System::Collections::ICollection* collection);
 
-  /// @brief Method CreateArrayList, addr 0x116df44, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method CreateArrayList, addr 0x119cdd4, size 0x314, virtual false, abstract: false, final false
   static inline ::System::Collections::IList* CreateArrayList(::System::Collections::IEnumerable* collection);
 
-  /// @brief Method CreateHashtable, addr 0x116e258, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CreateHashtable, addr 0x119d0e8, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Collections::IDictionary* CreateHashtable();
 
-  /// @brief Method CreateHashtable, addr 0x116e2b4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method CreateHashtable, addr 0x119d144, size 0x64, virtual false, abstract: false, final false
   static inline ::System::Collections::IDictionary* CreateHashtable(int32_t capacity);
 
-  /// @brief Method CreateHashtable, addr 0x116e318, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method CreateHashtable, addr 0x119d1a8, size 0x64, virtual false, abstract: false, final false
   static inline ::System::Collections::IDictionary* CreateHashtable(::System::Collections::IDictionary* dictionary);
 
-  /// @brief Method ToLowerInvariant, addr 0x116e37c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method ToLowerInvariant, addr 0x119d20c, size 0x6c, virtual false, abstract: false, final false
   static inline ::StringW ToLowerInvariant(::StringW s);
 
-  /// @brief Method ToUpperInvariant, addr 0x116dcc8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method ToUpperInvariant, addr 0x119cb58, size 0x6c, virtual false, abstract: false, final false
   static inline ::StringW ToUpperInvariant(::StringW s);
 
-  /// @brief Method Dispose, addr 0x116a164, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x1198ff4, size 0x20, virtual false, abstract: false, final false
   static inline void Dispose(::System::IO::Stream* s);
 
-  /// @brief Method Dispose, addr 0x116e3e8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x119d278, size 0x1c, virtual false, abstract: false, final false
   static inline void Dispose(::System::IO::TextWriter* t);
 
-  /// @brief Method IndexOf, addr 0x116e404, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x119d294, size 0x84, virtual false, abstract: false, final false
   static inline int32_t IndexOf(::StringW source, ::StringW value);
 
-  /// @brief Method LastIndexOf, addr 0x116e488, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method LastIndexOf, addr 0x119d318, size 0x88, virtual false, abstract: false, final false
   static inline int32_t LastIndexOf(::StringW source, ::StringW value);
 
-  /// @brief Method StartsWith, addr 0x116e510, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method StartsWith, addr 0x119d3a0, size 0x84, virtual false, abstract: false, final false
   static inline bool StartsWith(::StringW source, ::StringW prefix);
 
-  /// @brief Method EndsWith, addr 0x116e594, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method EndsWith, addr 0x119d424, size 0x84, virtual false, abstract: false, final false
   static inline bool EndsWith(::StringW source, ::StringW suffix);
 
-  /// @brief Method GetTypeName, addr 0x116e618, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetTypeName, addr 0x119d4a8, size 0x2c, virtual false, abstract: false, final false
   static inline ::StringW GetTypeName(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Utilities::Platform* New_ctor();
 
-  /// @brief Method .ctor, addr 0x116e6e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x119d570, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Platform", modifiers: "&&", def_value: None }]

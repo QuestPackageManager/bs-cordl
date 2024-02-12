@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::System::Resources::ResourceSet);
 namespace System::Resources {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3442))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3438))
 // CS Name: ::System.Resources::ResourceSet*
 class CORDL_TYPE ResourceSet : public ::System::Object {
 public:
@@ -83,48 +83,48 @@ public:
 
   static inline ::System::Resources::ResourceSet* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24e558c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2504628, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Resources::ResourceSet* New_ctor(bool junk);
 
-  /// @brief Method .ctor, addr 0x24df0a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25046a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(bool junk);
 
-  /// @brief Method CommonInit, addr 0x24e55a8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method CommonInit, addr 0x2504644, size 0x60, virtual false, abstract: false, final false
   inline void CommonInit();
 
-  /// @brief Method Dispose, addr 0x24df410, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x25046ac, size 0xb4, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Dispose, addr 0x24e5608, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2504760, size 0x10, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetEnumerator, addr 0x24e5618, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x2504770, size 0x4, virtual true, abstract: false, final false
   inline ::System::Collections::IDictionaryEnumerator* GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x24e56a0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x25047f8, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method GetEnumeratorHelper, addr 0x24e561c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetEnumeratorHelper, addr 0x2504774, size 0x84, virtual false, abstract: false, final false
   inline ::System::Collections::IDictionaryEnumerator* GetEnumeratorHelper();
 
-  /// @brief Method GetString, addr 0x24e56a4, size 0x168, virtual true, abstract: false, final false
+  /// @brief Method GetString, addr 0x25047fc, size 0x168, virtual true, abstract: false, final false
   inline ::StringW GetString(::StringW name);
 
-  /// @brief Method GetString, addr 0x24e58e0, size 0x204, virtual true, abstract: false, final false
+  /// @brief Method GetString, addr 0x2504a38, size 0x204, virtual true, abstract: false, final false
   inline ::StringW GetString(::StringW name, bool ignoreCase);
 
-  /// @brief Method GetObject, addr 0x24e5db4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method GetObject, addr 0x2504f0c, size 0x4, virtual true, abstract: false, final false
   inline ::System::Object* GetObject(::StringW name);
 
-  /// @brief Method GetObject, addr 0x24e5db8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method GetObject, addr 0x2504f10, size 0x40, virtual true, abstract: false, final false
   inline ::System::Object* GetObject(::StringW name, bool ignoreCase);
 
-  /// @brief Method GetObjectInternal, addr 0x24e580c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method GetObjectInternal, addr 0x2504964, size 0xd4, virtual false, abstract: false, final false
   inline ::System::Object* GetObjectInternal(::StringW name);
 
-  /// @brief Method GetCaseInsensitiveObjectInternal, addr 0x24e5ae4, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method GetCaseInsensitiveObjectInternal, addr 0x2504c3c, size 0x2d0, virtual false, abstract: false, final false
   inline ::System::Object* GetCaseInsensitiveObjectInternal(::StringW name);
 
   // Ctor Parameters [CppParam { name: "", ty: "ResourceSet", modifiers: "&&", def_value: None }]

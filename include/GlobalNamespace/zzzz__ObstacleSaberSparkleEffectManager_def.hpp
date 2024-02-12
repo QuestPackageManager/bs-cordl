@@ -55,8 +55,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ObstacleSaberSparkleEffectManager);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4896))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4250))
 // CS Name: ::ObstacleSaberSparkleEffectManager*
 class CORDL_TYPE ObstacleSaberSparkleEffectManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -194,40 +194,40 @@ public:
 
   constexpr void __cordl_internal_set__burnMarkPositions(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
-  /// @brief Method add_sparkleEffectDidStartEvent, addr 0x23a3d08, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_sparkleEffectDidStartEvent, addr 0x2363e40, size 0xb0, virtual false, abstract: false, final false
   inline void add_sparkleEffectDidStartEvent(::System::Action_1<::GlobalNamespace::SaberType>* value);
 
-  /// @brief Method remove_sparkleEffectDidStartEvent, addr 0x23a3db8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_sparkleEffectDidStartEvent, addr 0x2363ef0, size 0xb0, virtual false, abstract: false, final false
   inline void remove_sparkleEffectDidStartEvent(::System::Action_1<::GlobalNamespace::SaberType>* value);
 
-  /// @brief Method add_sparkleEffectDidEndEvent, addr 0x23a3e68, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_sparkleEffectDidEndEvent, addr 0x2363fa0, size 0xb0, virtual false, abstract: false, final false
   inline void add_sparkleEffectDidEndEvent(::System::Action_1<::GlobalNamespace::SaberType>* value);
 
-  /// @brief Method remove_sparkleEffectDidEndEvent, addr 0x23a3f18, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_sparkleEffectDidEndEvent, addr 0x2364050, size 0xb0, virtual false, abstract: false, final false
   inline void remove_sparkleEffectDidEndEvent(::System::Action_1<::GlobalNamespace::SaberType>* value);
 
-  /// @brief Method Start, addr 0x23a3fc8, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2364100, size 0x2ac, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDisable, addr 0x23a4370, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x23644a8, size 0xa4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method Update, addr 0x23a4414, size 0x60c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x236454c, size 0x60c, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method GetEffectRotation, addr 0x23a4ca8, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method GetEffectRotation, addr 0x2364de0, size 0x124, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion GetEffectRotation(::UnityEngine::Vector3 pos, ::UnityEngine::Transform* transform, ::UnityEngine::Bounds bounds);
 
-  /// @brief Method BurnMarkPosForSaberType, addr 0x23a4f00, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method BurnMarkPosForSaberType, addr 0x2365038, size 0x8c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 BurnMarkPosForSaberType(::GlobalNamespace::SaberType saberType);
 
-  /// @brief Method GetBurnMarkPos, addr 0x23a4a20, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method GetBurnMarkPos, addr 0x2364b58, size 0x288, virtual false, abstract: false, final false
   inline bool GetBurnMarkPos(::UnityEngine::Bounds bounds, ::UnityEngine::Transform* transform, ::UnityEngine::Vector3 bladeBottomPos, ::UnityEngine::Vector3 bladeTopPos,
                              ByRef<::UnityEngine::Vector3> burnMarkPos);
 
   static inline ::GlobalNamespace::ObstacleSaberSparkleEffectManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23a4f8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23650c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ObstacleSaberSparkleEffectManager", modifiers: "&&", def_value: None }]

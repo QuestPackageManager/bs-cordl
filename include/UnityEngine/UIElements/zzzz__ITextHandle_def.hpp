@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::ITextHandle);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7144))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6403))
 // CS Name: ::UnityEngine.UIElements::ITextHandle*
 class CORDL_TYPE ITextHandle {
 public:

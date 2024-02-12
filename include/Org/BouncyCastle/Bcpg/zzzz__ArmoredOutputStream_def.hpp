@@ -190,47 +190,47 @@ public:
 
   static inline ::StringW getStaticF_Version();
 
-  /// @brief Method Encode, addr 0x11ca700, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x11f8590, size 0x2f4, virtual false, abstract: false, final false
   static inline void Encode(::System::IO::Stream* outStream, ::ArrayW<int32_t, ::Array<int32_t>*> data, int32_t len);
 
   static inline ::Org::BouncyCastle::Bcpg::ArmoredOutputStream* New_ctor(::System::IO::Stream* outStream);
 
-  /// @brief Method .ctor, addr 0x11ca9f4, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11f8884, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* outStream);
 
   static inline ::Org::BouncyCastle::Bcpg::ArmoredOutputStream* New_ctor(::System::IO::Stream* outStream, ::System::Collections::IDictionary* headers);
 
-  /// @brief Method .ctor, addr 0x11cadd4, size 0x548, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11f8c64, size 0x548, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* outStream, ::System::Collections::IDictionary* headers);
 
-  /// @brief Method SetHeader, addr 0x11cab20, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method SetHeader, addr 0x11f89b0, size 0x2b4, virtual false, abstract: false, final false
   inline void SetHeader(::StringW name, ::StringW val);
 
-  /// @brief Method AddHeader, addr 0x11cb31c, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method AddHeader, addr 0x11f91ac, size 0x218, virtual false, abstract: false, final false
   inline void AddHeader(::StringW name, ::StringW val);
 
-  /// @brief Method ResetHeaders, addr 0x11cb534, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method ResetHeaders, addr 0x11f93c4, size 0x228, virtual false, abstract: false, final false
   inline void ResetHeaders();
 
-  /// @brief Method BeginClearText, addr 0x11cb75c, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method BeginClearText, addr 0x11f95ec, size 0x1dc, virtual false, abstract: false, final false
   inline void BeginClearText(::Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm);
 
-  /// @brief Method EndClearText, addr 0x11cb97c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method EndClearText, addr 0x11f980c, size 0x8, virtual false, abstract: false, final false
   inline void EndClearText();
 
-  /// @brief Method WriteByte, addr 0x11cb984, size 0xacc, virtual true, abstract: false, final false
+  /// @brief Method WriteByte, addr 0x11f9814, size 0xacc, virtual true, abstract: false, final false
   inline void WriteByte(uint8_t b);
 
-  /// @brief Method Close, addr 0x11cc4ec, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x11fa37c, size 0x38, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method DoClose, addr 0x11cc524, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method DoClose, addr 0x11fa3b4, size 0x1ac, virtual false, abstract: false, final false
   inline void DoClose();
 
-  /// @brief Method WriteHeaderEntry, addr 0x11cc450, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method WriteHeaderEntry, addr 0x11fa2e0, size 0x9c, virtual false, abstract: false, final false
   inline void WriteHeaderEntry(::StringW name, ::StringW v);
 
-  /// @brief Method DoWrite, addr 0x11cb938, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method DoWrite, addr 0x11f97c8, size 0x44, virtual false, abstract: false, final false
   inline void DoWrite(::StringW s);
 
   // Ctor Parameters [CppParam { name: "", ty: "ArmoredOutputStream", modifiers: "&&", def_value: None }]

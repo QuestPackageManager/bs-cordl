@@ -231,95 +231,95 @@ public:
   static inline ::Org::BouncyCastle::Cms::SignerInformation* New_ctor(::Org::BouncyCastle::Asn1::Cms::SignerInfo* info, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* contentType,
                                                                       ::Org::BouncyCastle::Cms::CmsProcessable* content, ::Org::BouncyCastle::Cms::IDigestCalculator* digestCalculator);
 
-  /// @brief Method .ctor, addr 0x11e5fb0, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1212e40, size 0x274, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::SignerInfo* info, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* contentType, ::Org::BouncyCastle::Cms::CmsProcessable* content,
                     ::Org::BouncyCastle::Cms::IDigestCalculator* digestCalculator);
 
   static inline ::Org::BouncyCastle::Cms::SignerInformation* New_ctor(::Org::BouncyCastle::Cms::SignerInformation* baseInfo);
 
-  /// @brief Method .ctor, addr 0x1208fe4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1235e74, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Cms::SignerInformation* baseInfo);
 
-  /// @brief Method get_IsCounterSignature, addr 0x1209080, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsCounterSignature, addr 0x1235f10, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsCounterSignature();
 
-  /// @brief Method get_ContentType, addr 0x1209088, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContentType, addr 0x1235f18, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_ContentType();
 
-  /// @brief Method get_SignerID, addr 0x1209090, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SignerID, addr 0x1235f20, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::SignerID* get_SignerID();
 
-  /// @brief Method get_Version, addr 0x1209098, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x1235f28, size 0x24, virtual false, abstract: false, final false
   inline int32_t get_Version();
 
-  /// @brief Method get_DigestAlgorithmID, addr 0x12090bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DigestAlgorithmID, addr 0x1235f4c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_DigestAlgorithmID();
 
-  /// @brief Method get_DigestAlgOid, addr 0x12090c4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_DigestAlgOid, addr 0x1235f54, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_DigestAlgOid();
 
-  /// @brief Method get_DigestAlgParams, addr 0x12090f0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_DigestAlgParams, addr 0x1235f80, size 0x38, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* get_DigestAlgParams();
 
-  /// @brief Method GetContentDigest, addr 0x1209128, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetContentDigest, addr 0x1235fb8, size 0xc0, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetContentDigest();
 
-  /// @brief Method get_EncryptionAlgorithmID, addr 0x12091e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EncryptionAlgorithmID, addr 0x1236078, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_EncryptionAlgorithmID();
 
-  /// @brief Method get_EncryptionAlgOid, addr 0x12091f0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_EncryptionAlgOid, addr 0x1236080, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_EncryptionAlgOid();
 
-  /// @brief Method get_EncryptionAlgParams, addr 0x120921c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_EncryptionAlgParams, addr 0x12360ac, size 0x38, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* get_EncryptionAlgParams();
 
-  /// @brief Method get_SignedAttributes, addr 0x1209254, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_SignedAttributes, addr 0x12360e4, size 0x78, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* get_SignedAttributes();
 
-  /// @brief Method get_UnsignedAttributes, addr 0x12092cc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_UnsignedAttributes, addr 0x123615c, size 0x78, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* get_UnsignedAttributes();
 
-  /// @brief Method GetSignature, addr 0x11ed020, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetSignature, addr 0x1219eb0, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSignature();
 
-  /// @brief Method GetCounterSignatures, addr 0x1209344, size 0x88c, virtual false, abstract: false, final false
+  /// @brief Method GetCounterSignatures, addr 0x12361d4, size 0x88c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::SignerInformationStore* GetCounterSignatures();
 
-  /// @brief Method GetEncodedSignedAttributes, addr 0x1209bd0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetEncodedSignedAttributes, addr 0x1236a60, size 0x5c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncodedSignedAttributes();
 
-  /// @brief Method DoVerify, addr 0x1209c2c, size 0x12f4, virtual false, abstract: false, final false
+  /// @brief Method DoVerify, addr 0x1236abc, size 0x12f4, virtual false, abstract: false, final false
   inline bool DoVerify(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key);
 
-  /// @brief Method IsNull, addr 0x120b7c4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method IsNull, addr 0x1238654, size 0x84, virtual false, abstract: false, final false
   inline bool IsNull(::Org::BouncyCastle::Asn1::Asn1Encodable* o);
 
-  /// @brief Method DerDecode, addr 0x120b848, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method DerDecode, addr 0x12386d8, size 0xf8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::DigestInfo* DerDecode(::ArrayW<uint8_t, ::Array<uint8_t>*> encoding);
 
-  /// @brief Method VerifyDigest, addr 0x120b120, size 0x6a4, virtual false, abstract: false, final false
+  /// @brief Method VerifyDigest, addr 0x1237fb0, size 0x6a4, virtual false, abstract: false, final false
   inline bool VerifyDigest(::ArrayW<uint8_t, ::Array<uint8_t>*> digest, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key, ::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
 
-  /// @brief Method Verify, addr 0x120b940, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Verify, addr 0x12387d0, size 0x98, virtual false, abstract: false, final false
   inline bool Verify(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* pubKey);
 
-  /// @brief Method Verify, addr 0x120bb18, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Verify, addr 0x12389a8, size 0x70, virtual false, abstract: false, final false
   inline bool Verify(::Org::BouncyCastle::X509::X509Certificate* cert);
 
-  /// @brief Method ToSignerInfo, addr 0x120bb88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToSignerInfo, addr 0x1238a18, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::SignerInfo* ToSignerInfo();
 
-  /// @brief Method GetSingleValuedSignedAttribute, addr 0x120af20, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method GetSingleValuedSignedAttribute, addr 0x1237db0, size 0x200, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* GetSingleValuedSignedAttribute(::Org::BouncyCastle::Asn1::DerObjectIdentifier* attrOID, ::StringW printableName);
 
-  /// @brief Method GetSigningTime, addr 0x120b9d8, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method GetSigningTime, addr 0x1238868, size 0x140, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::Time* GetSigningTime();
 
-  /// @brief Method ReplaceUnsignedAttributes, addr 0x120bb90, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method ReplaceUnsignedAttributes, addr 0x1238a20, size 0x134, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Cms::SignerInformation* ReplaceUnsignedAttributes(::Org::BouncyCastle::Cms::SignerInformation* signerInformation,
                                                                                        ::Org::BouncyCastle::Asn1::Cms::AttributeTable* unsignedAttributes);
 
-  /// @brief Method AddCounterSigners, addr 0x120bcc4, size 0x524, virtual false, abstract: false, final false
+  /// @brief Method AddCounterSigners, addr 0x1238b54, size 0x524, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Cms::SignerInformation* AddCounterSigners(::Org::BouncyCastle::Cms::SignerInformation* signerInformation,
                                                                                ::Org::BouncyCastle::Cms::SignerInformationStore* counterSigners);
 

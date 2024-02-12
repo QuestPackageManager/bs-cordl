@@ -27,16 +27,16 @@ namespace Mono::Math::Prime {
 class CORDL_TYPE PrimalityTests : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetSPPRounds, addr 0x242b42c, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method GetSPPRounds, addr 0x244b290, size 0x194, virtual false, abstract: false, final false
   static inline int32_t GetSPPRounds(::Mono::Math::BigInteger* bi, ::Mono::Math::Prime::ConfidenceFactor confidence);
 
-  /// @brief Method Test, addr 0x242a578, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Test, addr 0x244a3dc, size 0x4c, virtual false, abstract: false, final false
   static inline bool Test(::Mono::Math::BigInteger* n, ::Mono::Math::Prime::ConfidenceFactor confidence);
 
-  /// @brief Method RabinMillerTest, addr 0x242b78c, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method RabinMillerTest, addr 0x244b5f0, size 0x290, virtual false, abstract: false, final false
   static inline bool RabinMillerTest(::Mono::Math::BigInteger* n, ::Mono::Math::Prime::ConfidenceFactor confidence);
 
-  /// @brief Method SmallPrimeSppTest, addr 0x242b5c0, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method SmallPrimeSppTest, addr 0x244b424, size 0x1cc, virtual false, abstract: false, final false
   static inline bool SmallPrimeSppTest(::Mono::Math::BigInteger* bi, ::Mono::Math::Prime::ConfidenceFactor confidence);
 
   // Ctor Parameters [CppParam { name: "", ty: "PrimalityTests", modifiers: "&&", def_value: None }]

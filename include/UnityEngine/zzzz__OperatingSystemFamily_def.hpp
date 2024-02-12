@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::OperatingSystemFamily);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10137))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8877))
 // CS Name: ::UnityEngine::OperatingSystemFamily
 struct CORDL_TYPE OperatingSystemFamily {
 public:

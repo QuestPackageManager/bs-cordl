@@ -28,7 +28,7 @@ public:
   // Declarations
   __declspec(property(get = get_ProxyClass))::Mono::RuntimeClassHandle ProxyClass;
 
-  /// @brief Method get_ProxyClass, addr 0x241265c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_ProxyClass, addr 0x24324bc, size 0x1c, virtual false, abstract: false, final false
   inline ::Mono::RuntimeClassHandle get_ProxyClass();
 
   // Ctor Parameters [CppParam { name: "value", ty: "::cordl_internals::Ptr<::Mono::__RuntimeStructs__RemoteClass>", modifiers: "", def_value: None }]

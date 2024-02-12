@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::UnityEngine::WWWForm);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15573))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15731))
 // CS Name: ::UnityEngine::WWWForm*
 class CORDL_TYPE WWWForm : public ::System::Object {
 public:
@@ -81,7 +81,7 @@ public:
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_equal();
 
-  /// @brief Method get_DefaultEncoding, addr 0x2eaccac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultEncoding, addr 0x2ec7094, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Text::Encoding* get_DefaultEncoding();
 
   // Ctor Parameters [CppParam { name: "", ty: "WWWForm", modifiers: "&&", def_value: None }]

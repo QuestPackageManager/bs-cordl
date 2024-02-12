@@ -56,43 +56,43 @@ public:
 
   static inline ::Org::BouncyCastle::Ocsp::CertificateID* New_ctor(::Org::BouncyCastle::Asn1::Ocsp::CertID* id);
 
-  /// @brief Method .ctor, addr 0x109ede8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10cbc78, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Ocsp::CertID* id);
 
   static inline ::Org::BouncyCastle::Ocsp::CertificateID* New_ctor(::StringW hashAlgorithm, ::Org::BouncyCastle::X509::X509Certificate* issuerCert,
                                                                    ::Org::BouncyCastle::Math::BigInteger* serialNumber);
 
-  /// @brief Method .ctor, addr 0x109ee60, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10cbcf0, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::StringW hashAlgorithm, ::Org::BouncyCastle::X509::X509Certificate* issuerCert, ::Org::BouncyCastle::Math::BigInteger* serialNumber);
 
-  /// @brief Method get_HashAlgOid, addr 0x109f254, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_HashAlgOid, addr 0x10cc0e4, size 0x34, virtual false, abstract: false, final false
   inline ::StringW get_HashAlgOid();
 
-  /// @brief Method GetIssuerNameHash, addr 0x109f288, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetIssuerNameHash, addr 0x10cc118, size 0x28, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetIssuerNameHash();
 
-  /// @brief Method GetIssuerKeyHash, addr 0x109f2b0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetIssuerKeyHash, addr 0x10cc140, size 0x28, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetIssuerKeyHash();
 
-  /// @brief Method get_SerialNumber, addr 0x109f2d8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_SerialNumber, addr 0x10cc168, size 0x24, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_SerialNumber();
 
-  /// @brief Method MatchesIssuer, addr 0x109f2fc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method MatchesIssuer, addr 0x10cc18c, size 0x34, virtual false, abstract: false, final false
   inline bool MatchesIssuer(::Org::BouncyCastle::X509::X509Certificate* issuerCert);
 
-  /// @brief Method ToAsn1Object, addr 0x109f330, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x10cc1c0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Ocsp::CertID* ToAsn1Object();
 
-  /// @brief Method Equals, addr 0x109f338, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x10cc1c8, size 0xdc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x109f414, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x10cc2a4, size 0x2c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method DeriveCertificateID, addr 0x109f440, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method DeriveCertificateID, addr 0x10cc2d0, size 0xf4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Ocsp::CertificateID* DeriveCertificateID(::Org::BouncyCastle::Ocsp::CertificateID* original, ::Org::BouncyCastle::Math::BigInteger* newSerialNumber);
 
-  /// @brief Method CreateCertID, addr 0x109ef90, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method CreateCertID, addr 0x10cbe20, size 0x2c4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::CertID* CreateCertID(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlg, ::Org::BouncyCastle::X509::X509Certificate* issuerCert,
                                                                       ::Org::BouncyCastle::Asn1::DerInteger* serialNumber);
 

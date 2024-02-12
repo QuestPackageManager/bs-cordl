@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::CompilerGeneratedAttribute);
 namespace System::Runtime::CompilerServices {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3360))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3357))
 // CS Name: ::System.Runtime.CompilerServices::CompilerGeneratedAttribute*
 class CORDL_TYPE CompilerGeneratedAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::System::Runtime::CompilerServices::CompilerGeneratedAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24da980, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24faeb0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CompilerGeneratedAttribute", modifiers: "&&", def_value: None }]

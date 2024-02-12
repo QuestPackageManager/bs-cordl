@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::System::Reflection::DefaultMemberAttribute);
 namespace System::Reflection {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3463))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3459))
 // CS Name: ::System.Reflection::DefaultMemberAttribute*
 class CORDL_TYPE DefaultMemberAttribute : public ::System::Attribute {
 public:
@@ -34,10 +34,10 @@ public:
 
   static inline ::System::Reflection::DefaultMemberAttribute* New_ctor(::StringW memberName);
 
-  /// @brief Method .ctor, addr 0x24e6310, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2505468, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW memberName);
 
-  /// @brief Method get_MemberName, addr 0x24e6338, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MemberName, addr 0x2505490, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_MemberName();
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultMemberAttribute", modifiers: "&&", def_value: None }]

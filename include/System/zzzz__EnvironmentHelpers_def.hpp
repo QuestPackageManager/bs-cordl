@@ -15,12 +15,12 @@ MARK_REF_PTR_T(::System::EnvironmentHelpers);
 namespace System {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8891))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6901))
 // CS Name: ::System::EnvironmentHelpers*
 class CORDL_TYPE EnvironmentHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsWindowsVistaOrAbove, addr 0x294d4b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsWindowsVistaOrAbove, addr 0x2951bac, size 0x8, virtual false, abstract: false, final false
   static inline bool IsWindowsVistaOrAbove();
 
   // Ctor Parameters [CppParam { name: "", ty: "EnvironmentHelpers", modifiers: "&&", def_value: None }]

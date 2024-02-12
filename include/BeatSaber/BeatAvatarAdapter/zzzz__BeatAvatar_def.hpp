@@ -36,8 +36,8 @@ MARK_REF_PTR_T(::BeatSaber::BeatAvatarAdapter::BeatAvatar);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarAdapter {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15166))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15257))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15246))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15370))
 // CS Name: ::BeatSaber.BeatAvatarAdapter::BeatAvatar*
 class CORDL_TYPE BeatAvatar : public ::BeatSaber::AvatarCore::Avatar {
 public:
@@ -64,24 +64,24 @@ public:
 
   constexpr void __cordl_internal_set__avatarPoseController(::UnityW<::BeatSaber::BeatAvatarSDK::BeatAvatarPoseController> value);
 
-  /// @brief Method get_bodyCenterWorldPosition, addr 0xe1421c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_bodyCenterWorldPosition, addr 0xe1fa18, size 0x1c, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 get_bodyCenterWorldPosition();
 
-  /// @brief Method SetLightColor, addr 0xe14238, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method SetLightColor, addr 0xe1fa34, size 0x1c, virtual true, abstract: false, final false
   inline void SetLightColor(::UnityEngine::Color lightColor);
 
-  /// @brief Method UpdateAvatarFromPose, addr 0xe14254, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method UpdateAvatarFromPose, addr 0xe1fa50, size 0x78, virtual true, abstract: false, final false
   inline void UpdateAvatarFromPose(::BeatSaber::AvatarCore::AvatarPoseData currentPose);
 
-  /// @brief Method UpdateAvatarFromVisualData, addr 0xe142cc, size 0x1ac, virtual true, abstract: false, final false
+  /// @brief Method UpdateAvatarFromVisualData, addr 0xe1fac8, size 0x1ac, virtual true, abstract: false, final false
   inline void UpdateAvatarFromVisualData(::GlobalNamespace::MultiplayerAvatarsData visualData);
 
-  /// @brief Method UpdateAvatarFromOptionalData, addr 0xe14478, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method UpdateAvatarFromOptionalData, addr 0xe1fc74, size 0x4, virtual true, abstract: false, final false
   inline void UpdateAvatarFromOptionalData(::BeatSaber::AvatarCore::OptionalAvatarData data, float_t playbackDelaySeconds);
 
   static inline ::BeatSaber::BeatAvatarAdapter::BeatAvatar* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe1447c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe1fc78, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatAvatar", modifiers: "&&", def_value: None }]

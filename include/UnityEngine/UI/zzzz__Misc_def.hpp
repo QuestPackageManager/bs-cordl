@@ -18,15 +18,15 @@ MARK_REF_PTR_T(::UnityEngine::UI::Misc);
 namespace UnityEngine::UI {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13102))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13000))
 // CS Name: ::UnityEngine.UI::Misc*
 class CORDL_TYPE Misc : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Destroy, addr 0x2d7d9b4, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Destroy, addr 0x2d9ad9c, size 0x100, virtual false, abstract: false, final false
   static inline void Destroy(::UnityEngine::Object* obj);
 
-  /// @brief Method DestroyImmediate, addr 0x2d7dab4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method DestroyImmediate, addr 0x2d9ae9c, size 0xa8, virtual false, abstract: false, final false
   static inline void DestroyImmediate(::UnityEngine::Object* obj);
 
   // Ctor Parameters [CppParam { name: "", ty: "Misc", modifiers: "&&", def_value: None }]

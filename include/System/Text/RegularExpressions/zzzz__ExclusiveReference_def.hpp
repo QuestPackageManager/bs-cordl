@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::System::Text::RegularExpressions::ExclusiveReference);
 namespace System::Text::RegularExpressions {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8910))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6920))
 // CS Name: ::System.Text.RegularExpressions::ExclusiveReference*
 class CORDL_TYPE ExclusiveReference : public ::System::Object {
 public:
@@ -51,15 +51,15 @@ public:
 
   constexpr void __cordl_internal_set__locked(int32_t value);
 
-  /// @brief Method Get, addr 0x29515ec, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x2955ce8, size 0x58, virtual false, abstract: false, final false
   inline ::System::Text::RegularExpressions::RegexRunner* Get();
 
-  /// @brief Method Release, addr 0x2951644, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x2955d40, size 0xbc, virtual false, abstract: false, final false
   inline void Release(::System::Text::RegularExpressions::RegexRunner* obj);
 
   static inline ::System::Text::RegularExpressions::ExclusiveReference* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2951700, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2955dfc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ExclusiveReference", modifiers: "&&", def_value: None }]

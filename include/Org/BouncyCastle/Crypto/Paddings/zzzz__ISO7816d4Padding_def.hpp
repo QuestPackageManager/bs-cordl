@@ -37,21 +37,21 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding"
   constexpr ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* i___Org__BouncyCastle__Crypto__Paddings__IBlockCipherPadding() noexcept;
 
-  /// @brief Method Init, addr 0xf2e300, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0xf59190, size 0x4, virtual true, abstract: false, final true
   inline void Init(::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method get_PaddingName, addr 0xf2e304, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_PaddingName, addr 0xf59194, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_PaddingName();
 
-  /// @brief Method AddPadding, addr 0xf2e344, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method AddPadding, addr 0xf591d4, size 0x64, virtual true, abstract: false, final true
   inline int32_t AddPadding(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff);
 
-  /// @brief Method PadCount, addr 0xf2e3a8, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method PadCount, addr 0xf59238, size 0xb0, virtual true, abstract: false, final true
   inline int32_t PadCount(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
   static inline ::Org::BouncyCastle::Crypto::Paddings::ISO7816d4Padding* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf2e458, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf592e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ISO7816d4Padding", modifiers: "&&", def_value: None }]

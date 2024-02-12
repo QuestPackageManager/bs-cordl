@@ -33,27 +33,27 @@ MARK_REF_PTR_T(::GlobalNamespace::PlayerSaveDataConvertor);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4657))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11116))
 // CS Name: ::PlayerSaveDataConvertor*
 class CORDL_TYPE PlayerSaveDataConvertor : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetRuntimeData, addr 0x2372a5c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetRuntimeData, addr 0x12b42e4, size 0x1c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::EnvironmentEffectsFilterPreset GetRuntimeData(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData saveData);
 
-  /// @brief Method GetSaveData, addr 0x2372a78, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetSaveData, addr 0x12b1fe4, size 0x1c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData GetSaveData(::GlobalNamespace::EnvironmentEffectsFilterPreset data);
 
-  /// @brief Method GetRuntimeData, addr 0x2372a94, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetRuntimeData, addr 0x12b42c8, size 0xc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::NoteJumpDurationTypeSettings GetRuntimeData(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData saveData);
 
-  /// @brief Method GetSaveData, addr 0x2372aa0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetSaveData, addr 0x12b1fc8, size 0xc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData GetSaveData(::GlobalNamespace::NoteJumpDurationTypeSettings data);
 
-  /// @brief Method GetRuntimeData, addr 0x2372aac, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetRuntimeData, addr 0x12b42d4, size 0x10, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::ArcVisibilityType GetRuntimeData(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData saveData);
 
-  /// @brief Method GetSaveData, addr 0x2372abc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetSaveData, addr 0x12b1fd4, size 0x10, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData GetSaveData(::GlobalNamespace::ArcVisibilityType data);
 
   // Ctor Parameters [CppParam { name: "", ty: "PlayerSaveDataConvertor", modifiers: "&&", def_value: None }]

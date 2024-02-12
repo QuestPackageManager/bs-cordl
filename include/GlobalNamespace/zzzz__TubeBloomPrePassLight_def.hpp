@@ -52,8 +52,8 @@ MARK_REF_PTR_T(::GlobalNamespace::TubeBloomPrePassLight);
 // SizeInfo { instance_size: 224, native_size: -1, calculated_instance_size: 224, calculated_native_size: 224, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(14474))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14492))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8995)), TypeDefinitionIndex(TypeDefinitionIndex(14368))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14386))
 // CS Name: ::TubeBloomPrePassLight*
 class CORDL_TYPE TubeBloomPrePassLight : public ::GlobalNamespace::BloomPrePassLight {
 public:
@@ -401,80 +401,80 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method add_didRefreshEvent, addr 0x2109950, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didRefreshEvent, addr 0x219e0f8, size 0x9c, virtual false, abstract: false, final false
   inline void add_didRefreshEvent(::System::Action* value);
 
-  /// @brief Method remove_didRefreshEvent, addr 0x21099ec, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didRefreshEvent, addr 0x219e194, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didRefreshEvent(::System::Action* value);
 
-  /// @brief Method get_colorAlphaMultiplier, addr 0x2109a88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorAlphaMultiplier, addr 0x219e230, size 0x8, virtual false, abstract: false, final false
   inline float_t get_colorAlphaMultiplier();
 
-  /// @brief Method get_center, addr 0x2109a90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_center, addr 0x219e238, size 0x8, virtual false, abstract: false, final false
   inline float_t get_center();
 
-  /// @brief Method get_isDirty, addr 0x2109a98, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_isDirty, addr 0x219e240, size 0x20, virtual true, abstract: false, final false
   inline bool get_isDirty();
 
-  /// @brief Method MarkDirty, addr 0x2109ab8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method MarkDirty, addr 0x219e260, size 0xc, virtual false, abstract: false, final false
   inline void MarkDirty();
 
-  /// @brief Method get_length, addr 0x2109ac4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_length, addr 0x219e26c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_length();
 
-  /// @brief Method set_length, addr 0x2109acc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_length, addr 0x219e274, size 0x10, virtual false, abstract: false, final false
   inline void set_length(float_t value);
 
-  /// @brief Method get_width, addr 0x2109adc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_width, addr 0x219e284, size 0x8, virtual false, abstract: false, final false
   inline float_t get_width();
 
-  /// @brief Method set_width, addr 0x2109ae4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_width, addr 0x219e28c, size 0x10, virtual false, abstract: false, final false
   inline void set_width(float_t value);
 
-  /// @brief Method get_lightWidthMultiplier, addr 0x2109af4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightWidthMultiplier, addr 0x219e29c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_lightWidthMultiplier();
 
-  /// @brief Method set_lightWidthMultiplier, addr 0x2109afc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lightWidthMultiplier, addr 0x219e2a4, size 0x8, virtual false, abstract: false, final false
   inline void set_lightWidthMultiplier(float_t value);
 
-  /// @brief Method get_bloomFogIntensityMultiplier, addr 0x2109b04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bloomFogIntensityMultiplier, addr 0x219e2ac, size 0x8, virtual false, abstract: false, final false
   inline float_t get_bloomFogIntensityMultiplier();
 
-  /// @brief Method set_bloomFogIntensityMultiplier, addr 0x2109b0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_bloomFogIntensityMultiplier, addr 0x219e2b4, size 0x8, virtual false, abstract: false, final false
   inline void set_bloomFogIntensityMultiplier(float_t value);
 
-  /// @brief Method set_color, addr 0x2109b14, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method set_color, addr 0x219e2bc, size 0x118, virtual false, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
-  /// @brief Method get_color, addr 0x2109c2c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x219e3d4, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method OnEnable, addr 0x2109c38, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x219e3e0, size 0x20, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method DidRegisterLight, addr 0x2109c58, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method DidRegisterLight, addr 0x219e400, size 0x1c, virtual true, abstract: false, final false
   inline void DidRegisterLight();
 
-  /// @brief Method Refresh, addr 0x2109c74, size 0x3f8, virtual true, abstract: false, final false
+  /// @brief Method Refresh, addr 0x219e41c, size 0x3f8, virtual true, abstract: false, final false
   inline void Refresh();
 
-  /// @brief Method FillMeshData, addr 0x210a06c, size 0x99c, virtual true, abstract: false, final false
+  /// @brief Method FillMeshData, addr 0x219e814, size 0x99c, virtual true, abstract: false, final false
   inline void FillMeshData(ByRef<int32_t> lightNum, ::ArrayW<::GlobalNamespace::__BloomPrePassLight__QuadData, ::Array<::GlobalNamespace::__BloomPrePassLight__QuadData>*> lightQuads,
                            ::UnityEngine::Matrix4x4 viewMatrix, ::UnityEngine::Matrix4x4 projectionMatrix, float_t lineWidth);
 
-  /// @brief Method ClipPoints, addr 0x210aaa0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ClipPoints, addr 0x219f248, size 0x94, virtual false, abstract: false, final false
   static inline void ClipPoints(ByRef<::UnityEngine::Vector4> fromPointClipPos, ByRef<::UnityEngine::Vector4> toPointClipPos, ByRef<::UnityEngine::Vector3> fromPointViewPos,
                                 ByRef<::UnityEngine::Vector3> toPointViewPos, bool fromPointInside, float_t t);
 
-  /// @brief Method ZeroQuad, addr 0x210aa08, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method ZeroQuad, addr 0x219f1b0, size 0x98, virtual false, abstract: false, final false
   static inline void ZeroQuad(ByRef<::GlobalNamespace::__BloomPrePassLight__QuadData> quad);
 
-  /// @brief Method OnDrawGizmos, addr 0x210ab34, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method OnDrawGizmos, addr 0x219f2dc, size 0x13c, virtual false, abstract: false, final false
   inline void OnDrawGizmos();
 
   static inline ::GlobalNamespace::TubeBloomPrePassLight* New_ctor();
 
-  /// @brief Method .ctor, addr 0x210ac70, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x219f418, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TubeBloomPrePassLight", modifiers: "&&", def_value: None }]

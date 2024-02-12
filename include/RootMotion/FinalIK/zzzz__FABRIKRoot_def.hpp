@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::FABRIKRoot);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12536))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12534))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12434))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12432))
 // CS Name: ::RootMotion.FinalIK::FABRIKRoot*
 class CORDL_TYPE FABRIKRoot : public ::RootMotion::FinalIK::IK {
 public:
@@ -35,24 +35,24 @@ public:
 
   constexpr void __cordl_internal_set_solver(::RootMotion::FinalIK::IKSolverFABRIKRoot* value);
 
-  /// @brief Method OpenUserManual, addr 0x124e5d4, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method OpenUserManual, addr 0x12e8684, size 0x44, virtual true, abstract: false, final false
   inline void OpenUserManual();
 
-  /// @brief Method OpenScriptReference, addr 0x124e618, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method OpenScriptReference, addr 0x12e86c8, size 0x44, virtual true, abstract: false, final false
   inline void OpenScriptReference();
 
-  /// @brief Method SupportGroup, addr 0x124e65c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SupportGroup, addr 0x12e870c, size 0x44, virtual false, abstract: false, final false
   inline void SupportGroup();
 
-  /// @brief Method ASThread, addr 0x124e6a0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ASThread, addr 0x12e8750, size 0x44, virtual false, abstract: false, final false
   inline void ASThread();
 
-  /// @brief Method GetIKSolver, addr 0x124e6e4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetIKSolver, addr 0x12e8794, size 0x8, virtual true, abstract: false, final false
   inline ::RootMotion::FinalIK::IKSolver* GetIKSolver();
 
   static inline ::RootMotion::FinalIK::FABRIKRoot* New_ctor();
 
-  /// @brief Method .ctor, addr 0x124e6ec, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12e879c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FABRIKRoot", modifiers: "&&", def_value: None }]

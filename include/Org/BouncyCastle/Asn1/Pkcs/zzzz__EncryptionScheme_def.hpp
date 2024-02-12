@@ -39,26 +39,26 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* objectID);
 
-  /// @brief Method .ctor, addr 0xf88670, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfb3500, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* objectID);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* objectID, ::Org::BouncyCastle::Asn1::Asn1Encodable* parameters);
 
-  /// @brief Method .ctor, addr 0xf88698, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfb3528, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* objectID, ::Org::BouncyCastle::Asn1::Asn1Encodable* parameters);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xf886c4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfb3554, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance, addr 0xf88788, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xfb3618, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* GetInstance(::System::Object* obj);
 
-  /// @brief Method get_Asn1Object, addr 0xf88910, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_Asn1Object, addr 0xfb37a0, size 0x28, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* get_Asn1Object();
 
-  /// @brief Method ToAsn1Object, addr 0xf88938, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xfb37c8, size 0x110, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "EncryptionScheme", modifiers: "&&", def_value: None }]

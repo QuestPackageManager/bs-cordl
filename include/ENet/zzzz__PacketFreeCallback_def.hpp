@@ -28,23 +28,23 @@ MARK_REF_PTR_T(::ENet::PacketFreeCallback);
 namespace ENet {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15224))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15337))
 // CS Name: ::ENet::PacketFreeCallback*
 class CORDL_TYPE PacketFreeCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::ENet::PacketFreeCallback* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x21ef0a0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2284988, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x21ef164, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2284a4c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::ENet::Packet packet);
 
-  /// @brief Method BeginInvoke, addr 0x21ef178, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2284a60, size 0x84, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::ENet::Packet packet, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x21ef1fc, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2284ae4, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "PacketFreeCallback", modifiers: "&&", def_value: None }]

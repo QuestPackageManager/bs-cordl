@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::IResourcePr
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14003))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14016))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::IResourceProvider*
 class CORDL_TYPE IResourceProvider {
 public:

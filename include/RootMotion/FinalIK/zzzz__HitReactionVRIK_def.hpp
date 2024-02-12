@@ -75,8 +75,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__HitReactionVRIK__RotationOffset);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12644))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8993))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12542))
 // CS Name: ::HitReactionVRIK::Offset*
 class CORDL_TYPE __HitReactionVRIK__Offset : public ::System::Object {
 public:
@@ -179,34 +179,34 @@ public:
 
   constexpr void __cordl_internal_set_lastTime(float_t value);
 
-  /// @brief Method get_crossFader, addr 0x1296244, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_crossFader, addr 0x132e2f4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_crossFader();
 
-  /// @brief Method set_crossFader, addr 0x129624c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_crossFader, addr 0x132e2fc, size 0x8, virtual false, abstract: false, final false
   inline void set_crossFader(float_t value);
 
-  /// @brief Method get_timer, addr 0x1296254, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_timer, addr 0x132e304, size 0x8, virtual false, abstract: false, final false
   inline float_t get_timer();
 
-  /// @brief Method set_timer, addr 0x129625c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_timer, addr 0x132e30c, size 0x8, virtual false, abstract: false, final false
   inline void set_timer(float_t value);
 
-  /// @brief Method get_force, addr 0x1296264, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_force, addr 0x132e314, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_force();
 
-  /// @brief Method set_force, addr 0x1296270, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_force, addr 0x132e320, size 0xc, virtual false, abstract: false, final false
   inline void set_force(::UnityEngine::Vector3 value);
 
-  /// @brief Method get_point, addr 0x129627c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_point, addr 0x132e32c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_point();
 
-  /// @brief Method set_point, addr 0x1296288, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_point, addr 0x132e338, size 0xc, virtual false, abstract: false, final false
   inline void set_point(::UnityEngine::Vector3 value);
 
-  /// @brief Method Hit, addr 0x12960f4, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method Hit, addr 0x132e1a4, size 0x130, virtual false, abstract: false, final false
   inline void Hit(::UnityEngine::Vector3 force, ::ArrayW<::UnityEngine::AnimationCurve*, ::Array<::UnityEngine::AnimationCurve*>*> curves, ::UnityEngine::Vector3 point);
 
-  /// @brief Method Apply, addr 0x1295df0, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x132dea0, size 0xe0, virtual false, abstract: false, final false
   inline void Apply(::RootMotion::FinalIK::VRIK* ik, ::ArrayW<::UnityEngine::AnimationCurve*, ::Array<::UnityEngine::AnimationCurve*>*> curves, float_t weight);
 
   /// @brief Method GetLength, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -220,7 +220,7 @@ public:
 
   static inline ::RootMotion::FinalIK::__HitReactionVRIK__Offset* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1296294, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x132e344, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__HitReactionVRIK__Offset", modifiers: "&&", def_value: None }]
@@ -297,8 +297,8 @@ static_assert(offsetof(::RootMotion::FinalIK::__HitReactionVRIK__Offset, ___last
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(12590))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12645))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(12488))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12543))
 // CS Name: ::HitReactionVRIK::PositionOffset::PositionOffsetLink*
 class CORDL_TYPE __HitReactionVRIK__PositionOffset__PositionOffsetLink : public ::System::Object {
 public:
@@ -339,15 +339,15 @@ public:
 
   constexpr void __cordl_internal_set_current(::UnityEngine::Vector3 value);
 
-  /// @brief Method Apply, addr 0x1296678, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x132e728, size 0x78, virtual false, abstract: false, final false
   inline void Apply(::RootMotion::FinalIK::VRIK* ik, ::UnityEngine::Vector3 offset, float_t crossFader);
 
-  /// @brief Method CrossFadeStart, addr 0x129649c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method CrossFadeStart, addr 0x132e54c, size 0x14, virtual false, abstract: false, final false
   inline void CrossFadeStart();
 
   static inline ::GlobalNamespace::__HitReactionVRIK__PositionOffset__PositionOffsetLink* New_ctor();
 
-  /// @brief Method .ctor, addr 0x129670c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x132e7bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__HitReactionVRIK__PositionOffset__PositionOffsetLink", modifiers: "&&", def_value: None }]
@@ -394,8 +394,8 @@ static_assert(offsetof(::GlobalNamespace::__HitReactionVRIK__PositionOffset__Pos
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12644))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12646))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12542))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12544))
 // CS Name: ::HitReactionVRIK::PositionOffset*
 class CORDL_TYPE __HitReactionVRIK__PositionOffset : public ::RootMotion::FinalIK::__HitReactionVRIK__Offset {
 public:
@@ -434,18 +434,18 @@ public:
   constexpr void __cordl_internal_set_offsetLinks(
       ::ArrayW<::GlobalNamespace::__HitReactionVRIK__PositionOffset__PositionOffsetLink*, ::Array<::GlobalNamespace::__HitReactionVRIK__PositionOffset__PositionOffsetLink*>*> value);
 
-  /// @brief Method GetLength, addr 0x12962a8, size 0x194, virtual true, abstract: false, final false
+  /// @brief Method GetLength, addr 0x132e358, size 0x194, virtual true, abstract: false, final false
   inline float_t GetLength(::ArrayW<::UnityEngine::AnimationCurve*, ::Array<::UnityEngine::AnimationCurve*>*> curves);
 
-  /// @brief Method CrossFadeStart, addr 0x129643c, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method CrossFadeStart, addr 0x132e4ec, size 0x60, virtual true, abstract: false, final false
   inline void CrossFadeStart();
 
-  /// @brief Method OnApply, addr 0x12964b0, size 0x1c8, virtual true, abstract: false, final false
+  /// @brief Method OnApply, addr 0x132e560, size 0x1c8, virtual true, abstract: false, final false
   inline void OnApply(::RootMotion::FinalIK::VRIK* ik, ::ArrayW<::UnityEngine::AnimationCurve*, ::Array<::UnityEngine::AnimationCurve*>*> curves, float_t weight);
 
   static inline ::RootMotion::FinalIK::__HitReactionVRIK__PositionOffset* New_ctor();
 
-  /// @brief Method .ctor, addr 0x12966f0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x132e7a0, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__HitReactionVRIK__PositionOffset", modifiers: "&&", def_value: None }]
@@ -487,8 +487,8 @@ static_assert(offsetof(::RootMotion::FinalIK::__HitReactionVRIK__PositionOffset,
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(12591))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12647))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8996)), TypeDefinitionIndex(TypeDefinitionIndex(12489))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12545))
 // CS Name: ::HitReactionVRIK::RotationOffset::RotationOffsetLink*
 class CORDL_TYPE __HitReactionVRIK__RotationOffset__RotationOffsetLink : public ::System::Object {
 public:
@@ -529,15 +529,15 @@ public:
 
   constexpr void __cordl_internal_set_current(::UnityEngine::Quaternion value);
 
-  /// @brief Method Apply, addr 0x1296acc, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x132eb7c, size 0x108, virtual false, abstract: false, final false
   inline void Apply(::RootMotion::FinalIK::VRIK* ik, ::UnityEngine::Quaternion offset, float_t crossFader);
 
-  /// @brief Method CrossFadeStart, addr 0x1296844, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CrossFadeStart, addr 0x132e8f4, size 0xc, virtual false, abstract: false, final false
   inline void CrossFadeStart();
 
   static inline ::GlobalNamespace::__HitReactionVRIK__RotationOffset__RotationOffsetLink* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1296be8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x132ec98, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__HitReactionVRIK__RotationOffset__RotationOffsetLink", modifiers: "&&", def_value: None }]
@@ -584,8 +584,8 @@ static_assert(offsetof(::GlobalNamespace::__HitReactionVRIK__RotationOffset__Rot
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12644))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12648))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12542))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12546))
 // CS Name: ::HitReactionVRIK::RotationOffset*
 class CORDL_TYPE __HitReactionVRIK__RotationOffset : public ::RootMotion::FinalIK::__HitReactionVRIK__Offset {
 public:
@@ -624,18 +624,18 @@ public:
 
   constexpr void __cordl_internal_set_rigidbody(::UnityW<::UnityEngine::Rigidbody> value);
 
-  /// @brief Method GetLength, addr 0x1296714, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method GetLength, addr 0x132e7c4, size 0xd8, virtual true, abstract: false, final false
   inline float_t GetLength(::ArrayW<::UnityEngine::AnimationCurve*, ::Array<::UnityEngine::AnimationCurve*>*> curves);
 
-  /// @brief Method CrossFadeStart, addr 0x12967ec, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method CrossFadeStart, addr 0x132e89c, size 0x58, virtual true, abstract: false, final false
   inline void CrossFadeStart();
 
-  /// @brief Method OnApply, addr 0x1296850, size 0x27c, virtual true, abstract: false, final false
+  /// @brief Method OnApply, addr 0x132e900, size 0x27c, virtual true, abstract: false, final false
   inline void OnApply(::RootMotion::FinalIK::VRIK* ik, ::ArrayW<::UnityEngine::AnimationCurve*, ::Array<::UnityEngine::AnimationCurve*>*> curves, float_t weight);
 
   static inline ::RootMotion::FinalIK::__HitReactionVRIK__RotationOffset* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1296bd4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x132ec84, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__HitReactionVRIK__RotationOffset", modifiers: "&&", def_value: None }]
@@ -677,8 +677,8 @@ static_assert(offsetof(::RootMotion::FinalIK::__HitReactionVRIK__RotationOffset,
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12658))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12649))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12556))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12547))
 // CS Name: ::RootMotion.FinalIK::HitReactionVRIK*
 class CORDL_TYPE HitReactionVRIK : public ::RootMotion::FinalIK::OffsetModifierVRIK {
 public:
@@ -722,15 +722,15 @@ public:
 
   constexpr void __cordl_internal_set_rotationOffsets(::ArrayW<::RootMotion::FinalIK::__HitReactionVRIK__RotationOffset*, ::Array<::RootMotion::FinalIK::__HitReactionVRIK__RotationOffset*>*> value);
 
-  /// @brief Method OnModifyOffset, addr 0x1295d38, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method OnModifyOffset, addr 0x132dde8, size 0xb8, virtual true, abstract: false, final false
   inline void OnModifyOffset();
 
-  /// @brief Method Hit, addr 0x1295ed0, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method Hit, addr 0x132df80, size 0x224, virtual false, abstract: false, final false
   inline void Hit(::UnityEngine::Collider* collider, ::UnityEngine::Vector3 force, ::UnityEngine::Vector3 point);
 
   static inline ::RootMotion::FinalIK::HitReactionVRIK* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1296224, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x132e2d4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HitReactionVRIK", modifiers: "&&", def_value: None }]

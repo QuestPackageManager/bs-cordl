@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::GlobalNamespace::AlphaFloatFxGroupEffectTarget);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 61, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4909)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4902))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4263)), TypeDefinitionIndex(TypeDefinitionIndex(8995))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4256))
 // CS Name: ::AlphaFloatFxGroupEffectTarget*
 class CORDL_TYPE AlphaFloatFxGroupEffectTarget : public ::GlobalNamespace::FloatFxGroupEffectTarget {
 public:
@@ -81,24 +81,24 @@ public:
 
   constexpr void __cordl_internal_set__isInitialized(bool value);
 
-  /// @brief Method Awake, addr 0x23a5684, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x23657bc, size 0x30, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method InitIfNeeded, addr 0x23a56b4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method InitIfNeeded, addr 0x23657ec, size 0x30, virtual false, abstract: false, final false
   inline void InitIfNeeded();
 
-  /// @brief Method SetValue, addr 0x23a56e4, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x236581c, size 0x18, virtual true, abstract: false, final false
   inline void SetValue(float_t value);
 
-  /// @brief Method TriggerValue, addr 0x23a57d8, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method TriggerValue, addr 0x2365910, size 0x18, virtual true, abstract: false, final false
   inline void TriggerValue(float_t value);
 
-  /// @brief Method SetColor, addr 0x23a56fc, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method SetColor, addr 0x2365834, size 0xdc, virtual false, abstract: false, final false
   inline void SetColor(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::AlphaFloatFxGroupEffectTarget* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23a57f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2365928, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AlphaFloatFxGroupEffectTarget", modifiers: "&&", def_value: None }]

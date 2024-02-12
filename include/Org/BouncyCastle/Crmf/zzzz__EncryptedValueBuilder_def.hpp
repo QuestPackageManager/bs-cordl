@@ -69,28 +69,28 @@ public:
 
   static inline ::Org::BouncyCastle::Crmf::EncryptedValueBuilder* New_ctor(::Org::BouncyCastle::Crypto::IKeyWrapper* wrapper, ::Org::BouncyCastle::Crypto::ICipherBuilderWithKey* encryptor);
 
-  /// @brief Method .ctor, addr 0x1210854, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x123d6e4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IKeyWrapper* wrapper, ::Org::BouncyCastle::Crypto::ICipherBuilderWithKey* encryptor);
 
   static inline ::Org::BouncyCastle::Crmf::EncryptedValueBuilder* New_ctor(::Org::BouncyCastle::Crypto::IKeyWrapper* wrapper, ::Org::BouncyCastle::Crypto::ICipherBuilderWithKey* encryptor,
                                                                            ::Org::BouncyCastle::Crmf::IEncryptedValuePadder* padder);
 
-  /// @brief Method .ctor, addr 0x1210884, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x123d714, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IKeyWrapper* wrapper, ::Org::BouncyCastle::Crypto::ICipherBuilderWithKey* encryptor, ::Org::BouncyCastle::Crmf::IEncryptedValuePadder* padder);
 
-  /// @brief Method Build, addr 0x12108c0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x123d750, size 0x30, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* Build(::ArrayW<char16_t, ::Array<char16_t>*> revocationPassphrase);
 
-  /// @brief Method Build, addr 0x12110d8, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x123df68, size 0x144, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* Build(::Org::BouncyCastle::X509::X509Certificate* holder);
 
-  /// @brief Method Build, addr 0x121121c, size 0x5b4, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x123e0ac, size 0x5b4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* Build(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* privateKeyInfo);
 
-  /// @brief Method EncryptData, addr 0x12109a4, size 0x734, virtual false, abstract: false, final false
+  /// @brief Method EncryptData, addr 0x123d834, size 0x734, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* EncryptData(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method PadData, addr 0x12108f0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method PadData, addr 0x123d780, size 0xb4, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> PadData(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
   // Ctor Parameters [CppParam { name: "", ty: "EncryptedValueBuilder", modifiers: "&&", def_value: None }]

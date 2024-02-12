@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MoveInDirectionEffect::*)()>(&::GlobalNamespace::MoveInDirectionEffect::Awake)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x23a6788;
+  constexpr static std::size_t addrs = 0x23668c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MoveInDirectionEffect*>::get(), "Awake",
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MoveInDirectionEffect::*)(float_t)>(&::GlobalNamespace::MoveInDirectionEffect::SetValue)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x23a68a4;
+  constexpr static std::size_t addrs = 0x23669dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MoveInDirectionEffect::*)(float_t)>(
     &::GlobalNamespace::MoveInDirectionEffect::TriggerValue)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x23a68f4;
+  constexpr static std::size_t addrs = 0x2366a2c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MoveInDirectionEffect::*)(float_t)>(&::GlobalNamespace::MoveInDirectionEffect::Move)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x23a68a8;
+  constexpr static std::size_t addrs = 0x23669e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MoveInDirectionEffect::*)()>(&::GlobalNamespace::MoveInDirectionEffect::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x23a68f8;
+  constexpr static std::size_t addrs = 0x2366a30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MoveInDirectionEffect*>::get(), ".ctor",

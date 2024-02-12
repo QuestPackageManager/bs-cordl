@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::System::Reflection::Emit::ParameterBuilder);
 namespace System::Reflection::Emit {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3545))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3541))
 // CS Name: ::System.Reflection.Emit::ParameterBuilder*
 class CORDL_TYPE ParameterBuilder : public ::System::Object {
 public:

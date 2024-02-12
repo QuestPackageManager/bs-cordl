@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::PanelScaleMode);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7023))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6282))
 // CS Name: ::UnityEngine.UIElements::PanelScaleMode
 struct CORDL_TYPE PanelScaleMode {
 public:

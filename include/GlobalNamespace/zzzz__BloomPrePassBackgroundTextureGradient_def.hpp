@@ -37,8 +37,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BloomPrePassBackgroundTextureGradient);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(14478))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14468))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8995)), TypeDefinitionIndex(TypeDefinitionIndex(14372))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14362))
 // CS Name: ::BloomPrePassBackgroundTextureGradient*
 class CORDL_TYPE BloomPrePassBackgroundTextureGradient : public ::GlobalNamespace::BloomPrePassNonLightPass {
 public:
@@ -100,36 +100,36 @@ public:
 
   static inline int32_t getStaticF__colorID();
 
-  /// @brief Method get_tintColor, addr 0x210624c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_tintColor, addr 0x219a9f4, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_tintColor();
 
-  /// @brief Method set_tintColor, addr 0x2106258, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_tintColor, addr 0x219aa00, size 0xc, virtual false, abstract: false, final false
   inline void set_tintColor(::UnityEngine::Color value);
 
-  /// @brief Method InitIfNeeded, addr 0x2106264, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method InitIfNeeded, addr 0x219aa0c, size 0x22c, virtual false, abstract: false, final false
   inline void InitIfNeeded();
 
-  /// @brief Method Start, addr 0x2106490, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x219ac38, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy, addr 0x2106520, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x219acc8, size 0x24, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   /// @brief Method UpdatePixels, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UpdatePixels(::Unity::Collections::NativeArray_1<::UnityEngine::Color32> pixels, int32_t numberOfPixels);
 
-  /// @brief Method OnValidate, addr 0x2106544, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x219acec, size 0xa8, virtual true, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method UpdateGradientTexture, addr 0x2106494, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method UpdateGradientTexture, addr 0x219ac3c, size 0x8c, virtual false, abstract: false, final false
   inline void UpdateGradientTexture();
 
-  /// @brief Method Render, addr 0x2106618, size 0x1b8, virtual true, abstract: false, final false
+  /// @brief Method Render, addr 0x219adc0, size 0x1b8, virtual true, abstract: false, final false
   inline void Render(::UnityEngine::RenderTexture* dest, ::UnityEngine::Matrix4x4 viewMatrix, ::UnityEngine::Matrix4x4 projectionMatrix);
 
   static inline ::GlobalNamespace::BloomPrePassBackgroundTextureGradient* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21045e8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2198d90, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundTextureGradient", modifiers: "&&", def_value: None }]

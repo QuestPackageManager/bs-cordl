@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ScoreMultiplierCounter);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5320))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11121))
 // CS Name: ::ScoreMultiplierCounter::MultiplierEventType
 struct CORDL_TYPE __ScoreMultiplierCounter__MultiplierEventType {
 public:
@@ -79,7 +79,7 @@ static_assert(offsetof(::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEv
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5321))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11122))
 // CS Name: ::ScoreMultiplierCounter*
 class CORDL_TYPE ScoreMultiplierCounter : public ::System::Object {
 public:
@@ -117,21 +117,21 @@ public:
 
   constexpr void __cordl_internal_set__multiplierIncreaseMaxProgress(int32_t value);
 
-  /// @brief Method get_multiplier, addr 0x2267dbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_multiplier, addr 0x12bab04, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_multiplier();
 
-  /// @brief Method get_normalizedProgress, addr 0x2267570, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_normalizedProgress, addr 0x12bab0c, size 0x14, virtual false, abstract: false, final false
   inline float_t get_normalizedProgress();
 
-  /// @brief Method Reset, addr 0x2267dc4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x12ba5a4, size 0x18, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method ProcessMultiplierEvent, addr 0x22674cc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ProcessMultiplierEvent, addr 0x12ba5bc, size 0x9c, virtual false, abstract: false, final false
   inline bool ProcessMultiplierEvent(::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType multiplierEventType);
 
   static inline ::GlobalNamespace::ScoreMultiplierCounter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2267da4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12baa40, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ScoreMultiplierCounter", modifiers: "&&", def_value: None }]

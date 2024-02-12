@@ -29,7 +29,7 @@ namespace System::Collections::Generic {
 template <typename TKey, typename TValue>
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3828))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3827))
 // CS Name: ::System.Collections.Generic::IDictionary`2<TKey,TValue>*
 class CORDL_TYPE IDictionary_2 {
 public:

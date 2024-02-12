@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::EVRNotificationType);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8634))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8578))
 // CS Name: ::OVR.OpenVR::EVRNotificationType
 struct CORDL_TYPE EVRNotificationType {
 public:

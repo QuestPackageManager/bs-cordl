@@ -20,12 +20,12 @@ MARK_REF_PTR_T(::UnityEngine::UnityString);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16009))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16104))
 // CS Name: ::UnityEngine::UnityString*
 class CORDL_TYPE UnityString : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Format, addr 0x2d1810c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x2d38bb4, size 0x88, virtual false, abstract: false, final false
   static inline ::StringW Format(::StringW fmt, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
   // Ctor Parameters [CppParam { name: "", ty: "UnityString", modifiers: "&&", def_value: None }]

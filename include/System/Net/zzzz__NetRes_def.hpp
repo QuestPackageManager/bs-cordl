@@ -22,18 +22,18 @@ MARK_REF_PTR_T(::System::Net::NetRes);
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9108))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7118))
 // CS Name: ::System.Net::NetRes*
 class CORDL_TYPE NetRes : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetWebStatusString, addr 0x299e1e8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetWebStatusString, addr 0x29a2c8c, size 0xbc, virtual false, abstract: false, final false
   static inline ::StringW GetWebStatusString(::StringW Res, ::System::Net::WebExceptionStatus Status);
 
-  /// @brief Method GetWebStatusString, addr 0x29a8678, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetWebStatusString, addr 0x29ad11c, size 0x5c, virtual false, abstract: false, final false
   static inline ::StringW GetWebStatusString(::System::Net::WebExceptionStatus Status);
 
-  /// @brief Method GetWebStatusCodeString, addr 0x29a86d4, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method GetWebStatusCodeString, addr 0x29ad178, size 0x1dc, virtual false, abstract: false, final false
   static inline ::StringW GetWebStatusCodeString(::System::Net::FtpStatusCode statusCode, ::StringW statusDescription);
 
   // Ctor Parameters [CppParam { name: "", ty: "NetRes", modifiers: "&&", def_value: None }]

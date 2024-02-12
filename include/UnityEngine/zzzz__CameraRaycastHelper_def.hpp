@@ -27,21 +27,21 @@ MARK_REF_PTR_T(::UnityEngine::CameraRaycastHelper);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15954))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16077))
 // CS Name: ::UnityEngine::CameraRaycastHelper*
 class CORDL_TYPE CameraRaycastHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method RaycastTry, addr 0x2d0e258, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method RaycastTry, addr 0x2d19b44, size 0x64, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> RaycastTry(::UnityEngine::Camera* cam, ::UnityEngine::Ray ray, float_t distance, int32_t layerMask);
 
-  /// @brief Method RaycastTry2D, addr 0x2d0e320, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method RaycastTry2D, addr 0x2d19c0c, size 0x64, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> RaycastTry2D(::UnityEngine::Camera* cam, ::UnityEngine::Ray ray, float_t distance, int32_t layerMask);
 
-  /// @brief Method RaycastTry_Injected, addr 0x2d0e2bc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method RaycastTry_Injected, addr 0x2d19ba8, size 0x64, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> RaycastTry_Injected(::UnityEngine::Camera* cam, ByRef<::UnityEngine::Ray> ray, float_t distance, int32_t layerMask);
 
-  /// @brief Method RaycastTry2D_Injected, addr 0x2d0e384, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method RaycastTry2D_Injected, addr 0x2d19c70, size 0x64, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> RaycastTry2D_Injected(::UnityEngine::Camera* cam, ByRef<::UnityEngine::Ray> ray, float_t distance, int32_t layerMask);
 
   // Ctor Parameters [CppParam { name: "", ty: "CameraRaycastHelper", modifiers: "&&", def_value: None }]

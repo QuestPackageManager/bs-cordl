@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::GlobalNamespace::AvatarColorAsset);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10422))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6003))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9190))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5280))
 // CS Name: ::AvatarColorAsset*
 class CORDL_TYPE AvatarColorAsset : public ::UnityEngine::Playables::PlayableAsset {
 public:
@@ -55,15 +55,15 @@ public:
 
   constexpr void __cordl_internal_set__template(::GlobalNamespace::AvatarColorBehaviour* value);
 
-  /// @brief Method get_clipCaps, addr 0x2315198, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_clipCaps, addr 0x2341160, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Timeline::ClipCaps get_clipCaps();
 
-  /// @brief Method CreatePlayable, addr 0x23151a0, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method CreatePlayable, addr 0x2341168, size 0xa8, virtual true, abstract: false, final false
   inline ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go);
 
   static inline ::GlobalNamespace::AvatarColorAsset* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2315248, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2341210, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AvatarColorAsset", modifiers: "&&", def_value: None }]

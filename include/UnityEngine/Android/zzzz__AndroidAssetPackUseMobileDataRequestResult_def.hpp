@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::UnityEngine::Android::AndroidAssetPackUseMobileDataRequestResul
 namespace UnityEngine::Android {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14924))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14797))
 // CS Name: ::UnityEngine.Android::AndroidAssetPackUseMobileDataRequestResult*
 class CORDL_TYPE AndroidAssetPackUseMobileDataRequestResult : public ::System::Object {
 public:
@@ -31,7 +31,7 @@ public:
 
   static inline ::UnityEngine::Android::AndroidAssetPackUseMobileDataRequestResult* New_ctor(bool allowed);
 
-  /// @brief Method .ctor, addr 0x2c8cc04, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c89770, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool allowed);
 
   // Ctor Parameters [CppParam { name: "", ty: "AndroidAssetPackUseMobileDataRequestResult", modifiers: "&&", def_value: None }]

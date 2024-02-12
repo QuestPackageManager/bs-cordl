@@ -9,6 +9,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MissionNode)
 namespace GlobalNamespace {
+class IMissionNode;
+}
+namespace GlobalNamespace {
 class MissionDataSO;
 }
 namespace GlobalNamespace {
@@ -30,8 +33,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionNode);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5543))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4849))
 // CS Name: ::MissionNode*
 class CORDL_TYPE MissionNode : public ::UnityEngine::MonoBehaviour {
 public:
@@ -74,6 +77,12 @@ public:
 
   __declspec(property(get = get_radius)) float_t radius;
 
+  /// @brief Convert operator to "::GlobalNamespace::IMissionNode"
+  constexpr operator ::GlobalNamespace::IMissionNode*() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::IMissionNode"
+  constexpr ::GlobalNamespace::IMissionNode* i___GlobalNamespace__IMissionNode() noexcept;
+
   constexpr ::UnityW<::GlobalNamespace::MissionDataSO>& __cordl_internal_get__missionDataSO();
 
   constexpr ::UnityW<::GlobalNamespace::MissionDataSO> const& __cordl_internal_get__missionDataSO() const;
@@ -110,36 +119,36 @@ public:
 
   constexpr void __cordl_internal_set__childNodes(::ArrayW<::UnityW<::GlobalNamespace::MissionNode>, ::Array<::UnityW<::GlobalNamespace::MissionNode>>*> value);
 
-  /// @brief Method get_missionData, addr 0x22a04c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_missionData, addr 0x23fad4c, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::GlobalNamespace::MissionDataSO> get_missionData();
 
-  /// @brief Method get_childNodes, addr 0x22a04d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_childNodes, addr 0x23fad54, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::MissionNode>, ::Array<::UnityW<::GlobalNamespace::MissionNode>>*> get_childNodes();
 
-  /// @brief Method get_missionNodeVisualController, addr 0x22a04d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_missionNodeVisualController, addr 0x23fad5c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MissionNodeVisualController> get_missionNodeVisualController();
 
-  /// @brief Method get_letterPartName, addr 0x22a04e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_letterPartName, addr 0x23fad64, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_letterPartName();
 
-  /// @brief Method get_numberPartName, addr 0x22a04e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_numberPartName, addr 0x23fad6c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_numberPartName();
 
-  /// @brief Method get_missionId, addr 0x229f0f4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_missionId, addr 0x23f9978, size 0x24, virtual true, abstract: false, final true
   inline ::StringW get_missionId();
 
-  /// @brief Method get_formattedMissionNodeName, addr 0x22a04f0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_formattedMissionNodeName, addr 0x23fad74, size 0x88, virtual false, abstract: false, final false
   inline ::StringW get_formattedMissionNodeName();
 
-  /// @brief Method get_position, addr 0x229fed8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_position, addr 0x23fa75c, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_position();
 
-  /// @brief Method get_radius, addr 0x22a0578, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_radius, addr 0x23fadfc, size 0x40, virtual false, abstract: false, final false
   inline float_t get_radius();
 
   static inline ::GlobalNamespace::MissionNode* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22a05b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23fae3c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionNode", modifiers: "&&", def_value: None }]

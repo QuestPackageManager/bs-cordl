@@ -41,23 +41,23 @@ public:
 
   constexpr void __cordl_internal_set_restriction(::Org::BouncyCastle::Asn1::X500::DirectoryString* value);
 
-  /// @brief Method GetInstance, addr 0xf7b184, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xfa6014, size 0x158, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::Restriction* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::Restriction* New_ctor(::Org::BouncyCastle::Asn1::X500::DirectoryString* restriction);
 
-  /// @brief Method .ctor, addr 0xf7b2dc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfa616c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X500::DirectoryString* restriction);
 
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::Restriction* New_ctor(::StringW restriction);
 
-  /// @brief Method .ctor, addr 0xf7b304, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfa6194, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::StringW restriction);
 
-  /// @brief Method get_RestrictionString, addr 0xf7b380, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_RestrictionString, addr 0xfa6210, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X500::DirectoryString* get_RestrictionString();
 
-  /// @brief Method ToAsn1Object, addr 0xf7b388, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xfa6218, size 0x20, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "Restriction", modifiers: "&&", def_value: None }]

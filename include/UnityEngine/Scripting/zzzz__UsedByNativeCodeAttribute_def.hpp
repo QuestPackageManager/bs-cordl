@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::UnityEngine::Scripting::UsedByNativeCodeAttribute);
 namespace UnityEngine::Scripting {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16010))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16105))
 // CS Name: ::UnityEngine.Scripting::UsedByNativeCodeAttribute*
 class CORDL_TYPE UsedByNativeCodeAttribute : public ::System::Attribute {
 public:
@@ -34,15 +34,15 @@ public:
 
   static inline ::UnityEngine::Scripting::UsedByNativeCodeAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d18194, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d38c3c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Scripting::UsedByNativeCodeAttribute* New_ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x2d1819c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d38c44, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method set_Name, addr 0x2d181c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x2d38c6c, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
   // Ctor Parameters [CppParam { name: "", ty: "UsedByNativeCodeAttribute", modifiers: "&&", def_value: None }]

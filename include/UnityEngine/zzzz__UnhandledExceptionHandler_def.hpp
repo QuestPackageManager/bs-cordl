@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::UnityEngine::__UnhandledExceptionHandler____c);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10226))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8970))
 // CS Name: ::UnhandledExceptionHandler::<>c*
 class CORDL_TYPE __UnhandledExceptionHandler____c : public ::System::Object {
 public:
@@ -52,10 +52,10 @@ public:
 
   static inline ::UnityEngine::__UnhandledExceptionHandler____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2cd3560, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cda508, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <RegisterUECatcher>b__0_0, addr 0x2cd3568, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method <RegisterUECatcher>b__0_0, addr 0x2cda510, size 0xb4, virtual false, abstract: false, final false
   inline void _RegisterUECatcher_b__0_0(::System::Object* sender, ::System::UnhandledExceptionEventArgs* e);
 
   // Ctor Parameters [CppParam { name: "", ty: "__UnhandledExceptionHandler____c", modifiers: "&&", def_value: None }]
@@ -83,14 +83,14 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::__UnhandledExceptio
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10227))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8971))
 // CS Name: ::UnityEngine::UnhandledExceptionHandler*
 class CORDL_TYPE UnhandledExceptionHandler : public ::System::Object {
 public:
   // Declarations
   using __c = ::UnityEngine::__UnhandledExceptionHandler____c;
 
-  /// @brief Method RegisterUECatcher, addr 0x2cd3404, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method RegisterUECatcher, addr 0x2cda3ac, size 0xf8, virtual false, abstract: false, final false
   static inline void RegisterUECatcher();
 
   // Ctor Parameters [CppParam { name: "", ty: "UnhandledExceptionHandler", modifiers: "&&", def_value: None }]

@@ -49,7 +49,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::XInput::__XInputController__Capabilities)
 namespace UnityEngine::InputSystem::XInput {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6351))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5610))
 // CS Name: ::XInputController::DeviceType
 struct CORDL_TYPE __XInputController__DeviceType {
 public:
@@ -95,7 +95,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::XInput::__XInputController__D
 namespace UnityEngine::InputSystem::XInput {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6352))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5611))
 // CS Name: ::XInputController::DeviceSubType
 struct CORDL_TYPE __XInputController__DeviceSubType {
 public:
@@ -181,7 +181,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::XInput::__XInputController__D
 namespace UnityEngine::InputSystem::XInput {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6353))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5612))
 // CS Name: ::XInputController::DeviceFlags
 struct CORDL_TYPE __XInputController__DeviceFlags {
 public:
@@ -242,8 +242,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::XInput::__XInputController__D
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::XInput {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6351)), TypeDefinitionIndex(TypeDefinitionIndex(6352)), TypeDefinitionIndex(TypeDefinitionIndex(6353))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6354))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5610)), TypeDefinitionIndex(TypeDefinitionIndex(5611)), TypeDefinitionIndex(TypeDefinitionIndex(5612))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5613))
 // CS Name: ::XInputController::Capabilities
 struct CORDL_TYPE __XInputController__Capabilities {
 public:
@@ -286,8 +286,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::XInput::__XInputController__C
 // SizeInfo { instance_size: 504, native_size: -1, calculated_instance_size: 504, calculated_native_size: 500, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::XInput {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6237)), TypeDefinitionIndex(TypeDefinitionIndex(6352)), TypeDefinitionIndex(TypeDefinitionIndex(6353))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6355))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5496)), TypeDefinitionIndex(TypeDefinitionIndex(5611)), TypeDefinitionIndex(TypeDefinitionIndex(5612))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5614))
 // CS Name: ::UnityEngine.InputSystem.XInput::XInputController*
 class CORDL_TYPE XInputController : public ::UnityEngine::InputSystem::Gamepad {
 public:
@@ -353,33 +353,33 @@ public:
 
   constexpr void __cordl_internal_set_m_Flags(::UnityEngine::InputSystem::XInput::__XInputController__DeviceFlags value);
 
-  /// @brief Method get_menu, addr 0x2ac9a00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_menu, addr 0x2aca56c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_menu();
 
-  /// @brief Method set_menu, addr 0x2ac9a08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_menu, addr 0x2aca574, size 0x8, virtual false, abstract: false, final false
   inline void set_menu(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method get_view, addr 0x2ac9a10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_view, addr 0x2aca57c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_view();
 
-  /// @brief Method set_view, addr 0x2ac9a18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_view, addr 0x2aca584, size 0x8, virtual false, abstract: false, final false
   inline void set_view(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method get_subType, addr 0x2ac9a20, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_subType, addr 0x2aca58c, size 0x24, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::XInput::__XInputController__DeviceSubType get_subType();
 
-  /// @brief Method get_flags, addr 0x2ac9ab4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_flags, addr 0x2aca620, size 0x24, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::XInput::__XInputController__DeviceFlags get_flags();
 
-  /// @brief Method FinishSetup, addr 0x2ac9ad8, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x2aca644, size 0x20, virtual true, abstract: false, final false
   inline void FinishSetup();
 
-  /// @brief Method ParseCapabilities, addr 0x2ac9a44, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ParseCapabilities, addr 0x2aca5b0, size 0x70, virtual false, abstract: false, final false
   inline void ParseCapabilities();
 
   static inline ::UnityEngine::InputSystem::XInput::XInputController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ac9af8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aca664, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "XInputController", modifiers: "&&", def_value: None }]

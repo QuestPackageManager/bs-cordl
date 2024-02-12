@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::VREvent_WebConsole_t);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8688))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8632))
 // CS Name: ::OVR.OpenVR::VREvent_WebConsole_t
 struct CORDL_TYPE VREvent_WebConsole_t {
 public:

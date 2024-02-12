@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::FocusChangeDirection);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6881))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6140))
 // CS Name: ::UnityEngine.UIElements::FocusChangeDirection*
 class CORDL_TYPE FocusChangeDirection : public ::System::Object {
 public:
@@ -67,30 +67,30 @@ public:
 
   static inline ::UnityEngine::UIElements::FocusChangeDirection* getStaticF__lastValue_k__BackingField();
 
-  /// @brief Method get_unspecified, addr 0x2dfa40c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_unspecified, addr 0x2e177f4, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::FocusChangeDirection* get_unspecified();
 
-  /// @brief Method get_none, addr 0x2dfa464, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_none, addr 0x2e1784c, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::FocusChangeDirection* get_none();
 
-  /// @brief Method get_lastValue, addr 0x2dfa4bc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_lastValue, addr 0x2e178a4, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::FocusChangeDirection* get_lastValue();
 
   static inline ::UnityEngine::UIElements::FocusChangeDirection* New_ctor(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2dfa514, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e178fc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t value);
 
-  /// @brief Method op_Implicit, addr 0x2dfa53c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2e17924, size 0xc, virtual false, abstract: false, final false
   static inline int32_t op_Implicit_int32_t(::UnityEngine::UIElements::FocusChangeDirection* fcd);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x2dfa548, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x2e17930, size 0xc, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method Dispose, addr 0x2dfa554, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x2e1793c, size 0x4, virtual true, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method ApplyTo, addr 0x2dfa558, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method ApplyTo, addr 0x2e17940, size 0x28, virtual true, abstract: false, final false
   inline void ApplyTo(::UnityEngine::UIElements::FocusController* focusController, ::UnityEngine::UIElements::Focusable* f);
 
   // Ctor Parameters [CppParam { name: "", ty: "FocusChangeDirection", modifiers: "&&", def_value: None }]

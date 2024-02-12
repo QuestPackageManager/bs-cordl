@@ -53,7 +53,7 @@ namespace UnityEngine::InputSystem::Utilities {
 template <typename TValue>
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6700))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5959))
 // CS Name: ::ReadOnlyArray`1::Enumerator<TValue>
 struct CORDL_TYPE __ReadOnlyArray_1__Enumerator {
 public:
@@ -132,7 +132,7 @@ namespace UnityEngine::InputSystem::Utilities {
 template <typename TValue>
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6701))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5960))
 // CS Name: ::UnityEngine.InputSystem.Utilities::ReadOnlyArray`1<TValue>
 struct CORDL_TYPE ReadOnlyArray_1 {
 public:

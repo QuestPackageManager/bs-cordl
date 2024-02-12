@@ -37,15 +37,15 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Bcpg::PublicSubkeyPacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor, addr 0x11cf194, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11fd024, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
   static inline ::Org::BouncyCastle::Bcpg::PublicSubkeyPacket* New_ctor(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, ::System::DateTime time, ::Org::BouncyCastle::Bcpg::IBcpgKey* key);
 
-  /// @brief Method .ctor, addr 0x11d2864, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12006f4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, ::System::DateTime time, ::Org::BouncyCastle::Bcpg::IBcpgKey* key);
 
-  /// @brief Method Encode, addr 0x11d2868, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x12006f8, size 0x38, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
   // Ctor Parameters [CppParam { name: "", ty: "PublicSubkeyPacket", modifiers: "&&", def_value: None }]

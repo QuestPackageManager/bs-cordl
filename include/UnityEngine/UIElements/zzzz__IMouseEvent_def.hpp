@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IMouseEvent);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7213))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6472))
 // CS Name: ::UnityEngine.UIElements::IMouseEvent*
 class CORDL_TYPE IMouseEvent {
 public:

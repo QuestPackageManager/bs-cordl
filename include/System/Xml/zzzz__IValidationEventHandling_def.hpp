@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::System::Xml::IValidationEventHandling);
 namespace System::Xml {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11431))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11329))
 // CS Name: ::System.Xml::IValidationEventHandling*
 class CORDL_TYPE IValidationEventHandling {
 public:

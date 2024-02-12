@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::Tweening::Tween);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Tweening {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(16090))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16098))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(16199))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16207))
 // CS Name: ::Tweening::Tween*
 class CORDL_TYPE Tween : public ::System::Object {
 public:
@@ -147,58 +147,58 @@ public:
 
   constexpr void __cordl_internal_set__easeType(::GlobalNamespace::EaseType value);
 
-  /// @brief Method get_isStarted, addr 0x2a0e560, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isStarted, addr 0x2a110cc, size 0x8, virtual false, abstract: false, final false
   inline bool get_isStarted();
 
-  /// @brief Method get_isActive, addr 0x2a0e568, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_isActive, addr 0x2a110d4, size 0x30, virtual false, abstract: false, final false
   inline bool get_isActive();
 
-  /// @brief Method get_isComplete, addr 0x2a0e598, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_isComplete, addr 0x2a11104, size 0x14, virtual false, abstract: false, final false
   inline bool get_isComplete();
 
-  /// @brief Method get_isKilled, addr 0x2a0e5ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isKilled, addr 0x2a11118, size 0x8, virtual false, abstract: false, final false
   inline bool get_isKilled();
 
-  /// @brief Method get_progress, addr 0x2a0e5b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_progress, addr 0x2a11120, size 0x8, virtual false, abstract: false, final false
   inline float_t get_progress();
 
-  /// @brief Method get_startTime, addr 0x2a0e5bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_startTime, addr 0x2a11128, size 0x8, virtual false, abstract: false, final false
   inline float_t get_startTime();
 
-  /// @brief Method get_duration, addr 0x2a0e5c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_duration, addr 0x2a11130, size 0x8, virtual false, abstract: false, final false
   inline float_t get_duration();
 
-  /// @brief Method set_duration, addr 0x2a0e5cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_duration, addr 0x2a11138, size 0x8, virtual false, abstract: false, final false
   inline void set_duration(float_t value);
 
-  /// @brief Method get_loop, addr 0x2a0e5d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_loop, addr 0x2a11140, size 0x8, virtual false, abstract: false, final false
   inline bool get_loop();
 
-  /// @brief Method set_loop, addr 0x2a0e5dc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_loop, addr 0x2a11148, size 0xc, virtual false, abstract: false, final false
   inline void set_loop(bool value);
 
-  /// @brief Method get_delay, addr 0x2a0e5e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_delay, addr 0x2a11154, size 0x8, virtual false, abstract: false, final false
   inline float_t get_delay();
 
-  /// @brief Method set_delay, addr 0x2a0e5f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_delay, addr 0x2a1115c, size 0x8, virtual false, abstract: false, final false
   inline void set_delay(float_t value);
 
-  /// @brief Method get_easeType, addr 0x2a0e5f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_easeType, addr 0x2a11164, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EaseType get_easeType();
 
-  /// @brief Method set_easeType, addr 0x2a0e600, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_easeType, addr 0x2a1116c, size 0x8, virtual false, abstract: false, final false
   inline void set_easeType(::GlobalNamespace::EaseType value);
 
-  /// @brief Method Kill, addr 0x2a0e608, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Kill, addr 0x2a11174, size 0xc, virtual false, abstract: false, final false
   inline void Kill();
 
-  /// @brief Method Restart, addr 0x2a0e614, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Restart, addr 0x2a11180, size 0x10, virtual false, abstract: false, final false
   inline void Restart(float_t startTime);
 
-  /// @brief Method Resume, addr 0x2a0e624, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Resume, addr 0x2a11190, size 0x8, virtual false, abstract: false, final false
   inline void Resume();
 
-  /// @brief Method SetStartTimeAndEndTime, addr 0x2a0e62c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetStartTimeAndEndTime, addr 0x2a11198, size 0xc, virtual false, abstract: false, final false
   inline void SetStartTimeAndEndTime(float_t startTime, float_t endTime);
 
   /// @brief Method Update, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -209,7 +209,7 @@ public:
 
   static inline ::Tweening::Tween* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2a0e638, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a111a4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Tween", modifiers: "&&", def_value: None }]

@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::Test_Transform);
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9907))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9699))
 // CS Name: ::HoudiniEngineUnity::Test_Transform*
 class CORDL_TYPE Test_Transform : public ::System::Object {
 public:
@@ -52,13 +52,13 @@ public:
 
   static inline ::HoudiniEngineUnity::Test_Transform* New_ctor(::UnityEngine::Transform* self);
 
-  /// @brief Method .ctor, addr 0x21e4868, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x227a150, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Transform* self);
 
-  /// @brief Method IsNull, addr 0x21e4890, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method IsNull, addr 0x227a178, size 0x60, virtual true, abstract: false, final true
   inline bool IsNull();
 
-  /// @brief Method IsEquivalentTo, addr 0x21e48f0, size 0x1cc, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x227a1d8, size 0x1cc, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_Transform* other);
 
   // Ctor Parameters [CppParam { name: "", ty: "Test_Transform", modifiers: "&&", def_value: None }]

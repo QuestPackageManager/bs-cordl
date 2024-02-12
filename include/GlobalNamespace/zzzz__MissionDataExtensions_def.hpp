@@ -19,12 +19,12 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionDataExtensions);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4461))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10871))
 // CS Name: ::MissionDataExtensions*
 class CORDL_TYPE MissionDataExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Name, addr 0x2352d4c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Name, addr 0x1294408, size 0x94, virtual false, abstract: false, final false
   static inline ::StringW Name(::GlobalNamespace::__MissionObjective__ReferenceValueComparisonType comparisonType);
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionDataExtensions", modifiers: "&&", def_value: None }]

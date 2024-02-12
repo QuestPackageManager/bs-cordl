@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::NotKeyableAttribute);
 namespace UnityEngine::Timeline {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13916))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13869))
 // CS Name: ::UnityEngine.Timeline::NotKeyableAttribute*
 class CORDL_TYPE NotKeyableAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::UnityEngine::Timeline::NotKeyableAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c6e6c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c6b22c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NotKeyableAttribute", modifiers: "&&", def_value: None }]

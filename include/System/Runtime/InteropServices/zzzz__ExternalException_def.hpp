@@ -32,28 +32,28 @@ public:
 
   static inline ::System::Runtime::InteropServices::ExternalException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24d64e8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f755c, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Runtime::InteropServices::ExternalException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x24d6544, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f75b8, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::System::Runtime::InteropServices::ExternalException* New_ctor(::StringW message, int32_t errorCode);
 
-  /// @brief Method .ctor, addr 0x24d6568, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f75dc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, int32_t errorCode);
 
   static inline ::System::Runtime::InteropServices::ExternalException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x24d6590, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f7604, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method get_ErrorCode, addr 0x24d6598, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ErrorCode, addr 0x24f760c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ErrorCode();
 
-  /// @brief Method ToString, addr 0x24d65a0, size 0x1e4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x24f7614, size 0x1e4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "ExternalException", modifiers: "&&", def_value: None }]

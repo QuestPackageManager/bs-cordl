@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::Tayx::Graphy::Fps::G_FpsGraph);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 100, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Tayx::Graphy::Fps {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15080))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15081))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14953))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14954))
 // CS Name: ::Tayx.Graphy.Fps::G_FpsGraph*
 class CORDL_TYPE G_FpsGraph : public ::Tayx::Graphy::Graph::G_Graph {
 public:
@@ -127,24 +127,24 @@ public:
 
   constexpr void __cordl_internal_set_m_highestFps(int32_t value);
 
-  /// @brief Method Update, addr 0x2a08444, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2a0cee8, size 0xc, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateParameters, addr 0x2a08450, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method UpdateParameters, addr 0x2a0cef4, size 0x100, virtual false, abstract: false, final false
   inline void UpdateParameters();
 
-  /// @brief Method Init, addr 0x2a08550, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2a0cff4, size 0x114, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method UpdateGraph, addr 0x2a08664, size 0x244, virtual true, abstract: false, final false
+  /// @brief Method UpdateGraph, addr 0x2a0d108, size 0x244, virtual true, abstract: false, final false
   inline void UpdateGraph();
 
-  /// @brief Method CreatePoints, addr 0x2a088a8, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method CreatePoints, addr 0x2a0d34c, size 0x14c, virtual true, abstract: false, final false
   inline void CreatePoints();
 
   static inline ::Tayx::Graphy::Fps::G_FpsGraph* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2a089f4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a0d498, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "G_FpsGraph", modifiers: "&&", def_value: None }]

@@ -1,5 +1,4 @@
 #pragma once
-#include "GlobalNamespace/zzzz__OVRAnchor_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRPlugin_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRSpace_impl.hpp"
 #include "System/zzzz__Guid_impl.hpp"
@@ -7,7 +6,6 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRSceneAnchor_def.hpp"
-#include "GlobalNamespace/zzzz__OVRAnchor_def.hpp"
 #include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
 #include "GlobalNamespace/zzzz__OVRSpace_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -19,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRSpace (::GlobalNamespace::OVRSceneAnchor::*)()>(
     &::GlobalNamespace::OVRSceneAnchor::get_Space)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x277f6f4;
+  constexpr static std::size_t addrs = 0x279d918;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSceneAnchor*>::get(), "get_Space",
@@ -33,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSceneAnchor::*)(::GlobalNamespace::OVRSpace)>(
     &::GlobalNamespace::OVRSceneAnchor::set_Space)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x277f6fc;
+  constexpr static std::size_t addrs = 0x279d920;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Guid (::GlobalNamespace::OVRSceneAnchor::*)()>(&::GlobalNamespace::OVRSceneAnchor::get_Uuid)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x277f704;
+  constexpr static std::size_t addrs = 0x279d928;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSceneAnchor*>::get(), "get_Uuid",
@@ -60,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSceneAnchor::*)(::System::Guid)>(&::GlobalNamespace::OVRSceneAnchor::set_Uuid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x277f710;
+  constexpr static std::size_t addrs = 0x279d934;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,41 +67,12 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OVRSceneAnchor.get_Anchor
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRAnchor (::GlobalNamespace::OVRSceneAnchor::*)()>(
-    &::GlobalNamespace::OVRSceneAnchor::get_Anchor)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x277f718;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSceneAnchor*>::get(), "get_Anchor",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::OVRSceneAnchor.set_Anchor
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSceneAnchor::*)(::GlobalNamespace::OVRAnchor)>(
-    &::GlobalNamespace::OVRSceneAnchor::set_Anchor)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x277f72c;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSceneAnchor*>::get(), "set_Anchor", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRAnchor>::get() })));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::GlobalNamespace::OVRSceneAnchor.get_IsTracked
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRSceneAnchor::*)()>(&::GlobalNamespace::OVRSceneAnchor::get_IsTracked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x277f740;
+  constexpr static std::size_t addrs = 0x279d93c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSceneAnchor*>::get(), "get_IsTracked",
@@ -116,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSceneAnchor::*)(bool)>(&::GlobalNamespace::OVRSceneAnchor::set_IsTracked)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x277f748;
+  constexpr static std::size_t addrs = 0x279d944;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -131,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRSceneAnchor::*)(::GlobalNamespace::__OVRPlugin__SpaceComponentType)>(
     &::GlobalNamespace::OVRSceneAnchor::IsComponentEnabled)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x277f754;
+  constexpr static std::size_t addrs = 0x279d950;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -145,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSceneAnchor::*)()>(&::GlobalNamespace::OVRSceneAnchor::ClearPoseCache)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x277f7e4;
+  constexpr static std::size_t addrs = 0x279d9e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSceneAnchor*>::get(), "ClearPoseCache",
@@ -156,15 +125,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::OVRSceneAnchor.Initialize
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSceneAnchor::*)(::GlobalNamespace::OVRAnchor)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSceneAnchor::*)(::GlobalNamespace::OVRSpace, ::System::Guid)>(
     &::GlobalNamespace::OVRSceneAnchor::Initialize)> {
-  constexpr static std::size_t size = 0x36c;
-  constexpr static std::size_t addrs = 0x277f7f4;
+  constexpr static std::size_t size = 0x368;
+  constexpr static std::size_t addrs = 0x279d9f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSceneAnchor*>::get(), "Initialize", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRAnchor>::get() })));
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRSpace>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Guid>::get() })));
     return ___internal_method;
   }
 };
@@ -173,8 +143,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSceneAnchor::*)(::GlobalNamespace::OVRSceneAnchor*)>(
     &::GlobalNamespace::OVRSceneAnchor::InitializeFrom)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x277fe84;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x279e02c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -189,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSceneAnchor>>*)>(
     &::GlobalNamespace::OVRSceneAnchor::GetSceneAnchors)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x277ff6c;
+  constexpr static std::size_t addrs = 0x279e0fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -202,8 +172,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRSceneAnchor::*)(bool)>(&::GlobalNamespace::OVRSceneAnchor::TryUpdateTransform)> {
-  constexpr static std::size_t size = 0x310;
-  constexpr static std::size_t addrs = 0x277fb74;
+  constexpr static std::size_t size = 0x2c4;
+  constexpr static std::size_t addrs = 0x279dd68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -217,7 +187,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSceneAnchor::*)()>(&::GlobalNamespace::OVRSceneAnchor::OnDestroy)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x2780064;
+  constexpr static std::size_t addrs = 0x279e1f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSceneAnchor*>::get(), "OnDestroy",
@@ -230,7 +200,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSceneAnchor::*)()>(&::GlobalNamespace::OVRSceneAnchor::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2780244;
+  constexpr static std::size_t addrs = 0x279e3d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSceneAnchor*>::get(), ".ctor",
@@ -261,18 +231,6 @@ constexpr ::System::Guid const& GlobalNamespace::OVRSceneAnchor::__cordl_interna
 constexpr void GlobalNamespace::OVRSceneAnchor::__cordl_internal_set__Uuid_k__BackingField(::System::Guid value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Uuid_k__BackingField = value;
-}
-constexpr ::GlobalNamespace::OVRAnchor& GlobalNamespace::OVRSceneAnchor::__cordl_internal_get__Anchor_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____Anchor_k__BackingField;
-}
-constexpr ::GlobalNamespace::OVRAnchor const& GlobalNamespace::OVRSceneAnchor::__cordl_internal_get__Anchor_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____Anchor_k__BackingField;
-}
-constexpr void GlobalNamespace::OVRSceneAnchor::__cordl_internal_set__Anchor_k__BackingField(::GlobalNamespace::OVRAnchor value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____Anchor_k__BackingField = value;
 }
 constexpr bool& GlobalNamespace::OVRSceneAnchor::__cordl_internal_get__IsTracked_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -354,17 +312,6 @@ inline void GlobalNamespace::OVRSceneAnchor::set_Uuid(::System::Guid value) {
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Guid>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::GlobalNamespace::OVRAnchor GlobalNamespace::OVRSceneAnchor::get_Anchor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSceneAnchor*>::get(), "get_Anchor",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRAnchor, false>(this, ___internal_method);
-}
-inline void GlobalNamespace::OVRSceneAnchor::set_Anchor(::GlobalNamespace::OVRAnchor value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSceneAnchor*>::get(), "set_Anchor", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRAnchor>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
 inline bool GlobalNamespace::OVRSceneAnchor::get_IsTracked() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSceneAnchor*>::get(), "get_IsTracked",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -396,11 +343,12 @@ inline void GlobalNamespace::OVRSceneAnchor::ClearPoseCache() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::OVRSceneAnchor::Initialize(::GlobalNamespace::OVRAnchor anchor) {
+inline void GlobalNamespace::OVRSceneAnchor::Initialize(::GlobalNamespace::OVRSpace space, ::System::Guid uuid) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSceneAnchor*>::get(), "Initialize", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRAnchor>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, anchor);
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRSpace>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Guid>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, space, uuid);
 }
 inline void GlobalNamespace::OVRSceneAnchor::InitializeFrom(::GlobalNamespace::OVRSceneAnchor* other) {
   static auto* ___internal_method = THROW_UNLESS(

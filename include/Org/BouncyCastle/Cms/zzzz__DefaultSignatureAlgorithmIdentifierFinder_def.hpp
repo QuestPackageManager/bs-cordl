@@ -137,18 +137,18 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_ENCRYPTION_ECGOST3410_2012_512();
 
-  /// @brief Method Generate, addr 0x11fae30, size 0x6c0, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x1227cc0, size 0x6c0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* Generate(::StringW signatureAlgorithm);
 
-  /// @brief Method CreatePssParams, addr 0x11fad04, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method CreatePssParams, addr 0x1227b94, size 0x12c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters* CreatePssParams(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlgId, int32_t saltSize);
 
-  /// @brief Method Find, addr 0x11fb4f0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Find, addr 0x1228380, size 0x54, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* Find(::StringW sigAlgName);
 
   static inline ::Org::BouncyCastle::Cms::DefaultSignatureAlgorithmIdentifierFinder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x11fb544, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12283d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultSignatureAlgorithmIdentifierFinder", modifiers: "&&", def_value: None }]

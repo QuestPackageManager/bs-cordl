@@ -112,87 +112,87 @@ public:
 
   static inline ::Mono::Security::Cryptography::KeyPairPersistence* New_ctor(::System::Security::Cryptography::CspParameters* parameters);
 
-  /// @brief Method .ctor, addr 0x241eed4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x243ed34, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::CspParameters* parameters);
 
   static inline ::Mono::Security::Cryptography::KeyPairPersistence* New_ctor(::System::Security::Cryptography::CspParameters* parameters, ::StringW keyPair);
 
-  /// @brief Method .ctor, addr 0x241eedc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x243ed3c, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::CspParameters* parameters, ::StringW keyPair);
 
-  /// @brief Method get_Filename, addr 0x241eff8, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method get_Filename, addr 0x243ee58, size 0x18c, virtual false, abstract: false, final false
   inline ::StringW get_Filename();
 
-  /// @brief Method get_KeyValue, addr 0x241fd34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KeyValue, addr 0x243fb94, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_KeyValue();
 
-  /// @brief Method set_KeyValue, addr 0x241fd3c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_KeyValue, addr 0x243fb9c, size 0x14, virtual false, abstract: false, final false
   inline void set_KeyValue(::StringW value);
 
-  /// @brief Method Load, addr 0x241fd60, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x243fbc0, size 0x1b4, virtual false, abstract: false, final false
   inline bool Load();
 
-  /// @brief Method Save, addr 0x242002c, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method Save, addr 0x243fe90, size 0x24c, virtual false, abstract: false, final false
   inline void Save();
 
-  /// @brief Method Remove, addr 0x24205ac, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x2440410, size 0x14, virtual false, abstract: false, final false
   inline void Remove();
 
-  /// @brief Method get_UserPath, addr 0x241f7ec, size 0x548, virtual false, abstract: false, final false
+  /// @brief Method get_UserPath, addr 0x243f64c, size 0x548, virtual false, abstract: false, final false
   static inline ::StringW get_UserPath();
 
-  /// @brief Method get_MachinePath, addr 0x241f2a4, size 0x548, virtual false, abstract: false, final false
+  /// @brief Method get_MachinePath, addr 0x243f104, size 0x548, virtual false, abstract: false, final false
   static inline ::StringW get_MachinePath();
 
-  /// @brief Method _CanSecure, addr 0x24206e0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method _CanSecure, addr 0x2440544, size 0x4, virtual false, abstract: false, final false
   static inline bool _CanSecure(::cordl_internals::Ptr<char16_t> root);
 
-  /// @brief Method _ProtectUser, addr 0x24206e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method _ProtectUser, addr 0x2440548, size 0x4, virtual false, abstract: false, final false
   static inline bool _ProtectUser(::cordl_internals::Ptr<char16_t> path);
 
-  /// @brief Method _ProtectMachine, addr 0x24206e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method _ProtectMachine, addr 0x244054c, size 0x4, virtual false, abstract: false, final false
   static inline bool _ProtectMachine(::cordl_internals::Ptr<char16_t> path);
 
-  /// @brief Method _IsUserProtected, addr 0x24206ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method _IsUserProtected, addr 0x2440550, size 0x4, virtual false, abstract: false, final false
   static inline bool _IsUserProtected(::cordl_internals::Ptr<char16_t> path);
 
-  /// @brief Method _IsMachineProtected, addr 0x24206f0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method _IsMachineProtected, addr 0x2440554, size 0x4, virtual false, abstract: false, final false
   static inline bool _IsMachineProtected(::cordl_internals::Ptr<char16_t> path);
 
-  /// @brief Method CanSecure, addr 0x24206f4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method CanSecure, addr 0x2440558, size 0xa0, virtual false, abstract: false, final false
   static inline bool CanSecure(::StringW path);
 
-  /// @brief Method ProtectUser, addr 0x242051c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ProtectUser, addr 0x2440380, size 0x90, virtual false, abstract: false, final false
   static inline bool ProtectUser(::StringW path);
 
-  /// @brief Method ProtectMachine, addr 0x242048c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ProtectMachine, addr 0x24402f0, size 0x90, virtual false, abstract: false, final false
   static inline bool ProtectMachine(::StringW path);
 
-  /// @brief Method IsUserProtected, addr 0x24205c0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method IsUserProtected, addr 0x2440424, size 0x90, virtual false, abstract: false, final false
   static inline bool IsUserProtected(::StringW path);
 
-  /// @brief Method IsMachineProtected, addr 0x2420650, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method IsMachineProtected, addr 0x24404b4, size 0x90, virtual false, abstract: false, final false
   static inline bool IsMachineProtected(::StringW path);
 
-  /// @brief Method get_CanChange, addr 0x241fd50, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_CanChange, addr 0x243fbb0, size 0x10, virtual false, abstract: false, final false
   inline bool get_CanChange();
 
-  /// @brief Method get_UseDefaultKeyContainer, addr 0x2420794, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_UseDefaultKeyContainer, addr 0x24405f8, size 0x20, virtual false, abstract: false, final false
   inline bool get_UseDefaultKeyContainer();
 
-  /// @brief Method get_UseMachineKeyStore, addr 0x241f284, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_UseMachineKeyStore, addr 0x243f0e4, size 0x20, virtual false, abstract: false, final false
   inline bool get_UseMachineKeyStore();
 
-  /// @brief Method get_ContainerName, addr 0x241f184, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method get_ContainerName, addr 0x243efe4, size 0x100, virtual false, abstract: false, final false
   inline ::StringW get_ContainerName();
 
-  /// @brief Method Copy, addr 0x241ef60, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Copy, addr 0x243edc0, size 0x98, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::CspParameters* Copy(::System::Security::Cryptography::CspParameters* p);
 
-  /// @brief Method FromXml, addr 0x241ff10, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method FromXml, addr 0x243fd74, size 0x11c, virtual false, abstract: false, final false
   inline void FromXml(::StringW xml);
 
-  /// @brief Method ToXml, addr 0x2420278, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method ToXml, addr 0x24400dc, size 0x214, virtual false, abstract: false, final false
   inline ::StringW ToXml();
 
   // Ctor Parameters [CppParam { name: "", ty: "KeyPairPersistence", modifiers: "&&", def_value: None }]

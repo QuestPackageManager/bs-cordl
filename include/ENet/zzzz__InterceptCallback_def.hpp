@@ -32,24 +32,24 @@ MARK_REF_PTR_T(::ENet::InterceptCallback);
 namespace ENet {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15225))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15338))
 // CS Name: ::ENet::InterceptCallback*
 class CORDL_TYPE InterceptCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::ENet::InterceptCallback* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x21ef208, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2284af0, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x21ef2e0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2284bc8, size 0x14, virtual true, abstract: false, final false
   inline int32_t Invoke(ByRef<::ENet::Event> event, ByRef<::ENet::Address> address, void* receivedData, int32_t receivedDataLength);
 
-  /// @brief Method BeginInvoke, addr 0x21ef2f4, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2284bdc, size 0x11c, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(ByRef<::ENet::Event> event, ByRef<::ENet::Address> address, void* receivedData, int32_t receivedDataLength, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x21ef410, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2284cf8, size 0x34, virtual true, abstract: false, final false
   inline int32_t EndInvoke(ByRef<::ENet::Event> event, ByRef<::ENet::Address> address, ::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "InterceptCallback", modifiers: "&&", def_value: None }]

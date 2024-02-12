@@ -16,7 +16,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HEU_PipelineType);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9853))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9645))
 // CS Name: ::HoudiniEngineUnity::HEU_PipelineType
 struct CORDL_TYPE HEU_PipelineType {
 public:

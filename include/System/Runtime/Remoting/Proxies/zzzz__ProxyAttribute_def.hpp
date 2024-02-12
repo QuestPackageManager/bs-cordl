@@ -50,17 +50,17 @@ public:
   /// @brief Convert to "::System::Runtime::Remoting::Contexts::IContextAttribute"
   constexpr ::System::Runtime::Remoting::Contexts::IContextAttribute* i___System__Runtime__Remoting__Contexts__IContextAttribute() noexcept;
 
-  /// @brief Method CreateInstance, addr 0x2496398, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x24b840c, size 0x104, virtual true, abstract: false, final false
   inline ::System::MarshalByRefObject* CreateInstance(::System::Type* serverType);
 
-  /// @brief Method CreateProxy, addr 0x24964e4, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method CreateProxy, addr 0x24b8558, size 0x70, virtual true, abstract: false, final false
   inline ::System::Runtime::Remoting::Proxies::RealProxy* CreateProxy(::System::Runtime::Remoting::ObjRef* objRef, ::System::Type* serverType, ::System::Object* serverObject,
                                                                       ::System::Runtime::Remoting::Contexts::Context* serverContext);
 
-  /// @brief Method GetPropertiesForNewContext, addr 0x2496554, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method GetPropertiesForNewContext, addr 0x24b85c8, size 0x4, virtual true, abstract: false, final true
   inline void GetPropertiesForNewContext(::System::Runtime::Remoting::Activation::IConstructionCallMessage* msg);
 
-  /// @brief Method IsContextOK, addr 0x2496558, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method IsContextOK, addr 0x24b85cc, size 0x8, virtual true, abstract: false, final true
   inline bool IsContextOK(::System::Runtime::Remoting::Contexts::Context* ctx, ::System::Runtime::Remoting::Activation::IConstructionCallMessage* msg);
 
   // Ctor Parameters [CppParam { name: "", ty: "ProxyAttribute", modifiers: "&&", def_value: None }]

@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IQuickPlaySetupModel);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4468))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10878))
 // CS Name: ::IQuickPlaySetupModel*
 class CORDL_TYPE IQuickPlaySetupModel {
 public:

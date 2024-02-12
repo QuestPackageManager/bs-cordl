@@ -24,8 +24,8 @@ MARK_VAL_T(::UnityEngine::Experimental::Playables::CameraPlayable);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Experimental::Playables {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10440))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10412))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9209))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9180))
 // CS Name: ::UnityEngine.Experimental.Playables::CameraPlayable
 struct CORDL_TYPE CameraPlayable {
 public:
@@ -42,10 +42,10 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Experimental::Playables::CameraPlayable>"
   constexpr ::System::IEquatable_1<::UnityEngine::Experimental::Playables::CameraPlayable>* i___System__IEquatable_1___UnityEngine__Experimental__Playables__CameraPlayable_();
 
-  /// @brief Method GetHandle, addr 0x2cf4834, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetHandle, addr 0x2cff510, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableHandle GetHandle();
 
-  /// @brief Method Equals, addr 0x2cf4840, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2cff51c, size 0x74, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Experimental::Playables::CameraPlayable other);
 
   // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableHandle", modifiers: "", def_value: None }]

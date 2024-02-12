@@ -78,28 +78,28 @@ public:
 
   static inline ::Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator* New_ctor(::Org::BouncyCastle::Utilities::Collections::LinkedDictionary* parent);
 
-  /// @brief Method .ctor, addr 0x1159368, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11871f8, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Utilities::Collections::LinkedDictionary* parent);
 
-  /// @brief Method get_Current, addr 0x1159c70, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method get_Current, addr 0x1187b00, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Object* get_Current();
 
-  /// @brief Method get_Entry, addr 0x1159cdc, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method get_Entry, addr 0x1187b6c, size 0xe0, virtual true, abstract: false, final false
   inline ::System::Collections::DictionaryEntry get_Entry();
 
-  /// @brief Method get_Key, addr 0x1159f38, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method get_Key, addr 0x1187dc8, size 0x4, virtual true, abstract: false, final false
   inline ::System::Object* get_Key();
 
-  /// @brief Method MoveNext, addr 0x1159f3c, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method MoveNext, addr 0x1187dcc, size 0x14c, virtual true, abstract: false, final false
   inline bool MoveNext();
 
-  /// @brief Method Reset, addr 0x115a088, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x1187f18, size 0xc, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method get_Value, addr 0x115a094, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x1187f24, size 0xb8, virtual true, abstract: false, final false
   inline ::System::Object* get_Value();
 
-  /// @brief Method get_CurrentKey, addr 0x1159dbc, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentKey, addr 0x1187c4c, size 0x17c, virtual false, abstract: false, final false
   inline ::System::Object* get_CurrentKey();
 
   // Ctor Parameters [CppParam { name: "", ty: "LinkedDictionaryEnumerator", modifiers: "&&", def_value: None }]

@@ -37,8 +37,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__RuntimeLightWithIds__LightIntensitiesWithId)
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14543))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14551))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14437))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14445))
 // CS Name: ::RuntimeLightWithIds::LightIntensitiesWithId*
 class CORDL_TYPE __RuntimeLightWithIds__LightIntensitiesWithId : public ::GlobalNamespace::__LightWithIds__LightWithId {
 public:
@@ -54,15 +54,15 @@ public:
 
   constexpr void __cordl_internal_set__intensity(float_t value);
 
-  /// @brief Method get_intensity, addr 0x2113b00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_intensity, addr 0x21a82a8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_intensity();
 
-  /// @brief Method set_intensity, addr 0x2113b08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_intensity, addr 0x21a82b0, size 0x8, virtual false, abstract: false, final false
   inline void set_intensity(float_t value);
 
   static inline ::GlobalNamespace::__RuntimeLightWithIds__LightIntensitiesWithId* New_ctor(int32_t lightId, float_t lightIntensity);
 
-  /// @brief Method .ctor, addr 0x2113b10, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21a82b8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t lightId, float_t lightIntensity);
 
   // Ctor Parameters [CppParam { name: "", ty: "__RuntimeLightWithIds__LightIntensitiesWithId", modifiers: "&&", def_value: None }]
@@ -94,8 +94,8 @@ static_assert(offsetof(::GlobalNamespace::__RuntimeLightWithIds__LightIntensitie
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14522)), TypeDefinitionIndex(TypeDefinitionIndex(14544))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14552))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14416)), TypeDefinitionIndex(TypeDefinitionIndex(14438))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14446))
 // CS Name: ::RuntimeLightWithIds*
 class CORDL_TYPE RuntimeLightWithIds : public ::GlobalNamespace::LightWithIds {
 public:
@@ -154,24 +154,24 @@ public:
 
   constexpr void __cordl_internal_set__mixType(::GlobalNamespace::ColorMixAndWeightingApproach value);
 
-  /// @brief Method get_mixType, addr 0x2112948, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_mixType, addr 0x21a70f0, size 0x4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorMixAndWeightingApproach get_mixType();
 
   /// @brief Method ColorWasSet, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
-  /// @brief Method ProcessNewColorData, addr 0x211294c, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method ProcessNewColorData, addr 0x21a70f4, size 0x174, virtual true, abstract: false, final false
   inline void ProcessNewColorData();
 
-  /// @brief Method GetLightWithIds, addr 0x2112af8, size 0x1008, virtual true, abstract: false, final false
+  /// @brief Method GetLightWithIds, addr 0x21a72a0, size 0x1008, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__LightWithIds__LightWithId*>* GetLightWithIds();
 
-  /// @brief Method ProcessColor, addr 0x2112ac0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method ProcessColor, addr 0x21a7268, size 0x38, virtual false, abstract: false, final false
   inline ::UnityEngine::Color ProcessColor(::UnityEngine::Color color, float_t intensity);
 
   static inline ::GlobalNamespace::RuntimeLightWithIds* New_ctor();
 
-  /// @brief Method .ctor, addr 0x210e940, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21a30e8, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RuntimeLightWithIds", modifiers: "&&", def_value: None }]

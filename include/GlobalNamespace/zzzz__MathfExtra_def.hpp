@@ -17,22 +17,25 @@ MARK_REF_PTR_T(::GlobalNamespace::MathfExtra);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16282))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16454))
 // CS Name: ::MathfExtra*
 class CORDL_TYPE MathfExtra : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Mod, addr 0x23e27dc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Mod, addr 0x23ff1d4, size 0x14, virtual false, abstract: false, final false
   static inline float_t Mod(float_t value, float_t mod);
 
-  /// @brief Method Mod, addr 0x23e27f0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Mod, addr 0x23ff1e8, size 0x30, virtual false, abstract: false, final false
   static inline int32_t Mod(int32_t value, int32_t mod);
 
-  /// @brief Method Round, addr 0x23e2820, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method Round, addr 0x23ff218, size 0x118, virtual false, abstract: false, final false
   static inline float_t Round(float_t value, int32_t decimals);
 
-  /// @brief Method MaxAbs, addr 0x23e2938, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method MaxAbs, addr 0x23ff330, size 0x14, virtual false, abstract: false, final false
   static inline float_t MaxAbs(float_t a, float_t b);
+
+  /// @brief Method Approximately, addr 0x23ff344, size 0x10, virtual false, abstract: false, final false
+  static inline bool Approximately(float_t a, float_t b, float_t precision);
 
   // Ctor Parameters [CppParam { name: "", ty: "MathfExtra", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

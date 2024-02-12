@@ -17,7 +17,7 @@ MARK_VAL_T(::System::Net::NetworkInformation::MacOsStructs::in6_addr);
 namespace System::Net::NetworkInformation::MacOsStructs {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9297))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7307))
 // CS Name: ::System.Net.NetworkInformation.MacOsStructs::in6_addr
 struct CORDL_TYPE in6_addr {
 public:

@@ -59,21 +59,21 @@ MARK_VAL_T(::UnityEngine::ProBuilder::__ArrayUtility__SearchRange);
 namespace UnityEngine::ProBuilder {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12094))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11992))
 // CS Name: ::ArrayUtility::SearchRange
 struct CORDL_TYPE __ArrayUtility__SearchRange {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x2b3698c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b354f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t begin, int32_t end);
 
-  /// @brief Method Valid, addr 0x2b36994, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Valid, addr 0x2b35500, size 0x14, virtual false, abstract: false, final false
   inline bool Valid();
 
-  /// @brief Method Center, addr 0x2b369a8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Center, addr 0x2b35514, size 0x18, virtual false, abstract: false, final false
   inline int32_t Center();
 
-  /// @brief Method ToString, addr 0x2b369c0, size 0x1fc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2b3552c, size 0x1fc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "begin", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "end", ty: "int32_t", modifiers: "", def_value: None }]
@@ -109,7 +109,7 @@ namespace UnityEngine::ProBuilder {
 template <typename TSource, typename TKey>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12095))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11993))
 // CS Name: ::ArrayUtility::<>c__DisplayClass21_0`2<TSource,TKey>*
 class CORDL_TYPE __ArrayUtility____c__DisplayClass21_0_2 : public ::System::Object {
 public:
@@ -171,7 +171,7 @@ namespace UnityEngine::ProBuilder {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12096))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11994))
 // CS Name: ::ArrayUtility::<>c__23`1<T>*
 class CORDL_TYPE __ArrayUtility____c__23_1 : public ::System::Object {
 public:
@@ -221,7 +221,7 @@ public:
 namespace UnityEngine::ProBuilder {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12097))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11995))
 // CS Name: ::UnityEngine.ProBuilder::ArrayUtility*
 class CORDL_TYPE ArrayUtility : public ::System::Object {
 public:

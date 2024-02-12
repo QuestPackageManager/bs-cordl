@@ -19,33 +19,33 @@ MARK_REF_PTR_T(::GlobalNamespace::SonyPublishingHelper);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4603))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11032))
 // CS Name: ::SonyPublishingHelper*
 class CORDL_TYPE SonyPublishingHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetServiceId, addr 0x2369da4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetServiceId, addr 0x12ad948, size 0x28, virtual false, abstract: false, final false
   static inline ::StringW GetServiceId(::GlobalNamespace::SonyPublisherSKUSettingsSO* sonyPublisherSKUSettings);
 
-  /// @brief Method GetContentId, addr 0x2369dec, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetContentId, addr 0x12ad990, size 0x20, virtual false, abstract: false, final false
   static inline ::StringW GetContentId(::GlobalNamespace::SonyPublisherSKUSettingsSO* sonyPublisherSKUSettings);
 
-  /// @brief Method GetContentId, addr 0x2369e40, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetContentId, addr 0x12ad9e4, size 0x5c, virtual false, abstract: false, final false
   static inline ::StringW GetContentId(::StringW serviceId, ::StringW productLabel);
 
-  /// @brief Method GetContentIdFromTitleId, addr 0x2369e0c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetContentIdFromTitleId, addr 0x12ad9b0, size 0x34, virtual false, abstract: false, final false
   static inline ::StringW GetContentIdFromTitleId(::StringW serviceIdPrefix, ::StringW titleId, ::StringW productLabel);
 
-  /// @brief Method GetContentIdFromNpTitleId, addr 0x2369e9c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetContentIdFromNpTitleId, addr 0x12ada40, size 0x18, virtual false, abstract: false, final false
   static inline ::StringW GetContentIdFromNpTitleId(::StringW serviceIdPrefix, ::StringW npTitleId, ::StringW productLabel);
 
-  /// @brief Method GetNpTitleId, addr 0x2369f10, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetNpTitleId, addr 0x12adab4, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW GetNpTitleId(::StringW titleId);
 
-  /// @brief Method GetServiceIdFromTitleId, addr 0x2369dcc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetServiceIdFromTitleId, addr 0x12ad970, size 0x20, virtual false, abstract: false, final false
   static inline ::StringW GetServiceIdFromTitleId(::StringW serviceIdPrefix, ::StringW titleId);
 
-  /// @brief Method GetServiceIdFromNpTitleId, addr 0x2369eb4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetServiceIdFromNpTitleId, addr 0x12ada58, size 0x5c, virtual false, abstract: false, final false
   static inline ::StringW GetServiceIdFromNpTitleId(::StringW serviceIdPrefix, ::StringW npTitleId);
 
   // Ctor Parameters [CppParam { name: "", ty: "SonyPublishingHelper", modifiers: "&&", def_value: None }]

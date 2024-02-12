@@ -16,7 +16,7 @@ MARK_VAL_T(::Unity::IO::LowLevel::Unsafe::FileReadType);
 namespace Unity::IO::LowLevel::Unsafe {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9989))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8720))
 // CS Name: ::Unity.IO.LowLevel.Unsafe::FileReadType
 struct CORDL_TYPE FileReadType {
 public:

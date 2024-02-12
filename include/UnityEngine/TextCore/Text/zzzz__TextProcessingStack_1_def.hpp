@@ -19,7 +19,7 @@ namespace UnityEngine::TextCore::Text {
 template <typename T>
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13727))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13680))
 // CS Name: ::UnityEngine.TextCore.Text::TextProcessingStack`1<T>
 struct CORDL_TYPE TextProcessingStack_1 {
 public:

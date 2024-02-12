@@ -153,36 +153,36 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Client* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1217a44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12448d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Init, addr 0x1217a4c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x12448dc, size 0xc, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Math::BigInteger* N, ::Org::BouncyCastle::Math::BigInteger* g, ::Org::BouncyCastle::Crypto::IDigest* digest,
                    ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method Init, addr 0x1217a58, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x12448e8, size 0x2c, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* group, ::Org::BouncyCastle::Crypto::IDigest* digest, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method GenerateClientCredentials, addr 0x1217a84, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method GenerateClientCredentials, addr 0x1244914, size 0x60, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* GenerateClientCredentials(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, ::ArrayW<uint8_t, ::Array<uint8_t>*> identity,
                                                                           ::ArrayW<uint8_t, ::Array<uint8_t>*> password);
 
-  /// @brief Method CalculateSecret, addr 0x1217eec, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method CalculateSecret, addr 0x1244d7c, size 0x44, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* CalculateSecret(::Org::BouncyCastle::Math::BigInteger* serverB);
 
-  /// @brief Method SelectPrivateValue, addr 0x12180ec, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method SelectPrivateValue, addr 0x1244f7c, size 0xc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* SelectPrivateValue();
 
-  /// @brief Method CalculateS, addr 0x121801c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method CalculateS, addr 0x1244eac, size 0xd0, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* CalculateS();
 
-  /// @brief Method CalculateClientEvidenceMessage, addr 0x1218208, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method CalculateClientEvidenceMessage, addr 0x1245098, size 0x84, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* CalculateClientEvidenceMessage();
 
-  /// @brief Method VerifyServerEvidenceMessage, addr 0x1218290, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method VerifyServerEvidenceMessage, addr 0x1245120, size 0xb8, virtual true, abstract: false, final false
   inline bool VerifyServerEvidenceMessage(::Org::BouncyCastle::Math::BigInteger* serverM2);
 
-  /// @brief Method CalculateSessionKey, addr 0x121834c, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method CalculateSessionKey, addr 0x12451dc, size 0x84, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* CalculateSessionKey();
 
   // Ctor Parameters [CppParam { name: "", ty: "Srp6Client", modifiers: "&&", def_value: None }]

@@ -37,8 +37,8 @@ MARK_REF_PTR_T(::HMUI::HoverHint);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13532))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13485))
 // CS Name: ::HMUI::HoverHint*
 class CORDL_TYPE HoverHint : public ::UnityEngine::MonoBehaviour {
 public:
@@ -94,30 +94,30 @@ public:
 
   constexpr void __cordl_internal_set__worldCornersTemp(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
-  /// @brief Method get_text, addr 0x211c9a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x21b1280, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method set_text, addr 0x211c9ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x21b1288, size 0x8, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
-  /// @brief Method get_size, addr 0x211c9b4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_size, addr 0x21b1290, size 0x90, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_size();
 
-  /// @brief Method get_worldCenter, addr 0x211ca44, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_worldCenter, addr 0x21b1320, size 0xfc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_worldCenter();
 
-  /// @brief Method OnPointerEnter, addr 0x211cb40, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method OnPointerEnter, addr 0x21b141c, size 0x1c, virtual true, abstract: false, final true
   inline void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerExit, addr 0x211cbf0, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method OnPointerExit, addr 0x21b14cc, size 0xbc, virtual true, abstract: false, final true
   inline void OnPointerExit(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnDisable, addr 0x211cd24, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x21b1600, size 0x80, virtual false, abstract: false, final false
   inline void OnDisable();
 
   static inline ::HMUI::HoverHint* New_ctor();
 
-  /// @brief Method .ctor, addr 0x211cda4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21b1680, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HoverHint", modifiers: "&&", def_value: None }]

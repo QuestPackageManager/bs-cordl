@@ -42,8 +42,8 @@ MARK_REF_PTR_T(::TMPro::TMP_TextInfo);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10243))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12450))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8987))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12348))
 // CS Name: ::TMPro::TMP_TextInfo*
 class CORDL_TYPE TMP_TextInfo : public ::System::Object {
 public:
@@ -208,44 +208,44 @@ public:
 
   static inline ::TMPro::TMP_TextInfo* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c47e48, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c459b4, size 0x128, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::TMPro::TMP_TextInfo* New_ctor(int32_t characterCount);
 
-  /// @brief Method .ctor, addr 0x2c47f70, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c45adc, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(int32_t characterCount);
 
   static inline ::TMPro::TMP_TextInfo* New_ctor(::TMPro::TMP_Text* textComponent);
 
-  /// @brief Method .ctor, addr 0x2c4809c, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c45c08, size 0x16c, virtual false, abstract: false, final false
   inline void _ctor(::TMPro::TMP_Text* textComponent);
 
-  /// @brief Method Clear, addr 0x2c48208, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x2c45d74, size 0x5c, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method ClearAllData, addr 0x2c48264, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method ClearAllData, addr 0x2c45dd0, size 0x12c, virtual false, abstract: false, final false
   inline void ClearAllData();
 
-  /// @brief Method ClearMeshInfo, addr 0x2c48390, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ClearMeshInfo, addr 0x2c45efc, size 0x70, virtual false, abstract: false, final false
   inline void ClearMeshInfo(bool updateMesh);
 
-  /// @brief Method ClearAllMeshInfo, addr 0x2c48400, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ClearAllMeshInfo, addr 0x2c45f6c, size 0x64, virtual false, abstract: false, final false
   inline void ClearAllMeshInfo();
 
-  /// @brief Method ResetVertexLayout, addr 0x2c48464, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ResetVertexLayout, addr 0x2c45fd0, size 0x74, virtual false, abstract: false, final false
   inline void ResetVertexLayout(bool isVolumetric);
 
-  /// @brief Method ClearUnusedVertices, addr 0x2c484d8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ClearUnusedVertices, addr 0x2c46044, size 0x64, virtual false, abstract: false, final false
   inline void ClearUnusedVertices(::ArrayW<::TMPro::MaterialReference, ::Array<::TMPro::MaterialReference>*> materials);
 
-  /// @brief Method ClearLineInfo, addr 0x2c4853c, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method ClearLineInfo, addr 0x2c460a8, size 0x180, virtual false, abstract: false, final false
   inline void ClearLineInfo();
 
-  /// @brief Method ClearPageInfo, addr 0x2c486bc, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method ClearPageInfo, addr 0x2c46228, size 0x98, virtual false, abstract: false, final false
   inline void ClearPageInfo();
 
-  /// @brief Method CopyMeshInfoVertexData, addr 0x2c48754, size 0x3c8, virtual false, abstract: false, final false
+  /// @brief Method CopyMeshInfoVertexData, addr 0x2c462c0, size 0x3c8, virtual false, abstract: false, final false
   inline ::ArrayW<::TMPro::TMP_MeshInfo, ::Array<::TMPro::TMP_MeshInfo>*> CopyMeshInfoVertexData();
 
   /// @brief Method Resize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

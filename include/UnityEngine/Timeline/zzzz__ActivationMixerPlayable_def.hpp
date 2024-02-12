@@ -37,8 +37,8 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::ActivationMixerPlayable);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10425)), TypeDefinitionIndex(TypeDefinitionIndex(13827))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13825))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9193)), TypeDefinitionIndex(TypeDefinitionIndex(13780))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13778))
 // CS Name: ::UnityEngine.Timeline::ActivationMixerPlayable*
 class CORDL_TYPE ActivationMixerPlayable : public ::UnityEngine::Playables::PlayableBehaviour {
 public:
@@ -72,24 +72,24 @@ public:
 
   constexpr void __cordl_internal_set_m_BoundGameObject(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method Create, addr 0x2c4e978, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2c4c4e4, size 0x84, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::ActivationMixerPlayable*> Create(::UnityEngine::Playables::PlayableGraph graph, int32_t inputCount);
 
-  /// @brief Method get_postPlaybackState, addr 0x2c4e9fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_postPlaybackState, addr 0x2c4c568, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState get_postPlaybackState();
 
-  /// @brief Method set_postPlaybackState, addr 0x2c4ea04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_postPlaybackState, addr 0x2c4c570, size 0x8, virtual false, abstract: false, final false
   inline void set_postPlaybackState(::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState value);
 
-  /// @brief Method OnPlayableDestroy, addr 0x2c4ea0c, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method OnPlayableDestroy, addr 0x2c4c578, size 0xc0, virtual true, abstract: false, final false
   inline void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method ProcessFrame, addr 0x2c4eacc, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method ProcessFrame, addr 0x2c4c638, size 0x1c4, virtual true, abstract: false, final false
   inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* playerData);
 
   static inline ::UnityEngine::Timeline::ActivationMixerPlayable* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c4ec90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c4c7fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ActivationMixerPlayable", modifiers: "&&", def_value: None }]

@@ -35,8 +35,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename TEventType>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7183))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7184))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6442))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6443))
 // CS Name: ::UnityEngine.UIElements::EventCallbackFunctor`1<TEventType>*
 class CORDL_TYPE EventCallbackFunctor_1 : public ::UnityEngine::UIElements::EventCallbackFunctorBase {
 public:

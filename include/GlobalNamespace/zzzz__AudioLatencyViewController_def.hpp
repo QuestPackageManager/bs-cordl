@@ -12,6 +12,9 @@ namespace GlobalNamespace {
 class FloatSO;
 }
 namespace GlobalNamespace {
+class MainSettingsModelSO;
+}
+namespace GlobalNamespace {
 class SongPreviewPlayer;
 }
 namespace GlobalNamespace {
@@ -36,11 +39,11 @@ class AudioLatencyViewController;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::AudioLatencyViewController);
 // Type: ::AudioLatencyViewController
-// SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 184, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 192, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5612))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13558))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4917))
 // CS Name: ::AudioLatencyViewController*
 class CORDL_TYPE AudioLatencyViewController : public ::HMUI::ViewController {
 public:
@@ -69,7 +72,10 @@ public:
   /// @brief Field _songPreviewPlayer, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get__songPreviewPlayer, put = __cordl_internal_set__songPreviewPlayer))::UnityW<::GlobalNamespace::SongPreviewPlayer> _songPreviewPlayer;
 
-  /// @brief Field _toggleBinder, offset 0xb0, size 0x8
+  /// @brief Field _mainSettingsModel, offset 0xb0, size 0x8
+  __declspec(property(get = __cordl_internal_get__mainSettingsModel, put = __cordl_internal_set__mainSettingsModel))::UnityW<::GlobalNamespace::MainSettingsModelSO> _mainSettingsModel;
+
+  /// @brief Field _toggleBinder, offset 0xb8, size 0x8
   __declspec(property(get = __cordl_internal_get__toggleBinder, put = __cordl_internal_set__toggleBinder))::HMUI::ToggleBinder* _toggleBinder;
 
   constexpr ::UnityW<::GlobalNamespace::FloatSO>& __cordl_internal_get__audioLatency();
@@ -120,33 +126,39 @@ public:
 
   constexpr void __cordl_internal_set__songPreviewPlayer(::UnityW<::GlobalNamespace::SongPreviewPlayer> value);
 
+  constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO>& __cordl_internal_get__mainSettingsModel();
+
+  constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO> const& __cordl_internal_get__mainSettingsModel() const;
+
+  constexpr void __cordl_internal_set__mainSettingsModel(::UnityW<::GlobalNamespace::MainSettingsModelSO> value);
+
   constexpr ::HMUI::ToggleBinder*& __cordl_internal_get__toggleBinder();
 
   constexpr ::cordl_internals::to_const_pointer<::HMUI::ToggleBinder*> const& __cordl_internal_get__toggleBinder() const;
 
   constexpr void __cordl_internal_set__toggleBinder(::HMUI::ToggleBinder* value);
 
-  /// @brief Method DidActivate, addr 0x22ac5e4, size 0x224, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x22dfb00, size 0x230, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x22ac8f4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x22dfe2c, size 0x28, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method OnDestroy, addr 0x22ac91c, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x22dfe54, size 0xe4, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SliderValueDidChange, addr 0x22aca00, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SliderValueDidChange, addr 0x22dff38, size 0x74, virtual false, abstract: false, final false
   inline void SliderValueDidChange(::HMUI::RangeValuesTextSlider* slider, float_t value);
 
-  /// @brief Method HandleOverrideAudioLatencyToggleValueChanged, addr 0x22aca74, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method HandleOverrideAudioLatencyToggleValueChanged, addr 0x22dffac, size 0x68, virtual false, abstract: false, final false
   inline void HandleOverrideAudioLatencyToggleValueChanged(bool isOn);
 
-  /// @brief Method RefreshVisuals, addr 0x22ac808, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method RefreshVisuals, addr 0x22dfd30, size 0xfc, virtual false, abstract: false, final false
   inline void RefreshVisuals(bool overrideAudioLatencyIsEnabled);
 
   static inline ::GlobalNamespace::AudioLatencyViewController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22acadc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22e0014, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AudioLatencyViewController", modifiers: "&&", def_value: None }]
@@ -187,13 +199,16 @@ public:
   /// @brief Field _songPreviewPlayer, offset: 0xa8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SongPreviewPlayer> ____songPreviewPlayer;
 
-  /// @brief Field _toggleBinder, offset: 0xb0, size: 0x8, def value: None
+  /// @brief Field _mainSettingsModel, offset: 0xb0, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::MainSettingsModelSO> ____mainSettingsModel;
+
+  /// @brief Field _toggleBinder, offset: 0xb8, size: 0x8, def value: None
   ::HMUI::ToggleBinder* ____toggleBinder;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AudioLatencyViewController, 0xb8>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AudioLatencyViewController, 0xc0>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::AudioLatencyViewController, ____audioLatency) == 0x70, "Offset mismatch!");
 
@@ -211,7 +226,9 @@ static_assert(offsetof(::GlobalNamespace::AudioLatencyViewController, ____disabl
 
 static_assert(offsetof(::GlobalNamespace::AudioLatencyViewController, ____songPreviewPlayer) == 0xa8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AudioLatencyViewController, ____toggleBinder) == 0xb0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AudioLatencyViewController, ____mainSettingsModel) == 0xb0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AudioLatencyViewController, ____toggleBinder) == 0xb8, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::AudioLatencyViewController);

@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Yoga::YogaWrap);
 namespace UnityEngine::Yoga {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15360))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15520))
 // CS Name: ::UnityEngine.Yoga::YogaWrap
 struct CORDL_TYPE YogaWrap {
 public:

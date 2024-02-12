@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::InteractionLookAt);
 namespace RootMotion::FinalIK {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12596))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12494))
 // CS Name: ::RootMotion.FinalIK::InteractionLookAt*
 class CORDL_TYPE InteractionLookAt : public ::System::Object {
 public:
@@ -99,24 +99,24 @@ public:
 
   constexpr void __cordl_internal_set_firstFBBIKSolve(bool value);
 
-  /// @brief Method Look, addr 0x1286268, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Look, addr 0x131e318, size 0x110, virtual false, abstract: false, final false
   inline void Look(::UnityEngine::Transform* target, float_t time);
 
-  /// @brief Method OnFixTransforms, addr 0x1286378, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method OnFixTransforms, addr 0x131e428, size 0x98, virtual false, abstract: false, final false
   inline void OnFixTransforms();
 
-  /// @brief Method Update, addr 0x1286410, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x131e4c0, size 0x1f0, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method SolveSpine, addr 0x1286600, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method SolveSpine, addr 0x131e6b0, size 0xa8, virtual false, abstract: false, final false
   inline void SolveSpine();
 
-  /// @brief Method SolveHead, addr 0x12866a8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method SolveHead, addr 0x131e758, size 0xac, virtual false, abstract: false, final false
   inline void SolveHead();
 
   static inline ::RootMotion::FinalIK::InteractionLookAt* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1286754, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x131e804, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "InteractionLookAt", modifiers: "&&", def_value: None }]

@@ -28,13 +28,13 @@ namespace GlobalNamespace {
 class IAudioTimeSource;
 }
 namespace GlobalNamespace {
-class IBeatToTimeConvertor;
+class IBeatToTimeConverter;
 }
 namespace GlobalNamespace {
 class LightGroup;
 }
 namespace GlobalNamespace {
-class __EventsTestGameplayManager__MockBeatToTimeConvertor;
+class __EventsTestGameplayManager__MockBeatToTimeConverter;
 }
 namespace GlobalNamespace {
 class __EventsTestGameplayManager____c__DisplayClass18_0;
@@ -56,7 +56,7 @@ namespace GlobalNamespace {
 class EventsTestGameplayManager;
 }
 namespace GlobalNamespace {
-class __EventsTestGameplayManager__MockBeatToTimeConvertor;
+class __EventsTestGameplayManager__MockBeatToTimeConverter;
 }
 namespace GlobalNamespace {
 class __EventsTestGameplayManager____c__DisplayClass18_0;
@@ -69,28 +69,28 @@ class __EventsTestGameplayManager____c__DisplayClass20_0;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::EventsTestGameplayManager);
-MARK_REF_PTR_T(::GlobalNamespace::__EventsTestGameplayManager__MockBeatToTimeConvertor);
+MARK_REF_PTR_T(::GlobalNamespace::__EventsTestGameplayManager__MockBeatToTimeConverter);
 MARK_REF_PTR_T(::GlobalNamespace::__EventsTestGameplayManager____c__DisplayClass18_0);
 MARK_REF_PTR_T(::GlobalNamespace::__EventsTestGameplayManager____c__DisplayClass19_0);
 MARK_REF_PTR_T(::GlobalNamespace::__EventsTestGameplayManager____c__DisplayClass20_0);
-// Type: ::MockBeatToTimeConvertor
+// Type: ::MockBeatToTimeConverter
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5010))
-// CS Name: ::EventsTestGameplayManager::MockBeatToTimeConvertor*
-class CORDL_TYPE __EventsTestGameplayManager__MockBeatToTimeConvertor : public ::System::Object {
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4364))
+// CS Name: ::EventsTestGameplayManager::MockBeatToTimeConverter*
+class CORDL_TYPE __EventsTestGameplayManager__MockBeatToTimeConverter : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _bpm, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__bpm, put = __cordl_internal_set__bpm)) float_t _bpm;
 
-  /// @brief Convert operator to "::GlobalNamespace::IBeatToTimeConvertor"
-  constexpr operator ::GlobalNamespace::IBeatToTimeConvertor*() noexcept;
+  /// @brief Convert operator to "::GlobalNamespace::IBeatToTimeConverter"
+  constexpr operator ::GlobalNamespace::IBeatToTimeConverter*() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::IBeatToTimeConvertor"
-  constexpr ::GlobalNamespace::IBeatToTimeConvertor* i___GlobalNamespace__IBeatToTimeConvertor() noexcept;
+  /// @brief Convert to "::GlobalNamespace::IBeatToTimeConverter"
+  constexpr ::GlobalNamespace::IBeatToTimeConverter* i___GlobalNamespace__IBeatToTimeConverter() noexcept;
 
   constexpr float_t& __cordl_internal_get__bpm();
 
@@ -98,26 +98,26 @@ public:
 
   constexpr void __cordl_internal_set__bpm(float_t value);
 
-  static inline ::GlobalNamespace::__EventsTestGameplayManager__MockBeatToTimeConvertor* New_ctor(float_t bpm);
+  static inline ::GlobalNamespace::__EventsTestGameplayManager__MockBeatToTimeConverter* New_ctor(float_t bpm);
 
-  /// @brief Method .ctor, addr 0x23b8b24, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2377c68, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(float_t bpm);
 
-  /// @brief Method ConvertBeatToTime, addr 0x23bb80c, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method ConvertBeatToTime, addr 0x237a978, size 0x18, virtual true, abstract: false, final true
   inline float_t ConvertBeatToTime(float_t beat);
 
-  // Ctor Parameters [CppParam { name: "", ty: "__EventsTestGameplayManager__MockBeatToTimeConvertor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "__EventsTestGameplayManager__MockBeatToTimeConverter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __EventsTestGameplayManager__MockBeatToTimeConvertor(__EventsTestGameplayManager__MockBeatToTimeConvertor&&) = delete;
+  __EventsTestGameplayManager__MockBeatToTimeConverter(__EventsTestGameplayManager__MockBeatToTimeConverter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__EventsTestGameplayManager__MockBeatToTimeConvertor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "__EventsTestGameplayManager__MockBeatToTimeConverter", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __EventsTestGameplayManager__MockBeatToTimeConvertor(__EventsTestGameplayManager__MockBeatToTimeConvertor const&) = delete;
+  __EventsTestGameplayManager__MockBeatToTimeConverter(__EventsTestGameplayManager__MockBeatToTimeConverter const&) = delete;
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __EventsTestGameplayManager__MockBeatToTimeConvertor();
+  constexpr __EventsTestGameplayManager__MockBeatToTimeConverter();
 
 public:
   /// @brief Field _bpm, offset: 0x10, size: 0x4, def value: None
@@ -126,9 +126,9 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__EventsTestGameplayManager__MockBeatToTimeConvertor, 0x18>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__EventsTestGameplayManager__MockBeatToTimeConverter, 0x18>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__EventsTestGameplayManager__MockBeatToTimeConvertor, ____bpm) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__EventsTestGameplayManager__MockBeatToTimeConverter, ____bpm) == 0x10, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 // Type: ::<>c__DisplayClass18_0
@@ -136,7 +136,7 @@ static_assert(offsetof(::GlobalNamespace::__EventsTestGameplayManager__MockBeatT
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5011))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4365))
 // CS Name: ::EventsTestGameplayManager::<>c__DisplayClass18_0*
 class CORDL_TYPE __EventsTestGameplayManager____c__DisplayClass18_0 : public ::System::Object {
 public:
@@ -152,10 +152,10 @@ public:
 
   static inline ::GlobalNamespace::__EventsTestGameplayManager____c__DisplayClass18_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23bb198, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x237a304, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <AddEventsForLightGroup>b__0, addr 0x23bb824, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <AddEventsForLightGroup>b__0, addr 0x237a990, size 0x30, virtual false, abstract: false, final false
   inline bool _AddEventsForLightGroup_b__0(::GlobalNamespace::LightGroup* x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__EventsTestGameplayManager____c__DisplayClass18_0", modifiers: "&&", def_value: None }]
@@ -188,7 +188,7 @@ static_assert(offsetof(::GlobalNamespace::__EventsTestGameplayManager____c__Disp
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5012))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4366))
 // CS Name: ::EventsTestGameplayManager::<>c__DisplayClass19_0*
 class CORDL_TYPE __EventsTestGameplayManager____c__DisplayClass19_0 : public ::System::Object {
 public:
@@ -204,10 +204,10 @@ public:
 
   static inline ::GlobalNamespace::__EventsTestGameplayManager____c__DisplayClass19_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23bb1a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x237a30c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <AddInstantToggleEventsForLightGroup>b__0, addr 0x23bb854, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <AddInstantToggleEventsForLightGroup>b__0, addr 0x237a9c0, size 0x30, virtual false, abstract: false, final false
   inline bool _AddInstantToggleEventsForLightGroup_b__0(::GlobalNamespace::LightGroup* x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__EventsTestGameplayManager____c__DisplayClass19_0", modifiers: "&&", def_value: None }]
@@ -240,7 +240,7 @@ static_assert(offsetof(::GlobalNamespace::__EventsTestGameplayManager____c__Disp
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5013))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4367))
 // CS Name: ::EventsTestGameplayManager::<>c__DisplayClass20_0*
 class CORDL_TYPE __EventsTestGameplayManager____c__DisplayClass20_0 : public ::System::Object {
 public:
@@ -256,10 +256,10 @@ public:
 
   static inline ::GlobalNamespace::__EventsTestGameplayManager____c__DisplayClass20_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23bb1a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x237a314, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <AddToggleEventsForLightGroup>b__0, addr 0x23bb884, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <AddToggleEventsForLightGroup>b__0, addr 0x237a9f0, size 0x30, virtual false, abstract: false, final false
   inline bool _AddToggleEventsForLightGroup_b__0(::GlobalNamespace::LightGroup* x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__EventsTestGameplayManager____c__DisplayClass20_0", modifiers: "&&", def_value: None }]
@@ -291,8 +291,8 @@ static_assert(offsetof(::GlobalNamespace::__EventsTestGameplayManager____c__Disp
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 113, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14724))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5014))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(15108))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4368))
 // CS Name: ::EventsTestGameplayManager*
 class CORDL_TYPE EventsTestGameplayManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -303,7 +303,7 @@ public:
 
   using __c__DisplayClass18_0 = ::GlobalNamespace::__EventsTestGameplayManager____c__DisplayClass18_0;
 
-  using MockBeatToTimeConvertor = ::GlobalNamespace::__EventsTestGameplayManager__MockBeatToTimeConvertor;
+  using MockBeatToTimeConverter = ::GlobalNamespace::__EventsTestGameplayManager__MockBeatToTimeConverter;
 
   /// @brief Field _moveTime, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get__moveTime, put = __cordl_internal_set__moveTime)) bool _moveTime;
@@ -439,27 +439,27 @@ public:
 
   constexpr void __cordl_internal_set__rotatingLasers(bool value);
 
-  /// @brief Method Start, addr 0x23b8a0c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2377b50, size 0x118, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x23b8b4c, size 0x87c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2377c90, size 0x87c, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method AddEventsForLightGroup, addr 0x23b93c8, size 0x950, virtual false, abstract: false, final false
+  /// @brief Method AddEventsForLightGroup, addr 0x237850c, size 0x960, virtual false, abstract: false, final false
   inline void AddEventsForLightGroup(int32_t lightGroupId);
 
-  /// @brief Method AddInstantToggleEventsForLightGroup, addr 0x23ba2cc, size 0x478, virtual false, abstract: false, final false
+  /// @brief Method AddInstantToggleEventsForLightGroup, addr 0x237942c, size 0x47c, virtual false, abstract: false, final false
   inline void AddInstantToggleEventsForLightGroup(int32_t lightGroupId);
 
-  /// @brief Method AddToggleEventsForLightGroup, addr 0x23b9d18, size 0x5b4, virtual false, abstract: false, final false
+  /// @brief Method AddToggleEventsForLightGroup, addr 0x2378e6c, size 0x5c0, virtual false, abstract: false, final false
   inline void AddToggleEventsForLightGroup(int32_t lightGroupId, ::GlobalNamespace::EnvironmentColorType color);
 
-  /// @brief Method AddTestBox, addr 0x23ba744, size 0xa54, virtual false, abstract: false, final false
+  /// @brief Method AddTestBox, addr 0x23798a8, size 0xa5c, virtual false, abstract: false, final false
   inline void AddTestBox();
 
   static inline ::GlobalNamespace::EventsTestGameplayManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23bb1b0, size 0x65c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x237a31c, size 0x65c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EventsTestGameplayManager", modifiers: "&&", def_value: None }]
@@ -557,8 +557,8 @@ static_assert(offsetof(::GlobalNamespace::EventsTestGameplayManager, ____rotatin
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::EventsTestGameplayManager);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EventsTestGameplayManager*, "", "EventsTestGameplayManager");
-NEED_NO_BOX(::GlobalNamespace::__EventsTestGameplayManager__MockBeatToTimeConvertor);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__EventsTestGameplayManager__MockBeatToTimeConvertor*, "", "EventsTestGameplayManager/MockBeatToTimeConvertor");
+NEED_NO_BOX(::GlobalNamespace::__EventsTestGameplayManager__MockBeatToTimeConverter);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__EventsTestGameplayManager__MockBeatToTimeConverter*, "", "EventsTestGameplayManager/MockBeatToTimeConverter");
 NEED_NO_BOX(::GlobalNamespace::__EventsTestGameplayManager____c__DisplayClass18_0);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__EventsTestGameplayManager____c__DisplayClass18_0*, "", "EventsTestGameplayManager/<>c__DisplayClass18_0");
 NEED_NO_BOX(::GlobalNamespace::__EventsTestGameplayManager____c__DisplayClass19_0);

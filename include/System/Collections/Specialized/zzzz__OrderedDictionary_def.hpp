@@ -75,7 +75,7 @@ MARK_REF_PTR_T(::System::Collections::Specialized::__OrderedDictionary__OrderedD
 namespace System::Collections::Specialized {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9514))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7524))
 // CS Name: ::OrderedDictionary::OrderedDictionaryEnumerator*
 class CORDL_TYPE __OrderedDictionary__OrderedDictionaryEnumerator : public ::System::Object {
 public:
@@ -120,25 +120,25 @@ public:
 
   static inline ::System::Collections::Specialized::__OrderedDictionary__OrderedDictionaryEnumerator* New_ctor(::System::Collections::ArrayList* array, int32_t objectReturnType);
 
-  /// @brief Method .ctor, addr 0x293e4ec, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2942b54, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::ArrayList* array, int32_t objectReturnType);
 
-  /// @brief Method get_Current, addr 0x293eb4c, size 0x1ac, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x29431b4, size 0x1ac, virtual true, abstract: false, final true
   inline ::System::Object* get_Current();
 
-  /// @brief Method get_Entry, addr 0x293ecf8, size 0x194, virtual true, abstract: false, final true
+  /// @brief Method get_Entry, addr 0x2943360, size 0x194, virtual true, abstract: false, final true
   inline ::System::Collections::DictionaryEntry get_Entry();
 
-  /// @brief Method get_Key, addr 0x293ee8c, size 0xe4, virtual true, abstract: false, final true
+  /// @brief Method get_Key, addr 0x29434f4, size 0xe4, virtual true, abstract: false, final true
   inline ::System::Object* get_Key();
 
-  /// @brief Method get_Value, addr 0x293ef70, size 0xe4, virtual true, abstract: false, final true
+  /// @brief Method get_Value, addr 0x29435d8, size 0xe4, virtual true, abstract: false, final true
   inline ::System::Object* get_Value();
 
-  /// @brief Method MoveNext, addr 0x293f054, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x29436bc, size 0xa0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method Reset, addr 0x293f0f4, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x294375c, size 0xa4, virtual true, abstract: false, final true
   inline void Reset();
 
   // Ctor Parameters [CppParam { name: "", ty: "__OrderedDictionary__OrderedDictionaryEnumerator", modifiers: "&&", def_value: None }]
@@ -176,7 +176,7 @@ static_assert(offsetof(::System::Collections::Specialized::__OrderedDictionary__
 namespace System::Collections::Specialized {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9515))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7525))
 // CS Name: ::OrderedDictionary::OrderedDictionaryKeyValueCollection*
 class CORDL_TYPE __OrderedDictionary__OrderedDictionaryKeyValueCollection : public ::System::Object {
 public:
@@ -219,22 +219,22 @@ public:
 
   static inline ::System::Collections::Specialized::__OrderedDictionary__OrderedDictionaryKeyValueCollection* New_ctor(::System::Collections::ArrayList* array, bool isKeys);
 
-  /// @brief Method .ctor, addr 0x293dc74, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29422dc, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::ArrayList* array, bool isKeys);
 
-  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x293f198, size 0x3fc, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x2943800, size 0x3fc, virtual true, abstract: false, final true
   inline void System_Collections_ICollection_CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method System.Collections.ICollection.get_Count, addr 0x293f594, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.get_Count, addr 0x2943bfc, size 0x24, virtual true, abstract: false, final true
   inline int32_t System_Collections_ICollection_get_Count();
 
-  /// @brief Method System.Collections.ICollection.get_IsSynchronized, addr 0x293f5b8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.get_IsSynchronized, addr 0x2943c20, size 0x8, virtual true, abstract: false, final true
   inline bool System_Collections_ICollection_get_IsSynchronized();
 
-  /// @brief Method System.Collections.ICollection.get_SyncRoot, addr 0x293f5c0, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.get_SyncRoot, addr 0x2943c28, size 0x24, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_ICollection_get_SyncRoot();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x293f5e4, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2943c4c, size 0x7c, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   // Ctor Parameters [CppParam { name: "", ty: "__OrderedDictionary__OrderedDictionaryKeyValueCollection", modifiers: "&&", def_value: None }]
@@ -272,7 +272,7 @@ static_assert(offsetof(::System::Collections::Specialized::__OrderedDictionary__
 namespace System::Collections::Specialized {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9516))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7526))
 // CS Name: ::System.Collections.Specialized::OrderedDictionary*
 class CORDL_TYPE OrderedDictionary : public ::System::Object {
 public:
@@ -396,88 +396,88 @@ public:
 
   static inline ::System::Collections::Specialized::OrderedDictionary* New_ctor();
 
-  /// @brief Method .ctor, addr 0x293daa4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x294210c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Specialized::OrderedDictionary* New_ctor(int32_t capacity);
 
-  /// @brief Method .ctor, addr 0x293dac4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x294212c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity);
 
   static inline ::System::Collections::Specialized::OrderedDictionary* New_ctor(int32_t capacity, ::System::Collections::IEqualityComparer* comparer);
 
-  /// @brief Method .ctor, addr 0x293daf0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2942158, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity, ::System::Collections::IEqualityComparer* comparer);
 
   static inline ::System::Collections::Specialized::OrderedDictionary* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x293db20, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2942188, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method get_Count, addr 0x293db48, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method get_Count, addr 0x29421b0, size 0x24, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method System.Collections.IDictionary.get_IsFixedSize, addr 0x293dbe0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IDictionary.get_IsFixedSize, addr 0x2942248, size 0x8, virtual true, abstract: false, final true
   inline bool System_Collections_IDictionary_get_IsFixedSize();
 
-  /// @brief Method get_IsReadOnly, addr 0x293dbe8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsReadOnly, addr 0x2942250, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsReadOnly();
 
-  /// @brief Method System.Collections.ICollection.get_IsSynchronized, addr 0x293dbf0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.get_IsSynchronized, addr 0x2942258, size 0x8, virtual true, abstract: false, final true
   inline bool System_Collections_ICollection_get_IsSynchronized();
 
-  /// @brief Method get_Keys, addr 0x293dbf8, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method get_Keys, addr 0x2942260, size 0x7c, virtual true, abstract: false, final true
   inline ::System::Collections::ICollection* get_Keys();
 
-  /// @brief Method get_objectsArray, addr 0x293db6c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_objectsArray, addr 0x29421d4, size 0x74, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* get_objectsArray();
 
-  /// @brief Method get_objectsTable, addr 0x293dca4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_objectsTable, addr 0x294230c, size 0x84, virtual false, abstract: false, final false
   inline ::System::Collections::Hashtable* get_objectsTable();
 
-  /// @brief Method System.Collections.ICollection.get_SyncRoot, addr 0x293dd28, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.get_SyncRoot, addr 0x2942390, size 0x7c, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_ICollection_get_SyncRoot();
 
-  /// @brief Method get_Item, addr 0x293dda4, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method get_Item, addr 0x294240c, size 0x2c, virtual true, abstract: false, final true
   inline ::System::Object* get_Item(::System::Object* key);
 
-  /// @brief Method set_Item, addr 0x293ddd0, size 0x180, virtual true, abstract: false, final true
+  /// @brief Method set_Item, addr 0x2942438, size 0x180, virtual true, abstract: false, final true
   inline void set_Item(::System::Object* key, ::System::Object* value);
 
-  /// @brief Method get_Values, addr 0x293e1f8, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method get_Values, addr 0x2942860, size 0x78, virtual true, abstract: false, final true
   inline ::System::Collections::ICollection* get_Values();
 
-  /// @brief Method Add, addr 0x293e0d0, size 0x128, virtual true, abstract: false, final true
+  /// @brief Method Add, addr 0x2942738, size 0x128, virtual true, abstract: false, final true
   inline void Add(::System::Object* key, ::System::Object* value);
 
-  /// @brief Method Clear, addr 0x293e270, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method Clear, addr 0x29428d8, size 0x98, virtual true, abstract: false, final true
   inline void Clear();
 
-  /// @brief Method Contains, addr 0x293e308, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method Contains, addr 0x2942970, size 0x2c, virtual true, abstract: false, final true
   inline bool Contains(::System::Object* key);
 
-  /// @brief Method CopyTo, addr 0x293e334, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method CopyTo, addr 0x294299c, size 0x3c, virtual true, abstract: false, final true
   inline void CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method IndexOfKey, addr 0x293df50, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method IndexOfKey, addr 0x29425b8, size 0x180, virtual false, abstract: false, final false
   inline int32_t IndexOfKey(::System::Object* key);
 
-  /// @brief Method Remove, addr 0x293e370, size 0x108, virtual true, abstract: false, final true
+  /// @brief Method Remove, addr 0x29429d8, size 0x108, virtual true, abstract: false, final true
   inline void Remove(::System::Object* key);
 
-  /// @brief Method GetEnumerator, addr 0x293e478, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x2942ae0, size 0x74, virtual true, abstract: false, final false
   inline ::System::Collections::IDictionaryEnumerator* GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x293e538, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2942ba0, size 0x74, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method GetObjectData, addr 0x293e5ac, size 0x1d8, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x2942c14, size 0x1d8, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method System.Runtime.Serialization.IDeserializationCallback.OnDeserialization, addr 0x293e784, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.IDeserializationCallback.OnDeserialization, addr 0x2942dec, size 0x10, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::System::Object* sender);
 
-  /// @brief Method OnDeserialization, addr 0x293e794, size 0x3b8, virtual true, abstract: false, final false
+  /// @brief Method OnDeserialization, addr 0x2942dfc, size 0x3b8, virtual true, abstract: false, final false
   inline void OnDeserialization(::System::Object* sender);
 
   // Ctor Parameters [CppParam { name: "", ty: "OrderedDictionary", modifiers: "&&", def_value: None }]

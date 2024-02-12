@@ -36,12 +36,12 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory"
   constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory* i___Org__BouncyCastle__Crypto__Tls__TlsCipherFactory() noexcept;
 
-  /// @brief Method CreateCipher, addr 0xf5a310, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method CreateCipher, addr 0xf841a0, size 0x44, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsCipher* CreateCipher(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, int32_t encryptionAlgorithm, int32_t macAlgorithm);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::AbstractTlsCipherFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf5a354, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf841e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AbstractTlsCipherFactory", modifiers: "&&", def_value: None }]

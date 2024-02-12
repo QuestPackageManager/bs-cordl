@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::GlobalNamespace::BitMaskArray);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14991))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14864))
 // CS Name: ::BitMaskArray*
 class CORDL_TYPE BitMaskArray : public ::System::Object {
 public:
@@ -76,30 +76,30 @@ public:
 
   constexpr void __cordl_internal_set__data(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
 
-  /// @brief Method get_bitCount, addr 0x12a173c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_bitCount, addr 0x1337508, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_bitCount();
 
   static inline ::GlobalNamespace::BitMaskArray* New_ctor(int32_t bitCount);
 
-  /// @brief Method .ctor, addr 0x12a1744, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1337510, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(int32_t bitCount);
 
-  /// @brief Method Equals, addr 0x12a17c0, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x133758c, size 0x64, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::BitMaskArray* other);
 
-  /// @brief Method SetBits, addr 0x12a1824, size 0xfc, virtual true, abstract: false, final true
+  /// @brief Method SetBits, addr 0x13375f0, size 0xfc, virtual true, abstract: false, final true
   inline ::GlobalNamespace::BitMaskArray* SetBits(int32_t offset, uint64_t bits);
 
-  /// @brief Method GetBits, addr 0x12a1920, size 0x11c, virtual true, abstract: false, final true
+  /// @brief Method GetBits, addr 0x13376ec, size 0x11c, virtual true, abstract: false, final true
   inline uint64_t GetBits(int32_t offset, int32_t count);
 
-  /// @brief Method ToString, addr 0x12a1a3c, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x1337808, size 0xf8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method Serialize, addr 0x12a1b34, size 0x15c, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x1337900, size 0x15c, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method Deserialize, addr 0x12a1c90, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0x1337a5c, size 0xcc, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
   // Ctor Parameters [CppParam { name: "", ty: "BitMaskArray", modifiers: "&&", def_value: None }]

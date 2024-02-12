@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::BeatSaber::BeatAvatarSDK::BeatAvatarPoseController);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarSDK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15693))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15794))
 // CS Name: ::BeatSaber.BeatAvatarSDK::BeatAvatarPoseController*
 class CORDL_TYPE BeatAvatarPoseController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -79,19 +79,19 @@ public:
 
   constexpr void __cordl_internal_set__headBodyOffset(::UnityW<::BeatSaber::BeatAvatarSDK::HeadBodyOffsetSO> value);
 
-  /// @brief Method get_bodyWorldPosition, addr 0xe1b04c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_bodyWorldPosition, addr 0xe27698, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_bodyWorldPosition();
 
-  /// @brief Method UpdateTransforms, addr 0xe1b068, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method UpdateTransforms, addr 0xe276b4, size 0xdc, virtual false, abstract: false, final false
   inline void UpdateTransforms(::UnityEngine::Vector3 headPosition, ::UnityEngine::Vector3 leftHandPosition, ::UnityEngine::Vector3 rightHandPosition, ::UnityEngine::Quaternion headRotation,
                                ::UnityEngine::Quaternion leftHandRotation, ::UnityEngine::Quaternion rightHandRotation);
 
-  /// @brief Method UpdateBodyPosition, addr 0xe1b144, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method UpdateBodyPosition, addr 0xe27790, size 0x1b0, virtual false, abstract: false, final false
   inline void UpdateBodyPosition();
 
   static inline ::BeatSaber::BeatAvatarSDK::BeatAvatarPoseController* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe1b2f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe27940, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatAvatarPoseController", modifiers: "&&", def_value: None }]

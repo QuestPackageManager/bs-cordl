@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BufferedLightColorGroupEffectManager);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4920))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4274))
 // CS Name: ::BufferedLightColorGroupEffectManager*
 class CORDL_TYPE BufferedLightColorGroupEffectManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -78,15 +78,15 @@ public:
 
   constexpr void __cordl_internal_set__bufferedLightColorGroupEffects(::ArrayW<::GlobalNamespace::BufferedLightColorGroupEffect*, ::Array<::GlobalNamespace::BufferedLightColorGroupEffect*>*> value);
 
-  /// @brief Method Start, addr 0x23a7e4c, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2367f84, size 0x1b8, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy, addr 0x23a8004, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x236813c, size 0x5c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   static inline ::GlobalNamespace::BufferedLightColorGroupEffectManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23a8060, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2368198, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BufferedLightColorGroupEffectManager", modifiers: "&&", def_value: None }]

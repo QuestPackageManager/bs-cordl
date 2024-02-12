@@ -16,7 +16,7 @@ MARK_VAL_T(::Newtonsoft::Json::Linq::LineInfoHandling);
 namespace Newtonsoft::Json::Linq {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11967))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11865))
 // CS Name: ::Newtonsoft.Json.Linq::LineInfoHandling
 struct CORDL_TYPE LineInfoHandling {
 public:

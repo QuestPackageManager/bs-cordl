@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::Mono::Net::Security::AsyncProtocolResult);
 namespace Mono::Net::Security {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8818))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6828))
 // CS Name: ::Mono.Net.Security::AsyncProtocolResult*
 class CORDL_TYPE AsyncProtocolResult : public ::System::Object {
 public:
@@ -47,20 +47,20 @@ public:
 
   constexpr void __cordl_internal_set__Error_k__BackingField(::System::Runtime::ExceptionServices::ExceptionDispatchInfo* value);
 
-  /// @brief Method get_UserResult, addr 0x281e160, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UserResult, addr 0x2822948, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_UserResult();
 
-  /// @brief Method get_Error, addr 0x281e168, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Error, addr 0x2822950, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* get_Error();
 
   static inline ::Mono::Net::Security::AsyncProtocolResult* New_ctor(int32_t result);
 
-  /// @brief Method .ctor, addr 0x281e170, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2822958, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t result);
 
   static inline ::Mono::Net::Security::AsyncProtocolResult* New_ctor(::System::Runtime::ExceptionServices::ExceptionDispatchInfo* error);
 
-  /// @brief Method .ctor, addr 0x281e198, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2822980, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::ExceptionServices::ExceptionDispatchInfo* error);
 
   // Ctor Parameters [CppParam { name: "", ty: "AsyncProtocolResult", modifiers: "&&", def_value: None }]

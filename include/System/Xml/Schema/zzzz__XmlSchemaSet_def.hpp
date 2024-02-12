@@ -42,7 +42,7 @@ MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaSet);
 namespace System::Xml::Schema {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11736))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11634))
 // CS Name: ::System.Xml.Schema::XmlSchemaSet*
 class CORDL_TYPE XmlSchemaSet : public ::System::Object {
 public:
@@ -148,15 +148,15 @@ public:
 
   static inline ::System::Xml::Schema::XmlSchemaSet* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28c8db0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28cb418, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Xml::Schema::XmlSchemaSet* New_ctor(::System::Xml::XmlNameTable* nameTable);
 
-  /// @brief Method .ctor, addr 0x28c8e14, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28cb47c, size 0x288, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlNameTable* nameTable);
 
-  /// @brief Method InternalValidationCallback, addr 0x28c909c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method InternalValidationCallback, addr 0x28cb704, size 0x44, virtual false, abstract: false, final false
   inline void InternalValidationCallback(::System::Object* sender, ::System::Xml::Schema::ValidationEventArgs* e);
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaSet", modifiers: "&&", def_value: None }]

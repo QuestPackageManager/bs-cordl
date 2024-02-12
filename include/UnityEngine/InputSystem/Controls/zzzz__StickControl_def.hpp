@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Controls::StickControl);
 // SizeInfo { instance_size: 288, native_size: -1, calculated_instance_size: 288, calculated_native_size: 288, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6644))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6640))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5903))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5899))
 // CS Name: ::UnityEngine.InputSystem.Controls::StickControl*
 class CORDL_TYPE StickControl : public ::UnityEngine::InputSystem::Controls::Vector2Control {
 public:
@@ -67,36 +67,36 @@ public:
 
   constexpr void __cordl_internal_set__right_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method get_up, addr 0x2b0b598, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_up, addr 0x2b0b104, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_up();
 
-  /// @brief Method set_up, addr 0x2b0b5a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_up, addr 0x2b0b10c, size 0x8, virtual false, abstract: false, final false
   inline void set_up(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method get_down, addr 0x2b0b5a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_down, addr 0x2b0b114, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_down();
 
-  /// @brief Method set_down, addr 0x2b0b5b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_down, addr 0x2b0b11c, size 0x8, virtual false, abstract: false, final false
   inline void set_down(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method get_left, addr 0x2b0b5b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_left, addr 0x2b0b124, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_left();
 
-  /// @brief Method set_left, addr 0x2b0b5c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_left, addr 0x2b0b12c, size 0x8, virtual false, abstract: false, final false
   inline void set_left(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method get_right, addr 0x2b0b5c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_right, addr 0x2b0b134, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_right();
 
-  /// @brief Method set_right, addr 0x2b0b5d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_right, addr 0x2b0b13c, size 0x8, virtual false, abstract: false, final false
   inline void set_right(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method FinishSetup, addr 0x2b0b5d8, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x2b0b144, size 0xf8, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::InputSystem::Controls::StickControl* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2b0b6d0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b0b23c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "StickControl", modifiers: "&&", def_value: None }]

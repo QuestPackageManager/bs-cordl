@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::JetBrains::Annotations::RazorSectionAttribute);
 namespace JetBrains::Annotations {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15782))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15932))
 // CS Name: ::JetBrains.Annotations::RazorSectionAttribute*
 class CORDL_TYPE RazorSectionAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::JetBrains::Annotations::RazorSectionAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2eba6d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ed681c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RazorSectionAttribute", modifiers: "&&", def_value: None }]

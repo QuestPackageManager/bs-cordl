@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::TouchScreenKeyboardType);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10185))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8929))
 // CS Name: ::UnityEngine::TouchScreenKeyboardType
 struct CORDL_TYPE TouchScreenKeyboardType {
 public:

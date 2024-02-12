@@ -16,12 +16,12 @@ MARK_REF_PTR_T(::UnityEngine::Yoga::YogaConstants);
 namespace UnityEngine::Yoga {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15359))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15519))
 // CS Name: ::UnityEngine.Yoga::YogaConstants*
 class CORDL_TYPE YogaConstants : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsUndefined, addr 0x2ea4db0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method IsUndefined, addr 0x2ebe198, size 0x64, virtual false, abstract: false, final false
   static inline bool IsUndefined(float_t value);
 
   // Ctor Parameters [CppParam { name: "", ty: "YogaConstants", modifiers: "&&", def_value: None }]

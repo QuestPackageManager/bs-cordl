@@ -23,17 +23,17 @@ MARK_REF_PTR_T(::UnityEngine::Yoga::BaselineFunction);
 namespace UnityEngine::Yoga {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15372))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15532))
 // CS Name: ::UnityEngine.Yoga::BaselineFunction*
 class CORDL_TYPE BaselineFunction : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::UnityEngine::Yoga::BaselineFunction* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2ea5460, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ebe848, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x2ea5590, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2ebe978, size 0x14, virtual true, abstract: false, final false
   inline float_t Invoke(::UnityEngine::Yoga::YogaNode* node, float_t width, float_t height);
 
   // Ctor Parameters [CppParam { name: "", ty: "BaselineFunction", modifiers: "&&", def_value: None }]

@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::GlobalNamespace::NetLogger);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12888))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12786))
 // CS Name: ::NetLogger*
 class CORDL_TYPE NetLogger : public ::System::Object {
 public:
@@ -37,12 +37,12 @@ public:
   /// @brief Convert to "::LiteNetLib::INetLogger"
   constexpr ::LiteNetLib::INetLogger* i___LiteNetLib__INetLogger() noexcept;
 
-  /// @brief Method WriteNet, addr 0xe4cea8, size 0x174, virtual true, abstract: false, final true
+  /// @brief Method WriteNet, addr 0xe77ce0, size 0x174, virtual true, abstract: false, final true
   inline void WriteNet(::LiteNetLib::NetLogLevel level, ::StringW str, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
   static inline ::GlobalNamespace::NetLogger* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe4d01c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe77e54, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NetLogger", modifiers: "&&", def_value: None }]

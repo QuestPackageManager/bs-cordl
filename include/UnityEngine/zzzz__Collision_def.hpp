@@ -7,6 +7,15 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Collision)
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace UnityEngine {
+class ArticulationBody;
+}
 namespace UnityEngine {
 class Collider;
 }
@@ -15,6 +24,18 @@ class Component;
 }
 namespace UnityEngine {
 struct ContactPoint;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+class Rigidbody;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -26,8 +47,8 @@ MARK_REF_PTR_T(::UnityEngine::Collision);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15491))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8993))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13927))
 // CS Name: ::UnityEngine::Collision*
 class CORDL_TYPE Collision : public ::System::Object {
 public:
@@ -54,6 +75,32 @@ public:
   /// @brief Field m_LegacyContacts, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_m_LegacyContacts,
                       put = __cordl_internal_set_m_LegacyContacts))::ArrayW<::UnityEngine::ContactPoint, ::Array<::UnityEngine::ContactPoint>*> m_LegacyContacts;
+
+  __declspec(property(get = get_impactForceSum))::UnityEngine::Vector3 impactForceSum;
+
+  __declspec(property(get = get_frictionForceSum))::UnityEngine::Vector3 frictionForceSum;
+
+  __declspec(property(get = get_other))::UnityW<::UnityEngine::Component> other;
+
+  __declspec(property(get = get_relativeVelocity))::UnityEngine::Vector3 relativeVelocity;
+
+  __declspec(property(get = get_rigidbody))::UnityW<::UnityEngine::Rigidbody> rigidbody;
+
+  __declspec(property(get = get_articulationBody))::UnityW<::UnityEngine::ArticulationBody> articulationBody;
+
+  __declspec(property(get = get_body))::UnityW<::UnityEngine::Component> body;
+
+  __declspec(property(get = get_collider))::UnityW<::UnityEngine::Collider> collider;
+
+  __declspec(property(get = get_transform))::UnityW<::UnityEngine::Transform> transform;
+
+  __declspec(property(get = get_gameObject))::UnityW<::UnityEngine::GameObject> gameObject;
+
+  __declspec(property(get = get_contactCount)) int32_t contactCount;
+
+  __declspec(property(get = get_contacts))::ArrayW<::UnityEngine::ContactPoint, ::Array<::UnityEngine::ContactPoint>*> contacts;
+
+  __declspec(property(get = get_impulse))::UnityEngine::Vector3 impulse;
 
   constexpr ::UnityEngine::Vector3& __cordl_internal_get_m_Impulse();
 
@@ -96,6 +143,65 @@ public:
   constexpr ::ArrayW<::UnityEngine::ContactPoint, ::Array<::UnityEngine::ContactPoint>*> const& __cordl_internal_get_m_LegacyContacts() const;
 
   constexpr void __cordl_internal_set_m_LegacyContacts(::ArrayW<::UnityEngine::ContactPoint, ::Array<::UnityEngine::ContactPoint>*> value);
+
+  /// @brief Method GetEnumerator, addr 0x2d31cb8, size 0x1c, virtual true, abstract: false, final false
+  inline ::System::Collections::IEnumerator* GetEnumerator();
+
+  /// @brief Method get_impactForceSum, addr 0x2d31d48, size 0x44, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 get_impactForceSum();
+
+  /// @brief Method get_frictionForceSum, addr 0x2d31d8c, size 0x44, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 get_frictionForceSum();
+
+  /// @brief Method get_other, addr 0x2d31dd0, size 0x78, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Component> get_other();
+
+  /// @brief Method GetContacts_Internal, addr 0x2d31e48, size 0x1c, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityEngine::ContactPoint, ::Array<::UnityEngine::ContactPoint>*> GetContacts_Internal();
+
+  /// @brief Method get_relativeVelocity, addr 0x2d31e64, size 0xc, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 get_relativeVelocity();
+
+  /// @brief Method get_rigidbody, addr 0x2d31e70, size 0x7c, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Rigidbody> get_rigidbody();
+
+  /// @brief Method get_articulationBody, addr 0x2d31eec, size 0x7c, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::ArticulationBody> get_articulationBody();
+
+  /// @brief Method get_body, addr 0x2d31f68, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Component> get_body();
+
+  /// @brief Method get_collider, addr 0x2d31f70, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Collider> get_collider();
+
+  /// @brief Method get_transform, addr 0x2d31f78, size 0x90, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Transform> get_transform();
+
+  /// @brief Method get_gameObject, addr 0x2d32008, size 0x80, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::GameObject> get_gameObject();
+
+  /// @brief Method get_contactCount, addr 0x2d32088, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_contactCount();
+
+  /// @brief Method get_contacts, addr 0x2d31cd4, size 0x74, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityEngine::ContactPoint, ::Array<::UnityEngine::ContactPoint>*> get_contacts();
+
+  /// @brief Method GetContact, addr 0x2d32090, size 0x114, virtual false, abstract: false, final false
+  inline ::UnityEngine::ContactPoint GetContact(int32_t index);
+
+  /// @brief Method GetContacts, addr 0x2d321a4, size 0x94, virtual false, abstract: false, final false
+  inline int32_t GetContacts(::ArrayW<::UnityEngine::ContactPoint, ::Array<::UnityEngine::ContactPoint>*> contacts);
+
+  /// @brief Method GetContacts, addr 0x2d32238, size 0xd4, virtual false, abstract: false, final false
+  inline int32_t GetContacts(::System::Collections::Generic::List_1<::UnityEngine::ContactPoint>* contacts);
+
+  /// @brief Method get_impulse, addr 0x2d3230c, size 0xc, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 get_impulse();
+
+  static inline ::UnityEngine::Collision* New_ctor();
+
+  /// @brief Method .ctor, addr 0x2d32318, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Collision", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

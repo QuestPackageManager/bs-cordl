@@ -50,7 +50,7 @@ namespace System::Collections::Generic {
 template <typename T>
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3860))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3859))
 // CS Name: ::LowLevelListWithIList`1::Enumerator<T>
 struct CORDL_TYPE __LowLevelListWithIList_1__Enumerator {
 public:
@@ -131,8 +131,8 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3859)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3859), inst: 2653 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3861))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3858)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3858), inst: 2625 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3860))
 // CS Name: ::System.Collections.Generic::LowLevelListWithIList`1<T>*
 class CORDL_TYPE LowLevelListWithIList_1 : public ::System::Collections::Generic::LowLevelList_1<T> {
 public:

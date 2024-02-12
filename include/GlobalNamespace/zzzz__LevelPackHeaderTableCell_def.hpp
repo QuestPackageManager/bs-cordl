@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::GlobalNamespace::LevelPackHeaderTableCell);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(13664))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5431))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8995)), TypeDefinitionIndex(TypeDefinitionIndex(13617))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4734))
 // CS Name: ::LevelPackHeaderTableCell*
 class CORDL_TYPE LevelPackHeaderTableCell : public ::HMUI::TableCell {
 public:
@@ -77,21 +77,21 @@ public:
 
   constexpr void __cordl_internal_set__selectedAndHighlightedBackgroundColor(::UnityEngine::Color value);
 
-  /// @brief Method SetData, addr 0x227bdb8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x23d7670, size 0x24, virtual false, abstract: false, final false
   inline void SetData(::StringW headerText);
 
-  /// @brief Method SelectionDidChange, addr 0x227bddc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SelectionDidChange, addr 0x23d7694, size 0x4, virtual true, abstract: false, final false
   inline void SelectionDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
 
-  /// @brief Method HighlightDidChange, addr 0x227be7c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method HighlightDidChange, addr 0x23d7734, size 0x4, virtual true, abstract: false, final false
   inline void HighlightDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
 
-  /// @brief Method RefreshVisuals, addr 0x227bde0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method RefreshVisuals, addr 0x23d7698, size 0x9c, virtual false, abstract: false, final false
   inline void RefreshVisuals();
 
   static inline ::GlobalNamespace::LevelPackHeaderTableCell* New_ctor();
 
-  /// @brief Method .ctor, addr 0x227be80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d7738, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LevelPackHeaderTableCell", modifiers: "&&", def_value: None }]

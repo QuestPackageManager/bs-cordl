@@ -32,22 +32,22 @@ public:
 
   static inline int32_t getStaticF_SpinCountforSpinBeforeWait();
 
-  /// @brief Method get_Count, addr 0x2612004, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x2636f0c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_NextSpinWillYield, addr 0x261200c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_NextSpinWillYield, addr 0x2636f14, size 0x78, virtual false, abstract: false, final false
   inline bool get_NextSpinWillYield();
 
-  /// @brief Method SpinOnce, addr 0x2611f68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SpinOnce, addr 0x2636e70, size 0x8, virtual false, abstract: false, final false
   inline void SpinOnce();
 
-  /// @brief Method SpinOnce, addr 0x2611bf8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method SpinOnce, addr 0x2636b00, size 0xac, virtual false, abstract: false, final false
   inline void SpinOnce(int32_t sleep1Threshold);
 
-  /// @brief Method SpinOnceCore, addr 0x2612084, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method SpinOnceCore, addr 0x2636f8c, size 0x1a4, virtual false, abstract: false, final false
   inline void SpinOnceCore(int32_t sleep1Threshold);
 
-  /// @brief Method Reset, addr 0x2612228, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x2637130, size 0x8, virtual false, abstract: false, final false
   inline void Reset();
 
   // Ctor Parameters [CppParam { name: "_count", ty: "int32_t", modifiers: "", def_value: None }]

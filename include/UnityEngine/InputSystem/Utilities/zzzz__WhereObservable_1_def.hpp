@@ -39,7 +39,7 @@ namespace UnityEngine::InputSystem::Utilities {
 template <typename TValue>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6694))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5953))
 // CS Name: ::WhereObservable`1::Where<TValue>*
 class CORDL_TYPE __WhereObservable_1__Where : public ::System::Object {
 public:
@@ -114,7 +114,7 @@ namespace UnityEngine::InputSystem::Utilities {
 template <typename TValue>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6695))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5954))
 // CS Name: ::UnityEngine.InputSystem.Utilities::WhereObservable`1<TValue>*
 class CORDL_TYPE WhereObservable_1 : public ::System::Object {
 public:

@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::IPointerUpHandler);
 namespace UnityEngine::EventSystems {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13175))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13073))
 // CS Name: ::UnityEngine.EventSystems::IPointerUpHandler*
 class CORDL_TYPE IPointerUpHandler {
 public:

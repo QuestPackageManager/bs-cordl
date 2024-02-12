@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::PointerEventsHelper);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7170))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6429))
 // CS Name: ::UnityEngine.UIElements::PointerEventsHelper*
 class CORDL_TYPE PointerEventsHelper : public ::System::Object {
 public:
@@ -35,7 +35,7 @@ public:
   static inline void SendEnterLeave(::UnityEngine::UIElements::VisualElement* previousTopElementUnderPointer, ::UnityEngine::UIElements::VisualElement* currentTopElementUnderPointer,
                                     ::UnityEngine::UIElements::IPointerEvent* triggerEvent, ::UnityEngine::Vector2 position, int32_t pointerId);
 
-  /// @brief Method SendOverOut, addr 0x2e49228, size 0x380, virtual false, abstract: false, final false
+  /// @brief Method SendOverOut, addr 0x2e64610, size 0x380, virtual false, abstract: false, final false
   static inline void SendOverOut(::UnityEngine::UIElements::VisualElement* previousTopElementUnderPointer, ::UnityEngine::UIElements::VisualElement* currentTopElementUnderPointer,
                                  ::UnityEngine::UIElements::IPointerEvent* triggerEvent, ::UnityEngine::Vector2 position, int32_t pointerId);
 

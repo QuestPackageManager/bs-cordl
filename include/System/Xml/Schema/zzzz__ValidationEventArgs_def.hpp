@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::System::Xml::Schema::ValidationEventArgs);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2376)), TypeDefinitionIndex(TypeDefinitionIndex(11745))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11709))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2376)), TypeDefinitionIndex(TypeDefinitionIndex(11643))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11607))
 // CS Name: ::System.Xml.Schema::ValidationEventArgs*
 class CORDL_TYPE ValidationEventArgs : public ::System::EventArgs {
 public:
@@ -49,10 +49,10 @@ public:
 
   constexpr void __cordl_internal_set_severity(::System::Xml::Schema::XmlSeverityType value);
 
-  /// @brief Method get_Severity, addr 0x28c5bf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Severity, addr 0x28c8258, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSeverityType get_Severity();
 
-  /// @brief Method get_Exception, addr 0x28c5bf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Exception, addr 0x28c8260, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaException* get_Exception();
 
   // Ctor Parameters [CppParam { name: "", ty: "ValidationEventArgs", modifiers: "&&", def_value: None }]

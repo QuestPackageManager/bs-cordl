@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::PointerType);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7194))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6453))
 // CS Name: ::UnityEngine.UIElements::PointerType*
 class CORDL_TYPE PointerType : public ::System::Object {
 public:
@@ -50,10 +50,10 @@ public:
 
   static inline ::StringW getStaticF_unknown();
 
-  /// @brief Method GetPointerType, addr 0x2e4ebc8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetPointerType, addr 0x2e69fb0, size 0x9c, virtual false, abstract: false, final false
   static inline ::StringW GetPointerType(int32_t pointerId);
 
-  /// @brief Method IsDirectManipulationDevice, addr 0x2e4ec64, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method IsDirectManipulationDevice, addr 0x2e6a04c, size 0x8c, virtual false, abstract: false, final false
   static inline bool IsDirectManipulationDevice(::StringW pointerType);
 
   // Ctor Parameters [CppParam { name: "", ty: "PointerType", modifiers: "&&", def_value: None }]

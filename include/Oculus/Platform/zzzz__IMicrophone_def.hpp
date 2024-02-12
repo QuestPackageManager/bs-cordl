@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::Oculus::Platform::IMicrophone);
 namespace Oculus::Platform {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13246))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13143))
 // CS Name: ::Oculus.Platform::IMicrophone*
 class CORDL_TYPE IMicrophone {
 public:

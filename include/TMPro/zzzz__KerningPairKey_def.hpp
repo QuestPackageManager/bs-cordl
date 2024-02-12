@@ -16,12 +16,12 @@ MARK_VAL_T(::TMPro::KerningPairKey);
 namespace TMPro {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12361))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12259))
 // CS Name: ::TMPro::KerningPairKey
 struct CORDL_TYPE KerningPairKey {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x2c102e8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c0ce54, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(uint32_t ascii_left, uint32_t ascii_right);
 
   // Ctor Parameters [CppParam { name: "ascii_Left", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "ascii_Right", ty: "uint32_t", modifiers: "", def_value: None }, CppParam {

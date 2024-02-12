@@ -20,8 +20,8 @@ MARK_VAL_T(::ENet::Address);
 // SizeInfo { instance_size: 18, native_size: 18, calculated_instance_size: 18, calculated_native_size: 34, minimum_alignment: 2, natural_alignment: 2, packing: None, specified_packing: None }
 namespace ENet {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15217))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15228))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15330))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15341))
 // CS Name: ::ENet::Address
 struct CORDL_TYPE Address {
 public:
@@ -30,31 +30,31 @@ public:
 
   __declspec(property(get = get_Port, put = set_Port)) uint16_t Port;
 
-  /// @brief Method get_NativeData, addr 0x21ef720, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_NativeData, addr 0x2285008, size 0x14, virtual false, abstract: false, final false
   inline ::ENet::ENetAddress get_NativeData();
 
-  /// @brief Method set_NativeData, addr 0x21ef734, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_NativeData, addr 0x228501c, size 0x14, virtual false, abstract: false, final false
   inline void set_NativeData(::ENet::ENetAddress value);
 
-  /// @brief Method .ctor, addr 0x21ef748, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2285030, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::ENet::ENetAddress address);
 
-  /// @brief Method get_Port, addr 0x21ef75c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Port, addr 0x2285044, size 0x8, virtual false, abstract: false, final false
   inline uint16_t get_Port();
 
-  /// @brief Method set_Port, addr 0x21ef764, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Port, addr 0x228504c, size 0x8, virtual false, abstract: false, final false
   inline void set_Port(uint16_t value);
 
-  /// @brief Method GetIP, addr 0x21ef76c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetIP, addr 0x2285054, size 0xc0, virtual false, abstract: false, final false
   inline ::StringW GetIP();
 
-  /// @brief Method SetIP, addr 0x21ef8e8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetIP, addr 0x22851d0, size 0x68, virtual false, abstract: false, final false
   inline bool SetIP(::StringW ip);
 
-  /// @brief Method GetHost, addr 0x21ef9f0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetHost, addr 0x22852d8, size 0xc0, virtual false, abstract: false, final false
   inline ::StringW GetHost();
 
-  /// @brief Method SetHost, addr 0x21efb6c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetHost, addr 0x2285454, size 0x68, virtual false, abstract: false, final false
   inline bool SetHost(::StringW hostName);
 
   // Ctor Parameters [CppParam { name: "nativeAddress", ty: "::ENet::ENetAddress", modifiers: "", def_value: None }]

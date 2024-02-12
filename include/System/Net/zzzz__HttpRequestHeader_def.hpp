@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::HttpRequestHeader);
 namespace System::Net {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9067))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7077))
 // CS Name: ::System.Net::HttpRequestHeader
 struct CORDL_TYPE HttpRequestHeader {
 public:

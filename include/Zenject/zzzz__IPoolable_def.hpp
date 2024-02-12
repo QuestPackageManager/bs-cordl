@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::Zenject::IPoolable);
 namespace Zenject {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15720))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15870))
 // CS Name: ::Zenject::IPoolable*
 class CORDL_TYPE IPoolable {
 public:

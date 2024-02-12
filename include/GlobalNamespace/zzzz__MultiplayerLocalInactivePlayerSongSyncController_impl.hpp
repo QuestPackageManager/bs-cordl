@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MultiplayerLocalInactivePlayerSongSyncController__InitData::*)(
     ::UnityEngine::AudioClip*, float_t, float_t, float_t)>(&::GlobalNamespace::__MultiplayerLocalInactivePlayerSongSyncController__InitData::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x23dd218;
+  constexpr static std::size_t addrs = 0x239bc08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::WaitUntil* (::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::*)()>(
     &::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::get_waitUntilIsReadyToStartTheSong)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x23dd2b0;
+  constexpr static std::size_t addrs = 0x239bca0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::*)()>(
     &::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::get_isAudioLoaded)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x23dd35c;
+  constexpr static std::size_t addrs = 0x239bd4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::*)()>(
     &::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::Awake)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x23dd3f8;
+  constexpr static std::size_t addrs = 0x239bde8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::*)()>(
     &::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::Start)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x23dd510;
+  constexpr static std::size_t addrs = 0x239bf00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::*)()>(
     &::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::OnDestroy)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x23dd600;
+  constexpr static std::size_t addrs = 0x239bff0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::*)()>(
     &::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::Update)> {
   constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x23dd708;
+  constexpr static std::size_t addrs = 0x239c0f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -189,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::*)(float_t)>(
     &::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::StartSong)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x23ddae8;
+  constexpr static std::size_t addrs = 0x239c4d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -204,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::*)(
     ::GlobalNamespace::IMultiplayerObservable*, bool, bool)>(&::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::FollowOffsetSyncTime)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x23ddd38;
+  constexpr static std::size_t addrs = 0x239c728;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -221,7 +221,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::*)(int64_t, bool, bool)>(
     &::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::UpdateOffsetSyncTime)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x23dd984;
+  constexpr static std::size_t addrs = 0x239c374;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -238,7 +238,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::*)(float_t)>(
     &::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::SeekTo)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x23ddf1c;
+  constexpr static std::size_t addrs = 0x239c90c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -253,7 +253,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::*)(float_t, bool, float_t)>(
     &::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::SeekTo)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x23ddbd8;
+  constexpr static std::size_t addrs = 0x239c5c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -269,7 +269,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::*)()>(
     &::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::HandleVrFocusWasReleased)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x23ddf28;
+  constexpr static std::size_t addrs = 0x239c918;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -284,7 +284,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::*)()>(
     &::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23ddf2c;
+  constexpr static std::size_t addrs = 0x239c91c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -299,7 +299,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::*)()>(
     &::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::_get_waitUntilIsReadyToStartTheSong_b__7_0)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x23ddf34;
+  constexpr static std::size_t addrs = 0x239c924;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

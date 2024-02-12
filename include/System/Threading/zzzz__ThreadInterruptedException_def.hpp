@@ -28,12 +28,12 @@ public:
   // Declarations
   static inline ::System::Threading::ThreadInterruptedException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x261a428, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263f5a4, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Threading::ThreadInterruptedException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x261a4a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263f620, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "ThreadInterruptedException", modifiers: "&&", def_value: None }]

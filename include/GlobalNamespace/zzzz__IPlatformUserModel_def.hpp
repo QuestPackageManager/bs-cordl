@@ -11,7 +11,7 @@ namespace GlobalNamespace {
 class UserInfo;
 }
 namespace GlobalNamespace {
-class XPlatformAccessTokenData;
+struct XPlatformAccessTokenData;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
@@ -36,7 +36,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IPlatformUserModel);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15983))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16359))
 // CS Name: ::IPlatformUserModel*
 class CORDL_TYPE IPlatformUserModel {
 public:
@@ -65,7 +65,7 @@ public:
   inline ::System::Threading::Tasks::Task_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>* GetUserNamesForUserIds(::System::Collections::Generic::IReadOnlyList_1<::StringW>* userIds);
 
   /// @brief Method RequestXPlatformAccessToken, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData*>* RequestXPlatformAccessToken(::System::Threading::CancellationToken cancellationToken);
+  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData>* RequestXPlatformAccessToken(::System::Threading::CancellationToken cancellationToken);
 
   // Ctor Parameters [CppParam { name: "", ty: "IPlatformUserModel", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

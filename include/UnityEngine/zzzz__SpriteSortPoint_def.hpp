@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::SpriteSortPoint);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10290))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9036))
 // CS Name: ::UnityEngine::SpriteSortPoint
 struct CORDL_TYPE SpriteSortPoint {
 public:

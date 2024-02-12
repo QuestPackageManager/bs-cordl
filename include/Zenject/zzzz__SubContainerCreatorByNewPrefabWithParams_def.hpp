@@ -57,8 +57,8 @@ MARK_REF_PTR_T(::Zenject::__SubContainerCreatorByNewPrefabWithParams____c__Displ
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11114))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11292))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10256))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10434))
 // CS Name: ::SubContainerCreatorByNewPrefabWithParams::<>c__DisplayClass7_0*
 class CORDL_TYPE __SubContainerCreatorByNewPrefabWithParams____c__DisplayClass7_0 : public ::System::Object {
 public:
@@ -74,19 +74,19 @@ public:
 
   static inline ::Zenject::__SubContainerCreatorByNewPrefabWithParams____c__DisplayClass7_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f0cf8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f290d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <CreateTempContainer>b__0, addr 0x2f0d140, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <CreateTempContainer>b__0, addr 0x2f29288, size 0x70, virtual false, abstract: false, final false
   inline bool _CreateTempContainer_b__0(::Zenject::InjectableInfo* x);
 
-  /// @brief Method <CreateTempContainer>b__1, addr 0x2f0d1b0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <CreateTempContainer>b__1, addr 0x2f292f8, size 0x20, virtual false, abstract: false, final false
   inline int32_t _CreateTempContainer_b__1(::Zenject::InjectableInfo* x);
 
-  /// @brief Method __zenCreate, addr 0x2f0d1d0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2f29318, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f0d22c, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f29374, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__SubContainerCreatorByNewPrefabWithParams____c__DisplayClass7_0", modifiers: "&&", def_value: None }]
@@ -119,7 +119,7 @@ static_assert(offsetof(::Zenject::__SubContainerCreatorByNewPrefabWithParams____
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11293))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10435))
 // CS Name: ::Zenject::SubContainerCreatorByNewPrefabWithParams*
 class CORDL_TYPE SubContainerCreatorByNewPrefabWithParams : public ::System::Object {
 public:
@@ -173,16 +173,16 @@ public:
   static inline ::Zenject::SubContainerCreatorByNewPrefabWithParams* New_ctor(::System::Type* installerType, ::Zenject::DiContainer* container, ::Zenject::IPrefabProvider* prefabProvider,
                                                                               ::Zenject::GameObjectCreationParameters* gameObjectBindInfo);
 
-  /// @brief Method .ctor, addr 0x2f0ca24, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f28b6c, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* installerType, ::Zenject::DiContainer* container, ::Zenject::IPrefabProvider* prefabProvider, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo);
 
-  /// @brief Method get_Container, addr 0x2f0ca64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Container, addr 0x2f28bac, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* get_Container();
 
-  /// @brief Method CreateTempContainer, addr 0x2f0ca6c, size 0x49c, virtual false, abstract: false, final false
+  /// @brief Method CreateTempContainer, addr 0x2f28bb4, size 0x49c, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* CreateTempContainer(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args);
 
-  /// @brief Method CreateSubContainer, addr 0x2f0cf94, size 0x1ac, virtual true, abstract: false, final true
+  /// @brief Method CreateSubContainer, addr 0x2f290dc, size 0x1ac, virtual true, abstract: false, final true
   inline ::Zenject::DiContainer* CreateSubContainer(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::InjectContext* parentContext);
 
   // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByNewPrefabWithParams", modifiers: "&&", def_value: None }]

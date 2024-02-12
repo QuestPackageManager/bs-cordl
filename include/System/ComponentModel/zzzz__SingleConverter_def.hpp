@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::System::ComponentModel::SingleConverter);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9407))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9455))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7417))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7465))
 // CS Name: ::System.ComponentModel::SingleConverter*
 class CORDL_TYPE SingleConverter : public ::System::ComponentModel::BaseNumberConverter {
 public:
@@ -35,24 +35,24 @@ public:
 
   __declspec(property(get = get_TargetType))::System::Type* TargetType;
 
-  /// @brief Method get_AllowHex, addr 0x291837c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_AllowHex, addr 0x291c9e4, size 0x8, virtual true, abstract: false, final false
   inline bool get_AllowHex();
 
-  /// @brief Method get_TargetType, addr 0x2918384, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method get_TargetType, addr 0x291c9ec, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Type* get_TargetType();
 
-  /// @brief Method FromString, addr 0x29183f0, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method FromString, addr 0x291ca58, size 0xc0, virtual true, abstract: false, final false
   inline ::System::Object* FromString(::StringW value, int32_t radix);
 
-  /// @brief Method FromString, addr 0x29184b0, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method FromString, addr 0x291cb18, size 0x70, virtual true, abstract: false, final false
   inline ::System::Object* FromString(::StringW value, ::System::Globalization::NumberFormatInfo* formatInfo);
 
-  /// @brief Method ToString, addr 0x2918520, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x291cb88, size 0xb0, virtual true, abstract: false, final false
   inline ::StringW ToString(::System::Object* value, ::System::Globalization::NumberFormatInfo* formatInfo);
 
   static inline ::System::ComponentModel::SingleConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29185d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x291cc38, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SingleConverter", modifiers: "&&", def_value: None }]

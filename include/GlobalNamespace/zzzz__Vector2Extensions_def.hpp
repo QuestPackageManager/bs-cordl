@@ -19,12 +19,12 @@ MARK_REF_PTR_T(::GlobalNamespace::Vector2Extensions);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15876))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15629))
 // CS Name: ::Vector2Extensions*
 class CORDL_TYPE Vector2Extensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SignedAngleToLine, addr 0xe28b7c, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method SignedAngleToLine, addr 0xe52e28, size 0x1d4, virtual false, abstract: false, final false
   static inline float_t SignedAngleToLine(::UnityEngine::Vector2 vec, ::UnityEngine::Vector2 line);
 
   // Ctor Parameters [CppParam { name: "", ty: "Vector2Extensions", modifiers: "&&", def_value: None }]

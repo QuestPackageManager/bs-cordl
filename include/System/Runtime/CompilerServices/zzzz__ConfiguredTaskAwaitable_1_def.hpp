@@ -9,9 +9,6 @@ namespace System::Runtime::CompilerServices {
 class ICriticalNotifyCompletion;
 }
 namespace System::Runtime::CompilerServices {
-class INotifyCompletion;
-}
-namespace System::Runtime::CompilerServices {
 template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
 }
 namespace System::Threading::Tasks {
@@ -37,7 +34,7 @@ namespace System::Runtime::CompilerServices {
 template <typename TResult>
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3397))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3393))
 // CS Name: ::ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>
 struct CORDL_TYPE __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter {
 public:
@@ -50,20 +47,11 @@ public:
   /// @brief Convert to "::System::Runtime::CompilerServices::ICriticalNotifyCompletion"
   constexpr ::System::Runtime::CompilerServices::ICriticalNotifyCompletion* i___System__Runtime__CompilerServices__ICriticalNotifyCompletion();
 
-  /// @brief Convert operator to "::System::Runtime::CompilerServices::INotifyCompletion"
-  constexpr operator ::System::Runtime::CompilerServices::INotifyCompletion*();
-
-  /// @brief Convert to "::System::Runtime::CompilerServices::INotifyCompletion"
-  constexpr ::System::Runtime::CompilerServices::INotifyCompletion* i___System__Runtime__CompilerServices__INotifyCompletion();
-
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::Task_1<TResult>* task, bool continueOnCapturedContext);
 
   /// @brief Method get_IsCompleted, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_IsCompleted();
-
-  /// @brief Method OnCompleted, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline void OnCompleted(::System::Action* continuation);
 
   /// @brief Method UnsafeOnCompleted, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void UnsafeOnCompleted(::System::Action* continuation);
@@ -98,8 +86,8 @@ namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename TResult>
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3397)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 1121 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3398))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3393)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3393), inst: 1112 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3394))
 // CS Name: ::System.Runtime.CompilerServices::ConfiguredTaskAwaitable`1<TResult>
 struct CORDL_TYPE ConfiguredTaskAwaitable_1 {
 public:

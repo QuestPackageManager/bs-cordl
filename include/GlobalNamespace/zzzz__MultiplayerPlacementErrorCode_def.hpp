@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::MultiplayerPlacementErrorCode);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12738))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12636))
 // CS Name: ::MultiplayerPlacementErrorCode
 struct CORDL_TYPE MultiplayerPlacementErrorCode {
 public:

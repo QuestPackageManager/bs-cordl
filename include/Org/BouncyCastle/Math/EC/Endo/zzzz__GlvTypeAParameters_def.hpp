@@ -62,16 +62,16 @@ public:
   static inline ::Org::BouncyCastle::Math::EC::Endo::GlvTypeAParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* i, ::Org::BouncyCastle::Math::BigInteger* lambda,
                                                                                   ::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* splitParams);
 
-  /// @brief Method .ctor, addr 0x103550c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x106239c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* i, ::Org::BouncyCastle::Math::BigInteger* lambda, ::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* splitParams);
 
-  /// @brief Method get_I, addr 0x1035548, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_I, addr 0x10623d8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_I();
 
-  /// @brief Method get_Lambda, addr 0x1035550, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Lambda, addr 0x10623e0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Lambda();
 
-  /// @brief Method get_SplitParams, addr 0x1035558, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SplitParams, addr 0x10623e8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* get_SplitParams();
 
   // Ctor Parameters [CppParam { name: "", ty: "GlvTypeAParameters", modifiers: "&&", def_value: None }]

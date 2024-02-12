@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServerListDetailTableCell::*)(::System::Action*)>(
     &::GlobalNamespace::GameServerListDetailTableCell::add_joinServerButtonWasPressedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2278d10;
+  constexpr static std::size_t addrs = 0x23d4878;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServerListDetailTableCell::*)(::System::Action*)>(
     &::GlobalNamespace::GameServerListDetailTableCell::remove_joinServerButtonWasPressedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2278dac;
+  constexpr static std::size_t addrs = 0x23d4914;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServerListDetailTableCell::*)()>(
     &::GlobalNamespace::GameServerListDetailTableCell::Start)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x2278e48;
+  constexpr static std::size_t addrs = 0x23d49b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServerListDetailTableCell::*)()>(
     &::GlobalNamespace::GameServerListDetailTableCell::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2278ef0;
+  constexpr static std::size_t addrs = 0x23d4a58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerListDetailTableCell*>::get(),
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServerListDetailTableCell::*)()>(
     &::GlobalNamespace::GameServerListDetailTableCell::_Start_b__5_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2278f58;
+  constexpr static std::size_t addrs = 0x23d4ac0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerListDetailTableCell*>::get(),

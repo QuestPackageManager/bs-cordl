@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::System::Xml::XmlDocumentType);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11513))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11507))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11411))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11405))
 // CS Name: ::System.Xml::XmlDocumentType*
 class CORDL_TYPE XmlDocumentType : public ::System::Xml::XmlLinkedNode {
 public:
@@ -132,46 +132,46 @@ public:
 
   static inline ::System::Xml::XmlDocumentType* New_ctor(::StringW name, ::StringW publicId, ::StringW systemId, ::StringW internalSubset, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method .ctor, addr 0x2887f44, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x288b5ac, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::StringW publicId, ::StringW systemId, ::StringW internalSubset, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method get_Name, addr 0x2888088, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x288b6f0, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_LocalName, addr 0x2888090, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x288b6f8, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_NodeType, addr 0x2888098, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x288b700, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
-  /// @brief Method CloneNode, addr 0x28880a0, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method CloneNode, addr 0x288b708, size 0x3c, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* CloneNode(bool deep);
 
-  /// @brief Method get_IsReadOnly, addr 0x28880dc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x288b744, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Entities, addr 0x28880e4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_Entities, addr 0x288b74c, size 0x70, virtual false, abstract: false, final false
   inline ::System::Xml::XmlNamedNodeMap* get_Entities();
 
-  /// @brief Method get_Notations, addr 0x288817c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_Notations, addr 0x288b7e4, size 0x70, virtual false, abstract: false, final false
   inline ::System::Xml::XmlNamedNodeMap* get_Notations();
 
-  /// @brief Method get_PublicId, addr 0x28881ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PublicId, addr 0x288b854, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_PublicId();
 
-  /// @brief Method get_SystemId, addr 0x28881f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SystemId, addr 0x288b85c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_SystemId();
 
-  /// @brief Method get_InternalSubset, addr 0x28881fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InternalSubset, addr 0x288b864, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_InternalSubset();
 
-  /// @brief Method get_ParseWithNamespaces, addr 0x2888204, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ParseWithNamespaces, addr 0x288b86c, size 0x8, virtual false, abstract: false, final false
   inline bool get_ParseWithNamespaces();
 
-  /// @brief Method get_DtdSchemaInfo, addr 0x288820c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DtdSchemaInfo, addr 0x288b874, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::SchemaInfo* get_DtdSchemaInfo();
 
-  /// @brief Method set_DtdSchemaInfo, addr 0x2888214, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DtdSchemaInfo, addr 0x288b87c, size 0x8, virtual false, abstract: false, final false
   inline void set_DtdSchemaInfo(::System::Xml::Schema::SchemaInfo* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlDocumentType", modifiers: "&&", def_value: None }]

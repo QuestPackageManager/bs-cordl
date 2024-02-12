@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::GlobalNamespace::SaberMovementData);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4194))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10646))
 // CS Name: ::SaberMovementData*
 class CORDL_TYPE SaberMovementData : public ::System::Object {
 public:
@@ -107,48 +107,48 @@ public:
 
   constexpr void __cordl_internal_set__bladeSpeed(float_t value);
 
-  /// @brief Method get_bladeSpeed, addr 0x23238c4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_bladeSpeed, addr 0x1267850, size 0x8, virtual true, abstract: false, final true
   inline float_t get_bladeSpeed();
 
-  /// @brief Method get_lastAddedData, addr 0x23238cc, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method get_lastAddedData, addr 0x1267858, size 0x5c, virtual true, abstract: false, final true
   inline ::GlobalNamespace::BladeMovementDataElement get_lastAddedData();
 
-  /// @brief Method get_prevAddedData, addr 0x2323928, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method get_prevAddedData, addr 0x12678b4, size 0x5c, virtual true, abstract: false, final true
   inline ::GlobalNamespace::BladeMovementDataElement get_prevAddedData();
 
   static inline ::GlobalNamespace::SaberMovementData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2323984, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1267910, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method AddDataProcessor, addr 0x2323a2c, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method AddDataProcessor, addr 0x12679b8, size 0x58, virtual true, abstract: false, final true
   inline void AddDataProcessor(::GlobalNamespace::ISaberMovementDataProcessor* dataProcessor);
 
-  /// @brief Method RemoveDataProcessor, addr 0x2323a84, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method RemoveDataProcessor, addr 0x1267a10, size 0x58, virtual true, abstract: false, final true
   inline void RemoveDataProcessor(::GlobalNamespace::ISaberMovementDataProcessor* dataProcessor);
 
-  /// @brief Method RequestLastDataProcessing, addr 0x2323adc, size 0x188, virtual true, abstract: false, final true
+  /// @brief Method RequestLastDataProcessing, addr 0x1267a68, size 0x188, virtual true, abstract: false, final true
   inline void RequestLastDataProcessing(::GlobalNamespace::ISaberMovementDataProcessor* dataProcessor);
 
-  /// @brief Method AddNewData, addr 0x2323c64, size 0x4d0, virtual false, abstract: false, final false
+  /// @brief Method AddNewData, addr 0x1267bf0, size 0x4d0, virtual false, abstract: false, final false
   inline void AddNewData(::UnityEngine::Vector3 topPos, ::UnityEngine::Vector3 bottomPos, float_t time);
 
-  /// @brief Method ComputeAdditionalData, addr 0x2324134, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method ComputeAdditionalData, addr 0x12680c0, size 0x230, virtual false, abstract: false, final false
   inline void ComputeAdditionalData(::UnityEngine::Vector3 topPos, ::UnityEngine::Vector3 bottomPos, int32_t idxOffset, ByRef<::UnityEngine::Vector3> segmentNormal, ByRef<float_t> segmentAngle);
 
-  /// @brief Method ComputePlaneNormal, addr 0x2324364, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method ComputePlaneNormal, addr 0x12682f0, size 0x13c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 ComputePlaneNormal(::UnityEngine::Vector3 tp0, ::UnityEngine::Vector3 bp0, ::UnityEngine::Vector3 tp1, ::UnityEngine::Vector3 bp1);
 
-  /// @brief Method ComputeCutPlaneNormal, addr 0x23244a0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method ComputeCutPlaneNormal, addr 0x126842c, size 0xa0, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 ComputeCutPlaneNormal();
 
-  /// @brief Method ComputeSwingRating, addr 0x2324540, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method ComputeSwingRating, addr 0x12684cc, size 0x8, virtual true, abstract: false, final true
   inline float_t ComputeSwingRating(float_t overrideSegmentAngle);
 
-  /// @brief Method ComputeSwingRating, addr 0x232480c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method ComputeSwingRating, addr 0x1268798, size 0xc, virtual true, abstract: false, final true
   inline float_t ComputeSwingRating();
 
-  /// @brief Method ComputeSwingRating, addr 0x2324548, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method ComputeSwingRating, addr 0x12684d4, size 0x2c4, virtual false, abstract: false, final false
   inline float_t ComputeSwingRating(bool overrideSegmenAngle, float_t overrideValue);
 
   // Ctor Parameters [CppParam { name: "", ty: "SaberMovementData", modifiers: "&&", def_value: None }]

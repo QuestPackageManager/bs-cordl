@@ -29,17 +29,17 @@ public:
   // Declarations
   static inline ::System::NotImplementedException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25afe6c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d2d84, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::NotImplementedException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x25afec8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d2de0, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::System::NotImplementedException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x25afeec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d2e04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "NotImplementedException", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::Newtonsoft::Json::JsonContainerType);
 namespace Newtonsoft::Json {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11806))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11704))
 // CS Name: ::Newtonsoft.Json::JsonContainerType
 struct CORDL_TYPE JsonContainerType {
 public:

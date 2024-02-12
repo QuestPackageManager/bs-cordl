@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::System::Xml::IDtdDefaultAttributeInfo);
 namespace System::Xml {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11424))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11322))
 // CS Name: ::System.Xml::IDtdDefaultAttributeInfo*
 class CORDL_TYPE IDtdDefaultAttributeInfo {
 public:

@@ -25,17 +25,17 @@ MARK_REF_PTR_T(::System::Net::AuthenticationSchemeSelector);
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9057))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7067))
 // CS Name: ::System.Net::AuthenticationSchemeSelector*
 class CORDL_TYPE AuthenticationSchemeSelector : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::System::Net::AuthenticationSchemeSelector* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x299b370, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x299ee14, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x299b444, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x299eee8, size 0x14, virtual true, abstract: false, final false
   inline ::System::Net::AuthenticationSchemes Invoke(::System::Net::HttpListenerRequest* httpRequest);
 
   // Ctor Parameters [CppParam { name: "", ty: "AuthenticationSchemeSelector", modifiers: "&&", def_value: None }]

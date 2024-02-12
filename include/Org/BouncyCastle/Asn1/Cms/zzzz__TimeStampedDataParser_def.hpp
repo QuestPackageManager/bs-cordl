@@ -103,22 +103,22 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser* New_ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* parser);
 
-  /// @brief Method .ctor, addr 0xe82948, size 0x400, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeac7d8, size 0x400, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* parser);
 
-  /// @brief Method GetInstance, addr 0xe82d48, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xeacbd8, size 0x128, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser* GetInstance(::System::Object* obj);
 
-  /// @brief Method get_DataUri, addr 0xe82e70, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_DataUri, addr 0xeacd00, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerIA5String* get_DataUri();
 
-  /// @brief Method get_MetaData, addr 0xe82e78, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_MetaData, addr 0xeacd08, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::MetaData* get_MetaData();
 
-  /// @brief Method get_Content, addr 0xe82e80, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Content, addr 0xeacd10, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetStringParser* get_Content();
 
-  /// @brief Method GetTemporalEvidence, addr 0xe82e88, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method GetTemporalEvidence, addr 0xeacd18, size 0x12c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::Evidence* GetTemporalEvidence();
 
   // Ctor Parameters [CppParam { name: "", ty: "TimeStampedDataParser", modifiers: "&&", def_value: None }]

@@ -49,7 +49,7 @@ MARK_VAL_T(::GlobalNamespace::__OculusTestExperiment___Init_d__3);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4188))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10642))
 // CS Name: ::OculusTestExperiment::ExperimentData*
 class CORDL_TYPE __OculusTestExperiment__ExperimentData : public ::System::Object {
 public:
@@ -71,12 +71,12 @@ public:
 
   constexpr void __cordl_internal_set__experimentPlatformKey(::StringW value);
 
-  /// @brief Method get_experimentPlatformKey, addr 0x23232a4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_experimentPlatformKey, addr 0x1267370, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_experimentPlatformKey();
 
   static inline ::GlobalNamespace::__OculusTestExperiment__ExperimentData* New_ctor(::StringW experimentPlatformKey);
 
-  /// @brief Method .ctor, addr 0x23232ac, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1267378, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW experimentPlatformKey);
 
   // Ctor Parameters [CppParam { name: "", ty: "__OculusTestExperiment__ExperimentData", modifiers: "&&", def_value: None }]
@@ -108,8 +108,8 @@ static_assert(offsetof(::GlobalNamespace::__OculusTestExperiment__ExperimentData
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3400)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4189)) CS Name: ::OculusTestExperiment::<Init>d__3
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3396)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 77
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(10643)) CS Name: ::OculusTestExperiment::<Init>d__3
 struct CORDL_TYPE __OculusTestExperiment___Init_d__3 {
 public:
   // Declarations
@@ -119,10 +119,10 @@ public:
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x23232d4, size 0x470, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x12673a0, size 0x470, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2323744, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x1267810, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -169,7 +169,7 @@ static_assert(offsetof(::GlobalNamespace::__OculusTestExperiment___Init_d__3, __
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4190))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10644))
 // CS Name: ::OculusTestExperiment*
 class CORDL_TYPE OculusTestExperiment : public ::System::Object {
 public:
@@ -187,12 +187,12 @@ public:
 
   constexpr void __cordl_internal_set__experimentModel(::GlobalNamespace::IExperimentModel* value);
 
-  /// @brief Method Init, addr 0x2323208, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x12672d4, size 0x94, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::OculusTestExperiment* New_ctor();
 
-  /// @brief Method .ctor, addr 0x232329c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1267368, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OculusTestExperiment", modifiers: "&&", def_value: None }]

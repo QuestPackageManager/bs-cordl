@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::System::Xml::XPath::XPathDocument);
 namespace System::Xml::XPath {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11579))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11477))
 // CS Name: ::System.Xml.XPath::XPathDocument*
 class CORDL_TYPE XPathDocument : public ::System::Object {
 public:
@@ -76,13 +76,13 @@ public:
 
   constexpr void __cordl_internal_set_mapNmsp(::System::Collections::Generic::Dictionary_2<::MS::Internal::Xml::Cache::XPathNodeRef, ::MS::Internal::Xml::Cache::XPathNodeRef>* value);
 
-  /// @brief Method get_NameTable, addr 0x28a9d78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NameTable, addr 0x28ad3e0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlNameTable* get_NameTable();
 
-  /// @brief Method GetXmlNamespaceNode, addr 0x28a9d80, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetXmlNamespaceNode, addr 0x28ad3e8, size 0x10, virtual false, abstract: false, final false
   inline int32_t GetXmlNamespaceNode(ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>> pageXmlNmsp);
 
-  /// @brief Method LookupNamespaces, addr 0x28a9d90, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method LookupNamespaces, addr 0x28ad3f8, size 0xd4, virtual false, abstract: false, final false
   inline int32_t LookupNamespaces(::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> pageElem, int32_t idxElem,
                                   ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>> pageNmsp);
 

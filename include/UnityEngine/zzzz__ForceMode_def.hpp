@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ForceMode);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15500))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13942))
 // CS Name: ::UnityEngine::ForceMode
 struct CORDL_TYPE ForceMode {
 public:

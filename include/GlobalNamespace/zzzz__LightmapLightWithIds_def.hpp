@@ -45,8 +45,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__LightmapLightWithIds__LightIntensitiesWithId
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14543))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14536))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14437))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14430))
 // CS Name: ::LightmapLightWithIds::LightIntensitiesWithId*
 class CORDL_TYPE __LightmapLightWithIds__LightIntensitiesWithId : public ::GlobalNamespace::__LightWithIds__LightWithId {
 public:
@@ -73,15 +73,15 @@ public:
 
   constexpr void __cordl_internal_set__probeHighlightsIntensityMultiplier(float_t value);
 
-  /// @brief Method get_intensity, addr 0x21100e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_intensity, addr 0x21a4890, size 0x8, virtual false, abstract: false, final false
   inline float_t get_intensity();
 
-  /// @brief Method get_probeHighlightsIntensityMultiplier, addr 0x21100f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_probeHighlightsIntensityMultiplier, addr 0x21a4898, size 0x8, virtual false, abstract: false, final false
   inline float_t get_probeHighlightsIntensityMultiplier();
 
   static inline ::GlobalNamespace::__LightmapLightWithIds__LightIntensitiesWithId* New_ctor(int32_t lightId, float_t lightIntensity, float_t probeMultiplier);
 
-  /// @brief Method .ctor, addr 0x21100f8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21a48a0, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(int32_t lightId, float_t lightIntensity, float_t probeMultiplier);
 
   // Ctor Parameters [CppParam { name: "", ty: "__LightmapLightWithIds__LightIntensitiesWithId", modifiers: "&&", def_value: None }]
@@ -118,8 +118,8 @@ static_assert(offsetof(::GlobalNamespace::__LightmapLightWithIds__LightIntensiti
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 108, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(14522)), TypeDefinitionIndex(TypeDefinitionIndex(14532)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14544))] Self: TypeDefinitionIndex(TypeDefinitionIndex(14537)) CS Name: ::LightmapLightWithIds*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8995)), TypeDefinitionIndex(TypeDefinitionIndex(14416)), TypeDefinitionIndex(TypeDefinitionIndex(14426)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14438))] Self: TypeDefinitionIndex(TypeDefinitionIndex(14431)) CS Name: ::LightmapLightWithIds*
 class CORDL_TYPE LightmapLightWithIds : public ::GlobalNamespace::LightWithIds {
 public:
   // Declarations
@@ -257,48 +257,48 @@ public:
 
   constexpr void __cordl_internal_set__calculatedColorPreNormalization(::UnityEngine::Color value);
 
-  /// @brief Method get_mixType, addr 0x210fa98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mixType, addr 0x21a4240, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorMixAndWeightingApproach get_mixType();
 
-  /// @brief Method get_intensity, addr 0x210faa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_intensity, addr 0x21a4248, size 0x8, virtual false, abstract: false, final false
   inline float_t get_intensity();
 
-  /// @brief Method set_intensity, addr 0x210faa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_intensity, addr 0x21a4250, size 0x8, virtual false, abstract: false, final false
   inline void set_intensity(float_t value);
 
-  /// @brief Method get_normalizerWeight, addr 0x210fab0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_normalizerWeight, addr 0x21a4258, size 0x8, virtual false, abstract: false, final false
   inline float_t get_normalizerWeight();
 
-  /// @brief Method set_normalizerWeight, addr 0x210fab8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_normalizerWeight, addr 0x21a4260, size 0x8, virtual false, abstract: false, final false
   inline void set_normalizerWeight(float_t value);
 
-  /// @brief Method get_calculatedColorPreNormalization, addr 0x210fac0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_calculatedColorPreNormalization, addr 0x21a4268, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_calculatedColorPreNormalization();
 
-  /// @brief Method get_bakeId, addr 0x210facc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bakeId, addr 0x21a4274, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__LightConstants__BakeId get_bakeId();
 
-  /// @brief Method Awake, addr 0x210fad4, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x21a427c, size 0x58, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method ProcessNewColorData, addr 0x210fd2c, size 0x39c, virtual true, abstract: false, final false
+  /// @brief Method ProcessNewColorData, addr 0x21a44d4, size 0x39c, virtual true, abstract: false, final false
   inline void ProcessNewColorData();
 
-  /// @brief Method GetLightWithIds, addr 0x21100c8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetLightWithIds, addr 0x21a4870, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__LightWithIds__LightWithId*>* GetLightWithIds();
 
-  /// @brief Method SetDataToShaders, addr 0x210fcd8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetDataToShaders, addr 0x21a4480, size 0x54, virtual false, abstract: false, final false
   inline void SetDataToShaders(::UnityEngine::Color lightmapColor, ::UnityEngine::Color probeColor);
 
-  /// @brief Method SetShaderProperties, addr 0x210fbf0, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method SetShaderProperties, addr 0x21a4398, size 0xe8, virtual false, abstract: false, final false
   inline void SetShaderProperties();
 
-  /// @brief Method GetBakedLightsNormalizer, addr 0x210fb64, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetBakedLightsNormalizer, addr 0x21a430c, size 0x8c, virtual false, abstract: false, final false
   inline void GetBakedLightsNormalizer();
 
   static inline ::GlobalNamespace::LightmapLightWithIds* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21100d0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21a4878, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LightmapLightWithIds", modifiers: "&&", def_value: None }]

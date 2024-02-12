@@ -47,8 +47,8 @@ namespace System::Buffers {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3886)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3886), inst: 4564 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3886))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3885)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3885), inst: 4532 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3885))
 // CS Name: ::TlsOverPerCoreLockedStacksArrayPool`1::MemoryPressure<T>
 struct CORDL_TYPE __TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure {
 public:
@@ -100,7 +100,7 @@ namespace System::Buffers {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3887))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3886))
 // CS Name: ::TlsOverPerCoreLockedStacksArrayPool`1::PerCoreLockedStacks<T>*
 class CORDL_TYPE __TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks : public ::System::Object {
 public:
@@ -161,7 +161,7 @@ namespace System::Buffers {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3888))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3887))
 // CS Name: ::TlsOverPerCoreLockedStacksArrayPool`1::LockedStack<T>*
 class CORDL_TYPE __TlsOverPerCoreLockedStacksArrayPool_1__LockedStack : public ::System::Object {
 public:
@@ -240,8 +240,8 @@ namespace System::Buffers {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3880)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3880), inst: 769 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3889))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3879)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3879), inst: 768 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3888))
 // CS Name: ::System.Buffers::TlsOverPerCoreLockedStacksArrayPool`1<T>*
 class CORDL_TYPE TlsOverPerCoreLockedStacksArrayPool_1 : public ::System::Buffers::ArrayPool_1<T> {
 public:

@@ -67,22 +67,22 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xe63e80, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe8ed10, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance, addr 0xe640dc, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xe8ef6c, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent* GetInstance(::System::Object* obj);
 
-  /// @brief Method get_OldWithNew, addr 0xe64264, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_OldWithNew, addr 0xe8f0f4, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* get_OldWithNew();
 
-  /// @brief Method get_NewWithOld, addr 0xe6426c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NewWithOld, addr 0xe8f0fc, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* get_NewWithOld();
 
-  /// @brief Method get_NewWithNew, addr 0xe64274, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NewWithNew, addr 0xe8f104, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* get_NewWithNew();
 
-  /// @brief Method ToAsn1Object, addr 0xe6427c, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xe8f10c, size 0x11c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "CAKeyUpdAnnContent", modifiers: "&&", def_value: None }]

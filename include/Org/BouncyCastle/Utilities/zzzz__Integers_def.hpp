@@ -21,27 +21,27 @@ namespace Org::BouncyCastle::Utilities {
 class CORDL_TYPE Integers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method NumberOfLeadingZeros, addr 0x116db34, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method NumberOfLeadingZeros, addr 0x119c9c4, size 0x7c, virtual false, abstract: false, final false
   static inline int32_t NumberOfLeadingZeros(int32_t i);
 
-  /// @brief Method NumberOfTrailingZeros, addr 0x116dbb0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method NumberOfTrailingZeros, addr 0x119ca40, size 0x34, virtual false, abstract: false, final false
   static inline int32_t NumberOfTrailingZeros(int32_t i);
 
-  /// @brief Method RotateLeft, addr 0x116dbe4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method RotateLeft, addr 0x119ca74, size 0x14, virtual false, abstract: false, final false
   static inline int32_t RotateLeft(int32_t i, int32_t distance);
 
-  /// @brief Method RotateLeft, addr 0x116dbf8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method RotateLeft, addr 0x119ca88, size 0x14, virtual false, abstract: false, final false
   static inline uint32_t RotateLeft(uint32_t i, int32_t distance);
 
-  /// @brief Method RotateRight, addr 0x116dc0c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method RotateRight, addr 0x119ca9c, size 0x14, virtual false, abstract: false, final false
   static inline int32_t RotateRight(int32_t i, int32_t distance);
 
-  /// @brief Method RotateRight, addr 0x116dc20, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method RotateRight, addr 0x119cab0, size 0x14, virtual false, abstract: false, final false
   static inline uint32_t RotateRight(uint32_t i, int32_t distance);
 
   static inline ::Org::BouncyCastle::Utilities::Integers* New_ctor();
 
-  /// @brief Method .ctor, addr 0x116dc34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x119cac4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Integers", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::GlobalNamespace::PlayerAgreements);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4624))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11041))
 // CS Name: ::PlayerAgreements*
 class CORDL_TYPE PlayerAgreements : public ::System::Object {
 public:
@@ -59,51 +59,51 @@ public:
 
   static inline ::GlobalNamespace::PlayerAgreements* New_ctor();
 
-  /// @brief Method .ctor, addr 0x236b05c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12aeb84, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::PlayerAgreements* New_ctor(int32_t eulaVersion, int32_t privacyPolicyVersion, int32_t healthAndSafetyVersion, int32_t playerSensitivityFlagVersion);
 
-  /// @brief Method .ctor, addr 0x236b078, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12aeba0, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(int32_t eulaVersion, int32_t privacyPolicyVersion, int32_t healthAndSafetyVersion, int32_t playerSensitivityFlagVersion);
 
-  /// @brief Method AgreeToEula, addr 0x236b0b8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method AgreeToEula, addr 0x12aebe0, size 0xc, virtual false, abstract: false, final false
   inline void AgreeToEula();
 
-  /// @brief Method AgreeToPrivacyPolicy, addr 0x236b0c4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method AgreeToPrivacyPolicy, addr 0x12aebec, size 0xc, virtual false, abstract: false, final false
   inline void AgreeToPrivacyPolicy();
 
-  /// @brief Method AgreeToHealthAndSafety, addr 0x236b0d0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method AgreeToHealthAndSafety, addr 0x12aebf8, size 0xc, virtual false, abstract: false, final false
   inline void AgreeToHealthAndSafety();
 
-  /// @brief Method AgreeToPlayerSensitivityFlag, addr 0x236b0dc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method AgreeToPlayerSensitivityFlag, addr 0x12aec04, size 0xc, virtual false, abstract: false, final false
   inline void AgreeToPlayerSensitivityFlag();
 
-  /// @brief Method AgreedToPreviousPrivacyPolicy, addr 0x236b0e8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method AgreedToPreviousPrivacyPolicy, addr 0x12aec10, size 0x10, virtual false, abstract: false, final false
   inline bool AgreedToPreviousPrivacyPolicy();
 
-  /// @brief Method AgreedToAnyPreviousEula, addr 0x236b0f8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method AgreedToAnyPreviousEula, addr 0x12aec20, size 0x1c, virtual false, abstract: false, final false
   inline bool AgreedToAnyPreviousEula();
 
-  /// @brief Method AgreedToAnyPreviousPrivacyPolicy, addr 0x236b114, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method AgreedToAnyPreviousPrivacyPolicy, addr 0x12aec3c, size 0x1c, virtual false, abstract: false, final false
   inline bool AgreedToAnyPreviousPrivacyPolicy();
 
-  /// @brief Method AgreedToAnyPreviousHealthAndSafety, addr 0x236b130, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method AgreedToAnyPreviousHealthAndSafety, addr 0x12aec58, size 0xc, virtual false, abstract: false, final false
   inline bool AgreedToAnyPreviousHealthAndSafety();
 
-  /// @brief Method AgreedToAnyPreviousPlayerSensitivityFlag, addr 0x236b13c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method AgreedToAnyPreviousPlayerSensitivityFlag, addr 0x12aec64, size 0x1c, virtual false, abstract: false, final false
   inline bool AgreedToAnyPreviousPlayerSensitivityFlag();
 
-  /// @brief Method AgreedToEula, addr 0x236b148, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method AgreedToEula, addr 0x12aec80, size 0x10, virtual false, abstract: false, final false
   inline bool AgreedToEula();
 
-  /// @brief Method AgreedToPrivacyPolicy, addr 0x236b158, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method AgreedToPrivacyPolicy, addr 0x12aec90, size 0x10, virtual false, abstract: false, final false
   inline bool AgreedToPrivacyPolicy();
 
-  /// @brief Method AgreedToHealthAndSafety, addr 0x236b168, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method AgreedToHealthAndSafety, addr 0x12aeca0, size 0x10, virtual false, abstract: false, final false
   inline bool AgreedToHealthAndSafety();
 
-  /// @brief Method AgreedToPlayerSenstivityFlag, addr 0x236b178, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method AgreedToPlayerSenstivityFlag, addr 0x12aecb0, size 0x10, virtual false, abstract: false, final false
   inline bool AgreedToPlayerSenstivityFlag();
 
   // Ctor Parameters [CppParam { name: "", ty: "PlayerAgreements", modifiers: "&&", def_value: None }]
@@ -148,7 +148,7 @@ public:
   static constexpr int32_t kCurrentHealthAndSafetyVersion{ static_cast<int32_t>(0x1) };
 
   /// @brief Field kCurrentPlayerSensitivityFlagVersion offset 0xffffffff size 0x4
-  static constexpr int32_t kCurrentPlayerSensitivityFlagVersion{ static_cast<int32_t>(0x1) };
+  static constexpr int32_t kCurrentPlayerSensitivityFlagVersion{ static_cast<int32_t>(0x2) };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

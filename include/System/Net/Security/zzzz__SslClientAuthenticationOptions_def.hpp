@@ -33,8 +33,8 @@ MARK_REF_PTR_T(::System::Net::Security::SslClientAuthenticationOptions);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Security {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8964)), TypeDefinitionIndex(TypeDefinitionIndex(8987)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9366))] Self: TypeDefinitionIndex(TypeDefinitionIndex(9362)) CS Name: ::System.Net.Security::SslClientAuthenticationOptions*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6974)), TypeDefinitionIndex(TypeDefinitionIndex(6997)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7376))] Self: TypeDefinitionIndex(TypeDefinitionIndex(7372)) CS Name: ::System.Net.Security::SslClientAuthenticationOptions*
 class CORDL_TYPE SslClientAuthenticationOptions : public ::System::Object {
 public:
   // Declarations
@@ -118,36 +118,36 @@ public:
 
   constexpr void __cordl_internal_set__ClientCertificates_k__BackingField(::System::Security::Cryptography::X509Certificates::X509CertificateCollection* value);
 
-  /// @brief Method set_LocalCertificateSelectionCallback, addr 0x28ff454, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LocalCertificateSelectionCallback, addr 0x2903abc, size 0x8, virtual false, abstract: false, final false
   inline void set_LocalCertificateSelectionCallback(::System::Net::Security::LocalCertificateSelectionCallback* value);
 
-  /// @brief Method get_TargetHost, addr 0x28ff45c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TargetHost, addr 0x2903ac4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_TargetHost();
 
-  /// @brief Method set_TargetHost, addr 0x28ff464, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_TargetHost, addr 0x2903acc, size 0x8, virtual false, abstract: false, final false
   inline void set_TargetHost(::StringW value);
 
-  /// @brief Method get_ClientCertificates, addr 0x28ff46c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ClientCertificates, addr 0x2903ad4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* get_ClientCertificates();
 
-  /// @brief Method set_ClientCertificates, addr 0x28ff474, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ClientCertificates, addr 0x2903adc, size 0x8, virtual false, abstract: false, final false
   inline void set_ClientCertificates(::System::Security::Cryptography::X509Certificates::X509CertificateCollection* value);
 
-  /// @brief Method set_CertificateRevocationCheckMode, addr 0x28ff47c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method set_CertificateRevocationCheckMode, addr 0x2903ae4, size 0xa0, virtual false, abstract: false, final false
   inline void set_CertificateRevocationCheckMode(::System::Security::Cryptography::X509Certificates::X509RevocationMode value);
 
-  /// @brief Method set_EncryptionPolicy, addr 0x28ff51c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method set_EncryptionPolicy, addr 0x2903b84, size 0xa0, virtual false, abstract: false, final false
   inline void set_EncryptionPolicy(::System::Net::Security::EncryptionPolicy value);
 
-  /// @brief Method get_EnabledSslProtocols, addr 0x28ff5bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EnabledSslProtocols, addr 0x2903c24, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Authentication::SslProtocols get_EnabledSslProtocols();
 
-  /// @brief Method set_EnabledSslProtocols, addr 0x28ff5c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_EnabledSslProtocols, addr 0x2903c2c, size 0x8, virtual false, abstract: false, final false
   inline void set_EnabledSslProtocols(::System::Security::Authentication::SslProtocols value);
 
   static inline ::System::Net::Security::SslClientAuthenticationOptions* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28ff5cc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2903c34, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SslClientAuthenticationOptions", modifiers: "&&", def_value: None }]

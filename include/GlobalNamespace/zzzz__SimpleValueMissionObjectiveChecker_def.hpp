@@ -14,18 +14,18 @@ MARK_REF_PTR_T(::GlobalNamespace::SimpleValueMissionObjectiveChecker);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5093))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5098))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4446))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4451))
 // CS Name: ::SimpleValueMissionObjectiveChecker*
 class CORDL_TYPE SimpleValueMissionObjectiveChecker : public ::GlobalNamespace::MissionObjectiveChecker {
 public:
   // Declarations
-  /// @brief Method CheckAndUpdateStatus, addr 0x23cb350, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method CheckAndUpdateStatus, addr 0x238a7b8, size 0xac, virtual false, abstract: false, final false
   inline void CheckAndUpdateStatus();
 
   static inline ::GlobalNamespace::SimpleValueMissionObjectiveChecker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23cb45c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x238a86c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SimpleValueMissionObjectiveChecker", modifiers: "&&", def_value: None }]

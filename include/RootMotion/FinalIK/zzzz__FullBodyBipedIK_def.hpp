@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::FullBodyBipedIK);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12536))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12535))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12434))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12433))
 // CS Name: ::RootMotion.FinalIK::FullBodyBipedIK*
 class CORDL_TYPE FullBodyBipedIK : public ::RootMotion::FinalIK::IK {
 public:
@@ -52,45 +52,45 @@ public:
 
   constexpr void __cordl_internal_set_solver(::RootMotion::FinalIK::IKSolverFullBodyBiped* value);
 
-  /// @brief Method OpenUserManual, addr 0x124e754, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method OpenUserManual, addr 0x12e8804, size 0x44, virtual true, abstract: false, final false
   inline void OpenUserManual();
 
-  /// @brief Method OpenScriptReference, addr 0x124e798, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method OpenScriptReference, addr 0x12e8848, size 0x44, virtual true, abstract: false, final false
   inline void OpenScriptReference();
 
-  /// @brief Method OpenSetupTutorial, addr 0x124e7dc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OpenSetupTutorial, addr 0x12e888c, size 0x44, virtual false, abstract: false, final false
   inline void OpenSetupTutorial();
 
-  /// @brief Method OpenInspectorTutorial, addr 0x124e820, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OpenInspectorTutorial, addr 0x12e88d0, size 0x44, virtual false, abstract: false, final false
   inline void OpenInspectorTutorial();
 
-  /// @brief Method SupportGroup, addr 0x124e864, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SupportGroup, addr 0x12e8914, size 0x44, virtual false, abstract: false, final false
   inline void SupportGroup();
 
-  /// @brief Method ASThread, addr 0x124e8a8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ASThread, addr 0x12e8958, size 0x44, virtual false, abstract: false, final false
   inline void ASThread();
 
-  /// @brief Method SetReferences, addr 0x124e8ec, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetReferences, addr 0x12e899c, size 0x24, virtual false, abstract: false, final false
   inline void SetReferences(::RootMotion::BipedReferences* references, ::UnityEngine::Transform* rootNode);
 
-  /// @brief Method GetIKSolver, addr 0x124e910, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetIKSolver, addr 0x12e89c0, size 0x8, virtual true, abstract: false, final false
   inline ::RootMotion::FinalIK::IKSolver* GetIKSolver();
 
-  /// @brief Method ReferencesError, addr 0x124e918, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method ReferencesError, addr 0x12e89c8, size 0x1bc, virtual false, abstract: false, final false
   inline bool ReferencesError(ByRef<::StringW> errorMessage);
 
-  /// @brief Method ReferencesWarning, addr 0x124ead4, size 0x4b0, virtual false, abstract: false, final false
+  /// @brief Method ReferencesWarning, addr 0x12e8b84, size 0x4b0, virtual false, abstract: false, final false
   inline bool ReferencesWarning(ByRef<::StringW> warningMessage);
 
-  /// @brief Method Reinitiate, addr 0x124ef84, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Reinitiate, addr 0x12e9034, size 0x20, virtual false, abstract: false, final false
   inline void Reinitiate();
 
-  /// @brief Method AutoDetectReferences, addr 0x124efa4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method AutoDetectReferences, addr 0x12e9054, size 0xd8, virtual false, abstract: false, final false
   inline void AutoDetectReferences();
 
   static inline ::RootMotion::FinalIK::FullBodyBipedIK* New_ctor();
 
-  /// @brief Method .ctor, addr 0x124f07c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12e912c, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FullBodyBipedIK", modifiers: "&&", def_value: None }]

@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IStandaloneMonobehavior);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12817))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12715))
 // CS Name: ::IStandaloneMonobehavior*
 class CORDL_TYPE IStandaloneMonobehavior {
 public:

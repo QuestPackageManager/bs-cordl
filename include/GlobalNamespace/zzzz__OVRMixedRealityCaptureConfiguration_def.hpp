@@ -40,7 +40,7 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRMixedRealityCaptureConfiguration);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8133))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8090))
 // CS Name: ::OVRMixedRealityCaptureConfiguration*
 class CORDL_TYPE OVRMixedRealityCaptureConfiguration {
 public:

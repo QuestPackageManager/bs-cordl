@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UxmlTraits);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6995))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6254))
 // CS Name: ::UnityEngine.UIElements::UxmlTraits*
 class CORDL_TYPE UxmlTraits : public ::System::Object {
 public:
@@ -42,13 +42,13 @@ public:
 
   static inline ::UnityEngine::UIElements::UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e0feec, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e2d2d4, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_canHaveAnyAttribute, addr 0x2e0ff0c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_canHaveAnyAttribute, addr 0x2e2d2f4, size 0xc, virtual false, abstract: false, final false
   inline void set_canHaveAnyAttribute(bool value);
 
-  /// @brief Method Init, addr 0x2e0ff18, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x2e2d300, size 0x4, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   // Ctor Parameters [CppParam { name: "", ty: "UxmlTraits", modifiers: "&&", def_value: None }]

@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::VisualTreeStyleUpdater);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6754)), TypeDefinitionIndex(TypeDefinitionIndex(9966))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6816))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6013)), TypeDefinitionIndex(TypeDefinitionIndex(8695))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6075))
 // CS Name: ::UnityEngine.UIElements::VisualTreeStyleUpdater*
 class CORDL_TYPE VisualTreeStyleUpdater : public ::UnityEngine::UIElements::BaseVisualTreeUpdater {
 public:
@@ -112,21 +112,21 @@ public:
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_ProfilerMarker();
 
-  /// @brief Method get_profilerMarker, addr 0x2dc0f3c, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_profilerMarker, addr 0x2ddf324, size 0x58, virtual true, abstract: false, final false
   inline ::Unity::Profiling::ProfilerMarker get_profilerMarker();
 
-  /// @brief Method OnVersionChanged, addr 0x2dc0f94, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method OnVersionChanged, addr 0x2ddf37c, size 0xc8, virtual true, abstract: false, final false
   inline void OnVersionChanged(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VersionChangeType versionChangeType);
 
-  /// @brief Method Update, addr 0x2dc10dc, size 0x30c, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x2ddf4c4, size 0x30c, virtual true, abstract: false, final false
   inline void Update();
 
-  /// @brief Method ApplyStyles, addr 0x2dc13e8, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method ApplyStyles, addr 0x2ddf7d0, size 0xe0, virtual false, abstract: false, final false
   inline void ApplyStyles();
 
   static inline ::UnityEngine::UIElements::VisualTreeStyleUpdater* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2dc184c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ddfc34, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "VisualTreeStyleUpdater", modifiers: "&&", def_value: None }]

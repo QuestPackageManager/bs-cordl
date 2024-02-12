@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_HAPIFunctions);
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9725))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9517))
 // CS Name: ::HoudiniEngineUnity::HEU_HAPIFunctions*
 class CORDL_TYPE HEU_HAPIFunctions : public ::System::Object {
 public:

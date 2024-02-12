@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::StandardLevelNoTransitionInstaller);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11176))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6042))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10318))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5317))
 // CS Name: ::StandardLevelNoTransitionInstaller*
 class CORDL_TYPE StandardLevelNoTransitionInstaller : public ::Zenject::NoTransitionInstaller {
 public:
@@ -51,15 +51,15 @@ public:
 
   constexpr void __cordl_internal_set__standardLevelNoTransitionInstallerData(::UnityW<::GlobalNamespace::StandardLevelNoTransitionInstallerData> value);
 
-  /// @brief Method get_standardLevelNoTransitionInstallerData, addr 0x231b74c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_standardLevelNoTransitionInstallerData, addr 0x23473a8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::StandardLevelNoTransitionInstallerData> get_standardLevelNoTransitionInstallerData();
 
-  /// @brief Method InstallBindings, addr 0x231b754, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x23473b0, size 0x208, virtual true, abstract: false, final false
   inline void InstallBindings(::Zenject::DiContainer* container);
 
   static inline ::GlobalNamespace::StandardLevelNoTransitionInstaller* New_ctor();
 
-  /// @brief Method .ctor, addr 0x231bf10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23479d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "StandardLevelNoTransitionInstaller", modifiers: "&&", def_value: None }]

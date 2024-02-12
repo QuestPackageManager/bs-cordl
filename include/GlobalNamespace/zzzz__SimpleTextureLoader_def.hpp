@@ -6,8 +6,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SimpleTextureLoader)
-namespace GlobalNamespace {
-template <typename K, typename V> class HMCache_2;
+namespace BGLib::DotnetExtension::Collections {
+template <typename TKey, typename TValue> class LRUCache_2;
 }
 namespace GlobalNamespace {
 class ICoroutineStarter;
@@ -51,7 +51,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__SimpleTextureLoader___LoadTextureCoroutine_d
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5376))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16194))
 // CS Name: ::SimpleTextureLoader::<LoadTextureCoroutine>d__3*
 class CORDL_TYPE __SimpleTextureLoader___LoadTextureCoroutine_d__3 : public ::System::Object {
 public:
@@ -143,25 +143,25 @@ public:
 
   static inline ::GlobalNamespace::__SimpleTextureLoader___LoadTextureCoroutine_d__3* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor, addr 0x226d6f0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21822e0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x226d798, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x2182388, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext, addr 0x226d7b4, size 0x29c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x21823a4, size 0x270, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method <>m__Finally1, addr 0x226da50, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x2182614, size 0xb0, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x226db00, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x21826c4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x226db08, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x21826cc, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x226db48, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x218270c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__SimpleTextureLoader___LoadTextureCoroutine_d__3", modifiers: "&&", def_value: None }]
@@ -224,7 +224,7 @@ static_assert(offsetof(::GlobalNamespace::__SimpleTextureLoader___LoadTextureCor
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5377))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16195))
 // CS Name: ::SimpleTextureLoader*
 class CORDL_TYPE SimpleTextureLoader : public ::System::Object {
 public:
@@ -232,16 +232,16 @@ public:
   using _LoadTextureCoroutine_d__3 = ::GlobalNamespace::__SimpleTextureLoader___LoadTextureCoroutine_d__3;
 
   /// @brief Field _cache, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__cache, put = __cordl_internal_set__cache))::GlobalNamespace::HMCache_2<::StringW, ::UnityW<::UnityEngine::Texture2D>>* _cache;
+  __declspec(property(get = __cordl_internal_get__cache, put = __cordl_internal_set__cache))::BGLib::DotnetExtension::Collections::LRUCache_2<::StringW, ::UnityW<::UnityEngine::Texture2D>>* _cache;
 
   /// @brief Field _coroutineStarter, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__coroutineStarter, put = __cordl_internal_set__coroutineStarter))::GlobalNamespace::ICoroutineStarter* _coroutineStarter;
 
-  constexpr ::GlobalNamespace::HMCache_2<::StringW, ::UnityW<::UnityEngine::Texture2D>>*& __cordl_internal_get__cache();
+  constexpr ::BGLib::DotnetExtension::Collections::LRUCache_2<::StringW, ::UnityW<::UnityEngine::Texture2D>>*& __cordl_internal_get__cache();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::HMCache_2<::StringW, ::UnityW<::UnityEngine::Texture2D>>*> const& __cordl_internal_get__cache() const;
+  constexpr ::cordl_internals::to_const_pointer<::BGLib::DotnetExtension::Collections::LRUCache_2<::StringW, ::UnityW<::UnityEngine::Texture2D>>*> const& __cordl_internal_get__cache() const;
 
-  constexpr void __cordl_internal_set__cache(::GlobalNamespace::HMCache_2<::StringW, ::UnityW<::UnityEngine::Texture2D>>* value);
+  constexpr void __cordl_internal_set__cache(::BGLib::DotnetExtension::Collections::LRUCache_2<::StringW, ::UnityW<::UnityEngine::Texture2D>>* value);
 
   constexpr ::GlobalNamespace::ICoroutineStarter*& __cordl_internal_get__coroutineStarter();
 
@@ -249,15 +249,15 @@ public:
 
   constexpr void __cordl_internal_set__coroutineStarter(::GlobalNamespace::ICoroutineStarter* value);
 
-  /// @brief Method LoadTexture, addr 0x226d590, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method LoadTexture, addr 0x2182180, size 0xd0, virtual false, abstract: false, final false
   inline void LoadTexture(::StringW filePath, bool useCache, ::System::Action_1<::UnityW<::UnityEngine::Texture2D>>* finishedCallback);
 
-  /// @brief Method LoadTextureCoroutine, addr 0x226d660, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method LoadTextureCoroutine, addr 0x2182250, size 0x90, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* LoadTextureCoroutine(::StringW filePath, bool useCache, ::System::Action_1<::UnityW<::UnityEngine::Texture2D>>* finishedCallback);
 
   static inline ::GlobalNamespace::SimpleTextureLoader* New_ctor();
 
-  /// @brief Method .ctor, addr 0x226d718, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2182308, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SimpleTextureLoader", modifiers: "&&", def_value: None }]
@@ -275,7 +275,7 @@ protected:
 
 public:
   /// @brief Field _cache, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::HMCache_2<::StringW, ::UnityW<::UnityEngine::Texture2D>>* ____cache;
+  ::BGLib::DotnetExtension::Collections::LRUCache_2<::StringW, ::UnityW<::UnityEngine::Texture2D>>* ____cache;
 
   /// @brief Field _coroutineStarter, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::ICoroutineStarter* ____coroutineStarter;

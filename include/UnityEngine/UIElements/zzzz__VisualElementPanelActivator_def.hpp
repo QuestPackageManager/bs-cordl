@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::VisualElementPanelActivator);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6749))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6008))
 // CS Name: ::UnityEngine.UIElements::VisualElementPanelActivator*
 class CORDL_TYPE VisualElementPanelActivator : public ::System::Object {
 public:
@@ -60,36 +60,36 @@ public:
 
   constexpr void __cordl_internal_set__isDetaching_k__BackingField(bool value);
 
-  /// @brief Method get_isActive, addr 0x2db21cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isActive, addr 0x2dd05b4, size 0x8, virtual false, abstract: false, final false
   inline bool get_isActive();
 
-  /// @brief Method set_isActive, addr 0x2db21d4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isActive, addr 0x2dd05bc, size 0xc, virtual false, abstract: false, final false
   inline void set_isActive(bool value);
 
-  /// @brief Method get_isDetaching, addr 0x2db21e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isDetaching, addr 0x2dd05c8, size 0x8, virtual false, abstract: false, final false
   inline bool get_isDetaching();
 
-  /// @brief Method set_isDetaching, addr 0x2db21e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isDetaching, addr 0x2dd05d0, size 0xc, virtual false, abstract: false, final false
   inline void set_isDetaching(bool value);
 
   static inline ::UnityEngine::UIElements::VisualElementPanelActivator* New_ctor(::UnityEngine::UIElements::IVisualElementPanelActivatable* activatable);
 
-  /// @brief Method .ctor, addr 0x2db03f0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dce7d8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::IVisualElementPanelActivatable* activatable);
 
-  /// @brief Method SetActive, addr 0x2db0500, size 0x33c, virtual false, abstract: false, final false
+  /// @brief Method SetActive, addr 0x2dce8e8, size 0x33c, virtual false, abstract: false, final false
   inline void SetActive(bool action);
 
-  /// @brief Method SendActivation, addr 0x2db21f4, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method SendActivation, addr 0x2dd05dc, size 0x118, virtual false, abstract: false, final false
   inline void SendActivation();
 
-  /// @brief Method SendDeactivation, addr 0x2db230c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method SendDeactivation, addr 0x2dd06f4, size 0x118, virtual false, abstract: false, final false
   inline void SendDeactivation();
 
-  /// @brief Method OnEnter, addr 0x2db2424, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method OnEnter, addr 0x2dd080c, size 0x10, virtual false, abstract: false, final false
   inline void OnEnter(::UnityEngine::UIElements::AttachToPanelEvent* evt);
 
-  /// @brief Method OnLeave, addr 0x2db2434, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method OnLeave, addr 0x2dd081c, size 0x74, virtual false, abstract: false, final false
   inline void OnLeave(::UnityEngine::UIElements::DetachFromPanelEvent* evt);
 
   // Ctor Parameters [CppParam { name: "", ty: "VisualElementPanelActivator", modifiers: "&&", def_value: None }]

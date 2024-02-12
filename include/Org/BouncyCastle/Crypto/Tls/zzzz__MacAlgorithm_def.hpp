@@ -23,7 +23,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Tls::MacAlgorithm* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf91eac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfbdd3c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MacAlgorithm", modifiers: "&&", def_value: None }]

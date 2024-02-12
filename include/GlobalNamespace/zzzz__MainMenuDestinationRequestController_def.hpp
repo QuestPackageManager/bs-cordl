@@ -65,8 +65,8 @@ MARK_VAL_T(::GlobalNamespace::__MainMenuDestinationRequestController___ProcessDe
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3400))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4150))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3389)), TypeDefinitionIndex(TypeDefinitionIndex(3396))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4187))
 // CS Name: ::MainMenuDestinationRequestController::<ProcessDestinationRequest>d__9
 struct CORDL_TYPE __MainMenuDestinationRequestController___ProcessDestinationRequest_d__9 {
 public:
@@ -77,10 +77,10 @@ public:
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x223d848, size 0x4cc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2356f28, size 0x4cc, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x223dd14, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x23573f4, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -140,7 +140,7 @@ static_assert(offsetof(::GlobalNamespace::__MainMenuDestinationRequestController
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4151))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4188))
 // CS Name: ::MainMenuDestinationRequestController*
 class CORDL_TYPE MainMenuDestinationRequestController : public ::System::Object {
 public:
@@ -204,24 +204,24 @@ public:
 
   static inline ::GlobalNamespace::MenuDestination* getStaticF__nextMenuDestination();
 
-  /// @brief Method Initialize, addr 0x223d0e0, size 0x274, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x23567c0, size 0x274, virtual true, abstract: false, final true
   inline void Initialize();
 
-  /// @brief Method Dispose, addr 0x223d3f4, size 0x1b4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2356ad4, size 0x1b4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method HandleGameScenesManagerInstallEarlyBindings, addr 0x223d5a8, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method HandleGameScenesManagerInstallEarlyBindings, addr 0x2356c88, size 0x294, virtual false, abstract: false, final false
   inline void HandleGameScenesManagerInstallEarlyBindings(::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, ::Zenject::DiContainer* container);
 
-  /// @brief Method HandleDestinationRequestManagerDidSendMenuDestinationRequest, addr 0x223d83c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleDestinationRequestManagerDidSendMenuDestinationRequest, addr 0x2356f1c, size 0x4, virtual false, abstract: false, final false
   inline void HandleDestinationRequestManagerDidSendMenuDestinationRequest(::GlobalNamespace::MenuDestination* menuDestination);
 
-  /// @brief Method ProcessDestinationRequest, addr 0x223d354, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method ProcessDestinationRequest, addr 0x2356a34, size 0xa0, virtual false, abstract: false, final false
   inline void ProcessDestinationRequest(::GlobalNamespace::MenuDestination* menuDestination);
 
   static inline ::GlobalNamespace::MainMenuDestinationRequestController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x223d840, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2356f20, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MainMenuDestinationRequestController", modifiers: "&&", def_value: None }]

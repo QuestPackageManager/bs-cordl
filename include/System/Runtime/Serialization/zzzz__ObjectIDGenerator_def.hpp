@@ -71,19 +71,19 @@ public:
 
   static inline ::System::Runtime::Serialization::ObjectIDGenerator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24b84e4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24d9558, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method FindElement, addr 0x24b85bc, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method FindElement, addr 0x24d9630, size 0xc4, virtual false, abstract: false, final false
   inline int32_t FindElement(::System::Object* obj, ByRef<bool> found);
 
-  /// @brief Method GetId, addr 0x24b8680, size 0x184, virtual true, abstract: false, final false
+  /// @brief Method GetId, addr 0x24d96f4, size 0x184, virtual true, abstract: false, final false
   inline int64_t GetId(::System::Object* obj, ByRef<bool> firstTime);
 
-  /// @brief Method HasId, addr 0x24b8ab8, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method HasId, addr 0x24d9b2c, size 0xd4, virtual true, abstract: false, final false
   inline int64_t HasId(::System::Object* obj, ByRef<bool> firstTime);
 
-  /// @brief Method Rehash, addr 0x24b8804, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method Rehash, addr 0x24d9878, size 0x2b4, virtual false, abstract: false, final false
   inline void Rehash();
 
   // Ctor Parameters [CppParam { name: "", ty: "ObjectIDGenerator", modifiers: "&&", def_value: None }]

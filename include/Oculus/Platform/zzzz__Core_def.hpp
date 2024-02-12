@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::Oculus::Platform::Core);
 namespace Oculus::Platform {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13348))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13269))
 // CS Name: ::Oculus.Platform::Core*
 class CORDL_TYPE Core : public ::System::Object {
 public:
@@ -54,31 +54,31 @@ public:
 
   static inline ::StringW getStaticF_PlatformUninitializedError();
 
-  /// @brief Method IsInitialized, addr 0x26f4d30, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method IsInitialized, addr 0x271f4c4, size 0x58, virtual false, abstract: false, final false
   static inline bool IsInitialized();
 
-  /// @brief Method ForceInitialized, addr 0x26f4d88, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ForceInitialized, addr 0x271f51c, size 0x5c, virtual false, abstract: false, final false
   static inline void ForceInitialized();
 
-  /// @brief Method getAppID, addr 0x26f4de4, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method getAppID, addr 0x271f578, size 0x1a4, virtual false, abstract: false, final false
   static inline ::StringW getAppID(::StringW appId);
 
-  /// @brief Method AsyncInitialize, addr 0x26c9d88, size 0x2c0, virtual false, abstract: false, final false
+  /// @brief Method AsyncInitialize, addr 0x271f748, size 0x2cc, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>* AsyncInitialize(::StringW appId);
 
-  /// @brief Method AsyncInitialize, addr 0x26f525c, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method AsyncInitialize, addr 0x271fa14, size 0x260, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>*
   AsyncInitialize(::StringW accessToken, ::System::Collections::Generic::Dictionary_2<::Oculus::Platform::InitConfigOptions, bool>* initConfigOptions, ::StringW appId);
 
-  /// @brief Method Initialize, addr 0x26f55f8, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x271fc74, size 0x30c, virtual false, abstract: false, final false
   static inline void Initialize(::StringW appId);
 
-  /// @brief Method GetAppIDFromConfig, addr 0x26f4f88, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method GetAppIDFromConfig, addr 0x271f71c, size 0x2c, virtual false, abstract: false, final false
   static inline ::StringW GetAppIDFromConfig();
 
   static inline ::Oculus::Platform::Core* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26f5a40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x271ff80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Core", modifiers: "&&", def_value: None }]

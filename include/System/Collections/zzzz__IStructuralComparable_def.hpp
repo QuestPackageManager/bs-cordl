@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::System::Collections::IStructuralComparable);
 namespace System::Collections {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3763))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3762))
 // CS Name: ::System.Collections::IStructuralComparable*
 class CORDL_TYPE IStructuralComparable {
 public:

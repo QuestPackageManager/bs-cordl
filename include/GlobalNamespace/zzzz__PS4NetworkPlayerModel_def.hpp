@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::GlobalNamespace::PS4NetworkPlayerModel);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14973))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14974))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14846))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14847))
 // CS Name: ::PS4NetworkPlayerModel*
 class CORDL_TYPE PS4NetworkPlayerModel : public ::GlobalNamespace::PlatformNetworkPlayerModel {
 public:
   // Declarations
   static inline ::GlobalNamespace::PS4NetworkPlayerModel* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2638cf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x265deb4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PS4NetworkPlayerModel", modifiers: "&&", def_value: None }]

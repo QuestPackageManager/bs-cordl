@@ -19,19 +19,19 @@ MARK_REF_PTR_T(::Zenject::ZenjectException);
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2561))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11361))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10503))
 // CS Name: ::Zenject::ZenjectException*
 class CORDL_TYPE ZenjectException : public ::System::Exception {
 public:
   // Declarations
   static inline ::Zenject::ZenjectException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x2f201d4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f3c31c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::Zenject::ZenjectException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x2f2023c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f3c384, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
   // Ctor Parameters [CppParam { name: "", ty: "ZenjectException", modifiers: "&&", def_value: None }]

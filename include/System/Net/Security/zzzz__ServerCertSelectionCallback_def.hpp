@@ -23,17 +23,17 @@ MARK_REF_PTR_T(::System::Net::Security::ServerCertSelectionCallback);
 namespace System::Net::Security {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9371))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7381))
 // CS Name: ::System.Net.Security::ServerCertSelectionCallback*
 class CORDL_TYPE ServerCertSelectionCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::System::Net::Security::ServerCertSelectionCallback* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x28ffd5c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29043c4, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x28ffe30, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2904498, size 0x14, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate* Invoke(::StringW hostName);
 
   // Ctor Parameters [CppParam { name: "", ty: "ServerCertSelectionCallback", modifiers: "&&", def_value: None }]

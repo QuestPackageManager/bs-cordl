@@ -43,7 +43,7 @@ MARK_REF_PTR_T(::Zenject::PrefabInstantiatorCached);
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11230))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10372))
 // CS Name: ::Zenject::PrefabInstantiatorCached*
 class CORDL_TYPE PrefabInstantiatorCached : public ::System::Object {
 public:
@@ -80,22 +80,22 @@ public:
 
   static inline ::Zenject::PrefabInstantiatorCached* New_ctor(::Zenject::IPrefabInstantiator* subInstantiator);
 
-  /// @brief Method .ctor, addr 0x2f097d0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f25918, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::IPrefabInstantiator* subInstantiator);
 
-  /// @brief Method get_ExtraArguments, addr 0x2f097f8, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method get_ExtraArguments, addr 0x2f25940, size 0xa4, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* get_ExtraArguments();
 
-  /// @brief Method get_ArgumentTarget, addr 0x2f0989c, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method get_ArgumentTarget, addr 0x2f259e4, size 0xa0, virtual true, abstract: false, final true
   inline ::System::Type* get_ArgumentTarget();
 
-  /// @brief Method get_GameObjectCreationParameters, addr 0x2f0993c, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method get_GameObjectCreationParameters, addr 0x2f25a84, size 0xa4, virtual true, abstract: false, final true
   inline ::Zenject::GameObjectCreationParameters* get_GameObjectCreationParameters();
 
-  /// @brief Method GetPrefab, addr 0x2f099e0, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method GetPrefab, addr 0x2f25b28, size 0xa4, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::Object> GetPrefab();
 
-  /// @brief Method Instantiate, addr 0x2f09a84, size 0x17c, virtual true, abstract: false, final true
+  /// @brief Method Instantiate, addr 0x2f25bcc, size 0x17c, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::GameObject> Instantiate(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args,
                                                          ByRef<::System::Action*> injectAction);
 

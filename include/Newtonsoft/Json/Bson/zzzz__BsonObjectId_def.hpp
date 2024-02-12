@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Bson::BsonObjectId);
 namespace Newtonsoft::Json::Bson {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12084))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11982))
 // CS Name: ::Newtonsoft.Json.Bson::BsonObjectId*
 class CORDL_TYPE BsonObjectId : public ::System::Object {
 public:
@@ -33,15 +33,15 @@ public:
 
   constexpr void __cordl_internal_set__Value_k__BackingField(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method get_Value, addr 0x26c9af4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x26ebcb0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Value();
 
-  /// @brief Method set_Value, addr 0x26c9afc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Value, addr 0x26ebcb8, size 0x8, virtual false, abstract: false, final false
   inline void set_Value(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::Newtonsoft::Json::Bson::BsonObjectId* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x26c9b04, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ebcc0, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   // Ctor Parameters [CppParam { name: "", ty: "BsonObjectId", modifiers: "&&", def_value: None }]

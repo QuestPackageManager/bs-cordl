@@ -48,10 +48,10 @@ public:
 
   static inline ::System::Runtime::Serialization::SurrogateKey* New_ctor(::System::Type* type, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x24bfb94, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24e0c08, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetHashCode, addr 0x24bfdcc, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x24e0e40, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "SurrogateKey", modifiers: "&&", def_value: None }]

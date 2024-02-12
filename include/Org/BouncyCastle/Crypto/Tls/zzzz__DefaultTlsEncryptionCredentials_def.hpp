@@ -63,13 +63,13 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Tls::DefaultTlsEncryptionCredentials*
   New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::Org::BouncyCastle::Crypto::Tls::Certificate* certificate, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey);
 
-  /// @brief Method .ctor, addr 0xf6505c, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf8eeec, size 0x234, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::Org::BouncyCastle::Crypto::Tls::Certificate* certificate, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey);
 
-  /// @brief Method get_Certificate, addr 0xf65290, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Certificate, addr 0xf8f120, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::Certificate* get_Certificate();
 
-  /// @brief Method DecryptPreMasterSecret, addr 0xf65298, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method DecryptPreMasterSecret, addr 0xf8f128, size 0x90, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DecryptPreMasterSecret(::ArrayW<uint8_t, ::Array<uint8_t>*> encryptedPreMasterSecret);
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultTlsEncryptionCredentials", modifiers: "&&", def_value: None }]

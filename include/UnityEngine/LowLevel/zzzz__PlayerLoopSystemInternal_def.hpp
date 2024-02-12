@@ -23,7 +23,7 @@ MARK_VAL_T(::UnityEngine::LowLevel::PlayerLoopSystemInternal);
 namespace UnityEngine::LowLevel {
 // Is value type: true
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10472))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9241))
 // CS Name: ::UnityEngine.LowLevel::PlayerLoopSystemInternal
 struct CORDL_TYPE PlayerLoopSystemInternal {
 public:

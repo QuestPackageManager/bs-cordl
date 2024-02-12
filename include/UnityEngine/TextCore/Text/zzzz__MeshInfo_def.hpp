@@ -32,8 +32,8 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::MeshInfo);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10250))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13730))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8994))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13683))
 // CS Name: ::UnityEngine.TextCore.Text::MeshInfo
 struct CORDL_TYPE MeshInfo {
 public:
@@ -45,22 +45,22 @@ public:
 
   static inline ::UnityEngine::Color32 getStaticF_k_DefaultColor();
 
-  /// @brief Method .ctor, addr 0x2d4b52c, size 0x354, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d69fd4, size 0x354, virtual false, abstract: false, final false
   inline void _ctor(int32_t size);
 
-  /// @brief Method ResizeMeshInfo, addr 0x2d4b880, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method ResizeMeshInfo, addr 0x2d6a328, size 0x1e8, virtual false, abstract: false, final false
   inline void ResizeMeshInfo(int32_t size);
 
-  /// @brief Method Clear, addr 0x2d481b8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x2d66c60, size 0x2c, virtual false, abstract: false, final false
   inline void Clear(bool uploadChanges);
 
-  /// @brief Method ClearUnusedVertices, addr 0x2d4ba68, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ClearUnusedVertices, addr 0x2d6a510, size 0x3c, virtual false, abstract: false, final false
   inline void ClearUnusedVertices();
 
-  /// @brief Method SortGeometry, addr 0x2d4baa4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SortGeometry, addr 0x2d6a54c, size 0x7c, virtual false, abstract: false, final false
   inline void SortGeometry(::UnityEngine::TextCore::Text::VertexSortingOrder order);
 
-  /// @brief Method SwapVertexData, addr 0x2d4bb20, size 0x58c, virtual false, abstract: false, final false
+  /// @brief Method SwapVertexData, addr 0x2d6a5c8, size 0x58c, virtual false, abstract: false, final false
   inline void SwapVertexData(int32_t src, int32_t dst);
 
   // Ctor Parameters [CppParam { name: "vertexCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "vertices", ty:

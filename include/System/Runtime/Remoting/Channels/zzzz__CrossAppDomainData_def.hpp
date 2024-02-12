@@ -58,13 +58,13 @@ public:
 
   static inline ::System::Runtime::Remoting::Channels::CrossAppDomainData* New_ctor(int32_t domainId);
 
-  /// @brief Method .ctor, addr 0x24a2af0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24c4b64, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(int32_t domainId);
 
-  /// @brief Method get_DomainID, addr 0x24a2b98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DomainID, addr 0x24c4c0c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_DomainID();
 
-  /// @brief Method get_ProcessID, addr 0x24a2ba0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ProcessID, addr 0x24c4c14, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ProcessID();
 
   // Ctor Parameters [CppParam { name: "", ty: "CrossAppDomainData", modifiers: "&&", def_value: None }]

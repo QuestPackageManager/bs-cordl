@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::MouseCaptureDispatchingStrategy);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7175))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6434))
 // CS Name: ::MouseCaptureDispatchingStrategy::EventBehavior
 struct CORDL_TYPE __MouseCaptureDispatchingStrategy__EventBehavior {
 public:
@@ -87,7 +87,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__MouseCaptureDispatchingStrat
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7176))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6435))
 // CS Name: ::UnityEngine.UIElements::MouseCaptureDispatchingStrategy*
 class CORDL_TYPE MouseCaptureDispatchingStrategy : public ::System::Object {
 public:
@@ -100,15 +100,15 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IEventDispatchingStrategy"
   constexpr ::UnityEngine::UIElements::IEventDispatchingStrategy* i___UnityEngine__UIElements__IEventDispatchingStrategy() noexcept;
 
-  /// @brief Method CanDispatchEvent, addr 0x2e4d1b8, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method CanDispatchEvent, addr 0x2e685a0, size 0x7c, virtual true, abstract: false, final true
   inline bool CanDispatchEvent(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method DispatchEvent, addr 0x2e4d24c, size 0x688, virtual true, abstract: false, final true
+  /// @brief Method DispatchEvent, addr 0x2e68634, size 0x688, virtual true, abstract: false, final true
   inline void DispatchEvent(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::IPanel* panel);
 
   static inline ::UnityEngine::UIElements::MouseCaptureDispatchingStrategy* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e4d940, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e68d28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MouseCaptureDispatchingStrategy", modifiers: "&&", def_value: None }]

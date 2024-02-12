@@ -16,7 +16,7 @@ MARK_VAL_T(::ENet::EventType);
 namespace ENet {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15214))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15327))
 // CS Name: ::ENet::EventType
 struct CORDL_TYPE EventType {
 public:

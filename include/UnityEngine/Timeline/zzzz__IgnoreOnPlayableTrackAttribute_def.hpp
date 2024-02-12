@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::IgnoreOnPlayableTrackAttribute);
 namespace UnityEngine::Timeline {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13920))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13873))
 // CS Name: ::UnityEngine.Timeline::IgnoreOnPlayableTrackAttribute*
 class CORDL_TYPE IgnoreOnPlayableTrackAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::UnityEngine::Timeline::IgnoreOnPlayableTrackAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c6e758, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c6b2c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "IgnoreOnPlayableTrackAttribute", modifiers: "&&", def_value: None }]

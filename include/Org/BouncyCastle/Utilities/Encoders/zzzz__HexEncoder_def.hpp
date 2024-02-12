@@ -53,30 +53,30 @@ public:
 
   constexpr void __cordl_internal_set_decodingTable(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method InitialiseDecodingTable, addr 0x115e888, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method InitialiseDecodingTable, addr 0x118c718, size 0x164, virtual false, abstract: false, final false
   inline void InitialiseDecodingTable();
 
   static inline ::Org::BouncyCastle::Utilities::Encoders::HexEncoder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x115e7ec, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x118c67c, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Encode, addr 0x115e9ec, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x118c87c, size 0xd0, virtual false, abstract: false, final false
   inline int32_t Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> inBuf, int32_t inOff, int32_t inLen, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBuf, int32_t outOff);
 
-  /// @brief Method Encode, addr 0x115da20, size 0x110, virtual true, abstract: false, final true
+  /// @brief Method Encode, addr 0x118b8b0, size 0x110, virtual true, abstract: false, final true
   inline int32_t Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len, ::System::IO::Stream* outStream);
 
-  /// @brief Method Ignore, addr 0x115eabc, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Ignore, addr 0x118c94c, size 0x38, virtual false, abstract: false, final false
   static inline bool Ignore(char16_t c);
 
-  /// @brief Method Decode, addr 0x115dd14, size 0x2e4, virtual true, abstract: false, final true
+  /// @brief Method Decode, addr 0x118bba4, size 0x2e4, virtual true, abstract: false, final true
   inline int32_t Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t off, int32_t length, ::System::IO::Stream* outStream);
 
-  /// @brief Method DecodeString, addr 0x115e0c8, size 0x2fc, virtual true, abstract: false, final true
+  /// @brief Method DecodeString, addr 0x118bf58, size 0x2fc, virtual true, abstract: false, final true
   inline int32_t DecodeString(::StringW data, ::System::IO::Stream* outStream);
 
-  /// @brief Method DecodeStrict, addr 0x115e4b0, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method DecodeStrict, addr 0x118c340, size 0x248, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DecodeStrict(::StringW str, int32_t off, int32_t len);
 
   // Ctor Parameters [CppParam { name: "", ty: "HexEncoder", modifiers: "&&", def_value: None }]

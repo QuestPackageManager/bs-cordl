@@ -14,21 +14,21 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::PointerStationaryEvent);
 // SizeInfo { instance_size: 240, native_size: -1, calculated_instance_size: 240, calculated_native_size: 234, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7198)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7198), inst: 4840 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7201))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6457)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6457), inst: 4813 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6460))
 // CS Name: ::UnityEngine.UIElements::PointerStationaryEvent*
 class CORDL_TYPE PointerStationaryEvent : public ::UnityEngine::UIElements::PointerEventBase_1<::UnityEngine::UIElements::PointerStationaryEvent*> {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x2e4fa8c, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x2e6ae74, size 0x50, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x2e4fadc, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x2e6aec4, size 0x104, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::PointerStationaryEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e4fbe0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e6afc8, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PointerStationaryEvent", modifiers: "&&", def_value: None }]

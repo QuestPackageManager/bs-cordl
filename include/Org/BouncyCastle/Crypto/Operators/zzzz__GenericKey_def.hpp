@@ -52,24 +52,24 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Operators::GenericKey* New_ctor(::System::Object* representation);
 
-  /// @brief Method .ctor, addr 0xf2e084, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf58f14, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* representation);
 
   static inline ::Org::BouncyCastle::Crypto::Operators::GenericKey* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithmIdentifier,
                                                                              ::ArrayW<uint8_t, ::Array<uint8_t>*> representation);
 
-  /// @brief Method .ctor, addr 0xf2e0ac, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf58f3c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithmIdentifier, ::ArrayW<uint8_t, ::Array<uint8_t>*> representation);
 
   static inline ::Org::BouncyCastle::Crypto::Operators::GenericKey* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithmIdentifier, ::System::Object* representation);
 
-  /// @brief Method .ctor, addr 0xf2e0d8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf58f68, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithmIdentifier, ::System::Object* representation);
 
-  /// @brief Method get_AlgorithmIdentifier, addr 0xf2e104, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AlgorithmIdentifier, addr 0xf58f94, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_AlgorithmIdentifier();
 
-  /// @brief Method get_Representation, addr 0xf2e10c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Representation, addr 0xf58f9c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Representation();
 
   // Ctor Parameters [CppParam { name: "", ty: "GenericKey", modifiers: "&&", def_value: None }]

@@ -126,30 +126,30 @@ public:
 
   static inline ::System::Runtime::Remoting::Channels::CrossAppDomainSink* New_ctor(int32_t domainID);
 
-  /// @brief Method .ctor, addr 0x24a3244, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24c52b8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t domainID);
 
-  /// @brief Method GetSink, addr 0x24a2f2c, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method GetSink, addr 0x24c4fa0, size 0x2a0, virtual false, abstract: false, final false
   static inline ::System::Runtime::Remoting::Channels::CrossAppDomainSink* GetSink(int32_t domainID);
 
-  /// @brief Method get_TargetDomainId, addr 0x24a326c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TargetDomainId, addr 0x24c52e0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_TargetDomainId();
 
-  /// @brief Method ProcessMessageInDomain, addr 0x24a3274, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method ProcessMessageInDomain, addr 0x24c52e8, size 0x138, virtual false, abstract: false, final false
   static inline ::System::Runtime::Remoting::Channels::__CrossAppDomainSink__ProcessMessageRes ProcessMessageInDomain(::ArrayW<uint8_t, ::Array<uint8_t>*> arrRequest,
                                                                                                                       ::System::Runtime::Remoting::Messaging::CADMethodCallMessage* cadMsg);
 
-  /// @brief Method SyncProcessMessage, addr 0x24a34ec, size 0x434, virtual true, abstract: false, final false
+  /// @brief Method SyncProcessMessage, addr 0x24c5560, size 0x434, virtual true, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msgRequest);
 
-  /// @brief Method AsyncProcessMessage, addr 0x24a3c34, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method AsyncProcessMessage, addr 0x24c5ca8, size 0xcc, virtual true, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* reqMsg,
                                                                                    ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
-  /// @brief Method SendAsyncMessage, addr 0x24a3d2c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method SendAsyncMessage, addr 0x24c5da0, size 0x10c, virtual false, abstract: false, final false
   inline void SendAsyncMessage(::System::Object* data);
 
-  /// @brief Method <AsyncProcessMessage>b__10_0, addr 0x24a3f34, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method <AsyncProcessMessage>b__10_0, addr 0x24c5fa8, size 0x80, virtual false, abstract: false, final false
   inline void _AsyncProcessMessage_b__10_0(::System::Object* data);
 
   // Ctor Parameters [CppParam { name: "", ty: "CrossAppDomainSink", modifiers: "&&", def_value: None }]

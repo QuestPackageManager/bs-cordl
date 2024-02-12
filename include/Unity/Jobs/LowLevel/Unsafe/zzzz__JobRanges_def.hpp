@@ -17,7 +17,7 @@ MARK_VAL_T(::Unity::Jobs::LowLevel::Unsafe::JobRanges);
 namespace Unity::Jobs::LowLevel::Unsafe {
 // Is value type: true
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9979))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8710))
 // CS Name: ::Unity.Jobs.LowLevel.Unsafe::JobRanges
 struct CORDL_TYPE JobRanges {
 public:

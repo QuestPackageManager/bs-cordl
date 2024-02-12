@@ -19,12 +19,12 @@ MARK_REF_PTR_T(::TMPro::SetPropertyUtility);
 namespace TMPro {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12392))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12290))
 // CS Name: ::TMPro::SetPropertyUtility*
 class CORDL_TYPE SetPropertyUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SetColor, addr 0x2c39680, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method SetColor, addr 0x2c371ec, size 0x48, virtual false, abstract: false, final false
   static inline bool SetColor(ByRef<::UnityEngine::Color> currentValue, ::UnityEngine::Color newValue);
 
   /// @brief Method SetEquatableStruct, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

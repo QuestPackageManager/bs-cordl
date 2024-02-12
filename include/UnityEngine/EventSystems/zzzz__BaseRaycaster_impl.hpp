@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::EventSystems::BaseRaycaster::*)()>(
     &::UnityEngine::EventSystems::BaseRaycaster::get_priority)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2da008c;
+  constexpr static std::size_t addrs = 0x2dbe474;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::EventSystems::BaseRaycaster::*)()>(
     &::UnityEngine::EventSystems::BaseRaycaster::get_sortOrderPriority)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2da0094;
+  constexpr static std::size_t addrs = 0x2dbe47c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::EventSystems::BaseRaycaster::*)()>(
     &::UnityEngine::EventSystems::BaseRaycaster::get_renderOrderPriority)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2da009c;
+  constexpr static std::size_t addrs = 0x2dbe484;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::EventSystems::BaseRaycaster> (::UnityEngine::EventSystems::BaseRaycaster::*)()>(
     &::UnityEngine::EventSystems::BaseRaycaster::get_rootRaycaster)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x2d97134;
+  constexpr static std::size_t addrs = 0x2db551c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::BaseRaycaster*>::get(),
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::EventSystems::BaseRaycaster::*)()>(&::UnityEngine::EventSystems::BaseRaycaster::ToString)> {
   constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x2da00a4;
+  constexpr static std::size_t addrs = 0x2dbe48c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::BaseRaycaster::*)()>(&::UnityEngine::EventSystems::BaseRaycaster::OnEnable)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2da0368;
+  constexpr static std::size_t addrs = 0x2dbe750;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -127,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::BaseRaycaster::*)()>(&::UnityEngine::EventSystems::BaseRaycaster::OnDisable)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2da03bc;
+  constexpr static std::size_t addrs = 0x2dbe7a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::BaseRaycaster::*)()>(
     &::UnityEngine::EventSystems::BaseRaycaster::OnCanvasHierarchyChanged)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2da0410;
+  constexpr static std::size_t addrs = 0x2dbe7f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::BaseRaycaster::*)()>(
     &::UnityEngine::EventSystems::BaseRaycaster::OnTransformParentChanged)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2da041c;
+  constexpr static std::size_t addrs = 0x2dbe804;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -171,7 +171,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::BaseRaycaster::*)()>(&::UnityEngine::EventSystems::BaseRaycaster::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2d95370;
+  constexpr static std::size_t addrs = 0x2db3758;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::BaseRaycaster*>::get(), ".ctor",

@@ -23,8 +23,8 @@ MARK_VAL_T(::UnityEngine::Profiling::Experimental::DebugScreenCapture);
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Profiling::Experimental {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9999)), TypeDefinitionIndex(TypeDefinitionIndex(10115)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 741
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(10300)) CS Name: ::UnityEngine.Profiling.Experimental::DebugScreenCapture
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8730)), TypeDefinitionIndex(TypeDefinitionIndex(8851)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8730), inst: 736
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(9046)) CS Name: ::UnityEngine.Profiling.Experimental::DebugScreenCapture
 struct CORDL_TYPE DebugScreenCapture {
 public:
   // Declarations
@@ -36,16 +36,16 @@ public:
 
   __declspec(property(put = set_height)) int32_t height;
 
-  /// @brief Method set_rawImageDataReference, addr 0x2ce70f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rawImageDataReference, addr 0x2cee284, size 0x8, virtual false, abstract: false, final false
   inline void set_rawImageDataReference(::Unity::Collections::NativeArray_1<uint8_t> value);
 
-  /// @brief Method set_imageFormat, addr 0x2ce70f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_imageFormat, addr 0x2cee28c, size 0x8, virtual false, abstract: false, final false
   inline void set_imageFormat(::UnityEngine::TextureFormat value);
 
-  /// @brief Method set_width, addr 0x2ce7100, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_width, addr 0x2cee294, size 0x8, virtual false, abstract: false, final false
   inline void set_width(int32_t value);
 
-  /// @brief Method set_height, addr 0x2ce7108, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_height, addr 0x2cee29c, size 0x8, virtual false, abstract: false, final false
   inline void set_height(int32_t value);
 
   // Ctor Parameters [CppParam { name: "_rawImageDataReference_k__BackingField", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: None }, CppParam { name:

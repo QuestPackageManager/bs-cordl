@@ -19,20 +19,20 @@ MARK_REF_PTR_T(::Oculus::Platform::MessageWithPartyID);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13262)), TypeDefinitionIndex(TypeDefinitionIndex(13467)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst:
-// 4603 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(13314)) CS Name: ::Oculus.Platform::MessageWithPartyID*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13162)), TypeDefinitionIndex(TypeDefinitionIndex(13416)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13162), inst:
+// 4582 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(13224)) CS Name: ::Oculus.Platform::MessageWithPartyID*
 class CORDL_TYPE MessageWithPartyID : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::PartyID*> {
 public:
   // Declarations
   static inline ::Oculus::Platform::MessageWithPartyID* New_ctor(void* c_message);
 
-  /// @brief Method .ctor, addr 0x26f3248, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x271d034, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(void* c_message);
 
-  /// @brief Method GetPartyID, addr 0x26f32a0, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetPartyID, addr 0x271d08c, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::PartyID* GetPartyID();
 
-  /// @brief Method GetDataFromMessage, addr 0x26f32dc, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x271d0c8, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::PartyID* GetDataFromMessage(void* c_message);
 
   // Ctor Parameters [CppParam { name: "", ty: "MessageWithPartyID", modifiers: "&&", def_value: None }]

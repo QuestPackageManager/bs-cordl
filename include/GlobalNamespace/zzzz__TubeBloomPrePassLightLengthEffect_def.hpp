@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::GlobalNamespace::TubeBloomPrePassLightLengthEffect);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4909))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4916))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4263))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4270))
 // CS Name: ::TubeBloomPrePassLightLengthEffect*
 class CORDL_TYPE TubeBloomPrePassLightLengthEffect : public ::GlobalNamespace::FloatFxGroupEffectTarget {
 public:
@@ -33,15 +33,15 @@ public:
 
   constexpr void __cordl_internal_set__tubeBloomPrePassLight(::UnityW<::GlobalNamespace::TubeBloomPrePassLight> value);
 
-  /// @brief Method SetValue, addr 0x23a71f4, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x236732c, size 0x2c, virtual true, abstract: false, final false
   inline void SetValue(float_t value);
 
-  /// @brief Method TriggerValue, addr 0x23a7220, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method TriggerValue, addr 0x2367358, size 0x2c, virtual true, abstract: false, final false
   inline void TriggerValue(float_t value);
 
   static inline ::GlobalNamespace::TubeBloomPrePassLightLengthEffect* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23a724c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2367384, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TubeBloomPrePassLightLengthEffect", modifiers: "&&", def_value: None }]

@@ -66,13 +66,13 @@ public:
 
   static inline ::System::Runtime::Remoting::Channels::SinkProviderData* New_ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x24a41d4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24c6248, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method get_Children, addr 0x24a4280, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Children, addr 0x24c62f4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::IList* get_Children();
 
-  /// @brief Method get_Properties, addr 0x24a4288, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x24c62fc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::IDictionary* get_Properties();
 
   // Ctor Parameters [CppParam { name: "", ty: "SinkProviderData", modifiers: "&&", def_value: None }]

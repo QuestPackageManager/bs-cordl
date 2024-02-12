@@ -29,17 +29,17 @@ public:
   // Declarations
   static inline ::System::StackOverflowException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25c4d40, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25e6c58, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::StackOverflowException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x25c4d98, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25e6cb0, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::System::StackOverflowException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x25c4db8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25e6cd0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "StackOverflowException", modifiers: "&&", def_value: None }]

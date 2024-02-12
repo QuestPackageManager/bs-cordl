@@ -17,7 +17,7 @@ MARK_VAL_T(::System::Net::NetworkInformation::ifa_ifu);
 namespace System::Net::NetworkInformation {
 // Is value type: true
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9270))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7280))
 // CS Name: ::System.Net.NetworkInformation::ifa_ifu
 struct CORDL_TYPE ifa_ifu {
 public:

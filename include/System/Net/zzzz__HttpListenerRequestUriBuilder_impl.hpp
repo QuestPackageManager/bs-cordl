@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpListenerRequestUriBuilder::*)(::StringW, ::StringW, ::StringW, ::StringW, ::StringW)>(
     &::System::Net::HttpListenerRequestUriBuilder::_ctor)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x299b934;
+  constexpr static std::size_t addrs = 0x299f3d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Uri* (*)(::StringW, ::StringW, ::StringW, ::StringW, ::StringW)>(
     &::System::Net::HttpListenerRequestUriBuilder::GetRequestUri)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x299ba7c;
+  constexpr static std::size_t addrs = 0x299f520;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Uri* (::System::Net::HttpListenerRequestUriBuilder::*)()>(
     &::System::Net::HttpListenerRequestUriBuilder::Build)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x299bb0c;
+  constexpr static std::size_t addrs = 0x299f5b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpListenerRequestUriBuilder*>::get(), "Build",
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpListenerRequestUriBuilder::*)()>(
     &::System::Net::HttpListenerRequestUriBuilder::BuildRequestUriUsingCookedPath)> {
   constexpr static std::size_t size = 0x294;
-  constexpr static std::size_t addrs = 0x299bbf4;
+  constexpr static std::size_t addrs = 0x299f698;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpListenerRequestUriBuilder*>::get(),
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpListenerRequestUriBuilder::*)()>(
     &::System::Net::HttpListenerRequestUriBuilder::BuildRequestUriUsingRawPath)> {
   constexpr static std::size_t size = 0x384;
-  constexpr static std::size_t addrs = 0x299be88;
+  constexpr static std::size_t addrs = 0x299f92c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpListenerRequestUriBuilder*>::get(),
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::Encoding* (*)(::System::Net::__HttpListenerRequestUriBuilder__EncodingType)>(
     &::System::Net::HttpListenerRequestUriBuilder::GetEncoding)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x299c384;
+  constexpr static std::size_t addrs = 0x299fe28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::__HttpListenerRequestUriBuilder__ParsingResult (::System::Net::HttpListenerRequestUriBuilder::*)(
     ::System::Text::Encoding*)>(&::System::Net::HttpListenerRequestUriBuilder::BuildRequestUriUsingRawPath)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x299c3f0;
+  constexpr static std::size_t addrs = 0x299fe94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::__HttpListenerRequestUriBuilder__ParsingResult (::System::Net::HttpListenerRequestUriBuilder::*)(
     ::System::Text::Encoding*)>(&::System::Net::HttpListenerRequestUriBuilder::ParseRawPath)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x299c640;
+  constexpr static std::size_t addrs = 0x29a00e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::HttpListenerRequestUriBuilder::*)(::StringW)>(
     &::System::Net::HttpListenerRequestUriBuilder::AppendUnicodeCodePointValuePercentEncoded)> {
   constexpr static std::size_t size = 0x314;
-  constexpr static std::size_t addrs = 0x299cb38;
+  constexpr static std::size_t addrs = 0x29a05dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::HttpListenerRequestUriBuilder::*)(::System::Text::Encoding*, ::StringW)>(
     &::System::Net::HttpListenerRequestUriBuilder::AddPercentEncodedOctetToRawOctetsList)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x299ce4c;
+  constexpr static std::size_t addrs = 0x29a08f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -183,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::HttpListenerRequestUriBuilder::*)(::System::Text::Encoding*)>(
     &::System::Net::HttpListenerRequestUriBuilder::EmptyDecodeAndAppendRawOctetsList)> {
   constexpr static std::size_t size = 0x3a8;
-  constexpr static std::size_t addrs = 0x299c790;
+  constexpr static std::size_t addrs = 0x29a0234;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -198,7 +198,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::StringBuilder*, ::System::Collections::Generic::IEnumerable_1<uint8_t>*)>(
     &::System::Net::HttpListenerRequestUriBuilder::AppendOctetsPercentEncoded)> {
   constexpr static std::size_t size = 0x36c;
-  constexpr static std::size_t addrs = 0x299cfa0;
+  constexpr static std::size_t addrs = 0x29a0a44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -213,8 +213,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Collections::Generic::IEnumerable_1<uint8_t>*)>(
     &::System::Net::HttpListenerRequestUriBuilder::GetOctetsAsString)> {
-  constexpr static std::size_t size = 0x3d8;
-  constexpr static std::size_t addrs = 0x299d30c;
+  constexpr static std::size_t size = 0x13d8;
+  constexpr static std::size_t addrs = 0x29a0db0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -228,7 +228,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::System::Net::HttpListenerRequestUriBuilder::GetPath)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x299c214;
+  constexpr static std::size_t addrs = 0x299fcb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -242,7 +242,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::System::Net::HttpListenerRequestUriBuilder::AddSlashToAsteriskOnlyPath)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x299ba00;
+  constexpr static std::size_t addrs = 0x299f4a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -257,7 +257,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpListenerRequestUriBuilder::*)(
     ::StringW, ::StringW, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(&::System::Net::HttpListenerRequestUriBuilder::LogWarning)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x299c20c;
+  constexpr static std::size_t addrs = 0x299fcb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

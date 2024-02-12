@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::TouchPhase);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15950))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16073))
 // CS Name: ::UnityEngine::TouchPhase
 struct CORDL_TYPE TouchPhase {
 public:

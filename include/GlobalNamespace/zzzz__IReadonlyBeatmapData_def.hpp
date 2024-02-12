@@ -2,6 +2,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IReadonlyBeatmapData)
 namespace GlobalNamespace {
@@ -12,9 +13,6 @@ class BeatmapData;
 }
 namespace GlobalNamespace {
 class BeatmapEventData;
-}
-namespace GlobalNamespace {
-class IBeatmapDataBasicInfo;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
@@ -45,20 +43,39 @@ MARK_REF_PTR_T(::GlobalNamespace::IReadonlyBeatmapData);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4260))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10717))
 // CS Name: ::IReadonlyBeatmapData*
 class CORDL_TYPE IReadonlyBeatmapData {
 public:
   // Declarations
+  __declspec(property(get = get_numberOfLines)) int32_t numberOfLines;
+
+  __declspec(property(get = get_cuttableNotesCount)) int32_t cuttableNotesCount;
+
+  __declspec(property(get = get_obstaclesCount)) int32_t obstaclesCount;
+
+  __declspec(property(get = get_bombsCount)) int32_t bombsCount;
+
+  __declspec(property(get = get_specialBasicBeatmapEventKeywords))::System::Collections::Generic::IEnumerable_1<::StringW>* specialBasicBeatmapEventKeywords;
+
   __declspec(property(get = get_allBeatmapDataItems))::System::Collections::Generic::LinkedList_1<::GlobalNamespace::BeatmapDataItem*>* allBeatmapDataItems;
 
   __declspec(property(get = get_spawnRotationEventsCount)) int32_t spawnRotationEventsCount;
 
-  /// @brief Convert operator to "::GlobalNamespace::IBeatmapDataBasicInfo"
-  constexpr operator ::GlobalNamespace::IBeatmapDataBasicInfo*() noexcept;
+  /// @brief Method get_numberOfLines, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline int32_t get_numberOfLines();
 
-  /// @brief Convert to "::GlobalNamespace::IBeatmapDataBasicInfo"
-  constexpr ::GlobalNamespace::IBeatmapDataBasicInfo* i___GlobalNamespace__IBeatmapDataBasicInfo() noexcept;
+  /// @brief Method get_cuttableNotesCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline int32_t get_cuttableNotesCount();
+
+  /// @brief Method get_obstaclesCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline int32_t get_obstaclesCount();
+
+  /// @brief Method get_bombsCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline int32_t get_bombsCount();
+
+  /// @brief Method get_specialBasicBeatmapEventKeywords, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::Collections::Generic::IEnumerable_1<::StringW>* get_specialBasicBeatmapEventKeywords();
 
   /// @brief Method get_allBeatmapDataItems, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::LinkedList_1<::GlobalNamespace::BeatmapDataItem*>* get_allBeatmapDataItems();

@@ -17,15 +17,15 @@ MARK_REF_PTR_T(::System::Net::Mail::WhitespaceReader);
 namespace System::Net::Mail {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9381))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7391))
 // CS Name: ::System.Net.Mail::WhitespaceReader*
 class CORDL_TYPE WhitespaceReader : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ReadFwsReverse, addr 0x29019a0, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method ReadFwsReverse, addr 0x2906008, size 0x20c, virtual false, abstract: false, final false
   static inline int32_t ReadFwsReverse(::StringW data, int32_t index);
 
-  /// @brief Method ReadCfwsReverse, addr 0x29029dc, size 0x2e0, virtual false, abstract: false, final false
+  /// @brief Method ReadCfwsReverse, addr 0x2907044, size 0x2e0, virtual false, abstract: false, final false
   static inline int32_t ReadCfwsReverse(::StringW data, int32_t index);
 
   // Ctor Parameters [CppParam { name: "", ty: "WhitespaceReader", modifiers: "&&", def_value: None }]

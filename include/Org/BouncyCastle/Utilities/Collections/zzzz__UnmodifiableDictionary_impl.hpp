@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionary::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionary::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x115a14c;
+  constexpr static std::size_t addrs = 0x1187fdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionary::*)(::System::Object*, ::System::Object*)>(
     &::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionary::Add)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x115a154;
+  constexpr static std::size_t addrs = 0x1187fe4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionary::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionary::Clear)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x115a194;
+  constexpr static std::size_t addrs = 0x1188024;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionary::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionary::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x115a1d4;
+  constexpr static std::size_t addrs = 0x1188064;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionary::*)(::System::Object*)>(
     &::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionary::Remove)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x115a1e4;
+  constexpr static std::size_t addrs = 0x1188074;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionary::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionary::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x115a224;
+  constexpr static std::size_t addrs = 0x11880b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -252,7 +252,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionary::*)(::System::Object*)>(
     &::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionary::get_Item)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x115a22c;
+  constexpr static std::size_t addrs = 0x11880bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -268,7 +268,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionary::*)(::System::Object*, ::System::Object*)>(
     &::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionary::set_Item)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x115a23c;
+  constexpr static std::size_t addrs = 0x11880cc;
 
   inline static ::MethodInfo const* methodInfo() {
 

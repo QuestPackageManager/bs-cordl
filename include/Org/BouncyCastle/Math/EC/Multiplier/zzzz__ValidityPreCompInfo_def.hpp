@@ -64,27 +64,27 @@ public:
 
   static inline ::StringW getStaticF_PRECOMP_NAME();
 
-  /// @brief Method HasFailed, addr 0x1037688, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HasFailed, addr 0x1064518, size 0x8, virtual false, abstract: false, final false
   inline bool HasFailed();
 
-  /// @brief Method ReportFailed, addr 0x1037690, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ReportFailed, addr 0x1064520, size 0xc, virtual false, abstract: false, final false
   inline void ReportFailed();
 
-  /// @brief Method HasCurveEquationPassed, addr 0x103769c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HasCurveEquationPassed, addr 0x106452c, size 0x8, virtual false, abstract: false, final false
   inline bool HasCurveEquationPassed();
 
-  /// @brief Method ReportCurveEquationPassed, addr 0x10376a4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ReportCurveEquationPassed, addr 0x1064534, size 0xc, virtual false, abstract: false, final false
   inline void ReportCurveEquationPassed();
 
-  /// @brief Method HasOrderPassed, addr 0x10376b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HasOrderPassed, addr 0x1064540, size 0x8, virtual false, abstract: false, final false
   inline bool HasOrderPassed();
 
-  /// @brief Method ReportOrderPassed, addr 0x10376b8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ReportOrderPassed, addr 0x1064548, size 0xc, virtual false, abstract: false, final false
   inline void ReportOrderPassed();
 
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1037724, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10645b4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ValidityPreCompInfo", modifiers: "&&", def_value: None }]

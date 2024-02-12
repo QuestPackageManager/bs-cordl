@@ -43,7 +43,7 @@ MARK_REF_PTR_T(::Zenject::MethodProviderUntyped);
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11210))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10352))
 // CS Name: ::Zenject::MethodProviderUntyped*
 class CORDL_TYPE MethodProviderUntyped : public ::System::Object {
 public:
@@ -78,19 +78,19 @@ public:
 
   static inline ::Zenject::MethodProviderUntyped* New_ctor(::System::Func_2<::Zenject::InjectContext*, ::System::Object*>* method, ::Zenject::DiContainer* container);
 
-  /// @brief Method .ctor, addr 0x2f089b0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f24af8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Func_2<::Zenject::InjectContext*, ::System::Object*>* method, ::Zenject::DiContainer* container);
 
-  /// @brief Method get_IsCached, addr 0x2f089dc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsCached, addr 0x2f24b24, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsCached();
 
-  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x2f089e4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x2f24b2c, size 0x8, virtual true, abstract: false, final true
   inline bool get_TypeVariesBasedOnMemberType();
 
-  /// @brief Method GetInstanceType, addr 0x2f089ec, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method GetInstanceType, addr 0x2f24b34, size 0x18, virtual true, abstract: false, final true
   inline ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
 
-  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x2f08a04, size 0x2dc, virtual true, abstract: false, final true
+  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x2f24b4c, size 0x2dc, virtual true, abstract: false, final true
   inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction,
                                              ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 

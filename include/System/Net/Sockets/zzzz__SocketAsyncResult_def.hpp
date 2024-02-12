@@ -61,7 +61,7 @@ MARK_REF_PTR_T(::System::Net::Sockets::__SocketAsyncResult____c);
 namespace System::Net::Sockets {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9358))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7368))
 // CS Name: ::SocketAsyncResult::<>c*
 class CORDL_TYPE __SocketAsyncResult____c : public ::System::Object {
 public:
@@ -82,10 +82,10 @@ public:
 
   static inline ::System::Net::Sockets::__SocketAsyncResult____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28ff010, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2903678, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Complete>b__27_0, addr 0x28ff018, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method <Complete>b__27_0, addr 0x2903680, size 0x78, virtual false, abstract: false, final false
   inline void _Complete_b__27_0(::System::Object* state);
 
   // Ctor Parameters [CppParam { name: "", ty: "__SocketAsyncResult____c", modifiers: "&&", def_value: None }]
@@ -112,8 +112,8 @@ static_assert(::cordl_internals::size_check_v<::System::Net::Sockets::__SocketAs
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 172, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Sockets {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2437)), TypeDefinitionIndex(TypeDefinitionIndex(8895)), TypeDefinitionIndex(TypeDefinitionIndex(9348)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9360)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2437), inst: 741 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(9359)) CS
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2437)), TypeDefinitionIndex(TypeDefinitionIndex(6905)), TypeDefinitionIndex(TypeDefinitionIndex(7358)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7370)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2437), inst: 736 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7369)) CS
 // Name: ::System.Net.Sockets::SocketAsyncResult*
 class CORDL_TYPE SocketAsyncResult : public ::System::IOAsyncResult {
 public:
@@ -286,51 +286,51 @@ public:
 
   constexpr void __cordl_internal_set_EndCalled(int32_t value);
 
-  /// @brief Method get_Handle, addr 0x28fed14, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_Handle, addr 0x290337c, size 0x64, virtual false, abstract: false, final false
   inline void* get_Handle();
 
   static inline ::System::Net::Sockets::SocketAsyncResult* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28fe9b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2903020, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Init, addr 0x28fed78, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x29033e0, size 0xb4, virtual false, abstract: false, final false
   inline void Init(::System::Net::Sockets::Socket* socket, ::System::AsyncCallback* callback, ::System::Object* state, ::System::Net::Sockets::SocketOperation operation);
 
   static inline ::System::Net::Sockets::SocketAsyncResult* New_ctor(::System::Net::Sockets::Socket* socket, ::System::AsyncCallback* callback, ::System::Object* state,
                                                                     ::System::Net::Sockets::SocketOperation operation);
 
-  /// @brief Method .ctor, addr 0x28fee2c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2903494, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Sockets::Socket* socket, ::System::AsyncCallback* callback, ::System::Object* state, ::System::Net::Sockets::SocketOperation operation);
 
-  /// @brief Method get_ErrorCode, addr 0x28fee64, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_ErrorCode, addr 0x29034cc, size 0x80, virtual false, abstract: false, final false
   inline ::System::Net::Sockets::SocketError get_ErrorCode();
 
-  /// @brief Method CheckIfThrowDelayedException, addr 0x28feee4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method CheckIfThrowDelayedException, addr 0x290354c, size 0xa8, virtual false, abstract: false, final false
   inline void CheckIfThrowDelayedException();
 
-  /// @brief Method CompleteDisposed, addr 0x28fef8c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method CompleteDisposed, addr 0x29035f4, size 0x4, virtual true, abstract: false, final false
   inline void CompleteDisposed();
 
-  /// @brief Method Complete, addr 0x28fac2c, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x28ff294, size 0x1f0, virtual false, abstract: false, final false
   inline void Complete();
 
-  /// @brief Method Complete, addr 0x28fef90, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x29035f8, size 0xc, virtual false, abstract: false, final false
   inline void Complete(bool synch);
 
-  /// @brief Method Complete, addr 0x28fb6ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x28ffd54, size 0x8, virtual false, abstract: false, final false
   inline void Complete(int32_t total);
 
-  /// @brief Method Complete, addr 0x28fef9c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x2903604, size 0x10, virtual false, abstract: false, final false
   inline void Complete(::System::Exception* e, bool synch);
 
-  /// @brief Method Complete, addr 0x28fa4a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x28feb0c, size 0x8, virtual false, abstract: false, final false
   inline void Complete(::System::Exception* e);
 
-  /// @brief Method Complete, addr 0x28fa4ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x28feb14, size 0x8, virtual false, abstract: false, final false
   inline void Complete(::System::Net::Sockets::Socket* s);
 
-  /// @brief Method Complete, addr 0x28fa6f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x28fed5c, size 0xc, virtual false, abstract: false, final false
   inline void Complete(::System::Net::Sockets::Socket* s, int32_t total);
 
   // Ctor Parameters [CppParam { name: "", ty: "SocketAsyncResult", modifiers: "&&", def_value: None }]

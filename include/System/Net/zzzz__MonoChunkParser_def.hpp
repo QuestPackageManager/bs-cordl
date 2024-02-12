@@ -44,7 +44,7 @@ MARK_REF_PTR_T(::System::Net::__MonoChunkParser__Chunk);
 namespace System::Net {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9191))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7201))
 // CS Name: ::MonoChunkParser::State
 struct CORDL_TYPE __MonoChunkParser__State {
 public:
@@ -106,7 +106,7 @@ static_assert(offsetof(::System::Net::__MonoChunkParser__State, value__) == 0x0,
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9192))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7202))
 // CS Name: ::MonoChunkParser::Chunk*
 class CORDL_TYPE __MonoChunkParser__Chunk : public ::System::Object {
 public:
@@ -131,10 +131,10 @@ public:
 
   static inline ::System::Net::__MonoChunkParser__Chunk* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> chunk);
 
-  /// @brief Method .ctor, addr 0x29d48bc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29d9360, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> chunk);
 
-  /// @brief Method Read, addr 0x29d3dc0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Read, addr 0x29d8864, size 0x60, virtual false, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size);
 
   // Ctor Parameters [CppParam { name: "", ty: "__MonoChunkParser__Chunk", modifiers: "&&", def_value: None }]
@@ -171,8 +171,8 @@ static_assert(offsetof(::System::Net::__MonoChunkParser__Chunk, ___Offset) == 0x
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9191))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9193))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7201))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7203))
 // CS Name: ::System.Net::MonoChunkParser*
 class CORDL_TYPE MonoChunkParser : public ::System::Object {
 public:
@@ -279,46 +279,46 @@ public:
 
   static inline ::System::Net::MonoChunkParser* New_ctor(::System::Net::WebHeaderCollection* headers);
 
-  /// @brief Method .ctor, addr 0x29d39ec, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29d8490, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::WebHeaderCollection* headers);
 
-  /// @brief Method Read, addr 0x29d3aa4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Read, addr 0x29d8548, size 0x4, virtual false, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size);
 
-  /// @brief Method ReadFromChunks, addr 0x29d3aa8, size 0x318, virtual false, abstract: false, final false
+  /// @brief Method ReadFromChunks, addr 0x29d854c, size 0x318, virtual false, abstract: false, final false
   inline int32_t ReadFromChunks(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size);
 
-  /// @brief Method Write, addr 0x29d3e20, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Write, addr 0x29d88c4, size 0x20, virtual false, abstract: false, final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size);
 
-  /// @brief Method InternalWrite, addr 0x29d3e40, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method InternalWrite, addr 0x29d88e4, size 0x13c, virtual false, abstract: false, final false
   inline void InternalWrite(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, ByRef<int32_t> offset, int32_t size);
 
-  /// @brief Method get_WantMore, addr 0x29d4788, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_WantMore, addr 0x29d922c, size 0x28, virtual false, abstract: false, final false
   inline bool get_WantMore();
 
-  /// @brief Method get_DataAvailable, addr 0x29d47b0, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method get_DataAvailable, addr 0x29d9254, size 0x100, virtual false, abstract: false, final false
   inline bool get_DataAvailable();
 
-  /// @brief Method get_ChunkLeft, addr 0x29d48b0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_ChunkLeft, addr 0x29d9354, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_ChunkLeft();
 
-  /// @brief Method ReadBody, addr 0x29d4284, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method ReadBody, addr 0x29d8d28, size 0x138, virtual false, abstract: false, final false
   inline ::System::Net::__MonoChunkParser__State ReadBody(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, ByRef<int32_t> offset, int32_t size);
 
-  /// @brief Method GetChunkSize, addr 0x29d3f7c, size 0x308, virtual false, abstract: false, final false
+  /// @brief Method GetChunkSize, addr 0x29d8a20, size 0x308, virtual false, abstract: false, final false
   inline ::System::Net::__MonoChunkParser__State GetChunkSize(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, ByRef<int32_t> offset, int32_t size);
 
-  /// @brief Method RemoveChunkExtension, addr 0x29d493c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method RemoveChunkExtension, addr 0x29d93e0, size 0x48, virtual false, abstract: false, final false
   static inline ::StringW RemoveChunkExtension(::StringW input);
 
-  /// @brief Method ReadCRLF, addr 0x29d43bc, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method ReadCRLF, addr 0x29d8e60, size 0x100, virtual false, abstract: false, final false
   inline ::System::Net::__MonoChunkParser__State ReadCRLF(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, ByRef<int32_t> offset, int32_t size);
 
-  /// @brief Method ReadTrailer, addr 0x29d44bc, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method ReadTrailer, addr 0x29d8f60, size 0x2cc, virtual false, abstract: false, final false
   inline ::System::Net::__MonoChunkParser__State ReadTrailer(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, ByRef<int32_t> offset, int32_t size);
 
-  /// @brief Method ThrowProtocolViolation, addr 0x29d48e4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ThrowProtocolViolation, addr 0x29d9388, size 0x58, virtual false, abstract: false, final false
   static inline void ThrowProtocolViolation(::StringW message);
 
   // Ctor Parameters [CppParam { name: "", ty: "MonoChunkParser", modifiers: "&&", def_value: None }]

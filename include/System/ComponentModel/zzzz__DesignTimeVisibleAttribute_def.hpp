@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::System::ComponentModel::DesignTimeVisibleAttribute);
 namespace System::ComponentModel {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9420))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7430))
 // CS Name: ::System.ComponentModel::DesignTimeVisibleAttribute*
 class CORDL_TYPE DesignTimeVisibleAttribute : public ::System::Attribute {
 public:
@@ -58,19 +58,19 @@ public:
 
   static inline ::System::ComponentModel::DesignTimeVisibleAttribute* New_ctor(bool visible);
 
-  /// @brief Method .ctor, addr 0x290e80c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2912e74, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool visible);
 
-  /// @brief Method get_Visible, addr 0x290e834, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Visible, addr 0x2912e9c, size 0x8, virtual false, abstract: false, final false
   inline bool get_Visible();
 
-  /// @brief Method Equals, addr 0x290e83c, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2912ea4, size 0x98, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x290e8d4, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2912f3c, size 0x9c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsDefaultAttribute, addr 0x290e970, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method IsDefaultAttribute, addr 0x2912fd8, size 0x80, virtual true, abstract: false, final false
   inline bool IsDefaultAttribute();
 
   // Ctor Parameters [CppParam { name: "", ty: "DesignTimeVisibleAttribute", modifiers: "&&", def_value: None }]

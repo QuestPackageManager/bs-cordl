@@ -53,10 +53,10 @@ public:
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier* New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve,
                                                                                    ::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism* glvEndomorphism);
 
-  /// @brief Method .ctor, addr 0x10368d8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1063768, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism* glvEndomorphism);
 
-  /// @brief Method MultiplyPositive, addr 0x1036980, size 0x26c, virtual true, abstract: false, final false
+  /// @brief Method MultiplyPositive, addr 0x1063810, size 0x26c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* MultiplyPositive(::Org::BouncyCastle::Math::EC::ECPoint* p, ::Org::BouncyCastle::Math::BigInteger* k);
 
   // Ctor Parameters [CppParam { name: "", ty: "GlvMultiplier", modifiers: "&&", def_value: None }]

@@ -26,18 +26,18 @@ public:
   // Declarations
   static inline ::System::Threading::EventWaitHandle* New_ctor(bool initialState, ::System::Threading::EventResetMode mode);
 
-  /// @brief Method .ctor, addr 0x260fc04, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2634b0c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(bool initialState, ::System::Threading::EventResetMode mode);
 
   static inline ::System::Threading::EventWaitHandle* New_ctor(bool initialState, ::System::Threading::EventResetMode mode, ::StringW name);
 
-  /// @brief Method .ctor, addr 0x2616974, size 0x2c0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263b87c, size 0x2c0, virtual false, abstract: false, final false
   inline void _ctor(bool initialState, ::System::Threading::EventResetMode mode, ::StringW name);
 
-  /// @brief Method Reset, addr 0x2614cb8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x2639bc0, size 0x64, virtual false, abstract: false, final false
   inline bool Reset();
 
-  /// @brief Method Set, addr 0x2611530, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x2636438, size 0x64, virtual false, abstract: false, final false
   inline bool Set();
 
   // Ctor Parameters [CppParam { name: "", ty: "EventWaitHandle", modifiers: "&&", def_value: None }]

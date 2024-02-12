@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::GlobalNamespace::GameServerBrowserViewController);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5713))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13558))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5015))
 // CS Name: ::GameServerBrowserViewController*
 class CORDL_TYPE GameServerBrowserViewController : public ::HMUI::ViewController {
 public:
@@ -89,7 +89,7 @@ public:
 
   static inline ::GlobalNamespace::GameServerBrowserViewController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22cd30c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22fce44, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GameServerBrowserViewController", modifiers: "&&", def_value: None }]

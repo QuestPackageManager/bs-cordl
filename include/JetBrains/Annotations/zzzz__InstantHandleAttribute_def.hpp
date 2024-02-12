@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::JetBrains::Annotations::InstantHandleAttribute);
 namespace JetBrains::Annotations {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15753))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15903))
 // CS Name: ::JetBrains.Annotations::InstantHandleAttribute*
 class CORDL_TYPE InstantHandleAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::JetBrains::Annotations::InstantHandleAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2eba31c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ed6464, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "InstantHandleAttribute", modifiers: "&&", def_value: None }]

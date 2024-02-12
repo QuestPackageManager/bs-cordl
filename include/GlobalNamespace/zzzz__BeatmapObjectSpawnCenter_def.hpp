@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDista
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4717))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4068))
 // CS Name: ::BeatmapObjectSpawnCenter::PlayerCountToDistance*
 class CORDL_TYPE __BeatmapObjectSpawnCenter__PlayerCountToDistance : public ::System::Object {
 public:
@@ -56,15 +56,15 @@ public:
 
   constexpr void __cordl_internal_set__distance(float_t value);
 
-  /// @brief Method get_playerCount, addr 0x237f8e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerCount, addr 0x22c5e5c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_playerCount();
 
-  /// @brief Method get_distance, addr 0x237f8ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_distance, addr 0x22c5e64, size 0x8, virtual false, abstract: false, final false
   inline float_t get_distance();
 
   static inline ::GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance* New_ctor();
 
-  /// @brief Method .ctor, addr 0x237f8f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22c5e6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__BeatmapObjectSpawnCenter__PlayerCountToDistance", modifiers: "&&", def_value: None }]
@@ -101,8 +101,8 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCoun
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4718))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4069))
 // CS Name: ::BeatmapObjectSpawnCenter*
 class CORDL_TYPE BeatmapObjectSpawnCenter : public ::UnityEngine::MonoBehaviour {
 public:
@@ -164,27 +164,27 @@ public:
 
   constexpr void __cordl_internal_set__spawnCenterDistance(float_t value);
 
-  /// @brief Method get_spawnCenterDistance, addr 0x237f694, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_spawnCenterDistance, addr 0x22c5b5c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_spawnCenterDistance();
 
-  /// @brief Method get_spawnCenterDistanceWasFound, addr 0x237f69c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_spawnCenterDistanceWasFound, addr 0x22c5b64, size 0x8, virtual false, abstract: false, final false
   inline bool get_spawnCenterDistanceWasFound();
 
-  /// @brief Method add_spawnCenterDistanceWasFoundEvent, addr 0x237671c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_spawnCenterDistanceWasFoundEvent, addr 0x22c5b6c, size 0xb0, virtual false, abstract: false, final false
   inline void add_spawnCenterDistanceWasFoundEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method remove_spawnCenterDistanceWasFoundEvent, addr 0x237f6a4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_spawnCenterDistanceWasFoundEvent, addr 0x22c5c1c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_spawnCenterDistanceWasFoundEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method CalculateSpawnCenterPosition, addr 0x237f754, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method CalculateSpawnCenterPosition, addr 0x22c5ccc, size 0x158, virtual false, abstract: false, final false
   inline float_t CalculateSpawnCenterPosition(int32_t numberOfPlayers);
 
-  /// @brief Method ReportAndSaveSpawnCenterDistance, addr 0x237f8ac, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ReportAndSaveSpawnCenterDistance, addr 0x22c5e24, size 0x28, virtual false, abstract: false, final false
   inline void ReportAndSaveSpawnCenterDistance(float_t distance);
 
   static inline ::GlobalNamespace::BeatmapObjectSpawnCenter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x237f8d4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22c5e4c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectSpawnCenter", modifiers: "&&", def_value: None }]

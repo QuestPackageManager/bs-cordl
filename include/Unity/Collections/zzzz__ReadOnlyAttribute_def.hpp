@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::Unity::Collections::ReadOnlyAttribute);
 namespace Unity::Collections {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10004))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8735))
 // CS Name: ::Unity.Collections::ReadOnlyAttribute*
 class CORDL_TYPE ReadOnlyAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::Unity::Collections::ReadOnlyAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c9e0ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c9eb58, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ReadOnlyAttribute", modifiers: "&&", def_value: None }]

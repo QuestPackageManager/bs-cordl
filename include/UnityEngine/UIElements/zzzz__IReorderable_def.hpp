@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IReorderable);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6967))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6226))
 // CS Name: ::UnityEngine.UIElements::IReorderable*
 class CORDL_TYPE IReorderable {
 public:

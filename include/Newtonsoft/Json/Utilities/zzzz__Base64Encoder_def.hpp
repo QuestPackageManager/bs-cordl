@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::Base64Encoder);
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11847))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11745))
 // CS Name: ::Newtonsoft.Json.Utilities::Base64Encoder*
 class CORDL_TYPE Base64Encoder : public ::System::Object {
 public:
@@ -63,16 +63,16 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::Base64Encoder* New_ctor(::System::IO::TextWriter* writer);
 
-  /// @brief Method .ctor, addr 0x26598f0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x267caac, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::TextWriter* writer);
 
-  /// @brief Method Encode, addr 0x265997c, size 0x34c, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x267cb38, size 0x34c, virtual false, abstract: false, final false
   inline void Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t index, int32_t count);
 
-  /// @brief Method Flush, addr 0x2659cec, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Flush, addr 0x267cea8, size 0xb8, virtual false, abstract: false, final false
   inline void Flush();
 
-  /// @brief Method WriteChars, addr 0x2659cc8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method WriteChars, addr 0x267ce84, size 0x24, virtual false, abstract: false, final false
   inline void WriteChars(::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t index, int32_t count);
 
   // Ctor Parameters [CppParam { name: "", ty: "Base64Encoder", modifiers: "&&", def_value: None }]

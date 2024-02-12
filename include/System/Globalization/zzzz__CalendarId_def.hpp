@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Globalization::CalendarId);
 namespace System::Globalization {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3667))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3665))
 // CS Name: ::System.Globalization::CalendarId
 struct CORDL_TYPE CalendarId {
 public:

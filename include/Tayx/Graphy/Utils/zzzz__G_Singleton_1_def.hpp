@@ -19,8 +19,8 @@ namespace Tayx::Graphy::Utils {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15071))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14944))
 // CS Name: ::Tayx.Graphy.Utils::G_Singleton`1<T>*
 class CORDL_TYPE G_Singleton_1 : public ::UnityEngine::MonoBehaviour {
 public:

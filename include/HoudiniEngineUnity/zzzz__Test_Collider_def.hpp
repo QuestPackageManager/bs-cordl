@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::Test_Collider);
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9913))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9705))
 // CS Name: ::HoudiniEngineUnity::Test_Collider*
 class CORDL_TYPE Test_Collider : public ::System::Object {
 public:
@@ -52,13 +52,13 @@ public:
 
   static inline ::HoudiniEngineUnity::Test_Collider* New_ctor(::UnityEngine::Collider* self);
 
-  /// @brief Method .ctor, addr 0x21e531c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x227ac04, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Collider* self);
 
-  /// @brief Method IsNull, addr 0x21e5344, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method IsNull, addr 0x227ac2c, size 0x60, virtual true, abstract: false, final true
   inline bool IsNull();
 
-  /// @brief Method IsEquivalentTo, addr 0x21e53a4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x227ac8c, size 0x8, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_Collider* other);
 
   // Ctor Parameters [CppParam { name: "", ty: "Test_Collider", modifiers: "&&", def_value: None }]

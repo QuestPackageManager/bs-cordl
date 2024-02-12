@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::BGLib::UnityExtension::JsonSettings);
 namespace BGLib::UnityExtension {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15880))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15637))
 // CS Name: ::BGLib.UnityExtension::JsonSettings*
 class CORDL_TYPE JsonSettings : public ::System::Object {
 public:

@@ -62,7 +62,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::__ReflectionObject____c__DisplayCl
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11862))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11760))
 // CS Name: ::ReflectionObject::<>c__DisplayClass13_0*
 class CORDL_TYPE __ReflectionObject____c__DisplayClass13_0 : public ::System::Object {
 public:
@@ -78,10 +78,10 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::__ReflectionObject____c__DisplayClass13_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x265b3ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x267e568, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Create>b__0, addr 0x265b8c4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <Create>b__0, addr 0x267ea80, size 0x24, virtual false, abstract: false, final false
   inline ::System::Object* _Create_b__0(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ReflectionObject____c__DisplayClass13_0", modifiers: "&&", def_value: None }]
@@ -114,7 +114,7 @@ static_assert(offsetof(::Newtonsoft::Json::Utilities::__ReflectionObject____c__D
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11863))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11761))
 // CS Name: ::ReflectionObject::<>c__DisplayClass13_1*
 class CORDL_TYPE __ReflectionObject____c__DisplayClass13_1 : public ::System::Object {
 public:
@@ -130,10 +130,10 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::__ReflectionObject____c__DisplayClass13_1* New_ctor();
 
-  /// @brief Method .ctor, addr 0x265b690, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x267e84c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Create>b__1, addr 0x265b8e8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method <Create>b__1, addr 0x267eaa4, size 0x78, virtual false, abstract: false, final false
   inline ::System::Object* _Create_b__1(::System::Object* target);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ReflectionObject____c__DisplayClass13_1", modifiers: "&&", def_value: None }]
@@ -166,7 +166,7 @@ static_assert(offsetof(::Newtonsoft::Json::Utilities::__ReflectionObject____c__D
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11864))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11762))
 // CS Name: ::ReflectionObject::<>c__DisplayClass13_2*
 class CORDL_TYPE __ReflectionObject____c__DisplayClass13_2 : public ::System::Object {
 public:
@@ -182,10 +182,10 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::__ReflectionObject____c__DisplayClass13_2* New_ctor();
 
-  /// @brief Method .ctor, addr 0x265b698, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x267e854, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Create>b__2, addr 0x265b960, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method <Create>b__2, addr 0x267eb1c, size 0xb8, virtual false, abstract: false, final false
   inline void _Create_b__2(::System::Object* target, ::System::Object* arg);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ReflectionObject____c__DisplayClass13_2", modifiers: "&&", def_value: None }]
@@ -218,7 +218,7 @@ static_assert(offsetof(::Newtonsoft::Json::Utilities::__ReflectionObject____c__D
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11865))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11763))
 // CS Name: ::Newtonsoft.Json.Utilities::ReflectionObject*
 class CORDL_TYPE ReflectionObject : public ::System::Object {
 public:
@@ -255,36 +255,36 @@ public:
 
   constexpr void __cordl_internal_set__Members_k__BackingField(::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Utilities::ReflectionMember*>* value);
 
-  /// @brief Method get_Creator, addr 0x265a778, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Creator, addr 0x267d934, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* get_Creator();
 
-  /// @brief Method set_Creator, addr 0x265a780, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Creator, addr 0x267d93c, size 0x8, virtual false, abstract: false, final false
   inline void set_Creator(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* value);
 
-  /// @brief Method get_Members, addr 0x265a788, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Members, addr 0x267d944, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Utilities::ReflectionMember*>* get_Members();
 
-  /// @brief Method set_Members, addr 0x265a790, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Members, addr 0x267d94c, size 0x8, virtual false, abstract: false, final false
   inline void set_Members(::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Utilities::ReflectionMember*>* value);
 
   static inline ::Newtonsoft::Json::Utilities::ReflectionObject* New_ctor();
 
-  /// @brief Method .ctor, addr 0x265a798, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x267d954, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method GetValue, addr 0x265a818, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method GetValue, addr 0x267d9d4, size 0xd4, virtual false, abstract: false, final false
   inline ::System::Object* GetValue(::System::Object* target, ::StringW member);
 
-  /// @brief Method SetValue, addr 0x265a8ec, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x267daa8, size 0xdc, virtual false, abstract: false, final false
   inline void SetValue(::System::Object* target, ::StringW member, ::System::Object* value);
 
-  /// @brief Method GetType, addr 0x265a9c8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetType, addr 0x267db84, size 0xb4, virtual false, abstract: false, final false
   inline ::System::Type* GetType(::StringW member);
 
-  /// @brief Method Create, addr 0x265aa7c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x267dc38, size 0xc, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Utilities::ReflectionObject* Create(::System::Type* t, ::ArrayW<::StringW, ::Array<::StringW>*> memberNames);
 
-  /// @brief Method Create, addr 0x265aa88, size 0x874, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x267dc44, size 0x874, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Utilities::ReflectionObject* Create(::System::Type* t, ::System::Reflection::MethodBase* creator, ::ArrayW<::StringW, ::Array<::StringW>*> memberNames);
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectionObject", modifiers: "&&", def_value: None }]

@@ -45,7 +45,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
 template <typename T>
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15349))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15509))
 // CS Name: ::UnityEngine.ProBuilder.Poly2Tri::FixedArray3`1<T>
 struct CORDL_TYPE FixedArray3_1 {
 public:
@@ -123,8 +123,8 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15349)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15349), inst:
-// 1981 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(15348)) CS Name: ::FixedArray3`1::<Enumerate>d__10<T>*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15509)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15509), inst:
+// 1939 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(15508)) CS Name: ::FixedArray3`1::<Enumerate>d__10<T>*
 class CORDL_TYPE __FixedArray3_1___Enumerate_d__10 : public ::System::Object {
 public:
   // Declarations

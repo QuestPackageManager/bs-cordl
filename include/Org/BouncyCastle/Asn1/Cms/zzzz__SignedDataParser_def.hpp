@@ -82,30 +82,30 @@ public:
 
   constexpr void __cordl_internal_set__crlsCalled(bool value);
 
-  /// @brief Method GetInstance, addr 0xe7ed10, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xea9ba0, size 0x19c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::SignedDataParser* GetInstance(::System::Object* o);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::SignedDataParser* New_ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* seq);
 
-  /// @brief Method .ctor, addr 0xe7eeac, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xea9d3c, size 0x124, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* seq);
 
-  /// @brief Method get_Version, addr 0xe7efd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0xea9e60, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
-  /// @brief Method GetDigestAlgorithms, addr 0xe7efd8, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetDigestAlgorithms, addr 0xea9e68, size 0xdc, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1SetParser* GetDigestAlgorithms();
 
-  /// @brief Method GetEncapContentInfo, addr 0xe7f0b4, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetEncapContentInfo, addr 0xea9f44, size 0x108, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::ContentInfoParser* GetEncapContentInfo();
 
-  /// @brief Method GetCertificates, addr 0xe7f1bc, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method GetCertificates, addr 0xeaa04c, size 0x258, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1SetParser* GetCertificates();
 
-  /// @brief Method GetCrls, addr 0xe7f414, size 0x2b8, virtual false, abstract: false, final false
+  /// @brief Method GetCrls, addr 0xeaa2a4, size 0x2b8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1SetParser* GetCrls();
 
-  /// @brief Method GetSignerInfos, addr 0xe7f6cc, size 0x1148, virtual false, abstract: false, final false
+  /// @brief Method GetSignerInfos, addr 0xeaa55c, size 0x148, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1SetParser* GetSignerInfos();
 
   // Ctor Parameters [CppParam { name: "", ty: "SignedDataParser", modifiers: "&&", def_value: None }]

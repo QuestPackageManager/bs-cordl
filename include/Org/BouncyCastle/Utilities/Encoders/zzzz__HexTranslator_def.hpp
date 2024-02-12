@@ -38,21 +38,21 @@ public:
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_hexTable();
 
-  /// @brief Method GetEncodedBlockSize, addr 0x115eaf4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetEncodedBlockSize, addr 0x118c984, size 0x8, virtual true, abstract: false, final true
   inline int32_t GetEncodedBlockSize();
 
-  /// @brief Method Encode, addr 0x115eafc, size 0x140, virtual true, abstract: false, final true
+  /// @brief Method Encode, addr 0x118c98c, size 0x140, virtual true, abstract: false, final true
   inline int32_t Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
-  /// @brief Method GetDecodedBlockSize, addr 0x115ec3c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetDecodedBlockSize, addr 0x118cacc, size 0x8, virtual true, abstract: false, final true
   inline int32_t GetDecodedBlockSize();
 
-  /// @brief Method Decode, addr 0x115ec44, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method Decode, addr 0x118cad4, size 0xc8, virtual true, abstract: false, final true
   inline int32_t Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
   static inline ::Org::BouncyCastle::Utilities::Encoders::HexTranslator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x115eda0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x118cc30, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HexTranslator", modifiers: "&&", def_value: None }]

@@ -49,7 +49,7 @@ namespace Newtonsoft::Json::Utilities {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11878))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11776))
 // CS Name: ::Newtonsoft.Json.Utilities::CollectionWrapper`1<T>*
 class CORDL_TYPE CollectionWrapper_1 : public ::System::Object {
 public:

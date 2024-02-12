@@ -38,7 +38,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__TabBarViewController__TabBarItem);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5766))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5066))
 // CS Name: ::TabBarViewController::TabBarItem*
 class CORDL_TYPE __TabBarViewController__TabBarItem : public ::System::Object {
 public:
@@ -63,7 +63,7 @@ public:
 
   static inline ::GlobalNamespace::__TabBarViewController__TabBarItem* New_ctor(::StringW title, ::System::Action* action);
 
-  /// @brief Method .ctor, addr 0x22dc454, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x230cb28, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW title, ::System::Action* action);
 
   // Ctor Parameters [CppParam { name: "", ty: "__TabBarViewController__TabBarItem", modifiers: "&&", def_value: None }]
@@ -100,8 +100,8 @@ static_assert(offsetof(::GlobalNamespace::__TabBarViewController__TabBarItem, __
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 145, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5767))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13558))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5067))
 // CS Name: ::TabBarViewController*
 class CORDL_TYPE TabBarViewController : public ::HMUI::ViewController {
 public:
@@ -158,36 +158,36 @@ public:
 
   constexpr void __cordl_internal_set__shouldReloadData(bool value);
 
-  /// @brief Method set_sizeToFit, addr 0x22dc008, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_sizeToFit, addr 0x230c6dc, size 0x20, virtual false, abstract: false, final false
   inline void set_sizeToFit(bool value);
 
-  /// @brief Method get_sizeToFit, addr 0x22dc028, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_sizeToFit, addr 0x230c6fc, size 0x1c, virtual false, abstract: false, final false
   inline bool get_sizeToFit();
 
-  /// @brief Method get_selectedCellNumber, addr 0x22dc044, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_selectedCellNumber, addr 0x230c718, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_selectedCellNumber();
 
-  /// @brief Method Setup, addr 0x22dc060, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x230c734, size 0x18c, virtual false, abstract: false, final false
   inline void Setup(::ArrayW<::GlobalNamespace::__TabBarViewController__TabBarItem*, ::Array<::GlobalNamespace::__TabBarViewController__TabBarItem*>*> items);
 
-  /// @brief Method SelectItem, addr 0x22dc1ec, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SelectItem, addr 0x230c8c0, size 0x1c, virtual false, abstract: false, final false
   inline void SelectItem(int32_t index);
 
-  /// @brief Method Clear, addr 0x22dc208, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x230c8dc, size 0x54, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method DidActivate, addr 0x22dc25c, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x230c930, size 0xc4, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method OnDestroy, addr 0x22dc320, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x230c9f4, size 0xdc, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleDidSelectCell, addr 0x22dc3fc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method HandleDidSelectCell, addr 0x230cad0, size 0x50, virtual false, abstract: false, final false
   inline void HandleDidSelectCell(::HMUI::SegmentedControl* segmentedControl, int32_t cellNumber);
 
   static inline ::GlobalNamespace::TabBarViewController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22dc44c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x230cb20, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TabBarViewController", modifiers: "&&", def_value: None }]

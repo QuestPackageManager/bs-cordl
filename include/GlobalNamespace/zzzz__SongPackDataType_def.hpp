@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::SongPackDataType);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4517))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10939))
 // CS Name: ::SongPackDataType
 struct CORDL_TYPE SongPackDataType {
 public:
@@ -26,11 +26,8 @@ public:
   /// @brief Nested struct __SongPackDataType_Unwrapped
   enum struct __SongPackDataType_Unwrapped : int32_t {
     __E_SingleBeatmapLevelPack = static_cast<int32_t>(0x0),
-    __E_MultipleBeatmapLevelPacks = static_cast<int32_t>(0x1),
-    __E_SinglePreviewBeatmapLevelPack = static_cast<int32_t>(0x2),
-    __E_MultiplePreviewBeatmapLevelPacks = static_cast<int32_t>(0x3),
-    __E_SingleBeatmapLevelPackCollection = static_cast<int32_t>(0x4),
-    __E_MultipleBeatmapLevelPackCollections = static_cast<int32_t>(0x5),
+    __E_MultipleBeatmapLevelsPack = static_cast<int32_t>(0x1),
+    __E_All = static_cast<int32_t>(0x2),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -54,20 +51,11 @@ public:
   /// @brief Field SingleBeatmapLevelPack value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::SongPackDataType const SingleBeatmapLevelPack;
 
-  /// @brief Field MultipleBeatmapLevelPacks value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::SongPackDataType const MultipleBeatmapLevelPacks;
+  /// @brief Field MultipleBeatmapLevelsPack value: static_cast<int32_t>(0x1)
+  static ::GlobalNamespace::SongPackDataType const MultipleBeatmapLevelsPack;
 
-  /// @brief Field SinglePreviewBeatmapLevelPack value: static_cast<int32_t>(0x2)
-  static ::GlobalNamespace::SongPackDataType const SinglePreviewBeatmapLevelPack;
-
-  /// @brief Field MultiplePreviewBeatmapLevelPacks value: static_cast<int32_t>(0x3)
-  static ::GlobalNamespace::SongPackDataType const MultiplePreviewBeatmapLevelPacks;
-
-  /// @brief Field SingleBeatmapLevelPackCollection value: static_cast<int32_t>(0x4)
-  static ::GlobalNamespace::SongPackDataType const SingleBeatmapLevelPackCollection;
-
-  /// @brief Field MultipleBeatmapLevelPackCollections value: static_cast<int32_t>(0x5)
-  static ::GlobalNamespace::SongPackDataType const MultipleBeatmapLevelPackCollections;
+  /// @brief Field All value: static_cast<int32_t>(0x2)
+  static ::GlobalNamespace::SongPackDataType const All;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

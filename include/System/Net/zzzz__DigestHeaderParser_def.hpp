@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::System::Net::DigestHeaderParser);
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9159))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7169))
 // CS Name: ::System.Net::DigestHeaderParser*
 class CORDL_TYPE DigestHeaderParser : public ::System::Object {
 public:
@@ -79,34 +79,34 @@ public:
 
   static inline ::System::Net::DigestHeaderParser* New_ctor(::StringW header);
 
-  /// @brief Method .ctor, addr 0x29bd54c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29c0ff0, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::StringW header);
 
-  /// @brief Method get_Realm, addr 0x29bd600, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_Realm, addr 0x29c10a4, size 0x28, virtual false, abstract: false, final false
   inline ::StringW get_Realm();
 
-  /// @brief Method get_Opaque, addr 0x29bd628, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_Opaque, addr 0x29c10cc, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_Opaque();
 
-  /// @brief Method get_Nonce, addr 0x29bd654, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_Nonce, addr 0x29c10f8, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_Nonce();
 
-  /// @brief Method get_Algorithm, addr 0x29bd680, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_Algorithm, addr 0x29c1124, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_Algorithm();
 
-  /// @brief Method get_QOP, addr 0x29bd6ac, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_QOP, addr 0x29c1150, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_QOP();
 
-  /// @brief Method Parse, addr 0x29bd6d8, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x29c117c, size 0x1dc, virtual false, abstract: false, final false
   inline bool Parse();
 
-  /// @brief Method SkipWhitespace, addr 0x29bda44, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SkipWhitespace, addr 0x29c14e8, size 0x80, virtual false, abstract: false, final false
   inline void SkipWhitespace();
 
-  /// @brief Method GetKey, addr 0x29bdac4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetKey, addr 0x29c1568, size 0x90, virtual false, abstract: false, final false
   inline ::StringW GetKey();
 
-  /// @brief Method GetKeywordAndValue, addr 0x29bd8b4, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method GetKeywordAndValue, addr 0x29c1358, size 0x190, virtual false, abstract: false, final false
   inline bool GetKeywordAndValue(ByRef<::StringW> key, ByRef<::StringW> value);
 
   // Ctor Parameters [CppParam { name: "", ty: "DigestHeaderParser", modifiers: "&&", def_value: None }]

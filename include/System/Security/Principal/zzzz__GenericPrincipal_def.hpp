@@ -45,7 +45,7 @@ public:
 
   static inline ::System::Security::Principal::GenericPrincipal* New_ctor(::System::Security::Principal::IIdentity* identity, ::ArrayW<::StringW, ::Array<::StringW>*> roles);
 
-  /// @brief Method .ctor, addr 0x2476bb8, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2498c2c, size 0x168, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Principal::IIdentity* identity, ::ArrayW<::StringW, ::Array<::StringW>*> roles);
 
   // Ctor Parameters [CppParam { name: "", ty: "GenericPrincipal", modifiers: "&&", def_value: None }]

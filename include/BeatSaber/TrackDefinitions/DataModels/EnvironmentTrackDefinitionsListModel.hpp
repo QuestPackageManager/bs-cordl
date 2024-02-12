@@ -1,0 +1,3 @@
+#pragma once
+#include "BeatSaber/TrackDefinitions/DataModels/zzzz__EnvironmentTrackDefinitionsListModel_def.hpp"
+#include "BeatSaber/TrackDefinitions/DataModels/zzzz__EnvironmentTrackDefinitionsListModel_impl.hpp"

@@ -25,33 +25,33 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::MiscellaneousUtils);
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11894))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11792))
 // CS Name: ::Newtonsoft.Json.Utilities::MiscellaneousUtils*
 class CORDL_TYPE MiscellaneousUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ValueEquals, addr 0x2665770, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method ValueEquals, addr 0x268892c, size 0x2b0, virtual false, abstract: false, final false
   static inline bool ValueEquals(::System::Object* objA, ::System::Object* objB);
 
-  /// @brief Method CreateArgumentOutOfRangeException, addr 0x2655e40, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method CreateArgumentOutOfRangeException, addr 0x2678ffc, size 0x100, virtual false, abstract: false, final false
   static inline ::System::ArgumentOutOfRangeException* CreateArgumentOutOfRangeException(::StringW paramName, ::System::Object* actualValue, ::StringW message);
 
-  /// @brief Method ToString, addr 0x2665a20, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x2688bdc, size 0xac, virtual false, abstract: false, final false
   static inline ::StringW ToString(::System::Object* value);
 
-  /// @brief Method ByteArrayCompare, addr 0x2665acc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ByteArrayCompare, addr 0x2688c88, size 0xb4, virtual false, abstract: false, final false
   static inline int32_t ByteArrayCompare(::ArrayW<uint8_t, ::Array<uint8_t>*> a1, ::ArrayW<uint8_t, ::Array<uint8_t>*> a2);
 
-  /// @brief Method GetPrefix, addr 0x2665b80, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetPrefix, addr 0x2688d3c, size 0x24, virtual false, abstract: false, final false
   static inline ::StringW GetPrefix(::StringW qualifiedName);
 
-  /// @brief Method GetLocalName, addr 0x2665c38, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetLocalName, addr 0x2688df4, size 0x24, virtual false, abstract: false, final false
   static inline ::StringW GetLocalName(::StringW qualifiedName);
 
-  /// @brief Method GetQualifiedNameParts, addr 0x2665ba4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetQualifiedNameParts, addr 0x2688d60, size 0x94, virtual false, abstract: false, final false
   static inline void GetQualifiedNameParts(::StringW qualifiedName, ByRef<::StringW> prefix, ByRef<::StringW> localName);
 
-  /// @brief Method FormatValueForPrint, addr 0x2665c5c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method FormatValueForPrint, addr 0x2688e18, size 0xb0, virtual false, abstract: false, final false
   static inline ::StringW FormatValueForPrint(::System::Object* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "MiscellaneousUtils", modifiers: "&&", def_value: None }]

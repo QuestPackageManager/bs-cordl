@@ -17,7 +17,7 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::GfxUpdateBufferRange);
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2638))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15379))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15539))
 // CS Name: ::UnityEngine.UIElements.UIR::GfxUpdateBufferRange
 struct CORDL_TYPE GfxUpdateBufferRange {
 public:

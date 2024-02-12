@@ -54,10 +54,10 @@ public:
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::__SXprUtilities__MyS2k* New_ctor(::Org::BouncyCastle::Bcpg::HashAlgorithmTag algorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv,
                                                                                      int64_t iterationCount64);
 
-  /// @brief Method .ctor, addr 0x10cfd08, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10fdb98, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::HashAlgorithmTag algorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv, int64_t iterationCount64);
 
-  /// @brief Method get_IterationCount, addr 0x10cfd30, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IterationCount, addr 0x10fdbc0, size 0x8, virtual true, abstract: false, final false
   inline int64_t get_IterationCount();
 
   // Ctor Parameters [CppParam { name: "", ty: "__SXprUtilities__MyS2k", modifiers: "&&", def_value: None }]
@@ -99,25 +99,25 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::SXprUtilities* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10cfc8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10fdb1c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method ReadLength, addr 0x10cfc94, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ReadLength, addr 0x10fdb24, size 0x74, virtual false, abstract: false, final false
   static inline int32_t ReadLength(::System::IO::Stream* input, int32_t ch);
 
-  /// @brief Method ReadString, addr 0x10c2dec, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method ReadString, addr 0x10f0c7c, size 0xc8, virtual false, abstract: false, final false
   static inline ::StringW ReadString(::System::IO::Stream* input, int32_t ch);
 
-  /// @brief Method ReadBytes, addr 0x10c2f2c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ReadBytes, addr 0x10f0dbc, size 0x80, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReadBytes(::System::IO::Stream* input, int32_t ch);
 
-  /// @brief Method ParseS2k, addr 0x10c3720, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ParseS2k, addr 0x10f15b0, size 0xfc, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Bcpg::S2k* ParseS2k(::System::IO::Stream* input);
 
-  /// @brief Method SkipOpenParenthesis, addr 0x10c2d74, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SkipOpenParenthesis, addr 0x10f0c04, size 0x78, virtual false, abstract: false, final false
   static inline void SkipOpenParenthesis(::System::IO::Stream* input);
 
-  /// @brief Method SkipCloseParenthesis, addr 0x10c2eb4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SkipCloseParenthesis, addr 0x10f0d44, size 0x78, virtual false, abstract: false, final false
   static inline void SkipCloseParenthesis(::System::IO::Stream* input);
 
   // Ctor Parameters [CppParam { name: "", ty: "SXprUtilities", modifiers: "&&", def_value: None }]

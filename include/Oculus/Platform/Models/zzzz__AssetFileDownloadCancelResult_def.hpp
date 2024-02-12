@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::AssetFileDownloadCancelResult);
 namespace Oculus::Platform::Models {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13420))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13350))
 // CS Name: ::Oculus.Platform.Models::AssetFileDownloadCancelResult*
 class CORDL_TYPE AssetFileDownloadCancelResult : public ::System::Object {
 public:
@@ -60,7 +60,7 @@ public:
 
   static inline ::Oculus::Platform::Models::AssetFileDownloadCancelResult* New_ctor(void* o);
 
-  /// @brief Method .ctor, addr 0x2704a70, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2737004, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "AssetFileDownloadCancelResult", modifiers: "&&", def_value: None }]

@@ -41,7 +41,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__LeaderboardTableView__ScoreData);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5788))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5086))
 // CS Name: ::LeaderboardTableView::ScoreData*
 class CORDL_TYPE __LeaderboardTableView__ScoreData : public ::System::Object {
 public:
@@ -90,33 +90,33 @@ public:
 
   constexpr void __cordl_internal_set__fullCombo_k__BackingField(bool value);
 
-  /// @brief Method get_score, addr 0x22e31c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_score, addr 0x2313e04, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_score();
 
-  /// @brief Method set_score, addr 0x22e31cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_score, addr 0x2313e0c, size 0x8, virtual false, abstract: false, final false
   inline void set_score(int32_t value);
 
-  /// @brief Method get_playerName, addr 0x22e31d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerName, addr 0x2313e14, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_playerName();
 
-  /// @brief Method set_playerName, addr 0x22e31dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_playerName, addr 0x2313e1c, size 0x8, virtual false, abstract: false, final false
   inline void set_playerName(::StringW value);
 
-  /// @brief Method get_rank, addr 0x22e31e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rank, addr 0x2313e24, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_rank();
 
-  /// @brief Method set_rank, addr 0x22e31ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rank, addr 0x2313e2c, size 0x8, virtual false, abstract: false, final false
   inline void set_rank(int32_t value);
 
-  /// @brief Method get_fullCombo, addr 0x22e31f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fullCombo, addr 0x2313e34, size 0x8, virtual false, abstract: false, final false
   inline bool get_fullCombo();
 
-  /// @brief Method set_fullCombo, addr 0x22e31fc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_fullCombo, addr 0x2313e3c, size 0xc, virtual false, abstract: false, final false
   inline void set_fullCombo(bool value);
 
   static inline ::GlobalNamespace::__LeaderboardTableView__ScoreData* New_ctor(int32_t score, ::StringW playerName, int32_t rank, bool fullCombo);
 
-  /// @brief Method .ctor, addr 0x22d3870, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2313e48, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(int32_t score, ::StringW playerName, int32_t rank, bool fullCombo);
 
   // Ctor Parameters [CppParam { name: "", ty: "__LeaderboardTableView__ScoreData", modifiers: "&&", def_value: None }]
@@ -163,8 +163,8 @@ static_assert(offsetof(::GlobalNamespace::__LeaderboardTableView__ScoreData, ___
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5789))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5087))
 // CS Name: ::LeaderboardTableView*
 class CORDL_TYPE LeaderboardTableView : public ::UnityEngine::MonoBehaviour {
 public:
@@ -222,21 +222,21 @@ public:
 
   constexpr void __cordl_internal_set__specialScorePos(int32_t value);
 
-  /// @brief Method CellSize, addr 0x22e2f70, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method CellSize, addr 0x2313b80, size 0x8, virtual true, abstract: false, final true
   inline float_t CellSize();
 
-  /// @brief Method NumberOfCells, addr 0x22e2f78, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method NumberOfCells, addr 0x2313b88, size 0x4c, virtual true, abstract: false, final true
   inline int32_t NumberOfCells();
 
-  /// @brief Method CellForIdx, addr 0x22e2fc4, size 0x1f0, virtual true, abstract: false, final true
+  /// @brief Method CellForIdx, addr 0x2313bd4, size 0x1f0, virtual true, abstract: false, final true
   inline ::UnityW<::HMUI::TableCell> CellForIdx(::HMUI::TableView* tableView, int32_t row);
 
-  /// @brief Method SetScores, addr 0x22d38bc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetScores, addr 0x2313dc4, size 0x30, virtual false, abstract: false, final false
   inline void SetScores(::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardTableView__ScoreData*>* scores, int32_t specialScorePos);
 
   static inline ::GlobalNamespace::LeaderboardTableView* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22e31b4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2313df4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LeaderboardTableView", modifiers: "&&", def_value: None }]

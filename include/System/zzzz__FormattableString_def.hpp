@@ -57,15 +57,15 @@ public:
   /// @brief Method ToString, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW ToString(::System::IFormatProvider* formatProvider);
 
-  /// @brief Method System.IFormattable.ToString, addr 0x25972e4, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method System.IFormattable.ToString, addr 0x25b91fc, size 0x14, virtual true, abstract: false, final true
   inline ::StringW System_IFormattable_ToString(::StringW ignored, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method ToString, addr 0x25972f8, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x25b9210, size 0x68, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   static inline ::System::FormattableString* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2597360, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25b9278, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FormattableString", modifiers: "&&", def_value: None }]

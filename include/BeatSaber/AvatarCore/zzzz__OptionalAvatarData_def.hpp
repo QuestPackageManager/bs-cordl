@@ -20,7 +20,7 @@ MARK_VAL_T(::BeatSaber::AvatarCore::OptionalAvatarData);
 namespace BeatSaber::AvatarCore {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15205))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15286))
 // CS Name: ::BeatSaber.AvatarCore::OptionalAvatarData
 struct CORDL_TYPE OptionalAvatarData {
 public:
@@ -31,7 +31,7 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::BeatSaber::AvatarCore::OptionalAvatarData>"
   constexpr ::System::IEquatable_1<::BeatSaber::AvatarCore::OptionalAvatarData>* i___System__IEquatable_1___BeatSaber__AvatarCore__OptionalAvatarData_();
 
-  /// @brief Method Equals, addr 0xe10c10, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0xe1c40c, size 0xbc, virtual true, abstract: false, final true
   inline bool Equals(::BeatSaber::AvatarCore::OptionalAvatarData other);
 
   // Ctor Parameters [CppParam { name: "dataType", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:

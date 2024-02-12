@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Avatar::*)()>(&::UnityEngine::Avatar::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2c8e5f4;
+  constexpr static std::size_t addrs = 0x2c8b160;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Avatar*>::get(), ".ctor",
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Avatar::*)()>(&::UnityEngine::Avatar::get_isValid)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2c8e64c;
+  constexpr static std::size_t addrs = 0x2c8b1b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Avatar*>::get(), "get_isValid",
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Avatar::*)()>(&::UnityEngine::Avatar::get_isHuman)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2c8e688;
+  constexpr static std::size_t addrs = 0x2c8b1f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Avatar*>::get(), "get_isHuman",
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::HumanDescription (::UnityEngine::Avatar::*)()>(&::UnityEngine::Avatar::get_humanDescription)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x2c8e6c4;
+  constexpr static std::size_t addrs = 0x2c8b230;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Avatar*>::get(), "get_humanDescription",
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Avatar::*)(int32_t, float_t, float_t)>(&::UnityEngine::Avatar::SetMuscleMinMax)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x2c8e774;
+  constexpr static std::size_t addrs = 0x2c8b2e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Avatar::*)(int32_t, float_t)>(&::UnityEngine::Avatar::SetParameter)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2c8e7d0;
+  constexpr static std::size_t addrs = 0x2c8b33c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Avatar::*)(int32_t)>(&::UnityEngine::Avatar::GetAxisLength)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x2c8e824;
+  constexpr static std::size_t addrs = 0x2c8b390;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (::UnityEngine::Avatar::*)(int32_t)>(&::UnityEngine::Avatar::GetPreRotation)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x2c8e914;
+  constexpr static std::size_t addrs = 0x2c8b480;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (::UnityEngine::Avatar::*)(int32_t)>(&::UnityEngine::Avatar::GetPostRotation)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x2c8e9c0;
+  constexpr static std::size_t addrs = 0x2c8b52c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (::UnityEngine::Avatar::*)(int32_t, ::UnityEngine::Quaternion, ::UnityEngine::Quaternion)>(
     &::UnityEngine::Avatar::GetZYPostQ)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x2c8ea6c;
+  constexpr static std::size_t addrs = 0x2c8b5d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (::UnityEngine::Avatar::*)(int32_t, ::UnityEngine::Vector3)>(
     &::UnityEngine::Avatar::GetZYRoll)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x2c8eb90;
+  constexpr static std::size_t addrs = 0x2c8b6fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -165,7 +165,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::Avatar::*)(int32_t)>(&::UnityEngine::Avatar::GetLimitSign)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x2c8ec70;
+  constexpr static std::size_t addrs = 0x2c8b7dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -179,7 +179,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Avatar::*)(int32_t)>(&::UnityEngine::Avatar::Internal_GetAxisLength)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2c8e8d0;
+  constexpr static std::size_t addrs = 0x2c8b43c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -193,7 +193,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (::UnityEngine::Avatar::*)(int32_t)>(&::UnityEngine::Avatar::Internal_GetPreRotation)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x2c8e960;
+  constexpr static std::size_t addrs = 0x2c8b4cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -207,7 +207,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (::UnityEngine::Avatar::*)(int32_t)>(&::UnityEngine::Avatar::Internal_GetPostRotation)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x2c8ea0c;
+  constexpr static std::size_t addrs = 0x2c8b578;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -222,7 +222,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (::UnityEngine::Avatar::*)(int32_t, ::UnityEngine::Quaternion, ::UnityEngine::Quaternion)>(
     &::UnityEngine::Avatar::Internal_GetZYPostQ)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x2c8eb18;
+  constexpr static std::size_t addrs = 0x2c8b684;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -239,7 +239,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (::UnityEngine::Avatar::*)(int32_t, ::UnityEngine::Vector3)>(
     &::UnityEngine::Avatar::Internal_GetZYRoll)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x2c8ec04;
+  constexpr static std::size_t addrs = 0x2c8b770;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -254,7 +254,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::Avatar::*)(int32_t)>(&::UnityEngine::Avatar::Internal_GetLimitSign)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2c8ecbc;
+  constexpr static std::size_t addrs = 0x2c8b828;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -269,7 +269,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Avatar::*)(ByRef<::UnityEngine::HumanDescription>)>(
     &::UnityEngine::Avatar::get_humanDescription_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2c8e730;
+  constexpr static std::size_t addrs = 0x2c8b29c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -284,7 +284,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Avatar::*)(int32_t, ByRef<::UnityEngine::Quaternion>)>(
     &::UnityEngine::Avatar::Internal_GetPreRotation_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2c8ed20;
+  constexpr static std::size_t addrs = 0x2c8b88c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -300,7 +300,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Avatar::*)(int32_t, ByRef<::UnityEngine::Quaternion>)>(
     &::UnityEngine::Avatar::Internal_GetPostRotation_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2c8ed74;
+  constexpr static std::size_t addrs = 0x2c8b8e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -316,7 +316,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Avatar::*)(
     int32_t, ByRef<::UnityEngine::Quaternion>, ByRef<::UnityEngine::Quaternion>, ByRef<::UnityEngine::Quaternion>)>(&::UnityEngine::Avatar::Internal_GetZYPostQ_Injected)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x2c8edc8;
+  constexpr static std::size_t addrs = 0x2c8b934;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -334,7 +334,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Avatar::*)(int32_t, ByRef<::UnityEngine::Vector3>, ByRef<::UnityEngine::Quaternion>)>(
     &::UnityEngine::Avatar::Internal_GetZYRoll_Injected)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x2c8ee34;
+  constexpr static std::size_t addrs = 0x2c8b9a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -351,7 +351,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Avatar::*)(int32_t, ByRef<::UnityEngine::Vector3>)>(
     &::UnityEngine::Avatar::Internal_GetLimitSign_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2c8ee90;
+  constexpr static std::size_t addrs = 0x2c8b9fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -52,10 +52,10 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::CounterSignatureDigestCalculator* New_ctor(::StringW alg, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0x12001c4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x122d054, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW alg, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method GetDigest, addr 0x12001f0, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method GetDigest, addr 0x122d080, size 0xa8, virtual true, abstract: false, final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetDigest();
 
   // Ctor Parameters [CppParam { name: "", ty: "CounterSignatureDigestCalculator", modifiers: "&&", def_value: None }]

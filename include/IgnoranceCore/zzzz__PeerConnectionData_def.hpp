@@ -17,7 +17,7 @@ MARK_VAL_T(::IgnoranceCore::PeerConnectionData);
 namespace IgnoranceCore {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15252))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15365))
 // CS Name: ::IgnoranceCore::PeerConnectionData
 struct CORDL_TYPE PeerConnectionData {
 public:

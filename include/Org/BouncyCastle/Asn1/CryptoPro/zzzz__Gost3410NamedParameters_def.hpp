@@ -70,19 +70,19 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410NamedParameters* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe8cd10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeb6ba0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method GetByOid, addr 0xe8d46c, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method GetByOid, addr 0xeb72fc, size 0x11c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* GetByOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method get_Names, addr 0xe8d588, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method get_Names, addr 0xeb7418, size 0x10c, virtual false, abstract: false, final false
   static inline ::System::Collections::IEnumerable* get_Names();
 
-  /// @brief Method GetByName, addr 0xe8d694, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method GetByName, addr 0xeb7524, size 0x1ec, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* GetByName(::StringW name);
 
-  /// @brief Method GetOid, addr 0xe8d880, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method GetOid, addr 0xeb7710, size 0x11c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetOid(::StringW name);
 
   // Ctor Parameters [CppParam { name: "", ty: "Gost3410NamedParameters", modifiers: "&&", def_value: None }]

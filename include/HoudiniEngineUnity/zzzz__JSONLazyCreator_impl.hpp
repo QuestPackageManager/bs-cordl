@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::JSONNodeType (::HoudiniEngineUnity::JSONLazyCreator::*)()>(
     &::HoudiniEngineUnity::JSONLazyCreator::get_Tag)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x21db284;
+  constexpr static std::size_t addrs = 0x2270b6c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::__JSONNode__Enumerator (::HoudiniEngineUnity::JSONLazyCreator::*)()>(
     &::HoudiniEngineUnity::JSONLazyCreator::GetEnumerator)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x21db28c;
+  constexpr static std::size_t addrs = 0x2270b74;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::JSONLazyCreator::*)(::HoudiniEngineUnity::JSONNode*)>(
     &::HoudiniEngineUnity::JSONLazyCreator::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x21d8dec;
+  constexpr static std::size_t addrs = 0x226e6d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::JSONLazyCreator::*)(::HoudiniEngineUnity::JSONNode*, ::StringW)>(
     &::HoudiniEngineUnity::JSONLazyCreator::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x21d995c;
+  constexpr static std::size_t addrs = 0x226f244;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::JSONNode* (::HoudiniEngineUnity::JSONLazyCreator::*)(int32_t)>(
     &::HoudiniEngineUnity::JSONLazyCreator::get_Item)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x21db2a0;
+  constexpr static std::size_t addrs = 0x2270b88;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::JSONLazyCreator::*)(int32_t, ::HoudiniEngineUnity::JSONNode*)>(
     &::HoudiniEngineUnity::JSONLazyCreator::set_Item)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x21db304;
+  constexpr static std::size_t addrs = 0x2270bec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::JSONNode* (::HoudiniEngineUnity::JSONLazyCreator::*)(::StringW)>(
     &::HoudiniEngineUnity::JSONLazyCreator::get_Item)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x21db3a0;
+  constexpr static std::size_t addrs = 0x2270c88;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::JSONLazyCreator::*)(::StringW, ::HoudiniEngineUnity::JSONNode*)>(
     &::HoudiniEngineUnity::JSONLazyCreator::set_Item)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x21db410;
+  constexpr static std::size_t addrs = 0x2270cf8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::JSONLazyCreator::*)(::HoudiniEngineUnity::JSONNode*)>(
     &::HoudiniEngineUnity::JSONLazyCreator::Add)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x21db4b4;
+  constexpr static std::size_t addrs = 0x2270d9c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::JSONLazyCreator::*)(::StringW, ::HoudiniEngineUnity::JSONNode*)>(
     &::HoudiniEngineUnity::JSONLazyCreator::Add)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x21db550;
+  constexpr static std::size_t addrs = 0x2270e38;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -165,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::HoudiniEngineUnity::JSONLazyCreator*, ::System::Object*)>(
     &::HoudiniEngineUnity::JSONLazyCreator::op_Equality)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x21db5f4;
+  constexpr static std::size_t addrs = 0x2270edc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -181,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::HoudiniEngineUnity::JSONLazyCreator*, ::System::Object*)>(
     &::HoudiniEngineUnity::JSONLazyCreator::op_Inequality)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x21db60c;
+  constexpr static std::size_t addrs = 0x2270ef4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -196,7 +196,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::JSONLazyCreator::*)(::System::Object*)>(&::HoudiniEngineUnity::JSONLazyCreator::Equals)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x21db624;
+  constexpr static std::size_t addrs = 0x2270f0c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -210,7 +210,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::HoudiniEngineUnity::JSONLazyCreator::*)()>(&::HoudiniEngineUnity::JSONLazyCreator::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x21db63c;
+  constexpr static std::size_t addrs = 0x2270f24;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -224,7 +224,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::HoudiniEngineUnity::JSONLazyCreator::*)()>(&::HoudiniEngineUnity::JSONLazyCreator::get_AsInt)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x21db644;
+  constexpr static std::size_t addrs = 0x2270f2c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -238,7 +238,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::JSONLazyCreator::*)(int32_t)>(&::HoudiniEngineUnity::JSONLazyCreator::set_AsInt)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x21db6cc;
+  constexpr static std::size_t addrs = 0x2270fb4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -252,7 +252,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::HoudiniEngineUnity::JSONLazyCreator::*)()>(&::HoudiniEngineUnity::JSONLazyCreator::get_AsFloat)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x21db764;
+  constexpr static std::size_t addrs = 0x227104c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -266,7 +266,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::JSONLazyCreator::*)(float_t)>(&::HoudiniEngineUnity::JSONLazyCreator::set_AsFloat)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x21db7ec;
+  constexpr static std::size_t addrs = 0x22710d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -280,7 +280,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::HoudiniEngineUnity::JSONLazyCreator::*)()>(&::HoudiniEngineUnity::JSONLazyCreator::get_AsDouble)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x21db87c;
+  constexpr static std::size_t addrs = 0x2271164;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -294,7 +294,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::JSONLazyCreator::*)(double_t)>(&::HoudiniEngineUnity::JSONLazyCreator::set_AsDouble)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x21db904;
+  constexpr static std::size_t addrs = 0x22711ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -308,7 +308,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::HoudiniEngineUnity::JSONLazyCreator::*)()>(&::HoudiniEngineUnity::JSONLazyCreator::get_AsLong)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x21db990;
+  constexpr static std::size_t addrs = 0x2271278;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -322,7 +322,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::JSONLazyCreator::*)(int64_t)>(&::HoudiniEngineUnity::JSONLazyCreator::set_AsLong)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x21dba9c;
+  constexpr static std::size_t addrs = 0x2271384;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -336,7 +336,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::JSONLazyCreator::*)()>(&::HoudiniEngineUnity::JSONLazyCreator::get_AsBool)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x21dbbe4;
+  constexpr static std::size_t addrs = 0x22714cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -350,7 +350,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::JSONLazyCreator::*)(bool)>(&::HoudiniEngineUnity::JSONLazyCreator::set_AsBool)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x21dbc6c;
+  constexpr static std::size_t addrs = 0x2271554;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -365,7 +365,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::JSONArray* (::HoudiniEngineUnity::JSONLazyCreator::*)()>(
     &::HoudiniEngineUnity::JSONLazyCreator::get_AsArray)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x21dbcfc;
+  constexpr static std::size_t addrs = 0x22715e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -380,7 +380,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::JSONObject* (::HoudiniEngineUnity::JSONLazyCreator::*)()>(
     &::HoudiniEngineUnity::JSONLazyCreator::get_AsObject)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x21dbd74;
+  constexpr static std::size_t addrs = 0x227165c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -395,7 +395,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::JSONLazyCreator::*)(
     ::System::Text::StringBuilder*, int32_t, int32_t, ::HoudiniEngineUnity::JSONTextMode)>(&::HoudiniEngineUnity::JSONLazyCreator::WriteToStringBuilder)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x21dbdec;
+  constexpr static std::size_t addrs = 0x22716d4;
 
   inline static ::MethodInfo const* methodInfo() {
 

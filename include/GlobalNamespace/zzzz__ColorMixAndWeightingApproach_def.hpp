@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::ColorMixAndWeightingApproach);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14522))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14416))
 // CS Name: ::ColorMixAndWeightingApproach
 struct CORDL_TYPE ColorMixAndWeightingApproach {
 public:

@@ -48,8 +48,8 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::TextElementInfo);
 // SizeInfo { instance_size: 344, native_size: -1, calculated_instance_size: 344, calculated_native_size: 353, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10250)), TypeDefinitionIndex(TypeDefinitionIndex(13698)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13705)), TypeDefinitionIndex(TypeDefinitionIndex(13719))] Self: TypeDefinitionIndex(TypeDefinitionIndex(13699)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(8994)), TypeDefinitionIndex(TypeDefinitionIndex(13651)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13658)), TypeDefinitionIndex(TypeDefinitionIndex(13672))] Self: TypeDefinitionIndex(TypeDefinitionIndex(13652)) CS Name:
 // ::UnityEngine.TextCore.Text::TextElementInfo
 struct CORDL_TYPE TextElementInfo {
 public:

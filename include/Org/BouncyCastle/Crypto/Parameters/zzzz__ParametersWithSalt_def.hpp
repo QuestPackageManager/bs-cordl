@@ -53,19 +53,19 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::ParametersWithSalt* New_ctor(::Org::BouncyCastle::Crypto::ICipherParameters* parameters, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt);
 
-  /// @brief Method .ctor, addr 0xf392b0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf64140, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::ICipherParameters* parameters, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::ParametersWithSalt* New_ctor(::Org::BouncyCastle::Crypto::ICipherParameters* parameters, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt,
                                                                                       int32_t saltOff, int32_t saltLen);
 
-  /// @brief Method .ctor, addr 0xf392cc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf6415c, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::ICipherParameters* parameters, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t saltOff, int32_t saltLen);
 
-  /// @brief Method GetSalt, addr 0xf39360, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetSalt, addr 0xf641f0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSalt();
 
-  /// @brief Method get_Parameters, addr 0xf39368, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parameters, addr 0xf641f8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::ICipherParameters* get_Parameters();
 
   // Ctor Parameters [CppParam { name: "", ty: "ParametersWithSalt", modifiers: "&&", def_value: None }]

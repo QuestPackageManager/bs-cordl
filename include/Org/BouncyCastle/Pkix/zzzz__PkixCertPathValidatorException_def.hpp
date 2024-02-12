@@ -63,31 +63,31 @@ public:
 
   static inline ::Org::BouncyCastle::Pkix::PkixCertPathValidatorException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x11006c4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x112e554, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Pkix::PkixCertPathValidatorException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x11006d0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x112e560, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::Org::BouncyCastle::Pkix::PkixCertPathValidatorException* New_ctor(::StringW message, ::System::Exception* cause);
 
-  /// @brief Method .ctor, addr 0x10ec444, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x111a2d4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* cause);
 
   static inline ::Org::BouncyCastle::Pkix::PkixCertPathValidatorException* New_ctor(::StringW message, ::System::Exception* cause, ::Org::BouncyCastle::Pkix::PkixCertPath* certPath, int32_t index);
 
-  /// @brief Method .ctor, addr 0x10f6308, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1124198, size 0x198, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* cause, ::Org::BouncyCastle::Pkix::PkixCertPath* certPath, int32_t index);
 
-  /// @brief Method get_Message, addr 0x11006dc, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x112e56c, size 0x34, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
-  /// @brief Method get_CertPath, addr 0x1100710, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CertPath, addr 0x112e5a0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Pkix::PkixCertPath* get_CertPath();
 
-  /// @brief Method get_Index, addr 0x1100718, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Index, addr 0x112e5a8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Index();
 
   // Ctor Parameters [CppParam { name: "", ty: "PkixCertPathValidatorException", modifiers: "&&", def_value: None }]

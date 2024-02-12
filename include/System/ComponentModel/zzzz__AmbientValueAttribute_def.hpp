@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::System::ComponentModel::AmbientValueAttribute);
 namespace System::ComponentModel {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9401))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7411))
 // CS Name: ::System.ComponentModel::AmbientValueAttribute*
 class CORDL_TYPE AmbientValueAttribute : public ::System::Attribute {
 public:
@@ -34,7 +34,7 @@ public:
 
   constexpr void __cordl_internal_set__Value_k__BackingField(::System::Object* value);
 
-  /// @brief Method get_Value, addr 0x2905164, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x29097cc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Value();
 
   // Ctor Parameters [CppParam { name: "", ty: "AmbientValueAttribute", modifiers: "&&", def_value: None }]

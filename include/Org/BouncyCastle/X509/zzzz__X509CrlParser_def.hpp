@@ -88,36 +88,36 @@ public:
 
   static inline ::Org::BouncyCastle::X509::X509CrlParser* New_ctor();
 
-  /// @brief Method .ctor, addr 0x117e4e4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11ad374, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::X509::X509CrlParser* New_ctor(bool lazyAsn1);
 
-  /// @brief Method .ctor, addr 0x117e500, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11ad390, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool lazyAsn1);
 
-  /// @brief Method ReadPemCrl, addr 0x117e528, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method ReadPemCrl, addr 0x11ad3b8, size 0xa8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::X509Crl* ReadPemCrl(::System::IO::Stream* inStream);
 
-  /// @brief Method ReadDerCrl, addr 0x117e5d0, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method ReadDerCrl, addr 0x11ad460, size 0x218, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::X509Crl* ReadDerCrl(::Org::BouncyCastle::Asn1::Asn1InputStream* dIn);
 
-  /// @brief Method GetCrl, addr 0x117e7e8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetCrl, addr 0x11ad678, size 0x84, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::X509Crl* GetCrl();
 
-  /// @brief Method CreateX509Crl, addr 0x117e86c, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method CreateX509Crl, addr 0x11ad6fc, size 0x60, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::X509::X509Crl* CreateX509Crl(::Org::BouncyCastle::Asn1::X509::CertificateList* c);
 
-  /// @brief Method ReadCrl, addr 0x117e8cc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ReadCrl, addr 0x11ad75c, size 0x78, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::X509Crl* ReadCrl(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
-  /// @brief Method ReadCrls, addr 0x117eca4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ReadCrls, addr 0x11adb34, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* ReadCrls(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
-  /// @brief Method ReadCrl, addr 0x117e944, size 0x360, virtual false, abstract: false, final false
+  /// @brief Method ReadCrl, addr 0x11ad7d4, size 0x360, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::X509Crl* ReadCrl(::System::IO::Stream* inStream);
 
-  /// @brief Method ReadCrls, addr 0x117ed1c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method ReadCrls, addr 0x11adbac, size 0x110, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* ReadCrls(::System::IO::Stream* inStream);
 
   // Ctor Parameters [CppParam { name: "", ty: "X509CrlParser", modifiers: "&&", def_value: None }]

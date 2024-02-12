@@ -19,17 +19,17 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::SavePersistentViewData);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6874))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6133))
 // CS Name: ::UnityEngine.UIElements::SavePersistentViewData*
 class CORDL_TYPE SavePersistentViewData : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::SavePersistentViewData* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2dc9ad4, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2de7ebc, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x2dc9b90, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2de7f78, size 0x14, virtual true, abstract: false, final false
   inline void Invoke();
 
   // Ctor Parameters [CppParam { name: "", ty: "SavePersistentViewData", modifiers: "&&", def_value: None }]

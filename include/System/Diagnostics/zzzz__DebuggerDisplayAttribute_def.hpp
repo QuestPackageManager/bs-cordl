@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::System::Diagnostics::DebuggerDisplayAttribute);
 namespace System::Diagnostics {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3737))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3735))
 // CS Name: ::System.Diagnostics::DebuggerDisplayAttribute*
 class CORDL_TYPE DebuggerDisplayAttribute : public ::System::Attribute {
 public:
@@ -50,7 +50,7 @@ public:
 
   static inline ::System::Diagnostics::DebuggerDisplayAttribute* New_ctor(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2579dac, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x259cc9c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW value);
 
   // Ctor Parameters [CppParam { name: "", ty: "DebuggerDisplayAttribute", modifiers: "&&", def_value: None }]

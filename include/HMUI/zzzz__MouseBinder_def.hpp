@@ -47,7 +47,7 @@ MARK_REF_PTR_T(::HMUI::MouseBinder);
 namespace HMUI {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13518))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13471))
 // CS Name: ::MouseBinder::MouseEventType
 struct CORDL_TYPE __MouseBinder__MouseEventType {
 public:
@@ -101,7 +101,7 @@ static_assert(offsetof(::HMUI::__MouseBinder__MouseEventType, value__) == 0x0, "
 namespace HMUI {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13519))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13472))
 // CS Name: ::MouseBinder::ButtonType
 struct CORDL_TYPE __MouseBinder__ButtonType {
 public:
@@ -155,7 +155,7 @@ static_assert(offsetof(::HMUI::__MouseBinder__ButtonType, value__) == 0x0, "Offs
 namespace HMUI {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13520))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13473))
 // CS Name: ::HMUI::MouseBinder*
 class CORDL_TYPE MouseBinder : public ::System::Object {
 public:
@@ -199,43 +199,43 @@ public:
   constexpr void __cordl_internal_set__buttonBindings(
       ::System::Collections::Generic::List_1<::System::ValueTuple_3<::HMUI::__MouseBinder__ButtonType, ::HMUI::__MouseBinder__MouseEventType, ::UnityEngine::Events::UnityAction*>>* value);
 
-  /// @brief Method get_enabled, addr 0x2119bb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_enabled, addr 0x21ae490, size 0x8, virtual false, abstract: false, final false
   inline bool get_enabled();
 
-  /// @brief Method set_enabled, addr 0x2119bbc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_enabled, addr 0x21ae498, size 0xc, virtual false, abstract: false, final false
   inline void set_enabled(bool value);
 
   static inline ::HMUI::MouseBinder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2119bc8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21ae4a4, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Init, addr 0x2119be4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x21ae4c0, size 0xc0, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method AddScrollBindings, addr 0x2119ca4, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method AddScrollBindings, addr 0x21ae580, size 0x13c, virtual false, abstract: false, final false
   inline void AddScrollBindings(::System::Collections::Generic::List_1<::UnityEngine::Events::UnityAction_1<float_t>*>* bindingData);
 
-  /// @brief Method AddScrollBinding, addr 0x2119de0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method AddScrollBinding, addr 0x21ae6bc, size 0xa8, virtual false, abstract: false, final false
   inline void AddScrollBinding(::UnityEngine::Events::UnityAction_1<float_t>* action);
 
-  /// @brief Method RemoveScrollBinding, addr 0x2119e88, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method RemoveScrollBinding, addr 0x21ae764, size 0x58, virtual false, abstract: false, final false
   inline void RemoveScrollBinding(::UnityEngine::Events::UnityAction_1<float_t>* action);
 
-  /// @brief Method AddButtonBindings, addr 0x2119ee0, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method AddButtonBindings, addr 0x21ae7bc, size 0x174, virtual false, abstract: false, final false
   inline void AddButtonBindings(
       ::System::Collections::Generic::List_1<::System::Tuple_3<::HMUI::__MouseBinder__ButtonType, ::HMUI::__MouseBinder__MouseEventType, ::UnityEngine::Events::UnityAction*>*>* bindingData);
 
-  /// @brief Method AddButtonBinding, addr 0x211a054, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method AddButtonBinding, addr 0x21ae930, size 0xf8, virtual false, abstract: false, final false
   inline void AddButtonBinding(::HMUI::__MouseBinder__ButtonType buttonType, ::HMUI::__MouseBinder__MouseEventType keyBindingType, ::UnityEngine::Events::UnityAction* action);
 
-  /// @brief Method RemoveButtonBinding, addr 0x211a14c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method RemoveButtonBinding, addr 0x21aea28, size 0xb0, virtual false, abstract: false, final false
   inline void RemoveButtonBinding(::HMUI::__MouseBinder__ButtonType buttonType, ::HMUI::__MouseBinder__MouseEventType keyBindingType, ::UnityEngine::Events::UnityAction* action);
 
-  /// @brief Method ClearBindings, addr 0x211a1fc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method ClearBindings, addr 0x21aead8, size 0xa4, virtual false, abstract: false, final false
   inline void ClearBindings();
 
-  /// @brief Method ManualUpdate, addr 0x211a2a0, size 0x384, virtual false, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x21aeb7c, size 0x384, virtual false, abstract: false, final false
   inline void ManualUpdate();
 
   // Ctor Parameters [CppParam { name: "", ty: "MouseBinder", modifiers: "&&", def_value: None }]

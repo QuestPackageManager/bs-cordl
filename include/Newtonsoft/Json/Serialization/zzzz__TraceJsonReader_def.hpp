@@ -51,8 +51,8 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::TraceJsonReader);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11833))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11910))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11731))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11808))
 // CS Name: ::Newtonsoft.Json.Serialization::TraceJsonReader*
 class CORDL_TYPE TraceJsonReader : public ::Newtonsoft::Json::JsonReader {
 public:
@@ -108,70 +108,70 @@ public:
 
   static inline ::Newtonsoft::Json::Serialization::TraceJsonReader* New_ctor(::Newtonsoft::Json::JsonReader* innerReader);
 
-  /// @brief Method .ctor, addr 0x266af98, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x268e154, size 0x13c, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::JsonReader* innerReader);
 
-  /// @brief Method GetDeserializedJsonMessage, addr 0x266b0d4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetDeserializedJsonMessage, addr 0x268e290, size 0x20, virtual false, abstract: false, final false
   inline ::StringW GetDeserializedJsonMessage();
 
-  /// @brief Method Read, addr 0x266b0f4, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x268e2b0, size 0x64, virtual true, abstract: false, final false
   inline bool Read();
 
-  /// @brief Method ReadAsInt32, addr 0x266b158, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method ReadAsInt32, addr 0x268e314, size 0x68, virtual true, abstract: false, final false
   inline ::System::Nullable_1<int32_t> ReadAsInt32();
 
-  /// @brief Method ReadAsString, addr 0x266b1c0, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method ReadAsString, addr 0x268e37c, size 0x68, virtual true, abstract: false, final false
   inline ::StringW ReadAsString();
 
-  /// @brief Method ReadAsBytes, addr 0x266b228, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method ReadAsBytes, addr 0x268e3e4, size 0x68, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReadAsBytes();
 
-  /// @brief Method ReadAsDecimal, addr 0x266b290, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method ReadAsDecimal, addr 0x268e44c, size 0x9c, virtual true, abstract: false, final false
   inline ::System::Nullable_1<::System::Decimal> ReadAsDecimal();
 
-  /// @brief Method ReadAsDouble, addr 0x266b32c, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method ReadAsDouble, addr 0x268e4e8, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Nullable_1<double_t> ReadAsDouble();
 
-  /// @brief Method ReadAsBoolean, addr 0x266b398, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method ReadAsBoolean, addr 0x268e554, size 0x60, virtual true, abstract: false, final false
   inline ::System::Nullable_1<bool> ReadAsBoolean();
 
-  /// @brief Method ReadAsDateTime, addr 0x266b3f8, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method ReadAsDateTime, addr 0x268e5b4, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Nullable_1<::System::DateTime> ReadAsDateTime();
 
-  /// @brief Method ReadAsDateTimeOffset, addr 0x266b464, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method ReadAsDateTimeOffset, addr 0x268e620, size 0x7c, virtual true, abstract: false, final false
   inline ::System::Nullable_1<::System::DateTimeOffset> ReadAsDateTimeOffset();
 
-  /// @brief Method get_Depth, addr 0x266b4e0, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_Depth, addr 0x268e69c, size 0x20, virtual true, abstract: false, final false
   inline int32_t get_Depth();
 
-  /// @brief Method get_Path, addr 0x266b500, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_Path, addr 0x268e6bc, size 0x20, virtual true, abstract: false, final false
   inline ::StringW get_Path();
 
-  /// @brief Method get_QuoteChar, addr 0x266b520, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_QuoteChar, addr 0x268e6dc, size 0x20, virtual true, abstract: false, final false
   inline char16_t get_QuoteChar();
 
-  /// @brief Method set_QuoteChar, addr 0x266b540, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method set_QuoteChar, addr 0x268e6fc, size 0x20, virtual true, abstract: false, final false
   inline void set_QuoteChar(char16_t value);
 
-  /// @brief Method get_TokenType, addr 0x266b560, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_TokenType, addr 0x268e71c, size 0x20, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::JsonToken get_TokenType();
 
-  /// @brief Method get_Value, addr 0x266b580, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x268e73c, size 0x20, virtual true, abstract: false, final false
   inline ::System::Object* get_Value();
 
-  /// @brief Method get_ValueType, addr 0x266b5a0, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_ValueType, addr 0x268e75c, size 0x20, virtual true, abstract: false, final false
   inline ::System::Type* get_ValueType();
 
-  /// @brief Method Close, addr 0x266b5c0, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x268e77c, size 0x24, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method Newtonsoft.Json.IJsonLineInfo.HasLineInfo, addr 0x266b5e4, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method Newtonsoft.Json.IJsonLineInfo.HasLineInfo, addr 0x268e7a0, size 0xb4, virtual true, abstract: false, final true
   inline bool Newtonsoft_Json_IJsonLineInfo_HasLineInfo();
 
-  /// @brief Method Newtonsoft.Json.IJsonLineInfo.get_LineNumber, addr 0x266b698, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method Newtonsoft.Json.IJsonLineInfo.get_LineNumber, addr 0x268e854, size 0xb8, virtual true, abstract: false, final true
   inline int32_t Newtonsoft_Json_IJsonLineInfo_get_LineNumber();
 
-  /// @brief Method Newtonsoft.Json.IJsonLineInfo.get_LinePosition, addr 0x266b750, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method Newtonsoft.Json.IJsonLineInfo.get_LinePosition, addr 0x268e90c, size 0xb8, virtual true, abstract: false, final true
   inline int32_t Newtonsoft_Json_IJsonLineInfo_get_LinePosition();
 
   // Ctor Parameters [CppParam { name: "", ty: "TraceJsonReader", modifiers: "&&", def_value: None }]

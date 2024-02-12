@@ -28,12 +28,12 @@ public:
 
   static inline int64_t getStaticF_NanosecondsPerTick();
 
-  /// @brief Method NanoTime, addr 0x116ebe8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method NanoTime, addr 0x119da78, size 0xa4, virtual false, abstract: false, final false
   static inline int64_t NanoTime();
 
   static inline ::Org::BouncyCastle::Utilities::Times* New_ctor();
 
-  /// @brief Method .ctor, addr 0x116ecd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x119db68, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Times", modifiers: "&&", def_value: None }]

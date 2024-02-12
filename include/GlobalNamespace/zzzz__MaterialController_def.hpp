@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MaterialController);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14562))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14456))
 // CS Name: ::MaterialController*
 class CORDL_TYPE MaterialController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -47,15 +47,15 @@ public:
 
   constexpr void __cordl_internal_set__renderers(::ArrayW<::UnityW<::UnityEngine::Renderer>, ::Array<::UnityW<::UnityEngine::Renderer>>*> value);
 
-  /// @brief Method get_material, addr 0x2114950, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_material, addr 0x21a90f8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_material();
 
-  /// @brief Method OnValidate, addr 0x2114958, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x21a9100, size 0x2c, virtual false, abstract: false, final false
   inline void OnValidate();
 
   static inline ::GlobalNamespace::MaterialController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2114984, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21a912c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MaterialController", modifiers: "&&", def_value: None }]

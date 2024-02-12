@@ -21,12 +21,12 @@ MARK_REF_PTR_T(::GlobalNamespace::RenderTextureExtensions);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14347))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14502))
 // CS Name: ::RenderTextureExtensions*
 class CORDL_TYPE RenderTextureExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetTexture2D, addr 0x20f073c, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method GetTexture2D, addr 0x2184cc4, size 0x154, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Texture2D> GetTexture2D(::UnityEngine::RenderTexture* rt);
 
   // Ctor Parameters [CppParam { name: "", ty: "RenderTextureExtensions", modifiers: "&&", def_value: None }]

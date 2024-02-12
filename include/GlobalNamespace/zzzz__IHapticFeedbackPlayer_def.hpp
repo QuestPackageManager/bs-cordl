@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IHapticFeedbackPlayer);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14410))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14559))
 // CS Name: ::IHapticFeedbackPlayer*
 class CORDL_TYPE IHapticFeedbackPlayer {
 public:

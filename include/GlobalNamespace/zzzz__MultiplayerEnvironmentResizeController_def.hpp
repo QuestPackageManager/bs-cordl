@@ -50,7 +50,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerEnvironmentResizeController__Resi
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5204))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4543))
 // CS Name: ::MultiplayerEnvironmentResizeController::ResizeType
 struct CORDL_TYPE __MultiplayerEnvironmentResizeController__ResizeType {
 public:
@@ -103,8 +103,8 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerEnvironmentResizeControll
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5204))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5205))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4543))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4544))
 // CS Name: ::MultiplayerEnvironmentResizeController::ResizeData*
 class CORDL_TYPE __MultiplayerEnvironmentResizeController__ResizeData : public ::System::Object {
 public:
@@ -155,21 +155,21 @@ public:
 
   constexpr void __cordl_internal_set__otherTransforms(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value);
 
-  /// @brief Method get_resizeType, addr 0x224c89c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_resizeType, addr 0x23aace8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeType get_resizeType();
 
-  /// @brief Method get_offset, addr 0x224c8a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_offset, addr 0x23aacf0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_offset();
 
-  /// @brief Method get_lights, addr 0x224c8ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lights, addr 0x23aacf8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*> get_lights();
 
-  /// @brief Method get_otherTransforms, addr 0x224c8b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_otherTransforms, addr 0x23aad00, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> get_otherTransforms();
 
   static inline ::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x224c8bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23aad08, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerEnvironmentResizeController__ResizeData", modifiers: "&&", def_value: None }]
@@ -216,8 +216,8 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerEnvironmentResizeControll
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 67, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5206))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4545))
 // CS Name: ::MultiplayerEnvironmentResizeController*
 class CORDL_TYPE MultiplayerEnvironmentResizeController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -307,36 +307,36 @@ public:
 
   constexpr void __cordl_internal_set__spawnCenterDistanceFound(bool value);
 
-  /// @brief Method get_isResizingFinished, addr 0x224c298, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isResizingFinished, addr 0x23aa6dc, size 0x8, virtual false, abstract: false, final false
   inline bool get_isResizingFinished();
 
-  /// @brief Method add_resizingDidFinishEvent, addr 0x224c2a0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_resizingDidFinishEvent, addr 0x23aa6e4, size 0x9c, virtual false, abstract: false, final false
   inline void add_resizingDidFinishEvent(::System::Action* value);
 
-  /// @brief Method remove_resizingDidFinishEvent, addr 0x224c33c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_resizingDidFinishEvent, addr 0x23aa780, size 0x9c, virtual false, abstract: false, final false
   inline void remove_resizingDidFinishEvent(::System::Action* value);
 
-  /// @brief Method Start, addr 0x224c3d8, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x23aa81c, size 0x140, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy, addr 0x224c544, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x23aa98c, size 0x154, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleEdgeDistanceFromCenterWasCalculated, addr 0x224c514, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandleEdgeDistanceFromCenterWasCalculated, addr 0x23aa95c, size 0x18, virtual false, abstract: false, final false
   inline void HandleEdgeDistanceFromCenterWasCalculated(float_t edgeDistanceFromCenter);
 
-  /// @brief Method HandleSpawnCenterDistanceWasFound, addr 0x224c52c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandleSpawnCenterDistanceWasFound, addr 0x23aa974, size 0x18, virtual false, abstract: false, final false
   inline void HandleSpawnCenterDistanceWasFound(float_t distance);
 
-  /// @brief Method TryResize, addr 0x224c694, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method TryResize, addr 0x23aaae0, size 0x18, virtual false, abstract: false, final false
   inline void TryResize();
 
-  /// @brief Method Resize, addr 0x224c6ac, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method Resize, addr 0x23aaaf8, size 0x1e8, virtual false, abstract: false, final false
   inline void Resize();
 
   static inline ::GlobalNamespace::MultiplayerEnvironmentResizeController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x224c894, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23aace0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerEnvironmentResizeController", modifiers: "&&", def_value: None }]

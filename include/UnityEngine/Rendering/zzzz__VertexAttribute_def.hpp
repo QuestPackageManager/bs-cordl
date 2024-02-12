@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Rendering::VertexAttribute);
 namespace UnityEngine::Rendering {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10331))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9078))
 // CS Name: ::UnityEngine.Rendering::VertexAttribute
 struct CORDL_TYPE VertexAttribute {
 public:

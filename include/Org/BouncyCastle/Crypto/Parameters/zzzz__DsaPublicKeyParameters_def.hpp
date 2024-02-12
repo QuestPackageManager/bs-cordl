@@ -41,24 +41,24 @@ public:
 
   constexpr void __cordl_internal_set_y(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method Validate, addr 0xf31f9c, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method Validate, addr 0xf5ce2c, size 0x168, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* Validate(::Org::BouncyCastle::Math::BigInteger* y, ::Org::BouncyCastle::Crypto::Parameters::DsaParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::DsaPublicKeyParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* y, ::Org::BouncyCastle::Crypto::Parameters::DsaParameters* parameters);
 
-  /// @brief Method .ctor, addr 0xf32104, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf5cf94, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* y, ::Org::BouncyCastle::Crypto::Parameters::DsaParameters* parameters);
 
-  /// @brief Method get_Y, addr 0xf32194, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Y, addr 0xf5d024, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Y();
 
-  /// @brief Method Equals, addr 0xf3219c, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0xf5d02c, size 0x9c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0xf32238, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0xf5d0c8, size 0x58, virtual false, abstract: false, final false
   inline bool Equals(::Org::BouncyCastle::Crypto::Parameters::DsaPublicKeyParameters* other);
 
-  /// @brief Method GetHashCode, addr 0xf32290, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0xf5d120, size 0x40, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "DsaPublicKeyParameters", modifiers: "&&", def_value: None }]

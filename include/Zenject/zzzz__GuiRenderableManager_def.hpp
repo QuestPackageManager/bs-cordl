@@ -59,7 +59,7 @@ MARK_REF_PTR_T(::Zenject::__GuiRenderableManager____c__DisplayClass1_0);
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11312))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10454))
 // CS Name: ::GuiRenderableManager::RenderableInfo*
 class CORDL_TYPE __GuiRenderableManager__RenderableInfo : public ::System::Object {
 public:
@@ -84,13 +84,13 @@ public:
 
   static inline ::Zenject::__GuiRenderableManager__RenderableInfo* New_ctor(::Zenject::IGuiRenderable* renderable, int32_t priority);
 
-  /// @brief Method .ctor, addr 0x2f11ea0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f2dfe8, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::IGuiRenderable* renderable, int32_t priority);
 
-  /// @brief Method __zenCreate, addr 0x2f1261c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2f2e764, size 0x110, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f1272c, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f2e874, size 0x304, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__GuiRenderableManager__RenderableInfo", modifiers: "&&", def_value: None }]
@@ -128,7 +128,7 @@ static_assert(offsetof(::Zenject::__GuiRenderableManager__RenderableInfo, ___Pri
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11313))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10455))
 // CS Name: ::GuiRenderableManager::<>c__DisplayClass1_0*
 class CORDL_TYPE __GuiRenderableManager____c__DisplayClass1_0 : public ::System::Object {
 public:
@@ -144,16 +144,16 @@ public:
 
   static inline ::Zenject::__GuiRenderableManager____c__DisplayClass1_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f11e98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f2dfe0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <.ctor>b__1, addr 0x2f12a30, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__1, addr 0x2f2eb78, size 0x80, virtual false, abstract: false, final false
   inline bool __ctor_b__1(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>* x);
 
-  /// @brief Method __zenCreate, addr 0x2f12ab0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2f2ebf8, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f12b0c, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f2ec54, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__GuiRenderableManager____c__DisplayClass1_0", modifiers: "&&", def_value: None }]
@@ -186,7 +186,7 @@ static_assert(offsetof(::Zenject::__GuiRenderableManager____c__DisplayClass1_0, 
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11314))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10456))
 // CS Name: ::GuiRenderableManager::<>c*
 class CORDL_TYPE __GuiRenderableManager____c : public ::System::Object {
 public:
@@ -214,19 +214,19 @@ public:
 
   static inline ::Zenject::__GuiRenderableManager____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f12d30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f2ee78, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <.ctor>b__1_2, addr 0x2f12d38, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__1_2, addr 0x2f2ee80, size 0x18, virtual false, abstract: false, final false
   inline int32_t __ctor_b__1_2(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>* x);
 
-  /// @brief Method <.ctor>b__1_0, addr 0x2f12d50, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__1_0, addr 0x2f2ee98, size 0x18, virtual false, abstract: false, final false
   inline int32_t __ctor_b__1_0(::Zenject::__GuiRenderableManager__RenderableInfo* x);
 
-  /// @brief Method __zenCreate, addr 0x2f12d68, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2f2eeb0, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f12dc4, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f2ef0c, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__GuiRenderableManager____c", modifiers: "&&", def_value: None }]
@@ -254,7 +254,7 @@ static_assert(::cordl_internals::size_check_v<::Zenject::__GuiRenderableManager_
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11315))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10457))
 // CS Name: ::Zenject::GuiRenderableManager*
 class CORDL_TYPE GuiRenderableManager : public ::System::Object {
 public:
@@ -278,17 +278,17 @@ public:
   static inline ::Zenject::GuiRenderableManager* New_ctor(::System::Collections::Generic::List_1<::Zenject::IGuiRenderable*>* renderables,
                                                           ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* priorities);
 
-  /// @brief Method .ctor, addr 0x2f118f8, size 0x5a0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f2da40, size 0x5a0, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::Zenject::IGuiRenderable*>* renderables,
                     ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* priorities);
 
-  /// @brief Method OnGui, addr 0x2f11ed0, size 0x32c, virtual false, abstract: false, final false
+  /// @brief Method OnGui, addr 0x2f2e018, size 0x32c, virtual false, abstract: false, final false
   inline void OnGui();
 
-  /// @brief Method __zenCreate, addr 0x2f121fc, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2f2e344, size 0x11c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f12318, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f2e460, size 0x304, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "GuiRenderableManager", modifiers: "&&", def_value: None }]

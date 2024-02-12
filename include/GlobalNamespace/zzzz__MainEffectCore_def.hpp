@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MainEffectCore);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15292))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15407))
 // CS Name: ::MainEffectCore*
 class CORDL_TYPE MainEffectCore : public ::System::Object {
 public:
@@ -36,12 +36,12 @@ public:
 
   static inline int32_t getStaticF__baseColorBoostThresholdID();
 
-  /// @brief Method SetGlobalShaderValues, addr 0x2807f18, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method SetGlobalShaderValues, addr 0x280c700, size 0x88, virtual false, abstract: false, final false
   static inline void SetGlobalShaderValues(float_t baseColorBoost, float_t baseColorBoostThreshold);
 
   static inline ::GlobalNamespace::MainEffectCore* New_ctor();
 
-  /// @brief Method .ctor, addr 0x280892c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x280d114, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MainEffectCore", modifiers: "&&", def_value: None }]

@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::Zenject::MemoryPoolBindInfo);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10950))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10951))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10092))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10093))
 // CS Name: ::Zenject::MemoryPoolBindInfo*
 class CORDL_TYPE MemoryPoolBindInfo : public ::System::Object {
 public:
@@ -71,31 +71,31 @@ public:
 
   static inline ::Zenject::MemoryPoolBindInfo* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2edf680, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2efb7c8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ShowExpandWarning, addr 0x2edf6ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ShowExpandWarning, addr 0x2efb7f4, size 0x8, virtual false, abstract: false, final false
   inline bool get_ShowExpandWarning();
 
-  /// @brief Method set_ShowExpandWarning, addr 0x2edf6b4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ShowExpandWarning, addr 0x2efb7fc, size 0xc, virtual false, abstract: false, final false
   inline void set_ShowExpandWarning(bool value);
 
-  /// @brief Method get_ExpandMethod, addr 0x2edf6c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ExpandMethod, addr 0x2efb808, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::PoolExpandMethods get_ExpandMethod();
 
-  /// @brief Method set_ExpandMethod, addr 0x2edf6c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ExpandMethod, addr 0x2efb810, size 0x8, virtual false, abstract: false, final false
   inline void set_ExpandMethod(::Zenject::PoolExpandMethods value);
 
-  /// @brief Method get_InitialSize, addr 0x2edf6d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InitialSize, addr 0x2efb818, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_InitialSize();
 
-  /// @brief Method set_InitialSize, addr 0x2edf6d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_InitialSize, addr 0x2efb820, size 0x8, virtual false, abstract: false, final false
   inline void set_InitialSize(int32_t value);
 
-  /// @brief Method get_MaxSize, addr 0x2edf6e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaxSize, addr 0x2efb828, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_MaxSize();
 
-  /// @brief Method set_MaxSize, addr 0x2edf6e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MaxSize, addr 0x2efb830, size 0x8, virtual false, abstract: false, final false
   inline void set_MaxSize(int32_t value);
 
   // Ctor Parameters [CppParam { name: "", ty: "MemoryPoolBindInfo", modifiers: "&&", def_value: None }]

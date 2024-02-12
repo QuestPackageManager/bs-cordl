@@ -9,9 +9,6 @@ namespace System::Runtime::CompilerServices {
 class ICriticalNotifyCompletion;
 }
 namespace System::Runtime::CompilerServices {
-class INotifyCompletion;
-}
-namespace System::Runtime::CompilerServices {
 struct __ConfiguredValueTaskAwaitable__ConfiguredValueTaskAwaiter;
 }
 namespace System::Threading::Tasks {
@@ -35,7 +32,7 @@ MARK_VAL_T(::System::Runtime::CompilerServices::__ConfiguredValueTaskAwaitable__
 namespace System::Runtime::CompilerServices {
 // Is value type: true
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2764))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3361))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3358))
 // CS Name: ::ConfiguredValueTaskAwaitable::ConfiguredValueTaskAwaiter
 struct CORDL_TYPE __ConfiguredValueTaskAwaitable__ConfiguredValueTaskAwaiter {
 public:
@@ -48,25 +45,16 @@ public:
   /// @brief Convert to "::System::Runtime::CompilerServices::ICriticalNotifyCompletion"
   constexpr ::System::Runtime::CompilerServices::ICriticalNotifyCompletion* i___System__Runtime__CompilerServices__ICriticalNotifyCompletion();
 
-  /// @brief Convert operator to "::System::Runtime::CompilerServices::INotifyCompletion"
-  constexpr operator ::System::Runtime::CompilerServices::INotifyCompletion*();
-
-  /// @brief Convert to "::System::Runtime::CompilerServices::INotifyCompletion"
-  constexpr ::System::Runtime::CompilerServices::INotifyCompletion* i___System__Runtime__CompilerServices__INotifyCompletion();
-
-  /// @brief Method .ctor, addr 0x24da99c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24faecc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::ValueTask value);
 
-  /// @brief Method get_IsCompleted, addr 0x24da9a4, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method get_IsCompleted, addr 0x24faed4, size 0x108, virtual false, abstract: false, final false
   inline bool get_IsCompleted();
 
-  /// @brief Method GetResult, addr 0x24daaac, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetResult, addr 0x24fafdc, size 0x100, virtual false, abstract: false, final false
   inline void GetResult();
 
-  /// @brief Method OnCompleted, addr 0x24dabac, size 0x1b0, virtual true, abstract: false, final true
-  inline void OnCompleted(::System::Action* continuation);
-
-  /// @brief Method UnsafeOnCompleted, addr 0x24dad70, size 0x1ac, virtual true, abstract: false, final true
+  /// @brief Method UnsafeOnCompleted, addr 0x24fb0dc, size 0x1ac, virtual true, abstract: false, final true
   inline void UnsafeOnCompleted(::System::Action* continuation);
 
   // Ctor Parameters [CppParam { name: "_value", ty: "::System::Threading::Tasks::ValueTask", modifiers: "", def_value: None }]
@@ -95,17 +83,17 @@ static_assert(offsetof(::System::Runtime::CompilerServices::__ConfiguredValueTas
 namespace System::Runtime::CompilerServices {
 // Is value type: true
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2764))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3362))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3359))
 // CS Name: ::System.Runtime.CompilerServices::ConfiguredValueTaskAwaitable
 struct CORDL_TYPE ConfiguredValueTaskAwaitable {
 public:
   // Declarations
   using ConfiguredValueTaskAwaiter = ::System::Runtime::CompilerServices::__ConfiguredValueTaskAwaitable__ConfiguredValueTaskAwaiter;
 
-  /// @brief Method .ctor, addr 0x24da988, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24faeb8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::ValueTask value);
 
-  /// @brief Method GetAwaiter, addr 0x24da990, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetAwaiter, addr 0x24faec0, size 0xc, virtual false, abstract: false, final false
   inline ::System::Runtime::CompilerServices::__ConfiguredValueTaskAwaitable__ConfiguredValueTaskAwaiter GetAwaiter();
 
   // Ctor Parameters [CppParam { name: "_value", ty: "::System::Threading::Tasks::ValueTask", modifiers: "", def_value: None }]

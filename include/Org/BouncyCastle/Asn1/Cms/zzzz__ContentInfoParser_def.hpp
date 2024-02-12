@@ -55,13 +55,13 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cms::ContentInfoParser* New_ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* seq);
 
-  /// @brief Method .ctor, addr 0xe73864, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe9e6f4, size 0x1e0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* seq);
 
-  /// @brief Method get_ContentType, addr 0xe76270, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContentType, addr 0xea1100, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_ContentType();
 
-  /// @brief Method GetContent, addr 0xe76278, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetContent, addr 0xea1108, size 0xbc, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::IAsn1Convertible* GetContent(int32_t tag);
 
   // Ctor Parameters [CppParam { name: "", ty: "ContentInfoParser", modifiers: "&&", def_value: None }]

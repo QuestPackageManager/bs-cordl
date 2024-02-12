@@ -19,24 +19,24 @@ MARK_REF_PTR_T(::GlobalNamespace::FileSystemHelper);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15824))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15211))
 // CS Name: ::FileSystemHelper*
 class CORDL_TYPE FileSystemHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FindFirstExistedParentPath, addr 0xe254b4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method FindFirstExistedParentPath, addr 0xe46da0, size 0x90, virtual false, abstract: false, final false
   static inline ::StringW FindFirstExistedParentPath(::StringW path);
 
-  /// @brief Method HasWritePermission, addr 0xe25544, size 0x398, virtual false, abstract: false, final false
+  /// @brief Method HasWritePermission, addr 0xe46e30, size 0x398, virtual false, abstract: false, final false
   static inline bool HasWritePermission(::System::Security::AccessControl::FileSystemSecurity* accessControlList);
 
-  /// @brief Method HasWritePermissionOnDirectory, addr 0xe258dc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method HasWritePermissionOnDirectory, addr 0xe471c8, size 0x14, virtual false, abstract: false, final false
   static inline bool HasWritePermissionOnDirectory(::StringW path);
 
-  /// @brief Method HasWritePermissionOnFile, addr 0xe258f0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method HasWritePermissionOnFile, addr 0xe471dc, size 0x14, virtual false, abstract: false, final false
   static inline bool HasWritePermissionOnFile(::StringW path);
 
-  /// @brief Method IsFileWritable, addr 0xe25904, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method IsFileWritable, addr 0xe471f0, size 0x74, virtual false, abstract: false, final false
   static inline bool IsFileWritable(::StringW path);
 
   // Ctor Parameters [CppParam { name: "", ty: "FileSystemHelper", modifiers: "&&", def_value: None }]

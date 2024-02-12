@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::Oculus::Platform::Request);
 namespace Oculus::Platform {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13381))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13307))
 // CS Name: ::Oculus.Platform::Request*
 class CORDL_TYPE Request : public ::System::Object {
 public:
@@ -49,22 +49,22 @@ public:
 
   static inline ::Oculus::Platform::Request* New_ctor(uint64_t requestID);
 
-  /// @brief Method .ctor, addr 0x26f7470, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x272df3c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(uint64_t requestID);
 
-  /// @brief Method get_RequestID, addr 0x2700ca4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RequestID, addr 0x273332c, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_RequestID();
 
-  /// @brief Method set_RequestID, addr 0x2700cac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RequestID, addr 0x2733334, size 0x8, virtual false, abstract: false, final false
   inline void set_RequestID(uint64_t value);
 
-  /// @brief Method OnComplete, addr 0x26ca69c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method OnComplete, addr 0x273333c, size 0x70, virtual false, abstract: false, final false
   inline ::Oculus::Platform::Request* OnComplete(::Oculus::Platform::__Message__Callback* callback);
 
-  /// @brief Method HandleMessage, addr 0x2700cb4, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method HandleMessage, addr 0x27333ac, size 0x6c, virtual true, abstract: false, final false
   inline void HandleMessage(::Oculus::Platform::Message* msg);
 
-  /// @brief Method RunCallbacks, addr 0x26cfc5c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method RunCallbacks, addr 0x2733418, size 0x70, virtual false, abstract: false, final false
   static inline void RunCallbacks(uint32_t limit);
 
   // Ctor Parameters [CppParam { name: "", ty: "Request", modifiers: "&&", def_value: None }]

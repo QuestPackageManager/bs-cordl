@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Playables::PlayState);
 namespace UnityEngine::Playables {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10439))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9208))
 // CS Name: ::UnityEngine.Playables::PlayState
 struct CORDL_TYPE PlayState {
 public:

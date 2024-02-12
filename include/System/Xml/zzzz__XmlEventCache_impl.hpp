@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::__XmlEventCache__XmlEvent::*)(::System::Xml::__XmlEventCache__XmlEventType)>(
     &::System::Xml::__XmlEventCache__XmlEvent::InitEvent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x28595c0;
+  constexpr static std::size_t addrs = 0x285cc28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::__XmlEventCache__XmlEvent::*)(::System::Xml::__XmlEventCache__XmlEventType, ::StringW)>(
     &::System::Xml::__XmlEventCache__XmlEvent::InitEvent)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x285957c;
+  constexpr static std::size_t addrs = 0x285cbe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Xml::__XmlEventCache__XmlEvent::*)(::System::Xml::__XmlEventCache__XmlEventType, ::StringW, ::StringW)>(&::System::Xml::__XmlEventCache__XmlEvent::InitEvent)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2859588;
+  constexpr static std::size_t addrs = 0x285cbf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::__XmlEventCache__XmlEvent::*)(
     ::System::Xml::__XmlEventCache__XmlEventType, ::StringW, ::StringW, ::StringW)>(&::System::Xml::__XmlEventCache__XmlEvent::InitEvent)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2859594;
+  constexpr static std::size_t addrs = 0x285cbfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::__XmlEventCache__XmlEvent::*)(
     ::System::Xml::__XmlEventCache__XmlEventType, ::StringW, ::StringW, ::StringW, ::System::Object*)>(&::System::Xml::__XmlEventCache__XmlEvent::InitEvent)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x28595a4;
+  constexpr static std::size_t addrs = 0x285cc0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::__XmlEventCache__XmlEvent::*)(::System::Xml::__XmlEventCache__XmlEventType, ::System::Object*)>(
     &::System::Xml::__XmlEventCache__XmlEvent::InitEvent)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x28595b4;
+  constexpr static std::size_t addrs = 0x285cc1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::__XmlEventCache__XmlEventType (::System::Xml::__XmlEventCache__XmlEvent::*)()>(
     &::System::Xml::__XmlEventCache__XmlEvent::get_EventType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x28595c8;
+  constexpr static std::size_t addrs = 0x285cc30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::__XmlEventCache__XmlEvent>::get(), "get_EventType",
@@ -157,7 +157,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::__XmlEventCache__XmlEvent::*)()>(&::System::Xml::__XmlEventCache__XmlEvent::get_String1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x28595d0;
+  constexpr static std::size_t addrs = 0x285cc38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::__XmlEventCache__XmlEvent>::get(), "get_String1",
@@ -170,7 +170,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::__XmlEventCache__XmlEvent::*)()>(&::System::Xml::__XmlEventCache__XmlEvent::get_String2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x28595d8;
+  constexpr static std::size_t addrs = 0x285cc40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::__XmlEventCache__XmlEvent>::get(), "get_String2",
@@ -183,7 +183,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::__XmlEventCache__XmlEvent::*)()>(&::System::Xml::__XmlEventCache__XmlEvent::get_String3)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x28595e0;
+  constexpr static std::size_t addrs = 0x285cc48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::__XmlEventCache__XmlEvent>::get(), "get_String3",
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::__XmlEventCache__XmlEvent::*)()>(
     &::System::Xml::__XmlEventCache__XmlEvent::get_Object)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x28595e8;
+  constexpr static std::size_t addrs = 0x285cc50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::__XmlEventCache__XmlEvent>::get(), "get_Object",
@@ -291,7 +291,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlEventCache::*)(::StringW, bool)>(&::System::Xml::XmlEventCache::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x28554b0;
+  constexpr static std::size_t addrs = 0x2858b18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -305,7 +305,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlEventCache::*)()>(&::System::Xml::XmlEventCache::EndEvents)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2855fc0;
+  constexpr static std::size_t addrs = 0x2859628;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlEventCache*>::get(), "EndEvents",
@@ -318,7 +318,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlEventCache::*)(::System::Xml::XmlWriter*)>(&::System::Xml::XmlEventCache::EventsToWriter)> {
   constexpr static std::size_t size = 0x6f4;
-  constexpr static std::size_t addrs = 0x2855fd4;
+  constexpr static std::size_t addrs = 0x285963c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -333,7 +333,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlEventCache::*)(::StringW, ::StringW, ::StringW, ::StringW)>(
     &::System::Xml::XmlEventCache::WriteDocType)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x2858cf8;
+  constexpr static std::size_t addrs = 0x285c360;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -348,7 +348,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlEventCache::*)(::StringW, ::StringW, ::StringW)>(
     &::System::Xml::XmlEventCache::WriteStartElement)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2858d80;
+  constexpr static std::size_t addrs = 0x285c3e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -363,7 +363,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlEventCache::*)(::StringW, ::StringW, ::StringW)>(
     &::System::Xml::XmlEventCache::WriteStartAttribute)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2858df8;
+  constexpr static std::size_t addrs = 0x285c460;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -377,7 +377,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlEventCache::*)()>(&::System::Xml::XmlEventCache::WriteEndAttribute)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2858e0c;
+  constexpr static std::size_t addrs = 0x285c474;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -391,7 +391,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlEventCache::*)(::StringW)>(&::System::Xml::XmlEventCache::WriteCData)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2858e14;
+  constexpr static std::size_t addrs = 0x285c47c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -405,7 +405,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlEventCache::*)(::StringW)>(&::System::Xml::XmlEventCache::WriteComment)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2858e70;
+  constexpr static std::size_t addrs = 0x285c4d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -420,7 +420,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlEventCache::*)(::StringW, ::StringW)>(
     &::System::Xml::XmlEventCache::WriteProcessingInstruction)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2858e7c;
+  constexpr static std::size_t addrs = 0x285c4e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -434,7 +434,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlEventCache::*)(::StringW)>(&::System::Xml::XmlEventCache::WriteWhitespace)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2858ee8;
+  constexpr static std::size_t addrs = 0x285c550;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -448,7 +448,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlEventCache::*)(::StringW)>(&::System::Xml::XmlEventCache::WriteString)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2858ef4;
+  constexpr static std::size_t addrs = 0x285c55c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -463,7 +463,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlEventCache::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
     &::System::Xml::XmlEventCache::WriteChars)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x2858f18;
+  constexpr static std::size_t addrs = 0x285c580;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -478,7 +478,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlEventCache::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
     &::System::Xml::XmlEventCache::WriteRaw)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x2858f48;
+  constexpr static std::size_t addrs = 0x285c5b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -492,7 +492,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlEventCache::*)(::StringW)>(&::System::Xml::XmlEventCache::WriteRaw)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2858f78;
+  constexpr static std::size_t addrs = 0x285c5e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -506,7 +506,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlEventCache::*)(::StringW)>(&::System::Xml::XmlEventCache::WriteEntityRef)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2858f84;
+  constexpr static std::size_t addrs = 0x285c5ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -520,7 +520,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlEventCache::*)(char16_t)>(&::System::Xml::XmlEventCache::WriteCharEntity)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x2858f90;
+  constexpr static std::size_t addrs = 0x285c5f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -535,7 +535,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlEventCache::*)(char16_t, char16_t)>(
     &::System::Xml::XmlEventCache::WriteSurrogateCharEntity)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x285904c;
+  constexpr static std::size_t addrs = 0x285c6b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -550,7 +550,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlEventCache::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::System::Xml::XmlEventCache::WriteBase64)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x28590d8;
+  constexpr static std::size_t addrs = 0x285c740;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -565,7 +565,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlEventCache::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::System::Xml::XmlEventCache::WriteBinHex)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x28591b8;
+  constexpr static std::size_t addrs = 0x285c820;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -579,7 +579,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlEventCache::*)()>(&::System::Xml::XmlEventCache::Close)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x28591e4;
+  constexpr static std::size_t addrs = 0x285c84c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -593,7 +593,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlEventCache::*)()>(&::System::Xml::XmlEventCache::Flush)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x28591ec;
+  constexpr static std::size_t addrs = 0x285c854;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -607,7 +607,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlEventCache::*)(::StringW)>(&::System::Xml::XmlEventCache::WriteValue)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x28591f4;
+  constexpr static std::size_t addrs = 0x285c85c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -621,7 +621,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlEventCache::*)(bool)>(&::System::Xml::XmlEventCache::Dispose)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2859204;
+  constexpr static std::size_t addrs = 0x285c86c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -636,7 +636,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlEventCache::*)(::System::Xml::XmlStandalone)>(
     &::System::Xml::XmlEventCache::WriteXmlDeclaration)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x28592b4;
+  constexpr static std::size_t addrs = 0x285c91c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -650,7 +650,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlEventCache::*)(::StringW)>(&::System::Xml::XmlEventCache::WriteXmlDeclaration)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2859320;
+  constexpr static std::size_t addrs = 0x285c988;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -664,7 +664,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlEventCache::*)()>(&::System::Xml::XmlEventCache::StartElementContent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x285932c;
+  constexpr static std::size_t addrs = 0x285c994;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -679,7 +679,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlEventCache::*)(::StringW, ::StringW, ::StringW)>(
     &::System::Xml::XmlEventCache::WriteEndElement)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2859334;
+  constexpr static std::size_t addrs = 0x285c99c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -694,7 +694,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlEventCache::*)(::StringW, ::StringW, ::StringW)>(
     &::System::Xml::XmlEventCache::WriteFullEndElement)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2859348;
+  constexpr static std::size_t addrs = 0x285c9b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -709,7 +709,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlEventCache::*)(::StringW, ::StringW)>(
     &::System::Xml::XmlEventCache::WriteNamespaceDeclaration)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x285935c;
+  constexpr static std::size_t addrs = 0x285c9c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -723,7 +723,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlEventCache::*)()>(&::System::Xml::XmlEventCache::WriteEndBase64)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x285936c;
+  constexpr static std::size_t addrs = 0x285c9d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -738,7 +738,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlEventCache::*)(::System::Xml::__XmlEventCache__XmlEventType)>(
     &::System::Xml::XmlEventCache::AddEvent)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2858cb0;
+  constexpr static std::size_t addrs = 0x285c318;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -753,7 +753,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlEventCache::*)(::System::Xml::__XmlEventCache__XmlEventType, ::StringW)>(
     &::System::Xml::XmlEventCache::AddEvent)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x2858e20;
+  constexpr static std::size_t addrs = 0x285c488;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -769,7 +769,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlEventCache::*)(::System::Xml::__XmlEventCache__XmlEventType, ::StringW, ::StringW)>(
     &::System::Xml::XmlEventCache::AddEvent)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x2858e8c;
+  constexpr static std::size_t addrs = 0x285c4f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -785,7 +785,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Xml::XmlEventCache::*)(::System::Xml::__XmlEventCache__XmlEventType, ::StringW, ::StringW, ::StringW)>(&::System::Xml::XmlEventCache::AddEvent)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2858d94;
+  constexpr static std::size_t addrs = 0x285c3fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -802,7 +802,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Xml::XmlEventCache::*)(::System::Xml::__XmlEventCache__XmlEventType, ::StringW, ::StringW, ::StringW, ::System::Object*)>(&::System::Xml::XmlEventCache::AddEvent)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x2858d10;
+  constexpr static std::size_t addrs = 0x285c378;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -820,7 +820,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlEventCache::*)(::System::Xml::__XmlEventCache__XmlEventType, ::System::Object*)>(
     &::System::Xml::XmlEventCache::AddEvent)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x2858ffc;
+  constexpr static std::size_t addrs = 0x285c664;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -835,7 +835,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlEventCache::*)()>(&::System::Xml::XmlEventCache::NewEvent)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x2859374;
+  constexpr static std::size_t addrs = 0x285c9dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlEventCache*>::get(), "NewEvent",
@@ -849,7 +849,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::System::Xml::XmlEventCache::ToBytes)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x2859104;
+  constexpr static std::size_t addrs = 0x285c76c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

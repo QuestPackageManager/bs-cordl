@@ -49,10 +49,10 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Operators::RsaOaepWrapperProvider* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestOid);
 
-  /// @brief Method .ctor, addr 0xf29074, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf53f04, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestOid);
 
-  /// @brief Method Org.BouncyCastle.Crypto.Operators.WrapperProvider.CreateWrapper, addr 0xf2978c, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method Org.BouncyCastle.Crypto.Operators.WrapperProvider.CreateWrapper, addr 0xf5461c, size 0x7c, virtual true, abstract: false, final true
   inline ::System::Object* Org_BouncyCastle_Crypto_Operators_WrapperProvider_CreateWrapper(bool forWrapping, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   // Ctor Parameters [CppParam { name: "", ty: "RsaOaepWrapperProvider", modifiers: "&&", def_value: None }]

@@ -96,21 +96,21 @@ public:
 
   constexpr void __cordl_internal_set__customProperties(::System::Collections::Hashtable* value);
 
-  /// @brief Method get_ServerProviders, addr 0x24891dc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_ServerProviders, addr 0x24ab250, size 0x6c, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* get_ServerProviders();
 
-  /// @brief Method get_ClientProviders, addr 0x248994c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_ClientProviders, addr 0x24ab9c0, size 0x6c, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* get_ClientProviders();
 
-  /// @brief Method get_CustomProperties, addr 0x248d578, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_CustomProperties, addr 0x24af5ec, size 0x6c, virtual false, abstract: false, final false
   inline ::System::Collections::Hashtable* get_CustomProperties();
 
-  /// @brief Method CopyFrom, addr 0x248889c, size 0x940, virtual false, abstract: false, final false
+  /// @brief Method CopyFrom, addr 0x24aa910, size 0x940, virtual false, abstract: false, final false
   inline void CopyFrom(::System::Runtime::Remoting::ChannelData* other);
 
   static inline ::System::Runtime::Remoting::ChannelData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x248d4c4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24af538, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ChannelData", modifiers: "&&", def_value: None }]

@@ -41,8 +41,8 @@ MARK_REF_PTR_T(::System::Reflection::RuntimeParameterInfo);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3483))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3526))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3479))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3522))
 // CS Name: ::System.Reflection::RuntimeParameterInfo*
 class CORDL_TYPE RuntimeParameterInfo : public ::System::Reflection::ParameterInfo {
 public:
@@ -61,49 +61,49 @@ public:
   static inline ::System::Reflection::RuntimeParameterInfo* New_ctor(::StringW name, ::System::Type* type, int32_t position, int32_t attrs, ::System::Object* defaultValue,
                                                                      ::System::Reflection::MemberInfo* member, ::System::Runtime::InteropServices::MarshalAsAttribute* marshalAs);
 
-  /// @brief Method .ctor, addr 0x24f74d0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25158a8, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::System::Type* type, int32_t position, int32_t attrs, ::System::Object* defaultValue, ::System::Reflection::MemberInfo* member,
                     ::System::Runtime::InteropServices::MarshalAsAttribute* marshalAs);
 
-  /// @brief Method FormatParameters, addr 0x24f7538, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method FormatParameters, addr 0x2512ec4, size 0x1f4, virtual false, abstract: false, final false
   static inline void FormatParameters(::System::Text::StringBuilder* sb, ::ArrayW<::System::Reflection::ParameterInfo*, ::Array<::System::Reflection::ParameterInfo*>*> p,
                                       ::System::Reflection::CallingConventions callingConvention, bool serialization);
 
   static inline ::System::Reflection::RuntimeParameterInfo* New_ctor(::System::Reflection::ParameterInfo* pinfo, ::System::Reflection::MemberInfo* member);
 
-  /// @brief Method .ctor, addr 0x24f772c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2515910, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::ParameterInfo* pinfo, ::System::Reflection::MemberInfo* member);
 
   static inline ::System::Reflection::RuntimeParameterInfo* New_ctor(::System::Type* type, ::System::Reflection::MemberInfo* member, ::System::Runtime::InteropServices::MarshalAsAttribute* marshalAs);
 
-  /// @brief Method .ctor, addr 0x24f7880, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2515a64, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::System::Reflection::MemberInfo* member, ::System::Runtime::InteropServices::MarshalAsAttribute* marshalAs);
 
-  /// @brief Method get_DefaultValue, addr 0x24f78d0, size 0x314, virtual true, abstract: false, final false
+  /// @brief Method get_DefaultValue, addr 0x2515ab4, size 0x314, virtual true, abstract: false, final false
   inline ::System::Object* get_DefaultValue();
 
-  /// @brief Method GetCustomAttributes, addr 0x24f7be4, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x2515dc8, size 0x5c, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetCustomAttributes(bool inherit);
 
-  /// @brief Method GetCustomAttributes, addr 0x24f7c40, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x2515e24, size 0x6c, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetCustomAttributes(::System::Type* attributeType, bool inherit);
 
-  /// @brief Method GetDefaultValueImpl, addr 0x24f77bc, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultValueImpl, addr 0x25159a0, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Object* GetDefaultValueImpl(::System::Reflection::ParameterInfo* pinfo);
 
-  /// @brief Method IsDefined, addr 0x24f7cac, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method IsDefined, addr 0x2515e90, size 0x70, virtual true, abstract: false, final false
   inline bool IsDefined(::System::Type* attributeType, bool inherit);
 
-  /// @brief Method GetPseudoCustomAttributes, addr 0x24f7d1c, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method GetPseudoCustomAttributes, addr 0x2515f00, size 0x260, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetPseudoCustomAttributes();
 
-  /// @brief Method GetPseudoCustomAttributesData, addr 0x24f7f74, size 0x508, virtual false, abstract: false, final false
+  /// @brief Method GetPseudoCustomAttributesData, addr 0x2516160, size 0x4fc, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Reflection::CustomAttributeData*, ::Array<::System::Reflection::CustomAttributeData*>*> GetPseudoCustomAttributesData();
 
-  /// @brief Method New, addr 0x24f847c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method New, addr 0x251665c, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Reflection::ParameterInfo* New(::System::Reflection::ParameterInfo* pinfo, ::System::Reflection::MemberInfo* member);
 
-  /// @brief Method New, addr 0x24f84ec, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method New, addr 0x2512bbc, size 0x8c, virtual false, abstract: false, final false
   static inline ::System::Reflection::ParameterInfo* New(::System::Type* type, ::System::Reflection::MemberInfo* member, ::System::Runtime::InteropServices::MarshalAsAttribute* marshalAs);
 
   // Ctor Parameters [CppParam { name: "", ty: "RuntimeParameterInfo", modifiers: "&&", def_value: None }]

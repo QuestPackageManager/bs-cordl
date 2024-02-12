@@ -1,0 +1,3 @@
+#pragma once
+#include "Oculus/Platform/zzzz__MessageWithMatchmakingStatsUnderMatchmakingStats_def.hpp"
+#include "Oculus/Platform/zzzz__MessageWithMatchmakingStatsUnderMatchmakingStats_impl.hpp"

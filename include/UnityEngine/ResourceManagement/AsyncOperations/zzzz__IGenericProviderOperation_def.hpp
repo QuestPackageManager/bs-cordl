@@ -49,7 +49,7 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::AsyncOperations::IGenericProvi
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14039))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14052))
 // CS Name: ::UnityEngine.ResourceManagement.AsyncOperations::IGenericProviderOperation*
 class CORDL_TYPE IGenericProviderOperation {
 public:

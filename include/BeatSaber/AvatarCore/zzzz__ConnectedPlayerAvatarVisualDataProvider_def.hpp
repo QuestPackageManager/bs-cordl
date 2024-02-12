@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::BeatSaber::AvatarCore::ConnectedPlayerAvatarVisualDataProvider)
 namespace BeatSaber::AvatarCore {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15188))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15269))
 // CS Name: ::BeatSaber.AvatarCore::ConnectedPlayerAvatarVisualDataProvider*
 class CORDL_TYPE ConnectedPlayerAvatarVisualDataProvider : public ::System::Object {
 public:
@@ -46,12 +46,12 @@ public:
 
   constexpr void __cordl_internal_set__connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
 
-  /// @brief Method get_avatarsData, addr 0xe0f47c, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method get_avatarsData, addr 0xe1ac78, size 0xc8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::MultiplayerAvatarsData get_avatarsData();
 
   static inline ::BeatSaber::AvatarCore::ConnectedPlayerAvatarVisualDataProvider* New_ctor(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
-  /// @brief Method .ctor, addr 0xe0f544, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe1ad40, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
   // Ctor Parameters [CppParam { name: "", ty: "ConnectedPlayerAvatarVisualDataProvider", modifiers: "&&", def_value: None }]

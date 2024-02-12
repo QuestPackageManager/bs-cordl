@@ -45,8 +45,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__FlyingSpriteEffect__Pool);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4852)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4856))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4206)), TypeDefinitionIndex(TypeDefinitionIndex(8995))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4210))
 // CS Name: ::FlyingSpriteEffect*
 class CORDL_TYPE FlyingSpriteEffect : public ::GlobalNamespace::FlyingObjectEffect {
 public:
@@ -80,16 +80,16 @@ public:
 
   constexpr void __cordl_internal_set__color(::UnityEngine::Color value);
 
-  /// @brief Method InitAndPresent, addr 0x2398fd4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method InitAndPresent, addr 0x235a104, size 0xb8, virtual false, abstract: false, final false
   inline void InitAndPresent(float_t duration, ::UnityEngine::Vector3 targetPos, ::UnityEngine::Quaternion rotation, ::UnityEngine::Sprite* sprite, ::UnityEngine::Material* material,
                              ::UnityEngine::Color color, bool shake);
 
-  /// @brief Method ManualUpdate, addr 0x239908c, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x235a1bc, size 0x5c, virtual true, abstract: false, final false
   inline void ManualUpdate(float_t t);
 
   static inline ::GlobalNamespace::FlyingSpriteEffect* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23990e8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x235a218, size 0x30, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FlyingSpriteEffect", modifiers: "&&", def_value: None }]
@@ -131,14 +131,14 @@ static_assert(offsetof(::GlobalNamespace::FlyingSpriteEffect, ____color) == 0x90
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4856)), TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
-// 2812 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4855)) CS Name: ::FlyingSpriteEffect::Pool*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4210)), TypeDefinitionIndex(TypeDefinitionIndex(10192)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10192), inst:
+// 2782 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4209)) CS Name: ::FlyingSpriteEffect::Pool*
 class CORDL_TYPE __FlyingSpriteEffect__Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::FlyingSpriteEffect>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__FlyingSpriteEffect__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2399118, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x235a248, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FlyingSpriteEffect__Pool", modifiers: "&&", def_value: None }]

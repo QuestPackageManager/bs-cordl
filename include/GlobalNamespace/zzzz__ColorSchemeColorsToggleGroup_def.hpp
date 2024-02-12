@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorSchemeColorsToggleGroup);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5408))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4711))
 // CS Name: ::ColorSchemeColorsToggleGroup*
 class CORDL_TYPE ColorSchemeColorsToggleGroup : public ::UnityEngine::MonoBehaviour {
 public:
@@ -145,57 +145,57 @@ public:
 
   constexpr void __cordl_internal_set__colorScheme(::GlobalNamespace::ColorScheme* value);
 
-  /// @brief Method add_selectedColorDidChangeEvent, addr 0x2274b14, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_selectedColorDidChangeEvent, addr 0x23d01f0, size 0xb0, virtual false, abstract: false, final false
   inline void add_selectedColorDidChangeEvent(::System::Action_1<::UnityEngine::Color>* value);
 
-  /// @brief Method remove_selectedColorDidChangeEvent, addr 0x2274bc4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_selectedColorDidChangeEvent, addr 0x23d02a0, size 0xb0, virtual false, abstract: false, final false
   inline void remove_selectedColorDidChangeEvent(::System::Action_1<::UnityEngine::Color>* value);
 
-  /// @brief Method get_color, addr 0x2274c74, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x23d0350, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method set_color, addr 0x2274cc4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_color, addr 0x23d03a0, size 0x18, virtual false, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
-  /// @brief Method SetColorScheme, addr 0x2274d74, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method SetColorScheme, addr 0x23d0450, size 0xe0, virtual false, abstract: false, final false
   inline void SetColorScheme(::GlobalNamespace::ColorScheme* colorScheme);
 
-  /// @brief Method Awake, addr 0x2274e54, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x23d0530, size 0x314, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnDestroy, addr 0x2275168, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x23d0844, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleToggleWasSelected, addr 0x2275184, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method HandleToggleWasSelected, addr 0x23d0860, size 0x40, virtual false, abstract: false, final false
   inline void HandleToggleWasSelected(::GlobalNamespace::ColorSchemeColorToggleController* toggleController, bool isOn);
 
-  /// @brief Method CreateColorSchemeFromEditedColors, addr 0x22751c4, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method CreateColorSchemeFromEditedColors, addr 0x23d08a0, size 0x1dc, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorScheme* CreateColorSchemeFromEditedColors();
 
   static inline ::GlobalNamespace::ColorSchemeColorsToggleGroup* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22753a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d0a7c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Awake>b__17_0, addr 0x22753a8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__17_0, addr 0x23d0a84, size 0x10, virtual false, abstract: false, final false
   inline void _Awake_b__17_0(bool isOn);
 
-  /// @brief Method <Awake>b__17_1, addr 0x22753b8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__17_1, addr 0x23d0a94, size 0x10, virtual false, abstract: false, final false
   inline void _Awake_b__17_1(bool isOn);
 
-  /// @brief Method <Awake>b__17_2, addr 0x22753c8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__17_2, addr 0x23d0aa4, size 0x10, virtual false, abstract: false, final false
   inline void _Awake_b__17_2(bool isOn);
 
-  /// @brief Method <Awake>b__17_3, addr 0x22753d8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__17_3, addr 0x23d0ab4, size 0x10, virtual false, abstract: false, final false
   inline void _Awake_b__17_3(bool isOn);
 
-  /// @brief Method <Awake>b__17_4, addr 0x22753e8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__17_4, addr 0x23d0ac4, size 0x10, virtual false, abstract: false, final false
   inline void _Awake_b__17_4(bool isOn);
 
-  /// @brief Method <Awake>b__17_5, addr 0x22753f8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__17_5, addr 0x23d0ad4, size 0x10, virtual false, abstract: false, final false
   inline void _Awake_b__17_5(bool isOn);
 
-  /// @brief Method <Awake>b__17_6, addr 0x2275408, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__17_6, addr 0x23d0ae4, size 0x10, virtual false, abstract: false, final false
   inline void _Awake_b__17_6(bool isOn);
 
   // Ctor Parameters [CppParam { name: "", ty: "ColorSchemeColorsToggleGroup", modifiers: "&&", def_value: None }]

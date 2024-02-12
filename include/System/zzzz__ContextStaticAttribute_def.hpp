@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::System::ContextStaticAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25dc594, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25ff4ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ContextStaticAttribute", modifiers: "&&", def_value: None }]

@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Interactions::HoldInteraction);
 namespace UnityEngine::InputSystem::Interactions {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6646))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5905))
 // CS Name: ::UnityEngine.InputSystem.Interactions::HoldInteraction*
 class CORDL_TYPE HoldInteraction : public ::System::Object {
 public:
@@ -65,21 +65,21 @@ public:
 
   constexpr void __cordl_internal_set_m_TimePressed(double_t value);
 
-  /// @brief Method get_durationOrDefault, addr 0x2b0c468, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_durationOrDefault, addr 0x2b0bfd4, size 0x70, virtual false, abstract: false, final false
   inline float_t get_durationOrDefault();
 
-  /// @brief Method get_pressPointOrDefault, addr 0x2b0c4d8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_pressPointOrDefault, addr 0x2b0c044, size 0x58, virtual false, abstract: false, final false
   inline float_t get_pressPointOrDefault();
 
-  /// @brief Method Process, addr 0x2b0c530, size 0x1a4, virtual true, abstract: false, final true
+  /// @brief Method Process, addr 0x2b0c09c, size 0x1a4, virtual true, abstract: false, final true
   inline void Process(ByRef<::UnityEngine::InputSystem::InputInteractionContext> context);
 
-  /// @brief Method Reset, addr 0x2b0c6d4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x2b0c240, size 0x8, virtual true, abstract: false, final true
   inline void Reset();
 
   static inline ::UnityEngine::InputSystem::Interactions::HoldInteraction* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2b0c6dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b0c248, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HoldInteraction", modifiers: "&&", def_value: None }]

@@ -26,10 +26,10 @@ public:
   // Declarations
   static inline ::System::Runtime::Serialization::DeserializationEventHandler* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x24b4878, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24d58ec, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x24b49a4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x24d5a18, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* sender);
 
   // Ctor Parameters [CppParam { name: "", ty: "DeserializationEventHandler", modifiers: "&&", def_value: None }]

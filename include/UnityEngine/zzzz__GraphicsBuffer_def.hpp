@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::UnityEngine::GraphicsBuffer);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10126))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8864))
 // CS Name: ::GraphicsBuffer::Target
 struct CORDL_TYPE __GraphicsBuffer__Target {
 public:
@@ -107,7 +107,7 @@ static_assert(offsetof(::UnityEngine::__GraphicsBuffer__Target, value__) == 0x0,
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10127))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8865))
 // CS Name: ::UnityEngine::GraphicsBuffer*
 class CORDL_TYPE GraphicsBuffer : public ::System::Object {
 public:

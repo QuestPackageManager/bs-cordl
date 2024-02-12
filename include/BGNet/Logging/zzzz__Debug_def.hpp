@@ -36,7 +36,7 @@ MARK_REF_PTR_T(::BGNet::Logging::__Debug__LoggerLinkedList);
 namespace BGNet::Logging {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16234))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16414))
 // CS Name: ::Debug::LoggerLinkedList*
 class CORDL_TYPE __Debug__LoggerLinkedList : public ::System::Object {
 public:
@@ -61,7 +61,7 @@ public:
 
   static inline ::BGNet::Logging::__Debug__LoggerLinkedList* New_ctor(::BGNet::Logging::__Debug__ILogger* logger);
 
-  /// @brief Method .ctor, addr 0xe61608, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe8c498, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::BGNet::Logging::__Debug__ILogger* logger);
 
   // Ctor Parameters [CppParam { name: "", ty: "__Debug__LoggerLinkedList", modifiers: "&&", def_value: None }]
@@ -99,7 +99,7 @@ static_assert(offsetof(::BGNet::Logging::__Debug__LoggerLinkedList, ___next) == 
 namespace BGNet::Logging {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16235))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16415))
 // CS Name: ::Debug::ILogger*
 class CORDL_TYPE __Debug__ILogger {
 public:
@@ -133,7 +133,7 @@ public:
 namespace BGNet::Logging {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16236))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16416))
 // CS Name: ::BGNet.Logging::Debug*
 class CORDL_TYPE Debug : public ::System::Object {
 public:
@@ -156,25 +156,25 @@ public:
 
   static inline ::BGNet::Logging::__Debug__LoggerLinkedList* getStaticF__loggers();
 
-  /// @brief Method NoDomainReloadInit, addr 0xe61380, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method NoDomainReloadInit, addr 0xe8c210, size 0x90, virtual false, abstract: false, final false
   static inline void NoDomainReloadInit();
 
-  /// @brief Method AddLogger, addr 0xe61418, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method AddLogger, addr 0xe8c2a8, size 0x178, virtual false, abstract: false, final false
   static inline void AddLogger(::BGNet::Logging::__Debug__ILogger* logger);
 
-  /// @brief Method RemoveLogger, addr 0xe61630, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method RemoveLogger, addr 0xe8c4c0, size 0x24c, virtual false, abstract: false, final false
   static inline void RemoveLogger(::BGNet::Logging::__Debug__ILogger* logger);
 
-  /// @brief Method Log, addr 0xe6187c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Log, addr 0xe8c70c, size 0xf4, virtual false, abstract: false, final false
   static inline void Log(::StringW message);
 
-  /// @brief Method LogError, addr 0xe61970, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method LogError, addr 0xe8c800, size 0xf8, virtual false, abstract: false, final false
   static inline void LogError(::StringW message);
 
-  /// @brief Method LogException, addr 0xe61a68, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method LogException, addr 0xe8c8f8, size 0x100, virtual false, abstract: false, final false
   static inline void LogException(::System::Exception* exception, ::StringW message);
 
-  /// @brief Method LogWarning, addr 0xe61b68, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method LogWarning, addr 0xe8c9f8, size 0xf8, virtual false, abstract: false, final false
   static inline void LogWarning(::StringW message);
 
   // Ctor Parameters [CppParam { name: "", ty: "Debug", modifiers: "&&", def_value: None }]

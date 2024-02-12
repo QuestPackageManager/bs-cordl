@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::System::Net::ServiceNameStore);
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9109))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7119))
 // CS Name: ::System.Net::ServiceNameStore*
 class CORDL_TYPE ServiceNameStore : public ::System::Object {
 public:
@@ -48,7 +48,7 @@ public:
 
   static inline ::System::Net::ServiceNameStore* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29a88b0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29ad354, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ServiceNameStore", modifiers: "&&", def_value: None }]

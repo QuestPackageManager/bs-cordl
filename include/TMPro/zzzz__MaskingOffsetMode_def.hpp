@@ -16,7 +16,7 @@ MARK_VAL_T(::TMPro::MaskingOffsetMode);
 namespace TMPro {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12436))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12334))
 // CS Name: ::TMPro::MaskingOffsetMode
 struct CORDL_TYPE MaskingOffsetMode {
 public:

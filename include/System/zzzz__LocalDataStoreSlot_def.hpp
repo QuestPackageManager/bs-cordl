@@ -59,19 +59,19 @@ public:
 
   static inline ::System::LocalDataStoreSlot* New_ctor(::System::LocalDataStoreMgr* mgr, int32_t slot, int64_t cookie);
 
-  /// @brief Method .ctor, addr 0x25d8300, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25fb218, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::LocalDataStoreMgr* mgr, int32_t slot, int64_t cookie);
 
-  /// @brief Method get_Manager, addr 0x25d8340, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Manager, addr 0x25fb258, size 0x8, virtual false, abstract: false, final false
   inline ::System::LocalDataStoreMgr* get_Manager();
 
-  /// @brief Method get_Slot, addr 0x25d8348, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Slot, addr 0x25fb260, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Slot();
 
-  /// @brief Method get_Cookie, addr 0x25d8350, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Cookie, addr 0x25fb268, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_Cookie();
 
-  /// @brief Method Finalize, addr 0x25d8358, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x25fb270, size 0xac, virtual true, abstract: false, final false
   inline void Finalize();
 
   // Ctor Parameters [CppParam { name: "", ty: "LocalDataStoreSlot", modifiers: "&&", def_value: None }]

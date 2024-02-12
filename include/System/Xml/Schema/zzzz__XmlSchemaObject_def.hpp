@@ -21,23 +21,23 @@ MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaObject);
 namespace System::Xml::Schema {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11730))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11628))
 // CS Name: ::System.Xml.Schema::XmlSchemaObject*
 class CORDL_TYPE XmlSchemaObject : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method OnAdd, addr 0x28c8c1c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnAdd, addr 0x28cb284, size 0x4, virtual true, abstract: false, final false
   inline void OnAdd(::System::Xml::Schema::XmlSchemaObjectCollection* container, ::System::Object* item);
 
-  /// @brief Method OnRemove, addr 0x28c8c20, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnRemove, addr 0x28cb288, size 0x4, virtual true, abstract: false, final false
   inline void OnRemove(::System::Xml::Schema::XmlSchemaObjectCollection* container, ::System::Object* item);
 
-  /// @brief Method OnClear, addr 0x28c8c24, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnClear, addr 0x28cb28c, size 0x4, virtual true, abstract: false, final false
   inline void OnClear(::System::Xml::Schema::XmlSchemaObjectCollection* container);
 
   static inline ::System::Xml::Schema::XmlSchemaObject* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28c70cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28c9734, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaObject", modifiers: "&&", def_value: None }]

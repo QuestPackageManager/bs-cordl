@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IReturnToMenuController);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5069))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4422))
 // CS Name: ::IReturnToMenuController*
 class CORDL_TYPE IReturnToMenuController {
 public:

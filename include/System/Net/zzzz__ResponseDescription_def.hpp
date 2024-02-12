@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::System::Net::ResponseDescription);
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9037))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7047))
 // CS Name: ::System.Net::ResponseDescription*
 class CORDL_TYPE ResponseDescription : public ::System::Object {
 public:
@@ -80,24 +80,24 @@ public:
 
   constexpr void __cordl_internal_set_StatusCodeString(::StringW value);
 
-  /// @brief Method get_PositiveIntermediate, addr 0x298ec08, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_PositiveIntermediate, addr 0x29926ac, size 0x14, virtual false, abstract: false, final false
   inline bool get_PositiveIntermediate();
 
-  /// @brief Method get_PositiveCompletion, addr 0x298ec1c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_PositiveCompletion, addr 0x29926c0, size 0x14, virtual false, abstract: false, final false
   inline bool get_PositiveCompletion();
 
-  /// @brief Method get_TransientFailure, addr 0x298ec30, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_TransientFailure, addr 0x29926d4, size 0x14, virtual false, abstract: false, final false
   inline bool get_TransientFailure();
 
-  /// @brief Method get_PermanentFailure, addr 0x298ec44, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_PermanentFailure, addr 0x29926e8, size 0x14, virtual false, abstract: false, final false
   inline bool get_PermanentFailure();
 
-  /// @brief Method get_InvalidStatusCode, addr 0x298ec58, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_InvalidStatusCode, addr 0x29926fc, size 0x14, virtual false, abstract: false, final false
   inline bool get_InvalidStatusCode();
 
   static inline ::System::Net::ResponseDescription* New_ctor();
 
-  /// @brief Method .ctor, addr 0x298ec6c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2992710, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ResponseDescription", modifiers: "&&", def_value: None }]

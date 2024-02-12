@@ -35,8 +35,8 @@ MARK_REF_PTR_T(::UnityEngine::UI::Mask);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13214))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13097))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13112))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12995))
 // CS Name: ::UnityEngine.UI::Mask*
 class CORDL_TYPE Mask : public ::UnityEngine::EventSystems::UIBehaviour {
 public:
@@ -104,39 +104,39 @@ public:
 
   constexpr void __cordl_internal_set_m_UnmaskMaterial(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method get_rectTransform, addr 0x2d7a5e8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_rectTransform, addr 0x2d989d0, size 0x58, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RectTransform> get_rectTransform();
 
-  /// @brief Method get_showMaskGraphic, addr 0x2d7a640, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_showMaskGraphic, addr 0x2d98a28, size 0x8, virtual false, abstract: false, final false
   inline bool get_showMaskGraphic();
 
-  /// @brief Method set_showMaskGraphic, addr 0x2d7a648, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method set_showMaskGraphic, addr 0x2d98a30, size 0xb0, virtual false, abstract: false, final false
   inline void set_showMaskGraphic(bool value);
 
-  /// @brief Method get_graphic, addr 0x2d7a6f8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_graphic, addr 0x2d98ae0, size 0x58, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Graphic> get_graphic();
 
   static inline ::UnityEngine::UI::Mask* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d7a750, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d98b38, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method MaskEnabled, addr 0x2d7a760, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method MaskEnabled, addr 0x2d98b48, size 0x90, virtual true, abstract: false, final false
   inline bool MaskEnabled();
 
-  /// @brief Method OnSiblingGraphicEnabledDisabled, addr 0x2d7a7f0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnSiblingGraphicEnabledDisabled, addr 0x2d98bd8, size 0x4, virtual true, abstract: false, final false
   inline void OnSiblingGraphicEnabledDisabled();
 
-  /// @brief Method OnEnable, addr 0x2d7a7f4, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x2d98bdc, size 0x160, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable, addr 0x2d7abc4, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x2d98fac, size 0x1c4, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method IsRaycastLocationValid, addr 0x2d7ad88, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method IsRaycastLocationValid, addr 0x2d99170, size 0xac, virtual true, abstract: false, final false
   inline bool IsRaycastLocationValid(::UnityEngine::Vector2 sp, ::UnityEngine::Camera* eventCamera);
 
-  /// @brief Method GetModifiedMaterial, addr 0x2d7ae34, size 0x294, virtual true, abstract: false, final false
+  /// @brief Method GetModifiedMaterial, addr 0x2d9921c, size 0x294, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> GetModifiedMaterial(::UnityEngine::Material* baseMaterial);
 
   // Ctor Parameters [CppParam { name: "", ty: "Mask", modifiers: "&&", def_value: None }]

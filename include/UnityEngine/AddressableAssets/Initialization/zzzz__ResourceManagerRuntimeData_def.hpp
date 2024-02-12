@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::Initialization::ResourceManager
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::Initialization {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13983))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14125))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13996))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14138))
 // CS Name: ::UnityEngine.AddressableAssets.Initialization::ResourceManagerRuntimeData*
 class CORDL_TYPE ResourceManagerRuntimeData : public ::System::Object {
 public:
@@ -174,75 +174,75 @@ public:
 
   constexpr void __cordl_internal_set_m_CatalogRequestsTimeout(int32_t value);
 
-  /// @brief Method get_BuildTarget, addr 0x2a33b5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BuildTarget, addr 0x2a366c8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_BuildTarget();
 
-  /// @brief Method set_BuildTarget, addr 0x2a33b64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BuildTarget, addr 0x2a366d0, size 0x8, virtual false, abstract: false, final false
   inline void set_BuildTarget(::StringW value);
 
-  /// @brief Method get_SettingsHash, addr 0x2a33b6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SettingsHash, addr 0x2a366d8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_SettingsHash();
 
-  /// @brief Method set_SettingsHash, addr 0x2a33b74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SettingsHash, addr 0x2a366e0, size 0x8, virtual false, abstract: false, final false
   inline void set_SettingsHash(::StringW value);
 
-  /// @brief Method get_CatalogLocations, addr 0x2a33b7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CatalogLocations, addr 0x2a366e8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData*>* get_CatalogLocations();
 
-  /// @brief Method get_ProfileEvents, addr 0x2a33b84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ProfileEvents, addr 0x2a366f0, size 0x8, virtual false, abstract: false, final false
   inline bool get_ProfileEvents();
 
-  /// @brief Method set_ProfileEvents, addr 0x2a33b8c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ProfileEvents, addr 0x2a366f8, size 0xc, virtual false, abstract: false, final false
   inline void set_ProfileEvents(bool value);
 
-  /// @brief Method get_LogResourceManagerExceptions, addr 0x2a33b98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LogResourceManagerExceptions, addr 0x2a36704, size 0x8, virtual false, abstract: false, final false
   inline bool get_LogResourceManagerExceptions();
 
-  /// @brief Method set_LogResourceManagerExceptions, addr 0x2a33ba0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_LogResourceManagerExceptions, addr 0x2a3670c, size 0xc, virtual false, abstract: false, final false
   inline void set_LogResourceManagerExceptions(bool value);
 
-  /// @brief Method get_InitializationObjects, addr 0x2a33bac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InitializationObjects, addr 0x2a36718, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Util::ObjectInitializationData>* get_InitializationObjects();
 
-  /// @brief Method get_DisableCatalogUpdateOnStartup, addr 0x2a33bb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DisableCatalogUpdateOnStartup, addr 0x2a36720, size 0x8, virtual false, abstract: false, final false
   inline bool get_DisableCatalogUpdateOnStartup();
 
-  /// @brief Method set_DisableCatalogUpdateOnStartup, addr 0x2a33bbc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_DisableCatalogUpdateOnStartup, addr 0x2a36728, size 0xc, virtual false, abstract: false, final false
   inline void set_DisableCatalogUpdateOnStartup(bool value);
 
-  /// @brief Method get_IsLocalCatalogInBundle, addr 0x2a33bc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsLocalCatalogInBundle, addr 0x2a36734, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsLocalCatalogInBundle();
 
-  /// @brief Method set_IsLocalCatalogInBundle, addr 0x2a33bd0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsLocalCatalogInBundle, addr 0x2a3673c, size 0xc, virtual false, abstract: false, final false
   inline void set_IsLocalCatalogInBundle(bool value);
 
-  /// @brief Method get_CertificateHandlerType, addr 0x2a33bdc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_CertificateHandlerType, addr 0x2a36748, size 0xc, virtual false, abstract: false, final false
   inline ::System::Type* get_CertificateHandlerType();
 
-  /// @brief Method set_CertificateHandlerType, addr 0x2a33be8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_CertificateHandlerType, addr 0x2a36754, size 0xc, virtual false, abstract: false, final false
   inline void set_CertificateHandlerType(::System::Type* value);
 
-  /// @brief Method get_AddressablesVersion, addr 0x2a33bf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AddressablesVersion, addr 0x2a36760, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_AddressablesVersion();
 
-  /// @brief Method set_AddressablesVersion, addr 0x2a33bfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AddressablesVersion, addr 0x2a36768, size 0x8, virtual false, abstract: false, final false
   inline void set_AddressablesVersion(::StringW value);
 
-  /// @brief Method get_MaxConcurrentWebRequests, addr 0x2a33c04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaxConcurrentWebRequests, addr 0x2a36770, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_MaxConcurrentWebRequests();
 
-  /// @brief Method set_MaxConcurrentWebRequests, addr 0x2a33c0c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_MaxConcurrentWebRequests, addr 0x2a36778, size 0x1c, virtual false, abstract: false, final false
   inline void set_MaxConcurrentWebRequests(int32_t value);
 
-  /// @brief Method get_CatalogRequestsTimeout, addr 0x2a33c28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CatalogRequestsTimeout, addr 0x2a36794, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_CatalogRequestsTimeout();
 
-  /// @brief Method set_CatalogRequestsTimeout, addr 0x2a33c30, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_CatalogRequestsTimeout, addr 0x2a3679c, size 0x1c, virtual false, abstract: false, final false
   inline void set_CatalogRequestsTimeout(int32_t value);
 
   static inline ::UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2a33c4c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a367b8, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ResourceManagerRuntimeData", modifiers: "&&", def_value: None }]

@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::Mono::Http::NtlmSession);
 namespace Mono::Http {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8850))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6860))
 // CS Name: ::Mono.Http::NtlmSession*
 class CORDL_TYPE NtlmSession : public ::System::Object {
 public:
@@ -44,10 +44,10 @@ public:
 
   static inline ::Mono::Http::NtlmSession* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2825ed4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x282a6bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Authenticate, addr 0x2825edc, size 0x48c, virtual false, abstract: false, final false
+  /// @brief Method Authenticate, addr 0x282a6c4, size 0x48c, virtual false, abstract: false, final false
   inline ::System::Net::Authorization* Authenticate(::StringW challenge, ::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
 
   // Ctor Parameters [CppParam { name: "", ty: "NtlmSession", modifiers: "&&", def_value: None }]

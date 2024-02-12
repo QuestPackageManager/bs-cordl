@@ -16,12 +16,12 @@ MARK_REF_PTR_T(::GlobalNamespace::FileUtility);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5834))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5127))
 // CS Name: ::FileUtility*
 class CORDL_TYPE FileUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetPlatformPersistentDataPath, addr 0x22ed920, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetPlatformPersistentDataPath, addr 0x231bdfc, size 0x8, virtual false, abstract: false, final false
   static inline ::StringW GetPlatformPersistentDataPath();
 
   // Ctor Parameters [CppParam { name: "", ty: "FileUtility", modifiers: "&&", def_value: None }]

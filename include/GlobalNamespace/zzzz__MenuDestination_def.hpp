@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::GlobalNamespace::MenuDestination);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4152))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10608))
 // CS Name: ::MenuDestination*
 class CORDL_TYPE MenuDestination : public ::System::Object {
 public:
   // Declarations
   static inline ::GlobalNamespace::MenuDestination* New_ctor();
 
-  /// @brief Method .ctor, addr 0x223dd20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12658a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuDestination", modifiers: "&&", def_value: None }]

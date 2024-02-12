@@ -48,18 +48,18 @@ public:
 
   constexpr void __cordl_internal_set_privKey(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* value);
 
-  /// @brief Method Init, addr 0x121a80c, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x124769c, size 0xec, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method GetFieldSize, addr 0x121a8f8, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method GetFieldSize, addr 0x1247788, size 0x48, virtual true, abstract: false, final false
   inline int32_t GetFieldSize();
 
-  /// @brief Method CalculateAgreement, addr 0x121a940, size 0x1f4, virtual true, abstract: false, final false
+  /// @brief Method CalculateAgreement, addr 0x12477d0, size 0x1f4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* CalculateAgreement(::Org::BouncyCastle::Crypto::ICipherParameters* pubKey);
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::ECDHCBasicAgreement* New_ctor();
 
-  /// @brief Method .ctor, addr 0x121ab34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12479c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ECDHCBasicAgreement", modifiers: "&&", def_value: None }]

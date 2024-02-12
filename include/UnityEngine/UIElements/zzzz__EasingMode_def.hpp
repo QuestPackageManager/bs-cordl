@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::EasingMode);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7285))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6544))
 // CS Name: ::UnityEngine.UIElements::EasingMode
 struct CORDL_TYPE EasingMode {
 public:

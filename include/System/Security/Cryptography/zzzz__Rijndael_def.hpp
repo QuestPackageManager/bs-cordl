@@ -42,7 +42,7 @@ public:
 
   static inline ::System::Security::Cryptography::Rijndael* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2460788, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24827fc, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Rijndael", modifiers: "&&", def_value: None }]

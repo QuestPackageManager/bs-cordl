@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::XR::EyesControl);
 // SizeInfo { instance_size: 296, native_size: -1, calculated_instance_size: 296, calculated_native_size: 296, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::XR {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6216)), TypeDefinitionIndex(TypeDefinitionIndex(6338)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6216), inst: 3893
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6340)) CS Name: ::UnityEngine.InputSystem.XR::EyesControl*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5475)), TypeDefinitionIndex(TypeDefinitionIndex(5597)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5475), inst: 3875
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5599)) CS Name: ::UnityEngine.InputSystem.XR::EyesControl*
 class CORDL_TYPE EyesControl : public ::UnityEngine::InputSystem::InputControl_1<::UnityEngine::InputSystem::XR::Eyes> {
 public:
   // Declarations
@@ -116,60 +116,60 @@ public:
 
   constexpr void __cordl_internal_set__rightEyeOpenAmount_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method get_leftEyePosition, addr 0x2ac86c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftEyePosition, addr 0x2ac922c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_leftEyePosition();
 
-  /// @brief Method set_leftEyePosition, addr 0x2ac86c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_leftEyePosition, addr 0x2ac9234, size 0x8, virtual false, abstract: false, final false
   inline void set_leftEyePosition(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method get_leftEyeRotation, addr 0x2ac86d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftEyeRotation, addr 0x2ac923c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::QuaternionControl* get_leftEyeRotation();
 
-  /// @brief Method set_leftEyeRotation, addr 0x2ac86d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_leftEyeRotation, addr 0x2ac9244, size 0x8, virtual false, abstract: false, final false
   inline void set_leftEyeRotation(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
-  /// @brief Method get_rightEyePosition, addr 0x2ac86e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightEyePosition, addr 0x2ac924c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_rightEyePosition();
 
-  /// @brief Method set_rightEyePosition, addr 0x2ac86e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rightEyePosition, addr 0x2ac9254, size 0x8, virtual false, abstract: false, final false
   inline void set_rightEyePosition(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method get_rightEyeRotation, addr 0x2ac86f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightEyeRotation, addr 0x2ac925c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::QuaternionControl* get_rightEyeRotation();
 
-  /// @brief Method set_rightEyeRotation, addr 0x2ac86f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rightEyeRotation, addr 0x2ac9264, size 0x8, virtual false, abstract: false, final false
   inline void set_rightEyeRotation(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
-  /// @brief Method get_fixationPoint, addr 0x2ac8700, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fixationPoint, addr 0x2ac926c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_fixationPoint();
 
-  /// @brief Method set_fixationPoint, addr 0x2ac8708, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_fixationPoint, addr 0x2ac9274, size 0x8, virtual false, abstract: false, final false
   inline void set_fixationPoint(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method get_leftEyeOpenAmount, addr 0x2ac8710, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftEyeOpenAmount, addr 0x2ac927c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_leftEyeOpenAmount();
 
-  /// @brief Method set_leftEyeOpenAmount, addr 0x2ac8718, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_leftEyeOpenAmount, addr 0x2ac9284, size 0x8, virtual false, abstract: false, final false
   inline void set_leftEyeOpenAmount(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method get_rightEyeOpenAmount, addr 0x2ac8720, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightEyeOpenAmount, addr 0x2ac928c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_rightEyeOpenAmount();
 
-  /// @brief Method set_rightEyeOpenAmount, addr 0x2ac8728, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rightEyeOpenAmount, addr 0x2ac9294, size 0x8, virtual false, abstract: false, final false
   inline void set_rightEyeOpenAmount(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method FinishSetup, addr 0x2ac8730, size 0x1a8, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x2ac929c, size 0x1a8, virtual true, abstract: false, final false
   inline void FinishSetup();
 
-  /// @brief Method ReadUnprocessedValueFromState, addr 0x2ac88d8, size 0x1b8, virtual true, abstract: false, final false
+  /// @brief Method ReadUnprocessedValueFromState, addr 0x2ac9444, size 0x1b8, virtual true, abstract: false, final false
   inline ::UnityEngine::InputSystem::XR::Eyes ReadUnprocessedValueFromState(::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method WriteValueIntoState, addr 0x2ac8a90, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method WriteValueIntoState, addr 0x2ac95fc, size 0x114, virtual true, abstract: false, final false
   inline void WriteValueIntoState(::UnityEngine::InputSystem::XR::Eyes value, ::cordl_internals::Ptr<void> statePtr);
 
   static inline ::UnityEngine::InputSystem::XR::EyesControl* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ac8ba4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ac9710, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EyesControl", modifiers: "&&", def_value: None }]

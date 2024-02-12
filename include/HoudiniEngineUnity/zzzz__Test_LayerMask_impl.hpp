@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::Test_LayerMask::*)(::UnityEngine::LayerMask)>(
     &::HoudiniEngineUnity::Test_LayerMask::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x21e6950;
+  constexpr static std::size_t addrs = 0x227c238;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::Test_LayerMask::*)(::HoudiniEngineUnity::Test_LayerMask*)>(
     &::HoudiniEngineUnity::Test_LayerMask::IsEquivalentTo)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x21e6978;
+  constexpr static std::size_t addrs = 0x227c260;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

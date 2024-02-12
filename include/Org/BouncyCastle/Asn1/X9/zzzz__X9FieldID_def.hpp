@@ -60,34 +60,34 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9FieldID* New_ctor(::Org::BouncyCastle::Math::BigInteger* primeP);
 
-  /// @brief Method .ctor, addr 0x11b16b8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11de548, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* primeP);
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9FieldID* New_ctor(int32_t m, int32_t k1);
 
-  /// @brief Method .ctor, addr 0x11b1768, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11de5f8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t m, int32_t k1);
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9FieldID* New_ctor(int32_t m, int32_t k1, int32_t k2, int32_t k3);
 
-  /// @brief Method .ctor, addr 0x11b1774, size 0x3e4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11de604, size 0x3e4, virtual false, abstract: false, final false
   inline void _ctor(int32_t m, int32_t k1, int32_t k2, int32_t k3);
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9FieldID* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0x11b2424, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11df2b4, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance, addr 0x11b1518, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x11de3a8, size 0xa0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::X9FieldID* GetInstance(::System::Object* obj);
 
-  /// @brief Method get_Identifier, addr 0x11b24e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Identifier, addr 0x11df370, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_Identifier();
 
-  /// @brief Method get_Parameters, addr 0x11b24e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parameters, addr 0x11df378, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* get_Parameters();
 
-  /// @brief Method ToAsn1Object, addr 0x11b24f0, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x11df380, size 0xec, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "X9FieldID", modifiers: "&&", def_value: None }]

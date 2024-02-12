@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::AvatarEditorResult);
 namespace Oculus::Platform::Models {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13423))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13353))
 // CS Name: ::Oculus.Platform.Models::AvatarEditorResult*
 class CORDL_TYPE AvatarEditorResult : public ::System::Object {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::Oculus::Platform::Models::AvatarEditorResult* New_ctor(void* o);
 
-  /// @brief Method .ctor, addr 0x2704c60, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27371f4, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "AvatarEditorResult", modifiers: "&&", def_value: None }]

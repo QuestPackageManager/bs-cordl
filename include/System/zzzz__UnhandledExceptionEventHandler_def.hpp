@@ -29,10 +29,10 @@ public:
   // Declarations
   static inline ::System::UnhandledExceptionEventHandler* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x25cdfbc, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25efed4, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x25ce0ec, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x25f0004, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* sender, ::System::UnhandledExceptionEventArgs* e);
 
   // Ctor Parameters [CppParam { name: "", ty: "UnhandledExceptionEventHandler", modifiers: "&&", def_value: None }]

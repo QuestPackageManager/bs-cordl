@@ -23,7 +23,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Ocsp::OcspRespStatus* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10a2568, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10cf3f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OcspRespStatus", modifiers: "&&", def_value: None }]

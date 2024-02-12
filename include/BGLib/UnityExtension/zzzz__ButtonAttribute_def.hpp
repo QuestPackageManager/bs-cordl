@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::BGLib::UnityExtension::ButtonAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::UnityExtension {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10170))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15879))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8914))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15636))
 // CS Name: ::BGLib.UnityExtension::ButtonAttribute*
 class CORDL_TYPE ButtonAttribute : public ::UnityEngine::PropertyAttribute {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::BGLib::UnityExtension::ButtonAttribute* New_ctor(::StringW title);
 
-  /// @brief Method .ctor, addr 0xe28e18, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe53b78, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW title);
 
   // Ctor Parameters [CppParam { name: "", ty: "ButtonAttribute", modifiers: "&&", def_value: None }]

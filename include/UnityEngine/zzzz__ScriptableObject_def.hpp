@@ -17,27 +17,27 @@ MARK_REF_PTR_T(::UnityEngine::ScriptableObject);
 // SizeInfo { instance_size: 24, native_size: 8, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10200))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10210))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8944))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8954))
 // CS Name: ::UnityEngine::ScriptableObject*
 class CORDL_TYPE ScriptableObject : public ::UnityEngine::Object {
 public:
   // Declarations
   static inline ::UnityEngine::ScriptableObject* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2cd1874, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cd881c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateInstance, addr 0x2cd1930, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x2cd88d8, size 0x40, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ScriptableObject> CreateInstance(::System::Type* type);
 
   /// @brief Method CreateInstance, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T CreateInstance();
 
-  /// @brief Method CreateScriptableObject, addr 0x2cd18f4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method CreateScriptableObject, addr 0x2cd889c, size 0x3c, virtual false, abstract: false, final false
   static inline void CreateScriptableObject(::UnityEngine::ScriptableObject* self);
 
-  /// @brief Method CreateScriptableObjectInstanceFromType, addr 0x2cd1970, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method CreateScriptableObjectInstanceFromType, addr 0x2cd8918, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ScriptableObject> CreateScriptableObjectInstanceFromType(::System::Type* type, bool applyDefaultsAndReset);
 
   // Ctor Parameters [CppParam { name: "", ty: "ScriptableObject", modifiers: "&&", def_value: None }]

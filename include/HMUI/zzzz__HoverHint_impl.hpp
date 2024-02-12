@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::HMUI::HoverHint::*)()>(&::HMUI::HoverHint::get_text)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x211c9a4;
+  constexpr static std::size_t addrs = 0x21b1280;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::HoverHint*>::get(), "get_text",
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::HoverHint::*)(::StringW)>(&::HMUI::HoverHint::set_text)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x211c9ac;
+  constexpr static std::size_t addrs = 0x21b1288;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::HMUI::HoverHint::*)()>(&::HMUI::HoverHint::get_size)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x211c9b4;
+  constexpr static std::size_t addrs = 0x21b1290;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::HoverHint*>::get(), "get_size",
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::HMUI::HoverHint::*)()>(&::HMUI::HoverHint::get_worldCenter)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x211ca44;
+  constexpr static std::size_t addrs = 0x21b1320;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::HoverHint*>::get(), "get_worldCenter",
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::HoverHint::*)(::UnityEngine::EventSystems::PointerEventData*)>(&::HMUI::HoverHint::OnPointerEnter)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x211cb40;
+  constexpr static std::size_t addrs = 0x21b141c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::HoverHint::*)(::UnityEngine::EventSystems::PointerEventData*)>(&::HMUI::HoverHint::OnPointerExit)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x211cbf0;
+  constexpr static std::size_t addrs = 0x21b14cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::HoverHint::*)()>(&::HMUI::HoverHint::OnDisable)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x211cd24;
+  constexpr static std::size_t addrs = 0x21b1600;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::HoverHint*>::get(), "OnDisable",
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::HoverHint::*)()>(&::HMUI::HoverHint::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x211cda4;
+  constexpr static std::size_t addrs = 0x21b1680;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::HoverHint*>::get(), ".ctor",

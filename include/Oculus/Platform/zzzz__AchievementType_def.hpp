@@ -16,7 +16,7 @@ MARK_VAL_T(::Oculus::Platform::AchievementType);
 namespace Oculus::Platform {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13225))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13120))
 // CS Name: ::Oculus.Platform::AchievementType
 struct CORDL_TYPE AchievementType {
 public:

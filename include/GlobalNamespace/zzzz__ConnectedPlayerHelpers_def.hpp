@@ -18,27 +18,27 @@ MARK_REF_PTR_T(::GlobalNamespace::ConnectedPlayerHelpers);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12706))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12604))
 // CS Name: ::ConnectedPlayerHelpers*
 class CORDL_TYPE ConnectedPlayerHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method WantsToPlayNextLevel, addr 0xe31e70, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method WantsToPlayNextLevel, addr 0xe5cca8, size 0xbc, virtual false, abstract: false, final false
   static inline bool WantsToPlayNextLevel(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
-  /// @brief Method WasActiveAtLevelStart, addr 0xe31f2c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method WasActiveAtLevelStart, addr 0xe5cd64, size 0xbc, virtual false, abstract: false, final false
   static inline bool WasActiveAtLevelStart(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
-  /// @brief Method IsActive, addr 0xe31fe8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method IsActive, addr 0xe5ce20, size 0xbc, virtual false, abstract: false, final false
   static inline bool IsActive(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
-  /// @brief Method HasFinishedLevel, addr 0xe320a4, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method HasFinishedLevel, addr 0xe5cedc, size 0xbc, virtual false, abstract: false, final false
   static inline bool HasFinishedLevel(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
-  /// @brief Method IsActiveOrFinished, addr 0xe32160, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method IsActiveOrFinished, addr 0xe5cf98, size 0x28, virtual false, abstract: false, final false
   static inline bool IsActiveOrFinished(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
-  /// @brief Method IsFailed, addr 0xe32188, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method IsFailed, addr 0xe5cfc0, size 0xd8, virtual false, abstract: false, final false
   static inline bool IsFailed(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
   // Ctor Parameters [CppParam { name: "", ty: "ConnectedPlayerHelpers", modifiers: "&&", def_value: None }]

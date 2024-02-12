@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::AnimatorCullingMode);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14876))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14749))
 // CS Name: ::UnityEngine::AnimatorCullingMode
 struct CORDL_TYPE AnimatorCullingMode {
 public:

@@ -54,7 +54,7 @@ namespace UnityEngine::UIElements {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7369))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6628))
 // CS Name: ::VerticalVirtualizationController`1::<>c<T>*
 class CORDL_TYPE __VerticalVirtualizationController_1____c : public ::System::Object {
 public:
@@ -115,8 +115,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7371))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7370))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6630))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6629))
 // CS Name: ::UnityEngine.UIElements::VerticalVirtualizationController`1<T>*
 class CORDL_TYPE VerticalVirtualizationController_1 : public ::UnityEngine::UIElements::CollectionVirtualizationController {
 public:

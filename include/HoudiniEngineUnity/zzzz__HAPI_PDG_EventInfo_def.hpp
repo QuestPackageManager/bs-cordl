@@ -16,7 +16,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_PDG_EventInfo);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9752))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9544))
 // CS Name: ::HoudiniEngineUnity::HAPI_PDG_EventInfo
 struct CORDL_TYPE HAPI_PDG_EventInfo {
 public:

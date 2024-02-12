@@ -76,33 +76,33 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::ECDHPublicBcpgKey* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor, addr 0x11d1170, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11ff000, size 0x128, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
   static inline ::Org::BouncyCastle::Bcpg::ECDHPublicBcpgKey* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Math::EC::ECPoint* point,
                                                                        ::Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm,
                                                                        ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag symmetricKeyAlgorithm);
 
-  /// @brief Method .ctor, addr 0x11d1368, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11ff1f8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Math::EC::ECPoint* point, ::Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm,
                     ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag symmetricKeyAlgorithm);
 
-  /// @brief Method get_Reserved, addr 0x11d13a4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Reserved, addr 0x11ff234, size 0x8, virtual true, abstract: false, final false
   inline uint8_t get_Reserved();
 
-  /// @brief Method get_HashAlgorithm, addr 0x11d13ac, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_HashAlgorithm, addr 0x11ff23c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::HashAlgorithmTag get_HashAlgorithm();
 
-  /// @brief Method get_SymmetricKeyAlgorithm, addr 0x11d13b4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SymmetricKeyAlgorithm, addr 0x11ff244, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag get_SymmetricKeyAlgorithm();
 
-  /// @brief Method Encode, addr 0x11d13bc, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x11ff24c, size 0x84, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
-  /// @brief Method VerifyHashAlgorithm, addr 0x11d1298, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method VerifyHashAlgorithm, addr 0x11ff128, size 0x68, virtual false, abstract: false, final false
   inline void VerifyHashAlgorithm();
 
-  /// @brief Method VerifySymmetricKeyAlgorithm, addr 0x11d1300, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method VerifySymmetricKeyAlgorithm, addr 0x11ff190, size 0x68, virtual false, abstract: false, final false
   inline void VerifySymmetricKeyAlgorithm();
 
   // Ctor Parameters [CppParam { name: "", ty: "ECDHPublicBcpgKey", modifiers: "&&", def_value: None }]

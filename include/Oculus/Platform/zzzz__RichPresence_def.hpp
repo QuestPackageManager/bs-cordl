@@ -27,21 +27,21 @@ MARK_REF_PTR_T(::Oculus::Platform::RichPresence);
 namespace Oculus::Platform {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13369))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13296))
 // CS Name: ::Oculus.Platform::RichPresence*
 class CORDL_TYPE RichPresence : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Clear, addr 0x26ff0ac, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x2730d58, size 0x148, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request* Clear();
 
-  /// @brief Method GetDestinations, addr 0x26cc53c, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetDestinations, addr 0x2730ea0, size 0x15c, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::DestinationList*>* GetDestinations();
 
-  /// @brief Method Set, addr 0x26ff1f0, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x2730ffc, size 0x190, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request* Set(::Oculus::Platform::RichPresenceOptions* richPresenceOptions);
 
-  /// @brief Method GetNextDestinationListPage, addr 0x26ff3d4, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method GetNextDestinationListPage, addr 0x27311e4, size 0x1e0, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::DestinationList*>* GetNextDestinationListPage(::Oculus::Platform::Models::DestinationList* list);
 
   // Ctor Parameters [CppParam { name: "", ty: "RichPresence", modifiers: "&&", def_value: None }]

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GUIWordWrapSizer::*)(
     ::UnityEngine::GUIStyle*, ::UnityEngine::GUIContent*, ::ArrayW<::UnityEngine::GUILayoutOption*, ::Array<::UnityEngine::GUILayoutOption*>*>)>(&::UnityEngine::GUIWordWrapSizer::_ctor)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x2cfc00c;
+  constexpr static std::size_t addrs = 0x2d078f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GUIWordWrapSizer::*)()>(&::UnityEngine::GUIWordWrapSizer::CalcWidth)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x2cfc16c;
+  constexpr static std::size_t addrs = 0x2d07a58;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GUIWordWrapSizer::*)()>(&::UnityEngine::GUIWordWrapSizer::CalcHeight)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x2cfc1f0;
+  constexpr static std::size_t addrs = 0x2d07adc;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -55,22 +55,22 @@ public:
 
   static inline ::System::LocalDataStore* New_ctor(::System::LocalDataStoreMgr* mgr, int32_t InitialCapacity);
 
-  /// @brief Method .ctor, addr 0x25d7c44, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25fab5c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::LocalDataStoreMgr* mgr, int32_t InitialCapacity);
 
-  /// @brief Method Dispose, addr 0x25d7be0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x25faaf8, size 0x1c, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method GetData, addr 0x25d7db8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetData, addr 0x25facd0, size 0xd8, virtual false, abstract: false, final false
   inline ::System::Object* GetData(::System::LocalDataStoreSlot* slot);
 
-  /// @brief Method SetData, addr 0x25d7f0c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x25fae24, size 0xe4, virtual false, abstract: false, final false
   inline void SetData(::System::LocalDataStoreSlot* slot, ::System::Object* data);
 
-  /// @brief Method FreeData, addr 0x25d829c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method FreeData, addr 0x25fb1b4, size 0x48, virtual false, abstract: false, final false
   inline void FreeData(int32_t slot, int64_t cookie);
 
-  /// @brief Method PopulateElement, addr 0x25d7ff0, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method PopulateElement, addr 0x25faf08, size 0x2ac, virtual false, abstract: false, final false
   inline ::System::LocalDataStoreElement* PopulateElement(::System::LocalDataStoreSlot* slot);
 
   // Ctor Parameters [CppParam { name: "", ty: "LocalDataStore", modifiers: "&&", def_value: None }]

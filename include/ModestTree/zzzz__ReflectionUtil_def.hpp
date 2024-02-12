@@ -67,21 +67,21 @@ MARK_REF_PTR_T(::ModestTree::ReflectionUtil);
 namespace ModestTree {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10624))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9766))
 // CS Name: ::ModestTree::ReflectionUtil*
 class CORDL_TYPE ReflectionUtil : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateArray, addr 0x2ebe588, size 0x308, virtual false, abstract: false, final false
+  /// @brief Method CreateArray, addr 0x2eda6d0, size 0x308, virtual false, abstract: false, final false
   static inline ::System::Array* CreateArray(::System::Type* elementType, ::System::Collections::Generic::List_1<::System::Object*>* instances);
 
-  /// @brief Method CreateGenericList, addr 0x2ebe890, size 0x458, virtual false, abstract: false, final false
+  /// @brief Method CreateGenericList, addr 0x2eda9d8, size 0x458, virtual false, abstract: false, final false
   static inline ::System::Collections::IList* CreateGenericList(::System::Type* elementType, ::System::Collections::Generic::List_1<::System::Object*>* instances);
 
-  /// @brief Method ToDebugString, addr 0x2ebece8, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method ToDebugString, addr 0x2edae30, size 0x130, virtual false, abstract: false, final false
   static inline ::StringW ToDebugString(::System::Reflection::MethodInfo* method);
 
-  /// @brief Method ToDebugString, addr 0x2ebee18, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ToDebugString, addr 0x2edaf60, size 0x1c, virtual false, abstract: false, final false
   static inline ::StringW ToDebugString(::System::Action* action);
 
   /// @brief Method ToDebugString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

@@ -74,19 +74,19 @@ public:
 
   static inline ::Org::BouncyCastle::Cmp::CertificateConfirmationContentBuilder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x11d553c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12033cc, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Cmp::CertificateConfirmationContentBuilder* New_ctor(::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder* digestAlgFinder);
 
-  /// @brief Method .ctor, addr 0x11d55a0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1203430, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder* digestAlgFinder);
 
-  /// @brief Method AddAcceptedCertificate, addr 0x11d5624, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method AddAcceptedCertificate, addr 0x12034b4, size 0x128, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cmp::CertificateConfirmationContentBuilder* AddAcceptedCertificate(::Org::BouncyCastle::X509::X509Certificate* certHolder,
                                                                                                  ::Org::BouncyCastle::Math::BigInteger* certReqId);
 
-  /// @brief Method Build, addr 0x11d574c, size 0x470, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x12035dc, size 0x470, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cmp::CertificateConfirmationContent* Build();
 
   // Ctor Parameters [CppParam { name: "", ty: "CertificateConfirmationContentBuilder", modifiers: "&&", def_value: None }]

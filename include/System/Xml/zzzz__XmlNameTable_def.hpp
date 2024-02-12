@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::System::Xml::XmlNameTable);
 namespace System::Xml {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11568))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11466))
 // CS Name: ::System.Xml::XmlNameTable*
 class CORDL_TYPE XmlNameTable : public ::System::Object {
 public:
@@ -34,7 +34,7 @@ public:
 
   static inline ::System::Xml::XmlNameTable* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28a7d4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28ab3b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlNameTable", modifiers: "&&", def_value: None }]

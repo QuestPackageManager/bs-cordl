@@ -41,10 +41,10 @@ public:
 
   static inline ::Org::BouncyCastle::Utilities::Collections::EmptyEnumerable* New_ctor();
 
-  /// @brief Method .ctor, addr 0x11579f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1185880, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method GetEnumerator, addr 0x11579f8, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x1185888, size 0x58, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
   // Ctor Parameters [CppParam { name: "", ty: "EmptyEnumerable", modifiers: "&&", def_value: None }]

@@ -30,10 +30,10 @@ public:
   // Declarations
   static inline ::System::Runtime::Remoting::Messaging::HeaderHandler* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x24ad688, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24cf6fc, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x24ad7b4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x24cf828, size 0x14, virtual true, abstract: false, final false
   inline ::System::Object* Invoke(::ArrayW<::System::Runtime::Remoting::Messaging::Header*, ::Array<::System::Runtime::Remoting::Messaging::Header*>*> headers);
 
   // Ctor Parameters [CppParam { name: "", ty: "HeaderHandler", modifiers: "&&", def_value: None }]

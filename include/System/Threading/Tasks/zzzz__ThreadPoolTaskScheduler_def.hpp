@@ -46,10 +46,10 @@ public:
 
   static inline ::System::Threading::Tasks::__ThreadPoolTaskScheduler____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x262de4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2653f70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <.cctor>b__10_0, addr 0x262de54, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__10_0, addr 0x2653f78, size 0x84, virtual false, abstract: false, final false
   inline void __cctor_b__10_0(::System::Object* s);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ThreadPoolTaskScheduler____c", modifiers: "&&", def_value: None }]
@@ -95,22 +95,22 @@ public:
 
   static inline ::System::Threading::Tasks::ThreadPoolTaskScheduler* New_ctor();
 
-  /// @brief Method .ctor, addr 0x262da00, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2653b24, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method QueueTask, addr 0x262da58, size 0x1c8, virtual true, abstract: false, final false
+  /// @brief Method QueueTask, addr 0x2653b7c, size 0x1c8, virtual true, abstract: false, final false
   inline void QueueTask(::System::Threading::Tasks::Task* task);
 
-  /// @brief Method TryExecuteTaskInline, addr 0x262dc20, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method TryExecuteTaskInline, addr 0x2653d44, size 0xe4, virtual true, abstract: false, final false
   inline bool TryExecuteTaskInline(::System::Threading::Tasks::Task* task, bool taskWasPreviouslyQueued);
 
-  /// @brief Method TryDequeue, addr 0x262dd04, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method TryDequeue, addr 0x2653e28, size 0x8, virtual true, abstract: false, final false
   inline bool TryDequeue(::System::Threading::Tasks::Task* task);
 
-  /// @brief Method NotifyWorkItemProgress, addr 0x262dd0c, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method NotifyWorkItemProgress, addr 0x2653e30, size 0x10, virtual true, abstract: false, final false
   inline void NotifyWorkItemProgress();
 
-  /// @brief Method get_RequiresAtomicStartTransition, addr 0x262dd1c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_RequiresAtomicStartTransition, addr 0x2653e40, size 0x8, virtual true, abstract: false, final false
   inline bool get_RequiresAtomicStartTransition();
 
   // Ctor Parameters [CppParam { name: "", ty: "ThreadPoolTaskScheduler", modifiers: "&&", def_value: None }]

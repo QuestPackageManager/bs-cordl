@@ -26,17 +26,17 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::X509::Store::NoSuchStoreException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1170208, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x119f098, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::X509::Store::NoSuchStoreException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x117020c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x119f09c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::Org::BouncyCastle::X509::Store::NoSuchStoreException* New_ctor(::StringW message, ::System::Exception* e);
 
-  /// @brief Method .ctor, addr 0x1170210, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x119f0a0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* e);
 
   // Ctor Parameters [CppParam { name: "", ty: "NoSuchStoreException", modifiers: "&&", def_value: None }]

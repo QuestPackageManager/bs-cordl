@@ -22,17 +22,17 @@ MARK_REF_PTR_T(::System::Xml::Schema::ValidationEventHandler);
 namespace System::Xml::Schema {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11710))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11608))
 // CS Name: ::System.Xml.Schema::ValidationEventHandler*
 class CORDL_TYPE ValidationEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::System::Xml::Schema::ValidationEventHandler* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x28c5c00, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28c8268, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x28c5d30, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x28c8398, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* sender, ::System::Xml::Schema::ValidationEventArgs* e);
 
   // Ctor Parameters [CppParam { name: "", ty: "ValidationEventHandler", modifiers: "&&", def_value: None }]

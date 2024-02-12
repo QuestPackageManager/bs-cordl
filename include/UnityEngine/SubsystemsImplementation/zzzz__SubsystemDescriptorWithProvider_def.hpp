@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithP
 namespace UnityEngine::SubsystemsImplementation {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15972))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16095))
 // CS Name: ::UnityEngine.SubsystemsImplementation::SubsystemDescriptorWithProvider*
 class CORDL_TYPE SubsystemDescriptorWithProvider : public ::System::Object {
 public:
@@ -44,18 +44,18 @@ public:
 
   constexpr void __cordl_internal_set__id_k__BackingField(::StringW value);
 
-  /// @brief Method get_id, addr 0x2d1b498, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_id, addr 0x2d3bf40, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_id();
 
   /// @brief Method CreateImpl, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::ISubsystem* CreateImpl();
 
-  /// @brief Method UnityEngine.ISubsystemDescriptor.Create, addr 0x2d1b4a0, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ISubsystemDescriptor.Create, addr 0x2d3bf48, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::ISubsystem* UnityEngine_ISubsystemDescriptor_Create();
 
   static inline ::UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d1b4ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d3bf54, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SubsystemDescriptorWithProvider", modifiers: "&&", def_value: None }]

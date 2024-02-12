@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509ChainElem
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9005))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7015))
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509ChainElementEnumerator*
 class CORDL_TYPE X509ChainElementEnumerator : public ::System::Object {
 public:
@@ -53,19 +53,19 @@ public:
 
   static inline ::System::Security::Cryptography::X509Certificates::X509ChainElementEnumerator* New_ctor(::System::Collections::IEnumerable* enumerable);
 
-  /// @brief Method .ctor, addr 0x298033c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2983de0, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IEnumerable* enumerable);
 
-  /// @brief Method get_Current, addr 0x298060c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method get_Current, addr 0x29840b0, size 0xf0, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509ChainElement* get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x29806fc, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x29841a0, size 0xa4, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method MoveNext, addr 0x29807a0, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2984244, size 0xa0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method Reset, addr 0x2980840, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x29842e4, size 0xa4, virtual true, abstract: false, final true
   inline void Reset();
 
   // Ctor Parameters [CppParam { name: "", ty: "X509ChainElementEnumerator", modifiers: "&&", def_value: None }]

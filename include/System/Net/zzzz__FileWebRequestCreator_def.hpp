@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::System::Net::FileWebRequestCreator);
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9135))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7145))
 // CS Name: ::System.Net::FileWebRequestCreator*
 class CORDL_TYPE FileWebRequestCreator : public ::System::Object {
 public:
@@ -37,10 +37,10 @@ public:
 
   static inline ::System::Net::FileWebRequestCreator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29a358c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29a8030, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Create, addr 0x29b5dec, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method Create, addr 0x29ba890, size 0x60, virtual true, abstract: false, final true
   inline ::System::Net::WebRequest* Create(::System::Uri* uri);
 
   // Ctor Parameters [CppParam { name: "", ty: "FileWebRequestCreator", modifiers: "&&", def_value: None }]

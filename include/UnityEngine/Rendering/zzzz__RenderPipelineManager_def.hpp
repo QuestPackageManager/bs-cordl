@@ -41,7 +41,7 @@ MARK_REF_PTR_T(::UnityEngine::Rendering::RenderPipelineManager);
 namespace UnityEngine::Rendering {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10354))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9111))
 // CS Name: ::UnityEngine.Rendering::RenderPipelineManager*
 class CORDL_TYPE RenderPipelineManager : public ::System::Object {
 public:
@@ -96,35 +96,35 @@ public:
 
   static inline ::System::Action* getStaticF_activeRenderPipelineTypeChanged();
 
-  /// @brief Method get_currentPipeline, addr 0x2cecab0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_currentPipeline, addr 0x2cf3cfc, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RenderPipeline* get_currentPipeline();
 
-  /// @brief Method set_currentPipeline, addr 0x2cecb08, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method set_currentPipeline, addr 0x2cf3d54, size 0xb0, virtual false, abstract: false, final false
   static inline void set_currentPipeline(::UnityEngine::Rendering::RenderPipeline* value);
 
-  /// @brief Method add_beginCameraRendering, addr 0x2cecbb8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method add_beginCameraRendering, addr 0x2cf3e04, size 0xf4, virtual false, abstract: false, final false
   static inline void add_beginCameraRendering(::System::Action_2<::UnityEngine::Rendering::ScriptableRenderContext, ::UnityW<::UnityEngine::Camera>>* value);
 
-  /// @brief Method remove_beginCameraRendering, addr 0x2ceccac, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method remove_beginCameraRendering, addr 0x2cf3ef8, size 0xf4, virtual false, abstract: false, final false
   static inline void remove_beginCameraRendering(::System::Action_2<::UnityEngine::Rendering::ScriptableRenderContext, ::UnityW<::UnityEngine::Camera>>* value);
 
-  /// @brief Method OnActiveRenderPipelineTypeChanged, addr 0x2cecda0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method OnActiveRenderPipelineTypeChanged, addr 0x2cf3fec, size 0x74, virtual false, abstract: false, final false
   static inline void OnActiveRenderPipelineTypeChanged();
 
-  /// @brief Method HandleRenderPipelineChange, addr 0x2cece14, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method HandleRenderPipelineChange, addr 0x2cf4060, size 0x80, virtual false, abstract: false, final false
   static inline void HandleRenderPipelineChange(::UnityEngine::Rendering::RenderPipelineAsset* pipelineAsset);
 
-  /// @brief Method CleanupRenderPipeline, addr 0x2cece94, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method CleanupRenderPipeline, addr 0x2cf40e0, size 0x190, virtual false, abstract: false, final false
   static inline void CleanupRenderPipeline();
 
-  /// @brief Method GetCurrentPipelineAssetType, addr 0x2ced180, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentPipelineAssetType, addr 0x2cf42e8, size 0x58, virtual false, abstract: false, final false
   static inline ::StringW GetCurrentPipelineAssetType();
 
-  /// @brief Method DoRenderLoop_Internal, addr 0x2ced1d8, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method DoRenderLoop_Internal, addr 0x2cf4340, size 0x1dc, virtual false, abstract: false, final false
   static inline void DoRenderLoop_Internal(::UnityEngine::Rendering::RenderPipelineAsset* pipe, void* loopPtr,
                                            ::System::Collections::Generic::List_1<::UnityEngine::__Camera__RenderRequest>* renderRequests);
 
-  /// @brief Method PrepareRenderPipeline, addr 0x2ced3a0, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method PrepareRenderPipeline, addr 0x2cf451c, size 0x16c, virtual false, abstract: false, final false
   static inline void PrepareRenderPipeline(::UnityEngine::Rendering::RenderPipelineAsset* pipelineAsset);
 
   // Ctor Parameters [CppParam { name: "", ty: "RenderPipelineManager", modifiers: "&&", def_value: None }]

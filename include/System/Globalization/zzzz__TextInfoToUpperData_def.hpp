@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::System::Globalization::TextInfoToUpperData);
 namespace System::Globalization {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3718))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3716))
 // CS Name: ::System.Globalization::TextInfoToUpperData*
 class CORDL_TYPE TextInfoToUpperData : public ::System::Object {
 public:

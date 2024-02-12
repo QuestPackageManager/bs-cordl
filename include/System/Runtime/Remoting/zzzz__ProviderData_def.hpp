@@ -72,12 +72,12 @@ public:
 
   constexpr void __cordl_internal_set_CustomData(::System::Collections::IList* value);
 
-  /// @brief Method CopyFrom, addr 0x2489248, size 0x704, virtual false, abstract: false, final false
+  /// @brief Method CopyFrom, addr 0x24ab2bc, size 0x704, virtual false, abstract: false, final false
   inline void CopyFrom(::System::Runtime::Remoting::ProviderData* other);
 
   static inline ::System::Runtime::Remoting::ProviderData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x248d5e8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24af65c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ProviderData", modifiers: "&&", def_value: None }]

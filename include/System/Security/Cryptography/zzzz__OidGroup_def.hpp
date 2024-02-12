@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Security::Cryptography::OidGroup);
 namespace System::Security::Cryptography {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8975))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6985))
 // CS Name: ::System.Security.Cryptography::OidGroup
 struct CORDL_TYPE OidGroup {
 public:

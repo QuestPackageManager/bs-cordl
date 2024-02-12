@@ -74,7 +74,7 @@ MARK_REF_PTR_T(::Zenject::Internal::__ReflectionTypeInfo__InjectPropertyInfo);
 namespace Zenject::Internal {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11378))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10520))
 // CS Name: ::ReflectionTypeInfo::InjectFieldInfo*
 class CORDL_TYPE __ReflectionTypeInfo__InjectFieldInfo : public ::System::Object {
 public:
@@ -99,7 +99,7 @@ public:
 
   static inline ::Zenject::Internal::__ReflectionTypeInfo__InjectFieldInfo* New_ctor(::System::Reflection::FieldInfo* fieldInfo, ::Zenject::InjectableInfo* injectableInfo);
 
-  /// @brief Method .ctor, addr 0x2f23270, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f3f4f8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::FieldInfo* fieldInfo, ::Zenject::InjectableInfo* injectableInfo);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ReflectionTypeInfo__InjectFieldInfo", modifiers: "&&", def_value: None }]
@@ -137,7 +137,7 @@ static_assert(offsetof(::Zenject::Internal::__ReflectionTypeInfo__InjectFieldInf
 namespace Zenject::Internal {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11379))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10521))
 // CS Name: ::ReflectionTypeInfo::InjectParameterInfo*
 class CORDL_TYPE __ReflectionTypeInfo__InjectParameterInfo : public ::System::Object {
 public:
@@ -162,7 +162,7 @@ public:
 
   static inline ::Zenject::Internal::__ReflectionTypeInfo__InjectParameterInfo* New_ctor(::System::Reflection::ParameterInfo* parameterInfo, ::Zenject::InjectableInfo* injectableInfo);
 
-  /// @brief Method .ctor, addr 0x2f2329c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f3f524, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::ParameterInfo* parameterInfo, ::Zenject::InjectableInfo* injectableInfo);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ReflectionTypeInfo__InjectParameterInfo", modifiers: "&&", def_value: None }]
@@ -200,7 +200,7 @@ static_assert(offsetof(::Zenject::Internal::__ReflectionTypeInfo__InjectParamete
 namespace Zenject::Internal {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11380))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10522))
 // CS Name: ::ReflectionTypeInfo::InjectPropertyInfo*
 class CORDL_TYPE __ReflectionTypeInfo__InjectPropertyInfo : public ::System::Object {
 public:
@@ -225,7 +225,7 @@ public:
 
   static inline ::Zenject::Internal::__ReflectionTypeInfo__InjectPropertyInfo* New_ctor(::System::Reflection::PropertyInfo* propertyInfo, ::Zenject::InjectableInfo* injectableInfo);
 
-  /// @brief Method .ctor, addr 0x2f232c8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f3f550, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::PropertyInfo* propertyInfo, ::Zenject::InjectableInfo* injectableInfo);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ReflectionTypeInfo__InjectPropertyInfo", modifiers: "&&", def_value: None }]
@@ -263,7 +263,7 @@ static_assert(offsetof(::Zenject::Internal::__ReflectionTypeInfo__InjectProperty
 namespace Zenject::Internal {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11381))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10523))
 // CS Name: ::ReflectionTypeInfo::InjectMethodInfo*
 class CORDL_TYPE __ReflectionTypeInfo__InjectMethodInfo : public ::System::Object {
 public:
@@ -291,7 +291,7 @@ public:
   static inline ::Zenject::Internal::__ReflectionTypeInfo__InjectMethodInfo*
   New_ctor(::System::Reflection::MethodInfo* methodInfo, ::System::Collections::Generic::List_1<::Zenject::Internal::__ReflectionTypeInfo__InjectParameterInfo*>* parameters);
 
-  /// @brief Method .ctor, addr 0x2f232f4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f3f57c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::MethodInfo* methodInfo, ::System::Collections::Generic::List_1<::Zenject::Internal::__ReflectionTypeInfo__InjectParameterInfo*>* parameters);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ReflectionTypeInfo__InjectMethodInfo", modifiers: "&&", def_value: None }]
@@ -329,7 +329,7 @@ static_assert(offsetof(::Zenject::Internal::__ReflectionTypeInfo__InjectMethodIn
 namespace Zenject::Internal {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11382))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10524))
 // CS Name: ::ReflectionTypeInfo::InjectConstructorInfo*
 class CORDL_TYPE __ReflectionTypeInfo__InjectConstructorInfo : public ::System::Object {
 public:
@@ -357,7 +357,7 @@ public:
   static inline ::Zenject::Internal::__ReflectionTypeInfo__InjectConstructorInfo*
   New_ctor(::System::Reflection::ConstructorInfo* constructorInfo, ::System::Collections::Generic::List_1<::Zenject::Internal::__ReflectionTypeInfo__InjectParameterInfo*>* parameters);
 
-  /// @brief Method .ctor, addr 0x2f23320, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f3f5a8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::ConstructorInfo* constructorInfo, ::System::Collections::Generic::List_1<::Zenject::Internal::__ReflectionTypeInfo__InjectParameterInfo*>* parameters);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ReflectionTypeInfo__InjectConstructorInfo", modifiers: "&&", def_value: None }]
@@ -395,7 +395,7 @@ static_assert(offsetof(::Zenject::Internal::__ReflectionTypeInfo__InjectConstruc
 namespace Zenject::Internal {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11383))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10525))
 // CS Name: ::Zenject.Internal::ReflectionTypeInfo*
 class CORDL_TYPE ReflectionTypeInfo : public ::System::Object {
 public:
@@ -474,7 +474,7 @@ public:
                                                                   ::System::Collections::Generic::List_1<::Zenject::Internal::__ReflectionTypeInfo__InjectFieldInfo*>* injectFields,
                                                                   ::System::Collections::Generic::List_1<::Zenject::Internal::__ReflectionTypeInfo__InjectPropertyInfo*>* injectProperties);
 
-  /// @brief Method .ctor, addr 0x2f2321c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f3f4a4, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::System::Type* baseType, ::Zenject::Internal::__ReflectionTypeInfo__InjectConstructorInfo* injectConstructor,
                     ::System::Collections::Generic::List_1<::Zenject::Internal::__ReflectionTypeInfo__InjectMethodInfo*>* injectMethods,
                     ::System::Collections::Generic::List_1<::Zenject::Internal::__ReflectionTypeInfo__InjectFieldInfo*>* injectFields,

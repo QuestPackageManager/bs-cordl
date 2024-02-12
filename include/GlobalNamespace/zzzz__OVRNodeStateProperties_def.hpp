@@ -40,7 +40,7 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRNodeStateProperties);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7534))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7614))
 // CS Name: ::OVRNodeStateProperties*
 class CORDL_TYPE OVRNodeStateProperties : public ::System::Object {
 public:
@@ -52,24 +52,24 @@ public:
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::XR::XRNodeState>* getStaticF_nodeStateList();
 
-  /// @brief Method IsHmdPresent, addr 0x2717c70, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method IsHmdPresent, addr 0x2745240, size 0xd8, virtual false, abstract: false, final false
   static inline bool IsHmdPresent();
 
-  /// @brief Method GetNodeStatePropertyVector3, addr 0x271288c, size 0x32c, virtual false, abstract: false, final false
+  /// @brief Method GetNodeStatePropertyVector3, addr 0x2745318, size 0x32c, virtual false, abstract: false, final false
   static inline bool GetNodeStatePropertyVector3(::UnityEngine::XR::XRNode nodeType, ::GlobalNamespace::NodeStatePropertyType propertyType, ::GlobalNamespace::__OVRPlugin__Node ovrpNodeType,
                                                  ::GlobalNamespace::__OVRPlugin__Step stepType, ByRef<::UnityEngine::Vector3> retVec);
 
-  /// @brief Method GetNodeStatePropertyQuaternion, addr 0x2712bb8, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method GetNodeStatePropertyQuaternion, addr 0x2745644, size 0x160, virtual false, abstract: false, final false
   static inline bool GetNodeStatePropertyQuaternion(::UnityEngine::XR::XRNode nodeType, ::GlobalNamespace::NodeStatePropertyType propertyType, ::GlobalNamespace::__OVRPlugin__Node ovrpNodeType,
                                                     ::GlobalNamespace::__OVRPlugin__Step stepType, ByRef<::UnityEngine::Quaternion> retQuat);
 
-  /// @brief Method ValidateProperty, addr 0x271a05c, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method ValidateProperty, addr 0x2747828, size 0x204, virtual false, abstract: false, final false
   static inline bool ValidateProperty(::UnityEngine::XR::XRNode nodeType, ByRef<::UnityEngine::XR::XRNodeState> requestedNodeState);
 
-  /// @brief Method GetUnityXRNodeStateVector3, addr 0x2719dec, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method GetUnityXRNodeStateVector3, addr 0x27475b8, size 0x178, virtual false, abstract: false, final false
   static inline bool GetUnityXRNodeStateVector3(::UnityEngine::XR::XRNode nodeType, ::GlobalNamespace::NodeStatePropertyType propertyType, ByRef<::UnityEngine::Vector3> retVec);
 
-  /// @brief Method GetUnityXRNodeStateQuaternion, addr 0x2719f64, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method GetUnityXRNodeStateQuaternion, addr 0x2747730, size 0xf8, virtual false, abstract: false, final false
   static inline bool GetUnityXRNodeStateQuaternion(::UnityEngine::XR::XRNode nodeType, ::GlobalNamespace::NodeStatePropertyType propertyType, ByRef<::UnityEngine::Quaternion> retQuat);
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRNodeStateProperties", modifiers: "&&", def_value: None }]

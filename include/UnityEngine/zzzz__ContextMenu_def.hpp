@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::UnityEngine::ContextMenu);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10217))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8961))
 // CS Name: ::UnityEngine::ContextMenu*
 class CORDL_TYPE ContextMenu : public ::System::Attribute {
 public:
@@ -51,17 +51,17 @@ public:
 
   static inline ::UnityEngine::ContextMenu* New_ctor(::StringW itemName);
 
-  /// @brief Method .ctor, addr 0x2cd2834, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cd97dc, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::StringW itemName);
 
   static inline ::UnityEngine::ContextMenu* New_ctor(::StringW itemName, bool isValidateFunction);
 
-  /// @brief Method .ctor, addr 0x2cd286c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cd9814, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW itemName, bool isValidateFunction);
 
   static inline ::UnityEngine::ContextMenu* New_ctor(::StringW itemName, bool isValidateFunction, int32_t priority);
 
-  /// @brief Method .ctor, addr 0x2cd28a8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cd9850, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::StringW itemName, bool isValidateFunction, int32_t priority);
 
   // Ctor Parameters [CppParam { name: "", ty: "ContextMenu", modifiers: "&&", def_value: None }]

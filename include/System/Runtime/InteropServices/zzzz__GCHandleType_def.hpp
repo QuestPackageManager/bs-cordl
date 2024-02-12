@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Runtime::InteropServices::GCHandleType);
 namespace System::Runtime::InteropServices {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3308))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3306))
 // CS Name: ::System.Runtime.InteropServices::GCHandleType
 struct CORDL_TYPE GCHandleType {
 public:

@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SignalCopyBinder::*)()>(&::Zenject::SignalCopyBinder::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x2ec24c8;
+  constexpr static std::size_t addrs = 0x2ede610;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SignalCopyBinder*>::get(), ".ctor",
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SignalCopyBinder::*)(::Zenject::BindInfo*)>(&::Zenject::SignalCopyBinder::_ctor)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x2ec2548;
+  constexpr static std::size_t addrs = 0x2ede690;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SignalCopyBinder::*)(::Zenject::BindInfo*)>(&::Zenject::SignalCopyBinder::AddCopyBindInfo)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x2ec2640;
+  constexpr static std::size_t addrs = 0x2ede788;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SignalCopyBinder::*)()>(&::Zenject::SignalCopyBinder::CopyIntoAllSubContainers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ec26e8;
+  constexpr static std::size_t addrs = 0x2ede830;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SignalCopyBinder*>::get(), "CopyIntoAllSubContainers",
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SignalCopyBinder::*)()>(&::Zenject::SignalCopyBinder::CopyIntoDirectSubContainers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ec2784;
+  constexpr static std::size_t addrs = 0x2ede8cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SignalCopyBinder*>::get(),
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SignalCopyBinder::*)()>(&::Zenject::SignalCopyBinder::MoveIntoAllSubContainers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ec278c;
+  constexpr static std::size_t addrs = 0x2ede8d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SignalCopyBinder*>::get(), "MoveIntoAllSubContainers",
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SignalCopyBinder::*)()>(&::Zenject::SignalCopyBinder::MoveIntoDirectSubContainers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ec2794;
+  constexpr static std::size_t addrs = 0x2ede8dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SignalCopyBinder*>::get(),
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SignalCopyBinder::*)(::Zenject::BindingInheritanceMethods)>(
     &::Zenject::SignalCopyBinder::SetInheritanceMethod)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x2ec26f0;
+  constexpr static std::size_t addrs = 0x2ede838;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

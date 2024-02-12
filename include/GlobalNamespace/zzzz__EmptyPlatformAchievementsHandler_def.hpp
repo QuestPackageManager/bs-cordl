@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::GlobalNamespace::EmptyPlatformAchievementsHandler);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4090))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10551))
 // CS Name: ::EmptyPlatformAchievementsHandler*
 class CORDL_TYPE EmptyPlatformAchievementsHandler : public ::System::Object {
 public:
@@ -39,18 +39,18 @@ public:
   /// @brief Convert to "::GlobalNamespace::IPlatformAchievementsHandler"
   constexpr ::GlobalNamespace::IPlatformAchievementsHandler* i___GlobalNamespace__IPlatformAchievementsHandler() noexcept;
 
-  /// @brief Method Initialize, addr 0x2233214, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x125d0e0, size 0x4, virtual true, abstract: false, final true
   inline void Initialize();
 
-  /// @brief Method UnlockAchievement, addr 0x2233218, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnlockAchievement, addr 0x125d0e4, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::HMAsyncRequest* UnlockAchievement(::StringW achievementId, ::GlobalNamespace::__IPlatformAchievementsHandler__UnlockAchievementCompletionHandler* completionHandler);
 
-  /// @brief Method GetUnlockedAchievements, addr 0x2233220, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetUnlockedAchievements, addr 0x125d0ec, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::HMAsyncRequest* GetUnlockedAchievements(::GlobalNamespace::__IPlatformAchievementsHandler__GetUnlockedAchievementsCompletionHandler* completionHandler);
 
   static inline ::GlobalNamespace::EmptyPlatformAchievementsHandler* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2233228, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x125d0f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EmptyPlatformAchievementsHandler", modifiers: "&&", def_value: None }]

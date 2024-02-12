@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::LeaderboardTableCell);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(13664))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5427))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8995)), TypeDefinitionIndex(TypeDefinitionIndex(13617))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4730))
 // CS Name: ::LeaderboardTableCell*
 class CORDL_TYPE LeaderboardTableCell : public ::HMUI::TableCell {
 public:
@@ -104,27 +104,27 @@ public:
 
   constexpr void __cordl_internal_set__separatorImage(::UnityW<::UnityEngine::UI::Image> value);
 
-  /// @brief Method set_rank, addr 0x227aa18, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_rank, addr 0x23d65a4, size 0x48, virtual false, abstract: false, final false
   inline void set_rank(int32_t value);
 
-  /// @brief Method set_playerName, addr 0x227aa60, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_playerName, addr 0x23d65ec, size 0x24, virtual false, abstract: false, final false
   inline void set_playerName(::StringW value);
 
-  /// @brief Method set_score, addr 0x227aa84, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method set_score, addr 0x23d6610, size 0xa0, virtual false, abstract: false, final false
   inline void set_score(int32_t value);
 
-  /// @brief Method set_showSeparator, addr 0x227ab24, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_showSeparator, addr 0x23d66b0, size 0x20, virtual false, abstract: false, final false
   inline void set_showSeparator(bool value);
 
-  /// @brief Method set_showFullCombo, addr 0x227ab44, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_showFullCombo, addr 0x23d66d0, size 0x20, virtual false, abstract: false, final false
   inline void set_showFullCombo(bool value);
 
-  /// @brief Method set_specialScore, addr 0x227ab64, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method set_specialScore, addr 0x23d66f0, size 0xf8, virtual false, abstract: false, final false
   inline void set_specialScore(bool value);
 
   static inline ::GlobalNamespace::LeaderboardTableCell* New_ctor();
 
-  /// @brief Method .ctor, addr 0x227ac5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d67e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LeaderboardTableCell", modifiers: "&&", def_value: None }]

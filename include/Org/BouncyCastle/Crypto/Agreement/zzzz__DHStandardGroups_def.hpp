@@ -322,21 +322,21 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* getStaticF_rfc7919_ffdhe8192();
 
-  /// @brief Method FromHex, addr 0x1219d50, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method FromHex, addr 0x1246be0, size 0xa0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* FromHex(::StringW hex);
 
-  /// @brief Method FromPG, addr 0x1219df0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method FromPG, addr 0x1246c80, size 0xb4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* FromPG(::StringW hexP, ::StringW hexG);
 
-  /// @brief Method SafePrimeGen2, addr 0x1219ea4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method SafePrimeGen2, addr 0x1246d34, size 0x58, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* SafePrimeGen2(::StringW hexP);
 
-  /// @brief Method SafePrimeGen2, addr 0x1219efc, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method SafePrimeGen2, addr 0x1246d8c, size 0xd0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* SafePrimeGen2(::StringW hexP, int32_t l);
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::DHStandardGroups* New_ctor();
 
-  /// @brief Method .ctor, addr 0x121a460, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12472f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DHStandardGroups", modifiers: "&&", def_value: None }]

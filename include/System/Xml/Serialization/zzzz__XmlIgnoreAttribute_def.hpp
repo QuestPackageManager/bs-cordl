@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::System::Xml::Serialization::XmlIgnoreAttribute);
 namespace System::Xml::Serialization {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11589))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11487))
 // CS Name: ::System.Xml.Serialization::XmlIgnoreAttribute*
 class CORDL_TYPE XmlIgnoreAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::System::Xml::Serialization::XmlIgnoreAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28abf54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28af5bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlIgnoreAttribute", modifiers: "&&", def_value: None }]

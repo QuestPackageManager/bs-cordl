@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__AutomaticSFXVolume__InitData);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4054))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4000))
 // CS Name: ::AutomaticSFXVolume::InitData*
 class CORDL_TYPE __AutomaticSFXVolume__InitData : public ::System::Object {
 public:
@@ -66,7 +66,7 @@ public:
 
   static inline ::GlobalNamespace::__AutomaticSFXVolume__InitData* New_ctor(float_t volumeOffset, bool adaptiveSfx, float_t maxVolume);
 
-  /// @brief Method .ctor, addr 0x222c538, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b61d0, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(float_t volumeOffset, bool adaptiveSfx, float_t maxVolume);
 
   // Ctor Parameters [CppParam { name: "", ty: "__AutomaticSFXVolume__InitData", modifiers: "&&", def_value: None }]
@@ -108,8 +108,8 @@ static_assert(offsetof(::GlobalNamespace::__AutomaticSFXVolume__InitData, ___ada
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4055))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4001))
 // CS Name: ::AutomaticSFXVolume*
 class CORDL_TYPE AutomaticSFXVolume : public ::UnityEngine::MonoBehaviour {
 public:
@@ -215,27 +215,27 @@ public:
 
   constexpr void __cordl_internal_set__maxVolume(float_t value);
 
-  /// @brief Method Start, addr 0x222c278, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x22b5f18, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDisable, addr 0x222c2f4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x22b5f94, size 0x84, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnValidate, addr 0x222c37c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x22b6018, size 0x4, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method RecalculateParams, addr 0x222c27c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method RecalculateParams, addr 0x22b5f1c, size 0x78, virtual false, abstract: false, final false
   inline void RecalculateParams();
 
-  /// @brief Method OnAudioFilterRead, addr 0x222c380, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method OnAudioFilterRead, addr 0x22b601c, size 0x154, virtual false, abstract: false, final false
   inline void OnAudioFilterRead(::ArrayW<float_t, ::Array<float_t>*> data, int32_t channels);
 
-  /// @brief Method Update, addr 0x222c4d4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x22b6170, size 0x4c, virtual false, abstract: false, final false
   inline void Update();
 
   static inline ::GlobalNamespace::AutomaticSFXVolume* New_ctor();
 
-  /// @brief Method .ctor, addr 0x222c524, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b61bc, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AutomaticSFXVolume", modifiers: "&&", def_value: None }]

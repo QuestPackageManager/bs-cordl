@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MaterialPropertyBlockFloatAnimator);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14563))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14567))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14457))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14462))
 // CS Name: ::MaterialPropertyBlockFloatAnimator*
 class CORDL_TYPE MaterialPropertyBlockFloatAnimator : public ::GlobalNamespace::MaterialPropertyBlockAnimator {
 public:
@@ -30,12 +30,12 @@ public:
 
   constexpr void __cordl_internal_set__value(float_t value);
 
-  /// @brief Method SetProperty, addr 0x2115070, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method SetProperty, addr 0x21a994c, size 0x30, virtual true, abstract: false, final false
   inline void SetProperty();
 
   static inline ::GlobalNamespace::MaterialPropertyBlockFloatAnimator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21150a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21a997c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockFloatAnimator", modifiers: "&&", def_value: None }]

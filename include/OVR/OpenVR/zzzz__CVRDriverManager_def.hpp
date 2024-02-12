@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::OVR::OpenVR::CVRDriverManager);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8521))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8575))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8465))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8519))
 // CS Name: ::OVR.OpenVR::CVRDriverManager*
 class CORDL_TYPE CVRDriverManager : public ::System::Object {
 public:
@@ -37,16 +37,16 @@ public:
 
   static inline ::OVR::OpenVR::CVRDriverManager* New_ctor(void* pInterface);
 
-  /// @brief Method .ctor, addr 0x27f58f0, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28030a8, size 0x114, virtual false, abstract: false, final false
   inline void _ctor(void* pInterface);
 
-  /// @brief Method GetDriverCount, addr 0x27f5a04, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetDriverCount, addr 0x28031bc, size 0x24, virtual false, abstract: false, final false
   inline uint32_t GetDriverCount();
 
-  /// @brief Method GetDriverName, addr 0x27f5a28, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetDriverName, addr 0x28031e0, size 0x24, virtual false, abstract: false, final false
   inline uint32_t GetDriverName(uint32_t nDriver, ::System::Text::StringBuilder* pchValue, uint32_t unBufferSize);
 
-  /// @brief Method GetDriverHandle, addr 0x27f5a4c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetDriverHandle, addr 0x2803204, size 0x24, virtual false, abstract: false, final false
   inline uint64_t GetDriverHandle(::StringW pchDriverName);
 
   // Ctor Parameters [CppParam { name: "", ty: "CVRDriverManager", modifiers: "&&", def_value: None }]

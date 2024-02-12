@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::AmbientTemperatureSensor);
 // SizeInfo { instance_size: 352, native_size: -1, calculated_instance_size: 352, calculated_native_size: 352, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6274))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6285))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5533))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5544))
 // CS Name: ::UnityEngine.InputSystem::AmbientTemperatureSensor*
 class CORDL_TYPE AmbientTemperatureSensor : public ::UnityEngine::InputSystem::Sensor {
 public:
@@ -42,30 +42,30 @@ public:
 
   static inline ::UnityEngine::InputSystem::AmbientTemperatureSensor* getStaticF__current_k__BackingField();
 
-  /// @brief Method get_ambientTemperature, addr 0x2aa8fac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ambientTemperature, addr 0x2aaab18, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_ambientTemperature();
 
-  /// @brief Method set_ambientTemperature, addr 0x2aa8fb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ambientTemperature, addr 0x2aaab20, size 0x8, virtual false, abstract: false, final false
   inline void set_ambientTemperature(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method get_current, addr 0x2aa8fbc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_current, addr 0x2aaab28, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::AmbientTemperatureSensor* get_current();
 
-  /// @brief Method set_current, addr 0x2aa9004, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_current, addr 0x2aaab70, size 0x4c, virtual false, abstract: false, final false
   static inline void set_current(::UnityEngine::InputSystem::AmbientTemperatureSensor* value);
 
-  /// @brief Method MakeCurrent, addr 0x2aa9050, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method MakeCurrent, addr 0x2aaabbc, size 0x54, virtual true, abstract: false, final false
   inline void MakeCurrent();
 
-  /// @brief Method OnRemoved, addr 0x2aa90a4, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method OnRemoved, addr 0x2aaac10, size 0x84, virtual true, abstract: false, final false
   inline void OnRemoved();
 
-  /// @brief Method FinishSetup, addr 0x2aa9128, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x2aaac94, size 0x78, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::InputSystem::AmbientTemperatureSensor* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2aa91a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aaad0c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AmbientTemperatureSensor", modifiers: "&&", def_value: None }]

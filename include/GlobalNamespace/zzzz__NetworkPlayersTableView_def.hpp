@@ -62,7 +62,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__NetworkPlayersTableView__CellInfo);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5585))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4890))
 // CS Name: ::NetworkPlayersTableView::CellInfo::CellType
 struct CORDL_TYPE __NetworkPlayersTableView__CellInfo__CellType {
 public:
@@ -115,8 +115,8 @@ static_assert(offsetof(::GlobalNamespace::__NetworkPlayersTableView__CellInfo__C
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5585))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5586))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4890))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4891))
 // CS Name: ::NetworkPlayersTableView::CellInfo*
 class CORDL_TYPE __NetworkPlayersTableView__CellInfo : public ::System::Object {
 public:
@@ -161,7 +161,7 @@ public:
 
   static inline ::GlobalNamespace::__NetworkPlayersTableView__CellInfo* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22a958c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22dc9c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__NetworkPlayersTableView__CellInfo", modifiers: "&&", def_value: None }]
@@ -208,8 +208,8 @@ static_assert(offsetof(::GlobalNamespace::__NetworkPlayersTableView__CellInfo, _
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 89, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5587))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4892))
 // CS Name: ::NetworkPlayersTableView*
 class CORDL_TYPE NetworkPlayersTableView : public ::UnityEngine::MonoBehaviour {
 public:
@@ -304,31 +304,31 @@ public:
 
   constexpr void __cordl_internal_set__selectedCellHasOptions(bool value);
 
-  /// @brief Method CellSize, addr 0x22a87f8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method CellSize, addr 0x22dbc2c, size 0x8, virtual true, abstract: false, final true
   inline float_t CellSize();
 
-  /// @brief Method NumberOfCells, addr 0x22a8800, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method NumberOfCells, addr 0x22dbc34, size 0x48, virtual true, abstract: false, final true
   inline int32_t NumberOfCells();
 
-  /// @brief Method CellForIdx, addr 0x22a8848, size 0x5c4, virtual true, abstract: false, final true
+  /// @brief Method CellForIdx, addr 0x22dbc7c, size 0x5c4, virtual true, abstract: false, final true
   inline ::UnityW<::HMUI::TableCell> CellForIdx(::HMUI::TableView* tableView, int32_t row);
 
-  /// @brief Method AddPlayers, addr 0x22a8ed4, size 0x6b8, virtual false, abstract: false, final false
+  /// @brief Method AddPlayers, addr 0x22dc308, size 0x6b8, virtual false, abstract: false, final false
   inline void AddPlayers(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* players, ::StringW title);
 
-  /// @brief Method SetParties, addr 0x22a98e4, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method SetParties, addr 0x22dcd18, size 0x13c, virtual false, abstract: false, final false
   inline void SetParties(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* partyPlayers,
                          ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* otherPlayers, ::StringW myPartyTitle, ::StringW otherPlayersTitle);
 
-  /// @brief Method HandleCellWasPressed, addr 0x22a9a20, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleCellWasPressed, addr 0x22dce54, size 0x4, virtual false, abstract: false, final false
   inline void HandleCellWasPressed(::HMUI::TableView* tableView, ::HMUI::TableCell* tableCell);
 
-  /// @brief Method HasVisibleOptions, addr 0x22a9594, size 0x350, virtual false, abstract: false, final false
+  /// @brief Method HasVisibleOptions, addr 0x22dc9c8, size 0x350, virtual false, abstract: false, final false
   static inline bool HasVisibleOptions(::GlobalNamespace::INetworkPlayer* player);
 
   static inline ::GlobalNamespace::NetworkPlayersTableView* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22a9a24, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22dce58, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayersTableView", modifiers: "&&", def_value: None }]

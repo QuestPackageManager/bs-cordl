@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::System::Net::Configuration::SocketElement);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Configuration {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16257))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9578))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16432))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7589))
 // CS Name: ::System.Net.Configuration::SocketElement*
 class CORDL_TYPE SocketElement : public ::System::Configuration::ConfigurationElement {
 public:
@@ -27,10 +27,10 @@ public:
 
   static inline ::System::Net::Configuration::SocketElement* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29450d4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29497d0, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Properties, addr 0x294510c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x2949808, size 0x38, virtual true, abstract: false, final false
   inline ::System::Configuration::ConfigurationPropertyCollection* get_Properties();
 
   // Ctor Parameters [CppParam { name: "", ty: "SocketElement", modifiers: "&&", def_value: None }]

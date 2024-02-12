@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaException);
 namespace System::Xml::Schema {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2481))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11726))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11624))
 // CS Name: ::System.Xml.Schema::XmlSchemaException*
 class CORDL_TYPE XmlSchemaException : public ::System::SystemException {
 public:
@@ -102,53 +102,53 @@ public:
 
   static inline ::System::Xml::Schema::XmlSchemaException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x28c8240, size 0x3b8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28ca8a8, size 0x3b8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetObjectData, addr 0x28c86bc, size 0x170, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x28cad24, size 0x170, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Xml::Schema::XmlSchemaException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28c882c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28cae94, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Xml::Schema::XmlSchemaException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x28c8840, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28caea8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::System::Xml::Schema::XmlSchemaException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x28bec50, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28c12b8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
   static inline ::System::Xml::Schema::XmlSchemaException* New_ctor(::StringW message, ::System::Exception* innerException, int32_t lineNumber, int32_t linePosition);
 
-  /// @brief Method .ctor, addr 0x28c8850, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28caeb8, size 0x124, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException, int32_t lineNumber, int32_t linePosition);
 
   static inline ::System::Xml::Schema::XmlSchemaException* New_ctor(::StringW res, ::StringW arg);
 
-  /// @brief Method .ctor, addr 0x28b90e0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28bb748, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::StringW res, ::StringW arg);
 
   static inline ::System::Xml::Schema::XmlSchemaException* New_ctor(::StringW res, ::StringW arg, ::StringW sourceUri, int32_t lineNumber, int32_t linePosition);
 
-  /// @brief Method .ctor, addr 0x28c89fc, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28cb064, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(::StringW res, ::StringW arg, ::StringW sourceUri, int32_t lineNumber, int32_t linePosition);
 
   static inline ::System::Xml::Schema::XmlSchemaException* New_ctor(::StringW res, ::ArrayW<::StringW, ::Array<::StringW>*> args, ::System::Exception* innerException, ::StringW sourceUri,
                                                                     int32_t lineNumber, int32_t linePosition, ::System::Xml::Schema::XmlSchemaObject* source);
 
-  /// @brief Method .ctor, addr 0x28c8974, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28cafdc, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::StringW res, ::ArrayW<::StringW, ::Array<::StringW>*> args, ::System::Exception* innerException, ::StringW sourceUri, int32_t lineNumber, int32_t linePosition,
                     ::System::Xml::Schema::XmlSchemaObject* source);
 
-  /// @brief Method CreateMessage, addr 0x28c85f8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method CreateMessage, addr 0x28cac60, size 0xc4, virtual false, abstract: false, final false
   static inline ::StringW CreateMessage(::StringW res, ::ArrayW<::StringW, ::Array<::StringW>*> args);
 
-  /// @brief Method get_Message, addr 0x28c8af0, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x28cb158, size 0x18, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaException", modifiers: "&&", def_value: None }]

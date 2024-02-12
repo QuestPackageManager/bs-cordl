@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::ColorChangeUIEventType);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13497))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13450))
 // CS Name: ::ColorChangeUIEventType
 struct CORDL_TYPE ColorChangeUIEventType {
 public:

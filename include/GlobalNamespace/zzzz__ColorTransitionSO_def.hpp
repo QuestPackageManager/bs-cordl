@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorTransitionSO);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5443))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5448))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4746))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4751))
 // CS Name: ::ColorTransitionSO*
 class CORDL_TYPE ColorTransitionSO : public ::GlobalNamespace::BaseTransitionSO {
 public:
@@ -93,27 +93,27 @@ public:
 
   constexpr void __cordl_internal_set__selectedAndHighlightedColor(::UnityW<::GlobalNamespace::ColorSO> value);
 
-  /// @brief Method get_normalColor, addr 0x227d2f0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_normalColor, addr 0x23d8ba8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_normalColor();
 
-  /// @brief Method get_highlightedColor, addr 0x227d560, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_highlightedColor, addr 0x23d8e18, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_highlightedColor();
 
-  /// @brief Method get_pressedColor, addr 0x227d598, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_pressedColor, addr 0x23d8e50, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_pressedColor();
 
-  /// @brief Method get_disabledColor, addr 0x227d5d0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_disabledColor, addr 0x23d8e88, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_disabledColor();
 
-  /// @brief Method get_selectedColor, addr 0x227d608, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_selectedColor, addr 0x23d8ec0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_selectedColor();
 
-  /// @brief Method get_selectedAndHighlightedColor, addr 0x227d640, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_selectedAndHighlightedColor, addr 0x23d8ef8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_selectedAndHighlightedColor();
 
   static inline ::GlobalNamespace::ColorTransitionSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x227de4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d9704, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ColorTransitionSO", modifiers: "&&", def_value: None }]

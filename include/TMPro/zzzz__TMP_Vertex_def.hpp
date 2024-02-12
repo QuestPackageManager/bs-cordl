@@ -26,8 +26,8 @@ MARK_VAL_T(::TMPro::TMP_Vertex);
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10250))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12329))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8987)), TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(8994))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12227))
 // CS Name: ::TMPro::TMP_Vertex
 struct CORDL_TYPE TMP_Vertex {
 public:
@@ -39,7 +39,7 @@ public:
 
   static inline ::TMPro::TMP_Vertex getStaticF_k_Zero();
 
-  /// @brief Method get_zero, addr 0x2c01800, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_zero, addr 0x2bfe36c, size 0x68, virtual false, abstract: false, final false
   static inline ::TMPro::TMP_Vertex get_zero();
 
   // Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "uv", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None

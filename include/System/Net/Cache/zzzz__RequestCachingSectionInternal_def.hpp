@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::System::Net::Cache::RequestCachingSectionInternal);
 namespace System::Net::Cache {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9319))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7329))
 // CS Name: ::System.Net.Cache::RequestCachingSectionInternal*
 class CORDL_TYPE RequestCachingSectionInternal : public ::System::Object {
 public:
@@ -31,7 +31,7 @@ public:
 
   static inline ::System::Net::Cache::RequestCachingSectionInternal* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29f12b0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29f5d54, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RequestCachingSectionInternal", modifiers: "&&", def_value: None }]

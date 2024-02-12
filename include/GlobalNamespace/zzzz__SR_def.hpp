@@ -23,16 +23,31 @@ MARK_REF_PTR_T(::GlobalNamespace::SR);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11401))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2222))
 // CS Name: ::SR*
 class CORDL_TYPE SR : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetString, addr 0x284d624, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetString, addr 0x2431bec, size 0x70, virtual false, abstract: false, final false
   static inline ::StringW GetString(::StringW name, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method GetString, addr 0x284d694, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetString, addr 0x2431c5c, size 0x8, virtual false, abstract: false, final false
   static inline ::StringW GetString(::System::Globalization::CultureInfo* culture, ::StringW name, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
+
+  /// @brief Method GetString, addr 0x2431c64, size 0x4, virtual false, abstract: false, final false
+  static inline ::StringW GetString(::StringW name);
+
+  /// @brief Method Format, addr 0x2430c38, size 0x70, virtual false, abstract: false, final false
+  static inline ::StringW Format(::StringW resourceFormat, ::System::Object* p1);
+
+  /// @brief Method Format, addr 0x2431c68, size 0x78, virtual false, abstract: false, final false
+  static inline ::StringW Format(::StringW resourceFormat, ::System::Object* p1, ::System::Object* p2);
+
+  /// @brief Method Format, addr 0x2431ce0, size 0x88, virtual false, abstract: false, final false
+  static inline ::StringW Format(::StringW resourceFormat, ::System::Object* p1, ::System::Object* p2, ::System::Object* p3);
+
+  /// @brief Method GetResourceString, addr 0x2431d68, size 0x4, virtual false, abstract: false, final false
+  static inline ::StringW GetResourceString(::StringW str);
 
   // Ctor Parameters [CppParam { name: "", ty: "SR", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

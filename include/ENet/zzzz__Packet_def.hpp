@@ -27,7 +27,7 @@ MARK_VAL_T(::ENet::Packet);
 namespace ENet {
 // Is value type: true
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15232))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15345))
 // CS Name: ::ENet::Packet
 struct CORDL_TYPE Packet {
 public:
@@ -50,67 +50,67 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable();
 
-  /// @brief Method get_NativeData, addr 0x21efeb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NativeData, addr 0x2285798, size 0x8, virtual false, abstract: false, final false
   inline void* get_NativeData();
 
-  /// @brief Method set_NativeData, addr 0x21efeb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_NativeData, addr 0x22857a0, size 0x8, virtual false, abstract: false, final false
   inline void set_NativeData(void* value);
 
-  /// @brief Method .ctor, addr 0x21efec0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22857a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(void* packet);
 
-  /// @brief Method Dispose, addr 0x21efec8, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x22857b0, size 0x74, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method get_IsSet, addr 0x21effb8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_IsSet, addr 0x22858a0, size 0x54, virtual false, abstract: false, final false
   inline bool get_IsSet();
 
-  /// @brief Method get_Data, addr 0x21f000c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Data, addr 0x22858f4, size 0x18, virtual false, abstract: false, final false
   inline void* get_Data();
 
-  /// @brief Method get_UserData, addr 0x21f0148, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_UserData, addr 0x2285a30, size 0x18, virtual false, abstract: false, final false
   inline void* get_UserData();
 
-  /// @brief Method set_UserData, addr 0x21f01dc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_UserData, addr 0x2285ac4, size 0x28, virtual false, abstract: false, final false
   inline void set_UserData(void* value);
 
-  /// @brief Method get_Length, addr 0x21f0288, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Length, addr 0x2285b70, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
-  /// @brief Method get_HasReferences, addr 0x21f031c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_HasReferences, addr 0x2285c04, size 0x24, virtual false, abstract: false, final false
   inline bool get_HasReferences();
 
-  /// @brief Method ThrowIfNotCreated, addr 0x21f0024, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method ThrowIfNotCreated, addr 0x228590c, size 0xa8, virtual false, abstract: false, final false
   inline void ThrowIfNotCreated();
 
-  /// @brief Method SetFreeCallback, addr 0x21f03bc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SetFreeCallback, addr 0x2285ca4, size 0x28, virtual false, abstract: false, final false
   inline void SetFreeCallback(void* callback);
 
-  /// @brief Method SetFreeCallback, addr 0x21f0468, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method SetFreeCallback, addr 0x2285d50, size 0x90, virtual false, abstract: false, final false
   inline void SetFreeCallback(::ENet::PacketFreeCallback* callback);
 
-  /// @brief Method Create, addr 0x21f04f8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2285de0, size 0x64, virtual false, abstract: false, final false
   inline void Create(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method Create, addr 0x21f055c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2285e44, size 0x8, virtual false, abstract: false, final false
   inline void Create(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t length);
 
-  /// @brief Method Create, addr 0x21f063c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2285f24, size 0x1c, virtual false, abstract: false, final false
   inline void Create(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::ENet::PacketFlags flags);
 
-  /// @brief Method Create, addr 0x21f0564, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2285e4c, size 0xd8, virtual false, abstract: false, final false
   inline void Create(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t length, ::ENet::PacketFlags flags);
 
-  /// @brief Method Create, addr 0x21f06f4, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2285fdc, size 0x120, virtual false, abstract: false, final false
   inline void Create(void* data, int32_t length, ::ENet::PacketFlags flags);
 
-  /// @brief Method Create, addr 0x21f08a8, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2286190, size 0x120, virtual false, abstract: false, final false
   inline void Create(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t offset, int32_t length, ::ENet::PacketFlags flags);
 
-  /// @brief Method Create, addr 0x21f0a6c, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2286354, size 0x160, virtual false, abstract: false, final false
   inline void Create(void* data, int32_t offset, int32_t length, ::ENet::PacketFlags flags);
 
-  /// @brief Method CopyTo, addr 0x21f0c68, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x2286550, size 0x100, virtual false, abstract: false, final false
   inline void CopyTo(::ArrayW<uint8_t, ::Array<uint8_t>*> destination, int32_t startPos);
 
   // Ctor Parameters [CppParam { name: "nativePacket", ty: "void*", modifiers: "", def_value: None }]

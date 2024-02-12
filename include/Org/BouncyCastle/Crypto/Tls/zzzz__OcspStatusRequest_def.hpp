@@ -53,19 +53,19 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest* New_ctor(::System::Collections::IList* responderIDList, ::Org::BouncyCastle::Asn1::X509::X509Extensions* requestExtensions);
 
-  /// @brief Method .ctor, addr 0xf9208c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfbdf1c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IList* responderIDList, ::Org::BouncyCastle::Asn1::X509::X509Extensions* requestExtensions);
 
-  /// @brief Method get_ResponderIDList, addr 0xf920b8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ResponderIDList, addr 0xfbdf48, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::IList* get_ResponderIDList();
 
-  /// @brief Method get_RequestExtensions, addr 0xf920c0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_RequestExtensions, addr 0xfbdf50, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* get_RequestExtensions();
 
-  /// @brief Method Encode, addr 0xf920c8, size 0x3c0, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0xfbdf58, size 0x3c0, virtual true, abstract: false, final false
   inline void Encode(::System::IO::Stream* output);
 
-  /// @brief Method Parse, addr 0xf92488, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0xfbe318, size 0x2ac, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest* Parse(::System::IO::Stream* input);
 
   // Ctor Parameters [CppParam { name: "", ty: "OcspStatusRequest", modifiers: "&&", def_value: None }]

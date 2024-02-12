@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::Zenject::IProvider);
 namespace Zenject {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11204))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10346))
 // CS Name: ::Zenject::IProvider*
 class CORDL_TYPE IProvider {
 public:

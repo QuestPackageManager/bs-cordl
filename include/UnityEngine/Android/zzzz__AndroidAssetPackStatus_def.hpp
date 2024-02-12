@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Android::AndroidAssetPackStatus);
 namespace UnityEngine::Android {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14920))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14793))
 // CS Name: ::UnityEngine.Android::AndroidAssetPackStatus
 struct CORDL_TYPE AndroidAssetPackStatus {
 public:

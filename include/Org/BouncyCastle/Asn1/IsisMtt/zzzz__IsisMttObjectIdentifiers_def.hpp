@@ -169,7 +169,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::IsisMttObjectIdentifiers* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf7ba38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfa68c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "IsisMttObjectIdentifiers", modifiers: "&&", def_value: None }]

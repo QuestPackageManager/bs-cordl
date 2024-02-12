@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::HMUI::VerticalScrollIndicator);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13675))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13628))
 // CS Name: ::HMUI::VerticalScrollIndicator*
 class CORDL_TYPE VerticalScrollIndicator : public ::UnityEngine::MonoBehaviour {
 public:
@@ -87,30 +87,30 @@ public:
 
   constexpr void __cordl_internal_set__normalizedPageHeight(float_t value);
 
-  /// @brief Method set_progress, addr 0x2144640, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_progress, addr 0x21d8f24, size 0x2c, virtual false, abstract: false, final false
   inline void set_progress(float_t value);
 
-  /// @brief Method get_progress, addr 0x214ac08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_progress, addr 0x21df4ec, size 0x8, virtual false, abstract: false, final false
   inline float_t get_progress();
 
-  /// @brief Method set_normalizedPageHeight, addr 0x21443d8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_normalizedPageHeight, addr 0x21d8cbc, size 0x2c, virtual false, abstract: false, final false
   inline void set_normalizedPageHeight(float_t value);
 
-  /// @brief Method get_normalizedPageHeight, addr 0x214ac10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_normalizedPageHeight, addr 0x21df4f4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_normalizedPageHeight();
 
-  /// @brief Method set_disabled, addr 0x214ac18, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method set_disabled, addr 0x21df4fc, size 0x40, virtual false, abstract: false, final false
   inline void set_disabled(bool value);
 
-  /// @brief Method OnEnable, addr 0x214ac58, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x21df53c, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method RefreshHandle, addr 0x214ab18, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method RefreshHandle, addr 0x21df3fc, size 0xf0, virtual false, abstract: false, final false
   inline void RefreshHandle();
 
   static inline ::HMUI::VerticalScrollIndicator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x214ac5c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21df540, size 0x1010, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "VerticalScrollIndicator", modifiers: "&&", def_value: None }]

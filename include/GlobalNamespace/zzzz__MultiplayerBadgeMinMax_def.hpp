@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::MultiplayerBadgeMinMax);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5109))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10904))
 // CS Name: ::MultiplayerBadgeMinMax
 struct CORDL_TYPE MultiplayerBadgeMinMax {
 public:

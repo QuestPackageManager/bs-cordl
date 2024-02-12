@@ -19,12 +19,12 @@ MARK_REF_PTR_T(::System::Collections::Generic::KeyValuePair);
 namespace System::Collections::Generic {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3840))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3839))
 // CS Name: ::System.Collections.Generic::KeyValuePair*
 class CORDL_TYPE KeyValuePair : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method PairToString, addr 0x258bc28, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method PairToString, addr 0x25aeb40, size 0xc0, virtual false, abstract: false, final false
   static inline ::StringW PairToString(::System::Object* key, ::System::Object* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "KeyValuePair", modifiers: "&&", def_value: None }]

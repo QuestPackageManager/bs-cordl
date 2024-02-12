@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::__Test_Collider_Extensions____c);
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9914))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9706))
 // CS Name: ::Test_Collider_Extensions::<>c*
 class CORDL_TYPE __Test_Collider_Extensions____c : public ::System::Object {
 public:
@@ -63,13 +63,13 @@ public:
 
   static inline ::HoudiniEngineUnity::__Test_Collider_Extensions____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21e5604, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x227aeec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <ToTestObject>b__1_0, addr 0x21e560c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <ToTestObject>b__1_0, addr 0x227aef4, size 0x64, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::Test_Collider* _ToTestObject_b__1_0(::UnityEngine::Collider* lod);
 
-  /// @brief Method <ToTestObject>b__2_0, addr 0x21e5670, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <ToTestObject>b__2_0, addr 0x227af58, size 0x64, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::Test_Collider* _ToTestObject_b__2_0(::UnityEngine::Collider* lod);
 
   // Ctor Parameters [CppParam { name: "", ty: "__Test_Collider_Extensions____c", modifiers: "&&", def_value: None }]
@@ -97,21 +97,21 @@ static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__Test_Colli
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9915))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9707))
 // CS Name: ::HoudiniEngineUnity::Test_Collider_Extensions*
 class CORDL_TYPE Test_Collider_Extensions : public ::System::Object {
 public:
   // Declarations
   using __c = ::HoudiniEngineUnity::__Test_Collider_Extensions____c;
 
-  /// @brief Method ToTestObject, addr 0x21e2328, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x2277c10, size 0x64, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::Test_Collider* ToTestObject(::UnityEngine::Collider* self);
 
-  /// @brief Method ToTestObject, addr 0x21e53ac, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x227ac94, size 0xf8, virtual false, abstract: false, final false
   static inline ::ArrayW<::HoudiniEngineUnity::Test_Collider*, ::Array<::HoudiniEngineUnity::Test_Collider*>*>
   ToTestObject(::ArrayW<::UnityEngine::Collider*, ::Array<::UnityEngine::Collider*>*> self);
 
-  /// @brief Method ToTestObject, addr 0x21e54a4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x227ad8c, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_Collider*>* ToTestObject(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Collider>>* self);
 
   // Ctor Parameters [CppParam { name: "", ty: "Test_Collider_Extensions", modifiers: "&&", def_value: None }]

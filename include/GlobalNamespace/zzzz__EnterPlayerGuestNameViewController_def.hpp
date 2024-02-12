@@ -70,23 +70,23 @@ MARK_REF_PTR_T(::GlobalNamespace::__EnterPlayerGuestNameViewController____c__Dis
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5621))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4926))
 // CS Name: ::EnterPlayerGuestNameViewController::FinishDelegate*
 class CORDL_TYPE __EnterPlayerGuestNameViewController__FinishDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::GlobalNamespace::__EnterPlayerGuestNameViewController__FinishDelegate* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x22af904, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22e2e38, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x22afa34, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x22e2f68, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::GlobalNamespace::EnterPlayerGuestNameViewController* viewController, ::StringW playerName);
 
-  /// @brief Method BeginInvoke, addr 0x22afa48, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x22e2f7c, size 0x28, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::GlobalNamespace::EnterPlayerGuestNameViewController* viewController, ::StringW playerName, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x22afa70, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x22e2fa4, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__EnterPlayerGuestNameViewController__FinishDelegate", modifiers: "&&", def_value: None }]
@@ -114,7 +114,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__EnterPlayerGu
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5622))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4927))
 // CS Name: ::EnterPlayerGuestNameViewController::<>c__DisplayClass10_0*
 class CORDL_TYPE __EnterPlayerGuestNameViewController____c__DisplayClass10_0 : public ::System::Object {
 public:
@@ -139,10 +139,10 @@ public:
 
   static inline ::GlobalNamespace::__EnterPlayerGuestNameViewController____c__DisplayClass10_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22af764, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22e2c98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <DidActivate>b__0, addr 0x22afa7c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__0, addr 0x22e2fb0, size 0x10c, virtual false, abstract: false, final false
   inline void _DidActivate_b__0(int32_t idx, ::GlobalNamespace::GuestNameButtonsListItem* item);
 
   // Ctor Parameters [CppParam { name: "", ty: "__EnterPlayerGuestNameViewController____c__DisplayClass10_0", modifiers: "&&", def_value: None }]
@@ -180,7 +180,7 @@ static_assert(offsetof(::GlobalNamespace::__EnterPlayerGuestNameViewController__
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5623))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4928))
 // CS Name: ::EnterPlayerGuestNameViewController::<>c__DisplayClass10_1*
 class CORDL_TYPE __EnterPlayerGuestNameViewController____c__DisplayClass10_1 : public ::System::Object {
 public:
@@ -206,10 +206,10 @@ public:
 
   static inline ::GlobalNamespace::__EnterPlayerGuestNameViewController____c__DisplayClass10_1* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22afb94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22e30bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <DidActivate>b__1, addr 0x22afb9c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__1, addr 0x22e30c4, size 0x34, virtual false, abstract: false, final false
   inline void _DidActivate_b__1();
 
   // Ctor Parameters [CppParam { name: "", ty: "__EnterPlayerGuestNameViewController____c__DisplayClass10_1", modifiers: "&&", def_value: None }]
@@ -246,8 +246,8 @@ static_assert(offsetof(::GlobalNamespace::__EnterPlayerGuestNameViewController__
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5624))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13558))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4929))
 // CS Name: ::EnterPlayerGuestNameViewController*
 class CORDL_TYPE EnterPlayerGuestNameViewController : public ::HMUI::ViewController {
 public:
@@ -315,21 +315,21 @@ public:
 
   constexpr void __cordl_internal_set__didFinishCallback(::GlobalNamespace::__EnterPlayerGuestNameViewController__FinishDelegate* value);
 
-  /// @brief Method Init, addr 0x22af528, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x22e2a5c, size 0x8, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::__EnterPlayerGuestNameViewController__FinishDelegate* didFinishCallback);
 
-  /// @brief Method DidActivate, addr 0x22af530, size 0x234, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x22e2a64, size 0x234, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x22af76c, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x22e2ca0, size 0xb0, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method OkButtonPressed, addr 0x22af81c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method OkButtonPressed, addr 0x22e2d50, size 0xe0, virtual false, abstract: false, final false
   inline void OkButtonPressed();
 
   static inline ::GlobalNamespace::EnterPlayerGuestNameViewController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22af8fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22e2e30, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EnterPlayerGuestNameViewController", modifiers: "&&", def_value: None }]

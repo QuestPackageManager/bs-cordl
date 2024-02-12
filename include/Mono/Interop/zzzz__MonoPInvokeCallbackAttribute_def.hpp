@@ -25,7 +25,7 @@ public:
   // Declarations
   static inline ::Mono::Interop::MonoPInvokeCallbackAttribute* New_ctor(::System::Type* t);
 
-  /// @brief Method .ctor, addr 0x2415344, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24351a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* t);
 
   // Ctor Parameters [CppParam { name: "", ty: "MonoPInvokeCallbackAttribute", modifiers: "&&", def_value: None }]

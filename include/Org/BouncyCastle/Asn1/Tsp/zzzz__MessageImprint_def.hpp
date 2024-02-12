@@ -54,26 +54,26 @@ public:
 
   constexpr void __cordl_internal_set_hashedMessage(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method GetInstance, addr 0x1078eec, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x10a5d7c, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Tsp::MessageImprint* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Tsp::MessageImprint* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0x1078f90, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10a5e20, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::Tsp::MessageImprint* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlgorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> hashedMessage);
 
-  /// @brief Method .ctor, addr 0x1079088, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10a5f18, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlgorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> hashedMessage);
 
-  /// @brief Method get_HashAlgorithm, addr 0x10790b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HashAlgorithm, addr 0x10a5f44, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_HashAlgorithm();
 
-  /// @brief Method GetHashedMessage, addr 0x10790bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetHashedMessage, addr 0x10a5f4c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetHashedMessage();
 
-  /// @brief Method ToAsn1Object, addr 0x10790c4, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x10a5f54, size 0x11c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "MessageImprint", modifiers: "&&", def_value: None }]

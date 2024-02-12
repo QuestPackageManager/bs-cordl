@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Engines::AesWrapEngine* New_ctor();
 
-  /// @brief Method .ctor, addr 0xebc790, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xee8620, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AesWrapEngine", modifiers: "&&", def_value: None }]

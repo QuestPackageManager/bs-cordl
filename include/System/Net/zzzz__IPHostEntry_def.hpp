@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::System::Net::IPHostEntry);
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9071))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7081))
 // CS Name: ::System.Net::IPHostEntry*
 class CORDL_TYPE IPHostEntry : public ::System::Object {
 public:
@@ -67,24 +67,24 @@ public:
 
   constexpr void __cordl_internal_set_isTrustedHost(bool value);
 
-  /// @brief Method get_HostName, addr 0x299d6e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HostName, addr 0x29a2188, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_HostName();
 
-  /// @brief Method set_HostName, addr 0x299d6ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_HostName, addr 0x29a2190, size 0x8, virtual false, abstract: false, final false
   inline void set_HostName(::StringW value);
 
-  /// @brief Method set_Aliases, addr 0x299d6f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Aliases, addr 0x29a2198, size 0x8, virtual false, abstract: false, final false
   inline void set_Aliases(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method get_AddressList, addr 0x299d6fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AddressList, addr 0x29a21a0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*> get_AddressList();
 
-  /// @brief Method set_AddressList, addr 0x299d704, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AddressList, addr 0x29a21a8, size 0x8, virtual false, abstract: false, final false
   inline void set_AddressList(::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*> value);
 
   static inline ::System::Net::IPHostEntry* New_ctor();
 
-  /// @brief Method .ctor, addr 0x299d70c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29a21b0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "IPHostEntry", modifiers: "&&", def_value: None }]

@@ -44,21 +44,21 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::RevReqContent* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xe6f494, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe9a324, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance, addr 0xe6972c, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xe945bc, size 0x18c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::RevReqContent* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::RevReqContent* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Cmp::RevDetails*, ::Array<::Org::BouncyCastle::Asn1::Cmp::RevDetails*>*> revDetails);
 
-  /// @brief Method .ctor, addr 0xe6f4bc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe9a34c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Cmp::RevDetails*, ::Array<::Org::BouncyCastle::Asn1::Cmp::RevDetails*>*> revDetails);
 
-  /// @brief Method ToRevDetailsArray, addr 0xe6f538, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method ToRevDetailsArray, addr 0xe9a3c8, size 0xf4, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Cmp::RevDetails*, ::Array<::Org::BouncyCastle::Asn1::Cmp::RevDetails*>*> ToRevDetailsArray();
 
-  /// @brief Method ToAsn1Object, addr 0xe6f62c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xe9a4bc, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "RevReqContent", modifiers: "&&", def_value: None }]

@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::Util::DefaultAllocationStrateg
 namespace UnityEngine::ResourceManagement::Util {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13978))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13991))
 // CS Name: ::UnityEngine.ResourceManagement.Util::DefaultAllocationStrategy*
 class CORDL_TYPE DefaultAllocationStrategy : public ::System::Object {
 public:
@@ -36,15 +36,15 @@ public:
   /// @brief Convert to "::UnityEngine::ResourceManagement::Util::IAllocationStrategy"
   constexpr ::UnityEngine::ResourceManagement::Util::IAllocationStrategy* i___UnityEngine__ResourceManagement__Util__IAllocationStrategy() noexcept;
 
-  /// @brief Method New, addr 0x2bd2014, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method New, addr 0x2bcfb80, size 0xc, virtual true, abstract: false, final true
   inline ::System::Object* New(::System::Type* type, int32_t typeHash);
 
-  /// @brief Method Release, addr 0x2bd2020, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Release, addr 0x2bcfb8c, size 0x4, virtual true, abstract: false, final true
   inline void Release(int32_t typeHash, ::System::Object* obj);
 
   static inline ::UnityEngine::ResourceManagement::Util::DefaultAllocationStrategy* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2bd2024, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bcfb90, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultAllocationStrategy", modifiers: "&&", def_value: None }]

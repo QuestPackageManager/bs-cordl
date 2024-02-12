@@ -16,7 +16,7 @@ MARK_VAL_T(::LIV::SDK::Unity::PRIORITY);
 namespace LIV::SDK::Unity {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15100))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14973))
 // CS Name: ::LIV.SDK.Unity::PRIORITY
 struct CORDL_TYPE PRIORITY {
 public:

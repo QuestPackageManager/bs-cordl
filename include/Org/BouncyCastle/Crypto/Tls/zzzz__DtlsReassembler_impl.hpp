@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::__DtlsReassembler__Range::*)(int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Tls::__DtlsReassembler__Range::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0xf6d7cc;
+  constexpr static std::size_t addrs = 0xf9765c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Tls::__DtlsReassembler__Range::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::__DtlsReassembler__Range::get_Start)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf6dfbc;
+  constexpr static std::size_t addrs = 0xf97e4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::__DtlsReassembler__Range::*)(int32_t)>(
     &::Org::BouncyCastle::Crypto::Tls::__DtlsReassembler__Range::set_Start)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf6dfc4;
+  constexpr static std::size_t addrs = 0xf97e54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Tls::__DtlsReassembler__Range::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::__DtlsReassembler__Range::get_End)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf6dfcc;
+  constexpr static std::size_t addrs = 0xf97e5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::__DtlsReassembler__Range::*)(int32_t)>(
     &::Org::BouncyCastle::Crypto::Tls::__DtlsReassembler__Range::set_End)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf6dfd4;
+  constexpr static std::size_t addrs = 0xf97e64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DtlsReassembler::*)(uint8_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Tls::DtlsReassembler::_ctor)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0xf6d680;
+  constexpr static std::size_t addrs = 0xf97510;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (::Org::BouncyCastle::Crypto::Tls::DtlsReassembler::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::DtlsReassembler::get_MsgType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf6d7f8;
+  constexpr static std::size_t addrs = 0xf97688;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::DtlsReassembler*>::get(),
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Tls::DtlsReassembler::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::DtlsReassembler::GetBodyIfComplete)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0xf6d800;
+  constexpr static std::size_t addrs = 0xf97690;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::DtlsReassembler*>::get(),
@@ -184,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DtlsReassembler::*)(
     uint8_t, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Tls::DtlsReassembler::ContributeFragment)> {
   constexpr static std::size_t size = 0x5b4;
-  constexpr static std::size_t addrs = 0xf6d8b8;
+  constexpr static std::size_t addrs = 0xf97748;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -202,7 +202,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DtlsReassembler::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::DtlsReassembler::Reset)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0xf6de6c;
+  constexpr static std::size_t addrs = 0xf97cfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::DtlsReassembler*>::get(),

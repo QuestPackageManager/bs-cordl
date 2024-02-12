@@ -18,7 +18,7 @@ MARK_VAL_T(::UnityEngine::jvalue);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14917))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14790))
 // CS Name: ::UnityEngine::jvalue
 struct CORDL_TYPE jvalue {
 public:

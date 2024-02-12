@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::CustomConstantAttribute);
 namespace System::Runtime::CompilerServices {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3365))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3362))
 // CS Name: ::System.Runtime.CompilerServices::CustomConstantAttribute*
 class CORDL_TYPE CustomConstantAttribute : public ::System::Attribute {
 public:
@@ -30,7 +30,7 @@ public:
 
   static inline ::System::Runtime::CompilerServices::CustomConstantAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24daf30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24fb29c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CustomConstantAttribute", modifiers: "&&", def_value: None }]

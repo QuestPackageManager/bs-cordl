@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::UnwrapParameters);
 namespace UnityEngine::ProBuilder {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12211))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12109))
 // CS Name: ::UnityEngine.ProBuilder::UnwrapParameters*
 class CORDL_TYPE UnwrapParameters : public ::System::Object {
 public:
@@ -66,44 +66,44 @@ public:
 
   constexpr void __cordl_internal_set_m_AreaError(float_t value);
 
-  /// @brief Method get_hardAngle, addr 0x2b7cfe8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hardAngle, addr 0x2b7bb54, size 0x8, virtual false, abstract: false, final false
   inline float_t get_hardAngle();
 
-  /// @brief Method set_hardAngle, addr 0x2b7cff0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_hardAngle, addr 0x2b7bb5c, size 0x8, virtual false, abstract: false, final false
   inline void set_hardAngle(float_t value);
 
-  /// @brief Method get_packMargin, addr 0x2b7cff8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_packMargin, addr 0x2b7bb64, size 0x8, virtual false, abstract: false, final false
   inline float_t get_packMargin();
 
-  /// @brief Method set_packMargin, addr 0x2b7d000, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_packMargin, addr 0x2b7bb6c, size 0x8, virtual false, abstract: false, final false
   inline void set_packMargin(float_t value);
 
-  /// @brief Method get_angleError, addr 0x2b7d008, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_angleError, addr 0x2b7bb74, size 0x8, virtual false, abstract: false, final false
   inline float_t get_angleError();
 
-  /// @brief Method set_angleError, addr 0x2b7d010, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_angleError, addr 0x2b7bb7c, size 0x8, virtual false, abstract: false, final false
   inline void set_angleError(float_t value);
 
-  /// @brief Method get_areaError, addr 0x2b7d018, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_areaError, addr 0x2b7bb84, size 0x8, virtual false, abstract: false, final false
   inline float_t get_areaError();
 
-  /// @brief Method set_areaError, addr 0x2b7d020, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_areaError, addr 0x2b7bb8c, size 0x8, virtual false, abstract: false, final false
   inline void set_areaError(float_t value);
 
   static inline ::UnityEngine::ProBuilder::UnwrapParameters* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2b75734, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b742a0, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::ProBuilder::UnwrapParameters* New_ctor(::UnityEngine::ProBuilder::UnwrapParameters* other);
 
-  /// @brief Method .ctor, addr 0x2b7d038, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b7bba4, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ProBuilder::UnwrapParameters* other);
 
-  /// @brief Method Reset, addr 0x2b7d028, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x2b7bb94, size 0x10, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method ToString, addr 0x2b7d0c0, size 0x1ac, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2b7bc2c, size 0x1ac, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "UnwrapParameters", modifiers: "&&", def_value: None }]

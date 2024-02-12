@@ -26,17 +26,17 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Cmp::CmpException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x11d5f50, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1203de0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Cmp::CmpException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x11d5bbc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1203a4c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::Org::BouncyCastle::Cmp::CmpException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x11d5fa8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1203e38, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
   // Ctor Parameters [CppParam { name: "", ty: "CmpException", modifiers: "&&", def_value: None }]

@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::TableCellWithSeparator);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13664))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13502))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13617))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13455))
 // CS Name: ::TableCellWithSeparator*
 class CORDL_TYPE TableCellWithSeparator : public ::HMUI::TableCell {
 public:
@@ -36,12 +36,12 @@ public:
 
   constexpr void __cordl_internal_set__separator(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method TableViewSetup, addr 0x2116274, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method TableViewSetup, addr 0x21aab50, size 0xe4, virtual true, abstract: false, final false
   inline void TableViewSetup(::HMUI::ITableCellOwner* tableCellOwner, int32_t idx);
 
   static inline ::GlobalNamespace::TableCellWithSeparator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2116358, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21aac34, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TableCellWithSeparator", modifiers: "&&", def_value: None }]

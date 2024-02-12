@@ -41,9 +41,9 @@ namespace UnityEngine::UIElements::UIR {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9999)), TypeDefinitionIndex(TypeDefinitionIndex(15379)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 744 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 2550 })] Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(7438)) CS Name: ::Page::DataSet`1<T>*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8730)), TypeDefinitionIndex(TypeDefinitionIndex(15539)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8730), inst: 740 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8730), inst: 2526 })] Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(6697)) CS Name: ::Page::DataSet`1<T>*
 class CORDL_TYPE __Page__DataSet_1 : public ::System::Object {
 public:
   // Declarations
@@ -259,7 +259,7 @@ public:
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7439))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6698))
 // CS Name: ::UnityEngine.UIElements.UIR::Page*
 class CORDL_TYPE Page : public ::System::Object {
 public:
@@ -323,22 +323,22 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::Page* New_ctor(uint32_t vertexMaxCount, uint32_t indexMaxCount, uint32_t maxQueuedFrameCount, bool mockPage);
 
-  /// @brief Method .ctor, addr 0x2dd0eb0, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2def298, size 0x14c, virtual false, abstract: false, final false
   inline void _ctor(uint32_t vertexMaxCount, uint32_t indexMaxCount, uint32_t maxQueuedFrameCount, bool mockPage);
 
-  /// @brief Method get_disposed, addr 0x2dd53a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x2df3790, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
-  /// @brief Method set_disposed, addr 0x2dd53b0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x2df3798, size 0xc, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
-  /// @brief Method Dispose, addr 0x2dd4a70, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2df2e58, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x2dd53bc, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x2df37a4, size 0x90, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method get_isEmpty, addr 0x2dd0ffc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_isEmpty, addr 0x2def3e4, size 0x48, virtual false, abstract: false, final false
   inline bool get_isEmpty();
 
   // Ctor Parameters [CppParam { name: "", ty: "Page", modifiers: "&&", def_value: None }]

@@ -125,42 +125,42 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::RsaSecretBcpgKey* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor, addr 0x11d2b08, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1200998, size 0x1ac, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
   static inline ::Org::BouncyCastle::Bcpg::RsaSecretBcpgKey* New_ctor(::Org::BouncyCastle::Math::BigInteger* d, ::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q);
 
-  /// @brief Method .ctor, addr 0x11d2cb4, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1200b44, size 0x204, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* d, ::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q);
 
-  /// @brief Method get_Modulus, addr 0x11d2eb8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Modulus, addr 0x1200d48, size 0x30, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Modulus();
 
-  /// @brief Method get_PrivateExponent, addr 0x11d2ee8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_PrivateExponent, addr 0x1200d78, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_PrivateExponent();
 
-  /// @brief Method get_PrimeP, addr 0x11d2f04, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_PrimeP, addr 0x1200d94, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_PrimeP();
 
-  /// @brief Method get_PrimeQ, addr 0x11d2f20, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_PrimeQ, addr 0x1200db0, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_PrimeQ();
 
-  /// @brief Method get_PrimeExponentP, addr 0x11d2f3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PrimeExponentP, addr 0x1200dcc, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_PrimeExponentP();
 
-  /// @brief Method get_PrimeExponentQ, addr 0x11d2f44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PrimeExponentQ, addr 0x1200dd4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_PrimeExponentQ();
 
-  /// @brief Method get_CrtCoefficient, addr 0x11d2f4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CrtCoefficient, addr 0x1200ddc, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_CrtCoefficient();
 
-  /// @brief Method get_Format, addr 0x11d2f54, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_Format, addr 0x1200de4, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_Format();
 
-  /// @brief Method GetEncoded, addr 0x11d2f94, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x1200e24, size 0x84, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
-  /// @brief Method Encode, addr 0x11d3018, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x1200ea8, size 0x12c, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
   // Ctor Parameters [CppParam { name: "", ty: "RsaSecretBcpgKey", modifiers: "&&", def_value: None }]

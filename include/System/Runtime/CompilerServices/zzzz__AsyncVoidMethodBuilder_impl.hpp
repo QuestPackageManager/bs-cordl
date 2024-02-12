@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::CompilerServices::AsyncVoidMethodBuilder (*)()>(
     &::System::Runtime::CompilerServices::AsyncVoidMethodBuilder::Create)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x24dc3a0;
+  constexpr static std::size_t addrs = 0x24fc584;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::AsyncVoidMethodBuilder::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::System::Runtime::CompilerServices::AsyncVoidMethodBuilder::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24dc3e0;
+  constexpr static std::size_t addrs = 0x24fc5c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::AsyncVoidMethodBuilder::*)()>(
     &::System::Runtime::CompilerServices::AsyncVoidMethodBuilder::SetResult)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x24dc4b0;
+  constexpr static std::size_t addrs = 0x24fc694;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::AsyncVoidMethodBuilder::*)(::System::Exception*)>(
     &::System::Runtime::CompilerServices::AsyncVoidMethodBuilder::SetException)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x24dc61c;
+  constexpr static std::size_t addrs = 0x24fc800;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::AsyncVoidMethodBuilder::*)()>(
     &::System::Runtime::CompilerServices::AsyncVoidMethodBuilder::NotifySynchronizationContextOfCompletion)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x24dc578;
+  constexpr static std::size_t addrs = 0x24fc75c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::System::Runtime::CompilerServices::AsyncVoidMethodBuilder::*)()>(
     &::System::Runtime::CompilerServices::AsyncVoidMethodBuilder::get_Task)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x24dc50c;
+  constexpr static std::size_t addrs = 0x24fc6f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -115,18 +115,6 @@ inline void System::Runtime::CompilerServices::AsyncVoidMethodBuilder::SetStateM
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::AsyncVoidMethodBuilder>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
-}
-template <typename TAwaiter, typename TStateMachine>
-inline void System::Runtime::CompilerServices::AsyncVoidMethodBuilder::AwaitOnCompleted(ByRef<TAwaiter> awaiter, ByRef<TStateMachine> stateMachine) {
-  static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::AsyncVoidMethodBuilder>::get(), "AwaitOnCompleted",
-      std::array<Il2CppClass const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TAwaiter>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TStateMachine>::get() },
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<TAwaiter>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<TStateMachine>>::get() })));
-  static auto* ___internal_method =
-      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TAwaiter>::get(),
-                                                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TStateMachine>::get() }));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, awaiter, stateMachine);
 }
 template <typename TAwaiter, typename TStateMachine>
 inline void System::Runtime::CompilerServices::AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted(ByRef<TAwaiter> awaiter, ByRef<TStateMachine> stateMachine) {

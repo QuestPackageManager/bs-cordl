@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::System::Xml::IDtdParserAdapterWithValidation);
 namespace System::Xml {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11428))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11326))
 // CS Name: ::System.Xml::IDtdParserAdapterWithValidation*
 class CORDL_TYPE IDtdParserAdapterWithValidation {
 public:

@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::TouchScreenTextEditorEventHandler);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7094))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7132))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6353))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6391))
 // CS Name: ::UnityEngine.UIElements::TouchScreenTextEditorEventHandler*
 class CORDL_TYPE TouchScreenTextEditorEventHandler : public ::UnityEngine::UIElements::TextEditorEventHandler {
 public:
@@ -66,16 +66,16 @@ public:
   static inline ::UnityEngine::UIElements::TouchScreenTextEditorEventHandler* New_ctor(::UnityEngine::UIElements::TextEditorEngine* editorEngine,
                                                                                        ::UnityEngine::UIElements::ITextInputField* textInputField);
 
-  /// @brief Method .ctor, addr 0x2e3ab1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e56f04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::TextEditorEngine* editorEngine, ::UnityEngine::UIElements::ITextInputField* textInputField);
 
-  /// @brief Method PollTouchScreenKeyboard, addr 0x2e3ab24, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method PollTouchScreenKeyboard, addr 0x2e56f0c, size 0x25c, virtual false, abstract: false, final false
   inline void PollTouchScreenKeyboard();
 
-  /// @brief Method DoPollTouchScreenKeyboard, addr 0x2e3ad80, size 0x728, virtual false, abstract: false, final false
+  /// @brief Method DoPollTouchScreenKeyboard, addr 0x2e57168, size 0x728, virtual false, abstract: false, final false
   inline void DoPollTouchScreenKeyboard();
 
-  /// @brief Method ExecuteDefaultActionAtTarget, addr 0x2e3b4a8, size 0x550, virtual true, abstract: false, final false
+  /// @brief Method ExecuteDefaultActionAtTarget, addr 0x2e57890, size 0x550, virtual true, abstract: false, final false
   inline void ExecuteDefaultActionAtTarget(::UnityEngine::UIElements::EventBase* evt);
 
   // Ctor Parameters [CppParam { name: "", ty: "TouchScreenTextEditorEventHandler", modifiers: "&&", def_value: None }]

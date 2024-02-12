@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::ColorType);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14752))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15136))
 // CS Name: ::ColorType
 struct CORDL_TYPE ColorType {
 public:

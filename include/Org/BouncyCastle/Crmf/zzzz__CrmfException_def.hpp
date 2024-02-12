@@ -26,17 +26,17 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Crmf::CrmfException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x121069c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x123d52c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Crmf::CrmfException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x12106f4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x123d584, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::Org::BouncyCastle::Crmf::CrmfException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x120e9a8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x123b838, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
   // Ctor Parameters [CppParam { name: "", ty: "CrmfException", modifiers: "&&", def_value: None }]

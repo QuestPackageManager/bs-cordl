@@ -20,8 +20,8 @@ namespace BeatSaber::BeatAvatarSDK {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15687))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15602))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15788))
 // CS Name: ::BeatSaber.BeatAvatarSDK::AvatarPartSO`1<T>*
 class CORDL_TYPE AvatarPartSO_1 : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -40,8 +40,6 @@ public:
   __declspec(property(get = get_id))::StringW id;
 
   __declspec(property(get = get_localizationKey))::StringW localizationKey;
-
-  __declspec(property(get = get_localizedName))::StringW localizedName;
 
   /// @brief Convert operator to "::BeatSaber::BeatAvatarSDK::IAvatarPart"
   constexpr operator ::BeatSaber::BeatAvatarSDK::IAvatarPart*() noexcept;
@@ -73,11 +71,8 @@ public:
   /// @brief Method get_id, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::StringW get_id();
 
-  /// @brief Method get_localizationKey, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  /// @brief Method get_localizationKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::StringW get_localizationKey();
-
-  /// @brief Method get_localizedName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline ::StringW get_localizedName();
 
   static inline ::BeatSaber::BeatAvatarSDK::AvatarPartSO_1<T>* New_ctor();
 

@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::JetBrains::Annotations::RazorImportNamespaceAttribute);
 namespace JetBrains::Annotations {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15801))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15951))
 // CS Name: ::JetBrains.Annotations::RazorImportNamespaceAttribute*
 class CORDL_TYPE RazorImportNamespaceAttribute : public ::System::Attribute {
 public:
@@ -34,13 +34,13 @@ public:
 
   static inline ::JetBrains::Annotations::RazorImportNamespaceAttribute* New_ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x2eba868, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ed69b0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method get_Name, addr 0x2eba890, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x2ed69d8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method set_Name, addr 0x2eba898, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x2ed69e0, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
   // Ctor Parameters [CppParam { name: "", ty: "RazorImportNamespaceAttribute", modifiers: "&&", def_value: None }]

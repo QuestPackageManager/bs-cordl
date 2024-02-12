@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::UnityEngine::XR::Management::XRConfigurationDataAttribute);
 namespace UnityEngine::XR::Management {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16033))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16151))
 // CS Name: ::UnityEngine.XR.Management::XRConfigurationDataAttribute*
 class CORDL_TYPE XRConfigurationDataAttribute : public ::System::Attribute {
 public:
@@ -43,26 +43,26 @@ public:
 
   constexpr void __cordl_internal_set__buildSettingsKey_k__BackingField(::StringW value);
 
-  /// @brief Method get_displayName, addr 0x2c755fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_displayName, addr 0x2c72168, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_displayName();
 
-  /// @brief Method set_displayName, addr 0x2c75604, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_displayName, addr 0x2c72170, size 0x8, virtual false, abstract: false, final false
   inline void set_displayName(::StringW value);
 
-  /// @brief Method get_buildSettingsKey, addr 0x2c7560c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_buildSettingsKey, addr 0x2c72178, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_buildSettingsKey();
 
-  /// @brief Method set_buildSettingsKey, addr 0x2c75614, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_buildSettingsKey, addr 0x2c72180, size 0x8, virtual false, abstract: false, final false
   inline void set_buildSettingsKey(::StringW value);
 
   static inline ::UnityEngine::XR::Management::XRConfigurationDataAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c7561c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c72188, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::XR::Management::XRConfigurationDataAttribute* New_ctor(::StringW displayName, ::StringW buildSettingsKey);
 
-  /// @brief Method .ctor, addr 0x2c75624, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c72190, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW displayName, ::StringW buildSettingsKey);
 
   // Ctor Parameters [CppParam { name: "", ty: "XRConfigurationDataAttribute", modifiers: "&&", def_value: None }]

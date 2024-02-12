@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MovementHistoryRecorder);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5288))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4628))
 // CS Name: ::MovementHistoryRecorder*
 class CORDL_TYPE MovementHistoryRecorder : public ::System::Object {
 public:
@@ -62,18 +62,18 @@ public:
 
   constexpr void __cordl_internal_set__accum(float_t value);
 
-  /// @brief Method get_averagingValueRecorer, addr 0x2262f88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_averagingValueRecorer, addr 0x23c1990, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::AveragingValueRecorder* get_averagingValueRecorer();
 
   static inline ::GlobalNamespace::MovementHistoryRecorder* New_ctor(float_t averageWindowDuration, float_t historyValuesPerSecond, float_t increaseSpeed, float_t decreaseSpeed);
 
-  /// @brief Method .ctor, addr 0x2262f90, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c1998, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(float_t averageWindowDuration, float_t historyValuesPerSecond, float_t increaseSpeed, float_t decreaseSpeed);
 
-  /// @brief Method AddMovement, addr 0x226302c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method AddMovement, addr 0x23c1a34, size 0x24, virtual false, abstract: false, final false
   inline void AddMovement(float_t distance);
 
-  /// @brief Method ManualUpdate, addr 0x2263050, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x23c1a58, size 0x3c, virtual false, abstract: false, final false
   inline void ManualUpdate(float_t deltaTime);
 
   // Ctor Parameters [CppParam { name: "", ty: "MovementHistoryRecorder", modifiers: "&&", def_value: None }]

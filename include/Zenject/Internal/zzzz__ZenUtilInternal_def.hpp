@@ -84,7 +84,7 @@ MARK_REF_PTR_T(::Zenject::Internal::__ZenUtilInternal____c__DisplayClass10_0);
 namespace Zenject::Internal {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11395))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10537))
 // CS Name: ::ZenUtilInternal::<>c*
 class CORDL_TYPE __ZenUtilInternal____c : public ::System::Object {
 public:
@@ -114,19 +114,19 @@ public:
 
   static inline ::Zenject::Internal::__ZenUtilInternal____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f28c58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f44ee0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <GetAllSceneContexts>b__3_0, addr 0x2f28c60, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <GetAllSceneContexts>b__3_0, addr 0x2f44ee8, size 0x50, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::SceneContext>>* _GetAllSceneContexts_b__3_0(::UnityEngine::GameObject* root);
 
-  /// @brief Method <GetRootGameObjects>b__10_0, addr 0x2f28cb0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method <GetRootGameObjects>b__10_0, addr 0x2f44f38, size 0x8c, virtual false, abstract: false, final false
   inline bool _GetRootGameObjects_b__10_0(::UnityEngine::GameObject* x);
 
-  /// @brief Method __zenCreate, addr 0x2f28d3c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2f44fc4, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f28d98, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f45020, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ZenUtilInternal____c", modifiers: "&&", def_value: None }]
@@ -154,7 +154,7 @@ static_assert(::cordl_internals::size_check_v<::Zenject::Internal::__ZenUtilInte
 namespace Zenject::Internal {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11396))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10538))
 // CS Name: ::ZenUtilInternal::<GetAllSceneContexts>d__3*
 class CORDL_TYPE __ZenUtilInternal___GetAllSceneContexts_d__3 : public ::System::Object {
 public:
@@ -232,31 +232,31 @@ public:
 
   static inline ::Zenject::Internal::__ZenUtilInternal___GetAllSceneContexts_d__3* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor, addr 0x2f27e14, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f4409c, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x2f28f58, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x2f451e0, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext, addr 0x2f28f74, size 0x484, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2f451fc, size 0x484, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method <>m__Finally1, addr 0x2f293f8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x2f45680, size 0xb0, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<Zenject.SceneContext>.get_Current, addr 0x2f294a8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<Zenject.SceneContext>.get_Current, addr 0x2f45730, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::Zenject::SceneContext> System_Collections_Generic_IEnumerator_Zenject_SceneContext__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2f294b0, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2f45738, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2f294f0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2f45778, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.Collections.Generic.IEnumerable<Zenject.SceneContext>.GetEnumerator, addr 0x2f294f8, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<Zenject.SceneContext>.GetEnumerator, addr 0x2f45780, size 0x98, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::Zenject::SceneContext>>* System_Collections_Generic_IEnumerable_Zenject_SceneContext__GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2f29590, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2f45818, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ZenUtilInternal___GetAllSceneContexts_d__3", modifiers: "&&", def_value: None }]
@@ -303,8 +303,8 @@ static_assert(offsetof(::Zenject::Internal::__ZenUtilInternal___GetAllSceneConte
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Zenject::Internal {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10380))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11397))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9148))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10539))
 // CS Name: ::ZenUtilInternal::<>c__DisplayClass10_0*
 class CORDL_TYPE __ZenUtilInternal____c__DisplayClass10_0 : public ::System::Object {
 public:
@@ -320,10 +320,10 @@ public:
 
   static inline ::Zenject::Internal::__ZenUtilInternal____c__DisplayClass10_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f28bec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f44e74, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <GetRootGameObjects>b__1, addr 0x2f29594, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method <GetRootGameObjects>b__1, addr 0x2f4581c, size 0x110, virtual false, abstract: false, final false
   inline bool _GetRootGameObjects_b__1(::UnityEngine::GameObject* x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ZenUtilInternal____c__DisplayClass10_0", modifiers: "&&", def_value: None }]
@@ -356,7 +356,7 @@ static_assert(offsetof(::Zenject::Internal::__ZenUtilInternal____c__DisplayClass
 namespace Zenject::Internal {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11398))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10540))
 // CS Name: ::Zenject.Internal::ZenUtilInternal*
 class CORDL_TYPE ZenUtilInternal : public ::System::Object {
 public:
@@ -367,39 +367,39 @@ public:
 
   using __c = ::Zenject::Internal::__ZenUtilInternal____c;
 
-  /// @brief Method IsNull, addr 0x2f27bc4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method IsNull, addr 0x2f43e4c, size 0x1c, virtual false, abstract: false, final false
   static inline bool IsNull(::System::Object* obj);
 
-  /// @brief Method AreFunctionsEqual, addr 0x2f27be0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method AreFunctionsEqual, addr 0x2f43e68, size 0xa8, virtual false, abstract: false, final false
   static inline bool AreFunctionsEqual(::System::Delegate* left, ::System::Delegate* right);
 
-  /// @brief Method GetInheritanceDelta, addr 0x2f27c88, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method GetInheritanceDelta, addr 0x2f43f10, size 0x11c, virtual false, abstract: false, final false
   static inline int32_t GetInheritanceDelta(::System::Type* derived, ::System::Type* parent);
 
-  /// @brief Method GetAllSceneContexts, addr 0x2f27da4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetAllSceneContexts, addr 0x2f4402c, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::SceneContext>>* GetAllSceneContexts();
 
-  /// @brief Method AddStateMachineBehaviourAutoInjectersInScene, addr 0x2f27e48, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method AddStateMachineBehaviourAutoInjectersInScene, addr 0x2f440d0, size 0x320, virtual false, abstract: false, final false
   static inline void AddStateMachineBehaviourAutoInjectersInScene(::UnityEngine::SceneManagement::Scene scene);
 
-  /// @brief Method AddStateMachineBehaviourAutoInjectersUnderGameObject, addr 0x2f2832c, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method AddStateMachineBehaviourAutoInjectersUnderGameObject, addr 0x2f445b4, size 0x140, virtual false, abstract: false, final false
   static inline void AddStateMachineBehaviourAutoInjectersUnderGameObject(::UnityEngine::GameObject* root);
 
-  /// @brief Method GetInjectableMonoBehavioursInScene, addr 0x2f2846c, size 0x330, virtual false, abstract: false, final false
+  /// @brief Method GetInjectableMonoBehavioursInScene, addr 0x2f446f4, size 0x330, virtual false, abstract: false, final false
   static inline void GetInjectableMonoBehavioursInScene(::UnityEngine::SceneManagement::Scene scene, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* monoBehaviours);
 
-  /// @brief Method GetInjectableMonoBehavioursUnderGameObject, addr 0x2f28b00, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetInjectableMonoBehavioursUnderGameObject, addr 0x2f44d88, size 0x4, virtual false, abstract: false, final false
   static inline void GetInjectableMonoBehavioursUnderGameObject(::UnityEngine::GameObject* gameObject,
                                                                 ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* injectableComponents);
 
-  /// @brief Method GetInjectableMonoBehavioursUnderGameObjectInternal, addr 0x2f2879c, size 0x364, virtual false, abstract: false, final false
+  /// @brief Method GetInjectableMonoBehavioursUnderGameObjectInternal, addr 0x2f44a24, size 0x364, virtual false, abstract: false, final false
   static inline void GetInjectableMonoBehavioursUnderGameObjectInternal(::UnityEngine::GameObject* gameObject,
                                                                         ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* injectableComponents);
 
-  /// @brief Method IsInjectableMonoBehaviourType, addr 0x2f28b04, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method IsInjectableMonoBehaviourType, addr 0x2f44d8c, size 0xe8, virtual false, abstract: false, final false
   static inline bool IsInjectableMonoBehaviourType(::System::Type* type);
 
-  /// @brief Method GetRootGameObjects, addr 0x2f28168, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method GetRootGameObjects, addr 0x2f443f0, size 0x1c4, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>* GetRootGameObjects(::UnityEngine::SceneManagement::Scene scene);
 
   // Ctor Parameters [CppParam { name: "", ty: "ZenUtilInternal", modifiers: "&&", def_value: None }]

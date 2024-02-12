@@ -20,15 +20,15 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapDifficultySerializedMethods);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14718))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15102))
 // CS Name: ::BeatmapDifficultySerializedMethods*
 class CORDL_TYPE BeatmapDifficultySerializedMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SerializedName, addr 0xdfd5e8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method SerializedName, addr 0xe0d9dc, size 0xa4, virtual false, abstract: false, final false
   static inline ::StringW SerializedName(::GlobalNamespace::BeatmapDifficulty difficulty);
 
-  /// @brief Method BeatmapDifficultyFromSerializedName, addr 0xdfd68c, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method BeatmapDifficultyFromSerializedName, addr 0xe0da80, size 0x164, virtual false, abstract: false, final false
   static inline bool BeatmapDifficultyFromSerializedName(::StringW name, ByRef<::GlobalNamespace::BeatmapDifficulty> difficulty);
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapDifficultySerializedMethods", modifiers: "&&", def_value: None }]

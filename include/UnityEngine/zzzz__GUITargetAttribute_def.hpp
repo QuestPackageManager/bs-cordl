@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::UnityEngine::GUITargetAttribute);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14619))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14624))
 // CS Name: ::UnityEngine::GUITargetAttribute*
 class CORDL_TYPE GUITargetAttribute : public ::System::Attribute {
 public:
@@ -34,7 +34,7 @@ public:
 
   constexpr void __cordl_internal_set_displayMask(int32_t value);
 
-  /// @brief Method GetGUITargetAttrValue, addr 0x2d0877c, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method GetGUITargetAttrValue, addr 0x2d14068, size 0x180, virtual false, abstract: false, final false
   static inline int32_t GetGUITargetAttrValue(::System::Type* klass, ::StringW methodName);
 
   // Ctor Parameters [CppParam { name: "", ty: "GUITargetAttribute", modifiers: "&&", def_value: None }]

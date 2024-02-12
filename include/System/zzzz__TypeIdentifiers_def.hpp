@@ -80,16 +80,16 @@ public:
 
   static inline ::System::__TypeIdentifiers__Display* New_ctor(::StringW displayName);
 
-  /// @brief Method .ctor, addr 0x26068d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x262a7e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW displayName);
 
-  /// @brief Method get_DisplayName, addr 0x26068e0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_DisplayName, addr 0x262a7e8, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_DisplayName();
 
-  /// @brief Method get_InternalName, addr 0x26068e8, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method get_InternalName, addr 0x262a7f0, size 0x28, virtual true, abstract: false, final true
   inline ::StringW get_InternalName();
 
-  /// @brief Method GetInternalName, addr 0x2606910, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetInternalName, addr 0x262a818, size 0xc, virtual false, abstract: false, final false
   inline ::StringW GetInternalName();
 
   // Ctor Parameters [CppParam { name: "", ty: "__TypeIdentifiers__Display", modifiers: "&&", def_value: None }]
@@ -134,7 +134,7 @@ public:
   // Declarations
   using Display = ::System::__TypeIdentifiers__Display;
 
-  /// @brief Method FromDisplay, addr 0x2606884, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method FromDisplay, addr 0x262a78c, size 0x54, virtual false, abstract: false, final false
   static inline ::System::TypeIdentifier* FromDisplay(::StringW displayName);
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeIdentifiers", modifiers: "&&", def_value: None }]

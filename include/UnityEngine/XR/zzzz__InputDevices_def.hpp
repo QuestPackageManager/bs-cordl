@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::UnityEngine::XR::InputDevices);
 namespace UnityEngine::XR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15625))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15756))
 // CS Name: ::UnityEngine.XR::InputDevices*
 class CORDL_TYPE InputDevices : public ::System::Object {
 public:
@@ -56,22 +56,22 @@ public:
 
   static inline ::System::Action_1<::UnityEngine::XR::InputDevice>* getStaticF_deviceConfigChanged();
 
-  /// @brief Method GetDeviceAtXRNode, addr 0x2eb28c8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetDeviceAtXRNode, addr 0x2ecda0c, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::InputDevice GetDeviceAtXRNode(::UnityEngine::XR::XRNode node);
 
-  /// @brief Method InvokeConnectionEvent, addr 0x2eb2948, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method InvokeConnectionEvent, addr 0x2ecda8c, size 0xac, virtual false, abstract: false, final false
   static inline void InvokeConnectionEvent(uint64_t deviceId, ::UnityEngine::XR::ConnectionChangeType change);
 
-  /// @brief Method SendHapticImpulse, addr 0x2eb23d0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SendHapticImpulse, addr 0x2ecd514, size 0x5c, virtual false, abstract: false, final false
   static inline bool SendHapticImpulse(uint64_t deviceId, uint32_t channel, float_t amplitude, float_t duration);
 
-  /// @brief Method StopHaptics, addr 0x2eb2484, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method StopHaptics, addr 0x2ecd5c8, size 0x3c, virtual false, abstract: false, final false
   static inline void StopHaptics(uint64_t deviceId);
 
-  /// @brief Method IsDeviceValid, addr 0x2eb21fc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsDeviceValid, addr 0x2ecd340, size 0x3c, virtual false, abstract: false, final false
   static inline bool IsDeviceValid(uint64_t deviceId);
 
-  /// @brief Method GetDeviceManufacturer, addr 0x2eb2294, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetDeviceManufacturer, addr 0x2ecd3d8, size 0x3c, virtual false, abstract: false, final false
   static inline ::StringW GetDeviceManufacturer(uint64_t deviceId);
 
   // Ctor Parameters [CppParam { name: "", ty: "InputDevices", modifiers: "&&", def_value: None }]

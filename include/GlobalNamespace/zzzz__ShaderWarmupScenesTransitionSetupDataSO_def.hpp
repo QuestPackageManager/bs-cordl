@@ -14,21 +14,21 @@ class ShaderWarmupScenesTransitionSetupDataSO;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO);
 // Type: ::ShaderWarmupScenesTransitionSetupDataSO
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15418))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6078))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15464))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5352))
 // CS Name: ::ShaderWarmupScenesTransitionSetupDataSO*
 class CORDL_TYPE ShaderWarmupScenesTransitionSetupDataSO : public ::GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x231ff90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x234c7b0, size 0x8, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::ShaderWarmupSceneSetupData* shaderWarmupSceneSetupData);
 
   static inline ::GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x231ff98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x234c7b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ShaderWarmupScenesTransitionSetupDataSO", modifiers: "&&", def_value: None }]
@@ -48,7 +48,7 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO, 0x38>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO);

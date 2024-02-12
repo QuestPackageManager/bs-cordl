@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::Users::InputUserChange);
 namespace UnityEngine::InputSystem::Users {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6366))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5625))
 // CS Name: ::UnityEngine.InputSystem.Users::InputUserChange
 struct CORDL_TYPE InputUserChange {
 public:

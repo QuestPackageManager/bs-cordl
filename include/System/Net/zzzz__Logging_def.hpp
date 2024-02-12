@@ -15,12 +15,12 @@ MARK_REF_PTR_T(::System::Net::Logging);
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9145))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7155))
 // CS Name: ::System.Net::Logging*
 class CORDL_TYPE Logging : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_On, addr 0x29ba838, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_On, addr 0x29be2dc, size 0x8, virtual false, abstract: false, final false
   static inline bool get_On();
 
   // Ctor Parameters [CppParam { name: "", ty: "Logging", modifiers: "&&", def_value: None }]

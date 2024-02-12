@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SignalListener);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14396))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14545))
 // CS Name: ::SignalListener*
 class CORDL_TYPE SignalListener : public ::UnityEngine::MonoBehaviour {
 public:
@@ -44,18 +44,18 @@ public:
 
   constexpr void __cordl_internal_set__unityEvent(::UnityEngine::Events::UnityEvent* value);
 
-  /// @brief Method OnEnable, addr 0x20f57cc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x21891bc, size 0x94, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable, addr 0x20f5860, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x2189250, size 0x88, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method HandleEvent, addr 0x20f58e8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleEvent, addr 0x21892d8, size 0x1c, virtual false, abstract: false, final false
   inline void HandleEvent();
 
   static inline ::GlobalNamespace::SignalListener* New_ctor();
 
-  /// @brief Method .ctor, addr 0x20f5904, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21892f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SignalListener", modifiers: "&&", def_value: None }]

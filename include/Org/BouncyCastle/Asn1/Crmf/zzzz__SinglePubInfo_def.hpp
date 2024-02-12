@@ -57,16 +57,16 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::SinglePubInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xe88958, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeb27e8, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance, addr 0xe87308, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xeb1198, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Crmf::SinglePubInfo* GetInstance(::System::Object* obj);
 
-  /// @brief Method get_PubLocation, addr 0xe889dc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_PubLocation, addr 0xeb286c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralName* get_PubLocation();
 
-  /// @brief Method ToAsn1Object, addr 0xe889e4, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xeb2874, size 0x148, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "SinglePubInfo", modifiers: "&&", def_value: None }]

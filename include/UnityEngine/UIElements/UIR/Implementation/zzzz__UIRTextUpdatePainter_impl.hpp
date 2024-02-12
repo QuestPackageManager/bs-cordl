@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::MeshGenerationContext* (
     ::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::*)()>(&::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::get_meshGenerationContext)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ddf198;
+  constexpr static std::size_t addrs = 0x2dfd580;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::*)()>(
     &::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x2ddf1a0;
+  constexpr static std::size_t addrs = 0x2dfd588;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::UIR::UIRenderDevice*)>(&::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::Begin)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x2ddf210;
+  constexpr static std::size_t addrs = 0x2dfd5f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::*)()>(
     &::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::End)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x2ddf454;
+  constexpr static std::size_t addrs = 0x2dfd83c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::*)()>(
     &::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::Dispose)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x2ddf4e0;
+  constexpr static std::size_t addrs = 0x2dfd8c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::*)(
     ::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams)>(&::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::DrawRectangle)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2ddf5a4;
+  constexpr static std::size_t addrs = 0x2dfd98c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::*)(::System::Action*, bool)>(
     &::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::DrawImmediate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2ddf5a8;
+  constexpr static std::size_t addrs = 0x2dfd990;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -126,7 +126,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams, ::UnityEngine::UIElements::ITextHandle*, float_t)>(
     &::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::DrawText)> {
   constexpr static std::size_t size = 0x368;
-  constexpr static std::size_t addrs = 0x2ddf5ac;
+  constexpr static std::size_t addrs = 0x2dfd994;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

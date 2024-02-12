@@ -31,20 +31,20 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::MaterialReference);
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13697))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13650))
 // CS Name: ::UnityEngine.TextCore.Text::MaterialReference
 struct CORDL_TYPE MaterialReference {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x2d43078, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d62b20, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(int32_t index, ::UnityEngine::TextCore::Text::FontAsset* fontAsset, ::UnityEngine::TextCore::Text::SpriteAsset* spriteAsset, ::UnityEngine::Material* material, float_t padding);
 
-  /// @brief Method AddMaterialReference, addr 0x2d430f4, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method AddMaterialReference, addr 0x2d62b9c, size 0x20c, virtual false, abstract: false, final false
   static inline int32_t AddMaterialReference(::UnityEngine::Material* material, ::UnityEngine::TextCore::Text::FontAsset* fontAsset,
                                              ByRef<::ArrayW<::UnityEngine::TextCore::Text::MaterialReference, ::Array<::UnityEngine::TextCore::Text::MaterialReference>*>> materialReferences,
                                              ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* materialReferenceIndexLookup);
 
-  /// @brief Method AddMaterialReference, addr 0x2d43300, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method AddMaterialReference, addr 0x2d62da8, size 0x1d8, virtual false, abstract: false, final false
   static inline int32_t AddMaterialReference(::UnityEngine::Material* material, ::UnityEngine::TextCore::Text::SpriteAsset* spriteAsset,
                                              ByRef<::ArrayW<::UnityEngine::TextCore::Text::MaterialReference, ::Array<::UnityEngine::TextCore::Text::MaterialReference>*>> materialReferences,
                                              ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* materialReferenceIndexLookup);

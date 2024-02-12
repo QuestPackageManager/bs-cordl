@@ -17,21 +17,21 @@ MARK_REF_PTR_T(::GlobalNamespace::BitMaskUtil);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14776))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15158))
 // CS Name: ::BitMaskUtil*
 class CORDL_TYPE BitMaskUtil : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method NumberOfSetBits, addr 0xe0515c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method NumberOfSetBits, addr 0xe15560, size 0x64, virtual false, abstract: false, final false
   static inline uint32_t NumberOfSetBits(uint64_t i);
 
-  /// @brief Method NumberOfSetBits, addr 0xdfda6c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method NumberOfSetBits, addr 0xe0df30, size 0x34, virtual false, abstract: false, final false
   static inline uint32_t NumberOfSetBits(uint32_t i);
 
-  /// @brief Method ShiftLeft, addr 0xe051c0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method ShiftLeft, addr 0xe155c4, size 0x48, virtual false, abstract: false, final false
   static inline uint64_t ShiftLeft(ByRef<uint64_t> value, ByRef<int32_t> shift);
 
-  /// @brief Method ShiftRight, addr 0xe05208, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ShiftRight, addr 0xe1560c, size 0x60, virtual false, abstract: false, final false
   static inline uint64_t ShiftRight(ByRef<uint64_t> value, ByRef<int32_t> shift);
 
   // Ctor Parameters [CppParam { name: "", ty: "BitMaskUtil", modifiers: "&&", def_value: None }]

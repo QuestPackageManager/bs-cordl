@@ -41,8 +41,8 @@ MARK_REF_PTR_T(::GlobalNamespace::StandardScoreSyncStateNetSerializable);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12978)), TypeDefinitionIndex(TypeDefinitionIndex(12988))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12980))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12876)), TypeDefinitionIndex(TypeDefinitionIndex(12886))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12878))
 // CS Name: ::StandardScoreSyncStateNetSerializable*
 class CORDL_TYPE StandardScoreSyncStateNetSerializable : public ::System::Object {
 public:
@@ -98,39 +98,39 @@ public:
 
   constexpr void __cordl_internal_set__time_k__BackingField(int64_t value);
 
-  /// @brief Method get_pool, addr 0xe5aabc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_pool, addr 0xe858f4, size 0x40, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PacketPool_1<::GlobalNamespace::StandardScoreSyncStateNetSerializable*>* get_pool();
 
-  /// @brief Method get_id, addr 0xe5aafc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_id, addr 0xe85934, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::SyncStateId get_id();
 
-  /// @brief Method set_id, addr 0xe5ab04, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_id, addr 0xe8593c, size 0x8, virtual true, abstract: false, final true
   inline void set_id(::GlobalNamespace::SyncStateId value);
 
-  /// @brief Method get_time, addr 0xe5ab0c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_time, addr 0xe85944, size 0x8, virtual true, abstract: false, final true
   inline int64_t get_time();
 
-  /// @brief Method set_time, addr 0xe5ab14, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_time, addr 0xe8594c, size 0x8, virtual true, abstract: false, final true
   inline void set_time(int64_t value);
 
-  /// @brief Method get_state, addr 0xe5ab1c, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method get_state, addr 0xe85954, size 0x14, virtual true, abstract: false, final true
   inline ::GlobalNamespace::StandardScoreSyncState get_state();
 
-  /// @brief Method set_state, addr 0xe5ab30, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method set_state, addr 0xe85968, size 0x14, virtual true, abstract: false, final true
   inline void set_state(::GlobalNamespace::StandardScoreSyncState value);
 
-  /// @brief Method Serialize, addr 0xe5ab44, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0xe8597c, size 0x4c, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method Deserialize, addr 0xe5ab90, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0xe859c8, size 0x50, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Release, addr 0xe5abe0, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method Release, addr 0xe85a18, size 0x54, virtual true, abstract: false, final true
   inline void Release();
 
   static inline ::GlobalNamespace::StandardScoreSyncStateNetSerializable* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe5ac34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe85a6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "StandardScoreSyncStateNetSerializable", modifiers: "&&", def_value: None }]

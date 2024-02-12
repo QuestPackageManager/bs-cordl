@@ -45,10 +45,10 @@ public:
 
   static inline ::System::Runtime::Remoting::EnvoyInfo* New_ctor(::System::Runtime::Remoting::Messaging::IMessageSink* sinks);
 
-  /// @brief Method .ctor, addr 0x2485038, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24a70ac, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::IMessageSink* sinks);
 
-  /// @brief Method get_EnvoySinks, addr 0x2485060, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_EnvoySinks, addr 0x24a70d4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessageSink* get_EnvoySinks();
 
   // Ctor Parameters [CppParam { name: "", ty: "EnvoyInfo", modifiers: "&&", def_value: None }]

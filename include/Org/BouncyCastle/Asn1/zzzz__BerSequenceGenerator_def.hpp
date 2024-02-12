@@ -26,12 +26,12 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Asn1::BerSequenceGenerator* New_ctor(::System::IO::Stream* outStream);
 
-  /// @brief Method .ctor, addr 0x11be35c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11eb1ec, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* outStream);
 
   static inline ::Org::BouncyCastle::Asn1::BerSequenceGenerator* New_ctor(::System::IO::Stream* outStream, int32_t tagNo, bool isExplicit);
 
-  /// @brief Method .ctor, addr 0x11be390, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11eb220, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* outStream, int32_t tagNo, bool isExplicit);
 
   // Ctor Parameters [CppParam { name: "", ty: "BerSequenceGenerator", modifiers: "&&", def_value: None }]

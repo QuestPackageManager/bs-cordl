@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::KeyCode);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10058))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8790))
 // CS Name: ::UnityEngine::KeyCode
 struct CORDL_TYPE KeyCode {
 public:

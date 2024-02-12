@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionObjectiveResult);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4462))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10872))
 // CS Name: ::MissionObjectiveResult*
 class CORDL_TYPE MissionObjectiveResult : public ::System::Object {
 public:
@@ -58,27 +58,27 @@ public:
 
   constexpr void __cordl_internal_set__value_k__BackingField(int32_t value);
 
-  /// @brief Method get_missionObjective, addr 0x2352de0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_missionObjective, addr 0x129449c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MissionObjective* get_missionObjective();
 
-  /// @brief Method set_missionObjective, addr 0x2352de8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_missionObjective, addr 0x12944a4, size 0x8, virtual false, abstract: false, final false
   inline void set_missionObjective(::GlobalNamespace::MissionObjective* value);
 
-  /// @brief Method get_cleared, addr 0x2352df0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cleared, addr 0x12944ac, size 0x8, virtual false, abstract: false, final false
   inline bool get_cleared();
 
-  /// @brief Method set_cleared, addr 0x2352df8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_cleared, addr 0x12944b4, size 0xc, virtual false, abstract: false, final false
   inline void set_cleared(bool value);
 
-  /// @brief Method get_value, addr 0x2352e04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x12944c0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_value();
 
-  /// @brief Method set_value, addr 0x2352e0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_value, addr 0x12944c8, size 0x8, virtual false, abstract: false, final false
   inline void set_value(int32_t value);
 
   static inline ::GlobalNamespace::MissionObjectiveResult* New_ctor(::GlobalNamespace::MissionObjective* missionObjective, bool cleared, int32_t value);
 
-  /// @brief Method .ctor, addr 0x2352e14, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12944d0, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::MissionObjective* missionObjective, bool cleared, int32_t value);
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionObjectiveResult", modifiers: "&&", def_value: None }]

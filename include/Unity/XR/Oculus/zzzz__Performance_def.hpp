@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::Unity::XR::Oculus::Performance);
 namespace Unity::XR::Oculus {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15134))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15174))
 // CS Name: ::Unity.XR.Oculus::Performance*
 class CORDL_TYPE Performance : public ::System::Object {
 public:
@@ -32,19 +32,19 @@ public:
 
   static inline ::ArrayW<float_t, ::Array<float_t>*> getStaticF_cachedDisplayAvailableFrequencies();
 
-  /// @brief Method TrySetCPULevel, addr 0x2c789a0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method TrySetCPULevel, addr 0x2c7550c, size 0x18, virtual false, abstract: false, final false
   static inline bool TrySetCPULevel(int32_t level);
 
-  /// @brief Method TrySetGPULevel, addr 0x2c789bc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method TrySetGPULevel, addr 0x2c75528, size 0x18, virtual false, abstract: false, final false
   static inline bool TrySetGPULevel(int32_t level);
 
-  /// @brief Method TryGetAvailableDisplayRefreshRates, addr 0x2c789d8, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method TryGetAvailableDisplayRefreshRates, addr 0x2c75544, size 0x1b8, virtual false, abstract: false, final false
   static inline bool TryGetAvailableDisplayRefreshRates(ByRef<::ArrayW<float_t, ::Array<float_t>*>> refreshRates);
 
-  /// @brief Method TrySetDisplayRefreshRate, addr 0x2c78b94, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method TrySetDisplayRefreshRate, addr 0x2c75700, size 0x4, virtual false, abstract: false, final false
   static inline bool TrySetDisplayRefreshRate(float_t refreshRate);
 
-  /// @brief Method TryGetDisplayRefreshRate, addr 0x2c78b9c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method TryGetDisplayRefreshRate, addr 0x2c75708, size 0x4, virtual false, abstract: false, final false
   static inline bool TryGetDisplayRefreshRate(ByRef<float_t> refreshRate);
 
   // Ctor Parameters [CppParam { name: "", ty: "Performance", modifiers: "&&", def_value: None }]

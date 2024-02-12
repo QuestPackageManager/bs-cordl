@@ -19,7 +19,7 @@ namespace Zenject {
 template <typename TValue>
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11028))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10170))
 // CS Name: ::Zenject::IDespawnableMemoryPool`1<TValue>*
 class CORDL_TYPE IDespawnableMemoryPool_1 {
 public:

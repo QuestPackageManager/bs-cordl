@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflecti
 namespace UnityEngine::Experimental::Rendering {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10407))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9175))
 // CS Name: ::UnityEngine.Experimental.Rendering::ScriptableRuntimeReflectionSystemSettings*
 class CORDL_TYPE ScriptableRuntimeReflectionSystemSettings : public ::System::Object {
 public:
@@ -33,13 +33,13 @@ public:
 
   static inline ::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper* getStaticF_s_Instance();
 
-  /// @brief Method set_Internal_ScriptableRuntimeReflectionSystemSettings_system, addr 0x2cf4364, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method set_Internal_ScriptableRuntimeReflectionSystemSettings_system, addr 0x2cff040, size 0x148, virtual false, abstract: false, final false
   static inline void set_Internal_ScriptableRuntimeReflectionSystemSettings_system(::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* value);
 
-  /// @brief Method get_Internal_ScriptableRuntimeReflectionSystemSettings_instance, addr 0x2cf44ac, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Internal_ScriptableRuntimeReflectionSystemSettings_instance, addr 0x2cff188, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper* get_Internal_ScriptableRuntimeReflectionSystemSettings_instance();
 
-  /// @brief Method ScriptingDirtyReflectionSystemInstance, addr 0x2cf4504, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ScriptingDirtyReflectionSystemInstance, addr 0x2cff1e0, size 0x28, virtual false, abstract: false, final false
   static inline void ScriptingDirtyReflectionSystemInstance();
 
   // Ctor Parameters [CppParam { name: "", ty: "ScriptableRuntimeReflectionSystemSettings", modifiers: "&&", def_value: None }]

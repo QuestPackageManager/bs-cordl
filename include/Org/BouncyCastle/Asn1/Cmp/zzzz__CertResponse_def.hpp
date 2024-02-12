@@ -85,34 +85,34 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::CertResponse* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xe657e0, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe90670, size 0x148, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance, addr 0xe655a0, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xe90430, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::CertResponse* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::CertResponse* New_ctor(::Org::BouncyCastle::Asn1::DerInteger* certReqId, ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* status);
 
-  /// @brief Method .ctor, addr 0xe65ab0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe90940, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerInteger* certReqId, ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* status);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::CertResponse* New_ctor(::Org::BouncyCastle::Asn1::DerInteger* certReqId, ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* status,
                                                                        ::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair* certifiedKeyPair, ::Org::BouncyCastle::Asn1::Asn1OctetString* rspInfo);
 
-  /// @brief Method .ctor, addr 0xe65abc, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe9094c, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerInteger* certReqId, ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* status, ::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair* certifiedKeyPair,
                     ::Org::BouncyCastle::Asn1::Asn1OctetString* rspInfo);
 
-  /// @brief Method get_CertReqID, addr 0xe65b74, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CertReqID, addr 0xe90a04, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_CertReqID();
 
-  /// @brief Method get_Status, addr 0xe65b7c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Status, addr 0xe90a0c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* get_Status();
 
-  /// @brief Method get_CertifiedKeyPair, addr 0xe65b84, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CertifiedKeyPair, addr 0xe90a14, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair* get_CertifiedKeyPair();
 
-  /// @brief Method ToAsn1Object, addr 0xe65b8c, size 0x1a0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xe90a1c, size 0x1a0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "CertResponse", modifiers: "&&", def_value: None }]

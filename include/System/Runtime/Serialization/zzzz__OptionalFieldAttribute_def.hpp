@@ -34,10 +34,10 @@ public:
 
   static inline ::System::Runtime::Serialization::OptionalFieldAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24bde48, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24deebc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_VersionAdded, addr 0x24bde58, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method set_VersionAdded, addr 0x24deecc, size 0x78, virtual false, abstract: false, final false
   inline void set_VersionAdded(int32_t value);
 
   // Ctor Parameters [CppParam { name: "", ty: "OptionalFieldAttribute", modifiers: "&&", def_value: None }]

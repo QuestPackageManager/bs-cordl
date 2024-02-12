@@ -46,7 +46,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__MenuLightsManager___Start_d__4);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4867))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4221))
 // CS Name: ::MenuLightsManager::<Start>d__4*
 class CORDL_TYPE __MenuLightsManager___Start_d__4 : public ::System::Object {
 public:
@@ -102,22 +102,22 @@ public:
 
   static inline ::GlobalNamespace::__MenuLightsManager___Start_d__4* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor, addr 0x239a328, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x235b458, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x239a7ac, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x235b8dc, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext, addr 0x239a7b0, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x235b8e0, size 0xcc, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x239a87c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x235b9ac, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x239a884, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x235b9b4, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x239a8c4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x235b9f4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MenuLightsManager___Start_d__4", modifiers: "&&", def_value: None }]
@@ -159,8 +159,8 @@ static_assert(offsetof(::GlobalNamespace::__MenuLightsManager___Start_d__4, ____
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4868))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4222))
 // CS Name: ::MenuLightsManager*
 class CORDL_TYPE MenuLightsManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -203,36 +203,36 @@ public:
 
   constexpr void __cordl_internal_set__preset(::UnityW<::GlobalNamespace::MenuLightsPresetSO> value);
 
-  /// @brief Method Start, addr 0x239a2c0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x235b3f0, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Start();
 
-  /// @brief Method Update, addr 0x239a350, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x235b480, size 0x40, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method IsColorVeryCloseToColor, addr 0x239a4f4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method IsColorVeryCloseToColor, addr 0x235b624, size 0x44, virtual false, abstract: false, final false
   inline bool IsColorVeryCloseToColor(::UnityEngine::Color color0, ::UnityEngine::Color color1);
 
-  /// @brief Method SetColor, addr 0x239a538, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SetColor, addr 0x235b668, size 0x1c, virtual false, abstract: false, final false
   inline void SetColor(int32_t lightId, ::UnityEngine::Color color);
 
-  /// @brief Method CurrentColorForID, addr 0x239a554, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method CurrentColorForID, addr 0x235b684, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::Color CurrentColorForID(int32_t lightId);
 
-  /// @brief Method SetColorsFromPreset, addr 0x239a390, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method SetColorsFromPreset, addr 0x235b4c0, size 0x164, virtual false, abstract: false, final false
   inline bool SetColorsFromPreset(::GlobalNamespace::MenuLightsPresetSO* preset, float_t interpolationFactor);
 
-  /// @brief Method RefreshLightsDictForPreset, addr 0x239a574, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method RefreshLightsDictForPreset, addr 0x235b6a4, size 0xe0, virtual false, abstract: false, final false
   inline void RefreshLightsDictForPreset(::GlobalNamespace::MenuLightsPresetSO* preset);
 
-  /// @brief Method SetColorPreset, addr 0x239a654, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method SetColorPreset, addr 0x235b784, size 0xbc, virtual false, abstract: false, final false
   inline void SetColorPreset(::GlobalNamespace::MenuLightsPresetSO* preset, bool animated);
 
-  /// @brief Method RefreshColors, addr 0x239a710, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method RefreshColors, addr 0x235b840, size 0x8c, virtual false, abstract: false, final false
   inline void RefreshColors();
 
   static inline ::GlobalNamespace::MenuLightsManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x239a79c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x235b8cc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuLightsManager", modifiers: "&&", def_value: None }]

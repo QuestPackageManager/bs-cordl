@@ -4,6 +4,7 @@ module;
 
 #pragma once
 #include "UnityEngineInternal/GenericStack.hpp"
+#include "UnityEngineInternal/LightmapType.hpp"
 #include "UnityEngineInternal/MathfInternal.hpp"
 #include "UnityEngineInternal/TypeInferenceRuleAttribute.hpp"
 #include "UnityEngineInternal/TypeInferenceRules.hpp"

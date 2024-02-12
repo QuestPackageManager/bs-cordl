@@ -98,22 +98,22 @@ public:
 
   static inline ::System::OrdinalIgnoreCaseComparer* getStaticF_s_ordinalIgnoreCase();
 
-  /// @brief Method get_InvariantCultureIgnoreCase, addr 0x25c4dbc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_InvariantCultureIgnoreCase, addr 0x25e6cd4, size 0x58, virtual false, abstract: false, final false
   static inline ::System::StringComparer* get_InvariantCultureIgnoreCase();
 
-  /// @brief Method get_Ordinal, addr 0x25c4e14, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Ordinal, addr 0x25e6d2c, size 0x58, virtual false, abstract: false, final false
   static inline ::System::StringComparer* get_Ordinal();
 
-  /// @brief Method get_OrdinalIgnoreCase, addr 0x25c4e6c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_OrdinalIgnoreCase, addr 0x25e6d84, size 0x58, virtual false, abstract: false, final false
   static inline ::System::StringComparer* get_OrdinalIgnoreCase();
 
-  /// @brief Method Compare, addr 0x25c4ec4, size 0x190, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x25e6ddc, size 0x190, virtual true, abstract: false, final true
   inline int32_t Compare(::System::Object* x, ::System::Object* y);
 
-  /// @brief Method Equals, addr 0x25c5054, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x25e6f6c, size 0xc8, virtual true, abstract: false, final true
   inline bool Equals(::System::Object* x, ::System::Object* y);
 
-  /// @brief Method GetHashCode, addr 0x25c511c, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method GetHashCode, addr 0x25e7034, size 0xc8, virtual true, abstract: false, final true
   inline int32_t GetHashCode(::System::Object* obj);
 
   /// @brief Method Compare, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -127,7 +127,7 @@ public:
 
   static inline ::System::StringComparer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25c51e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25e70fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "StringComparer", modifiers: "&&", def_value: None }]

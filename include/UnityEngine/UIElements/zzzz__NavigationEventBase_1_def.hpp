@@ -19,8 +19,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7180)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7180), inst: 1715 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7248))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6439)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6439), inst: 1673 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6507))
 // CS Name: ::UnityEngine.UIElements::NavigationEventBase`1<T>*
 class CORDL_TYPE NavigationEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T> {
 public:

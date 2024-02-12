@@ -33,8 +33,8 @@ MARK_REF_PTR_T(::System::ComponentModel::DelegatingTypeDescriptionProvider);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9460))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9419))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7470))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7429))
 // CS Name: ::System.ComponentModel::DelegatingTypeDescriptionProvider*
 class CORDL_TYPE DelegatingTypeDescriptionProvider : public ::System::ComponentModel::TypeDescriptionProvider {
 public:
@@ -52,25 +52,25 @@ public:
 
   static inline ::System::ComponentModel::DelegatingTypeDescriptionProvider* New_ctor(::System::Type* type);
 
-  /// @brief Method .ctor, addr 0x290e6a0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2912d08, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
-  /// @brief Method get_Provider, addr 0x290e6c8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_Provider, addr 0x2912d30, size 0x5c, virtual false, abstract: false, final false
   inline ::System::ComponentModel::TypeDescriptionProvider* get_Provider();
 
-  /// @brief Method GetCache, addr 0x290e724, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetCache, addr 0x2912d8c, size 0x28, virtual true, abstract: false, final false
   inline ::System::Collections::IDictionary* GetCache(::System::Object* instance);
 
-  /// @brief Method GetExtendedTypeDescriptor, addr 0x290e74c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetExtendedTypeDescriptor, addr 0x2912db4, size 0x28, virtual true, abstract: false, final false
   inline ::System::ComponentModel::ICustomTypeDescriptor* GetExtendedTypeDescriptor(::System::Object* instance);
 
-  /// @brief Method GetExtenderProviders, addr 0x290e774, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetExtenderProviders, addr 0x2912ddc, size 0x28, virtual true, abstract: false, final false
   inline ::ArrayW<::System::ComponentModel::IExtenderProvider*, ::Array<::System::ComponentModel::IExtenderProvider*>*> GetExtenderProviders(::System::Object* instance);
 
-  /// @brief Method GetReflectionType, addr 0x290e79c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetReflectionType, addr 0x2912e04, size 0x38, virtual true, abstract: false, final false
   inline ::System::Type* GetReflectionType(::System::Type* objectType, ::System::Object* instance);
 
-  /// @brief Method GetTypeDescriptor, addr 0x290e7d4, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetTypeDescriptor, addr 0x2912e3c, size 0x38, virtual true, abstract: false, final false
   inline ::System::ComponentModel::ICustomTypeDescriptor* GetTypeDescriptor(::System::Type* objectType, ::System::Object* instance);
 
   // Ctor Parameters [CppParam { name: "", ty: "DelegatingTypeDescriptionProvider", modifiers: "&&", def_value: None }]

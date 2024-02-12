@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Reflection::GenericParameterAttributes);
 namespace System::Reflection {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3470))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3466))
 // CS Name: ::System.Reflection::GenericParameterAttributes
 struct CORDL_TYPE GenericParameterAttributes {
 public:

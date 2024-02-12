@@ -25,30 +25,30 @@ MARK_REF_PTR_T(::System::Security::Authentication::AuthenticationException);
 namespace System::Security::Authentication {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2481))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8963))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6973))
 // CS Name: ::System.Security.Authentication::AuthenticationException*
 class CORDL_TYPE AuthenticationException : public ::System::SystemException {
 public:
   // Declarations
   static inline ::System::Security::Authentication::AuthenticationException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2974274, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2977d18, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Security::Authentication::AuthenticationException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x29742cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2977d70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::System::Security::Authentication::AuthenticationException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x29742d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2977d78, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
   static inline ::System::Security::Authentication::AuthenticationException* New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
                                                                                       ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method .ctor, addr 0x29742dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2977d80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
   // Ctor Parameters [CppParam { name: "", ty: "AuthenticationException", modifiers: "&&", def_value: None }]

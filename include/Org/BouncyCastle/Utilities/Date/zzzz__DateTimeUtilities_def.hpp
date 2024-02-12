@@ -34,16 +34,16 @@ public:
 
   static inline ::Org::BouncyCastle::Utilities::Date::DateTimeUtilities* New_ctor();
 
-  /// @brief Method .ctor, addr 0x115b73c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11895cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method DateTimeToUnixMs, addr 0x115b744, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method DateTimeToUnixMs, addr 0x11895d4, size 0x15c, virtual false, abstract: false, final false
   static inline int64_t DateTimeToUnixMs(::System::DateTime dateTime);
 
-  /// @brief Method UnixMsToDateTime, addr 0x115b8a0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method UnixMsToDateTime, addr 0x1189730, size 0x94, virtual false, abstract: false, final false
   static inline ::System::DateTime UnixMsToDateTime(int64_t unixMs);
 
-  /// @brief Method CurrentUnixMs, addr 0x115b934, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method CurrentUnixMs, addr 0x11897c4, size 0x84, virtual false, abstract: false, final false
   static inline int64_t CurrentUnixMs();
 
   // Ctor Parameters [CppParam { name: "", ty: "DateTimeUtilities", modifiers: "&&", def_value: None }]

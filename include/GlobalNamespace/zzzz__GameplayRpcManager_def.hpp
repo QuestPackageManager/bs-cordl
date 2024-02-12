@@ -191,7 +191,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__GameplayRpcManager__SliderSpawnedRpc);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12741))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12639))
 // CS Name: ::GameplayRpcManager::RpcType
 struct CORDL_TYPE __GameplayRpcManager__RpcType {
 public:
@@ -292,14 +292,14 @@ static_assert(offsetof(::GlobalNamespace::__GameplayRpcManager__RpcType, value__
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12926)), TypeDefinitionIndex(TypeDefinitionIndex(12938)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12938), inst:
-// 4918 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(12742)) CS Name: ::GameplayRpcManager::SetGameplaySceneSyncFinishedRpc*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12824)), TypeDefinitionIndex(TypeDefinitionIndex(12836)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12836), inst:
+// 4889 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(12640)) CS Name: ::GameplayRpcManager::SetGameplaySceneSyncFinishedRpc*
 class CORDL_TYPE __GameplayRpcManager__SetGameplaySceneSyncFinishedRpc : public ::GlobalNamespace::RemoteProcedureCall_2<::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::StringW> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__GameplayRpcManager__SetGameplaySceneSyncFinishedRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe3b7f4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe6662c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__GameplayRpcManager__SetGameplaySceneSyncFinishedRpc", modifiers: "&&", def_value: None }]
@@ -326,14 +326,14 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameplayRpcMa
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12927)), TypeDefinitionIndex(TypeDefinitionIndex(12937)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12937), inst:
-// 3813 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(12743)) CS Name: ::GameplayRpcManager::SetGameplaySceneReadyRpc*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12825)), TypeDefinitionIndex(TypeDefinitionIndex(12835)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12835), inst:
+// 3796 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(12641)) CS Name: ::GameplayRpcManager::SetGameplaySceneReadyRpc*
 class CORDL_TYPE __GameplayRpcManager__SetGameplaySceneReadyRpc : public ::GlobalNamespace::RemoteProcedureCall_1<::GlobalNamespace::PlayerSpecificSettingsNetSerializable*> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__GameplayRpcManager__SetGameplaySceneReadyRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe3b83c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe66674, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__GameplayRpcManager__SetGameplaySceneReadyRpc", modifiers: "&&", def_value: None }]
@@ -360,15 +360,15 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameplayRpcMa
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12936))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12744))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12834))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12642))
 // CS Name: ::GameplayRpcManager::GetGameplaySceneReadyRpc*
 class CORDL_TYPE __GameplayRpcManager__GetGameplaySceneReadyRpc : public ::GlobalNamespace::RemoteProcedureCall {
 public:
   // Declarations
   static inline ::GlobalNamespace::__GameplayRpcManager__GetGameplaySceneReadyRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe3b884, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe666bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__GameplayRpcManager__GetGameplaySceneReadyRpc", modifiers: "&&", def_value: None }]
@@ -395,15 +395,15 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameplayRpcMa
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12926)), TypeDefinitionIndex(TypeDefinitionIndex(12939)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12939), inst:
-// 662 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(12745)) CS Name: ::GameplayRpcManager::SetPlayerDidConnectLateRpc*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12824)), TypeDefinitionIndex(TypeDefinitionIndex(12837)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12837), inst:
+// 652 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(12643)) CS Name: ::GameplayRpcManager::SetPlayerDidConnectLateRpc*
 class CORDL_TYPE __GameplayRpcManager__SetPlayerDidConnectLateRpc
     : public ::GlobalNamespace::RemoteProcedureCall_3<::StringW, ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::StringW> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__GameplayRpcManager__SetPlayerDidConnectLateRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe3b88c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe666c4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__GameplayRpcManager__SetPlayerDidConnectLateRpc", modifiers: "&&", def_value: None }]
@@ -430,15 +430,15 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameplayRpcMa
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12936))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12746))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12834))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12644))
 // CS Name: ::GameplayRpcManager::SetGameplaySongReadyRpc*
 class CORDL_TYPE __GameplayRpcManager__SetGameplaySongReadyRpc : public ::GlobalNamespace::RemoteProcedureCall {
 public:
   // Declarations
   static inline ::GlobalNamespace::__GameplayRpcManager__SetGameplaySongReadyRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe3b8d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe6670c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__GameplayRpcManager__SetGameplaySongReadyRpc", modifiers: "&&", def_value: None }]
@@ -465,15 +465,15 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameplayRpcMa
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12936))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12747))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12834))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12645))
 // CS Name: ::GameplayRpcManager::GetGameplaySongReadyRpc*
 class CORDL_TYPE __GameplayRpcManager__GetGameplaySongReadyRpc : public ::GlobalNamespace::RemoteProcedureCall {
 public:
   // Declarations
   static inline ::GlobalNamespace::__GameplayRpcManager__GetGameplaySongReadyRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe3b8dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe66714, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__GameplayRpcManager__GetGameplaySongReadyRpc", modifiers: "&&", def_value: None }]
@@ -500,15 +500,15 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameplayRpcMa
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12937)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12937), inst: 333 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12748))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12835)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12835), inst: 333 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12646))
 // CS Name: ::GameplayRpcManager::SetSongStartTimeRpc*
 class CORDL_TYPE __GameplayRpcManager__SetSongStartTimeRpc : public ::GlobalNamespace::RemoteProcedureCall_1<int64_t> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__GameplayRpcManager__SetSongStartTimeRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe3b8e4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe6671c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__GameplayRpcManager__SetSongStartTimeRpc", modifiers: "&&", def_value: None }]
@@ -535,14 +535,14 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameplayRpcMa
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12938)), TypeDefinitionIndex(TypeDefinitionIndex(15028)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12938), inst:
-// 4921 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(12749)) CS Name: ::GameplayRpcManager::NoteSpawnedRpc*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12836)), TypeDefinitionIndex(TypeDefinitionIndex(14901)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12836), inst:
+// 4892 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(12647)) CS Name: ::GameplayRpcManager::NoteSpawnedRpc*
 class CORDL_TYPE __GameplayRpcManager__NoteSpawnedRpc : public ::GlobalNamespace::RemoteProcedureCall_2<float_t, ::GlobalNamespace::NoteSpawnInfoNetSerializable*> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__GameplayRpcManager__NoteSpawnedRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe3b92c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe66764, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__GameplayRpcManager__NoteSpawnedRpc", modifiers: "&&", def_value: None }]
@@ -569,14 +569,14 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameplayRpcMa
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12938)), TypeDefinitionIndex(TypeDefinitionIndex(15029)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12938), inst:
-// 4922 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(12750)) CS Name: ::GameplayRpcManager::ObstacleSpawnedRpc*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12836)), TypeDefinitionIndex(TypeDefinitionIndex(14902)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12836), inst:
+// 4893 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(12648)) CS Name: ::GameplayRpcManager::ObstacleSpawnedRpc*
 class CORDL_TYPE __GameplayRpcManager__ObstacleSpawnedRpc : public ::GlobalNamespace::RemoteProcedureCall_2<float_t, ::GlobalNamespace::ObstacleSpawnInfoNetSerializable*> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__GameplayRpcManager__ObstacleSpawnedRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe3b974, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe667ac, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__GameplayRpcManager__ObstacleSpawnedRpc", modifiers: "&&", def_value: None }]
@@ -603,14 +603,14 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameplayRpcMa
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12938)), TypeDefinitionIndex(TypeDefinitionIndex(15046)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12938), inst:
-// 4923 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(12751)) CS Name: ::GameplayRpcManager::SliderSpawnedRpc*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12836)), TypeDefinitionIndex(TypeDefinitionIndex(14919)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12836), inst:
+// 4894 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(12649)) CS Name: ::GameplayRpcManager::SliderSpawnedRpc*
 class CORDL_TYPE __GameplayRpcManager__SliderSpawnedRpc : public ::GlobalNamespace::RemoteProcedureCall_2<float_t, ::GlobalNamespace::SliderSpawnInfoNetSerializable*> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__GameplayRpcManager__SliderSpawnedRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe3b9bc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe667f4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__GameplayRpcManager__SliderSpawnedRpc", modifiers: "&&", def_value: None }]
@@ -637,14 +637,14 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameplayRpcMa
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12938)), TypeDefinitionIndex(TypeDefinitionIndex(15026)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12938), inst:
-// 4919 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(12752)) CS Name: ::GameplayRpcManager::NoteCutRpc*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12836)), TypeDefinitionIndex(TypeDefinitionIndex(14899)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12836), inst:
+// 4890 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(12650)) CS Name: ::GameplayRpcManager::NoteCutRpc*
 class CORDL_TYPE __GameplayRpcManager__NoteCutRpc : public ::GlobalNamespace::RemoteProcedureCall_2<float_t, ::GlobalNamespace::NoteCutInfoNetSerializable*> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__GameplayRpcManager__NoteCutRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe3ba04, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe6683c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__GameplayRpcManager__NoteCutRpc", modifiers: "&&", def_value: None }]
@@ -671,14 +671,14 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameplayRpcMa
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12938)), TypeDefinitionIndex(TypeDefinitionIndex(15027)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12938), inst:
-// 4920 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(12753)) CS Name: ::GameplayRpcManager::NoteMissedRpc*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12836)), TypeDefinitionIndex(TypeDefinitionIndex(14900)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12836), inst:
+// 4891 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(12651)) CS Name: ::GameplayRpcManager::NoteMissedRpc*
 class CORDL_TYPE __GameplayRpcManager__NoteMissedRpc : public ::GlobalNamespace::RemoteProcedureCall_2<float_t, ::GlobalNamespace::NoteMissInfoNetSerializable*> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__GameplayRpcManager__NoteMissedRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe3ba4c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe66884, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__GameplayRpcManager__NoteMissedRpc", modifiers: "&&", def_value: None }]
@@ -705,14 +705,14 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameplayRpcMa
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12878)), TypeDefinitionIndex(TypeDefinitionIndex(12937)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12937), inst:
-// 358 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(12754)) CS Name: ::GameplayRpcManager::LevelFinishedRpc*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12776)), TypeDefinitionIndex(TypeDefinitionIndex(12835)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12835), inst:
+// 359 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(12652)) CS Name: ::GameplayRpcManager::LevelFinishedRpc*
 class CORDL_TYPE __GameplayRpcManager__LevelFinishedRpc : public ::GlobalNamespace::RemoteProcedureCall_1<::GlobalNamespace::MultiplayerLevelCompletionResults*> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__GameplayRpcManager__LevelFinishedRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe3ba94, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe668cc, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__GameplayRpcManager__LevelFinishedRpc", modifiers: "&&", def_value: None }]
@@ -739,15 +739,15 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameplayRpcMa
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12936))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12755))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12834))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12653))
 // CS Name: ::GameplayRpcManager::ReturnToMenuRpc*
 class CORDL_TYPE __GameplayRpcManager__ReturnToMenuRpc : public ::GlobalNamespace::RemoteProcedureCall {
 public:
   // Declarations
   static inline ::GlobalNamespace::__GameplayRpcManager__ReturnToMenuRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe3badc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe66914, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__GameplayRpcManager__ReturnToMenuRpc", modifiers: "&&", def_value: None }]
@@ -774,15 +774,15 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameplayRpcMa
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12936))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12756))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12834))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12654))
 // CS Name: ::GameplayRpcManager::RequestReturnToMenuRpc*
 class CORDL_TYPE __GameplayRpcManager__RequestReturnToMenuRpc : public ::GlobalNamespace::RemoteProcedureCall {
 public:
   // Declarations
   static inline ::GlobalNamespace::__GameplayRpcManager__RequestReturnToMenuRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe3bae4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe6691c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__GameplayRpcManager__RequestReturnToMenuRpc", modifiers: "&&", def_value: None }]
@@ -810,7 +810,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameplayRpcMa
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12757))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12655))
 // CS Name: ::GameplayRpcManager*
 class CORDL_TYPE GameplayRpcManager : public ::System::Object {
 public:
@@ -1034,199 +1034,199 @@ public:
 
   constexpr void __cordl_internal_set_requestReturnToMenuEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method get_enabled, addr 0xe39304, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method get_enabled, addr 0xe6413c, size 0xc0, virtual true, abstract: false, final true
   inline bool get_enabled();
 
-  /// @brief Method set_enabled, addr 0xe393c4, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method set_enabled, addr 0xe641fc, size 0xc8, virtual true, abstract: false, final true
   inline void set_enabled(bool value);
 
   static inline ::GlobalNamespace::GameplayRpcManager* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager);
 
-  /// @brief Method .ctor, addr 0xe3948c, size 0x750, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe642c4, size 0x750, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager);
 
-  /// @brief Method Dispose, addr 0xe39bdc, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0xe64a14, size 0x5c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method add_setGameplaySceneSyncFinishedEvent, addr 0xe39c38, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_setGameplaySceneSyncFinishedEvent, addr 0xe64a70, size 0xb0, virtual true, abstract: false, final true
   inline void add_setGameplaySceneSyncFinishedEvent(::System::Action_3<::StringW, ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::StringW>* value);
 
-  /// @brief Method remove_setGameplaySceneSyncFinishedEvent, addr 0xe39ce8, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_setGameplaySceneSyncFinishedEvent, addr 0xe64b20, size 0xb0, virtual true, abstract: false, final true
   inline void remove_setGameplaySceneSyncFinishedEvent(::System::Action_3<::StringW, ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::StringW>* value);
 
-  /// @brief Method SetGameplaySceneSyncFinished, addr 0xe39d98, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetGameplaySceneSyncFinished, addr 0xe64bd0, size 0x68, virtual true, abstract: false, final true
   inline void SetGameplaySceneSyncFinished(::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* playersAtGameStartNetSerializable, ::StringW sessionGameId);
 
-  /// @brief Method InvokeSetGameplaySceneSyncFinishCallback, addr 0xe39e00, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeSetGameplaySceneSyncFinishCallback, addr 0xe64c38, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeSetGameplaySceneSyncFinishCallback(::StringW userId, ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* playersAtGameStart, ::StringW sessionGameId);
 
-  /// @brief Method add_setGameplaySceneReadyEvent, addr 0xe39e1c, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_setGameplaySceneReadyEvent, addr 0xe64c54, size 0xb0, virtual true, abstract: false, final true
   inline void add_setGameplaySceneReadyEvent(::System::Action_2<::StringW, ::GlobalNamespace::PlayerSpecificSettingsNetSerializable*>* value);
 
-  /// @brief Method remove_setGameplaySceneReadyEvent, addr 0xe39ecc, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_setGameplaySceneReadyEvent, addr 0xe64d04, size 0xb0, virtual true, abstract: false, final true
   inline void remove_setGameplaySceneReadyEvent(::System::Action_2<::StringW, ::GlobalNamespace::PlayerSpecificSettingsNetSerializable*>* value);
 
-  /// @brief Method SetGameplaySceneReady, addr 0xe39f7c, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetGameplaySceneReady, addr 0xe64db4, size 0x58, virtual true, abstract: false, final true
   inline void SetGameplaySceneReady(::GlobalNamespace::PlayerSpecificSettingsNetSerializable* playerSpecificSettings);
 
-  /// @brief Method InvokeSetGameplaySceneReadyCallback, addr 0xe39fd4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeSetGameplaySceneReadyCallback, addr 0xe64e0c, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeSetGameplaySceneReadyCallback(::StringW userId, ::GlobalNamespace::PlayerSpecificSettingsNetSerializable* playerSpecificSettingsNetSerializable);
 
-  /// @brief Method add_getGameplaySceneReadyEvent, addr 0xe39ff0, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_getGameplaySceneReadyEvent, addr 0xe64e28, size 0xb0, virtual true, abstract: false, final true
   inline void add_getGameplaySceneReadyEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_getGameplaySceneReadyEvent, addr 0xe3a0a0, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_getGameplaySceneReadyEvent, addr 0xe64ed8, size 0xb0, virtual true, abstract: false, final true
   inline void remove_getGameplaySceneReadyEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method GetGameplaySceneReady, addr 0xe3a150, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method GetGameplaySceneReady, addr 0xe64f88, size 0x50, virtual true, abstract: false, final true
   inline void GetGameplaySceneReady();
 
-  /// @brief Method InvokeGetGameplaySceneReadyCallback, addr 0xe3a1a0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeGetGameplaySceneReadyCallback, addr 0xe64fd8, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeGetGameplaySceneReadyCallback(::StringW userId);
 
-  /// @brief Method add_setPlayerDidConnectLateEvent, addr 0xe3a1bc, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_setPlayerDidConnectLateEvent, addr 0xe64ff4, size 0xb0, virtual true, abstract: false, final true
   inline void add_setPlayerDidConnectLateEvent(::System::Action_4<::StringW, ::StringW, ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::StringW>* value);
 
-  /// @brief Method remove_setPlayerDidConnectLateEvent, addr 0xe3a26c, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_setPlayerDidConnectLateEvent, addr 0xe650a4, size 0xb0, virtual true, abstract: false, final true
   inline void remove_setPlayerDidConnectLateEvent(::System::Action_4<::StringW, ::StringW, ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::StringW>* value);
 
-  /// @brief Method SetPlayerDidConnectLate, addr 0xe3a31c, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method SetPlayerDidConnectLate, addr 0xe65154, size 0x70, virtual true, abstract: false, final true
   inline void SetPlayerDidConnectLate(::StringW usedId, ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* playersAtGameStartNetSerializable, ::StringW sessionGameId);
 
-  /// @brief Method InvokeSetPlayerDidConnectLate, addr 0xe3a38c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeSetPlayerDidConnectLate, addr 0xe651c4, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeSetPlayerDidConnectLate(::StringW userId, ::StringW failedUserId, ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* playersAtGameStartNetSerializable,
                                             ::StringW sessionGameId);
 
-  /// @brief Method add_setGameplaySongReadyEvent, addr 0xe3a3a8, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_setGameplaySongReadyEvent, addr 0xe651e0, size 0xb0, virtual true, abstract: false, final true
   inline void add_setGameplaySongReadyEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_setGameplaySongReadyEvent, addr 0xe3a458, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_setGameplaySongReadyEvent, addr 0xe65290, size 0xb0, virtual true, abstract: false, final true
   inline void remove_setGameplaySongReadyEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method SetGameplaySongReady, addr 0xe3a508, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method SetGameplaySongReady, addr 0xe65340, size 0x50, virtual true, abstract: false, final true
   inline void SetGameplaySongReady();
 
-  /// @brief Method InvokeSetGameplaySongReadyCallback, addr 0xe3a558, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeSetGameplaySongReadyCallback, addr 0xe65390, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeSetGameplaySongReadyCallback(::StringW userId);
 
-  /// @brief Method add_getGameplaySongReadyEvent, addr 0xe3a574, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_getGameplaySongReadyEvent, addr 0xe653ac, size 0xb0, virtual true, abstract: false, final true
   inline void add_getGameplaySongReadyEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_getGameplaySongReadyEvent, addr 0xe3a624, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_getGameplaySongReadyEvent, addr 0xe6545c, size 0xb0, virtual true, abstract: false, final true
   inline void remove_getGameplaySongReadyEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method GetGameplaySongReady, addr 0xe3a6d4, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method GetGameplaySongReady, addr 0xe6550c, size 0x50, virtual true, abstract: false, final true
   inline void GetGameplaySongReady();
 
-  /// @brief Method InvokeGetGameplayLevelReadyCallback, addr 0xe3a724, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeGetGameplayLevelReadyCallback, addr 0xe6555c, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeGetGameplayLevelReadyCallback(::StringW userId);
 
-  /// @brief Method add_setSongStartTimeEvent, addr 0xe3a740, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_setSongStartTimeEvent, addr 0xe65578, size 0xb0, virtual true, abstract: false, final true
   inline void add_setSongStartTimeEvent(::System::Action_2<::StringW, int64_t>* value);
 
-  /// @brief Method remove_setSongStartTimeEvent, addr 0xe3a7f0, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_setSongStartTimeEvent, addr 0xe65628, size 0xb0, virtual true, abstract: false, final true
   inline void remove_setSongStartTimeEvent(::System::Action_2<::StringW, int64_t>* value);
 
-  /// @brief Method SetSongStartTime, addr 0xe3a8a0, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetSongStartTime, addr 0xe656d8, size 0x58, virtual true, abstract: false, final true
   inline void SetSongStartTime(int64_t startTime);
 
-  /// @brief Method InvokeSetSongStartTimeCallback, addr 0xe3a8f8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeSetSongStartTimeCallback, addr 0xe65730, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeSetSongStartTimeCallback(::StringW userId, int64_t startTime);
 
-  /// @brief Method add_noteWasSpawnedEvent, addr 0xe3a914, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_noteWasSpawnedEvent, addr 0xe6574c, size 0xb0, virtual true, abstract: false, final true
   inline void add_noteWasSpawnedEvent(::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::NoteSpawnInfoNetSerializable*>* value);
 
-  /// @brief Method remove_noteWasSpawnedEvent, addr 0xe3a9c4, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_noteWasSpawnedEvent, addr 0xe657fc, size 0xb0, virtual true, abstract: false, final true
   inline void remove_noteWasSpawnedEvent(::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::NoteSpawnInfoNetSerializable*>* value);
 
-  /// @brief Method NoteSpawned, addr 0xe3aa74, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method NoteSpawned, addr 0xe658ac, size 0x68, virtual true, abstract: false, final true
   inline void NoteSpawned(float_t songTime, ::GlobalNamespace::NoteSpawnInfoNetSerializable* noteSpawnInfoNetSerializable);
 
-  /// @brief Method InvokeNoteWasSpawnedCallback, addr 0xe3aadc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeNoteWasSpawnedCallback, addr 0xe65914, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeNoteWasSpawnedCallback(::StringW userId, int64_t syncTime, float_t songTime, ::GlobalNamespace::NoteSpawnInfoNetSerializable* noteSpawnInfo);
 
-  /// @brief Method add_obstacleWasSpawnedEvent, addr 0xe3aaf8, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_obstacleWasSpawnedEvent, addr 0xe65930, size 0xb0, virtual true, abstract: false, final true
   inline void add_obstacleWasSpawnedEvent(::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::ObstacleSpawnInfoNetSerializable*>* value);
 
-  /// @brief Method remove_obstacleWasSpawnedEvent, addr 0xe3aba8, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_obstacleWasSpawnedEvent, addr 0xe659e0, size 0xb0, virtual true, abstract: false, final true
   inline void remove_obstacleWasSpawnedEvent(::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::ObstacleSpawnInfoNetSerializable*>* value);
 
-  /// @brief Method ObstacleSpawned, addr 0xe3ac58, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method ObstacleSpawned, addr 0xe65a90, size 0x68, virtual true, abstract: false, final true
   inline void ObstacleSpawned(float_t songTime, ::GlobalNamespace::ObstacleSpawnInfoNetSerializable* obstacleSpawnInfoNetSerializable);
 
-  /// @brief Method InvokeObstacleWasSpawnedCallback, addr 0xe3acc0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeObstacleWasSpawnedCallback, addr 0xe65af8, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeObstacleWasSpawnedCallback(::StringW userId, int64_t syncTime, float_t songTime, ::GlobalNamespace::ObstacleSpawnInfoNetSerializable* obstacleSpawnInfo);
 
-  /// @brief Method add_sliderWasSpawnedEvent, addr 0xe3acdc, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_sliderWasSpawnedEvent, addr 0xe65b14, size 0xb0, virtual true, abstract: false, final true
   inline void add_sliderWasSpawnedEvent(::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::SliderSpawnInfoNetSerializable*>* value);
 
-  /// @brief Method remove_sliderWasSpawnedEvent, addr 0xe3ad8c, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_sliderWasSpawnedEvent, addr 0xe65bc4, size 0xb0, virtual true, abstract: false, final true
   inline void remove_sliderWasSpawnedEvent(::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::SliderSpawnInfoNetSerializable*>* value);
 
-  /// @brief Method SliderSpawned, addr 0xe3ae3c, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SliderSpawned, addr 0xe65c74, size 0x68, virtual true, abstract: false, final true
   inline void SliderSpawned(float_t songTime, ::GlobalNamespace::SliderSpawnInfoNetSerializable* sliderSpawnInfoNetSerializable);
 
-  /// @brief Method InvokeSliderWasSpawnedCallback, addr 0xe3aea4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeSliderWasSpawnedCallback, addr 0xe65cdc, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeSliderWasSpawnedCallback(::StringW userId, int64_t syncTime, float_t songTime, ::GlobalNamespace::SliderSpawnInfoNetSerializable* sliderSpawnInfo);
 
-  /// @brief Method add_noteWasCutEvent, addr 0xe3aec0, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_noteWasCutEvent, addr 0xe65cf8, size 0xb0, virtual true, abstract: false, final true
   inline void add_noteWasCutEvent(::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::NoteCutInfoNetSerializable*>* value);
 
-  /// @brief Method remove_noteWasCutEvent, addr 0xe3af70, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_noteWasCutEvent, addr 0xe65da8, size 0xb0, virtual true, abstract: false, final true
   inline void remove_noteWasCutEvent(::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::NoteCutInfoNetSerializable*>* value);
 
-  /// @brief Method NoteCut, addr 0xe3b020, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method NoteCut, addr 0xe65e58, size 0x68, virtual true, abstract: false, final true
   inline void NoteCut(float_t songTime, ::GlobalNamespace::NoteCutInfoNetSerializable* noteCutInfoNetSerializable);
 
-  /// @brief Method InvokeNoteWasCutCallback, addr 0xe3b088, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeNoteWasCutCallback, addr 0xe65ec0, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeNoteWasCutCallback(::StringW userId, int64_t syncTime, float_t songTime, ::GlobalNamespace::NoteCutInfoNetSerializable* noteCutInfo);
 
-  /// @brief Method add_noteWasMissedEvent, addr 0xe3b0a4, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_noteWasMissedEvent, addr 0xe65edc, size 0xb0, virtual true, abstract: false, final true
   inline void add_noteWasMissedEvent(::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::NoteMissInfoNetSerializable*>* value);
 
-  /// @brief Method remove_noteWasMissedEvent, addr 0xe3b154, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_noteWasMissedEvent, addr 0xe65f8c, size 0xb0, virtual true, abstract: false, final true
   inline void remove_noteWasMissedEvent(::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::NoteMissInfoNetSerializable*>* value);
 
-  /// @brief Method NoteMissed, addr 0xe3b204, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method NoteMissed, addr 0xe6603c, size 0x68, virtual true, abstract: false, final true
   inline void NoteMissed(float_t songTime, ::GlobalNamespace::NoteMissInfoNetSerializable* noteMissInfoNetSerializable);
 
-  /// @brief Method InvokeNoteWasMissedCallback, addr 0xe3b26c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeNoteWasMissedCallback, addr 0xe660a4, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeNoteWasMissedCallback(::StringW userId, int64_t syncTime, float_t songTime, ::GlobalNamespace::NoteMissInfoNetSerializable* noteMissInfo);
 
-  /// @brief Method add_levelFinishedEvent, addr 0xe3b288, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_levelFinishedEvent, addr 0xe660c0, size 0xb0, virtual true, abstract: false, final true
   inline void add_levelFinishedEvent(::System::Action_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
 
-  /// @brief Method remove_levelFinishedEvent, addr 0xe3b338, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_levelFinishedEvent, addr 0xe66170, size 0xb0, virtual true, abstract: false, final true
   inline void remove_levelFinishedEvent(::System::Action_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
 
-  /// @brief Method LevelFinished, addr 0xe3b3e8, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method LevelFinished, addr 0xe66220, size 0x58, virtual true, abstract: false, final true
   inline void LevelFinished(::GlobalNamespace::MultiplayerLevelCompletionResults* results);
 
-  /// @brief Method InvokeLevelFinishedCallback, addr 0xe3b440, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeLevelFinishedCallback, addr 0xe66278, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeLevelFinishedCallback(::StringW userId, ::GlobalNamespace::MultiplayerLevelCompletionResults* results);
 
-  /// @brief Method add_returnToMenuEvent, addr 0xe3b45c, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_returnToMenuEvent, addr 0xe66294, size 0xb0, virtual true, abstract: false, final true
   inline void add_returnToMenuEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_returnToMenuEvent, addr 0xe3b50c, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_returnToMenuEvent, addr 0xe66344, size 0xb0, virtual true, abstract: false, final true
   inline void remove_returnToMenuEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method ReturnToMenu, addr 0xe3b5bc, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method ReturnToMenu, addr 0xe663f4, size 0x50, virtual true, abstract: false, final true
   inline void ReturnToMenu();
 
-  /// @brief Method InvokeReturnToMenuCallback, addr 0xe3b60c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeReturnToMenuCallback, addr 0xe66444, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeReturnToMenuCallback(::StringW userId);
 
-  /// @brief Method add_requestReturnToMenuEvent, addr 0xe3b628, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_requestReturnToMenuEvent, addr 0xe66460, size 0xb0, virtual true, abstract: false, final true
   inline void add_requestReturnToMenuEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_requestReturnToMenuEvent, addr 0xe3b6d8, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_requestReturnToMenuEvent, addr 0xe66510, size 0xb0, virtual true, abstract: false, final true
   inline void remove_requestReturnToMenuEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method RequestReturnToMenu, addr 0xe3b788, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method RequestReturnToMenu, addr 0xe665c0, size 0x50, virtual true, abstract: false, final true
   inline void RequestReturnToMenu();
 
-  /// @brief Method InvokeRequestReturnToMenuCallback, addr 0xe3b7d8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeRequestReturnToMenuCallback, addr 0xe66610, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeRequestReturnToMenuCallback(::StringW userId);
 
   // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager", modifiers: "&&", def_value: None }]

@@ -44,8 +44,8 @@ MARK_VAL_T(::TMPro::TMP_MeshInfo);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10164)), TypeDefinitionIndex(TypeDefinitionIndex(10246)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10250))] Self: TypeDefinitionIndex(TypeDefinitionIndex(12405)) CS Name: ::TMPro::TMP_MeshInfo
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8908)), TypeDefinitionIndex(TypeDefinitionIndex(8990)), TypeDefinitionIndex(TypeDefinitionIndex(8993)),
+// TypeDefinitionIndex(TypeDefinitionIndex(8994))] Self: TypeDefinitionIndex(TypeDefinitionIndex(12303)) CS Name: ::TMPro::TMP_MeshInfo
 struct CORDL_TYPE TMP_MeshInfo {
 public:
   // Declarations
@@ -77,40 +77,40 @@ public:
 
   static inline ::UnityEngine::Bounds getStaticF_s_DefaultBounds();
 
-  /// @brief Method .ctor, addr 0x2c3cf54, size 0x4f8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c3aac0, size 0x4f8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Mesh* mesh, int32_t size);
 
-  /// @brief Method .ctor, addr 0x2c3d44c, size 0x784, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c3afb8, size 0x784, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Mesh* mesh, int32_t size, bool isVolumetric);
 
-  /// @brief Method ResizeMeshInfo, addr 0x2c3dbd0, size 0x474, virtual false, abstract: false, final false
+  /// @brief Method ResizeMeshInfo, addr 0x2c3b73c, size 0x474, virtual false, abstract: false, final false
   inline void ResizeMeshInfo(int32_t size);
 
-  /// @brief Method ResizeMeshInfo, addr 0x2c3e044, size 0x8d4, virtual false, abstract: false, final false
+  /// @brief Method ResizeMeshInfo, addr 0x2c3bbb0, size 0x8d4, virtual false, abstract: false, final false
   inline void ResizeMeshInfo(int32_t size, bool isVolumetric);
 
-  /// @brief Method Clear, addr 0x2c3e918, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x2c3c484, size 0xa4, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Clear, addr 0x2c3e9bc, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x2c3c528, size 0x138, virtual false, abstract: false, final false
   inline void Clear(bool uploadChanges);
 
-  /// @brief Method ClearUnusedVertices, addr 0x2c3eaf4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ClearUnusedVertices, addr 0x2c3c660, size 0x3c, virtual false, abstract: false, final false
   inline void ClearUnusedVertices();
 
-  /// @brief Method ClearUnusedVertices, addr 0x2c3eb30, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method ClearUnusedVertices, addr 0x2c3c69c, size 0x34, virtual false, abstract: false, final false
   inline void ClearUnusedVertices(int32_t startIndex);
 
-  /// @brief Method ClearUnusedVertices, addr 0x2c3eb64, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method ClearUnusedVertices, addr 0x2c3c6d0, size 0xc4, virtual false, abstract: false, final false
   inline void ClearUnusedVertices(int32_t startIndex, bool updateMesh);
 
-  /// @brief Method SortGeometry, addr 0x2c3ec28, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SortGeometry, addr 0x2c3c794, size 0x7c, virtual false, abstract: false, final false
   inline void SortGeometry(::TMPro::VertexSortingOrder order);
 
-  /// @brief Method SortGeometry, addr 0x2c3f230, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method SortGeometry, addr 0x2c3cd9c, size 0x1d4, virtual false, abstract: false, final false
   inline void SortGeometry(::System::Collections::Generic::IList_1<int32_t>* sortingOrder);
 
-  /// @brief Method SwapVertexData, addr 0x2c3eca4, size 0x58c, virtual false, abstract: false, final false
+  /// @brief Method SwapVertexData, addr 0x2c3c810, size 0x58c, virtual false, abstract: false, final false
   inline void SwapVertexData(int32_t src, int32_t dst);
 
   // Ctor Parameters [CppParam { name: "mesh", ty: "::UnityW<::UnityEngine::Mesh>", modifiers: "", def_value: None }, CppParam { name: "vertexCount", ty: "int32_t", modifiers: "", def_value: None },

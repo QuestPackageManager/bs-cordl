@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::Test_HAPI_AssetInfo);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9731))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9888))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9523))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9680))
 // CS Name: ::HoudiniEngineUnity::Test_HAPI_AssetInfo*
 class CORDL_TYPE Test_HAPI_AssetInfo : public ::System::Object {
 public:
@@ -44,10 +44,10 @@ public:
 
   static inline ::HoudiniEngineUnity::Test_HAPI_AssetInfo* New_ctor(::HoudiniEngineUnity::HAPI_AssetInfo self);
 
-  /// @brief Method .ctor, addr 0x21e24c0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2277da8, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::HoudiniEngineUnity::HAPI_AssetInfo self);
 
-  /// @brief Method IsEquivalentTo, addr 0x21e24f4, size 0x2c0, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x2277ddc, size 0x2c0, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_HAPI_AssetInfo* other);
 
   // Ctor Parameters [CppParam { name: "", ty: "Test_HAPI_AssetInfo", modifiers: "&&", def_value: None }]

@@ -18,7 +18,7 @@ namespace Priority_Queue {
 template <typename TPriority>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6096))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15227))
 // CS Name: ::Priority_Queue::GenericPriorityQueueNode`1<TPriority>*
 class CORDL_TYPE GenericPriorityQueueNode_1 : public ::System::Object {
 public:

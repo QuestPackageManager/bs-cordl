@@ -15,12 +15,12 @@ MARK_REF_PTR_T(::System::Xml::BinaryCompatibility);
 namespace System::Xml {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11577))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11475))
 // CS Name: ::System.Xml::BinaryCompatibility*
 class CORDL_TYPE BinaryCompatibility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_TargetsAtLeast_Desktop_V4_5_2, addr 0x28a9d70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TargetsAtLeast_Desktop_V4_5_2, addr 0x28ad3d8, size 0x8, virtual false, abstract: false, final false
   static inline bool get_TargetsAtLeast_Desktop_V4_5_2();
 
   // Ctor Parameters [CppParam { name: "", ty: "BinaryCompatibility", modifiers: "&&", def_value: None }]

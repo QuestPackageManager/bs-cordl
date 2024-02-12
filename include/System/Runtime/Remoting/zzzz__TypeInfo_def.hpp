@@ -68,13 +68,13 @@ public:
 
   static inline ::System::Runtime::Remoting::TypeInfo* New_ctor(::System::Type* type);
 
-  /// @brief Method .ctor, addr 0x2492d38, size 0x410, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24b4dac, size 0x410, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
-  /// @brief Method get_TypeName, addr 0x2495654, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_TypeName, addr 0x24b76c8, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_TypeName();
 
-  /// @brief Method CanCastTo, addr 0x249565c, size 0x26c, virtual true, abstract: false, final true
+  /// @brief Method CanCastTo, addr 0x24b76d0, size 0x26c, virtual true, abstract: false, final true
   inline bool CanCastTo(::System::Type* fromType, ::System::Object* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeInfo", modifiers: "&&", def_value: None }]

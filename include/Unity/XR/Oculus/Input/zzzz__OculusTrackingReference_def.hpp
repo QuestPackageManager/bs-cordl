@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::Unity::XR::Oculus::Input::OculusTrackingReference);
 // SizeInfo { instance_size: 376, native_size: -1, calculated_instance_size: 376, calculated_native_size: 376, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::XR::Oculus::Input {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6239))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15155))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5498))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15195))
 // CS Name: ::Unity.XR.Oculus.Input::OculusTrackingReference*
 class CORDL_TYPE OculusTrackingReference : public ::UnityEngine::InputSystem::InputDevice {
 public:
@@ -80,36 +80,36 @@ public:
 
   constexpr void __cordl_internal_set__deviceRotation_k__BackingField(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
-  /// @brief Method get_trackingState, addr 0x2c7c8c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_trackingState, addr 0x2c79434, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::IntegerControl* get_trackingState();
 
-  /// @brief Method set_trackingState, addr 0x2c7c8d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_trackingState, addr 0x2c7943c, size 0x8, virtual false, abstract: false, final false
   inline void set_trackingState(::UnityEngine::InputSystem::Controls::IntegerControl* value);
 
-  /// @brief Method get_isTracked, addr 0x2c7c8d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isTracked, addr 0x2c79444, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_isTracked();
 
-  /// @brief Method set_isTracked, addr 0x2c7c8e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isTracked, addr 0x2c7944c, size 0x8, virtual false, abstract: false, final false
   inline void set_isTracked(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method get_devicePosition, addr 0x2c7c8e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_devicePosition, addr 0x2c79454, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_devicePosition();
 
-  /// @brief Method set_devicePosition, addr 0x2c7c8f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_devicePosition, addr 0x2c7945c, size 0x8, virtual false, abstract: false, final false
   inline void set_devicePosition(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method get_deviceRotation, addr 0x2c7c8f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_deviceRotation, addr 0x2c79464, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::QuaternionControl* get_deviceRotation();
 
-  /// @brief Method set_deviceRotation, addr 0x2c7c900, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_deviceRotation, addr 0x2c7946c, size 0x8, virtual false, abstract: false, final false
   inline void set_deviceRotation(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
-  /// @brief Method FinishSetup, addr 0x2c7c908, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x2c79474, size 0x148, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::Unity::XR::Oculus::Input::OculusTrackingReference* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c7ca50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c795bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OculusTrackingReference", modifiers: "&&", def_value: None }]

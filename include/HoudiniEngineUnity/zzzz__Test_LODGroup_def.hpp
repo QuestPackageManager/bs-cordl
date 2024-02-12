@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::Test_LODGroup);
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9904))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9696))
 // CS Name: ::HoudiniEngineUnity::Test_LODGroup*
 class CORDL_TYPE Test_LODGroup : public ::System::Object {
 public:
@@ -52,13 +52,13 @@ public:
 
   static inline ::HoudiniEngineUnity::Test_LODGroup* New_ctor(::UnityEngine::LODGroup* self);
 
-  /// @brief Method .ctor, addr 0x21e422c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2279b14, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::LODGroup* self);
 
-  /// @brief Method IsNull, addr 0x21e4254, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method IsNull, addr 0x2279b3c, size 0x60, virtual true, abstract: false, final true
   inline bool IsNull();
 
-  /// @brief Method IsEquivalentTo, addr 0x21e42b4, size 0x28c, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x2279b9c, size 0x28c, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_LODGroup* other);
 
   // Ctor Parameters [CppParam { name: "", ty: "Test_LODGroup", modifiers: "&&", def_value: None }]

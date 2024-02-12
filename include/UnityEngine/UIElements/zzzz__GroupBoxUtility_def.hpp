@@ -39,7 +39,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::GroupBoxUtility);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6918))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6177))
 // CS Name: ::UnityEngine.UIElements::GroupBoxUtility*
 class CORDL_TYPE GroupBoxUtility : public ::System::Object {
 public:
@@ -75,19 +75,19 @@ public:
   /// @brief Method OnOptionSelected, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void OnOptionSelected(T selectedOption);
 
-  /// @brief Method OnOptionAttachToPanel, addr 0x2e03be0, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method OnOptionAttachToPanel, addr 0x2e20fc8, size 0x24c, virtual false, abstract: false, final false
   static inline void OnOptionAttachToPanel(::UnityEngine::UIElements::AttachToPanelEvent* evt);
 
-  /// @brief Method OnOptionDetachFromPanel, addr 0x2e0420c, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method OnOptionDetachFromPanel, addr 0x2e215f4, size 0x1b4, virtual false, abstract: false, final false
   static inline void OnOptionDetachFromPanel(::UnityEngine::UIElements::DetachFromPanelEvent* evt);
 
-  /// @brief Method FindOrCreateGroupManager, addr 0x2e03e2c, size 0x3e0, virtual false, abstract: false, final false
+  /// @brief Method FindOrCreateGroupManager, addr 0x2e21214, size 0x3e0, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::IGroupManager* FindOrCreateGroupManager(::UnityEngine::UIElements::IGroupBox* groupBox);
 
-  /// @brief Method OnGroupBoxDetachedFromPanel, addr 0x2e043c0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method OnGroupBoxDetachedFromPanel, addr 0x2e217a8, size 0xb4, virtual false, abstract: false, final false
   static inline void OnGroupBoxDetachedFromPanel(::UnityEngine::UIElements::DetachFromPanelEvent* evt);
 
-  /// @brief Method OnPanelDestroyed, addr 0x2e04474, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method OnPanelDestroyed, addr 0x2e2185c, size 0xdc, virtual false, abstract: false, final false
   static inline void OnPanelDestroyed(::UnityEngine::UIElements::BaseVisualElementPanel* panel);
 
   // Ctor Parameters [CppParam { name: "", ty: "GroupBoxUtility", modifiers: "&&", def_value: None }]

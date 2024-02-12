@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLocalActivePlayerInstaller);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11138))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5155))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10280))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4497))
 // CS Name: ::MultiplayerLocalActivePlayerInstaller*
 class CORDL_TYPE MultiplayerLocalActivePlayerInstaller : public ::Zenject::MonoInstaller {
 public:
@@ -57,12 +57,12 @@ public:
 
   constexpr void __cordl_internal_set__optionalAvatarDataSender(::BeatSaber::AvatarCore::OptionalAvatarDataSender* value);
 
-  /// @brief Method InstallBindings, addr 0x23dc3c0, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x239b070, size 0x140, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::MultiplayerLocalActivePlayerInstaller* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23dc500, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x239b1b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActivePlayerInstaller", modifiers: "&&", def_value: None }]

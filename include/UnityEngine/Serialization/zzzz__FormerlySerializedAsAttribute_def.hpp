@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::UnityEngine::Serialization::FormerlySerializedAsAttribute);
 namespace UnityEngine::Serialization {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10383))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9151))
 // CS Name: ::UnityEngine.Serialization::FormerlySerializedAsAttribute*
 class CORDL_TYPE FormerlySerializedAsAttribute : public ::System::Attribute {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::UnityEngine::Serialization::FormerlySerializedAsAttribute* New_ctor(::StringW oldName);
 
-  /// @brief Method .ctor, addr 0x2cf1ee0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cfcbbc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW oldName);
 
   // Ctor Parameters [CppParam { name: "", ty: "FormerlySerializedAsAttribute", modifiers: "&&", def_value: None }]

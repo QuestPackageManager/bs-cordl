@@ -57,7 +57,7 @@ MARK_REF_PTR_T(::GlobalNamespace::GhostEffectBehaviour);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6014))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5291))
 // CS Name: ::GhostEffectBehaviour::EndBehavior
 struct CORDL_TYPE __GhostEffectBehaviour__EndBehavior {
 public:
@@ -111,7 +111,7 @@ static_assert(offsetof(::GlobalNamespace::__GhostEffectBehaviour__EndBehavior, v
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6015))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5292))
 // CS Name: ::GhostEffectBehaviour::GhostEffectType
 struct CORDL_TYPE __GhostEffectBehaviour__GhostEffectType {
 public:
@@ -160,8 +160,8 @@ static_assert(offsetof(::GlobalNamespace::__GhostEffectBehaviour__GhostEffectTyp
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 165, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6014)), TypeDefinitionIndex(TypeDefinitionIndex(6015)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10425)), TypeDefinitionIndex(TypeDefinitionIndex(16090))] Self: TypeDefinitionIndex(TypeDefinitionIndex(6016)) CS Name: ::GhostEffectBehaviour*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5291)), TypeDefinitionIndex(TypeDefinitionIndex(5292)), TypeDefinitionIndex(TypeDefinitionIndex(8993)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9193)), TypeDefinitionIndex(TypeDefinitionIndex(16199))] Self: TypeDefinitionIndex(TypeDefinitionIndex(5293)) CS Name: ::GhostEffectBehaviour*
 class CORDL_TYPE GhostEffectBehaviour : public ::UnityEngine::Playables::PlayableBehaviour {
 public:
   // Declarations
@@ -341,18 +341,18 @@ public:
 
   constexpr void __cordl_internal_set__finished(bool value);
 
-  /// @brief Method OnBehaviourPlay, addr 0x2317380, size 0x190, virtual true, abstract: false, final false
+  /// @brief Method OnBehaviourPlay, addr 0x2342348, size 0x190, virtual true, abstract: false, final false
   inline void OnBehaviourPlay(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method ProcessFrame, addr 0x2317624, size 0x438, virtual true, abstract: false, final false
+  /// @brief Method ProcessFrame, addr 0x23425ec, size 0x438, virtual true, abstract: false, final false
   inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* playerData);
 
-  /// @brief Method EnableObjects, addr 0x2317510, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method EnableObjects, addr 0x23424d8, size 0x114, virtual false, abstract: false, final false
   inline void EnableObjects(bool on);
 
   static inline ::GlobalNamespace::GhostEffectBehaviour* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2317a5c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2342a24, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GhostEffectBehaviour", modifiers: "&&", def_value: None }]

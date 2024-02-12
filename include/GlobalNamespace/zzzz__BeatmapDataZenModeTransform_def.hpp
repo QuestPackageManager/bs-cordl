@@ -21,15 +21,15 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapDataZenModeTransform);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4134))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10592))
 // CS Name: ::BeatmapDataZenModeTransform*
 class CORDL_TYPE BeatmapDataZenModeTransform : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateTransformedData, addr 0x223bb70, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method CreateTransformedData, addr 0x1264db0, size 0xec, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
 
-  /// @brief Method <CreateTransformedData>g__ProcessData|0_0, addr 0x223bedc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method <CreateTransformedData>g__ProcessData|0_0, addr 0x126511c, size 0xb0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BeatmapDataItem* _CreateTransformedData_g__ProcessData_0_0(::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataZenModeTransform", modifiers: "&&", def_value: None }]

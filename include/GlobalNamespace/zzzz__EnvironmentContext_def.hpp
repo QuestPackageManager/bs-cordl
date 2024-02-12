@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::EnvironmentContext);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4982))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4336))
 // CS Name: ::EnvironmentContext
 struct CORDL_TYPE EnvironmentContext {
 public:

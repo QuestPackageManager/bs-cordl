@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IFilePathSongAudioClipProvider);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5892))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16012))
 // CS Name: ::IFilePathSongAudioClipProvider*
 class CORDL_TYPE IFilePathSongAudioClipProvider {
 public:

@@ -61,13 +61,13 @@ public:
 
   static inline ::System::Security::__SecurityElement__SecurityAttribute* New_ctor(::StringW name, ::StringW value);
 
-  /// @brief Method .ctor, addr 0x24535cc, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2474430, size 0x164, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::StringW value);
 
-  /// @brief Method get_Name, addr 0x24545d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x2475438, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_Value, addr 0x24545dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x2475440, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Value();
 
   // Ctor Parameters [CppParam { name: "", ty: "__SecurityElement__SecurityAttribute", modifiers: "&&", def_value: None }]
@@ -193,63 +193,63 @@ public:
 
   static inline ::System::Security::SecurityElement* New_ctor(::StringW tag);
 
-  /// @brief Method .ctor, addr 0x2450ea0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2471d04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW tag);
 
   static inline ::System::Security::SecurityElement* New_ctor(::StringW tag, ::StringW text);
 
-  /// @brief Method .ctor, addr 0x2452d8c, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2473bf0, size 0x150, virtual false, abstract: false, final false
   inline void _ctor(::StringW tag, ::StringW text);
 
-  /// @brief Method get_Children, addr 0x2453054, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Children, addr 0x2473eb8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* get_Children();
 
-  /// @brief Method get_Tag, addr 0x245305c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Tag, addr 0x2473ec0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Tag();
 
-  /// @brief Method set_Text, addr 0x2452f58, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method set_Text, addr 0x2473dbc, size 0xfc, virtual false, abstract: false, final false
   inline void set_Text(::StringW value);
 
-  /// @brief Method AddAttribute, addr 0x2450ea8, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method AddAttribute, addr 0x2471d0c, size 0x1ac, virtual false, abstract: false, final false
   inline void AddAttribute(::StringW name, ::StringW value);
 
-  /// @brief Method AddChild, addr 0x2451054, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method AddChild, addr 0x2471eb8, size 0xd0, virtual false, abstract: false, final false
   inline void AddChild(::System::Security::SecurityElement* child);
 
-  /// @brief Method Escape, addr 0x2453730, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method Escape, addr 0x2474594, size 0x1ec, virtual false, abstract: false, final false
   static inline ::StringW Escape(::StringW str);
 
-  /// @brief Method Unescape, addr 0x24530e0, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method Unescape, addr 0x2473f44, size 0x1dc, virtual false, abstract: false, final false
   static inline ::StringW Unescape(::StringW str);
 
-  /// @brief Method IsValidAttributeName, addr 0x245391c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method IsValidAttributeName, addr 0x2474780, size 0x7c, virtual false, abstract: false, final false
   static inline bool IsValidAttributeName(::StringW name);
 
-  /// @brief Method IsValidAttributeValue, addr 0x2453998, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method IsValidAttributeValue, addr 0x24747fc, size 0x7c, virtual false, abstract: false, final false
   static inline bool IsValidAttributeValue(::StringW value);
 
-  /// @brief Method IsValidTag, addr 0x2452edc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method IsValidTag, addr 0x2473d40, size 0x7c, virtual false, abstract: false, final false
   static inline bool IsValidTag(::StringW tag);
 
-  /// @brief Method IsValidText, addr 0x2453064, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method IsValidText, addr 0x2473ec8, size 0x7c, virtual false, abstract: false, final false
   static inline bool IsValidText(::StringW text);
 
-  /// @brief Method SearchForChildByTag, addr 0x2453a14, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method SearchForChildByTag, addr 0x2474878, size 0x128, virtual false, abstract: false, final false
   inline ::System::Security::SecurityElement* SearchForChildByTag(::StringW tag);
 
-  /// @brief Method ToString, addr 0x2453b3c, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x24749a0, size 0x88, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToXml, addr 0x2453bc4, size 0x64c, virtual false, abstract: false, final false
+  /// @brief Method ToXml, addr 0x2474a28, size 0x64c, virtual false, abstract: false, final false
   inline void ToXml(ByRef<::System::Text::StringBuilder*> s, int32_t level);
 
-  /// @brief Method GetAttribute, addr 0x24532bc, size 0x310, virtual false, abstract: false, final false
+  /// @brief Method GetAttribute, addr 0x2474120, size 0x310, virtual false, abstract: false, final false
   inline ::System::Security::__SecurityElement__SecurityAttribute* GetAttribute(::StringW name);
 
-  /// @brief Method set_m_strText, addr 0x2454210, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_m_strText, addr 0x2475074, size 0x8, virtual false, abstract: false, final false
   inline void set_m_strText(::StringW value);
 
-  /// @brief Method SearchForTextOfLocalName, addr 0x2454218, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method SearchForTextOfLocalName, addr 0x247507c, size 0x23c, virtual false, abstract: false, final false
   inline ::StringW SearchForTextOfLocalName(::StringW strLocalName);
 
   // Ctor Parameters [CppParam { name: "", ty: "SecurityElement", modifiers: "&&", def_value: None }]

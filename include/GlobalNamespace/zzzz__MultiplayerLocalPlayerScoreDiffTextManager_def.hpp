@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLocalPlayerScoreDiffTextManager);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 70, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5227)) CS Name: ::MultiplayerLocalPlayerScoreDiffTextManager*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(8969)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 77
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4569)) CS Name: ::MultiplayerLocalPlayerScoreDiffTextManager*
 class CORDL_TYPE MultiplayerLocalPlayerScoreDiffTextManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -103,21 +103,21 @@ public:
 
   constexpr void __cordl_internal_set__wasLocalPlayerLeader(::System::Nullable_1<bool> value);
 
-  /// @brief Method Start, addr 0x2252438, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x23b23dc, size 0xb0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy, addr 0x22524e8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x23b248c, size 0xd0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Update, addr 0x22525b8, size 0x33c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x23b255c, size 0x33c, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method HandleStateChanged, addr 0x22529a8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method HandleStateChanged, addr 0x23b294c, size 0x4c, virtual false, abstract: false, final false
   inline void HandleStateChanged(::GlobalNamespace::__MultiplayerController__State newState);
 
   static inline ::GlobalNamespace::MultiplayerLocalPlayerScoreDiffTextManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22529f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23b2998, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalPlayerScoreDiffTextManager", modifiers: "&&", def_value: None }]

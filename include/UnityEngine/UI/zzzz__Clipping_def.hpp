@@ -25,12 +25,12 @@ MARK_REF_PTR_T(::UnityEngine::UI::Clipping);
 namespace UnityEngine::UI {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13025))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12923))
 // CS Name: ::UnityEngine.UI::Clipping*
 class CORDL_TYPE Clipping : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FindCullAndClipWorldRect, addr 0x2d53358, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method FindCullAndClipWorldRect, addr 0x2d71740, size 0x260, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rect FindCullAndClipWorldRect(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::RectMask2D>>* rectMaskParents, ByRef<bool> validRect);
 
   // Ctor Parameters [CppParam { name: "", ty: "Clipping", modifiers: "&&", def_value: None }]

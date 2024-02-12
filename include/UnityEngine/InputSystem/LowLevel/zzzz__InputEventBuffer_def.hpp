@@ -58,7 +58,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::__InputEventBuffer__Enumerator)
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6531))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5790))
 // CS Name: ::InputEventBuffer::Enumerator
 struct CORDL_TYPE __InputEventBuffer__Enumerator {
 public:
@@ -86,22 +86,22 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable();
 
-  /// @brief Method .ctor, addr 0x2aeaf5c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aecac8, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::LowLevel::InputEventBuffer buffer);
 
-  /// @brief Method MoveNext, addr 0x2aeb14c, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2aeccb8, size 0x6c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method Reset, addr 0x2aeb1b8, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x2aecd24, size 0xc, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method Dispose, addr 0x2aeb1c4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2aecd30, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method get_Current, addr 0x2aeb1c8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x2aecd34, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::LowLevel::InputEventPtr get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2aeb1d0, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2aecd3c, size 0x5c, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "m_Buffer", ty: "::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent>", modifiers: "", def_value: None }, CppParam { name: "m_EventCount",
@@ -147,8 +147,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__InputEventBuffer_
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 45, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 741 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6532))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8730)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8730), inst: 736 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5791))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::InputEventBuffer
 struct CORDL_TYPE InputEventBuffer {
 public:
@@ -190,57 +190,57 @@ public:
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable();
 
-  /// @brief Method get_eventCount, addr 0x2aea6f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_eventCount, addr 0x2aec264, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_eventCount();
 
-  /// @brief Method get_sizeInBytes, addr 0x2aea700, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sizeInBytes, addr 0x2aec26c, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_sizeInBytes();
 
-  /// @brief Method get_capacityInBytes, addr 0x2aea708, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_capacityInBytes, addr 0x2aec274, size 0x5c, virtual false, abstract: false, final false
   inline int64_t get_capacityInBytes();
 
-  /// @brief Method get_data, addr 0x2aea764, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_data, addr 0x2aec2d0, size 0xc, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<uint8_t> get_data();
 
-  /// @brief Method get_bufferPtr, addr 0x2aea770, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_bufferPtr, addr 0x2aec2dc, size 0x48, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::InputEventPtr get_bufferPtr();
 
-  /// @brief Method .ctor, addr 0x2aea7bc, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aec328, size 0x1c0, virtual false, abstract: false, final false
   inline void _ctor(::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> eventPtr, int32_t eventCount, int32_t sizeInBytes, int32_t capacityInBytes);
 
-  /// @brief Method .ctor, addr 0x2aea97c, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aec4e8, size 0x14c, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::NativeArray_1<uint8_t> buffer, int32_t eventCount, int32_t sizeInBytes, bool transferNativeArrayOwnership);
 
-  /// @brief Method AppendEvent, addr 0x2aeaac8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method AppendEvent, addr 0x2aec634, size 0x80, virtual false, abstract: false, final false
   inline void AppendEvent(::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> eventPtr, int32_t capacityIncrementInBytes, ::Unity::Collections::Allocator allocator);
 
-  /// @brief Method AllocateEvent, addr 0x2aeab48, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method AllocateEvent, addr 0x2aec6b4, size 0x2c8, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> AllocateEvent(int32_t sizeInBytes, int32_t capacityIncrementInBytes, ::Unity::Collections::Allocator allocator);
 
-  /// @brief Method Contains, addr 0x2aea61c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x2aec188, size 0x88, virtual false, abstract: false, final false
   inline bool Contains(::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> eventPtr);
 
-  /// @brief Method Reset, addr 0x2aeae10, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x2aec97c, size 0x18, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method AdvanceToNextEvent, addr 0x2aeae28, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method AdvanceToNextEvent, addr 0x2aec994, size 0xc0, virtual false, abstract: false, final false
   inline void AdvanceToNextEvent(ByRef<::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent>> currentReadPos,
                                  ByRef<::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent>> currentWritePos, ByRef<int32_t> numEventsRetainedInBuffer,
                                  ByRef<int32_t> numRemainingEvents, bool leaveEventInBuffer);
 
-  /// @brief Method GetEnumerator, addr 0x2aeaee8, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x2aeca54, size 0x74, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2aeaf94, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2aecb00, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method Dispose, addr 0x2aeaf98, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2aecb04, size 0x60, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Clone, addr 0x2aeaff8, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Clone, addr 0x2aecb64, size 0xe8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::InputEventBuffer Clone();
 
-  /// @brief Method System.ICloneable.Clone, addr 0x2aeb0e0, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method System.ICloneable.Clone, addr 0x2aecc4c, size 0x68, virtual true, abstract: false, final true
   inline ::System::Object* System_ICloneable_Clone();
 
   // Ctor Parameters [CppParam { name: "m_Buffer", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "m_SizeInBytes", ty: "int64_t", modifiers: "",

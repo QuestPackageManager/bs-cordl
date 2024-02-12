@@ -52,7 +52,7 @@ MARK_REF_PTR_T(::GlobalNamespace::GameplayModifiers);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14999))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14872))
 // CS Name: ::GameplayModifiers::EnabledObstacleType
 struct CORDL_TYPE __GameplayModifiers__EnabledObstacleType {
 public:
@@ -106,7 +106,7 @@ static_assert(offsetof(::GlobalNamespace::__GameplayModifiers__EnabledObstacleTy
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15000))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14873))
 // CS Name: ::GameplayModifiers::EnergyType
 struct CORDL_TYPE __GameplayModifiers__EnergyType {
 public:
@@ -156,7 +156,7 @@ static_assert(offsetof(::GlobalNamespace::__GameplayModifiers__EnergyType, value
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15001))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14874))
 // CS Name: ::GameplayModifiers::SongSpeed
 struct CORDL_TYPE __GameplayModifiers__SongSpeed {
 public:
@@ -213,8 +213,8 @@ static_assert(offsetof(::GlobalNamespace::__GameplayModifiers__SongSpeed, value_
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14999)), TypeDefinitionIndex(TypeDefinitionIndex(15000)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15001))] Self: TypeDefinitionIndex(TypeDefinitionIndex(15002)) CS Name: ::GameplayModifiers*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14872)), TypeDefinitionIndex(TypeDefinitionIndex(14873)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14874))] Self: TypeDefinitionIndex(TypeDefinitionIndex(14875)) CS Name: ::GameplayModifiers*
 class CORDL_TYPE GameplayModifiers : public ::System::Object {
 public:
   // Declarations
@@ -410,63 +410,63 @@ public:
 
   static inline ::GlobalNamespace::GameplayModifiers* getStaticF_noModifiers();
 
-  /// @brief Method get_energyType, addr 0x12a2414, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_energyType, addr 0x13381e0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__GameplayModifiers__EnergyType get_energyType();
 
-  /// @brief Method get_noFailOn0Energy, addr 0x12a241c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_noFailOn0Energy, addr 0x13381e8, size 0x8, virtual false, abstract: false, final false
   inline bool get_noFailOn0Energy();
 
-  /// @brief Method get_instaFail, addr 0x12a2424, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_instaFail, addr 0x13381f0, size 0x8, virtual false, abstract: false, final false
   inline bool get_instaFail();
 
-  /// @brief Method get_failOnSaberClash, addr 0x12a242c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_failOnSaberClash, addr 0x13381f8, size 0x8, virtual false, abstract: false, final false
   inline bool get_failOnSaberClash();
 
-  /// @brief Method get_enabledObstacleType, addr 0x12a2434, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_enabledObstacleType, addr 0x1338200, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__GameplayModifiers__EnabledObstacleType get_enabledObstacleType();
 
-  /// @brief Method get_fastNotes, addr 0x12a243c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fastNotes, addr 0x1338208, size 0x8, virtual false, abstract: false, final false
   inline bool get_fastNotes();
 
-  /// @brief Method get_strictAngles, addr 0x12a2444, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_strictAngles, addr 0x1338210, size 0x8, virtual false, abstract: false, final false
   inline bool get_strictAngles();
 
-  /// @brief Method get_disappearingArrows, addr 0x12a244c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disappearingArrows, addr 0x1338218, size 0x8, virtual false, abstract: false, final false
   inline bool get_disappearingArrows();
 
-  /// @brief Method get_ghostNotes, addr 0x12a2454, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ghostNotes, addr 0x1338220, size 0x8, virtual false, abstract: false, final false
   inline bool get_ghostNotes();
 
-  /// @brief Method get_noBombs, addr 0x12a245c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_noBombs, addr 0x1338228, size 0x8, virtual false, abstract: false, final false
   inline bool get_noBombs();
 
-  /// @brief Method get_songSpeed, addr 0x12a2464, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_songSpeed, addr 0x1338230, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__GameplayModifiers__SongSpeed get_songSpeed();
 
-  /// @brief Method get_noArrows, addr 0x12a246c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_noArrows, addr 0x1338238, size 0x8, virtual false, abstract: false, final false
   inline bool get_noArrows();
 
-  /// @brief Method get_proMode, addr 0x12a2474, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_proMode, addr 0x1338240, size 0x8, virtual false, abstract: false, final false
   inline bool get_proMode();
 
-  /// @brief Method get_zenMode, addr 0x12a247c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_zenMode, addr 0x1338248, size 0x8, virtual false, abstract: false, final false
   inline bool get_zenMode();
 
-  /// @brief Method get_smallCubes, addr 0x12a2484, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_smallCubes, addr 0x1338250, size 0x8, virtual false, abstract: false, final false
   inline bool get_smallCubes();
 
-  /// @brief Method get_songSpeedMul, addr 0x12a248c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_songSpeedMul, addr 0x1338258, size 0x24, virtual false, abstract: false, final false
   inline float_t get_songSpeedMul();
 
-  /// @brief Method get_cutAngleTolerance, addr 0x12a24b0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_cutAngleTolerance, addr 0x133827c, size 0x20, virtual false, abstract: false, final false
   inline float_t get_cutAngleTolerance();
 
-  /// @brief Method get_notesUniformScale, addr 0x12a24d0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_notesUniformScale, addr 0x133829c, size 0x18, virtual false, abstract: false, final false
   inline float_t get_notesUniformScale();
 
   static inline ::GlobalNamespace::GameplayModifiers* New_ctor();
 
-  /// @brief Method .ctor, addr 0x12a24e8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13382b4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::GameplayModifiers* New_ctor(::GlobalNamespace::__GameplayModifiers__EnergyType energyType, bool noFailOn0Energy, bool instaFail, bool failOnSaberClash,
@@ -474,12 +474,12 @@ public:
                                                                bool disappearingArrows, ::GlobalNamespace::__GameplayModifiers__SongSpeed songSpeed, bool noArrows, bool ghostNotes, bool proMode,
                                                                bool zenMode, bool smallCubes);
 
-  /// @brief Method .ctor, addr 0x12a2268, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1338034, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__GameplayModifiers__EnergyType energyType, bool noFailOn0Energy, bool instaFail, bool failOnSaberClash,
                     ::GlobalNamespace::__GameplayModifiers__EnabledObstacleType enabledObstacleType, bool noBombs, bool fastNotes, bool strictAngles, bool disappearingArrows,
                     ::GlobalNamespace::__GameplayModifiers__SongSpeed songSpeed, bool noArrows, bool ghostNotes, bool proMode, bool zenMode, bool smallCubes);
 
-  /// @brief Method CopyWith, addr 0x12a2514, size 0x32c, virtual false, abstract: false, final false
+  /// @brief Method CopyWith, addr 0x13382e0, size 0x32c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayModifiers* CopyWith(::System::Nullable_1<::GlobalNamespace::__GameplayModifiers__EnergyType> energyType, ::System::Nullable_1<bool> noFailOn0Energy,
                                                         ::System::Nullable_1<bool> instaFail, ::System::Nullable_1<bool> failOnSaberClash,
                                                         ::System::Nullable_1<::GlobalNamespace::__GameplayModifiers__EnabledObstacleType> enabledObstacleType, ::System::Nullable_1<bool> noBombs,
@@ -488,17 +488,20 @@ public:
                                                         ::System::Nullable_1<bool> ghostNotes, ::System::Nullable_1<bool> proMode, ::System::Nullable_1<bool> zenMode,
                                                         ::System::Nullable_1<bool> smallCubes);
 
-  /// @brief Method IsWithoutModifiers, addr 0x12a2840, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method IsWithoutModifiers, addr 0x133860c, size 0x88, virtual false, abstract: false, final false
   inline bool IsWithoutModifiers();
 
-  /// @brief Method Serialize, addr 0x12a28c8, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x1338694, size 0xa0, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method LiteNetLib.Utils.INetImmutableSerializable<GameplayModifiers>.CreateFromSerializedData, addr 0x12a2968, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method LiteNetLib.Utils.INetImmutableSerializable<GameplayModifiers>.CreateFromSerializedData, addr 0x1338734, size 0x54, virtual true, abstract: false, final true
   inline ::GlobalNamespace::GameplayModifiers* LiteNetLib_Utils_INetImmutableSerializable_GameplayModifiers__CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method CreateFromSerializedData, addr 0x12a29bc, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method CreateFromSerializedData, addr 0x1338788, size 0x144, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::GameplayModifiers* CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader* reader);
+
+  /// @brief Method AreValuesEqual, addr 0x13388cc, size 0x10c, virtual false, abstract: false, final false
+  inline bool AreValuesEqual(::GlobalNamespace::GameplayModifiers* other);
 
   // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiers", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

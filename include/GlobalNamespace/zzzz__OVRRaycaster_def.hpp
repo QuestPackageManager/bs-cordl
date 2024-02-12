@@ -75,8 +75,8 @@ MARK_VAL_T(::GlobalNamespace::__OVRRaycaster__RaycastHit);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 37, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8156))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8993))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8107))
 // CS Name: ::OVRRaycaster::RaycastHit
 struct CORDL_TYPE __OVRRaycaster__RaycastHit {
 public:
@@ -118,7 +118,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRRaycaster__RaycastHit, fromMouse)
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8157))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8108))
 // CS Name: ::OVRRaycaster::<>c*
 class CORDL_TYPE __OVRRaycaster____c : public ::System::Object {
 public:
@@ -139,10 +139,10 @@ public:
 
   static inline ::GlobalNamespace::__OVRRaycaster____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x27ba9e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27cc3bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <GraphicRaycast>b__16_0, addr 0x27ba9e8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <GraphicRaycast>b__16_0, addr 0x27cc3c4, size 0x54, virtual false, abstract: false, final false
   inline int32_t _GraphicRaycast_b__16_0(::GlobalNamespace::__OVRRaycaster__RaycastHit g1, ::GlobalNamespace::__OVRRaycaster__RaycastHit g2);
 
   // Ctor Parameters [CppParam { name: "", ty: "__OVRRaycaster____c", modifiers: "&&", def_value: None }]
@@ -169,8 +169,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRRaycaster_
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13045))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8158))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12943))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8109))
 // CS Name: ::OVRRaycaster*
 class CORDL_TYPE OVRRaycaster : public ::UnityEngine::UI::GraphicRaycaster {
 public:
@@ -244,44 +244,44 @@ public:
 
   static inline ::GlobalNamespace::OVRRaycaster* New_ctor();
 
-  /// @brief Method .ctor, addr 0x27b9194, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27cab70, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_canvas, addr 0x27b9234, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_canvas, addr 0x27cac10, size 0x94, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Canvas> get_canvas();
 
-  /// @brief Method get_eventCamera, addr 0x27b92c8, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_eventCamera, addr 0x27caca4, size 0x1c, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> get_eventCamera();
 
-  /// @brief Method get_sortOrderPriority, addr 0x27b92e4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_sortOrderPriority, addr 0x27cacc0, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_sortOrderPriority();
 
-  /// @brief Method Start, addr 0x27b92ec, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x27cacc8, size 0x150, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Raycast, addr 0x27b943c, size 0x6cc, virtual false, abstract: false, final false
+  /// @brief Method Raycast, addr 0x27cae18, size 0x6cc, virtual false, abstract: false, final false
   inline void Raycast(::UnityEngine::EventSystems::PointerEventData* eventData, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* resultAppendList,
                       ::UnityEngine::Ray ray, bool checkForBlocking);
 
-  /// @brief Method Raycast, addr 0x27ba1a4, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method Raycast, addr 0x27cbb80, size 0x6c, virtual true, abstract: false, final false
   inline void Raycast(::UnityEngine::EventSystems::PointerEventData* eventData, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* resultAppendList);
 
-  /// @brief Method RaycastPointer, addr 0x27ba210, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method RaycastPointer, addr 0x27cbbec, size 0x250, virtual false, abstract: false, final false
   inline void RaycastPointer(::UnityEngine::EventSystems::PointerEventData* eventData, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* resultAppendList);
 
-  /// @brief Method GraphicRaycast, addr 0x27b9b08, size 0x69c, virtual false, abstract: false, final false
+  /// @brief Method GraphicRaycast, addr 0x27cb4e4, size 0x69c, virtual false, abstract: false, final false
   inline void GraphicRaycast(::UnityEngine::Canvas* canvas, ::UnityEngine::Ray ray, ::System::Collections::Generic::List_1<::GlobalNamespace::__OVRRaycaster__RaycastHit>* results);
 
-  /// @brief Method GetScreenPosition, addr 0x27ba69c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetScreenPosition, addr 0x27cc078, size 0x38, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 GetScreenPosition(::UnityEngine::EventSystems::RaycastResult raycastResult);
 
-  /// @brief Method RayIntersectsRectTransform, addr 0x27ba460, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method RayIntersectsRectTransform, addr 0x27cbe3c, size 0x23c, virtual false, abstract: false, final false
   static inline bool RayIntersectsRectTransform(::UnityEngine::RectTransform* rectTransform, ::UnityEngine::Ray ray, ByRef<::UnityEngine::Vector3> worldPos);
 
-  /// @brief Method IsFocussed, addr 0x27ba6d4, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method IsFocussed, addr 0x27cc0b0, size 0x118, virtual false, abstract: false, final false
   inline bool IsFocussed();
 
-  /// @brief Method OnPointerEnter, addr 0x27ba7ec, size 0x104, virtual true, abstract: false, final true
+  /// @brief Method OnPointerEnter, addr 0x27cc1c8, size 0x104, virtual true, abstract: false, final true
   inline void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* e);
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRRaycaster", modifiers: "&&", def_value: None }]

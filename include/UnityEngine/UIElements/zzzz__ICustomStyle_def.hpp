@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::ICustomStyle);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7307))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6566))
 // CS Name: ::UnityEngine.UIElements::ICustomStyle*
 class CORDL_TYPE ICustomStyle {
 public:

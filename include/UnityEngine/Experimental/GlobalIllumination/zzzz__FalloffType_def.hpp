@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Experimental::GlobalIllumination::FalloffType);
 namespace UnityEngine::Experimental::GlobalIllumination {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10388))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9156))
 // CS Name: ::UnityEngine.Experimental.GlobalIllumination::FalloffType
 struct CORDL_TYPE FalloffType {
 public:

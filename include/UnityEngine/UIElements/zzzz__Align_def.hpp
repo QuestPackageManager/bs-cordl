@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::Align);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6891))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6150))
 // CS Name: ::UnityEngine.UIElements::Align
 struct CORDL_TYPE Align {
 public:

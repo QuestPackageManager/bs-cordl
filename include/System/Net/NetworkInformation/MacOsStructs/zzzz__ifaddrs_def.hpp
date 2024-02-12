@@ -18,7 +18,7 @@ MARK_VAL_T(::System::Net::NetworkInformation::MacOsStructs::ifaddrs);
 namespace System::Net::NetworkInformation::MacOsStructs {
 // Is value type: true
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9294))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7304))
 // CS Name: ::System.Net.NetworkInformation.MacOsStructs::ifaddrs
 struct CORDL_TYPE ifaddrs {
 public:

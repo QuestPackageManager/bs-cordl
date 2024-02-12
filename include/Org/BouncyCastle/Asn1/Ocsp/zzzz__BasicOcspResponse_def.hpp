@@ -87,53 +87,53 @@ public:
 
   constexpr void __cordl_internal_set_certs(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method GetInstance, addr 0xf7f3ac, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xfaa23c, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0xf7f3c4, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xfaa254, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse* New_ctor(::Org::BouncyCastle::Asn1::Ocsp::ResponseData* tbsResponseData,
                                                                              ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* signatureAlgorithm,
                                                                              ::Org::BouncyCastle::Asn1::DerBitString* signature, ::Org::BouncyCastle::Asn1::Asn1Sequence* certs);
 
-  /// @brief Method .ctor, addr 0xf7f704, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfaa594, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Ocsp::ResponseData* tbsResponseData, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* signatureAlgorithm,
                     ::Org::BouncyCastle::Asn1::DerBitString* signature, ::Org::BouncyCastle::Asn1::Asn1Sequence* certs);
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xf7f54c, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfaa3dc, size 0x1b8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetTbsResponseData, addr 0xf7f8cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetTbsResponseData, addr 0xfaa75c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Ocsp::ResponseData* GetTbsResponseData();
 
-  /// @brief Method get_TbsResponseData, addr 0xf7f8d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TbsResponseData, addr 0xfaa764, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Ocsp::ResponseData* get_TbsResponseData();
 
-  /// @brief Method GetSignatureAlgorithm, addr 0xf7f8dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetSignatureAlgorithm, addr 0xfaa76c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* GetSignatureAlgorithm();
 
-  /// @brief Method get_SignatureAlgorithm, addr 0xf7f8e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SignatureAlgorithm, addr 0xfaa774, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_SignatureAlgorithm();
 
-  /// @brief Method GetSignature, addr 0xf7f8ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetSignature, addr 0xfaa77c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerBitString* GetSignature();
 
-  /// @brief Method get_Signature, addr 0xf7f8f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Signature, addr 0xfaa784, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerBitString* get_Signature();
 
-  /// @brief Method GetSignatureOctets, addr 0xf7f8fc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetSignatureOctets, addr 0xfaa78c, size 0x20, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSignatureOctets();
 
-  /// @brief Method GetCerts, addr 0xf7f91c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetCerts, addr 0xfaa7ac, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Sequence* GetCerts();
 
-  /// @brief Method get_Certs, addr 0xf7f924, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Certs, addr 0xfaa7b4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Sequence* get_Certs();
 
-  /// @brief Method ToAsn1Object, addr 0xf7f92c, size 0x16c, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xfaa7bc, size 0x16c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "BasicOcspResponse", modifiers: "&&", def_value: None }]

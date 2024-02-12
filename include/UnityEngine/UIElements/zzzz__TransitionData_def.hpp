@@ -38,7 +38,7 @@ MARK_VAL_T(::UnityEngine::UIElements::TransitionData);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7360))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6619))
 // CS Name: ::UnityEngine.UIElements::TransitionData
 struct CORDL_TYPE TransitionData {
 public:
@@ -55,22 +55,22 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::TransitionData>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::TransitionData>* i___System__IEquatable_1___UnityEngine__UIElements__TransitionData_();
 
-  /// @brief Method Copy, addr 0x2e84658, size 0x144, virtual true, abstract: false, final true
+  /// @brief Method Copy, addr 0x2e9ea40, size 0x144, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::TransitionData Copy();
 
-  /// @brief Method CopyFrom, addr 0x2e8479c, size 0x160, virtual true, abstract: false, final true
+  /// @brief Method CopyFrom, addr 0x2e9eb84, size 0x160, virtual true, abstract: false, final true
   inline void CopyFrom(ByRef<::UnityEngine::UIElements::TransitionData> other);
 
-  /// @brief Method op_Equality, addr 0x2e848fc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x2e9ece4, size 0x4c, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::TransitionData lhs, ::UnityEngine::UIElements::TransitionData rhs);
 
-  /// @brief Method Equals, addr 0x2e84948, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2e9ed30, size 0x4c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::TransitionData other);
 
-  /// @brief Method Equals, addr 0x2e84994, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2e9ed7c, size 0xb0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2e84a44, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2e9ee2c, size 0x9c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "transitionDelay", ty: "::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>*", modifiers: "", def_value: None }, CppParam { name:

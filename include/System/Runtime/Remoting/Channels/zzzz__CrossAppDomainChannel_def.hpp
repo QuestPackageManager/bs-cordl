@@ -69,27 +69,27 @@ public:
 
   static inline ::System::Object* getStaticF_s_lock();
 
-  /// @brief Method RegisterCrossAppDomainChannel, addr 0x24a2ba8, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method RegisterCrossAppDomainChannel, addr 0x24c4c1c, size 0x144, virtual false, abstract: false, final false
   static inline void RegisterCrossAppDomainChannel();
 
-  /// @brief Method get_ChannelName, addr 0x24a2cf4, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_ChannelName, addr 0x24c4d68, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_ChannelName();
 
-  /// @brief Method get_ChannelPriority, addr 0x24a2d34, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ChannelPriority, addr 0x24c4da8, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ChannelPriority();
 
-  /// @brief Method get_ChannelData, addr 0x24a2d3c, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method get_ChannelData, addr 0x24c4db0, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Object* get_ChannelData();
 
-  /// @brief Method StartListening, addr 0x24a2da8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method StartListening, addr 0x24c4e1c, size 0x4, virtual true, abstract: false, final false
   inline void StartListening(::System::Object* data);
 
-  /// @brief Method CreateMessageSink, addr 0x24a2dac, size 0x180, virtual true, abstract: false, final false
+  /// @brief Method CreateMessageSink, addr 0x24c4e20, size 0x180, virtual true, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::IMessageSink* CreateMessageSink(::StringW url, ::System::Object* data, ByRef<::StringW> uri);
 
   static inline ::System::Runtime::Remoting::Channels::CrossAppDomainChannel* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24a2cec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24c4d60, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CrossAppDomainChannel", modifiers: "&&", def_value: None }]

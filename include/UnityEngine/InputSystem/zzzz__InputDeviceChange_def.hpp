@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::InputDeviceChange);
 namespace UnityEngine::InputSystem {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6240))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5499))
 // CS Name: ::UnityEngine.InputSystem::InputDeviceChange
 struct CORDL_TYPE InputDeviceChange {
 public:

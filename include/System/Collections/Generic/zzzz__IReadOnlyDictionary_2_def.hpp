@@ -29,12 +29,14 @@ namespace System::Collections::Generic {
 template <typename TKey, typename TValue>
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3837))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3836))
 // CS Name: ::System.Collections.Generic::IReadOnlyDictionary`2<TKey,TValue>*
 class CORDL_TYPE IReadOnlyDictionary_2 {
 public:
   // Declarations
   __declspec(property(get = get_Item)) TValue Item[];
+
+  __declspec(property(get = get_Keys))::System::Collections::Generic::IEnumerable_1<TKey>* Keys;
 
   /// @brief Convert operator to "::System::Collections::Generic::IReadOnlyCollection_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
   constexpr operator ::System::Collections::Generic::IReadOnlyCollection_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*() noexcept;
@@ -61,6 +63,9 @@ public:
 
   /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline TValue get_Item(TKey key);
+
+  /// @brief Method get_Keys, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::Collections::Generic::IEnumerable_1<TKey>* get_Keys();
 
   // Ctor Parameters [CppParam { name: "", ty: "IReadOnlyDictionary_2", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

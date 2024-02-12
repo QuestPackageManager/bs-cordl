@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MirroredDisappearingArrowController);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4742)), TypeDefinitionIndex(TypeDefinitionIndex(4755)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4742), inst: 348
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4753)) CS Name: ::MirroredDisappearingArrowController*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4093)), TypeDefinitionIndex(TypeDefinitionIndex(4106)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4093), inst: 349
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4104)) CS Name: ::MirroredDisappearingArrowController*
 class CORDL_TYPE MirroredDisappearingArrowController : public ::GlobalNamespace::DisappearingArrowControllerBase_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>> {
 public:
   // Declarations
@@ -35,12 +35,12 @@ public:
 
   constexpr void __cordl_internal_set__mirroredGameNoteController(::UnityW<::GlobalNamespace::MirroredGameNoteController> value);
 
-  /// @brief Method get_gameNoteController, addr 0x23861c4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_gameNoteController, addr 0x22cd408, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MirroredGameNoteController> get_gameNoteController();
 
   static inline ::GlobalNamespace::MirroredDisappearingArrowController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23861cc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22cd410, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MirroredDisappearingArrowController", modifiers: "&&", def_value: None }]

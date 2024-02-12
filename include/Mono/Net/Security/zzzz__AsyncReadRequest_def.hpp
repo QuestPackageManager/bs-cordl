@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::Mono::Net::Security::AsyncReadRequest);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8824))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8825))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6834))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6835))
 // CS Name: ::Mono.Net.Security::AsyncReadRequest*
 class CORDL_TYPE AsyncReadRequest : public ::Mono::Net::Security::AsyncReadOrWriteRequest {
 public:
@@ -31,10 +31,10 @@ public:
   static inline ::Mono::Net::Security::AsyncReadRequest* New_ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, bool sync, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset,
                                                                   int32_t size);
 
-  /// @brief Method .ctor, addr 0x281fb70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2824358, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, bool sync, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size);
 
-  /// @brief Method Run, addr 0x281fb78, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x2824360, size 0x68, virtual true, abstract: false, final false
   inline ::Mono::Net::Security::AsyncOperationStatus Run(::Mono::Net::Security::AsyncOperationStatus status);
 
   // Ctor Parameters [CppParam { name: "", ty: "AsyncReadRequest", modifiers: "&&", def_value: None }]

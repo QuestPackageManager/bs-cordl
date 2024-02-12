@@ -52,13 +52,13 @@ public:
 
   static inline ::ArrayW<int16_t, ::Array<int16_t>*> getStaticF_rc2Table();
 
-  /// @brief Method GenerateEncryptionAlgID, addr 0xfc0108, size 0x55c, virtual false, abstract: false, final false
+  /// @brief Method GenerateEncryptionAlgID, addr 0xfebf98, size 0x55c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* GenerateEncryptionAlgID(::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionOID, int32_t keySize,
                                                                                               ::Org::BouncyCastle::Security::SecureRandom* random);
 
   static inline ::Org::BouncyCastle::Crypto::Utilities::AlgorithmIdentifierFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0xfc0788, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfec618, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AlgorithmIdentifierFactory", modifiers: "&&", def_value: None }]

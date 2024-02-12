@@ -80,19 +80,19 @@ public:
   static inline ::Org::BouncyCastle::Math::EC::Custom::Sec::__SecT163R2Curve__SecT163R2LookupTable* New_ctor(::Org::BouncyCastle::Math::EC::Custom::Sec::SecT163R2Curve* outer,
                                                                                                              ::ArrayW<uint64_t, ::Array<uint64_t>*> table, int32_t size);
 
-  /// @brief Method .ctor, addr 0x1013afc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x104098c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::Custom::Sec::SecT163R2Curve* outer, ::ArrayW<uint64_t, ::Array<uint64_t>*> table, int32_t size);
 
-  /// @brief Method get_Size, addr 0x1013c44, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Size, addr 0x1040ad4, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Size();
 
-  /// @brief Method Lookup, addr 0x1013c4c, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method Lookup, addr 0x1040adc, size 0x108, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Lookup(int32_t index);
 
-  /// @brief Method LookupVar, addr 0x1013e34, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method LookupVar, addr 0x1040cc4, size 0xcc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* LookupVar(int32_t index);
 
-  /// @brief Method CreatePoint, addr 0x1013d54, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method CreatePoint, addr 0x1040be4, size 0xe0, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* CreatePoint(::ArrayW<uint64_t, ::Array<uint64_t>*> x, ::ArrayW<uint64_t, ::Array<uint64_t>*> y);
 
   // Ctor Parameters [CppParam { name: "", ty: "__SecT163R2Curve__SecT163R2LookupTable", modifiers: "&&", def_value: None }]
@@ -178,51 +178,51 @@ public:
 
   static inline ::Org::BouncyCastle::Math::EC::Custom::Sec::SecT163R2Curve* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10134d4, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1040364, size 0x1c0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CloneCurve, addr 0x101369c, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method CloneCurve, addr 0x104052c, size 0x58, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECCurve* CloneCurve();
 
-  /// @brief Method SupportsCoordinateSystem, addr 0x10136f4, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method SupportsCoordinateSystem, addr 0x1040584, size 0xc, virtual true, abstract: false, final false
   inline bool SupportsCoordinateSystem(int32_t coord);
 
-  /// @brief Method get_Infinity, addr 0x1013700, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Infinity, addr 0x1040590, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* get_Infinity();
 
-  /// @brief Method get_FieldSize, addr 0x1013708, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_FieldSize, addr 0x1040598, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_FieldSize();
 
-  /// @brief Method FromBigInteger, addr 0x1013710, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method FromBigInteger, addr 0x10405a0, size 0x60, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* FromBigInteger(::Org::BouncyCastle::Math::BigInteger* x);
 
-  /// @brief Method CreateRawPoint, addr 0x1013770, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method CreateRawPoint, addr 0x1040600, size 0x88, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* CreateRawPoint(::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y, bool withCompression);
 
-  /// @brief Method CreateRawPoint, addr 0x1013884, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method CreateRawPoint, addr 0x1040714, size 0x94, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* CreateRawPoint(::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y,
                                                                 ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> zs,
                                                                 bool withCompression);
 
-  /// @brief Method get_IsKoblitz, addr 0x1013924, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsKoblitz, addr 0x10407b4, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsKoblitz();
 
-  /// @brief Method get_M, addr 0x101392c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_M, addr 0x10407bc, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_M();
 
-  /// @brief Method get_IsTrinomial, addr 0x1013934, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsTrinomial, addr 0x10407c4, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsTrinomial();
 
-  /// @brief Method get_K1, addr 0x101393c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_K1, addr 0x10407cc, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_K1();
 
-  /// @brief Method get_K2, addr 0x1013944, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_K2, addr 0x10407d4, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_K2();
 
-  /// @brief Method get_K3, addr 0x101394c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_K3, addr 0x10407dc, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_K3();
 
-  /// @brief Method CreateCacheSafeLookupTable, addr 0x1013954, size 0x1a8, virtual true, abstract: false, final false
+  /// @brief Method CreateCacheSafeLookupTable, addr 0x10407e4, size 0x1a8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECLookupTable* CreateCacheSafeLookupTable(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*> points,
                                                                                   int32_t off, int32_t len);
 

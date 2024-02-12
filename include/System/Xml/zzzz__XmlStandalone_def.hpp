@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Xml::XmlStandalone);
 namespace System::Xml {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11494))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11392))
 // CS Name: ::System.Xml::XmlStandalone
 struct CORDL_TYPE XmlStandalone {
 public:

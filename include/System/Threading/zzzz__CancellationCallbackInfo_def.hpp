@@ -87,14 +87,14 @@ public:
                                                                         ::System::Threading::ExecutionContext* targetExecutionContext,
                                                                         ::System::Threading::CancellationTokenSource* cancellationTokenSource);
 
-  /// @brief Method .ctor, addr 0x261300c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2637f14, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::Action_1<::System::Object*>* callback, ::System::Object* stateForCallback, ::System::Threading::ExecutionContext* targetExecutionContext,
                     ::System::Threading::CancellationTokenSource* cancellationTokenSource);
 
-  /// @brief Method ExecuteCallback, addr 0x26136b0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ExecuteCallback, addr 0x26385b8, size 0xfc, virtual false, abstract: false, final false
   inline void ExecuteCallback();
 
-  /// @brief Method ExecutionContextCallback, addr 0x26140cc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ExecutionContextCallback, addr 0x2638fd4, size 0x8c, virtual false, abstract: false, final false
   static inline void ExecutionContextCallback(::System::Object* obj);
 
   // Ctor Parameters [CppParam { name: "", ty: "CancellationCallbackInfo", modifiers: "&&", def_value: None }]

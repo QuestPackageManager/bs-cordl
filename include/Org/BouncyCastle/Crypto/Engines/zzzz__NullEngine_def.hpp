@@ -50,25 +50,25 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Engines::NullEngine* New_ctor();
 
-  /// @brief Method .ctor, addr 0xed8470, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf04300, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Init, addr 0xed8478, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0xf04308, size 0xc, virtual true, abstract: false, final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method get_AlgorithmName, addr 0xed8484, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0xf04314, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method get_IsPartialBlockOkay, addr 0xed84c4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsPartialBlockOkay, addr 0xf04354, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsPartialBlockOkay();
 
-  /// @brief Method GetBlockSize, addr 0xed84cc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetBlockSize, addr 0xf0435c, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetBlockSize();
 
-  /// @brief Method ProcessBlock, addr 0xed84d4, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method ProcessBlock, addr 0xf04364, size 0x138, virtual true, abstract: false, final false
   inline int32_t ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset, addr 0xed860c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0xf0449c, size 0x4, virtual true, abstract: false, final false
   inline void Reset();
 
   // Ctor Parameters [CppParam { name: "", ty: "NullEngine", modifiers: "&&", def_value: None }]

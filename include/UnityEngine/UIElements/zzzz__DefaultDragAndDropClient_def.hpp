@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::DefaultDragAndDropClient);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6964))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6223))
 // CS Name: ::UnityEngine.UIElements::DefaultDragAndDropClient*
 class CORDL_TYPE DefaultDragAndDropClient : public ::System::Object {
 public:
@@ -57,18 +57,18 @@ public:
 
   constexpr void __cordl_internal_set_m_StartDragArgs(::UnityEngine::UIElements::StartDragArgs* value);
 
-  /// @brief Method get_userData, addr 0x2e0d2d8, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method get_userData, addr 0x2e2a6c0, size 0x18, virtual true, abstract: false, final true
   inline ::System::Object* get_userData();
 
-  /// @brief Method StartDrag, addr 0x2e0d2f0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method StartDrag, addr 0x2e2a6d8, size 0x8, virtual true, abstract: false, final true
   inline void StartDrag(::UnityEngine::UIElements::StartDragArgs* args);
 
-  /// @brief Method get_data, addr 0x2e0b628, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method get_data, addr 0x2e28a10, size 0x4, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::IDragAndDropData* get_data();
 
   static inline ::UnityEngine::UIElements::DefaultDragAndDropClient* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e0d2d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e2a6b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultDragAndDropClient", modifiers: "&&", def_value: None }]

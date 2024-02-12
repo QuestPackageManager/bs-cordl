@@ -85,37 +85,37 @@ public:
 
   constexpr void __cordl_internal_set_serialNumber(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method GetInstance, addr 0xf7fa98, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xfaa928, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::CertID* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0xf7fab0, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xfaa940, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::CertID* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::CertID* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlgorithm, ::Org::BouncyCastle::Asn1::Asn1OctetString* issuerNameHash,
                                                                   ::Org::BouncyCastle::Asn1::Asn1OctetString* issuerKeyHash, ::Org::BouncyCastle::Asn1::DerInteger* serialNumber);
 
-  /// @brief Method .ctor, addr 0xf7fd5c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfaabec, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlgorithm, ::Org::BouncyCastle::Asn1::Asn1OctetString* issuerNameHash,
                     ::Org::BouncyCastle::Asn1::Asn1OctetString* issuerKeyHash, ::Org::BouncyCastle::Asn1::DerInteger* serialNumber);
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::CertID* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xf7fc38, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfaaac8, size 0x124, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_HashAlgorithm, addr 0xf7fd9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HashAlgorithm, addr 0xfaac2c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_HashAlgorithm();
 
-  /// @brief Method get_IssuerNameHash, addr 0xf7fda4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IssuerNameHash, addr 0xfaac34, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_IssuerNameHash();
 
-  /// @brief Method get_IssuerKeyHash, addr 0xf7fdac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IssuerKeyHash, addr 0xfaac3c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_IssuerKeyHash();
 
-  /// @brief Method get_SerialNumber, addr 0xf7fdb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SerialNumber, addr 0xfaac44, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_SerialNumber();
 
-  /// @brief Method ToAsn1Object, addr 0xf7fdbc, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xfaac4c, size 0x148, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "CertID", modifiers: "&&", def_value: None }]

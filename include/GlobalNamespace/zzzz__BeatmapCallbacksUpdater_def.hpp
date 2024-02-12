@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapCallbacksUpdater);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4709))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4060))
 // CS Name: ::BeatmapCallbacksUpdater*
 class CORDL_TYPE BeatmapCallbacksUpdater : public ::UnityEngine::MonoBehaviour {
 public:
@@ -45,18 +45,18 @@ public:
 
   constexpr void __cordl_internal_set__audioTimeSource(::GlobalNamespace::IAudioTimeSource* value);
 
-  /// @brief Method LateUpdate, addr 0x237bb98, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x22c13cc, size 0x124, virtual false, abstract: false, final false
   inline void LateUpdate();
 
-  /// @brief Method Pause, addr 0x237bcbc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Pause, addr 0x22c14f0, size 0xc, virtual false, abstract: false, final false
   inline void Pause();
 
-  /// @brief Method Resume, addr 0x237bcc8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Resume, addr 0x22c14fc, size 0xc, virtual false, abstract: false, final false
   inline void Resume();
 
   static inline ::GlobalNamespace::BeatmapCallbacksUpdater* New_ctor();
 
-  /// @brief Method .ctor, addr 0x237bcd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22c1508, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapCallbacksUpdater", modifiers: "&&", def_value: None }]

@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MockComboController);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5317))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4657))
 // CS Name: ::MockComboController*
 class CORDL_TYPE MockComboController : public ::System::Object {
 public:
@@ -54,21 +54,21 @@ public:
 
   constexpr void __cordl_internal_set_comboBreakingEventHappenedEvent(::System::Action* value);
 
-  /// @brief Method add_comboDidChangeEvent, addr 0x2266084, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_comboDidChangeEvent, addr 0x23c4eec, size 0xb0, virtual true, abstract: false, final true
   inline void add_comboDidChangeEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method remove_comboDidChangeEvent, addr 0x2266134, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_comboDidChangeEvent, addr 0x23c4f9c, size 0xb0, virtual true, abstract: false, final true
   inline void remove_comboDidChangeEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method add_comboBreakingEventHappenedEvent, addr 0x22661e4, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_comboBreakingEventHappenedEvent, addr 0x23c504c, size 0x9c, virtual true, abstract: false, final true
   inline void add_comboBreakingEventHappenedEvent(::System::Action* value);
 
-  /// @brief Method remove_comboBreakingEventHappenedEvent, addr 0x2266280, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_comboBreakingEventHappenedEvent, addr 0x23c50e8, size 0x9c, virtual true, abstract: false, final true
   inline void remove_comboBreakingEventHappenedEvent(::System::Action* value);
 
   static inline ::GlobalNamespace::MockComboController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x226631c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c5184, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MockComboController", modifiers: "&&", def_value: None }]

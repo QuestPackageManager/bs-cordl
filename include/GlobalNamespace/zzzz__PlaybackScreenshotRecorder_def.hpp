@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::GlobalNamespace::PlaybackScreenshotRecorder);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5926))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5186))
 // CS Name: ::PlaybackScreenshotRecorder*
 class CORDL_TYPE PlaybackScreenshotRecorder : public ::UnityEngine::MonoBehaviour {
 public:
@@ -60,30 +60,30 @@ public:
 
   constexpr void __cordl_internal_set__frameNumber(int32_t value);
 
-  /// @brief Method get_directory, addr 0x2301358, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_directory, addr 0x232929c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_directory();
 
-  /// @brief Method OnEnable, addr 0x2301360, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x23292a4, size 0x88, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable, addr 0x23013e8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x232932c, size 0x88, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method Init, addr 0x22ffc90, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2327bd4, size 0xf4, virtual false, abstract: false, final false
   inline void Init(::StringW directory, int32_t framerate, ::GlobalNamespace::PlaybackRenderer* playbackRenderer);
 
-  /// @brief Method HandleTexturesReady, addr 0x2301470, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method HandleTexturesReady, addr 0x23293b4, size 0x7c, virtual false, abstract: false, final false
   inline void HandleTexturesReady();
 
-  /// @brief Method SaveScreenshot, addr 0x23014ec, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method SaveScreenshot, addr 0x2329430, size 0x134, virtual false, abstract: false, final false
   inline void SaveScreenshot(::UnityEngine::RenderTexture* renderTexture, ::StringW directory);
 
-  /// @brief Method ConvertRenderTexture, addr 0x2301620, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method ConvertRenderTexture, addr 0x2329564, size 0x11c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Texture2D> ConvertRenderTexture(::UnityEngine::RenderTexture* renderTexture);
 
   static inline ::GlobalNamespace::PlaybackScreenshotRecorder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x230173c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2329680, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PlaybackScreenshotRecorder", modifiers: "&&", def_value: None }]

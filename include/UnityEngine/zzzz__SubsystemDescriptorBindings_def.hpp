@@ -17,15 +17,15 @@ MARK_REF_PTR_T(::UnityEngine::SubsystemDescriptorBindings);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15961))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16084))
 // CS Name: ::UnityEngine::SubsystemDescriptorBindings*
 class CORDL_TYPE SubsystemDescriptorBindings : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x2d1a198, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2d3ac40, size 0x3c, virtual false, abstract: false, final false
   static inline void* Create(void* descriptorPtr);
 
-  /// @brief Method GetId, addr 0x2d1a148, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetId, addr 0x2d3abf0, size 0x3c, virtual false, abstract: false, final false
   static inline ::StringW GetId(void* descriptorPtr);
 
   // Ctor Parameters [CppParam { name: "", ty: "SubsystemDescriptorBindings", modifiers: "&&", def_value: None }]

@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::Zenject::SubContainerCreatorBindInfo);
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11242))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10384))
 // CS Name: ::Zenject::SubContainerCreatorBindInfo*
 class CORDL_TYPE SubContainerCreatorBindInfo : public ::System::Object {
 public:
@@ -57,27 +57,27 @@ public:
 
   constexpr void __cordl_internal_set__KernelType_k__BackingField(::System::Type* value);
 
-  /// @brief Method get_DefaultParentName, addr 0x2f0afb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultParentName, addr 0x2f270f8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_DefaultParentName();
 
-  /// @brief Method set_DefaultParentName, addr 0x2f0afb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DefaultParentName, addr 0x2f27100, size 0x8, virtual false, abstract: false, final false
   inline void set_DefaultParentName(::StringW value);
 
-  /// @brief Method get_CreateKernel, addr 0x2f0afc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CreateKernel, addr 0x2f27108, size 0x8, virtual false, abstract: false, final false
   inline bool get_CreateKernel();
 
-  /// @brief Method set_CreateKernel, addr 0x2f0afc8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_CreateKernel, addr 0x2f27110, size 0xc, virtual false, abstract: false, final false
   inline void set_CreateKernel(bool value);
 
-  /// @brief Method get_KernelType, addr 0x2f0afd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KernelType, addr 0x2f2711c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_KernelType();
 
-  /// @brief Method set_KernelType, addr 0x2f0afdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_KernelType, addr 0x2f27124, size 0x8, virtual false, abstract: false, final false
   inline void set_KernelType(::System::Type* value);
 
   static inline ::Zenject::SubContainerCreatorBindInfo* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f0afe4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f2712c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorBindInfo", modifiers: "&&", def_value: None }]

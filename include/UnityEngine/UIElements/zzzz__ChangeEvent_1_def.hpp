@@ -16,8 +16,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7180)), TypeDefinitionIndex(TypeDefinitionIndex(7181)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7180), inst: 1720
-// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7181), inst: 1012 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7181)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6439)), TypeDefinitionIndex(TypeDefinitionIndex(6440)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6439), inst: 1678
+// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6440), inst: 1006 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6440)) CS Name:
 // ::UnityEngine.UIElements::ChangeEvent`1<T>*
 class CORDL_TYPE ChangeEvent_1 : public ::UnityEngine::UIElements::EventBase_1<::UnityEngine::UIElements::ChangeEvent_1<T>*> {
 public:

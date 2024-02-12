@@ -65,7 +65,7 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::CmsAuthEnvelopedGenerator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x11dc62c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x120a4bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsAuthEnvelopedGenerator", modifiers: "&&", def_value: None }]

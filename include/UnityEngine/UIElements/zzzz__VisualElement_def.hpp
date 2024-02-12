@@ -377,8 +377,8 @@ MARK_VAL_T(::UnityEngine::UIElements::__VisualElement__Hierarchy);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6942))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6732))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6201))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5991))
 // CS Name: ::VisualElement::BaseVisualElementScheduledItem*
 class CORDL_TYPE __VisualElement__BaseVisualElementScheduledItem : public ::UnityEngine::UIElements::ScheduledItem {
 public:
@@ -424,42 +424,42 @@ public:
 
   constexpr void __cordl_internal_set_m_Activator(::UnityEngine::UIElements::VisualElementPanelActivator* value);
 
-  /// @brief Method get_element, addr 0x2db0338, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_element, addr 0x2dce720, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::VisualElement* get_element();
 
-  /// @brief Method set_element, addr 0x2db0340, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_element, addr 0x2dce728, size 0x8, virtual false, abstract: false, final false
   inline void set_element(::UnityEngine::UIElements::VisualElement* value);
 
   static inline ::UnityEngine::UIElements::__VisualElement__BaseVisualElementScheduledItem* New_ctor(::UnityEngine::UIElements::VisualElement* handler);
 
-  /// @brief Method .ctor, addr 0x2db0348, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dce730, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::VisualElement* handler);
 
-  /// @brief Method StartingIn, addr 0x2db0418, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method StartingIn, addr 0x2dce800, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::IVisualElementScheduledItem* StartingIn(int64_t delayMs);
 
-  /// @brief Method Every, addr 0x2db0420, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method Every, addr 0x2dce808, size 0xa4, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::IVisualElementScheduledItem* Every(int64_t intervalMs);
 
-  /// @brief Method OnItemUnscheduled, addr 0x2db04c4, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method OnItemUnscheduled, addr 0x2dce8ac, size 0x3c, virtual true, abstract: false, final false
   inline void OnItemUnscheduled();
 
-  /// @brief Method Resume, addr 0x2da1a68, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Resume, addr 0x2dbfe50, size 0x1c, virtual true, abstract: false, final true
   inline void Resume();
 
-  /// @brief Method Pause, addr 0x2db083c, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Pause, addr 0x2dcec24, size 0x1c, virtual true, abstract: false, final true
   inline void Pause();
 
-  /// @brief Method ExecuteLater, addr 0x2db0858, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method ExecuteLater, addr 0x2dcec40, size 0x3c, virtual true, abstract: false, final true
   inline void ExecuteLater(int64_t delayMs);
 
-  /// @brief Method OnPanelActivate, addr 0x2db0894, size 0xf0, virtual true, abstract: false, final true
+  /// @brief Method OnPanelActivate, addr 0x2dcec7c, size 0xf0, virtual true, abstract: false, final true
   inline void OnPanelActivate();
 
-  /// @brief Method OnPanelDeactivate, addr 0x2db0984, size 0xdc, virtual true, abstract: false, final true
+  /// @brief Method OnPanelDeactivate, addr 0x2dced6c, size 0xdc, virtual true, abstract: false, final true
   inline void OnPanelDeactivate();
 
-  /// @brief Method CanBeActivated, addr 0x2db0a60, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method CanBeActivated, addr 0x2dcee48, size 0x3c, virtual true, abstract: false, final true
   inline bool CanBeActivated();
 
   // Ctor Parameters [CppParam { name: "", ty: "__VisualElement__BaseVisualElementScheduledItem", modifiers: "&&", def_value: None }]
@@ -503,8 +503,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename ActionType>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6732))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6733))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5991))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5992))
 // CS Name: ::VisualElement::VisualElementScheduledItem`1<ActionType>*
 class CORDL_TYPE __VisualElement__VisualElementScheduledItem_1 : public ::UnityEngine::UIElements::__VisualElement__BaseVisualElementScheduledItem {
 public:
@@ -548,9 +548,9 @@ public:
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2323)), TypeDefinitionIndex(TypeDefinitionIndex(6733)), TypeDefinitionIndex(TypeDefinitionIndex(6939)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2323), inst: 404 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6733), inst: 5351 })] Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(6734)) CS Name: ::VisualElement::TimerStateScheduledItem*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2323)), TypeDefinitionIndex(TypeDefinitionIndex(5992)), TypeDefinitionIndex(TypeDefinitionIndex(6198)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2323), inst: 405 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5992), inst: 5333 })] Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(5993)) CS Name: ::VisualElement::TimerStateScheduledItem*
 class CORDL_TYPE __VisualElement__TimerStateScheduledItem
     : public ::UnityEngine::UIElements::__VisualElement__VisualElementScheduledItem_1<::System::Action_1<::UnityEngine::UIElements::TimerState>*> {
 public:
@@ -558,10 +558,10 @@ public:
   static inline ::UnityEngine::UIElements::__VisualElement__TimerStateScheduledItem* New_ctor(::UnityEngine::UIElements::VisualElement* handler,
                                                                                               ::System::Action_1<::UnityEngine::UIElements::TimerState>* updateEvent);
 
-  /// @brief Method .ctor, addr 0x2da1a08, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dbfdf0, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::VisualElement* handler, ::System::Action_1<::UnityEngine::UIElements::TimerState>* updateEvent);
 
-  /// @brief Method PerformTimerUpdate, addr 0x2db0a9c, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method PerformTimerUpdate, addr 0x2dcee84, size 0x34, virtual true, abstract: false, final false
   inline void PerformTimerUpdate(::UnityEngine::UIElements::TimerState state);
 
   // Ctor Parameters [CppParam { name: "", ty: "__VisualElement__TimerStateScheduledItem", modifiers: "&&", def_value: None }]
@@ -588,17 +588,17 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Visua
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2322)), TypeDefinitionIndex(TypeDefinitionIndex(6733)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6733), inst: 1000
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6735)) CS Name: ::VisualElement::SimpleScheduledItem*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2322)), TypeDefinitionIndex(TypeDefinitionIndex(5992)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5992), inst: 999
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5994)) CS Name: ::VisualElement::SimpleScheduledItem*
 class CORDL_TYPE __VisualElement__SimpleScheduledItem : public ::UnityEngine::UIElements::__VisualElement__VisualElementScheduledItem_1<::System::Action*> {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::__VisualElement__SimpleScheduledItem* New_ctor(::UnityEngine::UIElements::VisualElement* handler, ::System::Action* updateEvent);
 
-  /// @brief Method .ctor, addr 0x2da1b30, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dbff18, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::VisualElement* handler, ::System::Action* updateEvent);
 
-  /// @brief Method PerformTimerUpdate, addr 0x2db0ad0, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method PerformTimerUpdate, addr 0x2dceeb8, size 0x34, virtual true, abstract: false, final false
   inline void PerformTimerUpdate(::UnityEngine::UIElements::TimerState state);
 
   // Ctor Parameters [CppParam { name: "", ty: "__VisualElement__SimpleScheduledItem", modifiers: "&&", def_value: None }]
@@ -625,8 +625,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Visua
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6995))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6737))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6254))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5996))
 // CS Name: ::VisualElement::UxmlTraits*
 class CORDL_TYPE __VisualElement__UxmlTraits : public ::UnityEngine::UIElements::UxmlTraits {
 public:
@@ -738,18 +738,18 @@ public:
 
   constexpr void __cordl_internal_set_m_Style(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
-  /// @brief Method get_focusIndex, addr 0x2db0b4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_focusIndex, addr 0x2dcef34, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UxmlIntAttributeDescription* get_focusIndex();
 
-  /// @brief Method get_focusable, addr 0x2db0b54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_focusable, addr 0x2dcef3c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UxmlBoolAttributeDescription* get_focusable();
 
-  /// @brief Method Init, addr 0x2db0b5c, size 0x288, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x2dcef44, size 0x288, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::__VisualElement__UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2db0de4, size 0x4d0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dcf1cc, size 0x4d0, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__VisualElement__UxmlTraits", modifiers: "&&", def_value: None }]
@@ -832,7 +832,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__VisualElement__UxmlTraits, _
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6739))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5998))
 // CS Name: ::VisualElement::RenderTargetMode
 struct CORDL_TYPE __VisualElement__RenderTargetMode {
 public:
@@ -890,7 +890,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__VisualElement__RenderTargetM
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6741))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6000))
 // CS Name: ::VisualElement::Hierarchy
 struct CORDL_TYPE __VisualElement__Hierarchy {
 public:
@@ -901,73 +901,73 @@ public:
 
   __declspec(property(get = get_Item))::UnityEngine::UIElements::VisualElement* Item[];
 
-  /// @brief Method get_parent, addr 0x2da4dcc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_parent, addr 0x2dc31b4, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_parent();
 
-  /// @brief Method .ctor, addr 0x2da82d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dc66b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::VisualElement* element);
 
-  /// @brief Method Add, addr 0x2dab984, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x2dc9d6c, size 0x7c, virtual false, abstract: false, final false
   inline void Add(::UnityEngine::UIElements::VisualElement* child);
 
-  /// @brief Method Insert, addr 0x2daba8c, size 0x31c, virtual false, abstract: false, final false
+  /// @brief Method Insert, addr 0x2dc9e74, size 0x31c, virtual false, abstract: false, final false
   inline void Insert(int32_t index, ::UnityEngine::UIElements::VisualElement* child);
 
-  /// @brief Method Remove, addr 0x2daca00, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x2dcade8, size 0xf4, virtual false, abstract: false, final false
   inline void Remove(::UnityEngine::UIElements::VisualElement* child);
 
-  /// @brief Method RemoveAt, addr 0x2db1424, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method RemoveAt, addr 0x2dcf80c, size 0x244, virtual false, abstract: false, final false
   inline void RemoveAt(int32_t index);
 
-  /// @brief Method Clear, addr 0x2dabe0c, size 0x344, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x2dca1f4, size 0x344, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method BringToFront, addr 0x2dac680, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method BringToFront, addr 0x2dcaa68, size 0xb4, virtual false, abstract: false, final false
   inline void BringToFront(::UnityEngine::UIElements::VisualElement* child);
 
-  /// @brief Method SendToBack, addr 0x2dac76c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method SendToBack, addr 0x2dcab54, size 0x98, virtual false, abstract: false, final false
   inline void SendToBack(::UnityEngine::UIElements::VisualElement* child);
 
-  /// @brief Method PlaceBehind, addr 0x2dac8f0, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method PlaceBehind, addr 0x2dcacd8, size 0xd8, virtual false, abstract: false, final false
   inline void PlaceBehind(::UnityEngine::UIElements::VisualElement* child, ::UnityEngine::UIElements::VisualElement* over);
 
-  /// @brief Method MoveChildElement, addr 0x2db17c4, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method MoveChildElement, addr 0x2dcfbac, size 0x114, virtual false, abstract: false, final false
   inline void MoveChildElement(::UnityEngine::UIElements::VisualElement* child, int32_t currentIndex, int32_t nextIndex);
 
-  /// @brief Method get_childCount, addr 0x2dac28c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_childCount, addr 0x2dca674, size 0x50, virtual false, abstract: false, final false
   inline int32_t get_childCount();
 
-  /// @brief Method get_Item, addr 0x2dac1c8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x2dca5b0, size 0x60, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_Item(int32_t key);
 
-  /// @brief Method IndexOf, addr 0x2dac358, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x2dca740, size 0x60, virtual false, abstract: false, final false
   inline int32_t IndexOf(::UnityEngine::UIElements::VisualElement* element);
 
-  /// @brief Method ElementAt, addr 0x2db18d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ElementAt, addr 0x2dcfcc0, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* ElementAt(int32_t index);
 
-  /// @brief Method SetParent, addr 0x2db13fc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SetParent, addr 0x2dcf7e4, size 0x28, virtual false, abstract: false, final false
   inline void SetParent(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method PutChildAtIndex, addr 0x2db12bc, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method PutChildAtIndex, addr 0x2dcf6a4, size 0x140, virtual false, abstract: false, final false
   inline void PutChildAtIndex(::UnityEngine::UIElements::VisualElement* child, int32_t index);
 
-  /// @brief Method RemoveChildAtIndex, addr 0x2db1668, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method RemoveChildAtIndex, addr 0x2dcfa50, size 0x7c, virtual false, abstract: false, final false
   inline void RemoveChildAtIndex(int32_t index);
 
-  /// @brief Method ReleaseChildList, addr 0x2db16e4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method ReleaseChildList, addr 0x2dcfacc, size 0xe0, virtual false, abstract: false, final false
   inline void ReleaseChildList();
 
-  /// @brief Method Equals, addr 0x2db18dc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x2dcfcc4, size 0x10, virtual false, abstract: false, final false
   inline bool Equals(::UnityEngine::UIElements::__VisualElement__Hierarchy other);
 
-  /// @brief Method Equals, addr 0x2db18f8, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2dcfce0, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2db1970, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2dcfd58, size 0x18, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method op_Equality, addr 0x2db18ec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x2dcfcd4, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::__VisualElement__Hierarchy x, ::UnityEngine::UIElements::__VisualElement__Hierarchy y);
 
   // Ctor Parameters [CppParam { name: "m_Owner", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: None }]
@@ -998,10 +998,10 @@ static_assert(offsetof(::UnityEngine::UIElements::__VisualElement__Hierarchy, m_
 // SizeInfo { instance_size: 944, native_size: -1, calculated_instance_size: 944, calculated_native_size: 944, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6739)), TypeDefinitionIndex(TypeDefinitionIndex(6741)), TypeDefinitionIndex(TypeDefinitionIndex(6821)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6822)), TypeDefinitionIndex(TypeDefinitionIndex(6823)), TypeDefinitionIndex(TypeDefinitionIndex(6865)), TypeDefinitionIndex(TypeDefinitionIndex(6880)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7296)), TypeDefinitionIndex(TypeDefinitionIndex(7396)), TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(10159)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(10245))] Self: TypeDefinitionIndex(TypeDefinitionIndex(6744)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5998)), TypeDefinitionIndex(TypeDefinitionIndex(6000)), TypeDefinitionIndex(TypeDefinitionIndex(6080)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6081)), TypeDefinitionIndex(TypeDefinitionIndex(6082)), TypeDefinitionIndex(TypeDefinitionIndex(6124)), TypeDefinitionIndex(TypeDefinitionIndex(6139)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6555)), TypeDefinitionIndex(TypeDefinitionIndex(6655)), TypeDefinitionIndex(TypeDefinitionIndex(8695)), TypeDefinitionIndex(TypeDefinitionIndex(8903)),
+// TypeDefinitionIndex(TypeDefinitionIndex(8909)), TypeDefinitionIndex(TypeDefinitionIndex(8989))] Self: TypeDefinitionIndex(TypeDefinitionIndex(6003)) CS Name:
 // ::UnityEngine.UIElements::VisualElement*
 class CORDL_TYPE VisualElement : public ::UnityEngine::UIElements::Focusable {
 public:
@@ -1832,718 +1832,718 @@ public:
 
   static inline ::System::Text::RegularExpressions::Regex* getStaticF_s_InternalStyleSheetPath();
 
-  /// @brief Method get_tooltip, addr 0x2da1640, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_tooltip, addr 0x2dbfa28, size 0x94, virtual false, abstract: false, final false
   inline ::StringW get_tooltip();
 
-  /// @brief Method set_tooltip, addr 0x2da1754, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method set_tooltip, addr 0x2dbfb3c, size 0x10c, virtual false, abstract: false, final false
   inline void set_tooltip(::StringW value);
 
-  /// @brief Method get_schedule, addr 0x2da1958, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_schedule, addr 0x2dbfd40, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::IVisualElementScheduler* get_schedule();
 
-  /// @brief Method UnityEngine.UIElements.IVisualElementScheduler.Execute, addr 0x2da195c, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IVisualElementScheduler.Execute, addr 0x2dbfd44, size 0xac, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::IVisualElementScheduledItem* UnityEngine_UIElements_IVisualElementScheduler_Execute(::System::Action_1<::UnityEngine::UIElements::TimerState>* timerUpdateEvent);
 
-  /// @brief Method UnityEngine.UIElements.IVisualElementScheduler.Execute, addr 0x2da1a84, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IVisualElementScheduler.Execute, addr 0x2dbfe6c, size 0xac, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::IVisualElementScheduledItem* UnityEngine_UIElements_IVisualElementScheduler_Execute(::System::Action* updateEvent);
 
-  /// @brief Method get_hasRunningAnimations, addr 0x2da1b90, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method get_hasRunningAnimations, addr 0x2dbff78, size 0xac, virtual false, abstract: false, final false
   inline bool get_hasRunningAnimations();
 
-  /// @brief Method get_hasCompletedAnimations, addr 0x2da1c40, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method get_hasCompletedAnimations, addr 0x2dc0028, size 0xac, virtual false, abstract: false, final false
   inline bool get_hasCompletedAnimations();
 
-  /// @brief Method UnityEngine.UIElements.IStylePropertyAnimations.get_runningAnimationCount, addr 0x2da1cec, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStylePropertyAnimations.get_runningAnimationCount, addr 0x2dc00d4, size 0x8, virtual true, abstract: false, final true
   inline int32_t UnityEngine_UIElements_IStylePropertyAnimations_get_runningAnimationCount();
 
-  /// @brief Method UnityEngine.UIElements.IStylePropertyAnimations.set_runningAnimationCount, addr 0x2da1cf4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStylePropertyAnimations.set_runningAnimationCount, addr 0x2dc00dc, size 0x8, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStylePropertyAnimations_set_runningAnimationCount(int32_t value);
 
-  /// @brief Method UnityEngine.UIElements.IStylePropertyAnimations.get_completedAnimationCount, addr 0x2da1cfc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStylePropertyAnimations.get_completedAnimationCount, addr 0x2dc00e4, size 0x8, virtual true, abstract: false, final true
   inline int32_t UnityEngine_UIElements_IStylePropertyAnimations_get_completedAnimationCount();
 
-  /// @brief Method UnityEngine.UIElements.IStylePropertyAnimations.set_completedAnimationCount, addr 0x2da1d04, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStylePropertyAnimations.set_completedAnimationCount, addr 0x2dc00ec, size 0x8, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStylePropertyAnimations_set_completedAnimationCount(int32_t value);
 
-  /// @brief Method GetStylePropertyAnimationSystem, addr 0x2da1d0c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetStylePropertyAnimationSystem, addr 0x2dc00f4, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::IStylePropertyAnimationSystem* GetStylePropertyAnimationSystem();
 
-  /// @brief Method get_styleAnimation, addr 0x2da1c3c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_styleAnimation, addr 0x2dc0024, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::IStylePropertyAnimations* get_styleAnimation();
 
-  /// @brief Method UnityEngine.UIElements.IStylePropertyAnimations.Start, addr 0x2da1d28, size 0x104, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStylePropertyAnimations.Start, addr 0x2dc0110, size 0x104, virtual true, abstract: false, final true
   inline bool UnityEngine_UIElements_IStylePropertyAnimations_Start(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, float_t from, float_t to, int32_t durationMs, int32_t delayMs,
                                                                     ::System::Func_2<float_t, float_t>* easingCurve);
 
-  /// @brief Method UnityEngine.UIElements.IStylePropertyAnimations.Start, addr 0x2da1e2c, size 0x11c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStylePropertyAnimations.Start, addr 0x2dc0214, size 0x11c, virtual true, abstract: false, final true
   inline bool UnityEngine_UIElements_IStylePropertyAnimations_Start(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, int32_t from, int32_t to, int32_t durationMs, int32_t delayMs,
                                                                     ::System::Func_2<float_t, float_t>* easingCurve);
 
-  /// @brief Method UnityEngine.UIElements.IStylePropertyAnimations.Start, addr 0x2da1f48, size 0x138, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStylePropertyAnimations.Start, addr 0x2dc0330, size 0x138, virtual true, abstract: false, final true
   inline bool UnityEngine_UIElements_IStylePropertyAnimations_Start(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::UnityEngine::UIElements::Length from,
                                                                     ::UnityEngine::UIElements::Length to, int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
 
-  /// @brief Method UnityEngine.UIElements.IStylePropertyAnimations.Start, addr 0x2da2178, size 0x150, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStylePropertyAnimations.Start, addr 0x2dc0560, size 0x150, virtual true, abstract: false, final true
   inline bool UnityEngine_UIElements_IStylePropertyAnimations_Start(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::UnityEngine::Color from, ::UnityEngine::Color to, int32_t durationMs,
                                                                     int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
 
-  /// @brief Method UnityEngine.UIElements.IStylePropertyAnimations.StartEnum, addr 0x2da22c8, size 0x11c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStylePropertyAnimations.StartEnum, addr 0x2dc06b0, size 0x11c, virtual true, abstract: false, final true
   inline bool UnityEngine_UIElements_IStylePropertyAnimations_StartEnum(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, int32_t from, int32_t to, int32_t durationMs, int32_t delayMs,
                                                                         ::System::Func_2<float_t, float_t>* easingCurve);
 
-  /// @brief Method UnityEngine.UIElements.IStylePropertyAnimations.Start, addr 0x2da23e4, size 0x158, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStylePropertyAnimations.Start, addr 0x2dc07cc, size 0x158, virtual true, abstract: false, final true
   inline bool UnityEngine_UIElements_IStylePropertyAnimations_Start(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::UnityEngine::UIElements::Background from,
                                                                     ::UnityEngine::UIElements::Background to, int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
 
-  /// @brief Method UnityEngine.UIElements.IStylePropertyAnimations.Start, addr 0x2da253c, size 0x130, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStylePropertyAnimations.Start, addr 0x2dc0924, size 0x130, virtual true, abstract: false, final true
   inline bool UnityEngine_UIElements_IStylePropertyAnimations_Start(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::UnityEngine::UIElements::FontDefinition from,
                                                                     ::UnityEngine::UIElements::FontDefinition to, int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
 
-  /// @brief Method UnityEngine.UIElements.IStylePropertyAnimations.Start, addr 0x2da266c, size 0x11c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStylePropertyAnimations.Start, addr 0x2dc0a54, size 0x11c, virtual true, abstract: false, final true
   inline bool UnityEngine_UIElements_IStylePropertyAnimations_Start(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::UnityEngine::Font* from, ::UnityEngine::Font* to, int32_t durationMs,
                                                                     int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
 
-  /// @brief Method UnityEngine.UIElements.IStylePropertyAnimations.Start, addr 0x2da2788, size 0x18c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStylePropertyAnimations.Start, addr 0x2dc0b70, size 0x18c, virtual true, abstract: false, final true
   inline bool UnityEngine_UIElements_IStylePropertyAnimations_Start(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::UnityEngine::UIElements::TextShadow from,
                                                                     ::UnityEngine::UIElements::TextShadow to, int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
 
-  /// @brief Method UnityEngine.UIElements.IStylePropertyAnimations.Start, addr 0x2da2914, size 0x130, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStylePropertyAnimations.Start, addr 0x2dc0cfc, size 0x130, virtual true, abstract: false, final true
   inline bool UnityEngine_UIElements_IStylePropertyAnimations_Start(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::UnityEngine::UIElements::Scale from,
                                                                     ::UnityEngine::UIElements::Scale to, int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
 
-  /// @brief Method UnityEngine.UIElements.IStylePropertyAnimations.Start, addr 0x2da2a44, size 0x1b0, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStylePropertyAnimations.Start, addr 0x2dc0e2c, size 0x1b0, virtual true, abstract: false, final true
   inline bool UnityEngine_UIElements_IStylePropertyAnimations_Start(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::UnityEngine::UIElements::Translate from,
                                                                     ::UnityEngine::UIElements::Translate to, int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
 
-  /// @brief Method UnityEngine.UIElements.IStylePropertyAnimations.Start, addr 0x2da2c20, size 0x188, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStylePropertyAnimations.Start, addr 0x2dc1008, size 0x188, virtual true, abstract: false, final true
   inline bool UnityEngine_UIElements_IStylePropertyAnimations_Start(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::UnityEngine::UIElements::Rotate from,
                                                                     ::UnityEngine::UIElements::Rotate to, int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
 
-  /// @brief Method UnityEngine.UIElements.IStylePropertyAnimations.Start, addr 0x2da2da8, size 0x1b0, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStylePropertyAnimations.Start, addr 0x2dc1190, size 0x1b0, virtual true, abstract: false, final true
   inline bool UnityEngine_UIElements_IStylePropertyAnimations_Start(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::UnityEngine::UIElements::TransformOrigin from,
                                                                     ::UnityEngine::UIElements::TransformOrigin to, int32_t durationMs, int32_t delayMs,
                                                                     ::System::Func_2<float_t, float_t>* easingCurve);
 
-  /// @brief Method UnityEngine.UIElements.IStylePropertyAnimations.CancelAnimation, addr 0x2da2f84, size 0xd0, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStylePropertyAnimations.CancelAnimation, addr 0x2dc136c, size 0xd0, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStylePropertyAnimations_CancelAnimation(::UnityEngine::UIElements::StyleSheets::StylePropertyId id);
 
-  /// @brief Method UnityEngine.UIElements.IStylePropertyAnimations.CancelAllAnimations, addr 0x2da3054, size 0xe0, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStylePropertyAnimations.CancelAllAnimations, addr 0x2dc143c, size 0xe0, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStylePropertyAnimations_CancelAllAnimations();
 
-  /// @brief Method UnityEngine.UIElements.IStylePropertyAnimations.UpdateAnimation, addr 0x2da3134, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStylePropertyAnimations.UpdateAnimation, addr 0x2dc151c, size 0xc8, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStylePropertyAnimations_UpdateAnimation(::UnityEngine::UIElements::StyleSheets::StylePropertyId id);
 
-  /// @brief Method UnityEngine.UIElements.IStylePropertyAnimations.GetAllAnimations, addr 0x2da31fc, size 0xec, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStylePropertyAnimations.GetAllAnimations, addr 0x2dc15e4, size 0xec, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStylePropertyAnimations_GetAllAnimations(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StylePropertyId>* outPropertyIds);
 
-  /// @brief Method TryConvertLengthUnits, addr 0x2da2080, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method TryConvertLengthUnits, addr 0x2dc0468, size 0xf8, virtual false, abstract: false, final false
   inline bool TryConvertLengthUnits(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ByRef<::UnityEngine::UIElements::Length> from, ByRef<::UnityEngine::UIElements::Length> to);
 
-  /// @brief Method TryConvertTransformOriginUnits, addr 0x2da2f58, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method TryConvertTransformOriginUnits, addr 0x2dc1340, size 0x2c, virtual false, abstract: false, final false
   inline bool TryConvertTransformOriginUnits(ByRef<::UnityEngine::UIElements::TransformOrigin> from, ByRef<::UnityEngine::UIElements::TransformOrigin> to);
 
-  /// @brief Method TryConvertTranslateUnits, addr 0x2da2bf4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method TryConvertTranslateUnits, addr 0x2dc0fdc, size 0x2c, virtual false, abstract: false, final false
   inline bool TryConvertTranslateUnits(ByRef<::UnityEngine::UIElements::Translate> from, ByRef<::UnityEngine::UIElements::Translate> to);
 
-  /// @brief Method get_positionWithLayout, addr 0x2da32e8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_positionWithLayout, addr 0x2dc16d0, size 0x64, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_positionWithLayout();
 
-  /// @brief Method GetPivotedMatrixWithLayout, addr 0x2da3628, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method GetPivotedMatrixWithLayout, addr 0x2dc1a10, size 0x1d0, virtual false, abstract: false, final false
   inline void GetPivotedMatrixWithLayout(ByRef<::UnityEngine::Matrix4x4> result);
 
-  /// @brief Method get_hasDefaultRotationAndScale, addr 0x2da3c28, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method get_hasDefaultRotationAndScale, addr 0x2dc2010, size 0xd0, virtual false, abstract: false, final false
   inline bool get_hasDefaultRotationAndScale();
 
-  /// @brief Method Min, addr 0x2da3d00, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Min, addr 0x2dc20e8, size 0x1c, virtual false, abstract: false, final false
   static inline float_t Min(float_t a, float_t b, float_t c, float_t d);
 
-  /// @brief Method Max, addr 0x2da3d1c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Max, addr 0x2dc2104, size 0x1c, virtual false, abstract: false, final false
   static inline float_t Max(float_t a, float_t b, float_t c, float_t d);
 
-  /// @brief Method TransformAlignedRectToParentSpace, addr 0x2da3d38, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method TransformAlignedRectToParentSpace, addr 0x2dc2120, size 0x184, virtual false, abstract: false, final false
   inline void TransformAlignedRectToParentSpace(ByRef<::UnityEngine::Rect> rect);
 
-  /// @brief Method CalculateConservativeRect, addr 0x2da3ebc, size 0x3d4, virtual false, abstract: false, final false
+  /// @brief Method CalculateConservativeRect, addr 0x2dc22a4, size 0x3d4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rect CalculateConservativeRect(ByRef<::UnityEngine::Matrix4x4> matrix, ::UnityEngine::Rect rect);
 
-  /// @brief Method TransformAlignedRect, addr 0x2da4364, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method TransformAlignedRect, addr 0x2dc274c, size 0x94, virtual false, abstract: false, final false
   static inline void TransformAlignedRect(ByRef<::UnityEngine::Matrix4x4> matrix, ByRef<::UnityEngine::Rect> rect);
 
-  /// @brief Method OrderMinMaxRect, addr 0x2da4290, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method OrderMinMaxRect, addr 0x2dc2678, size 0xd4, virtual false, abstract: false, final false
   static inline void OrderMinMaxRect(ByRef<::UnityEngine::Rect> rect);
 
-  /// @brief Method MultiplyMatrix44Point2, addr 0x2da43f8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method MultiplyMatrix44Point2, addr 0x2dc27e0, size 0x24, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 MultiplyMatrix44Point2(ByRef<::UnityEngine::Matrix4x4> lhs, ::UnityEngine::Vector2 point);
 
-  /// @brief Method MultiplyVector2, addr 0x2da441c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method MultiplyVector2, addr 0x2dc2804, size 0x1c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 MultiplyVector2(ByRef<::UnityEngine::Matrix4x4> lhs, ::UnityEngine::Vector2 vector);
 
-  /// @brief Method MultiplyMatrix34, addr 0x2da4438, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method MultiplyMatrix34, addr 0x2dc2820, size 0x1d8, virtual false, abstract: false, final false
   static inline void MultiplyMatrix34(ByRef<::UnityEngine::Matrix4x4> lhs, ByRef<::UnityEngine::Matrix4x4> rhs, ByRef<::UnityEngine::Matrix4x4> res);
 
-  /// @brief Method TranslateMatrix34, addr 0x2da4610, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method TranslateMatrix34, addr 0x2dc29f8, size 0xec, virtual false, abstract: false, final false
   static inline void TranslateMatrix34(ByRef<::UnityEngine::Matrix4x4> lhs, ::UnityEngine::Vector3 rhs, ByRef<::UnityEngine::Matrix4x4> res);
 
-  /// @brief Method TranslateMatrix34InPlace, addr 0x2da46fc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method TranslateMatrix34InPlace, addr 0x2dc2ae4, size 0x5c, virtual false, abstract: false, final false
   static inline void TranslateMatrix34InPlace(ByRef<::UnityEngine::Matrix4x4> lhs, ::UnityEngine::Vector3 rhs);
 
-  /// @brief Method get_isCompositeRoot, addr 0x2da4758, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isCompositeRoot, addr 0x2dc2b40, size 0xc, virtual false, abstract: false, final false
   inline bool get_isCompositeRoot();
 
-  /// @brief Method set_isCompositeRoot, addr 0x2da4764, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_isCompositeRoot, addr 0x2dc2b4c, size 0x2c, virtual false, abstract: false, final false
   inline void set_isCompositeRoot(bool value);
 
-  /// @brief Method get_isHierarchyDisplayed, addr 0x2da4790, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isHierarchyDisplayed, addr 0x2dc2b78, size 0xc, virtual false, abstract: false, final false
   inline bool get_isHierarchyDisplayed();
 
-  /// @brief Method set_isHierarchyDisplayed, addr 0x2da479c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_isHierarchyDisplayed, addr 0x2dc2b84, size 0x2c, virtual false, abstract: false, final false
   inline void set_isHierarchyDisplayed(bool value);
 
-  /// @brief Method get_viewDataKey, addr 0x2da47c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_viewDataKey, addr 0x2dc2bb0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_viewDataKey();
 
-  /// @brief Method set_viewDataKey, addr 0x2da47d0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_viewDataKey, addr 0x2dc2bb8, size 0x68, virtual false, abstract: false, final false
   inline void set_viewDataKey(::StringW value);
 
-  /// @brief Method get_enableViewDataPersistence, addr 0x2da4860, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_enableViewDataPersistence, addr 0x2dc2c48, size 0xc, virtual false, abstract: false, final false
   inline bool get_enableViewDataPersistence();
 
-  /// @brief Method set_enableViewDataPersistence, addr 0x2da486c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_enableViewDataPersistence, addr 0x2dc2c54, size 0x2c, virtual false, abstract: false, final false
   inline void set_enableViewDataPersistence(bool value);
 
-  /// @brief Method get_userData, addr 0x2da4898, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_userData, addr 0x2dc2c80, size 0x78, virtual false, abstract: false, final false
   inline ::System::Object* get_userData();
 
-  /// @brief Method set_userData, addr 0x2da49f8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_userData, addr 0x2dc2de0, size 0x70, virtual false, abstract: false, final false
   inline void set_userData(::System::Object* value);
 
-  /// @brief Method get_canGrabFocus, addr 0x2da4cbc, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method get_canGrabFocus, addr 0x2dc30a4, size 0x110, virtual true, abstract: false, final false
   inline bool get_canGrabFocus();
 
-  /// @brief Method get_focusController, addr 0x2da4eb0, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method get_focusController, addr 0x2dc3298, size 0xb0, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::FocusController* get_focusController();
 
-  /// @brief Method get_usageHints, addr 0x2da4f68, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_usageHints, addr 0x2dc3350, size 0x24, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UsageHints get_usageHints();
 
-  /// @brief Method set_usageHints, addr 0x2da4f94, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method set_usageHints, addr 0x2dc337c, size 0x84, virtual false, abstract: false, final false
   inline void set_usageHints(::UnityEngine::UIElements::UsageHints value);
 
-  /// @brief Method get_renderHints, addr 0x2da4f8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_renderHints, addr 0x2dc3374, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::RenderHints get_renderHints();
 
-  /// @brief Method set_renderHints, addr 0x2da5018, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_renderHints, addr 0x2dc3400, size 0x4c, virtual false, abstract: false, final false
   inline void set_renderHints(::UnityEngine::UIElements::RenderHints value);
 
-  /// @brief Method MarkRenderHintsClean, addr 0x2da5064, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method MarkRenderHintsClean, addr 0x2dc344c, size 0x10, virtual false, abstract: false, final false
   inline void MarkRenderHintsClean();
 
-  /// @brief Method get_transform, addr 0x2da5074, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_transform, addr 0x2dc345c, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ITransform* get_transform();
 
-  /// @brief Method UnityEngine.UIElements.ITransform.get_position, addr 0x2da5078, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.ITransform.get_position, addr 0x2dc3460, size 0xa0, virtual true, abstract: false, final true
   inline ::UnityEngine::Vector3 UnityEngine_UIElements_ITransform_get_position();
 
-  /// @brief Method UnityEngine.UIElements.ITransform.set_position, addr 0x2da5118, size 0x16c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.ITransform.set_position, addr 0x2dc3500, size 0x16c, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_ITransform_set_position(::UnityEngine::Vector3 value);
 
-  /// @brief Method UnityEngine.UIElements.ITransform.get_scale, addr 0x2da52f4, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.ITransform.get_scale, addr 0x2dc36dc, size 0xb4, virtual true, abstract: false, final true
   inline ::UnityEngine::Vector3 UnityEngine_UIElements_ITransform_get_scale();
 
-  /// @brief Method get_isLayoutManual, addr 0x2da53a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isLayoutManual, addr 0x2dc3790, size 0xc, virtual false, abstract: false, final false
   inline bool get_isLayoutManual();
 
-  /// @brief Method set_isLayoutManual, addr 0x2da53b4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_isLayoutManual, addr 0x2dc379c, size 0x2c, virtual false, abstract: false, final false
   inline void set_isLayoutManual(bool value);
 
-  /// @brief Method get_scaledPixelsPerPoint, addr 0x2da53e0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_scaledPixelsPerPoint, addr 0x2dc37c8, size 0x14, virtual false, abstract: false, final false
   inline float_t get_scaledPixelsPerPoint();
 
-  /// @brief Method get_layout, addr 0x2da3580, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method get_layout, addr 0x2dc1968, size 0xa8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_layout();
 
-  /// @brief Method set_layout, addr 0x2da53f4, size 0x8d0, virtual false, abstract: false, final false
+  /// @brief Method set_layout, addr 0x2dc37dc, size 0x8d0, virtual false, abstract: false, final false
   inline void set_layout(::UnityEngine::Rect value);
 
-  /// @brief Method get_contentRect, addr 0x2da5cc4, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method get_contentRect, addr 0x2dc40ac, size 0x214, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_contentRect();
 
-  /// @brief Method get_paddingRect, addr 0x2da5ed8, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method get_paddingRect, addr 0x2dc42c0, size 0x214, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_paddingRect();
 
-  /// @brief Method get_isBoundingBoxDirty, addr 0x2da6158, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isBoundingBoxDirty, addr 0x2dc4540, size 0xc, virtual false, abstract: false, final false
   inline bool get_isBoundingBoxDirty();
 
-  /// @brief Method set_isBoundingBoxDirty, addr 0x2da6164, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_isBoundingBoxDirty, addr 0x2dc454c, size 0x2c, virtual false, abstract: false, final false
   inline void set_isBoundingBoxDirty(bool value);
 
-  /// @brief Method get_isWorldBoundingBoxDirty, addr 0x2da6190, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isWorldBoundingBoxDirty, addr 0x2dc4578, size 0xc, virtual false, abstract: false, final false
   inline bool get_isWorldBoundingBoxDirty();
 
-  /// @brief Method set_isWorldBoundingBoxDirty, addr 0x2da619c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_isWorldBoundingBoxDirty, addr 0x2dc4584, size 0x2c, virtual false, abstract: false, final false
   inline void set_isWorldBoundingBoxDirty(bool value);
 
-  /// @brief Method get_boundingBox, addr 0x2da61c8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_boundingBox, addr 0x2dc45b0, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_boundingBox();
 
-  /// @brief Method get_worldBoundingBox, addr 0x2da65b0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_worldBoundingBox, addr 0x2dc4998, size 0x40, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_worldBoundingBox();
 
-  /// @brief Method get_boundingBoxInParentSpace, addr 0x2da66ec, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method get_boundingBoxInParentSpace, addr 0x2dc4ad4, size 0x194, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_boundingBoxInParentSpace();
 
-  /// @brief Method UpdateBoundingBox, addr 0x2da6204, size 0x3ac, virtual false, abstract: false, final false
+  /// @brief Method UpdateBoundingBox, addr 0x2dc45ec, size 0x3ac, virtual false, abstract: false, final false
   inline void UpdateBoundingBox();
 
-  /// @brief Method UpdateWorldBoundingBox, addr 0x2da65f0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method UpdateWorldBoundingBox, addr 0x2dc49d8, size 0xfc, virtual false, abstract: false, final false
   inline void UpdateWorldBoundingBox();
 
-  /// @brief Method get_worldBound, addr 0x2da68d0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method get_worldBound, addr 0x2dc4cb8, size 0xd0, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_worldBound();
 
-  /// @brief Method get_localBound, addr 0x2da69a0, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method get_localBound, addr 0x2dc4d88, size 0x194, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_localBound();
 
-  /// @brief Method get_rect, addr 0x2da60ec, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_rect, addr 0x2dc44d4, size 0x6c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_rect();
 
-  /// @brief Method get_isWorldTransformDirty, addr 0x2da6b34, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isWorldTransformDirty, addr 0x2dc4f1c, size 0xc, virtual false, abstract: false, final false
   inline bool get_isWorldTransformDirty();
 
-  /// @brief Method set_isWorldTransformDirty, addr 0x2da6b40, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_isWorldTransformDirty, addr 0x2dc4f28, size 0x2c, virtual false, abstract: false, final false
   inline void set_isWorldTransformDirty(bool value);
 
-  /// @brief Method get_isWorldTransformInverseDirty, addr 0x2da6b6c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isWorldTransformInverseDirty, addr 0x2dc4f54, size 0xc, virtual false, abstract: false, final false
   inline bool get_isWorldTransformInverseDirty();
 
-  /// @brief Method set_isWorldTransformInverseDirty, addr 0x2da6b78, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_isWorldTransformInverseDirty, addr 0x2dc4f60, size 0x2c, virtual false, abstract: false, final false
   inline void set_isWorldTransformInverseDirty(bool value);
 
-  /// @brief Method get_worldTransform, addr 0x2da6ba4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_worldTransform, addr 0x2dc4f8c, size 0x40, virtual false, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 get_worldTransform();
 
-  /// @brief Method get_worldTransformRef, addr 0x2da68ac, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_worldTransformRef, addr 0x2dc4c94, size 0x24, virtual false, abstract: false, final false
   inline ByRef<::UnityEngine::Matrix4x4> get_worldTransformRef();
 
-  /// @brief Method get_worldTransformInverse, addr 0x2da6e88, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_worldTransformInverse, addr 0x2dc5270, size 0x28, virtual false, abstract: false, final false
   inline ByRef<::UnityEngine::Matrix4x4> get_worldTransformInverse();
 
-  /// @brief Method UpdateWorldTransform, addr 0x2da6be4, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method UpdateWorldTransform, addr 0x2dc4fcc, size 0x2a4, virtual false, abstract: false, final false
   inline void UpdateWorldTransform();
 
-  /// @brief Method UpdateWorldTransformInverse, addr 0x2da6eb0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method UpdateWorldTransformInverse, addr 0x2dc5298, size 0x58, virtual false, abstract: false, final false
   inline void UpdateWorldTransformInverse();
 
-  /// @brief Method get_isWorldClipDirty, addr 0x2da6f08, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isWorldClipDirty, addr 0x2dc52f0, size 0xc, virtual false, abstract: false, final false
   inline bool get_isWorldClipDirty();
 
-  /// @brief Method set_isWorldClipDirty, addr 0x2da6f14, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_isWorldClipDirty, addr 0x2dc52fc, size 0x2c, virtual false, abstract: false, final false
   inline void set_isWorldClipDirty(bool value);
 
-  /// @brief Method get_worldClip, addr 0x2da6f40, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_worldClip, addr 0x2dc5328, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_worldClip();
 
-  /// @brief Method get_worldClipMinusGroup, addr 0x2da71fc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_worldClipMinusGroup, addr 0x2dc55e4, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_worldClipMinusGroup();
 
-  /// @brief Method get_worldClipIsInfinite, addr 0x2da7238, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_worldClipIsInfinite, addr 0x2dc5620, size 0x30, virtual false, abstract: false, final false
   inline bool get_worldClipIsInfinite();
 
-  /// @brief Method EnsureWorldTransformAndClipUpToDate, addr 0x2da7268, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method EnsureWorldTransformAndClipUpToDate, addr 0x2dc5650, size 0x3c, virtual false, abstract: false, final false
   inline void EnsureWorldTransformAndClipUpToDate();
 
-  /// @brief Method UpdateWorldClip, addr 0x2da6f7c, size 0x280, virtual false, abstract: false, final false
+  /// @brief Method UpdateWorldClip, addr 0x2dc5364, size 0x280, virtual false, abstract: false, final false
   inline void UpdateWorldClip();
 
-  /// @brief Method CombineClipRects, addr 0x2da78e0, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method CombineClipRects, addr 0x2dc5cc8, size 0xf8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect CombineClipRects(::UnityEngine::Rect rect, ::UnityEngine::Rect parentRect);
 
-  /// @brief Method SubstractBorderPadding, addr 0x2da72a4, size 0x63c, virtual false, abstract: false, final false
+  /// @brief Method SubstractBorderPadding, addr 0x2dc568c, size 0x63c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect SubstractBorderPadding(::UnityEngine::Rect worldRect);
 
-  /// @brief Method ComputeAAAlignedBound, addr 0x2da79d8, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method ComputeAAAlignedBound, addr 0x2dc5dc0, size 0x1d0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rect ComputeAAAlignedBound(::UnityEngine::Rect position, ::UnityEngine::Matrix4x4 mat);
 
-  /// @brief Method get_pseudoStates, addr 0x2da7ba8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pseudoStates, addr 0x2dc5f90, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::PseudoStates get_pseudoStates();
 
-  /// @brief Method set_pseudoStates, addr 0x2da7bb0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method set_pseudoStates, addr 0x2dc5f98, size 0x84, virtual false, abstract: false, final false
   inline void set_pseudoStates(::UnityEngine::UIElements::PseudoStates value);
 
-  /// @brief Method get_containedPointerIds, addr 0x2da7c34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_containedPointerIds, addr 0x2dc601c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_containedPointerIds();
 
-  /// @brief Method set_containedPointerIds, addr 0x2da7c3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_containedPointerIds, addr 0x2dc6024, size 0x8, virtual false, abstract: false, final false
   inline void set_containedPointerIds(int32_t value);
 
-  /// @brief Method UpdateHoverPseudoState, addr 0x2da7c44, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method UpdateHoverPseudoState, addr 0x2dc602c, size 0xcc, virtual false, abstract: false, final false
   inline void UpdateHoverPseudoState();
 
-  /// @brief Method get_pickingMode, addr 0x2da7d10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pickingMode, addr 0x2dc60f8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::PickingMode get_pickingMode();
 
-  /// @brief Method set_pickingMode, addr 0x2da7d18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pickingMode, addr 0x2dc6100, size 0x8, virtual false, abstract: false, final false
   inline void set_pickingMode(::UnityEngine::UIElements::PickingMode value);
 
-  /// @brief Method get_name, addr 0x2da7d20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x2dc6108, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method set_name, addr 0x2da7d28, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_name, addr 0x2dc6110, size 0x58, virtual false, abstract: false, final false
   inline void set_name(::StringW value);
 
-  /// @brief Method get_fullTypeName, addr 0x2da7d80, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_fullTypeName, addr 0x2dc6168, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_fullTypeName();
 
-  /// @brief Method get_typeName, addr 0x2da7f0c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_typeName, addr 0x2dc62f4, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_typeName();
 
-  /// @brief Method get_yogaNode, addr 0x2da7fbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_yogaNode, addr 0x2dc63a4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Yoga::YogaNode* get_yogaNode();
 
-  /// @brief Method set_yogaNode, addr 0x2da7fc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_yogaNode, addr 0x2dc63ac, size 0x8, virtual false, abstract: false, final false
   inline void set_yogaNode(::UnityEngine::Yoga::YogaNode* value);
 
-  /// @brief Method get_computedStyle, addr 0x2da3cf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_computedStyle, addr 0x2dc20e0, size 0x8, virtual false, abstract: false, final false
   inline ByRef<::UnityEngine::UIElements::ComputedStyle> get_computedStyle();
 
-  /// @brief Method get_hasInlineStyle, addr 0x2da7fcc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_hasInlineStyle, addr 0x2dc63b4, size 0x10, virtual false, abstract: false, final false
   inline bool get_hasInlineStyle();
 
-  /// @brief Method get_styleInitialized, addr 0x2da7fdc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_styleInitialized, addr 0x2dc63c4, size 0xc, virtual false, abstract: false, final false
   inline bool get_styleInitialized();
 
-  /// @brief Method set_styleInitialized, addr 0x2da7fe8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_styleInitialized, addr 0x2dc63d0, size 0x2c, virtual false, abstract: false, final false
   inline void set_styleInitialized(bool value);
 
-  /// @brief Method ChangeIMGUIContainerCount, addr 0x2da8014, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method ChangeIMGUIContainerCount, addr 0x2dc63fc, size 0x30, virtual false, abstract: false, final false
   inline void ChangeIMGUIContainerCount(int32_t delta);
 
   static inline ::UnityEngine::UIElements::VisualElement* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2da8044, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dc642c, size 0x28c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method ExecuteDefaultAction, addr 0x2da82fc, size 0x6a8, virtual true, abstract: false, final false
+  /// @brief Method ExecuteDefaultAction, addr 0x2dc66e4, size 0x6a8, virtual true, abstract: false, final false
   inline void ExecuteDefaultAction(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method GetTooltipRect, addr 0x2da8d08, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method GetTooltipRect, addr 0x2dc70f0, size 0x4, virtual true, abstract: false, final false
   inline ::UnityEngine::Rect GetTooltipRect();
 
-  /// @brief Method SetTooltip, addr 0x2da8c2c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method SetTooltip, addr 0x2dc7014, size 0xdc, virtual false, abstract: false, final false
   inline void SetTooltip(::UnityEngine::UIElements::TooltipEvent* e);
 
-  /// @brief Method Focus, addr 0x2da8d0c, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method Focus, addr 0x2dc70f4, size 0x54, virtual true, abstract: false, final true
   inline void Focus();
 
-  /// @brief Method SetPanel, addr 0x2da8d60, size 0x994, virtual false, abstract: false, final false
+  /// @brief Method SetPanel, addr 0x2dc7148, size 0x994, virtual false, abstract: false, final false
   inline void SetPanel(::UnityEngine::UIElements::BaseVisualElementPanel* p);
 
-  /// @brief Method WillChangePanel, addr 0x2da97cc, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method WillChangePanel, addr 0x2dc7bb4, size 0x1dc, virtual false, abstract: false, final false
   inline void WillChangePanel(::UnityEngine::UIElements::BaseVisualElementPanel* destinationPanel);
 
-  /// @brief Method HasChangedPanel, addr 0x2da99a8, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method HasChangedPanel, addr 0x2dc7d90, size 0x2bc, virtual false, abstract: false, final false
   inline void HasChangedPanel(::UnityEngine::UIElements::BaseVisualElementPanel* prevPanel);
 
-  /// @brief Method SendEvent, addr 0x2da9da0, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method SendEvent, addr 0x2dc8188, size 0x18, virtual true, abstract: false, final true
   inline void SendEvent(::UnityEngine::UIElements::EventBase* e);
 
-  /// @brief Method SendEvent, addr 0x2da9db8, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method SendEvent, addr 0x2dc81a0, size 0x14, virtual true, abstract: false, final true
   inline void SendEvent(::UnityEngine::UIElements::EventBase* e, ::UnityEngine::UIElements::DispatchMode dispatchMode);
 
-  /// @brief Method IncrementVersion, addr 0x2da4838, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method IncrementVersion, addr 0x2dc2c20, size 0x28, virtual false, abstract: false, final false
   inline void IncrementVersion(::UnityEngine::UIElements::VersionChangeType changeType);
 
-  /// @brief Method InvokeHierarchyChanged, addr 0x2da9dcc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method InvokeHierarchyChanged, addr 0x2dc81b4, size 0x20, virtual false, abstract: false, final false
   inline void InvokeHierarchyChanged(::UnityEngine::UIElements::HierarchyChangeType changeType);
 
-  /// @brief Method SetEnabledFromHierarchyPrivate, addr 0x2da9dec, size 0x37c, virtual false, abstract: false, final false
+  /// @brief Method SetEnabledFromHierarchyPrivate, addr 0x2dc81d4, size 0x37c, virtual false, abstract: false, final false
   inline bool SetEnabledFromHierarchyPrivate(bool state);
 
-  /// @brief Method get_isParentEnabledInHierarchy, addr 0x2daa168, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_isParentEnabledInHierarchy, addr 0x2dc8550, size 0x34, virtual false, abstract: false, final false
   inline bool get_isParentEnabledInHierarchy();
 
-  /// @brief Method get_enabledInHierarchy, addr 0x2da4ea0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_enabledInHierarchy, addr 0x2dc3288, size 0x10, virtual false, abstract: false, final false
   inline bool get_enabledInHierarchy();
 
-  /// @brief Method get_enabledSelf, addr 0x2daa4d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_enabledSelf, addr 0x2dc88c0, size 0x8, virtual false, abstract: false, final false
   inline bool get_enabledSelf();
 
-  /// @brief Method set_enabledSelf, addr 0x2daa4e0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_enabledSelf, addr 0x2dc88c8, size 0xc, virtual false, abstract: false, final false
   inline void set_enabledSelf(bool value);
 
-  /// @brief Method SetEnabled, addr 0x2da82d8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetEnabled, addr 0x2dc66c0, size 0x24, virtual false, abstract: false, final false
   inline void SetEnabled(bool value);
 
-  /// @brief Method PropagateEnabledToChildren, addr 0x2daa4ec, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method PropagateEnabledToChildren, addr 0x2dc88d4, size 0xb0, virtual false, abstract: false, final false
   inline void PropagateEnabledToChildren(bool value);
 
-  /// @brief Method get_visible, addr 0x2da4df0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method get_visible, addr 0x2dc31d8, size 0xac, virtual false, abstract: false, final false
   inline bool get_visible();
 
-  /// @brief Method set_visible, addr 0x2daa59c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method set_visible, addr 0x2dc8984, size 0xe4, virtual false, abstract: false, final false
   inline void set_visible(bool value);
 
-  /// @brief Method MarkDirtyRepaint, addr 0x2daa680, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method MarkDirtyRepaint, addr 0x2dc8a68, size 0x24, virtual false, abstract: false, final false
   inline void MarkDirtyRepaint();
 
-  /// @brief Method get_generateVisualContent, addr 0x2daa6a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_generateVisualContent, addr 0x2dc8a8c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action_1<::UnityEngine::UIElements::MeshGenerationContext*>* get_generateVisualContent();
 
-  /// @brief Method set_generateVisualContent, addr 0x2daa6ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_generateVisualContent, addr 0x2dc8a94, size 0x8, virtual false, abstract: false, final false
   inline void set_generateVisualContent(::System::Action_1<::UnityEngine::UIElements::MeshGenerationContext*>* value);
 
-  /// @brief Method InvokeGenerateVisualContent, addr 0x2daa6b4, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method InvokeGenerateVisualContent, addr 0x2dc8a9c, size 0x234, virtual false, abstract: false, final false
   inline void InvokeGenerateVisualContent(::UnityEngine::UIElements::MeshGenerationContext* mgc);
 
-  /// @brief Method GetFullHierarchicalViewDataKey, addr 0x2daa8e8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetFullHierarchicalViewDataKey, addr 0x2dc8cd0, size 0x94, virtual false, abstract: false, final false
   inline void GetFullHierarchicalViewDataKey(::System::Text::StringBuilder* key);
 
-  /// @brief Method GetFullHierarchicalViewDataKey, addr 0x2daa97c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetFullHierarchicalViewDataKey, addr 0x2dc8d64, size 0x74, virtual false, abstract: false, final false
   inline ::StringW GetFullHierarchicalViewDataKey();
 
-  /// @brief Method OverwriteFromViewData, addr 0x2daa9f0, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method OverwriteFromViewData, addr 0x2dc8dd8, size 0x320, virtual false, abstract: false, final false
   inline void OverwriteFromViewData(::System::Object* obj, ::StringW key);
 
-  /// @brief Method SaveViewData, addr 0x2daad10, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SaveViewData, addr 0x2dc90f8, size 0x7c, virtual false, abstract: false, final false
   inline void SaveViewData();
 
-  /// @brief Method IsViewDataPersitenceSupportedOnChildren, addr 0x2daad8c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method IsViewDataPersitenceSupportedOnChildren, addr 0x2dc9174, size 0x74, virtual false, abstract: false, final false
   inline bool IsViewDataPersitenceSupportedOnChildren(bool existingState);
 
-  /// @brief Method OnViewDataReady, addr 0x2daae00, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method OnViewDataReady, addr 0x2dc91e8, size 0x38, virtual false, abstract: false, final false
   inline void OnViewDataReady(bool enablePersistence);
 
-  /// @brief Method OnViewDataReady, addr 0x2daae38, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnViewDataReady, addr 0x2dc9220, size 0x4, virtual true, abstract: false, final false
   inline void OnViewDataReady();
 
-  /// @brief Method ContainsPoint, addr 0x2daae3c, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method ContainsPoint, addr 0x2dc9224, size 0x48, virtual true, abstract: false, final false
   inline bool ContainsPoint(::UnityEngine::Vector2 localPoint);
 
-  /// @brief Method get_requireMeasureFunction, addr 0x2daae84, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_requireMeasureFunction, addr 0x2dc926c, size 0xc, virtual false, abstract: false, final false
   inline bool get_requireMeasureFunction();
 
-  /// @brief Method set_requireMeasureFunction, addr 0x2daae90, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_requireMeasureFunction, addr 0x2dc9278, size 0x70, virtual false, abstract: false, final false
   inline void set_requireMeasureFunction(bool value);
 
-  /// @brief Method AssignMeasureFunction, addr 0x2daaf00, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method AssignMeasureFunction, addr 0x2dc92e8, size 0x8c, virtual false, abstract: false, final false
   inline void AssignMeasureFunction();
 
-  /// @brief Method RemoveMeasureFunction, addr 0x2daaf8c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method RemoveMeasureFunction, addr 0x2dc9374, size 0x20, virtual false, abstract: false, final false
   inline void RemoveMeasureFunction();
 
-  /// @brief Method DoMeasure, addr 0x2daafac, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method DoMeasure, addr 0x2dc9394, size 0x10, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 DoMeasure(float_t desiredWidth, ::UnityEngine::UIElements::__VisualElement__MeasureMode widthMode, float_t desiredHeight,
                                           ::UnityEngine::UIElements::__VisualElement__MeasureMode heightMode);
 
-  /// @brief Method Measure, addr 0x2daafbc, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method Measure, addr 0x2dc93a4, size 0x128, virtual false, abstract: false, final false
   inline ::UnityEngine::Yoga::YogaSize Measure(::UnityEngine::Yoga::YogaNode* node, float_t width, ::UnityEngine::Yoga::YogaMeasureMode widthMode, float_t height,
                                                ::UnityEngine::Yoga::YogaMeasureMode heightMode);
 
-  /// @brief Method FinalizeLayout, addr 0x2dab0e4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method FinalizeLayout, addr 0x2dc94cc, size 0x4c, virtual false, abstract: false, final false
   inline void FinalizeLayout();
 
-  /// @brief Method SetInlineRule, addr 0x2dab130, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method SetInlineRule, addr 0x2dc9518, size 0x90, virtual false, abstract: false, final false
   inline void SetInlineRule(::UnityEngine::UIElements::StyleSheet* sheet, ::UnityEngine::UIElements::StyleRule* rule);
 
-  /// @brief Method SetComputedStyle, addr 0x2dab1c0, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method SetComputedStyle, addr 0x2dc95a8, size 0x1cc, virtual false, abstract: false, final false
   inline void SetComputedStyle(ByRef<::UnityEngine::UIElements::ComputedStyle> newStyle);
 
-  /// @brief Method ToString, addr 0x2dab38c, size 0x234, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2dc9774, size 0x234, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method GetClassesForIteration, addr 0x2dab5c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetClassesForIteration, addr 0x2dc99a8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::StringW>* GetClassesForIteration();
 
-  /// @brief Method AddToClassList, addr 0x2daa2c4, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method AddToClassList, addr 0x2dc86ac, size 0x208, virtual false, abstract: false, final false
   inline void AddToClassList(::StringW className);
 
-  /// @brief Method RemoveFromClassList, addr 0x2daa19c, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method RemoveFromClassList, addr 0x2dc8584, size 0x128, virtual false, abstract: false, final false
   inline void RemoveFromClassList(::StringW className);
 
-  /// @brief Method EnableInClassList, addr 0x2daa4cc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method EnableInClassList, addr 0x2dc88b4, size 0xc, virtual false, abstract: false, final false
   inline void EnableInClassList(::StringW className, bool enable);
 
-  /// @brief Method ClassListContains, addr 0x2dab5c8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method ClassListContains, addr 0x2dc99b0, size 0xa8, virtual false, abstract: false, final false
   inline bool ClassListContains(::StringW cls);
 
-  /// @brief Method GetProperty, addr 0x2da16d4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetProperty, addr 0x2dbfabc, size 0x80, virtual false, abstract: false, final false
   inline ::System::Object* GetProperty(::UnityEngine::PropertyName key);
 
-  /// @brief Method SetProperty, addr 0x2da18e0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SetProperty, addr 0x2dbfcc8, size 0x78, virtual false, abstract: false, final false
   inline void SetProperty(::UnityEngine::PropertyName key, ::System::Object* value);
 
-  /// @brief Method HasProperty, addr 0x2da1860, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method HasProperty, addr 0x2dbfc48, size 0x80, virtual false, abstract: false, final false
   inline bool HasProperty(::UnityEngine::PropertyName key);
 
-  /// @brief Method TryGetPropertyInternal, addr 0x2da4910, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method TryGetPropertyInternal, addr 0x2dc2cf8, size 0xe8, virtual false, abstract: false, final false
   inline bool TryGetPropertyInternal(::UnityEngine::PropertyName key, ByRef<::System::Object*> value);
 
-  /// @brief Method CheckUserKeyArgument, addr 0x2dab670, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method CheckUserKeyArgument, addr 0x2dc9a58, size 0x168, virtual false, abstract: false, final false
   static inline void CheckUserKeyArgument(::UnityEngine::PropertyName key);
 
-  /// @brief Method SetPropertyInternal, addr 0x2da4a68, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method SetPropertyInternal, addr 0x2dc2e50, size 0x254, virtual false, abstract: false, final false
   inline void SetPropertyInternal(::UnityEngine::PropertyName key, ::System::Object* value);
 
-  /// @brief Method UpdateCursorStyle, addr 0x2da89a4, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method UpdateCursorStyle, addr 0x2dc6d8c, size 0x288, virtual false, abstract: false, final false
   inline void UpdateCursorStyle(int64_t eventType);
 
-  /// @brief Method get_subRenderTargetMode, addr 0x2dab7d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_subRenderTargetMode, addr 0x2dc9bc0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::__VisualElement__RenderTargetMode get_subRenderTargetMode();
 
-  /// @brief Method get_defaultMaterial, addr 0x2dab7e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultMaterial, addr 0x2dc9bc8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_defaultMaterial();
 
-  /// @brief Method get_typeData, addr 0x2da7d98, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method get_typeData, addr 0x2dc6180, size 0x12c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::__VisualElement__TypeData* get_typeData();
 
-  /// @brief Method get_experimental, addr 0x2dab854, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_experimental, addr 0x2dc9c3c, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::IExperimentalFeatures* get_experimental();
 
-  /// @brief Method UnityEngine.UIElements.IExperimentalFeatures.get_animation, addr 0x2dab858, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IExperimentalFeatures.get_animation, addr 0x2dc9c40, size 0x4, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::Experimental::ITransitionAnimations* UnityEngine_UIElements_IExperimentalFeatures_get_animation();
 
-  /// @brief Method get_hierarchy, addr 0x2dab85c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hierarchy, addr 0x2dc9c44, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::__VisualElement__Hierarchy get_hierarchy();
 
-  /// @brief Method set_hierarchy, addr 0x2dab864, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_hierarchy, addr 0x2dc9c4c, size 0x8, virtual false, abstract: false, final false
   inline void set_hierarchy(::UnityEngine::UIElements::__VisualElement__Hierarchy value);
 
-  /// @brief Method get_isRootVisualContainer, addr 0x2dab86c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isRootVisualContainer, addr 0x2dc9c54, size 0x8, virtual false, abstract: false, final false
   inline bool get_isRootVisualContainer();
 
-  /// @brief Method set_isRootVisualContainer, addr 0x2dab874, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isRootVisualContainer, addr 0x2dc9c5c, size 0xc, virtual false, abstract: false, final false
   inline void set_isRootVisualContainer(bool value);
 
-  /// @brief Method get_disableClipping, addr 0x2dab880, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_disableClipping, addr 0x2dc9c68, size 0xc, virtual false, abstract: false, final false
   inline bool get_disableClipping();
 
-  /// @brief Method set_disableClipping, addr 0x2dab88c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_disableClipping, addr 0x2dc9c74, size 0x2c, virtual false, abstract: false, final false
   inline void set_disableClipping(bool value);
 
-  /// @brief Method ShouldClip, addr 0x2da6880, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ShouldClip, addr 0x2dc4c68, size 0x2c, virtual false, abstract: false, final false
   inline bool ShouldClip();
 
-  /// @brief Method get_parent, addr 0x2da4de8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_parent, addr 0x2dc31d0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_parent();
 
-  /// @brief Method get_elementPanel, addr 0x2dab8b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_elementPanel, addr 0x2dc9ca0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BaseVisualElementPanel* get_elementPanel();
 
-  /// @brief Method set_elementPanel, addr 0x2dab8c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_elementPanel, addr 0x2dc9ca8, size 0x8, virtual false, abstract: false, final false
   inline void set_elementPanel(::UnityEngine::UIElements::BaseVisualElementPanel* value);
 
-  /// @brief Method get_panel, addr 0x2da4f60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_panel, addr 0x2dc3348, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::IPanel* get_panel();
 
-  /// @brief Method get_contentContainer, addr 0x2dab8c8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method get_contentContainer, addr 0x2dc9cb0, size 0x4, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_contentContainer();
 
-  /// @brief Method set_visualTreeAssetSource, addr 0x2dab8cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_visualTreeAssetSource, addr 0x2dc9cb4, size 0x8, virtual false, abstract: false, final false
   inline void set_visualTreeAssetSource(::UnityEngine::UIElements::VisualTreeAsset* value);
 
-  /// @brief Method Add, addr 0x2dab8d4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x2dc9cbc, size 0xb0, virtual false, abstract: false, final false
   inline void Add(::UnityEngine::UIElements::VisualElement* child);
 
-  /// @brief Method Insert, addr 0x2daba00, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Insert, addr 0x2dc9de8, size 0x8c, virtual false, abstract: false, final false
   inline void Insert(int32_t index, ::UnityEngine::UIElements::VisualElement* element);
 
-  /// @brief Method Clear, addr 0x2dabda8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x2dca190, size 0x64, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method ElementAt, addr 0x2dac150, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ElementAt, addr 0x2dca538, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* ElementAt(int32_t index);
 
-  /// @brief Method get_Item, addr 0x2dac154, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x2dca53c, size 0x74, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_Item(int32_t key);
 
-  /// @brief Method get_childCount, addr 0x2dac228, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_childCount, addr 0x2dca610, size 0x64, virtual false, abstract: false, final false
   inline int32_t get_childCount();
 
-  /// @brief Method IndexOf, addr 0x2dac2dc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x2dca6c4, size 0x7c, virtual false, abstract: false, final false
   inline int32_t IndexOf(::UnityEngine::UIElements::VisualElement* element);
 
-  /// @brief Method ElementAtTreePath, addr 0x2dac3b8, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method ElementAtTreePath, addr 0x2dca7a0, size 0x1a8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* ElementAtTreePath(::System::Collections::Generic::List_1<int32_t>* childIndexes);
 
-  /// @brief Method FindElementInTree, addr 0x2dac560, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method FindElementInTree, addr 0x2dca948, size 0xe8, virtual false, abstract: false, final false
   inline bool FindElementInTree(::UnityEngine::UIElements::VisualElement* element, ::System::Collections::Generic::List_1<int32_t>* outChildIndexes);
 
-  /// @brief Method BringToFront, addr 0x2dac648, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method BringToFront, addr 0x2dcaa30, size 0x38, virtual false, abstract: false, final false
   inline void BringToFront();
 
-  /// @brief Method SendToBack, addr 0x2dac734, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method SendToBack, addr 0x2dcab1c, size 0x38, virtual false, abstract: false, final false
   inline void SendToBack();
 
-  /// @brief Method PlaceBehind, addr 0x2dac804, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method PlaceBehind, addr 0x2dcabec, size 0xec, virtual false, abstract: false, final false
   inline void PlaceBehind(::UnityEngine::UIElements::VisualElement* sibling);
 
-  /// @brief Method RemoveFromHierarchy, addr 0x2dac9c8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method RemoveFromHierarchy, addr 0x2dcadb0, size 0x38, virtual false, abstract: false, final false
   inline void RemoveFromHierarchy();
 
-  /// @brief Method Contains, addr 0x2dacaf4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x2dcaedc, size 0x34, virtual false, abstract: false, final false
   inline bool Contains(::UnityEngine::UIElements::VisualElement* child);
 
-  /// @brief Method GatherAllChildren, addr 0x2da96f4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GatherAllChildren, addr 0x2dc7adc, size 0xd8, virtual false, abstract: false, final false
   inline void GatherAllChildren(::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* elements);
 
-  /// @brief Method FindCommonAncestor, addr 0x2dacb28, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method FindCommonAncestor, addr 0x2dcaf10, size 0x118, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* FindCommonAncestor(::UnityEngine::UIElements::VisualElement* other);
 
-  /// @brief Method GetRoot, addr 0x2dacc40, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetRoot, addr 0x2dcb028, size 0xc0, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* GetRoot();
 
-  /// @brief Method GetRootVisualContainer, addr 0x2dacd00, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetRootVisualContainer, addr 0x2dcb0e8, size 0x38, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* GetRootVisualContainer();
 
-  /// @brief Method GetNextElementDepthFirst, addr 0x2dacd38, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetNextElementDepthFirst, addr 0x2dcb120, size 0xf0, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* GetNextElementDepthFirst();
 
-  /// @brief Method GetPreviousElementDepthFirst, addr 0x2dace28, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetPreviousElementDepthFirst, addr 0x2dcb210, size 0xe8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* GetPreviousElementDepthFirst();
 
-  /// @brief Method RetargetElement, addr 0x2dacf10, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method RetargetElement, addr 0x2dcb2f8, size 0x64, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* RetargetElement(::UnityEngine::UIElements::VisualElement* retargetAgainst);
 
-  /// @brief Method get_style, addr 0x2da5284, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_style, addr 0x2dc366c, size 0x70, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::IStyle* get_style();
 
-  /// @brief Method get_customStyle, addr 0x2dacf74, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_customStyle, addr 0x2dcb35c, size 0x74, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ICustomStyle* get_customStyle();
 
-  /// @brief Method get_styleSheets, addr 0x2dacff4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_styleSheets, addr 0x2dcb3dc, size 0x24, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElementStyleSheetSet get_styleSheets();
 
-  /// @brief Method AddStyleSheetPath, addr 0x2dad018, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method AddStyleSheetPath, addr 0x2dcb400, size 0x234, virtual false, abstract: false, final false
   inline void AddStyleSheetPath(::StringW sheetPath);
 
-  /// @brief Method ResolveLengthValue, addr 0x2dad24c, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method ResolveLengthValue, addr 0x2dcb634, size 0x190, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleFloat ResolveLengthValue(::UnityEngine::UIElements::Length length, bool isRow);
 
-  /// @brief Method ResolveTranslate, addr 0x2da334c, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method ResolveTranslate, addr 0x2dc1734, size 0x234, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 ResolveTranslate();
 
-  /// @brief Method ResolveTransformOrigin, addr 0x2da37f8, size 0x3c0, virtual false, abstract: false, final false
+  /// @brief Method ResolveTransformOrigin, addr 0x2dc1be0, size 0x3c0, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 ResolveTransformOrigin();
 
-  /// @brief Method ResolveRotation, addr 0x2da3bb8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method ResolveRotation, addr 0x2dc1fa0, size 0x48, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion ResolveRotation();
 
-  /// @brief Method ResolveScale, addr 0x2da3c00, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ResolveScale, addr 0x2dc1fe8, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 ResolveScale();
 
-  /// @brief Method GetAnimationSystem, addr 0x2dad3dc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetAnimationSystem, addr 0x2dcb7c4, size 0x94, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElementAnimationSystem* GetAnimationSystem();
 
-  /// @brief Method RegisterAnimation, addr 0x2dad470, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method RegisterAnimation, addr 0x2dcb858, size 0x10c, virtual false, abstract: false, final false
   inline void RegisterAnimation(::UnityEngine::UIElements::Experimental::IValueAnimationUpdate* anim);
 
-  /// @brief Method UnregisterAnimation, addr 0x2dad57c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method UnregisterAnimation, addr 0x2dcb964, size 0x78, virtual false, abstract: false, final false
   inline void UnregisterAnimation(::UnityEngine::UIElements::Experimental::IValueAnimationUpdate* anim);
 
-  /// @brief Method UnregisterRunningAnimations, addr 0x2da9c64, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method UnregisterRunningAnimations, addr 0x2dc804c, size 0xd0, virtual false, abstract: false, final false
   inline void UnregisterRunningAnimations();
 
-  /// @brief Method RegisterRunningAnimations, addr 0x2da9d34, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method RegisterRunningAnimations, addr 0x2dc811c, size 0x6c, virtual false, abstract: false, final false
   inline void RegisterRunningAnimations();
 
   /// @brief Method StartAnimation, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -2552,157 +2552,157 @@ public:
                                                                                              ::System::Func_2<::UnityEngine::UIElements::VisualElement*, T>* fromValueGetter, T to, int32_t durationMs,
                                                                                              ::System::Action_2<::UnityEngine::UIElements::VisualElement*, T>* onValueChanged);
 
-  /// @brief Method AssignStyleValues, addr 0x2dad5f4, size 0x15e0, virtual false, abstract: false, final false
+  /// @brief Method AssignStyleValues, addr 0x2dcb9dc, size 0x15e0, virtual false, abstract: false, final false
   static inline void AssignStyleValues(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::Experimental::StyleValues src);
 
-  /// @brief Method ReadCurrentValues, addr 0x2daebd4, size 0xee4, virtual false, abstract: false, final false
+  /// @brief Method ReadCurrentValues, addr 0x2dccfbc, size 0xee4, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Experimental::StyleValues ReadCurrentValues(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::Experimental::StyleValues targetValuesToRead);
 
-  /// @brief Method UnityEngine.UIElements.Experimental.ITransitionAnimations.Start, addr 0x2dafab8, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.Experimental.ITransitionAnimations.Start, addr 0x2dcdea0, size 0xc8, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::Experimental::ValueAnimation_1<::UnityEngine::UIElements::Experimental::StyleValues>*
   UnityEngine_UIElements_Experimental_ITransitionAnimations_Start(::UnityEngine::UIElements::Experimental::StyleValues to, int32_t durationMs);
 
-  /// @brief Method Start, addr 0x2dafb88, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2dcdf70, size 0x184, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Experimental::ValueAnimation_1<::UnityEngine::UIElements::Experimental::StyleValues>*
   Start(::System::Func_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::Experimental::StyleValues>* fromValueGetter, ::UnityEngine::UIElements::Experimental::StyleValues to,
         int32_t durationMs);
 
-  /// @brief Method get_resolvedStyle, addr 0x2da4e9c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_resolvedStyle, addr 0x2dc3284, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::IResolvedStyle* get_resolvedStyle();
 
-  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_backgroundColor, addr 0x2dafd0c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_backgroundColor, addr 0x2dce0f4, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Color UnityEngine_UIElements_IResolvedStyle_get_backgroundColor();
 
-  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_borderBottomColor, addr 0x2dafd18, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_borderBottomColor, addr 0x2dce100, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Color UnityEngine_UIElements_IResolvedStyle_get_borderBottomColor();
 
-  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_borderBottomLeftRadius, addr 0x2dafd24, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_borderBottomLeftRadius, addr 0x2dce10c, size 0x1c, virtual true, abstract: false, final true
   inline float_t UnityEngine_UIElements_IResolvedStyle_get_borderBottomLeftRadius();
 
-  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_borderBottomRightRadius, addr 0x2dafd40, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_borderBottomRightRadius, addr 0x2dce128, size 0x1c, virtual true, abstract: false, final true
   inline float_t UnityEngine_UIElements_IResolvedStyle_get_borderBottomRightRadius();
 
-  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_borderBottomWidth, addr 0x2dafd5c, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_borderBottomWidth, addr 0x2dce144, size 0x1c, virtual true, abstract: false, final true
   inline float_t UnityEngine_UIElements_IResolvedStyle_get_borderBottomWidth();
 
-  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_borderLeftColor, addr 0x2dafd78, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_borderLeftColor, addr 0x2dce160, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Color UnityEngine_UIElements_IResolvedStyle_get_borderLeftColor();
 
-  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_borderLeftWidth, addr 0x2dafd84, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_borderLeftWidth, addr 0x2dce16c, size 0x1c, virtual true, abstract: false, final true
   inline float_t UnityEngine_UIElements_IResolvedStyle_get_borderLeftWidth();
 
-  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_borderRightColor, addr 0x2dafda0, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_borderRightColor, addr 0x2dce188, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Color UnityEngine_UIElements_IResolvedStyle_get_borderRightColor();
 
-  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_borderRightWidth, addr 0x2dafdac, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_borderRightWidth, addr 0x2dce194, size 0x1c, virtual true, abstract: false, final true
   inline float_t UnityEngine_UIElements_IResolvedStyle_get_borderRightWidth();
 
-  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_borderTopColor, addr 0x2dafdc8, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_borderTopColor, addr 0x2dce1b0, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Color UnityEngine_UIElements_IResolvedStyle_get_borderTopColor();
 
-  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_borderTopLeftRadius, addr 0x2dafdd4, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_borderTopLeftRadius, addr 0x2dce1bc, size 0x1c, virtual true, abstract: false, final true
   inline float_t UnityEngine_UIElements_IResolvedStyle_get_borderTopLeftRadius();
 
-  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_borderTopRightRadius, addr 0x2dafdf0, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_borderTopRightRadius, addr 0x2dce1d8, size 0x1c, virtual true, abstract: false, final true
   inline float_t UnityEngine_UIElements_IResolvedStyle_get_borderTopRightRadius();
 
-  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_borderTopWidth, addr 0x2dafe0c, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_borderTopWidth, addr 0x2dce1f4, size 0x1c, virtual true, abstract: false, final true
   inline float_t UnityEngine_UIElements_IResolvedStyle_get_borderTopWidth();
 
-  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_bottom, addr 0x2dafe28, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_bottom, addr 0x2dce210, size 0x1c, virtual true, abstract: false, final true
   inline float_t UnityEngine_UIElements_IResolvedStyle_get_bottom();
 
-  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_color, addr 0x2dafe44, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_color, addr 0x2dce22c, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Color UnityEngine_UIElements_IResolvedStyle_get_color();
 
-  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_display, addr 0x2dafe50, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_display, addr 0x2dce238, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::DisplayStyle UnityEngine_UIElements_IResolvedStyle_get_display();
 
-  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_flexGrow, addr 0x2dafe5c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_flexGrow, addr 0x2dce244, size 0xc, virtual true, abstract: false, final true
   inline float_t UnityEngine_UIElements_IResolvedStyle_get_flexGrow();
 
-  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_flexShrink, addr 0x2dafe68, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_flexShrink, addr 0x2dce250, size 0xc, virtual true, abstract: false, final true
   inline float_t UnityEngine_UIElements_IResolvedStyle_get_flexShrink();
 
-  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_height, addr 0x2dafe74, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_height, addr 0x2dce25c, size 0x1c, virtual true, abstract: false, final true
   inline float_t UnityEngine_UIElements_IResolvedStyle_get_height();
 
-  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_left, addr 0x2dafe90, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_left, addr 0x2dce278, size 0x1c, virtual true, abstract: false, final true
   inline float_t UnityEngine_UIElements_IResolvedStyle_get_left();
 
-  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_marginBottom, addr 0x2dafeac, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_marginBottom, addr 0x2dce294, size 0x1c, virtual true, abstract: false, final true
   inline float_t UnityEngine_UIElements_IResolvedStyle_get_marginBottom();
 
-  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_marginLeft, addr 0x2dafec8, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_marginLeft, addr 0x2dce2b0, size 0x1c, virtual true, abstract: false, final true
   inline float_t UnityEngine_UIElements_IResolvedStyle_get_marginLeft();
 
-  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_marginRight, addr 0x2dafee4, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_marginRight, addr 0x2dce2cc, size 0x1c, virtual true, abstract: false, final true
   inline float_t UnityEngine_UIElements_IResolvedStyle_get_marginRight();
 
-  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_marginTop, addr 0x2daff00, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_marginTop, addr 0x2dce2e8, size 0x1c, virtual true, abstract: false, final true
   inline float_t UnityEngine_UIElements_IResolvedStyle_get_marginTop();
 
-  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_minHeight, addr 0x2daff1c, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_minHeight, addr 0x2dce304, size 0x28, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleFloat UnityEngine_UIElements_IResolvedStyle_get_minHeight();
 
-  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_minWidth, addr 0x2daff44, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_minWidth, addr 0x2dce32c, size 0x28, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleFloat UnityEngine_UIElements_IResolvedStyle_get_minWidth();
 
-  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_opacity, addr 0x2daff6c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_opacity, addr 0x2dce354, size 0xc, virtual true, abstract: false, final true
   inline float_t UnityEngine_UIElements_IResolvedStyle_get_opacity();
 
-  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_paddingBottom, addr 0x2daff78, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_paddingBottom, addr 0x2dce360, size 0x1c, virtual true, abstract: false, final true
   inline float_t UnityEngine_UIElements_IResolvedStyle_get_paddingBottom();
 
-  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_paddingLeft, addr 0x2daff94, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_paddingLeft, addr 0x2dce37c, size 0x1c, virtual true, abstract: false, final true
   inline float_t UnityEngine_UIElements_IResolvedStyle_get_paddingLeft();
 
-  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_paddingRight, addr 0x2daffb0, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_paddingRight, addr 0x2dce398, size 0x1c, virtual true, abstract: false, final true
   inline float_t UnityEngine_UIElements_IResolvedStyle_get_paddingRight();
 
-  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_paddingTop, addr 0x2daffcc, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_paddingTop, addr 0x2dce3b4, size 0x1c, virtual true, abstract: false, final true
   inline float_t UnityEngine_UIElements_IResolvedStyle_get_paddingTop();
 
-  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_right, addr 0x2daffe8, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_right, addr 0x2dce3d0, size 0x1c, virtual true, abstract: false, final true
   inline float_t UnityEngine_UIElements_IResolvedStyle_get_right();
 
-  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_scale, addr 0x2db0004, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_scale, addr 0x2dce3ec, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::Scale UnityEngine_UIElements_IResolvedStyle_get_scale();
 
-  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_top, addr 0x2db0010, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_top, addr 0x2dce3f8, size 0x1c, virtual true, abstract: false, final true
   inline float_t UnityEngine_UIElements_IResolvedStyle_get_top();
 
-  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_transformOrigin, addr 0x2db002c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_transformOrigin, addr 0x2dce414, size 0x4, virtual true, abstract: false, final true
   inline ::UnityEngine::Vector3 UnityEngine_UIElements_IResolvedStyle_get_transformOrigin();
 
-  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_translate, addr 0x2db0030, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_translate, addr 0x2dce418, size 0x4, virtual true, abstract: false, final true
   inline ::UnityEngine::Vector3 UnityEngine_UIElements_IResolvedStyle_get_translate();
 
-  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_unityBackgroundImageTintColor, addr 0x2db0034, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_unityBackgroundImageTintColor, addr 0x2dce41c, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Color UnityEngine_UIElements_IResolvedStyle_get_unityBackgroundImageTintColor();
 
-  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_unitySliceLeft, addr 0x2db0040, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_unitySliceLeft, addr 0x2dce428, size 0xc, virtual true, abstract: false, final true
   inline int32_t UnityEngine_UIElements_IResolvedStyle_get_unitySliceLeft();
 
-  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_unitySliceRight, addr 0x2db004c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_unitySliceRight, addr 0x2dce434, size 0xc, virtual true, abstract: false, final true
   inline int32_t UnityEngine_UIElements_IResolvedStyle_get_unitySliceRight();
 
-  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_unityTextOutlineColor, addr 0x2db0058, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_unityTextOutlineColor, addr 0x2dce440, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Color UnityEngine_UIElements_IResolvedStyle_get_unityTextOutlineColor();
 
-  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_unityTextOutlineWidth, addr 0x2db0064, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_unityTextOutlineWidth, addr 0x2dce44c, size 0xc, virtual true, abstract: false, final true
   inline float_t UnityEngine_UIElements_IResolvedStyle_get_unityTextOutlineWidth();
 
-  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_visibility, addr 0x2db0070, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_visibility, addr 0x2dce458, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::Visibility UnityEngine_UIElements_IResolvedStyle_get_visibility();
 
-  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_whiteSpace, addr 0x2db007c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_whiteSpace, addr 0x2dce464, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::WhiteSpace UnityEngine_UIElements_IResolvedStyle_get_whiteSpace();
 
-  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_width, addr 0x2db0088, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IResolvedStyle.get_width, addr 0x2dce470, size 0x1c, virtual true, abstract: false, final true
   inline float_t UnityEngine_UIElements_IResolvedStyle_get_width();
 
-  /// @brief Method <AssignMeasureFunction>b__281_0, addr 0x2db0334, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <AssignMeasureFunction>b__281_0, addr 0x2dce71c, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::Yoga::YogaSize _AssignMeasureFunction_b__281_0(::UnityEngine::Yoga::YogaNode* node, float_t f, ::UnityEngine::Yoga::YogaMeasureMode mode, float_t f1,
                                                                        ::UnityEngine::Yoga::YogaMeasureMode heightMode);
 
@@ -2968,14 +2968,14 @@ static_assert(offsetof(::UnityEngine::UIElements::VisualElement, ___m_RunningAni
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6737)), TypeDefinitionIndex(TypeDefinitionIndex(6744)), TypeDefinitionIndex(TypeDefinitionIndex(6997)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5288 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6736)) CS Name: ::VisualElement::UxmlFactory*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5996)), TypeDefinitionIndex(TypeDefinitionIndex(6003)), TypeDefinitionIndex(TypeDefinitionIndex(6256)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6256), inst: 5268 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5995)) CS Name: ::VisualElement::UxmlFactory*
 class CORDL_TYPE __VisualElement__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::__VisualElement__UxmlTraits*> {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::__VisualElement__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2db0b04, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dceeec, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__VisualElement__UxmlFactory", modifiers: "&&", def_value: None }]
@@ -3003,7 +3003,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Visua
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6738))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5997))
 // CS Name: ::VisualElement::MeasureMode
 struct CORDL_TYPE __VisualElement__MeasureMode {
 public:
@@ -3057,7 +3057,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__VisualElement__MeasureMode, 
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6740))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5999))
 // CS Name: ::VisualElement::TypeData*
 class CORDL_TYPE __VisualElement__TypeData : public ::System::Object {
 public:
@@ -3095,18 +3095,18 @@ public:
 
   constexpr void __cordl_internal_set_m_TypeName(::StringW value);
 
-  /// @brief Method get_type, addr 0x2db12b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x2dcf69c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_type();
 
   static inline ::UnityEngine::UIElements::__VisualElement__TypeData* New_ctor(::System::Type* type);
 
-  /// @brief Method .ctor, addr 0x2dab7e8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dc9bd0, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
-  /// @brief Method get_fullTypeName, addr 0x2da7ec4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_fullTypeName, addr 0x2dc62ac, size 0x48, virtual false, abstract: false, final false
   inline ::StringW get_fullTypeName();
 
-  /// @brief Method get_typeName, addr 0x2da7f24, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_typeName, addr 0x2dc630c, size 0x98, virtual false, abstract: false, final false
   inline ::StringW get_typeName();
 
   // Ctor Parameters [CppParam { name: "", ty: "__VisualElement__TypeData", modifiers: "&&", def_value: None }]
@@ -3149,7 +3149,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__VisualElement__TypeData, ___
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6742))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6001))
 // CS Name: ::VisualElement::CustomStyleAccess*
 class CORDL_TYPE __VisualElement__CustomStyleAccess : public ::System::Object {
 public:
@@ -3181,39 +3181,39 @@ public:
 
   constexpr void __cordl_internal_set_m_DpiScaling(float_t value);
 
-  /// @brief Method SetContext, addr 0x2dacfe8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetContext, addr 0x2dcb3d0, size 0xc, virtual false, abstract: false, final false
   inline void SetContext(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleSheets::StylePropertyValue>* customProperties, float_t dpiScaling);
 
-  /// @brief Method TryGetValue, addr 0x2db1988, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method TryGetValue, addr 0x2dcfd70, size 0x9c, virtual true, abstract: false, final true
   inline bool TryGetValue(::UnityEngine::UIElements::CustomStyleProperty_1<float_t> property, ByRef<float_t> value);
 
-  /// @brief Method TryGetValue, addr 0x2db1adc, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method TryGetValue, addr 0x2dcfec4, size 0xc0, virtual true, abstract: false, final true
   inline bool TryGetValue(::UnityEngine::UIElements::CustomStyleProperty_1<int32_t> property, ByRef<int32_t> value);
 
-  /// @brief Method TryGetValue, addr 0x2db1b9c, size 0x14c, virtual true, abstract: false, final true
+  /// @brief Method TryGetValue, addr 0x2dcff84, size 0x14c, virtual true, abstract: false, final true
   inline bool TryGetValue(::UnityEngine::UIElements::CustomStyleProperty_1<::UnityEngine::Color> property, ByRef<::UnityEngine::Color> value);
 
-  /// @brief Method TryGetValue, addr 0x2db1dec, size 0x100, virtual true, abstract: false, final true
+  /// @brief Method TryGetValue, addr 0x2dd01d4, size 0x100, virtual true, abstract: false, final true
   inline bool TryGetValue(::UnityEngine::UIElements::CustomStyleProperty_1<::UnityW<::UnityEngine::Texture2D>> property, ByRef<::UnityEngine::Texture2D*> value);
 
-  /// @brief Method TryGetValue, addr 0x2db1eec, size 0x100, virtual true, abstract: false, final true
+  /// @brief Method TryGetValue, addr 0x2dd02d4, size 0x100, virtual true, abstract: false, final true
   inline bool TryGetValue(::UnityEngine::UIElements::CustomStyleProperty_1<::UnityW<::UnityEngine::Sprite>> property, ByRef<::UnityEngine::Sprite*> value);
 
-  /// @brief Method TryGetValue, addr 0x2db1fec, size 0x100, virtual true, abstract: false, final true
+  /// @brief Method TryGetValue, addr 0x2dd03d4, size 0x100, virtual true, abstract: false, final true
   inline bool TryGetValue(::UnityEngine::UIElements::CustomStyleProperty_1<::UnityW<::UnityEngine::UIElements::VectorImage>> property, ByRef<::UnityEngine::UIElements::VectorImage*> value);
 
-  /// @brief Method TryGetValue, addr 0x2db20ec, size 0xc4, virtual true, abstract: false, final true
+  /// @brief Method TryGetValue, addr 0x2dd04d4, size 0xc4, virtual true, abstract: false, final true
   inline bool TryGetValue(::UnityEngine::UIElements::CustomStyleProperty_1<::StringW> property, ByRef<::StringW> value);
 
-  /// @brief Method TryGetValue, addr 0x2db1a24, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method TryGetValue, addr 0x2dcfe0c, size 0xb8, virtual false, abstract: false, final false
   inline bool TryGetValue(::StringW propertyName, ::UnityEngine::UIElements::StyleValueType valueType, ByRef<::UnityEngine::UIElements::StyleSheets::StylePropertyValue> customProp);
 
-  /// @brief Method LogCustomPropertyWarning, addr 0x2db1ce8, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method LogCustomPropertyWarning, addr 0x2dd00d0, size 0x104, virtual false, abstract: false, final false
   static inline void LogCustomPropertyWarning(::StringW propertyName, ::UnityEngine::UIElements::StyleValueType valueType, ::UnityEngine::UIElements::StyleSheets::StylePropertyValue customProp);
 
   static inline ::UnityEngine::UIElements::__VisualElement__CustomStyleAccess* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2db032c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dce714, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__VisualElement__CustomStyleAccess", modifiers: "&&", def_value: None }]
@@ -3250,8 +3250,8 @@ static_assert(offsetof(::UnityEngine::UIElements::__VisualElement__CustomStyleAc
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7454))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6743))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6713))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6002))
 // CS Name: ::VisualElement::<>c__DisplayClass435_0*
 class CORDL_TYPE __VisualElement____c__DisplayClass435_0 : public ::System::Object {
 public:
@@ -3276,10 +3276,10 @@ public:
 
   static inline ::UnityEngine::UIElements::__VisualElement____c__DisplayClass435_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2dafb80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dcdf68, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <UnityEngine.UIElements.Experimental.ITransitionAnimations.Start>b__0, addr 0x2db21b0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <UnityEngine.UIElements.Experimental.ITransitionAnimations.Start>b__0, addr 0x2dd0598, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Experimental::StyleValues _UnityEngine_UIElements_Experimental_ITransitionAnimations_Start_b__0(::UnityEngine::UIElements::VisualElement* e);
 
   // Ctor Parameters [CppParam { name: "", ty: "__VisualElement____c__DisplayClass435_0", modifiers: "&&", def_value: None }]

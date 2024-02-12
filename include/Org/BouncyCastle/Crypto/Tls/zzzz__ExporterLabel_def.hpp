@@ -30,7 +30,7 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::ExporterLabel* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf913f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfbd288, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ExporterLabel", modifiers: "&&", def_value: None }]

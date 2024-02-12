@@ -67,19 +67,19 @@ public:
 
   static inline ::System::Security::Cryptography::SignatureDescription* New_ctor();
 
-  /// @brief Method .ctor, addr 0x246a038, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x248c0ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_KeyAlgorithm, addr 0x246a040, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_KeyAlgorithm, addr 0x248c0b4, size 0x8, virtual false, abstract: false, final false
   inline void set_KeyAlgorithm(::StringW value);
 
-  /// @brief Method set_DigestAlgorithm, addr 0x246a048, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DigestAlgorithm, addr 0x248c0bc, size 0x8, virtual false, abstract: false, final false
   inline void set_DigestAlgorithm(::StringW value);
 
-  /// @brief Method set_FormatterAlgorithm, addr 0x246a050, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_FormatterAlgorithm, addr 0x248c0c4, size 0x8, virtual false, abstract: false, final false
   inline void set_FormatterAlgorithm(::StringW value);
 
-  /// @brief Method set_DeformatterAlgorithm, addr 0x246a058, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DeformatterAlgorithm, addr 0x248c0cc, size 0x8, virtual false, abstract: false, final false
   inline void set_DeformatterAlgorithm(::StringW value);
 
   // Ctor Parameters [CppParam { name: "", ty: "SignatureDescription", modifiers: "&&", def_value: None }]

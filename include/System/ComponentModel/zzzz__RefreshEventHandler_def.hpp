@@ -22,17 +22,17 @@ MARK_REF_PTR_T(::System::ComponentModel::RefreshEventHandler);
 namespace System::ComponentModel {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9452))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7462))
 // CS Name: ::System.ComponentModel::RefreshEventHandler*
 class CORDL_TYPE RefreshEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::System::ComponentModel::RefreshEventHandler* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2917ea0, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x291c508, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x2917fcc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x291c634, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::ComponentModel::RefreshEventArgs* e);
 
   // Ctor Parameters [CppParam { name: "", ty: "RefreshEventHandler", modifiers: "&&", def_value: None }]

@@ -61,7 +61,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshOperations::__ExtrudeElements____c
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12263))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12161))
 // CS Name: ::ExtrudeElements::<>c*
 class CORDL_TYPE __ExtrudeElements____c : public ::System::Object {
 public:
@@ -89,13 +89,13 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__ExtrudeElements____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2bb5b34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bb36a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <DetachFaces>b__3_0, addr 0x2bb5b3c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <DetachFaces>b__3_0, addr 0x2bb36a8, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Face* _DetachFaces_b__3_0(::UnityEngine::ProBuilder::FaceRebuildData* x);
 
-  /// @brief Method <ExtrudePerFace>b__4_0, addr 0x2bb5b54, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <ExtrudePerFace>b__4_0, addr 0x2bb36c0, size 0x5c, virtual false, abstract: false, final false
   inline int32_t _ExtrudePerFace_b__4_0(::UnityEngine::ProBuilder::Face* x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ExtrudeElements____c", modifiers: "&&", def_value: None }]
@@ -123,45 +123,45 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::MeshOpe
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12264))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12162))
 // CS Name: ::UnityEngine.ProBuilder.MeshOperations::ExtrudeElements*
 class CORDL_TYPE ExtrudeElements : public ::System::Object {
 public:
   // Declarations
   using __c = ::UnityEngine::ProBuilder::MeshOperations::__ExtrudeElements____c;
 
-  /// @brief Method Extrude, addr 0x2bb0e5c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Extrude, addr 0x2bae9c8, size 0x14, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*> Extrude(::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
                                                                                                                ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces,
                                                                                                                ::UnityEngine::ProBuilder::ExtrudeMethod method, float_t distance);
 
-  /// @brief Method Extrude, addr 0x2bb3560, size 0x111c, virtual false, abstract: false, final false
+  /// @brief Method Extrude, addr 0x2bb10cc, size 0x111c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*> Extrude(::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
                                                                                                              ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* edges,
                                                                                                              float_t distance, bool extrudeAsGroup, bool enableManifoldExtrude);
 
-  /// @brief Method DetachFaces, addr 0x2bb4810, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method DetachFaces, addr 0x2bb237c, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* DetachFaces(::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
                                                                                                       ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces);
 
-  /// @brief Method DetachFaces, addr 0x2bb4818, size 0xb00, virtual false, abstract: false, final false
+  /// @brief Method DetachFaces, addr 0x2bb2384, size 0xb00, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*
   DetachFaces(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces, bool deleteSourceFaces);
 
-  /// @brief Method ExtrudePerFace, addr 0x2bb0e70, size 0xb8c, virtual false, abstract: false, final false
+  /// @brief Method ExtrudePerFace, addr 0x2bae9dc, size 0xb8c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*>
   ExtrudePerFace(::UnityEngine::ProBuilder::ProBuilderMesh* pb, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces, float_t distance);
 
-  /// @brief Method ExtrudeAsGroups, addr 0x2bb19fc, size 0x1b64, virtual false, abstract: false, final false
+  /// @brief Method ExtrudeAsGroups, addr 0x2baf568, size 0x1b64, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*>
   ExtrudeAsGroups(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces, bool compensateAngleVertexDistance,
                   float_t distance);
 
-  /// @brief Method GetFaceGroups, addr 0x2bb5318, size 0x444, virtual false, abstract: false, final false
+  /// @brief Method GetFaceGroups, addr 0x2bb2e84, size 0x444, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*>*
   GetFaceGroups(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>* wings);
 
-  /// @brief Method GetPerimeterEdges, addr 0x2bb575c, size 0x374, virtual false, abstract: false, final false
+  /// @brief Method GetPerimeterEdges, addr 0x2bb32c8, size 0x374, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Face*>*
   GetPerimeterEdges(::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* faces, ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* lookup);
 

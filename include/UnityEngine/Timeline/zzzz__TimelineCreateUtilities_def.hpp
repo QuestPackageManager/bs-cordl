@@ -48,7 +48,7 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::__TimelineCreateUtilities____c__DisplayC
 namespace UnityEngine::Timeline {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13937))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13890))
 // CS Name: ::TimelineCreateUtilities::<>c__DisplayClass0_0*
 class CORDL_TYPE __TimelineCreateUtilities____c__DisplayClass0_0 : public ::System::Object {
 public:
@@ -64,10 +64,10 @@ public:
 
   static inline ::UnityEngine::Timeline::__TimelineCreateUtilities____c__DisplayClass0_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c72174, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c6ece0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <GenerateUniqueActorName>b__0, addr 0x2c7265c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <GenerateUniqueActorName>b__0, addr 0x2c6f1c8, size 0x30, virtual false, abstract: false, final false
   inline bool _GenerateUniqueActorName_b__0(::UnityEngine::ScriptableObject* x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__TimelineCreateUtilities____c__DisplayClass0_0", modifiers: "&&", def_value: None }]
@@ -100,7 +100,7 @@ static_assert(offsetof(::UnityEngine::Timeline::__TimelineCreateUtilities____c__
 namespace UnityEngine::Timeline {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13938))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13891))
 // CS Name: ::TimelineCreateUtilities::<>c__DisplayClass0_1*
 class CORDL_TYPE __TimelineCreateUtilities____c__DisplayClass0_1 : public ::System::Object {
 public:
@@ -116,10 +116,10 @@ public:
 
   static inline ::UnityEngine::Timeline::__TimelineCreateUtilities____c__DisplayClass0_1* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c7217c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c6ece8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <GenerateUniqueActorName>b__1, addr 0x2c7268c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <GenerateUniqueActorName>b__1, addr 0x2c6f1f8, size 0x30, virtual false, abstract: false, final false
   inline bool _GenerateUniqueActorName_b__1(::UnityEngine::ScriptableObject* x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__TimelineCreateUtilities____c__DisplayClass0_1", modifiers: "&&", def_value: None }]
@@ -152,7 +152,7 @@ static_assert(offsetof(::UnityEngine::Timeline::__TimelineCreateUtilities____c__
 namespace UnityEngine::Timeline {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13939))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13892))
 // CS Name: ::UnityEngine.Timeline::TimelineCreateUtilities*
 class CORDL_TYPE TimelineCreateUtilities : public ::System::Object {
 public:
@@ -161,19 +161,19 @@ public:
 
   using __c__DisplayClass0_0 = ::UnityEngine::Timeline::__TimelineCreateUtilities____c__DisplayClass0_0;
 
-  /// @brief Method GenerateUniqueActorName, addr 0x2c71e84, size 0x2f0, virtual false, abstract: false, final false
+  /// @brief Method GenerateUniqueActorName, addr 0x2c6e9f0, size 0x2f0, virtual false, abstract: false, final false
   static inline ::StringW GenerateUniqueActorName(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::ScriptableObject>>* tracks, ::StringW name);
 
-  /// @brief Method SaveAssetIntoObject, addr 0x2c71ca0, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method SaveAssetIntoObject, addr 0x2c6e80c, size 0xe8, virtual false, abstract: false, final false
   static inline void SaveAssetIntoObject(::UnityEngine::Object* childAsset, ::UnityEngine::Object* masterAsset);
 
-  /// @brief Method RemoveAssetFromObject, addr 0x2c71d88, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method RemoveAssetFromObject, addr 0x2c6e8f4, size 0x9c, virtual false, abstract: false, final false
   static inline void RemoveAssetFromObject(::UnityEngine::Object* childAsset, ::UnityEngine::Object* masterAsset);
 
-  /// @brief Method CreateAnimationClipForTrack, addr 0x2c72184, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method CreateAnimationClipForTrack, addr 0x2c6ecf0, size 0x1b8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::AnimationClip> CreateAnimationClipForTrack(::StringW name, ::UnityEngine::Timeline::TrackAsset* track, bool isLegacy);
 
-  /// @brief Method ValidateParentTrack, addr 0x2c7233c, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method ValidateParentTrack, addr 0x2c6eea8, size 0x320, virtual false, abstract: false, final false
   static inline bool ValidateParentTrack(::UnityEngine::Timeline::TrackAsset* parent, ::System::Type* childType);
 
   // Ctor Parameters [CppParam { name: "", ty: "TimelineCreateUtilities", modifiers: "&&", def_value: None }]

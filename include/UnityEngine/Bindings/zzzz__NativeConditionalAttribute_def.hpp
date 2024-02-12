@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::UnityEngine::Bindings::NativeConditionalAttribute);
 namespace UnityEngine::Bindings {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16013))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16108))
 // CS Name: ::UnityEngine.Bindings::NativeConditionalAttribute*
 class CORDL_TYPE NativeConditionalAttribute : public ::System::Attribute {
 public:
@@ -43,15 +43,15 @@ public:
 
   constexpr void __cordl_internal_set__Enabled_k__BackingField(bool value);
 
-  /// @brief Method set_Condition, addr 0x2d1822c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Condition, addr 0x2d38cd4, size 0x8, virtual false, abstract: false, final false
   inline void set_Condition(::StringW value);
 
-  /// @brief Method set_Enabled, addr 0x2d18234, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Enabled, addr 0x2d38cdc, size 0xc, virtual false, abstract: false, final false
   inline void set_Enabled(bool value);
 
   static inline ::UnityEngine::Bindings::NativeConditionalAttribute* New_ctor(::StringW condition);
 
-  /// @brief Method .ctor, addr 0x2d18240, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d38ce8, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW condition);
 
   // Ctor Parameters [CppParam { name: "", ty: "NativeConditionalAttribute", modifiers: "&&", def_value: None }]

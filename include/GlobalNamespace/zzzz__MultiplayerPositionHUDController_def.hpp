@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerPositionHUDController);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5039))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4392))
 // CS Name: ::MultiplayerPositionHUDController*
 class CORDL_TYPE MultiplayerPositionHUDController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -114,18 +114,18 @@ public:
 
   constexpr void __cordl_internal_set__prevPosition(int32_t value);
 
-  /// @brief Method set_alpha, addr 0x23c1f00, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_alpha, addr 0x237f838, size 0x1c, virtual false, abstract: false, final false
   inline void set_alpha(float_t value);
 
-  /// @brief Method Start, addr 0x23c1f1c, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x237f854, size 0x15c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x23c2078, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x237f9b0, size 0x1b0, virtual false, abstract: false, final false
   inline void Update();
 
   static inline ::GlobalNamespace::MultiplayerPositionHUDController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23c2228, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x237fb60, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerPositionHUDController", modifiers: "&&", def_value: None }]

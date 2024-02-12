@@ -57,16 +57,16 @@ public:
 
   static inline ::System::ArraySpec* New_ctor(int32_t dimensions, bool bound);
 
-  /// @brief Method .ctor, addr 0x260691c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x262a824, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(int32_t dimensions, bool bound);
 
-  /// @brief Method Resolve, addr 0x260692c, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method Resolve, addr 0x262a834, size 0x64, virtual true, abstract: false, final true
   inline ::System::Type* Resolve(::System::Type* type);
 
-  /// @brief Method Append, addr 0x2606990, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method Append, addr 0x262a898, size 0xa0, virtual true, abstract: false, final true
   inline ::System::Text::StringBuilder* Append(::System::Text::StringBuilder* sb);
 
-  /// @brief Method ToString, addr 0x2606a30, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x262a938, size 0x74, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "ArraySpec", modifiers: "&&", def_value: None }]

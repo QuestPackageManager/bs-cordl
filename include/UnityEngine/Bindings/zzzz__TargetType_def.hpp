@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Bindings::TargetType);
 namespace UnityEngine::Bindings {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16018))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16113))
 // CS Name: ::UnityEngine.Bindings::TargetType
 struct CORDL_TYPE TargetType {
 public:

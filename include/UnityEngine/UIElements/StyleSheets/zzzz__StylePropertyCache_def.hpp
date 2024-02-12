@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::StyleSheets::StylePropertyCache);
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7479))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6738))
 // CS Name: ::UnityEngine.UIElements.StyleSheets::StylePropertyCache*
 class CORDL_TYPE StylePropertyCache : public ::System::Object {
 public:
@@ -39,10 +39,10 @@ public:
 
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* getStaticF_s_NonTerminalValues();
 
-  /// @brief Method TryGetSyntax, addr 0x2defffc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method TryGetSyntax, addr 0x2e0d3e4, size 0x90, virtual false, abstract: false, final false
   static inline bool TryGetSyntax(::StringW name, ByRef<::StringW> syntax);
 
-  /// @brief Method TryGetNonTerminalValue, addr 0x2df008c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method TryGetNonTerminalValue, addr 0x2e0d474, size 0x90, virtual false, abstract: false, final false
   static inline bool TryGetNonTerminalValue(::StringW name, ByRef<::StringW> syntax);
 
   // Ctor Parameters [CppParam { name: "", ty: "StylePropertyCache", modifiers: "&&", def_value: None }]

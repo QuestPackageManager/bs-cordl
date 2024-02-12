@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::InputSystem::Processors::NormalizeVector3Processor::*)(
     ::UnityEngine::Vector3, ::UnityEngine::InputSystem::InputControl*)>(&::UnityEngine::InputSystem::Processors::NormalizeVector3Processor::Process)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x2af99b4;
+  constexpr static std::size_t addrs = 0x2afa520;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::Processors::NormalizeVector3Processor::*)()>(
     &::UnityEngine::InputSystem::Processors::NormalizeVector3Processor::ToString)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2af9a84;
+  constexpr static std::size_t addrs = 0x2afa5f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Processors::NormalizeVector3Processor::*)()>(
     &::UnityEngine::InputSystem::Processors::NormalizeVector3Processor::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2af9ac4;
+  constexpr static std::size_t addrs = 0x2afa630;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

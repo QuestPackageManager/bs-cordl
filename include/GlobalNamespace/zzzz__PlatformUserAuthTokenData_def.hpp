@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::GlobalNamespace::PlatformUserAuthTokenData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12924))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15982))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12822))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16358))
 // CS Name: ::PlatformUserAuthTokenData*
 class CORDL_TYPE PlatformUserAuthTokenData : public ::System::Object {
 public:
@@ -48,21 +48,21 @@ public:
 
   constexpr void __cordl_internal_set__validPlatformEnvironment_k__BackingField(::GlobalNamespace::PlatformEnvironment value);
 
-  /// @brief Method get_token, addr 0x27fde4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_token, addr 0x280a2e0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_token();
 
-  /// @brief Method set_token, addr 0x27fde54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_token, addr 0x280a2e8, size 0x8, virtual false, abstract: false, final false
   inline void set_token(::StringW value);
 
-  /// @brief Method get_validPlatformEnvironment, addr 0x27fde5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_validPlatformEnvironment, addr 0x280a2f0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlatformEnvironment get_validPlatformEnvironment();
 
-  /// @brief Method set_validPlatformEnvironment, addr 0x27fde64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_validPlatformEnvironment, addr 0x280a2f8, size 0x8, virtual false, abstract: false, final false
   inline void set_validPlatformEnvironment(::GlobalNamespace::PlatformEnvironment value);
 
   static inline ::GlobalNamespace::PlatformUserAuthTokenData* New_ctor(::StringW token, ::GlobalNamespace::PlatformEnvironment validPlatformEnvironment);
 
-  /// @brief Method .ctor, addr 0x27fde6c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x280a300, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW token, ::GlobalNamespace::PlatformEnvironment validPlatformEnvironment);
 
   // Ctor Parameters [CppParam { name: "", ty: "PlatformUserAuthTokenData", modifiers: "&&", def_value: None }]

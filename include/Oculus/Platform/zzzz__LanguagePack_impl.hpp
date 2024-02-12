@@ -9,8 +9,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetDetails*>* (*)()>(
     &::Oculus::Platform::LanguagePack::GetCurrent)> {
-  constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x26fe808;
+  constexpr static std::size_t size = 0x15c;
+  constexpr static std::size_t addrs = 0x2730164;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::LanguagePack*>::get(), "GetCurrent",
@@ -23,8 +23,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetFileDownloadResult*>* (*)(::StringW)>(
     &::Oculus::Platform::LanguagePack::SetCurrent)> {
-  constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x26fe960;
+  constexpr static std::size_t size = 0x164;
+  constexpr static std::size_t addrs = 0x27302c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

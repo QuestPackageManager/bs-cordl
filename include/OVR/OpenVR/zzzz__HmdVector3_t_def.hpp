@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::HmdVector3_t);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8647))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8591))
 // CS Name: ::OVR.OpenVR::HmdVector3_t
 struct CORDL_TYPE HmdVector3_t {
 public:

@@ -24,16 +24,16 @@ MARK_VAL_T(::UnityEngine::DrivenRectTransformTracker);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10278))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9024))
 // CS Name: ::UnityEngine::DrivenRectTransformTracker
 #pragma pack(push, 0)
 struct CORDL_TYPE DrivenRectTransformTracker {
 public:
   // Declarations
-  /// @brief Method Add, addr 0x2ce2798, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x2ce992c, size 0x4, virtual false, abstract: false, final false
   inline void Add(::UnityEngine::Object* driver, ::UnityEngine::RectTransform* rectTransform, ::UnityEngine::DrivenTransformProperties drivenProperties);
 
-  /// @brief Method Clear, addr 0x2ce279c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x2ce9930, size 0x4, virtual false, abstract: false, final false
   inline void Clear();
 
   // Ctor Parameters []

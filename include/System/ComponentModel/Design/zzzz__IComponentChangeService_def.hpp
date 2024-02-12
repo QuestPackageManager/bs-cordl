@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::System::ComponentModel::Design::IComponentChangeService);
 namespace System::ComponentModel::Design {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9497))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7507))
 // CS Name: ::System.ComponentModel.Design::IComponentChangeService*
 class CORDL_TYPE IComponentChangeService {
 public:

@@ -62,7 +62,7 @@ namespace Zenject {
 template <typename TContract>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10670))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9812))
 // CS Name: ::ConcreteBinderGeneric`1::<>c__DisplayClass5_0<TContract>*
 class CORDL_TYPE __ConcreteBinderGeneric_1____c__DisplayClass5_0 : public ::System::Object {
 public:
@@ -117,8 +117,8 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10914)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10914), inst: 1990 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10671))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10056)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10056), inst: 1948 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9813))
 // CS Name: ::Zenject::ConcreteBinderGeneric`1<TContract>*
 class CORDL_TYPE ConcreteBinderGeneric_1 : public ::Zenject::FromBinderGeneric_1<TContract> {
 public:

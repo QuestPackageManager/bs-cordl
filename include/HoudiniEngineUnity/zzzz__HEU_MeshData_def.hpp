@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_MeshData);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10109))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9851))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8845))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9643))
 // CS Name: ::HoudiniEngineUnity::HEU_MeshData*
 class CORDL_TYPE HEU_MeshData : public ::System::Object {
 public:
@@ -125,7 +125,7 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_MeshData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21cffb8, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x226589c, size 0x1f0, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_MeshData", modifiers: "&&", def_value: None }]

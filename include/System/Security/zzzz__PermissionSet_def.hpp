@@ -139,59 +139,59 @@ public:
 
   static inline ::System::Security::PermissionSet* New_ctor();
 
-  /// @brief Method .ctor, addr 0x245168c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24724f0, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Security::PermissionSet* New_ctor(::System::Security::Permissions::PermissionState state);
 
-  /// @brief Method .ctor, addr 0x2451778, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24725dc, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Permissions::PermissionState state);
 
   static inline ::System::Security::PermissionSet* New_ctor(::System::Security::IPermission* perm);
 
-  /// @brief Method .ctor, addr 0x2451160, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2471fc4, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::IPermission* perm);
 
-  /// @brief Method CopyTo, addr 0x2452014, size 0x178, virtual true, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x2472e78, size 0x178, virtual true, abstract: false, final false
   inline void CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method Demand, addr 0x245218c, size 0x228, virtual true, abstract: false, final true
+  /// @brief Method Demand, addr 0x2472ff0, size 0x228, virtual true, abstract: false, final true
   inline void Demand();
 
-  /// @brief Method CasOnlyDemand, addr 0x24511ac, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method CasOnlyDemand, addr 0x2472010, size 0x78, virtual false, abstract: false, final false
   inline void CasOnlyDemand(int32_t skip);
 
-  /// @brief Method GetEnumerator, addr 0x2452764, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x24735c8, size 0x24, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
-  /// @brief Method IsEmpty, addr 0x24523b4, size 0x3a0, virtual false, abstract: false, final false
+  /// @brief Method IsEmpty, addr 0x2473218, size 0x3a0, virtual false, abstract: false, final false
   inline bool IsEmpty();
 
-  /// @brief Method IsUnrestricted, addr 0x2452754, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsUnrestricted, addr 0x24735b8, size 0x10, virtual false, abstract: false, final false
   inline bool IsUnrestricted();
 
-  /// @brief Method ToString, addr 0x2452788, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x24735ec, size 0x2c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToXml, addr 0x2451910, size 0x45c, virtual true, abstract: false, final false
+  /// @brief Method ToXml, addr 0x2472774, size 0x45c, virtual true, abstract: false, final false
   inline ::System::Security::SecurityElement* ToXml();
 
-  /// @brief Method get_Count, addr 0x24527b4, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_Count, addr 0x2473618, size 0x24, virtual true, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_IsSynchronized, addr 0x24527d8, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_IsSynchronized, addr 0x247363c, size 0x24, virtual true, abstract: false, final false
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_SyncRoot, addr 0x24527fc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method get_SyncRoot, addr 0x2473660, size 0x4, virtual true, abstract: false, final false
   inline ::System::Object* get_SyncRoot();
 
-  /// @brief Method System.Runtime.Serialization.IDeserializationCallback.OnDeserialization, addr 0x2452800, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.IDeserializationCallback.OnDeserialization, addr 0x2473664, size 0x4, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::System::Object* sender);
 
-  /// @brief Method Equals, addr 0x2451dfc, size 0x19c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2472c60, size 0x19c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2451fd0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2472e34, size 0x44, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "PermissionSet", modifiers: "&&", def_value: None }]

@@ -130,43 +130,43 @@ public:
   static inline ::System::Security::Claims::Claim* New_ctor(::StringW type, ::StringW value, ::StringW valueType, ::StringW issuer, ::StringW originalIssuer,
                                                             ::System::Security::Claims::ClaimsIdentity* subject);
 
-  /// @brief Method .ctor, addr 0x2476a20, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2498a94, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::StringW type, ::StringW value, ::StringW valueType, ::StringW issuer, ::StringW originalIssuer, ::System::Security::Claims::ClaimsIdentity* subject);
 
   static inline ::System::Security::Claims::Claim* New_ctor(::StringW type, ::StringW value, ::StringW valueType, ::StringW issuer, ::StringW originalIssuer,
                                                             ::System::Security::Claims::ClaimsIdentity* subject, ::StringW propertyKey, ::StringW propertyValue);
 
-  /// @brief Method .ctor, addr 0x247b774, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x249d7e8, size 0x258, virtual false, abstract: false, final false
   inline void _ctor(::StringW type, ::StringW value, ::StringW valueType, ::StringW issuer, ::StringW originalIssuer, ::System::Security::Claims::ClaimsIdentity* subject, ::StringW propertyKey,
                     ::StringW propertyValue);
 
   static inline ::System::Security::Claims::Claim* New_ctor(::System::Security::Claims::Claim* other, ::System::Security::Claims::ClaimsIdentity* subject);
 
-  /// @brief Method .ctor, addr 0x247bb04, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x249db78, size 0x314, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Claims::Claim* other, ::System::Security::Claims::ClaimsIdentity* subject);
 
-  /// @brief Method OnDeserializedMethod, addr 0x247be18, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method OnDeserializedMethod, addr 0x249de8c, size 0x60, virtual false, abstract: false, final false
   inline void OnDeserializedMethod(::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method get_Properties, addr 0x247b9cc, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x249da40, size 0x138, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* get_Properties();
 
-  /// @brief Method get_Subject, addr 0x247be78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Subject, addr 0x249deec, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Claims::ClaimsIdentity* get_Subject();
 
-  /// @brief Method set_Subject, addr 0x247be80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Subject, addr 0x249def4, size 0x8, virtual false, abstract: false, final false
   inline void set_Subject(::System::Security::Claims::ClaimsIdentity* value);
 
-  /// @brief Method get_Type, addr 0x247be88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x249defc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Type();
 
-  /// @brief Method get_Value, addr 0x247be90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x249df04, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method Clone, addr 0x247be98, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x249df0c, size 0x70, virtual true, abstract: false, final false
   inline ::System::Security::Claims::Claim* Clone(::System::Security::Claims::ClaimsIdentity* identity);
 
-  /// @brief Method ToString, addr 0x247bf08, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x249df7c, size 0x78, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "Claim", modifiers: "&&", def_value: None }]

@@ -57,7 +57,7 @@ MARK_REF_PTR_T(::TMPro::__KerningTable____c__DisplayClass5_0);
 namespace TMPro {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12364))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12262))
 // CS Name: ::KerningTable::<>c__DisplayClass3_0*
 class CORDL_TYPE __KerningTable____c__DisplayClass3_0 : public ::System::Object {
 public:
@@ -82,10 +82,10 @@ public:
 
   static inline ::TMPro::__KerningTable____c__DisplayClass3_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c108a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c0d40c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <AddKerningPair>b__0, addr 0x2c10e14, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method <AddKerningPair>b__0, addr 0x2c0d980, size 0x3c, virtual false, abstract: false, final false
   inline bool _AddKerningPair_b__0(::TMPro::KerningPair* item);
 
   // Ctor Parameters [CppParam { name: "", ty: "__KerningTable____c__DisplayClass3_0", modifiers: "&&", def_value: None }]
@@ -123,7 +123,7 @@ static_assert(offsetof(::TMPro::__KerningTable____c__DisplayClass3_0, ___second)
 namespace TMPro {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12365))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12263))
 // CS Name: ::KerningTable::<>c__DisplayClass4_0*
 class CORDL_TYPE __KerningTable____c__DisplayClass4_0 : public ::System::Object {
 public:
@@ -148,10 +148,10 @@ public:
 
   static inline ::TMPro::__KerningTable____c__DisplayClass4_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c10aa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c0d60c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <AddGlyphPairAdjustmentRecord>b__0, addr 0x2c10e50, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method <AddGlyphPairAdjustmentRecord>b__0, addr 0x2c0d9bc, size 0x3c, virtual false, abstract: false, final false
   inline bool _AddGlyphPairAdjustmentRecord_b__0(::TMPro::KerningPair* item);
 
   // Ctor Parameters [CppParam { name: "", ty: "__KerningTable____c__DisplayClass4_0", modifiers: "&&", def_value: None }]
@@ -189,7 +189,7 @@ static_assert(offsetof(::TMPro::__KerningTable____c__DisplayClass4_0, ___second)
 namespace TMPro {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12366))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12264))
 // CS Name: ::KerningTable::<>c__DisplayClass5_0*
 class CORDL_TYPE __KerningTable____c__DisplayClass5_0 : public ::System::Object {
 public:
@@ -214,10 +214,10 @@ public:
 
   static inline ::TMPro::__KerningTable____c__DisplayClass5_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c10bc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c0d734, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <RemoveKerningPair>b__0, addr 0x2c10e8c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method <RemoveKerningPair>b__0, addr 0x2c0d9f8, size 0x3c, virtual false, abstract: false, final false
   inline bool _RemoveKerningPair_b__0(::TMPro::KerningPair* item);
 
   // Ctor Parameters [CppParam { name: "", ty: "__KerningTable____c__DisplayClass5_0", modifiers: "&&", def_value: None }]
@@ -255,7 +255,7 @@ static_assert(offsetof(::TMPro::__KerningTable____c__DisplayClass5_0, ___right) 
 namespace TMPro {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12367))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12265))
 // CS Name: ::KerningTable::<>c*
 class CORDL_TYPE __KerningTable____c : public ::System::Object {
 public:
@@ -283,13 +283,13 @@ public:
 
   static inline ::TMPro::__KerningTable____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c10f2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c0da98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <SortKerningPairs>b__7_0, addr 0x2c10f34, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <SortKerningPairs>b__7_0, addr 0x2c0daa0, size 0x18, virtual false, abstract: false, final false
   inline uint32_t _SortKerningPairs_b__7_0(::TMPro::KerningPair* s);
 
-  /// @brief Method <SortKerningPairs>b__7_1, addr 0x2c10f4c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <SortKerningPairs>b__7_1, addr 0x2c0dab8, size 0x18, virtual false, abstract: false, final false
   inline uint32_t _SortKerningPairs_b__7_1(::TMPro::KerningPair* s);
 
   // Ctor Parameters [CppParam { name: "", ty: "__KerningTable____c", modifiers: "&&", def_value: None }]
@@ -317,7 +317,7 @@ static_assert(::cordl_internals::size_check_v<::TMPro::__KerningTable____c, 0x10
 namespace TMPro {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12368))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12266))
 // CS Name: ::TMPro::KerningTable*
 class CORDL_TYPE KerningTable : public ::System::Object {
 public:
@@ -341,25 +341,25 @@ public:
 
   static inline ::TMPro::KerningTable* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c0fd8c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c0c8f8, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method AddKerningPair, addr 0x2c10514, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method AddKerningPair, addr 0x2c0d080, size 0x1d4, virtual false, abstract: false, final false
   inline void AddKerningPair();
 
-  /// @brief Method AddKerningPair, addr 0x2c106e8, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method AddKerningPair, addr 0x2c0d254, size 0x1b8, virtual false, abstract: false, final false
   inline int32_t AddKerningPair(uint32_t first, uint32_t second, float_t offset);
 
-  /// @brief Method AddGlyphPairAdjustmentRecord, addr 0x2c108a8, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method AddGlyphPairAdjustmentRecord, addr 0x2c0d414, size 0x1f8, virtual false, abstract: false, final false
   inline int32_t AddGlyphPairAdjustmentRecord(uint32_t first, ::TMPro::GlyphValueRecord_Legacy firstAdjustments, uint32_t second, ::TMPro::GlyphValueRecord_Legacy secondAdjustments);
 
-  /// @brief Method RemoveKerningPair, addr 0x2c10aa8, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method RemoveKerningPair, addr 0x2c0d614, size 0x120, virtual false, abstract: false, final false
   inline void RemoveKerningPair(int32_t left, int32_t right);
 
-  /// @brief Method RemoveKerningPair, addr 0x2c10bd0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method RemoveKerningPair, addr 0x2c0d73c, size 0x58, virtual false, abstract: false, final false
   inline void RemoveKerningPair(int32_t index);
 
-  /// @brief Method SortKerningPairs, addr 0x2c10c28, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method SortKerningPairs, addr 0x2c0d794, size 0x1ec, virtual false, abstract: false, final false
   inline void SortKerningPairs();
 
   // Ctor Parameters [CppParam { name: "", ty: "KerningTable", modifiers: "&&", def_value: None }]

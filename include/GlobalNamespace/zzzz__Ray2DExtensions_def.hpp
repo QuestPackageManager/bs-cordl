@@ -24,12 +24,12 @@ MARK_REF_PTR_T(::GlobalNamespace::Ray2DExtensions);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15858))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15603))
 // CS Name: ::Ray2DExtensions*
 class CORDL_TYPE Ray2DExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CircleIntersections, addr 0xe28444, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method CircleIntersections, addr 0xe52180, size 0x22c, virtual false, abstract: false, final false
   static inline int32_t CircleIntersections(::UnityEngine::Ray2D ray, ::UnityEngine::Vector2 circleCenter, float_t radius, ::ArrayW<float_t, ::Array<float_t>*> distances);
 
   // Ctor Parameters [CppParam { name: "", ty: "Ray2DExtensions", modifiers: "&&", def_value: None }]

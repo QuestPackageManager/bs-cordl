@@ -27,16 +27,16 @@ public:
   // Declarations
   __declspec(property(get = get_Value)) void* Value;
 
-  /// @brief Method .ctor, addr 0x2412824, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2432684, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(void* v);
 
-  /// @brief Method get_Value, addr 0x241282c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x243268c, size 0x8, virtual false, abstract: false, final false
   inline void* get_Value();
 
-  /// @brief Method Equals, addr 0x2412834, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2432694, size 0x10c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2412940, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x24327a0, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "value", ty: "void*", modifiers: "", def_value: None }]

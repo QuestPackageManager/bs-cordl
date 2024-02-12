@@ -6,7 +6,8 @@
 #include "UnityEngine/zzzz__AudioClip_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionSelectionMapViewController_def.hpp"
 #include "GlobalNamespace/zzzz__AudioClipAsyncLoader_def.hpp"
-#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapLevel_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapLevelsModel_def.hpp"
 #include "GlobalNamespace/zzzz__MissionMapAnimationController_def.hpp"
 #include "GlobalNamespace/zzzz__MissionNodeSelectionManager_def.hpp"
 #include "GlobalNamespace/zzzz__MissionNodeVisualController_def.hpp"
@@ -21,140 +22,139 @@
 #include "System/zzzz__Action_2_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 #include "UnityEngine/zzzz__AudioClip_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__MissionSelectionMapViewController____c__DisplayClass15_0._ctor
+//  Writing Method size for method: ::GlobalNamespace::__MissionSelectionMapViewController____c__DisplayClass16_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MissionSelectionMapViewController____c__DisplayClass15_0::*)()>(
-    &::GlobalNamespace::__MissionSelectionMapViewController____c__DisplayClass15_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MissionSelectionMapViewController____c__DisplayClass16_0::*)()>(
+    &::GlobalNamespace::__MissionSelectionMapViewController____c__DisplayClass16_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22cb7e0;
+  constexpr static std::size_t addrs = 0x22fb41c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MissionSelectionMapViewController____c__DisplayClass15_0*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MissionSelectionMapViewController____c__DisplayClass16_0*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__MissionSelectionMapViewController____c__DisplayClass15_0._SongPlayerCrossfadeToLevelAsync_b__0
+//  Writing Method size for method: ::GlobalNamespace::__MissionSelectionMapViewController____c__DisplayClass16_0._SongPlayerCrossfadeToLevelAsync_b__0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MissionSelectionMapViewController____c__DisplayClass15_0::*)()>(
-    &::GlobalNamespace::__MissionSelectionMapViewController____c__DisplayClass15_0::_SongPlayerCrossfadeToLevelAsync_b__0)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x22cb7e8;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MissionSelectionMapViewController____c__DisplayClass16_0::*)()>(
+    &::GlobalNamespace::__MissionSelectionMapViewController____c__DisplayClass16_0::_SongPlayerCrossfadeToLevelAsync_b__0)> {
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x22fb424;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MissionSelectionMapViewController____c__DisplayClass15_0*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MissionSelectionMapViewController____c__DisplayClass16_0*>::get(),
                                                  "<SongPlayerCrossfadeToLevelAsync>b__0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::GlobalNamespace::MissionSelectionMapViewController>& GlobalNamespace::__MissionSelectionMapViewController____c__DisplayClass15_0::__cordl_internal_get___4__this() {
+constexpr ::UnityW<::GlobalNamespace::MissionSelectionMapViewController>& GlobalNamespace::__MissionSelectionMapViewController____c__DisplayClass16_0::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::UnityW<::GlobalNamespace::MissionSelectionMapViewController> const& GlobalNamespace::__MissionSelectionMapViewController____c__DisplayClass15_0::__cordl_internal_get___4__this() const {
+constexpr ::UnityW<::GlobalNamespace::MissionSelectionMapViewController> const& GlobalNamespace::__MissionSelectionMapViewController____c__DisplayClass16_0::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void GlobalNamespace::__MissionSelectionMapViewController____c__DisplayClass15_0::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MissionSelectionMapViewController> value) {
+constexpr void GlobalNamespace::__MissionSelectionMapViewController____c__DisplayClass16_0::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MissionSelectionMapViewController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::IPreviewBeatmapLevel*& GlobalNamespace::__MissionSelectionMapViewController____c__DisplayClass15_0::__cordl_internal_get_level() {
+constexpr ::GlobalNamespace::BeatmapLevel*& GlobalNamespace::__MissionSelectionMapViewController____c__DisplayClass16_0::__cordl_internal_get_level() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___level;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IPreviewBeatmapLevel*> const&
-GlobalNamespace::__MissionSelectionMapViewController____c__DisplayClass15_0::__cordl_internal_get_level() const {
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevel*> const& GlobalNamespace::__MissionSelectionMapViewController____c__DisplayClass16_0::__cordl_internal_get_level() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___level;
 }
-constexpr void GlobalNamespace::__MissionSelectionMapViewController____c__DisplayClass15_0::__cordl_internal_set_level(::GlobalNamespace::IPreviewBeatmapLevel* value) {
+constexpr void GlobalNamespace::__MissionSelectionMapViewController____c__DisplayClass16_0::__cordl_internal_set_level(::GlobalNamespace::BeatmapLevel* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___level)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::GlobalNamespace::__MissionSelectionMapViewController____c__DisplayClass15_0* GlobalNamespace::__MissionSelectionMapViewController____c__DisplayClass15_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__MissionSelectionMapViewController____c__DisplayClass15_0*>());
+inline ::GlobalNamespace::__MissionSelectionMapViewController____c__DisplayClass16_0* GlobalNamespace::__MissionSelectionMapViewController____c__DisplayClass16_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__MissionSelectionMapViewController____c__DisplayClass16_0*>());
 }
-inline void GlobalNamespace::__MissionSelectionMapViewController____c__DisplayClass15_0::_ctor() {
+inline void GlobalNamespace::__MissionSelectionMapViewController____c__DisplayClass16_0::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MissionSelectionMapViewController____c__DisplayClass15_0*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MissionSelectionMapViewController____c__DisplayClass16_0*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::__MissionSelectionMapViewController____c__DisplayClass15_0::_SongPlayerCrossfadeToLevelAsync_b__0() {
+inline void GlobalNamespace::__MissionSelectionMapViewController____c__DisplayClass16_0::_SongPlayerCrossfadeToLevelAsync_b__0() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MissionSelectionMapViewController____c__DisplayClass15_0*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MissionSelectionMapViewController____c__DisplayClass16_0*>::get(),
                                                "<SongPlayerCrossfadeToLevelAsync>b__0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__MissionSelectionMapViewController____c__DisplayClass15_0::__MissionSelectionMapViewController____c__DisplayClass15_0() {}
-//  Writing Method size for method: ::GlobalNamespace::__MissionSelectionMapViewController___SongPlayerCrossfadeToLevelAsync_d__15.MoveNext
+constexpr ::GlobalNamespace::__MissionSelectionMapViewController____c__DisplayClass16_0::__MissionSelectionMapViewController____c__DisplayClass16_0() {}
+//  Writing Method size for method: ::GlobalNamespace::__MissionSelectionMapViewController___SongPlayerCrossfadeToLevelAsync_d__16.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MissionSelectionMapViewController___SongPlayerCrossfadeToLevelAsync_d__15::*)()>(
-    &::GlobalNamespace::__MissionSelectionMapViewController___SongPlayerCrossfadeToLevelAsync_d__15::MoveNext)> {
-  constexpr static std::size_t size = 0x49c;
-  constexpr static std::size_t addrs = 0x22cb814;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MissionSelectionMapViewController___SongPlayerCrossfadeToLevelAsync_d__16::*)()>(
+    &::GlobalNamespace::__MissionSelectionMapViewController___SongPlayerCrossfadeToLevelAsync_d__16::MoveNext)> {
+  constexpr static std::size_t size = 0x324;
+  constexpr static std::size_t addrs = 0x22fb44c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MissionSelectionMapViewController___SongPlayerCrossfadeToLevelAsync_d__15>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MissionSelectionMapViewController___SongPlayerCrossfadeToLevelAsync_d__16>::get(),
                                     "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__MissionSelectionMapViewController___SongPlayerCrossfadeToLevelAsync_d__15.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::__MissionSelectionMapViewController___SongPlayerCrossfadeToLevelAsync_d__16.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MissionSelectionMapViewController___SongPlayerCrossfadeToLevelAsync_d__15::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::__MissionSelectionMapViewController___SongPlayerCrossfadeToLevelAsync_d__15::SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MissionSelectionMapViewController___SongPlayerCrossfadeToLevelAsync_d__16::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::__MissionSelectionMapViewController___SongPlayerCrossfadeToLevelAsync_d__16::SetStateMachine)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x22cbcb0;
+  constexpr static std::size_t addrs = 0x22fb770;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MissionSelectionMapViewController___SongPlayerCrossfadeToLevelAsync_d__15>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MissionSelectionMapViewController___SongPlayerCrossfadeToLevelAsync_d__16>::get(),
                                     "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::__MissionSelectionMapViewController___SongPlayerCrossfadeToLevelAsync_d__15::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::__MissionSelectionMapViewController___SongPlayerCrossfadeToLevelAsync_d__16::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-GlobalNamespace::__MissionSelectionMapViewController___SongPlayerCrossfadeToLevelAsync_d__15::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+GlobalNamespace::__MissionSelectionMapViewController___SongPlayerCrossfadeToLevelAsync_d__16::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-inline void GlobalNamespace::__MissionSelectionMapViewController___SongPlayerCrossfadeToLevelAsync_d__15::MoveNext() {
+inline void GlobalNamespace::__MissionSelectionMapViewController___SongPlayerCrossfadeToLevelAsync_d__16::MoveNext() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MissionSelectionMapViewController___SongPlayerCrossfadeToLevelAsync_d__15>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MissionSelectionMapViewController___SongPlayerCrossfadeToLevelAsync_d__16>::get(),
                                   "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::__MissionSelectionMapViewController___SongPlayerCrossfadeToLevelAsync_d__15::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void GlobalNamespace::__MissionSelectionMapViewController___SongPlayerCrossfadeToLevelAsync_d__16::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MissionSelectionMapViewController___SongPlayerCrossfadeToLevelAsync_d__15>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MissionSelectionMapViewController___SongPlayerCrossfadeToLevelAsync_d__16>::get(),
                                   "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
-// "::UnityW<::GlobalNamespace::MissionSelectionMapViewController>", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "level", ty: "::GlobalNamespace::IPreviewBeatmapLevel*", modifiers:
-// "", def_value: Some("nullptr") }, CppParam { name: "__8__1", ty: "::GlobalNamespace::__MissionSelectionMapViewController____c__DisplayClass15_0*", modifiers: "", def_value: Some("nullptr") },
-// CppParam { name: "_musicVolume_5__2", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
+// "::UnityW<::GlobalNamespace::MissionSelectionMapViewController>", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "level", ty: "::GlobalNamespace::BeatmapLevel*", modifiers: "",
+// def_value: Some("nullptr") }, CppParam { name: "__8__1", ty: "::GlobalNamespace::__MissionSelectionMapViewController____c__DisplayClass16_0*", modifiers: "", def_value: Some("nullptr") }, CppParam
+// { name: "_musicVolume_5__2", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
 // "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::AudioClip>>", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__MissionSelectionMapViewController___SongPlayerCrossfadeToLevelAsync_d__15::__MissionSelectionMapViewController___SongPlayerCrossfadeToLevelAsync_d__15(
+constexpr ::GlobalNamespace::__MissionSelectionMapViewController___SongPlayerCrossfadeToLevelAsync_d__16::__MissionSelectionMapViewController___SongPlayerCrossfadeToLevelAsync_d__16(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::MissionSelectionMapViewController> __4__this,
-    ::GlobalNamespace::IPreviewBeatmapLevel* level, ::GlobalNamespace::__MissionSelectionMapViewController____c__DisplayClass15_0* __8__1, float_t _musicVolume_5__2,
+    ::GlobalNamespace::BeatmapLevel* level, ::GlobalNamespace::__MissionSelectionMapViewController____c__DisplayClass16_0* __8__1, float_t _musicVolume_5__2,
     ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::AudioClip>> __u__1) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
@@ -165,7 +165,7 @@ constexpr ::GlobalNamespace::__MissionSelectionMapViewController___SongPlayerCro
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__MissionSelectionMapViewController___SongPlayerCrossfadeToLevelAsync_d__15::__MissionSelectionMapViewController___SongPlayerCrossfadeToLevelAsync_d__15() {}
+constexpr ::GlobalNamespace::__MissionSelectionMapViewController___SongPlayerCrossfadeToLevelAsync_d__16::__MissionSelectionMapViewController___SongPlayerCrossfadeToLevelAsync_d__16() {}
 //  Writing Method size for method: ::GlobalNamespace::MissionSelectionMapViewController.add_didSelectMissionLevelEvent
 template <>
 
@@ -173,7 +173,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Action_2<::UnityW<::GlobalNamespace::MissionSelectionMapViewController>, ::UnityW<::GlobalNamespace::MissionNode>>*)>(
     &::GlobalNamespace::MissionSelectionMapViewController::add_didSelectMissionLevelEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22cb29c;
+  constexpr static std::size_t addrs = 0x22faeb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -191,7 +191,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Action_2<::UnityW<::GlobalNamespace::MissionSelectionMapViewController>, ::UnityW<::GlobalNamespace::MissionNode>>*)>(
     &::GlobalNamespace::MissionSelectionMapViewController::remove_didSelectMissionLevelEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22cb34c;
+  constexpr static std::size_t addrs = 0x22faf64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -208,7 +208,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MissionSelectionMapViewController::*)()>(
     &::GlobalNamespace::MissionSelectionMapViewController::get_animatedUpdateIsRequired)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22cb3fc;
+  constexpr static std::size_t addrs = 0x22fb014;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionSelectionMapViewController*>::get(),
@@ -222,7 +222,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionSelectionMapViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::MissionSelectionMapViewController::DidActivate)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x22cb418;
+  constexpr static std::size_t addrs = 0x22fb030;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -238,7 +238,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionSelectionMapViewController::*)(bool, bool)>(
     &::GlobalNamespace::MissionSelectionMapViewController::DidDeactivate)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x22cb55c;
+  constexpr static std::size_t addrs = 0x22fb174;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -253,8 +253,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionSelectionMapViewController::*)(::GlobalNamespace::MissionNodeVisualController*)>(
     &::GlobalNamespace::MissionSelectionMapViewController::HandleMissionNodeSelectionManagerDidSelectMissionNode)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x22cb68c;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x22fb2a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -267,15 +267,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::MissionSelectionMapViewController.SongPlayerCrossfadeToLevelAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionSelectionMapViewController::*)(::GlobalNamespace::IPreviewBeatmapLevel*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionSelectionMapViewController::*)(::GlobalNamespace::BeatmapLevel*)>(
     &::GlobalNamespace::MissionSelectionMapViewController::SongPlayerCrossfadeToLevelAsync)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x22cb6f8;
+  constexpr static std::size_t addrs = 0x22fb334;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionSelectionMapViewController*>::get(), "SongPlayerCrossfadeToLevelAsync",
-        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IPreviewBeatmapLevel*>::get() })));
+        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevel*>::get() })));
     return ___internal_method;
   }
 };
@@ -285,7 +285,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionSelectionMapViewController::*)(::System::Action*)>(
     &::GlobalNamespace::MissionSelectionMapViewController::ShowMissionClearedAnimation)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x22cb798;
+  constexpr static std::size_t addrs = 0x22fb3d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -300,7 +300,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionSelectionMapViewController::*)()>(
     &::GlobalNamespace::MissionSelectionMapViewController::DeselectSelectedNode)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22cb7bc;
+  constexpr static std::size_t addrs = 0x22fb3f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionSelectionMapViewController*>::get(),
@@ -314,7 +314,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionSelectionMapViewController::*)()>(
     &::GlobalNamespace::MissionSelectionMapViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22cb7d8;
+  constexpr static std::size_t addrs = 0x22fb414;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionSelectionMapViewController*>::get(),
@@ -395,6 +395,18 @@ constexpr void GlobalNamespace::MissionSelectionMapViewController::__cordl_inter
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioClipAsyncLoader)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
+constexpr ::GlobalNamespace::BeatmapLevelsModel*& GlobalNamespace::MissionSelectionMapViewController::__cordl_internal_get__beatmapLevelsModel() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____beatmapLevelsModel;
+}
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelsModel*> const& GlobalNamespace::MissionSelectionMapViewController::__cordl_internal_get__beatmapLevelsModel() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____beatmapLevelsModel;
+}
+constexpr void GlobalNamespace::MissionSelectionMapViewController::__cordl_internal_set__beatmapLevelsModel(::GlobalNamespace::BeatmapLevelsModel* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapLevelsModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
 constexpr ::System::Action_2<::UnityW<::GlobalNamespace::MissionSelectionMapViewController>, ::UnityW<::GlobalNamespace::MissionNode>>*&
 GlobalNamespace::MissionSelectionMapViewController::__cordl_internal_get_didSelectMissionLevelEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -460,10 +472,10 @@ inline void GlobalNamespace::MissionSelectionMapViewController::HandleMissionNod
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MissionNodeVisualController*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, missionNodeVisualController);
 }
-inline void GlobalNamespace::MissionSelectionMapViewController::SongPlayerCrossfadeToLevelAsync(::GlobalNamespace::IPreviewBeatmapLevel* level) {
+inline void GlobalNamespace::MissionSelectionMapViewController::SongPlayerCrossfadeToLevelAsync(::GlobalNamespace::BeatmapLevel* level) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionSelectionMapViewController*>::get(), "SongPlayerCrossfadeToLevelAsync", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IPreviewBeatmapLevel*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevel*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, level);
 }
 inline void GlobalNamespace::MissionSelectionMapViewController::ShowMissionClearedAnimation(::System::Action* finishCallback) {

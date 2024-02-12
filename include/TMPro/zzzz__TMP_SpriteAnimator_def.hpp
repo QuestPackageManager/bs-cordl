@@ -47,8 +47,8 @@ MARK_REF_PTR_T(::TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7);
 // SizeInfo { instance_size: 552, native_size: -1, calculated_instance_size: 552, calculated_native_size: 548, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12332)), TypeDefinitionIndex(TypeDefinitionIndex(12405))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12418))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12230)), TypeDefinitionIndex(TypeDefinitionIndex(12303))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12316))
 // CS Name: ::TMP_SpriteAnimator::<DoSpriteAnimationInternal>d__7*
 class CORDL_TYPE __TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7 : public ::System::Object {
 public:
@@ -221,22 +221,22 @@ public:
 
   static inline ::TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor, addr 0x2c42180, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c3fcec, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x2c42228, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x2c3fd94, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext, addr 0x2c4222c, size 0x8e0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2c3fd98, size 0x8e0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2c42b30, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2c4069c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2c42b38, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2c406a4, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2c42b78, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2c406e4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7", modifiers: "&&", def_value: None }]
@@ -343,8 +343,8 @@ static_assert(offsetof(::TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12419))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12317))
 // CS Name: ::TMPro::TMP_SpriteAnimator*
 class CORDL_TYPE TMP_SpriteAnimator : public ::UnityEngine::MonoBehaviour {
 public:
@@ -369,27 +369,27 @@ public:
 
   constexpr void __cordl_internal_set_m_TextComponent(::UnityW<::TMPro::TMP_Text> value);
 
-  /// @brief Method Awake, addr 0x2c41f44, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2c3fab0, size 0x50, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnEnable, addr 0x2c41f94, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x2c3fb00, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable, addr 0x2c41f98, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x2c3fb04, size 0x4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method StopAllAnimations, addr 0x2c41f9c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method StopAllAnimations, addr 0x2c3fb08, size 0x5c, virtual false, abstract: false, final false
   inline void StopAllAnimations();
 
-  /// @brief Method DoSpriteAnimation, addr 0x2c41ff8, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method DoSpriteAnimation, addr 0x2c3fb64, size 0xe8, virtual false, abstract: false, final false
   inline void DoSpriteAnimation(int32_t currentCharacter, ::TMPro::TMP_SpriteAsset* spriteAsset, int32_t start, int32_t end, int32_t framerate);
 
-  /// @brief Method DoSpriteAnimationInternal, addr 0x2c420e0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method DoSpriteAnimationInternal, addr 0x2c3fc4c, size 0xa0, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* DoSpriteAnimationInternal(int32_t currentCharacter, ::TMPro::TMP_SpriteAsset* spriteAsset, int32_t start, int32_t end, int32_t framerate);
 
   static inline ::TMPro::TMP_SpriteAnimator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c421a8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c3fd14, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TMP_SpriteAnimator", modifiers: "&&", def_value: None }]

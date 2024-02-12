@@ -60,7 +60,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::EdEC::EdECObjectIdentifiers* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe8eabc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeb894c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EdECObjectIdentifiers", modifiers: "&&", def_value: None }]

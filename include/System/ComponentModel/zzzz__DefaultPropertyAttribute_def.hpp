@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::System::ComponentModel::DefaultPropertyAttribute);
 namespace System::ComponentModel {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9418))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7428))
 // CS Name: ::System.ComponentModel::DefaultPropertyAttribute*
 class CORDL_TYPE DefaultPropertyAttribute : public ::System::Attribute {
 public:
@@ -45,16 +45,16 @@ public:
 
   static inline ::System::ComponentModel::DefaultPropertyAttribute* New_ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x290e580, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2912be8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method get_Name, addr 0x290e5a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x2912c10, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method Equals, addr 0x290e5b0, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2912c18, size 0x80, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x290e630, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2912c98, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultPropertyAttribute", modifiers: "&&", def_value: None }]

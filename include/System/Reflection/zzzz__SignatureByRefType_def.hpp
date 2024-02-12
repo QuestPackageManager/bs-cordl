@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::System::Reflection::SignatureByRefType);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3493))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3491))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3489))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3487))
 // CS Name: ::System.Reflection::SignatureByRefType*
 class CORDL_TYPE SignatureByRefType : public ::System::Reflection::SignatureHasElementType {
 public:
@@ -33,28 +33,28 @@ public:
 
   static inline ::System::Reflection::SignatureByRefType* New_ctor(::System::Reflection::SignatureType* elementType);
 
-  /// @brief Method .ctor, addr 0x24e9fe4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x250913c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::SignatureType* elementType);
 
-  /// @brief Method IsArrayImpl, addr 0x24ea008, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method IsArrayImpl, addr 0x2509160, size 0x8, virtual true, abstract: false, final true
   inline bool IsArrayImpl();
 
-  /// @brief Method IsByRefImpl, addr 0x24ea010, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method IsByRefImpl, addr 0x2509168, size 0x8, virtual true, abstract: false, final true
   inline bool IsByRefImpl();
 
-  /// @brief Method IsPointerImpl, addr 0x24ea018, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method IsPointerImpl, addr 0x2509170, size 0x8, virtual true, abstract: false, final true
   inline bool IsPointerImpl();
 
-  /// @brief Method get_IsSZArray, addr 0x24ea020, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsSZArray, addr 0x2509178, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsSZArray();
 
-  /// @brief Method get_IsVariableBoundArray, addr 0x24ea028, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsVariableBoundArray, addr 0x2509180, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsVariableBoundArray();
 
-  /// @brief Method GetArrayRank, addr 0x24ea030, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method GetArrayRank, addr 0x2509188, size 0x50, virtual true, abstract: false, final true
   inline int32_t GetArrayRank();
 
-  /// @brief Method get_Suffix, addr 0x24ea080, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_Suffix, addr 0x25091d8, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_Suffix();
 
   // Ctor Parameters [CppParam { name: "", ty: "SignatureByRefType", modifiers: "&&", def_value: None }]

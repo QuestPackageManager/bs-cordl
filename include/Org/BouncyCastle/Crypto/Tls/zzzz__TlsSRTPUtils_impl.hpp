@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::IDictionary*, ::Org::BouncyCastle::Crypto::Tls::UseSrtpData*)>(
     &::Org::BouncyCastle::Crypto::Tls::TlsSRTPUtils::AddUseSrtpExtension)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0xfb8e08;
+  constexpr static std::size_t addrs = 0xfe4c98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Tls::UseSrtpData* (*)(::System::Collections::IDictionary*)>(
     &::Org::BouncyCastle::Crypto::Tls::TlsSRTPUtils::GetUseSrtpExtension)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0xfb9014;
+  constexpr static std::size_t addrs = 0xfe4ea4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::Org::BouncyCastle::Crypto::Tls::UseSrtpData*)>(
     &::Org::BouncyCastle::Crypto::Tls::TlsSRTPUtils::CreateUseSrtpExtension)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0xfb8ef8;
+  constexpr static std::size_t addrs = 0xfe4d88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Tls::UseSrtpData* (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Crypto::Tls::TlsSRTPUtils::ReadUseSrtpExtension)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0xfb9080;
+  constexpr static std::size_t addrs = 0xfe4f10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::TlsSRTPUtils::*)()>(&::Org::BouncyCastle::Crypto::Tls::TlsSRTPUtils::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xfb93c4;
+  constexpr static std::size_t addrs = 0xfe5254;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::TlsSRTPUtils*>::get(), ".ctor",

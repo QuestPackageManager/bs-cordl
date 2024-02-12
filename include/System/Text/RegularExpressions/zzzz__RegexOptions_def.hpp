@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Text::RegularExpressions::RegexOptions);
 namespace System::Text::RegularExpressions {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8925))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6935))
 // CS Name: ::System.Text.RegularExpressions::RegexOptions
 struct CORDL_TYPE RegexOptions {
 public:

@@ -26,7 +26,7 @@ namespace System::Dynamic::Utils {
 template <typename TKey, typename TValue>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14308))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14321))
 // CS Name: ::CacheDict`2::Entry<TKey,TValue>*
 class CORDL_TYPE __CacheDict_2__Entry : public ::System::Object {
 public:
@@ -56,7 +56,7 @@ namespace System::Dynamic::Utils {
 template <typename TKey, typename TValue>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14309))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14322))
 // CS Name: ::System.Dynamic.Utils::CacheDict`2<TKey,TValue>*
 class CORDL_TYPE CacheDict_2 : public ::System::Object {
 public:

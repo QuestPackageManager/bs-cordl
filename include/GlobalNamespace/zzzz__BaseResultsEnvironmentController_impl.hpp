@@ -5,10 +5,10 @@
 //  Writing Method size for method: ::GlobalNamespace::BaseResultsEnvironmentController.Activate
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BaseResultsEnvironmentController::*)(bool)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BaseResultsEnvironmentController::*)()>(
     &::GlobalNamespace::BaseResultsEnvironmentController::Activate)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x23762f0;
+  constexpr static std::size_t addrs = 0x22bc774;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -21,16 +21,32 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::BaseResultsEnvironmentController.Deactivate
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BaseResultsEnvironmentController::*)(bool)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BaseResultsEnvironmentController::*)()>(
     &::GlobalNamespace::BaseResultsEnvironmentController::Deactivate)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2376314;
+  constexpr static std::size_t addrs = 0x22bc798;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BaseResultsEnvironmentController*>::get(),
                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BaseResultsEnvironmentController*>::get(), 5));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::BaseResultsEnvironmentController.get_keyword
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::BaseResultsEnvironmentController::*)()>(
+    &::GlobalNamespace::BaseResultsEnvironmentController::get_keyword)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0x0;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BaseResultsEnvironmentController*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BaseResultsEnvironmentController*>::get(), 6));
     return ___internal_method;
   }
 };
@@ -46,7 +62,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BaseResultsEnvironmentController*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BaseResultsEnvironmentController*>::get(), 6));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BaseResultsEnvironmentController*>::get(), 7));
     return ___internal_method;
   }
 };
@@ -56,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BaseResultsEnvironmentController::*)()>(
     &::GlobalNamespace::BaseResultsEnvironmentController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2376338;
+  constexpr static std::size_t addrs = 0x22bc7bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BaseResultsEnvironmentController*>::get(),
@@ -64,21 +80,24 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @param immediately: bool (default: false)
-inline void GlobalNamespace::BaseResultsEnvironmentController::Activate(bool immediately) {
+inline void GlobalNamespace::BaseResultsEnvironmentController::Activate() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BaseResultsEnvironmentController*>::get(), 4)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, immediately);
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-/// @param immediately: bool (default: false)
-inline void GlobalNamespace::BaseResultsEnvironmentController::Deactivate(bool immediately) {
+inline void GlobalNamespace::BaseResultsEnvironmentController::Deactivate() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BaseResultsEnvironmentController*>::get(), 5)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, immediately);
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::StringW GlobalNamespace::BaseResultsEnvironmentController::get_keyword() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BaseResultsEnvironmentController*>::get(), 6)));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::BaseResultsEnvironmentController::Setup(::GlobalNamespace::IReadonlyBeatmapData* beatmapData) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BaseResultsEnvironmentController*>::get(), 6)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BaseResultsEnvironmentController*>::get(), 7)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, beatmapData);
 }
 inline ::GlobalNamespace::BaseResultsEnvironmentController* GlobalNamespace::BaseResultsEnvironmentController::New_ctor() {

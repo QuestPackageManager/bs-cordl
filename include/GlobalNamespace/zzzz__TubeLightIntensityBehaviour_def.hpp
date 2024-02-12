@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::GlobalNamespace::TubeLightIntensityBehaviour);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10425))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6024))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9193))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5301))
 // CS Name: ::TubeLightIntensityBehaviour*
 class CORDL_TYPE TubeLightIntensityBehaviour : public ::UnityEngine::Playables::PlayableBehaviour {
 public:
@@ -184,18 +184,18 @@ public:
 
   constexpr void __cordl_internal_set__firstFrameLaserIntensity(float_t value);
 
-  /// @brief Method ProcessFrame, addr 0x2318354, size 0x370, virtual true, abstract: false, final false
+  /// @brief Method ProcessFrame, addr 0x234331c, size 0x370, virtual true, abstract: false, final false
   inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* playerData);
 
-  /// @brief Method EnableObjects, addr 0x23186c4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method EnableObjects, addr 0x234368c, size 0xd4, virtual false, abstract: false, final false
   inline void EnableObjects(bool on);
 
-  /// @brief Method OnPlayableDestroy, addr 0x2318798, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method OnPlayableDestroy, addr 0x2343760, size 0xcc, virtual true, abstract: false, final false
   inline void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
 
   static inline ::GlobalNamespace::TubeLightIntensityBehaviour* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2318864, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x234382c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TubeLightIntensityBehaviour", modifiers: "&&", def_value: None }]

@@ -47,7 +47,7 @@ MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509Certifica
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2992))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8996))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7006))
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509Certificate2Impl*
 class CORDL_TYPE X509Certificate2Impl : public ::System::Security::Cryptography::X509Certificates::X509CertificateImpl {
 public:
@@ -99,12 +99,12 @@ public:
   /// @brief Method AppendPrivateKeyInfo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void AppendPrivateKeyInfo(::System::Text::StringBuilder* sb);
 
-  /// @brief Method CopyWithPrivateKey, addr 0x297d228, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method CopyWithPrivateKey, addr 0x2980ccc, size 0xac, virtual true, abstract: false, final true
   inline ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* CopyWithPrivateKey(::System::Security::Cryptography::RSA* privateKey);
 
   static inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl* New_ctor();
 
-  /// @brief Method .ctor, addr 0x297d2d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2980d78, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "X509Certificate2Impl", modifiers: "&&", def_value: None }]

@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::ITimelineEvaluateCallback);
 namespace UnityEngine::Timeline {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13928))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13881))
 // CS Name: ::UnityEngine.Timeline::ITimelineEvaluateCallback*
 class CORDL_TYPE ITimelineEvaluateCallback {
 public:

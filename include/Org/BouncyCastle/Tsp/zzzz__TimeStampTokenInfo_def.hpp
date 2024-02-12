@@ -87,46 +87,46 @@ public:
 
   static inline ::Org::BouncyCastle::Tsp::TimeStampTokenInfo* New_ctor(::Org::BouncyCastle::Asn1::Tsp::TstInfo* tstInfo);
 
-  /// @brief Method .ctor, addr 0x1152a24, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11808b4, size 0x134, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Tsp::TstInfo* tstInfo);
 
-  /// @brief Method get_IsOrdered, addr 0x1153d9c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_IsOrdered, addr 0x1181c2c, size 0x24, virtual false, abstract: false, final false
   inline bool get_IsOrdered();
 
-  /// @brief Method get_Accuracy, addr 0x1153dc0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Accuracy, addr 0x1181c50, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Tsp::Accuracy* get_Accuracy();
 
-  /// @brief Method get_GenTime, addr 0x1153ddc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_GenTime, addr 0x1181c6c, size 0x8, virtual false, abstract: false, final false
   inline ::System::DateTime get_GenTime();
 
-  /// @brief Method get_GenTimeAccuracy, addr 0x1153de4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_GenTimeAccuracy, addr 0x1181c74, size 0x7c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Tsp::GenTimeAccuracy* get_GenTimeAccuracy();
 
-  /// @brief Method get_Policy, addr 0x1151074, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_Policy, addr 0x117ef04, size 0x24, virtual false, abstract: false, final false
   inline ::StringW get_Policy();
 
-  /// @brief Method get_SerialNumber, addr 0x1153e60, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_SerialNumber, addr 0x1181cf0, size 0x24, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_SerialNumber();
 
-  /// @brief Method get_Tsa, addr 0x1153e84, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Tsa, addr 0x1181d14, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralName* get_Tsa();
 
-  /// @brief Method get_Nonce, addr 0x1150fb0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_Nonce, addr 0x117ee40, size 0x2c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Nonce();
 
-  /// @brief Method get_HashAlgorithm, addr 0x1153ea0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_HashAlgorithm, addr 0x1181d30, size 0x24, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_HashAlgorithm();
 
-  /// @brief Method get_MessageImprintAlgOid, addr 0x115101c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_MessageImprintAlgOid, addr 0x117eeac, size 0x3c, virtual false, abstract: false, final false
   inline ::StringW get_MessageImprintAlgOid();
 
-  /// @brief Method GetMessageImprintDigest, addr 0x1150ff8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetMessageImprintDigest, addr 0x117ee88, size 0x24, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetMessageImprintDigest();
 
-  /// @brief Method GetEncoded, addr 0x1153ec4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x1181d54, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
-  /// @brief Method get_TstInfo, addr 0x1153ee0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TstInfo, addr 0x1181d70, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Tsp::TstInfo* get_TstInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "TimeStampTokenInfo", modifiers: "&&", def_value: None }]

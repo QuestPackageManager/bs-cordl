@@ -17,30 +17,30 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::HashUtility);
 namespace UnityEngine::Timeline {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13932))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13885))
 // CS Name: ::UnityEngine.Timeline::HashUtility*
 class CORDL_TYPE HashUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CombineHash, addr 0x2c70bec, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method CombineHash, addr 0x2c6d758, size 0x1c, virtual false, abstract: false, final false
   static inline int32_t CombineHash(int32_t h1, int32_t h2);
 
-  /// @brief Method CombineHash, addr 0x2c70c08, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method CombineHash, addr 0x2c6d774, size 0x2c, virtual false, abstract: false, final false
   static inline int32_t CombineHash(int32_t h1, int32_t h2, int32_t h3);
 
-  /// @brief Method CombineHash, addr 0x2c70c34, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method CombineHash, addr 0x2c6d7a0, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t CombineHash(int32_t h1, int32_t h2, int32_t h3, int32_t h4);
 
-  /// @brief Method CombineHash, addr 0x2c70c70, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method CombineHash, addr 0x2c6d7dc, size 0x4c, virtual false, abstract: false, final false
   static inline int32_t CombineHash(int32_t h1, int32_t h2, int32_t h3, int32_t h4, int32_t h5);
 
-  /// @brief Method CombineHash, addr 0x2c70cbc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CombineHash, addr 0x2c6d828, size 0x5c, virtual false, abstract: false, final false
   static inline int32_t CombineHash(int32_t h1, int32_t h2, int32_t h3, int32_t h4, int32_t h5, int32_t h6);
 
-  /// @brief Method CombineHash, addr 0x2c70d18, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method CombineHash, addr 0x2c6d884, size 0x2c, virtual false, abstract: false, final false
   static inline int32_t CombineHash(int32_t h1, int32_t h2, int32_t h3, int32_t h4, int32_t h5, int32_t h6, int32_t h7);
 
-  /// @brief Method CombineHash, addr 0x2c70d44, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method CombineHash, addr 0x2c6d8b0, size 0x6c, virtual false, abstract: false, final false
   static inline int32_t CombineHash(::ArrayW<int32_t, ::Array<int32_t>*> hashes);
 
   // Ctor Parameters [CppParam { name: "", ty: "HashUtility", modifiers: "&&", def_value: None }]

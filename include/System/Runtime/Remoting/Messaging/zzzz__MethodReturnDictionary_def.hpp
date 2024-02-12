@@ -41,7 +41,7 @@ public:
 
   static inline ::System::Runtime::Remoting::Messaging::MethodReturnDictionary* New_ctor(::System::Runtime::Remoting::Messaging::IMethodReturnMessage* message);
 
-  /// @brief Method .ctor, addr 0x24b07c4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24d2838, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::IMethodReturnMessage* message);
 
   // Ctor Parameters [CppParam { name: "", ty: "MethodReturnDictionary", modifiers: "&&", def_value: None }]

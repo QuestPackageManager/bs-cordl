@@ -31,17 +31,17 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Asn1::Smime::SmimeEncryptionKeyPreferenceAttribute* New_ctor(::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber* issAndSer);
 
-  /// @brief Method .ctor, addr 0x1074e14, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10a1ca4, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber* issAndSer);
 
   static inline ::Org::BouncyCastle::Asn1::Smime::SmimeEncryptionKeyPreferenceAttribute* New_ctor(::Org::BouncyCastle::Asn1::Cms::RecipientKeyIdentifier* rKeyID);
 
-  /// @brief Method .ctor, addr 0x1074ef8, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10a1d88, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::RecipientKeyIdentifier* rKeyID);
 
   static inline ::Org::BouncyCastle::Asn1::Smime::SmimeEncryptionKeyPreferenceAttribute* New_ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* sKeyID);
 
-  /// @brief Method .ctor, addr 0x1074fdc, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10a1e6c, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* sKeyID);
 
   // Ctor Parameters [CppParam { name: "", ty: "SmimeEncryptionKeyPreferenceAttribute", modifiers: "&&", def_value: None }]

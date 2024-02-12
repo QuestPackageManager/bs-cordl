@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::IKExecutionOrder);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12537))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12435))
 // CS Name: ::RootMotion.FinalIK::IKExecutionOrder*
 class CORDL_TYPE IKExecutionOrder : public ::UnityEngine::MonoBehaviour {
 public:
@@ -57,27 +57,27 @@ public:
 
   constexpr void __cordl_internal_set_fixedFrame(bool value);
 
-  /// @brief Method get_animatePhysics, addr 0x124f24c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_animatePhysics, addr 0x12e92fc, size 0x8c, virtual false, abstract: false, final false
   inline bool get_animatePhysics();
 
-  /// @brief Method Start, addr 0x124f2d8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x12e9388, size 0x64, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x124f33c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x12e93ec, size 0x24, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method FixedUpdate, addr 0x124f3dc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method FixedUpdate, addr 0x12e948c, size 0x2c, virtual false, abstract: false, final false
   inline void FixedUpdate();
 
-  /// @brief Method LateUpdate, addr 0x124f408, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x12e94b8, size 0x84, virtual false, abstract: false, final false
   inline void LateUpdate();
 
-  /// @brief Method FixTransforms, addr 0x124f360, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method FixTransforms, addr 0x12e9410, size 0x7c, virtual false, abstract: false, final false
   inline void FixTransforms();
 
   static inline ::RootMotion::FinalIK::IKExecutionOrder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x124f48c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12e953c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "IKExecutionOrder", modifiers: "&&", def_value: None }]

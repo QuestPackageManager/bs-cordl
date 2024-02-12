@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Yoga::YogaMeasureMode);
 namespace UnityEngine::Yoga {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15370))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15530))
 // CS Name: ::UnityEngine.Yoga::YogaMeasureMode
 struct CORDL_TYPE YogaMeasureMode {
 public:

@@ -41,8 +41,8 @@ namespace UnityEngine::UIElements::UIR {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7380)), TypeDefinitionIndex(TypeDefinitionIndex(9999)), TypeDefinitionIndex(TypeDefinitionIndex(10115)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 4692 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7381)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6639)), TypeDefinitionIndex(TypeDefinitionIndex(8730)), TypeDefinitionIndex(TypeDefinitionIndex(8851)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8730), inst: 4672 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6640)) CS Name:
 // ::UnityEngine.UIElements.UIR::ShaderInfoStorage`1<T>*
 class CORDL_TYPE ShaderInfoStorage_1 : public ::UnityEngine::UIElements::UIR::BaseShaderInfoStorage {
 public:

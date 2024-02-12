@@ -145,53 +145,53 @@ public:
 
   static inline ::System::Security::Principal::WindowsIdentity* New_ctor(void* userToken, ::StringW type, ::System::Security::Principal::WindowsAccountType acctType, bool isAuthenticated);
 
-  /// @brief Method .ctor, addr 0x247abac, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x249cc20, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(void* userToken, ::StringW type, ::System::Security::Principal::WindowsAccountType acctType, bool isAuthenticated);
 
   static inline ::System::Security::Principal::WindowsIdentity* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x247ad70, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x249cde4, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Security::Principal::WindowsIdentity* New_ctor(::System::Security::Claims::ClaimsIdentity* claimsIdentity, void* userToken);
 
-  /// @brief Method .ctor, addr 0x247adac, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x249ce20, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Claims::ClaimsIdentity* claimsIdentity, void* userToken);
 
-  /// @brief Method Dispose, addr 0x247ae50, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x249cec4, size 0x50, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetCurrent, addr 0x247aea0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetCurrent, addr 0x249cf14, size 0x84, virtual false, abstract: false, final false
   static inline ::System::Security::Principal::WindowsIdentity* GetCurrent();
 
-  /// @brief Method Impersonate, addr 0x247af28, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method Impersonate, addr 0x249cf9c, size 0x64, virtual true, abstract: false, final false
   inline ::System::Security::Principal::WindowsImpersonationContext* Impersonate();
 
-  /// @brief Method get_AuthenticationType, addr 0x247b018, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_AuthenticationType, addr 0x249d08c, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_AuthenticationType();
 
-  /// @brief Method get_Name, addr 0x247b020, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x249d094, size 0x68, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method System.Runtime.Serialization.IDeserializationCallback.OnDeserialization, addr 0x247b08c, size 0x2d8, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.IDeserializationCallback.OnDeserialization, addr 0x249d100, size 0x2d8, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::System::Object* sender);
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x247b364, size 0x168, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x249d3d8, size 0x168, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method CloneAsBase, addr 0x247b4cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CloneAsBase, addr 0x249d540, size 0x4, virtual false, abstract: false, final false
   inline ::System::Security::Claims::ClaimsIdentity* CloneAsBase();
 
-  /// @brief Method GetTokenInternal, addr 0x247b620, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetTokenInternal, addr 0x249d694, size 0x8, virtual false, abstract: false, final false
   inline void* GetTokenInternal();
 
-  /// @brief Method SetToken, addr 0x247ac10, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method SetToken, addr 0x249cc84, size 0x160, virtual false, abstract: false, final false
   inline void SetToken(void* token);
 
-  /// @brief Method GetCurrentToken, addr 0x247af24, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentToken, addr 0x249cf98, size 0x4, virtual false, abstract: false, final false
   static inline void* GetCurrentToken();
 
-  /// @brief Method GetTokenName, addr 0x247b088, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetTokenName, addr 0x249d0fc, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW GetTokenName(void* token);
 
   // Ctor Parameters [CppParam { name: "", ty: "WindowsIdentity", modifiers: "&&", def_value: None }]

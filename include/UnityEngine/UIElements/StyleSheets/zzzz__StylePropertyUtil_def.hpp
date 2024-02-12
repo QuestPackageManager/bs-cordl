@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::StyleSheets::StylePropertyUtil);
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7478))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6737))
 // CS Name: ::UnityEngine.UIElements.StyleSheets::StylePropertyUtil*
 class CORDL_TYPE StylePropertyUtil : public ::System::Object {
 public:
@@ -70,13 +70,13 @@ public:
 
   static inline ::ArrayW<::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::Array<::UnityEngine::UIElements::StyleSheets::StylePropertyId>*> getStaticF_s_AnimatableProperties();
 
-  /// @brief Method IsAnimatable, addr 0x2def0b4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method IsAnimatable, addr 0x2e0c49c, size 0x80, virtual false, abstract: false, final false
   static inline bool IsAnimatable(::UnityEngine::UIElements::StyleSheets::StylePropertyId id);
 
-  /// @brief Method TryGetEnumIntValue, addr 0x2def134, size 0xd98, virtual false, abstract: false, final false
+  /// @brief Method TryGetEnumIntValue, addr 0x2e0c51c, size 0xd98, virtual false, abstract: false, final false
   static inline bool TryGetEnumIntValue(::UnityEngine::UIElements::StyleSheets::StyleEnumType enumType, ::StringW value, ByRef<int32_t> intValue);
 
-  /// @brief Method IsMatchingShorthand, addr 0x2defecc, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method IsMatchingShorthand, addr 0x2e0d2b4, size 0x130, virtual false, abstract: false, final false
   static inline bool IsMatchingShorthand(::UnityEngine::UIElements::StyleSheets::StylePropertyId shorthand, ::UnityEngine::UIElements::StyleSheets::StylePropertyId id);
 
   // Ctor Parameters [CppParam { name: "", ty: "StylePropertyUtil", modifiers: "&&", def_value: None }]

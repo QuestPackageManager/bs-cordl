@@ -39,7 +39,7 @@ MARK_REF_PTR_T(::BeatSaber::BeatAvatarSDK::AvatarPartsModel);
 namespace BeatSaber::BeatAvatarSDK {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15684))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15785))
 // CS Name: ::BeatSaber.BeatAvatarSDK::AvatarPartsModel*
 class CORDL_TYPE AvatarPartsModel : public ::System::Object {
 public:
@@ -157,42 +157,42 @@ public:
 
   constexpr void __cordl_internal_set__indexById(::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* value);
 
-  /// @brief Method get_headTopCollection, addr 0xe19fa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_headTopCollection, addr 0xe265ec, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>* get_headTopCollection();
 
-  /// @brief Method get_eyesCollection, addr 0xe19fa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_eyesCollection, addr 0xe265f4, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO>>* get_eyesCollection();
 
-  /// @brief Method get_mouthCollection, addr 0xe19fb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mouthCollection, addr 0xe265fc, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO>>* get_mouthCollection();
 
-  /// @brief Method get_glassesCollection, addr 0xe19fb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_glassesCollection, addr 0xe26604, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>* get_glassesCollection();
 
-  /// @brief Method get_facialHairCollection, addr 0xe19fc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_facialHairCollection, addr 0xe2660c, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>* get_facialHairCollection();
 
-  /// @brief Method get_handsCollection, addr 0xe19fc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_handsCollection, addr 0xe26614, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>* get_handsCollection();
 
-  /// @brief Method get_clothesCollection, addr 0xe19fd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_clothesCollection, addr 0xe2661c, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>* get_clothesCollection();
 
-  /// @brief Method get_skinColors, addr 0xe19fd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_skinColors, addr 0xe26624, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSO>>*> get_skinColors();
 
   static inline ::BeatSaber::BeatAvatarSDK::AvatarPartsModel* New_ctor(::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO* avatarPartData, ::BeatSaber::BeatAvatarSDK::SkinColorSetSO* skinColorSet);
 
-  /// @brief Method .ctor, addr 0xe19fe0, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe2662c, size 0x260, virtual false, abstract: false, final false
   inline void _ctor(::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO* avatarPartData, ::BeatSaber::BeatAvatarSDK::SkinColorSetSO* skinColorSet);
 
-  /// @brief Method GetColorIndexById, addr 0xe1a240, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetColorIndexById, addr 0xe2688c, size 0x84, virtual false, abstract: false, final false
   inline int32_t GetColorIndexById(::StringW id);
 
-  /// @brief Method GetSkinColorById, addr 0xe1a2c4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetSkinColorById, addr 0xe26910, size 0x34, virtual false, abstract: false, final false
   inline ::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSO> GetSkinColorById(::StringW id);
 
-  /// @brief Method GetRandomColor, addr 0xe19d88, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method GetRandomColor, addr 0xe25be0, size 0x40, virtual false, abstract: false, final false
   inline ::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSO> GetRandomColor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AvatarPartsModel", modifiers: "&&", def_value: None }]

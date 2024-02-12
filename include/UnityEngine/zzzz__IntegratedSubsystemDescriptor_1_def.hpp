@@ -19,8 +19,8 @@ namespace UnityEngine {
 // cpp template
 template <typename TSubsystem>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15959))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15960))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16082))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16083))
 // CS Name: ::UnityEngine::IntegratedSubsystemDescriptor`1<TSubsystem>*
 class CORDL_TYPE IntegratedSubsystemDescriptor_1 : public ::UnityEngine::IntegratedSubsystemDescriptor {
 public:

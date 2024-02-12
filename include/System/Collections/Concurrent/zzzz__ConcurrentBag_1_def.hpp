@@ -67,7 +67,7 @@ namespace System::Collections::Concurrent {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9527))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7537))
 // CS Name: ::ConcurrentBag`1::WorkStealingQueue<T>*
 class CORDL_TYPE __ConcurrentBag_1__WorkStealingQueue : public ::System::Object {
 public:
@@ -248,7 +248,7 @@ namespace System::Collections::Concurrent {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9528))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7538))
 // CS Name: ::ConcurrentBag`1::Enumerator<T>*
 class CORDL_TYPE __ConcurrentBag_1__Enumerator : public ::System::Object {
 public:
@@ -356,7 +356,7 @@ namespace System::Collections::Concurrent {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9529))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7539))
 // CS Name: ::System.Collections.Concurrent::ConcurrentBag`1<T>*
 class CORDL_TYPE ConcurrentBag_1 : public ::System::Object {
 public:

@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::IHasDefault);
 namespace UnityEngine::ProBuilder {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12129))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12027))
 // CS Name: ::UnityEngine.ProBuilder::IHasDefault*
 class CORDL_TYPE IHasDefault {
 public:

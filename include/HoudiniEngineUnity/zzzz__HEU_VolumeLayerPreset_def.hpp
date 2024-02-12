@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_VolumeLayerPreset);
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9611))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9403))
 // CS Name: ::HoudiniEngineUnity::HEU_VolumeLayerPreset*
 class CORDL_TYPE HEU_VolumeLayerPreset : public ::System::Object {
 public:
@@ -61,7 +61,7 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_VolumeLayerPreset* New_ctor();
 
-  /// @brief Method .ctor, addr 0x214e868, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21e414c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_VolumeLayerPreset", modifiers: "&&", def_value: None }]

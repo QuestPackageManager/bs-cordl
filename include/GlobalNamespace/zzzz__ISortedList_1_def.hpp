@@ -23,7 +23,7 @@ namespace GlobalNamespace {
 template <typename T>
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14778))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15160))
 // CS Name: ::ISortedList`1<T>*
 class CORDL_TYPE ISortedList_1 {
 public:

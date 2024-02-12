@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::System::Net::HttpStreamAsyncResult);
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9178))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7188))
 // CS Name: ::System.Net::HttpStreamAsyncResult*
 class CORDL_TYPE HttpStreamAsyncResult : public ::System::Object {
 public:
@@ -144,27 +144,27 @@ public:
 
   constexpr void __cordl_internal_set_Error(::System::Exception* value);
 
-  /// @brief Method Complete, addr 0x29bd058, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x29c0afc, size 0x8, virtual false, abstract: false, final false
   inline void Complete(::System::Exception* e);
 
-  /// @brief Method Complete, addr 0x29bc994, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x29c0438, size 0x100, virtual false, abstract: false, final false
   inline void Complete();
 
-  /// @brief Method get_AsyncState, addr 0x29cb9c8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_AsyncState, addr 0x29cf46c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* get_AsyncState();
 
-  /// @brief Method get_AsyncWaitHandle, addr 0x29cb9d0, size 0x13c, virtual true, abstract: false, final true
+  /// @brief Method get_AsyncWaitHandle, addr 0x29cf474, size 0x13c, virtual true, abstract: false, final true
   inline ::System::Threading::WaitHandle* get_AsyncWaitHandle();
 
-  /// @brief Method get_CompletedSynchronously, addr 0x29cbb0c, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method get_CompletedSynchronously, addr 0x29cf5b0, size 0x14, virtual true, abstract: false, final true
   inline bool get_CompletedSynchronously();
 
-  /// @brief Method get_IsCompleted, addr 0x29cbb20, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method get_IsCompleted, addr 0x29cf5c4, size 0xc8, virtual true, abstract: false, final true
   inline bool get_IsCompleted();
 
   static inline ::System::Net::HttpStreamAsyncResult* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29bc92c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29c03d0, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HttpStreamAsyncResult", modifiers: "&&", def_value: None }]

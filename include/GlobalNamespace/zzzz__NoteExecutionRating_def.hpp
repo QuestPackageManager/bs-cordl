@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::GlobalNamespace::NoteExecutionRating);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4523))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10946))
 // CS Name: ::NoteExecutionRating::Rating
 struct CORDL_TYPE __NoteExecutionRating__Rating {
 public:
@@ -83,8 +83,8 @@ static_assert(offsetof(::GlobalNamespace::__NoteExecutionRating__Rating, value__
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4135)), TypeDefinitionIndex(TypeDefinitionIndex(4523)), TypeDefinitionIndex(TypeDefinitionIndex(14758))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4524))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10593)), TypeDefinitionIndex(TypeDefinitionIndex(10946)), TypeDefinitionIndex(TypeDefinitionIndex(15142))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10947))
 // CS Name: ::NoteExecutionRating*
 class CORDL_TYPE NoteExecutionRating : public ::GlobalNamespace::BeatmapObjectExecutionRating {
 public:
@@ -148,7 +148,7 @@ public:
   static inline ::GlobalNamespace::NoteExecutionRating* New_ctor(float_t time, ::GlobalNamespace::__NoteData__ScoringType scoringType, ::GlobalNamespace::__NoteExecutionRating__Rating rating,
                                                                  int32_t cutScore, int32_t beforeCutScore, int32_t centerDistanceCutScore, int32_t afterCutScore);
 
-  /// @brief Method .ctor, addr 0x2364644, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12a1e78, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(float_t time, ::GlobalNamespace::__NoteData__ScoringType scoringType, ::GlobalNamespace::__NoteExecutionRating__Rating rating, int32_t cutScore, int32_t beforeCutScore,
                     int32_t centerDistanceCutScore, int32_t afterCutScore);
 

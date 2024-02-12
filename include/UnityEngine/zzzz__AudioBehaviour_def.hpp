@@ -14,12 +14,17 @@ MARK_REF_PTR_T(::UnityEngine::AudioBehaviour);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10187))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15595))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8931))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15306))
 // CS Name: ::UnityEngine::AudioBehaviour*
 class CORDL_TYPE AudioBehaviour : public ::UnityEngine::Behaviour {
 public:
   // Declarations
+  static inline ::UnityEngine::AudioBehaviour* New_ctor();
+
+  /// @brief Method .ctor, addr 0x2c99000, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
   // Ctor Parameters [CppParam { name: "", ty: "AudioBehaviour", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AudioBehaviour(AudioBehaviour&&) = delete;

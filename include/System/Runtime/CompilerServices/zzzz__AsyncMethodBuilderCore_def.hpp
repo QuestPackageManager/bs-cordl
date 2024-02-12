@@ -75,7 +75,7 @@ MARK_VAL_T(::System::Runtime::CompilerServices::AsyncMethodBuilderCore);
 namespace System::Runtime::CompilerServices {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3404))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3400))
 // CS Name: ::AsyncMethodBuilderCore::MoveNextRunner*
 class CORDL_TYPE __AsyncMethodBuilderCore__MoveNextRunner : public ::System::Object {
 public:
@@ -108,13 +108,13 @@ public:
   static inline ::System::Runtime::CompilerServices::__AsyncMethodBuilderCore__MoveNextRunner* New_ctor(::System::Threading::ExecutionContext* context,
                                                                                                         ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
-  /// @brief Method .ctor, addr 0x24de1e4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24fd008, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::ExecutionContext* context, ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
-  /// @brief Method Run, addr 0x24de210, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method Run, addr 0x24fd43c, size 0x20c, virtual false, abstract: false, final false
   inline void Run();
 
-  /// @brief Method InvokeMoveNext, addr 0x24de41c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method InvokeMoveNext, addr 0x24fd648, size 0xe0, virtual false, abstract: false, final false
   static inline void InvokeMoveNext(::System::Object* stateMachine);
 
   // Ctor Parameters [CppParam { name: "", ty: "__AsyncMethodBuilderCore__MoveNextRunner", modifiers: "&&", def_value: None }]
@@ -152,7 +152,7 @@ static_assert(offsetof(::System::Runtime::CompilerServices::__AsyncMethodBuilder
 namespace System::Runtime::CompilerServices {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3405))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3401))
 // CS Name: ::AsyncMethodBuilderCore::ContinuationWrapper*
 class CORDL_TYPE __AsyncMethodBuilderCore__ContinuationWrapper : public ::System::Object {
 public:
@@ -187,10 +187,10 @@ public:
   static inline ::System::Runtime::CompilerServices::__AsyncMethodBuilderCore__ContinuationWrapper* New_ctor(::System::Action* continuation, ::System::Action* invokeAction,
                                                                                                              ::System::Threading::Tasks::Task* innerTask);
 
-  /// @brief Method .ctor, addr 0x24de4fc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24fd35c, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::System::Action* continuation, ::System::Action* invokeAction, ::System::Threading::Tasks::Task* innerTask);
 
-  /// @brief Method Invoke, addr 0x24de54c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x24fd728, size 0x24, virtual false, abstract: false, final false
   inline void Invoke();
 
   // Ctor Parameters [CppParam { name: "", ty: "__AsyncMethodBuilderCore__ContinuationWrapper", modifiers: "&&", def_value: None }]
@@ -233,7 +233,7 @@ static_assert(offsetof(::System::Runtime::CompilerServices::__AsyncMethodBuilder
 namespace System::Runtime::CompilerServices {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3406))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3402))
 // CS Name: ::AsyncMethodBuilderCore::<>c__DisplayClass5_0*
 class CORDL_TYPE __AsyncMethodBuilderCore____c__DisplayClass5_0 : public ::System::Object {
 public:
@@ -258,10 +258,10 @@ public:
 
   static inline ::System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c__DisplayClass5_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24de570, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24fd0f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <OutputAsyncCausalityEvents>b__0, addr 0x24de578, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <OutputAsyncCausalityEvents>b__0, addr 0x24fd74c, size 0x5c, virtual false, abstract: false, final false
   inline void _OutputAsyncCausalityEvents_b__0();
 
   // Ctor Parameters [CppParam { name: "", ty: "__AsyncMethodBuilderCore____c__DisplayClass5_0", modifiers: "&&", def_value: None }]
@@ -299,7 +299,7 @@ static_assert(offsetof(::System::Runtime::CompilerServices::__AsyncMethodBuilder
 namespace System::Runtime::CompilerServices {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3407))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3403))
 // CS Name: ::AsyncMethodBuilderCore::<>c*
 class CORDL_TYPE __AsyncMethodBuilderCore____c : public ::System::Object {
 public:
@@ -327,13 +327,13 @@ public:
 
   static inline ::System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24de638, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24fd80c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <ThrowAsync>b__7_0, addr 0x24de640, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <ThrowAsync>b__7_0, addr 0x24fd814, size 0x54, virtual false, abstract: false, final false
   inline void _ThrowAsync_b__7_0(::System::Object* state);
 
-  /// @brief Method <ThrowAsync>b__7_1, addr 0x24de6a4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <ThrowAsync>b__7_1, addr 0x24fd868, size 0x54, virtual false, abstract: false, final false
   inline void _ThrowAsync_b__7_1(::System::Object* state);
 
   // Ctor Parameters [CppParam { name: "", ty: "__AsyncMethodBuilderCore____c", modifiers: "&&", def_value: None }]
@@ -361,7 +361,7 @@ static_assert(::cordl_internals::size_check_v<::System::Runtime::CompilerService
 namespace System::Runtime::CompilerServices {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3408))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3404))
 // CS Name: ::System.Runtime.CompilerServices::AsyncMethodBuilderCore
 struct CORDL_TYPE AsyncMethodBuilderCore {
 public:
@@ -374,27 +374,27 @@ public:
 
   using MoveNextRunner = ::System::Runtime::CompilerServices::__AsyncMethodBuilderCore__MoveNextRunner;
 
-  /// @brief Method SetStateMachine, addr 0x24dc3e8, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method SetStateMachine, addr 0x24fc5cc, size 0xc8, virtual false, abstract: false, final false
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
-  /// @brief Method GetCompletionAction, addr 0x24dcc58, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method GetCompletionAction, addr 0x24fce3c, size 0x1cc, virtual false, abstract: false, final false
   inline ::System::Action* GetCompletionAction(::System::Threading::Tasks::Task* taskForTracing,
                                                ByRef<::System::Runtime::CompilerServices::__AsyncMethodBuilderCore__MoveNextRunner*> runnerToInitialize);
 
-  /// @brief Method OutputAsyncCausalityEvents, addr 0x24dce2c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method OutputAsyncCausalityEvents, addr 0x24fd034, size 0xc0, virtual false, abstract: false, final false
   inline ::System::Action* OutputAsyncCausalityEvents(::System::Threading::Tasks::Task* innerTask, ::System::Action* continuation);
 
-  /// @brief Method PostBoxInitialization, addr 0x24dcfb0, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method PostBoxInitialization, addr 0x24fd1bc, size 0x1a0, virtual false, abstract: false, final false
   inline void PostBoxInitialization(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine, ::System::Runtime::CompilerServices::__AsyncMethodBuilderCore__MoveNextRunner* runner,
                                     ::System::Threading::Tasks::Task* builtTask);
 
-  /// @brief Method ThrowAsync, addr 0x24dc750, size 0x2ec, virtual false, abstract: false, final false
+  /// @brief Method ThrowAsync, addr 0x24fc934, size 0x2ec, virtual false, abstract: false, final false
   static inline void ThrowAsync(::System::Exception* exception, ::System::Threading::SynchronizationContext* targetContext);
 
-  /// @brief Method CreateContinuationWrapper, addr 0x24dceec, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method CreateContinuationWrapper, addr 0x24fd0fc, size 0xc0, virtual false, abstract: false, final false
   static inline ::System::Action* CreateContinuationWrapper(::System::Action* continuation, ::System::Action* invokeAction, ::System::Threading::Tasks::Task* innerTask);
 
-  /// @brief Method TryGetContinuationTask, addr 0x24dd150, size 0x1094, virtual false, abstract: false, final false
+  /// @brief Method TryGetContinuationTask, addr 0x24fd3a8, size 0x94, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* TryGetContinuationTask(::System::Action* action);
 
   // Ctor Parameters [CppParam { name: "m_stateMachine", ty: "::System::Runtime::CompilerServices::IAsyncStateMachine*", modifiers: "", def_value: None }, CppParam { name: "m_defaultContextAction",

@@ -6,7 +6,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IMenuRpcManager)
 namespace GlobalNamespace {
-class BeatmapIdentifierNetSerializable;
+class BeatmapKeyNetSerializable;
 }
 namespace GlobalNamespace {
 struct CannotStartGameReason;
@@ -55,7 +55,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IMenuRpcManager);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12798))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12696))
 // CS Name: ::IMenuRpcManager*
 class CORDL_TYPE IMenuRpcManager {
 public:
@@ -84,10 +84,10 @@ public:
   inline void remove_setPlayersPermissionConfigurationEvent(::System::Action_2<::StringW, ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>* value);
 
   /// @brief Method add_recommendBeatmapEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void add_recommendBeatmapEvent(::System::Action_2<::StringW, ::GlobalNamespace::BeatmapIdentifierNetSerializable*>* value);
+  inline void add_recommendBeatmapEvent(::System::Action_2<::StringW, ::GlobalNamespace::BeatmapKeyNetSerializable*>* value);
 
   /// @brief Method remove_recommendBeatmapEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void remove_recommendBeatmapEvent(::System::Action_2<::StringW, ::GlobalNamespace::BeatmapIdentifierNetSerializable*>* value);
+  inline void remove_recommendBeatmapEvent(::System::Action_2<::StringW, ::GlobalNamespace::BeatmapKeyNetSerializable*>* value);
 
   /// @brief Method add_getRecommendedBeatmapEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void add_getRecommendedBeatmapEvent(::System::Action_1<::StringW>* value);
@@ -102,10 +102,10 @@ public:
   inline void remove_clearRecommendedBeatmapEvent(::System::Action_1<::StringW>* value);
 
   /// @brief Method add_setSelectedBeatmapEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void add_setSelectedBeatmapEvent(::System::Action_2<::StringW, ::GlobalNamespace::BeatmapIdentifierNetSerializable*>* value);
+  inline void add_setSelectedBeatmapEvent(::System::Action_2<::StringW, ::GlobalNamespace::BeatmapKeyNetSerializable*>* value);
 
   /// @brief Method remove_setSelectedBeatmapEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void remove_setSelectedBeatmapEvent(::System::Action_2<::StringW, ::GlobalNamespace::BeatmapIdentifierNetSerializable*>* value);
+  inline void remove_setSelectedBeatmapEvent(::System::Action_2<::StringW, ::GlobalNamespace::BeatmapKeyNetSerializable*>* value);
 
   /// @brief Method add_clearSelectedBeatmapEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void add_clearSelectedBeatmapEvent(::System::Action_1<::StringW>* value);
@@ -192,10 +192,10 @@ public:
   inline void remove_cancelledLevelStartEvent(::System::Action_1<::StringW>* value);
 
   /// @brief Method add_startedLevelEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void add_startedLevelEvent(::System::Action_4<::StringW, ::GlobalNamespace::BeatmapIdentifierNetSerializable*, ::GlobalNamespace::GameplayModifiers*, int64_t>* value);
+  inline void add_startedLevelEvent(::System::Action_4<::StringW, ::GlobalNamespace::BeatmapKeyNetSerializable*, ::GlobalNamespace::GameplayModifiers*, int64_t>* value);
 
   /// @brief Method remove_startedLevelEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void remove_startedLevelEvent(::System::Action_4<::StringW, ::GlobalNamespace::BeatmapIdentifierNetSerializable*, ::GlobalNamespace::GameplayModifiers*, int64_t>* value);
+  inline void remove_startedLevelEvent(::System::Action_4<::StringW, ::GlobalNamespace::BeatmapKeyNetSerializable*, ::GlobalNamespace::GameplayModifiers*, int64_t>* value);
 
   /// @brief Method add_getStartedLevelEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void add_getStartedLevelEvent(::System::Action_1<::StringW>* value);
@@ -288,7 +288,7 @@ public:
   inline void SetPlayersPermissionConfiguration(::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable* permissions);
 
   /// @brief Method RecommendBeatmap, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void RecommendBeatmap(::GlobalNamespace::BeatmapIdentifierNetSerializable* identifier);
+  inline void RecommendBeatmap(::GlobalNamespace::BeatmapKeyNetSerializable* key);
 
   /// @brief Method GetRecommendedBeatmap, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void GetRecommendedBeatmap();
@@ -297,7 +297,7 @@ public:
   inline void ClearRecommendedBeatmap();
 
   /// @brief Method SetSelectedBeatmap, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void SetSelectedBeatmap(::GlobalNamespace::BeatmapIdentifierNetSerializable* identifier);
+  inline void SetSelectedBeatmap(::GlobalNamespace::BeatmapKeyNetSerializable* key);
 
   /// @brief Method GetSelectedBeatmap, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void GetSelectedBeatmap();
@@ -360,7 +360,7 @@ public:
   inline void SetOwnedSongPacks(::GlobalNamespace::SongPackMask songPackMask);
 
   /// @brief Method StartLevel, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void StartLevel(::GlobalNamespace::BeatmapIdentifierNetSerializable* beatmapId, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, int64_t startTime);
+  inline void StartLevel(::GlobalNamespace::BeatmapKeyNetSerializable* beatmapKeySerializable, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, int64_t startTime);
 
   /// @brief Method GetStartedLevel, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void GetStartedLevel();

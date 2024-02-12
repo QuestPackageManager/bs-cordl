@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::DragAndDropPosition);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6954))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6213))
 // CS Name: ::UnityEngine.UIElements::DragAndDropPosition
 struct CORDL_TYPE DragAndDropPosition {
 public:

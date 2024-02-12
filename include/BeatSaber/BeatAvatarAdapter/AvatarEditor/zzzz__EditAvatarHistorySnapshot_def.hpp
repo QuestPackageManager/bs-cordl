@@ -21,13 +21,13 @@ MARK_VAL_T(::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarHistorySnapsh
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15683))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15271))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15784))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15386))
 // CS Name: ::BeatSaber.BeatAvatarAdapter.AvatarEditor::EditAvatarHistorySnapshot
 struct CORDL_TYPE EditAvatarHistorySnapshot {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0xe14ef0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe20ad8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::BeatSaber::BeatAvatarSDK::AvatarData* avatarData, ::BeatSaber::BeatAvatarSDK::AvatarPart avatarEditPart);
 
   // Ctor Parameters [CppParam { name: "avatarEditPart", ty: "::BeatSaber::BeatAvatarSDK::AvatarPart", modifiers: "", def_value: None }, CppParam { name: "avatarData", ty:

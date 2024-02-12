@@ -25,7 +25,7 @@ namespace UnityEngine::UIElements {
 template <typename T>
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7306))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6565))
 // CS Name: ::UnityEngine.UIElements::CustomStyleProperty`1<T>
 struct CORDL_TYPE CustomStyleProperty_1 {
 public:

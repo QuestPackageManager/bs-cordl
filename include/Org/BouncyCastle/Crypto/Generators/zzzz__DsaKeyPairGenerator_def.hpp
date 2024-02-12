@@ -60,21 +60,21 @@ public:
 
   static inline ::Org::BouncyCastle::Math::BigInteger* getStaticF_One();
 
-  /// @brief Method Init, addr 0xef8138, size 0xec, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0xf22fc8, size 0xec, virtual true, abstract: false, final true
   inline void Init(::Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
 
-  /// @brief Method GenerateKeyPair, addr 0xef8224, size 0x148, virtual true, abstract: false, final true
+  /// @brief Method GenerateKeyPair, addr 0xf230b4, size 0x148, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GenerateKeyPair();
 
-  /// @brief Method GeneratePrivateKey, addr 0xef836c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GeneratePrivateKey, addr 0xf231fc, size 0xf0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* GeneratePrivateKey(::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method CalculatePublicKey, addr 0xef845c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method CalculatePublicKey, addr 0xf232ec, size 0x24, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* CalculatePublicKey(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* g, ::Org::BouncyCastle::Math::BigInteger* x);
 
   static inline ::Org::BouncyCastle::Crypto::Generators::DsaKeyPairGenerator* New_ctor();
 
-  /// @brief Method .ctor, addr 0xef84f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf23388, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DsaKeyPairGenerator", modifiers: "&&", def_value: None }]

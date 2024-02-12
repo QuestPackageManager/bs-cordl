@@ -51,7 +51,7 @@ MARK_REF_PTR_T(::System::Net::HttpListenerRequestUriBuilder);
 namespace System::Net {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9064))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7074))
 // CS Name: ::HttpListenerRequestUriBuilder::ParsingResult
 struct CORDL_TYPE __HttpListenerRequestUriBuilder__ParsingResult {
 public:
@@ -105,7 +105,7 @@ static_assert(offsetof(::System::Net::__HttpListenerRequestUriBuilder__ParsingRe
 namespace System::Net {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9065))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7075))
 // CS Name: ::HttpListenerRequestUriBuilder::EncodingType
 struct CORDL_TYPE __HttpListenerRequestUriBuilder__EncodingType {
 public:
@@ -155,7 +155,7 @@ static_assert(offsetof(::System::Net::__HttpListenerRequestUriBuilder__EncodingT
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9066))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7076))
 // CS Name: ::System.Net::HttpListenerRequestUriBuilder*
 class CORDL_TYPE HttpListenerRequestUriBuilder : public ::System::Object {
 public:
@@ -268,52 +268,52 @@ public:
 
   static inline ::System::Net::HttpListenerRequestUriBuilder* New_ctor(::StringW rawUri, ::StringW cookedUriScheme, ::StringW cookedUriHost, ::StringW cookedUriPath, ::StringW cookedUriQuery);
 
-  /// @brief Method .ctor, addr 0x299b934, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x299f3d8, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::StringW rawUri, ::StringW cookedUriScheme, ::StringW cookedUriHost, ::StringW cookedUriPath, ::StringW cookedUriQuery);
 
-  /// @brief Method GetRequestUri, addr 0x299ba7c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetRequestUri, addr 0x299f520, size 0x90, virtual false, abstract: false, final false
   static inline ::System::Uri* GetRequestUri(::StringW rawUri, ::StringW cookedUriScheme, ::StringW cookedUriHost, ::StringW cookedUriPath, ::StringW cookedUriQuery);
 
-  /// @brief Method Build, addr 0x299bb0c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x299f5b0, size 0xe8, virtual false, abstract: false, final false
   inline ::System::Uri* Build();
 
-  /// @brief Method BuildRequestUriUsingCookedPath, addr 0x299bbf4, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method BuildRequestUriUsingCookedPath, addr 0x299f698, size 0x294, virtual false, abstract: false, final false
   inline void BuildRequestUriUsingCookedPath();
 
-  /// @brief Method BuildRequestUriUsingRawPath, addr 0x299be88, size 0x384, virtual false, abstract: false, final false
+  /// @brief Method BuildRequestUriUsingRawPath, addr 0x299f92c, size 0x384, virtual false, abstract: false, final false
   inline void BuildRequestUriUsingRawPath();
 
-  /// @brief Method GetEncoding, addr 0x299c384, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetEncoding, addr 0x299fe28, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::Text::Encoding* GetEncoding(::System::Net::__HttpListenerRequestUriBuilder__EncodingType type);
 
-  /// @brief Method BuildRequestUriUsingRawPath, addr 0x299c3f0, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method BuildRequestUriUsingRawPath, addr 0x299fe94, size 0x250, virtual false, abstract: false, final false
   inline ::System::Net::__HttpListenerRequestUriBuilder__ParsingResult BuildRequestUriUsingRawPath(::System::Text::Encoding* encoding);
 
-  /// @brief Method ParseRawPath, addr 0x299c640, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method ParseRawPath, addr 0x29a00e4, size 0x150, virtual false, abstract: false, final false
   inline ::System::Net::__HttpListenerRequestUriBuilder__ParsingResult ParseRawPath(::System::Text::Encoding* encoding);
 
-  /// @brief Method AppendUnicodeCodePointValuePercentEncoded, addr 0x299cb38, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method AppendUnicodeCodePointValuePercentEncoded, addr 0x29a05dc, size 0x314, virtual false, abstract: false, final false
   inline bool AppendUnicodeCodePointValuePercentEncoded(::StringW codePoint);
 
-  /// @brief Method AddPercentEncodedOctetToRawOctetsList, addr 0x299ce4c, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method AddPercentEncodedOctetToRawOctetsList, addr 0x29a08f0, size 0x154, virtual false, abstract: false, final false
   inline bool AddPercentEncodedOctetToRawOctetsList(::System::Text::Encoding* encoding, ::StringW escapedCharacter);
 
-  /// @brief Method EmptyDecodeAndAppendRawOctetsList, addr 0x299c790, size 0x3a8, virtual false, abstract: false, final false
+  /// @brief Method EmptyDecodeAndAppendRawOctetsList, addr 0x29a0234, size 0x3a8, virtual false, abstract: false, final false
   inline bool EmptyDecodeAndAppendRawOctetsList(::System::Text::Encoding* encoding);
 
-  /// @brief Method AppendOctetsPercentEncoded, addr 0x299cfa0, size 0x36c, virtual false, abstract: false, final false
+  /// @brief Method AppendOctetsPercentEncoded, addr 0x29a0a44, size 0x36c, virtual false, abstract: false, final false
   static inline void AppendOctetsPercentEncoded(::System::Text::StringBuilder* target, ::System::Collections::Generic::IEnumerable_1<uint8_t>* octets);
 
-  /// @brief Method GetOctetsAsString, addr 0x299d30c, size 0x3d8, virtual false, abstract: false, final false
+  /// @brief Method GetOctetsAsString, addr 0x29a0db0, size 0x13d8, virtual false, abstract: false, final false
   static inline ::StringW GetOctetsAsString(::System::Collections::Generic::IEnumerable_1<uint8_t>* octets);
 
-  /// @brief Method GetPath, addr 0x299c214, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method GetPath, addr 0x299fcb8, size 0x170, virtual false, abstract: false, final false
   static inline ::StringW GetPath(::StringW uriString);
 
-  /// @brief Method AddSlashToAsteriskOnlyPath, addr 0x299ba00, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method AddSlashToAsteriskOnlyPath, addr 0x299f4a4, size 0x7c, virtual false, abstract: false, final false
   static inline ::StringW AddSlashToAsteriskOnlyPath(::StringW path);
 
-  /// @brief Method LogWarning, addr 0x299c20c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method LogWarning, addr 0x299fcb0, size 0x8, virtual false, abstract: false, final false
   inline void LogWarning(::StringW methodName, ::StringW message, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
   // Ctor Parameters [CppParam { name: "", ty: "HttpListenerRequestUriBuilder", modifiers: "&&", def_value: None }]

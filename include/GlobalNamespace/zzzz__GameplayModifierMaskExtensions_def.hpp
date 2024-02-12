@@ -23,24 +23,24 @@ MARK_REF_PTR_T(::GlobalNamespace::GameplayModifierMaskExtensions);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14998))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14871))
 // CS Name: ::GameplayModifierMaskExtensions*
 class CORDL_TYPE GameplayModifierMaskExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Contains, addr 0x12a20a4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x1337e70, size 0x10, virtual false, abstract: false, final false
   static inline bool Contains(::GlobalNamespace::GameplayModifierMask mask, ::GlobalNamespace::GameplayModifierMask other);
 
-  /// @brief Method DifferenceFrom, addr 0x12a20b4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method DifferenceFrom, addr 0x1337e80, size 0x10, virtual false, abstract: false, final false
   static inline int32_t DifferenceFrom(::GlobalNamespace::GameplayModifierMask mask, ::GlobalNamespace::GameplayModifierMask other);
 
-  /// @brief Method ToHexString, addr 0x12a20c4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ToHexString, addr 0x1337e90, size 0x5c, virtual false, abstract: false, final false
   static inline ::StringW ToHexString(::GlobalNamespace::GameplayModifierMask mask);
 
-  /// @brief Method ToModifiers, addr 0x12a2120, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method ToModifiers, addr 0x1337eec, size 0x148, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::GameplayModifiers* ToModifiers(::GlobalNamespace::GameplayModifierMask gameplayModifierMask);
 
-  /// @brief Method ToMask, addr 0x12a235c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method ToMask, addr 0x1338128, size 0xb8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::GameplayModifierMask ToMask(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
   // Ctor Parameters [CppParam { name: "", ty: "GameplayModifierMaskExtensions", modifiers: "&&", def_value: None }]

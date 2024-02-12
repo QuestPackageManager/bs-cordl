@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::TerrainUtils::TerrainMapStatusCode);
 namespace UnityEngine::TerrainUtils {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15476))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15654))
 // CS Name: ::UnityEngine.TerrainUtils::TerrainMapStatusCode
 struct CORDL_TYPE TerrainMapStatusCode {
 public:

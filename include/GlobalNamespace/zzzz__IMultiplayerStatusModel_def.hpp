@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IMultiplayerStatusModel);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4467))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10877))
 // CS Name: ::IMultiplayerStatusModel*
 class CORDL_TYPE IMultiplayerStatusModel {
 public:

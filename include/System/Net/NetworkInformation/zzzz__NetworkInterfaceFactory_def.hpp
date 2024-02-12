@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::NetworkInterfaceFactory);
 namespace System::Net::NetworkInformation {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9283))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7293))
 // CS Name: ::System.Net.NetworkInformation::NetworkInterfaceFactory*
 class CORDL_TYPE NetworkInterfaceFactory : public ::System::Object {
 public:
@@ -27,12 +27,12 @@ public:
   /// @brief Method GetAllNetworkInterfaces, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<::System::Net::NetworkInformation::NetworkInterface*, ::Array<::System::Net::NetworkInformation::NetworkInterface*>*> GetAllNetworkInterfaces();
 
-  /// @brief Method Create, addr 0x29f0290, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x29f4d34, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Net::NetworkInformation::NetworkInterfaceFactory* Create();
 
   static inline ::System::Net::NetworkInformation::NetworkInterfaceFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29f02e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29f4d88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NetworkInterfaceFactory", modifiers: "&&", def_value: None }]

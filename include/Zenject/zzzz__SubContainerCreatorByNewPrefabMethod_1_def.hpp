@@ -53,7 +53,7 @@ namespace Zenject {
 template <typename TParam1>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11278))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10420))
 // CS Name: ::SubContainerCreatorByNewPrefabMethod`1::<>c__DisplayClass2_0<TParam1>*
 class CORDL_TYPE __SubContainerCreatorByNewPrefabMethod_1____c__DisplayClass2_0 : public ::System::Object {
 public:
@@ -120,8 +120,8 @@ namespace Zenject {
 // cpp template
 template <typename TParam1>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11274))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11279))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10416))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10421))
 // CS Name: ::Zenject::SubContainerCreatorByNewPrefabMethod`1<TParam1>*
 class CORDL_TYPE SubContainerCreatorByNewPrefabMethod_1 : public ::Zenject::SubContainerCreatorByNewPrefabDynamicContext {
 public:

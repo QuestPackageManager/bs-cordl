@@ -36,8 +36,8 @@ MARK_REF_PTR_T(::BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 132, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15174))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15187))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15254))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15268))
 // CS Name: ::BeatSaber.AvatarCore::ConnectedPlayerAvatarPoseDataProvider*
 class CORDL_TYPE ConnectedPlayerAvatarPoseDataProvider : public ::System::Object {
 public:
@@ -102,24 +102,24 @@ public:
 
   constexpr void __cordl_internal_set__currentPose(::BeatSaber::AvatarCore::AvatarPoseData value);
 
-  /// @brief Method get_currentPose, addr 0xe0ed6c, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method get_currentPose, addr 0xe1a568, size 0x10, virtual true, abstract: false, final true
   inline ::BeatSaber::AvatarCore::AvatarPoseData get_currentPose();
 
-  /// @brief Method add_poseDidChangeEvent, addr 0xe0ed7c, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_poseDidChangeEvent, addr 0xe1a578, size 0xb0, virtual true, abstract: false, final true
   inline void add_poseDidChangeEvent(::System::Action_1<::BeatSaber::AvatarCore::AvatarPoseData>* value);
 
-  /// @brief Method remove_poseDidChangeEvent, addr 0xe0ee2c, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_poseDidChangeEvent, addr 0xe1a628, size 0xb0, virtual true, abstract: false, final true
   inline void remove_poseDidChangeEvent(::System::Action_1<::BeatSaber::AvatarCore::AvatarPoseData>* value);
 
   static inline ::BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider* New_ctor(::GlobalNamespace::IConnectedPlayer* connectedPlayer,
                                                                                          ::GlobalNamespace::INodePoseSyncStateManager* nodePoseSyncStateManager,
                                                                                          ::BeatSaber::AvatarCore::IAvatarPoseRestriction* avatarPoseRestriction);
 
-  /// @brief Method .ctor, addr 0xe0eedc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe1a6d8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IConnectedPlayer* connectedPlayer, ::GlobalNamespace::INodePoseSyncStateManager* nodePoseSyncStateManager,
                     ::BeatSaber::AvatarCore::IAvatarPoseRestriction* avatarPoseRestriction);
 
-  /// @brief Method Tick, addr 0xe0ef18, size 0x564, virtual true, abstract: false, final true
+  /// @brief Method Tick, addr 0xe1a714, size 0x564, virtual true, abstract: false, final true
   inline void Tick();
 
   // Ctor Parameters [CppParam { name: "", ty: "ConnectedPlayerAvatarPoseDataProvider", modifiers: "&&", def_value: None }]

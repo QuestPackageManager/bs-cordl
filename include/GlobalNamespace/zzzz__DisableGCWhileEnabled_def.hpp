@@ -14,21 +14,21 @@ MARK_REF_PTR_T(::GlobalNamespace::DisableGCWhileEnabled);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14359))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14514))
 // CS Name: ::DisableGCWhileEnabled*
 class CORDL_TYPE DisableGCWhileEnabled : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Method OnEnable, addr 0x20f1e80, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x2186408, size 0xc, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable, addr 0x20f1e8c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x2186414, size 0xc, virtual false, abstract: false, final false
   inline void OnDisable();
 
   static inline ::GlobalNamespace::DisableGCWhileEnabled* New_ctor();
 
-  /// @brief Method .ctor, addr 0x20f1e98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2186420, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DisableGCWhileEnabled", modifiers: "&&", def_value: None }]

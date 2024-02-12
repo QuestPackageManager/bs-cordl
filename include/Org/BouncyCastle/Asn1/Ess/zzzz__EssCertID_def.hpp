@@ -57,31 +57,31 @@ public:
 
   constexpr void __cordl_internal_set_issuerSerial(::Org::BouncyCastle::Asn1::X509::IssuerSerial* value);
 
-  /// @brief Method GetInstance, addr 0xe99ea0, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xec3d30, size 0x190, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ess::EssCertID* GetInstance(::System::Object* o);
 
   static inline ::Org::BouncyCastle::Asn1::Ess::EssCertID* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xe9a030, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xec3ec0, size 0x154, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::Ess::EssCertID* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> hash);
 
-  /// @brief Method .ctor, addr 0xe9a184, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xec4014, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> hash);
 
   static inline ::Org::BouncyCastle::Asn1::Ess::EssCertID* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> hash, ::Org::BouncyCastle::Asn1::X509::IssuerSerial* issuerSerial);
 
-  /// @brief Method .ctor, addr 0xe9a200, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xec4090, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> hash, ::Org::BouncyCastle::Asn1::X509::IssuerSerial* issuerSerial);
 
-  /// @brief Method GetCertHash, addr 0xe9a280, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetCertHash, addr 0xec4110, size 0x20, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetCertHash();
 
-  /// @brief Method get_IssuerSerial, addr 0xe9a2a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IssuerSerial, addr 0xec4130, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::IssuerSerial* get_IssuerSerial();
 
-  /// @brief Method ToAsn1Object, addr 0xe9a2a8, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xec4138, size 0x148, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "EssCertID", modifiers: "&&", def_value: None }]

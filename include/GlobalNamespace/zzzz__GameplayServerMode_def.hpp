@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::GameplayServerMode);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12768))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12666))
 // CS Name: ::GameplayServerMode
 struct CORDL_TYPE GameplayServerMode {
 public:

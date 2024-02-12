@@ -58,8 +58,8 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::__TextureBlitter__BlitInfo);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10162)), TypeDefinitionIndex(TypeDefinitionIndex(10244)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7386))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8906)), TypeDefinitionIndex(TypeDefinitionIndex(8988)), TypeDefinitionIndex(TypeDefinitionIndex(8995))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6645))
 // CS Name: ::TextureBlitter::BlitInfo
 struct CORDL_TYPE __TextureBlitter__BlitInfo {
 public:
@@ -111,8 +111,8 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::__TextureBlitter__BlitInf
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 73, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(10162))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7387))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8695)), TypeDefinitionIndex(TypeDefinitionIndex(8906))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6646))
 // CS Name: ::UnityEngine.UIElements.UIR::TextureBlitter*
 class CORDL_TYPE TextureBlitter : public ::System::Object {
 public:
@@ -207,39 +207,39 @@ public:
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_CommitSampler();
 
-  /// @brief Method get_disposed, addr 0x2e8b8e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x2ea5cc8, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
-  /// @brief Method set_disposed, addr 0x2e8b8e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x2ea5cd0, size 0xc, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
-  /// @brief Method Dispose, addr 0x2e7d444, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2e9782c, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x2e8b8f4, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x2ea5cdc, size 0x7c, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::UnityEngine::UIElements::UIR::TextureBlitter* New_ctor(int32_t capacity);
 
-  /// @brief Method .ctor, addr 0x2e7d13c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e97524, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity);
 
-  /// @brief Method QueueBlit, addr 0x2e7d830, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method QueueBlit, addr 0x2e97c18, size 0x1a4, virtual false, abstract: false, final false
   inline void QueueBlit(::UnityEngine::Texture* src, ::UnityEngine::RectInt srcRect, ::UnityEngine::Vector2Int dstPos, bool addBorder, ::UnityEngine::Color tint);
 
-  /// @brief Method BlitOneNow, addr 0x2e7e0b4, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method BlitOneNow, addr 0x2e9849c, size 0xe4, virtual false, abstract: false, final false
   inline void BlitOneNow(::UnityEngine::RenderTexture* dst, ::UnityEngine::Texture* src, ::UnityEngine::RectInt srcRect, ::UnityEngine::Vector2Int dstPos, bool addBorder, ::UnityEngine::Color tint);
 
-  /// @brief Method Commit, addr 0x2e7de90, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Commit, addr 0x2e98278, size 0xec, virtual false, abstract: false, final false
   inline void Commit(::UnityEngine::RenderTexture* dst);
 
-  /// @brief Method BeginBlit, addr 0x2e8ba9c, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method BeginBlit, addr 0x2ea5e84, size 0x1fc, virtual false, abstract: false, final false
   inline void BeginBlit(::UnityEngine::RenderTexture* dst);
 
-  /// @brief Method DoBlit, addr 0x2e8bc98, size 0x51c, virtual false, abstract: false, final false
+  /// @brief Method DoBlit, addr 0x2ea6080, size 0x51c, virtual false, abstract: false, final false
   inline void DoBlit(::System::Collections::Generic::IList_1<::UnityEngine::UIElements::UIR::__TextureBlitter__BlitInfo>* blitInfos, int32_t startIndex);
 
-  /// @brief Method EndBlit, addr 0x2e8c1b4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method EndBlit, addr 0x2ea659c, size 0xe0, virtual false, abstract: false, final false
   inline void EndBlit();
 
   // Ctor Parameters [CppParam { name: "", ty: "TextureBlitter", modifiers: "&&", def_value: None }]

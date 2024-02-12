@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Processors::ClampProcessor);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Processors {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6236)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6236), inst: 391 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6581))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5495)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5495), inst: 391 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5840))
 // CS Name: ::UnityEngine.InputSystem.Processors::ClampProcessor*
 class CORDL_TYPE ClampProcessor : public ::UnityEngine::InputSystem::InputProcessor_1<float_t> {
 public:
@@ -43,15 +43,15 @@ public:
 
   constexpr void __cordl_internal_set_max(float_t value);
 
-  /// @brief Method Process, addr 0x2af8d44, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Process, addr 0x2af98b0, size 0x18, virtual true, abstract: false, final false
   inline float_t Process(float_t value, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method ToString, addr 0x2af8d5c, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2af98c8, size 0xa0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   static inline ::UnityEngine::InputSystem::Processors::ClampProcessor* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2af8dfc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2af9968, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ClampProcessor", modifiers: "&&", def_value: None }]

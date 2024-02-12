@@ -18,12 +18,12 @@ MARK_REF_PTR_T(::Oculus::Platform::Entitlements);
 namespace Oculus::Platform {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13360))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13287))
 // CS Name: ::Oculus.Platform::Entitlements*
 class CORDL_TYPE Entitlements : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsUserEntitledToApplication, addr 0x26fcbc4, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method IsUserEntitledToApplication, addr 0x272ddf4, size 0x148, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request* IsUserEntitledToApplication();
 
   // Ctor Parameters [CppParam { name: "", ty: "Entitlements", modifiers: "&&", def_value: None }]

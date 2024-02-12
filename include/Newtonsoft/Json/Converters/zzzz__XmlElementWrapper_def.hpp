@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Converters::XmlElementWrapper);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12052))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12049))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11950))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11947))
 // CS Name: ::Newtonsoft.Json.Converters::XmlElementWrapper*
 class CORDL_TYPE XmlElementWrapper : public ::Newtonsoft::Json::Converters::XmlNodeWrapper {
 public:
@@ -55,16 +55,16 @@ public:
 
   static inline ::Newtonsoft::Json::Converters::XmlElementWrapper* New_ctor(::System::Xml::XmlElement* element);
 
-  /// @brief Method .ctor, addr 0x26b9dac, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26dbf68, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlElement* element);
 
-  /// @brief Method SetAttributeNode, addr 0x26ba084, size 0xe8, virtual true, abstract: false, final true
+  /// @brief Method SetAttributeNode, addr 0x26dc240, size 0xe8, virtual true, abstract: false, final true
   inline void SetAttributeNode(::Newtonsoft::Json::Converters::IXmlNode* attribute);
 
-  /// @brief Method GetPrefixOfNamespace, addr 0x26ba16c, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method GetPrefixOfNamespace, addr 0x26dc328, size 0x24, virtual true, abstract: false, final true
   inline ::StringW GetPrefixOfNamespace(::StringW namespaceUri);
 
-  /// @brief Method get_IsEmpty, addr 0x26ba190, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_IsEmpty, addr 0x26dc34c, size 0x1c, virtual true, abstract: false, final true
   inline bool get_IsEmpty();
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlElementWrapper", modifiers: "&&", def_value: None }]

@@ -26,7 +26,7 @@ namespace GlobalNamespace {
 template <typename TKey, typename TValue>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5912))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16032))
 // CS Name: ::ReferenceCountingCache`2<TKey,TValue>*
 class CORDL_TYPE ReferenceCountingCache_2 : public ::System::Object {
 public:

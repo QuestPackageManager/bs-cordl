@@ -44,7 +44,7 @@ public:
 
   static inline ::System::MonoTypeInfo* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25f6248, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x261a148, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MonoTypeInfo", modifiers: "&&", def_value: None }]

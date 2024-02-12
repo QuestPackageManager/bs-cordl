@@ -36,7 +36,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__MissionHelpViewController__MissionHelpGameOb
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5694))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4996))
 // CS Name: ::MissionHelpViewController::MissionHelpGameObjectPair*
 class CORDL_TYPE __MissionHelpViewController__MissionHelpGameObjectPair : public ::System::Object {
 public:
@@ -61,7 +61,7 @@ public:
 
   static inline ::GlobalNamespace::__MissionHelpViewController__MissionHelpGameObjectPair* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22c9c4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22f9848, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MissionHelpViewController__MissionHelpGameObjectPair", modifiers: "&&", def_value: None }]
@@ -98,8 +98,8 @@ static_assert(offsetof(::GlobalNamespace::__MissionHelpViewController__MissionHe
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5695))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13558))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4997))
 // CS Name: ::MissionHelpViewController*
 class CORDL_TYPE MissionHelpViewController : public ::HMUI::ViewController {
 public:
@@ -146,27 +146,27 @@ public:
 
   constexpr void __cordl_internal_set__missionHelp(::UnityW<::GlobalNamespace::MissionHelpSO> value);
 
-  /// @brief Method add_didFinishEvent, addr 0x22c991c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x22f9518, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionHelpViewController>>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x22c99cc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x22f95c8, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionHelpViewController>>* value);
 
-  /// @brief Method Setup, addr 0x22c9a7c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x22f9678, size 0x2c, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::MissionHelpSO* missionHelp);
 
-  /// @brief Method DidActivate, addr 0x22c9b78, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x22f9774, size 0xac, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method RefreshContent, addr 0x22c9aa8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method RefreshContent, addr 0x22f96a4, size 0xd0, virtual false, abstract: false, final false
   inline void RefreshContent();
 
-  /// @brief Method OkButtonPressed, addr 0x22c9c24, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OkButtonPressed, addr 0x22f9820, size 0x20, virtual false, abstract: false, final false
   inline void OkButtonPressed();
 
   static inline ::GlobalNamespace::MissionHelpViewController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22c9c44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22f9840, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionHelpViewController", modifiers: "&&", def_value: None }]

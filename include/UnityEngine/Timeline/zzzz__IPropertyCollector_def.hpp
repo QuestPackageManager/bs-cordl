@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::IPropertyCollector);
 namespace UnityEngine::Timeline {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13933))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13886))
 // CS Name: ::UnityEngine.Timeline::IPropertyCollector*
 class CORDL_TYPE IPropertyCollector {
 public:

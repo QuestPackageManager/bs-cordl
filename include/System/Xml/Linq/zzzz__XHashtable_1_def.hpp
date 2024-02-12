@@ -47,7 +47,7 @@ namespace System::Xml::Linq {
 template <typename TValue>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15442))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15556))
 // CS Name: ::XHashtable`1::ExtractKeyDelegate<TValue>*
 class CORDL_TYPE __XHashtable_1__ExtractKeyDelegate : public ::System::MulticastDelegate {
 public:
@@ -85,7 +85,7 @@ namespace GlobalNamespace {
 template <typename TValue>
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15443))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15557))
 // CS Name: ::XHashtable`1::XHashtableState::Entry<TValue>
 struct CORDL_TYPE __XHashtable_1__XHashtableState__Entry {
 public:
@@ -121,7 +121,7 @@ namespace System::Xml::Linq {
 template <typename TValue>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15444))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15558))
 // CS Name: ::XHashtable`1::XHashtableState<TValue>*
 class CORDL_TYPE __XHashtable_1__XHashtableState : public ::System::Object {
 public:
@@ -224,7 +224,7 @@ namespace System::Xml::Linq {
 template <typename TValue>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15445))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15559))
 // CS Name: ::System.Xml.Linq::XHashtable`1<TValue>*
 class CORDL_TYPE XHashtable_1 : public ::System::Object {
 public:

@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::System::SerializableAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25c139c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25e32b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SerializableAttribute", modifiers: "&&", def_value: None }]

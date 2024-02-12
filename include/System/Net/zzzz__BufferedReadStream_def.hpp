@@ -52,9 +52,9 @@ MARK_VAL_T(::System::Net::__BufferedReadStream___ProcessReadAsync_d__2);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 98 })] Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(9151)) CS Name: ::BufferedReadStream::<ProcessReadAsync>d__2
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3398)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3393), inst: 103 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3398), inst: 103 })] Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(7161)) CS Name: ::BufferedReadStream::<ProcessReadAsync>d__2
 struct CORDL_TYPE __BufferedReadStream___ProcessReadAsync_d__2 {
 public:
   // Declarations
@@ -64,10 +64,10 @@ public:
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x29bc1dc, size 0x2b0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x29bfc80, size 0x2b0, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x29bc48c, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x29bff30, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -137,8 +137,8 @@ static_assert(offsetof(::System::Net::__BufferedReadStream___ProcessReadAsync_d_
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9229))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9152))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7239))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7162))
 // CS Name: ::System.Net::BufferedReadStream*
 class CORDL_TYPE BufferedReadStream : public ::System::Net::WebReadStream {
 public:
@@ -156,14 +156,14 @@ public:
 
   static inline ::System::Net::BufferedReadStream* New_ctor(::System::Net::WebOperation* operation, ::System::IO::Stream* innerStream, ::System::Net::BufferOffsetSize* readBuffer);
 
-  /// @brief Method .ctor, addr 0x29bbffc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29bfaa0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::WebOperation* operation, ::System::IO::Stream* innerStream, ::System::Net::BufferOffsetSize* readBuffer);
 
-  /// @brief Method ProcessReadAsync, addr 0x29bc024, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method ProcessReadAsync, addr 0x29bfac8, size 0x128, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ProcessReadAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size,
                                                                        ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method TryReadFromBuffer, addr 0x29bc14c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method TryReadFromBuffer, addr 0x29bfbf0, size 0x90, virtual false, abstract: false, final false
   inline bool TryReadFromBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size, ByRef<int32_t> result);
 
   // Ctor Parameters [CppParam { name: "", ty: "BufferedReadStream", modifiers: "&&", def_value: None }]

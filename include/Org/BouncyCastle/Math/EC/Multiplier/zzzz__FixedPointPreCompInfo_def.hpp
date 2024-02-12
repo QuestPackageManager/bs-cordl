@@ -69,27 +69,27 @@ public:
 
   constexpr void __cordl_internal_set_m_width(int32_t value);
 
-  /// @brief Method get_LookupTable, addr 0x1036270, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_LookupTable, addr 0x1063100, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECLookupTable* get_LookupTable();
 
-  /// @brief Method set_LookupTable, addr 0x1036278, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_LookupTable, addr 0x1063108, size 0x8, virtual true, abstract: false, final false
   inline void set_LookupTable(::Org::BouncyCastle::Math::EC::ECLookupTable* value);
 
-  /// @brief Method get_Offset, addr 0x1036280, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Offset, addr 0x1063110, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* get_Offset();
 
-  /// @brief Method set_Offset, addr 0x1036288, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_Offset, addr 0x1063118, size 0x8, virtual true, abstract: false, final false
   inline void set_Offset(::Org::BouncyCastle::Math::EC::ECPoint* value);
 
-  /// @brief Method get_Width, addr 0x1036290, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Width, addr 0x1063120, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Width();
 
-  /// @brief Method set_Width, addr 0x1036298, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_Width, addr 0x1063128, size 0x8, virtual true, abstract: false, final false
   inline void set_Width(int32_t value);
 
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10362a0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1063130, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FixedPointPreCompInfo", modifiers: "&&", def_value: None }]

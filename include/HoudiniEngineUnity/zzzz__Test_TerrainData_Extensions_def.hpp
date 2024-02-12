@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::__Test_TerrainData_Extensions____c);
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9943))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9735))
 // CS Name: ::Test_TerrainData_Extensions::<>c*
 class CORDL_TYPE __Test_TerrainData_Extensions____c : public ::System::Object {
 public:
@@ -63,13 +63,13 @@ public:
 
   static inline ::HoudiniEngineUnity::__Test_TerrainData_Extensions____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21e90b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x227e9a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <ToTestObject>b__1_0, addr 0x21e90c0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <ToTestObject>b__1_0, addr 0x227e9a8, size 0x64, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::Test_TerrainData* _ToTestObject_b__1_0(::UnityEngine::TerrainData* lod);
 
-  /// @brief Method <ToTestObject>b__2_0, addr 0x21e9124, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <ToTestObject>b__2_0, addr 0x227ea0c, size 0x64, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::Test_TerrainData* _ToTestObject_b__2_0(::UnityEngine::TerrainData* lod);
 
   // Ctor Parameters [CppParam { name: "", ty: "__Test_TerrainData_Extensions____c", modifiers: "&&", def_value: None }]
@@ -97,21 +97,21 @@ static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__Test_Terra
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9944))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9736))
 // CS Name: ::HoudiniEngineUnity::Test_TerrainData_Extensions*
 class CORDL_TYPE Test_TerrainData_Extensions : public ::System::Object {
 public:
   // Declarations
   using __c = ::HoudiniEngineUnity::__Test_TerrainData_Extensions____c;
 
-  /// @brief Method ToTestObject, addr 0x21e8dfc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x227e6e4, size 0x64, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::Test_TerrainData* ToTestObject(::UnityEngine::TerrainData* self);
 
-  /// @brief Method ToTestObject, addr 0x21e8e60, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x227e748, size 0xf8, virtual false, abstract: false, final false
   static inline ::ArrayW<::HoudiniEngineUnity::Test_TerrainData*, ::Array<::HoudiniEngineUnity::Test_TerrainData*>*>
   ToTestObject(::ArrayW<::UnityEngine::TerrainData*, ::Array<::UnityEngine::TerrainData*>*> self);
 
-  /// @brief Method ToTestObject, addr 0x21e8f58, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x227e840, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_TerrainData*>* ToTestObject(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TerrainData>>* self);
 
   // Ctor Parameters [CppParam { name: "", ty: "Test_TerrainData_Extensions", modifiers: "&&", def_value: None }]

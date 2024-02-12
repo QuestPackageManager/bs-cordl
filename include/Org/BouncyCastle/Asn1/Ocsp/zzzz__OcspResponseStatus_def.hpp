@@ -26,12 +26,12 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus* New_ctor(int32_t value);
 
-  /// @brief Method .ctor, addr 0xf82068, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfacef8, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(int32_t value);
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus* New_ctor(::Org::BouncyCastle::Asn1::DerEnumerated* value);
 
-  /// @brief Method .ctor, addr 0xf81514, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfac3a4, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerEnumerated* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "OcspResponseStatus", modifiers: "&&", def_value: None }]

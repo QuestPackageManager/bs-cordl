@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::Syntax::DataType);
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7494))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6753))
 // CS Name: ::UnityEngine.UIElements.StyleSheets.Syntax::DataType
 struct CORDL_TYPE DataType {
 public:

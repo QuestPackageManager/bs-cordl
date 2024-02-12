@@ -54,25 +54,25 @@ public:
 
   static inline ::Org::BouncyCastle::Ocsp::RespData* New_ctor(::Org::BouncyCastle::Asn1::Ocsp::ResponseData* data);
 
-  /// @brief Method .ctor, addr 0x109c380, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10c9210, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Ocsp::ResponseData* data);
 
-  /// @brief Method get_Version, addr 0x10a4b3c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x10d19cc, size 0x2c, virtual false, abstract: false, final false
   inline int32_t get_Version();
 
-  /// @brief Method GetResponderId, addr 0x10a4b68, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetResponderId, addr 0x10d19f8, size 0x70, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Ocsp::RespID* GetResponderId();
 
-  /// @brief Method get_ProducedAt, addr 0x10a4bd8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_ProducedAt, addr 0x10d1a68, size 0x24, virtual false, abstract: false, final false
   inline ::System::DateTime get_ProducedAt();
 
-  /// @brief Method GetResponses, addr 0x10a4bfc, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method GetResponses, addr 0x10d1a8c, size 0x138, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Ocsp::SingleResp*, ::Array<::Org::BouncyCastle::Ocsp::SingleResp*>*> GetResponses();
 
-  /// @brief Method get_ResponseExtensions, addr 0x10a4d34, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_ResponseExtensions, addr 0x10d1bc4, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* get_ResponseExtensions();
 
-  /// @brief Method GetX509Extensions, addr 0x10a4d50, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetX509Extensions, addr 0x10d1be0, size 0x1c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* GetX509Extensions();
 
   // Ctor Parameters [CppParam { name: "", ty: "RespData", modifiers: "&&", def_value: None }]

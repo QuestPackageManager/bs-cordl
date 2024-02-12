@@ -45,9 +45,9 @@ namespace UnityEngine::ResourceManagement {
 // cpp template
 template <typename TObject>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14032)), TypeDefinitionIndex(TypeDefinitionIndex(14033)), TypeDefinitionIndex(TypeDefinitionIndex(14034)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14036)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 788 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(14033), inst: 788 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(13950)) CS Name: ::UnityEngine.ResourceManagement::ChainOperationTypelessDepedency`1<TObject>*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14045)), TypeDefinitionIndex(TypeDefinitionIndex(14046)), TypeDefinitionIndex(TypeDefinitionIndex(14047)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14049)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14045), inst: 789 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(14046), inst: 789 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(13963)) CS Name: ::UnityEngine.ResourceManagement::ChainOperationTypelessDepedency`1<TObject>*
 class CORDL_TYPE ChainOperationTypelessDepedency_1 : public ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject> {
 public:
   // Declarations

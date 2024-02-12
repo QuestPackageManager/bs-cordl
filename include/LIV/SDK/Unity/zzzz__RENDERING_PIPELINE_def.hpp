@@ -16,7 +16,7 @@ MARK_VAL_T(::LIV::SDK::Unity::RENDERING_PIPELINE);
 namespace LIV::SDK::Unity {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15107))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14980))
 // CS Name: ::LIV.SDK.Unity::RENDERING_PIPELINE
 struct CORDL_TYPE RENDERING_PIPELINE {
 public:
@@ -28,9 +28,9 @@ public:
     __E_UNDEFINED = static_cast<uint32_t>(0x3020100u),
     __E_FORWARD = static_cast<uint32_t>(0x4030201u),
     __E_DEFERRED = static_cast<uint32_t>(0x5040302u),
-    __E_VERTEX_LIT = static_cast<uint32_t>(0x50403u),
-    __E_UNIVERSAL = static_cast<uint32_t>(0x2000504u),
-    __E_HIGH_DEFINITION = static_cast<uint32_t>(0x20005u),
+    __E_VERTEX_LIT = static_cast<uint32_t>(0xcd050403u),
+    __E_UNIVERSAL = static_cast<uint32_t>(0xcccd0504u),
+    __E_HIGH_DEFINITION = static_cast<uint32_t>(0x4ccccd05u),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -60,13 +60,13 @@ public:
   /// @brief Field DEFERRED value: static_cast<uint32_t>(0x5040302u)
   static ::LIV::SDK::Unity::RENDERING_PIPELINE const DEFERRED;
 
-  /// @brief Field VERTEX_LIT value: static_cast<uint32_t>(0x50403u)
+  /// @brief Field VERTEX_LIT value: static_cast<uint32_t>(0xcd050403u)
   static ::LIV::SDK::Unity::RENDERING_PIPELINE const VERTEX_LIT;
 
-  /// @brief Field UNIVERSAL value: static_cast<uint32_t>(0x2000504u)
+  /// @brief Field UNIVERSAL value: static_cast<uint32_t>(0xcccd0504u)
   static ::LIV::SDK::Unity::RENDERING_PIPELINE const UNIVERSAL;
 
-  /// @brief Field HIGH_DEFINITION value: static_cast<uint32_t>(0x20005u)
+  /// @brief Field HIGH_DEFINITION value: static_cast<uint32_t>(0x4ccccd05u)
   static ::LIV::SDK::Unity::RENDERING_PIPELINE const HIGH_DEFINITION;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;

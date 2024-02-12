@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::UnityEngine::AsyncOperation);
 // SizeInfo { instance_size: 32, native_size: 16, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(10191))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10201))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(8935))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8945))
 // CS Name: ::UnityEngine::AsyncOperation*
 class CORDL_TYPE AsyncOperation : public ::UnityEngine::YieldInstruction {
 public:
@@ -52,39 +52,39 @@ public:
 
   constexpr void __cordl_internal_set_m_completeCallback(::System::Action_1<::UnityEngine::AsyncOperation*>* value);
 
-  /// @brief Method Finalize, addr 0x2cd0638, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x2cd75e0, size 0xbc, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method InvokeCompletionEvent, addr 0x2cd0730, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method InvokeCompletionEvent, addr 0x2cd76d8, size 0x30, virtual false, abstract: false, final false
   inline void InvokeCompletionEvent();
 
-  /// @brief Method add_completed, addr 0x2cd0760, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method add_completed, addr 0x2cd7708, size 0xfc, virtual false, abstract: false, final false
   inline void add_completed(::System::Action_1<::UnityEngine::AsyncOperation*>* value);
 
-  /// @brief Method remove_completed, addr 0x2cd0898, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method remove_completed, addr 0x2cd7840, size 0xa8, virtual false, abstract: false, final false
   inline void remove_completed(::System::Action_1<::UnityEngine::AsyncOperation*>* value);
 
-  /// @brief Method InternalDestroy, addr 0x2cd06f4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method InternalDestroy, addr 0x2cd769c, size 0x3c, virtual false, abstract: false, final false
   static inline void InternalDestroy(void* ptr);
 
-  /// @brief Method get_isDone, addr 0x2cd085c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isDone, addr 0x2cd7804, size 0x3c, virtual false, abstract: false, final false
   inline bool get_isDone();
 
-  /// @brief Method get_progress, addr 0x2cd0940, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_progress, addr 0x2cd78e8, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_progress();
 
-  /// @brief Method set_priority, addr 0x2cd097c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_priority, addr 0x2cd7924, size 0x44, virtual false, abstract: false, final false
   inline void set_priority(int32_t value);
 
-  /// @brief Method get_allowSceneActivation, addr 0x2cd09c0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_allowSceneActivation, addr 0x2cd7968, size 0x3c, virtual false, abstract: false, final false
   inline bool get_allowSceneActivation();
 
-  /// @brief Method set_allowSceneActivation, addr 0x2cd09fc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_allowSceneActivation, addr 0x2cd79a4, size 0x44, virtual false, abstract: false, final false
   inline void set_allowSceneActivation(bool value);
 
   static inline ::UnityEngine::AsyncOperation* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2cd0a40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cd79e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AsyncOperation", modifiers: "&&", def_value: None }]

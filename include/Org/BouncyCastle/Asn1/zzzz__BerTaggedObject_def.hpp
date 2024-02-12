@@ -29,20 +29,20 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Asn1::BerTaggedObject* New_ctor(int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
-  /// @brief Method .ctor, addr 0x11bf1ac, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11ec03c, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
   static inline ::Org::BouncyCastle::Asn1::BerTaggedObject* New_ctor(bool explicitly, int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
-  /// @brief Method .ctor, addr 0x11ba5d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11e7464, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(bool explicitly, int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
   static inline ::Org::BouncyCastle::Asn1::BerTaggedObject* New_ctor(int32_t tagNo);
 
-  /// @brief Method .ctor, addr 0x11bf1f0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11ec080, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(int32_t tagNo);
 
-  /// @brief Method Encode, addr 0x11bf264, size 0x5bc, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x11ec0f4, size 0x5bc, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
   // Ctor Parameters [CppParam { name: "", ty: "BerTaggedObject", modifiers: "&&", def_value: None }]

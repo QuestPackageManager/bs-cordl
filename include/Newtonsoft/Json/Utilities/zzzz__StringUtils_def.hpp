@@ -45,7 +45,7 @@ namespace Newtonsoft::Json::Utilities {
 template <typename TSource>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11899))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11797))
 // CS Name: ::StringUtils::<>c__DisplayClass15_0`1<TSource>*
 class CORDL_TYPE __StringUtils____c__DisplayClass15_0_1 : public ::System::Object {
 public:
@@ -108,60 +108,60 @@ public:
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11900))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11798))
 // CS Name: ::Newtonsoft.Json.Utilities::StringUtils*
 class CORDL_TYPE StringUtils : public ::System::Object {
 public:
   // Declarations
   template <typename TSource> using __c__DisplayClass15_0_1 = ::Newtonsoft::Json::Utilities::__StringUtils____c__DisplayClass15_0_1<TSource>;
 
-  /// @brief Method FormatWith, addr 0x2658a18, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method FormatWith, addr 0x267bbd4, size 0xa8, virtual false, abstract: false, final false
   static inline ::StringW FormatWith(::StringW format, ::System::IFormatProvider* provider, ::System::Object* arg0);
 
-  /// @brief Method FormatWith, addr 0x265681c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method FormatWith, addr 0x26799d8, size 0xdc, virtual false, abstract: false, final false
   static inline ::StringW FormatWith(::StringW format, ::System::IFormatProvider* provider, ::System::Object* arg0, ::System::Object* arg1);
 
-  /// @brief Method FormatWith, addr 0x2669ab8, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method FormatWith, addr 0x268cc74, size 0x108, virtual false, abstract: false, final false
   static inline ::StringW FormatWith(::StringW format, ::System::IFormatProvider* provider, ::System::Object* arg0, ::System::Object* arg1, ::System::Object* arg2);
 
-  /// @brief Method FormatWith, addr 0x2669bc0, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method FormatWith, addr 0x268cd7c, size 0x13c, virtual false, abstract: false, final false
   static inline ::StringW FormatWith(::StringW format, ::System::IFormatProvider* provider, ::System::Object* arg0, ::System::Object* arg1, ::System::Object* arg2, ::System::Object* arg3);
 
-  /// @brief Method FormatWith, addr 0x2669a4c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method FormatWith, addr 0x268cc08, size 0x6c, virtual false, abstract: false, final false
   static inline ::StringW FormatWith(::StringW format, ::System::IFormatProvider* provider, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method IsWhiteSpace, addr 0x2658c80, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method IsWhiteSpace, addr 0x267be3c, size 0x100, virtual false, abstract: false, final false
   static inline bool IsWhiteSpace(::StringW s);
 
-  /// @brief Method NullEmptyString, addr 0x2669cfc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method NullEmptyString, addr 0x268ceb8, size 0x20, virtual false, abstract: false, final false
   static inline ::StringW NullEmptyString(::StringW s);
 
-  /// @brief Method CreateStringWriter, addr 0x266414c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method CreateStringWriter, addr 0x2687308, size 0xd4, virtual false, abstract: false, final false
   static inline ::System::IO::StringWriter* CreateStringWriter(int32_t capacity);
 
-  /// @brief Method GetLength, addr 0x26640e4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetLength, addr 0x26872a0, size 0x68, virtual false, abstract: false, final false
   static inline ::System::Nullable_1<int32_t> GetLength(::StringW value);
 
-  /// @brief Method ToCharAsUnicode, addr 0x2663de0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method ToCharAsUnicode, addr 0x2686f9c, size 0xb8, virtual false, abstract: false, final false
   static inline void ToCharAsUnicode(char16_t c, ::ArrayW<char16_t, ::Array<char16_t>*> buffer);
 
   /// @brief Method ForgivingCaseSensitiveFind, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSource>
   static inline TSource ForgivingCaseSensitiveFind(::System::Collections::Generic::IEnumerable_1<TSource>* source, ::System::Func_2<TSource, ::StringW>* valueSelector, ::StringW testValue);
 
-  /// @brief Method ToCamelCase, addr 0x266253c, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method ToCamelCase, addr 0x26856f8, size 0x1ec, virtual false, abstract: false, final false
   static inline ::StringW ToCamelCase(::StringW s);
 
-  /// @brief Method IsHighSurrogate, addr 0x2669d1c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method IsHighSurrogate, addr 0x268ced8, size 0x58, virtual false, abstract: false, final false
   static inline bool IsHighSurrogate(char16_t c);
 
-  /// @brief Method IsLowSurrogate, addr 0x2669d74, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method IsLowSurrogate, addr 0x268cf30, size 0x58, virtual false, abstract: false, final false
   static inline bool IsLowSurrogate(char16_t c);
 
-  /// @brief Method StartsWith, addr 0x2669dcc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method StartsWith, addr 0x268cf88, size 0x44, virtual false, abstract: false, final false
   static inline bool StartsWith(::StringW source, char16_t value);
 
-  /// @brief Method EndsWith, addr 0x2669e10, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method EndsWith, addr 0x268cfcc, size 0x40, virtual false, abstract: false, final false
   static inline bool EndsWith(::StringW source, char16_t value);
 
   // Ctor Parameters [CppParam { name: "", ty: "StringUtils", modifiers: "&&", def_value: None }]

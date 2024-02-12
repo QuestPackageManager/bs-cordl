@@ -16,8 +16,8 @@ namespace System::Linq::Expressions {
 // cpp template
 template <typename TDelegate>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14303))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14304))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14316))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14317))
 // CS Name: ::System.Linq.Expressions::Expression`1<TDelegate>*
 class CORDL_TYPE Expression_1 : public ::System::Linq::Expressions::LambdaExpression {
 public:

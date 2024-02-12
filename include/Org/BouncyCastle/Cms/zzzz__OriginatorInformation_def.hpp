@@ -37,16 +37,16 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::OriginatorInformation* New_ctor(::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* originatorInfo);
 
-  /// @brief Method .ctor, addr 0x1206b44, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12339d4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* originatorInfo);
 
-  /// @brief Method GetCertificates, addr 0x1206b6c, size 0x50c, virtual true, abstract: false, final false
+  /// @brief Method GetCertificates, addr 0x12339fc, size 0x50c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::X509::Store::IX509Store* GetCertificates();
 
-  /// @brief Method GetCrls, addr 0x1207078, size 0x50c, virtual true, abstract: false, final false
+  /// @brief Method GetCrls, addr 0x1233f08, size 0x50c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::X509::Store::IX509Store* GetCrls();
 
-  /// @brief Method ToAsn1Structure, addr 0x1207584, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Structure, addr 0x1234414, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* ToAsn1Structure();
 
   // Ctor Parameters [CppParam { name: "", ty: "OriginatorInformation", modifiers: "&&", def_value: None }]

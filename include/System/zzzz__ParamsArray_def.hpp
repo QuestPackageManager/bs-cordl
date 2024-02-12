@@ -50,25 +50,25 @@ public:
 
   static inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> getStaticF_s_threeArgArray();
 
-  /// @brief Method .ctor, addr 0x25be18c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25e00a4, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* arg0);
 
-  /// @brief Method .ctor, addr 0x25be200, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25e0118, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* arg0, ::System::Object* arg1);
 
-  /// @brief Method .ctor, addr 0x25be278, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25e0190, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* arg0, ::System::Object* arg1, ::System::Object* arg2);
 
-  /// @brief Method .ctor, addr 0x25be2fc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25e0214, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method get_Length, addr 0x25be35c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Length, addr 0x25e0274, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
-  /// @brief Method get_Item, addr 0x25be378, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x25e0290, size 0x10, virtual false, abstract: false, final false
   inline ::System::Object* get_Item(int32_t index);
 
-  /// @brief Method GetAtSlow, addr 0x25be388, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetAtSlow, addr 0x25e02a0, size 0x54, virtual false, abstract: false, final false
   inline ::System::Object* GetAtSlow(int32_t index);
 
   // Ctor Parameters [CppParam { name: "_arg0", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam { name: "_arg1", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam

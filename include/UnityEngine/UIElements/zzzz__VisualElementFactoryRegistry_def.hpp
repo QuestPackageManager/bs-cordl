@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::VisualElementFactoryRegistry);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7002))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6261))
 // CS Name: ::UnityEngine.UIElements::VisualElementFactoryRegistry*
 class CORDL_TYPE VisualElementFactoryRegistry : public ::System::Object {
 public:
@@ -40,19 +40,19 @@ public:
 
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IUxmlFactory*>*>* getStaticF_s_Factories();
 
-  /// @brief Method get_factories, addr 0x2e0ffa4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method get_factories, addr 0x2e2d38c, size 0xb0, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IUxmlFactory*>*>* get_factories();
 
-  /// @brief Method RegisterFactory, addr 0x2e10e50, size 0x470, virtual false, abstract: false, final false
+  /// @brief Method RegisterFactory, addr 0x2e2e238, size 0x470, virtual false, abstract: false, final false
   static inline void RegisterFactory(::UnityEngine::UIElements::IUxmlFactory* factory);
 
-  /// @brief Method TryGetValue, addr 0x2e112c0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method TryGetValue, addr 0x2e2e6a8, size 0x60, virtual false, abstract: false, final false
   static inline bool TryGetValue(::StringW fullTypeName, ByRef<::System::Collections::Generic::List_1<::UnityEngine::UIElements::IUxmlFactory*>*> factoryList);
 
-  /// @brief Method RegisterEngineFactories, addr 0x2e10054, size 0xb2c, virtual false, abstract: false, final false
+  /// @brief Method RegisterEngineFactories, addr 0x2e2d43c, size 0xb2c, virtual false, abstract: false, final false
   static inline void RegisterEngineFactories();
 
-  /// @brief Method RegisterUserFactories, addr 0x2e10b80, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method RegisterUserFactories, addr 0x2e2df68, size 0x2d0, virtual false, abstract: false, final false
   static inline void RegisterUserFactories();
 
   // Ctor Parameters [CppParam { name: "", ty: "VisualElementFactoryRegistry", modifiers: "&&", def_value: None }]

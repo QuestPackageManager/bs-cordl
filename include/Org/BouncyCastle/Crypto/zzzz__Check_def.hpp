@@ -23,18 +23,18 @@ namespace Org::BouncyCastle::Crypto {
 class CORDL_TYPE Check : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method DataLength, addr 0xfc5724, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method DataLength, addr 0xff25b4, size 0x50, virtual false, abstract: false, final false
   static inline void DataLength(bool condition, ::StringW msg);
 
-  /// @brief Method DataLength, addr 0xfc5774, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method DataLength, addr 0xff2604, size 0x6c, virtual false, abstract: false, final false
   static inline void DataLength(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len, ::StringW msg);
 
-  /// @brief Method OutputLength, addr 0xfc57e0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method OutputLength, addr 0xff2670, size 0x6c, virtual false, abstract: false, final false
   static inline void OutputLength(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len, ::StringW msg);
 
   static inline ::Org::BouncyCastle::Crypto::Check* New_ctor();
 
-  /// @brief Method .ctor, addr 0xfc5850, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xff26e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Check", modifiers: "&&", def_value: None }]

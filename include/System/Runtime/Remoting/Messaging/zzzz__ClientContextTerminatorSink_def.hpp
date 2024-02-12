@@ -49,13 +49,13 @@ public:
 
   static inline ::System::Runtime::Remoting::Messaging::ClientContextTerminatorSink* New_ctor(::System::Runtime::Remoting::Contexts::Context* ctx);
 
-  /// @brief Method .ctor, addr 0x249dfa0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24c0014, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Contexts::Context* ctx);
 
-  /// @brief Method SyncProcessMessage, addr 0x24aab1c, size 0x1d8, virtual true, abstract: false, final true
+  /// @brief Method SyncProcessMessage, addr 0x24ccb90, size 0x1d8, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
 
-  /// @brief Method AsyncProcessMessage, addr 0x24aacf4, size 0x228, virtual true, abstract: false, final true
+  /// @brief Method AsyncProcessMessage, addr 0x24ccd68, size 0x228, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg,
                                                                                    ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 

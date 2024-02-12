@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Text::RegularExpressions::RegexPrefix);
 namespace System::Text::RegularExpressions {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8927))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6937))
 // CS Name: ::System.Text.RegularExpressions::RegexPrefix
 struct CORDL_TYPE RegexPrefix {
 public:
@@ -32,16 +32,16 @@ public:
 
   static inline ::System::Text::RegularExpressions::RegexPrefix getStaticF__Empty_k__BackingField();
 
-  /// @brief Method .ctor, addr 0x295f1d4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29630f4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW prefix, bool ci);
 
-  /// @brief Method get_CaseInsensitive, addr 0x2969270, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CaseInsensitive, addr 0x296d190, size 0x8, virtual false, abstract: false, final false
   inline bool get_CaseInsensitive();
 
-  /// @brief Method get_Empty, addr 0x2969278, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Empty, addr 0x296d198, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Text::RegularExpressions::RegexPrefix get_Empty();
 
-  /// @brief Method get_Prefix, addr 0x29692d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Prefix, addr 0x296d1f0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Prefix();
 
   // Ctor Parameters [CppParam { name: "_CaseInsensitive_k__BackingField", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_Prefix_k__BackingField", ty: "::StringW", modifiers: "",

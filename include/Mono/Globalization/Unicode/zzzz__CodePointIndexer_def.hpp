@@ -30,7 +30,7 @@ namespace Mono::Globalization::Unicode {
 struct CORDL_TYPE __CodePointIndexer__TableRange {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x24154a0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2435300, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(int32_t start, int32_t end, int32_t indexStart);
 
   // Ctor Parameters [CppParam { name: "Start", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "End", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Count", ty:
@@ -130,10 +130,10 @@ public:
   static inline ::Mono::Globalization::Unicode::CodePointIndexer* New_ctor(::ArrayW<int32_t, ::Array<int32_t>*> starts, ::ArrayW<int32_t, ::Array<int32_t>*> ends, int32_t defaultIndex,
                                                                            int32_t defaultCP);
 
-  /// @brief Method .ctor, addr 0x241534c, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24351ac, size 0x154, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<int32_t, ::Array<int32_t>*> starts, ::ArrayW<int32_t, ::Array<int32_t>*> ends, int32_t defaultIndex, int32_t defaultCP);
 
-  /// @brief Method ToIndex, addr 0x24154b8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ToIndex, addr 0x2435318, size 0x84, virtual false, abstract: false, final false
   inline int32_t ToIndex(int32_t cp);
 
   // Ctor Parameters [CppParam { name: "", ty: "CodePointIndexer", modifiers: "&&", def_value: None }]

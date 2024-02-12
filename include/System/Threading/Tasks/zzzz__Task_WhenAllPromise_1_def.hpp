@@ -27,7 +27,7 @@ namespace System::Threading::Tasks {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2773)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 5134 })]
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2773)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 5116 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2785))
 // CS Name: ::Task::WhenAllPromise`1<T>*
 class CORDL_TYPE __Task__WhenAllPromise_1 : public ::System::Threading::Tasks::Task_1<::ArrayW<T, ::Array<T>*>> {

@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::GlobalNamespace::CubemapTest);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5857))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5147))
 // CS Name: ::CubemapTest*
 class CORDL_TYPE CubemapTest : public ::UnityEngine::MonoBehaviour {
 public:
@@ -92,15 +92,15 @@ public:
 
   static inline int32_t getStaticF__cubePropertyId();
 
-  /// @brief Method Start, addr 0x22f7500, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2323e08, size 0x7c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x22f757c, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2323e84, size 0x210, virtual false, abstract: false, final false
   inline void Update();
 
   static inline ::GlobalNamespace::CubemapTest* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22f778c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2324094, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CubemapTest", modifiers: "&&", def_value: None }]

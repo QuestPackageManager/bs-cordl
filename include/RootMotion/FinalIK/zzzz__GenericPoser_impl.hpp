@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__GenericPoser__Map::*)(::UnityEngine::Transform*, ::UnityEngine::Transform*)>(
     &::RootMotion::FinalIK::__GenericPoser__Map::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x128ca54;
+  constexpr static std::size_t addrs = 0x1324b04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__GenericPoser__Map::*)()>(
     &::RootMotion::FinalIK::__GenericPoser__Map::StoreDefaultState)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x128cd90;
+  constexpr static std::size_t addrs = 0x1324e40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::__GenericPoser__Map*>::get(),
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__GenericPoser__Map::*)()>(&::RootMotion::FinalIK::__GenericPoser__Map::FixTransform)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x128cd50;
+  constexpr static std::size_t addrs = 0x1324e00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::__GenericPoser__Map*>::get(),
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__GenericPoser__Map::*)(float_t, float_t)>(
     &::RootMotion::FinalIK::__GenericPoser__Map::Update)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x128cbd4;
+  constexpr static std::size_t addrs = 0x1324c84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::GenericPoser::*)()>(&::RootMotion::FinalIK::GenericPoser::AutoMapping)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x128c768;
+  constexpr static std::size_t addrs = 0x1324818;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -159,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::GenericPoser::*)()>(&::RootMotion::FinalIK::GenericPoser::InitiatePoser)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x128cae0;
+  constexpr static std::size_t addrs = 0x1324b90;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -173,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::GenericPoser::*)()>(&::RootMotion::FinalIK::GenericPoser::UpdatePoser)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x128cae4;
+  constexpr static std::size_t addrs = 0x1324b94;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -187,7 +187,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::GenericPoser::*)()>(&::RootMotion::FinalIK::GenericPoser::FixPoserTransforms)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x128ccf4;
+  constexpr static std::size_t addrs = 0x1324da4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -201,7 +201,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::GenericPoser::*)()>(&::RootMotion::FinalIK::GenericPoser::StoreDefaultState)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x128ca84;
+  constexpr static std::size_t addrs = 0x1324b34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GenericPoser*>::get(), "StoreDefaultState",
@@ -215,7 +215,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (::RootMotion::FinalIK::GenericPoser::*)(
     ::StringW, ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*>)>(&::RootMotion::FinalIK::GenericPoser::GetTargetNamed)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x128c9c0;
+  constexpr static std::size_t addrs = 0x1324a70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -230,7 +230,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::GenericPoser::*)()>(&::RootMotion::FinalIK::GenericPoser::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x128cdd4;
+  constexpr static std::size_t addrs = 0x1324e84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::GenericPoser*>::get(), ".ctor",

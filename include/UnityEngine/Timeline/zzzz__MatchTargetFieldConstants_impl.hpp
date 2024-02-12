@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Timeline::MatchTargetFields, ::UnityEngine::Timeline::MatchTargetFields)>(
     &::UnityEngine::Timeline::MatchTargetFieldConstants::HasAny)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x2c50cd8;
+  constexpr static std::size_t addrs = 0x2c4e844;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Timeline::MatchTargetFields (*)(
     ::UnityEngine::Timeline::MatchTargetFields, ::UnityEngine::Timeline::MatchTargetFields)>(&::UnityEngine::Timeline::MatchTargetFieldConstants::Toggle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2c50d4c;
+  constexpr static std::size_t addrs = 0x2c4e8b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

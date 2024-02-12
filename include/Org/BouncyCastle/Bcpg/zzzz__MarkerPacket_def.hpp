@@ -39,10 +39,10 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::MarkerPacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor, addr 0x11ceb00, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11fc990, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method Encode, addr 0x11d1d04, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x11ffb94, size 0x28, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
   // Ctor Parameters [CppParam { name: "", ty: "MarkerPacket", modifiers: "&&", def_value: None }]

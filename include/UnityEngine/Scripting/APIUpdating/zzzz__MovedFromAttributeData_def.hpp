@@ -16,12 +16,12 @@ MARK_VAL_T(::UnityEngine::Scripting::APIUpdating::MovedFromAttributeData);
 namespace UnityEngine::Scripting::APIUpdating {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10320))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9066))
 // CS Name: ::UnityEngine.Scripting.APIUpdating::MovedFromAttributeData
 struct CORDL_TYPE MovedFromAttributeData {
 public:
   // Declarations
-  /// @brief Method Set, addr 0x2ce9d9c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x2cf0f30, size 0x38, virtual false, abstract: false, final false
   inline void Set(bool autoUpdateAPI, ::StringW sourceNamespace, ::StringW sourceAssembly, ::StringW sourceClassName);
 
   // Ctor Parameters [CppParam { name: "className", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "nameSpace", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:

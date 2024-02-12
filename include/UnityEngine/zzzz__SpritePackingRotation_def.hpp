@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::SpritePackingRotation);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10289))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9035))
 // CS Name: ::UnityEngine::SpritePackingRotation
 struct CORDL_TYPE SpritePackingRotation {
 public:

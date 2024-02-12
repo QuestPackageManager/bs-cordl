@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::UnityEngine::SharedBetweenAnimatorsAttribute);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14886))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14759))
 // CS Name: ::UnityEngine::SharedBetweenAnimatorsAttribute*
 class CORDL_TYPE SharedBetweenAnimatorsAttribute : public ::System::Attribute {
 public:

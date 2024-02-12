@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRTrackedCamera___GetCameraErrorNameFromEnum::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRTrackedCamera___GetCameraErrorNameFromEnum::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x27d5294;
+  constexpr static std::size_t addrs = 0x27e2a4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (::OVR::OpenVR::__IVRTrackedCamera___GetCameraErrorNameFromEnum::*)(::OVR::OpenVR::EVRTrackedCameraError)>(
     &::OVR::OpenVR::__IVRTrackedCamera___GetCameraErrorNameFromEnum::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x27d5358;
+  constexpr static std::size_t addrs = 0x27e2b10;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -49,7 +49,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::IAsyncResult* (::OVR::OpenVR::__IVRTrackedCamera___GetCameraErrorNameFromEnum::*)(::OVR::OpenVR::EVRTrackedCameraError, ::System::AsyncCallback*, ::System::Object*)>(
         &::OVR::OpenVR::__IVRTrackedCamera___GetCameraErrorNameFromEnum::BeginInvoke)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x27d536c;
+  constexpr static std::size_t addrs = 0x27e2b24;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (::OVR::OpenVR::__IVRTrackedCamera___GetCameraErrorNameFromEnum::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::__IVRTrackedCamera___GetCameraErrorNameFromEnum::EndInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x27d53f0;
+  constexpr static std::size_t addrs = 0x27e2ba8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRTrackedCamera___HasCamera::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRTrackedCamera___HasCamera::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x27d5418;
+  constexpr static std::size_t addrs = 0x27e2bd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRTrackedCameraError (::OVR::OpenVR::__IVRTrackedCamera___HasCamera::*)(uint32_t, ByRef<bool>)>(
     &::OVR::OpenVR::__IVRTrackedCamera___HasCamera::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x27d54dc;
+  constexpr static std::size_t addrs = 0x27e2c94;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
     ::OVR::OpenVR::__IVRTrackedCamera___HasCamera::*)(uint32_t, ByRef<bool>, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::__IVRTrackedCamera___HasCamera::BeginInvoke)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x27d54f0;
+  constexpr static std::size_t addrs = 0x27e2ca8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRTrackedCameraError (::OVR::OpenVR::__IVRTrackedCamera___HasCamera::*)(
     ByRef<bool>, ::System::IAsyncResult*)>(&::OVR::OpenVR::__IVRTrackedCamera___HasCamera::EndInvoke)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x27d55a8;
+  constexpr static std::size_t addrs = 0x27e2d60;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -200,7 +200,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRTrackedCamera___GetCameraFrameSize::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRTrackedCamera___GetCameraFrameSize::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x27d55d4;
+  constexpr static std::size_t addrs = 0x27e2d8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -215,7 +215,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRTrackedCameraError (::OVR::OpenVR::__IVRTrackedCamera___GetCameraFrameSize::*)(
     uint32_t, ::OVR::OpenVR::EVRTrackedCameraFrameType, ByRef<uint32_t>, ByRef<uint32_t>, ByRef<uint32_t>)>(&::OVR::OpenVR::__IVRTrackedCamera___GetCameraFrameSize::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x27d5698;
+  constexpr static std::size_t addrs = 0x27e2e50;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -232,7 +232,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::OVR::OpenVR::__IVRTrackedCamera___GetCameraFrameSize::*)(uint32_t, ::OVR::OpenVR::EVRTrackedCameraFrameType, ByRef<uint32_t>, ByRef<uint32_t>, ByRef<uint32_t>, ::System::AsyncCallback*,
                                                                ::System::Object*)>(&::OVR::OpenVR::__IVRTrackedCamera___GetCameraFrameSize::BeginInvoke)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x27d56ac;
+  constexpr static std::size_t addrs = 0x27e2e64;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -248,7 +248,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRTrackedCameraError (::OVR::OpenVR::__IVRTrackedCamera___GetCameraFrameSize::*)(
     ByRef<uint32_t>, ByRef<uint32_t>, ByRef<uint32_t>, ::System::IAsyncResult*)>(&::OVR::OpenVR::__IVRTrackedCamera___GetCameraFrameSize::EndInvoke)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x27d57b0;
+  constexpr static std::size_t addrs = 0x27e2f68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -297,7 +297,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRTrackedCamera___GetCameraIntrinsics::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRTrackedCamera___GetCameraIntrinsics::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x27d57e4;
+  constexpr static std::size_t addrs = 0x27e2f9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -312,7 +312,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRTrackedCameraError (::OVR::OpenVR::__IVRTrackedCamera___GetCameraIntrinsics::*)(
     uint32_t, ::OVR::OpenVR::EVRTrackedCameraFrameType, ByRef<::OVR::OpenVR::HmdVector2_t>, ByRef<::OVR::OpenVR::HmdVector2_t>)>(&::OVR::OpenVR::__IVRTrackedCamera___GetCameraIntrinsics::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x27d58a8;
+  constexpr static std::size_t addrs = 0x27e3060;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -329,7 +329,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::OVR::OpenVR::__IVRTrackedCamera___GetCameraIntrinsics::*)(uint32_t, ::OVR::OpenVR::EVRTrackedCameraFrameType, ByRef<::OVR::OpenVR::HmdVector2_t>, ByRef<::OVR::OpenVR::HmdVector2_t>,
                                                                 ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::__IVRTrackedCamera___GetCameraIntrinsics::BeginInvoke)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x27d58bc;
+  constexpr static std::size_t addrs = 0x27e3074;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -345,7 +345,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRTrackedCameraError (::OVR::OpenVR::__IVRTrackedCamera___GetCameraIntrinsics::*)(
     ByRef<::OVR::OpenVR::HmdVector2_t>, ByRef<::OVR::OpenVR::HmdVector2_t>, ::System::IAsyncResult*)>(&::OVR::OpenVR::__IVRTrackedCamera___GetCameraIntrinsics::EndInvoke)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x27d59bc;
+  constexpr static std::size_t addrs = 0x27e3174;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -394,7 +394,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRTrackedCamera___GetCameraProjection::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRTrackedCamera___GetCameraProjection::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x27d59f0;
+  constexpr static std::size_t addrs = 0x27e31a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -409,7 +409,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRTrackedCameraError (::OVR::OpenVR::__IVRTrackedCamera___GetCameraProjection::*)(
     uint32_t, ::OVR::OpenVR::EVRTrackedCameraFrameType, float_t, float_t, ByRef<::OVR::OpenVR::HmdMatrix44_t>)>(&::OVR::OpenVR::__IVRTrackedCamera___GetCameraProjection::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x27d5ab4;
+  constexpr static std::size_t addrs = 0x27e326c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -426,7 +426,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::OVR::OpenVR::__IVRTrackedCamera___GetCameraProjection::*)(uint32_t, ::OVR::OpenVR::EVRTrackedCameraFrameType, float_t, float_t, ByRef<::OVR::OpenVR::HmdMatrix44_t>, ::System::AsyncCallback*,
                                                                 ::System::Object*)>(&::OVR::OpenVR::__IVRTrackedCamera___GetCameraProjection::BeginInvoke)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x27d5ac8;
+  constexpr static std::size_t addrs = 0x27e3280;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -442,7 +442,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRTrackedCameraError (::OVR::OpenVR::__IVRTrackedCamera___GetCameraProjection::*)(
     ByRef<::OVR::OpenVR::HmdMatrix44_t>, ::System::IAsyncResult*)>(&::OVR::OpenVR::__IVRTrackedCamera___GetCameraProjection::EndInvoke)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x27d5bf0;
+  constexpr static std::size_t addrs = 0x27e33a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -490,7 +490,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRTrackedCamera___AcquireVideoStreamingService::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRTrackedCamera___AcquireVideoStreamingService::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x27d5c1c;
+  constexpr static std::size_t addrs = 0x27e33d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -505,7 +505,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRTrackedCameraError (::OVR::OpenVR::__IVRTrackedCamera___AcquireVideoStreamingService::*)(
     uint32_t, ByRef<uint64_t>)>(&::OVR::OpenVR::__IVRTrackedCamera___AcquireVideoStreamingService::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x27d5ce0;
+  constexpr static std::size_t addrs = 0x27e3498;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -522,7 +522,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::IAsyncResult* (::OVR::OpenVR::__IVRTrackedCamera___AcquireVideoStreamingService::*)(uint32_t, ByRef<uint64_t>, ::System::AsyncCallback*, ::System::Object*)>(
         &::OVR::OpenVR::__IVRTrackedCamera___AcquireVideoStreamingService::BeginInvoke)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x27d5cf4;
+  constexpr static std::size_t addrs = 0x27e34ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -538,7 +538,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRTrackedCameraError (::OVR::OpenVR::__IVRTrackedCamera___AcquireVideoStreamingService::*)(
     ByRef<uint64_t>, ::System::IAsyncResult*)>(&::OVR::OpenVR::__IVRTrackedCamera___AcquireVideoStreamingService::EndInvoke)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x27d5dac;
+  constexpr static std::size_t addrs = 0x27e3564;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -584,7 +584,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRTrackedCamera___ReleaseVideoStreamingService::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRTrackedCamera___ReleaseVideoStreamingService::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x27d5dd8;
+  constexpr static std::size_t addrs = 0x27e3590;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -599,7 +599,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRTrackedCameraError (::OVR::OpenVR::__IVRTrackedCamera___ReleaseVideoStreamingService::*)(uint64_t)>(
     &::OVR::OpenVR::__IVRTrackedCamera___ReleaseVideoStreamingService::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x27d5e9c;
+  constexpr static std::size_t addrs = 0x27e3654;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -616,7 +616,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::IAsyncResult* (::OVR::OpenVR::__IVRTrackedCamera___ReleaseVideoStreamingService::*)(uint64_t, ::System::AsyncCallback*, ::System::Object*)>(
         &::OVR::OpenVR::__IVRTrackedCamera___ReleaseVideoStreamingService::BeginInvoke)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x27d5eb0;
+  constexpr static std::size_t addrs = 0x27e3668;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -632,7 +632,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRTrackedCameraError (::OVR::OpenVR::__IVRTrackedCamera___ReleaseVideoStreamingService::*)(
     ::System::IAsyncResult*)>(&::OVR::OpenVR::__IVRTrackedCamera___ReleaseVideoStreamingService::EndInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x27d5f34;
+  constexpr static std::size_t addrs = 0x27e36ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -677,7 +677,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRTrackedCamera___GetVideoStreamFrameBuffer::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRTrackedCamera___GetVideoStreamFrameBuffer::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x27d5f5c;
+  constexpr static std::size_t addrs = 0x27e3714;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -693,7 +693,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     uint64_t, ::OVR::OpenVR::EVRTrackedCameraFrameType, void*, uint32_t, ByRef<::OVR::OpenVR::CameraVideoStreamFrameHeader_t>, uint32_t)>(
     &::OVR::OpenVR::__IVRTrackedCamera___GetVideoStreamFrameBuffer::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x27d6020;
+  constexpr static std::size_t addrs = 0x27e37d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -711,7 +711,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                       uint32_t, ::System::AsyncCallback*, ::System::Object*)>(
     &::OVR::OpenVR::__IVRTrackedCamera___GetVideoStreamFrameBuffer::BeginInvoke)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x27d6034;
+  constexpr static std::size_t addrs = 0x27e37ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -727,7 +727,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRTrackedCameraError (::OVR::OpenVR::__IVRTrackedCamera___GetVideoStreamFrameBuffer::*)(
     ByRef<::OVR::OpenVR::CameraVideoStreamFrameHeader_t>, ::System::IAsyncResult*)>(&::OVR::OpenVR::__IVRTrackedCamera___GetVideoStreamFrameBuffer::EndInvoke)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x27d6190;
+  constexpr static std::size_t addrs = 0x27e3948;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -781,7 +781,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRTrackedCamera___GetVideoStreamTextureSize::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRTrackedCamera___GetVideoStreamTextureSize::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x27d61bc;
+  constexpr static std::size_t addrs = 0x27e3974;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -797,7 +797,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     uint32_t, ::OVR::OpenVR::EVRTrackedCameraFrameType, ByRef<::OVR::OpenVR::VRTextureBounds_t>, ByRef<uint32_t>, ByRef<uint32_t>)>(
     &::OVR::OpenVR::__IVRTrackedCamera___GetVideoStreamTextureSize::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x27d6280;
+  constexpr static std::size_t addrs = 0x27e3a38;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -814,7 +814,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::OVR::OpenVR::__IVRTrackedCamera___GetVideoStreamTextureSize::*)(uint32_t, ::OVR::OpenVR::EVRTrackedCameraFrameType, ByRef<::OVR::OpenVR::VRTextureBounds_t>, ByRef<uint32_t>, ByRef<uint32_t>,
                                                                       ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::__IVRTrackedCamera___GetVideoStreamTextureSize::BeginInvoke)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x27d6294;
+  constexpr static std::size_t addrs = 0x27e3a4c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -830,7 +830,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRTrackedCameraError (::OVR::OpenVR::__IVRTrackedCamera___GetVideoStreamTextureSize::*)(
     ByRef<::OVR::OpenVR::VRTextureBounds_t>, ByRef<uint32_t>, ByRef<uint32_t>, ::System::IAsyncResult*)>(&::OVR::OpenVR::__IVRTrackedCamera___GetVideoStreamTextureSize::EndInvoke)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x27d63b4;
+  constexpr static std::size_t addrs = 0x27e3b6c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -880,7 +880,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRTrackedCamera___GetVideoStreamTextureD3D11::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRTrackedCamera___GetVideoStreamTextureD3D11::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x27d63e8;
+  constexpr static std::size_t addrs = 0x27e3ba0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -896,7 +896,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     uint64_t, ::OVR::OpenVR::EVRTrackedCameraFrameType, void*, ByRef<void*>, ByRef<::OVR::OpenVR::CameraVideoStreamFrameHeader_t>, uint32_t)>(
     &::OVR::OpenVR::__IVRTrackedCamera___GetVideoStreamTextureD3D11::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x27d64ac;
+  constexpr static std::size_t addrs = 0x27e3c64;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -914,7 +914,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                        uint32_t, ::System::AsyncCallback*, ::System::Object*)>(
     &::OVR::OpenVR::__IVRTrackedCamera___GetVideoStreamTextureD3D11::BeginInvoke)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x27d64c0;
+  constexpr static std::size_t addrs = 0x27e3c78;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -930,7 +930,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRTrackedCameraError (::OVR::OpenVR::__IVRTrackedCamera___GetVideoStreamTextureD3D11::*)(
     ByRef<void*>, ByRef<::OVR::OpenVR::CameraVideoStreamFrameHeader_t>, ::System::IAsyncResult*)>(&::OVR::OpenVR::__IVRTrackedCamera___GetVideoStreamTextureD3D11::EndInvoke)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x27d6624;
+  constexpr static std::size_t addrs = 0x27e3ddc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -985,7 +985,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRTrackedCamera___GetVideoStreamTextureGL::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRTrackedCamera___GetVideoStreamTextureGL::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x27d6658;
+  constexpr static std::size_t addrs = 0x27e3e10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1001,7 +1001,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     uint64_t, ::OVR::OpenVR::EVRTrackedCameraFrameType, ByRef<uint32_t>, ByRef<::OVR::OpenVR::CameraVideoStreamFrameHeader_t>, uint32_t)>(
     &::OVR::OpenVR::__IVRTrackedCamera___GetVideoStreamTextureGL::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x27d671c;
+  constexpr static std::size_t addrs = 0x27e3ed4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1018,7 +1018,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::OVR::OpenVR::__IVRTrackedCamera___GetVideoStreamTextureGL::*)(uint64_t, ::OVR::OpenVR::EVRTrackedCameraFrameType, ByRef<uint32_t>, ByRef<::OVR::OpenVR::CameraVideoStreamFrameHeader_t>, uint32_t,
                                                                     ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::__IVRTrackedCamera___GetVideoStreamTextureGL::BeginInvoke)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x27d6730;
+  constexpr static std::size_t addrs = 0x27e3ee8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1034,7 +1034,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRTrackedCameraError (::OVR::OpenVR::__IVRTrackedCamera___GetVideoStreamTextureGL::*)(
     ByRef<uint32_t>, ByRef<::OVR::OpenVR::CameraVideoStreamFrameHeader_t>, ::System::IAsyncResult*)>(&::OVR::OpenVR::__IVRTrackedCamera___GetVideoStreamTextureGL::EndInvoke)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x27d6860;
+  constexpr static std::size_t addrs = 0x27e4018;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1085,7 +1085,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRTrackedCamera___ReleaseVideoStreamTextureGL::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRTrackedCamera___ReleaseVideoStreamTextureGL::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x27d6894;
+  constexpr static std::size_t addrs = 0x27e404c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1100,7 +1100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRTrackedCameraError (::OVR::OpenVR::__IVRTrackedCamera___ReleaseVideoStreamTextureGL::*)(
     uint64_t, uint32_t)>(&::OVR::OpenVR::__IVRTrackedCamera___ReleaseVideoStreamTextureGL::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x27d6958;
+  constexpr static std::size_t addrs = 0x27e4110;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1117,7 +1117,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::IAsyncResult* (::OVR::OpenVR::__IVRTrackedCamera___ReleaseVideoStreamTextureGL::*)(uint64_t, uint32_t, ::System::AsyncCallback*, ::System::Object*)>(
         &::OVR::OpenVR::__IVRTrackedCamera___ReleaseVideoStreamTextureGL::BeginInvoke)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x27d696c;
+  constexpr static std::size_t addrs = 0x27e4124;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1133,7 +1133,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRTrackedCameraError (::OVR::OpenVR::__IVRTrackedCamera___ReleaseVideoStreamTextureGL::*)(
     ::System::IAsyncResult*)>(&::OVR::OpenVR::__IVRTrackedCamera___ReleaseVideoStreamTextureGL::EndInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x27d6a20;
+  constexpr static std::size_t addrs = 0x27e41d8;
 
   inline static ::MethodInfo const* methodInfo() {
 

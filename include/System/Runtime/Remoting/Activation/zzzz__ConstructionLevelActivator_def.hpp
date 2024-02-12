@@ -37,15 +37,15 @@ public:
   /// @brief Convert to "::System::Runtime::Remoting::Activation::IActivator"
   constexpr ::System::Runtime::Remoting::Activation::IActivator* i___System__Runtime__Remoting__Activation__IActivator() noexcept;
 
-  /// @brief Method get_NextActivator, addr 0x24a4f84, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_NextActivator, addr 0x24c6ff8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Activation::IActivator* get_NextActivator();
 
-  /// @brief Method Activate, addr 0x24a4f8c, size 0xf0, virtual true, abstract: false, final true
+  /// @brief Method Activate, addr 0x24c7000, size 0xf0, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Activation::IConstructionReturnMessage* Activate(::System::Runtime::Remoting::Activation::IConstructionCallMessage* msg);
 
   static inline ::System::Runtime::Remoting::Activation::ConstructionLevelActivator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24a4324, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24c6398, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ConstructionLevelActivator", modifiers: "&&", def_value: None }]

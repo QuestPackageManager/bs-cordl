@@ -16,7 +16,7 @@ MARK_VAL_T(::ENet::PeerState);
 namespace ENet {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15215))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15328))
 // CS Name: ::ENet::PeerState
 struct CORDL_TYPE PeerState {
 public:

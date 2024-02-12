@@ -62,14 +62,14 @@ MARK_REF_PTR_T(::System::Resources::__ResourceManager__ResourceManagerMediator);
 namespace System::Resources {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3436))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3432))
 // CS Name: ::ResourceManager::CultureNameResourceSetPair*
 class CORDL_TYPE __ResourceManager__CultureNameResourceSetPair : public ::System::Object {
 public:
   // Declarations
   static inline ::System::Resources::__ResourceManager__CultureNameResourceSetPair* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24e1588, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24ffc44, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ResourceManager__CultureNameResourceSetPair", modifiers: "&&", def_value: None }]
@@ -97,7 +97,7 @@ static_assert(::cordl_internals::size_check_v<::System::Resources::__ResourceMan
 namespace System::Resources {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3437))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3433))
 // CS Name: ::ResourceManager::ResourceManagerMediator*
 class CORDL_TYPE __ResourceManager__ResourceManagerMediator : public ::System::Object {
 public:
@@ -113,7 +113,7 @@ public:
 
   static inline ::System::Resources::__ResourceManager__ResourceManagerMediator* New_ctor(::System::Resources::ResourceManager* rm);
 
-  /// @brief Method .ctor, addr 0x24e1590, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24ffc4c, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::Resources::ResourceManager* rm);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ResourceManager__ResourceManagerMediator", modifiers: "&&", def_value: None }]
@@ -145,8 +145,8 @@ static_assert(offsetof(::System::Resources::__ResourceManager__ResourceManagerMe
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Resources {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3431))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3438))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3427))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3434))
 // CS Name: ::System.Resources::ResourceManager*
 class CORDL_TYPE ResourceManager : public ::System::Object {
 public:
@@ -305,24 +305,24 @@ public:
 
   static inline int32_t getStaticF_DEBUG();
 
-  /// @brief Method Init, addr 0x24e1398, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x24ffa54, size 0x118, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::System::Resources::ResourceManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24e14b4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24ffb70, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method OnDeserializing, addr 0x24e1608, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method OnDeserializing, addr 0x24ffcc4, size 0x10, virtual false, abstract: false, final false
   inline void OnDeserializing(::System::Runtime::Serialization::StreamingContext ctx);
 
-  /// @brief Method OnDeserialized, addr 0x24e1618, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method OnDeserialized, addr 0x24ffcd4, size 0x1cc, virtual false, abstract: false, final false
   inline void OnDeserialized(::System::Runtime::Serialization::StreamingContext ctx);
 
-  /// @brief Method OnSerializing, addr 0x24e17e4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method OnSerializing, addr 0x24ffea0, size 0x70, virtual false, abstract: false, final false
   inline void OnSerializing(::System::Runtime::Serialization::StreamingContext ctx);
 
-  /// @brief Method CompareNames, addr 0x24e1854, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method CompareNames, addr 0x24fff10, size 0x254, virtual false, abstract: false, final false
   static inline bool CompareNames(::StringW asmTypeName1, ::StringW typeName2, ::System::Reflection::AssemblyName* asmName2);
 
   // Ctor Parameters [CppParam { name: "", ty: "ResourceManager", modifiers: "&&", def_value: None }]

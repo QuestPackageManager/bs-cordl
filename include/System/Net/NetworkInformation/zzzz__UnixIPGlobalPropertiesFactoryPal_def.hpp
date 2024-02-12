@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::UnixIPGlobalPropertiesFactoryP
 namespace System::Net::NetworkInformation {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9289))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7299))
 // CS Name: ::System.Net.NetworkInformation::UnixIPGlobalPropertiesFactoryPal*
 class CORDL_TYPE UnixIPGlobalPropertiesFactoryPal : public ::System::Object {
 public:
@@ -31,10 +31,10 @@ public:
 
   static inline bool getStaticF__PlatformNeedsLibCWorkaround_k__BackingField();
 
-  /// @brief Method get_PlatformNeedsLibCWorkaround, addr 0x29f0844, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_PlatformNeedsLibCWorkaround, addr 0x29f52e8, size 0x48, virtual false, abstract: false, final false
   static inline bool get_PlatformNeedsLibCWorkaround();
 
-  /// @brief Method Create, addr 0x29ed9d4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x29f2478, size 0xac, virtual false, abstract: false, final false
   static inline ::System::Net::NetworkInformation::IPGlobalProperties* Create();
 
   // Ctor Parameters [CppParam { name: "", ty: "UnixIPGlobalPropertiesFactoryPal", modifiers: "&&", def_value: None }]

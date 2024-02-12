@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Linq::JsonLoadSettings);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11966)), TypeDefinitionIndex(TypeDefinitionIndex(11967))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11970))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11864)), TypeDefinitionIndex(TypeDefinitionIndex(11865))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11868))
 // CS Name: ::Newtonsoft.Json.Linq::JsonLoadSettings*
 class CORDL_TYPE JsonLoadSettings : public ::System::Object {
 public:
@@ -50,21 +50,21 @@ public:
 
   constexpr void __cordl_internal_set__lineInfoHandling(::Newtonsoft::Json::Linq::LineInfoHandling value);
 
-  /// @brief Method get_CommentHandling, addr 0x2690e60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CommentHandling, addr 0x26b301c, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::CommentHandling get_CommentHandling();
 
-  /// @brief Method set_CommentHandling, addr 0x2690e68, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_CommentHandling, addr 0x26b3024, size 0x64, virtual false, abstract: false, final false
   inline void set_CommentHandling(::Newtonsoft::Json::Linq::CommentHandling value);
 
-  /// @brief Method get_LineInfoHandling, addr 0x2690ecc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LineInfoHandling, addr 0x26b3088, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::LineInfoHandling get_LineInfoHandling();
 
-  /// @brief Method set_LineInfoHandling, addr 0x2690ed4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_LineInfoHandling, addr 0x26b3090, size 0x64, virtual false, abstract: false, final false
   inline void set_LineInfoHandling(::Newtonsoft::Json::Linq::LineInfoHandling value);
 
   static inline ::Newtonsoft::Json::Linq::JsonLoadSettings* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2690f38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b30f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "JsonLoadSettings", modifiers: "&&", def_value: None }]

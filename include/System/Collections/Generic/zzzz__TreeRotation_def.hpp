@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Collections::Generic::TreeRotation);
 namespace System::Collections::Generic {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9544))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7554))
 // CS Name: ::System.Collections.Generic::TreeRotation
 struct CORDL_TYPE TreeRotation {
 public:

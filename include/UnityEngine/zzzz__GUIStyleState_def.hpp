@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::UnityEngine::GUIStyleState);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14624))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14629))
 // CS Name: ::UnityEngine::GUIStyleState*
 class CORDL_TYPE GUIStyleState : public ::System::Object {
 public:
@@ -49,32 +49,32 @@ public:
 
   constexpr void __cordl_internal_set_m_SourceStyle(::UnityEngine::GUIStyle* value);
 
-  /// @brief Method set_textColor, addr 0x2d0c684, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_textColor, addr 0x2d17f70, size 0x54, virtual false, abstract: false, final false
   inline void set_textColor(::UnityEngine::Color value);
 
-  /// @brief Method Init, addr 0x2d0c71c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2d18008, size 0x28, virtual false, abstract: false, final false
   static inline void* Init();
 
-  /// @brief Method Cleanup, addr 0x2d0c744, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x2d18030, size 0x3c, virtual false, abstract: false, final false
   inline void Cleanup();
 
   static inline ::UnityEngine::GUIStyleState* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d0c780, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d1806c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::GUIStyleState* New_ctor(::UnityEngine::GUIStyle* sourceStyle, void* source);
 
-  /// @brief Method .ctor, addr 0x2d0c7c8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d180b4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::GUIStyle* sourceStyle, void* source);
 
-  /// @brief Method GetGUIStyleState, addr 0x2d0c7f4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetGUIStyleState, addr 0x2d180e0, size 0x70, virtual false, abstract: false, final false
   static inline ::UnityEngine::GUIStyleState* GetGUIStyleState(::UnityEngine::GUIStyle* sourceStyle, void* source);
 
-  /// @brief Method Finalize, addr 0x2d0c864, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x2d18150, size 0xf8, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method set_textColor_Injected, addr 0x2d0c6d8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_textColor_Injected, addr 0x2d17fc4, size 0x44, virtual false, abstract: false, final false
   inline void set_textColor_Injected(ByRef<::UnityEngine::Color> value);
 
   // Ctor Parameters [CppParam { name: "", ty: "GUIStyleState", modifiers: "&&", def_value: None }]

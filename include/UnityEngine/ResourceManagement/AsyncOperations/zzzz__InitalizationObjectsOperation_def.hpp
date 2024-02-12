@@ -34,10 +34,10 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::AsyncOperations::Initalization
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3835)), TypeDefinitionIndex(TypeDefinitionIndex(14032)), TypeDefinitionIndex(TypeDefinitionIndex(14033)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14034)), TypeDefinitionIndex(TypeDefinitionIndex(14125)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3835), inst: 275 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 105 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 792 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 858 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14047)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3834)), TypeDefinitionIndex(TypeDefinitionIndex(14045)), TypeDefinitionIndex(TypeDefinitionIndex(14046)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14047)), TypeDefinitionIndex(TypeDefinitionIndex(14138)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3834), inst: 273 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14045), inst: 77 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14046), inst: 793 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14046), inst: 859 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14060)) CS Name:
 // ::UnityEngine.ResourceManagement.AsyncOperations::InitalizationObjectsOperation*
 class CORDL_TYPE InitalizationObjectsOperation : public ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<bool> {
 public:
@@ -81,28 +81,28 @@ public:
       ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>
           value);
 
-  /// @brief Method Init, addr 0x2a0f148, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2a11cb4, size 0x34, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData*> rtdOp,
                    ::UnityEngine::AddressableAssets::AddressablesImpl* addressables);
 
-  /// @brief Method get_DebugName, addr 0x2a0f218, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_DebugName, addr 0x2a11d84, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_DebugName();
 
-  /// @brief Method LogRuntimeWarnings, addr 0x2a0f258, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method LogRuntimeWarnings, addr 0x2a11dc4, size 0x1fc, virtual false, abstract: false, final false
   inline bool LogRuntimeWarnings(::StringW pathToBuildLogs);
 
-  /// @brief Method InvokeWaitForCompletion, addr 0x2a0f584, size 0x1a0, virtual true, abstract: false, final false
+  /// @brief Method InvokeWaitForCompletion, addr 0x2a120f0, size 0x1a0, virtual true, abstract: false, final false
   inline bool InvokeWaitForCompletion();
 
-  /// @brief Method Execute, addr 0x2a0f724, size 0x6a0, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x2a12290, size 0x6a0, virtual true, abstract: false, final false
   inline void Execute();
 
   static inline ::UnityEngine::ResourceManagement::AsyncOperations::InitalizationObjectsOperation* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2a0fec0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a12a2c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Execute>b__8_0, addr 0x2a0ff08, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method <Execute>b__8_0, addr 0x2a12a74, size 0x1ac, virtual false, abstract: false, final false
   inline void _Execute_b__8_0(
       ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>
           obj);

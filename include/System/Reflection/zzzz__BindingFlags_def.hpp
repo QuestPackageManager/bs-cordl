@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Reflection::BindingFlags);
 namespace System::Reflection {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3459))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3455))
 // CS Name: ::System.Reflection::BindingFlags
 struct CORDL_TYPE BindingFlags {
 public:

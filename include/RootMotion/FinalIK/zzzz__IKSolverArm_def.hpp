@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::IKSolverArm);
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 184, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(12564))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12566))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8996)), TypeDefinitionIndex(TypeDefinitionIndex(12462))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12464))
 // CS Name: ::RootMotion.FinalIK::IKSolverArm*
 class CORDL_TYPE IKSolverArm : public ::RootMotion::FinalIK::IKSolver {
 public:
@@ -139,43 +139,43 @@ public:
 
   constexpr void __cordl_internal_set_rotations(::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> value);
 
-  /// @brief Method IsValid, addr 0x1260fd0, size 0x35c, virtual true, abstract: false, final false
+  /// @brief Method IsValid, addr 0x12fa080, size 0x35c, virtual true, abstract: false, final false
   inline bool IsValid(ByRef<::StringW> message);
 
-  /// @brief Method SetChain, addr 0x126132c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method SetChain, addr 0x12fa3dc, size 0x60, virtual false, abstract: false, final false
   inline bool SetChain(::UnityEngine::Transform* chest, ::UnityEngine::Transform* shoulder, ::UnityEngine::Transform* upperArm, ::UnityEngine::Transform* forearm, ::UnityEngine::Transform* hand,
                        ::UnityEngine::Transform* root);
 
-  /// @brief Method GetPoints, addr 0x126138c, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method GetPoints, addr 0x12fa43c, size 0x144, virtual true, abstract: false, final false
   inline ::ArrayW<::RootMotion::FinalIK::__IKSolver__Point*, ::Array<::RootMotion::FinalIK::__IKSolver__Point*>*> GetPoints();
 
-  /// @brief Method GetPoint, addr 0x12614d0, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method GetPoint, addr 0x12fa580, size 0x160, virtual true, abstract: false, final false
   inline ::RootMotion::FinalIK::__IKSolver__Point* GetPoint(::UnityEngine::Transform* transform);
 
-  /// @brief Method StoreDefaultLocalState, addr 0x1261630, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method StoreDefaultLocalState, addr 0x12fa6e0, size 0x40, virtual true, abstract: false, final false
   inline void StoreDefaultLocalState();
 
-  /// @brief Method FixTransforms, addr 0x1261670, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method FixTransforms, addr 0x12fa720, size 0x50, virtual true, abstract: false, final false
   inline void FixTransforms();
 
-  /// @brief Method OnInitiate, addr 0x12616c0, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method OnInitiate, addr 0x12fa770, size 0x58, virtual true, abstract: false, final false
   inline void OnInitiate();
 
-  /// @brief Method OnUpdate, addr 0x1261a20, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method OnUpdate, addr 0x12faad0, size 0x20, virtual true, abstract: false, final false
   inline void OnUpdate();
 
-  /// @brief Method Solve, addr 0x1261a40, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Solve, addr 0x12faaf0, size 0x60, virtual false, abstract: false, final false
   inline void Solve();
 
-  /// @brief Method Read, addr 0x1261718, size 0x308, virtual false, abstract: false, final false
+  /// @brief Method Read, addr 0x12fa7c8, size 0x308, virtual false, abstract: false, final false
   inline void Read();
 
-  /// @brief Method Write, addr 0x1261aa0, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method Write, addr 0x12fab50, size 0x178, virtual false, abstract: false, final false
   inline void Write();
 
   static inline ::RootMotion::FinalIK::IKSolverArm* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1261c18, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12facc8, size 0x194, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "IKSolverArm", modifiers: "&&", def_value: None }]

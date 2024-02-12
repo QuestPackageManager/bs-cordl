@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::AixNetworkInterface);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9292))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9261))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7302))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7271))
 // CS Name: ::System.Net.NetworkInformation::AixNetworkInterface*
 class CORDL_TYPE AixNetworkInterface : public ::System::Net::NetworkInformation::UnixNetworkInterface {
 public:
@@ -50,13 +50,13 @@ public:
 
   static inline ::System::Net::NetworkInformation::AixNetworkInterface* New_ctor(::StringW name, uint32_t ifa_flags, int32_t ifru_mtu);
 
-  /// @brief Method .ctor, addr 0x29ed778, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29f221c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, uint32_t ifa_flags, int32_t ifru_mtu);
 
-  /// @brief Method GetIPProperties, addr 0x29ed8f4, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method GetIPProperties, addr 0x29f2398, size 0x84, virtual true, abstract: false, final false
   inline ::System::Net::NetworkInformation::IPInterfaceProperties* GetIPProperties();
 
-  /// @brief Method get_OperationalStatus, addr 0x29ed978, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method get_OperationalStatus, addr 0x29f241c, size 0x14, virtual true, abstract: false, final false
   inline ::System::Net::NetworkInformation::OperationalStatus get_OperationalStatus();
 
   // Ctor Parameters [CppParam { name: "", ty: "AixNetworkInterface", modifiers: "&&", def_value: None }]

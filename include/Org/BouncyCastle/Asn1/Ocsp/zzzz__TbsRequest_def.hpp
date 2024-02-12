@@ -101,37 +101,37 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::DerInteger* getStaticF_V1();
 
-  /// @brief Method GetInstance, addr 0xf84a30, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xfaf8c0, size 0x78, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::TbsRequest* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0xf80dec, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xfabc7c, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::TbsRequest* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::TbsRequest* New_ctor(::Org::BouncyCastle::Asn1::X509::GeneralName* requestorName, ::Org::BouncyCastle::Asn1::Asn1Sequence* requestList,
                                                                       ::Org::BouncyCastle::Asn1::X509::X509Extensions* requestExtensions);
 
-  /// @brief Method .ctor, addr 0xf84d7c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfafc0c, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::GeneralName* requestorName, ::Org::BouncyCastle::Asn1::Asn1Sequence* requestList,
                     ::Org::BouncyCastle::Asn1::X509::X509Extensions* requestExtensions);
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::TbsRequest* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xf84aa8, size 0x2d4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfaf938, size 0x2d4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Version, addr 0xf84e08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0xfafc98, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
-  /// @brief Method get_RequestorName, addr 0xf84e10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RequestorName, addr 0xfafca0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralName* get_RequestorName();
 
-  /// @brief Method get_RequestList, addr 0xf84e18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RequestList, addr 0xfafca8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Sequence* get_RequestList();
 
-  /// @brief Method get_RequestExtensions, addr 0xf84e20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RequestExtensions, addr 0xfafcb0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* get_RequestExtensions();
 
-  /// @brief Method ToAsn1Object, addr 0xf84e28, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xfafcb8, size 0x174, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "TbsRequest", modifiers: "&&", def_value: None }]

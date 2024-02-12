@@ -25,33 +25,33 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::Exceptions::ResourceManagerExc
 namespace UnityEngine::ResourceManagement::Exceptions {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2561))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13961))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13974))
 // CS Name: ::UnityEngine.ResourceManagement.Exceptions::ResourceManagerException*
 class CORDL_TYPE ResourceManagerException : public ::System::Exception {
 public:
   // Declarations
   static inline ::UnityEngine::ResourceManagement::Exceptions::ResourceManagerException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2bcfc20, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bcd78c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::ResourceManagement::Exceptions::ResourceManagerException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x2bcfc78, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bcd7e4, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::UnityEngine::ResourceManagement::Exceptions::ResourceManagerException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x2bcfce0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bcd84c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
   static inline ::UnityEngine::ResourceManagement::Exceptions::ResourceManagerException* New_ctor(::System::Runtime::Serialization::SerializationInfo* message,
                                                                                                   ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x2bcfd50, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bcd8bc, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* message, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method ToString, addr 0x2bcfdd0, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2bcd93c, size 0x88, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "ResourceManagerException", modifiers: "&&", def_value: None }]

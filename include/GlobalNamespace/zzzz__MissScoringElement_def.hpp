@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__MissScoringElement__Pool);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5320)), TypeDefinitionIndex(TypeDefinitionIndex(5323))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5329))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4661)), TypeDefinitionIndex(TypeDefinitionIndex(11121))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4667))
 // CS Name: ::MissScoringElement*
 class CORDL_TYPE MissScoringElement : public ::GlobalNamespace::ScoringElement {
 public:
@@ -66,24 +66,24 @@ public:
 
   constexpr void __cordl_internal_set__wouldBeCorrectCutBestPossibleMultiplierEventType(::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType value);
 
-  /// @brief Method get_cutScore, addr 0x226808c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_cutScore, addr 0x23c6db4, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_cutScore();
 
-  /// @brief Method get_wouldBeCorrectCutBestPossibleMultiplierEventType, addr 0x2268094, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_wouldBeCorrectCutBestPossibleMultiplierEventType, addr 0x23c6dbc, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType get_wouldBeCorrectCutBestPossibleMultiplierEventType();
 
-  /// @brief Method get_multiplierEventType, addr 0x226809c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_multiplierEventType, addr 0x23c6dc4, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType get_multiplierEventType();
 
-  /// @brief Method get_executionOrder, addr 0x22680a4, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_executionOrder, addr 0x23c6dcc, size 0xc, virtual true, abstract: false, final false
   inline int32_t get_executionOrder();
 
-  /// @brief Method Init, addr 0x2267b5c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x23c68f0, size 0x4c, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::NoteData* noteData);
 
   static inline ::GlobalNamespace::MissScoringElement* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22680b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c6dd8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MissScoringElement", modifiers: "&&", def_value: None }]
@@ -120,14 +120,14 @@ static_assert(offsetof(::GlobalNamespace::MissScoringElement, ____wouldBeCorrect
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5322)), TypeDefinitionIndex(TypeDefinitionIndex(5329)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5322), inst: 2818
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5328)) CS Name: ::MissScoringElement::Pool*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4660)), TypeDefinitionIndex(TypeDefinitionIndex(4667)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4660), inst: 2788
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4666)) CS Name: ::MissScoringElement::Pool*
 class CORDL_TYPE __MissScoringElement__Pool : public ::GlobalNamespace::__ScoringElement__Pool_1<::GlobalNamespace::MissScoringElement*> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MissScoringElement__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22680b8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c6de0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MissScoringElement__Pool", modifiers: "&&", def_value: None }]

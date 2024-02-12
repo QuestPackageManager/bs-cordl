@@ -47,10 +47,10 @@ public:
   // Declarations
   static inline ::Mono::Security::Cryptography::__DSAManaged__KeyGeneratedEventHandler* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x24283a0, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2448204, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x24284d0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2448334, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* sender, ::System::EventArgs* e);
 
   // Ctor Parameters [CppParam { name: "", ty: "__DSAManaged__KeyGeneratedEventHandler", modifiers: "&&", def_value: None }]
@@ -210,52 +210,52 @@ public:
 
   static inline ::Mono::Security::Cryptography::DSAManaged* New_ctor(int32_t dwKeySize);
 
-  /// @brief Method .ctor, addr 0x2426820, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2446684, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(int32_t dwKeySize);
 
-  /// @brief Method Finalize, addr 0x2426900, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x2446764, size 0xa0, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method Generate, addr 0x24269a0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x2446804, size 0x4c, virtual false, abstract: false, final false
   inline void Generate();
 
-  /// @brief Method GenerateKeyPair, addr 0x2426f14, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method GenerateKeyPair, addr 0x2446d78, size 0xe0, virtual false, abstract: false, final false
   inline void GenerateKeyPair();
 
-  /// @brief Method add, addr 0x2427130, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method add, addr 0x2446f94, size 0xa4, virtual false, abstract: false, final false
   inline void add(::ArrayW<uint8_t, ::Array<uint8_t>*> a, ::ArrayW<uint8_t, ::Array<uint8_t>*> b, int32_t value);
 
-  /// @brief Method GenerateParams, addr 0x24269ec, size 0x528, virtual false, abstract: false, final false
+  /// @brief Method GenerateParams, addr 0x2446850, size 0x528, virtual false, abstract: false, final false
   inline void GenerateParams(int32_t keyLength);
 
-  /// @brief Method get_Random, addr 0x24271d4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_Random, addr 0x2447038, size 0x20, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::RandomNumberGenerator* get_Random();
 
-  /// @brief Method get_KeySize, addr 0x2427508, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method get_KeySize, addr 0x244736c, size 0x2c, virtual true, abstract: false, final false
   inline int32_t get_KeySize();
 
-  /// @brief Method get_PublicOnly, addr 0x2427534, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_PublicOnly, addr 0x2447398, size 0x74, virtual false, abstract: false, final false
   inline bool get_PublicOnly();
 
-  /// @brief Method NormalizeArray, addr 0x24275a8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method NormalizeArray, addr 0x244740c, size 0xa4, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> NormalizeArray(::ArrayW<uint8_t, ::Array<uint8_t>*> array);
 
-  /// @brief Method ExportParameters, addr 0x242764c, size 0x278, virtual true, abstract: false, final false
+  /// @brief Method ExportParameters, addr 0x24474b0, size 0x278, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::DSAParameters ExportParameters(bool includePrivateParameters);
 
-  /// @brief Method ImportParameters, addr 0x2427930, size 0x2a8, virtual true, abstract: false, final false
+  /// @brief Method ImportParameters, addr 0x2447794, size 0x2a8, virtual true, abstract: false, final false
   inline void ImportParameters(::System::Security::Cryptography::DSAParameters parameters);
 
-  /// @brief Method VerifySignature, addr 0x2427bd8, size 0x4c0, virtual true, abstract: false, final false
+  /// @brief Method VerifySignature, addr 0x2447a3c, size 0x4c0, virtual true, abstract: false, final false
   inline bool VerifySignature(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbHash, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbSignature);
 
-  /// @brief Method Dispose, addr 0x2428098, size 0x1d0, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x2447efc, size 0x1d0, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method add_KeyGenerated, addr 0x2428268, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_KeyGenerated, addr 0x24480cc, size 0x9c, virtual false, abstract: false, final false
   inline void add_KeyGenerated(::Mono::Security::Cryptography::__DSAManaged__KeyGeneratedEventHandler* value);
 
-  /// @brief Method remove_KeyGenerated, addr 0x2428304, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_KeyGenerated, addr 0x2448168, size 0x9c, virtual false, abstract: false, final false
   inline void remove_KeyGenerated(::Mono::Security::Cryptography::__DSAManaged__KeyGeneratedEventHandler* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "DSAManaged", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::StateInfoIndex);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14874))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14747))
 // CS Name: ::UnityEngine::StateInfoIndex
 struct CORDL_TYPE StateInfoIndex {
 public:

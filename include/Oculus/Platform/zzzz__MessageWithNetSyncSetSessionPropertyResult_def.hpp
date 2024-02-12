@@ -19,20 +19,20 @@ MARK_REF_PTR_T(::Oculus::Platform::MessageWithNetSyncSetSessionPropertyResult);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13262)), TypeDefinitionIndex(TypeDefinitionIndex(13462)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst:
-// 4599 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(13309)) CS Name: ::Oculus.Platform::MessageWithNetSyncSetSessionPropertyResult*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13162)), TypeDefinitionIndex(TypeDefinitionIndex(13410)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13162), inst:
+// 4578 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(13219)) CS Name: ::Oculus.Platform::MessageWithNetSyncSetSessionPropertyResult*
 class CORDL_TYPE MessageWithNetSyncSetSessionPropertyResult : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::NetSyncSetSessionPropertyResult*> {
 public:
   // Declarations
   static inline ::Oculus::Platform::MessageWithNetSyncSetSessionPropertyResult* New_ctor(void* c_message);
 
-  /// @brief Method .ctor, addr 0x26f2d08, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x271caf4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(void* c_message);
 
-  /// @brief Method GetNetSyncSetSessionPropertyResult, addr 0x26f2d60, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetNetSyncSetSessionPropertyResult, addr 0x271cb4c, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::NetSyncSetSessionPropertyResult* GetNetSyncSetSessionPropertyResult();
 
-  /// @brief Method GetDataFromMessage, addr 0x26f2d9c, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x271cb88, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::NetSyncSetSessionPropertyResult* GetDataFromMessage(void* c_message);
 
   // Ctor Parameters [CppParam { name: "", ty: "MessageWithNetSyncSetSessionPropertyResult", modifiers: "&&", def_value: None }]

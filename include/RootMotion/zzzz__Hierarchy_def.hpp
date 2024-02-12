@@ -24,45 +24,45 @@ MARK_REF_PTR_T(::RootMotion::Hierarchy);
 namespace RootMotion {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12491))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12389))
 // CS Name: ::RootMotion::Hierarchy*
 class CORDL_TYPE Hierarchy : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method HierarchyIsValid, addr 0x123cbd0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method HierarchyIsValid, addr 0x12d7c80, size 0x84, virtual false, abstract: false, final false
   static inline bool HierarchyIsValid(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> bones);
 
-  /// @brief Method ContainsDuplicate, addr 0x123cac4, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method ContainsDuplicate, addr 0x12d7b74, size 0x10c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Object> ContainsDuplicate(::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> objects);
 
-  /// @brief Method IsAncestor, addr 0x123aeb4, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method IsAncestor, addr 0x12d5f64, size 0x130, virtual false, abstract: false, final false
   static inline bool IsAncestor(::UnityEngine::Transform* transform, ::UnityEngine::Transform* ancestor);
 
-  /// @brief Method ContainsChild, addr 0x123b4c4, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method ContainsChild, addr 0x12d6574, size 0x110, virtual false, abstract: false, final false
   static inline bool ContainsChild(::UnityEngine::Transform* transform, ::UnityEngine::Transform* child);
 
-  /// @brief Method AddAncestors, addr 0x123b134, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method AddAncestors, addr 0x12d61e4, size 0x240, virtual false, abstract: false, final false
   static inline void AddAncestors(::UnityEngine::Transform* transform, ::UnityEngine::Transform* blocker, ByRef<::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*>> array);
 
-  /// @brief Method GetAncestor, addr 0x123cde8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetAncestor, addr 0x12d7e98, size 0xf4, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Transform> GetAncestor(::UnityEngine::Transform* transform, int32_t minChildCount);
 
-  /// @brief Method GetFirstCommonAncestor, addr 0x123afe4, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method GetFirstCommonAncestor, addr 0x12d6094, size 0x150, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Transform> GetFirstCommonAncestor(::UnityEngine::Transform* t1, ::UnityEngine::Transform* t2);
 
-  /// @brief Method GetFirstCommonAncestor, addr 0x123cedc, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method GetFirstCommonAncestor, addr 0x12d7f8c, size 0x164, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Transform> GetFirstCommonAncestor(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> transforms);
 
-  /// @brief Method GetFirstCommonAncestorRecursive, addr 0x123d248, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetFirstCommonAncestorRecursive, addr 0x12d82f8, size 0x188, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Transform> GetFirstCommonAncestorRecursive(::UnityEngine::Transform* transform,
                                                                                    ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> transforms);
 
-  /// @brief Method IsCommonAncestor, addr 0x123d040, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method IsCommonAncestor, addr 0x12d80f0, size 0x208, virtual false, abstract: false, final false
   static inline bool IsCommonAncestor(::UnityEngine::Transform* transform, ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> transforms);
 
   static inline ::RootMotion::Hierarchy* New_ctor();
 
-  /// @brief Method .ctor, addr 0x123d3d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12d8480, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Hierarchy", modifiers: "&&", def_value: None }]

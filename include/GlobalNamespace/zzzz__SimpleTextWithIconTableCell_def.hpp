@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SimpleTextWithIconTableCell);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13664))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13501))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13617))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13454))
 // CS Name: ::SimpleTextWithIconTableCell*
 class CORDL_TYPE SimpleTextWithIconTableCell : public ::HMUI::TableCell {
 public:
@@ -49,21 +49,21 @@ public:
 
   constexpr void __cordl_internal_set__icon(::UnityW<::UnityEngine::UI::Image> value);
 
-  /// @brief Method set_icon, addr 0x2116214, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_icon, addr 0x21aaaf0, size 0x8, virtual false, abstract: false, final false
   inline void set_icon(::UnityEngine::UI::Image* value);
 
-  /// @brief Method get_icon, addr 0x211621c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_icon, addr 0x21aaaf8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Image> get_icon();
 
-  /// @brief Method set_text, addr 0x2116224, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x21aab00, size 0x24, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
-  /// @brief Method get_text, addr 0x2116248, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x21aab24, size 0x24, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
   static inline ::GlobalNamespace::SimpleTextWithIconTableCell* New_ctor();
 
-  /// @brief Method .ctor, addr 0x211626c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21aab48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SimpleTextWithIconTableCell", modifiers: "&&", def_value: None }]

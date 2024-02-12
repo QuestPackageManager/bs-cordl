@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::System::Xml::Linq::XDeclaration);
 namespace System::Xml::Linq {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15437))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15551))
 // CS Name: ::System.Xml.Linq::XDeclaration*
 class CORDL_TYPE XDeclaration : public ::System::Object {
 public:
@@ -56,30 +56,30 @@ public:
 
   static inline ::System::Xml::Linq::XDeclaration* New_ctor(::StringW version, ::StringW encoding, ::StringW standalone);
 
-  /// @brief Method .ctor, addr 0x285df00, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2861568, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW version, ::StringW encoding, ::StringW standalone);
 
   static inline ::System::Xml::Linq::XDeclaration* New_ctor(::System::Xml::Linq::XDeclaration* other);
 
-  /// @brief Method .ctor, addr 0x285df3c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28615a4, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XDeclaration* other);
 
-  /// @brief Method get_Encoding, addr 0x285dfc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Encoding, addr 0x2861628, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Encoding();
 
-  /// @brief Method set_Encoding, addr 0x285dfc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Encoding, addr 0x2861630, size 0x8, virtual false, abstract: false, final false
   inline void set_Encoding(::StringW value);
 
-  /// @brief Method get_Standalone, addr 0x285dfd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Standalone, addr 0x2861638, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Standalone();
 
-  /// @brief Method set_Standalone, addr 0x285dfd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Standalone, addr 0x2861640, size 0x8, virtual false, abstract: false, final false
   inline void set_Standalone(::StringW value);
 
-  /// @brief Method get_Version, addr 0x285dfe0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x2861648, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Version();
 
-  /// @brief Method ToString, addr 0x285dfe8, size 0x16c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2861650, size 0x16c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "XDeclaration", modifiers: "&&", def_value: None }]

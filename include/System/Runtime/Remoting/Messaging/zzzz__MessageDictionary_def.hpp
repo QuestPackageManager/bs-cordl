@@ -106,25 +106,25 @@ public:
 
   static inline ::System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator* New_ctor(::System::Runtime::Remoting::Messaging::MessageDictionary* methodDictionary);
 
-  /// @brief Method .ctor, addr 0x24af8b8, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24d192c, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::MessageDictionary* methodDictionary);
 
-  /// @brief Method get_Current, addr 0x24af9fc, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x24d1a70, size 0x64, virtual true, abstract: false, final true
   inline ::System::Object* get_Current();
 
-  /// @brief Method MoveNext, addr 0x24afbcc, size 0x1c4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x24d1c40, size 0x1c4, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method Reset, addr 0x24afd90, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x24d1e04, size 0xac, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method get_Entry, addr 0x24afa60, size 0x16c, virtual true, abstract: false, final true
+  /// @brief Method get_Entry, addr 0x24d1ad4, size 0x16c, virtual true, abstract: false, final true
   inline ::System::Collections::DictionaryEntry get_Entry();
 
-  /// @brief Method get_Key, addr 0x24afe3c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method get_Key, addr 0x24d1eb0, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* get_Key();
 
-  /// @brief Method get_Value, addr 0x24afe40, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method get_Value, addr 0x24d1eb4, size 0x14, virtual true, abstract: false, final true
   inline ::System::Object* get_Value();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MessageDictionary__DictionaryEnumerator", modifiers: "&&", def_value: None }]
@@ -250,79 +250,79 @@ public:
 
   static inline ::System::Runtime::Remoting::Messaging::MessageDictionary* New_ctor(::System::Runtime::Remoting::Messaging::IMethodMessage* message);
 
-  /// @brief Method .ctor, addr 0x24ac134, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24ce1a8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::IMethodMessage* message);
 
-  /// @brief Method HasUserData, addr 0x24a8f90, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method HasUserData, addr 0x24cb004, size 0xfc, virtual false, abstract: false, final false
   inline bool HasUserData();
 
-  /// @brief Method get_InternalDictionary, addr 0x24a908c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_InternalDictionary, addr 0x24cb100, size 0x88, virtual false, abstract: false, final false
   inline ::System::Collections::IDictionary* get_InternalDictionary();
 
-  /// @brief Method set_MethodKeys, addr 0x24ae730, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MethodKeys, addr 0x24d07a4, size 0x8, virtual false, abstract: false, final false
   inline void set_MethodKeys(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method AllocInternalProperties, addr 0x24ae738, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method AllocInternalProperties, addr 0x24d07ac, size 0x68, virtual true, abstract: false, final false
   inline ::System::Collections::IDictionary* AllocInternalProperties();
 
-  /// @brief Method GetInternalProperties, addr 0x24ab230, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetInternalProperties, addr 0x24cd2a4, size 0x30, virtual false, abstract: false, final false
   inline ::System::Collections::IDictionary* GetInternalProperties();
 
-  /// @brief Method IsOverridenKey, addr 0x24ae7a0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method IsOverridenKey, addr 0x24d0814, size 0x8c, virtual false, abstract: false, final false
   inline bool IsOverridenKey(::StringW key);
 
-  /// @brief Method get_IsFixedSize, addr 0x24ae82c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsFixedSize, addr 0x24d08a0, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsFixedSize();
 
-  /// @brief Method get_IsReadOnly, addr 0x24ae834, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsReadOnly, addr 0x24d08a8, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Item, addr 0x24ae83c, size 0x14c, virtual true, abstract: false, final true
+  /// @brief Method get_Item, addr 0x24d08b0, size 0x14c, virtual true, abstract: false, final true
   inline ::System::Object* get_Item(::System::Object* key);
 
-  /// @brief Method set_Item, addr 0x24ae988, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method set_Item, addr 0x24d09fc, size 0x4, virtual true, abstract: false, final true
   inline void set_Item(::System::Object* key, ::System::Object* value);
 
-  /// @brief Method GetMethodProperty, addr 0x24ac508, size 0x540, virtual true, abstract: false, final false
+  /// @brief Method GetMethodProperty, addr 0x24ce57c, size 0x540, virtual true, abstract: false, final false
   inline ::System::Object* GetMethodProperty(::StringW key);
 
-  /// @brief Method SetMethodProperty, addr 0x24accb4, size 0x2e0, virtual true, abstract: false, final false
+  /// @brief Method SetMethodProperty, addr 0x24ced28, size 0x2e0, virtual true, abstract: false, final false
   inline void SetMethodProperty(::StringW key, ::System::Object* value);
 
-  /// @brief Method get_Keys, addr 0x24aeaf4, size 0x434, virtual true, abstract: false, final true
+  /// @brief Method get_Keys, addr 0x24d0b68, size 0x434, virtual true, abstract: false, final true
   inline ::System::Collections::ICollection* get_Keys();
 
-  /// @brief Method get_Values, addr 0x24aef28, size 0x420, virtual true, abstract: false, final true
+  /// @brief Method get_Values, addr 0x24d0f9c, size 0x420, virtual true, abstract: false, final true
   inline ::System::Collections::ICollection* get_Values();
 
-  /// @brief Method Add, addr 0x24ae98c, size 0x168, virtual true, abstract: false, final true
+  /// @brief Method Add, addr 0x24d0a00, size 0x168, virtual true, abstract: false, final true
   inline void Add(::System::Object* key, ::System::Object* value);
 
-  /// @brief Method Clear, addr 0x24af348, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method Clear, addr 0x24d13bc, size 0xac, virtual true, abstract: false, final true
   inline void Clear();
 
-  /// @brief Method Contains, addr 0x24af3f4, size 0x148, virtual true, abstract: false, final true
+  /// @brief Method Contains, addr 0x24d1468, size 0x148, virtual true, abstract: false, final true
   inline bool Contains(::System::Object* key);
 
-  /// @brief Method Remove, addr 0x24af53c, size 0x188, virtual true, abstract: false, final true
+  /// @brief Method Remove, addr 0x24d15b0, size 0x188, virtual true, abstract: false, final true
   inline void Remove(::System::Object* key);
 
-  /// @brief Method get_Count, addr 0x24af6c4, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method get_Count, addr 0x24d1738, size 0xc8, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_IsSynchronized, addr 0x24af78c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsSynchronized, addr 0x24d1800, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_SyncRoot, addr 0x24af794, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method get_SyncRoot, addr 0x24d1808, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* get_SyncRoot();
 
-  /// @brief Method CopyTo, addr 0x24af798, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method CopyTo, addr 0x24d180c, size 0xc0, virtual true, abstract: false, final true
   inline void CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x24af858, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x24d18cc, size 0x60, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method GetEnumerator, addr 0x24af99c, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x24d1a10, size 0x60, virtual true, abstract: false, final true
   inline ::System::Collections::IDictionaryEnumerator* GetEnumerator();
 
   // Ctor Parameters [CppParam { name: "", ty: "MessageDictionary", modifiers: "&&", def_value: None }]

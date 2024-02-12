@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::GlobalNamespace::EmptyPosesSerializer);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5915))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5175))
 // CS Name: ::EmptyPosesSerializer*
 class CORDL_TYPE EmptyPosesSerializer : public ::System::Object {
 public:
@@ -33,24 +33,24 @@ public:
   /// @brief Convert to "::GlobalNamespace::IPosesSerializer"
   constexpr ::GlobalNamespace::IPosesSerializer* i___GlobalNamespace__IPosesSerializer() noexcept;
 
-  /// @brief Method SaveToOldFormat, addr 0x22fef54, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method SaveToOldFormat, addr 0x2326e98, size 0x4, virtual true, abstract: false, final true
   inline void SaveToOldFormat(::StringW path, ::GlobalNamespace::PosesRecordingData* data);
 
-  /// @brief Method SaveRecording, addr 0x22fef58, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method SaveRecording, addr 0x2326e9c, size 0x4, virtual true, abstract: false, final true
   inline void SaveRecording(::StringW path, ::GlobalNamespace::PosesRecordingData* data, bool saveToOldFormat);
 
-  /// @brief Method LoadRecording, addr 0x22fef5c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method LoadRecording, addr 0x2326ea0, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::PosesRecordingData* LoadRecording(::StringW path);
 
-  /// @brief Method RecordingExists, addr 0x22fef64, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method RecordingExists, addr 0x2326ea8, size 0x8, virtual true, abstract: false, final true
   inline bool RecordingExists(::StringW path);
 
-  /// @brief Method RecordingCanBeCreated, addr 0x22fef6c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method RecordingCanBeCreated, addr 0x2326eb0, size 0x8, virtual true, abstract: false, final true
   inline bool RecordingCanBeCreated(::StringW path);
 
   static inline ::GlobalNamespace::EmptyPosesSerializer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22fef74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2326eb8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EmptyPosesSerializer", modifiers: "&&", def_value: None }]

@@ -60,7 +60,7 @@ MARK_REF_PTR_T(::Zenject::__ScriptableObjectInstanceProvider____c__DisplayClass1
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11237))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10379))
 // CS Name: ::ScriptableObjectInstanceProvider::<>c__DisplayClass13_0*
 class CORDL_TYPE __ScriptableObjectInstanceProvider____c__DisplayClass13_0 : public ::System::Object {
 public:
@@ -103,16 +103,16 @@ public:
 
   static inline ::Zenject::__ScriptableObjectInstanceProvider____c__DisplayClass13_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f0a508, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f26650, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <GetAllInstancesWithInjectSplit>b__0, addr 0x2f0a510, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method <GetAllInstancesWithInjectSplit>b__0, addr 0x2f26658, size 0x190, virtual false, abstract: false, final false
   inline void _GetAllInstancesWithInjectSplit_b__0();
 
-  /// @brief Method __zenCreate, addr 0x2f0a6a0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2f267e8, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f0a6fc, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f26844, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ScriptableObjectInstanceProvider____c__DisplayClass13_0", modifiers: "&&", def_value: None }]
@@ -160,7 +160,7 @@ static_assert(offsetof(::Zenject::__ScriptableObjectInstanceProvider____c__Displ
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11238))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10380))
 // CS Name: ::Zenject::ScriptableObjectInstanceProvider*
 class CORDL_TYPE ScriptableObjectInstanceProvider : public ::System::Object {
 public:
@@ -245,21 +245,21 @@ public:
                                                                       ::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>* extraArguments, bool createNew,
                                                                       ::System::Object* concreteIdentifier, ::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* instantiateCallback);
 
-  /// @brief Method .ctor, addr 0x2f0a278, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f263c0, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Object* resource, ::System::Type* resourceType, ::Zenject::DiContainer* container,
                     ::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>* extraArguments, bool createNew, ::System::Object* concreteIdentifier,
                     ::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* instantiateCallback);
 
-  /// @brief Method get_IsCached, addr 0x2f0a340, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsCached, addr 0x2f26488, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsCached();
 
-  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x2f0a348, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x2f26490, size 0x8, virtual true, abstract: false, final true
   inline bool get_TypeVariesBasedOnMemberType();
 
-  /// @brief Method GetInstanceType, addr 0x2f0a350, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetInstanceType, addr 0x2f26498, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
 
-  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x2f0a358, size 0x1b0, virtual true, abstract: false, final true
+  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x2f264a0, size 0x1b0, virtual true, abstract: false, final true
   inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction,
                                              ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 

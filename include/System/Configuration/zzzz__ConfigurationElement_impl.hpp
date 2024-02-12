@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Configuration::ConfigurationPropertyCollection* (::System::Configuration::ConfigurationElement::*)()>(
     &::System::Configuration::ConfigurationElement::get_Properties)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x280c958;
+  constexpr static std::size_t addrs = 0x2811140;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Configuration::ConfigurationElement::*)()>(
     &::System::Configuration::ConfigurationElement::IsModified)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x280c990;
+  constexpr static std::size_t addrs = 0x2811178;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Configuration::ConfigurationElement::*)(::System::Configuration::ConfigurationElement*)>(
     &::System::Configuration::ConfigurationElement::Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x280c9c8;
+  constexpr static std::size_t addrs = 0x28111b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Configuration::ConfigurationElement::*)()>(
     &::System::Configuration::ConfigurationElement::ResetModified)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x280ca00;
+  constexpr static std::size_t addrs = 0x28111e8;
 
   inline static ::MethodInfo const* methodInfo() {
 

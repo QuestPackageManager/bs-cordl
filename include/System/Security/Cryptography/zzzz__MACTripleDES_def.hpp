@@ -81,19 +81,19 @@ public:
 
   static inline ::System::Security::Cryptography::MACTripleDES* New_ctor();
 
-  /// @brief Method .ctor, addr 0x245f454, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24814c8, size 0x130, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Initialize, addr 0x245f584, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Initialize, addr 0x24815f8, size 0x8, virtual true, abstract: false, final false
   inline void Initialize();
 
-  /// @brief Method HashCore, addr 0x245f58c, size 0x170, virtual true, abstract: false, final false
+  /// @brief Method HashCore, addr 0x2481600, size 0x170, virtual true, abstract: false, final false
   inline void HashCore(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbData, int32_t ibStart, int32_t cbSize);
 
-  /// @brief Method HashFinal, addr 0x245f78c, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method HashFinal, addr 0x2481800, size 0x14c, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> HashFinal();
 
-  /// @brief Method Dispose, addr 0x245f950, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x24819c4, size 0xe8, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   // Ctor Parameters [CppParam { name: "", ty: "MACTripleDES", modifiers: "&&", def_value: None }]

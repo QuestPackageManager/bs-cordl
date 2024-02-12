@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::RootMotion::FinalIK::Constraints::*)()>(&::RootMotion::FinalIK::Constraints::IsValid)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x1242b84;
+  constexpr static std::size_t addrs = 0x12ddc34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::Constraints*>::get(), "IsValid",
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::Constraints::*)(::UnityEngine::Transform*)>(
     &::RootMotion::FinalIK::Constraints::Initiate)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x1241dcc;
+  constexpr static std::size_t addrs = 0x12dce7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::Constraints::*)()>(&::RootMotion::FinalIK::Constraints::Update)> {
   constexpr static std::size_t size = 0x2f8;
-  constexpr static std::size_t addrs = 0x1241f90;
+  constexpr static std::size_t addrs = 0x12dd040;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::Constraints*>::get(), "Update",
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::Constraints::*)()>(&::RootMotion::FinalIK::Constraints::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1242684;
+  constexpr static std::size_t addrs = 0x12dd734;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::Constraints*>::get(), ".ctor",

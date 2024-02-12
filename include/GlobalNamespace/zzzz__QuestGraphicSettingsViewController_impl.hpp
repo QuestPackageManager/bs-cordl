@@ -1,11 +1,11 @@
 #pragma once
+#include "BeatSaber/PerformancePresets/zzzz__PerformancePreset_impl.hpp"
 #include "GlobalNamespace/zzzz__GraphicSettingsViewController_impl.hpp"
-#include "GlobalNamespace/zzzz__PerformancePreset_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "System/zzzz__ValueTuple_2_impl.hpp"
 #include "GlobalNamespace/zzzz__QuestGraphicSettingsViewController_def.hpp"
-#include "GlobalNamespace/zzzz__PerformancePreset_def.hpp"
+#include "BeatSaber/PerformancePresets/zzzz__PerformancePreset_def.hpp"
 #include "GlobalNamespace/zzzz__QuestGraphicSettingsViewController_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__QuestGraphicSettingsViewController___Initialize120HzToggleAsync_d__4::*)()>(
     &::GlobalNamespace::__QuestGraphicSettingsViewController___Initialize120HzToggleAsync_d__4::MoveNext)> {
   constexpr static std::size_t size = 0x3b8;
-  constexpr static std::size_t addrs = 0x22daa9c;
+  constexpr static std::size_t addrs = 0x230b170;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__QuestGraphicSettingsViewController___Initialize120HzToggleAsync_d__4::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::__QuestGraphicSettingsViewController___Initialize120HzToggleAsync_d__4::SetStateMachine)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x22dae54;
+  constexpr static std::size_t addrs = 0x230b528;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__QuestGraphicSettingsViewController___Handle120HzToggleValueChangedAsync_d__5::*)()>(
     &::GlobalNamespace::__QuestGraphicSettingsViewController___Handle120HzToggleValueChangedAsync_d__5::MoveNext)> {
   constexpr static std::size_t size = 0x724;
-  constexpr static std::size_t addrs = 0x22dae60;
+  constexpr static std::size_t addrs = 0x230b534;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__QuestGraphicSettingsViewController___Handle120HzToggleValueChangedAsync_d__5::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::__QuestGraphicSettingsViewController___Handle120HzToggleValueChangedAsync_d__5::SetStateMachine)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x22db584;
+  constexpr static std::size_t addrs = 0x230bc58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -138,12 +138,13 @@ inline void GlobalNamespace::__QuestGraphicSettingsViewController___Handle120HzT
 // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
 // "::UnityW<::GlobalNamespace::QuestGraphicSettingsViewController>", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "newState", ty: "bool", modifiers: "", def_value: Some("{}") },
 // CppParam { name: "_prevPerformancePresetKey_5__2", ty: "::StringW", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "_prevTargetFramerate_5__3", ty: "float_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::PerformancePreset*>", modifiers: "", def_value: Some("{}") }, CppParam
-// { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::ValueTuple_2<::StringW,::GlobalNamespace::PerformancePreset*>>", modifiers: "", def_value: Some("{}") }]
+// def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::PerformancePresets::PerformancePreset*>", modifiers: "", def_value:
+// Some("{}") }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::ValueTuple_2<::StringW,::BeatSaber::PerformancePresets::PerformancePreset*>>", modifiers:
+// "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::__QuestGraphicSettingsViewController___Handle120HzToggleValueChangedAsync_d__5::__QuestGraphicSettingsViewController___Handle120HzToggleValueChangedAsync_d__5(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::QuestGraphicSettingsViewController> __4__this, bool newState,
-    ::StringW _prevPerformancePresetKey_5__2, float_t _prevTargetFramerate_5__3, ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::PerformancePreset*> __u__1,
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::ValueTuple_2<::StringW, ::GlobalNamespace::PerformancePreset*>> __u__2) noexcept {
+    ::StringW _prevPerformancePresetKey_5__2, float_t _prevTargetFramerate_5__3, ::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::PerformancePresets::PerformancePreset*> __u__1,
+    ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::ValueTuple_2<::StringW, ::BeatSaber::PerformancePresets::PerformancePreset*>> __u__2) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->__4__this = __4__this;
@@ -160,8 +161,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::QuestGraphicSettingsViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::QuestGraphicSettingsViewController::DidActivate)> {
-  constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x22da840;
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x230af64;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -177,7 +178,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::QuestGraphicSettingsViewController::*)(bool)>(
     &::GlobalNamespace::QuestGraphicSettingsViewController::Initialize120HzToggleAsync)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x22da94c;
+  constexpr static std::size_t addrs = 0x230b020;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -192,7 +193,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::QuestGraphicSettingsViewController::*)(bool)>(
     &::GlobalNamespace::QuestGraphicSettingsViewController::Handle120HzToggleValueChangedAsync)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x22da9ec;
+  constexpr static std::size_t addrs = 0x230b0c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -207,7 +208,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::QuestGraphicSettingsViewController::*)()>(
     &::GlobalNamespace::QuestGraphicSettingsViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22daa94;
+  constexpr static std::size_t addrs = 0x230b168;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::QuestGraphicSettingsViewController*>::get(),

@@ -122,36 +122,36 @@ public:
 
   constexpr void __cordl_internal_set_mReadMac(::Org::BouncyCastle::Crypto::Tls::TlsMac* value);
 
-  /// @brief Method get_WriteMac, addr 0xf99d50, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_WriteMac, addr 0xfc5be0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsMac* get_WriteMac();
 
-  /// @brief Method get_ReadMac, addr 0xf99d58, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ReadMac, addr 0xfc5be8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsMac* get_ReadMac();
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::Org::BouncyCastle::Crypto::IBlockCipher* clientWriteCipher,
                                                                            ::Org::BouncyCastle::Crypto::IBlockCipher* serverWriteCipher, ::Org::BouncyCastle::Crypto::IDigest* clientWriteDigest,
                                                                            ::Org::BouncyCastle::Crypto::IDigest* serverWriteDigest, int32_t cipherKeySize);
 
-  /// @brief Method .ctor, addr 0xf99d60, size 0xb9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfc5bf0, size 0xb9c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::Org::BouncyCastle::Crypto::IBlockCipher* clientWriteCipher, ::Org::BouncyCastle::Crypto::IBlockCipher* serverWriteCipher,
                     ::Org::BouncyCastle::Crypto::IDigest* clientWriteDigest, ::Org::BouncyCastle::Crypto::IDigest* serverWriteDigest, int32_t cipherKeySize);
 
-  /// @brief Method GetPlaintextLimit, addr 0xf9a8fc, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method GetPlaintextLimit, addr 0xfc678c, size 0x100, virtual true, abstract: false, final false
   inline int32_t GetPlaintextLimit(int32_t ciphertextLimit);
 
-  /// @brief Method EncodePlaintext, addr 0xf9a9fc, size 0x654, virtual true, abstract: false, final false
+  /// @brief Method EncodePlaintext, addr 0xfc688c, size 0x654, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodePlaintext(int64_t seqNo, uint8_t type, ::ArrayW<uint8_t, ::Array<uint8_t>*> plaintext, int32_t offset, int32_t len);
 
-  /// @brief Method DecodeCiphertext, addr 0xf9b050, size 0x4b0, virtual true, abstract: false, final false
+  /// @brief Method DecodeCiphertext, addr 0xfc6ee0, size 0x4b0, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DecodeCiphertext(int64_t seqNo, uint8_t type, ::ArrayW<uint8_t, ::Array<uint8_t>*> ciphertext, int32_t offset, int32_t len);
 
-  /// @brief Method CheckPaddingConstantTime, addr 0xf9b500, size 0x16c, virtual true, abstract: false, final false
+  /// @brief Method CheckPaddingConstantTime, addr 0xfc7390, size 0x16c, virtual true, abstract: false, final false
   inline int32_t CheckPaddingConstantTime(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len, int32_t blockSize, int32_t macSize);
 
-  /// @brief Method ChooseExtraPadBlocks, addr 0xf9b66c, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method ChooseExtraPadBlocks, addr 0xfc74fc, size 0xa8, virtual true, abstract: false, final false
   inline int32_t ChooseExtraPadBlocks(::Org::BouncyCastle::Security::SecureRandom* r, int32_t max);
 
-  /// @brief Method LowestBitSet, addr 0xf9b714, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method LowestBitSet, addr 0xfc75a4, size 0x28, virtual true, abstract: false, final false
   inline int32_t LowestBitSet(int32_t x);
 
   // Ctor Parameters [CppParam { name: "", ty: "TlsBlockCipher", modifiers: "&&", def_value: None }]

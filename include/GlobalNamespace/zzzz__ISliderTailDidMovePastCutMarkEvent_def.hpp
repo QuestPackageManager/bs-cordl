@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ISliderTailDidMovePastCutMarkEvent);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4802))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4153))
 // CS Name: ::ISliderTailDidMovePastCutMarkEvent*
 class CORDL_TYPE ISliderTailDidMovePastCutMarkEvent {
 public:

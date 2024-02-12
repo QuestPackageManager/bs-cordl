@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::Mono::Security::Protocol::Ntlm::MessageBase);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Mono::Security::Protocol::Ntlm {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13767))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13765))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13720))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13718))
 // CS Name: ::Mono.Security.Protocol.Ntlm::MessageBase*
 class CORDL_TYPE MessageBase : public ::System::Object {
 public:
@@ -57,25 +57,25 @@ public:
 
   static inline ::Mono::Security::Protocol::Ntlm::MessageBase* New_ctor(int32_t messageType);
 
-  /// @brief Method .ctor, addr 0x2400ee8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2420d48, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t messageType);
 
-  /// @brief Method get_Flags, addr 0x2400f10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Flags, addr 0x2420d70, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::Protocol::Ntlm::NtlmFlags get_Flags();
 
-  /// @brief Method set_Flags, addr 0x2400f18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Flags, addr 0x2420d78, size 0x8, virtual false, abstract: false, final false
   inline void set_Flags(::Mono::Security::Protocol::Ntlm::NtlmFlags value);
 
-  /// @brief Method get_Type, addr 0x2400f20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x2420d80, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Type();
 
-  /// @brief Method PrepareMessage, addr 0x2400f28, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method PrepareMessage, addr 0x2420d88, size 0x100, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> PrepareMessage(int32_t messageSize);
 
-  /// @brief Method Decode, addr 0x2401028, size 0x1a4, virtual true, abstract: false, final false
+  /// @brief Method Decode, addr 0x2420e88, size 0x1a4, virtual true, abstract: false, final false
   inline void Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> message);
 
-  /// @brief Method CheckHeader, addr 0x24011cc, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method CheckHeader, addr 0x242102c, size 0x114, virtual false, abstract: false, final false
   inline bool CheckHeader(::ArrayW<uint8_t, ::Array<uint8_t>*> message);
 
   /// @brief Method GetBytes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

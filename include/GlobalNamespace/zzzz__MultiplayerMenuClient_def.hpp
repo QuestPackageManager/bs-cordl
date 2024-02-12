@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerMenuClient);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5583))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4888))
 // CS Name: ::MultiplayerMenuClient*
 class CORDL_TYPE MultiplayerMenuClient : public ::UnityEngine::MonoBehaviour {
 public:
@@ -45,12 +45,12 @@ public:
 
   constexpr void __cordl_internal_set__nodePoseSyncStateManager(::GlobalNamespace::INodePoseSyncStateManager* value);
 
-  /// @brief Method LateUpdate, addr 0x22a74e4, size 0x378, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x22da928, size 0x368, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::MultiplayerMenuClient* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22a785c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22dac90, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerMenuClient", modifiers: "&&", def_value: None }]

@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::ICurvesOwner);
 namespace UnityEngine::Timeline {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13844))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13797))
 // CS Name: ::UnityEngine.Timeline::ICurvesOwner*
 class CORDL_TYPE ICurvesOwner {
 public:

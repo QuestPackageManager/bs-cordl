@@ -37,8 +37,8 @@ MARK_REF_PTR_T(::GlobalNamespace::StretchableObstacle);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10164)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4798))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8908)), TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8993))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4149))
 // CS Name: ::StretchableObstacle*
 class CORDL_TYPE StretchableObstacle : public ::UnityEngine::MonoBehaviour {
 public:
@@ -168,18 +168,18 @@ public:
 
   static inline int32_t getStaticF__mainColorID();
 
-  /// @brief Method get_bounds, addr 0x238f8c4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_bounds, addr 0x234eff4, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Bounds get_bounds();
 
-  /// @brief Method SetSizeAndColor, addr 0x238cbe4, size 0x40c, virtual false, abstract: false, final false
+  /// @brief Method SetSizeAndColor, addr 0x234f008, size 0x40c, virtual false, abstract: false, final false
   inline void SetSizeAndColor(float_t width, float_t height, float_t length, ::UnityEngine::Color color);
 
-  /// @brief Method OnValidate, addr 0x238f8d8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x234f414, size 0x6c, virtual false, abstract: false, final false
   inline void OnValidate();
 
   static inline ::GlobalNamespace::StretchableObstacle* New_ctor();
 
-  /// @brief Method .ctor, addr 0x238f944, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x234f480, size 0x34, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "StretchableObstacle", modifiers: "&&", def_value: None }]

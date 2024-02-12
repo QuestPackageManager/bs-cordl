@@ -24,24 +24,24 @@ MARK_REF_PTR_T(::System::Net::ExceptionHelper);
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9076))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7086))
 // CS Name: ::System.Net::ExceptionHelper*
 class CORDL_TYPE ExceptionHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_MethodNotImplementedException, addr 0x299df28, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_MethodNotImplementedException, addr 0x29a29cc, size 0x88, virtual false, abstract: false, final false
   static inline ::System::NotImplementedException* get_MethodNotImplementedException();
 
-  /// @brief Method get_PropertyNotImplementedException, addr 0x299dfb0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_PropertyNotImplementedException, addr 0x29a2a54, size 0x88, virtual false, abstract: false, final false
   static inline ::System::NotImplementedException* get_PropertyNotImplementedException();
 
-  /// @brief Method get_TimeoutException, addr 0x299e038, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_TimeoutException, addr 0x29a2adc, size 0x80, virtual false, abstract: false, final false
   static inline ::System::Net::WebException* get_TimeoutException();
 
-  /// @brief Method get_PropertyNotSupportedException, addr 0x299e0cc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_PropertyNotSupportedException, addr 0x29a2b70, size 0x88, virtual false, abstract: false, final false
   static inline ::System::NotSupportedException* get_PropertyNotSupportedException();
 
-  /// @brief Method get_RequestAbortedException, addr 0x299e154, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_RequestAbortedException, addr 0x29a2bf8, size 0x94, virtual false, abstract: false, final false
   static inline ::System::Net::WebException* get_RequestAbortedException();
 
   // Ctor Parameters [CppParam { name: "", ty: "ExceptionHelper", modifiers: "&&", def_value: None }]

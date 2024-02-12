@@ -51,8 +51,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapObjectsAvoidance);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10243))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3961))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8987))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15002))
 // CS Name: ::BeatmapObjectsAvoidance*
 class CORDL_TYPE BeatmapObjectsAvoidance : public ::UnityEngine::MonoBehaviour {
 public:
@@ -188,33 +188,33 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method Awake, addr 0x2217c98, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0xe296ec, size 0x1c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Start, addr 0x2217cb4, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0xe29708, size 0x184, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy, addr 0x22181f8, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0xe29c4c, size 0x108, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Update, addr 0x2218300, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0xe29d54, size 0x190, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method SetupAndRun, addr 0x2217e38, size 0x3c0, virtual false, abstract: false, final false
+  /// @brief Method SetupAndRun, addr 0xe2988c, size 0x3c0, virtual false, abstract: false, final false
   inline void SetupAndRun();
 
-  /// @brief Method BuildAnimationCurvePath, addr 0x2218490, size 0x584, virtual false, abstract: false, final false
+  /// @brief Method BuildAnimationCurvePath, addr 0xe29ee4, size 0x584, virtual false, abstract: false, final false
   inline bool BuildAnimationCurvePath();
 
-  /// @brief Method AdjustPositionWithOffsetDirection, addr 0x2218ad4, size 0x2f0, virtual false, abstract: false, final false
+  /// @brief Method AdjustPositionWithOffsetDirection, addr 0xe2a528, size 0x2f0, virtual false, abstract: false, final false
   inline void AdjustPositionWithOffsetDirection(ByRef<::UnityEngine::Vector2> position, int32_t lineIndex, ::GlobalNamespace::OffsetDirection offsetDirection);
 
-  /// @brief Method HandleBeatmapObjectSpawnControllerDidInit, addr 0x2219624, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapObjectSpawnControllerDidInit, addr 0xe2b078, size 0x4, virtual false, abstract: false, final false
   inline void HandleBeatmapObjectSpawnControllerDidInit();
 
   static inline ::GlobalNamespace::BeatmapObjectsAvoidance* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2219628, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe2b07c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectsAvoidance", modifiers: "&&", def_value: None }]

@@ -53,14 +53,14 @@ MARK_VAL_T(::UnityEngine::InputSystem::Android::LowLevel::__AndroidGameControlle
 namespace UnityEngine::InputSystem::Android::LowLevel {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6446))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5705))
 // CS Name: ::AndroidGameControllerState::Variants*
 class CORDL_TYPE __AndroidGameControllerState__Variants : public ::System::Object {
 public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Android::LowLevel::__AndroidGameControllerState__Variants* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ae675c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ae82c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__AndroidGameControllerState__Variants", modifiers: "&&", def_value: None }]
@@ -100,7 +100,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Androi
 namespace UnityEngine::InputSystem::Android::LowLevel {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6447))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5706))
 // CS Name: ::AndroidGameControllerState::<buttons>e__FixedBuffer
 #pragma pack(push, 0)
 struct CORDL_TYPE __AndroidGameControllerState___buttons_e__FixedBuffer {
@@ -136,7 +136,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::Android::LowLevel::__AndroidG
 namespace UnityEngine::InputSystem::Android::LowLevel {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6448))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5707))
 // CS Name: ::AndroidGameControllerState::<axis>e__FixedBuffer
 #pragma pack(push, 0)
 struct CORDL_TYPE __AndroidGameControllerState___axis_e__FixedBuffer {
@@ -171,8 +171,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::Android::LowLevel::__AndroidG
 // SizeInfo { instance_size: 220, native_size: 220, calculated_instance_size: 220, calculated_native_size: 236, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Android::LowLevel {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6447)), TypeDefinitionIndex(TypeDefinitionIndex(6448)), TypeDefinitionIndex(TypeDefinitionIndex(6667))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6449))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5706)), TypeDefinitionIndex(TypeDefinitionIndex(5707)), TypeDefinitionIndex(TypeDefinitionIndex(5926))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5708))
 // CS Name: ::UnityEngine.InputSystem.Android.LowLevel::AndroidGameControllerState
 struct CORDL_TYPE AndroidGameControllerState {
 public:
@@ -198,13 +198,13 @@ public:
 
   static inline ::UnityEngine::InputSystem::Utilities::FourCC getStaticF_kFormat();
 
-  /// @brief Method get_format, addr 0x2ae6638, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method get_format, addr 0x2ae81a4, size 0x58, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
-  /// @brief Method WithButton, addr 0x2ae6690, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method WithButton, addr 0x2ae81fc, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState WithButton(::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode code, bool value);
 
-  /// @brief Method WithAxis, addr 0x2ae66d4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method WithAxis, addr 0x2ae8240, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState WithAxis(::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis axis, float_t value);
 
   // Ctor Parameters [CppParam { name: "buttons", ty: "::UnityEngine::InputSystem::Android::LowLevel::__AndroidGameControllerState___buttons_e__FixedBuffer", modifiers: "", def_value: None }, CppParam

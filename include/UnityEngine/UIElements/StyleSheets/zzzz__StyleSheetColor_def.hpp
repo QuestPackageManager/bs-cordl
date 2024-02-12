@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::StyleSheets::StyleSheetColor);
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7474))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6733))
 // CS Name: ::UnityEngine.UIElements.StyleSheets::StyleSheetColor*
 class CORDL_TYPE StyleSheetColor : public ::System::Object {
 public:
@@ -39,10 +39,10 @@ public:
 
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::Color32>* getStaticF_s_NameToColor();
 
-  /// @brief Method TryGetColor, addr 0x2de7548, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method TryGetColor, addr 0x2e05930, size 0xf4, virtual false, abstract: false, final false
   static inline bool TryGetColor(::StringW name, ByRef<::UnityEngine::Color> color);
 
-  /// @brief Method HexToColor32, addr 0x2dea450, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method HexToColor32, addr 0x2e08838, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color32 HexToColor32(uint32_t color);
 
   // Ctor Parameters [CppParam { name: "", ty: "StyleSheetColor", modifiers: "&&", def_value: None }]

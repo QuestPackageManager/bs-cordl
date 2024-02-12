@@ -16,7 +16,7 @@ MARK_VAL_T(::MidiParser::MetaEventType);
 namespace MidiParser {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16231))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16397))
 // CS Name: ::MidiParser::MetaEventType
 struct CORDL_TYPE MetaEventType {
 public:

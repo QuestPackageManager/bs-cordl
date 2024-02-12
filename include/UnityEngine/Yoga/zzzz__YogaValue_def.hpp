@@ -23,8 +23,8 @@ MARK_VAL_T(::UnityEngine::Yoga::YogaValue);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Yoga {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15363))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15364))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15523))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15524))
 // CS Name: ::UnityEngine.Yoga::YogaValue
 struct CORDL_TYPE YogaValue {
 public:
@@ -33,31 +33,31 @@ public:
 
   __declspec(property(get = get_Value)) float_t Value;
 
-  /// @brief Method get_Unit, addr 0x2ea1fd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Unit, addr 0x2ebb3bc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Yoga::YogaUnit get_Unit();
 
-  /// @brief Method get_Value, addr 0x2ea1fdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x2ebb3c4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_Value();
 
-  /// @brief Method Point, addr 0x2ea5184, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Point, addr 0x2ebe56c, size 0x24, virtual false, abstract: false, final false
   static inline ::UnityEngine::Yoga::YogaValue Point(float_t value);
 
-  /// @brief Method Equals, addr 0x2ea51a8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x2ebe590, size 0x60, virtual false, abstract: false, final false
   inline bool Equals(::UnityEngine::Yoga::YogaValue other);
 
-  /// @brief Method Equals, addr 0x2ea5208, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2ebe5f0, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2ea5280, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2ebe668, size 0x3c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Auto, addr 0x2ea52bc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Auto, addr 0x2ebe6a4, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Yoga::YogaValue Auto();
 
-  /// @brief Method Percent, addr 0x2ea52c8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Percent, addr 0x2ebe6b0, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::Yoga::YogaValue Percent(float_t value);
 
-  /// @brief Method op_Implicit, addr 0x2ea52f0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2ebe6d8, size 0x2c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Yoga::YogaValue op_Implicit___UnityEngine__Yoga__YogaValue(float_t pointValue);
 
   // Ctor Parameters [CppParam { name: "value", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "unit", ty: "::UnityEngine::Yoga::YogaUnit", modifiers: "", def_value: None }]

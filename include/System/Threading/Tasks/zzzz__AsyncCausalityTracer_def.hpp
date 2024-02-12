@@ -31,19 +31,19 @@ namespace System::Threading::Tasks {
 class CORDL_TYPE AsyncCausalityTracer : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_LoggingOn, addr 0x262a984, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LoggingOn, addr 0x2650aa8, size 0x8, virtual false, abstract: false, final false
   static inline bool get_LoggingOn();
 
-  /// @brief Method TraceOperationCreation, addr 0x262ded8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method TraceOperationCreation, addr 0x2653ffc, size 0x4, virtual false, abstract: false, final false
   static inline void TraceOperationCreation(::System::Threading::Tasks::CausalityTraceLevel traceLevel, int32_t taskId, ::StringW operationName, uint64_t relatedContext);
 
-  /// @brief Method TraceOperationCompletion, addr 0x262dedc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method TraceOperationCompletion, addr 0x2654000, size 0x4, virtual false, abstract: false, final false
   static inline void TraceOperationCompletion(::System::Threading::Tasks::CausalityTraceLevel traceLevel, int32_t taskId, ::System::Threading::Tasks::AsyncCausalityStatus status);
 
-  /// @brief Method TraceSynchronousWorkStart, addr 0x262dee0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method TraceSynchronousWorkStart, addr 0x2654004, size 0x4, virtual false, abstract: false, final false
   static inline void TraceSynchronousWorkStart(::System::Threading::Tasks::CausalityTraceLevel traceLevel, int32_t taskId, ::System::Threading::Tasks::CausalitySynchronousWork work);
 
-  /// @brief Method TraceSynchronousWorkCompletion, addr 0x262a98c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method TraceSynchronousWorkCompletion, addr 0x2650ab0, size 0x4, virtual false, abstract: false, final false
   static inline void TraceSynchronousWorkCompletion(::System::Threading::Tasks::CausalityTraceLevel traceLevel, ::System::Threading::Tasks::CausalitySynchronousWork work);
 
   // Ctor Parameters [CppParam { name: "", ty: "AsyncCausalityTracer", modifiers: "&&", def_value: None }]

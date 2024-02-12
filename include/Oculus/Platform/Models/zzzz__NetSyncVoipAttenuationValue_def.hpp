@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::NetSyncVoipAttenuationValue);
 namespace Oculus::Platform::Models {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13463))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13411))
 // CS Name: ::Oculus.Platform.Models::NetSyncVoipAttenuationValue*
 class CORDL_TYPE NetSyncVoipAttenuationValue : public ::System::Object {
 public:
@@ -42,7 +42,7 @@ public:
 
   static inline ::Oculus::Platform::Models::NetSyncVoipAttenuationValue* New_ctor(void* o);
 
-  /// @brief Method .ctor, addr 0x2707a00, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x273ba0c, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "NetSyncVoipAttenuationValue", modifiers: "&&", def_value: None }]

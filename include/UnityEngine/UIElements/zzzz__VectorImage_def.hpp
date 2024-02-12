@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::VectorImage);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210)), TypeDefinitionIndex(TypeDefinitionIndex(10243))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6806))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8954)), TypeDefinitionIndex(TypeDefinitionIndex(8987))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6065))
 // CS Name: ::UnityEngine.UIElements::VectorImage*
 class CORDL_TYPE VectorImage : public ::UnityEngine::ScriptableObject {
 public:
@@ -81,7 +81,7 @@ public:
 
   static inline ::UnityEngine::UIElements::VectorImage* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2dbcf58, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ddb340, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "VectorImage", modifiers: "&&", def_value: None }]

@@ -57,26 +57,26 @@ public:
 
   constexpr void __cordl_internal_set_macData(::Org::BouncyCastle::Asn1::Pkcs::MacData* value);
 
-  /// @brief Method GetInstance, addr 0xf8a804, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xfb5694, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::Pfx* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::Pfx* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xf8a8a8, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfb5738, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::Pfx* New_ctor(::Org::BouncyCastle::Asn1::Pkcs::ContentInfo* contentInfo, ::Org::BouncyCastle::Asn1::Pkcs::MacData* macData);
 
-  /// @brief Method .ctor, addr 0xf8a9a4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfb5834, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Pkcs::ContentInfo* contentInfo, ::Org::BouncyCastle::Asn1::Pkcs::MacData* macData);
 
-  /// @brief Method get_AuthSafe, addr 0xf8a9d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AuthSafe, addr 0xfb5860, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Pkcs::ContentInfo* get_AuthSafe();
 
-  /// @brief Method get_MacData, addr 0xf8a9d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MacData, addr 0xfb5868, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Pkcs::MacData* get_MacData();
 
-  /// @brief Method ToAsn1Object, addr 0xf8a9e0, size 0x1a0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xfb5870, size 0x1a0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "Pfx", modifiers: "&&", def_value: None }]

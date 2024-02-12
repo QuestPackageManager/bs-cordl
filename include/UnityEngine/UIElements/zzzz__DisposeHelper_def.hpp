@@ -18,12 +18,12 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::DisposeHelper);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6879))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6138))
 // CS Name: ::UnityEngine.UIElements::DisposeHelper*
 class CORDL_TYPE DisposeHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method NotifyDisposedUsed, addr 0x2df9994, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method NotifyDisposedUsed, addr 0x2e16d7c, size 0xc8, virtual false, abstract: false, final false
   static inline void NotifyDisposedUsed(::System::IDisposable* disposable);
 
   // Ctor Parameters [CppParam { name: "", ty: "DisposeHelper", modifiers: "&&", def_value: None }]

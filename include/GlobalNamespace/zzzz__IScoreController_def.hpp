@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IScoreController);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5318))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4658))
 // CS Name: ::IScoreController*
 class CORDL_TYPE IScoreController {
 public:

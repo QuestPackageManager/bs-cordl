@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::HmdQuaternion_t);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8651))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8595))
 // CS Name: ::OVR.OpenVR::HmdQuaternion_t
 struct CORDL_TYPE HmdQuaternion_t {
 public:

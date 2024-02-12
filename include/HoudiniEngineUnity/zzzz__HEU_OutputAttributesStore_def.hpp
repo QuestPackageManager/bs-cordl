@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_OutputAttributesStore);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9668))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9460))
 // CS Name: ::HoudiniEngineUnity::HEU_OutputAttributesStore*
 class CORDL_TYPE HEU_OutputAttributesStore : public ::UnityEngine::MonoBehaviour {
 public:
@@ -36,18 +36,18 @@ public:
 
   constexpr void __cordl_internal_set__attributes(::HoudiniEngineUnity::HEU_OutputAttributeDictionary* value);
 
-  /// @brief Method SetAttribute, addr 0x2183a28, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method SetAttribute, addr 0x221830c, size 0xfc, virtual false, abstract: false, final false
   inline void SetAttribute(::HoudiniEngineUnity::HEU_OutputAttribute* attribute);
 
-  /// @brief Method GetAttribute, addr 0x2183b24, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetAttribute, addr 0x2218408, size 0x70, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_OutputAttribute* GetAttribute(::StringW name);
 
-  /// @brief Method Clear, addr 0x2183b94, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x2218478, size 0x50, virtual false, abstract: false, final false
   inline void Clear();
 
   static inline ::HoudiniEngineUnity::HEU_OutputAttributesStore* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2183be4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22184c8, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_OutputAttributesStore", modifiers: "&&", def_value: None }]

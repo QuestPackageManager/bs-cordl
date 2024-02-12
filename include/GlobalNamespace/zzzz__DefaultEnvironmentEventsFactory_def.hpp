@@ -7,15 +7,6 @@ CORDL_MODULE_EXPORT(DefaultEnvironmentEventsFactory)
 namespace GlobalNamespace {
 class BeatmapData;
 }
-namespace GlobalNamespace {
-class BeatmapEventDataBoxGroupLists;
-}
-namespace GlobalNamespace {
-class DefaultEnvironmentEvents;
-}
-namespace GlobalNamespace {
-class IEnvironmentLightGroups;
-}
 // Forward declare root types
 namespace GlobalNamespace {
 class DefaultEnvironmentEventsFactory;
@@ -27,14 +18,13 @@ MARK_REF_PTR_T(::GlobalNamespace::DefaultEnvironmentEventsFactory);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4298))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10727))
 // CS Name: ::DefaultEnvironmentEventsFactory*
 class CORDL_TYPE DefaultEnvironmentEventsFactory : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method InsertDefaultEnvironmentEvents, addr 0x2333894, size 0x348, virtual false, abstract: false, final false
-  static inline void InsertDefaultEnvironmentEvents(::GlobalNamespace::BeatmapData* beatmapData, ::GlobalNamespace::BeatmapEventDataBoxGroupLists* beatmapEventDataBoxGroupLists,
-                                                    ::GlobalNamespace::DefaultEnvironmentEvents* defaultEnvironmentEvents, ::GlobalNamespace::IEnvironmentLightGroups* environmentLightGroups);
+  /// @brief Method InsertDefaultEvents, addr 0x1279064, size 0xac, virtual false, abstract: false, final false
+  static inline void InsertDefaultEvents(::GlobalNamespace::BeatmapData* beatmapData);
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultEnvironmentEventsFactory", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

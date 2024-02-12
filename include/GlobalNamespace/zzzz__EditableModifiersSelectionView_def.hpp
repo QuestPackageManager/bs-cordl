@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::EditableModifiersSelectionView);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 74, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5798))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5780))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5096))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5078))
 // CS Name: ::EditableModifiersSelectionView*
 class CORDL_TYPE EditableModifiersSelectionView : public ::GlobalNamespace::ModifiersSelectionView {
 public:
@@ -82,36 +82,36 @@ public:
 
   constexpr void __cordl_internal_set__showClearButton_k__BackingField(bool value);
 
-  /// @brief Method get_editButton, addr 0x22e1008, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_editButton, addr 0x23112f8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Button> get_editButton();
 
-  /// @brief Method get_clearButton, addr 0x22e1010, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_clearButton, addr 0x2311300, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Button> get_clearButton();
 
-  /// @brief Method get_interactable, addr 0x22e1018, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_interactable, addr 0x2311308, size 0x8, virtual false, abstract: false, final false
   inline bool get_interactable();
 
-  /// @brief Method set_interactable, addr 0x22cef90, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_interactable, addr 0x2311310, size 0x60, virtual false, abstract: false, final false
   inline void set_interactable(bool value);
 
-  /// @brief Method get_showClearButton, addr 0x22e1020, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_showClearButton, addr 0x2311370, size 0x8, virtual false, abstract: false, final false
   inline bool get_showClearButton();
 
-  /// @brief Method set_showClearButton, addr 0x22e1028, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_showClearButton, addr 0x2311378, size 0xc, virtual false, abstract: false, final false
   inline void set_showClearButton(bool value);
 
-  /// @brief Method SetVisibility, addr 0x22ce988, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SetVisibility, addr 0x2311384, size 0x28, virtual false, abstract: false, final false
   inline void SetVisibility(bool visible);
 
-  /// @brief Method Setup, addr 0x22ce97c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x23113ac, size 0xc, virtual false, abstract: false, final false
   inline void Setup(bool showClearButton);
 
-  /// @brief Method SetGameplayModifiers, addr 0x22e1034, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method SetGameplayModifiers, addr 0x23113b8, size 0x60, virtual true, abstract: false, final false
   inline void SetGameplayModifiers(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
   static inline ::GlobalNamespace::EditableModifiersSelectionView* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22e1098, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2311584, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EditableModifiersSelectionView", modifiers: "&&", def_value: None }]

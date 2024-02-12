@@ -96,48 +96,48 @@ public:
 
   constexpr void __cordl_internal_set_sig(::Org::BouncyCastle::Asn1::DerBitString* value);
 
-  /// @brief Method GetInstance, addr 0x1086cd8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x10b3b68, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::CertificateList* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0x1086cf0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x10b3b80, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::CertificateList* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::CertificateList* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0x1086d94, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10b3c24, size 0x150, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_TbsCertList, addr 0x1086ee4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TbsCertList, addr 0x10b3d74, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::TbsCertificateList* get_TbsCertList();
 
-  /// @brief Method GetRevokedCertificates, addr 0x1086eec, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetRevokedCertificates, addr 0x10b3d7c, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::CrlEntry*, ::Array<::Org::BouncyCastle::Asn1::X509::CrlEntry*>*> GetRevokedCertificates();
 
-  /// @brief Method GetRevokedCertificateEnumeration, addr 0x1086f08, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetRevokedCertificateEnumeration, addr 0x10b3d98, size 0x1c, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerable* GetRevokedCertificateEnumeration();
 
-  /// @brief Method get_SignatureAlgorithm, addr 0x1086f24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SignatureAlgorithm, addr 0x10b3db4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_SignatureAlgorithm();
 
-  /// @brief Method get_Signature, addr 0x1086f2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Signature, addr 0x10b3dbc, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerBitString* get_Signature();
 
-  /// @brief Method GetSignatureOctets, addr 0x1086f34, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetSignatureOctets, addr 0x10b3dc4, size 0x20, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSignatureOctets();
 
-  /// @brief Method get_Version, addr 0x1086f54, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x10b3de4, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_Version();
 
-  /// @brief Method get_Issuer, addr 0x1086f70, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Issuer, addr 0x10b3e00, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Name* get_Issuer();
 
-  /// @brief Method get_ThisUpdate, addr 0x1086f8c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_ThisUpdate, addr 0x10b3e1c, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::Time* get_ThisUpdate();
 
-  /// @brief Method get_NextUpdate, addr 0x1086fa8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_NextUpdate, addr 0x10b3e38, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::Time* get_NextUpdate();
 
-  /// @brief Method ToAsn1Object, addr 0x1086fc4, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x10b3e54, size 0x11c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "CertificateList", modifiers: "&&", def_value: None }]

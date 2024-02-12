@@ -38,8 +38,8 @@ MARK_REF_PTR_T(::UnityEngine::Events::PersistentCall);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Events {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10447)), TypeDefinitionIndex(TypeDefinitionIndex(10457))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10458))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9216)), TypeDefinitionIndex(TypeDefinitionIndex(9226))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9227))
 // CS Name: ::UnityEngine.Events::PersistentCall*
 class CORDL_TYPE PersistentCall : public ::System::Object {
 public:
@@ -114,39 +114,39 @@ public:
 
   constexpr void __cordl_internal_set_m_CallState(::UnityEngine::Events::UnityEventCallState value);
 
-  /// @brief Method get_target, addr 0x2cf88c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_target, addr 0x2d035a4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> get_target();
 
-  /// @brief Method get_targetAssemblyTypeName, addr 0x2cf88d0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method get_targetAssemblyTypeName, addr 0x2d035ac, size 0xac, virtual false, abstract: false, final false
   inline ::StringW get_targetAssemblyTypeName();
 
-  /// @brief Method get_methodName, addr 0x2cf897c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_methodName, addr 0x2d03658, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_methodName();
 
-  /// @brief Method get_mode, addr 0x2cf8984, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mode, addr 0x2d03660, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Events::PersistentListenerMode get_mode();
 
-  /// @brief Method get_arguments, addr 0x2cf898c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_arguments, addr 0x2d03668, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Events::ArgumentCache* get_arguments();
 
-  /// @brief Method IsValid, addr 0x2cf8994, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x2d03670, size 0x3c, virtual false, abstract: false, final false
   inline bool IsValid();
 
-  /// @brief Method GetRuntimeCall, addr 0x2cf89d0, size 0x2e8, virtual false, abstract: false, final false
+  /// @brief Method GetRuntimeCall, addr 0x2d036ac, size 0x2e8, virtual false, abstract: false, final false
   inline ::UnityEngine::Events::BaseInvokableCall* GetRuntimeCall(::UnityEngine::Events::UnityEventBase* theEvent);
 
-  /// @brief Method GetObjectCall, addr 0x2cf8e80, size 0x430, virtual false, abstract: false, final false
+  /// @brief Method GetObjectCall, addr 0x2d03b5c, size 0x430, virtual false, abstract: false, final false
   static inline ::UnityEngine::Events::BaseInvokableCall* GetObjectCall(::UnityEngine::Object* target, ::System::Reflection::MethodInfo* method, ::UnityEngine::Events::ArgumentCache* arguments);
 
-  /// @brief Method OnBeforeSerialize, addr 0x2cf92b0, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method OnBeforeSerialize, addr 0x2d03f8c, size 0x1c, virtual true, abstract: false, final true
   inline void OnBeforeSerialize();
 
-  /// @brief Method OnAfterDeserialize, addr 0x2cf92cc, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method OnAfterDeserialize, addr 0x2d03fa8, size 0x1c, virtual true, abstract: false, final true
   inline void OnAfterDeserialize();
 
   static inline ::UnityEngine::Events::PersistentCall* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2cf92e8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d03fc4, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PersistentCall", modifiers: "&&", def_value: None }]

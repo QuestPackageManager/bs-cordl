@@ -16,14 +16,14 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::LeaderboardList);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13430)), TypeDefinitionIndex(TypeDefinitionIndex(13447)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13430), inst:
-// 1175 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(13448)) CS Name: ::Oculus.Platform.Models::LeaderboardList*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13369)), TypeDefinitionIndex(TypeDefinitionIndex(13386)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13369), inst:
+// 1154 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(13387)) CS Name: ::Oculus.Platform.Models::LeaderboardList*
 class CORDL_TYPE LeaderboardList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::Leaderboard*> {
 public:
   // Declarations
   static inline ::Oculus::Platform::Models::LeaderboardList* New_ctor(void* a);
 
-  /// @brief Method .ctor, addr 0x2706830, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x273971c, size 0x25c, virtual false, abstract: false, final false
   inline void _ctor(void* a);
 
   // Ctor Parameters [CppParam { name: "", ty: "LeaderboardList", modifiers: "&&", def_value: None }]

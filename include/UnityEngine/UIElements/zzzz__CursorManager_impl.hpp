@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::CursorManager::*)()>(
     &::UnityEngine::UIElements::CursorManager::get_isCursorOverriden)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2dbf364;
+  constexpr static std::size_t addrs = 0x2ddd74c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CursorManager*>::get(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CursorManager::*)(bool)>(
     &::UnityEngine::UIElements::CursorManager::set_isCursorOverriden)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2dbf36c;
+  constexpr static std::size_t addrs = 0x2ddd754;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CursorManager::*)(::UnityEngine::UIElements::Cursor)>(
     &::UnityEngine::UIElements::CursorManager::SetCursor)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x2dbf378;
+  constexpr static std::size_t addrs = 0x2ddd760;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CursorManager::*)()>(&::UnityEngine::UIElements::CursorManager::ResetCursor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2dbf468;
+  constexpr static std::size_t addrs = 0x2ddd850;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CursorManager*>::get(), "ResetCursor",
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CursorManager::*)()>(&::UnityEngine::UIElements::CursorManager::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2dbf4d0;
+  constexpr static std::size_t addrs = 0x2ddd8b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CursorManager*>::get(), ".ctor",

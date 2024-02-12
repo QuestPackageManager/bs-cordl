@@ -19,18 +19,18 @@ MARK_REF_PTR_T(::GlobalNamespace::StringBuilderExtension);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15831))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15218))
 // CS Name: ::StringBuilderExtension*
 class CORDL_TYPE StringBuilderExtension : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Swap, addr 0xe25978, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method Swap, addr 0xe47bec, size 0x228, virtual false, abstract: false, final false
   static inline void Swap(::System::Text::StringBuilder* sb, int32_t startIndex, int32_t endIndex);
 
-  /// @brief Method AppendNumber, addr 0xe25ba0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method AppendNumber, addr 0xe47e14, size 0x14, virtual false, abstract: false, final false
   static inline void AppendNumber(::System::Text::StringBuilder* sb, int32_t number);
 
-  /// @brief Method AppendNumber, addr 0xe25bcc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method AppendNumber, addr 0xe47e40, size 0xa4, virtual false, abstract: false, final false
   static inline void AppendNumber(::System::Text::StringBuilder* sb, uint32_t uNumber, bool isNegative);
 
   // Ctor Parameters [CppParam { name: "", ty: "StringBuilderExtension", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Xml::XPath::XPathNodeType);
 namespace System::Xml::XPath {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11584))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11482))
 // CS Name: ::System.Xml.XPath::XPathNodeType
 struct CORDL_TYPE XPathNodeType {
 public:

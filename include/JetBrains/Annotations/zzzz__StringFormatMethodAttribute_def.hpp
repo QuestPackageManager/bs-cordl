@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::JetBrains::Annotations::StringFormatMethodAttribute);
 namespace JetBrains::Annotations {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15740))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15890))
 // CS Name: ::JetBrains.Annotations::StringFormatMethodAttribute*
 class CORDL_TYPE StringFormatMethodAttribute : public ::System::Attribute {
 public:
@@ -34,13 +34,13 @@ public:
 
   static inline ::JetBrains::Annotations::StringFormatMethodAttribute* New_ctor(::StringW formatParameterName);
 
-  /// @brief Method .ctor, addr 0x2eb9f70, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ed60b8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW formatParameterName);
 
-  /// @brief Method get_FormatParameterName, addr 0x2eb9f98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FormatParameterName, addr 0x2ed60e0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_FormatParameterName();
 
-  /// @brief Method set_FormatParameterName, addr 0x2eb9fa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_FormatParameterName, addr 0x2ed60e8, size 0x8, virtual false, abstract: false, final false
   inline void set_FormatParameterName(::StringW value);
 
   // Ctor Parameters [CppParam { name: "", ty: "StringFormatMethodAttribute", modifiers: "&&", def_value: None }]

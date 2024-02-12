@@ -41,7 +41,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_TOPNodeData);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9771))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9563))
 // CS Name: ::HEU_TOPNodeData::PDGState
 struct CORDL_TYPE __HEU_TOPNodeData__PDGState {
 public:
@@ -106,8 +106,8 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_TOPNodeData__PDGState, value_
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9771))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9772))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9563))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9564))
 // CS Name: ::HoudiniEngineUnity::HEU_TOPNodeData*
 class CORDL_TYPE HEU_TOPNodeData : public ::System::Object {
 public:
@@ -195,21 +195,21 @@ public:
 
   constexpr void __cordl_internal_set__workItemTally(::HoudiniEngineUnity::HEU_WorkItemTally* value);
 
-  /// @brief Method Reset, addr 0x219c938, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x223221c, size 0x24, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method AreAllWorkItemsComplete, addr 0x219c95c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method AreAllWorkItemsComplete, addr 0x2232240, size 0x4c, virtual false, abstract: false, final false
   inline bool AreAllWorkItemsComplete();
 
-  /// @brief Method AnyWorkItemsFailed, addr 0x219c718, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method AnyWorkItemsFailed, addr 0x2231ffc, size 0x24, virtual false, abstract: false, final false
   inline bool AnyWorkItemsFailed();
 
-  /// @brief Method AnyWorkItemsPending, addr 0x219c9f0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method AnyWorkItemsPending, addr 0x22322d4, size 0x58, virtual false, abstract: false, final false
   inline bool AnyWorkItemsPending();
 
   static inline ::HoudiniEngineUnity::HEU_TOPNodeData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x219af08, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22307ec, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_TOPNodeData", modifiers: "&&", def_value: None }]

@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::ParticleControlPlayable);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10425))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13907))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9193))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13860))
 // CS Name: ::UnityEngine.Timeline::ParticleControlPlayable*
 class CORDL_TYPE ParticleControlPlayable : public ::UnityEngine::Playables::PlayableBehaviour {
 public:
@@ -76,37 +76,37 @@ public:
 
   constexpr void __cordl_internal_set__particleSystem_k__BackingField(::UnityW<::UnityEngine::ParticleSystem> value);
 
-  /// @brief Method Create, addr 0x2c6c478, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2c68fe4, size 0x144, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::ParticleControlPlayable*> Create(::UnityEngine::Playables::PlayableGraph graph,
                                                                                                                      ::UnityEngine::ParticleSystem* component, uint32_t randomSeed);
 
-  /// @brief Method get_particleSystem, addr 0x2c6c63c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_particleSystem, addr 0x2c691a8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::ParticleSystem> get_particleSystem();
 
-  /// @brief Method set_particleSystem, addr 0x2c6c644, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_particleSystem, addr 0x2c691b0, size 0x8, virtual false, abstract: false, final false
   inline void set_particleSystem(::UnityEngine::ParticleSystem* value);
 
-  /// @brief Method Initialize, addr 0x2c6c5bc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x2c69128, size 0x80, virtual false, abstract: false, final false
   inline void Initialize(::UnityEngine::ParticleSystem* ps, uint32_t randomSeed);
 
-  /// @brief Method SetRandomSeed, addr 0x2c6c64c, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method SetRandomSeed, addr 0x2c691b8, size 0x13c, virtual false, abstract: false, final false
   static inline void SetRandomSeed(::UnityEngine::ParticleSystem* particleSystem, uint32_t randomSeed);
 
-  /// @brief Method PrepareFrame, addr 0x2c6c788, size 0x1b4, virtual true, abstract: false, final false
+  /// @brief Method PrepareFrame, addr 0x2c692f4, size 0x1b4, virtual true, abstract: false, final false
   inline void PrepareFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData data);
 
-  /// @brief Method OnBehaviourPlay, addr 0x2c6ca00, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method OnBehaviourPlay, addr 0x2c6956c, size 0xc, virtual true, abstract: false, final false
   inline void OnBehaviourPlay(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method OnBehaviourPause, addr 0x2c6ca0c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method OnBehaviourPause, addr 0x2c69578, size 0xc, virtual true, abstract: false, final false
   inline void OnBehaviourPause(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method Simulate, addr 0x2c6c93c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Simulate, addr 0x2c694a8, size 0xc4, virtual false, abstract: false, final false
   inline void Simulate(float_t time, bool restart);
 
   static inline ::UnityEngine::Timeline::ParticleControlPlayable* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c6ca18, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c69584, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ParticleControlPlayable", modifiers: "&&", def_value: None }]

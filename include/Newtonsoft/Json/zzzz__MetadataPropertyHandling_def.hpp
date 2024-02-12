@@ -16,7 +16,7 @@ MARK_VAL_T(::Newtonsoft::Json::MetadataPropertyHandling);
 namespace Newtonsoft::Json {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11809))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11707))
 // CS Name: ::Newtonsoft.Json::MetadataPropertyHandling
 struct CORDL_TYPE MetadataPropertyHandling {
 public:

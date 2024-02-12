@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::EntityTagHeaderValue);
 namespace System::Net::Http::Headers {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14665))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14670))
 // CS Name: ::System.Net.Http.Headers::EntityTagHeaderValue*
 class CORDL_TYPE EntityTagHeaderValue : public ::System::Object {
 public:
@@ -75,40 +75,40 @@ public:
 
   static inline ::System::Net::Http::Headers::EntityTagHeaderValue* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28388e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x283cfb8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsWeak, addr 0x28388ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsWeak, addr 0x283cfc0, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsWeak();
 
-  /// @brief Method set_IsWeak, addr 0x28388f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsWeak, addr 0x283cfc8, size 0xc, virtual false, abstract: false, final false
   inline void set_IsWeak(bool value);
 
-  /// @brief Method get_Tag, addr 0x2838900, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Tag, addr 0x283cfd4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Tag();
 
-  /// @brief Method set_Tag, addr 0x2838908, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Tag, addr 0x283cfdc, size 0x8, virtual false, abstract: false, final false
   inline void set_Tag(::StringW value);
 
-  /// @brief Method System.ICloneable.Clone, addr 0x2838910, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.ICloneable.Clone, addr 0x283cfe4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method Equals, addr 0x2838918, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x283cfec, size 0xb4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x28389cc, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x283d0a0, size 0x50, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method TryParse, addr 0x2838a1c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x283d0f0, size 0xf4, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ByRef<::System::Net::Http::Headers::EntityTagHeaderValue*> parsedValue);
 
-  /// @brief Method TryParseElement, addr 0x2838b10, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method TryParseElement, addr 0x283d1e4, size 0x1e4, virtual false, abstract: false, final false
   static inline bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ByRef<::System::Net::Http::Headers::EntityTagHeaderValue*> parsedValue, ByRef<::System::Net::Http::Headers::Token> t);
 
-  /// @brief Method TryParse, addr 0x2838d44, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x283d418, size 0xb0, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, int32_t minimalCount, ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::EntityTagHeaderValue*>*> result);
 
-  /// @brief Method ToString, addr 0x2838df4, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x283d4c8, size 0x64, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "EntityTagHeaderValue", modifiers: "&&", def_value: None }]

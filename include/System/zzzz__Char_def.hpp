@@ -92,199 +92,199 @@ public:
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_s_categoryForLatin1();
 
-  /// @brief Method IsLatin1, addr 0x2525350, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsLatin1, addr 0x2546c34, size 0x10, virtual false, abstract: false, final false
   static inline bool IsLatin1(char16_t ch);
 
-  /// @brief Method IsAscii, addr 0x2525360, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsAscii, addr 0x2546c44, size 0x10, virtual false, abstract: false, final false
   static inline bool IsAscii(char16_t ch);
 
-  /// @brief Method GetLatin1UnicodeCategory, addr 0x2525370, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetLatin1UnicodeCategory, addr 0x2546c54, size 0x7c, virtual false, abstract: false, final false
   static inline ::System::Globalization::UnicodeCategory GetLatin1UnicodeCategory(char16_t ch);
 
-  /// @brief Method GetHashCode, addr 0x25253ec, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2546cd0, size 0xc, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Equals, addr 0x25253f8, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2546cdc, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x2525470, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2546d54, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(char16_t obj);
 
-  /// @brief Method CompareTo, addr 0x2525480, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x2546d64, size 0xbc, virtual true, abstract: false, final true
   inline int32_t CompareTo(::System::Object* value);
 
-  /// @brief Method CompareTo, addr 0x252553c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x2546e20, size 0xc, virtual true, abstract: false, final true
   inline int32_t CompareTo(char16_t value);
 
-  /// @brief Method ToString, addr 0x2515c68, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x253754c, size 0x5c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x2525550, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method ToString, addr 0x2546e34, size 0x5c, virtual true, abstract: false, final true
   inline ::StringW ToString(::System::IFormatProvider* provider);
 
-  /// @brief Method ToString, addr 0x2525548, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x2546e2c, size 0x8, virtual false, abstract: false, final false
   static inline ::StringW ToString(char16_t c);
 
-  /// @brief Method Parse, addr 0x25255ac, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x2546e90, size 0xa4, virtual false, abstract: false, final false
   static inline char16_t Parse(::StringW s);
 
-  /// @brief Method TryParse, addr 0x2525650, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x2546f34, size 0x40, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW s, ByRef<char16_t> result);
 
-  /// @brief Method IsDigit, addr 0x251ef40, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method IsDigit, addr 0x2540824, size 0x84, virtual false, abstract: false, final false
   static inline bool IsDigit(char16_t c);
 
-  /// @brief Method CheckLetter, addr 0x2525690, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CheckLetter, addr 0x2546f74, size 0xc, virtual false, abstract: false, final false
   static inline bool CheckLetter(::System::Globalization::UnicodeCategory uc);
 
-  /// @brief Method IsLetter, addr 0x252569c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method IsLetter, addr 0x2546f80, size 0xd8, virtual false, abstract: false, final false
   static inline bool IsLetter(char16_t c);
 
-  /// @brief Method IsWhiteSpaceLatin1, addr 0x2525774, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsWhiteSpaceLatin1, addr 0x2547058, size 0x3c, virtual false, abstract: false, final false
   static inline bool IsWhiteSpaceLatin1(char16_t c);
 
-  /// @brief Method IsWhiteSpace, addr 0x2522ee8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method IsWhiteSpace, addr 0x25447cc, size 0xb8, virtual false, abstract: false, final false
   static inline bool IsWhiteSpace(char16_t c);
 
-  /// @brief Method IsUpper, addr 0x25257b0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method IsUpper, addr 0x2547094, size 0xbc, virtual false, abstract: false, final false
   static inline bool IsUpper(char16_t c);
 
-  /// @brief Method IsLower, addr 0x252586c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method IsLower, addr 0x2547150, size 0xbc, virtual false, abstract: false, final false
   static inline bool IsLower(char16_t c);
 
-  /// @brief Method CheckPunctuation, addr 0x2525928, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method CheckPunctuation, addr 0x254720c, size 0x10, virtual false, abstract: false, final false
   static inline bool CheckPunctuation(::System::Globalization::UnicodeCategory uc);
 
-  /// @brief Method IsPunctuation, addr 0x2525938, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method IsPunctuation, addr 0x254721c, size 0xac, virtual false, abstract: false, final false
   static inline bool IsPunctuation(char16_t c);
 
-  /// @brief Method CheckLetterOrDigit, addr 0x25259e4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method CheckLetterOrDigit, addr 0x25472c8, size 0x1c, virtual false, abstract: false, final false
   static inline bool CheckLetterOrDigit(::System::Globalization::UnicodeCategory uc);
 
-  /// @brief Method IsLetterOrDigit, addr 0x2525a00, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method IsLetterOrDigit, addr 0x25472e4, size 0xbc, virtual false, abstract: false, final false
   static inline bool IsLetterOrDigit(char16_t c);
 
-  /// @brief Method ToUpper, addr 0x2525abc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ToUpper, addr 0x25473a0, size 0x7c, virtual false, abstract: false, final false
   static inline char16_t ToUpper(char16_t c);
 
-  /// @brief Method ToUpperInvariant, addr 0x2525b38, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ToUpperInvariant, addr 0x254741c, size 0x7c, virtual false, abstract: false, final false
   static inline char16_t ToUpperInvariant(char16_t c);
 
-  /// @brief Method ToLower, addr 0x2525bb4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ToLower, addr 0x2547498, size 0x84, virtual false, abstract: false, final false
   static inline char16_t ToLower(char16_t c, ::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method ToLower, addr 0x2525c38, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ToLower, addr 0x254751c, size 0x7c, virtual false, abstract: false, final false
   static inline char16_t ToLower(char16_t c);
 
-  /// @brief Method ToLowerInvariant, addr 0x2525cb4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ToLowerInvariant, addr 0x2547598, size 0x7c, virtual false, abstract: false, final false
   static inline char16_t ToLowerInvariant(char16_t c);
 
-  /// @brief Method GetTypeCode, addr 0x2525d30, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetTypeCode, addr 0x2547614, size 0x8, virtual true, abstract: false, final true
   inline ::System::TypeCode GetTypeCode();
 
-  /// @brief Method System.IConvertible.ToBoolean, addr 0x2525d38, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToBoolean, addr 0x254761c, size 0x8c, virtual true, abstract: false, final true
   inline bool System_IConvertible_ToBoolean(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToChar, addr 0x2525dc4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToChar, addr 0x25476a8, size 0x8, virtual true, abstract: false, final true
   inline char16_t System_IConvertible_ToChar(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToSByte, addr 0x2525dcc, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToSByte, addr 0x25476b0, size 0x58, virtual true, abstract: false, final true
   inline int8_t System_IConvertible_ToSByte(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToByte, addr 0x2525e80, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToByte, addr 0x2547764, size 0x58, virtual true, abstract: false, final true
   inline uint8_t System_IConvertible_ToByte(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToInt16, addr 0x2525f34, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToInt16, addr 0x2547818, size 0x58, virtual true, abstract: false, final true
   inline int16_t System_IConvertible_ToInt16(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToUInt16, addr 0x2525fe4, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToUInt16, addr 0x25478c8, size 0x58, virtual true, abstract: false, final true
   inline uint16_t System_IConvertible_ToUInt16(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToInt32, addr 0x2526040, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToInt32, addr 0x2547924, size 0x58, virtual true, abstract: false, final true
   inline int32_t System_IConvertible_ToInt32(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToUInt32, addr 0x25260a0, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToUInt32, addr 0x2547984, size 0x58, virtual true, abstract: false, final true
   inline uint32_t System_IConvertible_ToUInt32(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToInt64, addr 0x2526100, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToInt64, addr 0x25479e4, size 0x58, virtual true, abstract: false, final true
   inline int64_t System_IConvertible_ToInt64(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToUInt64, addr 0x2526160, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToUInt64, addr 0x2547a44, size 0x58, virtual true, abstract: false, final true
   inline uint64_t System_IConvertible_ToUInt64(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToSingle, addr 0x25261c0, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToSingle, addr 0x2547aa4, size 0x8c, virtual true, abstract: false, final true
   inline float_t System_IConvertible_ToSingle(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToDouble, addr 0x252624c, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToDouble, addr 0x2547b30, size 0x8c, virtual true, abstract: false, final true
   inline double_t System_IConvertible_ToDouble(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToDecimal, addr 0x25262d8, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToDecimal, addr 0x2547bbc, size 0x8c, virtual true, abstract: false, final true
   inline ::System::Decimal System_IConvertible_ToDecimal(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToDateTime, addr 0x2526364, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToDateTime, addr 0x2547c48, size 0x8c, virtual true, abstract: false, final true
   inline ::System::DateTime System_IConvertible_ToDateTime(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToType, addr 0x25263f0, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToType, addr 0x2547cd4, size 0xa8, virtual true, abstract: false, final true
   inline ::System::Object* System_IConvertible_ToType(::System::Type* type, ::System::IFormatProvider* provider);
 
-  /// @brief Method IsControl, addr 0x2526498, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method IsControl, addr 0x2547d7c, size 0x8c, virtual false, abstract: false, final false
   static inline bool IsControl(char16_t c);
 
-  /// @brief Method IsLetterOrDigit, addr 0x2526524, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method IsLetterOrDigit, addr 0x2547e08, size 0x170, virtual false, abstract: false, final false
   static inline bool IsLetterOrDigit(::StringW s, int32_t index);
 
-  /// @brief Method CheckNumber, addr 0x2526694, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method CheckNumber, addr 0x2547f78, size 0x10, virtual false, abstract: false, final false
   static inline bool CheckNumber(::System::Globalization::UnicodeCategory uc);
 
-  /// @brief Method IsNumber, addr 0x25266a4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method IsNumber, addr 0x2547f88, size 0xd8, virtual false, abstract: false, final false
   static inline bool IsNumber(char16_t c);
 
-  /// @brief Method IsNumber, addr 0x252677c, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method IsNumber, addr 0x2548060, size 0x18c, virtual false, abstract: false, final false
   static inline bool IsNumber(::StringW s, int32_t index);
 
-  /// @brief Method CheckSeparator, addr 0x2526908, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method CheckSeparator, addr 0x25481ec, size 0x10, virtual false, abstract: false, final false
   static inline bool CheckSeparator(::System::Globalization::UnicodeCategory uc);
 
-  /// @brief Method IsSeparatorLatin1, addr 0x2526918, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsSeparatorLatin1, addr 0x25481fc, size 0x14, virtual false, abstract: false, final false
   static inline bool IsSeparatorLatin1(char16_t c);
 
-  /// @brief Method IsSeparator, addr 0x252692c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method IsSeparator, addr 0x2548210, size 0xb0, virtual false, abstract: false, final false
   static inline bool IsSeparator(char16_t c);
 
-  /// @brief Method IsSurrogate, addr 0x25269dc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsSurrogate, addr 0x25482c0, size 0x10, virtual false, abstract: false, final false
   static inline bool IsSurrogate(char16_t c);
 
-  /// @brief Method IsSurrogate, addr 0x25269ec, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method IsSurrogate, addr 0x25482d0, size 0x104, virtual false, abstract: false, final false
   static inline bool IsSurrogate(::StringW s, int32_t index);
 
-  /// @brief Method IsWhiteSpace, addr 0x2526af0, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method IsWhiteSpace, addr 0x25483d4, size 0x180, virtual false, abstract: false, final false
   static inline bool IsWhiteSpace(::StringW s, int32_t index);
 
-  /// @brief Method GetUnicodeCategory, addr 0x2526c70, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetUnicodeCategory, addr 0x2548554, size 0x80, virtual false, abstract: false, final false
   static inline ::System::Globalization::UnicodeCategory GetUnicodeCategory(char16_t c);
 
-  /// @brief Method GetUnicodeCategory, addr 0x2526cf0, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method GetUnicodeCategory, addr 0x25485d4, size 0x14c, virtual false, abstract: false, final false
   static inline ::System::Globalization::UnicodeCategory GetUnicodeCategory(::StringW s, int32_t index);
 
-  /// @brief Method GetNumericValue, addr 0x2526e3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetNumericValue, addr 0x2548720, size 0x8, virtual false, abstract: false, final false
   static inline double_t GetNumericValue(char16_t c);
 
-  /// @brief Method IsHighSurrogate, addr 0x2526e44, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsHighSurrogate, addr 0x2548728, size 0x10, virtual false, abstract: false, final false
   static inline bool IsHighSurrogate(char16_t c);
 
-  /// @brief Method IsHighSurrogate, addr 0x2526e54, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method IsHighSurrogate, addr 0x2548738, size 0x108, virtual false, abstract: false, final false
   static inline bool IsHighSurrogate(::StringW s, int32_t index);
 
-  /// @brief Method IsLowSurrogate, addr 0x2526f5c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsLowSurrogate, addr 0x2548840, size 0x10, virtual false, abstract: false, final false
   static inline bool IsLowSurrogate(char16_t c);
 
-  /// @brief Method IsSurrogatePair, addr 0x2526f6c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IsSurrogatePair, addr 0x2548850, size 0x24, virtual false, abstract: false, final false
   static inline bool IsSurrogatePair(char16_t highSurrogate, char16_t lowSurrogate);
 
-  /// @brief Method ConvertFromUtf32, addr 0x2526f90, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method ConvertFromUtf32, addr 0x2548874, size 0x130, virtual false, abstract: false, final false
   static inline ::StringW ConvertFromUtf32(int32_t utf32);
 
-  /// @brief Method ConvertToUtf32, addr 0x25270c0, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method ConvertToUtf32, addr 0x25489a4, size 0x12c, virtual false, abstract: false, final false
   static inline int32_t ConvertToUtf32(char16_t highSurrogate, char16_t lowSurrogate);
 
   // Ctor Parameters [CppParam { name: "m_value", ty: "char16_t", modifiers: "", def_value: None }]

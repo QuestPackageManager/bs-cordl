@@ -151,19 +151,19 @@ public:
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::NameInfo* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24d1e48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f2ebc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Init, addr 0x24d1e18, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x24f2e8c, size 0x20, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method get_IsSealed, addr 0x24d1b74, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_IsSealed, addr 0x24f2be8, size 0x4c, virtual false, abstract: false, final false
   inline bool get_IsSealed();
 
-  /// @brief Method get_NIname, addr 0x24d6188, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_NIname, addr 0x24f71fc, size 0x38, virtual false, abstract: false, final false
   inline ::StringW get_NIname();
 
-  /// @brief Method set_NIname, addr 0x24d61c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_NIname, addr 0x24f7234, size 0x8, virtual false, abstract: false, final false
   inline void set_NIname(::StringW value);
 
   // Ctor Parameters [CppParam { name: "", ty: "NameInfo", modifiers: "&&", def_value: None }]

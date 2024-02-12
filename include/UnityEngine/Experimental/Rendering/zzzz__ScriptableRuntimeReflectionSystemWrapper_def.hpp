@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflecti
 namespace UnityEngine::Experimental::Rendering {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10409))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9177))
 // CS Name: ::UnityEngine.Experimental.Rendering::ScriptableRuntimeReflectionSystemWrapper*
 class CORDL_TYPE ScriptableRuntimeReflectionSystemWrapper : public ::System::Object {
 public:
@@ -36,18 +36,18 @@ public:
 
   constexpr void __cordl_internal_set__implementation_k__BackingField(::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* value);
 
-  /// @brief Method get_implementation, addr 0x2cf45ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_implementation, addr 0x2cff288, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* get_implementation();
 
-  /// @brief Method set_implementation, addr 0x2cf45b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_implementation, addr 0x2cff290, size 0x8, virtual false, abstract: false, final false
   inline void set_implementation(::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* value);
 
-  /// @brief Method Internal_ScriptableRuntimeReflectionSystemWrapper_TickRealtimeProbes, addr 0x2cf45bc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Internal_ScriptableRuntimeReflectionSystemWrapper_TickRealtimeProbes, addr 0x2cff298, size 0xb4, virtual false, abstract: false, final false
   inline void Internal_ScriptableRuntimeReflectionSystemWrapper_TickRealtimeProbes(ByRef<bool> result);
 
   static inline ::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2cf45a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cff280, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ScriptableRuntimeReflectionSystemWrapper", modifiers: "&&", def_value: None }]

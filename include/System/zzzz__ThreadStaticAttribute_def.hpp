@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::System::ThreadStaticAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25c5f6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25e7e84, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ThreadStaticAttribute", modifiers: "&&", def_value: None }]

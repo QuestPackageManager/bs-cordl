@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::System::ComponentModel::Component);
 namespace System::ComponentModel {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2605))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9469))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7479))
 // CS Name: ::System.ComponentModel::Component*
 class CORDL_TYPE Component : public ::System::MarshalByRefObject {
 public:
@@ -84,36 +84,36 @@ public:
 
   static inline ::System::Object* getStaticF_EventDisposed();
 
-  /// @brief Method Finalize, addr 0x2919cf0, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x291e358, size 0xa0, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method get_CanRaiseEvents, addr 0x2919d90, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanRaiseEvents, addr 0x291e3f8, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanRaiseEvents();
 
-  /// @brief Method get_CanRaiseEventsInternal, addr 0x2919d98, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_CanRaiseEventsInternal, addr 0x291e400, size 0xc, virtual false, abstract: false, final false
   inline bool get_CanRaiseEventsInternal();
 
-  /// @brief Method get_Site, addr 0x2919da4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Site, addr 0x291e40c, size 0x8, virtual true, abstract: false, final false
   inline ::System::ComponentModel::ISite* get_Site();
 
-  /// @brief Method Dispose, addr 0x2919dac, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x291e414, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x2919e18, size 0x304, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x291e480, size 0x304, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method GetService, addr 0x291a11c, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method GetService, addr 0x291e784, size 0xb4, virtual true, abstract: false, final false
   inline ::System::Object* GetService(::System::Type* service);
 
-  /// @brief Method get_DesignMode, addr 0x291a1d0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method get_DesignMode, addr 0x291e838, size 0xb0, virtual false, abstract: false, final false
   inline bool get_DesignMode();
 
-  /// @brief Method ToString, addr 0x291a280, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x291e8e8, size 0x130, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   static inline ::System::ComponentModel::Component* New_ctor();
 
-  /// @brief Method .ctor, addr 0x291a3b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x291ea18, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Component", modifiers: "&&", def_value: None }]

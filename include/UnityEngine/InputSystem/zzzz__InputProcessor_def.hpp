@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::InputProcessor);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6712))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6235))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5971))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5494))
 // CS Name: ::UnityEngine.InputSystem::InputProcessor*
 class CORDL_TYPE InputProcessor : public ::System::Object {
 public:
@@ -44,12 +44,12 @@ public:
   /// @brief Method Process, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Process(::cordl_internals::Ptr<void> buffer, int32_t bufferSize, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method GetValueTypeFromType, addr 0x2a6a5e8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetValueTypeFromType, addr 0x2a6c154, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::Type* GetValueTypeFromType(::System::Type* processorType);
 
   static inline ::UnityEngine::InputSystem::InputProcessor* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2a6a6dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a6c248, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "InputProcessor", modifiers: "&&", def_value: None }]

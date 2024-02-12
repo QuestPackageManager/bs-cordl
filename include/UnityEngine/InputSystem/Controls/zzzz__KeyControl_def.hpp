@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Controls::KeyControl);
 // SizeInfo { instance_size: 296, native_size: -1, calculated_instance_size: 296, calculated_native_size: 292, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6242)), TypeDefinitionIndex(TypeDefinitionIndex(6629))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6638))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5501)), TypeDefinitionIndex(TypeDefinitionIndex(5888))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5897))
 // CS Name: ::UnityEngine.InputSystem.Controls::KeyControl*
 class CORDL_TYPE KeyControl : public ::UnityEngine::InputSystem::Controls::ButtonControl {
 public:
@@ -47,21 +47,21 @@ public:
 
   constexpr void __cordl_internal_set_m_ScanCode(int32_t value);
 
-  /// @brief Method get_keyCode, addr 0x2b0b0b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_keyCode, addr 0x2b0ac20, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Key get_keyCode();
 
-  /// @brief Method set_keyCode, addr 0x2b0b0bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_keyCode, addr 0x2b0ac28, size 0x8, virtual false, abstract: false, final false
   inline void set_keyCode(::UnityEngine::InputSystem::Key value);
 
-  /// @brief Method get_scanCode, addr 0x2b0b0c4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_scanCode, addr 0x2b0ac30, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_scanCode();
 
-  /// @brief Method RefreshConfiguration, addr 0x2b0b0e0, size 0x170, virtual true, abstract: false, final false
+  /// @brief Method RefreshConfiguration, addr 0x2b0ac4c, size 0x170, virtual true, abstract: false, final false
   inline void RefreshConfiguration();
 
   static inline ::UnityEngine::InputSystem::Controls::KeyControl* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2b0b250, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b0adbc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "KeyControl", modifiers: "&&", def_value: None }]

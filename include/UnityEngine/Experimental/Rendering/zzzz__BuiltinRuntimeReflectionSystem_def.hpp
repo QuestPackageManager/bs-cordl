@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionS
 namespace UnityEngine::Experimental::Rendering {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10410))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9178))
 // CS Name: ::UnityEngine.Experimental.Rendering::BuiltinRuntimeReflectionSystem*
 class CORDL_TYPE BuiltinRuntimeReflectionSystem : public ::System::Object {
 public:
@@ -38,24 +38,24 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method TickRealtimeProbes, addr 0x2cf4670, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method TickRealtimeProbes, addr 0x2cff34c, size 0x28, virtual true, abstract: false, final true
   inline bool TickRealtimeProbes();
 
-  /// @brief Method Dispose, addr 0x2cf46c0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2cff39c, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x2cf46c4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x2cff3a0, size 0x4, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method BuiltinUpdate, addr 0x2cf4698, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method BuiltinUpdate, addr 0x2cff374, size 0x28, virtual false, abstract: false, final false
   static inline bool BuiltinUpdate();
 
-  /// @brief Method Internal_BuiltinRuntimeReflectionSystem_New, addr 0x2cf46c8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Internal_BuiltinRuntimeReflectionSystem_New, addr 0x2cff3a4, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem* Internal_BuiltinRuntimeReflectionSystem_New();
 
   static inline ::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2cf4724, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cff400, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BuiltinRuntimeReflectionSystem", modifiers: "&&", def_value: None }]

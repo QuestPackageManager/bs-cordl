@@ -49,28 +49,28 @@ public:
 
   constexpr void __cordl_internal_set_attributes(::System::Collections::IList* value);
 
-  /// @brief Method GetInstance, addr 0x1196688, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x11c4518, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0x1196810, size 0x360, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11c46a0, size 0x360, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes* New_ctor(::System::Collections::ArrayList* attributes);
 
-  /// @brief Method .ctor, addr 0x1196b70, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11c4a00, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::ArrayList* attributes);
 
   static inline ::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes* New_ctor(::System::Collections::IList* attributes);
 
-  /// @brief Method .ctor, addr 0x1196b74, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11c4a04, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IList* attributes);
 
-  /// @brief Method ToAsn1Object, addr 0x1196bec, size 0x2c8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x11c4a7c, size 0x2c8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-  /// @brief Method get_Attributes, addr 0x1196eb4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_Attributes, addr 0x11c4d44, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerable* get_Attributes();
 
   // Ctor Parameters [CppParam { name: "", ty: "SubjectDirectoryAttributes", modifiers: "&&", def_value: None }]

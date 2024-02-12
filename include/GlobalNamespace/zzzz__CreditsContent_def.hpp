@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::GlobalNamespace::CreditsContent);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5470))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4773))
 // CS Name: ::CreditsContent*
 class CORDL_TYPE CreditsContent : public ::UnityEngine::MonoBehaviour {
 public:
@@ -166,45 +166,45 @@ public:
 
   constexpr void __cordl_internal_set__creditsContentTextAsset(::UnityW<::UnityEngine::TextAsset> value);
 
-  /// @brief Method get_normalTextPrefab, addr 0x228297c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_normalTextPrefab, addr 0x23de234, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_normalTextPrefab();
 
-  /// @brief Method get_normalLocalizedTextPrefab, addr 0x2282984, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_normalLocalizedTextPrefab, addr 0x23de23c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_normalLocalizedTextPrefab();
 
-  /// @brief Method get_titleTextPrefab, addr 0x228298c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_titleTextPrefab, addr 0x23de244, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_titleTextPrefab();
 
-  /// @brief Method get_titleLocalizedTextPrefab, addr 0x2282994, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_titleLocalizedTextPrefab, addr 0x23de24c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_titleLocalizedTextPrefab();
 
-  /// @brief Method get_headerTextPrefab, addr 0x228299c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_headerTextPrefab, addr 0x23de254, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_headerTextPrefab();
 
-  /// @brief Method get_headerLocalizedTextPrefab, addr 0x22829a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_headerLocalizedTextPrefab, addr 0x23de25c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_headerLocalizedTextPrefab();
 
-  /// @brief Method get_columnCount, addr 0x22829ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_columnCount, addr 0x23de264, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_columnCount();
 
-  /// @brief Method get_spaceHeight, addr 0x22829b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_spaceHeight, addr 0x23de26c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_spaceHeight();
 
-  /// @brief Method get_titleHeight, addr 0x22829bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_titleHeight, addr 0x23de274, size 0x8, virtual false, abstract: false, final false
   inline float_t get_titleHeight();
 
-  /// @brief Method get_contentRoot, addr 0x22829c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_contentRoot, addr 0x23de27c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_contentRoot();
 
-  /// @brief Method get_rootRectTransform, addr 0x22829cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rootRectTransform, addr 0x23de284, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RectTransform> get_rootRectTransform();
 
-  /// @brief Method get_creditsContentTextAsset, addr 0x22829d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_creditsContentTextAsset, addr 0x23de28c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::TextAsset> get_creditsContentTextAsset();
 
   static inline ::GlobalNamespace::CreditsContent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22829dc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23de294, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CreditsContent", modifiers: "&&", def_value: None }]

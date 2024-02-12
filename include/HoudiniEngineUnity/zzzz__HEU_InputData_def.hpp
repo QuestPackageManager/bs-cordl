@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_InputData);
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9838))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9630))
 // CS Name: ::HoudiniEngineUnity::HEU_InputData*
 class CORDL_TYPE HEU_InputData : public ::System::Object {
 public:
@@ -34,7 +34,7 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_InputData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21c5274, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x225bb58, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_InputData", modifiers: "&&", def_value: None }]

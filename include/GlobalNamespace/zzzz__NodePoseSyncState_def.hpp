@@ -43,7 +43,7 @@ MARK_VAL_T(::GlobalNamespace::NodePoseSyncState);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12972))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12870))
 // CS Name: ::NodePoseSyncState::NodePose
 struct CORDL_TYPE __NodePoseSyncState__NodePose {
 public:
@@ -100,8 +100,8 @@ static_assert(offsetof(::GlobalNamespace::__NodePoseSyncState__NodePose, value__
 // SizeInfo { instance_size: 72, native_size: 72, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15042))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12973))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14915))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12871))
 // CS Name: ::NodePoseSyncState
 struct CORDL_TYPE NodePoseSyncState {
 public:
@@ -127,37 +127,37 @@ public:
   /// @brief Convert to "::GlobalNamespace::IEquatableByReference_1<::GlobalNamespace::NodePoseSyncState>"
   constexpr ::GlobalNamespace::IEquatableByReference_1<::GlobalNamespace::NodePoseSyncState>* i___GlobalNamespace__IEquatableByReference_1___GlobalNamespace__NodePoseSyncState_();
 
-  /// @brief Method Serialize, addr 0xe596e4, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0xe8451c, size 0x40, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method Deserialize, addr 0xe59724, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0xe8455c, size 0x40, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method SetState, addr 0xe59764, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method SetState, addr 0xe8459c, size 0x50, virtual true, abstract: false, final true
   inline void SetState(::GlobalNamespace::__NodePoseSyncState__NodePose nodePose, ::GlobalNamespace::PoseSerializable pose);
 
-  /// @brief Method GetState, addr 0xe597b4, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method GetState, addr 0xe845ec, size 0x4c, virtual true, abstract: false, final true
   inline ::GlobalNamespace::PoseSerializable GetState(::GlobalNamespace::__NodePoseSyncState__NodePose nodePose);
 
-  /// @brief Method Equals, addr 0xe59800, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0xe84638, size 0x94, virtual false, abstract: false, final false
   inline bool Equals(ByRef<::GlobalNamespace::NodePoseSyncState> other);
 
-  /// @brief Method GetDelta, addr 0xe59894, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method GetDelta, addr 0xe846cc, size 0x128, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NodePoseSyncState GetDelta(ByRef<::GlobalNamespace::NodePoseSyncState> latest);
 
-  /// @brief Method ApplyDelta, addr 0xe599bc, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method ApplyDelta, addr 0xe847f4, size 0x128, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NodePoseSyncState ApplyDelta(ByRef<::GlobalNamespace::NodePoseSyncState> delta);
 
-  /// @brief Method GetSize, addr 0xe59ae4, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method GetSize, addr 0xe8491c, size 0x48, virtual true, abstract: false, final true
   inline int32_t GetSize();
 
-  /// @brief Method IStateTable<NodePoseSyncState,NodePoseSyncState.NodePose,PoseSerializable>.GetDelta, addr 0xe59b2c, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method IStateTable<NodePoseSyncState,NodePoseSyncState.NodePose,PoseSerializable>.GetDelta, addr 0xe84964, size 0x30, virtual true, abstract: false, final true
   inline ::GlobalNamespace::NodePoseSyncState IStateTable_NodePoseSyncState_NodePoseSyncState_NodePose_PoseSerializable__GetDelta(ByRef<::GlobalNamespace::NodePoseSyncState> stateTable);
 
-  /// @brief Method IStateTable<NodePoseSyncState,NodePoseSyncState.NodePose,PoseSerializable>.ApplyDelta, addr 0xe59b5c, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method IStateTable<NodePoseSyncState,NodePoseSyncState.NodePose,PoseSerializable>.ApplyDelta, addr 0xe84994, size 0x30, virtual true, abstract: false, final true
   inline ::GlobalNamespace::NodePoseSyncState IStateTable_NodePoseSyncState_NodePoseSyncState_NodePose_PoseSerializable__ApplyDelta(ByRef<::GlobalNamespace::NodePoseSyncState> delta);
 
-  /// @brief Method IEquatableByReference<NodePoseSyncState>.Equals, addr 0xe59b8c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method IEquatableByReference<NodePoseSyncState>.Equals, addr 0xe849c4, size 0x4, virtual true, abstract: false, final true
   inline bool IEquatableByReference_NodePoseSyncState__Equals(ByRef<::GlobalNamespace::NodePoseSyncState> other);
 
   // Ctor Parameters [CppParam { name: "_head", ty: "::GlobalNamespace::PoseSerializable", modifiers: "", def_value: None }, CppParam { name: "_leftController", ty:

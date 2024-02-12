@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MenuShockwave);
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 192, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15889))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5478))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(15068))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4781))
 // CS Name: ::MenuShockwave*
 class CORDL_TYPE MenuShockwave : public ::UnityEngine::MonoBehaviour {
 public:
@@ -71,24 +71,24 @@ public:
 
   constexpr void __cordl_internal_set__shockwavePSEmitParams(::UnityEngine::__ParticleSystem__EmitParams value);
 
-  /// @brief Method Awake, addr 0x2283630, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x23df348, size 0x10, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnEnable, addr 0x2283640, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x23df358, size 0xd4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable, addr 0x2283714, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x23df42c, size 0xd4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method HandleButtonClickEvent, addr 0x22837e8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method HandleButtonClickEvent, addr 0x23df500, size 0x28, virtual false, abstract: false, final false
   inline void HandleButtonClickEvent();
 
-  /// @brief Method SpawnShockwave, addr 0x2283810, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method SpawnShockwave, addr 0x23df528, size 0xa4, virtual false, abstract: false, final false
   inline void SpawnShockwave(::UnityEngine::Vector3 pos);
 
   static inline ::GlobalNamespace::MenuShockwave* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22838b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23df5cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuShockwave", modifiers: "&&", def_value: None }]

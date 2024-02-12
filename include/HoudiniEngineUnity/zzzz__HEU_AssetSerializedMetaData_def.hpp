@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_AssetSerializedMetaData);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9617))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8954))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9409))
 // CS Name: ::HoudiniEngineUnity::HEU_AssetSerializedMetaData*
 class CORDL_TYPE HEU_AssetSerializedMetaData : public ::UnityEngine::ScriptableObject {
 public:
@@ -66,21 +66,21 @@ public:
   constexpr void
   __cordl_internal_set__savedCurveNodeData(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>*>* value);
 
-  /// @brief Method get_SoftDeleted, addr 0x2150918, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SoftDeleted, addr 0x21e61fc, size 0x8, virtual false, abstract: false, final false
   inline bool get_SoftDeleted();
 
-  /// @brief Method set_SoftDeleted, addr 0x2150920, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_SoftDeleted, addr 0x21e6204, size 0xc, virtual false, abstract: false, final false
   inline void set_SoftDeleted(bool value);
 
-  /// @brief Method get_SavedCurveNodeData, addr 0x215092c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SavedCurveNodeData, addr 0x21e6210, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>*>* get_SavedCurveNodeData();
 
-  /// @brief Method IsEquivalentTo, addr 0x2150934, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x21e6218, size 0xbc, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_AssetSerializedMetaData* other);
 
   static inline ::HoudiniEngineUnity::HEU_AssetSerializedMetaData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21509f0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21e62d4, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_AssetSerializedMetaData", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::Oculus::Platform::LeaderboardStartAt);
 namespace Oculus::Platform {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13254))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13151))
 // CS Name: ::Oculus.Platform::LeaderboardStartAt
 struct CORDL_TYPE LeaderboardStartAt {
 public:

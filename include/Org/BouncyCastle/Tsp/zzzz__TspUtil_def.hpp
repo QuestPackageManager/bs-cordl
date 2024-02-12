@@ -74,33 +74,33 @@ public:
 
   static inline ::System::Collections::IDictionary* getStaticF_digestNames();
 
-  /// @brief Method GetSignatureTimestamps, addr 0x1155e60, size 0x9c8, virtual false, abstract: false, final false
+  /// @brief Method GetSignatureTimestamps, addr 0x1183cf0, size 0x9c8, virtual false, abstract: false, final false
   static inline ::System::Collections::ICollection* GetSignatureTimestamps(::Org::BouncyCastle::Cms::SignerInformation* signerInfo);
 
-  /// @brief Method ValidateCertificate, addr 0x115340c, size 0x374, virtual false, abstract: false, final false
+  /// @brief Method ValidateCertificate, addr 0x118129c, size 0x374, virtual false, abstract: false, final false
   static inline void ValidateCertificate(::Org::BouncyCastle::X509::X509Certificate* cert);
 
-  /// @brief Method GetDigestAlgName, addr 0x1156828, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetDigestAlgName, addr 0x11846b8, size 0x108, virtual false, abstract: false, final false
   static inline ::StringW GetDigestAlgName(::StringW digestAlgOID);
 
-  /// @brief Method GetDigestLength, addr 0x114fba0, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method GetDigestLength, addr 0x117da30, size 0x1e4, virtual false, abstract: false, final false
   static inline int32_t GetDigestLength(::StringW digestAlgOID);
 
-  /// @brief Method CreateDigestInstance, addr 0x1156930, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method CreateDigestInstance, addr 0x11847c0, size 0x8c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IDigest* CreateDigestInstance(::StringW digestAlgOID);
 
-  /// @brief Method GetCriticalExtensionOids, addr 0x11569bc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetCriticalExtensionOids, addr 0x118484c, size 0xb4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Utilities::Collections::ISet* GetCriticalExtensionOids(::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions);
 
-  /// @brief Method GetNonCriticalExtensionOids, addr 0x1156d94, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetNonCriticalExtensionOids, addr 0x1184c24, size 0xb4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Utilities::Collections::ISet* GetNonCriticalExtensionOids(::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions);
 
-  /// @brief Method GetExtensionOids, addr 0x114fe1c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetExtensionOids, addr 0x117dcac, size 0xb0, virtual false, abstract: false, final false
   static inline ::System::Collections::IList* GetExtensionOids(::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions);
 
   static inline ::Org::BouncyCastle::Tsp::TspUtil* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1156e48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1184cd8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TspUtil", modifiers: "&&", def_value: None }]

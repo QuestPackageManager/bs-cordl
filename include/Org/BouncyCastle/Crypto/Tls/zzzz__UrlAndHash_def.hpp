@@ -53,19 +53,19 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::UrlAndHash* New_ctor(::StringW url, ::ArrayW<uint8_t, ::Array<uint8_t>*> sha1Hash);
 
-  /// @brief Method .ctor, addr 0xfbfd70, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfebc00, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor(::StringW url, ::ArrayW<uint8_t, ::Array<uint8_t>*> sha1Hash);
 
-  /// @brief Method get_Url, addr 0xfbfe58, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Url, addr 0xfebce8, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Url();
 
-  /// @brief Method get_Sha1Hash, addr 0xfbfe60, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Sha1Hash, addr 0xfebcf0, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Sha1Hash();
 
-  /// @brief Method Encode, addr 0xfbfe68, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0xfebcf8, size 0x100, virtual true, abstract: false, final false
   inline void Encode(::System::IO::Stream* output);
 
-  /// @brief Method Parse, addr 0xfbff68, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0xfebdf8, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Tls::UrlAndHash* Parse(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::System::IO::Stream* input);
 
   // Ctor Parameters [CppParam { name: "", ty: "UrlAndHash", modifiers: "&&", def_value: None }]

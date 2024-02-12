@@ -44,43 +44,43 @@ public:
 
   constexpr void __cordl_internal_set_str(::StringW value);
 
-  /// @brief Method GetInstance, addr 0xf79138, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xfa3fc8, size 0xf0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerIA5String* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetInstance, addr 0xf7d128, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xfa7fb8, size 0x13c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerIA5String* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
   static inline ::Org::BouncyCastle::Asn1::DerIA5String* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str);
 
-  /// @brief Method .ctor, addr 0xf7d264, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfa80f4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str);
 
   static inline ::Org::BouncyCastle::Asn1::DerIA5String* New_ctor(::StringW str);
 
-  /// @brief Method .ctor, addr 0xf7d28c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfa811c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW str);
 
   static inline ::Org::BouncyCastle::Asn1::DerIA5String* New_ctor(::StringW str, bool validate);
 
-  /// @brief Method .ctor, addr 0xf79418, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfa42a8, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::StringW str, bool validate);
 
-  /// @brief Method GetString, addr 0xf7d2fc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetString, addr 0xfa818c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW GetString();
 
-  /// @brief Method GetOctets, addr 0xf7d304, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetOctets, addr 0xfa8194, size 0xc, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetOctets();
 
-  /// @brief Method Encode, addr 0xf7d310, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0xfa81a0, size 0x34, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
-  /// @brief Method Asn1GetHashCode, addr 0xf7d344, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method Asn1GetHashCode, addr 0xfa81d4, size 0x1c, virtual true, abstract: false, final false
   inline int32_t Asn1GetHashCode();
 
-  /// @brief Method Asn1Equals, addr 0xf7d360, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Asn1Equals, addr 0xfa81f0, size 0xa0, virtual true, abstract: false, final false
   inline bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
 
-  /// @brief Method IsIA5String, addr 0xf7d294, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method IsIA5String, addr 0xfa8124, size 0x68, virtual false, abstract: false, final false
   static inline bool IsIA5String(::StringW str);
 
   // Ctor Parameters [CppParam { name: "", ty: "DerIA5String", modifiers: "&&", def_value: None }]

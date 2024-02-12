@@ -23,30 +23,30 @@ MARK_REF_PTR_T(::System::IO::UnexceptionalStreamWriter);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3578))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3636))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3575))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3634))
 // CS Name: ::System.IO::UnexceptionalStreamWriter*
 class CORDL_TYPE UnexceptionalStreamWriter : public ::System::IO::StreamWriter {
 public:
   // Declarations
   static inline ::System::IO::UnexceptionalStreamWriter* New_ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding);
 
-  /// @brief Method .ctor, addr 0x2544fb8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2565bd8, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding);
 
-  /// @brief Method Flush, addr 0x2545030, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method Flush, addr 0x2565c50, size 0x84, virtual true, abstract: false, final false
   inline void Flush();
 
-  /// @brief Method Write, addr 0x25450b4, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x2565cd4, size 0x84, virtual true, abstract: false, final false
   inline void Write(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count);
 
-  /// @brief Method Write, addr 0x2545138, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x2565d58, size 0x84, virtual true, abstract: false, final false
   inline void Write(char16_t value);
 
-  /// @brief Method Write, addr 0x25451bc, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x2565ddc, size 0x84, virtual true, abstract: false, final false
   inline void Write(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
-  /// @brief Method Write, addr 0x2545240, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x2565e60, size 0x84, virtual true, abstract: false, final false
   inline void Write(::StringW value);
 
   // Ctor Parameters [CppParam { name: "", ty: "UnexceptionalStreamWriter", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::JetBrains::Annotations::ContractAnnotationAttribute);
 namespace JetBrains::Annotations {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15744))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15894))
 // CS Name: ::JetBrains.Annotations::ContractAnnotationAttribute*
 class CORDL_TYPE ContractAnnotationAttribute : public ::System::Attribute {
 public:
@@ -45,24 +45,24 @@ public:
 
   static inline ::JetBrains::Annotations::ContractAnnotationAttribute* New_ctor(::StringW contract);
 
-  /// @brief Method .ctor, addr 0x2eba028, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ed6170, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW contract);
 
   static inline ::JetBrains::Annotations::ContractAnnotationAttribute* New_ctor(::StringW contract, bool forceFullStates);
 
-  /// @brief Method .ctor, addr 0x2eba054, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ed619c, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::StringW contract, bool forceFullStates);
 
-  /// @brief Method get_Contract, addr 0x2eba088, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Contract, addr 0x2ed61d0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Contract();
 
-  /// @brief Method set_Contract, addr 0x2eba090, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Contract, addr 0x2ed61d8, size 0x8, virtual false, abstract: false, final false
   inline void set_Contract(::StringW value);
 
-  /// @brief Method get_ForceFullStates, addr 0x2eba098, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ForceFullStates, addr 0x2ed61e0, size 0x8, virtual false, abstract: false, final false
   inline bool get_ForceFullStates();
 
-  /// @brief Method set_ForceFullStates, addr 0x2eba0a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ForceFullStates, addr 0x2ed61e8, size 0xc, virtual false, abstract: false, final false
   inline void set_ForceFullStates(bool value);
 
   // Ctor Parameters [CppParam { name: "", ty: "ContractAnnotationAttribute", modifiers: "&&", def_value: None }]

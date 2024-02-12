@@ -19,7 +19,7 @@ namespace HoudiniEngineUnity {
 template <typename T>
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9884))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9676))
 // CS Name: ::HoudiniEngineUnity::IEquivableWrapperClass`1<T>*
 class CORDL_TYPE IEquivableWrapperClass_1 {
 public:

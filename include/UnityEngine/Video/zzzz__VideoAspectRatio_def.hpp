@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Video::VideoAspectRatio);
 namespace UnityEngine::Video {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16078))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15989))
 // CS Name: ::UnityEngine.Video::VideoAspectRatio
 struct CORDL_TYPE VideoAspectRatio {
 public:

@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ScreenCaptureCache);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15306))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15421))
 // CS Name: ::ScreenCaptureCache::ScreenshotType
 struct CORDL_TYPE __ScreenCaptureCache__ScreenshotType {
 public:
@@ -84,7 +84,7 @@ static_assert(offsetof(::GlobalNamespace::__ScreenCaptureCache__ScreenshotType, 
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15307))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15422))
 // CS Name: ::ScreenCaptureCache*
 class CORDL_TYPE ScreenCaptureCache : public ::System::Object {
 public:
@@ -103,15 +103,15 @@ public:
 
   constexpr void __cordl_internal_set__cache(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__ScreenCaptureCache__ScreenshotType, ::UnityW<::UnityEngine::Texture2D>>* value);
 
-  /// @brief Method GetLastScreenshot, addr 0x280bbac, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetLastScreenshot, addr 0x2810394, size 0x78, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> GetLastScreenshot(::GlobalNamespace::__ScreenCaptureCache__ScreenshotType screenshotType);
 
-  /// @brief Method StoreScreenshot, addr 0x280b868, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method StoreScreenshot, addr 0x2810050, size 0xac, virtual false, abstract: false, final false
   inline void StoreScreenshot(::GlobalNamespace::__ScreenCaptureCache__ScreenshotType screenshotType, ::UnityEngine::Texture2D* texture);
 
   static inline ::GlobalNamespace::ScreenCaptureCache* New_ctor();
 
-  /// @brief Method .ctor, addr 0x280bc24, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x281040c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ScreenCaptureCache", modifiers: "&&", def_value: None }]

@@ -58,7 +58,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IConnectionManager);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12780))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12678))
 // CS Name: ::IConnectionManager*
 class CORDL_TYPE IConnectionManager {
 public:

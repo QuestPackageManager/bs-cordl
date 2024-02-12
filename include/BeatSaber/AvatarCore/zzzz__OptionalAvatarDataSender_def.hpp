@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::BeatSaber::AvatarCore::OptionalAvatarDataSender);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15169))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15207))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15249))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15288))
 // CS Name: ::BeatSaber.AvatarCore::OptionalAvatarDataSender*
 class CORDL_TYPE OptionalAvatarDataSender : public ::System::Object {
 public:
@@ -97,19 +97,19 @@ public:
   static inline ::BeatSaber::AvatarCore::OptionalAvatarDataSender* New_ctor(::BeatSaber::AvatarCore::AvatarSystemCollection* avatarSystemCollection,
                                                                             ::BeatSaber::AvatarCore::OptionalAvatarDataSyncHandler* optionalAvatarDataSyncHandler);
 
-  /// @brief Method .ctor, addr 0xe10ec4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe1c6c0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::BeatSaber::AvatarCore::AvatarSystemCollection* avatarSystemCollection, ::BeatSaber::AvatarCore::OptionalAvatarDataSyncHandler* optionalAvatarDataSyncHandler);
 
-  /// @brief Method SetSelectedAvatarTypeId, addr 0xe10ef0, size 0x410, virtual false, abstract: false, final false
+  /// @brief Method SetSelectedAvatarTypeId, addr 0xe1c6ec, size 0x410, virtual false, abstract: false, final false
   inline void SetSelectedAvatarTypeId(::StringW selectedAvatarTypeId);
 
-  /// @brief Method SetCurrentLocalAvatarDisplayContext, addr 0xe11318, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method SetCurrentLocalAvatarDisplayContext, addr 0xe1cb14, size 0xc4, virtual false, abstract: false, final false
   inline void SetCurrentLocalAvatarDisplayContext(::BeatSaber::AvatarCore::AvatarDisplayContext avatarDisplayContext);
 
-  /// @brief Method Dispose, addr 0xe113dc, size 0x108, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0xe1cbd8, size 0x108, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method HandleOptionalAvatarDataProviderDataDidChange, addr 0xe11300, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandleOptionalAvatarDataProviderDataDidChange, addr 0xe1cafc, size 0x18, virtual false, abstract: false, final false
   inline void HandleOptionalAvatarDataProviderDataDidChange(::BeatSaber::AvatarCore::OptionalAvatarData data);
 
   // Ctor Parameters [CppParam { name: "", ty: "OptionalAvatarDataSender", modifiers: "&&", def_value: None }]

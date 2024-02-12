@@ -33,8 +33,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::PanelTextSettings);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13684))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7148))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13637))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6407))
 // CS Name: ::UnityEngine.UIElements::PanelTextSettings*
 class CORDL_TYPE PanelTextSettings : public ::UnityEngine::TextCore::Text::TextSettings {
 public:
@@ -68,18 +68,18 @@ public:
 
   static inline ::StringW getStaticF_s_DefaultEditorPanelTextSettingPath();
 
-  /// @brief Method get_defaultPanelTextSettings, addr 0x2e4740c, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method get_defaultPanelTextSettings, addr 0x2e627f4, size 0x134, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::UIElements::PanelTextSettings> get_defaultPanelTextSettings();
 
-  /// @brief Method UpdateLocalizationFontAsset, addr 0x2e478f4, size 0x4c0, virtual false, abstract: false, final false
+  /// @brief Method UpdateLocalizationFontAsset, addr 0x2e62cdc, size 0x4c0, virtual false, abstract: false, final false
   static inline void UpdateLocalizationFontAsset();
 
-  /// @brief Method GetCachedFontAsset, addr 0x2e46f04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetCachedFontAsset, addr 0x2e622ec, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> GetCachedFontAsset(::UnityEngine::Font* font);
 
   static inline ::UnityEngine::UIElements::PanelTextSettings* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e47db4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e6319c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PanelTextSettings", modifiers: "&&", def_value: None }]

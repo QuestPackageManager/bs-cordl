@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::RuntimeWrappedException);
 namespace System::Runtime::CompilerServices {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2561))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3383))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3379))
 // CS Name: ::System.Runtime.CompilerServices::RuntimeWrappedException*
 class CORDL_TYPE RuntimeWrappedException : public ::System::Exception {
 public:
@@ -40,21 +40,21 @@ public:
 
   static inline ::System::Runtime::CompilerServices::RuntimeWrappedException* New_ctor(::System::Object* thrownObject);
 
-  /// @brief Method .ctor, addr 0x24db25c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24fb5c8, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* thrownObject);
 
   static inline ::System::Runtime::CompilerServices::RuntimeWrappedException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info,
                                                                                        ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x24db2ec, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24fb658, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetObjectData, addr 0x24db3ec, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x24fb758, size 0xdc, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Runtime::CompilerServices::RuntimeWrappedException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24db4c8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24fb834, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RuntimeWrappedException", modifiers: "&&", def_value: None }]

@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::System::ComponentModel::DoubleConverter);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9407))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9421))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7417))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7431))
 // CS Name: ::System.ComponentModel::DoubleConverter*
 class CORDL_TYPE DoubleConverter : public ::System::ComponentModel::BaseNumberConverter {
 public:
@@ -35,24 +35,24 @@ public:
 
   __declspec(property(get = get_TargetType))::System::Type* TargetType;
 
-  /// @brief Method get_AllowHex, addr 0x290ea88, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_AllowHex, addr 0x29130f0, size 0x8, virtual true, abstract: false, final false
   inline bool get_AllowHex();
 
-  /// @brief Method get_TargetType, addr 0x290ea90, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method get_TargetType, addr 0x29130f8, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Type* get_TargetType();
 
-  /// @brief Method FromString, addr 0x290eafc, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method FromString, addr 0x2913164, size 0xc0, virtual true, abstract: false, final false
   inline ::System::Object* FromString(::StringW value, int32_t radix);
 
-  /// @brief Method FromString, addr 0x290ebbc, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method FromString, addr 0x2913224, size 0x70, virtual true, abstract: false, final false
   inline ::System::Object* FromString(::StringW value, ::System::Globalization::NumberFormatInfo* formatInfo);
 
-  /// @brief Method ToString, addr 0x290ec2c, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2913294, size 0xb0, virtual true, abstract: false, final false
   inline ::StringW ToString(::System::Object* value, ::System::Globalization::NumberFormatInfo* formatInfo);
 
   static inline ::System::ComponentModel::DoubleConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x290ecdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2913344, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DoubleConverter", modifiers: "&&", def_value: None }]

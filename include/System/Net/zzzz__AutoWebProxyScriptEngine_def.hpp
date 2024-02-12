@@ -24,15 +24,15 @@ MARK_REF_PTR_T(::System::Net::AutoWebProxyScriptEngine);
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9140))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7150))
 // CS Name: ::System.Net::AutoWebProxyScriptEngine*
 class CORDL_TYPE AutoWebProxyScriptEngine : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetProxies, addr 0x29b9280, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetProxies, addr 0x29bcd24, size 0xc, virtual false, abstract: false, final false
   inline bool GetProxies(::System::Uri* destination, ByRef<::System::Collections::Generic::IList_1<::StringW>*> proxyList);
 
-  /// @brief Method GetProxies, addr 0x29b928c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetProxies, addr 0x29bcd30, size 0xc, virtual false, abstract: false, final false
   inline bool GetProxies(::System::Uri* destination, ByRef<::System::Collections::Generic::IList_1<::StringW>*> proxyList, ByRef<int32_t> syncStatus);
 
   // Ctor Parameters [CppParam { name: "", ty: "AutoWebProxyScriptEngine", modifiers: "&&", def_value: None }]

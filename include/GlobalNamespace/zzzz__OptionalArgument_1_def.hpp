@@ -17,8 +17,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5978))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5980))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5262))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5264))
 // CS Name: ::OptionalArgument`1<T>*
 class CORDL_TYPE OptionalArgument_1 : public ::GlobalNamespace::ArgumentBase {
 public:

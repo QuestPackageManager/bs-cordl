@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::GlobalNamespace::AvatarVisualPropertyIds);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15161))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15241))
 // CS Name: ::AvatarVisualPropertyIds*
 class CORDL_TYPE AvatarVisualPropertyIds : public ::System::Object {
 public:

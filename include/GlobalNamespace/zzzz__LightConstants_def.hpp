@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::GlobalNamespace::LightConstants);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14532))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14426))
 // CS Name: ::LightConstants::BakeId
 struct CORDL_TYPE __LightConstants__BakeId {
 public:
@@ -96,7 +96,7 @@ static_assert(offsetof(::GlobalNamespace::__LightConstants__BakeId, value__) == 
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14533))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14427))
 // CS Name: ::LightConstants*
 class CORDL_TYPE LightConstants : public ::System::Object {
 public:
@@ -118,7 +118,7 @@ public:
 
   static inline ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__LightConstants__BakeId, int32_t>* getStaticF__probeLightPropertyIds();
 
-  /// @brief Method GetLightProbeLightBakeIdPropertyId, addr 0x210f418, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method GetLightProbeLightBakeIdPropertyId, addr 0x21a3bc0, size 0x168, virtual false, abstract: false, final false
   static inline int32_t GetLightProbeLightBakeIdPropertyId(::GlobalNamespace::__LightConstants__BakeId bakeId);
 
   // Ctor Parameters [CppParam { name: "", ty: "LightConstants", modifiers: "&&", def_value: None }]

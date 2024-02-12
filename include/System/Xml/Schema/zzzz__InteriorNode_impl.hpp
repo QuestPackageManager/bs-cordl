@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::SyntaxTreeNode* (::System::Xml::Schema::InteriorNode::*)()>(
     &::System::Xml::Schema::InteriorNode::get_LeftChild)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x28ae1ac;
+  constexpr static std::size_t addrs = 0x28b1814;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::InteriorNode*>::get(), "get_LeftChild",
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::InteriorNode::*)(::System::Xml::Schema::SyntaxTreeNode*)>(
     &::System::Xml::Schema::InteriorNode::set_LeftChild)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x28ae1b4;
+  constexpr static std::size_t addrs = 0x28b181c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::SyntaxTreeNode* (::System::Xml::Schema::InteriorNode::*)()>(
     &::System::Xml::Schema::InteriorNode::get_RightChild)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x28ae1bc;
+  constexpr static std::size_t addrs = 0x28b1824;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::InteriorNode*>::get(), "get_RightChild",
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::InteriorNode::*)(::System::Xml::Schema::SyntaxTreeNode*)>(
     &::System::Xml::Schema::InteriorNode::set_RightChild)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x28ae1c4;
+  constexpr static std::size_t addrs = 0x28b182c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::InteriorNode::*)(
     ::System::Xml::Schema::InteriorNode*, ::System::Xml::Schema::SymbolsDictionary*, ::System::Xml::Schema::Positions*)>(&::System::Xml::Schema::InteriorNode::ExpandTreeNoRecursive)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x28ae1cc;
+  constexpr static std::size_t addrs = 0x28b1834;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::InteriorNode::*)(
     ::System::Xml::Schema::InteriorNode*, ::System::Xml::Schema::SymbolsDictionary*, ::System::Xml::Schema::Positions*)>(&::System::Xml::Schema::InteriorNode::ExpandTree)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x28ae3ac;
+  constexpr static std::size_t addrs = 0x28b1a14;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::InteriorNode::*)()>(&::System::Xml::Schema::InteriorNode::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x28ae410;
+  constexpr static std::size_t addrs = 0x28b1a78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::InteriorNode*>::get(), ".ctor",

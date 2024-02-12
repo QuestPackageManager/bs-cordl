@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Rendering::BatchVisibility);
 namespace UnityEngine::Rendering {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10364))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9131))
 // CS Name: ::UnityEngine.Rendering::BatchVisibility
 struct CORDL_TYPE BatchVisibility {
 public:

@@ -36,13 +36,13 @@ public:
 
   static inline ::System::LocalDataStoreHolder* New_ctor(::System::LocalDataStore* store);
 
-  /// @brief Method .ctor, addr 0x25d7b1c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25faa34, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::LocalDataStore* store);
 
-  /// @brief Method Finalize, addr 0x25d7b44, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x25faa5c, size 0x9c, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method get_Store, addr 0x25d7bfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Store, addr 0x25fab14, size 0x8, virtual false, abstract: false, final false
   inline ::System::LocalDataStore* get_Store();
 
   // Ctor Parameters [CppParam { name: "", ty: "LocalDataStoreHolder", modifiers: "&&", def_value: None }]

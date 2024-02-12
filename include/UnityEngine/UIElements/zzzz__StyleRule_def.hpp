@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::StyleRule);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7276))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6535))
 // CS Name: ::UnityEngine.UIElements::StyleRule*
 class CORDL_TYPE StyleRule : public ::System::Object {
 public:
@@ -55,12 +55,12 @@ public:
 
   constexpr void __cordl_internal_set_customPropertiesCount(int32_t value);
 
-  /// @brief Method get_properties, addr 0x2e6b52c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_properties, addr 0x2e85914, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::UIElements::StyleProperty*, ::Array<::UnityEngine::UIElements::StyleProperty*>*> get_properties();
 
   static inline ::UnityEngine::UIElements::StyleRule* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e6b534, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e8591c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "StyleRule", modifiers: "&&", def_value: None }]

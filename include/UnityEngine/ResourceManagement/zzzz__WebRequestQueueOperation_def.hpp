@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::WebRequestQueueOperation);
 namespace UnityEngine::ResourceManagement {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13959))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13972))
 // CS Name: ::UnityEngine.ResourceManagement::WebRequestQueueOperation*
 class CORDL_TYPE WebRequestQueueOperation : public ::System::Object {
 public:
@@ -67,15 +67,15 @@ public:
 
   constexpr void __cordl_internal_set_m_WebRequest(::UnityEngine::Networking::UnityWebRequest* value);
 
-  /// @brief Method get_IsDone, addr 0x2bcef30, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_IsDone, addr 0x2bcca9c, size 0x20, virtual false, abstract: false, final false
   inline bool get_IsDone();
 
   static inline ::UnityEngine::ResourceManagement::WebRequestQueueOperation* New_ctor(::UnityEngine::Networking::UnityWebRequest* request);
 
-  /// @brief Method .ctor, addr 0x2bcef50, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bccabc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Networking::UnityWebRequest* request);
 
-  /// @brief Method Complete, addr 0x2bcef78, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x2bccae4, size 0x28, virtual false, abstract: false, final false
   inline void Complete(::UnityEngine::Networking::UnityWebRequestAsyncOperation* asyncOp);
 
   // Ctor Parameters [CppParam { name: "", ty: "WebRequestQueueOperation", modifiers: "&&", def_value: None }]

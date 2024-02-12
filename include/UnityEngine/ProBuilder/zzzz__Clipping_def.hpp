@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Clipping);
 namespace UnityEngine::ProBuilder {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12109))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12007))
 // CS Name: ::Clipping::OutCode
 struct CORDL_TYPE __Clipping__OutCode {
 public:
@@ -90,17 +90,17 @@ static_assert(offsetof(::UnityEngine::ProBuilder::__Clipping__OutCode, value__) 
 namespace UnityEngine::ProBuilder {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12110))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12008))
 // CS Name: ::UnityEngine.ProBuilder::Clipping*
 class CORDL_TYPE Clipping : public ::System::Object {
 public:
   // Declarations
   using OutCode = ::UnityEngine::ProBuilder::__Clipping__OutCode;
 
-  /// @brief Method ComputeOutCode, addr 0x2b3c214, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ComputeOutCode, addr 0x2b3ad80, size 0x9c, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::__Clipping__OutCode ComputeOutCode(::UnityEngine::Rect rect, float_t x, float_t y);
 
-  /// @brief Method RectContainsLineSegment, addr 0x2b3c2b0, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method RectContainsLineSegment, addr 0x2b3ae1c, size 0x1c0, virtual false, abstract: false, final false
   static inline bool RectContainsLineSegment(::UnityEngine::Rect rect, float_t x0, float_t y0, float_t x1, float_t y1);
 
   // Ctor Parameters [CppParam { name: "", ty: "Clipping", modifiers: "&&", def_value: None }]

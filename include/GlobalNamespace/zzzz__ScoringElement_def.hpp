@@ -35,8 +35,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11038)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11038), inst: 2757 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5322))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10180)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10180), inst: 2727 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4660))
 // CS Name: ::ScoringElement::Pool`1<T>*
 class CORDL_TYPE __ScoringElement__Pool_1 : public ::Zenject::MemoryPool_1<T> {
 public:
@@ -72,7 +72,7 @@ public:
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5323))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4661))
 // CS Name: ::ScoringElement*
 class CORDL_TYPE ScoringElement : public ::System::Object {
 public:
@@ -141,28 +141,28 @@ public:
 
   constexpr void __cordl_internal_set__isFinished_k__BackingField(bool value);
 
-  /// @brief Method get_noteData, addr 0x2267ddc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_noteData, addr 0x23c6b04, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteData* get_noteData();
 
-  /// @brief Method set_noteData, addr 0x2267de4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_noteData, addr 0x23c6b0c, size 0x8, virtual false, abstract: false, final false
   inline void set_noteData(::GlobalNamespace::NoteData* value);
 
-  /// @brief Method get_maxPossibleCutScore, addr 0x2267584, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_maxPossibleCutScore, addr 0x23c6318, size 0x74, virtual false, abstract: false, final false
   inline int32_t get_maxPossibleCutScore();
 
-  /// @brief Method get_time, addr 0x22674b0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_time, addr 0x23c62f4, size 0x1c, virtual false, abstract: false, final false
   inline float_t get_time();
 
-  /// @brief Method get_multiplier, addr 0x2267dec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_multiplier, addr 0x23c6b14, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_multiplier();
 
-  /// @brief Method set_multiplier, addr 0x2267df4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_multiplier, addr 0x23c6b1c, size 0x8, virtual false, abstract: false, final false
   inline void set_multiplier(int32_t value);
 
-  /// @brief Method get_maxMultiplier, addr 0x2267dfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxMultiplier, addr 0x23c6b24, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxMultiplier();
 
-  /// @brief Method set_maxMultiplier, addr 0x2267e04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maxMultiplier, addr 0x23c6b2c, size 0x8, virtual false, abstract: false, final false
   inline void set_maxMultiplier(int32_t value);
 
   /// @brief Method get_cutScore, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -174,27 +174,27 @@ public:
   /// @brief Method get_multiplierEventType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType get_multiplierEventType();
 
-  /// @brief Method get_isFinished, addr 0x2267e0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isFinished, addr 0x23c6b34, size 0x8, virtual false, abstract: false, final false
   inline bool get_isFinished();
 
-  /// @brief Method set_isFinished, addr 0x2267e14, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isFinished, addr 0x23c6b3c, size 0xc, virtual false, abstract: false, final false
   inline void set_isFinished(bool value);
 
   /// @brief Method get_executionOrder, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_executionOrder();
 
-  /// @brief Method CompareTo, addr 0x2267e20, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x23c6b48, size 0x88, virtual true, abstract: false, final true
   inline int32_t CompareTo(::GlobalNamespace::ScoringElement* other);
 
-  /// @brief Method SetMultipliers, addr 0x2267568, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetMultipliers, addr 0x23c6310, size 0x8, virtual false, abstract: false, final false
   inline void SetMultipliers(int32_t multiplier, int32_t maxMultiplier);
 
-  /// @brief Method Reinitialize, addr 0x2267ea8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Reinitialize, addr 0x23c6bd0, size 0x4, virtual true, abstract: false, final false
   inline void Reinitialize();
 
   static inline ::GlobalNamespace::ScoringElement* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2267eac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c6bd4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ScoringElement", modifiers: "&&", def_value: None }]

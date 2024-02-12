@@ -28,18 +28,18 @@ MARK_REF_PTR_T(::GlobalNamespace::ConstructorStringExtensions);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15846))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15591))
 // CS Name: ::ConstructorStringExtensions*
 class CORDL_TYPE ConstructorStringExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToConstructorString, addr 0xe26bbc, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method ToConstructorString, addr 0xe508f8, size 0xd0, virtual false, abstract: false, final false
   static inline ::StringW ToConstructorString(::UnityEngine::Vector3 vector);
 
-  /// @brief Method ToConstructorString, addr 0xe26c8c, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method ToConstructorString, addr 0xe509c8, size 0x1b0, virtual false, abstract: false, final false
   static inline ::StringW ToConstructorString(::UnityEngine::Quaternion quaternion);
 
-  /// @brief Method ToConstructorString, addr 0xe26e3c, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method ToConstructorString, addr 0xe50b78, size 0x1a4, virtual false, abstract: false, final false
   static inline ::StringW ToConstructorString(::UnityEngine::Pose pose);
 
   /// @brief Method ToConstructorString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

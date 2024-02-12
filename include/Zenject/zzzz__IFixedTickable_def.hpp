@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::Zenject::IFixedTickable);
 namespace Zenject {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15733))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15883))
 // CS Name: ::Zenject::IFixedTickable*
 class CORDL_TYPE IFixedTickable {
 public:

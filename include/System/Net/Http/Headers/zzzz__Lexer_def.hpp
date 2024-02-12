@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::Lexer);
 namespace System::Net::Http::Headers {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14683))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14688))
 // CS Name: ::System.Net.Http.Headers::Lexer*
 class CORDL_TYPE Lexer : public ::System::Object {
 public:
@@ -80,64 +80,64 @@ public:
 
   static inline ::System::Net::Http::Headers::Lexer* New_ctor(::StringW stream);
 
-  /// @brief Method .ctor, addr 0x2834b60, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2839234, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW stream);
 
-  /// @brief Method get_Position, addr 0x283c870, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Position, addr 0x2840f44, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Position();
 
-  /// @brief Method set_Position, addr 0x283c878, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Position, addr 0x2840f4c, size 0x8, virtual false, abstract: false, final false
   inline void set_Position(int32_t value);
 
-  /// @brief Method GetStringValue, addr 0x2835060, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetStringValue, addr 0x2839734, size 0x24, virtual false, abstract: false, final false
   inline ::StringW GetStringValue(::System::Net::Http::Headers::Token token);
 
-  /// @brief Method GetStringValue, addr 0x283c880, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetStringValue, addr 0x2840f54, size 0x24, virtual false, abstract: false, final false
   inline ::StringW GetStringValue(::System::Net::Http::Headers::Token start, ::System::Net::Http::Headers::Token end);
 
-  /// @brief Method GetQuotedStringValue, addr 0x2836930, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetQuotedStringValue, addr 0x283b004, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW GetQuotedStringValue(::System::Net::Http::Headers::Token start);
 
-  /// @brief Method GetRemainingStringValue, addr 0x2835084, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetRemainingStringValue, addr 0x2839758, size 0x34, virtual false, abstract: false, final false
   inline ::StringW GetRemainingStringValue(int32_t position);
 
-  /// @brief Method IsStarStringValue, addr 0x28385a0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method IsStarStringValue, addr 0x283cc74, size 0x44, virtual false, abstract: false, final false
   inline bool IsStarStringValue(::System::Net::Http::Headers::Token token);
 
-  /// @brief Method TryGetNumericValue, addr 0x283c8a4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method TryGetNumericValue, addr 0x2840f78, size 0xa0, virtual false, abstract: false, final false
   inline bool TryGetNumericValue(::System::Net::Http::Headers::Token token, ByRef<int32_t> value);
 
-  /// @brief Method TryGetNumericValue, addr 0x28385e4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method TryGetNumericValue, addr 0x283ccb8, size 0xa0, virtual false, abstract: false, final false
   inline bool TryGetNumericValue(::System::Net::Http::Headers::Token token, ByRef<int64_t> value);
 
-  /// @brief Method TryGetTimeSpanValue, addr 0x2836868, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method TryGetTimeSpanValue, addr 0x283af3c, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::System::TimeSpan> TryGetTimeSpanValue(::System::Net::Http::Headers::Token token);
 
-  /// @brief Method TryGetDateValue, addr 0x283c944, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method TryGetDateValue, addr 0x2841018, size 0xdc, virtual false, abstract: false, final false
   inline bool TryGetDateValue(::System::Net::Http::Headers::Token token, ByRef<::System::DateTimeOffset> value);
 
-  /// @brief Method TryGetDateValue, addr 0x283ca20, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method TryGetDateValue, addr 0x28410f4, size 0xdc, virtual false, abstract: false, final false
   static inline bool TryGetDateValue(::StringW text, ByRef<::System::DateTimeOffset> value);
 
-  /// @brief Method TryGetDoubleValue, addr 0x283cafc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method TryGetDoubleValue, addr 0x28411d0, size 0xa0, virtual false, abstract: false, final false
   inline bool TryGetDoubleValue(::System::Net::Http::Headers::Token token, ByRef<double_t> value);
 
-  /// @brief Method IsValidToken, addr 0x283cb9c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method IsValidToken, addr 0x2841270, size 0xb0, virtual false, abstract: false, final false
   static inline bool IsValidToken(::StringW input);
 
-  /// @brief Method IsValidCharacter, addr 0x283cc4c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method IsValidCharacter, addr 0x2841320, size 0xb0, virtual false, abstract: false, final false
   static inline bool IsValidCharacter(char16_t input);
 
-  /// @brief Method EatChar, addr 0x2838d34, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method EatChar, addr 0x283d408, size 0x10, virtual false, abstract: false, final false
   inline void EatChar();
 
-  /// @brief Method PeekChar, addr 0x2838cf4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method PeekChar, addr 0x283d3c8, size 0x40, virtual false, abstract: false, final false
   inline int32_t PeekChar();
 
-  /// @brief Method ScanCommentOptional, addr 0x283ccfc, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method ScanCommentOptional, addr 0x28413d0, size 0x150, virtual false, abstract: false, final false
   inline bool ScanCommentOptional(ByRef<::StringW> value, ByRef<::System::Net::Http::Headers::Token> readToken);
 
-  /// @brief Method Scan, addr 0x2834d6c, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method Scan, addr 0x2839440, size 0x2f4, virtual false, abstract: false, final false
   inline ::System::Net::Http::Headers::Token Scan(bool recognizeDash);
 
   // Ctor Parameters [CppParam { name: "", ty: "Lexer", modifiers: "&&", def_value: None }]

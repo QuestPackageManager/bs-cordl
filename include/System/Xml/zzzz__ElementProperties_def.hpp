@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Xml::ElementProperties);
 namespace System::Xml {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11437))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11335))
 // CS Name: ::System.Xml::ElementProperties
 struct CORDL_TYPE ElementProperties {
 public:

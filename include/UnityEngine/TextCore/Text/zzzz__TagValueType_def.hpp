@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::TagValueType);
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13716))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13669))
 // CS Name: ::UnityEngine.TextCore.Text::TagValueType
 struct CORDL_TYPE TagValueType {
 public:

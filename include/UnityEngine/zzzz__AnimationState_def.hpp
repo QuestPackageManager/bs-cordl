@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::UnityEngine::AnimationState);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10209))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14866))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8953))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14739))
 // CS Name: ::UnityEngine::AnimationState*
 class CORDL_TYPE AnimationState : public ::UnityEngine::TrackedReference {
 public:
@@ -35,24 +35,24 @@ public:
 
   __declspec(property(get = get_clip))::UnityW<::UnityEngine::AnimationClip> clip;
 
-  /// @brief Method set_time, addr 0x2c904a0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_time, addr 0x2c8d00c, size 0x4c, virtual false, abstract: false, final false
   inline void set_time(float_t value);
 
-  /// @brief Method set_normalizedTime, addr 0x2c904ec, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_normalizedTime, addr 0x2c8d058, size 0x4c, virtual false, abstract: false, final false
   inline void set_normalizedTime(float_t value);
 
-  /// @brief Method set_speed, addr 0x2c90538, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_speed, addr 0x2c8d0a4, size 0x4c, virtual false, abstract: false, final false
   inline void set_speed(float_t value);
 
-  /// @brief Method set_layer, addr 0x2c90584, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_layer, addr 0x2c8d0f0, size 0x44, virtual false, abstract: false, final false
   inline void set_layer(int32_t value);
 
-  /// @brief Method get_clip, addr 0x2c900f0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_clip, addr 0x2c8cc5c, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::AnimationClip> get_clip();
 
   static inline ::UnityEngine::AnimationState* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c905c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c8d134, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AnimationState", modifiers: "&&", def_value: None }]

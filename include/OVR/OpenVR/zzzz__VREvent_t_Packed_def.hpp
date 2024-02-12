@@ -24,17 +24,17 @@ MARK_VAL_T(::OVR::OpenVR::VREvent_t_Packed);
 // SizeInfo { instance_size: 44, native_size: 44, calculated_instance_size: 44, calculated_native_size: 60, minimum_alignment: 4, natural_alignment: 8, packing: Some(4), specified_packing: Some(4) }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8642))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8693))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8586))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8637))
 // CS Name: ::OVR.OpenVR::VREvent_t_Packed
 #pragma pack(push, 4)
 struct CORDL_TYPE VREvent_t_Packed {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x27f674c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2803f04, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::OVR::OpenVR::VREvent_t unpacked);
 
-  /// @brief Method Unpack, addr 0x27f10c8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Unpack, addr 0x27fe880, size 0x20, virtual false, abstract: false, final false
   inline void Unpack(ByRef<::OVR::OpenVR::VREvent_t> unpacked);
 
   // Ctor Parameters [CppParam { name: "eventType", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "trackedDeviceIndex", ty: "uint32_t", modifiers: "", def_value: None }, CppParam

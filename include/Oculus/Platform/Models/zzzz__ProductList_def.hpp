@@ -16,14 +16,14 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::ProductList);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13430)), TypeDefinitionIndex(TypeDefinitionIndex(13473)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13430), inst:
-// 1181 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(13474)) CS Name: ::Oculus.Platform.Models::ProductList*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13369)), TypeDefinitionIndex(TypeDefinitionIndex(13422)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13369), inst:
+// 1162 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(13423)) CS Name: ::Oculus.Platform.Models::ProductList*
 class CORDL_TYPE ProductList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::Product*> {
 public:
   // Declarations
   static inline ::Oculus::Platform::Models::ProductList* New_ctor(void* a);
 
-  /// @brief Method .ctor, addr 0x2708550, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x273c62c, size 0x25c, virtual false, abstract: false, final false
   inline void _ctor(void* a);
 
   // Ctor Parameters [CppParam { name: "", ty: "ProductList", modifiers: "&&", def_value: None }]

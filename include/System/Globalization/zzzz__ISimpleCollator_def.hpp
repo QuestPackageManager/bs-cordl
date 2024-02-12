@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::System::Globalization::ISimpleCollator);
 namespace System::Globalization {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3711))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3709))
 // CS Name: ::System.Globalization::ISimpleCollator*
 class CORDL_TYPE ISimpleCollator {
 public:

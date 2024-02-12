@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::VRController> (::VRUIControls::VRPointer::*)()>(
     &::VRUIControls::VRPointer::get_lastSelectedVrController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2eb8a44;
+  constexpr static std::size_t addrs = 0x2ed4b8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::VRUIControls::VRPointer*>::get(),
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::VRUIControls::VRPointer::*)()>(&::VRUIControls::VRPointer::get_cursorPosition)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x2eb8a4c;
+  constexpr static std::size_t addrs = 0x2ed4b94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::VRUIControls::VRPointer*>::get(), "get_cursorPosition",
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::VRUIControls::VRPointer::*)()>(&::VRUIControls::VRPointer::Awake)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x2eb8b3c;
+  constexpr static std::size_t addrs = 0x2ed4c84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::VRUIControls::VRPointer*>::get(), "Awake",
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::VRUIControls::VRPointer::*)()>(&::VRUIControls::VRPointer::OnDisable)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x2eb8e4c;
+  constexpr static std::size_t addrs = 0x2ed4f94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::VRUIControls::VRPointer*>::get(), "OnDisable",
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::VRUIControls::VRPointer::*)()>(&::VRUIControls::VRPointer::LateUpdate)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x2eb8e7c;
+  constexpr static std::size_t addrs = 0x2ed4fc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::VRUIControls::VRPointer*>::get(), "LateUpdate",
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::VRUIControls::VRPointer::*)()>(&::VRUIControls::VRPointer::IsLeftControllerDown)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x2eb8fc8;
+  constexpr static std::size_t addrs = 0x2ed5110;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::VRUIControls::VRPointer*>::get(), "IsLeftControllerDown",
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::VRUIControls::VRPointer::*)()>(&::VRUIControls::VRPointer::IsRightControllerDown)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x2eb9018;
+  constexpr static std::size_t addrs = 0x2ed5160;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::VRUIControls::VRPointer*>::get(), "IsRightControllerDown",
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::VRUIControls::VRPointer::*)()>(&::VRUIControls::VRPointer::SelectRightController)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2eb8e28;
+  constexpr static std::size_t addrs = 0x2ed4f70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::VRUIControls::VRPointer*>::get(), "SelectRightController",
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::VRUIControls::VRPointer::*)()>(&::VRUIControls::VRPointer::SelectLeftController)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2eb8e3c;
+  constexpr static std::size_t addrs = 0x2ed4f84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::VRUIControls::VRPointer*>::get(), "SelectLeftController",
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::VRUIControls::VRPointer::*)()>(&::VRUIControls::VRPointer::EnabledLastSelectedPointer)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2eb9068;
+  constexpr static std::size_t addrs = 0x2ed51b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::VRUIControls::VRPointer*>::get(), "EnabledLastSelectedPointer",
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::VRUIControls::VRPointer::*)()>(&::VRUIControls::VRPointer::CreateLaserPointers)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x2eb8bf0;
+  constexpr static std::size_t addrs = 0x2ed4d38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::VRUIControls::VRPointer*>::get(), "CreateLaserPointers",
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::VRUIControls::VRPointer::*)(::VRUIControls::VRLaserPointer*)>(
     &::VRUIControls::VRPointer::SetupLaserPointer)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x2eb90bc;
+  constexpr static std::size_t addrs = 0x2ed5204;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -171,7 +171,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::VRUIControls::VRPointer::*)()>(&::VRUIControls::VRPointer::CreateCursors)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x2eb8cf4;
+  constexpr static std::size_t addrs = 0x2ed4e3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::VRUIControls::VRPointer*>::get(), "CreateCursors",
@@ -185,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::VRUIControls::VRPointer::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::VRUIControls::VRPointer::RefreshLaserPointerAndLaserHit)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x2eb9130;
+  constexpr static std::size_t addrs = 0x2ed5278;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -199,7 +199,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::VRUIControls::VRPointer::*)(bool)>(&::VRUIControls::VRPointer::OnApplicationFocus)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2eb9368;
+  constexpr static std::size_t addrs = 0x2ed54b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -213,7 +213,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::VRUIControls::VRPointer::*)()>(&::VRUIControls::VRPointer::HideLaserPointersAndCursors)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x2eb8e64;
+  constexpr static std::size_t addrs = 0x2ed4fac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::VRUIControls::VRPointer*>::get(), "HideLaserPointersAndCursors",
@@ -226,7 +226,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::VRUIControls::VRPointer::*)()>(&::VRUIControls::VRPointer::HideLaserPointers)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x2eb93d4;
+  constexpr static std::size_t addrs = 0x2ed551c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::VRUIControls::VRPointer*>::get(), "HideLaserPointers",
@@ -239,7 +239,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::VRUIControls::VRPointer::*)()>(&::VRUIControls::VRPointer::HideCursors)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x2eb9374;
+  constexpr static std::size_t addrs = 0x2ed54bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::VRUIControls::VRPointer*>::get(), "HideCursors",
@@ -252,7 +252,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::VRUIControls::VRPointer::*)()>(&::VRUIControls::VRPointer::get_state)> {
   constexpr static std::size_t size = 0x2f4;
-  constexpr static std::size_t addrs = 0x2eb9434;
+  constexpr static std::size_t addrs = 0x2ed557c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::VRUIControls::VRPointer*>::get(), "get_state",
@@ -266,7 +266,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::VRUIControls::VRPointer::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::VRUIControls::VRPointer::Process)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2eb8130;
+  constexpr static std::size_t addrs = 0x2ed4278;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -280,7 +280,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::VRUIControls::VRPointer::*)()>(&::VRUIControls::VRPointer::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2eb9728;
+  constexpr static std::size_t addrs = 0x2ed5870;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::VRUIControls::VRPointer*>::get(), ".ctor",

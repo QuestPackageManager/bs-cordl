@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::Key);
 namespace UnityEngine::InputSystem {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6242))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5501))
 // CS Name: ::UnityEngine.InputSystem::Key
 struct CORDL_TYPE Key {
 public:

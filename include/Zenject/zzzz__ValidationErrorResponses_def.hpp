@@ -16,7 +16,7 @@ MARK_VAL_T(::Zenject::ValidationErrorResponses);
 namespace Zenject {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11169))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10311))
 // CS Name: ::Zenject::ValidationErrorResponses
 struct CORDL_TYPE ValidationErrorResponses {
 public:

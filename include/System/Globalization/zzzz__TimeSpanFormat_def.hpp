@@ -53,7 +53,7 @@ MARK_VAL_T(::System::Globalization::__TimeSpanFormat__FormatLiterals);
 namespace System::Globalization {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3681))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3679))
 // CS Name: ::TimeSpanFormat::Pattern
 struct CORDL_TYPE __TimeSpanFormat__Pattern {
 public:
@@ -107,7 +107,7 @@ static_assert(offsetof(::System::Globalization::__TimeSpanFormat__Pattern, value
 namespace System::Globalization {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3682))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3680))
 // CS Name: ::TimeSpanFormat::FormatLiterals
 struct CORDL_TYPE __TimeSpanFormat__FormatLiterals {
 public:
@@ -124,28 +124,28 @@ public:
 
   __declspec(property(get = get_End))::StringW End;
 
-  /// @brief Method get_Start, addr 0x25566e0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_Start, addr 0x2578328, size 0x28, virtual false, abstract: false, final false
   inline ::StringW get_Start();
 
-  /// @brief Method get_DayHourSep, addr 0x2556708, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_DayHourSep, addr 0x2578350, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_DayHourSep();
 
-  /// @brief Method get_HourMinuteSep, addr 0x2556734, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_HourMinuteSep, addr 0x257837c, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_HourMinuteSep();
 
-  /// @brief Method get_MinuteSecondSep, addr 0x2556760, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_MinuteSecondSep, addr 0x25783a8, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_MinuteSecondSep();
 
-  /// @brief Method get_SecondFractionSep, addr 0x255678c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_SecondFractionSep, addr 0x25783d4, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_SecondFractionSep();
 
-  /// @brief Method get_End, addr 0x25567b8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_End, addr 0x2578400, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_End();
 
-  /// @brief Method InitInvariant, addr 0x2556878, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method InitInvariant, addr 0x25784c0, size 0x210, virtual false, abstract: false, final false
   static inline ::System::Globalization::__TimeSpanFormat__FormatLiterals InitInvariant(bool isNegative);
 
-  /// @brief Method Init, addr 0x2556258, size 0x3f8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2577ea0, size 0x3f8, virtual false, abstract: false, final false
   inline void Init(::System::ReadOnlySpan_1<char16_t> format, bool useInvariantFieldLengths);
 
   // Ctor Parameters [CppParam { name: "AppCompatLiteral", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "dd", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
@@ -205,8 +205,8 @@ static_assert(offsetof(::System::Globalization::__TimeSpanFormat__FormatLiterals
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3682))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3683))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3680))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3681))
 // CS Name: ::System.Globalization::TimeSpanFormat*
 class CORDL_TYPE TimeSpanFormat : public ::System::Object {
 public:
@@ -231,24 +231,24 @@ public:
 
   static inline ::System::Globalization::__TimeSpanFormat__FormatLiterals getStaticF_NegativeInvariantFormatLiterals();
 
-  /// @brief Method AppendNonNegativeInt32, addr 0x2555160, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method AppendNonNegativeInt32, addr 0x2576da8, size 0xf8, virtual false, abstract: false, final false
   static inline void AppendNonNegativeInt32(::System::Text::StringBuilder* sb, int32_t n, int32_t digits);
 
-  /// @brief Method Format, addr 0x2555258, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x2576ea0, size 0xb8, virtual false, abstract: false, final false
   static inline ::StringW Format(::System::TimeSpan value, ::StringW format, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method TryFormat, addr 0x25555b8, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method TryFormat, addr 0x2577200, size 0x11c, virtual false, abstract: false, final false
   static inline bool TryFormat(::System::TimeSpan value, ::System::Span_1<char16_t> destination, ByRef<int32_t> charsWritten, ::System::ReadOnlySpan_1<char16_t> format,
                                ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method FormatToBuilder, addr 0x2555310, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method FormatToBuilder, addr 0x2576f58, size 0x2a8, virtual false, abstract: false, final false
   static inline ::System::Text::StringBuilder* FormatToBuilder(::System::TimeSpan value, ::System::ReadOnlySpan_1<char16_t> format, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method FormatStandard, addr 0x25556d4, size 0x48c, virtual false, abstract: false, final false
+  /// @brief Method FormatStandard, addr 0x257731c, size 0x48c, virtual false, abstract: false, final false
   static inline ::System::Text::StringBuilder* FormatStandard(::System::TimeSpan value, bool isInvariant, ::System::ReadOnlySpan_1<char16_t> format,
                                                               ::System::Globalization::__TimeSpanFormat__Pattern pattern);
 
-  /// @brief Method FormatCustomized, addr 0x2555b60, size 0x6f8, virtual false, abstract: false, final false
+  /// @brief Method FormatCustomized, addr 0x25777a8, size 0x6f8, virtual false, abstract: false, final false
   static inline ::System::Text::StringBuilder* FormatCustomized(::System::TimeSpan value, ::System::ReadOnlySpan_1<char16_t> format, ::System::Globalization::DateTimeFormatInfo* dtfi,
                                                                 ::System::Text::StringBuilder* result);
 

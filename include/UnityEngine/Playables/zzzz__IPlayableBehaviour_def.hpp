@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::UnityEngine::Playables::IPlayableBehaviour);
 namespace UnityEngine::Playables {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10441))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9210))
 // CS Name: ::UnityEngine.Playables::IPlayableBehaviour*
 class CORDL_TYPE IPlayableBehaviour {
 public:

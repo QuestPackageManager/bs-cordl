@@ -21,24 +21,24 @@ MARK_REF_PTR_T(::UnityEngine::GridLayout);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10187))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16183))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8931))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16331))
 // CS Name: ::UnityEngine::GridLayout*
 class CORDL_TYPE GridLayout : public ::UnityEngine::Behaviour {
 public:
   // Declarations
-  /// @brief Method CellToLocal, addr 0x2cfaefc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method CellToLocal, addr 0x2d067e8, size 0x68, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 CellToLocal(::UnityEngine::Vector3Int cellPosition);
 
-  /// @brief Method DoNothing, addr 0x2cfafb8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method DoNothing, addr 0x2d068a4, size 0x4, virtual false, abstract: false, final false
   inline void DoNothing();
 
   static inline ::UnityEngine::GridLayout* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2cfafbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d068a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CellToLocal_Injected, addr 0x2cfaf64, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CellToLocal_Injected, addr 0x2d06850, size 0x54, virtual false, abstract: false, final false
   inline void CellToLocal_Injected(ByRef<::UnityEngine::Vector3Int> cellPosition, ByRef<::UnityEngine::Vector3> ret);
 
   // Ctor Parameters [CppParam { name: "", ty: "GridLayout", modifiers: "&&", def_value: None }]

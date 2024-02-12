@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::GlobalNamespace::QuestAppInit);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15392))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4042))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15439))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3987))
 // CS Name: ::QuestAppInit*
 class CORDL_TYPE QuestAppInit : public ::GlobalNamespace::AppInit {
 public:
@@ -60,24 +60,24 @@ public:
 
   constexpr void __cordl_internal_set__mainSettingsModel(::UnityW<::GlobalNamespace::MainSettingsModelSO> value);
 
-  /// @brief Method AppStartAndMultiSceneEditorSetup, addr 0x222a534, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method AppStartAndMultiSceneEditorSetup, addr 0x22b4024, size 0x4, virtual true, abstract: false, final false
   inline void AppStartAndMultiSceneEditorSetup();
 
-  /// @brief Method RepeatableSetupAsync, addr 0x222a538, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method RepeatableSetupAsync, addr 0x22b4028, size 0x9c, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* RepeatableSetupAsync();
 
-  /// @brief Method TransitionToNextScene, addr 0x222a5d4, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method TransitionToNextScene, addr 0x22b40c4, size 0x98, virtual true, abstract: false, final false
   inline void TransitionToNextScene();
 
-  /// @brief Method InstallBindings, addr 0x222a66c, size 0x280, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x22b415c, size 0x200, virtual true, abstract: false, final false
   inline void InstallBindings();
 
-  /// @brief Method ApplyDeviceSettings, addr 0x222a8ec, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method ApplyDeviceSettings, addr 0x22b435c, size 0x254, virtual false, abstract: false, final false
   inline void ApplyDeviceSettings();
 
   static inline ::GlobalNamespace::QuestAppInit* New_ctor();
 
-  /// @brief Method .ctor, addr 0x222ab40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b45b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "QuestAppInit", modifiers: "&&", def_value: None }]

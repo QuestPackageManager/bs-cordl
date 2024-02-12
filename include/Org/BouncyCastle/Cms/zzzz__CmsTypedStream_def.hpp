@@ -36,10 +36,10 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Cms::__CmsTypedStream__FullReaderStream* New_ctor(::System::IO::Stream* input);
 
-  /// @brief Method .ctor, addr 0x11ffff8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x122ce88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* input);
 
-  /// @brief Method Read, addr 0x1200010, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x122cea0, size 0xc, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
   // Ctor Parameters [CppParam { name: "", ty: "__CmsTypedStream__FullReaderStream", modifiers: "&&", def_value: None }]
@@ -98,26 +98,26 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::CmsTypedStream* New_ctor(::System::IO::Stream* inStream);
 
-  /// @brief Method .ctor, addr 0x11ffeb4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x122cd44, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* inStream);
 
   static inline ::Org::BouncyCastle::Cms::CmsTypedStream* New_ctor(::StringW oid, ::System::IO::Stream* inStream);
 
-  /// @brief Method .ctor, addr 0x11ee154, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x121afe4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW oid, ::System::IO::Stream* inStream);
 
   static inline ::Org::BouncyCastle::Cms::CmsTypedStream* New_ctor(::StringW oid, ::System::IO::Stream* inStream, int32_t bufSize);
 
-  /// @brief Method .ctor, addr 0x11fff34, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x122cdc4, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::StringW oid, ::System::IO::Stream* inStream, int32_t bufSize);
 
-  /// @brief Method get_ContentType, addr 0x1200000, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContentType, addr 0x122ce90, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ContentType();
 
-  /// @brief Method get_ContentStream, addr 0x1200008, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContentStream, addr 0x122ce98, size 0x8, virtual false, abstract: false, final false
   inline ::System::IO::Stream* get_ContentStream();
 
-  /// @brief Method Drain, addr 0x11ee15c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Drain, addr 0x121afec, size 0x68, virtual false, abstract: false, final false
   inline void Drain();
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsTypedStream", modifiers: "&&", def_value: None }]

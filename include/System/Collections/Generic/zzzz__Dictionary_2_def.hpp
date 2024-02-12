@@ -130,7 +130,7 @@ namespace System::Collections::Generic {
 template <typename TKey, typename TValue>
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3818))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3817))
 // CS Name: ::Dictionary`2::Entry<TKey,TValue>
 struct CORDL_TYPE __Dictionary_2__Entry {
 public:
@@ -168,8 +168,8 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3841)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3841), inst: 1206 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3819))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3840)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3840), inst: 1189 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3818))
 // CS Name: ::Dictionary`2::Enumerator<TKey,TValue>
 struct CORDL_TYPE __Dictionary_2__Enumerator {
 public:
@@ -275,7 +275,7 @@ namespace GlobalNamespace {
 template <typename TKey, typename TValue>
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3820))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3819))
 // CS Name: ::Dictionary`2::KeyCollection::Enumerator<TKey,TValue>
 struct CORDL_TYPE __Dictionary_2__KeyCollection__Enumerator {
 public:
@@ -354,7 +354,7 @@ namespace System::Collections::Generic {
 template <typename TKey, typename TValue>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3821))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3820))
 // CS Name: ::Dictionary`2::KeyCollection<TKey,TValue>*
 class CORDL_TYPE __Dictionary_2__KeyCollection : public ::System::Object {
 public:
@@ -480,7 +480,7 @@ namespace GlobalNamespace {
 template <typename TKey, typename TValue>
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3822))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3821))
 // CS Name: ::Dictionary`2::ValueCollection::Enumerator<TKey,TValue>
 struct CORDL_TYPE __Dictionary_2__ValueCollection__Enumerator {
 public:
@@ -559,7 +559,7 @@ namespace System::Collections::Generic {
 template <typename TKey, typename TValue>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3823))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3822))
 // CS Name: ::Dictionary`2::ValueCollection<TKey,TValue>*
 class CORDL_TYPE __Dictionary_2__ValueCollection : public ::System::Object {
 public:
@@ -685,7 +685,7 @@ namespace System::Collections::Generic {
 template <typename TKey, typename TValue>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3824))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3823))
 // CS Name: ::System.Collections.Generic::Dictionary`2<TKey,TValue>*
 class CORDL_TYPE Dictionary_2 : public ::System::Object {
 public:
@@ -734,6 +734,9 @@ public:
   __declspec(property(get = get_Keys))::System::Collections::Generic::__Dictionary_2__KeyCollection<TKey, TValue>* Keys;
 
   __declspec(property(get = System_Collections_Generic_IDictionary_TKey_TValue__get_Keys))::System::Collections::Generic::ICollection_1<TKey>* System_Collections_Generic_IDictionary_TKey_TValue__Keys;
+
+  __declspec(property(
+      get = System_Collections_Generic_IReadOnlyDictionary_TKey_TValue__get_Keys))::System::Collections::Generic::IEnumerable_1<TKey>* System_Collections_Generic_IReadOnlyDictionary_TKey_TValue__Keys;
 
   __declspec(property(get = get_Values))::System::Collections::Generic::__Dictionary_2__ValueCollection<TKey, TValue>* Values;
 
@@ -932,6 +935,9 @@ public:
   /// @brief Method System.Collections.Generic.IDictionary<TKey,TValue>.get_Keys, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::ICollection_1<TKey>* System_Collections_Generic_IDictionary_TKey_TValue__get_Keys();
 
+  /// @brief Method System.Collections.Generic.IReadOnlyDictionary<TKey,TValue>.get_Keys, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline ::System::Collections::Generic::IEnumerable_1<TKey>* System_Collections_Generic_IReadOnlyDictionary_TKey_TValue__get_Keys();
+
   /// @brief Method get_Values, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::__Dictionary_2__ValueCollection<TKey, TValue>* get_Values();
 
@@ -999,6 +1005,9 @@ public:
 
   /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool Remove(TKey key);
+
+  /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline bool Remove(TKey key, ByRef<TValue> value);
 
   /// @brief Method TryGetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool TryGetValue(TKey key, ByRef<TValue> value);

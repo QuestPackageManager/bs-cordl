@@ -39,8 +39,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SmoothStepPositionEventEffect);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(14724))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4970))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(15108))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4324))
 // CS Name: ::SmoothStepPositionEventEffect*
 class CORDL_TYPE SmoothStepPositionEventEffect : public ::UnityEngine::MonoBehaviour {
 public:
@@ -155,27 +155,27 @@ public:
 
   constexpr void __cordl_internal_set__beatmapDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
 
-  /// @brief Method Awake, addr 0x23b242c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2371560, size 0x110, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Start, addr 0x23b253c, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2371670, size 0x124, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy, addr 0x23b2660, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2371794, size 0x9c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleBeatmapEvent, addr 0x23b26fc, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0x2371830, size 0xdc, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
-  /// @brief Method GetPositionForValue, addr 0x23b27d8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetPositionForValue, addr 0x237190c, size 0x60, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetPositionForValue(int32_t value);
 
-  /// @brief Method SetPosition, addr 0x23b2838, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method SetPosition, addr 0x237196c, size 0x48, virtual false, abstract: false, final false
   inline void SetPosition(::UnityEngine::Vector3 position);
 
   static inline ::GlobalNamespace::SmoothStepPositionEventEffect* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23b2880, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23719b4, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SmoothStepPositionEventEffect", modifiers: "&&", def_value: None }]

@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::System::ComponentModel::Design::Serialization::RootDesignerSeri
 namespace System::ComponentModel::Design::Serialization {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9505))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7515))
 // CS Name: ::System.ComponentModel.Design.Serialization::RootDesignerSerializerAttribute*
 class CORDL_TYPE RootDesignerSerializerAttribute : public ::System::Attribute {
 public:
@@ -67,13 +67,13 @@ public:
 
   static inline ::System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute* New_ctor(::StringW serializerTypeName, ::StringW baseSerializerTypeName, bool reloadable);
 
-  /// @brief Method .ctor, addr 0x293b404, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x293fa6c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW serializerTypeName, ::StringW baseSerializerTypeName, bool reloadable);
 
-  /// @brief Method get_SerializerBaseTypeName, addr 0x293b440, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SerializerBaseTypeName, addr 0x293faa8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_SerializerBaseTypeName();
 
-  /// @brief Method get_TypeId, addr 0x293b448, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method get_TypeId, addr 0x293fab0, size 0x8c, virtual true, abstract: false, final false
   inline ::System::Object* get_TypeId();
 
   // Ctor Parameters [CppParam { name: "", ty: "RootDesignerSerializerAttribute", modifiers: "&&", def_value: None }]

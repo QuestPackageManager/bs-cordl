@@ -16,7 +16,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_AttributeOwner);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9703))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9495))
 // CS Name: ::HoudiniEngineUnity::HAPI_AttributeOwner
 struct CORDL_TYPE HAPI_AttributeOwner {
 public:

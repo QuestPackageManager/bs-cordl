@@ -16,7 +16,7 @@ MARK_VAL_T(::Oculus::Platform::UserPresenceStatus);
 namespace Oculus::Platform {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13395))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13327))
 // CS Name: ::Oculus.Platform::UserPresenceStatus
 struct CORDL_TYPE UserPresenceStatus {
 public:

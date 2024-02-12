@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IBpmController);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4834))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4185))
 // CS Name: ::IBpmController*
 class CORDL_TYPE IBpmController {
 public:

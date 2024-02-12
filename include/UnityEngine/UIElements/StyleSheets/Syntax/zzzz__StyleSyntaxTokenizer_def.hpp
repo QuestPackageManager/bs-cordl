@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokeni
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7490))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6749))
 // CS Name: ::UnityEngine.UIElements.StyleSheets.Syntax::StyleSyntaxTokenizer*
 class CORDL_TYPE StyleSyntaxTokenizer : public ::System::Object {
 public:
@@ -49,33 +49,33 @@ public:
 
   constexpr void __cordl_internal_set_m_CurrentTokenIndex(int32_t value);
 
-  /// @brief Method get_current, addr 0x2df5de4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method get_current, addr 0x2e131cc, size 0xac, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken get_current();
 
-  /// @brief Method MoveNext, addr 0x2df5e90, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method MoveNext, addr 0x2e13278, size 0x114, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken MoveNext();
 
-  /// @brief Method PeekNext, addr 0x2df5fa4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method PeekNext, addr 0x2e1338c, size 0xb0, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken PeekNext();
 
-  /// @brief Method Tokenize, addr 0x2df6054, size 0xcf8, virtual false, abstract: false, final false
+  /// @brief Method Tokenize, addr 0x2e1343c, size 0xcf8, virtual false, abstract: false, final false
   inline void Tokenize(::StringW syntax);
 
-  /// @brief Method IsNextCharacter, addr 0x2df6d88, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method IsNextCharacter, addr 0x2e14170, size 0x44, virtual false, abstract: false, final false
   static inline bool IsNextCharacter(::StringW s, int32_t index, char16_t c);
 
-  /// @brief Method IsNextLetterOrDash, addr 0x2df6e64, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method IsNextLetterOrDash, addr 0x2e1424c, size 0xc0, virtual false, abstract: false, final false
   static inline bool IsNextLetterOrDash(::StringW s, int32_t index);
 
-  /// @brief Method IsNextNumber, addr 0x2df6dcc, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method IsNextNumber, addr 0x2e141b4, size 0x98, virtual false, abstract: false, final false
   static inline bool IsNextNumber(::StringW s, int32_t index);
 
-  /// @brief Method GlobCharacter, addr 0x2df6d4c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GlobCharacter, addr 0x2e14134, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GlobCharacter(::StringW s, int32_t index, char16_t c);
 
   static inline ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenizer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2df6f24, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e1430c, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "StyleSyntaxTokenizer", modifiers: "&&", def_value: None }]

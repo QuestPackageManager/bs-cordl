@@ -61,36 +61,36 @@ public:
 
   constexpr void __cordl_internal_set_value(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method GetInstance, addr 0xe86a84, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xeb0914, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions* New_ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagged);
 
-  /// @brief Method .ctor, addr 0xe86c0c, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeb0a9c, size 0x158, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagged);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions* New_ctor(::Org::BouncyCastle::Asn1::Crmf::EncryptedKey* encKey);
 
-  /// @brief Method .ctor, addr 0xe86d64, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeb0bf4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Crmf::EncryptedKey* encKey);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions* New_ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* keyGenParameters);
 
-  /// @brief Method .ctor, addr 0xe86d8c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeb0c1c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* keyGenParameters);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions* New_ctor(bool archiveRemGenPrivKey);
 
-  /// @brief Method .ctor, addr 0xe86db4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeb0c44, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(bool archiveRemGenPrivKey);
 
-  /// @brief Method get_Type, addr 0xe86e2c, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0xeb0cbc, size 0xc0, virtual true, abstract: false, final false
   inline int32_t get_Type();
 
-  /// @brief Method get_Value, addr 0xe86eec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0xeb0d7c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Value();
 
-  /// @brief Method ToAsn1Object, addr 0xe86ef4, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xeb0d84, size 0x120, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "PkiArchiveOptions", modifiers: "&&", def_value: None }]

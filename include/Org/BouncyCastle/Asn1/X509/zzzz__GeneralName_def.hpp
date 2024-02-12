@@ -71,58 +71,58 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::GeneralName* New_ctor(::Org::BouncyCastle::Asn1::X509::X509Name* directoryName);
 
-  /// @brief Method .ctor, addr 0x118ddb0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11bbc40, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::X509Name* directoryName);
 
   static inline ::Org::BouncyCastle::Asn1::X509::GeneralName* New_ctor(::Org::BouncyCastle::Asn1::Asn1Object* name, int32_t tag);
 
-  /// @brief Method .ctor, addr 0x118dde0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11bbc70, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Object* name, int32_t tag);
 
   static inline ::Org::BouncyCastle::Asn1::X509::GeneralName* New_ctor(int32_t tag, ::Org::BouncyCastle::Asn1::Asn1Encodable* name);
 
-  /// @brief Method .ctor, addr 0x118de10, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11bbca0, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(int32_t tag, ::Org::BouncyCastle::Asn1::Asn1Encodable* name);
 
   static inline ::Org::BouncyCastle::Asn1::X509::GeneralName* New_ctor(int32_t tag, ::StringW name);
 
-  /// @brief Method .ctor, addr 0x118de40, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11bbcd0, size 0x23c, virtual false, abstract: false, final false
   inline void _ctor(int32_t tag, ::StringW name);
 
-  /// @brief Method GetInstance, addr 0x118e308, size 0x428, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x11bc198, size 0x428, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::GeneralName* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetInstance, addr 0x118e7a8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x11bc638, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::GeneralName* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagObj, bool explicitly);
 
-  /// @brief Method get_TagNo, addr 0x118e7c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TagNo, addr 0x11bc650, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_TagNo();
 
-  /// @brief Method get_Name, addr 0x118e7c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x11bc658, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Name();
 
-  /// @brief Method ToString, addr 0x118e7d0, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x11bc660, size 0x12c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method toGeneralNameEncoding, addr 0x118e0f4, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method toGeneralNameEncoding, addr 0x11bbf84, size 0x214, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> toGeneralNameEncoding(::StringW ip);
 
-  /// @brief Method parseIPv4Mask, addr 0x118f018, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method parseIPv4Mask, addr 0x11bcea8, size 0x84, virtual false, abstract: false, final false
   inline void parseIPv4Mask(::StringW mask, ::ArrayW<uint8_t, ::Array<uint8_t>*> addr, int32_t offset);
 
-  /// @brief Method parseIPv4, addr 0x118ef18, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method parseIPv4, addr 0x11bcda8, size 0x100, virtual false, abstract: false, final false
   inline void parseIPv4(::StringW ip, ::ArrayW<uint8_t, ::Array<uint8_t>*> addr, int32_t offset);
 
-  /// @brief Method parseMask, addr 0x118ee60, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method parseMask, addr 0x11bccf0, size 0xb8, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> parseMask(::StringW mask);
 
-  /// @brief Method copyInts, addr 0x118edd4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method copyInts, addr 0x11bcc64, size 0x8c, virtual false, abstract: false, final false
   inline void copyInts(::ArrayW<int32_t, ::Array<int32_t>*> parsedIp, ::ArrayW<uint8_t, ::Array<uint8_t>*> addr, int32_t offSet);
 
-  /// @brief Method parseIPv6, addr 0x118e9a0, size 0x434, virtual false, abstract: false, final false
+  /// @brief Method parseIPv6, addr 0x11bc830, size 0x434, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> parseIPv6(::StringW ip);
 
-  /// @brief Method ToAsn1Object, addr 0x118f09c, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x11bcf2c, size 0x78, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "GeneralName", modifiers: "&&", def_value: None }]

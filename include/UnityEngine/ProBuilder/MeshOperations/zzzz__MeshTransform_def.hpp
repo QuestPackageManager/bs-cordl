@@ -26,21 +26,21 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshOperations::MeshTransform);
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12273))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12171))
 // CS Name: ::UnityEngine.ProBuilder.MeshOperations::MeshTransform*
 class CORDL_TYPE MeshTransform : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SetPivot, addr 0x2bbb4cc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method SetPivot, addr 0x2bb9038, size 0xc0, virtual false, abstract: false, final false
   static inline void SetPivot(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::PivotLocation pivotLocation);
 
-  /// @brief Method CenterPivot, addr 0x2bb6cac, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method CenterPivot, addr 0x2bb4818, size 0x2f8, virtual false, abstract: false, final false
   static inline void CenterPivot(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<int32_t, ::Array<int32_t>*> indexes);
 
-  /// @brief Method SetPivot, addr 0x2bbb58c, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method SetPivot, addr 0x2bb90f8, size 0x1a4, virtual false, abstract: false, final false
   static inline void SetPivot(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 worldPosition);
 
-  /// @brief Method FreezeScaleTransform, addr 0x2bbb730, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method FreezeScaleTransform, addr 0x2bb929c, size 0x164, virtual false, abstract: false, final false
   static inline void FreezeScaleTransform(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
 
   // Ctor Parameters [CppParam { name: "", ty: "MeshTransform", modifiers: "&&", def_value: None }]

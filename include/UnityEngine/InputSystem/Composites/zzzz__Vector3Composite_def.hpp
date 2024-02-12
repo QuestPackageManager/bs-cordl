@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Composites::Vector3Composite);
 namespace UnityEngine::InputSystem::Composites {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6721))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5980))
 // CS Name: ::Vector3Composite::Mode
 struct CORDL_TYPE __Vector3Composite__Mode {
 public:
@@ -86,8 +86,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::Composites::__Vector3Composit
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Composites {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6190)), TypeDefinitionIndex(TypeDefinitionIndex(6721)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6190), inst: 412 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6722)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5449)), TypeDefinitionIndex(TypeDefinitionIndex(5980)), TypeDefinitionIndex(TypeDefinitionIndex(8993)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5449), inst: 414 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5981)) CS Name:
 // ::UnityEngine.InputSystem.Composites::Vector3Composite*
 class CORDL_TYPE Vector3Composite : public ::UnityEngine::InputSystem::InputBindingComposite_1<::UnityEngine::Vector3> {
 public:
@@ -157,12 +157,12 @@ public:
 
   constexpr void __cordl_internal_set_mode(::UnityEngine::InputSystem::Composites::__Vector3Composite__Mode value);
 
-  /// @brief Method ReadValue, addr 0x2a5bc2c, size 0x254, virtual true, abstract: false, final false
+  /// @brief Method ReadValue, addr 0x2a5e798, size 0x254, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 ReadValue(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
   static inline ::UnityEngine::InputSystem::Composites::Vector3Composite* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2a5be80, size 0x1048, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a5e9ec, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Vector3Composite", modifiers: "&&", def_value: None }]

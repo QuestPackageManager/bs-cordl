@@ -21,18 +21,18 @@ MARK_REF_PTR_T(::GlobalNamespace::LocalLeaderboardTableView);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5789))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5796))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5087))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5094))
 // CS Name: ::LocalLeaderboardTableView*
 class CORDL_TYPE LocalLeaderboardTableView : public ::GlobalNamespace::LeaderboardTableView {
 public:
   // Declarations
-  /// @brief Method SetScores, addr 0x22e731c, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method SetScores, addr 0x231641c, size 0x28c, virtual false, abstract: false, final false
   inline void SetScores(::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__ScoreData*>* scores, int32_t specialScorePos, int32_t maxNumberOfCells);
 
   static inline ::GlobalNamespace::LocalLeaderboardTableView* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22e75a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23166a8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LocalLeaderboardTableView", modifiers: "&&", def_value: None }]

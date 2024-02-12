@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SetBlocksBladeSaberGlowColor);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5302))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4642))
 // CS Name: ::SetBlocksBladeSaberGlowColor*
 class CORDL_TYPE SetBlocksBladeSaberGlowColor : public ::UnityEngine::MonoBehaviour {
 public:
@@ -56,12 +56,12 @@ public:
 
   constexpr void __cordl_internal_set__blocksBlade(::UnityW<::GlobalNamespace::BlocksBlade> value);
 
-  /// @brief Method Start, addr 0x22647a8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x23c3610, size 0x40, virtual false, abstract: false, final false
   inline void Start();
 
   static inline ::GlobalNamespace::SetBlocksBladeSaberGlowColor* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22647e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c3650, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SetBlocksBladeSaberGlowColor", modifiers: "&&", def_value: None }]

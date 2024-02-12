@@ -52,8 +52,8 @@ MARK_REF_PTR_T(::BeatSaber::AvatarCore::AvatarSystem);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15183))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15179))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15264))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15259))
 // CS Name: ::BeatSaber.AvatarCore::AvatarSystem*
 class CORDL_TYPE AvatarSystem : public ::System::Object {
 public:
@@ -131,23 +131,23 @@ public:
   static inline ::BeatSaber::AvatarCore::AvatarSystem* New_ctor(::BeatSaber::AvatarCore::AvatarSystemIdentifier identifier, bool isFallbackSystem, bool selectableByUser, int32_t selectionSortOrder,
                                                                 ::System::Collections::Generic::IReadOnlyCollection_1<uint32_t>* supportedOptionalAvatarDataTypes);
 
-  /// @brief Method .ctor, addr 0xe0cb60, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe18060, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::BeatSaber::AvatarCore::AvatarSystemIdentifier identifier, bool isFallbackSystem, bool selectableByUser, int32_t selectionSortOrder,
                     ::System::Collections::Generic::IReadOnlyCollection_1<uint32_t>* supportedOptionalAvatarDataTypes);
 
-  /// @brief Method get_typeIdentifier, addr 0xe0cbbc, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_typeIdentifier, addr 0xe180bc, size 0xc, virtual true, abstract: false, final true
   inline ::BeatSaber::AvatarCore::AvatarSystemIdentifier get_typeIdentifier();
 
-  /// @brief Method get_selectableByUser, addr 0xe0cbc8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_selectableByUser, addr 0xe180c8, size 0x8, virtual true, abstract: false, final true
   inline bool get_selectableByUser();
 
-  /// @brief Method get_isFallbackSystem, addr 0xe0cbd0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isFallbackSystem, addr 0xe180d0, size 0x8, virtual true, abstract: false, final true
   inline bool get_isFallbackSystem();
 
-  /// @brief Method get_selectionSortOrder, addr 0xe0cbd8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_selectionSortOrder, addr 0xe180d8, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_selectionSortOrder();
 
-  /// @brief Method get_supportedOptionalAvatarDataTypes, addr 0xe0cbe0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_supportedOptionalAvatarDataTypes, addr 0xe180e0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IReadOnlyCollection_1<uint32_t>* get_supportedOptionalAvatarDataTypes();
 
   /// @brief Method get_avatarCreated, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -170,7 +170,7 @@ public:
   inline ::BeatSaber::AvatarCore::IOptionalAvatarDataProvider* GetMultiplayerAvatarOptionalDataProvider();
 
   /// @brief Method CreateDefaultAvatarIfUserCreatedAvatarDoesNotExist, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool CreateDefaultAvatarIfUserCreatedAvatarDoesNotExist();
+  inline ::System::Threading::Tasks::Task_1<bool>* CreateDefaultAvatarIfUserCreatedAvatarDoesNotExist();
 
   /// @brief Method __GetRandomizedMultiplayerAvatarsData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerAvatarData>* __GetRandomizedMultiplayerAvatarsData();

@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::NoteDebrisRigidbodyPhysics);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4774))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4775))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4125))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4126))
 // CS Name: ::NoteDebrisRigidbodyPhysics*
 class CORDL_TYPE NoteDebrisRigidbodyPhysics : public ::GlobalNamespace::NoteDebrisPhysics {
 public:
@@ -58,21 +58,21 @@ public:
 
   constexpr void __cordl_internal_set__firstUpdate(bool value);
 
-  /// @brief Method get_position, addr 0x23883f8, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_position, addr 0x22cff38, size 0x1c, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 get_position();
 
-  /// @brief Method FixedUpdate, addr 0x2388414, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method FixedUpdate, addr 0x22cff54, size 0x48, virtual false, abstract: false, final false
   inline void FixedUpdate();
 
-  /// @brief Method Init, addr 0x238845c, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x22cff9c, size 0xc4, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::Vector3 force, ::UnityEngine::Vector3 torque);
 
-  /// @brief Method AddVelocity, addr 0x2388520, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method AddVelocity, addr 0x22d0060, size 0x60, virtual true, abstract: false, final false
   inline void AddVelocity(::UnityEngine::Vector3 force);
 
   static inline ::GlobalNamespace::NoteDebrisRigidbodyPhysics* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2388580, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22d00c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NoteDebrisRigidbodyPhysics", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::UnityEngine::Bindings::NotNullAttribute);
 namespace UnityEngine::Bindings {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16023))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16118))
 // CS Name: ::UnityEngine.Bindings::NotNullAttribute*
 class CORDL_TYPE NotNullAttribute : public ::System::Attribute {
 public:
@@ -32,12 +32,12 @@ public:
 
   constexpr void __cordl_internal_set__Exception_k__BackingField(::StringW value);
 
-  /// @brief Method set_Exception, addr 0x2d18878, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Exception, addr 0x2d39320, size 0x8, virtual false, abstract: false, final false
   inline void set_Exception(::StringW value);
 
   static inline ::UnityEngine::Bindings::NotNullAttribute* New_ctor(::StringW exception);
 
-  /// @brief Method .ctor, addr 0x2d18880, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d39328, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW exception);
 
   // Ctor Parameters [CppParam { name: "", ty: "NotNullAttribute", modifiers: "&&", def_value: None }]

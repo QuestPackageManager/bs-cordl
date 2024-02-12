@@ -22,17 +22,17 @@ MARK_REF_PTR_T(::System::Reflection::TypeFilter);
 namespace System::Reflection {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3501))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3497))
 // CS Name: ::System.Reflection::TypeFilter*
 class CORDL_TYPE TypeFilter : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::System::Reflection::TypeFilter* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x24e9094, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25081ec, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x24ec808, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x250b960, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(::System::Type* m, ::System::Object* filterCriteria);
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeFilter", modifiers: "&&", def_value: None }]

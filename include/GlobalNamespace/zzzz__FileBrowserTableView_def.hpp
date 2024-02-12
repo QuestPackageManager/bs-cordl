@@ -36,8 +36,8 @@ MARK_REF_PTR_T(::GlobalNamespace::FileBrowserTableView);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5483))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4786))
 // CS Name: ::FileBrowserTableView*
 class CORDL_TYPE FileBrowserTableView : public ::UnityEngine::MonoBehaviour {
 public:
@@ -95,42 +95,42 @@ public:
 
   constexpr void __cordl_internal_set__items(::ArrayW<::GlobalNamespace::FileBrowserItem*, ::Array<::GlobalNamespace::FileBrowserItem*>*> value);
 
-  /// @brief Method add_didSelectRow, addr 0x2285518, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didSelectRow, addr 0x23e022c, size 0xb0, virtual false, abstract: false, final false
   inline void add_didSelectRow(::System::Action_2<::UnityW<::GlobalNamespace::FileBrowserTableView>, ::GlobalNamespace::FileBrowserItem*>* value);
 
-  /// @brief Method remove_didSelectRow, addr 0x22855c8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSelectRow, addr 0x23e02dc, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didSelectRow(::System::Action_2<::UnityW<::GlobalNamespace::FileBrowserTableView>, ::GlobalNamespace::FileBrowserItem*>* value);
 
-  /// @brief Method Init, addr 0x2285678, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x23e038c, size 0x108, virtual false, abstract: false, final false
   inline void Init(::ArrayW<::GlobalNamespace::FileBrowserItem*, ::Array<::GlobalNamespace::FileBrowserItem*>*> items);
 
-  /// @brief Method SetItems, addr 0x2285780, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetItems, addr 0x23e0494, size 0x44, virtual false, abstract: false, final false
   inline void SetItems(::ArrayW<::GlobalNamespace::FileBrowserItem*, ::Array<::GlobalNamespace::FileBrowserItem*>*> items);
 
-  /// @brief Method SelectAndScrollRowToItemWithPath, addr 0x22857c4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method SelectAndScrollRowToItemWithPath, addr 0x23e04d8, size 0x94, virtual false, abstract: false, final false
   inline bool SelectAndScrollRowToItemWithPath(::StringW folderPath);
 
-  /// @brief Method CellSize, addr 0x22858a4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method CellSize, addr 0x23e05b8, size 0x8, virtual true, abstract: false, final true
   inline float_t CellSize();
 
-  /// @brief Method NumberOfCells, addr 0x22858ac, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method NumberOfCells, addr 0x23e05c0, size 0x18, virtual true, abstract: false, final true
   inline int32_t NumberOfCells();
 
-  /// @brief Method CellForIdx, addr 0x22858c4, size 0x16c, virtual true, abstract: false, final true
+  /// @brief Method CellForIdx, addr 0x23e05d8, size 0x178, virtual true, abstract: false, final true
   inline ::UnityW<::HMUI::TableCell> CellForIdx(::HMUI::TableView* tableView, int32_t row);
 
-  /// @brief Method HandleDidSelectRowEvent, addr 0x2285a30, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method HandleDidSelectRowEvent, addr 0x23e0750, size 0x50, virtual false, abstract: false, final false
   inline void HandleDidSelectRowEvent(::HMUI::TableView* tableView, int32_t row);
 
-  /// @brief Method SelectAndScrollRow, addr 0x2285858, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method SelectAndScrollRow, addr 0x23e056c, size 0x4c, virtual false, abstract: false, final false
   inline void SelectAndScrollRow(int32_t row);
 
-  /// @brief Method ClearSelection, addr 0x2285a80, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ClearSelection, addr 0x23e07a0, size 0x5c, virtual false, abstract: false, final false
   inline void ClearSelection(bool animated, bool scrollToRow0);
 
   static inline ::GlobalNamespace::FileBrowserTableView* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2285adc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23e07fc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FileBrowserTableView", modifiers: "&&", def_value: None }]

@@ -26,17 +26,17 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Tsp::TspException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1154544, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11823d4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Tsp::TspException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x1153d34, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1181bc4, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::Org::BouncyCastle::Tsp::TspException* New_ctor(::StringW message, ::System::Exception* e);
 
-  /// @brief Method .ctor, addr 0x1150a58, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x117e8e8, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* e);
 
   // Ctor Parameters [CppParam { name: "", ty: "TspException", modifiers: "&&", def_value: None }]

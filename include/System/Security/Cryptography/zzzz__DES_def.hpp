@@ -45,28 +45,28 @@ public:
 
   static inline ::System::Security::Cryptography::DES* New_ctor();
 
-  /// @brief Method .ctor, addr 0x245c428, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x247d49c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Key, addr 0x245c4a4, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method get_Key, addr 0x247d518, size 0xe8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Key();
 
-  /// @brief Method set_Key, addr 0x245c8c8, size 0x20c, virtual true, abstract: false, final false
+  /// @brief Method set_Key, addr 0x247d93c, size 0x20c, virtual true, abstract: false, final false
   inline void set_Key(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method Create, addr 0x245cad4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x247db48, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::DES* Create();
 
-  /// @brief Method IsWeakKey, addr 0x245c58c, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method IsWeakKey, addr 0x247d600, size 0x128, virtual false, abstract: false, final false
   static inline bool IsWeakKey(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbKey);
 
-  /// @brief Method IsSemiWeakKey, addr 0x245c6b4, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method IsSemiWeakKey, addr 0x247d728, size 0x214, virtual false, abstract: false, final false
   static inline bool IsSemiWeakKey(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbKey);
 
-  /// @brief Method IsLegalKeySize, addr 0x245cb30, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsLegalKeySize, addr 0x247dba4, size 0x20, virtual false, abstract: false, final false
   static inline bool IsLegalKeySize(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbKey);
 
-  /// @brief Method QuadWordFromBigEndian, addr 0x245cb50, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method QuadWordFromBigEndian, addr 0x247dbc4, size 0x98, virtual false, abstract: false, final false
   static inline uint64_t QuadWordFromBigEndian(::ArrayW<uint8_t, ::Array<uint8_t>*> block);
 
   // Ctor Parameters [CppParam { name: "", ty: "DES", modifiers: "&&", def_value: None }]

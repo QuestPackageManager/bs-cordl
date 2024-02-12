@@ -16,7 +16,7 @@ MARK_VAL_T(::Mono::Security::Protocol::Ntlm::NtlmFlags);
 namespace Mono::Security::Protocol::Ntlm {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13767))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13720))
 // CS Name: ::Mono.Security.Protocol.Ntlm::NtlmFlags
 struct CORDL_TYPE NtlmFlags {
 public:

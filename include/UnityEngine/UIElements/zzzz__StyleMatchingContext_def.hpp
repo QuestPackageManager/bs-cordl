@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::StyleMatchingContext);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6817))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6076))
 // CS Name: ::UnityEngine.UIElements::StyleMatchingContext*
 class CORDL_TYPE StyleMatchingContext : public ::System::Object {
 public:
@@ -80,22 +80,22 @@ public:
 
   constexpr void __cordl_internal_set_processResult(::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::MatchResultInfo>* value);
 
-  /// @brief Method get_styleSheetCount, addr 0x2dc1bb4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_styleSheetCount, addr 0x2ddff9c, size 0x48, virtual false, abstract: false, final false
   inline int32_t get_styleSheetCount();
 
   static inline ::UnityEngine::UIElements::StyleMatchingContext*
   New_ctor(::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::MatchResultInfo>* processResult);
 
-  /// @brief Method .ctor, addr 0x2dc1bfc, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ddffe4, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::MatchResultInfo>* processResult);
 
-  /// @brief Method AddStyleSheet, addr 0x2dc1cc0, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method AddStyleSheet, addr 0x2de00a8, size 0xec, virtual false, abstract: false, final false
   inline void AddStyleSheet(::UnityEngine::UIElements::StyleSheet* sheet);
 
-  /// @brief Method RemoveStyleSheetRange, addr 0x2dc1dac, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method RemoveStyleSheetRange, addr 0x2de0194, size 0x68, virtual false, abstract: false, final false
   inline void RemoveStyleSheetRange(int32_t index, int32_t count);
 
-  /// @brief Method GetStyleSheetAt, addr 0x2dc1e14, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetStyleSheetAt, addr 0x2de01fc, size 0x58, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UIElements::StyleSheet> GetStyleSheetAt(int32_t index);
 
   // Ctor Parameters [CppParam { name: "", ty: "StyleMatchingContext", modifiers: "&&", def_value: None }]

@@ -42,7 +42,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__FloatFxGroupEffect__InitData);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4907))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4261))
 // CS Name: ::FloatFxGroupEffect::InitData*
 class CORDL_TYPE __FloatFxGroupEffect__InitData : public ::System::Object {
 public:
@@ -76,7 +76,7 @@ public:
 
   static inline ::GlobalNamespace::__FloatFxGroupEffect__InitData* New_ctor(int32_t groupId, int32_t elementId, ::GlobalNamespace::FloatFxGroupEffectTarget* target);
 
-  /// @brief Method .ctor, addr 0x23a5f94, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23660cc, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(int32_t groupId, int32_t elementId, ::GlobalNamespace::FloatFxGroupEffectTarget* target);
 
   // Ctor Parameters [CppParam { name: "", ty: "__FloatFxGroupEffect__InitData", modifiers: "&&", def_value: None }]
@@ -119,7 +119,7 @@ static_assert(offsetof(::GlobalNamespace::__FloatFxGroupEffect__InitData, ___tar
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4908))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4262))
 // CS Name: ::FloatFxGroupEffect*
 class CORDL_TYPE FloatFxGroupEffect : public ::System::Object {
 public:
@@ -176,17 +176,17 @@ public:
   static inline ::GlobalNamespace::FloatFxGroupEffect* New_ctor(::GlobalNamespace::__FloatFxGroupEffect__InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager,
                                                                 ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 
-  /// @brief Method .ctor, addr 0x23a62bc, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23663f4, size 0x1dc, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__FloatFxGroupEffect__InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager,
                     ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 
-  /// @brief Method Cleanup, addr 0x23a6118, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x2366250, size 0x9c, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method HandleFloatFxBeatmapEventCallback, addr 0x23a6498, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method HandleFloatFxBeatmapEventCallback, addr 0x23665d0, size 0x118, virtual false, abstract: false, final false
   inline void HandleFloatFxBeatmapEventCallback(::GlobalNamespace::FloatFxBeatmapEventData* currentEvent);
 
-  /// @brief Method SetValue, addr 0x23a65b0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x23666e8, size 0x20, virtual false, abstract: false, final false
   inline void SetValue(float_t value);
 
   // Ctor Parameters [CppParam { name: "", ty: "FloatFxGroupEffect", modifiers: "&&", def_value: None }]

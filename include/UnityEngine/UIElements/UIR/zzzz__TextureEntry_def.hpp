@@ -21,8 +21,8 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::TextureEntry);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 29, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7339))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7398))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6598))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6657))
 // CS Name: ::UnityEngine.UIElements.UIR::TextureEntry
 struct CORDL_TYPE TextureEntry {
 public:

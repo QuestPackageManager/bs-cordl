@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::GlobalNamespace::XPlatformAuthFeatureFlag);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12999))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12897))
 // CS Name: ::XPlatformAuthFeatureFlag*
 class CORDL_TYPE XPlatformAuthFeatureFlag : public ::System::Object {
 public:
@@ -31,15 +31,15 @@ public:
 
   constexpr void __cordl_internal_set__UseXPlatformAuth_k__BackingField(bool value);
 
-  /// @brief Method get_UseXPlatformAuth, addr 0xe5df24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UseXPlatformAuth, addr 0xe88d5c, size 0x8, virtual false, abstract: false, final false
   inline bool get_UseXPlatformAuth();
 
-  /// @brief Method set_UseXPlatformAuth, addr 0xe5df2c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_UseXPlatformAuth, addr 0xe88d64, size 0xc, virtual false, abstract: false, final false
   inline void set_UseXPlatformAuth(bool value);
 
   static inline ::GlobalNamespace::XPlatformAuthFeatureFlag* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe5df38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe88d70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "XPlatformAuthFeatureFlag", modifiers: "&&", def_value: None }]

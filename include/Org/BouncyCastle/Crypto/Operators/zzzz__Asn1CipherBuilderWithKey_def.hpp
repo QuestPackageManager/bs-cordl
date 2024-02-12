@@ -88,19 +88,19 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Operators::Asn1CipherBuilderWithKey* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionOID, int32_t keySize,
                                                                                            ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method .ctor, addr 0xf281e0, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf53070, size 0x120, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionOID, int32_t keySize, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method get_AlgorithmDetails, addr 0xf28400, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_AlgorithmDetails, addr 0xf53290, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* get_AlgorithmDetails();
 
-  /// @brief Method GetMaxOutputSize, addr 0xf28408, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method GetMaxOutputSize, addr 0xf53298, size 0x40, virtual true, abstract: false, final true
   inline int32_t GetMaxOutputSize(int32_t inputLen);
 
-  /// @brief Method BuildCipher, addr 0xf28448, size 0x198, virtual true, abstract: false, final true
+  /// @brief Method BuildCipher, addr 0xf532d8, size 0x198, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::ICipher* BuildCipher(::System::IO::Stream* stream);
 
-  /// @brief Method get_Key, addr 0xf2866c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Key, addr 0xf534fc, size 0x8, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::ICipherParameters* get_Key();
 
   // Ctor Parameters [CppParam { name: "", ty: "Asn1CipherBuilderWithKey", modifiers: "&&", def_value: None }]

@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::Newtonsoft::Json::JsonConstructorAttribute);
 namespace Newtonsoft::Json {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11802))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11700))
 // CS Name: ::Newtonsoft.Json::JsonConstructorAttribute*
 class CORDL_TYPE JsonConstructorAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::Newtonsoft::Json::JsonConstructorAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x263e3b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2662570, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "JsonConstructorAttribute", modifiers: "&&", def_value: None }]

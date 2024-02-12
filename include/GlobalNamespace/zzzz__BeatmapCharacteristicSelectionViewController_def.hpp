@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapCharacteristicSelectionViewController);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5615))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13558))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4920))
 // CS Name: ::BeatmapCharacteristicSelectionViewController*
 class CORDL_TYPE BeatmapCharacteristicSelectionViewController : public ::HMUI::ViewController {
 public:
@@ -83,32 +83,32 @@ public:
 
   constexpr void __cordl_internal_set__selectedBeatmapCharacteristic(::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> value);
 
-  /// @brief Method add_didSelectBeatmapCharacteristicEvent, addr 0x22ad594, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didSelectBeatmapCharacteristicEvent, addr 0x22e0bbc, size 0xb0, virtual false, abstract: false, final false
   inline void
   add_didSelectBeatmapCharacteristicEvent(::System::Action_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSelectionViewController>, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value);
 
-  /// @brief Method remove_didSelectBeatmapCharacteristicEvent, addr 0x22ad644, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSelectBeatmapCharacteristicEvent, addr 0x22e0c6c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didSelectBeatmapCharacteristicEvent(
       ::System::Action_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSelectionViewController>, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value);
 
-  /// @brief Method get_selectedBeatmapCharacteristic, addr 0x22ad6f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedBeatmapCharacteristic, addr 0x22e0d1c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> get_selectedBeatmapCharacteristic();
 
-  /// @brief Method Init, addr 0x22ad6fc, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x22e0d24, size 0xc8, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method DidActivate, addr 0x22ad7c4, size 0x2f4, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x22e0dec, size 0x2f4, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x22adab8, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x22e10e0, size 0xa0, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleBeatmapCharacteristicSegmentedControlDidSelectCell, addr 0x22adb58, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapCharacteristicSegmentedControlDidSelectCell, addr 0x22e1180, size 0xec, virtual false, abstract: false, final false
   inline void HandleBeatmapCharacteristicSegmentedControlDidSelectCell(::HMUI::SegmentedControl* segmentedControl, int32_t cellNumber);
 
   static inline ::GlobalNamespace::BeatmapCharacteristicSelectionViewController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22adc44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22e126c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicSelectionViewController", modifiers: "&&", def_value: None }]

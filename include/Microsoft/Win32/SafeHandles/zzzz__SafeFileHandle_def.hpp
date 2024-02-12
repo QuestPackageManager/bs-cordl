@@ -23,10 +23,10 @@ public:
   // Declarations
   static inline ::Microsoft::Win32::SafeHandles::SafeFileHandle* New_ctor(void* preexistingHandle, bool ownsHandle);
 
-  /// @brief Method .ctor, addr 0x242c11c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x244bf80, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(void* preexistingHandle, bool ownsHandle);
 
-  /// @brief Method ReleaseHandle, addr 0x242c1a8, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method ReleaseHandle, addr 0x244c00c, size 0x7c, virtual true, abstract: false, final false
   inline bool ReleaseHandle();
 
   // Ctor Parameters [CppParam { name: "", ty: "SafeFileHandle", modifiers: "&&", def_value: None }]

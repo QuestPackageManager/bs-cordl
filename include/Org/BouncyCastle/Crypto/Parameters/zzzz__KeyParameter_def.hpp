@@ -42,15 +42,15 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method .ctor, addr 0xf28300, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf53190, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t keyOff, int32_t keyLen);
 
-  /// @brief Method .ctor, addr 0xf2f6a4, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf5a534, size 0x150, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t keyOff, int32_t keyLen);
 
-  /// @brief Method GetKey, addr 0xf1ed68, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetKey, addr 0xf49bf8, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetKey();
 
   // Ctor Parameters [CppParam { name: "", ty: "KeyParameter", modifiers: "&&", def_value: None }]

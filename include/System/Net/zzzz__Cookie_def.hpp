@@ -37,8 +37,8 @@ MARK_REF_PTR_T(::System::Net::Cookie);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 154, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9119))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9120))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7129))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7130))
 // CS Name: ::System.Net::Cookie*
 class CORDL_TYPE Cookie : public ::System::Object {
 public:
@@ -304,118 +304,118 @@ public:
 
   static inline ::System::Net::Cookie* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29aab18, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29af5bc, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Comment, addr 0x29aabf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Comment, addr 0x29af69c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Comment();
 
-  /// @brief Method set_Comment, addr 0x29aac00, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_Comment, addr 0x29af6a4, size 0x58, virtual false, abstract: false, final false
   inline void set_Comment(::StringW value);
 
-  /// @brief Method set_CommentUri, addr 0x29aac58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CommentUri, addr 0x29af6fc, size 0x8, virtual false, abstract: false, final false
   inline void set_CommentUri(::System::Uri* value);
 
-  /// @brief Method set_HttpOnly, addr 0x29aac60, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_HttpOnly, addr 0x29af704, size 0xc, virtual false, abstract: false, final false
   inline void set_HttpOnly(bool value);
 
-  /// @brief Method set_Discard, addr 0x29aac6c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Discard, addr 0x29af710, size 0xc, virtual false, abstract: false, final false
   inline void set_Discard(bool value);
 
-  /// @brief Method get_Domain, addr 0x29aac78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Domain, addr 0x29af71c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Domain();
 
-  /// @brief Method set_Domain, addr 0x29aac80, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method set_Domain, addr 0x29af724, size 0x74, virtual false, abstract: false, final false
   inline void set_Domain(::StringW value);
 
-  /// @brief Method get__Domain, addr 0x29aacf4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method get__Domain, addr 0x29af798, size 0xcc, virtual false, abstract: false, final false
   inline ::StringW get__Domain();
 
-  /// @brief Method get_Expired, addr 0x29aadd0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method get_Expired, addr 0x29af874, size 0xb8, virtual false, abstract: false, final false
   inline bool get_Expired();
 
-  /// @brief Method set_Expires, addr 0x29aae88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Expires, addr 0x29af92c, size 0x8, virtual false, abstract: false, final false
   inline void set_Expires(::System::DateTime value);
 
-  /// @brief Method get_Name, addr 0x29aae90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x29af934, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method set_Name, addr 0x29aae98, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x29af93c, size 0x18c, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
-  /// @brief Method InternalSetName, addr 0x29ab024, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method InternalSetName, addr 0x29afac8, size 0x104, virtual false, abstract: false, final false
   inline bool InternalSetName(::StringW value);
 
-  /// @brief Method get_Path, addr 0x29ab130, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Path, addr 0x29afbd4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Path();
 
-  /// @brief Method set_Path, addr 0x29ab138, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method set_Path, addr 0x29afbdc, size 0x6c, virtual false, abstract: false, final false
   inline void set_Path(::StringW value);
 
-  /// @brief Method get__Path, addr 0x29ab1a4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get__Path, addr 0x29afc48, size 0x9c, virtual false, abstract: false, final false
   inline ::StringW get__Path();
 
-  /// @brief Method get_Plain, addr 0x29aadc0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_Plain, addr 0x29af864, size 0x10, virtual false, abstract: false, final false
   inline bool get_Plain();
 
-  /// @brief Method IsDomainEqualToHost, addr 0x29ab240, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method IsDomainEqualToHost, addr 0x29afce4, size 0x58, virtual false, abstract: false, final false
   static inline bool IsDomainEqualToHost(::StringW domain, ::StringW host);
 
-  /// @brief Method VerifySetDefaults, addr 0x29ab298, size 0x9f0, virtual false, abstract: false, final false
+  /// @brief Method VerifySetDefaults, addr 0x29afd3c, size 0x9f0, virtual false, abstract: false, final false
   inline bool VerifySetDefaults(::System::Net::CookieVariant variant, ::System::Uri* uri, bool isLocalDomain, ::StringW localDomain, bool set_default, bool isThrow);
 
-  /// @brief Method DomainCharsTest, addr 0x29abc88, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method DomainCharsTest, addr 0x29b072c, size 0x9c, virtual false, abstract: false, final false
   static inline bool DomainCharsTest(::StringW name);
 
-  /// @brief Method get_Port, addr 0x29abde8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Port, addr 0x29b088c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Port();
 
-  /// @brief Method set_Port, addr 0x29abdf0, size 0x334, virtual false, abstract: false, final false
+  /// @brief Method set_Port, addr 0x29b0894, size 0x334, virtual false, abstract: false, final false
   inline void set_Port(::StringW value);
 
-  /// @brief Method get_PortList, addr 0x29ac124, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PortList, addr 0x29b0bc8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> get_PortList();
 
-  /// @brief Method get__Port, addr 0x29ac12c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method get__Port, addr 0x29b0bd0, size 0xc8, virtual false, abstract: false, final false
   inline ::StringW get__Port();
 
-  /// @brief Method get_Secure, addr 0x29ac1f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Secure, addr 0x29b0c98, size 0x8, virtual false, abstract: false, final false
   inline bool get_Secure();
 
-  /// @brief Method set_Secure, addr 0x29ac1fc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Secure, addr 0x29b0ca0, size 0xc, virtual false, abstract: false, final false
   inline void set_Secure(bool value);
 
-  /// @brief Method get_Value, addr 0x29ac208, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x29b0cac, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method set_Value, addr 0x29ac210, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_Value, addr 0x29b0cb4, size 0x68, virtual false, abstract: false, final false
   inline void set_Value(::StringW value);
 
-  /// @brief Method get_Variant, addr 0x29ac278, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Variant, addr 0x29b0d1c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::CookieVariant get_Variant();
 
-  /// @brief Method get_DomainKey, addr 0x29ac280, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_DomainKey, addr 0x29b0d24, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW get_DomainKey();
 
-  /// @brief Method get_Version, addr 0x29ac29c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x29b0d40, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Version();
 
-  /// @brief Method set_Version, addr 0x29ac2a4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method set_Version, addr 0x29b0d48, size 0x78, virtual false, abstract: false, final false
   inline void set_Version(int32_t value);
 
-  /// @brief Method get__Version, addr 0x29ac31c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get__Version, addr 0x29b0dc0, size 0xfc, virtual false, abstract: false, final false
   inline ::StringW get__Version();
 
-  /// @brief Method GetComparer, addr 0x29ac418, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetComparer, addr 0x29b0ebc, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Collections::IComparer* GetComparer();
 
-  /// @brief Method Equals, addr 0x29ac470, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x29b0f14, size 0xd0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* comparand);
 
-  /// @brief Method GetHashCode, addr 0x29ac540, size 0x268, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x29b0fe4, size 0x268, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x29ac7a8, size 0x310, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x29b124c, size 0x310, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "Cookie", modifiers: "&&", def_value: None }]

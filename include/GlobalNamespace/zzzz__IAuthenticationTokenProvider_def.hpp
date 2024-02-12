@@ -11,7 +11,7 @@ namespace GlobalNamespace {
 struct PlatformEnvironment;
 }
 namespace GlobalNamespace {
-class XPlatformAccessTokenData;
+struct XPlatformAccessTokenData;
 }
 namespace GlobalNamespace {
 struct __AuthenticationToken__Platform;
@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IAuthenticationTokenProvider);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12775))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12673))
 // CS Name: ::IAuthenticationTokenProvider*
 class CORDL_TYPE IAuthenticationTokenProvider {
 public:
@@ -51,7 +51,7 @@ public:
   inline ::GlobalNamespace::__AuthenticationToken__Platform GetTokenPlatform(::GlobalNamespace::PlatformEnvironment tokenPlatformEnvironment);
 
   /// @brief Method GetXPlatformAccessToken, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData*>* GetXPlatformAccessToken(::System::Threading::CancellationToken cancellationToken, bool skipCache);
+  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData>* GetXPlatformAccessToken(::System::Threading::CancellationToken cancellationToken, bool skipCache);
 
   /// @brief Method get_hashedUserId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_hashedUserId();

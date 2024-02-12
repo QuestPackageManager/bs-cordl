@@ -62,8 +62,8 @@ MARK_REF_PTR_T(::System::Reflection::AssemblyName);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3446)), TypeDefinitionIndex(TypeDefinitionIndex(3454)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3486)), TypeDefinitionIndex(TypeDefinitionIndex(3750)), TypeDefinitionIndex(TypeDefinitionIndex(3751))] Self: TypeDefinitionIndex(TypeDefinitionIndex(3512))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3442)), TypeDefinitionIndex(TypeDefinitionIndex(3450)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3482)), TypeDefinitionIndex(TypeDefinitionIndex(3749)), TypeDefinitionIndex(TypeDefinitionIndex(3750))] Self: TypeDefinitionIndex(TypeDefinitionIndex(3508))
 // CS Name: ::System.Reflection::AssemblyName*
 class CORDL_TYPE AssemblyName : public ::System::Object {
 public:
@@ -250,74 +250,74 @@ public:
 
   static inline ::System::Reflection::AssemblyName* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24ef444, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x250e5a4, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method ParseAssemblyName, addr 0x24ef464, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ParseAssemblyName, addr 0x250e5c4, size 0x4, virtual false, abstract: false, final false
   static inline bool ParseAssemblyName(void* name, ByRef<::Mono::MonoAssemblyName> aname, ByRef<bool> is_version_definited, ByRef<bool> is_token_defined);
 
   static inline ::System::Reflection::AssemblyName* New_ctor(::StringW assemblyName);
 
-  /// @brief Method .ctor, addr 0x24e1aa8, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2500164, size 0x298, virtual false, abstract: false, final false
   inline void _ctor(::StringW assemblyName);
 
   static inline ::System::Reflection::AssemblyName* New_ctor(::System::Runtime::Serialization::SerializationInfo* si, ::System::Runtime::Serialization::StreamingContext sc);
 
-  /// @brief Method .ctor, addr 0x24ef708, size 0x508, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x250e868, size 0x508, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* si, ::System::Runtime::Serialization::StreamingContext sc);
 
-  /// @brief Method get_Name, addr 0x24efc10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x250ed70, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_CultureInfo, addr 0x24efc18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CultureInfo, addr 0x250ed78, size 0x8, virtual false, abstract: false, final false
   inline ::System::Globalization::CultureInfo* get_CultureInfo();
 
-  /// @brief Method get_Flags, addr 0x24efc20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Flags, addr 0x250ed80, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::AssemblyNameFlags get_Flags();
 
-  /// @brief Method get_FullName, addr 0x24efc28, size 0x35c, virtual false, abstract: false, final false
+  /// @brief Method get_FullName, addr 0x250ed88, size 0x35c, virtual false, abstract: false, final false
   inline ::StringW get_FullName();
 
-  /// @brief Method get_Version, addr 0x24f006c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x250f1cc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Version* get_Version();
 
-  /// @brief Method set_Version, addr 0x24f0074, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_Version, addr 0x250f1d4, size 0x4c, virtual false, abstract: false, final false
   inline void set_Version(::System::Version* value);
 
-  /// @brief Method ToString, addr 0x24f00c0, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x250f220, size 0x28, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method GetPublicKeyToken, addr 0x24e1d40, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetPublicKeyToken, addr 0x25003fc, size 0xe8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetPublicKeyToken();
 
-  /// @brief Method get_IsPublicKeyValid, addr 0x24f00e8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_IsPublicKeyValid, addr 0x250f248, size 0x84, virtual false, abstract: false, final false
   inline bool get_IsPublicKeyValid();
 
-  /// @brief Method InternalGetPublicKeyToken, addr 0x24eff84, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method InternalGetPublicKeyToken, addr 0x250f0e4, size 0xe8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> InternalGetPublicKeyToken();
 
-  /// @brief Method get_public_token, addr 0x24f01f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_public_token, addr 0x250f358, size 0x4, virtual false, abstract: false, final false
   static inline void get_public_token(::cordl_internals::Ptr<uint8_t> token, ::cordl_internals::Ptr<uint8_t> pubkey, int32_t len);
 
-  /// @brief Method ComputePublicKeyToken, addr 0x24f016c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ComputePublicKeyToken, addr 0x250f2cc, size 0x8c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ComputePublicKeyToken();
 
-  /// @brief Method GetObjectData, addr 0x24f01fc, size 0x330, virtual true, abstract: false, final true
+  /// @brief Method GetObjectData, addr 0x250f35c, size 0x330, virtual true, abstract: false, final true
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method Clone, addr 0x24f052c, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method Clone, addr 0x250f68c, size 0xb0, virtual true, abstract: false, final true
   inline ::System::Object* Clone();
 
-  /// @brief Method OnDeserialization, addr 0x24f05dc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method OnDeserialization, addr 0x250f73c, size 0x8, virtual true, abstract: false, final true
   inline void OnDeserialization(::System::Object* sender);
 
-  /// @brief Method GetNativeName, addr 0x24f05e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetNativeName, addr 0x250f744, size 0x4, virtual false, abstract: false, final false
   static inline ::cordl_internals::Ptr<::Mono::MonoAssemblyName> GetNativeName(void* assembly_ptr);
 
-  /// @brief Method FillName, addr 0x24ef468, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method FillName, addr 0x250e5c8, size 0x2a0, virtual false, abstract: false, final false
   inline void FillName(::cordl_internals::Ptr<::Mono::MonoAssemblyName> native, ::StringW codeBase, bool addVersion, bool addPublickey, bool defaultToken, bool assemblyRef);
 
-  /// @brief Method Create, addr 0x24f05e8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x250f748, size 0xcc, virtual false, abstract: false, final false
   static inline ::System::Reflection::AssemblyName* Create(::System::Reflection::Assembly* assembly, bool fillCodebase);
 
   // Ctor Parameters [CppParam { name: "", ty: "AssemblyName", modifiers: "&&", def_value: None }]

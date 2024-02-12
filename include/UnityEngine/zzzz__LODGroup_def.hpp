@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::UnityEngine::LODGroup);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10238))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10091))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8982))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8823))
 // CS Name: ::UnityEngine::LODGroup*
 class CORDL_TYPE LODGroup : public ::UnityEngine::Component {
 public:
@@ -30,19 +30,19 @@ public:
 
   __declspec(property(get = get_lodCount)) int32_t lodCount;
 
-  /// @brief Method get_size, addr 0x2cb7104, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_size, addr 0x2cb9cb0, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_size();
 
-  /// @brief Method get_lodCount, addr 0x2cb7140, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_lodCount, addr 0x2cb9cec, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_lodCount();
 
-  /// @brief Method RecalculateBounds, addr 0x2cb717c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method RecalculateBounds, addr 0x2cb9d28, size 0x3c, virtual false, abstract: false, final false
   inline void RecalculateBounds();
 
-  /// @brief Method GetLODs, addr 0x2cb71b8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetLODs, addr 0x2cb9d64, size 0x3c, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::LOD, ::Array<::UnityEngine::LOD>*> GetLODs();
 
-  /// @brief Method SetLODs, addr 0x2cb71f4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetLODs, addr 0x2cb9da0, size 0x44, virtual false, abstract: false, final false
   inline void SetLODs(::ArrayW<::UnityEngine::LOD, ::Array<::UnityEngine::LOD>*> lods);
 
   // Ctor Parameters [CppParam { name: "", ty: "LODGroup", modifiers: "&&", def_value: None }]

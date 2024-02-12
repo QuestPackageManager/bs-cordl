@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrate
 namespace UnityEngine::ResourceManagement::Util {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13979))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13992))
 // CS Name: ::UnityEngine.ResourceManagement.Util::LRUCacheAllocationStrategy*
 class CORDL_TYPE LRUCacheAllocationStrategy : public ::System::Object {
 public:
@@ -92,19 +92,19 @@ public:
 
   static inline ::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy* New_ctor(int32_t poolMaxSize, int32_t poolCapacity, int32_t poolCacheMaxSize, int32_t initialPoolCacheCapacity);
 
-  /// @brief Method .ctor, addr 0x2bca3cc, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bc7f38, size 0x1d8, virtual false, abstract: false, final false
   inline void _ctor(int32_t poolMaxSize, int32_t poolCapacity, int32_t poolCacheMaxSize, int32_t initialPoolCacheCapacity);
 
-  /// @brief Method GetPool, addr 0x2bd202c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetPool, addr 0x2bcfb98, size 0xf0, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::System::Object*>* GetPool();
 
-  /// @brief Method ReleasePool, addr 0x2bd211c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method ReleasePool, addr 0x2bcfc88, size 0xc0, virtual false, abstract: false, final false
   inline void ReleasePool(::System::Collections::Generic::List_1<::System::Object*>* pool);
 
-  /// @brief Method New, addr 0x2bd21dc, size 0x13c, virtual true, abstract: false, final true
+  /// @brief Method New, addr 0x2bcfd48, size 0x13c, virtual true, abstract: false, final true
   inline ::System::Object* New(::System::Type* type, int32_t typeHash);
 
-  /// @brief Method Release, addr 0x2bd2318, size 0x138, virtual true, abstract: false, final true
+  /// @brief Method Release, addr 0x2bcfe84, size 0x138, virtual true, abstract: false, final true
   inline void Release(int32_t typeHash, ::System::Object* obj);
 
   // Ctor Parameters [CppParam { name: "", ty: "LRUCacheAllocationStrategy", modifiers: "&&", def_value: None }]

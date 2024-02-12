@@ -16,7 +16,7 @@ MARK_VAL_T(::Newtonsoft::Json::NullValueHandling);
 namespace Newtonsoft::Json {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11838))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11736))
 // CS Name: ::Newtonsoft.Json::NullValueHandling
 struct CORDL_TYPE NullValueHandling {
 public:

@@ -17,18 +17,18 @@ MARK_REF_PTR_T(::UnityEngine::UI::PositionAsUV1);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13143))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13147))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13041))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13045))
 // CS Name: ::UnityEngine.UI::PositionAsUV1*
 class CORDL_TYPE PositionAsUV1 : public ::UnityEngine::UI::BaseMeshEffect {
 public:
   // Declarations
   static inline ::UnityEngine::UI::PositionAsUV1* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d9158c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2daf974, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method ModifyMesh, addr 0x2d91594, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method ModifyMesh, addr 0x2daf97c, size 0xbc, virtual true, abstract: false, final false
   inline void ModifyMesh(::UnityEngine::UI::VertexHelper* vh);
 
   // Ctor Parameters [CppParam { name: "", ty: "PositionAsUV1", modifiers: "&&", def_value: None }]

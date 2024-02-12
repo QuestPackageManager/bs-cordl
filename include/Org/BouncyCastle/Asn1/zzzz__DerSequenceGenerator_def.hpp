@@ -41,21 +41,21 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::DerSequenceGenerator* New_ctor(::System::IO::Stream* outStream);
 
-  /// @brief Method .ctor, addr 0x11c3d18, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11f0ba8, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* outStream);
 
   static inline ::Org::BouncyCastle::Asn1::DerSequenceGenerator* New_ctor(::System::IO::Stream* outStream, int32_t tagNo, bool isExplicit);
 
-  /// @brief Method .ctor, addr 0x11c3d98, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11f0c28, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* outStream, int32_t tagNo, bool isExplicit);
 
-  /// @brief Method AddObject, addr 0x11c3e3c, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method AddObject, addr 0x11f0ccc, size 0x80, virtual true, abstract: false, final false
   inline void AddObject(::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
-  /// @brief Method GetRawOutputStream, addr 0x11c3ebc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetRawOutputStream, addr 0x11f0d4c, size 0x8, virtual true, abstract: false, final false
   inline ::System::IO::Stream* GetRawOutputStream();
 
-  /// @brief Method Close, addr 0x11c3ec4, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x11f0d54, size 0x38, virtual true, abstract: false, final false
   inline void Close();
 
   // Ctor Parameters [CppParam { name: "", ty: "DerSequenceGenerator", modifiers: "&&", def_value: None }]

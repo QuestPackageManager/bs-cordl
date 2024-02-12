@@ -55,19 +55,19 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DigitallySigned* New_ctor(::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* algorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
 
-  /// @brief Method .ctor, addr 0xf688fc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf9278c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* algorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
 
-  /// @brief Method get_Algorithm, addr 0xf68978, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Algorithm, addr 0xf92808, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* get_Algorithm();
 
-  /// @brief Method get_Signature, addr 0xf68980, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Signature, addr 0xf92810, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Signature();
 
-  /// @brief Method Encode, addr 0xf68988, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0xf92818, size 0x7c, virtual true, abstract: false, final false
   inline void Encode(::System::IO::Stream* output);
 
-  /// @brief Method Parse, addr 0xf5b62c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0xf854bc, size 0xdc, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Tls::DigitallySigned* Parse(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::System::IO::Stream* input);
 
   // Ctor Parameters [CppParam { name: "", ty: "DigitallySigned", modifiers: "&&", def_value: None }]

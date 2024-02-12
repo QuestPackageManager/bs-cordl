@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::System::Reflection::AssemblyFileVersionAttribute);
 namespace System::Reflection {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3451))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3447))
 // CS Name: ::System.Reflection::AssemblyFileVersionAttribute*
 class CORDL_TYPE AssemblyFileVersionAttribute : public ::System::Attribute {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::System::Reflection::AssemblyFileVersionAttribute* New_ctor(::StringW version);
 
-  /// @brief Method .ctor, addr 0x24e5f70, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25050c8, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::StringW version);
 
   // Ctor Parameters [CppParam { name: "", ty: "AssemblyFileVersionAttribute", modifiers: "&&", def_value: None }]

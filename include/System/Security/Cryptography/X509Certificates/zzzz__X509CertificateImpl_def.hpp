@@ -71,7 +71,7 @@ public:
   /// @brief Method get_IsValid, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsValid();
 
-  /// @brief Method ThrowIfContextInvalid, addr 0x2475e00, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ThrowIfContextInvalid, addr 0x2497e74, size 0x3c, virtual false, abstract: false, final false
   inline void ThrowIfContextInvalid();
 
   /// @brief Method Clone, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -95,7 +95,7 @@ public:
   /// @brief Method get_Thumbprint, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Thumbprint();
 
-  /// @brief Method GetHashCode, addr 0x2475ec4, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method GetHashCode, addr 0x2497f38, size 0x90, virtual true, abstract: false, final true
   inline int32_t GetHashCode();
 
   /// @brief Method get_KeyAlgorithm, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -122,21 +122,21 @@ public:
   /// @brief Method CopyWithPrivateKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* CopyWithPrivateKey(::System::Security::Cryptography::RSA* privateKey);
 
-  /// @brief Method Equals, addr 0x2475f54, size 0x180, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2497fc8, size 0x180, virtual true, abstract: false, final true
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Dispose, addr 0x24760d4, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2498148, size 0x70, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x2476144, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x24981b8, size 0x4, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Finalize, addr 0x2476148, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x24981bc, size 0xa4, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24761ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2498260, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "X509CertificateImpl", modifiers: "&&", def_value: None }]

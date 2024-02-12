@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_InstanceInputUIState);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9651))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8954))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9443))
 // CS Name: ::HoudiniEngineUnity::HEU_InstanceInputUIState*
 class CORDL_TYPE HEU_InstanceInputUIState : public ::UnityEngine::ScriptableObject {
 public:
@@ -58,15 +58,15 @@ public:
 
   constexpr void __cordl_internal_set__inputsPageIndexUI(int32_t value);
 
-  /// @brief Method CopyTo, addr 0x217246c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x2206d50, size 0x24, virtual false, abstract: false, final false
   inline void CopyTo(::HoudiniEngineUnity::HEU_InstanceInputUIState* dest);
 
-  /// @brief Method IsEquivalentTo, addr 0x2172490, size 0x1e4, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x2206d74, size 0x1e4, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_InstanceInputUIState* other);
 
   static inline ::HoudiniEngineUnity::HEU_InstanceInputUIState* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2172674, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2206f58, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_InstanceInputUIState", modifiers: "&&", def_value: None }]

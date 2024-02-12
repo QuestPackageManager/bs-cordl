@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::Endo::__EndoUtilities__MapPointCallback::*)(
     ::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*, ::Org::BouncyCastle::Math::EC::ECPoint*)>(&::Org::BouncyCastle::Math::EC::Endo::__EndoUtilities__MapPointCallback::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x10350e4;
+  constexpr static std::size_t addrs = 0x1061f74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -32,7 +32,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Math::EC::Endo::__EndoUtilities__MapPointCallback::*)(::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*)>(
     &::Org::BouncyCastle::Math::EC::Endo::__EndoUtilities__MapPointCallback::Precompute)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x1035178;
+  constexpr static std::size_t addrs = 0x1062008;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -48,7 +48,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Math::EC::Endo::EndoPreCompInfo*, ::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*)>(
     &::Org::BouncyCastle::Math::EC::Endo::__EndoUtilities__MapPointCallback::CheckExisting)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x1035370;
+  constexpr static std::size_t addrs = 0x1062200;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> (*)(
     ::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters*, ::Org::BouncyCastle::Math::BigInteger*)>(&::Org::BouncyCastle::Math::EC::Endo::EndoUtilities::DecomposeScalar)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x1034c88;
+  constexpr static std::size_t addrs = 0x1061b18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -146,7 +146,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Math::EC::ECPoint* (*)(::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*, ::Org::BouncyCastle::Math::EC::ECPoint*)>(
         &::Org::BouncyCastle::Math::EC::Endo::EndoUtilities::MapPoint)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x1034fbc;
+  constexpr static std::size_t addrs = 0x1061e4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -163,7 +163,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Math::BigInteger* (*)(::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*, int32_t)>(
         &::Org::BouncyCastle::Math::EC::Endo::EndoUtilities::CalculateB)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x1034ebc;
+  constexpr static std::size_t addrs = 0x1061d4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -180,7 +180,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::Endo::EndoUtilities::*)()>(
     &::Org::BouncyCastle::Math::EC::Endo::EndoUtilities::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1035170;
+  constexpr static std::size_t addrs = 0x1062000;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Endo::EndoUtilities*>::get(),

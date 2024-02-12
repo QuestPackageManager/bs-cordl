@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BadCutsMissionObjectiveChecker);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5098))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5086))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4451))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4439))
 // CS Name: ::BadCutsMissionObjectiveChecker*
 class CORDL_TYPE BadCutsMissionObjectiveChecker : public ::GlobalNamespace::SimpleValueMissionObjectiveChecker {
 public:
@@ -39,18 +39,18 @@ public:
 
   constexpr void __cordl_internal_set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value);
 
-  /// @brief Method Init, addr 0x23cb068, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x2388970, size 0x14c, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method OnDestroy, addr 0x23cb1f0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2388af8, size 0x98, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleNoteWasCut, addr 0x23cb288, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasCut, addr 0x2388b90, size 0x90, virtual false, abstract: false, final false
   inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
   static inline ::GlobalNamespace::BadCutsMissionObjectiveChecker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23cb454, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2388c5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BadCutsMissionObjectiveChecker", modifiers: "&&", def_value: None }]

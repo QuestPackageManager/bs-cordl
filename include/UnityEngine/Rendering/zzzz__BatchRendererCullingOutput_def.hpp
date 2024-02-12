@@ -30,8 +30,8 @@ MARK_VAL_T(::UnityEngine::Rendering::BatchRendererCullingOutput);
 // SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9977)), TypeDefinitionIndex(TypeDefinitionIndex(10245))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10366))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8706)), TypeDefinitionIndex(TypeDefinitionIndex(8989))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9133))
 // CS Name: ::UnityEngine.Rendering::BatchRendererCullingOutput
 struct CORDL_TYPE BatchRendererCullingOutput {
 public:

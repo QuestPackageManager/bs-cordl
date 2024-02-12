@@ -7,17 +7,19 @@
 #include "Oculus/Platform/Models/zzzz__LaunchUnblockFlowResult_def.hpp"
 #include "Oculus/Platform/Models/zzzz__OrgScopedID_def.hpp"
 #include "Oculus/Platform/Models/zzzz__SdkAccountList_def.hpp"
+#include "Oculus/Platform/Models/zzzz__UserAndRoomList_def.hpp"
 #include "Oculus/Platform/Models/zzzz__UserCapabilityList_def.hpp"
 #include "Oculus/Platform/Models/zzzz__UserList_def.hpp"
 #include "Oculus/Platform/Models/zzzz__UserProof_def.hpp"
 #include "Oculus/Platform/Models/zzzz__User_def.hpp"
 #include "Oculus/Platform/zzzz__Request_1_def.hpp"
+#include "Oculus/Platform/zzzz__UserOptions_def.hpp"
 //  Writing Method size for method: ::Oculus::Platform::Users.GetLoggedInUserLocale
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::Oculus::Platform::Users::GetLoggedInUserLocale)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x26f8d98;
+  constexpr static std::size_t addrs = 0x2727d64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Users*>::get(), "GetLoggedInUserLocale",
@@ -30,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::User*>* (*)(uint64_t)>(&::Oculus::Platform::Users::Get)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x26cc8d4;
+  constexpr static std::size_t addrs = 0x2727e38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -44,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::StringW>* (*)()>(&::Oculus::Platform::Users::GetAccessToken)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x26f8e6c;
+  constexpr static std::size_t addrs = 0x2727f98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Users*>::get(), "GetAccessToken",
@@ -58,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::BlockedUserList*>* (*)()>(
     &::Oculus::Platform::Users::GetBlockedUsers)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x26f8fc4;
+  constexpr static std::size_t addrs = 0x27280f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Users*>::get(), "GetBlockedUsers",
@@ -72,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::User*>* (*)()>(
     &::Oculus::Platform::Users::GetLoggedInUser)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x26cc3e4;
+  constexpr static std::size_t addrs = 0x2728248;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Users*>::get(), "GetLoggedInUser",
@@ -86,11 +88,40 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::UserList*>* (*)()>(
     &::Oculus::Platform::Users::GetLoggedInUserFriends)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x26f911c;
+  constexpr static std::size_t addrs = 0x27283a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Users*>::get(), "GetLoggedInUserFriends",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::Users.GetLoggedInUserFriendsAndRooms
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::UserAndRoomList*>* (*)()>(
+    &::Oculus::Platform::Users::GetLoggedInUserFriendsAndRooms)> {
+  constexpr static std::size_t size = 0x158;
+  constexpr static std::size_t addrs = 0x27284f8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Users*>::get(),
+                                                                               "GetLoggedInUserFriendsAndRooms", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::Users.GetLoggedInUserRecentlyMetUsersAndRooms
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::UserAndRoomList*>* (*)(::Oculus::Platform::UserOptions*)>(
+    &::Oculus::Platform::Users::GetLoggedInUserRecentlyMetUsersAndRooms)> {
+  constexpr static std::size_t size = 0x174;
+  constexpr static std::size_t addrs = 0x2728650;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Users*>::get(), "GetLoggedInUserRecentlyMetUsersAndRooms", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::UserOptions*>::get() })));
     return ___internal_method;
   }
 };
@@ -100,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::OrgScopedID*>* (*)(uint64_t)>(
     &::Oculus::Platform::Users::GetOrgScopedID)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x26f9274;
+  constexpr static std::size_t addrs = 0x27287c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -115,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::SdkAccountList*>* (*)()>(
     &::Oculus::Platform::Users::GetSdkAccounts)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x26f93d4;
+  constexpr static std::size_t addrs = 0x2728924;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Users*>::get(), "GetSdkAccounts",
@@ -129,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::UserProof*>* (*)()>(
     &::Oculus::Platform::Users::GetUserProof)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x26f952c;
+  constexpr static std::size_t addrs = 0x2728a7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Users*>::get(), "GetUserProof",
@@ -143,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::LaunchBlockFlowResult*>* (*)(uint64_t)>(
     &::Oculus::Platform::Users::LaunchBlockFlow)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x26f9684;
+  constexpr static std::size_t addrs = 0x2728bd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -158,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::LaunchFriendRequestFlowResult*>* (*)(uint64_t)>(
     &::Oculus::Platform::Users::LaunchFriendRequestFlow)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x26f97e4;
+  constexpr static std::size_t addrs = 0x2728d34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -173,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::LaunchUnblockFlowResult*>* (*)(uint64_t)>(
     &::Oculus::Platform::Users::LaunchUnblockFlow)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x26f9944;
+  constexpr static std::size_t addrs = 0x2728e94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -188,12 +219,27 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::Oculus::Platform::Request_1<::Oculus::Platform::Models::BlockedUserList*>* (*)(::Oculus::Platform::Models::BlockedUserList*)>(&::Oculus::Platform::Users::GetNextBlockedUserListPage)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x26f9aa4;
+  constexpr static std::size_t addrs = 0x2728ff4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Users*>::get(), "GetNextBlockedUserListPage", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::Models::BlockedUserList*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::Users.GetNextUserAndRoomListPage
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
+    ::Oculus::Platform::Request_1<::Oculus::Platform::Models::UserAndRoomList*>* (*)(::Oculus::Platform::Models::UserAndRoomList*)>(&::Oculus::Platform::Users::GetNextUserAndRoomListPage)> {
+  constexpr static std::size_t size = 0x1dc;
+  constexpr static std::size_t addrs = 0x27291d0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Users*>::get(), "GetNextUserAndRoomListPage", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::Models::UserAndRoomList*>::get() })));
     return ___internal_method;
   }
 };
@@ -203,7 +249,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::UserList*>* (*)(::Oculus::Platform::Models::UserList*)>(
     &::Oculus::Platform::Users::GetNextUserListPage)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x26f9c80;
+  constexpr static std::size_t addrs = 0x27293ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -218,7 +264,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::Oculus::Platform::Request_1<::Oculus::Platform::Models::UserCapabilityList*>* (*)(::Oculus::Platform::Models::UserCapabilityList*)>(&::Oculus::Platform::Users::GetNextUserCapabilityListPage)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x26f9e5c;
+  constexpr static std::size_t addrs = 0x2729588;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -257,6 +303,18 @@ inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::UserList*>* Ocu
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Users*>::get(), "GetLoggedInUserFriends",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Request_1<::Oculus::Platform::Models::UserList*>*, false>(nullptr, ___internal_method);
+}
+inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::UserAndRoomList*>* Oculus::Platform::Users::GetLoggedInUserFriendsAndRooms() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Users*>::get(),
+                                                                             "GetLoggedInUserFriendsAndRooms", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Request_1<::Oculus::Platform::Models::UserAndRoomList*>*, false>(nullptr, ___internal_method);
+}
+/// @param userOptions: ::Oculus::Platform::UserOptions* (default: nullptr)
+inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::UserAndRoomList*>* Oculus::Platform::Users::GetLoggedInUserRecentlyMetUsersAndRooms(::Oculus::Platform::UserOptions* userOptions) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Users*>::get(), "GetLoggedInUserRecentlyMetUsersAndRooms", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::UserOptions*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Request_1<::Oculus::Platform::Models::UserAndRoomList*>*, false>(nullptr, ___internal_method, userOptions);
 }
 inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::OrgScopedID*>* Oculus::Platform::Users::GetOrgScopedID(uint64_t userID) {
   static auto* ___internal_method =
@@ -297,6 +355,12 @@ inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::BlockedUserList
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Users*>::get(), "GetNextBlockedUserListPage", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::Models::BlockedUserList*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Request_1<::Oculus::Platform::Models::BlockedUserList*>*, false>(nullptr, ___internal_method, list);
+}
+inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::UserAndRoomList*>* Oculus::Platform::Users::GetNextUserAndRoomListPage(::Oculus::Platform::Models::UserAndRoomList* list) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Users*>::get(), "GetNextUserAndRoomListPage", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::Models::UserAndRoomList*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Request_1<::Oculus::Platform::Models::UserAndRoomList*>*, false>(nullptr, ___internal_method, list);
 }
 inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::UserList*>* Oculus::Platform::Users::GetNextUserListPage(::Oculus::Platform::Models::UserList* list) {
   static auto* ___internal_method = THROW_UNLESS(

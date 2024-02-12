@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::ITextInputField);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7095))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6354))
 // CS Name: ::UnityEngine.UIElements::ITextInputField*
 class CORDL_TYPE ITextInputField {
 public:

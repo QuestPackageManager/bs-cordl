@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::JetBrains::Annotations::PublicAPIAttribute);
 namespace JetBrains::Annotations {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15752))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15902))
 // CS Name: ::JetBrains.Annotations::PublicAPIAttribute*
 class CORDL_TYPE PublicAPIAttribute : public ::System::Attribute {
 public:
@@ -34,18 +34,18 @@ public:
 
   static inline ::JetBrains::Annotations::PublicAPIAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2eba2dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ed6424, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::JetBrains::Annotations::PublicAPIAttribute* New_ctor(::StringW comment);
 
-  /// @brief Method .ctor, addr 0x2eba2e4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ed642c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW comment);
 
-  /// @brief Method get_Comment, addr 0x2eba30c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Comment, addr 0x2ed6454, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Comment();
 
-  /// @brief Method set_Comment, addr 0x2eba314, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Comment, addr 0x2ed645c, size 0x8, virtual false, abstract: false, final false
   inline void set_Comment(::StringW value);
 
   // Ctor Parameters [CppParam { name: "", ty: "PublicAPIAttribute", modifiers: "&&", def_value: None }]

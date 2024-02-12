@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::NetSyncSessionsChangedNotification);
 namespace Oculus::Platform::Models {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13461))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13409))
 // CS Name: ::Oculus.Platform.Models::NetSyncSessionsChangedNotification*
 class CORDL_TYPE NetSyncSessionsChangedNotification : public ::System::Object {
 public:
@@ -44,7 +44,7 @@ public:
 
   static inline ::Oculus::Platform::Models::NetSyncSessionsChangedNotification* New_ctor(void* o);
 
-  /// @brief Method .ctor, addr 0x2707890, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x273b89c, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "NetSyncSessionsChangedNotification", modifiers: "&&", def_value: None }]

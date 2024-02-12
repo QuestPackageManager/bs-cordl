@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MaterialPropertyBlockColorSetter);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 73, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14565))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8995))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14459))
 // CS Name: ::MaterialPropertyBlockColorSetter*
 class CORDL_TYPE MaterialPropertyBlockColorSetter : public ::UnityEngine::MonoBehaviour {
 public:
@@ -107,33 +107,33 @@ public:
 
   constexpr void __cordl_internal_set__isInitialized(bool value);
 
-  /// @brief Method get_color, addr 0x2114de0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x21a9588, size 0x2c, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method get_materialPropertyBlockController, addr 0x2114e0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_materialPropertyBlockController, addr 0x21a95b4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> get_materialPropertyBlockController();
 
-  /// @brief Method set_materialPropertyBlockController, addr 0x2114e14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_materialPropertyBlockController, addr 0x21a95bc, size 0x8, virtual false, abstract: false, final false
   inline void set_materialPropertyBlockController(::GlobalNamespace::MaterialPropertyBlockController* value);
 
-  /// @brief Method Awake, addr 0x2114e1c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x21a95c4, size 0x30, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method InitIfNeeded, addr 0x2114e4c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method InitIfNeeded, addr 0x21a95f4, size 0x30, virtual false, abstract: false, final false
   inline void InitIfNeeded();
 
-  /// @brief Method SetColor, addr 0x2114e7c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method SetColor, addr 0x21a9624, size 0xac, virtual false, abstract: false, final false
   inline void SetColor(::UnityEngine::Color color);
 
-  /// @brief Method OnValidate, addr 0x2114f28, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x21a96d0, size 0x38, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method AddNecessaryComponents, addr 0x2114f60, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method AddNecessaryComponents, addr 0x21a9708, size 0xf0, virtual false, abstract: false, final false
   inline void AddNecessaryComponents();
 
   static inline ::GlobalNamespace::MaterialPropertyBlockColorSetter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2115050, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21a97f8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockColorSetter", modifiers: "&&", def_value: None }]

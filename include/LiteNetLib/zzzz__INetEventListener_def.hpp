@@ -39,7 +39,7 @@ MARK_REF_PTR_T(::LiteNetLib::INetEventListener);
 namespace LiteNetLib {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14133))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14146))
 // CS Name: ::LiteNetLib::INetEventListener*
 class CORDL_TYPE INetEventListener {
 public:

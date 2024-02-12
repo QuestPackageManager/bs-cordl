@@ -16,24 +16,24 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Utilities::CSharpCodeHelpers);
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6663))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5922))
 // CS Name: ::UnityEngine.InputSystem.Utilities::CSharpCodeHelpers*
 class CORDL_TYPE CSharpCodeHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsProperIdentifier, addr 0x2b0f1b4, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method IsProperIdentifier, addr 0x2b0ed20, size 0x108, virtual false, abstract: false, final false
   static inline bool IsProperIdentifier(::StringW name);
 
-  /// @brief Method IsEmptyOrProperIdentifier, addr 0x2b0f2bc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method IsEmptyOrProperIdentifier, addr 0x2b0ee28, size 0x2c, virtual false, abstract: false, final false
   static inline bool IsEmptyOrProperIdentifier(::StringW name);
 
-  /// @brief Method IsEmptyOrProperNamespaceName, addr 0x2b0f2e8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method IsEmptyOrProperNamespaceName, addr 0x2b0ee54, size 0xd8, virtual false, abstract: false, final false
   static inline bool IsEmptyOrProperNamespaceName(::StringW name);
 
-  /// @brief Method MakeIdentifier, addr 0x2b0f3c0, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method MakeIdentifier, addr 0x2b0ef2c, size 0x244, virtual false, abstract: false, final false
   static inline ::StringW MakeIdentifier(::StringW name, ::StringW suffix);
 
-  /// @brief Method MakeTypeName, addr 0x2b0f604, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method MakeTypeName, addr 0x2b0f170, size 0x10c, virtual false, abstract: false, final false
   static inline ::StringW MakeTypeName(::StringW name, ::StringW suffix);
 
   // Ctor Parameters [CppParam { name: "", ty: "CSharpCodeHelpers", modifiers: "&&", def_value: None }]

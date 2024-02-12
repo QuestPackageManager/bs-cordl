@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::CannotStartGameReason);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12688))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12586))
 // CS Name: ::CannotStartGameReason
 struct CORDL_TYPE CannotStartGameReason {
 public:

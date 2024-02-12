@@ -41,23 +41,23 @@ public:
   // Declarations
   static inline ::System::Security::AccessControl::DiscretionaryAcl* New_ctor(bool isContainer, bool isDS, int32_t capacity);
 
-  /// @brief Method .ctor, addr 0x2483248, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24a52bc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(bool isContainer, bool isDS, int32_t capacity);
 
-  /// @brief Method AddAccess, addr 0x2483254, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method AddAccess, addr 0x24a52c8, size 0x60, virtual false, abstract: false, final false
   inline void AddAccess(::System::Security::AccessControl::AccessControlType accessType, ::System::Security::Principal::SecurityIdentifier* sid, int32_t accessMask,
                         ::System::Security::AccessControl::InheritanceFlags inheritanceFlags, ::System::Security::AccessControl::PropagationFlags propagationFlags);
 
-  /// @brief Method ApplyCanonicalSortToExplicitAces, addr 0x2483428, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method ApplyCanonicalSortToExplicitAces, addr 0x24a549c, size 0x48, virtual true, abstract: false, final false
   inline void ApplyCanonicalSortToExplicitAces();
 
-  /// @brief Method GetAceInsertPosition, addr 0x2483470, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method GetAceInsertPosition, addr 0x24a54e4, size 0x10, virtual true, abstract: false, final false
   inline int32_t GetAceInsertPosition(::System::Security::AccessControl::AceQualifier aceQualifier);
 
-  /// @brief Method GetAceQualifier, addr 0x24833c8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetAceQualifier, addr 0x24a543c, size 0x60, virtual false, abstract: false, final false
   static inline ::System::Security::AccessControl::AceQualifier GetAceQualifier(::System::Security::AccessControl::AccessControlType accessType);
 
-  /// @brief Method IsAceMeaningless, addr 0x2483480, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method IsAceMeaningless, addr 0x24a54f4, size 0xf8, virtual true, abstract: false, final false
   inline bool IsAceMeaningless(::System::Security::AccessControl::GenericAce* ace);
 
   // Ctor Parameters [CppParam { name: "", ty: "DiscretionaryAcl", modifiers: "&&", def_value: None }]

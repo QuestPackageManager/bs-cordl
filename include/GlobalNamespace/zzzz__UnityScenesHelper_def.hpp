@@ -18,12 +18,12 @@ MARK_REF_PTR_T(::GlobalNamespace::UnityScenesHelper);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15860))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15613))
 // CS Name: ::UnityScenesHelper*
 class CORDL_TYPE UnityScenesHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SetActiveRootObjectsInScene, addr 0xe28724, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method SetActiveRootObjectsInScene, addr 0xe529d0, size 0x1c8, virtual false, abstract: false, final false
   static inline void SetActiveRootObjectsInScene(::UnityEngine::SceneManagement::Scene scene, bool active);
 
   // Ctor Parameters [CppParam { name: "", ty: "UnityScenesHelper", modifiers: "&&", def_value: None }]

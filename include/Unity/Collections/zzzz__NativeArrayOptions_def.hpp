@@ -16,7 +16,7 @@ MARK_VAL_T(::Unity::Collections::NativeArrayOptions);
 namespace Unity::Collections {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9997))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8728))
 // CS Name: ::Unity.Collections::NativeArrayOptions
 struct CORDL_TYPE NativeArrayOptions {
 public:

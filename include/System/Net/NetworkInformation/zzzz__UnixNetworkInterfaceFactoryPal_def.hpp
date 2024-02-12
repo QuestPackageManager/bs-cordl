@@ -18,12 +18,12 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::UnixNetworkInterfaceFactoryPal
 namespace System::Net::NetworkInformation {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9293))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7303))
 // CS Name: ::System.Net.NetworkInformation::UnixNetworkInterfaceFactoryPal*
 class CORDL_TYPE UnixNetworkInterfaceFactoryPal : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x29f02ec, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x29f4d90, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::Net::NetworkInformation::NetworkInterfaceFactory* Create();
 
   // Ctor Parameters [CppParam { name: "", ty: "UnixNetworkInterfaceFactoryPal", modifiers: "&&", def_value: None }]

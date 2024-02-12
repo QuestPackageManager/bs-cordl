@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::GlobalNamespace::RandomValueToShader);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14495))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15602))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14389))
 // CS Name: ::RandomValueToShader*
 class CORDL_TYPE RandomValueToShader : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -37,12 +37,12 @@ public:
 
   static inline int32_t getStaticF__randomValueID();
 
-  /// @brief Method SetRandomValueToShaders, addr 0x210b188, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method SetRandomValueToShaders, addr 0x219f930, size 0x8c, virtual false, abstract: false, final false
   inline void SetRandomValueToShaders();
 
   static inline ::GlobalNamespace::RandomValueToShader* New_ctor();
 
-  /// @brief Method .ctor, addr 0x210b21c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x219f9c4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RandomValueToShader", modifiers: "&&", def_value: None }]

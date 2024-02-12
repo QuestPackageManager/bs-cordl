@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::OVRTextureFormat);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7562))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7639))
 // CS Name: ::OVRTextureFormat
 struct CORDL_TYPE OVRTextureFormat {
 public:

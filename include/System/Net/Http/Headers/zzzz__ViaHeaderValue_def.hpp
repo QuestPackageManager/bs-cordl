@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::ViaHeaderValue);
 namespace System::Net::Http::Headers {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14710))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14715))
 // CS Name: ::System.Net.Http.Headers::ViaHeaderValue*
 class CORDL_TYPE ViaHeaderValue : public ::System::Object {
 public:
@@ -90,49 +90,49 @@ public:
 
   static inline ::System::Net::Http::Headers::ViaHeaderValue* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28425e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2846c4c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Comment, addr 0x28425ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Comment, addr 0x2846c54, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Comment();
 
-  /// @brief Method set_Comment, addr 0x28425f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Comment, addr 0x2846c5c, size 0x8, virtual false, abstract: false, final false
   inline void set_Comment(::StringW value);
 
-  /// @brief Method get_ProtocolName, addr 0x28425fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ProtocolName, addr 0x2846c64, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ProtocolName();
 
-  /// @brief Method set_ProtocolName, addr 0x2842604, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ProtocolName, addr 0x2846c6c, size 0x8, virtual false, abstract: false, final false
   inline void set_ProtocolName(::StringW value);
 
-  /// @brief Method get_ProtocolVersion, addr 0x284260c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ProtocolVersion, addr 0x2846c74, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ProtocolVersion();
 
-  /// @brief Method set_ProtocolVersion, addr 0x2842614, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ProtocolVersion, addr 0x2846c7c, size 0x8, virtual false, abstract: false, final false
   inline void set_ProtocolVersion(::StringW value);
 
-  /// @brief Method get_ReceivedBy, addr 0x284261c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ReceivedBy, addr 0x2846c84, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ReceivedBy();
 
-  /// @brief Method set_ReceivedBy, addr 0x2842624, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ReceivedBy, addr 0x2846c8c, size 0x8, virtual false, abstract: false, final false
   inline void set_ReceivedBy(::StringW value);
 
-  /// @brief Method System.ICloneable.Clone, addr 0x284262c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.ICloneable.Clone, addr 0x2846c94, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method Equals, addr 0x2842634, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2846c9c, size 0xe8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x284271c, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2846d84, size 0xcc, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method TryParse, addr 0x28427e8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x2846e50, size 0xb0, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, int32_t minimalCount, ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::ViaHeaderValue*>*> result);
 
-  /// @brief Method TryParseElement, addr 0x2842898, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method TryParseElement, addr 0x2846f00, size 0x254, virtual false, abstract: false, final false
   static inline bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ByRef<::System::Net::Http::Headers::ViaHeaderValue*> parsedValue, ByRef<::System::Net::Http::Headers::Token> t);
 
-  /// @brief Method ToString, addr 0x2842aec, size 0x1b8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2847154, size 0x1b8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "ViaHeaderValue", modifiers: "&&", def_value: None }]

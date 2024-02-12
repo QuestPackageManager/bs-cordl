@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::EVRState);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8590))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8534))
 // CS Name: ::OVR.OpenVR::EVRState
 struct CORDL_TYPE EVRState {
 public:

@@ -10,19 +10,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SonyBeatmapDataAssetFileModel)
 namespace GlobalNamespace {
+class BeatmapLevel;
+}
+namespace GlobalNamespace {
 struct GetAssetBundleFileResult;
 }
 namespace GlobalNamespace {
 class IBeatmapDataAssetFileModel;
 }
 namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
-namespace GlobalNamespace {
 struct LevelDataAssetDownloadUpdate;
 }
 namespace GlobalNamespace {
-struct __SonyBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__3;
+struct __SonyBeatmapDataAssetFileModel___GetAssetBundleFileForBeatmapLevelAsync_d__3;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct AsyncTaskMethodBuilder_1;
@@ -47,19 +47,19 @@ namespace GlobalNamespace {
 class SonyBeatmapDataAssetFileModel;
 }
 namespace GlobalNamespace {
-struct __SonyBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__3;
+struct __SonyBeatmapDataAssetFileModel___GetAssetBundleFileForBeatmapLevelAsync_d__3;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SonyBeatmapDataAssetFileModel);
-MARK_VAL_T(::GlobalNamespace::__SonyBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__3);
-// Type: ::<GetAssetBundleFileForPreviewLevelAsync>d__3
+MARK_VAL_T(::GlobalNamespace::__SonyBeatmapDataAssetFileModel___GetAssetBundleFileForBeatmapLevelAsync_d__3);
+// Type: ::<GetAssetBundleFileForBeatmapLevelAsync>d__3
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(4413)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 882 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 882 })] Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(4580)) CS Name: ::SonyBeatmapDataAssetFileModel::<GetAssetBundleFileForPreviewLevelAsync>d__3
-struct CORDL_TYPE __SonyBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__3 {
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3398)), TypeDefinitionIndex(TypeDefinitionIndex(10836)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 886 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3398), inst: 886 })] Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(11007)) CS Name: ::SonyBeatmapDataAssetFileModel::<GetAssetBundleFileForBeatmapLevelAsync>d__3
+struct CORDL_TYPE __SonyBeatmapDataAssetFileModel___GetAssetBundleFileForBeatmapLevelAsync_d__3 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -68,22 +68,22 @@ public:
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x2369358, size 0x238, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x12a9930, size 0x25c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2369590, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x12a9b8c, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::GetAssetBundleFileResult>", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::GetAssetBundleFileResult>", modifiers: "", def_value: None }]
-  constexpr __SonyBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__3(
+  constexpr __SonyBeatmapDataAssetFileModel___GetAssetBundleFileForBeatmapLevelAsync_d__3(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::GetAssetBundleFileResult> __t__builder,
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::GetAssetBundleFileResult> __u__1) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __SonyBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__3();
+  constexpr __SonyBeatmapDataAssetFileModel___GetAssetBundleFileForBeatmapLevelAsync_d__3();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -100,13 +100,13 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SonyBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__3, 0x28>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SonyBeatmapDataAssetFileModel___GetAssetBundleFileForBeatmapLevelAsync_d__3, 0x28>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__3, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__SonyBeatmapDataAssetFileModel___GetAssetBundleFileForBeatmapLevelAsync_d__3, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__3, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__SonyBeatmapDataAssetFileModel___GetAssetBundleFileForBeatmapLevelAsync_d__3, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__3, __u__1) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__SonyBeatmapDataAssetFileModel___GetAssetBundleFileForBeatmapLevelAsync_d__3, __u__1) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 // Type: ::SonyBeatmapDataAssetFileModel
@@ -114,12 +114,12 @@ static_assert(offsetof(::GlobalNamespace::__SonyBeatmapDataAssetFileModel___GetA
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4581))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11008))
 // CS Name: ::SonyBeatmapDataAssetFileModel*
 class CORDL_TYPE SonyBeatmapDataAssetFileModel : public ::System::Object {
 public:
   // Declarations
-  using _GetAssetBundleFileForPreviewLevelAsync_d__3 = ::GlobalNamespace::__SonyBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__3;
+  using _GetAssetBundleFileForBeatmapLevelAsync_d__3 = ::GlobalNamespace::__SonyBeatmapDataAssetFileModel___GetAssetBundleFileForBeatmapLevelAsync_d__3;
 
   /// @brief Field levelDataAssetDownloadUpdateEvent, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_levelDataAssetDownloadUpdateEvent,
@@ -137,23 +137,23 @@ public:
 
   constexpr void __cordl_internal_set_levelDataAssetDownloadUpdateEvent(::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>* value);
 
-  /// @brief Method add_levelDataAssetDownloadUpdateEvent, addr 0x236909c, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_levelDataAssetDownloadUpdateEvent, addr 0x12a9674, size 0xb0, virtual true, abstract: false, final true
   inline void add_levelDataAssetDownloadUpdateEvent(::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>* value);
 
-  /// @brief Method remove_levelDataAssetDownloadUpdateEvent, addr 0x236914c, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_levelDataAssetDownloadUpdateEvent, addr 0x12a9724, size 0xb0, virtual true, abstract: false, final true
   inline void remove_levelDataAssetDownloadUpdateEvent(::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>* value);
 
-  /// @brief Method GetAssetBundleFileForPreviewLevelAsync, addr 0x23691fc, size 0xec, virtual true, abstract: false, final true
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::GetAssetBundleFileResult>* GetAssetBundleFileForPreviewLevelAsync(::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel,
+  /// @brief Method GetAssetBundleFileForBeatmapLevelAsync, addr 0x12a97d4, size 0xec, virtual true, abstract: false, final true
+  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::GetAssetBundleFileResult>* GetAssetBundleFileForBeatmapLevelAsync(::GlobalNamespace::BeatmapLevel* beatmapLevel,
                                                                                                                                  ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method TryDeleteAssetBundleFileForPreviewLevelAsync, addr 0x23692e8, size 0x68, virtual true, abstract: false, final true
-  inline ::System::Threading::Tasks::Task_1<bool>* TryDeleteAssetBundleFileForPreviewLevelAsync(::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel,
+  /// @brief Method TryDeleteAssetBundleFileForBeatmapLevelAsync, addr 0x12a98c0, size 0x68, virtual true, abstract: false, final true
+  inline ::System::Threading::Tasks::Task_1<bool>* TryDeleteAssetBundleFileForBeatmapLevelAsync(::GlobalNamespace::BeatmapLevel* beatmapLevel,
                                                                                                 ::System::Threading::CancellationToken cancellationToken);
 
   static inline ::GlobalNamespace::SonyBeatmapDataAssetFileModel* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2369350, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12a9928, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SonyBeatmapDataAssetFileModel", modifiers: "&&", def_value: None }]
@@ -183,5 +183,5 @@ static_assert(offsetof(::GlobalNamespace::SonyBeatmapDataAssetFileModel, ___leve
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SonyBeatmapDataAssetFileModel);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SonyBeatmapDataAssetFileModel*, "", "SonyBeatmapDataAssetFileModel");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__SonyBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__3, "",
-                       "SonyBeatmapDataAssetFileModel/<GetAssetBundleFileForPreviewLevelAsync>d__3");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__SonyBeatmapDataAssetFileModel___GetAssetBundleFileForBeatmapLevelAsync_d__3, "",
+                       "SonyBeatmapDataAssetFileModel/<GetAssetBundleFileForBeatmapLevelAsync>d__3");

@@ -47,8 +47,8 @@ MARK_REF_PTR_T(::GlobalNamespace::EditColorSchemeController);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5413))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4716))
 // CS Name: ::EditColorSchemeController*
 class CORDL_TYPE EditColorSchemeController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -128,45 +128,45 @@ public:
 
   constexpr void __cordl_internal_set__buttonBinder(::HMUI::ButtonBinder* value);
 
-  /// @brief Method add_didFinishEvent, addr 0x22760ec, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x23d279c, size 0x9c, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x2276474, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x23d2b24, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action* value);
 
-  /// @brief Method add_didChangeColorSchemeEvent, addr 0x2276188, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didChangeColorSchemeEvent, addr 0x23d2838, size 0xb0, virtual false, abstract: false, final false
   inline void add_didChangeColorSchemeEvent(::System::Action_1<::GlobalNamespace::ColorScheme*>* value);
 
-  /// @brief Method remove_didChangeColorSchemeEvent, addr 0x2276510, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didChangeColorSchemeEvent, addr 0x23d2bc0, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didChangeColorSchemeEvent(::System::Action_1<::GlobalNamespace::ColorScheme*>* value);
 
-  /// @brief Method SetColorScheme, addr 0x2276c00, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetColorScheme, addr 0x23d32b8, size 0x1c, virtual false, abstract: false, final false
   inline void SetColorScheme(::GlobalNamespace::ColorScheme* colorScheme);
 
-  /// @brief Method Start, addr 0x2276cbc, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x23d3378, size 0x288, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy, addr 0x2276f4c, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x23d3600, size 0x1dc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleColorSchemeColorsToggleGroupSelectedColorDidChange, addr 0x2277124, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method HandleColorSchemeColorsToggleGroupSelectedColorDidChange, addr 0x23d37dc, size 0x80, virtual false, abstract: false, final false
   inline void HandleColorSchemeColorsToggleGroupSelectedColorDidChange(::UnityEngine::Color color);
 
-  /// @brief Method HandleRGBPanelControllerColorDidChange, addr 0x22771a4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method HandleRGBPanelControllerColorDidChange, addr 0x23d385c, size 0xd4, virtual false, abstract: false, final false
   inline void HandleRGBPanelControllerColorDidChange(::UnityEngine::Color color, ::GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
 
-  /// @brief Method HandleHSVPanelControllerColorDidChange, addr 0x2277278, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method HandleHSVPanelControllerColorDidChange, addr 0x23d3930, size 0xd4, virtual false, abstract: false, final false
   inline void HandleHSVPanelControllerColorDidChange(::UnityEngine::Color color, ::GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
 
-  /// @brief Method HandlePreviousColorPanelControllerColorWasSelected, addr 0x227734c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method HandlePreviousColorPanelControllerColorWasSelected, addr 0x23d3a04, size 0xbc, virtual false, abstract: false, final false
   inline void HandlePreviousColorPanelControllerColorWasSelected(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::EditColorSchemeController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2277408, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d3ac0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Start>b__13_0, addr 0x2277410, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__13_0, addr 0x23d3ac8, size 0x1c, virtual false, abstract: false, final false
   inline void _Start_b__13_0();
 
   // Ctor Parameters [CppParam { name: "", ty: "EditColorSchemeController", modifiers: "&&", def_value: None }]

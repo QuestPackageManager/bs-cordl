@@ -45,19 +45,19 @@ public:
 
   static inline ::System::MarshalByRefObject* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25f3d10, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2617c28, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ObjectIdentity, addr 0x25fa454, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectIdentity, addr 0x261e35c, size 0x40, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::ServerIdentity* get_ObjectIdentity();
 
-  /// @brief Method set_ObjectIdentity, addr 0x25fa494, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method set_ObjectIdentity, addr 0x261e39c, size 0x40, virtual false, abstract: false, final false
   inline void set_ObjectIdentity(::System::Runtime::Remoting::ServerIdentity* value);
 
-  /// @brief Method CreateObjRef, addr 0x25fa4d4, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method CreateObjRef, addr 0x261e3dc, size 0x40, virtual true, abstract: false, final false
   inline ::System::Runtime::Remoting::ObjRef* CreateObjRef(::System::Type* requestedType);
 
-  /// @brief Method InitializeLifetimeService, addr 0x25fa514, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method InitializeLifetimeService, addr 0x261e41c, size 0x40, virtual true, abstract: false, final false
   inline ::System::Object* InitializeLifetimeService();
 
   // Ctor Parameters [CppParam { name: "", ty: "MarshalByRefObject", modifiers: "&&", def_value: None }]

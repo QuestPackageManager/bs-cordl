@@ -26,10 +26,10 @@ public:
   // Declarations
   static inline ::System::Threading::WaitCallback* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x26187fc, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263d704, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x261a4ac, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x263f628, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* state);
 
   // Ctor Parameters [CppParam { name: "", ty: "WaitCallback", modifiers: "&&", def_value: None }]

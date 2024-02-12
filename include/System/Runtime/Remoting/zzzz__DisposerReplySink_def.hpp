@@ -58,13 +58,13 @@ public:
 
   static inline ::System::Runtime::Remoting::DisposerReplySink* New_ctor(::System::Runtime::Remoting::Messaging::IMessageSink* next, ::System::IDisposable* disposable);
 
-  /// @brief Method .ctor, addr 0x249435c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24b63d0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::IMessageSink* next, ::System::IDisposable* disposable);
 
-  /// @brief Method SyncProcessMessage, addr 0x2494388, size 0x11c, virtual true, abstract: false, final true
+  /// @brief Method SyncProcessMessage, addr 0x24b63fc, size 0x11c, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
 
-  /// @brief Method AsyncProcessMessage, addr 0x24944a4, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method AsyncProcessMessage, addr 0x24b6518, size 0x40, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg,
                                                                                    ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 

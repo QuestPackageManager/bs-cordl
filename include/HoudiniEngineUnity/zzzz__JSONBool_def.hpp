@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::JSONBool);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9869))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9877))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9661))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9669))
 // CS Name: ::HoudiniEngineUnity::JSONBool*
 class CORDL_TYPE JSONBool : public ::HoudiniEngineUnity::JSONNode {
 public:
@@ -54,44 +54,44 @@ public:
 
   constexpr void __cordl_internal_set_m_Data(bool value);
 
-  /// @brief Method get_Tag, addr 0x21daebc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Tag, addr 0x22707a4, size 0x8, virtual true, abstract: false, final false
   inline ::HoudiniEngineUnity::JSONNodeType get_Tag();
 
-  /// @brief Method get_IsBoolean, addr 0x21daec4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsBoolean, addr 0x22707ac, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsBoolean();
 
-  /// @brief Method GetEnumerator, addr 0x21daecc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x22707b4, size 0x14, virtual true, abstract: false, final false
   inline ::HoudiniEngineUnity::__JSONNode__Enumerator GetEnumerator();
 
-  /// @brief Method get_Value, addr 0x21daee0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x22707c8, size 0xc, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method set_Value, addr 0x21daeec, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method set_Value, addr 0x22707d4, size 0x7c, virtual true, abstract: false, final false
   inline void set_Value(::StringW value);
 
-  /// @brief Method get_AsBool, addr 0x21daf68, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_AsBool, addr 0x2270850, size 0x8, virtual true, abstract: false, final false
   inline bool get_AsBool();
 
-  /// @brief Method set_AsBool, addr 0x21daf70, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method set_AsBool, addr 0x2270858, size 0xc, virtual true, abstract: false, final false
   inline void set_AsBool(bool value);
 
   static inline ::HoudiniEngineUnity::JSONBool* New_ctor(bool aData);
 
-  /// @brief Method .ctor, addr 0x21d4ebc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x226a7a4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool aData);
 
   static inline ::HoudiniEngineUnity::JSONBool* New_ctor(::StringW aData);
 
-  /// @brief Method .ctor, addr 0x21daf7c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2270864, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::StringW aData);
 
-  /// @brief Method WriteToStringBuilder, addr 0x21dafb0, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method WriteToStringBuilder, addr 0x2270898, size 0x78, virtual true, abstract: false, final false
   inline void WriteToStringBuilder(::System::Text::StringBuilder* aSB, int32_t aIndent, int32_t aIndentInc, ::HoudiniEngineUnity::JSONTextMode aMode);
 
-  /// @brief Method Equals, addr 0x21db028, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2270910, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x21db0a0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2270988, size 0xc, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "JSONBool", modifiers: "&&", def_value: None }]

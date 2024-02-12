@@ -44,7 +44,7 @@ namespace IntervalTree {
 template <typename TKey, typename TValue>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16133))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16253))
 // CS Name: ::IntervalTreeNode`2::<>c<TKey,TValue>*
 class CORDL_TYPE __IntervalTreeNode_2____c : public ::System::Object {
 public:
@@ -106,7 +106,7 @@ namespace IntervalTree {
 template <typename TKey, typename TValue>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16134))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16254))
 // CS Name: ::IntervalTree::IntervalTreeNode`2<TKey,TValue>*
 class CORDL_TYPE IntervalTreeNode_2 : public ::System::Object {
 public:

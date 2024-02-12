@@ -78,22 +78,22 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser* New_ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* seq);
 
-  /// @brief Method .ctor, addr 0xe77940, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xea27d0, size 0x124, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* seq);
 
-  /// @brief Method get_Version, addr 0xe77a64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0xea28f4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
-  /// @brief Method GetOriginatorInfo, addr 0xe77a6c, size 0x2e0, virtual false, abstract: false, final false
+  /// @brief Method GetOriginatorInfo, addr 0xea28fc, size 0x2e0, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* GetOriginatorInfo();
 
-  /// @brief Method GetRecipientInfos, addr 0xe77d4c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetRecipientInfos, addr 0xea2bdc, size 0x100, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1SetParser* GetRecipientInfos();
 
-  /// @brief Method GetEncryptedContentInfo, addr 0xe77e4c, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method GetEncryptedContentInfo, addr 0xea2cdc, size 0x120, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfoParser* GetEncryptedContentInfo();
 
-  /// @brief Method GetUnprotectedAttrs, addr 0xe77f6c, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method GetUnprotectedAttrs, addr 0xea2dfc, size 0x1ac, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1SetParser* GetUnprotectedAttrs();
 
   // Ctor Parameters [CppParam { name: "", ty: "EnvelopedDataParser", modifiers: "&&", def_value: None }]

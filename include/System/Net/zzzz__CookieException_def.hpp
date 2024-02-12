@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::System::Net::CookieException);
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2382))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9133))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7143))
 // CS Name: ::System.Net::CookieException*
 class CORDL_TYPE CookieException : public ::System::FormatException {
 public:
@@ -41,29 +41,29 @@ public:
 
   static inline ::System::Net::CookieException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29b34f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29b7f98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Net::CookieException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x29ab128, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29afbcc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::System::Net::CookieException* New_ctor(::StringW message, ::System::Exception* inner);
 
-  /// @brief Method .ctor, addr 0x29b13e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29b5e8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* inner);
 
   static inline ::System::Net::CookieException* New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method .ctor, addr 0x29b34fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29b7fa0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x29b3504, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x29b7fa8, size 0x8, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
                                                                        ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method GetObjectData, addr 0x29b350c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x29b7fb0, size 0x8, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
   // Ctor Parameters [CppParam { name: "", ty: "CookieException", modifiers: "&&", def_value: None }]

@@ -47,8 +47,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__NoteCutter__CuttableBySaberSortParamsCompare
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5289))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8993))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4629))
 // CS Name: ::NoteCutter::CuttableBySaberSortParams*
 class CORDL_TYPE __NoteCutter__CuttableBySaberSortParams : public ::System::Object {
 public:
@@ -82,7 +82,7 @@ public:
 
   static inline ::GlobalNamespace::__NoteCutter__CuttableBySaberSortParams* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22631cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c1bd4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__NoteCutter__CuttableBySaberSortParams", modifiers: "&&", def_value: None }]
@@ -125,7 +125,7 @@ static_assert(offsetof(::GlobalNamespace::__NoteCutter__CuttableBySaberSortParam
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5290))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4630))
 // CS Name: ::NoteCutter::CuttableBySaberSortParamsComparer*
 class CORDL_TYPE __NoteCutter__CuttableBySaberSortParamsComparer : public ::System::Object {
 public:
@@ -136,12 +136,12 @@ public:
   /// @brief Convert to "::System::Collections::IComparer"
   constexpr ::System::Collections::IComparer* i___System__Collections__IComparer() noexcept;
 
-  /// @brief Method Compare, addr 0x22631d4, size 0x124, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x23c1bdc, size 0x124, virtual true, abstract: false, final true
   inline int32_t Compare(::System::Object* p0, ::System::Object* p1);
 
   static inline ::GlobalNamespace::__NoteCutter__CuttableBySaberSortParamsComparer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22631c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c1bcc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__NoteCutter__CuttableBySaberSortParamsComparer", modifiers: "&&", def_value: None }]
@@ -169,7 +169,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__NoteCutter__C
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5291))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4631))
 // CS Name: ::NoteCutter*
 class CORDL_TYPE NoteCutter : public ::System::Object {
 public:
@@ -212,10 +212,10 @@ public:
 
   static inline ::GlobalNamespace::NoteCutter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x226308c, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c1a94, size 0x138, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Cut, addr 0x2262a5c, size 0x524, virtual false, abstract: false, final false
+  /// @brief Method Cut, addr 0x23c1464, size 0x524, virtual false, abstract: false, final false
   inline void Cut(::GlobalNamespace::Saber* saber);
 
   // Ctor Parameters [CppParam { name: "", ty: "NoteCutter", modifiers: "&&", def_value: None }]

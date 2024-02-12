@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIElementsRuntimeUtilityNative);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15375))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15535))
 // CS Name: ::UnityEngine.UIElements::UIElementsRuntimeUtilityNative*
 class CORDL_TYPE UIElementsRuntimeUtilityNative : public ::System::Object {
 public:
@@ -37,19 +37,19 @@ public:
 
   static inline ::System::Action* getStaticF_UpdateRuntimePanelsCallback();
 
-  /// @brief Method RepaintOverlayPanels, addr 0x2ea56e8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method RepaintOverlayPanels, addr 0x2ebead0, size 0x64, virtual false, abstract: false, final false
   static inline void RepaintOverlayPanels();
 
-  /// @brief Method UpdateRuntimePanels, addr 0x2ea574c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method UpdateRuntimePanels, addr 0x2ebeb34, size 0x64, virtual false, abstract: false, final false
   static inline void UpdateRuntimePanels();
 
-  /// @brief Method RegisterPlayerloopCallback, addr 0x2ea57b0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method RegisterPlayerloopCallback, addr 0x2ebeb98, size 0x28, virtual false, abstract: false, final false
   static inline void RegisterPlayerloopCallback();
 
-  /// @brief Method UnregisterPlayerloopCallback, addr 0x2ea57d8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method UnregisterPlayerloopCallback, addr 0x2ebebc0, size 0x28, virtual false, abstract: false, final false
   static inline void UnregisterPlayerloopCallback();
 
-  /// @brief Method VisualElementCreation, addr 0x2ea5800, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method VisualElementCreation, addr 0x2ebebe8, size 0x28, virtual false, abstract: false, final false
   static inline void VisualElementCreation();
 
   // Ctor Parameters [CppParam { name: "", ty: "UIElementsRuntimeUtilityNative", modifiers: "&&", def_value: None }]

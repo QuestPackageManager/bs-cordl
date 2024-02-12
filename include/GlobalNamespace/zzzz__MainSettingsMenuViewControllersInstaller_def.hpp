@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MainSettingsMenuViewControllersInstaller);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11138))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5396))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10280))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4699))
 // CS Name: ::MainSettingsMenuViewControllersInstaller*
 class CORDL_TYPE MainSettingsMenuViewControllersInstaller : public ::Zenject::MonoInstaller {
 public:
@@ -86,12 +86,12 @@ public:
 
   constexpr void __cordl_internal_set__tabBarViewControllerPrefab(::UnityW<::GlobalNamespace::TabBarViewController> value);
 
-  /// @brief Method InstallBindings, addr 0x2272078, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x23cd6d4, size 0xb4, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::MainSettingsMenuViewControllersInstaller* New_ctor();
 
-  /// @brief Method .ctor, addr 0x227212c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23cd788, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MainSettingsMenuViewControllersInstaller", modifiers: "&&", def_value: None }]

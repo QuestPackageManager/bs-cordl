@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::ErrorContext);
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11932))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11830))
 // CS Name: ::Newtonsoft.Json.Serialization::ErrorContext*
 class CORDL_TYPE ErrorContext : public ::System::Object {
 public:
@@ -95,43 +95,43 @@ public:
 
   static inline ::Newtonsoft::Json::Serialization::ErrorContext* New_ctor(::System::Object* originalObject, ::System::Object* member, ::StringW path, ::System::Exception* error);
 
-  /// @brief Method .ctor, addr 0x26778a4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x269aa60, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* originalObject, ::System::Object* member, ::StringW path, ::System::Exception* error);
 
-  /// @brief Method get_Traced, addr 0x26778e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Traced, addr 0x269aaa0, size 0x8, virtual false, abstract: false, final false
   inline bool get_Traced();
 
-  /// @brief Method set_Traced, addr 0x26778ec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Traced, addr 0x269aaa8, size 0xc, virtual false, abstract: false, final false
   inline void set_Traced(bool value);
 
-  /// @brief Method get_Error, addr 0x26778f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Error, addr 0x269aab4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Exception* get_Error();
 
-  /// @brief Method set_Error, addr 0x2677900, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Error, addr 0x269aabc, size 0x8, virtual false, abstract: false, final false
   inline void set_Error(::System::Exception* value);
 
-  /// @brief Method get_OriginalObject, addr 0x2677908, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OriginalObject, addr 0x269aac4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_OriginalObject();
 
-  /// @brief Method set_OriginalObject, addr 0x2677910, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_OriginalObject, addr 0x269aacc, size 0x8, virtual false, abstract: false, final false
   inline void set_OriginalObject(::System::Object* value);
 
-  /// @brief Method get_Member, addr 0x2677918, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Member, addr 0x269aad4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Member();
 
-  /// @brief Method set_Member, addr 0x2677920, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Member, addr 0x269aadc, size 0x8, virtual false, abstract: false, final false
   inline void set_Member(::System::Object* value);
 
-  /// @brief Method get_Path, addr 0x2677928, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Path, addr 0x269aae4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Path();
 
-  /// @brief Method set_Path, addr 0x2677930, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Path, addr 0x269aaec, size 0x8, virtual false, abstract: false, final false
   inline void set_Path(::StringW value);
 
-  /// @brief Method get_Handled, addr 0x2677938, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Handled, addr 0x269aaf4, size 0x8, virtual false, abstract: false, final false
   inline bool get_Handled();
 
-  /// @brief Method set_Handled, addr 0x2677940, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Handled, addr 0x269aafc, size 0xc, virtual false, abstract: false, final false
   inline void set_Handled(bool value);
 
   // Ctor Parameters [CppParam { name: "", ty: "ErrorContext", modifiers: "&&", def_value: None }]

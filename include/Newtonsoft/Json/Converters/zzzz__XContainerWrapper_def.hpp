@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Converters::XContainerWrapper);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12065))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12064))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11963))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11962))
 // CS Name: ::Newtonsoft.Json.Converters::XContainerWrapper*
 class CORDL_TYPE XContainerWrapper : public ::Newtonsoft::Json::Converters::XObjectWrapper {
 public:
@@ -47,24 +47,24 @@ public:
 
   constexpr void __cordl_internal_set__childNodes(::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* value);
 
-  /// @brief Method get_Container, addr 0x26bc978, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_Container, addr 0x26deb34, size 0x78, virtual false, abstract: false, final false
   inline ::System::Xml::Linq::XContainer* get_Container();
 
   static inline ::Newtonsoft::Json::Converters::XContainerWrapper* New_ctor(::System::Xml::Linq::XContainer* container);
 
-  /// @brief Method .ctor, addr 0x26bb114, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26dd2d0, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XContainer* container);
 
-  /// @brief Method get_ChildNodes, addr 0x26bb2e4, size 0x3b8, virtual true, abstract: false, final false
+  /// @brief Method get_ChildNodes, addr 0x26dd4a0, size 0x3b8, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* get_ChildNodes();
 
-  /// @brief Method get_ParentNode, addr 0x26bc9f0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ParentNode, addr 0x26debac, size 0x44, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Converters::IXmlNode* get_ParentNode();
 
-  /// @brief Method WrapNode, addr 0x26bc2ac, size 0x490, virtual false, abstract: false, final false
+  /// @brief Method WrapNode, addr 0x26de468, size 0x490, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Converters::IXmlNode* WrapNode(::System::Xml::Linq::XObject* node);
 
-  /// @brief Method AppendChild, addr 0x26bc074, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method AppendChild, addr 0x26de230, size 0xd0, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Converters::IXmlNode* AppendChild(::Newtonsoft::Json::Converters::IXmlNode* newChild);
 
   // Ctor Parameters [CppParam { name: "", ty: "XContainerWrapper", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::MarkupTag);
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13715))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13668))
 // CS Name: ::UnityEngine.TextCore.Text::MarkupTag
 struct CORDL_TYPE MarkupTag {
 public:

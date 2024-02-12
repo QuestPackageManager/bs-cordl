@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MeshRendererSwitchEventEffect);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14724))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4955))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(15108))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4309))
 // CS Name: ::MeshRendererSwitchEventEffect*
 class CORDL_TYPE MeshRendererSwitchEventEffect : public ::UnityEngine::MonoBehaviour {
 public:
@@ -84,21 +84,21 @@ public:
 
   constexpr void __cordl_internal_set__beatmapDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
 
-  /// @brief Method Start, addr 0x23ae598, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x236e6cc, size 0x124, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy, addr 0x23ae6bc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x236e7f0, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleBeatmapEvent, addr 0x23ae6d8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0x236e80c, size 0x20, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
-  /// @brief Method ToggleObjects, addr 0x23ae6f8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method ToggleObjects, addr 0x236e82c, size 0xc4, virtual false, abstract: false, final false
   inline void ToggleObjects(bool isBoostOn);
 
   static inline ::GlobalNamespace::MeshRendererSwitchEventEffect* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23ae7bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x236e8f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MeshRendererSwitchEventEffect", modifiers: "&&", def_value: None }]

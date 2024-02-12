@@ -26,7 +26,7 @@ namespace System::Collections::Generic {
 template <typename T>
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3838))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3837))
 // CS Name: ::System.Collections.Generic::IReadOnlyList`1<T>*
 class CORDL_TYPE IReadOnlyList_1 {
 public:

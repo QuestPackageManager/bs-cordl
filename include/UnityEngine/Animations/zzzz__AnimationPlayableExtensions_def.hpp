@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::UnityEngine::Animations::AnimationPlayableExtensions);
 namespace UnityEngine::Animations {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14891))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14764))
 // CS Name: ::UnityEngine.Animations::AnimationPlayableExtensions*
 class CORDL_TYPE AnimationPlayableExtensions : public ::System::Object {
 public:
@@ -30,7 +30,7 @@ public:
   /// @brief Method SetAnimatedProperties, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename U> static inline void SetAnimatedProperties(U playable, ::UnityEngine::AnimationClip* clip);
 
-  /// @brief Method SetAnimatedPropertiesInternal, addr 0x2c97618, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetAnimatedPropertiesInternal, addr 0x2c94184, size 0x44, virtual false, abstract: false, final false
   static inline void SetAnimatedPropertiesInternal(ByRef<::UnityEngine::Playables::PlayableHandle> playable, ::UnityEngine::AnimationClip* animatedProperties);
 
   // Ctor Parameters [CppParam { name: "", ty: "AnimationPlayableExtensions", modifiers: "&&", def_value: None }]

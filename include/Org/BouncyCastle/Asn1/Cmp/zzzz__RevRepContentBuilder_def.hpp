@@ -62,21 +62,21 @@ public:
 
   constexpr void __cordl_internal_set_crls(::Org::BouncyCastle::Asn1::Asn1EncodableVector* value);
 
-  /// @brief Method Add, addr 0xe6f154, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0xe99fe4, size 0x28, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::RevRepContentBuilder* Add(::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* status);
 
-  /// @brief Method Add, addr 0xe6f17c, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0xe9a00c, size 0xac, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::RevRepContentBuilder* Add(::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* status, ::Org::BouncyCastle::Asn1::Crmf::CertId* certId);
 
-  /// @brief Method AddCrl, addr 0xe6f228, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method AddCrl, addr 0xe9a0b8, size 0x28, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::RevRepContentBuilder* AddCrl(::Org::BouncyCastle::Asn1::X509::CertificateList* crl);
 
-  /// @brief Method Build, addr 0xe6f250, size 0x1a4, virtual true, abstract: false, final false
+  /// @brief Method Build, addr 0xe9a0e0, size 0x1a4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::RevRepContent* Build();
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::RevRepContentBuilder* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe6f3f4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe9a284, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RevRepContentBuilder", modifiers: "&&", def_value: None }]

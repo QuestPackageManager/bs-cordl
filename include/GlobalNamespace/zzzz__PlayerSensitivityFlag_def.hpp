@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::PlayerSensitivityFlag);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4658))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11052))
 // CS Name: ::PlayerSensitivityFlag
 struct CORDL_TYPE PlayerSensitivityFlag {
 public:

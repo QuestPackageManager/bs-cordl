@@ -47,8 +47,8 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::__TextDataP
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14002))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14018))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14015))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14031))
 // CS Name: ::TextDataProvider::InternalOp*
 class CORDL_TYPE __TextDataProvider__InternalOp : public ::System::Object {
 public:
@@ -117,33 +117,33 @@ public:
 
   constexpr void __cordl_internal_set_m_Timeout(int32_t value);
 
-  /// @brief Method GetPercentComplete, addr 0x2bda3d4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetPercentComplete, addr 0x2bd7f40, size 0x18, virtual false, abstract: false, final false
   inline float_t GetPercentComplete();
 
-  /// @brief Method Start, addr 0x2bd9ff0, size 0x3e4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2bd7b5c, size 0x3e4, virtual false, abstract: false, final false
   inline void Start(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle, ::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider* rawProvider);
 
-  /// @brief Method WaitForCompletionHandler, addr 0x2bda4e4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method WaitForCompletionHandler, addr 0x2bd8050, size 0x74, virtual false, abstract: false, final false
   inline bool WaitForCompletionHandler();
 
-  /// @brief Method RequestOperation_completed, addr 0x2bda558, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method RequestOperation_completed, addr 0x2bd80c4, size 0x1ac, virtual false, abstract: false, final false
   inline void RequestOperation_completed(::UnityEngine::AsyncOperation* op);
 
-  /// @brief Method CompleteOperation, addr 0x2bda704, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method CompleteOperation, addr 0x2bd8270, size 0xac, virtual false, abstract: false, final false
   inline void CompleteOperation(::StringW text, ::System::Exception* exception);
 
-  /// @brief Method ConvertText, addr 0x2bda3ec, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ConvertText, addr 0x2bd7f58, size 0xf8, virtual false, abstract: false, final false
   inline ::System::Object* ConvertText(::StringW text);
 
-  /// @brief Method SendWebRequest, addr 0x2bda7b0, size 0x284, virtual true, abstract: false, final false
+  /// @brief Method SendWebRequest, addr 0x2bd831c, size 0x284, virtual true, abstract: false, final false
   inline void SendWebRequest(::StringW path);
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::__TextDataProvider__InternalOp* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2bd9fe8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bd7b54, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <SendWebRequest>b__13_0, addr 0x2bdaa34, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method <SendWebRequest>b__13_0, addr 0x2bd85a0, size 0x98, virtual false, abstract: false, final false
   inline void _SendWebRequest_b__13_0(::UnityEngine::Networking::UnityWebRequestAsyncOperation* asyncOperation);
 
   // Ctor Parameters [CppParam { name: "", ty: "__TextDataProvider__InternalOp", modifiers: "&&", def_value: None }]
@@ -205,8 +205,8 @@ static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::__T
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 29, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14013))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14019))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14026))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14032))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::TextDataProvider*
 class CORDL_TYPE TextDataProvider : public ::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase {
 public:
@@ -224,21 +224,21 @@ public:
 
   constexpr void __cordl_internal_set__IgnoreFailures_k__BackingField(bool value);
 
-  /// @brief Method get_IgnoreFailures, addr 0x2bd9f3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IgnoreFailures, addr 0x2bd7aa8, size 0x8, virtual false, abstract: false, final false
   inline bool get_IgnoreFailures();
 
-  /// @brief Method set_IgnoreFailures, addr 0x2bd9f44, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IgnoreFailures, addr 0x2bd7ab0, size 0xc, virtual false, abstract: false, final false
   inline void set_IgnoreFailures(bool value);
 
-  /// @brief Method Convert, addr 0x2bd9f50, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Convert, addr 0x2bd7abc, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* Convert(::System::Type* type, ::StringW text);
 
-  /// @brief Method Provide, addr 0x2bd9f58, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Provide, addr 0x2bd7ac4, size 0x90, virtual true, abstract: false, final false
   inline void Provide(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle);
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2bd7748, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bd52b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TextDataProvider", modifiers: "&&", def_value: None }]

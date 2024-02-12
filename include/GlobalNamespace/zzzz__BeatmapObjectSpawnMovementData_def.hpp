@@ -67,13 +67,13 @@ MARK_VAL_T(::GlobalNamespace::__BeatmapObjectSpawnMovementData__SliderSpawnData)
 // SizeInfo { instance_size: 52, native_size: 52, calculated_instance_size: 52, calculated_native_size: 68, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4722))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8993))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4073))
 // CS Name: ::BeatmapObjectSpawnMovementData::ObstacleSpawnData
 struct CORDL_TYPE __BeatmapObjectSpawnMovementData__ObstacleSpawnData {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x2380b28, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22c70a0, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 moveStartPos, ::UnityEngine::Vector3 moveEndPos, ::UnityEngine::Vector3 jumpEndPos, float_t obstacleHeight, float_t moveDuration, float_t jumpDuration,
                     float_t noteLinesDistance);
 
@@ -136,13 +136,13 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapObjectSpawnMovementData__Obst
 // SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4723))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8993))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4074))
 // CS Name: ::BeatmapObjectSpawnMovementData::NoteSpawnData
 struct CORDL_TYPE __BeatmapObjectSpawnMovementData__NoteSpawnData {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x2380c24, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22c719c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 moveStartPos, ::UnityEngine::Vector3 moveEndPos, ::UnityEngine::Vector3 jumpEndPos, float_t jumpGravity, float_t moveDuration, float_t jumpDuration);
 
   // Ctor Parameters [CppParam { name: "moveStartPos", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "moveEndPos", ty: "::UnityEngine::Vector3", modifiers: "",
@@ -198,13 +198,13 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapObjectSpawnMovementData__Note
 // SizeInfo { instance_size: 88, native_size: 88, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4724))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8993))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4075))
 // CS Name: ::BeatmapObjectSpawnMovementData::SliderSpawnData
 struct CORDL_TYPE __BeatmapObjectSpawnMovementData__SliderSpawnData {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x2380c54, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22c71cc, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 headMoveStartPos, ::UnityEngine::Vector3 headJumpStartPos, ::UnityEngine::Vector3 headJumpEndPos, float_t headJumpGravity,
                     ::UnityEngine::Vector3 tailMoveStartPos, ::UnityEngine::Vector3 tailJumpStartPos, ::UnityEngine::Vector3 tailJumpEndPos, float_t tailJumpGravity, float_t moveDuration,
                     float_t jumpDuration);
@@ -286,7 +286,7 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapObjectSpawnMovementData__Slid
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4725))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4076))
 // CS Name: ::BeatmapObjectSpawnMovementData::NoteJumpValueType
 struct CORDL_TYPE __BeatmapObjectSpawnMovementData__NoteJumpValueType {
 public:
@@ -335,8 +335,8 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapObjectSpawnMovementData__Note
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4726))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8993))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4077))
 // CS Name: ::BeatmapObjectSpawnMovementData*
 class CORDL_TYPE BeatmapObjectSpawnMovementData : public ::System::Object {
 public:
@@ -576,76 +576,76 @@ public:
 
   constexpr void __cordl_internal_set__forwardVec(::UnityEngine::Vector3 value);
 
-  /// @brief Method get_spawnAheadTime, addr 0x2380a64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_spawnAheadTime, addr 0x22c6fdc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_spawnAheadTime();
 
-  /// @brief Method get_moveDuration, addr 0x2380a6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_moveDuration, addr 0x22c6fe4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_moveDuration();
 
-  /// @brief Method get_jumpDuration, addr 0x2380a74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_jumpDuration, addr 0x22c6fec, size 0x8, virtual false, abstract: false, final false
   inline float_t get_jumpDuration();
 
-  /// @brief Method get_noteLinesDistance, addr 0x237fa8c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_noteLinesDistance, addr 0x22c6004, size 0xc, virtual false, abstract: false, final false
   inline float_t get_noteLinesDistance();
 
-  /// @brief Method get_verticalLayersDistance, addr 0x237fa44, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_verticalLayersDistance, addr 0x22c5fbc, size 0xc, virtual false, abstract: false, final false
   inline float_t get_verticalLayersDistance();
 
-  /// @brief Method get_jumpDistance, addr 0x2380a7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_jumpDistance, addr 0x22c6ff4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_jumpDistance();
 
-  /// @brief Method get_noteJumpMovementSpeed, addr 0x2380a84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_noteJumpMovementSpeed, addr 0x22c6ffc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_noteJumpMovementSpeed();
 
-  /// @brief Method get_noteLinesCount, addr 0x2380a8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_noteLinesCount, addr 0x22c7004, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_noteLinesCount();
 
-  /// @brief Method get_centerPos, addr 0x2380a94, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_centerPos, addr 0x22c700c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_centerPos();
 
-  /// @brief Method get_jumpOffsetY, addr 0x237f930, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_jumpOffsetY, addr 0x22c5ea8, size 0xa0, virtual false, abstract: false, final false
   inline float_t get_jumpOffsetY();
 
-  /// @brief Method Init, addr 0x237ff64, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x22c64dc, size 0x150, virtual false, abstract: false, final false
   inline void Init(int32_t noteLinesCount, float_t startNoteJumpMovementSpeed, float_t startBpm, ::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteJumpValueType noteJumpValueType,
                    float_t noteJumpValue, ::GlobalNamespace::IJumpOffsetYProvider* jumpOffsetYProvider, ::UnityEngine::Vector3 rightVec, ::UnityEngine::Vector3 forwardVec);
 
-  /// @brief Method GetObstacleSpawnData, addr 0x238021c, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method GetObstacleSpawnData, addr 0x22c6794, size 0x170, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__BeatmapObjectSpawnMovementData__ObstacleSpawnData GetObstacleSpawnData(::GlobalNamespace::ObstacleData* obstacleData);
 
-  /// @brief Method GetJumpingNoteSpawnData, addr 0x2380494, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method GetJumpingNoteSpawnData, addr 0x22c6a0c, size 0xf8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData GetJumpingNoteSpawnData(::GlobalNamespace::NoteData* noteData);
 
-  /// @brief Method GetSliderSpawnData, addr 0x23806a4, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetSliderSpawnData, addr 0x22c6c1c, size 0x188, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__BeatmapObjectSpawnMovementData__SliderSpawnData GetSliderSpawnData(::GlobalNamespace::SliderData* sliderData);
 
-  /// @brief Method GetNoteOffset, addr 0x2380b60, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetNoteOffset, addr 0x22c70d8, size 0x78, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetNoteOffset(int32_t noteLineIndex, ::GlobalNamespace::NoteLineLayer noteLineLayer);
 
-  /// @brief Method GetObstacleOffset, addr 0x2380aa0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetObstacleOffset, addr 0x22c7018, size 0x88, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetObstacleOffset(int32_t noteLineIndex, ::GlobalNamespace::NoteLineLayer noteLineLayer);
 
-  /// @brief Method Get2DNoteOffset, addr 0x2380878, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Get2DNoteOffset, addr 0x22c6df0, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 Get2DNoteOffset(int32_t noteLineIndex, ::GlobalNamespace::NoteLineLayer noteLineLayer);
 
-  /// @brief Method JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset, addr 0x23808a4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset, addr 0x22c6e1c, size 0x70, virtual false, abstract: false, final false
   inline float_t JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset(::GlobalNamespace::NoteLineLayer lineLayer, float_t distanceFromPlayer);
 
-  /// @brief Method HighestJumpPosYForLineLayer, addr 0x2380d1c, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method HighestJumpPosYForLineLayer, addr 0x22c7294, size 0x144, virtual false, abstract: false, final false
   inline float_t HighestJumpPosYForLineLayer(::GlobalNamespace::NoteLineLayer lineLayer);
 
-  /// @brief Method HighestJumpPosYForLineLayerWithoutJumpOffset, addr 0x2380e60, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method HighestJumpPosYForLineLayerWithoutJumpOffset, addr 0x22c73d8, size 0x28, virtual false, abstract: false, final false
   inline float_t HighestJumpPosYForLineLayerWithoutJumpOffset(::GlobalNamespace::NoteLineLayer lineLayer);
 
-  /// @brief Method NoteJumpGravityForLineLayer, addr 0x2380bd8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method NoteJumpGravityForLineLayer, addr 0x22c7150, size 0x4c, virtual false, abstract: false, final false
   inline float_t NoteJumpGravityForLineLayer(::GlobalNamespace::NoteLineLayer lineLayer, ::GlobalNamespace::NoteLineLayer beforeJumpLineLayer);
 
-  /// @brief Method NoteJumpGravityForLineLayerWithoutJumpOffset, addr 0x2380cb8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method NoteJumpGravityForLineLayerWithoutJumpOffset, addr 0x22c7230, size 0x64, virtual false, abstract: false, final false
   inline float_t NoteJumpGravityForLineLayerWithoutJumpOffset(::GlobalNamespace::NoteLineLayer lineLayer, ::GlobalNamespace::NoteLineLayer beforeJumpLineLayer);
 
   static inline ::GlobalNamespace::BeatmapObjectSpawnMovementData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23809a4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22c6f1c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectSpawnMovementData", modifiers: "&&", def_value: None }]

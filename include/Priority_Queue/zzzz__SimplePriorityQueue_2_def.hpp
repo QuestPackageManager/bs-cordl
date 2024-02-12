@@ -59,8 +59,8 @@ namespace Priority_Queue {
 // cpp template
 template <typename TItem, typename TPriority>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6096)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6096), inst: 2555 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6099))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15227)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15227), inst: 2531 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15230))
 // CS Name: ::SimplePriorityQueue`2::SimpleNode<TItem,TPriority>*
 class CORDL_TYPE __SimplePriorityQueue_2__SimpleNode : public ::Priority_Queue::GenericPriorityQueueNode_1<TPriority> {
 public:
@@ -115,7 +115,7 @@ namespace Priority_Queue {
 template <typename TItem, typename TPriority>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6100))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15231))
 // CS Name: ::Priority_Queue::SimplePriorityQueue`2<TItem,TPriority>*
 class CORDL_TYPE SimplePriorityQueue_2 : public ::System::Object {
 public:

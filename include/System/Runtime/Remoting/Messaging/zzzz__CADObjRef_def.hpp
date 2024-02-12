@@ -54,7 +54,7 @@ public:
 
   static inline ::System::Runtime::Remoting::Messaging::CADObjRef* New_ctor(::System::Runtime::Remoting::ObjRef* o, int32_t sourceDomain);
 
-  /// @brief Method .ctor, addr 0x24a7be0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24c9c54, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::ObjRef* o, int32_t sourceDomain);
 
   // Ctor Parameters [CppParam { name: "", ty: "CADObjRef", modifiers: "&&", def_value: None }]

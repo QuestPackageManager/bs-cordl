@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__BadCutScoringElement__Pool);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5320)), TypeDefinitionIndex(TypeDefinitionIndex(5323))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5327))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4661)), TypeDefinitionIndex(TypeDefinitionIndex(11121))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4665))
 // CS Name: ::BadCutScoringElement*
 class CORDL_TYPE BadCutScoringElement : public ::GlobalNamespace::ScoringElement {
 public:
@@ -66,24 +66,24 @@ public:
 
   constexpr void __cordl_internal_set__wouldBeCorrectCutBestPossibleMultiplierEventType(::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType value);
 
-  /// @brief Method get_cutScore, addr 0x2268018, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_cutScore, addr 0x23c6d40, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_cutScore();
 
-  /// @brief Method get_wouldBeCorrectCutBestPossibleMultiplierEventType, addr 0x2268020, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_wouldBeCorrectCutBestPossibleMultiplierEventType, addr 0x23c6d48, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType get_wouldBeCorrectCutBestPossibleMultiplierEventType();
 
-  /// @brief Method get_multiplierEventType, addr 0x2268028, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_multiplierEventType, addr 0x23c6d50, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType get_multiplierEventType();
 
-  /// @brief Method get_executionOrder, addr 0x2268030, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_executionOrder, addr 0x23c6d58, size 0xc, virtual true, abstract: false, final false
   inline int32_t get_executionOrder();
 
-  /// @brief Method Init, addr 0x2267a04, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x23c6798, size 0x4c, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::NoteData* noteData);
 
   static inline ::GlobalNamespace::BadCutScoringElement* New_ctor();
 
-  /// @brief Method .ctor, addr 0x226803c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c6d64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BadCutScoringElement", modifiers: "&&", def_value: None }]
@@ -120,14 +120,14 @@ static_assert(offsetof(::GlobalNamespace::BadCutScoringElement, ____wouldBeCorre
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5322)), TypeDefinitionIndex(TypeDefinitionIndex(5327)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5322), inst: 2807
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5326)) CS Name: ::BadCutScoringElement::Pool*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4660)), TypeDefinitionIndex(TypeDefinitionIndex(4665)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4660), inst: 2777
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4664)) CS Name: ::BadCutScoringElement::Pool*
 class CORDL_TYPE __BadCutScoringElement__Pool : public ::GlobalNamespace::__ScoringElement__Pool_1<::GlobalNamespace::BadCutScoringElement*> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__BadCutScoringElement__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2268044, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c6d6c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__BadCutScoringElement__Pool", modifiers: "&&", def_value: None }]

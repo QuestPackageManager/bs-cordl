@@ -169,39 +169,39 @@ public:
   static inline ::Org::BouncyCastle::Tsp::TimeStampTokenGenerator* New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key, ::Org::BouncyCastle::X509::X509Certificate* cert,
                                                                             ::StringW digestOID, ::StringW tsaPolicyOID);
 
-  /// @brief Method .ctor, addr 0x11538a4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1181734, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key, ::Org::BouncyCastle::X509::X509Certificate* cert, ::StringW digestOID, ::StringW tsaPolicyOID);
 
   static inline ::Org::BouncyCastle::Tsp::TimeStampTokenGenerator* New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key, ::Org::BouncyCastle::X509::X509Certificate* cert,
                                                                             ::StringW digestOID, ::StringW tsaPolicyOID, ::Org::BouncyCastle::Asn1::Cms::AttributeTable* signedAttr,
                                                                             ::Org::BouncyCastle::Asn1::Cms::AttributeTable* unsignedAttr);
 
-  /// @brief Method .ctor, addr 0x11538b0, size 0x448, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1181740, size 0x448, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key, ::Org::BouncyCastle::X509::X509Certificate* cert, ::StringW digestOID, ::StringW tsaPolicyOID,
                     ::Org::BouncyCastle::Asn1::Cms::AttributeTable* signedAttr, ::Org::BouncyCastle::Asn1::Cms::AttributeTable* unsignedAttr);
 
-  /// @brief Method SetCertificates, addr 0x1153cf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetCertificates, addr 0x1181b88, size 0x8, virtual false, abstract: false, final false
   inline void SetCertificates(::Org::BouncyCastle::X509::Store::IX509Store* certificates);
 
-  /// @brief Method SetCrls, addr 0x1153d00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetCrls, addr 0x1181b90, size 0x8, virtual false, abstract: false, final false
   inline void SetCrls(::Org::BouncyCastle::X509::Store::IX509Store* crls);
 
-  /// @brief Method SetAccuracySeconds, addr 0x1153d08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetAccuracySeconds, addr 0x1181b98, size 0x8, virtual false, abstract: false, final false
   inline void SetAccuracySeconds(int32_t accuracySeconds);
 
-  /// @brief Method SetAccuracyMillis, addr 0x1153d10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetAccuracyMillis, addr 0x1181ba0, size 0x8, virtual false, abstract: false, final false
   inline void SetAccuracyMillis(int32_t accuracyMillis);
 
-  /// @brief Method SetAccuracyMicros, addr 0x1153d18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetAccuracyMicros, addr 0x1181ba8, size 0x8, virtual false, abstract: false, final false
   inline void SetAccuracyMicros(int32_t accuracyMicros);
 
-  /// @brief Method SetOrdering, addr 0x1153d20, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetOrdering, addr 0x1181bb0, size 0xc, virtual false, abstract: false, final false
   inline void SetOrdering(bool ordering);
 
-  /// @brief Method SetTsa, addr 0x1153d2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetTsa, addr 0x1181bbc, size 0x8, virtual false, abstract: false, final false
   inline void SetTsa(::Org::BouncyCastle::Asn1::X509::GeneralName* tsa);
 
-  /// @brief Method Generate, addr 0x1151950, size 0x6a8, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x117f7e0, size 0x6a8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Tsp::TimeStampToken* Generate(::Org::BouncyCastle::Tsp::TimeStampRequest* request, ::Org::BouncyCastle::Math::BigInteger* serialNumber, ::System::DateTime genTime);
 
   // Ctor Parameters [CppParam { name: "", ty: "TimeStampTokenGenerator", modifiers: "&&", def_value: None }]

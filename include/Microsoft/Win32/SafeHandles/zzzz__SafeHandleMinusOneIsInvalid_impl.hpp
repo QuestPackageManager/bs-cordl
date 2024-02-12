@@ -7,7 +7,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Microsoft::Win32::SafeHandles::SafeHandleMinusOneIsInvalid::*)(bool)>(
     &::Microsoft::Win32::SafeHandles::SafeHandleMinusOneIsInvalid::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x242c2c4;
+  constexpr static std::size_t addrs = 0x244c128;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Microsoft::Win32::SafeHandles::SafeHandleMinusOneIsInvalid::*)()>(
     &::Microsoft::Win32::SafeHandles::SafeHandleMinusOneIsInvalid::get_IsInvalid)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x242c308;
+  constexpr static std::size_t addrs = 0x244c16c;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -67,9 +67,9 @@ MARK_REF_PTR_T(::System::Net::Sockets::SocketAsyncEventArgs);
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 184, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Sockets {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2376)), TypeDefinitionIndex(TypeDefinitionIndex(2437)), TypeDefinitionIndex(TypeDefinitionIndex(9339)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9345)), TypeDefinitionIndex(TypeDefinitionIndex(9347)), TypeDefinitionIndex(TypeDefinitionIndex(9348)), TypeDefinitionIndex(TypeDefinitionIndex(9355)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2437), inst: 741 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(9357)) CS Name: ::System.Net.Sockets::SocketAsyncEventArgs*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2376)), TypeDefinitionIndex(TypeDefinitionIndex(2437)), TypeDefinitionIndex(TypeDefinitionIndex(7349)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7355)), TypeDefinitionIndex(TypeDefinitionIndex(7357)), TypeDefinitionIndex(TypeDefinitionIndex(7358)), TypeDefinitionIndex(TypeDefinitionIndex(7365)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2437), inst: 736 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7367)) CS Name: ::System.Net.Sockets::SocketAsyncEventArgs*
 class CORDL_TYPE SocketAsyncEventArgs : public ::System::EventArgs {
 public:
   // Declarations
@@ -331,98 +331,98 @@ public:
 
   constexpr void __cordl_internal_set__bufferListInternal(::System::Collections::Generic::List_1<::System::ArraySegment_1<uint8_t>>* value);
 
-  /// @brief Method get_AcceptSocket, addr 0x28fe760, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AcceptSocket, addr 0x2902dc8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Sockets::Socket* get_AcceptSocket();
 
-  /// @brief Method set_AcceptSocket, addr 0x28fe768, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AcceptSocket, addr 0x2902dd0, size 0x8, virtual false, abstract: false, final false
   inline void set_AcceptSocket(::System::Net::Sockets::Socket* value);
 
-  /// @brief Method get_BytesTransferred, addr 0x28fe770, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BytesTransferred, addr 0x2902dd8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_BytesTransferred();
 
-  /// @brief Method set_BytesTransferred, addr 0x28fe778, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BytesTransferred, addr 0x2902de0, size 0x8, virtual false, abstract: false, final false
   inline void set_BytesTransferred(int32_t value);
 
-  /// @brief Method set_LastOperation, addr 0x28fe780, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LastOperation, addr 0x2902de8, size 0x8, virtual false, abstract: false, final false
   inline void set_LastOperation(::System::Net::Sockets::SocketAsyncOperation value);
 
-  /// @brief Method set_RemoteEndPoint, addr 0x28fe788, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RemoteEndPoint, addr 0x2902df0, size 0x8, virtual false, abstract: false, final false
   inline void set_RemoteEndPoint(::System::Net::EndPoint* value);
 
-  /// @brief Method set_SendPacketsSendSize, addr 0x28fe790, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SendPacketsSendSize, addr 0x2902df8, size 0x8, virtual false, abstract: false, final false
   inline void set_SendPacketsSendSize(int32_t value);
 
-  /// @brief Method get_SocketError, addr 0x28fe798, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SocketError, addr 0x2902e00, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Sockets::SocketError get_SocketError();
 
-  /// @brief Method set_SocketError, addr 0x28fe7a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SocketError, addr 0x2902e08, size 0x8, virtual false, abstract: false, final false
   inline void set_SocketError(::System::Net::Sockets::SocketError value);
 
-  /// @brief Method set_SocketFlags, addr 0x28fe7a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SocketFlags, addr 0x2902e10, size 0x8, virtual false, abstract: false, final false
   inline void set_SocketFlags(::System::Net::Sockets::SocketFlags value);
 
-  /// @brief Method get_UserToken, addr 0x28fe7b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UserToken, addr 0x2902e18, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_UserToken();
 
-  /// @brief Method set_UserToken, addr 0x28fe7b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_UserToken, addr 0x2902e20, size 0x8, virtual false, abstract: false, final false
   inline void set_UserToken(::System::Object* value);
 
-  /// @brief Method add_Completed, addr 0x28fe7c0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_Completed, addr 0x2902e28, size 0xb0, virtual false, abstract: false, final false
   inline void add_Completed(::System::EventHandler_1<::System::Net::Sockets::SocketAsyncEventArgs*>* value);
 
-  /// @brief Method remove_Completed, addr 0x28fe870, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_Completed, addr 0x2902ed8, size 0xb0, virtual false, abstract: false, final false
   inline void remove_Completed(::System::EventHandler_1<::System::Net::Sockets::SocketAsyncEventArgs*>* value);
 
   static inline ::System::Net::Sockets::SocketAsyncEventArgs* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28fe920, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2902f88, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Net::Sockets::SocketAsyncEventArgs* New_ctor(bool flowExecutionContext);
 
-  /// @brief Method .ctor, addr 0x28fe9c0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2903028, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(bool flowExecutionContext);
 
-  /// @brief Method Finalize, addr 0x28fea4c, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x29030b4, size 0x10, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method Dispose, addr 0x28fea5c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x29030c4, size 0x14, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Dispose, addr 0x28fea70, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x29030d8, size 0x64, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method SetBytesTransferred, addr 0x28fb43c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetBytesTransferred, addr 0x28ffaa4, size 0x8, virtual false, abstract: false, final false
   inline void SetBytesTransferred(int32_t value);
 
-  /// @brief Method get_CurrentSocket, addr 0x28fead4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentSocket, addr 0x290313c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Sockets::Socket* get_CurrentSocket();
 
-  /// @brief Method SetCurrentSocket, addr 0x28feadc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetCurrentSocket, addr 0x2903144, size 0x8, virtual false, abstract: false, final false
   inline void SetCurrentSocket(::System::Net::Sockets::Socket* socket);
 
-  /// @brief Method SetLastOperation, addr 0x28feae4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method SetLastOperation, addr 0x290314c, size 0xc8, virtual false, abstract: false, final false
   inline void SetLastOperation(::System::Net::Sockets::SocketAsyncOperation op);
 
-  /// @brief Method Complete_internal, addr 0x28febac, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Complete_internal, addr 0x2903214, size 0x28, virtual false, abstract: false, final false
   inline void Complete_internal();
 
-  /// @brief Method OnCompleted, addr 0x28febd4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method OnCompleted, addr 0x290323c, size 0x28, virtual true, abstract: false, final false
   inline void OnCompleted(::System::Net::Sockets::SocketAsyncEventArgs* e);
 
-  /// @brief Method get_MemoryBuffer, addr 0x28febfc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_MemoryBuffer, addr 0x2903264, size 0xc, virtual false, abstract: false, final false
   inline ::System::Memory_1<uint8_t> get_MemoryBuffer();
 
-  /// @brief Method get_Offset, addr 0x28fec08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Offset, addr 0x2903270, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Offset();
 
-  /// @brief Method get_Count, addr 0x28fec10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x2903278, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_BufferList, addr 0x28fec18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BufferList, addr 0x2903280, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::System::ArraySegment_1<uint8_t>>* get_BufferList();
 
-  /// @brief Method SetBuffer, addr 0x28fec20, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method SetBuffer, addr 0x2903288, size 0xf4, virtual false, abstract: false, final false
   inline void SetBuffer(::System::Memory_1<uint8_t> buffer);
 
   // Ctor Parameters [CppParam { name: "", ty: "SocketAsyncEventArgs", modifiers: "&&", def_value: None }]

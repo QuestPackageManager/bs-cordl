@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::IsVolatile);
 namespace System::Runtime::CompilerServices {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3379))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3375))
 // CS Name: ::System.Runtime.CompilerServices::IsVolatile*
 class CORDL_TYPE IsVolatile : public ::System::Object {
 public:

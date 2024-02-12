@@ -39,18 +39,18 @@ public:
 
   constexpr void __cordl_internal_set_mBitmap(int64_t value);
 
-  /// @brief Method ShouldDiscard, addr 0xf6f894, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ShouldDiscard, addr 0xf99724, size 0x44, virtual false, abstract: false, final false
   inline bool ShouldDiscard(int64_t seq);
 
-  /// @brief Method ReportAuthenticated, addr 0xf6f8e0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method ReportAuthenticated, addr 0xf99770, size 0xcc, virtual false, abstract: false, final false
   inline void ReportAuthenticated(int64_t seq);
 
-  /// @brief Method Reset, addr 0xf712fc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0xf9b18c, size 0x10, virtual false, abstract: false, final false
   inline void Reset();
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DtlsReplayWindow* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf6d52c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf973bc, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DtlsReplayWindow", modifiers: "&&", def_value: None }]

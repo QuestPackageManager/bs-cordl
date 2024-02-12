@@ -21,12 +21,12 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerPlacementErrorCodeMethods);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12739))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12637))
 // CS Name: ::MultiplayerPlacementErrorCodeMethods*
 class CORDL_TYPE MultiplayerPlacementErrorCodeMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToConnectionFailedReason, addr 0xe392e4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ToConnectionFailedReason, addr 0xe6411c, size 0x20, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::ConnectionFailedReason ToConnectionFailedReason(::GlobalNamespace::MultiplayerPlacementErrorCode errorCode);
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerPlacementErrorCodeMethods", modifiers: "&&", def_value: None }]

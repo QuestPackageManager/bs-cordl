@@ -16,7 +16,7 @@ MARK_VAL_T(::Oculus::Platform::TimeWindow);
 namespace Oculus::Platform {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13392))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13324))
 // CS Name: ::Oculus.Platform::TimeWindow
 struct CORDL_TYPE TimeWindow {
 public:

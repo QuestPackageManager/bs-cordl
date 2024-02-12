@@ -35,8 +35,8 @@ MARK_REF_PTR_T(::Zenject::SubContainerCreatorByNewPrefabMethod);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11274))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11277))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10416))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10419))
 // CS Name: ::Zenject::SubContainerCreatorByNewPrefabMethod*
 class CORDL_TYPE SubContainerCreatorByNewPrefabMethod : public ::Zenject::SubContainerCreatorByNewPrefabDynamicContext {
 public:
@@ -53,11 +53,11 @@ public:
   static inline ::Zenject::SubContainerCreatorByNewPrefabMethod* New_ctor(::Zenject::DiContainer* container, ::Zenject::IPrefabProvider* prefabProvider,
                                                                           ::Zenject::GameObjectCreationParameters* gameObjectBindInfo, ::System::Action_1<::Zenject::DiContainer*>* installerMethod);
 
-  /// @brief Method .ctor, addr 0x2f0c930, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f28a78, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::Zenject::IPrefabProvider* prefabProvider, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo,
                     ::System::Action_1<::Zenject::DiContainer*>* installerMethod);
 
-  /// @brief Method AddInstallers, addr 0x2f0c970, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method AddInstallers, addr 0x2f28ab8, size 0xb4, virtual true, abstract: false, final false
   inline void AddInstallers(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::GameObjectContext* context);
 
   // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByNewPrefabMethod", modifiers: "&&", def_value: None }]

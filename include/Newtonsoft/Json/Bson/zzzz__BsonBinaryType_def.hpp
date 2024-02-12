@@ -16,7 +16,7 @@ MARK_VAL_T(::Newtonsoft::Json::Bson::BsonBinaryType);
 namespace Newtonsoft::Json::Bson {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12069))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11967))
 // CS Name: ::Newtonsoft.Json.Bson::BsonBinaryType
 struct CORDL_TYPE BsonBinaryType {
 public:

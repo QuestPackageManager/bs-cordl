@@ -132,33 +132,33 @@ public:
 
   static inline int32_t getStaticF_stateArraySize();
 
-  /// @brief Method Init, addr 0xed5614, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0xf014a4, size 0x114, virtual true, abstract: false, final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method ReturnByte, addr 0xed5b10, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method ReturnByte, addr 0xf019a0, size 0x78, virtual true, abstract: false, final false
   inline uint8_t ReturnByte(uint8_t input);
 
-  /// @brief Method ProcessBytes, addr 0xed5d04, size 0x1ec, virtual true, abstract: false, final false
+  /// @brief Method ProcessBytes, addr 0xf01b94, size 0x1ec, virtual true, abstract: false, final false
   inline void ProcessBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t len, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method get_AlgorithmName, addr 0xed5ef0, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0xf01d80, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method Reset, addr 0xed5f30, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0xf01dc0, size 0x8, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method setKey, addr 0xed5728, size 0x3e8, virtual false, abstract: false, final false
+  /// @brief Method setKey, addr 0xf015b8, size 0x3e8, virtual false, abstract: false, final false
   inline void setKey(::ArrayW<uint8_t, ::Array<uint8_t>*> keyBytes);
 
-  /// @brief Method isaac, addr 0xed5b88, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method isaac, addr 0xf01a18, size 0x17c, virtual false, abstract: false, final false
   inline void isaac();
 
-  /// @brief Method mix, addr 0xed5f38, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method mix, addr 0xf01dc8, size 0xfc, virtual false, abstract: false, final false
   inline void mix(::ArrayW<uint32_t, ::Array<uint32_t>*> x);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::IsaacEngine* New_ctor();
 
-  /// @brief Method .ctor, addr 0xed6084, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf01f14, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "IsaacEngine", modifiers: "&&", def_value: None }]

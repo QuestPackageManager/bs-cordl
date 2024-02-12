@@ -16,7 +16,7 @@ MARK_VAL_T(::System::IO::MonoIOError);
 namespace System::IO {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3631))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3629))
 // CS Name: ::System.IO::MonoIOError
 struct CORDL_TYPE MonoIOError {
 public:

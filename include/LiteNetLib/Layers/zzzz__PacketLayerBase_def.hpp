@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::LiteNetLib::Layers::PacketLayerBase);
 namespace LiteNetLib::Layers {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14242))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14255))
 // CS Name: ::LiteNetLib.Layers::PacketLayerBase*
 class CORDL_TYPE PacketLayerBase : public ::System::Object {
 public:
@@ -37,7 +37,7 @@ public:
 
   static inline ::LiteNetLib::Layers::PacketLayerBase* New_ctor(int32_t extraPacketSizeForLayer);
 
-  /// @brief Method .ctor, addr 0x220d20c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22a2af4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t extraPacketSizeForLayer);
 
   /// @brief Method ProcessInboundPacket, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

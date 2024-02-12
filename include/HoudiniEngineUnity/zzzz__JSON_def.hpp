@@ -19,12 +19,12 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::JSON);
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9880))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9672))
 // CS Name: ::HoudiniEngineUnity::JSON*
 class CORDL_TYPE JSON : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Parse, addr 0x21d2670, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x2267f58, size 0x4, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::JSONNode* Parse(::StringW aJSON);
 
   // Ctor Parameters [CppParam { name: "", ty: "JSON", modifiers: "&&", def_value: None }]

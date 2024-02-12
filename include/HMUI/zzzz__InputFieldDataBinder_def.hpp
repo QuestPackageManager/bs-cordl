@@ -56,7 +56,7 @@ namespace HMUI {
 template <typename T0, typename T1>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13512))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13465))
 // CS Name: ::InputFieldDataBinder::<>c__DisplayClass2_0`2<T0,T1>*
 class CORDL_TYPE __InputFieldDataBinder____c__DisplayClass2_0_2 : public ::System::Object {
 public:
@@ -145,7 +145,7 @@ namespace HMUI {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13513))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13466))
 // CS Name: ::InputFieldDataBinder::<>c__3`1<T>*
 class CORDL_TYPE __InputFieldDataBinder____c__3_1 : public ::System::Object {
 public:
@@ -195,7 +195,7 @@ public:
 namespace HMUI {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13514))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13467))
 // CS Name: ::HMUI::InputFieldDataBinder*
 class CORDL_TYPE InputFieldDataBinder : public ::System::Object {
 public:
@@ -221,7 +221,7 @@ public:
 
   static inline ::HMUI::InputFieldDataBinder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21188d4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21ad1b0, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method AddBindings, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -232,7 +232,7 @@ public:
   /// @brief Method AddStringBindings, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void AddStringBindings(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::InputField>, T>*>* bindingData);
 
-  /// @brief Method ClearBindings, addr 0x2118954, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method ClearBindings, addr 0x21ad230, size 0x2c4, virtual false, abstract: false, final false
   inline void ClearBindings();
 
   // Ctor Parameters [CppParam { name: "", ty: "InputFieldDataBinder", modifiers: "&&", def_value: None }]

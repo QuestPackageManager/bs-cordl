@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::GlobalNamespace::BasicConnectionRequestHandler);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12683))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12581))
 // CS Name: ::BasicConnectionRequestHandler*
 class CORDL_TYPE BasicConnectionRequestHandler : public ::System::Object {
 public:
@@ -48,21 +48,21 @@ public:
 
   constexpr void __cordl_internal_set__secret_k__BackingField(::StringW value);
 
-  /// @brief Method get_secret, addr 0xe29860, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_secret, addr 0xe54698, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_secret();
 
-  /// @brief Method set_secret, addr 0xe29868, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_secret, addr 0xe546a0, size 0x8, virtual false, abstract: false, final false
   inline void set_secret(::StringW value);
 
-  /// @brief Method GetConnectionMessage, addr 0xe29870, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method GetConnectionMessage, addr 0xe546a8, size 0x70, virtual true, abstract: false, final true
   inline void GetConnectionMessage(::LiteNetLib::Utils::NetDataWriter* writer, ::StringW userId, ::StringW userName, bool isConnectionOwner);
 
-  /// @brief Method ValidateConnectionMessage, addr 0xe298e0, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method ValidateConnectionMessage, addr 0xe54718, size 0xbc, virtual true, abstract: false, final true
   inline bool ValidateConnectionMessage(::LiteNetLib::Utils::NetDataReader* reader, ByRef<::StringW> userId, ByRef<::StringW> userName, ByRef<bool> isConnectionOwner);
 
   static inline ::GlobalNamespace::BasicConnectionRequestHandler* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe2999c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe547d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BasicConnectionRequestHandler", modifiers: "&&", def_value: None }]

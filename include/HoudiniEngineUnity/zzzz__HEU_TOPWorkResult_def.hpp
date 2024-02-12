@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_TOPWorkResult);
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9773))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9565))
 // CS Name: ::HoudiniEngineUnity::HEU_TOPWorkResult*
 class CORDL_TYPE HEU_TOPWorkResult : public ::System::Object {
 public:
@@ -56,7 +56,7 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_TOPWorkResult* New_ctor();
 
-  /// @brief Method .ctor, addr 0x219c068, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x223194c, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_TOPWorkResult", modifiers: "&&", def_value: None }]

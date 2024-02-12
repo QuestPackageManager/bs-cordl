@@ -46,7 +46,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MockPlayerGamePoseGenerator);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15515))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15701))
 // CS Name: ::MockPlayerGamePoseGenerator*
 class CORDL_TYPE MockPlayerGamePoseGenerator : public ::System::Object {
 public:
@@ -107,10 +107,10 @@ public:
   static inline ::GlobalNamespace::MockPlayerGamePoseGenerator* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager,
                                                                          ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager, bool leftHanded);
 
-  /// @brief Method .ctor, addr 0x23e7108, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2406f68, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager, bool leftHanded);
 
-  /// @brief Method Dispose, addr 0x23e7344, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x24071a4, size 0x2c, virtual true, abstract: false, final false
   inline void Dispose();
 
   /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -119,13 +119,13 @@ public:
   /// @brief Method Tick, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Tick();
 
-  /// @brief Method SimulateFail, addr 0x23e7438, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method SimulateFail, addr 0x2407298, size 0xf0, virtual true, abstract: false, final false
   inline void SimulateFail();
 
-  /// @brief Method SimulateGiveUp, addr 0x23e7630, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method SimulateGiveUp, addr 0x2407490, size 0xf0, virtual false, abstract: false, final false
   inline void SimulateGiveUp();
 
-  /// @brief Method CreateEmptyLevelCompletionResults, addr 0x23e7528, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method CreateEmptyLevelCompletionResults, addr 0x2407388, size 0x108, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::LevelCompletionResults* CreateEmptyLevelCompletionResults(::GlobalNamespace::__LevelCompletionResults__LevelEndStateType levelEndStateType);
 
   // Ctor Parameters [CppParam { name: "", ty: "MockPlayerGamePoseGenerator", modifiers: "&&", def_value: None }]

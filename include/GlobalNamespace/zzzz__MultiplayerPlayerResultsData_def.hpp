@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerPlayerResultsData);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5236))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10935))
 // CS Name: ::MultiplayerPlayerResultsData*
 class CORDL_TYPE MultiplayerPlayerResultsData : public ::System::Object {
 public:
@@ -73,10 +73,10 @@ public:
   static inline ::GlobalNamespace::MultiplayerPlayerResultsData* New_ctor(::GlobalNamespace::IConnectedPlayer* connectedPlayer,
                                                                           ::GlobalNamespace::MultiplayerLevelCompletionResults* multiplayerLevelCompletionResults);
 
-  /// @brief Method .ctor, addr 0x22569f8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12a066c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IConnectedPlayer* connectedPlayer, ::GlobalNamespace::MultiplayerLevelCompletionResults* multiplayerLevelCompletionResults);
 
-  /// @brief Method CompareTo, addr 0x2256a24, size 0x1e0, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x12a0698, size 0x1e0, virtual true, abstract: false, final true
   inline int32_t CompareTo(::System::Object* obj);
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerPlayerResultsData", modifiers: "&&", def_value: None }]

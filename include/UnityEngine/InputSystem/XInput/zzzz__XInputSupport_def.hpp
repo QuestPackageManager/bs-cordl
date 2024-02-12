@@ -15,12 +15,12 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::XInput::XInputSupport);
 namespace UnityEngine::InputSystem::XInput {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6356))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5615))
 // CS Name: ::UnityEngine.InputSystem.XInput::XInputSupport*
 class CORDL_TYPE XInputSupport : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Initialize, addr 0x2ac9b00, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x2aca66c, size 0x70, virtual false, abstract: false, final false
   static inline void Initialize();
 
   // Ctor Parameters [CppParam { name: "", ty: "XInputSupport", modifiers: "&&", def_value: None }]

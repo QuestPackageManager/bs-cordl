@@ -21,21 +21,21 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapDifficultyMethods);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4342))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10771))
 // CS Name: ::BeatmapDifficultyMethods*
 class CORDL_TYPE BeatmapDifficultyMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Name, addr 0x2340cf0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Name, addr 0x1281c44, size 0x9c, virtual false, abstract: false, final false
   static inline ::StringW Name(::GlobalNamespace::BeatmapDifficulty difficulty);
 
-  /// @brief Method ShortName, addr 0x2340d8c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ShortName, addr 0x1281ce0, size 0x9c, virtual false, abstract: false, final false
   static inline ::StringW ShortName(::GlobalNamespace::BeatmapDifficulty difficulty);
 
-  /// @brief Method DefaultRating, addr 0x2340e28, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method DefaultRating, addr 0x1281d7c, size 0x28, virtual false, abstract: false, final false
   static inline int32_t DefaultRating(::GlobalNamespace::BeatmapDifficulty difficulty);
 
-  /// @brief Method NoteJumpMovementSpeed, addr 0x2340e50, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method NoteJumpMovementSpeed, addr 0x1281da4, size 0x28, virtual false, abstract: false, final false
   static inline float_t NoteJumpMovementSpeed(::GlobalNamespace::BeatmapDifficulty difficulty);
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapDifficultyMethods", modifiers: "&&", def_value: None }]

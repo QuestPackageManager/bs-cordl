@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint);
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15344))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15504))
 // CS Name: ::UnityEngine.ProBuilder.Poly2Tri::TriangulationPoint*
 class CORDL_TYPE TriangulationPoint : public ::System::Object {
 public:
@@ -75,36 +75,36 @@ public:
 
   constexpr void __cordl_internal_set_Index(int32_t value);
 
-  /// @brief Method get_Edges, addr 0x2b356d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Edges, addr 0x2b34244, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>* get_Edges();
 
-  /// @brief Method set_Edges, addr 0x2b356e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Edges, addr 0x2b3424c, size 0x8, virtual false, abstract: false, final false
   inline void set_Edges(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>* value);
 
   static inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* New_ctor(double_t x, double_t y, int32_t index);
 
-  /// @brief Method .ctor, addr 0x2b2f1a4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b2dd10, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(double_t x, double_t y, int32_t index);
 
-  /// @brief Method ToString, addr 0x2b356e8, size 0x1a4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2b34254, size 0x1a4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_Xf, addr 0x2b3588c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Xf, addr 0x2b343f8, size 0xc, virtual false, abstract: false, final false
   inline float_t get_Xf();
 
-  /// @brief Method set_Xf, addr 0x2b35898, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Xf, addr 0x2b34404, size 0xc, virtual false, abstract: false, final false
   inline void set_Xf(float_t value);
 
-  /// @brief Method get_Yf, addr 0x2b358a4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Yf, addr 0x2b34410, size 0xc, virtual false, abstract: false, final false
   inline float_t get_Yf();
 
-  /// @brief Method set_Yf, addr 0x2b358b0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Yf, addr 0x2b3441c, size 0xc, virtual false, abstract: false, final false
   inline void set_Yf(float_t value);
 
-  /// @brief Method AddEdge, addr 0x2b34394, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method AddEdge, addr 0x2b32f00, size 0xf0, virtual false, abstract: false, final false
   inline void AddEdge(::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* e);
 
-  /// @brief Method get_HasEdges, addr 0x2b315d0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HasEdges, addr 0x2b3013c, size 0x10, virtual false, abstract: false, final false
   inline bool get_HasEdges();
 
   // Ctor Parameters [CppParam { name: "", ty: "TriangulationPoint", modifiers: "&&", def_value: None }]

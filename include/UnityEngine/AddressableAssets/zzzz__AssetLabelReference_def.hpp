@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::AssetLabelReference);
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14081))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14094))
 // CS Name: ::UnityEngine.AddressableAssets::AssetLabelReference*
 class CORDL_TYPE AssetLabelReference : public ::System::Object {
 public:
@@ -47,24 +47,24 @@ public:
 
   constexpr void __cordl_internal_set_m_LabelString(::StringW value);
 
-  /// @brief Method get_labelString, addr 0x2a239b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_labelString, addr 0x2a26524, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_labelString();
 
-  /// @brief Method set_labelString, addr 0x2a239c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_labelString, addr 0x2a2652c, size 0x8, virtual false, abstract: false, final false
   inline void set_labelString(::StringW value);
 
-  /// @brief Method get_RuntimeKey, addr 0x2a239c8, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method get_RuntimeKey, addr 0x2a26534, size 0x58, virtual true, abstract: false, final true
   inline ::System::Object* get_RuntimeKey();
 
-  /// @brief Method RuntimeKeyIsValid, addr 0x2a23a20, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method RuntimeKeyIsValid, addr 0x2a2658c, size 0x7c, virtual true, abstract: false, final true
   inline bool RuntimeKeyIsValid();
 
-  /// @brief Method GetHashCode, addr 0x2a23a9c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2a26608, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::AddressableAssets::AssetLabelReference* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2a23abc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a26628, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AssetLabelReference", modifiers: "&&", def_value: None }]

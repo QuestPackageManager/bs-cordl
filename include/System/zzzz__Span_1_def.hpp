@@ -30,7 +30,7 @@ namespace System {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2537)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2537), inst: 965 })]
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2537)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2537), inst: 962 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2470))
 // CS Name: ::System::Span`1<T>
 struct CORDL_TYPE Span_1 {

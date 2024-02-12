@@ -61,7 +61,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__SpawnRotationChevronManager__DirectionData);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4996))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4350))
 // CS Name: ::SpawnRotationChevronManager::DirectionData*
 class CORDL_TYPE __SpawnRotationChevronManager__DirectionData : public ::System::Object {
 public:
@@ -104,7 +104,7 @@ public:
 
   static inline ::GlobalNamespace::__SpawnRotationChevronManager__DirectionData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23b6894, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23759d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__SpawnRotationChevronManager__DirectionData", modifiers: "&&", def_value: None }]
@@ -151,8 +151,8 @@ static_assert(offsetof(::GlobalNamespace::__SpawnRotationChevronManager__Directi
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4997))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4351))
 // CS Name: ::SpawnRotationChevronManager*
 class CORDL_TYPE SpawnRotationChevronManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -327,30 +327,30 @@ public:
 
   constexpr void __cordl_internal_set__currentSpawnRotation(float_t value);
 
-  /// @brief Method Start, addr 0x23b5724, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2374868, size 0x170, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x23b59d8, size 0xa64, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2374b1c, size 0xa64, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method OnDestroy, addr 0x23b643c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2375580, size 0xfc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleBeatmapObjectCallback, addr 0x23b6538, size 0x35c, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapObjectCallback, addr 0x237567c, size 0x35c, virtual false, abstract: false, final false
   inline void HandleBeatmapObjectCallback(::GlobalNamespace::BeatmapObjectData* beatmapObjectData);
 
-  /// @brief Method HandleSpawnRotationBeatmapEvent, addr 0x23b689c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleSpawnRotationBeatmapEvent, addr 0x23759e0, size 0x1c, virtual false, abstract: false, final false
   inline void HandleSpawnRotationBeatmapEvent(::GlobalNamespace::SpawnRotationBeatmapEventData* beatmapEventData);
 
-  /// @brief Method HandleBeatmapObjectSpawnControllerDidInit, addr 0x23b5894, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapObjectSpawnControllerDidInit, addr 0x23749d8, size 0x144, virtual false, abstract: false, final false
   inline void HandleBeatmapObjectSpawnControllerDidInit();
 
-  /// @brief Method ComputeAheadTime, addr 0x23b68b8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ComputeAheadTime, addr 0x23759fc, size 0x5c, virtual false, abstract: false, final false
   inline float_t ComputeAheadTime();
 
   static inline ::GlobalNamespace::SpawnRotationChevronManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23b6914, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2375a58, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SpawnRotationChevronManager", modifiers: "&&", def_value: None }]

@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::SFB::IStandaloneFileBrowser);
 namespace SFB {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6088))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5363))
 // CS Name: ::SFB::IStandaloneFileBrowser*
 class CORDL_TYPE IStandaloneFileBrowser {
 public:

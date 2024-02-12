@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::System::Reflection::AssemblyCopyrightAttribute);
 namespace System::Reflection {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3447))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3443))
 // CS Name: ::System.Reflection::AssemblyCopyrightAttribute*
 class CORDL_TYPE AssemblyCopyrightAttribute : public ::System::Attribute {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::System::Reflection::AssemblyCopyrightAttribute* New_ctor(::StringW copyright);
 
-  /// @brief Method .ctor, addr 0x24e5ed0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2505028, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW copyright);
 
   // Ctor Parameters [CppParam { name: "", ty: "AssemblyCopyrightAttribute", modifiers: "&&", def_value: None }]

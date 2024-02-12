@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MaterialPropertyBlockController);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14566))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14460))
 // CS Name: ::MaterialPropertyBlockController*
 class CORDL_TYPE MaterialPropertyBlockController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -72,18 +72,18 @@ public:
 
   constexpr void __cordl_internal_set__isInitialized(bool value);
 
-  /// @brief Method get_renderers, addr 0x2115060, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_renderers, addr 0x21a9808, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Renderer>, ::Array<::UnityW<::UnityEngine::Renderer>>*> get_renderers();
 
-  /// @brief Method get_materialPropertyBlock, addr 0x2114d60, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_materialPropertyBlock, addr 0x21a9508, size 0x6c, virtual false, abstract: false, final false
   inline ::UnityEngine::MaterialPropertyBlock* get_materialPropertyBlock();
 
-  /// @brief Method ApplyChanges, addr 0x2114afc, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method ApplyChanges, addr 0x21a92a4, size 0x1f0, virtual false, abstract: false, final false
   inline void ApplyChanges();
 
   static inline ::GlobalNamespace::MaterialPropertyBlockController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2115068, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21a9810, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockController", modifiers: "&&", def_value: None }]

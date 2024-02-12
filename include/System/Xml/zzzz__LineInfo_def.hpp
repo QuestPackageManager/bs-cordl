@@ -16,15 +16,15 @@ MARK_VAL_T(::System::Xml::LineInfo);
 namespace System::Xml {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11532))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11430))
 // CS Name: ::System.Xml::LineInfo
 struct CORDL_TYPE LineInfo {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x28923c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2895a2c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t lineNo, int32_t linePos);
 
-  /// @brief Method Set, addr 0x28923cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x2895a34, size 0x8, virtual false, abstract: false, final false
   inline void Set(int32_t lineNo, int32_t linePos);
 
   // Ctor Parameters [CppParam { name: "lineNo", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "linePos", ty: "int32_t", modifiers: "", def_value: None }]

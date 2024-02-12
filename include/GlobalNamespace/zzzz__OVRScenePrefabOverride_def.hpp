@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRScenePrefabOverride);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7980))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7996))
 // CS Name: ::OVRScenePrefabOverride*
 class CORDL_TYPE OVRScenePrefabOverride : public ::System::Object {
 public:
@@ -64,18 +64,18 @@ public:
 
   constexpr void __cordl_internal_set__editorClassificationIndex(int32_t value);
 
-  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize, addr 0x278939c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize, addr 0x27a7038, size 0x4, virtual true, abstract: false, final true
   inline void UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize();
 
-  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize, addr 0x27893a0, size 0x154, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize, addr 0x27a703c, size 0x154, virtual true, abstract: false, final true
   inline void UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize();
 
   static inline ::GlobalNamespace::OVRScenePrefabOverride* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2789808, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27a74a4, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize>g__IndexOf|4_0, addr 0x27894f4, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method <UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize>g__IndexOf|4_0, addr 0x27a7190, size 0x314, virtual false, abstract: false, final false
   static inline int32_t _UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize_g__IndexOf_4_0(::StringW label, ::System::Collections::Generic::IEnumerable_1<::StringW>* collection);
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRScenePrefabOverride", modifiers: "&&", def_value: None }]

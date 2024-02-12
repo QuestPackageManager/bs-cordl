@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::IsPackBetterBuyThanLevelResult);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16272))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16447))
 // CS Name: ::IsPackBetterBuyThanLevelResult
 struct CORDL_TYPE IsPackBetterBuyThanLevelResult {
 public:

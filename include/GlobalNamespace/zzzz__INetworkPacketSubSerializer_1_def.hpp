@@ -29,7 +29,7 @@ namespace GlobalNamespace {
 template <typename TData>
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12891))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12789))
 // CS Name: ::INetworkPacketSubSerializer`1<TData>*
 class CORDL_TYPE INetworkPacketSubSerializer_1 {
 public:

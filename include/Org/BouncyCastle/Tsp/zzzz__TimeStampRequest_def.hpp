@@ -81,61 +81,61 @@ public:
 
   static inline ::Org::BouncyCastle::Tsp::TimeStampRequest* New_ctor(::Org::BouncyCastle::Asn1::Tsp::TimeStampReq* req);
 
-  /// @brief Method .ctor, addr 0x114f1dc, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x117d06c, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Tsp::TimeStampReq* req);
 
   static inline ::Org::BouncyCastle::Tsp::TimeStampRequest* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> req);
 
-  /// @brief Method .ctor, addr 0x114f214, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x117d0a4, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> req);
 
   static inline ::Org::BouncyCastle::Tsp::TimeStampRequest* New_ctor(::System::IO::Stream* input);
 
-  /// @brief Method .ctor, addr 0x114f3bc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x117d24c, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* input);
 
   static inline ::Org::BouncyCastle::Tsp::TimeStampRequest* New_ctor(::Org::BouncyCastle::Asn1::Asn1InputStream* str);
 
-  /// @brief Method .ctor, addr 0x114f288, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x117d118, size 0x134, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1InputStream* str);
 
-  /// @brief Method get_Version, addr 0x114f430, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x117d2c0, size 0x24, virtual false, abstract: false, final false
   inline int32_t get_Version();
 
-  /// @brief Method get_MessageImprintAlgOid, addr 0x114f454, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_MessageImprintAlgOid, addr 0x117d2e4, size 0x3c, virtual false, abstract: false, final false
   inline ::StringW get_MessageImprintAlgOid();
 
-  /// @brief Method GetMessageImprintDigest, addr 0x114f490, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetMessageImprintDigest, addr 0x117d320, size 0x24, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetMessageImprintDigest();
 
-  /// @brief Method get_ReqPolicy, addr 0x114f4b4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_ReqPolicy, addr 0x117d344, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_ReqPolicy();
 
-  /// @brief Method get_Nonce, addr 0x114f4e0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_Nonce, addr 0x117d370, size 0x2c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Nonce();
 
-  /// @brief Method get_CertReq, addr 0x114f50c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_CertReq, addr 0x117d39c, size 0x2c, virtual false, abstract: false, final false
   inline bool get_CertReq();
 
-  /// @brief Method Validate, addr 0x114f538, size 0x628, virtual false, abstract: false, final false
+  /// @brief Method Validate, addr 0x117d3c8, size 0x628, virtual false, abstract: false, final false
   inline void Validate(::System::Collections::IList* algorithms, ::System::Collections::IList* policies, ::System::Collections::IList* extensions);
 
-  /// @brief Method GetEncoded, addr 0x114fd84, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x117dc14, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
-  /// @brief Method get_Extensions, addr 0x114fb84, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Extensions, addr 0x117da14, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* get_Extensions();
 
-  /// @brief Method get_HasExtensions, addr 0x114fda0, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method get_HasExtensions, addr 0x117dc30, size 0x10, virtual true, abstract: false, final false
   inline bool get_HasExtensions();
 
-  /// @brief Method GetExtension, addr 0x114fdb0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetExtension, addr 0x117dc40, size 0x14, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extension* GetExtension(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetExtensionOids, addr 0x114fdc4, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method GetExtensionOids, addr 0x117dc54, size 0x58, virtual true, abstract: false, final false
   inline ::System::Collections::IList* GetExtensionOids();
 
-  /// @brief Method GetX509Extensions, addr 0x114fecc, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetX509Extensions, addr 0x117dd5c, size 0x1c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* GetX509Extensions();
 
   // Ctor Parameters [CppParam { name: "", ty: "TimeStampRequest", modifiers: "&&", def_value: None }]

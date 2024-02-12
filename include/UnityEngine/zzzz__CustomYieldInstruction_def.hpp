@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::UnityEngine::CustomYieldInstruction);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10242))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8986))
 // CS Name: ::UnityEngine::CustomYieldInstruction*
 class CORDL_TYPE CustomYieldInstruction : public ::System::Object {
 public:
@@ -39,18 +39,18 @@ public:
   /// @brief Method get_keepWaiting, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_keepWaiting();
 
-  /// @brief Method get_Current, addr 0x2cd4ed4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x2cdbe7c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* get_Current();
 
-  /// @brief Method MoveNext, addr 0x2cd4edc, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2cdbe84, size 0xc, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method Reset, addr 0x2cd4ee8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x2cdbe90, size 0x4, virtual true, abstract: false, final false
   inline void Reset();
 
   static inline ::UnityEngine::CustomYieldInstruction* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ccefd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cd6054, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CustomYieldInstruction", modifiers: "&&", def_value: None }]

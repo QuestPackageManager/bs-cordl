@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::Unity::IO::LowLevel::Unsafe::AsyncReadManagerMetricsFilters);
 namespace Unity::IO::LowLevel::Unsafe {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9991))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8722))
 // CS Name: ::Unity.IO.LowLevel.Unsafe::AsyncReadManagerMetricsFilters*
 class CORDL_TYPE AsyncReadManagerMetricsFilters : public ::System::Object {
 public:

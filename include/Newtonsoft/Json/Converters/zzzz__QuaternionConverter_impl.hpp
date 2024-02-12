@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Converters::__QuaternionConverter____c::*)()>(
     &::Newtonsoft::Json::Converters::__QuaternionConverter____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b61ac;
+  constexpr static std::size_t addrs = 0x26d8368;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Converters::__QuaternionConverter____c::*)(::Newtonsoft::Json::Linq::JProperty*)>(
     &::Newtonsoft::Json::Converters::__QuaternionConverter____c::_ReadJson_b__2_0)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x26b61b4;
+  constexpr static std::size_t addrs = 0x26d8370;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Converters::__QuaternionConverter____c::*)(::Newtonsoft::Json::Linq::JProperty*)>(
     &::Newtonsoft::Json::Converters::__QuaternionConverter____c::_ReadJson_b__2_1)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x26b6208;
+  constexpr static std::size_t addrs = 0x26d83c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Converters::__QuaternionConverter____c::*)(::Newtonsoft::Json::Linq::JProperty*)>(
     &::Newtonsoft::Json::Converters::__QuaternionConverter____c::_ReadJson_b__2_2)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x26b625c;
+  constexpr static std::size_t addrs = 0x26d8418;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Converters::__QuaternionConverter____c::*)(::Newtonsoft::Json::Linq::JProperty*)>(
     &::Newtonsoft::Json::Converters::__QuaternionConverter____c::_ReadJson_b__2_3)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x26b62b0;
+  constexpr static std::size_t addrs = 0x26d846c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Converters::__QuaternionConverter____c::*)(::Newtonsoft::Json::Linq::JProperty*)>(
     &::Newtonsoft::Json::Converters::__QuaternionConverter____c::_ReadJson_b__2_4)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x26b6304;
+  constexpr static std::size_t addrs = 0x26d84c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -200,7 +200,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Converters::QuaternionConverter::*)(
     ::Newtonsoft::Json::JsonWriter*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*)>(&::Newtonsoft::Json::Converters::QuaternionConverter::WriteJson)> {
   constexpr static std::size_t size = 0x334;
-  constexpr static std::size_t addrs = 0x26b5784;
+  constexpr static std::size_t addrs = 0x26d7940;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -216,7 +216,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Converters::QuaternionConverter::*)(::System::Type*)>(
     &::Newtonsoft::Json::Converters::QuaternionConverter::CanConvert)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x26b5ab8;
+  constexpr static std::size_t addrs = 0x26d7c74;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -233,7 +233,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::Newtonsoft::Json::Converters::QuaternionConverter::*)(::Newtonsoft::Json::JsonReader*, ::System::Type*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*)>(
         &::Newtonsoft::Json::Converters::QuaternionConverter::ReadJson)> {
   constexpr static std::size_t size = 0x5fc;
-  constexpr static std::size_t addrs = 0x26b5b3c;
+  constexpr static std::size_t addrs = 0x26d7cf8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -249,7 +249,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Converters::QuaternionConverter::*)()>(
     &::Newtonsoft::Json::Converters::QuaternionConverter::get_CanRead)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b6138;
+  constexpr static std::size_t addrs = 0x26d82f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -265,7 +265,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Converters::QuaternionConverter::*)()>(
     &::Newtonsoft::Json::Converters::QuaternionConverter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b6140;
+  constexpr static std::size_t addrs = 0x26d82fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::QuaternionConverter*>::get(),

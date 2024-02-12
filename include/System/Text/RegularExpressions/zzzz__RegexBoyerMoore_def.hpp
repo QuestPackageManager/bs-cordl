@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::System::Text::RegularExpressions::RegexBoyerMoore);
 namespace System::Text::RegularExpressions {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8914))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6924))
 // CS Name: ::System.Text.RegularExpressions::RegexBoyerMoore*
 class CORDL_TYPE RegexBoyerMoore : public ::System::Object {
 public:
@@ -110,16 +110,16 @@ public:
 
   static inline ::System::Text::RegularExpressions::RegexBoyerMoore* New_ctor(::StringW pattern, bool caseInsensitive, bool rightToLeft, ::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method .ctor, addr 0x2953dec, size 0x4b4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2957d0c, size 0x4b4, virtual false, abstract: false, final false
   inline void _ctor(::StringW pattern, bool caseInsensitive, bool rightToLeft, ::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method MatchPattern, addr 0x29542a0, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method MatchPattern, addr 0x29581c0, size 0x124, virtual false, abstract: false, final false
   inline bool MatchPattern(::StringW text, int32_t index);
 
-  /// @brief Method IsMatch, addr 0x29543c4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method IsMatch, addr 0x29582e4, size 0x6c, virtual false, abstract: false, final false
   inline bool IsMatch(::StringW text, int32_t index, int32_t beglimit, int32_t endlimit);
 
-  /// @brief Method Scan, addr 0x2954430, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method Scan, addr 0x2958350, size 0x2e4, virtual false, abstract: false, final false
   inline int32_t Scan(::StringW text, int32_t index, int32_t beglimit, int32_t endlimit);
 
   // Ctor Parameters [CppParam { name: "", ty: "RegexBoyerMoore", modifiers: "&&", def_value: None }]

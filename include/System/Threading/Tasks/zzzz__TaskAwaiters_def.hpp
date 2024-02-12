@@ -26,7 +26,7 @@ namespace System::Threading::Tasks {
 class CORDL_TYPE TaskAwaiters : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ForceAsync, addr 0x26221b0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ForceAsync, addr 0x264832c, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::ForceAsyncAwaiter ForceAsync(::System::Threading::Tasks::Task* task);
 
   // Ctor Parameters [CppParam { name: "", ty: "TaskAwaiters", modifiers: "&&", def_value: None }]

@@ -33,17 +33,17 @@ MARK_VAL_T(::UnityEngine::LowLevel::PlayerLoopSystem);
 namespace UnityEngine::LowLevel {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10473))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9242))
 // CS Name: ::PlayerLoopSystem::UpdateFunction*
 class CORDL_TYPE __PlayerLoopSystem__UpdateFunction : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::UnityEngine::LowLevel::__PlayerLoopSystem__UpdateFunction* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2cfa698, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d05374, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x2cfa754, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2d05430, size 0x14, virtual true, abstract: false, final false
   inline void Invoke();
 
   // Ctor Parameters [CppParam { name: "", ty: "__PlayerLoopSystem__UpdateFunction", modifiers: "&&", def_value: None }]
@@ -71,14 +71,14 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::LowLevel::__PlayerL
 namespace UnityEngine::LowLevel {
 // Is value type: true
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10474))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9243))
 // CS Name: ::UnityEngine.LowLevel::PlayerLoopSystem
 struct CORDL_TYPE PlayerLoopSystem {
 public:
   // Declarations
   using UpdateFunction = ::UnityEngine::LowLevel::__PlayerLoopSystem__UpdateFunction;
 
-  /// @brief Method ToString, addr 0x2cfa678, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2d05354, size 0x20, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "type", ty: "::System::Type*", modifiers: "", def_value: None }, CppParam { name: "subSystemList", ty:

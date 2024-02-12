@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::RootMotion::SolverManager);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 51, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12499))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12397))
 // CS Name: ::RootMotion::SolverManager*
 class CORDL_TYPE SolverManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -87,51 +87,51 @@ public:
 
   constexpr void __cordl_internal_set_skipSolverUpdate(bool value);
 
-  /// @brief Method Disable, addr 0x123f2a8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Disable, addr 0x12da358, size 0x94, virtual false, abstract: false, final false
   inline void Disable();
 
-  /// @brief Method InitiateSolver, addr 0x123f33c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method InitiateSolver, addr 0x12da3ec, size 0x4, virtual true, abstract: false, final false
   inline void InitiateSolver();
 
-  /// @brief Method UpdateSolver, addr 0x123f340, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method UpdateSolver, addr 0x12da3f0, size 0x4, virtual true, abstract: false, final false
   inline void UpdateSolver();
 
-  /// @brief Method FixTransforms, addr 0x123f344, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method FixTransforms, addr 0x12da3f4, size 0x4, virtual true, abstract: false, final false
   inline void FixTransforms();
 
-  /// @brief Method OnDisable, addr 0x123f348, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x12da3f8, size 0x28, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method Start, addr 0x123f3c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x12da470, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method get_animatePhysics, addr 0x123f3c4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method get_animatePhysics, addr 0x12da474, size 0xcc, virtual false, abstract: false, final false
   inline bool get_animatePhysics();
 
-  /// @brief Method Initiate, addr 0x123f370, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Initiate, addr 0x12da420, size 0x50, virtual false, abstract: false, final false
   inline void Initiate();
 
-  /// @brief Method Update, addr 0x123f648, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x12da6f8, size 0x3c, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method FindAnimatorRecursive, addr 0x123f490, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method FindAnimatorRecursive, addr 0x12da540, size 0x1b8, virtual false, abstract: false, final false
   inline void FindAnimatorRecursive(::UnityEngine::Transform* t, bool findInChildren);
 
-  /// @brief Method get_isAnimated, addr 0x123f684, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_isAnimated, addr 0x12da734, size 0x98, virtual false, abstract: false, final false
   inline bool get_isAnimated();
 
-  /// @brief Method FixedUpdate, addr 0x123f71c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method FixedUpdate, addr 0x12da7cc, size 0x4c, virtual false, abstract: false, final false
   inline void FixedUpdate();
 
-  /// @brief Method LateUpdate, addr 0x123f768, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x12da818, size 0x4c, virtual false, abstract: false, final false
   inline void LateUpdate();
 
-  /// @brief Method UpdateSolverExternal, addr 0x123f7b4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method UpdateSolverExternal, addr 0x12da864, size 0x38, virtual false, abstract: false, final false
   inline void UpdateSolverExternal();
 
   static inline ::RootMotion::SolverManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x123f7ec, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12da89c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SolverManager", modifiers: "&&", def_value: None }]

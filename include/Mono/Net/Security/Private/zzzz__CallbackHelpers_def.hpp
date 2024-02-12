@@ -55,7 +55,7 @@ MARK_REF_PTR_T(::Mono::Net::Security::Private::__CallbackHelpers____c__DisplayCl
 namespace Mono::Net::Security::Private {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8847))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6857))
 // CS Name: ::CallbackHelpers::<>c__DisplayClass0_0*
 class CORDL_TYPE __CallbackHelpers____c__DisplayClass0_0 : public ::System::Object {
 public:
@@ -71,10 +71,10 @@ public:
 
   static inline ::Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass0_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2825e7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x282a664, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <PublicToMono>b__0, addr 0x2825e8c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <PublicToMono>b__0, addr 0x282a674, size 0x24, virtual false, abstract: false, final false
   inline bool _PublicToMono_b__0(::StringW h, ::System::Security::Cryptography::X509Certificates::X509Certificate* c, ::System::Security::Cryptography::X509Certificates::X509Chain* ch,
                                  ::Mono::Security::Interface::MonoSslPolicyErrors e);
 
@@ -108,7 +108,7 @@ static_assert(offsetof(::Mono::Net::Security::Private::__CallbackHelpers____c__D
 namespace Mono::Net::Security::Private {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8848))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6858))
 // CS Name: ::CallbackHelpers::<>c__DisplayClass6_0*
 class CORDL_TYPE __CallbackHelpers____c__DisplayClass6_0 : public ::System::Object {
 public:
@@ -124,10 +124,10 @@ public:
 
   static inline ::Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass6_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2825e84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x282a66c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <MonoToInternal>b__0, addr 0x2825eb0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <MonoToInternal>b__0, addr 0x282a698, size 0x24, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate* _MonoToInternal_b__0(::StringW t, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* lc,
                                                                                                    ::System::Security::Cryptography::X509Certificates::X509Certificate* rc,
                                                                                                    ::ArrayW<::StringW, ::Array<::StringW>*> ai);
@@ -162,7 +162,7 @@ static_assert(offsetof(::Mono::Net::Security::Private::__CallbackHelpers____c__D
 namespace Mono::Net::Security::Private {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8849))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6859))
 // CS Name: ::Mono.Net.Security.Private::CallbackHelpers*
 class CORDL_TYPE CallbackHelpers : public ::System::Object {
 public:
@@ -171,10 +171,10 @@ public:
 
   using __c__DisplayClass0_0 = ::Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass0_0;
 
-  /// @brief Method PublicToMono, addr 0x2825dcc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method PublicToMono, addr 0x282a5b4, size 0xb0, virtual false, abstract: false, final false
   static inline ::Mono::Security::Interface::MonoRemoteCertificateValidationCallback* PublicToMono(::System::Net::Security::RemoteCertificateValidationCallback* callback);
 
-  /// @brief Method MonoToInternal, addr 0x282050c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method MonoToInternal, addr 0x2824cf4, size 0xb0, virtual false, abstract: false, final false
   static inline ::System::Net::Security::LocalCertSelectionCallback* MonoToInternal(::Mono::Security::Interface::MonoLocalCertificateSelectionCallback* callback);
 
   // Ctor Parameters [CppParam { name: "", ty: "CallbackHelpers", modifiers: "&&", def_value: None }]

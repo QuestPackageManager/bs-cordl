@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::SendInvitesResult);
 namespace Oculus::Platform::Models {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13480))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13433))
 // CS Name: ::Oculus.Platform.Models::SendInvitesResult*
 class CORDL_TYPE SendInvitesResult : public ::System::Object {
 public:
@@ -35,7 +35,7 @@ public:
 
   static inline ::Oculus::Platform::Models::SendInvitesResult* New_ctor(void* o);
 
-  /// @brief Method .ctor, addr 0x2708e10, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x273d42c, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "SendInvitesResult", modifiers: "&&", def_value: None }]

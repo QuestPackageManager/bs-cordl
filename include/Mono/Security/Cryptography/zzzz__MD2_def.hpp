@@ -15,17 +15,17 @@ MARK_REF_PTR_T(::Mono::Security::Cryptography::MD2);
 namespace Mono::Security::Cryptography {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2916))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2277))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13743))
 // CS Name: ::Mono.Security.Cryptography::MD2*
 class CORDL_TYPE MD2 : public ::System::Security::Cryptography::HashAlgorithm {
 public:
   // Declarations
   static inline ::Mono::Security::Cryptography::MD2* New_ctor();
 
-  /// @brief Method .ctor, addr 0x242082c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2424680, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Create, addr 0x242084c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x24246a0, size 0x58, virtual false, abstract: false, final false
   static inline ::Mono::Security::Cryptography::MD2* Create();
 
   // Ctor Parameters [CppParam { name: "", ty: "MD2", modifiers: "&&", def_value: None }]

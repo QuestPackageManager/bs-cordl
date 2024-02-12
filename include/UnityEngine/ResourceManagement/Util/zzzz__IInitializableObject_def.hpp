@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::Util::IInitializableObject);
 namespace UnityEngine::ResourceManagement::Util {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13975))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13988))
 // CS Name: ::UnityEngine.ResourceManagement.Util::IInitializableObject*
 class CORDL_TYPE IInitializableObject {
 public:

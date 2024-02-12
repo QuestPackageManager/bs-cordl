@@ -24,10 +24,10 @@ namespace System::Security::AccessControl {
 class CORDL_TYPE SystemAcl : public ::System::Security::AccessControl::CommonAcl {
 public:
   // Declarations
-  /// @brief Method ApplyCanonicalSortToExplicitAces, addr 0x2484acc, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ApplyCanonicalSortToExplicitAces, addr 0x24a6b40, size 0x20, virtual true, abstract: false, final false
   inline void ApplyCanonicalSortToExplicitAces();
 
-  /// @brief Method GetAceInsertPosition, addr 0x2484aec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetAceInsertPosition, addr 0x24a6b60, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetAceInsertPosition(::System::Security::AccessControl::AceQualifier aceQualifier);
 
   // Ctor Parameters [CppParam { name: "", ty: "SystemAcl", modifiers: "&&", def_value: None }]

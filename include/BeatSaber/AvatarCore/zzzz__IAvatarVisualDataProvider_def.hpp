@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::BeatSaber::AvatarCore::IAvatarVisualDataProvider);
 namespace BeatSaber::AvatarCore {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15194))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15275))
 // CS Name: ::BeatSaber.AvatarCore::IAvatarVisualDataProvider*
 class CORDL_TYPE IAvatarVisualDataProvider {
 public:

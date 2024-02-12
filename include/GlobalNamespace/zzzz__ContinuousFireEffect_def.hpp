@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ContinuousFireEffect);
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 192, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4007))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4006))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16319))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16318))
 // CS Name: ::ContinuousFireEffect*
 class CORDL_TYPE ContinuousFireEffect : public ::GlobalNamespace::FireEffect {
 public:
@@ -138,33 +138,33 @@ public:
 
   constexpr void __cordl_internal_set__lastFadeOutProgress(float_t value);
 
-  /// @brief Method Start, addr 0x222195c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0xe3723c, size 0x28, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x2221a2c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0xe3730c, size 0x4, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method HandleColorChangeBeatmapEvent, addr 0x2221bd8, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method HandleColorChangeBeatmapEvent, addr 0xe374b8, size 0x13c, virtual true, abstract: false, final false
   inline void HandleColorChangeBeatmapEvent(::GlobalNamespace::LightColorBeatmapEventData* e);
 
-  /// @brief Method SetInitialValues, addr 0x2221984, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method SetInitialValues, addr 0xe37264, size 0xa8, virtual false, abstract: false, final false
   inline void SetInitialValues();
 
-  /// @brief Method StartEffect, addr 0x2221d38, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method StartEffect, addr 0xe37618, size 0xe0, virtual false, abstract: false, final false
   inline void StartEffect(float_t startTime, float_t endTime);
 
-  /// @brief Method EndEffect, addr 0x2221d14, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method EndEffect, addr 0xe375f4, size 0x24, virtual false, abstract: false, final false
   inline void EndEffect();
 
-  /// @brief Method UpdateEffect, addr 0x2221a30, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method UpdateEffect, addr 0xe37310, size 0x1a8, virtual false, abstract: false, final false
   inline void UpdateEffect();
 
-  /// @brief Method UpdateRenderers, addr 0x2221e18, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method UpdateRenderers, addr 0xe376f8, size 0x15c, virtual false, abstract: false, final false
   inline void UpdateRenderers(float_t flipBookAlpha, float_t bloomAlpha);
 
   static inline ::GlobalNamespace::ContinuousFireEffect* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2221f74, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe37854, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ContinuousFireEffect", modifiers: "&&", def_value: None }]

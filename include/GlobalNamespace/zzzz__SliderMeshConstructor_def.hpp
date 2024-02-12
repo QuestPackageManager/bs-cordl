@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SliderMeshConstructor);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4821))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4172))
 // CS Name: ::SliderMeshConstructor*
 class CORDL_TYPE SliderMeshConstructor : public ::UnityEngine::MonoBehaviour {
 public:
@@ -93,13 +93,13 @@ public:
 
   constexpr void __cordl_internal_set__mesh(::UnityW<::UnityEngine::Mesh> value);
 
-  /// @brief Method get_mesh, addr 0x23944f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mesh, addr 0x23540ac, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_mesh();
 
-  /// @brief Method CreateMeshIfNonExisting, addr 0x2394500, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method CreateMeshIfNonExisting, addr 0x23540b4, size 0xb8, virtual false, abstract: false, final false
   inline void CreateMeshIfNonExisting();
 
-  /// @brief Method CreateSliderMesh, addr 0x23945b8, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method CreateSliderMesh, addr 0x235416c, size 0x190, virtual false, abstract: false, final false
   inline void CreateSliderMesh(::GlobalNamespace::VertexPath* path);
 
   /// @brief Method CreateSliderMeshInternal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -113,7 +113,7 @@ public:
 
   static inline ::GlobalNamespace::SliderMeshConstructor* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2394748, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23542fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SliderMeshConstructor", modifiers: "&&", def_value: None }]

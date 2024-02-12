@@ -42,21 +42,21 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::MPInteger* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor, addr 0x11d05b0, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11fe440, size 0x140, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
   static inline ::Org::BouncyCastle::Bcpg::MPInteger* New_ctor(::Org::BouncyCastle::Math::BigInteger* val);
 
-  /// @brief Method .ctor, addr 0x11d07d0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11fe660, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* val);
 
-  /// @brief Method get_Value, addr 0x11d1ecc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x11ffd5c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Value();
 
-  /// @brief Method Encode, addr 0x11d1ed4, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x11ffd64, size 0x70, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
-  /// @brief Method Encode, addr 0x11d1f44, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x11ffdd4, size 0x6c, virtual false, abstract: false, final false
   static inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut, ::Org::BouncyCastle::Math::BigInteger* val);
 
   // Ctor Parameters [CppParam { name: "", ty: "MPInteger", modifiers: "&&", def_value: None }]

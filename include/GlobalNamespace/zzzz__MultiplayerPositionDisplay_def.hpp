@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerPositionDisplay);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 156, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5240))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8995))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4581))
 // CS Name: ::MultiplayerPositionDisplay*
 class CORDL_TYPE MultiplayerPositionDisplay : public ::UnityEngine::MonoBehaviour {
 public:
@@ -181,33 +181,33 @@ public:
 
   constexpr void __cordl_internal_set__colorAnimationStartDuration(float_t value);
 
-  /// @brief Method Start, addr 0x2257760, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x23b72e4, size 0x110, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy, addr 0x2257890, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x23b7414, size 0xe0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Update, addr 0x22579ec, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x23b7570, size 0x4c, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateColors, addr 0x2257a38, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method UpdateColors, addr 0x23b75bc, size 0x94, virtual false, abstract: false, final false
   inline void UpdateColors();
 
-  /// @brief Method UpdatePosition, addr 0x2257acc, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method UpdatePosition, addr 0x23b7650, size 0x170, virtual false, abstract: false, final false
   inline void UpdatePosition();
 
-  /// @brief Method HandlePlayerFailed, addr 0x2257c3c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerFailed, addr 0x23b77c0, size 0x18, virtual false, abstract: false, final false
   inline void HandlePlayerFailed();
 
-  /// @brief Method HandleFirstPlayerDidChange, addr 0x2257d38, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method HandleFirstPlayerDidChange, addr 0x23b78bc, size 0xac, virtual false, abstract: false, final false
   inline void HandleFirstPlayerDidChange(::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer* obj);
 
-  /// @brief Method ChangeColor, addr 0x2257970, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ChangeColor, addr 0x23b74f4, size 0x7c, virtual false, abstract: false, final false
   inline void ChangeColor(::UnityEngine::Color toColor, float_t duration);
 
   static inline ::GlobalNamespace::MultiplayerPositionDisplay* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2257de4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23b7968, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerPositionDisplay", modifiers: "&&", def_value: None }]

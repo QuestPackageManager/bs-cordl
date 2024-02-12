@@ -26,17 +26,17 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::InvalidCipherTextException* New_ctor();
 
-  /// @brief Method .ctor, addr 0xfc5990, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xff2820, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Crypto::InvalidCipherTextException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0xfc5994, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xff2824, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::Org::BouncyCastle::Crypto::InvalidCipherTextException* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor, addr 0xfc5998, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xff2828, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
   // Ctor Parameters [CppParam { name: "", ty: "InvalidCipherTextException", modifiers: "&&", def_value: None }]

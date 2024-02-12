@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::ILayerable);
 namespace UnityEngine::Timeline {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13899))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13852))
 // CS Name: ::UnityEngine.Timeline::ILayerable*
 class CORDL_TYPE ILayerable {
 public:

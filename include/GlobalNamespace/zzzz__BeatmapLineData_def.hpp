@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapLineData);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14750))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15134))
 // CS Name: ::BeatmapLineData*
 class CORDL_TYPE BeatmapLineData : public ::System::Object {
 public:
@@ -51,20 +51,20 @@ public:
 
   constexpr void __cordl_internal_set__beatmapObjectsData(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapObjectData*>* value);
 
-  /// @brief Method get_beatmapObjectsData, addr 0xe00534, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_beatmapObjectsData, addr 0xe10a1c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapObjectData*>* get_beatmapObjectsData();
 
   static inline ::GlobalNamespace::BeatmapLineData* New_ctor(int32_t initialCapacity);
 
-  /// @brief Method .ctor, addr 0xe0053c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe10a24, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(int32_t initialCapacity);
 
   static inline ::GlobalNamespace::BeatmapLineData* New_ctor(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapObjectData*>* beatmapObjectData);
 
-  /// @brief Method .ctor, addr 0xe005cc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe10ab4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapObjectData*>* beatmapObjectData);
 
-  /// @brief Method AddBeatmapObjectData, addr 0xe005f4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method AddBeatmapObjectData, addr 0xe10adc, size 0xa8, virtual false, abstract: false, final false
   inline void AddBeatmapObjectData(::GlobalNamespace::BeatmapObjectData* beatmapObjectData);
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapLineData", modifiers: "&&", def_value: None }]

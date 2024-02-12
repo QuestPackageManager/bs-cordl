@@ -45,8 +45,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__ColorArrayLightWithIds__ColorArrayLightWithI
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14543))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14519))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14437))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14413))
 // CS Name: ::ColorArrayLightWithIds::ColorArrayLightWithId*
 class CORDL_TYPE __ColorArrayLightWithIds__ColorArrayLightWithId : public ::GlobalNamespace::__LightWithIds__LightWithId {
 public:
@@ -69,18 +69,18 @@ public:
 
   constexpr void __cordl_internal_set_didSetColorEvent(::System::Action_2<int32_t, ::UnityEngine::Color>* value);
 
-  /// @brief Method add_didSetColorEvent, addr 0x210ede4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didSetColorEvent, addr 0x21a358c, size 0xb0, virtual false, abstract: false, final false
   inline void add_didSetColorEvent(::System::Action_2<int32_t, ::UnityEngine::Color>* value);
 
-  /// @brief Method remove_didSetColorEvent, addr 0x210ee94, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSetColorEvent, addr 0x21a363c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didSetColorEvent(::System::Action_2<int32_t, ::UnityEngine::Color>* value);
 
   static inline ::GlobalNamespace::__ColorArrayLightWithIds__ColorArrayLightWithId* New_ctor(int32_t index, int32_t lightId);
 
-  /// @brief Method .ctor, addr 0x210efc0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21a3768, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(int32_t index, int32_t lightId);
 
-  /// @brief Method ColorWasSet, addr 0x210f018, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x21a37c0, size 0x48, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color newColor);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ColorArrayLightWithIds__ColorArrayLightWithId", modifiers: "&&", def_value: None }]
@@ -117,8 +117,8 @@ static_assert(offsetof(::GlobalNamespace::__ColorArrayLightWithIds__ColorArrayLi
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14544))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14520))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14438))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14414))
 // CS Name: ::ColorArrayLightWithIds*
 class CORDL_TYPE ColorArrayLightWithIds : public ::GlobalNamespace::LightWithIds {
 public:
@@ -207,36 +207,36 @@ public:
 
   constexpr void __cordl_internal_set__colorsArray(::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> value);
 
-  /// @brief Method OnEnable, addr 0x210e9d8, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x21a3180, size 0x18, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnDestroy, addr 0x210eb78, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x21a3320, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method ProcessNewColorData, addr 0x210ec50, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ProcessNewColorData, addr 0x21a33f8, size 0x4, virtual true, abstract: false, final false
   inline void ProcessNewColorData();
 
-  /// @brief Method GetLightWithIds, addr 0x210ec84, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetLightWithIds, addr 0x21a342c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__LightWithIds__LightWithId*>* GetLightWithIds();
 
-  /// @brief Method HandleColorLightWithIdDidSetColor, addr 0x210ec8c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method HandleColorLightWithIdDidSetColor, addr 0x21a3434, size 0x8c, virtual false, abstract: false, final false
   inline void HandleColorLightWithIdDidSetColor(int32_t index, ::UnityEngine::Color color);
 
-  /// @brief Method SetColorDataToMaterial, addr 0x210ec54, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetColorDataToMaterial, addr 0x21a33fc, size 0x30, virtual false, abstract: false, final false
   inline void SetColorDataToMaterial();
 
-  /// @brief Method SetColorArrayOffsetToMaterialPropertyBlocks, addr 0x210ed18, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method SetColorArrayOffsetToMaterialPropertyBlocks, addr 0x21a34c0, size 0xcc, virtual false, abstract: false, final false
   inline void SetColorArrayOffsetToMaterialPropertyBlocks();
 
-  /// @brief Method RegisterArrayForColorChanges, addr 0x210e9f4, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method RegisterArrayForColorChanges, addr 0x21a319c, size 0x184, virtual false, abstract: false, final false
   inline void RegisterArrayForColorChanges();
 
-  /// @brief Method UnregisterArrayFromColorChanges, addr 0x210eb7c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method UnregisterArrayFromColorChanges, addr 0x21a3324, size 0xd4, virtual false, abstract: false, final false
   inline void UnregisterArrayFromColorChanges();
 
   static inline ::GlobalNamespace::ColorArrayLightWithIds* New_ctor();
 
-  /// @brief Method .ctor, addr 0x210ef44, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21a36ec, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ColorArrayLightWithIds", modifiers: "&&", def_value: None }]

@@ -23,12 +23,12 @@ MARK_VAL_T(::System::Globalization::DaylightTimeStruct);
 namespace System::Globalization {
 // Is value type: true
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2484))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3672))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3670))
 // CS Name: ::System.Globalization::DaylightTimeStruct
 struct CORDL_TYPE DaylightTimeStruct {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x2554c40, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2576888, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::DateTime start, ::System::DateTime end, ::System::TimeSpan delta);
 
   // Ctor Parameters [CppParam { name: "Start", ty: "::System::DateTime", modifiers: "", def_value: None }, CppParam { name: "End", ty: "::System::DateTime", modifiers: "", def_value: None }, CppParam

@@ -61,8 +61,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename TValueType>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6800))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7129))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6059))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6388))
 // CS Name: ::BaseField`1::UxmlTraits<TValueType>*
 class CORDL_TYPE __BaseField_1__UxmlTraits : public ::UnityEngine::UIElements::__BindableElement__UxmlTraits {
 public:
@@ -114,8 +114,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename TValueType>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6801)), TypeDefinitionIndex(TypeDefinitionIndex(7306)), TypeDefinitionIndex(TypeDefinitionIndex(10159)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7306), inst: 391 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7130)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6060)), TypeDefinitionIndex(TypeDefinitionIndex(6565)), TypeDefinitionIndex(TypeDefinitionIndex(8903)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6565), inst: 391 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6389)) CS Name:
 // ::UnityEngine.UIElements::BaseField`1<TValueType>*
 class CORDL_TYPE BaseField_1 : public ::UnityEngine::UIElements::BindableElement {
 public:

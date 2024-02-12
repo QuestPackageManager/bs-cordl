@@ -31,7 +31,7 @@ namespace System {
 struct CORDL_TYPE ParsingInfo {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x25a5a54, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x25c896c, size 0xc, virtual false, abstract: false, final false
   inline void Init();
 
   // Ctor Parameters [CppParam { name: "calendar", ty: "::System::Globalization::Calendar*", modifiers: "", def_value: None }, CppParam { name: "dayOfWeek", ty: "int32_t", modifiers: "", def_value:

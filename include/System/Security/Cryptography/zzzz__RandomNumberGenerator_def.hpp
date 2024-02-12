@@ -33,16 +33,16 @@ public:
 
   static inline ::System::Security::Cryptography::RandomNumberGenerator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x245ff5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2481fd0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Create, addr 0x245ff64, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2481fd8, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::RandomNumberGenerator* Create();
 
-  /// @brief Method Dispose, addr 0x245ffc0, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2482034, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x246002c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x24820a0, size 0x4, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   /// @brief Method GetBytes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

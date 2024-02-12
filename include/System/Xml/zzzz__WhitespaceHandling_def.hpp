@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Xml::WhitespaceHandling);
 namespace System::Xml {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11446))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11344))
 // CS Name: ::System.Xml::WhitespaceHandling
 struct CORDL_TYPE WhitespaceHandling {
 public:

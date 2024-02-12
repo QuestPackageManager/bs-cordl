@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::Leaderboard);
 namespace Oculus::Platform::Models {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13447))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13386))
 // CS Name: ::Oculus.Platform.Models::Leaderboard*
 class CORDL_TYPE Leaderboard : public ::System::Object {
 public:
@@ -63,7 +63,7 @@ public:
 
   static inline ::Oculus::Platform::Models::Leaderboard* New_ctor(void* o);
 
-  /// @brief Method .ctor, addr 0x2705434, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2737d9c, size 0x128, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "Leaderboard", modifiers: "&&", def_value: None }]

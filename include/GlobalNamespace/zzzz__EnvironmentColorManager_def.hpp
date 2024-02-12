@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::GlobalNamespace::EnvironmentColorManager);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5833))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5126))
 // CS Name: ::EnvironmentColorManager*
 class CORDL_TYPE EnvironmentColorManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -94,33 +94,33 @@ public:
 
   constexpr void __cordl_internal_set__colorScheme(::GlobalNamespace::ColorScheme* value);
 
-  /// @brief Method get_environmentColor0, addr 0x22ebfe4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_environmentColor0, addr 0x231bc1c, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_environmentColor0();
 
-  /// @brief Method get_environmentColor1, addr 0x22ec004, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_environmentColor1, addr 0x231bc3c, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_environmentColor1();
 
-  /// @brief Method get_environmentColor0Boost, addr 0x22ec024, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_environmentColor0Boost, addr 0x231bc5c, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_environmentColor0Boost();
 
-  /// @brief Method get_environmentColor1Boost, addr 0x22ec078, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_environmentColor1Boost, addr 0x231bcb0, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_environmentColor1Boost();
 
-  /// @brief Method Awake, addr 0x22ed828, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x231bd04, size 0x28, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Start, addr 0x22ed850, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x231bd2c, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method SetColorScheme, addr 0x22ed910, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetColorScheme, addr 0x231bdec, size 0x8, virtual false, abstract: false, final false
   inline void SetColorScheme(::GlobalNamespace::ColorScheme* colorScheme);
 
-  /// @brief Method InitColors, addr 0x22ed854, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method InitColors, addr 0x231bd30, size 0xbc, virtual false, abstract: false, final false
   inline void InitColors();
 
   static inline ::GlobalNamespace::EnvironmentColorManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22ed918, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x231bdf4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EnvironmentColorManager", modifiers: "&&", def_value: None }]

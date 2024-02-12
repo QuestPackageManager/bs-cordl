@@ -29,15 +29,15 @@ MARK_VAL_T(::TMPro::FloatTween);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 391 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12341))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9234)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9234), inst: 391 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12239))
 // CS Name: ::FloatTween::FloatTweenCallback*
 class CORDL_TYPE __FloatTween__FloatTweenCallback : public ::UnityEngine::Events::UnityEvent_1<float_t> {
 public:
   // Declarations
   static inline ::TMPro::__FloatTween__FloatTweenCallback* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c0246c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bfefd8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FloatTween__FloatTweenCallback", modifiers: "&&", def_value: None }]
@@ -65,7 +65,7 @@ static_assert(::cordl_internals::size_check_v<::TMPro::__FloatTween__FloatTweenC
 namespace TMPro {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12342))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12240))
 // CS Name: ::TMPro::FloatTween
 struct CORDL_TYPE FloatTween {
 public:
@@ -86,43 +86,43 @@ public:
   /// @brief Convert to "::TMPro::ITweenValue"
   constexpr ::TMPro::ITweenValue* i___TMPro__ITweenValue();
 
-  /// @brief Method get_startValue, addr 0x2c02304, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_startValue, addr 0x2bfee70, size 0x8, virtual false, abstract: false, final false
   inline float_t get_startValue();
 
-  /// @brief Method set_startValue, addr 0x2c0230c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_startValue, addr 0x2bfee78, size 0x8, virtual false, abstract: false, final false
   inline void set_startValue(float_t value);
 
-  /// @brief Method get_targetValue, addr 0x2c02314, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_targetValue, addr 0x2bfee80, size 0x8, virtual false, abstract: false, final false
   inline float_t get_targetValue();
 
-  /// @brief Method set_targetValue, addr 0x2c0231c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_targetValue, addr 0x2bfee88, size 0x8, virtual false, abstract: false, final false
   inline void set_targetValue(float_t value);
 
-  /// @brief Method get_duration, addr 0x2c02324, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_duration, addr 0x2bfee90, size 0x8, virtual true, abstract: false, final true
   inline float_t get_duration();
 
-  /// @brief Method set_duration, addr 0x2c0232c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_duration, addr 0x2bfee98, size 0x8, virtual false, abstract: false, final false
   inline void set_duration(float_t value);
 
-  /// @brief Method get_ignoreTimeScale, addr 0x2c02334, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_ignoreTimeScale, addr 0x2bfeea0, size 0x8, virtual true, abstract: false, final true
   inline bool get_ignoreTimeScale();
 
-  /// @brief Method set_ignoreTimeScale, addr 0x2c0233c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ignoreTimeScale, addr 0x2bfeea8, size 0xc, virtual false, abstract: false, final false
   inline void set_ignoreTimeScale(bool value);
 
-  /// @brief Method TweenValue, addr 0x2c02348, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method TweenValue, addr 0x2bfeeb4, size 0x8c, virtual true, abstract: false, final true
   inline void TweenValue(float_t floatPercentage);
 
-  /// @brief Method AddOnChangedCallback, addr 0x2c023e4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method AddOnChangedCallback, addr 0x2bfef50, size 0x88, virtual false, abstract: false, final false
   inline void AddOnChangedCallback(::UnityEngine::Events::UnityAction_1<float_t>* callback);
 
-  /// @brief Method GetIgnoreTimescale, addr 0x2c024b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetIgnoreTimescale, addr 0x2bff020, size 0x8, virtual false, abstract: false, final false
   inline bool GetIgnoreTimescale();
 
-  /// @brief Method GetDuration, addr 0x2c024bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetDuration, addr 0x2bff028, size 0x8, virtual false, abstract: false, final false
   inline float_t GetDuration();
 
-  /// @brief Method ValidTarget, addr 0x2c023d4, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method ValidTarget, addr 0x2bfef40, size 0x10, virtual true, abstract: false, final true
   inline bool ValidTarget();
 
   // Ctor Parameters [CppParam { name: "m_Target", ty: "::TMPro::__FloatTween__FloatTweenCallback*", modifiers: "", def_value: None }, CppParam { name: "m_StartValue", ty: "float_t", modifiers: "",

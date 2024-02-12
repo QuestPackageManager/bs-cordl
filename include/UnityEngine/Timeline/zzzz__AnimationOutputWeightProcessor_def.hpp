@@ -38,8 +38,8 @@ MARK_VAL_T(::UnityEngine::Timeline::__AnimationOutputWeightProcessor__WeightInfo
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10428))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13829))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9196))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13782))
 // CS Name: ::AnimationOutputWeightProcessor::WeightInfo
 struct CORDL_TYPE __AnimationOutputWeightProcessor__WeightInfo {
 public:
@@ -80,8 +80,8 @@ static_assert(offsetof(::UnityEngine::Timeline::__AnimationOutputWeightProcessor
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14898)), TypeDefinitionIndex(TypeDefinitionIndex(14901))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13830))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14771)), TypeDefinitionIndex(TypeDefinitionIndex(14774))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13783))
 // CS Name: ::UnityEngine.Timeline::AnimationOutputWeightProcessor*
 class CORDL_TYPE AnimationOutputWeightProcessor : public ::System::Object {
 public:
@@ -125,16 +125,16 @@ public:
 
   static inline ::UnityEngine::Timeline::AnimationOutputWeightProcessor* New_ctor(::UnityEngine::Animations::AnimationPlayableOutput output);
 
-  /// @brief Method .ctor, addr 0x2c4f358, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c4cec4, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Animations::AnimationPlayableOutput output);
 
-  /// @brief Method FindMixers, addr 0x2c4f418, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method FindMixers, addr 0x2c4cf84, size 0xe8, virtual false, abstract: false, final false
   inline void FindMixers();
 
-  /// @brief Method FindMixers, addr 0x2c4f500, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method FindMixers, addr 0x2c4d06c, size 0x2c8, virtual false, abstract: false, final false
   inline void FindMixers(::UnityEngine::Playables::Playable parent, int32_t port, ::UnityEngine::Playables::Playable node);
 
-  /// @brief Method Evaluate, addr 0x2c4f7c8, size 0x13c, virtual true, abstract: false, final true
+  /// @brief Method Evaluate, addr 0x2c4d334, size 0x13c, virtual true, abstract: false, final true
   inline void Evaluate();
 
   // Ctor Parameters [CppParam { name: "", ty: "AnimationOutputWeightProcessor", modifiers: "&&", def_value: None }]

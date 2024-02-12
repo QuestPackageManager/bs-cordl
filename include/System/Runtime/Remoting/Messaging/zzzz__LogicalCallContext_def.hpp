@@ -64,19 +64,19 @@ public:
 
   __declspec(property(get = get_HasInfo)) bool HasInfo;
 
-  /// @brief Method .ctor, addr 0x24a74e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24c9558, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::LogicalCallContext* ctx);
 
-  /// @brief Method get_IsNull, addr 0x24a74ec, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsNull, addr 0x24c9560, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsNull();
 
-  /// @brief Method get_HasInfo, addr 0x24a74fc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HasInfo, addr 0x24c9570, size 0x10, virtual false, abstract: false, final false
   inline bool get_HasInfo();
 
-  /// @brief Method Clone, addr 0x24a750c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Clone, addr 0x24c9580, size 0x68, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::LogicalCallContext* Clone();
 
-  /// @brief Method GetData, addr 0x24a6210, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetData, addr 0x24c8284, size 0x10, virtual false, abstract: false, final false
   inline ::System::Object* GetData(::StringW name);
 
   // Ctor Parameters [CppParam { name: "m_ctx", ty: "::System::Runtime::Remoting::Messaging::LogicalCallContext*", modifiers: "", def_value: None }]
@@ -204,37 +204,37 @@ public:
 
   static inline ::System::Runtime::Remoting::Messaging::LogicalCallContext* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24a6650, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24c86c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Runtime::Remoting::Messaging::LogicalCallContext* New_ctor(::System::Runtime::Serialization::SerializationInfo* info,
                                                                                      ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x24a6658, size 0x2fc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24c86cc, size 0x2fc, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetObjectData, addr 0x24a69c0, size 0x354, virtual true, abstract: false, final true
+  /// @brief Method GetObjectData, addr 0x24c8a34, size 0x354, virtual true, abstract: false, final true
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method Clone, addr 0x24a6d40, size 0x5f8, virtual true, abstract: false, final true
+  /// @brief Method Clone, addr 0x24c8db4, size 0x5f8, virtual true, abstract: false, final true
   inline ::System::Object* Clone();
 
-  /// @brief Method Merge, addr 0x2497f98, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method Merge, addr 0x24ba00c, size 0x230, virtual false, abstract: false, final false
   inline void Merge(::System::Runtime::Remoting::Messaging::LogicalCallContext* lc);
 
-  /// @brief Method get_HasInfo, addr 0x2497f38, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_HasInfo, addr 0x24b9fac, size 0x60, virtual false, abstract: false, final false
   inline bool get_HasInfo();
 
-  /// @brief Method get_HasUserData, addr 0x24a6d14, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_HasUserData, addr 0x24c8d88, size 0x2c, virtual false, abstract: false, final false
   inline bool get_HasUserData();
 
-  /// @brief Method get_Datastore, addr 0x24a6954, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_Datastore, addr 0x24c89c8, size 0x6c, virtual false, abstract: false, final false
   inline ::System::Collections::Hashtable* get_Datastore();
 
-  /// @brief Method GetData, addr 0x24a7428, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetData, addr 0x24c949c, size 0x2c, virtual false, abstract: false, final false
   inline ::System::Object* GetData(::StringW name);
 
-  /// @brief Method SetData, addr 0x24a62b4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x24c8328, size 0x98, virtual false, abstract: false, final false
   inline void SetData(::StringW name, ::System::Object* data);
 
   // Ctor Parameters [CppParam { name: "", ty: "LogicalCallContext", modifiers: "&&", def_value: None }]

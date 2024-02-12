@@ -54,31 +54,31 @@ public:
 
   constexpr void __cordl_internal_set_response(::Org::BouncyCastle::Asn1::Cms::ContentInfo* value);
 
-  /// @brief Method GetInstance, addr 0xe7d538, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xea83c8, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::ScvpReqRes* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::ScvpReqRes* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xe7d5dc, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xea846c, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::ScvpReqRes* New_ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* response);
 
-  /// @brief Method .ctor, addr 0xe7d6d8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xea8568, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* response);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::ScvpReqRes* New_ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* request, ::Org::BouncyCastle::Asn1::Cms::ContentInfo* response);
 
-  /// @brief Method .ctor, addr 0xe7d700, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xea8590, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* request, ::Org::BouncyCastle::Asn1::Cms::ContentInfo* response);
 
-  /// @brief Method get_Request, addr 0xe7d72c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Request, addr 0xea85bc, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::ContentInfo* get_Request();
 
-  /// @brief Method get_Response, addr 0xe7d734, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Response, addr 0xea85c4, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::ContentInfo* get_Response();
 
-  /// @brief Method ToAsn1Object, addr 0xe7d73c, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xea85cc, size 0xb8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "ScvpReqRes", modifiers: "&&", def_value: None }]

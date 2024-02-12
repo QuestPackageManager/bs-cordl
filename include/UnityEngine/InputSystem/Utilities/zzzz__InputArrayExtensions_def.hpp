@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Utilities::InputArrayExtensions);
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6670))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5929))
 // CS Name: ::UnityEngine.InputSystem.Utilities::InputArrayExtensions*
 class CORDL_TYPE InputArrayExtensions : public ::System::Object {
 public:

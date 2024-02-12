@@ -34,10 +34,10 @@ public:
 
   static inline ::System::Runtime::Serialization::TypeLoadExceptionHolder* New_ctor(::StringW typeName);
 
-  /// @brief Method .ctor, addr 0x24bcd64, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24dddd8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW typeName);
 
-  /// @brief Method get_TypeName, addr 0x24bcd8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TypeName, addr 0x24dde00, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_TypeName();
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeLoadExceptionHolder", modifiers: "&&", def_value: None }]

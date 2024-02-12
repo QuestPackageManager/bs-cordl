@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Globalization::CultureTypes);
 namespace System::Globalization {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3661))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3659))
 // CS Name: ::System.Globalization::CultureTypes
 struct CORDL_TYPE CultureTypes {
 public:

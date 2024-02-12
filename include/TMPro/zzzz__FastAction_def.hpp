@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::TMPro::FastAction);
 namespace TMPro {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12297))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12195))
 // CS Name: ::TMPro::FastAction*
 class CORDL_TYPE FastAction : public ::System::Object {
 public:
@@ -52,18 +52,18 @@ public:
 
   constexpr void __cordl_internal_set_lookup(::System::Collections::Generic::Dictionary_2<::System::Action*, ::System::Collections::Generic::LinkedListNode_1<::System::Action*>*>* value);
 
-  /// @brief Method Add, addr 0x2bef0e0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x2bebc4c, size 0xc0, virtual false, abstract: false, final false
   inline void Add(::System::Action* rhs);
 
-  /// @brief Method Remove, addr 0x2bef1a0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x2bebd0c, size 0xc0, virtual false, abstract: false, final false
   inline void Remove(::System::Action* rhs);
 
-  /// @brief Method Call, addr 0x2bef260, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Call, addr 0x2bebdcc, size 0x98, virtual false, abstract: false, final false
   inline void Call();
 
   static inline ::TMPro::FastAction* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2bef2f8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bebe64, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FastAction", modifiers: "&&", def_value: None }]

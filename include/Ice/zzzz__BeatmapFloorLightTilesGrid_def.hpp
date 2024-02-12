@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::Ice::BeatmapFloorLightTilesGrid);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Ice {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16164))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16304))
 // CS Name: ::Ice::BeatmapFloorLightTilesGrid*
 class CORDL_TYPE BeatmapFloorLightTilesGrid : public ::UnityEngine::MonoBehaviour {
 public:
@@ -74,12 +74,12 @@ public:
 
   constexpr void __cordl_internal_set__beatmapObjectSpawnController(::GlobalNamespace::IBeatmapObjectSpawnController* value);
 
-  /// @brief Method Start, addr 0x129ed94, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0xe33830, size 0xf0, virtual false, abstract: false, final false
   inline void Start();
 
   static inline ::Ice::BeatmapFloorLightTilesGrid* New_ctor();
 
-  /// @brief Method .ctor, addr 0x129f018, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe33ab4, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapFloorLightTilesGrid", modifiers: "&&", def_value: None }]

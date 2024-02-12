@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::InvitePanelResultInfo);
 namespace Oculus::Platform::Models {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13439))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13378))
 // CS Name: ::Oculus.Platform.Models::InvitePanelResultInfo*
 class CORDL_TYPE InvitePanelResultInfo : public ::System::Object {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::Oculus::Platform::Models::InvitePanelResultInfo* New_ctor(void* o);
 
-  /// @brief Method .ctor, addr 0x2706388, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2739264, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "InvitePanelResultInfo", modifiers: "&&", def_value: None }]

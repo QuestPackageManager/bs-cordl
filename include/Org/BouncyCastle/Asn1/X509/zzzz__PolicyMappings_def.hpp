@@ -43,20 +43,20 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::PolicyMappings* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0x1194574, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11c2404, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::X509::PolicyMappings* New_ctor(::System::Collections::Hashtable* mappings);
 
-  /// @brief Method .ctor, addr 0x119459c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11c242c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Hashtable* mappings);
 
   static inline ::Org::BouncyCastle::Asn1::X509::PolicyMappings* New_ctor(::System::Collections::IDictionary* mappings);
 
-  /// @brief Method .ctor, addr 0x11945a0, size 0x5ec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11c2430, size 0x5ec, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IDictionary* mappings);
 
-  /// @brief Method ToAsn1Object, addr 0x1194b8c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x11c2a1c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "PolicyMappings", modifiers: "&&", def_value: None }]

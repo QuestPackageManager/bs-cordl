@@ -41,29 +41,29 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::CmsCompressedData* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> compressedData);
 
-  /// @brief Method .ctor, addr 0x11dc634, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x120a4c4, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> compressedData);
 
   static inline ::Org::BouncyCastle::Cms::CmsCompressedData* New_ctor(::System::IO::Stream* compressedDataStream);
 
-  /// @brief Method .ctor, addr 0x11dc694, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x120a524, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* compressedDataStream);
 
   static inline ::Org::BouncyCastle::Cms::CmsCompressedData* New_ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* contentInfo);
 
-  /// @brief Method .ctor, addr 0x11dc66c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x120a4fc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* contentInfo);
 
-  /// @brief Method GetContent, addr 0x11dc6cc, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method GetContent, addr 0x120a55c, size 0x26c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetContent();
 
-  /// @brief Method GetContent, addr 0x11dc938, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method GetContent, addr 0x120a7c8, size 0x1e8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetContent(int32_t limit);
 
-  /// @brief Method get_ContentInfo, addr 0x11dcb20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContentInfo, addr 0x120a9b0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::ContentInfo* get_ContentInfo();
 
-  /// @brief Method GetEncoded, addr 0x11dcb28, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x120a9b8, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsCompressedData", modifiers: "&&", def_value: None }]

@@ -55,13 +55,13 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::DerSetParser* New_ctor(::Org::BouncyCastle::Asn1::Asn1StreamParser* parser);
 
-  /// @brief Method .ctor, addr 0x11ba3a8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11e7238, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1StreamParser* parser);
 
-  /// @brief Method ReadObject, addr 0x11c4174, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method ReadObject, addr 0x11f1004, size 0x20, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::IAsn1Convertible* ReadObject();
 
-  /// @brief Method ToAsn1Object, addr 0x11c4194, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method ToAsn1Object, addr 0x11f1024, size 0x74, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "DerSetParser", modifiers: "&&", def_value: None }]

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::LocalKeywordSpace::*)(::System::Object*)>(
     &::UnityEngine::Rendering::LocalKeywordSpace::Equals)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x2cef1f8;
+  constexpr static std::size_t addrs = 0x2cfae28;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::LocalKeywordSpace::*)(::UnityEngine::Rendering::LocalKeywordSpace)>(
     &::UnityEngine::Rendering::LocalKeywordSpace::Equals)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2cef274;
+  constexpr static std::size_t addrs = 0x2cfaea4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Rendering::LocalKeywordSpace, ::UnityEngine::Rendering::LocalKeywordSpace)>(
     &::UnityEngine::Rendering::LocalKeywordSpace::op_Equality)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2cef178;
+  constexpr static std::size_t addrs = 0x2cfada8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::LocalKeywordSpace::*)()>(
     &::UnityEngine::Rendering::LocalKeywordSpace::GetHashCode)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2cef1d0;
+  constexpr static std::size_t addrs = 0x2cfae00;
 
   inline static ::MethodInfo const* methodInfo() {
 

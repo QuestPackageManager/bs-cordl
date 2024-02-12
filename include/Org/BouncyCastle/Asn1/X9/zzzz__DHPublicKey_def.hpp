@@ -43,21 +43,21 @@ public:
 
   constexpr void __cordl_internal_set_y(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method GetInstance, addr 0x11a864c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x11d64dc, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::DHPublicKey* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-  /// @brief Method GetInstance, addr 0x11a8664, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x11d64f4, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::DHPublicKey* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X9::DHPublicKey* New_ctor(::Org::BouncyCastle::Asn1::DerInteger* y);
 
-  /// @brief Method .ctor, addr 0x11a87ec, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11d667c, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerInteger* y);
 
-  /// @brief Method get_Y, addr 0x11a8864, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Y, addr 0x11d66f4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Y();
 
-  /// @brief Method ToAsn1Object, addr 0x11a886c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x11d66fc, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "DHPublicKey", modifiers: "&&", def_value: None }]

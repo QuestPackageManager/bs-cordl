@@ -14,27 +14,27 @@ MARK_REF_PTR_T(::UnityEngine::UI::VerticalLayoutGroup);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 99, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13083))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13096))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12981))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12994))
 // CS Name: ::UnityEngine.UI::VerticalLayoutGroup*
 class CORDL_TYPE VerticalLayoutGroup : public ::UnityEngine::UI::HorizontalOrVerticalLayoutGroup {
 public:
   // Declarations
   static inline ::UnityEngine::UI::VerticalLayoutGroup* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d7a598, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d98980, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CalculateLayoutInputHorizontal, addr 0x2d7a5a4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method CalculateLayoutInputHorizontal, addr 0x2d9898c, size 0x20, virtual true, abstract: false, final false
   inline void CalculateLayoutInputHorizontal();
 
-  /// @brief Method CalculateLayoutInputVertical, addr 0x2d7a5c4, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method CalculateLayoutInputVertical, addr 0x2d989ac, size 0xc, virtual true, abstract: false, final false
   inline void CalculateLayoutInputVertical();
 
-  /// @brief Method SetLayoutHorizontal, addr 0x2d7a5d0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method SetLayoutHorizontal, addr 0x2d989b8, size 0xc, virtual true, abstract: false, final false
   inline void SetLayoutHorizontal();
 
-  /// @brief Method SetLayoutVertical, addr 0x2d7a5dc, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method SetLayoutVertical, addr 0x2d989c4, size 0xc, virtual true, abstract: false, final false
   inline void SetLayoutVertical();
 
   // Ctor Parameters [CppParam { name: "", ty: "VerticalLayoutGroup", modifiers: "&&", def_value: None }]

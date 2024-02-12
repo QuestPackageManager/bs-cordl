@@ -18,14 +18,14 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::ImmediateModeException);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2561))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6857))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6116))
 // CS Name: ::UnityEngine.UIElements::ImmediateModeException*
 class CORDL_TYPE ImmediateModeException : public ::System::Exception {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::ImmediateModeException* New_ctor(::System::Exception* inner);
 
-  /// @brief Method .ctor, addr 0x2dc7f70, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2de6358, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Exception* inner);
 
   // Ctor Parameters [CppParam { name: "", ty: "ImmediateModeException", modifiers: "&&", def_value: None }]

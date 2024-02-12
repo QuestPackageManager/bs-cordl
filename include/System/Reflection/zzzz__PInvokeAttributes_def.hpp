@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Reflection::PInvokeAttributes);
 namespace System::Reflection {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3508))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3504))
 // CS Name: ::System.Reflection::PInvokeAttributes
 struct CORDL_TYPE PInvokeAttributes {
 public:

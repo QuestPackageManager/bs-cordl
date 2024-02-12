@@ -60,26 +60,26 @@ public:
 
   static inline ::System::MissingMemberException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25d1818, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f3730, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::MissingMemberException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x25d17a8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f36c0, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::System::MissingMemberException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x25d1878, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f3790, size 0x184, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetObjectData, addr 0x25d1c3c, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x25f3b54, size 0x15c, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method get_Message, addr 0x25d1b10, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x25f3a28, size 0x12c, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
-  /// @brief Method FormatSignature, addr 0x25d1d98, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method FormatSignature, addr 0x25f3cb0, size 0x48, virtual false, abstract: false, final false
   static inline ::StringW FormatSignature(::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
 
   // Ctor Parameters [CppParam { name: "", ty: "MissingMemberException", modifiers: "&&", def_value: None }]

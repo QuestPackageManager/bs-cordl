@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::UnityEngine::Experimental::U2D::SpriteRendererGroup);
 namespace UnityEngine::Experimental::U2D {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10385))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9153))
 // CS Name: ::UnityEngine.Experimental.U2D::SpriteRendererGroup*
 class CORDL_TYPE SpriteRendererGroup : public ::System::Object {
 public:

@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__BloomPrePassRenderDataSO__Data);
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10245)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14490))] Self: TypeDefinitionIndex(TypeDefinitionIndex(14479)) CS Name: ::BloomPrePassRenderDataSO::Data*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8987)), TypeDefinitionIndex(TypeDefinitionIndex(8989)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14384))] Self: TypeDefinitionIndex(TypeDefinitionIndex(14373)) CS Name: ::BloomPrePassRenderDataSO::Data*
 class CORDL_TYPE __BloomPrePassRenderDataSO__Data : public ::System::Object {
 public:
   // Declarations
@@ -90,7 +90,7 @@ public:
 
   static inline ::GlobalNamespace::__BloomPrePassRenderDataSO__Data* New_ctor();
 
-  /// @brief Method .ctor, addr 0x210290c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21970b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__BloomPrePassRenderDataSO__Data", modifiers: "&&", def_value: None }]
@@ -147,8 +147,8 @@ static_assert(offsetof(::GlobalNamespace::__BloomPrePassRenderDataSO__Data, ___t
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14480))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15602))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14374))
 // CS Name: ::BloomPrePassRenderDataSO*
 class CORDL_TYPE BloomPrePassRenderDataSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -166,7 +166,7 @@ public:
 
   static inline ::GlobalNamespace::BloomPrePassRenderDataSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21072fc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x219baa4, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRenderDataSO", modifiers: "&&", def_value: None }]

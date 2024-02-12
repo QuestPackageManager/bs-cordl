@@ -91,37 +91,37 @@ public:
 
   static inline ::System::Runtime::Remoting::Messaging::ErrorMessage* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24a33ac, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24c5420, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ArgCount, addr 0x24ad5c8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_ArgCount, addr 0x24cf63c, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_ArgCount();
 
-  /// @brief Method get_Args, addr 0x24ad5d0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Args, addr 0x24cf644, size 0x8, virtual true, abstract: false, final true
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> get_Args();
 
-  /// @brief Method get_MethodBase, addr 0x24ad5d8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_MethodBase, addr 0x24cf64c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Reflection::MethodBase* get_MethodBase();
 
-  /// @brief Method get_MethodName, addr 0x24ad5e0, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_MethodName, addr 0x24cf654, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_MethodName();
 
-  /// @brief Method get_MethodSignature, addr 0x24ad620, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_MethodSignature, addr 0x24cf694, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* get_MethodSignature();
 
-  /// @brief Method get_Properties, addr 0x24ad628, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x24cf69c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::IDictionary* get_Properties();
 
-  /// @brief Method get_TypeName, addr 0x24ad630, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_TypeName, addr 0x24cf6a4, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_TypeName();
 
-  /// @brief Method get_Uri, addr 0x24ad670, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Uri, addr 0x24cf6e4, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_Uri();
 
-  /// @brief Method GetArg, addr 0x24ad678, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetArg, addr 0x24cf6ec, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* GetArg(int32_t arg_num);
 
-  /// @brief Method get_LogicalCallContext, addr 0x24ad680, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_LogicalCallContext, addr 0x24cf6f4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::LogicalCallContext* get_LogicalCallContext();
 
   // Ctor Parameters [CppParam { name: "", ty: "ErrorMessage", modifiers: "&&", def_value: None }]

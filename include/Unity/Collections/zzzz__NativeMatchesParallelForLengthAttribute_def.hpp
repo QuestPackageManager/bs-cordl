@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::Unity::Collections::NativeMatchesParallelForLengthAttribute);
 namespace Unity::Collections {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10008))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8739))
 // CS Name: ::Unity.Collections::NativeMatchesParallelForLengthAttribute*
 class CORDL_TYPE NativeMatchesParallelForLengthAttribute : public ::System::Attribute {
 public:

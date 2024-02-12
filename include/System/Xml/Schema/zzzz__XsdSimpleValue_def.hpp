@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::System::Xml::Schema::XsdSimpleValue);
 namespace System::Xml::Schema {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11616))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11514))
 // CS Name: ::System.Xml.Schema::XsdSimpleValue*
 class CORDL_TYPE XsdSimpleValue : public ::System::Object {
 public:
@@ -48,10 +48,10 @@ public:
 
   constexpr void __cordl_internal_set_typedValue(::System::Object* value);
 
-  /// @brief Method get_XmlType, addr 0x28b0d28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlType, addr 0x28b4390, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaSimpleType* get_XmlType();
 
-  /// @brief Method get_TypedValue, addr 0x28b0d30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TypedValue, addr 0x28b4398, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_TypedValue();
 
   // Ctor Parameters [CppParam { name: "", ty: "XsdSimpleValue", modifiers: "&&", def_value: None }]

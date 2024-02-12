@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MockLevelEndActions);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5022))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4376))
 // CS Name: ::MockLevelEndActions*
 class CORDL_TYPE MockLevelEndActions : public ::System::Object {
 public:
@@ -50,21 +50,21 @@ public:
 
   constexpr void __cordl_internal_set_levelFinishedEvent(::System::Action* value);
 
-  /// @brief Method add_levelFailedEvent, addr 0x23bcbbc, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_levelFailedEvent, addr 0x237be58, size 0x9c, virtual true, abstract: false, final true
   inline void add_levelFailedEvent(::System::Action* value);
 
-  /// @brief Method remove_levelFailedEvent, addr 0x23bcc58, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_levelFailedEvent, addr 0x237bef4, size 0x9c, virtual true, abstract: false, final true
   inline void remove_levelFailedEvent(::System::Action* value);
 
-  /// @brief Method add_levelFinishedEvent, addr 0x23bccf4, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_levelFinishedEvent, addr 0x237bf90, size 0x9c, virtual true, abstract: false, final true
   inline void add_levelFinishedEvent(::System::Action* value);
 
-  /// @brief Method remove_levelFinishedEvent, addr 0x23bcd90, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_levelFinishedEvent, addr 0x237c02c, size 0x9c, virtual true, abstract: false, final true
   inline void remove_levelFinishedEvent(::System::Action* value);
 
   static inline ::GlobalNamespace::MockLevelEndActions* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23bce2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x237c0c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MockLevelEndActions", modifiers: "&&", def_value: None }]

@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::Newtonsoft::Json::JsonRequiredAttribute);
 namespace Newtonsoft::Json {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11808))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11706))
 // CS Name: ::Newtonsoft.Json::JsonRequiredAttribute*
 class CORDL_TYPE JsonRequiredAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::Newtonsoft::Json::JsonRequiredAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x263efa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2663164, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "JsonRequiredAttribute", modifiers: "&&", def_value: None }]

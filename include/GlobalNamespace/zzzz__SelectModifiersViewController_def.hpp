@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SelectModifiersViewController);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5721))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13558))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5023))
 // CS Name: ::SelectModifiersViewController*
 class CORDL_TYPE SelectModifiersViewController : public ::HMUI::ViewController {
 public:
@@ -38,18 +38,18 @@ public:
 
   constexpr void __cordl_internal_set__gameplayModifiersPanelController(::UnityW<::GlobalNamespace::GameplayModifiersPanelController> value);
 
-  /// @brief Method get_gameplayModifiers, addr 0x22d0164, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_gameplayModifiers, addr 0x22ff92c, size 0x1c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
 
-  /// @brief Method Setup, addr 0x22d0180, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x22ff948, size 0x1c, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method DidActivate, addr 0x22d019c, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x22ff964, size 0xa0, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::SelectModifiersViewController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22d023c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22ffa04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SelectModifiersViewController", modifiers: "&&", def_value: None }]

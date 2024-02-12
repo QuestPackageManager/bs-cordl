@@ -35,25 +35,25 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::RC2Parameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method .ctor, addr 0xf393ac, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf6423c, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::RC2Parameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t keyOff, int32_t keyLen);
 
-  /// @brief Method .ctor, addr 0xf39414, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf642a4, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t keyOff, int32_t keyLen);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::RC2Parameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t bits);
 
-  /// @brief Method .ctor, addr 0xf393ec, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf6427c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t bits);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::RC2Parameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t keyOff, int32_t keyLen, int32_t bits);
 
-  /// @brief Method .ctor, addr 0xf39448, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf642d8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t keyOff, int32_t keyLen, int32_t bits);
 
-  /// @brief Method get_EffectiveKeyBits, addr 0xf39470, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EffectiveKeyBits, addr 0xf64300, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_EffectiveKeyBits();
 
   // Ctor Parameters [CppParam { name: "", ty: "RC2Parameters", modifiers: "&&", def_value: None }]

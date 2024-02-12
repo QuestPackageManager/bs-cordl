@@ -38,7 +38,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__MissionSelectionNavigationController____c__D
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5706))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5008))
 // CS Name: ::MissionSelectionNavigationController::<>c__DisplayClass11_0*
 class CORDL_TYPE __MissionSelectionNavigationController____c__DisplayClass11_0 : public ::System::Object {
 public:
@@ -72,13 +72,13 @@ public:
 
   static inline ::GlobalNamespace::__MissionSelectionNavigationController____c__DisplayClass11_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22cc25c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22fbd1c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <PresentMissionClearedIfNeeded>b__0, addr 0x22cc26c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method <PresentMissionClearedIfNeeded>b__0, addr 0x22fbd2c, size 0xbc, virtual false, abstract: false, final false
   inline void _PresentMissionClearedIfNeeded_b__0();
 
-  /// @brief Method <PresentMissionClearedIfNeeded>b__1, addr 0x22cc328, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <PresentMissionClearedIfNeeded>b__1, addr 0x22fbde8, size 0x20, virtual false, abstract: false, final false
   inline void _PresentMissionClearedIfNeeded_b__1();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MissionSelectionNavigationController____c__DisplayClass11_0", modifiers: "&&", def_value: None }]
@@ -120,8 +120,8 @@ static_assert(offsetof(::GlobalNamespace::__MissionSelectionNavigationController
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13588))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5707))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13541))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5009))
 // CS Name: ::MissionSelectionNavigationController*
 class CORDL_TYPE MissionSelectionNavigationController : public ::HMUI::NavigationController {
 public:
@@ -160,33 +160,33 @@ public:
 
   constexpr void __cordl_internal_set_didPressPlayButtonEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionSelectionNavigationController>>* value);
 
-  /// @brief Method add_didPressPlayButtonEvent, addr 0x22cbcbc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didPressPlayButtonEvent, addr 0x22fb77c, size 0xb0, virtual false, abstract: false, final false
   inline void add_didPressPlayButtonEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionSelectionNavigationController>>* value);
 
-  /// @brief Method remove_didPressPlayButtonEvent, addr 0x22cbd6c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didPressPlayButtonEvent, addr 0x22fb82c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didPressPlayButtonEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionSelectionNavigationController>>* value);
 
-  /// @brief Method get_selectedMissionNode, addr 0x22cbe1c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_selectedMissionNode, addr 0x22fb8dc, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MissionNode> get_selectedMissionNode();
 
-  /// @brief Method DidActivate, addr 0x22cbe38, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x22fb8f8, size 0x174, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x22cbfac, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x22fba6c, size 0x104, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleMissionSelectionMapViewControllerDidSelectMissionLevel, addr 0x22cc0b0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method HandleMissionSelectionMapViewControllerDidSelectMissionLevel, addr 0x22fbb70, size 0x74, virtual false, abstract: false, final false
   inline void HandleMissionSelectionMapViewControllerDidSelectMissionLevel(::GlobalNamespace::MissionSelectionMapViewController* viewController, ::GlobalNamespace::MissionNode* _missionNode);
 
-  /// @brief Method HandleMissionLevelDetailViewControllerDidPressPlayButton, addr 0x22cc124, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleMissionLevelDetailViewControllerDidPressPlayButton, addr 0x22fbbe4, size 0x20, virtual false, abstract: false, final false
   inline void HandleMissionLevelDetailViewControllerDidPressPlayButton(::GlobalNamespace::MissionLevelDetailViewController* viewController);
 
-  /// @brief Method PresentMissionClearedIfNeeded, addr 0x22cc144, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method PresentMissionClearedIfNeeded, addr 0x22fbc04, size 0x118, virtual false, abstract: false, final false
   inline void PresentMissionClearedIfNeeded(::System::Action_1<bool>* finishedCallback);
 
   static inline ::GlobalNamespace::MissionSelectionNavigationController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22cc264, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22fbd24, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionSelectionNavigationController", modifiers: "&&", def_value: None }]

@@ -3,6 +3,7 @@ module;
 #endif
 
 #pragma once
+#include "UnityEngine/Playables/DirectorUpdateMode.hpp"
 #include "UnityEngine/Playables/DirectorWrapMode.hpp"
 #include "UnityEngine/Playables/FrameData.hpp"
 #include "UnityEngine/Playables/FrameRate.hpp"

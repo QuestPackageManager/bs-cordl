@@ -42,7 +42,7 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocat
 namespace UnityEngine::AddressableAssets::ResourceLocators {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14115))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14128))
 // CS Name: ::UnityEngine.AddressableAssets.ResourceLocators::ResourceLocationMap*
 class CORDL_TYPE ResourceLocationMap : public ::System::Object {
 public:
@@ -85,39 +85,39 @@ public:
 
   static inline ::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap* New_ctor(::StringW id, int32_t capacity);
 
-  /// @brief Method .ctor, addr 0x2a2d958, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a304c4, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::StringW id, int32_t capacity);
 
-  /// @brief Method get_LocatorId, addr 0x2a2eba8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_LocatorId, addr 0x2a31714, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_LocatorId();
 
-  /// @brief Method set_LocatorId, addr 0x2a2ebb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LocatorId, addr 0x2a3171c, size 0x8, virtual false, abstract: false, final false
   inline void set_LocatorId(::StringW value);
 
   static inline ::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap*
   New_ctor(::StringW id, ::System::Collections::Generic::IList_1<::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData*>* locations);
 
-  /// @brief Method .ctor, addr 0x2a2ebb8, size 0x96c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a31724, size 0x96c, virtual false, abstract: false, final false
   inline void _ctor(::StringW id, ::System::Collections::Generic::IList_1<::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData*>* locations);
 
-  /// @brief Method get_Locations, addr 0x2a2f688, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Locations, addr 0x2a321f4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>*
   get_Locations();
 
-  /// @brief Method set_Locations, addr 0x2a2f690, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Locations, addr 0x2a321fc, size 0x8, virtual false, abstract: false, final false
   inline void set_Locations(
       ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>* value);
 
-  /// @brief Method get_Keys, addr 0x2a2f698, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method get_Keys, addr 0x2a32204, size 0x50, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerable_1<::System::Object*>* get_Keys();
 
-  /// @brief Method Locate, addr 0x2a2dd94, size 0x86c, virtual true, abstract: false, final true
+  /// @brief Method Locate, addr 0x2a30900, size 0x86c, virtual true, abstract: false, final true
   inline bool Locate(::System::Object* key, ::System::Type* type, ByRef<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> locations);
 
-  /// @brief Method Add, addr 0x2a2f524, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x2a32090, size 0x164, virtual false, abstract: false, final false
   inline void Add(::System::Object* key, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location);
 
-  /// @brief Method Add, addr 0x2a2dbec, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x2a30758, size 0x68, virtual false, abstract: false, final false
   inline void Add(::System::Object* key, ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* locations);
 
   // Ctor Parameters [CppParam { name: "", ty: "ResourceLocationMap", modifiers: "&&", def_value: None }]

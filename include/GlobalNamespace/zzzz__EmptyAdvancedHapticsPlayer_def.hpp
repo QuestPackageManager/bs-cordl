@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::GlobalNamespace::EmptyAdvancedHapticsPlayer);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14420))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14569))
 // CS Name: ::EmptyAdvancedHapticsPlayer*
 class CORDL_TYPE EmptyAdvancedHapticsPlayer : public ::System::Object {
 public:
@@ -35,15 +35,15 @@ public:
   /// @brief Convert to "::GlobalNamespace::IHapticFeedbackPlayer"
   constexpr ::GlobalNamespace::IHapticFeedbackPlayer* i___GlobalNamespace__IHapticFeedbackPlayer() noexcept;
 
-  /// @brief Method PlayHapticFeedback, addr 0x20f91cc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method PlayHapticFeedback, addr 0x218cbdc, size 0x4, virtual true, abstract: false, final true
   inline void PlayHapticFeedback(::UnityEngine::XR::XRNode node, ::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset);
 
-  /// @brief Method CanPlayHapticPreset, addr 0x20f91d0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method CanPlayHapticPreset, addr 0x218cbe0, size 0x8, virtual true, abstract: false, final true
   inline bool CanPlayHapticPreset(::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset);
 
   static inline ::GlobalNamespace::EmptyAdvancedHapticsPlayer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x20f91d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x218cbe8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EmptyAdvancedHapticsPlayer", modifiers: "&&", def_value: None }]

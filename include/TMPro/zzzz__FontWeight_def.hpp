@@ -16,7 +16,7 @@ MARK_VAL_T(::TMPro::FontWeight);
 namespace TMPro {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12439))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12337))
 // CS Name: ::TMPro::FontWeight
 struct CORDL_TYPE FontWeight {
 public:

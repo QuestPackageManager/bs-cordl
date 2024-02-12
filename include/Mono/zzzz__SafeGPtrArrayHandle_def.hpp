@@ -38,16 +38,16 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable();
 
-  /// @brief Method .ctor, addr 0x2412e38, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2432c98, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(void* ptr);
 
-  /// @brief Method Dispose, addr 0x2412e58, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2432cb8, size 0x1c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method get_Length, addr 0x2412e74, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Length, addr 0x2432cd4, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
-  /// @brief Method get_Item, addr 0x2412e90, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x2432cf0, size 0x4, virtual false, abstract: false, final false
   inline void* get_Item(int32_t i);
 
   // Ctor Parameters [CppParam { name: "handle", ty: "::Mono::RuntimeGPtrArrayHandle", modifiers: "", def_value: None }]

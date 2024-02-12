@@ -55,7 +55,7 @@ MARK_REF_PTR_T(::System::Xml::Linq::__XContainer___Nodes_d__18);
 namespace System::Xml::Linq {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15435))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15549))
 // CS Name: ::XContainer::<Nodes>d__18*
 class CORDL_TYPE __XContainer___Nodes_d__18 : public ::System::Object {
 public:
@@ -142,28 +142,28 @@ public:
 
   static inline ::System::Xml::Linq::__XContainer___Nodes_d__18* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor, addr 0x285d198, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2860800, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x285dd74, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x28613dc, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext, addr 0x285dd78, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x28613e0, size 0x90, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Xml.Linq.XNode>.get_Current, addr 0x285de08, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Xml.Linq.XNode>.get_Current, addr 0x2861470, size 0x8, virtual true, abstract: false, final true
   inline ::System::Xml::Linq::XNode* System_Collections_Generic_IEnumerator_System_Xml_Linq_XNode__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x285de10, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2861478, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x285de50, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x28614b8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.Collections.Generic.IEnumerable<System.Xml.Linq.XNode>.GetEnumerator, addr 0x285de58, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<System.Xml.Linq.XNode>.GetEnumerator, addr 0x28614c0, size 0xa4, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Xml::Linq::XNode*>* System_Collections_Generic_IEnumerable_System_Xml_Linq_XNode__GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x285defc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2861564, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   // Ctor Parameters [CppParam { name: "", ty: "__XContainer___Nodes_d__18", modifiers: "&&", def_value: None }]
@@ -215,8 +215,8 @@ static_assert(offsetof(::System::Xml::Linq::__XContainer___Nodes_d__18, ____n_5_
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Linq {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15453))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15436))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15567))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15550))
 // CS Name: ::System.Xml.Linq::XContainer*
 class CORDL_TYPE XContainer : public ::System::Xml::Linq::XNode {
 public:
@@ -236,75 +236,75 @@ public:
 
   static inline ::System::Xml::Linq::XContainer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x285c060, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x285f6c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Xml::Linq::XContainer* New_ctor(::System::Xml::Linq::XContainer* other);
 
-  /// @brief Method .ctor, addr 0x285c068, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x285f6d0, size 0x13c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XContainer* other);
 
-  /// @brief Method get_LastNode, addr 0x285c264, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method get_LastNode, addr 0x285f8cc, size 0x13c, virtual false, abstract: false, final false
   inline ::System::Xml::Linq::XNode* get_LastNode();
 
-  /// @brief Method Add, addr 0x285c3a0, size 0x4f0, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x285fa08, size 0x4f0, virtual false, abstract: false, final false
   inline void Add(::System::Object* content);
 
-  /// @brief Method Nodes, addr 0x285d120, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Nodes, addr 0x2860788, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Xml::Linq::XNode*>* Nodes();
 
-  /// @brief Method RemoveNodes, addr 0x285d1cc, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method RemoveNodes, addr 0x2860834, size 0x29c, virtual false, abstract: false, final false
   inline void RemoveNodes();
 
-  /// @brief Method AddAttribute, addr 0x285d5b0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method AddAttribute, addr 0x2860c18, size 0x4, virtual true, abstract: false, final false
   inline void AddAttribute(::System::Xml::Linq::XAttribute* a);
 
-  /// @brief Method AddAttributeSkipNotify, addr 0x285d5b4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method AddAttributeSkipNotify, addr 0x2860c1c, size 0x4, virtual true, abstract: false, final false
   inline void AddAttributeSkipNotify(::System::Xml::Linq::XAttribute* a);
 
-  /// @brief Method AddContentSkipNotify, addr 0x285c900, size 0x4cc, virtual false, abstract: false, final false
+  /// @brief Method AddContentSkipNotify, addr 0x285ff68, size 0x4cc, virtual false, abstract: false, final false
   inline void AddContentSkipNotify(::System::Object* content);
 
-  /// @brief Method AddNode, addr 0x285cdcc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method AddNode, addr 0x2860434, size 0x7c, virtual false, abstract: false, final false
   inline void AddNode(::System::Xml::Linq::XNode* n);
 
-  /// @brief Method AddNodeSkipNotify, addr 0x285d5b8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method AddNodeSkipNotify, addr 0x2860c20, size 0x7c, virtual false, abstract: false, final false
   inline void AddNodeSkipNotify(::System::Xml::Linq::XNode* n);
 
-  /// @brief Method AddString, addr 0x285ce48, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method AddString, addr 0x28604b0, size 0x254, virtual false, abstract: false, final false
   inline void AddString(::StringW s);
 
-  /// @brief Method AddStringSkipNotify, addr 0x285d634, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method AddStringSkipNotify, addr 0x2860c9c, size 0x150, virtual false, abstract: false, final false
   inline void AddStringSkipNotify(::StringW s);
 
-  /// @brief Method AppendNode, addr 0x285d784, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method AppendNode, addr 0x2860dec, size 0x118, virtual false, abstract: false, final false
   inline void AppendNode(::System::Xml::Linq::XNode* n);
 
-  /// @brief Method AppendNodeSkipNotify, addr 0x285c1a4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method AppendNodeSkipNotify, addr 0x285f80c, size 0xc0, virtual false, abstract: false, final false
   inline void AppendNodeSkipNotify(::System::Xml::Linq::XNode* n);
 
-  /// @brief Method AppendText, addr 0x285d990, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method AppendText, addr 0x2860ff8, size 0xec, virtual true, abstract: false, final false
   inline void AppendText(::System::Text::StringBuilder* sb);
 
-  /// @brief Method ConvertTextToNode, addr 0x285d504, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ConvertTextToNode, addr 0x2860b6c, size 0xac, virtual false, abstract: false, final false
   inline void ConvertTextToNode();
 
-  /// @brief Method GetStringValue, addr 0x285aab8, size 0x400, virtual false, abstract: false, final false
+  /// @brief Method GetStringValue, addr 0x285e120, size 0x400, virtual false, abstract: false, final false
   static inline ::StringW GetStringValue(::System::Object* value);
 
-  /// @brief Method RemoveNode, addr 0x285da7c, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method RemoveNode, addr 0x28610e4, size 0x1a0, virtual false, abstract: false, final false
   inline void RemoveNode(::System::Xml::Linq::XNode* n);
 
-  /// @brief Method RemoveNodesSkipNotify, addr 0x285d468, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method RemoveNodesSkipNotify, addr 0x2860ad0, size 0x9c, virtual false, abstract: false, final false
   inline void RemoveNodesSkipNotify();
 
-  /// @brief Method ValidateNode, addr 0x285dc1c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ValidateNode, addr 0x2861284, size 0x4, virtual true, abstract: false, final false
   inline void ValidateNode(::System::Xml::Linq::XNode* node, ::System::Xml::Linq::XNode* previous);
 
-  /// @brief Method ValidateString, addr 0x285dc20, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ValidateString, addr 0x2861288, size 0x4, virtual true, abstract: false, final false
   inline void ValidateString(::StringW s);
 
-  /// @brief Method WriteContentTo, addr 0x285dc24, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method WriteContentTo, addr 0x286128c, size 0x150, virtual false, abstract: false, final false
   inline void WriteContentTo(::System::Xml::XmlWriter* writer);
 
   // Ctor Parameters [CppParam { name: "", ty: "XContainer", modifiers: "&&", def_value: None }]

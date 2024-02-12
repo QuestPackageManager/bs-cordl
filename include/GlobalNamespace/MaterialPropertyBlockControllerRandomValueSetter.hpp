@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__MaterialPropertyBlockControllerRandomValueSetter_def.hpp"
+#include "GlobalNamespace/zzzz__MaterialPropertyBlockControllerRandomValueSetter_impl.hpp"

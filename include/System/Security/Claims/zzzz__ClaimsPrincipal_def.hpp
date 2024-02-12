@@ -97,35 +97,35 @@ public:
 
   static inline ::System::Func_1<::System::Security::Claims::ClaimsPrincipal*>* getStaticF_s_principalSelector();
 
-  /// @brief Method SelectPrimaryIdentity, addr 0x247ec6c, size 0x380, virtual false, abstract: false, final false
+  /// @brief Method SelectPrimaryIdentity, addr 0x24a0ce0, size 0x380, virtual false, abstract: false, final false
   static inline ::System::Security::Claims::ClaimsIdentity* SelectPrimaryIdentity(::System::Collections::Generic::IEnumerable_1<::System::Security::Claims::ClaimsIdentity*>* identities);
 
-  /// @brief Method get_ClaimsPrincipalSelector, addr 0x247efec, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_ClaimsPrincipalSelector, addr 0x24a1060, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Func_1<::System::Security::Claims::ClaimsPrincipal*>* get_ClaimsPrincipalSelector();
 
   static inline ::System::Security::Claims::ClaimsPrincipal* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2476d20, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2498d94, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Security::Claims::ClaimsPrincipal* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x247f044, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24a10b8, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method OnSerializingMethod, addr 0x247f298, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method OnSerializingMethod, addr 0x24a130c, size 0x5c, virtual false, abstract: false, final false
   inline void OnSerializingMethod(::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method OnDeserializedMethod, addr 0x247fd08, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method OnDeserializedMethod, addr 0x24a1d7c, size 0x60, virtual false, abstract: false, final false
   inline void OnDeserializedMethod(::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method Deserialize, addr 0x247f144, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method Deserialize, addr 0x24a11b8, size 0x154, virtual false, abstract: false, final false
   inline void Deserialize(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method DeserializeIdentities, addr 0x247fd68, size 0x6fc, virtual false, abstract: false, final false
+  /// @brief Method DeserializeIdentities, addr 0x24a1ddc, size 0x6fc, virtual false, abstract: false, final false
   inline void DeserializeIdentities(::StringW identities);
 
-  /// @brief Method SerializeIdentities, addr 0x247f2f4, size 0xa14, virtual false, abstract: false, final false
+  /// @brief Method SerializeIdentities, addr 0x24a1368, size 0xa14, virtual false, abstract: false, final false
   inline ::StringW SerializeIdentities();
 
   // Ctor Parameters [CppParam { name: "", ty: "ClaimsPrincipal", modifiers: "&&", def_value: None }]

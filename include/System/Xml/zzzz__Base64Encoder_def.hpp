@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::System::Xml::Base64Encoder);
 namespace System::Xml {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11404))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11302))
 // CS Name: ::System.Xml::Base64Encoder*
 class CORDL_TYPE Base64Encoder : public ::System::Object {
 public:
@@ -51,16 +51,16 @@ public:
 
   static inline ::System::Xml::Base64Encoder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x284d784, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2850dec, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method WriteChars, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void WriteChars(::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t index, int32_t count);
 
-  /// @brief Method Encode, addr 0x284d7e0, size 0x334, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x2850e48, size 0x334, virtual false, abstract: false, final false
   inline void Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t index, int32_t count);
 
-  /// @brief Method Flush, addr 0x284db14, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Flush, addr 0x285117c, size 0xa8, virtual false, abstract: false, final false
   inline void Flush();
 
   // Ctor Parameters [CppParam { name: "", ty: "Base64Encoder", modifiers: "&&", def_value: None }]

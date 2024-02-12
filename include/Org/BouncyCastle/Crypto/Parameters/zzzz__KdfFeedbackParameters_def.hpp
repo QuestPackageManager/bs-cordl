@@ -96,30 +96,30 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Parameters::KdfFeedbackParameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> ki, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv,
                                                                                          ::ArrayW<uint8_t, ::Array<uint8_t>*> fixedInputData, int32_t r, bool useCounter);
 
-  /// @brief Method .ctor, addr 0xf373a0, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf62230, size 0x170, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> ki, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv, ::ArrayW<uint8_t, ::Array<uint8_t>*> fixedInputData, int32_t r, bool useCounter);
 
-  /// @brief Method CreateWithCounter, addr 0xf37510, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method CreateWithCounter, addr 0xf623a0, size 0xe0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::KdfFeedbackParameters* CreateWithCounter(::ArrayW<uint8_t, ::Array<uint8_t>*> ki, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv,
                                                                                                   ::ArrayW<uint8_t, ::Array<uint8_t>*> fixedInputData, int32_t r);
 
-  /// @brief Method CreateWithoutCounter, addr 0xf375f0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method CreateWithoutCounter, addr 0xf62480, size 0x98, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::KdfFeedbackParameters* CreateWithoutCounter(::ArrayW<uint8_t, ::Array<uint8_t>*> ki, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv,
                                                                                                      ::ArrayW<uint8_t, ::Array<uint8_t>*> fixedInputData);
 
-  /// @brief Method get_Ki, addr 0xf37688, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_Ki, addr 0xf62518, size 0x5c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Ki();
 
-  /// @brief Method get_Iv, addr 0xf376e4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_Iv, addr 0xf62574, size 0x5c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Iv();
 
-  /// @brief Method get_UseCounter, addr 0xf37740, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UseCounter, addr 0xf625d0, size 0x8, virtual false, abstract: false, final false
   inline bool get_UseCounter();
 
-  /// @brief Method get_R, addr 0xf37748, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_R, addr 0xf625d8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_R();
 
-  /// @brief Method get_FixedInputData, addr 0xf37750, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_FixedInputData, addr 0xf625e0, size 0x5c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_FixedInputData();
 
   // Ctor Parameters [CppParam { name: "", ty: "KdfFeedbackParameters", modifiers: "&&", def_value: None }]

@@ -16,8 +16,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5456))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5457))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4759))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4760))
 // CS Name: ::SelectableStateController`1<T>*
 class CORDL_TYPE SelectableStateController_1 : public ::GlobalNamespace::SelectableStateController {
 public:

@@ -64,7 +64,7 @@ namespace System::IO::Enumeration {
 template <typename TResult>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3643))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3641))
 // CS Name: ::FileSystemEnumerable`1::FindPredicate<TResult>*
 class CORDL_TYPE __FileSystemEnumerable_1__FindPredicate : public ::System::MulticastDelegate {
 public:
@@ -102,7 +102,7 @@ namespace System::IO::Enumeration {
 template <typename TResult>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3644))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3642))
 // CS Name: ::FileSystemEnumerable`1::FindTransform<TResult>*
 class CORDL_TYPE __FileSystemEnumerable_1__FindTransform : public ::System::MulticastDelegate {
 public:
@@ -139,8 +139,8 @@ namespace System::IO::Enumeration {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3655)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3655), inst: 1976 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3645))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3653)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3653), inst: 1934 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3643))
 // CS Name: ::FileSystemEnumerable`1::DelegateEnumerator<TResult>*
 class CORDL_TYPE __FileSystemEnumerable_1__DelegateEnumerator : public ::System::IO::Enumeration::FileSystemEnumerator_1<TResult> {
 public:
@@ -196,7 +196,7 @@ namespace System::IO::Enumeration {
 template <typename TResult>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3646))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3644))
 // CS Name: ::System.IO.Enumeration::FileSystemEnumerable`1<TResult>*
 class CORDL_TYPE FileSystemEnumerable_1 : public ::System::Object {
 public:

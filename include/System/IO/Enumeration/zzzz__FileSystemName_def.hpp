@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::System::IO::Enumeration::FileSystemName);
 namespace System::IO::Enumeration {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3656))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3654))
 // CS Name: ::System.IO.Enumeration::FileSystemName*
 class CORDL_TYPE FileSystemName : public ::System::Object {
 public:
@@ -39,16 +39,16 @@ public:
 
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_s_simpleWildcardChars();
 
-  /// @brief Method TranslateWin32Expression, addr 0x2547ebc, size 0x39c, virtual false, abstract: false, final false
+  /// @brief Method TranslateWin32Expression, addr 0x2569b04, size 0x39c, virtual false, abstract: false, final false
   static inline ::StringW TranslateWin32Expression(::StringW expression);
 
-  /// @brief Method MatchesWin32Expression, addr 0x2548258, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method MatchesWin32Expression, addr 0x2569ea0, size 0x88, virtual false, abstract: false, final false
   static inline bool MatchesWin32Expression(::System::ReadOnlySpan_1<char16_t> expression, ::System::ReadOnlySpan_1<char16_t> name, bool ignoreCase);
 
-  /// @brief Method MatchesSimpleExpression, addr 0x2548a34, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method MatchesSimpleExpression, addr 0x256a67c, size 0x88, virtual false, abstract: false, final false
   static inline bool MatchesSimpleExpression(::System::ReadOnlySpan_1<char16_t> expression, ::System::ReadOnlySpan_1<char16_t> name, bool ignoreCase);
 
-  /// @brief Method MatchPattern, addr 0x25482e0, size 0x754, virtual false, abstract: false, final false
+  /// @brief Method MatchPattern, addr 0x2569f28, size 0x754, virtual false, abstract: false, final false
   static inline bool MatchPattern(::System::ReadOnlySpan_1<char16_t> expression, ::System::ReadOnlySpan_1<char16_t> name, bool ignoreCase, bool useExtendedWildcards);
 
   // Ctor Parameters [CppParam { name: "", ty: "FileSystemName", modifiers: "&&", def_value: None }]

@@ -36,22 +36,22 @@ public:
 
   static inline ::System::OrdinalComparer* New_ctor(bool ignoreCase);
 
-  /// @brief Method .ctor, addr 0x25c5960, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25e7878, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(bool ignoreCase);
 
-  /// @brief Method Compare, addr 0x25c59cc, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Compare, addr 0x25e78e4, size 0x58, virtual true, abstract: false, final false
   inline int32_t Compare(::StringW x, ::StringW y);
 
-  /// @brief Method Equals, addr 0x25c5a24, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x25e793c, size 0x80, virtual true, abstract: false, final false
   inline bool Equals(::StringW x, ::StringW y);
 
-  /// @brief Method GetHashCode, addr 0x25c5aa4, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x25e79bc, size 0x88, virtual true, abstract: false, final false
   inline int32_t GetHashCode(::StringW obj);
 
-  /// @brief Method Equals, addr 0x25c5b2c, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x25e7a44, size 0x98, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x25c5bc4, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x25e7adc, size 0x64, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "OrdinalComparer", modifiers: "&&", def_value: None }]

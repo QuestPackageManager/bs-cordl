@@ -969,6 +969,13 @@ inline ::System::Collections::Generic::ICollection_1<TKey>* System::Collections:
                                                "System.Collections.Generic.IDictionary<TKey,TValue>.get_Keys", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::ICollection_1<TKey>*, false>(this, ___internal_method);
 }
+template <typename TKey, typename TValue>
+inline ::System::Collections::Generic::IEnumerable_1<TKey>* System::Collections::Generic::Dictionary_2<TKey, TValue>::System_Collections_Generic_IReadOnlyDictionary_TKey_TValue__get_Keys() {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::Dictionary_2<TKey, TValue>*>::get(),
+                                  "System.Collections.Generic.IReadOnlyDictionary<TKey,TValue>.get_Keys", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TKey>*, false>(this, ___internal_method);
+}
 template <typename TKey, typename TValue> inline ::System::Collections::Generic::__Dictionary_2__ValueCollection<TKey, TValue>* System::Collections::Generic::Dictionary_2<TKey, TValue>::get_Values() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::Dictionary_2<TKey, TValue>*>::get(),
                                                                              "get_Values", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -1071,7 +1078,7 @@ inline void System::Collections::Generic::Dictionary_2<TKey, TValue>::GetObjectD
                                                                                     ::System::Runtime::Serialization::StreamingContext context) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::Dictionary_2<TKey, TValue>*>::get(), 41)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::Dictionary_2<TKey, TValue>*>::get(), 42)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, info, context);
 }
 template <typename TKey, typename TValue> inline int32_t System::Collections::Generic::Dictionary_2<TKey, TValue>::FindEntry(TKey key) {
@@ -1097,7 +1104,7 @@ inline bool System::Collections::Generic::Dictionary_2<TKey, TValue>::TryInsert(
 template <typename TKey, typename TValue> inline void System::Collections::Generic::Dictionary_2<TKey, TValue>::OnDeserialization(::System::Object* sender) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::Dictionary_2<TKey, TValue>*>::get(), 42)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::Dictionary_2<TKey, TValue>*>::get(), 43)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, sender);
 }
 template <typename TKey, typename TValue> inline void System::Collections::Generic::Dictionary_2<TKey, TValue>::Resize() {
@@ -1116,6 +1123,12 @@ template <typename TKey, typename TValue> inline bool System::Collections::Gener
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::Dictionary_2<TKey, TValue>*>::get(), "Remove",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TKey>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, key);
+}
+template <typename TKey, typename TValue> inline bool System::Collections::Generic::Dictionary_2<TKey, TValue>::Remove(TKey key, ByRef<TValue> value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::Dictionary_2<TKey, TValue>*>::get(), "Remove", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TKey>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<TValue>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, key, value);
 }
 template <typename TKey, typename TValue> inline bool System::Collections::Generic::Dictionary_2<TKey, TValue>::TryGetValue(TKey key, ByRef<TValue> value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -22,10 +22,10 @@ namespace Microsoft::Win32 {
 class CORDL_TYPE Win32Native : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetMessage, addr 0x242be18, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetMessage, addr 0x244bc7c, size 0x5c, virtual false, abstract: false, final false
   static inline ::StringW GetMessage(int32_t hr);
 
-  /// @brief Method MakeHRFromErrorCode, addr 0x242be74, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method MakeHRFromErrorCode, addr 0x244bcd8, size 0xc, virtual false, abstract: false, final false
   static inline int32_t MakeHRFromErrorCode(int32_t errorCode);
 
   // Ctor Parameters [CppParam { name: "", ty: "Win32Native", modifiers: "&&", def_value: None }]

@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::GlobalNamespace::CustomNetworkConfig);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12740))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12710))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12638))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12608))
 // CS Name: ::CustomNetworkConfig*
 class CORDL_TYPE CustomNetworkConfig : public ::System::Object {
 public:
@@ -153,42 +153,42 @@ public:
 
   constexpr void __cordl_internal_set__serviceEnvironment_k__BackingField(::GlobalNamespace::ServiceEnvironment value);
 
-  /// @brief Method get_maxPartySize, addr 0xe324e4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_maxPartySize, addr 0xe5d31c, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_maxPartySize();
 
-  /// @brief Method get_discoveryPort, addr 0xe324ec, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_discoveryPort, addr 0xe5d324, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_discoveryPort();
 
-  /// @brief Method get_partyPort, addr 0xe324f4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_partyPort, addr 0xe5d32c, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_partyPort();
 
-  /// @brief Method get_multiplayerPort, addr 0xe324fc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_multiplayerPort, addr 0xe5d334, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_multiplayerPort();
 
-  /// @brief Method get_masterServerEndPoint, addr 0xe32504, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_masterServerEndPoint, addr 0xe5d33c, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::DnsEndPoint* get_masterServerEndPoint();
 
-  /// @brief Method get_multiplayerStatusUrl, addr 0xe3250c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_multiplayerStatusUrl, addr 0xe5d344, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_multiplayerStatusUrl();
 
-  /// @brief Method get_quickPlaySetupUrl, addr 0xe32514, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method get_quickPlaySetupUrl, addr 0xe5d34c, size 0x48, virtual true, abstract: false, final true
   inline ::StringW get_quickPlaySetupUrl();
 
-  /// @brief Method get_graphUrl, addr 0xe3255c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_graphUrl, addr 0xe5d394, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_graphUrl();
 
-  /// @brief Method get_graphAccessToken, addr 0xe32564, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_graphAccessToken, addr 0xe5d39c, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_graphAccessToken();
 
-  /// @brief Method get_forceGameLift, addr 0xe3256c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_forceGameLift, addr 0xe5d3a4, size 0x8, virtual true, abstract: false, final true
   inline bool get_forceGameLift();
 
-  /// @brief Method get_serviceEnvironment, addr 0xe32574, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_serviceEnvironment, addr 0xe5d3ac, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::ServiceEnvironment get_serviceEnvironment();
 
   static inline ::GlobalNamespace::CustomNetworkConfig* New_ctor(::GlobalNamespace::INetworkConfig* fromNetworkConfig, ::StringW customServerHostName, int32_t port, bool forceGameLift);
 
-  /// @brief Method .ctor, addr 0xe3257c, size 0x4a0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe5d3b4, size 0x4a0, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::INetworkConfig* fromNetworkConfig, ::StringW customServerHostName, int32_t port, bool forceGameLift);
 
   // Ctor Parameters [CppParam { name: "", ty: "CustomNetworkConfig", modifiers: "&&", def_value: None }]

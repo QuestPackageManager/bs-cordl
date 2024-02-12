@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::UnityEngine::Animations::NotKeyableAttribute);
 namespace UnityEngine::Animations {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14904))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14777))
 // CS Name: ::UnityEngine.Animations::NotKeyableAttribute*
 class CORDL_TYPE NotKeyableAttribute : public ::System::Attribute {
 public:

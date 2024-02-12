@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::System::Xml::BinHexDecoder);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 34, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11432))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11406))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11330))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11304))
 // CS Name: ::System.Xml::BinHexDecoder*
 class CORDL_TYPE BinHexDecoder : public ::System::Xml::IncrementalReadDecoder {
 public:
@@ -70,16 +70,16 @@ public:
 
   constexpr void __cordl_internal_set_cachedHalfByte(uint8_t value);
 
-  /// @brief Method get_IsFull, addr 0x284dc04, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method get_IsFull, addr 0x285126c, size 0x10, virtual true, abstract: false, final false
   inline bool get_IsFull();
 
-  /// @brief Method Decode, addr 0x284dc14, size 0x158, virtual true, abstract: false, final false
+  /// @brief Method Decode, addr 0x285127c, size 0x158, virtual true, abstract: false, final false
   inline int32_t Decode(::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t startPos, int32_t len);
 
-  /// @brief Method Decode, addr 0x284df38, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x28515a0, size 0x1e8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Decode(::ArrayW<char16_t, ::Array<char16_t>*> chars, bool allowOddChars);
 
-  /// @brief Method Decode, addr 0x284dd6c, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x28513d4, size 0x1cc, virtual false, abstract: false, final false
   static inline void Decode(::cordl_internals::Ptr<char16_t> pChars, ::cordl_internals::Ptr<char16_t> pCharsEndPos, ::cordl_internals::Ptr<uint8_t> pBytes,
                             ::cordl_internals::Ptr<uint8_t> pBytesEndPos, ByRef<bool> hasHalfByteCached, ByRef<uint8_t> cachedHalfByte, ByRef<int32_t> charsDecoded, ByRef<int32_t> bytesDecoded);
 

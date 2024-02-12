@@ -47,15 +47,15 @@ public:
 
   static inline ::System::Object* getStaticF_s_InternalSyncObject();
 
-  /// @brief Method get_InternalSyncObject, addr 0x25c6ee0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_InternalSyncObject, addr 0x25e8df8, size 0xa0, virtual false, abstract: false, final false
   static inline ::System::Object* get_InternalSyncObject();
 
   static inline ::System::TimeZone* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25c6f80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25e8e98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_CurrentTimeZone, addr 0x25c6f88, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentTimeZone, addr 0x25e8ea0, size 0x16c, virtual false, abstract: false, final false
   static inline ::System::TimeZone* get_CurrentTimeZone();
 
   /// @brief Method GetUtcOffset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -64,7 +64,7 @@ public:
   /// @brief Method GetDaylightChanges, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Globalization::DaylightTime* GetDaylightChanges(int32_t year);
 
-  /// @brief Method CalculateUtcOffset, addr 0x25c70f4, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method CalculateUtcOffset, addr 0x25e900c, size 0x21c, virtual false, abstract: false, final false
   static inline ::System::TimeSpan CalculateUtcOffset(::System::DateTime time, ::System::Globalization::DaylightTime* daylightTimes);
 
   // Ctor Parameters [CppParam { name: "", ty: "TimeZone", modifiers: "&&", def_value: None }]

@@ -19,12 +19,12 @@ MARK_REF_PTR_T(::GlobalNamespace::Interpolation);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16092))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16201))
 // CS Name: ::Interpolation*
 class CORDL_TYPE Interpolation : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Interpolate, addr 0x2a0d4f8, size 0x540, virtual false, abstract: false, final false
+  /// @brief Method Interpolate, addr 0x2a10064, size 0x540, virtual false, abstract: false, final false
   static inline float_t Interpolate(float_t t, ::GlobalNamespace::EaseType easeType);
 
   // Ctor Parameters [CppParam { name: "", ty: "Interpolation", modifiers: "&&", def_value: None }]

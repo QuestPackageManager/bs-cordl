@@ -16,7 +16,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_ImagePacking);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9717))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9509))
 // CS Name: ::HoudiniEngineUnity::HAPI_ImagePacking
 struct CORDL_TYPE HAPI_ImagePacking {
 public:

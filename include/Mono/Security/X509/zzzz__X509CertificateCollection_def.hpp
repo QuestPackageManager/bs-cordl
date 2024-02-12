@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::Mono::Security::X509::__X509CertificateCollection__X509Certific
 namespace Mono::Security::X509 {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13752))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13705))
 // CS Name: ::X509CertificateCollection::X509CertificateEnumerator*
 class CORDL_TYPE __X509CertificateCollection__X509CertificateEnumerator : public ::System::Object {
 public:
@@ -63,22 +63,22 @@ public:
 
   static inline ::Mono::Security::X509::__X509CertificateCollection__X509CertificateEnumerator* New_ctor(::Mono::Security::X509::X509CertificateCollection* mappings);
 
-  /// @brief Method .ctor, addr 0x23fbb30, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x241b990, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Security::X509::X509CertificateCollection* mappings);
 
-  /// @brief Method get_Current, addr 0x23f339c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method get_Current, addr 0x24131fc, size 0xf0, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509Certificate* get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x23fbca4, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x241bb04, size 0xa4, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.MoveNext, addr 0x23fbd48, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.MoveNext, addr 0x241bba8, size 0xa0, virtual true, abstract: false, final true
   inline bool System_Collections_IEnumerator_MoveNext();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x23fbde8, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x241bc48, size 0xa4, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method MoveNext, addr 0x23f3728, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method MoveNext, addr 0x2413588, size 0xa0, virtual false, abstract: false, final false
   inline bool MoveNext();
 
   // Ctor Parameters [CppParam { name: "", ty: "__X509CertificateCollection__X509CertificateEnumerator", modifiers: "&&", def_value: None }]
@@ -110,8 +110,8 @@ static_assert(offsetof(::Mono::Security::X509::__X509CertificateCollection__X509
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono::Security::X509 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3773))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13753))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3772))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13706))
 // CS Name: ::Mono.Security.X509::X509CertificateCollection*
 class CORDL_TYPE X509CertificateCollection : public ::System::Collections::CollectionBase {
 public:
@@ -128,34 +128,34 @@ public:
 
   static inline ::Mono::Security::X509::X509CertificateCollection* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23efafc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x240f95c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Item, addr 0x23fb860, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x241b6c0, size 0x98, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509Certificate* get_Item(int32_t index);
 
-  /// @brief Method Add, addr 0x23efc98, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x240faf8, size 0x74, virtual false, abstract: false, final false
   inline int32_t Add(::Mono::Security::X509::X509Certificate* value);
 
-  /// @brief Method AddRange, addr 0x23fb8f8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method AddRange, addr 0x241b758, size 0xd4, virtual false, abstract: false, final false
   inline void AddRange(::Mono::Security::X509::X509CertificateCollection* value);
 
-  /// @brief Method Contains, addr 0x23fb9cc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x241b82c, size 0x18, virtual false, abstract: false, final false
   inline bool Contains(::Mono::Security::X509::X509Certificate* value);
 
-  /// @brief Method GetEnumerator, addr 0x23f333c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x241319c, size 0x60, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::__X509CertificateCollection__X509CertificateEnumerator* GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x23fbbe4, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x241ba44, size 0x24, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method GetHashCode, addr 0x23fbc08, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x241ba68, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IndexOf, addr 0x23fb9e4, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x241b844, size 0x14c, virtual false, abstract: false, final false
   inline int32_t IndexOf(::Mono::Security::X509::X509Certificate* value);
 
-  /// @brief Method Compare, addr 0x23fbc28, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Compare, addr 0x241ba88, size 0x7c, virtual false, abstract: false, final false
   inline bool Compare(::ArrayW<uint8_t, ::Array<uint8_t>*> array1, ::ArrayW<uint8_t, ::Array<uint8_t>*> array2);
 
   // Ctor Parameters [CppParam { name: "", ty: "X509CertificateCollection", modifiers: "&&", def_value: None }]

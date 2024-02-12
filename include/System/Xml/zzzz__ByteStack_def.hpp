@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::System::Xml::ByteStack);
 namespace System::Xml {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11410))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11308))
 // CS Name: ::System.Xml::ByteStack*
 class CORDL_TYPE ByteStack : public ::System::Object {
 public:
@@ -60,13 +60,13 @@ public:
 
   static inline ::System::Xml::ByteStack* New_ctor(int32_t growthRate);
 
-  /// @brief Method .ctor, addr 0x284e830, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2851e98, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(int32_t growthRate);
 
-  /// @brief Method Push, addr 0x284e8a0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Push, addr 0x2851f08, size 0xd0, virtual false, abstract: false, final false
   inline void Push(uint8_t data);
 
-  /// @brief Method Pop, addr 0x284e970, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Pop, addr 0x2851fd8, size 0x4c, virtual false, abstract: false, final false
   inline uint8_t Pop();
 
   // Ctor Parameters [CppParam { name: "", ty: "ByteStack", modifiers: "&&", def_value: None }]

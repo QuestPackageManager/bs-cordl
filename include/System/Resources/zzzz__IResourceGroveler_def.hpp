@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::System::Resources::IResourceGroveler);
 namespace System::Resources {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3434))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3430))
 // CS Name: ::System.Resources::IResourceGroveler*
 class CORDL_TYPE IResourceGroveler {
 public:

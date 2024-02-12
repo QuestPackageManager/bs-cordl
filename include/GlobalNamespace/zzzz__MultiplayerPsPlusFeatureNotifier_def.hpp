@@ -14,8 +14,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerPsPlusFeatureNotifier);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5241))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4582))
 // CS Name: ::MultiplayerPsPlusFeatureNotifier*
 class CORDL_TYPE MultiplayerPsPlusFeatureNotifier : public ::UnityEngine::MonoBehaviour {
 public:
@@ -31,7 +31,7 @@ public:
 
   static inline ::GlobalNamespace::MultiplayerPsPlusFeatureNotifier* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2257e08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23b798c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerPsPlusFeatureNotifier", modifiers: "&&", def_value: None }]

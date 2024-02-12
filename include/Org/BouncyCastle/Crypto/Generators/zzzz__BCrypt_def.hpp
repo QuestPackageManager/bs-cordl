@@ -84,34 +84,34 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Generators::BCrypt* New_ctor();
 
-  /// @brief Method .ctor, addr 0xef5a9c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf2092c, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method F, addr 0xef5b08, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method F, addr 0xf20998, size 0x84, virtual false, abstract: false, final false
   inline uint32_t F(uint32_t x);
 
-  /// @brief Method ProcessTable, addr 0xef5b8c, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method ProcessTable, addr 0xf20a1c, size 0x134, virtual false, abstract: false, final false
   inline void ProcessTable(uint32_t xl, uint32_t xr, ::ArrayW<uint32_t, ::Array<uint32_t>*> table);
 
-  /// @brief Method InitState, addr 0xef5cc0, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method InitState, addr 0xf20b50, size 0x100, virtual false, abstract: false, final false
   inline void InitState();
 
-  /// @brief Method CyclicXorKey, addr 0xef5dc0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method CyclicXorKey, addr 0xf20c50, size 0x88, virtual false, abstract: false, final false
   inline void CyclicXorKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method EncryptMagicString, addr 0xef5e48, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method EncryptMagicString, addr 0xf20cd8, size 0x2d0, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncryptMagicString();
 
-  /// @brief Method ProcessTableWithSalt, addr 0xef6118, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method ProcessTableWithSalt, addr 0xf20fa8, size 0x25c, virtual false, abstract: false, final false
   inline void ProcessTableWithSalt(::ArrayW<uint32_t, ::Array<uint32_t>*> table, ::ArrayW<uint32_t, ::Array<uint32_t>*> salt32Bit, uint32_t iv1, uint32_t iv2);
 
-  /// @brief Method DeriveRawKey, addr 0xef6374, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method DeriveRawKey, addr 0xf21204, size 0x320, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DeriveRawKey(int32_t cost, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, ::ArrayW<uint8_t, ::Array<uint8_t>*> psw);
 
-  /// @brief Method PasswordToByteArray, addr 0xef6694, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method PasswordToByteArray, addr 0xf21524, size 0x70, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> PasswordToByteArray(::ArrayW<char16_t, ::Array<char16_t>*> password);
 
-  /// @brief Method Generate, addr 0xef6704, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0xf21594, size 0x1c8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Generate(::ArrayW<uint8_t, ::Array<uint8_t>*> password, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t cost);
 
   // Ctor Parameters [CppParam { name: "", ty: "BCrypt", modifiers: "&&", def_value: None }]

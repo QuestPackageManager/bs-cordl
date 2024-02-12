@@ -77,7 +77,7 @@ MARK_REF_PTR_T(::System::Threading::Tasks::__TaskFactory__CompleteOnInvokePromis
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2773)), TypeDefinitionIndex(TypeDefinitionIndex(2787)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 400
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2773)), TypeDefinitionIndex(TypeDefinitionIndex(2787)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 401
 // })] Self: TypeDefinitionIndex(TypeDefinitionIndex(2809)) CS Name: ::TaskFactory::CompleteOnInvokePromise*
 class CORDL_TYPE __TaskFactory__CompleteOnInvokePromise : public ::System::Threading::Tasks::Task_1<::System::Threading::Tasks::Task*> {
 public:
@@ -101,13 +101,13 @@ public:
 
   static inline ::System::Threading::Tasks::__TaskFactory__CompleteOnInvokePromise* New_ctor(::System::Collections::Generic::IList_1<::System::Threading::Tasks::Task*>* tasks);
 
-  /// @brief Method .ctor, addr 0x262d598, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26536bc, size 0x114, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IList_1<::System::Threading::Tasks::Task*>* tasks);
 
-  /// @brief Method Invoke, addr 0x262d6ac, size 0x22c, virtual true, abstract: false, final true
+  /// @brief Method Invoke, addr 0x26537d0, size 0x22c, virtual true, abstract: false, final true
   inline void Invoke(::System::Threading::Tasks::Task* completingTask);
 
-  /// @brief Method get_InvokeMayRunArbitraryCode, addr 0x262d8d8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_InvokeMayRunArbitraryCode, addr 0x26539fc, size 0x8, virtual true, abstract: false, final true
   inline bool get_InvokeMayRunArbitraryCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "__TaskFactory__CompleteOnInvokePromise", modifiers: "&&", def_value: None }]
@@ -186,24 +186,24 @@ public:
 
   static inline ::System::Threading::Tasks::TaskFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x262ac8c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2650db0, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Threading::Tasks::TaskFactory* New_ctor(::System::Threading::CancellationToken cancellationToken, ::System::Threading::Tasks::TaskCreationOptions creationOptions,
                                                                   ::System::Threading::Tasks::TaskContinuationOptions continuationOptions, ::System::Threading::Tasks::TaskScheduler* scheduler);
 
-  /// @brief Method .ctor, addr 0x262d1d0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26532f4, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::CancellationToken cancellationToken, ::System::Threading::Tasks::TaskCreationOptions creationOptions,
                     ::System::Threading::Tasks::TaskContinuationOptions continuationOptions, ::System::Threading::Tasks::TaskScheduler* scheduler);
 
-  /// @brief Method CheckCreationOptions, addr 0x262d328, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method CheckCreationOptions, addr 0x265344c, size 0x60, virtual false, abstract: false, final false
   static inline void CheckCreationOptions(::System::Threading::Tasks::TaskCreationOptions creationOptions);
 
-  /// @brief Method StartNew, addr 0x262d388, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method StartNew, addr 0x26534ac, size 0x8c, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* StartNew(::System::Action* action, ::System::Threading::CancellationToken cancellationToken, ::System::Threading::Tasks::TaskCreationOptions creationOptions,
                                                     ::System::Threading::Tasks::TaskScheduler* scheduler);
 
-  /// @brief Method StartNew, addr 0x262d414, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method StartNew, addr 0x2653538, size 0x90, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* StartNew(::System::Action_1<::System::Object*>* action, ::System::Object* state, ::System::Threading::CancellationToken cancellationToken,
                                                     ::System::Threading::Tasks::TaskCreationOptions creationOptions, ::System::Threading::Tasks::TaskScheduler* scheduler);
 
@@ -240,13 +240,13 @@ public:
                                                      ::System::Action_1<::System::IAsyncResult*>* endMethod, TArg1 arg1, TArg2 arg2, ::System::Object* state,
                                                      ::System::Threading::Tasks::TaskCreationOptions creationOptions);
 
-  /// @brief Method CheckFromAsyncOptions, addr 0x262d4a4, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method CheckFromAsyncOptions, addr 0x26535c8, size 0xf4, virtual false, abstract: false, final false
   static inline void CheckFromAsyncOptions(::System::Threading::Tasks::TaskCreationOptions creationOptions, bool hasBeginMethod);
 
-  /// @brief Method CommonCWAnyLogic, addr 0x262a020, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method CommonCWAnyLogic, addr 0x2650144, size 0x23c, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::System::Threading::Tasks::Task*>* CommonCWAnyLogic(::System::Collections::Generic::IList_1<::System::Threading::Tasks::Task*>* tasks);
 
-  /// @brief Method CheckMultiTaskContinuationOptions, addr 0x262d220, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method CheckMultiTaskContinuationOptions, addr 0x2653344, size 0x108, virtual false, abstract: false, final false
   static inline void CheckMultiTaskContinuationOptions(::System::Threading::Tasks::TaskContinuationOptions continuationOptions);
 
   // Ctor Parameters [CppParam { name: "", ty: "TaskFactory", modifiers: "&&", def_value: None }]

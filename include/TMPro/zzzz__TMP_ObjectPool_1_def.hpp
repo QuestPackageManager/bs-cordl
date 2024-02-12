@@ -24,7 +24,7 @@ namespace TMPro {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12406))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12304))
 // CS Name: ::TMPro::TMP_ObjectPool`1<T>*
 class CORDL_TYPE TMP_ObjectPool_1 : public ::System::Object {
 public:

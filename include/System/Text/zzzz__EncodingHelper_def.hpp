@@ -61,16 +61,16 @@ public:
 
   static inline bool getStaticF_i18nDisabled();
 
-  /// @brief Method get_UTF8Unmarked, addr 0x24500ec, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method get_UTF8Unmarked, addr 0x2470f50, size 0x1f0, virtual false, abstract: false, final false
   static inline ::System::Text::Encoding* get_UTF8Unmarked();
 
-  /// @brief Method InternalCodePage, addr 0x24502dc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InternalCodePage, addr 0x2471140, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW InternalCodePage(ByRef<int32_t> code_page);
 
-  /// @brief Method GetDefaultEncoding, addr 0x244cf88, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultEncoding, addr 0x246ddec, size 0x17c, virtual false, abstract: false, final false
   static inline ::System::Text::Encoding* GetDefaultEncoding();
 
-  /// @brief Method InvokeI18N, addr 0x244b3d8, size 0x70c, virtual false, abstract: false, final false
+  /// @brief Method InvokeI18N, addr 0x246c23c, size 0x70c, virtual false, abstract: false, final false
   static inline ::System::Object* InvokeI18N(::StringW name, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
   // Ctor Parameters [CppParam { name: "", ty: "EncodingHelper", modifiers: "&&", def_value: None }]

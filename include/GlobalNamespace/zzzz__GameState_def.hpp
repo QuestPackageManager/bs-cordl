@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::GlobalNamespace::GameState);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12764))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12662))
 // CS Name: ::GameState*
 class CORDL_TYPE GameState : public ::System::Object {
 public:
@@ -43,7 +43,7 @@ public:
 
   static inline ::GlobalNamespace::GameState* New_ctor(::GlobalNamespace::GameplayServerFiniteStateMachine* fsm);
 
-  /// @brief Method .ctor, addr 0xe3c22c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe67064, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::GameplayServerFiniteStateMachine* fsm);
 
   /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

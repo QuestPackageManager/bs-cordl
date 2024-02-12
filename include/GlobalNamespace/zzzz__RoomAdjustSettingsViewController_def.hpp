@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::GlobalNamespace::RoomAdjustSettingsViewController);
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5744))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13558))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5044))
 // CS Name: ::RoomAdjustSettingsViewController*
 class CORDL_TYPE RoomAdjustSettingsViewController : public ::HMUI::ViewController {
 public:
@@ -99,51 +99,51 @@ public:
 
   constexpr void __cordl_internal_set__resetButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  /// @brief Method DidActivate, addr 0x22d7790, size 0x30c, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x2307988, size 0x30c, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method Move, addr 0x22d7cb4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Move, addr 0x2307eac, size 0x94, virtual false, abstract: false, final false
   inline void Move(::UnityEngine::Vector3 move);
 
-  /// @brief Method Rotate, addr 0x22d7d48, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Rotate, addr 0x2307f40, size 0x88, virtual false, abstract: false, final false
   inline void Rotate(float_t rotation);
 
-  /// @brief Method ResetRoom, addr 0x22d7dd0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ResetRoom, addr 0x2307fc8, size 0x8c, virtual false, abstract: false, final false
   inline void ResetRoom();
 
-  /// @brief Method RefreshTexts, addr 0x22d7a9c, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method RefreshTexts, addr 0x2307c94, size 0x218, virtual false, abstract: false, final false
   inline void RefreshTexts();
 
   static inline ::GlobalNamespace::RoomAdjustSettingsViewController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22d7e5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2308054, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <DidActivate>b__10_0, addr 0x22d7e64, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__10_0, addr 0x230805c, size 0x14, virtual false, abstract: false, final false
   inline void _DidActivate_b__10_0();
 
-  /// @brief Method <DidActivate>b__10_1, addr 0x22d7e78, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__10_1, addr 0x2308070, size 0x14, virtual false, abstract: false, final false
   inline void _DidActivate_b__10_1();
 
-  /// @brief Method <DidActivate>b__10_2, addr 0x22d7e8c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__10_2, addr 0x2308084, size 0x14, virtual false, abstract: false, final false
   inline void _DidActivate_b__10_2();
 
-  /// @brief Method <DidActivate>b__10_3, addr 0x22d7ea0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__10_3, addr 0x2308098, size 0x14, virtual false, abstract: false, final false
   inline void _DidActivate_b__10_3();
 
-  /// @brief Method <DidActivate>b__10_4, addr 0x22d7eb4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__10_4, addr 0x23080ac, size 0x14, virtual false, abstract: false, final false
   inline void _DidActivate_b__10_4();
 
-  /// @brief Method <DidActivate>b__10_5, addr 0x22d7ec8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__10_5, addr 0x23080c0, size 0x14, virtual false, abstract: false, final false
   inline void _DidActivate_b__10_5();
 
-  /// @brief Method <DidActivate>b__10_6, addr 0x22d7edc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__10_6, addr 0x23080d4, size 0x8, virtual false, abstract: false, final false
   inline void _DidActivate_b__10_6();
 
-  /// @brief Method <DidActivate>b__10_7, addr 0x22d7ee4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__10_7, addr 0x23080dc, size 0x8, virtual false, abstract: false, final false
   inline void _DidActivate_b__10_7();
 
-  /// @brief Method <DidActivate>b__10_8, addr 0x22d7eec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__10_8, addr 0x23080e4, size 0x4, virtual false, abstract: false, final false
   inline void _DidActivate_b__10_8();
 
   // Ctor Parameters [CppParam { name: "", ty: "RoomAdjustSettingsViewController", modifiers: "&&", def_value: None }]

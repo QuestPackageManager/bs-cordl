@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::UnityEngine::Events::InvokableCall);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Events {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10450))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10451))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9219))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9220))
 // CS Name: ::UnityEngine.Events::InvokableCall*
 class CORDL_TYPE InvokableCall : public ::UnityEngine::Events::BaseInvokableCall {
 public:
@@ -39,29 +39,29 @@ public:
 
   constexpr void __cordl_internal_set_Delegate(::UnityEngine::Events::UnityAction* value);
 
-  /// @brief Method add_Delegate, addr 0x2cf85b8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_Delegate, addr 0x2d03294, size 0x9c, virtual false, abstract: false, final false
   inline void add_Delegate(::UnityEngine::Events::UnityAction* value);
 
-  /// @brief Method remove_Delegate, addr 0x2cf8654, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_Delegate, addr 0x2d03330, size 0x9c, virtual false, abstract: false, final false
   inline void remove_Delegate(::UnityEngine::Events::UnityAction* value);
 
   static inline ::UnityEngine::Events::InvokableCall* New_ctor(::System::Object* target, ::System::Reflection::MethodInfo* theFunction);
 
-  /// @brief Method .ctor, addr 0x2cf86f0, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d033cc, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* target, ::System::Reflection::MethodInfo* theFunction);
 
   static inline ::UnityEngine::Events::InvokableCall* New_ctor(::UnityEngine::Events::UnityAction* action);
 
-  /// @brief Method .ctor, addr 0x2cf87d8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d034b4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Events::UnityAction* action);
 
-  /// @brief Method Invoke, addr 0x2cf8804, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2d034e0, size 0x3c, virtual true, abstract: false, final false
   inline void Invoke(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method Invoke, addr 0x2cf8840, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2d0351c, size 0x3c, virtual false, abstract: false, final false
   inline void Invoke();
 
-  /// @brief Method Find, addr 0x2cf887c, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method Find, addr 0x2d03558, size 0x4c, virtual true, abstract: false, final false
   inline bool Find(::System::Object* targetObj, ::System::Reflection::MethodInfo* method);
 
   // Ctor Parameters [CppParam { name: "", ty: "InvokableCall", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ProBuilder::HandleOrientation);
 namespace UnityEngine::ProBuilder {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12127))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12025))
 // CS Name: ::UnityEngine.ProBuilder::HandleOrientation
 struct CORDL_TYPE HandleOrientation {
 public:

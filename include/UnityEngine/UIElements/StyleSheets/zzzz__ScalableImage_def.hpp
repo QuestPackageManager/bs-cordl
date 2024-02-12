@@ -19,12 +19,12 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::ScalableImage);
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7473))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6732))
 // CS Name: ::UnityEngine.UIElements.StyleSheets::ScalableImage
 struct CORDL_TYPE ScalableImage {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x2de5e24, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2e0420c, size 0x164, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "normalImage", ty: "::UnityW<::UnityEngine::Texture2D>", modifiers: "", def_value: None }, CppParam { name: "highResolutionImage", ty:

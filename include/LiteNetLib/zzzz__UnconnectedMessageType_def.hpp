@@ -16,7 +16,7 @@ MARK_VAL_T(::LiteNetLib::UnconnectedMessageType);
 namespace LiteNetLib {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14130))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14143))
 // CS Name: ::LiteNetLib::UnconnectedMessageType
 struct CORDL_TYPE UnconnectedMessageType {
 public:

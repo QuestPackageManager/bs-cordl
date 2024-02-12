@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::GlobalNamespace::TransitionTimingSO);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857)), TypeDefinitionIndex(TypeDefinitionIndex(16090))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5463))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15602)), TypeDefinitionIndex(TypeDefinitionIndex(16199))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4766))
 // CS Name: ::TransitionTimingSO*
 class CORDL_TYPE TransitionTimingSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -47,15 +47,15 @@ public:
 
   constexpr void __cordl_internal_set__easeDuration(float_t value);
 
-  /// @brief Method get_easeType, addr 0x228007c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_easeType, addr 0x23db934, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EaseType get_easeType();
 
-  /// @brief Method get_easeDuration, addr 0x2280084, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_easeDuration, addr 0x23db93c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_easeDuration();
 
   static inline ::GlobalNamespace::TransitionTimingSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x228008c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23db944, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TransitionTimingSO", modifiers: "&&", def_value: None }]

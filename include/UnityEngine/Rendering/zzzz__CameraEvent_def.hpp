@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Rendering::CameraEvent);
 namespace UnityEngine::Rendering {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10337))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9087))
 // CS Name: ::UnityEngine.Rendering::CameraEvent
 struct CORDL_TYPE CameraEvent {
 public:

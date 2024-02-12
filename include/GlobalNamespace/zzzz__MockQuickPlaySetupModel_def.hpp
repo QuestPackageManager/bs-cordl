@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MockQuickPlaySetupModel);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5187))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4526))
 // CS Name: ::MockQuickPlaySetupModel*
 class CORDL_TYPE MockQuickPlaySetupModel : public ::System::Object {
 public:
@@ -47,12 +47,12 @@ public:
 
   constexpr void __cordl_internal_set__quickPlaySetupData(::GlobalNamespace::QuickPlaySetupData* value);
 
-  /// @brief Method GetQuickPlaySetupAsync, addr 0x22444f0, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method GetQuickPlaySetupAsync, addr 0x23a22e8, size 0x70, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::QuickPlaySetupData*>* GetQuickPlaySetupAsync(::System::Threading::CancellationToken cancellationToken);
 
   static inline ::GlobalNamespace::MockQuickPlaySetupModel* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2244560, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23a2358, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MockQuickPlaySetupModel", modifiers: "&&", def_value: None }]

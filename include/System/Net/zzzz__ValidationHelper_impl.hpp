@@ -6,7 +6,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::System::Net::ValidationHelper::MakeStringNull)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x299dde8;
+  constexpr static std::size_t addrs = 0x29a288c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::System::Net::ValidationHelper::IsBlankString)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x299ddfc;
+  constexpr static std::size_t addrs = 0x29a28a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t)>(&::System::Net::ValidationHelper::ValidateTcpPort)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x299de18;
+  constexpr static std::size_t addrs = 0x29a28bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

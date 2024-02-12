@@ -46,7 +46,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__SongPacksDropdown____c);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5578))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4883))
 // CS Name: ::SongPacksDropdown::<>c*
 class CORDL_TYPE __SongPacksDropdown____c : public ::System::Object {
 public:
@@ -67,10 +67,10 @@ public:
 
   static inline ::GlobalNamespace::__SongPacksDropdown____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22a6be8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22da194, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <LazyInit>b__7_0, addr 0x22a6bf0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <LazyInit>b__7_0, addr 0x22da19c, size 0xc, virtual false, abstract: false, final false
   inline ::StringW _LazyInit_b__7_0(::StringW serializedName);
 
   // Ctor Parameters [CppParam { name: "", ty: "__SongPacksDropdown____c", modifiers: "&&", def_value: None }]
@@ -97,8 +97,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SongPacksDrop
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5579))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4884))
 // CS Name: ::SongPacksDropdown*
 class CORDL_TYPE SongPacksDropdown : public ::UnityEngine::MonoBehaviour {
 public:
@@ -151,39 +151,39 @@ public:
 
   constexpr void __cordl_internal_set__songPackSerializedNames(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method add_didSelectCellWithIdxEvent, addr 0x22a64d8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didSelectCellWithIdxEvent, addr 0x22d9a84, size 0xb0, virtual false, abstract: false, final false
   inline void add_didSelectCellWithIdxEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method remove_didSelectCellWithIdxEvent, addr 0x22a6588, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSelectCellWithIdxEvent, addr 0x22d9b34, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didSelectCellWithIdxEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method LazyInit, addr 0x22a6638, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method LazyInit, addr 0x22d9be4, size 0x1b0, virtual false, abstract: false, final false
   inline void LazyInit();
 
-  /// @brief Method Start, addr 0x22a67e8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x22d9d94, size 0x94, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy, addr 0x22a687c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x22d9e28, size 0xd4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetOverrideSongPacks, addr 0x22a6950, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetOverrideSongPacks, addr 0x22d9efc, size 0x8, virtual false, abstract: false, final false
   inline void SetOverrideSongPacks(::System::Collections::Generic::List_1<::StringW>* songPackSerializedNames);
 
-  /// @brief Method GetSelectedSongPackMask, addr 0x22a6958, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetSelectedSongPackMask, addr 0x22d9f04, size 0x98, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SongPackMask GetSelectedSongPackMask();
 
-  /// @brief Method SelectCellWithSongPackMask, addr 0x22a69f0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method SelectCellWithSongPackMask, addr 0x22d9f9c, size 0xb0, virtual false, abstract: false, final false
   inline void SelectCellWithSongPackMask(::GlobalNamespace::SongPackMask songPackMask);
 
-  /// @brief Method GetIdxForSongPackMask, addr 0x22a6aa0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetIdxForSongPackMask, addr 0x22da04c, size 0xb8, virtual false, abstract: false, final false
   inline int32_t GetIdxForSongPackMask(::GlobalNamespace::SongPackMask songPackMask);
 
-  /// @brief Method HandleSimpleTextDropdownDidSelectCellWithIdx, addr 0x22a6b58, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandleSimpleTextDropdownDidSelectCellWithIdx, addr 0x22da104, size 0x24, virtual false, abstract: false, final false
   inline void HandleSimpleTextDropdownDidSelectCellWithIdx(::HMUI::DropdownWithTableView* dropdownWithTableView, int32_t idx);
 
   static inline ::GlobalNamespace::SongPacksDropdown* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22a6b7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22da128, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SongPacksDropdown", modifiers: "&&", def_value: None }]

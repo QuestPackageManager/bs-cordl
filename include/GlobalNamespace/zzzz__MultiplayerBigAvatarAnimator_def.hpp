@@ -36,8 +36,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerBigAvatarAnimator);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 73, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5191))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4530))
 // CS Name: ::MultiplayerBigAvatarAnimator*
 class CORDL_TYPE MultiplayerBigAvatarAnimator : public ::UnityEngine::MonoBehaviour {
 public:
@@ -105,33 +105,33 @@ public:
 
   constexpr void __cordl_internal_set__initialized(bool value);
 
-  /// @brief Method OnDestroy, addr 0x2244a88, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x23a2880, size 0x88, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method InitIfNeeded, addr 0x2244b10, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method InitIfNeeded, addr 0x23a2908, size 0x1d8, virtual false, abstract: false, final false
   inline void InitIfNeeded();
 
-  /// @brief Method SetPositionAndRotation, addr 0x2244ce8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SetPositionAndRotation, addr 0x23a2ae0, size 0x78, virtual false, abstract: false, final false
   inline void SetPositionAndRotation(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method HideInstant, addr 0x2244d60, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method HideInstant, addr 0x238ed90, size 0xa8, virtual false, abstract: false, final false
   inline void HideInstant();
 
-  /// @brief Method Animate, addr 0x2244e08, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method Animate, addr 0x238ea74, size 0x1d0, virtual false, abstract: false, final false
   inline void Animate(bool show, float_t duration, ::GlobalNamespace::EaseType easeType);
 
   static inline ::GlobalNamespace::MultiplayerBigAvatarAnimator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2244fdc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23a2b58, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <InitIfNeeded>b__8_0, addr 0x2244fec, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method <InitIfNeeded>b__8_0, addr 0x23a2b68, size 0x78, virtual false, abstract: false, final false
   inline void _InitIfNeeded_b__8_0(float_t val);
 
-  /// @brief Method <InitIfNeeded>b__8_1, addr 0x2245064, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method <InitIfNeeded>b__8_1, addr 0x23a2be0, size 0x78, virtual false, abstract: false, final false
   inline void _InitIfNeeded_b__8_1(float_t val);
 
-  /// @brief Method <InitIfNeeded>b__8_2, addr 0x22450dc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <InitIfNeeded>b__8_2, addr 0x23a2c58, size 0x2c, virtual false, abstract: false, final false
   inline void _InitIfNeeded_b__8_2();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBigAvatarAnimator", modifiers: "&&", def_value: None }]

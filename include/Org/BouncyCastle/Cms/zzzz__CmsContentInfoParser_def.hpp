@@ -46,10 +46,10 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::CmsContentInfoParser* New_ctor(::System::IO::Stream* data);
 
-  /// @brief Method .ctor, addr 0x11da548, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12083d8, size 0x248, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* data);
 
-  /// @brief Method Close, addr 0x11da790, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Close, addr 0x1208620, size 0x5c, virtual false, abstract: false, final false
   inline void Close();
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsContentInfoParser", modifiers: "&&", def_value: None }]

@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::GlobalNamespace::BasicMockPlayerScoreCalculator);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15506))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15692))
 // CS Name: ::BasicMockPlayerScoreCalculator*
 class CORDL_TYPE BasicMockPlayerScoreCalculator : public ::System::Object {
 public:
@@ -75,10 +75,10 @@ public:
 
   static inline ::GlobalNamespace::BasicMockPlayerScoreCalculator* New_ctor(float_t hitFrequency, int32_t minScore, int32_t maxScore);
 
-  /// @brief Method .ctor, addr 0x23e6748, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24065bc, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(float_t hitFrequency, int32_t minScore, int32_t maxScore);
 
-  /// @brief Method GetScoreForNote, addr 0x23e6804, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method GetScoreForNote, addr 0x2406678, size 0x74, virtual true, abstract: false, final true
   inline int32_t GetScoreForNote(::GlobalNamespace::MockNoteData* noteData);
 
   // Ctor Parameters [CppParam { name: "", ty: "BasicMockPlayerScoreCalculator", modifiers: "&&", def_value: None }]

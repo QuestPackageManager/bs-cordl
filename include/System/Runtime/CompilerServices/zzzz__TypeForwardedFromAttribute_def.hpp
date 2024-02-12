@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::TypeForwardedFromAttribute);
 namespace System::Runtime::CompilerServices {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3387))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3383))
 // CS Name: ::System.Runtime.CompilerServices::TypeForwardedFromAttribute*
 class CORDL_TYPE TypeForwardedFromAttribute : public ::System::Attribute {
 public:
@@ -34,10 +34,10 @@ public:
 
   static inline ::System::Runtime::CompilerServices::TypeForwardedFromAttribute* New_ctor(::StringW assemblyFullName);
 
-  /// @brief Method .ctor, addr 0x24db588, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24fb8f4, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::StringW assemblyFullName);
 
-  /// @brief Method get_AssemblyFullName, addr 0x24db60c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AssemblyFullName, addr 0x24fb978, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_AssemblyFullName();
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeForwardedFromAttribute", modifiers: "&&", def_value: None }]

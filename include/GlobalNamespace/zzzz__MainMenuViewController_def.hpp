@@ -7,25 +7,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MainMenuViewController)
 namespace GlobalNamespace {
-class AppStaticSettingsSO;
-}
-namespace GlobalNamespace {
 class DlcPromoPanelModel;
 }
 namespace GlobalNamespace {
 class IAnalyticsModel;
 }
 namespace GlobalNamespace {
-class IBeatmapLevelPack;
-}
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
-namespace GlobalNamespace {
 class MusicPackPromoBanner;
 }
 namespace GlobalNamespace {
+class __DlcPromoPanelModel__PromoInfo;
+}
+namespace GlobalNamespace {
 struct __MainMenuViewController__MenuButton;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
@@ -48,7 +45,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MainMenuViewController);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5690))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4992))
 // CS Name: ::MainMenuViewController::MenuButton
 struct CORDL_TYPE __MainMenuViewController__MenuButton {
 public:
@@ -122,11 +119,11 @@ static_assert(offsetof(::GlobalNamespace::__MainMenuViewController__MenuButton, 
 
 } // namespace GlobalNamespace
 // Type: ::MainMenuViewController
-// SizeInfo { instance_size: 232, native_size: -1, calculated_instance_size: 232, calculated_native_size: 232, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 224, native_size: -1, calculated_instance_size: 224, calculated_native_size: 224, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5691))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13558))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4993))
 // CS Name: ::MainMenuViewController*
 class CORDL_TYPE MainMenuViewController : public ::HMUI::ViewController {
 public:
@@ -166,21 +163,17 @@ public:
   /// @brief Field _dlcPromoPanelModel, offset 0xc0, size 0x8
   __declspec(property(get = __cordl_internal_get__dlcPromoPanelModel, put = __cordl_internal_set__dlcPromoPanelModel))::GlobalNamespace::DlcPromoPanelModel* _dlcPromoPanelModel;
 
-  /// @brief Field _appStaticSettings, offset 0xc8, size 0x8
-  __declspec(property(get = __cordl_internal_get__appStaticSettings, put = __cordl_internal_set__appStaticSettings))::UnityW<::GlobalNamespace::AppStaticSettingsSO> _appStaticSettings;
-
-  /// @brief Field _analyticsModel, offset 0xd0, size 0x8
+  /// @brief Field _analyticsModel, offset 0xc8, size 0x8
   __declspec(property(get = __cordl_internal_get__analyticsModel, put = __cordl_internal_set__analyticsModel))::GlobalNamespace::IAnalyticsModel* _analyticsModel;
 
-  /// @brief Field didFinishEvent, offset 0xd8, size 0x8
+  /// @brief Field didFinishEvent, offset 0xd0, size 0x8
   __declspec(property(
       get = __cordl_internal_get_didFinishEvent,
       put = __cordl_internal_set_didFinishEvent))::System::Action_2<::UnityW<::GlobalNamespace::MainMenuViewController>, ::GlobalNamespace::__MainMenuViewController__MenuButton>* didFinishEvent;
 
-  /// @brief Field musicPackPromoButtonWasPressedEvent, offset 0xe0, size 0x8
-  __declspec(property(get = __cordl_internal_get_musicPackPromoButtonWasPressedEvent,
-                      put = __cordl_internal_set_musicPackPromoButtonWasPressedEvent))::System::Action_2<::GlobalNamespace::IBeatmapLevelPack*,
-                                                                                                         ::GlobalNamespace::IPreviewBeatmapLevel*>* musicPackPromoButtonWasPressedEvent;
+  /// @brief Field promoButtonWasPressedEvent, offset 0xd8, size 0x8
+  __declspec(property(get = __cordl_internal_get_promoButtonWasPressedEvent,
+                      put = __cordl_internal_set_promoButtonWasPressedEvent))::System::Action_1<::GlobalNamespace::__DlcPromoPanelModel__PromoInfo*>* promoButtonWasPressedEvent;
 
   constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__soloButton();
 
@@ -248,12 +241,6 @@ public:
 
   constexpr void __cordl_internal_set__dlcPromoPanelModel(::GlobalNamespace::DlcPromoPanelModel* value);
 
-  constexpr ::UnityW<::GlobalNamespace::AppStaticSettingsSO>& __cordl_internal_get__appStaticSettings();
-
-  constexpr ::UnityW<::GlobalNamespace::AppStaticSettingsSO> const& __cordl_internal_get__appStaticSettings() const;
-
-  constexpr void __cordl_internal_set__appStaticSettings(::UnityW<::GlobalNamespace::AppStaticSettingsSO> value);
-
   constexpr ::GlobalNamespace::IAnalyticsModel*& __cordl_internal_get__analyticsModel();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAnalyticsModel*> const& __cordl_internal_get__analyticsModel() const;
@@ -267,62 +254,61 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::MainMenuViewController>, ::GlobalNamespace::__MainMenuViewController__MenuButton>* value);
 
-  constexpr ::System::Action_2<::GlobalNamespace::IBeatmapLevelPack*, ::GlobalNamespace::IPreviewBeatmapLevel*>*& __cordl_internal_get_musicPackPromoButtonWasPressedEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::__DlcPromoPanelModel__PromoInfo*>*& __cordl_internal_get_promoButtonWasPressedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::IBeatmapLevelPack*, ::GlobalNamespace::IPreviewBeatmapLevel*>*> const&
-  __cordl_internal_get_musicPackPromoButtonWasPressedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::__DlcPromoPanelModel__PromoInfo*>*> const& __cordl_internal_get_promoButtonWasPressedEvent() const;
 
-  constexpr void __cordl_internal_set_musicPackPromoButtonWasPressedEvent(::System::Action_2<::GlobalNamespace::IBeatmapLevelPack*, ::GlobalNamespace::IPreviewBeatmapLevel*>* value);
+  constexpr void __cordl_internal_set_promoButtonWasPressedEvent(::System::Action_1<::GlobalNamespace::__DlcPromoPanelModel__PromoInfo*>* value);
 
-  /// @brief Method add_didFinishEvent, addr 0x22c8abc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x22f86dc, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::MainMenuViewController>, ::GlobalNamespace::__MainMenuViewController__MenuButton>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x22c8b6c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x22f878c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::MainMenuViewController>, ::GlobalNamespace::__MainMenuViewController__MenuButton>* value);
 
-  /// @brief Method add_musicPackPromoButtonWasPressedEvent, addr 0x22c8c1c, size 0xb0, virtual false, abstract: false, final false
-  inline void add_musicPackPromoButtonWasPressedEvent(::System::Action_2<::GlobalNamespace::IBeatmapLevelPack*, ::GlobalNamespace::IPreviewBeatmapLevel*>* value);
+  /// @brief Method add_promoButtonWasPressedEvent, addr 0x22f883c, size 0xb0, virtual false, abstract: false, final false
+  inline void add_promoButtonWasPressedEvent(::System::Action_1<::GlobalNamespace::__DlcPromoPanelModel__PromoInfo*>* value);
 
-  /// @brief Method remove_musicPackPromoButtonWasPressedEvent, addr 0x22c8ccc, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_musicPackPromoButtonWasPressedEvent(::System::Action_2<::GlobalNamespace::IBeatmapLevelPack*, ::GlobalNamespace::IPreviewBeatmapLevel*>* value);
+  /// @brief Method remove_promoButtonWasPressedEvent, addr 0x22f88ec, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_promoButtonWasPressedEvent(::System::Action_1<::GlobalNamespace::__DlcPromoPanelModel__PromoInfo*>* value);
 
-  /// @brief Method DidActivate, addr 0x22c8d7c, size 0x528, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x22f899c, size 0x4fc, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method PackPromoButtonWasPressed, addr 0x22c92a4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method PackPromoButtonWasPressed, addr 0x22f8e98, size 0x64, virtual false, abstract: false, final false
   inline void PackPromoButtonWasPressed();
 
-  /// @brief Method HandleMenuButton, addr 0x22c9300, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method HandleMenuButton, addr 0x22f8efc, size 0x1b0, virtual false, abstract: false, final false
   inline void HandleMenuButton(::GlobalNamespace::__MainMenuViewController__MenuButton menuButton);
 
   static inline ::GlobalNamespace::MainMenuViewController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22c94b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22f90ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <DidActivate>b__20_0, addr 0x22c94b8, size 0x8, virtual false, abstract: false, final false
-  inline void _DidActivate_b__20_0();
+  /// @brief Method <DidActivate>b__19_0, addr 0x22f90b4, size 0x8, virtual false, abstract: false, final false
+  inline void _DidActivate_b__19_0();
 
-  /// @brief Method <DidActivate>b__20_1, addr 0x22c94c0, size 0x8, virtual false, abstract: false, final false
-  inline void _DidActivate_b__20_1();
+  /// @brief Method <DidActivate>b__19_1, addr 0x22f90bc, size 0x8, virtual false, abstract: false, final false
+  inline void _DidActivate_b__19_1();
 
-  /// @brief Method <DidActivate>b__20_2, addr 0x22c94c8, size 0x8, virtual false, abstract: false, final false
-  inline void _DidActivate_b__20_2();
+  /// @brief Method <DidActivate>b__19_2, addr 0x22f90c4, size 0x8, virtual false, abstract: false, final false
+  inline void _DidActivate_b__19_2();
 
-  /// @brief Method <DidActivate>b__20_3, addr 0x22c94d0, size 0x8, virtual false, abstract: false, final false
-  inline void _DidActivate_b__20_3();
+  /// @brief Method <DidActivate>b__19_3, addr 0x22f90cc, size 0x8, virtual false, abstract: false, final false
+  inline void _DidActivate_b__19_3();
 
-  /// @brief Method <DidActivate>b__20_4, addr 0x22c94d8, size 0x8, virtual false, abstract: false, final false
-  inline void _DidActivate_b__20_4();
+  /// @brief Method <DidActivate>b__19_4, addr 0x22f90d4, size 0x8, virtual false, abstract: false, final false
+  inline void _DidActivate_b__19_4();
 
-  /// @brief Method <DidActivate>b__20_5, addr 0x22c94e0, size 0x8, virtual false, abstract: false, final false
-  inline void _DidActivate_b__20_5();
+  /// @brief Method <DidActivate>b__19_5, addr 0x22f90dc, size 0x8, virtual false, abstract: false, final false
+  inline void _DidActivate_b__19_5();
 
-  /// @brief Method <DidActivate>b__20_6, addr 0x22c94e8, size 0x8, virtual false, abstract: false, final false
-  inline void _DidActivate_b__20_6();
+  /// @brief Method <DidActivate>b__19_6, addr 0x22f90e4, size 0x8, virtual false, abstract: false, final false
+  inline void _DidActivate_b__19_6();
 
-  /// @brief Method <DidActivate>b__20_7, addr 0x22c94f0, size 0x8, virtual false, abstract: false, final false
-  inline void _DidActivate_b__20_7();
+  /// @brief Method <DidActivate>b__19_7, addr 0x22f90ec, size 0x8, virtual false, abstract: false, final false
+  inline void _DidActivate_b__19_7();
 
   // Ctor Parameters [CppParam { name: "", ty: "MainMenuViewController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
@@ -371,22 +357,19 @@ public:
   /// @brief Field _dlcPromoPanelModel, offset: 0xc0, size: 0x8, def value: None
   ::GlobalNamespace::DlcPromoPanelModel* ____dlcPromoPanelModel;
 
-  /// @brief Field _appStaticSettings, offset: 0xc8, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::AppStaticSettingsSO> ____appStaticSettings;
-
-  /// @brief Field _analyticsModel, offset: 0xd0, size: 0x8, def value: None
+  /// @brief Field _analyticsModel, offset: 0xc8, size: 0x8, def value: None
   ::GlobalNamespace::IAnalyticsModel* ____analyticsModel;
 
-  /// @brief Field didFinishEvent, offset: 0xd8, size: 0x8, def value: None
+  /// @brief Field didFinishEvent, offset: 0xd0, size: 0x8, def value: None
   ::System::Action_2<::UnityW<::GlobalNamespace::MainMenuViewController>, ::GlobalNamespace::__MainMenuViewController__MenuButton>* ___didFinishEvent;
 
-  /// @brief Field musicPackPromoButtonWasPressedEvent, offset: 0xe0, size: 0x8, def value: None
-  ::System::Action_2<::GlobalNamespace::IBeatmapLevelPack*, ::GlobalNamespace::IPreviewBeatmapLevel*>* ___musicPackPromoButtonWasPressedEvent;
+  /// @brief Field promoButtonWasPressedEvent, offset: 0xd8, size: 0x8, def value: None
+  ::System::Action_1<::GlobalNamespace::__DlcPromoPanelModel__PromoInfo*>* ___promoButtonWasPressedEvent;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MainMenuViewController, 0xe8>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MainMenuViewController, 0xe0>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MainMenuViewController, ____soloButton) == 0x70, "Offset mismatch!");
 
@@ -410,13 +393,11 @@ static_assert(offsetof(::GlobalNamespace::MainMenuViewController, ____musicPackP
 
 static_assert(offsetof(::GlobalNamespace::MainMenuViewController, ____dlcPromoPanelModel) == 0xc0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MainMenuViewController, ____appStaticSettings) == 0xc8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainMenuViewController, ____analyticsModel) == 0xc8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MainMenuViewController, ____analyticsModel) == 0xd0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainMenuViewController, ___didFinishEvent) == 0xd0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MainMenuViewController, ___didFinishEvent) == 0xd8, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::MainMenuViewController, ___musicPackPromoButtonWasPressedEvent) == 0xe0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainMenuViewController, ___promoButtonWasPressedEvent) == 0xd8, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__MainMenuViewController__MenuButton, "", "MainMenuViewController/MenuButton");

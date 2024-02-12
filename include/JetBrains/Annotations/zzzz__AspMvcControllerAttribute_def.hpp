@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::JetBrains::Annotations::AspMvcControllerAttribute);
 namespace JetBrains::Annotations {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15768))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15918))
 // CS Name: ::JetBrains.Annotations::AspMvcControllerAttribute*
 class CORDL_TYPE AspMvcControllerAttribute : public ::System::Attribute {
 public:
@@ -34,18 +34,18 @@ public:
 
   static inline ::JetBrains::Annotations::AspMvcControllerAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2eba5c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ed670c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::JetBrains::Annotations::AspMvcControllerAttribute* New_ctor(::StringW anonymousProperty);
 
-  /// @brief Method .ctor, addr 0x2eba5cc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ed6714, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW anonymousProperty);
 
-  /// @brief Method get_AnonymousProperty, addr 0x2eba5f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AnonymousProperty, addr 0x2ed673c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_AnonymousProperty();
 
-  /// @brief Method set_AnonymousProperty, addr 0x2eba5fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AnonymousProperty, addr 0x2ed6744, size 0x8, virtual false, abstract: false, final false
   inline void set_AnonymousProperty(::StringW value);
 
   // Ctor Parameters [CppParam { name: "", ty: "AspMvcControllerAttribute", modifiers: "&&", def_value: None }]

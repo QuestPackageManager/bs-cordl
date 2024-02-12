@@ -59,24 +59,24 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl* New_ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* timeStamp);
 
-  /// @brief Method .ctor, addr 0xe8203c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeabecc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* timeStamp);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xe82064, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeabef4, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance, addr 0xe820ec, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xeabf7c, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl* GetInstance(::System::Object* obj);
 
-  /// @brief Method get_TimeStampToken, addr 0xe82190, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TimeStampToken, addr 0xeac020, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::ContentInfo* get_TimeStampToken();
 
-  /// @brief Method get_Crl, addr 0xe82198, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Crl, addr 0xeac028, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::CertificateList* get_Crl();
 
-  /// @brief Method ToAsn1Object, addr 0xe821a0, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xeac030, size 0x148, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "TimeStampAndCrl", modifiers: "&&", def_value: None }]

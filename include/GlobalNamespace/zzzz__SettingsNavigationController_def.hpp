@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::GlobalNamespace::SettingsNavigationController);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5760))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5060))
 // CS Name: ::SettingsNavigationController::FinishAction
 struct CORDL_TYPE __SettingsNavigationController__FinishAction {
 public:
@@ -83,8 +83,8 @@ static_assert(offsetof(::GlobalNamespace::__SettingsNavigationController__Finish
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 184, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13588))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5761))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13541))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5061))
 // CS Name: ::SettingsNavigationController*
 class CORDL_TYPE SettingsNavigationController : public ::HMUI::NavigationController {
 public:
@@ -128,30 +128,30 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::GlobalNamespace::__SettingsNavigationController__FinishAction>* value);
 
-  /// @brief Method add_didFinishEvent, addr 0x22db590, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x230bc64, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::__SettingsNavigationController__FinishAction>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x22db640, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x230bd14, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::__SettingsNavigationController__FinishAction>* value);
 
-  /// @brief Method DidActivate, addr 0x22db6f0, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x230bdc4, size 0x15c, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method HandleFinishButton, addr 0x22db84c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleFinishButton, addr 0x230bf20, size 0x1c, virtual false, abstract: false, final false
   inline void HandleFinishButton(::GlobalNamespace::__SettingsNavigationController__FinishAction finishAction);
 
   static inline ::GlobalNamespace::SettingsNavigationController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22db868, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x230bf3c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <DidActivate>b__7_0, addr 0x22db870, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__7_0, addr 0x230bf44, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__7_0();
 
-  /// @brief Method <DidActivate>b__7_1, addr 0x22db890, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__7_1, addr 0x230bf64, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__7_1();
 
-  /// @brief Method <DidActivate>b__7_2, addr 0x22db8b0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__7_2, addr 0x230bf84, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__7_2();
 
   // Ctor Parameters [CppParam { name: "", ty: "SettingsNavigationController", modifiers: "&&", def_value: None }]

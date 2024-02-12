@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Globalization::HebrewNumberParsingState);
 namespace System::Globalization {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3674))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3672))
 // CS Name: ::System.Globalization::HebrewNumberParsingState
 struct CORDL_TYPE HebrewNumberParsingState {
 public:

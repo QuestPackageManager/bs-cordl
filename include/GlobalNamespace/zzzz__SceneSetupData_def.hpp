@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::GlobalNamespace::SceneSetupData);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15408))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15456))
 // CS Name: ::SceneSetupData*
 class CORDL_TYPE SceneSetupData : public ::System::Object {
 public:
   // Declarations
   static inline ::GlobalNamespace::SceneSetupData* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe23420, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe44ff4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SceneSetupData", modifiers: "&&", def_value: None }]

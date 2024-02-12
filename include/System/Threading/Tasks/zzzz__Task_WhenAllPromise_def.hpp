@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::System::Threading::Tasks::__Task__WhenAllPromise);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 100, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2773)), TypeDefinitionIndex(TypeDefinitionIndex(2794)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 900
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2773)), TypeDefinitionIndex(TypeDefinitionIndex(2794)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 903
 // })] Self: TypeDefinitionIndex(TypeDefinitionIndex(2784)) CS Name: ::Task::WhenAllPromise*
 class CORDL_TYPE __Task__WhenAllPromise : public ::System::Threading::Tasks::Task_1<::System::Threading::Tasks::VoidTaskResult> {
 public:
@@ -58,16 +58,16 @@ public:
 
   static inline ::System::Threading::Tasks::__Task__WhenAllPromise* New_ctor(::ArrayW<::System::Threading::Tasks::Task*, ::Array<::System::Threading::Tasks::Task*>*> tasks);
 
-  /// @brief Method .ctor, addr 0x2629d14, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x264fe38, size 0x174, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::System::Threading::Tasks::Task*, ::Array<::System::Threading::Tasks::Task*>*> tasks);
 
-  /// @brief Method Invoke, addr 0x262ade8, size 0x2c8, virtual true, abstract: false, final true
+  /// @brief Method Invoke, addr 0x2650f0c, size 0x2c8, virtual true, abstract: false, final true
   inline void Invoke(::System::Threading::Tasks::Task* ignored);
 
-  /// @brief Method get_ShouldNotifyDebuggerOfWaitCompletion, addr 0x262b0b0, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method get_ShouldNotifyDebuggerOfWaitCompletion, addr 0x26511d4, size 0x74, virtual true, abstract: false, final false
   inline bool get_ShouldNotifyDebuggerOfWaitCompletion();
 
-  /// @brief Method get_InvokeMayRunArbitraryCode, addr 0x262b124, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_InvokeMayRunArbitraryCode, addr 0x2651248, size 0x8, virtual true, abstract: false, final true
   inline bool get_InvokeMayRunArbitraryCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Task__WhenAllPromise", modifiers: "&&", def_value: None }]

@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::Destination);
 namespace Oculus::Platform::Models {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13431))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13370))
 // CS Name: ::Oculus.Platform.Models::Destination*
 class CORDL_TYPE Destination : public ::System::Object {
 public:
@@ -51,7 +51,7 @@ public:
 
   static inline ::Oculus::Platform::Models::Destination* New_ctor(void* o);
 
-  /// @brief Method .ctor, addr 0x27040b4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2736658, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "Destination", modifiers: "&&", def_value: None }]

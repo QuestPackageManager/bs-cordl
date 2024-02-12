@@ -35,8 +35,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__BombCutSoundEffect__Pool);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4058))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4004))
 // CS Name: ::BombCutSoundEffect*
 class CORDL_TYPE BombCutSoundEffect : public ::UnityEngine::MonoBehaviour {
 public:
@@ -70,24 +70,24 @@ public:
 
   constexpr void __cordl_internal_set__saber(::UnityW<::GlobalNamespace::Saber> value);
 
-  /// @brief Method add_didFinishEvent, addr 0x222c5d4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x22b626c, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::BombCutSoundEffect>>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x222c684, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x22b631c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::BombCutSoundEffect>>* value);
 
-  /// @brief Method Init, addr 0x222c734, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x22b63cc, size 0x74, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::AudioClip* audioClip, ::GlobalNamespace::Saber* saber, float_t volume);
 
-  /// @brief Method LateUpdate, addr 0x222c7a8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x22b6440, size 0x90, virtual false, abstract: false, final false
   inline void LateUpdate();
 
-  /// @brief Method StopPlayingAndFinish, addr 0x222c838, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method StopPlayingAndFinish, addr 0x22b64d0, size 0x50, virtual false, abstract: false, final false
   inline void StopPlayingAndFinish();
 
   static inline ::GlobalNamespace::BombCutSoundEffect* New_ctor();
 
-  /// @brief Method .ctor, addr 0x222c888, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b6520, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BombCutSoundEffect", modifiers: "&&", def_value: None }]
@@ -129,14 +129,14 @@ static_assert(offsetof(::GlobalNamespace::BombCutSoundEffect, ____saber) == 0x28
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4058)), TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
-// 287 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4057)) CS Name: ::BombCutSoundEffect::Pool*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4004)), TypeDefinitionIndex(TypeDefinitionIndex(10192)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10192), inst:
+// 287 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4003)) CS Name: ::BombCutSoundEffect::Pool*
 class CORDL_TYPE __BombCutSoundEffect__Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::BombCutSoundEffect>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__BombCutSoundEffect__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x222c890, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b6528, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__BombCutSoundEffect__Pool", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::AddressableAssets::AddressablesPlatform);
 namespace UnityEngine::AddressableAssets {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14098))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14111))
 // CS Name: ::UnityEngine.AddressableAssets::AddressablesPlatform
 struct CORDL_TYPE AddressablesPlatform {
 public:

@@ -37,13 +37,13 @@ public:
 
   static inline ::System::Runtime::Remoting::ActivatedServiceTypeEntry* New_ctor(::StringW typeName, ::StringW assemblyName);
 
-  /// @brief Method .ctor, addr 0x2484ef8, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24a6f6c, size 0x128, virtual false, abstract: false, final false
   inline void _ctor(::StringW typeName, ::StringW assemblyName);
 
-  /// @brief Method get_ObjectType, addr 0x2485020, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectType, addr 0x24a7094, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ObjectType();
 
-  /// @brief Method ToString, addr 0x2485028, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x24a709c, size 0x10, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "ActivatedServiceTypeEntry", modifiers: "&&", def_value: None }]

@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::JetBrains::Annotations::TerminatesProgramAttribute);
 namespace JetBrains::Annotations {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15788))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15938))
 // CS Name: ::JetBrains.Annotations::TerminatesProgramAttribute*
 class CORDL_TYPE TerminatesProgramAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::JetBrains::Annotations::TerminatesProgramAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2eba754, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ed689c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TerminatesProgramAttribute", modifiers: "&&", def_value: None }]

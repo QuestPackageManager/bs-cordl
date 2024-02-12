@@ -20,27 +20,27 @@ MARK_VAL_T(::UnityEngine::InputSystem::Utilities::PredictiveParser);
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6698))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5957))
 // CS Name: ::UnityEngine.InputSystem.Utilities::PredictiveParser
 struct CORDL_TYPE PredictiveParser {
 public:
   // Declarations
-  /// @brief Method ExpectSingleChar, addr 0x2b1607c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method ExpectSingleChar, addr 0x2b15be8, size 0x108, virtual false, abstract: false, final false
   inline void ExpectSingleChar(::System::ReadOnlySpan_1<char16_t> str, char16_t c);
 
-  /// @brief Method ExpectInt, addr 0x2b16184, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method ExpectInt, addr 0x2b15cf0, size 0x12c, virtual false, abstract: false, final false
   inline int32_t ExpectInt(::System::ReadOnlySpan_1<char16_t> str);
 
-  /// @brief Method ExpectString, addr 0x2b162b0, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method ExpectString, addr 0x2b15e1c, size 0x234, virtual false, abstract: false, final false
   inline ::System::ReadOnlySpan_1<char16_t> ExpectString(::System::ReadOnlySpan_1<char16_t> str);
 
-  /// @brief Method AcceptSingleChar, addr 0x2b164e4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method AcceptSingleChar, addr 0x2b16050, size 0x3c, virtual false, abstract: false, final false
   inline bool AcceptSingleChar(::System::ReadOnlySpan_1<char16_t> str, char16_t c);
 
-  /// @brief Method AcceptString, addr 0x2b16520, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method AcceptString, addr 0x2b1608c, size 0x130, virtual false, abstract: false, final false
   inline bool AcceptString(::System::ReadOnlySpan_1<char16_t> input, ByRef<::System::ReadOnlySpan_1<char16_t>> output);
 
-  /// @brief Method AcceptInt, addr 0x2b16650, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method AcceptInt, addr 0x2b161bc, size 0x5c, virtual false, abstract: false, final false
   inline void AcceptInt(::System::ReadOnlySpan_1<char16_t> str);
 
   // Ctor Parameters [CppParam { name: "m_Position", ty: "int32_t", modifiers: "", def_value: None }]

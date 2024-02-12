@@ -128,66 +128,66 @@ public:
 
   static inline ::ArrayW<uint32_t, ::Array<uint32_t>*> getStaticF_SBOX3_3033();
 
-  /// @brief Method rightRotate, addr 0xebd5dc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method rightRotate, addr 0xee946c, size 0x14, virtual false, abstract: false, final false
   static inline uint32_t rightRotate(uint32_t x, int32_t s);
 
-  /// @brief Method leftRotate, addr 0xebd5f0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method leftRotate, addr 0xee9480, size 0x14, virtual false, abstract: false, final false
   static inline uint32_t leftRotate(uint32_t x, int32_t s);
 
-  /// @brief Method roldq, addr 0xebd604, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method roldq, addr 0xee9494, size 0x128, virtual false, abstract: false, final false
   static inline void roldq(int32_t rot, ::ArrayW<uint32_t, ::Array<uint32_t>*> ki, int32_t ioff, ::ArrayW<uint32_t, ::Array<uint32_t>*> ko, int32_t ooff);
 
-  /// @brief Method decroldq, addr 0xebd72c, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method decroldq, addr 0xee95bc, size 0x128, virtual false, abstract: false, final false
   static inline void decroldq(int32_t rot, ::ArrayW<uint32_t, ::Array<uint32_t>*> ki, int32_t ioff, ::ArrayW<uint32_t, ::Array<uint32_t>*> ko, int32_t ooff);
 
-  /// @brief Method roldqo32, addr 0xebd854, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method roldqo32, addr 0xee96e4, size 0x128, virtual false, abstract: false, final false
   static inline void roldqo32(int32_t rot, ::ArrayW<uint32_t, ::Array<uint32_t>*> ki, int32_t ioff, ::ArrayW<uint32_t, ::Array<uint32_t>*> ko, int32_t ooff);
 
-  /// @brief Method decroldqo32, addr 0xebd97c, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method decroldqo32, addr 0xee980c, size 0x128, virtual false, abstract: false, final false
   static inline void decroldqo32(int32_t rot, ::ArrayW<uint32_t, ::Array<uint32_t>*> ki, int32_t ioff, ::ArrayW<uint32_t, ::Array<uint32_t>*> ko, int32_t ooff);
 
-  /// @brief Method bytes2uint, addr 0xebdaa4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method bytes2uint, addr 0xee9934, size 0x60, virtual false, abstract: false, final false
   static inline uint32_t bytes2uint(::ArrayW<uint8_t, ::Array<uint8_t>*> src, int32_t offset);
 
-  /// @brief Method uint2bytes, addr 0xebdb04, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method uint2bytes, addr 0xee9994, size 0x48, virtual false, abstract: false, final false
   static inline void uint2bytes(uint32_t word, ::ArrayW<uint8_t, ::Array<uint8_t>*> dst, int32_t offset);
 
-  /// @brief Method camelliaF2, addr 0xebdb4c, size 0x2e8, virtual false, abstract: false, final false
+  /// @brief Method camelliaF2, addr 0xee99dc, size 0x2e8, virtual false, abstract: false, final false
   static inline void camelliaF2(::ArrayW<uint32_t, ::Array<uint32_t>*> s, ::ArrayW<uint32_t, ::Array<uint32_t>*> skey, int32_t keyoff);
 
-  /// @brief Method camelliaFLs, addr 0xebde34, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method camelliaFLs, addr 0xee9cc4, size 0x134, virtual false, abstract: false, final false
   static inline void camelliaFLs(::ArrayW<uint32_t, ::Array<uint32_t>*> s, ::ArrayW<uint32_t, ::Array<uint32_t>*> fkey, int32_t keyoff);
 
-  /// @brief Method setKey, addr 0xebdf68, size 0xf0c, virtual false, abstract: false, final false
+  /// @brief Method setKey, addr 0xee9df8, size 0xf0c, virtual false, abstract: false, final false
   inline void setKey(bool forEncryption, ::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method processBlock128, addr 0xebee74, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method processBlock128, addr 0xeead04, size 0x2b0, virtual false, abstract: false, final false
   inline int32_t processBlock128(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method processBlock192or256, addr 0xebf124, size 0x2ec, virtual false, abstract: false, final false
+  /// @brief Method processBlock192or256, addr 0xeeafb4, size 0x2ec, virtual false, abstract: false, final false
   inline int32_t processBlock192or256(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::CamelliaEngine* New_ctor();
 
-  /// @brief Method .ctor, addr 0xebf410, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeeb2a0, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Init, addr 0xebf49c, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0xeeb32c, size 0xf0, virtual true, abstract: false, final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method get_AlgorithmName, addr 0xebf58c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0xeeb41c, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method get_IsPartialBlockOkay, addr 0xebf5cc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsPartialBlockOkay, addr 0xeeb45c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsPartialBlockOkay();
 
-  /// @brief Method GetBlockSize, addr 0xebf5d4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetBlockSize, addr 0xeeb464, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetBlockSize();
 
-  /// @brief Method ProcessBlock, addr 0xebf5dc, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method ProcessBlock, addr 0xeeb46c, size 0x138, virtual true, abstract: false, final false
   inline int32_t ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset, addr 0xebf714, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0xeeb5a4, size 0x4, virtual true, abstract: false, final false
   inline void Reset();
 
   // Ctor Parameters [CppParam { name: "", ty: "CamelliaEngine", modifiers: "&&", def_value: None }]

@@ -111,24 +111,24 @@ public:
 
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_base_dist();
 
-  /// @brief Method d_code, addr 0x1168ae0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method d_code, addr 0x1197970, size 0x98, virtual false, abstract: false, final false
   static inline int32_t d_code(int32_t dist);
 
-  /// @brief Method gen_bitlen, addr 0x1168b78, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method gen_bitlen, addr 0x1197a08, size 0x2cc, virtual false, abstract: false, final false
   inline void gen_bitlen(::Org::BouncyCastle::Utilities::Zlib::Deflate* s);
 
-  /// @brief Method build_tree, addr 0x1168e44, size 0x474, virtual false, abstract: false, final false
+  /// @brief Method build_tree, addr 0x1197cd4, size 0x474, virtual false, abstract: false, final false
   inline void build_tree(::Org::BouncyCastle::Utilities::Zlib::Deflate* s);
 
-  /// @brief Method gen_codes, addr 0x11692b8, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method gen_codes, addr 0x1198148, size 0x17c, virtual false, abstract: false, final false
   static inline void gen_codes(::ArrayW<int16_t, ::Array<int16_t>*> tree, int32_t max_code, ::ArrayW<int16_t, ::Array<int16_t>*> bl_count);
 
-  /// @brief Method bi_reverse, addr 0x1169434, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method bi_reverse, addr 0x11982c4, size 0x28, virtual false, abstract: false, final false
   static inline int32_t bi_reverse(int32_t code, int32_t len);
 
   static inline ::Org::BouncyCastle::Utilities::Zlib::Tree* New_ctor();
 
-  /// @brief Method .ctor, addr 0x11696c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1198550, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Tree", modifiers: "&&", def_value: None }]

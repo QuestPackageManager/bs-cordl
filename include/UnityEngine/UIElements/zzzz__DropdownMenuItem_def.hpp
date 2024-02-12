@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::DropdownMenuItem);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6945))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6204))
 // CS Name: ::UnityEngine.UIElements::DropdownMenuItem*
 class CORDL_TYPE DropdownMenuItem : public ::System::Object {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::DropdownMenuItem* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e0853c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e25924, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DropdownMenuItem", modifiers: "&&", def_value: None }]

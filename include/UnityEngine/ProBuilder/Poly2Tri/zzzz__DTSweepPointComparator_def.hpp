@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Poly2Tri::DTSweepPointComparator);
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15333))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15493))
 // CS Name: ::UnityEngine.ProBuilder.Poly2Tri::DTSweepPointComparator*
 class CORDL_TYPE DTSweepPointComparator : public ::System::Object {
 public:
@@ -34,12 +34,12 @@ public:
   constexpr ::System::Collections::Generic::IComparer_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>*
   i___System__Collections__Generic__IComparer_1___UnityEngine__ProBuilder__Poly2Tri__TriangulationPoint__() noexcept;
 
-  /// @brief Method Compare, addr 0x2b34d48, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x2b338b4, size 0x50, virtual true, abstract: false, final true
   inline int32_t Compare(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p1, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p2);
 
   static inline ::UnityEngine::ProBuilder::Poly2Tri::DTSweepPointComparator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2b344ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b33018, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DTSweepPointComparator", modifiers: "&&", def_value: None }]

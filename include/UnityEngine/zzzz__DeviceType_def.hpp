@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::DeviceType);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10138))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8878))
 // CS Name: ::UnityEngine::DeviceType
 struct CORDL_TYPE DeviceType {
 public:

@@ -43,7 +43,7 @@ MARK_REF_PTR_T(::Zenject::SubContainerDependencyProvider);
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11297))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10439))
 // CS Name: ::Zenject::SubContainerDependencyProvider*
 class CORDL_TYPE SubContainerDependencyProvider : public ::System::Object {
 public:
@@ -97,22 +97,22 @@ public:
   static inline ::Zenject::SubContainerDependencyProvider* New_ctor(::System::Type* dependencyType, ::System::Object* identifier, ::Zenject::ISubContainerCreator* subContainerCreator,
                                                                     bool resolveAll);
 
-  /// @brief Method .ctor, addr 0x2f0d680, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f297c8, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* dependencyType, ::System::Object* identifier, ::Zenject::ISubContainerCreator* subContainerCreator, bool resolveAll);
 
-  /// @brief Method get_IsCached, addr 0x2f0d6c4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsCached, addr 0x2f2980c, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsCached();
 
-  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x2f0d6cc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x2f29814, size 0x8, virtual true, abstract: false, final true
   inline bool get_TypeVariesBasedOnMemberType();
 
-  /// @brief Method GetInstanceType, addr 0x2f0d6d4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetInstanceType, addr 0x2f2981c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
 
-  /// @brief Method CreateSubContext, addr 0x2f0d6dc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method CreateSubContext, addr 0x2f29824, size 0x3c, virtual false, abstract: false, final false
   inline ::Zenject::InjectContext* CreateSubContext(::Zenject::InjectContext* parent, ::Zenject::DiContainer* subContainer);
 
-  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x2f0d718, size 0x1a8, virtual true, abstract: false, final true
+  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x2f29860, size 0x1a8, virtual true, abstract: false, final true
   inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction,
                                              ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 

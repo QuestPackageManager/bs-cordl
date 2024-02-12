@@ -22,12 +22,12 @@ MARK_VAL_T(::UnityEngine::UIElements::RuleMatcher);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6919))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6178))
 // CS Name: ::UnityEngine.UIElements::RuleMatcher
 struct CORDL_TYPE RuleMatcher {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x2e04684, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2e21a6c, size 0x20, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "sheet", ty: "::UnityW<::UnityEngine::UIElements::StyleSheet>", modifiers: "", def_value: None }, CppParam { name: "complexSelector", ty:

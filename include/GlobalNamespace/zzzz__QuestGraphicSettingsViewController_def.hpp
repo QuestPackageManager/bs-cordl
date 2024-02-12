@@ -2,8 +2,8 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "BeatSaber/PerformancePresets/zzzz__PerformancePreset_def.hpp"
 #include "GlobalNamespace/zzzz__GraphicSettingsViewController_def.hpp"
-#include "GlobalNamespace/zzzz__PerformancePreset_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/zzzz__ValueTuple_2_def.hpp"
@@ -13,7 +13,7 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(QuestGraphicSettingsViewController)
-namespace GlobalNamespace {
+namespace BeatSaber::PerformancePresets {
 class PerformancePreset;
 }
 namespace GlobalNamespace {
@@ -58,8 +58,8 @@ MARK_VAL_T(::GlobalNamespace::__QuestGraphicSettingsViewController___Initialize1
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3400)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5757)) CS Name: ::QuestGraphicSettingsViewController::<Initialize120HzToggleAsync>d__4
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3396)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 77
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5057)) CS Name: ::QuestGraphicSettingsViewController::<Initialize120HzToggleAsync>d__4
 struct CORDL_TYPE __QuestGraphicSettingsViewController___Initialize120HzToggleAsync_d__4 {
 public:
   // Declarations
@@ -69,10 +69,10 @@ public:
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x22daa9c, size 0x3b8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x230b170, size 0x3b8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x22dae54, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x230b528, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -125,9 +125,9 @@ static_assert(offsetof(::GlobalNamespace::__QuestGraphicSettingsViewController__
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2507)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3400)),
-// TypeDefinitionIndex(TypeDefinitionIndex(4443)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2507), inst: 5315 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3394), inst: 870 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 896 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5758)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2507)), TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3396)),
+// TypeDefinitionIndex(TypeDefinitionIndex(16238)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2507), inst: 5298 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3390), inst: 873 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 897 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5058)) CS Name:
 // ::QuestGraphicSettingsViewController::<Handle120HzToggleValueChangedAsync>d__5
 struct CORDL_TYPE __QuestGraphicSettingsViewController___Handle120HzToggleValueChangedAsync_d__5 {
 public:
@@ -138,22 +138,22 @@ public:
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x22dae60, size 0x724, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x230b534, size 0x724, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x22db584, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x230bc58, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
   // "::UnityW<::GlobalNamespace::QuestGraphicSettingsViewController>", modifiers: "", def_value: None }, CppParam { name: "newState", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
   // "_prevPerformancePresetKey_5__2", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "_prevTargetFramerate_5__3", ty: "float_t", modifiers: "", def_value: None }, CppParam {
-  // name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::PerformancePreset*>", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::ValueTuple_2<::StringW,::GlobalNamespace::PerformancePreset*>>", modifiers: "", def_value: None }]
+  // name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::PerformancePresets::PerformancePreset*>", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::ValueTuple_2<::StringW,::BeatSaber::PerformancePresets::PerformancePreset*>>", modifiers: "", def_value: None }]
   constexpr __QuestGraphicSettingsViewController___Handle120HzToggleValueChangedAsync_d__5(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::QuestGraphicSettingsViewController> __4__this, bool newState,
-      ::StringW _prevPerformancePresetKey_5__2, float_t _prevTargetFramerate_5__3, ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::PerformancePreset*> __u__1,
-      ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::ValueTuple_2<::StringW, ::GlobalNamespace::PerformancePreset*>> __u__2) noexcept;
+      ::StringW _prevPerformancePresetKey_5__2, float_t _prevTargetFramerate_5__3, ::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::PerformancePresets::PerformancePreset*> __u__1,
+      ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::ValueTuple_2<::StringW, ::BeatSaber::PerformancePresets::PerformancePreset*>> __u__2) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
@@ -178,10 +178,10 @@ public:
   float_t _prevTargetFramerate_5__3;
 
   /// @brief Field <>u__1, offset: 0x48, size: 0x8, def value: None
-  ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::PerformancePreset*> __u__1;
+  ::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::PerformancePresets::PerformancePreset*> __u__1;
 
   /// @brief Field <>u__2, offset: 0x50, size: 0x8, def value: None
-  ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::ValueTuple_2<::StringW, ::GlobalNamespace::PerformancePreset*>> __u__2;
+  ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::ValueTuple_2<::StringW, ::BeatSaber::PerformancePresets::PerformancePreset*>> __u__2;
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
@@ -212,8 +212,8 @@ static_assert(offsetof(::GlobalNamespace::__QuestGraphicSettingsViewController__
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5753))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5759))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5053))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5059))
 // CS Name: ::QuestGraphicSettingsViewController*
 class CORDL_TYPE QuestGraphicSettingsViewController : public ::GlobalNamespace::GraphicSettingsViewController {
 public:
@@ -241,18 +241,18 @@ public:
 
   constexpr void __cordl_internal_set__stinsonOnlyEntries(::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> value);
 
-  /// @brief Method DidActivate, addr 0x22da840, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x230af64, size 0xbc, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method Initialize120HzToggleAsync, addr 0x22da94c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Initialize120HzToggleAsync, addr 0x230b020, size 0xa0, virtual false, abstract: false, final false
   inline void Initialize120HzToggleAsync(bool firstActivation);
 
-  /// @brief Method Handle120HzToggleValueChangedAsync, addr 0x22da9ec, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Handle120HzToggleValueChangedAsync, addr 0x230b0c0, size 0xa8, virtual false, abstract: false, final false
   inline void Handle120HzToggleValueChangedAsync(bool newState);
 
   static inline ::GlobalNamespace::QuestGraphicSettingsViewController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22daa94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x230b168, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "QuestGraphicSettingsViewController", modifiers: "&&", def_value: None }]

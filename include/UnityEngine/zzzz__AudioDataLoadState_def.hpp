@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::AudioDataLoadState);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15586))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15292))
 // CS Name: ::UnityEngine::AudioDataLoadState
 struct CORDL_TYPE AudioDataLoadState {
 public:

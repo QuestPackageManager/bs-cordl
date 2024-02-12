@@ -3,9 +3,10 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(LevelStatsView)
 namespace GlobalNamespace {
-class IDifficultyBeatmap;
+struct BeatmapKey;
 }
 namespace GlobalNamespace {
 class PlayerData;
@@ -23,8 +24,8 @@ MARK_REF_PTR_T(::GlobalNamespace::LevelStatsView);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5795))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5093))
 // CS Name: ::LevelStatsView*
 class CORDL_TYPE LevelStatsView : public ::UnityEngine::MonoBehaviour {
 public:
@@ -56,15 +57,15 @@ public:
 
   constexpr void __cordl_internal_set__maxRankText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method Hide, addr 0x22e6f3c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Hide, addr 0x2316264, size 0x24, virtual false, abstract: false, final false
   inline void Hide();
 
-  /// @brief Method ShowStats, addr 0x22e6f60, size 0x3b4, virtual false, abstract: false, final false
-  inline void ShowStats(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, ::GlobalNamespace::PlayerData* playerData);
+  /// @brief Method ShowStats, addr 0x2316288, size 0x18c, virtual false, abstract: false, final false
+  inline void ShowStats(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::PlayerData* playerData);
 
   static inline ::GlobalNamespace::LevelStatsView* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22e7314, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2316414, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LevelStatsView", modifiers: "&&", def_value: None }]

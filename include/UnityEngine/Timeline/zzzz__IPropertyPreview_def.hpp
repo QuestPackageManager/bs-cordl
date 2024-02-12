@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::IPropertyPreview);
 namespace UnityEngine::Timeline {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13934))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13887))
 // CS Name: ::UnityEngine.Timeline::IPropertyPreview*
 class CORDL_TYPE IPropertyPreview {
 public:

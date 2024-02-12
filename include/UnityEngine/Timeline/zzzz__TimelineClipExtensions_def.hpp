@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::TimelineClipExtensions);
 namespace UnityEngine::Timeline {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13936))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13889))
 // CS Name: ::UnityEngine.Timeline::TimelineClipExtensions*
 class CORDL_TYPE TimelineClipExtensions : public ::System::Object {
 public:
@@ -37,13 +37,13 @@ public:
 
   static inline ::StringW getStaticF_k_UndoSetParentTrackText();
 
-  /// @brief Method MoveToTrack, addr 0x2c7161c, size 0x3c0, virtual false, abstract: false, final false
+  /// @brief Method MoveToTrack, addr 0x2c6e188, size 0x3c0, virtual false, abstract: false, final false
   static inline void MoveToTrack(::UnityEngine::Timeline::TimelineClip* clip, ::UnityEngine::Timeline::TrackAsset* destinationTrack);
 
-  /// @brief Method TryMoveToTrack, addr 0x2c71afc, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method TryMoveToTrack, addr 0x2c6e668, size 0x1a4, virtual false, abstract: false, final false
   static inline bool TryMoveToTrack(::UnityEngine::Timeline::TimelineClip* clip, ::UnityEngine::Timeline::TrackAsset* destinationTrack);
 
-  /// @brief Method MoveToTrack_Impl, addr 0x2c719dc, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method MoveToTrack_Impl, addr 0x2c6e548, size 0x120, virtual false, abstract: false, final false
   static inline void MoveToTrack_Impl(::UnityEngine::Timeline::TimelineClip* clip, ::UnityEngine::Timeline::TrackAsset* destinationTrack, ::UnityEngine::Object* asset,
                                       ::UnityEngine::Timeline::TrackAsset* parentTrack);
 

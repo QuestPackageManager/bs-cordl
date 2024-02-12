@@ -125,7 +125,7 @@ public:
 
   constexpr void __cordl_internal_set_unauthenticatedAttributes(::Org::BouncyCastle::Asn1::Asn1Set* value);
 
-  /// @brief Method GetInstance, addr 0xe80c3c, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xeaaacc, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::SignerInfo* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::SignerInfo* New_ctor(::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* sid, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digAlgorithm,
@@ -133,7 +133,7 @@ public:
                                                                      ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digEncryptionAlgorithm,
                                                                      ::Org::BouncyCastle::Asn1::Asn1OctetString* encryptedDigest, ::Org::BouncyCastle::Asn1::Asn1Set* unauthenticatedAttributes);
 
-  /// @brief Method .ctor, addr 0xe81470, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeab300, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* sid, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digAlgorithm,
                     ::Org::BouncyCastle::Asn1::Asn1Set* authenticatedAttributes, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digEncryptionAlgorithm,
                     ::Org::BouncyCastle::Asn1::Asn1OctetString* encryptedDigest, ::Org::BouncyCastle::Asn1::Asn1Set* unauthenticatedAttributes);
@@ -144,38 +144,38 @@ public:
                                                                      ::Org::BouncyCastle::Asn1::Asn1OctetString* encryptedDigest,
                                                                      ::Org::BouncyCastle::Asn1::Cms::Attributes* unauthenticatedAttributes);
 
-  /// @brief Method .ctor, addr 0xe815c4, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeab454, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* sid, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digAlgorithm,
                     ::Org::BouncyCastle::Asn1::Cms::Attributes* authenticatedAttributes, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digEncryptionAlgorithm,
                     ::Org::BouncyCastle::Asn1::Asn1OctetString* encryptedDigest, ::Org::BouncyCastle::Asn1::Cms::Attributes* unauthenticatedAttributes);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::SignerInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xe80dc4, size 0x6ac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeaac54, size 0x6ac, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Version, addr 0xe816a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0xeab538, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
-  /// @brief Method get_SignerID, addr 0xe816b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SignerID, addr 0xeab540, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* get_SignerID();
 
-  /// @brief Method get_AuthenticatedAttributes, addr 0xe816b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AuthenticatedAttributes, addr 0xeab548, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Set* get_AuthenticatedAttributes();
 
-  /// @brief Method get_DigestAlgorithm, addr 0xe816c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DigestAlgorithm, addr 0xeab550, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_DigestAlgorithm();
 
-  /// @brief Method get_EncryptedDigest, addr 0xe816c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EncryptedDigest, addr 0xeab558, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_EncryptedDigest();
 
-  /// @brief Method get_DigestEncryptionAlgorithm, addr 0xe816d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DigestEncryptionAlgorithm, addr 0xeab560, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_DigestEncryptionAlgorithm();
 
-  /// @brief Method get_UnauthenticatedAttributes, addr 0xe816d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UnauthenticatedAttributes, addr 0xeab568, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Set* get_UnauthenticatedAttributes();
 
-  /// @brief Method ToAsn1Object, addr 0xe816e0, size 0x1fc, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xeab570, size 0x1fc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "SignerInfo", modifiers: "&&", def_value: None }]

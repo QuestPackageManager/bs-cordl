@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorSchemeColorToggleController);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5409))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4712))
 // CS Name: ::ColorSchemeColorToggleController*
 class CORDL_TYPE ColorSchemeColorToggleController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -53,18 +53,18 @@ public:
 
   constexpr void __cordl_internal_set__toggle(::UnityW<::UnityEngine::UI::Toggle> value);
 
-  /// @brief Method get_toggle, addr 0x2275418, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_toggle, addr 0x23d0af4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Toggle> get_toggle();
 
-  /// @brief Method get_color, addr 0x2274c8c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x23d0368, size 0x38, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method set_color, addr 0x2274cdc, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method set_color, addr 0x23d03b8, size 0x98, virtual false, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
   static inline ::GlobalNamespace::ColorSchemeColorToggleController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2275420, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d0afc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ColorSchemeColorToggleController", modifiers: "&&", def_value: None }]

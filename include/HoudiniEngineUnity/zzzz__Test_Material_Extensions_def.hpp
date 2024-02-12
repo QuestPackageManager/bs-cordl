@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::__Test_Material_Extensions____c);
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9911))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9703))
 // CS Name: ::Test_Material_Extensions::<>c*
 class CORDL_TYPE __Test_Material_Extensions____c : public ::System::Object {
 public:
@@ -63,13 +63,13 @@ public:
 
   static inline ::HoudiniEngineUnity::__Test_Material_Extensions____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21e524c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x227ab34, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <ToTestObject>b__1_0, addr 0x21e5254, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <ToTestObject>b__1_0, addr 0x227ab3c, size 0x64, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::Test_Material* _ToTestObject_b__1_0(::UnityEngine::Material* lod);
 
-  /// @brief Method <ToTestObject>b__2_0, addr 0x21e52b8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <ToTestObject>b__2_0, addr 0x227aba0, size 0x64, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::Test_Material* _ToTestObject_b__2_0(::UnityEngine::Material* lod);
 
   // Ctor Parameters [CppParam { name: "", ty: "__Test_Material_Extensions____c", modifiers: "&&", def_value: None }]
@@ -97,21 +97,21 @@ static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__Test_Mater
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9912))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9704))
 // CS Name: ::HoudiniEngineUnity::Test_Material_Extensions*
 class CORDL_TYPE Test_Material_Extensions : public ::System::Object {
 public:
   // Declarations
   using __c = ::HoudiniEngineUnity::__Test_Material_Extensions____c;
 
-  /// @brief Method ToTestObject, addr 0x21e4f60, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x227a848, size 0x64, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::Test_Material* ToTestObject(::UnityEngine::Material* self);
 
-  /// @brief Method ToTestObject, addr 0x21e4fc4, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x227a8ac, size 0x128, virtual false, abstract: false, final false
   static inline ::ArrayW<::HoudiniEngineUnity::Test_Material*, ::Array<::HoudiniEngineUnity::Test_Material*>*>
   ToTestObject(::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> self);
 
-  /// @brief Method ToTestObject, addr 0x21e50ec, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x227a9d4, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_Material*>* ToTestObject(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* self);
 
   // Ctor Parameters [CppParam { name: "", ty: "Test_Material_Extensions", modifiers: "&&", def_value: None }]

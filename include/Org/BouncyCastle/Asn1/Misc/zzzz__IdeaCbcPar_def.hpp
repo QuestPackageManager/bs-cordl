@@ -43,23 +43,23 @@ public:
 
   constexpr void __cordl_internal_set_iv(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
-  /// @brief Method GetInstance, addr 0xf7c260, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xfa70f0, size 0x148, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Misc::IdeaCbcPar* GetInstance(::System::Object* o);
 
   static inline ::Org::BouncyCastle::Asn1::Misc::IdeaCbcPar* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
 
-  /// @brief Method .ctor, addr 0xf7c48c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfa731c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
 
   static inline ::Org::BouncyCastle::Asn1::Misc::IdeaCbcPar* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xf7c3a8, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfa7238, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetIV, addr 0xf7c508, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetIV, addr 0xfa7398, size 0x18, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetIV();
 
-  /// @brief Method ToAsn1Object, addr 0xf7c520, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xfa73b0, size 0x108, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "IdeaCbcPar", modifiers: "&&", def_value: None }]

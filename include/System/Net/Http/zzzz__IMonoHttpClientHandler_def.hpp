@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::System::Net::Http::IMonoHttpClientHandler);
 namespace System::Net::Http {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14635))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14640))
 // CS Name: ::System.Net.Http::IMonoHttpClientHandler*
 class CORDL_TYPE IMonoHttpClientHandler {
 public:

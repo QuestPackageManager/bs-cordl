@@ -36,7 +36,7 @@ MARK_REF_PTR_T(::BGNet::Core::GameLift::IGameLiftPlayerSessionProvider);
 namespace BGNet::Core::GameLift {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13012))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12910))
 // CS Name: ::BGNet.Core.GameLift::IGameLiftPlayerSessionProvider*
 class CORDL_TYPE IGameLiftPlayerSessionProvider {
 public:

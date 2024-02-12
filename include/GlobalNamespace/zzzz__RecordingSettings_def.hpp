@@ -3,7 +3,9 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__BeatmapDifficulty_def.hpp"
+#include "GlobalNamespace/zzzz__EnvironmentType_def.hpp"
 #include "GlobalNamespace/zzzz__ObjectsMovementRecorder_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
@@ -17,16 +19,16 @@ namespace GlobalNamespace {
 struct BeatmapDifficulty;
 }
 namespace GlobalNamespace {
+class BeatmapLevelPack;
+}
+namespace GlobalNamespace {
+class BeatmapLevel;
+}
+namespace GlobalNamespace {
 class EnvironmentInfoSO;
 }
 namespace GlobalNamespace {
-class EnvironmentTypeSO;
-}
-namespace GlobalNamespace {
-class IBeatmapLevelPack;
-}
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
+struct EnvironmentType;
 }
 namespace GlobalNamespace {
 struct __ObjectsMovementRecorder__CameraView;
@@ -36,6 +38,9 @@ struct __ObjectsMovementRecorder__Mode;
 }
 namespace GlobalNamespace {
 class __PlaybackRenderer__PlaybackScreenshot;
+}
+namespace System {
+template <typename T> struct Nullable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -47,8 +52,9 @@ MARK_REF_PTR_T(::GlobalNamespace::RecordingSettings);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 137, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5917)), TypeDefinitionIndex(TypeDefinitionIndex(5918)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14717))] Self: TypeDefinitionIndex(TypeDefinitionIndex(5968)) CS Name: ::RecordingSettings*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5177)),
+// TypeDefinitionIndex(TypeDefinitionIndex(5178)), TypeDefinitionIndex(TypeDefinitionIndex(10635)), TypeDefinitionIndex(TypeDefinitionIndex(15101)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2448), inst: 4719 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5240)) CS Name: ::RecordingSettings*
 class CORDL_TYPE RecordingSettings : public ::System::Object {
 public:
   // Declarations
@@ -56,10 +62,10 @@ public:
   __declspec(property(get = __cordl_internal_get_gameMode, put = __cordl_internal_set_gameMode))::StringW gameMode;
 
   /// @brief Field pack, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_pack, put = __cordl_internal_set_pack))::GlobalNamespace::IBeatmapLevelPack* pack;
+  __declspec(property(get = __cordl_internal_get_pack, put = __cordl_internal_set_pack))::GlobalNamespace::BeatmapLevelPack* pack;
 
   /// @brief Field level, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_level, put = __cordl_internal_set_level))::GlobalNamespace::IPreviewBeatmapLevel* level;
+  __declspec(property(get = __cordl_internal_get_level, put = __cordl_internal_set_level))::GlobalNamespace::BeatmapLevel* level;
 
   /// @brief Field difficulty, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_difficulty, put = __cordl_internal_set_difficulty))::GlobalNamespace::BeatmapDifficulty difficulty;
@@ -115,7 +121,7 @@ public:
   __declspec(property(get = __cordl_internal_get_overrideEnvironments, put = __cordl_internal_set_overrideEnvironments)) bool overrideEnvironments;
 
   /// @brief Field environmentType, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_environmentType, put = __cordl_internal_set_environmentType))::UnityW<::GlobalNamespace::EnvironmentTypeSO> environmentType;
+  __declspec(property(get = __cordl_internal_get_environmentType, put = __cordl_internal_set_environmentType))::System::Nullable_1<::GlobalNamespace::EnvironmentType> environmentType;
 
   /// @brief Field environmentInfo, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get_environmentInfo, put = __cordl_internal_set_environmentInfo))::UnityW<::GlobalNamespace::EnvironmentInfoSO> environmentInfo;
@@ -129,17 +135,17 @@ public:
 
   constexpr void __cordl_internal_set_gameMode(::StringW value);
 
-  constexpr ::GlobalNamespace::IBeatmapLevelPack*& __cordl_internal_get_pack();
+  constexpr ::GlobalNamespace::BeatmapLevelPack*& __cordl_internal_get_pack();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatmapLevelPack*> const& __cordl_internal_get_pack() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelPack*> const& __cordl_internal_get_pack() const;
 
-  constexpr void __cordl_internal_set_pack(::GlobalNamespace::IBeatmapLevelPack* value);
+  constexpr void __cordl_internal_set_pack(::GlobalNamespace::BeatmapLevelPack* value);
 
-  constexpr ::GlobalNamespace::IPreviewBeatmapLevel*& __cordl_internal_get_level();
+  constexpr ::GlobalNamespace::BeatmapLevel*& __cordl_internal_get_level();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IPreviewBeatmapLevel*> const& __cordl_internal_get_level() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevel*> const& __cordl_internal_get_level() const;
 
-  constexpr void __cordl_internal_set_level(::GlobalNamespace::IPreviewBeatmapLevel* value);
+  constexpr void __cordl_internal_set_level(::GlobalNamespace::BeatmapLevel* value);
 
   constexpr ::GlobalNamespace::BeatmapDifficulty& __cordl_internal_get_difficulty();
 
@@ -245,11 +251,11 @@ public:
 
   constexpr void __cordl_internal_set_overrideEnvironments(bool value);
 
-  constexpr ::UnityW<::GlobalNamespace::EnvironmentTypeSO>& __cordl_internal_get_environmentType();
+  constexpr ::System::Nullable_1<::GlobalNamespace::EnvironmentType>& __cordl_internal_get_environmentType();
 
-  constexpr ::UnityW<::GlobalNamespace::EnvironmentTypeSO> const& __cordl_internal_get_environmentType() const;
+  constexpr ::System::Nullable_1<::GlobalNamespace::EnvironmentType> const& __cordl_internal_get_environmentType() const;
 
-  constexpr void __cordl_internal_set_environmentType(::UnityW<::GlobalNamespace::EnvironmentTypeSO> value);
+  constexpr void __cordl_internal_set_environmentType(::System::Nullable_1<::GlobalNamespace::EnvironmentType> value);
 
   constexpr ::UnityW<::GlobalNamespace::EnvironmentInfoSO>& __cordl_internal_get_environmentInfo();
 
@@ -264,23 +270,23 @@ public:
   constexpr void __cordl_internal_set_saveToOldFormat(bool value);
 
   static inline ::GlobalNamespace::RecordingSettings*
-  New_ctor(::StringW gameMode, ::GlobalNamespace::IBeatmapLevelPack* pack, ::GlobalNamespace::IPreviewBeatmapLevel* level, ::GlobalNamespace::BeatmapDifficulty difficulty,
+  New_ctor(::StringW gameMode, ::GlobalNamespace::BeatmapLevelPack* pack, ::GlobalNamespace::BeatmapLevel* level, ::GlobalNamespace::BeatmapDifficulty difficulty,
            ::GlobalNamespace::BeatmapCharacteristicSO* characteristic, bool runLevel, bool recordPerformance, ::GlobalNamespace::__ObjectsMovementRecorder__Mode recordingMode, ::StringW recordingPath,
            ::GlobalNamespace::__ObjectsMovementRecorder__CameraView cameraView, bool addDateTimeSuffixToRecordingName, bool screenshotRecording, int32_t screenshotWidth, int32_t screenshotHeight,
            int32_t framerate, ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> playbackScreenshots,
-           bool practice, float_t startSongTime, float_t songSpeedMultiplier, bool overrideEnvironments, ::GlobalNamespace::EnvironmentTypeSO* environmentType,
+           bool practice, float_t startSongTime, float_t songSpeedMultiplier, bool overrideEnvironments, ::System::Nullable_1<::GlobalNamespace::EnvironmentType> environmentType,
            ::GlobalNamespace::EnvironmentInfoSO* environmentInfo, bool saveToOldFormat);
 
-  /// @brief Method .ctor, addr 0x2307890, size 0x154, virtual false, abstract: false, final false
-  inline void _ctor(::StringW gameMode, ::GlobalNamespace::IBeatmapLevelPack* pack, ::GlobalNamespace::IPreviewBeatmapLevel* level, ::GlobalNamespace::BeatmapDifficulty difficulty,
+  /// @brief Method .ctor, addr 0x2334df0, size 0x154, virtual false, abstract: false, final false
+  inline void _ctor(::StringW gameMode, ::GlobalNamespace::BeatmapLevelPack* pack, ::GlobalNamespace::BeatmapLevel* level, ::GlobalNamespace::BeatmapDifficulty difficulty,
                     ::GlobalNamespace::BeatmapCharacteristicSO* characteristic, bool runLevel, bool recordPerformance, ::GlobalNamespace::__ObjectsMovementRecorder__Mode recordingMode,
                     ::StringW recordingPath, ::GlobalNamespace::__ObjectsMovementRecorder__CameraView cameraView, bool addDateTimeSuffixToRecordingName, bool screenshotRecording,
                     int32_t screenshotWidth, int32_t screenshotHeight, int32_t framerate,
                     ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> playbackScreenshots, bool practice,
-                    float_t startSongTime, float_t songSpeedMultiplier, bool overrideEnvironments, ::GlobalNamespace::EnvironmentTypeSO* environmentType,
+                    float_t startSongTime, float_t songSpeedMultiplier, bool overrideEnvironments, ::System::Nullable_1<::GlobalNamespace::EnvironmentType> environmentType,
                     ::GlobalNamespace::EnvironmentInfoSO* environmentInfo, bool saveToOldFormat);
 
-  /// @brief Method ToString, addr 0x2308dd4, size 0xb54, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2336098, size 0xa74, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "RecordingSettings", modifiers: "&&", def_value: None }]
@@ -301,10 +307,10 @@ public:
   ::StringW ___gameMode;
 
   /// @brief Field pack, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::IBeatmapLevelPack* ___pack;
+  ::GlobalNamespace::BeatmapLevelPack* ___pack;
 
   /// @brief Field level, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::IPreviewBeatmapLevel* ___level;
+  ::GlobalNamespace::BeatmapLevel* ___level;
 
   /// @brief Field difficulty, offset: 0x28, size: 0x4, def value: None
   ::GlobalNamespace::BeatmapDifficulty ___difficulty;
@@ -358,7 +364,7 @@ public:
   bool ___overrideEnvironments;
 
   /// @brief Field environmentType, offset: 0x78, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::EnvironmentTypeSO> ___environmentType;
+  ::System::Nullable_1<::GlobalNamespace::EnvironmentType> ___environmentType;
 
   /// @brief Field environmentInfo, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::EnvironmentInfoSO> ___environmentInfo;

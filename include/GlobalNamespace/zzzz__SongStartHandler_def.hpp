@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::GlobalNamespace::SongStartHandler);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12960))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12858))
 // CS Name: ::SongStartHandler*
 class CORDL_TYPE SongStartHandler : public ::System::Object {
 public:
@@ -113,44 +113,44 @@ public:
 
   constexpr void __cordl_internal_set_setSongStartSyncTimeEvent(::System::Action_1<int64_t>* value);
 
-  /// @brief Method get_songStartSyncTime, addr 0xe57244, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_songStartSyncTime, addr 0xe8207c, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_songStartSyncTime();
 
-  /// @brief Method add_setSongStartSyncTimeEvent, addr 0xe5724c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_setSongStartSyncTimeEvent, addr 0xe82084, size 0xb0, virtual false, abstract: false, final false
   inline void add_setSongStartSyncTimeEvent(::System::Action_1<int64_t>* value);
 
-  /// @brief Method remove_setSongStartSyncTimeEvent, addr 0xe572fc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_setSongStartSyncTimeEvent, addr 0xe82134, size 0xb0, virtual false, abstract: false, final false
   inline void remove_setSongStartSyncTimeEvent(::System::Action_1<int64_t>* value);
 
   static inline ::GlobalNamespace::SongStartHandler* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager,
                                                               ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* playersAtGameStartModel);
 
-  /// @brief Method .ctor, addr 0xe573ac, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe821e4, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager,
                     ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* playersAtGameStartModel);
 
-  /// @brief Method GetLevelStartTimeOffset, addr 0xe57450, size 0x4ec, virtual false, abstract: false, final false
+  /// @brief Method GetLevelStartTimeOffset, addr 0xe82288, size 0x4ec, virtual false, abstract: false, final false
   inline void GetLevelStartTimeOffset();
 
-  /// @brief Method Dispose, addr 0xe5793c, size 0x244, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0xe82774, size 0x244, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method ForceStart, addr 0xe57b80, size 0x6b0, virtual false, abstract: false, final false
+  /// @brief Method ForceStart, addr 0xe829b8, size 0x6b0, virtual false, abstract: false, final false
   inline void ForceStart(::StringW sessionGameId);
 
-  /// @brief Method StartSong, addr 0xe58230, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method StartSong, addr 0xe83068, size 0x298, virtual false, abstract: false, final false
   inline void StartSong();
 
-  /// @brief Method HandleSetGameplaySongReady, addr 0xe584c8, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method HandleSetGameplaySongReady, addr 0xe83300, size 0x2b0, virtual false, abstract: false, final false
   inline void HandleSetGameplaySongReady(::StringW user);
 
-  /// @brief Method HandleGetGameplaySongReady, addr 0xe58778, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method HandleGetGameplaySongReady, addr 0xe835b0, size 0xa4, virtual false, abstract: false, final false
   inline void HandleGetGameplaySongReady(::StringW user);
 
-  /// @brief Method HandleSetSongStartTime, addr 0xe5881c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method HandleSetSongStartTime, addr 0xe83654, size 0x30, virtual false, abstract: false, final false
   inline void HandleSetSongStartTime(::StringW user, int64_t time);
 
-  /// @brief Method Log, addr 0xe5884c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Log, addr 0xe83684, size 0x58, virtual false, abstract: false, final false
   inline void Log(::StringW message);
 
   // Ctor Parameters [CppParam { name: "", ty: "SongStartHandler", modifiers: "&&", def_value: None }]

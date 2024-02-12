@@ -28,23 +28,23 @@ MARK_REF_PTR_T(::Assets::OVR::Scripts::FixMethodDelegate);
 namespace Assets::OVR::Scripts {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8736))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8676))
 // CS Name: ::Assets.OVR.Scripts::FixMethodDelegate*
 class CORDL_TYPE FixMethodDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::Assets::OVR::Scripts::FixMethodDelegate* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x27f8534, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28059c8, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x27f8664, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2805af8, size 0x18, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngine::Object* obj, bool isLastInSet, int32_t selectedIndex);
 
-  /// @brief Method BeginInvoke, addr 0x27f867c, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2805b10, size 0xc4, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::UnityEngine::Object* obj, bool isLastInSet, int32_t selectedIndex, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x27f8740, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2805bd4, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "FixMethodDelegate", modifiers: "&&", def_value: None }]

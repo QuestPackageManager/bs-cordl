@@ -47,7 +47,7 @@ public:
   static inline ::System::Runtime::Remoting::Channels::AsyncRequest* New_ctor(::System::Runtime::Remoting::Messaging::IMessage* msgRequest,
                                                                               ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
-  /// @brief Method .ctor, addr 0x24a3d00, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24c5d74, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::IMessage* msgRequest, ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
   // Ctor Parameters [CppParam { name: "", ty: "AsyncRequest", modifiers: "&&", def_value: None }]

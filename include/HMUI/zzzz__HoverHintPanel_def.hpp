@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::HMUI::HoverHintPanel);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10243))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13536))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8987))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13489))
 // CS Name: ::HMUI::HoverHintPanel*
 class CORDL_TYPE HoverHintPanel : public ::UnityEngine::MonoBehaviour {
 public:
@@ -91,27 +91,27 @@ public:
 
   constexpr void __cordl_internal_set__isShown_k__BackingField(bool value);
 
-  /// @brief Method get_isShown, addr 0x211d7b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isShown, addr 0x21b2090, size 0x8, virtual false, abstract: false, final false
   inline bool get_isShown();
 
-  /// @brief Method set_isShown, addr 0x211d7bc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isShown, addr 0x21b2098, size 0xc, virtual false, abstract: false, final false
   inline void set_isShown(bool value);
 
-  /// @brief Method Awake, addr 0x211d7c8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x21b20a4, size 0xb4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Show, addr 0x211d2d8, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method Show, addr 0x21b1bb4, size 0x274, virtual false, abstract: false, final false
   inline void Show(::StringW text, ::UnityEngine::Transform* parent, ::UnityEngine::Vector2 containerSize, ::UnityEngine::Rect spawnRect);
 
-  /// @brief Method Hide, addr 0x211ce9c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Hide, addr 0x21b1778, size 0x28, virtual false, abstract: false, final false
   inline void Hide();
 
-  /// @brief Method CalculatePanelPosition, addr 0x211d87c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method CalculatePanelPosition, addr 0x21b2158, size 0x10c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 CalculatePanelPosition(::UnityEngine::Vector2 containerSize, ::UnityEngine::Rect spawnRect, ::UnityEngine::Vector2 panelSize);
 
   static inline ::HMUI::HoverHintPanel* New_ctor();
 
-  /// @brief Method .ctor, addr 0x211d988, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21b2264, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HoverHintPanel", modifiers: "&&", def_value: None }]

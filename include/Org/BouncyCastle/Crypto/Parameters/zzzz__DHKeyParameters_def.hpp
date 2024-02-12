@@ -54,28 +54,28 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::DHKeyParameters* New_ctor(bool isPrivate, ::Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters);
 
-  /// @brief Method .ctor, addr 0xf304a4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf5b334, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(bool isPrivate, ::Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::DHKeyParameters* New_ctor(bool isPrivate, ::Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters,
                                                                                    ::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithmOid);
 
-  /// @brief Method .ctor, addr 0xf30528, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf5b3b8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(bool isPrivate, ::Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithmOid);
 
-  /// @brief Method get_Parameters, addr 0xf30564, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parameters, addr 0xf5b3f4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* get_Parameters();
 
-  /// @brief Method get_AlgorithmOid, addr 0xf3056c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AlgorithmOid, addr 0xf5b3fc, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_AlgorithmOid();
 
-  /// @brief Method Equals, addr 0xf30574, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0xf5b404, size 0x9c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0xf30610, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0xf5b4a0, size 0x50, virtual false, abstract: false, final false
   inline bool Equals(::Org::BouncyCastle::Crypto::Parameters::DHKeyParameters* other);
 
-  /// @brief Method GetHashCode, addr 0xf30660, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0xf5b4f0, size 0x50, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "DHKeyParameters", modifiers: "&&", def_value: None }]

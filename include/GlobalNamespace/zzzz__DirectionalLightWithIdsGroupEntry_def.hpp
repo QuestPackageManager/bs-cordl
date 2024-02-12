@@ -46,7 +46,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__DirectionalLightWithIdsGroupEntry__LightInte
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14525))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14419))
 // CS Name: ::DirectionalLightWithIdsGroupEntry::GroupLightData*
 class CORDL_TYPE __DirectionalLightWithIdsGroupEntry__GroupLightData : public ::System::Object {
 public:
@@ -73,15 +73,15 @@ public:
 
   constexpr void __cordl_internal_set__groupIntensity(float_t value);
 
-  /// @brief Method get_lightGroup, addr 0x210f16c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightGroup, addr 0x21a3914, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::LightGroupSO> get_lightGroup();
 
-  /// @brief Method get_groupIntensity, addr 0x210f174, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_groupIntensity, addr 0x21a391c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_groupIntensity();
 
   static inline ::GlobalNamespace::__DirectionalLightWithIdsGroupEntry__GroupLightData* New_ctor(::GlobalNamespace::LightGroupSO* lightGroup);
 
-  /// @brief Method .ctor, addr 0x210f17c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21a3924, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::LightGroupSO* lightGroup);
 
   // Ctor Parameters [CppParam { name: "", ty: "__DirectionalLightWithIdsGroupEntry__GroupLightData", modifiers: "&&", def_value: None }]
@@ -119,7 +119,7 @@ static_assert(offsetof(::GlobalNamespace::__DirectionalLightWithIdsGroupEntry__G
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14526))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14420))
 // CS Name: ::DirectionalLightWithIdsGroupEntry::LightIntensitiesWithId*
 class CORDL_TYPE __DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId : public ::System::Object {
 public:
@@ -146,15 +146,15 @@ public:
 
   constexpr void __cordl_internal_set__intensity(float_t value);
 
-  /// @brief Method get_lightId, addr 0x210f1ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightId, addr 0x21a3954, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_lightId();
 
-  /// @brief Method get_intensity, addr 0x210f1b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_intensity, addr 0x21a395c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_intensity();
 
   static inline ::GlobalNamespace::__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId* New_ctor(int32_t lightId, float_t lightIntensity);
 
-  /// @brief Method .ctor, addr 0x210f1bc, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21a3964, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(int32_t lightId, float_t lightIntensity);
 
   // Ctor Parameters [CppParam { name: "", ty: "__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId", modifiers: "&&", def_value: None }]
@@ -191,8 +191,8 @@ static_assert(offsetof(::GlobalNamespace::__DirectionalLightWithIdsGroupEntry__L
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14522))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14527))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(14416))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14421))
 // CS Name: ::DirectionalLightWithIdsGroupEntry*
 class CORDL_TYPE DirectionalLightWithIdsGroupEntry : public ::UnityEngine::MonoBehaviour {
 public:
@@ -258,18 +258,18 @@ public:
 
   constexpr void __cordl_internal_set__groupLightsWeighting(::GlobalNamespace::ColorMixAndWeightingApproach value);
 
-  /// @brief Method get_groupLightData, addr 0x210f14c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_groupLightData, addr 0x21a38f4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::__DirectionalLightWithIdsGroupEntry__GroupLightData*>* get_groupLightData();
 
-  /// @brief Method get_individualLightData, addr 0x210f154, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_individualLightData, addr 0x21a38fc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId*>* get_individualLightData();
 
-  /// @brief Method get_groupLightsWeighting, addr 0x210f15c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_groupLightsWeighting, addr 0x21a3904, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorMixAndWeightingApproach get_groupLightsWeighting();
 
   static inline ::GlobalNamespace::DirectionalLightWithIdsGroupEntry* New_ctor();
 
-  /// @brief Method .ctor, addr 0x210f164, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21a390c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DirectionalLightWithIdsGroupEntry", modifiers: "&&", def_value: None }]

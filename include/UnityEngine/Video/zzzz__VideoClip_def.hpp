@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::UnityEngine::Video::VideoClip);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Video {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10200))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16075))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8944))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15986))
 // CS Name: ::UnityEngine.Video::VideoClip*
 class CORDL_TYPE VideoClip : public ::UnityEngine::Object {
 public:
@@ -45,46 +45,46 @@ public:
 
   static inline ::UnityEngine::Video::VideoClip* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2eb10d4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2eca3a0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_originalPath, addr 0x2eb112c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_originalPath, addr 0x2eca3f8, size 0x3c, virtual false, abstract: false, final false
   inline ::StringW get_originalPath();
 
-  /// @brief Method get_frameCount, addr 0x2eb1168, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_frameCount, addr 0x2eca434, size 0x3c, virtual false, abstract: false, final false
   inline uint64_t get_frameCount();
 
-  /// @brief Method get_frameRate, addr 0x2eb11a4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_frameRate, addr 0x2eca470, size 0x3c, virtual false, abstract: false, final false
   inline double_t get_frameRate();
 
-  /// @brief Method get_length, addr 0x2eb11e0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_length, addr 0x2eca4ac, size 0x3c, virtual false, abstract: false, final false
   inline double_t get_length();
 
-  /// @brief Method get_width, addr 0x2eb121c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_width, addr 0x2eca4e8, size 0x3c, virtual false, abstract: false, final false
   inline uint32_t get_width();
 
-  /// @brief Method get_height, addr 0x2eb1258, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_height, addr 0x2eca524, size 0x3c, virtual false, abstract: false, final false
   inline uint32_t get_height();
 
-  /// @brief Method get_pixelAspectRatioNumerator, addr 0x2eb1294, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_pixelAspectRatioNumerator, addr 0x2eca560, size 0x3c, virtual false, abstract: false, final false
   inline uint32_t get_pixelAspectRatioNumerator();
 
-  /// @brief Method get_pixelAspectRatioDenominator, addr 0x2eb12d0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_pixelAspectRatioDenominator, addr 0x2eca59c, size 0x3c, virtual false, abstract: false, final false
   inline uint32_t get_pixelAspectRatioDenominator();
 
-  /// @brief Method get_sRGB, addr 0x2eb130c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_sRGB, addr 0x2eca5d8, size 0x3c, virtual false, abstract: false, final false
   inline bool get_sRGB();
 
-  /// @brief Method get_audioTrackCount, addr 0x2eb1348, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_audioTrackCount, addr 0x2eca614, size 0x3c, virtual false, abstract: false, final false
   inline uint16_t get_audioTrackCount();
 
-  /// @brief Method GetAudioChannelCount, addr 0x2eb1384, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetAudioChannelCount, addr 0x2eca650, size 0x44, virtual false, abstract: false, final false
   inline uint16_t GetAudioChannelCount(uint16_t audioTrackIdx);
 
-  /// @brief Method GetAudioSampleRate, addr 0x2eb13c8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetAudioSampleRate, addr 0x2eca694, size 0x44, virtual false, abstract: false, final false
   inline uint32_t GetAudioSampleRate(uint16_t audioTrackIdx);
 
-  /// @brief Method GetAudioLanguage, addr 0x2eb140c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetAudioLanguage, addr 0x2eca6d8, size 0x44, virtual false, abstract: false, final false
   inline ::StringW GetAudioLanguage(uint16_t audioTrackIdx);
 
   // Ctor Parameters [CppParam { name: "", ty: "VideoClip", modifiers: "&&", def_value: None }]

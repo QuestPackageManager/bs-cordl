@@ -41,7 +41,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerStatusData__UserMessage__Localize
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4469))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10879))
 // CS Name: ::MultiplayerStatusData::AvailabilityStatus
 struct CORDL_TYPE __MultiplayerStatusData__AvailabilityStatus {
 public:
@@ -95,7 +95,7 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerStatusData__AvailabilityS
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4470))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10880))
 // CS Name: ::MultiplayerStatusData::UserMessage::LocalizedMessage*
 class CORDL_TYPE __MultiplayerStatusData__UserMessage__LocalizedMessage : public ::System::Object {
 public:
@@ -120,7 +120,7 @@ public:
 
   static inline ::GlobalNamespace::__MultiplayerStatusData__UserMessage__LocalizedMessage* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2352fa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1294660, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerStatusData__UserMessage__LocalizedMessage", modifiers: "&&", def_value: None }]
@@ -158,7 +158,7 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerStatusData__UserMessage__
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4471))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10881))
 // CS Name: ::MultiplayerStatusData::UserMessage*
 class CORDL_TYPE __MultiplayerStatusData__UserMessage : public ::System::Object {
 public:
@@ -181,7 +181,7 @@ public:
 
   static inline ::GlobalNamespace::__MultiplayerStatusData__UserMessage* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2352f9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1294658, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerStatusData__UserMessage", modifiers: "&&", def_value: None }]
@@ -213,8 +213,8 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerStatusData__UserMessage, 
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 58, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4469))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4472))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10879))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10882))
 // CS Name: ::MultiplayerStatusData*
 class CORDL_TYPE MultiplayerStatusData : public ::System::Object {
 public:
@@ -298,45 +298,45 @@ public:
 
   constexpr void __cordl_internal_set_use_xplatform_auth(bool value);
 
-  /// @brief Method get_minimumAppVersion, addr 0x2352f2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_minimumAppVersion, addr 0x12945e8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_minimumAppVersion();
 
-  /// @brief Method set_minimumAppVersion, addr 0x2352f34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_minimumAppVersion, addr 0x12945f0, size 0x8, virtual false, abstract: false, final false
   inline void set_minimumAppVersion(::StringW value);
 
-  /// @brief Method get_maintenanceStartTime, addr 0x2352f3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maintenanceStartTime, addr 0x12945f8, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_maintenanceStartTime();
 
-  /// @brief Method set_maintenanceStartTime, addr 0x2352f44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maintenanceStartTime, addr 0x1294600, size 0x8, virtual false, abstract: false, final false
   inline void set_maintenanceStartTime(int64_t value);
 
-  /// @brief Method get_maintenanceEndTime, addr 0x2352f4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maintenanceEndTime, addr 0x1294608, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_maintenanceEndTime();
 
-  /// @brief Method set_maintenanceEndTime, addr 0x2352f54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maintenanceEndTime, addr 0x1294610, size 0x8, virtual false, abstract: false, final false
   inline void set_maintenanceEndTime(int64_t value);
 
-  /// @brief Method get_userMessage, addr 0x2352f5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_userMessage, addr 0x1294618, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__MultiplayerStatusData__UserMessage* get_userMessage();
 
-  /// @brief Method set_userMessage, addr 0x2352f64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_userMessage, addr 0x1294620, size 0x8, virtual false, abstract: false, final false
   inline void set_userMessage(::GlobalNamespace::__MultiplayerStatusData__UserMessage* value);
 
-  /// @brief Method get_useGamelift, addr 0x2352f6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useGamelift, addr 0x1294628, size 0x8, virtual false, abstract: false, final false
   inline bool get_useGamelift();
 
-  /// @brief Method set_useGamelift, addr 0x2352f74, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_useGamelift, addr 0x1294630, size 0xc, virtual false, abstract: false, final false
   inline void set_useGamelift(bool value);
 
-  /// @brief Method get_useXPlatformAuth, addr 0x2352f80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useXPlatformAuth, addr 0x129463c, size 0x8, virtual false, abstract: false, final false
   inline bool get_useXPlatformAuth();
 
-  /// @brief Method set_useXPlatformAuth, addr 0x2352f88, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_useXPlatformAuth, addr 0x1294644, size 0xc, virtual false, abstract: false, final false
   inline void set_useXPlatformAuth(bool value);
 
   static inline ::GlobalNamespace::MultiplayerStatusData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2352f94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1294650, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerStatusData", modifiers: "&&", def_value: None }]

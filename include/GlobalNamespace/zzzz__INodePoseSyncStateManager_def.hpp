@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::GlobalNamespace::INodePoseSyncStateManager);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14943))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14816))
 // CS Name: ::INodePoseSyncStateManager*
 class CORDL_TYPE INodePoseSyncStateManager {
 public:

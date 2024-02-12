@@ -16,7 +16,7 @@ MARK_VAL_T(::System::IO::FileAttributes);
 namespace System::IO {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3609))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3607))
 // CS Name: ::System.IO::FileAttributes
 struct CORDL_TYPE FileAttributes {
 public:

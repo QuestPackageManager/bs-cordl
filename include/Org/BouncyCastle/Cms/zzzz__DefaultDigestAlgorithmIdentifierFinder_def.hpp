@@ -41,15 +41,15 @@ public:
 
   static inline ::System::Collections::IDictionary* getStaticF_digestNameToOids();
 
-  /// @brief Method find, addr 0x11ed328, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method find, addr 0x121a1b8, size 0x264, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* find(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* sigAlgId);
 
-  /// @brief Method find, addr 0x11fd360, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method find, addr 0x122a1f0, size 0x19c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* find(::StringW digAlgName);
 
   static inline ::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x11ed320, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x121a1b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultDigestAlgorithmIdentifierFinder", modifiers: "&&", def_value: None }]

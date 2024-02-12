@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::System::Diagnostics::Tracing::EventSourceAttribute);
 namespace System::Diagnostics::Tracing {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3748))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3746))
 // CS Name: ::System.Diagnostics.Tracing::EventSourceAttribute*
 class CORDL_TYPE EventSourceAttribute : public ::System::Attribute {
 public:
@@ -43,15 +43,15 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method set_Guid, addr 0x257bf1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Guid, addr 0x259ee0c, size 0x8, virtual false, abstract: false, final false
   inline void set_Guid(::StringW value);
 
-  /// @brief Method set_Name, addr 0x257bf24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x259ee14, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
   static inline ::System::Diagnostics::Tracing::EventSourceAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x257bf2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x259ee1c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EventSourceAttribute", modifiers: "&&", def_value: None }]

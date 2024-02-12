@@ -67,30 +67,30 @@ public:
 
   constexpr void __cordl_internal_set_bitSize(int32_t value);
 
-  /// @brief Method CheckInitialised, addr 0xee07a0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method CheckInitialised, addr 0xf0c630, size 0x60, virtual false, abstract: false, final false
   inline void CheckInitialised();
 
-  /// @brief Method Init, addr 0xee0800, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0xf0c690, size 0x160, virtual true, abstract: false, final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method GetInputBlockSize, addr 0xee0960, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetInputBlockSize, addr 0xf0c7f0, size 0x3c, virtual true, abstract: false, final false
   inline int32_t GetInputBlockSize();
 
-  /// @brief Method GetOutputBlockSize, addr 0xee099c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetOutputBlockSize, addr 0xf0c82c, size 0x3c, virtual true, abstract: false, final false
   inline int32_t GetOutputBlockSize();
 
-  /// @brief Method ConvertInput, addr 0xee09d8, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method ConvertInput, addr 0xf0c868, size 0x110, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* ConvertInput(::ArrayW<uint8_t, ::Array<uint8_t>*> inBuf, int32_t inOff, int32_t inLen);
 
-  /// @brief Method ConvertOutput, addr 0xee0ae8, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method ConvertOutput, addr 0xf0c978, size 0xc4, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ConvertOutput(::Org::BouncyCastle::Math::BigInteger* result);
 
-  /// @brief Method ProcessBlock, addr 0xee0bac, size 0x168, virtual true, abstract: false, final false
+  /// @brief Method ProcessBlock, addr 0xf0ca3c, size 0x168, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* ProcessBlock(::Org::BouncyCastle::Math::BigInteger* input);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::RsaCoreEngine* New_ctor();
 
-  /// @brief Method .ctor, addr 0xedf9cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf0b85c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RsaCoreEngine", modifiers: "&&", def_value: None }]

@@ -27,7 +27,7 @@ MARK_VAL_T(::UnityEngine::Color32);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10250))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8994))
 // CS Name: ::UnityEngine::Color32
 struct CORDL_TYPE Color32 {
 public:
@@ -46,8 +46,6 @@ public:
 
   /// @brief Field a, offset 0x3, size 0x1
   __declspec(property(get = __cordl_internal_get_a, put = __cordl_internal_set_a)) uint8_t a;
-
-  __declspec(property(get = get_Item)) uint8_t Item[];
 
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*();
@@ -85,25 +83,22 @@ public:
 
   constexpr void __cordl_internal_set_a(uint8_t value);
 
-  /// @brief Method .ctor, addr 0x2cda0c8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ce1234, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(uint8_t r, uint8_t g, uint8_t b, uint8_t a);
 
-  /// @brief Method op_Implicit, addr 0x2cda0dc, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2ce1248, size 0x2c4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color32 op_Implicit___UnityEngine__Color32(::UnityEngine::Color c);
 
-  /// @brief Method op_Implicit, addr 0x2cda3a0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2ce150c, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color op_Implicit___UnityEngine__Color(::UnityEngine::Color32 c);
 
-  /// @brief Method Lerp, addr 0x2cda3dc, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Lerp, addr 0x2ce1548, size 0xdc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color32 Lerp(::UnityEngine::Color32 a, ::UnityEngine::Color32 b, float_t t);
 
-  /// @brief Method get_Item, addr 0x2cda4b8, size 0xd8, virtual false, abstract: false, final false
-  inline uint8_t get_Item(int32_t index);
-
-  /// @brief Method ToString, addr 0x2cda590, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2ce1624, size 0xc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x2cda59c, size 0x1dc, virtual true, abstract: false, final true
+  /// @brief Method ToString, addr 0x2ce1630, size 0x1dc, virtual true, abstract: false, final true
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
   // Ctor Parameters [CppParam { name: "rgba", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "r", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "g", ty:

@@ -44,15 +44,15 @@ public:
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* New_ctor(::StringW assemblyString);
 
-  /// @brief Method .ctor, addr 0x24c1964, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24e29d8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW assemblyString);
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* New_ctor(::StringW assemblyString, ::System::Reflection::Assembly* assembly);
 
-  /// @brief Method .ctor, addr 0x24c198c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24e2a00, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW assemblyString, ::System::Reflection::Assembly* assembly);
 
-  /// @brief Method GetAssembly, addr 0x24c19b8, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method GetAssembly, addr 0x24e2a2c, size 0x11c, virtual false, abstract: false, final false
   inline ::System::Reflection::Assembly* GetAssembly();
 
   // Ctor Parameters [CppParam { name: "", ty: "BinaryAssemblyInfo", modifiers: "&&", def_value: None }]

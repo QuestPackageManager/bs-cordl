@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::UnityEngine::TextCore::Text::TextStyle);
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13704))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13657))
 // CS Name: ::UnityEngine.TextCore.Text::TextStyle*
 class CORDL_TYPE TextStyle : public ::System::Object {
 public:
@@ -108,16 +108,16 @@ public:
 
   static inline ::UnityEngine::TextCore::Text::TextStyle* getStaticF_k_NormalStyle();
 
-  /// @brief Method get_hashCode, addr 0x2d43704, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hashCode, addr 0x2d631ac, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_hashCode();
 
-  /// @brief Method get_styleOpeningTagArray, addr 0x2d4370c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_styleOpeningTagArray, addr 0x2d631b4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> get_styleOpeningTagArray();
 
-  /// @brief Method get_styleClosingTagArray, addr 0x2d43714, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_styleClosingTagArray, addr 0x2d631bc, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> get_styleClosingTagArray();
 
-  /// @brief Method RefreshStyle, addr 0x2d4371c, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method RefreshStyle, addr 0x2d631c4, size 0x1e4, virtual false, abstract: false, final false
   inline void RefreshStyle();
 
   // Ctor Parameters [CppParam { name: "", ty: "TextStyle", modifiers: "&&", def_value: None }]

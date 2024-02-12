@@ -80,27 +80,27 @@ public:
 
   static inline int32_t getStaticF_STATE_LENGTH();
 
-  /// @brief Method Init, addr 0xeda638, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0xf064c8, size 0x108, virtual true, abstract: false, final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method get_AlgorithmName, addr 0xeda8e8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0xf06778, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method ReturnByte, addr 0xeda928, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method ReturnByte, addr 0xf067b8, size 0xd4, virtual true, abstract: false, final false
   inline uint8_t ReturnByte(uint8_t input);
 
-  /// @brief Method ProcessBytes, addr 0xeda9fc, size 0x1d4, virtual true, abstract: false, final false
+  /// @brief Method ProcessBytes, addr 0xf0688c, size 0x1d4, virtual true, abstract: false, final false
   inline void ProcessBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset, addr 0xedabd0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0xf06a60, size 0x8, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method SetKey, addr 0xeda740, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method SetKey, addr 0xf065d0, size 0x1a8, virtual false, abstract: false, final false
   inline void SetKey(::ArrayW<uint8_t, ::Array<uint8_t>*> keyBytes);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::RC4Engine* New_ctor();
 
-  /// @brief Method .ctor, addr 0xedac24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf06ab4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RC4Engine", modifiers: "&&", def_value: None }]

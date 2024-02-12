@@ -23,7 +23,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Tls::ContentType* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf62d14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf8cba4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ContentType", modifiers: "&&", def_value: None }]

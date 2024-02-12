@@ -54,7 +54,7 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__FBIKChain__ChildConstraint);
 namespace RootMotion::FinalIK {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12548))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12446))
 // CS Name: ::FBIKChain::ChildConstraint*
 class CORDL_TYPE __FBIKChain__ChildConstraint : public ::System::Object {
 public:
@@ -153,30 +153,30 @@ public:
 
   constexpr void __cordl_internal_set_chain2Index(int32_t value);
 
-  /// @brief Method get_nominalDistance, addr 0x1257a58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_nominalDistance, addr 0x12f1b08, size 0x8, virtual false, abstract: false, final false
   inline float_t get_nominalDistance();
 
-  /// @brief Method set_nominalDistance, addr 0x1257a60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_nominalDistance, addr 0x12f1b10, size 0x8, virtual false, abstract: false, final false
   inline void set_nominalDistance(float_t value);
 
-  /// @brief Method get_isRigid, addr 0x1257a68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isRigid, addr 0x12f1b18, size 0x8, virtual false, abstract: false, final false
   inline bool get_isRigid();
 
-  /// @brief Method set_isRigid, addr 0x1257a70, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isRigid, addr 0x12f1b20, size 0xc, virtual false, abstract: false, final false
   inline void set_isRigid(bool value);
 
   static inline ::RootMotion::FinalIK::__FBIKChain__ChildConstraint* New_ctor(::UnityEngine::Transform* bone1, ::UnityEngine::Transform* bone2, float_t pushElasticity, float_t pullElasticity);
 
-  /// @brief Method .ctor, addr 0x1257a7c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12f1b2c, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Transform* bone1, ::UnityEngine::Transform* bone2, float_t pushElasticity, float_t pullElasticity);
 
-  /// @brief Method Initiate, addr 0x1255764, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Initiate, addr 0x12ef814, size 0x54, virtual false, abstract: false, final false
   inline void Initiate(::RootMotion::FinalIK::IKSolverFullBody* solver);
 
-  /// @brief Method OnPreSolve, addr 0x1255e10, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method OnPreSolve, addr 0x12efec0, size 0x1e4, virtual false, abstract: false, final false
   inline void OnPreSolve(::RootMotion::FinalIK::IKSolverFullBody* solver);
 
-  /// @brief Method Solve, addr 0x125781c, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method Solve, addr 0x12f18cc, size 0x23c, virtual false, abstract: false, final false
   inline void Solve(::RootMotion::FinalIK::IKSolverFullBody* solver);
 
   // Ctor Parameters [CppParam { name: "", ty: "__FBIKChain__ChildConstraint", modifiers: "&&", def_value: None }]
@@ -254,7 +254,7 @@ static_assert(offsetof(::RootMotion::FinalIK::__FBIKChain__ChildConstraint, ___c
 namespace RootMotion::FinalIK {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12549))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12447))
 // CS Name: ::FBIKChain::Smoothing
 struct CORDL_TYPE __FBIKChain__Smoothing {
 public:
@@ -307,8 +307,8 @@ static_assert(offsetof(::RootMotion::FinalIK::__FBIKChain__Smoothing, value__) =
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 132, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12549))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12550))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12447))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12448))
 // CS Name: ::RootMotion.FinalIK::FBIKChain*
 class CORDL_TYPE FBIKChain : public ::System::Object {
 public:
@@ -519,66 +519,66 @@ public:
 
   static inline ::RootMotion::FinalIK::FBIKChain* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1254b20, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12eebd0, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::RootMotion::FinalIK::FBIKChain* New_ctor(float_t pin, float_t pull, ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> nodeTransforms);
 
-  /// @brief Method .ctor, addr 0x1254c88, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12eed38, size 0x134, virtual false, abstract: false, final false
   inline void _ctor(float_t pin, float_t pull, ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> nodeTransforms);
 
-  /// @brief Method SetNodes, addr 0x1254dbc, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method SetNodes, addr 0x12eee6c, size 0x118, virtual false, abstract: false, final false
   inline void SetNodes(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> boneTransforms);
 
-  /// @brief Method GetNodeIndex, addr 0x1254ed4, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetNodeIndex, addr 0x12eef84, size 0xbc, virtual false, abstract: false, final false
   inline int32_t GetNodeIndex(::UnityEngine::Transform* boneTransform);
 
-  /// @brief Method IsValid, addr 0x1254f90, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x12ef040, size 0x10c, virtual false, abstract: false, final false
   inline bool IsValid(ByRef<::StringW> message);
 
-  /// @brief Method Initiate, addr 0x125509c, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method Initiate, addr 0x12ef14c, size 0x16c, virtual false, abstract: false, final false
   inline void Initiate(::RootMotion::FinalIK::IKSolverFullBody* solver);
 
-  /// @brief Method ReadPose, addr 0x1255a2c, size 0x3e4, virtual false, abstract: false, final false
+  /// @brief Method ReadPose, addr 0x12efadc, size 0x3e4, virtual false, abstract: false, final false
   inline void ReadPose(::RootMotion::FinalIK::IKSolverFullBody* solver, bool fullBody);
 
-  /// @brief Method CalculateBoneLengths, addr 0x1255208, size 0x55c, virtual false, abstract: false, final false
+  /// @brief Method CalculateBoneLengths, addr 0x12ef2b8, size 0x55c, virtual false, abstract: false, final false
   inline void CalculateBoneLengths(::RootMotion::FinalIK::IKSolverFullBody* solver);
 
-  /// @brief Method Reach, addr 0x1255ff4, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method Reach, addr 0x12f00a4, size 0x294, virtual false, abstract: false, final false
   inline void Reach(::RootMotion::FinalIK::IKSolverFullBody* solver);
 
-  /// @brief Method Push, addr 0x1256288, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method Push, addr 0x12f0338, size 0x2d0, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 Push(::RootMotion::FinalIK::IKSolverFullBody* solver);
 
-  /// @brief Method SolveTrigonometric, addr 0x1256558, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method SolveTrigonometric, addr 0x12f0608, size 0x238, virtual false, abstract: false, final false
   inline void SolveTrigonometric(::RootMotion::FinalIK::IKSolverFullBody* solver, bool calculateBendDirection);
 
-  /// @brief Method Stage1, addr 0x1256f20, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method Stage1, addr 0x12f0fd0, size 0x2ac, virtual false, abstract: false, final false
   inline void Stage1(::RootMotion::FinalIK::IKSolverFullBody* solver);
 
-  /// @brief Method Stage2, addr 0x1257418, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method Stage2, addr 0x12f14c8, size 0x104, virtual false, abstract: false, final false
   inline void Stage2(::RootMotion::FinalIK::IKSolverFullBody* solver, ::UnityEngine::Vector3 position);
 
-  /// @brief Method SolveConstraintSystems, addr 0x1257618, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method SolveConstraintSystems, addr 0x12f16c8, size 0xdc, virtual false, abstract: false, final false
   inline void SolveConstraintSystems(::RootMotion::FinalIK::IKSolverFullBody* solver);
 
-  /// @brief Method SolveFABRIKJoint, addr 0x1257304, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method SolveFABRIKJoint, addr 0x12f13b4, size 0x114, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 SolveFABRIKJoint(::UnityEngine::Vector3 pos1, ::UnityEngine::Vector3 pos2, float_t length);
 
-  /// @brief Method GetDirToBendPoint, addr 0x1256dc0, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method GetDirToBendPoint, addr 0x12f0e70, size 0x160, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetDirToBendPoint(::UnityEngine::Vector3 direction, ::UnityEngine::Vector3 bendDirection, float_t directionMagnitude);
 
-  /// @brief Method SolveChildConstraints, addr 0x12572a0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method SolveChildConstraints, addr 0x12f1350, size 0x64, virtual false, abstract: false, final false
   inline void SolveChildConstraints(::RootMotion::FinalIK::IKSolverFullBody* solver);
 
-  /// @brief Method SolveLinearConstraint, addr 0x12576f4, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method SolveLinearConstraint, addr 0x12f17a4, size 0x128, virtual false, abstract: false, final false
   inline void SolveLinearConstraint(::RootMotion::FinalIK::__IKSolver__Node* node1, ::RootMotion::FinalIK::__IKSolver__Node* node2, float_t crossFade, float_t distance);
 
-  /// @brief Method ForwardReach, addr 0x12571cc, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method ForwardReach, addr 0x12f127c, size 0xd4, virtual false, abstract: false, final false
   inline void ForwardReach(::UnityEngine::Vector3 position);
 
-  /// @brief Method BackwardReach, addr 0x125751c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method BackwardReach, addr 0x12f15cc, size 0xfc, virtual false, abstract: false, final false
   inline void BackwardReach(::UnityEngine::Vector3 position);
 
   // Ctor Parameters [CppParam { name: "", ty: "FBIKChain", modifiers: "&&", def_value: None }]

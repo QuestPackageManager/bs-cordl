@@ -1,215 +1,17 @@
 #pragma once
 #include "HMUI/zzzz__ViewController_impl.hpp"
-#include "System/zzzz__Object_impl.hpp"
-#include "GlobalNamespace/zzzz__ExplicitContentWarningViewController_def.hpp"
 #include "GlobalNamespace/zzzz__ExplicitContentWarningViewController_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__Action_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9._ctor
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9::*)(int32_t)>(
-    &::GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x22b0ae0;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9*>::get(), ".ctor",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9.System_IDisposable_Dispose
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9::*)()>(
-    &::GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9::System_IDisposable_Dispose)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x22b0be0;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9*>::get(),
-                                                 "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9.MoveNext
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9::*)()>(
-    &::GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9::MoveNext)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x22b0be4;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9*>::get(),
-                                                 "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9.System_Collections_Generic_IEnumerator_System_Object__get_Current
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9::*)()>(
-    &::GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22b0ca4;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9*>::get(),
-                                    "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9.System_Collections_IEnumerator_Reset
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9::*)()>(
-    &::GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9::System_Collections_IEnumerator_Reset)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x22b0cac;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9*>::get(),
-                                                 "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9.System_Collections_IEnumerator_get_Current
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9::*)()>(
-    &::GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9::System_Collections_IEnumerator_get_Current)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22b0cec;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9*>::get(),
-                                                 "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-constexpr GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>*
-GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9::operator ::System::Collections::IEnumerator*() noexcept {
-  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9::i___System__Collections__IEnumerator() noexcept {
-  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::IDisposable"
-constexpr GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9::operator ::System::IDisposable*() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9::i___System__IDisposable() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-constexpr int32_t& GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9::__cordl_internal_get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____1__state;
-}
-constexpr int32_t const& GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9::__cordl_internal_get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____1__state;
-}
-constexpr void GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9::__cordl_internal_set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->_____1__state = value;
-}
-constexpr ::System::Object*& GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9::__cordl_internal_get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____2__current;
-}
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9::__cordl_internal_get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____2__current;
-}
-constexpr void GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9::__cordl_internal_set___2__current(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::UnityW<::GlobalNamespace::ExplicitContentWarningViewController>& GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9::__cordl_internal_get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____4__this;
-}
-constexpr ::UnityW<::GlobalNamespace::ExplicitContentWarningViewController> const&
-GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9::__cordl_internal_get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____4__this;
-}
-constexpr void GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::ExplicitContentWarningViewController> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9* GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9*>(__1__state));
-}
-inline void GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9::_ctor(int32_t __1__state) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9*>::get(), ".ctor",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
-}
-inline void GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9::System_IDisposable_Dispose() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9*>::get(),
-                                               "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline bool GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9::MoveNext() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9*>::get(),
-                                               "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline ::System::Object* GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9*>::get(),
-                                  "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
-}
-inline void GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9::System_Collections_IEnumerator_Reset() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9*>::get(),
-                                               "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::System::Object* GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9::System_Collections_IEnumerator_get_Current() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9*>::get(),
-                                               "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
-}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9::__ExplicitContentWarningViewController___MainCoroutine_d__9() {}
+#include "UnityEngine/UI/zzzz__Toggle_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ExplicitContentWarningViewController.add_didFinishEvent
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ExplicitContentWarningViewController::*)(::System::Action*)>(
     &::GlobalNamespace::ExplicitContentWarningViewController::add_didFinishEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x22b0794;
+  constexpr static std::size_t addrs = 0x22e3cbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -224,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ExplicitContentWarningViewController::*)(::System::Action*)>(
     &::GlobalNamespace::ExplicitContentWarningViewController::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x22b0830;
+  constexpr static std::size_t addrs = 0x22e3d58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -238,8 +40,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ExplicitContentWarningViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::ExplicitContentWarningViewController::DidActivate)> {
-  constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x22b08cc;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x22e3df4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -254,8 +56,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ExplicitContentWarningViewController::*)(bool, bool)>(
     &::GlobalNamespace::ExplicitContentWarningViewController::DidDeactivate)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x22b0a84;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x22e3e9c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -265,27 +67,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::ExplicitContentWarningViewController.MainCoroutine
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::ExplicitContentWarningViewController::*)()>(
-    &::GlobalNamespace::ExplicitContentWarningViewController::MainCoroutine)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x22b0a1c;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ExplicitContentWarningViewController*>::get(),
-                                                                               "MainCoroutine", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::GlobalNamespace::ExplicitContentWarningViewController._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ExplicitContentWarningViewController::*)()>(
     &::GlobalNamespace::ExplicitContentWarningViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22b0b08;
+  constexpr static std::size_t addrs = 0x22e3ecc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ExplicitContentWarningViewController*>::get(),
@@ -293,57 +81,43 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::ExplicitContentWarningViewController._DidActivate_b__7_0
+//  Writing Method size for method: ::GlobalNamespace::ExplicitContentWarningViewController._DidActivate_b__6_0
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ExplicitContentWarningViewController::*)()>(
-    &::GlobalNamespace::ExplicitContentWarningViewController::_DidActivate_b__7_0)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x22b0b10;
+    &::GlobalNamespace::ExplicitContentWarningViewController::_DidActivate_b__6_0)> {
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x22e3ed4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ExplicitContentWarningViewController*>::get(),
-                                                                               "<DidActivate>b__7_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                               "<DidActivate>b__6_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::ExplicitContentWarningViewController._DidActivate_b__7_1
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ExplicitContentWarningViewController::*)()>(
-    &::GlobalNamespace::ExplicitContentWarningViewController::_DidActivate_b__7_1)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x22b0b78;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ExplicitContentWarningViewController*>::get(),
-                                                                               "<DidActivate>b__7_1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-constexpr ::UnityW<::UnityEngine::UI::Button>& GlobalNamespace::ExplicitContentWarningViewController::__cordl_internal_get__showButton() {
+constexpr ::UnityW<::UnityEngine::UI::Toggle>& GlobalNamespace::ExplicitContentWarningViewController::__cordl_internal_get__toggleExplicit() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____showButton;
+  return this->____toggleExplicit;
 }
-constexpr ::UnityW<::UnityEngine::UI::Button> const& GlobalNamespace::ExplicitContentWarningViewController::__cordl_internal_get__showButton() const {
+constexpr ::UnityW<::UnityEngine::UI::Toggle> const& GlobalNamespace::ExplicitContentWarningViewController::__cordl_internal_get__toggleExplicit() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____showButton;
+  return this->____toggleExplicit;
 }
-constexpr void GlobalNamespace::ExplicitContentWarningViewController::__cordl_internal_set__showButton(::UnityW<::UnityEngine::UI::Button> value) {
+constexpr void GlobalNamespace::ExplicitContentWarningViewController::__cordl_internal_set__toggleExplicit(::UnityW<::UnityEngine::UI::Toggle> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____showButton)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____toggleExplicit)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::UI::Button>& GlobalNamespace::ExplicitContentWarningViewController::__cordl_internal_get__hideButton() {
+constexpr ::UnityW<::UnityEngine::UI::Button>& GlobalNamespace::ExplicitContentWarningViewController::__cordl_internal_get__continueButton() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____hideButton;
+  return this->____continueButton;
 }
-constexpr ::UnityW<::UnityEngine::UI::Button> const& GlobalNamespace::ExplicitContentWarningViewController::__cordl_internal_get__hideButton() const {
+constexpr ::UnityW<::UnityEngine::UI::Button> const& GlobalNamespace::ExplicitContentWarningViewController::__cordl_internal_get__continueButton() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____hideButton;
+  return this->____continueButton;
 }
-constexpr void GlobalNamespace::ExplicitContentWarningViewController::__cordl_internal_set__hideButton(::UnityW<::UnityEngine::UI::Button> value) {
+constexpr void GlobalNamespace::ExplicitContentWarningViewController::__cordl_internal_set__continueButton(::UnityW<::UnityEngine::UI::Button> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____hideButton)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____continueButton)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityW<::GlobalNamespace::PlayerDataModel>& GlobalNamespace::ExplicitContentWarningViewController::__cordl_internal_get__playerDataModel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -369,18 +143,6 @@ constexpr void GlobalNamespace::ExplicitContentWarningViewController::__cordl_in
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didFinishEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& GlobalNamespace::ExplicitContentWarningViewController::__cordl_internal_get__coroutineInProgress() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____coroutineInProgress;
-}
-constexpr bool const& GlobalNamespace::ExplicitContentWarningViewController::__cordl_internal_get__coroutineInProgress() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____coroutineInProgress;
-}
-constexpr void GlobalNamespace::ExplicitContentWarningViewController::__cordl_internal_set__coroutineInProgress(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____coroutineInProgress = value;
-}
 inline void GlobalNamespace::ExplicitContentWarningViewController::add_didFinishEvent(::System::Action* value) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ExplicitContentWarningViewController*>::get(), "add_didFinishEvent",
@@ -405,11 +167,6 @@ inline void GlobalNamespace::ExplicitContentWarningViewController::DidDeactivate
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ExplicitContentWarningViewController*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, removedFromHierarchy, screenSystemDisabling);
 }
-inline ::System::Collections::IEnumerator* GlobalNamespace::ExplicitContentWarningViewController::MainCoroutine() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ExplicitContentWarningViewController*>::get(),
-                                                                             "MainCoroutine", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method);
-}
 inline ::GlobalNamespace::ExplicitContentWarningViewController* GlobalNamespace::ExplicitContentWarningViewController::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ExplicitContentWarningViewController*>());
 }
@@ -418,14 +175,9 @@ inline void GlobalNamespace::ExplicitContentWarningViewController::_ctor() {
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::ExplicitContentWarningViewController::_DidActivate_b__7_0() {
+inline void GlobalNamespace::ExplicitContentWarningViewController::_DidActivate_b__6_0() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ExplicitContentWarningViewController*>::get(),
-                                                                             "<DidActivate>b__7_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline void GlobalNamespace::ExplicitContentWarningViewController::_DidActivate_b__7_1() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ExplicitContentWarningViewController*>::get(),
-                                                                             "<DidActivate>b__7_1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                             "<DidActivate>b__6_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

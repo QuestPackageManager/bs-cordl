@@ -19,8 +19,8 @@ MARK_VAL_T(::OVR::OpenVR::VREvent_Property_t);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8587))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8685))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8531))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8629))
 // CS Name: ::OVR.OpenVR::VREvent_Property_t
 struct CORDL_TYPE VREvent_Property_t {
 public:

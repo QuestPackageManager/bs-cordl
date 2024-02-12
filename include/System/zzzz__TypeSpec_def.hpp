@@ -184,50 +184,50 @@ public:
 
   constexpr void __cordl_internal_set_display_fullname(::StringW value);
 
-  /// @brief Method get_HasModifiers, addr 0x2606b9c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HasModifiers, addr 0x262baa4, size 0x10, virtual false, abstract: false, final false
   inline bool get_HasModifiers();
 
-  /// @brief Method GetDisplayFullName, addr 0x2606bac, size 0x454, virtual false, abstract: false, final false
+  /// @brief Method GetDisplayFullName, addr 0x262bab4, size 0x454, virtual false, abstract: false, final false
   inline ::StringW GetDisplayFullName(::System::__TypeSpec__DisplayNameFormat flags);
 
-  /// @brief Method GetModifierString, addr 0x2607028, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method GetModifierString, addr 0x262bf30, size 0x1f4, virtual false, abstract: false, final false
   inline ::System::Text::StringBuilder* GetModifierString(::System::Text::StringBuilder* sb);
 
-  /// @brief Method get_DisplayFullName, addr 0x2607000, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_DisplayFullName, addr 0x262bf08, size 0x28, virtual false, abstract: false, final false
   inline ::StringW get_DisplayFullName();
 
-  /// @brief Method Parse, addr 0x260721c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x262c124, size 0xd8, virtual false, abstract: false, final false
   static inline ::System::TypeSpec* Parse(::StringW typeName);
 
-  /// @brief Method UnescapeInternalName, addr 0x2607e78, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method UnescapeInternalName, addr 0x262cd80, size 0xe8, virtual false, abstract: false, final false
   static inline ::StringW UnescapeInternalName(::StringW displayName);
 
-  /// @brief Method Resolve, addr 0x2607f60, size 0x90c, virtual false, abstract: false, final false
+  /// @brief Method Resolve, addr 0x262ce68, size 0x90c, virtual false, abstract: false, final false
   inline ::System::Type* Resolve(::System::Func_2<::System::Reflection::AssemblyName*, ::System::Reflection::Assembly*>* assemblyResolver,
                                  ::System::Func_4<::System::Reflection::Assembly*, ::StringW, bool, ::System::Type*>* typeResolver, bool throwOnError, bool ignoreCase,
                                  ByRef<::System::Threading::StackCrawlMark> stackMark);
 
-  /// @brief Method AddName, addr 0x260886c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method AddName, addr 0x262d774, size 0x118, virtual false, abstract: false, final false
   inline void AddName(::StringW type_name);
 
-  /// @brief Method AddModifier, addr 0x260898c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method AddModifier, addr 0x262d894, size 0xf0, virtual false, abstract: false, final false
   inline void AddModifier(::System::ModifierSpec* md);
 
-  /// @brief Method SkipSpace, addr 0x2608a7c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method SkipSpace, addr 0x262d984, size 0xb0, virtual false, abstract: false, final false
   static inline void SkipSpace(::StringW name, ByRef<int32_t> pos);
 
-  /// @brief Method BoundCheck, addr 0x2608b2c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method BoundCheck, addr 0x262da34, size 0x88, virtual false, abstract: false, final false
   static inline void BoundCheck(int32_t idx, ::StringW s);
 
-  /// @brief Method ParsedTypeIdentifier, addr 0x2608984, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ParsedTypeIdentifier, addr 0x262d88c, size 0x8, virtual false, abstract: false, final false
   static inline ::System::TypeIdentifier* ParsedTypeIdentifier(::StringW displayName);
 
-  /// @brief Method Parse, addr 0x26072f4, size 0xb84, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x262c1fc, size 0xb84, virtual false, abstract: false, final false
   static inline ::System::TypeSpec* Parse(::StringW name, ByRef<int32_t> p, bool is_recurse, bool allow_aqn);
 
   static inline ::System::TypeSpec* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2608bb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x262dabc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeSpec", modifiers: "&&", def_value: None }]

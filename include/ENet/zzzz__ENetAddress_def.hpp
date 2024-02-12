@@ -16,7 +16,7 @@ MARK_VAL_T(::ENet::ENetAddress);
 namespace ENet {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15217))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15330))
 // CS Name: ::ENet::ENetAddress
 #pragma pack(push, 0)
 struct CORDL_TYPE ENetAddress {

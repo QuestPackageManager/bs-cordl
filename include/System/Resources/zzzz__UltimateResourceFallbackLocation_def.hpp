@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Resources::UltimateResourceFallbackLocation);
 namespace System::Resources {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3431))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3427))
 // CS Name: ::System.Resources::UltimateResourceFallbackLocation
 struct CORDL_TYPE UltimateResourceFallbackLocation {
 public:

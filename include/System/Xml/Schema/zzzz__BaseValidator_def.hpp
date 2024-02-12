@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::System::Xml::Schema::BaseValidator);
 namespace System::Xml::Schema {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11593))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11491))
 // CS Name: ::System.Xml.Schema::BaseValidator*
 class CORDL_TYPE BaseValidator : public ::System::Object {
 public:

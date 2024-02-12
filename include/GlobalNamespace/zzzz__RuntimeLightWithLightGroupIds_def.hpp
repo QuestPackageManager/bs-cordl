@@ -36,8 +36,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__RuntimeLightWithLightGroupIds__LightIntensit
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14543))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14553))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14437))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14447))
 // CS Name: ::RuntimeLightWithLightGroupIds::LightIntensitiesWithId*
 class CORDL_TYPE __RuntimeLightWithLightGroupIds__LightIntensitiesWithId : public ::GlobalNamespace::__LightWithIds__LightWithId {
 public:
@@ -53,15 +53,15 @@ public:
 
   constexpr void __cordl_internal_set__intensity(float_t value);
 
-  /// @brief Method get_intensity, addr 0x2113e9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_intensity, addr 0x21a8644, size 0x8, virtual false, abstract: false, final false
   inline float_t get_intensity();
 
-  /// @brief Method set_intensity, addr 0x2113ea4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_intensity, addr 0x21a864c, size 0x8, virtual false, abstract: false, final false
   inline void set_intensity(float_t value);
 
   static inline ::GlobalNamespace::__RuntimeLightWithLightGroupIds__LightIntensitiesWithId* New_ctor(int32_t lightId, float_t intensity);
 
-  /// @brief Method .ctor, addr 0x2113cf8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21a84a0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t lightId, float_t intensity);
 
   // Ctor Parameters [CppParam { name: "", ty: "__RuntimeLightWithLightGroupIds__LightIntensitiesWithId", modifiers: "&&", def_value: None }]
@@ -93,8 +93,8 @@ static_assert(offsetof(::GlobalNamespace::__RuntimeLightWithLightGroupIds__Light
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14544))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14554))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14438))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14448))
 // CS Name: ::RuntimeLightWithLightGroupIds*
 class CORDL_TYPE RuntimeLightWithLightGroupIds : public ::GlobalNamespace::LightWithIds {
 public:
@@ -155,21 +155,21 @@ public:
   /// @brief Method ColorWasSet, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
-  /// @brief Method Awake, addr 0x2113b38, size 0x1c0, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x21a82e0, size 0x1c0, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method ProcessNewColorData, addr 0x2113d20, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method ProcessNewColorData, addr 0x21a84c8, size 0x13c, virtual true, abstract: false, final false
   inline void ProcessNewColorData();
 
-  /// @brief Method GetLightWithIds, addr 0x2113e7c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetLightWithIds, addr 0x21a8624, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__LightWithIds__LightWithId*>* GetLightWithIds();
 
-  /// @brief Method ProcessColor, addr 0x2113e5c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ProcessColor, addr 0x21a8604, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::Color ProcessColor(::UnityEngine::Color color, float_t intensity);
 
   static inline ::GlobalNamespace::RuntimeLightWithLightGroupIds* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2113e84, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21a862c, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RuntimeLightWithLightGroupIds", modifiers: "&&", def_value: None }]

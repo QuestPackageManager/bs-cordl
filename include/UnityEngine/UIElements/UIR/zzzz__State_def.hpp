@@ -26,8 +26,8 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::State);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7339))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7441))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6598))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6700))
 // CS Name: ::UnityEngine.UIElements.UIR::State
 struct CORDL_TYPE State {
 public:

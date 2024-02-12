@@ -64,33 +64,33 @@ public:
 
   static inline ::System::Runtime::Serialization::LongList* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24bc7ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24dd860, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Runtime::Serialization::LongList* New_ctor(int32_t startingSize);
 
-  /// @brief Method .ctor, addr 0x24bca74, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24ddae8, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(int32_t startingSize);
 
-  /// @brief Method Add, addr 0x24bc7f4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x24dd868, size 0x80, virtual false, abstract: false, final false
   inline void Add(int64_t value);
 
-  /// @brief Method get_Count, addr 0x24bcb68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x24ddbdc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method StartEnumeration, addr 0x24baa68, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method StartEnumeration, addr 0x24dbadc, size 0xc, virtual false, abstract: false, final false
   inline void StartEnumeration();
 
-  /// @brief Method MoveNext, addr 0x24baab4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method MoveNext, addr 0x24dbb28, size 0x68, virtual false, abstract: false, final false
   inline bool MoveNext();
 
-  /// @brief Method get_Current, addr 0x24baa74, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_Current, addr 0x24dbae8, size 0x34, virtual false, abstract: false, final false
   inline int64_t get_Current();
 
-  /// @brief Method RemoveElement, addr 0x24bc73c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method RemoveElement, addr 0x24dd7b0, size 0x90, virtual false, abstract: false, final false
   inline bool RemoveElement(int64_t value);
 
-  /// @brief Method EnlargeArray, addr 0x24bcae0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method EnlargeArray, addr 0x24ddb54, size 0x88, virtual false, abstract: false, final false
   inline void EnlargeArray();
 
   // Ctor Parameters [CppParam { name: "", ty: "LongList", modifiers: "&&", def_value: None }]

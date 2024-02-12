@@ -99,47 +99,47 @@ public:
 
   static inline ::Org::BouncyCastle::X509::X509V1CertificateGenerator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1182334, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11b11c4, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Reset, addr 0x11823a0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x11b1230, size 0x60, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method SetSerialNumber, addr 0x1182400, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method SetSerialNumber, addr 0x11b1290, size 0xe0, virtual false, abstract: false, final false
   inline void SetSerialNumber(::Org::BouncyCastle::Math::BigInteger* serialNumber);
 
-  /// @brief Method SetIssuerDN, addr 0x11824e0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SetIssuerDN, addr 0x11b1370, size 0x1c, virtual false, abstract: false, final false
   inline void SetIssuerDN(::Org::BouncyCastle::Asn1::X509::X509Name* issuer);
 
-  /// @brief Method SetNotBefore, addr 0x11824fc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SetNotBefore, addr 0x11b138c, size 0x78, virtual false, abstract: false, final false
   inline void SetNotBefore(::System::DateTime date);
 
-  /// @brief Method SetNotAfter, addr 0x1182574, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SetNotAfter, addr 0x11b1404, size 0x78, virtual false, abstract: false, final false
   inline void SetNotAfter(::System::DateTime date);
 
-  /// @brief Method SetSubjectDN, addr 0x11825ec, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SetSubjectDN, addr 0x11b147c, size 0x1c, virtual false, abstract: false, final false
   inline void SetSubjectDN(::Org::BouncyCastle::Asn1::X509::X509Name* subject);
 
-  /// @brief Method SetPublicKey, addr 0x1182608, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method SetPublicKey, addr 0x11b1498, size 0x114, virtual false, abstract: false, final false
   inline void SetPublicKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
 
-  /// @brief Method SetSignatureAlgorithm, addr 0x118271c, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method SetSignatureAlgorithm, addr 0x11b15ac, size 0x170, virtual false, abstract: false, final false
   inline void SetSignatureAlgorithm(::StringW signatureAlgorithm);
 
-  /// @brief Method Generate, addr 0x118288c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x11b171c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::X509Certificate* Generate(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey);
 
-  /// @brief Method Generate, addr 0x1182894, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x11b1724, size 0x84, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::X509Certificate* Generate(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method Generate, addr 0x1182918, size 0x46c, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x11b17a8, size 0x46c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::X509Certificate* Generate(::Org::BouncyCastle::Crypto::ISignatureFactory* signatureCalculatorFactory);
 
-  /// @brief Method GenerateJcaObject, addr 0x1182d84, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GenerateJcaObject, addr 0x11b1c14, size 0xd8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::X509Certificate* GenerateJcaObject(::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure* tbsCert, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* sigAlg,
                                                                        ::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
 
-  /// @brief Method get_SignatureAlgNames, addr 0x1182e5c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_SignatureAlgNames, addr 0x11b1cec, size 0x4c, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerable* get_SignatureAlgNames();
 
   // Ctor Parameters [CppParam { name: "", ty: "X509V1CertificateGenerator", modifiers: "&&", def_value: None }]

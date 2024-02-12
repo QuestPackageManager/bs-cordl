@@ -7,7 +7,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::Haptics::DualMotorRumble::*)()>(
     &::UnityEngine::InputSystem::Haptics::DualMotorRumble::get_lowFrequencyMotorSpeed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ae6fa0;
+  constexpr static std::size_t addrs = 0x2ae8b0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Haptics::DualMotorRumble>::get(),
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Haptics::DualMotorRumble::*)(float_t)>(
     &::UnityEngine::InputSystem::Haptics::DualMotorRumble::set_lowFrequencyMotorSpeed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ae6fa8;
+  constexpr static std::size_t addrs = 0x2ae8b14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::Haptics::DualMotorRumble::*)()>(
     &::UnityEngine::InputSystem::Haptics::DualMotorRumble::get_highFrequencyMotorSpeed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ae6fb0;
+  constexpr static std::size_t addrs = 0x2ae8b1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Haptics::DualMotorRumble>::get(),
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Haptics::DualMotorRumble::*)(float_t)>(
     &::UnityEngine::InputSystem::Haptics::DualMotorRumble::set_highFrequencyMotorSpeed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ae6fb8;
+  constexpr static std::size_t addrs = 0x2ae8b24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Haptics::DualMotorRumble::*)()>(
     &::UnityEngine::InputSystem::Haptics::DualMotorRumble::get_isRumbling)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x2ae6fc0;
+  constexpr static std::size_t addrs = 0x2ae8b2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Haptics::DualMotorRumble>::get(),
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Haptics::DualMotorRumble::*)(::UnityEngine::InputSystem::InputDevice*)>(
     &::UnityEngine::InputSystem::Haptics::DualMotorRumble::PauseHaptics)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x2ae7078;
+  constexpr static std::size_t addrs = 0x2ae8be4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Haptics::DualMotorRumble::*)(::UnityEngine::InputSystem::InputDevice*)>(
     &::UnityEngine::InputSystem::Haptics::DualMotorRumble::ResumeHaptics)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x2ae71d8;
+  constexpr static std::size_t addrs = 0x2ae8d44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Haptics::DualMotorRumble::*)(::UnityEngine::InputSystem::InputDevice*)>(
     &::UnityEngine::InputSystem::Haptics::DualMotorRumble::ResetHaptics)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x2ae73a8;
+  constexpr static std::size_t addrs = 0x2ae8f14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Haptics::DualMotorRumble::*)(
     ::UnityEngine::InputSystem::InputDevice*, float_t, float_t)>(&::UnityEngine::InputSystem::Haptics::DualMotorRumble::SetMotorSpeeds)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x2ae7264;
+  constexpr static std::size_t addrs = 0x2ae8dd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

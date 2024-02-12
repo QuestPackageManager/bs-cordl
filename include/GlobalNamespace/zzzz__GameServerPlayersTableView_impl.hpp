@@ -1,13 +1,13 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__GameServerPlayersTableView_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapKey_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapLevelsModel_def.hpp"
 #include "GlobalNamespace/zzzz__GameServerPlayerTableCell_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
-#include "GlobalNamespace/zzzz__IAdditionalContentModel_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
 #include "GlobalNamespace/zzzz__ILobbyPlayerData_def.hpp"
 #include "GlobalNamespace/zzzz__ILobbyPlayersDataModel_def.hpp"
-#include "GlobalNamespace/zzzz__PreviewDifficultyBeatmap_def.hpp"
 #include "HMUI/zzzz__TableCell_def.hpp"
 #include "HMUI/zzzz__TableView_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -17,30 +17,30 @@
 //  Writing Method size for method: ::GlobalNamespace::GameServerPlayersTableView.add_selectSuggestedLevelEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServerPlayersTableView::*)(
-    ::System::Action_1<::GlobalNamespace::PreviewDifficultyBeatmap*>*)>(&::GlobalNamespace::GameServerPlayersTableView::add_selectSuggestedLevelEvent)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServerPlayersTableView::*)(::System::Action_1<::GlobalNamespace::BeatmapKey>*)>(
+    &::GlobalNamespace::GameServerPlayersTableView::add_selectSuggestedLevelEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22d12e8;
+  constexpr static std::size_t addrs = 0x231159c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerPlayersTableView*>::get(), "add_selectSuggestedLevelEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::PreviewDifficultyBeatmap*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::BeatmapKey>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::GameServerPlayersTableView.remove_selectSuggestedLevelEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServerPlayersTableView::*)(
-    ::System::Action_1<::GlobalNamespace::PreviewDifficultyBeatmap*>*)>(&::GlobalNamespace::GameServerPlayersTableView::remove_selectSuggestedLevelEvent)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServerPlayersTableView::*)(::System::Action_1<::GlobalNamespace::BeatmapKey>*)>(
+    &::GlobalNamespace::GameServerPlayersTableView::remove_selectSuggestedLevelEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22d1d1c;
+  constexpr static std::size_t addrs = 0x231164c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerPlayersTableView*>::get(), "remove_selectSuggestedLevelEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::PreviewDifficultyBeatmap*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::BeatmapKey>*>::get() })));
     return ___internal_method;
   }
 };
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServerPlayersTableView::*)(::System::Action_1<::GlobalNamespace::GameplayModifiers*>*)>(
     &::GlobalNamespace::GameServerPlayersTableView::add_selectSuggestedGameplayModifiersEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22d1398;
+  constexpr static std::size_t addrs = 0x23116fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServerPlayersTableView::*)(::System::Action_1<::GlobalNamespace::GameplayModifiers*>*)>(
     &::GlobalNamespace::GameServerPlayersTableView::remove_selectSuggestedGameplayModifiersEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22d1dcc;
+  constexpr static std::size_t addrs = 0x23117ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServerPlayersTableView::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::GameServerPlayersTableView::add_kickPlayerEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22d1448;
+  constexpr static std::size_t addrs = 0x231185c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServerPlayersTableView::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::GameServerPlayersTableView::remove_kickPlayerEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22d1e7c;
+  constexpr static std::size_t addrs = 0x231190c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::GameServerPlayersTableView::*)()>(
     &::GlobalNamespace::GameServerPlayersTableView::CellSize)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x22e10a8;
+  constexpr static std::size_t addrs = 0x23119bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerPlayersTableView*>::get(),
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::GameServerPlayersTableView::*)()>(
     &::GlobalNamespace::GameServerPlayersTableView::NumberOfCells)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x22e10b4;
+  constexpr static std::size_t addrs = 0x23119c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerPlayersTableView*>::get(),
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::GameServerPlayersTableView::*)()>(
     &::GlobalNamespace::GameServerPlayersTableView::get_currentCellId)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x22e10fc;
+  constexpr static std::size_t addrs = 0x2311a10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerPlayersTableView*>::get(),
@@ -154,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::GameServerPlayerTableCell> (::GlobalNamespace::GameServerPlayersTableView::*)()>(
     &::GlobalNamespace::GameServerPlayersTableView::GetCurrentPrefab)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x22e1180;
+  constexpr static std::size_t addrs = 0x2311a94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerPlayersTableView*>::get(),
@@ -167,8 +167,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::HMUI::TableCell> (::GlobalNamespace::GameServerPlayersTableView::*)(::HMUI::TableView*, int32_t)>(
     &::GlobalNamespace::GameServerPlayersTableView::CellForIdx)> {
-  constexpr static std::size_t size = 0x568;
-  constexpr static std::size_t addrs = 0x22e121c;
+  constexpr static std::size_t size = 0x4a4;
+  constexpr static std::size_t addrs = 0x2311b30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerPlayersTableView*>::get(),
@@ -184,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::GameServerPlayersTableView::*)(
     int32_t, ByRef<::GlobalNamespace::IConnectedPlayer*>, ByRef<::GlobalNamespace::ILobbyPlayerData*>)>(&::GlobalNamespace::GameServerPlayersTableView::TryGetLobbyPlayerData)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x22e1784;
+  constexpr static std::size_t addrs = 0x2311fd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -200,8 +200,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServerPlayersTableView::*)(int32_t)>(
     &::GlobalNamespace::GameServerPlayersTableView::HandleCellUseBeatmap)> {
-  constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x22e18e8;
+  constexpr static std::size_t size = 0x33c;
+  constexpr static std::size_t addrs = 0x2312138;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -216,7 +216,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServerPlayersTableView::*)(int32_t)>(
     &::GlobalNamespace::GameServerPlayersTableView::HandleCellUseModifiers)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x22e1b50;
+  constexpr static std::size_t addrs = 0x2312474;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -231,7 +231,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServerPlayersTableView::*)(int32_t)>(
     &::GlobalNamespace::GameServerPlayersTableView::HandleCellKickPlayer)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x22e1da4;
+  constexpr static std::size_t addrs = 0x23126c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -247,7 +247,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer*>*, ::GlobalNamespace::ILobbyPlayersDataModel*, bool, bool, bool, bool, bool)>(
     &::GlobalNamespace::GameServerPlayersTableView::SetData)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x22d1f38;
+  constexpr static std::size_t addrs = 0x23127c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -265,7 +265,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServerPlayersTableView::*)()>(&::GlobalNamespace::GameServerPlayersTableView::Init)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x22e1ea0;
+  constexpr static std::size_t addrs = 0x2312880;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerPlayersTableView*>::get(), "Init",
@@ -278,7 +278,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServerPlayersTableView::*)()>(&::GlobalNamespace::GameServerPlayersTableView::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x22e1edc;
+  constexpr static std::size_t addrs = 0x23128bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerPlayersTableView*>::get(), ".ctor",
@@ -380,28 +380,28 @@ constexpr void GlobalNamespace::GameServerPlayersTableView::__cordl_internal_set
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____container)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::IAdditionalContentModel*& GlobalNamespace::GameServerPlayersTableView::__cordl_internal_get__additionalContentModel() {
+constexpr ::GlobalNamespace::BeatmapLevelsModel*& GlobalNamespace::GameServerPlayersTableView::__cordl_internal_get__beatmapLevelsModel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____additionalContentModel;
+  return this->____beatmapLevelsModel;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAdditionalContentModel*> const& GlobalNamespace::GameServerPlayersTableView::__cordl_internal_get__additionalContentModel() const {
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelsModel*> const& GlobalNamespace::GameServerPlayersTableView::__cordl_internal_get__beatmapLevelsModel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____additionalContentModel;
+  return this->____beatmapLevelsModel;
 }
-constexpr void GlobalNamespace::GameServerPlayersTableView::__cordl_internal_set__additionalContentModel(::GlobalNamespace::IAdditionalContentModel* value) {
+constexpr void GlobalNamespace::GameServerPlayersTableView::__cordl_internal_set__beatmapLevelsModel(::GlobalNamespace::BeatmapLevelsModel* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____additionalContentModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapLevelsModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_1<::GlobalNamespace::PreviewDifficultyBeatmap*>*& GlobalNamespace::GameServerPlayersTableView::__cordl_internal_get_selectSuggestedLevelEvent() {
+constexpr ::System::Action_1<::GlobalNamespace::BeatmapKey>*& GlobalNamespace::GameServerPlayersTableView::__cordl_internal_get_selectSuggestedLevelEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___selectSuggestedLevelEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::PreviewDifficultyBeatmap*>*> const&
+constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::BeatmapKey>*> const&
 GlobalNamespace::GameServerPlayersTableView::__cordl_internal_get_selectSuggestedLevelEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___selectSuggestedLevelEvent;
 }
-constexpr void GlobalNamespace::GameServerPlayersTableView::__cordl_internal_set_selectSuggestedLevelEvent(::System::Action_1<::GlobalNamespace::PreviewDifficultyBeatmap*>* value) {
+constexpr void GlobalNamespace::GameServerPlayersTableView::__cordl_internal_set_selectSuggestedLevelEvent(::System::Action_1<::GlobalNamespace::BeatmapKey>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___selectSuggestedLevelEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -528,16 +528,16 @@ constexpr void GlobalNamespace::GameServerPlayersTableView::__cordl_internal_set
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lobbyPlayersDataModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::GameServerPlayersTableView::add_selectSuggestedLevelEvent(::System::Action_1<::GlobalNamespace::PreviewDifficultyBeatmap*>* value) {
+inline void GlobalNamespace::GameServerPlayersTableView::add_selectSuggestedLevelEvent(::System::Action_1<::GlobalNamespace::BeatmapKey>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerPlayersTableView*>::get(), "add_selectSuggestedLevelEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::PreviewDifficultyBeatmap*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::BeatmapKey>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::GameServerPlayersTableView::remove_selectSuggestedLevelEvent(::System::Action_1<::GlobalNamespace::PreviewDifficultyBeatmap*>* value) {
+inline void GlobalNamespace::GameServerPlayersTableView::remove_selectSuggestedLevelEvent(::System::Action_1<::GlobalNamespace::BeatmapKey>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerPlayersTableView*>::get(), "remove_selectSuggestedLevelEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::PreviewDifficultyBeatmap*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::BeatmapKey>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::GameServerPlayersTableView::add_selectSuggestedGameplayModifiersEvent(::System::Action_1<::GlobalNamespace::GameplayModifiers*>* value) {

@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::AccessControl::__NativeObjectSecurity__ExceptionFromErrorCode::*)(
     ::System::Object*, void*)>(&::System::Security::AccessControl::__NativeObjectSecurity__ExceptionFromErrorCode::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x24842ac;
+  constexpr static std::size_t addrs = 0x24a6320;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -31,7 +31,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Security::AccessControl::__NativeObjectSecurity__ExceptionFromErrorCode::*)(int32_t, ::StringW, ::System::Runtime::InteropServices::SafeHandle*, ::System::Object*)>(
     &::System::Security::AccessControl::__NativeObjectSecurity__ExceptionFromErrorCode::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x24843b0;
+  constexpr static std::size_t addrs = 0x24a6424;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -68,7 +68,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     bool, ::System::Security::AccessControl::ResourceType, ::System::Security::AccessControl::__NativeObjectSecurity__ExceptionFromErrorCode*, ::System::Object*)>(
     &::System::Security::AccessControl::NativeObjectSecurity::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2483ef8;
+  constexpr static std::size_t addrs = 0x24a5f6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::AccessControl::NativeObjectSecurity::*)(
     bool, ::System::Security::AccessControl::ResourceType, ::StringW, ::System::Security::AccessControl::AccessControlSections)>(&::System::Security::AccessControl::NativeObjectSecurity::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x24835bc;
+  constexpr static std::size_t addrs = 0x24a5630;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -105,7 +105,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     bool, ::System::Security::AccessControl::ResourceType, ::StringW, ::System::Security::AccessControl::AccessControlSections,
     ::System::Security::AccessControl::__NativeObjectSecurity__ExceptionFromErrorCode*, ::System::Object*)>(&::System::Security::AccessControl::NativeObjectSecurity::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x2483f24;
+  constexpr static std::size_t addrs = 0x24a5f98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::AccessControl::NativeObjectSecurity::*)()>(
     &::System::Security::AccessControl::NativeObjectSecurity::ClearAccessControlSectionsModified)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x248403c;
+  constexpr static std::size_t addrs = 0x24a60b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(int32_t, ::StringW, ::System::Runtime::InteropServices::SafeHandle*, ::System::Object*)>(
     &::System::Security::AccessControl::NativeObjectSecurity::DefaultExceptionFromErrorCode)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x2484124;
+  constexpr static std::size_t addrs = 0x24a6198;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::AccessControl::NativeObjectSecurity::*)(
     int32_t, ::StringW, ::System::Runtime::InteropServices::SafeHandle*, ::System::Object*)>(&::System::Security::AccessControl::NativeObjectSecurity::RaiseExceptionOnFailure)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x2483f98;
+  constexpr static std::size_t addrs = 0x24a600c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -175,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Security::AccessControl::NativeObjectSecurity::*)(
     ::StringW, ::System::Security::AccessControl::AccessControlSections)>(&::System::Security::AccessControl::NativeObjectSecurity::InternalGet)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2484370;
+  constexpr static std::size_t addrs = 0x24a63e4;
 
   inline static ::MethodInfo const* methodInfo() {
 

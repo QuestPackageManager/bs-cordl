@@ -53,7 +53,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerScoreDiffText);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5130))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4468))
 // CS Name: ::MultiplayerScoreDiffText::HorizontalPosition
 struct CORDL_TYPE __MultiplayerScoreDiffText__HorizontalPosition {
 public:
@@ -103,7 +103,7 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerScoreDiffText__Horizontal
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5131))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4469))
 // CS Name: ::MultiplayerScoreDiffText::State
 struct CORDL_TYPE __MultiplayerScoreDiffText__State {
 public:
@@ -160,8 +160,8 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerScoreDiffText__State, val
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5131)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5132))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4469)), TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8995))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4470))
 // CS Name: ::MultiplayerScoreDiffText*
 class CORDL_TYPE MultiplayerScoreDiffText : public ::UnityEngine::MonoBehaviour {
 public:
@@ -278,39 +278,39 @@ public:
 
   constexpr void __cordl_internal_set__onPlatformTextAlphaTween(::Tweening::FloatTween* value);
 
-  /// @brief Method Start, addr 0x23d6fe8, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2390ba0, size 0x158, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy, addr 0x23d7140, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2390cf8, size 0x110, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetHorizontalPositionRelativeToLocalPlayer, addr 0x23d7250, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method SetHorizontalPositionRelativeToLocalPlayer, addr 0x2390e08, size 0xd8, virtual false, abstract: false, final false
   inline void SetHorizontalPositionRelativeToLocalPlayer(::GlobalNamespace::__MultiplayerScoreDiffText__HorizontalPosition relativePosition);
 
-  /// @brief Method AnimateScoreDiff, addr 0x23d7328, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method AnimateScoreDiff, addr 0x2390ee0, size 0x1b0, virtual false, abstract: false, final false
   inline void AnimateScoreDiff(int32_t scoreDiff);
 
-  /// @brief Method AnimateHide, addr 0x23d74d8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method AnimateHide, addr 0x2391090, size 0xf0, virtual false, abstract: false, final false
   inline void AnimateHide();
 
-  /// @brief Method AnimateIsLeadPlayer, addr 0x23d75c8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method AnimateIsLeadPlayer, addr 0x2391180, size 0x54, virtual false, abstract: false, final false
   inline void AnimateIsLeadPlayer(bool isLeader);
 
-  /// @brief Method HandleNewLeaderWasSelected, addr 0x23d761c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method HandleNewLeaderWasSelected, addr 0x23911d4, size 0xc0, virtual false, abstract: false, final false
   inline void HandleNewLeaderWasSelected(::StringW userId);
 
   static inline ::GlobalNamespace::MultiplayerScoreDiffText* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23d76dc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2391294, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Start>b__14_0, addr 0x23d76fc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__14_0, addr 0x23912b4, size 0x5c, virtual false, abstract: false, final false
   inline void _Start_b__14_0(float_t val);
 
-  /// @brief Method <AnimateScoreDiff>b__17_0, addr 0x23d7758, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <AnimateScoreDiff>b__17_0, addr 0x2391310, size 0xc, virtual false, abstract: false, final false
   inline void _AnimateScoreDiff_b__17_0();
 
-  /// @brief Method <AnimateHide>b__18_0, addr 0x23d7764, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <AnimateHide>b__18_0, addr 0x239131c, size 0x30, virtual false, abstract: false, final false
   inline void _AnimateHide_b__18_0();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerScoreDiffText", modifiers: "&&", def_value: None }]

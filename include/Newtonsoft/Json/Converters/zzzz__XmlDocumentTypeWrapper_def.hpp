@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Converters::XmlDocumentTypeWrapper);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12052))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12051))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11950))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11949))
 // CS Name: ::Newtonsoft.Json.Converters::XmlDocumentTypeWrapper*
 class CORDL_TYPE XmlDocumentTypeWrapper : public ::Newtonsoft::Json::Converters::XmlNodeWrapper {
 public:
@@ -63,22 +63,22 @@ public:
 
   static inline ::Newtonsoft::Json::Converters::XmlDocumentTypeWrapper* New_ctor(::System::Xml::XmlDocumentType* documentType);
 
-  /// @brief Method .ctor, addr 0x26b9c5c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26dbe18, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlDocumentType* documentType);
 
-  /// @brief Method get_Name, addr 0x26ba238, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method get_Name, addr 0x26dc3f4, size 0x20, virtual true, abstract: false, final true
   inline ::StringW get_Name();
 
-  /// @brief Method get_System, addr 0x26ba258, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_System, addr 0x26dc414, size 0x1c, virtual true, abstract: false, final true
   inline ::StringW get_System();
 
-  /// @brief Method get_Public, addr 0x26ba274, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_Public, addr 0x26dc430, size 0x1c, virtual true, abstract: false, final true
   inline ::StringW get_Public();
 
-  /// @brief Method get_InternalSubset, addr 0x26ba290, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_InternalSubset, addr 0x26dc44c, size 0x1c, virtual true, abstract: false, final true
   inline ::StringW get_InternalSubset();
 
-  /// @brief Method get_LocalName, addr 0x26ba2ac, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x26dc468, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_LocalName();
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlDocumentTypeWrapper", modifiers: "&&", def_value: None }]

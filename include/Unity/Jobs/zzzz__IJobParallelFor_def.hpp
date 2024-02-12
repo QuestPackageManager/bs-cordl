@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::Unity::Jobs::IJobParallelFor);
 namespace Unity::Jobs {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9969))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8698))
 // CS Name: ::Unity.Jobs::IJobParallelFor*
 class CORDL_TYPE IJobParallelFor {
 public:

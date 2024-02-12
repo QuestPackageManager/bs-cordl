@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::ITuple);
 namespace System::Runtime::CompilerServices {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3375))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3371))
 // CS Name: ::System.Runtime.CompilerServices::ITuple*
 class CORDL_TYPE ITuple {
 public:

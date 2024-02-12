@@ -29,22 +29,22 @@ public:
   // Declarations
   static inline ::System::ArgumentNullException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2520c94, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2542578, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::ArgumentNullException* New_ctor(::StringW paramName);
 
-  /// @brief Method .ctor, addr 0x2519434, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x253ad18, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW paramName);
 
   static inline ::System::ArgumentNullException* New_ctor(::StringW paramName, ::StringW message);
 
-  /// @brief Method .ctor, addr 0x2520cf0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25425d4, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::StringW paramName, ::StringW message);
 
   static inline ::System::ArgumentNullException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x2520d28, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x254260c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "ArgumentNullException", modifiers: "&&", def_value: None }]

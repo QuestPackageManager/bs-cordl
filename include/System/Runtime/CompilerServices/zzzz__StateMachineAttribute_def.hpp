@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::StateMachineAttribute);
 namespace System::Runtime::CompilerServices {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3384))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3380))
 // CS Name: ::System.Runtime.CompilerServices::StateMachineAttribute*
 class CORDL_TYPE StateMachineAttribute : public ::System::Attribute {
 public:
@@ -36,10 +36,10 @@ public:
 
   static inline ::System::Runtime::CompilerServices::StateMachineAttribute* New_ctor(::System::Type* stateMachineType);
 
-  /// @brief Method .ctor, addr 0x24da76c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24fac9c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* stateMachineType);
 
-  /// @brief Method get_StateMachineType, addr 0x24db500, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StateMachineType, addr 0x24fb86c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_StateMachineType();
 
   // Ctor Parameters [CppParam { name: "", ty: "StateMachineAttribute", modifiers: "&&", def_value: None }]

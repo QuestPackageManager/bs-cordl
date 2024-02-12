@@ -37,8 +37,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__InteractionTarget__Multiplier);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12600))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12607))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12498))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12505))
 // CS Name: ::InteractionTarget::Multiplier*
 class CORDL_TYPE __InteractionTarget__Multiplier : public ::System::Object {
 public:
@@ -63,7 +63,7 @@ public:
 
   static inline ::RootMotion::FinalIK::__InteractionTarget__Multiplier* New_ctor();
 
-  /// @brief Method .ctor, addr 0x128b7b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1323860, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__InteractionTarget__Multiplier", modifiers: "&&", def_value: None }]
@@ -100,8 +100,8 @@ static_assert(offsetof(::RootMotion::FinalIK::__InteractionTarget__Multiplier, _
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12571))] Self: TypeDefinitionIndex(TypeDefinitionIndex(12608)) CS Name: ::RootMotion.FinalIK::InteractionTarget*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(8996)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12469))] Self: TypeDefinitionIndex(TypeDefinitionIndex(12506)) CS Name: ::RootMotion.FinalIK::InteractionTarget*
 class CORDL_TYPE InteractionTarget : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -199,42 +199,42 @@ public:
 
   constexpr void __cordl_internal_set_lastPivot(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method OpenUserManual, addr 0x128b520, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OpenUserManual, addr 0x13235d0, size 0x44, virtual false, abstract: false, final false
   inline void OpenUserManual();
 
-  /// @brief Method OpenScriptReference, addr 0x128b564, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OpenScriptReference, addr 0x1323614, size 0x44, virtual false, abstract: false, final false
   inline void OpenScriptReference();
 
-  /// @brief Method OpenTutorial1, addr 0x128b5a8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OpenTutorial1, addr 0x1323658, size 0x44, virtual false, abstract: false, final false
   inline void OpenTutorial1();
 
-  /// @brief Method OpenTutorial2, addr 0x128b5ec, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OpenTutorial2, addr 0x132369c, size 0x44, virtual false, abstract: false, final false
   inline void OpenTutorial2();
 
-  /// @brief Method OpenTutorial3, addr 0x128b630, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OpenTutorial3, addr 0x13236e0, size 0x44, virtual false, abstract: false, final false
   inline void OpenTutorial3();
 
-  /// @brief Method OpenTutorial4, addr 0x128b674, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OpenTutorial4, addr 0x1323724, size 0x44, virtual false, abstract: false, final false
   inline void OpenTutorial4();
 
-  /// @brief Method SupportGroup, addr 0x128b6b8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SupportGroup, addr 0x1323768, size 0x44, virtual false, abstract: false, final false
   inline void SupportGroup();
 
-  /// @brief Method ASThread, addr 0x128b6fc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ASThread, addr 0x13237ac, size 0x44, virtual false, abstract: false, final false
   inline void ASThread();
 
-  /// @brief Method GetValue, addr 0x1286dbc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetValue, addr 0x131ee6c, size 0x64, virtual false, abstract: false, final false
   inline float_t GetValue(::GlobalNamespace::__InteractionObject__WeightCurve__Type curveType);
 
-  /// @brief Method ResetRotation, addr 0x1285fa0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ResetRotation, addr 0x131e050, size 0x8c, virtual false, abstract: false, final false
   inline void ResetRotation();
 
-  /// @brief Method RotateTo, addr 0x12847b4, size 0x4a4, virtual false, abstract: false, final false
+  /// @brief Method RotateTo, addr 0x131c864, size 0x4a4, virtual false, abstract: false, final false
   inline void RotateTo(::UnityEngine::Vector3 position);
 
   static inline ::RootMotion::FinalIK::InteractionTarget* New_ctor();
 
-  /// @brief Method .ctor, addr 0x128b740, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13237f0, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "InteractionTarget", modifiers: "&&", def_value: None }]

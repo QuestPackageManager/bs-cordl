@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Android::AndroidGyroscope);
 // SizeInfo { instance_size: 352, native_size: -1, calculated_instance_size: 352, calculated_native_size: 352, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Android {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6276))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6434))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5535))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5693))
 // CS Name: ::UnityEngine.InputSystem.Android::AndroidGyroscope*
 class CORDL_TYPE AndroidGyroscope : public ::UnityEngine::InputSystem::Gyroscope {
 public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Android::AndroidGyroscope* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ae59d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ae7544, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AndroidGyroscope", modifiers: "&&", def_value: None }]

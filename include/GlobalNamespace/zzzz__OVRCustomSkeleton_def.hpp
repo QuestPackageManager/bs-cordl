@@ -40,7 +40,7 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRCustomSkeleton);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8090))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8050))
 // CS Name: ::OVRCustomSkeleton::RetargetingType
 struct CORDL_TYPE __OVRCustomSkeleton__RetargetingType {
 public:
@@ -85,8 +85,8 @@ static_assert(offsetof(::GlobalNamespace::__OVRCustomSkeleton__RetargetingType, 
 // SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 196, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8090)), TypeDefinitionIndex(TypeDefinitionIndex(8170))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8091))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8050)), TypeDefinitionIndex(TypeDefinitionIndex(8120))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8051))
 // CS Name: ::OVRCustomSkeleton*
 class CORDL_TYPE OVRCustomSkeleton : public ::GlobalNamespace::OVRSkeleton {
 public:
@@ -120,27 +120,27 @@ public:
 
   constexpr void __cordl_internal_set_retargetingType(::GlobalNamespace::__OVRCustomSkeleton__RetargetingType value);
 
-  /// @brief Method get_CustomBones, addr 0x27aa0a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CustomBones, addr 0x27bad5c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* get_CustomBones();
 
-  /// @brief Method GetBoneTransform, addr 0x27aa0b0, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method GetBoneTransform, addr 0x27bad64, size 0x58, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> GetBoneTransform(::GlobalNamespace::__OVRSkeleton__BoneId boneId);
 
-  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize, addr 0x27aa108, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize, addr 0x27badbc, size 0x4, virtual true, abstract: false, final true
   inline void UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize();
 
-  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize, addr 0x27aa10c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize, addr 0x27badc0, size 0x4, virtual true, abstract: false, final true
   inline void UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize();
 
-  /// @brief Method AllocateBones, addr 0x27aa110, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method AllocateBones, addr 0x27badc4, size 0xc8, virtual false, abstract: false, final false
   inline void AllocateBones();
 
-  /// @brief Method SetSkeletonType, addr 0x27aa1d8, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method SetSkeletonType, addr 0x27bae8c, size 0x88, virtual false, abstract: false, final false
   inline void SetSkeletonType(::GlobalNamespace::__OVRSkeleton__SkeletonType skeletonType);
 
   static inline ::GlobalNamespace::OVRCustomSkeleton* New_ctor();
 
-  /// @brief Method .ctor, addr 0x27aa260, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27baf14, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRCustomSkeleton", modifiers: "&&", def_value: None }]

@@ -64,19 +64,19 @@ public:
 
   static inline ::System::AttributeUsageAttribute* New_ctor(::System::AttributeTargets validOn);
 
-  /// @brief Method .ctor, addr 0x252147c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2542d60, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::System::AttributeTargets validOn);
 
-  /// @brief Method get_AllowMultiple, addr 0x25214b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AllowMultiple, addr 0x2542d98, size 0x8, virtual false, abstract: false, final false
   inline bool get_AllowMultiple();
 
-  /// @brief Method set_AllowMultiple, addr 0x25214bc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_AllowMultiple, addr 0x2542da0, size 0xc, virtual false, abstract: false, final false
   inline void set_AllowMultiple(bool value);
 
-  /// @brief Method get_Inherited, addr 0x25214c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Inherited, addr 0x2542dac, size 0x8, virtual false, abstract: false, final false
   inline bool get_Inherited();
 
-  /// @brief Method set_Inherited, addr 0x25214d0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Inherited, addr 0x2542db4, size 0xc, virtual false, abstract: false, final false
   inline void set_Inherited(bool value);
 
   // Ctor Parameters [CppParam { name: "", ty: "AttributeUsageAttribute", modifiers: "&&", def_value: None }]

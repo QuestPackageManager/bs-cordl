@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Runtime::CompilerServices::LoadHint);
 namespace System::Runtime::CompilerServices {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3411))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3407))
 // CS Name: ::System.Runtime.CompilerServices::LoadHint
 struct CORDL_TYPE LoadHint {
 public:

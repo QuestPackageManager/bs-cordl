@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5167))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4509))
 // CS Name: ::MultiplayerLocalPlayerDisconnectHelper*
 class CORDL_TYPE MultiplayerLocalPlayerDisconnectHelper : public ::System::Object {
 public:
@@ -65,15 +65,15 @@ public:
 
   constexpr void __cordl_internal_set__lobbyPlayerPermissionsModel(::GlobalNamespace::LobbyPlayerPermissionsModel* value);
 
-  /// @brief Method Disconnect, addr 0x23dbef4, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method Disconnect, addr 0x239aba4, size 0x210, virtual false, abstract: false, final false
   inline void Disconnect(::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState playerLevelEndState, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
-  /// @brief Method ResolveDisconnectButtonString, addr 0x23ddf38, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ResolveDisconnectButtonString, addr 0x239c928, size 0x70, virtual false, abstract: false, final false
   inline ::StringW ResolveDisconnectButtonString();
 
   static inline ::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23ddfa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x239c998, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalPlayerDisconnectHelper", modifiers: "&&", def_value: None }]

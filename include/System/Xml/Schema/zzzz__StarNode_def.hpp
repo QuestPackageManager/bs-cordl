@@ -18,24 +18,24 @@ MARK_REF_PTR_T(::System::Xml::Schema::StarNode);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11602))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11608))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11500))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11506))
 // CS Name: ::System.Xml.Schema::StarNode*
 class CORDL_TYPE StarNode : public ::System::Xml::Schema::InteriorNode {
 public:
   // Declarations
   __declspec(property(get = get_IsNullable)) bool IsNullable;
 
-  /// @brief Method ConstructPos, addr 0x28aec54, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method ConstructPos, addr 0x28b22bc, size 0x9c, virtual true, abstract: false, final false
   inline void ConstructPos(::System::Xml::Schema::BitSet* firstpos, ::System::Xml::Schema::BitSet* lastpos,
                            ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*> followpos);
 
-  /// @brief Method get_IsNullable, addr 0x28aecf0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsNullable, addr 0x28b2358, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsNullable();
 
   static inline ::System::Xml::Schema::StarNode* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28aecf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28b2360, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "StarNode", modifiers: "&&", def_value: None }]

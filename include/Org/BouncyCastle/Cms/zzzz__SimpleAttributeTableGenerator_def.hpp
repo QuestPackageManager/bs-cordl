@@ -46,10 +46,10 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::SimpleAttributeTableGenerator* New_ctor(::Org::BouncyCastle::Asn1::Cms::AttributeTable* attributes);
 
-  /// @brief Method .ctor, addr 0x120dd54, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x123abe4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::AttributeTable* attributes);
 
-  /// @brief Method GetAttributes, addr 0x120dd7c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetAttributes, addr 0x123ac0c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* GetAttributes(::System::Collections::IDictionary* parameters);
 
   // Ctor Parameters [CppParam { name: "", ty: "SimpleAttributeTableGenerator", modifiers: "&&", def_value: None }]

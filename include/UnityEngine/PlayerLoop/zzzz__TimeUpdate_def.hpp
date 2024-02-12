@@ -22,7 +22,7 @@ MARK_VAL_T(::UnityEngine::PlayerLoop::__TimeUpdate__WaitForLastPresentationAndUp
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10475))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9244))
 // CS Name: ::TimeUpdate::WaitForLastPresentationAndUpdateTime
 #pragma pack(push, 0)
 struct CORDL_TYPE __TimeUpdate__WaitForLastPresentationAndUpdateTime {
@@ -50,7 +50,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__TimeU
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10476))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9245))
 // CS Name: ::UnityEngine.PlayerLoop::TimeUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE TimeUpdate {

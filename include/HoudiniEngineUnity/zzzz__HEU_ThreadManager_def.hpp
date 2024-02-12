@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_ThreadManager);
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9817))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9609))
 // CS Name: ::HoudiniEngineUnity::HEU_ThreadManager*
 class CORDL_TYPE HEU_ThreadManager : public ::System::Object {
 public:
@@ -61,33 +61,33 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_ThreadManager* getStaticF__instance();
 
-  /// @brief Method get_Instance, addr 0x21b1018, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_Instance, addr 0x22478fc, size 0x48, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::HEU_ThreadManager* get_Instance();
 
-  /// @brief Method CreateInstance, addr 0x21b1060, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x2247944, size 0x4, virtual false, abstract: false, final false
   static inline void CreateInstance();
 
-  /// @brief Method Finalize, addr 0x21b1064, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x2247948, size 0x8, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method Register, addr 0x21b1070, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Register, addr 0x2247954, size 0x4, virtual false, abstract: false, final false
   inline void Register();
 
-  /// @brief Method Unregister, addr 0x21b106c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Unregister, addr 0x2247950, size 0x4, virtual false, abstract: false, final false
   inline void Unregister();
 
-  /// @brief Method Update, addr 0x21b1074, size 0x3d4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2247958, size 0x3d4, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method AddTask, addr 0x21b1448, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method AddTask, addr 0x2247d2c, size 0xec, virtual false, abstract: false, final false
   inline void AddTask(::HoudiniEngineUnity::HEU_ThreadedTask* task);
 
-  /// @brief Method RemoveTask, addr 0x21b1534, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method RemoveTask, addr 0x2247e18, size 0xec, virtual false, abstract: false, final false
   inline void RemoveTask(::HoudiniEngineUnity::HEU_ThreadedTask* task);
 
   static inline ::HoudiniEngineUnity::HEU_ThreadManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21b1620, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2247f04, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_ThreadManager", modifiers: "&&", def_value: None }]

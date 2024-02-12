@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HandsMovementMissionObjectiveChecker::*)()>(
     &::GlobalNamespace::HandsMovementMissionObjectiveChecker::OnDestroy)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x23cbeb8;
+  constexpr static std::size_t addrs = 0x23896c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HandsMovementMissionObjectiveChecker*>::get(),
@@ -21,8 +21,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HandsMovementMissionObjectiveChecker::*)(float_t)>(
     &::GlobalNamespace::HandsMovementMissionObjectiveChecker::HandleTotalDistanceDidChange)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x23cbf8c;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x2389794;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HandsMovementMissionObjectiveChecker::*)()>(
     &::GlobalNamespace::HandsMovementMissionObjectiveChecker::Init)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x23cbfec;
+  constexpr static std::size_t addrs = 0x23897f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HandsMovementMissionObjectiveChecker::*)()>(
     &::GlobalNamespace::HandsMovementMissionObjectiveChecker::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23cc0f4;
+  constexpr static std::size_t addrs = 0x2389900;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HandsMovementMissionObjectiveChecker*>::get(),

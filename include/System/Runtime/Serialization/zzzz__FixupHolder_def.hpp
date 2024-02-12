@@ -53,7 +53,7 @@ public:
 
   static inline ::System::Runtime::Serialization::FixupHolder* New_ctor(int64_t id, ::System::Object* fixupInfo, int32_t fixupType);
 
-  /// @brief Method .ctor, addr 0x24bc15c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24dd1d0, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(int64_t id, ::System::Object* fixupInfo, int32_t fixupType);
 
   // Ctor Parameters [CppParam { name: "", ty: "FixupHolder", modifiers: "&&", def_value: None }]

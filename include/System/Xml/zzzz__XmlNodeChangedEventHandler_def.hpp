@@ -22,17 +22,17 @@ MARK_REF_PTR_T(::System::Xml::XmlNodeChangedEventHandler);
 namespace System::Xml {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11522))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11420))
 // CS Name: ::System.Xml::XmlNodeChangedEventHandler*
 class CORDL_TYPE XmlNodeChangedEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::System::Xml::XmlNodeChangedEventHandler* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2891824, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2894e8c, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x2891954, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2894fbc, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* sender, ::System::Xml::XmlNodeChangedEventArgs* e);
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlNodeChangedEventHandler", modifiers: "&&", def_value: None }]

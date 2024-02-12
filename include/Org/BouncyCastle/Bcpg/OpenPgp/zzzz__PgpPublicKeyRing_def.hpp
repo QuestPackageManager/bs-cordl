@@ -51,46 +51,46 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRing* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> encoding);
 
-  /// @brief Method .ctor, addr 0x10b9ee8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10e7d78, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> encoding);
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRing* New_ctor(::System::Collections::IList* pubKeys);
 
-  /// @brief Method .ctor, addr 0x10ba218, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10e80a8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IList* pubKeys);
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRing* New_ctor(::System::IO::Stream* inputStream);
 
-  /// @brief Method .ctor, addr 0x10b9f60, size 0x2b8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10e7df0, size 0x2b8, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* inputStream);
 
-  /// @brief Method GetPublicKey, addr 0x10ba3cc, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method GetPublicKey, addr 0x10e825c, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey* GetPublicKey();
 
-  /// @brief Method GetPublicKey, addr 0x10ba4bc, size 0x364, virtual true, abstract: false, final false
+  /// @brief Method GetPublicKey, addr 0x10e834c, size 0x364, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey* GetPublicKey(int64_t keyId);
 
-  /// @brief Method GetPublicKeys, addr 0x10ba820, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method GetPublicKeys, addr 0x10e86b0, size 0x68, virtual true, abstract: false, final false
   inline ::System::Collections::IEnumerable* GetPublicKeys();
 
-  /// @brief Method GetEncoded, addr 0x10ba888, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x10e8718, size 0x80, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
-  /// @brief Method Encode, addr 0x10ba908, size 0x38c, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x10e8798, size 0x38c, virtual true, abstract: false, final false
   inline void Encode(::System::IO::Stream* outStr);
 
-  /// @brief Method InsertPublicKey, addr 0x10bac94, size 0x3d0, virtual false, abstract: false, final false
+  /// @brief Method InsertPublicKey, addr 0x10e8b24, size 0x3d0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRing* InsertPublicKey(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRing* pubRing,
                                                                                       ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey* pubKey);
 
-  /// @brief Method RemovePublicKey, addr 0x10bb064, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method RemovePublicKey, addr 0x10e8ef4, size 0x284, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRing* RemovePublicKey(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRing* pubRing,
                                                                                       ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey* pubKey);
 
-  /// @brief Method ReadPublicKeyPacket, addr 0x10ba240, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method ReadPublicKeyPacket, addr 0x10e80d0, size 0xe8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Bcpg::PublicKeyPacket* ReadPublicKeyPacket(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput);
 
-  /// @brief Method ReadSubkey, addr 0x10ba328, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method ReadSubkey, addr 0x10e81b8, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey* ReadSubkey(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput);
 
   // Ctor Parameters [CppParam { name: "", ty: "PgpPublicKeyRing", modifiers: "&&", def_value: None }]

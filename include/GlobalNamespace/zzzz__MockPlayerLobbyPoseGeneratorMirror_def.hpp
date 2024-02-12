@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MockPlayerLobbyPoseGeneratorMirror);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15522))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5182))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15708))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4521))
 // CS Name: ::MockPlayerLobbyPoseGeneratorMirror*
 class CORDL_TYPE MockPlayerLobbyPoseGeneratorMirror : public ::GlobalNamespace::MockPlayerLobbyPoseGenerator {
 public:
@@ -54,22 +54,22 @@ public:
   static inline ::GlobalNamespace::MockPlayerLobbyPoseGeneratorMirror* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager,
                                                                                 ::GlobalNamespace::NodePoseSyncStateManager* nodePoseSyncStateManager);
 
-  /// @brief Method .ctor, addr 0x22439b8, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x239f6e0, size 0x184, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::GlobalNamespace::NodePoseSyncStateManager* nodePoseSyncStateManager);
 
-  /// @brief Method Init, addr 0x2243b3c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x23a193c, size 0x4, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method Dispose, addr 0x2243b40, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x23a1940, size 0xd0, virtual true, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method Tick, addr 0x2243c10, size 0x168, virtual true, abstract: false, final false
+  /// @brief Method Tick, addr 0x23a1a10, size 0x168, virtual true, abstract: false, final false
   inline void Tick();
 
-  /// @brief Method FindPlayerToMirror, addr 0x2243d78, size 0x3a4, virtual false, abstract: false, final false
+  /// @brief Method FindPlayerToMirror, addr 0x23a1b78, size 0x3a4, virtual false, abstract: false, final false
   inline void FindPlayerToMirror();
 
-  /// @brief Method HandleOptionalAvatarDataReceived, addr 0x224411c, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method HandleOptionalAvatarDataReceived, addr 0x23a1f1c, size 0x1d8, virtual false, abstract: false, final false
   inline void HandleOptionalAvatarDataReceived(::BeatSaber::AvatarCore::OptionalAvatarDataPacket* optionalAvatarDataPacket, ::GlobalNamespace::IConnectedPlayer* player);
 
   // Ctor Parameters [CppParam { name: "", ty: "MockPlayerLobbyPoseGeneratorMirror", modifiers: "&&", def_value: None }]

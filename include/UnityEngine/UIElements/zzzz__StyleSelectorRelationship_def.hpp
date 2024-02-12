@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleSelectorRelationship);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7270))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6529))
 // CS Name: ::UnityEngine.UIElements::StyleSelectorRelationship
 struct CORDL_TYPE StyleSelectorRelationship {
 public:

@@ -71,30 +71,30 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* g);
 
-  /// @brief Method .ctor, addr 0xf357c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf60658, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* g);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* g, int32_t l);
 
-  /// @brief Method .ctor, addr 0xf357d0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf60660, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* g, int32_t l);
 
-  /// @brief Method get_P, addr 0xf35884, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_P, addr 0xf60714, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_P();
 
-  /// @brief Method get_G, addr 0xf3588c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_G, addr 0xf6071c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_G();
 
-  /// @brief Method get_L, addr 0xf35894, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_L, addr 0xf60724, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_L();
 
-  /// @brief Method Equals, addr 0xf3589c, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0xf6072c, size 0x9c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0xf35938, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0xf607c8, size 0x74, virtual false, abstract: false, final false
   inline bool Equals(::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* other);
 
-  /// @brief Method GetHashCode, addr 0xf359ac, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0xf6083c, size 0x58, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "ElGamalParameters", modifiers: "&&", def_value: None }]

@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::System::ComponentModel::Design::IDesignerHost);
 namespace System::ComponentModel::Design {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9499))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7509))
 // CS Name: ::System.ComponentModel.Design::IDesignerHost*
 class CORDL_TYPE IDesignerHost {
 public:

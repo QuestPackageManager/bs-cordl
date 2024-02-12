@@ -28,23 +28,23 @@ MARK_REF_PTR_T(::System::ComponentModel::PropertyChangingEventHandler);
 namespace System::ComponentModel {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11793))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11691))
 // CS Name: ::System.ComponentModel::PropertyChangingEventHandler*
 class CORDL_TYPE PropertyChangingEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::System::ComponentModel::PropertyChangingEventHandler* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x263e23c, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26623f8, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x263e36c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2662528, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* sender, ::System::ComponentModel::PropertyChangingEventArgs* e);
 
-  /// @brief Method BeginInvoke, addr 0x263e380, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x266253c, size 0x28, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::Object* sender, ::System::ComponentModel::PropertyChangingEventArgs* e, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x263e3a8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2662564, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "PropertyChangingEventHandler", modifiers: "&&", def_value: None }]

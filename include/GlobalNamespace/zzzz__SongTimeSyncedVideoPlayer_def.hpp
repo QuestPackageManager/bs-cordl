@@ -59,7 +59,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__SongTimeSyncedVideoPlayer___WaitForDependenc
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5975))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5259))
 // CS Name: ::SongTimeSyncedVideoPlayer::<WaitForDependenciesAndPlay>d__17*
 class CORDL_TYPE __SongTimeSyncedVideoPlayer___WaitForDependenciesAndPlay_d__17 : public ::System::Object {
 public:
@@ -115,22 +115,22 @@ public:
 
   static inline ::GlobalNamespace::__SongTimeSyncedVideoPlayer___WaitForDependenciesAndPlay_d__17* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor, addr 0x230d6c0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x233c20c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x230d8c4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x233c410, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext, addr 0x230d8c8, size 0xfc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x233c414, size 0xfc, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x230d9c4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x233c510, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x230d9cc, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x233c518, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x230da0c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x233c558, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__SongTimeSyncedVideoPlayer___WaitForDependenciesAndPlay_d__17", modifiers: "&&", def_value: None }]
@@ -172,8 +172,8 @@ static_assert(offsetof(::GlobalNamespace::__SongTimeSyncedVideoPlayer___WaitForD
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4982)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(14542))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5976))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4336)), TypeDefinitionIndex(TypeDefinitionIndex(8995)), TypeDefinitionIndex(TypeDefinitionIndex(14436))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5260))
 // CS Name: ::SongTimeSyncedVideoPlayer*
 class CORDL_TYPE SongTimeSyncedVideoPlayer : public ::GlobalNamespace::LightWithIdMonoBehaviour {
 public:
@@ -257,39 +257,39 @@ public:
 
   static inline int32_t getStaticF__textureStId();
 
-  /// @brief Method Start, addr 0x230cfc8, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x233bb14, size 0x60, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy, addr 0x230d090, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x233bbdc, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Update, addr 0x230d0e0, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x233bc2c, size 0x1f8, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method LateUpdate, addr 0x230d2d8, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x233be24, size 0x164, virtual false, abstract: false, final false
   inline void LateUpdate();
 
-  /// @brief Method ColorWasSet, addr 0x230d43c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x233bf88, size 0x8, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
-  /// @brief Method SetVideoClip, addr 0x230d444, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SetVideoClip, addr 0x233bf90, size 0x1c, virtual false, abstract: false, final false
   inline void SetVideoClip(::UnityEngine::Video::VideoClip* videoClip);
 
-  /// @brief Method SetSpriteAndStopVideo, addr 0x230d460, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method SetSpriteAndStopVideo, addr 0x233bfac, size 0x260, virtual false, abstract: false, final false
   inline void SetSpriteAndStopVideo(::UnityEngine::Sprite* sprite);
 
-  /// @brief Method StopVideoPlayer, addr 0x230d094, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method StopVideoPlayer, addr 0x233bbe0, size 0x4c, virtual false, abstract: false, final false
   inline void StopVideoPlayer();
 
-  /// @brief Method WaitForDependenciesAndPlay, addr 0x230d028, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method WaitForDependenciesAndPlay, addr 0x233bb74, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* WaitForDependenciesAndPlay();
 
   static inline ::GlobalNamespace::SongTimeSyncedVideoPlayer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x230d6e8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x233c234, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <WaitForDependenciesAndPlay>b__17_0, addr 0x230d7c0, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method <WaitForDependenciesAndPlay>b__17_0, addr 0x233c30c, size 0x104, virtual false, abstract: false, final false
   inline bool _WaitForDependenciesAndPlay_b__17_0();
 
   // Ctor Parameters [CppParam { name: "", ty: "SongTimeSyncedVideoPlayer", modifiers: "&&", def_value: None }]

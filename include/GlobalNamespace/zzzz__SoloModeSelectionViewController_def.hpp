@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::GlobalNamespace::SoloModeSelectionViewController);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5764))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5064))
 // CS Name: ::SoloModeSelectionViewController::MenuType
 struct CORDL_TYPE __SoloModeSelectionViewController__MenuType {
 public:
@@ -87,8 +87,8 @@ static_assert(offsetof(::GlobalNamespace::__SoloModeSelectionViewController__Men
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5765))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13558))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5065))
 // CS Name: ::SoloModeSelectionViewController*
 class CORDL_TYPE SoloModeSelectionViewController : public ::HMUI::ViewController {
 public:
@@ -145,33 +145,33 @@ public:
   constexpr void
   __cordl_internal_set_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::SoloModeSelectionViewController>, ::GlobalNamespace::__SoloModeSelectionViewController__MenuType>* value);
 
-  /// @brief Method add_didFinishEvent, addr 0x22dbc38, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x230c30c, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::SoloModeSelectionViewController>, ::GlobalNamespace::__SoloModeSelectionViewController__MenuType>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x22dbce8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x230c3bc, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::SoloModeSelectionViewController>, ::GlobalNamespace::__SoloModeSelectionViewController__MenuType>* value);
 
-  /// @brief Method DidActivate, addr 0x22dbd98, size 0x1b0, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x230c46c, size 0x1b0, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method HandleMenuButton, addr 0x22dbf48, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method HandleMenuButton, addr 0x230c61c, size 0x28, virtual false, abstract: false, final false
   inline void HandleMenuButton(::GlobalNamespace::__SoloModeSelectionViewController__MenuType subMenuType);
 
   static inline ::GlobalNamespace::SoloModeSelectionViewController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22dbf70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x230c644, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <DidActivate>b__8_0, addr 0x22dbf78, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__8_0, addr 0x230c64c, size 0x24, virtual false, abstract: false, final false
   inline void _DidActivate_b__8_0();
 
-  /// @brief Method <DidActivate>b__8_1, addr 0x22dbf9c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__8_1, addr 0x230c670, size 0x24, virtual false, abstract: false, final false
   inline void _DidActivate_b__8_1();
 
-  /// @brief Method <DidActivate>b__8_2, addr 0x22dbfc0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__8_2, addr 0x230c694, size 0x24, virtual false, abstract: false, final false
   inline void _DidActivate_b__8_2();
 
-  /// @brief Method <DidActivate>b__8_3, addr 0x22dbfe4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__8_3, addr 0x230c6b8, size 0x24, virtual false, abstract: false, final false
   inline void _DidActivate_b__8_3();
 
   // Ctor Parameters [CppParam { name: "", ty: "SoloModeSelectionViewController", modifiers: "&&", def_value: None }]

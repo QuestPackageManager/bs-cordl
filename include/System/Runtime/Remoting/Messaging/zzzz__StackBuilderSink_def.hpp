@@ -64,23 +64,23 @@ public:
 
   static inline ::System::Runtime::Remoting::Messaging::StackBuilderSink* New_ctor(::System::MarshalByRefObject* obj, bool forceInternalExecute);
 
-  /// @brief Method .ctor, addr 0x24b3a28, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24d4a9c, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::System::MarshalByRefObject* obj, bool forceInternalExecute);
 
-  /// @brief Method SyncProcessMessage, addr 0x24b3acc, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method SyncProcessMessage, addr 0x24d4b40, size 0xcc, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
 
-  /// @brief Method AsyncProcessMessage, addr 0x24b3fe8, size 0x120, virtual true, abstract: false, final true
+  /// @brief Method AsyncProcessMessage, addr 0x24d505c, size 0x120, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg,
                                                                                    ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
-  /// @brief Method ExecuteAsyncMessage, addr 0x24b4108, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method ExecuteAsyncMessage, addr 0x24d517c, size 0x200, virtual false, abstract: false, final false
   inline void ExecuteAsyncMessage(::System::Object* ob);
 
-  /// @brief Method CheckParameters, addr 0x24b3b98, size 0x450, virtual false, abstract: false, final false
+  /// @brief Method CheckParameters, addr 0x24d4c0c, size 0x450, virtual false, abstract: false, final false
   inline void CheckParameters(::System::Runtime::Remoting::Messaging::IMessage* msg);
 
-  /// @brief Method <AsyncProcessMessage>b__4_0, addr 0x24b4308, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method <AsyncProcessMessage>b__4_0, addr 0x24d537c, size 0x80, virtual false, abstract: false, final false
   inline void _AsyncProcessMessage_b__4_0(::System::Object* data);
 
   // Ctor Parameters [CppParam { name: "", ty: "StackBuilderSink", modifiers: "&&", def_value: None }]

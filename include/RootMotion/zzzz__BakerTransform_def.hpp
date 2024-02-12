@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::RootMotion::BakerTransform);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 124, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12478))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(8996))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12376))
 // CS Name: ::RootMotion::BakerTransform*
 class CORDL_TYPE BakerTransform : public ::System::Object {
 public:
@@ -159,28 +159,28 @@ public:
 
   static inline ::RootMotion::BakerTransform* New_ctor(::UnityEngine::Transform* transform, ::UnityEngine::Transform* root, bool recordPosition, bool isRootNode);
 
-  /// @brief Method .ctor, addr 0x12311a8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12cc258, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Transform* transform, ::UnityEngine::Transform* root, bool recordPosition, bool isRootNode);
 
-  /// @brief Method SetRelativeSpace, addr 0x123141c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SetRelativeSpace, addr 0x12cc4cc, size 0x14, virtual false, abstract: false, final false
   inline void SetRelativeSpace(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method SetCurves, addr 0x12316f8, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method SetCurves, addr 0x12cc7a8, size 0x2b4, virtual false, abstract: false, final false
   inline void SetCurves(ByRef<::UnityEngine::AnimationClip*> clip);
 
-  /// @brief Method AddRootMotionCurves, addr 0x1234610, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method AddRootMotionCurves, addr 0x12cf6c0, size 0x288, virtual false, abstract: false, final false
   inline void AddRootMotionCurves(ByRef<::UnityEngine::AnimationClip*> clip);
 
-  /// @brief Method Reset, addr 0x1231314, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x12cc3c4, size 0x108, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method ReduceKeyframes, addr 0x1234898, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ReduceKeyframes, addr 0x12cf948, size 0x68, virtual false, abstract: false, final false
   inline void ReduceKeyframes(float_t maxError);
 
-  /// @brief Method SetKeyframes, addr 0x1231a18, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method SetKeyframes, addr 0x12ccac8, size 0x1f4, virtual false, abstract: false, final false
   inline void SetKeyframes(float_t time);
 
-  /// @brief Method AddLoopFrame, addr 0x123149c, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method AddLoopFrame, addr 0x12cc54c, size 0x1f8, virtual false, abstract: false, final false
   inline void AddLoopFrame(float_t time);
 
   // Ctor Parameters [CppParam { name: "", ty: "BakerTransform", modifiers: "&&", def_value: None }]

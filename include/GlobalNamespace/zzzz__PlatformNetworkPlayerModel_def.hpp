@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__PlatformNetworkPlayerModel__CreatePartyConfi
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14937))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14972))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14810))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14845))
 // CS Name: ::PlatformNetworkPlayerModel::CreatePartyConfig*
 class CORDL_TYPE __PlatformNetworkPlayerModel__CreatePartyConfig : public ::GlobalNamespace::__BaseNetworkPlayerModel__PartyConfig {
 public:
@@ -45,7 +45,7 @@ public:
 
   static inline ::GlobalNamespace::__PlatformNetworkPlayerModel__CreatePartyConfig* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2638cf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x265deac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__PlatformNetworkPlayerModel__CreatePartyConfig", modifiers: "&&", def_value: None }]
@@ -72,8 +72,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PlatformNetwo
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14940))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14973))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14813))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14846))
 // CS Name: ::PlatformNetworkPlayerModel*
 class CORDL_TYPE PlatformNetworkPlayerModel : public ::GlobalNamespace::BaseNetworkPlayerModel {
 public:
@@ -82,15 +82,15 @@ public:
 
   __declspec(property(get = get_friends))::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* friends;
 
-  /// @brief Method get_friends, addr 0x2638cc8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_friends, addr 0x265de84, size 0x10, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* get_friends();
 
-  /// @brief Method DestroyPartyConnection, addr 0x2638cd8, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method DestroyPartyConnection, addr 0x265de94, size 0x18, virtual true, abstract: false, final false
   inline void DestroyPartyConnection();
 
   static inline ::GlobalNamespace::PlatformNetworkPlayerModel* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2637d84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x265cea4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PlatformNetworkPlayerModel", modifiers: "&&", def_value: None }]

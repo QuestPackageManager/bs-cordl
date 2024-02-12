@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Yoga::YogaJustify);
 namespace UnityEngine::Yoga {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15371))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15531))
 // CS Name: ::UnityEngine.Yoga::YogaJustify
 struct CORDL_TYPE YogaJustify {
 public:

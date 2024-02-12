@@ -18,12 +18,12 @@ MARK_REF_PTR_T(::Mono::Security::Interface::MonoTlsProviderFactory);
 namespace Mono::Security::Interface {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13783))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13736))
 // CS Name: ::Mono.Security.Interface::MonoTlsProviderFactory*
 class CORDL_TYPE MonoTlsProviderFactory : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetProvider, addr 0x2402d8c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetProvider, addr 0x2422bec, size 0x70, virtual false, abstract: false, final false
   static inline ::Mono::Security::Interface::MonoTlsProvider* GetProvider();
 
   // Ctor Parameters [CppParam { name: "", ty: "MonoTlsProviderFactory", modifiers: "&&", def_value: None }]

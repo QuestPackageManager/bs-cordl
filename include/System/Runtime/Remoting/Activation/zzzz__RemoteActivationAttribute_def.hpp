@@ -49,13 +49,13 @@ public:
 
   static inline ::System::Runtime::Remoting::Activation::RemoteActivationAttribute* New_ctor(::System::Collections::IList* contextProperties);
 
-  /// @brief Method .ctor, addr 0x24a53b8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24c742c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IList* contextProperties);
 
-  /// @brief Method IsContextOK, addr 0x24a53e0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method IsContextOK, addr 0x24c7454, size 0x8, virtual true, abstract: false, final true
   inline bool IsContextOK(::System::Runtime::Remoting::Contexts::Context* ctx, ::System::Runtime::Remoting::Activation::IConstructionCallMessage* ctor);
 
-  /// @brief Method GetPropertiesForNewContext, addr 0x24a53e8, size 0x3e8, virtual true, abstract: false, final true
+  /// @brief Method GetPropertiesForNewContext, addr 0x24c745c, size 0x3e8, virtual true, abstract: false, final true
   inline void GetPropertiesForNewContext(::System::Runtime::Remoting::Activation::IConstructionCallMessage* ctor);
 
   // Ctor Parameters [CppParam { name: "", ty: "RemoteActivationAttribute", modifiers: "&&", def_value: None }]

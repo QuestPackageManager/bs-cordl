@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Shapes::Door);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Shapes {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12233))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12228))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12131))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12126))
 // CS Name: ::UnityEngine.ProBuilder.Shapes::Door*
 class CORDL_TYPE Door : public ::UnityEngine::ProBuilder::Shapes::Shape {
 public:
@@ -54,15 +54,15 @@ public:
 
   constexpr void __cordl_internal_set_m_LegWidth(float_t value);
 
-  /// @brief Method CopyShape, addr 0x2b899f0, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method CopyShape, addr 0x2b8855c, size 0xac, virtual true, abstract: false, final false
   inline void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* shape);
 
-  /// @brief Method RebuildMesh, addr 0x2b89a9c, size 0x1a9c, virtual true, abstract: false, final false
+  /// @brief Method RebuildMesh, addr 0x2b88608, size 0x1a9c, virtual true, abstract: false, final false
   inline ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
 
   static inline ::UnityEngine::ProBuilder::Shapes::Door* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2b8b538, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b8a0a4, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Door", modifiers: "&&", def_value: None }]

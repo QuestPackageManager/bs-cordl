@@ -43,16 +43,16 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Parameters::Gost3410PrivateKeyParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* x,
                                                                                                 ::Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters* parameters);
 
-  /// @brief Method .ctor, addr 0xf3641c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf612ac, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* x, ::Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::Gost3410PrivateKeyParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* x,
                                                                                                 ::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet);
 
-  /// @brief Method .ctor, addr 0xf364f8, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf61388, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* x, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet);
 
-  /// @brief Method get_X, addr 0xf365dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_X, addr 0xf6146c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_X();
 
   // Ctor Parameters [CppParam { name: "", ty: "Gost3410PrivateKeyParameters", modifiers: "&&", def_value: None }]

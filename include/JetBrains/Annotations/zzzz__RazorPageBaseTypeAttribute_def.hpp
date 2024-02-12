@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::JetBrains::Annotations::RazorPageBaseTypeAttribute);
 namespace JetBrains::Annotations {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15804))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15954))
 // CS Name: ::JetBrains.Annotations::RazorPageBaseTypeAttribute*
 class CORDL_TYPE RazorPageBaseTypeAttribute : public ::System::Attribute {
 public:
@@ -45,24 +45,24 @@ public:
 
   static inline ::JetBrains::Annotations::RazorPageBaseTypeAttribute* New_ctor(::StringW baseType);
 
-  /// @brief Method .ctor, addr 0x2eba924, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ed6a6c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW baseType);
 
   static inline ::JetBrains::Annotations::RazorPageBaseTypeAttribute* New_ctor(::StringW baseType, ::StringW pageName);
 
-  /// @brief Method .ctor, addr 0x2eba94c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ed6a94, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW baseType, ::StringW pageName);
 
-  /// @brief Method get_BaseType, addr 0x2eba978, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BaseType, addr 0x2ed6ac0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_BaseType();
 
-  /// @brief Method set_BaseType, addr 0x2eba980, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BaseType, addr 0x2ed6ac8, size 0x8, virtual false, abstract: false, final false
   inline void set_BaseType(::StringW value);
 
-  /// @brief Method get_PageName, addr 0x2eba988, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PageName, addr 0x2ed6ad0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_PageName();
 
-  /// @brief Method set_PageName, addr 0x2eba990, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_PageName, addr 0x2ed6ad8, size 0x8, virtual false, abstract: false, final false
   inline void set_PageName(::StringW value);
 
   // Ctor Parameters [CppParam { name: "", ty: "RazorPageBaseTypeAttribute", modifiers: "&&", def_value: None }]

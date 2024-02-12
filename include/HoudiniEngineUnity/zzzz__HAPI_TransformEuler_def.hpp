@@ -24,16 +24,16 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_TransformEuler);
 // SizeInfo { instance_size: 40, native_size: 56, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9714)), TypeDefinitionIndex(TypeDefinitionIndex(9715))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9727))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9506)), TypeDefinitionIndex(TypeDefinitionIndex(9507))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9519))
 // CS Name: ::HoudiniEngineUnity::HAPI_TransformEuler
 struct CORDL_TYPE HAPI_TransformEuler {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x2188610, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x221cef4, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(bool initializeFields);
 
-  /// @brief Method Init, addr 0x2191ab0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2226394, size 0xc8, virtual false, abstract: false, final false
   inline void Init();
 
   // Ctor Parameters [CppParam { name: "position", ty: "::ArrayW<float_t,::Array<float_t>*>", modifiers: "", def_value: None }, CppParam { name: "rotationEuler", ty:

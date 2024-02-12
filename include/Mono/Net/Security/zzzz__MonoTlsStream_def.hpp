@@ -76,8 +76,8 @@ MARK_VAL_T(::Mono::Net::Security::__MonoTlsStream___CreateStream_d__18);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3619)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 899 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(8843)) CS
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3391)), TypeDefinitionIndex(TypeDefinitionIndex(3398)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3617)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3398), inst: 902 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6853)) CS
 // Name: ::MonoTlsStream::<CreateStream>d__18
 struct CORDL_TYPE __MonoTlsStream___CreateStream_d__18 {
 public:
@@ -88,10 +88,10 @@ public:
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x2825634, size 0x6a4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2829e1c, size 0x6a4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2825cd8, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x282a4c0, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -155,8 +155,8 @@ static_assert(offsetof(::Mono::Net::Security::__MonoTlsStream___CreateStream_d__
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 69, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9087))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8844))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7097))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6854))
 // CS Name: ::Mono.Net.Security::MonoTlsStream*
 class CORDL_TYPE MonoTlsStream : public ::System::Object {
 public:
@@ -248,30 +248,30 @@ public:
 
   constexpr void __cordl_internal_set__CertificateValidationFailed_k__BackingField(bool value);
 
-  /// @brief Method get_Request, addr 0x2825360, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Request, addr 0x2829b48, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::HttpWebRequest* get_Request();
 
-  /// @brief Method get_ExceptionStatus, addr 0x2825368, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ExceptionStatus, addr 0x2829b50, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::WebExceptionStatus get_ExceptionStatus();
 
-  /// @brief Method get_CertificateValidationFailed, addr 0x2825370, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CertificateValidationFailed, addr 0x2829b58, size 0x8, virtual false, abstract: false, final false
   inline bool get_CertificateValidationFailed();
 
-  /// @brief Method set_CertificateValidationFailed, addr 0x2825378, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_CertificateValidationFailed, addr 0x2829b60, size 0xc, virtual false, abstract: false, final false
   inline void set_CertificateValidationFailed(bool value);
 
   static inline ::Mono::Net::Security::MonoTlsStream* New_ctor(::System::Net::HttpWebRequest* request, ::System::Net::Sockets::NetworkStream* networkStream);
 
-  /// @brief Method .ctor, addr 0x2825384, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2829b6c, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::HttpWebRequest* request, ::System::Net::Sockets::NetworkStream* networkStream);
 
-  /// @brief Method CreateStream, addr 0x2825458, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method CreateStream, addr 0x2829c40, size 0x104, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::IO::Stream*>* CreateStream(::System::Net::WebConnectionTunnel* tunnel, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Dispose, addr 0x282555c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2829d44, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method CloseSslStream, addr 0x2825560, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method CloseSslStream, addr 0x2829d48, size 0xd4, virtual false, abstract: false, final false
   inline void CloseSslStream();
 
   // Ctor Parameters [CppParam { name: "", ty: "MonoTlsStream", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::TMPro::TMP_SpriteInfo);
 namespace TMPro {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12321))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12219))
 // CS Name: ::TMPro::TMP_SpriteInfo
 struct CORDL_TYPE TMP_SpriteInfo {
 public:

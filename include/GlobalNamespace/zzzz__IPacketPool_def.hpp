@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IPacketPool);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12807))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12705))
 // CS Name: ::IPacketPool*
 class CORDL_TYPE IPacketPool {
 public:

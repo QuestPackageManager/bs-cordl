@@ -3,6 +3,7 @@
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__SaberActivityCounter_def.hpp"
 #include "GlobalNamespace/zzzz__AveragingValueRecorder_def.hpp"
+#include "GlobalNamespace/zzzz__IGamePause_def.hpp"
 #include "GlobalNamespace/zzzz__MovementHistoryRecorder_def.hpp"
 #include "GlobalNamespace/zzzz__SaberManager_def.hpp"
 #include "GlobalNamespace/zzzz__Saber_def.hpp"
@@ -13,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberActivityCounter::*)(::System::Action_1<float_t>*)>(
     &::GlobalNamespace::SaberActivityCounter::add_totalDistanceDidChangeEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x226357c;
+  constexpr static std::size_t addrs = 0x23c1f84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberActivityCounter::*)(::System::Action_1<float_t>*)>(
     &::GlobalNamespace::SaberActivityCounter::remove_totalDistanceDidChangeEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x226362c;
+  constexpr static std::size_t addrs = 0x23c2034;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::SaberActivityCounter::*)()>(
     &::GlobalNamespace::SaberActivityCounter::get_leftSaberMovementDistance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22636dc;
+  constexpr static std::size_t addrs = 0x23c20e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberActivityCounter*>::get(),
@@ -57,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::SaberActivityCounter::*)()>(
     &::GlobalNamespace::SaberActivityCounter::get_rightSaberMovementDistance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22636e4;
+  constexpr static std::size_t addrs = 0x23c20ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberActivityCounter*>::get(),
@@ -71,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::SaberActivityCounter::*)()>(
     &::GlobalNamespace::SaberActivityCounter::get_leftHandMovementDistance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22636ec;
+  constexpr static std::size_t addrs = 0x23c20f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberActivityCounter*>::get(),
@@ -85,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::SaberActivityCounter::*)()>(
     &::GlobalNamespace::SaberActivityCounter::get_rightHandMovementDistance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22636f4;
+  constexpr static std::size_t addrs = 0x23c20fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberActivityCounter*>::get(),
@@ -99,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::AveragingValueRecorder* (::GlobalNamespace::SaberActivityCounter::*)()>(
     &::GlobalNamespace::SaberActivityCounter::get_saberMovementAveragingValueRecorder)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2260a08;
+  constexpr static std::size_t addrs = 0x23bf410;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -114,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::AveragingValueRecorder* (::GlobalNamespace::SaberActivityCounter::*)()>(
     &::GlobalNamespace::SaberActivityCounter::get_handMovementAveragingValueRecorder)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2260a24;
+  constexpr static std::size_t addrs = 0x23bf42c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -128,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberActivityCounter::*)()>(&::GlobalNamespace::SaberActivityCounter::Awake)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x22636fc;
+  constexpr static std::size_t addrs = 0x23c2104;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberActivityCounter*>::get(), "Awake",
@@ -140,8 +141,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberActivityCounter::*)()>(&::GlobalNamespace::SaberActivityCounter::Start)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x22637b0;
+  constexpr static std::size_t size = 0x154;
+  constexpr static std::size_t addrs = 0x23c21b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberActivityCounter*>::get(), "Start",
@@ -149,16 +150,45 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::SaberActivityCounter.Update
+//  Writing Method size for method: ::GlobalNamespace::SaberActivityCounter.OnDestroy
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberActivityCounter::*)()>(&::GlobalNamespace::SaberActivityCounter::Update)> {
-  constexpr static std::size_t size = 0x414;
-  constexpr static std::size_t addrs = 0x22637d0;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberActivityCounter::*)()>(&::GlobalNamespace::SaberActivityCounter::OnDestroy)> {
+  constexpr static std::size_t size = 0x1a0;
+  constexpr static std::size_t addrs = 0x23c230c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberActivityCounter*>::get(), "Update",
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberActivityCounter*>::get(), "OnDestroy",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::SaberActivityCounter.HandleSaberPositionsWereUpdated
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberActivityCounter::*)(::GlobalNamespace::Saber*, ::GlobalNamespace::Saber*)>(
+    &::GlobalNamespace::SaberActivityCounter::HandleSaberPositionsWereUpdated)> {
+  constexpr static std::size_t size = 0x434;
+  constexpr static std::size_t addrs = 0x23c24ac;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberActivityCounter*>::get(), "HandleSaberPositionsWereUpdated", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::Saber*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::Saber*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::SaberActivityCounter.HandleDidPauseEvent
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberActivityCounter::*)()>(&::GlobalNamespace::SaberActivityCounter::HandleDidPauseEvent)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x23c28e0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberActivityCounter*>::get(),
+                                                                               "HandleDidPauseEvent", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -167,7 +197,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberActivityCounter::*)()>(&::GlobalNamespace::SaberActivityCounter::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2263be4;
+  constexpr static std::size_t addrs = 0x23c28e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberActivityCounter*>::get(), ".ctor",
@@ -211,17 +241,17 @@ constexpr void GlobalNamespace::SaberActivityCounter::__cordl_internal_set__incr
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____increaseSpeed = value;
 }
-constexpr float_t& GlobalNamespace::SaberActivityCounter::__cordl_internal_get__deceraseSpeed() {
+constexpr float_t& GlobalNamespace::SaberActivityCounter::__cordl_internal_get__decreaseSpeed() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____deceraseSpeed;
+  return this->____decreaseSpeed;
 }
-constexpr float_t const& GlobalNamespace::SaberActivityCounter::__cordl_internal_get__deceraseSpeed() const {
+constexpr float_t const& GlobalNamespace::SaberActivityCounter::__cordl_internal_get__decreaseSpeed() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____deceraseSpeed;
+  return this->____decreaseSpeed;
 }
-constexpr void GlobalNamespace::SaberActivityCounter::__cordl_internal_set__deceraseSpeed(float_t value) {
+constexpr void GlobalNamespace::SaberActivityCounter::__cordl_internal_set__decreaseSpeed(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____deceraseSpeed = value;
+  this->____decreaseSpeed = value;
 }
 constexpr float_t& GlobalNamespace::SaberActivityCounter::__cordl_internal_get__movementSensitivityThreshold() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -247,6 +277,18 @@ constexpr void GlobalNamespace::SaberActivityCounter::__cordl_internal_set__sabe
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____saberManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
+constexpr ::GlobalNamespace::IGamePause*& GlobalNamespace::SaberActivityCounter::__cordl_internal_get__gamePause() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____gamePause;
+}
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IGamePause*> const& GlobalNamespace::SaberActivityCounter::__cordl_internal_get__gamePause() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____gamePause;
+}
+constexpr void GlobalNamespace::SaberActivityCounter::__cordl_internal_set__gamePause(::GlobalNamespace::IGamePause* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gamePause)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
 constexpr ::System::Action_1<float_t>*& GlobalNamespace::SaberActivityCounter::__cordl_internal_get_totalDistanceDidChangeEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___totalDistanceDidChangeEvent;
@@ -258,30 +300,6 @@ constexpr ::cordl_internals::to_const_pointer<::System::Action_1<float_t>*> cons
 constexpr void GlobalNamespace::SaberActivityCounter::__cordl_internal_set_totalDistanceDidChangeEvent(::System::Action_1<float_t>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___totalDistanceDidChangeEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::UnityW<::GlobalNamespace::Saber>& GlobalNamespace::SaberActivityCounter::__cordl_internal_get__leftSaber() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____leftSaber;
-}
-constexpr ::UnityW<::GlobalNamespace::Saber> const& GlobalNamespace::SaberActivityCounter::__cordl_internal_get__leftSaber() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____leftSaber;
-}
-constexpr void GlobalNamespace::SaberActivityCounter::__cordl_internal_set__leftSaber(::UnityW<::GlobalNamespace::Saber> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____leftSaber)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::UnityW<::GlobalNamespace::Saber>& GlobalNamespace::SaberActivityCounter::__cordl_internal_get__rightSaber() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____rightSaber;
-}
-constexpr ::UnityW<::GlobalNamespace::Saber> const& GlobalNamespace::SaberActivityCounter::__cordl_internal_get__rightSaber() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____rightSaber;
-}
-constexpr void GlobalNamespace::SaberActivityCounter::__cordl_internal_set__rightSaber(::UnityW<::GlobalNamespace::Saber> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____rightSaber)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::SaberActivityCounter::__cordl_internal_get__prevLeftSaberTipPos() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -469,9 +487,21 @@ inline void GlobalNamespace::SaberActivityCounter::Start() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::SaberActivityCounter::Update() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberActivityCounter*>::get(), "Update",
+inline void GlobalNamespace::SaberActivityCounter::OnDestroy() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberActivityCounter*>::get(), "OnDestroy",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void GlobalNamespace::SaberActivityCounter::HandleSaberPositionsWereUpdated(::GlobalNamespace::Saber* leftSaber, ::GlobalNamespace::Saber* rightSaber) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberActivityCounter*>::get(), "HandleSaberPositionsWereUpdated", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::Saber*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::Saber*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, leftSaber, rightSaber);
+}
+inline void GlobalNamespace::SaberActivityCounter::HandleDidPauseEvent() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberActivityCounter*>::get(),
+                                                                             "HandleDidPauseEvent", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::SaberActivityCounter* GlobalNamespace::SaberActivityCounter::New_ctor() {

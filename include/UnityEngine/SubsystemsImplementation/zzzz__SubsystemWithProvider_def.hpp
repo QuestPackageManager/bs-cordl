@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::UnityEngine::SubsystemsImplementation::SubsystemWithProvider);
 namespace UnityEngine::SubsystemsImplementation {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15973))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16096))
 // CS Name: ::UnityEngine.SubsystemsImplementation::SubsystemWithProvider*
 class CORDL_TYPE SubsystemWithProvider : public ::System::Object {
 public:
@@ -55,36 +55,36 @@ public:
 
   constexpr void __cordl_internal_set__providerBase_k__BackingField(::UnityEngine::SubsystemsImplementation::SubsystemProvider* value);
 
-  /// @brief Method Start, addr 0x2d1b4b4, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method Start, addr 0x2d3bf5c, size 0x3c, virtual true, abstract: false, final true
   inline void Start();
 
   /// @brief Method OnStart, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnStart();
 
-  /// @brief Method Stop, addr 0x2d1b4f0, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method Stop, addr 0x2d3bf98, size 0x38, virtual true, abstract: false, final true
   inline void Stop();
 
   /// @brief Method OnStop, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnStop();
 
-  /// @brief Method Destroy, addr 0x2d1b528, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method Destroy, addr 0x2d3bfd0, size 0x7c, virtual true, abstract: false, final true
   inline void Destroy();
 
   /// @brief Method OnDestroy, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnDestroy();
 
-  /// @brief Method get_running, addr 0x2d1b5a4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_running, addr 0x2d3c04c, size 0x8, virtual true, abstract: false, final true
   inline bool get_running();
 
-  /// @brief Method set_running, addr 0x2d1b5ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_running, addr 0x2d3c054, size 0xc, virtual false, abstract: false, final false
   inline void set_running(bool value);
 
-  /// @brief Method get_providerBase, addr 0x2d1b5b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_providerBase, addr 0x2d3c060, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::SubsystemsImplementation::SubsystemProvider* get_providerBase();
 
   static inline ::UnityEngine::SubsystemsImplementation::SubsystemWithProvider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d1b5c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d3c068, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SubsystemWithProvider", modifiers: "&&", def_value: None }]

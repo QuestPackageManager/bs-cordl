@@ -64,27 +64,27 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10b013c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10dcfcc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator* New_ctor(bool oldFormat);
 
-  /// @brief Method .ctor, addr 0x10b0144, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10dcfd4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool oldFormat);
 
-  /// @brief Method WriteHeader, addr 0x10b016c, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method WriteHeader, addr 0x10dcffc, size 0x144, virtual false, abstract: false, final false
   inline void WriteHeader(::Org::BouncyCastle::Bcpg::BcpgOutputStream* outStr, char16_t format, ::ArrayW<uint8_t, ::Array<uint8_t>*> encName, int64_t modificationTime);
 
-  /// @brief Method Open, addr 0x10b02b0, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x10dd140, size 0x1d4, virtual false, abstract: false, final false
   inline ::System::IO::Stream* Open(::System::IO::Stream* outStr, char16_t format, ::StringW name, int64_t length, ::System::DateTime modificationTime);
 
-  /// @brief Method Open, addr 0x10b0484, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x10dd314, size 0x1c0, virtual false, abstract: false, final false
   inline ::System::IO::Stream* Open(::System::IO::Stream* outStr, char16_t format, ::StringW name, ::System::DateTime modificationTime, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer);
 
-  /// @brief Method Open, addr 0x10b0644, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x10dd4d4, size 0x84, virtual false, abstract: false, final false
   inline ::System::IO::Stream* Open(::System::IO::Stream* outStr, char16_t format, ::System::IO::FileInfo* file);
 
-  /// @brief Method Close, addr 0x10b06c8, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method Close, addr 0x10dd558, size 0x40, virtual true, abstract: false, final true
   inline void Close();
 
   // Ctor Parameters [CppParam { name: "", ty: "PgpLiteralDataGenerator", modifiers: "&&", def_value: None }]

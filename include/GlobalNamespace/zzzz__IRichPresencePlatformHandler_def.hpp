@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IRichPresencePlatformHandler);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4679))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5253))
 // CS Name: ::IRichPresencePlatformHandler*
 class CORDL_TYPE IRichPresencePlatformHandler {
 public:

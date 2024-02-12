@@ -18,14 +18,14 @@ MARK_REF_PTR_T(::Mono::Util::MonoPInvokeCallbackAttribute);
 namespace Mono::Util {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8755))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6765))
 // CS Name: ::Mono.Util::MonoPInvokeCallbackAttribute*
 class CORDL_TYPE MonoPInvokeCallbackAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::Mono::Util::MonoPInvokeCallbackAttribute* New_ctor(::System::Type* t);
 
-  /// @brief Method .ctor, addr 0x28175d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x281bdc0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* t);
 
   // Ctor Parameters [CppParam { name: "", ty: "MonoPInvokeCallbackAttribute", modifiers: "&&", def_value: None }]

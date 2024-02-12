@@ -93,23 +93,23 @@ MARK_VAL_T(::OVR::OpenVR::IVRChaperone);
 namespace OVR::OpenVR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8314))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8258))
 // CS Name: ::IVRChaperone::_GetCalibrationState*
 class CORDL_TYPE __IVRChaperone___GetCalibrationState : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRChaperone___GetCalibrationState* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x27d9700, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27e6eb8, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x27d97bc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x27e6f74, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::ChaperoneCalibrationState Invoke();
 
-  /// @brief Method BeginInvoke, addr 0x27d97d0, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x27e6f88, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x27d97f0, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x27e6fa8, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::ChaperoneCalibrationState EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRChaperone___GetCalibrationState", modifiers: "&&", def_value: None }]
@@ -137,23 +137,23 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRChaperone___Ge
 namespace OVR::OpenVR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8315))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8259))
 // CS Name: ::IVRChaperone::_GetPlayAreaSize*
 class CORDL_TYPE __IVRChaperone___GetPlayAreaSize : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRChaperone___GetPlayAreaSize* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x27d9818, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27e6fd0, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x27d98f0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x27e70a8, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(ByRef<float_t> pSizeX, ByRef<float_t> pSizeZ);
 
-  /// @brief Method BeginInvoke, addr 0x27d9904, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x27e70bc, size 0xa4, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(ByRef<float_t> pSizeX, ByRef<float_t> pSizeZ, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x27d99a8, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x27e7160, size 0x34, virtual true, abstract: false, final false
   inline bool EndInvoke(ByRef<float_t> pSizeX, ByRef<float_t> pSizeZ, ::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRChaperone___GetPlayAreaSize", modifiers: "&&", def_value: None }]
@@ -181,23 +181,23 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRChaperone___Ge
 namespace OVR::OpenVR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8316))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8260))
 // CS Name: ::IVRChaperone::_GetPlayAreaRect*
 class CORDL_TYPE __IVRChaperone___GetPlayAreaRect : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRChaperone___GetPlayAreaRect* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x27d99dc, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27e7194, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x27d9ab0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x27e7268, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(ByRef<::OVR::OpenVR::HmdQuad_t> rect);
 
-  /// @brief Method BeginInvoke, addr 0x27d9ac4, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x27e727c, size 0x8c, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(ByRef<::OVR::OpenVR::HmdQuad_t> rect, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x27d9b50, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x27e7308, size 0x2c, virtual true, abstract: false, final false
   inline bool EndInvoke(ByRef<::OVR::OpenVR::HmdQuad_t> rect, ::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRChaperone___GetPlayAreaRect", modifiers: "&&", def_value: None }]
@@ -225,23 +225,23 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRChaperone___Ge
 namespace OVR::OpenVR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8317))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8261))
 // CS Name: ::IVRChaperone::_ReloadInfo*
 class CORDL_TYPE __IVRChaperone___ReloadInfo : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRChaperone___ReloadInfo* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x27d9b7c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27e7334, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x27d9c38, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x27e73f0, size 0x14, virtual true, abstract: false, final false
   inline void Invoke();
 
-  /// @brief Method BeginInvoke, addr 0x27d9c4c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x27e7404, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x27d9c6c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x27e7424, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRChaperone___ReloadInfo", modifiers: "&&", def_value: None }]
@@ -269,23 +269,23 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRChaperone___Re
 namespace OVR::OpenVR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8318))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8262))
 // CS Name: ::IVRChaperone::_SetSceneColor*
 class CORDL_TYPE __IVRChaperone___SetSceneColor : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRChaperone___SetSceneColor* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x27d9c78, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27e7430, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x27d9d3c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x27e74f4, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::OVR::OpenVR::HmdColor_t color);
 
-  /// @brief Method BeginInvoke, addr 0x27d9d50, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x27e7508, size 0x88, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::HmdColor_t color, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x27d9dd8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x27e7590, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRChaperone___SetSceneColor", modifiers: "&&", def_value: None }]
@@ -313,24 +313,24 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRChaperone___Se
 namespace OVR::OpenVR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8319))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8263))
 // CS Name: ::IVRChaperone::_GetBoundsColor*
 class CORDL_TYPE __IVRChaperone___GetBoundsColor : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRChaperone___GetBoundsColor* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x27d9de4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27e759c, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x27d9ebc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x27e7674, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(ByRef<::OVR::OpenVR::HmdColor_t> pOutputColorArray, int32_t nNumOutputColors, float_t flCollisionBoundsFadeDistance, ByRef<::OVR::OpenVR::HmdColor_t> pOutputCameraColor);
 
-  /// @brief Method BeginInvoke, addr 0x27d9ed0, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x27e7688, size 0x104, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(ByRef<::OVR::OpenVR::HmdColor_t> pOutputColorArray, int32_t nNumOutputColors, float_t flCollisionBoundsFadeDistance,
                                              ByRef<::OVR::OpenVR::HmdColor_t> pOutputCameraColor, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x27d9fd4, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x27e778c, size 0x24, virtual true, abstract: false, final false
   inline void EndInvoke(ByRef<::OVR::OpenVR::HmdColor_t> pOutputColorArray, ByRef<::OVR::OpenVR::HmdColor_t> pOutputCameraColor, ::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRChaperone___GetBoundsColor", modifiers: "&&", def_value: None }]
@@ -358,23 +358,23 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRChaperone___Ge
 namespace OVR::OpenVR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8320))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8264))
 // CS Name: ::IVRChaperone::_AreBoundsVisible*
 class CORDL_TYPE __IVRChaperone___AreBoundsVisible : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRChaperone___AreBoundsVisible* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x27d9ff8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27e77b0, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x27da0b4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x27e786c, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke();
 
-  /// @brief Method BeginInvoke, addr 0x27da0c8, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x27e7880, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x27da0e8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x27e78a0, size 0x28, virtual true, abstract: false, final false
   inline bool EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRChaperone___AreBoundsVisible", modifiers: "&&", def_value: None }]
@@ -402,23 +402,23 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRChaperone___Ar
 namespace OVR::OpenVR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8321))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8265))
 // CS Name: ::IVRChaperone::_ForceBoundsVisible*
 class CORDL_TYPE __IVRChaperone___ForceBoundsVisible : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRChaperone___ForceBoundsVisible* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x27da110, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27e78c8, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x27da1d4, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x27e798c, size 0x18, virtual true, abstract: false, final false
   inline void Invoke(bool bForce);
 
-  /// @brief Method BeginInvoke, addr 0x27da1ec, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x27e79a4, size 0x88, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(bool bForce, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x27da274, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x27e7a2c, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRChaperone___ForceBoundsVisible", modifiers: "&&", def_value: None }]
@@ -446,7 +446,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRChaperone___Fo
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8322))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8266))
 // CS Name: ::OVR.OpenVR::IVRChaperone
 struct CORDL_TYPE IVRChaperone {
 public:

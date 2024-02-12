@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::BeatSaber::AvatarCore::MultiplayerGameAvatarInstaller);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11138))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15201))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10280))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15282))
 // CS Name: ::BeatSaber.AvatarCore::MultiplayerGameAvatarInstaller*
 class CORDL_TYPE MultiplayerGameAvatarInstaller : public ::Zenject::MonoInstaller {
 public:
@@ -32,12 +32,12 @@ public:
 
   constexpr void __cordl_internal_set__connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
 
-  /// @brief Method InstallBindings, addr 0xe10254, size 0x23c, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0xe1ba50, size 0x23c, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::BeatSaber::AvatarCore::MultiplayerGameAvatarInstaller* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe10490, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe1bc8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerGameAvatarInstaller", modifiers: "&&", def_value: None }]

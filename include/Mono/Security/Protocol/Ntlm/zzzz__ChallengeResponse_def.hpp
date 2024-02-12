@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::Mono::Security::Protocol::Ntlm::ChallengeResponse);
 namespace Mono::Security::Protocol::Ntlm {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13763))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13716))
 // CS Name: ::Mono.Security.Protocol.Ntlm::ChallengeResponse*
 class CORDL_TYPE ChallengeResponse : public ::System::Object {
 public:
@@ -92,42 +92,42 @@ public:
 
   static inline ::Mono::Security::Protocol::Ntlm::ChallengeResponse* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23feb48, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x241e9a8, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Mono::Security::Protocol::Ntlm::ChallengeResponse* New_ctor(::StringW password, ::ArrayW<uint8_t, ::Array<uint8_t>*> challenge);
 
-  /// @brief Method .ctor, addr 0x23febb8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x241ea18, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::StringW password, ::ArrayW<uint8_t, ::Array<uint8_t>*> challenge);
 
-  /// @brief Method Finalize, addr 0x23ff130, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x241ef90, size 0xa0, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method set_Password, addr 0x23febf0, size 0x40c, virtual false, abstract: false, final false
+  /// @brief Method set_Password, addr 0x241ea50, size 0x40c, virtual false, abstract: false, final false
   inline void set_Password(::StringW value);
 
-  /// @brief Method set_Challenge, addr 0x23feffc, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method set_Challenge, addr 0x241ee5c, size 0x134, virtual false, abstract: false, final false
   inline void set_Challenge(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method get_LM, addr 0x23ff378, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_LM, addr 0x241f1d8, size 0x64, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_LM();
 
-  /// @brief Method get_NT, addr 0x23ff6b8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_NT, addr 0x241f518, size 0x64, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_NT();
 
-  /// @brief Method Dispose, addr 0x23ff1d0, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x241f030, size 0x64, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x23ff71c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x241f57c, size 0x6c, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method GetResponse, addr 0x23ff3dc, size 0x2dc, virtual false, abstract: false, final false
+  /// @brief Method GetResponse, addr 0x241f23c, size 0x2dc, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetResponse(::ArrayW<uint8_t, ::Array<uint8_t>*> pwd);
 
-  /// @brief Method PrepareDESKey, addr 0x23ff788, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method PrepareDESKey, addr 0x241f5e8, size 0x1f8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> PrepareDESKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key56bits, int32_t position);
 
-  /// @brief Method PasswordToKey, addr 0x23ff234, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method PasswordToKey, addr 0x241f094, size 0x144, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> PasswordToKey(::StringW password, int32_t position);
 
   // Ctor Parameters [CppParam { name: "", ty: "ChallengeResponse", modifiers: "&&", def_value: None }]

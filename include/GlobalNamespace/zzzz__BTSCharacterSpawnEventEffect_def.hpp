@@ -59,8 +59,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BTSCharacterSpawnEventEffect);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14724))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3973))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(15108))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15013))
 // CS Name: ::BTSCharacterSpawnEventEffect*
 class CORDL_TYPE BTSCharacterSpawnEventEffect : public ::UnityEngine::MonoBehaviour {
 public:
@@ -199,38 +199,38 @@ public:
 
   constexpr void __cordl_internal_set__asyncOperationHandles(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
 
-  /// @brief Method add_startCharacterAnimationEvent, addr 0x221a750, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_startCharacterAnimationEvent, addr 0xe2c4a8, size 0xb0, virtual false, abstract: false, final false
   inline void add_startCharacterAnimationEvent(::System::Action_1<::UnityW<::GlobalNamespace::BTSCharacter>>* value);
 
-  /// @brief Method remove_startCharacterAnimationEvent, addr 0x221aba0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_startCharacterAnimationEvent, addr 0xe2c950, size 0xb0, virtual false, abstract: false, final false
   inline void remove_startCharacterAnimationEvent(::System::Action_1<::UnityW<::GlobalNamespace::BTSCharacter>>* value);
 
-  /// @brief Method get_isInitialized, addr 0x221afa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isInitialized, addr 0xe2cb8c, size 0x8, virtual false, abstract: false, final false
   inline bool get_isInitialized();
 
-  /// @brief Method Start, addr 0x221afa8, size 0x5a8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0xe2cb94, size 0x5a8, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method LoadAddressables, addr 0x221b550, size 0x86c, virtual false, abstract: false, final false
+  /// @brief Method LoadAddressables, addr 0xe2d13c, size 0x86c, virtual false, abstract: false, final false
   inline void LoadAddressables();
 
-  /// @brief Method CleanupAddressables, addr 0x221bf3c, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method CleanupAddressables, addr 0xe2db28, size 0x154, virtual false, abstract: false, final false
   inline void CleanupAddressables();
 
-  /// @brief Method OnDestroy, addr 0x221c090, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0xe2dc7c, size 0x28, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleBeatmapEvent, addr 0x221c0b8, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0xe2dca4, size 0x144, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
-  /// @brief Method GetCharacterWithAnimationClip, addr 0x221bdcc, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method GetCharacterWithAnimationClip, addr 0xe2d9b8, size 0x170, virtual false, abstract: false, final false
   static inline ::System::Tuple_2<::UnityW<::GlobalNamespace::BTSCharacter>, ::UnityW<::UnityEngine::AnimationClip>>*
   GetCharacterWithAnimationClip(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::GlobalNamespace::BTSCharacter>>* charDictionary,
                                 ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::AnimationClip>>* animDictionary, int32_t prefabId, int32_t animationId);
 
   static inline ::GlobalNamespace::BTSCharacterSpawnEventEffect* New_ctor();
 
-  /// @brief Method .ctor, addr 0x221c204, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe2ddf0, size 0x130, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BTSCharacterSpawnEventEffect", modifiers: "&&", def_value: None }]

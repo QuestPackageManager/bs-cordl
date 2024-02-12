@@ -45,28 +45,28 @@ public:
 
   constexpr void __cordl_internal_set_targets(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method GetInstance, addr 0x1197e8c, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x11c5d1c, size 0x18c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::TargetInformation* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::TargetInformation* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* targets);
 
-  /// @brief Method .ctor, addr 0x1198018, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11c5ea8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* targets);
 
-  /// @brief Method GetTargetsObjects, addr 0x1198040, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method GetTargetsObjects, addr 0x11c5ed0, size 0x110, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::Targets*, ::Array<::Org::BouncyCastle::Asn1::X509::Targets*>*> GetTargetsObjects();
 
   static inline ::Org::BouncyCastle::Asn1::X509::TargetInformation* New_ctor(::Org::BouncyCastle::Asn1::X509::Targets* targets);
 
-  /// @brief Method .ctor, addr 0x11982dc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11c616c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::Targets* targets);
 
   static inline ::Org::BouncyCastle::Asn1::X509::TargetInformation* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::Target*, ::Array<::Org::BouncyCastle::Asn1::X509::Target*>*> targets);
 
-  /// @brief Method .ctor, addr 0x1198358, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11c61e8, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::Target*, ::Array<::Org::BouncyCastle::Asn1::X509::Target*>*> targets);
 
-  /// @brief Method ToAsn1Object, addr 0x1198444, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x11c62d4, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "TargetInformation", modifiers: "&&", def_value: None }]

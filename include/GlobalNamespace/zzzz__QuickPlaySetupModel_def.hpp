@@ -67,7 +67,7 @@ MARK_VAL_T(::GlobalNamespace::__QuickPlaySetupModel___GetQuickPlaySetupInternal_
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4481))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10891))
 // CS Name: ::QuickPlaySetupModel::QuickPlaySetupDataFB*
 class CORDL_TYPE __QuickPlaySetupModel__QuickPlaySetupDataFB : public ::System::Object {
 public:
@@ -83,7 +83,7 @@ public:
 
   static inline ::GlobalNamespace::__QuickPlaySetupModel__QuickPlaySetupDataFB* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2353fe4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12956a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__QuickPlaySetupModel__QuickPlaySetupDataFB", modifiers: "&&", def_value: None }]
@@ -115,9 +115,9 @@ static_assert(offsetof(::GlobalNamespace::__QuickPlaySetupModel__QuickPlaySetupD
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(4480)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 397 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 898 })] Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(4482)) CS Name: ::QuickPlaySetupModel::<GetQuickPlaySetupInternal>d__10
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3398)), TypeDefinitionIndex(TypeDefinitionIndex(10890)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 398 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3398), inst: 901 })] Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(10892)) CS Name: ::QuickPlaySetupModel::<GetQuickPlaySetupInternal>d__10
 struct CORDL_TYPE __QuickPlaySetupModel___GetQuickPlaySetupInternal_d__10 {
 public:
   // Declarations
@@ -127,10 +127,10 @@ public:
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x2353fec, size 0x7fc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x12956a8, size 0x7fc, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x23547e8, size 0x1058, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x1295ea4, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -185,7 +185,7 @@ static_assert(offsetof(::GlobalNamespace::__QuickPlaySetupModel___GetQuickPlaySe
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4483))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10893))
 // CS Name: ::QuickPlaySetupModel*
 class CORDL_TYPE QuickPlaySetupModel : public ::System::Object {
 public:
@@ -236,27 +236,27 @@ public:
 
   constexpr void __cordl_internal_set__lastRequestTime(::System::DateTime value);
 
-  /// @brief Method GetQuickPlaySetupAsync, addr 0x2353c64, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method GetQuickPlaySetupAsync, addr 0x1295320, size 0x64, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::QuickPlaySetupData*>* GetQuickPlaySetupAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Init, addr 0x2353e28, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x12954e4, size 0x4, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method StartRequest, addr 0x2353dc0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method StartRequest, addr 0x129547c, size 0x68, virtual false, abstract: false, final false
   inline void StartRequest();
 
-  /// @brief Method GetQuickPlaySetupInternal, addr 0x2353e2c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetQuickPlaySetupInternal, addr 0x12954e8, size 0xf4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::QuickPlaySetupData*>* GetQuickPlaySetupInternal();
 
-  /// @brief Method IsQuickPlaySetupTaskValid, addr 0x2353cc8, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method IsQuickPlaySetupTaskValid, addr 0x1295384, size 0xf8, virtual false, abstract: false, final false
   inline bool IsQuickPlaySetupTaskValid();
 
-  /// @brief Method IsUrlValid, addr 0x2353f20, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method IsUrlValid, addr 0x12955dc, size 0x5c, virtual false, abstract: false, final false
   inline bool IsUrlValid(::StringW url);
 
   static inline ::GlobalNamespace::QuickPlaySetupModel* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2353f7c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1295638, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "QuickPlaySetupModel", modifiers: "&&", def_value: None }]

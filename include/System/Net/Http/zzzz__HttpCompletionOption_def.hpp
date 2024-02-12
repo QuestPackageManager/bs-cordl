@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::Http::HttpCompletionOption);
 namespace System::Net::Http {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14645))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14650))
 // CS Name: ::System.Net.Http::HttpCompletionOption
 struct CORDL_TYPE HttpCompletionOption {
 public:

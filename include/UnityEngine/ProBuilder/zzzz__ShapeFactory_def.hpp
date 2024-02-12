@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::ShapeFactory);
 namespace UnityEngine::ProBuilder {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12196))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12094))
 // CS Name: ::UnityEngine.ProBuilder::ShapeFactory*
 class CORDL_TYPE ShapeFactory : public ::System::Object {
 public:
@@ -35,10 +35,10 @@ public:
   /// @brief Method Instantiate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> Instantiate(::UnityEngine::ProBuilder::PivotLocation pivotType);
 
-  /// @brief Method Instantiate, addr 0x2b6d7d0, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method Instantiate, addr 0x2b6c33c, size 0x294, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> Instantiate(::System::Type* shapeType, ::UnityEngine::ProBuilder::PivotLocation pivotType);
 
-  /// @brief Method Instantiate, addr 0x2b6da64, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method Instantiate, addr 0x2b6c5d0, size 0x258, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> Instantiate(::UnityEngine::ProBuilder::Shapes::Shape* shape, ::UnityEngine::ProBuilder::PivotLocation pivotType);
 
   // Ctor Parameters [CppParam { name: "", ty: "ShapeFactory", modifiers: "&&", def_value: None }]

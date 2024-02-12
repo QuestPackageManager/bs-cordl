@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IResolvedStyle);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7363))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6622))
 // CS Name: ::UnityEngine.UIElements::IResolvedStyle*
 class CORDL_TYPE IResolvedStyle {
 public:

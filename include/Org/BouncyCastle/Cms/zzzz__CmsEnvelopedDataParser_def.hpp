@@ -94,27 +94,27 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::CmsEnvelopedDataParser* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> envelopedData);
 
-  /// @brief Method .ctor, addr 0x11df62c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x120d4bc, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> envelopedData);
 
   static inline ::Org::BouncyCastle::Cms::CmsEnvelopedDataParser* New_ctor(::System::IO::Stream* envelopedData);
 
-  /// @brief Method .ctor, addr 0x11df6a4, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x120d534, size 0x2f8, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* envelopedData);
 
-  /// @brief Method get_EncryptionAlgorithmID, addr 0x11df99c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EncryptionAlgorithmID, addr 0x120d82c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_EncryptionAlgorithmID();
 
-  /// @brief Method get_EncryptionAlgOid, addr 0x11df9a4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_EncryptionAlgOid, addr 0x120d834, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_EncryptionAlgOid();
 
-  /// @brief Method get_EncryptionAlgParams, addr 0x11df9d0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_EncryptionAlgParams, addr 0x120d860, size 0x38, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* get_EncryptionAlgParams();
 
-  /// @brief Method GetRecipientInfos, addr 0x11dfa08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetRecipientInfos, addr 0x120d898, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::RecipientInformationStore* GetRecipientInfos();
 
-  /// @brief Method GetUnprotectedAttributes, addr 0x11dfa10, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method GetUnprotectedAttributes, addr 0x120d8a0, size 0x24c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* GetUnprotectedAttributes();
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsEnvelopedDataParser", modifiers: "&&", def_value: None }]

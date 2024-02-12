@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::AtlasSpriteProvider::*)(
     ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle)>(&::UnityEngine::ResourceManagement::ResourceProviders::AtlasSpriteProvider::Provide)> {
   constexpr static std::size_t size = 0x34c;
-  constexpr static std::size_t addrs = 0x2bd5b34;
+  constexpr static std::size_t addrs = 0x2bd36a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::AtlasSpriteProvider::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::AtlasSpriteProvider::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2bd5e80;
+  constexpr static std::size_t addrs = 0x2bd39ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

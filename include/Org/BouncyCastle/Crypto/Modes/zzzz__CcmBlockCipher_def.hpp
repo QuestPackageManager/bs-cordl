@@ -142,64 +142,64 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Modes::CcmBlockCipher* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher);
 
-  /// @brief Method .ctor, addr 0xf154fc, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf4138c, size 0x22c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher);
 
-  /// @brief Method GetUnderlyingCipher, addr 0xf15728, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetUnderlyingCipher, addr 0xf415b8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::IBlockCipher* GetUnderlyingCipher();
 
-  /// @brief Method Init, addr 0xf15730, size 0x1d8, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0xf415c0, size 0x1d8, virtual true, abstract: false, final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method get_AlgorithmName, addr 0xf15978, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0xf41808, size 0xc0, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method GetBlockSize, addr 0xf15a38, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method GetBlockSize, addr 0xf418c8, size 0xa4, virtual true, abstract: false, final false
   inline int32_t GetBlockSize();
 
-  /// @brief Method ProcessAadByte, addr 0xf15adc, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method ProcessAadByte, addr 0xf4196c, size 0x24, virtual true, abstract: false, final false
   inline void ProcessAadByte(uint8_t input);
 
-  /// @brief Method ProcessAadBytes, addr 0xf15b00, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method ProcessAadBytes, addr 0xf41990, size 0x24, virtual true, abstract: false, final false
   inline void ProcessAadBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> inBytes, int32_t inOff, int32_t len);
 
-  /// @brief Method ProcessByte, addr 0xf15b24, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method ProcessByte, addr 0xf419b4, size 0x2c, virtual true, abstract: false, final false
   inline int32_t ProcessByte(uint8_t input, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
-  /// @brief Method ProcessBytes, addr 0xf15b50, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method ProcessBytes, addr 0xf419e0, size 0xa0, virtual true, abstract: false, final false
   inline int32_t ProcessBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> inBytes, int32_t inOff, int32_t inLen, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
-  /// @brief Method DoFinal, addr 0xf15bf0, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method DoFinal, addr 0xf41a80, size 0xa8, virtual true, abstract: false, final false
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
-  /// @brief Method Reset, addr 0xf15c98, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0xf41b28, size 0xdc, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method GetMac, addr 0xf15d74, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method GetMac, addr 0xf41c04, size 0x68, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetMac();
 
-  /// @brief Method GetUpdateOutputSize, addr 0xf15ddc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetUpdateOutputSize, addr 0xf41c6c, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetUpdateOutputSize(int32_t len);
 
-  /// @brief Method GetOutputSize, addr 0xf15de4, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method GetOutputSize, addr 0xf41c74, size 0x54, virtual true, abstract: false, final false
   inline int32_t GetOutputSize(int32_t len);
 
-  /// @brief Method ProcessPacket, addr 0xf15e38, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method ProcessPacket, addr 0xf41cc8, size 0xfc, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ProcessPacket(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t inLen);
 
-  /// @brief Method ProcessPacket, addr 0xf15f34, size 0x8cc, virtual true, abstract: false, final false
+  /// @brief Method ProcessPacket, addr 0xf41dc4, size 0x8cc, virtual true, abstract: false, final false
   inline int32_t ProcessPacket(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t inLen, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method CalculateMac, addr 0xf16800, size 0x894, virtual false, abstract: false, final false
+  /// @brief Method CalculateMac, addr 0xf42690, size 0x894, virtual false, abstract: false, final false
   inline int32_t CalculateMac(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t dataOff, int32_t dataLen, ::ArrayW<uint8_t, ::Array<uint8_t>*> macBlock);
 
-  /// @brief Method GetMacSize, addr 0xf15908, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetMacSize, addr 0xf41798, size 0x70, virtual false, abstract: false, final false
   inline int32_t GetMacSize(bool forEncryption, int32_t requestedMacBits);
 
-  /// @brief Method GetAssociatedTextLength, addr 0xf170ac, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetAssociatedTextLength, addr 0xf42f3c, size 0x38, virtual false, abstract: false, final false
   inline int32_t GetAssociatedTextLength();
 
-  /// @brief Method HasAssociatedText, addr 0xf17094, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HasAssociatedText, addr 0xf42f24, size 0x18, virtual false, abstract: false, final false
   inline bool HasAssociatedText();
 
   // Ctor Parameters [CppParam { name: "", ty: "CcmBlockCipher", modifiers: "&&", def_value: None }]

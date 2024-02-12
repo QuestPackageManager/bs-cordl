@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::GlobalNamespace::EnterTextViewController);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5625))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13558))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4930))
 // CS Name: ::EnterTextViewController*
 class CORDL_TYPE EnterTextViewController : public ::HMUI::ViewController {
 public:
@@ -70,24 +70,24 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::EnterTextViewController>, ::StringW>* value);
 
-  /// @brief Method add_didFinishEvent, addr 0x22afbd0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x22e30f8, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::EnterTextViewController>, ::StringW>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x22afc80, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x22e31a8, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::EnterTextViewController>, ::StringW>* value);
 
-  /// @brief Method Init, addr 0x22afd30, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x22e3258, size 0x24, virtual false, abstract: false, final false
   inline void Init(::StringW titleText);
 
-  /// @brief Method DidActivate, addr 0x22afd54, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x22e327c, size 0xe4, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method OkButtonPressed, addr 0x22afe38, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method OkButtonPressed, addr 0x22e3360, size 0x98, virtual false, abstract: false, final false
   inline void OkButtonPressed();
 
   static inline ::GlobalNamespace::EnterTextViewController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22afed0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22e33f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EnterTextViewController", modifiers: "&&", def_value: None }]

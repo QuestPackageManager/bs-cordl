@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IScheduler);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6940))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6199))
 // CS Name: ::UnityEngine.UIElements::IScheduler*
 class CORDL_TYPE IScheduler {
 public:

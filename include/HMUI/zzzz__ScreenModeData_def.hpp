@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::HMUI::ScreenModeData);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13593))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8993))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13546))
 // CS Name: ::HMUI::ScreenModeData*
 class CORDL_TYPE ScreenModeData : public ::System::Object {
 public:
@@ -91,7 +91,7 @@ public:
   static inline ::HMUI::ScreenModeData* New_ctor(::UnityEngine::Vector3 position, ::UnityEngine::Vector3 rotation, float_t scale, float_t radius, bool offsetHeightByHeadPos,
                                                  float_t yOffsetRelativeToHead, float_t minYPos);
 
-  /// @brief Method .ctor, addr 0x212c3b8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21c0c9c, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 position, ::UnityEngine::Vector3 rotation, float_t scale, float_t radius, bool offsetHeightByHeadPos, float_t yOffsetRelativeToHead, float_t minYPos);
 
   // Ctor Parameters [CppParam { name: "", ty: "ScreenModeData", modifiers: "&&", def_value: None }]

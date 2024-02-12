@@ -31,7 +31,7 @@ public:
 
   static inline ::System::CLSCompliantAttribute* New_ctor(bool isCompliant);
 
-  /// @brief Method .ctor, addr 0x2525328, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2546c0c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool isCompliant);
 
   // Ctor Parameters [CppParam { name: "", ty: "CLSCompliantAttribute", modifiers: "&&", def_value: None }]

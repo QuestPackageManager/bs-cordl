@@ -17,12 +17,12 @@ MARK_REF_PTR_T(::BGLib::DotnetExtension::IntegerExtensions);
 namespace BGLib::DotnetExtension {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15835))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15237))
 // CS Name: ::BGLib.DotnetExtension::IntegerExtensions*
 class CORDL_TYPE IntegerExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToUInt, addr 0xe25bb4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ToUInt, addr 0xe47e28, size 0x18, virtual false, abstract: false, final false
   static inline void ToUInt(int32_t number, ByRef<uint32_t> uNumber, ByRef<bool> isNegative);
 
   // Ctor Parameters [CppParam { name: "", ty: "IntegerExtensions", modifiers: "&&", def_value: None }]

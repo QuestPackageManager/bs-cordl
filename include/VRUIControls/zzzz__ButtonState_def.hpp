@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::VRUIControls::ButtonState);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace VRUIControls {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13166))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15668))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13064))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15826))
 // CS Name: ::VRUIControls::ButtonState*
 class CORDL_TYPE ButtonState : public ::System::Object {
 public:
@@ -61,27 +61,27 @@ public:
 
   constexpr void __cordl_internal_set__pressedValue(float_t value);
 
-  /// @brief Method get_eventData, addr 0x2eb4170, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_eventData, addr 0x2ed02b4, size 0x8, virtual false, abstract: false, final false
   inline ::VRUIControls::MouseButtonEventData* get_eventData();
 
-  /// @brief Method set_eventData, addr 0x2eb4178, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_eventData, addr 0x2ed02bc, size 0x8, virtual false, abstract: false, final false
   inline void set_eventData(::VRUIControls::MouseButtonEventData* value);
 
-  /// @brief Method get_button, addr 0x2eb4180, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_button, addr 0x2ed02c4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::EventSystems::__PointerEventData__InputButton get_button();
 
-  /// @brief Method set_button, addr 0x2eb4188, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_button, addr 0x2ed02cc, size 0x8, virtual false, abstract: false, final false
   inline void set_button(::UnityEngine::EventSystems::__PointerEventData__InputButton value);
 
-  /// @brief Method get_pressedValue, addr 0x2eb4190, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pressedValue, addr 0x2ed02d4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_pressedValue();
 
-  /// @brief Method set_pressedValue, addr 0x2eb4198, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pressedValue, addr 0x2ed02dc, size 0x8, virtual false, abstract: false, final false
   inline void set_pressedValue(float_t value);
 
   static inline ::VRUIControls::ButtonState* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2eb41a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ed02e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ButtonState", modifiers: "&&", def_value: None }]

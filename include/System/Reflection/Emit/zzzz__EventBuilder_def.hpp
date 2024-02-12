@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::System::Reflection::Emit::EventBuilder);
 namespace System::Reflection::Emit {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3538))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3534))
 // CS Name: ::System.Reflection.Emit::EventBuilder*
 class CORDL_TYPE EventBuilder : public ::System::Object {
 public:

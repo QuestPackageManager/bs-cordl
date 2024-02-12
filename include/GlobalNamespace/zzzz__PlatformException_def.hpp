@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::GlobalNamespace::PlatformException);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4036))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16361))
 // CS Name: ::PlatformException::ErrorType
 struct CORDL_TYPE __PlatformException__ErrorType {
 public:
@@ -82,8 +82,8 @@ static_assert(offsetof(::GlobalNamespace::__PlatformException__ErrorType, value_
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2561)), TypeDefinitionIndex(TypeDefinitionIndex(4036))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4037))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2561)), TypeDefinitionIndex(TypeDefinitionIndex(16361))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16362))
 // CS Name: ::PlatformException*
 class CORDL_TYPE PlatformException : public ::System::Exception {
 public:
@@ -119,13 +119,13 @@ public:
 
   static inline ::GlobalNamespace::PlatformException* New_ctor(::GlobalNamespace::__PlatformException__ErrorType error, ::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x2228ee4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x280a860, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__PlatformException__ErrorType error, ::StringW message, ::System::Exception* innerException);
 
   static inline ::GlobalNamespace::PlatformException* New_ctor(::GlobalNamespace::__PlatformException__ErrorType error, int32_t code, int32_t httpCode, ::StringW message,
                                                                ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x2229358, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x280a874, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__PlatformException__ErrorType error, int32_t code, int32_t httpCode, ::StringW message, ::System::Exception* innerException);
 
   // Ctor Parameters [CppParam { name: "", ty: "PlatformException", modifiers: "&&", def_value: None }]

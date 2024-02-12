@@ -49,22 +49,22 @@ public:
 
   static inline ::Org::BouncyCastle::Utilities::IO::Pem::PemHeader* New_ctor(::StringW name, ::StringW val);
 
-  /// @brief Method .ctor, addr 0x115f8fc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x118d78c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::StringW val);
 
-  /// @brief Method get_Name, addr 0x115f928, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x118d7b8, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_Value, addr 0x115f930, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x118d7c0, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method GetHashCode, addr 0x115f938, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x118d7c8, size 0x58, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Equals, addr 0x115f9a8, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x118d838, size 0xb4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x115f990, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x118d820, size 0x18, virtual false, abstract: false, final false
   inline int32_t GetHashCode(::StringW s);
 
   // Ctor Parameters [CppParam { name: "", ty: "PemHeader", modifiers: "&&", def_value: None }]

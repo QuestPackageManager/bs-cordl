@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::Oculus::Platform::IVoipPCMSource);
 namespace Oculus::Platform {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13249))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13146))
 // CS Name: ::Oculus.Platform::IVoipPCMSource*
 class CORDL_TYPE IVoipPCMSource {
 public:

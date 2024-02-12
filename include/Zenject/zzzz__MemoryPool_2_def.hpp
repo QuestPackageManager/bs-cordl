@@ -38,8 +38,8 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TValue>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11049)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11049), inst: 2759 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11039))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10191)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10191), inst: 2729 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10181))
 // CS Name: ::Zenject::MemoryPool`2<TParam1,TValue>*
 class CORDL_TYPE MemoryPool_2 : public ::Zenject::MemoryPoolBase_1<TValue> {
 public:

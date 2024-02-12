@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SliderHapticFeedbackInteractionEffect);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4819)), TypeDefinitionIndex(TypeDefinitionIndex(15036))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4813))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4170)), TypeDefinitionIndex(TypeDefinitionIndex(14909))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4164))
 // CS Name: ::SliderHapticFeedbackInteractionEffect*
 class CORDL_TYPE SliderHapticFeedbackInteractionEffect : public ::GlobalNamespace::SliderInteractionEffect {
 public:
@@ -67,24 +67,24 @@ public:
 
   constexpr void __cordl_internal_set__saberType(::GlobalNamespace::SaberType value);
 
-  /// @brief Method Start, addr 0x2392c34, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x23527e8, size 0x40, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x2392d7c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2352930, size 0xd4, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method StartEffect, addr 0x2392eac, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method StartEffect, addr 0x2352a60, size 0x48, virtual true, abstract: false, final false
   inline void StartEffect(float_t saberInteractionParam);
 
-  /// @brief Method EndEffect, addr 0x2392ef4, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndEffect, addr 0x2352aa8, size 0xc, virtual true, abstract: false, final false
   inline void EndEffect();
 
-  /// @brief Method Vibrate, addr 0x2392e6c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Vibrate, addr 0x2352a20, size 0x40, virtual false, abstract: false, final false
   inline void Vibrate();
 
   static inline ::GlobalNamespace::SliderHapticFeedbackInteractionEffect* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2392f00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2352ab4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SliderHapticFeedbackInteractionEffect", modifiers: "&&", def_value: None }]

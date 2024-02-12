@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::EnvironmentEffectsFilterPreset);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4621))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11038))
 // CS Name: ::EnvironmentEffectsFilterPreset
 struct CORDL_TYPE EnvironmentEffectsFilterPreset {
 public:

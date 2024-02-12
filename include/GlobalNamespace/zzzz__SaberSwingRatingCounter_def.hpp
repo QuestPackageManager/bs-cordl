@@ -44,8 +44,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SaberSwingRatingCounter);
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 201, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10163)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4196))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8907)), TypeDefinitionIndex(TypeDefinitionIndex(8993))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10648))
 // CS Name: ::SaberSwingRatingCounter*
 class CORDL_TYPE SaberSwingRatingCounter : public ::System::Object {
 public:
@@ -259,39 +259,39 @@ public:
 
   constexpr void __cordl_internal_set__finished(bool value);
 
-  /// @brief Method get_beforeCutRating, addr 0x23248bc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_beforeCutRating, addr 0x1268848, size 0x8, virtual true, abstract: false, final true
   inline float_t get_beforeCutRating();
 
-  /// @brief Method get_afterCutRating, addr 0x23248c4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_afterCutRating, addr 0x1268850, size 0x8, virtual true, abstract: false, final true
   inline float_t get_afterCutRating();
 
-  /// @brief Method RegisterDidChangeReceiver, addr 0x23248cc, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method RegisterDidChangeReceiver, addr 0x1268858, size 0x58, virtual true, abstract: false, final true
   inline void RegisterDidChangeReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver* receiver);
 
-  /// @brief Method RegisterDidFinishReceiver, addr 0x2324924, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method RegisterDidFinishReceiver, addr 0x12688b0, size 0x58, virtual true, abstract: false, final true
   inline void RegisterDidFinishReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver* receiver);
 
-  /// @brief Method UnregisterDidChangeReceiver, addr 0x232497c, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method UnregisterDidChangeReceiver, addr 0x1268908, size 0x58, virtual true, abstract: false, final true
   inline void UnregisterDidChangeReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver* receiver);
 
-  /// @brief Method UnregisterDidFinishReceiver, addr 0x23249d4, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method UnregisterDidFinishReceiver, addr 0x1268960, size 0x58, virtual true, abstract: false, final true
   inline void UnregisterDidFinishReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver* receiver);
 
-  /// @brief Method Init, addr 0x2324a2c, size 0x364, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x12689b8, size 0x364, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::ISaberMovementData* saberMovementData, ::UnityEngine::Vector3 notePosition, ::UnityEngine::Quaternion noteRotation, bool rateBeforeCut, bool rateAfterCut);
 
-  /// @brief Method ProcessNewData, addr 0x2324d90, size 0x780, virtual true, abstract: false, final true
+  /// @brief Method ProcessNewData, addr 0x1268d1c, size 0x780, virtual true, abstract: false, final true
   inline void ProcessNewData(::GlobalNamespace::BladeMovementDataElement newData, ::GlobalNamespace::BladeMovementDataElement prevData, bool prevDataAreValid);
 
-  /// @brief Method Finish, addr 0x2325510, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method Finish, addr 0x126949c, size 0x1ac, virtual false, abstract: false, final false
   inline void Finish();
 
-  /// @brief Method DrawGizmos, addr 0x23256bc, size 0x384, virtual false, abstract: false, final false
+  /// @brief Method DrawGizmos, addr 0x1269648, size 0x384, virtual false, abstract: false, final false
   inline void DrawGizmos();
 
   static inline ::GlobalNamespace::SaberSwingRatingCounter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2325a40, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12699cc, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SaberSwingRatingCounter", modifiers: "&&", def_value: None }]

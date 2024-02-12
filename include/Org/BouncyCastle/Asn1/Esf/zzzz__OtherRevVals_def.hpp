@@ -57,26 +57,26 @@ public:
 
   constexpr void __cordl_internal_set_otherRevVals(::Org::BouncyCastle::Asn1::Asn1Object* value);
 
-  /// @brief Method GetInstance, addr 0xe95784, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xebf614, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Esf::OtherRevVals* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::OtherRevVals* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xe9590c, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xebf79c, size 0x208, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::OtherRevVals* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* otherRevValType, ::Org::BouncyCastle::Asn1::Asn1Encodable* otherRevVals);
 
-  /// @brief Method .ctor, addr 0xe95b14, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xebf9a4, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* otherRevValType, ::Org::BouncyCastle::Asn1::Asn1Encodable* otherRevVals);
 
-  /// @brief Method get_OtherRevValType, addr 0xe95bcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OtherRevValType, addr 0xebfa5c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_OtherRevValType();
 
-  /// @brief Method get_OtherRevValsObject, addr 0xe95bd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OtherRevValsObject, addr 0xebfa64, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* get_OtherRevValsObject();
 
-  /// @brief Method ToAsn1Object, addr 0xe95bdc, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xebfa6c, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "OtherRevVals", modifiers: "&&", def_value: None }]

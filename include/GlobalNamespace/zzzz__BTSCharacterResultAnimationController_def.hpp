@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BTSCharacterResultAnimationController);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3969))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15010))
 // CS Name: ::BTSCharacterResultAnimationController*
 class CORDL_TYPE BTSCharacterResultAnimationController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -71,15 +71,15 @@ public:
 
   constexpr void __cordl_internal_set__collidersGameObject(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method SetCharacter, addr 0x2219ba4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetCharacter, addr 0xe2b5f8, size 0x68, virtual false, abstract: false, final false
   inline void SetCharacter(::GlobalNamespace::BTSCharacter* btsCharacter);
 
-  /// @brief Method StopAnimation, addr 0x2219c0c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method StopAnimation, addr 0xe2b660, size 0x20, virtual false, abstract: false, final false
   inline void StopAnimation();
 
   static inline ::GlobalNamespace::BTSCharacterResultAnimationController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2219c2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe2b680, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BTSCharacterResultAnimationController", modifiers: "&&", def_value: None }]

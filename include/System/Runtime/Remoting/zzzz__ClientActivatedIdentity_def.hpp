@@ -47,22 +47,22 @@ public:
 
   static inline ::System::Runtime::Remoting::ClientActivatedIdentity* New_ctor(::StringW objectUri, ::System::Type* objectType);
 
-  /// @brief Method .ctor, addr 0x2493760, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24b57d4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW objectUri, ::System::Type* objectType);
 
-  /// @brief Method GetServerObject, addr 0x249378c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetServerObject, addr 0x24b5800, size 0x8, virtual false, abstract: false, final false
   inline ::System::MarshalByRefObject* GetServerObject();
 
-  /// @brief Method SetClientProxy, addr 0x2493794, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetClientProxy, addr 0x24b5808, size 0x8, virtual false, abstract: false, final false
   inline void SetClientProxy(::System::MarshalByRefObject* obj);
 
-  /// @brief Method OnLifetimeExpired, addr 0x249379c, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method OnLifetimeExpired, addr 0x24b5810, size 0x60, virtual true, abstract: false, final false
   inline void OnLifetimeExpired();
 
-  /// @brief Method SyncObjectProcessMessage, addr 0x24937fc, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method SyncObjectProcessMessage, addr 0x24b5870, size 0xdc, virtual true, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::IMessage* SyncObjectProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
 
-  /// @brief Method AsyncObjectProcessMessage, addr 0x2493a90, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method AsyncObjectProcessMessage, addr 0x24b5b04, size 0xf0, virtual true, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncObjectProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg,
                                                                                          ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 

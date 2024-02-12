@@ -52,9 +52,9 @@ MARK_VAL_T(::TMPro::TMP_CharacterInfo);
 // SizeInfo { instance_size: 376, native_size: -1, calculated_instance_size: 376, calculated_native_size: 389, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10250)), TypeDefinitionIndex(TypeDefinitionIndex(12329)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12331)), TypeDefinitionIndex(TypeDefinitionIndex(12433)), TypeDefinitionIndex(TypeDefinitionIndex(12438))] Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(12332)) CS Name: ::TMPro::TMP_CharacterInfo
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(8994)), TypeDefinitionIndex(TypeDefinitionIndex(12227)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12229)), TypeDefinitionIndex(TypeDefinitionIndex(12331)), TypeDefinitionIndex(TypeDefinitionIndex(12336))] Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(12230)) CS Name: ::TMPro::TMP_CharacterInfo
 struct CORDL_TYPE TMP_CharacterInfo {
 public:
   // Declarations

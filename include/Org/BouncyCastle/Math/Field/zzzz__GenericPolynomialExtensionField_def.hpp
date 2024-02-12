@@ -88,28 +88,28 @@ public:
   static inline ::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField* New_ctor(::Org::BouncyCastle::Math::Field::IFiniteField* subfield,
                                                                                             ::Org::BouncyCastle::Math::Field::IPolynomial* polynomial);
 
-  /// @brief Method .ctor, addr 0x105b2d0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1088160, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::Field::IFiniteField* subfield, ::Org::BouncyCastle::Math::Field::IPolynomial* polynomial);
 
-  /// @brief Method get_Characteristic, addr 0x105b5a4, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method get_Characteristic, addr 0x1088434, size 0xa0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Characteristic();
 
-  /// @brief Method get_Dimension, addr 0x105b644, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method get_Dimension, addr 0x10884d4, size 0x124, virtual true, abstract: false, final false
   inline int32_t get_Dimension();
 
-  /// @brief Method get_Subfield, addr 0x105b768, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Subfield, addr 0x10885f8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::Field::IFiniteField* get_Subfield();
 
-  /// @brief Method get_Degree, addr 0x105b770, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method get_Degree, addr 0x1088600, size 0xa0, virtual true, abstract: false, final false
   inline int32_t get_Degree();
 
-  /// @brief Method get_MinimalPolynomial, addr 0x105b810, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_MinimalPolynomial, addr 0x10886a0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::Field::IPolynomial* get_MinimalPolynomial();
 
-  /// @brief Method Equals, addr 0x105b818, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x10886a8, size 0xd0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x105b8e8, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x1088778, size 0x54, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "GenericPolynomialExtensionField", modifiers: "&&", def_value: None }]

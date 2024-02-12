@@ -16,7 +16,7 @@ MARK_VAL_T(::BeatSaber::AvatarCore::AvatarDisplayContext);
 namespace BeatSaber::AvatarCore {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15169))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15249))
 // CS Name: ::BeatSaber.AvatarCore::AvatarDisplayContext
 struct CORDL_TYPE AvatarDisplayContext {
 public:

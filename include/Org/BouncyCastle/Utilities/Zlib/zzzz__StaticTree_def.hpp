@@ -105,7 +105,7 @@ public:
   static inline ::Org::BouncyCastle::Utilities::Zlib::StaticTree* New_ctor(::ArrayW<int16_t, ::Array<int16_t>*> static_tree, ::ArrayW<int32_t, ::Array<int32_t>*> extra_bits, int32_t extra_base,
                                                                            int32_t elems, int32_t max_length);
 
-  /// @brief Method .ctor, addr 0x11688b8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1197748, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<int16_t, ::Array<int16_t>*> static_tree, ::ArrayW<int32_t, ::Array<int32_t>*> extra_bits, int32_t extra_base, int32_t elems, int32_t max_length);
 
   // Ctor Parameters [CppParam { name: "", ty: "StaticTree", modifiers: "&&", def_value: None }]

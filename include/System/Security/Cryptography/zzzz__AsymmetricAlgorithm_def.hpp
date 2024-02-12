@@ -58,28 +58,28 @@ public:
 
   static inline ::System::Security::Cryptography::AsymmetricAlgorithm* New_ctor();
 
-  /// @brief Method .ctor, addr 0x245bde8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x247ce5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Dispose, addr 0x245bdf0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x247ce64, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Clear, addr 0x245bdf4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x247ce68, size 0x6c, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Dispose, addr 0x245be60, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x247ced4, size 0x4, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method get_KeySize, addr 0x245be64, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_KeySize, addr 0x247ced8, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_KeySize();
 
-  /// @brief Method set_KeySize, addr 0x245be6c, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method set_KeySize, addr 0x247cee0, size 0xdc, virtual true, abstract: false, final false
   inline void set_KeySize(int32_t value);
 
-  /// @brief Method FromXmlString, addr 0x245bf70, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method FromXmlString, addr 0x247cfe4, size 0x40, virtual true, abstract: false, final false
   inline void FromXmlString(::StringW xmlString);
 
-  /// @brief Method ToXmlString, addr 0x245bfb0, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method ToXmlString, addr 0x247d024, size 0x40, virtual true, abstract: false, final false
   inline ::StringW ToXmlString(bool includePrivateParameters);
 
   // Ctor Parameters [CppParam { name: "", ty: "AsymmetricAlgorithm", modifiers: "&&", def_value: None }]

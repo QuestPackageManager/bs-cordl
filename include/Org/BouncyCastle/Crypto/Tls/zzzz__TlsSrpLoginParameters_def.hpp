@@ -64,16 +64,16 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsSrpLoginParameters* New_ctor(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* group, ::Org::BouncyCastle::Math::BigInteger* verifier,
                                                                                   ::ArrayW<uint8_t, ::Array<uint8_t>*> salt);
 
-  /// @brief Method .ctor, addr 0xfb8a24, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfe48b4, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* group, ::Org::BouncyCastle::Math::BigInteger* verifier, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt);
 
-  /// @brief Method get_Group, addr 0xfb8a60, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Group, addr 0xfe48f0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* get_Group();
 
-  /// @brief Method get_Salt, addr 0xfb8a68, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Salt, addr 0xfe48f8, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Salt();
 
-  /// @brief Method get_Verifier, addr 0xfb8a70, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Verifier, addr 0xfe4900, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Verifier();
 
   // Ctor Parameters [CppParam { name: "", ty: "TlsSrpLoginParameters", modifiers: "&&", def_value: None }]

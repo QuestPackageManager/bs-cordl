@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Poly2Tri::PointOnEdgeException);
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2445))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15334))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15494))
 // CS Name: ::UnityEngine.ProBuilder.Poly2Tri::PointOnEdgeException*
 class CORDL_TYPE PointOnEdgeException : public ::System::NotImplementedException {
 public:
@@ -55,7 +55,7 @@ public:
                                                                                     ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* b,
                                                                                     ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* c);
 
-  /// @brief Method .ctor, addr 0x2b33418, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b31f84, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* a, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* b,
                     ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* c);
 

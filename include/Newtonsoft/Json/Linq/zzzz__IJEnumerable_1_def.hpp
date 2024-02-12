@@ -28,7 +28,7 @@ namespace Newtonsoft::Json::Linq {
 template <typename T>
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11975))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11873))
 // CS Name: ::Newtonsoft.Json.Linq::IJEnumerable`1<T>*
 class CORDL_TYPE IJEnumerable_1 {
 public:

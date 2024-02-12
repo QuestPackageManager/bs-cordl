@@ -81,28 +81,28 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters* New_ctor(int32_t L, int32_t N, int32_t certainty, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method .ctor, addr 0xf31a7c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf5c90c, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(int32_t L, int32_t N, int32_t certainty, ::Org::BouncyCastle::Security::SecureRandom* random);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters* New_ctor(int32_t L, int32_t N, int32_t certainty, ::Org::BouncyCastle::Security::SecureRandom* random,
                                                                                                     int32_t usageIndex);
 
-  /// @brief Method .ctor, addr 0xf31ac8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf5c958, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(int32_t L, int32_t N, int32_t certainty, ::Org::BouncyCastle::Security::SecureRandom* random, int32_t usageIndex);
 
-  /// @brief Method get_L, addr 0xf31b1c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_L, addr 0xf5c9ac, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_L();
 
-  /// @brief Method get_N, addr 0xf31b24, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_N, addr 0xf5c9b4, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_N();
 
-  /// @brief Method get_UsageIndex, addr 0xf31b2c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_UsageIndex, addr 0xf5c9bc, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_UsageIndex();
 
-  /// @brief Method get_Certainty, addr 0xf31b34, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Certainty, addr 0xf5c9c4, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Certainty();
 
-  /// @brief Method get_Random, addr 0xf31b3c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Random, addr 0xf5c9cc, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Security::SecureRandom* get_Random();
 
   // Ctor Parameters [CppParam { name: "", ty: "DsaParameterGenerationParameters", modifiers: "&&", def_value: None }]

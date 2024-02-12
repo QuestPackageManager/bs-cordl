@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::GlobalNamespace::HealthCheckService);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12773))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12671))
 // CS Name: ::HealthCheckService*
 class CORDL_TYPE HealthCheckService : public ::System::Object {
 public:
@@ -104,16 +104,16 @@ public:
 
   static inline ::GlobalNamespace::HealthCheckService* New_ctor(int32_t port);
 
-  /// @brief Method .ctor, addr 0xe3c368, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe671a0, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(int32_t port);
 
-  /// @brief Method Dispose, addr 0xe3c46c, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0xe672a4, size 0xa4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method PollUpdate, addr 0xe3c510, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method PollUpdate, addr 0xe67348, size 0x94, virtual true, abstract: false, final true
   inline void PollUpdate();
 
-  /// @brief Method Run, addr 0xe3c5a4, size 0x498, virtual false, abstract: false, final false
+  /// @brief Method Run, addr 0xe673dc, size 0x498, virtual false, abstract: false, final false
   inline void Run();
 
   // Ctor Parameters [CppParam { name: "", ty: "HealthCheckService", modifiers: "&&", def_value: None }]

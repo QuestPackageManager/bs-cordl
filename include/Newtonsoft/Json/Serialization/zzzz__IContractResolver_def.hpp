@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::IContractResolver);
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11933))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11831))
 // CS Name: ::Newtonsoft.Json.Serialization::IContractResolver*
 class CORDL_TYPE IContractResolver {
 public:

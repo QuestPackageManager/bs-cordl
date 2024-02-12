@@ -68,27 +68,27 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::CipherKeyGenerator* New_ctor();
 
-  /// @brief Method .ctor, addr 0xef6a9c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf2192c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Crypto::CipherKeyGenerator* New_ctor(int32_t defaultStrength);
 
-  /// @brief Method .ctor, addr 0xef6aac, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf2193c, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(int32_t defaultStrength);
 
-  /// @brief Method get_DefaultStrength, addr 0xef6b44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultStrength, addr 0xf219d4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_DefaultStrength();
 
-  /// @brief Method Init, addr 0xef6b4c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0xf219dc, size 0x68, virtual false, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
 
-  /// @brief Method engineInit, addr 0xef6bb4, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method engineInit, addr 0xf21a44, size 0x38, virtual true, abstract: false, final false
   inline void engineInit(::Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
 
-  /// @brief Method GenerateKey, addr 0xef6bec, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method GenerateKey, addr 0xf21a7c, size 0x120, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateKey();
 
-  /// @brief Method engineGenerateKey, addr 0xef6d0c, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method engineGenerateKey, addr 0xf21b9c, size 0x64, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> engineGenerateKey();
 
   // Ctor Parameters [CppParam { name: "", ty: "CipherKeyGenerator", modifiers: "&&", def_value: None }]

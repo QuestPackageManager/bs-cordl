@@ -38,18 +38,6 @@ struct __AppInit___StartGameAsync_d__11;
 namespace GlobalNamespace {
 class __AppInit____c;
 }
-namespace GlobalNamespace {
-class __AppInit____c__DisplayClass21_0;
-}
-namespace GlobalNamespace {
-class __AppInit____c__DisplayClass21_0____WaitUntilAsync_g__WaitUntilPredicateTrue_0_d;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System::Collections {
-class IEnumerator;
-}
 namespace System::Runtime::CompilerServices {
 struct AsyncTaskMethodBuilder;
 }
@@ -63,19 +51,10 @@ namespace System::Runtime::CompilerServices {
 struct TaskAwaiter;
 }
 namespace System::Threading::Tasks {
-template <typename TResult> class TaskCompletionSource_1;
-}
-namespace System::Threading::Tasks {
 class Task;
 }
 namespace System {
 template <typename TResult> class Func_1;
-}
-namespace System {
-class IDisposable;
-}
-namespace System {
-class Object;
 }
 namespace UnityEngine {
 class GameObject;
@@ -91,12 +70,6 @@ namespace GlobalNamespace {
 class __AppInit____c;
 }
 namespace GlobalNamespace {
-class __AppInit____c__DisplayClass21_0;
-}
-namespace GlobalNamespace {
-class __AppInit____c__DisplayClass21_0____WaitUntilAsync_g__WaitUntilPredicateTrue_0_d;
-}
-namespace GlobalNamespace {
 struct __AppInit___Awake_d__10;
 }
 namespace GlobalNamespace {
@@ -109,8 +82,6 @@ struct __AppInit___StartGameAsync_d__11;
 MARK_VAL_T(::GlobalNamespace::__AppInit__AppStartType);
 MARK_REF_PTR_T(::GlobalNamespace::AppInit);
 MARK_REF_PTR_T(::GlobalNamespace::__AppInit____c);
-MARK_REF_PTR_T(::GlobalNamespace::__AppInit____c__DisplayClass21_0);
-MARK_REF_PTR_T(::GlobalNamespace::__AppInit____c__DisplayClass21_0____WaitUntilAsync_g__WaitUntilPredicateTrue_0_d);
 MARK_VAL_T(::GlobalNamespace::__AppInit___Awake_d__10);
 MARK_VAL_T(::GlobalNamespace::__AppInit___InitializeAsync_d__13);
 MARK_VAL_T(::GlobalNamespace::__AppInit___StartGameAsync_d__11);
@@ -119,7 +90,7 @@ MARK_VAL_T(::GlobalNamespace::__AppInit___StartGameAsync_d__11);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15385))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15434))
 // CS Name: ::AppInit::AppStartType
 struct CORDL_TYPE __AppInit__AppStartType {
 public:
@@ -172,8 +143,8 @@ static_assert(offsetof(::GlobalNamespace::__AppInit__AppStartType, value__) == 0
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3400))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15386))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3389)), TypeDefinitionIndex(TypeDefinitionIndex(3396))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15435))
 // CS Name: ::AppInit::<Awake>d__10
 struct CORDL_TYPE __AppInit___Awake_d__10 {
 public:
@@ -184,10 +155,10 @@ public:
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0xe1dcfc, size 0x228, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0xe3f618, size 0x228, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0xe1df24, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0xe3f840, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -233,8 +204,8 @@ static_assert(offsetof(::GlobalNamespace::__AppInit___Awake_d__10, __u__1) == 0x
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3401))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15387))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3389)), TypeDefinitionIndex(TypeDefinitionIndex(3397))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15436))
 // CS Name: ::AppInit::<StartGameAsync>d__11
 struct CORDL_TYPE __AppInit___StartGameAsync_d__11 {
 public:
@@ -245,10 +216,10 @@ public:
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0xe1df30, size 0x2d4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0xe3f84c, size 0x2d4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0xe1e2cc, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0xe3fbe8, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -295,7 +266,7 @@ static_assert(offsetof(::GlobalNamespace::__AppInit___StartGameAsync_d__11, __u_
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15388))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15437))
 // CS Name: ::AppInit::<>c*
 class CORDL_TYPE __AppInit____c : public ::System::Object {
 public:
@@ -316,10 +287,10 @@ public:
 
   static inline ::GlobalNamespace::__AppInit____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe1e33c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe3fc58, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <InitializeAsync>b__13_1, addr 0xe1e344, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <InitializeAsync>b__13_1, addr 0xe3fc60, size 0x8, virtual false, abstract: false, final false
   inline bool _InitializeAsync_b__13_1();
 
   // Ctor Parameters [CppParam { name: "", ty: "__AppInit____c", modifiers: "&&", def_value: None }]
@@ -346,8 +317,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__AppInit____c,
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(15385))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15389))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3389)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(15434))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15438))
 // CS Name: ::AppInit::<InitializeAsync>d__13
 struct CORDL_TYPE __AppInit___InitializeAsync_d__13 {
 public:
@@ -358,10 +329,10 @@ public:
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0xe1e34c, size 0x52c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0xe3fc68, size 0x52c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0xe1e96c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0xe40288, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -409,200 +380,16 @@ static_assert(offsetof(::GlobalNamespace::__AppInit___InitializeAsync_d__13, _st
 static_assert(offsetof(::GlobalNamespace::__AppInit___InitializeAsync_d__13, __u__1) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<<WaitUntilAsync>g__WaitUntilPredicateTrue|0>d
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
-namespace GlobalNamespace {
-// Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15390))
-// CS Name: ::AppInit::<>c__DisplayClass21_0::<<WaitUntilAsync>g__WaitUntilPredicateTrue|0>d*
-class CORDL_TYPE __AppInit____c__DisplayClass21_0____WaitUntilAsync_g__WaitUntilPredicateTrue_0_d : public ::System::Object {
-public:
-  // Declarations
-  /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
-
-  /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
-
-  /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::GlobalNamespace::__AppInit____c__DisplayClass21_0* __4__this;
-
-  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
-
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
-
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-  constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
-
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
-
-  /// @brief Convert operator to "::System::Collections::IEnumerator"
-  constexpr operator ::System::Collections::IEnumerator*() noexcept;
-
-  /// @brief Convert to "::System::Collections::IEnumerator"
-  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
-
-  /// @brief Convert operator to "::System::IDisposable"
-  constexpr operator ::System::IDisposable*() noexcept;
-
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
-
-  constexpr int32_t& __cordl_internal_get___1__state();
-
-  constexpr int32_t const& __cordl_internal_get___1__state() const;
-
-  constexpr void __cordl_internal_set___1__state(int32_t value);
-
-  constexpr ::System::Object*& __cordl_internal_get___2__current();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
-
-  constexpr void __cordl_internal_set___2__current(::System::Object* value);
-
-  constexpr ::GlobalNamespace::__AppInit____c__DisplayClass21_0*& __cordl_internal_get___4__this();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__AppInit____c__DisplayClass21_0*> const& __cordl_internal_get___4__this() const;
-
-  constexpr void __cordl_internal_set___4__this(::GlobalNamespace::__AppInit____c__DisplayClass21_0* value);
-
-  static inline ::GlobalNamespace::__AppInit____c__DisplayClass21_0____WaitUntilAsync_g__WaitUntilPredicateTrue_0_d* New_ctor(int32_t __1__state);
-
-  /// @brief Method .ctor, addr 0xe1e978, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(int32_t __1__state);
-
-  /// @brief Method System.IDisposable.Dispose, addr 0xe1e9a0, size 0x4, virtual true, abstract: false, final true
-  inline void System_IDisposable_Dispose();
-
-  /// @brief Method MoveNext, addr 0xe1e9a4, size 0xcc, virtual true, abstract: false, final true
-  inline bool MoveNext();
-
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0xe1ea70, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
-
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0xe1ea78, size 0x40, virtual true, abstract: false, final true
-  inline void System_Collections_IEnumerator_Reset();
-
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0xe1eab8, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_IEnumerator_get_Current();
-
-  // Ctor Parameters [CppParam { name: "", ty: "__AppInit____c__DisplayClass21_0____WaitUntilAsync_g__WaitUntilPredicateTrue_0_d", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __AppInit____c__DisplayClass21_0____WaitUntilAsync_g__WaitUntilPredicateTrue_0_d(__AppInit____c__DisplayClass21_0____WaitUntilAsync_g__WaitUntilPredicateTrue_0_d&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__AppInit____c__DisplayClass21_0____WaitUntilAsync_g__WaitUntilPredicateTrue_0_d", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __AppInit____c__DisplayClass21_0____WaitUntilAsync_g__WaitUntilPredicateTrue_0_d(__AppInit____c__DisplayClass21_0____WaitUntilAsync_g__WaitUntilPredicateTrue_0_d const&) = delete;
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __AppInit____c__DisplayClass21_0____WaitUntilAsync_g__WaitUntilPredicateTrue_0_d();
-
-public:
-  /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
-  int32_t _____1__state;
-
-  /// @brief Field <>2__current, offset: 0x18, size: 0x8, def value: None
-  ::System::Object* _____2__current;
-
-  /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::__AppInit____c__DisplayClass21_0* _____4__this;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__AppInit____c__DisplayClass21_0____WaitUntilAsync_g__WaitUntilPredicateTrue_0_d, 0x28>, "Size mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__AppInit____c__DisplayClass21_0____WaitUntilAsync_g__WaitUntilPredicateTrue_0_d, _____1__state) == 0x10, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__AppInit____c__DisplayClass21_0____WaitUntilAsync_g__WaitUntilPredicateTrue_0_d, _____2__current) == 0x18, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__AppInit____c__DisplayClass21_0____WaitUntilAsync_g__WaitUntilPredicateTrue_0_d, _____4__this) == 0x20, "Offset mismatch!");
-
-} // namespace GlobalNamespace
-// Type: ::<>c__DisplayClass21_0
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
-namespace GlobalNamespace {
-// Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15391))
-// CS Name: ::AppInit::<>c__DisplayClass21_0*
-class CORDL_TYPE __AppInit____c__DisplayClass21_0 : public ::System::Object {
-public:
-  // Declarations
-  using __WaitUntilAsync_g__WaitUntilPredicateTrue_0_d = ::GlobalNamespace::__AppInit____c__DisplayClass21_0____WaitUntilAsync_g__WaitUntilPredicateTrue_0_d;
-
-  /// @brief Field predicate, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_predicate, put = __cordl_internal_set_predicate))::System::Func_1<bool>* predicate;
-
-  /// @brief Field tcs, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_tcs, put = __cordl_internal_set_tcs))::System::Threading::Tasks::TaskCompletionSource_1<int32_t>* tcs;
-
-  constexpr ::System::Func_1<bool>*& __cordl_internal_get_predicate();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<bool>*> const& __cordl_internal_get_predicate() const;
-
-  constexpr void __cordl_internal_set_predicate(::System::Func_1<bool>* value);
-
-  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<int32_t>*& __cordl_internal_get_tcs();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<int32_t>*> const& __cordl_internal_get_tcs() const;
-
-  constexpr void __cordl_internal_set_tcs(::System::Threading::Tasks::TaskCompletionSource_1<int32_t>* value);
-
-  static inline ::GlobalNamespace::__AppInit____c__DisplayClass21_0* New_ctor();
-
-  /// @brief Method .ctor, addr 0xe1dbd4, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method <WaitUntilAsync>g__WaitUntilPredicateTrue|0, addr 0xe1dbdc, size 0x68, virtual false, abstract: false, final false
-  inline ::System::Collections::IEnumerator* _WaitUntilAsync_g__WaitUntilPredicateTrue_0();
-
-  // Ctor Parameters [CppParam { name: "", ty: "__AppInit____c__DisplayClass21_0", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __AppInit____c__DisplayClass21_0(__AppInit____c__DisplayClass21_0&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__AppInit____c__DisplayClass21_0", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __AppInit____c__DisplayClass21_0(__AppInit____c__DisplayClass21_0 const&) = delete;
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __AppInit____c__DisplayClass21_0();
-
-public:
-  /// @brief Field predicate, offset: 0x10, size: 0x8, def value: None
-  ::System::Func_1<bool>* ___predicate;
-
-  /// @brief Field tcs, offset: 0x18, size: 0x8, def value: None
-  ::System::Threading::Tasks::TaskCompletionSource_1<int32_t>* ___tcs;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__AppInit____c__DisplayClass21_0, 0x20>, "Size mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__AppInit____c__DisplayClass21_0, ___predicate) == 0x10, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__AppInit____c__DisplayClass21_0, ___tcs) == 0x18, "Offset mismatch!");
-
-} // namespace GlobalNamespace
 // Type: ::AppInit
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11138))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15392))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10280))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15439))
 // CS Name: ::AppInit*
 class CORDL_TYPE AppInit : public ::Zenject::MonoInstaller {
 public:
   // Declarations
-  using __c__DisplayClass21_0 = ::GlobalNamespace::__AppInit____c__DisplayClass21_0;
-
   using _InitializeAsync_d__13 = ::GlobalNamespace::__AppInit___InitializeAsync_d__13;
 
   using __c = ::GlobalNamespace::__AppInit____c;
@@ -663,34 +450,34 @@ public:
 
   constexpr void __cordl_internal_set__gameScenesManager(::UnityW<::GlobalNamespace::GameScenesManager> value);
 
-  /// @brief Method get_gameScenesManager, addr 0xe1d57c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameScenesManager, addr 0xe3efe8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::GameScenesManager> get_gameScenesManager();
 
-  /// @brief Method get_isTestContext, addr 0xe1d584, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_isTestContext, addr 0xe3eff0, size 0x20, virtual false, abstract: false, final false
   inline bool get_isTestContext();
 
-  /// @brief Method Awake, addr 0xe1d5a4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0xe3f010, size 0x94, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method StartGameAsync, addr 0xe1d638, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method StartGameAsync, addr 0xe3f0a4, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* StartGameAsync();
 
-  /// @brief Method PreloadAsync, addr 0xe1d700, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method PreloadAsync, addr 0xe3f16c, size 0x88, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* PreloadAsync();
 
-  /// @brief Method InitializeAsync, addr 0xe1d788, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method InitializeAsync, addr 0xe3f1f4, size 0xcc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* InitializeAsync();
 
-  /// @brief Method OnDestroy, addr 0xe1d854, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0xe3f2c0, size 0xd0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleBeforeDismissingScenes, addr 0xe1d9c0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method HandleBeforeDismissingScenes, addr 0xe3f42c, size 0x9c, virtual false, abstract: false, final false
   inline void HandleBeforeDismissingScenes();
 
-  /// @brief Method GetAppStartType, addr 0xe1da5c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetAppStartType, addr 0xe3f4c8, size 0x94, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__AppInit__AppStartType GetAppStartType();
 
-  /// @brief Method InstallBindings, addr 0xe1daf0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0xe3f55c, size 0x4, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   /// @brief Method AppStartAndMultiSceneEditorSetup, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -702,15 +489,12 @@ public:
   /// @brief Method TransitionToNextScene, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void TransitionToNextScene();
 
-  /// @brief Method WaitUntilAsync, addr 0xe1daf4, size 0xe0, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* WaitUntilAsync(::System::Func_1<bool>* predicate);
-
   static inline ::GlobalNamespace::AppInit* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe1dc44, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe3f560, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <InitializeAsync>b__13_0, addr 0xe1dcd8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <InitializeAsync>b__13_0, addr 0xe3f5f4, size 0x24, virtual false, abstract: false, final false
   inline bool _InitializeAsync_b__13_0();
 
   // Ctor Parameters [CppParam { name: "", ty: "AppInit", modifiers: "&&", def_value: None }]
@@ -763,11 +547,6 @@ NEED_NO_BOX(::GlobalNamespace::AppInit);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AppInit*, "", "AppInit");
 NEED_NO_BOX(::GlobalNamespace::__AppInit____c);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__AppInit____c*, "", "AppInit/<>c");
-NEED_NO_BOX(::GlobalNamespace::__AppInit____c__DisplayClass21_0);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__AppInit____c__DisplayClass21_0*, "", "AppInit/<>c__DisplayClass21_0");
-NEED_NO_BOX(::GlobalNamespace::__AppInit____c__DisplayClass21_0____WaitUntilAsync_g__WaitUntilPredicateTrue_0_d);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__AppInit____c__DisplayClass21_0____WaitUntilAsync_g__WaitUntilPredicateTrue_0_d*, "",
-                       "AppInit/<>c__DisplayClass21_0/<<WaitUntilAsync>g__WaitUntilPredicateTrue|0>d");
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__AppInit___Awake_d__10, "", "AppInit/<Awake>d__10");
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__AppInit___InitializeAsync_d__13, "", "AppInit/<InitializeAsync>d__13");
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__AppInit___StartGameAsync_d__11, "", "AppInit/<StartGameAsync>d__11");

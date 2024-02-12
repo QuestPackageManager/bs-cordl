@@ -16,7 +16,7 @@ MARK_VAL_T(::Internal::Cryptography::Pal::GeneralNameType);
 namespace Internal::Cryptography::Pal {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8855))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6865))
 // CS Name: ::Internal.Cryptography.Pal::GeneralNameType
 struct CORDL_TYPE GeneralNameType {
 public:

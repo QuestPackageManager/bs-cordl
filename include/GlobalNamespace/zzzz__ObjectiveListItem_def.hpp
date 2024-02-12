@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ObjectiveListItem);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5800))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5098))
 // CS Name: ::ObjectiveListItem*
 class CORDL_TYPE ObjectiveListItem : public ::UnityEngine::MonoBehaviour {
 public:
@@ -48,18 +48,18 @@ public:
 
   constexpr void __cordl_internal_set__conditionText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method set_title, addr 0x22e78d8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_title, addr 0x2316860, size 0x24, virtual false, abstract: false, final false
   inline void set_title(::StringW value);
 
-  /// @brief Method set_conditionText, addr 0x22e78fc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_conditionText, addr 0x2316884, size 0x24, virtual false, abstract: false, final false
   inline void set_conditionText(::StringW value);
 
-  /// @brief Method set_hideCondition, addr 0x22e7920, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method set_hideCondition, addr 0x23168a8, size 0x34, virtual false, abstract: false, final false
   inline void set_hideCondition(bool value);
 
   static inline ::GlobalNamespace::ObjectiveListItem* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22e7954, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23168dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ObjectiveListItem", modifiers: "&&", def_value: None }]

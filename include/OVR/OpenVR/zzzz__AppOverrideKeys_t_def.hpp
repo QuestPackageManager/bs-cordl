@@ -17,7 +17,7 @@ MARK_VAL_T(::OVR::OpenVR::AppOverrideKeys_t);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8703))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8647))
 // CS Name: ::OVR.OpenVR::AppOverrideKeys_t
 struct CORDL_TYPE AppOverrideKeys_t {
 public:

@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::UnityEngine::PreferBinarySerialization);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10050))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8782))
 // CS Name: ::UnityEngine::PreferBinarySerialization*
 class CORDL_TYPE PreferBinarySerialization : public ::System::Attribute {
 public:

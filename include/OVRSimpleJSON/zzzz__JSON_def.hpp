@@ -19,12 +19,12 @@ MARK_REF_PTR_T(::OVRSimpleJSON::JSON);
 namespace OVRSimpleJSON {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8215))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8159))
 // CS Name: ::OVRSimpleJSON::JSON*
 class CORDL_TYPE JSON : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Parse, addr 0x27cf0ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x27dd8a0, size 0x8, virtual false, abstract: false, final false
   static inline ::OVRSimpleJSON::JSONNode* Parse(::StringW aJSON);
 
   // Ctor Parameters [CppParam { name: "", ty: "JSON", modifiers: "&&", def_value: None }]

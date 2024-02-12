@@ -19,12 +19,12 @@ MARK_REF_PTR_T(::System::IOSelector);
 namespace System {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8897))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6907))
 // CS Name: ::System::IOSelector*
 class CORDL_TYPE IOSelector : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Add, addr 0x294d8fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x2951ff8, size 0x4, virtual false, abstract: false, final false
   static inline void Add(void* handle, ::System::IOSelectorJob* job);
 
   // Ctor Parameters [CppParam { name: "", ty: "IOSelector", modifiers: "&&", def_value: None }]

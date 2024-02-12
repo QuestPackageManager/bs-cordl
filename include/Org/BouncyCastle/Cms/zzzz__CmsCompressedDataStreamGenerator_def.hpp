@@ -81,17 +81,17 @@ public:
                                                                                                                   ::Org::BouncyCastle::Asn1::BerSequenceGenerator* cGen,
                                                                                                                   ::Org::BouncyCastle::Asn1::BerSequenceGenerator* eiGen);
 
-  /// @brief Method .ctor, addr 0x11dd604, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x120b494, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Utilities::Zlib::ZOutputStream* outStream, ::Org::BouncyCastle::Asn1::BerSequenceGenerator* sGen, ::Org::BouncyCastle::Asn1::BerSequenceGenerator* cGen,
                     ::Org::BouncyCastle::Asn1::BerSequenceGenerator* eiGen);
 
-  /// @brief Method WriteByte, addr 0x11dd644, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method WriteByte, addr 0x120b4d4, size 0x24, virtual true, abstract: false, final false
   inline void WriteByte(uint8_t b);
 
-  /// @brief Method Write, addr 0x11dd668, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x120b4f8, size 0x24, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t off, int32_t len);
 
-  /// @brief Method Close, addr 0x11dd68c, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x120b51c, size 0xa8, virtual true, abstract: false, final false
   inline void Close();
 
   // Ctor Parameters [CppParam { name: "", ty: "__CmsCompressedDataStreamGenerator__CmsCompressedOutputStream", modifiers: "&&", def_value: None }]
@@ -157,16 +157,16 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::CmsCompressedDataStreamGenerator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x11dd2b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x120b144, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method SetBufferSize, addr 0x11dd2bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetBufferSize, addr 0x120b14c, size 0x8, virtual false, abstract: false, final false
   inline void SetBufferSize(int32_t bufferSize);
 
-  /// @brief Method Open, addr 0x11dd2c4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x120b154, size 0x7c, virtual false, abstract: false, final false
   inline ::System::IO::Stream* Open(::System::IO::Stream* outStream, ::StringW compressionOID);
 
-  /// @brief Method Open, addr 0x11dd340, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x120b1d0, size 0x2c4, virtual false, abstract: false, final false
   inline ::System::IO::Stream* Open(::System::IO::Stream* outStream, ::StringW contentOID, ::StringW compressionOID);
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsCompressedDataStreamGenerator", modifiers: "&&", def_value: None }]

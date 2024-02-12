@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::Unity::XR::OpenVR::OpenVRHMD);
 // SizeInfo { instance_size: 488, native_size: -1, calculated_instance_size: 488, calculated_native_size: 488, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::XR::OpenVR {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6324))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6115))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5583))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5374))
 // CS Name: ::Unity.XR.OpenVR::OpenVRHMD*
 class CORDL_TYPE OpenVRHMD : public ::UnityEngine::InputSystem::XR::XRHMD {
 public:
@@ -119,60 +119,60 @@ public:
 
   constexpr void __cordl_internal_set__centerEyeAngularVelocity_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method get_deviceVelocity, addr 0x2a33d90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_deviceVelocity, addr 0x2a368fc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_deviceVelocity();
 
-  /// @brief Method set_deviceVelocity, addr 0x2a33d98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_deviceVelocity, addr 0x2a36904, size 0x8, virtual false, abstract: false, final false
   inline void set_deviceVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method get_deviceAngularVelocity, addr 0x2a33da0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_deviceAngularVelocity, addr 0x2a3690c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_deviceAngularVelocity();
 
-  /// @brief Method set_deviceAngularVelocity, addr 0x2a33da8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_deviceAngularVelocity, addr 0x2a36914, size 0x8, virtual false, abstract: false, final false
   inline void set_deviceAngularVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method get_leftEyeVelocity, addr 0x2a33db0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftEyeVelocity, addr 0x2a3691c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_leftEyeVelocity();
 
-  /// @brief Method set_leftEyeVelocity, addr 0x2a33db8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_leftEyeVelocity, addr 0x2a36924, size 0x8, virtual false, abstract: false, final false
   inline void set_leftEyeVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method get_leftEyeAngularVelocity, addr 0x2a33dc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftEyeAngularVelocity, addr 0x2a3692c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_leftEyeAngularVelocity();
 
-  /// @brief Method set_leftEyeAngularVelocity, addr 0x2a33dc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_leftEyeAngularVelocity, addr 0x2a36934, size 0x8, virtual false, abstract: false, final false
   inline void set_leftEyeAngularVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method get_rightEyeVelocity, addr 0x2a33dd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightEyeVelocity, addr 0x2a3693c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_rightEyeVelocity();
 
-  /// @brief Method set_rightEyeVelocity, addr 0x2a33dd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rightEyeVelocity, addr 0x2a36944, size 0x8, virtual false, abstract: false, final false
   inline void set_rightEyeVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method get_rightEyeAngularVelocity, addr 0x2a33de0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightEyeAngularVelocity, addr 0x2a3694c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_rightEyeAngularVelocity();
 
-  /// @brief Method set_rightEyeAngularVelocity, addr 0x2a33de8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rightEyeAngularVelocity, addr 0x2a36954, size 0x8, virtual false, abstract: false, final false
   inline void set_rightEyeAngularVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method get_centerEyeVelocity, addr 0x2a33df0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_centerEyeVelocity, addr 0x2a3695c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_centerEyeVelocity();
 
-  /// @brief Method set_centerEyeVelocity, addr 0x2a33df8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_centerEyeVelocity, addr 0x2a36964, size 0x8, virtual false, abstract: false, final false
   inline void set_centerEyeVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method get_centerEyeAngularVelocity, addr 0x2a33e00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_centerEyeAngularVelocity, addr 0x2a3696c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_centerEyeAngularVelocity();
 
-  /// @brief Method set_centerEyeAngularVelocity, addr 0x2a33e08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_centerEyeAngularVelocity, addr 0x2a36974, size 0x8, virtual false, abstract: false, final false
   inline void set_centerEyeAngularVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method FinishSetup, addr 0x2a33e10, size 0x1ac, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x2a3697c, size 0x1ac, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::Unity::XR::OpenVR::OpenVRHMD* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2a33fbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a36b28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OpenVRHMD", modifiers: "&&", def_value: None }]

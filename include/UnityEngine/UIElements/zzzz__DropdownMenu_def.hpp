@@ -44,7 +44,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::DropdownMenu);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6949))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6208))
 // CS Name: ::UnityEngine.UIElements::DropdownMenu*
 class CORDL_TYPE DropdownMenu : public ::System::Object {
 public:
@@ -67,17 +67,17 @@ public:
 
   constexpr void __cordl_internal_set_m_DropdownMenuEventInfo(::UnityEngine::UIElements::DropdownMenuEventInfo* value);
 
-  /// @brief Method MenuItems, addr 0x2e08604, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method MenuItems, addr 0x2e259ec, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::DropdownMenuItem*>* MenuItems();
 
-  /// @brief Method AppendAction, addr 0x2e0860c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method AppendAction, addr 0x2e259f4, size 0x104, virtual false, abstract: false, final false
   inline void AppendAction(::StringW actionName, ::System::Action_1<::UnityEngine::UIElements::DropdownMenuAction*>* action,
                            ::System::Func_2<::UnityEngine::UIElements::DropdownMenuAction*, ::UnityEngine::UIElements::__DropdownMenuAction__Status>* actionStatusCallback, ::System::Object* userData);
 
-  /// @brief Method InsertSeparator, addr 0x2e08710, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method InsertSeparator, addr 0x2e25af8, size 0x140, virtual false, abstract: false, final false
   inline void InsertSeparator(::StringW subMenuPath, int32_t atIndex);
 
-  /// @brief Method PrepareForDisplay, addr 0x2e08850, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method PrepareForDisplay, addr 0x2e25c38, size 0x2bc, virtual false, abstract: false, final false
   inline void PrepareForDisplay(::UnityEngine::UIElements::EventBase* e);
 
   // Ctor Parameters [CppParam { name: "", ty: "DropdownMenu", modifiers: "&&", def_value: None }]

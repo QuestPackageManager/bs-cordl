@@ -142,13 +142,13 @@ public:
   static inline ::System::Runtime::Serialization::Formatters::Binary::PrimitiveArray* New_ctor(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code,
                                                                                                ::System::Array* array);
 
-  /// @brief Method .ctor, addr 0x24cdc8c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24eed00, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code, ::System::Array* array);
 
-  /// @brief Method Init, addr 0x24d61c8, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x24f723c, size 0x320, virtual false, abstract: false, final false
   inline void Init(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code, ::System::Array* array);
 
-  /// @brief Method SetValue, addr 0x24ce594, size 0x3bc, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x24ef608, size 0x3bc, virtual false, abstract: false, final false
   inline void SetValue(::StringW value, int32_t index);
 
   // Ctor Parameters [CppParam { name: "", ty: "PrimitiveArray", modifiers: "&&", def_value: None }]

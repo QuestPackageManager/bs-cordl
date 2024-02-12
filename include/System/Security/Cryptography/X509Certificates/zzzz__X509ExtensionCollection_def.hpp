@@ -42,7 +42,7 @@ MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509Extension
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9012))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7022))
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509ExtensionCollection*
 class CORDL_TYPE X509ExtensionCollection : public ::System::Object {
 public:
@@ -85,31 +85,31 @@ public:
 
   static inline ::System::Security::Cryptography::X509Certificates::X509ExtensionCollection* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2984838, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29882dc, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Count, addr 0x29848a4, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method get_Count, addr 0x2988348, size 0x24, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_IsSynchronized, addr 0x29848c8, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method get_IsSynchronized, addr 0x298836c, size 0x24, virtual true, abstract: false, final true
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_SyncRoot, addr 0x29848ec, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method get_SyncRoot, addr 0x2988390, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* get_SyncRoot();
 
-  /// @brief Method get_Item, addr 0x29848f0, size 0x3ac, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x2988394, size 0x3ac, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Extension* get_Item(::StringW oid);
 
-  /// @brief Method Add, addr 0x2984c9c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x2988740, size 0x74, virtual false, abstract: false, final false
   inline int32_t Add(::System::Security::Cryptography::X509Certificates::X509Extension* extension);
 
-  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x2984d10, size 0x104, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x29887b4, size 0x104, virtual true, abstract: false, final true
   inline void System_Collections_ICollection_CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method GetEnumerator, addr 0x2984e14, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x29888b8, size 0x64, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509ExtensionEnumerator* GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2984ebc, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2988960, size 0x64, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   // Ctor Parameters [CppParam { name: "", ty: "X509ExtensionCollection", modifiers: "&&", def_value: None }]

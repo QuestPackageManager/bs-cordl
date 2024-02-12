@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::Zenject::Internal::SingletonMarkRegistry);
 namespace Zenject::Internal {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11368))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10510))
 // CS Name: ::Zenject.Internal::SingletonMarkRegistry*
 class CORDL_TYPE SingletonMarkRegistry : public ::System::Object {
 public:
@@ -44,18 +44,18 @@ public:
 
   constexpr void __cordl_internal_set__boundNonSingletons(::System::Collections::Generic::HashSet_1<::System::Type*>* value);
 
-  /// @brief Method MarkNonSingleton, addr 0x2f214b0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method MarkNonSingleton, addr 0x2f3d738, size 0xac, virtual false, abstract: false, final false
   inline void MarkNonSingleton(::System::Type* type);
 
-  /// @brief Method MarkSingleton, addr 0x2f2155c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method MarkSingleton, addr 0x2f3d7e4, size 0xd4, virtual false, abstract: false, final false
   inline void MarkSingleton(::System::Type* type);
 
-  /// @brief Method Unmark, addr 0x2f21630, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Unmark, addr 0x2f3d8b8, size 0x6c, virtual false, abstract: false, final false
   inline void Unmark(::System::Type* type);
 
   static inline ::Zenject::Internal::SingletonMarkRegistry* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f2169c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f3d924, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SingletonMarkRegistry", modifiers: "&&", def_value: None }]

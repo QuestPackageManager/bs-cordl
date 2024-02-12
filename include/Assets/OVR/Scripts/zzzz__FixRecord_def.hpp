@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::Assets::OVR::Scripts::FixRecord);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 66, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Assets::OVR::Scripts {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8734))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8737))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8674))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8677))
 // CS Name: ::Assets.OVR.Scripts::FixRecord*
 class CORDL_TYPE FixRecord : public ::Assets::OVR::Scripts::Record {
 public:
@@ -77,7 +77,7 @@ public:
   static inline ::Assets::OVR::Scripts::FixRecord* New_ctor(int32_t order, ::StringW cat, ::StringW msg, ::Assets::OVR::Scripts::FixMethodDelegate* fix, ::UnityEngine::Object* target,
                                                             bool editRequired, ::ArrayW<::StringW, ::Array<::StringW>*> buttons);
 
-  /// @brief Method .ctor, addr 0x27f874c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2805be0, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(int32_t order, ::StringW cat, ::StringW msg, ::Assets::OVR::Scripts::FixMethodDelegate* fix, ::UnityEngine::Object* target, bool editRequired,
                     ::ArrayW<::StringW, ::Array<::StringW>*> buttons);
 

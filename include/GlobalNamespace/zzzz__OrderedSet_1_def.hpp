@@ -65,8 +65,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12903)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12903), inst: 4869 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12903))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12801)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12801), inst: 4842 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12801))
 // CS Name: ::OrderedSet`1::ProcessOrder<T>
 struct CORDL_TYPE __OrderedSet_1__ProcessOrder {
 public:
@@ -118,7 +118,7 @@ namespace GlobalNamespace {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12904))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12802))
 // CS Name: ::OrderedSet`1::Node<T>*
 class CORDL_TYPE __OrderedSet_1__Node : public ::System::Object {
 public:
@@ -213,7 +213,7 @@ namespace GlobalNamespace {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12905))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12803))
 // CS Name: ::OrderedSet`1::<GetEnumerator>d__23<T>*
 class CORDL_TYPE __OrderedSet_1___GetEnumerator_d__23 : public ::System::Object {
 public:
@@ -332,8 +332,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12903)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12903), inst:
-// 1036 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(12906)) CS Name: ::OrderedSet`1<T>*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12801)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12801), inst:
+// 1028 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(12804)) CS Name: ::OrderedSet`1<T>*
 class CORDL_TYPE OrderedSet_1 : public ::System::Object {
 public:
   // Declarations

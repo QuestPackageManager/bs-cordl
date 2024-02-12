@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::GlobalNamespace::NoRichPresencePlatformHandler);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4671))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5245))
 // CS Name: ::NoRichPresencePlatformHandler*
 class CORDL_TYPE NoRichPresencePlatformHandler : public ::System::Object {
 public:
@@ -45,21 +45,21 @@ public:
 
   constexpr void __cordl_internal_set__currentPresenceApiName_k__BackingField(::StringW value);
 
-  /// @brief Method get_currentPresenceApiName, addr 0x2373764, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_currentPresenceApiName, addr 0x2336f84, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_currentPresenceApiName();
 
-  /// @brief Method set_currentPresenceApiName, addr 0x237376c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_currentPresenceApiName, addr 0x2336f8c, size 0x8, virtual false, abstract: false, final false
   inline void set_currentPresenceApiName(::StringW value);
 
-  /// @brief Method SetPresence, addr 0x2373774, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method SetPresence, addr 0x2336f94, size 0xa8, virtual true, abstract: false, final true
   inline void SetPresence(::GlobalNamespace::IRichPresenceData* richPresenceData);
 
-  /// @brief Method Clear, addr 0x237381c, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method Clear, addr 0x233703c, size 0x50, virtual true, abstract: false, final true
   inline void Clear();
 
   static inline ::GlobalNamespace::NoRichPresencePlatformHandler* New_ctor();
 
-  /// @brief Method .ctor, addr 0x237386c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x233708c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NoRichPresencePlatformHandler", modifiers: "&&", def_value: None }]

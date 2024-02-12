@@ -16,7 +16,7 @@ MARK_VAL_T(::Unity::IO::LowLevel::Unsafe::Priority);
 namespace Unity::IO::LowLevel::Unsafe {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9987))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8718))
 // CS Name: ::Unity.IO.LowLevel.Unsafe::Priority
 struct CORDL_TYPE Priority {
 public:

@@ -43,7 +43,7 @@ MARK_REF_PTR_T(::System::ComponentModel::__ReferenceConverter__ReferenceComparer
 namespace System::ComponentModel {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9448))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7458))
 // CS Name: ::ReferenceConverter::ReferenceComparer*
 class CORDL_TYPE __ReferenceConverter__ReferenceComparer : public ::System::Object {
 public:
@@ -65,10 +65,10 @@ public:
 
   static inline ::System::ComponentModel::__ReferenceConverter__ReferenceComparer* New_ctor(::System::ComponentModel::ReferenceConverter* converter);
 
-  /// @brief Method .ctor, addr 0x2916934, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x291af9c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::ReferenceConverter* converter);
 
-  /// @brief Method Compare, addr 0x2916a84, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x291b0ec, size 0xb0, virtual true, abstract: false, final true
   inline int32_t Compare(::System::Object* item1, ::System::Object* item2);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ReferenceConverter__ReferenceComparer", modifiers: "&&", def_value: None }]
@@ -100,8 +100,8 @@ static_assert(offsetof(::System::ComponentModel::__ReferenceConverter__Reference
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9480))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9449))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7490))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7459))
 // CS Name: ::System.ComponentModel::ReferenceConverter*
 class CORDL_TYPE ReferenceConverter : public ::System::ComponentModel::TypeConverter {
 public:
@@ -126,29 +126,29 @@ public:
 
   static inline ::System::ComponentModel::ReferenceConverter* New_ctor(::System::Type* type);
 
-  /// @brief Method .ctor, addr 0x29155b4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2919c1c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
-  /// @brief Method CanConvertFrom, addr 0x29155e4, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method CanConvertFrom, addr 0x2919c4c, size 0xb0, virtual true, abstract: false, final false
   inline bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* sourceType);
 
-  /// @brief Method ConvertFrom, addr 0x291571c, size 0x338, virtual true, abstract: false, final false
+  /// @brief Method ConvertFrom, addr 0x2919d84, size 0x338, virtual true, abstract: false, final false
   inline ::System::Object* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value);
 
-  /// @brief Method ConvertTo, addr 0x2915ac0, size 0x44c, virtual true, abstract: false, final false
+  /// @brief Method ConvertTo, addr 0x291a128, size 0x44c, virtual true, abstract: false, final false
   inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
                                      ::System::Type* destinationType);
 
-  /// @brief Method GetStandardValues, addr 0x2916144, size 0x7f0, virtual true, abstract: false, final false
+  /// @brief Method GetStandardValues, addr 0x291a7ac, size 0x7f0, virtual true, abstract: false, final false
   inline ::System::ComponentModel::__TypeConverter__StandardValuesCollection* GetStandardValues(::System::ComponentModel::ITypeDescriptorContext* context);
 
-  /// @brief Method GetStandardValuesExclusive, addr 0x2916a0c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetStandardValuesExclusive, addr 0x291b074, size 0x8, virtual true, abstract: false, final false
   inline bool GetStandardValuesExclusive(::System::ComponentModel::ITypeDescriptorContext* context);
 
-  /// @brief Method GetStandardValuesSupported, addr 0x2916a14, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetStandardValuesSupported, addr 0x291b07c, size 0x8, virtual true, abstract: false, final false
   inline bool GetStandardValuesSupported(::System::ComponentModel::ITypeDescriptorContext* context);
 
-  /// @brief Method IsValueAllowed, addr 0x2916a1c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method IsValueAllowed, addr 0x291b084, size 0x8, virtual true, abstract: false, final false
   inline bool IsValueAllowed(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Object* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "ReferenceConverter", modifiers: "&&", def_value: None }]

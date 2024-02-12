@@ -75,7 +75,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__ObjectsMovementRecorder__InitData);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5917))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5177))
 // CS Name: ::ObjectsMovementRecorder::Mode
 struct CORDL_TYPE __ObjectsMovementRecorder__Mode {
 public:
@@ -129,7 +129,7 @@ static_assert(offsetof(::GlobalNamespace::__ObjectsMovementRecorder__Mode, value
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5918))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5178))
 // CS Name: ::ObjectsMovementRecorder::CameraView
 struct CORDL_TYPE __ObjectsMovementRecorder__CameraView {
 public:
@@ -178,8 +178,8 @@ static_assert(offsetof(::GlobalNamespace::__ObjectsMovementRecorder__CameraView,
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5917)), TypeDefinitionIndex(TypeDefinitionIndex(5918))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5919))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5177)), TypeDefinitionIndex(TypeDefinitionIndex(5178))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5179))
 // CS Name: ::ObjectsMovementRecorder::InitData*
 class CORDL_TYPE __ObjectsMovementRecorder__InitData : public ::System::Object {
 public:
@@ -302,7 +302,7 @@ public:
            ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> playbackScreenshots, bool saveToOldFormat,
            ::GlobalNamespace::IBeatSaberLogger* logger, ::GlobalNamespace::IPosesSerializer* posesSerializer);
 
-  /// @brief Method .ctor, addr 0x2300138, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x232807c, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__ObjectsMovementRecorder__Mode mode, ::StringW recordingPath, ::GlobalNamespace::__ObjectsMovementRecorder__CameraView cameraView,
                     bool addDateTimeSuffixToRecordingName, bool screenshotRecording, int32_t screenshotWidth, int32_t screenshotHeight, int32_t framerate,
                     ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> playbackScreenshots,
@@ -392,8 +392,8 @@ static_assert(offsetof(::GlobalNamespace::__ObjectsMovementRecorder__InitData, _
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5917)), TypeDefinitionIndex(TypeDefinitionIndex(5918)), TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5920))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5177)), TypeDefinitionIndex(TypeDefinitionIndex(5178)), TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5180))
 // CS Name: ::ObjectsMovementRecorder*
 class CORDL_TYPE ObjectsMovementRecorder : public ::UnityEngine::MonoBehaviour {
 public:
@@ -563,18 +563,18 @@ public:
 
   constexpr void __cordl_internal_set__posesSerializer(::GlobalNamespace::IPosesSerializer* value);
 
-  /// @brief Method Init, addr 0x22fef7c, size 0x704, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2326ec0, size 0x704, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method OnDestroy, addr 0x22ffd84, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2327cc8, size 0x228, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleGameStateChanged, addr 0x22fffc4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method HandleGameStateChanged, addr 0x2327f08, size 0x70, virtual false, abstract: false, final false
   inline void HandleGameStateChanged();
 
   static inline ::GlobalNamespace::ObjectsMovementRecorder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2300128, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x232806c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ObjectsMovementRecorder", modifiers: "&&", def_value: None }]

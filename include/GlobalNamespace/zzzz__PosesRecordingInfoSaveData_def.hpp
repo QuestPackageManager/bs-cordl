@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__PosesRecordingInfoSaveData__ExternalCameraCa
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5939))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5199))
 // CS Name: ::PosesRecordingInfoSaveData::ExternalCameraCalibrationSaveData*
 class CORDL_TYPE __PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData : public ::System::Object {
 public:
@@ -85,25 +85,25 @@ public:
 
   constexpr void __cordl_internal_set__nearOffset(float_t value);
 
-  /// @brief Method get_fieldOfVision, addr 0x2302230, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fieldOfVision, addr 0x232a174, size 0x8, virtual false, abstract: false, final false
   inline float_t get_fieldOfVision();
 
-  /// @brief Method get_nearClip, addr 0x2302238, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_nearClip, addr 0x232a17c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_nearClip();
 
-  /// @brief Method get_farClip, addr 0x2302240, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_farClip, addr 0x232a184, size 0x8, virtual false, abstract: false, final false
   inline float_t get_farClip();
 
-  /// @brief Method get_hmdOffset, addr 0x2302248, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hmdOffset, addr 0x232a18c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_hmdOffset();
 
-  /// @brief Method get_nearOffset, addr 0x2302250, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_nearOffset, addr 0x232a194, size 0x8, virtual false, abstract: false, final false
   inline float_t get_nearOffset();
 
   static inline ::GlobalNamespace::__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData* New_ctor(float_t fieldOfVision, float_t nearClip, float_t farClip, float_t hmdOffset,
                                                                                                              float_t nearOffset);
 
-  /// @brief Method .ctor, addr 0x2302258, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x232a19c, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(float_t fieldOfVision, float_t nearClip, float_t farClip, float_t hmdOffset, float_t nearOffset);
 
   // Ctor Parameters [CppParam { name: "", ty: "__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData", modifiers: "&&", def_value: None }]
@@ -156,7 +156,7 @@ static_assert(offsetof(::GlobalNamespace::__PosesRecordingInfoSaveData__External
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5940))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5200))
 // CS Name: ::PosesRecordingInfoSaveData*
 class CORDL_TYPE PosesRecordingInfoSaveData : public ::System::Object {
 public:
@@ -208,22 +208,22 @@ public:
 
   constexpr void __cordl_internal_set__dataFileName(::StringW value);
 
-  /// @brief Method get_version, addr 0x230219c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_version, addr 0x232a0e0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_version();
 
-  /// @brief Method get_objectIds, addr 0x23021a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_objectIds, addr 0x232a0e8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_objectIds();
 
-  /// @brief Method get_externalCameraCalibration, addr 0x23021ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_externalCameraCalibration, addr 0x232a0f0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData* get_externalCameraCalibration();
 
-  /// @brief Method get_dataFileName, addr 0x23021b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dataFileName, addr 0x232a0f8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_dataFileName();
 
   static inline ::GlobalNamespace::PosesRecordingInfoSaveData*
   New_ctor(::ArrayW<::StringW, ::Array<::StringW>*> objectIds, ::GlobalNamespace::__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData* externalCameraCalibration, ::StringW dataFileName);
 
-  /// @brief Method .ctor, addr 0x23021bc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x232a100, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::StringW, ::Array<::StringW>*> objectIds, ::GlobalNamespace::__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData* externalCameraCalibration,
                     ::StringW dataFileName);
 

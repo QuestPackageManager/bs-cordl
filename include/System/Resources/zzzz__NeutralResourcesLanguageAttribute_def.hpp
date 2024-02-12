@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::System::Resources::NeutralResourcesLanguageAttribute);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Resources {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(3431))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3427))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(3427))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3423))
 // CS Name: ::System.Resources::NeutralResourcesLanguageAttribute*
 class CORDL_TYPE NeutralResourcesLanguageAttribute : public ::System::Attribute {
 public:
@@ -50,13 +50,13 @@ public:
 
   static inline ::System::Resources::NeutralResourcesLanguageAttribute* New_ctor(::StringW cultureName);
 
-  /// @brief Method .ctor, addr 0x24deee4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24fe03c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::StringW cultureName);
 
-  /// @brief Method get_CultureName, addr 0x24def60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CultureName, addr 0x24fe0b8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_CultureName();
 
-  /// @brief Method get_Location, addr 0x24def68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Location, addr 0x24fe0c0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Resources::UltimateResourceFallbackLocation get_Location();
 
   // Ctor Parameters [CppParam { name: "", ty: "NeutralResourcesLanguageAttribute", modifiers: "&&", def_value: None }]

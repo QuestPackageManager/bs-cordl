@@ -35,7 +35,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::XR::Haptics::__SendBufferedHapticCommand_
 namespace UnityEngine::InputSystem::XR::Haptics {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6347))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5606))
 // CS Name: ::SendBufferedHapticCommand::<buffer>e__FixedBuffer
 #pragma pack(push, 0)
 struct CORDL_TYPE __SendBufferedHapticCommand___buffer_e__FixedBuffer {
@@ -71,8 +71,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::XR::Haptics::__SendBufferedHa
 // Some(0) }
 namespace UnityEngine::InputSystem::XR::Haptics {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6347)), TypeDefinitionIndex(TypeDefinitionIndex(6471))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6348))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5606)), TypeDefinitionIndex(TypeDefinitionIndex(5730))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5607))
 // CS Name: ::UnityEngine.InputSystem.XR.Haptics::SendBufferedHapticCommand
 #pragma pack(push, 0)
 struct CORDL_TYPE SendBufferedHapticCommand {
@@ -124,13 +124,13 @@ public:
 
   constexpr void __cordl_internal_set_buffer(::UnityEngine::InputSystem::XR::Haptics::__SendBufferedHapticCommand___buffer_e__FixedBuffer value);
 
-  /// @brief Method get_Type, addr 0x2ac9940, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x2aca4ac, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();
 
-  /// @brief Method get_typeStatic, addr 0x2ac9970, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x2aca4dc, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
-  /// @brief Method Create, addr 0x2ac9660, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2aca1cc, size 0x164, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::XR::Haptics::SendBufferedHapticCommand Create(::ArrayW<uint8_t, ::Array<uint8_t>*> rumbleBuffer);
 
   // Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: None }, CppParam { name: "channel", ty: "int32_t",

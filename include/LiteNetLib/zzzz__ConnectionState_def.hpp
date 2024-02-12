@@ -16,7 +16,7 @@ MARK_VAL_T(::LiteNetLib::ConnectionState);
 namespace LiteNetLib {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14173))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14186))
 // CS Name: ::LiteNetLib::ConnectionState
 struct CORDL_TYPE ConnectionState {
 public:

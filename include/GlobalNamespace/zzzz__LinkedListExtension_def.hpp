@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::GlobalNamespace::LinkedListExtension);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15825))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15212))
 // CS Name: ::LinkedListExtension*
 class CORDL_TYPE LinkedListExtension : public ::System::Object {
 public:

@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::System::Xml::Schema::IXmlSchemaInfo);
 namespace System::Xml::Schema {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11697))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11595))
 // CS Name: ::System.Xml.Schema::IXmlSchemaInfo*
 class CORDL_TYPE IXmlSchemaInfo {
 public:

@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::GlobalNamespace::EnvironmentKeywords);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4174))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10625))
 // CS Name: ::EnvironmentKeywords*
 class CORDL_TYPE EnvironmentKeywords : public ::System::Object {
 public:
@@ -49,15 +49,15 @@ public:
 
   constexpr void __cordl_internal_set__environmentKeywordsSet(::System::Collections::Generic::HashSet_1<::StringW>* value);
 
-  /// @brief Method get_environmentKeywords, addr 0x22403a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_environmentKeywords, addr 0x1266304, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::StringW>* get_environmentKeywords();
 
   static inline ::GlobalNamespace::EnvironmentKeywords* New_ctor(::System::Collections::Generic::IReadOnlyList_1<::StringW>* environmentKeywords);
 
-  /// @brief Method .ctor, addr 0x22403ac, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x126630c, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IReadOnlyList_1<::StringW>* environmentKeywords);
 
-  /// @brief Method HasKeyword, addr 0x22404b0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method HasKeyword, addr 0x1266410, size 0x58, virtual false, abstract: false, final false
   inline bool HasKeyword(::StringW keyword);
 
   // Ctor Parameters [CppParam { name: "", ty: "EnvironmentKeywords", modifiers: "&&", def_value: None }]

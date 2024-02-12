@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_InputPreset);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9642))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9608))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9434))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9400))
 // CS Name: ::HoudiniEngineUnity::HEU_InputPreset*
 class CORDL_TYPE HEU_InputPreset : public ::System::Object {
 public:
@@ -108,7 +108,7 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_InputPreset* New_ctor();
 
-  /// @brief Method .ctor, addr 0x214e6f8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21e3fdc, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_InputPreset", modifiers: "&&", def_value: None }]

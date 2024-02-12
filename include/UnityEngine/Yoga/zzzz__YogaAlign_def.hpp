@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Yoga::YogaAlign);
 namespace UnityEngine::Yoga {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15356))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15516))
 // CS Name: ::UnityEngine.Yoga::YogaAlign
 struct CORDL_TYPE YogaAlign {
 public:

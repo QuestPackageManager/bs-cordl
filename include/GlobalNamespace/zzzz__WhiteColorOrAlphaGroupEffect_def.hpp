@@ -40,8 +40,8 @@ MARK_REF_PTR_T(::GlobalNamespace::WhiteColorOrAlphaGroupEffect);
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 180, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4923)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4926))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4277)), TypeDefinitionIndex(TypeDefinitionIndex(8995))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4280))
 // CS Name: ::WhiteColorOrAlphaGroupEffect*
 class CORDL_TYPE WhiteColorOrAlphaGroupEffect : public ::GlobalNamespace::LightColorGroupEffect {
 public:
@@ -60,12 +60,12 @@ public:
                                                                           ::GlobalNamespace::ColorManager* colorManager, ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController,
                                                                           ::GlobalNamespace::IBpmController* bpmController);
 
-  /// @brief Method .ctor, addr 0x23a9364, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2369498, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__LightColorGroupEffect__InitData* initData, ::UnityEngine::Color defaultColor, ::GlobalNamespace::LightWithIdManager* lightManager,
                     ::Tweening::SongTimeTweeningManager* tweeningManager, ::GlobalNamespace::ColorManager* colorManager, ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController,
                     ::GlobalNamespace::IBpmController* bpmController);
 
-  /// @brief Method GetColor, addr 0x23a93a0, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method GetColor, addr 0x23694d4, size 0x4c, virtual true, abstract: false, final false
   inline ::UnityEngine::Color GetColor(::GlobalNamespace::EnvironmentColorType colorType, bool colorBoost, float_t brightness);
 
   // Ctor Parameters [CppParam { name: "", ty: "WhiteColorOrAlphaGroupEffect", modifiers: "&&", def_value: None }]

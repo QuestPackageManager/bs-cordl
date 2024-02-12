@@ -38,13 +38,13 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper* New_ctor();
 
-  /// @brief Method .ctor, addr 0xef762c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf224bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CalculatePrivate, addr 0xef7434, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method CalculatePrivate, addr 0xf222c4, size 0x1c4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* CalculatePrivate(::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParams, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method CalculatePublic, addr 0xef75f8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method CalculatePublic, addr 0xf22488, size 0x2c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* CalculatePublic(::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParams, ::Org::BouncyCastle::Math::BigInteger* x);
 
   // Ctor Parameters [CppParam { name: "", ty: "DHKeyGeneratorHelper", modifiers: "&&", def_value: None }]

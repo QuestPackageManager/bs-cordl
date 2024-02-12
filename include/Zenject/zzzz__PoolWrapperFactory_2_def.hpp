@@ -33,7 +33,7 @@ namespace Zenject {
 template <typename TParam1, typename TValue>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11075))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10217))
 // CS Name: ::Zenject::PoolWrapperFactory`2<TParam1,TValue>*
 class CORDL_TYPE PoolWrapperFactory_2 : public ::System::Object {
 public:

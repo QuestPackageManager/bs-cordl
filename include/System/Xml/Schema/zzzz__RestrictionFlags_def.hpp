@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Xml::Schema::RestrictionFlags);
 namespace System::Xml::Schema {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11617))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11515))
 // CS Name: ::System.Xml.Schema::RestrictionFlags
 struct CORDL_TYPE RestrictionFlags {
 public:

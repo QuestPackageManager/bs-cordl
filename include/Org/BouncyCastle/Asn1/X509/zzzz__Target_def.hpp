@@ -124,26 +124,26 @@ public:
 
   constexpr void __cordl_internal_set_targetGroup(::Org::BouncyCastle::Asn1::X509::GeneralName* value);
 
-  /// @brief Method GetInstance, addr 0x1197ad0, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x11c5960, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::Target* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::Target* New_ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagObj);
 
-  /// @brief Method .ctor, addr 0x1197c58, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11c5ae8, size 0x114, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagObj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::Target* New_ctor(::Org::BouncyCastle::Asn1::X509::__Target__Choice type, ::Org::BouncyCastle::Asn1::X509::GeneralName* name);
 
-  /// @brief Method .ctor, addr 0x1197d6c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11c5bfc, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::__Target__Choice type, ::Org::BouncyCastle::Asn1::X509::GeneralName* name);
 
-  /// @brief Method get_TargetGroup, addr 0x1197de8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TargetGroup, addr 0x11c5c78, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralName* get_TargetGroup();
 
-  /// @brief Method get_TargetName, addr 0x1197df0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TargetName, addr 0x11c5c80, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralName* get_TargetName();
 
-  /// @brief Method ToAsn1Object, addr 0x1197df8, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x11c5c88, size 0x94, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "Target", modifiers: "&&", def_value: None }]

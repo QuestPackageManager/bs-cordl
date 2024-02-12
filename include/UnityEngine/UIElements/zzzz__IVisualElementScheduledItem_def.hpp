@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IVisualElementScheduledItem);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6746))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6005))
 // CS Name: ::UnityEngine.UIElements::IVisualElementScheduledItem*
 class CORDL_TYPE IVisualElementScheduledItem {
 public:

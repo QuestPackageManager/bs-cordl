@@ -64,7 +64,7 @@ MARK_REF_PTR_T(::UnityEngine::UI::__GraphicRaycaster____c);
 namespace UnityEngine::UI {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13043))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12941))
 // CS Name: ::GraphicRaycaster::BlockingObjects
 struct CORDL_TYPE __GraphicRaycaster__BlockingObjects {
 public:
@@ -122,7 +122,7 @@ static_assert(offsetof(::UnityEngine::UI::__GraphicRaycaster__BlockingObjects, v
 namespace UnityEngine::UI {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13044))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12942))
 // CS Name: ::GraphicRaycaster::<>c*
 class CORDL_TYPE __GraphicRaycaster____c : public ::System::Object {
 public:
@@ -143,10 +143,10 @@ public:
 
   static inline ::UnityEngine::UI::__GraphicRaycaster____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d60938, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d7ed20, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Raycast>b__27_0, addr 0x2d60940, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method <Raycast>b__27_0, addr 0x2d7ed28, size 0x4c, virtual false, abstract: false, final false
   inline int32_t _Raycast_b__27_0(::UnityEngine::UI::Graphic* g1, ::UnityEngine::UI::Graphic* g2);
 
   // Ctor Parameters [CppParam { name: "", ty: "__GraphicRaycaster____c", modifiers: "&&", def_value: None }]
@@ -173,8 +173,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::__GraphicRaycas
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10204)), TypeDefinitionIndex(TypeDefinitionIndex(13043)), TypeDefinitionIndex(TypeDefinitionIndex(13209))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13045))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8948)), TypeDefinitionIndex(TypeDefinitionIndex(12941)), TypeDefinitionIndex(TypeDefinitionIndex(13107))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12943))
 // CS Name: ::UnityEngine.UI::GraphicRaycaster*
 class CORDL_TYPE GraphicRaycaster : public ::UnityEngine::EventSystems::BaseRaycaster {
 public:
@@ -250,45 +250,45 @@ public:
 
   static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Graphic>>* getStaticF_s_SortedGraphics();
 
-  /// @brief Method get_sortOrderPriority, addr 0x2d5f2e0, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method get_sortOrderPriority, addr 0x2d7d6c8, size 0x48, virtual true, abstract: false, final false
   inline int32_t get_sortOrderPriority();
 
-  /// @brief Method get_renderOrderPriority, addr 0x2d5f3bc, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method get_renderOrderPriority, addr 0x2d7d7a4, size 0x54, virtual true, abstract: false, final false
   inline int32_t get_renderOrderPriority();
 
-  /// @brief Method get_ignoreReversedGraphics, addr 0x2d5f410, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ignoreReversedGraphics, addr 0x2d7d7f8, size 0x8, virtual false, abstract: false, final false
   inline bool get_ignoreReversedGraphics();
 
-  /// @brief Method set_ignoreReversedGraphics, addr 0x2d5f418, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ignoreReversedGraphics, addr 0x2d7d800, size 0xc, virtual false, abstract: false, final false
   inline void set_ignoreReversedGraphics(bool value);
 
-  /// @brief Method get_blockingObjects, addr 0x2d5f424, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_blockingObjects, addr 0x2d7d80c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::__GraphicRaycaster__BlockingObjects get_blockingObjects();
 
-  /// @brief Method set_blockingObjects, addr 0x2d5f42c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_blockingObjects, addr 0x2d7d814, size 0x8, virtual false, abstract: false, final false
   inline void set_blockingObjects(::UnityEngine::UI::__GraphicRaycaster__BlockingObjects value);
 
-  /// @brief Method get_blockingMask, addr 0x2d5f434, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_blockingMask, addr 0x2d7d81c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LayerMask get_blockingMask();
 
-  /// @brief Method set_blockingMask, addr 0x2d5f43c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_blockingMask, addr 0x2d7d824, size 0x8, virtual false, abstract: false, final false
   inline void set_blockingMask(::UnityEngine::LayerMask value);
 
   static inline ::UnityEngine::UI::GraphicRaycaster* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d5f444, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d7d82c, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_canvas, addr 0x2d5f328, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_canvas, addr 0x2d7d710, size 0x94, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Canvas> get_canvas();
 
-  /// @brief Method Raycast, addr 0x2d5f4d8, size 0xc7c, virtual true, abstract: false, final false
+  /// @brief Method Raycast, addr 0x2d7d8c0, size 0xc7c, virtual true, abstract: false, final false
   inline void Raycast(::UnityEngine::EventSystems::PointerEventData* eventData, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* resultAppendList);
 
-  /// @brief Method get_eventCamera, addr 0x2d60780, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method get_eventCamera, addr 0x2d7eb68, size 0xc8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> get_eventCamera();
 
-  /// @brief Method Raycast, addr 0x2d60210, size 0x570, virtual false, abstract: false, final false
+  /// @brief Method Raycast, addr 0x2d7e5f8, size 0x570, virtual false, abstract: false, final false
   static inline void Raycast(::UnityEngine::Canvas* canvas, ::UnityEngine::Camera* eventCamera, ::UnityEngine::Vector2 pointerPosition,
                              ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::UI::Graphic>>* foundGraphics,
                              ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Graphic>>* results);

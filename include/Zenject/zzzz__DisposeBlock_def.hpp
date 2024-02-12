@@ -71,7 +71,7 @@ MARK_VAL_T(::Zenject::__DisposeBlock__SpawnedObjectPoolPair);
 namespace Zenject {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11349))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10491))
 // CS Name: ::DisposeBlock::SpawnedObjectPoolPair
 struct CORDL_TYPE __DisposeBlock__SpawnedObjectPoolPair {
 public:
@@ -107,7 +107,7 @@ static_assert(offsetof(::Zenject::__DisposeBlock__SpawnedObjectPoolPair, Object)
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11350))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10492))
 // CS Name: ::Zenject::DisposeBlock*
 class CORDL_TYPE DisposeBlock : public ::System::Object {
 public:
@@ -146,22 +146,22 @@ public:
 
   static inline ::Zenject::StaticMemoryPool_1<::Zenject::DisposeBlock*>* getStaticF__pool();
 
-  /// @brief Method OnSpawned, addr 0x2f1d8c8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method OnSpawned, addr 0x2f39a10, size 0x2c, virtual false, abstract: false, final false
   static inline void OnSpawned(::Zenject::DisposeBlock* that);
 
-  /// @brief Method OnDespawned, addr 0x2f1d8f4, size 0x360, virtual false, abstract: false, final false
+  /// @brief Method OnDespawned, addr 0x2f39a3c, size 0x360, virtual false, abstract: false, final false
   static inline void OnDespawned(::Zenject::DisposeBlock* that);
 
-  /// @brief Method LazyInitializeDisposableList, addr 0x2f1dc54, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method LazyInitializeDisposableList, addr 0x2f39d9c, size 0xf4, virtual false, abstract: false, final false
   inline void LazyInitializeDisposableList();
 
   /// @brief Method AddRange, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void AddRange(::System::Collections::Generic::IList_1<T>* disposables);
 
-  /// @brief Method Add, addr 0x2f1dd48, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x2f39e90, size 0xe8, virtual false, abstract: false, final false
   inline void Add(::System::IDisposable* disposable);
 
-  /// @brief Method Remove, addr 0x2f1de30, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x2f39f78, size 0x64, virtual false, abstract: false, final false
   inline void Remove(::System::IDisposable* disposable);
 
   /// @brief Method StoreSpawnedObject, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -203,15 +203,15 @@ public:
   /// @brief Method SpawnList, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::System::Collections::Generic::List_1<T>* SpawnList();
 
-  /// @brief Method Spawn, addr 0x2f1de94, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Spawn, addr 0x2f39fdc, size 0x78, virtual false, abstract: false, final false
   static inline ::Zenject::DisposeBlock* Spawn();
 
-  /// @brief Method Dispose, addr 0x2f1df0c, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2f3a054, size 0x80, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::Zenject::DisposeBlock* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f1df8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f3a0d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DisposeBlock", modifiers: "&&", def_value: None }]

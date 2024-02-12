@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::System::Globalization::DaylightTime);
 namespace System::Globalization {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2484)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3671))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3669))
 // CS Name: ::System.Globalization::DaylightTime*
 class CORDL_TYPE DaylightTime : public ::System::Object {
 public:
@@ -63,16 +63,16 @@ public:
 
   static inline ::System::Globalization::DaylightTime* New_ctor(::System::DateTime start, ::System::DateTime end, ::System::TimeSpan delta);
 
-  /// @brief Method .ctor, addr 0x2554bec, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2576834, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::DateTime start, ::System::DateTime end, ::System::TimeSpan delta);
 
-  /// @brief Method get_Start, addr 0x2554c28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Start, addr 0x2576870, size 0x8, virtual false, abstract: false, final false
   inline ::System::DateTime get_Start();
 
-  /// @brief Method get_End, addr 0x2554c30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_End, addr 0x2576878, size 0x8, virtual false, abstract: false, final false
   inline ::System::DateTime get_End();
 
-  /// @brief Method get_Delta, addr 0x2554c38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Delta, addr 0x2576880, size 0x8, virtual false, abstract: false, final false
   inline ::System::TimeSpan get_Delta();
 
   // Ctor Parameters [CppParam { name: "", ty: "DaylightTime", modifiers: "&&", def_value: None }]

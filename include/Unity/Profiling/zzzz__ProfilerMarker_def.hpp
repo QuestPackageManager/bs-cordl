@@ -28,7 +28,7 @@ MARK_VAL_T(::Unity::Profiling::__ProfilerMarker__AutoScope);
 namespace Unity::Profiling {
 // Is value type: true
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9965))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8694))
 // CS Name: ::ProfilerMarker::AutoScope
 struct CORDL_TYPE __ProfilerMarker__AutoScope {
 public:
@@ -39,10 +39,10 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable();
 
-  /// @brief Method .ctor, addr 0x2c9d788, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c9e234, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(void* markerPtr);
 
-  /// @brief Method Dispose, addr 0x2c9d864, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2c9e310, size 0x90, virtual true, abstract: false, final true
   inline void Dispose();
 
   // Ctor Parameters [CppParam { name: "m_Ptr", ty: "void*", modifiers: "", def_value: None }]
@@ -71,17 +71,17 @@ static_assert(offsetof(::Unity::Profiling::__ProfilerMarker__AutoScope, m_Ptr) =
 namespace Unity::Profiling {
 // Is value type: true
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9966))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8695))
 // CS Name: ::Unity.Profiling::ProfilerMarker
 struct CORDL_TYPE ProfilerMarker {
 public:
   // Declarations
   using AutoScope = ::Unity::Profiling::__ProfilerMarker__AutoScope;
 
-  /// @brief Method .ctor, addr 0x2c9d650, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c9e0fc, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method Auto, addr 0x2c9d700, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Auto, addr 0x2c9e1ac, size 0x88, virtual false, abstract: false, final false
   inline ::Unity::Profiling::__ProfilerMarker__AutoScope Auto();
 
   // Ctor Parameters [CppParam { name: "m_Ptr", ty: "void*", modifiers: "", def_value: None }]

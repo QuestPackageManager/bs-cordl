@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::HMUI::CurvedCanvasSettingsHelper);
 namespace HMUI {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13526))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13479))
 // CS Name: ::HMUI::CurvedCanvasSettingsHelper*
 class CORDL_TYPE CurvedCanvasSettingsHelper : public ::System::Object {
 public:
@@ -74,18 +74,18 @@ public:
 
   static inline ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Canvas>, ::UnityW<::HMUI::CurvedCanvasSettings>>* getStaticF__curvedCanvasCache();
 
-  /// @brief Method Reset, addr 0x211b4c0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x21afd9c, size 0x14, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method GetCurvedCanvasSettings, addr 0x211b4d4, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method GetCurvedCanvasSettings, addr 0x21afdb0, size 0x1ec, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::CurvedCanvasSettings> GetCurvedCanvasSettings(::UnityEngine::Canvas* canvas);
 
-  /// @brief Method GetCurvedCanvasSettingsForCanvas, addr 0x211b6c0, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method GetCurvedCanvasSettingsForCanvas, addr 0x21aff9c, size 0x110, virtual false, abstract: false, final false
   static inline ::UnityW<::HMUI::CurvedCanvasSettings> GetCurvedCanvasSettingsForCanvas(::UnityEngine::Canvas* canvas);
 
   static inline ::HMUI::CurvedCanvasSettingsHelper* New_ctor();
 
-  /// @brief Method .ctor, addr 0x211b7d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21b00ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CurvedCanvasSettingsHelper", modifiers: "&&", def_value: None }]

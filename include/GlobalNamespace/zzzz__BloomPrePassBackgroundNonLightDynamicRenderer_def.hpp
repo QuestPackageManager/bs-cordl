@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BloomPrePassBackgroundNonLightDynamicRenderer)
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14465))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14460))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14359))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14354))
 // CS Name: ::BloomPrePassBackgroundNonLightDynamicRenderer*
 class CORDL_TYPE BloomPrePassBackgroundNonLightDynamicRenderer : public ::GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore {
 public:
@@ -34,15 +34,15 @@ public:
 
   constexpr void __cordl_internal_set__renderer(::UnityW<::UnityEngine::Renderer> value);
 
-  /// @brief Method get_renderer, addr 0x21049bc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_renderer, addr 0x2199164, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Renderer> get_renderer();
 
-  /// @brief Method SetRenderer, addr 0x21049c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetRenderer, addr 0x219916c, size 0x8, virtual false, abstract: false, final false
   inline void SetRenderer(::UnityEngine::Renderer* renderer);
 
   static inline ::GlobalNamespace::BloomPrePassBackgroundNonLightDynamicRenderer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21049cc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2199174, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundNonLightDynamicRenderer", modifiers: "&&", def_value: None }]

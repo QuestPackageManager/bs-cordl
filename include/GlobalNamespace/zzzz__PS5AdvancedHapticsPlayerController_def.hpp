@@ -56,8 +56,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__PS5AdvancedHapticsPlayerController____c__Dis
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15614))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14425))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15745))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14574))
 // CS Name: ::PS5AdvancedHapticsPlayerController::<>c__DisplayClass6_0*
 class CORDL_TYPE __PS5AdvancedHapticsPlayerController____c__DisplayClass6_0 : public ::System::Object {
 public:
@@ -91,10 +91,10 @@ public:
 
   static inline ::GlobalNamespace::__PS5AdvancedHapticsPlayerController____c__DisplayClass6_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x20f9ecc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x218d8dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <PlayContinuousHapticPreset>b__0, addr 0x20f9fb0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method <PlayContinuousHapticPreset>b__0, addr 0x218d9c0, size 0xac, virtual false, abstract: false, final false
   inline void _PlayContinuousHapticPreset_b__0(::GlobalNamespace::HapticsAudioClipPlayer* player);
 
   // Ctor Parameters [CppParam { name: "", ty: "__PS5AdvancedHapticsPlayerController____c__DisplayClass6_0", modifiers: "&&", def_value: None }]
@@ -136,8 +136,8 @@ static_assert(offsetof(::GlobalNamespace::__PS5AdvancedHapticsPlayerController__
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15614))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14426))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15745))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14575))
 // CS Name: ::PS5AdvancedHapticsPlayerController::<>c__DisplayClass7_0*
 class CORDL_TYPE __PS5AdvancedHapticsPlayerController____c__DisplayClass7_0 : public ::System::Object {
 public:
@@ -171,10 +171,10 @@ public:
 
   static inline ::GlobalNamespace::__PS5AdvancedHapticsPlayerController____c__DisplayClass7_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x20f9ed4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x218d8e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <PlayOneShotHapticPreset>b__0, addr 0x20fa05c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method <PlayOneShotHapticPreset>b__0, addr 0x218da6c, size 0xac, virtual false, abstract: false, final false
   inline void _PlayOneShotHapticPreset_b__0(::GlobalNamespace::HapticsAudioClipPlayer* player);
 
   // Ctor Parameters [CppParam { name: "", ty: "__PS5AdvancedHapticsPlayerController____c__DisplayClass7_0", modifiers: "&&", def_value: None }]
@@ -217,7 +217,7 @@ static_assert(offsetof(::GlobalNamespace::__PS5AdvancedHapticsPlayerController__
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14427))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14576))
 // CS Name: ::PS5AdvancedHapticsPlayerController*
 class CORDL_TYPE PS5AdvancedHapticsPlayerController : public ::System::Object {
 public:
@@ -272,27 +272,27 @@ public:
   __cordl_internal_set__activePlayers(::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::UnityEngine::XR::XRNode, ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>>,
                                                                                    ::UnityW<::GlobalNamespace::HapticsAudioClipPlayer>>* value);
 
-  /// @brief Method Initialize, addr 0x20f9a90, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x218d4a0, size 0x4, virtual true, abstract: false, final true
   inline void Initialize();
 
-  /// @brief Method PlayHapticFeedback, addr 0x20f9a94, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method PlayHapticFeedback, addr 0x218d4a4, size 0x24, virtual true, abstract: false, final true
   inline void PlayHapticFeedback(::UnityEngine::XR::XRNode node, ::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset);
 
-  /// @brief Method CanPlayHapticPreset, addr 0x20f9e64, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method CanPlayHapticPreset, addr 0x218d874, size 0x68, virtual true, abstract: false, final true
   inline bool CanPlayHapticPreset(::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset);
 
-  /// @brief Method PlayContinuousHapticPreset, addr 0x20f9c8c, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method PlayContinuousHapticPreset, addr 0x218d69c, size 0x1d8, virtual false, abstract: false, final false
   inline void PlayContinuousHapticPreset(::UnityEngine::XR::XRNode node, ::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset);
 
-  /// @brief Method PlayOneShotHapticPreset, addr 0x20f9ab8, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method PlayOneShotHapticPreset, addr 0x218d4c8, size 0x1d4, virtual false, abstract: false, final false
   inline void PlayOneShotHapticPreset(::UnityEngine::XR::XRNode node, ::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset);
 
-  /// @brief Method OnHapticPlayFinishedCallback, addr 0x20f9edc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method OnHapticPlayFinishedCallback, addr 0x218d8ec, size 0x58, virtual false, abstract: false, final false
   inline void OnHapticPlayFinishedCallback(::GlobalNamespace::HapticsAudioClipPlayer* player);
 
   static inline ::GlobalNamespace::PS5AdvancedHapticsPlayerController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x20f9f34, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x218d944, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PS5AdvancedHapticsPlayerController", modifiers: "&&", def_value: None }]

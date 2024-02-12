@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::HttpResponseHeaders);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14677))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14680))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14682))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14685))
 // CS Name: ::System.Net.Http.Headers::HttpResponseHeaders*
 class CORDL_TYPE HttpResponseHeaders : public ::System::Net::Http::Headers::HttpHeaders {
 public:
   // Declarations
   static inline ::System::Net::Http::Headers::HttpResponseHeaders* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2834060, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2838740, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HttpResponseHeaders", modifiers: "&&", def_value: None }]

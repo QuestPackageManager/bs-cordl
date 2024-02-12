@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__SaberManager__InitData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15036))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5295))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14909))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4635))
 // CS Name: ::SaberManager::InitData*
 class CORDL_TYPE __SaberManager__InitData : public ::System::Object {
 public:
@@ -58,7 +58,7 @@ public:
 
   static inline ::GlobalNamespace::__SaberManager__InitData* New_ctor(bool oneSaberMode, ::GlobalNamespace::SaberType oneSaberType);
 
-  /// @brief Method .ctor, addr 0x22640f8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c2f60, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(bool oneSaberMode, ::GlobalNamespace::SaberType oneSaberType);
 
   // Ctor Parameters [CppParam { name: "", ty: "__SaberManager__InitData", modifiers: "&&", def_value: None }]
@@ -95,8 +95,8 @@ static_assert(offsetof(::GlobalNamespace::__SaberManager__InitData, ___oneSaberT
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5296))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4636))
 // CS Name: ::SaberManager*
 class CORDL_TYPE SaberManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -156,42 +156,42 @@ public:
 
   constexpr void __cordl_internal_set_didUpdateSaberPositionsEvent(::System::Action_2<::UnityW<::GlobalNamespace::Saber>, ::UnityW<::GlobalNamespace::Saber>>* value);
 
-  /// @brief Method get_leftSaber, addr 0x2263e98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftSaber, addr 0x23c2d00, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::Saber> get_leftSaber();
 
-  /// @brief Method get_rightSaber, addr 0x2263ea0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightSaber, addr 0x23c2d08, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::Saber> get_rightSaber();
 
-  /// @brief Method add_didUpdateSaberPositionsEvent, addr 0x2262830, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didUpdateSaberPositionsEvent, addr 0x23c1238, size 0xb0, virtual false, abstract: false, final false
   inline void add_didUpdateSaberPositionsEvent(::System::Action_2<::UnityW<::GlobalNamespace::Saber>, ::UnityW<::GlobalNamespace::Saber>>* value);
 
-  /// @brief Method remove_didUpdateSaberPositionsEvent, addr 0x2262968, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didUpdateSaberPositionsEvent, addr 0x23c1370, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didUpdateSaberPositionsEvent(::System::Action_2<::UnityW<::GlobalNamespace::Saber>, ::UnityW<::GlobalNamespace::Saber>>* value);
 
-  /// @brief Method set_disableSabers, addr 0x2263ea8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_disableSabers, addr 0x23c2d10, size 0x10, virtual false, abstract: false, final false
   inline void set_disableSabers(bool value);
 
-  /// @brief Method Start, addr 0x2263eb8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x23c2d20, size 0x1c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDisable, addr 0x2263ff8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x23c2e60, size 0x4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x2263ffc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x23c2e64, size 0x10, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Update, addr 0x226400c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x23c2e74, size 0x94, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method SaberForType, addr 0x22640a0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method SaberForType, addr 0x23c2f08, size 0x50, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::Saber> SaberForType(::GlobalNamespace::SaberType saberType);
 
-  /// @brief Method RefreshSabers, addr 0x2263ed4, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method RefreshSabers, addr 0x23c2d3c, size 0x124, virtual false, abstract: false, final false
   inline void RefreshSabers();
 
   static inline ::GlobalNamespace::SaberManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22640f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c2f58, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SaberManager", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_InputType);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9711))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9503))
 // CS Name: ::HoudiniEngineUnity::HAPI_InputType
 struct CORDL_TYPE HAPI_InputType {
 public:

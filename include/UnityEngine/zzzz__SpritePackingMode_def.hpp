@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::SpritePackingMode);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10288))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9034))
 // CS Name: ::UnityEngine::SpritePackingMode
 struct CORDL_TYPE SpritePackingMode {
 public:

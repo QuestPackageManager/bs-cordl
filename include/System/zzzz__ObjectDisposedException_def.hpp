@@ -42,31 +42,31 @@ public:
 
   static inline ::System::ObjectDisposedException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25bda50, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25df968, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::ObjectDisposedException* New_ctor(::StringW objectName);
 
-  /// @brief Method .ctor, addr 0x25bdae8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25dfa00, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW objectName);
 
   static inline ::System::ObjectDisposedException* New_ctor(::StringW objectName, ::StringW message);
 
-  /// @brief Method .ctor, addr 0x25bdab0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25df9c8, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::StringW objectName, ::StringW message);
 
   static inline ::System::ObjectDisposedException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x25bdb54, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25dfa6c, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetObjectData, addr 0x25bdbdc, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x25dfaf4, size 0x108, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method get_Message, addr 0x25bddcc, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x25dfce4, size 0xd4, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
-  /// @brief Method get_ObjectName, addr 0x25bdce4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectName, addr 0x25dfbfc, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_ObjectName();
 
   // Ctor Parameters [CppParam { name: "", ty: "ObjectDisposedException", modifiers: "&&", def_value: None }]

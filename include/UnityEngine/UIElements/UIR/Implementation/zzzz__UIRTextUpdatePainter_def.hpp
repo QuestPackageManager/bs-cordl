@@ -47,10 +47,10 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePain
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR::Implementation {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7330)), TypeDefinitionIndex(TypeDefinitionIndex(9994)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9999)), TypeDefinitionIndex(TypeDefinitionIndex(10250)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9994), inst: 756 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 752 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 756 })] Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(7451)) CS Name: ::UnityEngine.UIElements.UIR.Implementation::UIRTextUpdatePainter*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6589)), TypeDefinitionIndex(TypeDefinitionIndex(8725)),
+// TypeDefinitionIndex(TypeDefinitionIndex(8730)), TypeDefinitionIndex(TypeDefinitionIndex(8994)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8725), inst: 755 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8730), inst: 751 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8730), inst: 755 })] Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(6710)) CS Name: ::UnityEngine.UIElements.UIR.Implementation::UIRTextUpdatePainter*
 class CORDL_TYPE UIRTextUpdatePainter : public ::System::Object {
 public:
   // Declarations
@@ -159,30 +159,30 @@ public:
 
   constexpr void __cordl_internal_set__meshGenerationContext_k__BackingField(::UnityEngine::UIElements::MeshGenerationContext* value);
 
-  /// @brief Method get_meshGenerationContext, addr 0x2ddf198, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_meshGenerationContext, addr 0x2dfd580, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MeshGenerationContext* get_meshGenerationContext();
 
   static inline ::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ddf1a0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dfd588, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Begin, addr 0x2ddf210, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method Begin, addr 0x2dfd5f8, size 0x244, virtual false, abstract: false, final false
   inline void Begin(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::UIR::UIRenderDevice* device);
 
-  /// @brief Method End, addr 0x2ddf454, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method End, addr 0x2dfd83c, size 0x8c, virtual false, abstract: false, final false
   inline void End();
 
-  /// @brief Method Dispose, addr 0x2ddf4e0, size 0xc4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2dfd8c8, size 0xc4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method DrawRectangle, addr 0x2ddf5a4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method DrawRectangle, addr 0x2dfd98c, size 0x4, virtual true, abstract: false, final true
   inline void DrawRectangle(::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams rectParams);
 
-  /// @brief Method DrawImmediate, addr 0x2ddf5a8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method DrawImmediate, addr 0x2dfd990, size 0x4, virtual true, abstract: false, final true
   inline void DrawImmediate(::System::Action* callback, bool cullingEnabled);
 
-  /// @brief Method DrawText, addr 0x2ddf5ac, size 0x368, virtual true, abstract: false, final true
+  /// @brief Method DrawText, addr 0x2dfd994, size 0x368, virtual true, abstract: false, final true
   inline void DrawText(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams textParams, ::UnityEngine::UIElements::ITextHandle* handle, float_t pixelsPerPoint);
 
   // Ctor Parameters [CppParam { name: "", ty: "UIRTextUpdatePainter", modifiers: "&&", def_value: None }]

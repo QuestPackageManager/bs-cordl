@@ -38,22 +38,22 @@ public:
   // Declarations
   __declspec(property(get = get_IsNull)) bool IsNull;
 
-  /// @brief Method MakeTypedReference, addr 0x25f1c40, size 0x448, virtual false, abstract: false, final false
+  /// @brief Method MakeTypedReference, addr 0x2615b58, size 0x448, virtual false, abstract: false, final false
   static inline ::System::TypedReference MakeTypedReference(::System::Object* target, ::ArrayW<::System::Reflection::FieldInfo*, ::Array<::System::Reflection::FieldInfo*>*> flds);
 
-  /// @brief Method InternalMakeTypedReference, addr 0x25f208c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InternalMakeTypedReference, addr 0x2615fa4, size 0x4, virtual false, abstract: false, final false
   static inline void InternalMakeTypedReference(::cordl_internals::Ptr<void> result, ::System::Object* target, ::ArrayW<void*, ::Array<void*>*> flds, ::System::RuntimeType* lastFieldType);
 
-  /// @brief Method GetHashCode, addr 0x25f2090, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2615fa8, size 0xac, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Equals, addr 0x25f2148, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2616060, size 0x58, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method get_IsNull, addr 0x25f21a0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_IsNull, addr 0x26160b8, size 0x6c, virtual false, abstract: false, final false
   inline bool get_IsNull();
 
-  /// @brief Method SetTypedReference, addr 0x25f220c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method SetTypedReference, addr 0x2616124, size 0x50, virtual false, abstract: false, final false
   static inline void SetTypedReference(::System::TypedReference target, ::System::Object* value);
 
   // Ctor Parameters [CppParam { name: "type", ty: "::System::RuntimeTypeHandle", modifiers: "", def_value: None }, CppParam { name: "Value", ty: "void*", modifiers: "", def_value: None }, CppParam {

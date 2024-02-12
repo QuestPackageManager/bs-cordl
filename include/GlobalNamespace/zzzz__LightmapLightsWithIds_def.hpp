@@ -37,8 +37,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__LightmapLightsWithIds__LightIntensitiesWithI
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 69, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14532)), TypeDefinitionIndex(TypeDefinitionIndex(14543))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14534))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14426)), TypeDefinitionIndex(TypeDefinitionIndex(14437))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14428))
 // CS Name: ::LightmapLightsWithIds::LightIntensitiesWithId*
 class CORDL_TYPE __LightmapLightsWithIds__LightIntensitiesWithId : public ::GlobalNamespace::__LightWithIds__LightWithId {
 public:
@@ -103,27 +103,27 @@ public:
 
   constexpr void __cordl_internal_set__initializedPropertyIds(bool value);
 
-  /// @brief Method get_bakeId, addr 0x210fa60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bakeId, addr 0x21a4208, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__LightConstants__BakeId get_bakeId();
 
-  /// @brief Method get_intensity, addr 0x210fa68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_intensity, addr 0x21a4210, size 0x8, virtual false, abstract: false, final false
   inline float_t get_intensity();
 
-  /// @brief Method set_intensity, addr 0x210fa70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_intensity, addr 0x21a4218, size 0x8, virtual false, abstract: false, final false
   inline void set_intensity(float_t value);
 
-  /// @brief Method get_weight, addr 0x210fa78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_weight, addr 0x21a4220, size 0x8, virtual false, abstract: false, final false
   inline float_t get_weight();
 
-  /// @brief Method set_weight, addr 0x210fa80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_weight, addr 0x21a4228, size 0x8, virtual false, abstract: false, final false
   inline void set_weight(float_t value);
 
-  /// @brief Method SetDataToShaders, addr 0x210f8e8, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method SetDataToShaders, addr 0x21a4090, size 0x160, virtual false, abstract: false, final false
   inline void SetDataToShaders(::UnityEngine::Color lightmapColor, ::UnityEngine::Color probeColor);
 
   static inline ::GlobalNamespace::__LightmapLightsWithIds__LightIntensitiesWithId* New_ctor();
 
-  /// @brief Method .ctor, addr 0x210fa88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21a4230, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__LightmapLightsWithIds__LightIntensitiesWithId", modifiers: "&&", def_value: None }]
@@ -180,8 +180,8 @@ static_assert(offsetof(::GlobalNamespace::__LightmapLightsWithIds__LightIntensit
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14544))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14535))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14438))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14429))
 // CS Name: ::LightmapLightsWithIds*
 class CORDL_TYPE LightmapLightsWithIds : public ::GlobalNamespace::LightWithIds {
 public:
@@ -213,21 +213,21 @@ public:
   constexpr void __cordl_internal_set__lightIntensityData(
       ::ArrayW<::GlobalNamespace::__LightmapLightsWithIds__LightIntensitiesWithId*, ::Array<::GlobalNamespace::__LightmapLightsWithIds__LightIntensitiesWithId*>*> value);
 
-  /// @brief Method get_maxTotalIntensity, addr 0x210f6e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxTotalIntensity, addr 0x21a3e88, size 0x8, virtual false, abstract: false, final false
   inline float_t get_maxTotalIntensity();
 
-  /// @brief Method set_maxTotalIntensity, addr 0x210f6e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maxTotalIntensity, addr 0x21a3e90, size 0x8, virtual false, abstract: false, final false
   inline void set_maxTotalIntensity(float_t value);
 
-  /// @brief Method ProcessNewColorData, addr 0x210f6f0, size 0x1f8, virtual true, abstract: false, final false
+  /// @brief Method ProcessNewColorData, addr 0x21a3e98, size 0x1f8, virtual true, abstract: false, final false
   inline void ProcessNewColorData();
 
-  /// @brief Method GetLightWithIds, addr 0x210fa48, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetLightWithIds, addr 0x21a41f0, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__LightWithIds__LightWithId*>* GetLightWithIds();
 
   static inline ::GlobalNamespace::LightmapLightsWithIds* New_ctor();
 
-  /// @brief Method .ctor, addr 0x210fa50, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21a41f8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LightmapLightsWithIds", modifiers: "&&", def_value: None }]

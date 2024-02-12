@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::GlobalNamespace::HealthWarningSceneSetup);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11138))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6032))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10280))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5309))
 // CS Name: ::HealthWarningSceneSetup*
 class CORDL_TYPE HealthWarningSceneSetup : public ::Zenject::MonoInstaller {
 public:
@@ -32,12 +32,12 @@ public:
 
   constexpr void __cordl_internal_set__sceneSetupData(::GlobalNamespace::HealthWarningSceneSetupData* value);
 
-  /// @brief Method InstallBindings, addr 0x2319d08, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x2344ce4, size 0x15c, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::HealthWarningSceneSetup* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2319e64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2344e40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HealthWarningSceneSetup", modifiers: "&&", def_value: None }]

@@ -26,7 +26,7 @@ MARK_VAL_T(::UnityEngine::XR::Management::__XRManagementAnalytics__BuildEvent);
 namespace UnityEngine::XR::Management {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16037))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16155))
 // CS Name: ::XRManagementAnalytics::BuildEvent
 struct CORDL_TYPE __XRManagementAnalytics__BuildEvent {
 public:
@@ -73,14 +73,14 @@ static_assert(offsetof(::UnityEngine::XR::Management::__XRManagementAnalytics__B
 namespace UnityEngine::XR::Management {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16038))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16156))
 // CS Name: ::UnityEngine.XR.Management::XRManagementAnalytics*
 class CORDL_TYPE XRManagementAnalytics : public ::System::Object {
 public:
   // Declarations
   using BuildEvent = ::UnityEngine::XR::Management::__XRManagementAnalytics__BuildEvent;
 
-  /// @brief Method Initialize, addr 0x2c765e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x2c73154, size 0x8, virtual false, abstract: false, final false
   static inline bool Initialize();
 
   // Ctor Parameters [CppParam { name: "", ty: "XRManagementAnalytics", modifiers: "&&", def_value: None }]

@@ -127,30 +127,30 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Engines::IesEngine* New_ctor(::Org::BouncyCastle::Crypto::IBasicAgreement* agree, ::Org::BouncyCastle::Crypto::IDerivationFunction* kdf,
                                                                           ::Org::BouncyCastle::Crypto::IMac* mac);
 
-  /// @brief Method .ctor, addr 0xed42e4, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf00174, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBasicAgreement* agree, ::Org::BouncyCastle::Crypto::IDerivationFunction* kdf, ::Org::BouncyCastle::Crypto::IMac* mac);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::IesEngine* New_ctor(::Org::BouncyCastle::Crypto::IBasicAgreement* agree, ::Org::BouncyCastle::Crypto::IDerivationFunction* kdf,
                                                                           ::Org::BouncyCastle::Crypto::IMac* mac, ::Org::BouncyCastle::Crypto::BufferedBlockCipher* cipher);
 
-  /// @brief Method .ctor, addr 0xed43d8, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf00268, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBasicAgreement* agree, ::Org::BouncyCastle::Crypto::IDerivationFunction* kdf, ::Org::BouncyCastle::Crypto::IMac* mac,
                     ::Org::BouncyCastle::Crypto::BufferedBlockCipher* cipher);
 
-  /// @brief Method Init, addr 0xed44d8, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0xf00368, size 0xc8, virtual true, abstract: false, final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* privParameters, ::Org::BouncyCastle::Crypto::ICipherParameters* pubParameters,
                    ::Org::BouncyCastle::Crypto::ICipherParameters* iesParameters);
 
-  /// @brief Method DecryptBlock, addr 0xed45a0, size 0x6ac, virtual false, abstract: false, final false
+  /// @brief Method DecryptBlock, addr 0xf00430, size 0x6ac, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DecryptBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> in_enc, int32_t inOff, int32_t inLen, ::ArrayW<uint8_t, ::Array<uint8_t>*> z);
 
-  /// @brief Method EncryptBlock, addr 0xed4da4, size 0x5ec, virtual false, abstract: false, final false
+  /// @brief Method EncryptBlock, addr 0xf00c34, size 0x5ec, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncryptBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t inLen, ::ArrayW<uint8_t, ::Array<uint8_t>*> z);
 
-  /// @brief Method GenerateKdfBytes, addr 0xed4c4c, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GenerateKdfBytes, addr 0xf00adc, size 0x158, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateKdfBytes(::Org::BouncyCastle::Crypto::Parameters::KdfParameters* kParam, int32_t length);
 
-  /// @brief Method ProcessBlock, addr 0xed5390, size 0x284, virtual true, abstract: false, final false
+  /// @brief Method ProcessBlock, addr 0xf01220, size 0x284, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t inLen);
 
   // Ctor Parameters [CppParam { name: "", ty: "IesEngine", modifiers: "&&", def_value: None }]

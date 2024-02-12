@@ -40,8 +40,8 @@ MARK_REF_PTR_T(::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarAnalytics
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15171))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15269))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(15251))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15384))
 // CS Name: ::BeatSaber.BeatAvatarAdapter.AvatarEditor::EditAvatarAnalytics*
 class CORDL_TYPE EditAvatarAnalytics : public ::UnityEngine::MonoBehaviour {
 public:
@@ -83,28 +83,28 @@ public:
 
   constexpr void __cordl_internal_set__lastEditMode(::BeatSaber::AvatarCore::__AvatarEditorFlowCoordinator__EditMode value);
 
-  /// @brief Method Awake, addr 0xe17a38, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0xe2392c, size 0x154, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnDestroy, addr 0xe17b8c, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0xe23a80, size 0x1a0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleAvatarEditorFlowCoordinatorDidSetup, addr 0xe17d2c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method HandleAvatarEditorFlowCoordinatorDidSetup, addr 0xe23c20, size 0xd8, virtual false, abstract: false, final false
   inline void HandleAvatarEditorFlowCoordinatorDidSetup(::BeatSaber::AvatarCore::__AvatarEditorFlowCoordinator__EditMode editMode);
 
-  /// @brief Method HandleAvatarEditorFlowCoordinatorDidFinish, addr 0xe1807c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method HandleAvatarEditorFlowCoordinatorDidFinish, addr 0xe23f70, size 0xf8, virtual false, abstract: false, final false
   inline void HandleAvatarEditorFlowCoordinatorDidFinish(::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator* flowCoordinator, ::BeatSaber::AvatarCore::IAvatarSystemMetadata* avatarSystemMetadata,
                                                          ::BeatSaber::AvatarCore::__AvatarEditorFlowCoordinator__FinishAction finishAction);
 
-  /// @brief Method HandleAvatarEditorFlowCoordinatorRandomizeAllButtonWasPressed, addr 0xe18174, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method HandleAvatarEditorFlowCoordinatorRandomizeAllButtonWasPressed, addr 0xe24068, size 0xd0, virtual false, abstract: false, final false
   inline void HandleAvatarEditorFlowCoordinatorRandomizeAllButtonWasPressed();
 
-  /// @brief Method CreateEditAvatarEventData, addr 0xe17e04, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method CreateEditAvatarEventData, addr 0xe23cf8, size 0x278, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* CreateEditAvatarEventData();
 
   static inline ::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarAnalytics* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe18244, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe24138, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EditAvatarAnalytics", modifiers: "&&", def_value: None }]

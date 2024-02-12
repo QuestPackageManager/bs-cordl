@@ -19,20 +19,20 @@ MARK_REF_PTR_T(::Oculus::Platform::MessageWithLaunchFriendRequestFlowResult);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13262)), TypeDefinitionIndex(TypeDefinitionIndex(13443)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst:
-// 4589 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(13294)) CS Name: ::Oculus.Platform::MessageWithLaunchFriendRequestFlowResult*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13162)), TypeDefinitionIndex(TypeDefinitionIndex(13382)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13162), inst:
+// 4563 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(13200)) CS Name: ::Oculus.Platform::MessageWithLaunchFriendRequestFlowResult*
 class CORDL_TYPE MessageWithLaunchFriendRequestFlowResult : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::LaunchFriendRequestFlowResult*> {
 public:
   // Declarations
   static inline ::Oculus::Platform::MessageWithLaunchFriendRequestFlowResult* New_ctor(void* c_message);
 
-  /// @brief Method .ctor, addr 0x26ef190, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x271896c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(void* c_message);
 
-  /// @brief Method GetLaunchFriendRequestFlowResult, addr 0x26f1e50, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetLaunchFriendRequestFlowResult, addr 0x271b8dc, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::LaunchFriendRequestFlowResult* GetLaunchFriendRequestFlowResult();
 
-  /// @brief Method GetDataFromMessage, addr 0x26f1e8c, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x271b918, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::LaunchFriendRequestFlowResult* GetDataFromMessage(void* c_message);
 
   // Ctor Parameters [CppParam { name: "", ty: "MessageWithLaunchFriendRequestFlowResult", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Xml::Schema::XmlSchemaDatatypeVariety);
 namespace System::Xml::Schema {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11615))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11513))
 // CS Name: ::System.Xml.Schema::XmlSchemaDatatypeVariety
 struct CORDL_TYPE XmlSchemaDatatypeVariety {
 public:

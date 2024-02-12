@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::System::Reflection::AssemblyConfigurationAttribute);
 namespace System::Reflection {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3445))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3441))
 // CS Name: ::System.Reflection::AssemblyConfigurationAttribute*
 class CORDL_TYPE AssemblyConfigurationAttribute : public ::System::Attribute {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::System::Reflection::AssemblyConfigurationAttribute* New_ctor(::StringW configuration);
 
-  /// @brief Method .ctor, addr 0x24e5ea8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2505000, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW configuration);
 
   // Ctor Parameters [CppParam { name: "", ty: "AssemblyConfigurationAttribute", modifiers: "&&", def_value: None }]

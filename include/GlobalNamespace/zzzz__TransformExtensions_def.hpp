@@ -21,12 +21,12 @@ MARK_REF_PTR_T(::GlobalNamespace::TransformExtensions);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15859))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15604))
 // CS Name: ::TransformExtensions*
 class CORDL_TYPE TransformExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method InverseTransformRotation, addr 0xe28670, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method InverseTransformRotation, addr 0xe523ac, size 0xb4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion InverseTransformRotation(::UnityEngine::Transform* trans, ::UnityEngine::Quaternion worldRotation);
 
   // Ctor Parameters [CppParam { name: "", ty: "TransformExtensions", modifiers: "&&", def_value: None }]

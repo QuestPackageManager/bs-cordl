@@ -22,12 +22,12 @@ MARK_REF_PTR_T(::UnityEngine::Networking::UnityWebRequestMultimedia);
 namespace UnityEngine::Networking {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16161))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16301))
 // CS Name: ::UnityEngine.Networking::UnityWebRequestMultimedia*
 class CORDL_TYPE UnityWebRequestMultimedia : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetAudioClip, addr 0x2eabf44, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetAudioClip, addr 0x2ec632c, size 0xc0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Networking::UnityWebRequest* GetAudioClip(::StringW uri, ::UnityEngine::AudioType audioType);
 
   // Ctor Parameters [CppParam { name: "", ty: "UnityWebRequestMultimedia", modifiers: "&&", def_value: None }]

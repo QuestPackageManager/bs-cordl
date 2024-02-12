@@ -105,27 +105,27 @@ public:
   /// @brief Method get_Remaining, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_Remaining();
 
-  /// @brief Method Reset, addr 0x263419c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x265a2c0, size 0x28, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method InternalReset, addr 0x26341c4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method InternalReset, addr 0x265a2e8, size 0x18, virtual false, abstract: false, final false
   inline void InternalReset();
 
-  /// @brief Method InternalInitialize, addr 0x262f3f4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InternalInitialize, addr 0x2655518, size 0x1c, virtual false, abstract: false, final false
   inline void InternalInitialize(::cordl_internals::Ptr<char16_t> charStart, ::cordl_internals::Ptr<char16_t> charEnd, ::System::Text::EncoderNLS* encoder, bool setEncoder);
 
-  /// @brief Method InternalGetNextChar, addr 0x262f410, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method InternalGetNextChar, addr 0x2655534, size 0x34, virtual false, abstract: false, final false
   inline char16_t InternalGetNextChar();
 
-  /// @brief Method InternalFallback, addr 0x26341dc, size 0x1a8, virtual true, abstract: false, final false
+  /// @brief Method InternalFallback, addr 0x265a300, size 0x1a8, virtual true, abstract: false, final false
   inline bool InternalFallback(char16_t ch, ByRef<::cordl_internals::Ptr<char16_t>> chars);
 
-  /// @brief Method ThrowLastCharRecursive, addr 0x2634384, size 0x1090, virtual false, abstract: false, final false
+  /// @brief Method ThrowLastCharRecursive, addr 0x265a4a8, size 0x90, virtual false, abstract: false, final false
   inline void ThrowLastCharRecursive(int32_t charRecursive);
 
   static inline ::System::Text::EncoderFallbackBuffer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26336f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2659818, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EncoderFallbackBuffer", modifiers: "&&", def_value: None }]

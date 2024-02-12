@@ -113,7 +113,7 @@ public:
                                                                           ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher* clientWriteCipher,
                                                                           ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher* serverWriteCipher, int32_t cipherKeySize, int32_t macSize);
 
-  /// @brief Method .ctor, addr 0xf98c34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfc4ac4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher* clientWriteCipher,
                     ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher* serverWriteCipher, int32_t cipherKeySize, int32_t macSize);
 
@@ -122,20 +122,20 @@ public:
                                                                           ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher* serverWriteCipher, int32_t cipherKeySize, int32_t macSize,
                                                                           int32_t nonceMode);
 
-  /// @brief Method .ctor, addr 0xf98c3c, size 0x4c8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfc4acc, size 0x4c8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher* clientWriteCipher,
                     ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher* serverWriteCipher, int32_t cipherKeySize, int32_t macSize, int32_t nonceMode);
 
-  /// @brief Method GetPlaintextLimit, addr 0xf99104, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method GetPlaintextLimit, addr 0xfc4f94, size 0x10, virtual true, abstract: false, final false
   inline int32_t GetPlaintextLimit(int32_t ciphertextLimit);
 
-  /// @brief Method EncodePlaintext, addr 0xf99114, size 0x574, virtual true, abstract: false, final false
+  /// @brief Method EncodePlaintext, addr 0xfc4fa4, size 0x574, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodePlaintext(int64_t seqNo, uint8_t type, ::ArrayW<uint8_t, ::Array<uint8_t>*> plaintext, int32_t offset, int32_t len);
 
-  /// @brief Method DecodeCiphertext, addr 0xf99688, size 0x568, virtual true, abstract: false, final false
+  /// @brief Method DecodeCiphertext, addr 0xfc5518, size 0x568, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DecodeCiphertext(int64_t seqNo, uint8_t type, ::ArrayW<uint8_t, ::Array<uint8_t>*> ciphertext, int32_t offset, int32_t len);
 
-  /// @brief Method GetAdditionalData, addr 0xf99bf0, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method GetAdditionalData, addr 0xfc5a80, size 0x160, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetAdditionalData(int64_t seqNo, uint8_t type, int32_t len);
 
   // Ctor Parameters [CppParam { name: "", ty: "TlsAeadCipher", modifiers: "&&", def_value: None }]

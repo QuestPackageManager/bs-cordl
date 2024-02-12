@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::OtherSettingsViewController);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5756))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13558))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5056))
 // CS Name: ::OtherSettingsViewController*
 class CORDL_TYPE OtherSettingsViewController : public ::HMUI::ViewController {
 public:
@@ -44,18 +44,18 @@ public:
 
   constexpr void __cordl_internal_set__hideExplicitToggle(::UnityW<::UnityEngine::UI::Toggle> value);
 
-  /// @brief Method DidActivate, addr 0x22da650, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x230ad04, size 0x10c, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x22da75c, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x230ae10, size 0xa8, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleHideExplicitChanged, addr 0x22da804, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method HandleHideExplicitChanged, addr 0x230aeb8, size 0xa4, virtual false, abstract: false, final false
   inline void HandleHideExplicitChanged(bool newValue);
 
   static inline ::GlobalNamespace::OtherSettingsViewController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22da838, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x230af5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OtherSettingsViewController", modifiers: "&&", def_value: None }]

@@ -76,8 +76,8 @@ MARK_REF_PTR_T(::HMUI::__AnimatedSwitchView____c);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13614))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8995))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13567))
 // CS Name: ::AnimatedSwitchView::ColorBlock*
 class CORDL_TYPE __AnimatedSwitchView__ColorBlock : public ::System::Object {
 public:
@@ -138,7 +138,7 @@ public:
 
   static inline ::HMUI::__AnimatedSwitchView__ColorBlock* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2130100, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21c49e4, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__AnimatedSwitchView__ColorBlock", modifiers: "&&", def_value: None }]
@@ -196,7 +196,7 @@ static_assert(offsetof(::HMUI::__AnimatedSwitchView__ColorBlock, ___backgroundCo
 namespace HMUI {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13615))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13568))
 // CS Name: ::AnimatedSwitchView::AnimationState
 struct CORDL_TYPE __AnimatedSwitchView__AnimationState {
 public:
@@ -266,23 +266,23 @@ static_assert(offsetof(::HMUI::__AnimatedSwitchView__AnimationState, value__) ==
 namespace HMUI {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13616))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13569))
 // CS Name: ::AnimatedSwitchView::GetColorDelegate*
 class CORDL_TYPE __AnimatedSwitchView__GetColorDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::HMUI::__AnimatedSwitchView__GetColorDelegate* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x212fd40, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21c4624, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x2130118, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x21c49fc, size 0x14, virtual true, abstract: false, final false
   inline ::UnityEngine::Color Invoke(::HMUI::__AnimatedSwitchView__ColorBlock* colorBlock);
 
-  /// @brief Method BeginInvoke, addr 0x213012c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x21c4a10, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::HMUI::__AnimatedSwitchView__ColorBlock* colorBlock, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x213014c, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x21c4a30, size 0x2c, virtual true, abstract: false, final false
   inline ::UnityEngine::Color EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__AnimatedSwitchView__GetColorDelegate", modifiers: "&&", def_value: None }]
@@ -310,7 +310,7 @@ static_assert(::cordl_internals::size_check_v<::HMUI::__AnimatedSwitchView__GetC
 namespace HMUI {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13617))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13570))
 // CS Name: ::AnimatedSwitchView::<>c*
 class CORDL_TYPE __AnimatedSwitchView____c : public ::System::Object {
 public:
@@ -366,25 +366,25 @@ public:
 
   static inline ::HMUI::__AnimatedSwitchView____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21301dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21c4ac0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <LerpColors>b__31_0, addr 0x21301e4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <LerpColors>b__31_0, addr 0x21c4ac8, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Color _LerpColors_b__31_0(::HMUI::__AnimatedSwitchView__ColorBlock* colorBlock);
 
-  /// @brief Method <LerpColors>b__31_1, addr 0x2130200, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <LerpColors>b__31_1, addr 0x21c4ae4, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Color _LerpColors_b__31_1(::HMUI::__AnimatedSwitchView__ColorBlock* colorBlock);
 
-  /// @brief Method <LerpColors>b__31_2, addr 0x213021c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <LerpColors>b__31_2, addr 0x21c4b00, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Color _LerpColors_b__31_2(::HMUI::__AnimatedSwitchView__ColorBlock* colorBlock);
 
-  /// @brief Method <LerpColors>b__31_3, addr 0x2130238, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <LerpColors>b__31_3, addr 0x21c4b1c, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Color _LerpColors_b__31_3(::HMUI::__AnimatedSwitchView__ColorBlock* colorBlock);
 
-  /// @brief Method <LerpColors>b__31_4, addr 0x2130254, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <LerpColors>b__31_4, addr 0x21c4b38, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Color _LerpColors_b__31_4(::HMUI::__AnimatedSwitchView__ColorBlock* colorBlock);
 
-  /// @brief Method <LerpColors>b__31_5, addr 0x2130270, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <LerpColors>b__31_5, addr 0x21c4b54, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Color _LerpColors_b__31_5(::HMUI::__AnimatedSwitchView__ColorBlock* colorBlock);
 
   // Ctor Parameters [CppParam { name: "", ty: "__AnimatedSwitchView____c", modifiers: "&&", def_value: None }]
@@ -411,8 +411,8 @@ static_assert(::cordl_internals::size_check_v<::HMUI::__AnimatedSwitchView____c,
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(13615))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13618))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(13568))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13571))
 // CS Name: ::HMUI::AnimatedSwitchView*
 class CORDL_TYPE AnimatedSwitchView : public ::UnityEngine::MonoBehaviour {
 public:
@@ -623,39 +623,39 @@ public:
 
   constexpr void __cordl_internal_set__toggle(::UnityW<::HMUI::ToggleWithCallbacks> value);
 
-  /// @brief Method Awake, addr 0x212f190, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x21c3a74, size 0x50, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Start, addr 0x212f1e0, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x21c3ac4, size 0x1a0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy, addr 0x212f8d8, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x21c41bc, size 0x150, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Update, addr 0x212fa28, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x21c430c, size 0x298, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method LerpPosition, addr 0x212f874, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method LerpPosition, addr 0x21c4158, size 0x64, virtual false, abstract: false, final false
   inline void LerpPosition(float_t switchAmount);
 
-  /// @brief Method LerpStretch, addr 0x212fcc0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method LerpStretch, addr 0x21c45a4, size 0x80, virtual false, abstract: false, final false
   inline void LerpStretch(float_t switchAmount);
 
-  /// @brief Method LerpColors, addr 0x212f380, size 0x4f4, virtual false, abstract: false, final false
+  /// @brief Method LerpColors, addr 0x21c3c64, size 0x4f4, virtual false, abstract: false, final false
   inline void LerpColors(float_t switchAmount, float_t highlightAmount, float_t disabledAmount);
 
-  /// @brief Method LerpColor, addr 0x212fe6c, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method LerpColor, addr 0x21c4750, size 0x1ac, virtual false, abstract: false, final false
   inline ::UnityEngine::Color LerpColor(float_t switchAmount, float_t highlightAmount, float_t disabledAmount, ::HMUI::__AnimatedSwitchView__GetColorDelegate* getColorDelegate);
 
-  /// @brief Method HandleOnValueChanged, addr 0x2130058, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method HandleOnValueChanged, addr 0x21c493c, size 0x28, virtual false, abstract: false, final false
   inline void HandleOnValueChanged(bool value);
 
-  /// @brief Method HandleStateDidChange, addr 0x2130080, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method HandleStateDidChange, addr 0x21c4964, size 0x60, virtual false, abstract: false, final false
   inline void HandleStateDidChange(::HMUI::__ToggleWithCallbacks__SelectionState selectionState);
 
   static inline ::HMUI::AnimatedSwitchView* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21300e0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21c49c4, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AnimatedSwitchView", modifiers: "&&", def_value: None }]

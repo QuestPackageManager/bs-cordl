@@ -22,7 +22,7 @@ MARK_VAL_T(::System::Xml::XmlCharType);
 namespace System::Xml {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11544))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11442))
 // CS Name: ::System.Xml::XmlCharType
 struct CORDL_TYPE XmlCharType {
 public:
@@ -41,88 +41,88 @@ public:
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_s_CharProperties();
 
-  /// @brief Method get_StaticLock, addr 0x289d6c0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_StaticLock, addr 0x28a0d28, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::Object* get_StaticLock();
 
-  /// @brief Method InitInstance, addr 0x289d75c, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method InitInstance, addr 0x28a0dc4, size 0x260, virtual false, abstract: false, final false
   static inline void InitInstance();
 
-  /// @brief Method SetProperties, addr 0x289d9bc, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method SetProperties, addr 0x28a1024, size 0xc4, virtual false, abstract: false, final false
   static inline void SetProperties(::ArrayW<uint8_t, ::Array<uint8_t>*> chProps, ::StringW ranges, uint8_t value);
 
-  /// @brief Method .ctor, addr 0x289da80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28a10e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> charProperties);
 
-  /// @brief Method get_Instance, addr 0x289d360, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_Instance, addr 0x28a09c8, size 0x68, virtual false, abstract: false, final false
   static inline ::System::Xml::XmlCharType get_Instance();
 
-  /// @brief Method IsWhiteSpace, addr 0x289da88, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method IsWhiteSpace, addr 0x28a10f0, size 0x34, virtual false, abstract: false, final false
   inline bool IsWhiteSpace(char16_t ch);
 
-  /// @brief Method IsNCNameSingleChar, addr 0x289d32c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method IsNCNameSingleChar, addr 0x28a0994, size 0x34, virtual false, abstract: false, final false
   inline bool IsNCNameSingleChar(char16_t ch);
 
-  /// @brief Method IsStartNCNameSingleChar, addr 0x289d3c8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method IsStartNCNameSingleChar, addr 0x28a0a30, size 0x34, virtual false, abstract: false, final false
   inline bool IsStartNCNameSingleChar(char16_t ch);
 
-  /// @brief Method IsNameSingleChar, addr 0x289dabc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IsNameSingleChar, addr 0x28a1124, size 0x24, virtual false, abstract: false, final false
   inline bool IsNameSingleChar(char16_t ch);
 
-  /// @brief Method IsCharData, addr 0x289dae0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method IsCharData, addr 0x28a1148, size 0x34, virtual false, abstract: false, final false
   inline bool IsCharData(char16_t ch);
 
-  /// @brief Method IsPubidChar, addr 0x289db14, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method IsPubidChar, addr 0x28a117c, size 0x84, virtual false, abstract: false, final false
   inline bool IsPubidChar(char16_t ch);
 
-  /// @brief Method IsTextChar, addr 0x289db98, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method IsTextChar, addr 0x28a1200, size 0x34, virtual false, abstract: false, final false
   inline bool IsTextChar(char16_t ch);
 
-  /// @brief Method IsLetter, addr 0x289dbcc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method IsLetter, addr 0x28a1234, size 0x34, virtual false, abstract: false, final false
   inline bool IsLetter(char16_t ch);
 
-  /// @brief Method IsNCNameCharXml4e, addr 0x289dc00, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method IsNCNameCharXml4e, addr 0x28a1268, size 0x34, virtual false, abstract: false, final false
   inline bool IsNCNameCharXml4e(char16_t ch);
 
-  /// @brief Method IsStartNCNameCharXml4e, addr 0x289dc34, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IsStartNCNameCharXml4e, addr 0x28a129c, size 0x24, virtual false, abstract: false, final false
   inline bool IsStartNCNameCharXml4e(char16_t ch);
 
-  /// @brief Method IsNameCharXml4e, addr 0x289dc58, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IsNameCharXml4e, addr 0x28a12c0, size 0x24, virtual false, abstract: false, final false
   inline bool IsNameCharXml4e(char16_t ch);
 
-  /// @brief Method IsDigit, addr 0x289dc7c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsDigit, addr 0x28a12e4, size 0x14, virtual false, abstract: false, final false
   static inline bool IsDigit(char16_t ch);
 
-  /// @brief Method IsHighSurrogate, addr 0x289dca4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsHighSurrogate, addr 0x28a130c, size 0x10, virtual false, abstract: false, final false
   static inline bool IsHighSurrogate(int32_t ch);
 
-  /// @brief Method IsLowSurrogate, addr 0x289dcb4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsLowSurrogate, addr 0x28a131c, size 0x10, virtual false, abstract: false, final false
   static inline bool IsLowSurrogate(int32_t ch);
 
-  /// @brief Method IsSurrogate, addr 0x289dcc4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsSurrogate, addr 0x28a132c, size 0x10, virtual false, abstract: false, final false
   static inline bool IsSurrogate(int32_t ch);
 
-  /// @brief Method CombineSurrogateChar, addr 0x289dcd4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method CombineSurrogateChar, addr 0x28a133c, size 0x18, virtual false, abstract: false, final false
   static inline int32_t CombineSurrogateChar(int32_t lowChar, int32_t highChar);
 
-  /// @brief Method SplitSurrogateChar, addr 0x289dcec, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method SplitSurrogateChar, addr 0x28a1354, size 0x38, virtual false, abstract: false, final false
   static inline void SplitSurrogateChar(int32_t combinedChar, ByRef<char16_t> lowChar, ByRef<char16_t> highChar);
 
-  /// @brief Method IsOnlyWhitespace, addr 0x289dd24, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method IsOnlyWhitespace, addr 0x28a138c, size 0x18, virtual false, abstract: false, final false
   inline bool IsOnlyWhitespace(::StringW str);
 
-  /// @brief Method IsOnlyWhitespaceWithPos, addr 0x289dd3c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method IsOnlyWhitespaceWithPos, addr 0x28a13a4, size 0x88, virtual false, abstract: false, final false
   inline int32_t IsOnlyWhitespaceWithPos(::StringW str);
 
-  /// @brief Method IsOnlyCharData, addr 0x289ddc4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method IsOnlyCharData, addr 0x28a142c, size 0xd8, virtual false, abstract: false, final false
   inline int32_t IsOnlyCharData(::StringW str);
 
-  /// @brief Method IsOnlyDigits, addr 0x289de9c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method IsOnlyDigits, addr 0x28a1504, size 0x6c, virtual false, abstract: false, final false
   static inline bool IsOnlyDigits(::StringW str, int32_t startPos, int32_t len);
 
-  /// @brief Method IsPublicId, addr 0x289df08, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method IsPublicId, addr 0x28a1570, size 0x60, virtual false, abstract: false, final false
   inline int32_t IsPublicId(::StringW str);
 
-  /// @brief Method InRange, addr 0x289dc90, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method InRange, addr 0x28a12f8, size 0x14, virtual false, abstract: false, final false
   static inline bool InRange(int32_t value, int32_t start, int32_t end);
 
   // Ctor Parameters [CppParam { name: "charProperties", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value: None }]

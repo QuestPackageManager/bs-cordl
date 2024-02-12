@@ -24,12 +24,12 @@ public:
   // Declarations
   static inline ::System::Security::Cryptography::HMACSHA256* New_ctor();
 
-  /// @brief Method .ctor, addr 0x245ee70, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2480ee4, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Security::Cryptography::HMACSHA256* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method .ctor, addr 0x245ee94, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2480f08, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
   // Ctor Parameters [CppParam { name: "", ty: "HMACSHA256", modifiers: "&&", def_value: None }]

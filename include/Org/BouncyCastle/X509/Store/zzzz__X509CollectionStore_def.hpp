@@ -46,10 +46,10 @@ public:
 
   static inline ::Org::BouncyCastle::X509::Store::X509CollectionStore* New_ctor(::System::Collections::ICollection* collection);
 
-  /// @brief Method .ctor, addr 0x1171650, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11a04e0, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::ICollection* collection);
 
-  /// @brief Method GetMatches, addr 0x11716c4, size 0x448, virtual true, abstract: false, final true
+  /// @brief Method GetMatches, addr 0x11a0554, size 0x448, virtual true, abstract: false, final true
   inline ::System::Collections::ICollection* GetMatches(::Org::BouncyCastle::X509::Store::IX509Selector* selector);
 
   // Ctor Parameters [CppParam { name: "", ty: "X509CollectionStore", modifiers: "&&", def_value: None }]

@@ -50,7 +50,7 @@ namespace GlobalNamespace {
 template <typename TBase>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4256))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10714))
 // CS Name: ::BeatmapDataSortedListForTypeAndIds`1::<>c<TBase>*
 class CORDL_TYPE __BeatmapDataSortedListForTypeAndIds_1____c : public ::System::Object {
 public:
@@ -113,7 +113,7 @@ namespace GlobalNamespace {
 template <typename TBase>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4257))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10715))
 // CS Name: ::BeatmapDataSortedListForTypeAndIds`1<TBase>*
 class CORDL_TYPE BeatmapDataSortedListForTypeAndIds_1 : public ::System::Object {
 public:

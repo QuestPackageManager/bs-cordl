@@ -15,18 +15,18 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::CamelCasePropertyNamesContract
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 35, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11929))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11918))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11827))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11816))
 // CS Name: ::Newtonsoft.Json.Serialization::CamelCasePropertyNamesContractResolver*
 class CORDL_TYPE CamelCasePropertyNamesContractResolver : public ::Newtonsoft::Json::Serialization::DefaultContractResolver {
 public:
   // Declarations
   static inline ::Newtonsoft::Json::Serialization::CamelCasePropertyNamesContractResolver* New_ctor();
 
-  /// @brief Method .ctor, addr 0x266ec2c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2691de8, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method ResolvePropertyName, addr 0x266ecb0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ResolvePropertyName, addr 0x2691e6c, size 0xc, virtual true, abstract: false, final false
   inline ::StringW ResolvePropertyName(::StringW propertyName);
 
   // Ctor Parameters [CppParam { name: "", ty: "CamelCasePropertyNamesContractResolver", modifiers: "&&", def_value: None }]

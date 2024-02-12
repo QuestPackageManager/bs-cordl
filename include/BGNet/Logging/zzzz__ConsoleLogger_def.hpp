@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::BGNet::Logging::ConsoleLogger);
 namespace BGNet::Logging {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16233))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16413))
 // CS Name: ::BGNet.Logging::ConsoleLogger*
 class CORDL_TYPE ConsoleLogger : public ::System::Object {
 public:
@@ -33,21 +33,21 @@ public:
   /// @brief Convert to "::BGNet::Logging::__Debug__ILogger"
   constexpr ::BGNet::Logging::__Debug__ILogger* i___BGNet__Logging____Debug__ILogger() noexcept;
 
-  /// @brief Method LogInfo, addr 0xe60ee4, size 0xe0, virtual true, abstract: false, final true
+  /// @brief Method LogInfo, addr 0xe8bd74, size 0xe0, virtual true, abstract: false, final true
   inline void LogInfo(::StringW message);
 
-  /// @brief Method LogError, addr 0xe60fc4, size 0x1a0, virtual true, abstract: false, final true
+  /// @brief Method LogError, addr 0xe8be54, size 0x1a0, virtual true, abstract: false, final true
   inline void LogError(::StringW message);
 
-  /// @brief Method LogException, addr 0xe61164, size 0x134, virtual true, abstract: false, final true
+  /// @brief Method LogException, addr 0xe8bff4, size 0x134, virtual true, abstract: false, final true
   inline void LogException(::System::Exception* exception, ::StringW message);
 
-  /// @brief Method LogWarning, addr 0xe61298, size 0xe0, virtual true, abstract: false, final true
+  /// @brief Method LogWarning, addr 0xe8c128, size 0xe0, virtual true, abstract: false, final true
   inline void LogWarning(::StringW message);
 
   static inline ::BGNet::Logging::ConsoleLogger* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe61378, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe8c208, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ConsoleLogger", modifiers: "&&", def_value: None }]

@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ExternalCamerasManager);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15281))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15396))
 // CS Name: ::ExternalCamerasManager*
 class CORDL_TYPE ExternalCamerasManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -56,18 +56,18 @@ public:
 
   constexpr void __cordl_internal_set__mrcForegroundCameraPrefab(::UnityW<::UnityEngine::Camera> value);
 
-  /// @brief Method OnEnable, addr 0x2807498, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x280bc80, size 0xcc, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method InstantiateMixedRealityBackgroundCameraGameObject, addr 0x2807564, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method InstantiateMixedRealityBackgroundCameraGameObject, addr 0x280bd4c, size 0x80, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> InstantiateMixedRealityBackgroundCameraGameObject(::UnityEngine::GameObject* mainCameraGameObject);
 
-  /// @brief Method InstantiateMixedRealityForegroundCameraGameObject, addr 0x28075e4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method InstantiateMixedRealityForegroundCameraGameObject, addr 0x280bdcc, size 0x80, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> InstantiateMixedRealityForegroundCameraGameObject(::UnityEngine::GameObject* mainCameraGameObject);
 
   static inline ::GlobalNamespace::ExternalCamerasManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2807664, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x280be4c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ExternalCamerasManager", modifiers: "&&", def_value: None }]

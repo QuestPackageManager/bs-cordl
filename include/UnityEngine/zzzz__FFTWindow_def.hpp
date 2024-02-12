@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::FFTWindow);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15588))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15296))
 // CS Name: ::UnityEngine::FFTWindow
 struct CORDL_TYPE FFTWindow {
 public:

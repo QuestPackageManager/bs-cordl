@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::System::Net::ICertificatePolicy);
 namespace System::Net {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9069))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7079))
 // CS Name: ::System.Net::ICertificatePolicy*
 class CORDL_TYPE ICertificatePolicy {
 public:

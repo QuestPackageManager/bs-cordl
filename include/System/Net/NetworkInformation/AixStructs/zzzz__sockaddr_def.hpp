@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::NetworkInformation::AixStructs::sockaddr);
 namespace System::Net::NetworkInformation::AixStructs {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9307))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7317))
 // CS Name: ::System.Net.NetworkInformation.AixStructs::sockaddr
 struct CORDL_TYPE sockaddr {
 public:

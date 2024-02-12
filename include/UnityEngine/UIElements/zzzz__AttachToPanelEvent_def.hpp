@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::AttachToPanelEvent);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7243)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7243), inst: 4819 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7244))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6502)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6502), inst: 4792 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6503))
 // CS Name: ::UnityEngine.UIElements::AttachToPanelEvent*
 class CORDL_TYPE AttachToPanelEvent : public ::UnityEngine::UIElements::PanelChangedEventBase_1<::UnityEngine::UIElements::AttachToPanelEvent*> {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::AttachToPanelEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e52cac, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e6e094, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AttachToPanelEvent", modifiers: "&&", def_value: None }]

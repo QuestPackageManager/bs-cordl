@@ -16,7 +16,7 @@ MARK_VAL_T(::Oculus::Platform::UserOrdering);
 namespace Oculus::Platform {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13394))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13326))
 // CS Name: ::Oculus.Platform::UserOrdering
 struct CORDL_TYPE UserOrdering {
 public:

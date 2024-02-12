@@ -33,33 +33,33 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::Util::ResourceManagerConfig);
 namespace UnityEngine::ResourceManagement::Util {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13985))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13998))
 // CS Name: ::UnityEngine.ResourceManagement.Util::ResourceManagerConfig*
 class CORDL_TYPE ResourceManagerConfig : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ExtractKeyAndSubKey, addr 0x2bd2ae4, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method ExtractKeyAndSubKey, addr 0x2bd0650, size 0xe4, virtual false, abstract: false, final false
   static inline bool ExtractKeyAndSubKey(::System::Object* keyObj, ByRef<::StringW> mainKey, ByRef<::StringW> subKey);
 
-  /// @brief Method IsPathRemote, addr 0x2bd2bc8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method IsPathRemote, addr 0x2bd0734, size 0x60, virtual false, abstract: false, final false
   static inline bool IsPathRemote(::StringW path);
 
-  /// @brief Method StripQueryParameters, addr 0x2bd2c28, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method StripQueryParameters, addr 0x2bd0794, size 0x44, virtual false, abstract: false, final false
   static inline ::StringW StripQueryParameters(::StringW path);
 
-  /// @brief Method ShouldPathUseWebRequest, addr 0x2bd2c6c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ShouldPathUseWebRequest, addr 0x2bd07d8, size 0x7c, virtual false, abstract: false, final false
   static inline bool ShouldPathUseWebRequest(::StringW path);
 
-  /// @brief Method PlatformCanLoadLocallyFromUrlPath, addr 0x2bd2ce8, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method PlatformCanLoadLocallyFromUrlPath, addr 0x2bd0854, size 0x104, virtual false, abstract: false, final false
   static inline bool PlatformCanLoadLocallyFromUrlPath();
 
-  /// @brief Method CreateArrayResult, addr 0x2bd2dec, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method CreateArrayResult, addr 0x2bd0958, size 0x1b8, virtual false, abstract: false, final false
   static inline ::System::Array* CreateArrayResult(::System::Type* type, ::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> allAssets);
 
   /// @brief Method CreateArrayResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TObject> static inline TObject CreateArrayResult(::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> allAssets);
 
-  /// @brief Method CreateListResult, addr 0x2bd2fa4, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method CreateListResult, addr 0x2bd0b10, size 0x1cc, virtual false, abstract: false, final false
   static inline ::System::Collections::IList* CreateListResult(::System::Type* type, ::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> allAssets);
 
   /// @brief Method CreateListResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

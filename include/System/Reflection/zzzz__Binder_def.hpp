@@ -42,14 +42,14 @@ MARK_REF_PTR_T(::System::Reflection::Binder);
 namespace System::Reflection {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3458))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3454))
 // CS Name: ::System.Reflection::Binder*
 class CORDL_TYPE Binder : public ::System::Object {
 public:
   // Declarations
   static inline ::System::Reflection::Binder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24e60b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2505208, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method BindToField, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

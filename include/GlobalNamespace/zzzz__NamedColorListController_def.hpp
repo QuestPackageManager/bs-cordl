@@ -35,8 +35,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__NamedColorListController__ColorValuePair);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16150))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8995))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16290))
 // CS Name: ::NamedColorListController::ColorValuePair*
 class CORDL_TYPE __NamedColorListController__ColorValuePair : public ::System::Object {
 public:
@@ -61,7 +61,7 @@ public:
 
   static inline ::GlobalNamespace::__NamedColorListController__ColorValuePair* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23e547c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24052dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__NamedColorListController__ColorValuePair", modifiers: "&&", def_value: None }]
@@ -98,8 +98,8 @@ static_assert(offsetof(::GlobalNamespace::__NamedColorListController__ColorValue
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16148))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16151))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16288))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16291))
 // CS Name: ::NamedColorListController*
 class CORDL_TYPE NamedColorListController : public ::GlobalNamespace::ListColorController {
 public:
@@ -143,30 +143,30 @@ public:
 
   constexpr void __cordl_internal_set_valueChangedEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method add_valueChangedEvent, addr 0x23e51d0, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_valueChangedEvent, addr 0x2405030, size 0xb0, virtual true, abstract: false, final true
   inline void add_valueChangedEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method remove_valueChangedEvent, addr 0x23e5280, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_valueChangedEvent, addr 0x24050e0, size 0xb0, virtual true, abstract: false, final true
   inline void remove_valueChangedEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method Init, addr 0x23e5330, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2405190, size 0x3c, virtual false, abstract: false, final false
   inline void Init(::ArrayW<::GlobalNamespace::__NamedColorListController__ColorValuePair*, ::Array<::GlobalNamespace::__NamedColorListController__ColorValuePair*>*> values, int32_t value);
 
-  /// @brief Method SetValue, addr 0x23e536c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x24051cc, size 0x38, virtual false, abstract: false, final false
   inline void SetValue(int32_t value);
 
-  /// @brief Method GetInitValues, addr 0x23e53a4, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method GetInitValues, addr 0x2405204, size 0x74, virtual true, abstract: false, final false
   inline bool GetInitValues(ByRef<int32_t> idx, ByRef<int32_t> numberOfElements);
 
-  /// @brief Method ApplyValue, addr 0x23e5418, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ApplyValue, addr 0x2405278, size 0x20, virtual true, abstract: false, final false
   inline void ApplyValue(int32_t idx);
 
-  /// @brief Method ColorForValue, addr 0x23e5438, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method ColorForValue, addr 0x2405298, size 0x3c, virtual true, abstract: false, final false
   inline ::UnityEngine::Color ColorForValue(int32_t idx);
 
   static inline ::GlobalNamespace::NamedColorListController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23e5474, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24052d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NamedColorListController", modifiers: "&&", def_value: None }]

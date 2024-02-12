@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::System::Globalization::CultureNotFoundException);
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2344)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 98
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(3660)) CS Name: ::System.Globalization::CultureNotFoundException*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2344)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 103
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(3658)) CS Name: ::System.Globalization::CultureNotFoundException*
 class CORDL_TYPE CultureNotFoundException : public ::System::ArgumentException {
 public:
   // Declarations
@@ -59,35 +59,35 @@ public:
 
   static inline ::System::Globalization::CultureNotFoundException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x254d914, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x256f55c, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Globalization::CultureNotFoundException* New_ctor(::StringW paramName, ::StringW message);
 
-  /// @brief Method .ctor, addr 0x254d9a0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x256f5e8, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::StringW paramName, ::StringW message);
 
   static inline ::System::Globalization::CultureNotFoundException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x254d9b4, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x256f5fc, size 0x1bc, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetObjectData, addr 0x254db70, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x256f7b8, size 0x164, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method get_InvalidCultureId, addr 0x254dcd4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_InvalidCultureId, addr 0x256f91c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Nullable_1<int32_t> get_InvalidCultureId();
 
-  /// @brief Method get_InvalidCultureName, addr 0x254dcdc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_InvalidCultureName, addr 0x256f924, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_InvalidCultureName();
 
-  /// @brief Method get_DefaultMessage, addr 0x254d960, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultMessage, addr 0x256f5a8, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_DefaultMessage();
 
-  /// @brief Method get_FormatedInvalidCultureId, addr 0x254dce4, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method get_FormatedInvalidCultureId, addr 0x256f92c, size 0x134, virtual false, abstract: false, final false
   inline ::StringW get_FormatedInvalidCultureId();
 
-  /// @brief Method get_Message, addr 0x254de18, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x256fa60, size 0xbc, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
   // Ctor Parameters [CppParam { name: "", ty: "CultureNotFoundException", modifiers: "&&", def_value: None }]

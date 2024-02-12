@@ -81,28 +81,28 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cms::AuthEnvelopedDataParser* New_ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* seq);
 
-  /// @brief Method .ctor, addr 0xe74778, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe9f608, size 0x124, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* seq);
 
-  /// @brief Method get_Version, addr 0xe7489c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0xe9f72c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
-  /// @brief Method GetOriginatorInfo, addr 0xe748a4, size 0x2e0, virtual false, abstract: false, final false
+  /// @brief Method GetOriginatorInfo, addr 0xe9f734, size 0x2e0, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* GetOriginatorInfo();
 
-  /// @brief Method GetRecipientInfos, addr 0xe74b84, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetRecipientInfos, addr 0xe9fa14, size 0x100, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1SetParser* GetRecipientInfos();
 
-  /// @brief Method GetAuthEncryptedContentInfo, addr 0xe74c84, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method GetAuthEncryptedContentInfo, addr 0xe9fb14, size 0x120, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfoParser* GetAuthEncryptedContentInfo();
 
-  /// @brief Method GetAuthAttrs, addr 0xe7505c, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method GetAuthAttrs, addr 0xe9feec, size 0x1b8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1SetParser* GetAuthAttrs();
 
-  /// @brief Method GetMac, addr 0xe75214, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method GetMac, addr 0xea00a4, size 0x130, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* GetMac();
 
-  /// @brief Method GetUnauthAttrs, addr 0xe75344, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method GetUnauthAttrs, addr 0xea01d4, size 0x1ac, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1SetParser* GetUnauthAttrs();
 
   // Ctor Parameters [CppParam { name: "", ty: "AuthEnvelopedDataParser", modifiers: "&&", def_value: None }]

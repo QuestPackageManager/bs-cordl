@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::TextOverflow);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6894))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6153))
 // CS Name: ::UnityEngine.UIElements::TextOverflow
 struct CORDL_TYPE TextOverflow {
 public:

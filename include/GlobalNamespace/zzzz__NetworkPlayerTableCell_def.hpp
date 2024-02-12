@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::GlobalNamespace::NetworkPlayerTableCell);
 // SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 193, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(13664))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5588))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8995)), TypeDefinitionIndex(TypeDefinitionIndex(13617))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4893))
 // CS Name: ::NetworkPlayerTableCell*
 class CORDL_TYPE NetworkPlayerTableCell : public ::HMUI::TableCell {
 public:
@@ -140,30 +140,30 @@ public:
 
   constexpr void __cordl_internal_set__isMe(bool value);
 
-  /// @brief Method get_showSeparator, addr 0x22a9ab0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_showSeparator, addr 0x22dcee4, size 0x1c, virtual false, abstract: false, final false
   inline bool get_showSeparator();
 
-  /// @brief Method set_showSeparator, addr 0x22a8ea8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_showSeparator, addr 0x22dc2dc, size 0x2c, virtual false, abstract: false, final false
   inline void set_showSeparator(bool value);
 
-  /// @brief Method SetData, addr 0x22a8e0c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x22dc240, size 0x9c, virtual false, abstract: false, final false
   inline void SetData(::StringW userName, bool isOpenParty, bool wantsToPlayNextLevel, bool isMyPartyOwner, bool isMe);
 
-  /// @brief Method SelectionDidChange, addr 0x22a9ce0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SelectionDidChange, addr 0x22dd114, size 0x4, virtual true, abstract: false, final false
   inline void SelectionDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
 
-  /// @brief Method HighlightDidChange, addr 0x22a9ce4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method HighlightDidChange, addr 0x22dd118, size 0x4, virtual true, abstract: false, final false
   inline void HighlightDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
 
-  /// @brief Method RefreshVisuals, addr 0x22a9acc, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method RefreshVisuals, addr 0x22dcf00, size 0x214, virtual false, abstract: false, final false
   inline void RefreshVisuals();
 
-  /// @brief Method get_activeColor, addr 0x22a9ce8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_activeColor, addr 0x22dd11c, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_activeColor();
 
   static inline ::GlobalNamespace::NetworkPlayerTableCell* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22a9d44, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22dd178, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayerTableCell", modifiers: "&&", def_value: None }]

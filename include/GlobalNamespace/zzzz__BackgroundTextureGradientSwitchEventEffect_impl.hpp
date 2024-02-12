@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::*)()>(
     &::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::Start)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x23a4f94;
+  constexpr static std::size_t addrs = 0x23650cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::*)()>(
     &::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::OnDestroy)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x23a503c;
+  constexpr static std::size_t addrs = 0x2365174;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::*)(
     ::GlobalNamespace::ColorBoostBeatmapEventData*)>(&::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::HandleBeatmapEvent)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x23a5058;
+  constexpr static std::size_t addrs = 0x2365190;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::*)()>(
     &::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23a50a8;
+  constexpr static std::size_t addrs = 0x23651e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -28,18 +28,18 @@ MARK_REF_PTR_T(::System::Net::Http::PlatformHelper);
 namespace System::Net::Http {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14639))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14644))
 // CS Name: ::System.Net.Http::PlatformHelper*
 class CORDL_TYPE PlatformHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsContentHeader, addr 0x282e354, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method IsContentHeader, addr 0x2832b3c, size 0x60, virtual false, abstract: false, final false
   static inline bool IsContentHeader(::StringW name);
 
-  /// @brief Method GetSingleHeaderString, addr 0x282e088, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetSingleHeaderString, addr 0x2832870, size 0x64, virtual false, abstract: false, final false
   static inline ::StringW GetSingleHeaderString(::StringW name, ::System::Collections::Generic::IEnumerable_1<::StringW>* values);
 
-  /// @brief Method CreateStreamContent, addr 0x282e2e0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method CreateStreamContent, addr 0x2832ac8, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Net::Http::StreamContent* CreateStreamContent(::System::IO::Stream* stream, ::System::Threading::CancellationToken cancellationToken);
 
   // Ctor Parameters [CppParam { name: "", ty: "PlatformHelper", modifiers: "&&", def_value: None }]

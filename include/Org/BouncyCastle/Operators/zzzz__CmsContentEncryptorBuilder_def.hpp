@@ -67,20 +67,20 @@ public:
 
   static inline ::System::Collections::IDictionary* getStaticF_KeySizes();
 
-  /// @brief Method GetKeySize, addr 0xf2d628, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method GetKeySize, addr 0xf584b8, size 0x1a4, virtual false, abstract: false, final false
   static inline int32_t GetKeySize(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
   static inline ::Org::BouncyCastle::Operators::CmsContentEncryptorBuilder* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionOID);
 
-  /// @brief Method .ctor, addr 0xf2d7cc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf5865c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionOID);
 
   static inline ::Org::BouncyCastle::Operators::CmsContentEncryptorBuilder* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionOID, int32_t keySize);
 
-  /// @brief Method .ctor, addr 0xf2d83c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf586cc, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionOID, int32_t keySize);
 
-  /// @brief Method Build, addr 0xf2d8c0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0xf58750, size 0x68, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::ICipherBuilderWithKey* Build();
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsContentEncryptorBuilder", modifiers: "&&", def_value: None }]

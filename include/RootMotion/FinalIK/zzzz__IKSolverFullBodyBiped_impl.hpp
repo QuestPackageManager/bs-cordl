@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::RootMotion::FinalIK::IKEffector* (::RootMotion::FinalIK::IKSolverFullBodyBiped::*)()>(
     &::RootMotion::FinalIK::IKSolverFullBodyBiped::get_bodyEffector)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1267430;
+  constexpr static std::size_t addrs = 0x13004e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverFullBodyBiped*>::get(),
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::RootMotion::FinalIK::IKEffector* (::RootMotion::FinalIK::IKSolverFullBodyBiped::*)()>(
     &::RootMotion::FinalIK::IKSolverFullBodyBiped::get_leftShoulderEffector)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1267570;
+  constexpr static std::size_t addrs = 0x1300620;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverFullBodyBiped*>::get(),
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::RootMotion::FinalIK::IKEffector* (::RootMotion::FinalIK::IKSolverFullBodyBiped::*)()>(
     &::RootMotion::FinalIK::IKSolverFullBodyBiped::get_rightShoulderEffector)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1267578;
+  constexpr static std::size_t addrs = 0x1300628;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverFullBodyBiped*>::get(),
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::RootMotion::FinalIK::IKEffector* (::RootMotion::FinalIK::IKSolverFullBodyBiped::*)()>(
     &::RootMotion::FinalIK::IKSolverFullBodyBiped::get_leftThighEffector)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1267580;
+  constexpr static std::size_t addrs = 0x1300630;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverFullBodyBiped*>::get(),
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::RootMotion::FinalIK::IKEffector* (::RootMotion::FinalIK::IKSolverFullBodyBiped::*)()>(
     &::RootMotion::FinalIK::IKSolverFullBodyBiped::get_rightThighEffector)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1267588;
+  constexpr static std::size_t addrs = 0x1300638;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverFullBodyBiped*>::get(),
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::RootMotion::FinalIK::IKEffector* (::RootMotion::FinalIK::IKSolverFullBodyBiped::*)()>(
     &::RootMotion::FinalIK::IKSolverFullBodyBiped::get_leftHandEffector)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1267590;
+  constexpr static std::size_t addrs = 0x1300640;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverFullBodyBiped*>::get(),
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::RootMotion::FinalIK::IKEffector* (::RootMotion::FinalIK::IKSolverFullBodyBiped::*)()>(
     &::RootMotion::FinalIK::IKSolverFullBodyBiped::get_rightHandEffector)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1267598;
+  constexpr static std::size_t addrs = 0x1300648;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverFullBodyBiped*>::get(),
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::RootMotion::FinalIK::IKEffector* (::RootMotion::FinalIK::IKSolverFullBodyBiped::*)()>(
     &::RootMotion::FinalIK::IKSolverFullBodyBiped::get_leftFootEffector)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x12675a0;
+  constexpr static std::size_t addrs = 0x1300650;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverFullBodyBiped*>::get(),
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::RootMotion::FinalIK::IKEffector* (::RootMotion::FinalIK::IKSolverFullBodyBiped::*)()>(
     &::RootMotion::FinalIK::IKSolverFullBodyBiped::get_rightFootEffector)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x12675a8;
+  constexpr static std::size_t addrs = 0x1300658;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverFullBodyBiped*>::get(),
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::RootMotion::FinalIK::FBIKChain* (::RootMotion::FinalIK::IKSolverFullBodyBiped::*)()>(
     &::RootMotion::FinalIK::IKSolverFullBodyBiped::get_leftArmChain)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x12675b0;
+  constexpr static std::size_t addrs = 0x1300660;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverFullBodyBiped*>::get(),
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::RootMotion::FinalIK::FBIKChain* (::RootMotion::FinalIK::IKSolverFullBodyBiped::*)()>(
     &::RootMotion::FinalIK::IKSolverFullBodyBiped::get_rightArmChain)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x12675dc;
+  constexpr static std::size_t addrs = 0x130068c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverFullBodyBiped*>::get(),
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::RootMotion::FinalIK::FBIKChain* (::RootMotion::FinalIK::IKSolverFullBodyBiped::*)()>(
     &::RootMotion::FinalIK::IKSolverFullBodyBiped::get_leftLegChain)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x1267608;
+  constexpr static std::size_t addrs = 0x13006b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverFullBodyBiped*>::get(),
@@ -188,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::RootMotion::FinalIK::FBIKChain* (::RootMotion::FinalIK::IKSolverFullBodyBiped::*)()>(
     &::RootMotion::FinalIK::IKSolverFullBodyBiped::get_rightLegChain)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x1267634;
+  constexpr static std::size_t addrs = 0x13006e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverFullBodyBiped*>::get(),
@@ -202,7 +202,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::RootMotion::FinalIK::IKMappingLimb* (::RootMotion::FinalIK::IKSolverFullBodyBiped::*)()>(
     &::RootMotion::FinalIK::IKSolverFullBodyBiped::get_leftArmMapping)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x1267660;
+  constexpr static std::size_t addrs = 0x1300710;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverFullBodyBiped*>::get(),
@@ -216,7 +216,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::RootMotion::FinalIK::IKMappingLimb* (::RootMotion::FinalIK::IKSolverFullBodyBiped::*)()>(
     &::RootMotion::FinalIK::IKSolverFullBodyBiped::get_rightArmMapping)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x1267688;
+  constexpr static std::size_t addrs = 0x1300738;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverFullBodyBiped*>::get(),
@@ -230,7 +230,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::RootMotion::FinalIK::IKMappingLimb* (::RootMotion::FinalIK::IKSolverFullBodyBiped::*)()>(
     &::RootMotion::FinalIK::IKSolverFullBodyBiped::get_leftLegMapping)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x12676b4;
+  constexpr static std::size_t addrs = 0x1300764;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverFullBodyBiped*>::get(),
@@ -244,7 +244,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::RootMotion::FinalIK::IKMappingLimb* (::RootMotion::FinalIK::IKSolverFullBodyBiped::*)()>(
     &::RootMotion::FinalIK::IKSolverFullBodyBiped::get_rightLegMapping)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x12676e0;
+  constexpr static std::size_t addrs = 0x1300790;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverFullBodyBiped*>::get(),
@@ -258,7 +258,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::RootMotion::FinalIK::IKMappingBone* (::RootMotion::FinalIK::IKSolverFullBodyBiped::*)()>(
     &::RootMotion::FinalIK::IKSolverFullBodyBiped::get_headMapping)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x126770c;
+  constexpr static std::size_t addrs = 0x13007bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverFullBodyBiped*>::get(),
@@ -272,7 +272,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::IKSolverFullBodyBiped::*)(::RootMotion::FinalIK::FullBodyBipedChain, float_t, float_t)>(
     &::RootMotion::FinalIK::IKSolverFullBodyBiped::SetChainWeights)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x1267734;
+  constexpr static std::size_t addrs = 0x13007e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -288,7 +288,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::IKSolverFullBodyBiped::*)(
     ::RootMotion::FinalIK::FullBodyBipedEffector, float_t, float_t)>(&::RootMotion::FinalIK::IKSolverFullBodyBiped::SetEffectorWeights)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x1267834;
+  constexpr static std::size_t addrs = 0x13008e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -304,7 +304,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::RootMotion::FinalIK::FBIKChain* (
     ::RootMotion::FinalIK::IKSolverFullBodyBiped::*)(::RootMotion::FinalIK::FullBodyBipedChain)>(&::RootMotion::FinalIK::IKSolverFullBodyBiped::GetChain)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x1267784;
+  constexpr static std::size_t addrs = 0x1300834;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -319,7 +319,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::RootMotion::FinalIK::FBIKChain* (
     ::RootMotion::FinalIK::IKSolverFullBodyBiped::*)(::RootMotion::FinalIK::FullBodyBipedEffector)>(&::RootMotion::FinalIK::IKSolverFullBodyBiped::GetChain)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x12678ac;
+  constexpr static std::size_t addrs = 0x130095c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -334,7 +334,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::RootMotion::FinalIK::IKEffector* (
     ::RootMotion::FinalIK::IKSolverFullBodyBiped::*)(::RootMotion::FinalIK::FullBodyBipedEffector)>(&::RootMotion::FinalIK::IKSolverFullBodyBiped::GetEffector)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x1267438;
+  constexpr static std::size_t addrs = 0x13004e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -349,7 +349,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::RootMotion::FinalIK::IKEffector* (
     ::RootMotion::FinalIK::IKSolverFullBodyBiped::*)(::RootMotion::FinalIK::FullBodyBipedChain)>(&::RootMotion::FinalIK::IKSolverFullBodyBiped::GetEndEffector)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x1267974;
+  constexpr static std::size_t addrs = 0x1300a24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -364,7 +364,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::RootMotion::FinalIK::IKMappingLimb* (
     ::RootMotion::FinalIK::IKSolverFullBodyBiped::*)(::RootMotion::FinalIK::FullBodyBipedChain)>(&::RootMotion::FinalIK::IKSolverFullBodyBiped::GetLimbMapping)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x1267a24;
+  constexpr static std::size_t addrs = 0x1300ad4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -379,7 +379,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::RootMotion::FinalIK::IKMappingLimb* (
     ::RootMotion::FinalIK::IKSolverFullBodyBiped::*)(::RootMotion::FinalIK::FullBodyBipedEffector)>(&::RootMotion::FinalIK::IKSolverFullBodyBiped::GetLimbMapping)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x1267ad0;
+  constexpr static std::size_t addrs = 0x1300b80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -394,7 +394,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::RootMotion::FinalIK::IKMappingSpine* (::RootMotion::FinalIK::IKSolverFullBodyBiped::*)()>(
     &::RootMotion::FinalIK::IKSolverFullBodyBiped::GetSpineMapping)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1267b7c;
+  constexpr static std::size_t addrs = 0x1300c2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverFullBodyBiped*>::get(),
@@ -408,7 +408,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::RootMotion::FinalIK::IKMappingBone* (::RootMotion::FinalIK::IKSolverFullBodyBiped::*)()>(
     &::RootMotion::FinalIK::IKSolverFullBodyBiped::GetHeadMapping)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x1267b84;
+  constexpr static std::size_t addrs = 0x1300c34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverFullBodyBiped*>::get(),
@@ -422,7 +422,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::RootMotion::FinalIK::IKConstraintBend* (
     ::RootMotion::FinalIK::IKSolverFullBodyBiped::*)(::RootMotion::FinalIK::FullBodyBipedChain)>(&::RootMotion::FinalIK::IKSolverFullBodyBiped::GetBendConstraint)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x1267bac;
+  constexpr static std::size_t addrs = 0x1300c5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -437,7 +437,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::RootMotion::FinalIK::IKSolverFullBodyBiped::*)(ByRef<::StringW>)>(
     &::RootMotion::FinalIK::IKSolverFullBodyBiped::IsValid)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x1267c6c;
+  constexpr static std::size_t addrs = 0x1300d1c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -452,7 +452,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::IKSolverFullBodyBiped::*)(::RootMotion::BipedReferences*, ::UnityEngine::Transform*)>(
     &::RootMotion::FinalIK::IKSolverFullBodyBiped::SetToReferences)> {
   constexpr static std::size_t size = 0xf80;
-  constexpr static std::size_t addrs = 0x1267dfc;
+  constexpr static std::size_t addrs = 0x1300eac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -468,7 +468,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (*)(::RootMotion::BipedReferences*)>(
     &::RootMotion::FinalIK::IKSolverFullBodyBiped::DetectRootNodeBone)> {
   constexpr static std::size_t size = 0x450;
-  constexpr static std::size_t addrs = 0x1268d7c;
+  constexpr static std::size_t addrs = 0x1301e2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -483,7 +483,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::IKSolverFullBodyBiped::*)(::RootMotion::BipedLimbOrientations*)>(
     &::RootMotion::FinalIK::IKSolverFullBodyBiped::SetLimbOrientations)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x126932c;
+  constexpr static std::size_t addrs = 0x13023dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -498,7 +498,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::RootMotion::FinalIK::IKSolverFullBodyBiped::*)()>(
     &::RootMotion::FinalIK::IKSolverFullBodyBiped::get_pullBodyOffset)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x1269480;
+  constexpr static std::size_t addrs = 0x1302530;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverFullBodyBiped*>::get(),
@@ -512,7 +512,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::IKSolverFullBodyBiped::*)(::UnityEngine::Vector3)>(
     &::RootMotion::FinalIK::IKSolverFullBodyBiped::set_pullBodyOffset)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x126948c;
+  constexpr static std::size_t addrs = 0x130253c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -527,7 +527,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::IKSolverFullBodyBiped::*)(
     ::RootMotion::FinalIK::FullBodyBipedChain, ::RootMotion::__BipedLimbOrientations__LimbOrientation*)>(&::RootMotion::FinalIK::IKSolverFullBodyBiped::SetLimbOrientation)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x1269388;
+  constexpr static std::size_t addrs = 0x1302438;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -543,7 +543,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (*)(::RootMotion::BipedReferences*)>(
     &::RootMotion::FinalIK::IKSolverFullBodyBiped::GetLeftClavicle)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x12691cc;
+  constexpr static std::size_t addrs = 0x130227c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -558,7 +558,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (*)(::RootMotion::BipedReferences*)>(
     &::RootMotion::FinalIK::IKSolverFullBodyBiped::GetRightClavicle)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x126927c;
+  constexpr static std::size_t addrs = 0x130232c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -573,7 +573,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*>, ::UnityEngine::Transform*)>(
     &::RootMotion::FinalIK::IKSolverFullBodyBiped::Contains)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x1269498;
+  constexpr static std::size_t addrs = 0x1302548;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -588,7 +588,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::IKSolverFullBodyBiped::*)()>(&::RootMotion::FinalIK::IKSolverFullBodyBiped::ReadPose)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x126955c;
+  constexpr static std::size_t addrs = 0x130260c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -602,7 +602,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::IKSolverFullBodyBiped::*)()>(&::RootMotion::FinalIK::IKSolverFullBodyBiped::PullBody)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x1269628;
+  constexpr static std::size_t addrs = 0x13026d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverFullBodyBiped*>::get(), "PullBody",
@@ -616,7 +616,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::RootMotion::FinalIK::IKSolverFullBodyBiped::*)()>(
     &::RootMotion::FinalIK::IKSolverFullBodyBiped::GetBodyOffset)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x1269744;
+  constexpr static std::size_t addrs = 0x13027f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverFullBodyBiped*>::get(),
@@ -630,7 +630,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::RootMotion::FinalIK::IKSolverFullBodyBiped::*)(
     ::RootMotion::FinalIK::IKEffector*, ::RootMotion::FinalIK::FBIKChain*, ::UnityEngine::Vector3)>(&::RootMotion::FinalIK::IKSolverFullBodyBiped::GetHandBodyPull)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x12698d4;
+  constexpr static std::size_t addrs = 0x1302984;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -647,7 +647,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::IKSolverFullBodyBiped::*)()>(
     &::RootMotion::FinalIK::IKSolverFullBodyBiped::ApplyBendConstraints)> {
   constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x1269a4c;
+  constexpr static std::size_t addrs = 0x1302afc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -661,7 +661,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::IKSolverFullBodyBiped::*)()>(&::RootMotion::FinalIK::IKSolverFullBodyBiped::WritePose)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x1269ca8;
+  constexpr static std::size_t addrs = 0x1302d58;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -675,7 +675,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::IKSolverFullBodyBiped::*)()>(&::RootMotion::FinalIK::IKSolverFullBodyBiped::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x1269d20;
+  constexpr static std::size_t addrs = 0x1302dd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverFullBodyBiped*>::get(), ".ctor",

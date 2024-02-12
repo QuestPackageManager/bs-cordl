@@ -26,8 +26,8 @@ namespace UnityEngine {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10159))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10046))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8903))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8778))
 // CS Name: ::UnityEngine::ExposedReference`1<T>
 struct CORDL_TYPE ExposedReference_1 {
 public:

@@ -54,19 +54,19 @@ public:
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24c245c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24e34d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Set, addr 0x24c2464, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x24e34d8, size 0xc, virtual false, abstract: false, final false
   inline void Set(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE primitiveTypeEnum, ::System::Object* value);
 
-  /// @brief Method Write, addr 0x24c2470, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method Write, addr 0x24e34e4, size 0x60, virtual true, abstract: false, final true
   inline void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
 
-  /// @brief Method Read, addr 0x24c24d0, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method Read, addr 0x24e3544, size 0x48, virtual true, abstract: false, final true
   inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
 
-  /// @brief Method Dump, addr 0x24c2518, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Dump, addr 0x24e358c, size 0x4, virtual false, abstract: false, final false
   inline void Dump();
 
   // Ctor Parameters [CppParam { name: "", ty: "MemberPrimitiveTyped", modifiers: "&&", def_value: None }]

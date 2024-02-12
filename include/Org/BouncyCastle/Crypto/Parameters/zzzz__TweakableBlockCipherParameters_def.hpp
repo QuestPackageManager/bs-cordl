@@ -59,13 +59,13 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Parameters::TweakableBlockCipherParameters* New_ctor(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* key,
                                                                                                   ::ArrayW<uint8_t, ::Array<uint8_t>*> tweak);
 
-  /// @brief Method .ctor, addr 0xf3b878, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf66708, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* key, ::ArrayW<uint8_t, ::Array<uint8_t>*> tweak);
 
-  /// @brief Method get_Key, addr 0xf3b8f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Key, addr 0xf66788, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* get_Key();
 
-  /// @brief Method get_Tweak, addr 0xf3b900, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Tweak, addr 0xf66790, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Tweak();
 
   // Ctor Parameters [CppParam { name: "", ty: "TweakableBlockCipherParameters", modifiers: "&&", def_value: None }]

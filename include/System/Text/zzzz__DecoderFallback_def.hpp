@@ -40,10 +40,10 @@ public:
 
   static inline ::System::Text::DecoderFallback* getStaticF_s_exceptionFallback();
 
-  /// @brief Method get_ReplacementFallback, addr 0x262dfac, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_ReplacementFallback, addr 0x26540d0, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::Text::DecoderFallback* get_ReplacementFallback();
 
-  /// @brief Method get_ExceptionFallback, addr 0x26313c4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method get_ExceptionFallback, addr 0x26574e8, size 0xa4, virtual false, abstract: false, final false
   static inline ::System::Text::DecoderFallback* get_ExceptionFallback();
 
   /// @brief Method CreateFallbackBuffer, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -54,7 +54,7 @@ public:
 
   static inline ::System::Text::DecoderFallback* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2630b38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2656c5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DecoderFallback", modifiers: "&&", def_value: None }]

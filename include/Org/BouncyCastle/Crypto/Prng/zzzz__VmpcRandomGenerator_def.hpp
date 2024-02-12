@@ -60,19 +60,19 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Prng::VmpcRandomGenerator* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf44fd0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf6fe60, size 0x90, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method AddSeedMaterial, addr 0xf45060, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method AddSeedMaterial, addr 0xf6fef0, size 0xd0, virtual true, abstract: false, final false
   inline void AddSeedMaterial(::ArrayW<uint8_t, ::Array<uint8_t>*> seed);
 
-  /// @brief Method AddSeedMaterial, addr 0xf45130, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method AddSeedMaterial, addr 0xf6ffc0, size 0x2c, virtual true, abstract: false, final false
   inline void AddSeedMaterial(int64_t seed);
 
-  /// @brief Method NextBytes, addr 0xf4515c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method NextBytes, addr 0xf6ffec, size 0x24, virtual true, abstract: false, final false
   inline void NextBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method NextBytes, addr 0xf45180, size 0x210, virtual true, abstract: false, final false
+  /// @brief Method NextBytes, addr 0xf70010, size 0x210, virtual true, abstract: false, final false
   inline void NextBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t start, int32_t len);
 
   // Ctor Parameters [CppParam { name: "", ty: "VmpcRandomGenerator", modifiers: "&&", def_value: None }]

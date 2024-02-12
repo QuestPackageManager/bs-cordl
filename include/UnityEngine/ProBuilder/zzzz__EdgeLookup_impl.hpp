@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::__EdgeLookup____c__DisplayClass16_0::*)()>(
     &::UnityEngine::ProBuilder::__EdgeLookup____c__DisplayClass16_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b3f2b8;
+  constexpr static std::size_t addrs = 0x2b3de24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::EdgeLookup (::UnityEngine::ProBuilder::__EdgeLookup____c__DisplayClass16_0::*)(
     ::UnityEngine::ProBuilder::Edge)>(&::UnityEngine::ProBuilder::__EdgeLookup____c__DisplayClass16_0::_GetEdgeLookup_b__0)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x2b3f65c;
+  constexpr static std::size_t addrs = 0x2b3e1c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Edge (::UnityEngine::ProBuilder::EdgeLookup::*)()>(
     &::UnityEngine::ProBuilder::EdgeLookup::get_local)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b3edb8;
+  constexpr static std::size_t addrs = 0x2b3d924;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::EdgeLookup>::get(), "get_local",
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::EdgeLookup::*)(::UnityEngine::ProBuilder::Edge)>(
     &::UnityEngine::ProBuilder::EdgeLookup::set_local)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b3edc0;
+  constexpr static std::size_t addrs = 0x2b3d92c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Edge (::UnityEngine::ProBuilder::EdgeLookup::*)()>(
     &::UnityEngine::ProBuilder::EdgeLookup::get_common)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b3edc8;
+  constexpr static std::size_t addrs = 0x2b3d934;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::EdgeLookup>::get(), "get_common",
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::EdgeLookup::*)(::UnityEngine::ProBuilder::Edge)>(
     &::UnityEngine::ProBuilder::EdgeLookup::set_common)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b3edd0;
+  constexpr static std::size_t addrs = 0x2b3d93c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::EdgeLookup::*)(::UnityEngine::ProBuilder::Edge, ::UnityEngine::ProBuilder::Edge)>(
     &::UnityEngine::ProBuilder::EdgeLookup::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b3edd8;
+  constexpr static std::size_t addrs = 0x2b3d944;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -149,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::EdgeLookup::*)(int32_t, int32_t, int32_t, int32_t)>(
     &::UnityEngine::ProBuilder::EdgeLookup::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x2b3ede0;
+  constexpr static std::size_t addrs = 0x2b3d94c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -165,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::EdgeLookup::*)(::UnityEngine::ProBuilder::EdgeLookup)>(
     &::UnityEngine::ProBuilder::EdgeLookup::Equals)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x2b3edf8;
+  constexpr static std::size_t addrs = 0x2b3d964;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -179,7 +179,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::EdgeLookup::*)(::System::Object*)>(&::UnityEngine::ProBuilder::EdgeLookup::Equals)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x2b3ee30;
+  constexpr static std::size_t addrs = 0x2b3d99c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -193,7 +193,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ProBuilder::EdgeLookup::*)()>(&::UnityEngine::ProBuilder::EdgeLookup::GetHashCode)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2b3eed8;
+  constexpr static std::size_t addrs = 0x2b3da44;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -208,7 +208,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::EdgeLookup)>(
     &::UnityEngine::ProBuilder::EdgeLookup::op_Equality)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2b3eefc;
+  constexpr static std::size_t addrs = 0x2b3da68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -224,7 +224,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::EdgeLookup)>(
     &::UnityEngine::ProBuilder::EdgeLookup::op_Inequality)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x2b3ef98;
+  constexpr static std::size_t addrs = 0x2b3db04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -239,7 +239,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ProBuilder::EdgeLookup::*)()>(&::UnityEngine::ProBuilder::EdgeLookup::ToString)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x2b3f038;
+  constexpr static std::size_t addrs = 0x2b3dba4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -255,7 +255,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::ProBuilder::EdgeLookup>* (*)(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*, ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*)>(
     &::UnityEngine::ProBuilder::EdgeLookup::GetEdgeLookup)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x2b3f1e4;
+  constexpr static std::size_t addrs = 0x2b3dd50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -272,7 +272,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::ProBuilder::EdgeLookup>* (*)(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*, ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*)>(
     &::UnityEngine::ProBuilder::EdgeLookup::GetEdgeLookupHashSet)> {
   constexpr static std::size_t size = 0x39c;
-  constexpr static std::size_t addrs = 0x2b3f2c0;
+  constexpr static std::size_t addrs = 0x2b3de2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

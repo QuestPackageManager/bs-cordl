@@ -67,27 +67,27 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* New_ctor(::Org::BouncyCastle::Asn1::X509::AttributeCertificate* x509v2AttrCert);
 
-  /// @brief Method .ctor, addr 0xe66494, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe91324, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AttributeCertificate* x509v2AttrCert);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* New_ctor(::Org::BouncyCastle::Asn1::X509::X509CertificateStructure* x509v3PKCert);
 
-  /// @brief Method .ctor, addr 0xe664bc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe9134c, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::X509CertificateStructure* x509v3PKCert);
 
-  /// @brief Method GetInstance, addr 0xe63f00, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xe8ed90, size 0x1dc, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* GetInstance(::System::Object* obj);
 
-  /// @brief Method get_IsX509v3PKCert, addr 0xe66560, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method get_IsX509v3PKCert, addr 0xe913f0, size 0x10, virtual true, abstract: false, final false
   inline bool get_IsX509v3PKCert();
 
-  /// @brief Method get_X509v3PKCert, addr 0xe66570, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_X509v3PKCert, addr 0xe91400, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509CertificateStructure* get_X509v3PKCert();
 
-  /// @brief Method get_X509v2AttrCert, addr 0xe66578, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_X509v2AttrCert, addr 0xe91408, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AttributeCertificate* get_X509v2AttrCert();
 
-  /// @brief Method ToAsn1Object, addr 0xe66580, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xe91410, size 0x90, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "CmpCertificate", modifiers: "&&", def_value: None }]

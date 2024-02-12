@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::PointerDispatchState);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6775))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6034))
 // CS Name: ::UnityEngine.UIElements::PointerDispatchState*
 class CORDL_TYPE PointerDispatchState : public ::System::Object {
 public:
@@ -61,37 +61,37 @@ public:
 
   static inline ::UnityEngine::UIElements::PointerDispatchState* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2db8eac, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dd7294, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Reset, addr 0x2db8f84, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x2dd736c, size 0x90, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method GetCapturingElement, addr 0x2db7f28, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetCapturingElement, addr 0x2dd6310, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::IEventHandler* GetCapturingElement(int32_t pointerId);
 
-  /// @brief Method HasPointerCapture, addr 0x2db7c40, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HasPointerCapture, addr 0x2dd6028, size 0x38, virtual false, abstract: false, final false
   inline bool HasPointerCapture(::UnityEngine::UIElements::IEventHandler* handler, int32_t pointerId);
 
-  /// @brief Method CapturePointer, addr 0x2db7cb0, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method CapturePointer, addr 0x2dd6098, size 0x13c, virtual false, abstract: false, final false
   inline void CapturePointer(::UnityEngine::UIElements::IEventHandler* handler, int32_t pointerId);
 
-  /// @brief Method ReleasePointer, addr 0x2db801c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method ReleasePointer, addr 0x2dd6404, size 0x30, virtual false, abstract: false, final false
   inline void ReleasePointer(int32_t pointerId);
 
-  /// @brief Method ReleasePointer, addr 0x2db7e24, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ReleasePointer, addr 0x2dd620c, size 0x3c, virtual false, abstract: false, final false
   inline void ReleasePointer(::UnityEngine::UIElements::IEventHandler* handler, int32_t pointerId);
 
-  /// @brief Method ProcessPointerCapture, addr 0x2db8554, size 0x958, virtual false, abstract: false, final false
+  /// @brief Method ProcessPointerCapture, addr 0x2dd693c, size 0x958, virtual false, abstract: false, final false
   inline void ProcessPointerCapture(int32_t pointerId);
 
-  /// @brief Method ActivateCompatibilityMouseEvents, addr 0x2db8110, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method ActivateCompatibilityMouseEvents, addr 0x2dd64f8, size 0x34, virtual false, abstract: false, final false
   inline void ActivateCompatibilityMouseEvents(int32_t pointerId);
 
-  /// @brief Method PreventCompatibilityMouseEvents, addr 0x2db8208, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method PreventCompatibilityMouseEvents, addr 0x2dd65f0, size 0x30, virtual false, abstract: false, final false
   inline void PreventCompatibilityMouseEvents(int32_t pointerId);
 
-  /// @brief Method ShouldSendCompatibilityMouseEvents, addr 0x2db835c, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method ShouldSendCompatibilityMouseEvents, addr 0x2dd6744, size 0x134, virtual false, abstract: false, final false
   inline bool ShouldSendCompatibilityMouseEvents(::UnityEngine::UIElements::IPointerEvent* evt);
 
   // Ctor Parameters [CppParam { name: "", ty: "PointerDispatchState", modifiers: "&&", def_value: None }]

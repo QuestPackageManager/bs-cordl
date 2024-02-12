@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_RecookPreset);
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9613))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9405))
 // CS Name: ::HoudiniEngineUnity::HEU_RecookPreset*
 class CORDL_TYPE HEU_RecookPreset : public ::System::Object {
 public:
@@ -50,7 +50,7 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_RecookPreset* New_ctor();
 
-  /// @brief Method .ctor, addr 0x214e8ec, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21e41d0, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_RecookPreset", modifiers: "&&", def_value: None }]

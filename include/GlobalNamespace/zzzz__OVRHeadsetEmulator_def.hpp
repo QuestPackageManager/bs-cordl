@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRHeadsetEmulator);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7578))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7654))
 // CS Name: ::OVRHeadsetEmulator::OpMode
 struct CORDL_TYPE __OVRHeadsetEmulator__OpMode {
 public:
@@ -88,8 +88,8 @@ static_assert(offsetof(::GlobalNamespace::__OVRHeadsetEmulator__OpMode, value__)
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 92, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7578)), TypeDefinitionIndex(TypeDefinitionIndex(10060)), TypeDefinitionIndex(TypeDefinitionIndex(10225)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10249))] Self: TypeDefinitionIndex(TypeDefinitionIndex(7579)) CS Name: ::OVRHeadsetEmulator*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7654)), TypeDefinitionIndex(TypeDefinitionIndex(8792)), TypeDefinitionIndex(TypeDefinitionIndex(8969)),
+// TypeDefinitionIndex(TypeDefinitionIndex(8993))] Self: TypeDefinitionIndex(TypeDefinitionIndex(7655)) CS Name: ::OVRHeadsetEmulator*
 class CORDL_TYPE OVRHeadsetEmulator : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -205,21 +205,21 @@ public:
 
   constexpr void __cordl_internal_set_previousCursorLockMode(::UnityEngine::CursorLockMode value);
 
-  /// @brief Method Start, addr 0x2729f60, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x275633c, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x2729f64, size 0x464, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2756340, size 0x448, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method IsEmulationActivated, addr 0x272a3c8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method IsEmulationActivated, addr 0x2756788, size 0x90, virtual false, abstract: false, final false
   inline bool IsEmulationActivated();
 
-  /// @brief Method IsTweakingPitch, addr 0x272a458, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method IsTweakingPitch, addr 0x2756a18, size 0x7c, virtual false, abstract: false, final false
   inline bool IsTweakingPitch();
 
   static inline ::GlobalNamespace::OVRHeadsetEmulator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x272a4d4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2756a94, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRHeadsetEmulator", modifiers: "&&", def_value: None }]

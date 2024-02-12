@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ISonyOnlineServicesAvailabilityModel);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4571))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10998))
 // CS Name: ::ISonyOnlineServicesAvailabilityModel::OnlineServicesAvailability
 struct CORDL_TYPE __ISonyOnlineServicesAvailabilityModel__OnlineServicesAvailability {
 public:
@@ -80,7 +80,7 @@ static_assert(offsetof(::GlobalNamespace::__ISonyOnlineServicesAvailabilityModel
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4572))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10999))
 // CS Name: ::ISonyOnlineServicesAvailabilityModel*
 class CORDL_TYPE ISonyOnlineServicesAvailabilityModel {
 public:

@@ -46,13 +46,13 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::SupplementalDataEntry* New_ctor(int32_t dataType, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0xf98834, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfc46c4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(int32_t dataType, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method get_DataType, addr 0xf98864, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_DataType, addr 0xfc46f4, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_DataType();
 
-  /// @brief Method get_Data, addr 0xf9886c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Data, addr 0xfc46fc, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Data();
 
   // Ctor Parameters [CppParam { name: "", ty: "SupplementalDataEntry", modifiers: "&&", def_value: None }]

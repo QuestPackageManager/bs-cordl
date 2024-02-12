@@ -65,16 +65,16 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cms::CompressedDataParser* New_ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* seq);
 
-  /// @brief Method .ctor, addr 0xe75b68, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xea09f8, size 0x2bc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* seq);
 
-  /// @brief Method get_Version, addr 0xe75e24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0xea0cb4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
-  /// @brief Method get_CompressionAlgorithmIdentifier, addr 0xe75e2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CompressionAlgorithmIdentifier, addr 0xea0cbc, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_CompressionAlgorithmIdentifier();
 
-  /// @brief Method GetEncapContentInfo, addr 0xe75e34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetEncapContentInfo, addr 0xea0cc4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::ContentInfoParser* GetEncapContentInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "CompressedDataParser", modifiers: "&&", def_value: None }]

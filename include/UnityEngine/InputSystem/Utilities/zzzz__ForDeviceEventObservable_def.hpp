@@ -43,7 +43,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Utilities::__ForDeviceEventObservable
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6685))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5944))
 // CS Name: ::ForDeviceEventObservable::ForDevice*
 class CORDL_TYPE __ForDeviceEventObservable__ForDevice : public ::System::Object {
 public:
@@ -84,16 +84,16 @@ public:
   static inline ::UnityEngine::InputSystem::Utilities::__ForDeviceEventObservable__ForDevice* New_ctor(::System::Type* deviceType, ::UnityEngine::InputSystem::InputDevice* device,
                                                                                                        ::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* observer);
 
-  /// @brief Method .ctor, addr 0x2b15da4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b15910, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* deviceType, ::UnityEngine::InputSystem::InputDevice* device, ::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* observer);
 
-  /// @brief Method OnCompleted, addr 0x2b15de0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method OnCompleted, addr 0x2b1594c, size 0x4, virtual true, abstract: false, final true
   inline void OnCompleted();
 
-  /// @brief Method OnError, addr 0x2b15de4, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method OnError, addr 0x2b15950, size 0x58, virtual true, abstract: false, final true
   inline void OnError(::System::Exception* error);
 
-  /// @brief Method OnNext, addr 0x2b15e3c, size 0x184, virtual true, abstract: false, final true
+  /// @brief Method OnNext, addr 0x2b159a8, size 0x184, virtual true, abstract: false, final true
   inline void OnNext(::UnityEngine::InputSystem::LowLevel::InputEventPtr value);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ForDeviceEventObservable__ForDevice", modifiers: "&&", def_value: None }]
@@ -136,7 +136,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::Utilities::__ForDeviceEventOb
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6686))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5945))
 // CS Name: ::UnityEngine.InputSystem.Utilities::ForDeviceEventObservable*
 class CORDL_TYPE ForDeviceEventObservable : public ::System::Object {
 public:
@@ -179,10 +179,10 @@ public:
   static inline ::UnityEngine::InputSystem::Utilities::ForDeviceEventObservable* New_ctor(::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* source,
                                                                                           ::System::Type* deviceType, ::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method .ctor, addr 0x2b15c78, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b157e4, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* source, ::System::Type* deviceType, ::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method Subscribe, addr 0x2b15cb4, size 0xf0, virtual true, abstract: false, final true
+  /// @brief Method Subscribe, addr 0x2b15820, size 0xf0, virtual true, abstract: false, final true
   inline ::System::IDisposable* Subscribe(::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* observer);
 
   // Ctor Parameters [CppParam { name: "", ty: "ForDeviceEventObservable", modifiers: "&&", def_value: None }]

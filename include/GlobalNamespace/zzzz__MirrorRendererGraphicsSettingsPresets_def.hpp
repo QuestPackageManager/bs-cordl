@@ -38,7 +38,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Prese
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4437))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10854))
 // CS Name: ::MirrorRendererGraphicsSettingsPresets::Preset::MirrorType
 struct CORDL_TYPE __MirrorRendererGraphicsSettingsPresets__Preset__MirrorType {
 public:
@@ -91,8 +91,8 @@ static_assert(offsetof(::GlobalNamespace::__MirrorRendererGraphicsSettingsPreset
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 53, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4437)), TypeDefinitionIndex(TypeDefinitionIndex(4440)), TypeDefinitionIndex(TypeDefinitionIndex(10204))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4438))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8948)), TypeDefinitionIndex(TypeDefinitionIndex(10854)), TypeDefinitionIndex(TypeDefinitionIndex(10857))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10855))
 // CS Name: ::MirrorRendererGraphicsSettingsPresets::Preset*
 class CORDL_TYPE __MirrorRendererGraphicsSettingsPresets__Preset : public ::GlobalNamespace::NamedPreset {
 public:
@@ -173,7 +173,7 @@ public:
 
   static inline ::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset* New_ctor();
 
-  /// @brief Method .ctor, addr 0x235039c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1293b48, size 0x44, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MirrorRendererGraphicsSettingsPresets__Preset", modifiers: "&&", def_value: None }]
@@ -240,8 +240,8 @@ static_assert(offsetof(::GlobalNamespace::__MirrorRendererGraphicsSettingsPreset
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4441))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4439))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10858))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10856))
 // CS Name: ::MirrorRendererGraphicsSettingsPresets*
 class CORDL_TYPE MirrorRendererGraphicsSettingsPresets : public ::GlobalNamespace::NamedPresetsSO {
 public:
@@ -266,15 +266,15 @@ public:
   constexpr void
   __cordl_internal_set__presets(::ArrayW<::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset*, ::Array<::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset*>*> value);
 
-  /// @brief Method get_presets, addr 0x2350384, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_presets, addr 0x1293b30, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset*, ::Array<::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset*>*> get_presets();
 
-  /// @brief Method get_namedPresets, addr 0x235038c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_namedPresets, addr 0x1293b38, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::NamedPreset*, ::Array<::GlobalNamespace::NamedPreset*>*> get_namedPresets();
 
   static inline ::GlobalNamespace::MirrorRendererGraphicsSettingsPresets* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2350394, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1293b40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MirrorRendererGraphicsSettingsPresets", modifiers: "&&", def_value: None }]

@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::Util::DependenciesCacheKey);
 namespace UnityEngine::ResourceManagement::Util {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13971))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13984))
 // CS Name: ::UnityEngine.ResourceManagement.Util::DependenciesCacheKey*
 class CORDL_TYPE DependenciesCacheKey : public ::System::Object {
 public:
@@ -71,19 +71,19 @@ public:
   static inline ::UnityEngine::ResourceManagement::Util::DependenciesCacheKey*
   New_ctor(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* dependencies, int32_t dependenciesHash);
 
-  /// @brief Method .ctor, addr 0x2bcd210, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bcad7c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* dependencies, int32_t dependenciesHash);
 
-  /// @brief Method GetHashCode, addr 0x2bd1adc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2bcf648, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Equals, addr 0x2bd1ae4, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2bcf650, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x2bd1b98, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2bcf704, size 0x8c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::ResourceManagement::Util::IOperationCacheKey* other);
 
-  /// @brief Method Equals, addr 0x2bd1b70, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x2bcf6dc, size 0x28, virtual false, abstract: false, final false
   inline bool Equals(::UnityEngine::ResourceManagement::Util::DependenciesCacheKey* other);
 
   // Ctor Parameters [CppParam { name: "", ty: "DependenciesCacheKey", modifiers: "&&", def_value: None }]

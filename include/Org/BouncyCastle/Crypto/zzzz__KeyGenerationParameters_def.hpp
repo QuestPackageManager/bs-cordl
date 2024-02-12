@@ -48,13 +48,13 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::KeyGenerationParameters* New_ctor(::Org::BouncyCastle::Security::SecureRandom* random, int32_t strength);
 
-  /// @brief Method .ctor, addr 0xf3023c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf5b0cc, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* random, int32_t strength);
 
-  /// @brief Method get_Random, addr 0xf30310, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Random, addr 0xf5b1a0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Security::SecureRandom* get_Random();
 
-  /// @brief Method get_Strength, addr 0xf30318, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Strength, addr 0xf5b1a8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Strength();
 
   // Ctor Parameters [CppParam { name: "", ty: "KeyGenerationParameters", modifiers: "&&", def_value: None }]

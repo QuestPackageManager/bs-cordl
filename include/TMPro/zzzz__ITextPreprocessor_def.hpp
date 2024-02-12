@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::TMPro::ITextPreprocessor);
 namespace TMPro {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12301))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12199))
 // CS Name: ::TMPro::ITextPreprocessor*
 class CORDL_TYPE ITextPreprocessor {
 public:

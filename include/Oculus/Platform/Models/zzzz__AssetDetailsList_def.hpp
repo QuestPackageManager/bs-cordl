@@ -16,14 +16,14 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::AssetDetailsList);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13417)), TypeDefinitionIndex(TypeDefinitionIndex(13430)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13430), inst:
-// 1169 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(13418)) CS Name: ::Oculus.Platform.Models::AssetDetailsList*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13347)), TypeDefinitionIndex(TypeDefinitionIndex(13369)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13369), inst:
+// 1146 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(13348)) CS Name: ::Oculus.Platform.Models::AssetDetailsList*
 class CORDL_TYPE AssetDetailsList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::AssetDetails*> {
 public:
   // Declarations
   static inline ::Oculus::Platform::Models::AssetDetailsList* New_ctor(void* a);
 
-  /// @brief Method .ctor, addr 0x2704788, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2736d1c, size 0x23c, virtual false, abstract: false, final false
   inline void _ctor(void* a);
 
   // Ctor Parameters [CppParam { name: "", ty: "AssetDetailsList", modifiers: "&&", def_value: None }]

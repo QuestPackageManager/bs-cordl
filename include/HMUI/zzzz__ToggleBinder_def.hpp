@@ -40,7 +40,7 @@ MARK_REF_PTR_T(::HMUI::__ToggleBinder____c__DisplayClass7_0);
 namespace HMUI {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13521))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13474))
 // CS Name: ::ToggleBinder::<>c__DisplayClass7_0*
 class CORDL_TYPE __ToggleBinder____c__DisplayClass7_0 : public ::System::Object {
 public:
@@ -65,10 +65,10 @@ public:
 
   static inline ::HMUI::__ToggleBinder____c__DisplayClass7_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x211aa50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21af32c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <AddBinding>b__0, addr 0x211b098, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method <AddBinding>b__0, addr 0x21af974, size 0x3c, virtual false, abstract: false, final false
   inline void _AddBinding_b__0(bool b);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ToggleBinder____c__DisplayClass7_0", modifiers: "&&", def_value: None }]
@@ -106,7 +106,7 @@ static_assert(offsetof(::HMUI::__ToggleBinder____c__DisplayClass7_0, ___action) 
 namespace HMUI {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13522))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13475))
 // CS Name: ::HMUI::ToggleBinder*
 class CORDL_TYPE ToggleBinder : public ::System::Object {
 public:
@@ -136,33 +136,33 @@ public:
 
   static inline ::HMUI::ToggleBinder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x211a624, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21aef00, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::HMUI::ToggleBinder* New_ctor(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Toggle>, ::System::Action_1<bool>*>*>* bindingData);
 
-  /// @brief Method .ctor, addr 0x211a6bc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21aef98, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Toggle>, ::System::Action_1<bool>*>*>* bindingData);
 
-  /// @brief Method Init, addr 0x211a648, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x21aef24, size 0x74, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method AddBindings, addr 0x211a6f8, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method AddBindings, addr 0x21aefd4, size 0x164, virtual false, abstract: false, final false
   inline void AddBindings(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Toggle>, ::System::Action_1<bool>*>*>* bindingData);
 
-  /// @brief Method AddBinding, addr 0x211a85c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method AddBinding, addr 0x21af138, size 0xd8, virtual false, abstract: false, final false
   inline void AddBinding(::UnityEngine::UI::Toggle* toggle, ::System::Action_1<bool>* action);
 
-  /// @brief Method AddBinding, addr 0x211a934, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method AddBinding, addr 0x21af210, size 0x11c, virtual false, abstract: false, final false
   inline void AddBinding(::UnityEngine::UI::Toggle* toggle, bool enabled, ::System::Action* action);
 
-  /// @brief Method ClearBindings, addr 0x211aa58, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method ClearBindings, addr 0x21af334, size 0x234, virtual false, abstract: false, final false
   inline void ClearBindings();
 
-  /// @brief Method Disable, addr 0x211ac8c, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method Disable, addr 0x21af568, size 0x204, virtual false, abstract: false, final false
   inline void Disable();
 
-  /// @brief Method Enable, addr 0x211ae90, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method Enable, addr 0x21af76c, size 0x208, virtual false, abstract: false, final false
   inline void Enable();
 
   // Ctor Parameters [CppParam { name: "", ty: "ToggleBinder", modifiers: "&&", def_value: None }]

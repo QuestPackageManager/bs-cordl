@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Runtime::InteropServices::DllImportSearchPath);
 namespace System::Runtime::InteropServices {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3328))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3326))
 // CS Name: ::System.Runtime.InteropServices::DllImportSearchPath
 struct CORDL_TYPE DllImportSearchPath {
 public:

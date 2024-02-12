@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::SpriteMeshType);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10287))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9033))
 // CS Name: ::UnityEngine::SpriteMeshType
 struct CORDL_TYPE SpriteMeshType {
 public:

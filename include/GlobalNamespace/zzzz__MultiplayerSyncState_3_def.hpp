@@ -24,7 +24,7 @@ namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14947))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14820))
 // CS Name: ::MultiplayerSyncState`3<TStateTable,TType,TState>*
 class CORDL_TYPE MultiplayerSyncState_3 : public ::System::Object {
 public:

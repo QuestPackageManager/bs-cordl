@@ -41,22 +41,22 @@ public:
 
   static inline ::System::Threading::Tasks::TaskCanceledException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2620bfc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2646d78, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Threading::Tasks::TaskCanceledException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x2620c48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2646dc4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::System::Threading::Tasks::TaskCanceledException* New_ctor(::System::Threading::Tasks::Task* task);
 
-  /// @brief Method .ctor, addr 0x2620c50, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2646dcc, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::Task* task);
 
   static inline ::System::Threading::Tasks::TaskCanceledException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x2620cf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2646e70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "TaskCanceledException", modifiers: "&&", def_value: None }]

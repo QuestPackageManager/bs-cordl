@@ -99,28 +99,28 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::OnePassSignaturePacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor, addr 0x11ce47c, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11fc30c, size 0x198, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
   static inline ::Org::BouncyCastle::Bcpg::OnePassSignaturePacket* New_ctor(int32_t sigType, ::Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm,
                                                                             ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm, int64_t keyId, bool isNested);
 
-  /// @brief Method .ctor, addr 0x11d1fb0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11ffe40, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(int32_t sigType, ::Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm, ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm, int64_t keyId, bool isNested);
 
-  /// @brief Method get_SignatureType, addr 0x11d2018, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SignatureType, addr 0x11ffea8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_SignatureType();
 
-  /// @brief Method get_KeyAlgorithm, addr 0x11d2020, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KeyAlgorithm, addr 0x11ffeb0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag get_KeyAlgorithm();
 
-  /// @brief Method get_HashAlgorithm, addr 0x11d2028, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HashAlgorithm, addr 0x11ffeb8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::HashAlgorithmTag get_HashAlgorithm();
 
-  /// @brief Method get_KeyId, addr 0x11d2030, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KeyId, addr 0x11ffec0, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_KeyId();
 
-  /// @brief Method Encode, addr 0x11d2038, size 0x16c, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x11ffec8, size 0x16c, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
   // Ctor Parameters [CppParam { name: "", ty: "OnePassSignaturePacket", modifiers: "&&", def_value: None }]

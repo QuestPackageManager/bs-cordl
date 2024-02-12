@@ -48,7 +48,7 @@ namespace Zenject {
 template <typename TValue>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11026))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10168))
 // CS Name: ::Zenject::PlaceholderFactoryBase`1<TValue>*
 class CORDL_TYPE PlaceholderFactoryBase_1 : public ::System::Object {
 public:

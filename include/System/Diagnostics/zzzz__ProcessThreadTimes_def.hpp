@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::System::Diagnostics::ProcessThreadTimes);
 namespace System::Diagnostics {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8953))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6963))
 // CS Name: ::System.Diagnostics::ProcessThreadTimes*
 class CORDL_TYPE ProcessThreadTimes : public ::System::Object {
 public:
@@ -62,12 +62,12 @@ public:
 
   constexpr void __cordl_internal_set_user(int64_t value);
 
-  /// @brief Method get_TotalProcessorTime, addr 0x2970134, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_TotalProcessorTime, addr 0x2973ec8, size 0xc, virtual false, abstract: false, final false
   inline ::System::TimeSpan get_TotalProcessorTime();
 
   static inline ::System::Diagnostics::ProcessThreadTimes* New_ctor();
 
-  /// @brief Method .ctor, addr 0x296fd30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2973b24, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ProcessThreadTimes", modifiers: "&&", def_value: None }]

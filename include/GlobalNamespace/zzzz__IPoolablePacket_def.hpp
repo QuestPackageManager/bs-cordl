@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IPoolablePacket);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12806))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12704))
 // CS Name: ::IPoolablePacket*
 class CORDL_TYPE IPoolablePacket {
 public:

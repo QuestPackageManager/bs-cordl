@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::UnityEngine::Playables::PlayableExtensions);
 namespace UnityEngine::Playables {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10434))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9202))
 // CS Name: ::UnityEngine.Playables::PlayableExtensions*
 class CORDL_TYPE PlayableExtensions : public ::System::Object {
 public:

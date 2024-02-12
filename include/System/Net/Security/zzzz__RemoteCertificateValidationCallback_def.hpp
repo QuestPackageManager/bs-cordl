@@ -28,17 +28,17 @@ MARK_REF_PTR_T(::System::Net::Security::RemoteCertificateValidationCallback);
 namespace System::Net::Security {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9368))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7378))
 // CS Name: ::System.Net.Security::RemoteCertificateValidationCallback*
 class CORDL_TYPE RemoteCertificateValidationCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::System::Net::Security::RemoteCertificateValidationCallback* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x28ffb2c, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2904194, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x28ffc5c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x29042c4, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(::System::Object* sender, ::System::Security::Cryptography::X509Certificates::X509Certificate* certificate, ::System::Security::Cryptography::X509Certificates::X509Chain* chain,
                      ::System::Net::Security::SslPolicyErrors sslPolicyErrors);
 

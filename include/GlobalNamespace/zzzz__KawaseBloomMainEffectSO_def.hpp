@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::GlobalNamespace::KawaseBloomMainEffectSO);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15293))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15289))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15408))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15404))
 // CS Name: ::KawaseBloomMainEffectSO*
 class CORDL_TYPE KawaseBloomMainEffectSO : public ::GlobalNamespace::MainEffectSO {
 public:
@@ -147,27 +147,27 @@ public:
 
   static inline int32_t getStaticF__fadeID();
 
-  /// @brief Method get_hasPostProcessEffect, addr 0x2807db4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_hasPostProcessEffect, addr 0x280c59c, size 0x8, virtual true, abstract: false, final false
   inline bool get_hasPostProcessEffect();
 
-  /// @brief Method OnEnable, addr 0x2807dbc, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x280c5a4, size 0x1c, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable, addr 0x2807e94, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x280c67c, size 0x20, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method LazyInitializeMaterials, addr 0x2807dd8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method LazyInitializeMaterials, addr 0x280c5c0, size 0xbc, virtual false, abstract: false, final false
   inline void LazyInitializeMaterials();
 
-  /// @brief Method PreRender, addr 0x2807eb4, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method PreRender, addr 0x280c69c, size 0x64, virtual true, abstract: false, final false
   inline void PreRender();
 
-  /// @brief Method Render, addr 0x2807fa0, size 0x210, virtual true, abstract: false, final false
+  /// @brief Method Render, addr 0x280c788, size 0x210, virtual true, abstract: false, final false
   inline void Render(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest, float_t fade);
 
   static inline ::GlobalNamespace::KawaseBloomMainEffectSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28081b0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x280c998, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "KawaseBloomMainEffectSO", modifiers: "&&", def_value: None }]

@@ -33,8 +33,8 @@ MARK_REF_PTR_T(::System::Globalization::GregorianCalendar);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3696)), TypeDefinitionIndex(TypeDefinitionIndex(3701))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3698))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3694)), TypeDefinitionIndex(TypeDefinitionIndex(3699))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3696))
 // CS Name: ::System.Globalization::GregorianCalendar*
 class CORDL_TYPE GregorianCalendar : public ::System::Globalization::Calendar {
 public:
@@ -79,80 +79,80 @@ public:
 
   static inline ::System::Globalization::Calendar* getStaticF_s_defaultInstance();
 
-  /// @brief Method OnDeserialized, addr 0x25611d4, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method OnDeserialized, addr 0x2583e1c, size 0xdc, virtual false, abstract: false, final false
   inline void OnDeserialized(::System::Runtime::Serialization::StreamingContext ctx);
 
-  /// @brief Method get_MinSupportedDateTime, addr 0x25612b0, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_MinSupportedDateTime, addr 0x2583ef8, size 0x58, virtual true, abstract: false, final false
   inline ::System::DateTime get_MinSupportedDateTime();
 
-  /// @brief Method get_MaxSupportedDateTime, addr 0x2561308, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_MaxSupportedDateTime, addr 0x2583f50, size 0x58, virtual true, abstract: false, final false
   inline ::System::DateTime get_MaxSupportedDateTime();
 
-  /// @brief Method GetDefaultInstance, addr 0x2561360, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultInstance, addr 0x2583fa8, size 0xd0, virtual false, abstract: false, final false
   static inline ::System::Globalization::Calendar* GetDefaultInstance();
 
   static inline ::System::Globalization::GregorianCalendar* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2561430, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2584078, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Globalization::GregorianCalendar* New_ctor(::System::Globalization::GregorianCalendarTypes type);
 
-  /// @brief Method .ctor, addr 0x256145c, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25840a4, size 0x154, virtual false, abstract: false, final false
   inline void _ctor(::System::Globalization::GregorianCalendarTypes type);
 
-  /// @brief Method get_ID, addr 0x25615b0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ID, addr 0x25841f8, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ID();
 
-  /// @brief Method GetDatePart, addr 0x25615b8, size 0x1fc, virtual true, abstract: false, final false
+  /// @brief Method GetDatePart, addr 0x2584200, size 0x1fc, virtual true, abstract: false, final false
   inline int32_t GetDatePart(int64_t ticks, int32_t part);
 
-  /// @brief Method GetAbsoluteDate, addr 0x25617b4, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method GetAbsoluteDate, addr 0x25843fc, size 0x1e8, virtual false, abstract: false, final false
   static inline int64_t GetAbsoluteDate(int32_t year, int32_t month, int32_t day);
 
-  /// @brief Method GetDayOfMonth, addr 0x256199c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetDayOfMonth, addr 0x25845e4, size 0x44, virtual true, abstract: false, final false
   inline int32_t GetDayOfMonth(::System::DateTime time);
 
-  /// @brief Method GetDayOfWeek, addr 0x25619e0, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method GetDayOfWeek, addr 0x2584628, size 0x68, virtual true, abstract: false, final false
   inline ::System::DayOfWeek GetDayOfWeek(::System::DateTime time);
 
-  /// @brief Method GetDaysInMonth, addr 0x2561a48, size 0x2b0, virtual true, abstract: false, final false
+  /// @brief Method GetDaysInMonth, addr 0x2584690, size 0x2b0, virtual true, abstract: false, final false
   inline int32_t GetDaysInMonth(int32_t year, int32_t month, int32_t era);
 
-  /// @brief Method GetDaysInYear, addr 0x2561cf8, size 0x194, virtual true, abstract: false, final false
+  /// @brief Method GetDaysInYear, addr 0x2584940, size 0x194, virtual true, abstract: false, final false
   inline int32_t GetDaysInYear(int32_t year, int32_t era);
 
-  /// @brief Method GetEra, addr 0x2561e8c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetEra, addr 0x2584ad4, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetEra(::System::DateTime time);
 
-  /// @brief Method get_Eras, addr 0x2561e94, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method get_Eras, addr 0x2584adc, size 0x64, virtual true, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> get_Eras();
 
-  /// @brief Method GetMonth, addr 0x2561ef8, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetMonth, addr 0x2584b40, size 0x44, virtual true, abstract: false, final false
   inline int32_t GetMonth(::System::DateTime time);
 
-  /// @brief Method GetMonthsInYear, addr 0x2561f3c, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method GetMonthsInYear, addr 0x2584b84, size 0x150, virtual true, abstract: false, final false
   inline int32_t GetMonthsInYear(int32_t year, int32_t era);
 
-  /// @brief Method GetYear, addr 0x256208c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetYear, addr 0x2584cd4, size 0x44, virtual true, abstract: false, final false
   inline int32_t GetYear(::System::DateTime time);
 
-  /// @brief Method IsLeapYear, addr 0x25620d0, size 0x19c, virtual true, abstract: false, final false
+  /// @brief Method IsLeapYear, addr 0x2584d18, size 0x19c, virtual true, abstract: false, final false
   inline bool IsLeapYear(int32_t year, int32_t era);
 
-  /// @brief Method ToDateTime, addr 0x256226c, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method ToDateTime, addr 0x2584eb4, size 0xa0, virtual true, abstract: false, final false
   inline ::System::DateTime ToDateTime(int32_t year, int32_t month, int32_t day, int32_t hour, int32_t minute, int32_t second, int32_t millisecond, int32_t era);
 
-  /// @brief Method TryToDateTime, addr 0x256230c, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method TryToDateTime, addr 0x2584f54, size 0xf4, virtual true, abstract: false, final false
   inline bool TryToDateTime(int32_t year, int32_t month, int32_t day, int32_t hour, int32_t minute, int32_t second, int32_t millisecond, int32_t era, ByRef<::System::DateTime> result);
 
-  /// @brief Method get_TwoDigitYearMax, addr 0x2562400, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_TwoDigitYearMax, addr 0x2585048, size 0x44, virtual true, abstract: false, final false
   inline int32_t get_TwoDigitYearMax();
 
-  /// @brief Method set_TwoDigitYearMax, addr 0x2562444, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method set_TwoDigitYearMax, addr 0x258508c, size 0x118, virtual true, abstract: false, final false
   inline void set_TwoDigitYearMax(int32_t value);
 
-  /// @brief Method ToFourDigitYear, addr 0x256255c, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method ToFourDigitYear, addr 0x25851a4, size 0x120, virtual true, abstract: false, final false
   inline int32_t ToFourDigitYear(int32_t year);
 
   // Ctor Parameters [CppParam { name: "", ty: "GregorianCalendar", modifiers: "&&", def_value: None }]

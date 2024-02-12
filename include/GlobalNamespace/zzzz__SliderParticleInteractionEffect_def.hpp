@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SliderParticleInteractionEffect);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4819)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4825))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4170)), TypeDefinitionIndex(TypeDefinitionIndex(8995))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4176))
 // CS Name: ::SliderParticleInteractionEffect*
 class CORDL_TYPE SliderParticleInteractionEffect : public ::GlobalNamespace::SliderInteractionEffect {
 public:
@@ -84,24 +84,24 @@ public:
 
   constexpr void __cordl_internal_set__saber(::UnityW<::GlobalNamespace::Saber> value);
 
-  /// @brief Method Start, addr 0x2394f4c, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x2354b00, size 0x98, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x23950b8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2354c6c, size 0x6c, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method SetPSStartColor, addr 0x2394fe4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SetPSStartColor, addr 0x2354b98, size 0xd4, virtual false, abstract: false, final false
   inline void SetPSStartColor(::UnityEngine::Color color);
 
-  /// @brief Method StartEffect, addr 0x2395124, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method StartEffect, addr 0x2354cd8, size 0xb8, virtual true, abstract: false, final false
   inline void StartEffect(float_t saberInteractionParam);
 
-  /// @brief Method EndEffect, addr 0x23951dc, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method EndEffect, addr 0x2354d90, size 0x94, virtual true, abstract: false, final false
   inline void EndEffect();
 
   static inline ::GlobalNamespace::SliderParticleInteractionEffect* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2395270, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2354e24, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SliderParticleInteractionEffect", modifiers: "&&", def_value: None }]

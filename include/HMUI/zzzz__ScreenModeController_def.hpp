@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::HMUI::ScreenModeController);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13591))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13544))
 // CS Name: ::HMUI::ScreenModeController*
 class CORDL_TYPE ScreenModeController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -70,18 +70,18 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method Awake, addr 0x212c274, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x21c0b58, size 0x144, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method SetMode, addr 0x212c450, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method SetMode, addr 0x21c0d34, size 0x214, virtual false, abstract: false, final false
   inline void SetMode(::HMUI::ScreenModeData* screenModeData);
 
-  /// @brief Method SetDefaultMode, addr 0x212c664, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetDefaultMode, addr 0x21c0f48, size 0x8, virtual false, abstract: false, final false
   inline void SetDefaultMode();
 
   static inline ::HMUI::ScreenModeController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x212c66c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21c0f50, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ScreenModeController", modifiers: "&&", def_value: None }]

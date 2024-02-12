@@ -16,7 +16,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_XYZOrder);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9715))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9507))
 // CS Name: ::HoudiniEngineUnity::HAPI_XYZOrder
 struct CORDL_TYPE HAPI_XYZOrder {
 public:

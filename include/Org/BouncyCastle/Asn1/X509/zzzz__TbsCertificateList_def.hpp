@@ -92,16 +92,16 @@ public:
 
   static inline ::GlobalNamespace::__TbsCertificateList__RevokedCertificatesEnumeration__RevokedCertificatesEnumerator* New_ctor(::System::Collections::IEnumerator* e);
 
-  /// @brief Method .ctor, addr 0x1199c74, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11c7b04, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IEnumerator* e);
 
-  /// @brief Method MoveNext, addr 0x1199c9c, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x11c7b2c, size 0xa0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method Reset, addr 0x1199d3c, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x11c7bcc, size 0xa4, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method get_Current, addr 0x1199de0, size 0xe8, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x11c7c70, size 0xe8, virtual true, abstract: false, final true
   inline ::System::Object* get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__TbsCertificateList__RevokedCertificatesEnumeration__RevokedCertificatesEnumerator", modifiers: "&&", def_value: None }]
@@ -158,10 +158,10 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::__TbsCertificateList__RevokedCertificatesEnumeration* New_ctor(::System::Collections::IEnumerable* en);
 
-  /// @brief Method .ctor, addr 0x1199b5c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11c79ec, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IEnumerable* en);
 
-  /// @brief Method GetEnumerator, addr 0x1199b94, size 0xe0, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x11c7a24, size 0xe0, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
   // Ctor Parameters [CppParam { name: "", ty: "__TbsCertificateList__RevokedCertificatesEnumeration", modifiers: "&&", def_value: None }]
@@ -287,45 +287,45 @@ public:
 
   constexpr void __cordl_internal_set_crlExtensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* value);
 
-  /// @brief Method GetInstance, addr 0x1199298, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x11c7128, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::TbsCertificateList* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0x11992b0, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x11c7140, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::TbsCertificateList* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::TbsCertificateList* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0x1199438, size 0x4ec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11c72c8, size 0x4ec, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Version, addr 0x1199924, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x11c77b4, size 0x24, virtual false, abstract: false, final false
   inline int32_t get_Version();
 
-  /// @brief Method get_VersionNumber, addr 0x1199948, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_VersionNumber, addr 0x11c77d8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_VersionNumber();
 
-  /// @brief Method get_Signature, addr 0x1199950, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Signature, addr 0x11c77e0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_Signature();
 
-  /// @brief Method get_Issuer, addr 0x1199958, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Issuer, addr 0x11c77e8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Name* get_Issuer();
 
-  /// @brief Method get_ThisUpdate, addr 0x1199960, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ThisUpdate, addr 0x11c77f0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::Time* get_ThisUpdate();
 
-  /// @brief Method get_NextUpdate, addr 0x1199968, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NextUpdate, addr 0x11c77f8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::Time* get_NextUpdate();
 
-  /// @brief Method GetRevokedCertificates, addr 0x1199970, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method GetRevokedCertificates, addr 0x11c7800, size 0x14c, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::CrlEntry*, ::Array<::Org::BouncyCastle::Asn1::X509::CrlEntry*>*> GetRevokedCertificates();
 
-  /// @brief Method GetRevokedCertificateEnumeration, addr 0x1199abc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetRevokedCertificateEnumeration, addr 0x11c794c, size 0xa0, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerable* GetRevokedCertificateEnumeration();
 
-  /// @brief Method get_Extensions, addr 0x1199b84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Extensions, addr 0x11c7a14, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* get_Extensions();
 
-  /// @brief Method ToAsn1Object, addr 0x1199b8c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x11c7a1c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "TbsCertificateList", modifiers: "&&", def_value: None }]

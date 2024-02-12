@@ -36,18 +36,18 @@ MARK_REF_PTR_T(::ModestTree::MiscExtensions);
 namespace ModestTree {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10615))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9757))
 // CS Name: ::ModestTree::MiscExtensions*
 class CORDL_TYPE MiscExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Fmt, addr 0x2ebb6ec, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method Fmt, addr 0x2ed7834, size 0x1b4, virtual false, abstract: false, final false
   static inline ::StringW Fmt(::StringW s, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
   /// @brief Method IndexOf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline int32_t IndexOf(::System::Collections::Generic::IList_1<T>* list, T item);
 
-  /// @brief Method Join, addr 0x2ebc4f0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Join, addr 0x2ed8638, size 0x64, virtual false, abstract: false, final false
   static inline ::StringW Join(::System::Collections::Generic::IEnumerable_1<::StringW>* values, ::StringW separator);
 
   /// @brief Method AllocFreeAddRange, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

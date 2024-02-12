@@ -46,15 +46,15 @@ public:
 
   static inline ::System::Runtime::Remoting::ChannelInfo* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2484c7c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24a6cf0, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Runtime::Remoting::ChannelInfo* New_ctor(::System::Object* remoteChannelData);
 
-  /// @brief Method .ctor, addr 0x2484ce4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24a6d58, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* remoteChannelData);
 
-  /// @brief Method get_ChannelData, addr 0x2484d8c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_ChannelData, addr 0x24a6e00, size 0x8, virtual true, abstract: false, final true
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> get_ChannelData();
 
   // Ctor Parameters [CppParam { name: "", ty: "ChannelInfo", modifiers: "&&", def_value: None }]

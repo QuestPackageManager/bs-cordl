@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::UnityEngine::WaitUntil);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10242))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10198))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8986))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8942))
 // CS Name: ::UnityEngine::WaitUntil*
 class CORDL_TYPE WaitUntil : public ::UnityEngine::CustomYieldInstruction {
 public:
@@ -34,12 +34,12 @@ public:
 
   constexpr void __cordl_internal_set_m_Predicate(::System::Func_1<bool>* value);
 
-  /// @brief Method get_keepWaiting, addr 0x2ccef78, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method get_keepWaiting, addr 0x2cd5ffc, size 0x30, virtual true, abstract: false, final false
   inline bool get_keepWaiting();
 
   static inline ::UnityEngine::WaitUntil* New_ctor(::System::Func_1<bool>* predicate);
 
-  /// @brief Method .ctor, addr 0x2ccefa8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cd602c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Func_1<bool>* predicate);
 
   // Ctor Parameters [CppParam { name: "", ty: "WaitUntil", modifiers: "&&", def_value: None }]

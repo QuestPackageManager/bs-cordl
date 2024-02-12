@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::ResourceLocators::IResourceLoca
 namespace UnityEngine::AddressableAssets::ResourceLocators {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14112))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14125))
 // CS Name: ::UnityEngine.AddressableAssets.ResourceLocators::IResourceLocator*
 class CORDL_TYPE IResourceLocator {
 public:

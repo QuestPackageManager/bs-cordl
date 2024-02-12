@@ -16,7 +16,7 @@ MARK_VAL_T(::Newtonsoft::Json::Serialization::JsonContractType);
 namespace Newtonsoft::Json::Serialization {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11936))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11834))
 // CS Name: ::Newtonsoft.Json.Serialization::JsonContractType
 struct CORDL_TYPE JsonContractType {
 public:

@@ -46,7 +46,7 @@ MARK_REF_PTR_T(::System::Net::__ContextAwareResult____c);
 namespace System::Net {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9018))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7028))
 // CS Name: ::ContextAwareResult::StateFlags
 struct CORDL_TYPE __ContextAwareResult__StateFlags {
 public:
@@ -112,7 +112,7 @@ static_assert(offsetof(::System::Net::__ContextAwareResult__StateFlags, value__)
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9019))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7029))
 // CS Name: ::ContextAwareResult::<>c*
 class CORDL_TYPE __ContextAwareResult____c : public ::System::Object {
 public:
@@ -133,10 +133,10 @@ public:
 
   static inline ::System::Net::__ContextAwareResult____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29885bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x298c060, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Complete>b__17_0, addr 0x29885c4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method <Complete>b__17_0, addr 0x298c068, size 0x80, virtual false, abstract: false, final false
   inline void _Complete_b__17_0(::System::Object* s);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ContextAwareResult____c", modifiers: "&&", def_value: None }]
@@ -163,8 +163,8 @@ static_assert(::cordl_internals::size_check_v<::System::Net::__ContextAwareResul
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 81, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9018)), TypeDefinitionIndex(TypeDefinitionIndex(9107))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9020))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7028)), TypeDefinitionIndex(TypeDefinitionIndex(7117))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7030))
 // CS Name: ::System.Net::ContextAwareResult*
 class CORDL_TYPE ContextAwareResult : public ::System::Net::LazyAsyncResult {
 public:
@@ -200,47 +200,47 @@ public:
 
   constexpr void __cordl_internal_set__flags(::System::Net::__ContextAwareResult__StateFlags value);
 
-  /// @brief Method SafeCaptureIdentity, addr 0x2987814, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SafeCaptureIdentity, addr 0x298b2b8, size 0x4, virtual false, abstract: false, final false
   inline void SafeCaptureIdentity();
 
-  /// @brief Method CleanupInternal, addr 0x2987818, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CleanupInternal, addr 0x298b2bc, size 0x4, virtual false, abstract: false, final false
   inline void CleanupInternal();
 
   static inline ::System::Net::ContextAwareResult* New_ctor(::System::Object* myObject, ::System::Object* myState, ::System::AsyncCallback* myCallBack);
 
-  /// @brief Method .ctor, addr 0x298781c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x298b2c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* myObject, ::System::Object* myState, ::System::AsyncCallback* myCallBack);
 
   static inline ::System::Net::ContextAwareResult* New_ctor(bool captureIdentity, bool forceCaptureContext, ::System::Object* myObject, ::System::Object* myState, ::System::AsyncCallback* myCallBack);
 
-  /// @brief Method .ctor, addr 0x2987824, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x298b2c8, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(bool captureIdentity, bool forceCaptureContext, ::System::Object* myObject, ::System::Object* myState, ::System::AsyncCallback* myCallBack);
 
   static inline ::System::Net::ContextAwareResult* New_ctor(bool captureIdentity, bool forceCaptureContext, bool threadSafeContextCopy, ::System::Object* myObject, ::System::Object* myState,
                                                             ::System::AsyncCallback* myCallBack);
 
-  /// @brief Method .ctor, addr 0x2987874, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x298b318, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(bool captureIdentity, bool forceCaptureContext, bool threadSafeContextCopy, ::System::Object* myObject, ::System::Object* myState, ::System::AsyncCallback* myCallBack);
 
-  /// @brief Method StartPostingAsyncOp, addr 0x29878ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method StartPostingAsyncOp, addr 0x298b390, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* StartPostingAsyncOp();
 
-  /// @brief Method StartPostingAsyncOp, addr 0x29878f4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method StartPostingAsyncOp, addr 0x298b398, size 0xfc, virtual false, abstract: false, final false
   inline ::System::Object* StartPostingAsyncOp(bool lockCapture);
 
-  /// @brief Method FinishPostingAsyncOp, addr 0x2987ac0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method FinishPostingAsyncOp, addr 0x298b564, size 0x44, virtual false, abstract: false, final false
   inline bool FinishPostingAsyncOp();
 
-  /// @brief Method Cleanup, addr 0x2987edc, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x298b980, size 0xa0, virtual true, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method CaptureOrComplete, addr 0x2987b04, size 0x3d8, virtual false, abstract: false, final false
+  /// @brief Method CaptureOrComplete, addr 0x298b5a8, size 0x3d8, virtual false, abstract: false, final false
   inline bool CaptureOrComplete(ByRef<::System::Threading::ExecutionContext*> cachedContext, bool returnContext);
 
-  /// @brief Method Complete, addr 0x29881a0, size 0x2e8, virtual true, abstract: false, final false
+  /// @brief Method Complete, addr 0x298bc44, size 0x2e8, virtual true, abstract: false, final false
   inline void Complete(void* userToken);
 
-  /// @brief Method CompleteCallback, addr 0x2988488, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method CompleteCallback, addr 0x298bf2c, size 0xd0, virtual false, abstract: false, final false
   inline void CompleteCallback();
 
   // Ctor Parameters [CppParam { name: "", ty: "ContextAwareResult", modifiers: "&&", def_value: None }]

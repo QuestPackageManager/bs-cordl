@@ -35,8 +35,8 @@ MARK_REF_PTR_T(::GlobalNamespace::JoinQuickPlayViewController);
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5716))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13558))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5018))
 // CS Name: ::JoinQuickPlayViewController*
 class CORDL_TYPE JoinQuickPlayViewController : public ::HMUI::ViewController {
 public:
@@ -107,33 +107,33 @@ public:
 
   constexpr void __cordl_internal_set__multiplayerModeSettings(::GlobalNamespace::MultiplayerModeSettings* value);
 
-  /// @brief Method add_didFinishEvent, addr 0x22cda2c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x22fd564, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<bool>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x22cdadc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x22fd614, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<bool>* value);
 
-  /// @brief Method get_multiplayerModeSettings, addr 0x22cdb8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_multiplayerModeSettings, addr 0x22fd6c4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerModeSettings* get_multiplayerModeSettings();
 
-  /// @brief Method Setup, addr 0x22cdb94, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x22fd6cc, size 0x90, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::QuickPlaySetupData* quickPlaySetupData, ::GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings);
 
-  /// @brief Method DidActivate, addr 0x22cdc24, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x22fd75c, size 0x128, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method ButtonPressed, addr 0x22cdd4c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ButtonPressed, addr 0x22fd884, size 0x8c, virtual false, abstract: false, final false
   inline void ButtonPressed(bool success);
 
   static inline ::GlobalNamespace::JoinQuickPlayViewController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22cddd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22fd910, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <DidActivate>b__12_0, addr 0x22cdde0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__12_0, addr 0x22fd918, size 0x8, virtual false, abstract: false, final false
   inline void _DidActivate_b__12_0();
 
-  /// @brief Method <DidActivate>b__12_1, addr 0x22cdde8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__12_1, addr 0x22fd920, size 0x8, virtual false, abstract: false, final false
   inline void _DidActivate_b__12_1();
 
   // Ctor Parameters [CppParam { name: "", ty: "JoinQuickPlayViewController", modifiers: "&&", def_value: None }]

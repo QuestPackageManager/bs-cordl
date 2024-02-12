@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::NavigationEventDispatchingStrategy);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7193))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6452))
 // CS Name: ::UnityEngine.UIElements::NavigationEventDispatchingStrategy*
 class CORDL_TYPE NavigationEventDispatchingStrategy : public ::System::Object {
 public:
@@ -35,15 +35,15 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IEventDispatchingStrategy"
   constexpr ::UnityEngine::UIElements::IEventDispatchingStrategy* i___UnityEngine__UIElements__IEventDispatchingStrategy() noexcept;
 
-  /// @brief Method CanDispatchEvent, addr 0x2e4ea28, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method CanDispatchEvent, addr 0x2e69e10, size 0x54, virtual true, abstract: false, final true
   inline bool CanDispatchEvent(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method DispatchEvent, addr 0x2e4ea7c, size 0x144, virtual true, abstract: false, final true
+  /// @brief Method DispatchEvent, addr 0x2e69e64, size 0x144, virtual true, abstract: false, final true
   inline void DispatchEvent(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::IPanel* panel);
 
   static inline ::UnityEngine::UIElements::NavigationEventDispatchingStrategy* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e4ebc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e69fa8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NavigationEventDispatchingStrategy", modifiers: "&&", def_value: None }]

@@ -57,31 +57,31 @@ public:
 
   constexpr void __cordl_internal_set_issuerSerial(::Org::BouncyCastle::Asn1::X509::IssuerSerial* value);
 
-  /// @brief Method GetInstance, addr 0xe90488, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xeba318, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Esf::OtherCertID* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::OtherCertID* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xe94734, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xebe5c4, size 0x1cc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::OtherCertID* New_ctor(::Org::BouncyCastle::Asn1::Esf::OtherHash* otherCertHash);
 
-  /// @brief Method .ctor, addr 0xe94900, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xebe790, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Esf::OtherHash* otherCertHash);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::OtherCertID* New_ctor(::Org::BouncyCastle::Asn1::Esf::OtherHash* otherCertHash, ::Org::BouncyCastle::Asn1::X509::IssuerSerial* issuerSerial);
 
-  /// @brief Method .ctor, addr 0xe94908, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xebe798, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Esf::OtherHash* otherCertHash, ::Org::BouncyCastle::Asn1::X509::IssuerSerial* issuerSerial);
 
-  /// @brief Method get_OtherCertHash, addr 0xe94984, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OtherCertHash, addr 0xebe814, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Esf::OtherHash* get_OtherCertHash();
 
-  /// @brief Method get_IssuerSerial, addr 0xe9498c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IssuerSerial, addr 0xebe81c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::IssuerSerial* get_IssuerSerial();
 
-  /// @brief Method ToAsn1Object, addr 0xe94994, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xebe824, size 0x138, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "OtherCertID", modifiers: "&&", def_value: None }]

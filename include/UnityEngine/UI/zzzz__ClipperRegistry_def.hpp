@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::UnityEngine::UI::ClipperRegistry);
 namespace UnityEngine::UI {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13024))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12922))
 // CS Name: ::UnityEngine.UI::ClipperRegistry*
 class CORDL_TYPE ClipperRegistry : public ::System::Object {
 public:
@@ -44,22 +44,22 @@ public:
 
   static inline ::UnityEngine::UI::ClipperRegistry* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d531b4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d7159c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_instance, addr 0x2d51fd8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_instance, addr 0x2d703c0, size 0x7c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UI::ClipperRegistry* get_instance();
 
-  /// @brief Method Cull, addr 0x2d52054, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Cull, addr 0x2d7043c, size 0x10c, virtual false, abstract: false, final false
   inline void Cull();
 
-  /// @brief Method Register, addr 0x2d53230, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Register, addr 0x2d71618, size 0x70, virtual false, abstract: false, final false
   static inline void Register(::UnityEngine::UI::IClipper* c);
 
-  /// @brief Method Unregister, addr 0x2d532a0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Unregister, addr 0x2d71688, size 0x5c, virtual false, abstract: false, final false
   static inline void Unregister(::UnityEngine::UI::IClipper* c);
 
-  /// @brief Method Disable, addr 0x2d532fc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Disable, addr 0x2d716e4, size 0x5c, virtual false, abstract: false, final false
   static inline void Disable(::UnityEngine::UI::IClipper* c);
 
   // Ctor Parameters [CppParam { name: "", ty: "ClipperRegistry", modifiers: "&&", def_value: None }]

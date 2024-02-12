@@ -54,26 +54,26 @@ public:
 
   constexpr void __cordl_internal_set_policies(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method GetInstance, addr 0xe9b954, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xec57e4, size 0x190, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ess::SigningCertificate* GetInstance(::System::Object* o);
 
   static inline ::Org::BouncyCastle::Asn1::Ess::SigningCertificate* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xe9bae4, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xec5974, size 0x154, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::Ess::SigningCertificate* New_ctor(::Org::BouncyCastle::Asn1::Ess::EssCertID* essCertID);
 
-  /// @brief Method .ctor, addr 0xe9bc38, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xec5ac8, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Ess::EssCertID* essCertID);
 
-  /// @brief Method GetCerts, addr 0xe9bcb4, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method GetCerts, addr 0xec5b44, size 0x110, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Ess::EssCertID*, ::Array<::Org::BouncyCastle::Asn1::Ess::EssCertID*>*> GetCerts();
 
-  /// @brief Method GetPolicies, addr 0xe9bdc4, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method GetPolicies, addr 0xec5c54, size 0x118, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::PolicyInformation*, ::Array<::Org::BouncyCastle::Asn1::X509::PolicyInformation*>*> GetPolicies();
 
-  /// @brief Method ToAsn1Object, addr 0xe9bedc, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xec5d6c, size 0x148, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "SigningCertificate", modifiers: "&&", def_value: None }]

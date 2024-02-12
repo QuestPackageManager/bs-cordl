@@ -17,7 +17,7 @@ MARK_VAL_T(::OVR::OpenVR::D3D12TextureData_t);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8665))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8609))
 // CS Name: ::OVR.OpenVR::D3D12TextureData_t
 struct CORDL_TYPE D3D12TextureData_t {
 public:

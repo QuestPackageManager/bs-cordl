@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ResourceManagement::ResourceProviders::AssetLoadMode);
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13989))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14002))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::AssetLoadMode
 struct CORDL_TYPE AssetLoadMode {
 public:

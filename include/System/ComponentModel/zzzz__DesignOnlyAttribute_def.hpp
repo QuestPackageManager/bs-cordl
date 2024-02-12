@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::System::ComponentModel::DesignOnlyAttribute);
 namespace System::ComponentModel {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9389))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7399))
 // CS Name: ::System.ComponentModel::DesignOnlyAttribute*
 class CORDL_TYPE DesignOnlyAttribute : public ::System::Attribute {
 public:
@@ -58,19 +58,19 @@ public:
 
   static inline ::System::ComponentModel::DesignOnlyAttribute* New_ctor(bool isDesignOnly);
 
-  /// @brief Method .ctor, addr 0x29043e4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2908a4c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool isDesignOnly);
 
-  /// @brief Method get_IsDesignOnly, addr 0x290440c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDesignOnly, addr 0x2908a74, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDesignOnly();
 
-  /// @brief Method Equals, addr 0x2904414, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2908a7c, size 0xe4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x29044f8, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2908b60, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsDefaultAttribute, addr 0x2904518, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method IsDefaultAttribute, addr 0x2908b80, size 0x80, virtual true, abstract: false, final false
   inline bool IsDefaultAttribute();
 
   // Ctor Parameters [CppParam { name: "", ty: "DesignOnlyAttribute", modifiers: "&&", def_value: None }]

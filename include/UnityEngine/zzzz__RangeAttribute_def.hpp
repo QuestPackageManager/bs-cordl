@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::UnityEngine::RangeAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10170))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10176))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8914))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8920))
 // CS Name: ::UnityEngine::RangeAttribute*
 class CORDL_TYPE RangeAttribute : public ::UnityEngine::PropertyAttribute {
 public:
@@ -41,7 +41,7 @@ public:
 
   static inline ::UnityEngine::RangeAttribute* New_ctor(float_t min, float_t max);
 
-  /// @brief Method .ctor, addr 0x2ccc1b8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cd3244, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(float_t min, float_t max);
 
   // Ctor Parameters [CppParam { name: "", ty: "RangeAttribute", modifiers: "&&", def_value: None }]

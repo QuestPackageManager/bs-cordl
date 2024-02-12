@@ -42,13 +42,13 @@ public:
 
   static inline ::System::SharedStatics* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25f18c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26157d8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method GetSharedStringMaker, addr 0x25f18c8, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method GetSharedStringMaker, addr 0x26157e0, size 0x1d0, virtual false, abstract: false, final false
   static inline ::System::Security::Util::__Tokenizer__StringMaker* GetSharedStringMaker();
 
-  /// @brief Method ReleaseSharedStringMaker, addr 0x25f1a98, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method ReleaseSharedStringMaker, addr 0x26159b0, size 0x150, virtual false, abstract: false, final false
   static inline void ReleaseSharedStringMaker(ByRef<::System::Security::Util::__Tokenizer__StringMaker*> maker);
 
   // Ctor Parameters [CppParam { name: "", ty: "SharedStatics", modifiers: "&&", def_value: None }]

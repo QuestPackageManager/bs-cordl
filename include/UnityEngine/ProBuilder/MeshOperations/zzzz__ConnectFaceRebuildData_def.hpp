@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12250))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12148))
 // CS Name: ::UnityEngine.ProBuilder.MeshOperations::ConnectFaceRebuildData*
 class CORDL_TYPE ConnectFaceRebuildData : public ::System::Object {
 public:
@@ -48,7 +48,7 @@ public:
   static inline ::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData* New_ctor(::UnityEngine::ProBuilder::FaceRebuildData* faceRebuildData,
                                                                                             ::System::Collections::Generic::List_1<int32_t>* newVertexIndexes);
 
-  /// @brief Method .ctor, addr 0x2ba43e0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ba1f4c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ProBuilder::FaceRebuildData* faceRebuildData, ::System::Collections::Generic::List_1<int32_t>* newVertexIndexes);
 
   // Ctor Parameters [CppParam { name: "", ty: "ConnectFaceRebuildData", modifiers: "&&", def_value: None }]

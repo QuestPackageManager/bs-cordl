@@ -19,17 +19,17 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::Exceptions::OperationException
 namespace UnityEngine::ResourceManagement::Exceptions {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2561))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13963))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13976))
 // CS Name: ::UnityEngine.ResourceManagement.Exceptions::OperationException*
 class CORDL_TYPE OperationException : public ::System::Exception {
 public:
   // Declarations
   static inline ::UnityEngine::ResourceManagement::Exceptions::OperationException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x2bd0098, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bcdc04, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method ToString, addr 0x2bd0108, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2bcdc74, size 0x88, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "OperationException", modifiers: "&&", def_value: None }]

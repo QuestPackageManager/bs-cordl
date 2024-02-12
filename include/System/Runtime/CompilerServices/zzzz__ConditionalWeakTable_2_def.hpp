@@ -61,7 +61,7 @@ namespace System::Runtime::CompilerServices {
 template <typename TKey, typename TValue>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3420))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3416))
 // CS Name: ::ConditionalWeakTable`2::CreateValueCallback<TKey,TValue>*
 class CORDL_TYPE __ConditionalWeakTable_2__CreateValueCallback : public ::System::MulticastDelegate {
 public:
@@ -98,8 +98,8 @@ namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3841)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3841), inst: 1113
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(3421)) CS Name: ::ConditionalWeakTable`2::Enumerator<TKey,TValue>*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3840)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3840), inst: 1104
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(3417)) CS Name: ::ConditionalWeakTable`2::Enumerator<TKey,TValue>*
 class CORDL_TYPE __ConditionalWeakTable_2__Enumerator : public ::System::Object {
 public:
   // Declarations
@@ -210,7 +210,7 @@ namespace System::Runtime::CompilerServices {
 template <typename TKey, typename TValue>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3422))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3418))
 // CS Name: ::System.Runtime.CompilerServices::ConditionalWeakTable`2<TKey,TValue>*
 class CORDL_TYPE ConditionalWeakTable_2 : public ::System::Object {
 public:

@@ -54,31 +54,31 @@ public:
 
   constexpr void __cordl_internal_set_certifiedAttributes(::Org::BouncyCastle::Asn1::X509::AttributeCertificate* value);
 
-  /// @brief Method GetInstance, addr 0xe9872c, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xec25bc, size 0x154, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Esf::SignerAttribute* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::SignerAttribute* New_ctor(::System::Object* obj);
 
-  /// @brief Method .ctor, addr 0xe98880, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xec2710, size 0x174, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::SignerAttribute* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* claimedAttributes);
 
-  /// @brief Method .ctor, addr 0xe989f4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xec2884, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* claimedAttributes);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::SignerAttribute* New_ctor(::Org::BouncyCastle::Asn1::X509::AttributeCertificate* certifiedAttributes);
 
-  /// @brief Method .ctor, addr 0xe98a1c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xec28ac, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AttributeCertificate* certifiedAttributes);
 
-  /// @brief Method get_ClaimedAttributes, addr 0xe98a44, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ClaimedAttributes, addr 0xec28d4, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Sequence* get_ClaimedAttributes();
 
-  /// @brief Method get_CertifiedAttributes, addr 0xe98a4c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CertifiedAttributes, addr 0xec28dc, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AttributeCertificate* get_CertifiedAttributes();
 
-  /// @brief Method ToAsn1Object, addr 0xe98a54, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xec28e4, size 0x100, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "SignerAttribute", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::FakeReflectionDynamicObjectsState);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5860))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5150))
 // CS Name: ::FakeReflectionDynamicObjectsState
 struct CORDL_TYPE FakeReflectionDynamicObjectsState {
 public:

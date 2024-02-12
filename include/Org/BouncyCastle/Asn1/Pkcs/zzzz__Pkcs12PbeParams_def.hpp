@@ -62,24 +62,24 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::Pkcs12PbeParams* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterations);
 
-  /// @brief Method .ctor, addr 0xf8ab80, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfb5a10, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterations);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::Pkcs12PbeParams* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xf8ac34, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfb5ac4, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance, addr 0xf8ad1c, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xfb5bac, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::Pkcs12PbeParams* GetInstance(::System::Object* obj);
 
-  /// @brief Method get_Iterations, addr 0xf8aea4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Iterations, addr 0xfb5d34, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Iterations();
 
-  /// @brief Method GetIV, addr 0xf8aec0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetIV, addr 0xfb5d50, size 0x20, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetIV();
 
-  /// @brief Method ToAsn1Object, addr 0xf8aee0, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xfb5d70, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "Pkcs12PbeParams", modifiers: "&&", def_value: None }]

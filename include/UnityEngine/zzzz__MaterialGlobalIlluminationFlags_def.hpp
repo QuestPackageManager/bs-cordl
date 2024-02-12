@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::MaterialGlobalIlluminationFlags);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10123))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8859))
 // CS Name: ::UnityEngine::MaterialGlobalIlluminationFlags
 struct CORDL_TYPE MaterialGlobalIlluminationFlags {
 public:

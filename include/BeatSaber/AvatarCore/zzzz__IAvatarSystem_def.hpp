@@ -45,7 +45,7 @@ MARK_REF_PTR_T(::BeatSaber::AvatarCore::IAvatarSystem);
 namespace BeatSaber::AvatarCore {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15192))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15273))
 // CS Name: ::BeatSaber.AvatarCore::IAvatarSystem*
 class CORDL_TYPE IAvatarSystem {
 public:
@@ -93,7 +93,7 @@ public:
   inline ::BeatSaber::AvatarCore::IOptionalAvatarDataProvider* GetMultiplayerAvatarOptionalDataProvider();
 
   /// @brief Method CreateDefaultAvatarIfUserCreatedAvatarDoesNotExist, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool CreateDefaultAvatarIfUserCreatedAvatarDoesNotExist();
+  inline ::System::Threading::Tasks::Task_1<bool>* CreateDefaultAvatarIfUserCreatedAvatarDoesNotExist();
 
   /// @brief Method __GetRandomizedMultiplayerAvatarsData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerAvatarData>* __GetRandomizedMultiplayerAvatarsData();

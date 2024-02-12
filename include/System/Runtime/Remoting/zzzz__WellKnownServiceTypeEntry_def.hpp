@@ -64,19 +64,19 @@ public:
   static inline ::System::Runtime::Remoting::WellKnownServiceTypeEntry* New_ctor(::StringW typeName, ::StringW assemblyName, ::StringW objectUri,
                                                                                  ::System::Runtime::Remoting::WellKnownObjectMode mode);
 
-  /// @brief Method .ctor, addr 0x2495a30, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24b7aa4, size 0x140, virtual false, abstract: false, final false
   inline void _ctor(::StringW typeName, ::StringW assemblyName, ::StringW objectUri, ::System::Runtime::Remoting::WellKnownObjectMode mode);
 
-  /// @brief Method get_Mode, addr 0x2495b70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Mode, addr 0x24b7be4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::WellKnownObjectMode get_Mode();
 
-  /// @brief Method get_ObjectType, addr 0x2495b78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectType, addr 0x24b7bec, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ObjectType();
 
-  /// @brief Method get_ObjectUri, addr 0x2495b80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectUri, addr 0x24b7bf4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ObjectUri();
 
-  /// @brief Method ToString, addr 0x2495b88, size 0x178, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x24b7bfc, size 0x178, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "WellKnownServiceTypeEntry", modifiers: "&&", def_value: None }]

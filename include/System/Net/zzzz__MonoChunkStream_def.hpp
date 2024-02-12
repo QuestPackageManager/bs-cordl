@@ -72,9 +72,9 @@ MARK_VAL_T(::System::Net::__MonoChunkStream___ProcessReadAsync_d__7);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 98 })] Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(9194)) CS Name: ::MonoChunkStream::<ProcessReadAsync>d__7
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3398)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3393), inst: 103 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3398), inst: 103 })] Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(7204)) CS Name: ::MonoChunkStream::<ProcessReadAsync>d__7
 struct CORDL_TYPE __MonoChunkStream___ProcessReadAsync_d__7 {
 public:
   // Declarations
@@ -84,10 +84,10 @@ public:
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x29d4df4, size 0x36c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x29d9898, size 0x36c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x29d5160, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x29d9c04, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -163,8 +163,8 @@ static_assert(offsetof(::System::Net::__MonoChunkStream___ProcessReadAsync_d__7,
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3397)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(9195)) CS
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3391)), TypeDefinitionIndex(TypeDefinitionIndex(3393)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3397)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3393), inst: 103 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7205)) CS
 // Name: ::MonoChunkStream::<FinishReading>d__8
 struct CORDL_TYPE __MonoChunkStream___FinishReading_d__8 {
 public:
@@ -175,10 +175,10 @@ public:
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x29d51b8, size 0x3d0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x29d9c5c, size 0x3d0, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x29d5588, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x29da02c, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -244,8 +244,8 @@ static_assert(offsetof(::System::Net::__MonoChunkStream___FinishReading_d__8, __
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9229))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9196))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7239))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7206))
 // CS Name: ::System.Net::MonoChunkStream*
 class CORDL_TYPE MonoChunkStream : public ::System::Net::WebReadStream {
 public:
@@ -274,25 +274,25 @@ public:
 
   constexpr void __cordl_internal_set__Decoder_k__BackingField(::System::Net::MonoChunkParser* value);
 
-  /// @brief Method get_Decoder, addr 0x29d4984, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Decoder, addr 0x29d9428, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::MonoChunkParser* get_Decoder();
 
   static inline ::System::Net::MonoChunkStream* New_ctor(::System::Net::WebOperation* operation, ::System::IO::Stream* innerStream, ::System::Net::WebHeaderCollection* headers);
 
-  /// @brief Method .ctor, addr 0x29d498c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29d9430, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::WebOperation* operation, ::System::IO::Stream* innerStream, ::System::Net::WebHeaderCollection* headers);
 
-  /// @brief Method ProcessReadAsync, addr 0x29d4a8c, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method ProcessReadAsync, addr 0x29d9530, size 0x124, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ProcessReadAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size,
                                                                        ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method FinishReading, addr 0x29d4bb0, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method FinishReading, addr 0x29d9654, size 0xe0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* FinishReading(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ThrowExpectingChunkTrailer, addr 0x29d4c90, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ThrowExpectingChunkTrailer, addr 0x29d9734, size 0x5c, virtual false, abstract: false, final false
   static inline void ThrowExpectingChunkTrailer();
 
-  /// @brief Method <>n__0, addr 0x29d4cec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <>n__0, addr 0x29d9790, size 0x4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* __n__0(::System::Threading::CancellationToken cancellationToken);
 
   // Ctor Parameters [CppParam { name: "", ty: "MonoChunkStream", modifiers: "&&", def_value: None }]

@@ -51,7 +51,7 @@ MARK_REF_PTR_T(::System::Net::WebProxy);
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9139))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7149))
 // CS Name: ::System.Net::WebProxy*
 class CORDL_TYPE WebProxy : public ::System::Object {
 public:
@@ -158,80 +158,80 @@ public:
 
   static inline ::System::Net::WebProxy* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29b6bd8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29bb67c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Net::WebProxy* New_ctor(::System::Uri* Address, bool BypassOnLocal, ::ArrayW<::StringW, ::Array<::StringW>*> BypassList, ::System::Net::ICredentials* Credentials);
 
-  /// @brief Method .ctor, addr 0x29b6bec, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29bb690, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::System::Uri* Address, bool BypassOnLocal, ::ArrayW<::StringW, ::Array<::StringW>*> BypassList, ::System::Net::ICredentials* Credentials);
 
-  /// @brief Method get_Credentials, addr 0x29b6ed8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Credentials, addr 0x29bb97c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Net::ICredentials* get_Credentials();
 
-  /// @brief Method get_UseDefaultCredentials, addr 0x29b6ee0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_UseDefaultCredentials, addr 0x29bb984, size 0x7c, virtual false, abstract: false, final false
   inline bool get_UseDefaultCredentials();
 
-  /// @brief Method set_UseDefaultCredentials, addr 0x29b6f5c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method set_UseDefaultCredentials, addr 0x29bba00, size 0x78, virtual false, abstract: false, final false
   inline void set_UseDefaultCredentials(bool value);
 
-  /// @brief Method GetProxy, addr 0x29b6fd4, size 0x190, virtual true, abstract: false, final true
+  /// @brief Method GetProxy, addr 0x29bba78, size 0x190, virtual true, abstract: false, final true
   inline ::System::Uri* GetProxy(::System::Uri* destination);
 
-  /// @brief Method UpdateRegExList, addr 0x29b6ca0, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method UpdateRegExList, addr 0x29bb744, size 0x238, virtual false, abstract: false, final false
   inline void UpdateRegExList(bool canThrow);
 
-  /// @brief Method IsMatchInBypassList, addr 0x29b73b4, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method IsMatchInBypassList, addr 0x29bbe58, size 0x198, virtual false, abstract: false, final false
   inline bool IsMatchInBypassList(::System::Uri* input);
 
-  /// @brief Method IsLocal, addr 0x29b754c, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method IsLocal, addr 0x29bbff0, size 0x160, virtual false, abstract: false, final false
   inline bool IsLocal(::System::Uri* host);
 
-  /// @brief Method IsLocalInProxyHash, addr 0x29b76ac, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method IsLocalInProxyHash, addr 0x29bc150, size 0xf0, virtual false, abstract: false, final false
   inline bool IsLocalInProxyHash(::System::Uri* host);
 
-  /// @brief Method IsBypassed, addr 0x29b779c, size 0xf4, virtual true, abstract: false, final true
+  /// @brief Method IsBypassed, addr 0x29bc240, size 0xf4, virtual true, abstract: false, final true
   inline bool IsBypassed(::System::Uri* host);
 
-  /// @brief Method IsBypassedManual, addr 0x29b72ec, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method IsBypassedManual, addr 0x29bbd90, size 0xc8, virtual false, abstract: false, final false
   inline bool IsBypassedManual(::System::Uri* host);
 
   static inline ::System::Net::WebProxy* New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method .ctor, addr 0x29b7998, size 0x360, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29bc43c, size 0x360, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x29b7d04, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x29bc7a8, size 0xc, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
                                                                        ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method GetObjectData, addr 0x29b7d10, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x29bc7b4, size 0x124, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method get_ScriptEngine, addr 0x29b7e34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ScriptEngine, addr 0x29bc8d8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::AutoWebProxyScriptEngine* get_ScriptEngine();
 
-  /// @brief Method CreateDefaultProxy, addr 0x29b7e3c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method CreateDefaultProxy, addr 0x29bc8e0, size 0x68, virtual false, abstract: false, final false
   static inline ::System::Net::IWebProxy* CreateDefaultProxy();
 
   static inline ::System::Net::WebProxy* New_ctor(bool enableAutoproxy);
 
-  /// @brief Method .ctor, addr 0x29b7ea4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29bc948, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(bool enableAutoproxy);
 
-  /// @brief Method UnsafeUpdateFromRegistry, addr 0x29b7cf8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method UnsafeUpdateFromRegistry, addr 0x29bc79c, size 0xc, virtual false, abstract: false, final false
   inline void UnsafeUpdateFromRegistry();
 
-  /// @brief Method GetProxyAuto, addr 0x29b7164, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetProxyAuto, addr 0x29bbc08, size 0x188, virtual false, abstract: false, final false
   inline bool GetProxyAuto(::System::Uri* destination, ByRef<::System::Uri*> proxyUri);
 
-  /// @brief Method IsBypassedAuto, addr 0x29b7890, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method IsBypassedAuto, addr 0x29bc334, size 0x108, virtual false, abstract: false, final false
   inline bool IsBypassedAuto(::System::Uri* destination, ByRef<bool> isBypassed);
 
-  /// @brief Method AreAllBypassed, addr 0x29b7ed4, size 0x308, virtual false, abstract: false, final false
+  /// @brief Method AreAllBypassed, addr 0x29bc978, size 0x308, virtual false, abstract: false, final false
   static inline bool AreAllBypassed(::System::Collections::Generic::IEnumerable_1<::StringW>* proxies, bool checkFirstOnly);
 
-  /// @brief Method ProxyUri, addr 0x29b81dc, size 0x10a4, virtual false, abstract: false, final false
+  /// @brief Method ProxyUri, addr 0x29bcc80, size 0xa4, virtual false, abstract: false, final false
   static inline ::System::Uri* ProxyUri(::StringW proxyName);
 
   // Ctor Parameters [CppParam { name: "", ty: "WebProxy", modifiers: "&&", def_value: None }]

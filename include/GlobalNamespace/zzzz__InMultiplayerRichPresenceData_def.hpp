@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::GlobalNamespace::InMultiplayerRichPresenceData);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4669))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5243))
 // CS Name: ::InMultiplayerRichPresenceData*
 class CORDL_TYPE InMultiplayerRichPresenceData : public ::System::Object {
 public:
@@ -97,42 +97,42 @@ public:
 
   constexpr void __cordl_internal_set__canInvite_k__BackingField(bool value);
 
-  /// @brief Method get_apiName, addr 0x23735a4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_apiName, addr 0x2336dc4, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_apiName();
 
-  /// @brief Method set_apiName, addr 0x23735ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_apiName, addr 0x2336dcc, size 0x8, virtual false, abstract: false, final false
   inline void set_apiName(::StringW value);
 
-  /// @brief Method get_localizedDescription, addr 0x23735b4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_localizedDescription, addr 0x2336dd4, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_localizedDescription();
 
-  /// @brief Method set_localizedDescription, addr 0x23735bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_localizedDescription, addr 0x2336ddc, size 0x8, virtual false, abstract: false, final false
   inline void set_localizedDescription(::StringW value);
 
-  /// @brief Method get_multiplayerSecret, addr 0x23735c4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_multiplayerSecret, addr 0x2336de4, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_multiplayerSecret();
 
-  /// @brief Method set_multiplayerSecret, addr 0x23735cc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_multiplayerSecret, addr 0x2336dec, size 0x8, virtual true, abstract: false, final true
   inline void set_multiplayerSecret(::StringW value);
 
-  /// @brief Method get_atMaxPartySize, addr 0x23735d4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_atMaxPartySize, addr 0x2336df4, size 0x8, virtual true, abstract: false, final true
   inline bool get_atMaxPartySize();
 
-  /// @brief Method set_atMaxPartySize, addr 0x23735dc, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_atMaxPartySize, addr 0x2336dfc, size 0xc, virtual true, abstract: false, final true
   inline void set_atMaxPartySize(bool value);
 
-  /// @brief Method get_canInvite, addr 0x23735e8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_canInvite, addr 0x2336e08, size 0x8, virtual true, abstract: false, final true
   inline bool get_canInvite();
 
-  /// @brief Method set_canInvite, addr 0x23735f0, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_canInvite, addr 0x2336e10, size 0xc, virtual true, abstract: false, final true
   inline void set_canInvite(bool value);
 
-  /// @brief Method get_isJoinable, addr 0x23735fc, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method get_isJoinable, addr 0x2336e1c, size 0x38, virtual true, abstract: false, final true
   inline bool get_isJoinable();
 
   static inline ::GlobalNamespace::InMultiplayerRichPresenceData* New_ctor(::StringW multiplayerSecret, bool canInvite, bool atMaxPartySize);
 
-  /// @brief Method .ctor, addr 0x2373634, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2336e54, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::StringW multiplayerSecret, bool canInvite, bool atMaxPartySize);
 
   // Ctor Parameters [CppParam { name: "", ty: "InMultiplayerRichPresenceData", modifiers: "&&", def_value: None }]

@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::System::Globalization::SortVersion);
 namespace System::Globalization {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3680))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3678))
 // CS Name: ::System.Globalization::SortVersion*
 class CORDL_TYPE SortVersion : public ::System::Object {
 public:

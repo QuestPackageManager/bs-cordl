@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ScreenBackButtonAnimationController);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13498))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13451))
 // CS Name: ::ScreenBackButtonAnimationController::AnimationType
 struct CORDL_TYPE __ScreenBackButtonAnimationController__AnimationType {
 public:
@@ -95,8 +95,8 @@ static_assert(offsetof(::GlobalNamespace::__ScreenBackButtonAnimationController_
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13499))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13452))
 // CS Name: ::ScreenBackButtonAnimationController*
 class CORDL_TYPE ScreenBackButtonAnimationController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -124,15 +124,15 @@ public:
 
   constexpr void __cordl_internal_set__animationHashes(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__ScreenBackButtonAnimationController__AnimationType, int32_t>* value);
 
-  /// @brief Method Awake, addr 0x2115f54, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x21aa830, size 0x20, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method StartAnimation, addr 0x2115f74, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method StartAnimation, addr 0x21aa850, size 0x70, virtual false, abstract: false, final false
   inline void StartAnimation(::GlobalNamespace::__ScreenBackButtonAnimationController__AnimationType animationType);
 
   static inline ::GlobalNamespace::ScreenBackButtonAnimationController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2115fe4, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21aa8c0, size 0x1e0, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ScreenBackButtonAnimationController", modifiers: "&&", def_value: None }]

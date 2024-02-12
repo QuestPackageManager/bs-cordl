@@ -49,7 +49,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPacksOverri
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4476))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10886))
 // CS Name: ::QuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPackName*
 class CORDL_TYPE __QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPackName : public ::System::Object {
 public:
@@ -74,7 +74,7 @@ public:
 
   static inline ::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPackName* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2353bd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1295290, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPackName", modifiers: "&&", def_value: None }]
@@ -112,7 +112,7 @@ static_assert(offsetof(::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPac
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4477))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10887))
 // CS Name: ::QuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPack*
 class CORDL_TYPE __QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPack : public ::System::Object {
 public:
@@ -163,7 +163,7 @@ public:
 
   static inline ::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPack* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2353bdc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1295298, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPack", modifiers: "&&", def_value: None }]
@@ -213,7 +213,7 @@ static_assert(offsetof(::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPac
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4478))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10888))
 // CS Name: ::QuickPlaySetupData::QuickPlaySongPacksOverride::PredefinedPack*
 class CORDL_TYPE __QuickPlaySetupData__QuickPlaySongPacksOverride__PredefinedPack : public ::System::Object {
 public:
@@ -238,7 +238,7 @@ public:
 
   static inline ::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPacksOverride__PredefinedPack* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2353c5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1295318, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__QuickPlaySetupData__QuickPlaySongPacksOverride__PredefinedPack", modifiers: "&&", def_value: None }]
@@ -276,7 +276,7 @@ static_assert(offsetof(::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPac
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4479))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10889))
 // CS Name: ::QuickPlaySetupData::QuickPlaySongPacksOverride*
 class CORDL_TYPE __QuickPlaySetupData__QuickPlaySongPacksOverride : public ::System::Object {
 public:
@@ -312,7 +312,7 @@ public:
 
   static inline ::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPacksOverride* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2353b14, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12951d0, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__QuickPlaySetupData__QuickPlaySongPacksOverride", modifiers: "&&", def_value: None }]
@@ -350,7 +350,7 @@ static_assert(offsetof(::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPac
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4480))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10890))
 // CS Name: ::QuickPlaySetupData*
 class CORDL_TYPE QuickPlaySetupData : public ::System::Object {
 public:
@@ -369,12 +369,12 @@ public:
 
   constexpr void __cordl_internal_set_quickPlayAvailablePacksOverride(::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPacksOverride* value);
 
-  /// @brief Method get_hasOverride, addr 0x2353a84, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_hasOverride, addr 0x1295140, size 0x88, virtual false, abstract: false, final false
   inline bool get_hasOverride();
 
   static inline ::GlobalNamespace::QuickPlaySetupData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2353b0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12951c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "QuickPlaySetupData", modifiers: "&&", def_value: None }]

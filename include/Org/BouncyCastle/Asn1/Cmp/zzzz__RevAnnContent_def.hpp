@@ -98,28 +98,28 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::RevAnnContent* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xe6e4fc, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe9938c, size 0x15c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance, addr 0xe69a40, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xe948d0, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::RevAnnContent* GetInstance(::System::Object* obj);
 
-  /// @brief Method get_Status, addr 0xe6e658, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Status, addr 0xe994e8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* get_Status();
 
-  /// @brief Method get_CertID, addr 0xe6e660, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CertID, addr 0xe994f0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::CertId* get_CertID();
 
-  /// @brief Method get_WillBeRevokedAt, addr 0xe6e668, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_WillBeRevokedAt, addr 0xe994f8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerGeneralizedTime* get_WillBeRevokedAt();
 
-  /// @brief Method get_BadSinceDate, addr 0xe6e670, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_BadSinceDate, addr 0xe99500, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerGeneralizedTime* get_BadSinceDate();
 
-  /// @brief Method get_CrlDetails, addr 0xe6e678, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CrlDetails, addr 0xe99508, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* get_CrlDetails();
 
-  /// @brief Method ToAsn1Object, addr 0xe6e680, size 0x1cc, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xe99510, size 0x1cc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "RevAnnContent", modifiers: "&&", def_value: None }]

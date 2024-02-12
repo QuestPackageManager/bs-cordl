@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::HttpContentHeaders);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14677))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14672))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14682))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14677))
 // CS Name: ::System.Net.Http.Headers::HttpContentHeaders*
 class CORDL_TYPE HttpContentHeaders : public ::System::Net::Http::Headers::HttpHeaders {
 public:
@@ -45,16 +45,16 @@ public:
 
   static inline ::System::Net::Http::Headers::HttpContentHeaders* New_ctor(::System::Net::Http::HttpContent* content);
 
-  /// @brief Method .ctor, addr 0x28326c0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2836e34, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Http::HttpContent* content);
 
-  /// @brief Method get_ContentLength, addr 0x28302c8, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method get_ContentLength, addr 0x2834ab0, size 0x128, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int64_t> get_ContentLength();
 
-  /// @brief Method get_ContentType, addr 0x2833254, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_ContentType, addr 0x28379c8, size 0x68, virtual false, abstract: false, final false
   inline ::System::Net::Http::Headers::MediaTypeHeaderValue* get_ContentType();
 
-  /// @brief Method set_ContentType, addr 0x2834888, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method set_ContentType, addr 0x2838f5c, size 0x74, virtual false, abstract: false, final false
   inline void set_ContentType(::System::Net::Http::Headers::MediaTypeHeaderValue* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "HttpContentHeaders", modifiers: "&&", def_value: None }]

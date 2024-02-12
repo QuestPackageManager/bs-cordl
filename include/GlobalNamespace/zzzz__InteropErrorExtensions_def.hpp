@@ -26,7 +26,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE InteropErrorExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Info, addr 0x2411d78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Info, addr 0x2431bd8, size 0x8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__Interop__ErrorInfo Info(::GlobalNamespace::__Interop__Error error);
 
   // Ctor Parameters [CppParam { name: "", ty: "InteropErrorExtensions", modifiers: "&&", def_value: None }]

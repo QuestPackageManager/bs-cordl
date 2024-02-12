@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::UnityEngine::WritableAttribute);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16006))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16101))
 // CS Name: ::UnityEngine::WritableAttribute*
 class CORDL_TYPE WritableAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::UnityEngine::WritableAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d18050, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d38af8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "WritableAttribute", modifiers: "&&", def_value: None }]

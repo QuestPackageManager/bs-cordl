@@ -19,7 +19,7 @@ namespace GlobalNamespace {
 template <typename T>
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14777))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15159))
 // CS Name: ::ISortedListItemProcessor`1<T>*
 class CORDL_TYPE ISortedListItemProcessor_1 {
 public:

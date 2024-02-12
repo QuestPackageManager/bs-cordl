@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::KekRecipientInfoGenerator::*)()>(
     &::Org::BouncyCastle::Cms::KekRecipientInfoGenerator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1201864;
+  constexpr static std::size_t addrs = 0x122e6f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::KekRecipientInfoGenerator*>::get(),
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::KekRecipientInfoGenerator::*)(::Org::BouncyCastle::Asn1::Cms::KekIdentifier*)>(
     &::Org::BouncyCastle::Cms::KekRecipientInfoGenerator::set_KekIdentifier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x120186c;
+  constexpr static std::size_t addrs = 0x122e6fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::KekRecipientInfoGenerator::*)(
     ::Org::BouncyCastle::Crypto::Parameters::KeyParameter*)>(&::Org::BouncyCastle::Cms::KekRecipientInfoGenerator::set_KeyEncryptionKey)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x1201874;
+  constexpr static std::size_t addrs = 0x122e704;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::KekRecipientInfoGenerator::*)(::StringW)>(
     &::Org::BouncyCastle::Cms::KekRecipientInfoGenerator::set_KeyEncryptionKeyOID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1201d68;
+  constexpr static std::size_t addrs = 0x122ebf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Cms::KekRecipientInfoGenerator::*)(::Org::BouncyCastle::Crypto::Parameters::KeyParameter*, ::Org::BouncyCastle::Security::SecureRandom*)>(
     &::Org::BouncyCastle::Cms::KekRecipientInfoGenerator::Generate)> {
   constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x1201d70;
+  constexpr static std::size_t addrs = 0x122ec00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -91,7 +91,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (*)(::StringW, ::Org::BouncyCastle::Crypto::Parameters::KeyParameter*)>(
         &::Org::BouncyCastle::Cms::KekRecipientInfoGenerator::DetermineKeyEncAlg)> {
   constexpr static std::size_t size = 0x480;
-  constexpr static std::size_t addrs = 0x12018e8;
+  constexpr static std::size_t addrs = 0x122e778;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

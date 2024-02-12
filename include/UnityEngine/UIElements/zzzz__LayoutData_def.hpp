@@ -54,9 +54,9 @@ MARK_VAL_T(::UnityEngine::UIElements::LayoutData);
 // SizeInfo { instance_size: 208, native_size: 208, calculated_instance_size: 208, calculated_native_size: 224, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6886)), TypeDefinitionIndex(TypeDefinitionIndex(6889)), TypeDefinitionIndex(TypeDefinitionIndex(6890)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6891)), TypeDefinitionIndex(TypeDefinitionIndex(6892)), TypeDefinitionIndex(TypeDefinitionIndex(6898)), TypeDefinitionIndex(TypeDefinitionIndex(7313))] Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(7357)) CS Name: ::UnityEngine.UIElements::LayoutData
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6145)), TypeDefinitionIndex(TypeDefinitionIndex(6148)), TypeDefinitionIndex(TypeDefinitionIndex(6149)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6150)), TypeDefinitionIndex(TypeDefinitionIndex(6151)), TypeDefinitionIndex(TypeDefinitionIndex(6157)), TypeDefinitionIndex(TypeDefinitionIndex(6572))] Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(6616)) CS Name: ::UnityEngine.UIElements::LayoutData
 struct CORDL_TYPE LayoutData {
 public:
   // Declarations
@@ -72,22 +72,22 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::LayoutData>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::LayoutData>* i___System__IEquatable_1___UnityEngine__UIElements__LayoutData_();
 
-  /// @brief Method Copy, addr 0x2e83a84, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Copy, addr 0x2e9de6c, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::LayoutData Copy();
 
-  /// @brief Method CopyFrom, addr 0x2e83aa0, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method CopyFrom, addr 0x2e9de88, size 0x14, virtual true, abstract: false, final true
   inline void CopyFrom(ByRef<::UnityEngine::UIElements::LayoutData> other);
 
-  /// @brief Method op_Equality, addr 0x2e83ab4, size 0x280, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x2e9de9c, size 0x280, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::LayoutData lhs, ::UnityEngine::UIElements::LayoutData rhs);
 
-  /// @brief Method Equals, addr 0x2e83d34, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2e9e11c, size 0x4c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::LayoutData other);
 
-  /// @brief Method Equals, addr 0x2e83d80, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2e9e168, size 0xa8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2e83e28, size 0x264, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2e9e210, size 0x264, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "alignContent", ty: "::UnityEngine::UIElements::Align", modifiers: "", def_value: None }, CppParam { name: "alignItems", ty: "::UnityEngine::UIElements::Align",

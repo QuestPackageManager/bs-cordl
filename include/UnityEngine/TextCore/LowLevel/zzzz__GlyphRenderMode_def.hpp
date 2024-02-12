@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::TextCore::LowLevel::GlyphRenderMode);
 namespace UnityEngine::TextCore::LowLevel {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15534))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15720))
 // CS Name: ::UnityEngine.TextCore.LowLevel::GlyphRenderMode
 struct CORDL_TYPE GlyphRenderMode {
 public:

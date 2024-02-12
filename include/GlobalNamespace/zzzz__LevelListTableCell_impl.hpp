@@ -7,9 +7,9 @@
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__Sprite_impl.hpp"
 #include "GlobalNamespace/zzzz__LevelListTableCell_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapLevel_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapLevelsModel_def.hpp"
 #include "GlobalNamespace/zzzz__EntitlementStatus_def.hpp"
-#include "GlobalNamespace/zzzz__IAdditionalContentModel_def.hpp"
-#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
 #include "GlobalNamespace/zzzz__LevelListTableCell_def.hpp"
 #include "HMUI/zzzz__SelectableCell_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
@@ -22,66 +22,66 @@
 #include "UnityEngine/zzzz__CanvasGroup_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__19.MoveNext
+//  Writing Method size for method: ::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__20.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__19::*)()>(
-    &::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__19::MoveNext)> {
-  constexpr static std::size_t size = 0xa50;
-  constexpr static std::size_t addrs = 0x227aee4;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__20::*)()>(
+    &::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__20::MoveNext)> {
+  constexpr static std::size_t size = 0x7f0;
+  constexpr static std::size_t addrs = 0x23d6a70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__19>::get(), "MoveNext",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__20>::get(), "MoveNext",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__19.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__20.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__19::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__19::SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__20::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__20::SetStateMachine)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x227b934;
+  constexpr static std::size_t addrs = 0x23d7260;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__19>::get(), "SetStateMachine",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__20>::get(), "SetStateMachine",
                                     std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__19::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__20::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__19::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__20::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-inline void GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__19::MoveNext() {
+inline void GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__20::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__19>::get(), "MoveNext",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__20>::get(), "MoveNext",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__19::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__20::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__19>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__20>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::LevelListTableCell>",
-// modifiers: "", def_value: Some("nullptr") }, CppParam { name: "level", ty: "::GlobalNamespace::IPreviewBeatmapLevel*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "isFavorite",
-// ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "isPromoted", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "isUpdated", ty: "bool", modifiers: "",
+// modifiers: "", def_value: Some("nullptr") }, CppParam { name: "level", ty: "::GlobalNamespace::BeatmapLevel*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "isFavorite", ty:
+// "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "isPromoted", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "isUpdated", ty: "bool", modifiers: "",
 // def_value: Some("{}") }, CppParam { name: "_cancellationToken_5__2", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
 // "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Sprite>>", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__19::__LevelListTableCell___SetDataFromLevelAsync_d__19(
-    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::LevelListTableCell> __4__this,
-    ::GlobalNamespace::IPreviewBeatmapLevel* level, bool isFavorite, bool isPromoted, bool isUpdated, ::System::Threading::CancellationToken _cancellationToken_5__2,
+constexpr ::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__20::__LevelListTableCell___SetDataFromLevelAsync_d__20(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::LevelListTableCell> __4__this, ::GlobalNamespace::BeatmapLevel* level,
+    bool isFavorite, bool isPromoted, bool isUpdated, ::System::Threading::CancellationToken _cancellationToken_5__2,
     ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Sprite>> __u__1) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
@@ -94,55 +94,55 @@ constexpr ::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__19:
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__19::__LevelListTableCell___SetDataFromLevelAsync_d__19() {}
-//  Writing Method size for method: ::GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__24.MoveNext
+constexpr ::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__20::__LevelListTableCell___SetDataFromLevelAsync_d__20() {}
+//  Writing Method size for method: ::GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__25.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__24::*)()>(
-    &::GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__24::MoveNext)> {
-  constexpr static std::size_t size = 0x46c;
-  constexpr static std::size_t addrs = 0x227b940;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__25::*)()>(
+    &::GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__25::MoveNext)> {
+  constexpr static std::size_t size = 0x3f8;
+  constexpr static std::size_t addrs = 0x23d726c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__24>::get(), "MoveNext",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__25>::get(), "MoveNext",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__24.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__25.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__24::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__24::SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__25::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__25::SetStateMachine)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x227bdac;
+  constexpr static std::size_t addrs = 0x23d7664;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__24>::get(), "SetStateMachine",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__25>::get(), "SetStateMachine",
                                     std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__24::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__25::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__24::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__25::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-inline void GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__24::MoveNext() {
+inline void GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__25::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__24>::get(), "MoveNext",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__25>::get(), "MoveNext",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__24::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__25::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__24>::get(), "SetStateMachine",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__25>::get(), "SetStateMachine",
                                   std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
@@ -150,11 +150,11 @@ inline void GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::LevelListTableCell>",
 // modifiers: "", def_value: Some("nullptr") }, CppParam { name: "levelID", ty: "::StringW", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "contentModel", ty:
-// "::GlobalNamespace::IAdditionalContentModel*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "_cancellationToken_5__2", ty: "::System::Threading::CancellationToken", modifiers: "",
+// "::GlobalNamespace::BeatmapLevelsModel*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "_cancellationToken_5__2", ty: "::System::Threading::CancellationToken", modifiers: "",
 // def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus>", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__24::__LevelListTableCell___RefreshAvailabilityAsync_d__24(
+constexpr ::GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__25::__LevelListTableCell___RefreshAvailabilityAsync_d__25(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::LevelListTableCell> __4__this, ::StringW levelID,
-    ::GlobalNamespace::IAdditionalContentModel* contentModel, ::System::Threading::CancellationToken _cancellationToken_5__2,
+    ::GlobalNamespace::BeatmapLevelsModel* contentModel, ::System::Threading::CancellationToken _cancellationToken_5__2,
     ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus> __u__1) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
@@ -165,19 +165,19 @@ constexpr ::GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__24::__LevelListTableCell___RefreshAvailabilityAsync_d__24() {}
+constexpr ::GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__25::__LevelListTableCell___RefreshAvailabilityAsync_d__25() {}
 //  Writing Method size for method: ::GlobalNamespace::LevelListTableCell.SetDataFromLevelAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelListTableCell::*)(::GlobalNamespace::IPreviewBeatmapLevel*, bool, bool, bool)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelListTableCell::*)(::GlobalNamespace::BeatmapLevel*, bool, bool, bool)>(
     &::GlobalNamespace::LevelListTableCell::SetDataFromLevelAsync)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x227ac64;
+  constexpr static std::size_t addrs = 0x23d67f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelListTableCell*>::get(), "SetDataFromLevelAsync", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IPreviewBeatmapLevel*>::get(),
+        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevel*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
@@ -189,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelListTableCell::*)(::HMUI::__SelectableCell__TransitionType)>(
     &::GlobalNamespace::LevelListTableCell::SelectionDidChange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x227ad24;
+  constexpr static std::size_t addrs = 0x23d68b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -204,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelListTableCell::*)(::HMUI::__SelectableCell__TransitionType)>(
     &::GlobalNamespace::LevelListTableCell::HighlightDidChange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x227adec;
+  constexpr static std::size_t addrs = 0x23d6978;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -218,7 +218,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelListTableCell::*)()>(&::GlobalNamespace::LevelListTableCell::RefreshVisuals)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x227ad28;
+  constexpr static std::size_t addrs = 0x23d68b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelListTableCell*>::get(), "RefreshVisuals",
@@ -231,7 +231,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelListTableCell::*)()>(&::GlobalNamespace::LevelListTableCell::WasPreparedForReuse)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x227adf0;
+  constexpr static std::size_t addrs = 0x23d697c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -243,15 +243,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::LevelListTableCell.RefreshAvailabilityAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelListTableCell::*)(::GlobalNamespace::IAdditionalContentModel*, ::StringW)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelListTableCell::*)(::GlobalNamespace::BeatmapLevelsModel*, ::StringW)>(
     &::GlobalNamespace::LevelListTableCell::RefreshAvailabilityAsync)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x227ae2c;
+  constexpr static std::size_t addrs = 0x23d69b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelListTableCell*>::get(), "RefreshAvailabilityAsync", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IAdditionalContentModel*>::get(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevelsModel*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
@@ -261,7 +261,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelListTableCell::*)()>(&::GlobalNamespace::LevelListTableCell::CancelAsyncOperations)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x227adf4;
+  constexpr static std::size_t addrs = 0x23d6980;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelListTableCell*>::get(),
@@ -274,7 +274,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelListTableCell::*)()>(&::GlobalNamespace::LevelListTableCell::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x227aed4;
+  constexpr static std::size_t addrs = 0x23d6a60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelListTableCell*>::get(), ".ctor",
@@ -450,6 +450,18 @@ constexpr void GlobalNamespace::LevelListTableCell::__cordl_internal_set__update
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____updatedBadgeGo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
+constexpr ::UnityW<::UnityEngine::Sprite>& GlobalNamespace::LevelListTableCell::__cordl_internal_get__defaultCoverImage() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____defaultCoverImage;
+}
+constexpr ::UnityW<::UnityEngine::Sprite> const& GlobalNamespace::LevelListTableCell::__cordl_internal_get__defaultCoverImage() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____defaultCoverImage;
+}
+constexpr void GlobalNamespace::LevelListTableCell::__cordl_internal_set__defaultCoverImage(::UnityW<::UnityEngine::Sprite> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____defaultCoverImage)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
 constexpr ::System::Threading::CancellationTokenSource*& GlobalNamespace::LevelListTableCell::__cordl_internal_get__refreshingAvailabilityCancellationTokenSource() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____refreshingAvailabilityCancellationTokenSource;
@@ -513,10 +525,10 @@ constexpr void GlobalNamespace::LevelListTableCell::__cordl_internal_set__settin
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____settingDataFromLevelId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::LevelListTableCell::SetDataFromLevelAsync(::GlobalNamespace::IPreviewBeatmapLevel* level, bool isFavorite, bool isPromoted, bool isUpdated) {
+inline void GlobalNamespace::LevelListTableCell::SetDataFromLevelAsync(::GlobalNamespace::BeatmapLevel* level, bool isFavorite, bool isPromoted, bool isUpdated) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelListTableCell*>::get(), "SetDataFromLevelAsync", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IPreviewBeatmapLevel*>::get(),
+      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevel*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, level, isFavorite, isPromoted, isUpdated);
@@ -541,10 +553,10 @@ inline void GlobalNamespace::LevelListTableCell::WasPreparedForReuse() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelListTableCell*>::get(), 17)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::LevelListTableCell::RefreshAvailabilityAsync(::GlobalNamespace::IAdditionalContentModel* contentModel, ::StringW levelID) {
+inline void GlobalNamespace::LevelListTableCell::RefreshAvailabilityAsync(::GlobalNamespace::BeatmapLevelsModel* contentModel, ::StringW levelID) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelListTableCell*>::get(), "RefreshAvailabilityAsync", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IAdditionalContentModel*>::get(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevelsModel*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, contentModel, levelID);
 }

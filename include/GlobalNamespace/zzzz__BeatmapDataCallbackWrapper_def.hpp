@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapDataCallbackWrapper);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4711))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4062))
 // CS Name: ::BeatmapDataCallbackWrapper*
 class CORDL_TYPE BeatmapDataCallbackWrapper : public ::System::Object {
 public:
@@ -58,7 +58,7 @@ public:
 
   static inline ::GlobalNamespace::BeatmapDataCallbackWrapper* New_ctor(float_t aheadTime, ::System::Type* BasicBeatmapEventType, ::ArrayW<int32_t, ::Array<int32_t>*> subtypeIdentifiers);
 
-  /// @brief Method .ctor, addr 0x237bcdc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22c1510, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(float_t aheadTime, ::System::Type* BasicBeatmapEventType, ::ArrayW<int32_t, ::Array<int32_t>*> subtypeIdentifiers);
 
   /// @brief Method CallCallback, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

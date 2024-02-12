@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::System::Runtime::InteropServices::ComVisibleAttribute);
 namespace System::Runtime::InteropServices {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3319))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3317))
 // CS Name: ::System.Runtime.InteropServices::ComVisibleAttribute*
 class CORDL_TYPE ComVisibleAttribute : public ::System::Attribute {
 public:
@@ -31,7 +31,7 @@ public:
 
   static inline ::System::Runtime::InteropServices::ComVisibleAttribute* New_ctor(bool visibility);
 
-  /// @brief Method .ctor, addr 0x24d7270, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f7f00, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool visibility);
 
   // Ctor Parameters [CppParam { name: "", ty: "ComVisibleAttribute", modifiers: "&&", def_value: None }]

@@ -262,7 +262,7 @@ public:
 
   static inline ::System::AppDomainSetup* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25f62a4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x261a1a4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AppDomainSetup", modifiers: "&&", def_value: None }]

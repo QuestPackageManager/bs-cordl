@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Security::Authentication::ExtendedProtection::PolicyEnforce
 namespace System::Security::Authentication::ExtendedProtection {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8968))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6978))
 // CS Name: ::System.Security.Authentication.ExtendedProtection::PolicyEnforcement
 struct CORDL_TYPE PolicyEnforcement {
 public:

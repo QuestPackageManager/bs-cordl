@@ -46,16 +46,16 @@ public:
 
   static inline ::System::Runtime::Remoting::Metadata::SoapFieldAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24a5cac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24c7d20, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_XmlElementName, addr 0x24a5cb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlElementName, addr 0x24c7d28, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_XmlElementName();
 
-  /// @brief Method IsInteropXmlElement, addr 0x24a5cbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsInteropXmlElement, addr 0x24c7d30, size 0x8, virtual false, abstract: false, final false
   inline bool IsInteropXmlElement();
 
-  /// @brief Method SetReflectionObject, addr 0x24a5cc4, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method SetReflectionObject, addr 0x24c7d38, size 0xa0, virtual true, abstract: false, final false
   inline void SetReflectionObject(::System::Object* reflectionObject);
 
   // Ctor Parameters [CppParam { name: "", ty: "SoapFieldAttribute", modifiers: "&&", def_value: None }]

@@ -23,13 +23,13 @@ MARK_VAL_T(::BGNet::Core::GameLift::GetMultiplayerInstanceResponse);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BGNet::Core::GameLift {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12738))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13011))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12636))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12909))
 // CS Name: ::BGNet.Core.GameLift::GetMultiplayerInstanceResponse
 struct CORDL_TYPE GetMultiplayerInstanceResponse {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0xe60ec4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe8bd54, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::MultiplayerPlacementErrorCode errorCode, ::BGNet::Core::GameLift::PlayerSessionInfo* playerSessionInfo, int32_t pollIntervalMs, ::StringW ticketId,
                     ::StringW ticketStatus, ::StringW placementId, ::StringW placementStatus);
 

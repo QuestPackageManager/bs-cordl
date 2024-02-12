@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::BakerTransform::*)(::UnityEngine::Transform*, ::UnityEngine::Transform*, bool, bool)>(
     &::RootMotion::BakerTransform::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x12311a8;
+  constexpr static std::size_t addrs = 0x12cc258;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::BakerTransform::*)(::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(
     &::RootMotion::BakerTransform::SetRelativeSpace)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x123141c;
+  constexpr static std::size_t addrs = 0x12cc4cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::BakerTransform::*)(ByRef<::UnityEngine::AnimationClip*>)>(
     &::RootMotion::BakerTransform::SetCurves)> {
   constexpr static std::size_t size = 0x2b4;
-  constexpr static std::size_t addrs = 0x12316f8;
+  constexpr static std::size_t addrs = 0x12cc7a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::BakerTransform::*)(ByRef<::UnityEngine::AnimationClip*>)>(
     &::RootMotion::BakerTransform::AddRootMotionCurves)> {
   constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x1234610;
+  constexpr static std::size_t addrs = 0x12cf6c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::BakerTransform::*)()>(&::RootMotion::BakerTransform::Reset)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x1231314;
+  constexpr static std::size_t addrs = 0x12cc3c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::BakerTransform*>::get(), "Reset",
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::BakerTransform::*)(float_t)>(&::RootMotion::BakerTransform::ReduceKeyframes)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x1234898;
+  constexpr static std::size_t addrs = 0x12cf948;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::BakerTransform::*)(float_t)>(&::RootMotion::BakerTransform::SetKeyframes)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x1231a18;
+  constexpr static std::size_t addrs = 0x12ccac8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::BakerTransform::*)(float_t)>(&::RootMotion::BakerTransform::AddLoopFrame)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x123149c;
+  constexpr static std::size_t addrs = 0x12cc54c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

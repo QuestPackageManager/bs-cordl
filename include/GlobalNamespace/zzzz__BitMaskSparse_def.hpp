@@ -45,7 +45,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__BitMaskSparse____c);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14992))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14865))
 // CS Name: ::BitMaskSparse::<>c*
 class CORDL_TYPE __BitMaskSparse____c : public ::System::Object {
 public:
@@ -66,10 +66,10 @@ public:
 
   static inline ::GlobalNamespace::__BitMaskSparse____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x12a2080, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1337e4c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <ToString>b__8_0, addr 0x12a2088, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <ToString>b__8_0, addr 0x1337e54, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW _ToString_b__8_0(uint32_t i);
 
   // Ctor Parameters [CppParam { name: "", ty: "__BitMaskSparse____c", modifiers: "&&", def_value: None }]
@@ -97,7 +97,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BitMaskSparse
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14993))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14866))
 // CS Name: ::BitMaskSparse*
 class CORDL_TYPE BitMaskSparse : public ::System::Object {
 public:
@@ -142,30 +142,30 @@ public:
 
   constexpr void __cordl_internal_set__sparseSet(::System::Collections::Generic::SortedSet_1<uint32_t>* value);
 
-  /// @brief Method get_bitCount, addr 0x12a1d5c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_bitCount, addr 0x1337b28, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_bitCount();
 
   static inline ::GlobalNamespace::BitMaskSparse* New_ctor(int32_t bitCount);
 
-  /// @brief Method .ctor, addr 0x12a0478, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1336244, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(int32_t bitCount);
 
-  /// @brief Method Equals, addr 0x12a1d64, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x1337b30, size 0x6c, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::BitMaskSparse* other);
 
-  /// @brief Method SetBits, addr 0x12a1dd0, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method SetBits, addr 0x1337b9c, size 0x90, virtual true, abstract: false, final true
   inline ::GlobalNamespace::BitMaskSparse* SetBits(int32_t offset, uint64_t bits);
 
-  /// @brief Method GetBits, addr 0x12a1e60, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method GetBits, addr 0x1337c2c, size 0x98, virtual true, abstract: false, final true
   inline uint64_t GetBits(int32_t offset, int32_t count);
 
-  /// @brief Method ToString, addr 0x12a1ef8, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x1337cc4, size 0x124, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method Serialize, addr 0x12a0818, size 0x194, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x13365e4, size 0x194, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method Deserialize, addr 0x12a09c4, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0x1336790, size 0x94, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
   // Ctor Parameters [CppParam { name: "", ty: "BitMaskSparse", modifiers: "&&", def_value: None }]

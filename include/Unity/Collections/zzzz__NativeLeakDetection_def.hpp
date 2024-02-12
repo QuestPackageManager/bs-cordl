@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::Unity::Collections::NativeLeakDetection);
 namespace Unity::Collections {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9996))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8727))
 // CS Name: ::Unity.Collections::NativeLeakDetection*
 class CORDL_TYPE NativeLeakDetection : public ::System::Object {
 public:
@@ -28,7 +28,7 @@ public:
 
   static inline int32_t getStaticF_s_NativeLeakDetectionMode();
 
-  /// @brief Method Initialize, addr 0x2c9df94, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x2c9ea40, size 0x4c, virtual false, abstract: false, final false
   static inline void Initialize();
 
   // Ctor Parameters [CppParam { name: "", ty: "NativeLeakDetection", modifiers: "&&", def_value: None }]

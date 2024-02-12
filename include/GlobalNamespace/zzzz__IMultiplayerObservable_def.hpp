@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IMultiplayerObservable);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5143))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4482))
 // CS Name: ::IMultiplayerObservable*
 class CORDL_TYPE IMultiplayerObservable {
 public:

@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_ShelfTools);
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9859))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9651))
 // CS Name: ::HoudiniEngineUnity::HEU_ShelfTools*
 class CORDL_TYPE HEU_ShelfTools : public ::System::Object {
 public:
@@ -63,90 +63,90 @@ public:
 
   static inline int32_t getStaticF__currentSelectedShelf();
 
-  /// @brief Method AreShelvesLoaded, addr 0x21d0774, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method AreShelvesLoaded, addr 0x2266058, size 0x58, virtual false, abstract: false, final false
   static inline bool AreShelvesLoaded();
 
-  /// @brief Method SetReloadShelves, addr 0x21d07cc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method SetReloadShelves, addr 0x22660b0, size 0x58, virtual false, abstract: false, final false
   static inline void SetReloadShelves();
 
-  /// @brief Method ClearShelves, addr 0x21d0824, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method ClearShelves, addr 0x2266108, size 0x98, virtual false, abstract: false, final false
   static inline void ClearShelves();
 
-  /// @brief Method GetNumShelves, addr 0x21d08bc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetNumShelves, addr 0x22661a0, size 0x70, virtual false, abstract: false, final false
   static inline int32_t GetNumShelves();
 
-  /// @brief Method GetCurrentShelfIndex, addr 0x21d092c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentShelfIndex, addr 0x2266210, size 0x58, virtual false, abstract: false, final false
   static inline int32_t GetCurrentShelfIndex();
 
-  /// @brief Method SetCurrentShelf, addr 0x21d0984, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetCurrentShelf, addr 0x2266268, size 0x5c, virtual false, abstract: false, final false
   static inline void SetCurrentShelf(int32_t index);
 
-  /// @brief Method GetShelf, addr 0x21d09e0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetShelf, addr 0x22662c4, size 0xcc, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::HEU_Shelf* GetShelf(int32_t index);
 
-  /// @brief Method GetShelf, addr 0x21d0aac, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method GetShelf, addr 0x2266390, size 0x1b8, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::HEU_Shelf* GetShelf(::StringW shelfName);
 
-  /// @brief Method GetShelfStorageEntry, addr 0x21d0c64, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetShelfStorageEntry, addr 0x2266548, size 0x5c, virtual false, abstract: false, final false
   static inline ::StringW GetShelfStorageEntry(::StringW shelfName, ::StringW shelfPath);
 
-  /// @brief Method GetSplitShelfEntry, addr 0x21d0cc0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetSplitShelfEntry, addr 0x22665a4, size 0xd0, virtual false, abstract: false, final false
   static inline void GetSplitShelfEntry(::StringW shelfEntry, ByRef<::StringW> shelfName, ByRef<::StringW> shelfPath);
 
-  /// @brief Method LoadShelves, addr 0x21d0d90, size 0x748, virtual false, abstract: false, final false
+  /// @brief Method LoadShelves, addr 0x2266674, size 0x748, virtual false, abstract: false, final false
   static inline void LoadShelves();
 
-  /// @brief Method LoadToolsFromDirectory, addr 0x21d15e0, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method LoadToolsFromDirectory, addr 0x2266ec4, size 0x2ac, virtual false, abstract: false, final false
   static inline bool LoadToolsFromDirectory(::StringW folderPath, ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ShelfToolData*>*> tools);
 
-  /// @brief Method LoadToolFromJsonFile, addr 0x21d1b18, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method LoadToolFromJsonFile, addr 0x22673fc, size 0x1cc, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::HEU_ShelfToolData* LoadToolFromJsonFile(::StringW jsonFilePath);
 
-  /// @brief Method LoadToolFromJsonString, addr 0x21d1ce0, size 0x990, virtual false, abstract: false, final false
+  /// @brief Method LoadToolFromJsonString, addr 0x22675c8, size 0x990, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::HEU_ShelfToolData* LoadToolFromJsonString(::StringW json, ::StringW jsonFilePath);
 
-  /// @brief Method AddShelf, addr 0x21d14d8, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method AddShelf, addr 0x2266dbc, size 0x108, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::HEU_Shelf* AddShelf(::StringW shelfName, ::StringW shelfPath);
 
-  /// @brief Method RemoveShelf, addr 0x21d2978, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method RemoveShelf, addr 0x2268260, size 0x144, virtual false, abstract: false, final false
   static inline void RemoveShelf(int32_t shelfIndex);
 
-  /// @brief Method SaveShelf, addr 0x21d188c, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method SaveShelf, addr 0x2267170, size 0x28c, virtual false, abstract: false, final false
   static inline void SaveShelf();
 
-  /// @brief Method ExecuteTool, addr 0x21d2abc, size 0x384, virtual false, abstract: false, final false
+  /// @brief Method ExecuteTool, addr 0x22683a4, size 0x384, virtual false, abstract: false, final false
   static inline void ExecuteTool(int32_t toolSlot);
 
-  /// @brief Method ExecuteToolGenerator, addr 0x21d2e40, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method ExecuteToolGenerator, addr 0x2268728, size 0x210, virtual false, abstract: false, final false
   static inline void ExecuteToolGenerator(::StringW toolName, ::StringW toolPath, ::UnityEngine::Vector3 targetPosition, ::UnityEngine::Quaternion targetRotation, ::UnityEngine::Vector3 targetScale);
 
-  /// @brief Method IsValidInput, addr 0x21d3d50, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method IsValidInput, addr 0x2269638, size 0xfc, virtual false, abstract: false, final false
   static inline bool IsValidInput(::UnityEngine::GameObject* gameObject);
 
-  /// @brief Method ExecuteToolNoInput, addr 0x21d3050, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method ExecuteToolNoInput, addr 0x2268938, size 0x1b8, virtual false, abstract: false, final false
   static inline void ExecuteToolNoInput(::StringW toolName, ::StringW toolPath);
 
-  /// @brief Method ExecuteToolOperatorSingle, addr 0x21d3208, size 0x5fc, virtual false, abstract: false, final false
+  /// @brief Method ExecuteToolOperatorSingle, addr 0x2268af0, size 0x5fc, virtual false, abstract: false, final false
   static inline void ExecuteToolOperatorSingle(::StringW toolName, ::StringW toolPath, ::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*> inputObjects);
 
-  /// @brief Method ExecuteToolOperatorMultiple, addr 0x21d3804, size 0x4e0, virtual false, abstract: false, final false
+  /// @brief Method ExecuteToolOperatorMultiple, addr 0x22690ec, size 0x4e0, virtual false, abstract: false, final false
   static inline void ExecuteToolOperatorMultiple(::StringW toolName, ::StringW toolPath, ::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*> inputObjects);
 
-  /// @brief Method ExecuteToolBatch, addr 0x21d3ce4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method ExecuteToolBatch, addr 0x22695cc, size 0x6c, virtual false, abstract: false, final false
   static inline void ExecuteToolBatch(::StringW toolName, ::StringW toolPath, ::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*> batchObjects);
 
-  /// @brief Method GetToolResourcePath, addr 0x21d3e4c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method GetToolResourcePath, addr 0x2269734, size 0xe0, virtual false, abstract: false, final false
   static inline ::StringW GetToolResourcePath(::HoudiniEngineUnity::HEU_ShelfToolData* tool, ::StringW inPath, ::StringW ext);
 
-  /// @brief Method GetToolIconPath, addr 0x21d2824, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method GetToolIconPath, addr 0x226810c, size 0x154, virtual false, abstract: false, final false
   static inline ::StringW GetToolIconPath(::HoudiniEngineUnity::HEU_ShelfToolData* tool, ::StringW inPath);
 
-  /// @brief Method GetToolAssetPath, addr 0x21d26c8, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method GetToolAssetPath, addr 0x2267fb0, size 0x15c, virtual false, abstract: false, final false
   static inline ::StringW GetToolAssetPath(::HoudiniEngineUnity::HEU_ShelfToolData* tool, ::StringW inPath);
 
   static inline ::HoudiniEngineUnity::HEU_ShelfTools* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21d3f2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2269814, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_ShelfTools", modifiers: "&&", def_value: None }]

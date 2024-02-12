@@ -35,12 +35,12 @@ MARK_VAL_T(::GlobalNamespace::__BeatmapObjectAvoidanceYOffsetEvaluator__BufferDa
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3959))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15000))
 // CS Name: ::BeatmapObjectAvoidanceYOffsetEvaluator::BufferData
 struct CORDL_TYPE __BeatmapObjectAvoidanceYOffsetEvaluator__BufferData {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x2217808, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe2925c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(float_t songTime, float_t yOffset);
 
   // Ctor Parameters [CppParam { name: "songTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "yOffset", ty: "float_t", modifiers: "", def_value: None }]
@@ -74,7 +74,7 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapObjectAvoidanceYOffsetEvaluat
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3960))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15001))
 // CS Name: ::BeatmapObjectAvoidanceYOffsetEvaluator*
 class CORDL_TYPE BeatmapObjectAvoidanceYOffsetEvaluator : public ::System::Object {
 public:
@@ -136,14 +136,14 @@ public:
                                                                                     ::GlobalNamespace::IBeatmapObjectSpawnController* beatmapObjectSpawnController, float_t moveToPlayerHeadTParam,
                                                                                     ::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData noteSpawnData);
 
-  /// @brief Method .ctor, addr 0x22176b4, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe29108, size 0x154, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IAudioTimeSource* audioTimeSource, ::GlobalNamespace::IBeatmapObjectSpawnController* beatmapObjectSpawnController, float_t moveToPlayerHeadTParam,
                     ::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData noteSpawnData);
 
-  /// @brief Method ManualUpdate, addr 0x2217810, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0xe29264, size 0x178, virtual false, abstract: false, final false
   inline void ManualUpdate();
 
-  /// @brief Method GetJumpOffsetYAtJumpStartSongTime, addr 0x2217988, size 0x310, virtual false, abstract: false, final false
+  /// @brief Method GetJumpOffsetYAtJumpStartSongTime, addr 0xe293dc, size 0x310, virtual false, abstract: false, final false
   inline float_t GetJumpOffsetYAtJumpStartSongTime(float_t lastDeltaTime);
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectAvoidanceYOffsetEvaluator", modifiers: "&&", def_value: None }]

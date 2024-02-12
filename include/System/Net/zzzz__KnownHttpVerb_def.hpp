@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::System::Net::KnownHttpVerb);
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9079))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7089))
 // CS Name: ::System.Net::KnownHttpVerb*
 class CORDL_TYPE KnownHttpVerb : public ::System::Object {
 public:
@@ -120,10 +120,10 @@ public:
 
   static inline ::System::Net::KnownHttpVerb* New_ctor(::StringW name, bool requireContentBody, bool contentBodyNotAllowed, bool connectRequest, bool expectNoContentResponse);
 
-  /// @brief Method .ctor, addr 0x299e5c0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29a3064, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, bool requireContentBody, bool contentBodyNotAllowed, bool connectRequest, bool expectNoContentResponse);
 
-  /// @brief Method Parse, addr 0x299e930, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x29a33d4, size 0xc8, virtual false, abstract: false, final false
   static inline ::System::Net::KnownHttpVerb* Parse(::StringW name);
 
   // Ctor Parameters [CppParam { name: "", ty: "KnownHttpVerb", modifiers: "&&", def_value: None }]

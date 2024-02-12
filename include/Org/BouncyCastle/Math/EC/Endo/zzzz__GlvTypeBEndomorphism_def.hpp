@@ -75,16 +75,16 @@ public:
 
   static inline ::Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism* New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters* parameters);
 
-  /// @brief Method .ctor, addr 0x1035560, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10623f0, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters* parameters);
 
-  /// @brief Method DecomposeScalar, addr 0x1035618, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method DecomposeScalar, addr 0x10624a8, size 0x7c, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> DecomposeScalar(::Org::BouncyCastle::Math::BigInteger* k);
 
-  /// @brief Method get_PointMap, addr 0x1035694, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_PointMap, addr 0x1062524, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPointMap* get_PointMap();
 
-  /// @brief Method get_HasEfficientPointMap, addr 0x103569c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_HasEfficientPointMap, addr 0x106252c, size 0x8, virtual true, abstract: false, final false
   inline bool get_HasEfficientPointMap();
 
   // Ctor Parameters [CppParam { name: "", ty: "GlvTypeBEndomorphism", modifiers: "&&", def_value: None }]

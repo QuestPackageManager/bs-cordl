@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::Mono::Security::Authenticode::AuthenticodeBase);
 namespace Mono::Security::Authenticode {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13801))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13754))
 // CS Name: ::Mono.Security.Authenticode::AuthenticodeBase*
 class CORDL_TYPE AuthenticodeBase : public ::System::Object {
 public:
@@ -114,31 +114,31 @@ public:
 
   static inline ::Mono::Security::Authenticode::AuthenticodeBase* New_ctor();
 
-  /// @brief Method .ctor, addr 0x240a3f0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x242a250, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_PEOffset, addr 0x240a44c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_PEOffset, addr 0x242a2ac, size 0x28, virtual false, abstract: false, final false
   inline int32_t get_PEOffset();
 
-  /// @brief Method Open, addr 0x240a54c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x242a3ac, size 0x94, virtual false, abstract: false, final false
   inline void Open(::StringW filename);
 
-  /// @brief Method Open, addr 0x240a60c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x242a46c, size 0x8c, virtual false, abstract: false, final false
   inline void Open(::ArrayW<uint8_t, ::Array<uint8_t>*> rawdata);
 
-  /// @brief Method Close, addr 0x240a5e0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Close, addr 0x242a440, size 0x2c, virtual false, abstract: false, final false
   inline void Close();
 
-  /// @brief Method ReadFirstBlock, addr 0x240a474, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method ReadFirstBlock, addr 0x242a2d4, size 0xd8, virtual false, abstract: false, final false
   inline void ReadFirstBlock();
 
-  /// @brief Method ProcessFirstBlock, addr 0x240a698, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method ProcessFirstBlock, addr 0x242a4f8, size 0x240, virtual false, abstract: false, final false
   inline int32_t ProcessFirstBlock();
 
-  /// @brief Method GetSecurityEntry, addr 0x240a8d8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetSecurityEntry, addr 0x242a738, size 0xd0, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSecurityEntry();
 
-  /// @brief Method GetHash, addr 0x240a9a8, size 0x488, virtual false, abstract: false, final false
+  /// @brief Method GetHash, addr 0x242a808, size 0x488, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetHash(::System::Security::Cryptography::HashAlgorithm* hash);
 
   // Ctor Parameters [CppParam { name: "", ty: "AuthenticodeBase", modifiers: "&&", def_value: None }]

@@ -39,18 +39,18 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::ModDetectionCodePacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor, addr 0x11cf1e0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11fd070, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
   static inline ::Org::BouncyCastle::Bcpg::ModDetectionCodePacket* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> digest);
 
-  /// @brief Method .ctor, addr 0x11d1d2c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11ffbbc, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> digest);
 
-  /// @brief Method GetDigest, addr 0x11d1e2c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetDigest, addr 0x11ffcbc, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetDigest();
 
-  /// @brief Method Encode, addr 0x11d1ea4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x11ffd34, size 0x28, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
   // Ctor Parameters [CppParam { name: "", ty: "ModDetectionCodePacket", modifiers: "&&", def_value: None }]

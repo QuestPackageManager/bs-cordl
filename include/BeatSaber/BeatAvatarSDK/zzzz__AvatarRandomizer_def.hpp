@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::BeatSaber::BeatAvatarSDK::AvatarRandomizer);
 namespace BeatSaber::BeatAvatarSDK {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15689))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15790))
 // CS Name: ::BeatSaber.BeatAvatarSDK::AvatarRandomizer*
 class CORDL_TYPE AvatarRandomizer : public ::System::Object {
 public:
@@ -39,13 +39,13 @@ public:
 
   static inline ::ArrayW<::BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap*, ::Array<::BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap*>*> getStaticF__randomizeColorsParamsCollection();
 
-  /// @brief Method RandomizeAll, addr 0xe19dc8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method RandomizeAll, addr 0xe25c20, size 0x6c, virtual false, abstract: false, final false
   static inline void RandomizeAll(::BeatSaber::BeatAvatarSDK::AvatarData* avatarData, ::BeatSaber::BeatAvatarSDK::AvatarPartsModel* avatarPartsModel);
 
-  /// @brief Method RandomizeModels, addr 0xe1abc0, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method RandomizeModels, addr 0xe2720c, size 0x15c, virtual false, abstract: false, final false
   static inline void RandomizeModels(::BeatSaber::BeatAvatarSDK::AvatarData* avatarData, ::BeatSaber::BeatAvatarSDK::AvatarPartsModel* avatarPartsModel);
 
-  /// @brief Method RandomizeColors, addr 0xe1ad1c, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method RandomizeColors, addr 0xe27368, size 0x29c, virtual false, abstract: false, final false
   static inline void RandomizeColors(::BeatSaber::BeatAvatarSDK::AvatarData* avatarData);
 
   // Ctor Parameters [CppParam { name: "", ty: "AvatarRandomizer", modifiers: "&&", def_value: None }]

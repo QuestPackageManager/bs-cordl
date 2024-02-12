@@ -90,31 +90,31 @@ public:
                                                                                 ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyEncryptionAlgorithm,
                                                                                 ::Org::BouncyCastle::Asn1::Asn1OctetString* encryptedKey);
 
-  /// @brief Method .ctor, addr 0xe79ea0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xea4d30, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::RecipientIdentifier* rid, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyEncryptionAlgorithm,
                     ::Org::BouncyCastle::Asn1::Asn1OctetString* encryptedKey);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xe79f94, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xea4e24, size 0x188, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance, addr 0xe7a34c, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xea51dc, size 0x178, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo* GetInstance(::System::Object* obj);
 
-  /// @brief Method get_Version, addr 0xe7a4c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0xea5354, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
-  /// @brief Method get_RecipientIdentifier, addr 0xe7a4cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RecipientIdentifier, addr 0xea535c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::RecipientIdentifier* get_RecipientIdentifier();
 
-  /// @brief Method get_KeyEncryptionAlgorithm, addr 0xe7a4d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KeyEncryptionAlgorithm, addr 0xea5364, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_KeyEncryptionAlgorithm();
 
-  /// @brief Method get_EncryptedKey, addr 0xe7a4dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EncryptedKey, addr 0xea536c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_EncryptedKey();
 
-  /// @brief Method ToAsn1Object, addr 0xe7a4e4, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xea5374, size 0x148, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "KeyTransRecipientInfo", modifiers: "&&", def_value: None }]

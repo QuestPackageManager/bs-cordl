@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::System::Xml::__NameTable__Entry);
 namespace System::Xml {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11533))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11431))
 // CS Name: ::NameTable::Entry*
 class CORDL_TYPE __NameTable__Entry : public ::System::Object {
 public:
@@ -60,7 +60,7 @@ public:
 
   static inline ::System::Xml::__NameTable__Entry* New_ctor(::StringW str, int32_t hashCode, ::System::Xml::__NameTable__Entry* next);
 
-  /// @brief Method .ctor, addr 0x28929e8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2896050, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::StringW str, int32_t hashCode, ::System::Xml::__NameTable__Entry* next);
 
   // Ctor Parameters [CppParam { name: "", ty: "__NameTable__Entry", modifiers: "&&", def_value: None }]
@@ -102,8 +102,8 @@ static_assert(offsetof(::System::Xml::__NameTable__Entry, ___next) == 0x20, "Off
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11568))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11534))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11466))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11432))
 // CS Name: ::System.Xml::NameTable*
 class CORDL_TYPE NameTable : public ::System::Xml::XmlNameTable {
 public:
@@ -148,25 +148,25 @@ public:
 
   static inline ::System::Xml::NameTable* New_ctor();
 
-  /// @brief Method .ctor, addr 0x288a298, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x288d900, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Add, addr 0x28923d4, size 0x17c, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x2895a3c, size 0x17c, virtual true, abstract: false, final false
   inline ::StringW Add(::StringW key);
 
-  /// @brief Method Add, addr 0x2892658, size 0x178, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x2895cc0, size 0x178, virtual true, abstract: false, final false
   inline ::StringW Add(::ArrayW<char16_t, ::Array<char16_t>*> key, int32_t start, int32_t len);
 
-  /// @brief Method Get, addr 0x2892880, size 0x168, virtual true, abstract: false, final false
+  /// @brief Method Get, addr 0x2895ee8, size 0x168, virtual true, abstract: false, final false
   inline ::StringW Get(::StringW value);
 
-  /// @brief Method AddEntry, addr 0x2892550, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method AddEntry, addr 0x2895bb8, size 0x108, virtual false, abstract: false, final false
   inline ::StringW AddEntry(::StringW str, int32_t hashCode);
 
-  /// @brief Method Grow, addr 0x2892a28, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method Grow, addr 0x2896090, size 0x124, virtual false, abstract: false, final false
   inline void Grow();
 
-  /// @brief Method TextEquals, addr 0x28927d0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method TextEquals, addr 0x2895e38, size 0xb0, virtual false, abstract: false, final false
   static inline bool TextEquals(::StringW str1, ::ArrayW<char16_t, ::Array<char16_t>*> str2, int32_t str2Start, int32_t str2Length);
 
   // Ctor Parameters [CppParam { name: "", ty: "NameTable", modifiers: "&&", def_value: None }]

@@ -24,7 +24,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::IUxmlAttributes*, ::UnityEngine::UIElements::CreationContext)>(
     &::UnityEngine::UIElements::__DropdownField__UxmlTraits::Init)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x2e288e4;
+  constexpr static std::size_t addrs = 0x2e44ccc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__DropdownField__UxmlTraits::*)()>(
     &::UnityEngine::UIElements::__DropdownField__UxmlTraits::_ctor)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x2e28a60;
+  constexpr static std::size_t addrs = 0x2e44e48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__DropdownField__UxmlTraits*>::get(),
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::TextElement* (::UnityEngine::UIElements::DropdownField::*)()>(
     &::UnityEngine::UIElements::DropdownField::get_textElement)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2e27618;
+  constexpr static std::size_t addrs = 0x2e43a00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DropdownField*>::get(),
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::DropdownField::*)()>(
     &::UnityEngine::UIElements::DropdownField::GetValueToDisplay)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x2e27620;
+  constexpr static std::size_t addrs = 0x2e43a08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DropdownField*>::get(),
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::DropdownField::*)(::StringW)>(
     &::UnityEngine::UIElements::DropdownField::GetListItemToDisplay)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x2e276ac;
+  constexpr static std::size_t addrs = 0x2e43a94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DropdownField::*)(int32_t)>(&::UnityEngine::UIElements::DropdownField::set_index)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2e27758;
+  constexpr static std::size_t addrs = 0x2e43b40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -153,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DropdownField::*)()>(&::UnityEngine::UIElements::DropdownField::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2e277f4;
+  constexpr static std::size_t addrs = 0x2e43bdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DropdownField*>::get(), ".ctor",
@@ -166,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DropdownField::*)(::StringW)>(&::UnityEngine::UIElements::DropdownField::_ctor)> {
   constexpr static std::size_t size = 0x2b8;
-  constexpr static std::size_t addrs = 0x2e277fc;
+  constexpr static std::size_t addrs = 0x2e43be4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -181,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DropdownField::*)(::UnityEngine::UIElements::IGenericMenu*)>(
     &::UnityEngine::UIElements::DropdownField::AddMenuItems)> {
   constexpr static std::size_t size = 0x308;
-  constexpr static std::size_t addrs = 0x2e27b0c;
+  constexpr static std::size_t addrs = 0x2e43ef4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -196,7 +196,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DropdownField::*)(::StringW)>(
     &::UnityEngine::UIElements::DropdownField::ChangeValueFromMenu)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2e27e1c;
+  constexpr static std::size_t addrs = 0x2e44204;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -211,7 +211,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DropdownField::*)(::System::Collections::Generic::List_1<::StringW>*)>(
     &::UnityEngine::UIElements::DropdownField::set_choices)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x2e27e2c;
+  constexpr static std::size_t addrs = 0x2e44214;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -225,7 +225,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::DropdownField::*)()>(&::UnityEngine::UIElements::DropdownField::get_value)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2e27e9c;
+  constexpr static std::size_t addrs = 0x2e44284;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -240,7 +240,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DropdownField::*)(::StringW)>(
     &::UnityEngine::UIElements::DropdownField::set_value)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x2e27ee4;
+  constexpr static std::size_t addrs = 0x2e442cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -255,7 +255,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DropdownField::*)(::StringW)>(
     &::UnityEngine::UIElements::DropdownField::SetValueWithoutNotify)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x2e27f68;
+  constexpr static std::size_t addrs = 0x2e44350;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -270,7 +270,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DropdownField::*)(::UnityEngine::UIElements::EventBase*)>(
     &::UnityEngine::UIElements::DropdownField::ExecuteDefaultActionAtTarget)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x2e28078;
+  constexpr static std::size_t addrs = 0x2e44460;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -284,7 +284,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DropdownField::*)()>(&::UnityEngine::UIElements::DropdownField::ShowMenu)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x2e281f8;
+  constexpr static std::size_t addrs = 0x2e445e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DropdownField*>::get(), "ShowMenu",
@@ -298,7 +298,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DropdownField::*)()>(
     &::UnityEngine::UIElements::DropdownField::UpdateMixedValueContent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x2e2864c;
+  constexpr static std::size_t addrs = 0x2e44a34;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -542,7 +542,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__DropdownField__UxmlFactory::*)()>(
     &::UnityEngine::UIElements::__DropdownField__UxmlFactory::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2e2889c;
+  constexpr static std::size_t addrs = 0x2e44c84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__DropdownField__UxmlFactory*>::get(),
@@ -567,7 +567,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     float_t, ::UnityEngine::UIElements::__VisualElement__MeasureMode, float_t, ::UnityEngine::UIElements::__VisualElement__MeasureMode)>(
     &::UnityEngine::UIElements::__DropdownField__PopupTextElement::DoMeasure)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x2e28b4c;
+  constexpr static std::size_t addrs = 0x2e44f34;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -583,7 +583,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__DropdownField__PopupTextElement::*)()>(
     &::UnityEngine::UIElements::__DropdownField__PopupTextElement::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2e27ab4;
+  constexpr static std::size_t addrs = 0x2e43e9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -616,7 +616,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__DropdownField____c__DisplayClass38_0::*)()>(
     &::UnityEngine::UIElements::__DropdownField____c__DisplayClass38_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2e27e14;
+  constexpr static std::size_t addrs = 0x2e441fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -631,7 +631,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__DropdownField____c__DisplayClass38_0::*)()>(
     &::UnityEngine::UIElements::__DropdownField____c__DisplayClass38_0::_AddMenuItems_b__0)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2e28bf0;
+  constexpr static std::size_t addrs = 0x2e44fd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

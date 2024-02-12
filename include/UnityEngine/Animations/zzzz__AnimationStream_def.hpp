@@ -17,7 +17,7 @@ MARK_VAL_T(::UnityEngine::Animations::AnimationStream);
 namespace UnityEngine::Animations {
 // Is value type: true
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14900))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14773))
 // CS Name: ::UnityEngine.Animations::AnimationStream
 struct CORDL_TYPE AnimationStream {
 public:

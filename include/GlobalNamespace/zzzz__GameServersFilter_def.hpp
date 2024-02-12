@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::GlobalNamespace::GameServersFilter);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 59, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14719)), TypeDefinitionIndex(TypeDefinitionIndex(14997)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15047))] Self: TypeDefinitionIndex(TypeDefinitionIndex(5572)) CS Name: ::GameServersFilter*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14870)), TypeDefinitionIndex(TypeDefinitionIndex(14920)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15103))] Self: TypeDefinitionIndex(TypeDefinitionIndex(4877)) CS Name: ::GameServersFilter*
 class CORDL_TYPE GameServersFilter : public ::System::Object {
 public:
   // Declarations
@@ -105,7 +105,7 @@ public:
 
   static inline ::GlobalNamespace::GameServersFilter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22a5690, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22d8c38, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GameServersFilter", modifiers: "&&", def_value: None }]

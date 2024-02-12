@@ -16,7 +16,7 @@ MARK_VAL_T(::Newtonsoft::Json::Utilities::PrimitiveTypeCode);
 namespace Newtonsoft::Json::Utilities {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11870))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11768))
 // CS Name: ::Newtonsoft.Json.Utilities::PrimitiveTypeCode
 struct CORDL_TYPE PrimitiveTypeCode {
 public:

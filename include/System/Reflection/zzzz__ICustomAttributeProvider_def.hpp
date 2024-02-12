@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::System::Reflection::ICustomAttributeProvider);
 namespace System::Reflection {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3471))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3467))
 // CS Name: ::System.Reflection::ICustomAttributeProvider*
 class CORDL_TYPE ICustomAttributeProvider {
 public:

@@ -80,16 +80,16 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::__CmsAuthEnvelopedData__AuthEnvelopedSecureReadable* New_ctor(::Org::BouncyCastle::Cms::CmsAuthEnvelopedData* parent);
 
-  /// @brief Method .ctor, addr 0x11dc4b0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x120a340, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Cms::CmsAuthEnvelopedData* parent);
 
-  /// @brief Method get_Algorithm, addr 0x11dc4d8, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_Algorithm, addr 0x120a368, size 0x1c, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_Algorithm();
 
-  /// @brief Method get_CryptoObject, addr 0x11dc4f4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_CryptoObject, addr 0x120a384, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* get_CryptoObject();
 
-  /// @brief Method GetReadable, addr 0x11dc4fc, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method GetReadable, addr 0x120a38c, size 0x4c, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Cms::CmsReadable* GetReadable(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* key);
 
   // Ctor Parameters [CppParam { name: "", ty: "__CmsAuthEnvelopedData__AuthEnvelopedSecureReadable", modifiers: "&&", def_value: None }]
@@ -194,17 +194,17 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::CmsAuthEnvelopedData* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> authEnvData);
 
-  /// @brief Method .ctor, addr 0x11dc358, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x120a1e8, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> authEnvData);
 
   static inline ::Org::BouncyCastle::Cms::CmsAuthEnvelopedData* New_ctor(::System::IO::Stream* authEnvData);
 
-  /// @brief Method .ctor, addr 0x11dc48c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x120a31c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* authEnvData);
 
   static inline ::Org::BouncyCastle::Cms::CmsAuthEnvelopedData* New_ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* contentInfo);
 
-  /// @brief Method .ctor, addr 0x11dc37c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x120a20c, size 0x110, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* contentInfo);
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsAuthEnvelopedData", modifiers: "&&", def_value: None }]

@@ -45,7 +45,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__MenuSceneSetup___Start_d__3);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6036))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5311))
 // CS Name: ::MenuSceneSetup::<Start>d__3*
 class CORDL_TYPE __MenuSceneSetup___Start_d__3 : public ::System::Object {
 public:
@@ -101,22 +101,22 @@ public:
 
   static inline ::GlobalNamespace::__MenuSceneSetup___Start_d__3* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor, addr 0x231af84, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2346c88, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x231afb4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x2346cb8, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext, addr 0x231afb8, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2346cbc, size 0x94, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x231b04c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2346d50, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x231b054, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2346d58, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x231b094, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2346d98, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MenuSceneSetup___Start_d__3", modifiers: "&&", def_value: None }]
@@ -158,8 +158,8 @@ static_assert(offsetof(::GlobalNamespace::__MenuSceneSetup___Start_d__3, _____4_
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6037))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5312))
 // CS Name: ::MenuSceneSetup*
 class CORDL_TYPE MenuSceneSetup : public ::UnityEngine::MonoBehaviour {
 public:
@@ -193,12 +193,12 @@ public:
 
   constexpr void __cordl_internal_set__hierarchyManager(::UnityW<::HMUI::HierarchyManager> value);
 
-  /// @brief Method Start, addr 0x231af1c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2346c20, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Start();
 
   static inline ::GlobalNamespace::MenuSceneSetup* New_ctor();
 
-  /// @brief Method .ctor, addr 0x231afac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2346cb0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuSceneSetup", modifiers: "&&", def_value: None }]

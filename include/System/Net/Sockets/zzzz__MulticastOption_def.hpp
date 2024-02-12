@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::System::Net::Sockets::MulticastOption);
 namespace System::Net::Sockets {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9342))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7352))
 // CS Name: ::System.Net.Sockets::MulticastOption*
 class CORDL_TYPE MulticastOption : public ::System::Object {
 public:

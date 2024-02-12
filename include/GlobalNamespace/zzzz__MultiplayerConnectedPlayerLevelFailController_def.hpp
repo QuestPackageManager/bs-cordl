@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController)
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5126))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4464))
 // CS Name: ::MultiplayerConnectedPlayerLevelFailController*
 class CORDL_TYPE MultiplayerConnectedPlayerLevelFailController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -90,30 +90,30 @@ public:
 
   constexpr void __cordl_internal_set__wasActive(bool value);
 
-  /// @brief Method add_playerDidFailEvent, addr 0x23d5680, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_playerDidFailEvent, addr 0x238f484, size 0x9c, virtual false, abstract: false, final false
   inline void add_playerDidFailEvent(::System::Action* value);
 
-  /// @brief Method remove_playerDidFailEvent, addr 0x23d519c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_playerDidFailEvent, addr 0x238efa8, size 0x9c, virtual false, abstract: false, final false
   inline void remove_playerDidFailEvent(::System::Action* value);
 
-  /// @brief Method Start, addr 0x23d6500, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x23900b8, size 0x1a8, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy, addr 0x23d66a8, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2390260, size 0x1a4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method CheckIfPlayerFailed, addr 0x23d684c, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method CheckIfPlayerFailed, addr 0x2390404, size 0x1ec, virtual false, abstract: false, final false
   inline void CheckIfPlayerFailed(::GlobalNamespace::IConnectedPlayer* player);
 
-  /// @brief Method HandlePlayerDisconnected, addr 0x23d6a38, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerDisconnected, addr 0x23905f0, size 0x4, virtual false, abstract: false, final false
   inline void HandlePlayerDisconnected(::GlobalNamespace::IConnectedPlayer* player);
 
-  /// @brief Method HandlePlayerStateChanged, addr 0x23d6a3c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerStateChanged, addr 0x23905f4, size 0x4, virtual false, abstract: false, final false
   inline void HandlePlayerStateChanged(::GlobalNamespace::IConnectedPlayer* player);
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23d6a40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23905f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerLevelFailController", modifiers: "&&", def_value: None }]

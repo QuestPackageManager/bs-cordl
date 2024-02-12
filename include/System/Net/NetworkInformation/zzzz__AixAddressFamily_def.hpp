@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::NetworkInformation::AixAddressFamily);
 namespace System::Net::NetworkInformation {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9263))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7273))
 // CS Name: ::System.Net.NetworkInformation::AixAddressFamily
 struct CORDL_TYPE AixAddressFamily {
 public:

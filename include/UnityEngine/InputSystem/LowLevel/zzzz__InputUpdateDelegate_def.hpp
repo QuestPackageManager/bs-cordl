@@ -32,24 +32,24 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate);
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6548))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5807))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::InputUpdateDelegate*
 class CORDL_TYPE InputUpdateDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2af0a28, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2af2594, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x2af0aec, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2af2658, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngine::InputSystem::LowLevel::InputUpdateType updateType, ByRef<::UnityEngine::InputSystem::LowLevel::InputEventBuffer> eventBuffer);
 
-  /// @brief Method BeginInvoke, addr 0x2af0b00, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2af266c, size 0xb8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::UnityEngine::InputSystem::LowLevel::InputUpdateType updateType, ByRef<::UnityEngine::InputSystem::LowLevel::InputEventBuffer> eventBuffer,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2af0bb8, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2af2724, size 0x1c, virtual true, abstract: false, final false
   inline void EndInvoke(ByRef<::UnityEngine::InputSystem::LowLevel::InputEventBuffer> eventBuffer, ::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "InputUpdateDelegate", modifiers: "&&", def_value: None }]

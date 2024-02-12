@@ -15,12 +15,12 @@ MARK_REF_PTR_T(::Unity::XR::Oculus::InputLayoutLoader);
 namespace Unity::XR::Oculus {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15131))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15171))
 // CS Name: ::Unity.XR.Oculus::InputLayoutLoader*
 class CORDL_TYPE InputLayoutLoader : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method RegisterInputLayouts, addr 0x2c7780c, size 0x358, virtual false, abstract: false, final false
+  /// @brief Method RegisterInputLayouts, addr 0x2c74378, size 0x358, virtual false, abstract: false, final false
   static inline void RegisterInputLayouts();
 
   // Ctor Parameters [CppParam { name: "", ty: "InputLayoutLoader", modifiers: "&&", def_value: None }]

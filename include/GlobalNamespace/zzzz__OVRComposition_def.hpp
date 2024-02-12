@@ -4,6 +4,7 @@
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__OVRPose_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include <cmath>
 CORDL_MODULE_EXPORT(OVRComposition)
 namespace GlobalNamespace {
 class OVRCameraRig;
@@ -39,8 +40,8 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRComposition);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7535))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7504))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7615))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7600))
 // CS Name: ::OVRComposition*
 class CORDL_TYPE OVRComposition : public ::System::Object {
 public:
@@ -84,7 +85,7 @@ public:
   static inline ::GlobalNamespace::OVRComposition* New_ctor(::UnityEngine::GameObject* parentObject, ::UnityEngine::Camera* mainCamera,
                                                             ::GlobalNamespace::OVRMixedRealityCaptureConfiguration* configuration);
 
-  /// @brief Method .ctor, addr 0x270ca9c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x273ef04, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::GameObject* parentObject, ::UnityEngine::Camera* mainCamera, ::GlobalNamespace::OVRMixedRealityCaptureConfiguration* configuration);
 
   /// @brief Method CompositionMethod, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -92,21 +93,21 @@ public:
 
   /// @brief Method Update, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Update(::UnityEngine::GameObject* gameObject, ::UnityEngine::Camera* mainCamera, ::GlobalNamespace::OVRMixedRealityCaptureConfiguration* configuration,
-                     ::GlobalNamespace::__OVRManager__TrackingOrigin trackingOrigin);
+                     ::GlobalNamespace::__OVRManager__TrackingOrigin trackingOrigin, float_t displayFrequency);
 
   /// @brief Method Cleanup, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Cleanup();
 
-  /// @brief Method RecenterPose, addr 0x270cc88, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method RecenterPose, addr 0x273f0f0, size 0x4, virtual true, abstract: false, final false
   inline void RecenterPose();
 
-  /// @brief Method RefreshCameraRig, addr 0x270cad0, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method RefreshCameraRig, addr 0x273ef38, size 0x1b8, virtual false, abstract: false, final false
   inline void RefreshCameraRig(::UnityEngine::GameObject* parentObject, ::UnityEngine::Camera* mainCamera);
 
-  /// @brief Method ComputeCameraWorldSpacePose, addr 0x270cc8c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ComputeCameraWorldSpacePose, addr 0x273f0f4, size 0x68, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRPose ComputeCameraWorldSpacePose(::GlobalNamespace::__OVRPlugin__CameraExtrinsics extrinsics, ::UnityEngine::Camera* mainCamera);
 
-  /// @brief Method ComputeCameraTrackingSpacePose, addr 0x270ccf4, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method ComputeCameraTrackingSpacePose, addr 0x273f15c, size 0x288, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRPose ComputeCameraTrackingSpacePose(::GlobalNamespace::__OVRPlugin__CameraExtrinsics extrinsics);
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRComposition", modifiers: "&&", def_value: None }]

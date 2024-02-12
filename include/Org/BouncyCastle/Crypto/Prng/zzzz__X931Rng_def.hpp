@@ -96,25 +96,25 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Prng::X931Rng* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* engine, ::ArrayW<uint8_t, ::Array<uint8_t>*> dateTimeVector,
                                                                      ::Org::BouncyCastle::Crypto::IEntropySource* entropySource);
 
-  /// @brief Method .ctor, addr 0xf45390, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf70220, size 0x1f8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher* engine, ::ArrayW<uint8_t, ::Array<uint8_t>*> dateTimeVector, ::Org::BouncyCastle::Crypto::IEntropySource* entropySource);
 
-  /// @brief Method Generate, addr 0xf45588, size 0x488, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0xf70418, size 0x488, virtual false, abstract: false, final false
   inline int32_t Generate(::ArrayW<uint8_t, ::Array<uint8_t>*> output, bool predictionResistant);
 
-  /// @brief Method Reseed, addr 0xf45ba0, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Reseed, addr 0xf70a30, size 0x18c, virtual false, abstract: false, final false
   inline void Reseed();
 
-  /// @brief Method get_EntropySource, addr 0xf45d2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EntropySource, addr 0xf70bbc, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::IEntropySource* get_EntropySource();
 
-  /// @brief Method Process, addr 0xf45a24, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method Process, addr 0xf708b4, size 0x134, virtual false, abstract: false, final false
   inline void Process(::ArrayW<uint8_t, ::Array<uint8_t>*> res, ::ArrayW<uint8_t, ::Array<uint8_t>*> a, ::ArrayW<uint8_t, ::Array<uint8_t>*> b);
 
-  /// @brief Method Increment, addr 0xf45b58, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Increment, addr 0xf709e8, size 0x48, virtual false, abstract: false, final false
   inline void Increment(::ArrayW<uint8_t, ::Array<uint8_t>*> val);
 
-  /// @brief Method IsTooLarge, addr 0xf45a10, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsTooLarge, addr 0xf708a0, size 0x14, virtual false, abstract: false, final false
   static inline bool IsTooLarge(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t maxBytes);
 
   // Ctor Parameters [CppParam { name: "", ty: "X931Rng", modifiers: "&&", def_value: None }]

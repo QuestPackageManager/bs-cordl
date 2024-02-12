@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MaterialPropertyBlockRandomValueSetter);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14570))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14465))
 // CS Name: ::MaterialPropertyBlockRandomValueSetter*
 class CORDL_TYPE MaterialPropertyBlockRandomValueSetter : public ::UnityEngine::MonoBehaviour {
 public:
@@ -85,21 +85,21 @@ public:
 
   constexpr void __cordl_internal_set__propertyId(int32_t value);
 
-  /// @brief Method Start, addr 0x211520c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x21a9ae8, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnValidate, addr 0x2115418, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x21a9cf4, size 0x24, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method RefreshPropertyId, addr 0x211543c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method RefreshPropertyId, addr 0x21a9d18, size 0x20, virtual false, abstract: false, final false
   inline void RefreshPropertyId();
 
-  /// @brief Method ApplyParams, addr 0x2115210, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method ApplyParams, addr 0x21a9aec, size 0x208, virtual false, abstract: false, final false
   inline void ApplyParams();
 
   static inline ::GlobalNamespace::MaterialPropertyBlockRandomValueSetter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x211545c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21a9d38, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockRandomValueSetter", modifiers: "&&", def_value: None }]

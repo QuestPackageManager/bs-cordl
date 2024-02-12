@@ -45,7 +45,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__ListLogger__LogMessage);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5878))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5168))
 // CS Name: ::ListLogger::LogType
 struct CORDL_TYPE __ListLogger__LogType {
 public:
@@ -102,8 +102,8 @@ static_assert(offsetof(::GlobalNamespace::__ListLogger__LogType, value__) == 0x0
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5878))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5879))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5168))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5169))
 // CS Name: ::ListLogger::LogMessage*
 class CORDL_TYPE __ListLogger__LogMessage : public ::System::Object {
 public:
@@ -137,10 +137,10 @@ public:
 
   static inline ::GlobalNamespace::__ListLogger__LogMessage* New_ctor(::GlobalNamespace::__ListLogger__LogType type, ::StringW message, ::System::Object* context);
 
-  /// @brief Method .ctor, addr 0x22f9a28, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2326394, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__ListLogger__LogType type, ::StringW message, ::System::Object* context);
 
-  /// @brief Method ToString, addr 0x22f9d74, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x23266e0, size 0x88, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ListLogger__LogMessage", modifiers: "&&", def_value: None }]
@@ -183,7 +183,7 @@ static_assert(offsetof(::GlobalNamespace::__ListLogger__LogMessage, ___context) 
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5880))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5170))
 // CS Name: ::ListLogger*
 class CORDL_TYPE ListLogger : public ::System::Object {
 public:
@@ -209,36 +209,36 @@ public:
 
   constexpr void __cordl_internal_set__messages(::System::Collections::Generic::List_1<::GlobalNamespace::__ListLogger__LogMessage*>* value);
 
-  /// @brief Method get_messages, addr 0x22f98a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_messages, addr 0x2326214, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::__ListLogger__LogMessage*>* get_messages();
 
   static inline ::GlobalNamespace::ListLogger* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22f98b0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x232621c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Log, addr 0x22f9930, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Log, addr 0x232629c, size 0x8, virtual true, abstract: false, final true
   inline void Log(::StringW message);
 
-  /// @brief Method Log, addr 0x22f9938, size 0xf0, virtual true, abstract: false, final true
+  /// @brief Method Log, addr 0x23262a4, size 0xf0, virtual true, abstract: false, final true
   inline void Log(::StringW message, ::System::Object* context);
 
-  /// @brief Method LogWarning, addr 0x22f9a64, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method LogWarning, addr 0x23263d0, size 0x8, virtual true, abstract: false, final true
   inline void LogWarning(::StringW message);
 
-  /// @brief Method LogWarning, addr 0x22f9a6c, size 0xf4, virtual true, abstract: false, final true
+  /// @brief Method LogWarning, addr 0x23263d8, size 0xf4, virtual true, abstract: false, final true
   inline void LogWarning(::StringW message, ::System::Object* context);
 
-  /// @brief Method LogError, addr 0x22f9b60, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method LogError, addr 0x23264cc, size 0x8, virtual true, abstract: false, final true
   inline void LogError(::StringW message);
 
-  /// @brief Method LogError, addr 0x22f9b68, size 0xf4, virtual true, abstract: false, final true
+  /// @brief Method LogError, addr 0x23264d4, size 0xf4, virtual true, abstract: false, final true
   inline void LogError(::StringW message, ::System::Object* context);
 
-  /// @brief Method LogException, addr 0x22f9c5c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method LogException, addr 0x23265c8, size 0x8, virtual true, abstract: false, final true
   inline void LogException(::System::Exception* exception);
 
-  /// @brief Method LogException, addr 0x22f9c64, size 0x110, virtual true, abstract: false, final true
+  /// @brief Method LogException, addr 0x23265d0, size 0x110, virtual true, abstract: false, final true
   inline void LogException(::System::Exception* exception, ::System::Object* context);
 
   // Ctor Parameters [CppParam { name: "", ty: "ListLogger", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::Oculus::Platform::ShareMediaStatus);
 namespace Oculus::Platform {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13387))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13319))
 // CS Name: ::Oculus.Platform::ShareMediaStatus
 struct CORDL_TYPE ShareMediaStatus {
 public:

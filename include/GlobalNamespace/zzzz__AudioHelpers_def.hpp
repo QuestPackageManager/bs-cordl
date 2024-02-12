@@ -16,15 +16,15 @@ MARK_REF_PTR_T(::GlobalNamespace::AudioHelpers);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15841))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15581))
 // CS Name: ::AudioHelpers*
 class CORDL_TYPE AudioHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method NormalizedVolumeToDB, addr 0xe265e4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method NormalizedVolumeToDB, addr 0xe4f9f8, size 0x74, virtual false, abstract: false, final false
   static inline float_t NormalizedVolumeToDB(float_t normalizedVolume);
 
-  /// @brief Method DBToNormalizedVolume, addr 0xe26658, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method DBToNormalizedVolume, addr 0xe4fa6c, size 0x18, virtual false, abstract: false, final false
   static inline float_t DBToNormalizedVolume(float_t db);
 
   // Ctor Parameters [CppParam { name: "", ty: "AudioHelpers", modifiers: "&&", def_value: None }]

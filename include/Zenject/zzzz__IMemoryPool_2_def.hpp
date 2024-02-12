@@ -22,7 +22,7 @@ namespace Zenject {
 template <typename TParam1, typename TValue>
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11030))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10172))
 // CS Name: ::Zenject::IMemoryPool`2<TParam1,TValue>*
 class CORDL_TYPE IMemoryPool_2 {
 public:

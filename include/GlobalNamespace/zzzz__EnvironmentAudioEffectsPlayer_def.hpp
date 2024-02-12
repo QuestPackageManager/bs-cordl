@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::EnvironmentAudioEffectsPlayer);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4062))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4008))
 // CS Name: ::EnvironmentAudioEffectsPlayer*
 class CORDL_TYPE EnvironmentAudioEffectsPlayer : public ::UnityEngine::MonoBehaviour {
 public:
@@ -38,15 +38,15 @@ public:
 
   constexpr void __cordl_internal_set__audioSource(::UnityW<::UnityEngine::AudioSource> value);
 
-  /// @brief Method get_audioSource, addr 0x222d348, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_audioSource, addr 0x22b6ff4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::AudioSource> get_audioSource();
 
-  /// @brief Method PlayEffect, addr 0x222d350, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method PlayEffect, addr 0x22b6ffc, size 0x64, virtual false, abstract: false, final false
   inline void PlayEffect(::UnityEngine::AudioClip* clip, float_t volume);
 
   static inline ::GlobalNamespace::EnvironmentAudioEffectsPlayer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x222d3b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b7060, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EnvironmentAudioEffectsPlayer", modifiers: "&&", def_value: None }]

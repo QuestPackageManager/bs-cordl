@@ -16,7 +16,7 @@ MARK_VAL_T(::Zenject::InjectSources);
 namespace Zenject {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15712))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15862))
 // CS Name: ::Zenject::InjectSources
 struct CORDL_TYPE InjectSources {
 public:

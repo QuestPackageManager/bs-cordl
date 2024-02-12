@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::BipedIKSolvers);
 namespace RootMotion::FinalIK {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12507))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12405))
 // CS Name: ::RootMotion.FinalIK::BipedIKSolvers*
 class CORDL_TYPE BipedIKSolvers : public ::System::Object {
 public:
@@ -136,18 +136,18 @@ public:
 
   constexpr void __cordl_internal_set__ikSolvers(::ArrayW<::RootMotion::FinalIK::IKSolver*, ::Array<::RootMotion::FinalIK::IKSolver*>*> value);
 
-  /// @brief Method get_limbs, addr 0x1241930, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method get_limbs, addr 0x12dc9e0, size 0x130, virtual false, abstract: false, final false
   inline ::ArrayW<::RootMotion::FinalIK::IKSolverLimb*, ::Array<::RootMotion::FinalIK::IKSolverLimb*>*> get_limbs();
 
-  /// @brief Method get_ikSolvers, addr 0x12424d0, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method get_ikSolvers, addr 0x12dd580, size 0x1b4, virtual false, abstract: false, final false
   inline ::ArrayW<::RootMotion::FinalIK::IKSolver*, ::Array<::RootMotion::FinalIK::IKSolver*>*> get_ikSolvers();
 
-  /// @brief Method AssignReferences, addr 0x1241cac, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method AssignReferences, addr 0x12dcd5c, size 0x120, virtual false, abstract: false, final false
   inline void AssignReferences(::RootMotion::BipedReferences* references);
 
   static inline ::RootMotion::FinalIK::BipedIKSolvers* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1242344, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12dd3f4, size 0x18c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BipedIKSolvers", modifiers: "&&", def_value: None }]

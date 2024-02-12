@@ -55,7 +55,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__GameplayModifiersPanelController____c__Displ
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5635))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4939))
 // CS Name: ::GameplayModifiersPanelController::<>c__DisplayClass16_0*
 class CORDL_TYPE __GameplayModifiersPanelController____c__DisplayClass16_0 : public ::System::Object {
 public:
@@ -80,10 +80,10 @@ public:
 
   static inline ::GlobalNamespace::__GameplayModifiersPanelController____c__DisplayClass16_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22b17a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22e4a64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Awake>b__0, addr 0x22b1c28, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__0, addr 0x22e4eec, size 0x208, virtual false, abstract: false, final false
   inline void _Awake_b__0(bool on);
 
   // Ctor Parameters [CppParam { name: "", ty: "__GameplayModifiersPanelController____c__DisplayClass16_0", modifiers: "&&", def_value: None }]
@@ -120,8 +120,8 @@ static_assert(offsetof(::GlobalNamespace::__GameplayModifiersPanelController____
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5636))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8995))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4940))
 // CS Name: ::GameplayModifiersPanelController*
 class CORDL_TYPE GameplayModifiersPanelController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -243,39 +243,39 @@ public:
   constexpr void
   __cordl_internal_set__toggleForGameplayModifierParam(::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::UnityW<::UnityEngine::UI::Toggle>>* value);
 
-  /// @brief Method add_didChangeGameplayModifiersEvent, addr 0x22b14d4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didChangeGameplayModifiersEvent, addr 0x22e4798, size 0x9c, virtual false, abstract: false, final false
   inline void add_didChangeGameplayModifiersEvent(::System::Action* value);
 
-  /// @brief Method remove_didChangeGameplayModifiersEvent, addr 0x22b1570, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didChangeGameplayModifiersEvent, addr 0x22e4834, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didChangeGameplayModifiersEvent(::System::Action* value);
 
-  /// @brief Method get_gameplayModifiers, addr 0x22b160c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameplayModifiers, addr 0x22e48d0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
 
-  /// @brief Method SetData, addr 0x22b1614, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x22e48d8, size 0x8, virtual false, abstract: false, final false
   inline void SetData(::GlobalNamespace::GameplayModifiers* newGameplayModifiers);
 
-  /// @brief Method Awake, addr 0x22b161c, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x22e48e0, size 0x184, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnDestroy, addr 0x22b17a8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x22e4a6c, size 0x14, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetToggleValueWithGameplayModifierParams, addr 0x22b17bc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method SetToggleValueWithGameplayModifierParams, addr 0x22e4a80, size 0x88, virtual false, abstract: false, final false
   inline void SetToggleValueWithGameplayModifierParams(::GlobalNamespace::GameplayModifierParamsSO* gameplayModifierParams, bool value);
 
-  /// @brief Method GetToggleValueWithGameplayModifierParams, addr 0x22b1844, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetToggleValueWithGameplayModifierParams, addr 0x22e4b08, size 0x8c, virtual false, abstract: false, final false
   inline bool GetToggleValueWithGameplayModifierParams(::GlobalNamespace::GameplayModifierParamsSO* gameplayModifierParams);
 
-  /// @brief Method RefreshTotalMultiplierAndRankUI, addr 0x22b18d0, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method RefreshTotalMultiplierAndRankUI, addr 0x22e4b94, size 0x1d4, virtual false, abstract: false, final false
   inline void RefreshTotalMultiplierAndRankUI();
 
-  /// @brief Method IRefreshable.Refresh, addr 0x22b1aa4, size 0x104, virtual true, abstract: false, final true
+  /// @brief Method IRefreshable.Refresh, addr 0x22e4d68, size 0x104, virtual true, abstract: false, final true
   inline void IRefreshable_Refresh();
 
   static inline ::GlobalNamespace::GameplayModifiersPanelController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22b1ba8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22e4e6c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersPanelController", modifiers: "&&", def_value: None }]

@@ -19,12 +19,12 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::ValidationUtils);
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11902))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11800))
 // CS Name: ::Newtonsoft.Json.Utilities::ValidationUtils*
 class CORDL_TYPE ValidationUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ArgumentNotNull, addr 0x2655820, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ArgumentNotNull, addr 0x26789dc, size 0x54, virtual false, abstract: false, final false
   static inline void ArgumentNotNull(::System::Object* value, ::StringW parameterName);
 
   // Ctor Parameters [CppParam { name: "", ty: "ValidationUtils", modifiers: "&&", def_value: None }]

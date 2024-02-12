@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderHapticFeedbackInteractionEffect::*)()>(
     &::GlobalNamespace::SliderHapticFeedbackInteractionEffect::Start)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2392c34;
+  constexpr static std::size_t addrs = 0x23527e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderHapticFeedbackInteractionEffect::*)()>(
     &::GlobalNamespace::SliderHapticFeedbackInteractionEffect::Update)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x2392d7c;
+  constexpr static std::size_t addrs = 0x2352930;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SliderHapticFeedbackInteractionEffect*>::get(),
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderHapticFeedbackInteractionEffect::*)(float_t)>(
     &::GlobalNamespace::SliderHapticFeedbackInteractionEffect::StartEffect)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2392eac;
+  constexpr static std::size_t addrs = 0x2352a60;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderHapticFeedbackInteractionEffect::*)()>(
     &::GlobalNamespace::SliderHapticFeedbackInteractionEffect::EndEffect)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2392ef4;
+  constexpr static std::size_t addrs = 0x2352aa8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderHapticFeedbackInteractionEffect::*)()>(
     &::GlobalNamespace::SliderHapticFeedbackInteractionEffect::Vibrate)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2392e6c;
+  constexpr static std::size_t addrs = 0x2352a20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SliderHapticFeedbackInteractionEffect*>::get(),
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderHapticFeedbackInteractionEffect::*)()>(
     &::GlobalNamespace::SliderHapticFeedbackInteractionEffect::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2392f00;
+  constexpr static std::size_t addrs = 0x2352ab4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SliderHapticFeedbackInteractionEffect*>::get(),

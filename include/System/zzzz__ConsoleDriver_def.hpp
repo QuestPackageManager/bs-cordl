@@ -51,31 +51,31 @@ public:
 
   static inline bool getStaticF_called_isatty();
 
-  /// @brief Method CreateNullConsoleDriver, addr 0x25f7788, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method CreateNullConsoleDriver, addr 0x261b688, size 0x4c, virtual false, abstract: false, final false
   static inline ::System::IConsoleDriver* CreateNullConsoleDriver();
 
-  /// @brief Method CreateWindowsConsoleDriver, addr 0x25f77d4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CreateWindowsConsoleDriver, addr 0x261b6d4, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::IConsoleDriver* CreateWindowsConsoleDriver();
 
-  /// @brief Method CreateTermInfoDriver, addr 0x25f7830, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method CreateTermInfoDriver, addr 0x261b730, size 0x60, virtual false, abstract: false, final false
   static inline ::System::IConsoleDriver* CreateTermInfoDriver(::StringW term);
 
-  /// @brief Method ReadKey, addr 0x25f714c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method ReadKey, addr 0x261b04c, size 0xd8, virtual false, abstract: false, final false
   static inline ::System::ConsoleKeyInfo ReadKey(bool intercept);
 
-  /// @brief Method get_IsConsole, addr 0x25f694c, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method get_IsConsole, addr 0x261a84c, size 0x138, virtual false, abstract: false, final false
   static inline bool get_IsConsole();
 
-  /// @brief Method Isatty, addr 0x25f7bdc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Isatty, addr 0x261badc, size 0x4, virtual false, abstract: false, final false
   static inline bool Isatty(void* handle);
 
-  /// @brief Method InternalKeyAvailable, addr 0x25f7be0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InternalKeyAvailable, addr 0x261bae0, size 0x4, virtual false, abstract: false, final false
   static inline int32_t InternalKeyAvailable(int32_t ms_timeout);
 
-  /// @brief Method TtySetup, addr 0x25f7be4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method TtySetup, addr 0x261bae4, size 0x4, virtual false, abstract: false, final false
   static inline bool TtySetup(::StringW keypadXmit, ::StringW teardown, ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> control_characters, ByRef<::cordl_internals::Ptr<int32_t>> address);
 
-  /// @brief Method SetEcho, addr 0x25f7be8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetEcho, addr 0x261bae8, size 0x8, virtual false, abstract: false, final false
   static inline bool SetEcho(bool wantEcho);
 
   // Ctor Parameters [CppParam { name: "", ty: "ConsoleDriver", modifiers: "&&", def_value: None }]

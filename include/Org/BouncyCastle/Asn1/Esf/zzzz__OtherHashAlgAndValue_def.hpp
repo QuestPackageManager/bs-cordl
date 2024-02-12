@@ -57,32 +57,32 @@ public:
 
   constexpr void __cordl_internal_set_hashValue(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
-  /// @brief Method GetInstance, addr 0xe94b44, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xebe9d4, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xe94f1c, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xebedac, size 0x210, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlgorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> hashValue);
 
-  /// @brief Method .ctor, addr 0xe9512c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xebefbc, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlgorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> hashValue);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlgorithm,
                                                                                ::Org::BouncyCastle::Asn1::Asn1OctetString* hashValue);
 
-  /// @brief Method .ctor, addr 0xe95228, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xebf0b8, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlgorithm, ::Org::BouncyCastle::Asn1::Asn1OctetString* hashValue);
 
-  /// @brief Method get_HashAlgorithm, addr 0xe952cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HashAlgorithm, addr 0xebf15c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_HashAlgorithm();
 
-  /// @brief Method GetHashValue, addr 0xe94edc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetHashValue, addr 0xebed6c, size 0x20, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetHashValue();
 
-  /// @brief Method ToAsn1Object, addr 0xe952d4, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xebf164, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "OtherHashAlgAndValue", modifiers: "&&", def_value: None }]

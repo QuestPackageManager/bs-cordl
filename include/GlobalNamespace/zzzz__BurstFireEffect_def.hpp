@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BurstFireEffect);
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4007))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4005))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16319))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16317))
 // CS Name: ::BurstFireEffect*
 class CORDL_TYPE BurstFireEffect : public ::GlobalNamespace::FireEffect {
 public:
@@ -90,33 +90,33 @@ public:
 
   constexpr void __cordl_internal_set__fadeOutTween(::Tweening::FloatTween* value);
 
-  /// @brief Method Awake, addr 0x222102c, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0xe368b8, size 0x124, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Start, addr 0x2221150, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0xe369dc, size 0x18, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy, addr 0x2221338, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0xe36bc4, size 0x90, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleColorChangeBeatmapEvent, addr 0x22213f0, size 0x134, virtual true, abstract: false, final false
+  /// @brief Method HandleColorChangeBeatmapEvent, addr 0xe36c80, size 0x134, virtual true, abstract: false, final false
   inline void HandleColorChangeBeatmapEvent(::GlobalNamespace::LightColorBeatmapEventData* e);
 
-  /// @brief Method StartEffect, addr 0x2221550, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method StartEffect, addr 0xe36de0, size 0xd4, virtual false, abstract: false, final false
   inline void StartEffect(float_t time);
 
-  /// @brief Method EndEffect, addr 0x2221524, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method EndEffect, addr 0xe36db4, size 0x2c, virtual false, abstract: false, final false
   inline void EndEffect();
 
-  /// @brief Method SetInitialValues, addr 0x2221288, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method SetInitialValues, addr 0xe36b14, size 0xb0, virtual false, abstract: false, final false
   inline void SetInitialValues();
 
-  /// @brief Method UpdateFadeOutProgress, addr 0x22216b0, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method UpdateFadeOutProgress, addr 0xe36f40, size 0x194, virtual false, abstract: false, final false
   inline void UpdateFadeOutProgress(float_t fadeOutProgress);
 
   static inline ::GlobalNamespace::BurstFireEffect* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22218b4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe37194, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BurstFireEffect", modifiers: "&&", def_value: None }]

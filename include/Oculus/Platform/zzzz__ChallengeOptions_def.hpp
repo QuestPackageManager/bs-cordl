@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::Oculus::Platform::ChallengeOptions);
 namespace Oculus::Platform {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13242))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13137))
 // CS Name: ::Oculus.Platform::ChallengeOptions*
 class CORDL_TYPE ChallengeOptions : public ::System::Object {
 public:
@@ -43,43 +43,43 @@ public:
 
   static inline ::Oculus::Platform::ChallengeOptions* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26ec26c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2714744, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method SetDescription, addr 0x26ec2d0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetDescription, addr 0x27147a8, size 0x68, virtual false, abstract: false, final false
   inline void SetDescription(::StringW value);
 
-  /// @brief Method SetEndDate, addr 0x26ec338, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetEndDate, addr 0x2714810, size 0x68, virtual false, abstract: false, final false
   inline void SetEndDate(::System::DateTime value);
 
-  /// @brief Method SetIncludeActiveChallenges, addr 0x26ec3a0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetIncludeActiveChallenges, addr 0x2714878, size 0x68, virtual false, abstract: false, final false
   inline void SetIncludeActiveChallenges(bool value);
 
-  /// @brief Method SetIncludeFutureChallenges, addr 0x26ec408, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetIncludeFutureChallenges, addr 0x27148e0, size 0x68, virtual false, abstract: false, final false
   inline void SetIncludeFutureChallenges(bool value);
 
-  /// @brief Method SetIncludePastChallenges, addr 0x26ec470, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetIncludePastChallenges, addr 0x2714948, size 0x68, virtual false, abstract: false, final false
   inline void SetIncludePastChallenges(bool value);
 
-  /// @brief Method SetLeaderboardName, addr 0x26ec4d8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetLeaderboardName, addr 0x27149b0, size 0x68, virtual false, abstract: false, final false
   inline void SetLeaderboardName(::StringW value);
 
-  /// @brief Method SetStartDate, addr 0x26ec540, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetStartDate, addr 0x2714a18, size 0x68, virtual false, abstract: false, final false
   inline void SetStartDate(::System::DateTime value);
 
-  /// @brief Method SetTitle, addr 0x26ec5a8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetTitle, addr 0x2714a80, size 0x68, virtual false, abstract: false, final false
   inline void SetTitle(::StringW value);
 
-  /// @brief Method SetViewerFilter, addr 0x26ec610, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetViewerFilter, addr 0x2714ae8, size 0x68, virtual false, abstract: false, final false
   inline void SetViewerFilter(::Oculus::Platform::ChallengeViewerFilter value);
 
-  /// @brief Method SetVisibility, addr 0x26ec678, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetVisibility, addr 0x2714b50, size 0x68, virtual false, abstract: false, final false
   inline void SetVisibility(::Oculus::Platform::ChallengeVisibility value);
 
-  /// @brief Method op_Explicit, addr 0x26ec6e0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x2714bb8, size 0x58, virtual false, abstract: false, final false
   static inline void* op_Explicit_void_(::Oculus::Platform::ChallengeOptions* options);
 
-  /// @brief Method Finalize, addr 0x26ec738, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x2714c10, size 0xd4, virtual true, abstract: false, final false
   inline void Finalize();
 
   // Ctor Parameters [CppParam { name: "", ty: "ChallengeOptions", modifiers: "&&", def_value: None }]

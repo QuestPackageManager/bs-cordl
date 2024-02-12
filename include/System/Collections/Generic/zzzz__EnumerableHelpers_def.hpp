@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::System::Collections::Generic::EnumerableHelpers);
 namespace System::Collections::Generic {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3846))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3845))
 // CS Name: ::System.Collections.Generic::EnumerableHelpers*
 class CORDL_TYPE EnumerableHelpers : public ::System::Object {
 public:

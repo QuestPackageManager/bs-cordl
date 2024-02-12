@@ -30,32 +30,32 @@ class GameSongController;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::GameSongController);
 // Type: ::GameSongController
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 73, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5334))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5332))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4672))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4670))
 // CS Name: ::GameSongController*
 class CORDL_TYPE GameSongController : public ::GlobalNamespace::SongController {
 public:
   // Declarations
-  /// @brief Field _audioTimeSyncController, offset 0x20, size 0x8
+  /// @brief Field _audioTimeSyncController, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__audioTimeSyncController,
                       put = __cordl_internal_set__audioTimeSyncController))::UnityW<::GlobalNamespace::AudioTimeSyncController> _audioTimeSyncController;
 
-  /// @brief Field _failAudioPitchGainEffect, offset 0x28, size 0x8
+  /// @brief Field _failAudioPitchGainEffect, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__failAudioPitchGainEffect,
                       put = __cordl_internal_set__failAudioPitchGainEffect))::UnityW<::GlobalNamespace::AudioPitchGainEffect> _failAudioPitchGainEffect;
 
-  /// @brief Field _beatmapCallbacksController, offset 0x30, size 0x8
+  /// @brief Field _beatmapCallbacksController, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapCallbacksController,
                       put = __cordl_internal_set__beatmapCallbacksController))::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
 
-  /// @brief Field _beatmapCallbacksUpdater, offset 0x38, size 0x8
+  /// @brief Field _beatmapCallbacksUpdater, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapCallbacksUpdater,
                       put = __cordl_internal_set__beatmapCallbacksUpdater))::UnityW<::GlobalNamespace::BeatmapCallbacksUpdater> _beatmapCallbacksUpdater;
 
-  /// @brief Field _songDidFinish, offset 0x40, size 0x1
+  /// @brief Field _songDidFinish, offset 0x48, size 0x1
   __declspec(property(get = __cordl_internal_get__songDidFinish, put = __cordl_internal_set__songDidFinish)) bool _songDidFinish;
 
   __declspec(property(get = get_songLength)) float_t songLength;
@@ -98,39 +98,39 @@ public:
 
   constexpr void __cordl_internal_set__songDidFinish(bool value);
 
-  /// @brief Method get_songLength, addr 0x22686d4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_songLength, addr 0x23c73fc, size 0x1c, virtual false, abstract: false, final false
   inline float_t get_songLength();
 
-  /// @brief Method get_waitUntilIsReadyToStartTheSong, addr 0x22686f0, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_waitUntilIsReadyToStartTheSong, addr 0x23c7418, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityEngine::WaitUntil* get_waitUntilIsReadyToStartTheSong();
 
-  /// @brief Method LateUpdate, addr 0x226870c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x23c7434, size 0x74, virtual false, abstract: false, final false
   inline void LateUpdate();
 
-  /// @brief Method StartSong, addr 0x226879c, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method StartSong, addr 0x23c74c4, size 0x44, virtual true, abstract: false, final true
   inline void StartSong(float_t songTimeOffset);
 
-  /// @brief Method StopSong, addr 0x22687c0, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method StopSong, addr 0x23c7524, size 0x1c, virtual true, abstract: false, final false
   inline void StopSong();
 
-  /// @brief Method PauseSong, addr 0x22687dc, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method PauseSong, addr 0x23c7540, size 0x30, virtual true, abstract: false, final false
   inline void PauseSong();
 
-  /// @brief Method ResumeSong, addr 0x226880c, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method ResumeSong, addr 0x23c7570, size 0x30, virtual true, abstract: false, final false
   inline void ResumeSong();
 
-  /// @brief Method FailStopSong, addr 0x226883c, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method FailStopSong, addr 0x23c75a0, size 0x12c, virtual false, abstract: false, final false
   inline void FailStopSong();
 
-  /// @brief Method SeekTo, addr 0x2268968, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method SeekTo, addr 0x23c76cc, size 0x1c, virtual true, abstract: false, final true
   inline void SeekTo(float_t songTime);
 
   static inline ::GlobalNamespace::GameSongController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2268984, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c76e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <FailStopSong>b__14_0, addr 0x2268994, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <FailStopSong>b__14_0, addr 0x23c76f8, size 0x1c, virtual false, abstract: false, final false
   inline void _FailStopSong_b__14_0();
 
   // Ctor Parameters [CppParam { name: "", ty: "GameSongController", modifiers: "&&", def_value: None }]
@@ -147,35 +147,35 @@ protected:
   constexpr GameSongController();
 
 public:
-  /// @brief Field _audioTimeSyncController, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _audioTimeSyncController, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AudioTimeSyncController> ____audioTimeSyncController;
 
-  /// @brief Field _failAudioPitchGainEffect, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _failAudioPitchGainEffect, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AudioPitchGainEffect> ____failAudioPitchGainEffect;
 
-  /// @brief Field _beatmapCallbacksController, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _beatmapCallbacksController, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;
 
-  /// @brief Field _beatmapCallbacksUpdater, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _beatmapCallbacksUpdater, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BeatmapCallbacksUpdater> ____beatmapCallbacksUpdater;
 
-  /// @brief Field _songDidFinish, offset: 0x40, size: 0x1, def value: None
+  /// @brief Field _songDidFinish, offset: 0x48, size: 0x1, def value: None
   bool ____songDidFinish;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameSongController, 0x48>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameSongController, 0x50>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameSongController, ____audioTimeSyncController) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameSongController, ____audioTimeSyncController) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameSongController, ____failAudioPitchGainEffect) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameSongController, ____failAudioPitchGainEffect) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameSongController, ____beatmapCallbacksController) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameSongController, ____beatmapCallbacksController) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameSongController, ____beatmapCallbacksUpdater) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameSongController, ____beatmapCallbacksUpdater) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameSongController, ____songDidFinish) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameSongController, ____songDidFinish) == 0x48, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::GameSongController);

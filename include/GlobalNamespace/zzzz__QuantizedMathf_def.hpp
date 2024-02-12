@@ -27,27 +27,27 @@ MARK_REF_PTR_T(::GlobalNamespace::QuantizedMathf);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15038))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14911))
 // CS Name: ::QuantizedMathf*
 class CORDL_TYPE QuantizedMathf : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Approximately, addr 0x12a67b8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Approximately, addr 0x133c690, size 0xd4, virtual false, abstract: false, final false
   static inline bool Approximately(::UnityEngine::Quaternion a, ::UnityEngine::Quaternion b);
 
-  /// @brief Method Approximately, addr 0x12a688c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Approximately, addr 0x133c764, size 0x10, virtual false, abstract: false, final false
   static inline bool Approximately(float_t a, float_t b, float_t epsilon);
 
-  /// @brief Method Approximately, addr 0x12a689c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Approximately, addr 0x133c774, size 0x74, virtual false, abstract: false, final false
   static inline bool Approximately(int32_t a, int32_t b, int32_t epsilon);
 
-  /// @brief Method Approximately, addr 0x12a6910, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Approximately, addr 0x133c7e8, size 0x38, virtual false, abstract: false, final false
   static inline bool Approximately(::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b);
 
-  /// @brief Method Approximately, addr 0x12a6948, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Approximately, addr 0x133c820, size 0x60, virtual false, abstract: false, final false
   static inline bool Approximately(::UnityEngine::Pose a, ::UnityEngine::Pose b);
 
-  /// @brief Method QuantizedVectorComponentToString, addr 0x12a69a8, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method QuantizedVectorComponentToString, addr 0x133c880, size 0x100, virtual false, abstract: false, final false
   static inline ::StringW QuantizedVectorComponentToString(int32_t v);
 
   // Ctor Parameters [CppParam { name: "", ty: "QuantizedMathf", modifiers: "&&", def_value: None }]

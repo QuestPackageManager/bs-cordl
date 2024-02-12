@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::System::Net::Sockets::SendPacketsElement);
 namespace System::Net::Sockets {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9346))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7356))
 // CS Name: ::System.Net.Sockets::SendPacketsElement*
 class CORDL_TYPE SendPacketsElement : public ::System::Object {
 public:

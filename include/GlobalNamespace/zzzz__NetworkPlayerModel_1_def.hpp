@@ -176,7 +176,7 @@ namespace GlobalNamespace {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14953))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14826))
 // CS Name: ::NetworkPlayerModel`1::NetworkPlayer<T>*
 class CORDL_TYPE __NetworkPlayerModel_1__NetworkPlayer : public ::System::Object {
 public:
@@ -357,8 +357,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14937))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14954))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14810))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14827))
 // CS Name: ::NetworkPlayerModel`1::JoinMatchmakingPartyConfig<T>*
 class CORDL_TYPE __NetworkPlayerModel_1__JoinMatchmakingPartyConfig : public ::GlobalNamespace::__BaseNetworkPlayerModel__PartyConfig {
 public:
@@ -422,8 +422,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14937))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14955))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14810))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14828))
 // CS Name: ::NetworkPlayerModel`1::StartClientPartyConfig<T>*
 class CORDL_TYPE __NetworkPlayerModel_1__StartClientPartyConfig : public ::GlobalNamespace::__BaseNetworkPlayerModel__PartyConfig {
 public:
@@ -463,8 +463,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12686)), TypeDefinitionIndex(TypeDefinitionIndex(12758))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14956))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12584)), TypeDefinitionIndex(TypeDefinitionIndex(12656))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14829))
 // CS Name: ::NetworkPlayerModel`1::NetworkServer<T>*
 class CORDL_TYPE __NetworkPlayerModel_1__NetworkServer : public ::System::Object {
 public:
@@ -709,9 +709,9 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(12775)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15996)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 410 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3402), inst: 885 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14957)) CS Name: ::NetworkPlayerModel`1::<InitAuthenticationTokenProvider>d__56<T>
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3398)), TypeDefinitionIndex(TypeDefinitionIndex(12673)),
+// TypeDefinitionIndex(TypeDefinitionIndex(16364)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 412 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3398), inst: 889 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14830)) CS Name: ::NetworkPlayerModel`1::<InitAuthenticationTokenProvider>d__56<T>
 struct CORDL_TYPE __NetworkPlayerModel_1___InitAuthenticationTokenProvider_d__56 {
 public:
   // Declarations
@@ -765,7 +765,7 @@ namespace GlobalNamespace {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14958))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14831))
 // CS Name: ::NetworkPlayerModel`1::<GetPartyPlayers>d__57<T>*
 class CORDL_TYPE __NetworkPlayerModel_1___GetPartyPlayers_d__57 : public ::System::Object {
 public:
@@ -914,9 +914,9 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3842)), TypeDefinitionIndex(TypeDefinitionIndex(14956)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1687 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14956), inst: 4713 })] Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(14959)) CS Name: ::NetworkPlayerModel`1::<GetOtherPlayers>d__58<T>*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3841)), TypeDefinitionIndex(TypeDefinitionIndex(14829)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3841), inst: 1645 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14829), inst: 4694 })] Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(14832)) CS Name: ::NetworkPlayerModel`1::<GetOtherPlayers>d__58<T>*
 class CORDL_TYPE __NetworkPlayerModel_1___GetOtherPlayers_d__58 : public ::System::Object {
 public:
   // Declarations
@@ -1068,8 +1068,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12686)), TypeDefinitionIndex(TypeDefinitionIndex(12758))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14960))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12584)), TypeDefinitionIndex(TypeDefinitionIndex(12656))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14833))
 // CS Name: ::NetworkPlayerModel`1::<>c__DisplayClass59_0<T>*
 class CORDL_TYPE __NetworkPlayerModel_1____c__DisplayClass59_0 : public ::System::Object {
 public:
@@ -1158,7 +1158,7 @@ namespace GlobalNamespace {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14961))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14834))
 // CS Name: ::NetworkPlayerModel`1::<>c<T>*
 class CORDL_TYPE __NetworkPlayerModel_1____c : public ::System::Object {
 public:
@@ -1209,8 +1209,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14940))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14962))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14813))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14835))
 // CS Name: ::NetworkPlayerModel`1<T>*
 class CORDL_TYPE NetworkPlayerModel_1 : public ::GlobalNamespace::BaseNetworkPlayerModel {
 public:

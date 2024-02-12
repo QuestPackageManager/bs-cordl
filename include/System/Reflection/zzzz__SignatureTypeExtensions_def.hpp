@@ -29,36 +29,36 @@ MARK_REF_PTR_T(::System::Reflection::SignatureTypeExtensions);
 namespace System::Reflection {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3496))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3492))
 // CS Name: ::System.Reflection::SignatureTypeExtensions*
 class CORDL_TYPE SignatureTypeExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method MatchesParameterTypeExactly, addr 0x24ebb0c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method MatchesParameterTypeExactly, addr 0x250ac64, size 0xb4, virtual false, abstract: false, final false
   static inline bool MatchesParameterTypeExactly(::System::Type* pattern, ::System::Reflection::ParameterInfo* parameter);
 
-  /// @brief Method MatchesExactly, addr 0x24ebbc0, size 0x3a8, virtual false, abstract: false, final false
+  /// @brief Method MatchesExactly, addr 0x250ad18, size 0x3a8, virtual false, abstract: false, final false
   static inline bool MatchesExactly(::System::Reflection::SignatureType* pattern, ::System::Type* actual);
 
-  /// @brief Method TryResolveAgainstGenericMethod, addr 0x24ebf68, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method TryResolveAgainstGenericMethod, addr 0x250b0c0, size 0x38, virtual false, abstract: false, final false
   static inline ::System::Type* TryResolveAgainstGenericMethod(::System::Reflection::SignatureType* signatureType, ::System::Reflection::MethodInfo* genericMethod);
 
-  /// @brief Method TryResolve, addr 0x24ebfa0, size 0x3bc, virtual false, abstract: false, final false
+  /// @brief Method TryResolve, addr 0x250b0f8, size 0x3bc, virtual false, abstract: false, final false
   static inline ::System::Type* TryResolve(::System::Reflection::SignatureType* signatureType, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> genericMethodParameters);
 
-  /// @brief Method TryMakeArrayType, addr 0x24ec35c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method TryMakeArrayType, addr 0x250b4b4, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::Type* TryMakeArrayType(::System::Type* type);
 
-  /// @brief Method TryMakeArrayType, addr 0x24ec3f8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method TryMakeArrayType, addr 0x250b550, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::Type* TryMakeArrayType(::System::Type* type, int32_t rank);
 
-  /// @brief Method TryMakeByRefType, addr 0x24ec494, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method TryMakeByRefType, addr 0x250b5ec, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::Type* TryMakeByRefType(::System::Type* type);
 
-  /// @brief Method TryMakePointerType, addr 0x24ec530, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method TryMakePointerType, addr 0x250b688, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::Type* TryMakePointerType(::System::Type* type);
 
-  /// @brief Method TryMakeGenericType, addr 0x24ec5cc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method TryMakeGenericType, addr 0x250b724, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::Type* TryMakeGenericType(::System::Type* type, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> instantiation);
 
   // Ctor Parameters [CppParam { name: "", ty: "SignatureTypeExtensions", modifiers: "&&", def_value: None }]

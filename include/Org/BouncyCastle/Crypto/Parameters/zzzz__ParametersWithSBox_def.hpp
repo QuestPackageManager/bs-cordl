@@ -53,13 +53,13 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::ParametersWithSBox* New_ctor(::Org::BouncyCastle::Crypto::ICipherParameters* parameters, ::ArrayW<uint8_t, ::Array<uint8_t>*> sBox);
 
-  /// @brief Method .ctor, addr 0xf39370, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf64200, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::ICipherParameters* parameters, ::ArrayW<uint8_t, ::Array<uint8_t>*> sBox);
 
-  /// @brief Method GetSBox, addr 0xf3939c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetSBox, addr 0xf6422c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSBox();
 
-  /// @brief Method get_Parameters, addr 0xf393a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parameters, addr 0xf64234, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::ICipherParameters* get_Parameters();
 
   // Ctor Parameters [CppParam { name: "", ty: "ParametersWithSBox", modifiers: "&&", def_value: None }]

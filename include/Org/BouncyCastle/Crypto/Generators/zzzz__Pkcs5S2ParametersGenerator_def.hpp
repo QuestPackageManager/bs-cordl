@@ -52,33 +52,33 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Generators::Pkcs5S2ParametersGenerator* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf04aac, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf2f93c, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Generators::Pkcs5S2ParametersGenerator* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method .ctor, addr 0xf04b10, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf2f9a0, size 0x114, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method F, addr 0xf04c24, size 0x3c4, virtual false, abstract: false, final false
+  /// @brief Method F, addr 0xf2fab4, size 0x3c4, virtual false, abstract: false, final false
   inline void F(::ArrayW<uint8_t, ::Array<uint8_t>*> S, int32_t c, ::ArrayW<uint8_t, ::Array<uint8_t>*> iBuf, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
-  /// @brief Method GenerateDerivedKey, addr 0xf04fe8, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method GenerateDerivedKey, addr 0xf2fe78, size 0x228, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateDerivedKey(int32_t dkLen);
 
-  /// @brief Method GenerateDerivedParameters, addr 0xf05210, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method GenerateDerivedParameters, addr 0xf300a0, size 0xc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(int32_t keySize);
 
-  /// @brief Method GenerateDerivedParameters, addr 0xf0521c, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method GenerateDerivedParameters, addr 0xf300ac, size 0x98, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(::StringW algorithm, int32_t keySize);
 
-  /// @brief Method GenerateDerivedParameters, addr 0xf052b4, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method GenerateDerivedParameters, addr 0xf30144, size 0xf4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(int32_t keySize, int32_t ivSize);
 
-  /// @brief Method GenerateDerivedParameters, addr 0xf053a8, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method GenerateDerivedParameters, addr 0xf30238, size 0x104, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(::StringW algorithm, int32_t keySize, int32_t ivSize);
 
-  /// @brief Method GenerateDerivedMacParameters, addr 0xf054ac, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GenerateDerivedMacParameters, addr 0xf3033c, size 0x9c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedMacParameters(int32_t keySize);
 
   // Ctor Parameters [CppParam { name: "", ty: "Pkcs5S2ParametersGenerator", modifiers: "&&", def_value: None }]

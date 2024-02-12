@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Poly2Tri::DTSweepEdgeEvent);
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15332))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15492))
 // CS Name: ::UnityEngine.ProBuilder.Poly2Tri::DTSweepEdgeEvent*
 class CORDL_TYPE DTSweepEdgeEvent : public ::System::Object {
 public:
@@ -43,7 +43,7 @@ public:
 
   static inline ::UnityEngine::ProBuilder::Poly2Tri::DTSweepEdgeEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2b344a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b33010, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DTSweepEdgeEvent", modifiers: "&&", def_value: None }]

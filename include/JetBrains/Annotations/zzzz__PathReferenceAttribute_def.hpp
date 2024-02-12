@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::JetBrains::Annotations::PathReferenceAttribute);
 namespace JetBrains::Annotations {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15757))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15907))
 // CS Name: ::JetBrains.Annotations::PathReferenceAttribute*
 class CORDL_TYPE PathReferenceAttribute : public ::System::Attribute {
 public:
@@ -34,18 +34,18 @@ public:
 
   static inline ::JetBrains::Annotations::PathReferenceAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2eba374, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ed64bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::JetBrains::Annotations::PathReferenceAttribute* New_ctor(::StringW basePath);
 
-  /// @brief Method .ctor, addr 0x2eba37c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ed64c4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW basePath);
 
-  /// @brief Method get_BasePath, addr 0x2eba3a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BasePath, addr 0x2ed64ec, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_BasePath();
 
-  /// @brief Method set_BasePath, addr 0x2eba3ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BasePath, addr 0x2ed64f4, size 0x8, virtual false, abstract: false, final false
   inline void set_BasePath(::StringW value);
 
   // Ctor Parameters [CppParam { name: "", ty: "PathReferenceAttribute", modifiers: "&&", def_value: None }]

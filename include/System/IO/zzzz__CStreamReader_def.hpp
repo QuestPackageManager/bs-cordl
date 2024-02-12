@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::System::IO::CStreamReader);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3575))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3637))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3572))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3635))
 // CS Name: ::System.IO::CStreamReader*
 class CORDL_TYPE CStreamReader : public ::System::IO::StreamReader {
 public:
@@ -44,22 +44,22 @@ public:
 
   static inline ::System::IO::CStreamReader* New_ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding);
 
-  /// @brief Method .ctor, addr 0x25452c4, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2565ee4, size 0x114, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding);
 
-  /// @brief Method Peek, addr 0x25453d8, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Peek, addr 0x2565ff8, size 0x88, virtual true, abstract: false, final false
   inline int32_t Peek();
 
-  /// @brief Method Read, addr 0x2545460, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x2566080, size 0xd0, virtual true, abstract: false, final false
   inline int32_t Read();
 
-  /// @brief Method Read, addr 0x2545530, size 0x1b0, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x2566150, size 0x1b0, virtual true, abstract: false, final false
   inline int32_t Read(ByRef<::ArrayW<char16_t, ::Array<char16_t>*>> dest, int32_t index, int32_t count);
 
-  /// @brief Method ReadLine, addr 0x25456e0, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method ReadLine, addr 0x2566300, size 0x98, virtual true, abstract: false, final false
   inline ::StringW ReadLine();
 
-  /// @brief Method ReadToEnd, addr 0x2545778, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method ReadToEnd, addr 0x2566398, size 0x98, virtual true, abstract: false, final false
   inline ::StringW ReadToEnd();
 
   // Ctor Parameters [CppParam { name: "", ty: "CStreamReader", modifiers: "&&", def_value: None }]

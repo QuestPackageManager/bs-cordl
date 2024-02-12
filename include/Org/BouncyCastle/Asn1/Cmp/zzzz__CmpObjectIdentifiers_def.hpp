@@ -207,7 +207,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::CmpObjectIdentifiers* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe66c7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe91b0c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CmpObjectIdentifiers", modifiers: "&&", def_value: None }]

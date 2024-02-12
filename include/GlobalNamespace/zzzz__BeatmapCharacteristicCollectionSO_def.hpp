@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapCharacteristicCollectionSO);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4240))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15602))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10707))
 // CS Name: ::BeatmapCharacteristicCollectionSO*
 class CORDL_TYPE BeatmapCharacteristicCollectionSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -40,12 +40,12 @@ public:
 
   constexpr void __cordl_internal_set__beatmapCharacteristics(::ArrayW<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::Array<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*> value);
 
-  /// @brief Method get_allBeatmapCharacteristics, addr 0x232d138, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_allBeatmapCharacteristics, addr 0x1274c5c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyCollection_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* get_allBeatmapCharacteristics();
 
   static inline ::GlobalNamespace::BeatmapCharacteristicCollectionSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x232d140, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1274c64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicCollectionSO", modifiers: "&&", def_value: None }]

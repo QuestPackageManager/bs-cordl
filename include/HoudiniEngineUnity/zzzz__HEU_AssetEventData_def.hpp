@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_AssetEventData);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9594))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9595))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9386))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9387))
 // CS Name: ::HoudiniEngineUnity::HEU_AssetEventData*
 class CORDL_TYPE HEU_AssetEventData : public ::System::Object {
 public:
@@ -69,7 +69,7 @@ public:
   static inline ::HoudiniEngineUnity::HEU_AssetEventData* New_ctor(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool successful,
                                                                    ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputObjects);
 
-  /// @brief Method .ctor, addr 0x214e24c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21e3b30, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool successful, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputObjects);
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_AssetEventData", modifiers: "&&", def_value: None }]

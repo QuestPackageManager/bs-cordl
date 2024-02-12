@@ -40,25 +40,25 @@ public:
 
   static inline ::System::MissingFieldException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25d174c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f3664, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::MissingFieldException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x25d17cc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f36e4, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::System::MissingFieldException* New_ctor(::StringW className, ::StringW fieldName);
 
-  /// @brief Method .ctor, addr 0x25d17f0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f3708, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW className, ::StringW fieldName);
 
   static inline ::System::MissingFieldException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x25d1874, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f378c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method get_Message, addr 0x25d19fc, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x25f3914, size 0x114, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
   // Ctor Parameters [CppParam { name: "", ty: "MissingFieldException", modifiers: "&&", def_value: None }]

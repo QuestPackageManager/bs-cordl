@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::GlobalNamespace::DropdownSettingsController);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5590))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4895))
 // CS Name: ::DropdownSettingsController*
 class CORDL_TYPE DropdownSettingsController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -68,10 +68,10 @@ public:
 
   constexpr void __cordl_internal_set__numberOfElements(int32_t value);
 
-  /// @brief Method add_dropDownValueDidChangeEvent, addr 0x22a9f0c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_dropDownValueDidChangeEvent, addr 0x22dd340, size 0x9c, virtual false, abstract: false, final false
   inline void add_dropDownValueDidChangeEvent(::System::Action* value);
 
-  /// @brief Method remove_dropDownValueDidChangeEvent, addr 0x22a9fa8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_dropDownValueDidChangeEvent, addr 0x22dd3dc, size 0x9c, virtual false, abstract: false, final false
   inline void remove_dropDownValueDidChangeEvent(::System::Action* value);
 
   /// @brief Method GetInitValues, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -83,24 +83,24 @@ public:
   /// @brief Method TextForValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW TextForValue(int32_t idx);
 
-  /// @brief Method OnEnable, addr 0x22aa044, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x22dd478, size 0xbc, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable, addr 0x22aa240, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x22dd674, size 0xd0, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method HandleDropdownValueDidChange, addr 0x22aa310, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method HandleDropdownValueDidChange, addr 0x22dd744, size 0x40, virtual false, abstract: false, final false
   inline void HandleDropdownValueDidChange(::HMUI::DropdownWithTableView* dropdownWithTableView, int32_t idx);
 
-  /// @brief Method RefreshUI, addr 0x22aa100, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method RefreshUI, addr 0x22dd534, size 0x140, virtual false, abstract: false, final false
   inline void RefreshUI();
 
-  /// @brief Method Refresh, addr 0x22aa350, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x22dd784, size 0x5c, virtual false, abstract: false, final false
   inline void Refresh(bool applyValue);
 
   static inline ::GlobalNamespace::DropdownSettingsController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22aa3ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22dd7e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DropdownSettingsController", modifiers: "&&", def_value: None }]

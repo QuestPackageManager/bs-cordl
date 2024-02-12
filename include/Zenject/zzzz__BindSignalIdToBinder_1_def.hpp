@@ -32,8 +32,8 @@ namespace Zenject {
 // cpp template
 template <typename TSignal>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10647)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10647), inst: 960 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10640))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9789)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9789), inst: 957 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9782))
 // CS Name: ::Zenject::BindSignalIdToBinder`1<TSignal>*
 class CORDL_TYPE BindSignalIdToBinder_1 : public ::Zenject::BindSignalToBinder_1<TSignal> {
 public:

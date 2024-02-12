@@ -13,7 +13,7 @@ namespace GlobalNamespace {
 struct EaseType;
 }
 namespace GlobalNamespace {
-class IBeatToTimeConvertor;
+class IBeatToTimeConverter;
 }
 namespace GlobalNamespace {
 class IndexFilter;
@@ -39,8 +39,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TIn, typename TOut>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4301))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4309))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10732))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10738))
 // CS Name: ::FxBeatmapEventDataBox`2<TIn,TOut>*
 class CORDL_TYPE FxBeatmapEventDataBox_2 : public ::GlobalNamespace::BeatmapEventDataBox {
 public:
@@ -75,7 +75,7 @@ public:
 
   /// @brief Method Unpack, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Unpack(float_t groupBoxBeat, int32_t groupId, int32_t elementId, int32_t durationOrderIndex, int32_t distributionOrderIndex, float_t maxBeat,
-                     ::GlobalNamespace::IBeatToTimeConvertor* beatToTimeConvertor, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>* output);
+                     ::GlobalNamespace::IBeatToTimeConverter* beatToTimeConverter, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>* output);
 
   /// @brief Method CreateVfxBeatmapEventData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline TOut CreateVfxBeatmapEventData(TIn data, float_t time, int32_t groupId, int32_t elementId, float_t distributionOffset);

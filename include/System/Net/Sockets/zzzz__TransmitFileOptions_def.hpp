@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::Sockets::TransmitFileOptions);
 namespace System::Net::Sockets {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9355))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7365))
 // CS Name: ::System.Net.Sockets::TransmitFileOptions
 struct CORDL_TYPE TransmitFileOptions {
 public:

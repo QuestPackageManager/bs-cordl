@@ -23,8 +23,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TX, typename TY, typename TZ>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4935))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4943))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4289))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4297))
 // CS Name: ::LightTransformGroup`3<TX,TY,TZ>*
 class CORDL_TYPE LightTransformGroup_3 : public ::GlobalNamespace::LightGroupSubsystem {
 public:

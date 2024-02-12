@@ -23,8 +23,8 @@ namespace Priority_Queue {
 // cpp template
 template <typename TItem>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6100)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6100), inst: 3776 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6101))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15231)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15231), inst: 3748 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15232))
 // CS Name: ::Priority_Queue::SimplePriorityQueue`1<TItem>*
 class CORDL_TYPE SimplePriorityQueue_1 : public ::Priority_Queue::SimplePriorityQueue_2<TItem, float_t> {
 public:

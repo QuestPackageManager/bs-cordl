@@ -59,29 +59,29 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::RevDetails* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xe6e84c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe996dc, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance, addr 0xe6e920, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xe997b0, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::RevDetails* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::RevDetails* New_ctor(::Org::BouncyCastle::Asn1::Crmf::CertTemplate* certDetails);
 
-  /// @brief Method .ctor, addr 0xe6eaa8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe99938, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Crmf::CertTemplate* certDetails);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::RevDetails* New_ctor(::Org::BouncyCastle::Asn1::Crmf::CertTemplate* certDetails, ::Org::BouncyCastle::Asn1::X509::X509Extensions* crlEntryDetails);
 
-  /// @brief Method .ctor, addr 0xe6ead0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe99960, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Crmf::CertTemplate* certDetails, ::Org::BouncyCastle::Asn1::X509::X509Extensions* crlEntryDetails);
 
-  /// @brief Method get_CertDetails, addr 0xe6eafc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CertDetails, addr 0xe9998c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::CertTemplate* get_CertDetails();
 
-  /// @brief Method get_CrlEntryDetails, addr 0xe6eb04, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CrlEntryDetails, addr 0xe99994, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* get_CrlEntryDetails();
 
-  /// @brief Method ToAsn1Object, addr 0xe6eb0c, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xe9999c, size 0x148, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "RevDetails", modifiers: "&&", def_value: None }]

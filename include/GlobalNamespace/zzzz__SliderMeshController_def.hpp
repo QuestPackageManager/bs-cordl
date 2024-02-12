@@ -38,8 +38,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SliderMeshController);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4823))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4174))
 // CS Name: ::SliderMeshController*
 class CORDL_TYPE SliderMeshController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -153,24 +153,24 @@ public:
 
   constexpr void __cordl_internal_set__reusableControlPointsArray2(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
-  /// @brief Method get_pathLength, addr 0x2394bd0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_pathLength, addr 0x2354784, size 0x24, virtual false, abstract: false, final false
   inline float_t get_pathLength();
 
-  /// @brief Method get_mesh, addr 0x2394bf4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_mesh, addr 0x23547a8, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_mesh();
 
-  /// @brief Method get_pathsHolder, addr 0x2394c10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pathsHolder, addr 0x23547c4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PathsHolder* get_pathsHolder();
 
-  /// @brief Method CreateBezierPathAndMesh, addr 0x2390124, size 0x758, virtual false, abstract: false, final false
+  /// @brief Method CreateBezierPathAndMesh, addr 0x234fc84, size 0x758, virtual false, abstract: false, final false
   inline void CreateBezierPathAndMesh(::GlobalNamespace::SliderData* sliderData, ::UnityEngine::Vector3 headNotePos, ::UnityEngine::Vector3 tailNotePos, float_t jumpSpeed, float_t noteUniformScale);
 
-  /// @brief Method CutDirectionToControlPointPosition, addr 0x2394c18, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method CutDirectionToControlPointPosition, addr 0x23547cc, size 0xdc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 CutDirectionToControlPointPosition(::GlobalNamespace::NoteCutDirection noteCutDirection);
 
   static inline ::GlobalNamespace::SliderMeshController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2394cf4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23548a8, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SliderMeshController", modifiers: "&&", def_value: None }]

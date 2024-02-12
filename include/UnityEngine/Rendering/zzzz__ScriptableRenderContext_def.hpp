@@ -33,8 +33,8 @@ MARK_VAL_T(::UnityEngine::Rendering::ScriptableRenderContext);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(10356))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10360))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(9113))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9118))
 // CS Name: ::UnityEngine.Rendering::ScriptableRenderContext
 struct CORDL_TYPE ScriptableRenderContext {
 public:
@@ -52,25 +52,25 @@ public:
 
   static inline ::UnityEngine::Rendering::ShaderTagId getStaticF_kRenderTypeTag();
 
-  /// @brief Method .ctor, addr 0x2ced50c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cf6364, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(void* ptr);
 
-  /// @brief Method GetCameras, addr 0x2ced514, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetCameras, addr 0x2cf636c, size 0x8c, virtual false, abstract: false, final false
   inline void GetCameras(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* results);
 
-  /// @brief Method Equals, addr 0x2cee308, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2cf6484, size 0x70, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::ScriptableRenderContext other);
 
-  /// @brief Method Equals, addr 0x2cee378, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2cf64f4, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2cee3f0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2cf656c, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetCameras_Internal, addr 0x2cee27c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetCameras_Internal, addr 0x2cf63f8, size 0x8c, virtual false, abstract: false, final false
   inline void GetCameras_Internal(::System::Type* listType, ::System::Object* resultList);
 
-  /// @brief Method GetCameras_Internal_Injected, addr 0x2cee3f8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetCameras_Internal_Injected, addr 0x2cf6574, size 0x54, virtual false, abstract: false, final false
   static inline void GetCameras_Internal_Injected(ByRef<::UnityEngine::Rendering::ScriptableRenderContext> _unity_self, ::System::Type* listType, ::System::Object* resultList);
 
   // Ctor Parameters [CppParam { name: "m_Ptr", ty: "void*", modifiers: "", def_value: None }]

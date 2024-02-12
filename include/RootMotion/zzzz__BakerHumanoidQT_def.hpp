@@ -40,8 +40,8 @@ MARK_REF_PTR_T(::RootMotion::BakerHumanoidQT);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 157, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(14871))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12476))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8996)), TypeDefinitionIndex(TypeDefinitionIndex(14744))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12374))
 // CS Name: ::RootMotion::BakerHumanoidQT*
 class CORDL_TYPE BakerHumanoidQT : public ::System::Object {
 public:
@@ -210,36 +210,36 @@ public:
 
   static inline ::RootMotion::BakerHumanoidQT* New_ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x1232cf0, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12cdda0, size 0x178, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
   static inline ::RootMotion::BakerHumanoidQT* New_ctor(::UnityEngine::Transform* transform, ::UnityEngine::AvatarIKGoal goal, ::StringW name);
 
-  /// @brief Method .ctor, addr 0x1232fac, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12ce05c, size 0x188, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Transform* transform, ::UnityEngine::AvatarIKGoal goal, ::StringW name);
 
-  /// @brief Method Reset, addr 0x1232e68, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x12cdf18, size 0x144, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method SetIKKeyframes, addr 0x1233134, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method SetIKKeyframes, addr 0x12ce1e4, size 0x234, virtual false, abstract: false, final false
   inline void SetIKKeyframes(float_t time, ::UnityEngine::Avatar* avatar, float_t humanScale, ::UnityEngine::Vector3 bodyPosition, ::UnityEngine::Quaternion bodyRotation);
 
-  /// @brief Method SetKeyframes, addr 0x1233368, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method SetKeyframes, addr 0x12ce418, size 0xf0, virtual false, abstract: false, final false
   inline void SetKeyframes(float_t time, ::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rot);
 
-  /// @brief Method MoveLastKeyframes, addr 0x1233458, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method MoveLastKeyframes, addr 0x12ce508, size 0x68, virtual false, abstract: false, final false
   inline void MoveLastKeyframes(float_t time);
 
-  /// @brief Method SetLoopFrame, addr 0x123353c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetLoopFrame, addr 0x12ce5ec, size 0x68, virtual false, abstract: false, final false
   inline void SetLoopFrame(float_t time);
 
-  /// @brief Method MoveLastKeyframe, addr 0x12334c0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method MoveLastKeyframe, addr 0x12ce570, size 0x7c, virtual false, abstract: false, final false
   inline void MoveLastKeyframe(float_t time, ::UnityEngine::AnimationCurve* curve);
 
-  /// @brief Method MultiplyLength, addr 0x12335a4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method MultiplyLength, addr 0x12ce654, size 0xa8, virtual false, abstract: false, final false
   inline void MultiplyLength(::UnityEngine::AnimationCurve* curve, float_t mlp);
 
-  /// @brief Method SetCurves, addr 0x123364c, size 0x2ec, virtual false, abstract: false, final false
+  /// @brief Method SetCurves, addr 0x12ce6fc, size 0x2ec, virtual false, abstract: false, final false
   inline void SetCurves(ByRef<::UnityEngine::AnimationClip*> clip, float_t maxError, float_t lengthMlp);
 
   // Ctor Parameters [CppParam { name: "", ty: "BakerHumanoidQT", modifiers: "&&", def_value: None }]

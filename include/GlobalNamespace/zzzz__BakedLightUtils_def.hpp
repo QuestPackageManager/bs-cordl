@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::GlobalNamespace::BakedLightUtils);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5853))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5143))
 // CS Name: ::BakedLightUtils*
 class CORDL_TYPE BakedLightUtils : public ::System::Object {
 public:
@@ -49,7 +49,7 @@ public:
 
   static inline int32_t getStaticF__stencilPassOpPropertyId();
 
-  /// @brief Method ValidateLoadedEnvironmentScene, addr 0x22f5e28, size 0x838, virtual false, abstract: false, final false
+  /// @brief Method ValidateLoadedEnvironmentScene, addr 0x23227c8, size 0x7a0, virtual false, abstract: false, final false
   static inline void ValidateLoadedEnvironmentScene(bool validateBakedGIEnabled);
 
   // Ctor Parameters [CppParam { name: "", ty: "BakedLightUtils", modifiers: "&&", def_value: None }]

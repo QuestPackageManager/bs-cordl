@@ -8,6 +8,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ContactPoint)
 namespace UnityEngine {
+class Collider;
+}
+namespace UnityEngine {
 struct Vector3;
 }
 // Forward declare root types
@@ -20,12 +23,40 @@ MARK_VAL_T(::UnityEngine::ContactPoint);
 // SizeInfo { instance_size: 36, native_size: 36, calculated_instance_size: 36, calculated_native_size: 52, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15498))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8993))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13938))
 // CS Name: ::UnityEngine::ContactPoint
 struct CORDL_TYPE ContactPoint {
 public:
   // Declarations
+  __declspec(property(get = get_point))::UnityEngine::Vector3 point;
+
+  __declspec(property(get = get_normal))::UnityEngine::Vector3 normal;
+
+  __declspec(property(get = get_thisCollider))::UnityW<::UnityEngine::Collider> thisCollider;
+
+  __declspec(property(get = get_otherCollider))::UnityW<::UnityEngine::Collider> otherCollider;
+
+  __declspec(property(get = get_separation)) float_t separation;
+
+  /// @brief Method get_point, addr 0x2d36c78, size 0xc, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 get_point();
+
+  /// @brief Method get_normal, addr 0x2d36c84, size 0xc, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 get_normal();
+
+  /// @brief Method get_thisCollider, addr 0x2d36c90, size 0x3c, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Collider> get_thisCollider();
+
+  /// @brief Method get_otherCollider, addr 0x2d36d08, size 0x3c, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Collider> get_otherCollider();
+
+  /// @brief Method get_separation, addr 0x2d36d44, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_separation();
+
+  /// @brief Method GetColliderByInstanceID, addr 0x2d36ccc, size 0x3c, virtual false, abstract: false, final false
+  static inline ::UnityW<::UnityEngine::Collider> GetColliderByInstanceID(int32_t instanceID);
+
   // Ctor Parameters [CppParam { name: "m_Point", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_Normal", ty: "::UnityEngine::Vector3", modifiers: "", def_value:
   // None }, CppParam { name: "m_ThisColliderInstanceID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_OtherColliderInstanceID", ty: "int32_t", modifiers: "", def_value: None
   // }, CppParam { name: "m_Separation", ty: "float_t", modifiers: "", def_value: None }]

@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::BeatSaber::AvatarCore::LobbyAvatarInstaller);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11138))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15197))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10280))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15278))
 // CS Name: ::BeatSaber.AvatarCore::LobbyAvatarInstaller*
 class CORDL_TYPE LobbyAvatarInstaller : public ::Zenject::MonoInstaller {
 public:
@@ -32,12 +32,12 @@ public:
 
   constexpr void __cordl_internal_set__connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
 
-  /// @brief Method InstallBindings, addr 0xe0f91c, size 0x264, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0xe1b118, size 0x264, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::BeatSaber::AvatarCore::LobbyAvatarInstaller* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe0fb80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe1b37c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LobbyAvatarInstaller", modifiers: "&&", def_value: None }]

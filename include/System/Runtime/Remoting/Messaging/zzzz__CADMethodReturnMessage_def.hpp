@@ -72,27 +72,27 @@ public:
 
   constexpr void __cordl_internal_set__sig(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);
 
-  /// @brief Method Create, addr 0x24aa504, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x24cc578, size 0x90, virtual false, abstract: false, final false
   static inline ::System::Runtime::Remoting::Messaging::CADMethodReturnMessage* Create(::System::Runtime::Remoting::Messaging::IMessage* callMsg);
 
   static inline ::System::Runtime::Remoting::Messaging::CADMethodReturnMessage* New_ctor(::System::Runtime::Remoting::Messaging::IMethodReturnMessage* retMsg);
 
-  /// @brief Method .ctor, addr 0x24aa594, size 0x37c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24cc608, size 0x37c, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::IMethodReturnMessage* retMsg);
 
-  /// @brief Method GetArguments, addr 0x24aa910, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method GetArguments, addr 0x24cc984, size 0x140, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* GetArguments();
 
-  /// @brief Method GetArgs, addr 0x24aaa50, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetArgs, addr 0x24ccac4, size 0x10, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetArgs(::System::Collections::ArrayList* args);
 
-  /// @brief Method GetReturnValue, addr 0x24aaa60, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetReturnValue, addr 0x24ccad4, size 0x10, virtual false, abstract: false, final false
   inline ::System::Object* GetReturnValue(::System::Collections::ArrayList* args);
 
-  /// @brief Method GetException, addr 0x24aaa70, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetException, addr 0x24ccae4, size 0xa4, virtual false, abstract: false, final false
   inline ::System::Exception* GetException(::System::Collections::ArrayList* args);
 
-  /// @brief Method get_PropertiesCount, addr 0x24aab14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PropertiesCount, addr 0x24ccb88, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_PropertiesCount();
 
   // Ctor Parameters [CppParam { name: "", ty: "CADMethodReturnMessage", modifiers: "&&", def_value: None }]

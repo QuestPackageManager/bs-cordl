@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::UnityEngine::Playables::IPlayable);
 namespace UnityEngine::Playables {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10436))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9205))
 // CS Name: ::UnityEngine.Playables::IPlayable*
 class CORDL_TYPE IPlayable {
 public:

@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::AngleUnit);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7303))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6562))
 // CS Name: ::UnityEngine.UIElements::AngleUnit
 struct CORDL_TYPE AngleUnit {
 public:

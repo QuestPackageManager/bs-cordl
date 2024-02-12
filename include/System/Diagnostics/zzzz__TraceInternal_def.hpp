@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::System::Diagnostics::TraceInternal);
 namespace System::Diagnostics {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8941))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6951))
 // CS Name: ::System.Diagnostics::TraceInternal*
 class CORDL_TYPE TraceInternal : public ::System::Object {
 public:
@@ -70,19 +70,19 @@ public:
 
   static inline ::System::Object* getStaticF_critSec();
 
-  /// @brief Method get_Listeners, addr 0x296c654, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method get_Listeners, addr 0x2970574, size 0x254, virtual false, abstract: false, final false
   static inline ::System::Diagnostics::TraceListenerCollection* get_Listeners();
 
-  /// @brief Method get_AutoFlush, addr 0x296c8f4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_AutoFlush, addr 0x2970814, size 0x60, virtual false, abstract: false, final false
   static inline bool get_AutoFlush();
 
-  /// @brief Method get_IndentLevel, addr 0x296d38c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_IndentLevel, addr 0x29712ac, size 0x58, virtual false, abstract: false, final false
   static inline int32_t get_IndentLevel();
 
-  /// @brief Method get_IndentSize, addr 0x296d3e4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_IndentSize, addr 0x2971304, size 0x60, virtual false, abstract: false, final false
   static inline int32_t get_IndentSize();
 
-  /// @brief Method InitializeSettings, addr 0x296d0b4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InitializeSettings, addr 0x2970fd4, size 0x4, virtual false, abstract: false, final false
   static inline void InitializeSettings();
 
   // Ctor Parameters [CppParam { name: "", ty: "TraceInternal", modifiers: "&&", def_value: None }]

@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::System::Runtime::InteropServices::PreserveSigAttribute);
 namespace System::Runtime::InteropServices {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3324))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3322))
 // CS Name: ::System.Runtime.InteropServices::PreserveSigAttribute*
 class CORDL_TYPE PreserveSigAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::System::Runtime::InteropServices::PreserveSigAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24d72c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f7f58, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PreserveSigAttribute", modifiers: "&&", def_value: None }]

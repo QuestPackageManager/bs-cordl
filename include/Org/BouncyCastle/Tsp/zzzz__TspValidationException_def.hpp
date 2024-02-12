@@ -35,15 +35,15 @@ public:
 
   static inline ::Org::BouncyCastle::Tsp::TspValidationException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x1150fdc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x117ee6c, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::Org::BouncyCastle::Tsp::TspValidationException* New_ctor(::StringW message, int32_t failureCode);
 
-  /// @brief Method .ctor, addr 0x114fb60, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x117d9f0, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, int32_t failureCode);
 
-  /// @brief Method get_FailureCode, addr 0x1156e50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FailureCode, addr 0x1184ce0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_FailureCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "TspValidationException", modifiers: "&&", def_value: None }]

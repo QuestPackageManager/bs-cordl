@@ -24,8 +24,8 @@ MARK_VAL_T(::UnityEngine::Experimental::Video::VideoClipPlayable);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Experimental::Video {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10440))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16088))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9209))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15999))
 // CS Name: ::UnityEngine.Experimental.Video::VideoClipPlayable
 struct CORDL_TYPE VideoClipPlayable {
 public:
@@ -42,10 +42,10 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Experimental::Video::VideoClipPlayable>"
   constexpr ::System::IEquatable_1<::UnityEngine::Experimental::Video::VideoClipPlayable>* i___System__IEquatable_1___UnityEngine__Experimental__Video__VideoClipPlayable_();
 
-  /// @brief Method GetHandle, addr 0x2eb1c60, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetHandle, addr 0x2eccc8c, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableHandle GetHandle();
 
-  /// @brief Method Equals, addr 0x2eb1c6c, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2eccc98, size 0x78, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Experimental::Video::VideoClipPlayable other);
 
   // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableHandle", modifiers: "", def_value: None }]

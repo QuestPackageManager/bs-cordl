@@ -73,40 +73,40 @@ public:
 
   static inline ::System::Collections::IList* getStaticF_DefaultGroups();
 
-  /// @brief Method AddDefaultGroup, addr 0xf648c0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method AddDefaultGroup, addr 0xf8e750, size 0xd4, virtual false, abstract: false, final false
   static inline void AddDefaultGroup(::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParameters);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf6440c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf8e29c, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier* New_ctor(int32_t minimumPrimeBits);
 
-  /// @brief Method .ctor, addr 0xf64ae8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf8e978, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(int32_t minimumPrimeBits);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier* New_ctor(::System::Collections::IList* groups, int32_t minimumPrimeBits);
 
-  /// @brief Method .ctor, addr 0xf64b64, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf8e9f4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IList* groups, int32_t minimumPrimeBits);
 
-  /// @brief Method Accept, addr 0xf64b94, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method Accept, addr 0xf8ea24, size 0x4c, virtual true, abstract: false, final false
   inline bool Accept(::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParameters);
 
-  /// @brief Method get_MinimumPrimeBits, addr 0xf64be0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_MinimumPrimeBits, addr 0xf8ea70, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_MinimumPrimeBits();
 
-  /// @brief Method AreGroupsEqual, addr 0xf64be8, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method AreGroupsEqual, addr 0xf8ea78, size 0x78, virtual true, abstract: false, final false
   inline bool AreGroupsEqual(::Org::BouncyCastle::Crypto::Parameters::DHParameters* a, ::Org::BouncyCastle::Crypto::Parameters::DHParameters* b);
 
-  /// @brief Method AreParametersEqual, addr 0xf64c60, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method AreParametersEqual, addr 0xf8eaf0, size 0x3c, virtual true, abstract: false, final false
   inline bool AreParametersEqual(::Org::BouncyCastle::Math::BigInteger* a, ::Org::BouncyCastle::Math::BigInteger* b);
 
-  /// @brief Method CheckGroup, addr 0xf64c9c, size 0x374, virtual true, abstract: false, final false
+  /// @brief Method CheckGroup, addr 0xf8eb2c, size 0x374, virtual true, abstract: false, final false
   inline bool CheckGroup(::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParameters);
 
-  /// @brief Method CheckMinimumPrimeBits, addr 0xf65010, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method CheckMinimumPrimeBits, addr 0xf8eea0, size 0x4c, virtual true, abstract: false, final false
   inline bool CheckMinimumPrimeBits(::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParameters);
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultTlsDHVerifier", modifiers: "&&", def_value: None }]

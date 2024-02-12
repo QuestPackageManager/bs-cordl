@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IBeatSaberLogger);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5877))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5167))
 // CS Name: ::IBeatSaberLogger*
 class CORDL_TYPE IBeatSaberLogger {
 public:

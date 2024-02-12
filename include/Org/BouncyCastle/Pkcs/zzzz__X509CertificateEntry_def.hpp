@@ -46,26 +46,26 @@ public:
 
   static inline ::Org::BouncyCastle::Pkcs::X509CertificateEntry* New_ctor(::Org::BouncyCastle::X509::X509Certificate* cert);
 
-  /// @brief Method .ctor, addr 0x10e858c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x111641c, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::X509::X509Certificate* cert);
 
   static inline ::Org::BouncyCastle::Pkcs::X509CertificateEntry* New_ctor(::Org::BouncyCastle::X509::X509Certificate* cert, ::System::Collections::Hashtable* attributes);
 
-  /// @brief Method .ctor, addr 0x10e8604, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1116494, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::X509::X509Certificate* cert, ::System::Collections::Hashtable* attributes);
 
   static inline ::Org::BouncyCastle::Pkcs::X509CertificateEntry* New_ctor(::Org::BouncyCastle::X509::X509Certificate* cert, ::System::Collections::IDictionary* attributes);
 
-  /// @brief Method .ctor, addr 0x10e8630, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11164c0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::X509::X509Certificate* cert, ::System::Collections::IDictionary* attributes);
 
-  /// @brief Method get_Certificate, addr 0x10e865c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Certificate, addr 0x11164ec, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::X509Certificate* get_Certificate();
 
-  /// @brief Method Equals, addr 0x10e8664, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x11164f4, size 0xa4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x10e8708, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x1116598, size 0x28, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "X509CertificateEntry", modifiers: "&&", def_value: None }]

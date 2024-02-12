@@ -158,66 +158,66 @@ public:
 
   constexpr void __cordl_internal_set__adler(::Org::BouncyCastle::Utilities::Zlib::Adler32* value);
 
-  /// @brief Method inflateInit, addr 0x116a3c8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method inflateInit, addr 0x1199258, size 0xc, virtual false, abstract: false, final false
   inline int32_t inflateInit();
 
-  /// @brief Method inflateInit, addr 0x1169ec4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method inflateInit, addr 0x1198d54, size 0xc, virtual false, abstract: false, final false
   inline int32_t inflateInit(bool nowrap);
 
-  /// @brief Method inflateInit, addr 0x116a9b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method inflateInit, addr 0x1199844, size 0x8, virtual false, abstract: false, final false
   inline int32_t inflateInit(int32_t w);
 
-  /// @brief Method inflateInit, addr 0x116a9bc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method inflateInit, addr 0x119984c, size 0x7c, virtual false, abstract: false, final false
   inline int32_t inflateInit(int32_t w, bool nowrap);
 
-  /// @brief Method inflate, addr 0x116a0a8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method inflate, addr 0x1198f38, size 0x1c, virtual false, abstract: false, final false
   inline int32_t inflate(int32_t f);
 
-  /// @brief Method inflateEnd, addr 0x116aa38, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method inflateEnd, addr 0x11998c8, size 0x50, virtual false, abstract: false, final false
   inline int32_t inflateEnd();
 
-  /// @brief Method inflateSync, addr 0x116aa88, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method inflateSync, addr 0x1199918, size 0x18, virtual false, abstract: false, final false
   inline int32_t inflateSync();
 
-  /// @brief Method inflateSetDictionary, addr 0x116aaa0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method inflateSetDictionary, addr 0x1199930, size 0x20, virtual false, abstract: false, final false
   inline int32_t inflateSetDictionary(::ArrayW<uint8_t, ::Array<uint8_t>*> dictionary, int32_t dictLength);
 
-  /// @brief Method deflateInit, addr 0x116aac0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method deflateInit, addr 0x1199950, size 0xc, virtual false, abstract: false, final false
   inline int32_t deflateInit(int32_t level);
 
-  /// @brief Method deflateInit, addr 0x116983c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method deflateInit, addr 0x11986cc, size 0xc, virtual false, abstract: false, final false
   inline int32_t deflateInit(int32_t level, bool nowrap);
 
-  /// @brief Method deflateInit, addr 0x116aacc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method deflateInit, addr 0x119995c, size 0x8, virtual false, abstract: false, final false
   inline int32_t deflateInit(int32_t level, int32_t bits);
 
-  /// @brief Method deflateInit, addr 0x116aad4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method deflateInit, addr 0x1199964, size 0x94, virtual false, abstract: false, final false
   inline int32_t deflateInit(int32_t level, int32_t bits, bool nowrap);
 
-  /// @brief Method deflate, addr 0x11699ac, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method deflate, addr 0x119883c, size 0x24, virtual false, abstract: false, final false
   inline int32_t deflate(int32_t flush);
 
-  /// @brief Method deflateEnd, addr 0x1169bd4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method deflateEnd, addr 0x1198a64, size 0x30, virtual false, abstract: false, final false
   inline int32_t deflateEnd();
 
-  /// @brief Method deflateParams, addr 0x116ab68, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method deflateParams, addr 0x11999f8, size 0x28, virtual false, abstract: false, final false
   inline int32_t deflateParams(int32_t level, int32_t strategy);
 
-  /// @brief Method deflateSetDictionary, addr 0x116ab90, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method deflateSetDictionary, addr 0x1199a20, size 0x28, virtual false, abstract: false, final false
   inline int32_t deflateSetDictionary(::ArrayW<uint8_t, ::Array<uint8_t>*> dictionary, int32_t dictLength);
 
-  /// @brief Method flush_pending, addr 0x116abb8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method flush_pending, addr 0x1199a48, size 0xbc, virtual false, abstract: false, final false
   inline void flush_pending();
 
-  /// @brief Method read_buf, addr 0x116ac74, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method read_buf, addr 0x1199b04, size 0xb0, virtual false, abstract: false, final false
   inline int32_t read_buf(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t start, int32_t size);
 
-  /// @brief Method free, addr 0x1169c04, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method free, addr 0x1198a94, size 0x14, virtual false, abstract: false, final false
   inline void free();
 
   static inline ::Org::BouncyCastle::Utilities::Zlib::ZStream* New_ctor();
 
-  /// @brief Method .ctor, addr 0x11697d4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1198664, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ZStream", modifiers: "&&", def_value: None }]

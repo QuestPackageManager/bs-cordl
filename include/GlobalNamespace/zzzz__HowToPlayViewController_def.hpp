@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::GlobalNamespace::HowToPlayViewController);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5648))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4952))
 // CS Name: ::HowToPlayViewController::HowToPlayOptions
 struct CORDL_TYPE __HowToPlayViewController__HowToPlayOptions {
 public:
@@ -79,8 +79,8 @@ static_assert(offsetof(::GlobalNamespace::__HowToPlayViewController__HowToPlayOp
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5649))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13558))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4953))
 // CS Name: ::HowToPlayViewController*
 class CORDL_TYPE HowToPlayViewController : public ::HMUI::ViewController {
 public:
@@ -115,27 +115,27 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::GlobalNamespace::__HowToPlayViewController__HowToPlayOptions>* value);
 
-  /// @brief Method add_didFinishEvent, addr 0x22b5934, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x22e8c88, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::__HowToPlayViewController__HowToPlayOptions>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x22b59e4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x22e8d38, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::__HowToPlayViewController__HowToPlayOptions>* value);
 
-  /// @brief Method Setup, addr 0x22b5a94, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x22e8de8, size 0x30, virtual false, abstract: false, final false
   inline void Setup(bool showTutorialButton);
 
-  /// @brief Method DidActivate, addr 0x22b5ac4, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x22e8e18, size 0x108, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::HowToPlayViewController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22b5bcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22e8f20, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <DidActivate>b__7_0, addr 0x22b5bd4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__7_0, addr 0x22e8f28, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__7_0();
 
-  /// @brief Method <DidActivate>b__7_1, addr 0x22b5bf4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__7_1, addr 0x22e8f48, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__7_1();
 
   // Ctor Parameters [CppParam { name: "", ty: "HowToPlayViewController", modifiers: "&&", def_value: None }]

@@ -39,15 +39,15 @@ MARK_VAL_T(::UnityEngine::__UnitySynchronizationContext__WorkRequest);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10239))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8983))
 // CS Name: ::UnitySynchronizationContext::WorkRequest
 struct CORDL_TYPE __UnitySynchronizationContext__WorkRequest {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x2cd4858, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cdb800, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::SendOrPostCallback* callback, ::System::Object* state, ::System::Threading::ManualResetEvent* waitHandle);
 
-  /// @brief Method Invoke, addr 0x2cd4bf8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2cdbba0, size 0xac, virtual false, abstract: false, final false
   inline void Invoke();
 
   // Ctor Parameters [CppParam { name: "m_DelagateCallback", ty: "::System::Threading::SendOrPostCallback*", modifiers: "", def_value: None }, CppParam { name: "m_DelagateState", ty:
@@ -88,7 +88,7 @@ static_assert(offsetof(::UnityEngine::__UnitySynchronizationContext__WorkRequest
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2717))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10240))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8984))
 // CS Name: ::UnityEngine::UnitySynchronizationContext*
 class CORDL_TYPE UnitySynchronizationContext : public ::System::Threading::SynchronizationContext {
 public:
@@ -137,42 +137,42 @@ public:
 
   static inline ::UnityEngine::UnitySynchronizationContext* New_ctor(int32_t mainThreadID);
 
-  /// @brief Method .ctor, addr 0x2cd43fc, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cdb3a4, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(int32_t mainThreadID);
 
   static inline ::UnityEngine::UnitySynchronizationContext* New_ctor(::System::Collections::Generic::List_1<::UnityEngine::__UnitySynchronizationContext__WorkRequest>* queue, int32_t mainThreadID);
 
-  /// @brief Method .ctor, addr 0x2cd44b4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cdb45c, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::UnityEngine::__UnitySynchronizationContext__WorkRequest>* queue, int32_t mainThreadID);
 
-  /// @brief Method Send, addr 0x2cd4554, size 0x304, virtual true, abstract: false, final false
+  /// @brief Method Send, addr 0x2cdb4fc, size 0x304, virtual true, abstract: false, final false
   inline void Send(::System::Threading::SendOrPostCallback* callback, ::System::Object* state);
 
-  /// @brief Method OperationStarted, addr 0x2cd4864, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method OperationStarted, addr 0x2cdb80c, size 0xc, virtual true, abstract: false, final false
   inline void OperationStarted();
 
-  /// @brief Method OperationCompleted, addr 0x2cd4870, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method OperationCompleted, addr 0x2cdb818, size 0xc, virtual true, abstract: false, final false
   inline void OperationCompleted();
 
-  /// @brief Method Post, addr 0x2cd487c, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method Post, addr 0x2cdb824, size 0x150, virtual true, abstract: false, final false
   inline void Post(::System::Threading::SendOrPostCallback* callback, ::System::Object* state);
 
-  /// @brief Method CreateCopy, addr 0x2cd49cc, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method CreateCopy, addr 0x2cdb974, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Threading::SynchronizationContext* CreateCopy();
 
-  /// @brief Method Exec, addr 0x2cd4a38, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method Exec, addr 0x2cdb9e0, size 0x1c0, virtual false, abstract: false, final false
   inline void Exec();
 
-  /// @brief Method HasPendingTasks, addr 0x2cd4ca4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method HasPendingTasks, addr 0x2cdbc4c, size 0x60, virtual false, abstract: false, final false
   inline bool HasPendingTasks();
 
-  /// @brief Method InitializeSynchronizationContext, addr 0x2cd4d04, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method InitializeSynchronizationContext, addr 0x2cdbcac, size 0x7c, virtual false, abstract: false, final false
   static inline void InitializeSynchronizationContext();
 
-  /// @brief Method ExecuteTasks, addr 0x2cd4d80, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ExecuteTasks, addr 0x2cdbd28, size 0x64, virtual false, abstract: false, final false
   static inline void ExecuteTasks();
 
-  /// @brief Method ExecutePendingTasks, addr 0x2cd4de4, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ExecutePendingTasks, addr 0x2cdbd8c, size 0xf0, virtual false, abstract: false, final false
   static inline bool ExecutePendingTasks(int64_t millisecondsTimeout);
 
   // Ctor Parameters [CppParam { name: "", ty: "UnitySynchronizationContext", modifiers: "&&", def_value: None }]

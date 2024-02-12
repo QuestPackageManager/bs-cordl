@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::NetworkReachability);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10271))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9015))
 // CS Name: ::UnityEngine::NetworkReachability
 struct CORDL_TYPE NetworkReachability {
 public:

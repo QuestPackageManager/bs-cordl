@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::UnityEngine::XR::XRDisplaySubsystemDescriptor);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::XR {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15960)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15960), inst: 3914 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15640))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16083)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(16083), inst: 3896 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15771))
 // CS Name: ::UnityEngine.XR::XRDisplaySubsystemDescriptor*
 class CORDL_TYPE XRDisplaySubsystemDescriptor : public ::UnityEngine::IntegratedSubsystemDescriptor_1<Il2CppObject*> {
 public:
   // Declarations
   static inline ::UnityEngine::XR::XRDisplaySubsystemDescriptor* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2eb3eac, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2eceff0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "XRDisplaySubsystemDescriptor", modifiers: "&&", def_value: None }]

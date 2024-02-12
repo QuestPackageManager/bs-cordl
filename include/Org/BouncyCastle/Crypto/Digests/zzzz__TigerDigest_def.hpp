@@ -145,66 +145,66 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Digests::TigerDigest* New_ctor();
 
-  /// @brief Method .ctor, addr 0xea9494, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xed4324, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Digests::TigerDigest* New_ctor(::Org::BouncyCastle::Crypto::Digests::TigerDigest* t);
 
-  /// @brief Method .ctor, addr 0xea95c4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xed4454, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Digests::TigerDigest* t);
 
-  /// @brief Method get_AlgorithmName, addr 0xea9740, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_AlgorithmName, addr 0xed45d0, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method GetDigestSize, addr 0xea9780, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetDigestSize, addr 0xed4610, size 0x8, virtual true, abstract: false, final true
   inline int32_t GetDigestSize();
 
-  /// @brief Method GetByteLength, addr 0xea9788, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetByteLength, addr 0xed4618, size 0x8, virtual true, abstract: false, final true
   inline int32_t GetByteLength();
 
-  /// @brief Method ProcessWord, addr 0xea9790, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method ProcessWord, addr 0xed4620, size 0x11c, virtual false, abstract: false, final false
   inline void ProcessWord(::ArrayW<uint8_t, ::Array<uint8_t>*> b, int32_t off);
 
-  /// @brief Method Update, addr 0xea9c90, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Update, addr 0xed4b20, size 0x70, virtual true, abstract: false, final true
   inline void Update(uint8_t input);
 
-  /// @brief Method BlockUpdate, addr 0xea9d00, size 0x110, virtual true, abstract: false, final true
+  /// @brief Method BlockUpdate, addr 0xed4b90, size 0x110, virtual true, abstract: false, final true
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
-  /// @brief Method RoundABC, addr 0xea9e10, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method RoundABC, addr 0xed4ca0, size 0x184, virtual false, abstract: false, final false
   inline void RoundABC(int64_t x, int64_t mul);
 
-  /// @brief Method RoundBCA, addr 0xea9f94, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method RoundBCA, addr 0xed4e24, size 0x180, virtual false, abstract: false, final false
   inline void RoundBCA(int64_t x, int64_t mul);
 
-  /// @brief Method RoundCAB, addr 0xeaa114, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method RoundCAB, addr 0xed4fa4, size 0x180, virtual false, abstract: false, final false
   inline void RoundCAB(int64_t x, int64_t mul);
 
-  /// @brief Method KeySchedule, addr 0xeaa294, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method KeySchedule, addr 0xed5124, size 0xdc, virtual false, abstract: false, final false
   inline void KeySchedule();
 
-  /// @brief Method ProcessBlock, addr 0xea98ac, size 0x3e4, virtual false, abstract: false, final false
+  /// @brief Method ProcessBlock, addr 0xed473c, size 0x3e4, virtual false, abstract: false, final false
   inline void ProcessBlock();
 
-  /// @brief Method UnpackWord, addr 0xeaa370, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method UnpackWord, addr 0xed5200, size 0xf0, virtual false, abstract: false, final false
   inline void UnpackWord(int64_t r, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method ProcessLength, addr 0xeaa460, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ProcessLength, addr 0xed52f0, size 0x2c, virtual false, abstract: false, final false
   inline void ProcessLength(int64_t bitLength);
 
-  /// @brief Method Finish, addr 0xeaa48c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Finish, addr 0xed531c, size 0x4c, virtual false, abstract: false, final false
   inline void Finish();
 
-  /// @brief Method DoFinal, addr 0xeaa4d8, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method DoFinal, addr 0xed5368, size 0x60, virtual true, abstract: false, final true
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset, addr 0xea9520, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0xed43b0, size 0xa4, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method Copy, addr 0xeaa538, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method Copy, addr 0xed53c8, size 0x60, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Utilities::IMemoable* Copy();
 
-  /// @brief Method Reset, addr 0xea9658, size 0xe8, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0xed44e8, size 0xe8, virtual true, abstract: false, final true
   inline void Reset(::Org::BouncyCastle::Utilities::IMemoable* other);
 
   // Ctor Parameters [CppParam { name: "", ty: "TigerDigest", modifiers: "&&", def_value: None }]

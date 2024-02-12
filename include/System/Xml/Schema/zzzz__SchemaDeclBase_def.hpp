@@ -41,7 +41,7 @@ MARK_REF_PTR_T(::System::Xml::Schema::SchemaDeclBase);
 namespace System::Xml::Schema {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11702))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11600))
 // CS Name: ::SchemaDeclBase::Use
 struct CORDL_TYPE __SchemaDeclBase__Use {
 public:
@@ -102,8 +102,8 @@ static_assert(offsetof(::System::Xml::Schema::__SchemaDeclBase__Use, value__) ==
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11702))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11703))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11600))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11601))
 // CS Name: ::System.Xml.Schema::SchemaDeclBase*
 class CORDL_TYPE SchemaDeclBase : public ::System::Object {
 public:
@@ -229,54 +229,54 @@ public:
 
   static inline ::System::Xml::Schema::SchemaDeclBase* New_ctor(::System::Xml::XmlQualifiedName* name, ::StringW prefix);
 
-  /// @brief Method .ctor, addr 0x28c435c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28c69c4, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlQualifiedName* name, ::StringW prefix);
 
   static inline ::System::Xml::Schema::SchemaDeclBase* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28c43e8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28c6a50, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Name, addr 0x28c4984, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x28c6fec, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* get_Name();
 
-  /// @brief Method get_Prefix, addr 0x28c44a4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_Prefix, addr 0x28c6b0c, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_Prefix();
 
-  /// @brief Method get_IsDeclaredInExternal, addr 0x28c498c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDeclaredInExternal, addr 0x28c6ff4, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDeclaredInExternal();
 
-  /// @brief Method set_IsDeclaredInExternal, addr 0x28c4994, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsDeclaredInExternal, addr 0x28c6ffc, size 0xc, virtual false, abstract: false, final false
   inline void set_IsDeclaredInExternal(bool value);
 
-  /// @brief Method get_Presence, addr 0x28c49a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Presence, addr 0x28c7008, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::__SchemaDeclBase__Use get_Presence();
 
-  /// @brief Method set_Presence, addr 0x28c49a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Presence, addr 0x28c7010, size 0x8, virtual false, abstract: false, final false
   inline void set_Presence(::System::Xml::Schema::__SchemaDeclBase__Use value);
 
-  /// @brief Method set_SchemaType, addr 0x28c49b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SchemaType, addr 0x28c7018, size 0x8, virtual false, abstract: false, final false
   inline void set_SchemaType(::System::Xml::Schema::XmlSchemaType* value);
 
-  /// @brief Method get_Datatype, addr 0x28c49b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Datatype, addr 0x28c7020, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaDatatype* get_Datatype();
 
-  /// @brief Method set_Datatype, addr 0x28c49c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Datatype, addr 0x28c7028, size 0x8, virtual false, abstract: false, final false
   inline void set_Datatype(::System::Xml::Schema::XmlSchemaDatatype* value);
 
-  /// @brief Method AddValue, addr 0x28c49c8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method AddValue, addr 0x28c7030, size 0xf0, virtual false, abstract: false, final false
   inline void AddValue(::StringW value);
 
-  /// @brief Method get_Values, addr 0x28c4ab8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Values, addr 0x28c7120, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::StringW>* get_Values();
 
-  /// @brief Method get_DefaultValueRaw, addr 0x28c4ac0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultValueRaw, addr 0x28c7128, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_DefaultValueRaw();
 
-  /// @brief Method get_DefaultValueTyped, addr 0x28c4b14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultValueTyped, addr 0x28c717c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_DefaultValueTyped();
 
-  /// @brief Method set_DefaultValueTyped, addr 0x28c4b1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DefaultValueTyped, addr 0x28c7184, size 0x8, virtual false, abstract: false, final false
   inline void set_DefaultValueTyped(::System::Object* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "SchemaDeclBase", modifiers: "&&", def_value: None }]

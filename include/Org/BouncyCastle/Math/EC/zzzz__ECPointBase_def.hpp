@@ -37,7 +37,7 @@ public:
   static inline ::Org::BouncyCastle::Math::EC::ECPointBase* New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x,
                                                                      ::Org::BouncyCastle::Math::EC::ECFieldElement* y, bool withCompression);
 
-  /// @brief Method .ctor, addr 0xfd0ac8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xffd958, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y, bool withCompression);
 
   static inline ::Org::BouncyCastle::Math::EC::ECPointBase* New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x,
@@ -45,14 +45,14 @@ public:
                                                                      ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> zs,
                                                                      bool withCompression);
 
-  /// @brief Method .ctor, addr 0xfd0b4c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xffd9dc, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y,
                     ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> zs, bool withCompression);
 
-  /// @brief Method GetEncoded, addr 0xfd0be8, size 0x1b8, virtual true, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0xffda78, size 0x1b8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded(bool compressed);
 
-  /// @brief Method Multiply, addr 0xfd0da0, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method Multiply, addr 0xffdc30, size 0xd0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Multiply(::Org::BouncyCastle::Math::BigInteger* k);
 
   // Ctor Parameters [CppParam { name: "", ty: "ECPointBase", modifiers: "&&", def_value: None }]

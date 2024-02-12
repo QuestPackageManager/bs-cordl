@@ -35,18 +35,18 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Cms::CmsAuthenticatedDataGenerator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x11d984c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12076dc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Cms::CmsAuthenticatedDataGenerator* New_ctor(::Org::BouncyCastle::Security::SecureRandom* rand);
 
-  /// @brief Method .ctor, addr 0x11d9850, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12076e0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* rand);
 
-  /// @brief Method Generate, addr 0x11d9854, size 0xb40, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x12076e4, size 0xb40, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::CmsAuthenticatedData* Generate(::Org::BouncyCastle::Cms::CmsProcessable* content, ::StringW macOid, ::Org::BouncyCastle::Crypto::CipherKeyGenerator* keyGen);
 
-  /// @brief Method Generate, addr 0x11da394, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x1208224, size 0x1b4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::CmsAuthenticatedData* Generate(::Org::BouncyCastle::Cms::CmsProcessable* content, ::StringW encryptionOid);
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsAuthenticatedDataGenerator", modifiers: "&&", def_value: None }]

@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLocalInactivePlayerOutroAnimator);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5163))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4505))
 // CS Name: ::MultiplayerLocalInactivePlayerOutroAnimator*
 class CORDL_TYPE MultiplayerLocalInactivePlayerOutroAnimator : public ::UnityEngine::MonoBehaviour {
 public:
@@ -44,12 +44,12 @@ public:
 
   constexpr void __cordl_internal_set__multiplayerController(::UnityW<::GlobalNamespace::MultiplayerController> value);
 
-  /// @brief Method Start, addr 0x23dd26c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x239bc5c, size 0x3c, virtual false, abstract: false, final false
   inline void Start();
 
   static inline ::GlobalNamespace::MultiplayerLocalInactivePlayerOutroAnimator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23dd2a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x239bc98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalInactivePlayerOutroAnimator", modifiers: "&&", def_value: None }]

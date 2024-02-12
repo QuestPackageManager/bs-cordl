@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IRemoteProcedureCall);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12812))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12710))
 // CS Name: ::IRemoteProcedureCall*
 class CORDL_TYPE IRemoteProcedureCall {
 public:

@@ -30,7 +30,7 @@ namespace TMPro {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12395))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12293))
 // CS Name: ::TMP_ListPool`1::<>c<T>*
 class CORDL_TYPE __TMP_ListPool_1____c : public ::System::Object {
 public:
@@ -75,7 +75,7 @@ namespace TMPro {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12396))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12294))
 // CS Name: ::TMPro::TMP_ListPool`1<T>*
 class CORDL_TYPE TMP_ListPool_1 : public ::System::Object {
 public:

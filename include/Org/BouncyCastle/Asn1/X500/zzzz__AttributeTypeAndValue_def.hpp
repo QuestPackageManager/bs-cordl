@@ -59,24 +59,24 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X500::AttributeTypeAndValue* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0x107f660, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10ac4f0, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance, addr 0x107f740, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x10ac5d0, size 0xf0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X500::AttributeTypeAndValue* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X500::AttributeTypeAndValue* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* type, ::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method .ctor, addr 0x107f830, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10ac6c0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* type, ::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method get_Type, addr 0x107f85c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x10ac6ec, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_Type();
 
-  /// @brief Method get_Value, addr 0x107f864, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x10ac6f4, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Value();
 
-  /// @brief Method ToAsn1Object, addr 0x107f86c, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x10ac6fc, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "AttributeTypeAndValue", modifiers: "&&", def_value: None }]

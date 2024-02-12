@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::System::Globalization::Bootstring);
 namespace System::Globalization {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3724))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3722))
 // CS Name: ::System.Globalization::Bootstring*
 class CORDL_TYPE Bootstring : public ::System::Object {
 public:
@@ -96,22 +96,22 @@ public:
 
   static inline ::System::Globalization::Bootstring* New_ctor(char16_t delimiter, int32_t baseNum, int32_t tmin, int32_t tmax, int32_t skew, int32_t damp, int32_t initialBias, int32_t initialN);
 
-  /// @brief Method .ctor, addr 0x2579314, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x259c204, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(char16_t delimiter, int32_t baseNum, int32_t tmin, int32_t tmax, int32_t skew, int32_t damp, int32_t initialBias, int32_t initialN);
 
-  /// @brief Method Encode, addr 0x25788b4, size 0x344, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x259b7a4, size 0x344, virtual false, abstract: false, final false
   inline ::StringW Encode(::StringW s, int32_t offset);
 
-  /// @brief Method EncodeDigit, addr 0x2579380, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method EncodeDigit, addr 0x259c270, size 0x18, virtual false, abstract: false, final false
   inline char16_t EncodeDigit(int32_t d);
 
-  /// @brief Method DecodeDigit, addr 0x2579410, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method DecodeDigit, addr 0x259c300, size 0x38, virtual false, abstract: false, final false
   inline int32_t DecodeDigit(char16_t c);
 
-  /// @brief Method Adapt, addr 0x2579398, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Adapt, addr 0x259c288, size 0x78, virtual false, abstract: false, final false
   inline int32_t Adapt(int32_t delta, int32_t numPoints, bool firstTime);
 
-  /// @brief Method Decode, addr 0x257903c, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x259bf2c, size 0x2d8, virtual false, abstract: false, final false
   inline ::StringW Decode(::StringW s, int32_t offset);
 
   // Ctor Parameters [CppParam { name: "", ty: "Bootstring", modifiers: "&&", def_value: None }]

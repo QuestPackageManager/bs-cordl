@@ -71,16 +71,16 @@ public:
 
   static inline ::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet* New_ctor();
 
-  /// @brief Method .ctor, addr 0x115b08c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1188f1c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Add, addr 0x115b094, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x1188f24, size 0x40, virtual true, abstract: false, final false
   inline void Add(::System::Object* o);
 
-  /// @brief Method AddAll, addr 0x115b0d4, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method AddAll, addr 0x1188f64, size 0x40, virtual true, abstract: false, final false
   inline void AddAll(::System::Collections::IEnumerable* e);
 
-  /// @brief Method Clear, addr 0x115b114, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method Clear, addr 0x1188fa4, size 0x40, virtual true, abstract: false, final false
   inline void Clear();
 
   /// @brief Method Contains, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -101,7 +101,7 @@ public:
   /// @brief Method get_IsFixedSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsFixedSize();
 
-  /// @brief Method get_IsReadOnly, addr 0x115b154, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x1188fe4, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
   /// @brief Method get_IsSynchronized, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -110,10 +110,10 @@ public:
   /// @brief Method get_SyncRoot, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* get_SyncRoot();
 
-  /// @brief Method Remove, addr 0x115b15c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method Remove, addr 0x1188fec, size 0x40, virtual true, abstract: false, final false
   inline void Remove(::System::Object* o);
 
-  /// @brief Method RemoveAll, addr 0x115b19c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method RemoveAll, addr 0x118902c, size 0x40, virtual true, abstract: false, final false
   inline void RemoveAll(::System::Collections::IEnumerable* e);
 
   // Ctor Parameters [CppParam { name: "", ty: "UnmodifiableSet", modifiers: "&&", def_value: None }]

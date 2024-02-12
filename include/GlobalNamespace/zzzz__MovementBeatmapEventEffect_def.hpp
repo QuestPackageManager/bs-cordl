@@ -42,8 +42,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__MovementBeatmapEventEffect__MovementData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4988))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8993))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4342))
 // CS Name: ::MovementBeatmapEventEffect::MovementData*
 class CORDL_TYPE __MovementBeatmapEventEffect__MovementData : public ::System::Object {
 public:
@@ -59,12 +59,12 @@ public:
 
   constexpr void __cordl_internal_set__localPositionOffset(::UnityEngine::Vector3 value);
 
-  /// @brief Method get_localPositionOffset, addr 0x23b4e1c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_localPositionOffset, addr 0x2373f5c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_localPositionOffset();
 
   static inline ::GlobalNamespace::__MovementBeatmapEventEffect__MovementData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23b4e28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2373f68, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MovementBeatmapEventEffect__MovementData", modifiers: "&&", def_value: None }]
@@ -96,8 +96,8 @@ static_assert(offsetof(::GlobalNamespace::__MovementBeatmapEventEffect__Movement
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(14724))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4989))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(15108))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4343))
 // CS Name: ::MovementBeatmapEventEffect*
 class CORDL_TYPE MovementBeatmapEventEffect : public ::UnityEngine::MonoBehaviour {
 public:
@@ -202,27 +202,27 @@ public:
 
   constexpr void __cordl_internal_set__beatmapDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
 
-  /// @brief Method Start, addr 0x23b4970, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2373ab0, size 0x1f8, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy, addr 0x23b4c24, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2373d64, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method FixedUpdate, addr 0x23b4c40, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method FixedUpdate, addr 0x2373d80, size 0x110, virtual false, abstract: false, final false
   inline void FixedUpdate();
 
-  /// @brief Method LateUpdate, addr 0x23b4d50, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x2373e90, size 0x8c, virtual false, abstract: false, final false
   inline void LateUpdate();
 
-  /// @brief Method HandleBeatmapEvent, addr 0x23b4ddc, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0x2373f1c, size 0x38, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
-  /// @brief Method SetLocalPositionOffsetsForAllObjects, addr 0x23b4b68, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method SetLocalPositionOffsetsForAllObjects, addr 0x2373ca8, size 0xbc, virtual false, abstract: false, final false
   inline void SetLocalPositionOffsetsForAllObjects(::UnityEngine::Vector3 localPositionOffset);
 
   static inline ::GlobalNamespace::MovementBeatmapEventEffect* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23b4e14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2373f54, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MovementBeatmapEventEffect", modifiers: "&&", def_value: None }]

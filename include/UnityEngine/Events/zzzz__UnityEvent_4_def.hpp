@@ -30,8 +30,8 @@ namespace UnityEngine::Events {
 // cpp template
 template <typename T0, typename T1, typename T2, typename T3>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10461))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10469))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9230))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9238))
 // CS Name: ::UnityEngine.Events::UnityEvent`4<T0,T1,T2,T3>*
 class CORDL_TYPE UnityEvent_4 : public ::UnityEngine::Events::UnityEventBase {
 public:

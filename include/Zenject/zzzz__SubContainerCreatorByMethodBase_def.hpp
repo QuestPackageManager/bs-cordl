@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::Zenject::SubContainerCreatorByMethodBase);
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11246))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10388))
 // CS Name: ::Zenject::SubContainerCreatorByMethodBase*
 class CORDL_TYPE SubContainerCreatorByMethodBase : public ::System::Object {
 public:
@@ -64,13 +64,13 @@ public:
 
   static inline ::Zenject::SubContainerCreatorByMethodBase* New_ctor(::Zenject::DiContainer* container, ::Zenject::SubContainerCreatorBindInfo* containerBindInfo);
 
-  /// @brief Method .ctor, addr 0x2f0b764, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f278ac, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::Zenject::SubContainerCreatorBindInfo* containerBindInfo);
 
   /// @brief Method CreateSubContainer, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Zenject::DiContainer* CreateSubContainer(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::InjectContext* context);
 
-  /// @brief Method CreateEmptySubContainer, addr 0x2f0b790, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method CreateEmptySubContainer, addr 0x2f278d8, size 0x3c, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* CreateEmptySubContainer();
 
   // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByMethodBase", modifiers: "&&", def_value: None }]

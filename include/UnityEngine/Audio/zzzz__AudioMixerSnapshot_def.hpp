@@ -3,7 +3,14 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Object_def.hpp"
+#include <cmath>
 CORDL_MODULE_EXPORT(AudioMixerSnapshot)
+namespace UnityEngine::Audio {
+class AudioMixer;
+}
+namespace UnityEngine::Internal {
+class ISubAssetNotDuplicatable;
+}
 // Forward declare root types
 namespace UnityEngine::Audio {
 class AudioMixerSnapshot;
@@ -14,12 +21,31 @@ MARK_REF_PTR_T(::UnityEngine::Audio::AudioMixerSnapshot);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Audio {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10200))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15606))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8944))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15317))
 // CS Name: ::UnityEngine.Audio::AudioMixerSnapshot*
 class CORDL_TYPE AudioMixerSnapshot : public ::UnityEngine::Object {
 public:
   // Declarations
+  __declspec(property(get = get_audioMixer))::UnityW<::UnityEngine::Audio::AudioMixer> audioMixer;
+
+  /// @brief Convert operator to "::UnityEngine::Internal::ISubAssetNotDuplicatable"
+  constexpr operator ::UnityEngine::Internal::ISubAssetNotDuplicatable*() noexcept;
+
+  /// @brief Convert to "::UnityEngine::Internal::ISubAssetNotDuplicatable"
+  constexpr ::UnityEngine::Internal::ISubAssetNotDuplicatable* i___UnityEngine__Internal__ISubAssetNotDuplicatable() noexcept;
+
+  static inline ::UnityEngine::Audio::AudioMixerSnapshot* New_ctor();
+
+  /// @brief Method .ctor, addr 0x2c9c980, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method get_audioMixer, addr 0x2c9c720, size 0x3c, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Audio::AudioMixer> get_audioMixer();
+
+  /// @brief Method TransitionTo, addr 0x2c9c9d8, size 0x5c, virtual false, abstract: false, final false
+  inline void TransitionTo(float_t timeToReach);
+
   // Ctor Parameters [CppParam { name: "", ty: "AudioMixerSnapshot", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AudioMixerSnapshot(AudioMixerSnapshot&&) = delete;

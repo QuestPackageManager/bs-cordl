@@ -42,8 +42,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorNoteVisuals);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4740))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8995))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4091))
 // CS Name: ::ColorNoteVisuals*
 class CORDL_TYPE ColorNoteVisuals : public ::UnityEngine::MonoBehaviour {
 public:
@@ -158,36 +158,36 @@ public:
 
   static inline int32_t getStaticF__colorId();
 
-  /// @brief Method add_didInitEvent, addr 0x2384c18, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didInitEvent, addr 0x22cbbc0, size 0xb0, virtual false, abstract: false, final false
   inline void add_didInitEvent(::System::Action_2<::UnityW<::GlobalNamespace::ColorNoteVisuals>, ::UnityW<::GlobalNamespace::NoteControllerBase>>* value);
 
-  /// @brief Method remove_didInitEvent, addr 0x2384cc8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didInitEvent, addr 0x22cbc70, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didInitEvent(::System::Action_2<::UnityW<::GlobalNamespace::ColorNoteVisuals>, ::UnityW<::GlobalNamespace::NoteControllerBase>>* value);
 
-  /// @brief Method set_showArrow, addr 0x2384d78, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_showArrow, addr 0x22cbd20, size 0x68, virtual false, abstract: false, final false
   inline void set_showArrow(bool value);
 
-  /// @brief Method set_showCircle, addr 0x2384de0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_showCircle, addr 0x22cbd88, size 0x68, virtual false, abstract: false, final false
   inline void set_showCircle(bool value);
 
-  /// @brief Method Awake, addr 0x2384e48, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x22cbdf0, size 0x1d0, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnDestroy, addr 0x2385018, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x22cbfc0, size 0x220, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleNoteControllerDidInit, addr 0x2385238, size 0x178, virtual true, abstract: false, final true
+  /// @brief Method HandleNoteControllerDidInit, addr 0x22cc1e0, size 0x178, virtual true, abstract: false, final true
   inline void HandleNoteControllerDidInit(::GlobalNamespace::NoteControllerBase* noteController);
 
-  /// @brief Method HandleNoteControllerNoteDidPassJumpThreeQuarters, addr 0x23853b0, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method HandleNoteControllerNoteDidPassJumpThreeQuarters, addr 0x22cc358, size 0x20, virtual true, abstract: false, final true
   inline void HandleNoteControllerNoteDidPassJumpThreeQuarters(::GlobalNamespace::NoteControllerBase* noteController);
 
-  /// @brief Method HandleNoteControllerNoteDidStartDissolving, addr 0x23853d0, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method HandleNoteControllerNoteDidStartDissolving, addr 0x22cc378, size 0x20, virtual true, abstract: false, final true
   inline void HandleNoteControllerNoteDidStartDissolving(::GlobalNamespace::NoteControllerBase* noteController, float_t duration);
 
   static inline ::GlobalNamespace::ColorNoteVisuals* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23853f0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22cc398, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ColorNoteVisuals", modifiers: "&&", def_value: None }]

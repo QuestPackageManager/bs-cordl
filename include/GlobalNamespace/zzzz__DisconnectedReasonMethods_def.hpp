@@ -19,15 +19,15 @@ MARK_REF_PTR_T(::GlobalNamespace::DisconnectedReasonMethods);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4486))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10912))
 // CS Name: ::DisconnectedReasonMethods*
 class CORDL_TYPE DisconnectedReasonMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method LocalizedKey, addr 0x2355a4c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method LocalizedKey, addr 0x1299a24, size 0xa8, virtual false, abstract: false, final false
   static inline ::StringW LocalizedKey(::GlobalNamespace::DisconnectedReason connectionFailedReason);
 
-  /// @brief Method ErrorCode, addr 0x2355af4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ErrorCode, addr 0x1299acc, size 0x80, virtual false, abstract: false, final false
   static inline ::StringW ErrorCode(::GlobalNamespace::DisconnectedReason disconnectedReason);
 
   // Ctor Parameters [CppParam { name: "", ty: "DisconnectedReasonMethods", modifiers: "&&", def_value: None }]

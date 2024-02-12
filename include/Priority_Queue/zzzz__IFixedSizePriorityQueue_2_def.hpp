@@ -26,7 +26,7 @@ namespace Priority_Queue {
 template <typename TItem, typename TPriority>
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6097))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15228))
 // CS Name: ::Priority_Queue::IFixedSizePriorityQueue`2<TItem,TPriority>*
 class CORDL_TYPE IFixedSizePriorityQueue_2 {
 public:

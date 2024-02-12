@@ -46,7 +46,7 @@ namespace UnityEngine::InputSystem::Utilities {
 template <typename TValue>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6687))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5946))
 // CS Name: ::Observable::<>c__DisplayClass6_0`1<TValue>*
 class CORDL_TYPE __Observable____c__DisplayClass6_0_1 : public ::System::Object {
 public:
@@ -94,7 +94,7 @@ public:
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6688))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5947))
 // CS Name: ::UnityEngine.InputSystem.Utilities::Observable*
 class CORDL_TYPE Observable : public ::System::Object {
 public:
@@ -114,7 +114,7 @@ public:
   /// @brief Method Take, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue> static inline ::System::IObservable_1<TValue>* Take(::System::IObservable_1<TValue>* source, int32_t count);
 
-  /// @brief Method ForDevice, addr 0x2b15fc0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ForDevice, addr 0x2b15b2c, size 0xbc, virtual false, abstract: false, final false
   static inline ::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* ForDevice(::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* source,
                                                                                                         ::UnityEngine::InputSystem::InputDevice* device);
 

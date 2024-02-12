@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::SelectPathFaces);
 namespace UnityEngine::ProBuilder {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12193))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12091))
 // CS Name: ::UnityEngine.ProBuilder::SelectPathFaces*
 class CORDL_TYPE SelectPathFaces : public ::System::Object {
 public:
@@ -81,16 +81,16 @@ public:
 
   static inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Face*, int32_t>* getStaticF_s_cachedFacesIndex();
 
-  /// @brief Method GetPath, addr 0x2b6b4a8, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method GetPath, addr 0x2b6a014, size 0x2b0, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<int32_t>* GetPath(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, int32_t start, int32_t end);
 
-  /// @brief Method Dijkstra, addr 0x2b6b874, size 0x6cc, virtual false, abstract: false, final false
+  /// @brief Method Dijkstra, addr 0x2b6a3e0, size 0x6cc, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> Dijkstra(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, int32_t start);
 
-  /// @brief Method GetWeight, addr 0x2b6bf40, size 0x494, virtual false, abstract: false, final false
+  /// @brief Method GetWeight, addr 0x2b6aaac, size 0x494, virtual false, abstract: false, final false
   static inline float_t GetWeight(int32_t face1, int32_t face2, ::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
 
-  /// @brief Method GetMinimalPath, addr 0x2b6b758, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method GetMinimalPath, addr 0x2b6a2c4, size 0x11c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<int32_t>* GetMinimalPath(::ArrayW<int32_t, ::Array<int32_t>*> predecessors, int32_t start, int32_t end);
 
   // Ctor Parameters [CppParam { name: "", ty: "SelectPathFaces", modifiers: "&&", def_value: None }]

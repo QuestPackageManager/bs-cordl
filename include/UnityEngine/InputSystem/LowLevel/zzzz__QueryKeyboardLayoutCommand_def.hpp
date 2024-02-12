@@ -35,7 +35,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::__QueryKeyboardLayoutCommand___
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6475))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5734))
 // CS Name: ::QueryKeyboardLayoutCommand::<nameBuffer>e__FixedBuffer
 #pragma pack(push, 0)
 struct CORDL_TYPE __QueryKeyboardLayoutCommand___nameBuffer_e__FixedBuffer {
@@ -71,8 +71,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__QueryKeyboardLayo
 // }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6471)), TypeDefinitionIndex(TypeDefinitionIndex(6475))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6476))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5730)), TypeDefinitionIndex(TypeDefinitionIndex(5734))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5735))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::QueryKeyboardLayoutCommand
 #pragma pack(push, 0)
 struct CORDL_TYPE QueryKeyboardLayoutCommand {
@@ -107,19 +107,19 @@ public:
 
   constexpr void __cordl_internal_set_nameBuffer(::UnityEngine::InputSystem::LowLevel::__QueryKeyboardLayoutCommand___nameBuffer_e__FixedBuffer value);
 
-  /// @brief Method get_Type, addr 0x2ae7c98, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x2ae9804, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();
 
-  /// @brief Method ReadLayoutName, addr 0x2ae7cc8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ReadLayoutName, addr 0x2ae9834, size 0x10, virtual false, abstract: false, final false
   inline ::StringW ReadLayoutName();
 
-  /// @brief Method WriteLayoutName, addr 0x2ae7cd8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method WriteLayoutName, addr 0x2ae9844, size 0x24, virtual false, abstract: false, final false
   inline void WriteLayoutName(::StringW name);
 
-  /// @brief Method get_typeStatic, addr 0x2ae7cfc, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x2ae9868, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
-  /// @brief Method Create, addr 0x2ae7d2c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2ae9898, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::QueryKeyboardLayoutCommand Create();
 
   // Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: None }, CppParam { name: "nameBuffer", ty:

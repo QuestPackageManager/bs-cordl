@@ -70,22 +70,22 @@ public:
   static inline ::Org::BouncyCastle::Bcpg::SignatureSubpacket* New_ctor(::Org::BouncyCastle::Bcpg::SignatureSubpacketTag type, bool critical, bool isLongLength,
                                                                         ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0x11c71fc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11f508c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::SignatureSubpacketTag type, bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method get_SubpacketType, addr 0x11c7244, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SubpacketType, addr 0x11f50d4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag get_SubpacketType();
 
-  /// @brief Method IsCritical, addr 0x11c724c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsCritical, addr 0x11f50dc, size 0x8, virtual false, abstract: false, final false
   inline bool IsCritical();
 
-  /// @brief Method IsLongLength, addr 0x11c7254, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsLongLength, addr 0x11f50e4, size 0x8, virtual false, abstract: false, final false
   inline bool IsLongLength();
 
-  /// @brief Method GetData, addr 0x11c725c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetData, addr 0x11f50ec, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetData();
 
-  /// @brief Method Encode, addr 0x11c72d4, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x11f5164, size 0x144, virtual false, abstract: false, final false
   inline void Encode(::System::IO::Stream* os);
 
   // Ctor Parameters [CppParam { name: "", ty: "SignatureSubpacket", modifiers: "&&", def_value: None }]

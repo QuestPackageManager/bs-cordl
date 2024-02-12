@@ -42,7 +42,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__SongProfilingController___ProfileCoroutine_d
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5380))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4034))
 // CS Name: ::SongProfilingController::<ProfileCoroutine>d__8*
 class CORDL_TYPE __SongProfilingController___ProfileCoroutine_d__8 : public ::System::Object {
 public:
@@ -143,22 +143,22 @@ public:
 
   static inline ::GlobalNamespace::__SongProfilingController___ProfileCoroutine_d__8* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor, addr 0x226ddd8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22bb9f8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x226e060, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x22bbc80, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext, addr 0x226e064, size 0x2dc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x22bbc84, size 0x2dc, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x226e340, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x22bbf60, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x226e348, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x22bbf68, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x226e388, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x22bbfa8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__SongProfilingController___ProfileCoroutine_d__8", modifiers: "&&", def_value: None }]
@@ -225,8 +225,8 @@ static_assert(offsetof(::GlobalNamespace::__SongProfilingController___ProfileCor
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5381))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4035))
 // CS Name: ::SongProfilingController*
 class CORDL_TYPE SongProfilingController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -251,33 +251,33 @@ public:
 
   constexpr void __cordl_internal_set__fps(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  /// @brief Method FinishProfiling, addr 0x226dbb0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method FinishProfiling, addr 0x22bb7d0, size 0x9c, virtual false, abstract: false, final false
   inline void FinishProfiling();
 
-  /// @brief Method Start, addr 0x226dc4c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x22bb86c, size 0x94, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy, addr 0x226ddd4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x22bb9f4, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method ProfileCoroutine, addr 0x226dd60, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ProfileCoroutine, addr 0x22bb980, size 0x74, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* ProfileCoroutine(::StringW folderName);
 
-  /// @brief Method CreateCaptureFolder, addr 0x226dce0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method CreateCaptureFolder, addr 0x22bb900, size 0x74, virtual false, abstract: false, final false
   inline void CreateCaptureFolder(::StringW folderName);
 
-  /// @brief Method SetupProfiler, addr 0x226dd54, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetupProfiler, addr 0x22bb974, size 0xc, virtual false, abstract: false, final false
   inline void SetupProfiler();
 
-  /// @brief Method CreateLogPath, addr 0x226de00, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method CreateLogPath, addr 0x22bba20, size 0x14c, virtual false, abstract: false, final false
   inline ::StringW CreateLogPath(::StringW folder, float_t startTime);
 
-  /// @brief Method StartProfilingToFile, addr 0x226df4c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method StartProfilingToFile, addr 0x22bbb6c, size 0xbc, virtual false, abstract: false, final false
   inline void StartProfilingToFile(::StringW filePath);
 
   static inline ::GlobalNamespace::SongProfilingController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x226e008, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22bbc28, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SongProfilingController", modifiers: "&&", def_value: None }]

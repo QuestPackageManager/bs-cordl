@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIDocumentList);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7014))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6273))
 // CS Name: ::UnityEngine.UIElements::UIDocumentList*
 class CORDL_TYPE UIDocumentList : public ::System::Object {
 public:
@@ -40,15 +40,15 @@ public:
 
   constexpr void __cordl_internal_set_m_AttachedUIDocuments(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::UIDocument>>* value);
 
-  /// @brief Method RemoveFromListAndFromVisualTree, addr 0x2e14f44, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method RemoveFromListAndFromVisualTree, addr 0x2e3232c, size 0x78, virtual false, abstract: false, final false
   inline void RemoveFromListAndFromVisualTree(::UnityEngine::UIElements::UIDocument* uiDocument);
 
-  /// @brief Method AddToListAndToVisualTree, addr 0x2e14fc4, size 0x354, virtual false, abstract: false, final false
+  /// @brief Method AddToListAndToVisualTree, addr 0x2e323ac, size 0x354, virtual false, abstract: false, final false
   inline void AddToListAndToVisualTree(::UnityEngine::UIElements::UIDocument* uiDocument, ::UnityEngine::UIElements::VisualElement* visualTree, int32_t firstInsertIndex);
 
   static inline ::UnityEngine::UIElements::UIDocumentList* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e15318, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e32700, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "UIDocumentList", modifiers: "&&", def_value: None }]

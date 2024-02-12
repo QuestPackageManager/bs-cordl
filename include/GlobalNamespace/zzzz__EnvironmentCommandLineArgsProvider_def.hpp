@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::GlobalNamespace::EnvironmentCommandLineArgsProvider);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5953))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5226))
 // CS Name: ::EnvironmentCommandLineArgsProvider*
 class CORDL_TYPE EnvironmentCommandLineArgsProvider : public ::System::Object {
 public:
@@ -31,12 +31,12 @@ public:
   /// @brief Convert to "::GlobalNamespace::ICommandLineArgsProvider"
   constexpr ::GlobalNamespace::ICommandLineArgsProvider* i___GlobalNamespace__ICommandLineArgsProvider() noexcept;
 
-  /// @brief Method GetCommandLineArgs, addr 0x23050dc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetCommandLineArgs, addr 0x2332e8c, size 0x8, virtual true, abstract: false, final true
   inline ::ArrayW<::StringW, ::Array<::StringW>*> GetCommandLineArgs();
 
   static inline ::GlobalNamespace::EnvironmentCommandLineArgsProvider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2305164, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2332f14, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EnvironmentCommandLineArgsProvider", modifiers: "&&", def_value: None }]

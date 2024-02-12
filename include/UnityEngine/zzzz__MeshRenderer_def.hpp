@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::UnityEngine::MeshRenderer);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10064))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10067))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8796))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8799))
 // CS Name: ::UnityEngine::MeshRenderer*
 class CORDL_TYPE MeshRenderer : public ::UnityEngine::Renderer {
 public:
@@ -30,27 +30,27 @@ public:
 
   __declspec(property(get = get_subMeshStartIndex)) int32_t subMeshStartIndex;
 
-  /// @brief Method DontStripMeshRenderer, addr 0x2ca4234, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method DontStripMeshRenderer, addr 0x2ca5bc4, size 0x4, virtual false, abstract: false, final false
   inline void DontStripMeshRenderer();
 
-  /// @brief Method get_additionalVertexStreams, addr 0x2ca4238, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_additionalVertexStreams, addr 0x2ca5bc8, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_additionalVertexStreams();
 
-  /// @brief Method set_additionalVertexStreams, addr 0x2ca4274, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_additionalVertexStreams, addr 0x2ca5c04, size 0x44, virtual false, abstract: false, final false
   inline void set_additionalVertexStreams(::UnityEngine::Mesh* value);
 
-  /// @brief Method get_enlightenVertexStream, addr 0x2ca42b8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_enlightenVertexStream, addr 0x2ca5c48, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_enlightenVertexStream();
 
-  /// @brief Method set_enlightenVertexStream, addr 0x2ca42f4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_enlightenVertexStream, addr 0x2ca5c84, size 0x44, virtual false, abstract: false, final false
   inline void set_enlightenVertexStream(::UnityEngine::Mesh* value);
 
-  /// @brief Method get_subMeshStartIndex, addr 0x2ca4338, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_subMeshStartIndex, addr 0x2ca5cc8, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_subMeshStartIndex();
 
   static inline ::UnityEngine::MeshRenderer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ca4374, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ca5d04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MeshRenderer", modifiers: "&&", def_value: None }]

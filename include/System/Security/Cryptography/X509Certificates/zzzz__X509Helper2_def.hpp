@@ -27,24 +27,24 @@ MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509Helper2);
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9014))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7024))
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509Helper2*
 class CORDL_TYPE X509Helper2 : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetMonoCertificate, addr 0x2985260, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method GetMonoCertificate, addr 0x2988d04, size 0xd4, virtual false, abstract: false, final false
   static inline ::Mono::Security::X509::X509Certificate* GetMonoCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
 
-  /// @brief Method CreateChainImpl, addr 0x2985334, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method CreateChainImpl, addr 0x2988dd8, size 0x64, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::X509Certificates::X509ChainImpl* CreateChainImpl(bool useMachineContext);
 
-  /// @brief Method IsValid, addr 0x2985398, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x2988e3c, size 0x14, virtual false, abstract: false, final false
   static inline bool IsValid(::System::Security::Cryptography::X509Certificates::X509ChainImpl* impl);
 
-  /// @brief Method ThrowIfContextInvalid, addr 0x29853ac, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method ThrowIfContextInvalid, addr 0x2988e50, size 0x40, virtual false, abstract: false, final false
   static inline void ThrowIfContextInvalid(::System::Security::Cryptography::X509Certificates::X509ChainImpl* impl);
 
-  /// @brief Method GetInvalidChainContextException, addr 0x29853ec, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetInvalidChainContextException, addr 0x2988e90, size 0x88, virtual false, abstract: false, final false
   static inline ::System::Exception* GetInvalidChainContextException();
 
   // Ctor Parameters [CppParam { name: "", ty: "X509Helper2", modifiers: "&&", def_value: None }]

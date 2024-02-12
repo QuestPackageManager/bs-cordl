@@ -16,7 +16,7 @@ MARK_VAL_T(::Oculus::Platform::LeaderboardFilterType);
 namespace Oculus::Platform {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13253))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13150))
 // CS Name: ::Oculus.Platform::LeaderboardFilterType
 struct CORDL_TYPE LeaderboardFilterType {
 public:

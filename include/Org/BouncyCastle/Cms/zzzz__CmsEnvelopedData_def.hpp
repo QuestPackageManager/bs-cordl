@@ -85,35 +85,35 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::CmsEnvelopedData* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> envelopedData);
 
-  /// @brief Method .ctor, addr 0x11dd734, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x120b5c4, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> envelopedData);
 
   static inline ::Org::BouncyCastle::Cms::CmsEnvelopedData* New_ctor(::System::IO::Stream* envelopedData);
 
-  /// @brief Method .ctor, addr 0x11dd89c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x120b72c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* envelopedData);
 
   static inline ::Org::BouncyCastle::Cms::CmsEnvelopedData* New_ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* contentInfo);
 
-  /// @brief Method .ctor, addr 0x11dd758, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x120b5e8, size 0x144, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* contentInfo);
 
-  /// @brief Method get_EncryptionAlgorithmID, addr 0x11dd8c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EncryptionAlgorithmID, addr 0x120b750, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_EncryptionAlgorithmID();
 
-  /// @brief Method get_EncryptionAlgOid, addr 0x11dd8c8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_EncryptionAlgOid, addr 0x120b758, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_EncryptionAlgOid();
 
-  /// @brief Method GetRecipientInfos, addr 0x11dd8f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetRecipientInfos, addr 0x120b784, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::RecipientInformationStore* GetRecipientInfos();
 
-  /// @brief Method get_ContentInfo, addr 0x11dd8fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContentInfo, addr 0x120b78c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::ContentInfo* get_ContentInfo();
 
-  /// @brief Method GetUnprotectedAttributes, addr 0x11dd904, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetUnprotectedAttributes, addr 0x120b794, size 0x74, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* GetUnprotectedAttributes();
 
-  /// @brief Method GetEncoded, addr 0x11dd978, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x120b808, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsEnvelopedData", modifiers: "&&", def_value: None }]

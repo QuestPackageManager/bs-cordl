@@ -64,19 +64,19 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory* New_ctor(::StringW algorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
 
-  /// @brief Method .ctor, addr 0xf2cd78, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf57c08, size 0x150, virtual false, abstract: false, final false
   inline void _ctor(::StringW algorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
 
   static inline ::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithm,
                                                                                       ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
 
-  /// @brief Method .ctor, addr 0xf2cec8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf57d58, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
 
-  /// @brief Method get_AlgorithmDetails, addr 0xf2cef4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_AlgorithmDetails, addr 0xf57d84, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* get_AlgorithmDetails();
 
-  /// @brief Method CreateCalculator, addr 0xf2cefc, size 0xe8, virtual true, abstract: false, final true
+  /// @brief Method CreateCalculator, addr 0xf57d8c, size 0xe8, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::IStreamCalculator* CreateCalculator();
 
   // Ctor Parameters [CppParam { name: "", ty: "Asn1VerifierFactory", modifiers: "&&", def_value: None }]

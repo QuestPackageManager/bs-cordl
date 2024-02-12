@@ -42,7 +42,7 @@ MARK_VAL_T(::System::Diagnostics::Tracing::__EventSource__EventData);
 namespace System::Diagnostics::Tracing {
 // Is value type: true
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3746))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3744))
 // CS Name: ::EventSource::EventData
 struct CORDL_TYPE __EventSource__EventData {
 public:
@@ -53,13 +53,13 @@ public:
 
   __declspec(property(put = set_Reserved)) int32_t Reserved;
 
-  /// @brief Method set_DataPointer, addr 0x257bf04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DataPointer, addr 0x259edf4, size 0x8, virtual false, abstract: false, final false
   inline void set_DataPointer(void* value);
 
-  /// @brief Method set_Size, addr 0x257bf0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Size, addr 0x259edfc, size 0x8, virtual false, abstract: false, final false
   inline void set_Size(int32_t value);
 
-  /// @brief Method set_Reserved, addr 0x257bf14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Reserved, addr 0x259ee04, size 0x8, virtual false, abstract: false, final false
   inline void set_Reserved(int32_t value);
 
   // Ctor Parameters [CppParam { name: "_DataPointer_k__BackingField", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "_Size_k__BackingField", ty: "int32_t", modifiers: "", def_value:
@@ -99,7 +99,7 @@ static_assert(offsetof(::System::Diagnostics::Tracing::__EventSource__EventData,
 namespace System::Diagnostics::Tracing {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3747))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3745))
 // CS Name: ::System.Diagnostics.Tracing::EventSource*
 class CORDL_TYPE EventSource : public ::System::Object {
 public:
@@ -125,56 +125,56 @@ public:
 
   static inline ::System::Diagnostics::Tracing::EventSource* New_ctor();
 
-  /// @brief Method .ctor, addr 0x257b90c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x259e7fc, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Diagnostics::Tracing::EventSource* New_ctor(::StringW eventSourceName);
 
-  /// @brief Method .ctor, addr 0x257b948, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x259e838, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW eventSourceName);
 
   static inline ::System::Diagnostics::Tracing::EventSource* New_ctor(::System::Guid eventSourceGuid, ::StringW eventSourceName);
 
-  /// @brief Method .ctor, addr 0x257b970, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x259e860, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Guid eventSourceGuid, ::StringW eventSourceName);
 
-  /// @brief Method Finalize, addr 0x257b998, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x259e888, size 0xa0, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method set_Name, addr 0x257ba38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x259e928, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
-  /// @brief Method IsEnabled, addr 0x257ba40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsEnabled, addr 0x259e930, size 0x8, virtual false, abstract: false, final false
   inline bool IsEnabled();
 
-  /// @brief Method IsEnabled, addr 0x257ba48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsEnabled, addr 0x259e938, size 0x8, virtual false, abstract: false, final false
   inline bool IsEnabled(::System::Diagnostics::Tracing::EventLevel level, ::System::Diagnostics::Tracing::EventKeywords keywords);
 
-  /// @brief Method Dispose, addr 0x257ba50, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x259e940, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x257babc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x259e9ac, size 0x4, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method WriteEvent, addr 0x257bac0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method WriteEvent, addr 0x259e9b0, size 0x44, virtual false, abstract: false, final false
   inline void WriteEvent(int32_t eventId);
 
-  /// @brief Method WriteEvent, addr 0x257bb08, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method WriteEvent, addr 0x259e9f8, size 0xbc, virtual false, abstract: false, final false
   inline void WriteEvent(int32_t eventId, int32_t arg1);
 
-  /// @brief Method WriteEvent, addr 0x257bbc4, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method WriteEvent, addr 0x259eab4, size 0x104, virtual false, abstract: false, final false
   inline void WriteEvent(int32_t eventId, int32_t arg1, int32_t arg2);
 
-  /// @brief Method WriteEvent, addr 0x257bcc8, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method WriteEvent, addr 0x259ebb8, size 0x14c, virtual false, abstract: false, final false
   inline void WriteEvent(int32_t eventId, int32_t arg1, int32_t arg2, int32_t arg3);
 
-  /// @brief Method WriteEvent, addr 0x257bb04, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method WriteEvent, addr 0x259e9f4, size 0x4, virtual false, abstract: false, final false
   inline void WriteEvent(int32_t eventId, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method WriteEvent, addr 0x257be14, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method WriteEvent, addr 0x259ed04, size 0xec, virtual false, abstract: false, final false
   inline void WriteEvent(int32_t eventId, ::StringW arg1, ::StringW arg2, ::StringW arg3);
 
-  /// @brief Method WriteEventCore, addr 0x257bf00, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method WriteEventCore, addr 0x259edf0, size 0x4, virtual false, abstract: false, final false
   inline void WriteEventCore(int32_t eventId, int32_t eventDataCount, ::cordl_internals::Ptr<::System::Diagnostics::Tracing::__EventSource__EventData> data);
 
   // Ctor Parameters [CppParam { name: "", ty: "EventSource", modifiers: "&&", def_value: None }]

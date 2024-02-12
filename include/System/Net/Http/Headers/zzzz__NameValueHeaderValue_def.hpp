@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::NameValueHeaderValue);
 namespace System::Net::Http::Headers {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14687))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14692))
 // CS Name: ::System.Net.Http.Headers::NameValueHeaderValue*
 class CORDL_TYPE NameValueHeaderValue : public ::System::Object {
 public:
@@ -68,54 +68,54 @@ public:
 
   static inline ::System::Net::Http::Headers::NameValueHeaderValue* New_ctor(::StringW name, ::StringW value);
 
-  /// @brief Method .ctor, addr 0x28373dc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x283bab0, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::StringW value);
 
   static inline ::System::Net::Http::Headers::NameValueHeaderValue* New_ctor(::System::Net::Http::Headers::NameValueHeaderValue* source);
 
-  /// @brief Method .ctor, addr 0x2837894, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x283bf68, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Http::Headers::NameValueHeaderValue* source);
 
   static inline ::System::Net::Http::Headers::NameValueHeaderValue* New_ctor();
 
-  /// @brief Method .ctor, addr 0x283dd20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2842388, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Name, addr 0x283dd28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x2842390, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method set_Name, addr 0x283dd30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x2842398, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
-  /// @brief Method get_Value, addr 0x283dd38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x28423a0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method set_Value, addr 0x2837280, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method set_Value, addr 0x283b954, size 0x15c, virtual false, abstract: false, final false
   inline void set_Value(::StringW value);
 
-  /// @brief Method Create, addr 0x283695c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x283b030, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Net::Http::Headers::NameValueHeaderValue* Create(::StringW name, ::StringW value);
 
-  /// @brief Method System.ICloneable.Clone, addr 0x283dd40, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method System.ICloneable.Clone, addr 0x28423a8, size 0x60, virtual true, abstract: false, final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method GetHashCode, addr 0x283dda0, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2842408, size 0x7c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Equals, addr 0x283de1c, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2842484, size 0xe0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method TryParsePragma, addr 0x283defc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method TryParsePragma, addr 0x2842564, size 0xb0, virtual false, abstract: false, final false
   static inline bool TryParsePragma(::StringW input, int32_t minimalCount, ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue*>*> result);
 
-  /// @brief Method TryParseParameters, addr 0x2837c34, size 0x2c0, virtual false, abstract: false, final false
+  /// @brief Method TryParseParameters, addr 0x283c308, size 0x2c0, virtual false, abstract: false, final false
   static inline bool TryParseParameters(::System::Net::Http::Headers::Lexer* lexer, ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue*>*> result,
                                         ByRef<::System::Net::Http::Headers::Token> t);
 
-  /// @brief Method ToString, addr 0x283dfac, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2842614, size 0x74, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryParseElement, addr 0x283e020, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method TryParseElement, addr 0x2842688, size 0x188, virtual false, abstract: false, final false
   static inline bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ByRef<::System::Net::Http::Headers::NameValueHeaderValue*> parsedValue, ByRef<::System::Net::Http::Headers::Token> t);
 
   // Ctor Parameters [CppParam { name: "", ty: "NameValueHeaderValue", modifiers: "&&", def_value: None }]

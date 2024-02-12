@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::System::Runtime::Serialization::OnDeserializedAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24bdee8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24def5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OnDeserializedAttribute", modifiers: "&&", def_value: None }]

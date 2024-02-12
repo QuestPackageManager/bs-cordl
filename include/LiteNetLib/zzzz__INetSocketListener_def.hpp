@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::LiteNetLib::INetSocketListener);
 namespace LiteNetLib {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14179))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14192))
 // CS Name: ::LiteNetLib::INetSocketListener*
 class CORDL_TYPE INetSocketListener {
 public:

@@ -60,7 +60,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::Qualified::EtsiQCObjectIdentifiers* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10809fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10ad88c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EtsiQCObjectIdentifiers", modifiers: "&&", def_value: None }]

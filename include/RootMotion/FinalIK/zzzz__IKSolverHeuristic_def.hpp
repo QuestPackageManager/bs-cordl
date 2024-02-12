@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::IKSolverHeuristic);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(12564))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12574))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(12462))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12472))
 // CS Name: ::RootMotion.FinalIK::IKSolverHeuristic*
 class CORDL_TYPE IKSolverHeuristic : public ::RootMotion::FinalIK::IKSolver {
 public:
@@ -120,60 +120,60 @@ public:
 
   constexpr void __cordl_internal_set_chainLength(float_t value);
 
-  /// @brief Method SetChain, addr 0x1269d2c, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method SetChain, addr 0x1302ddc, size 0x17c, virtual false, abstract: false, final false
   inline bool SetChain(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> hierarchy, ::UnityEngine::Transform* root);
 
-  /// @brief Method AddBone, addr 0x1269ea8, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method AddBone, addr 0x1302f58, size 0x12c, virtual false, abstract: false, final false
   inline void AddBone(::UnityEngine::Transform* bone);
 
-  /// @brief Method StoreDefaultLocalState, addr 0x1269fd4, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method StoreDefaultLocalState, addr 0x1303084, size 0x5c, virtual true, abstract: false, final false
   inline void StoreDefaultLocalState();
 
-  /// @brief Method FixTransforms, addr 0x126a030, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method FixTransforms, addr 0x13030e0, size 0x70, virtual true, abstract: false, final false
   inline void FixTransforms();
 
-  /// @brief Method IsValid, addr 0x126a0a0, size 0x3c4, virtual true, abstract: false, final false
+  /// @brief Method IsValid, addr 0x1303150, size 0x3c4, virtual true, abstract: false, final false
   inline bool IsValid(ByRef<::StringW> message);
 
-  /// @brief Method GetPoints, addr 0x126a464, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetPoints, addr 0x1303514, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<::RootMotion::FinalIK::__IKSolver__Point*, ::Array<::RootMotion::FinalIK::__IKSolver__Point*>*> GetPoints();
 
-  /// @brief Method GetPoint, addr 0x126a46c, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method GetPoint, addr 0x130351c, size 0xdc, virtual true, abstract: false, final false
   inline ::RootMotion::FinalIK::__IKSolver__Point* GetPoint(::UnityEngine::Transform* transform);
 
-  /// @brief Method get_minBones, addr 0x126a548, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_minBones, addr 0x13035f8, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_minBones();
 
-  /// @brief Method get_boneLengthCanBeZero, addr 0x126a550, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_boneLengthCanBeZero, addr 0x1303600, size 0x8, virtual true, abstract: false, final false
   inline bool get_boneLengthCanBeZero();
 
-  /// @brief Method get_allowCommonParent, addr 0x126a558, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_allowCommonParent, addr 0x1303608, size 0x8, virtual true, abstract: false, final false
   inline bool get_allowCommonParent();
 
-  /// @brief Method OnInitiate, addr 0x126a560, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnInitiate, addr 0x1303610, size 0x4, virtual true, abstract: false, final false
   inline void OnInitiate();
 
-  /// @brief Method OnUpdate, addr 0x126a564, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnUpdate, addr 0x1303614, size 0x4, virtual true, abstract: false, final false
   inline void OnUpdate();
 
-  /// @brief Method InitiateBones, addr 0x1261e88, size 0x488, virtual false, abstract: false, final false
+  /// @brief Method InitiateBones, addr 0x12faf38, size 0x488, virtual false, abstract: false, final false
   inline void InitiateBones();
 
-  /// @brief Method get_localDirection, addr 0x126a568, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method get_localDirection, addr 0x1303618, size 0xbc, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 get_localDirection();
 
-  /// @brief Method get_positionOffset, addr 0x126299c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_positionOffset, addr 0x12fba4c, size 0x48, virtual false, abstract: false, final false
   inline float_t get_positionOffset();
 
-  /// @brief Method GetSingularityOffset, addr 0x12625f0, size 0x3ac, virtual false, abstract: false, final false
+  /// @brief Method GetSingularityOffset, addr 0x12fb6a0, size 0x3ac, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetSingularityOffset();
 
-  /// @brief Method SingularityDetected, addr 0x126a624, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method SingularityDetected, addr 0x13036d4, size 0x294, virtual false, abstract: false, final false
   inline bool SingularityDetected();
 
   static inline ::RootMotion::FinalIK::IKSolverHeuristic* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1260f5c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12fa00c, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "IKSolverHeuristic", modifiers: "&&", def_value: None }]

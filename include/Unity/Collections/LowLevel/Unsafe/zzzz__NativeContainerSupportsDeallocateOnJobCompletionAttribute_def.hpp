@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::Unity::Collections::LowLevel::Unsafe::NativeContainerSupportsDe
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10018))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8749))
 // CS Name: ::Unity.Collections.LowLevel.Unsafe::NativeContainerSupportsDeallocateOnJobCompletionAttribute*
 class CORDL_TYPE NativeContainerSupportsDeallocateOnJobCompletionAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::Unity::Collections::LowLevel::Unsafe::NativeContainerSupportsDeallocateOnJobCompletionAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c9e608, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c9f0ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NativeContainerSupportsDeallocateOnJobCompletionAttribute", modifiers: "&&", def_value: None }]

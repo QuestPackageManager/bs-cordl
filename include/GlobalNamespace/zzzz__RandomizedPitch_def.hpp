@@ -50,7 +50,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__RandomizedPitch___RestorePitchWithDelay_d__1
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14327))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14485))
 // CS Name: ::RandomizedPitch::<PlayDelayedCoroutine>d__9*
 class CORDL_TYPE __RandomizedPitch___PlayDelayedCoroutine_d__9 : public ::System::Object {
 public:
@@ -115,22 +115,22 @@ public:
 
   static inline ::GlobalNamespace::__RandomizedPitch___PlayDelayedCoroutine_d__9* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor, addr 0x20ee48c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2182a14, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x20ee4f8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x2182a80, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext, addr 0x20ee4fc, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2182a84, size 0xac, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x20ee5a8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2182b30, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x20ee5b0, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2182b38, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x20ee5f0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2182b78, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__RandomizedPitch___PlayDelayedCoroutine_d__9", modifiers: "&&", def_value: None }]
@@ -178,7 +178,7 @@ static_assert(offsetof(::GlobalNamespace::__RandomizedPitch___PlayDelayedCorouti
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14328))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14486))
 // CS Name: ::RandomizedPitch::<RestorePitchWithDelay>d__10*
 class CORDL_TYPE __RandomizedPitch___RestorePitchWithDelay_d__10 : public ::System::Object {
 public:
@@ -243,22 +243,22 @@ public:
 
   static inline ::GlobalNamespace::__RandomizedPitch___RestorePitchWithDelay_d__10* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor, addr 0x20ee4b4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2182a3c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x20ee5f8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x2182b80, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext, addr 0x20ee5fc, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2182b84, size 0xbc, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x20ee6b8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2182c40, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x20ee6c0, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2182c48, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x20ee700, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2182c88, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__RandomizedPitch___RestorePitchWithDelay_d__10", modifiers: "&&", def_value: None }]
@@ -305,8 +305,8 @@ static_assert(offsetof(::GlobalNamespace::__RandomizedPitch___RestorePitchWithDe
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14329))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14487))
 // CS Name: ::RandomizedPitch*
 class CORDL_TYPE RandomizedPitch : public ::UnityEngine::MonoBehaviour {
 public:
@@ -369,24 +369,24 @@ public:
 
   constexpr void __cordl_internal_set__restoringCoroutine(::UnityEngine::Coroutine* value);
 
-  /// @brief Method OnEnable, addr 0x20ee238, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x21827c0, size 0x58, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Play, addr 0x20ee290, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Play, addr 0x2182818, size 0xd4, virtual false, abstract: false, final false
   inline void Play();
 
-  /// @brief Method PlayDelayed, addr 0x20ee3dc, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method PlayDelayed, addr 0x2182964, size 0x38, virtual false, abstract: false, final false
   inline void PlayDelayed(float_t delay);
 
-  /// @brief Method PlayDelayedCoroutine, addr 0x20ee414, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method PlayDelayedCoroutine, addr 0x218299c, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* PlayDelayedCoroutine(float_t delay);
 
-  /// @brief Method RestorePitchWithDelay, addr 0x20ee364, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method RestorePitchWithDelay, addr 0x21828ec, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* RestorePitchWithDelay(float_t delay);
 
   static inline ::GlobalNamespace::RandomizedPitch* New_ctor();
 
-  /// @brief Method .ctor, addr 0x20ee4dc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2182a64, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RandomizedPitch", modifiers: "&&", def_value: None }]

@@ -14,8 +14,8 @@ MARK_REF_PTR_T(::System::Diagnostics::ProcessThreadCollection);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3777))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8956))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3776))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6966))
 // CS Name: ::System.Diagnostics::ProcessThreadCollection*
 class CORDL_TYPE ProcessThreadCollection : public ::System::Collections::ReadOnlyCollectionBase {
 public:

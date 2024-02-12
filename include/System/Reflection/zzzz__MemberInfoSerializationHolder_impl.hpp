@@ -17,7 +17,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::System::Runtime::Serialization::SerializationInfo*, ::StringW, ::System::RuntimeType*, ::StringW, ::System::Reflection::MemberTypes)>(
         &::System::Reflection::MemberInfoSerializationHolder::GetSerializationInfo)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x24edeec;
+  constexpr static std::size_t addrs = 0x250d044;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -36,7 +36,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                            ::StringW, ::System::Reflection::MemberTypes, ::ArrayW<::System::Type*, ::Array<::System::Type*>*>)>(
     &::System::Reflection::MemberInfoSerializationHolder::GetSerializationInfo)> {
   constexpr static std::size_t size = 0x314;
-  constexpr static std::size_t addrs = 0x24edefc;
+  constexpr static std::size_t addrs = 0x250d054;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Reflection::MemberInfoSerializationHolder::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Reflection::MemberInfoSerializationHolder::_ctor)> {
   constexpr static std::size_t size = 0x324;
-  constexpr static std::size_t addrs = 0x24ee210;
+  constexpr static std::size_t addrs = 0x250d368;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Reflection::MemberInfoSerializationHolder::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Reflection::MemberInfoSerializationHolder::GetObjectData)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x24ee534;
+  constexpr static std::size_t addrs = 0x250d68c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (
     ::System::Reflection::MemberInfoSerializationHolder::*)(::System::Runtime::Serialization::StreamingContext)>(&::System::Reflection::MemberInfoSerializationHolder::GetRealObject)> {
   constexpr static std::size_t size = 0x808;
-  constexpr static std::size_t addrs = 0x24ee594;
+  constexpr static std::size_t addrs = 0x250d6ec;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -37,8 +37,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__BTSStarTextEffectController__Pool);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3979))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15019))
 // CS Name: ::BTSStarTextEffectController*
 class CORDL_TYPE BTSStarTextEffectController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -83,15 +83,15 @@ public:
 
   constexpr void __cordl_internal_set__currentAnimationDuration(float_t value);
 
-  /// @brief Method get_animationDuration, addr 0x221d164, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_animationDuration, addr 0xe2ed90, size 0x8, virtual false, abstract: false, final false
   inline float_t get_animationDuration();
 
-  /// @brief Method Reinitialize, addr 0x221d16c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method Reinitialize, addr 0xe2ed98, size 0x108, virtual false, abstract: false, final false
   inline void Reinitialize(::UnityEngine::Sprite* sprite, ::UnityEngine::Transform* parentTransform, float_t desiredAnimationLength);
 
   static inline ::GlobalNamespace::BTSStarTextEffectController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x221d274, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe2eea0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BTSStarTextEffectController", modifiers: "&&", def_value: None }]
@@ -141,20 +141,20 @@ static_assert(offsetof(::GlobalNamespace::BTSStarTextEffectController, ____curre
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3979)), TypeDefinitionIndex(TypeDefinitionIndex(10276)), TypeDefinitionIndex(TypeDefinitionIndex(10291)),
-// TypeDefinitionIndex(TypeDefinitionIndex(11053)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11053), inst: 3514 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(3978)) CS
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9022)), TypeDefinitionIndex(TypeDefinitionIndex(9037)), TypeDefinitionIndex(TypeDefinitionIndex(10195)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15019)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10195), inst: 3485 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(15018)) CS
 // Name: ::BTSStarTextEffectController::Pool*
 class CORDL_TYPE __BTSStarTextEffectController__Pool
     : public ::Zenject::MonoMemoryPool_4<::UnityW<::UnityEngine::Sprite>, ::UnityW<::UnityEngine::Transform>, float_t, ::UnityW<::GlobalNamespace::BTSStarTextEffectController>> {
 public:
   // Declarations
-  /// @brief Method Reinitialize, addr 0x221d27c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Reinitialize, addr 0xe2eea8, size 0x14, virtual true, abstract: false, final false
   inline void Reinitialize(::UnityEngine::Sprite* sprite, ::UnityEngine::Transform* transform, float_t desiredAnimationLength,
                            ::GlobalNamespace::BTSStarTextEffectController* starTextEffectController);
 
   static inline ::GlobalNamespace::__BTSStarTextEffectController__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x221d290, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe2eebc, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__BTSStarTextEffectController__Pool", modifiers: "&&", def_value: None }]

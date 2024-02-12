@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IReadonlyBeatmapLineData);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14749))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15133))
 // CS Name: ::IReadonlyBeatmapLineData*
 class CORDL_TYPE IReadonlyBeatmapLineData {
 public:

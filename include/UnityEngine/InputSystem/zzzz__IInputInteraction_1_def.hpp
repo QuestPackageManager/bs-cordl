@@ -19,7 +19,7 @@ namespace UnityEngine::InputSystem {
 template <typename TValue>
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6130))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5389))
 // CS Name: ::UnityEngine.InputSystem::IInputInteraction`1<TValue>*
 class CORDL_TYPE IInputInteraction_1 {
 public:

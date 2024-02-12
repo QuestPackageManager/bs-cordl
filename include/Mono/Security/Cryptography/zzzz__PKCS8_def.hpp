@@ -47,7 +47,7 @@ MARK_REF_PTR_T(::Mono::Security::Cryptography::__PKCS8__PrivateKeyInfo);
 namespace Mono::Security::Cryptography {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13795))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13748))
 // CS Name: ::PKCS8::PrivateKeyInfo*
 class CORDL_TYPE __PKCS8__PrivateKeyInfo : public ::System::Object {
 public:
@@ -94,42 +94,42 @@ public:
 
   static inline ::Mono::Security::Cryptography::__PKCS8__PrivateKeyInfo* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2406d4c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2426bac, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Mono::Security::Cryptography::__PKCS8__PrivateKeyInfo* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0x2406dbc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2426c1c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method get_Algorithm, addr 0x240704c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Algorithm, addr 0x2426eac, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Algorithm();
 
-  /// @brief Method get_PrivateKey, addr 0x2407054, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_PrivateKey, addr 0x2426eb4, size 0x74, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_PrivateKey();
 
-  /// @brief Method Decode, addr 0x2406de4, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x2426c44, size 0x268, virtual false, abstract: false, final false
   inline void Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method RemoveLeadingZero, addr 0x24070c8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method RemoveLeadingZero, addr 0x2426f28, size 0x9c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> RemoveLeadingZero(::ArrayW<uint8_t, ::Array<uint8_t>*> bigInt);
 
-  /// @brief Method Normalize, addr 0x2407164, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Normalize, addr 0x2426fc4, size 0xa0, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Normalize(::ArrayW<uint8_t, ::Array<uint8_t>*> bigInt, int32_t length);
 
-  /// @brief Method DecodeRSA, addr 0x2407204, size 0x3d0, virtual false, abstract: false, final false
+  /// @brief Method DecodeRSA, addr 0x2427064, size 0x3d0, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::RSA* DecodeRSA(::ArrayW<uint8_t, ::Array<uint8_t>*> keypair);
 
-  /// @brief Method Encode, addr 0x24075d4, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x2427434, size 0x1fc, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Encode(::System::Security::Cryptography::RSA* rsa);
 
-  /// @brief Method DecodeDSA, addr 0x24077d0, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method DecodeDSA, addr 0x2427630, size 0x12c, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::DSA* DecodeDSA(::ArrayW<uint8_t, ::Array<uint8_t>*> privateKey, ::System::Security::Cryptography::DSAParameters dsaParameters);
 
-  /// @brief Method Encode, addr 0x24078fc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x242775c, size 0x4c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Encode(::System::Security::Cryptography::DSA* dsa);
 
-  /// @brief Method Encode, addr 0x2407948, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x24277a8, size 0x128, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Encode(::System::Security::Cryptography::AsymmetricAlgorithm* aa);
 
   // Ctor Parameters [CppParam { name: "", ty: "__PKCS8__PrivateKeyInfo", modifiers: "&&", def_value: None }]
@@ -177,7 +177,7 @@ static_assert(offsetof(::Mono::Security::Cryptography::__PKCS8__PrivateKeyInfo, 
 namespace Mono::Security::Cryptography {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13796))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13749))
 // CS Name: ::PKCS8::EncryptedPrivateKeyInfo*
 class CORDL_TYPE __PKCS8__EncryptedPrivateKeyInfo : public ::System::Object {
 public:
@@ -228,27 +228,27 @@ public:
 
   static inline ::Mono::Security::Cryptography::__PKCS8__EncryptedPrivateKeyInfo* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2407a70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24278d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Mono::Security::Cryptography::__PKCS8__EncryptedPrivateKeyInfo* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0x2407a78, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24278d8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method get_Algorithm, addr 0x2407d6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Algorithm, addr 0x2427bcc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Algorithm();
 
-  /// @brief Method get_EncryptedData, addr 0x2407d74, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_EncryptedData, addr 0x2427bd4, size 0x74, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_EncryptedData();
 
-  /// @brief Method get_Salt, addr 0x2407de8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method get_Salt, addr 0x2427c48, size 0xb4, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Salt();
 
-  /// @brief Method get_IterationCount, addr 0x2407e9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IterationCount, addr 0x2427cfc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_IterationCount();
 
-  /// @brief Method Decode, addr 0x2407aa4, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x2427904, size 0x2c8, virtual false, abstract: false, final false
   inline void Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
   // Ctor Parameters [CppParam { name: "", ty: "__PKCS8__EncryptedPrivateKeyInfo", modifiers: "&&", def_value: None }]
@@ -296,7 +296,7 @@ static_assert(offsetof(::Mono::Security::Cryptography::__PKCS8__EncryptedPrivate
 namespace Mono::Security::Cryptography {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13797))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13750))
 // CS Name: ::Mono.Security.Cryptography::PKCS8*
 class CORDL_TYPE PKCS8 : public ::System::Object {
 public:

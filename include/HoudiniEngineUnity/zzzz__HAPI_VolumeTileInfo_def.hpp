@@ -16,7 +16,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_VolumeTileInfo);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9747))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9539))
 // CS Name: ::HoudiniEngineUnity::HAPI_VolumeTileInfo
 struct CORDL_TYPE HAPI_VolumeTileInfo {
 public:

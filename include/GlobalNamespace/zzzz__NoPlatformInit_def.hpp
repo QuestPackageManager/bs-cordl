@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::GlobalNamespace::NoPlatformInit);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15981))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16357))
 // CS Name: ::NoPlatformInit*
 class CORDL_TYPE NoPlatformInit : public ::System::Object {
 public:
@@ -43,18 +43,18 @@ public:
   /// @brief Convert to "::Zenject::IInitializable"
   constexpr ::Zenject::IInitializable* i___Zenject__IInitializable() noexcept;
 
-  /// @brief Method Initialize, addr 0x27fddd0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x280a264, size 0x4, virtual true, abstract: false, final true
   inline void Initialize();
 
-  /// @brief Method get_IsInitialized, addr 0x27fddd4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsInitialized, addr 0x280a268, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsInitialized();
 
-  /// @brief Method InitializeAsync, addr 0x27fdddc, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method InitializeAsync, addr 0x280a270, size 0x68, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<bool>* InitializeAsync();
 
   static inline ::GlobalNamespace::NoPlatformInit* New_ctor();
 
-  /// @brief Method .ctor, addr 0x27fde44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x280a2d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NoPlatformInit", modifiers: "&&", def_value: None }]

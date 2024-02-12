@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::System::ComponentModel::EditorBrowsableAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(9385))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9384))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(7395))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7394))
 // CS Name: ::System.ComponentModel::EditorBrowsableAttribute*
 class CORDL_TYPE EditorBrowsableAttribute : public ::System::Attribute {
 public:
@@ -39,13 +39,13 @@ public:
 
   static inline ::System::ComponentModel::EditorBrowsableAttribute* New_ctor(::System::ComponentModel::EditorBrowsableState state);
 
-  /// @brief Method .ctor, addr 0x2903914, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2907f7c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::EditorBrowsableState state);
 
-  /// @brief Method Equals, addr 0x290393c, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2907fa4, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x29039c8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2908030, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "EditorBrowsableAttribute", modifiers: "&&", def_value: None }]

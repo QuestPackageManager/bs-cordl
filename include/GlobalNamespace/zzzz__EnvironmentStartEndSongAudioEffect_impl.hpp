@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentStartEndSongAudioEffect::*)()>(
     &::GlobalNamespace::EnvironmentStartEndSongAudioEffect::Start)> {
   constexpr static std::size_t size = 0x478;
-  constexpr static std::size_t addrs = 0x222d3bc;
+  constexpr static std::size_t addrs = 0x22b7068;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentStartEndSongAudioEffect*>::get(),
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentStartEndSongAudioEffect::*)()>(
     &::GlobalNamespace::EnvironmentStartEndSongAudioEffect::OnDestroy)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x222d834;
+  constexpr static std::size_t addrs = 0x22b74e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentStartEndSongAudioEffect*>::get(),
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentStartEndSongAudioEffect::*)()>(
     &::GlobalNamespace::EnvironmentStartEndSongAudioEffect::Update)> {
   constexpr static std::size_t size = 0x2a8;
-  constexpr static std::size_t addrs = 0x222da88;
+  constexpr static std::size_t addrs = 0x22b7734;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentStartEndSongAudioEffect*>::get(),
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentStartEndSongAudioEffect::*)()>(
     &::GlobalNamespace::EnvironmentStartEndSongAudioEffect::LevelWillFinishWithinAheadTime)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x222dd30;
+  constexpr static std::size_t addrs = 0x22b79dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentStartEndSongAudioEffect*>::get(),
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentStartEndSongAudioEffect::*)()>(
     &::GlobalNamespace::EnvironmentStartEndSongAudioEffect::HandleLevelFailed)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x222dd8c;
+  constexpr static std::size_t addrs = 0x22b7a38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentStartEndSongAudioEffect*>::get(),
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentStartEndSongAudioEffect::*)()>(
     &::GlobalNamespace::EnvironmentStartEndSongAudioEffect::HandleGamePauseDidResume)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x222de1c;
+  constexpr static std::size_t addrs = 0x22b7ac8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentStartEndSongAudioEffect*>::get(),
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentStartEndSongAudioEffect::*)()>(
     &::GlobalNamespace::EnvironmentStartEndSongAudioEffect::HandleGamePauseDidPause)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x222de40;
+  constexpr static std::size_t addrs = 0x22b7aec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentStartEndSongAudioEffect*>::get(),
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentStartEndSongAudioEffect::*)()>(
     &::GlobalNamespace::EnvironmentStartEndSongAudioEffect::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x222de64;
+  constexpr static std::size_t addrs = 0x22b7b10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentStartEndSongAudioEffect*>::get(),

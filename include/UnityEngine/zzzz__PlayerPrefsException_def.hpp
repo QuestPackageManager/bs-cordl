@@ -16,14 +16,14 @@ MARK_REF_PTR_T(::UnityEngine::PlayerPrefsException);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2561))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10039))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8771))
 // CS Name: ::UnityEngine::PlayerPrefsException*
 class CORDL_TYPE PlayerPrefsException : public ::System::Exception {
 public:
   // Declarations
   static inline ::UnityEngine::PlayerPrefsException* New_ctor(::StringW error);
 
-  /// @brief Method .ctor, addr 0x2c9e688, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c9f17c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW error);
 
   // Ctor Parameters [CppParam { name: "", ty: "PlayerPrefsException", modifiers: "&&", def_value: None }]

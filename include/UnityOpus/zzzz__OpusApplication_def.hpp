@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityOpus::OpusApplication);
 namespace UnityOpus {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16216))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16385))
 // CS Name: ::UnityOpus::OpusApplication
 struct CORDL_TYPE OpusApplication {
 public:

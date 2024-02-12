@@ -26,8 +26,8 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::PointerState);
 // SizeInfo { instance_size: 36, native_size: 36, calculated_instance_size: 36, calculated_native_size: 50, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10243))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6507))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8987))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5766))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::PointerState
 struct CORDL_TYPE PointerState {
 public:
@@ -40,10 +40,10 @@ public:
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
   constexpr ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo* i___UnityEngine__InputSystem__LowLevel__IInputStateTypeInfo();
 
-  /// @brief Method get_kFormat, addr 0x2ae8b1c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_kFormat, addr 0x2aea688, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_kFormat();
 
-  /// @brief Method get_format, addr 0x2ae8b4c, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_format, addr 0x2aea6b8, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
   // Ctor Parameters [CppParam { name: "pointerId", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "position", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None },

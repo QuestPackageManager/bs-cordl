@@ -36,8 +36,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStre
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14754))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4131))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15138))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10589))
 // CS Name: ::BeatmapDataStrobeFilterTransform::StrobeStreakData*
 class CORDL_TYPE __BeatmapDataStrobeFilterTransform__StrobeStreakData : public ::System::Object {
 public:
@@ -115,15 +115,15 @@ public:
 
   constexpr void __cordl_internal_set__foundFirstColoredEventData(bool value);
 
-  /// @brief Method StartPotentialStrobe, addr 0x223b940, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method StartPotentialStrobe, addr 0x1264b80, size 0x98, virtual false, abstract: false, final false
   inline void StartPotentialStrobe(::GlobalNamespace::BasicBeatmapEventData* startBasicBeatmapEventData);
 
-  /// @brief Method AddStrobeData, addr 0x223b868, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method AddStrobeData, addr 0x1264aa8, size 0x94, virtual false, abstract: false, final false
   inline void AddStrobeData(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
   static inline ::GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x223b860, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1264aa0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__BeatmapDataStrobeFilterTransform__StrobeStreakData", modifiers: "&&", def_value: None }]
@@ -191,21 +191,21 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapDataStrobeFilterTransform__St
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4132))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10590))
 // CS Name: ::BeatmapDataStrobeFilterTransform*
 class CORDL_TYPE BeatmapDataStrobeFilterTransform : public ::System::Object {
 public:
   // Declarations
   using StrobeStreakData = ::GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData;
 
-  /// @brief Method CreateTransformedData, addr 0x223ac28, size 0xc38, virtual false, abstract: false, final false
+  /// @brief Method CreateTransformedData, addr 0x1263e78, size 0xc28, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData,
                                                                                ::GlobalNamespace::EnvironmentIntensityReductionOptions* environmentIntensityReductionOptions);
 
-  /// @brief Method GetOnEventDataValue, addr 0x223b8fc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetOnEventDataValue, addr 0x1264b3c, size 0x24, virtual false, abstract: false, final false
   static inline int32_t GetOnEventDataValue(::GlobalNamespace::EnvironmentColorType lightColorType);
 
-  /// @brief Method GetFlashAndFadeToBlackEventDataValue, addr 0x223b920, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetFlashAndFadeToBlackEventDataValue, addr 0x1264b60, size 0x20, virtual false, abstract: false, final false
   static inline int32_t GetFlashAndFadeToBlackEventDataValue(::GlobalNamespace::EnvironmentColorType lightColorType);
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataStrobeFilterTransform", modifiers: "&&", def_value: None }]

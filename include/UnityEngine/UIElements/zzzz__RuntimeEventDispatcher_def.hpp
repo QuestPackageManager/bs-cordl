@@ -18,12 +18,12 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::RuntimeEventDispatcher);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7019))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6278))
 // CS Name: ::UnityEngine.UIElements::RuntimeEventDispatcher*
 class CORDL_TYPE RuntimeEventDispatcher : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x2e16f70, size 0x3cc, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2e34358, size 0x3cc, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::EventDispatcher* Create();
 
   // Ctor Parameters [CppParam { name: "", ty: "RuntimeEventDispatcher", modifiers: "&&", def_value: None }]

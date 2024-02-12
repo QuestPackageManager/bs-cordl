@@ -16,7 +16,7 @@ MARK_VAL_T(::LiteNetLib::LocalAddrType);
 namespace LiteNetLib {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14182))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14195))
 // CS Name: ::LiteNetLib::LocalAddrType
 struct CORDL_TYPE LocalAddrType {
 public:

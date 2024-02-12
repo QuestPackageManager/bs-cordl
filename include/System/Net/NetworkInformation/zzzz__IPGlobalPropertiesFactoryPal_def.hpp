@@ -18,12 +18,12 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::IPGlobalPropertiesFactoryPal);
 namespace System::Net::NetworkInformation {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9266))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7276))
 // CS Name: ::System.Net.NetworkInformation::IPGlobalPropertiesFactoryPal*
 class CORDL_TYPE IPGlobalPropertiesFactoryPal : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x29eb6b0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x29f0154, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Net::NetworkInformation::IPGlobalProperties* Create();
 
   // Ctor Parameters [CppParam { name: "", ty: "IPGlobalPropertiesFactoryPal", modifiers: "&&", def_value: None }]

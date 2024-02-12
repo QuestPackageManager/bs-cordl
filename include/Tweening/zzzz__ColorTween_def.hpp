@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::Tweening::ColorTween);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Tweening {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(16099)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(16099), inst:
-// 293 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(16096)) CS Name: ::Tweening::ColorTween*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8995)), TypeDefinitionIndex(TypeDefinitionIndex(16208)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(16208), inst:
+// 293 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(16205)) CS Name: ::Tweening::ColorTween*
 class CORDL_TYPE ColorTween : public ::Tweening::Tween_1<::UnityEngine::Color> {
 public:
   // Declarations
@@ -46,17 +46,17 @@ public:
 
   static inline ::Tweening::ColorTween* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2a0e13c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a10ca8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Tweening::ColorTween* New_ctor(::UnityEngine::Color fromValue, ::UnityEngine::Color toValue, ::System::Action_1<::UnityEngine::Color>* onUpdate, float_t duration,
                                                  ::GlobalNamespace::EaseType easeType, float_t delay);
 
-  /// @brief Method .ctor, addr 0x2a0e184, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a10cf0, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color fromValue, ::UnityEngine::Color toValue, ::System::Action_1<::UnityEngine::Color>* onUpdate, float_t duration, ::GlobalNamespace::EaseType easeType,
                     float_t delay);
 
-  /// @brief Method GetValue, addr 0x2a0e254, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x2a10dc0, size 0x48, virtual true, abstract: false, final false
   inline ::UnityEngine::Color GetValue(float_t t);
 
   // Ctor Parameters [CppParam { name: "", ty: "ColorTween", modifiers: "&&", def_value: None }]

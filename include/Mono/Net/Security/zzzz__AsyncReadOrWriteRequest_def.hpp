@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::Mono::Net::Security::AsyncReadOrWriteRequest);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8822))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8824))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6832))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6834))
 // CS Name: ::Mono.Net.Security::AsyncReadOrWriteRequest*
 class CORDL_TYPE AsyncReadOrWriteRequest : public ::Mono::Net::Security::AsyncProtocolRequest {
 public:
@@ -52,22 +52,22 @@ public:
 
   constexpr void __cordl_internal_set__CurrentSize_k__BackingField(int32_t value);
 
-  /// @brief Method get_UserBuffer, addr 0x281fa58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UserBuffer, addr 0x2824240, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Net::Security::BufferOffsetSize* get_UserBuffer();
 
-  /// @brief Method get_CurrentSize, addr 0x281fa60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentSize, addr 0x2824248, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_CurrentSize();
 
-  /// @brief Method set_CurrentSize, addr 0x281fa68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CurrentSize, addr 0x2824250, size 0x8, virtual false, abstract: false, final false
   inline void set_CurrentSize(int32_t value);
 
   static inline ::Mono::Net::Security::AsyncReadOrWriteRequest* New_ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, bool sync, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer,
                                                                          int32_t offset, int32_t size);
 
-  /// @brief Method .ctor, addr 0x281fa70, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2824258, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, bool sync, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size);
 
-  /// @brief Method ToString, addr 0x281fb14, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x28242fc, size 0x5c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "AsyncReadOrWriteRequest", modifiers: "&&", def_value: None }]

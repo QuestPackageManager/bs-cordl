@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Experimental::Rendering::TextureCreationFlags);
 namespace UnityEngine::Experimental::Rendering {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10403))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9171))
 // CS Name: ::UnityEngine.Experimental.Rendering::TextureCreationFlags
 struct CORDL_TYPE TextureCreationFlags {
 public:

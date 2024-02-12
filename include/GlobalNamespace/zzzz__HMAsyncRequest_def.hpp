@@ -33,23 +33,23 @@ MARK_REF_PTR_T(::GlobalNamespace::__HMAsyncRequest__CancelHander);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14369))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14524))
 // CS Name: ::HMAsyncRequest::CancelHander*
 class CORDL_TYPE __HMAsyncRequest__CancelHander : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::GlobalNamespace::__HMAsyncRequest__CancelHander* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x20f2f50, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21874d8, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x20f307c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2187604, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::GlobalNamespace::HMAsyncRequest* request);
 
-  /// @brief Method BeginInvoke, addr 0x20f3090, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2187618, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::GlobalNamespace::HMAsyncRequest* request, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x20f30b0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2187638, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__HMAsyncRequest__CancelHander", modifiers: "&&", def_value: None }]
@@ -76,8 +76,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__HMAsyncReques
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14371))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14370))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14526))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14525))
 // CS Name: ::HMAsyncRequest*
 class CORDL_TYPE HMAsyncRequest : public ::GlobalNamespace::HMAutoincrementedRequestId {
 public:
@@ -106,21 +106,21 @@ public:
 
   constexpr void __cordl_internal_set__cancelHander(::GlobalNamespace::__HMAsyncRequest__CancelHander* value);
 
-  /// @brief Method get_CancelHandler, addr 0x20f2ea8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CancelHandler, addr 0x2187430, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__HMAsyncRequest__CancelHander* get_CancelHandler();
 
-  /// @brief Method set_CancelHandler, addr 0x20f2eb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CancelHandler, addr 0x2187438, size 0x8, virtual false, abstract: false, final false
   inline void set_CancelHandler(::GlobalNamespace::__HMAsyncRequest__CancelHander* value);
 
-  /// @brief Method get_cancelled, addr 0x20f2eb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cancelled, addr 0x2187440, size 0x8, virtual false, abstract: false, final false
   inline bool get_cancelled();
 
-  /// @brief Method Cancel, addr 0x20f2ec0, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Cancel, addr 0x2187448, size 0x28, virtual true, abstract: false, final false
   inline void Cancel();
 
   static inline ::GlobalNamespace::HMAsyncRequest* New_ctor();
 
-  /// @brief Method .ctor, addr 0x20f2ee8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2187470, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HMAsyncRequest", modifiers: "&&", def_value: None }]

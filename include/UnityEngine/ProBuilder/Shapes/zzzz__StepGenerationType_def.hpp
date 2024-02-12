@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ProBuilder::Shapes::StepGenerationType);
 namespace UnityEngine::ProBuilder::Shapes {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12237))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12135))
 // CS Name: ::UnityEngine.ProBuilder.Shapes::StepGenerationType
 struct CORDL_TYPE StepGenerationType {
 public:

@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ToneMappingExtensions);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14491))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14385))
 // CS Name: ::ToneMappingExtensions*
 class CORDL_TYPE ToneMappingExtensions : public ::System::Object {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF__shaderKeywordMap();
 
-  /// @brief Method SetShaderKeyword, addr 0x21081e4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method SetShaderKeyword, addr 0x219c98c, size 0x94, virtual false, abstract: false, final false
   static inline void SetShaderKeyword(::GlobalNamespace::ToneMapping toneMapping);
 
   // Ctor Parameters [CppParam { name: "", ty: "ToneMappingExtensions", modifiers: "&&", def_value: None }]

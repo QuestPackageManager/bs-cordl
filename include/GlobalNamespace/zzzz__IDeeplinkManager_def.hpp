@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IDeeplinkManager);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4147))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10605))
 // CS Name: ::IDeeplinkManager*
 class CORDL_TYPE IDeeplinkManager {
 public:

@@ -35,8 +35,8 @@ MARK_REF_PTR_T(::GlobalNamespace::EffectPoolsManualInstaller);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5390))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4692))
 // CS Name: ::EffectPoolsManualInstaller*
 class CORDL_TYPE EffectPoolsManualInstaller : public ::UnityEngine::MonoBehaviour {
 public:
@@ -107,12 +107,12 @@ public:
 
   constexpr void __cordl_internal_set__flyingSpriteEffectPrefab(::UnityW<::GlobalNamespace::FlyingSpriteEffect> value);
 
-  /// @brief Method ManualInstallBindings, addr 0x226f65c, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method ManualInstallBindings, addr 0x23cb334, size 0x248, virtual false, abstract: false, final false
   inline void ManualInstallBindings(::Zenject::DiContainer* container, bool shortBeatEffect);
 
   static inline ::GlobalNamespace::EffectPoolsManualInstaller* New_ctor();
 
-  /// @brief Method .ctor, addr 0x226f8a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23cb57c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EffectPoolsManualInstaller", modifiers: "&&", def_value: None }]

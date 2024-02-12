@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ProgramArguments);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5955))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5228))
 // CS Name: ::ProgramArguments*
 class CORDL_TYPE ProgramArguments : public ::System::Object {
 public:
@@ -35,15 +35,15 @@ public:
 
   constexpr void __cordl_internal_set__arguments(::System::Collections::Generic::IReadOnlyList_1<::StringW>* value);
 
-  /// @brief Method get_arguments, addr 0x230516c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_arguments, addr 0x2332f1c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::StringW>* get_arguments();
 
   static inline ::GlobalNamespace::ProgramArguments* New_ctor(::System::Collections::Generic::IReadOnlyList_1<::StringW>* arguments);
 
-  /// @brief Method .ctor, addr 0x2305174, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2332f24, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IReadOnlyList_1<::StringW>* arguments);
 
-  /// @brief Method Empty, addr 0x230519c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Empty, addr 0x2332f4c, size 0xb4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::ProgramArguments* Empty();
 
   // Ctor Parameters [CppParam { name: "", ty: "ProgramArguments", modifiers: "&&", def_value: None }]

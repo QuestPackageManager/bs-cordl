@@ -16,7 +16,7 @@ MARK_VAL_T(::Oculus::Platform::NetSyncVoipMicSource);
 namespace Oculus::Platform {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13341))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13261))
 // CS Name: ::Oculus.Platform::NetSyncVoipMicSource
 struct CORDL_TYPE NetSyncVoipMicSource {
 public:

@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14470)), TypeDefinitionIndex(TypeDefinitionIndex(14503))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15313))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14364)), TypeDefinitionIndex(TypeDefinitionIndex(14397))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15428))
 // CS Name: ::BloomPrePassDoubleKawaseBlurTextureEffectSO*
 class CORDL_TYPE BloomPrePassDoubleKawaseBlurTextureEffectSO : public ::GlobalNamespace::BloomPrePassEffectSO {
 public:
@@ -101,12 +101,12 @@ public:
 
   constexpr void __cordl_internal_set__kawaseBlurRenderer(::UnityW<::GlobalNamespace::KawaseBlurRendererSO> value);
 
-  /// @brief Method Render, addr 0x280c2d4, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Render, addr 0x2810abc, size 0x38, virtual true, abstract: false, final false
   inline void Render(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest);
 
   static inline ::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x280c30c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2810af4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassDoubleKawaseBlurTextureEffectSO", modifiers: "&&", def_value: None }]

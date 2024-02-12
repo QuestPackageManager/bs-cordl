@@ -32,32 +32,32 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRCompositionUtil);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7505))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7601))
 // CS Name: ::OVRCompositionUtil*
 class CORDL_TYPE OVRCompositionUtil : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SafeDestroy, addr 0x270d240, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SafeDestroy, addr 0x273f6a8, size 0x78, virtual false, abstract: false, final false
   static inline void SafeDestroy(::UnityEngine::GameObject* obj);
 
-  /// @brief Method SafeDestroy, addr 0x270d2b8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SafeDestroy, addr 0x273f720, size 0x74, virtual false, abstract: false, final false
   static inline void SafeDestroy(ByRef<::UnityEngine::GameObject*> obj);
 
-  /// @brief Method GetWorldPosition, addr 0x270d32c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetWorldPosition, addr 0x273f794, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 GetWorldPosition(::UnityEngine::Vector3 trackingSpacePosition);
 
-  /// @brief Method GetWorldPosition, addr 0x270d368, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetWorldPosition, addr 0x273f7d0, size 0x94, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 GetWorldPosition(::UnityEngine::Camera* camera, ::UnityEngine::Vector3 trackingSpacePosition);
 
-  /// @brief Method GetMaximumBoundaryDistance, addr 0x270d3fc, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method GetMaximumBoundaryDistance, addr 0x273f864, size 0x1c0, virtual false, abstract: false, final false
   static inline float_t GetMaximumBoundaryDistance(::UnityEngine::Camera* camera, ::GlobalNamespace::__OVRBoundary__BoundaryType boundaryType);
 
-  /// @brief Method BuildBoundaryMesh, addr 0x270da90, size 0x480, virtual false, abstract: false, final false
+  /// @brief Method BuildBoundaryMesh, addr 0x273fef8, size 0x480, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Mesh> BuildBoundaryMesh(::GlobalNamespace::__OVRBoundary__BoundaryType boundaryType, float_t topY, float_t bottomY);
 
   static inline ::GlobalNamespace::OVRCompositionUtil* New_ctor();
 
-  /// @brief Method .ctor, addr 0x270df10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2740378, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRCompositionUtil", modifiers: "&&", def_value: None }]

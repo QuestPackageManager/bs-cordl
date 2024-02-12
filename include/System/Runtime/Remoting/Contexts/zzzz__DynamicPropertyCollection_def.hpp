@@ -61,7 +61,7 @@ public:
 
   static inline ::System::Runtime::Remoting::Contexts::__DynamicPropertyCollection__DynamicPropertyReg* New_ctor();
 
-  /// @brief Method .ctor, addr 0x249eefc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24c0f70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__DynamicPropertyCollection__DynamicPropertyReg", modifiers: "&&", def_value: None }]
@@ -117,24 +117,24 @@ public:
 
   constexpr void __cordl_internal_set__properties(::System::Collections::ArrayList* value);
 
-  /// @brief Method get_HasProperties, addr 0x249c7ac, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_HasProperties, addr 0x24be820, size 0x30, virtual false, abstract: false, final false
   inline bool get_HasProperties();
 
-  /// @brief Method RegisterDynamicProperty, addr 0x249ca38, size 0x2ec, virtual false, abstract: false, final false
+  /// @brief Method RegisterDynamicProperty, addr 0x24beaac, size 0x2ec, virtual false, abstract: false, final false
   inline bool RegisterDynamicProperty(::System::Runtime::Remoting::Contexts::IDynamicProperty* prop);
 
-  /// @brief Method UnregisterDynamicProperty, addr 0x249cd9c, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method UnregisterDynamicProperty, addr 0x24bee10, size 0x178, virtual false, abstract: false, final false
   inline bool UnregisterDynamicProperty(::StringW name);
 
-  /// @brief Method NotifyMessage, addr 0x249d07c, size 0x65c, virtual false, abstract: false, final false
+  /// @brief Method NotifyMessage, addr 0x24bf0f0, size 0x65c, virtual false, abstract: false, final false
   inline void NotifyMessage(bool start, ::System::Runtime::Remoting::Messaging::IMessage* msg, bool client_site, bool async);
 
-  /// @brief Method FindProperty, addr 0x249ed98, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method FindProperty, addr 0x24c0e0c, size 0x164, virtual false, abstract: false, final false
   inline int32_t FindProperty(::StringW name);
 
   static inline ::System::Runtime::Remoting::Contexts::DynamicPropertyCollection* New_ctor();
 
-  /// @brief Method .ctor, addr 0x249cf14, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24bef88, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DynamicPropertyCollection", modifiers: "&&", def_value: None }]

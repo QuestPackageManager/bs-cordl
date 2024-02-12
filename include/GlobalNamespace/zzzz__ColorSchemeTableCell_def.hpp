@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorSchemeTableCell);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13664))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5411))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13617))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4714))
 // CS Name: ::ColorSchemeTableCell*
 class CORDL_TYPE ColorSchemeTableCell : public ::HMUI::TableCell {
 public:
@@ -64,22 +64,22 @@ public:
 
   constexpr void __cordl_internal_set__editIcon(::UnityW<::UnityEngine::UI::Image> value);
 
-  /// @brief Method set_text, addr 0x2275b64, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x23d2448, size 0x24, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
-  /// @brief Method get_text, addr 0x2275e58, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x23d246c, size 0x24, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method set_showEditIcon, addr 0x2275b44, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_showEditIcon, addr 0x23d2490, size 0x20, virtual false, abstract: false, final false
   inline void set_showEditIcon(bool value);
 
-  /// @brief Method SetColors, addr 0x2275b88, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetColors, addr 0x23d24b0, size 0x7c, virtual false, abstract: false, final false
   inline void SetColors(::UnityEngine::Color saberAColor, ::UnityEngine::Color saberBColor, ::UnityEngine::Color environment0Color, ::UnityEngine::Color environment1Color,
                         ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost, ::UnityEngine::Color obstacleColor);
 
   static inline ::GlobalNamespace::ColorSchemeTableCell* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2275e7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d252c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ColorSchemeTableCell", modifiers: "&&", def_value: None }]

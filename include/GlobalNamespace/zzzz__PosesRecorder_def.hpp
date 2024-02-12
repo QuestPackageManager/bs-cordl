@@ -44,7 +44,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__PosesRecorder____c);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5930))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5190))
 // CS Name: ::PosesRecorder::<>c*
 class CORDL_TYPE __PosesRecorder____c : public ::System::Object {
 public:
@@ -72,13 +72,13 @@ public:
 
   static inline ::GlobalNamespace::__PosesRecorder____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2301f50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2329e94, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Init>b__6_0, addr 0x2301f58, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <Init>b__6_0, addr 0x2329e9c, size 0x18, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> _Init_b__6_0(::GlobalNamespace::PoseObject* ro);
 
-  /// @brief Method <Init>b__6_1, addr 0x2301f70, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <Init>b__6_1, addr 0x2329eb4, size 0x20, virtual false, abstract: false, final false
   inline ::StringW _Init_b__6_1(::GlobalNamespace::PoseObject* ro);
 
   // Ctor Parameters [CppParam { name: "", ty: "__PosesRecorder____c", modifiers: "&&", def_value: None }]
@@ -105,8 +105,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PosesRecorder
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5931))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5191))
 // CS Name: ::PosesRecorder*
 class CORDL_TYPE PosesRecorder : public ::UnityEngine::MonoBehaviour {
 public:
@@ -144,28 +144,28 @@ public:
 
   constexpr void __cordl_internal_set__data(::GlobalNamespace::PosesRecordingData* value);
 
-  /// @brief Method get_data, addr 0x2301b84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_data, addr 0x2329ac8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PosesRecordingData* get_data();
 
-  /// @brief Method LateUpdate, addr 0x2301b8c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x2329ad0, size 0x1c, virtual false, abstract: false, final false
   inline void LateUpdate();
 
-  /// @brief Method Init, addr 0x22ff680, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x23275c4, size 0x238, virtual false, abstract: false, final false
   inline void Init(::ArrayW<::GlobalNamespace::PoseObject*, ::Array<::GlobalNamespace::PoseObject*>*> poseObjects,
                    ::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration* externalCameraCalibration);
 
-  /// @brief Method StartRecording, addr 0x2300034, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method StartRecording, addr 0x2327f78, size 0xc, virtual false, abstract: false, final false
   inline void StartRecording();
 
-  /// @brief Method RecordTick, addr 0x2301ba8, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method RecordTick, addr 0x2329aec, size 0x1c8, virtual false, abstract: false, final false
   inline void RecordTick(float_t time);
 
-  /// @brief Method StopRecording, addr 0x22fffac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method StopRecording, addr 0x2327ef0, size 0xc, virtual false, abstract: false, final false
   inline void StopRecording();
 
   static inline ::GlobalNamespace::PosesRecorder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2301ee4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2329e28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PosesRecorder", modifiers: "&&", def_value: None }]

@@ -25,8 +25,8 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::UseWindowsGamingInputCommand);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 9, calculated_native_size: 25, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6471))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6490))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5730))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5749))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::UseWindowsGamingInputCommand
 #pragma pack(push, 0)
 struct CORDL_TYPE UseWindowsGamingInputCommand {
@@ -58,13 +58,13 @@ public:
 
   constexpr void __cordl_internal_set_enable(uint8_t value);
 
-  /// @brief Method get_Type, addr 0x2ae8540, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x2aea0ac, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();
 
-  /// @brief Method get_typeStatic, addr 0x2ae8570, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x2aea0dc, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
-  /// @brief Method Create, addr 0x2ae85a0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2aea10c, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::UseWindowsGamingInputCommand Create(bool enable);
 
   // Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: None }, CppParam { name: "enable", ty: "uint8_t",

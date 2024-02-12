@@ -21,15 +21,15 @@ MARK_REF_PTR_T(::BeatSaber::BeatAvatarAdapter::AvatarDataMultiplayerAvatarsDataC
 namespace BeatSaber::BeatAvatarAdapter {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15256))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15369))
 // CS Name: ::BeatSaber.BeatAvatarAdapter::AvatarDataMultiplayerAvatarsDataConverter*
 class CORDL_TYPE AvatarDataMultiplayerAvatarsDataConverter : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateMultiplayerAvatarsData, addr 0xe1372c, size 0x508, virtual false, abstract: false, final false
+  /// @brief Method CreateMultiplayerAvatarsData, addr 0xe1ef28, size 0x508, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::MultiplayerAvatarData CreateMultiplayerAvatarsData(::BeatSaber::BeatAvatarSDK::AvatarData* avatarData);
 
-  /// @brief Method CreateAvatarData, addr 0xe13c34, size 0x5e8, virtual false, abstract: false, final false
+  /// @brief Method CreateAvatarData, addr 0xe1f430, size 0x5e8, virtual false, abstract: false, final false
   static inline ::BeatSaber::BeatAvatarSDK::AvatarData* CreateAvatarData(::GlobalNamespace::MultiplayerAvatarData multiplayerAvatarsData);
 
   // Ctor Parameters [CppParam { name: "", ty: "AvatarDataMultiplayerAvatarsDataConverter", modifiers: "&&", def_value: None }]

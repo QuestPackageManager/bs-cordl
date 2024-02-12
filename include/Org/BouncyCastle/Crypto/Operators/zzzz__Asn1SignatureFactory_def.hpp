@@ -88,22 +88,22 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory* New_ctor(::StringW algorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey);
 
-  /// @brief Method .ctor, addr 0xf2ca94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf57924, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW algorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey);
 
   static inline ::Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory* New_ctor(::StringW algorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey,
                                                                                        ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method .ctor, addr 0xf2ca9c, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf5792c, size 0x158, virtual false, abstract: false, final false
   inline void _ctor(::StringW algorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method get_AlgorithmDetails, addr 0xf2cbf4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_AlgorithmDetails, addr 0xf57a84, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* get_AlgorithmDetails();
 
-  /// @brief Method CreateCalculator, addr 0xf2cbfc, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method CreateCalculator, addr 0xf57a8c, size 0xb4, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::IStreamCalculator* CreateCalculator();
 
-  /// @brief Method get_SignatureAlgNames, addr 0xf2cd2c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_SignatureAlgNames, addr 0xf57bbc, size 0x4c, virtual false, abstract: false, final false
   static inline ::System::Collections::IEnumerable* get_SignatureAlgNames();
 
   // Ctor Parameters [CppParam { name: "", ty: "Asn1SignatureFactory", modifiers: "&&", def_value: None }]

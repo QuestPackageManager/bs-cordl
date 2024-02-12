@@ -48,7 +48,7 @@ MARK_REF_PTR_T(::Zenject::__TypeAnalyzer____c__DisplayClass23_0);
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11355))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10497))
 // CS Name: ::TypeAnalyzer::<>c__DisplayClass23_0*
 class CORDL_TYPE __TypeAnalyzer____c__DisplayClass23_0 : public ::System::Object {
 public:
@@ -64,19 +64,19 @@ public:
 
   static inline ::Zenject::__TypeAnalyzer____c__DisplayClass23_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f1f0dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f3b224, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <CreateTypeInfoFromReflection>b__0, addr 0x2f1f514, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <CreateTypeInfoFromReflection>b__0, addr 0x2f3b65c, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::__InjectTypeInfo__InjectMemberInfo* _CreateTypeInfoFromReflection_b__0(::Zenject::Internal::__ReflectionTypeInfo__InjectFieldInfo* x);
 
-  /// @brief Method <CreateTypeInfoFromReflection>b__1, addr 0x2f1f5a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <CreateTypeInfoFromReflection>b__1, addr 0x2f3b6ec, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::__InjectTypeInfo__InjectMemberInfo* _CreateTypeInfoFromReflection_b__1(::Zenject::Internal::__ReflectionTypeInfo__InjectPropertyInfo* x);
 
-  /// @brief Method __zenCreate, addr 0x2f1f634, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2f3b77c, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f1f690, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f3b7d8, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__TypeAnalyzer____c__DisplayClass23_0", modifiers: "&&", def_value: None }]
@@ -108,8 +108,8 @@ static_assert(offsetof(::Zenject::__TypeAnalyzer____c__DisplayClass23_0, ___type
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11354))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11356))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10496))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10498))
 // CS Name: ::Zenject::TypeAnalyzer*
 class CORDL_TYPE TypeAnalyzer : public ::System::Object {
 public:
@@ -139,49 +139,49 @@ public:
 
   static inline ::Zenject::ReflectionBakingCoverageModes getStaticF__ReflectionBakingCoverageMode_k__BackingField();
 
-  /// @brief Method get_ReflectionBakingCoverageMode, addr 0x2f1e76c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_ReflectionBakingCoverageMode, addr 0x2f3a8b4, size 0x58, virtual false, abstract: false, final false
   static inline ::Zenject::ReflectionBakingCoverageModes get_ReflectionBakingCoverageMode();
 
-  /// @brief Method set_ReflectionBakingCoverageMode, addr 0x2f1e7c4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_ReflectionBakingCoverageMode, addr 0x2f3a90c, size 0x5c, virtual false, abstract: false, final false
   static inline void set_ReflectionBakingCoverageMode(::Zenject::ReflectionBakingCoverageModes value);
 
   /// @brief Method ShouldAllowDuringValidation, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool ShouldAllowDuringValidation();
 
-  /// @brief Method ShouldAllowDuringValidation, addr 0x2f05dfc, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method ShouldAllowDuringValidation, addr 0x2f21f44, size 0xec, virtual false, abstract: false, final false
   static inline bool ShouldAllowDuringValidation(::System::Type* type);
 
-  /// @brief Method ShouldAllowDuringValidationInternal, addr 0x2f1e820, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method ShouldAllowDuringValidationInternal, addr 0x2f3a968, size 0x118, virtual false, abstract: false, final false
   static inline bool ShouldAllowDuringValidationInternal(::System::Type* type);
 
   /// @brief Method HasInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool HasInfo();
 
-  /// @brief Method HasInfo, addr 0x2f1e938, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method HasInfo, addr 0x2f3aa80, size 0x60, virtual false, abstract: false, final false
   static inline bool HasInfo(::System::Type* type);
 
   /// @brief Method GetInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::Zenject::InjectTypeInfo* GetInfo();
 
-  /// @brief Method GetInfo, addr 0x2f0cf08, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetInfo, addr 0x2f29050, size 0x84, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* GetInfo(::System::Type* type);
 
   /// @brief Method TryGetInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::Zenject::InjectTypeInfo* TryGetInfo();
 
-  /// @brief Method TryGetInfo, addr 0x2f03c8c, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method TryGetInfo, addr 0x2f1fdd4, size 0x1d4, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* TryGetInfo(::System::Type* type);
 
-  /// @brief Method GetInfoInternal, addr 0x2f1e998, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method GetInfoInternal, addr 0x2f3aae0, size 0x27c, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* GetInfoInternal(::System::Type* type);
 
-  /// @brief Method ShouldSkipTypeAnalysis, addr 0x2f1ec14, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method ShouldSkipTypeAnalysis, addr 0x2f3ad5c, size 0x170, virtual false, abstract: false, final false
   static inline bool ShouldSkipTypeAnalysis(::System::Type* type);
 
-  /// @brief Method IsStaticType, addr 0x2f1f054, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method IsStaticType, addr 0x2f3b19c, size 0x88, virtual false, abstract: false, final false
   static inline bool IsStaticType(::System::Type* type);
 
-  /// @brief Method CreateTypeInfoFromReflection, addr 0x2f1ed84, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method CreateTypeInfoFromReflection, addr 0x2f3aecc, size 0x2d0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* CreateTypeInfoFromReflection(::System::Type* type);
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeAnalyzer", modifiers: "&&", def_value: None }]

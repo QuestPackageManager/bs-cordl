@@ -94,51 +94,51 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* getStaticF_algid_hmacWithSHA1();
 
-  /// @brief Method GetInstance, addr 0xf89d18, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xfb4ba8, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xf89fa0, size 0x330, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfb4e30, size 0x330, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount);
 
-  /// @brief Method .ctor, addr 0xf8a2d0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfb5160, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount, int32_t keyLength);
 
-  /// @brief Method .ctor, addr 0xf8a384, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfb5214, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount, int32_t keyLength);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount, int32_t keyLength,
                                                                         ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* prf);
 
-  /// @brief Method .ctor, addr 0xf8a414, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfb52a4, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount, int32_t keyLength, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* prf);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* prf);
 
-  /// @brief Method .ctor, addr 0xf8a438, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfb52c8, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* prf);
 
-  /// @brief Method GetSalt, addr 0xf8a45c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetSalt, addr 0xfb52ec, size 0x20, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSalt();
 
-  /// @brief Method get_IterationCount, addr 0xf8a47c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_IterationCount, addr 0xfb530c, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_IterationCount();
 
-  /// @brief Method get_KeyLength, addr 0xf8a498, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_KeyLength, addr 0xfb5328, size 0x14, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_KeyLength();
 
-  /// @brief Method get_IsDefaultPrf, addr 0xf8a4ac, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_IsDefaultPrf, addr 0xfb533c, size 0x7c, virtual false, abstract: false, final false
   inline bool get_IsDefaultPrf();
 
-  /// @brief Method get_Prf, addr 0xf8a528, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_Prf, addr 0xfb53b8, size 0x64, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_Prf();
 
-  /// @brief Method ToAsn1Object, addr 0xf8a58c, size 0x190, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xfb541c, size 0x190, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "Pbkdf2Params", modifiers: "&&", def_value: None }]

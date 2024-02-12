@@ -16,7 +16,7 @@ MARK_VAL_T(::LiteNetLib::PacketProperty);
 namespace LiteNetLib {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14168))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14181))
 // CS Name: ::LiteNetLib::PacketProperty
 struct CORDL_TYPE PacketProperty {
 public:

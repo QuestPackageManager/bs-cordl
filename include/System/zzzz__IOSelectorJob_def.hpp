@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::System::IOSelectorJob);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8893))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8896))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6903))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6906))
 // CS Name: ::System::IOSelectorJob*
 class CORDL_TYPE IOSelectorJob : public ::System::Object {
 public:
@@ -71,16 +71,16 @@ public:
 
   static inline ::System::IOSelectorJob* New_ctor(::System::IOOperation operation, ::System::IOAsyncCallback* callback, ::System::IOAsyncResult* state);
 
-  /// @brief Method .ctor, addr 0x294d874, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2951f70, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::IOOperation operation, ::System::IOAsyncCallback* callback, ::System::IOAsyncResult* state);
 
-  /// @brief Method System.Threading.IThreadPoolWorkItem.ExecuteWorkItem, addr 0x294d8b0, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method System.Threading.IThreadPoolWorkItem.ExecuteWorkItem, addr 0x2951fac, size 0x28, virtual true, abstract: false, final true
   inline void System_Threading_IThreadPoolWorkItem_ExecuteWorkItem();
 
-  /// @brief Method System.Threading.IThreadPoolWorkItem.MarkAborted, addr 0x294d8d8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Threading.IThreadPoolWorkItem.MarkAborted, addr 0x2951fd4, size 0x4, virtual true, abstract: false, final true
   inline void System_Threading_IThreadPoolWorkItem_MarkAborted(::System::Threading::ThreadAbortException* tae);
 
-  /// @brief Method MarkDisposed, addr 0x294d8dc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method MarkDisposed, addr 0x2951fd8, size 0x20, virtual false, abstract: false, final false
   inline void MarkDisposed();
 
   // Ctor Parameters [CppParam { name: "", ty: "IOSelectorJob", modifiers: "&&", def_value: None }]

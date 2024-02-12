@@ -28,7 +28,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::InputActionProperty);
 namespace UnityEngine::InputSystem {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6164))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5423))
 // CS Name: ::UnityEngine.InputSystem::InputActionProperty
 struct CORDL_TYPE InputActionProperty {
 public:
@@ -55,37 +55,37 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::UnityW<::UnityEngine::InputSystem::InputActionReference>>"
   constexpr ::System::IEquatable_1<::UnityW<::UnityEngine::InputSystem::InputActionReference>>* i___System__IEquatable_1___UnityW___UnityEngine__InputSystem__InputActionReference__();
 
-  /// @brief Method get_action, addr 0x2a469c4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_action, addr 0x2a49530, size 0x94, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputAction* get_action();
 
-  /// @brief Method get_reference, addr 0x2a46b04, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_reference, addr 0x2a49670, size 0x18, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::InputSystem::InputActionReference> get_reference();
 
-  /// @brief Method .ctor, addr 0x2a46b1c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a49688, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::InputAction* action);
 
-  /// @brief Method .ctor, addr 0x2a46b28, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a49694, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::InputActionReference* reference);
 
-  /// @brief Method Equals, addr 0x2a46b38, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2a496a4, size 0xa4, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::InputSystem::InputActionProperty other);
 
-  /// @brief Method Equals, addr 0x2a46bdc, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2a49748, size 0x1c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::InputSystem::InputAction* other);
 
-  /// @brief Method Equals, addr 0x2a46bf8, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2a49764, size 0x6c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::InputSystem::InputActionReference* other);
 
-  /// @brief Method Equals, addr 0x2a46c64, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2a497d0, size 0xcc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2a46d30, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2a4989c, size 0x9c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method op_Equality, addr 0x2a46dcc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x2a49938, size 0x30, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::InputSystem::InputActionProperty left, ::UnityEngine::InputSystem::InputActionProperty right);
 
-  /// @brief Method op_Inequality, addr 0x2a46dfc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x2a49968, size 0x34, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::InputSystem::InputActionProperty left, ::UnityEngine::InputSystem::InputActionProperty right);
 
   // Ctor Parameters [CppParam { name: "m_UseReference", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "m_Action", ty: "::UnityEngine::InputSystem::InputAction*", modifiers: "",

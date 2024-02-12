@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapLevelColorSchemeSaveData);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4326))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11072))
 // CS Name: ::BeatmapLevelColorSchemeSaveData*
 class CORDL_TYPE BeatmapLevelColorSchemeSaveData : public ::System::Object {
 public:
@@ -41,12 +41,12 @@ public:
 
   constexpr void __cordl_internal_set_colorScheme(::GlobalNamespace::__PlayerSaveData__ColorScheme* value);
 
-  /// @brief Method IsDefault, addr 0x233dd28, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method IsDefault, addr 0x12b89c8, size 0x15c, virtual false, abstract: false, final false
   inline bool IsDefault();
 
   static inline ::GlobalNamespace::BeatmapLevelColorSchemeSaveData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x233de84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12b8b24, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelColorSchemeSaveData", modifiers: "&&", def_value: None }]

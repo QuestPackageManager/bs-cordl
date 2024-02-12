@@ -26,7 +26,7 @@ namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable>
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14944))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14817))
 // CS Name: ::IScoreSyncStateManager`5<TStateTable,TType,TState,TSerializable,TDeltaSerializable>*
 class CORDL_TYPE IScoreSyncStateManager_5 {
 public:

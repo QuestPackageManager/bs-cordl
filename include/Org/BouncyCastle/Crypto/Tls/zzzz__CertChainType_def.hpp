@@ -21,12 +21,12 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class CORDL_TYPE CertChainType : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsValid, addr 0xf5e460, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0xf882f0, size 0x10, virtual false, abstract: false, final false
   static inline bool IsValid(uint8_t certChainType);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::CertChainType* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf5e470, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf88300, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CertChainType", modifiers: "&&", def_value: None }]

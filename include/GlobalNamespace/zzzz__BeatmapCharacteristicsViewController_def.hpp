@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapCharacteristicsViewController);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5652))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13558))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4956))
 // CS Name: ::BeatmapCharacteristicsViewController*
 class CORDL_TYPE BeatmapCharacteristicsViewController : public ::HMUI::ViewController {
 public:
@@ -76,33 +76,33 @@ public:
 
   constexpr void __cordl_internal_set__selectedBeatmapCharacteristicNum(int32_t value);
 
-  /// @brief Method add_didSelectBeatmapCharacteristicEvent, addr 0x22b68c4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didSelectBeatmapCharacteristicEvent, addr 0x22e9c18, size 0xb0, virtual false, abstract: false, final false
   inline void add_didSelectBeatmapCharacteristicEvent(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value);
 
-  /// @brief Method remove_didSelectBeatmapCharacteristicEvent, addr 0x22b6974, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSelectBeatmapCharacteristicEvent, addr 0x22e9cc8, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didSelectBeatmapCharacteristicEvent(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value);
 
-  /// @brief Method get_beatmapCharacteristicCollection, addr 0x22b6a24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapCharacteristicCollection, addr 0x22e9d78, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapCharacteristicCollection* get_beatmapCharacteristicCollection();
 
-  /// @brief Method get_selectedBeatmapCharacteristic, addr 0x22b6a2c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method get_selectedBeatmapCharacteristic, addr 0x22e9d80, size 0xbc, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> get_selectedBeatmapCharacteristic();
 
-  /// @brief Method DidActivate, addr 0x22b6ae8, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x22e9e3c, size 0xb4, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x22b6b9c, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x22e9ef0, size 0xa0, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method SetData, addr 0x22b6c3c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x22e9f90, size 0x64, virtual false, abstract: false, final false
   inline void SetData(::GlobalNamespace::BeatmapCharacteristicCollection* beatmapCharacteristicCollection, int32_t selectedCharacteristicNum);
 
-  /// @brief Method HandleBeatmapCharacteristicsTableViewDidSelecteCharacteristic, addr 0x22b6ca0, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapCharacteristicsTableViewDidSelecteCharacteristic, addr 0x22e9ff4, size 0x1c0, virtual false, abstract: false, final false
   inline void HandleBeatmapCharacteristicsTableViewDidSelecteCharacteristic(::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
 
   static inline ::GlobalNamespace::BeatmapCharacteristicsViewController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22b6e60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22ea1b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicsViewController", modifiers: "&&", def_value: None }]

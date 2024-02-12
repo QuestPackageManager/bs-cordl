@@ -36,8 +36,8 @@ MARK_REF_PTR_T(::GlobalNamespace::PlayerHeadAndObstacleInteraction);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5272))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4612))
 // CS Name: ::PlayerHeadAndObstacleInteraction*
 class CORDL_TYPE PlayerHeadAndObstacleInteraction : public ::UnityEngine::MonoBehaviour {
 public:
@@ -110,30 +110,30 @@ public:
 
   constexpr void __cordl_internal_set__prevFrameNumberOfIntersectingObstaclesCount(int32_t value);
 
-  /// @brief Method add_headDidEnterObstaclesEvent, addr 0x2260110, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_headDidEnterObstaclesEvent, addr 0x23beac8, size 0x9c, virtual false, abstract: false, final false
   inline void add_headDidEnterObstaclesEvent(::System::Action* value);
 
-  /// @brief Method remove_headDidEnterObstaclesEvent, addr 0x22601ac, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_headDidEnterObstaclesEvent, addr 0x23beb64, size 0x9c, virtual false, abstract: false, final false
   inline void remove_headDidEnterObstaclesEvent(::System::Action* value);
 
-  /// @brief Method add_headDidEnterObstacleEvent, addr 0x2260248, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_headDidEnterObstacleEvent, addr 0x23bec00, size 0xb0, virtual false, abstract: false, final false
   inline void add_headDidEnterObstacleEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
-  /// @brief Method remove_headDidEnterObstacleEvent, addr 0x22602f8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_headDidEnterObstacleEvent, addr 0x23becb0, size 0xb0, virtual false, abstract: false, final false
   inline void remove_headDidEnterObstacleEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
-  /// @brief Method get_playerHeadIsInObstacle, addr 0x225f81c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_playerHeadIsInObstacle, addr 0x23bed60, size 0x50, virtual false, abstract: false, final false
   inline bool get_playerHeadIsInObstacle();
 
-  /// @brief Method RefreshIntersectingObstacles, addr 0x22603a8, size 0x300, virtual false, abstract: false, final false
+  /// @brief Method RefreshIntersectingObstacles, addr 0x23bedb0, size 0x300, virtual false, abstract: false, final false
   inline void RefreshIntersectingObstacles(::UnityEngine::Vector3 worldPos);
 
-  /// @brief Method Update, addr 0x22606a8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x23bf0b0, size 0x8c, virtual false, abstract: false, final false
   inline void Update();
 
   static inline ::GlobalNamespace::PlayerHeadAndObstacleInteraction* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2260734, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23bf13c, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PlayerHeadAndObstacleInteraction", modifiers: "&&", def_value: None }]

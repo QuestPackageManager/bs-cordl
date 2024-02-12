@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Esf::CrlOcspRef* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Esf::CrlOcspRef::GetInstance)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0xe90e74;
+  constexpr static std::size_t addrs = 0xebad04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Esf::CrlOcspRef::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Esf::CrlOcspRef::_ctor)> {
   constexpr static std::size_t size = 0x3e4;
-  constexpr static std::size_t addrs = 0xe92580;
+  constexpr static std::size_t addrs = 0xebc410;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Esf::CrlOcspRef::*)(
     ::Org::BouncyCastle::Asn1::Esf::CrlListID*, ::Org::BouncyCastle::Asn1::Esf::OcspListID*, ::Org::BouncyCastle::Asn1::Esf::OtherRevRefs*)>(&::Org::BouncyCastle::Asn1::Esf::CrlOcspRef::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0xe92c74;
+  constexpr static std::size_t addrs = 0xebcb04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Esf::CrlListID* (::Org::BouncyCastle::Asn1::Esf::CrlOcspRef::*)()>(
     &::Org::BouncyCastle::Asn1::Esf::CrlOcspRef::get_CrlIDs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xe92cb0;
+  constexpr static std::size_t addrs = 0xebcb40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Esf::CrlOcspRef*>::get(), "get_CrlIDs",
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Esf::OcspListID* (::Org::BouncyCastle::Asn1::Esf::CrlOcspRef::*)()>(
     &::Org::BouncyCastle::Asn1::Esf::CrlOcspRef::get_OcspIDs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xe92cb8;
+  constexpr static std::size_t addrs = 0xebcb48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Esf::CrlOcspRef*>::get(),
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Esf::OtherRevRefs* (::Org::BouncyCastle::Asn1::Esf::CrlOcspRef::*)()>(
     &::Org::BouncyCastle::Asn1::Esf::CrlOcspRef::get_OtherRev)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xe92cc0;
+  constexpr static std::size_t addrs = 0xebcb50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Esf::CrlOcspRef*>::get(),
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Esf::CrlOcspRef::*)()>(
     &::Org::BouncyCastle::Asn1::Esf::CrlOcspRef::ToAsn1Object)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0xe92cc8;
+  constexpr static std::size_t addrs = 0xebcb58;
 
   inline static ::MethodInfo const* methodInfo() {
 

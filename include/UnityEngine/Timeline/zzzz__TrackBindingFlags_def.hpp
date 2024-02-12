@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Timeline::TrackBindingFlags);
 namespace UnityEngine::Timeline {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13917))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13870))
 // CS Name: ::UnityEngine.Timeline::TrackBindingFlags
 struct CORDL_TYPE TrackBindingFlags {
 public:

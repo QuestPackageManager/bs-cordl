@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::LaunchBlockFlowResult);
 namespace Oculus::Platform::Models {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13441))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13380))
 // CS Name: ::Oculus.Platform.Models::LaunchBlockFlowResult*
 class CORDL_TYPE LaunchBlockFlowResult : public ::System::Object {
 public:
@@ -41,7 +41,7 @@ public:
 
   static inline ::Oculus::Platform::Models::LaunchBlockFlowResult* New_ctor(void* o);
 
-  /// @brief Method .ctor, addr 0x2706404, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27392e0, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "LaunchBlockFlowResult", modifiers: "&&", def_value: None }]

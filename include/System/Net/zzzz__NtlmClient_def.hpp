@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::System::Net::NtlmClient);
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9197))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7207))
 // CS Name: ::System.Net::NtlmClient*
 class CORDL_TYPE NtlmClient : public ::System::Object {
 public:
@@ -52,16 +52,16 @@ public:
 
   static inline ::System::Net::NtlmClient* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29d5594, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29da038, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Authenticate, addr 0x29d5600, size 0xd0, virtual true, abstract: false, final true
+  /// @brief Method Authenticate, addr 0x29da0a4, size 0xd0, virtual true, abstract: false, final true
   inline ::System::Net::Authorization* Authenticate(::StringW challenge, ::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
 
-  /// @brief Method PreAuthenticate, addr 0x29d56d0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method PreAuthenticate, addr 0x29da174, size 0x8, virtual true, abstract: false, final true
   inline ::System::Net::Authorization* PreAuthenticate(::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
 
-  /// @brief Method get_AuthenticationType, addr 0x29d56d8, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_AuthenticationType, addr 0x29da17c, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_AuthenticationType();
 
   // Ctor Parameters [CppParam { name: "", ty: "NtlmClient", modifiers: "&&", def_value: None }]

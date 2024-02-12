@@ -50,18 +50,18 @@ public:
 
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1036bec, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1063a7c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier* New_ctor(int32_t additionCoord, int32_t doublingCoord);
 
-  /// @brief Method .ctor, addr 0x1036c10, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1063aa0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(int32_t additionCoord, int32_t doublingCoord);
 
-  /// @brief Method MultiplyPositive, addr 0x1036c3c, size 0x1e8, virtual true, abstract: false, final false
+  /// @brief Method MultiplyPositive, addr 0x1063acc, size 0x1e8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* MultiplyPositive(::Org::BouncyCastle::Math::EC::ECPoint* p, ::Org::BouncyCastle::Math::BigInteger* k);
 
-  /// @brief Method ConfigureCurve, addr 0x1037098, size 0x134, virtual true, abstract: false, final false
+  /// @brief Method ConfigureCurve, addr 0x1063f28, size 0x134, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECCurve* ConfigureCurve(::Org::BouncyCastle::Math::EC::ECCurve* c, int32_t coord);
 
   // Ctor Parameters [CppParam { name: "", ty: "MixedNafR2LMultiplier", modifiers: "&&", def_value: None }]

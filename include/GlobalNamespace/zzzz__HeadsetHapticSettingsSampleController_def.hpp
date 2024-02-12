@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::GlobalNamespace::HeadsetHapticSettingsSampleController);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5604))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4909))
 // CS Name: ::HeadsetHapticSettingsSampleController*
 class CORDL_TYPE HeadsetHapticSettingsSampleController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -94,21 +94,21 @@ public:
 
   constexpr void __cordl_internal_set__nextHapticSamplePlayTimeEnd(float_t value);
 
-  /// @brief Method Start, addr 0x22ab390, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x22de7d8, size 0x98, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy, addr 0x22ab428, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x22de870, size 0xd0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Update, addr 0x22ab4f8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x22de940, size 0x68, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method HandleHapticSettingValueDidChange, addr 0x22ab560, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method HandleHapticSettingValueDidChange, addr 0x22de9a8, size 0x50, virtual false, abstract: false, final false
   inline void HandleHapticSettingValueDidChange(::GlobalNamespace::FormattedFloatListSettingsController* controller, float_t newValue);
 
   static inline ::GlobalNamespace::HeadsetHapticSettingsSampleController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22ab5b0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22de9f8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HeadsetHapticSettingsSampleController", modifiers: "&&", def_value: None }]

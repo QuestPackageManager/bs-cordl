@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::MatchResultErrorCode);
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7480))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6739))
 // CS Name: ::UnityEngine.UIElements.StyleSheets::MatchResultErrorCode
 struct CORDL_TYPE MatchResultErrorCode {
 public:

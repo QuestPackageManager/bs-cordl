@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::IInterval);
 namespace UnityEngine::Timeline {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13878))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13831))
 // CS Name: ::UnityEngine.Timeline::IInterval*
 class CORDL_TYPE IInterval {
 public:

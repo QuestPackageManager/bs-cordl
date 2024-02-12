@@ -77,6 +77,9 @@ public:
   /// @brief Method TrySetException, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TrySetException(::System::Exception* exception);
 
+  /// @brief Method SetException, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void SetException(::System::Exception* exception);
+
   /// @brief Method TrySetResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TrySetResult(TResult result);
 

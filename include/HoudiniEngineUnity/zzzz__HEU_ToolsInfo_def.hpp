@@ -39,7 +39,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_ToolsInfo);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9948))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9740))
 // CS Name: ::HEU_ToolsInfo::PaintMergeMode
 struct CORDL_TYPE __HEU_ToolsInfo__PaintMergeMode {
 public:
@@ -97,7 +97,7 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMergeMode, va
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9949))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9741))
 // CS Name: ::HEU_ToolsInfo::PaintMeshVisibility
 struct CORDL_TYPE __HEU_ToolsInfo__PaintMeshVisibility {
 public:
@@ -150,8 +150,8 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMeshVisibilit
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9948)), TypeDefinitionIndex(TypeDefinitionIndex(9949)), TypeDefinitionIndex(TypeDefinitionIndex(10210)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10251))] Self: TypeDefinitionIndex(TypeDefinitionIndex(9950)) CS Name: ::HoudiniEngineUnity::HEU_ToolsInfo*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8954)), TypeDefinitionIndex(TypeDefinitionIndex(8995)), TypeDefinitionIndex(TypeDefinitionIndex(9740)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9741))] Self: TypeDefinitionIndex(TypeDefinitionIndex(9742)) CS Name: ::HoudiniEngineUnity::HEU_ToolsInfo*
 class CORDL_TYPE HEU_ToolsInfo : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
@@ -354,12 +354,12 @@ public:
 
   constexpr void __cordl_internal_set__paintMeshVisiblity(::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMeshVisibility value);
 
-  /// @brief Method IsEquivalentTo, addr 0x21e9694, size 0x620, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x227ef7c, size 0x620, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_ToolsInfo* other);
 
   static inline ::HoudiniEngineUnity::HEU_ToolsInfo* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21e9cb4, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x227f59c, size 0x108, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_ToolsInfo", modifiers: "&&", def_value: None }]

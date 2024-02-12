@@ -18,7 +18,7 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::FontWeightPair);
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13678))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13631))
 // CS Name: ::UnityEngine.TextCore.Text::FontWeightPair
 struct CORDL_TYPE FontWeightPair {
 public:

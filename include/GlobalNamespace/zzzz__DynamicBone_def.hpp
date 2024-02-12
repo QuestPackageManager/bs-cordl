@@ -58,7 +58,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__DynamicBone__Particle);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16042))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16160))
 // CS Name: ::DynamicBone::UpdateMode
 struct CORDL_TYPE __DynamicBone__UpdateMode {
 public:
@@ -112,7 +112,7 @@ static_assert(offsetof(::GlobalNamespace::__DynamicBone__UpdateMode, value__) ==
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16043))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16161))
 // CS Name: ::DynamicBone::FreezeAxis
 struct CORDL_TYPE __DynamicBone__FreezeAxis {
 public:
@@ -169,8 +169,8 @@ static_assert(offsetof(::GlobalNamespace::__DynamicBone__FreezeAxis, value__) ==
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 116, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16044))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(8996))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16162))
 // CS Name: ::DynamicBone::Particle*
 class CORDL_TYPE __DynamicBone__Particle : public ::System::Object {
 public:
@@ -294,7 +294,7 @@ public:
 
   static inline ::GlobalNamespace::__DynamicBone__Particle* New_ctor();
 
-  /// @brief Method .ctor, addr 0x122fee4, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12caf94, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__DynamicBone__Particle", modifiers: "&&", def_value: None }]
@@ -386,8 +386,8 @@ static_assert(offsetof(::GlobalNamespace::__DynamicBone__Particle, ___m_InitLoca
 // SizeInfo { instance_size: 264, native_size: -1, calculated_instance_size: 264, calculated_native_size: 264, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(16042)),
-// TypeDefinitionIndex(TypeDefinitionIndex(16043))] Self: TypeDefinitionIndex(TypeDefinitionIndex(16045)) CS Name: ::DynamicBone*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(16160)),
+// TypeDefinitionIndex(TypeDefinitionIndex(16161))] Self: TypeDefinitionIndex(TypeDefinitionIndex(16163)) CS Name: ::DynamicBone*
 class CORDL_TYPE DynamicBone : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -686,78 +686,78 @@ public:
 
   constexpr void __cordl_internal_set_m_Particles(::System::Collections::Generic::List_1<::GlobalNamespace::__DynamicBone__Particle*>* value);
 
-  /// @brief Method Start, addr 0x122dc78, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x12c8d28, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method FixedUpdate, addr 0x122dde8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method FixedUpdate, addr 0x12c8e98, size 0x30, virtual false, abstract: false, final false
   inline void FixedUpdate();
 
-  /// @brief Method Update, addr 0x122de3c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x12c8eec, size 0x30, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method LateUpdate, addr 0x122de6c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x12c8f1c, size 0x50, virtual false, abstract: false, final false
   inline void LateUpdate();
 
-  /// @brief Method PreUpdate, addr 0x122de18, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method PreUpdate, addr 0x12c8ec8, size 0x24, virtual false, abstract: false, final false
   inline void PreUpdate();
 
-  /// @brief Method CheckDistance, addr 0x122debc, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method CheckDistance, addr 0x12c8f6c, size 0x178, virtual false, abstract: false, final false
   inline void CheckDistance();
 
-  /// @brief Method OnEnable, addr 0x122e444, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x12c94f4, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable, addr 0x122e448, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x12c94f8, size 0x4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnValidate, addr 0x122e44c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x12c94fc, size 0xac, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method OnDrawGizmosSelected, addr 0x122e4f8, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method OnDrawGizmosSelected, addr 0x12c95a8, size 0x190, virtual false, abstract: false, final false
   inline void OnDrawGizmosSelected();
 
-  /// @brief Method SetWeight, addr 0x122e688, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method SetWeight, addr 0x12c9738, size 0x50, virtual false, abstract: false, final false
   inline void SetWeight(float_t w);
 
-  /// @brief Method GetWeight, addr 0x122e6d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetWeight, addr 0x12c9788, size 0x8, virtual false, abstract: false, final false
   inline float_t GetWeight();
 
-  /// @brief Method UpdateDynamicBones, addr 0x122e034, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method UpdateDynamicBones, addr 0x12c90e4, size 0x1c4, virtual false, abstract: false, final false
   inline void UpdateDynamicBones(float_t t);
 
-  /// @brief Method SetupParticles, addr 0x122dc7c, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method SetupParticles, addr 0x12c8d2c, size 0x16c, virtual false, abstract: false, final false
   inline void SetupParticles();
 
-  /// @brief Method AppendParticles, addr 0x122f660, size 0x5c8, virtual false, abstract: false, final false
+  /// @brief Method AppendParticles, addr 0x12ca710, size 0x5c8, virtual false, abstract: false, final false
   inline void AppendParticles(::UnityEngine::Transform* b, int32_t parentIndex, float_t boneLength);
 
-  /// @brief Method UpdateParameters, addr 0x122fc28, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method UpdateParameters, addr 0x12cacd8, size 0x2bc, virtual false, abstract: false, final false
   inline void UpdateParameters();
 
-  /// @brief Method InitTransforms, addr 0x122e1f8, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method InitTransforms, addr 0x12c92a8, size 0x104, virtual false, abstract: false, final false
   inline void InitTransforms();
 
-  /// @brief Method ResetParticlesPosition, addr 0x122e2fc, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method ResetParticlesPosition, addr 0x12c93ac, size 0x148, virtual false, abstract: false, final false
   inline void ResetParticlesPosition();
 
-  /// @brief Method UpdateParticles1, addr 0x122e6e0, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method UpdateParticles1, addr 0x12c9790, size 0x264, virtual false, abstract: false, final false
   inline void UpdateParticles1();
 
-  /// @brief Method UpdateParticles2, addr 0x122e944, size 0x61c, virtual false, abstract: false, final false
+  /// @brief Method UpdateParticles2, addr 0x12c99f4, size 0x61c, virtual false, abstract: false, final false
   inline void UpdateParticles2();
 
-  /// @brief Method SkipUpdateParticles, addr 0x122ef60, size 0x4a4, virtual false, abstract: false, final false
+  /// @brief Method SkipUpdateParticles, addr 0x12ca010, size 0x4a4, virtual false, abstract: false, final false
   inline void SkipUpdateParticles();
 
-  /// @brief Method MirrorVector, addr 0x122ffc0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method MirrorVector, addr 0x12cb070, size 0x34, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 MirrorVector(::UnityEngine::Vector3 v, ::UnityEngine::Vector3 axis);
 
-  /// @brief Method ApplyParticlesToTransforms, addr 0x122f404, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method ApplyParticlesToTransforms, addr 0x12ca4b4, size 0x25c, virtual false, abstract: false, final false
   inline void ApplyParticlesToTransforms();
 
   static inline ::GlobalNamespace::DynamicBone* New_ctor();
 
-  /// @brief Method .ctor, addr 0x122fff4, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12cb0a4, size 0x150, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DynamicBone", modifiers: "&&", def_value: None }]

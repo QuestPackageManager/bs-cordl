@@ -25,6 +25,9 @@ namespace GlobalNamespace {
 class IVRPlatformHelper;
 }
 namespace GlobalNamespace {
+class PlayerTransforms;
+}
+namespace GlobalNamespace {
 class PlayerVRControllersManager;
 }
 namespace GlobalNamespace {
@@ -53,13 +56,13 @@ MARK_VAL_T(::GlobalNamespace::__SongAutopilot__Frame);
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10057))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5378))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8789))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4032))
 // CS Name: ::SongAutopilot::Frame
 struct CORDL_TYPE __SongAutopilot__Frame {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x226db90, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22bb7b0, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(float_t time, ::UnityEngine::Pose pose);
 
   // Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "pose", ty: "::UnityEngine::Pose", modifiers: "", def_value: None }]
@@ -89,11 +92,11 @@ static_assert(offsetof(::GlobalNamespace::__SongAutopilot__Frame, pose) == 0x4, 
 
 } // namespace GlobalNamespace
 // Type: ::SongAutopilot
-// SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 192, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 200, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(15314))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5379))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8987)), TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(15429))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4033))
 // CS Name: ::SongAutopilot*
 class CORDL_TYPE SongAutopilot : public ::GlobalNamespace::ZenjectSafeBehaviour {
 public:
@@ -171,6 +174,9 @@ public:
 
   /// @brief Field _hmdCamera, offset 0xb8, size 0x8
   __declspec(property(get = __cordl_internal_get__hmdCamera, put = __cordl_internal_set__hmdCamera))::UnityW<::UnityEngine::Camera> _hmdCamera;
+
+  /// @brief Field _playerTransforms, offset 0xc0, size 0x8
+  __declspec(property(get = __cordl_internal_get__playerTransforms, put = __cordl_internal_set__playerTransforms))::UnityW<::GlobalNamespace::PlayerTransforms> _playerTransforms;
 
   constexpr float_t& __cordl_internal_get__cutAngle();
 
@@ -310,9 +316,15 @@ public:
 
   constexpr void __cordl_internal_set__hmdCamera(::UnityW<::UnityEngine::Camera> value);
 
+  constexpr ::UnityW<::GlobalNamespace::PlayerTransforms>& __cordl_internal_get__playerTransforms();
+
+  constexpr ::UnityW<::GlobalNamespace::PlayerTransforms> const& __cordl_internal_get__playerTransforms() const;
+
+  constexpr void __cordl_internal_set__playerTransforms(::UnityW<::GlobalNamespace::PlayerTransforms> value);
+
   static inline ::GlobalNamespace::SongAutopilot* New_ctor();
 
-  /// @brief Method .ctor, addr 0x226db50, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22bb770, size 0x40, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SongAutopilot", modifiers: "&&", def_value: None }]
@@ -398,10 +410,13 @@ public:
   /// @brief Field _hmdCamera, offset: 0xb8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Camera> ____hmdCamera;
 
+  /// @brief Field _playerTransforms, offset: 0xc0, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::PlayerTransforms> ____playerTransforms;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SongAutopilot, 0xc0>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SongAutopilot, 0xc8>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SongAutopilot, ____cutAngle) == 0x1c, "Offset mismatch!");
 
@@ -448,6 +463,8 @@ static_assert(offsetof(::GlobalNamespace::SongAutopilot, ____beatmapCallbacksCon
 static_assert(offsetof(::GlobalNamespace::SongAutopilot, ____vrPlatformHelper) == 0xb0, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SongAutopilot, ____hmdCamera) == 0xb8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SongAutopilot, ____playerTransforms) == 0xc0, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SongAutopilot);

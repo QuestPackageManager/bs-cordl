@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::Zenject::ValidationMarker);
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11366))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10508))
 // CS Name: ::Zenject::ValidationMarker*
 class CORDL_TYPE ValidationMarker : public ::System::Object {
 public:
@@ -47,24 +47,24 @@ public:
 
   static inline ::Zenject::ValidationMarker* New_ctor(::System::Type* markedType, bool instantiateFailed);
 
-  /// @brief Method .ctor, addr 0x2f21364, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f3d5ec, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* markedType, bool instantiateFailed);
 
   static inline ::Zenject::ValidationMarker* New_ctor(::System::Type* markedType);
 
-  /// @brief Method .ctor, addr 0x2f05ee8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f22030, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* markedType);
 
-  /// @brief Method get_InstantiateFailed, addr 0x2f21398, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InstantiateFailed, addr 0x2f3d620, size 0x8, virtual false, abstract: false, final false
   inline bool get_InstantiateFailed();
 
-  /// @brief Method set_InstantiateFailed, addr 0x2f213a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_InstantiateFailed, addr 0x2f3d628, size 0xc, virtual false, abstract: false, final false
   inline void set_InstantiateFailed(bool value);
 
-  /// @brief Method get_MarkedType, addr 0x2f213ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MarkedType, addr 0x2f3d634, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_MarkedType();
 
-  /// @brief Method set_MarkedType, addr 0x2f213b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MarkedType, addr 0x2f3d63c, size 0x8, virtual false, abstract: false, final false
   inline void set_MarkedType(::System::Type* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "ValidationMarker", modifiers: "&&", def_value: None }]

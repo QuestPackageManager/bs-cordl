@@ -72,7 +72,7 @@ MARK_VAL_T(::System::Xml::__XmlDownloadManager___GetNonFileStreamAsync_d__5);
 namespace System::Xml {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11549))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11447))
 // CS Name: ::XmlDownloadManager::<>c__DisplayClass4_0*
 class CORDL_TYPE __XmlDownloadManager____c__DisplayClass4_0 : public ::System::Object {
 public:
@@ -88,10 +88,10 @@ public:
 
   static inline ::System::Xml::__XmlDownloadManager____c__DisplayClass4_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28a4710, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28a7d78, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <GetStreamAsync>b__0, addr 0x28a4838, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method <GetStreamAsync>b__0, addr 0x28a7ea0, size 0x90, virtual false, abstract: false, final false
   inline ::System::IO::Stream* _GetStreamAsync_b__0();
 
   // Ctor Parameters [CppParam { name: "", ty: "__XmlDownloadManager____c__DisplayClass4_0", modifiers: "&&", def_value: None }]
@@ -123,9 +123,9 @@ static_assert(offsetof(::System::Xml::__XmlDownloadManager____c__DisplayClass4_0
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3619)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9097)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 1125 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3402), inst: 899 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(11550)) CS Name: ::XmlDownloadManager::<GetNonFileStreamAsync>d__5
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3398)), TypeDefinitionIndex(TypeDefinitionIndex(3617)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7107)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3393), inst: 1116 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3398), inst: 902 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(11448)) CS Name: ::XmlDownloadManager::<GetNonFileStreamAsync>d__5
 struct CORDL_TYPE __XmlDownloadManager___GetNonFileStreamAsync_d__5 {
 public:
   // Declarations
@@ -135,10 +135,10 @@ public:
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x28a48c8, size 0x774, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x28a7f30, size 0x774, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x28a503c, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x28a86a4, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -215,7 +215,7 @@ static_assert(offsetof(::System::Xml::__XmlDownloadManager___GetNonFileStreamAsy
 namespace System::Xml {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11551))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11449))
 // CS Name: ::System.Xml::XmlDownloadManager*
 class CORDL_TYPE XmlDownloadManager : public ::System::Object {
 public:
@@ -233,26 +233,26 @@ public:
 
   constexpr void __cordl_internal_set_connections(::System::Collections::Hashtable* value);
 
-  /// @brief Method GetStream, addr 0x28a3cb0, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method GetStream, addr 0x28a7318, size 0x104, virtual false, abstract: false, final false
   inline ::System::IO::Stream* GetStream(::System::Uri* uri, ::System::Net::ICredentials* credentials, ::System::Net::IWebProxy* proxy, ::System::Net::Cache::RequestCachePolicy* cachePolicy);
 
-  /// @brief Method GetNonFileStream, addr 0x28a3db4, size 0x490, virtual false, abstract: false, final false
+  /// @brief Method GetNonFileStream, addr 0x28a741c, size 0x490, virtual false, abstract: false, final false
   inline ::System::IO::Stream* GetNonFileStream(::System::Uri* uri, ::System::Net::ICredentials* credentials, ::System::Net::IWebProxy* proxy, ::System::Net::Cache::RequestCachePolicy* cachePolicy);
 
-  /// @brief Method Remove, addr 0x28a4440, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x28a7aa8, size 0x16c, virtual false, abstract: false, final false
   inline void Remove(::StringW host);
 
-  /// @brief Method GetStreamAsync, addr 0x28a45ac, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method GetStreamAsync, addr 0x28a7c14, size 0x164, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::IO::Stream*>* GetStreamAsync(::System::Uri* uri, ::System::Net::ICredentials* credentials, ::System::Net::IWebProxy* proxy,
                                                                                    ::System::Net::Cache::RequestCachePolicy* cachePolicy);
 
-  /// @brief Method GetNonFileStreamAsync, addr 0x28a4718, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method GetNonFileStreamAsync, addr 0x28a7d80, size 0x118, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::IO::Stream*>* GetNonFileStreamAsync(::System::Uri* uri, ::System::Net::ICredentials* credentials, ::System::Net::IWebProxy* proxy,
                                                                                           ::System::Net::Cache::RequestCachePolicy* cachePolicy);
 
   static inline ::System::Xml::XmlDownloadManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28a4830, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28a7e98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlDownloadManager", modifiers: "&&", def_value: None }]

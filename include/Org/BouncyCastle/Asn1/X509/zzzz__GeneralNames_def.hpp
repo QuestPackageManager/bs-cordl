@@ -53,41 +53,41 @@ public:
 
   constexpr void __cordl_internal_set_names(::ArrayW<::Org::BouncyCastle::Asn1::X509::GeneralName*, ::Array<::Org::BouncyCastle::Asn1::X509::GeneralName*>*> value);
 
-  /// @brief Method Copy, addr 0x118f114, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Copy, addr 0x11bcfa4, size 0x78, virtual false, abstract: false, final false
   static inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::GeneralName*, ::Array<::Org::BouncyCastle::Asn1::X509::GeneralName*>*>
   Copy(::ArrayW<::Org::BouncyCastle::Asn1::X509::GeneralName*, ::Array<::Org::BouncyCastle::Asn1::X509::GeneralName*>*> names);
 
-  /// @brief Method GetInstance, addr 0x118f18c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x11bd01c, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::GeneralNames* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetInstance, addr 0x118c048, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x11b9ed8, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::GeneralNames* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method FromExtensions, addr 0x118f354, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method FromExtensions, addr 0x11bd1e4, size 0x78, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::GeneralNames* FromExtensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* extOid);
 
   static inline ::Org::BouncyCastle::Asn1::X509::GeneralNames* New_ctor(::Org::BouncyCastle::Asn1::X509::GeneralName* name);
 
-  /// @brief Method .ctor, addr 0x118f3cc, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11bd25c, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::GeneralName* name);
 
   static inline ::Org::BouncyCastle::Asn1::X509::GeneralNames* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::GeneralName*, ::Array<::Org::BouncyCastle::Asn1::X509::GeneralName*>*> names);
 
-  /// @brief Method .ctor, addr 0x118f474, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11bd304, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::GeneralName*, ::Array<::Org::BouncyCastle::Asn1::X509::GeneralName*>*> names);
 
   static inline ::Org::BouncyCastle::Asn1::X509::GeneralNames* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0x118f230, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11bd0c0, size 0x124, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetNames, addr 0x118f4a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetNames, addr 0x11bd334, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::GeneralName*, ::Array<::Org::BouncyCastle::Asn1::X509::GeneralName*>*> GetNames();
 
-  /// @brief Method ToAsn1Object, addr 0x118f4ac, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x11bd33c, size 0x68, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-  /// @brief Method ToString, addr 0x118f514, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x11bd3a4, size 0x15c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "GeneralNames", modifiers: "&&", def_value: None }]

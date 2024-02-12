@@ -37,13 +37,13 @@ public:
 
   static inline ::System::Runtime::Remoting::Messaging::ConstructionCallDictionary* New_ctor(::System::Runtime::Remoting::Activation::IConstructionCallMessage* message);
 
-  /// @brief Method .ctor, addr 0x24ab1b4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24cd228, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Activation::IConstructionCallMessage* message);
 
-  /// @brief Method GetMethodProperty, addr 0x24ac15c, size 0x3ac, virtual true, abstract: false, final false
+  /// @brief Method GetMethodProperty, addr 0x24ce1d0, size 0x3ac, virtual true, abstract: false, final false
   inline ::System::Object* GetMethodProperty(::StringW key);
 
-  /// @brief Method SetMethodProperty, addr 0x24aca48, size 0x26c, virtual true, abstract: false, final false
+  /// @brief Method SetMethodProperty, addr 0x24ceabc, size 0x26c, virtual true, abstract: false, final false
   inline void SetMethodProperty(::StringW key, ::System::Object* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "ConstructionCallDictionary", modifiers: "&&", def_value: None }]

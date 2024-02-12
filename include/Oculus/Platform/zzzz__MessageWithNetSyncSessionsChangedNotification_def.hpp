@@ -19,20 +19,20 @@ MARK_REF_PTR_T(::Oculus::Platform::MessageWithNetSyncSessionsChangedNotification
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13262)), TypeDefinitionIndex(TypeDefinitionIndex(13461)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst:
-// 979 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(13308)) CS Name: ::Oculus.Platform::MessageWithNetSyncSessionsChangedNotification*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13162)), TypeDefinitionIndex(TypeDefinitionIndex(13409)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13162), inst:
+// 975 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(13218)) CS Name: ::Oculus.Platform::MessageWithNetSyncSessionsChangedNotification*
 class CORDL_TYPE MessageWithNetSyncSessionsChangedNotification : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::NetSyncSessionsChangedNotification*> {
 public:
   // Declarations
   static inline ::Oculus::Platform::MessageWithNetSyncSessionsChangedNotification* New_ctor(void* c_message);
 
-  /// @brief Method .ctor, addr 0x26ef4a8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2718e3c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(void* c_message);
 
-  /// @brief Method GetNetSyncSessionsChangedNotification, addr 0x26f2c30, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetNetSyncSessionsChangedNotification, addr 0x271ca1c, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::NetSyncSessionsChangedNotification* GetNetSyncSessionsChangedNotification();
 
-  /// @brief Method GetDataFromMessage, addr 0x26f2c6c, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x271ca58, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::NetSyncSessionsChangedNotification* GetDataFromMessage(void* c_message);
 
   // Ctor Parameters [CppParam { name: "", ty: "MessageWithNetSyncSessionsChangedNotification", modifiers: "&&", def_value: None }]

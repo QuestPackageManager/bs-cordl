@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::LiteNetLib::NetConstants);
 namespace LiteNetLib {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14156))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14169))
 // CS Name: ::LiteNetLib::NetConstants*
 class CORDL_TYPE NetConstants : public ::System::Object {
 public:

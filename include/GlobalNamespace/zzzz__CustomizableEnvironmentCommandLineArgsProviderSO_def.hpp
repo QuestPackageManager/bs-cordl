@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::GlobalNamespace::CustomizableEnvironmentCommandLineArgsProvider
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5952))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15602))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5225))
 // CS Name: ::CustomizableEnvironmentCommandLineArgsProviderSO*
 class CORDL_TYPE CustomizableEnvironmentCommandLineArgsProviderSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -69,12 +69,12 @@ public:
 
   static inline ::GlobalNamespace::EnvironmentCommandLineArgsProvider* getStaticF__environmentCommandLineArgsProvider();
 
-  /// @brief Method GetCommandLineArgs, addr 0x2304f68, size 0x174, virtual true, abstract: false, final true
+  /// @brief Method GetCommandLineArgs, addr 0x2332d18, size 0x174, virtual true, abstract: false, final true
   inline ::ArrayW<::StringW, ::Array<::StringW>*> GetCommandLineArgs();
 
   static inline ::GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23050e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2332e94, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CustomizableEnvironmentCommandLineArgsProviderSO", modifiers: "&&", def_value: None }]

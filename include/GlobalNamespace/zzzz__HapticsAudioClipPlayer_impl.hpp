@@ -20,7 +20,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::XR::XRNode, ::Libraries::HM::HMLib::VR::HapticPresetSO*, ::System::Action_1<::UnityW<::GlobalNamespace::HapticsAudioClipPlayer>>*)>(
     &::GlobalNamespace::HapticsAudioClipPlayer::PlayHapticsPreset)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x20f91e0;
+  constexpr static std::size_t addrs = 0x218cbf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HapticsAudioClipPlayer::*)()>(
     &::GlobalNamespace::HapticsAudioClipPlayer::TriggerContinuousHaptic)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x20f953c;
+  constexpr static std::size_t addrs = 0x218cf4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HapticsAudioClipPlayer*>::get(),
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HapticsAudioClipPlayer::*)()>(&::GlobalNamespace::HapticsAudioClipPlayer::RestartHaptic)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x20f9574;
+  constexpr static std::size_t addrs = 0x218cf84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HapticsAudioClipPlayer*>::get(),
@@ -65,7 +65,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::HapticsAudioClipPlayer::*)(::System::Action_1<::UnityW<::GlobalNamespace::HapticsAudioClipPlayer>>*)>(
         &::GlobalNamespace::HapticsAudioClipPlayer::HandleContinuousAudioCoroutine)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x20f94c8;
+  constexpr static std::size_t addrs = 0x218ced8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HapticsAudioClipPlayer::*)(float_t)>(
     &::GlobalNamespace::HapticsAudioClipPlayer::UpdateFadeVolume)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x20f95a0;
+  constexpr static std::size_t addrs = 0x218cfb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,7 +96,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::HapticsAudioClipPlayer::*)(::System::Action_1<::UnityW<::GlobalNamespace::HapticsAudioClipPlayer>>*)>(
         &::GlobalNamespace::HapticsAudioClipPlayer::HandleOneShotPlayEndCoroutine)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x20f9454;
+  constexpr static std::size_t addrs = 0x218ce64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HapticsAudioClipPlayer::*)()>(&::GlobalNamespace::HapticsAudioClipPlayer::Reset)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x20f931c;
+  constexpr static std::size_t addrs = 0x218cd2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HapticsAudioClipPlayer*>::get(), "Reset",
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HapticsAudioClipPlayer::*)()>(
     &::GlobalNamespace::HapticsAudioClipPlayer::ForceStopPlaying)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x20f9610;
+  constexpr static std::size_t addrs = 0x218d020;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HapticsAudioClipPlayer*>::get(),
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HapticsAudioClipPlayer::*)()>(&::GlobalNamespace::HapticsAudioClipPlayer::Initialize)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x20f963c;
+  constexpr static std::size_t addrs = 0x218d04c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HapticsAudioClipPlayer*>::get(), "Initialize",
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::HapticsAudioClipPlayer::*)(::UnityEngine::XR::XRNode)>(
     &::GlobalNamespace::HapticsAudioClipPlayer::GetPanForNode)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x20f9370;
+  constexpr static std::size_t addrs = 0x218cd80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -165,7 +165,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HapticsAudioClipPlayer::*)()>(&::GlobalNamespace::HapticsAudioClipPlayer::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x20f9674;
+  constexpr static std::size_t addrs = 0x218d084;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HapticsAudioClipPlayer*>::get(), ".ctor",
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::HapticsAudioClipPlayer::*)()>(
     &::GlobalNamespace::HapticsAudioClipPlayer::_HandleOneShotPlayEndCoroutine_b__11_0)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x20f967c;
+  constexpr static std::size_t addrs = 0x218d08c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -317,7 +317,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__HapticsAudioClipPlayer__Pool::*)(::GlobalNamespace::HapticsAudioClipPlayer*)>(
     &::GlobalNamespace::__HapticsAudioClipPlayer__Pool::OnCreated)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x20f96a4;
+  constexpr static std::size_t addrs = 0x218d0b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -333,7 +333,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__HapticsAudioClipPlayer__Pool::*)(::GlobalNamespace::HapticsAudioClipPlayer*)>(
     &::GlobalNamespace::__HapticsAudioClipPlayer__Pool::OnDestroyed)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x20f96b8;
+  constexpr static std::size_t addrs = 0x218d0c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -349,7 +349,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__HapticsAudioClipPlayer__Pool::*)(::GlobalNamespace::HapticsAudioClipPlayer*)>(
     &::GlobalNamespace::__HapticsAudioClipPlayer__Pool::OnDespawned)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x20f972c;
+  constexpr static std::size_t addrs = 0x218d13c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -365,7 +365,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__HapticsAudioClipPlayer__Pool::*)(::GlobalNamespace::HapticsAudioClipPlayer*)>(
     &::GlobalNamespace::__HapticsAudioClipPlayer__Pool::Reinitialize)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x20f9740;
+  constexpr static std::size_t addrs = 0x218d150;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -381,7 +381,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__HapticsAudioClipPlayer__Pool::*)()>(
     &::GlobalNamespace::__HapticsAudioClipPlayer__Pool::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x20f9754;
+  constexpr static std::size_t addrs = 0x218d164;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__HapticsAudioClipPlayer__Pool*>::get(),
@@ -425,7 +425,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9::*)(int32_t)>(
     &::GlobalNamespace::__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x20f9578;
+  constexpr static std::size_t addrs = 0x218cf88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -440,7 +440,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9::*)()>(
     &::GlobalNamespace::__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x20f979c;
+  constexpr static std::size_t addrs = 0x218d1ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -455,7 +455,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9::*)()>(
     &::GlobalNamespace::__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9::MoveNext)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x20f97a0;
+  constexpr static std::size_t addrs = 0x218d1b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -470,7 +470,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9::*)()>(
     &::GlobalNamespace::__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x20f98cc;
+  constexpr static std::size_t addrs = 0x218d2dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -485,7 +485,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9::*)()>(
     &::GlobalNamespace::__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x20f98d4;
+  constexpr static std::size_t addrs = 0x218d2e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -500,7 +500,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9::*)()>(
     &::GlobalNamespace::__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x20f9914;
+  constexpr static std::size_t addrs = 0x218d324;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -645,7 +645,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11::*)(int32_t)>(
     &::GlobalNamespace::__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x20f95e8;
+  constexpr static std::size_t addrs = 0x218cff8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -660,7 +660,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11::*)()>(
     &::GlobalNamespace::__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x20f991c;
+  constexpr static std::size_t addrs = 0x218d32c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -675,7 +675,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11::*)()>(
     &::GlobalNamespace::__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11::MoveNext)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x20f9920;
+  constexpr static std::size_t addrs = 0x218d330;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -690,7 +690,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11::*)()>(
     &::GlobalNamespace::__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x20f9a40;
+  constexpr static std::size_t addrs = 0x218d450;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -705,7 +705,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11::*)()>(
     &::GlobalNamespace::__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x20f9a48;
+  constexpr static std::size_t addrs = 0x218d458;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -720,7 +720,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11::*)()>(
     &::GlobalNamespace::__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x20f9a88;
+  constexpr static std::size_t addrs = 0x218d498;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -64,27 +64,27 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> publicKey);
 
-  /// @brief Method .ctor, addr 0xe7b524, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xea63b4, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> publicKey);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xe7b5a8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xea6438, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance, addr 0xe7b150, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xea5fe0, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0xe6f748, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xe9a5d8, size 0x158, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey* GetInstance(::System::Object* obj);
 
-  /// @brief Method get_Algorithm, addr 0xe7b658, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Algorithm, addr 0xea64e8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_Algorithm();
 
-  /// @brief Method get_PublicKey, addr 0xe7b660, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PublicKey, addr 0xea64f0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerBitString* get_PublicKey();
 
-  /// @brief Method ToAsn1Object, addr 0xe7b668, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xea64f8, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "OriginatorPublicKey", modifiers: "&&", def_value: None }]

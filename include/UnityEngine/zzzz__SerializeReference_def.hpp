@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::UnityEngine::SerializeReference);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10049))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8781))
 // CS Name: ::UnityEngine::SerializeReference*
 class CORDL_TYPE SerializeReference : public ::System::Attribute {
 public:
   // Declarations
   static inline ::UnityEngine::SerializeReference* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ca1154, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ca1b0c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SerializeReference", modifiers: "&&", def_value: None }]

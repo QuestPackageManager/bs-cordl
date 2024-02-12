@@ -55,7 +55,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__LightColorGroupEffect__InitData);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4922))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4276))
 // CS Name: ::LightColorGroupEffect::InitData*
 class CORDL_TYPE __LightColorGroupEffect__InitData : public ::System::Object {
 public:
@@ -89,7 +89,7 @@ public:
 
   static inline ::GlobalNamespace::__LightColorGroupEffect__InitData* New_ctor(int32_t groupId, int32_t elementId, int32_t lightId);
 
-  /// @brief Method .ctor, addr 0x23a8d44, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2368e78, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(int32_t groupId, int32_t elementId, int32_t lightId);
 
   // Ctor Parameters [CppParam { name: "", ty: "__LightColorGroupEffect__InitData", modifiers: "&&", def_value: None }]
@@ -131,8 +131,8 @@ static_assert(offsetof(::GlobalNamespace::__LightColorGroupEffect__InitData, ___
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 162, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4923))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8995))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4277))
 // CS Name: ::LightColorGroupEffect*
 class CORDL_TYPE LightColorGroupEffect : public ::System::Object {
 public:
@@ -307,27 +307,27 @@ public:
                                                                    ::Tweening::SongTimeTweeningManager* tweeningManager, ::GlobalNamespace::ColorManager* colorManager,
                                                                    ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController, ::GlobalNamespace::IBpmController* bpmController);
 
-  /// @brief Method .ctor, addr 0x23a8070, size 0x35c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23681a8, size 0x35c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__LightColorGroupEffect__InitData* initData, ::GlobalNamespace::LightWithIdManager* lightManager, ::Tweening::SongTimeTweeningManager* tweeningManager,
                     ::GlobalNamespace::ColorManager* colorManager, ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController, ::GlobalNamespace::IBpmController* bpmController);
 
-  /// @brief Method Cleanup, addr 0x23a83cc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x2368504, size 0x9c, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method HandleColorChangeBeatmapEvent, addr 0x23a8468, size 0x480, virtual false, abstract: false, final false
+  /// @brief Method HandleColorChangeBeatmapEvent, addr 0x23685a0, size 0x47c, virtual false, abstract: false, final false
   inline void HandleColorChangeBeatmapEvent(::GlobalNamespace::LightColorBeatmapEventData* currentEventData);
 
-  /// @brief Method UseBoostColors, addr 0x23a8a0c, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method UseBoostColors, addr 0x2368b40, size 0x180, virtual false, abstract: false, final false
   inline void UseBoostColors(bool useBoostColors);
 
-  /// @brief Method GetColor, addr 0x23a8b8c, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method GetColor, addr 0x2368cc0, size 0x34, virtual true, abstract: false, final false
   inline ::UnityEngine::Color GetColor(::GlobalNamespace::EnvironmentColorType colorType, bool colorBoost, float_t brightness);
 
-  /// @brief Method SetData, addr 0x23a8bc0, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x2368cf4, size 0x184, virtual false, abstract: false, final false
   inline void SetData(::UnityEngine::Color fromColor, ::UnityEngine::Color toColor, ::UnityEngine::Color alternativeFromColor, ::UnityEngine::Color alternativeToColor, float_t fromStrobeBeatFrequency,
                       float_t toStrobeBeatFrequency, float_t fromStrobeBrightness, float_t toStrobeBrightness, bool strobeFade);
 
-  /// @brief Method SetColor, addr 0x23a88e8, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method SetColor, addr 0x2368a1c, size 0x124, virtual false, abstract: false, final false
   inline void SetColor(float_t t);
 
   // Ctor Parameters [CppParam { name: "", ty: "LightColorGroupEffect", modifiers: "&&", def_value: None }]

@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IMockPlayerScoreCalculator);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15508))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15694))
 // CS Name: ::IMockPlayerScoreCalculator*
 class CORDL_TYPE IMockPlayerScoreCalculator {
 public:

@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLo
 namespace UnityEngine::ResourceManagement::ResourceLocations {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14021))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14034))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceLocations::IResourceLocation*
 class CORDL_TYPE IResourceLocation {
 public:

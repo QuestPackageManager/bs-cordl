@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::System::Diagnostics::DebuggerBrowsableAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(3734))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3735))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(3732))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3733))
 // CS Name: ::System.Diagnostics::DebuggerBrowsableAttribute*
 class CORDL_TYPE DebuggerBrowsableAttribute : public ::System::Attribute {
 public:
@@ -35,7 +35,7 @@ public:
 
   static inline ::System::Diagnostics::DebuggerBrowsableAttribute* New_ctor(::System::Diagnostics::DebuggerBrowsableState state);
 
-  /// @brief Method .ctor, addr 0x2579c48, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x259cb38, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::System::Diagnostics::DebuggerBrowsableState state);
 
   // Ctor Parameters [CppParam { name: "", ty: "DebuggerBrowsableAttribute", modifiers: "&&", def_value: None }]

@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MockNodePoseSyncStateSender);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15510))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15696))
 // CS Name: ::MockNodePoseSyncStateSender*
 class CORDL_TYPE MockNodePoseSyncStateSender : public ::System::Object {
 public:
@@ -53,16 +53,16 @@ public:
 
   static inline ::GlobalNamespace::MockNodePoseSyncStateSender* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* msm);
 
-  /// @brief Method .ctor, addr 0x23e68e0, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2406754, size 0x17c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IMultiplayerSessionManager* msm);
 
-  /// @brief Method Dispose, addr 0x23e6a5c, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x24068d0, size 0xc8, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method SendPose, addr 0x23e6b24, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method SendPose, addr 0x2406998, size 0x230, virtual false, abstract: false, final false
   inline void SendPose(::GlobalNamespace::PoseSerializable headPose, ::GlobalNamespace::PoseSerializable leftHandPose, ::GlobalNamespace::PoseSerializable rightHandPose);
 
-  /// @brief Method HandleNodePoseSyncStateUpdate, addr 0x23e6d54, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleNodePoseSyncStateUpdate, addr 0x2406bc8, size 0x4, virtual false, abstract: false, final false
   inline void HandleNodePoseSyncStateUpdate(::GlobalNamespace::NodePoseSyncStateNetSerializable* nodePose, ::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
   // Ctor Parameters [CppParam { name: "", ty: "MockNodePoseSyncStateSender", modifiers: "&&", def_value: None }]

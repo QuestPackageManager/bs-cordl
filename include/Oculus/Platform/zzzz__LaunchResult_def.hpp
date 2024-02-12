@@ -16,7 +16,7 @@ MARK_VAL_T(::Oculus::Platform::LaunchResult);
 namespace Oculus::Platform {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13251))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13148))
 // CS Name: ::Oculus.Platform::LaunchResult
 struct CORDL_TYPE LaunchResult {
 public:

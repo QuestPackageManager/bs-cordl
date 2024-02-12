@@ -31,8 +31,8 @@ MARK_VAL_T(::UnityEngine::Animations::AnimationMotionXToDeltaPlayable);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Animations {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10440))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14898))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9209))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14771))
 // CS Name: ::UnityEngine.Animations::AnimationMotionXToDeltaPlayable
 struct CORDL_TYPE AnimationMotionXToDeltaPlayable {
 public:
@@ -56,34 +56,34 @@ public:
 
   static inline ::UnityEngine::Animations::AnimationMotionXToDeltaPlayable getStaticF_m_NullPlayable();
 
-  /// @brief Method Create, addr 0x2c9877c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2c952e8, size 0x90, virtual false, abstract: false, final false
   static inline ::UnityEngine::Animations::AnimationMotionXToDeltaPlayable Create(::UnityEngine::Playables::PlayableGraph graph);
 
-  /// @brief Method CreateHandle, addr 0x2c9880c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method CreateHandle, addr 0x2c95378, size 0xe0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableHandle CreateHandle(::UnityEngine::Playables::PlayableGraph graph);
 
-  /// @brief Method .ctor, addr 0x2c988ec, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c95458, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Playables::PlayableHandle handle);
 
-  /// @brief Method GetHandle, addr 0x2c98a38, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetHandle, addr 0x2c955a4, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableHandle GetHandle();
 
-  /// @brief Method op_Implicit, addr 0x2c98a44, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2c955b0, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::Playable op_Implicit___UnityEngine__Playables__Playable(::UnityEngine::Animations::AnimationMotionXToDeltaPlayable playable);
 
-  /// @brief Method Equals, addr 0x2c98a74, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2c955e0, size 0x78, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Animations::AnimationMotionXToDeltaPlayable other);
 
-  /// @brief Method SetAbsoluteMotion, addr 0x2c98aec, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method SetAbsoluteMotion, addr 0x2c95658, size 0x84, virtual false, abstract: false, final false
   inline void SetAbsoluteMotion(bool value);
 
-  /// @brief Method CreateHandleInternal, addr 0x2c989ac, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method CreateHandleInternal, addr 0x2c95518, size 0x8c, virtual false, abstract: false, final false
   static inline bool CreateHandleInternal(::UnityEngine::Playables::PlayableGraph graph, ByRef<::UnityEngine::Playables::PlayableHandle> handle);
 
-  /// @brief Method SetAbsoluteMotionInternal, addr 0x2c98b70, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetAbsoluteMotionInternal, addr 0x2c956dc, size 0x44, virtual false, abstract: false, final false
   static inline void SetAbsoluteMotionInternal(ByRef<::UnityEngine::Playables::PlayableHandle> handle, bool value);
 
-  /// @brief Method CreateHandleInternal_Injected, addr 0x2c98bb4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method CreateHandleInternal_Injected, addr 0x2c95720, size 0x44, virtual false, abstract: false, final false
   static inline bool CreateHandleInternal_Injected(ByRef<::UnityEngine::Playables::PlayableGraph> graph, ByRef<::UnityEngine::Playables::PlayableHandle> handle);
 
   // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableHandle", modifiers: "", def_value: None }]

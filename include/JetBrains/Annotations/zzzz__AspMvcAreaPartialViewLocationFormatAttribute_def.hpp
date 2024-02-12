@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::JetBrains::Annotations::AspMvcAreaPartialViewLocationFormatAttr
 namespace JetBrains::Annotations {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15761))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15911))
 // CS Name: ::JetBrains.Annotations::AspMvcAreaPartialViewLocationFormatAttribute*
 class CORDL_TYPE AspMvcAreaPartialViewLocationFormatAttribute : public ::System::Attribute {
 public:
@@ -34,13 +34,13 @@ public:
 
   static inline ::JetBrains::Annotations::AspMvcAreaPartialViewLocationFormatAttribute* New_ctor(::StringW format);
 
-  /// @brief Method .ctor, addr 0x2eba42c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ed6574, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW format);
 
-  /// @brief Method get_Format, addr 0x2eba454, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Format, addr 0x2ed659c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Format();
 
-  /// @brief Method set_Format, addr 0x2eba45c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Format, addr 0x2ed65a4, size 0x8, virtual false, abstract: false, final false
   inline void set_Format(::StringW value);
 
   // Ctor Parameters [CppParam { name: "", ty: "AspMvcAreaPartialViewLocationFormatAttribute", modifiers: "&&", def_value: None }]

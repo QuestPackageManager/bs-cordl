@@ -74,22 +74,22 @@ public:
 
   static inline ::System::CurrentSystemTimeZone* New_ctor();
 
-  /// @brief Method .ctor, addr 0x258d878, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25af790, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method GetDaylightChanges, addr 0x258d93c, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method GetDaylightChanges, addr 0x25af854, size 0xd0, virtual true, abstract: false, final false
   inline ::System::Globalization::DaylightTime* GetDaylightChanges(int32_t year);
 
-  /// @brief Method CreateDaylightChanges, addr 0x258dbf8, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method CreateDaylightChanges, addr 0x25afb10, size 0x284, virtual false, abstract: false, final false
   static inline ::System::Globalization::DaylightTime* CreateDaylightChanges(int32_t year);
 
-  /// @brief Method GetUtcOffset, addr 0x258de84, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method GetUtcOffset, addr 0x25afd9c, size 0xb4, virtual true, abstract: false, final false
   inline ::System::TimeSpan GetUtcOffset(::System::DateTime time);
 
-  /// @brief Method GetTimeZoneData, addr 0x258df60, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetTimeZoneData, addr 0x25afe78, size 0x4, virtual false, abstract: false, final false
   static inline bool GetTimeZoneData(int32_t year, ByRef<::ArrayW<int64_t, ::Array<int64_t>*>> data, ByRef<::ArrayW<::StringW, ::Array<::StringW>*>> names, ByRef<bool> daylight_inverted);
 
-  /// @brief Method GetCachedDaylightChanges, addr 0x258da0c, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method GetCachedDaylightChanges, addr 0x25af924, size 0x1ec, virtual false, abstract: false, final false
   inline ::System::Globalization::DaylightTime* GetCachedDaylightChanges(int32_t year);
 
   // Ctor Parameters [CppParam { name: "", ty: "CurrentSystemTimeZone", modifiers: "&&", def_value: None }]

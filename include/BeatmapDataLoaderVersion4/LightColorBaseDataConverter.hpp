@@ -1,0 +1,3 @@
+#pragma once
+#include "BeatmapDataLoaderVersion4/zzzz__LightColorBaseDataConverter_def.hpp"
+#include "BeatmapDataLoaderVersion4/zzzz__LightColorBaseDataConverter_impl.hpp"

@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::Util::IOperationCacheKey);
 namespace UnityEngine::ResourceManagement::Util {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13969))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13982))
 // CS Name: ::UnityEngine.ResourceManagement.Util::IOperationCacheKey*
 class CORDL_TYPE IOperationCacheKey {
 public:

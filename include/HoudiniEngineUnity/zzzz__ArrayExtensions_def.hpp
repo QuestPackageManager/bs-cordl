@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::ArrayExtensions);
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9822))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9614))
 // CS Name: ::HoudiniEngineUnity::ArrayExtensions*
 class CORDL_TYPE ArrayExtensions : public ::System::Object {
 public:

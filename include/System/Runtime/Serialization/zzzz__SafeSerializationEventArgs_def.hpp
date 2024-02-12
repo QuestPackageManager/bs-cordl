@@ -55,10 +55,10 @@ public:
 
   static inline ::System::Runtime::Serialization::SafeSerializationEventArgs* New_ctor(::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method .ctor, addr 0x24bcd94, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24dde08, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method get_SerializedStates, addr 0x24bce4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SerializedStates, addr 0x24ddec0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::System::Object*>* get_SerializedStates();
 
   // Ctor Parameters [CppParam { name: "", ty: "SafeSerializationEventArgs", modifiers: "&&", def_value: None }]

@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::__BTSStarTextEventEffect__StarTextSprite::*)()>(
     &::GlobalNamespace::__BTSStarTextEventEffect__StarTextSprite::get_id)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x221dc64;
+  constexpr static std::size_t addrs = 0xe2f890;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Sprite> (::GlobalNamespace::__BTSStarTextEventEffect__StarTextSprite::*)()>(
     &::GlobalNamespace::__BTSStarTextEventEffect__StarTextSprite::get_starTextSprite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x221dc6c;
+  constexpr static std::size_t addrs = 0xe2f898;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::__BTSStarTextEventEffect__StarTextSprite::*)()>(
     &::GlobalNamespace::__BTSStarTextEventEffect__StarTextSprite::get_animationLength)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x221dc74;
+  constexpr static std::size_t addrs = 0xe2f8a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__BTSStarTextEventEffect__StarTextSprite::*)()>(
     &::GlobalNamespace::__BTSStarTextEventEffect__StarTextSprite::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x221dc7c;
+  constexpr static std::size_t addrs = 0xe2f8a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::__BTSStarTextEventEffect__StartTextPosition::*)()>(
     &::GlobalNamespace::__BTSStarTextEventEffect__StartTextPosition::get_id)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x221dc84;
+  constexpr static std::size_t addrs = 0xe2f8b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (::GlobalNamespace::__BTSStarTextEventEffect__StartTextPosition::*)()>(
     &::GlobalNamespace::__BTSStarTextEventEffect__StartTextPosition::get_transform)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x221dc8c;
+  constexpr static std::size_t addrs = 0xe2f8b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -173,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__BTSStarTextEventEffect__StartTextPosition::*)()>(
     &::GlobalNamespace::__BTSStarTextEventEffect__StartTextPosition::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x221dc94;
+  constexpr static std::size_t addrs = 0xe2f8c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -235,7 +235,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BTSStarTextEventEffect::*)(
     ::System::Action_3<::UnityW<::UnityEngine::Sprite>, ::UnityW<::UnityEngine::Transform>, float_t>*)>(&::GlobalNamespace::BTSStarTextEventEffect::add_startStarTextAnimationEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x221d360;
+  constexpr static std::size_t addrs = 0xe2ef8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -251,7 +251,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BTSStarTextEventEffect::*)(
     ::System::Action_3<::UnityW<::UnityEngine::Sprite>, ::UnityW<::UnityEngine::Transform>, float_t>*)>(&::GlobalNamespace::BTSStarTextEventEffect::remove_startStarTextAnimationEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x221d498;
+  constexpr static std::size_t addrs = 0xe2f0c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -266,7 +266,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BTSStarTextEventEffect::*)()>(&::GlobalNamespace::BTSStarTextEventEffect::Start)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x221d7c4;
+  constexpr static std::size_t addrs = 0xe2f3f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BTSStarTextEventEffect*>::get(), "Start",
@@ -279,7 +279,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BTSStarTextEventEffect::*)()>(&::GlobalNamespace::BTSStarTextEventEffect::OnDestroy)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x221d9b0;
+  constexpr static std::size_t addrs = 0xe2f5dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BTSStarTextEventEffect*>::get(), "OnDestroy",
@@ -293,7 +293,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BTSStarTextEventEffect::*)(::GlobalNamespace::BasicBeatmapEventData*)>(
     &::GlobalNamespace::BTSStarTextEventEffect::HandleBeatmapEvent)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x221d9cc;
+  constexpr static std::size_t addrs = 0xe2f5f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -307,7 +307,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BTSStarTextEventEffect::*)()>(&::GlobalNamespace::BTSStarTextEventEffect::_ctor)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x221dba4;
+  constexpr static std::size_t addrs = 0xe2f7d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BTSStarTextEventEffect*>::get(), ".ctor",

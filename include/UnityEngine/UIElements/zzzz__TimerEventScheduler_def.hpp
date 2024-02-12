@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::TimerEventScheduler);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6943))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6202))
 // CS Name: ::UnityEngine.UIElements::TimerEventScheduler*
 class CORDL_TYPE TimerEventScheduler : public ::System::Object {
 public:
@@ -96,24 +96,24 @@ public:
 
   constexpr void __cordl_internal_set_m_LastUpdatedIndex(int32_t value);
 
-  /// @brief Method Schedule, addr 0x2e079a8, size 0x1c8, virtual true, abstract: false, final true
+  /// @brief Method Schedule, addr 0x2e24d90, size 0x1c8, virtual true, abstract: false, final true
   inline void Schedule(::UnityEngine::UIElements::ScheduledItem* item);
 
-  /// @brief Method RemovedScheduledItemAt, addr 0x2e07b70, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method RemovedScheduledItemAt, addr 0x2e24f58, size 0x6c, virtual false, abstract: false, final false
   inline bool RemovedScheduledItemAt(int32_t index);
 
-  /// @brief Method Unschedule, addr 0x2e07bdc, size 0x1a4, virtual true, abstract: false, final true
+  /// @brief Method Unschedule, addr 0x2e24fc4, size 0x1a4, virtual true, abstract: false, final true
   inline void Unschedule(::UnityEngine::UIElements::ScheduledItem* item);
 
-  /// @brief Method PrivateUnSchedule, addr 0x2e07d80, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method PrivateUnSchedule, addr 0x2e25168, size 0xa0, virtual false, abstract: false, final false
   inline bool PrivateUnSchedule(::UnityEngine::UIElements::ScheduledItem* sItem);
 
-  /// @brief Method UpdateScheduledEvents, addr 0x2e07e20, size 0x310, virtual true, abstract: false, final true
+  /// @brief Method UpdateScheduledEvents, addr 0x2e25208, size 0x310, virtual true, abstract: false, final true
   inline void UpdateScheduledEvents();
 
   static inline ::UnityEngine::UIElements::TimerEventScheduler* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e08130, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e25518, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TimerEventScheduler", modifiers: "&&", def_value: None }]

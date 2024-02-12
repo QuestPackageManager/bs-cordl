@@ -68,13 +68,13 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::WordWrapState);
 // SizeInfo { instance_size: 784, native_size: -1, calculated_instance_size: 784, calculated_native_size: 798, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10250)), TypeDefinitionIndex(TypeDefinitionIndex(13677)), TypeDefinitionIndex(TypeDefinitionIndex(13694)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13695)), TypeDefinitionIndex(TypeDefinitionIndex(13697)), TypeDefinitionIndex(TypeDefinitionIndex(13718)), TypeDefinitionIndex(TypeDefinitionIndex(13719)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13723)), TypeDefinitionIndex(TypeDefinitionIndex(13726)), TypeDefinitionIndex(TypeDefinitionIndex(13727)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(13727), inst: 98 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13727), inst: 391 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(13727), inst: 742 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13727), inst: 5141 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(13727), inst: 5142 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13727), inst: 5143 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(13727), inst: 5144 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(13709)) CS Name: ::UnityEngine.TextCore.Text::WordWrapState
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8994)), TypeDefinitionIndex(TypeDefinitionIndex(13630)), TypeDefinitionIndex(TypeDefinitionIndex(13647)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13648)), TypeDefinitionIndex(TypeDefinitionIndex(13650)), TypeDefinitionIndex(TypeDefinitionIndex(13671)), TypeDefinitionIndex(TypeDefinitionIndex(13672)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13676)), TypeDefinitionIndex(TypeDefinitionIndex(13679)), TypeDefinitionIndex(TypeDefinitionIndex(13680)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(13680), inst: 103 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13680), inst: 391 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(13680), inst: 738 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13680), inst: 5123 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(13680), inst: 5124 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13680), inst: 5125 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(13680), inst: 5126 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(13662)) CS Name: ::UnityEngine.TextCore.Text::WordWrapState
 struct CORDL_TYPE WordWrapState {
 public:
   // Declarations

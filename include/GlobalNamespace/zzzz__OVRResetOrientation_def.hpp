@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRResetOrientation);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7588)), TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8160))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7657)), TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8110))
 // CS Name: ::OVRResetOrientation*
 class CORDL_TYPE OVRResetOrientation : public ::UnityEngine::MonoBehaviour {
 public:
@@ -30,12 +30,12 @@ public:
 
   constexpr void __cordl_internal_set_resetButton(::GlobalNamespace::__OVRInput__RawButton value);
 
-  /// @brief Method Update, addr 0x27baa44, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x27cc418, size 0xe0, virtual false, abstract: false, final false
   inline void Update();
 
   static inline ::GlobalNamespace::OVRResetOrientation* New_ctor();
 
-  /// @brief Method .ctor, addr 0x27bab24, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27cc4f8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRResetOrientation", modifiers: "&&", def_value: None }]

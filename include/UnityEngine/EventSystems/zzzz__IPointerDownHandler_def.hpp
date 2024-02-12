@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::IPointerDownHandler);
 namespace UnityEngine::EventSystems {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13174))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13072))
 // CS Name: ::UnityEngine.EventSystems::IPointerDownHandler*
 class CORDL_TYPE IPointerDownHandler {
 public:

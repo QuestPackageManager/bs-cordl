@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerDuelScoreManager::*)()>(&::GlobalNamespace::MultiplayerDuelScoreManager::Start)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x224b7c8;
+  constexpr static std::size_t addrs = 0x23a9c0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerDuelScoreManager*>::get(), "Start",
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerDuelScoreManager::*)()>(
     &::GlobalNamespace::MultiplayerDuelScoreManager::OnDestroy)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x224bb60;
+  constexpr static std::size_t addrs = 0x23a9fa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerDuelScoreManager*>::get(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerDuelScoreManager::*)()>(
     &::GlobalNamespace::MultiplayerDuelScoreManager::Update)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x224bc30;
+  constexpr static std::size_t addrs = 0x23aa074;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerDuelScoreManager*>::get(), "Update",
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MultiplayerDuelScoreManager::*)()>(
     &::GlobalNamespace::MultiplayerDuelScoreManager::EnsureOpponentAssigned)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x224bc98;
+  constexpr static std::size_t addrs = 0x23aa0dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerDuelScoreManager*>::get(),
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IConnectedPlayer* (::GlobalNamespace::MultiplayerDuelScoreManager::*)()>(
     &::GlobalNamespace::MultiplayerDuelScoreManager::GetOpponentPlayer)> {
   constexpr static std::size_t size = 0x3f0;
-  constexpr static std::size_t addrs = 0x224bcc4;
+  constexpr static std::size_t addrs = 0x23aa108;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerDuelScoreManager*>::get(),
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerDuelScoreManager::*)()>(
     &::GlobalNamespace::MultiplayerDuelScoreManager::UpdateScoreAndName)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x224b9a8;
+  constexpr static std::size_t addrs = 0x23a9dec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerDuelScoreManager*>::get(),
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerDuelScoreManager::*)(::GlobalNamespace::__MultiplayerController__State)>(
     &::GlobalNamespace::MultiplayerDuelScoreManager::HandleStateChanged)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x224c194;
+  constexpr static std::size_t addrs = 0x23aa5d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerDuelScoreManager::*)()>(&::GlobalNamespace::MultiplayerDuelScoreManager::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x224c284;
+  constexpr static std::size_t addrs = 0x23aa6c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerDuelScoreManager*>::get(), ".ctor",

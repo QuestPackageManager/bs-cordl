@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::EventSystemListener::*)(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>*)>(
     &::HMUI::EventSystemListener::add_pointerDidEnterEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x211c6a4;
+  constexpr static std::size_t addrs = 0x21b0f80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::EventSystemListener::*)(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>*)>(
     &::HMUI::EventSystemListener::remove_pointerDidEnterEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x211c754;
+  constexpr static std::size_t addrs = 0x21b1030;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::EventSystemListener::*)(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>*)>(
     &::HMUI::EventSystemListener::add_pointerDidExitEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x211c804;
+  constexpr static std::size_t addrs = 0x21b10e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::EventSystemListener::*)(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>*)>(
     &::HMUI::EventSystemListener::remove_pointerDidExitEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x211c8b4;
+  constexpr static std::size_t addrs = 0x21b1190;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::EventSystemListener::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::HMUI::EventSystemListener::OnPointerEnter)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x211c964;
+  constexpr static std::size_t addrs = 0x21b1240;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::EventSystemListener::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::HMUI::EventSystemListener::OnPointerExit)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x211c980;
+  constexpr static std::size_t addrs = 0x21b125c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::EventSystemListener::*)()>(&::HMUI::EventSystemListener::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x211c99c;
+  constexpr static std::size_t addrs = 0x21b1278;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::EventSystemListener*>::get(), ".ctor",

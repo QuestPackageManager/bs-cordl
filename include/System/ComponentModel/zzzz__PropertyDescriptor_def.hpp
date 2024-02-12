@@ -41,8 +41,8 @@ MARK_REF_PTR_T(::System::ComponentModel::PropertyDescriptor);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 132, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9474))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9444))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7484))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7454))
 // CS Name: ::System.ComponentModel::PropertyDescriptor*
 class CORDL_TYPE PropertyDescriptor : public ::System::ComponentModel::MemberDescriptor {
 public:
@@ -100,12 +100,12 @@ public:
 
   static inline ::System::ComponentModel::PropertyDescriptor* New_ctor(::StringW name, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attrs);
 
-  /// @brief Method .ctor, addr 0x2912154, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29167bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attrs);
 
   static inline ::System::ComponentModel::PropertyDescriptor* New_ctor(::System::ComponentModel::MemberDescriptor* descr, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attrs);
 
-  /// @brief Method .ctor, addr 0x29102cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2914934, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::MemberDescriptor* descr, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attrs);
 
   /// @brief Method get_ComponentType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -120,22 +120,22 @@ public:
   /// @brief Method CanResetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool CanResetValue(::System::Object* component);
 
-  /// @brief Method Equals, addr 0x291215c, size 0x200, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x29167c4, size 0x200, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method FillAttributes, addr 0x291235c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method FillAttributes, addr 0x29169c4, size 0x14, virtual true, abstract: false, final false
   inline void FillAttributes(::System::Collections::IList* attributeList);
 
-  /// @brief Method GetHashCode, addr 0x2912370, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x29169d8, size 0x54, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetInvocationTarget, addr 0x29123c4, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method GetInvocationTarget, addr 0x2916a2c, size 0xe8, virtual true, abstract: false, final false
   inline ::System::Object* GetInvocationTarget(::System::Type* type, ::System::Object* instance);
 
   /// @brief Method GetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* GetValue(::System::Object* component);
 
-  /// @brief Method OnValueChanged, addr 0x29124ac, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method OnValueChanged, addr 0x2916b14, size 0xb0, virtual true, abstract: false, final false
   inline void OnValueChanged(::System::Object* component, ::System::EventArgs* e);
 
   /// @brief Method ResetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

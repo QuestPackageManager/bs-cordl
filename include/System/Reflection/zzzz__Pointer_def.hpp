@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::System::Reflection::Pointer);
 namespace System::Reflection {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3485))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3481))
 // CS Name: ::System.Reflection::Pointer*
 class CORDL_TYPE Pointer : public ::System::Object {
 public:
@@ -61,13 +61,13 @@ public:
 
   static inline ::System::Reflection::Pointer* New_ctor(::cordl_internals::Ptr<void> ptr, ::System::Type* ptrType);
 
-  /// @brief Method .ctor, addr 0x24e9808, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2508960, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::cordl_internals::Ptr<void> ptr, ::System::Type* ptrType);
 
-  /// @brief Method Box, addr 0x24e9834, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method Box, addr 0x250898c, size 0x188, virtual false, abstract: false, final false
   static inline ::System::Object* Box(::cordl_internals::Ptr<void> ptr, ::System::Type* type);
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x24e99bc, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x2508b14, size 0x40, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "Pointer", modifiers: "&&", def_value: None }]

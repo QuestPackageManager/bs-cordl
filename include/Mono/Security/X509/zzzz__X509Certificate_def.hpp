@@ -46,7 +46,7 @@ MARK_REF_PTR_T(::Mono::Security::X509::X509Certificate);
 namespace Mono::Security::X509 {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13751))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13704))
 // CS Name: ::Mono.Security.X509::X509Certificate*
 class CORDL_TYPE X509Certificate : public ::System::Object {
 public:
@@ -296,93 +296,93 @@ public:
 
   static inline ::StringW getStaticF_encoding_error();
 
-  /// @brief Method Parse, addr 0x23f9c8c, size 0x908, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x2419aec, size 0x908, virtual false, abstract: false, final false
   inline void Parse(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
   static inline ::Mono::Security::X509::X509Certificate* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0x23efb04, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x240f964, size 0x194, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method GetUnsignedBigInteger, addr 0x23fa6c8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetUnsignedBigInteger, addr 0x241a528, size 0x94, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetUnsignedBigInteger(::ArrayW<uint8_t, ::Array<uint8_t>*> integer);
 
-  /// @brief Method get_DSA, addr 0x23f348c, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method get_DSA, addr 0x24132ec, size 0x29c, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::DSA* get_DSA();
 
-  /// @brief Method set_DSA, addr 0x23fa75c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_DSA, addr 0x241a5bc, size 0x10, virtual false, abstract: false, final false
   inline void set_DSA(::System::Security::Cryptography::DSA* value);
 
-  /// @brief Method get_Extensions, addr 0x23fa76c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Extensions, addr 0x241a5cc, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509ExtensionCollection* get_Extensions();
 
-  /// @brief Method get_Hash, addr 0x23fa774, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method get_Hash, addr 0x241a5d4, size 0x294, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Hash();
 
-  /// @brief Method get_IssuerName, addr 0x23faa08, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IssuerName, addr 0x241a868, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_IssuerName();
 
-  /// @brief Method get_KeyAlgorithm, addr 0x23faa10, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_KeyAlgorithm, addr 0x241a870, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_KeyAlgorithm();
 
-  /// @brief Method get_KeyAlgorithmParameters, addr 0x23faa18, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method get_KeyAlgorithmParameters, addr 0x241a878, size 0x74, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_KeyAlgorithmParameters();
 
-  /// @brief Method set_KeyAlgorithmParameters, addr 0x23faa8c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_KeyAlgorithmParameters, addr 0x241a8ec, size 0x8, virtual true, abstract: false, final false
   inline void set_KeyAlgorithmParameters(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method get_PublicKey, addr 0x23faa94, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method get_PublicKey, addr 0x241a8f4, size 0x74, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_PublicKey();
 
-  /// @brief Method get_RSA, addr 0x23fab08, size 0x18c, virtual true, abstract: false, final false
+  /// @brief Method get_RSA, addr 0x241a968, size 0x18c, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::RSA* get_RSA();
 
-  /// @brief Method set_RSA, addr 0x23fac94, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method set_RSA, addr 0x241aaf4, size 0x10, virtual true, abstract: false, final false
   inline void set_RSA(::System::Security::Cryptography::RSA* value);
 
-  /// @brief Method get_RawData, addr 0x23faca4, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method get_RawData, addr 0x241ab04, size 0x74, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_RawData();
 
-  /// @brief Method get_SerialNumber, addr 0x23fad18, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method get_SerialNumber, addr 0x241ab78, size 0x74, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_SerialNumber();
 
-  /// @brief Method get_Signature, addr 0x23fad8c, size 0x43c, virtual true, abstract: false, final false
+  /// @brief Method get_Signature, addr 0x241abec, size 0x43c, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Signature();
 
-  /// @brief Method get_SubjectName, addr 0x23fb1c8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SubjectName, addr 0x241b028, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_SubjectName();
 
-  /// @brief Method get_ValidFrom, addr 0x23fb1d0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ValidFrom, addr 0x241b030, size 0x8, virtual true, abstract: false, final false
   inline ::System::DateTime get_ValidFrom();
 
-  /// @brief Method get_ValidUntil, addr 0x23fb1d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ValidUntil, addr 0x241b038, size 0x8, virtual true, abstract: false, final false
   inline ::System::DateTime get_ValidUntil();
 
-  /// @brief Method get_Version, addr 0x23fb1e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x241b040, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Version();
 
-  /// @brief Method get_IsCurrent, addr 0x23fb1e8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_IsCurrent, addr 0x241b048, size 0x60, virtual false, abstract: false, final false
   inline bool get_IsCurrent();
 
-  /// @brief Method WasCurrent, addr 0x23fb248, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method WasCurrent, addr 0x241b0a8, size 0xd8, virtual false, abstract: false, final false
   inline bool WasCurrent(::System::DateTime instant);
 
-  /// @brief Method VerifySignature, addr 0x23fb320, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method VerifySignature, addr 0x241b180, size 0xc8, virtual false, abstract: false, final false
   inline bool VerifySignature(::System::Security::Cryptography::DSA* dsa);
 
-  /// @brief Method VerifySignature, addr 0x23fb3e8, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method VerifySignature, addr 0x241b248, size 0x128, virtual false, abstract: false, final false
   inline bool VerifySignature(::System::Security::Cryptography::RSA* rsa);
 
-  /// @brief Method VerifySignature, addr 0x23fb510, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method VerifySignature, addr 0x241b370, size 0x18c, virtual false, abstract: false, final false
   inline bool VerifySignature(::System::Security::Cryptography::AsymmetricAlgorithm* aa);
 
-  /// @brief Method get_IsSelfSigned, addr 0x23fb69c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method get_IsSelfSigned, addr 0x241b4fc, size 0x108, virtual false, abstract: false, final false
   inline bool get_IsSelfSigned();
 
-  /// @brief Method GetObjectData, addr 0x23fb7a4, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x241b604, size 0x5c, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method PEM, addr 0x23fa594, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method PEM, addr 0x241a3f4, size 0x134, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> PEM(::StringW type, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
   // Ctor Parameters [CppParam { name: "", ty: "X509Certificate", modifiers: "&&", def_value: None }]

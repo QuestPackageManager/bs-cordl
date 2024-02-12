@@ -35,15 +35,15 @@ public:
 
   static inline ::System::Security::Cryptography::HMACSHA384* New_ctor();
 
-  /// @brief Method .ctor, addr 0x245f078, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24810ec, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Security::Cryptography::HMACSHA384* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method .ctor, addr 0x245f09c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2481110, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method get_BlockSize, addr 0x245f18c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_BlockSize, addr 0x2481200, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_BlockSize();
 
   // Ctor Parameters [CppParam { name: "", ty: "HMACSHA384", modifiers: "&&", def_value: None }]

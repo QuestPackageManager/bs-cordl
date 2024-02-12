@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::RecordingToolLoggingViewController);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5739))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13558))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5040))
 // CS Name: ::RecordingToolLoggingViewController*
 class CORDL_TYPE RecordingToolLoggingViewController : public ::HMUI::ViewController {
 public:
@@ -44,12 +44,12 @@ public:
 
   constexpr void __cordl_internal_set__listLogger(::GlobalNamespace::ListLogger* value);
 
-  /// @brief Method DidActivate, addr 0x22d5f2c, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x23063a4, size 0x9c, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::RecordingToolLoggingViewController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22d5fc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2306440, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RecordingToolLoggingViewController", modifiers: "&&", def_value: None }]

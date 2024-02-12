@@ -36,8 +36,8 @@ MARK_VAL_T(::UnityEngine::Experimental::GlobalIllumination::DiscLight);
 // SizeInfo { instance_size: 80, native_size: 84, calculated_instance_size: 80, calculated_native_size: 93, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Experimental::GlobalIllumination {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10387)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10388)), TypeDefinitionIndex(TypeDefinitionIndex(10390))] Self: TypeDefinitionIndex(TypeDefinitionIndex(10395)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(8996)), TypeDefinitionIndex(TypeDefinitionIndex(9155)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9156)), TypeDefinitionIndex(TypeDefinitionIndex(9158))] Self: TypeDefinitionIndex(TypeDefinitionIndex(9163)) CS Name:
 // ::UnityEngine.Experimental.GlobalIllumination::DiscLight
 struct CORDL_TYPE DiscLight {
 public:

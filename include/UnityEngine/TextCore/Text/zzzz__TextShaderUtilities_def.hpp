@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::UnityEngine::TextCore::Text::TextShaderUtilities);
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13714))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13667))
 // CS Name: ::UnityEngine.TextCore.Text::TextShaderUtilities*
 class CORDL_TYPE TextShaderUtilities : public ::System::Object {
 public:
@@ -491,22 +491,22 @@ public:
 
   static inline ::UnityW<::UnityEngine::Shader> getStaticF_k_ShaderRef_MobileBitmap();
 
-  /// @brief Method get_ShaderRef_MobileSDF, addr 0x2d483bc, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method get_ShaderRef_MobileSDF, addr 0x2d66e64, size 0x15c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Shader> get_ShaderRef_MobileSDF();
 
-  /// @brief Method get_ShaderRef_MobileBitmap, addr 0x2d48518, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method get_ShaderRef_MobileBitmap, addr 0x2d66fc0, size 0x15c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Shader> get_ShaderRef_MobileBitmap();
 
-  /// @brief Method GetShaderPropertyIDs, addr 0x2d48804, size 0x988, virtual false, abstract: false, final false
+  /// @brief Method GetShaderPropertyIDs, addr 0x2d672ac, size 0x988, virtual false, abstract: false, final false
   static inline void GetShaderPropertyIDs();
 
-  /// @brief Method UpdateShaderRatios, addr 0x2d4918c, size 0x45c, virtual false, abstract: false, final false
+  /// @brief Method UpdateShaderRatios, addr 0x2d67c34, size 0x45c, virtual false, abstract: false, final false
   static inline void UpdateShaderRatios(::UnityEngine::Material* mat);
 
-  /// @brief Method IsMaskingEnabled, addr 0x2d495e8, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method IsMaskingEnabled, addr 0x2d68090, size 0x19c, virtual false, abstract: false, final false
   static inline bool IsMaskingEnabled(::UnityEngine::Material* material);
 
-  /// @brief Method GetPadding, addr 0x2d49784, size 0x6a8, virtual false, abstract: false, final false
+  /// @brief Method GetPadding, addr 0x2d6822c, size 0x6a8, virtual false, abstract: false, final false
   static inline float_t GetPadding(::UnityEngine::Material* material, bool enableExtraPadding, bool isBold);
 
   // Ctor Parameters [CppParam { name: "", ty: "TextShaderUtilities", modifiers: "&&", def_value: None }]

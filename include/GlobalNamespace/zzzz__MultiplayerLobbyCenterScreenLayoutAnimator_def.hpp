@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5560))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4866))
 // CS Name: ::MultiplayerLobbyCenterScreenLayoutAnimator*
 class CORDL_TYPE MultiplayerLobbyCenterScreenLayoutAnimator : public ::UnityEngine::MonoBehaviour {
 public:
@@ -76,21 +76,21 @@ public:
 
   constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
 
-  /// @brief Method StartCountdown, addr 0x22a3430, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method StartCountdown, addr 0x23fdcc4, size 0x84, virtual false, abstract: false, final false
   inline void StartCountdown();
 
-  /// @brief Method StopCountdown, addr 0x22a35f0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method StopCountdown, addr 0x23fde84, size 0xa0, virtual false, abstract: false, final false
   inline void StopCountdown(bool instant);
 
-  /// @brief Method Move, addr 0x22a34b4, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method Move, addr 0x23fdd48, size 0x13c, virtual false, abstract: false, final false
   inline void Move(::UnityEngine::Vector3 from, ::UnityEngine::Vector3 to, float_t duration);
 
   static inline ::GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22a3690, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23fdf24, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Move>b__7_0, addr 0x22a3698, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <Move>b__7_0, addr 0x23fdf2c, size 0x1c, virtual false, abstract: false, final false
   inline void _Move_b__7_0(::UnityEngine::Vector3 pos);
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyCenterScreenLayoutAnimator", modifiers: "&&", def_value: None }]

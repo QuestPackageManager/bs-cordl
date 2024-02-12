@@ -23,8 +23,8 @@ namespace Oculus::Platform {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13381))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13380))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13307))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13306))
 // CS Name: ::Oculus.Platform::Request`1<T>*
 class CORDL_TYPE Request_1 : public ::Oculus::Platform::Request {
 public:

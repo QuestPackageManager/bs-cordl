@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::IScrollHandler);
 namespace UnityEngine::EventSystems {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13182))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13080))
 // CS Name: ::UnityEngine.EventSystems::IScrollHandler*
 class CORDL_TYPE IScrollHandler {
 public:

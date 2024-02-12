@@ -64,7 +64,7 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRVignette);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8185))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8135))
 // CS Name: ::OVRVignette::MeshComplexityLevel
 struct CORDL_TYPE __OVRVignette__MeshComplexityLevel {
 public:
@@ -126,7 +126,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRVignette__MeshComplexityLevel, va
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8186))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8136))
 // CS Name: ::OVRVignette::FalloffType
 struct CORDL_TYPE __OVRVignette__FalloffType {
 public:
@@ -175,8 +175,8 @@ static_assert(offsetof(::GlobalNamespace::__OVRVignette__FalloffType, value__) =
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 186, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8185)), TypeDefinitionIndex(TypeDefinitionIndex(8186)), TypeDefinitionIndex(TypeDefinitionIndex(10225)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10251))] Self: TypeDefinitionIndex(TypeDefinitionIndex(8187)) CS Name: ::OVRVignette*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8135)), TypeDefinitionIndex(TypeDefinitionIndex(8136)), TypeDefinitionIndex(TypeDefinitionIndex(8969)),
+// TypeDefinitionIndex(TypeDefinitionIndex(8995))] Self: TypeDefinitionIndex(TypeDefinitionIndex(8137)) CS Name: ::OVRVignette*
 class CORDL_TYPE OVRVignette : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -411,54 +411,54 @@ public:
 
   static inline ::StringW getStaticF_QUADRATIC_FALLOFF();
 
-  /// @brief Method GetTriangleCount, addr 0x27c4414, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetTriangleCount, addr 0x27d49ec, size 0x24, virtual false, abstract: false, final false
   inline int32_t GetTriangleCount();
 
-  /// @brief Method BuildMeshes, addr 0x27c4438, size 0x688, virtual false, abstract: false, final false
+  /// @brief Method BuildMeshes, addr 0x27d4a10, size 0x688, virtual false, abstract: false, final false
   inline void BuildMeshes();
 
-  /// @brief Method BuildMaterials, addr 0x27c4ac0, size 0x3a8, virtual false, abstract: false, final false
+  /// @brief Method BuildMaterials, addr 0x27d5098, size 0x3a8, virtual false, abstract: false, final false
   inline void BuildMaterials();
 
-  /// @brief Method OnEnable, addr 0x27c4e68, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x27d5440, size 0xa4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable, addr 0x27c4f0c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x27d54e4, size 0xac, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method Awake, addr 0x27c4ff0, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x27d55c8, size 0x314, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method GetTanFovAndOffsetForStereoEye, addr 0x27c5304, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method GetTanFovAndOffsetForStereoEye, addr 0x27d58dc, size 0x1f8, virtual false, abstract: false, final false
   inline void GetTanFovAndOffsetForStereoEye(::UnityEngine::__Camera__StereoscopicEye eye, ByRef<float_t> tanFovX, ByRef<float_t> tanFovY, ByRef<float_t> offsetX, ByRef<float_t> offsetY);
 
-  /// @brief Method GetTanFovAndOffsetForMonoEye, addr 0x27c54fc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetTanFovAndOffsetForMonoEye, addr 0x27d5ad4, size 0x8c, virtual false, abstract: false, final false
   inline void GetTanFovAndOffsetForMonoEye(ByRef<float_t> tanFovX, ByRef<float_t> tanFovY, ByRef<float_t> offsetX, ByRef<float_t> offsetY);
 
-  /// @brief Method VisibilityTest, addr 0x27c5588, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method VisibilityTest, addr 0x27d5b60, size 0x34, virtual false, abstract: false, final false
   inline bool VisibilityTest(float_t scaleX, float_t scaleY, float_t offsetX, float_t offsetY);
 
-  /// @brief Method Update, addr 0x27c55bc, size 0x370, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x27d5b94, size 0x370, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method EnableRenderers, addr 0x27c592c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method EnableRenderers, addr 0x27d5f04, size 0x38, virtual false, abstract: false, final false
   inline void EnableRenderers();
 
-  /// @brief Method DisableRenderers, addr 0x27c4fb8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method DisableRenderers, addr 0x27d5590, size 0x38, virtual false, abstract: false, final false
   inline void DisableRenderers();
 
-  /// @brief Method OnPreCull, addr 0x27c5964, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnPreCull, addr 0x27d5f3c, size 0x4, virtual false, abstract: false, final false
   inline void OnPreCull();
 
-  /// @brief Method OnPostRender, addr 0x27c5968, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnPostRender, addr 0x27d5f40, size 0x4, virtual false, abstract: false, final false
   inline void OnPostRender();
 
-  /// @brief Method OnBeginCameraRendering, addr 0x27c596c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method OnBeginCameraRendering, addr 0x27d5f44, size 0x8c, virtual false, abstract: false, final false
   inline void OnBeginCameraRendering(::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Camera* camera);
 
   static inline ::GlobalNamespace::OVRVignette* New_ctor();
 
-  /// @brief Method .ctor, addr 0x27c59f8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27d5fd0, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRVignette", modifiers: "&&", def_value: None }]

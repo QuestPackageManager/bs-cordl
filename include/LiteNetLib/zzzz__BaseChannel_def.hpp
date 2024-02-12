@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::LiteNetLib::BaseChannel);
 namespace LiteNetLib {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14127))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14140))
 // CS Name: ::LiteNetLib::BaseChannel*
 class CORDL_TYPE BaseChannel : public ::System::Object {
 public:
@@ -61,13 +61,13 @@ public:
 
   static inline ::LiteNetLib::BaseChannel* New_ctor(::LiteNetLib::NetPeer* peer);
 
-  /// @brief Method .ctor, addr 0x21f7ff8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x228d8e0, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::LiteNetLib::NetPeer* peer);
 
-  /// @brief Method get_PacketsInQueue, addr 0x21f808c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_PacketsInQueue, addr 0x228d974, size 0x48, virtual false, abstract: false, final false
   inline int32_t get_PacketsInQueue();
 
-  /// @brief Method AddToQueue, addr 0x21f80d4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method AddToQueue, addr 0x228d9bc, size 0xfc, virtual false, abstract: false, final false
   inline void AddToQueue(::LiteNetLib::NetPacket* packet);
 
   /// @brief Method SendNextPackets, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

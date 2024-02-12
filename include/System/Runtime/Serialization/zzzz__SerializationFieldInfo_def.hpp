@@ -44,7 +44,7 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::SerializationFieldInfo);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3469))]
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3465))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3233))
 // CS Name: ::System.Runtime.Serialization::SerializationFieldInfo*
 class CORDL_TYPE SerializationFieldInfo : public ::System::Reflection::FieldInfo {
@@ -86,59 +86,59 @@ public:
 
   constexpr void __cordl_internal_set_m_serializationName(::StringW value);
 
-  /// @brief Method get_Module, addr 0x24bdef0, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_Module, addr 0x24def64, size 0x20, virtual true, abstract: false, final false
   inline ::System::Reflection::Module* get_Module();
 
-  /// @brief Method get_MetadataToken, addr 0x24bdf10, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_MetadataToken, addr 0x24def84, size 0x24, virtual true, abstract: false, final false
   inline int32_t get_MetadataToken();
 
   static inline ::System::Runtime::Serialization::SerializationFieldInfo* New_ctor(::System::Reflection::RuntimeFieldInfo* field, ::StringW namePrefix);
 
-  /// @brief Method .ctor, addr 0x24b6b48, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24d7bbc, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::RuntimeFieldInfo* field, ::StringW namePrefix);
 
-  /// @brief Method get_Name, addr 0x24bdf34, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x24defa8, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_DeclaringType, addr 0x24bdf3c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_DeclaringType, addr 0x24defb0, size 0x20, virtual true, abstract: false, final false
   inline ::System::Type* get_DeclaringType();
 
-  /// @brief Method get_ReflectedType, addr 0x24bdf5c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_ReflectedType, addr 0x24defd0, size 0x20, virtual true, abstract: false, final false
   inline ::System::Type* get_ReflectedType();
 
-  /// @brief Method GetCustomAttributes, addr 0x24bdf7c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x24deff0, size 0x28, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetCustomAttributes(bool inherit);
 
-  /// @brief Method GetCustomAttributes, addr 0x24bdfa4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x24df018, size 0x28, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetCustomAttributes(::System::Type* attributeType, bool inherit);
 
-  /// @brief Method IsDefined, addr 0x24bdfcc, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method IsDefined, addr 0x24df040, size 0x24, virtual true, abstract: false, final false
   inline bool IsDefined(::System::Type* attributeType, bool inherit);
 
-  /// @brief Method get_FieldType, addr 0x24bdff0, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_FieldType, addr 0x24df064, size 0x24, virtual true, abstract: false, final false
   inline ::System::Type* get_FieldType();
 
-  /// @brief Method GetValue, addr 0x24be014, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x24df088, size 0x24, virtual true, abstract: false, final false
   inline ::System::Object* GetValue(::System::Object* obj);
 
-  /// @brief Method InternalGetValue, addr 0x24b7a10, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method InternalGetValue, addr 0x24d8a84, size 0x80, virtual false, abstract: false, final false
   inline ::System::Object* InternalGetValue(::System::Object* obj);
 
-  /// @brief Method SetValue, addr 0x24be038, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x24df0ac, size 0x24, virtual true, abstract: false, final false
   inline void SetValue(::System::Object* obj, ::System::Object* value, ::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder,
                        ::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method InternalSetValue, addr 0x24b72e0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method InternalSetValue, addr 0x24d8354, size 0xb0, virtual false, abstract: false, final false
   inline void InternalSetValue(::System::Object* obj, ::System::Object* value, ::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder,
                                ::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method get_FieldInfo, addr 0x24be05c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FieldInfo, addr 0x24df0d0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::RuntimeFieldInfo* get_FieldInfo();
 
-  /// @brief Method get_FieldHandle, addr 0x24be064, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_FieldHandle, addr 0x24df0d8, size 0x24, virtual true, abstract: false, final false
   inline ::System::RuntimeFieldHandle get_FieldHandle();
 
-  /// @brief Method get_Attributes, addr 0x24be088, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_Attributes, addr 0x24df0fc, size 0x24, virtual true, abstract: false, final false
   inline ::System::Reflection::FieldAttributes get_Attributes();
 
   // Ctor Parameters [CppParam { name: "", ty: "SerializationFieldInfo", modifiers: "&&", def_value: None }]

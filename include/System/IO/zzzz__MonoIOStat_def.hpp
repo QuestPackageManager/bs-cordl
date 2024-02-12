@@ -19,8 +19,8 @@ MARK_VAL_T(::System::IO::MonoIOStat);
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3609))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3632))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3607))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3630))
 // CS Name: ::System.IO::MonoIOStat
 struct CORDL_TYPE MonoIOStat {
 public:

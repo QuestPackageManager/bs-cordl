@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::UnityEngine::Networking::PlayerConnection::MessageEventArgs);
 namespace UnityEngine::Networking::PlayerConnection {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10312))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9058))
 // CS Name: ::UnityEngine.Networking.PlayerConnection::MessageEventArgs*
 class CORDL_TYPE MessageEventArgs : public ::System::Object {
 public:
@@ -42,7 +42,7 @@ public:
 
   static inline ::UnityEngine::Networking::PlayerConnection::MessageEventArgs* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ce75bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cee750, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MessageEventArgs", modifiers: "&&", def_value: None }]

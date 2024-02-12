@@ -6,8 +6,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Models::ApplicationVersion::*)(void*)>(
     &::Oculus::Platform::Models::ApplicationVersion::_ctor)> {
-  constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x27044c0;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x2736a74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -63,30 +63,6 @@ constexpr ::StringW const& Oculus::Platform::Models::ApplicationVersion::__cordl
 constexpr void Oculus::Platform::Models::ApplicationVersion::__cordl_internal_set_LatestName(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___LatestName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr int64_t& Oculus::Platform::Models::ApplicationVersion::__cordl_internal_get_ReleaseDate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___ReleaseDate;
-}
-constexpr int64_t const& Oculus::Platform::Models::ApplicationVersion::__cordl_internal_get_ReleaseDate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___ReleaseDate;
-}
-constexpr void Oculus::Platform::Models::ApplicationVersion::__cordl_internal_set_ReleaseDate(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___ReleaseDate = value;
-}
-constexpr ::StringW& Oculus::Platform::Models::ApplicationVersion::__cordl_internal_get_Size() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___Size;
-}
-constexpr ::StringW const& Oculus::Platform::Models::ApplicationVersion::__cordl_internal_get_Size() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___Size;
-}
-constexpr void Oculus::Platform::Models::ApplicationVersion::__cordl_internal_set_Size(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Size)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Oculus::Platform::Models::ApplicationVersion* Oculus::Platform::Models::ApplicationVersion::New_ctor(void* o) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Oculus::Platform::Models::ApplicationVersion*>(o));

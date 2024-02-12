@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::DefaultContractResolverState);
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11920))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11818))
 // CS Name: ::Newtonsoft.Json.Serialization::DefaultContractResolverState*
 class CORDL_TYPE DefaultContractResolverState : public ::System::Object {
 public:
@@ -58,7 +58,7 @@ public:
 
   static inline ::Newtonsoft::Json::Serialization::DefaultContractResolverState* New_ctor();
 
-  /// @brief Method .ctor, addr 0x266edb8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2691f74, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultContractResolverState", modifiers: "&&", def_value: None }]

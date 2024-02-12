@@ -32,12 +32,12 @@ public:
 
   static inline ::System::MonoTODOAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25d7abc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25fa9d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::MonoTODOAttribute* New_ctor(::StringW comment);
 
-  /// @brief Method .ctor, addr 0x25d7acc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25fa9e4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW comment);
 
   // Ctor Parameters [CppParam { name: "", ty: "MonoTODOAttribute", modifiers: "&&", def_value: None }]

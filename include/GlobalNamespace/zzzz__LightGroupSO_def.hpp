@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::GlobalNamespace::LightGroupSO);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14511))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15602))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14405))
 // CS Name: ::LightGroupSO*
 class CORDL_TYPE LightGroupSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -106,27 +106,27 @@ public:
 
   constexpr void __cordl_internal_set__ignoreLightGroupEffectManager(bool value);
 
-  /// @brief Method get_groupName, addr 0x210e344, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_groupName, addr 0x21a2aec, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_groupName();
 
-  /// @brief Method get_groupId, addr 0x210e34c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_groupId, addr 0x21a2af4, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_groupId();
 
-  /// @brief Method get_startLightId, addr 0x210e354, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_startLightId, addr 0x21a2afc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_startLightId();
 
-  /// @brief Method get_numberOfElements, addr 0x210e35c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_numberOfElements, addr 0x21a2b04, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_numberOfElements();
 
-  /// @brief Method get_sameIdElements, addr 0x210e364, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_sameIdElements, addr 0x21a2b0c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_sameIdElements();
 
-  /// @brief Method get_ignoreLightGroupEffectManager, addr 0x210e36c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_ignoreLightGroupEffectManager, addr 0x21a2b14, size 0x8, virtual false, abstract: false, final false
   inline bool get_ignoreLightGroupEffectManager();
 
   static inline ::GlobalNamespace::LightGroupSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x210e374, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21a2b1c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LightGroupSO", modifiers: "&&", def_value: None }]

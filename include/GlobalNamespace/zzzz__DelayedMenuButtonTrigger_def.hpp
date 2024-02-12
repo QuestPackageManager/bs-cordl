@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::GlobalNamespace::DelayedMenuButtonTrigger);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5052))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4405))
 // CS Name: ::DelayedMenuButtonTrigger*
 class CORDL_TYPE DelayedMenuButtonTrigger : public ::System::Object {
 public:
@@ -90,18 +90,18 @@ public:
 
   constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
 
-  /// @brief Method add_menuButtonTriggeredEvent, addr 0x23c3e2c, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_menuButtonTriggeredEvent, addr 0x2381764, size 0x9c, virtual true, abstract: false, final true
   inline void add_menuButtonTriggeredEvent(::System::Action* value);
 
-  /// @brief Method remove_menuButtonTriggeredEvent, addr 0x23c3ec8, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_menuButtonTriggeredEvent, addr 0x2381800, size 0x9c, virtual true, abstract: false, final true
   inline void remove_menuButtonTriggeredEvent(::System::Action* value);
 
-  /// @brief Method Tick, addr 0x23c3f64, size 0x110, virtual true, abstract: false, final true
+  /// @brief Method Tick, addr 0x238189c, size 0x110, virtual true, abstract: false, final true
   inline void Tick();
 
   static inline ::GlobalNamespace::DelayedMenuButtonTrigger* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23c4074, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23819ac, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DelayedMenuButtonTrigger", modifiers: "&&", def_value: None }]

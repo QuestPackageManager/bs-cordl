@@ -42,7 +42,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__ScoreUIController__InitData);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5045))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4398))
 // CS Name: ::ScoreUIController::ScoreDisplayType
 struct CORDL_TYPE __ScoreUIController__ScoreDisplayType {
 public:
@@ -91,8 +91,8 @@ static_assert(offsetof(::GlobalNamespace::__ScoreUIController__ScoreDisplayType,
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5045))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5044))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4398))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4397))
 // CS Name: ::ScoreUIController::InitData*
 class CORDL_TYPE __ScoreUIController__InitData : public ::System::Object {
 public:
@@ -108,7 +108,7 @@ public:
 
   static inline ::GlobalNamespace::__ScoreUIController__InitData* New_ctor(::GlobalNamespace::__ScoreUIController__ScoreDisplayType scoreDisplayType);
 
-  /// @brief Method .ctor, addr 0x23c3280, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2380bb8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__ScoreUIController__ScoreDisplayType scoreDisplayType);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ScoreUIController__InitData", modifiers: "&&", def_value: None }]
@@ -140,8 +140,8 @@ static_assert(offsetof(::GlobalNamespace::__ScoreUIController__InitData, ___scor
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5046))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4399))
 // CS Name: ::ScoreUIController*
 class CORDL_TYPE ScoreUIController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -186,33 +186,33 @@ public:
 
   constexpr void __cordl_internal_set__stringBuilder(::System::Text::StringBuilder* value);
 
-  /// @brief Method Start, addr 0x23c2d08, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2380640, size 0x78, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnEnable, addr 0x23c309c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x23809d4, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable, addr 0x23c30a0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x23809d8, size 0x4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method RegisterForEvents, addr 0x23c2d80, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method RegisterForEvents, addr 0x23806b8, size 0x198, virtual false, abstract: false, final false
   inline void RegisterForEvents();
 
-  /// @brief Method UnregisterFromEvents, addr 0x23c30a4, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method UnregisterFromEvents, addr 0x23809dc, size 0x108, virtual false, abstract: false, final false
   inline void UnregisterFromEvents();
 
-  /// @brief Method HandleScoreDidChangeRealtime, addr 0x23c31ac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleScoreDidChangeRealtime, addr 0x2380ae4, size 0x4, virtual false, abstract: false, final false
   inline void HandleScoreDidChangeRealtime(int32_t multipliedScore, int32_t modifiedScore);
 
-  /// @brief Method UpdateScore, addr 0x23c2f18, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method UpdateScore, addr 0x2380850, size 0x184, virtual false, abstract: false, final false
   inline void UpdateScore(int32_t multipliedScore, int32_t modifiedScore);
 
-  /// @brief Method Append000Number, addr 0x23c31b0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Append000Number, addr 0x2380ae8, size 0x60, virtual false, abstract: false, final false
   static inline void Append000Number(::System::Text::StringBuilder* stringBuilder, int32_t number);
 
   static inline ::GlobalNamespace::ScoreUIController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23c3210, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2380b48, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ScoreUIController", modifiers: "&&", def_value: None }]

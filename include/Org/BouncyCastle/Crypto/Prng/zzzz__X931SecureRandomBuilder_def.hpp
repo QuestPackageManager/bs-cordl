@@ -66,23 +66,23 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf460c0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf70f50, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder* New_ctor(::Org::BouncyCastle::Security::SecureRandom* entropySource, bool predictionResistant);
 
-  /// @brief Method .ctor, addr 0xf46124, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf70fb4, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* entropySource, bool predictionResistant);
 
   static inline ::Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder* New_ctor(::Org::BouncyCastle::Crypto::IEntropySourceProvider* entropySourceProvider);
 
-  /// @brief Method .ctor, addr 0xf461b0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf71040, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IEntropySourceProvider* entropySourceProvider);
 
-  /// @brief Method SetDateTimeVector, addr 0xf461d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetDateTimeVector, addr 0xf71068, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder* SetDateTimeVector(::ArrayW<uint8_t, ::Array<uint8_t>*> dateTimeVector);
 
-  /// @brief Method Build, addr 0xf461e0, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0xf71070, size 0x2e4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Prng::X931SecureRandom* Build(::Org::BouncyCastle::Crypto::IBlockCipher* engine, ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* key,
                                                                     bool predictionResistant);
 

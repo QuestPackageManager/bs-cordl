@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::UnityEngine::Playables::INotification);
 namespace UnityEngine::Playables {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10419))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9187))
 // CS Name: ::UnityEngine.Playables::INotification*
 class CORDL_TYPE INotification {
 public:

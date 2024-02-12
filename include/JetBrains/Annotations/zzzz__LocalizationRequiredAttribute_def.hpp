@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::JetBrains::Annotations::LocalizationRequiredAttribute);
 namespace JetBrains::Annotations {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15745))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15895))
 // CS Name: ::JetBrains.Annotations::LocalizationRequiredAttribute*
 class CORDL_TYPE LocalizationRequiredAttribute : public ::System::Attribute {
 public:
@@ -33,18 +33,18 @@ public:
 
   static inline ::JetBrains::Annotations::LocalizationRequiredAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2eba0ac, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ed61f4, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::JetBrains::Annotations::LocalizationRequiredAttribute* New_ctor(bool required);
 
-  /// @brief Method .ctor, addr 0x2eba0cc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ed6214, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(bool required);
 
-  /// @brief Method get_Required, addr 0x2eba0f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Required, addr 0x2ed6240, size 0x8, virtual false, abstract: false, final false
   inline bool get_Required();
 
-  /// @brief Method set_Required, addr 0x2eba100, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Required, addr 0x2ed6248, size 0xc, virtual false, abstract: false, final false
   inline void set_Required(bool value);
 
   // Ctor Parameters [CppParam { name: "", ty: "LocalizationRequiredAttribute", modifiers: "&&", def_value: None }]

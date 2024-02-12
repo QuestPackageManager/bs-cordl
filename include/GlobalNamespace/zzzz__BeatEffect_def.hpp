@@ -51,8 +51,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__BeatEffect__Pool);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4837))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8995))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4191))
 // CS Name: ::BeatEffect*
 class CORDL_TYPE BeatEffect : public ::UnityEngine::MonoBehaviour {
 public:
@@ -161,18 +161,18 @@ public:
 
   constexpr void __cordl_internal_set__color(::UnityEngine::Color value);
 
-  /// @brief Method get_didFinishEvent, addr 0x23962d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_didFinishEvent, addr 0x2357400, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::IBeatEffectDidFinishEvent*>* get_didFinishEvent();
 
-  /// @brief Method Init, addr 0x23962d8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2357408, size 0xb8, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::Color color, float_t animationDuration, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method ManualUpdate, addr 0x2396390, size 0x2dc, virtual false, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x23574c0, size 0x2dc, virtual false, abstract: false, final false
   inline void ManualUpdate(float_t deltaTime);
 
   static inline ::GlobalNamespace::BeatEffect* New_ctor();
 
-  /// @brief Method .ctor, addr 0x239666c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x235779c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatEffect", modifiers: "&&", def_value: None }]
@@ -254,14 +254,14 @@ static_assert(offsetof(::GlobalNamespace::BeatEffect, ____color) == 0x60, "Offse
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4837)), TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
-// 2808 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4836)) CS Name: ::BeatEffect::Pool*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4191)), TypeDefinitionIndex(TypeDefinitionIndex(10192)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10192), inst:
+// 2778 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4190)) CS Name: ::BeatEffect::Pool*
 class CORDL_TYPE __BeatEffect__Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::BeatEffect>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__BeatEffect__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23966e8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2357818, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__BeatEffect__Pool", modifiers: "&&", def_value: None }]

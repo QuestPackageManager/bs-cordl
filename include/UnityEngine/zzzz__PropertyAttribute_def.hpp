@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::UnityEngine::PropertyAttribute);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10170))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8914))
 // CS Name: ::UnityEngine::PropertyAttribute*
 class CORDL_TYPE PropertyAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::UnityEngine::PropertyAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ccc0c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cd3150, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PropertyAttribute", modifiers: "&&", def_value: None }]

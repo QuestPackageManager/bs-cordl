@@ -91,7 +91,7 @@ MARK_REF_PTR_T(::System::IO::Enumeration::__FileSystemEnumerableFactory____c__Di
 namespace System::IO::Enumeration {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3647))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3645))
 // CS Name: ::FileSystemEnumerableFactory::<>c__DisplayClass3_0*
 class CORDL_TYPE __FileSystemEnumerableFactory____c__DisplayClass3_0 : public ::System::Object {
 public:
@@ -116,10 +116,10 @@ public:
 
   static inline ::System::IO::Enumeration::__FileSystemEnumerableFactory____c__DisplayClass3_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2547038, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2567c58, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <UserFiles>b__1, addr 0x25479c0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method <UserFiles>b__1, addr 0x25685c8, size 0xa0, virtual false, abstract: false, final false
   inline bool _UserFiles_b__1(ByRef<::System::IO::Enumeration::FileSystemEntry> entry);
 
   // Ctor Parameters [CppParam { name: "", ty: "__FileSystemEnumerableFactory____c__DisplayClass3_0", modifiers: "&&", def_value: None }]
@@ -157,7 +157,7 @@ static_assert(offsetof(::System::IO::Enumeration::__FileSystemEnumerableFactory_
 namespace System::IO::Enumeration {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3648))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3646))
 // CS Name: ::FileSystemEnumerableFactory::<>c*
 class CORDL_TYPE __FileSystemEnumerableFactory____c : public ::System::Object {
 public:
@@ -213,25 +213,25 @@ public:
 
   static inline ::System::IO::Enumeration::__FileSystemEnumerableFactory____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2547ac4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25686cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <UserFiles>b__3_0, addr 0x2547acc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <UserFiles>b__3_0, addr 0x25686d4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW _UserFiles_b__3_0(ByRef<::System::IO::Enumeration::FileSystemEntry> entry);
 
-  /// @brief Method <UserDirectories>b__4_0, addr 0x2547ad4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <UserDirectories>b__4_0, addr 0x25686dc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW _UserDirectories_b__4_0(ByRef<::System::IO::Enumeration::FileSystemEntry> entry);
 
-  /// @brief Method <UserEntries>b__5_0, addr 0x2547adc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <UserEntries>b__5_0, addr 0x25686e4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW _UserEntries_b__5_0(ByRef<::System::IO::Enumeration::FileSystemEntry> entry);
 
-  /// @brief Method <FileInfos>b__6_0, addr 0x2547ae4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method <FileInfos>b__6_0, addr 0x25686ec, size 0x60, virtual false, abstract: false, final false
   inline ::System::IO::FileInfo* _FileInfos_b__6_0(ByRef<::System::IO::Enumeration::FileSystemEntry> entry);
 
-  /// @brief Method <DirectoryInfos>b__7_0, addr 0x2547b44, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method <DirectoryInfos>b__7_0, addr 0x256874c, size 0x60, virtual false, abstract: false, final false
   inline ::System::IO::DirectoryInfo* _DirectoryInfos_b__7_0(ByRef<::System::IO::Enumeration::FileSystemEntry> entry);
 
-  /// @brief Method <FileSystemInfos>b__8_0, addr 0x2547ba4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <FileSystemInfos>b__8_0, addr 0x25687ac, size 0x1008, virtual false, abstract: false, final false
   inline ::System::IO::FileSystemInfo* _FileSystemInfos_b__8_0(ByRef<::System::IO::Enumeration::FileSystemEntry> entry);
 
   // Ctor Parameters [CppParam { name: "", ty: "__FileSystemEnumerableFactory____c", modifiers: "&&", def_value: None }]
@@ -259,7 +259,7 @@ static_assert(::cordl_internals::size_check_v<::System::IO::Enumeration::__FileS
 namespace System::IO::Enumeration {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3649))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3647))
 // CS Name: ::FileSystemEnumerableFactory::<>c__DisplayClass4_0*
 class CORDL_TYPE __FileSystemEnumerableFactory____c__DisplayClass4_0 : public ::System::Object {
 public:
@@ -284,10 +284,10 @@ public:
 
   static inline ::System::IO::Enumeration::__FileSystemEnumerableFactory____c__DisplayClass4_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2547204, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25697b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <UserDirectories>b__1, addr 0x2547bac, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method <UserDirectories>b__1, addr 0x25697bc, size 0xb0, virtual false, abstract: false, final false
   inline bool _UserDirectories_b__1(ByRef<::System::IO::Enumeration::FileSystemEntry> entry);
 
   // Ctor Parameters [CppParam { name: "", ty: "__FileSystemEnumerableFactory____c__DisplayClass4_0", modifiers: "&&", def_value: None }]
@@ -325,7 +325,7 @@ static_assert(offsetof(::System::IO::Enumeration::__FileSystemEnumerableFactory_
 namespace System::IO::Enumeration {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3650))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3648))
 // CS Name: ::FileSystemEnumerableFactory::<>c__DisplayClass5_0*
 class CORDL_TYPE __FileSystemEnumerableFactory____c__DisplayClass5_0 : public ::System::Object {
 public:
@@ -350,10 +350,10 @@ public:
 
   static inline ::System::IO::Enumeration::__FileSystemEnumerableFactory____c__DisplayClass5_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25473d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x256986c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <UserEntries>b__1, addr 0x2547c4c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method <UserEntries>b__1, addr 0x2569874, size 0x8c, virtual false, abstract: false, final false
   inline bool _UserEntries_b__1(ByRef<::System::IO::Enumeration::FileSystemEntry> entry);
 
   // Ctor Parameters [CppParam { name: "", ty: "__FileSystemEnumerableFactory____c__DisplayClass5_0", modifiers: "&&", def_value: None }]
@@ -391,7 +391,7 @@ static_assert(offsetof(::System::IO::Enumeration::__FileSystemEnumerableFactory_
 namespace System::IO::Enumeration {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3651))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3649))
 // CS Name: ::FileSystemEnumerableFactory::<>c__DisplayClass6_0*
 class CORDL_TYPE __FileSystemEnumerableFactory____c__DisplayClass6_0 : public ::System::Object {
 public:
@@ -416,10 +416,10 @@ public:
 
   static inline ::System::IO::Enumeration::__FileSystemEnumerableFactory____c__DisplayClass6_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x254759c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2569900, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <FileInfos>b__1, addr 0x2547cd0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method <FileInfos>b__1, addr 0x2569908, size 0xb0, virtual false, abstract: false, final false
   inline bool _FileInfos_b__1(ByRef<::System::IO::Enumeration::FileSystemEntry> entry);
 
   // Ctor Parameters [CppParam { name: "", ty: "__FileSystemEnumerableFactory____c__DisplayClass6_0", modifiers: "&&", def_value: None }]
@@ -457,7 +457,7 @@ static_assert(offsetof(::System::IO::Enumeration::__FileSystemEnumerableFactory_
 namespace System::IO::Enumeration {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3652))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3650))
 // CS Name: ::FileSystemEnumerableFactory::<>c__DisplayClass7_0*
 class CORDL_TYPE __FileSystemEnumerableFactory____c__DisplayClass7_0 : public ::System::Object {
 public:
@@ -482,10 +482,10 @@ public:
 
   static inline ::System::IO::Enumeration::__FileSystemEnumerableFactory____c__DisplayClass7_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2547d70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25699b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <DirectoryInfos>b__1, addr 0x2547d78, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method <DirectoryInfos>b__1, addr 0x25699c0, size 0xb0, virtual false, abstract: false, final false
   inline bool _DirectoryInfos_b__1(ByRef<::System::IO::Enumeration::FileSystemEntry> entry);
 
   // Ctor Parameters [CppParam { name: "", ty: "__FileSystemEnumerableFactory____c__DisplayClass7_0", modifiers: "&&", def_value: None }]
@@ -523,7 +523,7 @@ static_assert(offsetof(::System::IO::Enumeration::__FileSystemEnumerableFactory_
 namespace System::IO::Enumeration {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3653))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3651))
 // CS Name: ::FileSystemEnumerableFactory::<>c__DisplayClass8_0*
 class CORDL_TYPE __FileSystemEnumerableFactory____c__DisplayClass8_0 : public ::System::Object {
 public:
@@ -548,10 +548,10 @@ public:
 
   static inline ::System::IO::Enumeration::__FileSystemEnumerableFactory____c__DisplayClass8_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2547e28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2569a70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <FileSystemInfos>b__1, addr 0x2547e30, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method <FileSystemInfos>b__1, addr 0x2569a78, size 0x8c, virtual false, abstract: false, final false
   inline bool _FileSystemInfos_b__1(ByRef<::System::IO::Enumeration::FileSystemEntry> entry);
 
   // Ctor Parameters [CppParam { name: "", ty: "__FileSystemEnumerableFactory____c__DisplayClass8_0", modifiers: "&&", def_value: None }]
@@ -589,7 +589,7 @@ static_assert(offsetof(::System::IO::Enumeration::__FileSystemEnumerableFactory_
 namespace System::IO::Enumeration {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3654))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3652))
 // CS Name: ::System.IO.Enumeration::FileSystemEnumerableFactory*
 class CORDL_TYPE FileSystemEnumerableFactory : public ::System::Object {
 public:
@@ -615,28 +615,28 @@ public:
 
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_s_unixEscapeChars();
 
-  /// @brief Method NormalizeInputs, addr 0x25467e8, size 0x460, virtual false, abstract: false, final false
+  /// @brief Method NormalizeInputs, addr 0x2567408, size 0x460, virtual false, abstract: false, final false
   static inline void NormalizeInputs(ByRef<::StringW> directory, ByRef<::StringW> expression, ::System::IO::EnumerationOptions* options);
 
-  /// @brief Method MatchesPattern, addr 0x2546c48, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method MatchesPattern, addr 0x2567868, size 0x22c, virtual false, abstract: false, final false
   static inline bool MatchesPattern(::StringW expression, ::System::ReadOnlySpan_1<char16_t> name, ::System::IO::EnumerationOptions* options);
 
-  /// @brief Method UserFiles, addr 0x2546e74, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method UserFiles, addr 0x2567a94, size 0x1c4, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::StringW>* UserFiles(::StringW directory, ::StringW expression, ::System::IO::EnumerationOptions* options);
 
-  /// @brief Method UserDirectories, addr 0x2547040, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method UserDirectories, addr 0x2567c60, size 0x1c4, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::StringW>* UserDirectories(::StringW directory, ::StringW expression, ::System::IO::EnumerationOptions* options);
 
-  /// @brief Method UserEntries, addr 0x254720c, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method UserEntries, addr 0x2567e24, size 0x1c4, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::StringW>* UserEntries(::StringW directory, ::StringW expression, ::System::IO::EnumerationOptions* options);
 
-  /// @brief Method FileInfos, addr 0x25473d8, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method FileInfos, addr 0x2567fe8, size 0x1c4, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::System::IO::FileInfo*>* FileInfos(::StringW directory, ::StringW expression, ::System::IO::EnumerationOptions* options);
 
-  /// @brief Method DirectoryInfos, addr 0x25475a4, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method DirectoryInfos, addr 0x25681ac, size 0x1c4, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::System::IO::DirectoryInfo*>* DirectoryInfos(::StringW directory, ::StringW expression, ::System::IO::EnumerationOptions* options);
 
-  /// @brief Method FileSystemInfos, addr 0x2547768, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method FileSystemInfos, addr 0x2568370, size 0x1c4, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::System::IO::FileSystemInfo*>* FileSystemInfos(::StringW directory, ::StringW expression, ::System::IO::EnumerationOptions* options);
 
   // Ctor Parameters [CppParam { name: "", ty: "FileSystemEnumerableFactory", modifiers: "&&", def_value: None }]

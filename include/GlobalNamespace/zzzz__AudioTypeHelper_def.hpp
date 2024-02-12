@@ -19,12 +19,12 @@ MARK_REF_PTR_T(::GlobalNamespace::AudioTypeHelper);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15842))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15582))
 // CS Name: ::AudioTypeHelper*
 class CORDL_TYPE AudioTypeHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetAudioTypeFromPath, addr 0xe26670, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetAudioTypeFromPath, addr 0xe4fa84, size 0x9c, virtual false, abstract: false, final false
   static inline ::UnityEngine::AudioType GetAudioTypeFromPath(::StringW path);
 
   // Ctor Parameters [CppParam { name: "", ty: "AudioTypeHelper", modifiers: "&&", def_value: None }]

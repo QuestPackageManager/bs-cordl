@@ -44,31 +44,31 @@ public:
 
   static inline ::System::Security::Cryptography::RNGCryptoServiceProvider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x246be20, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x248de94, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Check, addr 0x2472d54, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Check, addr 0x2494dc8, size 0xb4, virtual false, abstract: false, final false
   inline void Check();
 
-  /// @brief Method RngOpen, addr 0x2472d4c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RngOpen, addr 0x2494dc0, size 0x4, virtual false, abstract: false, final false
   static inline bool RngOpen();
 
-  /// @brief Method RngInitialize, addr 0x2472d50, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RngInitialize, addr 0x2494dc4, size 0x4, virtual false, abstract: false, final false
   static inline void* RngInitialize(::cordl_internals::Ptr<uint8_t> seed, void* seed_length);
 
-  /// @brief Method RngGetBytes, addr 0x2472e08, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RngGetBytes, addr 0x2494e7c, size 0x4, virtual false, abstract: false, final false
   static inline void* RngGetBytes(void* handle, ::cordl_internals::Ptr<uint8_t> data, void* data_length);
 
-  /// @brief Method RngClose, addr 0x2472e0c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RngClose, addr 0x2494e80, size 0x4, virtual false, abstract: false, final false
   static inline void RngClose(void* handle);
 
-  /// @brief Method GetBytes, addr 0x2472e10, size 0x21c, virtual true, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x2494e84, size 0x21c, virtual true, abstract: false, final false
   inline void GetBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method Finalize, addr 0x247302c, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x24950a0, size 0x118, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method Dispose, addr 0x2473144, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x24951b8, size 0xc, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   // Ctor Parameters [CppParam { name: "", ty: "RNGCryptoServiceProvider", modifiers: "&&", def_value: None }]

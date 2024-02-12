@@ -102,41 +102,41 @@ public:
                                                                                               ::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* dP,
                                                                                               ::Org::BouncyCastle::Math::BigInteger* dQ, ::Org::BouncyCastle::Math::BigInteger* qInv);
 
-  /// @brief Method .ctor, addr 0xf39c20, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf64ab0, size 0x22c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* modulus, ::Org::BouncyCastle::Math::BigInteger* publicExponent, ::Org::BouncyCastle::Math::BigInteger* privateExponent,
                     ::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* dP, ::Org::BouncyCastle::Math::BigInteger* dQ,
                     ::Org::BouncyCastle::Math::BigInteger* qInv);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters* New_ctor(::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure* rsaPrivateKey);
 
-  /// @brief Method .ctor, addr 0xf39f1c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf64dac, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure* rsaPrivateKey);
 
-  /// @brief Method get_PublicExponent, addr 0xf39f54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PublicExponent, addr 0xf64de4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_PublicExponent();
 
-  /// @brief Method get_P, addr 0xf39f5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_P, addr 0xf64dec, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_P();
 
-  /// @brief Method get_Q, addr 0xf39f64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Q, addr 0xf64df4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Q();
 
-  /// @brief Method get_DP, addr 0xf39f6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DP, addr 0xf64dfc, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_DP();
 
-  /// @brief Method get_DQ, addr 0xf39f74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DQ, addr 0xf64e04, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_DQ();
 
-  /// @brief Method get_QInv, addr 0xf39f7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_QInv, addr 0xf64e0c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_QInv();
 
-  /// @brief Method Equals, addr 0xf39f84, size 0x178, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0xf64e14, size 0x178, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0xf3a0fc, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0xf64f8c, size 0x120, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ValidateValue, addr 0xf39e4c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method ValidateValue, addr 0xf64cdc, size 0xd0, virtual false, abstract: false, final false
   static inline void ValidateValue(::Org::BouncyCastle::Math::BigInteger* x, ::StringW name, ::StringW desc);
 
   // Ctor Parameters [CppParam { name: "", ty: "RsaPrivateCrtKeyParameters", modifiers: "&&", def_value: None }]

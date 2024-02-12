@@ -264,6 +264,12 @@ template <typename T> inline T System::Collections::Generic::Queue_1<T>::Dequeue
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<T, false>(this, ___internal_method);
 }
+template <typename T> inline bool System::Collections::Generic::Queue_1<T>::TryDequeue(ByRef<T> result) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::Queue_1<T>*>::get(), "TryDequeue", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<T>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, result);
+}
 template <typename T> inline T System::Collections::Generic::Queue_1<T>::Peek() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::Queue_1<T>*>::get(), "Peek",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));

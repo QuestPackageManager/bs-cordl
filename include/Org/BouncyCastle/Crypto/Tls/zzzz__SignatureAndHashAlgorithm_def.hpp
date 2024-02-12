@@ -51,25 +51,25 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* New_ctor(uint8_t hash, uint8_t signature);
 
-  /// @brief Method .ctor, addr 0xf9664c, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfc24dc, size 0x164, virtual false, abstract: false, final false
   inline void _ctor(uint8_t hash, uint8_t signature);
 
-  /// @brief Method get_Hash, addr 0xf967b0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Hash, addr 0xfc2640, size 0x8, virtual true, abstract: false, final false
   inline uint8_t get_Hash();
 
-  /// @brief Method get_Signature, addr 0xf967b8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Signature, addr 0xfc2648, size 0x8, virtual true, abstract: false, final false
   inline uint8_t get_Signature();
 
-  /// @brief Method Equals, addr 0xf967c0, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0xfc2650, size 0xd0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0xf96890, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0xfc2720, size 0x44, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Encode, addr 0xf968d4, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0xfc2764, size 0x9c, virtual true, abstract: false, final false
   inline void Encode(::System::IO::Stream* output);
 
-  /// @brief Method Parse, addr 0xf96970, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0xfc2800, size 0xac, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* Parse(::System::IO::Stream* input);
 
   // Ctor Parameters [CppParam { name: "", ty: "SignatureAndHashAlgorithm", modifiers: "&&", def_value: None }]

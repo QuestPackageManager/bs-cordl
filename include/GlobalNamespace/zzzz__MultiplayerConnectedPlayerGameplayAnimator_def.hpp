@@ -33,8 +33,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerConnectedPlayerGameplayAnimator);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5207))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5123))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4546))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4461))
 // CS Name: ::MultiplayerConnectedPlayerGameplayAnimator*
 class CORDL_TYPE MultiplayerConnectedPlayerGameplayAnimator : public ::GlobalNamespace::MultiplayerGameplayAnimator {
 public:
@@ -105,30 +105,30 @@ public:
 
   constexpr void __cordl_internal_set__playerSpectatingSpot(::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot> value);
 
-  /// @brief Method Start, addr 0x23d4f84, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x238ecec, size 0xa4, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy, addr 0x23d502c, size 0x170, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x238ee38, size 0x170, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method TransitionIntoFailedState, addr 0x23d5238, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method TransitionIntoFailedState, addr 0x238f044, size 0xf0, virtual false, abstract: false, final false
   inline void TransitionIntoFailedState();
 
-  /// @brief Method AnimateNewLeaderSelected, addr 0x23d5428, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method AnimateNewLeaderSelected, addr 0x238f230, size 0x144, virtual true, abstract: false, final false
   inline void AnimateNewLeaderSelected(bool isLeading);
 
-  /// @brief Method HandleStateChanged, addr 0x23d5570, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method HandleStateChanged, addr 0x238f374, size 0x110, virtual true, abstract: false, final false
   inline void HandleStateChanged(::GlobalNamespace::__MultiplayerController__State state);
 
-  /// @brief Method HandlePlayerDidFail, addr 0x23d571c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerDidFail, addr 0x238f520, size 0x4, virtual false, abstract: false, final false
   inline void HandlePlayerDidFail();
 
-  /// @brief Method HandleIsObservedChanged, addr 0x23d5720, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method HandleIsObservedChanged, addr 0x238f524, size 0x7c, virtual false, abstract: false, final false
   inline void HandleIsObservedChanged(bool isObserved);
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerGameplayAnimator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23d580c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x238f610, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerGameplayAnimator", modifiers: "&&", def_value: None }]

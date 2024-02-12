@@ -19,7 +19,7 @@ MARK_VAL_T(::GlobalNamespace::OVRProfilerScope);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8154))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8105))
 // CS Name: ::OVRProfilerScope
 #pragma pack(push, 0)
 struct CORDL_TYPE OVRProfilerScope {
@@ -31,10 +31,10 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable();
 
-  /// @brief Method .ctor, addr 0x27b90ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27caac8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x27b90f0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x27caacc, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   // Ctor Parameters []

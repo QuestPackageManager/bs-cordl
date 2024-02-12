@@ -103,31 +103,31 @@ public:
 
   static inline ::System::Runtime::Remoting::Proxies::RemotingProxy* New_ctor(::System::Type* type, ::System::Runtime::Remoting::ClientIdentity* identity);
 
-  /// @brief Method .ctor, addr 0x2498c34, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24baca8, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::System::Runtime::Remoting::ClientIdentity* identity);
 
   static inline ::System::Runtime::Remoting::Proxies::RemotingProxy* New_ctor(::System::Type* type, ::StringW activationUrl,
                                                                               ::ArrayW<::System::Object*, ::Array<::System::Object*>*> activationAttributes);
 
-  /// @brief Method .ctor, addr 0x249649c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24b8510, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::StringW activationUrl, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> activationAttributes);
 
-  /// @brief Method Invoke, addr 0x2499634, size 0x5c8, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x24bb6a8, size 0x5c8, virtual true, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::IMessage* Invoke(::System::Runtime::Remoting::Messaging::IMessage* request);
 
-  /// @brief Method AttachIdentity, addr 0x2499f90, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method AttachIdentity, addr 0x24bc004, size 0x230, virtual false, abstract: false, final false
   inline void AttachIdentity(::System::Runtime::Remoting::Identity* identity);
 
-  /// @brief Method ActivateRemoteObject, addr 0x2497b5c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method ActivateRemoteObject, addr 0x24b9bd0, size 0xdc, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::IMessage* ActivateRemoteObject(::System::Runtime::Remoting::Messaging::IMethodMessage* request);
 
-  /// @brief Method get_TypeName, addr 0x249a750, size 0x138, virtual true, abstract: false, final true
+  /// @brief Method get_TypeName, addr 0x24bc7c4, size 0x138, virtual true, abstract: false, final true
   inline ::StringW get_TypeName();
 
-  /// @brief Method CanCastTo, addr 0x249a888, size 0x21c, virtual true, abstract: false, final true
+  /// @brief Method CanCastTo, addr 0x24bc8fc, size 0x21c, virtual true, abstract: false, final true
   inline bool CanCastTo(::System::Type* fromType, ::System::Object* o);
 
-  /// @brief Method Finalize, addr 0x249aaa4, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x24bcb18, size 0x11c, virtual true, abstract: false, final false
   inline void Finalize();
 
   // Ctor Parameters [CppParam { name: "", ty: "RemotingProxy", modifiers: "&&", def_value: None }]

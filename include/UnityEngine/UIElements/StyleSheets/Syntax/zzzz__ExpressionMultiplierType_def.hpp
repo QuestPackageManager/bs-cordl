@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierT
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7496))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6755))
 // CS Name: ::UnityEngine.UIElements.StyleSheets.Syntax::ExpressionMultiplierType
 struct CORDL_TYPE ExpressionMultiplierType {
 public:

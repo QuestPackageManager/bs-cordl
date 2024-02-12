@@ -33,8 +33,8 @@ MARK_VAL_T(::UnityEngine::UIElements::Rotate);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 37, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7305)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7295))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6564)), TypeDefinitionIndex(TypeDefinitionIndex(8993))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6554))
 // CS Name: ::UnityEngine.UIElements::Rotate
 struct CORDL_TYPE Rotate {
 public:
@@ -47,40 +47,40 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::Rotate>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::Rotate>* i___System__IEquatable_1___UnityEngine__UIElements__Rotate_();
 
-  /// @brief Method .ctor, addr 0x2e702a4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e8a68c, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::Angle angle);
 
-  /// @brief Method Initial, addr 0x2e70304, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Initial, addr 0x2e8a6ec, size 0x8c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Rotate Initial();
 
-  /// @brief Method None, addr 0x2e70398, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method None, addr 0x2e8a780, size 0x70, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Rotate None();
 
-  /// @brief Method get_angle, addr 0x2e70408, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_angle, addr 0x2e8a7f0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Angle get_angle();
 
-  /// @brief Method set_angle, addr 0x2e70410, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_angle, addr 0x2e8a7f8, size 0x8, virtual false, abstract: false, final false
   inline void set_angle(::UnityEngine::UIElements::Angle value);
 
-  /// @brief Method op_Equality, addr 0x2e70418, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x2e8a800, size 0x84, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::Rotate lhs, ::UnityEngine::UIElements::Rotate rhs);
 
-  /// @brief Method op_Inequality, addr 0x2e704c4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x2e8a8ac, size 0x48, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::UIElements::Rotate lhs, ::UnityEngine::UIElements::Rotate rhs);
 
-  /// @brief Method Equals, addr 0x2e7050c, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2e8a8f4, size 0x44, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::Rotate other);
 
-  /// @brief Method Equals, addr 0x2e70550, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2e8a938, size 0xa0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2e705f0, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2e8a9d8, size 0x98, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x2e706b0, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2e8aa98, size 0x68, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToQuaternion, addr 0x2e708f0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ToQuaternion, addr 0x2e8acd8, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion ToQuaternion();
 
   // Ctor Parameters [CppParam { name: "m_Angle", ty: "::UnityEngine::UIElements::Angle", modifiers: "", def_value: None }, CppParam { name: "m_Axis", ty: "::UnityEngine::Vector3", modifiers: "",

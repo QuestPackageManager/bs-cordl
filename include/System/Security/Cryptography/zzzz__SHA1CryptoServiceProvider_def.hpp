@@ -36,22 +36,22 @@ public:
 
   static inline ::System::Security::Cryptography::SHA1CryptoServiceProvider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x246e4d0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2490544, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Finalize, addr 0x24747c4, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x2496838, size 0xa0, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method Dispose, addr 0x2474864, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x24968d8, size 0xc, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method HashCore, addr 0x2474870, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method HashCore, addr 0x24968e4, size 0x24, virtual true, abstract: false, final false
   inline void HashCore(::ArrayW<uint8_t, ::Array<uint8_t>*> rgb, int32_t ibStart, int32_t cbSize);
 
-  /// @brief Method HashFinal, addr 0x2474894, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method HashFinal, addr 0x2496908, size 0x20, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> HashFinal();
 
-  /// @brief Method Initialize, addr 0x24748b4, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Initialize, addr 0x2496928, size 0x18, virtual true, abstract: false, final false
   inline void Initialize();
 
   // Ctor Parameters [CppParam { name: "", ty: "SHA1CryptoServiceProvider", modifiers: "&&", def_value: None }]

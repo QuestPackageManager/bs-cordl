@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Runtime::ConstrainedExecution::Cer);
 namespace System::Runtime::ConstrainedExecution {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3350))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3347))
 // CS Name: ::System.Runtime.ConstrainedExecution::Cer
 struct CORDL_TYPE Cer {
 public:

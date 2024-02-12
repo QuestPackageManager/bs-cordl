@@ -28,12 +28,12 @@ public:
   // Declarations
   static inline ::System::AppDomainUnloadedException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25d129c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f31b4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::AppDomainUnloadedException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x25d12f4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f320c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "AppDomainUnloadedException", modifiers: "&&", def_value: None }]

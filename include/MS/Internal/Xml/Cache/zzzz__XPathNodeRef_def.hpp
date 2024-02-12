@@ -20,7 +20,7 @@ MARK_VAL_T(::MS::Internal::Xml::Cache::XPathNodeRef);
 namespace MS::Internal::Xml::Cache {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11769))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11667))
 // CS Name: ::MS.Internal.Xml.Cache::XPathNodeRef
 struct CORDL_TYPE XPathNodeRef {
 public:
@@ -29,16 +29,16 @@ public:
 
   __declspec(property(get = get_Index)) int32_t Index;
 
-  /// @brief Method .ctor, addr 0x28eb7a4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28ede0c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> page, int32_t idx);
 
-  /// @brief Method get_Page, addr 0x28eb7b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Page, addr 0x28ede18, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> get_Page();
 
-  /// @brief Method get_Index, addr 0x28eb7b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Index, addr 0x28ede20, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Index();
 
-  /// @brief Method GetHashCode, addr 0x28eb7c0, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x28ede28, size 0x10, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "_page", ty: "::ArrayW<::MS::Internal::Xml::Cache::XPathNode,::Array<::MS::Internal::Xml::Cache::XPathNode>*>", modifiers: "", def_value: None }, CppParam {

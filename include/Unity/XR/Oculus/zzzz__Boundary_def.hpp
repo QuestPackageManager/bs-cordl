@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::Unity::XR::Oculus::Boundary);
 namespace Unity::XR::Oculus {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15127))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15167))
 // CS Name: ::Boundary::BoundaryType
 struct CORDL_TYPE __Boundary__BoundaryType {
 public:
@@ -78,23 +78,23 @@ static_assert(offsetof(::Unity::XR::Oculus::__Boundary__BoundaryType, value__) =
 namespace Unity::XR::Oculus {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15128))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15168))
 // CS Name: ::Unity.XR.Oculus::Boundary*
 class CORDL_TYPE Boundary : public ::System::Object {
 public:
   // Declarations
   using BoundaryType = ::Unity::XR::Oculus::__Boundary__BoundaryType;
 
-  /// @brief Method GetBoundaryConfigured, addr 0x2c77640, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetBoundaryConfigured, addr 0x2c741ac, size 0x4, virtual false, abstract: false, final false
   static inline bool GetBoundaryConfigured();
 
-  /// @brief Method GetBoundaryDimensions, addr 0x2c77648, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetBoundaryDimensions, addr 0x2c741b4, size 0x4, virtual false, abstract: false, final false
   static inline bool GetBoundaryDimensions(::Unity::XR::Oculus::__Boundary__BoundaryType boundaryType, ByRef<::UnityEngine::Vector3> dimensions);
 
-  /// @brief Method GetBoundaryVisible, addr 0x2c77650, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetBoundaryVisible, addr 0x2c741bc, size 0x4, virtual false, abstract: false, final false
   static inline bool GetBoundaryVisible();
 
-  /// @brief Method SetBoundaryVisible, addr 0x2c77658, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetBoundaryVisible, addr 0x2c741c4, size 0x8, virtual false, abstract: false, final false
   static inline void SetBoundaryVisible(bool boundaryVisible);
 
   // Ctor Parameters [CppParam { name: "", ty: "Boundary", modifiers: "&&", def_value: None }]

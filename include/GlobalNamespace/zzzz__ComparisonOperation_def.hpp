@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::ComparisonOperation);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16247))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16402))
 // CS Name: ::ComparisonOperation
 struct CORDL_TYPE ComparisonOperation {
 public:

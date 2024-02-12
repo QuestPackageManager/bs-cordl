@@ -46,9 +46,9 @@ MARK_REF_PTR_T(::GlobalNamespace::SliderSpawnInfoNetSerializable);
 // SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 196, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14752)), TypeDefinitionIndex(TypeDefinitionIndex(14755)), TypeDefinitionIndex(TypeDefinitionIndex(14760)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14764)), TypeDefinitionIndex(TypeDefinitionIndex(14766)), TypeDefinitionIndex(TypeDefinitionIndex(15033)), TypeDefinitionIndex(TypeDefinitionIndex(15039))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15046))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14906)), TypeDefinitionIndex(TypeDefinitionIndex(14912)), TypeDefinitionIndex(TypeDefinitionIndex(15136)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15139)), TypeDefinitionIndex(TypeDefinitionIndex(15144)), TypeDefinitionIndex(TypeDefinitionIndex(15148)), TypeDefinitionIndex(TypeDefinitionIndex(15150))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14919))
 // CS Name: ::SliderSpawnInfoNetSerializable*
 class CORDL_TYPE SliderSpawnInfoNetSerializable : public ::GlobalNamespace::PoolableSerializable {
 public:
@@ -341,10 +341,10 @@ public:
 
   constexpr void __cordl_internal_set_rotation(float_t value);
 
-  /// @brief Method Obtain, addr 0x12a9014, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Obtain, addr 0x133eeec, size 0x64, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::SliderSpawnInfoNetSerializable* Obtain();
 
-  /// @brief Method Init, addr 0x12a9078, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x133ef50, size 0x244, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SliderSpawnInfoNetSerializable*
   Init(::GlobalNamespace::ColorType colorType, ::GlobalNamespace::__SliderData__Type sliderType, bool hasHeadNote, float_t headTime, int32_t headLineIndex,
        ::GlobalNamespace::NoteLineLayer headLineLayer, ::GlobalNamespace::NoteLineLayer headBeforeJumpLineLayer, float_t headControlPointLengthMultiplier,
@@ -356,13 +356,13 @@ public:
 
   static inline ::GlobalNamespace::SliderSpawnInfoNetSerializable* New_ctor();
 
-  /// @brief Method .ctor, addr 0x12a92bc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x133f194, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Serialize, addr 0x12a9314, size 0x238, virtual true, abstract: false, final false
+  /// @brief Method Serialize, addr 0x133f1ec, size 0x238, virtual true, abstract: false, final false
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method Deserialize, addr 0x12a954c, size 0x274, virtual true, abstract: false, final false
+  /// @brief Method Deserialize, addr 0x133f424, size 0x274, virtual true, abstract: false, final false
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
   // Ctor Parameters [CppParam { name: "", ty: "SliderSpawnInfoNetSerializable", modifiers: "&&", def_value: None }]

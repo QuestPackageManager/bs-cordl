@@ -36,8 +36,8 @@ MARK_REF_PTR_T(::UnityEngine::UI::Shadow);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(13143))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13148))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8987)), TypeDefinitionIndex(TypeDefinitionIndex(8995)), TypeDefinitionIndex(TypeDefinitionIndex(13041))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13046))
 // CS Name: ::UnityEngine.UI::Shadow*
 class CORDL_TYPE Shadow : public ::UnityEngine::UI::BaseMeshEffect {
 public:
@@ -77,34 +77,34 @@ public:
 
   static inline ::UnityEngine::UI::Shadow* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d91650, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dafa38, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_effectColor, addr 0x2d91678, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_effectColor, addr 0x2dafa60, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_effectColor();
 
-  /// @brief Method set_effectColor, addr 0x2d91684, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method set_effectColor, addr 0x2dafa6c, size 0xd4, virtual false, abstract: false, final false
   inline void set_effectColor(::UnityEngine::Color value);
 
-  /// @brief Method get_effectDistance, addr 0x2d91758, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_effectDistance, addr 0x2dafb40, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_effectDistance();
 
-  /// @brief Method set_effectDistance, addr 0x2d91760, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method set_effectDistance, addr 0x2dafb48, size 0x104, virtual false, abstract: false, final false
   inline void set_effectDistance(::UnityEngine::Vector2 value);
 
-  /// @brief Method get_useGraphicAlpha, addr 0x2d91864, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useGraphicAlpha, addr 0x2dafc4c, size 0x8, virtual false, abstract: false, final false
   inline bool get_useGraphicAlpha();
 
-  /// @brief Method set_useGraphicAlpha, addr 0x2d9186c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method set_useGraphicAlpha, addr 0x2dafc54, size 0xb8, virtual false, abstract: false, final false
   inline void set_useGraphicAlpha(bool value);
 
-  /// @brief Method ApplyShadowZeroAlloc, addr 0x2d91924, size 0x30c, virtual false, abstract: false, final false
+  /// @brief Method ApplyShadowZeroAlloc, addr 0x2dafd0c, size 0x30c, virtual false, abstract: false, final false
   inline void ApplyShadowZeroAlloc(::System::Collections::Generic::List_1<::UnityEngine::UIVertex>* verts, ::UnityEngine::Color32 color, int32_t start, int32_t end, float_t x, float_t y);
 
-  /// @brief Method ApplyShadow, addr 0x2d91c30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ApplyShadow, addr 0x2db0018, size 0x8, virtual false, abstract: false, final false
   inline void ApplyShadow(::System::Collections::Generic::List_1<::UnityEngine::UIVertex>* verts, ::UnityEngine::Color32 color, int32_t start, int32_t end, float_t x, float_t y);
 
-  /// @brief Method ModifyMesh, addr 0x2d91c38, size 0x3e0, virtual true, abstract: false, final false
+  /// @brief Method ModifyMesh, addr 0x2db0020, size 0x3e0, virtual true, abstract: false, final false
   inline void ModifyMesh(::UnityEngine::UI::VertexHelper* vh);
 
   // Ctor Parameters [CppParam { name: "", ty: "Shadow", modifiers: "&&", def_value: None }]

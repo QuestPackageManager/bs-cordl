@@ -74,56 +74,56 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey* New_ctor(::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber* id);
 
-  /// @brief Method .ctor, addr 0xe7aaf8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xea5988, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber* id);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey* New_ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* id);
 
-  /// @brief Method .ctor, addr 0xe7ab20, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xea59b0, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* id);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey* New_ctor(::Org::BouncyCastle::Asn1::X509::SubjectKeyIdentifier* id);
 
-  /// @brief Method .ctor, addr 0xe7ab94, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xea5a24, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::SubjectKeyIdentifier* id);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey* New_ctor(::Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey* id);
 
-  /// @brief Method .ctor, addr 0xe7ac18, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xea5aa8, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey* id);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey* New_ctor(::Org::BouncyCastle::Asn1::Asn1Object* id);
 
-  /// @brief Method .ctor, addr 0xe7ac9c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xea5b2c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Object* id);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey* New_ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* id);
 
-  /// @brief Method .ctor, addr 0xe7acc4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xea5b54, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* id);
 
-  /// @brief Method GetInstance, addr 0xe79a90, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xea4920, size 0x6c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* o, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0xe7acec, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xea5b7c, size 0x2ac, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey* GetInstance(::System::Object* o);
 
-  /// @brief Method get_ID, addr 0xe7af98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ID, addr 0xea5e28, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_ID();
 
-  /// @brief Method get_IssuerAndSerialNumber, addr 0xe7afa0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_IssuerAndSerialNumber, addr 0xea5e30, size 0x7c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber* get_IssuerAndSerialNumber();
 
-  /// @brief Method get_SubjectKeyIdentifier, addr 0xe7b01c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_SubjectKeyIdentifier, addr 0xea5eac, size 0x94, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::SubjectKeyIdentifier* get_SubjectKeyIdentifier();
 
-  /// @brief Method get_OriginatorKey, addr 0xe7b0b0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_OriginatorKey, addr 0xea5f40, size 0x4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey* get_OriginatorKey();
 
-  /// @brief Method get_OriginatorPublicKey, addr 0xe7b0b4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_OriginatorPublicKey, addr 0xea5f44, size 0x9c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey* get_OriginatorPublicKey();
 
-  /// @brief Method ToAsn1Object, addr 0xe7b168, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xea5ff8, size 0x20, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "OriginatorIdentifierOrKey", modifiers: "&&", def_value: None }]

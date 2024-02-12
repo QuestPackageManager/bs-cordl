@@ -23,18 +23,18 @@ MARK_REF_PTR_T(::UnityEngine::Networking::UnityWebRequestAssetBundle);
 namespace UnityEngine::Networking {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16137))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16257))
 // CS Name: ::UnityEngine.Networking::UnityWebRequestAssetBundle*
 class CORDL_TYPE UnityWebRequestAssetBundle : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetAssetBundle, addr 0x2eab97c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetAssetBundle, addr 0x2ec5d64, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Networking::UnityWebRequest* GetAssetBundle(::StringW uri);
 
-  /// @brief Method GetAssetBundle, addr 0x2eab984, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetAssetBundle, addr 0x2ec5d6c, size 0xc0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Networking::UnityWebRequest* GetAssetBundle(::StringW uri, uint32_t crc);
 
-  /// @brief Method GetAssetBundle, addr 0x2eabaa8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetAssetBundle, addr 0x2ec5e90, size 0xf0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Networking::UnityWebRequest* GetAssetBundle(::StringW uri, ::UnityEngine::CachedAssetBundle cachedAssetBundle, uint32_t crc);
 
   // Ctor Parameters [CppParam { name: "", ty: "UnityWebRequestAssetBundle", modifiers: "&&", def_value: None }]

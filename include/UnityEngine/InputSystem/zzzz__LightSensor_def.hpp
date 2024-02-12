@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::LightSensor);
 // SizeInfo { instance_size: 352, native_size: -1, calculated_instance_size: 352, calculated_native_size: 352, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6274))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6281))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5533))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5540))
 // CS Name: ::UnityEngine.InputSystem::LightSensor*
 class CORDL_TYPE LightSensor : public ::UnityEngine::InputSystem::Sensor {
 public:
@@ -42,30 +42,30 @@ public:
 
   static inline ::UnityEngine::InputSystem::LightSensor* getStaticF__current_k__BackingField();
 
-  /// @brief Method get_lightLevel, addr 0x2aa87bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightLevel, addr 0x2aaa328, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_lightLevel();
 
-  /// @brief Method set_lightLevel, addr 0x2aa87c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lightLevel, addr 0x2aaa330, size 0x8, virtual false, abstract: false, final false
   inline void set_lightLevel(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method get_current, addr 0x2aa87cc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_current, addr 0x2aaa338, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LightSensor* get_current();
 
-  /// @brief Method set_current, addr 0x2aa8814, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_current, addr 0x2aaa380, size 0x4c, virtual false, abstract: false, final false
   static inline void set_current(::UnityEngine::InputSystem::LightSensor* value);
 
-  /// @brief Method MakeCurrent, addr 0x2aa8860, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method MakeCurrent, addr 0x2aaa3cc, size 0x54, virtual true, abstract: false, final false
   inline void MakeCurrent();
 
-  /// @brief Method OnRemoved, addr 0x2aa88b4, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method OnRemoved, addr 0x2aaa420, size 0x84, virtual true, abstract: false, final false
   inline void OnRemoved();
 
-  /// @brief Method FinishSetup, addr 0x2aa8938, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x2aaa4a4, size 0x78, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::InputSystem::LightSensor* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2aa89b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aaa51c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LightSensor", modifiers: "&&", def_value: None }]

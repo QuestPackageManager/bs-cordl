@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::Zenject::StaticContext);
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11128))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10270))
 // CS Name: ::Zenject::StaticContext*
 class CORDL_TYPE StaticContext : public ::System::Object {
 public:
@@ -30,13 +30,13 @@ public:
 
   static inline ::Zenject::DiContainer* getStaticF__container();
 
-  /// @brief Method Clear, addr 0x2ef4914, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x2f10a5c, size 0x48, virtual false, abstract: false, final false
   static inline void Clear();
 
-  /// @brief Method get_HasContainer, addr 0x2ef495c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_HasContainer, addr 0x2f10aa4, size 0x50, virtual false, abstract: false, final false
   static inline bool get_HasContainer();
 
-  /// @brief Method get_Container, addr 0x2ef0390, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_Container, addr 0x2f0c4d8, size 0x90, virtual false, abstract: false, final false
   static inline ::Zenject::DiContainer* get_Container();
 
   // Ctor Parameters [CppParam { name: "", ty: "StaticContext", modifiers: "&&", def_value: None }]

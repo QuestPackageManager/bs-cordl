@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::System::Net::Http::HttpMethod);
 namespace System::Net::Http {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14652))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14657))
 // CS Name: ::System.Net.Http::HttpMethod*
 class CORDL_TYPE HttpMethod : public ::System::Object {
 public:
@@ -96,31 +96,31 @@ public:
 
   static inline ::System::Net::Http::HttpMethod* New_ctor(::StringW method);
 
-  /// @brief Method .ctor, addr 0x2833448, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2837bbc, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::StringW method);
 
-  /// @brief Method get_Get, addr 0x28335e0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Get, addr 0x2837d54, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Net::Http::HttpMethod* get_Get();
 
-  /// @brief Method get_Method, addr 0x2833638, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Method, addr 0x2837dac, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Method();
 
-  /// @brief Method get_Post, addr 0x2833640, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Post, addr 0x2837db4, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Net::Http::HttpMethod* get_Post();
 
-  /// @brief Method op_Equality, addr 0x2833698, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x2837e0c, size 0x18, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Net::Http::HttpMethod* left, ::System::Net::Http::HttpMethod* right);
 
-  /// @brief Method Equals, addr 0x28336b0, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2837e24, size 0x24, virtual true, abstract: false, final true
   inline bool Equals(::System::Net::Http::HttpMethod* other);
 
-  /// @brief Method Equals, addr 0x28336d4, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2837e48, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2833760, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2837ed4, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x2833780, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2837ef4, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "HttpMethod", modifiers: "&&", def_value: None }]

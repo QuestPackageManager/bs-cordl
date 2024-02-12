@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::System::Xml::Linq::XStreamingElement);
 namespace System::Xml::Linq {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15458))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15572))
 // CS Name: ::System.Xml.Linq::XStreamingElement*
 class CORDL_TYPE XStreamingElement : public ::System::Object {
 public:

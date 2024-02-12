@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::System::Configuration::ConfigurationPropertyCollection);
 namespace System::Configuration {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16260))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16435))
 // CS Name: ::System.Configuration::ConfigurationPropertyCollection*
 class CORDL_TYPE ConfigurationPropertyCollection : public ::System::Object {
 public:

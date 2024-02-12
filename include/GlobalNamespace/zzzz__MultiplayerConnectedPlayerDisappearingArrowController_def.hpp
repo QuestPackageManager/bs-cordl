@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerConnectedPlayerDisappearingArrowCon
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4742)), TypeDefinitionIndex(TypeDefinitionIndex(5137)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4742), inst: 356
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5135)) CS Name: ::MultiplayerConnectedPlayerDisappearingArrowController*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4093)), TypeDefinitionIndex(TypeDefinitionIndex(4475)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4093), inst: 357
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4473)) CS Name: ::MultiplayerConnectedPlayerDisappearingArrowController*
 class CORDL_TYPE MultiplayerConnectedPlayerDisappearingArrowController
     : public ::GlobalNamespace::DisappearingArrowControllerBase_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>> {
 public:
@@ -36,12 +36,12 @@ public:
 
   constexpr void __cordl_internal_set__gameNoteController(::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController> value);
 
-  /// @brief Method get_gameNoteController, addr 0x23d77ec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_gameNoteController, addr 0x23913a4, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController> get_gameNoteController();
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerDisappearingArrowController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23d77f4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23913ac, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerDisappearingArrowController", modifiers: "&&", def_value: None }]

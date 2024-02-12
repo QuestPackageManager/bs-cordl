@@ -54,22 +54,22 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::DefiniteLengthInputStream* New_ctor(::System::IO::Stream* inStream, int32_t length, int32_t limit);
 
-  /// @brief Method .ctor, addr 0x11b4720, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11e15b0, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* inStream, int32_t length, int32_t limit);
 
-  /// @brief Method get_Remaining, addr 0x11c0180, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Remaining, addr 0x11ed010, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Remaining();
 
-  /// @brief Method ReadByte, addr 0x11c0188, size 0x1e4, virtual true, abstract: false, final false
+  /// @brief Method ReadByte, addr 0x11ed018, size 0x1e4, virtual true, abstract: false, final false
   inline int32_t ReadByte();
 
-  /// @brief Method Read, addr 0x11c036c, size 0x254, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x11ed1fc, size 0x254, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
-  /// @brief Method ReadAllIntoByteArray, addr 0x11b69e8, size 0x3a4, virtual false, abstract: false, final false
+  /// @brief Method ReadAllIntoByteArray, addr 0x11e3878, size 0x3a4, virtual false, abstract: false, final false
   inline void ReadAllIntoByteArray(::ArrayW<uint8_t, ::Array<uint8_t>*> buf);
 
-  /// @brief Method ToArray, addr 0x11b47e8, size 0x3a8, virtual false, abstract: false, final false
+  /// @brief Method ToArray, addr 0x11e1678, size 0x3a8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ToArray();
 
   // Ctor Parameters [CppParam { name: "", ty: "DefiniteLengthInputStream", modifiers: "&&", def_value: None }]

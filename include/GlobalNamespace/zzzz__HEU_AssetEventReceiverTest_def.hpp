@@ -23,24 +23,24 @@ MARK_REF_PTR_T(::GlobalNamespace::HEU_AssetEventReceiverTest);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9593))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9385))
 // CS Name: ::HEU_AssetEventReceiverTest*
 class CORDL_TYPE HEU_AssetEventReceiverTest : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Method ReloadCallback, addr 0x214dd40, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method ReloadCallback, addr 0x21e3624, size 0x1ac, virtual false, abstract: false, final false
   inline void ReloadCallback(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool success, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputList);
 
-  /// @brief Method CookedCallback, addr 0x214deec, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method CookedCallback, addr 0x21e37d0, size 0x1ac, virtual false, abstract: false, final false
   inline void CookedCallback(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool success, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputList);
 
-  /// @brief Method BakedCallback, addr 0x214e098, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method BakedCallback, addr 0x21e397c, size 0x1ac, virtual false, abstract: false, final false
   inline void BakedCallback(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool success, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputList);
 
   static inline ::GlobalNamespace::HEU_AssetEventReceiverTest* New_ctor();
 
-  /// @brief Method .ctor, addr 0x214e244, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21e3b28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_AssetEventReceiverTest", modifiers: "&&", def_value: None }]

@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLobbyAnalytics);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4020))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3962))
 // CS Name: ::MultiplayerLobbyAnalytics*
 class CORDL_TYPE MultiplayerLobbyAnalytics : public ::UnityEngine::MonoBehaviour {
 public:
@@ -52,33 +52,33 @@ public:
 
   constexpr void __cordl_internal_set__analyticsModel(::GlobalNamespace::IAnalyticsModel* value);
 
-  /// @brief Method Awake, addr 0x2224c5c, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x22ae544, size 0x178, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnDestroy, addr 0x2224dd4, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x22ae6bc, size 0x1c4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleGameServerLobbyFlowCoordinatorDidSetupEvent, addr 0x2224f98, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method HandleGameServerLobbyFlowCoordinatorDidSetupEvent, addr 0x22ae880, size 0x16c, virtual false, abstract: false, final false
   inline void HandleGameServerLobbyFlowCoordinatorDidSetupEvent();
 
-  /// @brief Method HandleGameServerLobbyFlowCoordinatorDidFinish, addr 0x2225184, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method HandleGameServerLobbyFlowCoordinatorDidFinish, addr 0x22aea6c, size 0x114, virtual false, abstract: false, final false
   inline void HandleGameServerLobbyFlowCoordinatorDidFinish();
 
-  /// @brief Method HandleGameServerLobbyFlowCoordinatorStartGameOrReady, addr 0x2225364, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method HandleGameServerLobbyFlowCoordinatorStartGameOrReady, addr 0x22aec4c, size 0x114, virtual false, abstract: false, final false
   inline void HandleGameServerLobbyFlowCoordinatorStartGameOrReady();
 
-  /// @brief Method HandleGameServerLobbyFlowCoordinatorDidOpenInvitePanel, addr 0x2225478, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method HandleGameServerLobbyFlowCoordinatorDidOpenInvitePanel, addr 0x22aed60, size 0x114, virtual false, abstract: false, final false
   inline void HandleGameServerLobbyFlowCoordinatorDidOpenInvitePanel();
 
-  /// @brief Method LogClick, addr 0x2225298, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method LogClick, addr 0x22aeb80, size 0xcc, virtual false, abstract: false, final false
   inline void LogClick(::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* clickData);
 
-  /// @brief Method GetEventTypeFromLobbyType, addr 0x2225104, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetEventTypeFromLobbyType, addr 0x22ae9ec, size 0x80, virtual false, abstract: false, final false
   inline ::StringW GetEventTypeFromLobbyType(::GlobalNamespace::__GameServerLobbyFlowCoordinator__LobbyType lobbyType);
 
   static inline ::GlobalNamespace::MultiplayerLobbyAnalytics* New_ctor();
 
-  /// @brief Method .ctor, addr 0x222558c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22aee74, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyAnalytics", modifiers: "&&", def_value: None }]

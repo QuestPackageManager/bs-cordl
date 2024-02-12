@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::Zenject::IdBinder);
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10920))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10062))
 // CS Name: ::Zenject::IdBinder*
 class CORDL_TYPE IdBinder : public ::System::Object {
 public:
@@ -37,10 +37,10 @@ public:
 
   static inline ::Zenject::IdBinder* New_ctor(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method .ctor, addr 0x2eda128, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ef6270, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method WithId, addr 0x2eda150, size 0x101c, virtual false, abstract: false, final false
+  /// @brief Method WithId, addr 0x2ef6298, size 0x101c, virtual false, abstract: false, final false
   inline void WithId(::System::Object* identifier);
 
   // Ctor Parameters [CppParam { name: "", ty: "IdBinder", modifiers: "&&", def_value: None }]

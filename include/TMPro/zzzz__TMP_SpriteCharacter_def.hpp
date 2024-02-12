@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::TMPro::TMP_SpriteCharacter);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12448))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12422))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12346))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12320))
 // CS Name: ::TMPro::TMP_SpriteCharacter*
 class CORDL_TYPE TMP_SpriteCharacter : public ::TMPro::TMP_TextElement {
 public:
@@ -50,33 +50,33 @@ public:
 
   constexpr void __cordl_internal_set_m_HashCode(int32_t value);
 
-  /// @brief Method get_name, addr 0x2c44838, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x2c423a4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method set_name, addr 0x2c44664, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method set_name, addr 0x2c421d0, size 0x78, virtual false, abstract: false, final false
   inline void set_name(::StringW value);
 
-  /// @brief Method get_hashCode, addr 0x2c448ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hashCode, addr 0x2c42418, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_hashCode();
 
   static inline ::TMPro::TMP_SpriteCharacter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c44644, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c421b0, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::TMPro::TMP_SpriteCharacter* New_ctor(uint32_t unicode, ::TMPro::TMP_SpriteGlyph* glyph);
 
-  /// @brief Method .ctor, addr 0x2c448bc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c42428, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(uint32_t unicode, ::TMPro::TMP_SpriteGlyph* glyph);
 
   static inline ::TMPro::TMP_SpriteCharacter* New_ctor(uint32_t unicode, ::TMPro::TMP_SpriteAsset* spriteAsset, ::TMPro::TMP_SpriteGlyph* glyph);
 
-  /// @brief Method .ctor, addr 0x2c44910, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c4247c, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(uint32_t unicode, ::TMPro::TMP_SpriteAsset* spriteAsset, ::TMPro::TMP_SpriteGlyph* glyph);
 
   static inline ::TMPro::TMP_SpriteCharacter* New_ctor(uint32_t unicode, uint32_t glyphIndex);
 
-  /// @brief Method .ctor, addr 0x2c44970, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c424dc, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(uint32_t unicode, uint32_t glyphIndex);
 
   // Ctor Parameters [CppParam { name: "", ty: "TMP_SpriteCharacter", modifiers: "&&", def_value: None }]

@@ -111,54 +111,54 @@ public:
 
   static inline ::Org::BouncyCastle::Crmf::PKMacBuilder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x12123f0, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x123f280, size 0x174, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Crmf::PKMacBuilder* New_ctor(::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider* provider);
 
-  /// @brief Method .ctor, addr 0x12125b0, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x123f440, size 0x14c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider* provider);
 
   static inline ::Org::BouncyCastle::Crmf::PKMacBuilder* New_ctor(::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider* provider,
                                                                   ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digestAlgorithmIdentifier,
                                                                   ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* macAlgorithmIdentifier);
 
-  /// @brief Method .ctor, addr 0x12126fc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x123f58c, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider* provider, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digestAlgorithmIdentifier,
                     ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* macAlgorithmIdentifier);
 
   static inline ::Org::BouncyCastle::Crmf::PKMacBuilder* New_ctor(::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider* provider, int32_t maxIterations);
 
-  /// @brief Method .ctor, addr 0x1212748, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x123f5d8, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider* provider, int32_t maxIterations);
 
   static inline ::Org::BouncyCastle::Crmf::PKMacBuilder* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digestAlgorithmIdentifier, int32_t iterationCount,
                                                                   ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* macAlgorithmIdentifier,
                                                                   ::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider* provider);
 
-  /// @brief Method .ctor, addr 0x1212564, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x123f3f4, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digestAlgorithmIdentifier, int32_t iterationCount,
                     ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* macAlgorithmIdentifier, ::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider* provider);
 
-  /// @brief Method SetSaltLength, addr 0x1212780, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method SetSaltLength, addr 0x123f610, size 0x64, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crmf::PKMacBuilder* SetSaltLength(int32_t saltLength);
 
-  /// @brief Method SetIterationCount, addr 0x12127e4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetIterationCount, addr 0x123f674, size 0x7c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crmf::PKMacBuilder* SetIterationCount(int32_t iterationCount);
 
-  /// @brief Method SetParameters, addr 0x1212a38, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetParameters, addr 0x123f8c8, size 0x54, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crmf::PKMacBuilder* SetParameters(::Org::BouncyCastle::Asn1::Cmp::PbmParameter* parameters);
 
-  /// @brief Method SetSecureRandom, addr 0x1212a8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetSecureRandom, addr 0x123f91c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crmf::PKMacBuilder* SetSecureRandom(::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method Build, addr 0x1212a94, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x123f924, size 0x114, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::IMacFactory* Build(::ArrayW<char16_t, ::Array<char16_t>*> password);
 
-  /// @brief Method CheckIterationCountCeiling, addr 0x1212860, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method CheckIterationCountCeiling, addr 0x123f6f0, size 0x1d8, virtual false, abstract: false, final false
   inline void CheckIterationCountCeiling(int32_t iterationCount);
 
-  /// @brief Method GenCalculator, addr 0x1212ba8, size 0x418, virtual false, abstract: false, final false
+  /// @brief Method GenCalculator, addr 0x123fa38, size 0x418, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::IMacFactory* GenCalculator(::Org::BouncyCastle::Asn1::Cmp::PbmParameter* parameters, ::ArrayW<char16_t, ::Array<char16_t>*> password);
 
   // Ctor Parameters [CppParam { name: "", ty: "PKMacBuilder", modifiers: "&&", def_value: None }]

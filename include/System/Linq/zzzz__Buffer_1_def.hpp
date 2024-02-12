@@ -22,7 +22,7 @@ namespace System::Linq {
 template <typename TElement>
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14295))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14308))
 // CS Name: ::System.Linq::Buffer`1<TElement>
 struct CORDL_TYPE Buffer_1 {
 public:

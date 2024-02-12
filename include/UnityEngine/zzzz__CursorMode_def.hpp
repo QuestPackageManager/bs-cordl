@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::CursorMode);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10059))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8791))
 // CS Name: ::UnityEngine::CursorMode
 struct CORDL_TYPE CursorMode {
 public:

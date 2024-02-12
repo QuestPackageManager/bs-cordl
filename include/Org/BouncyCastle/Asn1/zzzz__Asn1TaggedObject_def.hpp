@@ -78,47 +78,47 @@ public:
 
   constexpr void __cordl_internal_set_obj(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method IsConstructed, addr 0x11bac5c, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method IsConstructed, addr 0x11e7aec, size 0x130, virtual false, abstract: false, final false
   static inline bool IsConstructed(bool isExplicit, ::Org::BouncyCastle::Asn1::Asn1Object* obj);
 
-  /// @brief Method GetInstance, addr 0x11bad8c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x11e7c1c, size 0x78, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1TaggedObject* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0x11bae04, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x11e7c94, size 0x100, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1TaggedObject* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Asn1TaggedObject* New_ctor(int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
-  /// @brief Method .ctor, addr 0x11baf04, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11e7d94, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Asn1TaggedObject* New_ctor(bool explicitly, int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
-  /// @brief Method .ctor, addr 0x11baf48, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11e7dd8, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(bool explicitly, int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
-  /// @brief Method Asn1Equals, addr 0x11bafd4, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method Asn1Equals, addr 0x11e7e64, size 0xf8, virtual true, abstract: false, final false
   inline bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
 
-  /// @brief Method Asn1GetHashCode, addr 0x11bb0cc, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method Asn1GetHashCode, addr 0x11e7f5c, size 0x3c, virtual true, abstract: false, final false
   inline int32_t Asn1GetHashCode();
 
-  /// @brief Method get_TagNo, addr 0x11bb108, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_TagNo, addr 0x11e7f98, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_TagNo();
 
-  /// @brief Method IsExplicit, addr 0x11bb110, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsExplicit, addr 0x11e7fa0, size 0x8, virtual false, abstract: false, final false
   inline bool IsExplicit();
 
-  /// @brief Method IsEmpty, addr 0x11bb118, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsEmpty, addr 0x11e7fa8, size 0x8, virtual false, abstract: false, final false
   inline bool IsEmpty();
 
-  /// @brief Method GetObject, addr 0x11aabb0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetObject, addr 0x11d7a40, size 0x18, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* GetObject();
 
-  /// @brief Method GetObjectParser, addr 0x11bb120, size 0x130, virtual true, abstract: false, final true
+  /// @brief Method GetObjectParser, addr 0x11e7fb0, size 0x130, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::IAsn1Convertible* GetObjectParser(int32_t tag, bool isExplicit);
 
-  /// @brief Method ToString, addr 0x11bb250, size 0x178, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x11e80e0, size 0x178, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "Asn1TaggedObject", modifiers: "&&", def_value: None }]

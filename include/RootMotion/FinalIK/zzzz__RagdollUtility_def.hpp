@@ -72,8 +72,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__RagdollUtility___DisableRagdollSmooth_d_
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12618))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(8996))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12516))
 // CS Name: ::RagdollUtility::Rigidbone*
 class CORDL_TYPE __RagdollUtility__Rigidbone : public ::System::Object {
 public:
@@ -179,13 +179,13 @@ public:
 
   static inline ::RootMotion::FinalIK::__RagdollUtility__Rigidbone* New_ctor(::UnityEngine::Rigidbody* r);
 
-  /// @brief Method .ctor, addr 0x128dab8, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1325b68, size 0x154, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rigidbody* r);
 
-  /// @brief Method RecordVelocity, addr 0x128e600, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method RecordVelocity, addr 0x13266b0, size 0xd4, virtual false, abstract: false, final false
   inline void RecordVelocity();
 
-  /// @brief Method WakeUp, addr 0x128e3c0, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method WakeUp, addr 0x1326470, size 0x240, virtual false, abstract: false, final false
   inline void WakeUp(float_t velocityWeight, float_t angularVelocityWeight);
 
   // Ctor Parameters [CppParam { name: "", ty: "__RagdollUtility__Rigidbone", modifiers: "&&", def_value: None }]
@@ -267,8 +267,8 @@ static_assert(offsetof(::RootMotion::FinalIK::__RagdollUtility__Rigidbone, ___la
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12619))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(8996))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12517))
 // CS Name: ::RagdollUtility::Child*
 class CORDL_TYPE __RagdollUtility__Child : public ::System::Object {
 public:
@@ -302,13 +302,13 @@ public:
 
   static inline ::RootMotion::FinalIK::__RagdollUtility__Child* New_ctor(::UnityEngine::Transform* transform);
 
-  /// @brief Method .ctor, addr 0x128dc0c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1325cbc, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Transform* transform);
 
-  /// @brief Method FixTransform, addr 0x128e718, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method FixTransform, addr 0x13267c8, size 0x110, virtual false, abstract: false, final false
   inline void FixTransform(float_t weight);
 
-  /// @brief Method StoreLocalState, addr 0x128e6d4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method StoreLocalState, addr 0x1326784, size 0x44, virtual false, abstract: false, final false
   inline void StoreLocalState();
 
   // Ctor Parameters [CppParam { name: "", ty: "__RagdollUtility__Child", modifiers: "&&", def_value: None }]
@@ -351,7 +351,7 @@ static_assert(offsetof(::RootMotion::FinalIK::__RagdollUtility__Child, ___localR
 namespace RootMotion::FinalIK {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12620))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12518))
 // CS Name: ::RagdollUtility::<DisableRagdollSmooth>d__21*
 class CORDL_TYPE __RagdollUtility___DisableRagdollSmooth_d__21 : public ::System::Object {
 public:
@@ -407,22 +407,22 @@ public:
 
   static inline ::RootMotion::FinalIK::__RagdollUtility___DisableRagdollSmooth_d__21* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor, addr 0x128dc68, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1325d18, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x128ea38, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x1326ae8, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext, addr 0x128ea3c, size 0x1e0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x1326aec, size 0x1e0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x128ec1c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x1326ccc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x128ec24, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x1326cd4, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x128ec64, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x1326d14, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__RagdollUtility___DisableRagdollSmooth_d__21", modifiers: "&&", def_value: None }]
@@ -464,8 +464,8 @@ static_assert(offsetof(::RootMotion::FinalIK::__RagdollUtility___DisableRagdollS
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14877))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12621))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(14750))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12519))
 // CS Name: ::RootMotion.FinalIK::RagdollUtility*
 class CORDL_TYPE RagdollUtility : public ::UnityEngine::MonoBehaviour {
 public:
@@ -627,60 +627,60 @@ public:
 
   constexpr void __cordl_internal_set_disabledIKComponents(::ArrayW<bool, ::Array<bool>*> value);
 
-  /// @brief Method EnableRagdoll, addr 0x128d510, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method EnableRagdoll, addr 0x13255c0, size 0x2c, virtual false, abstract: false, final false
   inline void EnableRagdoll();
 
-  /// @brief Method DisableRagdoll, addr 0x128d5a0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method DisableRagdoll, addr 0x1325650, size 0x48, virtual false, abstract: false, final false
   inline void DisableRagdoll();
 
-  /// @brief Method Start, addr 0x128d6ac, size 0x40c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x132575c, size 0x40c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method DisableRagdollSmooth, addr 0x128d644, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method DisableRagdollSmooth, addr 0x13256f4, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* DisableRagdollSmooth();
 
-  /// @brief Method Update, addr 0x128dc90, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x1325d40, size 0x228, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method FixedUpdate, addr 0x128deb8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method FixedUpdate, addr 0x1325f68, size 0x34, virtual false, abstract: false, final false
   inline void FixedUpdate();
 
-  /// @brief Method LateUpdate, addr 0x128df58, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x1326008, size 0x70, virtual false, abstract: false, final false
   inline void LateUpdate();
 
-  /// @brief Method AfterLastIK, addr 0x128e148, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method AfterLastIK, addr 0x13261f8, size 0x24, virtual false, abstract: false, final false
   inline void AfterLastIK();
 
-  /// @brief Method AfterAnimation, addr 0x128dfc8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method AfterAnimation, addr 0x1326078, size 0x2c, virtual false, abstract: false, final false
   inline void AfterAnimation();
 
-  /// @brief Method OnFinalPose, addr 0x128e114, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method OnFinalPose, addr 0x13261c4, size 0x34, virtual false, abstract: false, final false
   inline void OnFinalPose();
 
-  /// @brief Method RagdollEnabler, addr 0x128e1c8, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method RagdollEnabler, addr 0x1326278, size 0x1f8, virtual false, abstract: false, final false
   inline void RagdollEnabler();
 
-  /// @brief Method get_isRagdoll, addr 0x128d53c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_isRagdoll, addr 0x13255ec, size 0x64, virtual false, abstract: false, final false
   inline bool get_isRagdoll();
 
-  /// @brief Method RecordVelocities, addr 0x128e16c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method RecordVelocities, addr 0x132621c, size 0x5c, virtual false, abstract: false, final false
   inline void RecordVelocities();
 
-  /// @brief Method get_ikUsed, addr 0x128dff4, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method get_ikUsed, addr 0x13260a4, size 0x120, virtual false, abstract: false, final false
   inline bool get_ikUsed();
 
-  /// @brief Method StoreLocalState, addr 0x128d5e8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method StoreLocalState, addr 0x1325698, size 0x5c, virtual false, abstract: false, final false
   inline void StoreLocalState();
 
-  /// @brief Method FixTransforms, addr 0x128deec, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method FixTransforms, addr 0x1325f9c, size 0x6c, virtual false, abstract: false, final false
   inline void FixTransforms(float_t weight);
 
-  /// @brief Method OnDestroy, addr 0x128e828, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x13268d8, size 0x118, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   static inline ::RootMotion::FinalIK::RagdollUtility* New_ctor();
 
-  /// @brief Method .ctor, addr 0x128e940, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13269f0, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RagdollUtility", modifiers: "&&", def_value: None }]

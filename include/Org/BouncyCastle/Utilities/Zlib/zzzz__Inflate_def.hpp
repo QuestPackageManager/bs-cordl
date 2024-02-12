@@ -107,30 +107,30 @@ public:
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_mark();
 
-  /// @brief Method inflateReset, addr 0x116720c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method inflateReset, addr 0x119609c, size 0x54, virtual false, abstract: false, final false
   inline int32_t inflateReset(::Org::BouncyCastle::Utilities::Zlib::ZStream* z);
 
-  /// @brief Method inflateEnd, addr 0x1167260, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method inflateEnd, addr 0x11960f0, size 0x38, virtual false, abstract: false, final false
   inline int32_t inflateEnd(::Org::BouncyCastle::Utilities::Zlib::ZStream* z);
 
-  /// @brief Method inflateInit, addr 0x1167298, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method inflateInit, addr 0x1196128, size 0xd8, virtual false, abstract: false, final false
   inline int32_t inflateInit(::Org::BouncyCastle::Utilities::Zlib::ZStream* z, int32_t w);
 
-  /// @brief Method inflate, addr 0x1167370, size 0x670, virtual false, abstract: false, final false
+  /// @brief Method inflate, addr 0x1196200, size 0x670, virtual false, abstract: false, final false
   inline int32_t inflate(::Org::BouncyCastle::Utilities::Zlib::ZStream* z, int32_t f);
 
-  /// @brief Method inflateSetDictionary, addr 0x11679e0, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method inflateSetDictionary, addr 0x1196870, size 0x104, virtual false, abstract: false, final false
   inline int32_t inflateSetDictionary(::Org::BouncyCastle::Utilities::Zlib::ZStream* z, ::ArrayW<uint8_t, ::Array<uint8_t>*> dictionary, int32_t dictLength);
 
-  /// @brief Method inflateSync, addr 0x1167ae4, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method inflateSync, addr 0x1196974, size 0x1c0, virtual false, abstract: false, final false
   inline int32_t inflateSync(::Org::BouncyCastle::Utilities::Zlib::ZStream* z);
 
-  /// @brief Method inflateSyncPoint, addr 0x1167ca4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method inflateSyncPoint, addr 0x1196b34, size 0x2c, virtual false, abstract: false, final false
   inline int32_t inflateSyncPoint(::Org::BouncyCastle::Utilities::Zlib::ZStream* z);
 
   static inline ::Org::BouncyCastle::Utilities::Zlib::Inflate* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1167d64, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1196bf4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Inflate", modifiers: "&&", def_value: None }]

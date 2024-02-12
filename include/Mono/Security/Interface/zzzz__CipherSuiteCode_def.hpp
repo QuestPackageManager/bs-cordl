@@ -16,7 +16,7 @@ MARK_VAL_T(::Mono::Security::Interface::CipherSuiteCode);
 namespace Mono::Security::Interface {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13777))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13730))
 // CS Name: ::Mono.Security.Interface::CipherSuiteCode
 struct CORDL_TYPE CipherSuiteCode {
 public:

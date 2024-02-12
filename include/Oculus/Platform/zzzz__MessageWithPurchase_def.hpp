@@ -19,20 +19,20 @@ MARK_REF_PTR_T(::Oculus::Platform::MessageWithPurchase);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13262)), TypeDefinitionIndex(TypeDefinitionIndex(13475)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst:
-// 1182 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(13318)) CS Name: ::Oculus.Platform::MessageWithPurchase*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13162)), TypeDefinitionIndex(TypeDefinitionIndex(13424)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13162), inst:
+// 1163 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(13228)) CS Name: ::Oculus.Platform::MessageWithPurchase*
 class CORDL_TYPE MessageWithPurchase : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*> {
 public:
   // Declarations
   static inline ::Oculus::Platform::MessageWithPurchase* New_ctor(void* c_message);
 
-  /// @brief Method .ctor, addr 0x26ef6b8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x271904c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(void* c_message);
 
-  /// @brief Method GetPurchase, addr 0x26f3600, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetPurchase, addr 0x271d3ec, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::Purchase* GetPurchase();
 
-  /// @brief Method GetDataFromMessage, addr 0x26f363c, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x271d428, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::Purchase* GetDataFromMessage(void* c_message);
 
   // Ctor Parameters [CppParam { name: "", ty: "MessageWithPurchase", modifiers: "&&", def_value: None }]

@@ -38,8 +38,8 @@ MARK_REF_PTR_T(::GlobalNamespace::IntroTutorialRing);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 105, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15036))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5337))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(14909))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4675))
 // CS Name: ::IntroTutorialRing*
 class CORDL_TYPE IntroTutorialRing : public ::UnityEngine::MonoBehaviour {
 public:
@@ -160,42 +160,42 @@ public:
 
   constexpr void __cordl_internal_set__sabersInsideAfterOnEnable(bool value);
 
-  /// @brief Method set_alpha, addr 0x2269230, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_alpha, addr 0x23c80cc, size 0x1c, virtual false, abstract: false, final false
   inline void set_alpha(float_t value);
 
-  /// @brief Method get_fullyActivated, addr 0x2268fec, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_fullyActivated, addr 0x23c7e88, size 0x24, virtual false, abstract: false, final false
   inline bool get_fullyActivated();
 
-  /// @brief Method get_saberType, addr 0x22693dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_saberType, addr 0x23c8278, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SaberType get_saberType();
 
-  /// @brief Method set_saberType, addr 0x22693e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_saberType, addr 0x23c8280, size 0x8, virtual false, abstract: false, final false
   inline void set_saberType(::GlobalNamespace::SaberType value);
 
-  /// @brief Method Start, addr 0x22693ec, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x23c8288, size 0x8c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnEnable, addr 0x2269478, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x23c8314, size 0x50, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Update, addr 0x22694c8, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x23c8364, size 0x11c, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method SetProgressImagesfillAmount, addr 0x22695e4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method SetProgressImagesfillAmount, addr 0x23c8480, size 0x70, virtual false, abstract: false, final false
   inline void SetProgressImagesfillAmount(float_t fillAmount);
 
-  /// @brief Method OnTriggerEnter, addr 0x2269654, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method OnTriggerEnter, addr 0x23c84f0, size 0x108, virtual false, abstract: false, final false
   inline void OnTriggerEnter(::UnityEngine::Collider* other);
 
-  /// @brief Method OnTriggerExit, addr 0x226975c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method OnTriggerExit, addr 0x23c85f8, size 0x108, virtual false, abstract: false, final false
   inline void OnTriggerExit(::UnityEngine::Collider* other);
 
-  /// @brief Method OnTriggerStay, addr 0x2269864, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method OnTriggerStay, addr 0x23c8700, size 0x108, virtual false, abstract: false, final false
   inline void OnTriggerStay(::UnityEngine::Collider* other);
 
   static inline ::GlobalNamespace::IntroTutorialRing* New_ctor();
 
-  /// @brief Method .ctor, addr 0x226996c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c8808, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "IntroTutorialRing", modifiers: "&&", def_value: None }]

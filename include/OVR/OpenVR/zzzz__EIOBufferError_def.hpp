@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::EIOBufferError);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8640))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8584))
 // CS Name: ::OVR.OpenVR::EIOBufferError
 struct CORDL_TYPE EIOBufferError {
 public:

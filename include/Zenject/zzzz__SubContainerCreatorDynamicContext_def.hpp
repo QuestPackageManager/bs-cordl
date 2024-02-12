@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::Zenject::SubContainerCreatorDynamicContext);
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11295))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10437))
 // CS Name: ::Zenject::SubContainerCreatorDynamicContext*
 class CORDL_TYPE SubContainerCreatorDynamicContext : public ::System::Object {
 public:
@@ -61,13 +61,13 @@ public:
 
   static inline ::Zenject::SubContainerCreatorDynamicContext* New_ctor(::Zenject::DiContainer* container);
 
-  /// @brief Method .ctor, addr 0x2f0b8cc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f27a14, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container);
 
-  /// @brief Method get_Container, addr 0x2f0d594, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Container, addr 0x2f296dc, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* get_Container();
 
-  /// @brief Method CreateSubContainer, addr 0x2f0d59c, size 0xe4, virtual true, abstract: false, final true
+  /// @brief Method CreateSubContainer, addr 0x2f296e4, size 0xe4, virtual true, abstract: false, final true
   inline ::Zenject::DiContainer* CreateSubContainer(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::InjectContext* parentContext);
 
   /// @brief Method AddInstallers, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

@@ -16,7 +16,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_PresetType);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9699))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9491))
 // CS Name: ::HoudiniEngineUnity::HAPI_PresetType
 struct CORDL_TYPE HAPI_PresetType {
 public:

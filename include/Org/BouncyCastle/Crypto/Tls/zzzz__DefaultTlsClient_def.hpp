@@ -42,39 +42,39 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DefaultTlsClient* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf64330, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf8e1c0, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DefaultTlsClient* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory* cipherFactory);
 
-  /// @brief Method .ctor, addr 0xf64394, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf8e224, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory* cipherFactory);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DefaultTlsClient* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory* cipherFactory,
                                                                              ::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier* dhVerifier);
 
-  /// @brief Method .ctor, addr 0xf6446c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf8e2fc, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory* cipherFactory, ::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier* dhVerifier);
 
-  /// @brief Method GetCipherSuites, addr 0xf6449c, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method GetCipherSuites, addr 0xf8e32c, size 0x70, virtual true, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> GetCipherSuites();
 
-  /// @brief Method GetKeyExchange, addr 0xf6450c, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method GetKeyExchange, addr 0xf8e39c, size 0x124, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange* GetKeyExchange();
 
-  /// @brief Method CreateDHKeyExchange, addr 0xf64630, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method CreateDHKeyExchange, addr 0xf8e4c0, size 0x84, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange* CreateDHKeyExchange(int32_t keyExchange);
 
-  /// @brief Method CreateDheKeyExchange, addr 0xf646b4, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method CreateDheKeyExchange, addr 0xf8e544, size 0x84, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange* CreateDheKeyExchange(int32_t keyExchange);
 
-  /// @brief Method CreateECDHKeyExchange, addr 0xf64738, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method CreateECDHKeyExchange, addr 0xf8e5c8, size 0x90, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange* CreateECDHKeyExchange(int32_t keyExchange);
 
-  /// @brief Method CreateECDheKeyExchange, addr 0xf647c8, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method CreateECDheKeyExchange, addr 0xf8e658, size 0x90, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange* CreateECDheKeyExchange(int32_t keyExchange);
 
-  /// @brief Method CreateRsaKeyExchange, addr 0xf64858, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method CreateRsaKeyExchange, addr 0xf8e6e8, size 0x68, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange* CreateRsaKeyExchange();
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultTlsClient", modifiers: "&&", def_value: None }]

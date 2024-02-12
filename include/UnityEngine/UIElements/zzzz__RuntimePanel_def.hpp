@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::RuntimePanel);
 // SizeInfo { instance_size: 480, native_size: -1, calculated_instance_size: 480, calculated_native_size: 480, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6877))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7018))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6136))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6277))
 // CS Name: ::UnityEngine.UIElements::RuntimePanel*
 class CORDL_TYPE RuntimePanel : public ::UnityEngine::UIElements::BaseRuntimePanel {
 public:
@@ -47,18 +47,18 @@ public:
 
   static inline ::UnityEngine::UIElements::EventDispatcher* getStaticF_s_EventDispatcher();
 
-  /// @brief Method get_panelSettings, addr 0x2e165c4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_panelSettings, addr 0x2e339ac, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::UIElements::PanelSettings> get_panelSettings();
 
-  /// @brief Method Create, addr 0x2e165cc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2e339b4, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::RuntimePanel* Create(::UnityEngine::ScriptableObject* ownerObject);
 
   static inline ::UnityEngine::UIElements::RuntimePanel* New_ctor(::UnityEngine::ScriptableObject* ownerObject);
 
-  /// @brief Method .ctor, addr 0x2e1662c, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e33a14, size 0x1f8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ScriptableObject* ownerObject);
 
-  /// @brief Method Update, addr 0x2e168a8, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x2e33c90, size 0x80, virtual true, abstract: false, final false
   inline void Update();
 
   // Ctor Parameters [CppParam { name: "", ty: "RuntimePanel", modifiers: "&&", def_value: None }]

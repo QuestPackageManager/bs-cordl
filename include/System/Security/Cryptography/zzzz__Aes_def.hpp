@@ -42,7 +42,7 @@ public:
 
   static inline ::System::Security::Cryptography::Aes* New_ctor();
 
-  /// @brief Method .ctor, addr 0x245bbd0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x247cc44, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Aes", modifiers: "&&", def_value: None }]

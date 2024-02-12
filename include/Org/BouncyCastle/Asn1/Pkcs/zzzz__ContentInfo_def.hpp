@@ -57,26 +57,26 @@ public:
 
   constexpr void __cordl_internal_set_content(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method GetInstance, addr 0xf85c18, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xfb0aa8, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::ContentInfo* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::ContentInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xf86dd8, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfb1c68, size 0x14c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::ContentInfo* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* contentType, ::Org::BouncyCastle::Asn1::Asn1Encodable* content);
 
-  /// @brief Method .ctor, addr 0xf86f24, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfb1db4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* contentType, ::Org::BouncyCastle::Asn1::Asn1Encodable* content);
 
-  /// @brief Method get_ContentType, addr 0xf86f50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContentType, addr 0xfb1de0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_ContentType();
 
-  /// @brief Method get_Content, addr 0xf86f58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Content, addr 0xfb1de8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Content();
 
-  /// @brief Method ToAsn1Object, addr 0xf86f60, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xfb1df0, size 0x140, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "ContentInfo", modifiers: "&&", def_value: None }]

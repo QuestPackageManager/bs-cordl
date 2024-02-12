@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::UnityEngine::AssemblyIsEditorAssembly);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10223))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8967))
 // CS Name: ::UnityEngine::AssemblyIsEditorAssembly*
 class CORDL_TYPE AssemblyIsEditorAssembly : public ::System::Attribute {
 public:

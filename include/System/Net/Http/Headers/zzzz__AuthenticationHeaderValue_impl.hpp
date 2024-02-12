@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::AuthenticationHeaderValue::*)(::StringW, ::StringW)>(
     &::System::Net::Http::Headers::AuthenticationHeaderValue::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x28348fc;
+  constexpr static std::size_t addrs = 0x2838fd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::AuthenticationHeaderValue::*)()>(
     &::System::Net::Http::Headers::AuthenticationHeaderValue::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2834930;
+  constexpr static std::size_t addrs = 0x2839004;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::AuthenticationHeaderValue*>::get(),
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::Http::Headers::AuthenticationHeaderValue::*)()>(
     &::System::Net::Http::Headers::AuthenticationHeaderValue::get_Parameter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2834938;
+  constexpr static std::size_t addrs = 0x283900c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::AuthenticationHeaderValue*>::get(),
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::AuthenticationHeaderValue::*)(::StringW)>(
     &::System::Net::Http::Headers::AuthenticationHeaderValue::set_Parameter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2834940;
+  constexpr static std::size_t addrs = 0x2839014;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::Http::Headers::AuthenticationHeaderValue::*)()>(
     &::System::Net::Http::Headers::AuthenticationHeaderValue::get_Scheme)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2834948;
+  constexpr static std::size_t addrs = 0x283901c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::AuthenticationHeaderValue*>::get(),
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::AuthenticationHeaderValue::*)(::StringW)>(
     &::System::Net::Http::Headers::AuthenticationHeaderValue::set_Scheme)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2834950;
+  constexpr static std::size_t addrs = 0x2839024;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Net::Http::Headers::AuthenticationHeaderValue::*)()>(
     &::System::Net::Http::Headers::AuthenticationHeaderValue::System_ICloneable_Clone)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2834958;
+  constexpr static std::size_t addrs = 0x283902c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::AuthenticationHeaderValue*>::get(),
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::Http::Headers::AuthenticationHeaderValue::*)(::System::Object*)>(
     &::System::Net::Http::Headers::AuthenticationHeaderValue::Equals)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x2834960;
+  constexpr static std::size_t addrs = 0x2839034;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::Http::Headers::AuthenticationHeaderValue::*)()>(
     &::System::Net::Http::Headers::AuthenticationHeaderValue::GetHashCode)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x2834a14;
+  constexpr static std::size_t addrs = 0x28390e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<::System::Net::Http::Headers::AuthenticationHeaderValue*>)>(
     &::System::Net::Http::Headers::AuthenticationHeaderValue::TryParse)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x2834a90;
+  constexpr static std::size_t addrs = 0x2839164;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -162,7 +162,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::StringW, int32_t, ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::AuthenticationHeaderValue*>*>)>(
         &::System::Net::Http::Headers::AuthenticationHeaderValue::TryParse)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2834cbc;
+  constexpr static std::size_t addrs = 0x2839390;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -181,7 +181,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::System::Net::Http::Headers::Lexer*, ByRef<::System::Net::Http::Headers::AuthenticationHeaderValue*>, ByRef<::System::Net::Http::Headers::Token>)>(
         &::System::Net::Http::Headers::AuthenticationHeaderValue::TryParseElement)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x2834b88;
+  constexpr static std::size_t addrs = 0x283925c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -198,7 +198,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::Http::Headers::AuthenticationHeaderValue::*)()>(
     &::System::Net::Http::Headers::AuthenticationHeaderValue::ToString)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x28350c4;
+  constexpr static std::size_t addrs = 0x2839798;
 
   inline static ::MethodInfo const* methodInfo() {
 

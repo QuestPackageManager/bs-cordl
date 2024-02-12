@@ -25,8 +25,8 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6667))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6471))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5926))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5730))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::InputDeviceCommand
 #pragma pack(push, 0)
 struct CORDL_TYPE InputDeviceCommand {
@@ -62,19 +62,19 @@ public:
 
   constexpr void __cordl_internal_set_sizeInBytes(int32_t value);
 
-  /// @brief Method get_payloadSizeInBytes, addr 0x2ae79fc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_payloadSizeInBytes, addr 0x2ae9568, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_payloadSizeInBytes();
 
-  /// @brief Method get_payloadPtr, addr 0x2ae7a08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_payloadPtr, addr 0x2ae9574, size 0x8, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<void> get_payloadPtr();
 
-  /// @brief Method .ctor, addr 0x2ae74cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ae9038, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::Utilities::FourCC type, int32_t sizeInBytes);
 
-  /// @brief Method AllocateNative, addr 0x2ae7a10, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method AllocateNative, addr 0x2ae957c, size 0xb0, virtual false, abstract: false, final false
   static inline ::Unity::Collections::NativeArray_1<uint8_t> AllocateNative(::UnityEngine::InputSystem::Utilities::FourCC type, int32_t payloadSize);
 
-  /// @brief Method get_typeStatic, addr 0x2ae7ac0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x2ae962c, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
   // Ctor Parameters [CppParam { name: "type", ty: "::UnityEngine::InputSystem::Utilities::FourCC", modifiers: "", def_value: None }, CppParam { name: "sizeInBytes", ty: "int32_t", modifiers: "",

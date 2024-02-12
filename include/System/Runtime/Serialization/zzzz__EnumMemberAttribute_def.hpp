@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::EnumMemberAttribute);
 namespace System::Runtime::Serialization {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16241))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16421))
 // CS Name: ::System.Runtime.Serialization::EnumMemberAttribute*
 class CORDL_TYPE EnumMemberAttribute : public ::System::Attribute {
 public:
@@ -32,7 +32,7 @@ public:
 
   constexpr void __cordl_internal_set_value(::StringW value);
 
-  /// @brief Method get_Value, addr 0x284d61c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x2850c84, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Value();
 
   // Ctor Parameters [CppParam { name: "", ty: "EnumMemberAttribute", modifiers: "&&", def_value: None }]

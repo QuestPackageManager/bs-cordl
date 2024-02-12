@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::IAsyncStateMachine);
 namespace System::Runtime::CompilerServices {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3372))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3369))
 // CS Name: ::System.Runtime.CompilerServices::IAsyncStateMachine*
 class CORDL_TYPE IAsyncStateMachine {
 public:

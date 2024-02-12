@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_InputAssetPreset);
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9610))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9402))
 // CS Name: ::HoudiniEngineUnity::HEU_InputAssetPreset*
 class CORDL_TYPE HEU_InputAssetPreset : public ::System::Object {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_InputAssetPreset* New_ctor();
 
-  /// @brief Method .ctor, addr 0x214e860, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21e4144, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_InputAssetPreset", modifiers: "&&", def_value: None }]

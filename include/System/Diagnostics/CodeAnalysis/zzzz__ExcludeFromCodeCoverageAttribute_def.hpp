@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::System::Diagnostics::CodeAnalysis::ExcludeFromCodeCoverageAttri
 namespace System::Diagnostics::CodeAnalysis {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8962))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6972))
 // CS Name: ::System.Diagnostics.CodeAnalysis::ExcludeFromCodeCoverageAttribute*
 class CORDL_TYPE ExcludeFromCodeCoverageAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::System::Diagnostics::CodeAnalysis::ExcludeFromCodeCoverageAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x297426c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2977d10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ExcludeFromCodeCoverageAttribute", modifiers: "&&", def_value: None }]

@@ -21,7 +21,7 @@ namespace UnityEngine::Events {
 template <typename T0>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10464))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9233))
 // CS Name: ::UnityEngine.Events::UnityAction`1<T0>*
 class CORDL_TYPE UnityAction_1 : public ::System::MulticastDelegate {
 public:

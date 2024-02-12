@@ -25,17 +25,17 @@ MARK_REF_PTR_T(::GlobalNamespace::ArcVisibilityTypeSettingsDropdown);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4606)), TypeDefinitionIndex(TypeDefinitionIndex(5602)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5602), inst: 4729
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5589)) CS Name: ::ArcVisibilityTypeSettingsDropdown*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4907)), TypeDefinitionIndex(TypeDefinitionIndex(11035)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4907), inst:
+// 4711 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4894)) CS Name: ::ArcVisibilityTypeSettingsDropdown*
 class CORDL_TYPE ArcVisibilityTypeSettingsDropdown : public ::GlobalNamespace::ValueDropdownController_1<::GlobalNamespace::ArcVisibilityType> {
 public:
   // Declarations
-  /// @brief Method GetNamedValues, addr 0x22a9d60, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method GetNamedValues, addr 0x22dd194, size 0x164, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::ArcVisibilityType, ::StringW>*>* GetNamedValues();
 
   static inline ::GlobalNamespace::ArcVisibilityTypeSettingsDropdown* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22a9ec4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22dd2f8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ArcVisibilityTypeSettingsDropdown", modifiers: "&&", def_value: None }]

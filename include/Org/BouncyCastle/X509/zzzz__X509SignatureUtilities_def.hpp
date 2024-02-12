@@ -43,18 +43,18 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Asn1Null* getStaticF_derNull();
 
-  /// @brief Method SetSignatureParameters, addr 0x117ef4c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetSignatureParameters, addr 0x11adddc, size 0x7c, virtual false, abstract: false, final false
   static inline void SetSignatureParameters(::Org::BouncyCastle::Crypto::ISigner* signature, ::Org::BouncyCastle::Asn1::Asn1Encodable* parameters);
 
-  /// @brief Method GetSignatureName, addr 0x1177564, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method GetSignatureName, addr 0x11a63f4, size 0x2e4, virtual false, abstract: false, final false
   static inline ::StringW GetSignatureName(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* sigAlgId);
 
-  /// @brief Method GetDigestAlgName, addr 0x117efc8, size 0x370, virtual false, abstract: false, final false
+  /// @brief Method GetDigestAlgName, addr 0x11ade58, size 0x370, virtual false, abstract: false, final false
   static inline ::StringW GetDigestAlgName(::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestAlgOID);
 
   static inline ::Org::BouncyCastle::X509::X509SignatureUtilities* New_ctor();
 
-  /// @brief Method .ctor, addr 0x117f3b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11ae240, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "X509SignatureUtilities", modifiers: "&&", def_value: None }]

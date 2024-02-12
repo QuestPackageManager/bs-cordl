@@ -20,8 +20,8 @@ namespace Zenject {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3824)), TypeDefinitionIndex(TypeDefinitionIndex(11086)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3824), inst:
-// 1186 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11086), inst: 2802 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(11095)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3823)), TypeDefinitionIndex(TypeDefinitionIndex(10228)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3823), inst:
+// 1169 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10228), inst: 2772 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(10237)) CS Name:
 // ::Zenject::DictionaryPool`2<TKey,TValue>*
 class CORDL_TYPE DictionaryPool_2 : public ::Zenject::StaticMemoryPool_1<::System::Collections::Generic::Dictionary_2<TKey, TValue>*> {
 public:

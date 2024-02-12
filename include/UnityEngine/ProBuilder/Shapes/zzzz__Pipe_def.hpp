@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Shapes::Pipe);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 29, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Shapes {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12233))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12229))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12131))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12127))
 // CS Name: ::UnityEngine.ProBuilder.Shapes::Pipe*
 class CORDL_TYPE Pipe : public ::UnityEngine::ProBuilder::Shapes::Shape {
 public:
@@ -73,18 +73,18 @@ public:
 
   constexpr void __cordl_internal_set_m_Smooth(bool value);
 
-  /// @brief Method CopyShape, addr 0x2b8b54c, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method CopyShape, addr 0x2b8a0b8, size 0x8c, virtual true, abstract: false, final false
   inline void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* shape);
 
-  /// @brief Method UpdateBounds, addr 0x2b8b5d8, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method UpdateBounds, addr 0x2b8a144, size 0x38, virtual true, abstract: false, final false
   inline ::UnityEngine::Bounds UpdateBounds(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation, ::UnityEngine::Bounds bounds);
 
-  /// @brief Method RebuildMesh, addr 0x2b8b610, size 0xa70, virtual true, abstract: false, final false
+  /// @brief Method RebuildMesh, addr 0x2b8a17c, size 0xa70, virtual true, abstract: false, final false
   inline ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
 
   static inline ::UnityEngine::ProBuilder::Shapes::Pipe* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2b8c080, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b8abec, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Pipe", modifiers: "&&", def_value: None }]

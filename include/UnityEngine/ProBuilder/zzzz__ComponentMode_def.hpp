@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ProBuilder::ComponentMode);
 namespace UnityEngine::ProBuilder {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12154))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12052))
 // CS Name: ::UnityEngine.ProBuilder::ComponentMode
 struct CORDL_TYPE ComponentMode {
 public:

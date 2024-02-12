@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_SessionPDG);
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9788))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9580))
 // CS Name: ::HoudiniEngineUnity::HEU_SessionPDG*
 class CORDL_TYPE HEU_SessionPDG : public ::System::Object {
 public:

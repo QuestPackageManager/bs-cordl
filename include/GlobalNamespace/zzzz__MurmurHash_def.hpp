@@ -17,12 +17,12 @@ MARK_REF_PTR_T(::GlobalNamespace::MurmurHash);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15022))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14895))
 // CS Name: ::MurmurHash*
 class CORDL_TYPE MurmurHash : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method MurmurHash2, addr 0x12a3c84, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method MurmurHash2, addr 0x1339b5c, size 0x174, virtual false, abstract: false, final false
   static inline uint32_t MurmurHash2(::StringW key);
 
   // Ctor Parameters [CppParam { name: "", ty: "MurmurHash", modifiers: "&&", def_value: None }]

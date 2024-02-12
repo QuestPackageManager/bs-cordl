@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::Zenject::IAnimatorIkHandler);
 namespace Zenject {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11303))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10445))
 // CS Name: ::Zenject::IAnimatorIkHandler*
 class CORDL_TYPE IAnimatorIkHandler {
 public:

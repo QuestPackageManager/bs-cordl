@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::System::Xml::Schema::RestrictionFacets);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 100, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11617)), TypeDefinitionIndex(TypeDefinitionIndex(11618))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11619))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11515)), TypeDefinitionIndex(TypeDefinitionIndex(11516))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11517))
 // CS Name: ::System.Xml.Schema::RestrictionFacets*
 class CORDL_TYPE RestrictionFacets : public ::System::Object {
 public:

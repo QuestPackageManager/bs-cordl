@@ -87,19 +87,19 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Engines::Rfc3211WrapEngine* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* engine);
 
-  /// @brief Method .ctor, addr 0xedce90, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf08d20, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher* engine);
 
-  /// @brief Method Init, addr 0xedcf0c, size 0x1b8, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0xf08d9c, size 0x1b8, virtual true, abstract: false, final false
   inline void Init(bool forWrapping, ::Org::BouncyCastle::Crypto::ICipherParameters* param);
 
-  /// @brief Method get_AlgorithmName, addr 0xedd0c4, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0xf08f54, size 0xc8, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method Wrap, addr 0xedd18c, size 0x284, virtual true, abstract: false, final false
+  /// @brief Method Wrap, addr 0xf0901c, size 0x284, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Wrap(::ArrayW<uint8_t, ::Array<uint8_t>*> inBytes, int32_t inOff, int32_t inLen);
 
-  /// @brief Method Unwrap, addr 0xedd410, size 0x3c0, virtual true, abstract: false, final false
+  /// @brief Method Unwrap, addr 0xf092a0, size 0x3c0, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Unwrap(::ArrayW<uint8_t, ::Array<uint8_t>*> inBytes, int32_t inOff, int32_t inLen);
 
   // Ctor Parameters [CppParam { name: "", ty: "Rfc3211WrapEngine", modifiers: "&&", def_value: None }]

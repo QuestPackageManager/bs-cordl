@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::UnityEngine::UI::IVertexModifier);
 namespace UnityEngine::UI {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13144))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13042))
 // CS Name: ::UnityEngine.UI::IVertexModifier*
 class CORDL_TYPE IVertexModifier {
 public:

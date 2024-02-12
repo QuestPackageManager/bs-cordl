@@ -22,32 +22,32 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_RenderingPipelineDefines);
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9854))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9646))
 // CS Name: ::HoudiniEngineUnity::HEU_RenderingPipelineDefines*
 class CORDL_TYPE HEU_RenderingPipelineDefines : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method UpdateDefines, addr 0x21d0250, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method UpdateDefines, addr 0x2265b34, size 0xd8, virtual false, abstract: false, final false
   static inline void UpdateDefines();
 
-  /// @brief Method GetPipeline, addr 0x21d0328, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method GetPipeline, addr 0x2265c0c, size 0x130, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::HEU_PipelineType GetPipeline();
 
-  /// @brief Method AddDefine, addr 0x21d0458, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method AddDefine, addr 0x2265d3c, size 0x108, virtual false, abstract: false, final false
   static inline void AddDefine(::StringW define);
 
-  /// @brief Method RemoveDefine, addr 0x21d0560, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method RemoveDefine, addr 0x2265e44, size 0xc0, virtual false, abstract: false, final false
   static inline void RemoveDefine(::StringW define);
 
-  /// @brief Method GetDefines, addr 0x21d0620, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetDefines, addr 0x2265f04, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::StringW>* GetDefines();
 
-  /// @brief Method SetDefines, addr 0x21d0690, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetDefines, addr 0x2265f74, size 0x4, virtual false, abstract: false, final false
   static inline void SetDefines(::System::Collections::Generic::List_1<::StringW>* definesList);
 
   static inline ::HoudiniEngineUnity::HEU_RenderingPipelineDefines* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21d0694, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2265f78, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_RenderingPipelineDefines", modifiers: "&&", def_value: None }]

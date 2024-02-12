@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::Shaders);
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7416))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6675))
 // CS Name: ::UnityEngine.UIElements.UIR::Shaders*
 class CORDL_TYPE Shaders : public ::System::Object {
 public:

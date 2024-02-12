@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::DecompressionMethods);
 namespace System::Net {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9157))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7167))
 // CS Name: ::System.Net::DecompressionMethods
 struct CORDL_TYPE DecompressionMethods {
 public:

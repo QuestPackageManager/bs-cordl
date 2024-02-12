@@ -40,10 +40,10 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Tls::__TlsDeflateCompression__DeflateOutputStream* New_ctor(::System::IO::Stream* output, ::Org::BouncyCastle::Utilities::Zlib::ZStream* z, bool compress);
 
-  /// @brief Method .ctor, addr 0xfa3038, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfceec8, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* output, ::Org::BouncyCastle::Utilities::Zlib::ZStream* z, bool compress);
 
-  /// @brief Method Flush, addr 0xfa3214, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Flush, addr 0xfcf0a4, size 0x4, virtual true, abstract: false, final false
   inline void Flush();
 
   // Ctor Parameters [CppParam { name: "", ty: "__TlsDeflateCompression__DeflateOutputStream", modifiers: "&&", def_value: None }]
@@ -104,18 +104,18 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsDeflateCompression* New_ctor();
 
-  /// @brief Method .ctor, addr 0xfa2ef0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfced80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsDeflateCompression* New_ctor(int32_t level);
 
-  /// @brief Method .ctor, addr 0xfa2ef8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfced88, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(int32_t level);
 
-  /// @brief Method Compress, addr 0xfa2fa4, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Compress, addr 0xfcee34, size 0x94, virtual true, abstract: false, final false
   inline ::System::IO::Stream* Compress(::System::IO::Stream* output);
 
-  /// @brief Method Decompress, addr 0xfa3070, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Decompress, addr 0xfcef00, size 0x90, virtual true, abstract: false, final false
   inline ::System::IO::Stream* Decompress(::System::IO::Stream* output);
 
   // Ctor Parameters [CppParam { name: "", ty: "TlsDeflateCompression", modifiers: "&&", def_value: None }]

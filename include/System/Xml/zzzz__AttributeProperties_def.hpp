@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Xml::AttributeProperties);
 namespace System::Xml {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11438))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11336))
 // CS Name: ::System.Xml::AttributeProperties
 struct CORDL_TYPE AttributeProperties {
 public:

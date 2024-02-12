@@ -37,7 +37,7 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::ExtensionType* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf91450, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfbd2e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ExtensionType", modifiers: "&&", def_value: None }]

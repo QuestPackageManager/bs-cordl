@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::Zenject::NullBindingFinalizer);
 namespace Zenject {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10954))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10096))
 // CS Name: ::Zenject::NullBindingFinalizer*
 class CORDL_TYPE NullBindingFinalizer : public ::System::Object {
 public:
@@ -37,15 +37,15 @@ public:
   /// @brief Convert to "::Zenject::IBindingFinalizer"
   constexpr ::Zenject::IBindingFinalizer* i___Zenject__IBindingFinalizer() noexcept;
 
-  /// @brief Method get_BindingInheritanceMethod, addr 0x2ee1f08, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_BindingInheritanceMethod, addr 0x2efe050, size 0x8, virtual true, abstract: false, final true
   inline ::Zenject::BindingInheritanceMethods get_BindingInheritanceMethod();
 
-  /// @brief Method FinalizeBinding, addr 0x2ee1f10, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method FinalizeBinding, addr 0x2efe058, size 0x4, virtual true, abstract: false, final true
   inline void FinalizeBinding(::Zenject::DiContainer* container);
 
   static inline ::Zenject::NullBindingFinalizer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ee1f14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2efe05c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NullBindingFinalizer", modifiers: "&&", def_value: None }]

@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::System::Net::HeaderInfoTable);
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9103))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7113))
 // CS Name: ::System.Net::HeaderInfoTable*
 class CORDL_TYPE HeaderInfoTable : public ::System::Object {
 public:
@@ -61,18 +61,18 @@ public:
 
   static inline ::System::Net::HeaderParser* getStaticF_MultiParser();
 
-  /// @brief Method ParseSingleValue, addr 0x29a5f58, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ParseSingleValue, addr 0x29aa9fc, size 0x90, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> ParseSingleValue(::StringW value);
 
-  /// @brief Method ParseMultiValue, addr 0x29a5fe8, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method ParseMultiValue, addr 0x29aaa8c, size 0x1f8, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> ParseMultiValue(::StringW value);
 
-  /// @brief Method get_Item, addr 0x299ff84, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x29a4a28, size 0xdc, virtual false, abstract: false, final false
   inline ::System::Net::HeaderInfo* get_Item(::StringW name);
 
   static inline ::System::Net::HeaderInfoTable* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29a26e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29a7188, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HeaderInfoTable", modifiers: "&&", def_value: None }]

@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::VisualElementFocusChangeTarget);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6881))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6794))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6140))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6053))
 // CS Name: ::UnityEngine.UIElements::VisualElementFocusChangeTarget*
 class CORDL_TYPE VisualElementFocusChangeTarget : public ::UnityEngine::UIElements::FocusChangeDirection {
 public:
@@ -47,24 +47,24 @@ public:
 
   static inline ::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::VisualElementFocusChangeTarget*>* getStaticF_Pool();
 
-  /// @brief Method GetPooled, addr 0x2dbb45c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x2dd9844, size 0x88, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::VisualElementFocusChangeTarget* GetPooled(::UnityEngine::UIElements::Focusable* target);
 
-  /// @brief Method Dispose, addr 0x2dbb4e4, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x2dd98cc, size 0x84, virtual true, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method ApplyTo, addr 0x2dbb568, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method ApplyTo, addr 0x2dd9950, size 0x24, virtual true, abstract: false, final false
   inline void ApplyTo(::UnityEngine::UIElements::FocusController* focusController, ::UnityEngine::UIElements::Focusable* f);
 
   static inline ::UnityEngine::UIElements::VisualElementFocusChangeTarget* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2dbb58c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dd9974, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_target, addr 0x2dbb62c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_target, addr 0x2dd9a14, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Focusable* get_target();
 
-  /// @brief Method set_target, addr 0x2dbb634, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_target, addr 0x2dd9a1c, size 0x8, virtual false, abstract: false, final false
   inline void set_target(::UnityEngine::UIElements::Focusable* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "VisualElementFocusChangeTarget", modifiers: "&&", def_value: None }]

@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Pkix::PkixPolicyNode* (::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult::*)()>(
     &::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult::get_PolicyTree)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x10f3fa8;
+  constexpr static std::size_t addrs = 0x1121e38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult*>::get(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Pkix::TrustAnchor* (::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult::*)()>(
     &::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult::get_TrustAnchor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x10f3fb0;
+  constexpr static std::size_t addrs = 0x1121e40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult*>::get(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* (::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult::*)()>(
     &::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult::get_SubjectPublicKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x10f3fb8;
+  constexpr static std::size_t addrs = 0x1121e48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult*>::get(),
@@ -54,7 +54,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Pkix::TrustAnchor*, ::Org::BouncyCastle::Pkix::PkixPolicyNode*, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*)>(
     &::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x10f3fc0;
+  constexpr static std::size_t addrs = 0x1121e50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult::*)()>(
     &::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult::Clone)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x10f4074;
+  constexpr static std::size_t addrs = 0x1121f04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult*>::get(),
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult::*)()>(
     &::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult::ToString)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x10f40ec;
+  constexpr static std::size_t addrs = 0x1121f7c;
 
   inline static ::MethodInfo const* methodInfo() {
 

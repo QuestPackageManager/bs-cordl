@@ -33,21 +33,21 @@ MARK_VAL_T(::LiteNetLib::__ReliableChannel__PendingPacket);
 namespace LiteNetLib {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14184))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14197))
 // CS Name: ::ReliableChannel::PendingPacket
 struct CORDL_TYPE __ReliableChannel__PendingPacket {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x2207b80, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x229d468, size 0x68, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method Init, addr 0x2207600, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x229cee8, size 0xc, virtual false, abstract: false, final false
   inline void Init(::LiteNetLib::NetPacket* packet);
 
-  /// @brief Method TrySend, addr 0x220760c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method TrySend, addr 0x229cef4, size 0x78, virtual false, abstract: false, final false
   inline void TrySend(int64_t currentTime, ::LiteNetLib::NetPeer* peer);
 
-  /// @brief Method Clear, addr 0x2207158, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x229ca40, size 0x3c, virtual false, abstract: false, final false
   inline bool Clear(::LiteNetLib::NetPeer* peer);
 
   // Ctor Parameters [CppParam { name: "_packet", ty: "::LiteNetLib::NetPacket*", modifiers: "", def_value: None }, CppParam { name: "_timeStamp", ty: "int64_t", modifiers: "", def_value: None },
@@ -86,8 +86,8 @@ static_assert(offsetof(::LiteNetLib::__ReliableChannel__PendingPacket, _isSent) 
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 97, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14127)), TypeDefinitionIndex(TypeDefinitionIndex(14155))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14185))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14140)), TypeDefinitionIndex(TypeDefinitionIndex(14168))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14198))
 // CS Name: ::LiteNetLib::ReliableChannel*
 class CORDL_TYPE ReliableChannel : public ::LiteNetLib::BaseChannel {
 public:
@@ -214,16 +214,16 @@ public:
 
   static inline ::LiteNetLib::ReliableChannel* New_ctor(::LiteNetLib::NetPeer* peer, bool ordered, uint8_t id);
 
-  /// @brief Method .ctor, addr 0x22036dc, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2298fc4, size 0x188, virtual false, abstract: false, final false
   inline void _ctor(::LiteNetLib::NetPeer* peer, bool ordered, uint8_t id);
 
-  /// @brief Method ProcessAck, addr 0x2206e08, size 0x350, virtual false, abstract: false, final false
+  /// @brief Method ProcessAck, addr 0x229c6f0, size 0x350, virtual false, abstract: false, final false
   inline void ProcessAck(::LiteNetLib::NetPacket* packet);
 
-  /// @brief Method SendNextPackets, addr 0x2207194, size 0x46c, virtual true, abstract: false, final false
+  /// @brief Method SendNextPackets, addr 0x229ca7c, size 0x46c, virtual true, abstract: false, final false
   inline void SendNextPackets();
 
-  /// @brief Method ProcessPacket, addr 0x2207684, size 0x4fc, virtual true, abstract: false, final false
+  /// @brief Method ProcessPacket, addr 0x229cf6c, size 0x4fc, virtual true, abstract: false, final false
   inline bool ProcessPacket(::LiteNetLib::NetPacket* packet);
 
   // Ctor Parameters [CppParam { name: "", ty: "ReliableChannel", modifiers: "&&", def_value: None }]

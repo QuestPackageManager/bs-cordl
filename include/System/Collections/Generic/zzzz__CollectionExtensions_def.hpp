@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::System::Collections::Generic::CollectionExtensions);
 namespace System::Collections::Generic {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3851))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3850))
 // CS Name: ::System.Collections.Generic::CollectionExtensions*
 class CORDL_TYPE CollectionExtensions : public ::System::Object {
 public:

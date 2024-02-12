@@ -48,12 +48,12 @@ public:
   /// @brief Method GenerateCertificateSignature, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateCertificateSignature(::ArrayW<uint8_t, ::Array<uint8_t>*> hash);
 
-  /// @brief Method get_SignatureAndHashAlgorithm, addr 0xf5c9d8, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method get_SignatureAndHashAlgorithm, addr 0xf86868, size 0x50, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* get_SignatureAndHashAlgorithm();
 
   static inline ::Org::BouncyCastle::Crypto::Tls::AbstractTlsSignerCredentials* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf5ca28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf868b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AbstractTlsSignerCredentials", modifiers: "&&", def_value: None }]

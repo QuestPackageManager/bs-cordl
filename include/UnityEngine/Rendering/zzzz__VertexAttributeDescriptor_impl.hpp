@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::VertexAttribute (::UnityEngine::Rendering::VertexAttributeDescriptor::*)()>(
     &::UnityEngine::Rendering::VertexAttributeDescriptor::get_attribute)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2cebfd4;
+  constexpr static std::size_t addrs = 0x2cf3220;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VertexAttributeDescriptor>::get(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::VertexAttributeDescriptor::*)(::UnityEngine::Rendering::VertexAttribute)>(
     &::UnityEngine::Rendering::VertexAttributeDescriptor::set_attribute)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2cebfdc;
+  constexpr static std::size_t addrs = 0x2cf3228;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::VertexAttributeFormat (::UnityEngine::Rendering::VertexAttributeDescriptor::*)()>(
     &::UnityEngine::Rendering::VertexAttributeDescriptor::get_format)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2cebfe4;
+  constexpr static std::size_t addrs = 0x2cf3230;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VertexAttributeDescriptor>::get(),
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::VertexAttributeDescriptor::*)(::UnityEngine::Rendering::VertexAttributeFormat)>(
     &::UnityEngine::Rendering::VertexAttributeDescriptor::set_format)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2cebfec;
+  constexpr static std::size_t addrs = 0x2cf3238;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::VertexAttributeDescriptor::*)()>(
     &::UnityEngine::Rendering::VertexAttributeDescriptor::get_dimension)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2cebff4;
+  constexpr static std::size_t addrs = 0x2cf3240;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VertexAttributeDescriptor>::get(),
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::VertexAttributeDescriptor::*)(int32_t)>(
     &::UnityEngine::Rendering::VertexAttributeDescriptor::set_dimension)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2cebffc;
+  constexpr static std::size_t addrs = 0x2cf3248;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::VertexAttributeDescriptor::*)()>(
     &::UnityEngine::Rendering::VertexAttributeDescriptor::get_stream)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2cec004;
+  constexpr static std::size_t addrs = 0x2cf3250;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VertexAttributeDescriptor>::get(),
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::VertexAttributeDescriptor::*)(int32_t)>(
     &::UnityEngine::Rendering::VertexAttributeDescriptor::set_stream)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2cec00c;
+  constexpr static std::size_t addrs = 0x2cf3258;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::VertexAttributeDescriptor::*)(
     ::UnityEngine::Rendering::VertexAttribute, ::UnityEngine::Rendering::VertexAttributeFormat, int32_t, int32_t)>(&::UnityEngine::Rendering::VertexAttributeDescriptor::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2cec014;
+  constexpr static std::size_t addrs = 0x2cf3260;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Rendering::VertexAttributeDescriptor::*)()>(
     &::UnityEngine::Rendering::VertexAttributeDescriptor::ToString)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x2cec020;
+  constexpr static std::size_t addrs = 0x2cf326c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -161,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::VertexAttributeDescriptor::*)()>(
     &::UnityEngine::Rendering::VertexAttributeDescriptor::GetHashCode)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2cec1f4;
+  constexpr static std::size_t addrs = 0x2cf3440;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -177,7 +177,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::VertexAttributeDescriptor::*)(::System::Object*)>(
     &::UnityEngine::Rendering::VertexAttributeDescriptor::Equals)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x2cec21c;
+  constexpr static std::size_t addrs = 0x2cf3468;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -193,7 +193,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::VertexAttributeDescriptor::*)(::UnityEngine::Rendering::VertexAttributeDescriptor)>(
     &::UnityEngine::Rendering::VertexAttributeDescriptor::Equals)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2cec2c4;
+  constexpr static std::size_t addrs = 0x2cf3510;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

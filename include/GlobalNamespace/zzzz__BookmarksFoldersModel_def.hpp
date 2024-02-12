@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__BookmarksFoldersModel____c);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4138))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10596))
 // CS Name: ::BookmarksFoldersModel::<>c*
 class CORDL_TYPE __BookmarksFoldersModel____c : public ::System::Object {
 public:
@@ -55,10 +55,10 @@ public:
 
   static inline ::GlobalNamespace::__BookmarksFoldersModel____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x223c5fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x126587c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_bookmarksFolders>b__3_0, addr 0x223c604, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <get_bookmarksFolders>b__3_0, addr 0x1265884, size 0xc, virtual false, abstract: false, final false
   inline ::StringW _get_bookmarksFolders_b__3_0(::System::__Environment__SpecialFolder specialFolder);
 
   // Ctor Parameters [CppParam { name: "", ty: "__BookmarksFoldersModel____c", modifiers: "&&", def_value: None }]
@@ -85,8 +85,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BookmarksFold
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4139))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15602))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10597))
 // CS Name: ::BookmarksFoldersModel*
 class CORDL_TYPE BookmarksFoldersModel : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -114,12 +114,12 @@ public:
 
   constexpr void __cordl_internal_set__bookmarksFolders(::ArrayW<::GlobalNamespace::FileBrowserItem*, ::Array<::GlobalNamespace::FileBrowserItem*>*> value);
 
-  /// @brief Method get_bookmarksFolders, addr 0x223bffc, size 0x594, virtual false, abstract: false, final false
+  /// @brief Method get_bookmarksFolders, addr 0x126523c, size 0x594, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::FileBrowserItem*, ::Array<::GlobalNamespace::FileBrowserItem*>*> get_bookmarksFolders();
 
   static inline ::GlobalNamespace::BookmarksFoldersModel* New_ctor();
 
-  /// @brief Method .ctor, addr 0x223c590, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1265810, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BookmarksFoldersModel", modifiers: "&&", def_value: None }]

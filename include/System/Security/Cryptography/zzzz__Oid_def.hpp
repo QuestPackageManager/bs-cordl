@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::System::Security::Cryptography::Oid);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8975))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8972))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6985))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6982))
 // CS Name: ::System.Security.Cryptography::Oid*
 class CORDL_TYPE Oid : public ::System::Object {
 public:
@@ -58,39 +58,39 @@ public:
 
   static inline ::System::Security::Cryptography::Oid* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2975b40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29795e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Security::Cryptography::Oid* New_ctor(::StringW oid);
 
-  /// @brief Method .ctor, addr 0x2975b48, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29795ec, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::StringW oid);
 
   static inline ::System::Security::Cryptography::Oid* New_ctor(::StringW value, ::StringW friendlyName);
 
-  /// @brief Method .ctor, addr 0x2975bd4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2979678, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW value, ::StringW friendlyName);
 
   static inline ::System::Security::Cryptography::Oid* New_ctor(::System::Security::Cryptography::Oid* oid);
 
-  /// @brief Method .ctor, addr 0x2975c00, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29796a4, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::Oid* oid);
 
-  /// @brief Method FromOidValue, addr 0x2975c84, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method FromOidValue, addr 0x2979728, size 0x13c, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::Oid* FromOidValue(::StringW oidValue, ::System::Security::Cryptography::OidGroup group);
 
-  /// @brief Method get_Value, addr 0x2975dfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x29798a0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method set_Value, addr 0x2975e04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Value, addr 0x29798a8, size 0x8, virtual false, abstract: false, final false
   inline void set_Value(::StringW value);
 
-  /// @brief Method get_FriendlyName, addr 0x2975e0c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_FriendlyName, addr 0x29798b0, size 0x84, virtual false, abstract: false, final false
   inline ::StringW get_FriendlyName();
 
   static inline ::System::Security::Cryptography::Oid* New_ctor(::StringW value, ::StringW friendlyName, ::System::Security::Cryptography::OidGroup group);
 
-  /// @brief Method .ctor, addr 0x2975dc0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2979864, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW value, ::StringW friendlyName, ::System::Security::Cryptography::OidGroup group);
 
   // Ctor Parameters [CppParam { name: "", ty: "Oid", modifiers: "&&", def_value: None }]

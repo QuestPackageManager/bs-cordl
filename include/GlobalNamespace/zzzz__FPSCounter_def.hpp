@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::GlobalNamespace::FPSCounter);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5366))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16185))
 // CS Name: ::FPSCounter*
 class CORDL_TYPE FPSCounter : public ::UnityEngine::MonoBehaviour {
 public:
@@ -93,39 +93,39 @@ public:
 
   constexpr void __cordl_internal_set__minDeltaTime(float_t value);
 
-  /// @brief Method get_currentFPS, addr 0x226c604, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_currentFPS, addr 0x2181b68, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_currentFPS();
 
-  /// @brief Method set_currentFPS, addr 0x226c60c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_currentFPS, addr 0x2181b70, size 0x8, virtual false, abstract: false, final false
   inline void set_currentFPS(int32_t value);
 
-  /// @brief Method get_lowestFPS, addr 0x226c614, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lowestFPS, addr 0x2181b78, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_lowestFPS();
 
-  /// @brief Method set_lowestFPS, addr 0x226c61c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lowestFPS, addr 0x2181b80, size 0x8, virtual false, abstract: false, final false
   inline void set_lowestFPS(int32_t value);
 
-  /// @brief Method get_highestFPS, addr 0x226c624, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_highestFPS, addr 0x2181b88, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_highestFPS();
 
-  /// @brief Method set_highestFPS, addr 0x226c62c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_highestFPS, addr 0x2181b90, size 0x8, virtual false, abstract: false, final false
   inline void set_highestFPS(int32_t value);
 
-  /// @brief Method get_droppedFrames, addr 0x226c634, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_droppedFrames, addr 0x2181b98, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_droppedFrames();
 
-  /// @brief Method set_droppedFrames, addr 0x226c63c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_droppedFrames, addr 0x2181ba0, size 0x8, virtual false, abstract: false, final false
   inline void set_droppedFrames(int32_t value);
 
-  /// @brief Method Awake, addr 0x226c644, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2181ba8, size 0x10, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Update, addr 0x226c654, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2181bb8, size 0xac, virtual false, abstract: false, final false
   inline void Update();
 
   static inline ::GlobalNamespace::FPSCounter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x226c700, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2181c64, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FPSCounter", modifiers: "&&", def_value: None }]

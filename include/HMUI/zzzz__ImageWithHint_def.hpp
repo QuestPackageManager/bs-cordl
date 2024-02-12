@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::HMUI::ImageWithHint);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13628))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13581))
 // CS Name: ::HMUI::ImageWithHint*
 class CORDL_TYPE ImageWithHint : public ::UnityEngine::MonoBehaviour {
 public:
@@ -52,18 +52,18 @@ public:
 
   constexpr void __cordl_internal_set__hoverHint(::UnityW<::HMUI::HoverHint> value);
 
-  /// @brief Method set_sprite, addr 0x21408f8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_sprite, addr 0x21d51dc, size 0x1c, virtual false, abstract: false, final false
   inline void set_sprite(::UnityEngine::Sprite* value);
 
-  /// @brief Method get_sprite, addr 0x2140914, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_sprite, addr 0x21d51f8, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_sprite();
 
-  /// @brief Method set_hintText, addr 0x2140930, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_hintText, addr 0x21d5214, size 0x1c, virtual false, abstract: false, final false
   inline void set_hintText(::StringW value);
 
   static inline ::HMUI::ImageWithHint* New_ctor();
 
-  /// @brief Method .ctor, addr 0x214094c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21d5230, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ImageWithHint", modifiers: "&&", def_value: None }]

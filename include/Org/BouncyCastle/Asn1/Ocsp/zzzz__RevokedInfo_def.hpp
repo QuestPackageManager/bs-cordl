@@ -60,34 +60,34 @@ public:
 
   constexpr void __cordl_internal_set_revocationReason(::Org::BouncyCastle::Asn1::X509::CrlReason* value);
 
-  /// @brief Method GetInstance, addr 0xf8010c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xfaaf9c, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0xf83570, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xfae400, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo* New_ctor(::Org::BouncyCastle::Asn1::DerGeneralizedTime* revocationTime);
 
-  /// @brief Method .ctor, addr 0xf838b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfae748, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerGeneralizedTime* revocationTime);
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo* New_ctor(::Org::BouncyCastle::Asn1::DerGeneralizedTime* revocationTime, ::Org::BouncyCastle::Asn1::X509::CrlReason* revocationReason);
 
-  /// @brief Method .ctor, addr 0xf838c0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfae750, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerGeneralizedTime* revocationTime, ::Org::BouncyCastle::Asn1::X509::CrlReason* revocationReason);
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xf836f8, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfae588, size 0x1c0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_RevocationTime, addr 0xf8393c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RevocationTime, addr 0xfae7cc, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerGeneralizedTime* get_RevocationTime();
 
-  /// @brief Method get_RevocationReason, addr 0xf83944, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RevocationReason, addr 0xfae7d4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::CrlReason* get_RevocationReason();
 
-  /// @brief Method ToAsn1Object, addr 0xf8394c, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xfae7dc, size 0x114, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "RevokedInfo", modifiers: "&&", def_value: None }]

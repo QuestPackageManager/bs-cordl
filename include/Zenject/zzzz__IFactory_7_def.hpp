@@ -19,7 +19,7 @@ namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10989))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10131))
 // CS Name: ::Zenject::IFactory`7<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TValue>*
 class CORDL_TYPE IFactory_7 {
 public:

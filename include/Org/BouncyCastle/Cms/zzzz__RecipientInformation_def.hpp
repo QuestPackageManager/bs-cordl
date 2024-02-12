@@ -90,31 +90,31 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::RecipientInformation* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyEncAlg, ::Org::BouncyCastle::Cms::CmsSecureReadable* secureReadable);
 
-  /// @brief Method .ctor, addr 0x1202070, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x122ef00, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyEncAlg, ::Org::BouncyCastle::Cms::CmsSecureReadable* secureReadable);
 
-  /// @brief Method GetContentAlgorithmName, addr 0x1202108, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetContentAlgorithmName, addr 0x122ef98, size 0xbc, virtual false, abstract: false, final false
   inline ::StringW GetContentAlgorithmName();
 
-  /// @brief Method get_RecipientID, addr 0x12021c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RecipientID, addr 0x122f054, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::RecipientID* get_RecipientID();
 
-  /// @brief Method get_KeyEncryptionAlgorithmID, addr 0x12021cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KeyEncryptionAlgorithmID, addr 0x122f05c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_KeyEncryptionAlgorithmID();
 
-  /// @brief Method get_KeyEncryptionAlgOid, addr 0x12021d4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_KeyEncryptionAlgOid, addr 0x122f064, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_KeyEncryptionAlgOid();
 
-  /// @brief Method get_KeyEncryptionAlgParams, addr 0x1202200, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_KeyEncryptionAlgParams, addr 0x122f090, size 0x38, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* get_KeyEncryptionAlgParams();
 
-  /// @brief Method GetContentFromSessionKey, addr 0x1202238, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method GetContentFromSessionKey, addr 0x122f0c8, size 0x22c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::CmsTypedStream* GetContentFromSessionKey(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* sKey);
 
-  /// @brief Method GetContent, addr 0x1202464, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method GetContent, addr 0x122f2f4, size 0x104, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetContent(::Org::BouncyCastle::Crypto::ICipherParameters* key);
 
-  /// @brief Method GetMac, addr 0x1202568, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method GetMac, addr 0x122f3f8, size 0x168, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetMac();
 
   /// @brief Method GetContentStream, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

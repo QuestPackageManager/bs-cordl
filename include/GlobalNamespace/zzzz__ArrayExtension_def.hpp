@@ -19,12 +19,12 @@ MARK_REF_PTR_T(::GlobalNamespace::ArrayExtension);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15813))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15204))
 // CS Name: ::ArrayExtension*
 class CORDL_TYPE ArrayExtension : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsValidIndex, addr 0xe24bb8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method IsValidIndex, addr 0xe4678c, size 0x34, virtual false, abstract: false, final false
   static inline bool IsValidIndex(::System::Array* array, int32_t index);
 
   // Ctor Parameters [CppParam { name: "", ty: "ArrayExtension", modifiers: "&&", def_value: None }]

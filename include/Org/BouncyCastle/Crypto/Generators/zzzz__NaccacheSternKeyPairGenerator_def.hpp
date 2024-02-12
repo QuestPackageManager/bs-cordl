@@ -65,24 +65,24 @@ public:
 
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_smallPrimes();
 
-  /// @brief Method Init, addr 0xeffa58, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0xf2a8e8, size 0xa4, virtual true, abstract: false, final true
   inline void Init(::Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
 
-  /// @brief Method GenerateKeyPair, addr 0xeffafc, size 0xf74, virtual true, abstract: false, final true
+  /// @brief Method GenerateKeyPair, addr 0xf2a98c, size 0xf74, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GenerateKeyPair();
 
-  /// @brief Method generatePrime, addr 0xf01098, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method generatePrime, addr 0xf2bf28, size 0x7c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* generatePrime(int32_t bitLength, int32_t certainty, ::Org::BouncyCastle::Security::SecureRandom* rand);
 
-  /// @brief Method permuteList, addr 0xf00bf4, size 0x4a4, virtual false, abstract: false, final false
+  /// @brief Method permuteList, addr 0xf2ba84, size 0x4a4, virtual false, abstract: false, final false
   static inline ::System::Collections::IList* permuteList(::System::Collections::IList* arr, ::Org::BouncyCastle::Security::SecureRandom* rand);
 
-  /// @brief Method findFirstPrimes, addr 0xf00a70, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method findFirstPrimes, addr 0xf2b900, size 0x184, virtual false, abstract: false, final false
   static inline ::System::Collections::IList* findFirstPrimes(int32_t count);
 
   static inline ::Org::BouncyCastle::Crypto::Generators::NaccacheSternKeyPairGenerator* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf011a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf2c038, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NaccacheSternKeyPairGenerator", modifiers: "&&", def_value: None }]

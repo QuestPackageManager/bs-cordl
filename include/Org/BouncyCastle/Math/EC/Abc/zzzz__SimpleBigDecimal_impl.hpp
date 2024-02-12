@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* (*)(::Org::BouncyCastle::Math::BigInteger*, int32_t)>(
     &::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::GetInstance)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0xfc6658;
+  constexpr static std::size_t addrs = 0xff34e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)(::Org::BouncyCastle::Math::BigInteger*, int32_t)>(
     &::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0xfc66dc;
+  constexpr static std::size_t addrs = 0xff356c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)(::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*)>(&::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0xfc675c;
+  constexpr static std::size_t addrs = 0xff35ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)(
     ::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*)>(&::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::CheckScale)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0xfc6798;
+  constexpr static std::size_t addrs = 0xff3628;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* (
     ::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)(int32_t)>(&::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::AdjustScale)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0xfc6808;
+  constexpr static std::size_t addrs = 0xff3698;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* (
     ::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)(::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*)>(&::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::Add)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0xfc68e8;
+  constexpr static std::size_t addrs = 0xff3778;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* (
     ::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)(::Org::BouncyCastle::Math::BigInteger*)>(&::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::Add)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0xfc6980;
+  constexpr static std::size_t addrs = 0xff3810;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* (::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)()>(
     &::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::Negate)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0xfc6a20;
+  constexpr static std::size_t addrs = 0xff38b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*>::get(),
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* (
     ::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)(::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*)>(&::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::Subtract)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0xfc6aa0;
+  constexpr static std::size_t addrs = 0xff3930;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* (
     ::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)(::Org::BouncyCastle::Math::BigInteger*)>(&::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::Subtract)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0xfc6ac8;
+  constexpr static std::size_t addrs = 0xff3958;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* (
     ::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)(::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*)>(&::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::Multiply)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0xfc6b68;
+  constexpr static std::size_t addrs = 0xff39f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -175,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* (
     ::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)(::Org::BouncyCastle::Math::BigInteger*)>(&::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::Multiply)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0xfc6c00;
+  constexpr static std::size_t addrs = 0xff3a90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -190,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* (
     ::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)(::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*)>(&::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::Divide)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0xfc6c88;
+  constexpr static std::size_t addrs = 0xff3b18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -205,7 +205,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* (
     ::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)(::Org::BouncyCastle::Math::BigInteger*)>(&::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::Divide)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0xfc6d30;
+  constexpr static std::size_t addrs = 0xff3bc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -220,7 +220,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* (
     ::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)(int32_t)>(&::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::ShiftLeft)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0xfc6db8;
+  constexpr static std::size_t addrs = 0xff3c48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -235,7 +235,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)(
     ::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*)>(&::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::CompareTo)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0xfc6e40;
+  constexpr static std::size_t addrs = 0xff3cd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -250,7 +250,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)(::Org::BouncyCastle::Math::BigInteger*)>(
     &::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::CompareTo)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0xfc6e78;
+  constexpr static std::size_t addrs = 0xff3d08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -265,7 +265,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)()>(
     &::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::Floor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0xfc6eb4;
+  constexpr static std::size_t addrs = 0xff3d44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*>::get(),
@@ -279,7 +279,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)()>(
     &::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::Round)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0xfc6ed8;
+  constexpr static std::size_t addrs = 0xff3d68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*>::get(),
@@ -293,7 +293,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)()>(
     &::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::get_IntValue)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0xfc6f94;
+  constexpr static std::size_t addrs = 0xff3e24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*>::get(),
@@ -307,7 +307,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)()>(
     &::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::get_LongValue)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0xfc6fb0;
+  constexpr static std::size_t addrs = 0xff3e40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*>::get(),
@@ -321,7 +321,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)()>(
     &::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::get_Scale)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xfc6fcc;
+  constexpr static std::size_t addrs = 0xff3e5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*>::get(),
@@ -335,7 +335,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)()>(
     &::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::ToString)> {
   constexpr static std::size_t size = 0x2fc;
-  constexpr static std::size_t addrs = 0xfc6fd4;
+  constexpr static std::size_t addrs = 0xff3e64;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -351,7 +351,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)(::System::Object*)>(
     &::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::Equals)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0xfc72d0;
+  constexpr static std::size_t addrs = 0xff4160;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -367,7 +367,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)()>(
     &::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::GetHashCode)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0xfc7394;
+  constexpr static std::size_t addrs = 0xff4224;
 
   inline static ::MethodInfo const* methodInfo() {
 

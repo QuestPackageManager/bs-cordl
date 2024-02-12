@@ -17,7 +17,7 @@ namespace System::Collections::Generic {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3854))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3853))
 // CS Name: ::System.Collections.Generic::QueueDebugView`1<T>*
 class CORDL_TYPE QueueDebugView_1 : public ::System::Object {
 public:

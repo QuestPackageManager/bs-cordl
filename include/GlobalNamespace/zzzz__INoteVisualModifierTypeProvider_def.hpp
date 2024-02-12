@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::GlobalNamespace::INoteVisualModifierTypeProvider);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4750))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4101))
 // CS Name: ::INoteVisualModifierTypeProvider*
 class CORDL_TYPE INoteVisualModifierTypeProvider {
 public:

@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Reflection::ExceptionHandlingClauseOptions);
 namespace System::Reflection {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3467))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3463))
 // CS Name: ::System.Reflection::ExceptionHandlingClauseOptions
 struct CORDL_TYPE ExceptionHandlingClauseOptions {
 public:

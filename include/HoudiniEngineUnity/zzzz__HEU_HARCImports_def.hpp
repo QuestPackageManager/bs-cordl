@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_HARCImports);
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9758))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9550))
 // CS Name: ::HoudiniEngineUnity::HEU_HARCImports*
 class CORDL_TYPE HEU_HARCImports : public ::System::Object {
 public:
   // Declarations
   static inline ::HoudiniEngineUnity::HEU_HARCImports* New_ctor();
 
-  /// @brief Method .ctor, addr 0x219206c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2226950, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_HARCImports", modifiers: "&&", def_value: None }]

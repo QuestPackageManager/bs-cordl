@@ -28,8 +28,8 @@ MARK_VAL_T(::UnityEngine::InputSystem::XR::Haptics::GetHapticCapabilitiesCommand
 // SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::XR::Haptics {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6471))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6346))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5730))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5605))
 // CS Name: ::UnityEngine.InputSystem.XR.Haptics::GetHapticCapabilitiesCommand
 #pragma pack(push, 0)
 struct CORDL_TYPE GetHapticCapabilitiesCommand {
@@ -81,16 +81,16 @@ public:
 
   constexpr void __cordl_internal_set_maxBufferSize(uint32_t value);
 
-  /// @brief Method get_Type, addr 0x2ac98e0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x2aca44c, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();
 
-  /// @brief Method get_typeStatic, addr 0x2ac9910, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x2aca47c, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
-  /// @brief Method get_capabilities, addr 0x2ac95ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_capabilities, addr 0x2aca118, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities get_capabilities();
 
-  /// @brief Method Create, addr 0x2ac9550, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2aca0bc, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::XR::Haptics::GetHapticCapabilitiesCommand Create();
 
   // Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: None }, CppParam { name: "numChannels", ty: "uint32_t",

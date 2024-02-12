@@ -62,7 +62,7 @@ public:
   static inline ::Mono::Globalization::Unicode::Contraction* New_ctor(int32_t index, ::ArrayW<char16_t, ::Array<char16_t>*> source, ::StringW replacement,
                                                                       ::ArrayW<uint8_t, ::Array<uint8_t>*> sortkey);
 
-  /// @brief Method .ctor, addr 0x2415580, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24353e0, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(int32_t index, ::ArrayW<char16_t, ::Array<char16_t>*> source, ::StringW replacement, ::ArrayW<uint8_t, ::Array<uint8_t>*> sortkey);
 
   // Ctor Parameters [CppParam { name: "", ty: "Contraction", modifiers: "&&", def_value: None }]

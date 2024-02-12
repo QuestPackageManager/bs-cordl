@@ -113,43 +113,43 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Modes::KCtrBlockCipher* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher);
 
-  /// @brief Method .ctor, addr 0xf23704, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf4e594, size 0x228, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher);
 
-  /// @brief Method GetUnderlyingCipher, addr 0xf2392c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetUnderlyingCipher, addr 0xf4e7bc, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::IBlockCipher* GetUnderlyingCipher();
 
-  /// @brief Method Init, addr 0xf23934, size 0x1b4, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0xf4e7c4, size 0x1b4, virtual true, abstract: false, final true
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method get_AlgorithmName, addr 0xf23c1c, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method get_AlgorithmName, addr 0xf4eaac, size 0xc0, virtual true, abstract: false, final true
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method get_IsPartialBlockOkay, addr 0xf23cdc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsPartialBlockOkay, addr 0xf4eb6c, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsPartialBlockOkay();
 
-  /// @brief Method GetBlockSize, addr 0xf23ce4, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method GetBlockSize, addr 0xf4eb74, size 0xa4, virtual true, abstract: false, final true
   inline int32_t GetBlockSize();
 
-  /// @brief Method ReturnByte, addr 0xf23d88, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method ReturnByte, addr 0xf4ec18, size 0x4, virtual true, abstract: false, final true
   inline uint8_t ReturnByte(uint8_t input);
 
-  /// @brief Method ProcessBytes, addr 0xf23edc, size 0x140, virtual true, abstract: false, final true
+  /// @brief Method ProcessBytes, addr 0xf4ed6c, size 0x140, virtual true, abstract: false, final true
   inline void ProcessBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t len, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method CalculateByte, addr 0xf23d8c, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method CalculateByte, addr 0xf4ec1c, size 0x150, virtual false, abstract: false, final false
   inline uint8_t CalculateByte(uint8_t b);
 
-  /// @brief Method ProcessBlock, addr 0xf24064, size 0x100, virtual true, abstract: false, final true
+  /// @brief Method ProcessBlock, addr 0xf4eef4, size 0x100, virtual true, abstract: false, final true
   inline int32_t ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset, addr 0xf23ae8, size 0x134, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0xf4e978, size 0x134, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method incrementCounterAt, addr 0xf2401c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method incrementCounterAt, addr 0xf4eeac, size 0x44, virtual false, abstract: false, final false
   inline void incrementCounterAt(int32_t pos);
 
-  /// @brief Method checkCounter, addr 0xf24060, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method checkCounter, addr 0xf4eef0, size 0x4, virtual false, abstract: false, final false
   inline void checkCounter();
 
   // Ctor Parameters [CppParam { name: "", ty: "KCtrBlockCipher", modifiers: "&&", def_value: None }]

@@ -125,9 +125,9 @@ MARK_VAL_T(::System::Security::Cryptography::__CryptoStream___WriteAsyncInternal
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(2769)), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 98 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3402), inst: 98 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(2908)) CS Name: ::CryptoStream::<ReadAsyncInternal>d__37
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(2769)), TypeDefinitionIndex(TypeDefinitionIndex(3390)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3398)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 103 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3398), inst: 103 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(2908)) CS Name: ::CryptoStream::<ReadAsyncInternal>d__37
 struct CORDL_TYPE __CryptoStream___ReadAsyncInternal_d__37 {
 public:
   // Declarations
@@ -137,10 +137,10 @@ public:
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x245873c, size 0x3c4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x24795a0, size 0x3c4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2458b00, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2479964, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -222,8 +222,8 @@ static_assert(offsetof(::System::Security::Cryptography::__CryptoStream___ReadAs
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3391)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3391), inst: 98 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 98 })] Self:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3387)), TypeDefinitionIndex(TypeDefinitionIndex(3398)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3387), inst: 103 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3398), inst: 103 })] Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(2909)) CS Name: ::CryptoStream::<ReadAsyncCore>d__42
 struct CORDL_TYPE __CryptoStream___ReadAsyncCore_d__42 {
 public:
@@ -234,10 +234,10 @@ public:
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x2458b58, size 0x1100, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x24799bc, size 0x1100, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2459cc0, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x247ab24, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -342,8 +342,8 @@ static_assert(offsetof(::System::Security::Cryptography::__CryptoStream___ReadAs
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(2769)), TypeDefinitionIndex(TypeDefinitionIndex(3393)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3401))] Self: TypeDefinitionIndex(TypeDefinitionIndex(2910)) CS Name: ::CryptoStream::<WriteAsyncInternal>d__46
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(2769)), TypeDefinitionIndex(TypeDefinitionIndex(3389)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3397))] Self: TypeDefinitionIndex(TypeDefinitionIndex(2910)) CS Name: ::CryptoStream::<WriteAsyncInternal>d__46
 struct CORDL_TYPE __CryptoStream___WriteAsyncInternal_d__46 {
 public:
   // Declarations
@@ -353,10 +353,10 @@ public:
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x2459d18, size 0x320, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x247ab7c, size 0x320, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x245a038, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x247ae9c, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -438,7 +438,7 @@ static_assert(offsetof(::System::Security::Cryptography::__CryptoStream___WriteA
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3401))]
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3386)), TypeDefinitionIndex(TypeDefinitionIndex(3397))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2911))
 // CS Name: ::CryptoStream::<WriteAsyncCore>d__49
 struct CORDL_TYPE __CryptoStream___WriteAsyncCore_d__49 {
@@ -450,10 +450,10 @@ public:
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x245a044, size 0x11cc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x247aea8, size 0x11cc, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x245b210, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x247c074, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -579,10 +579,10 @@ public:
 
   static inline ::System::Security::Cryptography::__CryptoStream____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x245b280, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x247c0e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_AsyncActiveSemaphore>b__54_0, addr 0x245b288, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <get_AsyncActiveSemaphore>b__54_0, addr 0x247c0ec, size 0x64, virtual false, abstract: false, final false
   inline ::System::Threading::SemaphoreSlim* _get_AsyncActiveSemaphore_b__54_0();
 
   // Ctor Parameters [CppParam { name: "", ty: "__CryptoStream____c", modifiers: "&&", def_value: None }]
@@ -609,7 +609,7 @@ static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 113, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2914)), TypeDefinitionIndex(TypeDefinitionIndex(3619))]
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2914)), TypeDefinitionIndex(TypeDefinitionIndex(3617))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2913))
 // CS Name: ::System.Security.Cryptography::CryptoStream*
 class CORDL_TYPE CryptoStream : public ::System::IO::Stream {
@@ -774,112 +774,112 @@ public:
   static inline ::System::Security::Cryptography::CryptoStream* New_ctor(::System::IO::Stream* stream, ::System::Security::Cryptography::ICryptoTransform* transform,
                                                                          ::System::Security::Cryptography::CryptoStreamMode mode);
 
-  /// @brief Method .ctor, addr 0x24571bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2478020, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream, ::System::Security::Cryptography::ICryptoTransform* transform, ::System::Security::Cryptography::CryptoStreamMode mode);
 
   static inline ::System::Security::Cryptography::CryptoStream* New_ctor(::System::IO::Stream* stream, ::System::Security::Cryptography::ICryptoTransform* transform,
                                                                          ::System::Security::Cryptography::CryptoStreamMode mode, bool leaveOpen);
 
-  /// @brief Method .ctor, addr 0x24571c4, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2478028, size 0x1c8, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream, ::System::Security::Cryptography::ICryptoTransform* transform, ::System::Security::Cryptography::CryptoStreamMode mode, bool leaveOpen);
 
-  /// @brief Method get_CanRead, addr 0x24574d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanRead, addr 0x247833c, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanRead();
 
-  /// @brief Method get_CanSeek, addr 0x24574e0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanSeek, addr 0x2478344, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanSeek();
 
-  /// @brief Method get_CanWrite, addr 0x24574e8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanWrite, addr 0x247834c, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanWrite();
 
-  /// @brief Method get_Length, addr 0x24574f0, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method get_Length, addr 0x2478354, size 0x50, virtual true, abstract: false, final false
   inline int64_t get_Length();
 
-  /// @brief Method get_Position, addr 0x2457540, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method get_Position, addr 0x24783a4, size 0x50, virtual true, abstract: false, final false
   inline int64_t get_Position();
 
-  /// @brief Method set_Position, addr 0x2457590, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method set_Position, addr 0x24783f4, size 0x50, virtual true, abstract: false, final false
   inline void set_Position(int64_t value);
 
-  /// @brief Method get_HasFlushedFinalBlock, addr 0x24575e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HasFlushedFinalBlock, addr 0x2478444, size 0x8, virtual false, abstract: false, final false
   inline bool get_HasFlushedFinalBlock();
 
-  /// @brief Method FlushFinalBlock, addr 0x24575e8, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method FlushFinalBlock, addr 0x247844c, size 0x230, virtual false, abstract: false, final false
   inline void FlushFinalBlock();
 
-  /// @brief Method Flush, addr 0x2457818, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Flush, addr 0x247867c, size 0x4, virtual true, abstract: false, final false
   inline void Flush();
 
-  /// @brief Method FlushAsync, addr 0x245781c, size 0x168, virtual true, abstract: false, final false
+  /// @brief Method FlushAsync, addr 0x2478680, size 0x168, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* FlushAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Seek, addr 0x2457984, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Seek, addr 0x24787e8, size 0x50, virtual true, abstract: false, final false
   inline int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin);
 
-  /// @brief Method SetLength, addr 0x24579d4, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method SetLength, addr 0x2478838, size 0x50, virtual true, abstract: false, final false
   inline void SetLength(int64_t value);
 
-  /// @brief Method ReadAsync, addr 0x2457a24, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method ReadAsync, addr 0x2478888, size 0x48, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ReadAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method BeginRead, addr 0x2457cd8, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method BeginRead, addr 0x2478b3c, size 0xb4, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginRead(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::AsyncCallback* callback, ::System::Object* state);
 
-  /// @brief Method EndRead, addr 0x2457d8c, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method EndRead, addr 0x2478bf0, size 0x48, virtual true, abstract: false, final false
   inline int32_t EndRead(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method ReadAsyncInternal, addr 0x2457bb4, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method ReadAsyncInternal, addr 0x2478a18, size 0x124, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ReadAsyncInternal(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count,
                                                                         ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadByte, addr 0x2457dd4, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method ReadByte, addr 0x2478c38, size 0x7c, virtual true, abstract: false, final false
   inline int32_t ReadByte();
 
-  /// @brief Method WriteByte, addr 0x2457e50, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method WriteByte, addr 0x2478cb4, size 0x54, virtual true, abstract: false, final false
   inline void WriteByte(uint8_t value);
 
-  /// @brief Method Read, addr 0x2457ea4, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x2478d08, size 0xc4, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method CheckReadArguments, addr 0x2457a6c, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method CheckReadArguments, addr 0x24788d0, size 0x148, virtual false, abstract: false, final false
   inline void CheckReadArguments(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method ReadAsyncCore, addr 0x2457f68, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method ReadAsyncCore, addr 0x2478dcc, size 0x144, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ReadAsyncCore(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count,
                                                                     ::System::Threading::CancellationToken cancellationToken, bool useAsync);
 
-  /// @brief Method WriteAsync, addr 0x24580ac, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method WriteAsync, addr 0x2478f10, size 0x48, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method BeginWrite, addr 0x2458338, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method BeginWrite, addr 0x247919c, size 0xb4, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginWrite(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::AsyncCallback* callback, ::System::Object* state);
 
-  /// @brief Method EndWrite, addr 0x24583ec, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndWrite, addr 0x2479250, size 0xc, virtual true, abstract: false, final false
   inline void EndWrite(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method WriteAsyncInternal, addr 0x245823c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method WriteAsyncInternal, addr 0x24790a0, size 0xfc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteAsyncInternal(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Write, addr 0x24583f8, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x247925c, size 0x70, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method CheckWriteArguments, addr 0x24580f4, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method CheckWriteArguments, addr 0x2478f58, size 0x148, virtual false, abstract: false, final false
   inline void CheckWriteArguments(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method WriteAsyncCore, addr 0x2458468, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method WriteAsyncCore, addr 0x24792cc, size 0x11c, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteAsyncCore(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::Threading::CancellationToken cancellationToken,
                                                           bool useAsync);
 
-  /// @brief Method Clear, addr 0x2458584, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x24793e8, size 0x10, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Dispose, addr 0x2458594, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x24793f8, size 0xb0, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method InitializeBuffer, addr 0x245738c, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method InitializeBuffer, addr 0x24781f0, size 0x14c, virtual false, abstract: false, final false
   inline void InitializeBuffer();
 
-  /// @brief Method get_AsyncActiveSemaphore, addr 0x2458644, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method get_AsyncActiveSemaphore, addr 0x24794a8, size 0xf8, virtual false, abstract: false, final false
   inline ::System::Threading::SemaphoreSlim* get_AsyncActiveSemaphore();
 
   // Ctor Parameters [CppParam { name: "", ty: "CryptoStream", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::Mono::Security::Protocol::Ntlm::NtlmAuthLevel);
 namespace Mono::Security::Protocol::Ntlm {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13766))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13719))
 // CS Name: ::Mono.Security.Protocol.Ntlm::NtlmAuthLevel
 struct CORDL_TYPE NtlmAuthLevel {
 public:

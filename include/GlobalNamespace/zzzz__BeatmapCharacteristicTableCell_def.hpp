@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapCharacteristicTableCell);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(13664))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5416))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8995)), TypeDefinitionIndex(TypeDefinitionIndex(13617))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4719))
 // CS Name: ::BeatmapCharacteristicTableCell*
 class CORDL_TYPE BeatmapCharacteristicTableCell : public ::HMUI::TableCell {
 public:
@@ -87,21 +87,21 @@ public:
 
   constexpr void __cordl_internal_set__bgHighlightColor(::UnityEngine::Color value);
 
-  /// @brief Method SetData, addr 0x22787c8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x23d43c4, size 0x60, virtual false, abstract: false, final false
   inline void SetData(::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
 
-  /// @brief Method SelectionDidChange, addr 0x2278828, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SelectionDidChange, addr 0x23d4424, size 0x4, virtual true, abstract: false, final false
   inline void SelectionDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
 
-  /// @brief Method HighlightDidChange, addr 0x22788a8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method HighlightDidChange, addr 0x23d44a4, size 0x4, virtual true, abstract: false, final false
   inline void HighlightDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
 
-  /// @brief Method RefreshVisuals, addr 0x227882c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method RefreshVisuals, addr 0x23d4428, size 0x7c, virtual false, abstract: false, final false
   inline void RefreshVisuals();
 
   static inline ::GlobalNamespace::BeatmapCharacteristicTableCell* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22788ac, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d44a8, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicTableCell", modifiers: "&&", def_value: None }]

@@ -50,7 +50,7 @@ MARK_VAL_T(::GlobalNamespace::__OVRBoundary__BoundaryTestResult);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7527))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7607))
 // CS Name: ::OVRBoundary::Node
 struct CORDL_TYPE __OVRBoundary__Node {
 public:
@@ -104,7 +104,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRBoundary__Node, value__) == 0x0, 
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7528))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7608))
 // CS Name: ::OVRBoundary::BoundaryType
 struct CORDL_TYPE __OVRBoundary__BoundaryType {
 public:
@@ -153,8 +153,8 @@ static_assert(offsetof(::GlobalNamespace::__OVRBoundary__BoundaryType, value__) 
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7529))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8993))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7609))
 // CS Name: ::OVRBoundary::BoundaryTestResult
 struct CORDL_TYPE __OVRBoundary__BoundaryTestResult {
 public:
@@ -201,7 +201,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRBoundary__BoundaryTestResult, Clo
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7530))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7610))
 // CS Name: ::OVRBoundary*
 class CORDL_TYPE OVRBoundary : public ::System::Object {
 public:
@@ -242,30 +242,30 @@ public:
 
   static inline ::ArrayW<float_t, ::Array<float_t>*> getStaticF_cachedGeometryManagedBuffer();
 
-  /// @brief Method GetConfigured, addr 0x270d5bc, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetConfigured, addr 0x273fa24, size 0x98, virtual false, abstract: false, final false
   inline bool GetConfigured();
 
-  /// @brief Method TestNode, addr 0x2715c3c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method TestNode, addr 0x274382c, size 0xc4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRBoundary__BoundaryTestResult TestNode(::GlobalNamespace::__OVRBoundary__Node node, ::GlobalNamespace::__OVRBoundary__BoundaryType boundaryType);
 
-  /// @brief Method TestPoint, addr 0x2715d00, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method TestPoint, addr 0x27438f8, size 0xe8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRBoundary__BoundaryTestResult TestPoint(::UnityEngine::Vector3 point, ::GlobalNamespace::__OVRBoundary__BoundaryType boundaryType);
 
-  /// @brief Method GetGeometry, addr 0x270d654, size 0x43c, virtual false, abstract: false, final false
+  /// @brief Method GetGeometry, addr 0x273fabc, size 0x43c, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> GetGeometry(::GlobalNamespace::__OVRBoundary__BoundaryType boundaryType);
 
-  /// @brief Method GetDimensions, addr 0x2715e88, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetDimensions, addr 0x2743a88, size 0xd0, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetDimensions(::GlobalNamespace::__OVRBoundary__BoundaryType boundaryType);
 
-  /// @brief Method GetVisible, addr 0x2715f5c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetVisible, addr 0x2743b5c, size 0x98, virtual false, abstract: false, final false
   inline bool GetVisible();
 
-  /// @brief Method SetVisible, addr 0x2715ff4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method SetVisible, addr 0x2743bf4, size 0x9c, virtual false, abstract: false, final false
   inline void SetVisible(bool value);
 
   static inline ::GlobalNamespace::OVRBoundary* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2716090, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2743c90, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRBoundary", modifiers: "&&", def_value: None }]

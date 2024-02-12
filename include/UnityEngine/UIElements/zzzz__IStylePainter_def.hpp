@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IStylePainter);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6769))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6028))
 // CS Name: ::UnityEngine.UIElements::IStylePainter*
 class CORDL_TYPE IStylePainter {
 public:

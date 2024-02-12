@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IPoolableSerializable);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15011))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14884))
 // CS Name: ::IPoolableSerializable*
 class CORDL_TYPE IPoolableSerializable {
 public:

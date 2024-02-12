@@ -20,20 +20,20 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::MarkerTrack);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13862))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13890))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13815))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13843))
 // CS Name: ::UnityEngine.Timeline::MarkerTrack*
 class CORDL_TYPE MarkerTrack : public ::UnityEngine::Timeline::TrackAsset {
 public:
   // Declarations
   __declspec(property(get = get_outputs))::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>* outputs;
 
-  /// @brief Method get_outputs, addr 0x2c68b44, size 0x1e4, virtual true, abstract: false, final false
+  /// @brief Method get_outputs, addr 0x2c666b0, size 0x1e4, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>* get_outputs();
 
   static inline ::UnityEngine::Timeline::MarkerTrack* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c68d28, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c66894, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MarkerTrack", modifiers: "&&", def_value: None }]

@@ -31,8 +31,8 @@ MARK_VAL_T(::UnityEngine::Plane);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10163))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8993))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8907))
 // CS Name: ::UnityEngine::Plane
 struct CORDL_TYPE Plane {
 public:
@@ -47,37 +47,37 @@ public:
   /// @brief Convert to "::System::IFormattable"
   constexpr ::System::IFormattable* i___System__IFormattable();
 
-  /// @brief Method get_normal, addr 0x2cc96ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_normal, addr 0x2cd09e0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_normal();
 
-  /// @brief Method get_distance, addr 0x2cc96b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_distance, addr 0x2cd09ec, size 0x8, virtual false, abstract: false, final false
   inline float_t get_distance();
 
-  /// @brief Method .ctor, addr 0x2cc96c0, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cd09f4, size 0x110, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 inNormal, ::UnityEngine::Vector3 inPoint);
 
-  /// @brief Method .ctor, addr 0x2cc97d0, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cd0b04, size 0x178, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b, ::UnityEngine::Vector3 c);
 
-  /// @brief Method SetNormalAndPosition, addr 0x2cc9948, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method SetNormalAndPosition, addr 0x2cd0c7c, size 0x110, virtual false, abstract: false, final false
   inline void SetNormalAndPosition(::UnityEngine::Vector3 inNormal, ::UnityEngine::Vector3 inPoint);
 
-  /// @brief Method ClosestPointOnPlane, addr 0x2cc9a58, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ClosestPointOnPlane, addr 0x2cd0d8c, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 ClosestPointOnPlane(::UnityEngine::Vector3 point);
 
-  /// @brief Method GetDistanceToPoint, addr 0x2cc9a94, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetDistanceToPoint, addr 0x2cd0dc8, size 0x24, virtual false, abstract: false, final false
   inline float_t GetDistanceToPoint(::UnityEngine::Vector3 point);
 
-  /// @brief Method SameSide, addr 0x2cc9ab8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method SameSide, addr 0x2cd0dec, size 0x70, virtual false, abstract: false, final false
   inline bool SameSide(::UnityEngine::Vector3 inPt0, ::UnityEngine::Vector3 inPt1);
 
-  /// @brief Method Raycast, addr 0x2cc9b28, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Raycast, addr 0x2cd0e5c, size 0x100, virtual false, abstract: false, final false
   inline bool Raycast(::UnityEngine::Ray ray, ByRef<float_t> enter);
 
-  /// @brief Method ToString, addr 0x2cc9c40, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2cd0f74, size 0xc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x2cc9c4c, size 0x188, virtual true, abstract: false, final true
+  /// @brief Method ToString, addr 0x2cd0f80, size 0x188, virtual true, abstract: false, final true
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
   // Ctor Parameters [CppParam { name: "m_Normal", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_Distance", ty: "float_t", modifiers: "", def_value: None }]

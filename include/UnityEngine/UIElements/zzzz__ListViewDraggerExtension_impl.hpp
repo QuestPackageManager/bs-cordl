@@ -10,7 +10,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::UIElements::ReusableCollectionItem* (*)(::UnityEngine::UIElements::BaseVerticalCollectionView*, int32_t)>(
         &::UnityEngine::UIElements::ListViewDraggerExtension::GetRecycledItemFromIndex)> {
   constexpr static std::size_t size = 0x348;
-  constexpr static std::size_t addrs = 0x2e09584;
+  constexpr static std::size_t addrs = 0x2e2696c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

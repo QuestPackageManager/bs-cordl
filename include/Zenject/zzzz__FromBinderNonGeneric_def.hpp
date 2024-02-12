@@ -68,7 +68,7 @@ namespace Zenject {
 template <typename TConcrete, typename TFactory>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10915))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10057))
 // CS Name: ::FromBinderNonGeneric::<>c__1`2<TConcrete,TFactory>*
 class CORDL_TYPE __FromBinderNonGeneric____c__1_2 : public ::System::Object {
 public:
@@ -123,8 +123,8 @@ public:
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10909))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10916))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10051))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10058))
 // CS Name: ::Zenject::FromBinderNonGeneric*
 class CORDL_TYPE FromBinderNonGeneric : public ::Zenject::FromBinder {
 public:
@@ -133,7 +133,7 @@ public:
 
   static inline ::Zenject::FromBinderNonGeneric* New_ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::BindStatement* bindStatement);
 
-  /// @brief Method .ctor, addr 0x2ec6c9c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ee2de4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::BindStatement* bindStatement);
 
   /// @brief Method FromFactory, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -172,17 +172,17 @@ public:
   template <typename TObj, typename TContract>
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromResolveAllGetter(::System::Object* identifier, ::System::Func_2<TObj, TContract>* method, ::Zenject::InjectSources source);
 
-  /// @brief Method FromInstance, addr 0x2eda054, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method FromInstance, addr 0x2ef619c, size 0x4, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromInstance(::System::Object* instance);
 
-  /// @brief Method FromComponentsInChildren, addr 0x2eda058, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method FromComponentsInChildren, addr 0x2ef61a0, size 0x14, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentsInChildren(::System::Func_2<::UnityW<::UnityEngine::Component>, bool>* predicate, bool includeInactive);
 
-  /// @brief Method FromComponentsInChildren, addr 0x2eda06c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method FromComponentsInChildren, addr 0x2ef61b4, size 0xc, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentsInChildren(bool excludeSelf, ::System::Func_2<::UnityW<::UnityEngine::Component>, bool>* predicate,
                                                                                            bool includeInactive);
 
-  /// @brief Method FromComponentsInHierarchy, addr 0x2eda078, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method FromComponentsInHierarchy, addr 0x2ef61c0, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentsInHierarchy(::System::Func_2<::UnityW<::UnityEngine::Component>, bool>* predicate, bool includeInactive);
 
   // Ctor Parameters [CppParam { name: "", ty: "FromBinderNonGeneric", modifiers: "&&", def_value: None }]

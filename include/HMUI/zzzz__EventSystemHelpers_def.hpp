@@ -15,12 +15,12 @@ MARK_REF_PTR_T(::HMUI::EventSystemHelpers);
 namespace HMUI {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13530))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13483))
 // CS Name: ::HMUI::EventSystemHelpers*
 class CORDL_TYPE EventSystemHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsInputFieldSelected, addr 0x211c5ac, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method IsInputFieldSelected, addr 0x21b0e88, size 0xf8, virtual false, abstract: false, final false
   static inline bool IsInputFieldSelected();
 
   // Ctor Parameters [CppParam { name: "", ty: "EventSystemHelpers", modifiers: "&&", def_value: None }]

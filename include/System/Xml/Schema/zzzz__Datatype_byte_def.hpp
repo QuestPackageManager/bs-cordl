@@ -38,8 +38,8 @@ MARK_REF_PTR_T(::System::Xml::Schema::Datatype_byte);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11669))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11670))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11567))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11568))
 // CS Name: ::System.Xml.Schema::Datatype_byte*
 class CORDL_TYPE Datatype_byte : public ::System::Xml::Schema::Datatype_short {
 public:
@@ -73,27 +73,27 @@ public:
 
   static inline ::System::Xml::Schema::FacetsChecker* getStaticF_numeric10FacetsChecker();
 
-  /// @brief Method get_FacetsChecker, addr 0x28bced8, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_FacetsChecker, addr 0x28bf540, size 0x58, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::FacetsChecker* get_FacetsChecker();
 
-  /// @brief Method get_TypeCode, addr 0x28bcf30, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x28bf598, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
-  /// @brief Method Compare, addr 0x28bcf38, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Compare, addr 0x28bf5a0, size 0x94, virtual true, abstract: false, final false
   inline int32_t Compare(::System::Object* value1, ::System::Object* value2);
 
-  /// @brief Method get_ValueType, addr 0x28bcfcc, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_ValueType, addr 0x28bf634, size 0x58, virtual true, abstract: false, final false
   inline ::System::Type* get_ValueType();
 
-  /// @brief Method get_ListValueType, addr 0x28bd024, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_ListValueType, addr 0x28bf68c, size 0x58, virtual true, abstract: false, final false
   inline ::System::Type* get_ListValueType();
 
-  /// @brief Method TryParseValue, addr 0x28bd07c, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method TryParseValue, addr 0x28bf6e4, size 0x140, virtual true, abstract: false, final false
   inline ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ByRef<::System::Object*> typedValue);
 
   static inline ::System::Xml::Schema::Datatype_byte* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28bd1bc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28bf824, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Datatype_byte", modifiers: "&&", def_value: None }]

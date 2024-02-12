@@ -19,7 +19,7 @@ MARK_VAL_T(::MidiParser::MidiEvent);
 namespace MidiParser {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16230))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16396))
 // CS Name: ::MidiParser::MidiEvent
 struct CORDL_TYPE MidiEvent {
 public:
@@ -34,19 +34,19 @@ public:
 
   __declspec(property(get = get_Value)) int32_t Value;
 
-  /// @brief Method get_MetaEventType, addr 0x23e6720, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MetaEventType, addr 0x2406594, size 0x8, virtual false, abstract: false, final false
   inline ::MidiParser::MetaEventType get_MetaEventType();
 
-  /// @brief Method get_Channel, addr 0x23e6728, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Channel, addr 0x240659c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Channel();
 
-  /// @brief Method get_Note, addr 0x23e6730, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Note, addr 0x24065a4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Note();
 
-  /// @brief Method get_Velocity, addr 0x23e6738, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Velocity, addr 0x24065ac, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Velocity();
 
-  /// @brief Method get_Value, addr 0x23e6740, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x24065b4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Value();
 
   // Ctor Parameters [CppParam { name: "AbsoluteTicksTime", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Type", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name:

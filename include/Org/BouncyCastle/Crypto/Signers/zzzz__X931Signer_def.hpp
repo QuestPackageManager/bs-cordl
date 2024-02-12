@@ -102,39 +102,39 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Signers::X931Signer* New_ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* digest, bool isImplicit);
 
-  /// @brief Method .ctor, addr 0xf59684, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf83514, size 0x110, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* digest, bool isImplicit);
 
-  /// @brief Method get_AlgorithmName, addr 0xf59794, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0xf83624, size 0x160, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
   static inline ::Org::BouncyCastle::Crypto::Signers::X931Signer* New_ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method .ctor, addr 0xf598f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf83784, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method Init, addr 0xf598fc, size 0x1a0, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0xf8378c, size 0x1a0, virtual true, abstract: false, final false
   inline void Init(bool forSigning, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method ClearBlock, addr 0xf59a9c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ClearBlock, addr 0xf8392c, size 0x24, virtual false, abstract: false, final false
   inline void ClearBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> block);
 
-  /// @brief Method Update, addr 0xf59ac0, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0xf83950, size 0xac, virtual true, abstract: false, final false
   inline void Update(uint8_t b);
 
-  /// @brief Method BlockUpdate, addr 0xf59b6c, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method BlockUpdate, addr 0xf839fc, size 0xc4, virtual true, abstract: false, final false
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t off, int32_t len);
 
-  /// @brief Method Reset, addr 0xf59c30, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0xf83ac0, size 0xa4, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method GenerateSignature, addr 0xf59cd4, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method GenerateSignature, addr 0xf83b64, size 0x160, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateSignature();
 
-  /// @brief Method CreateSignatureBlock, addr 0xf59e34, size 0x280, virtual false, abstract: false, final false
+  /// @brief Method CreateSignatureBlock, addr 0xf83cc4, size 0x280, virtual false, abstract: false, final false
   inline void CreateSignatureBlock();
 
-  /// @brief Method VerifySignature, addr 0xf5a0b4, size 0x24c, virtual true, abstract: false, final false
+  /// @brief Method VerifySignature, addr 0xf83f44, size 0x24c, virtual true, abstract: false, final false
   inline bool VerifySignature(::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
 
   // Ctor Parameters [CppParam { name: "", ty: "X931Signer", modifiers: "&&", def_value: None }]

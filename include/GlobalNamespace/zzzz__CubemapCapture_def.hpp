@@ -44,7 +44,7 @@ MARK_REF_PTR_T(::GlobalNamespace::CubemapCapture);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5829))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5124))
 // CS Name: ::CubemapCapture::ImageType
 struct CORDL_TYPE __CubemapCapture__ImageType {
 public:
@@ -101,8 +101,8 @@ static_assert(offsetof(::GlobalNamespace::__CubemapCapture__ImageType, value__) 
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5829)), TypeDefinitionIndex(TypeDefinitionIndex(6242)), TypeDefinitionIndex(TypeDefinitionIndex(10072)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10225))] Self: TypeDefinitionIndex(TypeDefinitionIndex(5830)) CS Name: ::CubemapCapture*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5124)), TypeDefinitionIndex(TypeDefinitionIndex(5501)), TypeDefinitionIndex(TypeDefinitionIndex(8804)),
+// TypeDefinitionIndex(TypeDefinitionIndex(8969))] Self: TypeDefinitionIndex(TypeDefinitionIndex(5125)) CS Name: ::CubemapCapture*
 class CORDL_TYPE CubemapCapture : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -189,24 +189,24 @@ public:
 
   constexpr void __cordl_internal_set__faceAngles(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
-  /// @brief Method Update, addr 0x22ec768, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x231abf8, size 0x80, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method GenerateAndSaveCubemapTexture, addr 0x22ec7e8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GenerateAndSaveCubemapTexture, addr 0x231ac78, size 0xbc, virtual false, abstract: false, final false
   inline void GenerateAndSaveCubemapTexture();
 
-  /// @brief Method RenderCubemapTexture, addr 0x22ec8a4, size 0x4d4, virtual false, abstract: false, final false
+  /// @brief Method RenderCubemapTexture, addr 0x231ad34, size 0x4d4, virtual false, abstract: false, final false
   inline void RenderCubemapTexture(::UnityEngine::Cubemap* cubemap);
 
-  /// @brief Method SaveCubemapTexture, addr 0x22ecd78, size 0x7d0, virtual false, abstract: false, final false
+  /// @brief Method SaveCubemapTexture, addr 0x231b208, size 0x7d0, virtual false, abstract: false, final false
   inline void SaveCubemapTexture(::UnityEngine::Cubemap* cubemap, ::StringW path);
 
-  /// @brief Method SerializeTextureToByteArray, addr 0x22ed548, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method SerializeTextureToByteArray, addr 0x231b9d8, size 0xf4, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> SerializeTextureToByteArray(::UnityEngine::Texture2D* texture);
 
   static inline ::GlobalNamespace::CubemapCapture* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22ed63c, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x231bacc, size 0x150, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CubemapCapture", modifiers: "&&", def_value: None }]

@@ -24,8 +24,8 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::LinearAccelerationState);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6512))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8993))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5771))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::LinearAccelerationState
 struct CORDL_TYPE LinearAccelerationState {
 public:
@@ -38,10 +38,10 @@ public:
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
   constexpr ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo* i___UnityEngine__InputSystem__LowLevel__IInputStateTypeInfo();
 
-  /// @brief Method get_kFormat, addr 0x2ae8cfc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_kFormat, addr 0x2aea868, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_kFormat();
 
-  /// @brief Method get_format, addr 0x2ae8d2c, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_format, addr 0x2aea898, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
   // Ctor Parameters [CppParam { name: "acceleration", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }]

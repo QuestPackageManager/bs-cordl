@@ -21,12 +21,12 @@ MARK_VAL_T(::Zenject::TypeValuePair);
 namespace Zenject {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11114))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10256))
 // CS Name: ::Zenject::TypeValuePair
 struct CORDL_TYPE TypeValuePair {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x2eeb834, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f0797c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::System::Object* value);
 
   // Ctor Parameters [CppParam { name: "Type", ty: "::System::Type*", modifiers: "", def_value: None }, CppParam { name: "Value", ty: "::System::Object*", modifiers: "", def_value: None }]

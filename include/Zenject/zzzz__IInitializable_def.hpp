@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::Zenject::IInitializable);
 namespace Zenject {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15705))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15855))
 // CS Name: ::Zenject::IInitializable*
 class CORDL_TYPE IInitializable {
 public:

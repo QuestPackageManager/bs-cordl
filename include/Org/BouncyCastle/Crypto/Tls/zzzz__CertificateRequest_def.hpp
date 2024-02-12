@@ -67,22 +67,22 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Tls::CertificateRequest* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> certificateTypes, ::System::Collections::IList* supportedSignatureAlgorithms,
                                                                                ::System::Collections::IList* certificateAuthorities);
 
-  /// @brief Method .ctor, addr 0xf5ef98, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf88e28, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> certificateTypes, ::System::Collections::IList* supportedSignatureAlgorithms, ::System::Collections::IList* certificateAuthorities);
 
-  /// @brief Method get_CertificateTypes, addr 0xf5efd4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CertificateTypes, addr 0xf88e64, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_CertificateTypes();
 
-  /// @brief Method get_SupportedSignatureAlgorithms, addr 0xf5efdc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SupportedSignatureAlgorithms, addr 0xf88e6c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::IList* get_SupportedSignatureAlgorithms();
 
-  /// @brief Method get_CertificateAuthorities, addr 0xf5efe4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CertificateAuthorities, addr 0xf88e74, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::IList* get_CertificateAuthorities();
 
-  /// @brief Method Encode, addr 0xf5efec, size 0x920, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0xf88e7c, size 0x920, virtual true, abstract: false, final false
   inline void Encode(::System::IO::Stream* output);
 
-  /// @brief Method Parse, addr 0xf5f90c, size 0x308, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0xf8979c, size 0x308, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Tls::CertificateRequest* Parse(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::System::IO::Stream* input);
 
   // Ctor Parameters [CppParam { name: "", ty: "CertificateRequest", modifiers: "&&", def_value: None }]

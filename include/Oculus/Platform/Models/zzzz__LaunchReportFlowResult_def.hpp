@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::LaunchReportFlowResult);
 namespace Oculus::Platform::Models {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13445))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13384))
 // CS Name: ::Oculus.Platform.Models::LaunchReportFlowResult*
 class CORDL_TYPE LaunchReportFlowResult : public ::System::Object {
 public:
@@ -41,7 +41,7 @@ public:
 
   static inline ::Oculus::Platform::Models::LaunchReportFlowResult* New_ctor(void* o);
 
-  /// @brief Method .ctor, addr 0x2706714, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2739600, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "LaunchReportFlowResult", modifiers: "&&", def_value: None }]

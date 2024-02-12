@@ -41,12 +41,12 @@ public:
   /// @brief Method NotifyServerCertificate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void NotifyServerCertificate(::Org::BouncyCastle::Crypto::Tls::Certificate* serverCertificate);
 
-  /// @brief Method GetClientCredentials, addr 0xf95a98, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetClientCredentials, addr 0xfc1928, size 0x8, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::Tls::TlsCredentials* GetClientCredentials(::Org::BouncyCastle::Crypto::Tls::CertificateRequest* certificateRequest);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::ServerOnlyTlsAuthentication* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf95aa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfc1930, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ServerOnlyTlsAuthentication", modifiers: "&&", def_value: None }]

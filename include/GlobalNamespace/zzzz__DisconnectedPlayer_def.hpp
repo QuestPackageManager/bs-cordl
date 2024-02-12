@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::GlobalNamespace::DisconnectedPlayer);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15021))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12719))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14894))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12617))
 // CS Name: ::DisconnectedPlayer*
 class CORDL_TYPE DisconnectedPlayer : public ::System::Object {
 public:
@@ -101,57 +101,57 @@ public:
 
   constexpr void __cordl_internal_set__multiplayerAvatarsData_k__BackingField(::GlobalNamespace::MultiplayerAvatarsData value);
 
-  /// @brief Method get_offsetSyncTime, addr 0xe33aa8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_offsetSyncTime, addr 0xe5e8e0, size 0x8, virtual true, abstract: false, final true
   inline int64_t get_offsetSyncTime();
 
-  /// @brief Method get_isFailed, addr 0xe33ab0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isFailed, addr 0xe5e8e8, size 0x8, virtual false, abstract: false, final false
   inline bool get_isFailed();
 
-  /// @brief Method get_isMe, addr 0xe33ab8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isMe, addr 0xe5e8f0, size 0x8, virtual true, abstract: false, final true
   inline bool get_isMe();
 
-  /// @brief Method get_userId, addr 0xe33ac0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_userId, addr 0xe5e8f8, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_userId();
 
-  /// @brief Method set_userId, addr 0xe33ac8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_userId, addr 0xe5e900, size 0x8, virtual false, abstract: false, final false
   inline void set_userId(::StringW value);
 
-  /// @brief Method get_userName, addr 0xe33ad0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_userName, addr 0xe5e908, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_userName();
 
-  /// @brief Method set_userName, addr 0xe33ad8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_userName, addr 0xe5e910, size 0x8, virtual false, abstract: false, final false
   inline void set_userName(::StringW value);
 
-  /// @brief Method get_hasValidLatency, addr 0xe33ae0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_hasValidLatency, addr 0xe5e918, size 0x8, virtual true, abstract: false, final true
   inline bool get_hasValidLatency();
 
-  /// @brief Method get_currentLatency, addr 0xe33ae8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_currentLatency, addr 0xe5e920, size 0x8, virtual true, abstract: false, final true
   inline int64_t get_currentLatency();
 
-  /// @brief Method get_isConnected, addr 0xe33af0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isConnected, addr 0xe5e928, size 0x8, virtual true, abstract: false, final true
   inline bool get_isConnected();
 
-  /// @brief Method get_disconnectedReason, addr 0xe33af8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_disconnectedReason, addr 0xe5e930, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::DisconnectedReason get_disconnectedReason();
 
-  /// @brief Method get_isConnectionOwner, addr 0xe33b00, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isConnectionOwner, addr 0xe5e938, size 0x8, virtual true, abstract: false, final true
   inline bool get_isConnectionOwner();
 
-  /// @brief Method get_sortIndex, addr 0xe33b08, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_sortIndex, addr 0xe5e940, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_sortIndex();
 
-  /// @brief Method get_multiplayerAvatarsData, addr 0xe33b10, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method get_multiplayerAvatarsData, addr 0xe5e948, size 0x14, virtual true, abstract: false, final true
   inline ::GlobalNamespace::MultiplayerAvatarsData get_multiplayerAvatarsData();
 
-  /// @brief Method get_isKicked, addr 0xe33b24, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isKicked, addr 0xe5e95c, size 0x8, virtual true, abstract: false, final true
   inline bool get_isKicked();
 
-  /// @brief Method HasState, addr 0xe33b2c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method HasState, addr 0xe5e964, size 0x8, virtual true, abstract: false, final true
   inline bool HasState(::StringW state);
 
   static inline ::GlobalNamespace::DisconnectedPlayer* New_ctor(::StringW userId, ::StringW userName, int32_t sortIndex);
 
-  /// @brief Method .ctor, addr 0xe33b34, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe5e96c, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::StringW userId, ::StringW userName, int32_t sortIndex);
 
   // Ctor Parameters [CppParam { name: "", ty: "DisconnectedPlayer", modifiers: "&&", def_value: None }]

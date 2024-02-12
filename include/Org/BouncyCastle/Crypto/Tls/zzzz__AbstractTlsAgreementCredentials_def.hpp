@@ -48,7 +48,7 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::AbstractTlsAgreementCredentials* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf5a308, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf84198, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AbstractTlsAgreementCredentials", modifiers: "&&", def_value: None }]

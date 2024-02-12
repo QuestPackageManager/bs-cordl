@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::StyleCache);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6815))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6074))
 // CS Name: ::UnityEngine.UIElements::StyleCache*
 class CORDL_TYPE StyleCache : public ::System::Object {
 public:
@@ -62,22 +62,22 @@ public:
   static inline ::System::Collections::Generic::Dictionary_2<int32_t, ::ArrayW<::UnityEngine::UIElements::ComputedTransitionProperty, ::Array<::UnityEngine::UIElements::ComputedTransitionProperty>*>>*
   getStaticF_s_ComputedTransitionsCache();
 
-  /// @brief Method TryGetValue, addr 0x2dc0a84, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method TryGetValue, addr 0x2ddee6c, size 0x90, virtual false, abstract: false, final false
   static inline bool TryGetValue(int64_t hash, ByRef<::UnityEngine::UIElements::ComputedStyle> data);
 
-  /// @brief Method SetValue, addr 0x2dc0b14, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x2ddeefc, size 0xc4, virtual false, abstract: false, final false
   static inline void SetValue(int64_t hash, ByRef<::UnityEngine::UIElements::ComputedStyle> data);
 
-  /// @brief Method TryGetValue, addr 0x2dc0bd8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method TryGetValue, addr 0x2ddefc0, size 0x90, virtual false, abstract: false, final false
   static inline bool TryGetValue(int32_t hash, ByRef<::UnityEngine::UIElements::StyleVariableContext*> data);
 
-  /// @brief Method SetValue, addr 0x2dc0c68, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x2ddf050, size 0x90, virtual false, abstract: false, final false
   static inline void SetValue(int32_t hash, ::UnityEngine::UIElements::StyleVariableContext* data);
 
-  /// @brief Method TryGetValue, addr 0x2dc0cf8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method TryGetValue, addr 0x2ddf0e0, size 0x90, virtual false, abstract: false, final false
   static inline bool TryGetValue(int32_t hash, ByRef<::ArrayW<::UnityEngine::UIElements::ComputedTransitionProperty, ::Array<::UnityEngine::UIElements::ComputedTransitionProperty>*>> data);
 
-  /// @brief Method SetValue, addr 0x2dc0d88, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x2ddf170, size 0x90, virtual false, abstract: false, final false
   static inline void SetValue(int32_t hash, ::ArrayW<::UnityEngine::UIElements::ComputedTransitionProperty, ::Array<::UnityEngine::UIElements::ComputedTransitionProperty>*> data);
 
   // Ctor Parameters [CppParam { name: "", ty: "StyleCache", modifiers: "&&", def_value: None }]

@@ -22,17 +22,17 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::GetViewDataDictionary);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6873))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6132))
 // CS Name: ::UnityEngine.UIElements::GetViewDataDictionary*
 class CORDL_TYPE GetViewDataDictionary : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::GetViewDataDictionary* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2dc9a04, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2de7dec, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x2dc9ac0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2de7ea8, size 0x14, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::ISerializableJsonDictionary* Invoke();
 
   // Ctor Parameters [CppParam { name: "", ty: "GetViewDataDictionary", modifiers: "&&", def_value: None }]

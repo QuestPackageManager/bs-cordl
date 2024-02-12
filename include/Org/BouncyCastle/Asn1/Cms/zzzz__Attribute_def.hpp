@@ -57,26 +57,26 @@ public:
 
   constexpr void __cordl_internal_set_attrValues(::Org::BouncyCastle::Asn1::Asn1Set* value);
 
-  /// @brief Method GetInstance, addr 0xe6fb54, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xe9a9e4, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::Attribute* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::Attribute* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xe6fcdc, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe9ab6c, size 0x14c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::Attribute* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* attrType, ::Org::BouncyCastle::Asn1::Asn1Set* attrValues);
 
-  /// @brief Method .ctor, addr 0xe6fe28, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe9acb8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* attrType, ::Org::BouncyCastle::Asn1::Asn1Set* attrValues);
 
-  /// @brief Method get_AttrType, addr 0xe6fe54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AttrType, addr 0xe9ace4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_AttrType();
 
-  /// @brief Method get_AttrValues, addr 0xe6fe5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AttrValues, addr 0xe9acec, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Set* get_AttrValues();
 
-  /// @brief Method ToAsn1Object, addr 0xe6fe64, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xe9acf4, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "Attribute", modifiers: "&&", def_value: None }]

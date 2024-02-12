@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ICutScoreBufferDidFinishReceiver);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5313))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4653))
 // CS Name: ::ICutScoreBufferDidFinishReceiver*
 class CORDL_TYPE ICutScoreBufferDidFinishReceiver {
 public:

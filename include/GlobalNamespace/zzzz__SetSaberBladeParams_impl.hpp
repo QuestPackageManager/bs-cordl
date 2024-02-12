@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__SetSaberBladeParams__PropertyTintColorPair::*)()>(
     &::GlobalNamespace::__SetSaberBladeParams__PropertyTintColorPair::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2264988;
+  constexpr static std::size_t addrs = 0x23c37f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SetSaberBladeParams::*)()>(&::GlobalNamespace::SetSaberBladeParams::Start)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x226487c;
+  constexpr static std::size_t addrs = 0x23c36e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SetSaberBladeParams*>::get(), "Start",
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SetSaberBladeParams::*)()>(&::GlobalNamespace::SetSaberBladeParams::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2264980;
+  constexpr static std::size_t addrs = 0x23c37e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SetSaberBladeParams*>::get(), ".ctor",

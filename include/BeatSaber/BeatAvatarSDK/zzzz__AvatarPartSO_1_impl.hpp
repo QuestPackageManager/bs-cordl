@@ -61,11 +61,6 @@ template <typename T> inline ::StringW BeatSaber::BeatAvatarSDK::AvatarPartSO_1<
                                                                              "get_localizationKey", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-template <typename T> inline ::StringW BeatSaber::BeatAvatarSDK::AvatarPartSO_1<T>::get_localizedName() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::AvatarPartSO_1<T>*>::get(),
-                                                                             "get_localizedName", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
-}
 template <typename T> inline ::BeatSaber::BeatAvatarSDK::AvatarPartSO_1<T>* BeatSaber::BeatAvatarSDK::AvatarPartSO_1<T>::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatSaber::BeatAvatarSDK::AvatarPartSO_1<T>*>());
 }

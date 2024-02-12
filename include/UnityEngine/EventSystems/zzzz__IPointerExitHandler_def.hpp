@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::IPointerExitHandler);
 namespace UnityEngine::EventSystems {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13173))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13071))
 // CS Name: ::UnityEngine.EventSystems::IPointerExitHandler*
 class CORDL_TYPE IPointerExitHandler {
 public:

@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SinglePositionTween);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10046)), TypeDefinitionIndex(TypeDefinitionIndex(10276)), TypeDefinitionIndex(TypeDefinitionIndex(10422)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10046), inst: 405 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6017)) CS Name: ::SinglePositionTween*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8778)), TypeDefinitionIndex(TypeDefinitionIndex(9022)), TypeDefinitionIndex(TypeDefinitionIndex(9190)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8778), inst: 407 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5294)) CS Name: ::SinglePositionTween*
 class CORDL_TYPE SinglePositionTween : public ::UnityEngine::Playables::PlayableAsset {
 public:
   // Declarations
@@ -66,15 +66,15 @@ public:
 
   constexpr void __cordl_internal_set__cordl_template(::GlobalNamespace::CustomTweenBehaviour* value);
 
-  /// @brief Method get_clipCaps, addr 0x2317b2c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_clipCaps, addr 0x2342af4, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Timeline::ClipCaps get_clipCaps();
 
-  /// @brief Method CreatePlayable, addr 0x2317b34, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method CreatePlayable, addr 0x2342afc, size 0x1c4, virtual true, abstract: false, final false
   inline ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go);
 
   static inline ::GlobalNamespace::SinglePositionTween* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2317cf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2342cc0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SinglePositionTween", modifiers: "&&", def_value: None }]

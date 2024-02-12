@@ -48,7 +48,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::ReflectionDelegateFactory);
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11851))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11749))
 // CS Name: ::Newtonsoft.Json.Utilities::ReflectionDelegateFactory*
 class CORDL_TYPE ReflectionDelegateFactory : public ::System::Object {
 public:
@@ -82,7 +82,7 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::ReflectionDelegateFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x265a4dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x267d698, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectionDelegateFactory", modifiers: "&&", def_value: None }]

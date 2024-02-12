@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::UnityEngine::DetailPrototype);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15469))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8995))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15647))
 // CS Name: ::UnityEngine::DetailPrototype*
 class CORDL_TYPE DetailPrototype : public ::System::Object {
 public:
@@ -200,75 +200,75 @@ public:
 
   static inline ::UnityEngine::Color getStaticF_DefaultDryColor();
 
-  /// @brief Method set_prototype, addr 0x2d1c420, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_prototype, addr 0x2d3cec8, size 0x8, virtual false, abstract: false, final false
   inline void set_prototype(::UnityEngine::GameObject* value);
 
-  /// @brief Method set_prototypeTexture, addr 0x2d1c428, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_prototypeTexture, addr 0x2d3ced0, size 0x8, virtual false, abstract: false, final false
   inline void set_prototypeTexture(::UnityEngine::Texture2D* value);
 
-  /// @brief Method get_minWidth, addr 0x2d1c430, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_minWidth, addr 0x2d3ced8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_minWidth();
 
-  /// @brief Method set_minWidth, addr 0x2d1c438, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_minWidth, addr 0x2d3cee0, size 0x8, virtual false, abstract: false, final false
   inline void set_minWidth(float_t value);
 
-  /// @brief Method get_maxWidth, addr 0x2d1c440, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxWidth, addr 0x2d3cee8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_maxWidth();
 
-  /// @brief Method set_maxWidth, addr 0x2d1c448, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maxWidth, addr 0x2d3cef0, size 0x8, virtual false, abstract: false, final false
   inline void set_maxWidth(float_t value);
 
-  /// @brief Method get_minHeight, addr 0x2d1c450, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_minHeight, addr 0x2d3cef8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_minHeight();
 
-  /// @brief Method set_minHeight, addr 0x2d1c458, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_minHeight, addr 0x2d3cf00, size 0x8, virtual false, abstract: false, final false
   inline void set_minHeight(float_t value);
 
-  /// @brief Method get_maxHeight, addr 0x2d1c460, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxHeight, addr 0x2d3cf08, size 0x8, virtual false, abstract: false, final false
   inline float_t get_maxHeight();
 
-  /// @brief Method set_maxHeight, addr 0x2d1c468, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maxHeight, addr 0x2d3cf10, size 0x8, virtual false, abstract: false, final false
   inline void set_maxHeight(float_t value);
 
-  /// @brief Method get_noiseSpread, addr 0x2d1c470, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_noiseSpread, addr 0x2d3cf18, size 0x8, virtual false, abstract: false, final false
   inline float_t get_noiseSpread();
 
-  /// @brief Method set_noiseSpread, addr 0x2d1c478, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_noiseSpread, addr 0x2d3cf20, size 0x8, virtual false, abstract: false, final false
   inline void set_noiseSpread(float_t value);
 
-  /// @brief Method get_healthyColor, addr 0x2d1c480, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_healthyColor, addr 0x2d3cf28, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_healthyColor();
 
-  /// @brief Method set_healthyColor, addr 0x2d1c48c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_healthyColor, addr 0x2d3cf34, size 0xc, virtual false, abstract: false, final false
   inline void set_healthyColor(::UnityEngine::Color value);
 
-  /// @brief Method get_dryColor, addr 0x2d1c498, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_dryColor, addr 0x2d3cf40, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_dryColor();
 
-  /// @brief Method set_dryColor, addr 0x2d1c4a4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_dryColor, addr 0x2d3cf4c, size 0xc, virtual false, abstract: false, final false
   inline void set_dryColor(::UnityEngine::Color value);
 
-  /// @brief Method get_renderMode, addr 0x2d1c4b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_renderMode, addr 0x2d3cf58, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::DetailRenderMode get_renderMode();
 
-  /// @brief Method set_renderMode, addr 0x2d1c4b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_renderMode, addr 0x2d3cf60, size 0x8, virtual false, abstract: false, final false
   inline void set_renderMode(::UnityEngine::DetailRenderMode value);
 
-  /// @brief Method set_usePrototypeMesh, addr 0x2d1c4c0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_usePrototypeMesh, addr 0x2d3cf68, size 0x1c, virtual false, abstract: false, final false
   inline void set_usePrototypeMesh(bool value);
 
   static inline ::UnityEngine::DetailPrototype* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d1c4dc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d3cf84, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Equals, addr 0x2d1c57c, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2d3d024, size 0x64, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2d1c7cc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2d3d274, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Equals, addr 0x2d1c5e0, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x2d3d088, size 0x1ec, virtual false, abstract: false, final false
   inline bool Equals(::UnityEngine::DetailPrototype* other);
 
   // Ctor Parameters [CppParam { name: "", ty: "DetailPrototype", modifiers: "&&", def_value: None }]

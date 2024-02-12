@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::System::Runtime::InteropServices::ComDefaultInterfaceAttribute)
 namespace System::Runtime::InteropServices {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3316))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3314))
 // CS Name: ::System.Runtime.InteropServices::ComDefaultInterfaceAttribute*
 class CORDL_TYPE ComDefaultInterfaceAttribute : public ::System::Attribute {
 public:
@@ -34,7 +34,7 @@ public:
 
   static inline ::System::Runtime::InteropServices::ComDefaultInterfaceAttribute* New_ctor(::System::Type* defaultInterface);
 
-  /// @brief Method .ctor, addr 0x24d7220, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f7eb0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* defaultInterface);
 
   // Ctor Parameters [CppParam { name: "", ty: "ComDefaultInterfaceAttribute", modifiers: "&&", def_value: None }]

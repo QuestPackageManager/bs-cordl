@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::ScrollViewMode);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7042))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6301))
 // CS Name: ::UnityEngine.UIElements::ScrollViewMode
 struct CORDL_TYPE ScrollViewMode {
 public:

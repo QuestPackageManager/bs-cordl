@@ -25,17 +25,17 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::HierarchyEvent);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6868))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6127))
 // CS Name: ::UnityEngine.UIElements::HierarchyEvent*
 class CORDL_TYPE HierarchyEvent : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::HierarchyEvent* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2dc87a4, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2de6b8c, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x2dc88d4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2de6cbc, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::HierarchyChangeType changeType);
 
   // Ctor Parameters [CppParam { name: "", ty: "HierarchyEvent", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIElementsPackageUtility);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6782))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6041))
 // CS Name: ::UnityEngine.UIElements::UIElementsPackageUtility*
 class CORDL_TYPE UIElementsPackageUtility : public ::System::Object {
 public:

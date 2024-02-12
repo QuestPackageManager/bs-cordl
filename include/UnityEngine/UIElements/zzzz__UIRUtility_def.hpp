@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIRUtility);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7328))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6587))
 // CS Name: ::UnityEngine.UIElements::UIRUtility*
 class CORDL_TYPE UIRUtility : public ::System::Object {
 public:
@@ -42,28 +42,28 @@ public:
 
   static inline ::StringW getStaticF_k_DefaultWorldSpaceShaderName();
 
-  /// @brief Method ShapeWindingIsClockwise, addr 0x2e784f8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ShapeWindingIsClockwise, addr 0x2e928e0, size 0x8c, virtual false, abstract: false, final false
   static inline bool ShapeWindingIsClockwise(int32_t maskDepth, int32_t stencilRef);
 
-  /// @brief Method IsRoundRect, addr 0x2e78584, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method IsRoundRect, addr 0x2e9296c, size 0x204, virtual false, abstract: false, final false
   static inline bool IsRoundRect(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method IsVectorImageBackground, addr 0x2e78788, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method IsVectorImageBackground, addr 0x2e92b70, size 0x90, virtual false, abstract: false, final false
   static inline bool IsVectorImageBackground(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method IsElementSelfHidden, addr 0x2e78818, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method IsElementSelfHidden, addr 0x2e92c00, size 0xc0, virtual false, abstract: false, final false
   static inline bool IsElementSelfHidden(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method Destroy, addr 0x2e788d8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Destroy, addr 0x2e92cc0, size 0xa8, virtual false, abstract: false, final false
   static inline void Destroy(::UnityEngine::Object* obj);
 
-  /// @brief Method GetPrevPow2, addr 0x2e78980, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetPrevPow2, addr 0x2e92d68, size 0x34, virtual false, abstract: false, final false
   static inline int32_t GetPrevPow2(int32_t n);
 
-  /// @brief Method GetNextPow2, addr 0x2e789b4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetNextPow2, addr 0x2e92d9c, size 0x1c, virtual false, abstract: false, final false
   static inline int32_t GetNextPow2(int32_t n);
 
-  /// @brief Method GetNextPow2Exp, addr 0x2e789d0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetNextPow2Exp, addr 0x2e92db8, size 0x30, virtual false, abstract: false, final false
   static inline int32_t GetNextPow2Exp(int32_t n);
 
   // Ctor Parameters [CppParam { name: "", ty: "UIRUtility", modifiers: "&&", def_value: None }]

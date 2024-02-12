@@ -1,0 +1,3 @@
+#pragma once
+#include "BeatmapDataLoaderVersion4/zzzz__SpawnRotationItemConverter_def.hpp"
+#include "BeatmapDataLoaderVersion4/zzzz__SpawnRotationItemConverter_impl.hpp"

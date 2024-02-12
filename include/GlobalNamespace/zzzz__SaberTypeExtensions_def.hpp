@@ -24,21 +24,21 @@ MARK_REF_PTR_T(::GlobalNamespace::SaberTypeExtensions);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15037))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14910))
 // CS Name: ::SaberTypeExtensions*
 class CORDL_TYPE SaberTypeExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method MatchesColorType, addr 0x12a3f90, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method MatchesColorType, addr 0x1339e68, size 0x28, virtual false, abstract: false, final false
   static inline bool MatchesColorType(::GlobalNamespace::SaberType saberType, ::GlobalNamespace::ColorType colorType);
 
-  /// @brief Method Node, addr 0x12a6714, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Node, addr 0x133c5ec, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::XRNode Node(::GlobalNamespace::SaberType saberType);
 
-  /// @brief Method MainSaber, addr 0x12a6724, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method MainSaber, addr 0x133c5fc, size 0xc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::SaberType MainSaber(bool leftHanded);
 
-  /// @brief Method ToSaberType, addr 0x12a6730, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method ToSaberType, addr 0x133c608, size 0x88, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::SaberType ToSaberType(::GlobalNamespace::ColorType colorType);
 
   // Ctor Parameters [CppParam { name: "", ty: "SaberTypeExtensions", modifiers: "&&", def_value: None }]

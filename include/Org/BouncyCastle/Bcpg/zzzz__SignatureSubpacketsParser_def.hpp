@@ -40,13 +40,13 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::SignatureSubpacketsParser* New_ctor(::System::IO::Stream* input);
 
-  /// @brief Method .ctor, addr 0x11d38d4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1201764, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* input);
 
-  /// @brief Method ReadPacket, addr 0x11d38fc, size 0x650, virtual false, abstract: false, final false
+  /// @brief Method ReadPacket, addr 0x120178c, size 0x650, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::SignatureSubpacket* ReadPacket();
 
-  /// @brief Method CheckData, addr 0x11d4b18, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method CheckData, addr 0x12029a8, size 0xf0, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CheckData(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t expected, int32_t bytesRead, ::StringW name);
 
   // Ctor Parameters [CppParam { name: "", ty: "SignatureSubpacketsParser", modifiers: "&&", def_value: None }]

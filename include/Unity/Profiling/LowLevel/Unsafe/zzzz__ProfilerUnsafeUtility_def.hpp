@@ -20,18 +20,18 @@ MARK_REF_PTR_T(::Unity::Profiling::LowLevel::Unsafe::ProfilerUnsafeUtility);
 namespace Unity::Profiling::LowLevel::Unsafe {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9968))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8697))
 // CS Name: ::Unity.Profiling.LowLevel.Unsafe::ProfilerUnsafeUtility*
 class CORDL_TYPE ProfilerUnsafeUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateMarker, addr 0x2c9d6a4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CreateMarker, addr 0x2c9e150, size 0x5c, virtual false, abstract: false, final false
   static inline void* CreateMarker(::StringW name, uint16_t categoryId, ::Unity::Profiling::LowLevel::MarkerFlags flags, int32_t metadataCount);
 
-  /// @brief Method BeginSample, addr 0x2c9d828, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method BeginSample, addr 0x2c9e2d4, size 0x3c, virtual false, abstract: false, final false
   static inline void BeginSample(void* markerPtr);
 
-  /// @brief Method EndSample, addr 0x2c9d8f4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method EndSample, addr 0x2c9e3a0, size 0x3c, virtual false, abstract: false, final false
   static inline void EndSample(void* markerPtr);
 
   // Ctor Parameters [CppParam { name: "", ty: "ProfilerUnsafeUtility", modifiers: "&&", def_value: None }]

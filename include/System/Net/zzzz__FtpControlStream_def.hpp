@@ -95,7 +95,7 @@ MARK_REF_PTR_T(::System::Net::__FtpControlStream____c__DisplayClass31_0);
 namespace System::Net {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9040))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7050))
 // CS Name: ::FtpControlStream::GetPathOption
 struct CORDL_TYPE __FtpControlStream__GetPathOption {
 public:
@@ -149,7 +149,7 @@ static_assert(offsetof(::System::Net::__FtpControlStream__GetPathOption, value__
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9041))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7051))
 // CS Name: ::FtpControlStream::<>c__DisplayClass31_0*
 class CORDL_TYPE __FtpControlStream____c__DisplayClass31_0 : public ::System::Object {
 public:
@@ -174,10 +174,10 @@ public:
 
   static inline ::System::Net::__FtpControlStream____c__DisplayClass31_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29904dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2993f80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <PipelineCallback>b__0, addr 0x29934a8, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method <PipelineCallback>b__0, addr 0x2996f4c, size 0xf8, virtual false, abstract: false, final false
   inline void _PipelineCallback_b__0(::System::IAsyncResult* ar);
 
   // Ctor Parameters [CppParam { name: "", ty: "__FtpControlStream____c__DisplayClass31_0", modifiers: "&&", def_value: None }]
@@ -214,8 +214,8 @@ static_assert(offsetof(::System::Net::__FtpControlStream____c__DisplayClass31_0,
 // SizeInfo { instance_size: 272, native_size: -1, calculated_instance_size: 272, calculated_native_size: 272, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(9036)), TypeDefinitionIndex(TypeDefinitionIndex(9039)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9062))] Self: TypeDefinitionIndex(TypeDefinitionIndex(9042)) CS Name: ::System.Net::FtpControlStream*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(7046)), TypeDefinitionIndex(TypeDefinitionIndex(7049)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7072))] Self: TypeDefinitionIndex(TypeDefinitionIndex(7052)) CS Name: ::System.Net::FtpControlStream*
 class CORDL_TYPE FtpControlStream : public ::System::Net::CommandStream {
 public:
   // Declarations
@@ -420,110 +420,110 @@ public:
 
   static inline ::System::AsyncCallback* getStaticF_s_SSLHandshakeCallback();
 
-  /// @brief Method get_Credentials, addr 0x298ecdc, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method get_Credentials, addr 0x2992780, size 0xa8, virtual false, abstract: false, final false
   inline ::System::Net::NetworkCredential* get_Credentials();
 
-  /// @brief Method set_Credentials, addr 0x298ed84, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method set_Credentials, addr 0x2992828, size 0x80, virtual false, abstract: false, final false
   inline void set_Credentials(::System::Net::NetworkCredential* value);
 
   static inline ::System::Net::FtpControlStream* New_ctor(::System::Net::Sockets::TcpClient* client);
 
-  /// @brief Method .ctor, addr 0x298ee04, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29928a8, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Sockets::TcpClient* client);
 
-  /// @brief Method AbortConnect, addr 0x298ee90, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method AbortConnect, addr 0x2992934, size 0x8c, virtual false, abstract: false, final false
   inline void AbortConnect();
 
-  /// @brief Method AcceptCallback, addr 0x298ef1c, size 0x368, virtual false, abstract: false, final false
+  /// @brief Method AcceptCallback, addr 0x29929c0, size 0x368, virtual false, abstract: false, final false
   static inline void AcceptCallback(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method ConnectCallback, addr 0x298f318, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method ConnectCallback, addr 0x2992dbc, size 0x1b0, virtual false, abstract: false, final false
   static inline void ConnectCallback(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method SSLHandshakeCallback, addr 0x298f4c8, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method SSLHandshakeCallback, addr 0x2992f6c, size 0x1c4, virtual false, abstract: false, final false
   static inline void SSLHandshakeCallback(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method QueueOrCreateFtpDataStream, addr 0x298f68c, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method QueueOrCreateFtpDataStream, addr 0x2993130, size 0x29c, virtual false, abstract: false, final false
   inline ::System::Net::__CommandStream__PipelineInstruction QueueOrCreateFtpDataStream(ByRef<::System::IO::Stream*> stream);
 
-  /// @brief Method ClearState, addr 0x298fc20, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method ClearState, addr 0x29936c4, size 0x90, virtual true, abstract: false, final false
   inline void ClearState();
 
-  /// @brief Method PipelineCallback, addr 0x298fcb0, size 0x82c, virtual true, abstract: false, final false
+  /// @brief Method PipelineCallback, addr 0x2993754, size 0x82c, virtual true, abstract: false, final false
   inline ::System::Net::__CommandStream__PipelineInstruction PipelineCallback(::System::Net::__CommandStream__PipelineEntry* entry, ::System::Net::ResponseDescription* response, bool timeout,
                                                                               ByRef<::System::IO::Stream*> stream);
 
-  /// @brief Method BuildCommandsList, addr 0x2991504, size 0xdd8, virtual true, abstract: false, final false
+  /// @brief Method BuildCommandsList, addr 0x2994fa8, size 0xdd8, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Net::__CommandStream__PipelineEntry*, ::Array<::System::Net::__CommandStream__PipelineEntry*>*> BuildCommandsList(::System::Net::WebRequest* req);
 
-  /// @brief Method QueueOrCreateDataConection, addr 0x29904e4, size 0x664, virtual false, abstract: false, final false
+  /// @brief Method QueueOrCreateDataConection, addr 0x2993f88, size 0x664, virtual false, abstract: false, final false
   inline ::System::Net::__CommandStream__PipelineInstruction QueueOrCreateDataConection(::System::Net::__CommandStream__PipelineEntry* entry, ::System::Net::ResponseDescription* response,
                                                                                         bool timeout, ByRef<::System::IO::Stream*> stream, ByRef<bool> isSocketReady);
 
-  /// @brief Method GetPathInfo, addr 0x29923ec, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method GetPathInfo, addr 0x2995e90, size 0x194, virtual false, abstract: false, final false
   static inline void GetPathInfo(::System::Net::__FtpControlStream__GetPathOption pathOption, ::System::Uri* uri, ByRef<::StringW> path, ByRef<::StringW> directory, ByRef<::StringW> filename);
 
-  /// @brief Method FormatAddress, addr 0x2992d34, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method FormatAddress, addr 0x29967d8, size 0x124, virtual false, abstract: false, final false
   inline ::StringW FormatAddress(::System::Net::IPAddress* address, int32_t Port);
 
-  /// @brief Method FormatAddressV6, addr 0x2992e58, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method FormatAddressV6, addr 0x29968fc, size 0x110, virtual false, abstract: false, final false
   inline ::StringW FormatAddressV6(::System::Net::IPAddress* address, int32_t port);
 
-  /// @brief Method get_ContentLength, addr 0x2992f68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContentLength, addr 0x2996a0c, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_ContentLength();
 
-  /// @brief Method get_LastModified, addr 0x2992f70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LastModified, addr 0x2996a14, size 0x8, virtual false, abstract: false, final false
   inline ::System::DateTime get_LastModified();
 
-  /// @brief Method get_ResponseUri, addr 0x2992f78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ResponseUri, addr 0x2996a1c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Uri* get_ResponseUri();
 
-  /// @brief Method get_BannerMessage, addr 0x2992f80, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_BannerMessage, addr 0x2996a24, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_BannerMessage();
 
-  /// @brief Method get_WelcomeMessage, addr 0x2992f98, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_WelcomeMessage, addr 0x2996a3c, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_WelcomeMessage();
 
-  /// @brief Method get_ExitMessage, addr 0x2992fb0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_ExitMessage, addr 0x2996a54, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_ExitMessage();
 
-  /// @brief Method GetContentLengthFrom213Response, addr 0x2990fb4, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method GetContentLengthFrom213Response, addr 0x2994a58, size 0x140, virtual false, abstract: false, final false
   inline int64_t GetContentLengthFrom213Response(::StringW responseString);
 
-  /// @brief Method GetLastModifiedFrom213Response, addr 0x29910f4, size 0x360, virtual false, abstract: false, final false
+  /// @brief Method GetLastModifiedFrom213Response, addr 0x2994b98, size 0x360, virtual false, abstract: false, final false
   inline ::System::DateTime GetLastModifiedFrom213Response(::StringW str);
 
-  /// @brief Method TryUpdateResponseUri, addr 0x2990c40, size 0x358, virtual false, abstract: false, final false
+  /// @brief Method TryUpdateResponseUri, addr 0x29946e4, size 0x358, virtual false, abstract: false, final false
   inline void TryUpdateResponseUri(::StringW str, ::System::Net::FtpWebRequest* request);
 
-  /// @brief Method TryUpdateContentLength, addr 0x2990b48, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method TryUpdateContentLength, addr 0x29945ec, size 0xec, virtual false, abstract: false, final false
   inline void TryUpdateContentLength(::StringW str);
 
-  /// @brief Method GetLoginDirectory, addr 0x2991454, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetLoginDirectory, addr 0x2994ef8, size 0xb0, virtual false, abstract: false, final false
   inline ::StringW GetLoginDirectory(::StringW str);
 
-  /// @brief Method GetPortV4, addr 0x2992900, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method GetPortV4, addr 0x29963a4, size 0x1f4, virtual false, abstract: false, final false
   inline int32_t GetPortV4(::StringW responseString);
 
-  /// @brief Method GetPortV6, addr 0x2992af4, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method GetPortV6, addr 0x2996598, size 0x1c0, virtual false, abstract: false, final false
   inline int32_t GetPortV6(::StringW responseString);
 
-  /// @brief Method CreateFtpListenerSocket, addr 0x2992590, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method CreateFtpListenerSocket, addr 0x2996034, size 0x17c, virtual false, abstract: false, final false
   inline void CreateFtpListenerSocket(::System::Net::FtpWebRequest* request);
 
-  /// @brief Method GetPortCommandLine, addr 0x299270c, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method GetPortCommandLine, addr 0x29961b0, size 0x1f4, virtual false, abstract: false, final false
   inline ::StringW GetPortCommandLine(::System::Net::FtpWebRequest* request);
 
-  /// @brief Method FormatFtpCommand, addr 0x29922dc, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method FormatFtpCommand, addr 0x2995d80, size 0x100, virtual false, abstract: false, final false
   inline ::StringW FormatFtpCommand(::StringW command, ::StringW parameter);
 
-  /// @brief Method CreateFtpDataSocket, addr 0x2992cb4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method CreateFtpDataSocket, addr 0x2996758, size 0x80, virtual false, abstract: false, final false
   inline ::System::Net::Sockets::Socket* CreateFtpDataSocket(::System::Net::FtpWebRequest* request, ::System::Net::Sockets::Socket* templateSocket);
 
-  /// @brief Method CheckValid, addr 0x2992fc8, size 0x3b4, virtual true, abstract: false, final false
+  /// @brief Method CheckValid, addr 0x2996a6c, size 0x3b4, virtual true, abstract: false, final false
   inline bool CheckValid(::System::Net::ResponseDescription* response, ByRef<int32_t> validThrough, ByRef<int32_t> completeLength);
 
-  /// @brief Method IsFtpDataStreamWriteable, addr 0x298f928, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method IsFtpDataStreamWriteable, addr 0x29933cc, size 0x84, virtual false, abstract: false, final false
   inline ::System::Net::TriState IsFtpDataStreamWriteable();
 
   // Ctor Parameters [CppParam { name: "", ty: "FtpControlStream", modifiers: "&&", def_value: None }]

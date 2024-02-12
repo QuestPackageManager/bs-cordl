@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::EVRSkeletalMotionRange);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8606))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8550))
 // CS Name: ::OVR.OpenVR::EVRSkeletalMotionRange
 struct CORDL_TYPE EVRSkeletalMotionRange {
 public:

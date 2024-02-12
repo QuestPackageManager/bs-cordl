@@ -6,7 +6,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::LongList::*)()>(&::System::Runtime::Serialization::LongList::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24bc7ec;
+  constexpr static std::size_t addrs = 0x24dd860;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::LongList*>::get(), ".ctor",
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::LongList::*)(int32_t)>(&::System::Runtime::Serialization::LongList::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x24bca74;
+  constexpr static std::size_t addrs = 0x24ddae8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::LongList::*)(int64_t)>(&::System::Runtime::Serialization::LongList::Add)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x24bc7f4;
+  constexpr static std::size_t addrs = 0x24dd868;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Runtime::Serialization::LongList::*)()>(&::System::Runtime::Serialization::LongList::get_Count)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24bcb68;
+  constexpr static std::size_t addrs = 0x24ddbdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::LongList*>::get(), "get_Count",
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::LongList::*)()>(
     &::System::Runtime::Serialization::LongList::StartEnumeration)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x24baa68;
+  constexpr static std::size_t addrs = 0x24dbadc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::LongList*>::get(),
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::LongList::*)()>(&::System::Runtime::Serialization::LongList::MoveNext)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x24baab4;
+  constexpr static std::size_t addrs = 0x24dbb28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::LongList*>::get(), "MoveNext",
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::System::Runtime::Serialization::LongList::*)()>(
     &::System::Runtime::Serialization::LongList::get_Current)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x24baa74;
+  constexpr static std::size_t addrs = 0x24dbae8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::LongList*>::get(),
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::LongList::*)(int64_t)>(
     &::System::Runtime::Serialization::LongList::RemoveElement)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x24bc73c;
+  constexpr static std::size_t addrs = 0x24dd7b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::LongList::*)()>(&::System::Runtime::Serialization::LongList::EnlargeArray)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x24bcae0;
+  constexpr static std::size_t addrs = 0x24ddb54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::LongList*>::get(),

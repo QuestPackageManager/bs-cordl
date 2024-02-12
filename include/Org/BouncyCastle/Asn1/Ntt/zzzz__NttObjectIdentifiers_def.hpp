@@ -67,7 +67,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Ntt::NttObjectIdentifiers* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf7f3a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfaa234, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NttObjectIdentifiers", modifiers: "&&", def_value: None }]

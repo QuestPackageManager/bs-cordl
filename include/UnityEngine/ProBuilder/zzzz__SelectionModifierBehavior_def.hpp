@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ProBuilder::SelectionModifierBehavior);
 namespace UnityEngine::ProBuilder {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12182))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12080))
 // CS Name: ::UnityEngine.ProBuilder::SelectionModifierBehavior
 struct CORDL_TYPE SelectionModifierBehavior {
 public:

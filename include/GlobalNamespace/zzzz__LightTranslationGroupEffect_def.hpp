@@ -67,8 +67,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__LightTranslationGroupEffect____c__DisplayCla
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10243))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4945))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8987))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4299))
 // CS Name: ::LightTranslationGroupEffect::InitData*
 class CORDL_TYPE __LightTranslationGroupEffect__InitData : public ::System::Object {
 public:
@@ -205,7 +205,7 @@ public:
                                                                                      ::UnityEngine::Vector2 yTranslationLimits, ::UnityEngine::Vector2 yDistributionLimits,
                                                                                      ::UnityEngine::Vector2 zTranslationLimits, ::UnityEngine::Vector2 zDistributionLimits);
 
-  /// @brief Method .ctor, addr 0x23ab8ec, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x236ba20, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(int32_t groupId, int32_t elementId, bool xMirrored, bool yMirrored, bool zMirrored, ::UnityEngine::Transform* xTransform, ::UnityEngine::Transform* yTransform,
                     ::UnityEngine::Transform* zTransform, ::UnityEngine::Vector2 xTranslationLimits, ::UnityEngine::Vector2 xDistributionLimits, ::UnityEngine::Vector2 yTranslationLimits,
                     ::UnityEngine::Vector2 yDistributionLimits, ::UnityEngine::Vector2 zTranslationLimits, ::UnityEngine::Vector2 zDistributionLimits);
@@ -304,8 +304,8 @@ static_assert(offsetof(::GlobalNamespace::__LightTranslationGroupEffect__InitDat
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10243))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4946))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8987))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4300))
 // CS Name: ::LightTranslationGroupEffect::<>c__DisplayClass12_0*
 class CORDL_TYPE __LightTranslationGroupEffect____c__DisplayClass12_0 : public ::System::Object {
 public:
@@ -357,10 +357,10 @@ public:
 
   static inline ::GlobalNamespace::__LightTranslationGroupEffect____c__DisplayClass12_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23ab694, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x236b7c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <GetTranslationEventHandler>b__0, addr 0x23ab9c4, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method <GetTranslationEventHandler>b__0, addr 0x236baf8, size 0x1c0, virtual false, abstract: false, final false
   inline void _GetTranslationEventHandler_b__0(::GlobalNamespace::LightTranslationBeatmapEventData* currentEventData);
 
   // Ctor Parameters [CppParam { name: "", ty: "__LightTranslationGroupEffect____c__DisplayClass12_0", modifiers: "&&", def_value: None }]
@@ -413,7 +413,7 @@ static_assert(offsetof(::GlobalNamespace::__LightTranslationGroupEffect____c__Di
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4947))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4301))
 // CS Name: ::LightTranslationGroupEffect*
 class CORDL_TYPE LightTranslationGroupEffect : public ::System::Object {
 public:
@@ -513,24 +513,24 @@ public:
   static inline ::GlobalNamespace::LightTranslationGroupEffect* New_ctor(::GlobalNamespace::__LightTranslationGroupEffect__InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager,
                                                                          ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 
-  /// @brief Method .ctor, addr 0x23aaa7c, size 0xac0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x236abb0, size 0xac0, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__LightTranslationGroupEffect__InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager,
                     ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 
-  /// @brief Method Cleanup, addr 0x23ab62c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x236b760, size 0x68, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method GetTranslationEventHandler, addr 0x23ab53c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetTranslationEventHandler, addr 0x236b670, size 0xf0, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDataCallback_1<::GlobalNamespace::LightTranslationBeatmapEventData*>*
   GetTranslationEventHandler(::Tweening::FloatTween* translationTween, ::UnityEngine::Vector2 translationLimits, ::UnityEngine::Vector2 distributionLimits, bool mirrored);
 
-  /// @brief Method SetTranslation, addr 0x23ab69c, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method SetTranslation, addr 0x236b7d0, size 0x1c8, virtual false, abstract: false, final false
   inline void SetTranslation(float_t _);
 
-  /// @brief Method SetTweenData, addr 0x23ab864, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetTweenData, addr 0x236b998, size 0x3c, virtual false, abstract: false, final false
   static inline void SetTweenData(::Tweening::FloatTween* tween, float_t from, float_t to, float_t startTime, float_t endTime, ::GlobalNamespace::EaseType easeType);
 
-  /// @brief Method ComputeTranslation, addr 0x23ab8a0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ComputeTranslation, addr 0x236b9d4, size 0x4c, virtual false, abstract: false, final false
   static inline float_t ComputeTranslation(float_t translation, ::UnityEngine::Vector2 translationLimits, float_t distribution, ::UnityEngine::Vector2 distributionLimits, bool mirrored);
 
   // Ctor Parameters [CppParam { name: "", ty: "LightTranslationGroupEffect", modifiers: "&&", def_value: None }]

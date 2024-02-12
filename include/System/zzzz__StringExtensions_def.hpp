@@ -17,12 +17,12 @@ MARK_REF_PTR_T(::System::StringExtensions);
 namespace System {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8865))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6875))
 // CS Name: ::System::StringExtensions*
 class CORDL_TYPE StringExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SubstringTrim, addr 0x2946a0c, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method SubstringTrim, addr 0x294b108, size 0x170, virtual false, abstract: false, final false
   static inline ::StringW SubstringTrim(::StringW value, int32_t startIndex, int32_t length);
 
   // Ctor Parameters [CppParam { name: "", ty: "StringExtensions", modifiers: "&&", def_value: None }]

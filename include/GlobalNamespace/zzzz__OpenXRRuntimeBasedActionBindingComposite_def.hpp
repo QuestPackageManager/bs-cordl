@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6190)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6190), inst: 391 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14437))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5449)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5449), inst: 391 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14586))
 // CS Name: ::OpenXRRuntimeBasedActionBindingComposite*
 class CORDL_TYPE OpenXRRuntimeBasedActionBindingComposite : public ::UnityEngine::InputSystem::InputBindingComposite_1<float_t> {
 public:
@@ -44,18 +44,18 @@ public:
 
   constexpr void __cordl_internal_set_otherRuntimes(int32_t value);
 
-  /// @brief Method ReadValue, addr 0x20ff28c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ReadValue, addr 0x2192c9c, size 0x8, virtual true, abstract: false, final false
   inline float_t ReadValue(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
-  /// @brief Method EvaluateMagnitude, addr 0x20ff294, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EvaluateMagnitude, addr 0x2192ca4, size 0xc, virtual true, abstract: false, final false
   inline float_t EvaluateMagnitude(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
-  /// @brief Method Init, addr 0x20ff308, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2192d18, size 0x4, virtual false, abstract: false, final false
   static inline void Init();
 
   static inline ::GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite* New_ctor();
 
-  /// @brief Method .ctor, addr 0x20ff30c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2192d1c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OpenXRRuntimeBasedActionBindingComposite", modifiers: "&&", def_value: None }]

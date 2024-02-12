@@ -53,10 +53,10 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::__PgpCompressedDataGenerator__SafeCBZip2OutputStream* New_ctor(::System::IO::Stream* output);
 
-  /// @brief Method .ctor, addr 0x10a5b44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10d29d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* output);
 
-  /// @brief Method Close, addr 0x10a5bf8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x10d2a88, size 0x4, virtual true, abstract: false, final false
   inline void Close();
 
   // Ctor Parameters [CppParam { name: "", ty: "__PgpCompressedDataGenerator__SafeCBZip2OutputStream", modifiers: "&&", def_value: None }]
@@ -91,10 +91,10 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::__PgpCompressedDataGenerator__SafeZOutputStream* New_ctor(::System::IO::Stream* output, int32_t level, bool nowrap);
 
-  /// @brief Method .ctor, addr 0x10a5b38, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10d29c8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* output, int32_t level, bool nowrap);
 
-  /// @brief Method Close, addr 0x10a5c60, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x10d2af0, size 0x30, virtual true, abstract: false, final false
   inline void Close();
 
   // Ctor Parameters [CppParam { name: "", ty: "__PgpCompressedDataGenerator__SafeZOutputStream", modifiers: "&&", def_value: None }]
@@ -175,24 +175,24 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpCompressedDataGenerator* New_ctor(::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag algorithm);
 
-  /// @brief Method .ctor, addr 0x10a55e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10d2474, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag algorithm);
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpCompressedDataGenerator* New_ctor(::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag algorithm, int32_t compression);
 
-  /// @brief Method .ctor, addr 0x10a55ec, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10d247c, size 0x124, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag algorithm, int32_t compression);
 
-  /// @brief Method Open, addr 0x10a5710, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x10d25a0, size 0x148, virtual false, abstract: false, final false
   inline ::System::IO::Stream* Open(::System::IO::Stream* outStr);
 
-  /// @brief Method Open, addr 0x10a59c0, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x10d2850, size 0x178, virtual false, abstract: false, final false
   inline ::System::IO::Stream* Open(::System::IO::Stream* outStr, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer);
 
-  /// @brief Method doOpen, addr 0x10a5858, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method doOpen, addr 0x10d26e8, size 0x168, virtual false, abstract: false, final false
   inline void doOpen();
 
-  /// @brief Method Close, addr 0x10a5b4c, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method Close, addr 0x10d29dc, size 0xa4, virtual true, abstract: false, final true
   inline void Close();
 
   // Ctor Parameters [CppParam { name: "", ty: "PgpCompressedDataGenerator", modifiers: "&&", def_value: None }]

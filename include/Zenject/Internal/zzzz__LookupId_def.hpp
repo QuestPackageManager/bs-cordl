@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::Zenject::Internal::LookupId);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject::Internal {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11158))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11367))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10300))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10509))
 // CS Name: ::Zenject.Internal::LookupId*
 class CORDL_TYPE LookupId : public ::System::Object {
 public:
@@ -48,15 +48,15 @@ public:
 
   static inline ::Zenject::Internal::LookupId* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f213bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f3d644, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Zenject::Internal::LookupId* New_ctor(::Zenject::IProvider* provider, ::Zenject::BindingId bindingId);
 
-  /// @brief Method .ctor, addr 0x2f213c4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f3d64c, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::IProvider* provider, ::Zenject::BindingId bindingId);
 
-  /// @brief Method GetHashCode, addr 0x2f21460, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2f3d6e8, size 0x50, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "LookupId", modifiers: "&&", def_value: None }]

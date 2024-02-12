@@ -33,8 +33,8 @@ MARK_VAL_T(::Unity::IO::LowLevel::Unsafe::AsyncReadManagerRequestMetric);
 // SizeInfo { instance_size: 96, native_size: 96, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::IO::LowLevel::Unsafe {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9986)), TypeDefinitionIndex(TypeDefinitionIndex(9987)), TypeDefinitionIndex(TypeDefinitionIndex(9988)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9989))] Self: TypeDefinitionIndex(TypeDefinitionIndex(9990)) CS Name: ::Unity.IO.LowLevel.Unsafe::AsyncReadManagerRequestMetric
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8717)), TypeDefinitionIndex(TypeDefinitionIndex(8718)), TypeDefinitionIndex(TypeDefinitionIndex(8719)),
+// TypeDefinitionIndex(TypeDefinitionIndex(8720))] Self: TypeDefinitionIndex(TypeDefinitionIndex(8721)) CS Name: ::Unity.IO.LowLevel.Unsafe::AsyncReadManagerRequestMetric
 struct CORDL_TYPE AsyncReadManagerRequestMetric {
 public:
   // Declarations

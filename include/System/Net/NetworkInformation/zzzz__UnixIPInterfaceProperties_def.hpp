@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::UnixIPInterfaceProperties);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9250))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9290))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7260))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7300))
 // CS Name: ::System.Net.NetworkInformation::UnixIPInterfaceProperties*
 class CORDL_TYPE UnixIPInterfaceProperties : public ::System::Net::NetworkInformation::IPInterfaceProperties {
 public:
@@ -72,10 +72,10 @@ public:
   static inline ::System::Net::NetworkInformation::UnixIPInterfaceProperties* New_ctor(::System::Net::NetworkInformation::UnixNetworkInterface* iface,
                                                                                        ::System::Collections::Generic::List_1<::System::Net::IPAddress*>* addresses);
 
-  /// @brief Method .ctor, addr 0x29ec0e4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29f0b88, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::NetworkInformation::UnixNetworkInterface* iface, ::System::Collections::Generic::List_1<::System::Net::IPAddress*>* addresses);
 
-  /// @brief Method get_UnicastAddresses, addr 0x29f088c, size 0x274, virtual true, abstract: false, final false
+  /// @brief Method get_UnicastAddresses, addr 0x29f5330, size 0x274, virtual true, abstract: false, final false
   inline ::System::Net::NetworkInformation::UnicastIPAddressInformationCollection* get_UnicastAddresses();
 
   // Ctor Parameters [CppParam { name: "", ty: "UnixIPInterfaceProperties", modifiers: "&&", def_value: None }]

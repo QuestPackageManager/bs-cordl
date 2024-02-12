@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType)
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7488))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6747))
 // CS Name: ::UnityEngine.UIElements.StyleSheets.Syntax::StyleSyntaxTokenType
 struct CORDL_TYPE StyleSyntaxTokenType {
 public:

@@ -50,11 +50,11 @@ public:
                                                                         ::System::Security::AccessControl::PropagationFlags propagationFlags,
                                                                         ::System::Security::AccessControl::AccessControlType type);
 
-  /// @brief Method .ctor, addr 0x24806e0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24a2754, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Principal::IdentityReference* identity, int32_t accessMask, bool isInherited, ::System::Security::AccessControl::InheritanceFlags inheritanceFlags,
                     ::System::Security::AccessControl::PropagationFlags propagationFlags, ::System::Security::AccessControl::AccessControlType type);
 
-  /// @brief Method get_AccessControlType, addr 0x248090c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AccessControlType, addr 0x24a2980, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::AccessControl::AccessControlType get_AccessControlType();
 
   // Ctor Parameters [CppParam { name: "", ty: "AccessRule", modifiers: "&&", def_value: None }]

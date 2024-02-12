@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::UnityEngine::CreateAssetMenuAttribute);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10216))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8960))
 // CS Name: ::UnityEngine::CreateAssetMenuAttribute*
 class CORDL_TYPE CreateAssetMenuAttribute : public ::System::Attribute {
 public:
@@ -43,15 +43,15 @@ public:
 
   constexpr void __cordl_internal_set__fileName_k__BackingField(::StringW value);
 
-  /// @brief Method set_menuName, addr 0x2cd281c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_menuName, addr 0x2cd97c4, size 0x8, virtual false, abstract: false, final false
   inline void set_menuName(::StringW value);
 
-  /// @brief Method set_fileName, addr 0x2cd2824, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_fileName, addr 0x2cd97cc, size 0x8, virtual false, abstract: false, final false
   inline void set_fileName(::StringW value);
 
   static inline ::UnityEngine::CreateAssetMenuAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2cd282c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cd97d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CreateAssetMenuAttribute", modifiers: "&&", def_value: None }]

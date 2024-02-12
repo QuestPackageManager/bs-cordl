@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::GlobalNamespace::GetXPlatformAccessTokenRequestSteam);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15998))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16366))
 // CS Name: ::GetXPlatformAccessTokenRequestSteam*
 class CORDL_TYPE GetXPlatformAccessTokenRequestSteam : public ::System::Object {
 public:
@@ -42,7 +42,7 @@ public:
 
   static inline ::GlobalNamespace::GetXPlatformAccessTokenRequestSteam* New_ctor(::StringW platformToken, int64_t platformUserId);
 
-  /// @brief Method .ctor, addr 0x2800184, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x280a93c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW platformToken, int64_t platformUserId);
 
   // Ctor Parameters [CppParam { name: "", ty: "GetXPlatformAccessTokenRequestSteam", modifiers: "&&", def_value: None }]

@@ -27,11 +27,11 @@ class BeatmapCharacteristicCollection;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BeatmapCharacteristicCollection);
 // Type: ::BeatmapCharacteristicCollection
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4239))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10706))
 // CS Name: ::BeatmapCharacteristicCollection*
 class CORDL_TYPE BeatmapCharacteristicCollection : public ::System::Object {
 public:
@@ -43,6 +43,11 @@ public:
   /// @brief Field beatmapCharacteristics, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_beatmapCharacteristics,
                       put = __cordl_internal_set_beatmapCharacteristics))::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* beatmapCharacteristics;
+
+  /// @brief Field disabledBeatmapCharacteristics, offset 0x20, size 0x8
+  __declspec(property(
+      get = __cordl_internal_get_disabledBeatmapCharacteristics,
+      put = __cordl_internal_set_disabledBeatmapCharacteristics))::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* disabledBeatmapCharacteristics;
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*& __cordl_internal_get__beatmapCharacteristicsBySerializedName();
 
@@ -58,12 +63,20 @@ public:
 
   constexpr void __cordl_internal_set_beatmapCharacteristics(::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value);
 
-  static inline ::GlobalNamespace::BeatmapCharacteristicCollection* New_ctor(::GlobalNamespace::BeatmapCharacteristicCollectionSO* collection, ::GlobalNamespace::AppStaticSettingsSO* appSettings);
+  constexpr ::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*& __cordl_internal_get_disabledBeatmapCharacteristics();
 
-  /// @brief Method .ctor, addr 0x232cc44, size 0x464, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::BeatmapCharacteristicCollectionSO* collection, ::GlobalNamespace::AppStaticSettingsSO* appSettings);
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*> const&
+  __cordl_internal_get_disabledBeatmapCharacteristics() const;
 
-  /// @brief Method GetBeatmapCharacteristicBySerializedName, addr 0x232d0a8, size 0x90, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_disabledBeatmapCharacteristics(::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value);
+
+  static inline ::GlobalNamespace::BeatmapCharacteristicCollection* New_ctor(::GlobalNamespace::BeatmapCharacteristicCollectionSO* collection,
+                                                                             ::GlobalNamespace::AppStaticSettingsSO* appStaticSettings);
+
+  /// @brief Method .ctor, addr 0x12746a4, size 0x528, virtual false, abstract: false, final false
+  inline void _ctor(::GlobalNamespace::BeatmapCharacteristicCollectionSO* collection, ::GlobalNamespace::AppStaticSettingsSO* appStaticSettings);
+
+  /// @brief Method GetBeatmapCharacteristicBySerializedName, addr 0x1274bcc, size 0x90, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> GetBeatmapCharacteristicBySerializedName(::StringW serializedName);
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicCollection", modifiers: "&&", def_value: None }]
@@ -86,14 +99,19 @@ public:
   /// @brief Field beatmapCharacteristics, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* ___beatmapCharacteristics;
 
+  /// @brief Field disabledBeatmapCharacteristics, offset: 0x20, size: 0x8, def value: None
+  ::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* ___disabledBeatmapCharacteristics;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapCharacteristicCollection, 0x20>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapCharacteristicCollection, 0x28>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BeatmapCharacteristicCollection, ____beatmapCharacteristicsBySerializedName) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BeatmapCharacteristicCollection, ___beatmapCharacteristics) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapCharacteristicCollection, ___disabledBeatmapCharacteristics) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatmapCharacteristicCollection);

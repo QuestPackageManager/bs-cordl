@@ -46,22 +46,22 @@ public:
 
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Type*>* getStaticF_algorithms();
 
-  /// @brief Method CreateFromName, addr 0x246ad04, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CreateFromName, addr 0x248cd78, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Object* CreateFromName(::StringW name);
 
-  /// @brief Method CreateFromName, addr 0x246c4d8, size 0x1f14, virtual false, abstract: false, final false
+  /// @brief Method CreateFromName, addr 0x248e54c, size 0x1f14, virtual false, abstract: false, final false
   static inline ::System::Object* CreateFromName(::StringW name, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method MapNameToOID, addr 0x246e538, size 0x7b4, virtual false, abstract: false, final false
+  /// @brief Method MapNameToOID, addr 0x24905ac, size 0x7b4, virtual false, abstract: false, final false
   static inline ::StringW MapNameToOID(::StringW name);
 
-  /// @brief Method EncodeOID, addr 0x246ecec, size 0x40c, virtual false, abstract: false, final false
+  /// @brief Method EncodeOID, addr 0x2490d60, size 0x40c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodeOID(::StringW str);
 
-  /// @brief Method EncodeLongNumber, addr 0x246f0f8, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method EncodeLongNumber, addr 0x249116c, size 0x190, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodeLongNumber(int64_t x);
 
-  /// @brief Method get_AllowOnlyFipsAlgorithms, addr 0x24682c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AllowOnlyFipsAlgorithms, addr 0x248a338, size 0x8, virtual false, abstract: false, final false
   static inline bool get_AllowOnlyFipsAlgorithms();
 
   // Ctor Parameters [CppParam { name: "", ty: "CryptoConfig", modifiers: "&&", def_value: None }]

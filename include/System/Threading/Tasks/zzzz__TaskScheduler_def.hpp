@@ -135,36 +135,36 @@ public:
   /// @brief Method TryExecuteTaskInline, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool TryExecuteTaskInline(::System::Threading::Tasks::Task* task, bool taskWasPreviouslyQueued);
 
-  /// @brief Method TryRunInline, addr 0x26273b0, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method TryRunInline, addr 0x264d4d4, size 0x1f8, virtual false, abstract: false, final false
   inline bool TryRunInline(::System::Threading::Tasks::Task* task, bool taskWasPreviouslyQueued);
 
-  /// @brief Method TryDequeue, addr 0x262d8e0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method TryDequeue, addr 0x2653a04, size 0x8, virtual true, abstract: false, final false
   inline bool TryDequeue(::System::Threading::Tasks::Task* task);
 
-  /// @brief Method NotifyWorkItemProgress, addr 0x262d8e8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method NotifyWorkItemProgress, addr 0x2653a0c, size 0x4, virtual true, abstract: false, final false
   inline void NotifyWorkItemProgress();
 
-  /// @brief Method get_RequiresAtomicStartTransition, addr 0x262d8ec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_RequiresAtomicStartTransition, addr 0x2653a10, size 0x8, virtual true, abstract: false, final false
   inline bool get_RequiresAtomicStartTransition();
 
   static inline ::System::Threading::Tasks::TaskScheduler* New_ctor();
 
-  /// @brief Method .ctor, addr 0x262d8f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2653a18, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Default, addr 0x262d8fc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Default, addr 0x2653a20, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::TaskScheduler* get_Default();
 
-  /// @brief Method get_Current, addr 0x2627ce8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_Current, addr 0x264de0c, size 0xa0, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::TaskScheduler* get_Current();
 
-  /// @brief Method get_InternalCurrent, addr 0x26268c8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method get_InternalCurrent, addr 0x264c9ec, size 0xa4, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::TaskScheduler* get_InternalCurrent();
 
-  /// @brief Method get_Id, addr 0x26275a8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_Id, addr 0x264d6cc, size 0x94, virtual false, abstract: false, final false
   inline int32_t get_Id();
 
-  /// @brief Method PublishUnobservedTaskException, addr 0x262ca14, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method PublishUnobservedTaskException, addr 0x2652b38, size 0x134, virtual false, abstract: false, final false
   static inline void PublishUnobservedTaskException(::System::Object* sender, ::System::Threading::Tasks::UnobservedTaskExceptionEventArgs* ueea);
 
   // Ctor Parameters [CppParam { name: "", ty: "TaskScheduler", modifiers: "&&", def_value: None }]

@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorHueSlider);
 // SizeInfo { instance_size: 336, native_size: -1, calculated_instance_size: 336, calculated_native_size: 336, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(13554))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16174))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8995)), TypeDefinitionIndex(TypeDefinitionIndex(13507))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16322))
 // CS Name: ::ColorHueSlider*
 class CORDL_TYPE ColorHueSlider : public ::HMUI::CircleSlider {
 public:
@@ -82,30 +82,30 @@ public:
 
   constexpr void __cordl_internal_set_colorHueDidChangeEvent(::System::Action_3<::UnityW<::GlobalNamespace::ColorHueSlider>, float_t, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
-  /// @brief Method add_colorHueDidChangeEvent, addr 0x23e294c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method add_colorHueDidChangeEvent, addr 0x24027ac, size 0xb4, virtual false, abstract: false, final false
   inline void add_colorHueDidChangeEvent(::System::Action_3<::UnityW<::GlobalNamespace::ColorHueSlider>, float_t, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
-  /// @brief Method remove_colorHueDidChangeEvent, addr 0x23e2a00, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method remove_colorHueDidChangeEvent, addr 0x2402860, size 0xb4, virtual false, abstract: false, final false
   inline void remove_colorHueDidChangeEvent(::System::Action_3<::UnityW<::GlobalNamespace::ColorHueSlider>, float_t, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
-  /// @brief Method Awake, addr 0x23e2ab4, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x2402914, size 0x90, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnDestroy, addr 0x23e2b44, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x24029a4, size 0x90, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method UpdateVisuals, addr 0x23e2bd4, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method UpdateVisuals, addr 0x2402a34, size 0xa8, virtual true, abstract: false, final false
   inline void UpdateVisuals();
 
-  /// @brief Method HandleNormalizedValueDidChange, addr 0x23e2c7c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandleNormalizedValueDidChange, addr 0x2402adc, size 0x24, virtual false, abstract: false, final false
   inline void HandleNormalizedValueDidChange(::HMUI::CircleSlider* slider, float_t normalizedValue);
 
-  /// @brief Method OnPointerUp, addr 0x23e2ca0, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method OnPointerUp, addr 0x2402b00, size 0x40, virtual true, abstract: false, final false
   inline void OnPointerUp(::UnityEngine::EventSystems::PointerEventData* eventData);
 
   static inline ::GlobalNamespace::ColorHueSlider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23e2ce0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2402b40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ColorHueSlider", modifiers: "&&", def_value: None }]

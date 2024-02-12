@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ResetPitchOnGameplayFinished);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4076))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4022))
 // CS Name: ::ResetPitchOnGameplayFinished*
 class CORDL_TYPE ResetPitchOnGameplayFinished : public ::System::Object {
 public:
@@ -48,13 +48,13 @@ public:
   static inline ::GlobalNamespace::ResetPitchOnGameplayFinished* New_ctor(::GlobalNamespace::GameplayLevelSceneTransitionEvents* gameplayLevelSceneTransitionEvents,
                                                                           ::GlobalNamespace::AudioManagerSO* audioManager);
 
-  /// @brief Method .ctor, addr 0x222ff5c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b9c00, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::GameplayLevelSceneTransitionEvents* gameplayLevelSceneTransitionEvents, ::GlobalNamespace::AudioManagerSO* audioManager);
 
-  /// @brief Method Finalize, addr 0x2230004, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x22b9ca8, size 0x110, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method HandleAnyGameplayLevelDidFinish, addr 0x2230114, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleAnyGameplayLevelDidFinish, addr 0x22b9db8, size 0x1c, virtual false, abstract: false, final false
   inline void HandleAnyGameplayLevelDidFinish();
 
   // Ctor Parameters [CppParam { name: "", ty: "ResetPitchOnGameplayFinished", modifiers: "&&", def_value: None }]

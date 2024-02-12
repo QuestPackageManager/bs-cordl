@@ -17,7 +17,7 @@ namespace System::Collections::Concurrent {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9525))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7535))
 // CS Name: ::System.Collections.Concurrent::BlockingCollectionDebugView`1<T>*
 class CORDL_TYPE BlockingCollectionDebugView_1 : public ::System::Object {
 public:

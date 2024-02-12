@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IGameNoteMirrorable);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4746))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4097))
 // CS Name: ::IGameNoteMirrorable*
 class CORDL_TYPE IGameNoteMirrorable {
 public:

@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::BakerHumanoidQT::*)(::StringW)>(&::RootMotion::BakerHumanoidQT::_ctor)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x1232cf0;
+  constexpr static std::size_t addrs = 0x12cdda0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::BakerHumanoidQT::*)(::UnityEngine::Transform*, ::UnityEngine::AvatarIKGoal, ::StringW)>(
     &::RootMotion::BakerHumanoidQT::_ctor)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x1232fac;
+  constexpr static std::size_t addrs = 0x12ce05c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::BakerHumanoidQT::*)()>(&::RootMotion::BakerHumanoidQT::Reset)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x1232e68;
+  constexpr static std::size_t addrs = 0x12cdf18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::BakerHumanoidQT*>::get(), "Reset",
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::RootMotion::BakerHumanoidQT::*)(float_t, ::UnityEngine::Avatar*, float_t, ::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(&::RootMotion::BakerHumanoidQT::SetIKKeyframes)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x1233134;
+  constexpr static std::size_t addrs = 0x12ce1e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::BakerHumanoidQT::*)(float_t, ::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(
     &::RootMotion::BakerHumanoidQT::SetKeyframes)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x1233368;
+  constexpr static std::size_t addrs = 0x12ce418;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::BakerHumanoidQT::*)(float_t)>(&::RootMotion::BakerHumanoidQT::MoveLastKeyframes)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x1233458;
+  constexpr static std::size_t addrs = 0x12ce508;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::BakerHumanoidQT::*)(float_t)>(&::RootMotion::BakerHumanoidQT::SetLoopFrame)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x123353c;
+  constexpr static std::size_t addrs = 0x12ce5ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::BakerHumanoidQT::*)(float_t, ::UnityEngine::AnimationCurve*)>(
     &::RootMotion::BakerHumanoidQT::MoveLastKeyframe)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x12334c0;
+  constexpr static std::size_t addrs = 0x12ce570;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::BakerHumanoidQT::*)(::UnityEngine::AnimationCurve*, float_t)>(
     &::RootMotion::BakerHumanoidQT::MultiplyLength)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x12335a4;
+  constexpr static std::size_t addrs = 0x12ce654;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::BakerHumanoidQT::*)(ByRef<::UnityEngine::AnimationClip*>, float_t, float_t)>(
     &::RootMotion::BakerHumanoidQT::SetCurves)> {
   constexpr static std::size_t size = 0x2ec;
-  constexpr static std::size_t addrs = 0x123364c;
+  constexpr static std::size_t addrs = 0x12ce6fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

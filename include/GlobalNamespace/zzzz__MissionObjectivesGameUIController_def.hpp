@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionObjectivesGameUIController);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5036))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4389))
 // CS Name: ::MissionObjectivesGameUIController*
 class CORDL_TYPE MissionObjectivesGameUIController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -80,21 +80,21 @@ public:
 
   constexpr void __cordl_internal_set__missionObjectiveGameUIViews(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::MissionObjectiveGameUIView>>* value);
 
-  /// @brief Method Start, addr 0x23c1424, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x237ec2c, size 0x90, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy, addr 0x23c1858, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x237f0f8, size 0xd0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleMissionObjectiveCheckersManagerObjectivesListDidChange, addr 0x23c192c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleMissionObjectiveCheckersManagerObjectivesListDidChange, addr 0x237f264, size 0x4, virtual false, abstract: false, final false
   inline void HandleMissionObjectiveCheckersManagerObjectivesListDidChange();
 
-  /// @brief Method CreateUIElements, addr 0x23c14b8, size 0x3a0, virtual false, abstract: false, final false
+  /// @brief Method CreateUIElements, addr 0x237ed58, size 0x3a0, virtual false, abstract: false, final false
   inline void CreateUIElements();
 
   static inline ::GlobalNamespace::MissionObjectivesGameUIController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23c1930, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x237f268, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionObjectivesGameUIController", modifiers: "&&", def_value: None }]

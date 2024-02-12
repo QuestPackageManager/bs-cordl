@@ -44,7 +44,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Converters::__QuaternionConverter____c);
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12038))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11936))
 // CS Name: ::QuaternionConverter::<>c*
 class CORDL_TYPE __QuaternionConverter____c : public ::System::Object {
 public:
@@ -93,22 +93,22 @@ public:
 
   static inline ::Newtonsoft::Json::Converters::__QuaternionConverter____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26b61ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d8368, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <ReadJson>b__2_0, addr 0x26b61b4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <ReadJson>b__2_0, addr 0x26d8370, size 0x54, virtual false, abstract: false, final false
   inline bool _ReadJson_b__2_0(::Newtonsoft::Json::Linq::JProperty* p);
 
-  /// @brief Method <ReadJson>b__2_1, addr 0x26b6208, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <ReadJson>b__2_1, addr 0x26d83c4, size 0x54, virtual false, abstract: false, final false
   inline bool _ReadJson_b__2_1(::Newtonsoft::Json::Linq::JProperty* p);
 
-  /// @brief Method <ReadJson>b__2_2, addr 0x26b625c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <ReadJson>b__2_2, addr 0x26d8418, size 0x54, virtual false, abstract: false, final false
   inline bool _ReadJson_b__2_2(::Newtonsoft::Json::Linq::JProperty* p);
 
-  /// @brief Method <ReadJson>b__2_3, addr 0x26b62b0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <ReadJson>b__2_3, addr 0x26d846c, size 0x54, virtual false, abstract: false, final false
   inline bool _ReadJson_b__2_3(::Newtonsoft::Json::Linq::JProperty* p);
 
-  /// @brief Method <ReadJson>b__2_4, addr 0x26b6304, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <ReadJson>b__2_4, addr 0x26d84c0, size 0x54, virtual false, abstract: false, final false
   inline bool _ReadJson_b__2_4(::Newtonsoft::Json::Linq::JProperty* p);
 
   // Ctor Parameters [CppParam { name: "", ty: "__QuaternionConverter____c", modifiers: "&&", def_value: None }]
@@ -135,8 +135,8 @@ static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Converters::__
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11830))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12039))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11728))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11937))
 // CS Name: ::Newtonsoft.Json.Converters::QuaternionConverter*
 class CORDL_TYPE QuaternionConverter : public ::Newtonsoft::Json::JsonConverter {
 public:
@@ -145,21 +145,21 @@ public:
 
   __declspec(property(get = get_CanRead)) bool CanRead;
 
-  /// @brief Method WriteJson, addr 0x26b5784, size 0x334, virtual true, abstract: false, final false
+  /// @brief Method WriteJson, addr 0x26d7940, size 0x334, virtual true, abstract: false, final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method CanConvert, addr 0x26b5ab8, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method CanConvert, addr 0x26d7c74, size 0x84, virtual true, abstract: false, final false
   inline bool CanConvert(::System::Type* objectType);
 
-  /// @brief Method ReadJson, addr 0x26b5b3c, size 0x5fc, virtual true, abstract: false, final false
+  /// @brief Method ReadJson, addr 0x26d7cf8, size 0x5fc, virtual true, abstract: false, final false
   inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method get_CanRead, addr 0x26b6138, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanRead, addr 0x26d82f4, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanRead();
 
   static inline ::Newtonsoft::Json::Converters::QuaternionConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26b6140, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d82fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "QuaternionConverter", modifiers: "&&", def_value: None }]

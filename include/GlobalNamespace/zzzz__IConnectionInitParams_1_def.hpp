@@ -16,7 +16,7 @@ namespace GlobalNamespace {
 template <typename T>
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12782))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12680))
 // CS Name: ::IConnectionInitParams`1<T>*
 class CORDL_TYPE IConnectionInitParams_1 {
 public:

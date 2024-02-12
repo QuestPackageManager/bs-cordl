@@ -21,15 +21,15 @@ MARK_REF_PTR_T(::System::Net::CredentialCache);
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9059))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7069))
 // CS Name: ::System.Net::CredentialCache*
 class CORDL_TYPE CredentialCache : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_DefaultCredentials, addr 0x299b568, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultCredentials, addr 0x299f00c, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Net::ICredentials* get_DefaultCredentials();
 
-  /// @brief Method get_DefaultNetworkCredentials, addr 0x299b5c0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultNetworkCredentials, addr 0x299f064, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Net::NetworkCredential* get_DefaultNetworkCredentials();
 
   // Ctor Parameters [CppParam { name: "", ty: "CredentialCache", modifiers: "&&", def_value: None }]

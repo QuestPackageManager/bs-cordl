@@ -2,10 +2,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__BeatmapKey_def.hpp"
 #include "GlobalNamespace/zzzz__SelectLevelCategoryViewController_def.hpp"
 #include "HMUI/zzzz__FlowCoordinator_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(LevelSelectionFlowCoordinator)
@@ -16,16 +18,13 @@ namespace GlobalNamespace {
 struct BeatmapDifficultyMask;
 }
 namespace GlobalNamespace {
-class IBeatmapLevelPack;
+struct BeatmapKey;
 }
 namespace GlobalNamespace {
-class IBeatmapLevel;
+class BeatmapLevelPack;
 }
 namespace GlobalNamespace {
-class IDifficultyBeatmap;
-}
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
+class BeatmapLevel;
 }
 namespace GlobalNamespace {
 struct LevelFilter;
@@ -77,11 +76,12 @@ class __LevelSelectionFlowCoordinator__State;
 MARK_REF_PTR_T(::GlobalNamespace::LevelSelectionFlowCoordinator);
 MARK_REF_PTR_T(::GlobalNamespace::__LevelSelectionFlowCoordinator__State);
 // Type: ::State
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5674)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4779 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5500)) CS Name: ::LevelSelectionFlowCoordinator::State*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4976)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10773)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4761 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4804)) CS
+// Name: ::LevelSelectionFlowCoordinator::State*
 class CORDL_TYPE __LevelSelectionFlowCoordinator__State : public ::System::Object {
 public:
   // Declarations
@@ -90,13 +90,13 @@ public:
                       put = __cordl_internal_set_levelCategory))::System::Nullable_1<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory> levelCategory;
 
   /// @brief Field beatmapLevelPack, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_beatmapLevelPack, put = __cordl_internal_set_beatmapLevelPack))::GlobalNamespace::IBeatmapLevelPack* beatmapLevelPack;
+  __declspec(property(get = __cordl_internal_get_beatmapLevelPack, put = __cordl_internal_set_beatmapLevelPack))::GlobalNamespace::BeatmapLevelPack* beatmapLevelPack;
 
-  /// @brief Field previewBeatmapLevel, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_previewBeatmapLevel, put = __cordl_internal_set_previewBeatmapLevel))::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel;
+  /// @brief Field beatmapKey, offset 0x20, size 0x18
+  __declspec(property(get = __cordl_internal_get_beatmapKey, put = __cordl_internal_set_beatmapKey))::GlobalNamespace::BeatmapKey beatmapKey;
 
-  /// @brief Field difficultyBeatmap, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_difficultyBeatmap, put = __cordl_internal_set_difficultyBeatmap))::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap;
+  /// @brief Field beatmapLevel, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_beatmapLevel, put = __cordl_internal_set_beatmapLevel))::GlobalNamespace::BeatmapLevel* beatmapLevel;
 
   constexpr ::System::Nullable_1<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory>& __cordl_internal_get_levelCategory();
 
@@ -104,50 +104,41 @@ public:
 
   constexpr void __cordl_internal_set_levelCategory(::System::Nullable_1<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory> value);
 
-  constexpr ::GlobalNamespace::IBeatmapLevelPack*& __cordl_internal_get_beatmapLevelPack();
+  constexpr ::GlobalNamespace::BeatmapLevelPack*& __cordl_internal_get_beatmapLevelPack();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatmapLevelPack*> const& __cordl_internal_get_beatmapLevelPack() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelPack*> const& __cordl_internal_get_beatmapLevelPack() const;
 
-  constexpr void __cordl_internal_set_beatmapLevelPack(::GlobalNamespace::IBeatmapLevelPack* value);
+  constexpr void __cordl_internal_set_beatmapLevelPack(::GlobalNamespace::BeatmapLevelPack* value);
 
-  constexpr ::GlobalNamespace::IPreviewBeatmapLevel*& __cordl_internal_get_previewBeatmapLevel();
+  constexpr ::GlobalNamespace::BeatmapKey& __cordl_internal_get_beatmapKey();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IPreviewBeatmapLevel*> const& __cordl_internal_get_previewBeatmapLevel() const;
+  constexpr ::GlobalNamespace::BeatmapKey const& __cordl_internal_get_beatmapKey() const;
 
-  constexpr void __cordl_internal_set_previewBeatmapLevel(::GlobalNamespace::IPreviewBeatmapLevel* value);
+  constexpr void __cordl_internal_set_beatmapKey(::GlobalNamespace::BeatmapKey value);
 
-  constexpr ::GlobalNamespace::IDifficultyBeatmap*& __cordl_internal_get_difficultyBeatmap();
+  constexpr ::GlobalNamespace::BeatmapLevel*& __cordl_internal_get_beatmapLevel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IDifficultyBeatmap*> const& __cordl_internal_get_difficultyBeatmap() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevel*> const& __cordl_internal_get_beatmapLevel() const;
 
-  constexpr void __cordl_internal_set_difficultyBeatmap(::GlobalNamespace::IDifficultyBeatmap* value);
+  constexpr void __cordl_internal_set_beatmapLevel(::GlobalNamespace::BeatmapLevel* value);
 
   static inline ::GlobalNamespace::__LevelSelectionFlowCoordinator__State* New_ctor(::System::Nullable_1<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory> levelCategory,
-                                                                                    ::GlobalNamespace::IBeatmapLevelPack* beatmapLevelPack,
-                                                                                    ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel,
-                                                                                    ::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
+                                                                                    ::GlobalNamespace::BeatmapLevelPack* beatmapLevelPack, ByRef<::GlobalNamespace::BeatmapKey> beatmapKey,
+                                                                                    ::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
-  /// @brief Method .ctor, addr 0x228b2cc, size 0x40, virtual false, abstract: false, final false
-  inline void _ctor(::System::Nullable_1<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory> levelCategory, ::GlobalNamespace::IBeatmapLevelPack* beatmapLevelPack,
-                    ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, ::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
+  /// @brief Method .ctor, addr 0x23e660c, size 0x4c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Nullable_1<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory> levelCategory, ::GlobalNamespace::BeatmapLevelPack* beatmapLevelPack,
+                    ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
-  static inline ::GlobalNamespace::__LevelSelectionFlowCoordinator__State* New_ctor(::GlobalNamespace::IBeatmapLevelPack* beatmapLevelPack);
+  static inline ::GlobalNamespace::__LevelSelectionFlowCoordinator__State* New_ctor(::GlobalNamespace::BeatmapLevelPack* beatmapLevelPack);
 
-  /// @brief Method .ctor, addr 0x228b30c, size 0x2c, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::IBeatmapLevelPack* beatmapLevelPack);
+  /// @brief Method .ctor, addr 0x23e6658, size 0x30, virtual false, abstract: false, final false
+  inline void _ctor(::GlobalNamespace::BeatmapLevelPack* beatmapLevelPack);
 
-  static inline ::GlobalNamespace::__LevelSelectionFlowCoordinator__State* New_ctor(::GlobalNamespace::IBeatmapLevelPack* beatmapLevelPack,
-                                                                                    ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel);
+  static inline ::GlobalNamespace::__LevelSelectionFlowCoordinator__State* New_ctor(::GlobalNamespace::BeatmapLevelPack* beatmapLevelPack, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
-  /// @brief Method .ctor, addr 0x228b338, size 0x30, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::IBeatmapLevelPack* beatmapLevelPack, ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel);
-
-  static inline ::GlobalNamespace::__LevelSelectionFlowCoordinator__State* New_ctor(::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory levelCategory,
-                                                                                    ::GlobalNamespace::IBeatmapLevelPack* beatmapLevelPack, ::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
-
-  /// @brief Method .ctor, addr 0x228b368, size 0x100, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory levelCategory, ::GlobalNamespace::IBeatmapLevelPack* beatmapLevelPack,
-                    ::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
+  /// @brief Method .ctor, addr 0x23e6688, size 0x34, virtual false, abstract: false, final false
+  inline void _ctor(::GlobalNamespace::BeatmapLevelPack* beatmapLevelPack, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
   // Ctor Parameters [CppParam { name: "", ty: "__LevelSelectionFlowCoordinator__State", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
@@ -167,34 +158,34 @@ public:
   ::System::Nullable_1<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory> ___levelCategory;
 
   /// @brief Field beatmapLevelPack, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::IBeatmapLevelPack* ___beatmapLevelPack;
+  ::GlobalNamespace::BeatmapLevelPack* ___beatmapLevelPack;
 
-  /// @brief Field previewBeatmapLevel, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::IPreviewBeatmapLevel* ___previewBeatmapLevel;
+  /// @brief Field beatmapKey, offset: 0x20, size: 0x18, def value: None
+  ::GlobalNamespace::BeatmapKey ___beatmapKey;
 
-  /// @brief Field difficultyBeatmap, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::IDifficultyBeatmap* ___difficultyBeatmap;
+  /// @brief Field beatmapLevel, offset: 0x38, size: 0x8, def value: None
+  ::GlobalNamespace::BeatmapLevel* ___beatmapLevel;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LevelSelectionFlowCoordinator__State, 0x30>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LevelSelectionFlowCoordinator__State, 0x40>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::__LevelSelectionFlowCoordinator__State, ___levelCategory) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::__LevelSelectionFlowCoordinator__State, ___beatmapLevelPack) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__LevelSelectionFlowCoordinator__State, ___previewBeatmapLevel) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__LevelSelectionFlowCoordinator__State, ___beatmapKey) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__LevelSelectionFlowCoordinator__State, ___difficultyBeatmap) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__LevelSelectionFlowCoordinator__State, ___beatmapLevel) == 0x38, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 // Type: ::LevelSelectionFlowCoordinator
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13582))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5501))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13535))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4805))
 // CS Name: ::LevelSelectionFlowCoordinator*
 class CORDL_TYPE LevelSelectionFlowCoordinator : public ::HMUI::FlowCoordinator {
 public:
@@ -223,11 +214,11 @@ public:
 
   __declspec(property(get = get_selectedLevelCategory))::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory selectedLevelCategory;
 
-  __declspec(property(get = get_selectedBeatmapLevelPack))::GlobalNamespace::IBeatmapLevelPack* selectedBeatmapLevelPack;
+  __declspec(property(get = get_selectedBeatmapLevelPack))::GlobalNamespace::BeatmapLevelPack* selectedBeatmapLevelPack;
 
-  __declspec(property(get = get_selectedDifficultyBeatmap))::GlobalNamespace::IDifficultyBeatmap* selectedDifficultyBeatmap;
+  __declspec(property(get = get_selectedBeatmapKey))::GlobalNamespace::BeatmapKey selectedBeatmapKey;
 
-  __declspec(property(get = get_selectedBeatmapLevel))::GlobalNamespace::IPreviewBeatmapLevel* selectedBeatmapLevel;
+  __declspec(property(get = get_selectedBeatmapLevel))::GlobalNamespace::BeatmapLevel* selectedBeatmapLevel;
 
   __declspec(property(get = get_initialTopScreenViewController))::UnityW<::HMUI::ViewController> initialTopScreenViewController;
 
@@ -284,122 +275,122 @@ public:
 
   constexpr void __cordl_internal_set__startState(::GlobalNamespace::__LevelSelectionFlowCoordinator__State* value);
 
-  /// @brief Method get_isInRootViewController, addr 0x228a628, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_isInRootViewController, addr 0x23e58e4, size 0x74, virtual false, abstract: false, final false
   inline bool get_isInRootViewController();
 
-  /// @brief Method get_selectedLevelCategory, addr 0x228a69c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_selectedLevelCategory, addr 0x23e5958, size 0x1c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory get_selectedLevelCategory();
 
-  /// @brief Method get_selectedBeatmapLevelPack, addr 0x228a6b8, size 0x1c, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::IBeatmapLevelPack* get_selectedBeatmapLevelPack();
+  /// @brief Method get_selectedBeatmapLevelPack, addr 0x23e5974, size 0x1c, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::BeatmapLevelPack* get_selectedBeatmapLevelPack();
 
-  /// @brief Method get_selectedDifficultyBeatmap, addr 0x228a6d4, size 0x1c, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::IDifficultyBeatmap* get_selectedDifficultyBeatmap();
+  /// @brief Method get_selectedBeatmapKey, addr 0x23e5990, size 0x40, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::BeatmapKey get_selectedBeatmapKey();
 
-  /// @brief Method get_selectedBeatmapLevel, addr 0x228a6f0, size 0x1c, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::IPreviewBeatmapLevel* get_selectedBeatmapLevel();
+  /// @brief Method get_selectedBeatmapLevel, addr 0x23e59d0, size 0x1c, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::BeatmapLevel* get_selectedBeatmapLevel();
 
-  /// @brief Method get_initialTopScreenViewController, addr 0x228a70c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_initialTopScreenViewController, addr 0x23e59ec, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::HMUI::ViewController> get_initialTopScreenViewController();
 
-  /// @brief Method get_initialLeftScreenViewController, addr 0x228a714, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_initialLeftScreenViewController, addr 0x23e59f4, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::HMUI::ViewController> get_initialLeftScreenViewController();
 
-  /// @brief Method get_initialRightScreenViewController, addr 0x228a71c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_initialRightScreenViewController, addr 0x23e59fc, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::HMUI::ViewController> get_initialRightScreenViewController();
 
-  /// @brief Method get_showBackButtonForMainViewController, addr 0x228a724, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_showBackButtonForMainViewController, addr 0x23e5a04, size 0x8, virtual true, abstract: false, final false
   inline bool get_showBackButtonForMainViewController();
 
-  /// @brief Method get_hidePacksIfOneOrNone, addr 0x228a72c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_hidePacksIfOneOrNone, addr 0x23e5a0c, size 0x8, virtual true, abstract: false, final false
   inline bool get_hidePacksIfOneOrNone();
 
-  /// @brief Method get_hidePracticeButton, addr 0x228a734, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_hidePracticeButton, addr 0x23e5a14, size 0x8, virtual true, abstract: false, final false
   inline bool get_hidePracticeButton();
 
-  /// @brief Method get_actionButtonText, addr 0x228a73c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_actionButtonText, addr 0x23e5a1c, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_actionButtonText();
 
-  /// @brief Method get_mainTitle, addr 0x228a780, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_mainTitle, addr 0x23e5a60, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_mainTitle();
 
-  /// @brief Method get_enableCustomLevels, addr 0x228a788, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_enableCustomLevels, addr 0x23e5a68, size 0x8, virtual true, abstract: false, final false
   inline bool get_enableCustomLevels();
 
-  /// @brief Method get_songPackMask, addr 0x228a790, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method get_songPackMask, addr 0x23e5a70, size 0x2c, virtual true, abstract: false, final false
   inline ::GlobalNamespace::SongPackMask get_songPackMask();
 
-  /// @brief Method get_allowedBeatmapDifficultyMask, addr 0x228a7bc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_allowedBeatmapDifficultyMask, addr 0x23e5a9c, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDifficultyMask get_allowedBeatmapDifficultyMask();
 
-  /// @brief Method get_notAllowedCharacteristics, addr 0x228a7c4, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_notAllowedCharacteristics, addr 0x23e5aa4, size 0x44, virtual true, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::Array<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*> get_notAllowedCharacteristics();
 
-  /// @brief Method LevelSelectionFlowCoordinatorDidActivate, addr 0x228a808, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method LevelSelectionFlowCoordinatorDidActivate, addr 0x23e5ae8, size 0x4, virtual true, abstract: false, final false
   inline void LevelSelectionFlowCoordinatorDidActivate(bool firstActivation, bool addedToHierarchy);
 
-  /// @brief Method LevelSelectionFlowCoordinatorDidDeactivate, addr 0x228a80c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method LevelSelectionFlowCoordinatorDidDeactivate, addr 0x23e5aec, size 0x4, virtual true, abstract: false, final false
   inline void LevelSelectionFlowCoordinatorDidDeactivate(bool removedFromHierarchy);
 
-  /// @brief Method LevelSelectionFlowCoordinatorTopViewControllerWillChange, addr 0x228a810, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method LevelSelectionFlowCoordinatorTopViewControllerWillChange, addr 0x23e5af0, size 0xfc, virtual true, abstract: false, final false
   inline void LevelSelectionFlowCoordinatorTopViewControllerWillChange(::HMUI::ViewController* oldViewController, ::HMUI::ViewController* newViewController,
                                                                        ::HMUI::__ViewController__AnimationType animationType);
 
-  /// @brief Method ActionButtonWasPressed, addr 0x228a90c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ActionButtonWasPressed, addr 0x23e5bec, size 0x4, virtual true, abstract: false, final false
   inline void ActionButtonWasPressed();
 
-  /// @brief Method PracticeButtonWasPressed, addr 0x228a910, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method PracticeButtonWasPressed, addr 0x23e5bf0, size 0x4, virtual true, abstract: false, final false
   inline void PracticeButtonWasPressed();
 
-  /// @brief Method SelectionDidChange, addr 0x228a914, size 0x4, virtual true, abstract: false, final false
-  inline void SelectionDidChange(::GlobalNamespace::IBeatmapLevelPack* pack, ::GlobalNamespace::IDifficultyBeatmap* beatmap);
+  /// @brief Method SelectionDidChange, addr 0x23e5bf4, size 0x4, virtual true, abstract: false, final false
+  inline void SelectionDidChange(::GlobalNamespace::BeatmapLevelPack* pack, ByRef<::GlobalNamespace::BeatmapKey> beatmapKey);
 
-  /// @brief Method Setup, addr 0x228a918, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x23e5bf8, size 0x8, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::__LevelSelectionFlowCoordinator__State* state);
 
-  /// @brief Method DidActivate, addr 0x228a920, size 0x500, virtual true, abstract: false, final true
+  /// @brief Method DidActivate, addr 0x23e5c00, size 0x4f0, virtual true, abstract: false, final true
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x228ae20, size 0x2c4, virtual true, abstract: false, final true
+  /// @brief Method DidDeactivate, addr 0x23e60f0, size 0x2b8, virtual true, abstract: false, final true
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method TopViewControllerWillChange, addr 0x228b0e4, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method TopViewControllerWillChange, addr 0x23e63a8, size 0x10, virtual true, abstract: false, final true
   inline void TopViewControllerWillChange(::HMUI::ViewController* oldViewController, ::HMUI::ViewController* newViewController, ::HMUI::__ViewController__AnimationType animationType);
 
-  /// @brief Method HandleLevelSelectionNavigationControllerDidSelectPack, addr 0x228b0f4, size 0x18, virtual false, abstract: false, final false
-  inline void HandleLevelSelectionNavigationControllerDidSelectPack(::GlobalNamespace::LevelSelectionNavigationController* viewController, ::GlobalNamespace::IBeatmapLevelPack* pack);
+  /// @brief Method HandleLevelSelectionNavigationControllerDidSelectPack, addr 0x23e63b8, size 0x30, virtual false, abstract: false, final false
+  inline void HandleLevelSelectionNavigationControllerDidSelectPack(::GlobalNamespace::LevelSelectionNavigationController* viewController, ::GlobalNamespace::BeatmapLevelPack* pack);
 
-  /// @brief Method HandleSearchFilterParamsViewControllerDidFinish, addr 0x228b10c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method HandleSearchFilterParamsViewControllerDidFinish, addr 0x23e63e8, size 0x48, virtual false, abstract: false, final false
   inline void HandleSearchFilterParamsViewControllerDidFinish(::GlobalNamespace::SearchFilterParamsViewController* viewController, ::GlobalNamespace::LevelFilter filter);
 
-  /// @brief Method HandleLevelSearchViewControllerDidPressSearchButton, addr 0x228b154, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method HandleLevelSearchViewControllerDidPressSearchButton, addr 0x23e6430, size 0x40, virtual false, abstract: false, final false
   inline void HandleLevelSearchViewControllerDidPressSearchButton(::GlobalNamespace::LevelSearchViewController* viewController, ::GlobalNamespace::LevelFilter filter);
 
-  /// @brief Method HandleLevelSelectionNavigationControllerDidPressActionButton, addr 0x228b194, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method HandleLevelSelectionNavigationControllerDidPressActionButton, addr 0x23e6470, size 0x10, virtual false, abstract: false, final false
   inline void HandleLevelSelectionNavigationControllerDidPressActionButton(::GlobalNamespace::LevelSelectionNavigationController* viewController);
 
-  /// @brief Method HandleLevelSelectionNavigationControllerDidPressPracticeButton, addr 0x228b1a4, size 0x10, virtual true, abstract: false, final false
-  inline void HandleLevelSelectionNavigationControllerDidPressPracticeButton(::GlobalNamespace::LevelSelectionNavigationController* viewController, ::GlobalNamespace::IBeatmapLevel* level);
+  /// @brief Method HandleLevelSelectionNavigationControllerDidPressPracticeButton, addr 0x23e6480, size 0x10, virtual true, abstract: false, final false
+  inline void HandleLevelSelectionNavigationControllerDidPressPracticeButton(::GlobalNamespace::LevelSelectionNavigationController* viewController, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
-  /// @brief Method HandleLevelSelectionNavigationControllerDidChangeDifficultyBeatmap, addr 0x228b1b4, size 0x14, virtual true, abstract: false, final false
-  inline void HandleLevelSelectionNavigationControllerDidChangeDifficultyBeatmap(::GlobalNamespace::LevelSelectionNavigationController* viewController, ::GlobalNamespace::IDifficultyBeatmap* beatmap);
+  /// @brief Method HandleLevelSelectionNavigationControllerDidChangeDifficultyBeatmap, addr 0x23e6490, size 0x64, virtual true, abstract: false, final false
+  inline void HandleLevelSelectionNavigationControllerDidChangeDifficultyBeatmap(::GlobalNamespace::LevelSelectionNavigationController* viewController);
 
-  /// @brief Method HandleLevelSelectionNavigationControllerDidChangeLevelDetailContent, addr 0x228b1c8, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method HandleLevelSelectionNavigationControllerDidChangeLevelDetailContent, addr 0x23e64f4, size 0x6c, virtual true, abstract: false, final false
   inline void HandleLevelSelectionNavigationControllerDidChangeLevelDetailContent(::GlobalNamespace::LevelSelectionNavigationController* viewController,
                                                                                   ::GlobalNamespace::__StandardLevelDetailViewController__ContentType contentType);
 
-  /// @brief Method Refresh, addr 0x228b220, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method Refresh, addr 0x23e6560, size 0x1c, virtual true, abstract: false, final false
   inline void Refresh();
 
-  /// @brief Method IsMainViewController, addr 0x228b23c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method IsMainViewController, addr 0x23e657c, size 0x6c, virtual false, abstract: false, final false
   inline bool IsMainViewController(::HMUI::ViewController* viewController);
 
-  /// @brief Method PresentMainViewController, addr 0x228b2a8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method PresentMainViewController, addr 0x23e65e8, size 0x1c, virtual false, abstract: false, final false
   inline void PresentMainViewController(::System::Action* finishedCallback, ::HMUI::__ViewController__AnimationType animationType);
 
   static inline ::GlobalNamespace::LevelSelectionFlowCoordinator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x228b2c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23e6604, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LevelSelectionFlowCoordinator", modifiers: "&&", def_value: None }]

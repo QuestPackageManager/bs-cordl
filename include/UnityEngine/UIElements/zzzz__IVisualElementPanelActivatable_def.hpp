@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IVisualElementPanelActivatable);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6748))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6007))
 // CS Name: ::UnityEngine.UIElements::IVisualElementPanelActivatable*
 class CORDL_TYPE IVisualElementPanelActivatable {
 public:

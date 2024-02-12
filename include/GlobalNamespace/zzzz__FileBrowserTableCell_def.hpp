@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::GlobalNamespace::FileBrowserTableCell);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13664))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5482))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13617))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4785))
 // CS Name: ::FileBrowserTableCell*
 class CORDL_TYPE FileBrowserTableCell : public ::HMUI::TableCell {
 public:
@@ -59,21 +59,21 @@ public:
 
   constexpr void __cordl_internal_set__highlightImage(::UnityW<::UnityEngine::UI::Image> value);
 
-  /// @brief Method set_text, addr 0x22843e4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x23e00f8, size 0x24, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
-  /// @brief Method get_text, addr 0x2284408, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x23e011c, size 0x24, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method SelectionDidChange, addr 0x228442c, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method SelectionDidChange, addr 0x23e0140, size 0xa4, virtual true, abstract: false, final false
   inline void SelectionDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
 
-  /// @brief Method HighlightDidChange, addr 0x22844d0, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method HighlightDidChange, addr 0x23e01e4, size 0x40, virtual true, abstract: false, final false
   inline void HighlightDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
 
   static inline ::GlobalNamespace::FileBrowserTableCell* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2284510, size 0x1008, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23e0224, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FileBrowserTableCell", modifiers: "&&", def_value: None }]

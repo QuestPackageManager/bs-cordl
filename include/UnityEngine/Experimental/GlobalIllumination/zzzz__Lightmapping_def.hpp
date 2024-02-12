@@ -44,17 +44,17 @@ MARK_REF_PTR_T(::UnityEngine::Experimental::GlobalIllumination::__Lightmapping__
 namespace UnityEngine::Experimental::GlobalIllumination {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10399))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9167))
 // CS Name: ::Lightmapping::RequestLightsDelegate*
 class CORDL_TYPE __Lightmapping__RequestLightsDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::UnityEngine::Experimental::GlobalIllumination::__Lightmapping__RequestLightsDelegate* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2cf34fc, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cfe1d8, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x2cf35d4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2cfe2b0, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::ArrayW<::UnityEngine::Light*, ::Array<::UnityEngine::Light*>*> requests,
                      ::Unity::Collections::NativeArray_1<::UnityEngine::Experimental::GlobalIllumination::LightDataGI> lightsOutput);
 
@@ -83,7 +83,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::Experimental::Globa
 namespace UnityEngine::Experimental::GlobalIllumination {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10400))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9168))
 // CS Name: ::Lightmapping::<>c*
 class CORDL_TYPE __Lightmapping____c : public ::System::Object {
 public:
@@ -97,10 +97,10 @@ public:
 
   static inline ::UnityEngine::Experimental::GlobalIllumination::__Lightmapping____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2cf364c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cfe328, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <.cctor>b__7_0, addr 0x2cf3654, size 0x4c0, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__7_0, addr 0x2cfe330, size 0x4c0, virtual false, abstract: false, final false
   inline void __cctor_b__7_0(::ArrayW<::UnityEngine::Light*, ::Array<::UnityEngine::Light*>*> requests,
                              ::Unity::Collections::NativeArray_1<::UnityEngine::Experimental::GlobalIllumination::LightDataGI> lightsOutput);
 
@@ -129,7 +129,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::Experimental::Globa
 namespace UnityEngine::Experimental::GlobalIllumination {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10401))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9169))
 // CS Name: ::UnityEngine.Experimental.GlobalIllumination::Lightmapping*
 class CORDL_TYPE Lightmapping : public ::System::Object {
 public:
@@ -154,16 +154,16 @@ public:
 
   static inline ::UnityEngine::Experimental::GlobalIllumination::__Lightmapping__RequestLightsDelegate* getStaticF_s_RequestLightsDelegate();
 
-  /// @brief Method SetDelegate, addr 0x2cf3234, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SetDelegate, addr 0x2cfdf10, size 0x78, virtual false, abstract: false, final false
   static inline void SetDelegate(::UnityEngine::Experimental::GlobalIllumination::__Lightmapping__RequestLightsDelegate* del);
 
-  /// @brief Method GetDelegate, addr 0x2cf32ac, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetDelegate, addr 0x2cfdf88, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::GlobalIllumination::__Lightmapping__RequestLightsDelegate* GetDelegate();
 
-  /// @brief Method ResetDelegate, addr 0x2cf3304, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ResetDelegate, addr 0x2cfdfe0, size 0x5c, virtual false, abstract: false, final false
   static inline void ResetDelegate();
 
-  /// @brief Method RequestLights, addr 0x2cf3360, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method RequestLights, addr 0x2cfe03c, size 0xcc, virtual false, abstract: false, final false
   static inline void RequestLights(::ArrayW<::UnityEngine::Light*, ::Array<::UnityEngine::Light*>*> lights, void* outLightsPtr, int32_t outLightsCount);
 
   // Ctor Parameters [CppParam { name: "", ty: "Lightmapping", modifiers: "&&", def_value: None }]

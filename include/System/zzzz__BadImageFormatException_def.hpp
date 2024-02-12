@@ -52,39 +52,39 @@ public:
 
   static inline ::System::BadImageFormatException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2521554, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2542e38, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::BadImageFormatException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x25215b0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2542e94, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::System::BadImageFormatException* New_ctor(::StringW message, ::System::Exception* inner);
 
-  /// @brief Method .ctor, addr 0x25215d4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2542eb8, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* inner);
 
   static inline ::System::BadImageFormatException* New_ctor(::StringW message, ::StringW fileName);
 
-  /// @brief Method .ctor, addr 0x25215f8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2542edc, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::StringW fileName);
 
   static inline ::System::BadImageFormatException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x252162c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2542f10, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetObjectData, addr 0x25216dc, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x2542fc0, size 0x118, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method get_Message, addr 0x25217f4, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x25430d8, size 0x18, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
-  /// @brief Method SetMessageField, addr 0x252180c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetMessageField, addr 0x25430f0, size 0x7c, virtual false, abstract: false, final false
   inline void SetMessageField();
 
-  /// @brief Method ToString, addr 0x2521888, size 0x1e4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x254316c, size 0x1e4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "BadImageFormatException", modifiers: "&&", def_value: None }]

@@ -51,22 +51,22 @@ public:
 
   static inline ::System::Security::AccessControl::RawAcl* New_ctor(uint8_t revision, int32_t capacity);
 
-  /// @brief Method .ctor, addr 0x2481258, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24a32cc, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(uint8_t revision, int32_t capacity);
 
-  /// @brief Method get_Count, addr 0x24849c4, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method get_Count, addr 0x24a6a38, size 0x48, virtual true, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Item, addr 0x2484a0c, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_Item, addr 0x24a6a80, size 0x58, virtual true, abstract: false, final false
   inline ::System::Security::AccessControl::GenericAce* get_Item(int32_t index);
 
-  /// @brief Method set_Item, addr 0x2484a64, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method set_Item, addr 0x24a6ad8, size 0x68, virtual true, abstract: false, final false
   inline void set_Item(int32_t index, ::System::Security::AccessControl::GenericAce* value);
 
-  /// @brief Method InsertAce, addr 0x2482934, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method InsertAce, addr 0x24a49a8, size 0xd8, virtual false, abstract: false, final false
   inline void InsertAce(int32_t index, ::System::Security::AccessControl::GenericAce* ace);
 
-  /// @brief Method RemoveAce, addr 0x2482380, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method RemoveAce, addr 0x24a43f4, size 0x58, virtual false, abstract: false, final false
   inline void RemoveAce(int32_t index);
 
   // Ctor Parameters [CppParam { name: "", ty: "RawAcl", modifiers: "&&", def_value: None }]

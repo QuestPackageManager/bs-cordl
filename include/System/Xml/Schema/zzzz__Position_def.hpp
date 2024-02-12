@@ -19,12 +19,12 @@ MARK_VAL_T(::System::Xml::Schema::Position);
 namespace System::Xml::Schema {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11597))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11495))
 // CS Name: ::System.Xml.Schema::Position
 struct CORDL_TYPE Position {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x28ada14, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28b107c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t symbol, ::System::Object* particle);
 
   // Ctor Parameters [CppParam { name: "symbol", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "particle", ty: "::System::Object*", modifiers: "", def_value: None }]

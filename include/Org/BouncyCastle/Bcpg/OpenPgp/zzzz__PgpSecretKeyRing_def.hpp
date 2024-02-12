@@ -66,60 +66,60 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKeyRing* New_ctor(::System::Collections::IList* keys);
 
-  /// @brief Method .ctor, addr 0x10c381c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10f16ac, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IList* keys);
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKeyRing* New_ctor(::System::Collections::IList* keys, ::System::Collections::IList* extraPubKeys);
 
-  /// @brief Method .ctor, addr 0x10c3894, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10f1724, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IList* keys, ::System::Collections::IList* extraPubKeys);
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKeyRing* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> encoding);
 
-  /// @brief Method .ctor, addr 0x10c38c0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10f1750, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> encoding);
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKeyRing* New_ctor(::System::IO::Stream* inputStream);
 
-  /// @brief Method .ctor, addr 0x10c3934, size 0x538, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10f17c4, size 0x538, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* inputStream);
 
-  /// @brief Method GetPublicKey, addr 0x10c3e6c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetPublicKey, addr 0x10f1cfc, size 0xf4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey* GetPublicKey();
 
-  /// @brief Method GetSecretKey, addr 0x10c3f60, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetSecretKey, addr 0x10f1df0, size 0xf0, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKey* GetSecretKey();
 
-  /// @brief Method GetSecretKeys, addr 0x10c4050, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetSecretKeys, addr 0x10f1ee0, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerable* GetSecretKeys();
 
-  /// @brief Method GetSecretKey, addr 0x10c40b8, size 0x374, virtual false, abstract: false, final false
+  /// @brief Method GetSecretKey, addr 0x10f1f48, size 0x374, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKey* GetSecretKey(int64_t keyId);
 
-  /// @brief Method GetExtraPublicKeys, addr 0x10c442c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetExtraPublicKeys, addr 0x10f22bc, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerable* GetExtraPublicKeys();
 
-  /// @brief Method GetEncoded, addr 0x10c4494, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x10f2324, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
-  /// @brief Method Encode, addr 0x10c450c, size 0x658, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x10f239c, size 0x658, virtual false, abstract: false, final false
   inline void Encode(::System::IO::Stream* outStr);
 
-  /// @brief Method ReplacePublicKeys, addr 0x10c4b64, size 0x4ec, virtual false, abstract: false, final false
+  /// @brief Method ReplacePublicKeys, addr 0x10f29f4, size 0x4ec, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKeyRing* ReplacePublicKeys(::Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKeyRing* secretRing,
                                                                                         ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRing* publicRing);
 
-  /// @brief Method CopyWithNewPassword, addr 0x10c5050, size 0x5a4, virtual false, abstract: false, final false
+  /// @brief Method CopyWithNewPassword, addr 0x10f2ee0, size 0x5a4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKeyRing* CopyWithNewPassword(::Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKeyRing* ring,
                                                                                           ::ArrayW<char16_t, ::Array<char16_t>*> oldPassPhrase, ::ArrayW<char16_t, ::Array<char16_t>*> newPassPhrase,
                                                                                           ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag newEncAlgorithm,
                                                                                           ::Org::BouncyCastle::Security::SecureRandom* rand);
 
-  /// @brief Method InsertSecretKey, addr 0x10c55f4, size 0x3ec, virtual false, abstract: false, final false
+  /// @brief Method InsertSecretKey, addr 0x10f3484, size 0x3ec, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKeyRing* InsertSecretKey(::Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKeyRing* secRing,
                                                                                       ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKey* secKey);
 
-  /// @brief Method RemoveSecretKey, addr 0x10c59e0, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method RemoveSecretKey, addr 0x10f3870, size 0x298, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKeyRing* RemoveSecretKey(::Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKeyRing* secRing,
                                                                                       ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKey* secKey);
 

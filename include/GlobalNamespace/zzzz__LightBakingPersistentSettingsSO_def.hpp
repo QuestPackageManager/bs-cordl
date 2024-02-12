@@ -65,8 +65,8 @@ MARK_REF_PTR_T(::GlobalNamespace::LightBakingPersistentSettingsSO);
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5862))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15602))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5152))
 // CS Name: ::LightBakingPersistentSettingsSO*
 class CORDL_TYPE LightBakingPersistentSettingsSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -264,60 +264,60 @@ public:
 
   constexpr void __cordl_internal_set__defaultDepthOnlyWriteMaterialForFakeMirror(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method get_reflectionsCount, addr 0x22f79c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_reflectionsCount, addr 0x23242cc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_reflectionsCount();
 
-  /// @brief Method set_reflectionsCount, addr 0x22f79cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_reflectionsCount, addr 0x23242d4, size 0x8, virtual false, abstract: false, final false
   inline void set_reflectionsCount(int32_t value);
 
-  /// @brief Method get_colorFromSchemeAlpha, addr 0x22f79d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorFromSchemeAlpha, addr 0x23242dc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_colorFromSchemeAlpha();
 
-  /// @brief Method set_colorFromSchemeAlpha, addr 0x22f79dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_colorFromSchemeAlpha, addr 0x23242e4, size 0x8, virtual false, abstract: false, final false
   inline void set_colorFromSchemeAlpha(float_t value);
 
-  /// @brief Method get_bakedLightEditorColors, addr 0x22f79e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bakedLightEditorColors, addr 0x23242ec, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> get_bakedLightEditorColors();
 
-  /// @brief Method get_defaultDepthOnlyWriteMaterialForFakeMirror, addr 0x22f79ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultDepthOnlyWriteMaterialForFakeMirror, addr 0x23242f4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_defaultDepthOnlyWriteMaterialForFakeMirror();
 
-  /// @brief Method get_mainEffectForBakingIsOn, addr 0x22f79f4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_mainEffectForBakingIsOn, addr 0x23242fc, size 0x70, virtual false, abstract: false, final false
   inline bool get_mainEffectForBakingIsOn();
 
-  /// @brief Method set_mainEffectForBakingIsOn, addr 0x22f7a64, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method set_mainEffectForBakingIsOn, addr 0x232436c, size 0xb0, virtual false, abstract: false, final false
   inline void set_mainEffectForBakingIsOn(bool value);
 
-  /// @brief Method get_bakedLightDataLoaderPrefab, addr 0x22f7b14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bakedLightDataLoaderPrefab, addr 0x232441c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BakedLightDataLoader> get_bakedLightDataLoaderPrefab();
 
-  /// @brief Method get_bakedReflectionProbePrefab, addr 0x22f7b1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bakedReflectionProbePrefab, addr 0x2324424, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BakedReflectionProbe> get_bakedReflectionProbePrefab();
 
-  /// @brief Method get_lightmapLightsWithIds, addr 0x22f7b24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightmapLightsWithIds, addr 0x232442c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::LightmapLightsWithIds> get_lightmapLightsWithIds();
 
-  /// @brief Method get_fakeMirrorObjectsInstallerPrefab, addr 0x22f7b2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fakeMirrorObjectsInstallerPrefab, addr 0x2324434, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::FakeMirrorObjectsInstaller> get_fakeMirrorObjectsInstallerPrefab();
 
-  /// @brief Method get_fakeMirrorSettingsPrefab, addr 0x22f7b34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fakeMirrorSettingsPrefab, addr 0x232443c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::FakeMirrorSettings> get_fakeMirrorSettingsPrefab();
 
-  /// @brief Method SetGraphicsSettingsForBaking, addr 0x22f7b3c, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method SetGraphicsSettingsForBaking, addr 0x2324444, size 0x254, virtual false, abstract: false, final false
   inline void SetGraphicsSettingsForBaking();
 
-  /// @brief Method SetPlatformGraphics, addr 0x22f7e40, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method SetPlatformGraphics, addr 0x2324748, size 0x204, virtual false, abstract: false, final false
   inline void SetPlatformGraphics();
 
-  /// @brief Method SetToneMappingOn, addr 0x22f7d90, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method SetToneMappingOn, addr 0x2324698, size 0xb0, virtual false, abstract: false, final false
   inline void SetToneMappingOn(bool isOn);
 
-  /// @brief Method IsToneMappingOn, addr 0x22f7fec, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method IsToneMappingOn, addr 0x232494c, size 0x34, virtual false, abstract: false, final false
   inline bool IsToneMappingOn();
 
   static inline ::GlobalNamespace::LightBakingPersistentSettingsSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22f8020, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2324980, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LightBakingPersistentSettingsSO", modifiers: "&&", def_value: None }]

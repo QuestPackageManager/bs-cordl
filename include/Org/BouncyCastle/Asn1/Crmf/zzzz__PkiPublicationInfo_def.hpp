@@ -58,19 +58,19 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::PkiPublicationInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xe87014, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeb0ea4, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance, addr 0xe8707c, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xeb0f0c, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Crmf::PkiPublicationInfo* GetInstance(::System::Object* obj);
 
-  /// @brief Method get_Action, addr 0xe87204, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Action, addr 0xeb1094, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Action();
 
-  /// @brief Method GetPubInfos, addr 0xe8720c, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method GetPubInfos, addr 0xeb109c, size 0xfc, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Crmf::SinglePubInfo*, ::Array<::Org::BouncyCastle::Asn1::Crmf::SinglePubInfo*>*> GetPubInfos();
 
-  /// @brief Method ToAsn1Object, addr 0xe87490, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xeb1320, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "PkiPublicationInfo", modifiers: "&&", def_value: None }]

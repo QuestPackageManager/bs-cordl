@@ -89,7 +89,7 @@ MARK_REF_PTR_T(::HMUI::__InputFieldView___BlinkingCaretCoroutine_d__43);
 namespace HMUI {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13629))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13582))
 // CS Name: ::InputFieldView::SelectionState
 struct CORDL_TYPE __InputFieldView__SelectionState {
 public:
@@ -150,8 +150,8 @@ static_assert(offsetof(::HMUI::__InputFieldView__SelectionState, value__) == 0x0
 // SizeInfo { instance_size: 376, native_size: -1, calculated_instance_size: 376, calculated_native_size: 376, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(13119)), TypeDefinitionIndex(TypeDefinitionIndex(13629))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13632))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(13017)), TypeDefinitionIndex(TypeDefinitionIndex(13582))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13585))
 // CS Name: ::HMUI::InputFieldView*
 class CORDL_TYPE InputFieldView : public ::UnityEngine::UI::Selectable {
 public:
@@ -326,78 +326,78 @@ public:
 
   constexpr void __cordl_internal_set__blinkWaitYieldInstruction(::UnityEngine::YieldInstruction* value);
 
-  /// @brief Method get_selectionState, addr 0x2140954, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectionState, addr 0x21d5238, size 0x8, virtual false, abstract: false, final false
   inline ::HMUI::__InputFieldView__SelectionState get_selectionState();
 
-  /// @brief Method get_keyboardPositionOffset, addr 0x214095c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_keyboardPositionOffset, addr 0x21d5240, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_keyboardPositionOffset();
 
-  /// @brief Method add_selectionStateDidChangeEvent, addr 0x214096c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method add_selectionStateDidChangeEvent, addr 0x21d5250, size 0xb4, virtual false, abstract: false, final false
   inline void add_selectionStateDidChangeEvent(::System::Action_1<::HMUI::__InputFieldView__SelectionState>* value);
 
-  /// @brief Method remove_selectionStateDidChangeEvent, addr 0x2140a20, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method remove_selectionStateDidChangeEvent, addr 0x21d5304, size 0xb4, virtual false, abstract: false, final false
   inline void remove_selectionStateDidChangeEvent(::System::Action_1<::HMUI::__InputFieldView__SelectionState>* value);
 
-  /// @brief Method get_onValueChanged, addr 0x2140ad4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_onValueChanged, addr 0x21d53b8, size 0x8, virtual false, abstract: false, final false
   inline ::HMUI::__InputFieldView__InputFieldChanged* get_onValueChanged();
 
-  /// @brief Method set_onValueChanged, addr 0x2140adc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_onValueChanged, addr 0x21d53c0, size 0x8, virtual false, abstract: false, final false
   inline void set_onValueChanged(::HMUI::__InputFieldView__InputFieldChanged* value);
 
-  /// @brief Method get_useGlobalKeyboard, addr 0x2140ae4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useGlobalKeyboard, addr 0x21d53c8, size 0x8, virtual false, abstract: false, final false
   inline bool get_useGlobalKeyboard();
 
-  /// @brief Method get_text, addr 0x2140aec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x21d53d0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method set_text, addr 0x2140af4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x21d53d8, size 0x58, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
-  /// @brief Method Awake, addr 0x2140c6c, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x21d5550, size 0xec, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnDestroy, addr 0x2140d58, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x21d563c, size 0x14, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method DoStateTransition, addr 0x2140d6c, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method DoStateTransition, addr 0x21d5650, size 0x60, virtual true, abstract: false, final false
   inline void DoStateTransition(::UnityEngine::UI::__Selectable__SelectionState state, bool instant);
 
-  /// @brief Method ActivateKeyboard, addr 0x2140dcc, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method ActivateKeyboard, addr 0x21d56b0, size 0x1cc, virtual false, abstract: false, final false
   inline void ActivateKeyboard(::HMUI::UIKeyboard* keyboard);
 
-  /// @brief Method DeactivateKeyboard, addr 0x2141000, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method DeactivateKeyboard, addr 0x21d58e4, size 0x1a0, virtual false, abstract: false, final false
   inline void DeactivateKeyboard(::HMUI::UIKeyboard* keyboard);
 
-  /// @brief Method SetText, addr 0x21411d4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetText, addr 0x21d5ab8, size 0x18, virtual false, abstract: false, final false
   inline void SetText(::StringW value);
 
-  /// @brief Method ClearInput, addr 0x21411ec, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ClearInput, addr 0x21d5ad0, size 0x50, virtual false, abstract: false, final false
   inline void ClearInput();
 
-  /// @brief Method KeyboardKeyPressed, addr 0x214123c, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method KeyboardKeyPressed, addr 0x21d5b20, size 0x128, virtual false, abstract: false, final false
   inline void KeyboardKeyPressed(char16_t letter);
 
-  /// @brief Method KeyboardDeletePressed, addr 0x2141364, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method KeyboardDeletePressed, addr 0x21d5c48, size 0xdc, virtual false, abstract: false, final false
   inline void KeyboardDeletePressed();
 
-  /// @brief Method BlinkingCaretCoroutine, addr 0x2140f98, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method BlinkingCaretCoroutine, addr 0x21d587c, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* BlinkingCaretCoroutine();
 
-  /// @brief Method UpdateCaretPosition, addr 0x2140b4c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method UpdateCaretPosition, addr 0x21d5430, size 0xf0, virtual false, abstract: false, final false
   inline void UpdateCaretPosition();
 
-  /// @brief Method UpdatePlaceholder, addr 0x2140c3c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method UpdatePlaceholder, addr 0x21d5520, size 0x30, virtual false, abstract: false, final false
   inline void UpdatePlaceholder();
 
-  /// @brief Method UpdateClearButton, addr 0x21411a0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method UpdateClearButton, addr 0x21d5a84, size 0x34, virtual false, abstract: false, final false
   inline void UpdateClearButton();
 
   static inline ::HMUI::InputFieldView* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2141468, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21d5d4c, size 0x138, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Awake>b__34_0, addr 0x21415e8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__34_0, addr 0x21d5ecc, size 0x88, virtual false, abstract: false, final false
   inline void _Awake_b__34_0();
 
   // Ctor Parameters [CppParam { name: "", ty: "InputFieldView", modifiers: "&&", def_value: None }]
@@ -512,14 +512,14 @@ static_assert(offsetof(::HMUI::InputFieldView, ____blinkWaitYieldInstruction) ==
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10465)), TypeDefinitionIndex(TypeDefinitionIndex(13632)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst:
-// 331 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(13630)) CS Name: ::InputFieldView::InputFieldChanged*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9234)), TypeDefinitionIndex(TypeDefinitionIndex(13585)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9234), inst: 331
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(13583)) CS Name: ::InputFieldView::InputFieldChanged*
 class CORDL_TYPE __InputFieldView__InputFieldChanged : public ::UnityEngine::Events::UnityEvent_1<::UnityW<::HMUI::InputFieldView>> {
 public:
   // Declarations
   static inline ::HMUI::__InputFieldView__InputFieldChanged* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21415a0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21d5e84, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__InputFieldView__InputFieldChanged", modifiers: "&&", def_value: None }]
@@ -547,7 +547,7 @@ static_assert(::cordl_internals::size_check_v<::HMUI::__InputFieldView__InputFie
 namespace HMUI {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13631))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13584))
 // CS Name: ::InputFieldView::<BlinkingCaretCoroutine>d__43*
 class CORDL_TYPE __InputFieldView___BlinkingCaretCoroutine_d__43 : public ::System::Object {
 public:
@@ -603,22 +603,22 @@ public:
 
   static inline ::HMUI::__InputFieldView___BlinkingCaretCoroutine_d__43* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor, addr 0x2141440, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21d5d24, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x2141670, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x21d5f54, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext, addr 0x2141674, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x21d5f58, size 0x8c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2141700, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x21d5fe4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2141708, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x21d5fec, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2141748, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x21d602c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__InputFieldView___BlinkingCaretCoroutine_d__43", modifiers: "&&", def_value: None }]

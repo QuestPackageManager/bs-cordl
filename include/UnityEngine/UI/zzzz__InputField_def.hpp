@@ -212,7 +212,7 @@ MARK_REF_PTR_T(::UnityEngine::UI::__InputField___MouseDragOutsideRect_d__194);
 namespace UnityEngine::UI {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13058))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12956))
 // CS Name: ::InputField::ContentType
 struct CORDL_TYPE __InputField__ContentType {
 public:
@@ -294,7 +294,7 @@ static_assert(offsetof(::UnityEngine::UI::__InputField__ContentType, value__) ==
 namespace UnityEngine::UI {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13059))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12957))
 // CS Name: ::InputField::InputType
 struct CORDL_TYPE __InputField__InputType {
 public:
@@ -348,7 +348,7 @@ static_assert(offsetof(::UnityEngine::UI::__InputField__InputType, value__) == 0
 namespace UnityEngine::UI {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13060))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12958))
 // CS Name: ::InputField::CharacterValidation
 struct CORDL_TYPE __InputField__CharacterValidation {
 public:
@@ -414,7 +414,7 @@ static_assert(offsetof(::UnityEngine::UI::__InputField__CharacterValidation, val
 namespace UnityEngine::UI {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13061))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12959))
 // CS Name: ::InputField::LineType
 struct CORDL_TYPE __InputField__LineType {
 public:
@@ -468,23 +468,23 @@ static_assert(offsetof(::UnityEngine::UI::__InputField__LineType, value__) == 0x
 namespace UnityEngine::UI {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13062))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12960))
 // CS Name: ::InputField::OnValidateInput*
 class CORDL_TYPE __InputField__OnValidateInput : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::UnityEngine::UI::__InputField__OnValidateInput* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2d69d20, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d88108, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x2d72ce0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2d910c8, size 0x14, virtual true, abstract: false, final false
   inline char16_t Invoke(::StringW text, int32_t charIndex, char16_t addedChar);
 
-  /// @brief Method BeginInvoke, addr 0x2d72cf4, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2d910dc, size 0xc0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW text, int32_t charIndex, char16_t addedChar, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2d72db4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2d9119c, size 0x28, virtual true, abstract: false, final false
   inline char16_t EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__InputField__OnValidateInput", modifiers: "&&", def_value: None }]
@@ -511,15 +511,15 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::__InputField__O
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 397 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13063))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9234)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9234), inst: 398 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12961))
 // CS Name: ::InputField::SubmitEvent*
 class CORDL_TYPE __InputField__SubmitEvent : public ::UnityEngine::Events::UnityEvent_1<::StringW> {
 public:
   // Declarations
   static inline ::UnityEngine::UI::__InputField__SubmitEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d696a4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d87a8c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__InputField__SubmitEvent", modifiers: "&&", def_value: None }]
@@ -546,15 +546,15 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::__InputField__S
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 397 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13064))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9234)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9234), inst: 398 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12962))
 // CS Name: ::InputField::EndEditEvent*
 class CORDL_TYPE __InputField__EndEditEvent : public ::UnityEngine::Events::UnityEvent_1<::StringW> {
 public:
   // Declarations
   static inline ::UnityEngine::UI::__InputField__EndEditEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d696ec, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d87ad4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__InputField__EndEditEvent", modifiers: "&&", def_value: None }]
@@ -581,15 +581,15 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::__InputField__E
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 397 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13065))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9234)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9234), inst: 398 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12963))
 // CS Name: ::InputField::OnChangeEvent*
 class CORDL_TYPE __InputField__OnChangeEvent : public ::UnityEngine::Events::UnityEvent_1<::StringW> {
 public:
   // Declarations
   static inline ::UnityEngine::UI::__InputField__OnChangeEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d69734, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d87b1c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__InputField__OnChangeEvent", modifiers: "&&", def_value: None }]
@@ -617,7 +617,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::__InputField__O
 namespace UnityEngine::UI {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13066))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12964))
 // CS Name: ::InputField::EditState
 struct CORDL_TYPE __InputField__EditState {
 public:
@@ -667,7 +667,7 @@ static_assert(offsetof(::UnityEngine::UI::__InputField__EditState, value__) == 0
 namespace UnityEngine::UI {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13067))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12965))
 // CS Name: ::InputField::<CaretBlink>d__172*
 class CORDL_TYPE __InputField___CaretBlink_d__172 : public ::System::Object {
 public:
@@ -723,22 +723,22 @@ public:
 
   static inline ::UnityEngine::UI::__InputField___CaretBlink_d__172* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor, addr 0x2d6b958, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d89d40, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x2d72ddc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x2d911c4, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext, addr 0x2d72de0, size 0x10c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2d911c8, size 0x10c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2d72eec, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2d912d4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2d72ef4, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2d912dc, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2d72f34, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2d9131c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__InputField___CaretBlink_d__172", modifiers: "&&", def_value: None }]
@@ -781,7 +781,7 @@ static_assert(offsetof(::UnityEngine::UI::__InputField___CaretBlink_d__172, ____
 namespace UnityEngine::UI {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13068))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12966))
 // CS Name: ::InputField::<MouseDragOutsideRect>d__194*
 class CORDL_TYPE __InputField___MouseDragOutsideRect_d__194 : public ::System::Object {
 public:
@@ -846,22 +846,22 @@ public:
 
   static inline ::UnityEngine::UI::__InputField___MouseDragOutsideRect_d__194* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor, addr 0x2d6dfb8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d8c3a0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x2d72f3c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x2d91324, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext, addr 0x2d72f40, size 0x2a8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2d91328, size 0x2a8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2d731e8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2d915d0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2d731f0, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2d915d8, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2d73230, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2d91618, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__InputField___MouseDragOutsideRect_d__194", modifiers: "&&", def_value: None }]
@@ -908,9 +908,9 @@ static_assert(offsetof(::UnityEngine::UI::__InputField___MouseDragOutsideRect_d_
 // SizeInfo { instance_size: 536, native_size: -1, calculated_instance_size: 536, calculated_native_size: 536, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10185)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(13058)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13059)), TypeDefinitionIndex(TypeDefinitionIndex(13060)), TypeDefinitionIndex(TypeDefinitionIndex(13061)), TypeDefinitionIndex(TypeDefinitionIndex(13119))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13069))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8929)), TypeDefinitionIndex(TypeDefinitionIndex(8995)), TypeDefinitionIndex(TypeDefinitionIndex(12956)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12957)), TypeDefinitionIndex(TypeDefinitionIndex(12958)), TypeDefinitionIndex(TypeDefinitionIndex(12959)), TypeDefinitionIndex(TypeDefinitionIndex(13017))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12967))
 // CS Name: ::UnityEngine.UI::InputField*
 class CORDL_TYPE InputField : public ::UnityEngine::UI::Selectable {
 public:
@@ -1532,495 +1532,495 @@ public:
 
   static inline bool getStaticF_s_IsQuestDevice();
 
-  /// @brief Method get_input, addr 0x2d69368, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method get_input, addr 0x2d87750, size 0x110, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::EventSystems::BaseInput> get_input();
 
-  /// @brief Method get_compositionString, addr 0x2d69478, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_compositionString, addr 0x2d87860, size 0x94, virtual false, abstract: false, final false
   inline ::StringW get_compositionString();
 
   static inline ::UnityEngine::UI::InputField* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d6950c, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d878f4, size 0x198, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_mesh, addr 0x2d69810, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method get_mesh, addr 0x2d87bf8, size 0xa8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_mesh();
 
-  /// @brief Method get_cachedInputTextGenerator, addr 0x2d698b8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_cachedInputTextGenerator, addr 0x2d87ca0, size 0x6c, virtual false, abstract: false, final false
   inline ::UnityEngine::TextGenerator* get_cachedInputTextGenerator();
 
-  /// @brief Method set_shouldHideMobileInput, addr 0x2d69924, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_shouldHideMobileInput, addr 0x2d87d0c, size 0x58, virtual false, abstract: false, final false
   inline void set_shouldHideMobileInput(bool value);
 
-  /// @brief Method get_shouldHideMobileInput, addr 0x2d6997c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_shouldHideMobileInput, addr 0x2d87d64, size 0x48, virtual false, abstract: false, final false
   inline bool get_shouldHideMobileInput();
 
-  /// @brief Method set_shouldActivateOnSelect, addr 0x2d699c4, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method set_shouldActivateOnSelect, addr 0x2d87dac, size 0xc, virtual true, abstract: false, final false
   inline void set_shouldActivateOnSelect(bool value);
 
-  /// @brief Method get_shouldActivateOnSelect, addr 0x2d699d0, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method get_shouldActivateOnSelect, addr 0x2d87db8, size 0x2c, virtual true, abstract: false, final false
   inline bool get_shouldActivateOnSelect();
 
-  /// @brief Method get_text, addr 0x2d699fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x2d87de4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method set_text, addr 0x2d69a04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x2d87dec, size 0x8, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
-  /// @brief Method SetTextWithoutNotify, addr 0x2d69d18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetTextWithoutNotify, addr 0x2d88100, size 0x8, virtual false, abstract: false, final false
   inline void SetTextWithoutNotify(::StringW input);
 
-  /// @brief Method SetText, addr 0x2d69a0c, size 0x30c, virtual false, abstract: false, final false
+  /// @brief Method SetText, addr 0x2d87df4, size 0x30c, virtual false, abstract: false, final false
   inline void SetText(::StringW value, bool sendCallback);
 
-  /// @brief Method get_isFocused, addr 0x2d6a294, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isFocused, addr 0x2d8867c, size 0x8, virtual false, abstract: false, final false
   inline bool get_isFocused();
 
-  /// @brief Method get_caretBlinkRate, addr 0x2d6a29c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_caretBlinkRate, addr 0x2d88684, size 0x8, virtual false, abstract: false, final false
   inline float_t get_caretBlinkRate();
 
-  /// @brief Method set_caretBlinkRate, addr 0x2d6a2a4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method set_caretBlinkRate, addr 0x2d8868c, size 0x7c, virtual false, abstract: false, final false
   inline void set_caretBlinkRate(float_t value);
 
-  /// @brief Method get_caretWidth, addr 0x2d6a374, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_caretWidth, addr 0x2d8875c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_caretWidth();
 
-  /// @brief Method set_caretWidth, addr 0x2d6a37c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method set_caretWidth, addr 0x2d88764, size 0x74, virtual false, abstract: false, final false
   inline void set_caretWidth(int32_t value);
 
-  /// @brief Method get_textComponent, addr 0x2d6a448, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_textComponent, addr 0x2d88830, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Text> get_textComponent();
 
-  /// @brief Method set_textComponent, addr 0x2d6a450, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method set_textComponent, addr 0x2d88838, size 0x2a4, virtual false, abstract: false, final false
   inline void set_textComponent(::UnityEngine::UI::Text* value);
 
-  /// @brief Method get_placeholder, addr 0x2d6a6f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_placeholder, addr 0x2d88adc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Graphic> get_placeholder();
 
-  /// @brief Method set_placeholder, addr 0x2d6a6fc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_placeholder, addr 0x2d88ae4, size 0x58, virtual false, abstract: false, final false
   inline void set_placeholder(::UnityEngine::UI::Graphic* value);
 
-  /// @brief Method get_caretColor, addr 0x2d6a754, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_caretColor, addr 0x2d88b3c, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_caretColor();
 
-  /// @brief Method set_caretColor, addr 0x2d6a798, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_caretColor, addr 0x2d88b80, size 0x2c, virtual false, abstract: false, final false
   inline void set_caretColor(::UnityEngine::Color value);
 
-  /// @brief Method get_customCaretColor, addr 0x2d6a7c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_customCaretColor, addr 0x2d88bac, size 0x8, virtual false, abstract: false, final false
   inline bool get_customCaretColor();
 
-  /// @brief Method set_customCaretColor, addr 0x2d6a7cc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_customCaretColor, addr 0x2d88bb4, size 0x1c, virtual false, abstract: false, final false
   inline void set_customCaretColor(bool value);
 
-  /// @brief Method get_selectionColor, addr 0x2d6a7e8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_selectionColor, addr 0x2d88bd0, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_selectionColor();
 
-  /// @brief Method set_selectionColor, addr 0x2d6a7fc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_selectionColor, addr 0x2d88be4, size 0x2c, virtual false, abstract: false, final false
   inline void set_selectionColor(::UnityEngine::Color value);
 
-  /// @brief Method get_onEndEdit, addr 0x2d6a828, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_onEndEdit, addr 0x2d88c10, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::__InputField__EndEditEvent* get_onEndEdit();
 
-  /// @brief Method set_onEndEdit, addr 0x2d6a830, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_onEndEdit, addr 0x2d88c18, size 0x58, virtual false, abstract: false, final false
   inline void set_onEndEdit(::UnityEngine::UI::__InputField__EndEditEvent* value);
 
-  /// @brief Method get_onSubmit, addr 0x2d6a888, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_onSubmit, addr 0x2d88c70, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::__InputField__SubmitEvent* get_onSubmit();
 
-  /// @brief Method set_onSubmit, addr 0x2d6a890, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_onSubmit, addr 0x2d88c78, size 0x58, virtual false, abstract: false, final false
   inline void set_onSubmit(::UnityEngine::UI::__InputField__SubmitEvent* value);
 
-  /// @brief Method get_onValueChange, addr 0x2d6a8e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_onValueChange, addr 0x2d88cd0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::__InputField__OnChangeEvent* get_onValueChange();
 
-  /// @brief Method set_onValueChange, addr 0x2d6a8f0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_onValueChange, addr 0x2d88cd8, size 0x4, virtual false, abstract: false, final false
   inline void set_onValueChange(::UnityEngine::UI::__InputField__OnChangeEvent* value);
 
-  /// @brief Method get_onValueChanged, addr 0x2d6a94c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_onValueChanged, addr 0x2d88d34, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::__InputField__OnChangeEvent* get_onValueChanged();
 
-  /// @brief Method set_onValueChanged, addr 0x2d6a8f4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_onValueChanged, addr 0x2d88cdc, size 0x58, virtual false, abstract: false, final false
   inline void set_onValueChanged(::UnityEngine::UI::__InputField__OnChangeEvent* value);
 
-  /// @brief Method get_onValidateInput, addr 0x2d6a954, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_onValidateInput, addr 0x2d88d3c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::__InputField__OnValidateInput* get_onValidateInput();
 
-  /// @brief Method set_onValidateInput, addr 0x2d6a95c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_onValidateInput, addr 0x2d88d44, size 0x58, virtual false, abstract: false, final false
   inline void set_onValidateInput(::UnityEngine::UI::__InputField__OnValidateInput* value);
 
-  /// @brief Method get_characterLimit, addr 0x2d6a9b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_characterLimit, addr 0x2d88d9c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_characterLimit();
 
-  /// @brief Method set_characterLimit, addr 0x2d6a9bc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method set_characterLimit, addr 0x2d88da4, size 0xc0, virtual false, abstract: false, final false
   inline void set_characterLimit(int32_t value);
 
-  /// @brief Method get_contentType, addr 0x2d6aa7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_contentType, addr 0x2d88e64, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::__InputField__ContentType get_contentType();
 
-  /// @brief Method set_contentType, addr 0x2d6aa84, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method set_contentType, addr 0x2d88e6c, size 0x74, virtual false, abstract: false, final false
   inline void set_contentType(::UnityEngine::UI::__InputField__ContentType value);
 
-  /// @brief Method get_lineType, addr 0x2d6abb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lineType, addr 0x2d88f9c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::__InputField__LineType get_lineType();
 
-  /// @brief Method set_lineType, addr 0x2d6abbc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method set_lineType, addr 0x2d88fa4, size 0xc0, virtual false, abstract: false, final false
   inline void set_lineType(::UnityEngine::UI::__InputField__LineType value);
 
-  /// @brief Method get_inputType, addr 0x2d6acd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_inputType, addr 0x2d890bc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::__InputField__InputType get_inputType();
 
-  /// @brief Method set_inputType, addr 0x2d6acdc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method set_inputType, addr 0x2d890c4, size 0x84, virtual false, abstract: false, final false
   inline void set_inputType(::UnityEngine::UI::__InputField__InputType value);
 
-  /// @brief Method get_touchScreenKeyboard, addr 0x2d6ad78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_touchScreenKeyboard, addr 0x2d89160, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::TouchScreenKeyboard* get_touchScreenKeyboard();
 
-  /// @brief Method get_keyboardType, addr 0x2d6ad80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_keyboardType, addr 0x2d89168, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::TouchScreenKeyboardType get_keyboardType();
 
-  /// @brief Method set_keyboardType, addr 0x2d6ad88, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method set_keyboardType, addr 0x2d89170, size 0x84, virtual false, abstract: false, final false
   inline void set_keyboardType(::UnityEngine::TouchScreenKeyboardType value);
 
-  /// @brief Method get_characterValidation, addr 0x2d6ae0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_characterValidation, addr 0x2d891f4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::__InputField__CharacterValidation get_characterValidation();
 
-  /// @brief Method set_characterValidation, addr 0x2d6ae14, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method set_characterValidation, addr 0x2d891fc, size 0x84, virtual false, abstract: false, final false
   inline void set_characterValidation(::UnityEngine::UI::__InputField__CharacterValidation value);
 
-  /// @brief Method get_readOnly, addr 0x2d6ae98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_readOnly, addr 0x2d89280, size 0x8, virtual false, abstract: false, final false
   inline bool get_readOnly();
 
-  /// @brief Method set_readOnly, addr 0x2d6aea0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_readOnly, addr 0x2d89288, size 0xc, virtual false, abstract: false, final false
   inline void set_readOnly(bool value);
 
-  /// @brief Method get_multiLine, addr 0x2d6aeac, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_multiLine, addr 0x2d89294, size 0x14, virtual false, abstract: false, final false
   inline bool get_multiLine();
 
-  /// @brief Method get_asteriskChar, addr 0x2d6aec0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_asteriskChar, addr 0x2d892a8, size 0x8, virtual false, abstract: false, final false
   inline char16_t get_asteriskChar();
 
-  /// @brief Method set_asteriskChar, addr 0x2d6aec8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method set_asteriskChar, addr 0x2d892b0, size 0x74, virtual false, abstract: false, final false
   inline void set_asteriskChar(char16_t value);
 
-  /// @brief Method get_wasCanceled, addr 0x2d6af3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_wasCanceled, addr 0x2d89324, size 0x8, virtual false, abstract: false, final false
   inline bool get_wasCanceled();
 
-  /// @brief Method ClampPos, addr 0x2d6af44, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method ClampPos, addr 0x2d8932c, size 0x38, virtual false, abstract: false, final false
   inline void ClampPos(ByRef<int32_t> pos);
 
-  /// @brief Method get_caretPositionInternal, addr 0x2d6af7c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_caretPositionInternal, addr 0x2d89364, size 0x24, virtual false, abstract: false, final false
   inline int32_t get_caretPositionInternal();
 
-  /// @brief Method set_caretPositionInternal, addr 0x2d6afa0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method set_caretPositionInternal, addr 0x2d89388, size 0x38, virtual false, abstract: false, final false
   inline void set_caretPositionInternal(int32_t value);
 
-  /// @brief Method get_caretSelectPositionInternal, addr 0x2d6afd8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_caretSelectPositionInternal, addr 0x2d893c0, size 0x24, virtual false, abstract: false, final false
   inline int32_t get_caretSelectPositionInternal();
 
-  /// @brief Method set_caretSelectPositionInternal, addr 0x2d6affc, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method set_caretSelectPositionInternal, addr 0x2d893e4, size 0x38, virtual false, abstract: false, final false
   inline void set_caretSelectPositionInternal(int32_t value);
 
-  /// @brief Method get_hasSelection, addr 0x2d6b034, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_hasSelection, addr 0x2d8941c, size 0x30, virtual false, abstract: false, final false
   inline bool get_hasSelection();
 
-  /// @brief Method get_caretPosition, addr 0x2d6b064, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_caretPosition, addr 0x2d8944c, size 0x24, virtual false, abstract: false, final false
   inline int32_t get_caretPosition();
 
-  /// @brief Method set_caretPosition, addr 0x2d6b088, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_caretPosition, addr 0x2d89470, size 0x28, virtual false, abstract: false, final false
   inline void set_caretPosition(int32_t value);
 
-  /// @brief Method get_selectionAnchorPosition, addr 0x2d6b168, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_selectionAnchorPosition, addr 0x2d89550, size 0x24, virtual false, abstract: false, final false
   inline int32_t get_selectionAnchorPosition();
 
-  /// @brief Method set_selectionAnchorPosition, addr 0x2d6b0b0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_selectionAnchorPosition, addr 0x2d89498, size 0x5c, virtual false, abstract: false, final false
   inline void set_selectionAnchorPosition(int32_t value);
 
-  /// @brief Method get_selectionFocusPosition, addr 0x2d6b18c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_selectionFocusPosition, addr 0x2d89574, size 0x24, virtual false, abstract: false, final false
   inline int32_t get_selectionFocusPosition();
 
-  /// @brief Method set_selectionFocusPosition, addr 0x2d6b10c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_selectionFocusPosition, addr 0x2d894f4, size 0x5c, virtual false, abstract: false, final false
   inline void set_selectionFocusPosition(int32_t value);
 
-  /// @brief Method Awake, addr 0x2d6b1b0, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x2d89598, size 0xc0, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnEnable, addr 0x2d6b270, size 0x26c, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x2d89658, size 0x26c, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable, addr 0x2d6b4dc, size 0x234, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x2d898c4, size 0x234, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnDestroy, addr 0x2d6b88c, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2d89c74, size 0x64, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method CaretBlink, addr 0x2d6b8f0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method CaretBlink, addr 0x2d89cd8, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* CaretBlink();
 
-  /// @brief Method SetCaretVisible, addr 0x2d6b980, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method SetCaretVisible, addr 0x2d89d68, size 0x38, virtual false, abstract: false, final false
   inline void SetCaretVisible();
 
-  /// @brief Method SetCaretActive, addr 0x2d6a320, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetCaretActive, addr 0x2d88708, size 0x54, virtual false, abstract: false, final false
   inline void SetCaretActive();
 
-  /// @brief Method UpdateCaretMaterial, addr 0x2d6b9b8, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method UpdateCaretMaterial, addr 0x2d89da0, size 0x110, virtual false, abstract: false, final false
   inline void UpdateCaretMaterial();
 
-  /// @brief Method OnFocus, addr 0x2d6bac8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnFocus, addr 0x2d89eb0, size 0x4, virtual false, abstract: false, final false
   inline void OnFocus();
 
-  /// @brief Method SelectAll, addr 0x2d6bacc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method SelectAll, addr 0x2d89eb4, size 0x34, virtual false, abstract: false, final false
   inline void SelectAll();
 
-  /// @brief Method MoveTextEnd, addr 0x2d6bb00, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method MoveTextEnd, addr 0x2d89ee8, size 0x60, virtual false, abstract: false, final false
   inline void MoveTextEnd(bool shift);
 
-  /// @brief Method MoveTextStart, addr 0x2d6bb60, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method MoveTextStart, addr 0x2d89f48, size 0x7c, virtual false, abstract: false, final false
   inline void MoveTextStart(bool shift);
 
-  /// @brief Method get_clipboard, addr 0x2d6bbdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_clipboard, addr 0x2d89fc4, size 0x8, virtual false, abstract: false, final false
   static inline ::StringW get_clipboard();
 
-  /// @brief Method set_clipboard, addr 0x2d6bbe4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_clipboard, addr 0x2d89fcc, size 0x8, virtual false, abstract: false, final false
   static inline void set_clipboard(::StringW value);
 
-  /// @brief Method TouchScreenKeyboardShouldBeUsed, addr 0x2d6bbec, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method TouchScreenKeyboardShouldBeUsed, addr 0x2d89fd4, size 0x80, virtual false, abstract: false, final false
   inline bool TouchScreenKeyboardShouldBeUsed();
 
-  /// @brief Method InPlaceEditing, addr 0x2d6bc6c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method InPlaceEditing, addr 0x2d8a054, size 0x30, virtual false, abstract: false, final false
   inline bool InPlaceEditing();
 
-  /// @brief Method InPlaceEditingChanged, addr 0x2d6bc9c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method InPlaceEditingChanged, addr 0x2d8a084, size 0x84, virtual false, abstract: false, final false
   inline bool InPlaceEditingChanged();
 
-  /// @brief Method UpdateCaretFromKeyboard, addr 0x2d6bd20, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method UpdateCaretFromKeyboard, addr 0x2d8a108, size 0xe8, virtual false, abstract: false, final false
   inline void UpdateCaretFromKeyboard();
 
-  /// @brief Method LateUpdate, addr 0x2d6be08, size 0x628, virtual true, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x2d8a1f0, size 0x628, virtual true, abstract: false, final false
   inline void LateUpdate();
 
-  /// @brief Method ScreenToLocal, addr 0x2d6d3ec, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method ScreenToLocal, addr 0x2d8b7d4, size 0x270, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 ScreenToLocal(::UnityEngine::Vector2 screen);
 
-  /// @brief Method GetUnclampedCharacterLineFromPosition, addr 0x2d6d65c, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method GetUnclampedCharacterLineFromPosition, addr 0x2d8ba44, size 0x210, virtual false, abstract: false, final false
   inline int32_t GetUnclampedCharacterLineFromPosition(::UnityEngine::Vector2 pos, ::UnityEngine::TextGenerator* generator);
 
-  /// @brief Method GetCharacterIndexFromPosition, addr 0x2d6d86c, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method GetCharacterIndexFromPosition, addr 0x2d8bc54, size 0x294, virtual false, abstract: false, final false
   inline int32_t GetCharacterIndexFromPosition(::UnityEngine::Vector2 pos);
 
-  /// @brief Method MayDrag, addr 0x2d6dc64, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method MayDrag, addr 0x2d8c04c, size 0xd8, virtual false, abstract: false, final false
   inline bool MayDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnBeginDrag, addr 0x2d6dd3c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method OnBeginDrag, addr 0x2d8c124, size 0x20, virtual true, abstract: false, final false
   inline void OnBeginDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnDrag, addr 0x2d6dd5c, size 0x1e8, virtual true, abstract: false, final false
+  /// @brief Method OnDrag, addr 0x2d8c144, size 0x1e8, virtual true, abstract: false, final false
   inline void OnDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method MouseDragOutsideRect, addr 0x2d6df44, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method MouseDragOutsideRect, addr 0x2d8c32c, size 0x74, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* MouseDragOutsideRect(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnEndDrag, addr 0x2d6dfe0, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method OnEndDrag, addr 0x2d8c3c8, size 0x1c, virtual true, abstract: false, final false
   inline void OnEndDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerDown, addr 0x2d6dffc, size 0x1f0, virtual true, abstract: false, final false
+  /// @brief Method OnPointerDown, addr 0x2d8c3e4, size 0x1f0, virtual true, abstract: false, final false
   inline void OnPointerDown(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method KeyPressed, addr 0x2d6e1ec, size 0x3d8, virtual false, abstract: false, final false
+  /// @brief Method KeyPressed, addr 0x2d8c5d4, size 0x3d8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::__InputField__EditState KeyPressed(::UnityEngine::Event* evt);
 
-  /// @brief Method IsValidChar, addr 0x2d6ec80, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method IsValidChar, addr 0x2d8d068, size 0x70, virtual false, abstract: false, final false
   inline bool IsValidChar(char16_t c);
 
-  /// @brief Method ProcessEvent, addr 0x2d6ecf0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ProcessEvent, addr 0x2d8d0d8, size 0x4, virtual false, abstract: false, final false
   inline void ProcessEvent(::UnityEngine::Event* e);
 
-  /// @brief Method OnUpdateSelected, addr 0x2d6ecf4, size 0x188, virtual true, abstract: false, final false
+  /// @brief Method OnUpdateSelected, addr 0x2d8d0dc, size 0x188, virtual true, abstract: false, final false
   inline void OnUpdateSelected(::UnityEngine::EventSystems::BaseEventData* eventData);
 
-  /// @brief Method GetSelectedString, addr 0x2d6e76c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetSelectedString, addr 0x2d8cb54, size 0xa8, virtual false, abstract: false, final false
   inline ::StringW GetSelectedString();
 
-  /// @brief Method FindtNextWordBegin, addr 0x2d6ee7c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method FindtNextWordBegin, addr 0x2d8d264, size 0xbc, virtual false, abstract: false, final false
   inline int32_t FindtNextWordBegin();
 
-  /// @brief Method MoveRight, addr 0x2d6eb3c, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method MoveRight, addr 0x2d8cf24, size 0x12c, virtual false, abstract: false, final false
   inline void MoveRight(bool shift, bool ctrl);
 
-  /// @brief Method FindtPrevWordBegin, addr 0x2d6ef38, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method FindtPrevWordBegin, addr 0x2d8d320, size 0xa0, virtual false, abstract: false, final false
   inline int32_t FindtPrevWordBegin();
 
-  /// @brief Method MoveLeft, addr 0x2d6ea10, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method MoveLeft, addr 0x2d8cdf8, size 0x12c, virtual false, abstract: false, final false
   inline void MoveLeft(bool shift, bool ctrl);
 
-  /// @brief Method DetermineCharacterLine, addr 0x2d6efd8, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method DetermineCharacterLine, addr 0x2d8d3c0, size 0x110, virtual false, abstract: false, final false
   inline int32_t DetermineCharacterLine(int32_t charPos, ::UnityEngine::TextGenerator* generator);
 
-  /// @brief Method LineUpCharacterPosition, addr 0x2d6f0e8, size 0x358, virtual false, abstract: false, final false
+  /// @brief Method LineUpCharacterPosition, addr 0x2d8d4d0, size 0x358, virtual false, abstract: false, final false
   inline int32_t LineUpCharacterPosition(int32_t originalPos, bool goToFirstChar);
 
-  /// @brief Method LineDownCharacterPosition, addr 0x2d6f440, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method LineDownCharacterPosition, addr 0x2d8d828, size 0x2b4, virtual false, abstract: false, final false
   inline int32_t LineDownCharacterPosition(int32_t originalPos, bool goToLastChar);
 
-  /// @brief Method MoveDown, addr 0x2d6ec74, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method MoveDown, addr 0x2d8d05c, size 0xc, virtual false, abstract: false, final false
   inline void MoveDown(bool shift);
 
-  /// @brief Method MoveDown, addr 0x2d6f6f4, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method MoveDown, addr 0x2d8dadc, size 0x134, virtual false, abstract: false, final false
   inline void MoveDown(bool shift, bool goToLastChar);
 
-  /// @brief Method MoveUp, addr 0x2d6ec68, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method MoveUp, addr 0x2d8d050, size 0xc, virtual false, abstract: false, final false
   inline void MoveUp(bool shift);
 
-  /// @brief Method MoveUp, addr 0x2d6f828, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method MoveUp, addr 0x2d8dc10, size 0x140, virtual false, abstract: false, final false
   inline void MoveUp(bool shift, bool goToFirstChar);
 
-  /// @brief Method Delete, addr 0x2d6e814, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method Delete, addr 0x2d8cbfc, size 0x1b4, virtual false, abstract: false, final false
   inline void Delete();
 
-  /// @brief Method ForwardSpace, addr 0x2d6e6c8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method ForwardSpace, addr 0x2d8cab0, size 0xa4, virtual false, abstract: false, final false
   inline void ForwardSpace();
 
-  /// @brief Method Backspace, addr 0x2d6e5c4, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method Backspace, addr 0x2d8c9ac, size 0x104, virtual false, abstract: false, final false
   inline void Backspace();
 
-  /// @brief Method Insert, addr 0x2d6f968, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Insert, addr 0x2d8dd50, size 0xe0, virtual false, abstract: false, final false
   inline void Insert(char16_t c);
 
-  /// @brief Method UpdateTouchKeyboardFromEditChanges, addr 0x2d6e9c8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method UpdateTouchKeyboardFromEditChanges, addr 0x2d8cdb0, size 0x48, virtual false, abstract: false, final false
   inline void UpdateTouchKeyboardFromEditChanges();
 
-  /// @brief Method SendOnValueChangedAndUpdateLabel, addr 0x2d6d3d4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SendOnValueChangedAndUpdateLabel, addr 0x2d8b7bc, size 0x18, virtual false, abstract: false, final false
   inline void SendOnValueChangedAndUpdateLabel();
 
-  /// @brief Method SendOnValueChanged, addr 0x2d69df8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SendOnValueChanged, addr 0x2d881e0, size 0x80, virtual false, abstract: false, final false
   inline void SendOnValueChanged();
 
-  /// @brief Method SendOnEndEdit, addr 0x2d6fa48, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SendOnEndEdit, addr 0x2d8de30, size 0x80, virtual false, abstract: false, final false
   inline void SendOnEndEdit();
 
-  /// @brief Method SendOnSubmit, addr 0x2d6cc80, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SendOnSubmit, addr 0x2d8b068, size 0x80, virtual false, abstract: false, final false
   inline void SendOnSubmit();
 
-  /// @brief Method Append, addr 0x2d6fac8, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method Append, addr 0x2d8deb0, size 0xbc, virtual true, abstract: false, final false
   inline void Append(::StringW input);
 
-  /// @brief Method Append, addr 0x2d6fb84, size 0x270, virtual true, abstract: false, final false
+  /// @brief Method Append, addr 0x2d8df6c, size 0x270, virtual true, abstract: false, final false
   inline void Append(char16_t input);
 
-  /// @brief Method UpdateLabel, addr 0x2d69e78, size 0x41c, virtual false, abstract: false, final false
+  /// @brief Method UpdateLabel, addr 0x2d88260, size 0x41c, virtual false, abstract: false, final false
   inline void UpdateLabel();
 
-  /// @brief Method IsSelectionVisible, addr 0x2d70910, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method IsSelectionVisible, addr 0x2d8ecf8, size 0x6c, virtual false, abstract: false, final false
   inline bool IsSelectionVisible();
 
-  /// @brief Method GetLineStartPosition, addr 0x2d7097c, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method GetLineStartPosition, addr 0x2d8ed64, size 0x150, virtual false, abstract: false, final false
   static inline int32_t GetLineStartPosition(::UnityEngine::TextGenerator* gen, int32_t line);
 
-  /// @brief Method GetLineEndPosition, addr 0x2d6db00, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method GetLineEndPosition, addr 0x2d8bee8, size 0x164, virtual false, abstract: false, final false
   static inline int32_t GetLineEndPosition(::UnityEngine::TextGenerator* gen, int32_t line);
 
-  /// @brief Method SetDrawRangeToContainCaretPosition, addr 0x2d6fdf4, size 0xb1c, virtual false, abstract: false, final false
+  /// @brief Method SetDrawRangeToContainCaretPosition, addr 0x2d8e1dc, size 0xb1c, virtual false, abstract: false, final false
   inline void SetDrawRangeToContainCaretPosition(int32_t caretPos);
 
-  /// @brief Method ForceLabelUpdate, addr 0x2d70acc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ForceLabelUpdate, addr 0x2d8eeb4, size 0x4, virtual false, abstract: false, final false
   inline void ForceLabelUpdate();
 
-  /// @brief Method MarkGeometryAsDirty, addr 0x2d6a3f0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method MarkGeometryAsDirty, addr 0x2d887d8, size 0x58, virtual false, abstract: false, final false
   inline void MarkGeometryAsDirty();
 
-  /// @brief Method Rebuild, addr 0x2d70ad0, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Rebuild, addr 0x2d8eeb8, size 0x10, virtual true, abstract: false, final false
   inline void Rebuild(::UnityEngine::UI::CanvasUpdate update);
 
-  /// @brief Method LayoutComplete, addr 0x2d70f30, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method LayoutComplete, addr 0x2d8f318, size 0x4, virtual true, abstract: false, final false
   inline void LayoutComplete();
 
-  /// @brief Method GraphicUpdateComplete, addr 0x2d70f34, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method GraphicUpdateComplete, addr 0x2d8f31c, size 0x4, virtual true, abstract: false, final false
   inline void GraphicUpdateComplete();
 
-  /// @brief Method UpdateGeometry, addr 0x2d70ae0, size 0x450, virtual false, abstract: false, final false
+  /// @brief Method UpdateGeometry, addr 0x2d8eec8, size 0x450, virtual false, abstract: false, final false
   inline void UpdateGeometry();
 
-  /// @brief Method AssignPositioningIfNeeded, addr 0x2d6c780, size 0x500, virtual false, abstract: false, final false
+  /// @brief Method AssignPositioningIfNeeded, addr 0x2d8ab68, size 0x500, virtual false, abstract: false, final false
   inline void AssignPositioningIfNeeded();
 
-  /// @brief Method OnFillVBO, addr 0x2d70f38, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method OnFillVBO, addr 0x2d8f320, size 0x278, virtual false, abstract: false, final false
   inline void OnFillVBO(::UnityEngine::Mesh* vbo);
 
-  /// @brief Method GenerateCaret, addr 0x2d711b0, size 0x9d4, virtual false, abstract: false, final false
+  /// @brief Method GenerateCaret, addr 0x2d8f598, size 0x9d4, virtual false, abstract: false, final false
   inline void GenerateCaret(::UnityEngine::UI::VertexHelper* vbo, ::UnityEngine::Vector2 roundingOffset);
 
-  /// @brief Method CreateCursorVerts, addr 0x2d725e0, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method CreateCursorVerts, addr 0x2d909c8, size 0x150, virtual false, abstract: false, final false
   inline void CreateCursorVerts();
 
-  /// @brief Method GenerateHighlight, addr 0x2d71b84, size 0xa5c, virtual false, abstract: false, final false
+  /// @brief Method GenerateHighlight, addr 0x2d8ff6c, size 0xa5c, virtual false, abstract: false, final false
   inline void GenerateHighlight(::UnityEngine::UI::VertexHelper* vbo, ::UnityEngine::Vector2 roundingOffset);
 
-  /// @brief Method Validate, addr 0x2d6cd00, size 0x6d4, virtual false, abstract: false, final false
+  /// @brief Method Validate, addr 0x2d8b0e8, size 0x6d4, virtual false, abstract: false, final false
   inline char16_t Validate(::StringW text, int32_t pos, char16_t ch);
 
-  /// @brief Method ActivateInputField, addr 0x2d72730, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method ActivateInputField, addr 0x2d90b18, size 0x120, virtual false, abstract: false, final false
   inline void ActivateInputField();
 
-  /// @brief Method ActivateInputFieldInternal, addr 0x2d6c430, size 0x350, virtual false, abstract: false, final false
+  /// @brief Method ActivateInputFieldInternal, addr 0x2d8a818, size 0x350, virtual false, abstract: false, final false
   inline void ActivateInputFieldInternal();
 
-  /// @brief Method OnSelect, addr 0x2d72850, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method OnSelect, addr 0x2d90c38, size 0x3c, virtual true, abstract: false, final false
   inline void OnSelect(::UnityEngine::EventSystems::BaseEventData* eventData);
 
-  /// @brief Method OnPointerClick, addr 0x2d7288c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method OnPointerClick, addr 0x2d90c74, size 0x24, virtual true, abstract: false, final false
   inline void OnPointerClick(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method DeactivateInputField, addr 0x2d6b710, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method DeactivateInputField, addr 0x2d89af8, size 0x17c, virtual false, abstract: false, final false
   inline void DeactivateInputField();
 
-  /// @brief Method OnDeselect, addr 0x2d728b0, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method OnDeselect, addr 0x2d90c98, size 0x2c, virtual true, abstract: false, final false
   inline void OnDeselect(::UnityEngine::EventSystems::BaseEventData* eventData);
 
-  /// @brief Method OnSubmit, addr 0x2d728dc, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method OnSubmit, addr 0x2d90cc4, size 0x48, virtual true, abstract: false, final false
   inline void OnSubmit(::UnityEngine::EventSystems::BaseEventData* eventData);
 
-  /// @brief Method EnforceContentType, addr 0x2d6aaf8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method EnforceContentType, addr 0x2d88ee0, size 0xbc, virtual false, abstract: false, final false
   inline void EnforceContentType();
 
-  /// @brief Method EnforceTextHOverflow, addr 0x2d6977c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method EnforceTextHOverflow, addr 0x2d87b64, size 0x94, virtual false, abstract: false, final false
   inline void EnforceTextHOverflow();
 
-  /// @brief Method SetToCustomIfContentTypeIsNot, addr 0x2d6ac7c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method SetToCustomIfContentTypeIsNot, addr 0x2d89064, size 0x58, virtual false, abstract: false, final false
   inline void SetToCustomIfContentTypeIsNot(::ArrayW<::UnityEngine::UI::__InputField__ContentType, ::Array<::UnityEngine::UI::__InputField__ContentType>*> allowedContentTypes);
 
-  /// @brief Method SetToCustom, addr 0x2d6ad60, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetToCustom, addr 0x2d89148, size 0x18, virtual false, abstract: false, final false
   inline void SetToCustom();
 
-  /// @brief Method DoStateTransition, addr 0x2d72924, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method DoStateTransition, addr 0x2d90d0c, size 0x2c, virtual true, abstract: false, final false
   inline void DoStateTransition(::UnityEngine::UI::__Selectable__SelectionState state, bool instant);
 
-  /// @brief Method CalculateLayoutInputHorizontal, addr 0x2d72950, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method CalculateLayoutInputHorizontal, addr 0x2d90d38, size 0x4, virtual true, abstract: false, final false
   inline void CalculateLayoutInputHorizontal();
 
-  /// @brief Method CalculateLayoutInputVertical, addr 0x2d72954, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method CalculateLayoutInputVertical, addr 0x2d90d3c, size 0x4, virtual true, abstract: false, final false
   inline void CalculateLayoutInputVertical();
 
-  /// @brief Method get_minWidth, addr 0x2d72958, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_minWidth, addr 0x2d90d40, size 0x8, virtual true, abstract: false, final false
   inline float_t get_minWidth();
 
-  /// @brief Method get_preferredWidth, addr 0x2d72960, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method get_preferredWidth, addr 0x2d90d48, size 0x15c, virtual true, abstract: false, final false
   inline float_t get_preferredWidth();
 
-  /// @brief Method get_flexibleWidth, addr 0x2d72abc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_flexibleWidth, addr 0x2d90ea4, size 0x8, virtual true, abstract: false, final false
   inline float_t get_flexibleWidth();
 
-  /// @brief Method get_minHeight, addr 0x2d72ac4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_minHeight, addr 0x2d90eac, size 0x8, virtual true, abstract: false, final false
   inline float_t get_minHeight();
 
-  /// @brief Method get_preferredHeight, addr 0x2d72acc, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method get_preferredHeight, addr 0x2d90eb4, size 0x15c, virtual true, abstract: false, final false
   inline float_t get_preferredHeight();
 
-  /// @brief Method get_flexibleHeight, addr 0x2d72c28, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_flexibleHeight, addr 0x2d91010, size 0x8, virtual true, abstract: false, final false
   inline float_t get_flexibleHeight();
 
-  /// @brief Method get_layoutPriority, addr 0x2d72c30, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_layoutPriority, addr 0x2d91018, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_layoutPriority();
 
-  /// @brief Method UnityEngine.UI.ICanvasElement.get_transform, addr 0x2d72cd8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UI.ICanvasElement.get_transform, addr 0x2d910c0, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::Transform> UnityEngine_UI_ICanvasElement_get_transform();
 
   // Ctor Parameters [CppParam { name: "", ty: "InputField", modifiers: "&&", def_value: None }]

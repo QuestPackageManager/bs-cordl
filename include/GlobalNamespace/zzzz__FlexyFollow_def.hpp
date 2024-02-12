@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::GlobalNamespace::FlexyFollow);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14368))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8993))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14523))
 // CS Name: ::FlexyFollow*
 class CORDL_TYPE FlexyFollow : public ::UnityEngine::MonoBehaviour {
 public:
@@ -118,15 +118,15 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method Start, addr 0x20f2cec, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2187274, size 0x84, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method LateUpdate, addr 0x20f2d70, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x21872f8, size 0x128, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::FlexyFollow* New_ctor();
 
-  /// @brief Method .ctor, addr 0x20f2e98, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2187420, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FlexyFollow", modifiers: "&&", def_value: None }]

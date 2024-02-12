@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::System::Net::FtpMethodInfo);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9044)), TypeDefinitionIndex(TypeDefinitionIndex(9045))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9046))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7054)), TypeDefinitionIndex(TypeDefinitionIndex(7055))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7056))
 // CS Name: ::System.Net::FtpMethodInfo*
 class CORDL_TYPE FtpMethodInfo : public ::System::Object {
 public:
@@ -83,25 +83,25 @@ public:
 
   static inline ::System::Net::FtpMethodInfo* New_ctor(::StringW method, ::System::Net::FtpOperation operation, ::System::Net::FtpMethodFlags flags, ::StringW httpCommand);
 
-  /// @brief Method .ctor, addr 0x2994768, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x299820c, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::StringW method, ::System::Net::FtpOperation operation, ::System::Net::FtpMethodFlags flags, ::StringW httpCommand);
 
-  /// @brief Method HasFlag, addr 0x29923dc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method HasFlag, addr 0x2995e80, size 0x10, virtual false, abstract: false, final false
   inline bool HasFlag(::System::Net::FtpMethodFlags flags);
 
-  /// @brief Method get_IsCommandOnly, addr 0x2992580, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsCommandOnly, addr 0x2996024, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsCommandOnly();
 
-  /// @brief Method get_IsUpload, addr 0x299337c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_IsUpload, addr 0x2996e20, size 0xc, virtual false, abstract: false, final false
   inline bool get_IsUpload();
 
-  /// @brief Method get_IsDownload, addr 0x2993388, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_IsDownload, addr 0x2996e2c, size 0xc, virtual false, abstract: false, final false
   inline bool get_IsDownload();
 
-  /// @brief Method get_ShouldParseForResponseUri, addr 0x2990c34, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_ShouldParseForResponseUri, addr 0x29946d8, size 0xc, virtual false, abstract: false, final false
   inline bool get_ShouldParseForResponseUri();
 
-  /// @brief Method GetMethodInfo, addr 0x29947ac, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method GetMethodInfo, addr 0x2998250, size 0x164, virtual false, abstract: false, final false
   static inline ::System::Net::FtpMethodInfo* GetMethodInfo(::StringW method);
 
   // Ctor Parameters [CppParam { name: "", ty: "FtpMethodInfo", modifiers: "&&", def_value: None }]

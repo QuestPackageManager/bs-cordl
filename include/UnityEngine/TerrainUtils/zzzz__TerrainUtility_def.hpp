@@ -39,7 +39,7 @@ MARK_REF_PTR_T(::UnityEngine::TerrainUtils::__TerrainUtility____c__DisplayClass2
 namespace UnityEngine::TerrainUtils {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15480))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15658))
 // CS Name: ::TerrainUtility::<>c__DisplayClass2_0*
 class CORDL_TYPE __TerrainUtility____c__DisplayClass2_0 : public ::System::Object {
 public:
@@ -55,7 +55,7 @@ public:
 
   static inline ::UnityEngine::TerrainUtils::__TerrainUtility____c__DisplayClass2_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d1ffd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d40a78, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__TerrainUtility____c__DisplayClass2_0", modifiers: "&&", def_value: None }]
@@ -88,7 +88,7 @@ static_assert(offsetof(::UnityEngine::TerrainUtils::__TerrainUtility____c__Displ
 namespace UnityEngine::TerrainUtils {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15481))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15659))
 // CS Name: ::TerrainUtility::<>c__DisplayClass2_1*
 class CORDL_TYPE __TerrainUtility____c__DisplayClass2_1 : public ::System::Object {
 public:
@@ -113,10 +113,10 @@ public:
 
   static inline ::UnityEngine::TerrainUtils::__TerrainUtility____c__DisplayClass2_1* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d1ffd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d40a80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <CollectTerrains>b__0, addr 0x2d20368, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method <CollectTerrains>b__0, addr 0x2d40e10, size 0xdc, virtual false, abstract: false, final false
   inline bool _CollectTerrains_b__0(::UnityEngine::Terrain* x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__TerrainUtility____c__DisplayClass2_1", modifiers: "&&", def_value: None }]
@@ -154,7 +154,7 @@ static_assert(offsetof(::UnityEngine::TerrainUtils::__TerrainUtility____c__Displ
 namespace UnityEngine::TerrainUtils {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15482))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15660))
 // CS Name: ::UnityEngine.TerrainUtils::TerrainUtility*
 class CORDL_TYPE TerrainUtility : public ::System::Object {
 public:
@@ -163,16 +163,16 @@ public:
 
   using __c__DisplayClass2_0 = ::UnityEngine::TerrainUtils::__TerrainUtility____c__DisplayClass2_0;
 
-  /// @brief Method ValidTerrainsExist, addr 0x2d1fb4c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ValidTerrainsExist, addr 0x2d405f4, size 0x68, virtual false, abstract: false, final false
   static inline bool ValidTerrainsExist();
 
-  /// @brief Method ClearConnectivity, addr 0x2d1fbb4, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ClearConnectivity, addr 0x2d4065c, size 0xf8, virtual false, abstract: false, final false
   static inline void ClearConnectivity();
 
-  /// @brief Method CollectTerrains, addr 0x2d1fcac, size 0x324, virtual false, abstract: false, final false
+  /// @brief Method CollectTerrains, addr 0x2d40754, size 0x324, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::TerrainUtils::TerrainMap*>* CollectTerrains(bool onlyAutoConnectedTerrains);
 
-  /// @brief Method AutoConnect, addr 0x2d1ffe0, size 0x388, virtual false, abstract: false, final false
+  /// @brief Method AutoConnect, addr 0x2d40a88, size 0x388, virtual false, abstract: false, final false
   static inline void AutoConnect();
 
   // Ctor Parameters [CppParam { name: "", ty: "TerrainUtility", modifiers: "&&", def_value: None }]

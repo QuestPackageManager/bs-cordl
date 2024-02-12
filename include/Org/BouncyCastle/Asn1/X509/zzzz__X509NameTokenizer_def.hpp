@@ -63,18 +63,18 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::X509NameTokenizer* New_ctor(::StringW oid);
 
-  /// @brief Method .ctor, addr 0x11a54f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11d3388, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW oid);
 
   static inline ::Org::BouncyCastle::Asn1::X509::X509NameTokenizer* New_ctor(::StringW oid, char16_t separator);
 
-  /// @brief Method .ctor, addr 0x11a56cc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11d355c, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::StringW oid, char16_t separator);
 
-  /// @brief Method HasMoreTokens, addr 0x11a5758, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method HasMoreTokens, addr 0x11d35e8, size 0x28, virtual false, abstract: false, final false
   inline bool HasMoreTokens();
 
-  /// @brief Method NextToken, addr 0x11a5500, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method NextToken, addr 0x11d3390, size 0x1cc, virtual false, abstract: false, final false
   inline ::StringW NextToken();
 
   // Ctor Parameters [CppParam { name: "", ty: "X509NameTokenizer", modifiers: "&&", def_value: None }]

@@ -28,15 +28,15 @@ MARK_REF_PTR_T(::UnityEngine::Animations::AnimationPlayableBinding);
 namespace UnityEngine::Animations {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14905))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14778))
 // CS Name: ::UnityEngine.Animations::AnimationPlayableBinding*
 class CORDL_TYPE AnimationPlayableBinding : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x2c99454, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2c95fc0, size 0x13c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableBinding Create(::StringW name, ::UnityEngine::Object* key);
 
-  /// @brief Method CreateAnimationOutput, addr 0x2c99590, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method CreateAnimationOutput, addr 0x2c960fc, size 0x1040, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableOutput CreateAnimationOutput(::UnityEngine::Playables::PlayableGraph graph, ::StringW name);
 
   // Ctor Parameters [CppParam { name: "", ty: "AnimationPlayableBinding", modifiers: "&&", def_value: None }]

@@ -34,19 +34,19 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::Crc24* New_ctor();
 
-  /// @brief Method .ctor, addr 0x11c97c0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11f7650, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Update, addr 0x11ca494, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x11f8324, size 0x38, virtual false, abstract: false, final false
   inline void Update(int32_t b);
 
-  /// @brief Method GetValue, addr 0x11d04d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetValue, addr 0x11fe364, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetValue();
 
-  /// @brief Method get_Value, addr 0x11d04dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x11fe36c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Value();
 
-  /// @brief Method Reset, addr 0x11ca484, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x11f8314, size 0x10, virtual false, abstract: false, final false
   inline void Reset();
 
   // Ctor Parameters [CppParam { name: "", ty: "Crc24", modifiers: "&&", def_value: None }]

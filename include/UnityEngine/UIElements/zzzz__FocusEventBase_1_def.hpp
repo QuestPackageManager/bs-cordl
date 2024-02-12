@@ -28,8 +28,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7180)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7180), inst: 1712 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7232))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6439)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6439), inst: 1670 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6491))
 // CS Name: ::UnityEngine.UIElements::FocusEventBase`1<T>*
 class CORDL_TYPE FocusEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T> {
 public:

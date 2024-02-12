@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::GlobalNamespace::BloomPrePassNonLightPass);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14477))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14371))
 // CS Name: ::BloomPrePassNonLightPass::ExecutionTimeType
 struct CORDL_TYPE __BloomPrePassNonLightPass__ExecutionTimeType {
 public:
@@ -87,8 +87,8 @@ static_assert(offsetof(::GlobalNamespace::__BloomPrePassNonLightPass__ExecutionT
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14477))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14478))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(14371))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14372))
 // CS Name: ::BloomPrePassNonLightPass*
 class CORDL_TYPE BloomPrePassNonLightPass : public ::UnityEngine::MonoBehaviour {
 public:
@@ -132,28 +132,28 @@ public:
 
   static inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BloomPrePassNonLightPass>>* getStaticF__bloomPrePassBeforeBlurList();
 
-  /// @brief Method get_executionTimeType, addr 0x2107188, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_executionTimeType, addr 0x219b930, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__BloomPrePassNonLightPass__ExecutionTimeType get_executionTimeType();
 
-  /// @brief Method get_bloomPrePassAfterBlurList, addr 0x2107190, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_bloomPrePassAfterBlurList, addr 0x219b938, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BloomPrePassNonLightPass>>* get_bloomPrePassAfterBlurList();
 
-  /// @brief Method get_bloomPrePassBeforeBlurList, addr 0x21071e8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_bloomPrePassBeforeBlurList, addr 0x219b990, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BloomPrePassNonLightPass>>* get_bloomPrePassBeforeBlurList();
 
-  /// @brief Method OnEnable, addr 0x2105a84, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x219a22c, size 0x4, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable, addr 0x2107240, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x219b9e8, size 0x4, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method Register, addr 0x2105918, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method Register, addr 0x219a0c0, size 0x124, virtual false, abstract: false, final false
   inline void Register();
 
-  /// @brief Method Unregister, addr 0x210585c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Unregister, addr 0x219a004, size 0xbc, virtual false, abstract: false, final false
   inline void Unregister();
 
-  /// @brief Method OnValidate, addr 0x21065ec, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x219ad94, size 0x2c, virtual true, abstract: false, final false
   inline void OnValidate();
 
   /// @brief Method Render, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -161,7 +161,7 @@ public:
 
   static inline ::GlobalNamespace::BloomPrePassNonLightPass* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2104130, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21988d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassNonLightPass", modifiers: "&&", def_value: None }]

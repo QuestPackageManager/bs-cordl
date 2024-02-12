@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::UnityEngine::Rendering::RenderPipeline);
 namespace UnityEngine::Rendering {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10358))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9116))
 // CS Name: ::UnityEngine.Rendering::RenderPipeline*
 class CORDL_TYPE RenderPipeline : public ::System::Object {
 public:
@@ -47,30 +47,30 @@ public:
   /// @brief Method Render, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Render(::UnityEngine::Rendering::ScriptableRenderContext context, ::ArrayW<::UnityEngine::Camera*, ::Array<::UnityEngine::Camera*>*> cameras);
 
-  /// @brief Method ProcessRenderRequests, addr 0x2cedf10, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ProcessRenderRequests, addr 0x2cf4ff8, size 0x4, virtual true, abstract: false, final false
   inline void ProcessRenderRequests(::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Camera* camera,
                                     ::System::Collections::Generic::List_1<::UnityEngine::__Camera__RenderRequest>* renderRequests);
 
-  /// @brief Method Render, addr 0x2cedf14, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Render, addr 0x2cf4ffc, size 0x78, virtual true, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::ScriptableRenderContext context, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* cameras);
 
-  /// @brief Method InternalRender, addr 0x2ced5a0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method InternalRender, addr 0x2cf4688, size 0x88, virtual false, abstract: false, final false
   inline void InternalRender(::UnityEngine::Rendering::ScriptableRenderContext context, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* cameras);
 
-  /// @brief Method InternalRenderWithRequests, addr 0x2ced628, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method InternalRenderWithRequests, addr 0x2cf4710, size 0x100, virtual false, abstract: false, final false
   inline void InternalRenderWithRequests(::UnityEngine::Rendering::ScriptableRenderContext context, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* cameras,
                                          ::System::Collections::Generic::List_1<::UnityEngine::__Camera__RenderRequest>* renderRequests);
 
-  /// @brief Method get_disposed, addr 0x2cedf8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x2cf5074, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
-  /// @brief Method set_disposed, addr 0x2cedf94, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x2cf507c, size 0xc, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
-  /// @brief Method Dispose, addr 0x2ced01c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x2cf4270, size 0x78, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x2cedfa0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x2cf5088, size 0x4, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   // Ctor Parameters [CppParam { name: "", ty: "RenderPipeline", modifiers: "&&", def_value: None }]

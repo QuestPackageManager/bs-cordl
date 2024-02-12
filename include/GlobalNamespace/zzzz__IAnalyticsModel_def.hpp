@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IAnalyticsModel);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16221))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16423))
 // CS Name: ::IAnalyticsModel*
 class CORDL_TYPE IAnalyticsModel {
 public:

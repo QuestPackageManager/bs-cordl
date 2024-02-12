@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::IDragHandler);
 namespace UnityEngine::EventSystems {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13179))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13077))
 // CS Name: ::UnityEngine.EventSystems::IDragHandler*
 class CORDL_TYPE IDragHandler {
 public:

@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::UnityEngine::Bindings::UnmarshalledAttribute);
 namespace UnityEngine::Bindings {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16024))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16119))
 // CS Name: ::UnityEngine.Bindings::UnmarshalledAttribute*
 class CORDL_TYPE UnmarshalledAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::UnityEngine::Bindings::UnmarshalledAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d188a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d39350, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "UnmarshalledAttribute", modifiers: "&&", def_value: None }]

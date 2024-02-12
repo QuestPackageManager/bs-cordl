@@ -53,58 +53,58 @@ public:
 
   constexpr void __cordl_internal_set_time(::StringW value);
 
-  /// @brief Method GetInstance, addr 0x11c4a8c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x11f191c, size 0xf0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerUtcTime* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetInstance, addr 0x11c4b7c, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x11f1a0c, size 0x140, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerUtcTime* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
   static inline ::Org::BouncyCastle::Asn1::DerUtcTime* New_ctor(::StringW time);
 
-  /// @brief Method .ctor, addr 0x11c4cbc, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11f1b4c, size 0x168, virtual false, abstract: false, final false
   inline void _ctor(::StringW time);
 
   static inline ::Org::BouncyCastle::Asn1::DerUtcTime* New_ctor(::System::DateTime time);
 
-  /// @brief Method .ctor, addr 0x11c4e74, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11f1d04, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::DateTime time);
 
   static inline ::Org::BouncyCastle::Asn1::DerUtcTime* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method .ctor, addr 0x11b7400, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11e4290, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method ToDateTime, addr 0x11c4e24, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ToDateTime, addr 0x11f1cb4, size 0x50, virtual false, abstract: false, final false
   inline ::System::DateTime ToDateTime();
 
-  /// @brief Method ToAdjustedDateTime, addr 0x11c53bc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ToAdjustedDateTime, addr 0x11f224c, size 0x50, virtual false, abstract: false, final false
   inline ::System::DateTime ToAdjustedDateTime();
 
-  /// @brief Method ParseDateString, addr 0x11c5304, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method ParseDateString, addr 0x11f2194, size 0xb8, virtual false, abstract: false, final false
   inline ::System::DateTime ParseDateString(::StringW dateStr, ::StringW formatStr);
 
-  /// @brief Method get_TimeString, addr 0x11c4f30, size 0x3d4, virtual false, abstract: false, final false
+  /// @brief Method get_TimeString, addr 0x11f1dc0, size 0x3d4, virtual false, abstract: false, final false
   inline ::StringW get_TimeString();
 
-  /// @brief Method get_AdjustedTime, addr 0x11c5498, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_AdjustedTime, addr 0x11f2328, size 0x4, virtual false, abstract: false, final false
   inline ::StringW get_AdjustedTime();
 
-  /// @brief Method get_AdjustedTimeString, addr 0x11c540c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_AdjustedTimeString, addr 0x11f229c, size 0x8c, virtual false, abstract: false, final false
   inline ::StringW get_AdjustedTimeString();
 
-  /// @brief Method GetOctets, addr 0x11c549c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetOctets, addr 0x11f232c, size 0xc, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetOctets();
 
-  /// @brief Method Encode, addr 0x11c54a8, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x11f2338, size 0x30, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
-  /// @brief Method Asn1Equals, addr 0x11c54d8, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Asn1Equals, addr 0x11f2368, size 0xa0, virtual true, abstract: false, final false
   inline bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
 
-  /// @brief Method Asn1GetHashCode, addr 0x11c5578, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method Asn1GetHashCode, addr 0x11f2408, size 0x1c, virtual true, abstract: false, final false
   inline int32_t Asn1GetHashCode();
 
-  /// @brief Method ToString, addr 0x11c5594, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x11f2424, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "DerUtcTime", modifiers: "&&", def_value: None }]

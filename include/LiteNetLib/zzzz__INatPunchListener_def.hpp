@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::LiteNetLib::INatPunchListener);
 namespace LiteNetLib {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14145))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14158))
 // CS Name: ::LiteNetLib::INatPunchListener*
 class CORDL_TYPE INatPunchListener {
 public:

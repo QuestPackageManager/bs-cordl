@@ -19,7 +19,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Globalization::CompareOptions, ::cordl_internals::Ptr<uint8_t>, ::cordl_internals::Ptr<uint8_t>, ::cordl_internals::Ptr<uint8_t>, ::cordl_internals::Ptr<uint8_t>,
     ::cordl_internals::Ptr<uint8_t>)>(&::Mono::Globalization::Unicode::__SimpleCollator__Context::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x24194ec;
+  constexpr static std::size_t addrs = 0x243934c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Globalization::Unicode::__SimpleCollator__PreviousInfo::*)(bool)>(
     &::Mono::Globalization::Unicode::__SimpleCollator__PreviousInfo::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x241b064;
+  constexpr static std::size_t addrs = 0x243aec4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Globalization::Unicode::SimpleCollator::*)(::System::Globalization::CultureInfo*)>(
     &::Mono::Globalization::Unicode::SimpleCollator::_ctor)> {
   constexpr static std::size_t size = 0x32c;
-  constexpr static std::size_t addrs = 0x2417dec;
+  constexpr static std::size_t addrs = 0x2437c4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -138,7 +138,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Globalization::CultureInfo*, ByRef<::Mono::Globalization::Unicode::CodePointIndexer*>, ByRef<::cordl_internals::Ptr<uint8_t>>, ByRef<::cordl_internals::Ptr<uint8_t>>,
     ByRef<::Mono::Globalization::Unicode::CodePointIndexer*>, ByRef<::cordl_internals::Ptr<uint8_t>>)>(&::Mono::Globalization::Unicode::SimpleCollator::SetCJKTable)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x2418118;
+  constexpr static std::size_t addrs = 0x2437f78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Globalization::CultureInfo* (*)(::System::Globalization::CultureInfo*)>(
     &::Mono::Globalization::Unicode::SimpleCollator::GetNeutralCulture)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x24181f4;
+  constexpr static std::size_t addrs = 0x2438054;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -173,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (::Mono::Globalization::Unicode::SimpleCollator::*)(int32_t)>(
     &::Mono::Globalization::Unicode::SimpleCollator::Category)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x2418264;
+  constexpr static std::size_t addrs = 0x24380c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -188,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (::Mono::Globalization::Unicode::SimpleCollator::*)(int32_t)>(
     &::Mono::Globalization::Unicode::SimpleCollator::Level1)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x24182f8;
+  constexpr static std::size_t addrs = 0x2438158;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -203,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (::Mono::Globalization::Unicode::SimpleCollator::*)(
     int32_t, ::Mono::Globalization::Unicode::__SimpleCollator__ExtenderType)>(&::Mono::Globalization::Unicode::SimpleCollator::Level2)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x241838c;
+  constexpr static std::size_t addrs = 0x24381ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -219,7 +219,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t, ::System::Globalization::CompareOptions)>(
     &::Mono::Globalization::Unicode::SimpleCollator::IsHalfKana)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x24184b8;
+  constexpr static std::size_t addrs = 0x2438318;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -235,7 +235,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Globalization::Unicode::Contraction* (
     ::Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, int32_t, int32_t)>(&::Mono::Globalization::Unicode::SimpleCollator::GetContraction)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x241852c;
+  constexpr static std::size_t addrs = 0x243838c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -252,7 +252,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, int32_t, int32_t, ::ArrayW<::Mono::Globalization::Unicode::Contraction*, ::Array<::Mono::Globalization::Unicode::Contraction*>*>)>(
     &::Mono::Globalization::Unicode::SimpleCollator::GetContraction)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x24185ec;
+  constexpr static std::size_t addrs = 0x243844c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -270,7 +270,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Globalization::Unicode::Contraction* (
     ::Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, int32_t, int32_t)>(&::Mono::Globalization::Unicode::SimpleCollator::GetTailContraction)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x2418710;
+  constexpr static std::size_t addrs = 0x2438570;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -287,7 +287,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, int32_t, int32_t, ::ArrayW<::Mono::Globalization::Unicode::Contraction*, ::Array<::Mono::Globalization::Unicode::Contraction*>*>)>(
     &::Mono::Globalization::Unicode::SimpleCollator::GetTailContraction)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x24187d0;
+  constexpr static std::size_t addrs = 0x2438630;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -305,7 +305,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Mono::Globalization::Unicode::SimpleCollator::*)(int32_t, ::System::Globalization::CompareOptions)>(
     &::Mono::Globalization::Unicode::SimpleCollator::FilterOptions)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x24189c0;
+  constexpr static std::size_t addrs = 0x2438820;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -321,7 +321,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Globalization::Unicode::__SimpleCollator__ExtenderType (::Mono::Globalization::Unicode::SimpleCollator::*)(
     int32_t)>(&::Mono::Globalization::Unicode::SimpleCollator::GetExtenderType)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x2418aac;
+  constexpr static std::size_t addrs = 0x243890c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -336,7 +336,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(::Mono::Globalization::Unicode::__SimpleCollator__ExtenderType, ::System::Globalization::CompareOptions)>(
     &::Mono::Globalization::Unicode::SimpleCollator::ToDashTypeValue)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2418bb0;
+  constexpr static std::size_t addrs = 0x2438a10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -352,7 +352,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Mono::Globalization::Unicode::SimpleCollator::*)(
     int32_t, ::Mono::Globalization::Unicode::__SimpleCollator__ExtenderType, ::System::Globalization::CompareOptions)>(&::Mono::Globalization::Unicode::SimpleCollator::FilterExtender)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x2418bd0;
+  constexpr static std::size_t addrs = 0x2438a30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -369,7 +369,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t, ::System::Globalization::CompareOptions)>(
     &::Mono::Globalization::Unicode::SimpleCollator::IsIgnorable)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x2418de4;
+  constexpr static std::size_t addrs = 0x2438c44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -385,7 +385,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Globalization::Unicode::SimpleCollator::*)(int32_t)>(
     &::Mono::Globalization::Unicode::SimpleCollator::IsSafe)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x2418e68;
+  constexpr static std::size_t addrs = 0x2438cc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -400,7 +400,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Globalization::SortKey* (
     ::Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, ::System::Globalization::CompareOptions)>(&::Mono::Globalization::Unicode::SimpleCollator::GetSortKey)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2418ec8;
+  constexpr static std::size_t addrs = 0x2438d28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -416,7 +416,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Globalization::SortKey* (
     ::Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, int32_t, int32_t, ::System::Globalization::CompareOptions)>(&::Mono::Globalization::Unicode::SimpleCollator::GetSortKey)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x2418ee8;
+  constexpr static std::size_t addrs = 0x2438d48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -433,7 +433,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Globalization::Unicode::SimpleCollator::*)(
     ::StringW, int32_t, int32_t, ::Mono::Globalization::Unicode::SortKeyBuffer*, ::System::Globalization::CompareOptions)>(&::Mono::Globalization::Unicode::SimpleCollator::GetSortKey)> {
   constexpr static std::size_t size = 0x37c;
-  constexpr static std::size_t addrs = 0x2419130;
+  constexpr static std::size_t addrs = 0x2438f90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -452,7 +452,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     int32_t, ::Mono::Globalization::Unicode::__SimpleCollator__ExtenderType, ::Mono::Globalization::Unicode::SortKeyBuffer*, ::System::Globalization::CompareOptions)>(
     &::Mono::Globalization::Unicode::SimpleCollator::FillSortKeyRaw)> {
   constexpr static std::size_t size = 0x3a0;
-  constexpr static std::size_t addrs = 0x2419508;
+  constexpr static std::size_t addrs = 0x2439368;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -470,7 +470,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Globalization::Unicode::SimpleCollator::*)(int32_t, ::Mono::Globalization::Unicode::SortKeyBuffer*)>(
     &::Mono::Globalization::Unicode::SimpleCollator::FillSurrogateSortKeyRaw)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x2419a80;
+  constexpr static std::size_t addrs = 0x24398e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -487,7 +487,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<int32_t (::Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, int32_t, int32_t, ::StringW, int32_t, int32_t, ::System::Globalization::CompareOptions)>(
         &::Mono::Globalization::Unicode::SimpleCollator::System_Globalization_ISimpleCollator_Compare)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2419bc8;
+  constexpr static std::size_t addrs = 0x2439a28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -506,7 +506,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Mono::Globalization::Unicode::SimpleCollator::*)(
     ::StringW, int32_t, int32_t, ::StringW, int32_t, int32_t, ::System::Globalization::CompareOptions)>(&::Mono::Globalization::Unicode::SimpleCollator::Compare)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x2419bcc;
+  constexpr static std::size_t addrs = 0x2439a2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -524,7 +524,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Globalization::Unicode::SimpleCollator::*)(::cordl_internals::Ptr<uint8_t>, int32_t)>(
     &::Mono::Globalization::Unicode::SimpleCollator::ClearBuffer)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x24194d0;
+  constexpr static std::size_t addrs = 0x2439330;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -541,7 +541,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::StringW, int32_t, int32_t, ::StringW, int32_t, int32_t, ByRef<bool>, ByRef<bool>, bool, bool, ByRef<::Mono::Globalization::Unicode::__SimpleCollator__Context>)>(
     &::Mono::Globalization::Unicode::SimpleCollator::CompareInternal)> {
   constexpr static std::size_t size = 0x13e4;
-  constexpr static std::size_t addrs = 0x2419c80;
+  constexpr static std::size_t addrs = 0x2439ae0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -561,7 +561,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Mono::Globalization::Unicode::SimpleCollator::*)(bool, bool)>(
     &::Mono::Globalization::Unicode::SimpleCollator::CompareFlagPair)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x241b074;
+  constexpr static std::size_t addrs = 0x243aed4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -576,7 +576,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (::Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, ::StringW, ::System::Globalization::CompareOptions)>(&::Mono::Globalization::Unicode::SimpleCollator::IsPrefix)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x241b094;
+  constexpr static std::size_t addrs = 0x243aef4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -592,7 +592,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Globalization::Unicode::SimpleCollator::*)(
     ::StringW, ::StringW, int32_t, int32_t, ::System::Globalization::CompareOptions)>(&::Mono::Globalization::Unicode::SimpleCollator::IsPrefix)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x241b0b4;
+  constexpr static std::size_t addrs = 0x243af14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -609,7 +609,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Globalization::Unicode::SimpleCollator::*)(
     ::StringW, ::StringW, int32_t, int32_t, bool, ByRef<::Mono::Globalization::Unicode::__SimpleCollator__Context>)>(&::Mono::Globalization::Unicode::SimpleCollator::IsPrefix)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x241b164;
+  constexpr static std::size_t addrs = 0x243afc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -627,7 +627,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (::Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, ::StringW, ::System::Globalization::CompareOptions)>(&::Mono::Globalization::Unicode::SimpleCollator::IsSuffix)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x241b1cc;
+  constexpr static std::size_t addrs = 0x243b02c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -643,7 +643,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Globalization::Unicode::SimpleCollator::*)(
     ::StringW, ::StringW, int32_t, int32_t, ::System::Globalization::CompareOptions)>(&::Mono::Globalization::Unicode::SimpleCollator::IsSuffix)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x241b1ec;
+  constexpr static std::size_t addrs = 0x243b04c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -660,7 +660,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, ::StringW, int32_t, int32_t, ByRef<bool>)>(
     &::Mono::Globalization::Unicode::SimpleCollator::QuickIndexOf)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x241b40c;
+  constexpr static std::size_t addrs = 0x243b26c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -677,7 +677,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Mono::Globalization::Unicode::SimpleCollator::*)(
     ::StringW, ::StringW, int32_t, int32_t, ::System::Globalization::CompareOptions)>(&::Mono::Globalization::Unicode::SimpleCollator::IndexOf)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x241b574;
+  constexpr static std::size_t addrs = 0x243b3d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -694,7 +694,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, ::StringW, int32_t, int32_t)>(
     &::Mono::Globalization::Unicode::SimpleCollator::IndexOfOrdinal)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x241bc04;
+  constexpr static std::size_t addrs = 0x243ba64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -710,7 +710,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, char16_t, int32_t, int32_t)>(
     &::Mono::Globalization::Unicode::SimpleCollator::IndexOfOrdinal)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x241bcdc;
+  constexpr static std::size_t addrs = 0x243bb3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -727,7 +727,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::StringW, int32_t, int32_t, ::cordl_internals::Ptr<uint8_t>, char16_t, int32_t, bool, ByRef<::Mono::Globalization::Unicode::__SimpleCollator__Context>)>(
     &::Mono::Globalization::Unicode::SimpleCollator::IndexOfSortKey)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x241bd4c;
+  constexpr static std::size_t addrs = 0x243bbac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -748,7 +748,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::StringW, ::StringW, int32_t, int32_t, ::cordl_internals::Ptr<uint8_t>, ByRef<::Mono::Globalization::Unicode::__SimpleCollator__Context>)>(
     &::Mono::Globalization::Unicode::SimpleCollator::IndexOf)> {
   constexpr static std::size_t size = 0x49c;
-  constexpr static std::size_t addrs = 0x241b768;
+  constexpr static std::size_t addrs = 0x243b5c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -766,7 +766,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Mono::Globalization::Unicode::SimpleCollator::*)(
     ::StringW, ::StringW, int32_t, int32_t, ::System::Globalization::CompareOptions)>(&::Mono::Globalization::Unicode::SimpleCollator::LastIndexOf)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x241b280;
+  constexpr static std::size_t addrs = 0x243b0e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -783,7 +783,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, ::StringW, int32_t, int32_t)>(
     &::Mono::Globalization::Unicode::SimpleCollator::LastIndexOfOrdinal)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x241c4c0;
+  constexpr static std::size_t addrs = 0x243c320;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -800,7 +800,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::StringW, int32_t, int32_t, int32_t, ::cordl_internals::Ptr<uint8_t>, int32_t, bool, ByRef<::Mono::Globalization::Unicode::__SimpleCollator__Context>)>(
     &::Mono::Globalization::Unicode::SimpleCollator::LastIndexOfSortKey)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x241c5f4;
+  constexpr static std::size_t addrs = 0x243c454;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -820,7 +820,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::StringW, ::StringW, int32_t, int32_t, ::cordl_internals::Ptr<uint8_t>, ByRef<::Mono::Globalization::Unicode::__SimpleCollator__Context>)>(
     &::Mono::Globalization::Unicode::SimpleCollator::LastIndexOf)> {
   constexpr static std::size_t size = 0x520;
-  constexpr static std::size_t addrs = 0x241bfa0;
+  constexpr static std::size_t addrs = 0x243be00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -839,7 +839,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::StringW, ByRef<int32_t>, int32_t, int32_t, ::cordl_internals::Ptr<uint8_t>, bool, ByRef<::Mono::Globalization::Unicode::__SimpleCollator__Context>)>(
     &::Mono::Globalization::Unicode::SimpleCollator::MatchesForward)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x241bde8;
+  constexpr static std::size_t addrs = 0x243bc48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -859,7 +859,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::StringW, ByRef<int32_t>, int32_t, int32_t, ::cordl_internals::Ptr<uint8_t>, bool, ::Mono::Globalization::Unicode::__SimpleCollator__ExtenderType,
     ByRef<::Mono::Globalization::Unicode::Contraction*>, ByRef<::Mono::Globalization::Unicode::__SimpleCollator__Context>)>(&::Mono::Globalization::Unicode::SimpleCollator::MatchesForwardCore)> {
   constexpr static std::size_t size = 0x354;
-  constexpr static std::size_t addrs = 0x241c85c;
+  constexpr static std::size_t addrs = 0x243c6bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -881,7 +881,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Globalization::CompareOptions, ::cordl_internals::Ptr<uint8_t>, int32_t, ::Mono::Globalization::Unicode::__SimpleCollator__ExtenderType, ::cordl_internals::Ptr<uint8_t>, int32_t, bool)>(
     &::Mono::Globalization::Unicode::SimpleCollator::MatchesPrimitive)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x241cbb0;
+  constexpr static std::size_t addrs = 0x243ca10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -902,7 +902,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::StringW, ByRef<int32_t>, int32_t, int32_t, int32_t, ::cordl_internals::Ptr<uint8_t>, bool, ByRef<::Mono::Globalization::Unicode::__SimpleCollator__Context>)>(
     &::Mono::Globalization::Unicode::SimpleCollator::MatchesBackward)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x241c698;
+  constexpr static std::size_t addrs = 0x243c4f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -923,7 +923,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::StringW, ByRef<int32_t>, int32_t, int32_t, int32_t, ::cordl_internals::Ptr<uint8_t>, bool, ::Mono::Globalization::Unicode::__SimpleCollator__ExtenderType,
     ByRef<::Mono::Globalization::Unicode::Contraction*>, ByRef<::Mono::Globalization::Unicode::__SimpleCollator__Context>)>(&::Mono::Globalization::Unicode::SimpleCollator::MatchesBackwardCore)> {
   constexpr static std::size_t size = 0x498;
-  constexpr static std::size_t addrs = 0x241cddc;
+  constexpr static std::size_t addrs = 0x243cc3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::ReadOnlySpan_1<char16_t>)>(&::System::IO::PathInternal::GetRootLength)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x24ff870;
+  constexpr static std::size_t addrs = 0x251e904;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(char16_t)>(&::System::IO::PathInternal::IsDirectorySeparator)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x24ff8ec;
+  constexpr static std::size_t addrs = 0x251e980;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>)>(&::System::IO::PathInternal::EndsInDirectorySeparator)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x24ff8fc;
+  constexpr static std::size_t addrs = 0x251e990;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>)>(&::System::IO::PathInternal::StartsWithDirectorySeparator)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x24ff984;
+  constexpr static std::size_t addrs = 0x251ea18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::System::IO::PathInternal::TrimEndingDirectorySeparator)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x24ffa00;
+  constexpr static std::size_t addrs = 0x251ea94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ReadOnlySpan_1<char16_t> (*)(::System::ReadOnlySpan_1<char16_t>)>(
     &::System::IO::PathInternal::TrimEndingDirectorySeparator)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x24ffbbc;
+  constexpr static std::size_t addrs = 0x251ec50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>)>(&::System::IO::PathInternal::IsRoot)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x24ffb40;
+  constexpr static std::size_t addrs = 0x251ebd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::System::IO::PathInternal::get_IsCaseSensitive)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x24ffc9c;
+  constexpr static std::size_t addrs = 0x251ed30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::PathInternal*>::get(), "get_IsCaseSensitive",
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::System::IO::PathInternal::GetIsCaseSensitive)> {
   constexpr static std::size_t size = 0x304;
-  constexpr static std::size_t addrs = 0x24ffcf4;
+  constexpr static std::size_t addrs = 0x251ed88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::PathInternal*>::get(), "GetIsCaseSensitive",
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::System::IO::PathInternal::IsPartiallyQualified)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25001b4;
+  constexpr static std::size_t addrs = 0x251f248;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

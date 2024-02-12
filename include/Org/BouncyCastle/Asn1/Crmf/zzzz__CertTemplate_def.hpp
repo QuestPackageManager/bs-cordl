@@ -172,43 +172,43 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::CertTemplate* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xe84ca8, size 0x56c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeaeb38, size 0x56c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance, addr 0xe84824, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xeae6b4, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Crmf::CertTemplate* GetInstance(::System::Object* obj);
 
-  /// @brief Method get_Version, addr 0xe853dc, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_Version, addr 0xeaf26c, size 0x18, virtual true, abstract: false, final false
   inline int32_t get_Version();
 
-  /// @brief Method get_SerialNumber, addr 0xe85474, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SerialNumber, addr 0xeaf304, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_SerialNumber();
 
-  /// @brief Method get_SigningAlg, addr 0xe8547c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SigningAlg, addr 0xeaf30c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_SigningAlg();
 
-  /// @brief Method get_Issuer, addr 0xe85484, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Issuer, addr 0xeaf314, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Name* get_Issuer();
 
-  /// @brief Method get_Validity, addr 0xe8548c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Validity, addr 0xeaf31c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::OptionalValidity* get_Validity();
 
-  /// @brief Method get_Subject, addr 0xe85494, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Subject, addr 0xeaf324, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Name* get_Subject();
 
-  /// @brief Method get_PublicKey, addr 0xe8549c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_PublicKey, addr 0xeaf32c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* get_PublicKey();
 
-  /// @brief Method get_IssuerUID, addr 0xe854a4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IssuerUID, addr 0xeaf334, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerBitString* get_IssuerUID();
 
-  /// @brief Method get_SubjectUID, addr 0xe854ac, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SubjectUID, addr 0xeaf33c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerBitString* get_SubjectUID();
 
-  /// @brief Method get_Extensions, addr 0xe854b4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Extensions, addr 0xeaf344, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* get_Extensions();
 
-  /// @brief Method ToAsn1Object, addr 0xe854bc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xeaf34c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "CertTemplate", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::EGamepadTextInputMode);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8628))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8572))
 // CS Name: ::OVR.OpenVR::EGamepadTextInputMode
 struct CORDL_TYPE EGamepadTextInputMode {
 public:

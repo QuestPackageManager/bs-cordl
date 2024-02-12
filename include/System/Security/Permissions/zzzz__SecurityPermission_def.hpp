@@ -46,30 +46,30 @@ public:
 
   static inline ::System::Security::Permissions::SecurityPermission* New_ctor(::System::Security::Permissions::PermissionState state);
 
-  /// @brief Method .ctor, addr 0x2456e8c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2477cf0, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Permissions::PermissionState state);
 
   static inline ::System::Security::Permissions::SecurityPermission* New_ctor(::System::Security::Permissions::SecurityPermissionFlag flag);
 
-  /// @brief Method .ctor, addr 0x2456ecc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2477d30, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Permissions::SecurityPermissionFlag flag);
 
-  /// @brief Method set_Flags, addr 0x2456ef8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method set_Flags, addr 0x2477d5c, size 0xb8, virtual false, abstract: false, final false
   inline void set_Flags(::System::Security::Permissions::SecurityPermissionFlag value);
 
-  /// @brief Method IsUnrestricted, addr 0x2456fb0, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method IsUnrestricted, addr 0x2477e14, size 0x14, virtual true, abstract: false, final true
   inline bool IsUnrestricted();
 
-  /// @brief Method IsSubsetOf, addr 0x2456fc4, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method IsSubsetOf, addr 0x2477e28, size 0x58, virtual true, abstract: false, final false
   inline bool IsSubsetOf(::System::Security::IPermission* target);
 
-  /// @brief Method ToXml, addr 0x24570d0, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method ToXml, addr 0x2477f34, size 0xec, virtual true, abstract: false, final false
   inline ::System::Security::SecurityElement* ToXml();
 
-  /// @brief Method IsEmpty, addr 0x24570c0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsEmpty, addr 0x2477f24, size 0x10, virtual false, abstract: false, final false
   inline bool IsEmpty();
 
-  /// @brief Method Cast, addr 0x245701c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Cast, addr 0x2477e80, size 0xa4, virtual false, abstract: false, final false
   inline ::System::Security::Permissions::SecurityPermission* Cast(::System::Security::IPermission* target);
 
   // Ctor Parameters [CppParam { name: "", ty: "SecurityPermission", modifiers: "&&", def_value: None }]

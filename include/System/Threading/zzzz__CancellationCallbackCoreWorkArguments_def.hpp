@@ -27,7 +27,7 @@ namespace System::Threading {
 struct CORDL_TYPE CancellationCallbackCoreWorkArguments {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x2613570, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2638478, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::SparselyPopulatedArrayFragment_1<::System::Threading::CancellationCallbackInfo*>* currArrayFragment, int32_t currArrayIndex);
 
   // Ctor Parameters [CppParam { name: "_currArrayFragment", ty: "::System::Threading::SparselyPopulatedArrayFragment_1<::System::Threading::CancellationCallbackInfo*>*", modifiers: "", def_value:

@@ -6,7 +6,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t)>(&::GlobalNamespace::BTSStarTextEffectValueParser::GetTextId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x221d7ac;
+  constexpr static std::size_t addrs = 0xe2f3d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t)>(&::GlobalNamespace::BTSStarTextEffectValueParser::GetPositionId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x221d7b4;
+  constexpr static std::size_t addrs = 0xe2f3e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t, int32_t)>(&::GlobalNamespace::BTSStarTextEffectValueParser::MergeValuesIntoOneInt)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x221d7bc;
+  constexpr static std::size_t addrs = 0xe2f3e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

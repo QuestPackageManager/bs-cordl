@@ -47,26 +47,26 @@ public:
 
   static inline ::Org::BouncyCastle::X509::X509Attribute* New_ctor(::Org::BouncyCastle::Asn1::Asn1Encodable* at);
 
-  /// @brief Method .ctor, addr 0x1176c7c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11a5b0c, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Encodable* at);
 
   static inline ::Org::BouncyCastle::X509::X509Attribute* New_ctor(::StringW oid, ::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method .ctor, addr 0x1176cb0, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11a5b40, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(::StringW oid, ::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
   static inline ::Org::BouncyCastle::X509::X509Attribute* New_ctor(::StringW oid, ::Org::BouncyCastle::Asn1::Asn1EncodableVector* value);
 
-  /// @brief Method .ctor, addr 0x1176d94, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11a5c24, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(::StringW oid, ::Org::BouncyCastle::Asn1::Asn1EncodableVector* value);
 
-  /// @brief Method get_Oid, addr 0x1176e78, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_Oid, addr 0x11a5d08, size 0x24, virtual false, abstract: false, final false
   inline ::StringW get_Oid();
 
-  /// @brief Method GetValues, addr 0x1176e9c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method GetValues, addr 0x11a5d2c, size 0x110, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*, ::Array<::Org::BouncyCastle::Asn1::Asn1Encodable*>*> GetValues();
 
-  /// @brief Method ToAsn1Object, addr 0x1176fac, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x11a5e3c, size 0x20, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "X509Attribute", modifiers: "&&", def_value: None }]

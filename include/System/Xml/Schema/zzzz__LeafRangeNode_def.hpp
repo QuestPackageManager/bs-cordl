@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::System::Xml::Schema::LeafRangeNode);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2655)), TypeDefinitionIndex(TypeDefinitionIndex(11600))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11609))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2655)), TypeDefinitionIndex(TypeDefinitionIndex(11498))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11507))
 // CS Name: ::System.Xml.Schema::LeafRangeNode*
 class CORDL_TYPE LeafRangeNode : public ::System::Xml::Schema::LeafNode {
 public:
@@ -60,16 +60,16 @@ public:
 
   constexpr void __cordl_internal_set_nextIteration(::System::Xml::Schema::BitSet* value);
 
-  /// @brief Method get_Max, addr 0x28aed00, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Max, addr 0x28b2368, size 0xc, virtual false, abstract: false, final false
   inline ::System::Decimal get_Max();
 
-  /// @brief Method get_Min, addr 0x28aed0c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Min, addr 0x28b2374, size 0xc, virtual false, abstract: false, final false
   inline ::System::Decimal get_Min();
 
-  /// @brief Method get_NextIteration, addr 0x28aed18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NextIteration, addr 0x28b2380, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::BitSet* get_NextIteration();
 
-  /// @brief Method set_NextIteration, addr 0x28aed20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_NextIteration, addr 0x28b2388, size 0x8, virtual false, abstract: false, final false
   inline void set_NextIteration(::System::Xml::Schema::BitSet* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "LeafRangeNode", modifiers: "&&", def_value: None }]

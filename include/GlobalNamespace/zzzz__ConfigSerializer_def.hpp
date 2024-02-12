@@ -19,20 +19,20 @@ MARK_REF_PTR_T(::GlobalNamespace::ConfigSerializer);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14357))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14512))
 // CS Name: ::ConfigSerializer*
 class CORDL_TYPE ConfigSerializer : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SaveConfig, addr 0x20f141c, size 0x430, virtual false, abstract: false, final false
+  /// @brief Method SaveConfig, addr 0x21859a4, size 0x430, virtual false, abstract: false, final false
   static inline void SaveConfig(::System::Object* config, ::StringW filePath);
 
-  /// @brief Method LoadConfig, addr 0x20f184c, size 0x560, virtual false, abstract: false, final false
+  /// @brief Method LoadConfig, addr 0x2185dd4, size 0x560, virtual false, abstract: false, final false
   static inline bool LoadConfig(::System::Object* config, ::StringW filePath);
 
   static inline ::GlobalNamespace::ConfigSerializer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x20f1dac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2186334, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ConfigSerializer", modifiers: "&&", def_value: None }]

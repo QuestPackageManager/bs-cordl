@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Events::PersistentListenerMode);
 namespace UnityEngine::Events {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10447))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9216))
 // CS Name: ::UnityEngine.Events::PersistentListenerMode
 struct CORDL_TYPE PersistentListenerMode {
 public:

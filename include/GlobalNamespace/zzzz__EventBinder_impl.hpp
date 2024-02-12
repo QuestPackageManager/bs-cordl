@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EventBinder::*)(::System::Action*, ::System::Action*)>(
     &::GlobalNamespace::EventBinder::Bind)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x20f2584;
+  constexpr static std::size_t addrs = 0x2186b0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EventBinder::*)()>(&::GlobalNamespace::EventBinder::ClearAllBindings)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x20f2650;
+  constexpr static std::size_t addrs = 0x2186bd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EventBinder*>::get(), "ClearAllBindings",
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EventBinder::*)()>(&::GlobalNamespace::EventBinder::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x20f27dc;
+  constexpr static std::size_t addrs = 0x2186d64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EventBinder*>::get(), ".ctor",

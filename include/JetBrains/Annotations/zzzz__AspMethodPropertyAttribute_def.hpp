@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::JetBrains::Annotations::AspMethodPropertyAttribute);
 namespace JetBrains::Annotations {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15798))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15948))
 // CS Name: ::JetBrains.Annotations::AspMethodPropertyAttribute*
 class CORDL_TYPE AspMethodPropertyAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::JetBrains::Annotations::AspMethodPropertyAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2eba7e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ed6930, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AspMethodPropertyAttribute", modifiers: "&&", def_value: None }]

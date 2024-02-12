@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::System::Net::CookieParser);
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9124))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7134))
 // CS Name: ::System.Net::CookieParser*
 class CORDL_TYPE CookieParser : public ::System::Object {
 public:
@@ -38,13 +38,13 @@ public:
 
   static inline ::System::Net::CookieParser* New_ctor(::StringW cookieString);
 
-  /// @brief Method .ctor, addr 0x29ad644, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29b20e8, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::StringW cookieString);
 
-  /// @brief Method Get, addr 0x29ad6bc, size 0x55c, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x29b2160, size 0x55c, virtual false, abstract: false, final false
   inline ::System::Net::Cookie* Get();
 
-  /// @brief Method CheckQuoted, addr 0x29abd24, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method CheckQuoted, addr 0x29b07c8, size 0xc4, virtual false, abstract: false, final false
   static inline ::StringW CheckQuoted(::StringW value);
 
   // Ctor Parameters [CppParam { name: "", ty: "CookieParser", modifiers: "&&", def_value: None }]

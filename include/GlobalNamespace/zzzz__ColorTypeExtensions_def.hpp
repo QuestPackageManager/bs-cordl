@@ -18,12 +18,12 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorTypeExtensions);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14753))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15137))
 // CS Name: ::ColorTypeExtensions*
 class CORDL_TYPE ColorTypeExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Opposite, addr 0xe006dc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Opposite, addr 0xe10bc4, size 0x18, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::ColorType Opposite(::GlobalNamespace::ColorType colorType);
 
   // Ctor Parameters [CppParam { name: "", ty: "ColorTypeExtensions", modifiers: "&&", def_value: None }]

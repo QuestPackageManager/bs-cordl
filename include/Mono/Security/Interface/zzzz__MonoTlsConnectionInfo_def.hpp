@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::Mono::Security::Interface::MonoTlsConnectionInfo);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::Interface {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13777)), TypeDefinitionIndex(TypeDefinitionIndex(13786))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13778))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13730)), TypeDefinitionIndex(TypeDefinitionIndex(13739))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13731))
 // CS Name: ::Mono.Security.Interface::MonoTlsConnectionInfo*
 class CORDL_TYPE MonoTlsConnectionInfo : public ::System::Object {
 public:
@@ -64,27 +64,27 @@ public:
 
   constexpr void __cordl_internal_set__PeerDomainName_k__BackingField(::StringW value);
 
-  /// @brief Method get_CipherSuiteCode, addr 0x2402ac0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CipherSuiteCode, addr 0x2422920, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::Interface::CipherSuiteCode get_CipherSuiteCode();
 
-  /// @brief Method set_CipherSuiteCode, addr 0x2402ac8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CipherSuiteCode, addr 0x2422928, size 0x8, virtual false, abstract: false, final false
   inline void set_CipherSuiteCode(::Mono::Security::Interface::CipherSuiteCode value);
 
-  /// @brief Method get_ProtocolVersion, addr 0x2402ad0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ProtocolVersion, addr 0x2422930, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::Interface::TlsProtocols get_ProtocolVersion();
 
-  /// @brief Method set_ProtocolVersion, addr 0x2402ad8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ProtocolVersion, addr 0x2422938, size 0x8, virtual false, abstract: false, final false
   inline void set_ProtocolVersion(::Mono::Security::Interface::TlsProtocols value);
 
-  /// @brief Method set_PeerDomainName, addr 0x2402ae0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_PeerDomainName, addr 0x2422940, size 0x8, virtual false, abstract: false, final false
   inline void set_PeerDomainName(::StringW value);
 
-  /// @brief Method ToString, addr 0x2402ae8, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2422948, size 0xbc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   static inline ::Mono::Security::Interface::MonoTlsConnectionInfo* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2402ba4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2422a04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MonoTlsConnectionInfo", modifiers: "&&", def_value: None }]

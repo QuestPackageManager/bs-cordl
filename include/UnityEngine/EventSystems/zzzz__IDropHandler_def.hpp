@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::IDropHandler);
 namespace UnityEngine::EventSystems {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13181))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13079))
 // CS Name: ::UnityEngine.EventSystems::IDropHandler*
 class CORDL_TYPE IDropHandler {
 public:

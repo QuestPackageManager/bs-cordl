@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BombExplosionEffect);
 // SizeInfo { instance_size: 336, native_size: -1, calculated_instance_size: 336, calculated_native_size: 336, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15889))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4838))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(15068))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4192))
 // CS Name: ::BombExplosionEffect*
 class CORDL_TYPE BombExplosionEffect : public ::UnityEngine::MonoBehaviour {
 public:
@@ -82,15 +82,15 @@ public:
 
   constexpr void __cordl_internal_set__explosionPSEmitParams(::UnityEngine::__ParticleSystem__EmitParams value);
 
-  /// @brief Method Awake, addr 0x2396730, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2357860, size 0x2c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method SpawnExplosion, addr 0x239675c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method SpawnExplosion, addr 0x235788c, size 0xbc, virtual false, abstract: false, final false
   inline void SpawnExplosion(::UnityEngine::Vector3 pos);
 
   static inline ::GlobalNamespace::BombExplosionEffect* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2396818, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2357948, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BombExplosionEffect", modifiers: "&&", def_value: None }]

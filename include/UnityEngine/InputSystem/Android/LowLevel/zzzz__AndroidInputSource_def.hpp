@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource);
 namespace UnityEngine::InputSystem::Android::LowLevel {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6450))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5709))
 // CS Name: ::UnityEngine.InputSystem.Android.LowLevel::AndroidInputSource
 struct CORDL_TYPE AndroidInputSource {
 public:

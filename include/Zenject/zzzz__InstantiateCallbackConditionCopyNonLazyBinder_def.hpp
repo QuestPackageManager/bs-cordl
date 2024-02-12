@@ -44,7 +44,7 @@ namespace Zenject {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10923))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10065))
 // CS Name: ::InstantiateCallbackConditionCopyNonLazyBinder::<>c__DisplayClass2_0`1<T>*
 class CORDL_TYPE __InstantiateCallbackConditionCopyNonLazyBinder____c__DisplayClass2_0_1 : public ::System::Object {
 public:
@@ -97,8 +97,8 @@ public:
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10681))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10924))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9823))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10066))
 // CS Name: ::Zenject::InstantiateCallbackConditionCopyNonLazyBinder*
 class CORDL_TYPE InstantiateCallbackConditionCopyNonLazyBinder : public ::Zenject::ConditionCopyNonLazyBinder {
 public:
@@ -107,10 +107,10 @@ public:
 
   static inline ::Zenject::InstantiateCallbackConditionCopyNonLazyBinder* New_ctor(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method .ctor, addr 0x2edb1f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ef7338, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method OnInstantiated, addr 0x2edb1f8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnInstantiated, addr 0x2ef7340, size 0x1c, virtual false, abstract: false, final false
   inline ::Zenject::ConditionCopyNonLazyBinder* OnInstantiated(::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* callback);
 
   /// @brief Method OnInstantiated, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

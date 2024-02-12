@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::TMPro::TMP_TextElement);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12447))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12448))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12345))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12346))
 // CS Name: ::TMPro::TMP_TextElement*
 class CORDL_TYPE TMP_TextElement : public ::System::Object {
 public:
@@ -98,42 +98,42 @@ public:
 
   constexpr void __cordl_internal_set_m_Scale(float_t value);
 
-  /// @brief Method get_elementType, addr 0x2c47df0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_elementType, addr 0x2c4595c, size 0x8, virtual false, abstract: false, final false
   inline ::TMPro::TextElementType get_elementType();
 
-  /// @brief Method get_unicode, addr 0x2c47df8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_unicode, addr 0x2c45964, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_unicode();
 
-  /// @brief Method set_unicode, addr 0x2c47e00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_unicode, addr 0x2c4596c, size 0x8, virtual false, abstract: false, final false
   inline void set_unicode(uint32_t value);
 
-  /// @brief Method get_textAsset, addr 0x2c47e08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_textAsset, addr 0x2c45974, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::TMPro::TMP_Asset> get_textAsset();
 
-  /// @brief Method set_textAsset, addr 0x2c47e10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_textAsset, addr 0x2c4597c, size 0x8, virtual false, abstract: false, final false
   inline void set_textAsset(::TMPro::TMP_Asset* value);
 
-  /// @brief Method get_glyph, addr 0x2c47e18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_glyph, addr 0x2c45984, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::Glyph* get_glyph();
 
-  /// @brief Method set_glyph, addr 0x2c47e20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_glyph, addr 0x2c4598c, size 0x8, virtual false, abstract: false, final false
   inline void set_glyph(::UnityEngine::TextCore::Glyph* value);
 
-  /// @brief Method get_glyphIndex, addr 0x2c47e28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_glyphIndex, addr 0x2c45994, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_glyphIndex();
 
-  /// @brief Method set_glyphIndex, addr 0x2c47e30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_glyphIndex, addr 0x2c4599c, size 0x8, virtual false, abstract: false, final false
   inline void set_glyphIndex(uint32_t value);
 
-  /// @brief Method get_scale, addr 0x2c47e38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_scale, addr 0x2c459a4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_scale();
 
-  /// @brief Method set_scale, addr 0x2c47e40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_scale, addr 0x2c459ac, size 0x8, virtual false, abstract: false, final false
   inline void set_scale(float_t value);
 
   static inline ::TMPro::TMP_TextElement* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c448b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c42420, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TMP_TextElement", modifiers: "&&", def_value: None }]

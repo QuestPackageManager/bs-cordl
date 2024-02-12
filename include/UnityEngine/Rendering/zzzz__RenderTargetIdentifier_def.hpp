@@ -34,8 +34,8 @@ MARK_VAL_T(::UnityEngine::Rendering::RenderTargetIdentifier);
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(10116)), TypeDefinitionIndex(TypeDefinitionIndex(10339))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10346))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(8852)), TypeDefinitionIndex(TypeDefinitionIndex(9089))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9096))
 // CS Name: ::UnityEngine.Rendering::RenderTargetIdentifier
 struct CORDL_TYPE RenderTargetIdentifier {
 public:
@@ -46,34 +46,34 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::RenderTargetIdentifier>"
   constexpr ::System::IEquatable_1<::UnityEngine::Rendering::RenderTargetIdentifier>* i___System__IEquatable_1___UnityEngine__Rendering__RenderTargetIdentifier_();
 
-  /// @brief Method .ctor, addr 0x2cec308, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cf3554, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::BuiltinRenderTextureType type);
 
-  /// @brief Method .ctor, addr 0x2cec37c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cf35c8, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(int32_t nameID);
 
-  /// @brief Method .ctor, addr 0x2cec3f0, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cf363c, size 0x144, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Texture* tex);
 
-  /// @brief Method op_Implicit, addr 0x2cec534, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2cf3780, size 0x78, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RenderTargetIdentifier op_Implicit___UnityEngine__Rendering__RenderTargetIdentifier(::UnityEngine::Rendering::BuiltinRenderTextureType type);
 
-  /// @brief Method op_Implicit, addr 0x2cec5ac, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2cf37f8, size 0x70, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RenderTargetIdentifier op_Implicit___UnityEngine__Rendering__RenderTargetIdentifier(int32_t nameID);
 
-  /// @brief Method op_Implicit, addr 0x2cec61c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2cf3868, size 0x50, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RenderTargetIdentifier op_Implicit___UnityEngine__Rendering__RenderTargetIdentifier(::UnityEngine::Texture* tex);
 
-  /// @brief Method ToString, addr 0x2cec66c, size 0x2a8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2cf38b8, size 0x2a8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method GetHashCode, addr 0x2cec914, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2cf3b60, size 0x4c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Equals, addr 0x2cec960, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2cf3bac, size 0x98, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::RenderTargetIdentifier rhs);
 
-  /// @brief Method Equals, addr 0x2cec9f8, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2cf3c44, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
   // Ctor Parameters [CppParam { name: "m_Type", ty: "::UnityEngine::Rendering::BuiltinRenderTextureType", modifiers: "", def_value: None }, CppParam { name: "m_NameID", ty: "int32_t", modifiers: "",

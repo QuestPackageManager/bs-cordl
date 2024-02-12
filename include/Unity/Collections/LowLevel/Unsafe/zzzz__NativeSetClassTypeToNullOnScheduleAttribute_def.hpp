@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::Unity::Collections::LowLevel::Unsafe::NativeSetClassTypeToNullO
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10025))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8756))
 // CS Name: ::Unity.Collections.LowLevel.Unsafe::NativeSetClassTypeToNullOnScheduleAttribute*
 class CORDL_TYPE NativeSetClassTypeToNullOnScheduleAttribute : public ::System::Attribute {
 public:

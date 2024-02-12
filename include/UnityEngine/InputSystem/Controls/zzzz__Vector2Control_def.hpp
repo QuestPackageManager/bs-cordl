@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Controls::Vector2Control);
 // SizeInfo { instance_size: 256, native_size: -1, calculated_instance_size: 256, calculated_native_size: 256, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6216)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6216), inst: 411
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6644)) CS Name: ::UnityEngine.InputSystem.Controls::Vector2Control*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5475)), TypeDefinitionIndex(TypeDefinitionIndex(8987)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5475), inst: 413
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5903)) CS Name: ::UnityEngine.InputSystem.Controls::Vector2Control*
 class CORDL_TYPE Vector2Control : public ::UnityEngine::InputSystem::InputControl_1<::UnityEngine::Vector2> {
 public:
   // Declarations
@@ -49,33 +49,33 @@ public:
 
   constexpr void __cordl_internal_set__y_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method get_x, addr 0x2b0bf6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_x, addr 0x2b0bad8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_x();
 
-  /// @brief Method set_x, addr 0x2b0bf74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_x, addr 0x2b0bae0, size 0x8, virtual false, abstract: false, final false
   inline void set_x(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method get_y, addr 0x2b0bf7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_y, addr 0x2b0bae8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_y();
 
-  /// @brief Method set_y, addr 0x2b0bf84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_y, addr 0x2b0baf0, size 0x8, virtual false, abstract: false, final false
   inline void set_y(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
   static inline ::UnityEngine::InputSystem::Controls::Vector2Control* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2b0a500, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b0a06c, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method FinishSetup, addr 0x2b0a45c, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x2b09fc8, size 0xa0, virtual true, abstract: false, final false
   inline void FinishSetup();
 
-  /// @brief Method ReadUnprocessedValueFromState, addr 0x2b0bf8c, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method ReadUnprocessedValueFromState, addr 0x2b0baf8, size 0x68, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 ReadUnprocessedValueFromState(::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method WriteValueIntoState, addr 0x2b0bff4, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method WriteValueIntoState, addr 0x2b0bb60, size 0x60, virtual true, abstract: false, final false
   inline void WriteValueIntoState(::UnityEngine::Vector2 value, ::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method EvaluateMagnitude, addr 0x2b0c054, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method EvaluateMagnitude, addr 0x2b0bbc0, size 0xb4, virtual true, abstract: false, final false
   inline float_t EvaluateMagnitude(::cordl_internals::Ptr<void> statePtr);
 
   // Ctor Parameters [CppParam { name: "", ty: "Vector2Control", modifiers: "&&", def_value: None }]

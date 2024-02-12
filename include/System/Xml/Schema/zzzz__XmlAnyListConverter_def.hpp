@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::System::Xml::Schema::XmlAnyListConverter);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11758))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11757))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11656))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11655))
 // CS Name: ::System.Xml.Schema::XmlAnyListConverter*
 class CORDL_TYPE XmlAnyListConverter : public ::System::Xml::Schema::XmlListConverter {
 public:
@@ -51,10 +51,10 @@ public:
 
   static inline ::System::Xml::Schema::XmlAnyListConverter* New_ctor(::System::Xml::Schema::XmlBaseConverter* atomicConverter);
 
-  /// @brief Method .ctor, addr 0x28e52f0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28e7958, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlBaseConverter* atomicConverter);
 
-  /// @brief Method ChangeType, addr 0x28e5364, size 0x258, virtual true, abstract: false, final false
+  /// @brief Method ChangeType, addr 0x28e79cc, size 0x258, virtual true, abstract: false, final false
   inline ::System::Object* ChangeType(::System::Object* value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlAnyListConverter", modifiers: "&&", def_value: None }]

@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::UnityEngine::IExposedPropertyTable);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10047))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8779))
 // CS Name: ::UnityEngine::IExposedPropertyTable*
 class CORDL_TYPE IExposedPropertyTable {
 public:

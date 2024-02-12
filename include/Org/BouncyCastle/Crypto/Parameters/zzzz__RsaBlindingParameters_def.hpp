@@ -60,13 +60,13 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters* New_ctor(::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* publicKey,
                                                                                          ::Org::BouncyCastle::Math::BigInteger* blindingFactor);
 
-  /// @brief Method .ctor, addr 0xf3950c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf6439c, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* publicKey, ::Org::BouncyCastle::Math::BigInteger* blindingFactor);
 
-  /// @brief Method get_PublicKey, addr 0xf39594, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PublicKey, addr 0xf64424, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* get_PublicKey();
 
-  /// @brief Method get_BlindingFactor, addr 0xf3959c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BlindingFactor, addr 0xf6442c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_BlindingFactor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RsaBlindingParameters", modifiers: "&&", def_value: None }]

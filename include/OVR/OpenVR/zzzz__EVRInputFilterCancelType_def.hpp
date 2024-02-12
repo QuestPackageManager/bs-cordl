@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::EVRInputFilterCancelType);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8639))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8583))
 // CS Name: ::OVR.OpenVR::EVRInputFilterCancelType
 struct CORDL_TYPE EVRInputFilterCancelType {
 public:

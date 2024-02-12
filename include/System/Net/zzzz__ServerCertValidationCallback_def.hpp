@@ -40,8 +40,8 @@ MARK_REF_PTR_T(::System::Net::__ServerCertValidationCallback__CallbackContext);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 45, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9369))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9146))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7379))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7156))
 // CS Name: ::ServerCertValidationCallback::CallbackContext*
 class CORDL_TYPE __ServerCertValidationCallback__CallbackContext : public ::System::Object {
 public:
@@ -95,7 +95,7 @@ public:
                                                                                          ::System::Security::Cryptography::X509Certificates::X509Chain* chain,
                                                                                          ::System::Net::Security::SslPolicyErrors sslPolicyErrors);
 
-  /// @brief Method .ctor, addr 0x29baad4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29be578, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* request, ::System::Security::Cryptography::X509Certificates::X509Certificate* certificate, ::System::Security::Cryptography::X509Certificates::X509Chain* chain,
                     ::System::Net::Security::SslPolicyErrors sslPolicyErrors);
 
@@ -149,7 +149,7 @@ static_assert(offsetof(::System::Net::__ServerCertValidationCallback__CallbackCo
 namespace System::Net {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9147))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7157))
 // CS Name: ::System.Net::ServerCertValidationCallback*
 class CORDL_TYPE ServerCertValidationCallback : public ::System::Object {
 public:
@@ -179,16 +179,16 @@ public:
 
   static inline ::System::Net::ServerCertValidationCallback* New_ctor(::System::Net::Security::RemoteCertificateValidationCallback* validationCallback);
 
-  /// @brief Method .ctor, addr 0x29ba840, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29be2e4, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Security::RemoteCertificateValidationCallback* validationCallback);
 
-  /// @brief Method get_ValidationCallback, addr 0x29ba8b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ValidationCallback, addr 0x29be35c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Security::RemoteCertificateValidationCallback* get_ValidationCallback();
 
-  /// @brief Method Callback, addr 0x29ba8c0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Callback, addr 0x29be364, size 0xac, virtual false, abstract: false, final false
   inline void Callback(::System::Object* state);
 
-  /// @brief Method Invoke, addr 0x29ba96c, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x29be410, size 0x168, virtual false, abstract: false, final false
   inline bool Invoke(::System::Object* request, ::System::Security::Cryptography::X509Certificates::X509Certificate* certificate, ::System::Security::Cryptography::X509Certificates::X509Chain* chain,
                      ::System::Net::Security::SslPolicyErrors sslPolicyErrors);
 

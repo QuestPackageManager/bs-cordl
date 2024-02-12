@@ -16,7 +16,7 @@ MARK_VAL_T(::System::UriFormat);
 namespace System {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8879))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6889))
 // CS Name: ::System::UriFormat
 struct CORDL_TYPE UriFormat {
 public:

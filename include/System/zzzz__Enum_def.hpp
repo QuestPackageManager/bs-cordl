@@ -82,19 +82,19 @@ namespace System {
 struct CORDL_TYPE __Enum__EnumResult {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x25e2a24, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x260593c, size 0x64, virtual false, abstract: false, final false
   inline void Init(bool canMethodThrow);
 
-  /// @brief Method SetFailure, addr 0x25e387c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetFailure, addr 0x2606794, size 0x10, virtual false, abstract: false, final false
   inline void SetFailure(::System::Exception* unhandledException);
 
-  /// @brief Method SetFailure, addr 0x25e327c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetFailure, addr 0x2606194, size 0x3c, virtual false, abstract: false, final false
   inline void SetFailure(::System::__Enum__ParseFailureKind failure, ::StringW failureParameter);
 
-  /// @brief Method SetFailure, addr 0x25e32b8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method SetFailure, addr 0x26061d0, size 0x40, virtual false, abstract: false, final false
   inline void SetFailure(::System::__Enum__ParseFailureKind failure, ::StringW failureMessageID, ::System::Object* failureMessageFormatArgument);
 
-  /// @brief Method GetEnumParseException, addr 0x25e3100, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetEnumParseException, addr 0x2606018, size 0x17c, virtual false, abstract: false, final false
   inline ::System::Exception* GetEnumParseException();
 
   // Ctor Parameters [CppParam { name: "parsedEnum", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam { name: "canThrow", ty: "bool", modifiers: "", def_value: None }, CppParam {
@@ -182,7 +182,7 @@ public:
 
   static inline ::System::__Enum__ValuesAndNames* New_ctor(::ArrayW<uint64_t, ::Array<uint64_t>*> values, ::ArrayW<::StringW, ::Array<::StringW>*> names);
 
-  /// @brief Method .ctor, addr 0x25e1ec0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2604dd8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint64_t, ::Array<uint64_t>*> values, ::ArrayW<::StringW, ::Array<::StringW>*> names);
 
   // Ctor Parameters [CppParam { name: "", ty: "__Enum__ValuesAndNames", modifiers: "&&", def_value: None }]

@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::IKSolverFABRIKRoot);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 132, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(12564))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12569))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(12462))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12467))
 // CS Name: ::RootMotion.FinalIK::IKSolverFABRIKRoot*
 class CORDL_TYPE IKSolverFABRIKRoot : public ::RootMotion::FinalIK::IKSolver {
 public:
@@ -92,39 +92,39 @@ public:
 
   constexpr void __cordl_internal_set_rootDefaultPosition(::UnityEngine::Vector3 value);
 
-  /// @brief Method IsValid, addr 0x126518c, size 0x654, virtual true, abstract: false, final false
+  /// @brief Method IsValid, addr 0x12fe23c, size 0x654, virtual true, abstract: false, final false
   inline bool IsValid(ByRef<::StringW> message);
 
-  /// @brief Method StoreDefaultLocalState, addr 0x12657e0, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method StoreDefaultLocalState, addr 0x12fe890, size 0x8c, virtual true, abstract: false, final false
   inline void StoreDefaultLocalState();
 
-  /// @brief Method FixTransforms, addr 0x126586c, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method FixTransforms, addr 0x12fe91c, size 0x94, virtual true, abstract: false, final false
   inline void FixTransforms();
 
-  /// @brief Method OnInitiate, addr 0x1265900, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method OnInitiate, addr 0x12fe9b0, size 0xe8, virtual true, abstract: false, final false
   inline void OnInitiate();
 
-  /// @brief Method IsRoot, addr 0x12659e8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method IsRoot, addr 0x12fea98, size 0x90, virtual false, abstract: false, final false
   inline bool IsRoot(int32_t index);
 
-  /// @brief Method OnUpdate, addr 0x1265a78, size 0x1d8, virtual true, abstract: false, final false
+  /// @brief Method OnUpdate, addr 0x12feb28, size 0x1d8, virtual true, abstract: false, final false
   inline void OnUpdate();
 
-  /// @brief Method GetPoints, addr 0x1265e78, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method GetPoints, addr 0x12fef28, size 0xa0, virtual true, abstract: false, final false
   inline ::ArrayW<::RootMotion::FinalIK::__IKSolver__Point*, ::Array<::RootMotion::FinalIK::__IKSolver__Point*>*> GetPoints();
 
-  /// @brief Method GetPoint, addr 0x1266050, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method GetPoint, addr 0x12ff100, size 0x84, virtual true, abstract: false, final false
   inline ::RootMotion::FinalIK::__IKSolver__Point* GetPoint(::UnityEngine::Transform* transform);
 
-  /// @brief Method AddPointsToArray, addr 0x1265f18, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method AddPointsToArray, addr 0x12fefc8, size 0x138, virtual false, abstract: false, final false
   inline void AddPointsToArray(ByRef<::ArrayW<::RootMotion::FinalIK::__IKSolver__Point*, ::Array<::RootMotion::FinalIK::__IKSolver__Point*>*>> array, ::RootMotion::FinalIK::FABRIKChain* chain);
 
-  /// @brief Method GetCentroid, addr 0x1265c50, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method GetCentroid, addr 0x12fed00, size 0x228, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetCentroid();
 
   static inline ::RootMotion::FinalIK::IKSolverFABRIKRoot* New_ctor();
 
-  /// @brief Method .ctor, addr 0x12660d4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12ff184, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "IKSolverFABRIKRoot", modifiers: "&&", def_value: None }]

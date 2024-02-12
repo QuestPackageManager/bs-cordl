@@ -39,8 +39,8 @@ MARK_REF_PTR_T(::System::IO::FileSystemInfo);
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2605)), TypeDefinitionIndex(TypeDefinitionIndex(3594))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3596))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2605)), TypeDefinitionIndex(TypeDefinitionIndex(3592))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3594))
 // CS Name: ::System.IO::FileSystemInfo*
 class CORDL_TYPE FileSystemInfo : public ::System::MarshalByRefObject {
 public:
@@ -109,63 +109,63 @@ public:
 
   static inline ::System::IO::FileSystemInfo* New_ctor();
 
-  /// @brief Method .ctor, addr 0x250ad58, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x252bd10, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Create, addr 0x250f7b0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2531094, size 0xdc, virtual false, abstract: false, final false
   static inline ::System::IO::FileSystemInfo* Create(::StringW fullPath, ::StringW fileName, ByRef<::System::IO::FileStatus> fileStatus);
 
-  /// @brief Method Init, addr 0x250f88c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2531170, size 0x7c, virtual false, abstract: false, final false
   inline void Init(ByRef<::System::IO::FileStatus> fileStatus);
 
-  /// @brief Method get_Attributes, addr 0x250df30, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method get_Attributes, addr 0x252f814, size 0xd0, virtual false, abstract: false, final false
   inline ::System::IO::FileAttributes get_Attributes();
 
-  /// @brief Method get_ExistsCore, addr 0x250f908, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_ExistsCore, addr 0x25311ec, size 0x98, virtual false, abstract: false, final false
   inline bool get_ExistsCore();
 
-  /// @brief Method get_LastWriteTimeCore, addr 0x250f9a0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_LastWriteTimeCore, addr 0x2531284, size 0x6c, virtual false, abstract: false, final false
   inline ::System::DateTimeOffset get_LastWriteTimeCore();
 
-  /// @brief Method get_LengthCore, addr 0x250e000, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_LengthCore, addr 0x252f8e4, size 0x80, virtual false, abstract: false, final false
   inline int64_t get_LengthCore();
 
-  /// @brief Method Refresh, addr 0x250fa0c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x25312f0, size 0x68, virtual false, abstract: false, final false
   inline void Refresh();
 
-  /// @brief Method ThrowNotFound, addr 0x250f71c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ThrowNotFound, addr 0x2531000, size 0x94, virtual false, abstract: false, final false
   static inline void ThrowNotFound(::StringW path);
 
-  /// @brief Method get_NormalizedPath, addr 0x250fa74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NormalizedPath, addr 0x2531358, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_NormalizedPath();
 
   static inline ::System::IO::FileSystemInfo* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x250b438, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x252c3f0, size 0x144, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetObjectData, addr 0x250fa7c, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x2531360, size 0x148, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method get_FullName, addr 0x250fbc4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_FullName, addr 0x25314a8, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_FullName();
 
-  /// @brief Method get_Name, addr 0x250fbcc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x25314b0, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_Exists, addr 0x250fbd4, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method get_Exists, addr 0x25314b8, size 0x88, virtual true, abstract: false, final false
   inline bool get_Exists();
 
   /// @brief Method Delete, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Delete();
 
-  /// @brief Method get_LastWriteTime, addr 0x250fc5c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_LastWriteTime, addr 0x2531540, size 0x38, virtual false, abstract: false, final false
   inline ::System::DateTime get_LastWriteTime();
 
-  /// @brief Method get_LastWriteTimeUtc, addr 0x250fc94, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_LastWriteTimeUtc, addr 0x2531578, size 0x28, virtual false, abstract: false, final false
   inline ::System::DateTime get_LastWriteTimeUtc();
 
-  /// @brief Method ToString, addr 0x250fcbc, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x25315a0, size 0x54, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "FileSystemInfo", modifiers: "&&", def_value: None }]

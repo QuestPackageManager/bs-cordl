@@ -6,7 +6,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::IO::__Error::EndOfFile)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x2538674;
+  constexpr static std::size_t addrs = 0x2558ee0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__Error*>::get(), "EndOfFile",
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::IO::__Error::FileNotOpen)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x25386d4;
+  constexpr static std::size_t addrs = 0x2558f40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__Error*>::get(), "FileNotOpen",
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::IO::__Error::ReaderClosed)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2538738;
+  constexpr static std::size_t addrs = 0x2558fa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__Error*>::get(), "ReaderClosed",
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, bool)>(&::System::IO::__Error::GetDisplayablePath)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x253879c;
+  constexpr static std::size_t addrs = 0x2559008;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, ::StringW)>(&::System::IO::__Error::WinIOError)> {
   constexpr static std::size_t size = 0x5a0;
-  constexpr static std::size_t addrs = 0x2538a7c;
+  constexpr static std::size_t addrs = 0x25592e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::IO::__Error::WriterClosed)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x253901c;
+  constexpr static std::size_t addrs = 0x2559888;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__Error*>::get(), "WriterClosed",

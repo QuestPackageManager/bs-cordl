@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::ContentDispositionHeaderValue);
 namespace System::Net::Http::Headers {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14663))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14668))
 // CS Name: ::System.Net.Http.Headers::ContentDispositionHeaderValue*
 class CORDL_TYPE ContentDispositionHeaderValue : public ::System::Object {
 public:
@@ -67,30 +67,30 @@ public:
 
   static inline ::System::Net::Http::Headers::ContentDispositionHeaderValue* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2837594, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x283bc68, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Net::Http::Headers::ContentDispositionHeaderValue* New_ctor(::System::Net::Http::Headers::ContentDispositionHeaderValue* source);
 
-  /// @brief Method .ctor, addr 0x283759c, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x283bc70, size 0x278, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Http::Headers::ContentDispositionHeaderValue* source);
 
-  /// @brief Method get_Parameters, addr 0x2837814, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_Parameters, addr 0x283bee8, size 0x80, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::ICollection_1<::System::Net::Http::Headers::NameValueHeaderValue*>* get_Parameters();
 
-  /// @brief Method System.ICloneable.Clone, addr 0x28378c8, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method System.ICloneable.Clone, addr 0x283bf9c, size 0x60, virtual true, abstract: false, final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method Equals, addr 0x2837928, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x283bffc, size 0xc8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x28379f0, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x283c0c4, size 0x7c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x2837a6c, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x283c140, size 0x58, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryParse, addr 0x2837ac4, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x283c198, size 0x170, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ByRef<::System::Net::Http::Headers::ContentDispositionHeaderValue*> parsedValue);
 
   // Ctor Parameters [CppParam { name: "", ty: "ContentDispositionHeaderValue", modifiers: "&&", def_value: None }]

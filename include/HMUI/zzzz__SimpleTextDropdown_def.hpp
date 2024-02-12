@@ -38,8 +38,8 @@ MARK_REF_PTR_T(::HMUI::SimpleTextDropdown);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 105, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13624))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13656))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13577))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13609))
 // CS Name: ::HMUI::SimpleTextDropdown*
 class CORDL_TYPE SimpleTextDropdown : public ::HMUI::DropdownWithTableView {
 public:
@@ -95,36 +95,36 @@ public:
 
   constexpr void __cordl_internal_set__initialized(bool value);
 
-  /// @brief Method LazyInit, addr 0x21460b8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method LazyInit, addr 0x21da99c, size 0xb0, virtual false, abstract: false, final false
   inline void LazyInit();
 
-  /// @brief Method OnDestroy, addr 0x2146168, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x21daa4c, size 0x90, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Init, addr 0x21461f8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x21daadc, size 0x40, virtual false, abstract: false, final false
   inline void Init(::HMUI::__TableView__IDataSource* initTableViewDataSource);
 
-  /// @brief Method SetTexts, addr 0x2146238, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method SetTexts, addr 0x21dab1c, size 0x1a0, virtual false, abstract: false, final false
   inline void SetTexts(::System::Collections::Generic::IReadOnlyList_1<::StringW>* texts);
 
-  /// @brief Method SelectCellWithIdx, addr 0x21463d8, size 0x1ec, virtual true, abstract: false, final false
+  /// @brief Method SelectCellWithIdx, addr 0x21dacbc, size 0x1ec, virtual true, abstract: false, final false
   inline void SelectCellWithIdx(int32_t idx);
 
-  /// @brief Method CellSize, addr 0x21465c4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method CellSize, addr 0x21daea8, size 0x8, virtual true, abstract: false, final true
   inline float_t CellSize();
 
-  /// @brief Method NumberOfCells, addr 0x21465cc, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method NumberOfCells, addr 0x21daeb0, size 0xac, virtual true, abstract: false, final true
   inline int32_t NumberOfCells();
 
-  /// @brief Method CellForIdx, addr 0x2146678, size 0x1bc, virtual true, abstract: false, final true
+  /// @brief Method CellForIdx, addr 0x21daf5c, size 0x1bc, virtual true, abstract: false, final true
   inline ::UnityW<::HMUI::TableCell> CellForIdx(::HMUI::TableView* tableView, int32_t idx);
 
-  /// @brief Method HandleDidSelectCellWithIdx, addr 0x2146920, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method HandleDidSelectCellWithIdx, addr 0x21db204, size 0x14c, virtual false, abstract: false, final false
   inline void HandleDidSelectCellWithIdx(::HMUI::DropdownWithTableView* dropdownWithTableView, int32_t idx);
 
   static inline ::HMUI::SimpleTextDropdown* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2146a6c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21db350, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SimpleTextDropdown", modifiers: "&&", def_value: None }]

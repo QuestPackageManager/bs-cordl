@@ -25,29 +25,29 @@ MARK_REF_PTR_T(::System::ComponentModel::ByteConverter);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9407))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9409))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7417))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7419))
 // CS Name: ::System.ComponentModel::ByteConverter*
 class CORDL_TYPE ByteConverter : public ::System::ComponentModel::BaseNumberConverter {
 public:
   // Declarations
   __declspec(property(get = get_TargetType))::System::Type* TargetType;
 
-  /// @brief Method get_TargetType, addr 0x29071b8, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method get_TargetType, addr 0x290b820, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Type* get_TargetType();
 
-  /// @brief Method FromString, addr 0x2907224, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method FromString, addr 0x290b88c, size 0x94, virtual true, abstract: false, final false
   inline ::System::Object* FromString(::StringW value, int32_t radix);
 
-  /// @brief Method FromString, addr 0x29072b8, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method FromString, addr 0x290b920, size 0x74, virtual true, abstract: false, final false
   inline ::System::Object* FromString(::StringW value, ::System::Globalization::NumberFormatInfo* formatInfo);
 
-  /// @brief Method ToString, addr 0x290732c, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x290b994, size 0xb0, virtual true, abstract: false, final false
   inline ::StringW ToString(::System::Object* value, ::System::Globalization::NumberFormatInfo* formatInfo);
 
   static inline ::System::ComponentModel::ByteConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29073dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x290ba44, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ByteConverter", modifiers: "&&", def_value: None }]

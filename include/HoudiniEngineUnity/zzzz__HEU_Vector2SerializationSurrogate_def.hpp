@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_Vector2SerializationSurrogate);
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9616))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9408))
 // CS Name: ::HoudiniEngineUnity::HEU_Vector2SerializationSurrogate*
 class CORDL_TYPE HEU_Vector2SerializationSurrogate : public ::System::Object {
 public:
@@ -41,18 +41,18 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::ISerializationSurrogate"
   constexpr ::System::Runtime::Serialization::ISerializationSurrogate* i___System__Runtime__Serialization__ISerializationSurrogate() noexcept;
 
-  /// @brief Method System.Runtime.Serialization.ISerializationSurrogate.GetObjectData, addr 0x21506b8, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.ISerializationSurrogate.GetObjectData, addr 0x21e5f9c, size 0xc8, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializationSurrogate_GetObjectData(::System::Object* obj, ::System::Runtime::Serialization::SerializationInfo* info,
                                                                                  ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method System.Runtime.Serialization.ISerializationSurrogate.SetObjectData, addr 0x2150780, size 0x198, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.ISerializationSurrogate.SetObjectData, addr 0x21e6064, size 0x198, virtual true, abstract: false, final true
   inline ::System::Object* System_Runtime_Serialization_ISerializationSurrogate_SetObjectData(::System::Object* obj, ::System::Runtime::Serialization::SerializationInfo* info,
                                                                                               ::System::Runtime::Serialization::StreamingContext context,
                                                                                               ::System::Runtime::Serialization::ISurrogateSelector* selector);
 
   static inline ::HoudiniEngineUnity::HEU_Vector2SerializationSurrogate* New_ctor();
 
-  /// @brief Method .ctor, addr 0x214f7d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21e50b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_Vector2SerializationSurrogate", modifiers: "&&", def_value: None }]

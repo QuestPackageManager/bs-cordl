@@ -1,14 +1,14 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__LevelFailedText_def.hpp"
-#include "Polyglot/zzzz__LocalizedTextMeshPro_def.hpp"
+#include "BGLib/Polyglot/zzzz__LocalizedTextMeshPro_def.hpp"
 #include "TMPro/zzzz__TMP_Text_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::LevelFailedText.OverrideText
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelFailedText::*)(::StringW)>(&::GlobalNamespace::LevelFailedText::OverrideText)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x239a1f4;
+  constexpr static std::size_t addrs = 0x235b324;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelFailedText::*)()>(&::GlobalNamespace::LevelFailedText::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x239a240;
+  constexpr static std::size_t addrs = 0x235b370;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelFailedText*>::get(), ".ctor",
@@ -42,15 +42,15 @@ constexpr void GlobalNamespace::LevelFailedText::__cordl_internal_set__text(::Un
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____text)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::Polyglot::LocalizedTextMeshPro>& GlobalNamespace::LevelFailedText::__cordl_internal_get__localizedText() {
+constexpr ::UnityW<::BGLib::Polyglot::LocalizedTextMeshPro>& GlobalNamespace::LevelFailedText::__cordl_internal_get__localizedText() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localizedText;
 }
-constexpr ::UnityW<::Polyglot::LocalizedTextMeshPro> const& GlobalNamespace::LevelFailedText::__cordl_internal_get__localizedText() const {
+constexpr ::UnityW<::BGLib::Polyglot::LocalizedTextMeshPro> const& GlobalNamespace::LevelFailedText::__cordl_internal_get__localizedText() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localizedText;
 }
-constexpr void GlobalNamespace::LevelFailedText::__cordl_internal_set__localizedText(::UnityW<::Polyglot::LocalizedTextMeshPro> value) {
+constexpr void GlobalNamespace::LevelFailedText::__cordl_internal_set__localizedText(::UnityW<::BGLib::Polyglot::LocalizedTextMeshPro> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____localizedText)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }

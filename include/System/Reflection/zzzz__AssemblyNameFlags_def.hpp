@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Reflection::AssemblyNameFlags);
 namespace System::Reflection {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3454))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3450))
 // CS Name: ::System.Reflection::AssemblyNameFlags
 struct CORDL_TYPE AssemblyNameFlags {
 public:

@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ListExtensions);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15826))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15213))
 // CS Name: ::ListExtensions*
 class CORDL_TYPE ListExtensions : public ::System::Object {
 public:

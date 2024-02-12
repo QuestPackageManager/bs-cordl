@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::Oculus::Platform::MultiplayerErrorOptions);
 namespace Oculus::Platform {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13337))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13257))
 // CS Name: ::Oculus.Platform::MultiplayerErrorOptions*
 class CORDL_TYPE MultiplayerErrorOptions : public ::System::Object {
 public:
@@ -36,16 +36,16 @@ public:
 
   static inline ::Oculus::Platform::MultiplayerErrorOptions* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26f4500, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x271ec3c, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method SetErrorKey, addr 0x26f4564, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetErrorKey, addr 0x271eca0, size 0x68, virtual false, abstract: false, final false
   inline void SetErrorKey(::Oculus::Platform::MultiplayerErrorErrorKey value);
 
-  /// @brief Method op_Explicit, addr 0x26f45cc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x271ed08, size 0x58, virtual false, abstract: false, final false
   static inline void* op_Explicit_void_(::Oculus::Platform::MultiplayerErrorOptions* options);
 
-  /// @brief Method Finalize, addr 0x26f4624, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x271ed60, size 0xd4, virtual true, abstract: false, final false
   inline void Finalize();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerErrorOptions", modifiers: "&&", def_value: None }]

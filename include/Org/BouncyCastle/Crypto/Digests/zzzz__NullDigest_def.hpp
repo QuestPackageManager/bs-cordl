@@ -46,30 +46,30 @@ public:
 
   constexpr void __cordl_internal_set_bOut(::System::IO::MemoryStream* value);
 
-  /// @brief Method get_AlgorithmName, addr 0x1229d6c, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_AlgorithmName, addr 0x1256bfc, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method GetByteLength, addr 0x1229dac, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetByteLength, addr 0x1256c3c, size 0x8, virtual true, abstract: false, final true
   inline int32_t GetByteLength();
 
-  /// @brief Method GetDigestSize, addr 0x1229db4, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method GetDigestSize, addr 0x1256c44, size 0x24, virtual true, abstract: false, final true
   inline int32_t GetDigestSize();
 
-  /// @brief Method Update, addr 0x1229dd8, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method Update, addr 0x1256c68, size 0x24, virtual true, abstract: false, final true
   inline void Update(uint8_t b);
 
-  /// @brief Method BlockUpdate, addr 0x1229dfc, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method BlockUpdate, addr 0x1256c8c, size 0x24, virtual true, abstract: false, final true
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> inBytes, int32_t inOff, int32_t len);
 
-  /// @brief Method DoFinal, addr 0x1229e20, size 0xc4, virtual true, abstract: false, final true
+  /// @brief Method DoFinal, addr 0x1256cb0, size 0xc4, virtual true, abstract: false, final true
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
-  /// @brief Method Reset, addr 0x1229ee4, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x1256d74, size 0x28, virtual true, abstract: false, final true
   inline void Reset();
 
   static inline ::Org::BouncyCastle::Crypto::Digests::NullDigest* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1229f0c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1256d9c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NullDigest", modifiers: "&&", def_value: None }]

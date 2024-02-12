@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::UnityEngine::AndroidJavaProxy);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14912))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14785))
 // CS Name: ::UnityEngine::AndroidJavaProxy*
 class CORDL_TYPE AndroidJavaProxy : public ::System::Object {
 public:
@@ -70,36 +70,36 @@ public:
 
   static inline ::UnityEngine::AndroidJavaProxy* New_ctor(::StringW javaInterface);
 
-  /// @brief Method .ctor, addr 0x2c84130, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c80c9c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::StringW javaInterface);
 
   static inline ::UnityEngine::AndroidJavaProxy* New_ctor(::UnityEngine::AndroidJavaClass* javaInterface);
 
-  /// @brief Method .ctor, addr 0x2c841fc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c80d68, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::AndroidJavaClass* javaInterface);
 
-  /// @brief Method Finalize, addr 0x2c84268, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x2c80dd4, size 0x98, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method Invoke, addr 0x2c84300, size 0x728, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2c80e6c, size 0x728, virtual true, abstract: false, final false
   inline ::UnityEngine::AndroidJavaObject* Invoke(::StringW methodName, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method Invoke, addr 0x2c855d0, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2c8213c, size 0x164, virtual true, abstract: false, final false
   inline ::UnityEngine::AndroidJavaObject* Invoke(::StringW methodName, ::ArrayW<::UnityEngine::AndroidJavaObject*, ::Array<::UnityEngine::AndroidJavaObject*>*> javaArgs);
 
-  /// @brief Method equals, addr 0x2c86098, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method equals, addr 0x2c82c04, size 0xb8, virtual true, abstract: false, final false
   inline bool equals(::UnityEngine::AndroidJavaObject* obj);
 
-  /// @brief Method hashCode, addr 0x2c861f0, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method hashCode, addr 0x2c82d5c, size 0xb0, virtual true, abstract: false, final false
   inline int32_t hashCode();
 
-  /// @brief Method toString, addr 0x2c862a0, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method toString, addr 0x2c82e0c, size 0x64, virtual true, abstract: false, final false
   inline ::StringW toString();
 
-  /// @brief Method GetProxyObject, addr 0x2c86304, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetProxyObject, addr 0x2c82e70, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::AndroidJavaObject* GetProxyObject();
 
-  /// @brief Method GetRawProxy, addr 0x2c85380, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method GetRawProxy, addr 0x2c81eec, size 0x144, virtual false, abstract: false, final false
   inline void* GetRawProxy();
 
   // Ctor Parameters [CppParam { name: "", ty: "AndroidJavaProxy", modifiers: "&&", def_value: None }]

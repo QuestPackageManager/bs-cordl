@@ -23,15 +23,15 @@ MARK_REF_PTR_T(::UnityEngine::SetupCoroutine);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10203))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8947))
 // CS Name: ::UnityEngine::SetupCoroutine*
 class CORDL_TYPE SetupCoroutine : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method InvokeMoveNext, addr 0x2cd0a70, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method InvokeMoveNext, addr 0x2cd7a18, size 0x154, virtual false, abstract: false, final false
   static inline void InvokeMoveNext(::System::Collections::IEnumerator* enumerator, void* returnValueAddress);
 
-  /// @brief Method InvokeMember, addr 0x2cd0bc4, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method InvokeMember, addr 0x2cd7b6c, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::Object* InvokeMember(::System::Object* behaviour, ::StringW name, ::System::Object* variable);
 
   // Ctor Parameters [CppParam { name: "", ty: "SetupCoroutine", modifiers: "&&", def_value: None }]

@@ -64,19 +64,19 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::CmsProcessableInputStream* New_ctor(::System::IO::Stream* input);
 
-  /// @brief Method .ctor, addr 0x11e444c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12112dc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* input);
 
-  /// @brief Method GetInputStream, addr 0x11e5310, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetInputStream, addr 0x12121a0, size 0x20, virtual true, abstract: false, final false
   inline ::System::IO::Stream* GetInputStream();
 
-  /// @brief Method Write, addr 0x11e5330, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x12121c0, size 0x88, virtual true, abstract: false, final false
   inline void Write(::System::IO::Stream* output);
 
-  /// @brief Method GetContent, addr 0x11e53b8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method GetContent, addr 0x1212248, size 0xc, virtual true, abstract: false, final false
   inline ::System::Object* GetContent();
 
-  /// @brief Method CheckSingleUsage, addr 0x11e53c4, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method CheckSingleUsage, addr 0x1212254, size 0xf8, virtual true, abstract: false, final false
   inline void CheckSingleUsage();
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsProcessableInputStream", modifiers: "&&", def_value: None }]

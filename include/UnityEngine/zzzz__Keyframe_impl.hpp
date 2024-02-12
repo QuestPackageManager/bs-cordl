@@ -5,7 +5,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Keyframe::*)(float_t, float_t)>(&::UnityEngine::Keyframe::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2c9ea74;
+  constexpr static std::size_t addrs = 0x2c9f42c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Keyframe::*)(float_t, float_t, float_t, float_t)>(&::UnityEngine::Keyframe::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2c9ea84;
+  constexpr static std::size_t addrs = 0x2c9f43c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Keyframe::*)()>(&::UnityEngine::Keyframe::get_time)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2c9ea98;
+  constexpr static std::size_t addrs = 0x2c9f450;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Keyframe>::get(), "get_time",
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Keyframe::*)(float_t)>(&::UnityEngine::Keyframe::set_time)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2c9eaa0;
+  constexpr static std::size_t addrs = 0x2c9f458;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Keyframe::*)()>(&::UnityEngine::Keyframe::get_value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2c9eaa8;
+  constexpr static std::size_t addrs = 0x2c9f460;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Keyframe>::get(), "get_value",
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Keyframe::*)(float_t)>(&::UnityEngine::Keyframe::set_value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2c9eab0;
+  constexpr static std::size_t addrs = 0x2c9f468;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Keyframe::*)()>(&::UnityEngine::Keyframe::get_inTangent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2c9eab8;
+  constexpr static std::size_t addrs = 0x2c9f470;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Keyframe>::get(), "get_inTangent",
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Keyframe::*)(float_t)>(&::UnityEngine::Keyframe::set_inTangent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2c9eac0;
+  constexpr static std::size_t addrs = 0x2c9f478;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Keyframe::*)()>(&::UnityEngine::Keyframe::get_outTangent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2c9eac8;
+  constexpr static std::size_t addrs = 0x2c9f480;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Keyframe>::get(), "get_outTangent",
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Keyframe::*)(float_t)>(&::UnityEngine::Keyframe::set_outTangent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2c9ead0;
+  constexpr static std::size_t addrs = 0x2c9f488;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::Tayx::Graphy::Ram::G_RamGraph);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 148, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Tayx::Graphy::Ram {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15080))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15076))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14953))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14949))
 // CS Name: ::Tayx.Graphy.Ram::G_RamGraph*
 class CORDL_TYPE G_RamGraph : public ::Tayx::Graphy::Graph::G_Graph {
 public:
@@ -182,24 +182,24 @@ public:
 
   constexpr void __cordl_internal_set_m_highestMemory(float_t value);
 
-  /// @brief Method Update, addr 0x2a07654, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2a0c0f8, size 0xc, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateParameters, addr 0x2a07660, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method UpdateParameters, addr 0x2a0c104, size 0x258, virtual false, abstract: false, final false
   inline void UpdateParameters();
 
-  /// @brief Method Init, addr 0x2a078b8, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2a0c35c, size 0x160, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method UpdateGraph, addr 0x2a07a18, size 0x268, virtual true, abstract: false, final false
+  /// @brief Method UpdateGraph, addr 0x2a0c4bc, size 0x268, virtual true, abstract: false, final false
   inline void UpdateGraph();
 
-  /// @brief Method CreatePoints, addr 0x2a07c80, size 0x2ec, virtual true, abstract: false, final false
+  /// @brief Method CreatePoints, addr 0x2a0c724, size 0x2ec, virtual true, abstract: false, final false
   inline void CreatePoints();
 
   static inline ::Tayx::Graphy::Ram::G_RamGraph* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2a07f6c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a0ca10, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "G_RamGraph", modifiers: "&&", def_value: None }]

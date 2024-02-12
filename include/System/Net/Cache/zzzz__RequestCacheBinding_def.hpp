@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::System::Net::Cache::RequestCacheBinding);
 namespace System::Net::Cache {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9320))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7330))
 // CS Name: ::System.Net.Cache::RequestCacheBinding*
 class CORDL_TYPE RequestCacheBinding : public ::System::Object {
 public:
@@ -65,16 +65,16 @@ public:
   static inline ::System::Net::Cache::RequestCacheBinding* New_ctor(::System::Net::Cache::RequestCache* requestCache, ::System::Net::Cache::RequestCacheValidator* cacheValidator,
                                                                     ::System::Net::Cache::RequestCachePolicy* policy);
 
-  /// @brief Method .ctor, addr 0x29f13f0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29f5e94, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Cache::RequestCache* requestCache, ::System::Net::Cache::RequestCacheValidator* cacheValidator, ::System::Net::Cache::RequestCachePolicy* policy);
 
-  /// @brief Method get_Cache, addr 0x29f146c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Cache, addr 0x29f5f10, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Cache::RequestCache* get_Cache();
 
-  /// @brief Method get_Validator, addr 0x29f1474, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Validator, addr 0x29f5f18, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Cache::RequestCacheValidator* get_Validator();
 
-  /// @brief Method get_Policy, addr 0x29f147c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Policy, addr 0x29f5f20, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Cache::RequestCachePolicy* get_Policy();
 
   // Ctor Parameters [CppParam { name: "", ty: "RequestCacheBinding", modifiers: "&&", def_value: None }]

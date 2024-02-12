@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultipliedColorSO);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(16207))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16209))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8995)), TypeDefinitionIndex(TypeDefinitionIndex(16376))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16378))
 // CS Name: ::MultipliedColorSO*
 class CORDL_TYPE MultipliedColorSO : public ::GlobalNamespace::ColorSO {
 public:
@@ -47,12 +47,12 @@ public:
 
   constexpr void __cordl_internal_set__multiplierColor(::UnityEngine::Color value);
 
-  /// @brief Method get_color, addr 0x122d948, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method get_color, addr 0x125b7d0, size 0x50, virtual true, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
   static inline ::GlobalNamespace::MultipliedColorSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x122d998, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x125b820, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultipliedColorSO", modifiers: "&&", def_value: None }]

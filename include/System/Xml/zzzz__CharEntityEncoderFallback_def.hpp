@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::System::Xml::CharEntityEncoderFallback);
 namespace System::Xml {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2844))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11411))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11309))
 // CS Name: ::System.Xml::CharEntityEncoderFallback*
 class CORDL_TYPE CharEntityEncoderFallback : public ::System::Text::EncoderFallback {
 public:
@@ -79,22 +79,22 @@ public:
 
   static inline ::System::Xml::CharEntityEncoderFallback* New_ctor();
 
-  /// @brief Method .ctor, addr 0x284e9bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2852024, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateFallbackBuffer, addr 0x284e9c4, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method CreateFallbackBuffer, addr 0x285202c, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Text::EncoderFallbackBuffer* CreateFallbackBuffer();
 
-  /// @brief Method get_MaxCharCount, addr 0x284eaa4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_MaxCharCount, addr 0x285210c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_MaxCharCount();
 
-  /// @brief Method set_StartOffset, addr 0x284eaac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_StartOffset, addr 0x2852114, size 0x8, virtual false, abstract: false, final false
   inline void set_StartOffset(int32_t value);
 
-  /// @brief Method Reset, addr 0x284eab4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x285211c, size 0xc, virtual false, abstract: false, final false
   inline void Reset(::ArrayW<int32_t, ::Array<int32_t>*> textContentMarks, int32_t endMarkPos);
 
-  /// @brief Method CanReplaceAt, addr 0x284eac0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method CanReplaceAt, addr 0x2852128, size 0x68, virtual false, abstract: false, final false
   inline bool CanReplaceAt(int32_t index);
 
   // Ctor Parameters [CppParam { name: "", ty: "CharEntityEncoderFallback", modifiers: "&&", def_value: None }]

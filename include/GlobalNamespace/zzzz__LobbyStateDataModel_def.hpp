@@ -46,8 +46,8 @@ MARK_REF_PTR_T(::GlobalNamespace::LobbyStateDataModel);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12758))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4510))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12656))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10933))
 // CS Name: ::LobbyStateDataModel*
 class CORDL_TYPE LobbyStateDataModel : public ::System::Object {
 public:
@@ -143,54 +143,54 @@ public:
 
   constexpr void __cordl_internal_set_playerDisconnectedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* value);
 
-  /// @brief Method add_playerConnectedEvent, addr 0x236032c, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_playerConnectedEvent, addr 0x129f48c, size 0xb0, virtual true, abstract: false, final true
   inline void add_playerConnectedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* value);
 
-  /// @brief Method remove_playerConnectedEvent, addr 0x23603dc, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_playerConnectedEvent, addr 0x129f53c, size 0xb0, virtual true, abstract: false, final true
   inline void remove_playerConnectedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* value);
 
-  /// @brief Method add_playerDisconnectedEvent, addr 0x236048c, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_playerDisconnectedEvent, addr 0x129f5ec, size 0xb0, virtual true, abstract: false, final true
   inline void add_playerDisconnectedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* value);
 
-  /// @brief Method remove_playerDisconnectedEvent, addr 0x236053c, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_playerDisconnectedEvent, addr 0x129f69c, size 0xb0, virtual true, abstract: false, final true
   inline void remove_playerDisconnectedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* value);
 
-  /// @brief Method get_isConnected, addr 0x23605ec, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method get_isConnected, addr 0x129f74c, size 0xa4, virtual true, abstract: false, final true
   inline bool get_isConnected();
 
-  /// @brief Method get_localPlayer, addr 0x2360690, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method get_localPlayer, addr 0x129f7f0, size 0xa0, virtual true, abstract: false, final true
   inline ::GlobalNamespace::IConnectedPlayer* get_localPlayer();
 
-  /// @brief Method get_connectedPlayers, addr 0x2360730, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_connectedPlayers, addr 0x129f890, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer*>* get_connectedPlayers();
 
-  /// @brief Method get_rawConnectedPlayers, addr 0x2360738, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method get_rawConnectedPlayers, addr 0x129f898, size 0xa4, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IConnectedPlayer*>* get_rawConnectedPlayers();
 
-  /// @brief Method get_configuration, addr 0x23607dc, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method get_configuration, addr 0x129f93c, size 0x14, virtual true, abstract: false, final true
   inline ::GlobalNamespace::GameplayServerConfiguration get_configuration();
 
-  /// @brief Method Activate, addr 0x23607f0, size 0x7f0, virtual true, abstract: false, final true
+  /// @brief Method Activate, addr 0x129f950, size 0x7f0, virtual true, abstract: false, final true
   inline void Activate();
 
-  /// @brief Method Deactivate, addr 0x2360fe0, size 0x194, virtual true, abstract: false, final true
+  /// @brief Method Deactivate, addr 0x12a0140, size 0x194, virtual true, abstract: false, final true
   inline void Deactivate();
 
-  /// @brief Method Dispose, addr 0x2361174, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x12a02d4, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetPlayerById, addr 0x2361178, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method GetPlayerById, addr 0x12a02d8, size 0x94, virtual true, abstract: false, final true
   inline ::GlobalNamespace::IConnectedPlayer* GetPlayerById(::StringW userId);
 
-  /// @brief Method HandleMultiplayerSessionManagerPlayerConnected, addr 0x236120c, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method HandleMultiplayerSessionManagerPlayerConnected, addr 0x12a036c, size 0x170, virtual false, abstract: false, final false
   inline void HandleMultiplayerSessionManagerPlayerConnected(::GlobalNamespace::IConnectedPlayer* player);
 
-  /// @brief Method HandleMultiplayerSessionManagerPlayerDisconnected, addr 0x236137c, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method HandleMultiplayerSessionManagerPlayerDisconnected, addr 0x12a04dc, size 0x120, virtual false, abstract: false, final false
   inline void HandleMultiplayerSessionManagerPlayerDisconnected(::GlobalNamespace::IConnectedPlayer* player);
 
   static inline ::GlobalNamespace::LobbyStateDataModel* New_ctor();
 
-  /// @brief Method .ctor, addr 0x236149c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12a05fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LobbyStateDataModel", modifiers: "&&", def_value: None }]

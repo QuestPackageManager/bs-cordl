@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::ProductHeaderValue);
 namespace System::Net::Http::Headers {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14701))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14706))
 // CS Name: ::System.Net.Http.Headers::ProductHeaderValue*
 class CORDL_TYPE ProductHeaderValue : public ::System::Object {
 public:
@@ -68,37 +68,37 @@ public:
 
   static inline ::System::Net::Http::Headers::ProductHeaderValue* New_ctor();
 
-  /// @brief Method .ctor, addr 0x283f198, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2843800, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Name, addr 0x283f1a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x2843808, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method set_Name, addr 0x283f1a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x2843810, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
-  /// @brief Method get_Version, addr 0x283f1b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x2843818, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Version();
 
-  /// @brief Method set_Version, addr 0x283f1b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Version, addr 0x2843820, size 0x8, virtual false, abstract: false, final false
   inline void set_Version(::StringW value);
 
-  /// @brief Method System.ICloneable.Clone, addr 0x283f1c0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.ICloneable.Clone, addr 0x2843828, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method Equals, addr 0x283f1c8, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2843830, size 0xb8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x283f280, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x28438e8, size 0x64, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method TryParse, addr 0x283f2e4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x284394c, size 0xb0, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, int32_t minimalCount, ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::ProductHeaderValue*>*> result);
 
-  /// @brief Method TryParseElement, addr 0x283f394, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method TryParseElement, addr 0x28439fc, size 0x16c, virtual false, abstract: false, final false
   static inline bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ByRef<::System::Net::Http::Headers::ProductHeaderValue*> parsedValue, ByRef<::System::Net::Http::Headers::Token> t);
 
-  /// @brief Method ToString, addr 0x283f500, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2843b68, size 0x5c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "ProductHeaderValue", modifiers: "&&", def_value: None }]

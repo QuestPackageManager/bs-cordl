@@ -16,7 +16,7 @@ MARK_VAL_T(::Newtonsoft::Json::Formatting);
 namespace Newtonsoft::Json {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11800))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11698))
 // CS Name: ::Newtonsoft.Json::Formatting
 struct CORDL_TYPE Formatting {
 public:

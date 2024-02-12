@@ -34,7 +34,7 @@ public:
 
   static inline ::System::Runtime::Remoting::Messaging::MCMDictionary* New_ctor(::System::Runtime::Remoting::Messaging::IMethodMessage* message);
 
-  /// @brief Method .ctor, addr 0x24ae194, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24d0208, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::IMethodMessage* message);
 
   // Ctor Parameters [CppParam { name: "", ty: "MCMDictionary", modifiers: "&&", def_value: None }]

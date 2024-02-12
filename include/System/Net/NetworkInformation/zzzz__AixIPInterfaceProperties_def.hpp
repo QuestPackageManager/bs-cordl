@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::AixIPInterfaceProperties);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9290))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9259))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7300))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7269))
 // CS Name: ::System.Net.NetworkInformation::AixIPInterfaceProperties*
 class CORDL_TYPE AixIPInterfaceProperties : public ::System::Net::NetworkInformation::UnixIPInterfaceProperties {
 public:
@@ -50,13 +50,13 @@ public:
   static inline ::System::Net::NetworkInformation::AixIPInterfaceProperties* New_ctor(::System::Net::NetworkInformation::AixNetworkInterface* iface,
                                                                                       ::System::Collections::Generic::List_1<::System::Net::IPAddress*>* addresses, int32_t mtu);
 
-  /// @brief Method .ctor, addr 0x29ec064, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29f0b08, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::NetworkInformation::AixNetworkInterface* iface, ::System::Collections::Generic::List_1<::System::Net::IPAddress*>* addresses, int32_t mtu);
 
-  /// @brief Method ParseRouteInfo_icall, addr 0x29ec110, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ParseRouteInfo_icall, addr 0x29f0bb4, size 0x44, virtual false, abstract: false, final false
   static inline bool ParseRouteInfo_icall(::StringW iface, ByRef<::ArrayW<::StringW, ::Array<::StringW>*>> gw_addr_list);
 
-  /// @brief Method get_GatewayAddresses, addr 0x29ec154, size 0x254, virtual true, abstract: false, final false
+  /// @brief Method get_GatewayAddresses, addr 0x29f0bf8, size 0x254, virtual true, abstract: false, final false
   inline ::System::Net::NetworkInformation::GatewayIPAddressInformationCollection* get_GatewayAddresses();
 
   // Ctor Parameters [CppParam { name: "", ty: "AixIPInterfaceProperties", modifiers: "&&", def_value: None }]

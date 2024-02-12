@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::X509::Store::X509CollectionStoreParameters::*)(::System::Collections::ICollection*)>(
     &::Org::BouncyCastle::X509::Store::X509CollectionStoreParameters::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x1171b0c;
+  constexpr static std::size_t addrs = 0x11a099c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ICollection* (::Org::BouncyCastle::X509::Store::X509CollectionStoreParameters::*)()>(
     &::Org::BouncyCastle::X509::Store::X509CollectionStoreParameters::GetCollection)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x1171bc8;
+  constexpr static std::size_t addrs = 0x11a0a58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::X509::Store::X509CollectionStoreParameters::*)()>(
     &::Org::BouncyCastle::X509::Store::X509CollectionStoreParameters::ToString)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x1171c20;
+  constexpr static std::size_t addrs = 0x11a0ab0;
 
   inline static ::MethodInfo const* methodInfo() {
 

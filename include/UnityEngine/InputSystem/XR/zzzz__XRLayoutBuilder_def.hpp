@@ -47,7 +47,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::XR::__XRLayoutBuilder____c__DisplayCl
 namespace UnityEngine::InputSystem::XR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6330))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5589))
 // CS Name: ::XRLayoutBuilder::<>c__DisplayClass5_0*
 class CORDL_TYPE __XRLayoutBuilder____c__DisplayClass5_0 : public ::System::Object {
 public:
@@ -63,10 +63,10 @@ public:
 
   static inline ::UnityEngine::InputSystem::XR::__XRLayoutBuilder____c__DisplayClass5_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ac7288, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ac7df4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <OnFindLayoutForDevice>b__0, addr 0x2ac8310, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <OnFindLayoutForDevice>b__0, addr 0x2ac8e7c, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::InputControlLayout* _OnFindLayoutForDevice_b__0();
 
   // Ctor Parameters [CppParam { name: "", ty: "__XRLayoutBuilder____c__DisplayClass5_0", modifiers: "&&", def_value: None }]
@@ -99,7 +99,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::XR::__XRLayoutBuilder____c__D
 namespace UnityEngine::InputSystem::XR {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6331))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5590))
 // CS Name: ::UnityEngine.InputSystem.XR::XRLayoutBuilder*
 class CORDL_TYPE XRLayoutBuilder : public ::System::Object {
 public:
@@ -148,34 +148,34 @@ public:
 
   static inline ::ArrayW<::UnityEngine::InputSystem::XR::FeatureType, ::Array<::UnityEngine::InputSystem::XR::FeatureType>*> getStaticF_poseSubControlTypes();
 
-  /// @brief Method GetSizeOfFeature, addr 0x2ac6c5c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetSizeOfFeature, addr 0x2ac77c8, size 0x78, virtual false, abstract: false, final false
   static inline uint32_t GetSizeOfFeature(::UnityEngine::InputSystem::XR::XRFeatureDescriptor featureDescriptor);
 
-  /// @brief Method SanitizeString, addr 0x2ac6cd4, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method SanitizeString, addr 0x2ac7840, size 0x160, virtual false, abstract: false, final false
   static inline ::StringW SanitizeString(::StringW original, bool allowPaths);
 
-  /// @brief Method OnFindLayoutForDevice, addr 0x2ac6e34, size 0x454, virtual false, abstract: false, final false
+  /// @brief Method OnFindLayoutForDevice, addr 0x2ac79a0, size 0x454, virtual false, abstract: false, final false
   static inline ::StringW OnFindLayoutForDevice(ByRef<::UnityEngine::InputSystem::Layouts::InputDeviceDescription> description, ::StringW matchedLayout,
                                                 ::UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDelegate* executeCommandDelegate);
 
-  /// @brief Method ConvertPotentialAliasToName, addr 0x2ac7298, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method ConvertPotentialAliasToName, addr 0x2ac7e04, size 0x17c, virtual false, abstract: false, final false
   static inline ::StringW ConvertPotentialAliasToName(::UnityEngine::InputSystem::Layouts::InputControlLayout* layout, ::StringW nameOrAlias);
 
-  /// @brief Method IsSubControl, addr 0x2ac7414, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method IsSubControl, addr 0x2ac7f80, size 0x1c, virtual false, abstract: false, final false
   inline bool IsSubControl(::StringW name);
 
-  /// @brief Method GetParentControlName, addr 0x2ac7430, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetParentControlName, addr 0x2ac7f9c, size 0x38, virtual false, abstract: false, final false
   inline ::StringW GetParentControlName(::StringW name);
 
-  /// @brief Method IsPoseControl, addr 0x2ac7468, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method IsPoseControl, addr 0x2ac7fd4, size 0x154, virtual false, abstract: false, final false
   inline bool IsPoseControl(::System::Collections::Generic::List_1<::UnityEngine::InputSystem::XR::XRFeatureDescriptor>* features, int32_t startIndex);
 
-  /// @brief Method Build, addr 0x2ac75bc, size 0xb04, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x2ac8128, size 0xb04, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::InputControlLayout* Build();
 
   static inline ::UnityEngine::InputSystem::XR::XRLayoutBuilder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ac7290, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ac7dfc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "XRLayoutBuilder", modifiers: "&&", def_value: None }]

@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRGrabbable);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8110))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8067))
 // CS Name: ::OVRGrabbable*
 class CORDL_TYPE OVRGrabbable : public ::UnityEngine::MonoBehaviour {
 public:
@@ -127,51 +127,51 @@ public:
 
   constexpr void __cordl_internal_set_m_grabbedBy(::UnityW<::GlobalNamespace::OVRGrabber> value);
 
-  /// @brief Method get_allowOffhandGrab, addr 0x27ac7e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_allowOffhandGrab, addr 0x27bd26c, size 0x8, virtual false, abstract: false, final false
   inline bool get_allowOffhandGrab();
 
-  /// @brief Method get_isGrabbed, addr 0x27ac7ec, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_isGrabbed, addr 0x27bd274, size 0x60, virtual false, abstract: false, final false
   inline bool get_isGrabbed();
 
-  /// @brief Method get_snapPosition, addr 0x27ac84c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_snapPosition, addr 0x27bd2d4, size 0x8, virtual false, abstract: false, final false
   inline bool get_snapPosition();
 
-  /// @brief Method get_snapOrientation, addr 0x27ac854, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_snapOrientation, addr 0x27bd2dc, size 0x8, virtual false, abstract: false, final false
   inline bool get_snapOrientation();
 
-  /// @brief Method get_snapOffset, addr 0x27ac85c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_snapOffset, addr 0x27bd2e4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_snapOffset();
 
-  /// @brief Method get_grabbedBy, addr 0x27ac864, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_grabbedBy, addr 0x27bd2ec, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::OVRGrabber> get_grabbedBy();
 
-  /// @brief Method get_grabbedTransform, addr 0x27ac86c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_grabbedTransform, addr 0x27bd2f4, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_grabbedTransform();
 
-  /// @brief Method get_grabbedRigidbody, addr 0x27ac888, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_grabbedRigidbody, addr 0x27bd310, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rigidbody> get_grabbedRigidbody();
 
-  /// @brief Method get_grabPoints, addr 0x27ac8a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_grabPoints, addr 0x27bd32c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Collider>, ::Array<::UnityW<::UnityEngine::Collider>>*> get_grabPoints();
 
-  /// @brief Method GrabBegin, addr 0x27ac8ac, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method GrabBegin, addr 0x27bd334, size 0x7c, virtual true, abstract: false, final false
   inline void GrabBegin(::GlobalNamespace::OVRGrabber* hand, ::UnityEngine::Collider* grabPoint);
 
-  /// @brief Method GrabEnd, addr 0x27ac928, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method GrabEnd, addr 0x27bd3b0, size 0xd4, virtual true, abstract: false, final false
   inline void GrabEnd(::UnityEngine::Vector3 linearVelocity, ::UnityEngine::Vector3 angularVelocity);
 
-  /// @brief Method Awake, addr 0x27ac9fc, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x27bd484, size 0x14c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Start, addr 0x27acb48, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x27bd5d0, size 0x64, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy, addr 0x27acbac, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x27bd634, size 0x84, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   static inline ::GlobalNamespace::OVRGrabbable* New_ctor();
 
-  /// @brief Method .ctor, addr 0x27acce0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27bd768, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRGrabbable", modifiers: "&&", def_value: None }]

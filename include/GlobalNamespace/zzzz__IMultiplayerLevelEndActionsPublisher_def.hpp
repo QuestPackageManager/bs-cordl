@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IMultiplayerLevelEndActionsPublisher);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5158))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4500))
 // CS Name: ::IMultiplayerLevelEndActionsPublisher*
 class CORDL_TYPE IMultiplayerLevelEndActionsPublisher {
 public:

@@ -35,8 +35,8 @@ MARK_REF_PTR_T(::GlobalNamespace::GameServersFilterViewController);
 // SizeInfo { instance_size: 216, native_size: -1, calculated_instance_size: 216, calculated_native_size: 209, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5714))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13558))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5016))
 // CS Name: ::GameServersFilterViewController*
 class CORDL_TYPE GameServersFilterViewController : public ::HMUI::ViewController {
 public:
@@ -163,33 +163,33 @@ public:
 
   constexpr void __cordl_internal_set__showInternetGames(bool value);
 
-  /// @brief Method get_gameServersFilter, addr 0x22cd314, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method get_gameServersFilter, addr 0x22fce4c, size 0x10c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameServersFilter* get_gameServersFilter();
 
-  /// @brief Method SetupGameServersFilter, addr 0x22cd420, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetupGameServersFilter, addr 0x22fcf58, size 0x4, virtual false, abstract: false, final false
   inline void SetupGameServersFilter(::GlobalNamespace::GameServersFilter* gameServersFilter);
 
-  /// @brief Method DidActivate, addr 0x22cd548, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x22fd080, size 0x15c, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method OnDestroy, addr 0x22cd6a4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x22fd1dc, size 0x28, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Refresh, addr 0x22cd424, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x22fcf5c, size 0x124, virtual false, abstract: false, final false
   inline void Refresh(::GlobalNamespace::GameServersFilter* currentFilter);
 
   static inline ::GlobalNamespace::GameServersFilterViewController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22cd6cc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22fd204, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <DidActivate>b__16_0, addr 0x22cd734, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__16_0, addr 0x22fd26c, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__16_0(bool isOn);
 
-  /// @brief Method <DidActivate>b__16_1, addr 0x22cd754, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__16_1, addr 0x22fd28c, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__16_1(bool isOn);
 
-  /// @brief Method <DidActivate>b__16_2, addr 0x22cd774, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__16_2, addr 0x22fd2ac, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__16_2(bool isOn);
 
   // Ctor Parameters [CppParam { name: "", ty: "GameServersFilterViewController", modifiers: "&&", def_value: None }]

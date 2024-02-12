@@ -29,17 +29,17 @@ public:
   // Declarations
   static inline ::System::Threading::LockRecursionException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x260fc90, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2634b98, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Threading::LockRecursionException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x260fce8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2634bf0, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::System::Threading::LockRecursionException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x260fd50, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2634c58, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "LockRecursionException", modifiers: "&&", def_value: None }]

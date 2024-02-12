@@ -16,7 +16,7 @@ MARK_VAL_T(::HoudiniEngineUnity::SessionMode);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9783))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9575))
 // CS Name: ::HoudiniEngineUnity::SessionMode
 struct CORDL_TYPE SessionMode {
 public:

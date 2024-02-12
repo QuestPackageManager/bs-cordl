@@ -30,8 +30,8 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::TextCoreSettings);
 // SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7415))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8987)), TypeDefinitionIndex(TypeDefinitionIndex(8995))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6674))
 // CS Name: ::UnityEngine.UIElements.UIR::TextCoreSettings
 struct CORDL_TYPE TextCoreSettings {
 public:
@@ -42,13 +42,13 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::UIR::TextCoreSettings>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::UIR::TextCoreSettings>* i___System__IEquatable_1___UnityEngine__UIElements__UIR__TextCoreSettings_();
 
-  /// @brief Method Equals, addr 0x2dcc738, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2deab20, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x2dcc7c8, size 0xe8, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2deabb0, size 0xe8, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::UIR::TextCoreSettings other);
 
-  /// @brief Method GetHashCode, addr 0x2dcc8b0, size 0x198, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2deac98, size 0x198, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "faceColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "outlineColor", ty: "::UnityEngine::Color", modifiers: "", def_value:

@@ -25,29 +25,29 @@ MARK_REF_PTR_T(::System::ComponentModel::Int64Converter);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9407))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9438))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7417))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7448))
 // CS Name: ::System.ComponentModel::Int64Converter*
 class CORDL_TYPE Int64Converter : public ::System::ComponentModel::BaseNumberConverter {
 public:
   // Declarations
   __declspec(property(get = get_TargetType))::System::Type* TargetType;
 
-  /// @brief Method get_TargetType, addr 0x29112a0, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method get_TargetType, addr 0x2915908, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Type* get_TargetType();
 
-  /// @brief Method FromString, addr 0x291130c, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method FromString, addr 0x2915974, size 0x94, virtual true, abstract: false, final false
   inline ::System::Object* FromString(::StringW value, int32_t radix);
 
-  /// @brief Method FromString, addr 0x29113a0, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method FromString, addr 0x2915a08, size 0x74, virtual true, abstract: false, final false
   inline ::System::Object* FromString(::StringW value, ::System::Globalization::NumberFormatInfo* formatInfo);
 
-  /// @brief Method ToString, addr 0x2911414, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2915a7c, size 0xb0, virtual true, abstract: false, final false
   inline ::StringW ToString(::System::Object* value, ::System::Globalization::NumberFormatInfo* formatInfo);
 
   static inline ::System::ComponentModel::Int64Converter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29114c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2915b2c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Int64Converter", modifiers: "&&", def_value: None }]

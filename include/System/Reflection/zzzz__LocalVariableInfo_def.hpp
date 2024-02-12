@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::System::Reflection::LocalVariableInfo);
 namespace System::Reflection {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3516))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3512))
 // CS Name: ::System.Reflection::LocalVariableInfo*
 class CORDL_TYPE LocalVariableInfo : public ::System::Object {
 public:
@@ -54,10 +54,10 @@ public:
 
   static inline ::System::Reflection::LocalVariableInfo* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24f1cc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2510e28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method ToString, addr 0x24f1cd0, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2510e30, size 0xac, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "LocalVariableInfo", modifiers: "&&", def_value: None }]

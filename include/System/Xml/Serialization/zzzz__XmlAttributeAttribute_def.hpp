@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::System::Xml::Serialization::XmlAttributeAttribute);
 namespace System::Xml::Serialization {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11586))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11484))
 // CS Name: ::System.Xml.Serialization::XmlAttributeAttribute*
 class CORDL_TYPE XmlAttributeAttribute : public ::System::Attribute {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::System::Xml::Serialization::XmlAttributeAttribute* New_ctor(::StringW attributeName);
 
-  /// @brief Method .ctor, addr 0x28abed0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28af538, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW attributeName);
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlAttributeAttribute", modifiers: "&&", def_value: None }]

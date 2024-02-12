@@ -38,7 +38,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::__QueryKeyNameCommand___nameBuf
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6477))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5736))
 // CS Name: ::QueryKeyNameCommand::<nameBuffer>e__FixedBuffer
 #pragma pack(push, 0)
 struct CORDL_TYPE __QueryKeyNameCommand___nameBuffer_e__FixedBuffer {
@@ -74,8 +74,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__QueryKeyNameComma
 // }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6471)), TypeDefinitionIndex(TypeDefinitionIndex(6477))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6478))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5730)), TypeDefinitionIndex(TypeDefinitionIndex(5736))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5737))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::QueryKeyNameCommand
 #pragma pack(push, 0)
 struct CORDL_TYPE QueryKeyNameCommand {
@@ -118,16 +118,16 @@ public:
 
   constexpr void __cordl_internal_set_nameBuffer(::UnityEngine::InputSystem::LowLevel::__QueryKeyNameCommand___nameBuffer_e__FixedBuffer value);
 
-  /// @brief Method get_Type, addr 0x2ae7d84, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x2ae98f0, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();
 
-  /// @brief Method ReadKeyName, addr 0x2ae7db4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ReadKeyName, addr 0x2ae9920, size 0x10, virtual false, abstract: false, final false
   inline ::StringW ReadKeyName();
 
-  /// @brief Method get_typeStatic, addr 0x2ae7dc4, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x2ae9930, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
-  /// @brief Method Create, addr 0x2ae7df4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2ae9960, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand Create(::UnityEngine::InputSystem::Key key);
 
   // Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: None }, CppParam { name: "scanOrKeyCode", ty: "int32_t",

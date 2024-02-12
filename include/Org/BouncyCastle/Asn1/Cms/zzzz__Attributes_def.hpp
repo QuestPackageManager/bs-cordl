@@ -47,21 +47,21 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cms::Attributes* New_ctor(::Org::BouncyCastle::Asn1::Asn1Set* attributes);
 
-  /// @brief Method .ctor, addr 0xe6ff54, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe9ade4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Set* attributes);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::Attributes* New_ctor(::Org::BouncyCastle::Asn1::Asn1EncodableVector* v);
 
-  /// @brief Method .ctor, addr 0xe6ff7c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe9ae0c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1EncodableVector* v);
 
-  /// @brief Method GetInstance, addr 0xe6fff8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xe9ae88, size 0xa8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::Attributes* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetAttributes, addr 0xe700a0, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method GetAttributes, addr 0xe9af30, size 0xf0, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Cms::Attribute*, ::Array<::Org::BouncyCastle::Asn1::Cms::Attribute*>*> GetAttributes();
 
-  /// @brief Method ToAsn1Object, addr 0xe70190, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xe9b020, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "Attributes", modifiers: "&&", def_value: None }]

@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_InputObjectInfo);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10245)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9646))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8989)), TypeDefinitionIndex(TypeDefinitionIndex(8993))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9438))
 // CS Name: ::HoudiniEngineUnity::HEU_InputObjectInfo*
 class CORDL_TYPE HEU_InputObjectInfo : public ::System::Object {
 public:
@@ -137,18 +137,18 @@ public:
 
   constexpr void __cordl_internal_set__inputInterfaceType(::System::Type* value);
 
-  /// @brief Method CopyTo, addr 0x216fcc0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x22045a4, size 0x74, virtual false, abstract: false, final false
   inline void CopyTo(::HoudiniEngineUnity::HEU_InputObjectInfo* destObject);
 
-  /// @brief Method SetReferencesFromGameObject, addr 0x216ffa8, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method SetReferencesFromGameObject, addr 0x220488c, size 0xec, virtual false, abstract: false, final false
   inline void SetReferencesFromGameObject();
 
-  /// @brief Method IsEquivalentTo, addr 0x2171fe0, size 0x28c, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x22068c4, size 0x28c, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_InputObjectInfo* other);
 
   static inline ::HoudiniEngineUnity::HEU_InputObjectInfo* New_ctor();
 
-  /// @brief Method .ctor, addr 0x216fbd8, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22044bc, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_InputObjectInfo", modifiers: "&&", def_value: None }]

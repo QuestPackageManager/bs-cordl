@@ -43,22 +43,22 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Pkcs::Pkcs10CertificationRequestDelaySigned* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10dacbc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1108b4c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Pkcs::Pkcs10CertificationRequestDelaySigned* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> encoded);
 
-  /// @brief Method .ctor, addr 0x10dad14, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1108ba4, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> encoded);
 
   static inline ::Org::BouncyCastle::Pkcs::Pkcs10CertificationRequestDelaySigned* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0x10dad78, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1108c08, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Pkcs::Pkcs10CertificationRequestDelaySigned* New_ctor(::System::IO::Stream* input);
 
-  /// @brief Method .ctor, addr 0x10dade0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1108c70, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* input);
 
   static inline ::Org::BouncyCastle::Pkcs::Pkcs10CertificationRequestDelaySigned* New_ctor(::StringW signatureAlgorithm, ::Org::BouncyCastle::Asn1::X509::X509Name* subject,
@@ -66,7 +66,7 @@ public:
                                                                                            ::Org::BouncyCastle::Asn1::Asn1Set* attributes,
                                                                                            ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* signingKey);
 
-  /// @brief Method .ctor, addr 0x10dae44, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1108cd4, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::StringW signatureAlgorithm, ::Org::BouncyCastle::Asn1::X509::X509Name* subject, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey,
                     ::Org::BouncyCastle::Asn1::Asn1Set* attributes, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* signingKey);
 
@@ -74,17 +74,17 @@ public:
                                                                                            ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey,
                                                                                            ::Org::BouncyCastle::Asn1::Asn1Set* attributes);
 
-  /// @brief Method .ctor, addr 0x10daed8, size 0x65c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1108d68, size 0x65c, virtual false, abstract: false, final false
   inline void _ctor(::StringW signatureAlgorithm, ::Org::BouncyCastle::Asn1::X509::X509Name* subject, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey,
                     ::Org::BouncyCastle::Asn1::Asn1Set* attributes);
 
-  /// @brief Method GetDataToSign, addr 0x10db534, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetDataToSign, addr 0x11093c4, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetDataToSign();
 
-  /// @brief Method SignRequest, addr 0x10db550, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method SignRequest, addr 0x11093e0, size 0x70, virtual false, abstract: false, final false
   inline void SignRequest(::ArrayW<uint8_t, ::Array<uint8_t>*> signedData);
 
-  /// @brief Method SignRequest, addr 0x10db5c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SignRequest, addr 0x1109450, size 0x8, virtual false, abstract: false, final false
   inline void SignRequest(::Org::BouncyCastle::Asn1::DerBitString* signedData);
 
   // Ctor Parameters [CppParam { name: "", ty: "Pkcs10CertificationRequestDelaySigned", modifiers: "&&", def_value: None }]

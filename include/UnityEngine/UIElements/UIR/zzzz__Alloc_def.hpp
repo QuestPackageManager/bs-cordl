@@ -19,7 +19,7 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::Alloc);
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7433))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6692))
 // CS Name: ::UnityEngine.UIElements.UIR::Alloc
 struct CORDL_TYPE Alloc {
 public:

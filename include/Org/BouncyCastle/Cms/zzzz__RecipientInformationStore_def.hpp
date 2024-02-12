@@ -60,22 +60,22 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::RecipientInformationStore* New_ctor(::System::Collections::ICollection* recipientInfos);
 
-  /// @brief Method .ctor, addr 0x11e3158, size 0x5a8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x120ffe8, size 0x5a8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::ICollection* recipientInfos);
 
-  /// @brief Method get_Item, addr 0x1208640, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x12354d0, size 0x4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::RecipientInformation* get_Item(::Org::BouncyCastle::Cms::RecipientID* selector);
 
-  /// @brief Method GetFirstRecipient, addr 0x1208644, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method GetFirstRecipient, addr 0x12354d4, size 0x190, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::RecipientInformation* GetFirstRecipient(::Org::BouncyCastle::Cms::RecipientID* selector);
 
-  /// @brief Method get_Count, addr 0x12087d4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x1235664, size 0xa4, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method GetRecipients, addr 0x1208878, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetRecipients, addr 0x1235708, size 0x5c, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* GetRecipients();
 
-  /// @brief Method GetRecipients, addr 0x12088d4, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method GetRecipients, addr 0x1235764, size 0x130, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* GetRecipients(::Org::BouncyCastle::Cms::RecipientID* selector);
 
   // Ctor Parameters [CppParam { name: "", ty: "RecipientInformationStore", modifiers: "&&", def_value: None }]

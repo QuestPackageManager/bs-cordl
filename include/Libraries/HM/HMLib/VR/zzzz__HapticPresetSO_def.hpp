@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::Libraries::HM::HMLib::VR::HapticPresetSO);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Libraries::HM::HMLib::VR {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14442))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8954))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14591))
 // CS Name: ::Libraries.HM.HMLib.VR::HapticPresetSO*
 class CORDL_TYPE HapticPresetSO : public ::UnityEngine::ScriptableObject {
 public:
@@ -79,12 +79,12 @@ public:
 
   constexpr void __cordl_internal_set__ps5HapticsClip(::UnityW<::UnityEngine::AudioClip> value);
 
-  /// @brief Method CopyFrom, addr 0x2100fd0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method CopyFrom, addr 0x21949e0, size 0x3c, virtual false, abstract: false, final false
   inline void CopyFrom(::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset);
 
   static inline ::Libraries::HM::HMLib::VR::HapticPresetSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x210100c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2194a1c, size 0x1024, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HapticPresetSO", modifiers: "&&", def_value: None }]

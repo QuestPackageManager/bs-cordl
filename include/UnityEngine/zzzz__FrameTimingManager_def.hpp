@@ -20,15 +20,15 @@ MARK_REF_PTR_T(::UnityEngine::FrameTimingManager);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10133))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8871))
 // CS Name: ::UnityEngine::FrameTimingManager*
 class CORDL_TYPE FrameTimingManager : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CaptureFrameTimings, addr 0x2cc41f0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method CaptureFrameTimings, addr 0x2cc6a2c, size 0x28, virtual false, abstract: false, final false
   static inline void CaptureFrameTimings();
 
-  /// @brief Method GetLatestTimings, addr 0x2cc4218, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetLatestTimings, addr 0x2cc6a54, size 0x44, virtual false, abstract: false, final false
   static inline uint32_t GetLatestTimings(uint32_t numFrames, ::ArrayW<::UnityEngine::FrameTiming, ::Array<::UnityEngine::FrameTiming>*> timings);
 
   // Ctor Parameters [CppParam { name: "", ty: "FrameTimingManager", modifiers: "&&", def_value: None }]

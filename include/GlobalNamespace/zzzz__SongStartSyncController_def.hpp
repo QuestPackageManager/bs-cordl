@@ -35,8 +35,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SongStartSyncController);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14978))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14851))
 // CS Name: ::SongStartSyncController*
 class CORDL_TYPE SongStartSyncController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -136,51 +136,51 @@ public:
 
   constexpr void __cordl_internal_set_syncResumeEvent(::System::Action_1<int64_t>* value);
 
-  /// @brief Method get_isSongStarted, addr 0x26395f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isSongStarted, addr 0x265e7b0, size 0x8, virtual false, abstract: false, final false
   inline bool get_isSongStarted();
 
-  /// @brief Method get_songStartSyncTime, addr 0x26395fc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_songStartSyncTime, addr 0x265e7b8, size 0x1c, virtual false, abstract: false, final false
   inline int64_t get_songStartSyncTime();
 
-  /// @brief Method add_syncStartFailedEvent, addr 0x2639618, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_syncStartFailedEvent, addr 0x265e7d4, size 0x9c, virtual false, abstract: false, final false
   inline void add_syncStartFailedEvent(::System::Action* value);
 
-  /// @brief Method remove_syncStartFailedEvent, addr 0x26396b4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_syncStartFailedEvent, addr 0x265e870, size 0x9c, virtual false, abstract: false, final false
   inline void remove_syncStartFailedEvent(::System::Action* value);
 
-  /// @brief Method add_syncStartSuccessEvent, addr 0x2639750, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_syncStartSuccessEvent, addr 0x265e90c, size 0xb0, virtual false, abstract: false, final false
   inline void add_syncStartSuccessEvent(::System::Action_1<int64_t>* value);
 
-  /// @brief Method remove_syncStartSuccessEvent, addr 0x2639800, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_syncStartSuccessEvent, addr 0x265e9bc, size 0xb0, virtual false, abstract: false, final false
   inline void remove_syncStartSuccessEvent(::System::Action_1<int64_t>* value);
 
-  /// @brief Method add_syncResumeEvent, addr 0x26398b0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_syncResumeEvent, addr 0x265ea6c, size 0xb0, virtual false, abstract: false, final false
   inline void add_syncResumeEvent(::System::Action_1<int64_t>* value);
 
-  /// @brief Method remove_syncResumeEvent, addr 0x2639960, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_syncResumeEvent, addr 0x265eb1c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_syncResumeEvent(::System::Action_1<int64_t>* value);
 
-  /// @brief Method Start, addr 0x2639a10, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x265ebcc, size 0xc, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy, addr 0x2639a1c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x265ebd8, size 0x14, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Update, addr 0x2639a30, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x265ebec, size 0x60, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method OnApplicationPause, addr 0x2639a90, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationPause, addr 0x265ec4c, size 0x44, virtual false, abstract: false, final false
   inline void OnApplicationPause(bool pauseStatus);
 
-  /// @brief Method StartSong, addr 0x2639ad4, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method StartSong, addr 0x265ec90, size 0x15c, virtual false, abstract: false, final false
   inline void StartSong(::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* playersSpecificSettingsAtGameStartModel, ::StringW sessionGameId);
 
-  /// @brief Method HandleSetSongStartSyncTime, addr 0x2639c30, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method HandleSetSongStartSyncTime, addr 0x265edec, size 0x2c, virtual false, abstract: false, final false
   inline void HandleSetSongStartSyncTime(int64_t songStartSyncTime);
 
   static inline ::GlobalNamespace::SongStartSyncController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2639c5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x265ee18, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SongStartSyncController", modifiers: "&&", def_value: None }]

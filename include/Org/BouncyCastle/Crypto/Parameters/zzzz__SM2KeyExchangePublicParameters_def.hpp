@@ -58,13 +58,13 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePublicParameters* New_ctor(::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* staticPublicKey,
                                                                                                   ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* ephemeralPublicKey);
 
-  /// @brief Method .ctor, addr 0xf3b730, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf665c0, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* staticPublicKey, ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* ephemeralPublicKey);
 
-  /// @brief Method get_StaticPublicKey, addr 0xf3b82c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_StaticPublicKey, addr 0xf666bc, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* get_StaticPublicKey();
 
-  /// @brief Method get_EphemeralPublicKey, addr 0xf3b834, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_EphemeralPublicKey, addr 0xf666c4, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* get_EphemeralPublicKey();
 
   // Ctor Parameters [CppParam { name: "", ty: "SM2KeyExchangePublicParameters", modifiers: "&&", def_value: None }]

@@ -5,7 +5,6 @@
 #include "System/Runtime/CompilerServices/zzzz__YieldAwaitable_impl.hpp"
 #include "System/Threading/zzzz__CancellationToken_impl.hpp"
 #include "GlobalNamespace/zzzz__MockPlatformAdditionalContentModel_def.hpp"
-#include "GlobalNamespace/zzzz__AlwaysOwnedContentContainerSO_def.hpp"
 #include "GlobalNamespace/zzzz__EntitlementStatus_def.hpp"
 #include "GlobalNamespace/zzzz__IsPackBetterBuyThanLevelResult_def.hpp"
 #include "GlobalNamespace/zzzz__MockPlatformAdditionalContentModelInitialDataSO_def.hpp"
@@ -24,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MockPlatformAdditionalContentModel___OpenLevelProductStoreAsync_d__8::*)()>(
     &::GlobalNamespace::__MockPlatformAdditionalContentModel___OpenLevelProductStoreAsync_d__8::MoveNext)> {
   constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x2234f78;
+  constexpr static std::size_t addrs = 0x125e1cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MockPlatformAdditionalContentModel___OpenLevelProductStoreAsync_d__8::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::__MockPlatformAdditionalContentModel___OpenLevelProductStoreAsync_d__8::SetStateMachine)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x22351ec;
+  constexpr static std::size_t addrs = 0x125e440;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -92,15 +91,14 @@ constexpr ::GlobalNamespace::__MockPlatformAdditionalContentModel___OpenLevelPro
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlatformAdditionalContentModel::*)(
-    ::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO*, ::GlobalNamespace::AlwaysOwnedContentContainerSO*)>(&::GlobalNamespace::MockPlatformAdditionalContentModel::_ctor)> {
-  constexpr static std::size_t size = 0x618;
-  constexpr static std::size_t addrs = 0x223440c;
+    ::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO*)>(&::GlobalNamespace::MockPlatformAdditionalContentModel::_ctor)> {
+  constexpr static std::size_t size = 0x610;
+  constexpr static std::size_t addrs = 0x125d668;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlatformAdditionalContentModel*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::AlwaysOwnedContentContainerSO*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO*>::get() })));
     return ___internal_method;
   }
 };
@@ -110,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlatformAdditionalContentModel::*)()>(
     &::GlobalNamespace::MockPlatformAdditionalContentModel::InvalidateDataInternal)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2234a24;
+  constexpr static std::size_t addrs = 0x125dc78;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -127,7 +125,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::MockPlatformAdditionalContentModel::*)(::StringW, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::MockPlatformAdditionalContentModel::GetLevelEntitlementStatusInternalAsync)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x2234a28;
+  constexpr static std::size_t addrs = 0x125dc7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -144,7 +142,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::MockPlatformAdditionalContentModel::*)(::StringW, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::MockPlatformAdditionalContentModel::GetPackEntitlementStatusInternalAsync)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x2234b00;
+  constexpr static std::size_t addrs = 0x125dd54;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -161,7 +159,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::MockPlatformAdditionalContentModel::*)(::StringW, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::MockPlatformAdditionalContentModel::IsPackBetterBuyThanLevelAsync)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x2234bd8;
+  constexpr static std::size_t addrs = 0x125de2c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -177,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::OpenProductStoreResult>* (
     ::GlobalNamespace::MockPlatformAdditionalContentModel::*)(::StringW, ::System::Threading::CancellationToken)>(&::GlobalNamespace::MockPlatformAdditionalContentModel::OpenLevelProductStoreAsync)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x2234c68;
+  constexpr static std::size_t addrs = 0x125debc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -193,7 +191,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlatformAdditionalContentModel::*)(::StringW)>(
     &::GlobalNamespace::MockPlatformAdditionalContentModel::BuyLevel)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x2234d6c;
+  constexpr static std::size_t addrs = 0x125dfc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -209,7 +207,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::MockPlatformAdditionalContentModel::*)(::StringW, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::MockPlatformAdditionalContentModel::OpenLevelPackProductStoreAsync)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x2234e94;
+  constexpr static std::size_t addrs = 0x125e0e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -262,17 +260,14 @@ constexpr void GlobalNamespace::MockPlatformAdditionalContentModel::__cordl_inte
   this->____packBetterBuyThanLevel = value;
 }
 inline ::GlobalNamespace::MockPlatformAdditionalContentModel*
-GlobalNamespace::MockPlatformAdditionalContentModel::New_ctor(::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO* mockPlatformAdditionalContentModelInitialData,
-                                                              ::GlobalNamespace::AlwaysOwnedContentContainerSO* alwaysOwnedContentContainer) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MockPlatformAdditionalContentModel*>(mockPlatformAdditionalContentModelInitialData, alwaysOwnedContentContainer));
+GlobalNamespace::MockPlatformAdditionalContentModel::New_ctor(::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO* mockPlatformAdditionalContentModelInitialData) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MockPlatformAdditionalContentModel*>(mockPlatformAdditionalContentModelInitialData));
 }
-inline void GlobalNamespace::MockPlatformAdditionalContentModel::_ctor(::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO* mockPlatformAdditionalContentModelInitialData,
-                                                                       ::GlobalNamespace::AlwaysOwnedContentContainerSO* alwaysOwnedContentContainer) {
+inline void GlobalNamespace::MockPlatformAdditionalContentModel::_ctor(::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO* mockPlatformAdditionalContentModelInitialData) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlatformAdditionalContentModel*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::AlwaysOwnedContentContainerSO*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, mockPlatformAdditionalContentModelInitialData, alwaysOwnedContentContainer);
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, mockPlatformAdditionalContentModelInitialData);
 }
 inline void GlobalNamespace::MockPlatformAdditionalContentModel::InvalidateDataInternal() {
   auto* ___internal_method =

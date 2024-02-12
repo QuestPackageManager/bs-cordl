@@ -37,8 +37,8 @@ MARK_REF_PTR_T(::GlobalNamespace::FlyingSpriteSpawner);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4890))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8995))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4244))
 // CS Name: ::FlyingSpriteSpawner*
 class CORDL_TYPE FlyingSpriteSpawner : public ::UnityEngine::MonoBehaviour {
 public:
@@ -130,15 +130,15 @@ public:
 
   constexpr void __cordl_internal_set__flyingSpriteEffectPool(::GlobalNamespace::__FlyingSpriteEffect__Pool* value);
 
-  /// @brief Method SpawnFlyingSprite, addr 0x23a1114, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method SpawnFlyingSprite, addr 0x2361244, size 0x1fc, virtual false, abstract: false, final false
   inline void SpawnFlyingSprite(::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rotation, ::UnityEngine::Quaternion inverseRotation);
 
-  /// @brief Method HandleFlyingObjectEffectDidFinish, addr 0x23a1df0, size 0x11c, virtual true, abstract: false, final true
+  /// @brief Method HandleFlyingObjectEffectDidFinish, addr 0x2361f20, size 0x11c, virtual true, abstract: false, final true
   inline void HandleFlyingObjectEffectDidFinish(::GlobalNamespace::FlyingObjectEffect* flyingObjectEffect);
 
   static inline ::GlobalNamespace::FlyingSpriteSpawner* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23a1f0c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x236203c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FlyingSpriteSpawner", modifiers: "&&", def_value: None }]

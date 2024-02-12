@@ -32,7 +32,7 @@ MARK_VAL_T(::UnityEngine::ProBuilder::Edge);
 namespace UnityEngine::ProBuilder {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12117))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12015))
 // CS Name: ::UnityEngine.ProBuilder::Edge
 struct CORDL_TYPE Edge {
 public:
@@ -50,61 +50,61 @@ public:
 
   static inline ::UnityEngine::ProBuilder::Edge getStaticF_Empty();
 
-  /// @brief Method .ctor, addr 0x2b3e2b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b3ce1c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t a, int32_t b);
 
-  /// @brief Method IsValid, addr 0x2b3e2b8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x2b3ce24, size 0x2c, virtual false, abstract: false, final false
   inline bool IsValid();
 
-  /// @brief Method ToString, addr 0x2b3e2e4, size 0x1a4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2b3ce50, size 0x1a4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method Equals, addr 0x2b3e488, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2b3cff4, size 0x44, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::ProBuilder::Edge other);
 
-  /// @brief Method Equals, addr 0x2b3e4cc, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2b3d038, size 0xa0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2b3e56c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2b3d0d8, size 0x24, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method op_Addition, addr 0x2b3e590, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_Addition, addr 0x2b3d0fc, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Edge op_Addition(::UnityEngine::ProBuilder::Edge a, ::UnityEngine::ProBuilder::Edge b);
 
-  /// @brief Method op_Subtraction, addr 0x2b3e5a8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_Subtraction, addr 0x2b3d114, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Edge op_Subtraction(::UnityEngine::ProBuilder::Edge a, ::UnityEngine::ProBuilder::Edge b);
 
-  /// @brief Method op_Addition, addr 0x2b3e5c0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Addition, addr 0x2b3d12c, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Edge op_Addition(::UnityEngine::ProBuilder::Edge a, int32_t b);
 
-  /// @brief Method op_Subtraction, addr 0x2b3e5d4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Subtraction, addr 0x2b3d140, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Edge op_Subtraction(::UnityEngine::ProBuilder::Edge a, int32_t b);
 
-  /// @brief Method op_Equality, addr 0x2b3e5e8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x2b3d154, size 0x38, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::ProBuilder::Edge a, ::UnityEngine::ProBuilder::Edge b);
 
-  /// @brief Method op_Inequality, addr 0x2b3e620, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x2b3d18c, size 0x90, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::ProBuilder::Edge a, ::UnityEngine::ProBuilder::Edge b);
 
-  /// @brief Method Add, addr 0x2b3e6b0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x2b3d21c, size 0x70, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Edge Add(::UnityEngine::ProBuilder::Edge a, ::UnityEngine::ProBuilder::Edge b);
 
-  /// @brief Method Subtract, addr 0x2b3e720, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Subtract, addr 0x2b3d28c, size 0x70, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Edge Subtract(::UnityEngine::ProBuilder::Edge a, ::UnityEngine::ProBuilder::Edge b);
 
-  /// @brief Method Equals, addr 0x2b3e790, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x2b3d2fc, size 0x10c, virtual false, abstract: false, final false
   inline bool Equals(::UnityEngine::ProBuilder::Edge other, ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* lookup);
 
-  /// @brief Method Contains, addr 0x2b3e89c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x2b3d408, size 0x24, virtual false, abstract: false, final false
   inline bool Contains(int32_t index);
 
-  /// @brief Method Contains, addr 0x2b3e8c0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x2b3d42c, size 0x30, virtual false, abstract: false, final false
   inline bool Contains(::UnityEngine::ProBuilder::Edge other);
 
-  /// @brief Method Contains, addr 0x2b3e8f0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x2b3d45c, size 0xa4, virtual false, abstract: false, final false
   inline bool Contains(int32_t index, ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* lookup);
 
-  /// @brief Method GetIndices, addr 0x2b3e994, size 0x3d8, virtual false, abstract: false, final false
+  /// @brief Method GetIndices, addr 0x2b3d500, size 0x3d8, virtual false, abstract: false, final false
   static inline void GetIndices(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* edges, ::System::Collections::Generic::List_1<int32_t>* indices);
 
   // Ctor Parameters [CppParam { name: "a", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "b", ty: "int32_t", modifiers: "", def_value: None }]

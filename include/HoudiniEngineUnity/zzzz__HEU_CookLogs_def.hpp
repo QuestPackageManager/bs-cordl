@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_CookLogs);
 namespace HoudiniEngineUnity {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9818))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9610))
 // CS Name: ::HoudiniEngineUnity::HEU_CookLogs*
 class CORDL_TYPE HEU_CookLogs : public ::System::Object {
 public:
@@ -68,33 +68,33 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_CookLogs* getStaticF__instance();
 
-  /// @brief Method get_Instance, addr 0x21b16dc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_Instance, addr 0x2247fc0, size 0x7c, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::HEU_CookLogs* get_Instance();
 
-  /// @brief Method GetCookLogString, addr 0x21b17e4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetCookLogString, addr 0x22480c8, size 0x20, virtual false, abstract: false, final false
   inline ::StringW GetCookLogString();
 
-  /// @brief Method AppendCookLog, addr 0x21b1804, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method AppendCookLog, addr 0x22480e8, size 0x100, virtual false, abstract: false, final false
   inline void AppendCookLog(::StringW logStr);
 
-  /// @brief Method ClearCookLog, addr 0x21b1b4c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ClearCookLog, addr 0x2248430, size 0x64, virtual false, abstract: false, final false
   inline void ClearCookLog();
 
-  /// @brief Method GetCookLogFilePath, addr 0x21b1bb0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method GetCookLogFilePath, addr 0x2248494, size 0xd4, virtual false, abstract: false, final false
   inline ::StringW GetCookLogFilePath();
 
-  /// @brief Method DeleteCookingFile, addr 0x21b1c84, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method DeleteCookingFile, addr 0x2248568, size 0x88, virtual false, abstract: false, final false
   inline void DeleteCookingFile();
 
-  /// @brief Method WriteToLogFile, addr 0x21b1904, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method WriteToLogFile, addr 0x22481e8, size 0x248, virtual false, abstract: false, final false
   inline void WriteToLogFile(::StringW logStr, bool checkLastLogStr);
 
-  /// @brief Method GetFileSizeOfLogFile, addr 0x21b1d0c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetFileSizeOfLogFile, addr 0x22485f0, size 0x88, virtual false, abstract: false, final false
   inline int64_t GetFileSizeOfLogFile();
 
   static inline ::HoudiniEngineUnity::HEU_CookLogs* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21b1758, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x224803c, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_CookLogs", modifiers: "&&", def_value: None }]

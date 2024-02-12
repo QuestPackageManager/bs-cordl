@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::UnityEngine::GUIScrollGroup);
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 192, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14622))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14623))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14627))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14628))
 // CS Name: ::UnityEngine::GUIScrollGroup*
 class CORDL_TYPE GUIScrollGroup : public ::UnityEngine::GUILayoutGroup {
 public:
@@ -134,19 +134,19 @@ public:
 
   static inline ::UnityEngine::GUIScrollGroup* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d0c040, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d1792c, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CalcWidth, addr 0x2d0c0a0, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method CalcWidth, addr 0x2d1798c, size 0x80, virtual true, abstract: false, final false
   inline void CalcWidth();
 
-  /// @brief Method SetHorizontal, addr 0x2d0c120, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method SetHorizontal, addr 0x2d17a0c, size 0x12c, virtual true, abstract: false, final false
   inline void SetHorizontal(float_t x, float_t width);
 
-  /// @brief Method CalcHeight, addr 0x2d0c330, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method CalcHeight, addr 0x2d17c1c, size 0x100, virtual true, abstract: false, final false
   inline void CalcHeight();
 
-  /// @brief Method SetVertical, addr 0x2d0c46c, size 0x218, virtual true, abstract: false, final false
+  /// @brief Method SetVertical, addr 0x2d17d58, size 0x218, virtual true, abstract: false, final false
   inline void SetVertical(float_t y, float_t height);
 
   // Ctor Parameters [CppParam { name: "", ty: "GUIScrollGroup", modifiers: "&&", def_value: None }]

@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::AttitudeSensor);
 // SizeInfo { instance_size: 352, native_size: -1, calculated_instance_size: 352, calculated_native_size: 352, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6274))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6278))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5533))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5537))
 // CS Name: ::UnityEngine.InputSystem::AttitudeSensor*
 class CORDL_TYPE AttitudeSensor : public ::UnityEngine::InputSystem::Sensor {
 public:
@@ -42,30 +42,30 @@ public:
 
   static inline ::UnityEngine::InputSystem::AttitudeSensor* getStaticF__current_k__BackingField();
 
-  /// @brief Method get_attitude, addr 0x2aa81c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_attitude, addr 0x2aa9d34, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::QuaternionControl* get_attitude();
 
-  /// @brief Method set_attitude, addr 0x2aa81d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_attitude, addr 0x2aa9d3c, size 0x8, virtual false, abstract: false, final false
   inline void set_attitude(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
-  /// @brief Method get_current, addr 0x2aa81d8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_current, addr 0x2aa9d44, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::AttitudeSensor* get_current();
 
-  /// @brief Method set_current, addr 0x2aa8220, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_current, addr 0x2aa9d8c, size 0x4c, virtual false, abstract: false, final false
   static inline void set_current(::UnityEngine::InputSystem::AttitudeSensor* value);
 
-  /// @brief Method MakeCurrent, addr 0x2aa826c, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method MakeCurrent, addr 0x2aa9dd8, size 0x54, virtual true, abstract: false, final false
   inline void MakeCurrent();
 
-  /// @brief Method OnRemoved, addr 0x2aa82c0, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method OnRemoved, addr 0x2aa9e2c, size 0x84, virtual true, abstract: false, final false
   inline void OnRemoved();
 
-  /// @brief Method FinishSetup, addr 0x2aa8344, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x2aa9eb0, size 0x78, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::InputSystem::AttitudeSensor* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2aa83bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aa9f28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AttitudeSensor", modifiers: "&&", def_value: None }]

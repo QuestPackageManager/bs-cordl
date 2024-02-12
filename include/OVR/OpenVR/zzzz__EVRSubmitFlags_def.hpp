@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::EVRSubmitFlags);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8589))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8533))
 // CS Name: ::OVR.OpenVR::EVRSubmitFlags
 struct CORDL_TYPE EVRSubmitFlags {
 public:

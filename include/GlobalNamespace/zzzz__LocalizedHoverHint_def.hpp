@@ -2,15 +2,15 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "BGLib/Polyglot/zzzz__LocalizedTextComponent_1_def.hpp"
 #include "HMUI/zzzz__HoverHint_def.hpp"
-#include "Polyglot/zzzz__LocalizedTextComponent_1_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(LocalizedHoverHint)
+namespace BGLib::Polyglot {
+struct LanguageDirection;
+}
 namespace HMUI {
 class HoverHint;
-}
-namespace Polyglot {
-struct LanguageDirection;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -22,20 +22,20 @@ MARK_REF_PTR_T(::GlobalNamespace::LocalizedHoverHint);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13532)), TypeDefinitionIndex(TypeDefinitionIndex(15565)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15565), inst:
-// 4462 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5534)) CS Name: ::LocalizedHoverHint*
-class CORDL_TYPE LocalizedHoverHint : public ::Polyglot::LocalizedTextComponent_1<::UnityW<::HMUI::HoverHint>> {
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13485)), TypeDefinitionIndex(TypeDefinitionIndex(15685)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15685), inst:
+// 4430 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4840)) CS Name: ::LocalizedHoverHint*
+class CORDL_TYPE LocalizedHoverHint : public ::BGLib::Polyglot::LocalizedTextComponent_1<::UnityW<::HMUI::HoverHint>> {
 public:
   // Declarations
-  /// @brief Method SetText, addr 0x229e810, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method SetText, addr 0x23f9094, size 0x18, virtual true, abstract: false, final false
   inline void SetText(::HMUI::HoverHint* hoverHint, ::StringW value);
 
-  /// @brief Method UpdateAlignment, addr 0x229e828, size 0x4, virtual true, abstract: false, final false
-  inline void UpdateAlignment(::HMUI::HoverHint* hoverHint, ::Polyglot::LanguageDirection direction);
+  /// @brief Method UpdateAlignment, addr 0x23f90ac, size 0x4, virtual true, abstract: false, final false
+  inline void UpdateAlignment(::HMUI::HoverHint* hoverHint, ::BGLib::Polyglot::LanguageDirection direction);
 
   static inline ::GlobalNamespace::LocalizedHoverHint* New_ctor();
 
-  /// @brief Method .ctor, addr 0x229e82c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23f90b0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LocalizedHoverHint", modifiers: "&&", def_value: None }]

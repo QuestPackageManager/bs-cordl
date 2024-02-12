@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::UnityEngine::UI::IClippable);
 namespace UnityEngine::UI {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13027))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12925))
 // CS Name: ::UnityEngine.UI::IClippable*
 class CORDL_TYPE IClippable {
 public:

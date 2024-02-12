@@ -54,13 +54,13 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactoryProvider* New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
 
-  /// @brief Method .ctor, addr 0xf2d060, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf57ef0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
 
-  /// @brief Method CreateVerifierFactory, addr 0xf2d088, size 0xc4, virtual true, abstract: false, final true
+  /// @brief Method CreateVerifierFactory, addr 0xf57f18, size 0xc4, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::IVerifierFactory* CreateVerifierFactory(::System::Object* algorithmDetails);
 
-  /// @brief Method get_SignatureAlgNames, addr 0xf2d14c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_SignatureAlgNames, addr 0xf57fdc, size 0x4c, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerable* get_SignatureAlgNames();
 
   // Ctor Parameters [CppParam { name: "", ty: "Asn1VerifierFactoryProvider", modifiers: "&&", def_value: None }]

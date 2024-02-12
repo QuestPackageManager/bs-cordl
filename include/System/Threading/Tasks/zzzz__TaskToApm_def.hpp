@@ -92,19 +92,19 @@ public:
 
   static inline ::System::Threading::Tasks::__TaskToApm__TaskWrapperAsyncResult* New_ctor(::System::Threading::Tasks::Task* task, ::System::Object* state, bool completedSynchronously);
 
-  /// @brief Method .ctor, addr 0x2620fc4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2647140, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::Task* task, ::System::Object* state, bool completedSynchronously);
 
-  /// @brief Method System.IAsyncResult.get_AsyncState, addr 0x2621224, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.IAsyncResult.get_AsyncState, addr 0x26473a0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_IAsyncResult_get_AsyncState();
 
-  /// @brief Method System.IAsyncResult.get_CompletedSynchronously, addr 0x262122c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.IAsyncResult.get_CompletedSynchronously, addr 0x26473a8, size 0x8, virtual true, abstract: false, final true
   inline bool System_IAsyncResult_get_CompletedSynchronously();
 
-  /// @brief Method System.IAsyncResult.get_IsCompleted, addr 0x2621234, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method System.IAsyncResult.get_IsCompleted, addr 0x26473b0, size 0x18, virtual true, abstract: false, final true
   inline bool System_IAsyncResult_get_IsCompleted();
 
-  /// @brief Method System.IAsyncResult.get_AsyncWaitHandle, addr 0x262124c, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method System.IAsyncResult.get_AsyncWaitHandle, addr 0x26473c8, size 0xa4, virtual true, abstract: false, final true
   inline ::System::Threading::WaitHandle* System_IAsyncResult_get_AsyncWaitHandle();
 
   // Ctor Parameters [CppParam { name: "", ty: "__TaskToApm__TaskWrapperAsyncResult", modifiers: "&&", def_value: None }]
@@ -172,10 +172,10 @@ public:
 
   static inline ::System::Threading::Tasks::__TaskToApm____c__DisplayClass3_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26211e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2647364, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <InvokeCallbackWhenTaskCompletes>b__0, addr 0x26212f0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <InvokeCallbackWhenTaskCompletes>b__0, addr 0x264746c, size 0x28, virtual false, abstract: false, final false
   inline void _InvokeCallbackWhenTaskCompletes_b__0();
 
   // Ctor Parameters [CppParam { name: "", ty: "__TaskToApm____c__DisplayClass3_0", modifiers: "&&", def_value: None }]
@@ -222,16 +222,16 @@ public:
 
   using TaskWrapperAsyncResult = ::System::Threading::Tasks::__TaskToApm__TaskWrapperAsyncResult;
 
-  /// @brief Method Begin, addr 0x2620e6c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Begin, addr 0x2646fe8, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::IAsyncResult* Begin(::System::Threading::Tasks::Task* task, ::System::AsyncCallback* callback, ::System::Object* state);
 
-  /// @brief Method End, addr 0x26210f8, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method End, addr 0x2647274, size 0xec, virtual false, abstract: false, final false
   static inline void End(::System::IAsyncResult* asyncResult);
 
   /// @brief Method End, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TResult> static inline TResult End(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method InvokeCallbackWhenTaskCompletes, addr 0x2621000, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method InvokeCallbackWhenTaskCompletes, addr 0x264717c, size 0xf8, virtual false, abstract: false, final false
   static inline void InvokeCallbackWhenTaskCompletes(::System::Threading::Tasks::Task* antecedent, ::System::AsyncCallback* callback, ::System::IAsyncResult* asyncResult);
 
   // Ctor Parameters [CppParam { name: "", ty: "TaskToApm", modifiers: "&&", def_value: None }]

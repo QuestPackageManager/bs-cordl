@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::ReflectionAttributeProvider);
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11909))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11807))
 // CS Name: ::Newtonsoft.Json.Serialization::ReflectionAttributeProvider*
 class CORDL_TYPE ReflectionAttributeProvider : public ::System::Object {
 public:
@@ -52,13 +52,13 @@ public:
 
   static inline ::Newtonsoft::Json::Serialization::ReflectionAttributeProvider* New_ctor(::System::Object* attributeProvider);
 
-  /// @brief Method .ctor, addr 0x266ae54, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x268e010, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* attributeProvider);
 
-  /// @brief Method GetAttributes, addr 0x266aebc, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method GetAttributes, addr 0x268e078, size 0x6c, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IList_1<::System::Attribute*>* GetAttributes(bool inherit);
 
-  /// @brief Method GetAttributes, addr 0x266af28, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method GetAttributes, addr 0x268e0e4, size 0x70, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IList_1<::System::Attribute*>* GetAttributes(::System::Type* attributeType, bool inherit);
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectionAttributeProvider", modifiers: "&&", def_value: None }]

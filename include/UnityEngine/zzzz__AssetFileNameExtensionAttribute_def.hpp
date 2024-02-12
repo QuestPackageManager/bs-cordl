@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::UnityEngine::AssetFileNameExtensionAttribute);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16004))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16099))
 // CS Name: ::UnityEngine::AssetFileNameExtensionAttribute*
 class CORDL_TYPE AssetFileNameExtensionAttribute : public ::System::Attribute {
 public:
@@ -46,7 +46,7 @@ public:
 
   static inline ::UnityEngine::AssetFileNameExtensionAttribute* New_ctor(::StringW preferredExtension, ::ArrayW<::StringW, ::Array<::StringW>*> otherExtensions);
 
-  /// @brief Method .ctor, addr 0x2d1801c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d38ac4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW preferredExtension, ::ArrayW<::StringW, ::Array<::StringW>*> otherExtensions);
 
   // Ctor Parameters [CppParam { name: "", ty: "AssetFileNameExtensionAttribute", modifiers: "&&", def_value: None }]

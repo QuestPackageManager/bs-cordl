@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::GlobalNamespace::Vector3TransitionSO);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5443)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5464))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4746)), TypeDefinitionIndex(TypeDefinitionIndex(8993))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4767))
 // CS Name: ::Vector3TransitionSO*
 class CORDL_TYPE Vector3TransitionSO : public ::GlobalNamespace::BaseTransitionSO {
 public:
@@ -90,27 +90,27 @@ public:
 
   constexpr void __cordl_internal_set__selectedAndHighlightedState(::UnityEngine::Vector3 value);
 
-  /// @brief Method get_normalState, addr 0x2280094, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_normalState, addr 0x23db94c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_normalState();
 
-  /// @brief Method get_highlightedState, addr 0x22800a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_highlightedState, addr 0x23db958, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_highlightedState();
 
-  /// @brief Method get_pressedState, addr 0x22800ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_pressedState, addr 0x23db964, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_pressedState();
 
-  /// @brief Method get_disabledState, addr 0x22800b8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_disabledState, addr 0x23db970, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_disabledState();
 
-  /// @brief Method get_selectedState, addr 0x22800c4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_selectedState, addr 0x23db97c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_selectedState();
 
-  /// @brief Method get_selectedAndHighlightedState, addr 0x22800d0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_selectedAndHighlightedState, addr 0x23db988, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_selectedAndHighlightedState();
 
   static inline ::GlobalNamespace::Vector3TransitionSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22800dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23db994, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Vector3TransitionSO", modifiers: "&&", def_value: None }]

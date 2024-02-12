@@ -54,8 +54,8 @@ MARK_REF_PTR_T(::Tayx::Graphy::Audio::G_AudioManager);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Tayx::Graphy::Audio {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15064))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15087))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(14937))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14960))
 // CS Name: ::Tayx.Graphy.Audio::G_AudioManager*
 class CORDL_TYPE G_AudioManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -173,36 +173,36 @@ public:
 
   constexpr void __cordl_internal_set_m_currentModuleState(::Tayx::Graphy::__GraphyManager__ModuleState value);
 
-  /// @brief Method Awake, addr 0x2a09ff8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2a0ea9c, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Start, addr 0x2a09ffc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2a0eaa0, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method SetPosition, addr 0x2a00e9c, size 0x300, virtual true, abstract: false, final true
+  /// @brief Method SetPosition, addr 0x2a05940, size 0x300, virtual true, abstract: false, final true
   inline void SetPosition(::Tayx::Graphy::__GraphyManager__ModulePosition newModulePosition);
 
-  /// @brief Method SetState, addr 0x2a01bac, size 0x150, virtual true, abstract: false, final true
+  /// @brief Method SetState, addr 0x2a06650, size 0x150, virtual true, abstract: false, final true
   inline void SetState(::Tayx::Graphy::__GraphyManager__ModuleState state, bool silentUpdate);
 
-  /// @brief Method RestorePreviousState, addr 0x2a03608, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method RestorePreviousState, addr 0x2a080ac, size 0xc, virtual false, abstract: false, final false
   inline void RestorePreviousState();
 
-  /// @brief Method UpdateParameters, addr 0x2a01d24, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method UpdateParameters, addr 0x2a067c8, size 0x1c4, virtual false, abstract: false, final false
   inline void UpdateParameters();
 
-  /// @brief Method RefreshParameters, addr 0x2a05ef4, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method RefreshParameters, addr 0x2a0a998, size 0x1bc, virtual false, abstract: false, final false
   inline void RefreshParameters();
 
-  /// @brief Method Init, addr 0x2a04190, size 0x4e4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2a08c34, size 0x4e4, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method SetGraphActive, addr 0x2a0a000, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetGraphActive, addr 0x2a0eaa4, size 0x44, virtual false, abstract: false, final false
   inline void SetGraphActive(bool active);
 
   static inline ::Tayx::Graphy::Audio::G_AudioManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2a0a244, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a0ece8, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "G_AudioManager", modifiers: "&&", def_value: None }]

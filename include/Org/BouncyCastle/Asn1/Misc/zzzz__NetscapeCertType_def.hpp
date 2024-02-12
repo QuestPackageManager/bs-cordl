@@ -27,15 +27,15 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Asn1::Misc::NetscapeCertType* New_ctor(int32_t usage);
 
-  /// @brief Method .ctor, addr 0xf7cf84, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfa7e14, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(int32_t usage);
 
   static inline ::Org::BouncyCastle::Asn1::Misc::NetscapeCertType* New_ctor(::Org::BouncyCastle::Asn1::DerBitString* usage);
 
-  /// @brief Method .ctor, addr 0xf7cfec, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfa7e7c, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerBitString* usage);
 
-  /// @brief Method ToString, addr 0xf7d080, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0xfa7f10, size 0xa8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "NetscapeCertType", modifiers: "&&", def_value: None }]

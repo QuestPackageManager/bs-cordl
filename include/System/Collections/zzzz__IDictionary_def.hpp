@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::System::Collections::IDictionary);
 namespace System::Collections {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3757))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3756))
 // CS Name: ::System.Collections::IDictionary*
 class CORDL_TYPE IDictionary {
 public:

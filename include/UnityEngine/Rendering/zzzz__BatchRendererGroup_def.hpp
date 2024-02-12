@@ -41,17 +41,17 @@ MARK_REF_PTR_T(::UnityEngine::Rendering::__BatchRendererGroup__OnPerformCulling)
 namespace UnityEngine::Rendering {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10367))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9134))
 // CS Name: ::BatchRendererGroup::OnPerformCulling*
 class CORDL_TYPE __BatchRendererGroup__OnPerformCulling : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::UnityEngine::Rendering::__BatchRendererGroup__OnPerformCulling* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2ceef10, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cfa6b0, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x2cef040, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2cfa7e0, size 0x5c, virtual true, abstract: false, final false
   inline ::Unity::Jobs::JobHandle Invoke(::UnityEngine::Rendering::BatchRendererGroup* rendererGroup, ::UnityEngine::Rendering::BatchCullingContext cullingContext);
 
   // Ctor Parameters [CppParam { name: "", ty: "__BatchRendererGroup__OnPerformCulling", modifiers: "&&", def_value: None }]
@@ -79,7 +79,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::__BatchR
 namespace UnityEngine::Rendering {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10368))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9135))
 // CS Name: ::UnityEngine.Rendering::BatchRendererGroup*
 class CORDL_TYPE BatchRendererGroup : public ::System::Object {
 public:
@@ -104,7 +104,7 @@ public:
 
   constexpr void __cordl_internal_set_m_PerformCulling(::UnityEngine::Rendering::__BatchRendererGroup__OnPerformCulling* value);
 
-  /// @brief Method InvokeOnPerformCulling, addr 0x2ceecf0, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method InvokeOnPerformCulling, addr 0x2cfa490, size 0x220, virtual false, abstract: false, final false
   static inline void InvokeOnPerformCulling(::UnityEngine::Rendering::BatchRendererGroup* group, ByRef<::UnityEngine::Rendering::BatchRendererCullingOutput> context,
                                             ByRef<::UnityEngine::Rendering::LODParameters> lodParameters);
 

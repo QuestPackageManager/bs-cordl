@@ -75,45 +75,45 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* getStaticF_DefaultAlgID();
 
-  /// @brief Method GetInstance, addr 0xe9a3f0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xec4280, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ess::EssCertIDv2* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Ess::EssCertIDv2* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xe9a494, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xec4324, size 0x260, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::Ess::EssCertIDv2* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> certHash);
 
-  /// @brief Method .ctor, addr 0xe9a6f4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xec4584, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> certHash);
 
   static inline ::Org::BouncyCastle::Asn1::Ess::EssCertIDv2* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algId, ::ArrayW<uint8_t, ::Array<uint8_t>*> certHash);
 
-  /// @brief Method .ctor, addr 0xe9a794, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xec4624, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algId, ::ArrayW<uint8_t, ::Array<uint8_t>*> certHash);
 
   static inline ::Org::BouncyCastle::Asn1::Ess::EssCertIDv2* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> certHash, ::Org::BouncyCastle::Asn1::X509::IssuerSerial* issuerSerial);
 
-  /// @brief Method .ctor, addr 0xe9a79c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xec462c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> certHash, ::Org::BouncyCastle::Asn1::X509::IssuerSerial* issuerSerial);
 
   static inline ::Org::BouncyCastle::Asn1::Ess::EssCertIDv2* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algId, ::ArrayW<uint8_t, ::Array<uint8_t>*> certHash,
                                                                       ::Org::BouncyCastle::Asn1::X509::IssuerSerial* issuerSerial);
 
-  /// @brief Method .ctor, addr 0xe9a704, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xec4594, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algId, ::ArrayW<uint8_t, ::Array<uint8_t>*> certHash, ::Org::BouncyCastle::Asn1::X509::IssuerSerial* issuerSerial);
 
-  /// @brief Method get_HashAlgorithm, addr 0xe9a7ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HashAlgorithm, addr 0xec463c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_HashAlgorithm();
 
-  /// @brief Method GetCertHash, addr 0xe9a7b4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetCertHash, addr 0xec4644, size 0x5c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetCertHash();
 
-  /// @brief Method get_IssuerSerial, addr 0xe9a810, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IssuerSerial, addr 0xec46a0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::IssuerSerial* get_IssuerSerial();
 
-  /// @brief Method ToAsn1Object, addr 0xe9a818, size 0x1b4, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xec46a8, size 0x1b4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "EssCertIDv2", modifiers: "&&", def_value: None }]

@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::Oculus::Platform::NetSyncOptions);
 namespace Oculus::Platform {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13340))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13260))
 // CS Name: ::Oculus.Platform::NetSyncOptions*
 class CORDL_TYPE NetSyncOptions : public ::System::Object {
 public:
@@ -37,22 +37,22 @@ public:
 
   static inline ::Oculus::Platform::NetSyncOptions* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26f46f8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x271ee34, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method SetVoipGroup, addr 0x26f475c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetVoipGroup, addr 0x271ee98, size 0x68, virtual false, abstract: false, final false
   inline void SetVoipGroup(::StringW value);
 
-  /// @brief Method SetVoipStreamDefault, addr 0x26f47c4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetVoipStreamDefault, addr 0x271ef00, size 0x68, virtual false, abstract: false, final false
   inline void SetVoipStreamDefault(::Oculus::Platform::NetSyncVoipStreamMode value);
 
-  /// @brief Method SetZoneId, addr 0x26f482c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetZoneId, addr 0x271ef68, size 0x68, virtual false, abstract: false, final false
   inline void SetZoneId(::StringW value);
 
-  /// @brief Method op_Explicit, addr 0x26f4894, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x271efd0, size 0x58, virtual false, abstract: false, final false
   static inline void* op_Explicit_void_(::Oculus::Platform::NetSyncOptions* options);
 
-  /// @brief Method Finalize, addr 0x26f48ec, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x271f028, size 0xd4, virtual true, abstract: false, final false
   inline void Finalize();
 
   // Ctor Parameters [CppParam { name: "", ty: "NetSyncOptions", modifiers: "&&", def_value: None }]

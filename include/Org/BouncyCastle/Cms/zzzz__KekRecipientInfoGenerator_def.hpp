@@ -100,22 +100,22 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::KekRecipientInfoGenerator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1201864, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x122e6f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_KekIdentifier, addr 0x120186c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_KekIdentifier, addr 0x122e6fc, size 0x8, virtual false, abstract: false, final false
   inline void set_KekIdentifier(::Org::BouncyCastle::Asn1::Cms::KekIdentifier* value);
 
-  /// @brief Method set_KeyEncryptionKey, addr 0x1201874, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method set_KeyEncryptionKey, addr 0x122e704, size 0x74, virtual false, abstract: false, final false
   inline void set_KeyEncryptionKey(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* value);
 
-  /// @brief Method set_KeyEncryptionKeyOID, addr 0x1201d68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_KeyEncryptionKeyOID, addr 0x122ebf8, size 0x8, virtual false, abstract: false, final false
   inline void set_KeyEncryptionKeyOID(::StringW value);
 
-  /// @brief Method Generate, addr 0x1201d70, size 0x288, virtual true, abstract: false, final true
+  /// @brief Method Generate, addr 0x122ec00, size 0x288, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::Cms::RecipientInfo* Generate(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* contentEncryptionKey, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method DetermineKeyEncAlg, addr 0x12018e8, size 0x480, virtual false, abstract: false, final false
+  /// @brief Method DetermineKeyEncAlg, addr 0x122e778, size 0x480, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* DetermineKeyEncAlg(::StringW algorithm, ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* key);
 
   // Ctor Parameters [CppParam { name: "", ty: "KekRecipientInfoGenerator", modifiers: "&&", def_value: None }]

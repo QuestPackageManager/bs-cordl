@@ -33,8 +33,8 @@ MARK_REF_PTR_T(::GlobalNamespace::PS4AppInit);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15392))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4040))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15439))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3985))
 // CS Name: ::PS4AppInit*
 class CORDL_TYPE PS4AppInit : public ::GlobalNamespace::AppInit {
 public:
@@ -89,24 +89,27 @@ public:
 
   constexpr void __cordl_internal_set__sonyOnGoingToBackgroundSaveHandler(::UnityW<::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler> value);
 
-  /// @brief Method InitializeModules, addr 0x2229e50, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method InitializeModules, addr 0x22b3940, size 0x68, virtual false, abstract: false, final false
   static inline int32_t InitializeModules();
 
-  /// @brief Method AppStartAndMultiSceneEditorSetup, addr 0x2229eb8, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method PreloadAsync, addr 0x22b39a8, size 0x50, virtual true, abstract: false, final false
+  inline ::System::Threading::Tasks::Task* PreloadAsync();
+
+  /// @brief Method AppStartAndMultiSceneEditorSetup, addr 0x22b39f8, size 0x68, virtual true, abstract: false, final false
   inline void AppStartAndMultiSceneEditorSetup();
 
-  /// @brief Method RepeatableSetupAsync, addr 0x2229f20, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method RepeatableSetupAsync, addr 0x22b3a60, size 0x9c, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* RepeatableSetupAsync();
 
-  /// @brief Method TransitionToNextScene, addr 0x2229fbc, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method TransitionToNextScene, addr 0x22b3afc, size 0x34, virtual true, abstract: false, final false
   inline void TransitionToNextScene();
 
-  /// @brief Method InstallBindings, addr 0x2229ff0, size 0x1ec, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x22b3b30, size 0x19c, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::PS4AppInit* New_ctor();
 
-  /// @brief Method .ctor, addr 0x222a1dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b3ccc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PS4AppInit", modifiers: "&&", def_value: None }]

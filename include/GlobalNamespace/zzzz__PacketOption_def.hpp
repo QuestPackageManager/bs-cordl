@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::PacketOption);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12915))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12813))
 // CS Name: ::PacketOption
 struct CORDL_TYPE PacketOption {
 public:

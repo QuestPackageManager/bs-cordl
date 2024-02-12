@@ -47,15 +47,15 @@ public:
 
   constexpr void __cordl_internal_set_param(::Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters* value);
 
-  /// @brief Method Init, addr 0xef7698, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0xf22528, size 0xa4, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
 
-  /// @brief Method GenerateKeyPair, addr 0xef773c, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method GenerateKeyPair, addr 0xf225cc, size 0x13c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GenerateKeyPair();
 
   static inline ::Org::BouncyCastle::Crypto::Generators::DHKeyPairGenerator* New_ctor();
 
-  /// @brief Method .ctor, addr 0xef7878, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf22708, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DHKeyPairGenerator", modifiers: "&&", def_value: None }]

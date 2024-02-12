@@ -28,21 +28,21 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Bcpg::RevocationReason* New_ctor(bool isCritical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0x11c8a08, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11f6898, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(bool isCritical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
   static inline ::Org::BouncyCastle::Bcpg::RevocationReason* New_ctor(bool isCritical, ::Org::BouncyCastle::Bcpg::RevocationReasonTag reason, ::StringW description);
 
-  /// @brief Method .ctor, addr 0x11c8a50, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11f68e0, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(bool isCritical, ::Org::BouncyCastle::Bcpg::RevocationReasonTag reason, ::StringW description);
 
-  /// @brief Method CreateData, addr 0x11c8aa0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method CreateData, addr 0x11f6930, size 0xa4, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CreateData(::Org::BouncyCastle::Bcpg::RevocationReasonTag reason, ::StringW description);
 
-  /// @brief Method GetRevocationReason, addr 0x11c8b44, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetRevocationReason, addr 0x11f69d4, size 0x28, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::RevocationReasonTag GetRevocationReason();
 
-  /// @brief Method GetRevocationDescription, addr 0x11c8b6c, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method GetRevocationDescription, addr 0x11f69fc, size 0xc0, virtual true, abstract: false, final false
   inline ::StringW GetRevocationDescription();
 
   // Ctor Parameters [CppParam { name: "", ty: "RevocationReason", modifiers: "&&", def_value: None }]

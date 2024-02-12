@@ -67,26 +67,26 @@ public:
 
   constexpr void __cordl_internal_set_choiceObj(::Org::BouncyCastle::Asn1::Asn1Object* value);
 
-  /// @brief Method GetInstance, addr 0x1083bcc, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x10b0a5c, size 0x2a4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::AttCertIssuer* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetInstance, addr 0x1083f3c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x10b0dcc, size 0x1c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::AttCertIssuer* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
   static inline ::Org::BouncyCastle::Asn1::X509::AttCertIssuer* New_ctor(::Org::BouncyCastle::Asn1::X509::GeneralNames* names);
 
-  /// @brief Method .ctor, addr 0x1083ef8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10b0d88, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::GeneralNames* names);
 
   static inline ::Org::BouncyCastle::Asn1::X509::AttCertIssuer* New_ctor(::Org::BouncyCastle::Asn1::X509::V2Form* v2Form);
 
-  /// @brief Method .ctor, addr 0x1083e70, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10b0d00, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::V2Form* v2Form);
 
-  /// @brief Method get_Issuer, addr 0x1083f58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Issuer, addr 0x10b0de8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Issuer();
 
-  /// @brief Method ToAsn1Object, addr 0x1083f60, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x10b0df0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "AttCertIssuer", modifiers: "&&", def_value: None }]

@@ -76,15 +76,15 @@ public:
 
   constexpr void __cordl_internal_set_generic_arg_names(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method GetTypes, addr 0x24a7c28, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method GetTypes, addr 0x24c9c9c, size 0x14c, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Type*, ::Array<::System::Type*>*> GetTypes(::ArrayW<::StringW, ::Array<::StringW>*> typeArray);
 
-  /// @brief Method Resolve, addr 0x24a7d74, size 0x524, virtual false, abstract: false, final false
+  /// @brief Method Resolve, addr 0x24c9de8, size 0x524, virtual false, abstract: false, final false
   inline ::System::Reflection::MethodBase* Resolve();
 
   static inline ::System::Runtime::Remoting::Messaging::CADMethodRef* New_ctor(::System::Runtime::Remoting::Messaging::IMethodMessage* msg);
 
-  /// @brief Method .ctor, addr 0x24a8298, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24ca30c, size 0x2d0, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::IMethodMessage* msg);
 
   // Ctor Parameters [CppParam { name: "", ty: "CADMethodRef", modifiers: "&&", def_value: None }]

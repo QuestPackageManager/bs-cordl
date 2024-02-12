@@ -24,7 +24,7 @@ MARK_VAL_T(::UnityEngine::__ScriptingUtility__TestClass);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10229))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8973))
 // CS Name: ::ScriptingUtility::TestClass
 struct CORDL_TYPE __ScriptingUtility__TestClass {
 public:
@@ -55,14 +55,14 @@ static_assert(offsetof(::UnityEngine::__ScriptingUtility__TestClass, value) == 0
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10230))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8974))
 // CS Name: ::UnityEngine::ScriptingUtility*
 class CORDL_TYPE ScriptingUtility : public ::System::Object {
 public:
   // Declarations
   using TestClass = ::UnityEngine::__ScriptingUtility__TestClass;
 
-  /// @brief Method IsManagedCodeWorking, addr 0x2cd3668, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsManagedCodeWorking, addr 0x2cda610, size 0x8, virtual false, abstract: false, final false
   static inline bool IsManagedCodeWorking();
 
   // Ctor Parameters [CppParam { name: "", ty: "ScriptingUtility", modifiers: "&&", def_value: None }]

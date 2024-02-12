@@ -7,7 +7,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Utilities::PredictiveParser::*)(::System::ReadOnlySpan_1<char16_t>, char16_t)>(
     &::UnityEngine::InputSystem::Utilities::PredictiveParser::ExpectSingleChar)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x2b1607c;
+  constexpr static std::size_t addrs = 0x2b15be8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::Utilities::PredictiveParser::*)(::System::ReadOnlySpan_1<char16_t>)>(
     &::UnityEngine::InputSystem::Utilities::PredictiveParser::ExpectInt)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x2b16184;
+  constexpr static std::size_t addrs = 0x2b15cf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ReadOnlySpan_1<char16_t> (::UnityEngine::InputSystem::Utilities::PredictiveParser::*)(
     ::System::ReadOnlySpan_1<char16_t>)>(&::UnityEngine::InputSystem::Utilities::PredictiveParser::ExpectString)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x2b162b0;
+  constexpr static std::size_t addrs = 0x2b15e1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Utilities::PredictiveParser::*)(::System::ReadOnlySpan_1<char16_t>, char16_t)>(
     &::UnityEngine::InputSystem::Utilities::PredictiveParser::AcceptSingleChar)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2b164e4;
+  constexpr static std::size_t addrs = 0x2b16050;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Utilities::PredictiveParser::*)(
     ::System::ReadOnlySpan_1<char16_t>, ByRef<::System::ReadOnlySpan_1<char16_t>>)>(&::UnityEngine::InputSystem::Utilities::PredictiveParser::AcceptString)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x2b16520;
+  constexpr static std::size_t addrs = 0x2b1608c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Utilities::PredictiveParser::*)(::System::ReadOnlySpan_1<char16_t>)>(
     &::UnityEngine::InputSystem::Utilities::PredictiveParser::AcceptInt)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x2b16650;
+  constexpr static std::size_t addrs = 0x2b161bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

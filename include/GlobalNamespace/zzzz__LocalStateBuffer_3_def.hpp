@@ -32,9 +32,9 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TStateTable, typename TType, typename TState>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12982)), TypeDefinitionIndex(TypeDefinitionIndex(12985)), TypeDefinitionIndex(TypeDefinitionIndex(12988)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12982), inst: 3833 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12985), inst: 3833 })] Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(12986)) CS Name: ::LocalStateBuffer`3<TStateTable,TType,TState>*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12880)), TypeDefinitionIndex(TypeDefinitionIndex(12883)), TypeDefinitionIndex(TypeDefinitionIndex(12886)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12880), inst: 3816 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12883), inst: 3816 })] Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(12884)) CS Name: ::LocalStateBuffer`3<TStateTable,TType,TState>*
 class CORDL_TYPE LocalStateBuffer_3 : public ::GlobalNamespace::StateBuffer_3<TStateTable, TType, TState> {
 public:
   // Declarations

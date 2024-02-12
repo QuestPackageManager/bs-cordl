@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::HoudiniEngineUnity::HEU_ShelfTools::AreShelvesLoaded)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x21d0774;
+  constexpr static std::size_t addrs = 0x2266058;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_ShelfTools*>::get(), "AreShelvesLoaded",
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::HoudiniEngineUnity::HEU_ShelfTools::SetReloadShelves)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x21d07cc;
+  constexpr static std::size_t addrs = 0x22660b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_ShelfTools*>::get(), "SetReloadShelves",
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::HoudiniEngineUnity::HEU_ShelfTools::ClearShelves)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x21d0824;
+  constexpr static std::size_t addrs = 0x2266108;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_ShelfTools*>::get(), "ClearShelves",
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::HoudiniEngineUnity::HEU_ShelfTools::GetNumShelves)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x21d08bc;
+  constexpr static std::size_t addrs = 0x22661a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_ShelfTools*>::get(), "GetNumShelves",
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::HoudiniEngineUnity::HEU_ShelfTools::GetCurrentShelfIndex)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x21d092c;
+  constexpr static std::size_t addrs = 0x2266210;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_ShelfTools*>::get(),
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t)>(&::HoudiniEngineUnity::HEU_ShelfTools::SetCurrentShelf)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x21d0984;
+  constexpr static std::size_t addrs = 0x2266268;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::HEU_Shelf* (*)(int32_t)>(&::HoudiniEngineUnity::HEU_ShelfTools::GetShelf)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x21d09e0;
+  constexpr static std::size_t addrs = 0x22662c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::HEU_Shelf* (*)(::StringW)>(&::HoudiniEngineUnity::HEU_ShelfTools::GetShelf)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x21d0aac;
+  constexpr static std::size_t addrs = 0x2266390;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::StringW)>(&::HoudiniEngineUnity::HEU_ShelfTools::GetShelfStorageEntry)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x21d0c64;
+  constexpr static std::size_t addrs = 0x2266548;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ByRef<::StringW>, ByRef<::StringW>)>(&::HoudiniEngineUnity::HEU_ShelfTools::GetSplitShelfEntry)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x21d0cc0;
+  constexpr static std::size_t addrs = 0x22665a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -148,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::HoudiniEngineUnity::HEU_ShelfTools::LoadShelves)> {
   constexpr static std::size_t size = 0x748;
-  constexpr static std::size_t addrs = 0x21d0d90;
+  constexpr static std::size_t addrs = 0x2266674;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_ShelfTools*>::get(), "LoadShelves",
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ShelfToolData*>*>)>(
     &::HoudiniEngineUnity::HEU_ShelfTools::LoadToolsFromDirectory)> {
   constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x21d15e0;
+  constexpr static std::size_t addrs = 0x2266ec4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -177,8 +177,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::HEU_ShelfToolData* (*)(::StringW)>(
     &::HoudiniEngineUnity::HEU_ShelfTools::LoadToolFromJsonFile)> {
-  constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x21d1b18;
+  constexpr static std::size_t size = 0x1cc;
+  constexpr static std::size_t addrs = 0x22673fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -193,7 +193,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::HEU_ShelfToolData* (*)(::StringW, ::StringW)>(
     &::HoudiniEngineUnity::HEU_ShelfTools::LoadToolFromJsonString)> {
   constexpr static std::size_t size = 0x990;
-  constexpr static std::size_t addrs = 0x21d1ce0;
+  constexpr static std::size_t addrs = 0x22675c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -207,7 +207,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::HEU_Shelf* (*)(::StringW, ::StringW)>(&::HoudiniEngineUnity::HEU_ShelfTools::AddShelf)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x21d14d8;
+  constexpr static std::size_t addrs = 0x2266dbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -221,7 +221,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t)>(&::HoudiniEngineUnity::HEU_ShelfTools::RemoveShelf)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x21d2978;
+  constexpr static std::size_t addrs = 0x2268260;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -235,7 +235,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::HoudiniEngineUnity::HEU_ShelfTools::SaveShelf)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x21d188c;
+  constexpr static std::size_t addrs = 0x2267170;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_ShelfTools*>::get(), "SaveShelf",
@@ -248,7 +248,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t)>(&::HoudiniEngineUnity::HEU_ShelfTools::ExecuteTool)> {
   constexpr static std::size_t size = 0x384;
-  constexpr static std::size_t addrs = 0x21d2abc;
+  constexpr static std::size_t addrs = 0x22683a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -263,7 +263,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::StringW, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Vector3)>(
     &::HoudiniEngineUnity::HEU_ShelfTools::ExecuteToolGenerator)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x21d2e40;
+  constexpr static std::size_t addrs = 0x2268728;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -280,7 +280,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::GameObject*)>(&::HoudiniEngineUnity::HEU_ShelfTools::IsValidInput)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x21d3d50;
+  constexpr static std::size_t addrs = 0x2269638;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -294,7 +294,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::StringW)>(&::HoudiniEngineUnity::HEU_ShelfTools::ExecuteToolNoInput)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x21d3050;
+  constexpr static std::size_t addrs = 0x2268938;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -309,7 +309,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::StringW, ::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*>)>(
     &::HoudiniEngineUnity::HEU_ShelfTools::ExecuteToolOperatorSingle)> {
   constexpr static std::size_t size = 0x5fc;
-  constexpr static std::size_t addrs = 0x21d3208;
+  constexpr static std::size_t addrs = 0x2268af0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -325,7 +325,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::StringW, ::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*>)>(
     &::HoudiniEngineUnity::HEU_ShelfTools::ExecuteToolOperatorMultiple)> {
   constexpr static std::size_t size = 0x4e0;
-  constexpr static std::size_t addrs = 0x21d3804;
+  constexpr static std::size_t addrs = 0x22690ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -341,7 +341,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::StringW, ::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*>)>(
     &::HoudiniEngineUnity::HEU_ShelfTools::ExecuteToolBatch)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x21d3ce4;
+  constexpr static std::size_t addrs = 0x22695cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -357,7 +357,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::HoudiniEngineUnity::HEU_ShelfToolData*, ::StringW, ::StringW)>(
     &::HoudiniEngineUnity::HEU_ShelfTools::GetToolResourcePath)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x21d3e4c;
+  constexpr static std::size_t addrs = 0x2269734;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -373,7 +373,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::HoudiniEngineUnity::HEU_ShelfToolData*, ::StringW)>(
     &::HoudiniEngineUnity::HEU_ShelfTools::GetToolIconPath)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x21d2824;
+  constexpr static std::size_t addrs = 0x226810c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -389,7 +389,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::HoudiniEngineUnity::HEU_ShelfToolData*, ::StringW)>(
     &::HoudiniEngineUnity::HEU_ShelfTools::GetToolAssetPath)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x21d26c8;
+  constexpr static std::size_t addrs = 0x2267fb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -404,7 +404,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_ShelfTools::*)()>(&::HoudiniEngineUnity::HEU_ShelfTools::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x21d3f2c;
+  constexpr static std::size_t addrs = 0x2269814;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_ShelfTools*>::get(), ".ctor",

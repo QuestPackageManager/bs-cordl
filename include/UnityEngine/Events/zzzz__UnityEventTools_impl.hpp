@@ -6,7 +6,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::UnityEngine::Events::UnityEventTools::TidyAssemblyTypeName)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x2cf8188;
+  constexpr static std::size_t addrs = 0x2d02e64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

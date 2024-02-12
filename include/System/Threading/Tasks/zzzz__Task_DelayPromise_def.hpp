@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::System::Threading::Tasks::__Task__DelayPromise);
 namespace System::Threading::Tasks {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(2683)), TypeDefinitionIndex(TypeDefinitionIndex(2773)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2794)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 900 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(2783)) CS
+// TypeDefinitionIndex(TypeDefinitionIndex(2794)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 903 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(2783)) CS
 // Name: ::Task::DelayPromise*
 class CORDL_TYPE __Task__DelayPromise : public ::System::Threading::Tasks::Task_1<::System::Threading::Tasks::VoidTaskResult> {
 public:
@@ -58,10 +58,10 @@ public:
 
   static inline ::System::Threading::Tasks::__Task__DelayPromise* New_ctor(::System::Threading::CancellationToken token);
 
-  /// @brief Method .ctor, addr 0x2629114, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x264f238, size 0x114, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::CancellationToken token);
 
-  /// @brief Method Complete, addr 0x262acb0, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x2650dd4, size 0x138, virtual false, abstract: false, final false
   inline void Complete();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Task__DelayPromise", modifiers: "&&", def_value: None }]

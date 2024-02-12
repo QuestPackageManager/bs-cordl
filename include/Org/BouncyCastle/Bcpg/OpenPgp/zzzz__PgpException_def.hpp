@@ -28,20 +28,20 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10a94e0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10d6370, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x10a557c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10d240c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpException* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor, addr 0x10a9538, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10d63c8, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method get_UnderlyingException, addr 0x10a95a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UnderlyingException, addr 0x10d6438, size 0x8, virtual false, abstract: false, final false
   inline ::System::Exception* get_UnderlyingException();
 
   // Ctor Parameters [CppParam { name: "", ty: "PgpException", modifiers: "&&", def_value: None }]

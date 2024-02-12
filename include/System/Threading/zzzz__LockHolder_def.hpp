@@ -32,10 +32,10 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable();
 
-  /// @brief Method Hold, addr 0x2614158, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Hold, addr 0x2639060, size 0x24, virtual false, abstract: false, final false
   static inline ::System::Threading::LockHolder Hold(::System::Threading::Lock* l);
 
-  /// @brief Method Dispose, addr 0x2614184, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x263908c, size 0x1c, virtual true, abstract: false, final true
   inline void Dispose();
 
   // Ctor Parameters [CppParam { name: "_lock", ty: "::System::Threading::Lock*", modifiers: "", def_value: None }]

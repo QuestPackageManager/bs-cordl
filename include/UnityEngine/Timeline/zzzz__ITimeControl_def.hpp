@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::ITimeControl);
 namespace UnityEngine::Timeline {
 // Is value type: false
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13905))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13858))
 // CS Name: ::UnityEngine.Timeline::ITimeControl*
 class CORDL_TYPE ITimeControl {
 public:

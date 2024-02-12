@@ -59,24 +59,24 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xf87e80, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfb2d10, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algId, ::ArrayW<uint8_t, ::Array<uint8_t>*> encoding);
 
-  /// @brief Method .ctor, addr 0xf87f64, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfb2df4, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algId, ::ArrayW<uint8_t, ::Array<uint8_t>*> encoding);
 
-  /// @brief Method GetInstance, addr 0xf87fe8, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xfb2e78, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* GetInstance(::System::Object* obj);
 
-  /// @brief Method get_EncryptionAlgorithm, addr 0xf88170, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EncryptionAlgorithm, addr 0xfb3000, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_EncryptionAlgorithm();
 
-  /// @brief Method GetEncryptedData, addr 0xf88178, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetEncryptedData, addr 0xfb3008, size 0x20, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncryptedData();
 
-  /// @brief Method ToAsn1Object, addr 0xf88198, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xfb3028, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "EncryptedPrivateKeyInfo", modifiers: "&&", def_value: None }]

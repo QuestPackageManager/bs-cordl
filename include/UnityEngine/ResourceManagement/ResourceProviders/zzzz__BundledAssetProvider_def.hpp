@@ -47,8 +47,8 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::__BundledAs
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14002))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13996))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14015))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14009))
 // CS Name: ::BundledAssetProvider::InternalOp*
 class CORDL_TYPE __BundledAssetProvider__InternalOp : public ::System::Object {
 public:
@@ -110,42 +110,42 @@ public:
   /// @brief Method LoadBundleFromDependecies, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T LoadBundleFromDependecies(::System::Collections::Generic::IList_1<::System::Object*>* results);
 
-  /// @brief Method Start, addr 0x2bd5f10, size 0x3c8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2bd3a7c, size 0x3c8, virtual false, abstract: false, final false
   inline void Start(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle);
 
-  /// @brief Method BeginAssetLoad, addr 0x2bd6394, size 0x368, virtual false, abstract: false, final false
+  /// @brief Method BeginAssetLoad, addr 0x2bd3f00, size 0x368, virtual false, abstract: false, final false
   inline void BeginAssetLoad();
 
-  /// @brief Method WaitForCompletionHandler, addr 0x2bd693c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method WaitForCompletionHandler, addr 0x2bd44a8, size 0xf8, virtual false, abstract: false, final false
   inline bool WaitForCompletionHandler();
 
-  /// @brief Method ActionComplete, addr 0x2bd67a8, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method ActionComplete, addr 0x2bd4314, size 0x194, virtual false, abstract: false, final false
   inline void ActionComplete(::UnityEngine::AsyncOperation* obj);
 
-  /// @brief Method GetArrayResult, addr 0x2bd6a34, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetArrayResult, addr 0x2bd45a0, size 0x30, virtual false, abstract: false, final false
   inline void GetArrayResult(::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> allAssets);
 
-  /// @brief Method GetListResult, addr 0x2bd6a64, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetListResult, addr 0x2bd45d0, size 0x30, virtual false, abstract: false, final false
   inline void GetListResult(::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> allAssets);
 
-  /// @brief Method GetAssetResult, addr 0x2bd6a94, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetAssetResult, addr 0x2bd4600, size 0xc0, virtual false, abstract: false, final false
   inline void GetAssetResult(::UnityEngine::Object* asset);
 
-  /// @brief Method GetAssetSubObjectResult, addr 0x2bd6b54, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetAssetSubObjectResult, addr 0x2bd46c0, size 0xcc, virtual false, abstract: false, final false
   inline void GetAssetSubObjectResult(::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> allAssets);
 
-  /// @brief Method CompleteOperation, addr 0x2bd6c20, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method CompleteOperation, addr 0x2bd478c, size 0xf0, virtual false, abstract: false, final false
   inline void CompleteOperation();
 
-  /// @brief Method ProgressCallback, addr 0x2bd6d10, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ProgressCallback, addr 0x2bd487c, size 0x18, virtual false, abstract: false, final false
   inline float_t ProgressCallback();
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::__BundledAssetProvider__InternalOp* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2bd5f08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bd3a74, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Start>b__7_0, addr 0x2bd6d28, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__7_0, addr 0x2bd4894, size 0x4, virtual false, abstract: false, final false
   inline void _Start_b__7_0(::UnityEngine::AsyncOperation* operation);
 
   // Ctor Parameters [CppParam { name: "", ty: "__BundledAssetProvider__InternalOp", modifiers: "&&", def_value: None }]
@@ -202,20 +202,20 @@ static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::__B
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14013))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13997))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14026))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14010))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::BundledAssetProvider*
 class CORDL_TYPE BundledAssetProvider : public ::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase {
 public:
   // Declarations
   using InternalOp = ::UnityEngine::ResourceManagement::ResourceProviders::__BundledAssetProvider__InternalOp;
 
-  /// @brief Method Provide, addr 0x2bd5e88, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Provide, addr 0x2bd39f4, size 0x80, virtual true, abstract: false, final false
   inline void Provide(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle);
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2bd62d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bd3e44, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BundledAssetProvider", modifiers: "&&", def_value: None }]

@@ -45,22 +45,22 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::IndefiniteLengthInputStream* New_ctor(::System::IO::Stream* inStream, int32_t limit);
 
-  /// @brief Method .ctor, addr 0x11b62e8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11e3178, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* inStream, int32_t limit);
 
-  /// @brief Method SetEofOn00, addr 0x11bac48, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SetEofOn00, addr 0x11e7ad8, size 0x14, virtual false, abstract: false, final false
   inline void SetEofOn00(bool eofOn00);
 
-  /// @brief Method CheckForEof, addr 0x11c61a4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method CheckForEof, addr 0x11f3034, size 0xa4, virtual false, abstract: false, final false
   inline bool CheckForEof();
 
-  /// @brief Method Read, addr 0x11c6248, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x11f30d8, size 0x104, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method ReadByte, addr 0x11c634c, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method ReadByte, addr 0x11f31dc, size 0x48, virtual true, abstract: false, final false
   inline int32_t ReadByte();
 
-  /// @brief Method RequireByte, addr 0x11c613c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method RequireByte, addr 0x11f2fcc, size 0x68, virtual false, abstract: false, final false
   inline int32_t RequireByte();
 
   // Ctor Parameters [CppParam { name: "", ty: "IndefiniteLengthInputStream", modifiers: "&&", def_value: None }]

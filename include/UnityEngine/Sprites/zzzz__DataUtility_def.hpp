@@ -24,21 +24,21 @@ MARK_REF_PTR_T(::UnityEngine::Sprites::DataUtility);
 namespace UnityEngine::Sprites {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10293))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9039))
 // CS Name: ::UnityEngine.Sprites::DataUtility*
 class CORDL_TYPE DataUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetInnerUV, addr 0x2ce64f4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetInnerUV, addr 0x2ced688, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector4 GetInnerUV(::UnityEngine::Sprite* sprite);
 
-  /// @brief Method GetOuterUV, addr 0x2ce6504, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetOuterUV, addr 0x2ced698, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector4 GetOuterUV(::UnityEngine::Sprite* sprite);
 
-  /// @brief Method GetPadding, addr 0x2ce6514, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetPadding, addr 0x2ced6a8, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector4 GetPadding(::UnityEngine::Sprite* sprite);
 
-  /// @brief Method GetMinSize, addr 0x2ce6524, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method GetMinSize, addr 0x2ced6b8, size 0x50, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 GetMinSize(::UnityEngine::Sprite* sprite);
 
   // Ctor Parameters [CppParam { name: "", ty: "DataUtility", modifiers: "&&", def_value: None }]

@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::PskTlsServer::*)(::Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager*)>(
     &::Org::BouncyCastle::Crypto::Tls::PskTlsServer::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0xf9329c;
+  constexpr static std::size_t addrs = 0xfbf12c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::PskTlsServer::*)(
     ::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory*, ::Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager*)>(&::Org::BouncyCastle::Crypto::Tls::PskTlsServer::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0xf93318;
+  constexpr static std::size_t addrs = 0xfbf1a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Tls::TlsEncryptionCredentials* (::Org::BouncyCastle::Crypto::Tls::PskTlsServer::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::PskTlsServer::GetRsaEncryptionCredentials)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0xf93340;
+  constexpr static std::size_t addrs = 0xfbf1d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Parameters::DHParameters* (::Org::BouncyCastle::Crypto::Tls::PskTlsServer::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::PskTlsServer::GetDHParameters)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0xf93384;
+  constexpr static std::size_t addrs = 0xfbf214;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int32_t, ::Array<int32_t>*> (::Org::BouncyCastle::Crypto::Tls::PskTlsServer::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::PskTlsServer::GetCipherSuites)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0xf933dc;
+  constexpr static std::size_t addrs = 0xfbf26c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Tls::TlsCredentials* (::Org::BouncyCastle::Crypto::Tls::PskTlsServer::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::PskTlsServer::GetCredentials)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0xf9344c;
+  constexpr static std::size_t addrs = 0xfbf2dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange* (::Org::BouncyCastle::Crypto::Tls::PskTlsServer::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::PskTlsServer::GetKeyExchange)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0xf93528;
+  constexpr static std::size_t addrs = 0xfbf3b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange* (::Org::BouncyCastle::Crypto::Tls::PskTlsServer::*)(int32_t)>(
     &::Org::BouncyCastle::Crypto::Tls::PskTlsServer::CreatePskKeyExchange)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0xf935f0;
+  constexpr static std::size_t addrs = 0xfbf480;
 
   inline static ::MethodInfo const* methodInfo() {
 

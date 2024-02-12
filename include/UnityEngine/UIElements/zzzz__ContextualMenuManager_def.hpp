@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::ContextualMenuManager);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6776))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6035))
 // CS Name: ::UnityEngine.UIElements::ContextualMenuManager*
 class CORDL_TYPE ContextualMenuManager : public ::System::Object {
 public:

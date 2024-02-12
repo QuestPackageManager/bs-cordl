@@ -24,7 +24,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerModeSelectionViewController>, ::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton>*)>(
     &::GlobalNamespace::MultiplayerModeSelectionViewController::add_didFinishEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22cf3b4;
+  constexpr static std::size_t addrs = 0x22fec14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerModeSelectionViewController>, ::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton>*)>(
     &::GlobalNamespace::MultiplayerModeSelectionViewController::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22cf464;
+  constexpr static std::size_t addrs = 0x22fecc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::MultiplayerModeSelectionViewController::DidActivate)> {
   constexpr static std::size_t size = 0x2dc;
-  constexpr static std::size_t addrs = 0x22cf514;
+  constexpr static std::size_t addrs = 0x22fed74;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -72,8 +72,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionViewController::*)(::GlobalNamespace::MultiplayerStatusData*)>(
     &::GlobalNamespace::MultiplayerModeSelectionViewController::SetData)> {
-  constexpr static std::size_t size = 0x26c;
-  constexpr static std::size_t addrs = 0x22cf7f0;
+  constexpr static std::size_t size = 0x28c;
+  constexpr static std::size_t addrs = 0x22ff050;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionViewController::*)(
     ::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton)>(&::GlobalNamespace::MultiplayerModeSelectionViewController::HandleMenuButton)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x22cfa5c;
+  constexpr static std::size_t addrs = 0x22ff2dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionViewController::*)()>(
     &::GlobalNamespace::MultiplayerModeSelectionViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22cfa84;
+  constexpr static std::size_t addrs = 0x22ff304;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionViewController::*)()>(
     &::GlobalNamespace::MultiplayerModeSelectionViewController::_DidActivate_b__11_0)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x22cfa8c;
+  constexpr static std::size_t addrs = 0x22ff30c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionViewController::*)()>(
     &::GlobalNamespace::MultiplayerModeSelectionViewController::_DidActivate_b__11_1)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x22cfab0;
+  constexpr static std::size_t addrs = 0x22ff330;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionViewController::*)()>(
     &::GlobalNamespace::MultiplayerModeSelectionViewController::_DidActivate_b__11_2)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x22cfad4;
+  constexpr static std::size_t addrs = 0x22ff354;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -163,7 +163,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionViewController::*)()>(
     &::GlobalNamespace::MultiplayerModeSelectionViewController::_DidActivate_b__11_3)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x22cfaf8;
+  constexpr static std::size_t addrs = 0x22ff378;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

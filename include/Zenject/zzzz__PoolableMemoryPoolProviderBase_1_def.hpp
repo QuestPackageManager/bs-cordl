@@ -49,7 +49,7 @@ namespace Zenject {
 template <typename TContract>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11219))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10361))
 // CS Name: ::Zenject::PoolableMemoryPoolProviderBase`1<TContract>*
 class CORDL_TYPE PoolableMemoryPoolProviderBase_1 : public ::System::Object {
 public:

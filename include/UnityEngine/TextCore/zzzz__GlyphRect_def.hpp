@@ -22,7 +22,7 @@ MARK_VAL_T(::UnityEngine::TextCore::GlyphRect);
 namespace UnityEngine::TextCore {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15528))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15714))
 // CS Name: ::UnityEngine.TextCore::GlyphRect
 struct CORDL_TYPE GlyphRect {
 public:
@@ -48,31 +48,31 @@ public:
 
   static inline ::UnityEngine::TextCore::GlyphRect getStaticF_s_ZeroGlyphRect();
 
-  /// @brief Method get_x, addr 0x2d205b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_x, addr 0x2d41060, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_x();
 
-  /// @brief Method get_y, addr 0x2d205c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_y, addr 0x2d41068, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_y();
 
-  /// @brief Method get_width, addr 0x2d205c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_width, addr 0x2d41070, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_width();
 
-  /// @brief Method get_height, addr 0x2d205d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_height, addr 0x2d41078, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_height();
 
-  /// @brief Method get_zero, addr 0x2d205d8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_zero, addr 0x2d41080, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::TextCore::GlyphRect get_zero();
 
-  /// @brief Method .ctor, addr 0x2d20630, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d410d8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t x, int32_t y, int32_t width, int32_t height);
 
-  /// @brief Method GetHashCode, addr 0x2d2063c, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2d410e4, size 0x64, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Equals, addr 0x2d206a0, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2d41148, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x2d20718, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2d411c0, size 0x94, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::TextCore::GlyphRect other);
 
   // Ctor Parameters [CppParam { name: "m_X", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Y", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Width", ty:

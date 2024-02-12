@@ -16,7 +16,7 @@ MARK_VAL_T(::JetBrains::Annotations::AssertionConditionType);
 namespace JetBrains::Annotations {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15787))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15937))
 // CS Name: ::JetBrains.Annotations::AssertionConditionType
 struct CORDL_TYPE AssertionConditionType {
 public:

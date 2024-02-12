@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::Unity::Collections::LowLevel::Unsafe::NativeContainerSupportsDe
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10019))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8750))
 // CS Name: ::Unity.Collections.LowLevel.Unsafe::NativeContainerSupportsDeferredConvertListToArray*
 class CORDL_TYPE NativeContainerSupportsDeferredConvertListToArray : public ::System::Attribute {
 public:
   // Declarations
   static inline ::Unity::Collections::LowLevel::Unsafe::NativeContainerSupportsDeferredConvertListToArray* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c9e610, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c9f0b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NativeContainerSupportsDeferredConvertListToArray", modifiers: "&&", def_value: None }]

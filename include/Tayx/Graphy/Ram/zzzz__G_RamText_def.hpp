@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::Tayx::Graphy::Ram::G_RamText);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Tayx::Graphy::Ram {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15079))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14952))
 // CS Name: ::Tayx.Graphy.Ram::G_RamText*
 class CORDL_TYPE G_RamText : public ::UnityEngine::MonoBehaviour {
 public:
@@ -95,21 +95,21 @@ public:
 
   constexpr void __cordl_internal_set_m_deltaTime(float_t value);
 
-  /// @brief Method Awake, addr 0x2a082d0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2a0cd74, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Update, addr 0x2a082d4, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2a0cd78, size 0x160, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateParameters, addr 0x2a07fd0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method UpdateParameters, addr 0x2a0ca74, size 0xa0, virtual false, abstract: false, final false
   inline void UpdateParameters();
 
-  /// @brief Method Init, addr 0x2a08070, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2a0cb14, size 0x10c, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::Tayx::Graphy::Ram::G_RamText* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2a08434, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a0ced8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "G_RamText", modifiers: "&&", def_value: None }]

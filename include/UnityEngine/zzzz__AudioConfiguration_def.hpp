@@ -19,8 +19,8 @@ MARK_VAL_T(::UnityEngine::AudioConfiguration);
 // SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15585))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15587))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15291))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15293))
 // CS Name: ::UnityEngine::AudioConfiguration
 struct CORDL_TYPE AudioConfiguration {
 public:

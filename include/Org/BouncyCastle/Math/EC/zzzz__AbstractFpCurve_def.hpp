@@ -35,25 +35,25 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Math::EC::AbstractFpCurve* New_ctor(::Org::BouncyCastle::Math::BigInteger* q);
 
-  /// @brief Method .ctor, addr 0xfcbca0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xff8b30, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* q);
 
-  /// @brief Method IsValidFieldElement, addr 0xfcbd24, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method IsValidFieldElement, addr 0xff8bb4, size 0xe4, virtual true, abstract: false, final false
   inline bool IsValidFieldElement(::Org::BouncyCastle::Math::BigInteger* x);
 
-  /// @brief Method RandomFieldElement, addr 0xfcbe08, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method RandomFieldElement, addr 0xff8c98, size 0x120, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* RandomFieldElement(::Org::BouncyCastle::Security::SecureRandom* r);
 
-  /// @brief Method RandomFieldElementMult, addr 0xfcbf80, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method RandomFieldElementMult, addr 0xff8e10, size 0x120, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* RandomFieldElementMult(::Org::BouncyCastle::Security::SecureRandom* r);
 
-  /// @brief Method DecompressPoint, addr 0xfcc128, size 0x180, virtual true, abstract: false, final false
+  /// @brief Method DecompressPoint, addr 0xff8fb8, size 0x180, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* DecompressPoint(int32_t yTilde, ::Org::BouncyCastle::Math::BigInteger* X1);
 
-  /// @brief Method ImplRandomFieldElement, addr 0xfcbf28, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ImplRandomFieldElement, addr 0xff8db8, size 0x58, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* ImplRandomFieldElement(::Org::BouncyCastle::Security::SecureRandom* r, ::Org::BouncyCastle::Math::BigInteger* p);
 
-  /// @brief Method ImplRandomFieldElementMult, addr 0xfcc0a0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method ImplRandomFieldElementMult, addr 0xff8f30, size 0x88, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* ImplRandomFieldElementMult(::Org::BouncyCastle::Security::SecureRandom* r, ::Org::BouncyCastle::Math::BigInteger* p);
 
   // Ctor Parameters [CppParam { name: "", ty: "AbstractFpCurve", modifiers: "&&", def_value: None }]

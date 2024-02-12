@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::AtlasPopulationMode);
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13680))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13633))
 // CS Name: ::UnityEngine.TextCore.Text::AtlasPopulationMode
 struct CORDL_TYPE AtlasPopulationMode {
 public:

@@ -151,22 +151,22 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Generators::KdfDoublePipelineIterationBytesGenerator* New_ctor(::Org::BouncyCastle::Crypto::IMac* prf);
 
-  /// @brief Method .ctor, addr 0xefdd28, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf28bb8, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IMac* prf);
 
-  /// @brief Method Init, addr 0xefde18, size 0x2bc, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0xf28ca8, size 0x2bc, virtual true, abstract: false, final true
   inline void Init(::Org::BouncyCastle::Crypto::IDerivationParameters* parameters);
 
-  /// @brief Method generateNext, addr 0xefe0d4, size 0x4ec, virtual false, abstract: false, final false
+  /// @brief Method generateNext, addr 0xf28f64, size 0x4ec, virtual false, abstract: false, final false
   inline void generateNext();
 
-  /// @brief Method get_Digest, addr 0xefe5c0, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method get_Digest, addr 0xf29450, size 0x88, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::IDigest* get_Digest();
 
-  /// @brief Method GenerateBytes, addr 0xefe648, size 0x208, virtual true, abstract: false, final true
+  /// @brief Method GenerateBytes, addr 0xf294d8, size 0x208, virtual true, abstract: false, final true
   inline int32_t GenerateBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff, int32_t length);
 
-  /// @brief Method GetMac, addr 0xefe850, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetMac, addr 0xf296e0, size 0x8, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::IMac* GetMac();
 
   // Ctor Parameters [CppParam { name: "", ty: "KdfDoublePipelineIterationBytesGenerator", modifiers: "&&", def_value: None }]

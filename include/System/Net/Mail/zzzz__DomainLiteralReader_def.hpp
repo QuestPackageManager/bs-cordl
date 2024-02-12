@@ -17,12 +17,12 @@ MARK_REF_PTR_T(::System::Net::Mail::DomainLiteralReader);
 namespace System::Net::Mail {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9376))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7386))
 // CS Name: ::System.Net.Mail::DomainLiteralReader*
 class CORDL_TYPE DomainLiteralReader : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ReadReverse, addr 0x2901778, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method ReadReverse, addr 0x2905de0, size 0x228, virtual false, abstract: false, final false
   static inline int32_t ReadReverse(::StringW data, int32_t index);
 
   // Ctor Parameters [CppParam { name: "", ty: "DomainLiteralReader", modifiers: "&&", def_value: None }]

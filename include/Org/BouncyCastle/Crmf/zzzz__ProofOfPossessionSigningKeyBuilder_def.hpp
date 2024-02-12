@@ -80,21 +80,21 @@ public:
 
   static inline ::Org::BouncyCastle::Crmf::ProofOfPossessionSigningKeyBuilder* New_ctor(::Org::BouncyCastle::Asn1::Crmf::CertRequest* certRequest);
 
-  /// @brief Method .ctor, addr 0x1210674, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x123d504, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Crmf::CertRequest* certRequest);
 
   static inline ::Org::BouncyCastle::Crmf::ProofOfPossessionSigningKeyBuilder* New_ctor(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* pubKeyInfo);
 
-  /// @brief Method .ctor, addr 0x120fbac, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x123ca3c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* pubKeyInfo);
 
-  /// @brief Method SetSender, addr 0x120fbd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetSender, addr 0x123ca64, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crmf::ProofOfPossessionSigningKeyBuilder* SetSender(::Org::BouncyCastle::Asn1::X509::GeneralName* name);
 
-  /// @brief Method SetPublicKeyMac, addr 0x120fbdc, size 0x4ac, virtual false, abstract: false, final false
+  /// @brief Method SetPublicKeyMac, addr 0x123ca6c, size 0x4ac, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crmf::ProofOfPossessionSigningKeyBuilder* SetPublicKeyMac(::Org::BouncyCastle::Crmf::PKMacBuilder* generator, ::ArrayW<char16_t, ::Array<char16_t>*> password);
 
-  /// @brief Method Build, addr 0x1210088, size 0x5ec, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x123cf18, size 0x5ec, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::PopoSigningKey* Build(::Org::BouncyCastle::Crypto::ISignatureFactory* signer);
 
   // Ctor Parameters [CppParam { name: "", ty: "ProofOfPossessionSigningKeyBuilder", modifiers: "&&", def_value: None }]

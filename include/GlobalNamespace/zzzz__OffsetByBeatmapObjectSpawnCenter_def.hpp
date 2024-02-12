@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::GlobalNamespace::OffsetByBeatmapObjectSpawnCenter);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4694))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4045))
 // CS Name: ::OffsetByBeatmapObjectSpawnCenter*
 class CORDL_TYPE OffsetByBeatmapObjectSpawnCenter : public ::UnityEngine::MonoBehaviour {
 public:
@@ -33,15 +33,15 @@ public:
 
   constexpr void __cordl_internal_set__spawnCenter(::UnityW<::GlobalNamespace::BeatmapObjectSpawnCenter> value);
 
-  /// @brief Method Start, addr 0x2376610, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x22bca94, size 0xa8, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method HandleSpawnCenterDistanceWasFound, addr 0x23766b4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method HandleSpawnCenterDistanceWasFound, addr 0x22bcb3c, size 0x68, virtual false, abstract: false, final false
   inline void HandleSpawnCenterDistanceWasFound(float_t distance);
 
   static inline ::GlobalNamespace::OffsetByBeatmapObjectSpawnCenter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23767cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22bcba4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OffsetByBeatmapObjectSpawnCenter", modifiers: "&&", def_value: None }]

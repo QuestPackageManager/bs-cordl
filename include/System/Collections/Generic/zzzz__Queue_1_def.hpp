@@ -55,7 +55,7 @@ namespace System::Collections::Generic {
 template <typename T>
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3852))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3851))
 // CS Name: ::Queue`1::Enumerator<T>
 struct CORDL_TYPE __Queue_1__Enumerator {
 public:
@@ -137,7 +137,7 @@ namespace System::Collections::Generic {
 template <typename T>
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3853))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3852))
 // CS Name: ::System.Collections.Generic::Queue`1<T>*
 class CORDL_TYPE Queue_1 : public ::System::Object {
 public:
@@ -267,6 +267,9 @@ public:
 
   /// @brief Method Dequeue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T Dequeue();
+
+  /// @brief Method TryDequeue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline bool TryDequeue(ByRef<T> result);
 
   /// @brief Method Peek, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T Peek();

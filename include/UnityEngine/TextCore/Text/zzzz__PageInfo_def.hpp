@@ -17,7 +17,7 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::PageInfo);
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13711))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13664))
 // CS Name: ::UnityEngine.TextCore.Text::PageInfo
 struct CORDL_TYPE PageInfo {
 public:

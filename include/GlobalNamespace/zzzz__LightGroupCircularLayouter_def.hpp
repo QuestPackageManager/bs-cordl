@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::GlobalNamespace::LightGroupCircularLayouter);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4928))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4282))
 // CS Name: ::LightGroupCircularLayouter::RotationDirection
 struct CORDL_TYPE __LightGroupCircularLayouter__RotationDirection {
 public:
@@ -76,8 +76,8 @@ static_assert(offsetof(::GlobalNamespace::__LightGroupCircularLayouter__Rotation
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4928)), TypeDefinitionIndex(TypeDefinitionIndex(4935)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4929))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4282)), TypeDefinitionIndex(TypeDefinitionIndex(4289)), TypeDefinitionIndex(TypeDefinitionIndex(8993))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4283))
 // CS Name: ::LightGroupCircularLayouter*
 class CORDL_TYPE LightGroupCircularLayouter : public ::GlobalNamespace::LightGroupSubsystem {
 public:
@@ -141,7 +141,7 @@ public:
 
   static inline ::GlobalNamespace::LightGroupCircularLayouter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23a9830, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2369964, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LightGroupCircularLayouter", modifiers: "&&", def_value: None }]

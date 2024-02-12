@@ -17,24 +17,24 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::PointerCancelEvent);
 // SizeInfo { instance_size: 240, native_size: -1, calculated_instance_size: 240, calculated_native_size: 234, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7198)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7198), inst: 4834 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7203))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6457)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6457), inst: 4807 })]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6462))
 // CS Name: ::UnityEngine.UIElements::PointerCancelEvent*
 class CORDL_TYPE PointerCancelEvent : public ::UnityEngine::UIElements::PointerEventBase_1<::UnityEngine::UIElements::PointerCancelEvent*> {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x2e50104, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x2e6b4ec, size 0x50, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x2e50154, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x2e6b53c, size 0x104, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::PointerCancelEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e50258, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e6b640, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method PostDispatch, addr 0x2e502a8, size 0x330, virtual true, abstract: false, final false
+  /// @brief Method PostDispatch, addr 0x2e6b690, size 0x330, virtual true, abstract: false, final false
   inline void PostDispatch(::UnityEngine::UIElements::IPanel* panel);
 
   // Ctor Parameters [CppParam { name: "", ty: "PointerCancelEvent", modifiers: "&&", def_value: None }]

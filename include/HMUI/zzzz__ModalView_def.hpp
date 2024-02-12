@@ -56,7 +56,7 @@ MARK_REF_PTR_T(::HMUI::__ModalView____c__DisplayClass21_0);
 namespace HMUI {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13634))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13587))
 // CS Name: ::ModalView::<>c__DisplayClass17_0*
 class CORDL_TYPE __ModalView____c__DisplayClass17_0 : public ::System::Object {
 public:
@@ -81,10 +81,10 @@ public:
 
   static inline ::HMUI::__ModalView____c__DisplayClass17_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2142054, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21d6938, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Hide>b__0, addr 0x2142aa4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method <Hide>b__0, addr 0x21d7388, size 0x7c, virtual false, abstract: false, final false
   inline void _Hide_b__0();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ModalView____c__DisplayClass17_0", modifiers: "&&", def_value: None }]
@@ -122,7 +122,7 @@ static_assert(offsetof(::HMUI::__ModalView____c__DisplayClass17_0, ___finishedCa
 namespace HMUI {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13635))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13588))
 // CS Name: ::ModalView::<>c__DisplayClass21_0*
 class CORDL_TYPE __ModalView____c__DisplayClass21_0 : public ::System::Object {
 public:
@@ -147,10 +147,10 @@ public:
 
   static inline ::HMUI::__ModalView____c__DisplayClass21_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2142a8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21d7370, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <HandleParentViewControllerDidDeactivate>b__0, addr 0x2142b20, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <HandleParentViewControllerDidDeactivate>b__0, addr 0x21d7404, size 0x20, virtual false, abstract: false, final false
   inline void _HandleParentViewControllerDidDeactivate_b__0();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ModalView____c__DisplayClass21_0", modifiers: "&&", def_value: None }]
@@ -187,8 +187,8 @@ static_assert(offsetof(::HMUI::__ModalView____c__DisplayClass21_0, ___prevAnimat
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 108, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13636))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13589))
 // CS Name: ::HMUI::ModalView*
 class CORDL_TYPE ModalView : public ::UnityEngine::MonoBehaviour {
 public:
@@ -305,42 +305,42 @@ public:
 
   constexpr void __cordl_internal_set__test(int32_t value);
 
-  /// @brief Method add_blockerClickedEvent, addr 0x21419f0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_blockerClickedEvent, addr 0x21d62d4, size 0x9c, virtual false, abstract: false, final false
   inline void add_blockerClickedEvent(::System::Action* value);
 
-  /// @brief Method remove_blockerClickedEvent, addr 0x2141a8c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_blockerClickedEvent, addr 0x21d6370, size 0x9c, virtual false, abstract: false, final false
   inline void remove_blockerClickedEvent(::System::Action* value);
 
-  /// @brief Method OnDisable, addr 0x2141b28, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x21d640c, size 0xc, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnDestroy, addr 0x2141d48, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x21d662c, size 0x8c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetupView, addr 0x2141dd4, size 0x280, virtual false, abstract: false, final false
+  /// @brief Method SetupView, addr 0x21d66b8, size 0x280, virtual false, abstract: false, final false
   inline void SetupView(::UnityEngine::Transform* screenTransform);
 
-  /// @brief Method Hide, addr 0x2141b34, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method Hide, addr 0x21d6418, size 0x214, virtual false, abstract: false, final false
   inline void Hide(bool animated, ::System::Action* finishedCallback);
 
-  /// @brief Method Show, addr 0x214205c, size 0x3e4, virtual false, abstract: false, final false
+  /// @brief Method Show, addr 0x21d6940, size 0x3e4, virtual false, abstract: false, final false
   inline void Show(bool animated, bool moveToCenter, ::System::Action* finishedCallback);
 
-  /// @brief Method CreateBlocker, addr 0x2142540, size 0x45c, virtual false, abstract: false, final false
+  /// @brief Method CreateBlocker, addr 0x21d6e24, size 0x45c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> CreateBlocker();
 
-  /// @brief Method HandleBlockerButtonClicked, addr 0x214299c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleBlockerButtonClicked, addr 0x21d7280, size 0x1c, virtual false, abstract: false, final false
   inline void HandleBlockerButtonClicked();
 
-  /// @brief Method HandleParentViewControllerDidDeactivate, addr 0x21429b8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method HandleParentViewControllerDidDeactivate, addr 0x21d729c, size 0xd4, virtual false, abstract: false, final false
   inline void HandleParentViewControllerDidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method GetModalRootTransform, addr 0x2142440, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetModalRootTransform, addr 0x21d6d24, size 0x100, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Transform> GetModalRootTransform(::UnityEngine::Transform* transform, ByRef<::UnityEngine::Canvas*> canvas, ByRef<::HMUI::ViewController*> viewController);
 
   static inline ::HMUI::ModalView* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2142a94, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x21d7378, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ModalView", modifiers: "&&", def_value: None }]

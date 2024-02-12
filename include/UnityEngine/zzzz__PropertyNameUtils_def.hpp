@@ -20,15 +20,15 @@ MARK_REF_PTR_T(::UnityEngine::PropertyNameUtils);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10160))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8904))
 // CS Name: ::UnityEngine::PropertyNameUtils*
 class CORDL_TYPE PropertyNameUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method PropertyNameFromString, addr 0x2cc86c4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method PropertyNameFromString, addr 0x2ccf9f8, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::PropertyName PropertyNameFromString(::StringW name);
 
-  /// @brief Method PropertyNameFromString_Injected, addr 0x2cc8890, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method PropertyNameFromString_Injected, addr 0x2ccfbc4, size 0x44, virtual false, abstract: false, final false
   static inline void PropertyNameFromString_Injected(::StringW name, ByRef<::UnityEngine::PropertyName> ret);
 
   // Ctor Parameters [CppParam { name: "", ty: "PropertyNameUtils", modifiers: "&&", def_value: None }]

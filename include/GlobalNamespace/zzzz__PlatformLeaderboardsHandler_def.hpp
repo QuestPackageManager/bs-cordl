@@ -3,14 +3,15 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlatformLeaderboardsHandler)
 namespace GlobalNamespace {
-class HMAsyncRequest;
+struct BeatmapKey;
 }
 namespace GlobalNamespace {
-class IDifficultyBeatmap;
+class HMAsyncRequest;
 }
 namespace GlobalNamespace {
 class __LeaderboardScoreUploader__ScoreData;
@@ -35,13 +36,13 @@ MARK_REF_PTR_T(::GlobalNamespace::PlatformLeaderboardsHandler);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4225))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10687))
 // CS Name: ::PlatformLeaderboardsHandler*
 class CORDL_TYPE PlatformLeaderboardsHandler : public ::System::Object {
 public:
   // Declarations
   /// @brief Method GetScores, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::GlobalNamespace::HMAsyncRequest* GetScores(::GlobalNamespace::IDifficultyBeatmap* beatmap, int32_t count, int32_t fromRank,
+  inline ::GlobalNamespace::HMAsyncRequest* GetScores(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, int32_t count, int32_t fromRank,
                                                       ::GlobalNamespace::__PlatformLeaderboardsModel__ScoresScope scope, ::StringW referencePlayerId,
                                                       ::GlobalNamespace::__PlatformLeaderboardsModel__GetScoresCompletionHandler* completionHandler);
 
@@ -51,7 +52,7 @@ public:
 
   static inline ::GlobalNamespace::PlatformLeaderboardsHandler* New_ctor();
 
-  /// @brief Method .ctor, addr 0x232a4f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x126fe1c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PlatformLeaderboardsHandler", modifiers: "&&", def_value: None }]

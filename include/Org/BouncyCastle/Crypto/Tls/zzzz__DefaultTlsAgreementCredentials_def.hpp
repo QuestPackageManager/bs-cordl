@@ -72,13 +72,13 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Tls::DefaultTlsAgreementCredentials* New_ctor(::Org::BouncyCastle::Crypto::Tls::Certificate* certificate,
                                                                                            ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey);
 
-  /// @brief Method .ctor, addr 0xf62d1c, size 0x2d4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf8cbac, size 0x2d4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::Certificate* certificate, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey);
 
-  /// @brief Method get_Certificate, addr 0xf62ff0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Certificate, addr 0xf8ce80, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::Certificate* get_Certificate();
 
-  /// @brief Method GenerateAgreement, addr 0xf62ff8, size 0x1b0, virtual true, abstract: false, final false
+  /// @brief Method GenerateAgreement, addr 0xf8ce88, size 0x1b0, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateAgreement(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* peerPublicKey);
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultTlsAgreementCredentials", modifiers: "&&", def_value: None }]

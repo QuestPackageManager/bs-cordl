@@ -21,15 +21,15 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::TrackAssetExtensions);
 namespace UnityEngine::Timeline {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13897))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13850))
 // CS Name: ::UnityEngine.Timeline::TrackAssetExtensions*
 class CORDL_TYPE TrackAssetExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetGroup, addr 0x2c69e74, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method GetGroup, addr 0x2c679e0, size 0xc4, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Timeline::GroupTrack> GetGroup(::UnityEngine::Timeline::TrackAsset* asset);
 
-  /// @brief Method SetGroup, addr 0x2c69f38, size 0x330, virtual false, abstract: false, final false
+  /// @brief Method SetGroup, addr 0x2c67aa4, size 0x330, virtual false, abstract: false, final false
   static inline void SetGroup(::UnityEngine::Timeline::TrackAsset* asset, ::UnityEngine::Timeline::GroupTrack* group);
 
   // Ctor Parameters [CppParam { name: "", ty: "TrackAssetExtensions", modifiers: "&&", def_value: None }]

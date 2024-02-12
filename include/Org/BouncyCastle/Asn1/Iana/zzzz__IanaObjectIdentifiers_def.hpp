@@ -60,7 +60,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Iana::IanaObjectIdentifiers* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe9eecc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xec8d5c, size 0x1008, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "IanaObjectIdentifiers", modifiers: "&&", def_value: None }]

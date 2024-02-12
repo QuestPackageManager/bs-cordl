@@ -41,7 +41,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__BTSCharacterMaterialSwitcher__RendererMateri
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3966))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15007))
 // CS Name: ::BTSCharacterMaterialSwitcher::RendererMaterialsPairs*
 class CORDL_TYPE __BTSCharacterMaterialSwitcher__RendererMaterialsPairs : public ::System::Object {
 public:
@@ -70,15 +70,15 @@ public:
 
   constexpr void __cordl_internal_set__materialPairs(::System::Collections::Generic::List_1<::GlobalNamespace::__BTSCharacterMaterialSwitcher__MaterialPairs*>* value);
 
-  /// @brief Method get_renderer, addr 0x2219afc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_renderer, addr 0xe2b550, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Renderer> get_renderer();
 
-  /// @brief Method get_materialPairs, addr 0x2219b04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_materialPairs, addr 0xe2b558, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::__BTSCharacterMaterialSwitcher__MaterialPairs*>* get_materialPairs();
 
   static inline ::GlobalNamespace::__BTSCharacterMaterialSwitcher__RendererMaterialsPairs* New_ctor(::UnityEngine::Renderer* renderer);
 
-  /// @brief Method .ctor, addr 0x2219b0c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe2b560, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Renderer* renderer);
 
   // Ctor Parameters [CppParam { name: "", ty: "__BTSCharacterMaterialSwitcher__RendererMaterialsPairs", modifiers: "&&", def_value: None }]
@@ -116,7 +116,7 @@ static_assert(offsetof(::GlobalNamespace::__BTSCharacterMaterialSwitcher__Render
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3967))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15008))
 // CS Name: ::BTSCharacterMaterialSwitcher::MaterialPairs*
 class CORDL_TYPE __BTSCharacterMaterialSwitcher__MaterialPairs : public ::System::Object {
 public:
@@ -150,7 +150,7 @@ public:
 
   static inline ::GlobalNamespace::__BTSCharacterMaterialSwitcher__MaterialPairs* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2219b9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe2b5f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__BTSCharacterMaterialSwitcher__MaterialPairs", modifiers: "&&", def_value: None }]
@@ -192,8 +192,8 @@ static_assert(offsetof(::GlobalNamespace::__BTSCharacterMaterialSwitcher__Materi
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3968))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15009))
 // CS Name: ::BTSCharacterMaterialSwitcher*
 class CORDL_TYPE BTSCharacterMaterialSwitcher : public ::UnityEngine::MonoBehaviour {
 public:
@@ -216,12 +216,12 @@ public:
   constexpr void __cordl_internal_set__rendererMaterialsPairs(
       ::ArrayW<::GlobalNamespace::__BTSCharacterMaterialSwitcher__RendererMaterialsPairs*, ::Array<::GlobalNamespace::__BTSCharacterMaterialSwitcher__RendererMaterialsPairs*>*> value);
 
-  /// @brief Method SwapMaterials, addr 0x2219850, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method SwapMaterials, addr 0xe2b2a4, size 0x254, virtual false, abstract: false, final false
   inline void SwapMaterials(bool alternative);
 
   static inline ::GlobalNamespace::BTSCharacterMaterialSwitcher* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2219af4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe2b548, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BTSCharacterMaterialSwitcher", modifiers: "&&", def_value: None }]

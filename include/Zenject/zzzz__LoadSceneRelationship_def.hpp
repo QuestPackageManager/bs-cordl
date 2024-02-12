@@ -16,7 +16,7 @@ MARK_VAL_T(::Zenject::LoadSceneRelationship);
 namespace Zenject {
 // Is value type: true
 // Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11362))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10504))
 // CS Name: ::Zenject::LoadSceneRelationship
 struct CORDL_TYPE LoadSceneRelationship {
 public:

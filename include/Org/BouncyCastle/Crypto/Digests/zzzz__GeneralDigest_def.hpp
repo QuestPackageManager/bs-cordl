@@ -72,30 +72,30 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Digests::GeneralDigest* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1221530, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x124e3c0, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Digests::GeneralDigest* New_ctor(::Org::BouncyCastle::Crypto::Digests::GeneralDigest* t);
 
-  /// @brief Method .ctor, addr 0x122158c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x124e41c, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Digests::GeneralDigest* t);
 
-  /// @brief Method CopyIn, addr 0x1221604, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CopyIn, addr 0x124e494, size 0x54, virtual false, abstract: false, final false
   inline void CopyIn(::Org::BouncyCastle::Crypto::Digests::GeneralDigest* t);
 
-  /// @brief Method Update, addr 0x1221658, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method Update, addr 0x124e4e8, size 0x80, virtual true, abstract: false, final true
   inline void Update(uint8_t input);
 
-  /// @brief Method BlockUpdate, addr 0x12216d8, size 0x1c0, virtual true, abstract: false, final true
+  /// @brief Method BlockUpdate, addr 0x124e568, size 0x1c0, virtual true, abstract: false, final true
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
-  /// @brief Method Finish, addr 0x1221898, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Finish, addr 0x124e728, size 0x64, virtual false, abstract: false, final false
   inline void Finish();
 
-  /// @brief Method Reset, addr 0x12218fc, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x124e78c, size 0x30, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method GetByteLength, addr 0x122192c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetByteLength, addr 0x124e7bc, size 0x8, virtual true, abstract: false, final true
   inline int32_t GetByteLength();
 
   /// @brief Method ProcessWord, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

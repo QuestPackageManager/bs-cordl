@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::System::Reflection::Emit::ILGenerator);
 namespace System::Reflection::Emit {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3541))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3537))
 // CS Name: ::System.Reflection.Emit::ILGenerator*
 class CORDL_TYPE ILGenerator : public ::System::Object {
 public:

@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::System::Net::Http::HttpMessageHandler);
 namespace System::Net::Http {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14650))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14655))
 // CS Name: ::System.Net.Http::HttpMessageHandler*
 class CORDL_TYPE HttpMessageHandler : public ::System::Object {
 public:
@@ -41,10 +41,10 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method Dispose, addr 0x2833428, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2837b9c, size 0x10, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x282cbfc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x28313e4, size 0x4, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   /// @brief Method SendAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -53,7 +53,7 @@ public:
 
   static inline ::System::Net::Http::HttpMessageHandler* New_ctor();
 
-  /// @brief Method .ctor, addr 0x282c8c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28310a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HttpMessageHandler", modifiers: "&&", def_value: None }]

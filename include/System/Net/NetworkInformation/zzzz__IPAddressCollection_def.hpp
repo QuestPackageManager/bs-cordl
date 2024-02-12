@@ -38,7 +38,7 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::IPAddressCollection);
 namespace System::Net::NetworkInformation {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9247))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7257))
 // CS Name: ::System.Net.NetworkInformation::IPAddressCollection*
 class CORDL_TYPE IPAddressCollection : public ::System::Object {
 public:
@@ -76,37 +76,37 @@ public:
 
   static inline ::System::Net::NetworkInformation::IPAddressCollection* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29eb338, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29efddc, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CopyTo, addr 0x29eb3b4, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x29efe58, size 0x68, virtual true, abstract: false, final false
   inline void CopyTo(::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*> array, int32_t offset);
 
-  /// @brief Method get_Count, addr 0x29eb41c, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method get_Count, addr 0x29efec0, size 0x50, virtual true, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_IsReadOnly, addr 0x29eb46c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x29eff10, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method Add, addr 0x29eb474, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x29eff18, size 0x60, virtual true, abstract: false, final false
   inline void Add(::System::Net::IPAddress* address);
 
-  /// @brief Method InternalAdd, addr 0x29eb4d4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method InternalAdd, addr 0x29eff78, size 0x58, virtual false, abstract: false, final false
   inline void InternalAdd(::System::Net::IPAddress* address);
 
-  /// @brief Method Contains, addr 0x29eb52c, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Contains, addr 0x29effd0, size 0x58, virtual true, abstract: false, final false
   inline bool Contains(::System::Net::IPAddress* address);
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x29eb584, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x29f0028, size 0x10, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method GetEnumerator, addr 0x29eb594, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x29f0038, size 0x50, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerator_1<::System::Net::IPAddress*>* GetEnumerator();
 
-  /// @brief Method Remove, addr 0x29eb5e4, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method Remove, addr 0x29f0088, size 0x60, virtual true, abstract: false, final false
   inline bool Remove(::System::Net::IPAddress* address);
 
-  /// @brief Method Clear, addr 0x29eb644, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method Clear, addr 0x29f00e8, size 0x60, virtual true, abstract: false, final false
   inline void Clear();
 
   // Ctor Parameters [CppParam { name: "", ty: "IPAddressCollection", modifiers: "&&", def_value: None }]

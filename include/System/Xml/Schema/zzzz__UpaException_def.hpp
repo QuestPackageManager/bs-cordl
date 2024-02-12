@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::System::Xml::Schema::UpaException);
 namespace System::Xml::Schema {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2561))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11595))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11493))
 // CS Name: ::System.Xml.Schema::UpaException*
 class CORDL_TYPE UpaException : public ::System::Exception {
 public:
@@ -43,7 +43,7 @@ public:
 
   static inline ::System::Xml::Schema::UpaException* New_ctor(::System::Object* particle1, ::System::Object* particle2);
 
-  /// @brief Method .ctor, addr 0x28acab0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28b0118, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* particle1, ::System::Object* particle2);
 
   // Ctor Parameters [CppParam { name: "", ty: "UpaException", modifiers: "&&", def_value: None }]

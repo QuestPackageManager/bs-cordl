@@ -30,39 +30,39 @@ MARK_REF_PTR_T(::System::Xml::Schema::XmlBooleanConverter);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11748))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11752))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11646))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11650))
 // CS Name: ::System.Xml.Schema::XmlBooleanConverter*
 class CORDL_TYPE XmlBooleanConverter : public ::System::Xml::Schema::XmlBaseConverter {
 public:
   // Declarations
   static inline ::System::Xml::Schema::XmlBooleanConverter* New_ctor(::System::Xml::Schema::XmlSchemaType* schemaType);
 
-  /// @brief Method .ctor, addr 0x28d6a14, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28d907c, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaType* schemaType);
 
-  /// @brief Method Create, addr 0x28b7b1c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x28ba184, size 0x60, virtual false, abstract: false, final false
   static inline ::System::Xml::Schema::XmlValueConverter* Create(::System::Xml::Schema::XmlSchemaType* schemaType);
 
-  /// @brief Method ToBoolean, addr 0x28d6a78, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method ToBoolean, addr 0x28d90e0, size 0xa8, virtual true, abstract: false, final false
   inline bool ToBoolean(::StringW value);
 
-  /// @brief Method ToBoolean, addr 0x28d6b20, size 0x2dc, virtual true, abstract: false, final false
+  /// @brief Method ToBoolean, addr 0x28d9188, size 0x2dc, virtual true, abstract: false, final false
   inline bool ToBoolean(::System::Object* value);
 
-  /// @brief Method ToString, addr 0x28d6dfc, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x28d9464, size 0x58, virtual true, abstract: false, final false
   inline ::StringW ToString(bool value);
 
-  /// @brief Method ToString, addr 0x28d6e54, size 0x2cc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x28d94bc, size 0x2cc, virtual true, abstract: false, final false
   inline ::StringW ToString(::System::Object* value, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method ChangeType, addr 0x28d7120, size 0x32c, virtual true, abstract: false, final false
+  /// @brief Method ChangeType, addr 0x28d9788, size 0x32c, virtual true, abstract: false, final false
   inline ::System::Object* ChangeType(bool value, ::System::Type* destinationType);
 
-  /// @brief Method ChangeType, addr 0x28d744c, size 0x340, virtual true, abstract: false, final false
+  /// @brief Method ChangeType, addr 0x28d9ab4, size 0x340, virtual true, abstract: false, final false
   inline ::System::Object* ChangeType(::StringW value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method ChangeType, addr 0x28d778c, size 0x15a0, virtual true, abstract: false, final false
+  /// @brief Method ChangeType, addr 0x28d9df4, size 0x15a0, virtual true, abstract: false, final false
   inline ::System::Object* ChangeType(::System::Object* value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlBooleanConverter", modifiers: "&&", def_value: None }]

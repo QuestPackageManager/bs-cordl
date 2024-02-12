@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::System::IO::UnexceptionalStreamReader);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3575))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3635))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3572))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3633))
 // CS Name: ::System.IO::UnexceptionalStreamReader*
 class CORDL_TYPE UnexceptionalStreamReader : public ::System::IO::StreamReader {
 public:
@@ -46,25 +46,25 @@ public:
 
   static inline ::System::IO::UnexceptionalStreamReader* New_ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding);
 
-  /// @brief Method .ctor, addr 0x25448f8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2565518, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding);
 
-  /// @brief Method Peek, addr 0x2544968, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Peek, addr 0x2565588, size 0x88, virtual true, abstract: false, final false
   inline int32_t Peek();
 
-  /// @brief Method Read, addr 0x25449f0, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x2565610, size 0x88, virtual true, abstract: false, final false
   inline int32_t Read();
 
-  /// @brief Method Read, addr 0x2544a78, size 0x298, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x2565698, size 0x298, virtual true, abstract: false, final false
   inline int32_t Read(ByRef<::ArrayW<char16_t, ::Array<char16_t>*>> dest_buffer, int32_t index, int32_t count);
 
-  /// @brief Method CheckEOL, addr 0x2544d10, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method CheckEOL, addr 0x2565930, size 0x198, virtual false, abstract: false, final false
   inline bool CheckEOL(char16_t current);
 
-  /// @brief Method ReadLine, addr 0x2544ea8, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method ReadLine, addr 0x2565ac8, size 0x88, virtual true, abstract: false, final false
   inline ::StringW ReadLine();
 
-  /// @brief Method ReadToEnd, addr 0x2544f30, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method ReadToEnd, addr 0x2565b50, size 0x88, virtual true, abstract: false, final false
   inline ::StringW ReadToEnd();
 
   // Ctor Parameters [CppParam { name: "", ty: "UnexceptionalStreamReader", modifiers: "&&", def_value: None }]

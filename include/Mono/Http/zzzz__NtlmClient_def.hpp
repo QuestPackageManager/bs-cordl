@@ -47,7 +47,7 @@ MARK_REF_PTR_T(::Mono::Http::__NtlmClient____c);
 namespace Mono::Http {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8851))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6861))
 // CS Name: ::NtlmClient::<>c*
 class CORDL_TYPE __NtlmClient____c : public ::System::Object {
 public:
@@ -70,10 +70,10 @@ public:
 
   static inline ::Mono::Http::__NtlmClient____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x282682c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x282b014, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Authenticate>b__1_0, addr 0x2826834, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <Authenticate>b__1_0, addr 0x282b01c, size 0x5c, virtual false, abstract: false, final false
   inline ::Mono::Http::NtlmSession* _Authenticate_b__1_0(::System::Net::HttpWebRequest* x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__NtlmClient____c", modifiers: "&&", def_value: None }]
@@ -101,7 +101,7 @@ static_assert(::cordl_internals::size_check_v<::Mono::Http::__NtlmClient____c, 0
 namespace Mono::Http {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8852))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6862))
 // CS Name: ::Mono.Http::NtlmClient*
 class CORDL_TYPE NtlmClient : public ::System::Object {
 public:
@@ -124,18 +124,18 @@ public:
 
   static inline ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Net::HttpWebRequest*, ::Mono::Http::NtlmSession*>* getStaticF_cache();
 
-  /// @brief Method Authenticate, addr 0x2826368, size 0x384, virtual true, abstract: false, final true
+  /// @brief Method Authenticate, addr 0x282ab50, size 0x384, virtual true, abstract: false, final true
   inline ::System::Net::Authorization* Authenticate(::StringW challenge, ::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
 
-  /// @brief Method PreAuthenticate, addr 0x28266ec, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method PreAuthenticate, addr 0x282aed4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Net::Authorization* PreAuthenticate(::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
 
-  /// @brief Method get_AuthenticationType, addr 0x28266f4, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_AuthenticationType, addr 0x282aedc, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_AuthenticationType();
 
   static inline ::Mono::Http::NtlmClient* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2826734, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x282af1c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NtlmClient", modifiers: "&&", def_value: None }]

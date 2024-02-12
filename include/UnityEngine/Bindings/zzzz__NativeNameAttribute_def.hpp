@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::UnityEngine::Bindings::NativeNameAttribute);
 namespace UnityEngine::Bindings {
 // Is value type: false
 // Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16015))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16110))
 // CS Name: ::UnityEngine.Bindings::NativeNameAttribute*
 class CORDL_TYPE NativeNameAttribute : public ::System::Attribute {
 public:
@@ -32,12 +32,12 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method set_Name, addr 0x2d1837c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_Name, addr 0x2d38e24, size 0x8, virtual true, abstract: false, final true
   inline void set_Name(::StringW value);
 
   static inline ::UnityEngine::Bindings::NativeNameAttribute* New_ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x2d18384, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d38e2c, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
   // Ctor Parameters [CppParam { name: "", ty: "NativeNameAttribute", modifiers: "&&", def_value: None }]
